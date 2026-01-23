@@ -2,8 +2,8 @@ import os
 import json
 
 # 定义源目录和目标目录
-source_dir = r'd:\code\评价目录\md数据'
-target_dir = r'd:\code\评价目录\映射消歧\cleandata'
+source_dir = r'D:\code\cleandata'
+target_dir = r'D:\code\评价目录\json_data'
 
 # 确保目标目录存在
 if not os.path.exists(target_dir):
@@ -36,8 +36,8 @@ for file_name in os.listdir(source_dir):
                     if current_content:
                         # 合并当前内容行
                         content_text = '\n'.join(current_content).strip()
-                        # 按"  \n\n"分割段落
-                        paragraphs = content_text.split('  \n\n')
+                        # 按"\n\n"分割段落
+                        paragraphs = content_text.split('\n\n')
                         # 创建段落字典
                         paragraph_dict = {}
                         for i, para in enumerate(paragraphs):
@@ -59,8 +59,8 @@ for file_name in os.listdir(source_dir):
             if current_content:
                 # 合并当前内容行
                 content_text = '\n'.join(current_content).strip()
-                # 按"  \n\n"分割段落
-                paragraphs = content_text.split('  \n\n')
+                # 按"\n\n"分割段落
+                paragraphs = content_text.split('\n\n')
                 # 创建段落字典
                 paragraph_dict = {}
                 for i, para in enumerate(paragraphs):
