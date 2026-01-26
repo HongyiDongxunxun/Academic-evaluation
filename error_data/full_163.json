@@ -1,0 +1,90 @@
+{
+  "original_filename": "full_163.md",
+  "2009年以来本体映射系统模型研究综述": "",
+  "陶 俊²孙坦": {
+    "context1": "1中国科学院国家科学图书馆北京100190²中国科学院研究生院　北京100049",
+    "context2": "(摘要）本体映射系统分为通用映射系统和领域映射系统两大类型,从模型和流程视角综述2009年RiMOM、AS-MOV、DSSim、OntoMap、OntSE五种本体映射系统模型,认为本体映射研究在关联数据等新兴前沿领域的应用有待进一步深化。",
+    "context3": "（关键词）本体映射系统映射模型OAEI 关联数据(分类号）G350",
+    "context4": "A Survey on Model for Ontology Mapping Systems Since 2009",
+    "context5": "Tao $\\operatorname { J u n } ^ { 1 , 2 }$ Sun Tan1",
+    "context6": "l National Science Library of Chinese Academy of Sciences ,Beijing 100190   \n² Graduate University of Chinese Academy of Sciences，Beijing 100049",
+    "context7": "(Abstract）Ontology mappng system is divided intogeneric systemanddomain specificsystem,in whichreviews fiveresearch models such as RiMOM,ASMOV,DSSim,OntoMapandOntSE.Researchonontology mappingshouldbedepened infacilitatingfurtherapplication of linked data.",
+    "context8": "(Keywords）ontology mapping system mapping model OAEI linked data"
+  },
+  "1引言": "",
+  "2通用系统模型": {
+    "context1": "本体映射是实现本体互操作的关键。本体映射系统是建立在本体映射方法基础上的，发现本体映射的方法一般分为四种 ： $\\textcircled{1}$ 术语方法:借助自然语言处理技术，比较映射对象之间的相似度，以发现异构本体间的联系; $\\textcircled{2}$ 结构方法:分析异构本体之间结构上的相似,寻找可能的映射规则; $\\textcircled{3}$ 实例方法:借助本体中的实例，利用机器学习等技术来寻找本体间的映射; $\\textcircled{4}$ 综合方法：在一个映射系统中同时采用多种寻找本体映射的方法，弥补不同方法的不足。",
+    "context2": "现有的本体映射系统可分为两种类型: $\\textcircled{1}$ 通用系统(Generic Systems）。这类系统一般采用通用方法,如不确定性推理、机器学习、相似度聚合等构建系统平台，一般可满足多个不同领域的映射需求，在语义网环境下潜在支持各种应用。 $\\textcircled{2}$ 领域系统(Domain SpecificSystems）。这类系统针对特定领域问题(例如医疗、农业等)的本体映射需求,使用具体的领域规则,后发训练或背景知识，在映射方案中具有较强的针对性。本文主要综述这两类系统模型近年来的代表成果。",
+    "context3": "早期学者们开发了多种本体映射系统,如GLUE，QOM，PROMPT等。近年来在国际语义网会议的推动下,特别是举办 OAEI( the Ontology Alignment Evalua-tionInitiative)竞赛以来，多种通用本体映射系统亮相OAEI,有效促进了本体映射的发展。例如,Falcon-AO、PRIOR $+ ^ { \\mathrm { ~ \\tiny ~ \\mathbb { H } ~ } }$ 、 $\\mathrm { D S S i m } ^ { \\mathrm { ~ \\tiny ~ { ~ \\mathtt { 6 } ~ } ~ } }$ 等近 20 种本体映射系统先后参加比赛。本文选取全程参与最近三届(2007 -2009)OAEI竞赛的通用系统，这些系统由于连年参赛，在测试中不断改进与完善，基本代表了本体映射系统最新的发展水平。",
+    "context4": "2.1RiMOM",
+    "context5": "RiMOM是多策略动态本体映射系统，其采用贝叶斯理论，结合自然语言处理技术整合多种本体映射策略。RiMOM框架见图1。",
+    "context6": "结合图1,可将RiMOM匹配过程概括为以下5个步骤：",
+    "context7": "2.1.1本体预处理与特征因素评估将待匹配本体装入存储器建立本体图表，去除非相关信息，计算待匹本文起止页码:101－104,131 本文责任编辑:高丹配本体的标签相似因子、结构相似因子和标签意义相似因子，以此评估策略选择。",
+    "context8": "![](images/d5893cf670a2484074f0affed792d6d55219d04ae1eeacd5825b315f209f9369.jpg)  \n图1 RiMOM框架",
+    "context9": "2.1.2策略选择执行策略选择算法，即如果两个本体具有某些相同的特征，那么基于这些特征信息的策略将被选择并进行加权;如果本体特征信息较低，那么将不采取基于上述特征信息的策略。",
+    "context10": "2.1.3单个策略执行得到所选策略后，发现个体匹配,每一个策略输出一个匹配结果。"
+  },
+  "2.1.4策略结果整合通过线性插值方法合并匹配结果。": {
+    "context1": "2.1.5相似度优化与精炼如果两个本体有较高的结构相似因子，使用相似度优化过程进一步精炼发现的映射，依照结构化信息发现新的匹配。RiMOM基于相似度传播理论( Similarity Propagation Theory）提供了3 种相似度聚合策略，分别是概念-概念、概念－属性、属性－属性聚合方法。在此基础上，系统通过多个后发式规则剔除不可靠的映射，精炼匹配结果。",
+    "context2": "RiMOM是以贝叶斯决策理论为基础开发的本体映射系统，它在OAEI2009中参与了标准测试、解剖测试、目标匹配和实例匹配4种类型的竞赛。作为2009年新推出的实例匹配测试项目，其由于具有更多实例的语义信息及属性,测试要求更高。为此,RiMOM在优化OAEI2008 版本中8种策略的同时,针对实例特征推出了若干新方法。与此同时，亦有若干问题有待进一步提升。例如，面对比原有模式文档多得多的大规模实例文档,RiMOM在测试的效率及稳定性方面如何保证;此外，如何深层次挖掘实例的语义信息等也是研究面临的重要挑战。",
+    "context3": "2.2ASMOV",
+    "context4": "ASMOV是由美国Jean-Mary等人开发的自动化本体映射工具，其目标是促进异构本体的整合，ASMOV运用迭代计算分析3种特征计算实体本体对的相似度，产生基于概念间的映射、属性间的映射和个体间的"
+  },
+  "映射(包括对象与数据类型属性间的映射）。其过程如图2所示：": {
+    "context1": "![](images/1ccb7c076bf253133e9fc938333a719d65c4f8858b2a5916f06f95a9abaa9ca3.jpg)  \n图2ASMOV映射过程",
+    "context2": "2.2.1　预处理　ASMOV 使用 Jena 的 ARP解析器和建模组件加载解析本体,采用UMLS元词表或Word-Net计算概念、属性和个体间的词表相似度,运用文本匹配算法计算词表距离。",
+    "context3": "2.2.2　相似度计算与预匹配²ASMOV 通过外部匹配、内部匹配和个体匹配算法计算实体对的关系结构相似、内部结构相似和扩展程度相似,得到基于相似策略的概念矩阵、属性矩阵和个体矩阵等3个二维矩阵。随后抽取具有最高相似计算的本体与其他本体形成联系实体，完成预匹配。",
+    "context4": "2.2.3语义确认与匹配结果查找并除去预匹配中语义不一致的映射，并将其保存在日志文档中,避免后续迭代重复，直至找到可匹配的所有结果。",
+    "context5": "从整体上来看，ASMOV在召回率和F度量方面较2008 年已取得不俗成绩的基础上再次有了提升[与此同时,在 IMB（ISLab Instance Matching Bench-mark)测试方面结果高度准确;在实例匹配中的彻底重新设计，有效改善了性能。针对其测试的范围及卓越性能,ASMOV可用于书目、生物医学等多种领域本体方面。值得关注的是，基于大规模实例文档的实例匹配,ASMOV仍需进一步优化。"
+  },
+  "2.3 DSSim": {
+    "context1": "DSSim是由英国开放大学Nagy等人共同研制，适合大规模本体映射的通用系统。它是基于多智能代理体系结构的本体映射系统，每一个智能代理通过特定映射假设的修正建立一个可信函数(belief），大量可信函数整合得到更为合理的匹配策略，从而提供最佳映射（主要流程见图3）。",
+    "context2": "·基于特定参数将大规模本体分割成 $\\mathrm { ~ n ~ } ^ { * } \\mathrm { ~ m ~ }$ 片段，解析本体片段并将其装入匹配任务队列。",
+    "context3": "·执行匹配安排，向空闲处理器核分配任务: $\\textcircled{1}$ 从本体1中选择用户使用的概念或属性并考虑其作为查询片段;在算法上参考WordNet,通过WordNet的上位词扩大查询概念或属性。 $\\textcircled{2}$ 从本体2考虑在语句构成上相似的概念或属性构建查询图，建立局部本体图查询，其中包含概念和属性以及上述环境的局部本体查询片段。 $\\textcircled{3}$ 通过语义相似度算法评估查询结点与本体片段两者的相似值。 $\\textcircled{4}$ 可信质量函数由登普斯特整合规则( Dempster’s rule of combination） 构成,并受相似性矩阵的制约。处理器选用计算值最高的可信质量函数进行映射，对于不符合条件的进行迭代计算。",
+    "context4": "![](images/4336fd0c1b2c192d9a518bddb46deab4efb3a4e1ba3fe88e572c1ae13670f1e8.jpg)  \n图3DSSim双核处理器映射过程",
+    "context5": "·将所选的映射加入匹配集合中，获得匹配结果。DSSim针对本体映射中表示和推理的不确定性在问答情景中采取登普斯特-谢弗理论，这与同为解决不确定性的RiMOM 运用贝叶斯理论不同。DSSim 参与了OAEI2009 中的标准测试、解剖测试、目录测试、实例匹配等4类共7个项目的竞赛，它与ASMOV是该年度参加项目最多的两位，但在召回率和F度量测评方面 DSSim 均与 ASMOV 存在差距。"
+  },
+  "2.4小结": {
+    "context1": "除上述三种本体映射系统外,还有另外两种本体映射系统 Lily和 TaxoMap[亦参与了OAEI近3年的比赛。其中,Lily 是基于语义子图的通用本体映射系统,TaxoMap是以发现概念间的丰富联系为目标的本体匹配工具。限于篇幅，这里不再赘述。"
+  },
+  "3 领域系统模型": {
+    "context1": "领域系统是建立在某一特定领域或解决某一特定问题的本体映射系统。较通用系统而言，领域系统在解决特定领域本体互操作方面有其优势。",
+    "context2": "3.1OntoMap",
+    "context3": "来自巴西圣保罗大学科学计算与数学研究所的Linhalis等学者，针对自然语言与计算机进行通信除英语外尚不能够支持多种语言交流的特点，提出采用国际语(通用网络语言中的一种)作为自然语言和计算机之间的中介,通过软件构件执行检索的思路。其目标是促进多种自然语言在计算机中进行处理，为此，他们提出了OntoMap 结构模型[,结构如图4所示:",
+    "context4": "![](images/0632fafccb45d047b1e6a4adee09456285e33cb1b2f01e3e7dcfd676c9997f9d.jpg)  \n图4OntoMap 结构模型",
+    "context5": "OntoMap模型主要是通过通用网络语言(UniversalNetworking Language,UNL）和软件构件来执行自然语言的请求，OntoMap通过访问UNL表示推断构件的语义信息，然后使用该语义信息查找一个乃至多个合适的构件执行请求。为了完成这一目标，OntoMap通过语义映射模块将UNL和构件联系起来。如图4所示，OntoMap模型分为UNL转换、语义映射、构件搜寻与检索三部分。其中，语义映射模块的工作流程如图5所示：",
+    "context6": "![](images/a697adebb4336bd26c477b914f58234205269c48846c0b1a7fd9a5d2d2e5a848.jpg)  \n图5语义映射模块",
+    "context7": "InterComp本体(国际语构件本体)在语义映射模块中扮演重要作用，它与规则一起定义国际语与软件构件之间的关系，同时InterComp本体还用来搜寻和检索软件构件，最终达到执行自然语言请求的目的。In-terComp本体将UNL和构件的语义信息联系起来，UNL令牌分类器在InterComp 本体中对UNL 语句分类,通过具体的规则推断构件的语义信息，随后通过语义信息搜寻语义信息构件，完成语义映射。",
+    "context8": "OntoMap模型与其他研究的不同在于将自然语言请求转换成国际语，使得多种自然语言，特别是使用较少的自然语言(限制语)能够在计算机中处理。但是，其方案仍需借助大量实验抽取更多国际语的语义信息。此外,UNL项目的成熟对OntoMap的发展具有关键影响。"
+  },
+  "3.2OntSE": {
+    "context1": "为了克服企业信息系统用户在找寻用户所需要的语义层面的相似信息方面存在的局限，韩国科学技术院 $\\mathrm { J u n g ~ M }$ 等人运用多维相似与贝叶斯网络方法提出了 OntSE 模型[@,如图6所示:",
+    "context2": "![](images/3f780c28ce5d2a055588532b9cd31f807f1350a760298ae268b0895622fddd64.jpg)  \n图6OntSE 结构模型",
+    "context3": "OntSE 模型主要由4个本体库和3个模块组件组成:即用户本体库(UOL）、内部形式本体库(IOL）、分类本体库(TOL)和匹配本体库(MOL），分别用来存取用户本体(UO）、内部形式本体(IOL）、分类本体(TO)和匹配本体（MO）。三个模块分别是本体构建模块、本体映射模块和本体更新模块，其功能分别是：",
+    "context4": "·本体构建:构建用户的关键词本体。",
+    "context5": "·本体映射：本体库中用户关键词与存储的术语(概念)之间的本体映射。",
+    "context6": "·本体更新：其目标是通过多维相似与贝叶斯网络算法找到基于用户关键词的相同语义的术语。",
+    "context7": "OntSE系统主要用于搜索不同企业信息系统的文档语义信息，用户可通过关键词在上述方法的支持下找寻相关概念的语义，在用户协作的基础上检索到相关文档。OntSE 模型具有3个典型特征: $\\textcircled{1}$ 通过本体映射找到用户要查找的在语义上相似的概念; $\\textcircled{2}$ 利用用户的关键词描述更新本体库; $\\textcircled{3}$ 用户的历史匹配决策被用来帮助随后的用户搜索。该系统的不足是对于具体领域的参数或加权因子需要大量实验，在此基础上调整赋于合适的参数值满足具体领域信息的需求。"
+  },
+  "4本体映射系统评价": {
+    "context1": "无论是通用系统还是领域系统，本体映射系统的优劣均需要检验和比较。以通用系统为例，其评价一般采用OAEI竞赛所提供的公共数据集进行测验。国际语义网会议自2004年开始每年举办一次OAEI竞赛，截至2009年已举办6次。该年测评体系包括5个大类共11 种数据集[。其中标准测试是竞赛的基础,其目标是考查本体映射系统在算法方面的强弱；而实例匹配则成为近年来关注的热点。上述各类评价指标包括查准率、召回率和F度量，计算公式如下:",
+    "context2": "查准率: $\\mathrm { P = }$ 发现正确的映射/发现所有的映射召回率: $\\mathrm { R } =$ 发现正确的映射/所有可能的映射",
+    "context3": "F度量： $\\mathrm { F \\mathrm { - } m = 2 ^ { \\ast } \\ P ^ { \\ast } \\ P / \\left( \\ P + R \\right) }$",
+    "context4": "对于大规模本体的数据集来说，查准率和召回率两者相互制约，F度量是上述两种指标的一种平衡。"
+  },
+  "5展望": {
+    "context1": "上述五种研究模型是本体映射研究最新发展的一个侧面。尽管本体映射已成为相对成熟的研究领域，但仍存在很多问题尚待进一步研究，特别是在与相关前沿研究领域的结合方面，本体映射模型及其若干方法的应用亟待关注。例如，发展近5年的关联数据(linkeddata）近年来成为图书情报界关注的热点[8-19] 。瑞典、德国、英国等国国家图书馆率先将联合目录、词表或书目数据发布为关联数据，与其他多种资源建立了关联。但是如何将这些关联起来的数据实现进一步整合，以推动关联数据的深层应用成为发展的瓶颈。一些研究人员提出可尝试将本体映射的若干研究成果引入到关联数据中，在解决关联数据的实例异构和值的转换等方面发挥作用，这方面的研究有待深入 20-21 。"
+  },
+  "参考文献:": {
+    "context1": "[1] Newman E J. Scaling and percolation in the small-worldnetwork model. Physical Review E, 1999,60(6) : 7332 -7342.",
+    "context2": "[2]Barabäsi AL，Albert R. Emergence of scaling in random networks.Science，1999,286(5439) : 509 -512.  \n[3]Barabási AL,Albert ${ \\mathrm { R } } ,$ Jeong ${ \\mathrm { H } } ,$ et al.Power-Law distribution ofthe World Wide Web. Science,2000,287( 5461) : 2115.  \n[4］ 李涛,关治洪.病毒在无标度网络上的传播及控制仿真研究.计算机应用研究,2007,24(12):177-182.  \n[5]倪小军,王美娟.无标度网络的3种病毒控制策略研究.上海理工大学学报,2006,28(3) :249 -256.  \n[6]吴俊,谭跃进,邓宏钟,等.无标度网络拓扑结构非均匀性研究.系统工程理论与实践,2007(5):101-105.  \n[7］ 杜海峰,李树茁.小世界与无标度网络的社区结构研究.物理学报,2007,56(12) : 6886 -6893.  \n[8］ 裴伟东,陈增强.利用朋友机制生成一类无标度网络.吉林大学学报(信息科学版),2007,25(4):371 -378.  \n[9]DorogovtseV S N,Mendes JF F.Scaling properties of scale-free $_ { \\mathrm { { e - } } }$ volving network: Continuous approach. Physical Review E,2001,63(5) : 056125.  \n[10] DorogovtseV S N,Mendes JFF.Effect of the accelerating growth ofcommunications networks on their structure. Physical Review E,2001,63(5) : 025101.  \n[11] Jari S，Kimmo K. Scale-free networks generated by random walk-ers. Physica A，2004,341: 80286.",
+    "context3": "(作者简介）刘秋梅，女,1976年生，副研究馆员，硕士，发表论文10余篇。郑耿忠，男，1975年生，副教授,硕士，发表论文20 余篇。"
+  },
+  "4结论": {
+    "context1": "无标度网络的出现，为探索和构建符合实际演化规律的安全、可靠、高效的NEE提供了很好的理论指导。本文从网络计量学的角度分析了电子商务网络环境的无标度网络特征，提出一种具有重构机制的加速演化无标度网络模型，该模型最大的特点就是充分考虑了电子商务网络环境的实际特点，并通过重构机制的引入，使得构建的电子商务网络环境具有很强的鲁棒性，能有效面对随机和蓄意情况下的攻击。利用该模型，可以根据电子商务网络环境的实际情况,通过随机加点、删边、断边重连等方式对整个网络进行调控，使网络环境朝着理想的、有利的方向发展。在网络技术迅猛发展，各种智能化工具日益涌现的环境下，将无标度网络理论运用于构建安全、可靠、高效的电子商务网络环境的研究，必将推动其理论研究和实践操作引向深入。"
+  },
+  "(上接第104页)": {
+    "context1": "[8] Unified medical language system． [2010-08 -26] .htp: //www. nlm. nih. gov/research/umls/.   \n[9]WordNet. [2010 -O8 -26] .htp: //wordnet.princeton. edu/.   \n[10]Jean - Mary YR,Kabuka M R. ASMOV: Results for OAEI 2008. [010 -09 -05] .htp: //www.dit.unitn.it/ \\~ p2p/OM - 2008 / oaei08_paper3.pdf.   \n[11]Nagy M,Vargas-Vera M,Stolarski P. DSSim results for OAEI 2009. [2010 -08 -26] .htp: //om2009.ontologymatching.org/#ap.   \n[12] Dempster-Shafer theory. [2010-11 -15]．htp://en.wikipedia. org/wiki/Dempster% E2% 80% 93 Shafer_theory.   \n[13] Wang Peng,Xu Baowen.Lily: Ontology alignment results for OAEI 2009．[2010 -08-26]．http://om2009.ontologymatching.org/# ap.   \n[14]Hamdi F,Safar B,Niraula N,et al. TaxoMap in the OAEI 2009 alignment contest．[2010-08－26].http://om2009.ontologymatching. org/#ap.   \n[15] Linhalis F,de Mattos Fortes R P,de Abreu Moreira D. OntoMap: An ontology-based architecture to perform the semantic mapping between an interlingua and software components. Knowledge information system,2010,22(3) :319 -345.   \n[16] Jung M,Jun H B,Kim K W,et al. Ontology Mapping -based search with multidimensional similarity and Bayesian network. International Journal of Advanced Manufacturing Technology,2010,48(4) : 367 -382.   \n[i7] Euzenat J,Ferrara A,Hollink L,et al.Results of the ontology alignment evaluation initiative 2009． [010 -8 -30] .http://om2009. ontologymatching. org/#ap.   \n[18]Hannemann J.Linked data for libraries．[O11-O3-O2] .http: // www. ifla.org/files/hq/papers/ifla76 /149 -hannemann - en. pdf.   \n[9] Malmsten M. Exposing library data as linked data. [2O11 - 03 - 02] ．www. ifla2009 satelliteflorence.it/meeting3 /program/assets / MartinMalmsten. pdf.   \n[0] Bizer C,Heath T,Berners-Lee T.Linked Data-the story so far. International Journal Semantic Web Information System,2009,5(3) : 1 -22.   \n[1] Millard I C,Glaser H,Salvadores M,et al. Consuming multiple linked data sources: Challenges and experiences. [2010 - 12 - 10] .http: //eprints.ecs.sotom. ac.uk/21681.",
+    "context2": "(作者简介）陶俊，男，1983年生，博士研究生，发表论文7篇。孙坦,男，1970 年生，研究馆员，博士生导师，发表论文90余篇。"
+  }
+}

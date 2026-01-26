@@ -1,0 +1,80 @@
+{
+  "original_filename": "full_8078.md",
+  "用文献统计分析法预测科学生产率的增长趋势": {
+    "context1": "江西省修水县科技情报所 胡雄彪",
+    "context2": "提要本文利用江西高教系统1978一1984年科技成果的统计，求出了成果随年度增长的回归方程,验证了相关程度和精度,预测了今后十年科技成果的增长趋势。"
+  },
+  "一、引言": {
+    "context1": "![](images/bb853f8ada8d91e6a5a0585f2e9541c1f57449a9695a7eb02f203ec41d46f88e.jpg)",
+    "context2": "科技成果是衡量科技发展水平的可靠尺度,科学技术的发展速度其主要就表现在科技成果的增长程度上。因此,根据科技成果的消长动态来探索科技发展的某些规律，从而可以提供定量的数据来预测科学生产率的增长趋势;以指导今后的科技工作。",
+    "context3": "对科学发展的预测,除了直接对其进行分析外,还有许多间接的方法。本文采用文献统计学中回归分析的方法,对科技成果的增长趋势进行预测。"
+  },
+  "二、科学生产率增长趋势预测": "",
+  "1、数据的采集：": {
+    "context1": "本研究选用江西省教育厅1986年出版的《江西省高等学校科学技术成果汇编》为材料，该汇编收录了江西省高教系统1978—1984年度的全部科技成果,共计970项,其中包括研究成果 240项,学术论文624篇，专著和教材106部。成果的时间归属是这样的：",
+    "context2": "①研究成果,以正式通过鉴定的时间记入，未正式鉴定者以获奖时间记入;",
+    "context3": "$\\textcircled{2}$ 学术论文,以第一次在全国性学术刊物上发表或第一次在全国性学术会议上宣读、交流的时间记入;",
+    "context4": "$\\textcircled{3}$ 教材和专著,以第一次正式出版的时间记入。",
+    "context5": "在采集数据时,970项成果中有11项未注明时间,故未被统计进来,因此,实际采集的成果数为959项。数据统计见表1:",
+    "context6": "表1江西省高教系统各年科技成果量",
+    "context7": "<table><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>1978</td><td rowspan=1 colspan=1>1979</td><td rowspan=1 colspan=1>1980</td><td rowspan=1 colspan=1>1981</td><td rowspan=1 colspan=1>1982</td><td rowspan=1 colspan=1>1983</td><td rowspan=1 colspan=1>1984</td><td rowspan=1 colspan=1>合计</td></tr><tr><td rowspan=1 colspan=1>年度编号X</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>28</td></tr><tr><td rowspan=1 colspan=1>年度成果（项）y</td><td rowspan=1 colspan=1>75</td><td rowspan=1 colspan=1>71</td><td rowspan=1 colspan=1>93</td><td rowspan=1 colspan=1>130</td><td rowspan=1 colspan=1>196</td><td rowspan=1 colspan=1>171</td><td rowspan=1 colspan=1>223</td><td rowspan=1 colspan=1>959</td></tr></table>"
+  },
+  "2、求回归方程：": {
+    "context1": "将表1的年度科技成果数与年度编号的关系在直角坐标上作散点图,见图。",
+    "context2": "![](images/325789f485edfff64a6eaf7a39254af448e7dd2a8fdf699f50e974ba331213bf.jpg)  \n年度编号（X）",
+    "context3": "由图可见,这些数据点大体上近似于一条直线,因此,可用一元线性回归方程表示,即",
+    "context4": "$$\n\\bigwedge = \\mathbf { a } + \\mathbf { b } \\mathbf { x }\n$$",
+    "context5": "式中,回归系数a和 $\\mathfrak { b }$ 可用最小二乘法求得。  \n计算时先将表1的数据加工处理,得表2。",
+    "context6": "表2年度科技成果量与年度",
+    "context7": "<table><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1>y</td><td rowspan=1 colspan=1>x²</td><td rowspan=1 colspan=1>y²</td><td rowspan=1 colspan=1>xy</td></tr><tr><td rowspan=1 colspan=1>1978</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>75</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>5625</td><td rowspan=1 colspan=1>75</td></tr><tr><td rowspan=1 colspan=1>1979</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>71</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>5041</td><td rowspan=1 colspan=1>142</td></tr><tr><td rowspan=1 colspan=1>1980</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>93</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>8649</td><td rowspan=1 colspan=1>279</td></tr><tr><td rowspan=1 colspan=1>1981</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>130</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>16900</td><td rowspan=1 colspan=1>520</td></tr><tr><td rowspan=1 colspan=1>1982</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>196</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>38416</td><td rowspan=1 colspan=1>980</td></tr><tr><td rowspan=1 colspan=1>1983</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>171</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>29241</td><td rowspan=1 colspan=1>1026</td></tr><tr><td rowspan=1 colspan=1>1984</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>223</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>49729</td><td rowspan=1 colspan=1>1561</td></tr><tr><td rowspan=1 colspan=1>£</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>959</td><td rowspan=1 colspan=1>140</td><td rowspan=1 colspan=1>153601</td><td rowspan=1 colspan=1>4583</td></tr></table>",
+    "context8": "由表2可得： $\\sum \\mathbf { x } { = } 2 8$ ，£ $\\mathbf { y } { = } 9 5 9$ ，M ${ \\mathrm {  ~ x } } ^ { 2 } { = } 1 4 0$ M $\\scriptstyle \\mathbf { y } ^ { 2 } = 1 5 3 6 0 { \\overline { { 1 } } }$ ， $\\sum$ $\\mathrm { x y } { = } 4 5 8 3$ ，$\\overline { { \\mathbf { x } } } = 4$ ， $\\overline { { \\bf y } } = 1 3 7$ ， $\\mathtt { n } = 7$ 。其中， $\\mathbf { n }$ 为年度编号的个数。",
+    "context9": "X的离差平方和 $\\mathrm { S S } _ { \\mathrm { x } } { = } \\sum \\ ( \\mathrm { x } { - } \\overline { { \\mathrm { x } } } ) ^ { 2 }$ ,y的离差平方和 $\\mathrm { \\bf S S y = \\sum }$ (y-y)²,以及xy的离差乘积和$\\mathrm { S P } { = } \\sum$ $\\left( { \\tt x } { - } \\overline { { \\tt x } } \\right) \\left( \\mathrm { y } { - } \\overline { { \\tt y } } \\right)$ ,实际计算时可变换成下列公式：",
+    "context10": "$$\n\\begin{array} { l } { { \\displaystyle { \\bf S } { \\bf S } _ { \\bf x } = \\sum { \\bf x } ^ { 2 } - \\frac { 1 } { \\bf n } ~ ( \\Sigma { \\bf x } ) ^ { 2 } } \\ ~ } \\\\ { { \\displaystyle } } \\\\ { { \\displaystyle { \\bf S } { \\bf S } _ { \\bf y } = \\Sigma { \\bf y } ^ { 2 } - \\frac { 1 } { \\bf n } ~ ( \\Sigma { \\bf y } ^ { 2 } ) ^ { 2 } \\ ~ } } \\\\ { { \\displaystyle } } \\\\ { { { \\bf S } { \\bf P } = \\Sigma { \\bf x } { \\bf y } - \\frac { 1 } { \\bf n } ~ ( \\Sigma { \\bf x } ) ~ ( \\Sigma { \\bf y } ) } } \\end{array}\n$$",
+    "context11": "将数据代入(2)式计算可得:",
+    "context12": "$$\n\\mathbf { S } \\mathbf { S } _ { \\mathbf { x } } = 1 4 0 - \\frac { 1 } { 7 } \\times 2 8 ^ { 2 } = 2 8\n$$",
+    "context13": "$$\n\\begin{array} { l } { S S y = 1 5 3 6 0 1 - \\displaystyle \\frac { 1 } { 7 } \\times 9 5 9 ^ { 2 } = 2 2 2 1 8 } \\\\ { { \\displaystyle \\mathrm { S P } } = 4 5 8 3 - \\displaystyle \\frac { 1 } { 7 } \\times 2 8 \\times 9 5 9 = 7 4 7 } \\end{array}\n$$",
+    "context14": "根据最小二乘法",
+    "context15": "$$\n{ \\begin{array} { r } { \\mathbf { b } = { \\frac { \\mathbf { n } \\cdot \\mathbf { \\nabla } \\sum \\mathbf { x } \\mathbf { y } - \\mathbf { \\left( \\sum \\mathbf { x } \\right) } { \\mathbf { \\Omega } } \\left( \\mathbf { \\mu } \\sum \\mathbf { y } \\right) } { n \\cdot \\mathbf { \\nabla } \\sum \\mathbf { x } ^ { 2 } - { \\mathbf { \\Omega } } ( { \\vec { \\Omega } } \\cdot { \\vec { \\mathbf { x } } } ) ^ { 2 } } } = { \\frac { \\mathbf { S } \\mathbf { P } } { \\mathbf { S } \\mathbf { S } \\mathbf { x } } } } \\\\ { \\mathbf { \\Omega } = { \\frac { 7 2 4 } { 2 8 } } = 2 6 . 6 8 } \\end{array} }\n$$",
+    "context16": "$$\n\\begin{array} { c } { \\mathbf { a } = \\bar { \\mathbf { y } } - \\mathbf { b } \\bar { \\mathbf { x } } } \\\\ { = 1 3 7 - 2 6 . 6 8 \\times \\mathbf { \\mathit { 4 } } = 3 0 . 2 8 } \\end{array}\n$$",
+    "context17": "因此得到,年度科技成果量对年度的回归直线方程是：",
+    "context18": "$$\n\\begin{array} { r l } { \\widehat { \\mathsf { y } } ^ { } = 3 0 . 2 8 + } & { { } 2 6 . 6 8 \\mathbf { x } } \\end{array}\n$$",
+    "context19": "这里，回归系数 ${ \\sf b } = 2 6 . 6 8$ ，说明在本研究统计的范围内,年度平均增加的科技成果量为26.68项。",
+    "context20": "根据方程计算出 $\\mathbf { X }$ 的相对值,并在坐标上画出回归直线，见图。"
+  },
+  "3、精度估算：": {
+    "context1": "(1)回归直线与数据点之间的相关性检验，即求相关系数 $\\boldsymbol { \\mathsf { r } }$ ：",
+    "context2": "$$\n\\mathbf { r _ { \\lambda } } = \\frac { \\mathbf { S P } } { \\sqrt { \\mathbf { S S } _ { \\mathbf { x } } \\cdot \\mathbf { S S } _ { \\mathbf { y } } } } = \\frac { \\Sigma ( \\mathbf { x } - \\bar { \\mathbf { x } } ) ( \\mathbf { y } - \\bar { \\mathbf { y } } ) } { \\sqrt { \\sum ( \\mathbf { x } - \\bar { \\mathbf { x } } ) ^ { 2 } \\mathbf { \\lambda } \\cdot \\Sigma ( \\mathbf { y } - \\bar { \\mathbf { y } } ) ^ { 2 } } }\n$$",
+    "context3": "将数据代入(4)式得",
+    "context4": "$$\n\\mathsf { r } = \\frac { \\mathsf { \\check { \\Psi } } ^ { 4 } \\mathsf { 7 } } { \\mathsf { V } ^ { 2 } 8 \\times 2 2 2 1 8 } = 0 . 9 4 7\n$$",
+    "context5": "本研究建立回归方程时，用了a和 $\\mathfrak { b }$ 两个统计数,故它的自由度 $\\mathbf { V } = { \\mathfrak { n } } { - } 2 = \\ 5$ （在本研究中 $\\mathfrak { n }$ 为7),查相关系数检验表得：",
+    "context6": "当 $\\mathtt { a } = 0 . 0 5$ 时， $\\mathrm { r } _ { 0 . 0 5 } = \\ 0 . 7 5 4 ,$",
+    "context7": "当 $\\mathbf { a } = 0 . 0 1$ 时， $\\mathfrak { r } _ { 0 . 0 ! } = \\ 0 . 8 7 4 .$ 本研究 $\\mathrm { r } { = } 0 . 9 4 7 > \\mathrm { r } _ { 0 . 0 1 }$ ,相关性很好，说明年度科技成果量与年度编号的相关性极显著，配合的回归直线方程很有价值。",
+    "context8": "(2)分析回归直线方程的精度，即求标准差S:",
+    "context9": "$$\n\\mathsf { S } = \\sqrt { \\frac { \\sum ( \\mathbf { y } _ { \\mathsf { i } } - \\hat { \\mathbf { y } } ) ^ { 2 } } { \\mathbf { n } - \\mathbf { \\nabla } 2 } }\n$$",
+    "context10": "代入数据计算得到 ${ \\bf S } = 2 1 . 4$ 。因数据点服从正态分布，因此在图中可作出两条平行于回归直线 $\\hat { \\mathsf { y } } = \\mathsf { a } +$ bx的直线(作虚线),即",
+    "context11": "在 $\\hat { \\mathsf { y } } ^ { } \\pm 2 \\hat { \\mathsf { S } }$ 的区间内应有 $9 5 . 4 \\%$ 的数据点落入其中。实际上，由图可知:100%的数据点都落在两线之间,这说明回归直线的精度很高。"
+  },
+  "4、科技成果增长量的预测": {
+    "context1": "上述精度估算，证明回归方程(3)式不仅是有价值的，而且精度高。根据(3)式回归方程，我们便可以预测今后若干年内江西省高教系统的年度科技成果量。本研究预测了江西高教系统1985—1994年十年间的年度科技成果数值，并以1984年的实际成果数为100%推算了这十年间科技成果增长的百分比。见表3",
+    "context2": "表3y的预测值(即)",
+    "context3": "<table><tr><td rowspan=1 colspan=1>年度</td><td rowspan=1 colspan=4>年度编号x</td><td rowspan=1 colspan=1>了</td><td rowspan=1 colspan=1>/y84</td></tr><tr><td rowspan=1 colspan=1>19851986</td><td rowspan=1 colspan=4>89</td><td rowspan=1 colspan=1>243.72270.40</td><td rowspan=1 colspan=1>109.29 %121.26 %</td></tr><tr><td rowspan=3 colspan=1>1987</td><td rowspan=3 colspan=2></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=2 colspan=2>10</td><td></td><td></td><td></td></tr><tr><td rowspan=1 colspan=2>10</td><td rowspan=1 colspan=1>297.08</td><td rowspan=1 colspan=1>133.22%</td></tr><tr><td rowspan=1 colspan=1>1988</td><td rowspan=1 colspan=4>11</td><td rowspan=1 colspan=1>323.76</td><td rowspan=1 colspan=1>145.18 %</td></tr><tr><td rowspan=1 colspan=1>1989</td><td rowspan=1 colspan=4>12</td><td rowspan=1 colspan=1>350.44</td><td rowspan=1 colspan=1>157.15%</td></tr><tr><td rowspan=1 colspan=1>1990</td><td rowspan=1 colspan=4>13</td><td rowspan=1 colspan=1>377.12</td><td rowspan=1 colspan=1>169.11 %</td></tr><tr><td rowspan=1 colspan=1>1991</td><td rowspan=1 colspan=4>14</td><td rowspan=1 colspan=1>403.80</td><td rowspan=1 colspan=1>181.08 %</td></tr><tr><td rowspan=1 colspan=1>1992</td><td rowspan=1 colspan=4>15</td><td rowspan=1 colspan=1>430.48</td><td rowspan=1 colspan=1>193.04%</td></tr><tr><td rowspan=1 colspan=1>1993</td><td rowspan=1 colspan=4>16</td><td rowspan=1 colspan=1>457.16</td><td rowspan=1 colspan=1>205.00%</td></tr><tr><td rowspan=1 colspan=1>1994</td><td rowspan=1 colspan=4>17</td><td rowspan=1 colspan=1>483.84</td><td rowspan=1 colspan=1>216.97%</td></tr></table>",
+    "context4": "由表3可以看出，以1984年的成果数为100%时，今后十年内江西省高教系统的科技成果年度平均递增率为11.7%。到1994年其科技成果的数量将是1984年的2.17倍，是1978年的6.45倍。这说明科技成果正在逐年迅速的增长，今后的科学生产率仍将以较快的速度向前发展。"
+  },
+  "三、结 论": {
+    "context1": "根据上述的分析和预测可以看出：利用文献统计方法来预测科学生产率增长趋势是可行的。这种趋势预测,对于领导、科技、经济、财政等部门在制订发展规划、工作计划时有重要的参考价值。特别是对于科技管理部门来说，在搞好科技成果的管理(包括成果的鉴定、奖励、档案管理、推广应用等)、年度科技计划项目的安排，科技经费的裁决、科技规划的制订，以及科技情报部门开展有效的情报服务等方面，都可以起到重要的参考、指导作用。"
+  },
+  "参考文献": {
+    "context1": "[1]黄宏雄用文献统计方法预测电波传播的研究发展,《情报学报》,1985,4(2).",
+    "context2": "[2]李希孔用文献统计方法预测我国观赏园艺科学的发展,《情报学刊》,1986,7(6)."
+  },
+  "普及工作会议侧记": {
+    "context1": "中国科学技术情报学会普及工作委员会于1987年3月31日至4月2日在武汉市召开了中南地区情报学会普及工作会议。中国科学技术情报学会常务理事严怡民教授到会并讲了话。",
+    "context2": "会议分别由中国科学技术情报学会普及委员会主任委员刘毅夫同志和副主任委员魏国章同志主持。刘毅夫同志总结了普及委员会1986年的工作，介绍了1987年度的活动计划;代表们结合总结和计划进行了讨论，同时还结合各省的实际情况广泛交换了意见。副主任委员魏国章同志作了以企业情报工作为题的学术报告，引起了代表们的极大兴趣，受到了好评。代表们一致认为，这个报告不仅对专业情报工作者有启迪、开拓作用，而且对如何宣传，普及情报工作和提高民族情报意识也是-个成功的试尝。",
+    "context3": "这次会议集中讨论了科技情报普及工作和咨询开发工作的关系,代表们一致肯定:",
+    "context4": "一.科技情报宣传普及工作必须进一步与咨询开发工作相结合，这是当前形势下宣传普及工作的一个新发展；",
+    "context5": "二.为了广泛开展科技情报的宣传普及、咨询开发工作，必须进一步加强横向联合确保情报信息迅速、传递、交流和协作;",
+    "context6": "三.咨询开发工作的重点主要是适用技术，力争做到论证、综合开发，脚点要落到实处。",
+    "context7": "总之，这次会对如何适时的进一步开展宣传普及工作确立了新的认识。",
+    "context8": "（郝维奇）"
+  }
+}

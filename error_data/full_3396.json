@@ -1,0 +1,120 @@
+{
+  "original_filename": "full_3396.md",
+  "国外古籍数字化标准实践进展及其后示张文亮彭媛媛 张桐": {
+    "context1": "【摘要】文章以欧洲、美洲、大洋洲、亚洲地区的7个国家古籍数字化标准、规范文件作为数据来源，对这些国家古籍数字化标准体系规范的主要内容、应用特征进行梳理，总结概括各国标准体系规范的构成要素与主体标准内容，将国际上现有的古籍数字化标准分为管理标准、数据标准、描述标准与工作标准四大类，并对其具体内容进行细致表述，以期为我国古籍数字化标准工作提供参考。"
+  },
+  "【关键词】古籍数字化标准体系": {
+    "context1": "Abstract:The paper summarizes the main contents and applied characteristics of seven national standards and normative documents on digitization of ancient books in Europe，America，Oceania and Asia，analyzes the constituent elements and the main contents，and divides the existing international standards of ancient books into management standards，data standards，description standards and major working standards，with special emphasis on the explanation of specific contents，aiming at providing reference for the standardization of Chinese digital ancient books.",
+    "context2": "Key words: ancient booksdigitizationstandard architecture DOI:10.15941/jcnki.issn1001-0424.2019.13.002"
+  },
+  "0引言": {
+    "context1": "古籍是古代书籍的简称，这里的“古”是相对于“今”而言的，通常将未采用现代印刷技术而印制的书籍都称作古籍。我国《古籍著录规则》（GB/T3792.7-2008）中将古籍定义为“古籍主要是指1911年以前（含1911年）在中国书写或印刷的书籍”。这一定义指明了古籍的时间、地点和形式的三大关键要素。在国外，古籍的概念更为宽泛，不仅仅指古代书籍（Ancient book），还包括善本（Pare book）、手稿（Manuscript)、拓片（Rubbing）等。古籍数字化是通过电脑技术将古籍中的语言文字或图形符号转变为数据库的过程，用以利用和保护古籍。",
+    "context2": "国外对古籍数字化工作十分重视，许多国家开展了古籍数字化项目的建设。这些项目有些是针对本国善本、手稿等的数字化项目，如英国的11世纪撒克逊手稿项目、美国的古藤堡计划、日本的善本书目索引、澳大利亚的数字图书馆基础设施置换（DLIP）计划等；还有些项目是针对他国古籍的数字化项目，如中美百万图书的数字图书馆项目。由于历史原因，中文古籍散落在世界各地，中文古籍的数字化项目（包括国际合作项目）的建设也尤为突出，如中俄英法等国合作的IDP敦煌学项目。各大洲的许多国家在古籍数字化项目实践的基础上制定了一些标准规范用以指导古籍数字化工作的进行，这些标准涉及古籍数字化的过程、技术和管理等方面。本文通过梳理、探讨7国古籍数字化标准规范的主要内容及应用特征，以期为我国今后古籍数字化标准工作的开展提供可行性参考范例。"
+  },
+  "1国外古籍数字化标准研究现状": {
+    "context1": "古籍具有历史性、传承性，包含着丰富的文化与文明。在数字化过程中，内容的数字化和提供服务的多元化会使标准的建设难以达到一致性。目前，国外相关研究仅涉及了古籍数字化标准规范中的部分问题，且研究内容相对集中。"
+  },
+  "1.1古籍数字化标准发展现状": {
+    "context1": "国外古籍数字化标准文献相对较少，其实践工作主要集中于两个方面：一是注重对古籍数字化标准的讨论；",
+    "context2": "二是由于各种历史原因而导致的部分古籍流传海外，为各国分藏管理。近年来随着数字图书馆技术的发展，促使古籍的数字化进程也日益加快。国外许多图书馆对如何选择数字化对象，制定出不同的准则和工具。加利福尼利亚大学伯克利分校图书馆保护部开发了在线评测软件，应用于加州地区存有古籍的场所，帮助其确定古籍优先数字化对象。芝加哥国际会议中，提倡创建国际古籍数字化资源库，以协调不同数字化项目的工作，避免不必要的重复。有的机构认为，机构间合作进行数字化项目能为被扫描的资源提供支持。"
+  },
+  "1.2古籍数字化标准研究内容": {
+    "context1": "古籍数字化标准的定义，在国外现有的研究工作与成果中尚未提供统一的界定。TanyildizAhmet在 Su PELiYAYINLARBAGLAMINDA BAZI CEVRYAZI SORUNLAR一文中讨论到“虽然目前国际上有很多关于古籍数字化的研究，但是仍然没有一个统一的数字化标准。现今研究成果数量有限，且大多出现于2000年之后。”关于数字化标准中的协议和参数问题，他也提出了自己的意见。目前，各国制定的古籍数字化标准规范中，对数字化涉及的参数、流程存在不同的方案，各国之间依据其古籍存在状态和国家的具体国情完成相应的数字化工作。JonZabala-Vazquez在Utilidady Vigencia de las Tipobibliografias ysuAusenciaen el Mundo Digital一文中分析了各种古籍数字化标准的重要性和有效性。文章基于Tipobibliografia Espanola项目，但是由于该项目发表的格式并非以数字的格式，因此主要的古籍数字化自动的标准和描述性规则的意义不是很大。此外，作者还对比分析了AACP2、ISBD（A）、MARC和DCMI的各个元素在描述上的标准，通过研究发现这些标准几乎适用于所有在线发布的文件，同时这些标准在用于元数据的统一也具有较为重要的用处。"
+  },
+  "2现行古籍数字化标准体系": {
+    "context1": "本研究于2016年2月—2019年1月，对世界主要国家的国家图书馆、政府机构网站、国际图书馆协会联合会（IFLA）等标准化机构、各大索引数据库等进行调查，了解各国古籍数字化的发展现状及其标准体系构建情况，并对各国古籍数字化标准及规范指南进行检索、归纳和整理，具体内容见表1。",
+    "context2": "表1国外古籍数字化相关标准",
+    "context3": "<table><tr><td colspan=\"1\" rowspan=\"1\">国家/组织</td><td colspan=\"1\" rowspan=\"1\">标准名称/文章题名</td><td colspan=\"1\" rowspan=\"1\">标准类型</td><td colspan=\"1\" rowspan=\"1\">内容类型</td></tr><tr><td colspan=\"1\" rowspan=\"1\">IFLA</td><td colspan=\"1\" rowspan=\"1\">国际图联关于图书馆资料保存和处理的原则IFLA Principles for the Care and Handling of Library Material</td><td colspan=\"1\" rowspan=\"1\">标准</td><td colspan=\"1\" rowspan=\"1\">数据加工规则</td></tr><tr><td colspan=\"1\" rowspan=\"1\">IFLA</td><td colspan=\"1\" rowspan=\"1\">照片的保养、处理和储存Care，Handling and Storage of Photographs</td><td colspan=\"1\" rowspan=\"1\">标准</td><td colspan=\"1\" rowspan=\"1\">数据加工规则</td></tr><tr><td colspan=\"1\" rowspan=\"1\">IFLA</td><td colspan=\"1\" rowspan=\"1\">保护文化遗产：国际图联指南Preserving Cultural Heritage: An IFLA Guide</td><td colspan=\"1\" rowspan=\"1\">指南</td><td colspan=\"1\" rowspan=\"1\">数字化标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">IFLA</td><td colspan=\"1\" rowspan=\"1\">数字遗产长期保存遴选工作指导方针The UNESCO/PERSIST Guidelines for the Selection of DigitalHeritage for Long-term Preservation</td><td colspan=\"1\" rowspan=\"1\">指南</td><td colspan=\"1\" rowspan=\"1\">元数据标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">美国</td><td colspan=\"1\" rowspan=\"1\">珍本和手稿：规划珍本和手稿存储数字化指南Rare Book and Manuscripts Section: Guidelines for Planningthe Digitization of Pare Book and Manuscript Collections</td><td colspan=\"1\" rowspan=\"1\">指南</td><td colspan=\"1\" rowspan=\"1\">数字化指南</td></tr><tr><td colspan=\"1\" rowspan=\"1\">法国</td><td colspan=\"1\" rowspan=\"1\">用户吸引力指南 EUROPEANA REGIA CIP-ICT-PSP 2009-250560Attractive Guidelines for Users EUROPEANA REGIA CIP-ICT-PSP 2009-250560</td><td colspan=\"1\" rowspan=\"2\">标准</td><td colspan=\"1\" rowspan=\"1\">元数据规范、数据库标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">德国</td><td colspan=\"1\" rowspan=\"1\">DFG数字化实践指南DFG Practical Guidelines on Digitization</td><td colspan=\"1\" rowspan=\"1\">元数据、文档存储标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">美国</td><td colspan=\"1\" rowspan=\"1\">新编目指南现已在线出版New Cataloging Guidelines for Pictures Now Available inOnline Publication</td><td colspan=\"1\" rowspan=\"1\">指南</td><td colspan=\"1\" rowspan=\"1\">目录描述</td></tr><tr><td colspan=\"1\" rowspan=\"1\">美国</td><td colspan=\"1\" rowspan=\"1\">指南：内容类别和子类别目标：重新格式化历史印刷品、文档和手稿、图像材料－内容类别和子类别表（含8个子项目)Guidelines:ContentCategoriesandSubcategoriesObjectives:ReformattingHistoricalPrintedMatter,Documents and Manuscripts，and Pictorial MaterialsContent Categories and Subcategories Table (含8个子项目)</td><td colspan=\"1\" rowspan=\"1\">指南</td><td colspan=\"1\" rowspan=\"1\">成像描述、缩微技术、文档要求</td></tr><tr><td colspan=\"1\" rowspan=\"1\">美国</td><td colspan=\"1\" rowspan=\"1\">特定版本DSTS元素：总则和善本编目（描述性编目手册，描述性编目手册2014更新1)Copy - Specific Dsts Elements: General and Pare BookCataloging（ Descriptive CatalogingManual，DescriptiveCataloging Manual 2014 Update 1)</td><td colspan=\"1\" rowspan=\"1\">手册</td><td colspan=\"1\" rowspan=\"1\">善本编目中的数据元素</td></tr><tr><td colspan=\"1\" rowspan=\"1\">美国</td><td colspan=\"1\" rowspan=\"1\">特定版本 DSTS元素：总则和善本编目（描述性编目手册，更新信息2013更新号4)Copy - Specific Dsts Elements: General and Pare BookCataloging（ DescriptiveCatalogingManual，UpdateInformation 2013 Update Number 4)</td><td colspan=\"1\" rowspan=\"1\">手册</td><td colspan=\"1\" rowspan=\"1\">善本编目</td></tr><tr><td colspan=\"1\" rowspan=\"1\">美国</td><td colspan=\"1\" rowspan=\"1\">联邦机构数字化指南倡议静态图像工作组－嵌入式元数据子组章程版本1.0Federal Agencies Digitization Guidelines InitiativeStill ImageWorking Group-Embedded Metadata Sub - groupCharterVersion 1. 0</td><td colspan=\"1\" rowspan=\"1\">指南</td><td colspan=\"1\" rowspan=\"1\">元数据</td></tr><tr><td colspan=\"1\" rowspan=\"1\">加拿大</td><td colspan=\"1\" rowspan=\"1\">储藏活动——书籍、文本和视觉资料保护Preservation Activities—Conservation of Books，Textual,andVisual Material</td><td colspan=\"1\" rowspan=\"1\">导引</td><td colspan=\"1\" rowspan=\"1\">古籍保存方法</td></tr><tr><td colspan=\"1\" rowspan=\"1\">加拿大</td><td colspan=\"1\" rowspan=\"1\">Hebraic手稿Hebraic Manuscripts</td><td colspan=\"1\" rowspan=\"1\">导引</td><td colspan=\"1\" rowspan=\"1\">手稿的保存</td></tr><tr><td colspan=\"1\" rowspan=\"1\">加拿大</td><td colspan=\"1\" rowspan=\"1\">加拿大交通出版物手稿标准与准则Manuscript Standards and Guidelines for Transport CanadaPublications</td><td colspan=\"1\" rowspan=\"1\">标准</td><td colspan=\"1\" rowspan=\"1\">手稿标准与准则</td></tr><tr><td colspan=\"1\" rowspan=\"1\">加拿大</td><td colspan=\"1\" rowspan=\"1\">编目和元数据Cataloguing and Metadata</td><td colspan=\"1\" rowspan=\"1\">标准</td><td colspan=\"1\" rowspan=\"1\">编目著录与元数据使用规范</td></tr><tr><td colspan=\"1\" rowspan=\"1\">英国</td><td colspan=\"1\" rowspan=\"1\">英国藏书—-在中国中亚的英国探险British Collections—British Explorations in Chinese CentralAsia</td><td colspan=\"1\" rowspan=\"1\">导引</td><td colspan=\"1\" rowspan=\"1\">资源存储、管理规则</td></tr><tr><td colspan=\"1\" rowspan=\"1\">英国</td><td colspan=\"1\" rowspan=\"1\">数码影像和贮存缩微胶卷：脆性书籍存储的混合方法的未来Digital Imaging and Preservation Microfilm: The Future of theHybrid Approach for the Preservation of Brittle Books</td><td colspan=\"1\" rowspan=\"1\">标准</td><td colspan=\"1\" rowspan=\"1\">数据加工规则</td></tr><tr><td colspan=\"1\" rowspan=\"1\">英国</td><td colspan=\"1\" rowspan=\"1\">公共领域收集和持有的数字化项目指南，特别是图书馆和档案馆举办的规范GUIDELINES FOR DIGITIZATION PROJECTS for Collectionsand Holdings in the Public Domain，Particularly Those Held byLibraries and Archives</td><td colspan=\"1\" rowspan=\"1\">指南</td><td colspan=\"1\" rowspan=\"1\">元数据管理规范</td></tr><tr><td colspan=\"1\" rowspan=\"1\">英国</td><td colspan=\"1\" rowspan=\"1\">2008—2011年数字化战略Digitization Strategy 2008-2011</td><td colspan=\"1\" rowspan=\"1\">导引</td><td colspan=\"1\" rowspan=\"1\">数字化方法相关指南</td></tr><tr><td colspan=\"1\" rowspan=\"1\">英国</td><td colspan=\"1\" rowspan=\"1\">数字化手稿Digitized Manuscripts</td><td colspan=\"1\" rowspan=\"1\">手册</td><td colspan=\"1\" rowspan=\"1\">手稿存储、管理现状</td></tr><tr><td colspan=\"1\" rowspan=\"1\">澳大利亚</td><td colspan=\"1\" rowspan=\"1\">馆藏数字化政策COLLECTION DIGITISATION POLICY</td><td colspan=\"1\" rowspan=\"1\">标准</td><td colspan=\"1\" rowspan=\"1\">馆藏古老文献文档存储标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">澳大利亚</td><td colspan=\"1\" rowspan=\"1\">标准一国家图书馆标准活动 STANDA RDS一National Library Standards Activities</td><td colspan=\"1\" rowspan=\"1\">标准</td><td colspan=\"1\" rowspan=\"1\">元数据标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">澳大利亚</td><td colspan=\"1\" rowspan=\"1\">澳大利亚METS 简介AUST RALIAN METS PROFILEMETS简介发展项目报告Report of the METS Profile Development Project</td><td colspan=\"1\" rowspan=\"1\">导引</td><td colspan=\"1\" rowspan=\"1\">电子文件元数据</td></tr><tr><td colspan=\"1\" rowspan=\"1\">日本</td><td colspan=\"1\" rowspan=\"1\">关于国立国会图书馆资料数字化基本方针</td><td colspan=\"1\" rowspan=\"1\">标准</td><td colspan=\"1\" rowspan=\"1\">数字化标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">日本</td><td colspan=\"1\" rowspan=\"1\">古典籍、古文书、西洋珍本等的数字化指导方针</td><td colspan=\"1\" rowspan=\"1\">标准</td><td colspan=\"1\" rowspan=\"1\">数字化标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">日本</td><td colspan=\"1\" rowspan=\"1\">国立国会图书馆资料数字化指导手册2011年版</td><td colspan=\"1\" rowspan=\"1\">手册</td><td colspan=\"1\" rowspan=\"1\">数字化标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">日本</td><td colspan=\"1\" rowspan=\"1\">国立国会图书馆都柏林元数据记述（DC-NDL2011年12月版)</td><td colspan=\"1\" rowspan=\"1\">标准</td><td colspan=\"1\" rowspan=\"1\">元数据标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">日本</td><td colspan=\"1\" rowspan=\"1\">数字存储的构建合作指南</td><td colspan=\"1\" rowspan=\"1\">指南</td><td colspan=\"1\" rowspan=\"1\">数字化标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">日本</td><td colspan=\"1\" rowspan=\"1\">关于文化资源数字化的指导手册</td><td colspan=\"1\" rowspan=\"1\">手册</td><td colspan=\"1\" rowspan=\"1\">数字化标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">日本</td><td colspan=\"1\" rowspan=\"1\">共享元数据信息所用的指导手册</td><td colspan=\"1\" rowspan=\"1\">手册</td><td colspan=\"1\" rowspan=\"1\">元数据标准</td></tr><tr><td colspan=\"1\" rowspan=\"1\">日本</td><td colspan=\"1\" rowspan=\"1\">数字存储系统标准式样书式样书</td><td colspan=\"1\" rowspan=\"1\">数字化标准</td><td colspan=\"1\" rowspan=\"1\"></td></tr></table>",
+    "context4": "注：本列表中涵盖的标准及规范指南包含国外对本国家文献的数字化情况，以及对中文古籍版本的转化与储存",
+    "context5": "通过网站的调查研究，共检索到50余项相关规范，对检索到的文献进行二次筛选，最终得出34条古籍数字化的标准规范。国外许多国家虽然不同程度地对本国保存的古籍进行了数字化工作，但数字化程度、应用标准、数字化具体环节等方面存在许多差异。从表1的数据来看，尚未有一个国家形成完整的数字化标准工作流程或建立出标准体系框架。大部分国家是通过国际合作或部分开发的策略，逐步完善数字化工作。以下，对本文整理的各国标准规范及其应用做简要概述。"
+  },
+  "2.1IFLA标准规范及其应用": {
+    "context1": "国际图书馆协会联合会（IFLA）出台了包括数据加工规则、数字化标准、元数据标准在内的4条古籍数字化标准规范，其中有指南和标准两种类型，《数字遗产长期保存遴选工作指导方针》定期更新。《国际图联关于图书",
+    "context2": "馆资料保存和处理的原则》中提到IFLA与PAC、UAP的目标一致，旨在研究数字化古籍资源的保存和改进资源获得形式，《原则》中还提到1992年联合国教科文组织开展的世界记忆项目，尽管在该项目初期指南目录数量不多，但有由IFLA和UNESCO的研究小组确定的记录被陆续补充进去。"
+  },
+  "2.2美洲国家标准规范及其应用": {
+    "context1": "美国古籍数字化标准工作最为成熟，检索到14项文件，古籍数字化标准有6项，其中1项是由IFLA发布的国际标准。其内容涉及善本与手稿的数字化标准、图像标准、编目标准、元数据标准、目录描述标准、保存标准、成像描述、缩微技术、文档要求等多个方面。",
+    "context2": "加拿大古籍数字化的兴起是随着互联网的发展逐渐开始的。从2002年起，加拿大政府开始参与到图书馆数字化工作的进程中，国家图书档案馆也开后了Amicus 的数字图书馆项目，对国家收藏的古籍版本进行数字化处理。在资料调查中发现，加拿大收藏有大量的手稿（如希伯来手稿)，一些专业图书馆为妥善管理原始手稿而建立专门的网站进行维护。目前，能够获取的有关加拿大古籍数字化标准共有4个。其中，包括对古老文献的保存与修复标准、文献著录编目的国际标准和加拿大国家图书档案馆的相关政策。"
+  },
+  "2.3欧洲国家标准规范及其应用": {
+    "context1": "英国古老文献数字化工作主要由英国国家图书馆负责，政府部门和一些企业机构给予资金方面的支持。现查找到的关于英国古籍数字化标准主要有5个参考资料。从标准规范的内容看，英国古籍数字化标准工作主要应用到标准化管理、元数据、数据加工、文档文件存储等标准规范。英国现存有大量中国古籍，为了方便阅读和学习，英国与其他国家联合组建IDP项目，大英图书馆也独立建立了数据库，并应用数据库检索规范作为指导。",
+    "context2": "法国国家图书馆、法兰西比利时皇家藏书馆等机构中保存了大量法国王朝、皇室家族的手稿，能够获取全文标准规范资料仅有1项，Atractive Guidelines for Users EUROPEANA REGIA CIP-ICT-PSP 2009-250560，是针对用户使用方面的标准。法国对手稿进行数字化的过程中，注重元数据的规范和转化，制定较为详细的元数据标准规范。其次，为了完善对数字化手稿的管理，制定了相关的管理标准。满足用户检索的需要，有些图书馆建立手稿数据库，根据国际标准并结合法国实际情况，实行相应的数据库检索规范。",
+    "context3": "德国文献的数字化工作现处于较为分散的状态。由于历史原因，德国没有所属的国家图书馆，许多标准工作都是由科研机构完成，科研机构的能力和资金有限，标准工作处于起步阶段。能够获取全文的德国古籍数字化标准的文件资料仅有1项内容，即 DFG Practical Guidelines on Digitisation。该标准从数字化标准规范内容划分，主要包括元数据标准、文档存储标准。在数据加工方面，德国采用图像处理技术，将图像转换成固定的格式，可以用于网站访问和数据库检索使用。德国在数字化方面比较注重数字化成果的兼容并用和交流共享。"
+  },
+  "2.4澳大利亚标准规范及其应用": {
+    "context1": "澳大利亚国家图书馆从1960开始致力于将本国所有的文献资料全面收集、系统整理。其中包括古老、原生的图书、报纸、地图、手稿等资料。为了确保文献的长期保存，并能够在官网上进行虚拟访问，澳大利亚开始投资数字化图书馆项目。目前可获取古籍数字化标准共有3项。澳大利亚国家图书馆网站为“馆藏资源数字化”成立了专题区，在对古老文献数字化过程中，注重古籍版本的选择。大部分手稿通过扫描技术转化成静态图像储存，图书资料则直接数字化的情况较多。在数字化过程中，主要运用到文档存储标准、数据加工标准、资源的分类标准以及元数据标准规范等。"
+  },
+  "2.5日本标准规范及其应用": {
+    "context1": "日本与中国同属于东亚地区，都有着大量的历史文献。日本非常注重对文献的储藏和保管，制定了一些关于古老文献的保存和数字化标准，所获取的标准共8项。由于存在访问权限的问题，部分标准不能获取到全文，但可以从相关网站的描述中得知其主要包括著录标准和元数据标准。日本国立国会图书馆中存有大量善本手稿，因而建立了善本手稿的资料库，作为归纳整理的工具，也为用户的使用、检索提供了方便。"
+  },
+  "3古籍数字化标准类别及其特点": {
+    "context1": "为了进一步分析研究各国古籍数字化标准规范的内容、具体应用范围与使用情况，以及这些标准文件对今后古籍数字化标准工作的重要意义，本文运用内容分析法对已获取到的标准文件进行词频切分和内容重组，对不同关键词出现的频次进行统计整理，并根据其相应文件所属的标准大类和具体类别进行了细致划分，详细内容如表2所列。"
+  },
+  "3.1管理标准": {
+    "context1": "许多国家对古籍、善本、手稿、特藏等文献资料都提出过适应于各国需要的管理标准；国际上，也有相应的国际型的标准。IFLA于2014年9月颁布了由国际图联善本与手稿组撰稿而成的《馆藏善本与手稿数字化计划指南》，指南中提及“在可发现性和使用方面，善本和特殊馆藏的数字化，比一般馆藏更有意义。一旦这些馆藏易于获取，它们就将成为核心资源”。IFLA制定相关指南的另一个目的在于，对孤本、善本和非印刷形式的馆藏进行数字化时，需特别加以考虑，制定特定的操作程序，旨在为善本、特藏的数字化提供解决方案，为图书馆的馆藏存储工作提供参考意见；英国、澳大利亚、德国、日本等国也出台了相应的古籍标准化管理规则。",
+    "context2": "表2古籍标准规范内容的词频分析表",
+    "context3": "<table><tr><td rowspan=1 colspan=1>标准类别</td><td rowspan=1 colspan=1>具体类型划分</td><td rowspan=1 colspan=1>关键词/词频</td></tr><tr><td rowspan=4 colspan=1>管理标准</td><td rowspan=3 colspan=1>古籍文献管理标准</td><td rowspan=1 colspan=1>善本 Pare Book/ (4)</td></tr><tr><td rowspan=1 colspan=1>手稿 Manuscripts/ （4)</td></tr><tr><td rowspan=1 colspan=1>藏书Collections/（4)</td></tr><tr><td rowspan=1 colspan=1>古籍标准化管理规则</td><td rowspan=1 colspan=1>数字化指南/项目/标准 Digitization Guidelines/Projects/Standards/（10)</td></tr><tr><td rowspan=3 colspan=1>数据标准</td><td rowspan=1 colspan=1>图像描述与处理规范</td><td rowspan=1 colspan=1>图像处理和数字化 Image Processing and Digitization/（8)</td></tr><tr><td rowspan=1 colspan=1>文档存储与管理</td><td rowspan=1 colspan=1>保护和介绍 Conservation and Presentation /（1)</td></tr><tr><td rowspan=1 colspan=1>元数据标准</td><td rowspan=1 colspan=1>元数据Metadata / （4)</td></tr><tr><td rowspan=1 colspan=1>描述标准</td><td rowspan=1 colspan=1>编目与索引标准</td><td rowspan=1 colspan=1>内容分类或编目 Content Categories or Cataloging／（6)</td></tr></table>"
+  },
+  "3.1.1文献管理标准": {
+    "context1": "澳大利亚数字化工程主要针对原始文件、手稿、未出版过的私人文档、图像以及相关音像制品，其国家图书馆自20世纪60年代起，就开始建立本国的馆藏文献，其中包括许多图书、报纸、地图以及少数乐谱。随着国家图书馆的不断壮大，其发展目标变更为实现图书馆联机虚拟访问的集成化操作，确保其长期的存储与保护。因而，开始进行对特藏文献的整理与数字化工作，大部分工作由图书馆内部工作人员负责，一些技术规范类工作则交由外包公司完成。",
+    "context2": "国家图书馆对其手稿、特藏等文档按类别进行排序和整理，根据不同古籍文档的数量存在差异、版权限制，以及资源的可操作程度来决定是否进行数字化处理。对于相对完好，同时操作过程不会对原文献造成伤害的，一般会采用扫描的形式，转化数字信号存储于缩微胶卷中。如果个人或者组织对特定的数字化产品，或者部分未进行数字化的产品有需求，可以进行提前预定，在版权允许和可操作的情况下，会根据需要进行相关处理，同时要支付一定的项目费用和信息服务费。此种服务方式的优势在于，根据用户特定需求而形成的数字化产品，如果符合澳大利亚国家图书馆的馆藏布局与特色，可以添加到本馆的古籍数字化项目之中，方便今后用户对相关资料的免费获取和充分利用。同时，澳大利亚国家图书馆致力于在任何情况下，都尽量做到对所有数字化文件有序管理和长期访问，在数字化文件的创建过程中，达到管理的平衡性与稳定性。"
+  },
+  "3.1.2古籍标准管理规则": {
+    "context1": "由于历史发展问题，德国未建有国家图书馆、形成相关的文献资源体系。德国收藏的文献资料的数字化工程大部分都是承包给一些3D数字化公司完成的，并由德国的一家公益性组织（DFG）辅助并监督。协商制定数字化指南、标准管理规范需由DFG组织与各科研机构共同进行。数字化项目的执行由国家内部机构负责，依旧通过外包形式，根据项目的申请人、责任人的可靠性决定。对于需要特殊保护的资料，或者涉及到版权保护问题，需在指定的专业图书馆进行数字化处理，利用图书馆内部的专业设施和相关工作人员，DFG也会给予必要的资金帮助和硬件支撑。",
+    "context2": "德国古籍标准实用指南中，管理规范不仅包括对数字化组织及人员的管理，同时包括对数字化成果的共享方式的规定。建立数字化项目网站时，德国数字化项目优先选用英文版本，并在维基百科中建立相应的检索词条，将形成的数字化产品上传到百科词条，并进行定期的更新维护，读者可获得最新、准确的消息，及时获取所需要的数字化信息服务。"
+  },
+  "3.2数据标准": "",
+  "3.2.1图像处理标准": {
+    "context1": "美国国会图书馆、国立医学/农业图书馆，以及各大学图书馆中都存在大量古老的文献手稿，针对这些手稿的数字化工作，美国制定了相应的图像化处理方案，并推出相应的标准和指南，主要包括三部分内容。首先，对数字化手稿图像质量的限定。标准规范中，对光学质量参数、与原始数据的关系、手稿数字化特有方面、影响因素和手稿数字化推荐的质量参数五个内容进行了详述；同时，介绍了图像的颜色深度、色调、尺寸、完整性、顺序，并举例说明纸张的大小。其次，对手稿数字化流程和相关技术进行介绍，主要包括：数字化设备调试、扫描或摄影、长期保存、图像显示与集成，最终以图像形式进行存储保存。"
+  },
+  "3.2.2文档存储标准": {
+    "context1": "加拿大的古籍整理与保护工作主要是由国家图书档案馆负责，先根据文献的破损情况进行修复处理，再由文献的类型完成具体的数字化处理。对于需要进行修复的古籍文件，依据古籍资料的修复与稳定存储的过程，首先使用化学物质（药品）进行清理，去灰、去垢；将纸张覆在硬纸板上再浸泡于水中，特殊纸张需用弱碱性水溶液短时间浸泡，降低纸张变色或再污染的可能性，完成基础修复后再进行扫描处理，形成以JPEG格式存储的图像文件。文件的分辨率规定为 $3 0 0 ~ { \\mathsf { p p i } }$ ，至少3000像素最长的测量（ $8 \\times 1 0$ 或1：1格式大于 $8 \\times 1 0 ^ { 1 }$ ），保存图像为一个未压缩的TIFF，以相关数字化组织或文献类型确定命名的标准，或转化为PDF格式的文档统一管理[。",
+    "context2": "各国对中文古籍文献数字化的存储过程，主要涉及字符处理、技术规范等问题。其中，字符处理的标准，主要体现在古文献中存在的生僻字词，不为人所熟知，也甚少使用。尤其是涉及到医学、天文、地理方面的字词及其表达的含义，非系统化的描述和规范，为实施相应数字化工作带来较大的困难。许多国家规定，数字化之前对文献中包含的字符和相关文字术语进行标准化和规范化处理，根据现有的字符集标准，进一步规范处理，形成通用的字符集。在技术标准方面，由于大量古籍版本形式不同，纸张性质差异较大。为实现最适宜的数字化工作，在版本的选择和操作上，应用技术标准加以限定和约束。将其转化为数字化格式的文件，以达到国际通用、资源共享的目的。应用现行文件格式编码标准，对数字化文献格式进行控制，尽可能转换为PDF、HTML文件格式。"
+  },
+  "3.2.3元数据标准": {
+    "context1": "在存储手稿资源方面，为了实现更为妥善的保护，许多国家都会选择限定主文件的文件格式，依据既定的元数据标准进行保存，同时区分不同的存储介质。标准规范中将元数据的类别主要分为三种，即书目（或描述）型元数据、图像（或技术）型元数据、结构型元数据，而多数图书馆在数字文件的存取管理中，会使用到第四种元数据——管理元数据，加以协助。管理元数据可能包括图片的拍摄者、图像或者原件的所有者、版权信息以及使用额度。管理元数据还可能包括如下信息：数字化过程中没有进行数字化的馆藏项目及其原因和形成的决议，还有常规的图像处理过程（整个馆藏的处理过程是一致的）的说明[。",
+    "context2": "每个国家图书馆根据不同的馆藏内容和具体情况，会提出一些特定的管理标准和解决方案。加拿大政府（GC）提出使用记录管理元数据集，即加拿大政府档案管理元数据标准（GC RMMS），它构成了加拿大政府记录管理应用程序配置文件（GC RMAP）的基础。从本质上讲，无论是GC RMMS 和GC RMAP 勾勒的数字语言，都包括50种概念性语言。这些语言是以都柏林核心元数据标准（Dublin Core elements）为参照，以及一些其他权威组织颁布的元数据标准[。",
+    "context3": "澳大利亚国家图书馆使用的是国会图书馆发布的元数据标准，通过元数据抓取的技术获取所需的数字资源。其中OCR承建商通过METS和ALTO将元数据传到澳大利亚国家图书馆，澳大利亚国家图书馆在METS和ALTO文件中提取元数据，储存在馆藏数据库的内部版式中[。大英图书馆创建以数字对象为主的数字图像文件。首先，定义基础元数据元素，对元数据进行分类，进而实现管理[。数字化管理过程主要包括扫描规定的分辨度、数位的版本文件，进行数字化存储，以计算机格式输出相关书目记录，定义数字对象的唯一标识符用于检索和保护，当对标记对象的存储记录进行修改的同时，标识代码也要随之改变。"
+  },
+  "3.2.4数据库与检索标准": {
+    "context1": "图书馆颁布了很多数据交换的标准来支持国家和国际间图书馆网络的运行，这些标准有利于用户对馆藏资源的获取。其中，检索标准是其中一项重要的标准，检索技术是否先进将影响古籍数字资源的使用体验，现阶段多用关键词检索，侧重于词形匹配，概念检索技术则会同时检索与检索词同形、同义的词语，提高查全率与查准率，也可对检索结果从检索词的语义相关度上进行分级、排序和组织，更加贴近用户的检索需求[。因古籍数字化资源的类型与格式不同，涉及到文本（又包括手稿、单行本著作、连续出版物等）、图像（普通图像与动态图像)、地图等多方面，为了提供其检索效率，需在全文检索、索引、摘要、检索词典、目录、检索入口、检索语言、检索模型、跨库检索、链接等各个方面制定相应的标准和指南。",
+    "context2": "在促进存取和使用新形式文献的现实情况下，英国开始对原始手稿、古籍善本、少量档案资料进行数字化处理，尽可能将被损坏的资料恢复原貌或完成原始数据的恢复。但有时，使用某些计算机工具（如光学字符识别工具、文本编码转换工具）并不是最优的解决方案。此时，需要通过数据管理和文档编码技术进行控制。英国古籍数字化中还应用了元数据技术，在馆藏目录或Web中需要通过元数据标准的辅助，以浏览访问馆藏文献。因而，在技术控制方面，英国图书馆采用了数据管理技术、文档编码技术、元数据管理技术对本国古籍进行管理规范。"
+  },
+  "3.3描述标准": {
+    "context1": "国际为了方便加工和组织馆藏信息资源，提出了FRBR、FRAD、FPSAD 三个概念模型。在此基础上，为了实现馆藏信息资源的著录，提出了ISBD国际书目著录标准。为了满足数字化格式的编码需求，进而制定了UNIMA RC编码格式。UNIMARC是由美国提出的MARC格式加以演变而成的，它的出现得到了许多国家的认可，各国也在此基础上形成适于各国需要的MARC字段。自1997年“AACR理论与未来发展”的国际会议中，首次出现 PDA（资源描述与检索）这一概念模型。PDA是基于FRBR与FRAD 两个概念模型演变而成的，提出不同于过去的数字资源编目的准则，侧重于帮助用户查找、标识、选择和获取所需信息。",
+    "context2": "美国、日本对古籍的编目著录规则一般还是采用MARC格式的著录方法，并应用都柏林元数据标准加以辅助。澳大利亚图书馆对文献资源的描述基于 PDA 进行，澳大利亚国立图书馆一直致力于 PDA研究，以期替代AAC $\\scriptstyle \\mathrm { \\mathrm { R } } _ { \\circ }$ 由于是对古籍文献数字化之后的资源进行著录，因而澳大利亚图书馆认为 PDA资源描述规范，更加适合图书馆的发展需要。同时，澳大利亚国家图书馆在过往的几十年中，花费大量的时间和人力参与到PDA的研究和实践中，并发表了一些有关本国编目规范的问题和看法，其国家数字数据库也积极地配合和支持描述性编目标准的实现，其书目资源服务发展不断迈进。",
+    "context3": "关于索引标准，各国最常用的是由美国国会图书馆提出的主题词（LCSH）编目标准。自LCSH出台，就有较高的使用率，各国的图书馆界也纷纷以此作为参考借鉴，对于有特殊需要，或者古籍文献具有较强的专门性时，会根据需要和习惯进行修改和调整。"
+  },
+  "3.4工作标准": {
+    "context1": "各国创建数字馆藏的过程都可以分解成不同的阶段或步骤。各图书馆的操作情况或许稍有不同，但基本流程大致相同，主要包括设备的选择、确定数字化产品的质量、数字化的准确度以及对原件的保护问题。具体数字化工作实施之前，准备并检查所需的数字化原件以及相关材料，确定是否具有实体条件和现有的元数据资源。从文献库中提走所需要的数字化原件，对其移动和使用情况紧密跟踪，并记录下各时期的存在形态和存放情况。应对脆弱易损的原件，要事前进行评估预测，以尽量减少数字化过程中文献实体受损情况的发生。扫描技术人员应接受适当的培训，以确保能安全地扫描原件。同时，图书馆工作人员需要预估当前的书目元数据是否能满足读者的需求。书目元数据应该是在同一个系统中，支持用户的检索，并能够提供指向数字化替代品的链接和由数字化产品中得到的返回链接。编目是创建馆藏的一个重要环节，应该通过相关协议、描述水平和细节，以及用什么语言做出判断。作为最低要求，要有与主目录语言相一致的描述。为了参与到国家或国际项目中，使更多的读者能获取这些数字馆藏，一般会增补翻译成其他语言，以满足广大用户的需求。"
+  },
+  "4启示": {
+    "context1": "本文基于对国外古籍数字化现状的调查研究，应用内容分析法对国外古籍数字化的标准进行梳理，为我国古籍数字化标准化建设提供参考。",
+    "context2": "首先，国外古籍数字化标准建设相对比较全面，值得借鉴参考。本文对美国、英国、法国、德国、加拿大、澳大利亚、日本等国家古籍数字化标准及规范指南进行检索、归纳和整理。国外许多国家都有保存其国家古老文献的习惯；历史因素的影响，大多数国家同时存储有大量中国的古籍资源。国外许多国家虽然不同程度地对本国保存的古籍进行了数字化工作，但数字化程度、应用标准、数字化具体环节等方面存在许多差异。大部分国家是通过国际合作或是部分开发的策略，逐步完善数字化工作。",
+    "context3": "第二，古籍数字化应形成从项目规划、数字化内容选择、数字化生产流程、数字资源保存以及数字资源发布等几个部分的周期性。古籍数字化资源作为数字资源的一种特殊形式，其周期管理包括将某古籍转换为数字资源并实现共享利用的全过程。",
+    "context4": "第三，古籍数字化出台标准实质上就是加强古籍数字化工作的规范过程，要考虑全面性和系统性，对当前问题和潜在问题都进行评估与规范；在一定条件下对标准对象做出统一规定；考虑到多方面的要求，要图书馆等机构协同参与古籍数字化标准的制定与执行，要严格依照《标准化法》《国家标准管理办法》等法规实施。在进行标准体系设计时，应当遵守全面系统、协调一致、规范具体、效益优先和变动有序的五点原则。",
+    "context5": "第四，基于国外现已形成的标准体系，构建我国古籍数字化标准体系。本文对国外古籍数字化的标准体系做了重新整理与归纳，并对一些部分进行了详细描述，但其依旧有所缺失和不足。从现有的标准体系中可以得出，我国的标准化体系应该重点从古籍数字化项目规划、古籍版本选择、古籍数字资源生产、古籍数字资源保存、古籍数字资源发布五个模块着力建设，进而做到全面系统地指导与规范古籍数字化工作。",
+    "context6": "最后，我国古籍数字化标准体系实施的国家战略。在重点领域和优先事项方面提出古籍项目规划与版本选择的标准规范，形成数字资源发布、生产、保存的规范内容；建立协调共建的保障机制，设立政府的监督机构；促进国际化合作项目，形成标准化战略；利用国家政策进行调控，培养专业性人才，进行资金支持和制度支撑，力求从宏观的四个层次上得出有利于我国古籍数字化标准体系实施和发展的国家战略。"
+  },
+  "注释": {
+    "context1": "[]GB/T 3792.7-2008，古籍著录规则[S]．",
+    "context2": "屈菡．古籍数字化将走向规范化N.中国文化报，2012-05-23（2）.",
+    "context3": "β毛建军．欧美地区中文古籍数字化概述[].数字与缩微影像，2008（1)：36-38.",
+    "context4": "JiZG，WangZH，XieHZ.Commenton the Progress andPesearchof the Digtizationof ChineseAncient Books[.Advanced Materials Research.2010，121-122:411-416.",
+    "context5": "β Sandra Yamamoto.Social Studies: Explorations and Exchanges [] .SchoolLibrary Monthly，2011，27（4):19.",
+    "context6": "[ Karen丨W.北美古籍文献资源建设与数字化的调查[EB/OL．2015-06-02].htp://wenku.baidu.com/link？url $=$ v8wxCXOc CpvH2f2dWajccW7vbKboSy3cfWzj4M0j5_rWSnB6yPLucdNnu1XUjHdnplhEjo-GbJAace6tPiHxh_vDSHIhH1QSWPcnagYTP.",
+    "context7": "[ About Canadiana.org EB/Ou]．[015-06-26] .http://www.canadiana.ca/en/about.",
+    "context8": "IFLA官方网站 EB/OL]．[016-02-11].http://www.ifla.org/.",
+    "context9": "[ Guidelines Indexing and DigitisationEB/OL．2019-06-02].htp://www.dfg.de/formulare/12_15/12_15_en.pdf.",
+    "context10": "0 CAT NO NM24-16/2006,Digitization Standards for the Canadian Museum of Civilization Corporation S].",
+    "context11": "[] PreservationActvitiesEB/O].015-06-26].htp://www.bac-lac.gc.ca/eng/about-us/preservation/Pages/preservationactivities.aspx#a.",
+    "context12": "[2]张文亮，彭媛媛．英国古籍数字化标准建设现状及其启示[].新世纪图书馆，2016（5)：85-89.",
+    "context13": "[13] Digitization Services EB/OL]．[015-06-2d].htp://www.canadiana.ca/en/digitization-services#anc",
+    "context14": "[14]澳大利亚元数据管理标准 EB/OL]．[015-05-15].http://www.nla.gov.au/about-us/standards.",
+    "context15": "[]GuidelinesforgizationProjectsfrCllctionsandHldingsinthePublicDomain，ParticularlyeHeldbyLibrariesandAcive 英国图书馆数字化战略规划EB/O]．2002-03-21]．http://www.bl.uk/aboutus/stratpolprog/digi/digitisation/digistrategy/ index. html#top.",
+    "context16": "i6] 吴夏平．古籍数字化与学术异化 [EB/OL]．[2019-06-02].http://wwW.guoxue.com/? $p = 4 4 5 1$",
+    "context17": "张文亮辽宁师范大学管理学院副教授，博士。研究方向：信息资源建设、数字图书馆。",
+    "context18": "彭媛媛中国科学院文献情报中心博士。研究方向：古籍数字化、开放获取",
+    "context19": "张桐辽宁师范大学管理学院硕士研究生。研究方向：信息资源建设。通讯作者。"
+  }
+}

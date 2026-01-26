@@ -1,0 +1,105 @@
+{
+  "original_filename": "full_5261.md",
+  "开放政府数据平台元数据标准研究进展武琳黄颖茹": {
+    "context1": "【摘要】开放政府数据平台的元数据标准是构建数据平台的重要基础，是保证数据质量的关键因素。通过国内外的文献调研和国际知名的开放数据平台的实践分析，详细梳理美、英、澳、加和欧盟的相关元数据政策和标准，对元数据格式、元数据框架、元素、数据目录词表、受控词表等方面进行比较分析。指出我国在平台建设中设计元数据标准时需要关注的3个关键要素，即数据目录词表的支持、受控词表的有效使用，以及面向元数据关联本体。"
+  },
+  "【关键词】开放政府数据元数据标准数据目录词表关联开放数据": {
+    "context1": "Abstract:The metadata standard of open government data isnot onlya significant foundation of establishing an open government data portal，butitisalsoacritical factortoensure thedata quality.Byresearchon domesticand foreign literatureand investigationonpracticesof large-scaleopen government dataportals，the paperanalyzes the metadatarelated policies and standards of America，Britain，Australia，Canadaand European Union in details，and compares their metadataformats，frameworksandelements，datacatalogues and controlled vocabularies.Based on that，it points outthree keyissues for designing metadata standard during theconstruction of our domestic open data portal，which are reference to Data Catalogue Vocabulary（DCAT），validusage of controlledvocabulariesand constructionof linked ontology.",
+    "context2": "Key words: Open Government Data (OGD) metadata standard DCAT linked open data DOI:10.15941/j.cnki.issn1001-0424.2017.06.003"
+  },
+  "0引言": {
+    "context1": "2015年，国务院印发了《促进大数据发展行动纲要》，并以“加快政府数据开放与共享”作为主要任务之一。2016年1月，广东省经济和信息化服务中心委托广东省标准研究院制定了《数据开放和共享标准》，致力于构建大数据产业标准体系，推进开放政府数据（Open Govermment Data，简称OGD）采集、管理、共享、交易等标准规范的制定和实施，制定大数据相关地方标准，并支持其上升为国家标准。OGD强调“开放”，意味着可被任何人自由获取、免费使用、重用以及再发布，可能的限制是要求署名和以相同授权方式发布。传统的政府数据资源的元数据存在形式不同，可机读和不可机读的文件并存，不利于计算机应用寻找、交换和加工数据；国内外政府数据的描述层次和粒度不一致；数据集的描述信息缺乏标准，选用的词汇不同，或是对同一词汇的理解方式不同，分散、异构的元数据导致了OGD之间互操作和共享的困难。数据标准化决定开放数据的元数据准则，规范OGD的描述，揭示其产生背景和基本特征，帮助用户查询和发现数据或数据集，促进用户对数据的理解与使用，提升数据资源驱动价值创新。"
+  },
+  "1OGD元数据标准研究现状": {
+    "context1": "数据联盟在《The State of the Union of Open Data》中指出，数据标准化可以带来的益处有4个：（1）生产和消费的效率。标准化的数据集可以通过自动化过程和非定制工具更容易地生成和使用。（2）提高可比性。标准化数据集可以与不同程序和字段的其他数据集进行比较，从而提供新的见解。（3）提高一致性。标准可以为数据元素提供明确定义的含义，并有助于在手动转录不可避免时减少人为错误的范围。（4）更大的投资吸引力。如果分析或处理数据的项目和公司能够通过数据标准化实现规模化，投资者更有可能提供资本。开放数据国际（Open",
+    "context2": "Data Intemational）认为，如果政府数据开放门户中的数据均有标准的元数据，则任何类型的用户，包括人类或某些类型的网络应用，都能更充分地理解数据并马上利用其进行可视化或其他用途。如果数据被完整地记录，不同来源的数据将可以用于比较和整合。"
+  },
+  "1.1国外研究现状": {
+    "context1": "2012年，Rothenburg的研究提出两种意见，一种是先开放原始数据再考虑元数据的问题，另一种观点则认为应该首先提供充分的元数据使得OGD不至于被误用甚至滥用，他还对英美加新四国的开放数据元数据标准做了案例分析。之后，Zuiderwijk和Jassen设计出荷兰政府不同层级开放数据的政策框架，其中一项重要的内容就是元数据，分为3种类型，描述型、背景型和详细型。Parycek和 $\\mathrm { V e t r \\hat { o } ^ { [ \\mathrm { 1 1 } ] } }$ 等学者则认为缺失的或有限的元数据会阻碍用户对数据的理解。上述都是较为宏观层面的政策框架分析与设计，2013年之后，国外的一些学者开始研究开放数据的元数据的质量标准或评价，Reiche和Ezard认为元数据的质量可以从5个方面谈起，分别是完整性、加权完整性、准确性、信息丰富程度和易获得程度[。Martin和Turki等3位学者则主张利用元数据的5星评价体系来探究元数据的作用，研究方面包括许可、文件格式和开放程度等[。"
+  },
+  "1.2国内研究现状": {
+    "context1": "2015年10月，复旦大学数字与移动治理实验室和开放数据中国联合推出了“中国开放数据探显镜”报告发现[4，目前各地方对于开放的数据都能提供基本的元数据信息，包括数据名称、发布单位、数据分类以及数据描述等，但平台的元数据并没有统一的标准，著录的元素、元素的取值范围和元数据文件格式等等都不尽相同，多样化的标准和广泛、差异的命名实践都阻碍着元数据基础设施的形成。周志峰和黄如花认为国内的OGD平台建设缺乏通用的、统一的元数据标准[。林玉探讨数据复用元数据的构建方法，提出用“合并、删除和修改保留”三种方法对现有的元数据标准进行参考和整合。2016年2月，欧俐伶和杨东谋综合观察并整合美国、英国与加拿大的开放数据元数据框架的元素，提出初始的元数据框架，结合元数据生命周期模型（Metadata Lifecycle Model，MLM)，进一步深化元数据基本框架的建构过程，最后通过访谈的方式获得实践数据，分析和调整后最终得出共31个元素的元数据框架["
+  },
+  "2国外OGD元数据标准的相关政策": {
+    "context1": "国外政府纷纷在建立OGD平台的同时开始制定OGD的元数据标准，以提高开放数据的效率和利用率，保证数据开放的高质量，增强公众对数据的理解与获取。以下分别对美国、英国、澳大利亚、加拿大和欧盟的开放平台的元数据标准及相关政策进行比较分析。"
+  },
+  "2.1OGD元数据标准政策特色": "",
+  "（1）美国：开放数据项目主导": {
+    "context1": "美国真正将开放数据的元数据落实到政策中是在2013年5月，奥巴马总统签署《开放政策——管理作为资产的信息》备忘录。其中第一部分提及要“使用共享核心和可扩展的元数据”，并规定了政府机构必须使用共享核心的元数据描述信息，并与开放数据项目中数据创建和收集的最佳实践保持一致。2015年2月1日，美国政府更新了《开放数据项目元数据模式V1.1》[，对元数据标准有了更详细的注释。2016年5月参众两院审议《开放政府数据法案》，该《法案》对于公开的数据规定了机器可读性、可检索性和开放性格式等3项要求，以及受控词表、元数据文件格式、著录对象、分类和属性、元数据的扩展等相关规定2。"
+  },
+  "（2）英国：数据发布前标准先行": {
+    "context1": "英国一向被视为OGD运动的先驱之一，开放数据支持者们重视标准的建立，他们更认为元数据标准是开放数据发布前期阶段中最有价值的标准。2013年10月，英国内阁办公室发布了政策白皮书《国家信息基础建设》（National Information Infrastructure，下文简称为“NII\"），旨在推动国家开放数据的力度，明确政府的责任。这份行动方案最新更新于2015年3月，文件不仅在第七原则中提到了“相互关联的数据要以标准化的记录方式识别并与其他数据建立联系”，更强调了并非所有的NII数据都会公布或称为开放数据，但是所有的NII数据都必须在元数据中清晰说明，包括开放政府许可下该数据的用途和属性。英国OGD元数据标准尚未发布综合性的文件，但是相关的元数据框架和标准均在其开放数据平台有说明，包括解释、元素来源、范例等。"
+  },
+  "（3）澳大利亚：发现、共享与复用": {
+    "context1": "澳大利亚政府的数据开放从2009年开始，并与Web2.0技术紧密结合。2009年12月，调查报告《参与：政府2.0的发展》中指出，为了实现和促进 PSI（Public Sector Information，公共部内信息）的发现，共享和重复利用，政府机构需要应用经认可的元数据标准，包括《澳大利亚政府定位服务元数据标准》和《澳大利亚政府交互功能词库》，以符合澳大利亚政府的信息互操作框架，如果不能符合这些标准，就要推迟这些PSI的发布。2016年1月，澳大利亚OGD元数据标准在 Data.gov.au中的“发现元数据”（Discovering Metadata）中强调说明，包括相关元数据索引、元数据分类及元素，在元素介绍中包含受控词表的规范和要求。"
+  },
+  "（4）加拿大：顶层设计典范": {
+    "context1": "加拿大政府从2001年开始即向外宣布使用都柏林核心（Dublin Core）作为网络资源发现的核心元数据，2010年，加拿大政府就开放数据平台更新了其元数据标准，2013年，作为八大工业国组织（Group Eight，G8）成员的加拿大签署了《G8开放数据宪章》，其中原则二是注重数据的质量。对此，加拿大政府发布了《加拿大的行动计划》，其中提出数据平台中的数据集必须用英语和法语两种语言充分描述。随后，政府开放数据部门发布了《信息管理工具：加拿大政府开放数据平台元数据实施指南》i，主要内容涉及元数据分类、元数据元素描述及关系、元数据使用指南。随后，《加拿大开放政府行动计划2014～2016》2中说明，此3年需要参考其他国际标准来建立和识别开放数据标准，包括元数据和文件格式。加国开放政府数据平台是目前开放程度最高的国家之一，高达20多万数据集。"
+  },
+  "（5）欧盟：重视数据的交叉引用和互操作": {
+    "context1": "欧盟的OGD政策在成员国中具有重要的引领作用，2011年12月12日，欧盟公布的《开放数据—创新、增长和透明治理引擎的通讯》指出，共同商定的元数据的应用能促进数据的交叉引用和互操作性，因此可以大幅度提高重复使用的价值。2015年6月20日，欧盟发布最新的《DCAT（Data CatalogVocabulary）在欧洲数据平台应用标准》第5修改版，内容包括应用标准的分类以及各分类下的属性和受控词表等等。欧盟开放数据内户因其首先面向全部成员国，成为数据共享互操作探索方面的领先者，而且该模式也日趋成为更多国家地区效仿的榜样，如我国各省各地市的开放数据平台之间的数据标准和互操作、数据兼容、数据服务等方面都可以借鉴该模式的成功之处。"
+  },
+  "2.2国外OGD元数据标准的对比": {
+    "context1": "根据上述5个国家和联盟的元数据标准，笔者从元数据的文件格式、标准的框架和分类，以及元数据词表和受控词表来进行对比，以找出它们的共同点及特色之处。"
+  },
+  "2.2.1元数据文件格式标准": {
+    "context1": "对英国、美国、澳大利亚、加拿大和欧盟5个OGD平台调研发现，平台发布的数据集都附带元数据文件对数据集进行描述，用户不仅能查看而且还能下载元数据文件，方便用户使用和理解数据集的内容。其中，英国和加拿大把所有数据集的元数据文件格式统一为JSON格式，美国则是提供元数据的XML或JSON格式文件，澳大利亚和欧盟的平台则同时给用户提供3种格式的元数据文件，分别是XML、RDF和JSON。",
+    "context2": "2010年5月，在政府2.0峰会上，万维网创始人、关联开放数据的提倡者 Tim Bermers Lee提出开放数据的5星评价标准。该标准被视为数据复用的马斯洛金字塔，第一层表示满足基本需要而第五层则是最佳的状态。根据Tim Bermers Lee的5星评价标准，JSON（Java Script Object Notation）属于最佳的元数据文件格式。JSON 基于JavaScript编程语言，是一种轻量级的数据交换格式，用于优化数据交换，它使得人们很容易地进行阅读和编写，同时也方便机器进行解析和生成。",
+    "context3": "因此，从各国开放数据平台的现状来看，各国OGD数据集的元数据文件都以JSON、XML或RDF的格式呈现，达到了4星甚至5星的开放水平。这对我国统一开放数据平台的建设有所后示，OGD的最佳元数据文件格式是JSON格式，其中开放数据集的元数据信息不仅要连接到一个网络中，而且还要与其他元数据相互关联，产生关联效应，最大限度地满足用户的需求，使得数据价值潜力充分释放。"
+  },
+  "2.2.2元数据标准的框架及分类": {
+    "context1": "现阶段，美国、英国、澳大利亚、加拿大和欧盟都已经为其开放数据平台中数据集的著录制定了统一的标准，加强对数据集管理的同时，方便用户的检索利用和对数据集的理解。"
+  },
+  "（1）美国：API元数据标准": {
+    "context1": "美国的开放数据元数据标准是目前为止各国中对元数据标准的规定最为详细的，且更新及时。美国标准基于数据目录词表（Data Catalog Vocabulary，简称DCAT)，将对数据的描述分成元数据、数据集和发布信息3个层面，并根据国情添加局代码、程序代码、主要信息技术唯一投资标识、文件系统和数据质量等具有本地特色的元素。美国的元数据标准较为领先还体现在它还为数据集的API制定元数据标准（见表1)。现阶段，各国或联盟的OGD平台都逐步建立数据集的API（Aplication Programming Interface，应用程序编程接口)，API允许计算机程序通过万维网访问数据集，用户可以通过界面取用OGD，设计应用程序（APP)。因为API的易用性与资源和数据传递的高效性，提供OGD的API能极大便利政府机构与企业之间的数据交换和服务。政府开放数据是有价值的，但这些数据的数量巨大，政府不应该浪费时间和金钱在重复的数据复制过程上。API允许机器直接对数据集进行查询，基本上消除了访问数据的壁垒，以此提高政府的效率，用更少的资源做更多的事。该标准覆盖内容最为全面，标准最为详细的元数据标准文件甚至囊括了对API的元数据要求。但这个框架过于细致，操作难度大，操作成本高。",
+    "context2": "表1美国OGD的API元数据标准",
+    "context3": "<table><tr><td rowspan=1 colspan=1>元数据名称</td><td rowspan=1 colspan=1>备注</td></tr><tr><td rowspan=1 colspan=1>accessURL(获取统一资源定位符)</td><td rowspan=1 colspan=1>用户用于获取API的API文档URL</td></tr><tr><td rowspan=1 colspan=1>description (描述)</td><td rowspan=1 colspan=1>对于API文档的描述</td></tr><tr><td rowspan=1 colspan=1>describedBy (描述文档)</td><td rowspan=1 colspan=1>针对API的可机读文件的URL</td></tr><tr><td rowspan=1 colspan=1>describedByType(描述类型)</td><td rowspan=1 colspan=1>针对API的可机读文件的媒体类型，如 Swagger，RAML，API Blueprint,HAL，Hydra等等</td></tr><tr><td rowspan=1 colspan=1>format (格式)</td><td rowspan=1 colspan=1>API</td></tr><tr><td rowspan=1 colspan=1>title（题目）</td><td rowspan=1 colspan=1>该API的标题</td></tr></table>",
+    "context4": "（2）英国：以CKAN的元数据标准为核心",
+    "context5": "英国公布的OGD的元数据标准结合了CKAN\\*的元数据标准、数据分类词表（DCAT）以及GEMINI和ISO19139元数据标准。CKAN的元数据标准包括核心数据集、附加信息和资源3类。CKAN的核心数据集也支持数据分类词表，但是从CKAN平台中获取的数据还是推荐使用CKAN的描述框架[。对于数据分类词表（DCAT），英国开放数据平台选取了其中数据集和发布信息两个类别的22个元素；GEMINI和ISO19139元数据标准则专用于地理信息的元数据著录，如空间参照系、空间分辨率等等。英国的元数据标准主要由3个标准整合而来，没有一份综合性的文件，较为零散，不便于相关工作人员或用户的查询或使用。"
+  },
+  "（3）澳大利亚：内容详尽，高度标准化": {
+    "context1": "澳大利亚的OGD元数据标准同时参考结合了3个元数据标准，分别是DCAT、都柏林核心和《澳大利亚政府定位服务（AGLS，Australian Govermment Locator Service）元数据标准》，其中AGLS主要是地理信息方面的元数据元素。澳大利亚政府希望通过此举将不同类型的数据元数据整合，以提高数据发现的一致性。元素分成数据集、数据集资源、实体、用户账户、范围和附加信息六大部分，但每个部分之间的逻辑关系并不明显。但是澳大利亚的元数据框架中对元素的映射、层级属性、描述、范例、受控词表、公众定义、是否由系统自动产生，是否必需和是否可重复等内容都进行了具体的界定，方便著录人员，同时，其标准化程度比其他标准更高。澳大利亚的元数据框架对元素的规定十分详细，可操作性强；但其元素的分类标准不清晰，用户比较难以理解。"
+  },
+  "（4）加拿大：基于DC扩展": {
+    "context1": "加拿大的元数据集结合了都柏林核心元素（DC），同时在此基础上修改并扩展，包括《北美洲ISO 19115:2003概要》和美国政府在Data.gov上的通用核心元数据标准。加拿大的OGD元数据标准根据元数据元素的性质，划分为基本型、资源型和附加型，类目简单易理解，对受控词表的规定也很细致，标准化程度高。加拿大对元素的要求程度分为4个层次，在必需项、条件项和选择项的基础上多设一个层级一—推荐项，它介乎于条件项和选择项之间。加拿大的“附加信息”中“API终端”是必选项，可见其对开放数据应用程序编程接口的重视。"
+  },
+  "（5）欧盟：数据属性划分细致": {
+    "context1": "欧盟对元数据属性的划分是5个标准中最为复杂的，它把元素划分为元数据记录、数据集、发布信息、相关机构、分类标准、分类、校验、许可文件和时间期限10个部分，每个部分再根据要求的程度划分必需、推荐和可选3个等级，粗略来算一共30个子域，类目过于繁复，操作难度大，更适合数据著录详尽、建设更为成熟的开放数据平台。表2是以上OGD元数据标准分类及元素表。",
+    "context2": "表2英美澳加欧盟OGD元数据标准分类及元素",
+    "context3": "<table><tr><td colspan=\"1\" rowspan=\"1\">国家/联盟</td><td colspan=\"2\" rowspan=\"1\">元数据标准分类</td><td colspan=\"1\" rowspan=\"1\">包含元素</td></tr><tr><td colspan=\"1\" rowspan=\"3\">英国</td><td colspan=\"1\" rowspan=\"3\">CKAN</td><td colspan=\"1\" rowspan=\"1\">核心数据集</td><td colspan=\"1\" rowspan=\"1\">名字、题目、注解、标签、许可ID、发布者（包括作者、维护者及其邮箱和关系)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">附加信息</td><td colspan=\"1\" rowspan=\"1\">服务、功能、数据集的联系信息、FOI（Freedom Of Information）的联系信息、有效性、授权、更新频率、是否未发布、地理信息和主题</td></tr><tr><td colspan=\"1\" rowspan=\"1\">资源</td><td colspan=\"1\" rowspan=\"1\">名字、日期、URL、格式、资源类型、标准URL、标准类型</td></tr><tr><td colspan=\"1\" rowspan=\"3\">美国</td><td colspan=\"2\" rowspan=\"1\">元数据（Catalog)</td><td colspan=\"1\" rowspan=\"1\">元数据背景、元数据标识、元数据类型、元数据标准、数据字典、数据集</td></tr><tr><td colspan=\"2\" rowspan=\"1\">数据集（Dataset)</td><td colspan=\"1\" rowspan=\"1\">必需项：题目、描述、关键字、最新更新日期、发布者、联系方式、标识、公众获取级别、局代码、程序代码条件项：许可、权利、地理信息、元数据类型、有效期、发布信息选择项：更新频率、数据标准、数据质量、数据字典、数据字典类型、数据集集合、发布日期、语言、登录页面和信息技术唯一投资标识、主题、参考和文件系统</td></tr><tr><td colspan=\"2\" rowspan=\"1\">发布信息（Distribution)</td><td colspan=\"1\" rowspan=\"1\">条件项：获取URL、下载URL、媒体类型选择项：元数据类型、数据标准、数据字典、数据字典类型、描述、格式和题目</td></tr><tr><td colspan=\"1\" rowspan=\"6\">澳大利亚</td><td colspan=\"2\" rowspan=\"1\">数据集（Dataset)</td><td colspan=\"1\" rowspan=\"1\">必需项：题目、描述、关键词、主题、语言、许可、权利、数据状态、是否公开联系信息、登录页面、公布日期、更新日期、标识、元数据URI条件项：更新频率</td></tr><tr><td colspan=\"2\" rowspan=\"1\">实体（Entity)</td><td colspan=\"1\" rowspan=\"1\">必需项：发布机构、发布机构联系信息、数据平台和管辖范围。选择项：主页URL</td></tr><tr><td colspan=\"2\" rowspan=\"1\">资源（Resource)</td><td colspan=\"1\" rowspan=\"1\">条件项：获取URL、下载URL、文件大小、媒体类型和格式</td></tr><tr><td colspan=\"2\" rowspan=\"1\">用户账户（User Account)</td><td colspan=\"1\" rowspan=\"1\">必需项：发布者及发布者的联系信息</td></tr><tr><td colspan=\"2\" rowspan=\"1\">范围（Extent)</td><td colspan=\"1\" rowspan=\"1\">必需项：有效期起始日期、地理范围条件项：有效期终止日期</td></tr><tr><td colspan=\"2\" rowspan=\"1\">附加信息（Additional Com-monwealth Specific Options)</td><td colspan=\"1\" rowspan=\"1\">选择项：ISO19155主题、研究领域和数据模型</td></tr><tr><td colspan=\"1\" rowspan=\"3\">加拿大</td><td colspan=\"2\" rowspan=\"1\">核心类（Mandatory)</td><td colspan=\"1\" rowspan=\"1\">必需项：标识、电子邮箱、语言、发布者、发布者数量、题目、描述、数据类型、主题、关键词、许可、属性（数据标准)、发布日期、更新频率条件项：主题分类、地理信息选择且推荐项：地理区域、地理信息、修改日期选择项：电子实体标识</td></tr><tr><td colspan=\"2\" rowspan=\"1\">资源类（Resource)</td><td colspan=\"1\" rowspan=\"1\">必需项：题目、资源类型、URL、格式、语言选择项：大小</td></tr><tr><td colspan=\"2\" rowspan=\"1\">附加信息( Additional Information)</td><td colspan=\"1\" rowspan=\"1\">必需项：API终端选择项：数据序列名称、鉴别、有效期起始日期、有效期终止日期、主页URL</td></tr><tr><td colspan=\"1\" rowspan=\"1\">国家/联盟</td><td colspan=\"1\" rowspan=\"1\">元数据标准分类</td><td colspan=\"2\" rowspan=\"1\">包含元素</td></tr><tr><td colspan=\"1\" rowspan=\"10\">欧盟</td><td colspan=\"1\" rowspan=\"1\">元数据（Catalogue)</td><td colspan=\"2\" rowspan=\"1\">必需项：数据集、描述、发布者和题目推荐项：主页、语言、许可、发布日期、主题、修改日期选择项：子目录、根目录、目录文件、权限、地理信息</td></tr><tr><td colspan=\"1\" rowspan=\"1\">元数据记录( Catalogue Record)</td><td colspan=\"2\" rowspan=\"1\">必需项：主题和更新日期推荐项：应用标准、数据更改类型（状态)、著录日期选择项：描述、语言、源元数据和题目</td></tr><tr><td colspan=\"1\" rowspan=\"1\">数据集（Dataset)</td><td colspan=\"2\" rowspan=\"1\">必需项：描述、题目推荐项：联系信息、数据集发布信息、关键词/标签、发布者和主题选择项：获取权限、官方机构、数据标准、参考、更新频率、更新版本、标识、源版本、登录页面、语言、其他标识、出处、相关资源、发布日期、范例、资源、地理信息、有效性、类型、更新日期、版本和版本备注</td></tr><tr><td colspan=\"1\" rowspan=\"1\">发布信息（Distribution)</td><td colspan=\"2\" rowspan=\"1\">必需项：获取URL推荐项：描述、格式和许可选择项：字节大小、校验、说明文件、下载URL、语言、相关标准、媒体类型、发布日期、权限、状态、题目和更新日期</td></tr><tr><td colspan=\"1\" rowspan=\"1\">相关机构（Agent）</td><td colspan=\"2\" rowspan=\"1\">必需项：名字推荐项：类型</td></tr><tr><td colspan=\"1\" rowspan=\"1\">分类标准（Category Scheme)</td><td colspan=\"2\" rowspan=\"1\">必需项：题目</td></tr><tr><td colspan=\"1\" rowspan=\"1\">分类（Category)</td><td colspan=\"2\" rowspan=\"1\">必需项：：优先标签</td></tr><tr><td colspan=\"1\" rowspan=\"1\">校验（Checksum)</td><td colspan=\"2\" rowspan=\"1\">必需项：算法和校验值</td></tr><tr><td colspan=\"1\" rowspan=\"1\">许可文件（License Document)</td><td colspan=\"2\" rowspan=\"1\">推荐项：许可类型</td></tr><tr><td colspan=\"1\" rowspan=\"1\">时间期限（Period of Time)</td><td colspan=\"2\" rowspan=\"1\">选择项：起始日期和终止日期</td></tr></table>"
+  },
+  "3元数据标准设计关键要素": {
+    "context1": "我国开放政府数据平台建设需要关注数据的质量，其标准化的程度、数据的标准化程度直接影响其复用和与其他数据的互通性。元数据的标准不仅规范了对OGD的描述方式，帮助用户对数据的理解和发现，促进数据之间的共享和互操作，更对关联开放数据有着重要而深远的意义。"
+  },
+  "3.1数据目录词表的支持": {
+    "context1": "元数据词表是定义属性的有限集合，而受控词表是元数据属性明确取值的一个有限集合。元数据标准一般通过元数据词表（Metadata Vocabulary）和受控词表（Controlled Vocabulary）对元数据中的属性和属性值的描述方式进行限定和规范。",
+    "context2": "DCAT最早是由爱尔兰国立高威大学的数字化企业研究所（Digital Enterprise Research Institute）开发，DERI在对美国、英国、澳大利亚、新西兰、爱尔兰、伦敦和旧金山7个数据开放平台的元数据进行分析后得出 DCAT 的初始框架。后来经过 W3C的政府关联数据工作组（Government Linked Data Working Group）的进一步完善，2014年，DCAT作为3份关于关联数据的正式推荐标准（W3C Recommendation）之一发布，目的在于促进数据发现和帮助增强数据（特别是政府开放数据）的互操作性。根据目前的OGD元数据标准，DCAT是最为广泛采用的元数据词表，美国和欧洲的标准均是基于DCAT来设计的，而英国和澳大利亚则将其作为标准的重要组成部分，支持DCAT的描述。DCAT在中国OGD平台数据发布中的作用需要进一步深入研究，也是未来需要关注的重点之一，这对于我国OGD平台和国际主要国家地区平台数据共享起到关键作用。"
+  },
+  "3.2受控词表的有效使用": {
+    "context1": "元数据各属性的取值受到受控词表的限制。因为不同的区域、部门或是用户会对同一词语产生歧义，受控词表的作用就在于把某个词语或短语的意思确定下来，这样能有效提高元数据的结构性和用户的理解程度。其中涉及到URL的文件格式的元数据元素一般是由数据平台自动生成的，而关于主题、发布者和地理区域名称等一般会有特定的受控词表。欧盟的平台 PublicData.eu元数据就主要以欧洲元数据中心（Metadata Registry，MDR）的各类权限表以及资产描述元数据标准（Asset Description Metadata Schema，ADMS）规范b作为某些属性的取值标准，如MDR国家命名权限表、ADMS许可类型词表等等。加拿大则参考《加拿大政府核心主题词表》、ISO3166－1国家代码等受控词表。其他国家则暂未在元数据标准文件中对受控词表的情况进行说明。受控词表使开放数据的著录标准化，从而提高使用效率。调研我国现有的相关受控词表的现状，制定词表使用规范对于提高数据质量和利用效率至关重要。"
+  },
+  "3.3面向关联数据本体": {
+    "context1": "关联开放数据的核心目的就是促进OGD资源的共享和复用，增加数据资源的应用价值[。Attard等人认为关联数据可以提升OGD的价值创造流程，并以publicspending.net为例，解释该数据平台如何将美国、英国政府的经济数据关联起来进行分析，使公共支出数据得以产生商业价值[3。基于元数据标准构建元数据的本体，对数据的资源和属性之间，数据资源和其他资源之间的相互关系进行精确的语义化描述[，可以使政府数据以关联数据的形式进行发布和开放。Falucchi等学者则基于本体构建了数据收集、知识提取和展示的自动化系统，目的在于实现公共管理领域开放数据的自动监测，以此指导公共事务的决策过程[4。将开放数据和关联技术、本体技术等结合的新技术领域，必将有效提升数据利用的经济价值和民生价值，政府数据资源的潜力也在不久的将来被更充分地发现和挖掘，对数字经济时代社会的进步贡献出新技术的力量。"
+  },
+  "注释": {
+    "context1": "[国务院关于印发促进大数据发展行动纲要的通知 EB/O]．[016-10-16].2015.htp://www.gov.cn/zhengce/content/2015-09/05/content_10137.htm.",
+    "context2": "[数据开放和共享标准制定项目中标公告EB/Ol]．2016-11-06l.http://ww.gdgpo.gov.cn/showNotice /id/40288ba9523bbb6f01525dc44c406bf3.html.",
+    "context3": "β What Is Open Data EB/O1]．016-10 -16].htp://opendatahandbook.org/guide/en/what -is -open-data/.",
+    "context4": "The Australian National Data Service（ANDSEB/OL]．[O16-10-17].htp://ands.org.au/working-with-data/metadata.",
+    "context5": "]钱国富．基于关联数据的政府数据发布[．图书情报工作，2012（5)：123－127.",
+    "context6": "Th StateoftheUnionofOpenData.15EB/]16-11-16].htp://ww.datafoundationorg/state-of-te-uion-of-opendata -2016/.",
+    "context7": "ArofanGregory.OpenDataand Metadata Standards:ShouldWeBeSatifedwith“GoodEnough”.201lEB/O].[016-01-17]ttp:// odaf.org/papers/Open% 20Data% 20and% 20Metadata% 20Standards. pdf.",
+    "context8": "图JRothenbergTowardsaBeterSupplyandDistributionProcessforOpenDataCaseStudyInternationalenchmarkonOpenDataandUsef Standards，Forum Standardisatie，Technical Report 1.O3，2012.",
+    "context9": "[2ReicheKJ，HofigE.ImplementatonofMetadataQualityMetricsandAplicationonPublicGovermentDataComputerSoftwareanc Applications Conference Workshops （COMPSACW)，2013 IEEE 37th Annual，2013:236-241.",
+    "context10": "[Zuiderwijk，Gse6arykP，talpecialueoTasprecydOpeDataPles:GuestEdis’Itroductiooulf Theoretical & Applied Electronic Commerce Research，2014（3)：I-IX.",
+    "context11": "[ VetroA，anoaL，TorcanoM,etaOenDataQualityeasureentFrameork:DiitionandAplicatiotOpenGoveenata.Government Information Quarterly，2016(2)：325-337.",
+    "context12": "[3]MartinS，FouloeauM，TurkiS.1-5StarsMetadataontheOpeessLevelofOpenDataSetsinEuropeMMetadataandSeantics Research. Springer International Publishing，2013:234-245.",
+    "context13": "[4]郑磊，高丰．中国OGD平台研究：框架、现状与建议[．电子政务，2015（7)：8－16.",
+    "context14": "[5]周志峰，黄如花．国外政府开放数据门户服务功能探析[．情报杂志，2013（3)：144－14[6]林玉．资料度用诠释资料之建置方法[]．台湾大学，2012.",
+    "context15": "7] 欧俐伶，杨东谋．台湾政府开放资料之诠释资料建置探讨 [．教育资料与图书馆学，2016（1)：63－102.",
+    "context16": "[8]OpenDataPliManagingInfomationasanAsse03EB/O16-1-2]htps://w.hitehousegov/stesdefaltfles/ omb/memoranda/2013/m-13-13.pdf.",
+    "context17": "[9]Project Open Data Metadata Schemav1.1EB/O1]．16-11-O2].htps://project-open-data.cio.gov/v1.1/schema/. [0] $0 \\mathrm { p e n }$ ，Public，Electronic，and NecesaryGovermment DataActortheOpen GovEB/O].017-01-02].htps://ww.congressgov/ bill/114th -congress /house -bill/5o51/all -info? resultIndex $= 5 1$",
+    "context18": "[TheNatioalIfoatioIfrastructure（N）ImplementatioDoent23EB/O]160ps:/wwwgovukgovet/ uploads/system/uploads/attachment_ data/file/416472/National_Infrastructure_ Implementation.pdf.   \n[2]英国开放政府数据平台指南 [EB/Ol]．[O16-11-05] .http://guidance.data.gov.uk/.   \n[3]Goverment2.TaskFor，EngageGetingonitoveet.DepartentofFnanceandereglatio.December2B/ [016-02-O2] .http://www.finance.gov.au/archive/publications /gov2Otaskforcereport/.   \n[4 Discovering MetadataEB/OL]．016-11-07].htps://tolkit.data.gov.au/index.php?title $=$ Discovering_Metadata # Discovering_ Metadata.   \n[5]Canada’sActionPlanonOpenGovementEB/O．016-O2-02].tp://open.canadaca/en/g8-pen-dta-charter-canadasaction -plan.   \n[Canada’sActionPlanonOpen Govermment2014-16.2014EB/O]．O16-02-02].htp:/pen.canadaca/en/content/canadasaction- plan - open- government - 2014-16.   \n[7]CommunicatiofroeComissotoeEuroeanent，eCocilthEuroanEooicdocialComieofteion DataAnEngeovatio，GrowthndasparntGoveance.hps//curopaudigialsinglearketeomucatio commission -european-parliament-council-european-economic-and- social-commitee-and[R .2011-12.   \n[8DCATAplicationProfilefDataPortasiEuropeRevisionDraf5.20B/O01-1-2]hps:/joiupec.europauode/ 137964.   \n[9] 5 Star Open Data [EB/O1]．[O16-11-O7] .http://5stardata. info/en/.   \nB0] JSON 介绍EB/O1]．[2016-11-07] .http://www. json.org.cn/.   \nB1] API BasicsEB/O1].[016-11-O7].htps://project-open-data.cio.gov/api-basics/.   \nB2UKGEMINEncodingGuidance.2013EB/]．016-11-07].htps://datagv.uk/sites/default/fles/UK%20GEMN%2Encoding% 20Guidance% 201.4_10.pdf.   \nB3lGeographicInformation-MetadataXMchemaImplementationEB/O]O16-11-07]htp://ww.iso.og/isoisocatalogue/ catalogue_ tc/catalogue_detail. htm? csnumber $= 3 2 5 5 7$   \nB4] CKAN [EB/O1]．[016-06-O7].htp://guidance.data.gov.uk/harvesting.html#.   \n[5]高丰．共治共创视角下的开放数据发展：趋势、挑战和反思[．大数据，2016（2)：38－45.   \nB6MaaliF，Cyganiak，PeristerasVEablingIterorabiltofGoveentDataCataloguesMElectronicGovent：95.   \nB7] Aset Description Metadata Schema[EB/O1]．[016-12-07] .https:/joinup.ec.europa.eu/asset/adms/description.   \n[8] 陈明艳．政府开放数据的语义描述与实体同一性研究[]．华南理工大学，2015.   \nB9]AtardJ，OrlandiF，AuerS.ValueCreationonOpenGovermentDataC/OIEEComputerSoity:HawaiIterationalConferenceon SystemSciences，Hawaii，2016EB/Ol]O16-11-07].htps://wwwresearchgate.net/publication/282915064_Value_Creationon Open_ Government_Data.   \n[40]欧石燕：面向关联数据的语义数字图书馆资源描述与组织框架设计与实现[．中国图书馆学报，2012（6)：58－71.   \n[]FallcchiF，osiE，LigiA，talOntoDrivenublicdministrationWebHostigMoirngSsteMOnteoveteangful Internet Systems:OTM 2014 Workshops. Springer Berlin Heidelberg，2014:618 -625.",
+    "context19": "武琳中山大学资讯管理学院，副教授，博士。研究方向：数字信息资源管理、网络信息组织与检索、政府开放数据和科学数据管理。黄颖茹墨尔本大学信息学院，硕士研究生。"
+  }
+}

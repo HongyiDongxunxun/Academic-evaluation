@@ -1,0 +1,83 @@
+{
+  "original_filename": "full_1600.md",
+  "●王芳，白美玲，李兆静(南开大学商学院信息资源管理系，天津300071)": "",
+  "价值焦点思考研究综述": {
+    "context1": "摘要：价值焦点思考是一种解决多目标问题的决策分析方法，强调价值在决策过程中的指导作用，对于决策情报的收集与分析具有后发意义。价值焦点思考广泛应用于军事、管理、营销、信息系统等领域。文章全面综述了国内外价值焦点思考相关研究，系统介绍了价值焦点思考的含义、优势、模型建立、应用步骤、权重计算、应用领域与发展方向，以期为各领域的决策研究及其情报服务提供支持和参考。",
+    "context2": "关键词：价值焦点思考；决策；综述",
+    "context3": "Abstract:Value-FocusedThinking（VFT）isa decision-making analysis methodfor solving multipleobjective problems.VFT emphasizestheguidanceroleofvalueinthedecision-makingprocess，andisof inspiringsignificanceinthecolectionandanalysis of decision-making intellgence.Itiswidelyusedinthemlitary，management，marketingandinformationsystemfields.Thepaper makesacomprehensivesummaryof therelatedresearcheson VFTathomeandabroad，andgivesasystematical descriptionof the meanings，advantages，constructionofthe model，application process，weightcomputing，application fieldanddevelopmentdirectionianatempt toprovidesupportandreferencesfordecision-makingresearchanditsinformationserviceinvarious fields.",
+    "context4": "Keywords: VFT； decision-making; summary",
+    "context5": "价值焦点思考（Value-Focused Thinking，VFT）是一种适用于解决多目标问题的决策分析方法。该方法认为潜在的价值观是指导人们决策和行动的关键因素。决策过程需要信息支持，VFT间接影响决策信息的收集、取舍与分析模式。",
+    "context6": "近年来，VFT广泛应用于包括信息问题在内的各类决策问题研究，但是，迄今为止，国内尚未见对VFT研究成果的系统梳理，情报学对这种方法的介绍和应用更是一片空白。随着应用的不断扩展，VFT对决策情报研究的影响日益显著。为此，本文拟对国内外相关领域的VFT研究成果进行全面综述，系统介绍VFT的思想、分析步骤以及应用实践。力图从情报分析与服务的视角出发，为相关领域的战略研究与决策分析提供支持，同时也将这种有价值的分析方法引入情报学研究领域，拓展情报学的分析方法与研究视野。"
+  },
+  "1价值焦点思考法的内涵与优势": {
+    "context1": "价值是VFT方法的核心概念，包括经济价值、个人价值、社会价值或其他价值。从本质上讲，VFT是一种指导决策者的哲学。决策制定团队和分析者必须接受3个理念： $\\textcircled{1}$ 决策源于决策者和利益相关者的价值，而不是备选方案。 $\\textcircled{2}$ 根据价值构建好的备选方案。 $\\textcircled{3}$ 结合多目标决策分析技术，根据价值评价备选方案。",
+    "context2": "价值焦点思考是在与方案焦点思考（Alternative-Fo-cused Thinking，AFT）的比较中发展成熟的。AFT是传统的决策分析方法。面对决策问题，AFT首先分析可用的方案，然后思考方案的评价标准，根据评价标准从多个方案中选择最优。AFT的主要优势在于直接聚焦于方案选择，缺点是可能没有一个备选方案和决策者的意图吻合，或者可能无法确定哪个方案更符合决策者的意图。Keeney提出了VFT方法，他认为思考应该首先集中在价值上，其次才是实现价值的方案，方案只是实现价值的方法，价值是评价方案是否合意或适当的标准。AFT把确定方案置于构建价值之前，是一种逆向的方法。Arvai等人利用VFT方法分析风险交流，通过实验比较了AFT和VFT的影响，证明了基于VFT的决策结构可以产生更高质量的风险管理决定。",
+    "context3": "在一个决策环境中，价值随着目标的确定而变得清晰。因此，利益相关者在作出任何决策之前应先定义所希望实现的目标。在营销学中价值被表示为目标、目的、标准、绩效评估、权重与参数选择（目标函数）。在VFT决策的整个过程中，决策者把注意力集中在他所希望达到的目标上，包括： $\\textcircled{1}$ 确定问题是什么，要达到怎样的目标。 $\\textcircled{2}$ 怎样做才能实现这些目标。",
+    "context4": "与AFT相比，VFT被认为有9个优势（如图1所示： $\\textcircled{1}$ 发现隐藏的目标。初步的价值清单帮助发现和识别潜在价值。 $\\textcircled{2}$ 生成备选方案。这比评估已有方案更重要。 $\\textcircled{3}$ 识别决策机会。通过价值思考寻找更好地实现整体价值的机会。 $\\textcircled{4}$ 指导战略思考。战略价值应当指导一切决定，战略分析可能产生潜在方案。 $\\textcircled{5}$ 将决策联系起来。所有的备选方案都应当深化战略目标。 $\\textcircled{6}$ 指导信息收集。指导备选方案评价过程中的信息收集。 $\\textcircled{7}$ 促进多利益相关者决策过程中的参与。 $\\textcircled{8}$ 改善交流。价值目标决定评价备选方案时的讨论重点。 $\\textcircled{9}$ 评价方案。价值判断可以被量化并建立一个价值模型用以评价方案。",
+    "context5": "![](images/0dfe223bc00e3cd26603ed54aa9e63a686baae04ca218d9292fe893b0a7c616d.jpg)  \n图1价值思考"
+  },
+  "2VFT的决策分析过程": {
+    "context1": "VFT分析过程包括4个步骤： $\\textcircled{1}$ 识别目标。包括10种技巧：列出愿望清单；找出备选方案；发现组织的问题和不足；分析已有和未来的后果；分析目标、局限和指导原则；运用不同的视角（如竞争对手）思考问题；确定战略目标；列出通用目标；进行目标构建；目标量化，提出目标测量方案。 $\\textcircled{2}$ 构建目标。对识别出来的目标进行筛选、归类，梳理其方法一目标关系及实现途径，区分出基础目标与方法目标并加以细分。 $\\textcircled{3}$ 生成备选方案。逐次分析基础目标和方法目标，考虑达成目标的所有可能方案。$\\textcircled{4}$ 把握决策机会。将决策机会视为利好而非问题，尽量掌控决策情境。",
+    "context2": "在此基础上，Sheng等人将VFT过程归纳为3步：首先列出一个最初的目标清单，并把它们转化成相同的格式，找到问题的总目标；然后识别基础目标和方法目标;最后产生一个基础目标一方法目标的网络。考虑到利益相关者的重要性，Drevin与Kruger等提出了一个更加细化的VFT分析步骤： $\\textcircled{1}$ 确定利益相关者。 $\\textcircled{2}$ 通过访谈确定价值。 $\\textcircled{3}$ 把价值转换成目标，目标由3个因素组成：决策背景、主体和大致的方向。 $\\textcircled{4}$ 确定方法目标和基础目标。 $\\textcircled{5}$ 构建方法——基础目标网络。",
+    "context3": "我国学者在运用VFT的过程中，对VFT的步骤进行了细化、简化或修正工作。程静等[、郭永辉等将VFT的步骤理解为：首先明确决策问题，确定需要实现的总体目标；然后将总体目标逐层向下不断分解，形成便于度量的子目标，建立树状分支结构的价值模型；在对价值模型赋权之后，生成备选方案；接下来进行备选方案评估，利用价值模型分别针对每一备选方案进行评估，包括权重转换、原始评分与综合评分3个步骤；最后根据综合评分的分值选择最佳方案。郭锐等人在分析空间武器装备体系时提出七步骤的VFT分析过程，认为在构建目标价值树之前，首先要分析体系环境，将体系运行环境制约因素进行筛选，对主要因素变化可能出现的体系环境局势进行分析，如图2所示[。另外，邓朝华与鲁耀斌强调通过调查研究识别差异性价值。上述文献应用VFT进行各类决策问题分析，其分析过程基本按照Keeney提出的步骤进行[，但是都或多或少地忽略了生成备选方案的具体步骤。",
+    "context4": "![](images/b447034e432d432ec81292d887f623fd1fae53429eafc51fc2984eacbf6a5eef.jpg)  \n图2VFT七步决策分析过程"
+  },
+  "3价值焦点思考分析技术—多目标决策分析": {
+    "context1": "VFT使用多目标决策分析技术（Multi-objective Deci-sion Analysis，MODA）进行分析。MODA的特点是决策问题有多个目标，这些目标可能相互冲突、没有统一的衡量标准或处于显著的不确定状态。多目标决策分析技术的4个决策要素是价值、方案、信息和未来的设想。VFT分析包括定性价值模型构建与定量价值构型构建两个核心环节。其中，定性价值模型构建是定量价值模型构建的",
+    "context2": "基础。"
+  },
+  "3.1定性价值模型构建及其结构化技术": {
+    "context1": "定性地、正确地得到决策者和利益相关者的价值是VFT的基础，定性价值模型构建是一个发现和不断明确决策者和利益相关者价值和目标的过程。评价一个定性价值模型的标准为：完备，必须全面收集所有必要的价值类型；互斥，价值应互相不重叠；价值测量可操作；使用尽量少的价值测量属性以限制模型的大小。",
+    "context2": "清晰、标准的结构化技术是产生可信可靠的价值模型的关键。Parnell及其同事提出了4个构建定性价值模型的结构化技术标准，分别为黄金标准、白金标准、白银标准和复合标准。其中，黄金标准，指以正式的愿景、政策、规划或条例作为建模基础，例如，SPACECAST2020用美国航天标准作为建模基础。白金标准，依据与决策者和利益相关者的访谈。白银标准，当前两种标准不可行时，可以根据来自利益相关者代表的数据，使用关系图形成建模依据。复合标准，必要时可以把上述标准组合起来使用。",
+    "context3": "Parnell更进一步地将定性价值建模过程划分为5个步骤： $\\textcircled{1}$ 识别基础目标，基础目标必须明确表述决策的原因，需要花较多的时间来确定。 $\\textcircled{2}$ 识别提供价值的功能，根据黄金标准或功能分析发现价值目标的功能，具体地可以通过研究或头脑风暴发现描述潜在未来功能的动词，将动词和目标相结合可以更好地捕获功能的情境，然后运用关系图将功能和子功能分组。 $\\textcircled{3}$ 识别定义价值的目标，针对每一个功能，需要识别出定义各种价值的目标，这些目标可以通过前述结构化技术获得，然后运用关系图进行分组。 $\\textcircled{4}$ 识别价值测量的属性标准，可以通过与决策者、利益相关者、专家的访谈决定价值测量的属性标准，比如在军事上以完成战斗的时间作为作战计划价值测量的属性标准。 $\\textcircled{5}$ 与关键决策者和利益相关者共同审查决策模型，确保模型准确反映了他们所关心的价值。需要注意的是，价值和目标会随着时间的推移发生变化，应及时加以调整。"
+  },
+  "3.2定量价值模型构建与方案评价": {
+    "context1": "目标确定之后，要在定性价值模型的基础上，确定与目标相关的属性来表明目标的意义并对其进行测量，构建目标的功能函数以计算目标的价值权重[4。在此基础上生成VFT的定量价值模型，其核心要素是数学模型、价值函数和权重。",
+    "context2": "定量价值模型用以计算备选方案的价值，其最合适的分析方法是多目标决策分析方法。多目标决策分析方法主要有TOPSIS法、层次分析法（AHP）、主成分分析法、灰色关联度分析法等，其中最简单的是加和价值模型。由于多目标决策分析是一个独立的、较为成熟的研究领域，在此不再一一综述这些方法的具体内容，只介绍加和模型与AHP模型在VFT定量价值模型构建中的作用。",
+    "context3": "加和价值模型的思想是每个方案具有不同的价值测量属性，不同的价值测量属性具有不同的权重，备选方案的价值就是方案在不同价值测量属性上得分的加权总和。模型中没有受评方案，因为在VFT分析中价值并不来源于方案，所以没有把“如何实现价值”放在模型内。",
+    "context4": "$$\n\\boldsymbol { v } ( \\boldsymbol { x } ) = \\sum _ { i = 1 } ^ { n } w _ { i } \\boldsymbol { v } _ { i } ( \\boldsymbol { v } _ { i } )\n$$",
+    "context5": "其中， $v \\ \\left( \\boldsymbol { x } \\right)$ 是备选方案的价值； $i = 1 \\sim n$ 是价值测量属性的数目； $x _ { i }$ 是方案在第 $i$ 个价值属性的得分； $\\boldsymbol { v } _ { i } \\ \\left( \\begin{array} { l } { \\boldsymbol { x } _ { i } } \\end{array} \\right)$ 是 $x _ { i }$ 得分的单维价值； $W _ { i }$ 是第 $i$ 个价值测量属性的权重;且 $\\sum _ { i \\mathop { = } 1 } ^ { n } w _ { i } = 1$ （所有权重之和等于1）。",
+    "context6": "价值函数 $v \\ \\left( x \\right)$ 是价值属性 $x$ 的函数，可能是线性、凹、凸或 $S$ 曲线几种，函数的形态可以由专家共同确定。"
+  },
+  "3.3权重计算": {
+    "context1": "权重是定量价值模型的重要要素，既涉及不同价值目标的权重测量，也用于备选方案各价值属性的权重测量。比如，在关于BC水疗院的决策中，主要的战略目标关注经济、环境、健康和安全以及服务质量。有关平等和公众服务意识的混合权重少于 $2 \\%$ ，全球环境影响只占环境影响的 $7 \\%$ 。就服务质量而言，中断供应的影响只占 $94 \\%$ ，而新服务和要求的影响共占6%[",
+    "context2": "目前，常用的具体的权重分析方法包括层次分析法、比较矩阵法、Delphi法等。在VFT研究中，运用层次分析法进行指标权重确定的研究有彭灏与龚传信、郭锐等[。Parnell等在 Delphi 法的基础上，在军事决策过程中研发了一种新的“摆动权重矩阵法”。这种方法定义了两个主要的权重因素：重要性和权重评价的变动优先权，其过程分为4步： $\\textcircled{1}$ 定义目标的重要性和变动维度并构建一个矩阵，在矩阵中列为从大到小排列的变动等级，行为从高到低的重要性程度。 $\\textcircled{2}$ 把价值度量的属性填入矩阵。 $\\textcircled{3}$ 评估权重。当领导者都同意矩阵中属性的排序后，给每个单元格 $f _ { j k }$ $j =$ 横排， $k =$ 纵列）中的价值属性赋权重值，所赋的值从 $, 0 \\sim 1 0 0$ 。 $\\textcircled{4}$ 计算价值属性 $i$ 的整体权重。整体权重的计算方法如下：",
+    "context3": "$$\nw _ { i } = \\frac { F _ { i } } { \\displaystyle \\sum _ { i = 1 } ^ { 4 0 } F _ { i } }\n$$",
+    "context4": "式中 $F _ { i }$ 为矩阵摆动权重， $f _ { j k }$ 与属性 $i$ 相对应， $i = 1 \\sim n$ 是价值测量属性的数目。",
+    "context5": "层次分析法将备选方案作为主要评价对象，因此也同样适用于AFT分析。与AFT不同的是，VFT的方案不仅来源于已有方案，还包括根据价值目标生成的备选方案。AHP主要通过分析目标、准则与方案来进行多目标问题决策，其基本分析步骤为：建立层次结构模型；构造判断矩阵；层次单排序及一致性检验；层次总排序及一致性检验。多级递阶层次结构模型一般可以分成三层，即目标层，表明解决问题想要达到的目标；准则层，评价各方案时所考虑的各个子目标（因素或准则），可以由目标层逐层细分而得；方案层，指解决问题的方案。",
+    "context6": "我国学者荆涛与陆农春结合AHP法，运用VFT提出了5步骤装备发展决策方法： $\\textcircled{1}$ 开发基础价值模型，包括演绎法和归纳法两种方法。 $\\textcircled{2}$ 确定评价准则，为基础价值模型所有最底层的子目标确定评价准则。 $\\textcircled{3}$ 确定评价指标，针对每一项评价准则进一步确定该准则的评价指标，用于度量备选方案的优劣。 $\\textcircled{4}$ 开发评分函数，每一个评价指标对应一个评分函数，利用评分函数，可以将各个价值目标转换成不同的价值分数，这些分散的价值分数就成为评价不同备选方案总体价值的基础。 $\\textcircled{5}$ 建立权重体系，价值模型的权重体系代表了各层次目标的相对重要性[。如图3所示。",
+    "context7": "![](images/e6a95387cb3c5d3085a536609bff37a8b9506e8b24439911a0e2e1110ece252b.jpg)  \n图3价值模型的概念模型"
+  },
+  "3.4备选方案的生成与选择": {
+    "context1": "VFT最主要的目的是产生更好的备选方案。Parnell在价值分析的基础上，运用策略生成表来生成备选方案。策略表由几个决策要素组成，每一列按时间顺序或重要性排序。不同要素的组合成可以形成不同的策略或方案，然后从中选择提炼出有价值的方案。这些决策要素也可以是函数，每一栏表示一个符合函数的设计方案。当方案生成之后，要给每一个方案评分，并改进方案以更好地达到目标。",
+    "context2": "VFT的最终任务是根据定量分析模型和权重分析结果，为各备选方案评分以选择最优方案。方案评分可以由方案支持者或专巾小组承担，但是需要解决偏见和意见不一致问题。",
+    "context3": "主要方案的确定可以借助条形图、价值沟（在理想方案和最优方案之间的差距)、价值成本比较、权重或价值函数的灵敏性分析等方法或一些专业软件包来实现。在方案选择的过程中，要尽量避免在方案评分、价值函数和权重计算过程中产生的不确定性。"
+  },
+  "4VFT的应用": {
+    "context1": "VFT广泛应用于各类决策问题研究，涉及企业管理、军事管理、公共管理等领域。考虑到相关文献量较大，这里重点介绍与信息的决策问题及军事决策相关文献。"
+  },
+  "4.1企业管理": {
+    "context1": "1）营销与顾客研究。VFT在营销与顾客研究中的应用起步较早，Keeney最早在研究顾客价值提出了VFT方法，这些研究对于用户信息需求与信息行为具有重要的后发作用。Hong等人运用VFT价值模型过滤掉顾客在网络上查询信息时的无关信息，把顾客的关注点和可视化的文本信息联系在一起，构建了可以帮助顾客理解信息的机会地图，以此发现可预测的机会，并定义稀有机会[。Hong还定义了基于联想关系的机遇交互式VFT模型，利用这个模型来发现稀有机遇[8",
+    "context2": "2）信息系统分析与设计。Wang与Li研究了基于VFT的信息系统设计方法，把企业价值因素融入到ISP方法中，提出了一种新的 ISP 过程[。Neiger与Churilov 利用VFT方法构建了目标框架，提出了新的业务流程模型工具。Sheng等人介绍了VFT在MIS研究中的应用。熊耘云等人借鉴军事领域的研究成果，在讨论矿山生产调度系统实现参与式设计中运用了评估诱导法和VFT方法。郑季良运用VFT方法分析了绿色制造系统，简化了多目标分析过程，但并未对VFT的价值模型进行说明"
+  },
+  "4.2军事管理": {
+    "context1": "1）武器装备研究。Austin与Mitchell分析了VFT在英国国防部（MoD）装备能力方面的应用。Skole等评价了把VFT应用到武器装备选择问题上的适用性。Pe-harda与Hunjak运用VFT的方法为CAF选择适合的自动步枪，运用VFT的方法构建了基础目标一方法目标的网络，确定价值尺度，并最后产生了一个价值模型。运用VFT方法的价值是减少了潜在方案的数量。",
+    "context2": "刘磊与荆涛等人将VFT决策分析方法应用到武器装备体系演化的整个评估过程中，通过建立目标价值体系来描述不同阶段的战略目标，将战略目标通过目标的层次化结构表现出来。张志伟等人认为VFT是解决武器装备体系的发展论证这类复杂问题的一种有效途径，研究设计了应用VFT方法的群决策支持系统2。张勇等人借鉴VFT的基本思想，提出了基于价值的武器装备需求分析方法和以“作战任务一功能指标一性能指标”为框架的武",
+    "context3": "器装备需求价值模型g 。",
+    "context4": "郭锐等人应用VFT方法构建了临近空间武器装备体系目标价值树和临近空间武器装备体系结构树，通过层次分析法确定了指标权重，最终得到装备系统之间的相对重要性[。吴红等人针对武器装备体系能力需求论证可能面临的不确定因素，总结了运用VFT处理不确定性的方法。韩培冬提出了VFT分析技术的进度方案评估方法，建立了制造能力需求价值模型。",
+    "context5": "2）军事能力评估研究。Parnell与Hill分析了VFT在面对长期作战时的应用。Pruitt和Lieutenant运用VFT构建国土安全模型，定义并发展了价值层次、评价方法和一维价值函数。Jurk等人运用VFT方法选择创新的强制保护理念作为空军的核心竞争力。他们选择FPB作为案例，构建了价值模型，评价了备选方案。",
+    "context6": "王剑飞等人运用VFT方法分析目标、任务与能力之间的映射关系，包括目标确认方法、建立价值模型方法、适应不同任务的联合作战体系分析方法、进行价值评估的方法、明确所需的作战任务和作战能力等内容。彭灏与龚传信运用VFT方法对弹头和诱饵反红外识别能力评估指标进行了研究，利用演绎方法自顶层向下逐层分析，直至分解到反红外识别能力的机理层，构建了评估指标的价值模型和评分函数，并通过比较确定了评估指标的影响级别[d 。"
+  },
+  "5VFT的不足与展望": {
+    "context1": "VFT从价值而非已有方案入手，适用于相互冲突、不确定性显著、主观性强的多目标决策问题。Parnell总结了VFT与MODA研究的经验和教训，认为VFT的不足之处在于假设决策团队的参与者愿意根据未来的顾客价值改变已有的备选方案。因此，未来的VFT发展应当着力解决决策者对已有方案的依赖性问题。",
+    "context2": "目前，VFT正更多地应用于一些复杂的动态问题的决策分析，如政治制度的设计，武器装备的选择，等等。随着应用的深化，VFT在目标分析、价值模型构建、价值函数选择、备选方案生成、权重确定等各个环节涌现出更为细致的分析方法和分析工具。如Fang等人把VFT方法和致力于矛盾解决的图表模型结合起来，进行动态矛盾分析。Bordley把VFT方法和交互计划结合起来使用。刘新亮、郭波在分析变权综合决策方法的基础上，将变权分析理论引入到VFT分析方法中，提出变权VFT评估方法，通过示例比较了变权综合与常权综合的评估效果，以及不同决策偏好下评估效果，并采用调节度概念反映决策过程中变权向量调节权重的能力。刘和明指出VFT方法在研究中没有考虑模糊环境下的决策问题，忽视了决策问题中模糊因素的存在，导致最终决策结果的不合理甚至不正确。针对这种情况，将模糊理论与VFT方法进行有效结合，提出了FVFT方法，并对FVFT的基本框架、权重提取、方案价值计算与排序进行了说明。",
+    "context3": "未来的VFT研究将更多地与多目标决策分析方法MODA相结合，在目标分析、方案生成、方案选择、权重确定等问题上更多地采用定量分析方法，并形成相应的分析软件包，使得分析与计算过程更加便捷。随着情报学领域对VFT了解的增多，VFT将会更多地应用到情报学的相关研究领域，比如在信息爆炸环境下的信息选择问题、信息系统的设计与评价问题等。□"
+  },
+  "参考文献": {
+    "context1": "[] KEENCY RL.Value-focused thinking:a path to creative decision making [M]．Cambridge:Harvard University Press, 1992.   \n[] PARNELL G S.Chapter 19，value-focused Thinking[EB/ OL]．htp://classweb.gmu.edu/aloerch/Chapter% 20final. pdf.   \nB KEENEY RL，EVANS JR.Creativity in MS/OR:value-focused thinking-creativity directed toward decision making. Interfaces，1993，23(3):62-67. KEENEY RL. Creativity in decision making with value-focused thinking[]．Sloan Management Review，1994，35（4): 33-41.   \n5] ARVAI JL，GREGORY R，MCDANIELS T L. Testing a structured decision approach:value-focused thinking for deliberative risk communication[]．Risk Analysis，2001，21 (6)，1065-1076.   \nJOHN R，ROSOFF H. Value focused thinking for counter-terrorism risk analysis[EB/OL]．（2009-03-7)[2012-02-24]. http://www.orau. gov/DHSsummit/presentations /March17 / Panell/ John_Marl7.pdf.   \nKEENEY R L Value-focused thinking: identifying decision opportunities and creating alternatives[．European Journal of Operational Research，1996 (2): 537-549. SHENG H，NAH F F-H，SIAU K. Strategic implications of mobile technology:a case study using value-focused thinking [．Journal of Strategic Information Systems，2O05（14): 269-290.   \nDREVIN L，KRUGER H A， STEYN T. Value-focused assessment of ICT security awareness in an academic environment [．Computers & Security，2007（26)：36-43.   \n[0] 程静，于越华，张合勇．一种新的决策分析方法—VFT 的原理、方法与应用[]．军事运筹与系统工程，2006 (4):61-64.   \n[]郭永辉，张明智，胡晓峰，等．基于VFT的装备发展战略 决策分析方法研究[]//决策科学与评价—中国系统 工程学会决策科学专业委员会第八届学术年会论文集， 2009:317-323.   \n[2]郭锐，齐明，程建，等．价值中心法在临近空间武器装备 体系中的运用．装备指挥技术学院学报，2010（2)： 93-96.   \n[3]邓朝华，鲁耀斌．基于VFT的移动商务信任构建框架研究 [．科技管理研究，2008（3)：185-188.   \n[4] KEENEY R L， MCDANIELS T L Value-focused thinking about strategic decisions on BC hydro[]．Interfaces，1992, 22 (6): 94-109.   \n[5] 彭灏，龚传信．基于VFT的反红外识别能力评估指标研究 [．装备指挥技术学院学报，2008（1)：56-59.   \n[6]荆涛，陆农春．基于VFT的装备发展战略决策分析方法论 ．系统工程与电子技术，2005（5)：852-856.   \n[7] HONG CF，SUNG MY，LIYR，et al. Strategy based interactive value-focused thinking for discovering the future chance [c]，2006 IEEE conference on Systems，Man，and Cybernetics，Taiwan，Taipei，2006:8-11.   \n[8] HONG C F.Discovering the rare opportunity by strategy based interactive value-focusedthinking model[]．International Journal of Knowledge-Based and Intelligent Engineering Systems，2007，11(5):259-271.   \n[9] WANG Z Y，LIY J. Information system planning method based on value-focused thinking[C]．International Conference on Strategic Management，Chengdu，2009:25-30.   \n[0]NEIGER D，CHURILOV L. Goal-oriented businessprocess modeling with EPCs and value-focused thinking[C]．2nd International Conference on Business Process Management，Postdam，Germany，Berlin:Springer Verlang，2004:98-15.   \n[1]SHENG H，NAHFF-H,SIAU K.Value-focused thinking and application in MIS research.Journal of Database Management，2007，18（3)：I-V.   \n[22] 熊耘云，王李管，岳力阳，等．矿山生产调度系统设计中 的参与式设计方法初探[．矿业研究与开发，2007 (10):69-71.   \n[23] 郑季良：绿色制造系统的集成发展研究[]．昆明：昆 明理工大学，2007：72-90.   \n[4] AUSTIN J，MITCHELL IM. Bringing value-focused thinking to bear on equipment procurement[]．Military Operations Research，2008，13(2):33-46.   \n[5] SKOLE V，BARKOVIC M，PEHARDA I The evaluation of the applicability of the“value-focused thinking method to the equipment selection problem”[d.7th International Symposium on Operational Research in Slovenia，Podcetrtek，Slovenia，2003:24-26.   \n[26] PEHARDA I，HUNJAK T.Selecting an automatic rifle using the value-focused thinking approach[]．Military Operations Research，2008，13(3):19-26.   \n[7]刘磊，荆涛，吴小勇．武器装备体系演化的评估方法研究 [．系统仿真学报，2006（S2)：621-627.   \n[28] 张志伟，胡晓峰，蒋亚群，等．面向武器装备体系的群决 策支持系统设计[．装备指挥技术学院学报，2008 (3):23-27.   \n[29] 张勇，段采宇，余滨，等．基于价值的武器装备需求分析 方法．火力与指挥控制，2008（8)：37-40.   \nB0] 吴红，许永平，王磊，等．武器装备体系能力需求论证方 法初探．计算机仿真，2009（2)：28-30.   \nB1] 韩培冬．快速响应制造系统设备能力规划技术研究[]. 长沙：国防科技大学，2007：33-43.   \n[B2] PARNELL G S，HILL R R.Value-Focused thinking and the challenges of the long war[．Military Operations Research, 2008，13 (2):5.   \n[B3] PRUITT K A，LIEUTENANT S.Modeling homeland security: a value focused thinking approach[D]．Ohioan:Air Force Institute of Technology，2003.   \nB4] JURKD M，CHAMBAL SP，THAL AE. Using value-focused thinking to select innovative force protection ideas[]．Military Operations Research，2004，9（3)：31-43."
+  },
+  "B5]王剑飞，郭嘉诚，黄谦，等．作战需求分析方法研究[．指挥控制与仿真，2009（4)：10-13.": {
+    "context1": "B6]LIPF，HIPEL KW，ZHANG JL.Dynamic conflict analysisby integrating value-focused thinking and the graph model forconflict resolution[C]//IEEE International Conference onSystems，Man and Cybernetics，Yasmine Hammamet，Tuni-sia，2002:6-9.  \nB7] BORDLEY R. Value-focused thinking and interactive planning[．The Journals of the Operational Research Society，2001,53(12):1315-326.  \nB8] 刘新亮，郭波.VFT评估中的变权方法研究[．数学的实践与认识，2008（19)：49-55.  \nB9] 刘和明．模糊VFT建模方法及算法研究[D]．长沙：国防科学技术大学，2009.  \n作者简介：王芳，女，1970年生，博士，教授，博士生导师。研究方向：电子政务，情报学理论。白美玲，女，1988年生，硕士。研究方向:电子政务。李兆静，女，1987年生，硕士。研究方向:电子政务。",
+    "context2": "收稿日期:2012-09－10"
+  }
+}

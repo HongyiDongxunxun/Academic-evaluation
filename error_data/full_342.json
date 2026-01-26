@@ -1,0 +1,73 @@
+{
+  "original_filename": "full_342.md",
+  "CALIS机构知识库:建设与推广、反思与展望": "",
+  "聂华韦成府崔海媛": {
+    "context1": "摘要CALIS三期“机构知识库建设及推广项目”,旨在揭示和推广我国高校的学术资源和学术成果,帮助高校发布、共享和保护已形成的知识、科学和文化遗产的数字化资源，并通过聚集和开放获取增加其附加值，进一步促进学术交流。项目建设的目标是建立“分散部署、集中揭示\"的全国高校机构知识库。本文从三个方面介绍项目建设情况： $\\textcircled{1}$ 调研、准备和启动等组织实施工作； $\\textcircled{2}$ 技术路线，IR系统功能和服务方式等建设方案; $\\textcircled{3}$ 系统开发,应用部署，标准规范制定，机构知识库资源建设以及机构知识库推广宣传等建设成果。最后就政策支持、模式定位、内容甄选、宣传推广、技术平台等方面提出问题并进行反思和展望。表1。参考文献11。",
+    "context2": "关键词开放获取机构知识库共建共享CALIS 分类号G250"
+  },
+  "CALIS Institutional Repository: Construction and Promotion，Reflection and Prospects": {
+    "context1": "Nie Hua，Wei Chengfu & Cui Haiyuan",
+    "context2": "ABSTRACTCALIS Institutional RepositoryDevelopment &Promotion Projectaims to exhibitand popularize theacademic resourcesandachievementsofChineseuniversities,toasist theminthepublication,distribution,andprotectionofnewlyfored knowledgeaswellassientificandculturalheritagesithedigitalform,topromoteacademicexchangesndincreasethedded valuesof theseintellctualpropertiesthroughagregationandopenaccess.Theobjectiveof theprojectis toestablishanation wideinstitutionalrepository(IR)ofknowledgeand informationundertheprincipleof“localizeddeployment,unifiedacess\". Thepaperoutlines theconstructionof theproject inthree majoraspects:1）research,preparationand startup；2)the techical solutionandtheoverallstrategyofIRsystemanditsservicedesign;3）IRsystemdevelopment,，deployment，standardizatinand the majorachievementsinresourceconstructionndpromotion.Finally,itprovides insightandoutlokoffuture trendofthede velopment of IR in China ina global perspective.1 tab.11 refs.",
+    "context3": "KEY WORDSOpen access．Institutional repository.Co-construction and sharing.China academic library $\\&$ information system."
+  },
+  "1缘起与背景": {
+    "context1": "进学术交流、学术传播和学术繁荣，是学术界普遍面临的一个重要挑战。传统学术出版作为学术交流和传播的途径，在数字时代日益呈现出与其初衷相悖的态势。一方面，日趋垄断并不断商业化的趋势促成了高昂的价格壁垒，成为生产者和使用者获取和使用学术资源的阻碍;另一方面，长期固守传",
+    "context2": "大学、研究所等学术研究机构不断产生海量的学术信息资源，如何对本机构所产生的学术资源进行有效的获取、存档、管理和利用，从而进一步促统模式,未能充分利用互联网带来的低成本和高效率的信息传播优势，主动演化出适应网络环境的商业、版权和业务模式,进而也成为学术交流和传播的阻碍。在此背景下,学术界迫切需要一种自由开放、便捷可靠的学术资源交流共享方式。学者作为学术资源的主要生产者和使用者，在互联网时代，自发、主动地利用互联网进行学术交流“开放获取\"成为依托于互联网的新的学术资源交流共享方式,进而成为一场利用互联网推动学术成果自由传播的运动,并从最初单纯应对学术出版的危机发展为对学术交流与传播机制的反思以及流程的再造。开放获取的两大模式,一个是开放获取期刊（Open Access Journal）,一个是机构知识库(Institu-tional Repository,IR)。机构知识库肇始于开放获取运动,也是其重要形式之一。机构知识库之于学术传播的意义，是消除价格壁垒和许可壁垒，,促进免费获取和自由使用，再造网络环境下学术交流和传播的机制和模式。但机构知识库的意义不仅限于此。对于大学或者研究机构来说,机构知识库不仅可以将本机构的学术成果进行长期集中管理和保存，更重要的是可以分析评价机构的研究方向、过程、趋势和结果;完善科研产出管理;提高绩效管理和评价工作的效率,提升机构学术影响力和成果展示度,提升机构声誉和品牌，宣示机构的社会价值。对于研究者来说，机构知识库能有效增加研究成果的可见度，提高学术论文的引用率。而对于图书馆来说,机构知识库可使图书馆密切契入机构的教学、科研和创新活动，作为数字图书馆建设的一项具体任务，有助于提高图书馆的核心竞争力。",
+    "context3": "在世界范围内，随着开放获取运动的蓬勃发展，机构知识库的发展和建设一直保持着高速的态势。根据OpenDOAR的统计,截止2010年6月21日，世界范围内在此网站上注册的机构知识库数量达到1375个 $\\mathbf { \\varepsilon } _ { \\mathbf { \\varepsilon } _ { 2 0 1 1 } }$ 年7月5日增加到1980个 $\\bullet 2 0 1 2$ 年6月1日增加到2161个。机构知识库在世界范围内的发展非常迅猛。而与此同时，中国大陆高校以及其他学术研究单位机构知识库的建设成果相形见细。根据OpenDOAR统计,除台湾地区,香港注册机构知识库5个,澳门1个,大陆地区共27个，除了中国科学院系统注册的26个机构知识库外,唯一一家在OpenDOAR 网站上注册的高校机构知识库是厦门大学机构知识库。CALIS 管理中心和北京大学图书馆于2011年进行了“2011我国高校机构知识库建设现状调研”,结果显示,在参与调研的349家高校中，已建机构知识库的有54家,建设中的25家，拟建设的91家，未建设的179家。调研结果虽然表明已建设机构知识库的数量比在OpenDOAR上注册的数量可观,但由于对机构知识库的理解有异,在“已建设\"的机构知识库中,大多资源类型单一(如仅为学位论文）、访问权限受限(不开放或者不完全开放)。2012年,厦门大学图书馆面向12所高校主管馆长和项目负责人就机构知识库的建设问题进行了专访，发现导致高校机构知识库建设步伐缓慢的三个主要原因： $\\textcircled{1}$ 观念意识：对于机构知识库建设的意义和定位不甚明确,对于其可用性持有疑问,认为真正的需求还需要挖掘，同时缺乏有效的应用模式和可资借鉴的成功案例。 $\\textcircled{2}$ 管理体制:机构知识库的建设，更大程度上不是技术问题,而是体制、人员和沟通的问题。比如高校内部各管理部门以及院系各自为政的态势;对于参与机构知识库建设的意愿不足或者存有顾虑;涉及相关学术资源的版权问题，比如学位论文等。 $\\textcircled{3}$ 协同标准：认为机构知识库的长期维护和可持续发展需要完备的管理制度和协作规范;平台搭建以及实现互通是很容易解决的事情，难的是持续不断的资源建设,以及如何将资源转化为服务。",
+    "context4": "中国大陆高校范围内，对于开放获取运动的理念和意义认知度普遍不高;对于机构知识库的认同和接受程度较低;已经建设并发挥效益的机构知识库数量不多，规模有限;呈现以试验为主、实用为辅的态势。对于机构知识库的意义和作用，无论在学术界还是在图书馆界都缺乏宣传，对于其建设实践,也缺乏组织和推广,这种现状亟待改善。中国科学院机构知识库联盟的建设，是中国高校和科研单位机构知识库建设一个可资借鉴的范例。在此背景下,CALIS三期规划了中国高校机构知识库建设及推广项目，旨在揭示和推广我国高校的学术资源和学术成果，帮助高校发布、共享和保护已形成的知识、科学和文化遗产的数字化资源，并通过聚集和开放增加其附加值，进一步促进学术交流。"
+  },
+  "2CALIS三期机构知识库项目": "",
+  "2.1建设目标和内容": {
+    "context1": "CALIS三期机构知识库建设及推广项目的定位是预研项目，项目预期就我国高校机构知识库的建设进行全方位的尝试和实践，通过项目建设初步探索形成一套符合我国高校现状和发展趋势的机构知识库建设及服务机制。",
+    "context2": "项目的具体建设目标是建立“分散部署、集中揭示\"的全国高校机构知识库“分散部署\"指协助参建高校构建和部署本机构的机构知识库，参建高校自行搜集本校的学术研究成果和其他文献资料,在其机构知识库发布服务‘集中揭示\"指CA-LIS机构知识库中心系统通过收割或导入元数据的方式来集中揭示参建高校机构库的学术资源,并以此作为全国高校学术研究成果累积、展示与利用的统一窗口。从而提升本机构学术研究成果被查找、获取与使用的机会，提高本机构研究成果的曝光度与影响力①。"
+  },
+  "2.2项目组织与实施": {
+    "context1": "CALIS三期机构知识库建设及推广项目于2011年6月开始筹备,CALIS 管理中心与北京大学图书馆联合进行了中国大陆高校图书馆机构知识库建设现状的调研，并形成调研报告，为项目的规划和实施提供背景参考和数据支撑。2011年7月选择在机构知识库建设方面有意向、有投入、有经验、也有成果的数家高校图书馆,进行意向征求和需求研讨。在此基础上,于2011年8月正式后动项目，并成立项目管理组与技术实施组，确定技术方案及任务分工，管理协调制度，开始项目的建设实施。",
+    "context2": "针对当前中国大陆高校范围内机构知识库建设从认识理念、政策支持、技术平台、标准规范等各个方面都较为薄弱的现状，CALIS三期机构知识库建设及推广项目建立了“示范馆 $^ +$ 参建馆( $1 + 4 )$ ”机制,由五个在机构知识库建设,尤其是机构知识库平台开发方面卓有成效和成果的图书馆作为示范馆,协作开发机构知识库平台。系统平台开发完成后,配备完整规范的建设指南，提供给CALIS成员馆免费使用。同时，每一个示范馆以地区或类型为坐标召集四到五个参建馆形成一个建设小组,由示范馆向参建馆提供机构知识库建设所涉及的系统平台搭建的具体技术支持和其他方面的咨询，帮助参建馆建设本机构的机构知识库，以期在短时间内尽可能扩大项目的影响，丰富项目的建设成果，促进高校机构知识库的发展。项目确定的五个示范馆为北京大学图书馆、北京理工大学图书馆、重庆大学图书馆、清华大学图书馆和厦门大学图书馆（见表1）。",
+    "context3": "表1CALIS三期“机构知识库建设及推广项目\"示范馆及参建馆名录",
+    "context4": "<table><tr><td rowspan=1 colspan=1>示范馆</td><td rowspan=1 colspan=5>参建馆</td></tr><tr><td rowspan=1 colspan=1>重庆大学</td><td rowspan=1 colspan=1>云南大学</td><td rowspan=1 colspan=1>四川美术学院</td><td rowspan=1 colspan=1>贵州民族学院</td><td rowspan=1 colspan=1>西南政法大学</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>北京大学</td><td rowspan=1 colspan=1>北京工业大学</td><td rowspan=1 colspan=1>北京师范大学</td><td rowspan=1 colspan=1>北京邮电大学</td><td rowspan=1 colspan=1>中国人民大学</td><td rowspan=1 colspan=1>浙江大学</td></tr><tr><td rowspan=1 colspan=1>北京理工大学</td><td rowspan=1 colspan=1>西北工业大学</td><td rowspan=1 colspan=1>哈尔滨工业大学</td><td rowspan=1 colspan=1>南京理工大学</td><td rowspan=1 colspan=1>南京航空航天大学</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>清华大学</td><td rowspan=1 colspan=1>中国农业大学</td><td rowspan=1 colspan=1>西安交通大学</td><td rowspan=1 colspan=1>上海交通大学</td><td rowspan=1 colspan=1>北京航空航天大学</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>厦内大学</td><td rowspan=1 colspan=1>集美大学</td><td rowspan=1 colspan=1>广西建设职业技术学院</td><td rowspan=1 colspan=1>深圳大学</td><td rowspan=1 colspan=1>深圳大学城</td><td rowspan=1 colspan=1></td></tr></table>",
+    "context5": "$\\textcircled{1}$ CALIS三期机构知识库建设项目验收报告，北京大学图书馆项目组,2012年4月27日。",
+    "context6": "项目技术路线的一个重要内容是对构建IR软件平台方案的确定。方案选择包括两个递进的层次。第一层次是在商业软件和开源软件之间选择。开源软件较之商业软件，在协同开发、修改扩展方面的灵活性，以及支持社区的价值等方面具有显著优势。第二层次是在DSpace,Fedora和EPrint等几个全球范围内应用最为广泛的IR开源软件平台之间的斟酌。项目的初衷是由几个示范馆分工对以上几个IR开源软件进行开发实验,但最终由于项目时间过于紧张,并且对于Fedora和Eprint的开发经验较为匮乏而未能实现。根据OpenDOAR的统计,相对于商业软件,开源软件平台的选用增长更快,自2011年7月到2012年6月，ContentDM只增加1个用户,Digitool没有增加。在开源软件中,选用最多的是DSpace,一年之间从893增加到1171,增加了278个选用。Eprints增加了51个选用,Fe-dora增加12个选用。除了软件功能方面的优势之外,Dspace茁壮成长的IR选用联盟带来了扩展虚拟馆藏的可能性,以及同样壮大的支持社区的价值，是其得到广泛选用的重要原因。项目组经过考察调研并结合实际情况,最终选用Dspacel.8作为软件二次开发平台。",
+    "context7": "在基于Dspace的协同开发过程中,项目首创的示范馆 $^ +$ 参建馆( $1 + 4$ 或 $1 + 5 )$ 机制,在随后的实施过程中被证明是非常有效和成功的。五个示范馆按照分工进行基于DSpace平台的机构知识库软件开发,并在分别完成组件开发后，由北京大学图书馆负责进行组件整合和系统调试。最终目标是开发完成一套完整的基于DSpace的机构知识库系统平台。每个示范馆除了参加机构库系统平台的协同开发外,还负责带动和支持四个或者以上参建馆进行机构知识库建设，包括系统平台的安装应用以及机构知识库内容的建设等全部过程。"
+  },
+  "2.3建设方案与成果": {
+    "context1": "项目建设方案包括六个方面的任务①: $\\textcircled{1}$ 完成“CALIS机构知识库中心系统”,聚合我国高校机构知识库及其资源内容，展示和推广学术资源和学术成果,增加高校学术资源的附加值,促进学术交流;$\\textcircled{2}$ 完成“CALIS机构知识库本地系统\"的开发，配备完整规范的建设指南，提供给CALIS成员馆免费使用； $\\textcircled{3}$ 组织并协助10—20个参建馆,建设10——20个机构知识库; $\\textcircled{4}$ 每个参建馆建设完成的机构知识库具备至少三种以上类型、二千条以上数据的初始规模，并能够提供服务; $\\textcircled{5}$ 完成机构知识库项目的相关标准规范建设; $\\textcircled{6}$ 通过多种方式宣传推广机构知识库，促进其在我国高校范围内的建设，初步形成一套符合我国高校发展现状的建设及服务机制，为进一步推进更大规模和更高水平的机构知识库建设和发展，积累经验。",
+    "context2": "2012年4月27日项目正式通过验收，项目主要建设成果包括： $\\textcircled{1}$ 三套系统：由项目承建馆北京大学图书馆负责的CALIS机构知识库中心系统（CHAIRCentral）,由项目示范馆北京大学图书馆、北京理工大学图书馆、清华大学图书馆和厦门大学图书馆联合开发的CALIS机构知识库本地系统(CHAIRLocal版本)和由项目示范馆重庆大学图书馆开发的CALIS机构知识库本地系统(CHAIRRISE 版本)。其中两套本地系统已经在26个示范馆和参建馆安装、部署、运行并提供服务。本地系统平台提供完整的安装使用手册,供CALIS成员馆免费使用,项目承建馆(北大馆)与示范馆(北理工图书馆、清华大学图书馆、厦门大学图书馆和重庆大学图书馆)向参建馆提供技术支持与服务。中心系统已经开始注册与数据收割工作，目前已经有26家高校范围内的机构知识库完成注册。 $\\textcircled{2}$ 系列标准/规范/说明/手册：已完成的有《元数据著录规范》、《机构知识库构建指南手册》、《机构知识库系统需求说明书》、《机构知识库系统设计手册》、《机构知识库系统用户手册》、《机构知识库系统实施部署手册》等。 $\\textcircled{3}$ 内容建设:截止项目验收,各参建馆总计完成多种类型资源 $^ { 7 6 , 1 7 8 }$ 条,其中既包括图书、期刊论文、会议论文、研究报告、学位论文等常见的资源类型,也包括照片、画作、音视频习作、纪实类独立电影、计算机软件等特殊的资源类型。",
+    "context3": "在本期建设中,项目对于系统平台开发和标准规范制定两个方面做了重点关注和投入。项目完成的三套系统功能完备，性能成熟，运行稳定。针对本地化需求,对开源平台DSpace进行了必要和有效的功能扩展和开发，结合多项开源软件技术的应用，实现了DSpace的中文本地化和多项个性化扩展功能,如中文分词、分面检索、全文在线浏览、全文检索、注册登记、handle system机制与CA-LIS 馆代码结合应用生成DOI、Google地图定位、分享增值服务、快速提交、统计功能和标签云等。项目技术实施组还优化了Dspace 的多项功能,简化了提交流程,提高了用户体验效果。自主开发的机构库平台,更多地融入了Web 2.0的理念,增强了多媒体管理和Web 2.0的元素,提供了个人中心、标签、评论、RSS 等功能,旨在有效提升用户体验，吸引读者使用机构知识库。另外,项目重视对标准规范的研制并在广泛研制基础上选择采纳。项目建设遵循DC元数据标准规范，旨在保证系统平台的扩展性以及长期可持续发展，为日后数据收割和交互共享奠定基础。值得一提的是，项目的平台和内容建设由数个示范馆和参建馆联合进行，建设过程中，对多馆协作开发的工作模式进行了探索，并取得显著的成果。尤其是五个示范馆协同进行技术平台的开发，不仅在短时间内完成了三套系统的研发，而且实现了源代码的完全开放与共享，为图书馆业界进行机构知识库系统平台的建设和应用提供了成功的经验。"
+  },
+  "3问题、反思与展望": {
+    "context1": "CALIS管理中心与北京大学图书馆于2011年进行的 $\\langle \\langle 2 0 1 1$ 我国高校机构知识库建设现状调研》汇总了在机构知识库建设中存在的几个方面的重点问题： $\\textcircled{1}$ 建设模式； $\\textcircled{2}$ 内容：资源收集、数据加工； $\\textcircled{3}$ 相关标准； $\\textcircled{4}$ 技术：实施平台和工具以及功能设计； $\\textcircled{5}$ 可持续发展：政策支持; $\\textcircled{6}$ 宣传与推广； $\\textcircled{7}$ 开放获取与知识产权; $\\textcircled{8}$ 建设经费。",
+    "context2": "通过CHAIR项目实施中发现的相关问题对调",
+    "context3": "研结果有所印证。"
+  },
+  "3.1寻求政策支持,规划组织先行": {
+    "context1": "传统的学术交流模式面临着流程再造，机构知识库也需要解决生态模式的创造或者再生问题。在机构知识库的建设中，图书馆往往是倡导者和实施者。然而,图书馆不是内容提供者，不是政策制定者，也不是最终的使用者。因此,寻求有关政策制定方的具体政策支持，包括来自本机构、地区联盟、组织联盟，甚至国家层面的各种政策支持，并在建设的规划阶段就邀请有关方面的深度参与，使得机构知识库的建设和长期可持续发展有所保障，是机构知识库建设的首要任务。目前，大学和研究机构迫切需要制定和实施“强制性”自存储政策，推进机构知识库建设的进程-10"
+  },
+  "3.2思考模式定位,厘定角色责任": {
+    "context1": "在政策支持和规划先行的前提下，必须厘定和澄清各参与方的作用和责任，包括作为内容提供者和使用者的学者和研究人员，学者和研究人员直属的学院，具有制定政策和落实能力的机构，作为主要实施者的图书馆等。机构知识库建设的各种角色在明确各自作用和责任的前提下积极参与是这一有机体能够健康持续发展的必要条件[]。"
+  },
+  "3.3内容甄选,厘定和获取": {
+    "context1": "内容是机构知识库的根本价值所在,对本机构所拥有的数据进行多方评估是确定机构知识库建设方向的基础。数据(内容)评估至少应该包括以下方面：数据的来源,可获取性和开放性，数据的价值，长期保存的重要性，数据的知识产权保护要求等。根据对数据的评估结果，可以制定目标数据和内容的优先级别。需要考虑的问题包括：机构知识库的内容是否应该包罗万象,越多越全越好？对于白色文献，灰色文献和黑色文献，是否需要制定有针对性的政策？谁是资源提供主体？谁又是使用者？机构知识库的建设模式,也可以是多样化的、不同的机构库，不同的领域,不同的内容来源等。"
+  },
+  "3.4宣传理念，推广成果": {
+    "context1": "机构知识库作为开放获取运动的一种重要模式而肇始，随着学术研究与交流模式的发展和衍变,机构知识库也越来越多地与e-Research,e-Sci-ence相融合,成为后者的有机组成部分。这是机构知识库得以长期可持续发展的良好契机。相较于欧美国家，我国对于开放获取理念的理解和接受程度还处于较低水平。因此,利用每个可能的契机，广泛激发在各个层面上开展有关开放获取、机构知识库、长期保存的价值、意义和重要性的思考和讨论，是目前机构知识库建设的当务之急。",
+    "context2": "往是最容易的,也是最可控的部分。相对机构知识库建设的初期而言，目前机构知识库平台的可用性、可选择度以及系统功能的成熟度等，都有了很大的优化和提升。同时，技术处在不断的进步和更新中,也永远都可以根据需求有所提升和改变。",
+    "context3": "项目建设之初,技术和平台往往被认为是机构知识库建设中最显性的任务之一，而项目建设的经验往往是,相较于政策、机制、版权、机构的支持以及学者和研究人员的参与意识等,技术和平台往"
+  },
+  "3.5技术和平台": {
+    "context1": "CALIS机构知识库建设及推广项目是个预研性质的项目,项目建设只有不到一年的时间,取得了丰富的建设成果，积累了宝贵的建设经验。但这只是一个良好的开端，后继的建设任务非常繁重，主要包括以下方面：首先，积极寻求政策支持和各方参与,改善机构知识库发展环境,建立良性运作机制;其次,推广宣传机构知识库理念,扩大机构知识库影响;第三,持续完善系统功能,推广机构知识库应用，发展扩大机构知识库中心系统的登记规模和影响;第四，探索机构知识库长期保存的相关功能，为学术资源长期保存提供平台和策略支持。"
+  },
+  "参考文献：": {
+    "context1": "[1]钟灿涛，董成文，季燕江．开放获取对大学的影响及应对措施研究．研究与发展管理,2010,22(4)：120- 125.（Zhong Cantao,Dong Chengwen,Ji Yanjiang.Research on the impact of open access onuniversitiesand the countermeasures ．R& D MANAGEMENT,2010,22(4)：120-125.)   \n[2] Suber P.Open access overview EB/Ol]．[012-10-14．http://www.earlham.edu/\\~peters/fos/overview.htm.   \n[3] OpenDOAR EB/O1]．2012-10-14．htp://www.opendoar.org.   \n[4] 厦内大学学术典藏库 EB/Ol]．2O12-04-27]．htp://dspace.xmu.edu.cn.（Xiamen University institutional repository EB/O1]．2012-04-27]．http://dspace.xmu.edu.cn.）   \n[5] Zhao Yongchao,Yao Xiaoxia,Wei Chengfu.Academic institutional repositories in China:Asurveyof CALIS member libraries $\\mathbb { I }$ .Chinese Journal of Library and Information Science,2012,5(2):18-32.   \n[6] 崔晓西，陈和，杨薇.大陆和港台地区高校机构仓储发展状况及调查评估——探索国内高校IR联盟之服务创新 模式EB/Ol]．012-10-15]．htp://www.sal.edu.cn/2012/Rc_check.asp?detail_id =134&id =.（Cui Xiaoxi, Chen He,Yang Wei.Institutionalrepositorydevelopment andthe investigationand assessment of the mainland and Hong KongandTaiwancollgesanduniversities—To exploredomesticcollegesanduniversities institutionalrepositoryallance service innovation mode EB/OL]．[012-10-15]．htp://www.sal.edu.cn/2012/Rc_check.asp?detail_id $=$ $1 3 4 \\& \\mathrm { i d } =$ ）   \n[7] CALIS 机构知识库 EB/Ol]．O12-O4-27]．htp://ir.calis.edu.cn.（CALIS institutional repository EB/OL]. 2012-04-27].http://ir.calis.edu.cn.)   \n[8] Ferguson T,Palmer D.Aligning HKU's librarysponsored institutional repository（knowledge hub)with theuniversity's mission& vision EB/O1]．2012-10-14．htp://www.prdla.org/presentations/2009/2009_tferguson.pt.   \n[9] Lawler A.Scholarly publishing—Harvard votes to make open access its default mode.Science,2008,319(5866): 1024 -1026."
+  },
+  "世界首家无书图书馆在筹划中": {
+    "context1": "世界上首家无书图书馆计划于2013年秋天在美国德克萨斯州圣安东尼奥市开业。",
+    "context2": "该馆的创始人是曾做过县法官的美国人尼尔森·沃尔夫，他在读过萃果创始人史蒂夫·乔布斯的自传后,萌生了创立一家无书图书馆的想法。",
+    "context3": "他计划把镇上一座近500平方米的建筑改建成一座洋溢着现代科技感的阅览室，提供100台电子阅读器供人传阅和外借，同时准备50台儿童阅览器、50个电脑工作站、25台笔记本和25台平板电脑。镇上的居民可以用任何电子产品借阅图书,也可以借用图书馆的电子阅读器。该图书馆还将与电子书供应商或图书销售商合作，获得1万多册图书,并且希望逐年增加藏书量。据介绍，要获得首批的1万多本图书至少需要25万美元。",
+    "context4": "该馆目前尚未公布电脑和电子阅读器的提供商。目前，亚马逊公司和巴诺书店将分别提供该书店的电子器材和图书。在这样的图书馆里,人们既可以阅读图书,也可以借出图书。还可以登录该馆网站,远程借还图书,借书期限为两周。为了帮借阅者获得图书,该馆还出借电子阅读器。图书馆的展示视频显示，该图书馆有可能使用巴诺书店的Nook Simple Touch电子阅读器。该馆还将设立儿童区,安装具有互动功能桌子和墙壁，还考虑添加电影和音乐等其他媒体形式。",
+    "context5": "随着社会和科技的发展，数码借阅图书将逐渐成为一种趋势。3M公司近日推出了一项云图书馆借阅服务,而奥地利的一座小镇不久前也通过贴有快速响应矩阵码(QR)的不粘胶,开展了电子书借阅服务。",
+    "context6": "(摘编自中国图书馆网:http://www.chnlib.com/News/yejie/2013-01-16/5928.html)",
+    "context7": "[iq]Suber P.Details on the Standford OA mandate EB/Ol]．[O12-10 -14].htp: //www.earlham.edu/ \\~peters /fos /2008/06/details-on-stanford-oa-mandate.html.   \n[1]PagellR,Martin P.IR sustainability through stakeholder governance EB/Ol]．[O12-10 -14]．http://www. prdla.org/presentations/2009/2009_rpagell.pt.",
+    "context8": "(收稿日期:2012-10-15)"
+  }
+}

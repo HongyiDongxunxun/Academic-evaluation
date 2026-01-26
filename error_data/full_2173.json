@@ -1,0 +1,125 @@
+{
+  "original_filename": "full_2173.md",
+  "·综 述·": "",
+  "关于本体论的研究综述": {
+    "context1": "顾金睿，王芳（南开大学 商学院，天津 300017）",
+    "context2": "摘要：本文是一篇关于本体论的综述性文章，介绍了本体的概念、本体的理论研究，包括本体的建模元语、分类、表示语言、构造规则以及目前研究本体的权威机构，对与本体相关的概念进行了介绍，分别探讨了本体与语义网络，本体与语义网，本体与叙词表的关系，最后介绍了本体在信息检索以及其他一些领域的应用。",
+    "context3": "关键词：本体；语义网络；语义网；叙词表；信息检索中图分类号：G252.7 文献标识码：A 文章编号：1007—7634(2007)06—0949-08"
+  },
+  "Overview of the Subject of Ontology": {
+    "context1": "GU Jin-rui, WANG Fang",
+    "context2": "(Business School of Nankai University， Tiarjin 3OO071， China)",
+    "context3": "Abstract：This is acomprehensive paper on the subject of ontology·It introduces the concept，the theory re search of ontology，including modeling primitive，classification，demonstration languages，construction rules，and the authoritative agencies that engage in the ontology research recently．The ontologyrelated con cepts are also presented in this paper·It separately probes into the relationships between ontology and seman tic network，ontology and semantic web，and ontology and thesaurus as well.Finally what unfolds is the ap plication of ontology on the information research and other fields ·",
+    "context4": "Key words：ontology；semantic network ；semantic web； thesaurus ；information retrieval",
+    "context5": "本体的概念起源于哲学领域。17世纪，德意志哲学家郭克兰纽（R·Goclenius）首次提出“Ontology”一词。哲学领域的“Ontology”在苏格拉底提出“始基”问题中萌芽，由柏拉图和亚里士多德奠定了它的雏形，中世纪经院哲学使之最终成熟起来。《牛津现代高级英汉双解词典》（简化汉字本）对于“Ontology”的英文解释是：“the depart-ment of metaphysics concerned with nature of existence ;specific theory of this”[】。从词源来看，英文的“On\"tology”最早来自拉丁文“Ontologia”一词，而拉丁文又源自希腊文。就希腊文的字面意思来说， $\\mathrm { O n ^ { - } }$ tologia是指“on”的“logos”。“logos”译为中文是指“理念、理性、哲学”，音译为“逻各斯”[3】。“Ontology”在汉语中也有不同的译名，如“万有论”、“存有论”、“本体论”、“存在论”等，其中以“本体论”流传最广【4-5】。"
+  },
+  "1本体的概念": {
+    "context1": "古希腊哲学家亚里士多德将本体定义为研究“存在”的科学，又把它分为两个方面：一方面研究存在的本质，另一方面研究客体对象的理论定义，即整个现实世界（本体）的基本特征。人工智能（AI，Artificial Intelligence）领域将本体概念引入，用于知识表示和知识组织，其概念的内涵也发生了改变。",
+    "context2": "为区别“本体”分属的两层含义，斯坦福大学的Guarino 与Giaretta 建议首字母大写的“Ontology”是指哲学领域的本体论研究，而首字母小写“on\"tology”是指AI领域的本体系统和本体理论的研究。",
+    "context3": "人工智能领域中，Neches 等人于1991年最早给出了Ontology 的定义，即“给出构成相关领域词汇的基本术语和关系，以及利用这些术语和关系构成的规定这些词汇外延的规则的定义\"[。",
+    "context4": "斯坦福大学的Gruber（1993）最早提出本体的定义，其后Borst Pim 博士等（1997）在Gruber 定义的基础上做了一些修正。两个定义合并以后，表达如下：",
+    "context5": "“It is an explicit formal specification of a sharedconceptualization·“译为中文，即本体是一套得到大多数人认同的、关于概念体系的明确的、形式化的规范说明】。",
+    "context6": "德国卡尔斯鲁厄大学的 Studer 等学者认为本体有四大特征：",
+    "context7": "（1）明确（Explicit）。是指“被引用的概念所属的上位类与在使用此概念时的限制条件应预先得到明确的定义和说明”。",
+    "context8": "（2）形式化（Fomal）。是指“本体应该具有机器可读性”。",
+    "context9": "(3）共享 (Shared)。是指在一个本体中，知识所表达的观念、观点应该“抓住知识的共性，也就是说，它不只是为某一小部分人所接受的，而是为整个群体所接受的”，体现的是共同认可的知识，反映的是相关领域中公认的概念集。",
+    "context10": "(4）概念化，又称概念模型（Conceptualiza\"tion)。是指“客观世界中某些现象的一个抽象模式，该模式是通过定义了这些现象的相关概念形成的”。",
+    "context11": "使用最广泛的本体定义是波音公司MichaelUschold 博士等在1996 年提出的：“It is a vocabularyof terms and some specification of their meaning·“译为中文，即本体是一套术语词表以及术语含义的规范",
+    "context12": "图书情报领域应用的本体概念等同于AI领域，AI领域的文献中有许多关于本体的定义，其中很多大同小异。斯坦福大学的NatalyaF·Noy 和Debo-rahL·McGuinness 认为，一个本体其实就是一套关于某一领域概念的规范而清晰的描述，它包括类(classes，有时也被称作概念concepts），每一个概念的属性（properties）描述了有关概念的各种特征和属性（又称 slots，有时也被称为roles 或attributes），还有属性的限制条件（restrictions，即分面facets,有时也被称作role restrictions 或constraints）。一个完整的本体还要包括一系列与某个类相关的实例(instances)，这些实例组成了一个知识库（KB一KnowledgeBase)。事实上，在本体的终点和知识库的起点之间，有一条非常明确的界限。类是本体结构的核心，它代表了某一领域的概念集合[3】。",
+    "context13": "我国一些学者也做了许多关于Ontology 定义的研究。中国社会科学院哲学研究所的杨学功先生在Ontology 的研究方面，有自己独到的见解。他认为，“作为一种特殊的哲学理论形态，Ontology 是以追求终极实在为依归，依奠定知识基础为任务，以达到终极解释为目标的哲学\"[】。",
+    "context14": "中国图书情报学界和AI研究领域，对于“on-tology”的概念也有多种不同的理解。张晓林博士在《描述知识组织体系的元数据》一文中认为“ontology”是“概念集”。他提到：“所谓概念集(Ontologies），指特定领域公认的关于该领域的对象（实际对象和逻辑对象）及其关系的概念化表述，包含以下部分：本领域对象类的等级体系；对象类的属性及属性取值限制；语义关系体系，即对象类之间的逻辑关系体系；关于对象类及语义关系的推理规则。概念集通过一个标记语言标记后成为显性知识，可在信息系统中表征和交换知识，并可被代理系统自动解析和识别【4】。",
+    "context15": "浙江大学人工智能研究所的刘柏嵩先生和高济教授在《基于RDF 的异构信息语义集成研究》一文中使用了“概念模型（CM——Conceptual Mod-el)”的称谓。他们说：“CM由一个类（概念）层次和类属性以及一组符合有关类或其属性的公理的规则组成。因此通过在检索到的事实组上应用这些规则，可能推理出新的事实。规则可用F一LOGIC来表达，基于可伸缩性的原因，为所有可能应用维护一个全局CM（本体）不可取。”按照他们的表述，CM实际上就是本体[15】。",
+    "context16": "网络与知识检索研究》一文中指出，概念网络是知识检索的基础，“概念网络中的每个节点均反映唯一的知识内容，采用若干属性的元组来表示”。在她所说的概念网络中，“每一概念类都具有层次分明的概念树状关系，形成概念网络中的主关联，…通过概念分类形成了一定的概念层次划分。概念类不同，但概念层次相同的概念节点可以根据自身属性或内容相互连接成关联网络。从而有效的揭示概念节点间的各种相关关系，构成概念网络中的辅关联。”按照她的表述，文中的“概念网络”就是本体[16】",
+    "context17": "中国标准化研究院标准馆的李景博士认为，本体是一个关于某些主题的，层次清晰的规范说明。它是一个已经得到公认的形式化的知识表示体系，它包含词表（或名称表、术语表)，词表中的术语全是与某一专业领域相关的，词表中的逻辑声明全部是用来描述那些术语的含义和术语间关系的，即它们是怎样和其他术语相关联的。因此，本体提供了一个用来表达和交流某些主题知识的词表和一个关系集，关系集是词表中术语间关系的集合18】。"
+  },
+  "2本体的理论研究": "",
+  "2.1Ontology 的建模元语": {
+    "context1": "Perez 等人认为Ontology可以按分类法来组织，它归纳出Ontology 包含5个基本的建模元语（Mod-eling Primitive）。这些元语分别是：类（ $\\mathbf { \\tilde { \\Psi } } _ { \\mathbf { c l a s s e s } } / \\mathbf { c o n } ^ { - }$ cepts），关系（relations），函数（functions），公理(axioms）和实例（instances）【】。",
+    "context2": "概念的含义非常广泛，可以指任何事物。关系代表了在领域中概念之间的交互作用。形式上定义为 $\\mathbf { n }$ 维笛卡儿乘积的子集：R： $\\mathbf { C } _ { 1 } \\times \\mathbf { C } _ { 2 } \\times \\ldots \\times \\mathbf { C } _ { \\mathrm { n } }$ 。函数是一类特殊的关系。在这种关系中，前 $\\mathbf { n } ^ { - 1 }$ 个元素可以唯一决定第 $\\mathbf { n }$ 个元素。形式化定义为：F: $\\mathbf { C } _ { 1 } \\times \\mathbf { C } _ { 2 } \\times { \\dots } { \\dots } \\times \\mathbf { C _ { n } } { \\dots } \\mathbf { \\tilde { C } _ { n } }$ 。公理代表永真断言。实例代表元素。",
+    "context3": "从语义上分析，实例表示的就是对象，而概念表示的则是对象的集合，关系对应于对象元组的集合。概念的定义一般采用框架（frame）结构，使用槽来表示概念的名称，与其他概念之间关系的集合，以及用自然语言对该概念的描述2。概念之间有4种基本关系：Partadof表达概念部分与整体的关系；Kind一of表达概念间的继承关系，类似面向对象中的父类和子类之间的关系；Instance一of表达概念间实例和概念之间的关系，类似面向对象中的对象和类之间的关系；Attribute一of 表达某个概念是另一个概念的属性，例如概念“价格”可以作为概念“桌子”的一个属性。在实际应用中，概念之间的关系将不会局限于上述4种关系，可以根据特定领域的具体情况定义相应的关系，以满足需要",
+    "context4": "本体理论在文献检索系统中的应用研究》一书中，作者李景认为本体作为知识组织的重要手段应该具有以下要素。",
+    "context5": "(1)声明(Statement）。声明用来说明本体所表示的知识范围、主体、以及它的主要用途和目的。",
+    "context6": "(2）公理（Axiom)。公理通常都是一阶谓词逻辑的表达式。公理是那种无须再进行证明的逻辑永真式 (重言式)。",
+    "context7": "（3）概念，又称为类（Concept，Class）。类是相似术语所表达的概念的集合体。",
+    "context8": "（4）属性（Property，Slot）。属性用来描述类中的概念，具有限制类中概念和实例的功能。一些类具有某一属性，另外一些类不具有这一属性。属性是区分类的标准。属性具有继承性。一个属性必须具有相应的属性值。",
+    "context9": "（5）函数（Function）。函数是关系（Relation）的特定表达形式。函数中规定的映射关系，可以使得推理从一个概念指向另一个概念。",
+    "context10": "（6）实例（Instance），也称个体。归根结底，类是实例的类，实例是类的实例。函数是实例的函数，实例是函数的实例。实例是本体中最小对象。它具有原子性，即不可再分性。如果某个实例还可以再进行划分，那么它就是一个类，而不是实例。实例可以代入函数中去进行运算，而函数的运算结果一定是另外一些实例或者是类。类，包含实例，而每个实例都有不属于其他实例的属性，这是区分不同实例的唯一标识。",
+    "context11": "只有满足以上6个条件的知识表示体系才可以称为“知识本体”。如果缺少函数、公理等要素，则不过是一部词表，充其量只能称为轻量级本体【】 。"
+  },
+  "2.2Ontology 的分类": {
+    "context1": "根据已有文献，按照应用领域的不同，本体大致可划分为3图所pw..ne",
+    "context2": "![](images/f1fbc057c53a5b83528a1ee5c735eeaf7691c4c8224b90552b7de145cc114681.jpg)  \n图1本体应用的3个主要领域",
+    "context3": "由于应用的领域不同，对本体研究的侧重点也就不尽相同。知识工程领域普遍认同以下分类：涉及特定学科领域的本体称为领域本体（Domain on-tology)[23]；涉及具有普遍意义的客观世界的常识的本体称为定级本体、上层本体或通用本体（Generalor Upper ontology）[2】；涉及问题求解的本体，称为问题、方法或问题求解本体或应用本体（Problem—solved ontology/Applicationontology）；涉及知识表示语言的本体称为表示本体（元本体）、宏本体（Representation ontology 或 Meta ontology）。",
+    "context4": "1995 年 Mizoguchi 等建议按照本体内容划分类别，即领域本体，通用本体和任务本体[25】。",
+    "context5": "1997年，Guarino 提出以描述的详细程度和领域依赖度两个维度作为对Ontology 划分的基础[26]。详细程度是一个相对的模糊的概念，是指描述或刻画建模对象的深度。详细程度高的称为参考本体(Reference ontology），以万维网上已有的本体为对象建立，其应用是为了保存各种本体的元数据；详细程度低的称为共享本体（shareontology）。依据对学科领域的依赖度，又可将本体分为顶级（top一level）本体、领域（Domain）本体、任务（task）本体和应用（application）本体等4类。",
+    "context6": "（1）顶级本体描述的是最普通的概念及概念之间的关系，与具体的应用无关。（2）领域本体描述的是特定领域中的概念及概念之间的关系。（3）任务本体描述的是特定任务或行为中的概念及概念之间的关系。（4）应用本体描述的是依赖于特定领域和任务的概念及概念之间的关系。",
+    "context7": "1999 年，Perez 和Benjamins 在分析和研究了多种本体分类方案的基础上，归纳出10种类型，分别是：知识表示本体（Knowledge－Representationontology）、通用本体、顶级本体、核心本体（元本guage ontology）、任务本体、领域一任务本体（ $[ \\mathbf { D _ { 0 } } ^ { - }$ main—Task ontology）、方法本体（Methodontology）和应用本体。这种划分方法是对Guarino 分类方法的扩充和细化，但划分的界限较为模糊，10 种本体之间存在交叉，层次不够清晰。",
+    "context8": "李景博士认为，本体可以分为轻量级本体（Lightweightontology），中级本体（Middleontology）和重量级本体（Heavyweightontology）。轻量级本体不具备逻辑推理功能，例如叙词表和WordNet。中级本体具有简单的逻辑推理功能，系统可以识别一阶谓词逻辑的表达式。重量级本体具有复杂的逻辑推理功能，系统可以识别更加复杂的二阶谓词逻辑的表达式，并为更加复杂的推理功能的实现预留了接口，如Cyc本体系统【28】"
+  },
+  "2.3Ontology 的表示语言": {
+    "context1": "本体在知识表示、自然语言处理、信息检索、数据库、知识管理、多代理系统等领域中具有非常重要的作用。另外，本体还是语义网基础结构的主要组成部分。这些重要功能的实现全部依赖于本体表示语言的表示功能。",
+    "context2": "目前，比较重要的本体表示语言有以下15 种：描述逻辑（DL，Description Logics）【2】，资源框架描述（RDF，Resource Description Framework）[30】，RDFS（RDF Schema）【31】，Ontolingua， $\\mathrm { O K B C } ^ { \\mathbf { U } ^ { \\mathrm { 3 2 } } \\mathbf { l } }$ ， OCML[33】，框架逻辑（Flogic，FrameLogic） C)[34】， $\\mathrm { L o o m } ^ { \\mathrm { \\bf { \\delta I } _ { 3 5 1 } } }$ ，$\\mathrm { X O L } ^ { \\mathbf { r } ^ { \\mathbf { 6 } \\mathbf { 6 } \\mathbf { 1 } } }$ ， $\\mathrm { S H O E } ^ { \\mathbf { r } ^ { \\mathrm { { B 7 } } } \\mathbf { l } }$ ，本体交换语言和本体推理层(OIL，ontology Interchange Language and ontology Infer-ence Layer）3s】，DAML，DAML $+$ OIL[39】, $\\mathrm { T M } ^ { \\mathbf { I 4 0 1 } }$ ，$\\mathrm { C y c l } ^ { \\tt t 4 1 }$ ，OWL【2】。"
+  },
+  "2.4Ontology 的构造规则": {
+    "context1": "目前已有的Ontologies很多，出于对各自问题域和具体工程的考虑，构造Ontologies 的过程也是各不相同的。许多研究人员从实践出发，提出了不少有益于构造Ontology 的标准，其中最有影响的是Gruber 于1995年提出的5条规则[43】 。",
+    "context2": "（1）明确性和客观性：即Ontology 应该用自然语言对所定义术语给出明确的、客观的语义定义。（2）完全性：即所给出的定义是完整的，完全能表达所描述术语的含义。（3）一致性：即由术语得出的推理与术语本身的含义是相容的，不会产生矛盾。",
+    "context3": "通用或专用的术语时，不需要修改其已有的内容。",
+    "context4": "（5）最小承诺：即对待建模对象给出尽可能少的约束。"
+  },
+  "2.5研究Ontology 的权威机构": {
+    "context1": "目前，对本体进行研究的较为权威的机构主要有三个，即 W3C，KSL 和AIFB。",
+    "context2": "万维网联盟（W3C，World WideWeb Consor-tium）是一个关于信息、商业、通讯和共识的论坛，于2001年开始致力于本体的研究，成立了Web一ontology 工作组。其本体研究立足于本体在语义网中的应用，是推出 XML、RDF 和OWL 等标准规范的权威机构。W3C有着基础扎实、开发人员实力雄厚，研究起点高等特点。",
+    "context3": "美国斯坦福大学的知识系统实验室（KSL，Knowledge Systems Laboratory）在本体建模工具领域和本体应用层面的研究方面均代表了知识工程领域的领先水平，早已在AI和知识工程领域享有盛名。其本体研究立足于AI领域，注重与DARPA和AIFB 等机构的交流合作，在技术支持层面推动了本体相关技术产品的开发和应用。目前，KSL主要有3个研究主题【】。",
+    "context4": "（1）知识共享技术（Knowledge Sharing Technol-ogies），包括本体的合并及诊断（Ontology Mergingand Diagnosis)；语义网技术；可复用知识的海量存储库（Large－scale Repositories of Reusable Knowl-edge）；增强的设计对象复用技术（Technology forEnhanced Reuse of Design Objects）。",
+    "context5": "（2）物理系统的建模与分析（Modeling andAnalysis of Physical Systems）。",
+    "context6": "（3）应用性智能系统（Adaptive Intelligent Sys-tems）。",
+    "context7": "应用情报学和规范描述方面研究所（AIFB,  \nInstitute of Applied Informatics and Formal Description  \nMethods）对本体的研究研究多以知识管理为目的，  \n对基础理论（ontology learning）和本体的数学表达  \n进行了深层次的研究[5】。AIFB研究所目前从事的  \n研究重点是构建基于本体的知识门户和语义门  \n户【46-47】。"
+  },
+  "3相关理论的研究": "",
+  "3.1本体与语义网络": {
+    "context1": "均可以通过带标记的有向图来表示概念间的关系，并适合于逻辑推理。",
+    "context2": "二者的区别在于： $\\textcircled{1}$ 描述的对象和范围不同：本体是对共享概念模型的规范说明，即其概念在某个特定领域是公认的，是面向特定领域的概念模型。而语义网络是一种带有标记的有向图，最初用于表示命题信息，现广泛用于专家系统表示知识。其节点表示物理实体、概念或状态，边用来表示关系，但是对节点和边都没有特殊规定，所以描述范围比本体广； $\\textcircled{2}$ 知识表示的深度不同：本体有5个建模元语，即类、关系、函数、公理和实例，它们可以严格、正确的刻画所描述的对象。而语义网络表示深度不如本体，对建模没有特殊要求； $\\textcircled{3}$ 建模条件不同：本体必须有专家的参与，建模更为严格、困难。而语义网络不必有专家的参与，相对而言，建模较为容易。",
+    "context3": "另外，需要做一点说明的是，这里的语义网络(Semantic Network）早在2O世纪7O年代就已经在知识工程领域提出，它是一种知识表示的手段和工具，与W3C 提出的语义网（Semantic Web，又称第二代互联网）是截然不同的概念。下面，对本体与语义网的关系进行讨论。"
+  },
+  "3.2本体与语义网": {
+    "context1": "语义网的概念是由Berners Lee 于XML2OOO 的会议上正式提出的[。语义网的目标是使Web上的信息具有计算机可理解的语义，从而使WWW上的异构和分布信息可以被有效的访问和搜索。BernersLee还提出了语义网的体系结构，即UNI-CODE 和 URI、XML、RDF、Ontology、Logic、Proof、Trust 由低到高层次分布[】。其中，XML 和 RDF 都能为所描述的资源提供一定的语义，但它们在处理语义上存在两个问题，一是同一概念有多种词汇表示，二是同一个词有多种含义。而Ontology 正是通过概念以及概念之间关系的严格定义来精确地确定概念，从而解决上述的两个问题。由此可见， $\\mathrm { O n ^ { - } }$ tology 在语义网中占有重要地位，是解决语义层次上Web信息共享和交换的基础。"
+  },
+  "3.3本体与叙词表的联系与区别": "",
+  "3.3.1本体与叙词表的联系": {
+    "context1": "本体与叙词表的联系在于：二者都是知识组织体系，且本体的构建通常是以叙词表作为基础和起",
+    "context2": "（C考的联系在aA它们都是知识表示的形式Publis点的H电于叙词表本质上是种知识组织体系ki具t",
+    "context3": "有层次结构和分类等级，所以叙词表本身是轻量级本体。另外，利用叙词表可以实现的功能，利用本体也都能够实现[50】。"
+  },
+  "3.3.2本体与叙词表的区别": {
+    "context1": "本体与叙词表区别主要在于：",
+    "context2": "（1）语义关系的区别。这是本体与叙词表最主要的区别。本体仔概念间的关系比叙词表中描述得广泛深入、全面细致。",
+    "context3": "（2）组织结构的区别。本体中的概念是多维的，网状的，而叙词表中的概念分布多为线性的。相比较而言，叙词表更注重“词”之间的关系，而本体侧重于描述“概念”之间的关系。",
+    "context4": "（3）系统开放性的区别。本体是一个开放集成的体系，可随时修改更新，而叙词表则相对封闭[51-52】",
+    "context5": "（4）侧重点的区别。相比之下，本体更注重计算机的可识别和可操作，而叙词表更多的只是揭示词间关系。"
+  },
+  "4Ontology 的应用": "",
+  "4.1 Ontology 在信息检索中的应用": {
+    "context1": "随着计算机技术的广泛应用和用户信息需求的不断提高，常规的直接基于关键词的信息检索技术已经不能满足用户在语义上和知识上的需求，而Ontology具有良好的概念层次结构和对逻辑推理的支持，因而在信息检索，特别是基于知识的检索中得到了广泛的应用[53-54】。",
+    "context2": "基于Ontology 的信息检索的基本设计思想大致可以总结如下[5] 。",
+    "context3": "（1）在领域专家的帮助下建立相关领域的 $\\mathrm { O n ^ { - } }$ tology 。",
+    "context4": "（2）收集信息源中的数据，并参照已经建立的Ontology，把收集起来的数据按规定的格式存储在元数据库（关系数据库、知识库）中。",
+    "context5": "（3）对用户检索界面获取的查询请求，查询转换器按照Ontology 把查询请求转换成规定的格式，在Ontology 的帮助下从元数据库中匹配出符合条件的数据集合。",
+    "context6": "（4）检索结果经过定制处理后，返回给用户。",
+    "context7": "如果检索系统不需要太强的推理能力，Ontolo-gy 可以用概念图的形式表示并存储，数据可以保存在一般的关系数据库中，采用图的匹配技术来完成信息检索。如果要求推理能力较强，一般则需要一种描述语言（如：Loom，Ontolingua 等）表示 $\\mathrm { O n ^ { - } }$ tology，数据保存在知识库中，采用描述语言的逻辑推理能力完成检索。由于Ontology 能通过概念之间的关系了表达概念语义的能力，所以能够提高检索效率。",
+    "context8": "下面介绍几个Ontology 在信息检索中的著名项目，分别是（Onto） $2 \\mathrm { A g e n t } ^ { \\mathbf { U } ^ { \\mathrm { 5 6 } } \\mathbf { I } }$ 、Ontobroker[和$\\mathrm { S K C } ^ { \\mathbf { U } ^ { \\mathrm { S } \\mathbf { 8 } \\mathbf { I } } }$ ，它们也分别代表了3个方向。",
+    "context9": "$\\left( { \\bf O n t o } \\right) ^ { 2 } \\mathrm { A g e n t }$ 的目的是帮助用户检索到所需要的WWW上已有的Ontology，主要采用了参照Ontol-ogy。参照Ontology 是以WWW上已有的Ontology 为对象建立起来的Ontology，它保存有各类Ontology的元数据。",
+    "context10": "Ontobroker面向的是WWW上的网页资源，目的是为用户检索到所需要的网页，这些网页含有用户关心的内容。",
+    "context11": "SKC 的目标是解决信息系统语义异构的问题，实现异构的自治系统之间的互操作。该项目希望通过在Ontology上建立一个代数系统，用这个代数系统实现各Ontology之间的互操作，从而实现异构系统之间的互操作。"
+  },
+  "4.2其他领域的应用": {
+    "context1": "随着理论和技术研究的广泛深入，Ontology 被应用于许多专业领域，在这些专业领域中发挥重要作用。",
+    "context2": "有学者曾做过这样的研究：在正确使用网络搜索引擎 google的基础上，分别用“ontology“、“on-tology“与“information“，“ontology“与“philosophy“进行检索。对于ontology 相关的英文文献量，与\"infomation“相关的文献量为456.67千页，与哲学相关的是118.31千页，二者加和为 574.98千页。而仅以“ontology“为关键词，检出999.17千页，远远大于信息领域和哲学领域对ontology 研究的总和，这说明国际上对ontology 研究和应用范围更广。例如Guarino 曾发表ontology 综述类文章，总结出ontology广泛应用于人工智能、计算语言、数据原理等领域；特别是在知识工程、知识表示、语言工程、数据设计、信息模型、信息集成、信息检索、信息摘要、知识管理等领域；ontology 甚至还被应用到自然语言翻译、医药、农业、电子商务、企业管理、地理信息系统、法律信息系统、生物信息系统等许多领域【】"
+  },
+  "5结 语": {
+    "context1": "Ontology自提出以来受到了国内外许多科研人员的关注，特别是在计算机及其相关领域得到了广泛的应用。国外对于Ontology 的研究较为成熟，应用也更为广泛。本文作者尝试对有关Ontology 的研究进行梳理和归纳，借此过程进一步了解和学习Ontology，有不足之处恳请老师斧正。"
+  },
+  "参考文献": {
+    "context1": "1王淼洋·东西方哲学比较研究(第一版)[M]·上海：上海 教育出版社, $1 9 9 4 { } _ { : } 9 7 - 1 0 4$   \n2 A·P.COWIE,霍恩比·牛津现代高级英汉双解词典（简化 汉字本)(第一版)[M]·北京：商务印书馆,1993.786.   \n3 林亚西,黄继豪·中西第一哲学问题一—对以海德格尔为 蓝本的几点辩驳 $\\mathrm { \\cdot \\left[ D B / O L \\right] \\cdot h t t p : / / w w w \\cdot c r r s \\cdot o r g / m 2 5 \\mathrm { \\cdot } h t m l }$   \n2000—06—25.   \n4 杨学功·本体论哲学批判纲要一—对马克思哲学变革实 质的一种理解[DB/OL]·http://ww·siwen·org/xingershangxue/btlzxppgy·htm,2002—06—24.   \n5 杨学功·传统本体论哲学的终结 $\\mathrm { \\Delta [ D B / O L ] \\cdot h t t p : / / c t k \\cdot c n }$ gs/hwtj/zxbt·html,2003－02-11.   \n6 Alexander Maeche $\\cdot$ Ontology learning for the semantic web[Z]. Norwell ;Kluwer Academic Publishers,2OO2,15—17.   \n7 Guarino,Nicola and Pierdaniele Giaretta $\\cdot$ Ontologies and Knowledge Bases :Towards a Teminological Clarification[EB/OL]·Towards Very Large Knowledge Bases·N.J. I.Mars·Ed· IOS Press,1995.25-32.   \n8 Neches R,Fikes RE,Gruber TR,et al·enabling Technology for Knowledge Sharing[J]·AI Magazine,1991,12(3):36-56.   \n9 Gruber,T·R·A Translation Approach to Portable Ontology Specification[J] $\\cdot$ Knowledge Acpuisition,1993(5):199—220.   \n10 Borst,P·and Akkermans,H·An Ontology Approach to Product Disassembly[J].Sant Feliu de Gu5xols,1997,(lO):15-19.   \n11 Studer Rudi ，Richard Benjaminsand Dieter Fensel $\\cdot ^ { \\star }$ Knowlidge Engineering:Principles and Methods[J]. Data and Knowledge Engineering·Vol.25,1998(1—2):161—197.   \n12 Uschold,Mike and Michael Gruninger· Ontologies :Principles, Methods and Applications[J]· Knowledge Engineering Review. Vol.11,1996(2):93-136.   \n13NatalyaF·Noy and Deborah L·McGuinness $. ~ \\cdot$ Ontology Development lOl;A Guide to Creating Your First Ontology[EB/OL]. $\\mathrm { { h t t p } } : / / \\mathrm { { p r o t } \\acute { e } g \\acute { e } }$ ·stanford·edu/publications/ontology-development/ontology10l.pdf,2001—08—10.   \n14张晓林,李宇.描述知识组织体系的元数据[J]·图书   \n15刘柏嵩,高济·基于 RDF 的异构信息语义集成研究 [J]·情报学报,2002,(6):691-695.   \n16张玉峰,李敏·动态约束性概念网络与知识检索研究 [J]·情报学报,2003,(3):278-281.   \n17李景·本体理论在文献检索系统中的应用研究[M]. 北京：北京图书馆出版社,2005.5－6.   \n18李景,钱平,苏晓鹭·构建领域本体的方法[J]·计算 机与农业,2003,（7):7-10.   \n19Perez A G,Benjamins VR.Overview of Knowledge sharing and Reuse Components :Ontologies and Problem—Solving Methods [M].In:Stockholm V R, Benjamins B,Chandrasekaran A,eds · Proceedings of the IJCAI －99 workshop on Ontologies and Problem-Solving Methods(KRR5),1999,1—15.   \n20潘宇斌,陈跃新·基于Ontology 的自然语言理解[J]·计算 技术与自动化,2003,(4):71—74.   \n21 刘肖静,耿骞.Ontology 与面向概念的网络信息检索 [J]-情报理论与实践,2004,(6):638-641,568.   \n22徐振宁,张维明,陈文伟·基于 Ontology 的智能信息检索 [J]·计算机科学,2001,（6):21—26,44.   \n23van der Vet,Paul E.Ed $\\cdot$ Proceedings ofECAI96’sWorkshop on Ontological Engineering[Z]. ECAI96.1996.   \n24Borgo,Stefano,Nicola Guarino,and ClaudioMasolo $\\cdots$ Stratfied Ontol·ogies:The Case of Physical Objects[Z].Proceedings of ECAI96's Workshop on Ontological Engineering,1996.5－16.   \n25Mizoguchi $, ~ \\rangle$ Riichiro, Johan Vanwelkenhuysen and Mitsuru Iked $\\cdot$ Task Ontology for Reuse of Problem Solving Knowledge [Z].Towards Very Large Knowledge Bases·N·J.I. Mars Ed. IOS Press,1995,46-94.   \n26Guarino,Nicola Semantic Matching:Fomal Ontological Distinction for infomation Organization，Extraction，and Integra\" tion·In:Pazienza M T,eds[M]·Information Extraction:A Multidisciplinary Approach to an Emerging Information Technology, Springer Verlag,1997:139-170.   \n27Perez A·G.,Benjamins V.R·Overview of Knowledge Sharing andReuseComponents:OntologiesandProblem—Solving Methods[Z]. Workshopon Ontologiesand Problem－Solving Methods:Lessons Learned and Future Trends，（IJCAI99），de Agosto, Estocolmo,1999.   \n28李景·本体理论在文献检索系统中的应用研究[M]: 北京：北京图书馆出版社,2005.10－11.   \n29Franz Bader，DiegoCalvanese,Deborah McGuinness，Daniele Nardi,Peter Patel一Schneider[M].TheDescriptionLogic Handbook Theory $,$ ImplementationandApplications $. ~ \\cdot$ London : Cambridge University Press, 2003.1.   \n30Graham KlyneJeremy JCaollResource Descripionrame work Concepts and Abstract Syntax [EB/OL].http://www·w3. org/TR/2003/PR－rdf－concepts － 20031215/,2005－12—   \n31Dan Brichley,R·V. Guha $, ^ { * }$ RDF Vocabulary Description Language 1.O:RDF Schema[EB/OL]. W3C Working Draft $2 3 \\ \\mathrm { J a n ^ { - } }$ uary $2 0 0 3 . \\mathrm { { h t t p } _ { : } / / \\mathrm { { _ { w w w } \\cdot \\mathrm { { w } ^ { 3 } \\cdot \\mathrm { { o r g } / T R } / \\mathrm { { r d f } - \\ s c h e m a } / \\cdot 2 0 0 5 - 1 2 - } } } }$ 28.   \n32KSL,OKBC : Open Knowledge Base Connectivity $\\cdot$ Implementations and documents [EB/OL]· htp://www-ksl-svc· stanford·e $\\mathrm { l u } _ { : } 5 9 1 5 / \\mathrm { d o c } / \\mathrm { r e l e a s e } / \\mathrm { o k b c } / \\mathrm { i n d e x } \\cdot \\mathrm { h t m l } , 2 0 0 5 - 1 2 - 2 8$   \n33Kmi· OCML:Operational Conceptual Modeling Language[EB/ OL].Summary.http://kmi:open·ac. uk/projects/ocml,2006 $3 - 2$   \n34Michael Kifer and Georg Lausen $\\downarrow ^ { \\ast }$ FLogic : Ahigher order lan guage for reasoning about objects,inheritance and scheme[Z]. In Clifford et al·[CLM89],pages 134-146.   \n35ISI·Loom Project Hompage[EB/OL].htp://www·isi· edu/isd/ LOOM－HOME·html,1999－07—12.   \n36AI/SEI·XOL:XML-based ontology-exchange language[EB/ OL].http://www ·ai· sri·com/pkarp/xol/,2006-3-2.   \n37The SHOE Team/CS/UMD·SHOE Simple HTML Ontolgy Extensions [EB/OL]. http://ww:cs·umd. $\\mathrm { { e d u } / \\mathrm { { p r o j e c t s } / \\mathrm { { p l u s } / \\Omega } } }$ SHOE/,2006-3-15.   \n38OIL Steering Committee $: \\ast$ Description of OIL－Ontology Infer ence layer[EB/OL].htp://ww·ontoknowledge:org/oil/,2006 $- 3 - 1 5$   \n39DARPA's Information Exploitation Office[EB/OL]·DAML· ht$\\mathrm { t p } _ { \\colon } / / \\mathrm { w w w } \\cdot \\mathrm { d a m l } \\cdot \\mathrm { o r g } / , 2 0 0 6 - 3 - 1 5 .$   \n40Pepper,Steve.2002.The TAO of Topic Maps· XML Europe 2000[EB/OL].ttp://www：geag/papers/xmleuroe/ papers/sll—01.html,2006—4—3.   \n41 Cycorp, Inc $\\because$ The CycLof Syntax[EB/OL].http://www. cyc. com/cycdoc/ref/cycl-syntax·html,2006—03—28.   \n42 Web Ontology Language,（OWL)Reference Version 1.0. W3C Working Draft 12 November 2O02[EB/OL]. htp://www w3. org/TR/2002/WD-owl-ref—20021112/,2006－3-28.   \n43 Gruber TR TowardsPrinciples for the Design of Ontologies Used for Knowledge Sharing[J]·International Journal of Human -Computer Studies,1995,(43):907—928.   \n44 KSL:Research Themes[EB/OL]. http://www· ksl. stanford. edu/researchthem $\\cdot$ shtml,2006—01—23.   \n45 Alexander Maedche· Ontology learning for the semantic web [M].Norwell: Kluwer Academic Publishers,2OO2.18—20.   \n46Alexander Maedche,Stefen Stab,Nenad Stojanovicetal $\\mathbf { \\nabla } \\cdot \\mathbf { S } \\mathbf { e } ^ { - }$ mantic portal -The SEAL approach [EB/OL]. http://www. aifb:uni-karlsruhe·de/WBS/ysu/publications/2OOl-mitbook. pdf,2002-4—26.   \n47 Steffen Staab and Alexander Maedche $: \\ast$ Knowledgeportals $\\_ - \\text O \\mathrm n ^ { - }$ tologies at Work[EB/OL].http://www $\\because$ aifh $\\mathbf { \\epsilon } ) \\cdot \\mathbf { \\epsilon }$ uni—karlsruhe · de/st/Research/Publications/ai magazine staab maedche. pdf,2002-3-19.   \n48 王军.VISION;集成分类法、主题词表和语义元数据的 概念网络[J]·情报学报,2003,(4):412-418.   \n49 Semantic Web Architecture [EB/OL]: http://www· w3.org/ $2 0 0 0 / \\mathrm { T a l k s } / 1 2 0 6 - \\mathrm { x m l } 2 \\mathrm { k } - \\mathrm { t b l } / \\mathrm { s l i d e } 1 0 - 0 . \\mathrm { h t r }$ $\\mathrm { h m l }$ ， $2 0 0 6 - 1 -$   \n28.   \n50 Howard Beck,Helena Sofia Pinto $\\ldots$ Oveiview of Approach, Meth odologies,Standards，and Tools for Ontologies-DRAFT[EB/ OL].http://www·fao:org/agris/aos/Documents/BackgroundAOS ·html,2006—3—28.   \n51 王素芳·ontology 和叙词表的融合初探[J]·大学图书馆学 报,2005,(1):74-78.   \n52 马张华·信息组织[M]·北京:清华大学出版社,2001.20 -45.   \n53 Guarino N,Masolo C,Vetere G·OntoSeek:Content-Based Ac cess to the Web[J].IEEE Intelligent System,1999,14(3):70   \n180.   \n54 Shun S B,Motta E,Domingue J. ScholOnto;an Ontology based Digital Library Server for Research Documents and Discourse[J]·Intl JDigital Libraries,2OOO,3(3):237—248.   \n55 邓志鸿，唐世渭,等.Ontology 研究综述[J]·北京大学学 报，（自然科学版),2002,38,(9)：730-738.   \n56 Arpirez J,Perez A G ,Lozano A,et al·,（Onto)2Agent ;AnOntology—based WWW Broker to Select Ontologie $\\cdot \\cdot$ In :Gomez Perez A,Benjamins V R,eds[Z].Proceedings of the Workshop on Application of Ontologies and Problem-Solving Methods UK,1998,16-24.   \n57 Ontobroker[EB/OL]. http://ontobriker·aifh $\\ldots$ uni—karlsruhe· de,2002-3-18.   \n58SKC[EB/OL].http://www.db·stanford·edu/skc,2002－12   \n9.   \n59常春·因特网上中英文ontology 网页文献量增长特征 [J].现代情报,2005,(1):81—82,78.",
+    "context2": "(责任编辑:刘莹)"
+  }
+}

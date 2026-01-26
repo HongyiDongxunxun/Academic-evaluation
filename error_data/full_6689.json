@@ -1,0 +1,126 @@
+{
+  "original_filename": "full_6689.md",
+  "技术会聚:内涵、现状与测度\\*兼论与学科交叉的关系": "",
+  "张琳¹’² 彭玉杰’杜会英’黄颖²'³": {
+    "context1": "华北水利水电大学管理与经济学院郑州450017²武汉大学信息管理学院 武汉430072  \n³比利时鲁汶大学 ECOOM 研究中心 鲁汶 B-3000",
+    "context2": "摘要 回的/意义]学科之间的交叉与技术之间的会聚是推动现代科学技术发展的重要力量,通过明晰技术会聚的内涵，探究其研究进展以及测度指标，以期能够为解读技术会聚的知识结构与相关研究的开展提供一定的参考。仿法/过程]应用文献调研和文献计量学的方法在辨析技术会聚与技术融合内涵的基础上,从学科、主题分布方面对技术会聚的相关内容进行可视化分析，并从多样性和凝聚性视角对测度指标进行梳理与解读，最后进一步辨析了技术会聚与学科交叉的异同。 结果/结论] 技术会聚与技术融合在多数情况下意义一致，二者之间的细微差异反映在融合模式上；技术会聚的测度一般基于多样性和凝聚性两个视角，前者是从丰富度、均匀度和差异度三个维度来进行测度，后者则主要衡量技术网络中节点的作用和关系;从一阶和二阶主题研究展开，技术会聚与学科交叉的科研活动具有相似性，相同视角和维度的学科交叉指标也为测度技术会聚的程度、多样性和衡量不同技术之间的融合关系提供了借鉴。",
+    "context3": "关键词：技术会聚技术融合多维测度 交叉科学",
+    "context4": "分类号：F204",
+    "context5": "DOI: 10.13266/j.issn.0252-3116.2021.01.014"
+  },
+  "1引言": {
+    "context1": "随着新兴技术的涌现，技术边界的逐渐模糊化，许多重大科学技术的发现与创造已经无法仅仅依赖于单一的技术，技术之间的交叉与融合逐渐成为推动现代科学技术发展的重要力量。在各个领域的科学发现和技术创新协调发展的基础上,出现了技术会聚这一新兴趋势,进一步刺激了科学技术的发现和创新。技术会聚作为推动未来技术创新的重要力量，已经成为实际研发领域中的一项重要战略。技术会聚不仅创造了开发新技术、新知识的机会,而且成为了改变企业面向新市场的重要驱动力[-；还通过整合互补的知识库来促进技术和产业集群，从而起到引导产业融合的作用 。",
+    "context2": "伴随着科学界和社会对技术会聚的高度关注，学者们从不同层面对技术会聚开展了一系列探索性研究。I.Park等使用关联规则和链接预测来预测技术的收敛性，并使用主题模型来预测发现技术会聚的新兴领域；栾春娟等基于德温特分类20个技术部类设计了一系列会聚指数来测度技术部类之间的会聚程度；李丫丫等对生物芯片产业的技术会聚进行研究，发现生物芯片技术要素之间的融合紧密度较强。此外,部分学者还关注于产业会聚、伦理、社会隐患和风险治理等问题。例如,Y.Cho等利用专利的网络中心指数对电子印刷行业的技术强度进行度量来探究会聚下企业战略地位的演变；F.Erik 等学者对纳米会聚技术的伦理和社会问题进行了探讨；C.Kuei与L.Mihail等人则聚焦于会聚技术的风险与治理[10-1]。",
+    "context3": "纵观当前技术会聚的研究，多聚焦于测度技术会聚中知识要素的流动以及探究技术之间的会聚趋势[12-13。虽然部分研究对技术会聚的内涵进行解读并构建相应指标用于测度技术会聚，但涉及到相关概念辨析和指标体系构建的研究还较为缺乏。例如，技术会聚的内涵以及与技术融合等相似术语之间的异同亟待明晰;技术会聚的测度指标也尚未作出一个较全面的梳理和解读。基于此,本文尝试从技术会聚的内涵、现状和测度来全面梳理有关技术会聚的理论知识与测度指标，并在明晰技术会聚与学科交叉的一阶主题和二阶主题研究的基础上，从形成路径、研究对象和测度指标三个方面对二者进行了辨析，以期解读二者之间的关系，并拓展当前技术会聚的研究方法与指标。"
+  },
+  "2技术会聚及其相关概念的内涵": {
+    "context1": "1963年,N.Rosenberg在机械仪器技术的会聚研究中,首次尝试对技术会聚的概念进行了定义，即“两个迄今不同的工业部门共享同一知识和技术基础的过程”。随着技术会聚研究的深入,学者们对技术会聚的定义开始逐渐达成共识。其中C.Curran等学者提出的概念被大家所广泛认可，指出技术会聚是指离散项或异质项转换成统一体，或不同技术、设备、行业整合成一个统一整体的过程，并将会聚分为科学知识会聚、技术会聚、市场会聚和产业会聚四个阶段8,15-1d。这四个阶段是一个连续发生的过程,科学知识的会聚是技术会聚的第一步，最终带来产业的会聚,实现产业创新[。换言之,科学知识的会聚为技术的会聚提供了理论基础,技术层面的会聚集中到部分市场和产业中,最终也会导致跨越不同市场和产业的技术创新。",
+    "context2": "通过整合不同学者对技术会聚的理解,本文通过引用E.Kim和C.Curran等学者的描述,对技术会聚的内涵做出解读。技术会聚是对现有不同领域技术的组合或重组[5,,产生于现有技术的交叉点,通过整合与重组现有技术领域的知识,获得先前技术所不具备的新功能，实现技术变革或发展成为新的技术分支，即不同于现有技术领域的新方向。需要注意的是，该技术变革并非是产生全新的技术,而是在整合现有技术的基础上实现创新[19-21] 。",
+    "context3": "在技术会聚的研究中,技术融合(technological fu-sion）、技术兼并（technologymerging）、技术交叉渗透（technology cross-fertilization） 技术杂交(technology hy-bridization）和多学科技术(multidisciplinary technology)",
+    "context4": "等词汇被用于描述相关会聚现象。其中,技术会聚与技术融合是被学者使用最多的两个术语，众多学者认为多数情况下技术融合与技术会聚是可以交互使用的,两者均可以表示基于对现有技术的会聚或融合，在同一个点衍生出新的技术分支[19,2。但是,深究发现技术融合实质是现有技术的替代与互补，代表的是基于现有技术的创新性突破;而技术会聚则被界定为将两种以上的核心技术进行创新整合，突出强调发展成为不同于现有技术的新方向2,23-2]",
+    "context5": "为了更清晰地描述技术是如何进行会聚和融合的，以及技术会聚与技术融合在融合过程中的细微差异,本文以两个不相关的领域A、B为例,通过呈现技术会聚与技术融合的过程来体现两者融合模式之间的差异,如图1所示：",
+    "context6": "![](images/7e91271199c3273747fa57eec761405f3105081e4ba4671704e85eb620f55428.jpg)  \n图1技术会聚与技术融合的过程",
+    "context7": "对于两个完全不同的研究领域A、B而言,二者进行技术会聚的过程即为其不断探索的过程，通过将来自两个领域的技术进行创新整合，使其向着不同于现有的新方向发展。而当研究领域A、B进行技术融合时,意味着将其中一个领域的某种技术用另一个领域内的技术替代,新生成的技术可以部分取代原有技术的作用。例如,纳米生物技术是基于纳米与生物会聚而成的一个新的研究领域,体现了技术会聚中向新研究方向转变的特点,而生物芯片技术则是来自生物技术与半导体工业技术融合的创新产物。"
+  },
+  "3 技术会聚研究的学科与主题分布": {
+    "context1": "学科和主题分布是通过提取文献的学科分类和具有代表性的特征词汇来探究技术会聚中学科、主题分布特征,并利用相关算法对主题进行聚类和识别。以Web of Science核心合集的SCIE/SSCI数据库作为检索来源，“TS $=$ （（ technolog\\*NEAR/0 converg\\*）OR（（technolog\\*fusion\\*）AND converg\\*））”为检索式，文献类型限定为“Article\"和“Review”,时间段为1989-2019年，最终检索得到579条技术会聚/融合的相关"
+  },
+  "张琳，彭玉杰，杜会英，等.技术会聚:内涵、现状与测度 兼论与学科交叉的关系 ⑴] .图书情报工作,2021,65(1)：91-101.": "",
+  "文献作为分析数据。": {
+    "context1": "在学科分布特征分析方面，基于Webof Science(WoS)学科分类体系,利用VOSviewer可视化软件构建了技术会聚相关主题文献的科学覆盖图（见图2）。图2中每个节点代表一个WoS学科分类,节点之间的距离代表学科分类之间的关联程度，节点大小反映该学科下的研究数量的多少；相同类别的节点同属于一个大的学科分类，其名称以方框的标签形式呈现。可以看出,技术会聚研究在所有18个大学科中均有涉猎,但主要集中在“Computer science & engineering\"（计算机科学与工程、“Management”（管理学）和“Socialscience\"(社会科学)这三个学科领域。具体至子学科而言，“Multidisciplinary sciences\"（多学科科学）的研究占比较大,这也直接说明了跨越不同学科的研究在技术会聚中起着重要的作用。技术会聚研究涉及的其他学科领域还包括“Economics\"（经济学、“Engineeringelectrical&electronic\"（电子与电气工程、“Telecom-munications\"（通信技术、“Nanoscience ＆ nanotechnolo-gy”(纳米科学与纳米技术)等。",
+    "context2": "![](images/8289c09d2880cb40a1002569a1b73f41cd2c8ef9f69622287c32ea265d85969c.jpg)  \n图21989-2018年期间技术会聚研究的学科分布",
+    "context3": "通过提取文献中的关键词，构建技术会聚的主题词共现网络(排除了technology convergence/fusion等词汇),并利用Leiden聚类算法对主题词网络进行聚类分析,结果见图3。图3中每个节点代表一个主题词,节点的大小代表主题词的出现频率，节点与节点之间的连线表示共现频次的高低。可以看出，技术会聚研究主要集中如下4个方面： $\\textcircled{1}$ NBIC会聚技术（簇类1）,主题词包括“Nanotechnology\"（纳米技术、“Bio-technology\"（生物技术、\"Cognition”（认知、“Informa-tion technology\"（信息技术、“Sciencepolicy\"（科学政策)等;该类主题词在网络中占比最大,揭示了当前技术会聚的主要研究主题，其中“Interdisciplinary\"（交叉科学)一词反映了该主题研究的跨学科性。 $\\textcircled{2}$ 技术会聚的分析方法(簇类2），主题词包括“Patents analy-sis\"（专利分析、“Patent citation analysis\"（专利引文分析、“Patent citation”（专利引用、“Network analysis”（网络分析、“Linkprediction”（链路预测、“Socialnetworkanalysis\"（社会网络分析)等;该类主题词揭示了技术会聚中以专利信息计量和网络分析为主而展开的研究方法。 $\\textcircled{3}$ 交叉主题(簇类3)，主要主题词包括:“Risk\"（风险、“Governance\"（治理、“Telecommunica-tions\"（电信、“Social media”（社会媒体、“Regula-tion\"(管理)等主题词;该类主题揭示了与技术会聚相交的领域。 $\\textcircled{4}$ 其他类主题（簇类4：“Technologyadop-tion”（技术采用、“IPTV\"（网络电视、“Security\"（安全“Technology acceptance model\"（技术接受模型）、“Robotics\"（机器人科学）等;该类主题包含了技术会聚中的部分技术手段、模型，以及其他相关领域。",
+    "context4": "![](images/d347d85785b4fb80907fceefe9d9f64df39bb8f4b3d3e4d17e5e81d577ba6ecc.jpg)  \n图31989-2018年期间技术会聚研究的主题分布"
+  },
+  "4 技术会聚的测度": {
+    "context1": "技术会聚的量化测度研究对探测技术会聚规律和技术创新发展有着十分重要的意义。基于测度指标来衡量不同技术之间的会聚程度可以揭示技术会聚的发展态势，为促进技术的创新和发展制定明确的战略部署提供指导。在许多研究中，学科交叉的部分测度指标也被用于测度不同技术之间的会聚之中。此外,随着科学技术的发展，学科、技术之间的交叉与融合问题日益复杂化,更需要从不同维度去思考这一问题。因此，为了更清晰地对技术会聚相关测度指标进行解读，本文从多样性和凝聚性视角对现有的技术会聚指标进行梳理并加以解释，以期为准确把握技术会聚测度指标的概念和适用范围提供有益的借鉴。需要注意的是，由于大多数学者在进行技术会聚或技术融合研究时，并没有将技术会聚与技术融合进行区分，多数情况下技术会聚与技术融合仍被交替使用，因此在对技术会聚相关测度指标进行梳理时，会涉及相关融合度指标。"
+  },
+  "4.1技术会聚测度:多样性视角": {
+    "context1": "多样性的概念起源于生态学中对生物多样性的研究，随着科学技术的日益复杂化,多样性已经成为交叉科学和技术会聚的一个重要的研究视角。技术会聚多样性主要是指研究对象的方法、技术要素、思路等各个方面的知识来自不同领域，组合在一起使研究对象具有多样性的特征。A．Stirling在研究经济领域多样性时，提出了多样性属性的三维测度论述，即丰富度（Variety，学科的数量）、均匀度(Balance,学科分布的均匀程度）和差异度(Disparity，学科性质的差异程度）。将其引入技术会聚的测度时,则可以从技术层面描述技术的多样性。因此,本文基于多样性视角从三个维度对技术会聚的相关指标进行梳理。"
+  },
+  "4.1.1单维度指标": {
+    "context1": "单维度整合的技术会聚相关指标多用于衡量技术的丰富度,包括栾春娟等学者基于德温特分类（Der-went Classification,DC)体系的20个技术部类设计的一系列用于测度技术会聚程度的会聚指数，以及李姝影与方曙在其研究中列举出的会聚强度[。此二类指标主要基于技术所属的技术类别，采用共类分析（Co-classification analysis）的方法来测度技术之间的会聚程度，见表1。"
+  },
+  "4.1.2二维指标": {
+    "context1": "二维层面测度技术会聚多样性的指标，多脱胎于交叉科学的二维测度指标,见表2。其中，香农信息熵指标(Shannon entropy,SH)起初是用来度量信息不确定性[,后来被引入技术会聚测度中,该指标从技术",
+    "context2": "张琳，彭玉杰，杜会英，等.技术会聚:内涵、现状与测度 兼论与学科交叉的关系 Ⅲ .图书情报工作,2021,65(1):91-101.",
+    "context3": "表1技术会聚单维测度指标",
+    "context4": "<table><tr><td>指标</td><td>公式</td><td>含义</td><td>作用</td></tr><tr><td>技术会聚指数 (TCI)</td><td>NAB TCIAB=NA</td><td>TCIAB即A技术会聚B技术的会聚指数。 NA表示A技术领域中包含的专利数量,NAB 为同时属于技术领域A又属于技术领域B</td><td>用于度量某一技术会聚另外一个特定技术 的会聚程度</td></tr><tr><td>平均会聚指数 (AATCI)</td><td>（TCIAB+*…+( TCIAx) AATCIA N</td><td>的专利数量 第一个A表示（average），第二个A表示A 部类,N表示除A部类外,其他部类的数量</td><td>表示A部类的平均会聚指数，用于测度A 部类与B~X每个技术部类的会聚程度</td></tr><tr><td>平均被会聚指数 (BAATCI)</td><td>（TCI BA+…+(TCIXA) BAATCI A = N</td><td>B表示被动(be）,TCIBx代BA表A技术被B 部类聚的指数,以此类推,XA表示A部类被 X部类会聚的指数</td><td>表示A部类的平均被会聚指数，用于测度A 部类被B~X每个技术部类的会聚程度</td></tr><tr><td>会聚强度 （ Convergence Intensity)</td><td>NAB CIAB&quot;Min(NA,NB</td><td>NAB为由技术A和技术B会聚得到的新领 域中包含的专利数量,NA为在NAB包含的 专利中,属于A技术领域的专利数量,NB为 在NAB包含的专利中,属于B技术领域的专</td><td>用于对研究主体中涉及技术领域的会聚强 度进行测度</td></tr></table>",
+    "context5": "注：整理自文献[,30]",
+    "context6": "丰富度和均匀度两个维度对技术会聚进行测度。例如M.Kim等利用香农信息熵度量了不同技术或产业领域之间的技术会聚和跨学科性[；刘娜等使用香农信息熵辨识会聚过程中的核心技术元和潜在重要技术元。吸收与扩散指数来源于辛普森多样性指数（Simpson’s diversity index,SI）,该指标于1949年提出，主要用于测度生态系统中的多样性，后被引入技术会聚的研究中,用来测度技术会聚中的知识流动，该指标能够综合技术的丰富度和均匀度两个维度对技术会聚进行测度,如N.Ko等基于专利技术间的知识流动分析了跨学科中的技术会聚4 。",
+    "context7": "表2技术会聚二维测度指标",
+    "context8": "<table><tr><td>指标</td><td>公式</td><td>含义</td><td>作用</td></tr><tr><td>熵(Entropy)</td><td>SHA=-∑PAlnPAk</td><td>PAk为同时属于技术领域k的专利在领域A中的占比</td><td>用于度量不同技术或产业领域 之间的技术融合广度</td></tr><tr><td>扩散指数 ( Generality Index)</td><td>GIA=1-∑P² i∈F</td><td>F代表技术A引用的所有技术的集合。Pi为属于技术 i的被引专利数量占所有被引专利数量的比例</td><td>用于测度技术的扩散程度</td></tr><tr><td>吸收指数 ( Convergence Index)</td><td>OIA=1-∑P² i∈F</td><td>F代表所有引用A技术领域的技术领域集合。Pi为属 于技术领域i的引用专利数量占所有引用A技术专利</td><td>用于测度技术的吸收程度</td></tr></table>",
+    "context9": "注：整理自文献[21,32-33，35]"
+  },
+  "4.1.3三维指标": {
+    "context1": "随着技术会聚研究的逐渐深入，综合丰富度、均匀度和差异度三个维度的指标也被应用于技术会聚的测度中。其中包括W.Shim等人提出的多样性指数(Di-versity index,DI）,该指标用技术A在t时段内的多样性指数大小来测度技术会聚的多样性程度；A.Por-ter等学者在跨学科研究中基于学科与技术分类提出的专业化指数(Specialization）B7-3d,S.Kwon等利用该指标衡量了石墨烯与纳米药物的专业化程度。当专业化指数越高时，说明其会聚的技术领域相对较少，技术领域之间的相关度较高;专业化程度越低时，说明其会聚的技术领域相对较多，技术领域之间的相关度较低。技术会聚三维测度的主要指标以及含义如表3所示：",
+    "context2": "表3技术会聚三维测度指标",
+    "context3": "<table><tr><td>指标</td><td>公式</td><td>含义</td></tr><tr><td rowspan=\"3\">多样性指数 (Diversity Index)</td><td>Diversity(D)A=∑=1∑=1PiAt·PjAt•d</td><td>A为施引技术(引用技术i或j的技术),t是时间周期。等式右边中n是A引用的技术</td></tr><tr><td>MiAt MjAt =∑=1∑j=1 ·di(ij</td><td>数量,PiA是在t时段内技术A引用技术i的数量占技术A所有引用量的比例,MiA是A</td></tr><tr><td>M ∑1MjA</td><td>在t时段内引用技术i的次数,di是技术i和j之间的距离</td></tr><tr><td rowspan=\"3\">专业化指数 ( Specialization Index)</td><td>（ixfxcos(IPC-IPC)）]] S= M(fixf</td><td>fi和fj分别表示技术类别i或j在研究主体中出现的频率,cos(IPCi-IPCj)表示专利分</td></tr><tr><td></td><td>类IPCi和IPCj之间的关联程度,该关联程度可以通过基于不同技术领域分类间的引 用和被引数据来计算获得</td></tr><tr><td></td><td></td></tr></table>",
+    "context4": "注：整理自文献[29,36,39]"
+  },
+  "4.2技术会聚测度:凝聚性视角": {
+    "context1": "技术会聚测度研究中，技术多样性描述的是会聚技术的丰富性、分布均匀性和差异性,而凝聚性则表示这些技术在技术网络中的关系强度。从凝聚性视角出发测度技术会聚有助于理解每种技术在整体网络中的不同作用,以及明确技术会聚进程中的主导技术。K.Kim基于专利网络利用一系列的中心性指标度量了企业创新的技术能力及其对创新的影响[4；C.Lee等利用中心性指标从专利文件中获取关于技术融合、国际合作和知识流动的信息。M.Kim等借鉴了引力的相关概念,提出了用于反映技术节点之间相互作用的约束力指标(Binding force,简称BF）,用来了解每个节点是如何与其他节点紧密相连的,即每个技术与其他技术之间的紧密关系如何。综合学者们的相关研究,本文对技术会聚凝聚性测度指标进行了梳理,如表4所示：",
+    "context2": "表4技术会聚凝聚性测度指标",
+    "context3": "<table><tr><td>指标</td><td>公式</td><td>含义</td><td>作用</td></tr><tr><td>中介中心性 (Betweenness Centrality)</td><td>mn(V） BC=M m≠v≠neV Onm</td><td>δmn是从m到n最短路径的数量,σmn(V)是从 m到n经过V最短路径的数量</td><td>某一技术节点在与其他技术节点之间 的路径上所处的位置的调节作用</td></tr><tr><td>度中心性 (Degree Centrality)</td><td>DC=deg(jx)</td><td>deg(jx)是技术节点与其他技术节点连接数量的 多少</td><td>度量技术节点在网络中的重要作用,度 中心性越高，意味着技术节点在网络中</td></tr><tr><td>接近中心性 ( Closeness Centrality)</td><td>1 CC= Md（mxn)</td><td>d(mx,nx)表示技术节点与其他节点的距离</td><td>的作用越重要 用于衡量网络中节点之间的紧密程度</td></tr><tr><td>特征向量中心性 (Eigenvector Centrality)</td><td>sx 1 EC=- M CE(t） 入tEM()</td><td>其中M（v)是u一组的邻近节点,入是常数</td><td>通过计算某一技术邻近节点的重要性 来判断技术在网络中的重要性</td></tr><tr><td>约束力 ( Binding Force)</td><td>_=MAMiC BFA=</td><td>CA是技术A的接近中心性,M是网络中节点(每 个节点即一项技术)包含的专利数量，表示节点</td><td>用于衡量会聚网络中，技术节点的主导 性</td></tr></table>",
+    "context4": "注：整理自文献[21,40-41"
+  },
+  "5 技术会聚与学科交叉关系": {
+    "context1": "学科交叉在整合已有学科的同时，在不同学科的交界处提出新理论、新方法、新概念和新的研究领域，它是在不同学科之间的相互作用和渗透下逐渐形成与发展的综合性跨学科的产物，也是未来科学发展的方向。技术会聚与学科交叉都是当今时代科技发展的重要产物，它们之间既存在复杂的联系，又有许多差异。如何对两者关系的正确认识与区分是深入研究并推动其发展的重要前提。"
+  },
+  "5.1技术会聚与学科交叉的一阶和二阶主题": {
+    "context1": "从科学学的视角切入,解读学科交叉与技术会聚的一阶主题和二阶主题的联系,能够巧妙的将二者研究活动贯通起来，对于深入的理解学科交叉与技术会聚的研究脉络有着重要的意义。",
+    "context2": "学科交叉的一阶主题研究更多定位于科研活动的过程，即在解决超过单一学科范围所能解决的问题时，来自于不同学科专家学者将涉及两个及以上学科或技术的理论/概念、信息/数据、工具/方法等不同层面的内容整合起来进行的实践活动[4，见图4。例如,生命科学与计算科学的前沿交叉学科生物信息学将新兴计算机技术及数学与统计方法引入到生物学领域，通过对海量生物数据进行管理、整合、分析、模拟，来解决重要的生物学问题,阐明新的生物学规律，获得传统生物学手段无法获得的创新发现,属于典型的学科交叉一阶主题研究。同样,在解决超越单一技术范围所能解决的问题时,研究人员有机地整合不同领域的理论/概念、信息/数据、工具/方法等不同层面的技术知识所展开的实践活动是技术会聚的一阶主题研究;正如近年来兴起的纳米生物技术,通过整合纳米技术与生物学的知识将纳米工具应用于相关的医学/生物学问题并改进这些应用，其中用于医疗和生物研究的新工具一—纳米薄片，是技术会聚一阶主题研究的范例。",
+    "context3": "二阶主题则以一阶主题研究的科研成果为对象，试图从更高层次来理解和探索学科交叉和技术会聚研究活动有怎样的形成机制和运行逻辑，见图4。刘则渊在探讨学科交叉的一阶和二阶主题时，指出二者的关系是,前者是后者的基础与前提,或者说一阶科学是二阶科学的研究对象[，该理论在解析技术会聚的一阶和二阶主题时同样适用。以技术会聚产生的研究成果为对象对不同技术/领域融合现象的探索，尝试分析技术会聚的趋势，揭示技术会聚的特征和规律，预",
+    "context4": "![](images/62490b2cfa111e42265bc48cd459581b38258e5f0ad447c32534ec3465c746d0.jpg)  \n张琳，彭玉杰，杜会英，等.技术会聚:内涵、现状与测度 兼论与学科交叉的关系.图书情报工作,2021,65(1)：91-101.  \n图4技术会聚与学科交叉的一阶和二阶主题研究关系",
+    "context5": "测技术的发展轨迹与方向，是技术会聚二阶主题研究的主要内容。",
+    "context6": "在针对具体的研究问题开展相应的科学研究活动时,从科研活动过程中一致的整合模式,到相仿的科研产出形式，都揭示了技术会聚与学科交叉一阶主题和二阶主题研究的相通之处。二阶主题研究的延伸是技术会聚与学科交叉科研产出所带来的学术、经济、社会影响，前者的影响多由于技术层面的创新所造成，后者则可追溯到跨越不同学科的技术、文化、经济等多方面的交叉渗透。随着这些科学研究成果产生的学术、经济和社会的影响，这些影响又将反过来促进了新的研究问题的提出，以此循环来推开一层又一层人类社会发展的科学迷雾(例如，怎样预防并阻断新发传染病的大规模流行、哪些新技术可用于癌症的早期诊断和预后监测、社会变迁对人的身心健康有哪些影响等重大科学问题）。"
+  },
+  "5.2技术会聚与学科交叉辨析": {
+    "context1": "由于当前有关技术会聚和学科交叉的基础科学研究多聚焦于二阶主题研究，因此本节以技术会聚和学科交叉的基本内涵为出发点,分别从形成路径、研究对象和测度指标三个方面探究技术会聚与学科交叉在二阶主题研究上的联系与差异。"
+  },
+  "5.2.1 形成路径": {
+    "context1": "基于形成路径视角对比技术会聚与学科交叉是探析两者在二阶主题上形成机制差异的重要途径。技术会聚的形成路径即技术发展过程中的演化轨迹，从技术会聚发展过程的视角分析，C.Bores等认为技术会聚是将两个或两个以上具有不同功能的技术元素进行组合,从而形成具有全新功能技术的过程23,33。部分学者指出技术会聚并非简单、单向的过程,而是具有一定的周期性,并进一步将技术会聚划分为了四个阶段：创造阶段、整合/融合阶段、创新阶段和产出阶段。在创造阶段，先前不同领域的知识实现显著的协同但彼此仍然保留一定的独立性;在整合阶段，多学科知识与技术融合为一,形成新的系统;在创新阶段，多种协同技术相互整合,创新知识、技术和产品;产出阶段则包括新应用和新输入，同时对创新阶段进行反馈，从而形成会聚和发散的连续循环[20,43] 。",
+    "context2": "学科的发展则呈现聚散性，学科交叉过程中产生的新学科将会在发展过程中继续形成新的协同效应，在分化的基础上聚合,在聚合的前提下继续分化，从而形成聚合和分化的连续循环。王海涛从整体形成路径的视角出发，探究学科交叉的发展的不同阶段，认为学科交叉的发展过程可以分为会聚期、交叉期、融合期三个阶段。会聚期是学科交叉的萌芽，是其发展的最低层次;交叉期是中间阶段，是学科交叉能够逐步成熟的条件;融合期是学科交叉发展的最终阶段，理论和技术体系的完善和成熟是融合期的重要标志，也是学科交叉发展程度最高的层次。",
+    "context3": "综合来看，技术会聚和学科交叉研究在其逐渐形成过程中均经历了若干个阶段。技术会聚在经过创造、整合/融合、创新和产出四个阶段后20,43，最终产生新的技术,并且产生的新技术也可以继续经历上述阶段,与其他技术进行整合,向不同方向发展新技术;学科交叉研究经过会聚期、交叉期、融合期三个阶段[,最后产生新的交叉学科。因此,无论是技术会聚还是学科交叉，两者都是在来自两个或多个不同技术和学科的基础上，经历不同阶段之后逐步迈向成熟的一个过程。"
+  },
+  "5.2.2研究对象": {
+    "context1": "明确研究对象是开展任何科研活动的必要前提，研究对象的不同会导致研究方法、研究内容、研究结果等均存在不同程度的差异。从二阶主题研究看，学科交叉研究聚焦学科领域的交叉融合现象，对于不同层面(例如,学术文献、期刊、学科、机构等)的研究主体进行特征研究，并对主体进行跨学科性的测度，最后通过研究主体揭示出学科交叉融合现象中的内在规律与问题。而技术会聚通过整合与重组现有技术领域的知识,对不同层面(例如,专利、产业、机构等)的技术/领域的会聚现象进行探析，并进行技术会聚程度测度。因此,研究对象上二者存在较大区别,学科交叉的主要研究对象是学术文献、期刊、学科等,并对这些不同层次研究对象的跨学科性进行测度与分析;而在技术会聚研究中，专利作为反映该领域技术发展状况的创新载体，是技术会聚的主要研究对象。"
+  },
+  "5.2.3测度指标": {
+    "context1": "对技术会聚和学科交叉的测度指标进行辨析，能够从定量的角度发现二者在二阶主题研究上的知识交融，对现有指标进行梳理的结果见表5。在同一视角和维度上，部分技术会聚相关测度指标与学科交叉相关测度指标相同。例如，信息熵指标(Shannon entro-py)在学科交叉中可以从学科丰富度和均匀度两个维度测度学科交叉程度，在技术会聚的测度中则适用于测度技术元的丰富度与均匀度。",
+    "context2": "表5技术会聚与学科交叉相关测度指标",
+    "context3": "<table><tr><td>视角</td><td></td><td>具体指标</td></tr><tr><td></td><td></td><td>多样性视角单维Ginicoefient指标(#)；Citatiosoutsidecategry指标(#);TCI（*）、AATCI（*）、BAATCI（*）指标;CI（*）;余弦相似度（&amp;)等</td></tr><tr><td></td><td></td><td>二维Herfindahl指标(#)；Brillouin 指标(#);Shannon指标(&amp;); Simpson 指标(&amp;)等</td></tr><tr><td></td><td></td><td>三维Integration指标(#);True Diversity指标(#);Specialization指标(&amp;);Rao-Stirling指标(&amp;)</td></tr><tr><td>凝聚性视角</td><td></td><td>Network Density(#)External-Hnternal(#)、Coherence指标(#);DC(&amp;)、CC(&amp;)、EC(&amp;)、BC(&amp;)指标等</td></tr></table>",
+    "context4": "注：学科交叉指标(#），技术会聚指标( $^ *$ ）,共有指标(&)",
+    "context5": "虽然部分学科交叉与技术会聚研究的相关指标存在差异，但这并不意味着这些指标不能同时适用于二者。例如，探究各学科类别分布均匀程度的基尼系数（Ginicoefficient），该指标是国际上通用的、用以衡量一个国家或地区居民收入差距的常用指标，在现有的交叉科学测度指标体系中，用来测度学科交叉的不均匀程度[4。在整合多种技术实现超越单一技术的创新时，该指标在量化技术会聚中技术之间的差异和技术类别分布的均匀度是可取的。赫希曼(Herfindahl)指数与辛普森(Simpson)指标类似，最初主要用于经济学领域，测度产业的集中化程度，该指标在同样也能综合丰富度与均匀度来测度技术会聚的集中化程度。在多样性的三维测度中,True Diversity指标是对Rao-Stirling多样性指标的改进，使指标值之间具有可量化操作的可比性[4d，一定程度上该指标也可以被用来衡量技术会聚的多样性程度。此外,还包括在学科交叉中用于测度交叉科学研究成果以及作者研究内容整合程度的集成度指标(Integration），该指标不但能够度量学科分布，同时将学科的相似度考虑在内,在衡量技术分类的集成度上也是相通的。在网络分析中,用于度量各个节点之间联络紧密程度的网络密度指标（Networkdensity，ND)以及用来分析整体网络中子群的凝聚程度或整体网络的分派程度的网络分裂指数（External-internal index，EI)等 47-49均可基于技术类别来构建这些网络节点。反之，技术会聚的指标也能适用于学科交叉中,例如,栾春娟针对德温特的技术部类设计的会聚指数，该指标利用两个技术部类共有的专利数量与其中一个部类所包含专利数量的比值来衡量两个部类之间的会聚程度，基于文献的学科数量，该指标也可用于衡量学科之间的交叉程度。总之，技术会聚与学科交叉测度指标之间的相似性，为后续拓展技术会聚相关测度指标的研究提供更多可能的方向。",
+    "context6": "综合来看，无论是从一阶主题还是二阶主题展开，技术会聚的背后实际上都隐藏着多学科的交叉与合作,这其中涉及科学知识层面的会聚,即对应不同学科知识的交叉。因此,学科交叉在一定程度上可以成为技术会聚发展的基础，而技术会聚则可以是作为交叉科学研究的扩展与延伸，反过来也可以促进学科交叉的发展。"
+  },
+  "1 结论与展望": {
+    "context1": "本文首先通过对技术会聚与技术融合进行辨析，揭示了二者在融合模式上的差异;进而总结了当前技术会聚研究集中在计算机科学与工程、管理学和社会"
+  },
+  "张琳，彭玉杰，杜会英，等.技术会聚:内涵、现状与测度 兼论与学科交叉的关系 [ .图书情报工作,2021,65(1)：91-": {
+    "context1": "科学的学科分布特征及其相对应的研究主题。在技术会聚的测度中，本文从多样性和凝聚性视角展开，系统梳理了当前技术会聚的各类指标，揭示了指标在衡量技术之间知识要素的流动、会聚程度和趋势的作用;其中多样性的三维测度和凝聚性能够基于指标的特点与作用来进行划分，为构建技术会聚的测度指标体系提供了借鉴。",
+    "context2": "现有的技术会聚研究大多涉及跨学科或新兴技术,具有复杂性和多样性的特征。本文明晰了技术会聚与学科交叉一阶主题和二阶主题研究的内，在对学科交叉与技术会聚进行辨析时发现了二者在形成路径与测度指标上的一些相通之处,揭示了基础科学研究中学科的交叉、渗透与技术会聚在研究对象上的差异，并指出了相同视角和维度的学科交叉指标能够为拓展技术会聚的相关研究指标提供参考。",
+    "context3": "随着科学与技术的迅猛发展，科学技术一体化趋势日趋明显，技术的会聚也早已超出传统意义上的技术范围。技术会聚具有前瞻性和创新性,它可以推动创新驱动的发展、建立新的经济模式、解决日益复杂的社会问题、创造目前无法想象的颠覆性产业。当前纳米技术、生物技术、信息技术和认知科学的会聚已逐渐形成一种备受关注的会聚模式，显现出其特有的优势和潜力。在此背景下，技术会聚必将衍生出更多的新模式与新领域,引领着技术的不断突破和跃迁与产业的不断迭代和升级。"
+  },
+  "参考文献：": {
+    "context1": "[1]CHOI JY,JEONG S, KIM K.A study on difusion pattrn of technology convergence:patent analysis for Korea [l.Sustainability, 2015,7(9):11546-11569.   \n[2] LEI D T. Industry evolution and competence development: the imperatives of technological convergence [l.International journal of technology management，2000，19(7/8)：699-738.   \n[3] YOFFIE D B.Competing in the age of digital convergence [M]. Boston:Harvard business school press，1997.   \n[4] KATZ ML. Remarks on the economic implications of convergence .Industrial and corporate change，1996,5(4)：1079-1095.   \n[5]PARK I,YOON B. Technological opportunity discovery for technological convergence based on the prediction of technology knowledge flow in a citation network [.Journal of informetrics,2018, 12(4):1199-1222.",
+    "context2": "[6]栾春娟，覃雪，黄福.技术大类之间会聚指数测度的理论与方法[.科技管理研究，2016，36(8)：188-193.[7]李丫丫，赵玉林.基于专利的技术融合分析方法及其应用[．",
+    "context3": "科学学研究,2016,34(2)：203-211.   \n[8] CHO Y,KIM E,KIM W. Strategy transformation under technological convergence:evidence from the printed electronics industry .Intemational journal of technology management，2015，674 (67):106-131.   \n[9]FISHER E.Theconvergence ofnanotechnology，policy，and ethics [.Advances in computers,2007,71(6):273-296.   \n[10] KUEI TIEN C，HWA MEEI L. Risk and ethical governance of nano-convergence technology:an initial comparison of the technologicalimpactassessment between Korea and Tiwan.Asian j Wto & int'1health1& pol'y,2011,6(1):235-280.   \n[1]ROCO MC.Posibiliesforglobal governaneofconverging technologies[ . Journal of nanoparticle research,2008,10(1)：11- 29.   \n[12] GEUM Y,KIM C,LEES,et al. Technological convergence of IT and BT:evidence from patent analysis [.Etri journal,2012,34 (3):439-449.   \n[3]KARVONENM,KASSIT.atentcitations asatoolforanalsing the early stages of convergence [l.Technological forecastingand social change,2013，80(6):1094-1107.   \n[4ROSENBERG N. Technological change in the machine tol industry，1840-1910 [].The journal of economic history，1963，23 (4): 414-443.   \n[15] CURRAN C-S,LEKER J. Patent indicators for monitoring convergence-examples from NFF and ICT[].Technological forecasting and social change,2011,78(2):256-273.   \n[16PHILLIPSFY.Market-oriented technology management:innovating for profit in entrepreneurial times [M].Berlin:Springer science $\\&$ business media, 2013.   \n[17] ZHOU Y,DONG F,KONG D,et al. Unfolding the convergence process of scientific knowledge for theearly identification of emerging technologies.Technologicalforecastingandsocialchange， 2019,144: 205-220.   \n[8]KIM E,CHO Y,KIM W.Dynamic paterns of technological convergence in printed electronics technologies:patent citation network [.Scientometrics,2014,98(2):975-998.   \n[19] JEONG S,LEE S. What drives technologyconvergence? Exploring the influence of technological and resource allcation contexts. Journal of enginering technology management，2015,36:78-96.   \n[20]刘娜，毛荐其，余光胜.技术会聚研究探析与展望[.科研管 理,2017,38(12):20-28.   \n[1]CHO Y,KIMM. Entropyand gravityconcepts asnew methodological indexes to investigate technological convergence:patent network-based approach [.Plos one,2014,9(6):e98009.   \n[2]FEDERICOC.Technology fusion:identification andanalysis ofthe drivers of technology convergence using patent data [.Technovation,2016,55-56: 22-32."
+  },
+  "第65卷第1期2021年1月": {
+    "context1": "[23]BOReS C，SAURINA C，TORRES R. Technological convergence: a strategic perspective [l.Technovation，2003，23(1)：1-13.   \n[4 CURRAN C S. The anticipation of converging industries M] .Berlin:Springer,2013.   \n[5] KODAMA F. Emerging paterns of innovation: sources of Japan’s technological edge [M].Boston:Harvard business school press, 1995.   \n[26] CARLEY S,PORTER AL,RAFOLS I,et al.Visualization of disciplinary profiles:enhanced science overlay maps[.Journal of data and information science,2017，2(3)：68-111.   \n[7]WALTMAN L，VAN ECK N J.A smart local moving algorithm for large-scale modularity-based community detection [l.The european physical journal B,2013，86(11)：471.   \n[8]MCCANN K S.The diversity-stability debate []．Nature,2000, 405(6783):228-233.   \n[9]STIRLING A.A general framework for analysing diversity in science，technology and society [l.Journal of the royal society interface，2007,4(15):707-719."
+  },
+  "[0]李姝影，方曙.测度技术融合与趋势的数据分析方法研究进展．数据分析与知识发现，2017， $1 ( 7 ) : 2 - 1 2$": {
+    "context1": "β1] SHANNON C E.A mathematical theory of communication [ .Bell system technical journal，1948,27(3):379-423.",
+    "context2": "[2] 刘娜，荣雪云，毛荐其.技术会聚模式及辨识研究——以储能 领域为例.情报杂志，2018，37(12)：20-27.   \nB3] SIMPSON E H. Measurement of diversity [.Nature,1949,163 (4148):688-688.   \nB4KO N,YOON J,SEO W.Analyzing interdisciplinarity of technology fusion using knowledge flows of patents [l .Expert systems with applications，2014,41(4)：1955-1963.   \nB5] LEE C，PARK G,KANG J. The impact of convergence between scienceand technology on innovation []．Journal of technology transfer,2016,43(1):1-23.   \nB6 SHIM W,KWON O-J,MOON Y-H,et al. Understanding the dynamic convergence phenomenon from the perspective of diversity and persistence:a cross-sector comparative analysis between the United States and South Korea[]．Plos one，2016，11（7)： e0159249.   \nβ7]PORTER A L,ROESSNER D J,HEBERGER A E. How interdisciplinary is a given body of research?[].Research evaluation, 2008，17(4):273-282.   \nB8] PORTER A L,COHEN A S,DAVID ROESSNER J,et al. Measuring researcher interdisciplinarity[].Scientometrics，2O07，72 (1):117-147.   \nβ9]KWON S,PORTER A,YOUTIE J. Navigating the innovation trajectories of technology by combining specialization score analyses for publications and patents: graphene and nano-enabled drug delivery .Scientometrics，2016,106(3)：1057-1071.   \n[40]KIM K，JUNG S,HWANG J. Technology convergence capability and firm innovation in the manufacturing sector: an approach based on patent network analysis [.R&D management,2O19,49(4): 595-606.   \n[1] LEE C,KOGLER DF,LEE D.Capturing information on technology convergence，international collaboration，and knowledge flow from patent documents:a case of information and communication technology [.Information processing & management，2019，56 (4):1576-1591."
+  },
+  "[42]张琳，黄颖.交叉科学:测度、评价与应用[M]．北京：科学出版社，2019.": {
+    "context1": "[43]ROCO M C,BAINBRIDGE W S.The new world of discovery，invention，and innovation:convergence of knowledge，technology， and society [. Journal of nanoparticle research,2013,15(9)：1 -17."
+  },
+  "[44]王海涛.NBIC融合技术与交叉学科发展模式研究[]．北京:中国人民解放军军事医学科学院，2008.": {
+    "context1": "[45]LEYDESDORFF L,RAFOLS I. Indicators of the interdisciplinarity of journals:diversity，centrality，and citations [.Journal of informetrics,2011,5(1):87-100.   \n[46 LEYDESDORFF L，WAGNER C S,BORNMANN L.Betweenness and diversity in journal citation networks as measures of interdisciplinarity-a tribute to Eugene Garfield [.Scientometrics，2018, 114(2): 567-592.   \n[47]RAFOLS I, MEYER M. Diversity and network coherence as indicators of interdisciplinarity:case studies in bionanoscience [l.Scientometrics，2009，82(2):263-287.   \n[48] KRACKHARDT D, STERN R N. Informal networks and organizational crises:an experimental simulation []．Social psychology quarterly，1988,51(2)：123-140."
+  },
+  "作者贡献说明：": {
+    "context1": "张琳：提出研究思路,论文撰写与修改;  \n彭玉杰:负责数据分析，论文撰写与修改;  \n杜会英:负责数据资料的整理,修订论文;  \n黄颖：负责框架思路的设计，修订论文。"
+  }
+}

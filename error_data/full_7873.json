@@ -1,0 +1,118 @@
+{
+  "original_filename": "full_7873.md",
+  "深度学习的研究现状与发展": {
+    "context1": "何晓萍沈雅云（南昌大学，江西 南昌330031)",
+    "context2": "（摘要）深度学习在计算机、教育等学科领域是一个值得研究的热点话题。为更好地了解“深度学习”的研究现状和发展趋势，跟踪其研究前沿，本研究利用CiteSpaceII工具，采用引文分析法，对2010-2016年间发表的深度学习研究相关文献，进行了时间、核心文献、研究热点等可视化分析。本文分别梳理和分析了学习模式、认知性存在、学习策略、同伴互助教学等10个聚类结果中研究文献代表作的相关论点。得出结论与启示：在后期研究中，需要深入学习者认知过程，关注情感积淀；提高教师信息能力，发挥主导作用；优化内容设计，改进学习方法；构建学习环境，完善评价体系，以促进深度学习的有效发展。",
+    "context3": "（关键词）深度学习；CitespaceⅢI；引文分析法；可视化方法",
+    "context4": "DOI:10.3969/j. issn.1008 -0821.2017.02.029 （中图分类号）G302（文献标识码）A（文章编号）1008-0821（2017）02-0163-08"
+  },
+  "Focus and Trend of Deep Learning Research": {
+    "context1": "He XiaopingShen Yayun ( Nanchang University，Nanchang 330031，China)",
+    "context2": "(Abstract）Deep learning is ahot topicin diferent field.For thepurposeof beter understanding of the focus and trendof deep learning research，thisarticleused strategyofcitationanalysis with thehelpof citespaceII，showed the focus ofliterature（2O10-2016)about deep learning.Theresults showed10 clustering results:learning patern；cognitive presence； learning strategies；WMC；RPT；learning conception；learning method；PBL；social media；training of skillsof teaching.Drawthefollowingconclusionand enlightenment:Moreatentionshouldbepaidtotheafectiveatitude of students；thedesignof learning content should be changed.What is more，a comprehensive evaluation system about deep learning should be established.",
+    "context3": "(Key words）deep learning; citespace IlI；citation analysis；visualization method",
+    "context4": "1976年Ferenee Marton和 Roger Sal jo联名发表了《学习的本质区别一：结果和过程》一文，首次提出了深度学习（Deep Learning）和浅层学习（SurfaceLearning）这两个概念，并进行了详细的阐述。2005年，黎加厚等人从布鲁姆的教学目标分类学的角度对深度学习进行了界定，他强调浅层学习的认知水平停留在第一、第二层，而深度学习的认知水平对应着后面的4层。2010年以后,MOOC、翻转课堂、移动学习等方式给学习者带来了新的体验，从而使深度学习研究逐步深入展开。但是，学习的碎片化、微型化、在线化也带来了一系列新的问题，学生的学习只停留在浅层学习，并不能达到深度学习。这些问题引起了学者的广泛关注，针对深度学习展开了系列的研究探析，发表了大量的相关文献。为此很有必要对这些研究成果展开系统的整合与梳理，以便研究者共享深度学习研究的相关信息。",
+    "context5": "本文应用科学计量学的研究方法，借助CiteSpace软件工具，对2010年以来的国际上关于深度学习的重要文献展开定量与定性分析，探索文献分布的时间、空间、著者、核心文献、核心期刊，以知识图谱的形式呈现深度学习的研究现状和热点。"
+  },
+  "1文献来源及研究方法": "",
+  "1.1研究数据来源": {
+    "context1": "为确保文献的学术性与代表性，本文选择Webof Sci-ence 核心合集中的SCI、SSCI两个数据库。以主题检索为",
+    "context2": "检索入口，检索词为DeepLearning，时间跨度为2010-2016年，限定学科为Education Educational Research，文献类型为Article，最终筛选出789篇文献作为研究样本。"
+  },
+  "1.2研究方法": {
+    "context1": "本文采用引文分析法作为研究方法。引文分析法是根据文献间存在的相互引证的关系和特点，利用图论、模糊集合、数理统计数学方法及比较、归纳、抽象、概括等逻辑方法，对科学期刊、论文、著者等各种分析对象的引用或被引用现象进行分析，以揭示其数量特征和内在规律的一种文献计量研究方法 。"
+  },
+  "2研究结果与分析": "",
+  "2.1研究文献外部特征": "",
+  "2.1.1时域分布": {
+    "context1": "本文利用散点图直观地描述了所有研究文献的时间和地域分布。如图1所示，在区域分布上，深度学习的研究主要集中在8个国家，共789 篇文献。美国以229 篇居于首位，其次为澳大利亚和英国，发文量分别为129篇、76篇。我国的发文总量为73篇，在深度学习研究方面还有提升的空间。由图1深度学习研究文献的时间数量分布图显示了深度学习的相关发文量从2011－2013年一直处于上升阶段，2014－2016年处于平稳发展阶段。",
+    "context2": "![](images/dbe1d2b263c5fc9c0066e96aded4b7c2e06dd8bc467cdd754b1824eb17e93504.jpg)  \n图1深度学习研究文献的时间数量分布",
+    "context3": "CiteSpaceⅢ使用中心性来发现和衡量文献的重要性，并用紫色圈对该类文献（或作者、期刊以及机构等）进行重点进行标注。在CitespaceⅢ界面中选择网络节点（Node-Types）为Country和Institution，算法选择关键路径（Path-finder），数据抽取对象为Top50，分析时间为2010－2016年。运行软件结果得到有关深度学习研究的国家和机构的综合性分析图谱，如图2所示。",
+    "context4": "![](images/452460ffcd013a5bf7af9cdc42fb604efe9f0fa5d8727b26a434528665e34e30.jpg)  \n图2深度学习研究文献的国家区域分布",
+    "context5": "其中，圆形节点代表国家（或地区），处于直线分支上的小节点代表机构。节点大小代表发文数量，节点越大，说明发文数量越多；节点间的连线代表合作程度，节点间的连线越多，说明合作越密切；节点最外层的紫色圈代表中心性，中心性越大，代表在该领域的地位越重要。由图2左上角参数可知，共有176个节点205个连线，也即共有176个国家和机构发表了相关文章。由图2可知，节点最大的国家是美国，其次是澳大利亚、英国。美国与澳大利亚最外层的紫色圈较大，节点中心性较高，说明他们在深度学习研究领域占有重要地位。同时美国、澳大利亚、英国、加拿大等其他国家的节点间连线较多，说明，这几个国家和其他国家的合作较多。由图2可知，关于深度学习的研究机构大多集中在大学之中，如麻省理工大学、哈佛大学、格里菲斯大学、莫纳什大学、伦敦大学、康纳尔大学等。这些国家及机构在深度学习研究领域占据领先的重要地位，其系列文献奠定了理论和实践研究的基础，为后续的深度学习研究作了铺垫。"
+  },
+  "2.1.2著者分布": {
+    "context1": "通过对作者的目前发文量和被引频次进行分析，来了解目前深度学习领域的重要研究者和学科研究带头人。由表1可见，发文数量和被引频次前10的作者。其中，国立台湾科技大学的Tsai Chin-Chung教授、澳大利亚新英格兰大学 Phan HuyP.、Liang、国立台湾科技大学Jyh-Chong教授的发文数量和被引频次非常高，说明这几位作者在近几年的国际深度学习领域的研究成果较多，有较高的影响力。法国安特卫普大学Van Petegem Peter教授和澳大利亚莫那什大学Bliuc Ana－Maria教授发文量也较高，同样也具有一定的影响力。"
+  },
+  "2.1.3核心文献分布": {
+    "context1": "文献的被引频次反映了该文献被其他研究者关注的程度以及对于其他研究者相关研究的影响程度。一般而言，文献的被引频次越高，在该研究领域的影响力也就越大，可以被确定为核心文献。根据表2中的排序，可以看出被引频次最高的是由Junco，Reynol等人发表的 $N o ~ A ~ 4$ U:The Relationship Between Multitasking and Academic Per-formance，主要是任务的多重性与大学生的学习成绩的关系研究。其次是Chen，Pu-Shih Daniel等人发表的 Engag-ing Online Learners:The Impact of Web-based Learning Tech-nologyon College Student Engagement，主要研究在面对面学习和在线学习中，基于网络学习的技术对学习者参与度和学习成果的影",
+    "context2": "表1发文数量和被引频次前10的作者",
+    "context3": "<table><tr><td>作者</td><td>发文数量</td><td>被引频次</td></tr><tr><td>Tsai，Chin -Chung</td><td>12</td><td>54</td></tr><tr><td>Phan，Huy P.</td><td>8</td><td>50</td></tr><tr><td>Liang，Jyh-Chong</td><td>7</td><td>16</td></tr><tr><td>Dochy，Filip</td><td>6</td><td>18</td></tr><tr><td>Laird，Thomas F.Nelson</td><td>5</td><td>18</td></tr><tr><td>Richardson，John T.E.</td><td>5</td><td>70</td></tr><tr><td>Struyven，Katrien</td><td>5</td><td>32</td></tr><tr><td>Ellis，Robert A.</td><td>5</td><td>25</td></tr><tr><td>Ryan，Mary</td><td>4</td><td>10</td></tr><tr><td>Renkl，Alexander</td><td>4</td><td>24</td></tr><tr><td>Van Petegem，Peter</td><td>4</td><td>1</td></tr><tr><td>Bliuc，Ana -Maria</td><td>3</td><td>7</td></tr></table>",
+    "context4": "响。排名第三的是Vos，Nienke 发表的 Effects of Construc-tingVersus Playing an Educational Game on Student MotivationandDeep Learning Strategy Use，主要研究了现有游戏和重新构建游戏对学生的学习动机和深度学习策略的影响。核心文献的梳理，有助于研究者的阅读，能更快、更全面地了解本领域的研究重点与核心内涵，对于进一步深入研究具有重要意义。",
+    "context5": "表2被引频次前10篇的核心文献",
+    "context6": "<table><tr><td>作者/标题</td><td>被引 频次</td></tr><tr><td>Junco，Reynol；Cotten，Shelia R．/ No A 4 U： The relationship between multitasking and academic performance</td><td>77</td></tr><tr><td>Chen，Pu-Shih Daniel；Lambert，Amber D.；Guidry，Kevin R．/</td><td>77</td></tr><tr><td>Engaging online learners:The impact of Web-based learning technology on college student engagement Vos，Nienke；van der Meijden，Henny；Denessen，Eddie/</td><td></td></tr><tr><td>Efects of constructing versus playing an educational game on student motivation and deep learning strategy use D Mello，Sidney； Graesser，Art/</td><td>61</td></tr><tr><td>Dynamics of affective states during complex learning</td><td>59</td></tr><tr><td>Yang，Yu-Fang;Tsai，Chin-Chung/ Conceptions of and approaches to learning through online peer assessment</td><td>57</td></tr><tr><td>Stromso，Helge I.；Braten，Ivar；Britt，M.Anne/ Reading multiple texts about climate change:The relationship between memory for sources and text comprehension</td><td>47</td></tr><tr><td>Ke，Fengfeng/ Examining online teaching，cognitive，and social presence for adult students</td><td>46</td></tr><tr><td>Akyol，Zehra；Garrison，D.Randy/ UnderstandingcogiepreeiniedddomityfiqyAsessngoudpresfoapostng</td><td>42</td></tr><tr><td>Jara，Carlos A.；Candelas，Francisco A.；Puente，Santiago T.；Torres，Fernando/</td><td>38</td></tr><tr><td>Hands-on experiences of undergraduate students in Automatics and Robotics using a virtual and remote laboratory Gao，Fei；Luo，Tian；Zhang，Ke/ Tweting for learning:A critical analysis of research on microblogging in education published in 2008-2011</td><td>37</td></tr></table>"
+  },
+  "2.1.4核心期刊分布": {
+    "context1": "根据核心期刊发布相关文献的数量，明晰各期刊对深度学习的重视程度，从而有重点有目的的关注深度学习研究刊物的文献，更加全面的了解深度学习研究的热点话题与发展趋势。由表3可见，深度学习研究发文数量较多的期刊，是《计算机教育》（Computers Educatior、《教育科学》（Instruc-tional Science、《高等教育评估》（Assessment Evaluation inHigherEducatior。《计算机教育》的主要研究领域在计算机科学和教育研究方面《教育科学》的主要研究领域在教育研究和心理学方面《高等教育评估》主要研究领域在教育研究方面。深度学习研究主要呈现在计算机和教育领域，通过深入学习核心期刊中与深度学习有关的文献，可以充分了解深度学习的研究前沿和发展趋势。"
+  },
+  "2.2研究文献内部特征": "",
+  "2.2.1研究文献的引文聚类图表": {
+    "context1": "在CiteSpaceI中，将研究的时间尺度设置为2010－2016年，时间区间设置为1年，分析项目为Cited Reference,",
+    "context2": "表3发文数量较高的前10个期刊",
+    "context3": "<table><tr><td>期刊</td><td>发文数量</td></tr><tr><td>Computers Education</td><td>46</td></tr><tr><td>Instructional Science</td><td>17</td></tr><tr><td>Assessment Evaluation in Higher Education</td><td>16</td></tr><tr><td>Higher Education Research Development</td><td>16</td></tr><tr><td>Journal of Science Education and Technology</td><td>16</td></tr><tr><td>Australasian Journal of Educational Technology</td><td>15</td></tr><tr><td>Science Education</td><td>15</td></tr><tr><td>BMC Medical Education</td><td>14</td></tr><tr><td>Educational Technology Society</td><td>14</td></tr><tr><td>Higher Education</td><td>14</td></tr></table>",
+    "context4": "数据抽取对象为Top50，通过聚类得到如图2所示的知识图谱，其中包括289个节点，479条连线，14个聚类，每个聚类都代表了深度学习的研究热点，并采用主题词作为标签，ModularityQ为0.809，表明聚类是合适的。",
+    "context5": "![](images/48eb09d86fe194c844344354bfa8f9b817ac456501551c8733bef85e106e9944.jpg)  \n图3深度学习引文聚类图",
+    "context6": "如表4所示，表格中显示了聚类号、施引文献数量、同质性、以及采用 $\\mathrm { t f } ^ { * }$ idf 算法得出的高频词。每个聚类Silhouette都大于0.5，表明聚类是合适的。由于聚类的施引文献数量较少会导致 Silhouette值较大，本文排除施引文献数量较少的4个聚类后对10个核心聚类进行分析。",
+    "context7": "表4深度学习引文聚类结果",
+    "context8": "<table><tr><td>聚类号</td><td>引文数量</td><td>同质性</td><td>高频词</td></tr><tr><td>0</td><td>38</td><td>0.821</td><td>模式；学生；构建学习活动；本质特征</td></tr><tr><td>1</td><td>36</td><td>0.614</td><td>认知性存在；方法；学生；事实；学习</td></tr><tr><td>2</td><td>30</td><td>0. 747</td><td>学习策略；综合影响；自我效能感；课堂教学</td></tr><tr><td>3</td><td>24</td><td>0.951</td><td>欧洲国际大学生；个体差异；工作记忆能力；注意力；学生</td></tr><tr><td>4</td><td>24</td><td>0.829</td><td>互助；元认知调节；学科教学</td></tr><tr><td>5</td><td>18</td><td>0. 929</td><td>学习观；生物；性别</td></tr><tr><td>6</td><td>14</td><td>0.969</td><td>分析；学习趋向目标；精通；经验模型；认知过程</td></tr><tr><td>7</td><td>11</td><td>0.968</td><td>职前英语教师；混合学习环境；在线学习；参与度</td></tr><tr><td>8</td><td>11</td><td>0. 939</td><td>社会媒体；增强现实实验室；燃气行为；物理作用；互动</td></tr><tr><td>10</td><td>10</td><td>0.936</td><td>基于问题的学习；TPACK；社会化；内化；知识</td></tr></table>"
+  },
+  "2.2.2研究热点分析": "",
+  "2.2.2.1学习模式研究": {
+    "context1": "聚类0代表作研究热点主要是不同学习模式下不同学者的学习效果的研究。MaaikeD.Endedijk（2013）等人研究了具有不同的学习经验的学习者在不同的学习模式下的具体表现。研究结果显示，生存导向型的学习者在学习中表现不够积极；再生产导向型的学习者通过实践去改变他们的学习习惯从而提升学习；依赖导向型的学习者更容易被先前的消极经验影响；而独立导向型的学习者能够进行积极并且进行深度的学习。Henna Vilppu（2013）等人在研究中也提到了独立型学习者比依赖型学习者能够进行更好的深度学习[。而Jonna Malmberg（2013）等人研究了在不同学习策略下学习成就不同的小学生学习效果。研究结果显示，对于简单的学习内容，不管小学生的学习成就高或低，他们都习惯采用相同的学习策略。但是对于较难的学习内容，学习成就较低的小学生仍然使用浅层次学习策略，而学习成就较高的小学生则会采用深层次学习策略。"
+  },
+  "2.2.2.2认知性存在研究": {
+    "context1": "聚类1代表作研究热点主要是认知性存在的研究。根据Anderson等人的定义，认知性存在是指在任何特定的探究社区中，参与者能够通过持续交流来建构意义的程度[。杨素娟等人将批判性思维、认知性存在和实践探究模型联系在一起，从实践探究的角度来定义批判性思维，认为认知性存在是形成批判性思维的关键要素，而批判性思维是高水平的思维和学习必不可少的要素[。认知性存在可以通过实践探究模型的4个阶段（触发事件、探索、整合和解决）来定义和证明[4。Zehra Akyol（2011）等人在研究纯在线和混合式探究社群中认知性存在的问题时通过转录分析、学习成果、感知学习等来评估学习结果和学习过程。研究结果显示。在两个形式的探究社群中，学习者在认知性存在和学习结果方面都能够达到很高的等级。在探究性社群中认知存在和感知性和事实性学习成果联系较高[。A.Darabi（2011）等人在研究在线学习中的认知性存在的问题时提出，在线讨论能够弥补在线学习过程缺少的面对面学习时的深层次学习。研究者采用4种不同的促进深度学习的讨论策略，分别是结构性的讨论、脚手架式的讨论、一般讨论、角色扮演讨论。结构性的讨论策略一般对应认知性存在的触发事件阶段，脚手架式的讨论对应解决阶段，讨论和角色扮演一般对应认知策略的探索和整合阶段。"
+  },
+  "2.2.2.3学习策略研究": {
+    "context1": "聚类2代表作研究热点主要是学习策略的研究。马郑豫等（2015）认为，学习策略是有助于提高学习者学习质量与学习效率的程序、规则、方法、技巧及调控方式[。Mckeachie等人认为，学习策略包括元认知策略、认知策略和资源管理策略三部分，元认知策略包括计划策略、监控策略、调节策略；认知策略分为复述策略、精细加工策略和组织策略；资源管理策略包括时间管理策略、学习环境管理策略、努力管理策略、寻求支持策略等[。DerekCheung（2015）等人研究学习策略使用对学生自我效能感的提升作用。研究结果显示结构化的学习策略能够提升学生的自我效能感，并且能够直接影响他们的深度学习[。",
+    "context2": "Claudia Leopold（2015）等人研究了元认知策略的使用对学习者学习内容理解的影响。研究结果显示，对不同层次的学习内容的学习，应当采用不同的认知策略，当被训练后的认知策略缺乏效果时，元认知策略中的调节策略就会起作用，并提高学习者的学习效果。"
+  },
+  "2.2.2.4工作记忆能力研究": {
+    "context1": "聚类3代表作研究热点主要是工作记忆能力的研究。工作记忆（WorkingMemory）是个体在执行认知任务过程中，暂时储存与加工信息的能量有限的系统，包括注意控制、信息储存和信息操作等多重成分的复杂认知结构，测量工作记忆能力（WMC）的最常用方法是复杂广度任务（Complex Span Tasks）bl。Eva Kyndt（2012）等人研究了工作记忆能力（WMC)、注意力、学习方法三者的相互关系。在注意力和深度学习方法存在负相关关系，即低注意力学习者容易采用深度学习方法，而高注意力学习者采用浅层次的学习方法。工作记忆能力高的学习者不太使用各种深浅层次的学习方法，而低工作记忆力的学习者却相反。研究者认为工作记忆能力高的学习者不需要使用探究策略而可以直接获取、消化、整合信息。同年，Eva Kyndt（2012）等人也研究了工作量、学习动机、工作记忆能力（WMC）、学习方法的相互关系。研究结果显示，工作记忆力高，动机一般的学习者倾向于浅层次学习方法，而工作记忆力能力低，动机较高的学习者倾向于高层次学习方",
+    "context2": "法区。"
+  },
+  "2.2.2.5同伴互助教学研究": {
+    "context1": "聚类4代表作研究热点主要是互助教学的研究。博根等（2002）认为同伴教学是一种以同伴为中介的学习体制，其中学习者既对自己的教学进程负责又要为他人提供同伴的教学辅助。Sandra E.Carr（2016）等人研究了同伴互助学习（PAL）的学习效果。结果显示，同伴互助学习（PAL）提升了学习者的自信心，敢于表达想法并给予反馈，提高讨论和临场发挥的技巧，提高学生辅导伙伴的技巧。在辅导过程中，促进学习者自己的深度理解。RainerLueg（2016）等人在研究深度学习、教师的指导、同伴互助教学（RPT）的关系中表示，同伴互助教学（RPT）方法在学生的学习成就、问卷调查结果、测试内容都表现出令人满意的效果，同时，同伴互助教学（RPT)的在深度学习的学习效果方面比教师指导的学习效果要好"
+  },
+  "2.2.2.6学习观研究": {
+    "context1": "聚类5代表作研究热点主要是学习观的研究。刘儒德教授认为，学生的学习观对他们的学习成绩、认知过程策略、自我调节以及学习动机具有一定的影响，特别在复杂和结构不良的情景中，学习观影响学生对事物性质的理解与策略的选用2。所以，在科学教育教学中，对学习者的学习观研究是很重要的。Yu-FangYang（2010）等人在研究在线同辈互评（PA）的学习方法和学生观时提出不同等级的学生观，采用不同的深浅层次学习方法，带有整合观念的学习者在同辈评价系统中比较倾向于深度学习2。Guo-LiChiou（2012）等人在研究在生物课堂中大学生的学习观和学习方法时强调了性别的差异性，研究结果显示，女性学习者比男性学习者更容易表达复杂的学习观2。"
+  },
+  "2.2.2.7学习方法研究": {
+    "context1": "聚类6代表作研究热点主要是学习方法的研究。钟祖荣（1999）认为学习方法，就是人们学习活动所应遵循的原则以及采用的程序、方式、手段。Huy Phuong Phan（2010）等人研究一种发展式学习方法，将经验模型、掌握目标和学习趋向目标结合。研究结果显示，个人的掌握目标随着时间的推移能够提高学习成就，但是，学习趋向目标却不能达到这种效果b。同年，Huy Phuong Phan 等人研究了概念化的框架，即学习目标、自我效能感、自我尊重感、研究加工策略的整合的学习方法对学习效果的影响。研究结果显示，自我效能感、自我尊重促进深度学习。掌握目标对深度学习也有积极作用。同时，自我尊重感对自我效能感有一定的影响，而且在性别上表现有所差距，女性所比男性有更高的自我尊重感。"
+  },
+  "2.2.2.8教师技能培训研究": {
+    "context1": "聚类7代表作研究热点主要是教师技能培训的研究。高校教师应该注重自身职业技能的提高，在技能培训方面至少应包括课堂教学技能、应用现代教学媒体技能、组织管理技能等方面的内容，以便提高整个学校的师资质量和人质量。Fouad Abd-El-Khalick（2013）等人研究表明，教师需要发展对科学的本质（NOS）有深度、稳固、综合的理解，这样才能让教师传递给学生历史的、哲学的、社会的、心理的科学印象和实践过程，同时也能构造稳定的探究式的学习环境，真实的实践，有效的教学工具，分享典型的科学教学实践。Helen Jossberger（2015）等人认为，教师在教育教学的改革中需要支持和引导，并要确保教师在他们教授的课程中是被提前培训过的。"
+  },
+  "2.2.2.9社交媒体研究": {
+    "context1": "聚类8代表作研究热点主要是深度学习的社交媒体研究。安东尼·梅菲尔德将社交媒体定义为一种给予用户极大参与空间的新型在线媒体，具有以下几个特征：参与、公开、交流、对话、社区化、连通性。Shelley Rap（2016）等人在研究社会网络小组中化学学科的交互效果。研究结果表明，在社会网络小组讨论中主要有7个不同的交互种类，普通讨论、有组织的讨论、根据学习材料的讨论、社会交互等。他们认为社会网络学习交互是一种能够促进学习这深度学习的学习方法b。Elson Szeto（2016)等人研究了职前教师如何整合社交媒体来进行教学。研究主要是通过利用社交媒体来加深教师对教学法的深度理解，研究结果表示，教师可以在社交媒体中利用直接法、建构法、参与法3种教授法进行教学。"
+  },
+  "2.2.2.10基于问题的学习研究": {
+    "context1": "聚类10代表作研究热点主要是基于问题的学习方法的研究。Duch（1995）认为基于问题的学习（PBL）是一种对于学生学会学习以及分组合作寻求解决真实世界中的问题提出挑战的一种学习方法。通过运用这些问题来吸引学生的好奇心，促进学科知识的学习。Tee，Meng Yew（2011）等人在研究通过基于问题的学习提升教师的信息技术与课程整合（TPACK）能力。采用知识社会化、外显化、知识整合、知识内化4个方面指导的基于问题的学习提升教师信息技术与课程整合（TPACK）能力。研究结果显示，教师在信息技术与课程整合（TPACK）方面确实有所提升，并且能够灵活丰富的对信息技术与课程进行整合@。Megan yih chyn a.kek（2011）等人在研究基于问题的学习促进批判性思维技巧时表示，基于问题的学习作为教育学的有力方法能够在各个学科促进学生的批判性思维的发展，文章详细解释了批判性思维是什么，批判性思维技巧是什么，如何教授这种技巧以及基于学习教授批判性思维的技巧中基于问题的学习方法所承受的作用 [41] 。"
+  },
+  "3研究结论与后示": {
+    "context1": "综合以上聚类代表作研究热点的论述，分别是从学习者的角度、教师技能培训、学习方法、学习环境入手进行探究的，从中得到如何促进深度学习的相关启示。"
+  },
+  "3.1深入认知过程，关注情感积淀": {
+    "context1": "聚类1、3、5的代表作以学习者的角度，分别从认知性存在、工作记忆能力、学习观等3个主要方面来阐述如何促进深度学习的。学习过程中树立正确的学习观，培养学习者的高阶思维能力，提高学习者的批判性思维是非常重要的。学习者的认知过程和情感积淀过程是交织在一起的，这就要求我们在关注学习者认知过程的同时，对学习者的情感态度也多做了解，以促进学习者深度学习。"
+  },
+  "3.2提高教师信息能力，发挥主导作用": {
+    "context1": "聚类7的代表作主要是从教师技能培训的角度来阐述如何促进深度学习的。通过对教师的信息技术、信息认知、信息获取、信息组织利用、信息协助等能力的培训，从而提高教师的信息技术与课程整合的能力，充分发挥教师在教学中的主导作用，促进学习者深度学习。"
+  },
+  "3.3优化内容设计，改进学习方法": {
+    "context1": "聚类0、2、4、6、10的代表作主要从学习方法的角度来阐述如何促进深度学习的。教师和学习者在教学过程中，采用不同的方法，产生不同的学习效果。但不同的学习方法的使用，是促进深度学习的外部压力，而知识内容的设计从学习内容本身着手，是知识的内在吸引力，是促进深度学习的根本。一方面需要改变知识的呈现方式（思维导图)；另一方面，要使知识内容具有问题性、开放性，这样的内外结合能更好地促进深度学习。"
+  },
+  "3.4构建学习环境，完善评价体系": {
+    "context1": "聚类8主要是从学习环境的角度来阐述如何促进深度学习的。通过对支持深度学习的环境的构建，使学习者的学习从简单的“复制”转为复杂的“创造”过程。但是如何有效地利用这些环境？是否真正的达到了预期的学习效果？这就需要一个完善的评价体系来衡量它的有效性了。通过完善评价体系，从而更好地评价深度学习效果，促进深度学习的发展。"
+  },
+  "参考文献": {
+    "context1": "[]何玲，黎加厚．促进学生深度学习[．现代教学，2005， (5):29-30.   \n[2] 张慧敏．引文分析法的内涵及研究实证[．编辑学报， 2006，(S1):174-177.   \nB] 何晓萍，江毅，万昆．基于Web of Science的MOOC 研究可视 化分析．现代情报，2015，（8)：92-99. 刘敏，李兴保．移动学习领域的可视化引文分析[．电化 教育研究，2012，（11)：44-49.   \n5] 张思琦，张文兰，李宝．国外近十年深度学习的研究现状与 发展趋势——基于引文分析及共词矩阵的知识图谱分析[. 远程教育杂志，2016，(2)：64-72.   \n6] Junco R，Cotten SR．No A4 U:The relationship between multitasking and academic performance[．Computers & Education, 2012，59 (2):505 -514.   \n[Chen PSD，Lambert AD，Guidry KR．Engaging online learners: The impact of Web-based learning technology on college student engagement[J]．Computers& Education，2010，54（4）: 1222 - 1232.   \nBVos N，van der Meijden H，Denessen E.Effects of constructing versus playing an educational game onstudent motivation and deep learning strategy use[]．Computers& Education，2011，56 (1): 127 -137.   \nEndedijk MD，Vermunt JD. Relations between student teachers\" learning patterns and their concrete learning activities．Studies in Educational Evaluation，2013，39(1)：56-65.   \n[o]Vilppu H，Mikila-Erdmann M，Ahopelto I.The Roleof Regulation and Processing Strategies in Understanding Science Text Among University Students[．Scandinavian Journal of Educational Research．2013，57 (3):246-262.   \n[1]Malmberg J，Jarvenoja H，JarvelaS.paterns inelementary school students' strategic actions in varying learning situations. Instructional Science，2013，41（5)：933-954.   \n[12]Garrison，R.D.，Anderson，T.，& Archer，W.Critical inquiry in a text - based environment: Computer conferencing in higher education[．The Internet and Higher Education，2000, 11 (2): 1 -14.   \n[13]杨素娟．网络课程论坛的认知性存在研究[]．中国远程教 育，2011，(3)：37-41，45，95-96.   \n[4]刘雪飞，骆徽．隐性知识视野中知识与学习的革命[．开 放教育研究，2004，(5)：29-31.   \n[15]Akyol Z，Garrison DR．understanding cognitive presence in an online and blendedcommunityof inquiry:assessngoutcomesand processes for deep approaches to learning []．British Journal of Educational Technology，2011，42（2)：233-250.   \n[16]Darabi A，Arrastia MC，Nelson DW，Cornille T，Liang X. Cognitive presence in asynchronous online learning:a comparison of four discussion strategies[I]．Journal of Computer Assisted Learning，2011，27(3)：216-227.   \n[7]马郑豫，张家军．中小学学生学习策略的调查研究．教 育研究，2015，(6)：85-95.   \n[i8]Mckeachie，W.J.，et al．Teaching and Learning in the College Classroom:A Review of the Research Literature M]．MI:University of Michigan，1987．34.   \n[19]Cheung D.The Combined Effects of Classroom Teaching and Learning Strategy Use on Students' Chemistry Self -Eficacy. Research IN Science Education，2015，45(1)：101-116.   \n20]Leopold C，Leutner D.Improving students’science text comprehension through metacognitive self -regulation whenapplying learning strategies．Metacognition and Learning，2015，10（3): 313 -346.   \n]Baddeley，A.Working memory:Theories，models，andcontroversies[．Annual Review of Psychology，63:1-29.   \n[2]Kyndt E，Cascallr E，Dochy F.Individual differences in workingmemorycapacityandattention，and theirrelationship withstudents‘approaches to learning[J]．Higher Education, 2012，64(3):285-297.   \n[3]Kyndt E，Dochy F，Struyven K，CascallrE.Looking at learning approaches from the angle of student profiles．Educational Psychology，2012，32(4)：493-513.   \n[4]Bergen T.J.，Mi Han-fu.Peer Tutoring and the Self- instructional Module．Educational Research Quaterly，25（4)：28 -35.   \n[5]Carr SE，Brand G，WeiL，Wright H，Nicol P，Metcalfe，H, Saunders J，Payne J，Seubert L，Foley L.“Helping someone with a skill sharpens it in your own mind\"：a mixed method study exploringhealth professions students experiences of Peer Assisted Learning（PAI[．BMCMedical Education，2016，16.   \n6Lueg R，Lueg K，Lauridsen O.Aligning seminars with Bologna requirements:reciprocal peer tutoring，the solo taxonomy anddeep learning[]．Studies in Higher Education，2016，41（9)： 1674 -1691.   \n[7]刘儒德．大学生的学习观[．高等教育研究，2002，（4)： 74-78.   \n[8]Yang YF，Tsai CC.Conceptions of and approaches to learning through online peer assessment[]．Learning and Instruction, 2010,20 (1):72 -83.   \n[9]Chiou GL，Liang JC.Exploring the Structure of Science Self - efficacy:A Model Built on High School StudentsConceptionsof Learning and Approaches to Learning in Science[]．Asia-Pacific Education Researcher，2012，21(1)：83-91.   \nB0]钟祖荣．学习方法的要素、结构与功能[．中国教育学 刊，1999，(1)：45-48.   \nB1]Phan HP.Empirical model and analysis of mastery and performance -approach goals:a developmentalapproach [．Educational Psychology，2010，30(5)：547-564.   \nb2]Phan HP.Students'academic performance and various cognitive processes of learning:an integrativeframework and empirical analysis[．Educational Psychology，2010，30（3)：297-322."
+  },
+  "[3]李婧婵．教师专业发展理论视域下的高校教师技能培训研究[]．长沙：湖南师范大学，2011.": {
+    "context1": "B4Abd -El- Khalick F. Teaching With and About Nature of Sci",
+    "context2": "ence，and Science Teacher Knowledge Domains[l．Science & Education，2013，22 (9)：2087-2107.   \nb5]Jossberger H，Brand-Gruwel S，van de Wiel MWJ，Boshuizen HPA．Teachers'Perceptions of Teaching in Workplace Simulations in Vocational Education [．Vocations and Learning，2015，8 (3):287-318.   \n[6]曹博林．社交媒体：概念、发展历程、特征与未来—兼谈 当下对社交媒体认识的模糊之处[．湖南广播电视大学学 报，2011，(3):65-69.   \nB7]Rap S，Blonder R.Let's Face（book）It:Analyzing Interactions in Social Network Groups for Chemistry Learning[]．Journal of Science Education and Technology，2016，25(1)：62- 76.   \nB8]Szeto E，Cheng AYN，Hong JC.Learning with Social Media: How do Preservice Teachers Integrate YouTube and Social Media inTeaching[]．Asia-Pacific Education Researcher，2016，25 (1):35 -44.   \nB9]Woods，D.Problem - based Learning:Helping your students gain the most from PBL.Hamilton，Ontario:Author，1995.   \n[40]Tee MY，Lee SS.From socialisation to internalisation:Cultivating technological pedagogical content knowledgethrough problem - based learning[．Australasian Journal Of Educational Technology，2011，27（1）89-104.   \n[41]Kek MYCA，Huijser H. The power of problem -based learning indeveloping critical thinkingskils:preparingstudentsfor tomorrow's digital futures in today's classrooms[]．Higher Education Research& Development，2011，30（3)：329-341.",
+    "context3": "(本文责任编辑：郭沫含)"
+  },
+  "《现代情报》被评为“吉林省一级期刊": {
+    "context1": "近日，吉林省新闻出版广电局公布了2016年度全省期刊质量评级评优结果，《现代情报》被评为“吉林省一级期刊”。",
+    "context2": "此次期刊等级评定工作根据国家有关部门对期刊出版质量综合评估有关原则及指标体系，科学制定评审标准，并结合日常行政管理工作的情况进行。吉林省新闻出版广电局专门成立了评审委员会，经过期刊出版单位申报，聘请省内期刊及相关学界业界专家对参评期刊质量进行严格的初评、评审小组讨论复评、评审委员会最终评定等程序，共评出一级期刊148种，二级期刊68种，三级期刊13种。评定工作严格按照公平、客观、科学、公正原则进行。"
+  }
+}

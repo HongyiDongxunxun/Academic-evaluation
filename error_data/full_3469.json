@@ -1,0 +1,119 @@
+{
+  "original_filename": "full_3469.md",
+  "国外图像资源长期保存实践研究进展": {
+    "context1": "寇晶晶吴振新",
+    "context2": "1中国科学院文献情报中心 北京100190²中国科学院大学北京100049",
+    "context3": "摘要：目的/意义了解国外图像资源长期保存实践的进展情况，借鉴先进的保存经验。 方法/过程调研国外图像资源长期保存的主要项目，从国家分布、项目介绍、规范标准/指南、技术工具与方法4个方面进行具体阐述。 结果/结论]国外图像资源长期保存存在研究数量不多、国家分布单一、项目所属机构以非盈利性为主、依赖国家或基金组织支持的特点，揭示其在数字化技术、资源细分、元数据关联等方面的不足。在此基础上，初步探讨我国图像资源长期保存相关研究仍处于起步阶段的现状，并从建立政策与管理机制、提高保存意识、制定并完善技术体系与技术标准3个方面给出建议。",
+    "context4": "关键词：图像资源 长期保存 数字化标准 工具分类号：G250DOI: 10. 13266/j. issn. 0252 - 3116. 2017. 23. 017"
+  },
+  "1引言": {
+    "context1": "图像资源是人们生活的重要组成部分，早先人们主要依靠纸本实现对社会生活的记录，生成了大量的纸本图像,其价值主要体现在唯一性和历史性方面。随着计算机技术的发展,新产品(如数码相机、智能手机等）的出现,以及人们在线访问资源的需求不断增加，原生数字图像也在社会生活中扮演着越来越重要的角色，成为大数据时代的重要产物之一。",
+    "context2": "同时，图像资源也是图书馆等馆藏机构资源建设的重要内容。按照其存在形式,可分为传统纸本和数字图像资源两类。传统纸本图像资源以物理实体形式存在,常见的有纸质美术作品、印刷品、照片、摄影作品、纸质书籍中的插图、底板和胶片等。数字图像资源则以数字化的形式存在，可通过计算机识别、显示和处理,常见的有电子图书中的插图、计算机绘图软件产生的数字图像、通过扫描设备获得的图像、数码摄影设备生成的静态图像等。纸本与数字图像资源之间可以相互转化,纸本可以通过扫描、拍照和计算机处理等方式转化成数字图像,而部分数字图像也可以通过印刷设备转化为纸本。",
+    "context3": "因此，“图像资源长期保存”,即以图像资源作为保存对象的长期保存活动一—已逐渐成为国内外许多馆藏机构重点关注的领域，一些致力于图像保存的工作应运而生，在图像资源保存的最佳实践、指南、政策、保存工具、方法等方面进行了一系列的研究。",
+    "context4": "笔者通过在国内主要搜索引擎以及CNKI上进行检索，几乎没有找到国内与图像资源长期保存相关的项目或文章，认为我国图像资源保存的相关研究工作仍处于起步阶段。而国外在该领域已经进行了许多有意义的研究和探索，本文梳理了国外图像资源保存的主要项目，从项目国家分布、项目介绍、规范标准/指南、技术工具与方法方面进行分类和介绍，基本上涵盖了国外图像资源长期保存实践研究进展。"
+  },
+  "2国外主要项目介绍": {
+    "context1": "近年来,世界各地的馆藏和图像机构陆续开展了一系列图像资源长期保存项目，如国际敦煌项目、静态图像工作组、图像永久性研究协会、中东图像保存协会以及个人数字存档专题等，都对图像资源保存开展相应的研究,也取得了一些成果，见表1。"
+  },
+  "2.1项目概况": {
+    "context1": "从表1中可以看出，目前国外专门进行图像资源长期保存的项目数量并不多，国家分布也相对单一,所寇晶晶，吴振新.国外图像资源长期保存实践研究进展⑴.图书情报工作,2017,61(23):138－144.",
+    "context2": "表1图像资源长期保存项目概况",
+    "context3": "<table><tr><td rowspan=\"2\">项目名称</td><td rowspan=\"2\">国家</td><td rowspan=\"2\">机构</td><td rowspan=\"2\">类别</td><td colspan=\"5\">产出</td></tr><tr><td>规范/标准</td><td>指南</td><td>技术工具</td><td>资源</td><td>服务</td></tr><tr><td>国际敦煌项目</td><td>英国</td><td>大英图书馆</td><td>图像资源数字化</td><td>/</td><td>/</td><td>1</td><td>√</td><td>1</td></tr><tr><td>国际互操作框架</td><td>英国</td><td>国际互操作框架</td><td>保存共享平台</td><td>/</td><td>√</td><td>√</td><td>/</td><td>/</td></tr><tr><td>保存图片和微缩资料项目</td><td>澳大利亚</td><td>澳大利亚国家档案馆</td><td>纸本图像资源</td><td>/</td><td>/</td><td>/</td><td>√</td><td>/</td></tr><tr><td>中东图像保存协会目</td><td>美国</td><td>中东图像保存协会</td><td>纸本图像资源</td><td>1</td><td>√</td><td>1</td><td>√</td><td>1</td></tr><tr><td>ARTstor</td><td>美国</td><td>ITHAKA</td><td>原生数字图像</td><td>/</td><td>√</td><td>√</td><td>V</td><td>/</td></tr><tr><td>静态图像工作组</td><td>美国</td><td>联邦机构数字化倡议</td><td>图像资源数字化</td><td>√</td><td>√</td><td>1</td><td>√</td><td>/</td></tr><tr><td>美国记忆项目</td><td>美国</td><td>国会图书馆</td><td>图像资源数字化</td><td>√</td><td>√</td><td>/</td><td>√</td><td>/</td></tr><tr><td>图像永久性研究协会</td><td>美国</td><td>图像永久性研究协会</td><td>纸本图像资源</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>个人数字存档专题[1]</td><td>美国</td><td>国会图书馆</td><td>原生数字图像</td><td>/</td><td>√</td><td>/</td><td>/</td><td>1</td></tr><tr><td>图像存档工作组[</td><td>美国</td><td>个人团体</td><td>原生数字图像</td><td>/</td><td>/</td><td>/</td><td>√</td><td>√</td></tr><tr><td>哈佛大学数字知识库服务[1]</td><td>美国</td><td>哈佛大学图书馆</td><td>保存共享平台</td><td>/</td><td>/</td><td>/</td><td>√</td><td>/</td></tr><tr><td>文化遗产成像[3</td><td>美国</td><td>文化遗产成像</td><td>图像资源数字化</td><td>/</td><td>/</td><td>√</td><td>/</td><td>/</td></tr></table>",
+    "context4": "注：表中√表示项目拥有该项产出，/表示项目没有该项产出。项目分类以每个项目的核心工作和成果作为分类依据，但项目覆盖范围并不局限于单一类别",
+    "context5": "属机构性质多为非盈利性的机构，这表明图像资源长期保存正处于初步发展的阶段。",
+    "context6": "由表1可见，开展图像资源保存的国家和地区主要集中在美国、英国、澳大利亚。美国的项目主要有静态图像工作组、图像永久性研究协会、ARTstor等。英国的项目为国际敦煌项目和国际互操作框架项目。澳大利亚的图像保存项目主要是澳大利亚国家档案馆的保存图片和微缩资料项目。可见，美国的研究机构对图像数字保存领域的关注较多，一方面与美国注重文化保护的意识相对较高,国家资金投入较大有关；另一方面与美国在科技领域的先进性有关。"
+  },
+  "2.2项目类型划分及项目简介": {
+    "context1": "按其工作内容来划分，可将国外图像资源长期保存项目分为纸本图像资源保存项目、图像资源数字化项目、原生数字图像资源保存项目和图像资源保存共享平台项目4类。而每个项目所属类别并不局限于单一类别,本文的分类以每个项目的核心工作和成果作为分类依据,项目所属类别如表1所示。其中，图像资源数字化和原生数字图像的保存逐渐成为最受关注的图像保存领域,主要原因为：一方面,为了使原有的纸本资源，如画作文化遗产能够长期保存下来，并为后人可用,对大量的纸本图像资源进行数字化势在必行;而另一方面,在数字时代,人们每天都在使用智能设备产生和访问原生数字图像,因此这类图像的保存是社会和时代发展的需要。如何让传统纸本和原生数字图像永久保存,是当前面临的重大挑战,涉及物理保存、存储空间、存储格式等一系列问题的研究。",
+    "context2": "2.2.1纸本图像资源保存纸本图像资源是馆藏机构重要的物理资源之一，占据了图书馆馆藏的很大一部分，根据澳大利亚国家档案馆统计，有超过300万的图像记录，占据了其书架空间的 $7 \\%$ 。国外涉及纸本图像保存的项目主要有保存图片和微缩资料项目、中东图像保存协会和图像永久性研究协会。",
+    "context3": "(1)保存图片和微缩资料项目是由澳大利亚国家档案馆开展的图像保存项目，主要工作是进行纸本图像基本维护方法的开发,包括包装、除皱、修复破损、干洗方法等。",
+    "context4": "(2）中东图像保存协会的保存对象为中东地区（定义为地中海东部的国家、北非和波斯湾地区)的广泛图像,包括19世纪的蛋白相纸印品和玻璃板底片、20 世纪的黑白和彩色纸本、塑料底片和透明反转片以及在胶卷和磁介质上的动态影像。并在此基础上提供培训服务，以增强各地馆藏人员的图像资源保存能力。",
+    "context5": "（3）图像永久性研究协会(Image Permanence Insti-tute,IPI)的保存对象主要为数字印品,它制定了数码印刷照片保存指南、彩色照片存储指南，并开发了数字图像关联技术。此外,还为广大图书馆、档案馆和博物馆提供信息、咨询服务、实践工具和保存技术。",
+    "context6": "2.2.2图像资源数字化图像资源数字化是将非数字形式的图像(如纸本图像、壁画等)转化为数字形式存在的、计算机可识别的数字图像资源的过程,以防止图像原有纸版本无法保存时图像内容和信息的遗失，以及由于战争、自然灾害等不可控因素造成的纸本图像资源的丢失或损毁。该类项目保存对象中很大一部分是人类珍贵的历史文化遗产,如壁画、绘本、艺术作品等,这类图像资源往往会随时间而不断销蚀，因此，图像资源数字化是目前图像保存领域的重点。国外的主要项目有国际敦煌项目、静态图像工作组、文化遗产成像和美国记忆项目等。",
+    "context7": "（1）国际敦煌项目(International Dunhuang Project,IDP)由大英图书馆发起,众多国际敦煌文献收藏机构共同参加的一个敦煌文献保存和数字化项目，中国也参与了该项目。该项目以实现敦煌文献中图像的数字化和共建共享为目标,包括图片、绢画、版画等,项目进行过程中建立了IDP数据库,同时形成了图像数字化和管理标准文件。",
+    "context8": "(2)静态图像工作组由美国联邦数字化管理倡导会建立，旨在为可复制为静态图像的历史和文化资料，如文本内容、地图、图像和底片开发通用的数字化标准和指南，目前的成果包括数字化文化遗产材料技术指南:创建光栅图像主文件、数字化术语表、可用性文件格式指南、主文件格式比较、数字化工作流程、图像描述元数据标准、图像质量相关准则等。",
+    "context9": "(3)文化遗产成像是2002年成立的一个项目,其宗旨是为保存世界文化遗产，创造新的数码工具，探索有关的最佳实践，并基于此开发了RTI计算机摄影方法、AR 算法渲染等工具。",
+    "context10": "（4)美国记忆项目是国会图书馆建设数字馆藏的一部分,其目的是建立数字化、在线保存和获取以及历史资料数字化的最佳实践和指南。其中，图像资源是其研究的重要内容，并形成了关于图像数字化及保存标准规范。",
+    "context11": "2.2.3原生数字图像资源保存原生数字图像资源以数字形式存在,因此不存在随着时间销蚀的现象，但原生数字图像资源的保存面临存储空间有限、存储格式兼容性、再生性等问题。目前，国外针对原生数字图像资源并没有形成统一的保存保准与规范。国外的主要项目有:个人数字存档专题、图像存档工作组和AR-Tstor o",
+    "context12": "(1)个人数字存档专题项目由美国国会图书馆发起，旨在帮助人们保存个人数码图像。虽然它针对数字图像存档载体、副本方面的问题提出一些建议，但并没有形成数字图像存档的标准文件。",
+    "context13": "(2)图像存档工作组是由美国天主教大学图书与情报专业的3名研究生组建的小型团队。其目标人群主要是老年人，存储对象为图片。相较于其他保存项目，该项目不仅注重数字图片的物理保存，它更注重保存数字图片背后的人物、事件以及故事。为此,建立了一个“伙伴网站”,参与工作组的任何人不仅可以打印工作组材料，而且还可以在将来引用这些在线资源。用户在活动结束后还可以使用网站上的大量资源。",
+    "context14": "（3）ARTstor是非盈利组织ITHAKA的一部分，ITHAKA旨在帮助学术社区使用数字技术保存学术记录，并使用可持续性的方法促进研究和教学。ARTstor是一个致力于为全球高校、博物馆、图书馆提供数字馆藏解决方案的非盈利性图像数字图书馆，目的是通过举办一系列与静态数字图像保存有关的活动，促进数字图片和媒体在研究和教学中的使用。",
+    "context15": "2.2.4保存共享平台保存共享平台是指提供图像保存服务的平台、机构或知识库等，主要有哈佛大学数字知识库服务、国际图像互操作保存框架。",
+    "context16": "（1）哈佛大学数字知识库服务（Digital ReferenceService,DRS),提供对哈佛全部原生数字内容的保存服务，静态图像就是其重点保存的内容之一，它明确了支持保存的图像格式,包括:TIIF、JPEG200O、JPEGJFIF、GIF、JPEG等。",
+    "context17": "（2）国际图像互操作框架(（International Image In-teroperabilityFramework,IIIF):是由多个图书馆、档案馆、博物馆、软件公司以及其他组织机构共同成立的一个国际组织。IIF是图像资源保存共享平台的代表，旨在确保全球图像存储的互操作性和可获取性，对以图像为载体的书籍、地图、卷轴、手稿、乐谱、档案资料等在线资源进行统一展示和使用，并开发图像资源共享技术,如image viewer、web client。目前 IIIF开发了一系列的工具,主要分为Image Viewing Clients和Im-age Servers两类,每一类下面又有多种工具,根据IIIF网站的最新的工具名单,其中Image Viewing Clients 工具有Diva.js、IIPMooViewer、Mirador、OpenSeadragon、Leaflet-IIIF、Universal Viewer;Image Servers 工具包括ContentDM、Djatoka、FSI Server、IPImage Server、Loris、digilib 。"
+  },
+  "3 国外主要标准规范/指南、技术工具与方法": "",
+  "3.1主要标准规范/指南": {
+    "context1": "根据对国外图像资源保存项目的调研得知，其主要研究成果之一是生成了图像保存的标准规范与指南,如美国记忆项目的《关于文本和图像数据数字化转换的技术规范》静态图像工作组开发的《数字化文化遗产材料技术指南》等，并在实践中得以应用。标准规"
+  },
+  "寇晶晶，吴振新.国外图像资源长期保存实践研究进展⑴.图书情报工作,2017,61(23):138－144.": {
+    "context1": "范/指南名称及链接见表2。同样,按照其工作内容分类，将这些规范或标准大致分为3类，即纸本图像资源保存标准规范、纸本图像资源数字化标准规范和原生数字图像资源保存标准规范。",
+    "context2": "3.1.1纸本图像资源保存标准规范/指南纸本图像资源的保存针对的是传统图像资源，主要的标准规范是IPI的《数码照片保存指南》《彩色照片存储指南》《照片的显示和保存框架指南》《数码成像用于保存图像馆藏：基础技术标准》等。此外虽然澳大利亚国家档案馆保存图片和微缩资料项目一直致力于传统纸本的维护，但并没有形成标准的规范或指南。",
+    "context3": "3.1.2纸本图像资源数字化保存标准规范/指南与纸本图像资源保存类似,纸本图像资源数字化也是针对传统图像资源，但保存形式不同，纸本图像资源数字化是将传统资源转化为计算机可识别的形式，便于长期保存。图像资源数字化方法较多，主要方式有数码相机拍摄和扫描仪扫描等。扫描又分为直接扫描和间接扫描。直接扫描形成的数字图像效果较好。但如果图像资源的尺寸较大，直接扫描无法实现其数字化时，则需要采用间接扫描技术，即使用传统摄影技术制作成胶片复印件，再通过扫描胶片获得数字化图像。数码相机直接对实物拍摄是最简便的图像数字化方式。国外相关的标准有《摄影、显微照相及各种论文形式产生的数字图像的评价建议》《关于文本和图像数据数字化转换的技术规范》《馆藏数字格式可持续性规划》《图像数字化和管理标准文件》和《数字化文化遗产材料技术指南》。",
+    "context4": "3.1.3原生数字图像资源保存标准规范/指南原生数字图像资源即生来就以数字格式存在的图像资源。我们平常使用手机、数码相机拍摄得到的图片或者使用电脑绘图软件制作出的图像等都属于原生数字图像资源。当前数字图像资源保存的标准规范并不多，典型的有个人数字存档专题项目制定的《保存个人数字照片指南》。",
+    "context5": "表2国外图像资源保存主要标准规范/指南",
+    "context6": "<table><tr><td>规范/指南名称</td><td>所属项目</td><td>链接</td></tr><tr><td>数码印刷照片的保存指南</td><td>IPI</td><td>http://www.dp3project.org/webfm_send/739</td></tr><tr><td>彩色照片存储指南</td><td>IPI</td><td>https://www.imagepermanenceinstitute.org/webfm_send/517</td></tr><tr><td>微缩胶片存储指南</td><td>IPI</td><td>https://www.imagepermanenceinstitute.org/webfm_send /299</td></tr><tr><td>摄影、显微照相及各种论文形式产生的数字图像的评价 建议</td><td>IPI</td><td>https://memory.loc.gov/ammem/ipirpt.html</td></tr><tr><td>照片的显示和保存框架指南</td><td>IPI</td><td>https://www.imagepermanenceinstitute.org/webfm_send/312</td></tr><tr><td>数码成像用于保存图像馆藏：基础技术标准</td><td>IPI</td><td>https://www.imagepermanenceinstitute.org/webfm_send /650</td></tr><tr><td>关于文本和图像数据数字化转换的技术规范</td><td>美国记忆项目</td><td>https://memory.loc.gov/ammem/about/techStandards.pdf</td></tr><tr><td>馆藏数字格式可持续性规划</td><td>国会图书馆</td><td>https://www.loc.gov/preservation/digital/formats/index.html</td></tr><tr><td>保存个人数字照片指南</td><td>个人数字存档专题</td><td>http://www.digitalpreservation.gov/personalarchiving/photos.html</td></tr><tr><td>数字化文化遗产材料技术指南</td><td>静态图像工作组</td><td>http://www.digitizationguidelines.gov/guidelines/FADGI% 2OFederal% 20%</td></tr><tr><td>数字成像框架</td><td>静态图像工作组</td><td>20Agencies% 20Digital% 20Guidelines%20Initiative-2016%20Final_rev1.pdf</td></tr><tr><td>TIFF图像元数据</td><td>静态图像工作组</td><td>http://www.digitizationguidelines.gov/guidelines/DIFfinal. pdf http://www.digitizationguidelines.gov/guidelines/digitize-tiff. html</td></tr><tr><td>在数字静态图像中嵌入最小化描述元数据指南</td><td>静态图像工作组</td><td></td></tr><tr><td></td><td></td><td>http://www.digitizationguidelines.gov/guidelines/digitize-core_embedded_ metadata. html</td></tr></table>"
+  },
+  "3.2图像保存技术工具与方法": {
+    "context1": "对于单纯的纸本图像维护来说，保存的基本方法包括重新包装、除皱、修复破损、干洗、日常维护等。而对于需要数字化保存的传统图像和原生数字图像来说,则需要一些具体的工具和技术方法来支持其保存过程,包括拍摄工具(如数码相机)、检验工具、扫描工具(如扫描仪)、浏览工具等。相关项目在推出多种规范外,还开发了一系列用于图像资源保存的方法和工具,如文化遗产成像项目开发的计算机摄影技术RTI,相对于传统的扫描仪器和数码设备来说，在拍摄时对实体的颜色和表面形状具有更强的捕捉能力，能够更好地反映实体本身的属性;IPI开发的图像活性检验工具,用来检验保存图像的材料,如纸、板、油墨等,以确定某种材料是否会对图像造成伤害;IIF和文化遗产成像开发的图像查看工具等。笔者对这些工具进行了汇总（见表3）。"
+  },
+  "4发展现状评析": "",
+  "4.1发展概况": {
+    "context1": "从目前的情况来看，国外图像资源保存项目的主要特点是数量不多、国家分布比较单一,项目所在机构或组织性质以非盈利性为主，依赖国家或基金组织的支持。其中，美国的馆藏机构对图像资源长期保存关注度更高一些。",
+    "context2": "表3图像保存工具及简介",
+    "context3": "<table><tr><td>方法/工具名</td><td>开发机构</td><td>用途</td></tr><tr><td>图像活性检验</td><td>IPI</td><td>检验保存图像的材料，以确定某种材料是否会对图像造成伤害。许多不同类型的材料都可以通过该标准来检 测和评估，如纸、板、塑料、粘合剂、笔、贴纸、标签、油漆和油墨</td></tr><tr><td>RTI</td><td>文化遗产成像</td><td>一种计算机摄影方法,它通过捕获物件的表面形状和颜色,可使物件的交互性从任意方向重新后动。RTI还 可以使物件的表面形状和颜色属性增强。RTI的增强功能揭示了物理物件中那些不能被实证检验披露的表 面信息</td></tr><tr><td>算法渲染</td><td>文化遗产图像</td><td>把数学“过滤器&quot;应用到一个系列的数字图片中。运用算法渲染的结果是用一种新的有用的方法揭示物品的 特性，即生成新的数字图像</td></tr><tr><td>数字存档日工具包</td><td>美国国会图书馆</td><td>帮助地方机构提供个人数字存档相关信息的链接。该资源工具包同时提供了一些资源来支持地方上的“个 人数字存档日&quot;活动，以便机构与用户直接面对面交流</td></tr><tr><td>零点计算器</td><td>图像永久研究协会</td><td>用于探索并评估不同温度、湿度等环境因素对保存的影响，从而让研究人员能够快速地明确影响保存的主要 因素</td></tr><tr><td>数字图像关联技术</td><td>图像永久研究协会</td><td>简称DIC，DIC的适用范围非常广，可以测量很大和很小的变形</td></tr><tr><td>DICE</td><td>静态图像工作组</td><td>一致性检验工具,被应用于特定的检验目标时,可以提供给用户精确的、可重复性的成像变量分析,从而形成 FADGI星级排名</td></tr><tr><td>图像查看器RTIViewer</td><td>IIIF文化遗产成像</td><td>Diva.js、IIPMooViewer、Mirador、OpenSeadragon、Leaflet-IIF、Universal Viewer,这些工具软件中,只有 Leaflet-IIIF 是非开源工具，其余均为开源工具</td></tr><tr><td>图像服务器</td><td>IIF</td><td>ContentDM、Djatoka、FSI Server、IIPImage Server、Loris digilib、Diva. js</td></tr><tr><td>EMET</td><td>Artstor</td><td>是Artstor创建的一个开放获取工具,用于提取图片中的元数据。当大量图片被加载到EMET中时,图像的元 数据就会被提取，并保存为.csv格式的文件，从而为图像的保存提供元数据描述信息</td></tr></table>",
+    "context4": "从其内容和对象来看，可以将国外的图像资源保存重点概况为两个方面：一是传统图像资源的保存,既包括对其原始印本的保存，一般是通过物理方法，控制图像资源所处环境的温度、湿度等来进行保存，或是对其进行修缮包装，也包括将传统图像资源数字化的保存;二是对原生数字图像资源的保存。",
+    "context5": "从保存标准、平台工具、指南建议、保存服务的层面上看，笔者认为： $\\textcircled{1}$ 保存标准是开展一切图像保存活动的基础,但目前国外专门针对这方面的项目并不多，其中IPI和静态图像工作组给予的关注最多。 $\\textcircled{2}$ 技术工具是建立在保存标准之上的图像资源保存实现手段,国外各项目也都在极力开发用于图像资源长期保存的软件和工具，包括图像的检验工具、图像查看器、服务器、温度湿度计算工具等。 $\\textcircled{3}$ 指南建议是促进保存标准和工具被广泛使用、传播保存活动的有力助手，当前国外的图像保存项目向个人或机构提供对个人照片、摄影资源的保存意见和培训，如美国国会图书馆的个人数字存档专题就提供了个人数码照片的存档指南，而中东图像保存协会则是通过一系列的培训来实现保存指南的传播。此外，一些研究机构和项目的重点并不是将保存标准、工具和指南传播给个人和机构，而是用于自身馆藏的建设,如联邦机构数字化静态图像工作组开发的《数字化文化遗产材料技术指南》、IPI出版的保存和存储指南。 $\\textcircled{4}$ 不论是制定标准规范和指南,还是开发平台技术,都是在为规模化的图像存档做准备，这就需要提供图像资源存档服务的机构或项目存在,但目前专门提供图像存档服务的项目并不多，如哈佛图书馆的知识库服务提供对部分图像的存档服务。",
+    "context6": "综上所述，国外图像资源长期保存相关研究的发展符合科学研究的一般步骤和流程，即标准制定技术工具——指南建议——规模化实践的过程。国外图像保存领域首先制定了相应的标准规范，并在此基础上开发了用于保存的一系列技术和工具,形成了有助于标准规范和技术工具广泛、简易使用的指南建议，最后在这些的基础上，再进行大规模的图像保存服务实践。"
+  },
+  "4.2问题和不足": {
+    "context1": "就笔者所调研的项目而言，当前国外图像资源长期保存领域仍然存在以下问题：",
+    "context2": "(1)传统图像资源数字化面临许多技术问题，需要在工作实践中不断积累经验逐步加以解决。如使用数码相机直接对实物拍摄的数字化方式，数字图像的质量会受到相机、光线和色调等多种因素的影响等。",
+    "context3": "(2)当前的研究项目偏重于图像数字化指南、加工流程的开发,并没有对图像资源的类型进行细分，也没有特别针对不同类型的图像资源进行摄入的研究，即没有依据不同资源的特色制定完整的数字化保存体系。",
+    "context4": "(3)图像资源的保存未与元数据、唯一标识符等创建联系，虽然美国国会图书馆的保存个人数字照片指南中建议个人存档时给予需要存档的图像以描述性的信息，但并没有形成规范的描述格式和元数据框架，笔者认为图像资源应该像其他文献资源一样，在保存的同时，建立自身的元数据描述框架，或者在已有元数据框架的基础上,建立联系。",
+    "context5": "(4)对于原生的数字图像资源来说,当前存在的不足主要是图像保存工具的兼容性方面，很多工具只能处理一种或几种格式的图像,应积极扩展工具的兼容性。"
+  },
+  "5总结与后示": {
+    "context1": "基于国外在图像资源长期保存方面的研究,对比我国目前的情况，从中不难看出，我国图像资源保存的相关研究工作仍处于起步阶段。但是，图像资源作为社会生活和学术研究的重要组成部分，我国相关机构应该从国外相关研究中吸取经验，获得启示,逐步开展和部署相关的研究和实践工作："
+  },
+  "5.1从国家层面上建立政策与管理机制": {
+    "context1": "纵观国外有关项目，国家宏观政策和财政支持是开展图像资源长期保存的有力支撑，扮演着重要的角色,因此,在我国实施图像资源保存的过程中,政府可以通过财政预算、制定政策等形式进行宏观调控。同时,政府也可以通过协调各部门和地区的关系，设立专门的机构对图像资源保存工作进行专项管理。"
+  },
+  "5.2提高保存意识": {
+    "context1": "国内对珍稀图像、图像文化遗产资源的保存意识不够强烈，就国内目前的情况来看，长期保存的意识本身就很淡薄,相关领域的学者也较少，具体到图像长期保存领域,则更是少之又少。而对于国外来说，我国还不存在专门提供图像资源保存服务的机构、平台等，也表明了我国在该方面意识的淡薄。因此要改变这种现状,当务之急是提高人们的保存意识,而在这方面，国内的馆藏机构有着义不容辞的责任，应积极加强图像资源管理和保存人才的培养,加大宣传力度，提高保存意识。"
+  },
+  "5.3制定并完善技术体系与技术标准": {
+    "context1": "国内在图像数字化和原生数字图像保存技术方面的落后也是造成国内图像保存领域落后于国外的原因之一，目前，国内图像资源数字化技术仍然停留在传统的扫描、数码设备拍摄阶段,原生数字图像保存也停留在建立副本、扩大存储空间等方面，并没有像国外一样形成特定的技术、标准和规范。因此国内的图像保存机构或资源保存机构应加强制定和完善图像资源长期保存技术体系和技术标准，依据国内外不同图像资源的保存方法、技术等最佳实践,形成不同的保存方案和技术体系，为推广图像资源保存提供便利。",
+    "context2": "总之，图像资源的长期保存是时代发展的必然趋势和要求，随着研究的不断发展与推进，图像资源的数字保存也将朝着更标准、更完善的趋势发展，包括传统图像数字化的技术和方法更加先进,而不是依赖于数码设备和传统的扫描技术;保存标准更标准化、国际化;实现与图像资源描述的元数据嵌套，建立唯一标识符等;建立全球统一的图像资源保存网络，减少建立副本的繁琐，当一个地方的某图像资源受到损害时，不会影响其他地方的该图像资源的存储等等。"
+  },
+  "参考文献：": {
+    "context1": "[1]张春红,唐勇,邵珂.图像资源数字加工标准及其应用[].现 代图书情报技术，2010,26(12)：9-14.   \n[2]IDP.About IDP [EB/OI]．[2017 -04-20].http://idp.bl.uk/ pages/about.a4d.   \n[3]IIF.About IIIF [EB/OL]．[2017-04-20].ttp://if. io/about/.   \n[4]Preserving our collection.Preserving photographs and microforms [EB/OI]．[2017 -04 - 20].htp: //www.naa.gov.au/collection/preserving/photographs-and-microforms/index.aspx.   \n[5] Middle East Photography Preservation Institute.Preservation of photographs and photograph collections [EB/OL]．[2017 -04 - 20l.http://www. getty.edu/conservation/our_projects/education/ cons_photo/meppi. html.   \n[6] ARTstor.About [EB/OL]．[2017-04-20] .htp:/www.artstor. org/.   \n[7]FADGI.Still image working group [EB/O1]．[2017-04-20]. http://www.digitizationguidelines.gov/still-image/.   \n[8]The Library of Congress．American Memory EB/Ol]．[017 -04 - 21].htps: //memory.loc.gov/ammem/index. html.   \n[9]The Image Permanence Institute [EB/OL]．[2017 -04-21] .https://www.imagepermanenceinstitute.org/.   \n[o]Personal archiving [EB/O1]．[017-04-21] .htp://www.digitalpreservation.gov/personalarchiving/photos.html.   \n[1]Preserving your personal memories: students create workshop on photo archiving [EB/OL]．[017 -04-21].htp: //blogs.loc. gov/thesignal/2014/O5 /preserving-your -personal -memories - students-create-workshop-on-photo-archiving/.   \n[2]Harvard Library Preservation．Digital preservation services [EB/ O1]．[017-O4-21] .http: //library. harvard.edu/preservation/ digital-preservation.   \n[13]Cultural Heritage Imaging[EB/OL]．[2017-O4-21].http: // culturalheritageimaging.org/."
+  },
+  "作者贡献说明：": "",
+  "吴振新：选题构思，论文修改。": {
+    "context1": "寇晶晶:文献调研，资料整理,论文撰写与修改;",
+    "context2": "The Foreign Practice and Research Progress of the Long-term",
+    "context3": "Preservation of Image Object Resources",
+    "context4": "Kou Jingjing1,2 Wu Zhenxin1",
+    "context5": "1 National Science Library，Chinese Academy of Sciences，Beijing 100190",
+    "context6": "² University of Chinese Academy of Sciences，Beijing 100049",
+    "context7": "Abstract: [Purpose/significancel The paper aims to have a understanding of the practice and research progress of thelong-term preservationof image object resources，andrefer to good preservation experience.Method/process By researchingandcombingtheforeignprojectsrelatedtothisarea,thispaper gaveadetaileddescriptionof existing projects from fouraspects:national distribution，projectintroduction，standard specification，and technologyand tols.Result/conclusionlFinaly，we summarized four features of the foreign researchonlong-term preservation of imageobjectresources:the numberissmall；thedistributionofcountries is single；theorganizationof theprojectismainly non-profitanddependenton stateorfundsupport.And itrevealed itsshortcomings indigitaltechnology,resourcesegmentation,metadataasociationand so on.Basedon this，we preliminarydiscussd thecurrent situationof long-term preservationof image objectresources in China，whichis stillin infancystage.Andthe suggestions offorming policyand management mechanism,improving preservation consciousness ，and developing and perfecting technical system and technical standard are given.",
+    "context8": "Keywords: image object resourceslong-term preservation digitization standardtools"
+  },
+  "第五届中国机构知识库学术研讨会通知暨优秀论文征文、优秀实践案例征集、培训班通知": {
+    "context1": "2017中国机构知识库学术研讨会及培训班将于2017年11月20－24日（20日报到,21－22日研讨会,23－24日培训班)在中国农业科学院国家农业图书馆举办。本届会议主题为“开放科学政策、服务与基础设施”,旨在宣传推广机构知识库在开放科学进程中所取得的发展成果,交流共享全国机构知识库的创新发展。",
+    "context2": "2017中国机构知识库学术研讨会设置会前征文、征集优秀案例和会后培训环节,诚邀各界同仁赐稿及参会。",
+    "context3": "会议有关事项如下：",
+    "context4": "一、会议举办单位",
+    "context5": "主办方：中国机构知识库推进工作组(CIRG）、中国高校机构知识库联盟(CHAIR)承办方：中国科学院文献情报中心知识技术研发中心、国家农业图书馆协办方：中国图书馆学会高校图书馆分会、中国图书馆学会专业图书馆分会、中国科学院自然科学期刊编辑研究会、《图书情报工作》《大学图书馆学报》《数据分析与知识发现》《Journal of Dataand Information Science》"
+  },
+  "二、会议时间和地点": {
+    "context1": "1、地点:中国农业科学院农业信息研究所报告厅",
+    "context2": "地址：北京中关村南大街12号",
+    "context3": "2、学术研讨会报到日期和时间",
+    "context4": "(1)2017年11月20日全天：",
+    "context5": "A中国农科院研究生院招待所一楼大厅B中监宾馆一楼大厅(2)2017年11月21日08:00-09:00",
+    "context6": "中国农科院农业信息研究所国家农业图书馆一楼大厅",
+    "context7": "3、培训班报到日期和时间同上,如未参加学术研讨会的学员，请直接在培训班当日报到。详见会议网站:http://2017chinair.csp.escience.cn/dct/page/1。"
+  }
+}

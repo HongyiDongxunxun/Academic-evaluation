@@ -1,0 +1,74 @@
+{
+  "original_filename": "full_2904.md",
+  "国内外分面分类法基本理论研究述评施国良": {
+    "context1": "【摘要】分面分类法在组织网络信息方面显示出巨大的潜力，其应用研究也日益被人们看好。本文对分面分类法诞生以来基本理论的研究进行了评述。",
+    "context2": "【关键词】分面分类法面分面分析",
+    "context3": "Abstract:The enumerated clasification has showed many shortages in Web information organization, whereas faceted clasification has demonstrated tremendous potential and prosperous application-This paper reviews the fundamental theory of faceted classification at home and abroad.",
+    "context4": "Key words: faceted classification facet faceted analysis",
+    "context5": "自从上个世纪30年代分面分类法诞生以来，世界各国先后都对其理论及其应用进行了研究。分面分类法的研究国内外都经历了从兴起到高潮，到回落，然后到再兴起这几个阶段。本文对分面分类法基本理论的研究历程进行了简单的回顾与评述，以期为分面分类法今后的应用提供一些理论上的借鉴。"
+  },
+  "1对分面分类法的研究": {
+    "context1": "分面分类法英文是faceted Classification，简称FC，中文称为分面分类或分面分类法，是一种知识组织方法，这种方法从多个互不相关的面中提取概念分配给文献集合中的信息对象。分面分类法不同于传统的图书馆分类法，不以固定的顺序方式排列学科，而是明确定义某个主题的特征或属性，使其互相排斥、单独穷尽，这些特征或属性成为某个学科主题的面。有时，分面分类法也称分析一合成方法，这来源于分类号形成过程中的两个过程，即：分析一—将每个主题分成基本概念，合成——将相关概念合成起来描述信息对象。",
+    "context2": "关于分面分类思想的研究早期在布里斯的著作中已经初见端倪[1，但直到1957年阮冈纳赞才提出了分面分类法的基本描述，1967年他进一步提出了分面分类法的全部理论和原则以及分面分析的全过程。《冒号分类法》是阮冈纳赞创编的一部综合性分面组配式分类法，1933年出版。它以“分析——综合”这种组织和表征知识的方式来反映文献，这有别于传统的枚举式分类法，所以对分类理论的发展以及分类法的编制产生了广泛而深远的影响。冒号分类法一经诞生就很快传入我国，尤其是建国后有诸多学者对其进行研究。例如：宋克强、许培基译著的《冒号分类法解说及类表》(1986年)、尚克聪的《<冒号分类法》特点简析》[2]、马张华的《<冒号分类法》第七版评介》[3]、俞君立的《<国际十进分类法>、〈冒号分类法》首次传入中国问题新释》[4]、吴人珊翻译的《冒号分类法理论与实践》（1985年)、叶千军著的《阮冈纳赞理论及其应用研究》(1995年)、张欣毅的《分面分析与分面分类法概说》[5]和夏方、周原的《冒号分类法的成就和影响试析——兼评体系分类法的局限性》[6]等。",
+    "context3": "从最广义的角度上看，任何文献描述系统中，只要有要素的合成，不论是语词形式还是标记符号形式，都可以说是分面分析。这种界定不考虑任何具体的分析技术，也不考虑所描述的文献的复杂程度。但在很多情况下，分面分类法仅仅指的是某种具体的分类表，用这种分类表可以确定和标引文献的不同方面，如文献的形态、时间或地点等[7]。",
+    "context4": "有些研究将分面分类法的作用看成是检索工具，尤其是在管理非实物文献方面作用很大。在万维网出现之前，主要讨论分面分类法在联机数据库的存储与管理方面的作用。Godert[8]在讨论用分面分类法作为标引描述来搜索联机数据库时，认为分面分类法同样支持布尔运算符和截词算法。",
+    "context5": "上面简短的描述可以看作是分面分类法早期理论与实践方向的管窥。尽管20世纪30年代就开始讨论分面分类法了199真到1957年S.RR的ProlegomenatoLibrarySciece出版Al1才正式表述了这个理论 $\\phi _ { \\mathrm { { W } } }$ 这杰书为盆面分析方法提供了理论测试基础。分布于印度、英国和美国的三个小组，发现了将理论应用于日常生活的不同方法。这三个小组的实践经验可以用来揭示弱点和局限性，也可以用来增强分面分类法。要对这一理论的发展和最新进展的意义和作用进行评述需要理解分面分类法的语言和概念。"
+  },
+  "2对面的概念的研究": {
+    "context1": "面，作为分面分类法的核心概念，定义多种多样。作为对等的术语还有范畴、属性、类、组、维度等等。阮冈纳赞最初用“train of characteristics”这个词[10]，并强调不管我们是否意识到，面都存在于实体本身。在描述一个面时，他认为应以某个特定实体的分类特征为基础。也就是说，特征是一个参数，每个参数生成一个维度，并通常归为数目不多的小组，每个组就是一个面，而且每个组本身就是多维的。",
+    "context2": "面的核心观念是能够让用户从任何一个可预见的角度去分析一个实体。分类法研究小组的创始人之一，布里斯分类法第2版的编者MIIs也认为面是广义的，包括两个一般模型：基础的和关系的。概念间的关系是存储和检索的核心。按照这种观点，概念由描述待分主题或实体的词语来表征。确定这些关系的第一步是给概念划分范畴。分面分类法是一种概念组织方式，这种方式遵循逻辑划分原则：一次只用一个划分标准；划分步骤应当是逻辑的;划分应当穷尽。一旦确定，就可以将面组成互相排斥的类或数组[11]。",
+    "context3": "面是一个知识领域的主题所赖以分析的依据，面内主题通常以等级的方式组织，即被分为类和子类。面也是对象或概念赖以描述的基本范畴，这些范畴的一个非常重要属性就是互不相关[12]。从本质上看，面是待分事物的某个属性或特征，这个属性或特征一般是经过明确定义的，而且是互相排斥、面内穷尽的。",
+    "context4": "阮冈纳赞将知识分为大类，再按照某些特征分为基本元素或概念，形成面。五个基本面是PMEST，即本体、材料、能量、空间和时间。对于特定领域的对象，需要对该领域成员对象进行分析才能确定面，如：Leise[13]划分面为主题、语言、地区、创造者、用户环境、格式或形态等。"
+  },
+  "3对分面分析的研究": {
+    "context1": "一般将分面分析定义为通过分配概念来进行逻辑划分的方法，它包括：（1）对对象主题的所有词汇进行分类。(2）在对象主题环境中，将某个概念归入恰当的范畴中，即某一特定的划分特征是由这一类的成员所共享。例如按颜色划分事物，可以产生不同颜色的类[13]。",
+    "context2": "分面分类法与分面分析不是同义词，尽管目前人们经常混用它们。Kwasnick认为分面分析是用多种方法来看待世界[14]。Kumar 则认为分面分析是一种思维过程，即在一系列的公理与原则的基础上将一个主题分成面。它为不同术语及其组合规则提供了一个框架[15]。关于这两个基本概念有很多定义，阮冈纳赞与Vickery 为我们提供了有用的出发点。阮冈纳赞认为分面分析是一种思维过程，通过这种过程来枚举一系列可能的特征，这些特征构成了一个主题的分类基础。枚举就是分析过程，因为面存在于实体之中。Vickery认为分面分析过程本质上是在给定的知识领域内将术语组织成同质的互相排斥的面。每个面都用一个单一划分特征，借助于基本的划分特征或范畴，分面分析是构建分面分类表的基本操作过程。分面分类法与分面分析一起提供了一个框架，或一个简单一致的分析方法，分面分类表是用于文献主题描述和分配标记符号的标准术语表[16]。",
+    "context3": "Broughton and Slavic 以一种现代方式描述：“尽管很多人认为分面分类法是带有特征的一种结构，但从本质上看，分面分析是一种技术，从同一个语境中推倒出的不同模型可以应用于不同主题的需求，这些需求使用语法上不同的范畴或变量\"。分面分析是一个重复过程，但它来源于分类法研究小组对阮冈纳赞分面分类法的拓展。阮冈纳赞认为编制分面分类表的核心是需要去发现书面的或表达出来的思想单位（即语词背后的概念)[17]，用整体而非部分的方式去分析信息实体的单元或其组合。分面分析的步骤包括：（1）确定一个待组织实体的边界；（2)从基本面的角度对实体的代表性的例子进行分面分析，并将实体进行划分；（3）一旦分面分析完成，就可以编制分面分类表，其中涉及标引顺序、索引和标记符号的编制。不可能不通过分面分析来编制分面分类表。（4）通过主题检索点（主题分析）与标记符号的分配将分面分析过程应用于实体分类。[18]",
+    "context4": "需要说明的是，一些网站（如那些致力于导航和检索站点信息的网站）在构建分面分类表时并没有完整的标记符号和分类表，这表明这类网站使用了分面分析的一些形式，这也是很多网站声称自己应用了分面分类法的原因。然而，严格意义上的分面分析必须经过一个完整的过程。国内也有不少学者讨论了分面分析的涵义与用法，有的将分面分析定义为将一个复杂概念分析成若干简单概念，并承担着表达主题关系的责任；也有的认为分面分析就是文献的主题分析[5.19-21] 。",
+    "context5": "透过分面分类法分面分析及其相关概念研究的发展轨迹，以及从早期的UDC到BC再到阮冈纳赞的各种解释，可以看出分面分类法和分面分析的概念在印度、欧洲和美洲分类法研究团体的理论和实践应用中得到了不断的拓展与修改。"
+  },
+  "4研究评述": {
+    "context1": "4.1国内外分面分类法研究经历了两个高潮，且中外在时间上有15年左右的差距",
+    "context2": "为了对分面分类法的研究成果进行系统的了解，本文分别通过LISA和CNKI这两个工具对相关文献进行统计。根据对LSA最近的记录检索，与分面分类法相关的文献共有 322篇，通过统计发现，从上个世纪60年代至今，发表的论文分布见表1。",
+    "context3": "表1国外分面分类法相关文献年代分布表",
+    "context4": "<table><tr><td rowspan=1 colspan=1>年代</td><td rowspan=1 colspan=1>1964</td><td rowspan=1 colspan=1>1965</td><td rowspan=1 colspan=1>1966</td><td rowspan=1 colspan=1>1967</td><td rowspan=1 colspan=1>1968</td><td rowspan=1 colspan=1>1969</td><td rowspan=1 colspan=1>1970</td><td rowspan=1 colspan=1>1971</td><td rowspan=1 colspan=1>1972</td><td rowspan=1 colspan=1>1973</td><td rowspan=1 colspan=1>1974</td></tr><tr><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>年代</td><td rowspan=1 colspan=1>1975</td><td rowspan=1 colspan=1>1976</td><td rowspan=1 colspan=1>1977</td><td rowspan=1 colspan=1>1978</td><td rowspan=1 colspan=1>1979</td><td rowspan=1 colspan=1>1980</td><td rowspan=1 colspan=1>1981</td><td rowspan=1 colspan=1>1982</td><td rowspan=1 colspan=1>1983</td><td rowspan=1 colspan=1>1985</td><td rowspan=1 colspan=1>1986</td></tr><tr><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>年代</td><td rowspan=1 colspan=1>1987</td><td rowspan=1 colspan=1>1988</td><td rowspan=1 colspan=1>1989</td><td rowspan=1 colspan=1>1990</td><td rowspan=1 colspan=1>1991</td><td rowspan=1 colspan=1>1992</td><td rowspan=1 colspan=1>1993</td><td rowspan=1 colspan=1>1994</td><td rowspan=1 colspan=1>1995</td><td rowspan=1 colspan=1>1996</td><td rowspan=1 colspan=1>1997</td></tr><tr><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>年代</td><td rowspan=1 colspan=1>1998</td><td rowspan=1 colspan=1>1999</td><td rowspan=1 colspan=1>2000</td><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>2002</td><td rowspan=1 colspan=1>2003</td><td rowspan=1 colspan=1>2004</td><td rowspan=1 colspan=1>2005</td><td rowspan=1 colspan=1>2006</td><td rowspan=1 colspan=1>2007</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1></td></tr></table>",
+    "context5": "通过对CNKI进行检索，获得了与分面分类法有关的文献170篇。根据同样的办法进行统计，得出了表2。",
+    "context6": "表2国内分面分类法相关文献年代分布表",
+    "context7": "<table><tr><td rowspan=1 colspan=1>年代</td><td rowspan=1 colspan=1>1980</td><td rowspan=1 colspan=1>1981</td><td rowspan=1 colspan=1>1982</td><td rowspan=1 colspan=1>1983</td><td rowspan=1 colspan=1>1984</td><td rowspan=1 colspan=1>1985</td><td rowspan=1 colspan=1>1986</td><td rowspan=1 colspan=1>1987</td><td rowspan=1 colspan=1>1988</td><td rowspan=1 colspan=1>1989</td><td rowspan=1 colspan=1>1990</td><td rowspan=1 colspan=1>1991</td><td rowspan=1 colspan=1>1992</td><td rowspan=1 colspan=1>1993</td></tr><tr><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>年代</td><td rowspan=1 colspan=1>1994</td><td rowspan=1 colspan=1>1995</td><td rowspan=1 colspan=1>1997</td><td rowspan=1 colspan=1>1998</td><td rowspan=1 colspan=1>1999</td><td rowspan=1 colspan=1>2000</td><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>2002</td><td rowspan=1 colspan=1>2003</td><td rowspan=1 colspan=1>2004</td><td rowspan=1 colspan=1>2005</td><td rowspan=1 colspan=1>2006</td><td rowspan=1 colspan=1>2007</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1></td></tr></table>",
+    "context8": "从上面两个表可以看出，分面分类法的研究国内外都经历了两个高峰时期，一个是现在，另一个国外是70 年左右，国内是80年代，这说明国内的研究较国外滞后15年左右，随后都经历了低潮阶段。从上个世纪30年代到50年代，实际上是分面分类法概念的创建和定型时期，随后经历了一个研究的高潮时期，国外在1970 年左右，国内在 $1 9 8 5 { \\sim } 1 9 9 0$ 年前后。随着分面分类法在传统的纸质文献应用领域中的局限性逐渐被人们所认识，分面分类法经历了一段研究的低潮时期。国外从90年代开始，而国内则从2000年开始，一直到现在，分面分类法的研究又出现了上升的走势。这是因为上个世纪90年代末期，随着网络兴起，网络信息组织问题引用了人们的重视，由于分面分类法自身的特征及其在网络信息组织中所表现出来的优势，分面分类法又重新进入人们关注的视野。",
+    "context9": "4.2分面分类法的特征决定了其发展的历程并不是一帆风顺的",
+    "context10": "准确地说，分面分类法是一种知识组织理论。这种理论在正式形成之前，是人们头脑中的观念，而观念的应用体现在实践中。也就是说，千百年来，人们头脑中多向成类的观念自古就有，并一直应用于日常生活中。将这种观念系统地表述出来，则是分面分类理论。对分面分类观念进行系统的表述，源于 Ramon Liul[22]开发的 Arbrede sciencia，被后人认为是最早的分面分类系统。18世纪的Condorcet（1743一1794）是一位自然史学家、数学家和统计学家，开发了一种类似于分面分类的方法来解释各种观点之间的关系，这个方法就包含由五个范畴组成的分类系统[23]。20世纪40年代阮冈纳赞出版了《冒号分类法》第4版，在图书分类领域应用分面分类理论，并将其系统化。毫无疑问，阮冈纳赞对图书馆分类的贡献是巨大的，尽管在传统的实物环境中，冒号分类法的应用很有限，但1953 年的Dorking 会议还是创造性地将其确认为知识组织的基础。",
+    "context11": "那么分面分类法对传统的实体文献组织到底有哪些贡献？对这个问题的回答似乎有点矛盾，因为分面分类法在传统实体文献中的应用并不成功。但由于分面分类法能够为复合主题的文献提供独特的排列方法和交叉参照，并且为这种方法建立了一整套理论规则、适当的标记符号制度和明确的标引顺序公式，与其它枚举式分类法相比，分面分类法更能够将事物的属性以及属性之间的关系透彻地揭示出来，并为对应的实体文献提供一种线性排列方法，这也许是分面分类法能够获得Dorking会议承认的重要原因。",
+    "context12": "由于传统的实体文献在物理空间上一次只能存放于一个位置，因此分面分类法对于传统的实体文献组织来说是不适合的。对于分面分类法的系统应用而言，这一时刻要等到网络普及以后。由于万维网的多数文献是超文本文件，电子传输的快捷和存储器性能的提高将传统实体文献所面临的问题全部解决了。这样一来，分面分类法真正迎来了应用的春天。"
+  },
+  "4.3分面分类法并不是完美的": {
+    "context1": "早在上个世纪50年代，分面分类法就被图书馆信息学界推为知识组织的基本方法，这一评价也被近半个世纪后网络的出现所证明。但是，这并不是说分面分类法是十全十美的。由于知识是动态的，没有什么文献集合能反映人类的全部知识，同样也不存在什么组织系统能完全胜任组织这些文献系统。分面分类法的缺陷表现为：",
+    "context2": "第一，多数用户都只用最简单的搜索方法，即便他们知道通过布尔逻辑检索可以提高检索效果。因为很少有人愿意去学习一个新的分类系统，不管这个系统是传统的枚举式分类法还是分面分类法。",
+    "context3": "第二，分面分类法在网络信息产品目录的查找以及从给定的文献集合中选择文献方面很有效，但通常使用的语义面都很简单。而且面的个数和等级的层数怎么去确定呢？从现有的门户网站的分类表来看，多数采用了实用至上的原则，即选择多数用户喜爱的类目，类目层次也不多，以适应用户的习惯。这是以牺牲严谨性为代价的。",
+    "context4": "第三，由于用户只对目标文献的一个特定内容感兴趣，所以用户既对长长的提问表达不耐烦，也对逐级浏览丧失足够的耐心，这与通过严谨的分面分析来编制的分面分类表来说是一个应用上的挑战。",
+    "context5": "第四，分面分类过程与枚举式分类法设计过程一样可能导致错误的抽象。例如，用户由于不相信信息系统，会用一般性的检索策略来查找比较专业的信息需求。",
+    "context6": "此外，对流行的概念很难提供快速的查找，即使是专业叙词表都需要做大量的调查，用自底向上的方法来开发，这不仅涉及成本问题，还需要解决很多相关学科，如心理学和语言学的问题[22]，需要图书馆信息学界与其它相关学科领域的学者共同协作来解决。因此，如何解决分面分类法所固有的问题是未来理论研究的一大挑战，除了对具体的分类法自下而上的研究外，可能还依赖于其它相关学科，如哲学、语言学和心理学等的协同攻关。"
+  },
+  "注释": {
+    "context1": "[l］罗耀宗·Google：Google成功的七堂课·北京：电子工业出版社，2005．95  \n[2]郝燕·Interwoven：打“用户体验”短板·软件世界，2007(6):24  \n[3]江蕊·产品设计中的用户体验与应用研究·湖南大学优秀硕士论文，2006．13-15  \n[4]中文全文检索网·如何量化用户体验UE（HowToQuantifyTheUserExperience） ·http://www.fullsearcher·com/n2005815135618735.asp，2005—11—15  \n[5]RAsleson，NTSchutta·Ajax 基础教程·北京：人民邮电出版社，2006：15  \n[6]苏世杰·利用Aja×改进Web应用的用户体验·电脑知识与技术，2007 (3)：1381  \n[7］曾登高·Web2.0—用户体验型的网络服务·http：//blog:csdn:net/zdg/archive/2005/07/10/419448.aspx，2005—07—10",
+    "context2": "林海波赖雯四川大学公共管理情报学硕士研究生。"
+  },
+  "4.3Trackback": {
+    "context1": "Trackback又称引用。Web2.0为了强调用户的参与，从技术上来说并没有什么新概念。但从用户体验的角度理解，只有知道了谁在引用，才能引起更好的讨论，发现志同道合者。"
+  },
+  "4.4Web Services": {
+    "context1": "这是实现异构平台数据交换的主要技术，数据传输也采用XM格式。很多人认为这才是 $\\mathsf { W e b 2 . 0 }$ 最核心的东西。只是在国内，程序员很少利用其他网站的Services去写附加应用。这种现状短时间内难以改变。"
+  },
+  "4.5Web 标准(Css+Xhtml)": {
+    "context1": "随着Blog 的流行，使得Css 越来越受到程序员的青睐。总体上来说，实现Web 标准没有什么技术含量，主要是对美术设计工程师提出更高的要求，改变原来一些网页设计的习惯。从用户体验的角度来说，页面加载速度更快，布局改变容易，方便用户访问。"
+  },
+  "4.6Url Rewriting": {
+    "context1": "Url 重写其实就是一个特殊的 Http Handler。根据需求对Ur进行重定向，给我们带来了很多的方便。从用户体验的角度来说，用户可以很容易记住网址，方便下次访问。[7]",
+    "context2": "Web2.0的每项技术都对用户体验的改善有一点的优势，但是使用任何这些技术时并不是一定能够带来较好的用户体验，而在于开发设计人员的适当使用。"
+  },
+  "5结语": {
+    "context1": "我们不需要关心什么是Web2.0甚至是Web3.0,只要是那些真正能改善Web用户体验的技术就值得我们去关心，值得我们去研究。而且用户体验绝对是未来Web发展最应该关注的内容。任何有助于提高用户体验的方式、技术都应该尝试。Ajax技术出现已经有相当长一段时间了，但是只有Google将其用得出神入化，才得到了现在的广泛使用。",
+    "context2": "而在电子产品领域，Iphone 可谓是一枝独秀，其用户体验甚至被认为是里程碑式的，被认为是未来手机的发展趋势。其多触点式触摸技术可谓令人耳目一新，但是这项技术其实在工业设计领域早就存在，而苹果公司却把它使用得淋漓尽致。",
+    "context3": "本文并没有提出如何去提供出色的用户体验。因为不同的业务有其特殊性，不同的系统哪怕都是电子商务网站，提供出色用户体验的方式可以截然不同。我们需要在不断的尝试、反馈、改进中改善我们系统的用户体验。而且在用户体验的道路上永远没有最好，我们只能去感知哪里不好，哪里可以改进，哪里需要改进。"
+  }
+}

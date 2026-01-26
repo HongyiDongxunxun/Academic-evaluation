@@ -1,0 +1,114 @@
+{
+  "original_filename": "full_7453.md",
+  "nothing": {
+    "context1": "$\\bullet$ 李爱华，徐以则，迟钰雪（中央财经大学管理科学与工程学院，北京102206)"
+  },
+  "本体构建及应用综述 \\*": {
+    "context1": "摘要：［目的/意义」本体广泛应用于知识图谱、信息检索等众多领域，逐渐成为近年来一大研究热点。文章归纳总结了国内外本体构建及应用方面研究成果，以期为相关领域学者提供研究参考。［方法/过程]首先，从本体构建原则、表示语言和构建方法三个维度对本体构建基础研究进行梳理。其次，运用关键节点识别和社团挖掘算法对本体构建主题进行演化分析，并进一步结合中国知网和Webof Science代表性文献梳理近年来本体构建研究热点。最后，结合前述分析总结本体研究主要应用领域，并对本体相关研究进行总结与展望。「结果/结论]结合本体研究现状，半自动化及自动化本体构建、本体融合等技术研究以及本体的应用有望成为未来研究热点。",
+    "context2": "关键词：本体；本体构建；本体应用；演化分析；综述",
+    "context3": "DOI：10.16353/j.cnki. 1000-7490.2023.11.024",
+    "context4": "引用格式：李爱华，徐以则，迟钰雪．本体构建及应用综述[J]．情报理论与实践，2023，46（11)：189-195."
+  },
+  "Review of Ontology Construction and Applications": {
+    "context1": "Abstract:[Purpose/significance]Ontology has been extensivelyused in many domains such as knowledge graphand nformationretrieval，andhasgraduallybecomeamajorhotresearchareainrecentyears.Thispapersummarizedresearchesofontology constructionandapplicationathomeandabroadinordertoprovidetheresearchreferenceforscholars inrelatedfields.Method/ process]Firstly，thebasicresearchonontologyconstruction wassortedoutinthreedimensions：ontologyconstruction principles, representationlanguage and methods.econdly，further evolutionaryanalysis ofontologyconstructiontopicswas conductedusing key nodeidentificationandcommunitydetectionalgorithms.Further，wecombedtheontologyconstructionresearch hotspots nrecent years according tothedataonCNKIandthe WebofScience.Then，weconcludedandforecastedresearch aboutontologyaftersummarizingthe mainapplicationdomains.Result/conclusion]Basedonthecurrent status ofontologyresearch，itisspeculatedthat semi-automatedandautomatedontologyconstruction，ontologyfusionandothertechnicalresearches，asellastheaplicationof ontology are expected to become future research hotspots.",
+    "context2": "Keywords:ontology；ontology construction；ontology application；evaluation analysis；review"
+  },
+  "0引言": {
+    "context1": "本体（Ontology）起源于哲学领域，Ontology 的原意为“本体论”，是研究存在的本质的哲学问题，其渊源可追溯至古希腊罗马哲学。对于本体，学界还没有形成统一的定义，最早的定义由Neches 在1991年提出，他认为本体定义了组成相关领域的词汇的基本术语、关系，以及结合这些术语和关系来定义的词汇表外延的规则[1]。Gruber则于1993年给出了经典的定义“本体是概念化的规范说明\"[2]。随后，Borst等[34]还尝试在本体的定义中体现其共享属性，其中 Studer提出的定义“本体是共享概念模型的明确的形式化规范说明”也广受认可。20世纪90 年代至21世纪初，各国学者们尝试从不同角度给出本体定义[5-7]，虽然各种定义尚未能全面地概括本体[8]，但当前学界对本体定义已达成一些基本共识，如本体包括概念化、形式化、可共享、明确、描述领域知识等特征。",
+    "context2": "20 世纪90年代，本体的概念被国外学者引入人工智能等领域并成为研究热点。以“Ontology”和“本体”为关键词在Webof Science 和中国知网进行检索，剔除噪音数据后发现本体研究的国际关注度呈稳步上升趋势且集中在生物学、医学和生物医学领域。我国本体研究起步则可追溯至2000 年，过去20 年间，我国本体研究关注度在2003—2008 年间快速增长并于2010 年到达峰值，之后逐年下降，且主要集中于“计算机软件及应用”和“互联网技术”两个计算机相关领域，相关文献研究内容侧重领",
+    "context3": "域本体构建研究。",
+    "context4": "近年来，随着知识图谱、语义网等研究热度的攀升，本体作为许多研究、应用的底层逻辑起到了不可替代的作用。本体构建作为本体应用的前置环节，随着大数据时代的来临，自动化构建困难重重、评价标准难以量化等问题逐渐成为本体研究在具体领域应用推广的重要阻碍。对此，围绕本体的构建及应用，运用关键节点识别和社团挖掘算法对本体构建主题进行演化分析，结合关键文献梳理本体构建研究未来发展趋势，以期为学者们提供研究支持。"
+  },
+  "1本体构建基础研究": {
+    "context1": "按照理论到实践的研究脉络，从本体构建原则、本体表示语言、本体构建方法3个维度梳理本体构建相关基础研究。"
+  },
+  "1.1本体构建原则": {
+    "context1": "在不同领域本体构建中，由于环境的差异，研究人员往往会根据实践提出不同的构建标准，当前学术界尚未形成统一的本体构建原则。",
+    "context2": "其中，Gruber[9]在1995 年提出的5条基本原则采纳度最广，具体如下。",
+    "context3": "1）清晰性（Clarity)：本体应该清晰阐明其所定义的术语。定义应该客观且独立于社会或计算环境；应尽可能采用逻辑公理进行表述；应尽可能完整；应均以自然语言来表述。",
+    "context4": "2）一致性（Coherence）：一个本体应该是一致的，它应该认可与定义一致的推论。一致性同样应当适用于非正式定义的概念，如自然语言文档和示例中描述的句子。",
+    "context5": "3）可扩展性（Extendibility）：本体应该支持预测共享词汇的使用，即可以在不改动原有本体的基础上定义新的概念或术语。",
+    "context6": "4）最小编码偏差（Minimal Encoding Bias）：本体应该构建在知识层面上而不是依赖特定的编码。本体不应该为了追求实现之便捷而依赖于某种特殊的符号层或某种特",
+    "context7": "殊的语言。",
+    "context8": "5）最小本体承诺（Minimal Ontological Commitment）：本体应该要求能满足知识共享活动的最小本体承诺，即本体应该尽可能少地做出声明以实现更自由的专门化与实例化。"
+  },
+  "1.2本体表示语言": {
+    "context1": "本体开发中，选择合适的本体语言是一个十分重要的环节。按照语法分类，可将本体语言分为传统本体语言和标记本体语言两大类。",
+    "context2": "传统本体语言产生时间较早，其中最具代表性的为Ontolingua，它支持多种定义形式，但每种形式都包括由定义头部分、用自然语言描述的非形式化定义部分、用基于知识交换格式（Knowledge Interchange Format，KIF）或框架本体（Frame Ontolingua，FO）定义的转换器三部分。此外，传统本体语言还有开放知识库连接（Open Knowl-edge Base Connectivity，OKBC）、操作概念建模语言（ $0 \\mathrm { p \\mathrm { - } }$ erational Conceptual Modeling Language，OCML）、框架逻辑（FrameLogic，F-Logic）、LOOM等。",
+    "context3": "标记本体语言则多为产生于Internet环境下的本体语言和基于Web 的本体语言，具体包括资源描述框架（Re-source Description Framework，RDF）、简单的HTML本体扩展（Simple HTML Ontology Extension，SHOE）、本体交换语言（Ontology Interchange Language，OIL）、网络本体语言（Web Ontology Language，OWL）等。此外，在美国国防高级研究计划局（DARPA）资助下，美国多个研究机构和工业组织参与研究研制了“ $\\mathrm { \\Delta D A M L + O I L } ^ { \\prime }$ ，它融合了DAML（DARPA Agent Markup Language）和 OIL 的优点，支持OIL所不支持的实例、公理和规则的定义。",
+    "context4": "表达和推理能力是对比不同本体表示语言时的关键  \n点，对此，岳静等从主要元件、分类系统、关系和函数、  \n推理机制等方面对不同的本体表示语言进行了详细的比较  \n与分析后，总结各种语言在表达和推理能力上的表现见  \n表1[10]。",
+    "context5": "表1本体表示语言的总结  \nTab.1A summary of ontology represent language",
+    "context6": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Onto</td><td rowspan=1 colspan=1>OKBC</td><td rowspan=1 colspan=1>OCML</td><td rowspan=1 colspan=1>F-Logic</td><td rowspan=1 colspan=1>LOOM</td><td rowspan=1 colspan=1>RDF</td><td rowspan=1 colspan=1>SHOE</td><td rowspan=1 colspan=1>OIL</td><td rowspan=1 colspan=1>DAML + OIL</td><td rowspan=1 colspan=1>OWL</td></tr><tr><td rowspan=1 colspan=1>表达能力</td><td rowspan=1 colspan=1>强</td><td rowspan=1 colspan=1>中</td><td rowspan=1 colspan=1>中</td><td rowspan=1 colspan=1>中</td><td rowspan=1 colspan=1>中</td><td rowspan=1 colspan=1>中</td><td rowspan=1 colspan=1>中</td><td rowspan=1 colspan=1>中</td><td rowspan=1 colspan=1>中</td><td rowspan=1 colspan=1>中</td></tr><tr><td rowspan=1 colspan=1>推理引擎</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>中</td><td rowspan=1 colspan=1>中</td><td rowspan=1 colspan=1>强</td><td rowspan=1 colspan=1>强</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>中</td><td rowspan=1 colspan=1>弱</td><td rowspan=1 colspan=1>弱</td><td rowspan=1 colspan=1>中</td></tr></table>"
+  },
+  "1.3本体构建方法": {
+    "context1": "目前本体构建方法主要分为本体论工程法和基于叙词表的构建方法两大类，国内外学者针对不同应用项目提出了各类本体构建方法[1]。国外典型的本体构建方法有IDEF5 法、骨架法、TOVE 法、METHONTOLOGY法、KACTUS工程法、SENSUS 法、七步法、循环获取法等，国内唐爱民等也在本体构建领域上取得了一定进展[12-15] 。",
+    "context2": "本体构建方法大多都是在具体构建时提炼出的经验总结，因此不同领域适用的方法也不同。目前，对于本体的构建方法学界并未有统一的规则或指导方案。表2对当前常见本体构建方法优缺点进行了整理[8,16-17]。",
+    "context3": "表2本体构建方法优缺点对比  \nTab.2Comparisons on advantages and disadvantages of ontology construction methods",
+    "context4": "<table><tr><td rowspan=1 colspan=1>方法名</td><td rowspan=1 colspan=1>优点</td><td rowspan=1 colspan=1>缺点</td></tr><tr><td rowspan=1 colspan=1>IDEF5法</td><td rowspan=1 colspan=1>提供了结构化的方法，使用图表语言和细化说明来把概念形式化为本体，适用于企业本体的构建</td><td rowspan=1 colspan=1>需要人工构建。图形化语言难以支持大规模的自动半自动构建，且不支持演进</td></tr><tr><td rowspan=1 colspan=1>骨架法</td><td rowspan=1 colspan=1>对于本体的构建提出了完整的方法指导，适用于企业本体的构建</td><td rowspan=1 colspan=1>需要人工构建。缺乏具体的构建方法和技术,仅仅提供了构建流程指引，成熟度和实用性均不强，实际构建时单独运用较少</td></tr><tr><td rowspan=1 colspan=1>TOVE法</td><td rowspan=1 colspan=1>提出了一种把建立的非形式化描述说明转化为形式化本体的构建方法，重视本体评价，适用于企业本体的构建</td><td rowspan=1 colspan=1>需要人工构建。缺乏文档化过程和具体的步骤说明。有非形式化向形式化转化的过程，可能造成信息缺失或错误</td></tr><tr><td rowspan=1 colspan=1>METHONTOLOGY 法</td><td rowspan=1 colspan=1>适合开发大型本体，重视本体的重用。各阶段都具有比较完整的技术工具支持，成熟度高。适合构建领域知识本体</td><td rowspan=1 colspan=1>需要人工构建。不支持本体的迭代演进，且国内不具备相应的技术工具</td></tr><tr><td rowspan=1 colspan=1>KACTUS 法</td><td rowspan=1 colspan=1>能在已有的本体或知识库上实现重用，能自下向上构建本体，能检索已有的本体并进行精简和扩展</td><td rowspan=1 colspan=1>缺少本体评估和文档化过程。主要是对已有本体的提炼和扩展，不适合用于构建新的本体</td></tr><tr><td rowspan=1 colspan=1>SENSUS法</td><td rowspan=1 colspan=1>使用启发式思维来查找术语。利用自然语言技术处理本体。可操作性较强，重视应用。适合构造面向特定领域的本体</td><td rowspan=1 colspan=1>缺乏本体评估和文档化过程，不支持本体的演进</td></tr><tr><td rowspan=1 colspan=1>七步法</td><td rowspan=1 colspan=1>一种基于本体构建工具Protegé的半自动领域本体构建方法，也是目前成熟度最高、应用最为广泛的一种方法</td><td rowspan=1 colspan=1>缺乏评估环节，不支持本体的演进</td></tr><tr><td rowspan=1 colspan=1>循环获取法</td><td rowspan=1 colspan=1>强调本体的迭代循环，支持本体演进。是一种基于文本的半自动领域本体构建方法，采用环状结构</td><td rowspan=1 colspan=1>缺乏具体的方法和技术，成熟度一般</td></tr></table>"
+  },
+  "2本体构建研究主题演化及趋势分析": "",
+  "2.1本体构建领域主题演化分析": {
+    "context1": "为进一步剖析本体构建领域研究主题间的关联关系和“本体”及“领域本体”节点；最后，对三个阶段的关键词核心共现网络，进行社团挖掘，并通过颜色（计算机显示颜色，下同）区分不同社团，见图1\\~图3。",
+    "context2": "结合图1\\~图3，发现我国本体构建研究主题在近 20演化态势，引入社会网络分析思路，综合运用关键节点识别和社团挖掘算法对本体构建主题进行分析。结合本体构建研究领域热度变化趋势，从2003—2010 年、2011—2017年和 2018—2022年三个时段进行分析。",
+    "context3": "首先，对于三个阶段的文献，根据每篇文章关键词，构建关键词共现网络；随后，考虑到直接通过关键词共现构建的网络较为庞大，为提取出具有代表性的核心网络，根据关键词节点间的共现次数，提取共现次数大于等于两次的连边构建核心共现网络；同时，因检索主题词为“本体构建”，几乎每篇文献关键词都包含“本体”或“领域本体”，为避免冗余影响后续分析，剔除析、知识管理、知识表示、数字图书馆等主题，OIL（OntologyInterchangeLanguage）、OWL（Web Ontology Language）等基于Web 的本体表示语言是该阶段本体表示语言研究方面的热点。",
+    "context4": "![](images/00c8e1a89e40c85fb92bb6adabea1901737a9c586adfa47fabf29db4bc421df2.jpg)  \n图12003—2010年关键词核心共现网络图  \nFig.1Core keywords co-occurrence network（2003 -2010)",
+    "context5": "![](images/064cb862d02fc43a8f8b6e1e6d93ea06684b8ef4e326c7ef8e92787c038a289f.jpg)  \n图22011—2017年关键词核心共现网络图",
+    "context6": "2）2011—2017 年，这一阶段研究主题呈现多元化趋势，一方面，相较前一阶段，除了本体论相关研究热度明显下降外，承接了前一阶段语义分析、知识管理、知识表示、数字图书馆等热门主题，且关联数据和本体映射主题发展为研究新热点；另一方面，对文本挖掘、相似度计算等可用于本体构建技术的研究热度攀升，知识图谱相关研究在该时段虽有出现，但尚未吸引较多关注。",
+    "context7": "![](images/b4ac4df3bc0d3db70bc17ffd187e509b7f834d883dd5d2608a9e16039ff45bb9.jpg)  \nFig.2Core keywords co-occurrence network（2011-2017)   \n图32018—2022年关键词核心共现网络图  \nFig.3Core keywords co-occurrence network（2O18 -2022)",
+    "context8": "3）2018—2022 年，这一阶段知识图谱成为研究热点，相关研究多涉及本体在知识图谱建立过程中的应用，与之关联密切的主题除了关联数据、知识组织、知识推理、知识表示、知识融合等本体研究领域核心问题，还包括自然语言处理、深度学习、图数据库、图数据挖掘等新兴技术主题。"
+  },
+  "2.2本体构建领域趋势": {
+    "context1": "在关键词核心共现网络图的基础上，进一步结合领域内代表性文献，梳理近年来本体构建研究热点。",
+    "context2": "1）自动化/半自动化本体构建。本体构建自动化相关研究由来已久，但大数据时代的来临，海量的信息资源为本体构建自动化/半自动化提供数据基础的同时，也使得对本体年间发生了较为明显的变化。",
+    "context3": "1）2003—2010年，研究重点集中于本体论、语义分构建自动化的需求日益迫切。概念和概念间关系的自动抽取是本体自动构建过程的核心内容[18]，从早期基于语言学规则和统计技术的自动抽取，到近年来， $\\mathrm { B L S T M } ^ { [ 1 9 ] }$ BERT[20]等前沿技术逐渐出现在本体构建自动化研究中，随着机器学习、自然语言处理、深度学习等技术的不断发展，本体构建自动化研究有望成为未来本体构建研究新热点。",
+    "context4": "2）针对异构问题的本体融合。随着规模的增长，本体的异构问题日趋显现，逐渐成为近年来许多学者攻克的重点[2I-22]，尤其在生物医学、语义网、知识图谱等应用中如何解决表示异构、一词多义、本体对齐[23]等问题,逐渐成为在本体规模增长过程中面临的一大挑战。",
+    "context5": "3）本体与知识图谱间的转换集成。知识图谱由节点和边构成，其中节点表示实体或概念，边代表两个实体或概念之间的语义关系，其本质是一种大规模的语义网。知识图谱与本体内在逻辑的相似性和各自的优势使得，一方面本体库对公理、规则和约束条件等元件的支持能力有助于规范知识图谱中实体、关系、属性等之间的联系[16]；另一方面，知识图谱在数据层的规模优势能够为本体构建提供基础信息，有助于本体构建质量和效率的提升。",
+    "context6": "综合来看，一方面，知识管理、知识表示、知识组织等核心问题始终是本体构建领域关注的重点；另一方面，从早期对本体论及本体表示语言的研究，到后续对文本挖掘等技术的关注，再到近年来知识图谱及相关技术逐渐成为相关研究热点，知识图谱的提出和深度学习等技术的发展有望为本体研究注入新的活力。"
+  },
+  "3本体应用": {
+    "context1": "近年来，本体不仅广泛应用于知识图谱，还在生物医学、信息检索、推荐系统、风险管理等领域得到了广泛关注。"
+  },
+  "3.1知识图谱": {
+    "context1": "2012年Google正式提出了知识图谱（KnowledgeGraph）概念，随后知识图谱受到业内广泛关注，研究热度不断攀升。知识图谱的构建过程主要分为知识抽取、知识融合和知识推理三大块[17]。其中，本体对齐是知识融合的关键步骤，主要指在不同本体中，对具有相关语义的概念建立联系的过程，实现不同本体间的知识共享，达到数据的统一性[24]。而在知识推理中，基于本体的推理方法为众多推理方法中的一种，主要通过预定义本体中的公理来实现知识的拓展[25]。",
+    "context2": "本体规范化的优势使其能够从表达和推理能力的角度优化知识图谱模式层的构建，助力其在推理、问答等场景的应用，因而近年来本体在知识图谱构建中受到广泛关注。与此同时，知识图谱关联的实体抽取、关系抽取、图数据库、图数据挖掘等技术，有望成为突破大规模本体构",
+    "context3": "建瓶颈的新抓手。"
+  },
+  "3.2生物医学": {
+    "context1": "生物医学是本体最早的应用领域之一，相关理论较为成熟，应用案例较多。生物领域代表性本体库基因本体（Gene Ontology，GO）最初由基因本体组织（Gene Ontolo-gy Consortium，GOC）于1998 年建立，早期GOC内仅有研究酵母、果蝇和小鼠的科学家[26]，而今已囊括大多数动物数据库、植物数据库和微生物数据库，GOC的目标是对基因产物进行一致结构化、定义明确的描述，并在全面涵盖生物学概念的基础上，进一步就如何使用这些概念来描述所有生物体的基因功能在各界达成共识[27]。",
+    "context2": "在医学领域，代表性本体库包括一体化医学语言系统（Unified MedicalLanguage System，UMLS）和人类疾病本体库（Disease Ontology，DO）。一体化医学语言系统是美国国立医学图书馆研制开发的巨型医学术语系统，收录了约200万个医学概念，500多万个医学词汇，具体由超级叙词表、语义网络、专家词典及词汇工具组成[28]。人类疾病本体库（DiseaseOntology，DO）自建立之初经过了多轮更新，在疾病知识的组织、表述和标准化方面发挥着关键作用，作为多尺度生物医学数据整合和分析的参考框架，服务于全球数千个临床、生物医学和计算研究项目[29]。"
+  },
+  "3.3信息检索": {
+    "context1": "随着互联网的发展与普及，信息检索成为高效获取高质量信息的重要保障。在语义检索中，计算机可以利用本体对知识的规范化描述来更好地理解信息资源的语义，极大提升检索的效率及准确率，并为不同软件、系统间的知识共享提供坚实基础[30]。目前，信息检索中的本体应用的经典例子包括 OntoAgent、Ontobroker。",
+    "context2": "OntoAgent是一个使用RDF、RDF 模式和Ruleml的规范代理平台，确定了基本代理组件，并描述了它们使用关系数据库和Java技术的实现，其代理通过标准互联网协议进行通信[31]，主要用于检索互联网上已有的本体。On-tobroker基于本体实现，通过本体注释Web文档，并提供查询访问和推理服务，以处理所呈现信息的语义，可以实现Web文档的智能代理服务，而无须更改Web文档的半形式性质[32]，主要应用于检索网页。"
+  },
+  "3.4推荐系统": {
+    "context1": "本体作为知识工程的重要工具，在知识的获取、表示、分析和应用中发挥着重要作用，有助于推荐系统中语义缺乏、结构化程度低等问题的解决[33]，在新闻推荐[34]、在线学习推荐[35]、商品推荐[36]等场景得到了广泛的应用。",
+    "context2": "因本体在知识系统化组织方面的优势，在在线学习推荐场景的应用占比较高。推荐对象早期多用学习对象（LearningObjects）、学习路径（Learning Paths）、学习设备（Learning Devices）、教学情景（Pedagogical Scenarios）等词表述，近年来，相关研究则多采用学习资源（Leam-ing Resource）、学习素材（Learning Materials）等词[37]"
+  },
+  "3.5风险管理": {
+    "context1": "风险管理对信息的全面性、及时性、关联性和规范性都有较高的要求，本体在知识表达和推理方面的优势天然适配风险管理对信息的要求，同时受知识图谱和信息技术发展的带动，近年来本体构建在多源信息融合、体量扩增等方面也呈现较好的发展态势。",
+    "context2": "在此背景下，本体被引入突发事件[38]、金融业务[39]、战略预警[40]等风险管理具体场景，并在预测突发事件的演变方向、赋能情报决策、推理风险应对策略、提供决策支持等方面展现出较好的效果。",
+    "context3": "除了上述领域外，本体还被应用于健康管理[41]、科学前沿识别[42]、情报赋能[43]等场景。"
+  },
+  "4问题与展望": {
+    "context1": "综合来看，与早期本体构建相关研究侧重本体构建、本体语言、本体工具等方向有所不同，近年研究中本体更多被作为工具应用于各领域，且随着以本体作为语义层基础的语义网的不断发展和以本体作为底层逻辑的知识图谱的兴起，本体的应用范围进一步扩宽，除了经典的生物医学、信息检索等，在推荐系统、风险管理、情报赋能等领域也展现出较好的应用前景。",
+    "context2": "尤其近5年，相关研究中知识图谱成为一大研究热点，且多关联自然语言处理、深度学习、图数据库、图数据挖掘等技术主题，这类前沿计算机技术的应用和推广为本体构建和应用研究注入新的活力。与此同时，随着大数据时代的到来，本体的规模呈现爆炸式增长，自动化/半自动化本体构建、针对异构问题的本体融合、本体与知识图谱间的转换集成有望成为本体构建研究的热点。□"
+  },
+  "参考文献": {
+    "context1": "[1］NECHESR，FIKESRE，FININT，etal.Enabling technolo-gy for knowledge sharing[J]．AI Magazine，1991，12（3）：  \n36-36.[2] GRUBER TR.A translation approach to portable ontology spec-ifications[J]．Knowledge Acquisition，1993，5（2）：199-  \n220.[3] BORST P，AKKERMANS H，TOP J.Engineering ontologies[J]．International Journal of Human-Computer Studies，1997,  \n46(2-3):365-406.[4］STUDERR，BENJAMINSVR，FENSEL D. Knowledge engi-neering：principles and methods［J]．Data& Knowledge En-gineering，1998，25（1-2）：161-197.  \n[5] 张晓林，李宇．描述知识组织体系的元数据［J]．图书情报工作，2002（2)：64-69.  \n［6］李景．本体理论及在农业文献检索系统中的应用研究-以花卉学本体建模为例［D]．北京：中国科学院研究生院（文献情报中心），2004.  \n[7] 张秀兰，蒋玲．本体概念研究综述［J]．情报学报,2007，26 (4): 527-531.  \n[8] 王向前，张宝隆，李慧宗．本体研究综述［J]．情报杂志，2016，35(6)：163-170.  \n[9] GRUBER T R.Towards principles for the design of ontologiesused for knowledge sharing[J]．International Journal of Hu-man-Computer Studies，1993，43.  \n[10] 岳静，张自力．本体表示语言研究综述［J]．计算机科学，2006（2)：158-162.  \n[11] 樊小辉，石晨光．本体构建研究综述［J]．舰船电子工程，2011，31(6)：15-18，53.  \n[12] 贾君枝．《汉语主题词表》转换为本体的思考［J]．中国图书馆学报，2007，170（4）：41-44.  \n[13］李景．领域本体的构建方法与应用研究［D]．北京：中国农业科学院，2009.  \n［14］刘柏嵩．面向语义网的本体表示［J]．中国图书馆学报,2004(2):49-53.  \n[15] 唐爱民，真溱，樊静．基于叙词表的领域本体构建研究[J]．现代图书情报技术，2005（4）：1-5.  \n[16] 刘峤，李杨，段宏，等．知识图谱构建技术综述［J]．计算机研究与发展，2016，53（3）：582-600.  \n[17] 张吉祥，张祥森，武长旭，等．知识图谱构建技术综述[J]．计算机工程，2022，48（3）：23-37.  \n[18] 王向前，桂冬冬，李慧宗．面向文本的本体自动构建研究综述［J]．图书馆理论与实践，2019（4)：45-50.  \n[19] 王思丽，祝忠明，刘巍，等．基于深度学习的领域本体概念自动获取方法研究［J]．情报理论与实践，2020，43(3)：145-152，144.  \n[20] 王思丽，杨恒，祝忠明，等．基于 BERT的领域本体分类关系自动识别研究［J]．情报科学，2021，39（7）：75-82.  \n[21] XUE Xingsi，ZHANG Jie. Matching large-scale biomedical on-tologies with centralconcept based partioning algorithmand a-daptive compact evolutionary algorithm［J]．Applied SoftComputing，2021，106（7）：107343.  \n[22] OSMAN I，YAHIA SB，DIALLO G. Ontology integration:approaches and challenging issues [J]．Information Fusion,2021，71 (4):38-63.  \n[23] XUE Xingsi，YANG Chaofan，JIANG Chao，et al. Optimizingontology alignment through linkage learning on entity correspon-dences [J]．Complexity，2021，2021：1-12.  \n[24］吴子仪，李邵梅，姜梦函，等．基于自注意力模型的本体对齐方法［J]．计算机科学，2022，49（9）：215-220.  \n[25］杨延云，杜建强，熊旺平，等．本体和知识图谱的比较研究［J]．江西中医药大学学报，2021，33（4)：106-108.  \n[26]ASHBURNERM，BALLCA，BLAKEJA，etal.Gene ontol-ogy：tool for the unification of biology[J]．Nature Genetics,2000，25(1):25-29.  \n[27] BLAKEJA，CHAN J，KISHORER，et al.Gene OntologyConsortium：going forward ［J].Nucleic Acids Research,2015，43（D1)：D1049-D1056.  \n[28] 李晓瑛，李军莲，李丹亚．一体化医学语言系统及其在知识发现中的应用研究［J]．数字图书馆论坛，2019，184(9):24-29.  \n[29] SCHRIMLLM，MUNRO JB，SCHOR M，et al. The humandisease ontology 2022 update [J]．Nucleic Acids Research,2022，50（D1)：D1255-D1261.  \n[30] 周艳．基于本体的信息检索的研究与应用［D]．成都：电子科技大学，2010.  \n[31] EBERHART A. OntoAgent：a platform for the declarative spec-ification of agents [J]．University of Cambridge，2002.  \n[32] FENSEL D，DECKER S,ERDMANN M，et al.Ontobroker:the very high idea[C]//The Florida AI Research Socie-ty.Menlo Park：AAAI Press，1998.  \n[33] 朱文跃，刘炜，刘宗田．基于事件本体的新闻个性化推荐[J]．计算机工程，2019，45（6)：267-272，279.  \n[34] IJNTEMA W，GOOSSENF，FRASINCARF，et al. Ontology-based news recommendation ［C]//Proceedings of the 2010EDBT/ICDT Workshops.Lausanne：ACM，2010：1-6.  \n[35] TARUS JK，NIU Z，MUSTAFA G.Knowledge-based recom-mendation：a review of ontology-based recommender systems fore-learning［J]．Artificial Intelligence Review，2O18，50(1):21-48.",
+    "context2": "[36]KARTHIK R V，GANAPATHY S.A fuzzy recommendation system for predicting the customers interests using sentiment analysis and ontology in e-commerce [J]．Applied Soft Computing,",
+    "context3": "2021，108（1)：107396.",
+    "context4": "[37］RAHAYUNW，FERDIANAR，KUSUMAWARDANISS.Asystematic review of ontology use in E-Learning recommendersystem[J].Computersand Education：Artificial Intelli-gence，2022，3（1)：100047.  \n[38］栾宇，张海涛，刘伟利，等．突发事件超本体：结构模型及构建方法［J]．情报理论与实践，2023，46（3）：43-50.  \n[39］谢忠局，陈思安，张文迪，等．金融科技业务风险本体构建与推理仿真［J]．计算机仿真，2022，39（4)：1-4，36.  \n[40] 朱刚，李昌玺，李志淮，等．基于本体的战略预警作战能力概念模型[J]．火力与指挥控制，2022，47（10)：25-30.  \n[41] ZHANGWeiqiang，XIANG Yidan，LIU Xiaohui，et al．Do-main ontology development of knowledge base in cardiovascularpersonalized health management ［J]．Journal of ManagementAnalytics，2019，6（4)：420-455.  \n[42］冯佳，张云秋．基于LDA和本体的科学前沿识别与分析方法研究［J]．情报理论与实践，2017，40（8)：49-54.  \n[43] 胡勉宁，李欣，李明锋，等．面向前端防范的网络威胁情报细粒度本体研究［J/OL]．情报杂志：1-7［2023-07-24]．http://kns.cnki.net/kcms/detail/61．1167．G3.20230602.1039.018.html.",
+    "context5": "作者简介：李爱华，女，1978 年生，教授，博士生导师。研究方向：数据挖掘与管理决策。徐以则，男，2002年生。研究方向：数据挖掘与数据分析。迟钰雪（通信作者，Email：chiy@ cufe.edu.cn），女，1993年生，助理教授。研究方向：数据挖掘与决策支持。",
+    "context6": "作者贡献声明：李爱华，论文框架构建，数据分析，论文撰写。徐以则，数据整理，数据分析，论文撰写。迟钰雪，数据整理，论文框架构建，数据分析，论文撰写。",
+    "context7": "录用日期：2023-07-20"
+  },
+  "（上接第163页）": {
+    "context1": "[35］向姝璇，李睿．基于专利文献整体相似度计算的竞争对手发现—以5G领域为例［J]．情报理论与实践，2021，44(5):100-105.  \n［36］钱佳佳，罗卓然，陆伟．基于问题一方法组合的科技论文新颖性度量与创新类型识别［J]．图书情报工作，2021，65(14):82-89.  \n[37] 罗卓然，陆伟，蔡乐，等．学术文本词汇功能识别——在论文新颖性度量上的应用［J]．情报学报，2022，41(7):720-732.  \n[38］王田苗，陶永．我国工业机器人技术现状与产业化发展战略［J]．机械工程学报，2014，50（9)：1-13.  \n[39］李放夏．基于专利地图的企业技术创新能力研究［D].沈阳：辽宁大学，2017.  \n［40］宋凯，冉从敬．基于指标计算与内容分析的高校专利价值评估方法研究［J]．情报理论与实践，2023，46（2）：136-144.",
+    "context2": "[41]MASEH，MATSUBAYASHI T，OGAWA Y，et al.Proposalof two-stage patent retrieval method considering the claim struc-ture［J]．ACM Transactions on Asian Language InformationProcessing，2005，4（2）：190-206.",
+    "context3": "[42］杨思思，戴磊，汪一名．基于Innography平台的碳纤维布专利分析及创新趋势研究［J]．现代情报，2016，36(6):154-164，170.",
+    "context4": "作者简介：唐晓波（通信作者），男，1962年生，教授，博士生导师。研究方向：知识组织与情报研究。朱婧，女，1998年生，硕士生。研究方向：知识组织与情报研究。杜鑫，女，1996年生，博士生。研究方向：知识组织与情报研究。",
+    "context5": "作者贡献声明：唐晓波，论文总体思路、框架结构设计与修改。朱婧，实验及论文内容组织与撰写。杜鑫，数据分析与论文修改。",
+    "context6": "录用日期：2023-04-25"
+  }
+}

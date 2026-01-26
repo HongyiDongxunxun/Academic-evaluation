@@ -1,0 +1,103 @@
+{
+  "original_filename": "full_2572.md",
+  "合规与妥协：空客德国产品数据归档的现状及其启示": "",
+  "高闯」柳林集²": {
+    "context1": "(1成都飞机设计研究所成都 610091;2航空工业档案馆北京 100012)",
+    "context2": "摘要以三维模型为代表的产品数据是产品档案的重要组成部分，应进行长期归档保存。本文对空客德国公司开展产品数据归档的依据、标准、系统和流程进行了详尽的介绍，通过空客德国公司的最佳实践，阐述了其对我国工业企业开展产品数据归档的启示，以期推动我国产品数据的归档工作。",
+    "context3": "关键词 空中客车公司产品数据长期保存三维模型归档合规管理DOl:10.16065/j.cnki.issn1002-1620.2021.02.017"
+  },
+  "Compliance and Compromise: The Current Status of Airbus Germany Product Data Archiving and Its Inspiration": {
+    "context1": "GAO Chuang'，LIU Linji² (1Chengdu Aircraft Design& Research Institute，Chengdu610o91；2Archives of Aviation Industry Corporationof China，Beijing100012）",
+    "context2": "Abstract: Product data represented by three-dimensional models is an important part of product archives and should be archived for long periods of time.This article gives a detailed introduction to the basis,standards, systems and proceses of Airbus Germany's product data archiving. Based on Airbus Germany's best practice, its inspiration for product data archiving of Chinese industrial enterprises is expounded, with a view to promoting the product data archiving in China.",
+    "context3": "Key words: Airbus; product data; long-term preservation; 3d model archiving; compliance management"
+  },
+  "0引言": {
+    "context1": "为无法接受的解决方案，需要将产品数据以三维模型归档。[",
+    "context2": "随着复杂产品研发制造中基于模型定义（ModelBasedDefinition，MBD)技术的广泛应用,极大地提高了产品研发和生产效率，工业企业对产品数据的依赖程度逐渐提高。三维设计的产品数据取代二维图样成为产品生产制造的唯一依据，为保证这些数据的全生命周期可用，归档保存势在必行。但由于三维模型数据的复杂性，将其输出为二维图样已经成",
+    "context3": "国内产品数据的长期保存问题一直悬而未决，要不要进行归档，如何进行归档，无法完整保存和还原怎么办，这一系列问题始终困扰着国内的科技档案工作者，同时也让信息技术人员望而却步。空中客车公司(简称空客)作为较早应用全三维设计生产的国际顶尖航空企业，在产品数据应用上有成熟的经验，笔者曾于2018年随航空工业集团公司团组一道短暂到访了空客德国，本文以空客德国为例，介绍其目前开展的产品数据归档实践。"
+  },
+  "1空客德国的电子文件及产品数据归档现状": {
+    "context1": "空中客车集团是全球著名的航空航天企业，前身为欧洲宇航防务集团公司，2014年更名为空中客车集团,分为空中客车公司（以下简称空客公司）、空中客车直升机和空中客车防务与航天公司三个子公司,分别负责商用飞机、直升机、防务和航天业务，空客公司分布在法国、德国、英国、西班牙等不同国家。2其德国业务主要位于汉堡，负责空客全系列飞机机体制造和A320系列飞机总装交付。"
+  },
+  "1.1开展档案管理的依据": {
+    "context1": "空客作为面向全球的大型航空企业，全球化的合规经营是其开展档案工作的主要依据，其中最重要的是主营业务航空器的适航安全合规。民用航空器的适航主要包括取证适航和持续适航两个方面[3]，取证适航和持续适航涵盖了航空器设计、试制、试验、试飞、商业运行直至退役的整个生命周期，空客德国档案馆开展归档的目的就在于保证航空器整个生命周期内适航法规要求的所有产品数据及记录可用。除遵循德国本土相关法规外，欧盟内空客公司档案工作的依据是一致的。",
+    "context2": "适航法规方面，空客主要遵循两大局方的规定，即欧洲航空安全局（EASA）和美国联邦航空局（FAA）对于航空器设计、制造、运营记录保存的要求。作为境内直接管理局方，EASA的适航条例“(EU）No748/2012附件1初始适航”中对于每项适航要求的档案保管都进行了规定[4（见表1)，“(EU)1321/2014附件1持续性适航”中的“AMCM.A.305航空器持续适航档案系统”明确定义了存档的内容、载体形式、安全性和可追溯性等要求，其中特别提到了采用计算机系统存储的档案应设有备份系统，保证24小时内数据必须进行同步更新，并应采取安全措施防止非授权用户更改这些档案。[5]",
+    "context3": "美国FAA适航条例则对航空企业提出了更为严格细致的档案管理要求，也成为空客档案馆开展电子档案管理的主要依据。如AC No.21-43A中关于制造记录档案管理系统的要求，囊括了权限、审计、软硬件保护、介质控制、文档、可用性等方面，其中介质控制就有六项要求。ACNo.20-179规定了提交局方的设计资料的要求[8]，ACNo.21-48规定了采用数字化建模系统来设计产品数据的要求[，这些相关条例都是空客档案馆贯彻的重点。",
+    "context4": "表1EASA适航条例要求的“初始适航”存档资料[]",
+    "context5": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>资料分类</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>合规计划</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>主图或图纸清单，生产图和安装说明</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>工程报告(静态强度，疲劳,破坏容限,故障分析等)</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>地面和飞行测试计划和结果</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>质量和平衡变化数据</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>保养和维修手册补充</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>维修计划的变更和持续适航的指示</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>飞机飞行手册补充</td></tr></table>"
+  },
+  "1.2电子档案管理的原则": {
+    "context1": "空客公司基于局方的适航条例和企业内部对于技术知识保存和文化传承的要求开展档案工作，其核心为合规。空客为电子档案确定了六个原则： $\\textcircled{1}$ 不可更改性; $\\textcircled{2}$ 完整性; $\\textcircled{3}$ 可检索性; $\\textcircled{4}$ 可读与可还原性; $\\textcircled{5}$ 可信性； $\\textcircled{6}$ 可追溯性。每一项原则落实在档案管理实践中都有具体的细节要求，是空客公司电子档案管理必须遵循的原则（见表2）。",
+    "context2": "表2六大原则及对应的手段",
+    "context3": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>原则</td><td rowspan=1 colspan=1>采取的手段</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>不可更改性</td><td rowspan=1 colspan=1>以适当的归档格式和介质以及完整性信息的使用确保可信度</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>完整性</td><td rowspan=1 colspan=1>加密函数（如哈希算法)，确保档案数据长期不变或未修改的</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>可检索性</td><td rowspan=1 colspan=1>利用元数据使信息可以检索</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>可读与可还原性</td><td rowspan=1 colspan=1>使用长周期可用的归档格式和介质使信息长期可用</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>可信性</td><td rowspan=1 colspan=1>原始文件、湿油墨，归档过程中使用的都是真实的文件</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>可追潮性</td><td rowspan=1 colspan=1>信息的创建、更新、读取或删除的记录都会被记录在档案中</td></tr></table>",
+    "context4": "空客档案馆持续跟踪了解相关业务方的数据归档需求和技术手段变化，跟踪新兴IT技术、信息标准和计算平台，及时发现可能导致目前的存档技术过时的技术，并定期开展已归档数据的可用性检查。"
+  },
+  "1.3公司的档案管理系统": {
+    "context1": "空客德国的档案管理系统是完全基于ISO14721:2012开放档案信息系统（Open ArchivalInformation System，OAIS)参考模型开发,其内部名为德文缩写ZAMIZ（Zentrale ArchivierungMitInteraktivemZugriff,交互式访问的中心档案馆），由德国电信下属T-system公司作为主要承包商，基于其自有ECM与OpenText公司的软件产品开发。系统建设完成后，空客法国总部委托TUV北德集团对ZAMIZ系统进行了评估，对其德国及欧盟标准的合规性进行了认证。[10]",
+    "context2": "ZAMIZ系统可以批量导入和手工提取业务系统数据和供应商生成的海量数据，该系统在空客处于其他业务系统下游，主要的业务来源系统包括产品数据管理系统（PDM）（空客目前运行有PTC和达索两个品牌的PDM系统）和制造执行系统（MES）等。该系统可完成电子文件的提取、存储、管理、访问和维护等归档全过程。支持原生电子文件的格式转换（如PDF/A格式）和有效性验证，支持归档数据的检查反馈，同时兼容纸质文档的扫描与全文识别。",
+    "context3": "归档文件格式方面，空客基于开放性、稳定性和依赖性原则选用了各种中性格式作为电子文件长期保存的格式，如TIFF、ASCII、PDF/A、STEP、JPEG、SGML、XML等，文件的转换功能主要通过T-system公司的ImageMaster软件实现。",
+    "context4": "文件存储方面，为了保障电子文件的不可更改性,该系统应用了时间戳校验技术。图1是存档信息包的校验方式，系统基于存档信息包的内容元数据生成时间戳，并将存档信息包和时间戳文件的哈希值(hash-value)保存在数据库中,再对时间戳文件进行哈希值校验，基于SHA2的校验算法由空客提供，保障存档信息包的不可更改性。ZAMIZ系统应用Oracle数据库，运行在“归档日志”模式，通过使用归档日志，可以保留所有重做历史记录，在数据库发生损坏时,可以通过日志完全恢复数据。",
+    "context5": "![](images/d2d88548eb8be7e0e5ac4a1260fea81aa6853b9448de7ad4037357abd61c156a.jpg)  \n图1存档信息包的校验方式",
+    "context6": "存储管理方面，电子档案全文存储在两套不同地点的服务器中,互为备份,每套都是基于NetApp公司的设备，并应用SnapLock技术保障数据安全，该技术是一种一次写入、多次读取(WORM)技术,符合德国DAkkS组织和美国证券交易委员会“SEC17a-4(f)”等法规的要求[]。同时系统使用磁带库进行数据的近线备份。",
+    "context7": "访问利用方面,空客所属企业用户和供应商用户通过单点登录档案系统，进行信息检索，用户的权限由系统控制，支持在线预览和查看（三维模型暂不支持)，用户可以通过该系统查看分发的文件并导出。"
+  },
+  "1.4产品数据归档情况(以A350项目为例)": {
+    "context1": "三维产品数据作为重要的设计记录和制造依据，是空客档案馆必须要保存的电子档案，而三维数模归档需要满足前述的六个基本原则并不是易事，根据FAAAC21-48的规定，基于计算机建模的产品数据集必须提供全生命周期的无更改保存和再利用[2]。这为飞行器厂商制造了一个难题：据AIA统计,计算机辅助设计(CAD)软件版本每6个月升级一次，CAD软件每7年进行一次换代[13]。而目前预计服役期最长的飞机生命周期超过70年，与飞机或装备系统的生命周期相比，CAD软件和计算机硬件的生命周期太短，无法满足适航法规遵从的要求。"
+  },
+  "1.4.1 LOTAR项目": {
+    "context1": "为破解三维数据集无法长期保存的难题，美国航空航天工业协会（AIA)和欧洲航空航天与防务工业协会（ASD-STAN)联合开展了攻关，以美国波音、洛马和欧洲空客、达索等航空航天和国防工业的领先企业和解决方案提供商共同组建了长期保存和检索国际项目组（Long Term Archiving and RetrievalInternationalProject Group，简称LOTAR）。满足三维产品数据的长久保存和再利用是LOTAR项目的目标，项目发布了AIA和ASD双标准EN/NAS-9300系列，对基于三维设计的PDM数据归档进行了约定[14],该项目已经被几个主要的航空企业采用。空客作为LOTAR的主要参与人，在A350项目中完全贯彻了这一系列标准。"
+  },
+  "1.4.2标准选用": {
+    "context1": "LOTAR项目选用产品数据模型交换标准STEP(Standard for the Exchange of Product Model Data)（ISO10303）开展长期保存研究，STEP格式诞生于CAD软件之间的数据交换需求，LOTAR一直在推动STEP标准的革新，从STEPAP $2 0 3 ~ \\mathrm { e d } 2$ 、STEPAP214ed3、STEPAP242ed1先后成为ISO国际标准10303的子集，最新的STEPAP242ed2于2020年成为国际标准（标准号：ISO10303-242:2020）[15]。",
+    "context2": "空客选用STEPAP214ed3和AP242ed1作为产品数据长期保存的格式，前期保存的AP214的数据由于标准限制,缺失的特性较多,空客已经在有计划地提取归档前的源数据向AP242迁移。除空客外，波音、洛马等公司也已经或计划在787、F-35等项目上使用STEP特定的版本开展长期保存工作（见表3）。"
+  },
+  "1.4.3产品数据归档的流程": {
+    "context1": "在A350项目中空客同时应用了法国达索公司的虚拟产品建模系统（VPM）和美国PTC公司的PDMLink作为管理工具。A350的设计数据存储在VPM/VGS中，通过PDM系统审核发布，进行认证检查无误后生成SIP数据包通过接口进入档案管理系统ZAMIZ。模型的格式转换应用的是T-system公司的工具COM/FOX，选用的格式标准为STEPAP214ed3和AP $2 4 2 { \\mathrm { ~ e d } } 1$ ，对转换后的AIP数据包进行归档保存,数据包中包括内容（PDF文档、step文件及物料数据 $\\mathrm { x m l }$ )和元数据（分保存用和检索用两种），档案馆对原CATIA格式的模型不进行保存，图2展示了产品数据转换的过程。",
+    "context2": "表3空客等LOTAR成员企业的长期保存格式选择[16]",
+    "context3": "<table><tr><td rowspan=1 colspan=1>宇航企业</td><td rowspan=1 colspan=1>应用项目</td><td rowspan=1 colspan=1>目标</td><td rowspan=1 colspan=1>精确几何</td><td rowspan=1 colspan=1>网格几何</td><td rowspan=1 colspan=1>PMI</td><td rowspan=1 colspan=1>装系</td><td rowspan=1 colspan=1>采用格式ISO 10303</td><td rowspan=1 colspan=1>进展</td></tr><tr><td rowspan=1 colspan=1>空客公司</td><td rowspan=1 colspan=1>A350</td><td rowspan=1 colspan=1>3D电气线束安装</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>AP 214 ed3 (*)+ AP 242 ed1</td><td rowspan=1 colspan=1>生产</td></tr><tr><td rowspan=1 colspan=1>空客防务</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>基于“全三维”</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>AP 242 ed1</td><td rowspan=1 colspan=1>开发</td></tr><tr><td rowspan=1 colspan=1>达索航空</td><td rowspan=1 colspan=1>Falcon 7X</td><td rowspan=1 colspan=1>完整定义飞行器(机身、支架、导管、线束</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>香</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>AP 214 ed3 (*)</td><td rowspan=1 colspan=1>生产</td></tr><tr><td rowspan=1 colspan=1>斯奈克玛</td><td rowspan=1 colspan=1>发动机新部件</td><td rowspan=1 colspan=1>机械零件带PMI的三维定义</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>香</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>香</td><td rowspan=1 colspan=1>AP 214 ed3 (*)</td><td rowspan=1 colspan=1>生产</td></tr><tr><td rowspan=1 colspan=1>波音</td><td rowspan=1 colspan=1>787</td><td rowspan=1 colspan=1>带PMI的装配定义</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>AP 203 ed2 (*)+U3D PDF</td><td rowspan=1 colspan=1>生产</td></tr><tr><td rowspan=1 colspan=1>湾流</td><td rowspan=1 colspan=1>G500\\G600\\G650</td><td rowspan=1 colspan=1>3D机械、电气、复材</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>香</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>AP 203 ed2 (*)</td><td rowspan=1 colspan=1>生产</td></tr><tr><td rowspan=1 colspan=1>洛克希德马丁</td><td rowspan=1 colspan=1>F35</td><td rowspan=1 colspan=1>3D机械、电气、复材</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>香</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>AP 203 ed2 +AP242 ed1</td><td rowspan=1 colspan=1>计划</td></tr><tr><td rowspan=1 colspan=1>巴西航空</td><td rowspan=1 colspan=1>Legacy450\\Legacy500</td><td rowspan=1 colspan=1>飞行器的完整定义</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>香</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>AP 242 ed1</td><td rowspan=1 colspan=1>开发</td></tr><tr><td rowspan=1 colspan=1>MTU航空发动机</td><td rowspan=1 colspan=1>发动机新部件</td><td rowspan=1 colspan=1>3D定义(PMI除外)</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>香</td><td rowspan=1 colspan=1>香</td><td rowspan=1 colspan=1>准备</td><td rowspan=1 colspan=1>AP 214 ed3</td><td rowspan=1 colspan=1>生产</td></tr></table>",
+    "context4": "$\\star$ 计划迁移到最新标准。"
+  },
+  "(1)提取原始3D模型并执行质量检查": {
+    "context1": "由设计人员从设计环境中提取3D模型和相关组件,并利用检查工具对其进行质量检查，并生成模型质量检查报告，这个检查是在详细设计发图阶段进行的，并不额外占用设计人员的时间,相应的模型与VPM系统兼容。"
+  },
+  "(2)将原始3D模型转换为中性3D模型": {
+    "context1": "通过转换工具将模型转换为中性格式（STEP$\\mathrm { A P ~ 2 4 2 ~ e d 1 }$ )，原始模型被导入转换工具1，自动转换为中间格式模型(临时保存)，模型中包含了验证属性（VP1)，同时生成转换报告,报告中包含了转换的情况和错误报告。"
+  },
+  "(3)中性3D模型验证": {
+    "context1": "如图3所示，模型验证分为两步,第一步，将STEP模型导入转换工具，监控其完整性和纠错信息，生成验证属性(VP2),将VP2与VP1进行比较,验证中性模型的有效性,生成CAD验证报告(第1版)。第二步,为了提高中性模型的可靠性，将中性模型导入其他图形内核的CAD设计软件,监控导入过程，转换为该软件专有的CAD格式,将导人结果生成验证属性（VP3）。将VP3和VP1进行比对，比对结果生成CAD验证报告（第2版）。"
+  },
+  "(4)计算中性模型质量水平": {
+    "context1": "基于中性模型转换报告、原始模型质量报告、模型验证报告对中性模型的质量进行综合评估，总",
+    "context2": "结中性模型的整体情况,如果未通过评估模型需要重新转换。",
+    "context3": "(5)生成保存描述信息头 (PDI Header)",
+    "context4": "![](images/5489ff462af0e8e45b86af53d51e4b15289d494552b255be83f2086c88e68997.jpg)  \n图2产品数据转换的过程[17]",
+    "context5": "在VPM/VGS环境中生成原始模型的保存信息头，包括数模转换过程摘要和存档信息包的内容：上下文、参考文献、产品结构、出处。"
+  },
+  "(6)生成存档信息包": {
+    "context1": "在VPM/VGS环境中，存档信息包由中性模",
+    "context2": "![](images/8be46af788d731d1ee111253b06536c160ce618ed1f06130e3cd712bbbd5aaee.jpg)  \n图3中性模型验证过程[17]",
+    "context3": "型、中性模型转换报告、中性模型质量报告、模型验证报告、PDIHeader等部分构成，这些部分可以分成内容信息和保存描述信息(PDI)两类，其中内容信息包括中性模型，PDI包括内容信息生成的上下文信息。",
+    "context4": "完成以上全部步骤后，PDM中的模型状态被标记为“已发放”，同时生成数据包的校验文件以防止更改和损坏，最终的提交信息包(SIP)至此形成，可供PDM和其他系统使用。"
+  },
+  "2空客德国的档案管理实践带给我们的启示": {
+    "context1": "![](images/c0284f124ca34ed69841d597dfcd883feb37181e53788b99e8028e8a732ddfa7.jpg)  \n图4空客的电子档案合规体系"
+  },
+  "2.1合规是一个完整的体系": {
+    "context1": "空客德国目前的档案工作完全对标德国法律和局方适航条例，目的是在航空产品的生命周期内，即便是在企业声誉完全受损的情况下也能向第三方证明其合规性。这种“证据观”的要求超过我国档案管理目前普遍秉承的“凭证观”，即在内外部审计的情况下证明企业的合规性。合规经营是企业信用的根基，是企业基业长青的保证,也是企业为用户负责的体现。而档案是合规管理中重要的一环,为了留痕留证，空客采取了一整套完备的体系来保证电子档案的合规性，从文件格式选用、电子全文的封装、数据库安全、物理存储、安全备份、一致性校验等,环环相扣（见图4)。特别是产品数据转换的严谨性，反复验证比对,并以可归档的模型作为“已发放”版本。可以说覆盖了产品数据生命周期中所有的风险点，滴水不漏，同时ZAMIZ系统经过了国际知名认证机构TUV的权威认证，其效力得到德国及欧盟法律的认可。这种德国式的严谨，值得我们学习。"
+  },
+  "2.2妥协也是一种责任": {
+    "context1": "空客A350项目最初采用STEPAP214ed3格式,波音和洛马公司采用STEPAP203ed2格式，AP 203和AP214的缺点十分明显，不支持语义信息（PMI)，不支持复材铺层等，从数据复用的角度这些转换后的模型丢失的信息是不能容忍的，随着技术的进步和LOTAR不断地推动，2014年发布的STEPAP242标准解决了旧版标准的诸多问题,空客和波音等企业都计划将原归档的模型替换成新版模型，这看似有决策失误导致返工之嫌,却恰恰是我国产品数据长期保存项目迟迟未有实践进展的原因。由于中间格式方案难免造成模型信息丢失，哪些信息可以丢失，谁对长期保存的模型负责，是不是等更完善的新标准?这些问题困扰着企业的决策者、档案和信息技术人员，让产品数据归档工作停滞不前。空客等LOTAR成员在开展归档工作时虽然也面临着这些问题,但在合规要求和长期保存风险面前，空客选择妥协于当时的现行标准，及时开展产品数据归档工作，这是一种尊重法规和对企业负责任的态度，值得我们深思。"
+  },
+  "2.3产品数据归档亟须加速推进": {
+    "context1": "在产品设计生产中以全三维设计模型作为唯一依据的工程应用在国内已经超过十年，大量的重点重大工程项目严重依赖三维设计、仿真、制造技术和PDM等配置管理工具，但在国内没有自主知识产权三维设计软件的背景下,这些项目产品数据的安全性和长期可用性无法保证，随着三维设计软件的升级换代，数据无法打开或迁移的风险也日益凸显，一旦这些情形发生，损失是难以估量的。虽然国内的适航安全部门没有给出明确条例规定来要求产品数据必须要进行归档，但从空客等主流航空企业的经验看,长期保存工作即归档工作，而开展归档的时机就是当下，目前STEPAP242ed2已经相对完善，覆盖了3D模型的绝大部分特性[18],丢失信息可以容忍或可以采取其他补偿措施。",
+    "context2": "产品数据作为影响国计民生的核心数据资源，必须要进行安全可控的归档保存，这需要国家和相关工业企业及软件供应商下大力气推动产品数据的归档工作，摸透相关国际标准，并积极参与到国际长期保存项目中去，时不我待，切不可再左顾右盼,亡羊补牢。"
+  },
+  "3结语": {
+    "context1": "他山之石可以攻玉，空客的产品数据归档是行业的最佳实践之一。产品数据作为一种档案资源，是科技档案馆藏的应有之义，产品数据的长期保存是新技术环境下时代赋予科技档案工作的新使命，档案工作者要以超高的责任心，严谨细致的合规素养，推动我国产品数据的归档工作。",
+    "context2": "（感谢空客德国档案馆Christiane M.Baumgarten博士对本文的帮助。）",
+    "context3": "本文系航空工业成都所创新基金资助项目（项目编号：J-2020-034)研究成果之一。"
+  },
+  "参考文献": {
+    "context1": "[1]LOTAR.White Paper of LOTAR[EB/OL].[2019-12-19]. https://www.prostep.org/fileadmin/downloads/ProSTEPiViP_White-Paper_LOTAR_1.0.pdf.   \n[2]Airbus.2018_Annual_Report[EB/OL].[2019-12-19]. https://annualreport.airbus.com/pdf/Complete_Annual_ Report.pdf.   \n[3]EASA.Regulations [EB/OL].[2019-12-19].htps: //www. easa.europa.eu/document-library/regulations.   \n[4][6]EASA.(EU)No 748/2012 Initial Airworthiness [EB/ OL].[2019-12-19].https://eur-lex.europa.eu/legalcontent/EN/TXT/PDF/?uri $\\ l =$ CELEX:02012R0748- 20190623&from=EN.   \n[」 Guidance Material(GM) to Annex I(PART-M） to Regulation（EU) No 1321/2014[EB/OL].[2019-12-19]. https: //www.easa.europa.eu/sites/default/files/dfu/Annex%20 I%20to%20Decision%202015-029-R%20-%20%28AMCGM%20Part-M%29.pdf.   \n[7］FAA.AC 21-43A - Production Under 14 CFR Part 21[EB/ OL].[2019-12-19].ttps: //www.faa.gov/documentLibrary/ media/Advisory_Circular/AC_21-43A.pdf.   \n[8]FAA.Certification Data Retention Agreements and Government Records [EB/OL].[2019-12-19].htps: /www. faa.gov/documentlibrary/media/advisory_circular/ac_20-179. pdf.   \n[9][12]FAA.Using Electronic Modeling Systems as Primary Type Design Data.[EB/OL].[2019-12-19].https: //www.faa.gov/ documentLibrary/media/Advisory_Circular/AC_21-48.pdf.   \n[10]TUV NORD GROUP.Certificate ID: 9958.17[EB/OL]. [2019-12-19].https: //www.tuvit.de/fileadmin/Content/ TUV_IT/zertifikate/en/9958UE_s.pdf.   \n[11] NetApp.Snaplock数据合规性［EB/OL].［2019-12-19]. https: //www.netapp.com/cn/products/backup-recovery/ snaplock-compliance.aspx.   \n[13]Engineering Data Interoperability Working Group.Aerospace Industry Guidelines for Implementing Interoperability Standards for Engineering Data[R].Aerospace Industries Association,Inc,2014.   \n[14]LOTAR. LOng Term Archiving and Retrieval-LOTAR.[EB/ OL].[2019-12-19].http: //ww.lotar-international.org/ home.html.   \n[15]International Organization for Standardization.ISO/PRF 10303-242.[EB/OL].[2019-12-19].tps://www.iso.org/ standard/66654.html.   \n[16]Status of use of NAS/EN 9300 standards by LOTAR members [EB/OL].[2021-01-22]. https://lotarinternational.org/lotar-standard/industry-use/.   \n[17] Jean-Yves DELAUNAY. Overview of EN 9300 LOTAR standards for long term archiving and retrieval of digital technical product information.[EB/OL].[2019-12- 19]. http: //download.afnet.fr/ASD2018/ASD2018-6BJeanYvesDelaunay-Airbus.pdf.   \n[18]朱志.STEP作为存档格式保存三维模型信息能力评 估［J].兰台世界,2019(10)：106-109."
+  }
+}

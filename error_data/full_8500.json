@@ -1,0 +1,112 @@
+{
+  "original_filename": "full_8500.md",
+  "科学数据的方法元数据建设与应用现状研究以生物学领域为例": {
+    "context1": "赵怡萌邱春艳",
+    "context2": "【摘要】科学研究方法信息的记录和共享对于科学数据开放共享以及科学研究发展至关重要，但目前元数据对研究方法的描述和记录并不完善。分析元数据标准中方法元素以及元数据对方法描述中存在的问题，对今后方法元数据的建设和应用具有参考价值。以生物学领域为例，采用网络调查法和案例分析法，对元数据标准中方法元素的设计现状以及该领域数据仓储的方法元数据应用现状进行调查分析，发现多数元数据标准涉及方法元素，但缺乏独立模块，且在元数据应用实践中方法元素常被省略，对方法元数据的描述缺乏规范性。深入发掘和描述研究方法的特征，支持统一的受控词表，使用自动化元数据描述工具，支持语义关联等，将是方法元数据的建设趋势。"
+  },
+  "【关键词】科学数据方法元数据生物学数据仓储": {
+    "context1": "Abstract:Therecording and sharing of scientificresearch method information isvery important for theopening and sharingof scientificdataandthedevelopment of scientificresearch，but the descriptionandrecordingof research method by metadataisnot perfectat present.Theanalysisof themethod elements in themetadata standardandthe problems existing in themethod description basedon metadatawillbeof reference value totheconstructionandapplicationof method metadatainthe future.Takingthefieldof biologyasan example，using the methodsof network investigationand caseanalysis，the authors investigateand analyze the design status of method elements in metadata standards，and he application statusof method metadata in data warehouseinthis field.Itis found that most metadata standardscontain method elements，butthey lack independent modules.In practice，methodelementsare often omited，and the descriptionof method metadata isnotclearand nrmative.Itwillbethetrendof method metadataconstruction in the future to deeply exploreand describe the characteristics of research methods，supporta unified controlled vocabulary，use automatic metadata description tools，and support the semantic asociation between metadata method description records.",
+    "context2": "Key words: scientific data method metadatabiologydata repository DOI:10.15941/j.cnki.issn1001-0424.2021.15.007"
+  },
+  "0引言": {
+    "context1": "近年来，数据密集型科研范式兴起，开放科学实践受到国际科学界的广泛重视。从2018年国务院实施《科学数据管理办法》，到2020年中科院计算机网络信息中心与“欧洲开放科学云”核心机构欧洲网格基础设施（European Grid Infrastructure，EGI）基金会签约，中国在开放科学领域进一步加强了国际合作。随着新冠疫情在全球蔓延，元数据在科学数据开放共享实践中的作用受到重视。2020年4月，牛津大学“我们的数据世界”研究项目总监MaxRoser强调了最大化数据可重用性对于全球疫情防控的重要性，提出所有发布原始数据的人应该提供对于数据的清晰描述。元数据在科学数据的描述记录、长期保存、开放存取和共享等备受关注的领域中发挥着重要作用。",
+    "context2": "科学数据、实验室笔记和其他研究过程的免费开放，使得科学研究及其基础数据和方法能够进行复制、再利用和再分配，这种开放科学实践对推动科学数据开放共享和科研合作具有重要意义。对科学研究方法进行清晰的元数据描述，关系到科学实验和研究的可重复，方便对科研质量进行评估，并能节省研究人员的时间和精力。因此对方法元数据研究有助于优化科学数据管理，进而推动开放科学实践。"
+  },
+  "1国内外方法元数据研究现状": "",
+  "1.1方法元数据的定义和内": {
+    "context1": "Tiffany C.Chao将方法元数据定义为一种以科学研究方法为描述对象的元数据，记录科学研究背景下描述数据生产和分析过程的信息类型，包括关于在数据收集、处理或分析研究过程中所采取的任何程序的描述性信息，因此元数据中的方法元素包括数据生产过程的变化、数据收集的仪器和工具、采样方法记录和数据分析程序。目前并没有专门的方法元数据标准，因此目前方法元数据一般是指在元数据的具体设计和应用中，通过设定专门的元素来实现对方法的描述。",
+    "context2": "在方法元素的研究中，Chao通过调查发现在描述特定数据生成过程方面，DDI是比较完善的元数据标准。DDI中关于研究方法的元素有强制使用的“研究方法（Methodology）”，其内容涉及数据采集，确定了数据采集的软件、时间和重复模式，以及采样过程。其中的内容元素包括“数据采集软件（Data Colection Software”“采样过程（Sampling Procedure）”‘数据采集方法（Data Collection Methodology）”“时间方法（Time Method）”“与样本设计的偏差（Deviation From Sample Design）”。相关元素还有“采样程序类型（Sampling ProcedureType）”—描述采样类型、采样设计和采样绘图，支持使用简短术语或受控词汇对所描述的采样程序类型进行分类。"
+  },
+  "1.2对研究方法描述和共享的重要性": {
+    "context1": "研究方法的描述是为他人提供数据时要包含的关键信息，它的重要性在于一方面可以体现数据生产者在其领域内的专业水平和专业知识，另一方面还可以评估数据的质量，指导选择可重用的数据，更大发挥科学研究数据的社会价值5-d。在COVID-19疫情的相关研究中，伴随着元数据标准价值的凸显，数据管理专家提倡原始数据生产者提交关于数据的清晰描述，其中实验方法的描述不可或缺，其有助于进行比较分析，揭示宿主特异性、传播模式和样本采集协议的差异，为公共卫生响应提供信息，推动疫情进展评估。由此可见，在科学数据开放共享中，对研究方法进行描述具有独特的价值。"
+  },
+  "1.3元数据标准中方法元素的分析与设计": {
+    "context1": "国内外许多学者对元数据的元素进行设计和分析，在部分学科领域元数据标准中方法元素是重要组成部分，但依然有大量学科领域元数据标准并未涉及方法元素。无线传感器领域在科研人员记录、描述、解释、组织和管理科学数据的行为分析基础上，构建了包括数据存储方法和数据分析方法在内的6个维度的元数据标准。从方法元素在元数据标准中是否存在、详细信息和重要程度等方面来看，地球科学领域当前所运用的元数据标准中，DDI、EML和CSDGM相对完善。在国内的研究中，毕建涛等认为方法元数据可用来揭示资源环境信息系统中存储的各种数学模型以及方法的适用范围等内容。殷欣宁等用数据字典详细定义了空间信息系统中模型方法元数据的组成内容，提出采用通用建模语言的设计模式，并采用XML可扩展标记语言来表达。崔佳伟等在生物医学领域元数据标准与通用元数据标准中选取6种进行内容元素的梳理，发现“工具/方法”元素仅属于扩展元素，且该元素的元数据标准不超过3种[。"
+  },
+  "1.4对方法元数据生成相关问题的探讨": {
+    "context1": "元数据描述的质量问题一直都存在，正如Karasti所述，数据生产者提交的关于数据收集方式和原因的元数据记录并不总是那么清晰完整，且没有形成确定的描述规范，阻碍了科学数据的共享和重用。如果能使元数据提交工作更轻松便捷，将有助于这一问题的解决[。在元数据生成方式方面，McPhilips等提出随着计算密集型研究的增长，应借助工具和系统，采用半自动化的方式来记录科学程序和协议的分步描述以替代完全的手动记录[。随着技术进步，Rafael等开发了用于生成描述科学实验的元数据环境CEDAR Workbench来实现这一目标，允许用户基于可重用的模板元素构建元数据模板，填充模板以生成高质量的元数据，与用户或社区共享资源[。在方法元数据的描述方面，Chao证实了科研期刊文章是支持研究数据元数据生成方法描述的可靠来源，并提出了一组用于从期刊文章中识别方法描述的术语，但使用期刊文章进行识别和生成方法元数据的这种方法存在明显的学科差异，需要结合科研人员访问以生成高质量的方法元数据。"
+  },
+  "1.5研究述评": {
+    "context1": "综上所述，已有研究充分肯定了对研究方法进行元数据描述对于科学数据质量评估和数据复用的重要性，该价值在新冠疫情的相关研究中更是得到了进一步凸显。但是不同的元数据标准对方法元素的描述程度差异较大，目前可用于地球领域且方法元素比较完善的元数据标准有DDI、EML和CSDGM，其具有明确的以“研究方法”命名的元素模块，子元素则包含了数据采集、数据采集的软件以及采样过程等相关元素。而其他科学领域元数据标准中方法元素的建设和应用情况还有待深入研究。在方法元数据生成方面，科研人员希望数据提交者提供更清晰完整的描述，形成确定的元数据提交规范。自动化的元数据生成方式将是未来的趋势，可提高数据描述质量同时减轻数据提交者们的工作负担。方法元数据生成所依赖的数据来源可以是科研期刊文章，建立一套方法术语将有助于提高识别文章中方法描述的效率，使用这种方式应考虑不同学科的研究方法术语等的具体情况。",
+    "context2": "本研究将以生物学领域为例，从元数据标准的选用、方法元素的设计以及方法元素的具体使用方式等方面进行调查，并以此为基础对生物学领域数据仓储中方法元数据的应用现状进行分析，总结当前生物学领域方法元数据的实践现状，以期为生物学领域方法元数据的建设与应用提供参考，推动科学数据的共享和复用。"
+  },
+  "2生物学领域元数据标准的方法元素现状": "",
+  "2.1生物学领域元数据标准的选择与调查内容": {
+    "context1": "本研究对英国数字监护中心（Digital Curation Centre，DCC）中收录的生物学学科领域的科学数据元数据标准进行了梳理，在综合考虑每种元数据标准的权威性、应用广泛性、领域影响力及内容覆盖力的基础上，选取其中7种元数据标准。参考前人研究成果，从存在状态、详细信息和使用状态3个方面来调查元数据标准中方法元素的现状，具体要求为：",
+    "context2": "（1）存在状态，调查元数据标准中是否明确存在“方法（Method）”或“方法论（Methodology）”等揭示研究方法的元素。如果没有明确的“方法（Method）”类元素，则检查与研究方法元数据定义相关的标准元素，包括数据生产过程的变化、数据收集的仪器和工具、采样方法和数据分析程序等；（2）详细信息，调查元数据标准如何表示方法元素以及提交该字段所需的信息，具体调查特定标准中方法类元素的数量、名称和具体属性要求等，以便更好地理解研究人员在生成元数据时需要提供哪些方法信息；（3）使用状态，调查具体元数据标准对方法类元素的描述要求，是否强制，或者可选择，以便了解元数据标准对方法描述的支持程度。"
+  },
+  "2.2生物学领域元数据标准中方法元素设计现状": {
+    "context1": "通过网络调查和相关研究文献调研，得到初步调查结果（见表1)。根据调查结果，本文从方法元素的整体设计、具体内容和约束以及使用方式3方面对生物学领域元数据标准中方法元素的设计现状进行分析。"
+  },
+  "2.2.1生物学元数据标准中方法类元素的整体设计": {
+    "context1": "经调查发现，所有被调查的生物学元数据标准都存在方法类元素，且大部分具有明确的以“方法”命名的元素，包括 DwC、EML、OME-XML、Observ-OM、ABCD 和PDED6种标准。这些标准所明确的方法元素的等级不同，详略程度也有所差异。一些相对通用的元数据中“method”的定义比较宽泛，其中EML的“eml-methodsmodule”对方法的描述相对全面且适用性较强，包含子元素，可对数据集创建过程中遵循的方法，包括现场描述、实验室和处理步骤、采样方法和质量控制程序等进行结构化记录。相比之下，DwC的“MeasurementMethod”和ABCD的“method”本身属于子元素，对方法的定义较为宽泛，没有对记录内容进行细分。而描述生物光学显微镜数据的OME-XML，其“ContrastMethod”则用来更专业化地记录一种实验技术。用于整合和比较实验项目、疾病数据库和临床生物观察数据的Observ-OM和用于注册人类受试者临床研究的PDED都有“samplingMethod”，只记录抽样的方法。",
+    "context2": "此外，ISA-TAB没有明确的“方法”元素，该元数据用于捕获和传输数据文件，这些数据文件来自采用多种技术组合的“基于组学的”实验。根据研究方法元数据的定义，在对ISA-TAB的组成进行调查之后，发现其“Study Assays”可以记录研究使用的技术和平台，‘Study Protocols”可以记录研究方案的处理流程，二者都包含多个子元素。"
+  },
+  "2.2.2方法元数据元素的具体内容和约束": {
+    "context1": "在调查的生物学领域元数据标准中，不同标准设置的方法类元素数量从2个到5个不等，部分元素设置了子元素，涉及的内容方面也各不相同，涵盖操作协议、抽样方法与过程、测量方法和过程、仪器和工具、研究的技术标准等方面：",
+    "context2": "（1）4种元数据标准采用“protocol”来记录既定的研究操作协议，但具体名称有所区别，如DwC 使用“SamplingProtocol”，EML 使用“eml-protocol module”，ISA-TAB 使用“Study Protocols”，Observ-OM 使用“observation protocol”。这些既定协议中均包含关于抽样的协议，而 Observ-OM的“observation protocol”是观察协议与抽样策略的结合，符合该标准作为记录观察和测量数据的元数据功能。",
+    "context3": "（2）3种元数据标准采用“Measurement”来记录测量方法和过程，具体名称存在差别。DwC和ABCD都具有“Measurement Or Fact”这一类，前者类下有“Measurement Method”这一属性，而后者则使用“Method”记录生物数据的测量方法。Observ-OM使用“Measurement”记录那些为了确定一个数量的值而进行的一组操作，并且明确了该术语与“observation”的使用区别，一般情况下用“observation”，记录测量或决定属性值的行为，当结果是数值的时候使用“Measurement”。",
+    "context4": "（3）3种元数据标准采用“Sampling”来记录抽样方法和过程，具体名称和描述方式存在差别。DwC采用“Sampling Protocol”可以记录抽样方法或协议的名称、引用或描述。Observ-OM和 PDED 均采用“samplingMethod”，前者没有明确的记录要求，后者则明确说明记录时只需在概率抽样和非概率抽样中选择一个即可。另外，ABCD使用“Gathering”类来记录数据收集过程。",
+    "context5": "（4）OME-XML单独采用“instrument”来记录进行研究操作时使用的仪器和工具，在其他标准中仪器和工具的描述常被包含在其他元素中。OME-XML中的“instrument”这个元素描述了用于捕捉图像的仪器，主要用于记录显微镜、光源、探测器、物镜和滤光片组件的制造商型号和目录号。其他标准在记录仪器、工具和方法等时采用了不同的描述形式，如Observ-OM将观察的方法、算法、仪器或系统等方面的记录包含在“observationprocedure”中；ISA-TAB 则将其包含在“Study Protocols”的子元素中，使用“Study Protocol Components Name”来记录。",
+    "context6": "（5）ISA-TAB使用“Study Assay Technology Type”记录用于进行测量的技术，如DNA微阵列、质谱，该术语可以是自由文本，也可以是来自受控词汇表或本体的规范术语。此外，OME-XML 也提供了多种专业术语来记录实验中使用到的技术，如“Microbeam Manipulation”，同时使用了“Contrast Method”来记录通道对比度技术。",
+    "context7": "（6）Observ-OM采用“Lineage”来记录相关的细节信息，可以记录与标本处理有关的信息，或空间抽样的调查程序的细节。另外，OME-XML还专内设置了“Experiment”和“Imaging Environment”来记录实验类型以及实验环境。PDED 提供了“Study Design”来记录整个研究的实施计划。"
+  },
+  "2.2.3方法元数据元素的具体使用方式": {
+    "context1": "通过调查发现，具有明确的“方法”元素的元数据标准中，PDED明确声明该元素应作为元数据记录的一部分，DwC和ABCD对方法类的元素推荐使用，其中ABCD使用本体形式，子元素可重复。OME-XML具有一些强制性元素，但相关子属性通常并非强制，以可选的形式进行约束。在其他方案中并没有明确说明元素的使用方式。方法类元素在生物学领域元数据标准中普遍存在，可以用来记录操作协议、测量方法与过程、抽样方法和过程、仪器和工具、研究的技术标准，但具体表示方式不同，内容详细程度也不同。采用抽样方法元素和测量方法元素的元数据标准较多，并且方法多用协议来表示，即“Protocol”。",
+    "context2": "调查可知，与方法描述相关的元数据元素在实际使用方式上不尽相同。方法元数据元素的使用方式，表明了科学数据管理者对方法元数据的支持程度，也反映了其对研究方法相关信息的重视程度。",
+    "context3": "表1生物学领域元数据标准中方法元素现状",
+    "context4": "<table><tr><td colspan=\"1\" rowspan=\"1\">元数据标准名称</td><td colspan=\"1\" rowspan=\"1\">方法元素存在状态</td><td colspan=\"1\" rowspan=\"1\">方法元素数量</td><td colspan=\"1\" rowspan=\"1\">方法元素名称</td><td colspan=\"1\" rowspan=\"1\">方法元素属性</td><td colspan=\"1\" rowspan=\"1\">方法元素使用状态</td></tr><tr><td colspan=\"1\" rowspan=\"2\">Darwin Core(DwC)</td><td colspan=\"1\" rowspan=\"2\">明确</td><td colspan=\"1\" rowspan=\"2\">2</td><td colspan=\"1\" rowspan=\"1\">MeasurementMethod</td><td colspan=\"1\" rowspan=\"1\">用于确定测量、事实、特征或断言的方法或协议的描述或引用</td><td colspan=\"1\" rowspan=\"2\">推荐</td></tr><tr><td colspan=\"1\" rowspan=\"1\">SamplingProtocol</td><td colspan=\"1\" rowspan=\"1\">在事件期间使用的方法或协议的名称、引用或描述</td></tr><tr><td colspan=\"1\" rowspan=\"2\">EcologicalMetadataLanguage（EML)</td><td colspan=\"1\" rowspan=\"2\">明确</td><td colspan=\"1\" rowspan=\"2\">2</td><td colspan=\"1\" rowspan=\"1\">eml-methodsmodule</td><td colspan=\"1\" rowspan=\"1\">描述数据集创建过程中遵循的方法，包括现场描述、实验室和处理步骤、采样方法和单元、质量控制程序</td><td colspan=\"1\" rowspan=\"2\">不详</td></tr><tr><td colspan=\"1\" rowspan=\"1\">eml-protocolmodule</td><td colspan=\"1\" rowspan=\"1\">专用于规定程序</td></tr><tr><td colspan=\"1\" rowspan=\"2\">Access toBiologicalCollectionsData（ABCD)</td><td colspan=\"1\" rowspan=\"2\">明确</td><td colspan=\"1\" rowspan=\"2\">2</td><td colspan=\"1\" rowspan=\"1\">Measurement Or Fact</td><td colspan=\"1\" rowspan=\"1\">描述定量或分类测量。其中与测量方法相关的属性包括: Method、hasMeasuringAgent、Accuracy、Duration 等</td><td colspan=\"1\" rowspan=\"2\">推荐，子元素可重复</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Gathering</td><td colspan=\"1\" rowspan=\"1\">该类下与收集方法相关的属性包括：Method，用来描述用于确定相应结果的方法;Error Method，定义为关于坐标误差是如何确定的自由文本声明;Locality Text，定义为出现在标签或原始条目上的原始收集地点数据，应包含国家级别以下的信息，说明在哪里收集加入信息;Verification Status，对地理变化已被证实的程度的明确描述，以表示采集标本或观测的地点</td></tr><tr><td colspan=\"1\" rowspan=\"5\">OpenMicroscopyEnvironmentXML（OMEXML)</td><td colspan=\"1\" rowspan=\"5\">明确</td><td colspan=\"1\" rowspan=\"5\">5</td><td colspan=\"1\" rowspan=\"1\">Experiment</td><td colspan=\"1\" rowspan=\"1\">描述了实验的类型</td><td colspan=\"1\" rowspan=\"5\">元素使用状态不详；子属性可选</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Instrument</td><td colspan=\"1\" rowspan=\"1\">描述了用于捕捉图像的仪器</td></tr><tr><td colspan=\"1\" rowspan=\"1\">ImagingEnvironment</td><td colspan=\"1\" rowspan=\"1\">描述生物样品在实验过程中所处的环境</td></tr><tr><td colspan=\"1\" rowspan=\"1\"> Microbeam Manipulation</td><td colspan=\"1\" rowspan=\"1\">定义一种微束操作类型和它所应用的图像区域</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Channel</td><td colspan=\"1\" rowspan=\"1\">图像通道（图像中每个通道必须有一个，即使是单平面图像)。该元素下的相关子属性包括：Channel/@ContrastMethod，描述用于实现每个通道对比度的技术;Channel/@ IluminationType，定义为用于获取通道的照明方法</td></tr><tr><td colspan=\"1\" rowspan=\"3\">Investigation/Study/Assay tab -delimited( ISA-TAB)</td><td colspan=\"1\" rowspan=\"3\">不明确</td><td colspan=\"1\" rowspan=\"3\">3</td><td colspan=\"1\" rowspan=\"1\">Investigation 文件</td><td colspan=\"1\" rowspan=\"1\">记录其他文件中引用的所有声明性信息，如联系人、协议和设备。其中包含字段：Study ProtocolDescription、Study Assay Technology Type</td><td colspan=\"1\" rowspan=\"3\">不详</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Study文件</td><td colspan=\"1\" rowspan=\"1\">包含一个或多个化验的上下文信息，例如，研究的对象、来源、抽样方法、他们的特征以及为制备标本而进行的任何处理或操作。其中包含节点:Extract Name</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Assay 文件</td><td colspan=\"1\" rowspan=\"1\">表示工作流程总体结构的一部分，每个Assay 文件必须包含由测量类型（即基因表达）和所采用的技术（即DNA微阵列）确定的相同类型的分析</td></tr><tr><td colspan=\"1\" rowspan=\"5\">Observatio-ns and me-asurements（ ObservOM)</td><td colspan=\"1\" rowspan=\"5\">明确</td><td colspan=\"1\" rowspan=\"5\">5</td><td colspan=\"1\" rowspan=\"1\">observation procedure</td><td colspan=\"1\" rowspan=\"1\">用于进行观测的方法、算法或仪器或系统</td><td colspan=\"1\" rowspan=\"5\">不详</td></tr><tr><td colspan=\"1\" rowspan=\"1\">observation protocol</td><td colspan=\"1\" rowspan=\"1\">在进行观察时所使用的抽样策略和观察程序的结合</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Lineage</td><td colspan=\"1\" rowspan=\"1\">可能包括与标本处理有关的信息，或空间抽样特征的调查程序的细节</td></tr><tr><td colspan=\"1\" rowspan=\"1\">samplingMethod</td><td colspan=\"1\" rowspan=\"1\">描述用于从样本特征中获取样本的方法</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Measurement</td><td colspan=\"1\" rowspan=\"1\">为确定一个数量的值而进行的一组操作</td></tr><tr><td colspan=\"1\" rowspan=\"2\">ProtocolDataElementDefinitions(PDED)</td><td colspan=\"1\" rowspan=\"2\">明确</td><td colspan=\"1\" rowspan=\"2\">2</td><td colspan=\"1\" rowspan=\"1\">Study Design</td><td colspan=\"1\" rowspan=\"1\">包括了对介入性研究和观察性研究进行方式的描述，子属性有:Primary Purpose、Study Phase、Interventional StudyModel、 NumberofArms、Masking、Allocation、Enrollment、 ObservationalStudy Model、Time Perspective、Target Follow-UpDuration、Number of Groups/Cohorts 等</td><td colspan=\"1\" rowspan=\"2\">强制</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Sampling Method</td><td colspan=\"1\" rowspan=\"1\">定义为抽样所使用的方法，需选择概率抽样或非概率抽样</td></tr></table>"
+  },
+  "3生物学领域方法元数据应用现状调查": "",
+  "3.1生物学科学数据仓储的方法元数据应用概况": {
+    "context1": "本文对re3data.org中收录的生物学数据仓储进行了调查，目前该系统收录生物学数据仓储共875个，应用的元数据标准有19种。如图1所示，仅有少数数据仓储使用了带有方法元素的元数据标准，被使用数量在9个及以上的元数据标准共有8个，生物学领域元数据标准中DwC和EML的使用数量较多。另外，有76个数据仓储使用自建元数据标准。更多数据仓储的元数据标准使用情况不明。由此可见，方法元数据在生物学数据仓储中的应用并不广泛，且各数据仓储的方法元数据的选用差异较大。",
+    "context2": "进一步以前述所选取的元数据标准的生物学领域数据仓储为例，对目前方法元数据在科学数据仓储中的应用现状进行调查，分析科学数据仓储在使用元数据标准时是否采用方法元素，是否强制使用等现状。在综合考虑应用广泛性、权威性和影响力的基础上，从re3data.org网站中选取了生物学领域的GBIF、OBIS和EDI3个数据仓储进行具体调查分析。"
+  },
+  "3.2GBIF、OBIS和EDI的方法元数据应用现状": "",
+  "3.2.1GBIF综合采用DwC和EML的方法描述": {
+    "context1": "生物多样性信息机构（Global Biodiversity Information Facility，GBIF）是一个由全球多个国家和组织建立的，旨在促进生物多样性数据调动、获取、发现和使用的内户网站。GBIF发布数据的首选元数据标准格式是DwC，其集成出版工具包则使用EML作为数据标准。",
+    "context2": "GBIF 使用DwC应用文档（Darwin Core Archive，DwC-A），利用DwC的术语作为字段名，生成一个独立的数据集，用于共享物种分类、物种发生数据和采样事件数据。每一个 $\\mathrm { D w C - A }$ 都包含必需的核心文件和可选的扩展文件，核心文件“occurrence data”中包含“samplingProtocol”这一方法类元素。而“Measurement Or Facts”则作为扩展文件可以链接到“occurrence data”，用于存储与生物事件、环境测量或事实以及采样方法属性数据，其中包含“MeasurementMethod”元素。GBIF元数据配置文件以EML为基础，利用了EML的一个子集，并对其进行扩展，以包括EML规范中没有满足的附加需求。配置文件中沿用了一个专门的“method”类，用来记录资源收集中使用的科学方法。其子元素包含“methodStep”“qualityControl”和“samplingDescription”等，可以记录生成数据对象所遵循的一系列过程，包括程序、相关文献、软件、仪器、原始数据和所采取的任何质量控制措施和抽样过程的描述。",
+    "context3": "![](images/f050718c07ea9d561062586d81bfadace9cde94584b96c7871c80f60885a20f6.jpg)  \n图1生物学科学数据仓储的元数据标准应用情况",
+    "context4": "在GBIF中，数据集文档被称为“资源元数据”，使用户能够评估数据集的适用性。通过对GBIF中“岩鱼种群和生态系统评估调查，捕获数据”数据集[4以及“1984—2014年大堡礁世界遗产区空间海草数据的整理”数据集进行调查，可知，这两种数据集DwC-A的meta文件都采用了“samplingProtocol”字段，而没有采用“MeasurementMethod”。在记录字段具体数据的occurrence文件中，只有“岩鱼种群和生态系统评估调查，捕获数据”数据集的“samplingProtocol”字段全部进行了描述，并使用了规范名词和URL来记录，以表示该抽样协议的引用。在上述2个数据集的EML文件中都未包含方法类元素。"
+  },
+  "3.2.2OBIS综合采用自扩展的DwC和EML的方法描述": {
+    "context1": "海洋生物地理信息系统（Ocean Biogeographic Information System，OBIS）是全球海洋物种数据集的数据仓储。为适应本数据仓储的数据集记录，OBIS对 Darwin Core2的术语进行了扩展之后将其作为元数据标准，仍以EML作为集成出版工具包的元数据标准，并直接使用GBIF的EML元数据配置文件。",
+    "context2": "在OBIS 使用的DwC-A中，与方法相关的 DwC 术语只有“samplingProtocol”。OBIS 引入了一个自定义的ExtendedMeasurementOrFact（eMoF）链接到核心类，该扩展文件以GBIF的eMoF为基础，仍包含“MeasurementMethod”元素。并且明确规定，对于“Occurrence”类的一些术语，OBIS 建议在eMoF中增加测量元素，而对于“Event”类的一些术语，OBIS 建议在eMoF中增加抽样事实元素。OBIS 还在该扩展文件中增加了3个新术语：measurementTypeID、measurementValueID 和 measurementUnitID，从而实现对测量类型、数值和单位的描述标准化。这3个新术语需要使用唯一资源标识符（URI）引用的受控词汇表来填充，避免了自由文本注释填充所造成的语义异构。“measurementTypeID”填充时所使用的词汇表之一是“OBIS sampling instruments and methodsatributes（Q01）”，它收集了海洋生物地理信息系统用于标准化关于取样仪器和方法的属性的术语，如“Sampleextraction method”和“Sampling instrument name”等。",
+    "context3": "通过调查“1786—2008年爱尔兰水域捕获的稀有海洋鱼类”数据集[后发现， $\\mathrm { D w C - A }$ 中的 meta 文件采用了\"samplingProtocol”字段，在数据集里该字段记录全部为空。EML记录文件中没有包含与方法有关的术语。调查“印度洋-太平洋的多样性”数据集的 $\\mathrm { D w C - A }$ 发现，其 meta 文件中只有 DwC 的“samplingProtocol”术语字段，在数据集里该字段一部分记录为空，另一部分记录使用受控词表中的规范名称来记录，但未标明引用。在EML记录文件中存在 method 模块，methodStep、sampling、studyExtent、samplingDescription、qualityControl均有所描述，但对于方法步骤、抽样程序及质量控制的记录内容则简略而概括，只说明数据库存储了许多研究和实验室积累的数据，没有使用单一的方法或程序来产生数据。"
+  },
+  "3.2.3EDI以EML标准为核心的方法描述": {
+    "context1": "环境数据倡议存储库（EnvironmentalData Initiative Repository，EDI）存储了关于生态过程的研究数据，为评估生态变化的性质和速度并预测未来生物对生态变化的反应范围提供了数据基础。该数据仓储使用EML作为元数据标准。",
+    "context2": "EDI要求数据提交者使用ezEML提交数据，这是一个基于表单的Web应用程序，可以创建EML文档，在其中描述准备提交给数据存储库的数据。数据提交者可以通过填写表格来输入所需的信息。许多表单条目均可选，没有被标记为可选的条目均为必需条目。此外数据提交者可提前将数据保存在逗号分隔值（Comma-SeparatedValues，CSV）文本文件中，将数据表上传到ezEML，然后ezEML可以分析这些数据表并推断出EML文档所需的数据属性，从而免去手动输入数据。ezEML还提供检查元数据的功能，帮助数据提交者把每个需要或推荐的条目填写完整，以及更正错误。",
+    "context3": "通过调查“2013年至今，HJ Andrews实验森林河流中水生脊椎动物的数量”数据集[发现，EDI提供数据包的元数据，其中包含“Methods and Protocols”模块，并标明其中记录的这些方法、设备、协议，适用于本数据集中的所有数据。该模块分两大类，其一为此数据包中使用的方法和协议，其二为抽样范围及研究范围。在方法和协议类中使用“Description”，可用自由文本对数据集中标注的方法和协议名词进行描述，抽样范围及研究范围类中，对“Sampling Description”使用自由文本描述抽样过程，对“Sampling Area And Frequency”使用自由文本描述抽样区域及频率，对“Sampling UnitLocation”使用表格形式，以经纬度数值加以描述。通过调查“安德鲁斯气象站所使用的气温仪器的量度差异”数据集[发现，该数据包的元数据同样包含“Methods and Protocols”模块，但相比上一个数据集案例，该模块分3大类，增加了“QualityControl”这一质量控制类元素，该类元素使用自由文本描述。而在方法和协议类中又增加了“Instrument（s）”，支持使用自由文本来描述设备信息。在分析描述内容时发现，质量控制存在重复描述的现象，在方法和协议类中增加了一个“Description”来描述，但后面在“QualityControl”这一类中又出现了一模一样的描述内容，并且所有自由文本的描述中均存在“<para>”等符号冗余。",
+    "context4": "4生物学领域方法元数据的设计与应用特征和问题"
+  },
+  "4.1多数元数据标准涉及方法元素，但缺乏独立模块": {
+    "context1": "在调查的7个生物学领域元数据标准中，大部分具有明确的方法元素，但只有EML具有独立、详细和适用性较强的研究方法和协议的记录模块“eml-methods module”和“eml-protocol module”。其他如 DwC、OME-XML、Observ-OM、ABCD和PDED等元数据标准的方法元素隶属于测量、对比或抽样等模块的子元素。总体来看，DwC、ABCD和EML元数据标准中的方法元素适用性较强。记录生物多样性的DwC方法元素数量相对较少，对元素的定义相对宽泛，所有元素都是推荐使用。同样是记录生物多样性的ABCD，其中收集类和测量类提供了更多子元素，可细化方法的描述，也是推荐使用。记录生态学数据的EML单独为方法提供了模块，支持数据集创建过程中的详细方法记录。以上3种元数据标准都支持抽样或采集方法的记录。DwC和ABCD这两种支持测量方法的记录，EML中不包含此元素。",
+    "context2": "专门用来记录实验数据或观察过程的元数据，其方法元素数量更多，类型更丰富，对方法的记录更加专业化，并专内设置了技术和仪器设备的相关元素，如OME-XML和Observ-OM。OME-XML使用到了更多显微镜实验相关的专业术语。Observ-OM中增加了观察方法，并支持测量方法的记录。PDED 则使用“Study Design”来对研究方法进行描述，并且PDED对方法元素的记录方式有相对具体的规定，其抽样方法的描述需要在提供的规范词语中选择，并且强制使用。Observ-OM、ISA-TAB和PDED 也支持抽样方法的记录，而记录生物光学显微镜数据的OME-XML则不包含抽样方法元素。"
+  },
+  "4.2方法元数据应用实践中方法元素常被省略": {
+    "context1": "在生物学领域数据仓储的元数据标准应用方面，DwC-A和EML是较为通用的数据集记录文件。“ccurrencedata”常作为 $\\mathrm { D w C - A }$ 的数据集核心文件，其中包含“samplingProtocol”字段“Measurement Or Facts”常作为扩展文件来补充测量方法的记录，不一定会得到使用。而EML文件中，方法模块则不一定存在。",
+    "context2": "在使用DwC-A的数据仓储GBIF和 OBIS中，“samplingProtocol”元素是必需的，尽管在数据集描述时该记录描述可能为空。而“Measurement Or Facts”中的“MeasurementMethod”元素为可选描述项，在数据集字段中不一定会出现。在使用EML的数据仓储中，GBIF、OBIS 和 EDI把EML作为集成出版工具包的元数据标准，GBIF、OBIS 沿用了“method”模块，该模块可选，在EML文件中不一定出现。EDI采用“Methods and Protocols”模块，该模块是必需的，子元素可选，其中包含“Methods and protocols”‘Sampling Area and Study Extent”和“QualityControl”。在EDI数据集记录表格中存在“sampling_method”字段，使用EML文件中标注的方法协议的简称来记录。"
+  },
+  "4.3方法元数据的描述清晰度和规范性不足": {
+    "context1": "在元数据描述方面，数据集文档中方法元素的描述可能为空，如GBIF一些数据集的DwC－A中“samplingProtocol”的记录经常为空。但即使方法元素被描述，也存在描述不清晰不规范的问题。",
+    "context2": "描述不清晰表现为，在OBIS数据集的“samplingProtocol”描述记录中，只给出了简短的规范名词，未标明受控词表的引用地址，不能方便快捷地理解该名词的含义，并且其对应的EML文件中，也未提供方法过程的清晰描述，易导致在共享数据时，数据在，但数据含义缺失的问题。",
+    "context3": "描述不规范表现为，在EDI某些数据集的EML文件中，数据提供者在描述数据时，添加了多余的“description”条目，而在后面的质量控制类中又将一模一样的描述复制下来，但未把多余的“description”条目删除。另外在EML中使用自由文本描述时，出现了不相关的字符。这些重复描述和字符多余的现象，易导致数据共享时出现数据冗余的问题。并且这些数据仓储并没有使用统一的受控词表，这使得方法描述之间缺乏语义联系。"
+  },
+  "5生物学领域方法元数据建设和应用的后示": {
+    "context1": "在生物学研究中，研究方法是关系到研究结果的重要环节，因此生物学领域元数据标准普遍设置了方法元素，这有助于科学研究成果的开放共享，也可支持挖掘研究方法和研究结果的潜在价值。但目前许多数据仓储使用的元数据标准各不相同，在方法元数据的具体描述实践中又有着不同的使用模式和规定，且描述结果存在不完整、不清晰、不规范的问题，这些都在一定程度上阻碍了数据共享和再利用。",
+    "context2": "在未来的方法元数据建设方面，应注意方法元数据元素名称的设计，需要涵盖生物学研究方法的内涵和外延，抽样方法、测量方法、设备或工具、技术应该是方法元数据不可缺少的元素。在方法元数据描述实践中，推广应用方法元数据模板工具，构建研究方法方面统一的受控词表来约束提交的描述记录，可在减少数据提交者负担的情况下，保证描述结果的清晰规范。在开放科学推动过程中，科研方法数据的开放共享将愈加重要。因此，一方面深入对研究方法特征的发掘和规范描述，构建统一的受控词表，利用开源工具以自动化或半自动化的方式生成清晰完整的元数据描述记录，另一方面构建元数据方法描述记录之间的语义关联，支持科学数据视野下各类对象间的关系发现与知识融合，将是未来方便、快捷、高准确率的方法元数据建设趋势。"
+  },
+  "注释": {
+    "context1": "[社会信用体系建设规划纲要（2014—2020年）EB/O1]．[2020-05-21]．htp:/ww.gov.cn/gongbao/content/2014/content_2711418. htm.",
+    "context2": "[李春媛，伍巧，宋红霞．芝麻信用借阅与公共图书馆信用服务[.图书馆论坛，2018（9)：17-21.",
+    "context3": "[张广钦：公共图书馆信用服务的支撑、前提、效能与未来[.图书与情报，2017（5)：10-14.",
+    "context4": "张燕青．公共图书馆读者信用管理模式及案例分析[.图书馆论坛，2017（3)：123-127.",
+    "context5": "中国城市信用建设年报（2017—2018)[EB/O1]．[2020-05-21].https://www.credit100.com/pdfView.",
+    "context6": "者树青，屠淑敏．公共图书馆信用服务的缘起、价值和创新意义[：图书馆学刊，2018（1)：3-7.",
+    "context7": "］关于加快构建现代公共文化服务体系的意见（全文）EB/OI]．[2020-05-21].http://www.gov.cn/xinwen/2015-01/14/content_ 2804250. htm."
+  },
+  "(上接第87页)": {
+    "context1": "行”。“福州”基本汇聚了市民民生应用场景，建立起信息互通、数据汇交、信息共享的公共服务平台，满足了市民一站式服务需求，受到了市民的欢迎。智慧城市建设与公共数字文化服务在惠民服务目标上具有一致性，完善顶层设计，将公共图书馆信用服务、公共数字文化服务纳入到智慧城市重大信息工程建设中，将有益于提高公共数字文化服务水平，推动公共文化服务向智慧化迈进。"
+  }
+}

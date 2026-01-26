@@ -1,0 +1,103 @@
+{
+  "original_filename": "full_7454.md",
+  "本体模块化方法研究综述": {
+    "context1": "付 苓²孙坦刘峥"
+  },
+  "1中国科学院国家科学图书馆北京100190²中国科学院大学北京100049": {
+    "context1": "（摘要）针对目前已有本体模块化含义界定研究范畴,认为本体模块化方法主要分为本体划分方法和模块抽取方法两类,从图理论和逻辑理论两方面对这两类方法进行综述，指出模块化方法存在的问题,认为今后应根据特定应用或场景需求选择合适的模块化方法或修改已有的模块化方法。",
+    "context2": "(关键词）本体本体模块化本体划分本体模块抽取（分类号）G250"
+  },
+  "A Review on Methods of Ontology Modularization": {
+    "context1": "Fu Ling1,² Sun Tan'Liu Zheng' 1National Science Library，Chinese Academy of Sciences，Beijing 100190 ²University of Chinese Academy of Sciences，Beijing 100049",
+    "context2": "(Abstract）Giventhecurent meaningofOntologymodularization，thispaperdefinesthestudycategory.Ontologymodularization methodsmainlyincludeOntologypartitionandOntology moduleextraction.Itreviews thestudyonOntologymodularization methodsin bothgraphandlogic.Finaly，thispaperpresentstheissues，andpointsoutthedirectionoffutureresearchinthisfield.Accordingt theparticularapplicationorsenariodemand,itchoss teaproprateOntologymodularzationmethodorodifisteeistingeth od.",
+    "context3": "(Keywords） OntologyOntology modularizationOntology partitionOntology module extraction",
+    "context4": "软件模块化是指将软件设计成自包含部分的组合，易于软件的构建、维护和重用,程序由大规模复杂的代码组成。本体模块化借鉴软件工程中的模块化思想与方法,应用于本体工程中（构建、组织与管理等），模块化不仅可以降低理解本体的复杂性,而且利于本体维护和本体推理。近年来一些学者围绕本体模块化展开了研究,积累了丰富的研究成果，其中本体模块化方法成为关注的热点之一。本文从本体划分和模块抽取两方面对本体模块化方法进行综述。本体模块化研究论文检索结果如表1所示：",
+    "context5": "表1本体模块化研究论文检索结果",
+    "context6": "<table><tr><td rowspan=1 colspan=1>检索策略</td><td rowspan=1 colspan=1>数据库</td><td rowspan=1 colspan=1>结果(篇数)</td></tr><tr><td rowspan=1 colspan=1>标题=（ontology)and 标题=（modul*）</td><td rowspan=1 colspan=1>Web of Knowledge</td><td rowspan=1 colspan=1>167</td></tr><tr><td rowspan=1 colspan=1>title &amp; abstract =ontology and modular</td><td rowspan=1 colspan=1>SpringerLink</td><td rowspan=1 colspan=1>108</td></tr><tr><td rowspan=1 colspan=1>篇名=“本体&quot;并且篇名=“模块”</td><td rowspan=1 colspan=1>CNKI</td><td rowspan=1 colspan=1>42</td></tr></table>",
+    "context7": "注：检索时间为2012年10月17日。"
+  },
+  "1本体模块化含义": {
+    "context1": "目前,本体模块化未有明确的定义,S.Spaccapietra指出模块化有三种不同方式： $\\textcircled{1}$ 将大本体分解为更小的模块; $\\textcircled{2}$ 假设语义网充满本体模块，集成这些模块形成一本体; $\\textcircled{3}$ 在设计阶段模块化。此方式中，模块化是设计的副产品,没有分解也没有构成。",
+    "context2": "M.C.Suárez-Figueroa等认为本体网络开发中需要考虑的模块化方法包括以下三个方面： $\\textcircled{1}$ 模块化本体设计,即构建独立、自包含组件的本体; $\\textcircled{2}$ 模块化现有本体,涉及本体模块抽取、本体分解为模块、隐藏本体中模块; $\\textcircled{3}$ 重用本体模块 。",
+    "context3": "综上所述,根据本体网络开发中研究对象的不同，本体模块化（ontologymodularizaiton）分为模块化本体设计(涉及本体)、模块化现有本体(涉及本体的部分)和模块化本体组合(涉及本体模块)三种类型,称之为",
+    "context4": "广义的本体模块化。",
+    "context5": "模块化现有本体是指狭义的本体模块化，就是将大本体分解为本体的子集,确定本体的子集,也是 Ne-on项目所关注的本体模块化范畴。本文所论述的本体模块化方法即此范畴,即本体模块化(ontology modu-larization)是出于支持重用和维护的目的,确定本体中的一个或多个模块的活动β-。例如,本体O是公理的集合(子类、相等、实例等),本体O的标签 $\\mathrm { S i g ( 0 ) }$ 是本体O公理的实体名字集合,即本体的词汇。模块是指本体的自包含子部分。基于最小限制 $\\mathrm { S i g } ( \\mathrm { \\mathbf { \\nabla } M _ { i } } ( \\mathrm { \\mathbf { \\nabla } O } )$ ）$\\subseteq \\mathrm { S i g } ( \\mathrm { 0 } )$ ,本体0的模块 $\\mathbf { M } _ { \\mathrm { i } } ( \\mathbf { \\epsilon } _ { } 0 )$ 也是公理的集合（一个本体）。"
+  },
+  "2本体模块化方法概述": {
+    "context1": "本体模块化的最终意义是： $\\textcircled{1}$ 在特定应用或场景中可以分布式或有针对性地处理本体,从而改善处理性能; $\\textcircled{2}$ 把本体分成松散耦合和自包含的组件，可以促进本体的开发和维护; $\\textcircled{3}$ 促进本体的部分重用 。",
+    "context2": "模块化方法的选择取决于模块化的目的，根据不同目的,本体模块化方法分为本体划分（ontology parti-tioning）和本体模块抽取（ontologymodule extrac-tion）b,6-1。具体表现为: $\\textcircled{1}$ 当目的涉及整个本体（即改善维护，某些情况下改善性能)时,应该考虑本体划分方法; $\\textcircled{2}$ 当目的涉及抽取本体的特定部分(例如定制或部分重用本体)时，应该考虑模块抽取方法。采用不同的方法，模块中包含的内容也会不同，因此，没有统一定义本体模块中应包含的内容。",
+    "context3": "本体划分（ontology partitioning）是指将一个本体划分成一系列(没必要互不相关）模块,这些模块在一起组合成一个本体,也能被分散成多个模块。本体模块抽取（ontologymodule extraction）是指为了特定的目的（如为了原始本体中的特定子词汇），获取一个本体特定模块的活动。这个任务在文献B中被称为分割，而在文献凹中被称为遍历视图抽取。本体划分的任务是将公理集合分为模块 $\\mathbf { M } _ { 1 } , \\cdots , \\mathbf { M } _ { \\mathrm { k } } \\}$ ，每一个 $\\mathbf { M } _ { \\mathrm { i } }$ 是一个本体,所有模块的并集在语义上等价于源本体O。请注意，有些方法称为分割方法，但并不实际创建分区,因为由此产生的模块可能会重叠。对于给定本体和本体中术语集合 $\\operatorname { S V } \\subseteq \\operatorname { S i g } ( \\mathrm { ~ 0 } )$ ,模块抽取机制返回模块 $\\mathbf { M } _ { \\mathrm { s v } }$ ,应该是涵盖了子词汇SV( $\\mathrm { S i g ( \\partial M _ { \\mathrm { S v } } ) \\cap \\partial \\supseteq S V }$ 的相关部分。"
+  },
+  "J.Pathak等认为本体模块化技术分为两类：第一": {
+    "context1": "类技术是基于严格的逻辑基础抽取模块，第二类技术是采用图理论(graph-theoretic)算法遍历本体层次和应用后发式抽取相关模块。J.Seidenberg指出不同的研究者对这种模块化的定义和称谓也有所不同，包括视图（views）、段（segments）、抽取（extracts）、岛（islands）、模块(modules）、包(packages）和分区(parti-tions）,可细分为三大类:基于查询的方法(query-basedmethods)；网络划分（network partitioning)；遍历抽取（extraction by traversal）B,1l。此分类由 D.d’Aquin等[第一次提出,此后由J.Seidenberg 等细化。由此可见，从算法原理这个维度考虑，模块化方法又可分为基于图和基于逻辑两种。",
+    "context2": "笔者从逻辑和图理论两方面,对现有的本体划分和本体模块抽取两种本体模块化方法进行论述。"
+  },
+  "3本体划分方法": "",
+  "3.1基于图理论的方法": {
+    "context1": "基于图理论的划分方法,用图表示本体,图的结点代表本体概念,边代表本体属性，且边是赋权重的,利用图理论的现有分解算法分解本体概念和属性。",
+    "context2": "方法一:H. Stuckenschmidt等[i3-1d提出了适用于大型轻量级本体的基于结构的本体划分方法，完全依靠结构化标准划分本体，并在随后的研究中不断对此方法进行修正。用 SUMO( Suggested Upper Merged On-tology）和NCICancer等现实本体验证实验,算法主要思想是将本体结构转换成权重图。",
+    "context3": "文献中介绍了PATO[的应用,如 PATO分布式推理和划分NCI本体后使用Pajek可视化[4-1d标识关键主题和用于动态选择场景(即使用PATO从本体中抽取模块[14,1d用于语义网浏览器 Magpie[g，以便可视化和推理）。",
+    "context4": "方法二:NeOn工具箱中本体划分方法主要依赖于模块化结果的依赖关系结构中好的属性。NeOn 工具箱中本体划分插件有最小模块大小和传递包含限制,界面见图1。",
+    "context5": "此方法依赖于模块的依赖关系结构,如果ml存在至少一个实体,这个实体的定义或描述依赖于 $\\mathrm { m } 2$ 中至少一个实体，就说模块 $\\mathrm { m } 1$ 依赖于模块 $\\mathrm { m } 2$ 。当B参与定义或描述A的公理,就说实体A的定义或描述依赖于实体B。",
+    "context6": "此外,此方法主要依赖于执行模块化结果的依赖关系结构中好的属性。主要规则是：",
+    "context7": "![](images/54a6c9955e2560ff134c2379ea33124c2eea7ebcab54d632b72962a24b70df42.jpg)  \n图1NeOn工具箱本体划分插件界面",
+    "context8": "规则1:不循环(nocycle）,模块化结果的依赖关系图中没有任何循环。",
+    "context9": "规则2:非传递性依赖(no transitive dependency），模块间不存在传递依赖关系。",
+    "context10": "规则3:模块的规模(size of the modules）,一个模块不能小于给定的阈值。",
+    "context11": "规则4:模块内连通性(intra-connectedness）,一个模块内的实体应该相互关联。",
+    "context12": "规则1和2是模块化结构相关的好的属性,规则3和4是每个模块的特性。",
+    "context13": "方法三:G.Coskun等认为本体重用中,需要理解每个候选本体内容，以便确定它是否包含了感兴趣的领域,提出了概念分组的思想，从而简化了对大本体内容的理解。他们提出了9种不同的本体图表示，使用来自于社会网络分析中的5中社区算法:Edge Be-tweenness Community、Walktrap Community、Fast GreedyCommunity、Spin Glass Community 和 Leading EigenvectorCommunity基于OWL本体的图结构确认概念分组。其中,G．Coskun等指出网络划分、图划分、聚类和分割都是术语概念分组的不同实例。实验实现了轻量级Web应用,使用iGraph的 $\\mathrm { ~ R ~ } ^ { [ 2 2 ] }$ 工具用于划分算法。",
+    "context14": "方法四:李冠宇基于H.Stuckenschmidt等提出的方法进行深入研究,对其中存在的一些问题进行了改进,其基本思想是以本体结构为基础,充分利用本体概念结构中的类层次结构和其他语义关系（改进了A．Schlicht的方法）,通过查询获取本体的三元组表示的图;然后对图做一些相应的预处理,为不同种类的本体关系对应的边设定不同的重要度值以表征它们的差异(改进了H.Stuckenschmidt的方法)；之后使用社会网络理论计算结点之间的依赖度（改进了H.Stucken-schmidt方法中的依赖度公式），最后通过对依赖图的分解达到本体分解的目的。但是该算法的时间复杂度和空间复杂度都为 $0 \\vert  { \\mathrm { ~ \\bf ~ n ~ } } ^ { 2 } \\vert$ ），这对比较大型的本体而言，是难以接受的。"
+  },
+  "3.2基于逻辑的方法": {
+    "context1": "B.C.Grau 及其同事提出了类似于H．Stucken-schmidt方法的模块化OWL本体的方法， $\\varepsilon$ -Connec-tions将本体划分为一系列模块的方法。此方法旨在保持所创建模块局部推理的完整性。因为每个模块可以被其他模块独立使用，所假设的这个需求使此方法适用于选择性使用和重用。他们论述了通过使用 $\\varepsilon$ -Con-nections破坏了原始本体这个问题,从而保持单个模块的互连。该算法产生模块化本体片段,形式上包含必要的原子公理的最小集合，以便维护重要的蕴涵。划分得到的模块常具有规模大、松耦合的特点。这是因为B.C.Grau的设计以本地语义的完备性为保障,支持单一模块的本地推理和模块间推理。",
+    "context2": "B.C.Grau的方法形式上是好的，但是似乎并没有扩展到复杂、大型的本体。特别是使用GALEN-3000个类的片段测试时,未能产生一个有用的分割[",
+    "context3": "表2本体划分方法总结",
+    "context4": "<table><tr><td rowspan=1 colspan=1>方法类型</td><td rowspan=1 colspan=1>方法名</td><td rowspan=1 colspan=1>提出者</td><td rowspan=1 colspan=1>特点</td><td rowspan=1 colspan=1>实现工具</td></tr><tr><td rowspan=4 colspan=1>基于图理论的方法</td><td rowspan=1 colspan=1>基于类层次结构</td><td rowspan=1 colspan=1>2004年，H. Stucken-schmidt等[3],2009年扩展[14-16</td><td rowspan=1 colspan=1>依据本体图结构将大本体划分为小的模块</td><td rowspan=1 colspan=1>PATO</td></tr><tr><td rowspan=1 colspan=1>基于依赖关系</td><td rowspan=1 colspan=1>2012年,NeOn项目</td><td rowspan=1 colspan=1>基于依赖关系的本体划分算法</td><td rowspan=1 colspan=1>NeOnToolkit（NTK)中Par-titioning插件</td></tr><tr><td rowspan=1 colspan=1>基于图结构确认概念分组</td><td rowspan=1 colspan=1>2011年,G.Coskun等</td><td rowspan=1 colspan=1>基于OWL文献的RDF/OWL的图结构,使用社区算法确认概念分组</td><td rowspan=1 colspan=1>iGraph 21和R</td></tr><tr><td rowspan=1 colspan=1>基于结构的方法</td><td rowspan=1 colspan=1>2010年，李冠宇[3</td><td rowspan=1 colspan=1>改进了Stucken-schmidt方法，赋予不同本体关系不同的权重，根据权重改进了依赖度公式</td><td rowspan=1 colspan=1>设计了本体模块化系统，但没有实现分解功能</td></tr><tr><td rowspan=1 colspan=1>基于逻辑的方法</td><td rowspan=1 colspan=1>ε-Connections</td><td rowspan=1 colspan=1>2005年,B.C.Grau等2</td><td rowspan=1 colspan=1>将本体分解为ε-Con-nections连接的模块</td><td rowspan=1 colspan=1>Swoop</td></tr></table>"
+  },
+  "4本体模块抽取方法": "",
+  "4.1基于图理论的方法": {
+    "context1": "N.F.Noy和M.A.Musen 扩展了本体维护工具Prompt程序,其本身是Protege本体编辑器插件,具有4个功能:版本比对、本体移动、本体合并和本体抽取。借鉴了数据库视图的思想，提出了遍历视图(trav-ersal views）的概念,是指确定核心概念或感兴趣的概念,遍历关系以便找到此视图的其他概念,并且深度遍历。他们的抽取方法侧重于遍历指令（directives），定义了如何遍历本体链接，指令集完整明确定义本体视图,本身可以作为一个本体存储，还介绍了抽取边缘的边界类的概念。该算法虽然简单易操作，但重用模块后可能有冗余的概念和公理。",
+    "context2": "J.Seidenberg提出了基于一个或多个给定类作为用户输入,从大描述逻辑本体GALEN本体中抽取相关概念的方法。对此分割算法的说明如图2所示：",
+    "context3": "![](images/ea7620466dcb2cbcb9aacd709840918ca53449399371e084ffb7cb0e60b78788.jpg)  \n图2　向上和向下遍历及向上遍历连接",
+    "context4": "此分割算法开始于抽取的目标概念,向上遍历层次直到根类;同时向下遍历所有的叶子类。另外,继承前面遍历过的类的层次连接，并向上遍历这些cross一link指向的类,包含指向其他新逼历过的类的连接，直到没有连接就停止遍历。文献]和文献[1]表明使用此算法,GALEN本体的大小减小了20 倍，几秒内就能完成本体分割抽取，但还不清楚此算法能否用于GALEN本体外的其他本体。此算法使用属性过滤、边界类深度限制模块的大小，该算法是针对医学领域而考虑的，不是一种通用的方法，并且该方法只考虑概念和关系，并没有对断言的判断给出算法。",
+    "context5": "抽取方法-都是依据本体类层次关系从单个或多个选定概念出发实现本体模块的抽取,本质上二者相似。",
+    "context6": "P．Doran等也针对本体的模块化重用进行了研究,该方法围绕一个特定的概念,从一个本体中分离局部来生成一个新的本体。分离出来的部分是正确和自我包含的,并且能够代替原始本体在应用中被重用。他提出了用于抽取模块的抽象图模型和抽取算法，特点是该算法独立于本体表示的语言，同时还建立了一个称为ModTool的系统，提供直观的用户界面来生成本体模块。",
+    "context7": "P.Doran等还提出了SOMET框架,见图3,递归执行SPARQL查询,构建本体的子集。这个框架的参数是SPARQL查询集合，以此表示模块化技术。",
+    "context8": "4.2基于逻辑的方法",
+    "context9": "B.C.Grau等[29-3于2007年第一次提出了一致性扩展(conservative extensions）概念,支持本体的局部重用。通过抽取外部本体的小片段，来捕获局部本体的术语含义。例如,构建一研究项目本体时，使用医学研究项目描述中的单个本体中的术语,如Cystic_Fibro-sis和Genetic_Disorder。一致性扩展保证了抽取的模块尽可能小，保证引入模块和引入整个外部本体进行查询的回复一样。特别地，一致性扩展的主要观点是确保模块的局部完备性，单个模块中的知识在整合后也不会改变。即,整合模块不会产生任何模块已有概念间的新关系。对于本体 $\\mathrm { Q } _ { 1 } \\subseteq \\mathrm { Q }$ ,标签S,对于每个公理 $\\alpha \\mathrm { S i g } ( \\alpha ) \\leqslant \\mathrm { S }$ ,若当且仅当 $\\mathbf { Q } _ { 1 } \\mid = \\mathbf { \\alpha \\alpha }$ 有 $\\mathbf { Q } \\mid \\mathbf { \\alpha } = \\alpha$ ，就说Q是 $\\mathrm { Q } _ { 1 }$ 的推断S－一致性扩展。若对于 $\\mathrm { Q } _ { 1 }$ 每个的模型$\\mathrm { I } _ { 1 }$ ,存在Q的一个模型 $\\mathrm { I } , \\mathrm { I } / \\mathrm { s } = \\mathrm { I } _ { 1 } / \\mathrm { s }$ ，就说Q是 $\\mathrm { Q } _ { 1 }$ 的模型S－一致性扩展。 $0 _ { 1 } \\subseteq 0$ ,如果Q只使用S中符号的逻辑结果 $\\alpha$ 就是 $\\mathrm { Q } _ { 1 }$ 的结果,那么Q是 $\\mathrm { Q } _ { 1 }$ 关于S的推断一致性扩展;即Q中的额外公理不会增加关于词汇S新的逻辑结果。类似模块，推断一致性扩展依赖于Q中的本体语言L和表达的 $\\alpha$ 。 $\\mathrm { Q } _ { 1 } \\subseteq \\mathrm { Q }$ ，如果 $\\mathrm { Q } _ { 1 }$ 的每个模型可以扩展为Q的一个模型,新符号解释模型,旧符号解释不变，就说Q是Q，的模型一致性扩展29-3]。模型一致性扩展强于推断一致性扩展，因为它不依赖描述逻辑语言表述。",
+    "context10": "![](images/144b14da4d335ecb2c2eabb7d264641f9d9510fad64314a432040a6a2dbba0f3.jpg)  \n图3SOMET框架 [28",
+    "context11": "由于模型一致性扩展无法计算,B.C.Grau等29-32提出了基于局部(locality）概念的模块化算法,标签 S,任意S-解释到 $\\mathrm { S U S i g } ( \\alpha )$ 的每个trivial扩展是 $\\alpha$ 的一个模型,就说公理 $\\alpha$ 是关于S的局部。对于标签S,公理集 $\\alpha \\in \\mathrm { A }$ ,不会改变S中的意思,这样的公理就称为关于S的局部local,并提出了局部的6种类型。通常使用的是T-locality（顶层局部）和 $\\perp$ - locality（底层局部)。如果公理不定义给定概念C的新的子概念，就称为C的顶层局部,如果不定义新的上层概念，就是",
+    "context12": "C的底层局部。所以，给定概念的集合，使用底层局部抽取模块将包含这些概念的上层概念，使用顶层局部可抽取包含子概念的模块。算法的详细描述见文献B2],使用 Manchester的 $\\mathrm { O W L } \\ \\mathrm { A P I } ^ { \\ \\mathrm { B 4 } }$ 实现算法。",
+    "context13": "使用两组本体验证此算法:一组是简单本体语言和简单结构表达的本体，而且不包含GCIs（GeneralConcept Inclusion）,只有定义的本体。另一组本体使用许多OWLDL是OWLDL构造算子,或者包含很多GCIs,比 Prompt方法和Grau 算法要好。",
+    "context14": "NeOn中提供了基于多个操作符的交互式本体模块抽取插件,如图4所示：",
+    "context15": "![](images/2a5a4d44ef74582fe1f4c06065c94aabbb14a8d3416a83852b728cbc37dd9c1c.jpg)  \n图4本体模块抽取插件界面",
+    "context16": "模块抽取插件提供交互式和迭代式方法。这个插件整合了一些不同的模块抽取操作符,大多数是相当基本的(基于给定实体集合，抽取父类或子类及他们所依赖或依赖他们的实体,共同的父类或子类、子属性或父属性、实例的所有类、类的所有实例等）。",
+    "context17": "另外,插件提供了简单的功能利于模块抽取中实体选择,如可以限制类、属性和个体的可视化，检索实体匹配特定的字符串,限制递归层次。一旦创建模块，就可以简单地保存为目前本体项目的一部分，自身成为一本体(模块),可以使用其他模块化插件组合或划分。本体模块抽取方法总结见表3。"
+  },
+  "4.3小结": {
+    "context1": "基于图的方法都是根据输入的一个或多个类，通过遍历方法抽取本体相关类、属性。遍历本体层次（即公理集合），只考虑不同知识形式间的关系，而不考虑知识内部语义的关系，不保证模块的完整性。尽管如此，基于图的方法实现起来简单，且算法的效率很高，"
+  },
+  "对用户很直观,并被广泛应用。": {
+    "context1": "表3本体模块抽取方法总结",
+    "context2": "<table><tr><td rowspan=1 colspan=1>方法类型</td><td rowspan=1 colspan=1>方法名</td><td rowspan=1 colspan=1>提出者</td><td rowspan=1 colspan=1>特点</td><td rowspan=1 colspan=1>实现工具</td></tr><tr><td rowspan=5 colspan=1>基于图的方法</td><td rowspan=1 colspan=1>遍历视图</td><td rowspan=1 colspan=1>2009年，N．F.Noy 和M.A.Musen</td><td rowspan=1 colspan=1>借鉴了数据库视图的思想,提出了遍历视图的概念</td><td rowspan=1 colspan=1>PROMPT(Protege插件</td></tr><tr><td rowspan=1 colspan=1>GALEN分割服务</td><td rowspan=1 colspan=1>2009 年，J. Sei-denberg</td><td rowspan=1 colspan=1>开始于抽取的目标概念，向上遍历层次直到根类，同时向下遍历所有的叶子类。另外,继承并逼历前面遍历过的类的层次连接，直到没有连接就停止遍历</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>基于图/层次遍历方法</td><td rowspan=1 colspan=1>2007年，P.Do-ran等</td><td rowspan=1 colspan=1>输入一个单独的类，并抽取有关这个类的模块。提出了用于抽取模块的抽象图模型和抽取算法</td><td rowspan=1 colspan=1>ModTool</td></tr><tr><td rowspan=1 colspan=1>基于 SPAR-QL查询</td><td rowspan=1 colspan=1>2008 年,P.Do-ran等</td><td rowspan=1 colspan=1>递归执行 SPARQL查询，构建本体的子集。这个框架的参数是 SPARQL查询集合,以此表示模块化技术</td><td rowspan=1 colspan=1>SOMET框架</td></tr><tr><td rowspan=1 colspan=1>交互式抽取插件</td><td rowspan=1 colspan=1>2012年，NeOn项目</td><td rowspan=1 colspan=1>模块抽取插件提供交互式和选代式方法,整合了一些不同的模块抽取操作符，大多数是相当基本的</td><td rowspan=1 colspan=1>NeOn Tool-kit（NTK）中ModuleExtraction插件</td></tr><tr><td rowspan=1 colspan=1>基于逻辑的方法</td><td rowspan=1 colspan=1>一致性扩展和局部模块</td><td rowspan=1 colspan=1>2007年，B.C.Grau等提出，2009年扩展29-37</td><td rowspan=1 colspan=1>提出了基于局部的逻辑方法抽取模块。从本体重用出发，抽取相关本体模块,将其引入所用本体</td><td rowspan=1 colspan=1>OWLAPIB4</td></tr></table>",
+    "context3": "基于逻辑的方法虽然能够很好地保证重用模块中知识的正确性和完整性，但是由于逻辑方法复杂度高，算法效率直接受本体规模的影响,所以当一个本体的规模很大时，会导致算法的效率很低。",
+    "context4": "因此实际应用中，应根据应用需求选择合适的模块化方法或修改已有的模块化方法，以便既保证效率又保证模块中知识的正确性和完整性。"
+  },
+  "5结语": {
+    "context1": "本体开发人员有时只对源本体的部分感兴趣，本体模块化在本体构建与复用等本体工程中发挥了重要作用。本文从图和逻辑角度两个方面阐述了现有的本体划分和本体模块抽取方法。如何根据特定应用或场景需求选择合适的模块化方法或修改已有的模块化方法,从本体中获得模块或模块集，以更好地处理、维护单个大型本体，是今后需要继续研究的问题。"
+  },
+  "参考文献:": {
+    "context1": "[1]中国图书馆学会.陈力在全国图书馆未成年人服务提升计划启动仪式上的讲话 EB/O1]．2012-05-22] .htp://www.lsc.org.cn/CN/News/2012-04/EnableSite_ReadNews1331559831335196800.html.  \n[2]国务院关于印发中国妇女发展纲要和中国儿童发展纲要的通知[EB/OL]．[2012-05-23]．htp://www.gov.cn/zwgk/2011-08/08/content_1920457.htm.  \n[3]潘兵,张丽,李燕博.公共图书馆的未成年人服务研究[M.北京：国家图书馆出版社，2011:193.  \n[4]二OO五年全国省级行政区一览 [EB/O1]．[2012-05-23].http://news.xinhuanet．com/ziliao/2005-10/20/content t-3654461. htm.  \n[5]陕西省图书馆少年儿童分馆概况简介 [EB/OI]．[2012-05-28] .http://www.sxlib.org.cn/sefg/index. htm.  \n[6]河南省图书馆机构设置[EB/OI]．[2012－09－10]．http://www.henanlib.gov.cn/webs/show/notice/598/1278.html.  \n[7]山西省图书馆部内简介 [EB/OI]．[2012-05－28] htp://lib.sx.cn/secdir/bmjj.htm.  \n[8]长春图书馆服务指南[EB/OL]．[2012-05－28]．http://www.lib.cc. jl.cn/fwzn.htm.  \n[9]少儿书刊书目数据 [EB/O1]．[2012-05-28] .http://gxst.gx-lib.org. cn/smsj/smsj. asp.  \n[i0]新书推荐 [EB/O1]．[012-05-28].http://www.gzlib.gov.cn/children/tuijian/book/book_index.do.  \n[]山东省图书馆 EB/OL]．[012-05-30]．http://www.sdlib.$\\mathrm { c o m } /$   \n[2]首都图书馆少儿园地 [EB/OL]．[2012-05－30]．http://www.childlib.org/xlzy/list.html.  \n[3]成都图书馆青少年儿童科普之窗[EB/OL]．[2012-06-02].http://www.cdclib.org/sciedu/.  \n[4]广东省立中山图书馆 EB/O1]．[012-09-10].http://www.zslib.com.cn/books.aspx.  \n[5]2011中国未成年人互联网/社交网络运用状况调查报告 [EB/O1]．[012-06-06] .http: //www.wm360.cn/news.asp？ id $=$ 3719.  \n[6] 公共图书馆建设标准 [EB/OI]．[2012-06-02] .http://www.bzfxw.com/soft/sort025/DF/138162156.html.  \n[7]张丽.公共图书馆少儿服务的法律规范问题研究[].图书馆建设,2010(2):54 -58.  \n[8]邵博云.美国公共图书馆少儿专区的空间特色及设计要求[.图书馆学研究,2011(5):92-94.  \n[9]Guidelines for library services to babies and toddlers [EB/OL].[012-06－13]．htp://archive.ifla.org/VII/d3/pub/Pro-frep100.pdf.  \n[20]阮晓岚.拓展服务领域创新服务方式—南京图书馆为未成年人服务之实践[.新世纪图书馆,2007(5):57-59.  \n[1]蔡楚舒.我们需要什么样的少儿图书馆员—一美国《公共图书馆儿童服务馆员资格》及其后示[EB/OL]．[2012－06－03]．http://www.chnlib.com/Zylwj/9338.html.",
+    "context2": "(作者简介）刘进军，女，1979生，馆员，硕士，发表论文10篇。刘晓英,女,1975生，副研究馆员，硕士,发表论文11篇。廖敏秀，女，1981年生，馆员，硕士，发表论文7篇。"
+  },
+  "[23]李冠宇．基于智能体和本体的语义数据集成研究[D]．大连:八连圩⊥八子，∠UIV.": {
+    "context1": "[4] Grau BC,Parsia B,Sirin E,et al.Automatic partitioning of OWL ontologies using $\\varepsilon$ -Connections[EB/OL]．[2012-10-01].http://www.ceur-ws.org/vol-147/21-Gram. pdf.   \n[5] Mindswap [EB/OL]．2012-10-01]．htp://www.mindswap. org/2004/.   \n[6] Noy N F，Musen M A． The PROMPT suite:Interactive tools for ontology merging and mapping [．International Journal of Human -Computer Studies,2003,59(6):983-1024.   \n[7]Doran P,Tamma V,Iannone L. Ontology module extraction for ontology reuse:Anontology engineering perspective EB/Ol]．[012 -10 -01]．htp://www.csc.liv.ac.uk/\\~pdoran/publications / p61-doran.pdf.   \n[8]Doran P,Palmisano I,Tamma V.SOMET:Algorithm and tool for sparql based ontology module extraction [EB/OL]．[2O12-10 - 01].http://ftp. informatik.rwth -aachen.de/Publications/CEURWS/Vol-348 /.   \n[9]Grau B C,Horrocks I,Kazakov Y,et al.A logical framework for modularity of ontologies [C]//Proceedings of 2Oth International Joint Conference on Artificial Intelligence.San Francisco: Morgan Kaufmann Publishers Inc.,2007:298 -303.   \nBo] Grau BC,Horrocks I,Kazakov Y,et al. Just the right amount: Extracting modules from ontologies [C //Proceedings of 16th International Conference on World Wide Web.New York:ACM,2007: 717 -726.   \nB1] Grau BC,HorrocksI, KazakovY,et al.Modular reuseofontolo gies：Theory and practice [l.Journal of Artificial Intelligence Research,2008,31(1):273 -318.   \nB2] Grau B C,Horrocks I,Kazakov Y,et al.Extracting modules from ontologies:A logic-based approach [] $/ /$ Stuckenschmidt H,Parent C，Spaccapietra S.Modular Ontologies:Concepts，Theories and Techniques for Knowledge Modularization.Berlin:Springer, 2009:159 -186.",
+    "context2": "图书馆协会儿童图书馆服务委员会于1997年提出并于1999年修订的 $\\llangle \\pmb { \\triangle }$ 共图书馆儿童服务馆员资格》对公共图书馆儿童服务馆员的专业资格提出7项条件，包括： $\\textcircled{1}$ 顾客群的相关知识； $\\textcircled{2}$ 行政及管理技能; $\\textcircled{3}$ 沟通技巧; $\\textcircled{4}$ 资料与馆藏发展； $\\textcircled{5}$ 策划及学习活动能力;$\\textcircled{6}$ 建立公共关系的技能; $\\textcircled{7}$ 专业素养与发展潜能2。一直以来，我国公共图书馆未成年人服务馆员的素质参差不齐,在意识、观念、专业知识、经验等方面还存在许多不足。可以在图情院校尝试开设关于儿童文学、儿童心理学、教育学、少儿用户研究等方面的课程，逐渐推广，也可以对在职人员进行有关未成年人服务的继续教育。"
+  },
+  "(上接第128页)": {
+    "context1": "β3] Lutz C，Walther D，Wolter F.Conservative extensions in expressive description logics [EB/OL]．[012-10-01] .htp://www. aaai.org/Papers/IJCAI/2007/IJCAI07-O71.pdf.   \nB4]OWL API [EB/OL]．[2012-10 -O1] .htp://sourceforge.net/",
+    "context2": "projects/owlapi. B5]Grau B C,Parsia B,Sirin E,et al. Modularity and Web ontologies [EB/OI]．[2012－10-01]．https://www.aaai.org/Papers/ KR/2006/KR06-022.pdf.",
+    "context3": "(作者简介）付苓，女，1985年生，博士研究生，发表论文5篇。孙坦,男,1970年生,研究馆员,博士生导师,发表论文90余篇。刘峥,女,1979年生，部门副主任,发表论文10余篇。"
+  }
+}

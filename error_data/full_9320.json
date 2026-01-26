@@ -1,0 +1,115 @@
+{
+  "original_filename": "full_9320.md",
+  "《数据分析与知识发现》网络首发论文": {
+    "context1": "题目：  \n作者：  \n网络首发日期： 期：  \n引用格式：  \n融合知识的视觉问答综述  \n葛依琳，孙海春，李欣  \n2024-10-16  \n葛依琳，孙海春，李欣．融合知识的视觉问答综述[J/OL]．数据分析与知识发  \n现.https://link.cnki.net/urlid/10.1478.G2.20241016.1521.004",
+    "context2": "网络首发：在编辑部工作流程中，稿件从录用到出版要经历录用定稿、排版定稿、整期汇编定稿等阶段。录用定稿指内容已经确定，且通过同行评议、主编终审同意刊用的稿件。排版定稿指录用定稿按照期刊特定版式（包括网络呈现版式）排版后的稿件，可暂不确定出版年、卷、期和页码。整期汇编定稿指出版年、卷、期、页码均已确定的印刷或数字出版的整期汇编稿件。录用定稿网络首发稿件内容必须符合《出版管理条例》和《期刊出版管理规定》的有关规定；学术研究成果具有创新性、科学性和先进性，符合编辑部对刊文的录用要求，不存在学术不端行为及其他侵权行为；稿件内容应基本符合国家有关书刊编辑、出版的技术标准，正确使用和统一规范语言文字、符号、数字、外文字母、法定计量单位及地图标注等。为确保录用定稿网络首发的严肃性，录用定稿一经发布，不得修改论文题目、作者、机构名称和学术内容，只可基于编辑规范进行少量文字的修改。",
+    "context3": "出版确认：纸质期刊编辑部通过与《中国学术期刊（光盘版)》电子杂志社有限公司签约，在《中国学术期刊（网络版)》出版传播平台上创办与纸质期刊内容一致的网络版，以单篇或整期出版形式，在印刷出版之前刊发论文的录用定稿、排版定稿、整期汇编定稿。因为《中国学术期刊（网络版)》是国家新闻出版广电总局批准的网络连续型出版物（ISSN2096-4188，CN11-6037/Z），所以签约期刊的网络版上网络首发论文视为正式出版。"
+  },
+  "融合知识的视觉问答综述": {
+    "context1": "葛依琳，孙海春，李欣(中国人民公安大学 信息网络安全学院 北京 100038)"
+  },
+  "摘要:": {
+    "context1": "[目的]对2019-2023年间融合知识的视觉问答的主流模型与数据集进行综述总结。[文献范围]以\"融合知识的视觉问答”、“知识型视觉问答”、“基于外部知识的视觉问答”、“Knowledge-Based VQA”、“Knowledge-Based Visual Question Answering”、“Visual Question AnsweringReasoning with External Knowledge\"等关键词构建检索式，在 CNKI、Web of Science 等数据库中进行检索，最终确定101篇文献进行综述。[方法]根据融合知识的内容、方法对视觉问答模型进行分类，并比较优缺；归纳相关数据集，对主流模型的性能进行比较和分析。[结果]当前研究聚焦于将多模态数据映射到文本模态以进行推理，主要关注融合显式或隐式知识的视觉问答方法，但在衡量知识有效性、细粒度场景理解能力、数据集规模等方面存在不足。[局限]仅对已有研究的主流模型及训练结果进行结构化分析，缺少对算法原理的深入探讨。[结论]未来研究应继续探索集成显式知识与隐式知识的视觉问答方法，提高跨模态知识融合的语义挖掘能力与对齐能力，开发新的评估指标来量化知识对模型性能的具体影响。",
+    "context2": "关键词：视觉问答；融合知识的视觉问答；跨模态知识推理",
+    "context3": "分类号:TP391"
+  },
+  "Review of Knowledge-Based Visual Question Answering": {
+    "context1": "Ge Yilin, Sun Haichun, Li Xin (College of Information and Network Security, People's Public Security University of China Beijing 100038，China)"
+  },
+  "Abstract:": {
+    "context1": "[Objective] To summarize the mainstream models and data sets of knowledge-based visual question answering from 2019 to 2023. [Coverage] Using keywords such as\" Knowledge-integrated VQA\", \"Knowledge-Based Visual Question Answering\",\" External knowledge-based VQA\",\"KnowledgeBased VQA\" and \"Visual Question Answering with External Knowledge\", a search was conducted across core databases like CNKI and Web of Science, resulting in 101 articles selected for review. [Methods] Based on the content and methodology of integrated knowledge, this paper categorizes and compares knowledge-based visual question answering models, summarizes relevant datasets, and compares and analyzes the performance of mainstream models. [Results] Current research focuses on mapping multimodal data to textual modality for reasoning, primarily concentrating on visual question answering methods that integrate explicit or implicit knowledge. However, there are deficiencies in measuring the effectiveness of knowledge, understanding fine-grained scenarios, and the scale of datasets. [Limitations] The structured analysis of mainstream models and training results in existing studies is limited, lacking in-depth exploration of algorithmic principles. [Conclusions] Future research should continue exploring methods for integrating explicit and implicit knowledge in visual question answering, enhancing the semantic mining and alignment capabilities of cross-modal knowledge fusion, and developing new evaluation metrics to quantify the specific impact of knowledge on model performance.",
+    "context2": "Keywords: Visual Question Answering; Knowledge-Based Visual Question Answering; CrossModal Knowledge Reasoning"
+  },
+  "1引言": {
+    "context1": "自 Transformer等深度学习技术问世以来，自然语言处理（Natural LanguageProcessing，NLP）和计算机视觉（ComputerVision，CV）均取得里程碑式的进展。视觉问答（VisualQuestion Answering,VQA）作为二者的交叉方向，近年来也受到了广泛关注。VQA 任务以文本问题作为输入，通过机器来自动识别理解图像中的内容，并输出文本答案[]。根据是否融合知识，可把VQA任务分为传统 VQA 和融合知识的 VQA（Knowledge-Based Visual Question Answering，KB-VQA）。在传统VQA的基础上，KB-VQA添加特有的知识嵌入、融合与推理过程，将外部知识引入VQA任务中[2]。与仅处理单模态信息的任务相比，KB-VQA需要模型具备对多模态信息的理解能力以及跨模态推理的能力，从而更具挑战性。",
+    "context2": "![](images/24cad9ee4fcd30bb60a3142423625db2b3cc2eaa6ffa2c77fdee3a88bad31d65.jpg)  \n图1视觉问答任务示例  \nFig.1 Example of visual question answering",
+    "context3": "传统VQA模型仅依据图像内容回答问题（如图1示例中的第 $\\textcircled{1}$ 组问答)[3],但当问题涉及图像的常见意义或特定知识时（如图1中的第 $\\textcircled{2}$ 组问答），传统模型的效果会变差[4]。例如，对于问题“图中红色物体的用途是什么？”，模型需要融合\"消防栓用于灭火\"的知识才能回答\"灭火”。在此背景下，KB-VQA任务被提出。",
+    "context4": "为系统梳理国内外该领域研究的现状，本文以2019 年1月1日至2023 年12月31日作为文献检索的时间范围，在 CNKI上以\"SU $\\% =$ 视觉问答 AND(SU $\\% =$ 融合知识 OR SU%= 知识型 OR SU $\\% =$ 基于外部知识 OR SU $\\% =$ 知识驱动 OR $\\mathrm { S U \\% = }$ 基于知识 OR SU $\\% =$ 知识推理)\"为检索式，检索到中文文献30 篇；在 Web of Science 核心集上以\"ALL $\\ L =$ ((\"Visual Question Answering\" OR\"VQA\") AND (\"Knowledge-Based\" OR \"Knowledge-Driven\" OR \"Knowledge-Enhanced\" OR \"External Knowledge\" OR \"Knowledge Reasoning\" OR \"KnowledgeGraph\"OR\"Fact-Based\"))\"作为检索式，检索到英文文献 103 篇。然后将收集的所有文献导入Endnote工具，利用软件自带的\"查找重复文献\"功能，人工删去重复文献。接着对检索结果进行人工相关性评估筛选，限制文献的内容与KB-VQA高度相关，优先选择发表在高影响因子期刊或顶级会议上的文献，并补充论述各数据集以及知识库的往年权威文献，最后保留101篇文献。同时，借助文献计量工具1，分析各国KB-VQA论文数量变化如图2所示。",
+    "context5": "![](images/a8982dd5a9e9096be022ee5d087292eebc30162d795563e15c5300e2fd241b5e.jpg)  \n图22019-2023年各国KB-VQA论文数量变化",
+    "context6": "Fig.2 Change in the number of KB-VQA papers by country from 2019 to 2023",
+    "context7": "近年来，已有多篇综述文章从多个维度对VQA 领域进行梳理[5,18-21]。权海波等[20]主要探讨语言先验性问题对VQA模型的影响，王虞等[21]综述了VQA 的主流技术方法，介绍早期的KB-VQA 模型框架。尽管少数涉及KB-VQA的文章强调了外部知识在提升VQA 性能中的关键作用，但从知识融合视角对KB-VQA进行全面且综合的探讨仍显匮乏。例如，王瑞平等[19]对比KB-VQA与传统VQA在特征提取和多模态融合方法上的差异，但他们在深入探究 KB-VQA 中知识融合与推理的具体策略方面存在不足，缺乏对近年来新兴方法与技术的深度剖析。本文旨在填补这一空白，从融合知识的类型、跨模态知识推理的方法、数据集与评价指标等多个层面，对近五年KB-VQA 领域的主流模型与数据集进行综述总结。",
+    "context8": "与现有综述相比，本综述的主要贡献包括：a）专注于KB-VQA领域，从知识融合的角度展开深入剖析，而非对整个VQA领域进行泛泛概述；b）依据融合知识的类型，将KB-VQA 模型分为融合显式知识、融合隐式知识以及集成显式与隐式知识三类，并细致探讨每类模型框架的特点及知识类型对模型性能的影响；c）系统归纳KB-VQA任务中跨模态知识推理的方法，对比分析主流方法的优劣势；d）整理KB-VQA常用的数据集，比较分析主流模型的性能；e）结合当前研究中的挑战与不足，探讨KB-VQA 的未来发展方向，为相关领域的研究者提供新的思路。"
+  },
+  "2融合知识的视觉问答实现": {
+    "context1": "融合知识的视觉问答（KB-VQA）的基本框架由多模态特征提取、跨模态知识推理、答案预测三部分组成[5]（如图3所示）。",
+    "context2": "![](images/21eb47d9952c259b3d7bf52694a521bcf4f2d83f1aea965b31b595c06d6706e2.jpg)  \n图3KB-VQA 的基础框架  \nFig.3 Basic framework of KB-VQA",
+    "context3": "多模态特征提取模块旨在综合处理文本（问题、知识）、视觉等多个模态的数据，以提取特征。其中，文本特征提取常采用GloVe[6]、Word2Vec[7]、LSTM[8]、BERT[9]、T5[10]等方法。提取图像特征的方法可分为以下三类:a)FasterR-CNN[1]、VGG-16[12]、ResNet-152[13] 等深度神经网络；b）Oscar[14]、PromptCap[15]等图像字幕（Image Captioning）模型；c）场景图生成技术（Scene Graph Generation, SGG）[16]；跨模态知识推理模块旨在将文本、视觉等多模态信息中的语义特征映射到一个共享的表示空间，经过比较、过滤、融合等推理过程得到生成答案的依据[7]。其主流方案包括：a）利用视觉语言模型（VisionLanguageModel，VLM）将多模态数据映射至共享空间的多模态编码器、b）将表征为文本模态的视觉特征输入大语言模型（LargeLanguage Model，LLM）的跨模态映射、c）基于网络结构融合多模态语义知识的知识融合网络；答案预测模块通过语言模型直接生成文本答案，或将融合的多模态特征映射至候选答案空间以获取文本答案[5]。",
+    "context4": "根据融合的知识内容，本文将KB-VQA分为融合外部知识库中的显式知识、基于预训练模型（Pre-trainingModel，PM）中的隐式知识以及集成显式与隐式知识的方法：",
+    "context5": "a）融合显式知识（ExplicitKnowledge）[2]的KB-VQA方法利用明确的外部知识库增强视觉问答系统，基于结构化或非结构化知识提供答案[34]。结构化显式知识方法通过检索和利用知识图谱（KnowledgeGraph,KG）中的三元组（如DBpedia[23]、ConceptNet[24]）进行推理和生成答案，具有较强的可解释性。非结构化显式知识方法从文本语料库（如Wikipedia[26]）中提取相关信息，利用 NLP技术将文本转化为特征向量并进行匹配和推理。",
+    "context6": "b）融合隐式知识（ImplicitKnowledge）[22]的KB-VQA方法旨在利用PM中积累的图像知识、内部推理知识和未知知识等[19]隐式知识作为推理基础[22]。基于LLM（如GPT-3、BERT）的方法通过预训练的语言模型积累的隐式知识进行推理，不依赖显式知识库，采用的跨模态知识推理方法均属于跨模态映射。基于VLM（如VisualBERT、LXMERT）的方法在多模态数据上进行预训练，直接获取图像和文本特征进行推理，减少图像理解偏差，且大多采用多模态编码器的方法推理知识。",
+    "context7": "c）集成显式和隐式知识的KB-VQA方法结合显式知识和隐式知识，通过多尺度知识推理实现更全面和准确的答案预测[27]。"
+  },
+  "3KB-VQA的主流方法综述": {
+    "context1": "根据融合的知识内容，本章分别从动机、细节及局限性三方面，对KB-VQA模型进行深入讨论。"
+  },
+  "3.1融合显式知识的KB-VQA方法": {
+    "context1": "融合显式知识的 KB-VQA 方法旨在检索与问题相关的显式知识，并进行语义对齐。根据知识的结构，KB-VQA方法可分为融合结构化显式知识、非结构化显式知识两类。",
+    "context2": "（1）融合结构化显式知识的KB-VQA方法根据知识检索策略，融合结构化显式知识的KB-VQA方法可细分为：",
+    "context3": "$\\textcircled{1}$ 基于模板的知识检索方法",
+    "context4": "基于模板的知识检索方法通过预定义的查询模板将问题转换为 SPARQL 查询。例如，Ahab[2]通过预定义的查询模板分类\"图像一问题\"对，并据此推理答案。但该方法存在知识覆盖不全、高度依赖预定义模板等局限。",
+    "context5": "$\\textcircled{2}$ 基于机器学习的知识检索方法",
+    "context6": "为了克服模板方法的局限，研究者采用机器学习融合结构化显式知识。通过从图像和问题中提取实体，并结合KG中的相关概念预测答案[27]。",
+    "context7": "随着研究的深入，研究者们开始整合多个知识源以提升模型性能。Marino 等[27]整合了DBpedia[23]、ConceptNet[24]、Visual Genome[86]和 hasPart KB[87]多个 KB,为模型提供丰富的常识、科学、场景和关系知识。Chen 等[28]则另添加WebChild以补充关系知识。Yuan 等[29]进一步将场景图作为知识嵌入到模型中，以更好地处理需多步推理的复杂问题。而 SiK[30]则结合TransE、ComPIEx等嵌入方法，使模型能更深入地理解和利用KG。",
+    "context8": "基于机器学习的知识检索方法不仅克服了模板方法的局限，还提高了KB-VQA 模型的性能和泛化能力。然而，如何进一步提升外部显式知识源的质量和降低计算复杂性，仍是未来研究的重要方向。 >",
+    "context9": "（2）融合非结构化显式知识的KB-VQA方法",
+    "context10": "鉴于特定领域高质量结构化 KB 的稀缺[31]，部分VQA 模型[4,32-34]使用非结构化文本语料库作为外部知识来源，方法具体分为：",
+    "context11": "$\\textcircled{1}$ 基于规则的方法",
+    "context12": "基于规则的方法依赖于预定义规则从图像中检索相关知识[33]。例如，AMA模型[4]查询KB中与图像预测属性相关的文本片段，但其难以充分利用KB 的结构信息。随后，Marino 等提出的ArticleNet框架[34]从Wikipedia 检索与\"问题一图像\"相关的文章辅助生成答案，但文章检索效率有待提高。",
+    "context13": "$\\textcircled{2}$ 基于段落的密集检索方法",
+    "context14": "为提高非结构化文本的检索效率，研究者将开放域问答系统（Open-DomainQuestion Answering，ODQA）的密集段落检索（Dense Passage Retrieval,DPR） [35]应用于KB-VQA任务。该方法先检索与\"问题一图像\"相关的非结构化段落列表，再基于这些段落生成答案。例如，Qu 等[36]将图像信息引入ODQA 的\"检索一阅读\"架构中，利用密集检索方法评估文章与\"问题一图像\"的相关性。Luo 等[33]引入图像字幕模型增强文本与图像的关联性。此外，研究者还探索了对称密集通道架构[37]，如DEDR 模型[38]，通过共享编码空间和多模态融合解码器 MM-FiD 优化答案生成；而 RA-VQA[100]与RA-VQA-v2[101]均设计了多尺度检索有利知识的检索器。",
+    "context15": "尽管融合非结构化显式知识的KB-VQA 方法面临噪声和效率挑战，但通过技术创新与优化，这些方法在提升VQA系统性能方面展现出巨大潜力。未来研究可进一步关注如何有效利用非结构化文本信息，提高检索和答案生成的效率。"
+  },
+  "3.2融合隐式知识的KB-VQA方法": {
+    "context1": "根据模型结合的PM，融合隐式知识的方法分为基于LLM和基于VLM方法两类。",
+    "context2": "（1）基于LLM的KB-VQA方法",
+    "context3": "LLM在大规模预训练中善于积累隐式知识[40,41]，在知识理解和推理方面表现出色[42,43]，因此研究者将其应用于KB-VQA 任务，通过图像字幕[15]、图像标注器（Image Tagger）[44]、OCR[47]等技术将图像视觉信息映射为文本，并与文本问题一同输入LLM[28]。例如，基于GPT的KAT[48]、REVIVE[49]、Prophet[50]等，以及基于 T5 的CBM[22]、LaKo[28]模型。它们依赖于LLM预训练时积累的隐式知识，通过特定提示文本引导LLM理解图像并预测答案，能在少样本或零样本场景中有效执行 KB-VQA 任务[44]。然而，该方法依赖于跨模态映射后的文本信息，可能导致对图像深层语义的理解不足[45]。为了弥补此缺陷，研究者提出多模态少样本学习器Frozen[46]，通过神经网络将图像编码到LLM嵌入空间，以处理文本和图像的联合输入。",
+    "context4": "与基于显式知识的方法相比，基于LLM的方法无需检索外部KB，直接融合隐式知识，避免了视觉语言特征与推理步骤中的表示不匹配问题。基于显式知识的方法需要从外部 KB 中检索知识，但在重新嵌入检索到的知识时，可能改变知识在原始KB 中的含义[44]。而基于LLM的方法则避免了此问题。例如，PICa模型[44]利用GPT-3中的隐式知识和少样本学习能力预测答案，Prophet模型[50]则通过设计启发式答案进一步挖掘GPT-3 中的隐式知识。传统图像字幕模型可能缺少回答问题所需的关键视觉细节，因此PromptCap 模型通过增加语言提示来改进图像描述文本的质量[15]；Img2LLM模型[51]则将\"问题一答案\"与图像字幕文本作为提示输入LLM。然而，GPT-3是一个黑盒模型，其生成的文本缺少明确的解释和推理过程。",
+    "context5": "LLM在KB-VQA任务中凭借其强大的知识推理与检索能力，成功在少样本或零样本场景下取得不错效果。为了进一步利用此优势，研究者开始为LLM训练多模态接口，直接从图像中获取信息，从而催生了基于VLM的KB-VQA 方法。"
+  },
+  "（2）基于VLM的KB-VQA方法": {
+    "context1": "VLM可分为单流结构和双流结构：单流结构VLM将图像和文本的嵌入融合为单一序列（如VL-BERT[52]、VisualBERT[53]等）；而双流结构则分别对图像和问题进行编码（如LXMERT[53]和 BLIP-2[55]等）。例如，MAVEx[56]利用ViLBERT[57]生成候选答案，并通过基于答案的知识检索进行验证；RVL[58]利用LXMERT将知识嵌入投影到学习到的视觉语言特征表示上，增强了模型对视觉和语言信息的理解和处理能力；REVIVE模型[49]结合VinVL[59]、CLIP[60]与GLIP[61]三个模型解析文本信息。",
+    "context2": "然而，当前开源VLM通常基于较小规模的LM进行训练，可能面临知识不足的问题。因此,最新研究倾向于整合VLM与LLM的隐式知识。PROOFREAD[62]和 Wang 等[63]的工作通过结合LLM生成的知识和VLM的图像处理能力，提升KB-VQA模型的效果。这种方法不仅丰富了模型的知识库，还增强了模型对视觉和语言信息的综合处理能力。"
+  },
+  "3.3集成应用显式和隐式两种知识的KB-VQA方法": {
+    "context1": "集成显式和隐式知识的方法旨在结合两者的优势，以优化KB-VQA推理过程。模型通过融合隐式知识，获得知识的广度；而融合显式知识帮助模型学习专业领域知识，获得知识的深度。此外，显式知识的结构特征为推理过程提供了可解释性，弥补了隐式知识的不足。",
+    "context2": "ConceptBert[25]构建了一个多通道端到端框架，通过注意力机制聚合视觉、文本与知识概念的交叉特征，但它在答案生成前未能充分保留知识的结构信息。KRISP 则在预测答案前保留了知识的空间结构，提升了准确率，但在生成知识三元组时丢失了部分上下文信息。为解决上述问题，MAVEx[56通过文本符号检索与候选答案相关的外部知识，并预测其对答案的可信度进行验证。该方法将对象区域视为一种知识，提高了答案的准确性和模型的可解释性。在结合显式和隐式推理方面，现有模型常通过融合层整合推理结果。例如，RVL[58]将显式知识输入LXMERT，KAT[48]则把显式知识作为隐式推理的输入之一，进一步优化了基于区域特征的外部知识检索模型中的视觉表示。"
+  },
+  "KB-VQA使用的各方法优缺点被总结在表1中。": "",
+  "表1KB-VQA实现方法的优缺点总结": {
+    "context1": "Table 1 Summary of the advantages and disadvantages of KB-VQA methods",
+    "context2": "<table><tr><td>年份</td><td>模型</td><td>融合知识 类型</td><td>融合知识内容</td><td>融合知识方法</td><td>优点</td><td>缺点</td></tr><tr><td>2019</td><td>top-1- QQmaping[3]</td><td></td><td>FVQA 中的知识库</td><td>基于模板的知识 检索</td><td>提供支持答案的知识</td><td>依赖预定义模 板，限制可回 答的问题范围</td></tr><tr><td>2019</td><td>STTF[90]</td><td></td><td></td><td></td><td>避免由同义词或同形 异义词导致的错误预 测 结合场景知识和视觉</td><td>计算复杂度高</td></tr><tr><td>2023</td><td>SSG-QA-Net[29]</td><td>结构化显 式知识</td><td>医学场景图知识</td><td>基于机器学习的 知识检索</td><td>对象的细粒度特征， 复杂问题的推理能力 高</td><td>仅适用于医疗 领域的问题</td></tr><tr><td>2023</td><td>SiK[30]</td><td></td><td>FVQA 中的知识库</td><td></td><td>将KG嵌入算法用于 VQA 从Wikipedia检索与</td><td>提高计算复杂 度</td></tr><tr><td>2019</td><td>ArticleNet[34]</td><td rowspan=\"6\">非结构化 显式知识</td><td>Wikipedia</td><td>基于规则的方法</td><td>“问题一图像”相关的 文章来辅助答案的生 成 将图像信息引入</td><td>文章检索阶段 效率低</td></tr><tr><td>2021</td><td>PR[36]</td><td>Wikipedia Wikipedia</td><td></td><td>ODQA的“检索一阅 读”架构 结合多维度视觉信息</td><td>需要优化检索 效率</td></tr><tr><td>2022</td><td>TRiG[47]</td><td></td><td>基于段落的密集 检索</td><td>检索知识 将 DPR与答案生成联</td><td>需要优化计算 复杂度 对细粒度的问</td></tr><tr><td>2022</td><td>RA-VQA[100]</td><td>Google Search</td><td></td><td>合训练 使用细粒度的后期交</td><td>题回答效果不 好</td></tr><tr><td>2023</td><td>RA-VQA-v2[101]</td><td>Google Search</td><td>基于T5的图像到</td><td>互多模态检索器增强 知识检索 对比单流和双流模型</td><td>缺少对检索知 识的有效监督 可能导致对图</td></tr><tr><td>2021</td><td>CBM[22]</td><td>BERT或T5</td><td>文本映射</td><td>处理纯文本信息并生 成答案 引入答案启发式方法</td><td>像深层语义的 理解不足 复杂的启发式</td></tr><tr><td>2023</td><td>Prophet[50]</td><td rowspan=\"2\">隐式知识</td><td>GPT-3</td><td>基于 GPT的图像 到文本映射 通过示例库和上</td><td>增强了GPT-3的预测 准确性，有效地结合 答案候选和上下文。</td><td>选择可能增加 计算复杂度和 执行时间</td></tr><tr><td>2023</td><td>PROOFREAD[62]</td><td> BLIP-2, ChatGPT</td><td>下文学习，结合 视觉和语言提示 生成知识</td><td>有效整合VLM和 LLM，通过生成和筛 选知识提升问题解答 质量。</td><td>依赖于高质量 的演示样本和 精确的知识过 滤</td></tr><tr><td>2020</td><td>KRISP[27]</td><td>结构化显</td><td>DBpedia, ConceptNet, Visual Genome, hasPart KB,VisualBERT</td><td>基于机器学习的 知识检索</td><td>保留知识原本的结构 进行推理</td><td>融合的知识中 可能包含噪声</td></tr><tr><td>2021</td><td>RVL[58]</td><td>式知识和 隐式知识</td><td>ConceptNet, LXMERT</td><td>预处理KB生成 知识嵌入</td><td>引入额外的训练目 标，增强模型学习与 知识表示的对齐</td><td>对于特定知识 的精确回忆存 在挑战，如特 定地点或名人</td></tr><tr><td>2022</td><td>Lako[28]</td><td>结构化和 非结构化</td><td>ConceptNet, DBpedia,hasPart KB,WebChild,T5</td><td>基于机器学习的 知识检索</td><td>补充更细化的关系知 识</td><td>未对检索到的 知识进行监督</td></tr><tr><td>2021</td><td>MAVEx[56]</td><td rowspan=\"2\">显式知 识、隐式 知识</td><td>Wikipedia, ConceptNet, ViLBERT</td><td>基于VilBERT的 图像和文本嵌入 融合</td><td>整合多种知识源，通 过答案验证提高问题 回答准确性和相关性</td><td>知识检索面临 噪声问题，依 赖初步答案候 选的准确性。</td></tr><tr><td>2022</td><td>KAT[48] 非结构化 显式知识</td><td>WikiData, GPT-3</td><td>基于GPT的图像 到文本映射</td><td>使用对比学习和 Transformer编码器有 效整合和推理知识</td><td>知识检索可能 包含噪声，对 模型性能造成 影响，对计算 资源要求高</td></tr><tr><td>2022</td><td>REVIVE[49]</td><td>和隐式知 识</td><td>Wikidata, GPT-3</td><td>使用 transformer 融合多模态知识</td><td>结合区域视觉信息和 KB，提高知识检索的 准确性</td><td>依赖高质量的 区域视觉信息 和KB，处理 复杂查询时可 能存在误差</td></tr></table>"
+  },
+  "4 KB-VQA 知识推理方法": {
+    "context1": "跨模态知识推理的方法包括多模态编码器、跨模态映射和知识融合网络。前两种方法已在上一章中进行论述，本节聚焦于知识融合网络的知识推理方法，并根据其主要模块组成，将KB-VQA的跨模态知识推理方法分为以下三类："
+  },
+  "4.1基于 MemNN的KB-VQA 推理方法": {
+    "context1": "MemNN以其长期记忆和推理组件为核心，成功应用于KB-VQA 任务中，通过交互式建模数据执行复杂推理[64]。为应对多模态信息，研究者提出跨模态MemNN，它能够整合图像视觉特征和文本特征（问题及知识），并利用软注意力机制聚焦于与问题高度相关的知识片段。其中，键值记忆网络（Key-ValueMemoryNetworks，KV-MemNN）通过存储事实和细化推理过程，实现对复杂问题执行可解释推理[65]；动态键值知识记忆（Dynamic Key-Value KnowledgeMemory，DKKM）进一步引入动态学习机制，不仅学习相关知识表示，还能动态调整对知识三元组的理解，实现了不同模态信息的有效融合[66]。",
+    "context2": "基于MemNN及其变体的推理方法虽取得了一定进展，但这些方法只将KG仅视为一系列扁平化的事实，因此在挖掘图结构的深层次信息方面表现不足[67]。"
+  },
+  "4.2基于GNN 的KB-VQA 推理方法": {
+    "context1": "鉴于MemNN及其变体在处理图结构信息方面的不足，基于GNN的推理方法逐渐成为KB-VQA任务的优选[68]。GNN通过建模KG中的节点和边，学习节点间的连接关系和特征，实现复杂图结构数据的表示学习和信息传递。在GNN的分支中，图卷积神经网络（Graph Convolutional Network,GCN）、门控图神经网络（Gated Graph Neural Network，GGNN）和图注意力网络（graph attentionnetwork，GAT）因其在KB-VQA模型中的不同功能而受到广泛关注。"
+  },
+  "（1）基于GCN的推理方法": {
+    "context1": "GCN 通过卷积算子捕获节点的一阶和二阶邻居信息，在KB-VQA任务中通过消息传递机制（Message Passing，MP）进行推理。例如，OB 模型利用GCN评估图中的实体，但全局视觉特征的均等传递可能引入噪声[69]。然而，异构图推理方法在处理长距离关系和高阶语义时存在挑战[72,73]。关系图卷积网络（R-GCN)[74]作为GCN 的拓展，专门处理关系图数据。KRISP 模型基于R-GCN 进行跨模态知识推理，不仅学习复杂关系传递模式，还融入KG的语义信息，从而更精确地捕捉节点间的依赖关系[27]。"
+  },
+  "（2）基于GGNN的推理方法": {
+    "context1": "GGNN 通过门控循环单元（Gated RecurrentUnit,GRU）动态调控节点间信息传播与聚合，增强KB-VQA 模型对图结构动态的适应性。然而，固定迭代步数限制其建模能力。Singh 等[75]将GGNN作为跨模态推理网络，提升模型对问题与答案间语义关系的理解。尽管如此，面对多跳推理的复杂问题，其表现受限。",
+    "context2": "为克服GGNN在处理序列输出任务上的局限，研究者提出门控图序列神经网络（GGS-NN）。Yu等[76进一步提出GRUC 模块，该模块在聚合KG 信息的同时，更新另一事实图中的节点并循环传播。在KB-VQA中，GRUC 收集与问题相关的多模态知识，通过多步推理融合信息，推理全局最优答案，实现对实体的全面理解。与OB 模型[69]相比，GRUC 在特征选择和区分相似实体上表现更优[76]。"
+  },
+  "（3）基于GAT的推理方法": {
+    "context1": "GAT作为基于注意力机制的GNN，通过动态计算节点间注意力权重来加权信息传递[77]。在KB-VQA中，GAT的自适应权重分配使模型能更精确地捕捉节点间依赖关系，提高推理准确性。Ziaeefard等[78]将GAT应用于KB-VQA，构建场景图和概念图，并基于GAT为关键信息分配更高权重。然而，当图中节点和连接复杂时，GAT的计算复杂度增加，影响推理速度。为此，基于异构图注意力网络（Heterogeneous Graph Attention Network，HAN）的推理方法通过双层注意力机制处理不同关系间的实体，能够改善全局特征传递的不足[70,71]。",
+    "context2": "最新的研究则结合其他网络模块进行推理。如超图神经网络（HypergraphNeuralNetworks,HGNN）[79]通过结合图内和跨图注意力机制，学习高阶语义和关联；问题引导的多跳推理图网络[80]结合视觉特征与问题上下文特征，通过多跳推理图网络推断答案；上下文感知网络[81通过构建知识子图提高推理效率；分层注意力网络则通过组合多层网络融合多模态特征[82]。这些方法在实际应用中取得一定成效，但仍需进一步优化以应对更复杂的推理任务。",
+    "context3": "KB-VQA知识推理各方法的优缺点被总结在表2中。"
+  },
+  "表2KB-VQA 中知识推理方法的优缺点总结": {
+    "context1": "Table 2 Summary of the advantages and disadvantages of KB-VQA knowledge reasoning method >",
+    "context2": "<table><tr><td>年份</td><td>KB-VQA中使用 的网络名称</td><td>知识融合网络推 理方法</td><td>优点</td><td>缺点</td></tr><tr><td>2019</td><td>KV-MemNN[65]</td><td rowspan=\"3\">基于MemNN 的推理方法</td><td>提供细化推理过程，实现可解释推理</td><td>不能深入挖掘知识图谱中的复 杂关系</td></tr><tr><td>2022</td><td>DKKM[66]</td><td>动态学习机制，能够实时调整对知识的理 解</td><td>在处理复杂图结构时仍然存在 局限</td></tr><tr><td>2019</td><td>GCN[69]</td><td>利用GCN评估图中实体，通过MP机制 推理</td><td>全局视觉特征的均等传递可能 引入噪声</td></tr><tr><td>2019</td><td>R-GCN[74]</td><td rowspan=\"3\">基于GCN的推 理方法 基于GGNN的 推理方法</td><td>学习复杂关系传递模式，融入KG的语义 信息,更精确地捕捉节点间的依赖关系 通过GRU动态调控节点间信息传播与聚</td><td>难以处理包含复杂长距离关系 的图结构 固定迭代步数限制其建模能</td></tr><tr><td>2019</td><td>GGNN[75]</td><td>合,提升模型对问题与答案间语义关系的 理解</td><td>力，难以处理更复杂的推理任 务</td></tr><tr><td>2020</td><td>GRUC[76]</td><td>通过多步推理融合信息，推理全局最优答 案</td><td>需要复杂的模块来处理序列任 务，增加实现难度</td></tr><tr><td>2019</td><td>HAN[71]</td><td rowspan=\"2\">基于GAT的推 理方法</td><td>通过双层注意力机制改善全局特征传递不 足</td><td>在处理长距离关系和高阶语义 时存在挑战</td></tr><tr><td>2020</td><td>GAT[78]</td><td>通过动态计算节点间注意力权重来加权信 息传递</td><td>当图中节点和连接复杂时，计 算复杂度增加，影响推理速度</td></tr></table>"
+  },
+  "5常用数据集与评价指标": "",
+  "5.1常用数据集": {
+    "context1": "（1）训练与测试数据集",
+    "context2": "自KB-VQA任务提出后，多个数据集被开发以推动研究。其中，KBVQA数据集[2]旨在评估模型对视觉概念与外部知识的理解能力。随后，FVQA 数据集[3]通过从大型结构化KB 中获取的支持事实来回答视觉问题；KVQA 数据集[93]强调了对图像中实体世界知识的需求，推动了多跳推理的研究；OK-VQA数据集则要求模型融合外部知识进行逻辑推理[34];KRVQR[94]和VLQA数据集[95]进一步扩展了KB-VQA 任务的研究范围。其中，FVQA[3]和 OK-VQA[34]是使用较为广泛的主流数据集。",
+    "context3": "$\\textcircled{1}$ FVQA",
+    "context4": "FVQA（Fact-basedVQA）是首个提供支持事实的KB-VQA数据集，它的每个样本由图像、问题、答案和支持答案的KB组成（如表3[3]所示）。该KB 基于 WebChild[92]、ConceptNet[24]和DBPedia[23]中的结构化知识构建。针对 FVQA的局限性，Chen 等[6]提出了 ZS-FVQA 数据集以处理零样本问题，而Lin 等[97]则通过引入对抗性测试集，提出了FVQA2.0数据集以增强模型的鲁棒性。"
+  }
+}

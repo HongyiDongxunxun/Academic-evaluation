@@ -1,0 +1,101 @@
+{
+  "original_filename": "full_7764.md",
+  "泛在网络中信息资源管理的国内外研究综述王娜常珍珠": {
+    "context1": "【摘要】以泛在网络中信息资源管理的相关状况为研究对象，分别从模型、技术、机制三个方面阐述了其国内外研究现状。指出泛在网络中信息资源管理的研究还需进一步深入，主要包括：泛在网络中信息资源管理策略需要完善，泛在网络中各种安全威胁需要引起重视，泛在信息化应用模式需要进一步丰富，用户环境感知等技术需要实证研究，泛在网络中信息资源管理问题的发展趋势需要思考。在此基础上，总结了未来泛在网络中信息资源管理的重点研究方向。"
+  },
+  "【关键词】泛在网络信息资源管理模型信息资源管理机制信息资源管理技术": {
+    "context1": "Abstract:Taking the informationresource management inubiquitous network as theresearch object，the paper discuses the current domestic research situations of it from models，technologies，and mechanisms，and points out such researches need tobe gone into further，including perfecting the strategiesof information resource management in ubiquitous network，paying atention to thesecurity threatsinthenetwork，diversifyingtheubiquitous informationapplication models，strengthening the empirical studies on the technologiesof user situationalawareness，and taking considerationon the developing trends of it. On the basis of this，the authors summarize the main research directions of it.",
+    "context2": "Key words:ubiquitous networkinformation resource management modelinformation resource management mechanism information resources management technology"
+  },
+  "1引言": {
+    "context1": "随着信息通信技术（Information Communication Technology，ICT）日新月异的发展，通信网络作为信息通信技术的重要基础分支，已经从人到人的通信发展到人与机器（或物体）间以及机器到机器间（M2M）的通信，并朝着泛在网络方向演进。泛在网概念起源于比尔·盖茨1995年的《未来之路》一书，只是当时受限于无线网络、硬件及传感设备的发展，并未引起重视。随着技术不断进步，2005年国际电信联盟再次提出泛在网概念。随后，在奥巴马政府“智慧地球”构想的背景下，泛在网引起广泛关注。泛在网是指基于个人和社会的需求，实现人与人、人与物、物与物之间按需进行的信息获取、传递、存储、认知、决策、使用等服务，网络具有超强的环境感知、内容感知及智能性，为个人和社会提供泛在的、无所不含的信息服务和应用。泛在网在电信转型上迈出坚实的脚步，并在无线城市、智慧运输、智能气象、智能食品系统、智能水资源管理等行业得到广泛应用。在泛在网络中，信息的交流将由传统的线性结构、单向传递模式转变为网状结构、交错传递模式，每个用户都可以发布、传递和评价信息并对信息服务进行反馈。",
+    "context2": "从长远来看，利用泛在网络对信息进行有效管理并提供更智能的服务，推动人的智能潜力、社会物质和能源资源潜力充分发挥，使社会经济运行向高效、优质的合理化方向发展将成为未来研究的重要课题。泛在信息环境带来的新的生活模式和生活理念，成为未来几年不容忽视的巨大经济驱动力，不少国家都将泛在网络中信息资源管理作为新一轮国家信息产业战略的主导。我国在“十一五”迈向“十二五”这个历史阶段，也从战略高度提出了建设中国“泛在信息社会”的号召，泛在网络因此成为国内学者关注的焦点。泛在网作为未来网络的发展方向，成为信息资源管理研究的重要领域。通过文献检索和阅读，笔者发现目前关于信息资源管理研究的综述类文献不少，但关于泛在网络中信息资源管理研究的综述类文献几乎没有。因此，本文通过文献调研和网络调研相结合的方法，对国内外泛在网络中信息资源管理的研究内容进行了梳理和研究，希望能对今后泛在网络中信息资源管理的理论研究和实践的开展提供一定的借鉴。"
+  },
+  "2数据获取": {
+    "context1": "本文在维普数据库中以“泛在网络中信息资源管理”为主题未能检索出相关文献，以“泛在网络”为关键词，检索出98篇文献，其中仅有5篇与“信息资源管理”有关。以中国知网中国知识资源总库为检索工具，以“泛在网络中信息资源管理”为主题检索出138篇文献，与主题相关的文献有10篇。在Emerald中，以“Ubiquitous Networking Information Resources Management”为主题进行搜索，得到618篇文献，数量虽然庞大，查准率却偏低，通过筛选有13篇英文文献的主题与“泛在网络中信息资源管理”有关，其余文献多为关键词中含有“泛在网络”和“信息资源管理”。以Elsevier英文期刊全文数据库（Elsevier SD）为文献搜索源，查找以“Ubiquitous Networking Information Resources Management”为主题的英文文献，得到160篇文献，以“泛在网络”和“信息资源管理”为关键词筛选出18篇英文文献，完全以“泛在网络中信息资源管理”为主题的文献还寥寥无几。",
+    "context2": "科学文献的数量是衡量科学知识量的重要尺度之一，学术论文数量是反映科学发展规律的重要指标。通过统计国内外“泛在网络中信息资源管理”这一专题文献的发表数量，可以了解到该研究主题我国的发展程度和研究水平都落后于国外。从国内外泛在网络中信息资源管理研究的整体来看，国内外有很大的相似之处：研究处于起步阶段，文献量随着研究的深入保持平稳发展的态势，并突出了重点研究领域。但国内外研究侧重点存在着不同之处（见表1），由表1可以看出，我国泛在网络中信息资源管理研究以宏观框架为主，侧重探讨泛在网络中信息资源管理模型构建，其中关注最多的是泛在网络中信息资源组织模型的构建，但基本都停留在理论阶段。国外不仅从宏观角度研究泛在信息资源管理框架，还对构建方法体系进行较深入地探讨，其文献不仅在理论上具有指导意义而且还提供了实践中的参考范例。由于本次有关泛在网络中信息资源管理论文检索，仅限于维普数据库、中国知网、Emerald和 Elsevier数据库，并不是对有关“泛在网络中信息资源管理”的全部论文的统计分析，没有涵盖国内外泛在网络中信息资源管理的所有论文，因此，数据统计和分析不全面，存在一定的局限性。",
+    "context3": "表1国内外对泛网中信息资源管理不同层面的研究",
+    "context4": "<table><tr><td rowspan=1 colspan=1>研究层面</td><td rowspan=1 colspan=1>国内文献篇数</td><td rowspan=1 colspan=1>不同层面国内文献占国内总文献比例</td><td rowspan=1 colspan=1>国外文献篇数</td><td rowspan=1 colspan=1>不同层面国外文献占国外总文献比例</td></tr><tr><td rowspan=1 colspan=1>泛在网络中信息资源管理模型</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>53.33%</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>42. 86%</td></tr><tr><td rowspan=1 colspan=1>泛在网络中信息资源管理技术</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>26. 67%</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>38.10%</td></tr><tr><td rowspan=1 colspan=1>泛在网络中信息资源管理机制</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>20. 00%</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>19. 04%</td></tr></table>",
+    "context5": "3泛在网络中信息资源管理国内外研究现状"
+  },
+  "3.1泛在网络中信息资源管理模型": {
+    "context1": "泛在网络环境下信息资源的组织与管理、竞争与共享、分配、负载均衡等问题成为泛在网络发展的障碍。学者们从不同角度对信息资源管理模型进行了丰富和拓展，从微观上探讨了泛在网络中信息资源检索、组织、利用环节的模型构建问题；从宏观上探索了泛在网络中信息资源管理层次模型的构建问题。"
+  },
+  "3.1.1泛在网络中信息资源检索模型": {
+    "context1": "泛在网络环境下，由于存在海量的信息资源，信息的获取已经不是问题。学者们把更多的注意力集中在构建信息检索模型以提高用户获取信息的效率和效果上。如：王慧娟提出构建基于Agent技术的网络信息资源检索模式，为用户提供智能化的检索与服务。Sheng-Yuan Yang研究了核心组件“信息代理壳”—IAS，并指出外壳程序包含4个主要组件：OntoCrawler、OntoExtractor、OntoClasifier和 OntoRecommender，它们分别负责信息搜索、信息提取、信息分类和信息表示与排名。Mark-Shane E.Scale提出利用云计算和Web 协作进行信息检索的想法。Shunshan Piao、Jeongmin Park 及 Eunseok Lee提出依赖概率分析自动确定用户所需信息的泛在网络中信息资源检索模型。"
+  },
+  "3.1.2泛在网络中信息资源组织模型": {
+    "context1": "随着网络环境的发展，虚拟的数字资源将逐渐成为泛在网络环境中的主体，用户对隐性知识、集体智慧等信息资源的需求将更为强烈。因此，泛在网络环境中信息资源组织问题成了研究热点，更多的信息资源组织与管理框架被相继提出。如：2009年张雪丽和周怡研究了泛在网络的信息组织中基于标签的应用和标准化进展。王娜、张璐提出了泛在网络中应用于网络信息资源组织的一种基于用户的电子期刊订阅模式。唐伦、陈前斌和曾孝平设计了一种基于Multi-Agent的泛在网络体系结构，以从语义模型的角度进行信息组织。欧阳剑以泛在信息环境下图书馆信息组织的基本特征为基础，提出基于空间环境的图书馆信息组织架构，并构建泛在信息环境下图书馆信息资源组织的抽象模型[。"
+  },
+  "3.1.3泛在网络中信息资源利用模型": {
+    "context1": "泛在网络中信息资源利用环节的工作以信息用户的信息需求为工作核心开展。泛在网络中信息资源利用模型，也均以满足广大信息用户的信息诉求为构建基础。如：Andre Wangne、Jorge Luis Victoria Barbosa 和 Debora NiceFerari Barbosa提出了一种利用隐式收集信息的方式，收集所有用户查询信息历史的模型，以实现泛在网络中信息资源共享[。Yoonsik Uhm、Minsoo Lee、Zion HWang、Yong Kim和Sehyun Park 提出基于情景感知系统的多分辨率代理模型以解决复杂情况下的信息利用问题[。吴金红等在探讨情景及情景感知在个性化信息服务中的作用机制基础上，给出了泛在信息环境下的自适应信息服务体系架构[。Yuan-Chu Hwang和 Soe-Tsyr Yuan构建了“e－服务”模型，以实现泛在网络中有价值信息的广泛利用[4。"
+  },
+  "3.1.4泛在网络中设备资源管理模型": {
+    "context1": "设备资源管理是泛在网络中信息资源管理的基础，是泛在网络中信息资源管理的构成部分，也有学者从这一视角展开探讨。如：沈畅结合移动Agent技术、Agent X技术、LDAP协议、SNMP 协议等网络技术提出了适用于泛在网络环境下的网络设备管理模型，该模型充分考虑了泛在网络以及泛在网络设备的特点，解决数量庞大、种类庞多、结构多样的网络设备的管理问题。Michele Courant和 Stephane Le Peutrec提出一种以实现泛在网络中多样化设备有效管理的应用程序与应用程序界面分离模型ld。Chae Sub Lee、Gyu Myoung Lee、Woo Seop Rhee 基于泛在网络框架与上下文感知技术构造了智能设备管理模型[。"
+  },
+  "3.1.5泛在网络中信息资源管理层次模型": {
+    "context1": "泛在网络中信息资源的管理可分为内容存储层、内容管理层、功能层、信息展示与用户交互层四个层次的管理，一些学者基于这一层次结构构建了管理模型。如：贺正娟结合移动 Agent技术，提出了一种基于移动 Agent 的泛在网络资源管理层次模型，为使用者提供一个分布的、易于扩展的、高效实用的泛在网络计算环境[。AhmedPatel、Rosdiadee Nordin、Ahmed Al-Haiqi设计了一个被称为蜜蜂平台的泛在网络中信息资源管理层次模型，以实现不同管理层次的有效合作与交流。"
+  },
+  "3.2泛在网络中信息资源管理技术": {
+    "context1": "泛在网络中信息资源管理技术包括三个方面：",
+    "context2": "第一，终端数据的采集、处理、传输、终端网络的部署和协同等，以无线传感器网络、射频识别和RFID 技术为代表。如：郭稳涛提出了用户环境感知信息存取、用户环境感知信息建模表示、用户环境感知信息存储、用户环境感知信息交互控制机制、用户环境感知信息推理利用以及用户环境感知信息安全等关键技术的解决方案。王景尧在分析泛在网络的架构、需求和特点的基础上，分别从数据分析、模式识别、信息论和控制论出发，在不同的层次上对无线泛在网络中的自适应优化问题进行研究，并形成了具体的优化方案1。潘旭伟提出采用基于情景感知和本体的方法实现信息服务的自适应服务的个性化方案。",
+    "context3": "第二，数据的计算处理和信息分发平台，以云计算和P2P技术为代表。如：Arjan Durresi提出了按用户订阅信息比例分配带宽的方案，有益于解决卫星网络拥挤不堪的问题。K.L.Eddie Law和 Sunny So提出了基于泛在网络基础设施的实时内容适应技术，以实现实时信息传递4。Shu-Lin Wang和Chun-Yi $\\mathbb { W } \\mathbf { u }$ 设计了一个基于上下文感知技术的 $\\mathbf { u }$ 学习系统以实现个性化学习。G.Piro、I. Cianci、L.A.Grieco、G.Bogia 和 P.Cammarda 构建了先进的信息中心平台以支持智能城市的典型信息需求和通信技术。Younghee Noh介绍了基于语义检索的上下文感知技术。S.Halsteinsen，K.Geihs 等构建了一个在泛在计算环境中，支持上下文感知的自适应应用程序框架。",
+    "context4": "第三，异构的接入网络和基础的核心网络，包括基础的NGN核心网络和FTTH、3G、WiFi、蓝牙等接入技术。如：Olaf Diegel、Glen Bright和Johan Potgieter提出了利用无线蓝牙通信技术实现人类和机器的集成，从而使泛在网络中用户和机器之间的接口完全无缝和透明b。Chae Sub Lee、Gyu Myoung Lee和 Woo Seop Rhee 介绍了用于全球范围内通信的具体ICN（以信息为中心联网）方法和以支持许多不同类型的网络和部署为目标的信息网络（Netlnf）体系结构。王冠男针对异构分布式网络中中继节点的传输速率和功率控制问题，提出了速率匹配的功率控制算法和多模接口融合方案。"
+  },
+  "3.3泛在网络中信息资源管理机制": {
+    "context1": "目前，关于泛在网络中信息资源管理机制的研究侧重于提高信息检索效率、降低信息传输的平均滞后时间、信息资源共享等方面。胡海波针对泛在网络环境下政府出现突发事件提出了相应的应急机制，以更好地处理政府突发事务，提高政府的决策水平、管理水平和工作效率。蔡营提出了一种适合WIA-PA网络的多信道 MAC机制。Lenin Mehedy、Sungyoung Lee、Salahuddin Muhammad Salim Zabir和 Young-Koo Lee提出了促进上下文感知计算机系统发展的上下文提供机制。Chih-Lin Hu和Chien-An Cho提出了设备发现、异步内容交付、安全访问和虚拟文件系统四个机制，并构建了为泛在网络环境中的用户分发多媒体内容的体系结构，实现以方便、网络化的方式分享多媒体内容的目标。J.H.Abawajy提出智能交互机制以支持物与物之间的信息交互。Lenin Mehedy、Sungyoung Lee等提出了基于泛在网络中上下文感知计算的自适应背景交付机制。吴金红，陈勇跃与周磊研究了泛在网络中信息资源组织机制及泛在信息资源的描述机制。王毅建议沈阳市政府建立处理突发性事件的政务信息网络应急机制。"
+  },
+  "4泛在网络中信息资源管理研究现状分析": "",
+  "4.1目前泛在网络中信息资源管理研究的重点和不足": {
+    "context1": "通过文献梳理，本文认为目前关于泛在网络中信息资源管理问题研究的重点包括以下几个方面：（1）着重探讨泛在网络中信息资源管理模型的构建，关注最多的是泛在网络中信息资源组织模型及信息检索模型的构建，并且研究了泛在技术在信息组织系统中的应用；（2）从宏观角度较深入地研究了泛在网络中信息资源管理框架并构建了相应的方法体系；（3）针对提高泛在网络中信息检索效率问题提出了相应机制；（4）重点研究了泛在图书馆、智能交通等应用领域的信息资源管理问题；（5）重点探讨了泛在网络中情景感知技术。",
+    "context2": "本文认为目前国内外对泛在网络中信息资源管理问题的研究在以下几方面还较为缺乏：（1）对泛在网络中信息资源管理策略问题研究得不够系统，仅有一些针对实践中存在问题的解决办法，并没有学者从整体上加以分析，以及提出系统性针对性的策略；（2）对泛在网络中信息资源各种安全威胁和各种形式的攻击研究还非常鲜见;（3）目前的研究都是仅从各个应用领域内部研究泛在网络中信息资源管理问题，忽视对泛在信息化应用模式的研究，尤其缺少针对产业链的泛在网络信息资源管理模型的设计；（4）由于在技术方面软硬件等配套设施不够完善，目前针对用户环境感知、按比例分配带宽、智能控制、结合云计算完成海量计算和信息共享等技术的研究只局限于理论层面，没有经过实证研究；（5）对泛在网络环境下政府信息管理与服务的有关问题研究尚不深入，政府是泛在网络发展过程中主要的受益者和推动力，因此应大力开展泛在网络中政府信息资源管理领域的研究；（6）对泛在网络中信息资源管理问题的发展趋势把握力度不够，缺乏对泛在网络中信息资源管理方式的变化和发展等问题的探讨。"
+  },
+  "4.2泛在网络中信息资源管理研究趋势分析": {
+    "context1": "从目前的研究现状看，本文认为未来关于泛在网络中信息资源管理的研究应集中在以下几个方面：（1）泛在网络中信息资源组织方面的研究，该方面的研究应从语法组织转变为语义组织以至未来的语用组织角度展开；（2)泛在图书馆方面的研究，该方面研究应集中在泛在图书馆的人性化、智能化、简便化建设方面，以实现信息用户利用自然方式提出信息诉求后，泛在图书馆可自动采用用户喜欢的方式，利用智能技术快速准确地将所需信息传递给信息用户；（3）智能服务系统方面的研究，该方面研究应从采用何种智能服务系统，帮助用户实现适量获取信息，避免信息超载角度进行；（4）信息可靠性、安全性方面的研究，应从保证用户个人信息安全的同时便于用户获取可靠的信息及风险分析角度展开研究；（5）信息过载及危害方面的研究，应从信息资源分配、信息组织对信息过载的防控及负载均衡等方面展开进一步研究；（6）泛在网络中信息资源管理策略方面的研究，该方面研究应从制定支持基础设施费用的政策、结合实践拓展多种技术方式、防范泛在网络信息生态系统失衡策略等角度进行；（7）统一标准方面的研究，为实现全球漫游的目标，应从信息资源管理过程在不同的地理环境之间、不同计算设备上或提供不同类型服务的软件环境之间无缝切换的角度展开研究；（8）情境感知方面的研究，应从基于情景的用户真实信息需求语义推导机制、信息获取结果的评判和修正机制、信息管理与用户行为的联系机制等角度进一步展开理论层面的研究，此外还需加强实证探索；（9）信息污染方面的研究，该方面应从制定相应的政策法规及防治信息污染策略方面展开研究；（10）信息资源检索方面的研究，该方面应从影响信息检索效率的因素及信息检索的智能化趋势方面展开研究。"
+  },
+  "5结语": {
+    "context1": "目前泛在网络中信息资源管理的研究大多数不够系统深入，这与泛在网络中信息资源管理研究刚刚兴起，深度研究尚存在困难有关，但这些文献为泛在网络中信息资源管理的研究与发展奠定了基础，对泛在网络中信息资源管理演进具有重要意义。国外对泛在网络中信息资源管理研究开展得较多，研究主题也涉及到了泛在网络中信息资源管理理论与实践的多个方面。而国内理论研究的角度多集中于图书馆领域，实践研究尤为缺乏。泛在网络中信息资源管理策略、泛在网络中信息资源管理机制、泛在网络中信息过载、泛在网络中信息安全等问题，应该是未来一段时间需要重点关注的主题。尽管目前泛在网络中信息资源管理的研究仍存在诸多不足，但随着泛在网络、信息技术和社会经济的发展，研究工作将逐渐深入开展，为未来泛在网络中信息资源管理工作的开展起到更大的推动作用。"
+  },
+  "注释": {
+    "context1": "[]古丽萍．泛在网络环境及U-China战略（上）[．中国无线电，2009（9)：24－26.",
+    "context2": "|邱均平．信息计量学M．武汉：武汉大学出版社，2007：105－106.",
+    "context3": "王慧娟：基于Agent技术的网络信息资源检索[．浙江树人大学学报（自然科学版)，2007（1)：6-9",
+    "context4": "YangSY.OntoAS:AnOntologSupportedInforationAgenthellfrUbiqitousServicesExpert SysteswitAppicatios，211， (6): 7803 -7816.",
+    "context5": "] Mark-Shane E.Scale. Cloud Computing and Collaboration [ .Library Hi Tech News，1999(9)：1-6.",
+    "context6": "BPiaoS，ParkJ，LeeE.ProbleLocalizatioUsingProbabilisicependencAnalysisforAutomatedSysteMaagementinUiquitousCoputing.Internet Research，2009 (2)：136-152.",
+    "context7": "张雪丽，周怡．泛在网络中基于标签的应用和标准化[．电信网技术，2009（7)：6-9.",
+    "context8": "王娜，张璐．泛在网络中基于用户的电子期刊订阅模式研究[．图书馆学研究，2013（15)：35－40.",
+    "context9": "唐伦，陈前斌，曾孝．泛在网络的Multi－Agent系统模型[．计算机工程与设计，2009（5)：1080－108",
+    "context10": "[0] 欧阳剑．泛在信息环境下图书馆信息资源组织构建研究[．图书情报工作，2011（5)：28-31.",
+    "context11": "[]WangneA，arbosaJLV，BarbosaDNF.AModelfrrofileManagementAppliedtoUbiqitousLearingEnviromentsExpertSystemwith Applications，2014 （41)：2023-2034.",
+    "context12": "[2]UhmY，LeeM，HangZ，KimY，ParkS.AMultiResoutioAgentforService-OrientedSiatioinUiquitousDansExpertStewith Applications，2011（10)：13291-13300.",
+    "context13": "[3]吴金红，张飞，周磊．面向泛在信息环境的自适应信息服务及其关键技术分析．情报理论与实践，2013（3)：112-116.",
+    "context14": "[4]HwagYC，YuanST.Ubiquitous ProximityE-ServiceforTrust Colaboration1.Internet Research，2O09（2)：174-193.",
+    "context15": "[15]沈畅．泛在网络中的网络设备管理模型的研究[]．南京：南京理工大学，2011.",
+    "context16": "i6] Courant M，Peutrec SL.Toward Autonomous Application Interfaces[.Kybernetes，2002(9/10)：1306-1312.",
+    "context17": "[7] Lee C S, Lee $\\textbf { G M }$ ，Rhee W S.Smart Ubiquitous Networks for Future Telecommunication Environments.Computer Standards& Interfaces， 2014 (2):412 -422.",
+    "context18": "[8]贺正娟．泛在网络资源管理模型的研究[]．通信技术，2009（10)：81-83.",
+    "context19": "[]Patel，NdinR，AlHaieyondUqtousComputig：TheMaysianHoneysanHeyeProectfoIoaieDigitalEcoy.Computer Standards& Interfaces，2014(5)：844-854.",
+    "context20": "[20]郭稳涛．无线泛在网络环境下用户环境感知关键技术研究．物联网技术，2013（6)：42-45.",
+    "context21": "：尧．基于环境感知的无线泛在网络自适应优化理论及技术研究[D．北京：北京邮电大学，2012.",
+    "context22": "[22 潘旭伟，李泽彪，祝锡汞，邵晨曦，自适应个性化信息服务—基于情景感知和本体的方法[．中国图书馆学报，2009（6)：41-48.",
+    "context23": "23]DurresiA.UbiquitousQoSCommunicarionsUsingSalableStelteNetworking.IntermationalJounalofPervasiveComputigand Communications，2010 (2)：214-228.",
+    "context24": "24LawKLE，UqousotentFoulatiosfoealeIfoatioocatiosIteatioJoualofervsieCoutigCommunications，2008 （1)：124-140.",
+    "context25": "[5]WangSL，WuYApplatioofCotetwareandPersoaldRecomendationtplementandaptiveUiqtousLeagSsteExpet",
+    "context26": "Systems with Applications，2011 (9)：10831-10838.",
+    "context27": "PiroG，CiaciI，GoLA，ogaG，ammadaPIfoatioentricervcesiarCitisJalofSstesSofare，8 169 -188.",
+    "context28": "[7]NohY.AStudyonNext-GenerationDigitalLibraryUsingContext-AwarenessTechnology.LibraryHiTech，2013（2)：236-253.",
+    "context29": "[8]HasteinsenK，GeisK，Paspalls，EliassnF，HomG，LorenzJ，MamelliA，PapadopoulosGA.ADevelopmentFrameworkand MethodologyforSelf-Adapting Applications in Ubiqitous Computing.Journal of SystemsandSoftware，2012（12):2840-2859.",
+    "context30": "[DiegelO，rightG，otgieterJetothUquousNtoks:Sealelytegraimasdacnesseblyutotio (2): 168 -176.",
+    "context31": "]Lee CS，LeeGM，RheeWS.SmartUbiquitous Networks forFuture Telecommunication Environments1.2O13（7)：412-422.",
+    "context32": "]王冠男．异构分布式网络环境的资源管理策略研究[]．成都：电子科技大学，2010.",
+    "context33": "[2] 胡海波．泛在网络环境下的政府信息服务[．情报资料工作，2011（3)：83－88.",
+    "context34": "[3]蔡营.WIA-PA工业无线网络多信道MAC机制研究[]．重庆：西南大学，2013.",
+    "context35": "B4MehedyL，eeS，birSLeeKcalabledaptiveContextDeliveryMechanisforContextAwareComputingIeailJoual of Pervasive Computing and Communications，2008(2):166 -184.",
+    "context36": "B5HuCL，ChoCAUserProvidedMtiediaContentDistibutionArchitectureinMobileandUbiquitousComunicationNetwoksJoualf Network and Computer Applications，2011(1)：121 -136.",
+    "context37": "B6AbawajyJHAdvancesinPervasiveComputing:GUESTEDORIALInterationalJouralofPervasiveComputingandComunications， 2009 (1): 4-8.",
+    "context38": "B7] MehedyL，eeS，ZbirSMSLeeYK.SaableandAdaptiveContextDeliveryMechanismforContext-AwareComputingteatioal Journal of Pervasive Computing and Communications，2008(2)：166 -184.",
+    "context39": "[B8]吴金红，陈勇跃，周磊．泛在信息环境下个性化信息服务研究动向探析．图书情报工作，2012（15)：31-36.",
+    "context40": "[9]王毅．沈阳政府信息网络应急机制研究[．沈阳：科技创新与产业发展（B卷）—第七届沈阳科学学术年会暨浑南高科技产业发展论坛文集，2010:923-926."
+  }
+}

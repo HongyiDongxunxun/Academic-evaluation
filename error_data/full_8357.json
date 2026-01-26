@@ -1,0 +1,115 @@
+{
+  "original_filename": "full_8357.md",
+  "社交媒体环境下网络信息可信度评估研究综述": {
+    "context1": "李保珍王亚（江苏科技大学经济管理学院，镇江212003）",
+    "context2": "摘要网络信息可信度关乎决策的有效性程度。社会化媒体、移动互联及大数据环境下的网络信息具有用户主动参与、信息多源异构及海量动态等新的特征。新的网络环境下，信息交流过程越来越扑朔迷离，信息的真实性或可信度越来越受到人们的关注，特别是针对信息质量中信息可信度评估及测度的研究越来越多。本文尝试基于相关研究文献，梳理网络信息质量及其可信度的含义、可信度的影响因素及相应的评估方法等方面的相关研究成果,分析现有研究在可信度测度、随机样本选择、可信度评估设计模型构建及标准语料库构建等方面的不足，进而提出相应的可能研究方向。",
+    "context3": "关键词社交媒体信息质量可信度评估研究综述"
+  },
+  "Review on Web Information Credibility Assessment in Social Media": {
+    "context1": "Li Baozhen and Wang Ya (School of Scienceand Management,Jiangsu Universityof Scienceand Technology，Zhenjiang 212003)",
+    "context2": "Abstract It is important to improve Web information credibility for thevalidity of deision．In the environmentof Social Media，Mobile Internet，andBig Data，there are somenew characteristics of Web information，such as the active participant behaviorofusers，themulti-source，heterogeneous，massanddynamic information.This paper tries toanalyze lotsofresearchesabout theconcept，influenceelement，andassessment methodof information qualityand information credibility basedonrelevantliteratures；thenfindsomeshortcomingsinthepresentresearches intheaspectsofcredibility measurement，random sampling，thedesign researchof credibilityassessment，and theconstructionofstandardcorpus；at last this paper tries to provide related research directions and approaches.",
+    "context3": "Keywords social media,information quality，credibility assessment,overview"
+  },
+  "1引言": {
+    "context1": "信息“可信度”来源于英文单词“Credibility”[1]是信息质量的首要元素[2]。信息可信度的高低不仅决定着信息中介的命运前途，也影响着信息使用者的决策效果[3]。如在网购的商业决策过程中，相关信息的不真实性及不确定性都会影响决策的有效性。国外针对电子口碑（ElectronicWordofmouth,eWOM）和在线评论（OnlineComments）信息可信度的研究表明，相比于低质量的产品评价，积极的高质量的评价能显著增强参与者购买该产品的意图[4]。对电子商务消费者而言，基于用户评价生成的产品等级被看作是产品质量的标志，越高的产品质量认知会带来更大的购买欲望[5]。",
+    "context2": "网络媒体不同于以往的传统媒体，如报纸、广播和电视等，其独有的信息海量性、传播快捷性与开放性，以及交流互动性等特点，使其迅速成为信息发布的主要平台[6。网络媒体为任何人发表意见开辟了一个无拘无束、不受限制的空间，这种趋势可能会削弱其作为信源的可信性[]。尤其是在社会化媒体、移动互联及大数据时代，用户在生成及利用网络信息过程中，其主动参与性和交互共享性大大增强，用户不仅仅是网络信息的浏览者，更是网络信息的制造者和传播者，如用户生成内容（UserGeneratedContent，UGC）[8]。新型网络环境下，网络信息的海量增长、交流平台的丰富多样，传播途径的日新月异，使得信息交流过程越来越扑朔迷离，信息的真实性或可信度越来越受到人们的关注[9]。",
+    "context3": "本文基于主题词“credibility”和“socialmedia”在“WebofScience”外文文献数据库中进行检索，并将检索文献的研究领域限定在信息管理相关领域，如传播、计算机、管理、心理及行为等学科，共获得267篇相关文献，检索结果按发表时间的分布趋势如图1（a）所示；此外，本文又基于主题词“credibility\"和“socialmedia\"在“CNKI\"中文文献数据库中进行检索，不限定研究领域，共获得68篇相关文献，检索结果按发表时间的分布趋势如图1（b)所示。",
+    "context4": "由上述分析可看出，新的网络环境下，网络信息的质量问题越来越引起专家们的研究兴趣，特别是针对信息质量中信息可信度这一命题的研究将越来越多。本文针对上述被检索的文献,侧重于被引频次高及最新发表的文献，进一步筛选及梳理了相关文献。本文重点针对网络信息质量及其可信度、网络信息可信度的影响因素以及可信度评估这几方面来探讨相关的研究进展,进而根据现有研究的不足，提出网络信息可信度评估的未来研究方向。"
+  },
+  "2网络信息质量及其可信度": {
+    "context1": "网络信息可信度属于信息质量的范畴，本文尝试首先基于信息质量相关研究理清信息可信度的研究范围，进而确定信息可信度评估的研究重点。本节针对信息质量评估的关键部分，如信息质量及其维度、信息可信维度及其可信程度，分析整理国外学者的相关研究成果。"
+  },
+  "2.1信息质量及其维度": {
+    "context1": "据国内外学者的归纳，信息质量的定义可分为四类[]：数据质量、信息产品的质量、满足信息用户需求的信息特征、产品质量与用户期望的融合。信息质量的前提是客观准确性，其价值体现于使用中的目标相关性[]。虽然在不同研究阶段的相关文献中，要么强调真实性为主，要么强调相关性为主，但信息质量的这两方面属性互为依存[12]。信息质量的真实可信是永恒的研究主题，尤其是在移动互联及社会化媒体的网络虚拟环境下，用户生成内容(UGC)的自下而上的信息生成机制，使得信息可信性及其测度的相关研究将越来越重要。",
+    "context2": "很多学者在研究信息质量的影响因素或进行信息可信度评估之前，都会先选择用于评估的信息质量维度[13,14]。对于不同的研究对象,信息质量维度的选取存在差异[15]。Savolainen[16]在判断互联网论坛上的信息质量时，选择的信息质量维度是信息的有用性、信息的正确性和专一性；Filieri和",
+    "context3": "![](images/2bf7a87a21b59d13100b64ee52b0b3ddf1a9a8a7bf66cc8f340594d3af6a7f9f.jpg)",
+    "context4": "![](images/3093ff1bf818feb932e6f6672ad7ee79a214d4e6890712266d879c3e08f46a29.jpg)  \n图1主题词\"credibility\"和\"socialmedia\"相关检索文献按发表时间的分布",
+    "context5": "McLeay[17]将信息质量维度作为重要的因素，用于分析其在旅客们采纳在线评论中的作用，包括信息的及时性、可理解性、相关性、准确性、增值信息和信息的完整性。Luo等[18]在研究eWOM读者的文化取向对论坛信息可信性认知影响的过程中，将信息来源的可信度、信息的一致性和信息等级作为模型的外围路线来考虑。",
+    "context6": "最早对信息质量维度进行系统性研究的学者是Ballou等[19]，他们基于信息的多种属性将信息质量划分为四个维度一—准确性、完整性、一致性和及时性。此外，Wang等[20]认为信息质量是一个多维的、层次结构的概念，从用户使用信息的过程将信息质量维度划分为：可存取性、可理解性、有用性、可信性。当然还有学者从不同角度划分了信息质量维度，但都少不了提到信息的可信性维度。",
+    "context7": "基于上述信息质量及其可信维度的相关文献分析,本文尝试分别从概念、特征、维度、研究视角这四个方面，对信息质量和信息可信度的区别及联系进行梳理(表1)。"
+  },
+  "2.2信息可信性维度及其可信程度": {
+    "context1": "信息可信维度作为“信息质量的首要元素”成为学者们衡量信息质量的重要命题[5]。Ltifi[2]以Facebook为例，研究社会化媒体在零售商店中的作用，结果表明了信息来源的可信度是信息可信性的决定因素。但Lucassen 和 Schraagen[22]认为当用户对信息有一定的熟悉度时，才会受到信息源的影响，其研究结果表明信息源对可信度评估并无影响。",
+    "context2": "信息可信度是信息可信性程度的定性评估或定量测度。Carroll和Richardson[23]在研究博客内容的信息可信性时，选择了信息可信性的两个维度：可信度与传播形态。并且针对博客信息可信性，形成一种新的判别模式，该模式补充了传统的可信性理解维度（专业知识、准确性、公平性和无偏见性），可识别性、透明性和交互性这三个维度。Savolainen[16]在评估互联网论坛信息可信性时，论坛作者的声誉占据了中心位置。另外使用频繁的标准还有作者的专业知识缺乏与否、论证的诚实与否，阐述的公平与否等。Zheng和Liu[24]基于模糊数学提出了信息可信度测度的定量模型，但其模糊测度缺乏严格的单调性，目前尚缺乏较精确的可信度定量测度模型。"
+  },
+  "3网络信息可信度的影响因素": {
+    "context1": "国内外关于网络信息可信度的研究大体可分为两类，即网站信息可信度（Websiteinformationcredibility）和社会化媒体信息可信度（Socialmediainformationcredibility）。很容易看出两者最大的区别就在于信息生成机制和传播方式不同。网站信息以“一对多”的信息生成机制和传播方式为主;社会化媒体则以“多对多”的信息生成机制和传播方式为主，也即“能够互动”的媒体。",
+    "context2": "表1信息质量及信息可信度的比较",
+    "context3": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>信息质量</td><td rowspan=1 colspan=1>信息可信度</td></tr><tr><td rowspan=1 colspan=1>概念</td><td rowspan=1 colspan=1>信息质量是抽象、多维的概念，主要指信息内容的真实性程度及其价值的需求相关性程度[1]。</td><td rowspan=1 colspan=1>信息可信度是信息质量的某一方面特征，主要指用户对信息的信任程度。</td></tr><tr><td rowspan=1 colspan=1>特征</td><td rowspan=1 colspan=1>信息质量具有鲜明的客观情境特征和用户主体特征，信息不仅要求满足客观准确性、完整性，还要与用户要求相匹配，即“适合于使用”。</td><td rowspan=1 colspan=1>信息可信度是基于信息内容的客观特征及其他用户对其的评价，用户对信息是否值得信任的判断和评价[3]。</td></tr><tr><td rowspan=1 colspan=1>维度</td><td rowspan=1 colspan=1>信息质量的维度主要包括准确性、完整性、一致性和及时性、可存取性、可理解性、有用性、可信性、相关性、增值性、客观性等[19]。。</td><td rowspan=1 colspan=1>信息可信度主要包括信源可信度即传播者的可信度，媒介可信度,内容可信度[3]。该三个维度下仍可细分，具体包括可信赖性、专业性、可识别性等。</td></tr><tr><td rowspan=1 colspan=1>研究视角</td><td rowspan=1 colspan=1>信息质量主要从信息源的数据真实可信程度，信息载体及传输手段的有效程度，以及信息商品的用户需求相关程度等视角进行研究。</td><td rowspan=1 colspan=1>信息可信度主要从信源可信度、信息载体可信度，信息内容可信度，以及传播媒介可信度等方面进行研究。</td></tr></table>"
+  },
+  "3.1网站信息可信度的影响因素": {
+    "context1": "决定网站可信度的主要因素包括专业性、可信赖性、赞助以及各种决定网站可信度的标准[25]。 一个更可信的网站赞助商会带来更高的信息可信度的评级，而且搜索引擎的一流排名会提高用户对赞助者可信度的认知，从而间接影响用户对信息可信度的看法[26]。根据网站信息应用领域进行分类,大致可分为新闻类网站信息和商业类网站信息。"
+  },
+  "3.1.1新闻类网站信息可信度的影响因素": {
+    "context1": "较网络娱乐信息和商业信息而言，网络新闻信息是更为可信的信息来源[27]。新闻网站消息一经发布，就会牵涉发布者、发布平台和接收者三方面。",
+    "context2": "信息发布者即传者，也就是信息来源。研究指出身份明确的社会公众人物如知名人士、专家学者、政府官员所发布的新闻比没有明确署名、难以辨识的新闻更令人相信[28]。",
+    "context3": "网站新闻发布的平台就是各类网站。尤薇佳等[29]通过比较四类Web信息传播渠道，即新闻网站、网络论坛、博客和即时通讯工具对于突发事件信息的传播效果，得出新闻发布网站是最信任的渠道这一结论。",
+    "context4": "信息接受者即阅读并利用信息的人。大量针对信息接收者的研究中发现女性、年轻网民更加相信网络信息30],而且年龄越大的人，越会质疑网络信息的可信度；教育程度越高，社会地位越高对网络新闻的绝对可信度评价也越高[28]；网民对网络越依赖,越认为网络可信[27]；网民的媒介素养正向决定他们对网络信息可信度的认知[31]，而且网站可靠性和接受者的网站依赖性都正向影响渠道可信度[9]"
+  },
+  "3.1.2商业购物类网站信息可信度的影响因素": {
+    "context1": "关于购物网站信息可信度的研究最开始是针对网站产品的在线评论（OnlineReviews，ORs）的研究[32]。Filieri和MeLeay[17]指出,产品排名和某些信息质量维度，包括信息的准确性、相关性和增值信息在消费者采纳信息过程中起着重要的作用；Flanagin等[5发现,产品等级信息在用户评价商业信息可信度过程中是重要影响因素，对电子商务消费者而言，等级高被视为产品信息高度可信的表现形式。",
+    "context2": "近年来不少学者通过分析网站文本型与数值型的在线评论来研究网络口碑（e-WOM）的可信度。",
+    "context3": "Luo[18]等学者通过对 E-WOM读者的文化取向的研究发现，网络口碑读者积极缓和了信息片面性对信息可信度感知的影响，也消极中和了信息一致性、信息等级和信息可信度之间的关系。Lucassen和Schraagen[33]两人认为用户之间的个体差异会影响他们对信任评估的行为，同时也指出用户的信息源经验（SourceExperience）、专业知识（DomainExpertise）、信息技能（Information Skills）会造成网络用户关于同一信息话题的信任程度产生差异。"
+  },
+  "3.2社会化媒体信息可信度的影响因素": {
+    "context1": "社会化媒体的问世改变了网站作为信息发布主要渠道的局面，以用户为核心组织内容的流行媒体，如社交网络(SNS）、博客(Blog)等，更是使用户参与到信息供给的行列，不再是单纯的信息消费。"
+  },
+  "3.2.1社交网络类信息可信度的影响因素": {
+    "context1": "社交网络服务（Social Network Service,SNS）有国内比较典型的人人网、开心网和天际网等，国外比较典型的Facebook和LinkedIn等。不同于传统的诸如电子公告板(BBS）、聊天室、电子邮件小组等虚拟社区,SNS网站注册需要大量反映个人真实身份的信息。因此姒琪莹34将SNS网站信息可信度定义为网站保护用户信息和隐私、提供用户进行线上社会交往功能的能力和善意方面的可信度。在 SNS网站用户信任度实证研究中，用户的互联网隐私顾虑和用户向他人提供个人信息的意愿被认为是影响SNS 网站用户信任度/水平的重要因素[35]，且前者与 SNS网站用户信任度/水平负相关，后者则是正相关。",
+    "context2": "微信是近年逐渐热门的社交网络平台。在微信上发布产品信息的人是微商，由此也带动了微信口碑的形成。目前对微信口碑的研究还较少，丘惠翠[36]从微信口碑信息的发送者、信息特性、接受者三个视角分析了影响微信口碑可信度的因素，指出微信口碑的传播者若公开身份信息或传播动机单纯会增强口碑的可信度；口碑信息的专业性和接受者的专业能力都会正向影响口碑的可信度；需要强调的是，微信拥有“朋友圈”这一独特功能，所以微信□碑传播者与接收者之间的关系强度越强，微信口碑可信度越大。"
+  },
+  "3.2.2博客或微博类信息可信度的影响因素": {
+    "context1": "对博客或微博类信息可信度的研究可归纳为信息来源和信息内容两个方面，即博主特征和博客内容。",
+    "context2": "从博主特征来看，Twitter用户的粉丝数与关注数是影响可信度评估的重要因素，追随者数量太少或太多都会使博主不那么可信，同样如果有很多粉丝的持有者自已没有跟随其他人，那么这个人也几乎不会被视为一个专家[37]。博主的声誉、专业知识和作者相关信息的诚实度是信息可信度评估的重要影响因素[16,38]",
+    "context3": "从博客内容来看,An[39]等学者研究了Twitter上的新闻信息的可信度，识别了四种类型的特性：基于消息的特性、基于用户的特性、基于新闻主题的特性和基于传播的特性。Carrol和Richardson[23]选择两个广泛阅读的单作者博客与读者之间的信任关系为研究对象，建立了信息可信度的新兴标准，包括交互性、透明性和识别性。"
+  },
+  "4网络信息可信度评估": {
+    "context1": "从上述网络信息可信度影响因素的相关研究可以看出，影响网络信息可信度的主要因素主要体现为不同的网络平台特征、不同的网络用户特征、以及不同的信息内容特征。"
+  },
+  "4.1基于平台特征的评估方法": {
+    "context1": "基于上述信息来源及信息中介的影响因素分析，网络信息平台具有大用户基数和较高的人机接触频率的特征，此外，还有基于用户关系网络、品牌认知度、或使用习惯的独占性等特征。",
+    "context2": "屈文建和谢冬[40]采用定性分析方法，综合归纳网络学术论坛信息可信度的评价指标体系，建立了灰色系统理论的模糊综合信用评价模型。Westerwick[26]采用定量分析方法，因变量是信息的可信度，自变量包括网站赞助商（低、中、高的可信度）、网站设计的吸引力（低、高）、以及搜索引擎有无谷歌一流排名，设计了一个主实验和一个跟踪实验。Liu[4]等采用优化分析方法，运用动态规划、最小费用流公式、最大权重匹配算法，完全数值化的体现构建的网站信息可信度结构模型的可行性。"
+  },
+  "4.2基于用户特征的评估方法": {
+    "context1": "依据上述信息接收者方面的影响因素，可知用户特征有用户属性特征和用户行为特征[42,43]。用户属性特征从宏观与微观的角度可划分为两大类，其一是广大网民用户均具备的人口统计学变量特征，包括性别、年龄、受教育程度、收入等;其二则是在社交环境中突出的用户属性，有用户的粉丝数、关注数、访问量和发文量等；而用户行为特征就主要体现为用户的网络使用、网络依赖等媒介素养。",
+    "context2": "张明新[27]问卷调查了抽样选取的435名武汉市的网民，通过五级量表对人口统计学变量、网络使用以及网络便利等变量进行测量，初步探讨了我国的网民对网络信息可信度的评价及其相关因素；刘琼[28]则是通过半结构式访谈确定影响网络新闻可信度的可能因素，在之后的问卷调查中分别用五级量表测量了网民对“不同网络平台新闻可信度”、“网名质疑中国网络新闻可信度的理由”、“信任状况”以及七级量表测量网民的媒介素养等变量。",
+    "context3": "调查法通常在探索性研究的文献中使用，实证研究的文献则会选择实验法[44]。实验法是最初研究可信度的方法[45]。Castillo等基于社会媒体环境本身的特征能够使用户主动参与评估信息的可信度的假设，构建了实验模型，探讨了可自动分析社会化媒体中信息，尤其是针对有新闻价值的信息的可信性评估的方法，并进一步提出了预测信息可信性的模型[46]。Mun等[47]在详尽可能模型（ElaborationLikelihoodModel，ELM)的基础上，提出一种基于网络健康信息的初始信任的形成研究模型，该模型也得到了300名网民现场测试实验结果的支持。Ltifi[21]以网络调查的形式收集用户的研究数据，用来检查感知质量、感知信息可信度对信息来源有用性和继续使用该消息来源的意图的作用关系，并且采用结构方程模型来分析数据，提供了测试零售企业社交网络中粉丝页面上信息可信性的模型。"
+  },
+  "4.3基于信息特征的评估方法": {
+    "context1": "社交媒体环境下，网络信息具有多源异构、层次嵌套、动态更新等特征。江晓东[48]基于可达性一可诊断性模型和不确定性降低理论，构建了产品评论有用性影响因素模型。孙春华和刘业政[49]从口碑信息结构入手，采用的组间实验设计，进行了在线购买实验研究。",
+    "context2": "Lucassen 和 Schraagen 30]利用 3S（semantics,surface，source)模型来衡量信息质量，其中语义、表面特征和源就是用于信任判断的信息的三种特性。该模型已经得到初始验证，它清晰展示了信任判断的形成过程。潜在可信度分析（Latent CredibilityAnalysis,LCA)是具有较强原则性的概率模型，其分别利用来自真实世界的两个无监督数据集和两个半监督数据集将，其与现有分析方法—“事实的发现者\"（fact-finders）的性能进行对比，结果也表明，LCA模型的性能显著超过后者的性能[50]。"
+  },
+  "5研究不足及可能研究方向": {
+    "context1": "基于上述网络信息可信度的含义、影响因素及评估方法的相关文献的整理,本文尝试分析现有相关文献研究的不足，进而针对研究的不足，提出可能的深入研究方向。"
+  },
+  "5.1研究不足": {
+    "context1": "信息质量及其可信度评估是信息管理、决策科学等学科永恒的主题。新型网络环境下，尤其是网络用户能够基于移动互联及社会化媒体主动参与用户生成内容（UGC），网络信息可信度评估具有不同于传统网站信息可信度评估的新特征，如海量用户实时参与、多源异构信息主题快速积聚等。因此，基于传统网站信息可信度评估的方法途径已不能完全适用于社会化媒体环境下的网络信息可信度评估，尽管近年来已有一些针对社会化媒体网络信息可信度评估的相关文献，但相关文献主要侧重于对影响因素进行实证分析的探索性研究，如何针对新型网络环境的特征，构建网络信息可信度测度指标及测度方法的设计性研究尚不多见。",
+    "context2": "(1)侧重于定性评估，缺少科学的定量测度 指标",
+    "context3": "相关文献对网络信息可信度的评估尚停留在探索阶段，如针对不同的网络平台、信息用户或信息内容，采用的评估指标都不太一致，缺乏统一的定量测度指标，因而相互之间难以进行有效的对照比较。",
+    "context4": "网络信息可信度是需要测量的，而测量就需要首先建立可信度指标体系或可信度测度模型，然后使用特定测量方法才能实施测量。测度的运用是建立测量方法的依据，也是解决网络信息可信度测量的关键。",
+    "context5": "（2）侧重于简单抽样，缺少针对社会化媒体特征的随机抽样",
+    "context6": "海量的网络用户参与使得样本性的实验法及问卷调查法评估难以揭示大范围的用户创造内容的可信度，相关的结果不能完全推广或直接应用到其他领域。同样，在网络信息内容样本选择中，以维基百科或特定博客中的文章作为信息样本，也不具普",
+    "context7": "遍性。",
+    "context8": "通过自荐或网上招募的方式获取参与者完成网络在线实验，或是利用数据源挖掘技术获取实验数据的方式，由于较低的问责制和网络信息的虚拟性使得无法考证信源的真实性，这将导致难以客观验证可信度评估模型的有效性。",
+    "context9": "(3)侧重于探索性实证研究，缺少构建性设计研究",
+    "context10": "现有的网络信息可信度影响因素的相关研究是进一步进行构建性设计研究的前提,然而尚缺乏有效的网络信息可信度设计研究的相关成果。",
+    "context11": "在社会化媒体及大数据环境下，基于有限样本所获得的实证研究结论具有一定的局限性，如果能够运用大数据分析技术及相关的数理理论，进一步构建网络信息可信度评估的数理模型，或许能够弥补现有评估方法模型的不足。",
+    "context12": "(4)侧重于自上而下的语料库构建，缺乏自下而上的语料库的构建",
+    "context13": "一般的网络用户不具有专业知识水平或较强的信息辨别能力。尚需制定标准数据库，包含正确的、公认的有效事实信息，通过与其对比或类比来判断网络信息的真实性程度。",
+    "context14": "传统的本体语料库的构建主要基于专家知识，其具有较强的可信性参照标准，但在社会化媒体及大数据环境下，由于网络信息的海量、异构、高维及动态等特征，单纯依据自上而下的专家本体构建已经不能适应新型网络环境下信息可信度的参照语料库的要求。"
+  },
+  "5.2可能研究方向": {
+    "context1": "(1)基于概率测度论构建网络信息可信度的测度指标",
+    "context2": "数学上，测度（Measure）是一个函数，它为一个给定集合的某些子集指定一个数，这个数可以比作大小、体积、概率等。测度是把数字和符号分配给现实世界对象的属性，根据明确定义规则来定义它们。运用测度，人们能较好地理解建立质量模型的属性，并评价所建立的模型的质量。虽然网络信息可信度的度量不是绝对的，但测度的建立提供了基于一套清晰定义规则的系统方法来评价网络信息可信度的方法。"
+  },
+  "(2)基于社会化媒体特征构建海量动态的随机抽样方法": {
+    "context1": "通过大数据分析的场景识别方法进行相关信息的聚焦，进而完善传统的实验及问卷调查评估方法。以某种概率规则选取具有代表性的样本，或是加强人机协作，利用计算机在大数据环境下搜取相关信息，进而完善传统的实验及问卷调查评估方法。",
+    "context2": "(3)基于社会化媒体特征构建用户参与的可信度评估模型",
+    "context3": "网络信息的虚拟性使得信源验证方法无效，如果基于用户主动参与的特征，利用用户的评价行为结果对网络信息内容进行可信度评估，可能是社会化媒体环境下信息可信度测度的有效途径。样本属性的缺失使得一些定量评估方法失效，如果运用先验信息及关联信息进行迁移学习或协同分析，以弥补样本属性确实的不足，可能是大数据环境下网络信息可信度测度的有效途径。",
+    "context4": "(4)基于参与者经验及行为结果自下而上构建可信度标准数据库",
+    "context5": "如何基于用户生成内容（UGC）所形成的相关行为结果，如社会化标注、评价所形成的数据集，运用大数据分析的相关技术及模型，识别相关网络信息要素的场景性内在逻辑关系，构建场景性、领域性的语料库，并根据场景领域动态变化，实时调整相关的语料库，可能是社会化媒体及大数据环境下，网络信息可信度评估及测度的有效途径。"
+  },
+  "参考文献": {
+    "context1": "[1］王平，程齐凯.网络信息可信度评估的研究进展及述评[J].信息资源管理学报，2013，3(1)：46-52.  \n[2] Rieh SY,Danielson DR.Credibility：A multidisciplinaryframework[J].Annual Review of Information Scienceand Technology,2007，41(1):307-364.  \n[3]邓发云．基于用户需求的信息可信度研究［D]．成都：西南交通大学，2006.  \n[4]Lee EJ,Shin S Y.When do consumers buy online productreviews？ Effects of review quality，product type，andreviewer's photo[J]．Computers in Human Behavior,2014，31:356-366.  \n[5] Flanagin AJ,Metzger MJ,Pure R，et al．Mitigatingrisk in ecommerce transactions：perceptions of informationcredibility and the role of user-generated ratings inproduct quality and purchase intention[J]．ElectronicCommerce Research，2014，14(1）：1-23.  \n[6] 张婷婷.论网络媒体的现状与问题［D]．华中师范大学，2010.  \n[7] 托马斯J，约翰逊，谭辛鹏．互联网与传统媒介信息可信度的比较[J]．国际新闻界，1999（5）：56-59.  \n[8]蒋盛益,陈东沂，庞观松,等.微博信息可信度分析研究综述[J]．图书情报工作，2013，57（12)：136-142.  \n[9] 谢冬．网络学术信息可信度分析[D]．南昌大学，2014.  \n[10］李晶．虚拟社区信息质量建模及感知差异性比较研究［D]，武汉大学,2013.  \n[11] Hayati Z,Dehghan L.A survey of acquaintance andapplication of Web information qualitycriteria：a casestudy of post-graduate students in shiraz university[J].Journal of Information Processing and Management,2012,27(4):1011-31.  \n[12] 阮光册．用户生成文本内容的质量管理研究[J]．情报学报，2014,33(11）：1178-1184  \n[13] 查先进，张晋朝，严亚兰．微博环境下用户学术信息搜寻行为影响因素研究—--信息质量和信源可信度双路径视角[J]．中国图书馆学报，2015，3：008.  \n[14] Mou Y,Miller M，Fu H．Evaluating a target on socialmedia：From the self-categorization perspective[J].Computers in Human Behavior,2015,49：451-459.  \n[15] 刘冰，张耀辉．基于网络用户体验与感知的信息质量影响因素模型实证研究[J]．情报学报，2013，32(6) : 663-672.  \n[16]Savolainen R． Judging the quality and credibility ofinformation in Internet discussion forums[J]． Journalof the American Society for Information Science andTechnology，2011,62(7）:1243-1256.  \n[17] Filieri R，McLeay F. E-WOM and acommodation ananalysis of the factors that influence travelers'adoption ofinformation from online reviews[J].Journal of TravelResearch，2014,53(1):44-57.  \n[18] Luo C,Wu J,Shi Y,et al. The effects of individualism-collectivism cultural orientation on eWOM information[J]．International Journal of Information Management,2014，34(4): 446-456.  \n[19] Ballou D P,Pazer HL.Modeling data and processqualityin multi-input，multi-output information systems [J].Management Science，1985,31(2）：150-162.  \n[20] Wang R Y,Reddy M P,Kon H B. Toward quality data:An attribute-based approach [J]．Decision SupportSystems,1995,13(3):349-372.  \n[21] Ltifi M.Roles of social media in the retail sector inTunisia：the case of Facebook ［J]. InternationalStrategic Management Review,2014,2(2）：79-88.  \n[22] Lucassen T， Schraagen J M. The influence of sourcecues and topic familiarity on credibility evaluation[J].Computers in Human Behavior，2013，29（4）：1387-1392.  \n[23] Carroll B,Richardson R R.Identification，transparency,interactivity:Towards a new paradigm for credibility forsingle-voice blogs [J]．International JournalofInteractive Communication Systems and Technologies（IJICST),2011,1(1)：19-35.  \n[24] Zheng Y, Liu B. Fuzzy vehicle routing model withcredibility measure and its hybrid intelligent algorithm[J]．Applied Mathematics and Computation,2006,176(2): 673-683.  \n[25] Fogg B，Marshall J,Laraki O,etal. Web credibilityresearch[C]//ACM CHI,2001.  \n[26] Westerwick A.Effects of sponsorship，web site design，and Google ranking on the credibility of onlineinformation [J].JournalofComputer-MediatedCommunication,2013,18(2）：80-97.  \n[27] 张明新．网络信息的可信度研究：网民的视角[J].新闻与传播研究，2005，12(2)：17-27.  \n[28] 刘琼．中国网络新闻可信度研究［D]．武汉：华中科技大学，2011.  \n[29] 尤薇佳，李红，刘鲁．突发事件Web 信息传播渠道信任比较研究[J]．管理科学学报，2014，17（2）：19-33.  \n[30] 张明新，曾宪明．网络使用，网络依赖与网络信息可信度之相关性研究．湖北大学学报：哲学社会科学版，2007,34:111-115.  \n[31] 蒋洪梅.网络媒体新闻信息可信度研究[D]．南京师范大学，2013.  \n[32] 刘逶迤，逢万辉，丁晟春．商品评论信息可信度研究[J]．情报科学，2012，30(10)：1556-1565.  \n[33] Lucassen T，Schraagen JM.Factual accuracy and trustin information：The role of expertise[J]．Journal of theAmerican Society for Information Science and Technology,2011,62(7):1232-1242.  \n[34] 姒琪莹.学生用户对 SNS 网站信任度的实证研究[D].上海交通大学,2010.  \n[35] 代宝，刘业政．SNS 用户采纳影响因素实证研究综述[J]．情报资料工作，2015，1：014.  \n[36] 丘惠翠．微信口碑可信度的影响因素分析[J]．市场研究，2014，12：014.  \n[37] Westerman D,Spence PR,Van Der Heide B.A socialnetwork as information：The effect of system generatedreports of connectedness on credibility on Twitter[J].Computers in Human Behavior,2012,28(1):199-206.  \n[38］周全，汤书昆．社会化媒体信息源感知可信度及其影响因素研究—一项基于微博用户方便样本调查的实证分析［J]．新闻与传播研究，2015（4）：18-35.  \n[39] An J,Li W J,Ji L N,et al．A survey on informationcredibility on Twitter[C]//Applied Mechanics andMaterials,2013,401：1788-1791.  \n[40] 屈文建，谢冬．网络学术论坛信息可信度的灰度分析[J]．图书情报知识，2013，2：017.  \n[41] Liu B,Terlecky P,Bar-Noy A,etal.Optimizing informationcredibility in social swarming applications[J]. Paralleland Distributed Systems，IEEE Transactions on，2012,23(6) : 1147-1158.  \n[42] 赵宇翔，吴克文，朱庆华．基于IPP视角的用户生成内容特征与机理的实证研究[J]．情报学报，2011，30(3):299-309.  \n[43] Lim Y，Van Der Heide B.Evaluating the wisdom ofstrangers：The perceived credibility of online consumerreviews on yelp[J]．Journal of Computer-MediatedCommunication,2015,20(1):67-82.  \n[44] 汤志伟，彭志华，张会平．网络公共危机信息可信度的实证研究[J]．情报杂志，2010,29(7)：45-49.  \n[45] 刘冰，张耀辉，卢爽，等．信息交互过程中信息质量影响因素实验研究：基于用户体验与感知视角[J].情报学报，2012，31(6)：648-661.  \n[46] Castillo C,Mendoza M,Poblete B.Predicting informationcredibility in time-sensitive social media[J].InternetResearch，2013,23(5）：560-588.  \n[47] Mun YY,Yoon JJ,Davis JM，et al.Untangling theantecedents of initial trust in Web-based healthinformation：The roles of argument quality，sourceexpertise，and user perceptions of information qualityand risk[J].Decision Support Systems,2013,55（1）：284-295.  \n[48] 江晓东．什么样的产品评论最有用？一在线评论数量特征和文本特征对其有用性的影响研究［J]．外国经济与管理，2015，4：004.  \n[49] 孙春华，刘业政．网络口碑信息可信度的实验研究[J]．财经论丛，2009（4)：96-102.  \n[50] Pasternack J,Roth D.Latent credibility analysis[C]//Proceedings of the 22nd international conference onWorld Wide Web． International World Wide WebConferences Steering Committee,2013：1009-1020."
+  }
+}

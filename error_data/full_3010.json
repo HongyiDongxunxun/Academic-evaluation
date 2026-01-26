@@ -1,0 +1,95 @@
+{
+  "original_filename": "full_3010.md",
+  "国内外智能选书研究进展": {
+    "context1": "张炎烈",
+    "context2": "（陕西师范大学图书馆，西安710062）",
+    "context3": "[摘要]文中摘要介绍了Johnston 选书专家系统的知识库组织与不确定性推理机制,指出了它对Approval计划“纲目选书\"模式与Mycin、Prospector等系统推理方法的借鉴。文中还详细介绍了“藏书选择专家系统\"的要素选择、知识表示等特征，并比较了二者的异同。",
+    "context4": "[关键词]智能选书选书专家系统研究进展"
+  },
+  "一、研究概况": {
+    "context1": "国外的选书智能化研究始于20世纪70年代初，目前已形成群体，至少。有三个系统已经实现或正在开发中；我国则迟至80 年代。国外的条件，无论理论基础、人力、物力都比我们优裕。我们的条件虽然比较差，开展比较晚，但基础研究做得扎实，结构上有自己的特色。",
+    "context2": "国外选书智能化研究的第一个特征是“充分借鉴”，例如在知识要素分析、知识库组织等方面，充分借鉴了大书商们的“试销计划（ApprovalPlan)\")(2)的“要素\"框架,并引用了其它领域专家系统的推理模式3。",
+    "context3": "国外选书智能研究的第二个特征是偏重于推理设计，而忽视选书理论、选书知识的研究表达。",
+    "context4": "我们知道.“ApprovalPlan\"是西方大书商针对大、中型图书馆的一种垄断性销售策略，是一种“黑箱\"方法。它一不求解藏书建设知识，二不明确读者需求，而只求通过供货“试错\"修正，最终只求供货与适销的吻合。在这个系统中·图书馆完全处于被动状态。这从其只按“主题、知识含量、与馆藏关系、潜在使用价值、著者出版者、文种\"等六要素推断就可以明白。",
+    "context5": "由于国外选书专家系统不太注重基础知识研究·就不得不在推理过程中加大用户参与，从而使系统水平偏低。正像Brownson在[2]中评论的那样，现有专家系统仅能充当“选书顾问”只起到“选书咨询\"的作用。",
+    "context6": "我国选书专家系统研究起步时（1982年).既无资料，又无智能工具环境·但它立足于图书馆自身，从读者需求信息表征与文献品质分析做起·进而对这些基本要素进行模糊模型化表达;并在文献与读者需求关系上取得了“映合匹配\"算法的成功，这是国外系统所不及的。",
+    "context7": "从某种意义上说·我们做了更多的使“黑箱\"“白\"化的工作;追求黑箱白化·促使非结构化向结构化、半结构化转变，是人工智能追求的目标。从这点上说，邓珞华在[4]中的评论是中肯的，他说：（我国)“研究人工智能的文章中，借鉴得多·能提出自己真知灼见的少。除陕西师范大学张炎烈的‘图书采访智能系统'基本上属于他自已的构想外·其余的文章大多是借鉴别人的东西。”"
+  },
+  "二、国外选书专家系统结构简介": {
+    "context1": "M·Johnston 和J·Weckert 的[3]文,“选书顾问：专家系统与藏书建设”，基本上阐明了国外选书专家系统的研究概况。他们认为：“在当前，这种研究虽然不是一个大众化的课题，但它是一个十分有价值、有前途的工作。现今已经有三个系统：一个是L·Sowell的，一个是R·Rada的，还有我们的。前两个系统已在A $\\bullet$ Vickery的[5]中介绍过；我们的和Sowell的都是用Prolog语言编的，使系统有较大地灵活性；Rada的系统主要适用于期刊采购，我们的对书、刊都通用。”",
+    "context2": "国外选书专家系统对选书涉及的要素，虽然有八项的、七项的，但比较成功的还是由Approvalplan演化而成的六项比较公允；这是Rutledge等在[6]文中阐明的，我国的翁勇荣同志在[7]文中摘译过。在这个模型中，横向地把选择标准分为六项，即主题，知识含量，潜在使用价值，与馆藏的关系.著者、出版者，文种;纵向地按其对馆藏体系的重要性分成三级：I级（核心藏书)，I级(基本藏书），Ⅲ级（一般藏书）。在这些要素和等级中，每项又分设几个判定标准。由于供人脑选书参考与机器推理要求的不同，[3]中的介绍要比翁勇荣摘译的明确些；现将[3]中的主题和知识含量两项的细节译介如表1、表2：",
+    "context3": "表1Johnston 的选书要素模式(局部)",
+    "context4": "<table><tr><td rowspan=1 colspan=2>级别</td><td rowspan=1 colspan=1>①主题</td><td rowspan=1 colspan=1>②知识含量</td></tr><tr><td rowspan=5 colspan=1>级</td><td rowspan=1 colspan=1>a</td><td rowspan=1 colspan=1>直接支持的学科</td><td rowspan=1 colspan=1>该领域的核心出版物</td></tr><tr><td rowspan=1 colspan=1>b</td><td rowspan=1 colspan=1>重点支持的学科</td><td rowspan=1 colspan=1>该领域核心作者的著作</td></tr><tr><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>强调的学科</td><td rowspan=1 colspan=1>该领域重要研究成果</td></tr><tr><td rowspan=1 colspan=1>回</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>本课题前沿性研究</td></tr><tr><td rowspan=1 colspan=1>e</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=5 colspan=1>员</td><td rowspan=1 colspan=1>a</td><td rowspan=1 colspan=1>一般支持学科</td><td rowspan=1 colspan=1>一般论述</td></tr><tr><td rowspan=1 colspan=1>b</td><td rowspan=1 colspan=1>新颖的学科</td><td rowspan=1 colspan=1>局部研究成果</td></tr><tr><td rowspan=1 colspan=1>℃</td><td rowspan=1 colspan=1>学科中局部课题</td><td rowspan=1 colspan=1>局部见解</td></tr><tr><td rowspan=1 colspan=1>d</td><td rowspan=1 colspan=1>学习参考学科</td><td rowspan=1 colspan=1>大众化论著</td></tr><tr><td rowspan=1 colspan=1>e</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+    "context5": "表2Johnston的评判标准(局部）",
+    "context6": "<table><tr><td rowspan=5 colspan=1>1级</td><td rowspan=1 colspan=1>a</td><td rowspan=1 colspan=1>领域中非核心课题</td><td rowspan=1 colspan=1>非正式出版文献</td></tr><tr><td rowspan=1 colspan=1>D</td><td rowspan=1 colspan=1>与领域相关的学科</td><td rowspan=1 colspan=1>次要文献</td></tr><tr><td rowspan=1 colspan=1>D</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>普及、科普性著作</td></tr><tr><td rowspan=1 colspan=1>d</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>宣传性文献</td></tr><tr><td rowspan=1 colspan=1>e</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+    "context7": "<table><tr><td rowspan=1 colspan=2>级别</td><td rowspan=1 colspan=1>①</td><td rowspan=1 colspan=1>②</td></tr><tr><td rowspan=5 colspan=1>I</td><td rowspan=1 colspan=1>a</td><td rowspan=1 colspan=1>29-30</td><td rowspan=1 colspan=1>25</td></tr><tr><td rowspan=1 colspan=1>b</td><td rowspan=1 colspan=1>27-28</td><td rowspan=1 colspan=1>23-24</td></tr><tr><td rowspan=1 colspan=1>c</td><td rowspan=1 colspan=1>25-26</td><td rowspan=1 colspan=1>21-22</td></tr><tr><td rowspan=1 colspan=1>d</td><td rowspan=1 colspan=1>23-24</td><td rowspan=1 colspan=1>19-20</td></tr><tr><td rowspan=1 colspan=1>e</td><td rowspan=1 colspan=1>21-22</td><td rowspan=1 colspan=1>17-18</td></tr><tr><td rowspan=5 colspan=1>1</td><td rowspan=1 colspan=1>a</td><td rowspan=1 colspan=1>19-20</td><td rowspan=1 colspan=1>16</td></tr><tr><td rowspan=1 colspan=1>b</td><td rowspan=1 colspan=1>17-18</td><td rowspan=1 colspan=1>14-15</td></tr><tr><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>15-16</td><td rowspan=1 colspan=1>12-13</td></tr><tr><td rowspan=1 colspan=1>d</td><td rowspan=1 colspan=1>13-14</td><td rowspan=1 colspan=1>10-11</td></tr><tr><td rowspan=1 colspan=1>e</td><td rowspan=1 colspan=1>11-12</td><td rowspan=1 colspan=1>9</td></tr><tr><td rowspan=5 colspan=1>1</td><td rowspan=1 colspan=1>a</td><td rowspan=1 colspan=1>9-10</td><td rowspan=1 colspan=1>8</td></tr><tr><td rowspan=1 colspan=1>回</td><td rowspan=1 colspan=1>7-8</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>5-6</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>d</td><td rowspan=1 colspan=1>3-4</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>e</td><td rowspan=1 colspan=1>1-2</td><td rowspan=1 colspan=1>0</td></tr></table>",
+    "context8": "现在让我们介绍一下[3]中的“不精确推理\"的过程：",
+    "context9": "我们知道，专家系统的两个关键组成部分中一个是存放知识的知识库，一个是利用知识库实现实际问题求解的推理机。表1、表2的内容是系统知识库的主要存贮。",
+    "context10": "由于专家系统面临着许多不良性结构问题和一些专家的启发性知识，系统常常要以非精确的知识求解那些初始证据也不一定准确的知识，这就要将那些不准确的知识转换成“确定性因子(CF)”还要对那些模糊的或者仅具有概率意义的概念，进行“多值\"分析，这就涉及到模糊数学和概率统计方法。人工智能多年的研究，专家们创造了许多不精确推理的模型。其中比较突出的是： $\\textcircled{1}$ 基于概率理论的主观Bayes方法; $\\textcircled{2}$ 确定性理论； $\\textcircled{3}$ 证据理论； $\\textcircled{4}$ 基于模糊概率的可能性理论； $\\textcircled{5}$ 基于集合发生概率的计算方法。国外选书专家系统都充分引用了这些推理方法。",
+    "context11": "例如在Johnston等的系统中，他们把问题的CF因子，按其“肯定\"与“否定\"的程度又细分为－5到 $+ 5$ 共10级（中性的0不计)。当问题被“否定\"时，根据否定的程度确定继续搜索的减、繁；当问题\"肯定\"时，可在定量标准中选取数值。",
+    "context12": "例1,设文献A从“主题\"推理开始：",
+    "context13": "$\\textcircled{1}$ 该文献是直接支持的或属本馆强调的学科吗(问题域在表1中相当 $\\textcircled{1}$ Ia和 $\\textcircled{1}$ 1C)？",
+    "context14": "$\\textcircled{2}$ 该文献是领域中的重要研究成果吗？（问题域在表1中相当 $\\textcircled{2}$ I C)？",
+    "context15": "用户对以上问题应作出主观判别，当“否\"时，机器转向其它搜索。例如机器转向【级提问：",
+    "context16": "$\\textcircled{3}$ 是一般支持学科吗(问题域： $\\textcircled{1}$ Ia)？$\\textcircled{4}$ 是某学科中局部的课题吗（问题域： $\\textcircled{1}$ 1C)？",
+    "context17": "假若这些提问被肯定，机器便按知识库中表2的标准分别给定数量化值。无论以上提问被肯定或否定，机器都将按推理机的规定接连在 $\\textcircled{3} \\sim \\textcircled{6}$ 等各要素域中反复质询，直到获得终结性回答。",
+    "context18": "例2,设文献B的推理过程如表3：",
+    "context19": "表3 不确定推理过程举例",
+    "context20": "<table><tr><td rowspan=1 colspan=1>系统提问</td><td rowspan=1 colspan=1>用户选择</td><td rowspan=1 colspan=1>问题域</td></tr><tr><td rowspan=1 colspan=1>1.是该领域重要研究成果吗？</td><td rowspan=1 colspan=1>“否”-1</td><td rowspan=1 colspan=1>②1c</td></tr><tr><td rowspan=1 colspan=1>2.是本课题前沿性研究吗？</td><td rowspan=1 colspan=1>“是”,18</td><td rowspan=1 colspan=1>②id</td></tr><tr><td rowspan=1 colspan=1>3.是一般性论述吗？</td><td rowspan=1 colspan=1>“是”,16</td><td rowspan=1 colspan=1>②Ia</td></tr><tr><td rowspan=1 colspan=1>4.是非正式出版物吗？</td><td rowspan=1 colspan=1>“否”，-1</td><td rowspan=1 colspan=1>②a</td></tr><tr><td rowspan=1 colspan=1>5.有参考价值吗？</td><td rowspan=1 colspan=1>“是”，8</td><td rowspan=1 colspan=1>③a</td></tr><tr><td rowspan=1 colspan=1>6.是本馆特需的吗？</td><td rowspan=1 colspan=1>“否”，-1</td><td rowspan=1 colspan=1>@Ia</td></tr></table>",
+    "context21": "一般来说，专家系统的不确定性推理往往会形成一个推理传播链，或传播网络。",
+    "context22": "通过以上介绍，我们大致了解了文献[3]所讲的国外选书专家系统的知识库与推理机的基本结构以及决策推理过程，这是在开发我国选书专家系统中应该借鉴的。但我们也清醒地看到，由于他们对读者需求及文献品质分析、把握等知识的不足，因而过多地依赖用户的参与，几乎达到了步步都需要人主观判定的程度，这是令人遗憾的。从这个角度讲，这个系统的水平同Mycin、Prospector相比大为逊色；Brownson[2]中认定给它只是“选书顾问\"的评价是恰当的。"
+  },
+  "三、我们的“藏书选择专家系统”": {
+    "context1": "的定义规定它应具有在一个特定的领域内，以人类专家的水平去解决面临的问题的能力。专家系统的能力、水平主要表现在它所拥有的知识的数量和质量\"函数化\"的程度。这就是说，一个专家系统的水平主要取决于该专业领域内知识的成熟程度和定量刻划程度。在这方面，选书理论同医疗、矿藏勘探相比，本来就比较差，因此，对读者需求的知识分析和表达，对文献中知识品质及文献价值的分析和表达就成为开发选书专家系统的关键问题。尤鉴于此，我们在这方面花费了十年功夫去寻求突破是值得的。今天，我们可以饮慰籍地说，在 $\\textcircled{1}$ 知识品质的结构化、形式化表征（包括读者需求的模型化表征、把握、文献内容的分析表征)方面；在 $\\textcircled{2}$ 文献品质与读者需求的“映合匹配\"程度计算方面；在 $\\textcircled{3}$ 文献的价值分析与潜在使用价值的预测方面；在$\\textcircled{4}$ 决策结果综合分析方面，我们都做了比较扎实的工作。正是在这些基础性研究都有比较肯定的结论之后，我们才投入系统开发的。",
+    "context2": "在对于知识品质的“集合状态\"表达方面，我们沿袭图书馆学传统的文献类分和主题标引的方法，并把它视作文献品质的“质”的规定。对于“知识含量”，在今天知识信息学还没有规范的理论与方法之前，我们暂以“学术水平\"(相对于人类教育进阶)来刻划。这样，我们对每一本书的知识评价，就转化为二维模糊集合定量表征。对于文献的另一个重要特性—信息活性，我们也暂以科学学科的\"新颖性(是前沿学科还是常规学科？)作为“向量\"看待；我们还设想以“半衰期\"作二次勘定。",
+    "context3": "其次，我们对文献的分析，充分应用了哲学价值理论，把文献的价值分为“交换(生态)价值\"和“使用价值”；把诸如文献的著者、出版者、定价、文献类型等划归“生态价值\"中表征与把握；把文献与馆藏关系、读者使用经验概率等划入“使用价值”作预测范畴内的评价。",
+    "context4": "1关于知识表达我们知道.专家系统",
+    "context5": "2关于决策推理知识库中存放的是求解问题所需要的知识，而推理机则负责使用知识库中的知识去解决实际问题；前者是专家系统的根本，后者是专家系统的灵魂。",
+    "context6": "我们认为，选书决策的思维形态基本上是一种伺服性模式匹配映合。对于随机的文献的选择决策，它涉及的要素及推理传播过程；可以用图1来表征。",
+    "context7": "![](images/11a746e10d8df68e0a91351a73e515d282c41325a45668103739600db26e0d4d.jpg)  \n图1选书决策的网络结构图",
+    "context8": "在图1中，“映合匹配\"是纲，其它要素是目，从而形成一个关系网络。",
+    "context9": "在“映合匹配\"中，我们首先求得拟购文献的“隶属集”与“藏书建设特征模糊集\"中的相应集进行\"映合\"计算，得到一个“采购函数C”。C的大小，以 $\" \\lambda ^ { \\prime \\prime }$ 截取。 $\" \\lambda ^ { \\prime }$ 是该图书馆多年人工采购文献的C值的平均值(通过回溯计算统计取得）。",
+    "context10": "当C值确定之后，再通过其它要素推理评判。当 $\\mathrm { C } \\geqslant 1 . \\ 3 \\lambda$ 时，说明该文献与收藏有较大的“映合\"富余量，不需要进一步推理评价和证实·而可迳直进入采购实施。",
+    "context11": "当 $\\mathrm { C } \\leqslant 0 . 7$ 时，说明文献与收藏差距较大，也不必要进一步证实，而可直接删除，退出程序。",
+    "context12": "当 $1 . 3 { \\ > } \\mathrm { C } { > } 0 . 7$ 时，说明文献采购有较大地不确定性·应进一步推理证实，而进入以下6步推理程序：",
+    "context13": "$\\textcircled{1}$ 与馆藏关系：",
+    "context14": "a.密切(属主要馆藏)： $\\mathrm { C } \\times 1 . 1 5$ b.一般专业教材： $\\mathtt { C } \\times 1 . \\ 0 0$ c.不密切： $\\mathrm { C } \\times 0 . 8$",
+    "context15": "2信息活泼程度（用学科资料库评判）：",
+    "context16": "a.属于新兴学科或前沿性知识：$\\mathrm { C } \\times 1 . 2 0$ b.常规知识： $\\mathrm { C } \\times 1 . 0 0$ c.较陈旧的知识： $\\mathrm { C } \\times 0 . 8$",
+    "context17": "$\\textcircled{3}$ 生态评价：",
+    "context18": "I作者(以科学家辞库判定）：",
+    "context19": "a.著名作家著作： $\\mathbb { C } \\times 1 . 1 5$ b.一般作者的著作： $\\mathbf { C } \\times 1 . 0 0$ c.未知名作者的著作： $\\mathrm { { C } } \\times 0 . 8$"
+  },
+  "Ⅱ出版者(出版社辞库判定）：": {
+    "context1": "a.国家级出版社出版物：国内： $\\mathtt { C } \\times 1 . 2 0$ 国外： $\\mathrm { C } \\times 1 . 1 5$",
+    "context2": "b.二级(省)出版社的出版物：$\\mathrm { C } \\times 1 . 1 0$",
+    "context3": "c.三级(一般)出版社的出版物：$\\mathbb { C } \\times 1 . 0 0$",
+    "context4": "d.无级别出版社的出版物：$\\mathbf { C } \\times 0 . 8 0$",
+    "context5": "Ⅱ价格：",
+    "context6": "a.150元以上：专审，退出程序  \nb. $5 0 \\sim 1 4 9$ 元： $\\mathrm { C } \\times 1 . 0 5$   \nc. $5 \\sim 4 9$ 元： $\\mathrm { C } \\times 1 . 0 0$   \nd.5元以下： $\\mathrm { C } \\times 0 . 8 5$",
+    "context7": "$\\textcircled{4}$ 潜在使用价值：",
+    "context8": "I按本馆大类使用经验概率权值核算(据借阅统计获得）",
+    "context9": "Ⅱ按“藏书特征模糊集\"中相应的特征函 数复审： a. $\\alpha ( \\Upsilon _ { i } , \\Upsilon ) \\geq 0 . 8 : \\mathbb { C } \\times 1 . 1 5$ b. $\\alpha ( \\chi _ { \\mathrm { i } } , \\ J { \\mathrm { \\Omega } } ) { \\geqslant } 0 . 8 { : } \\mathrm { C } \\times 1 . 1 0$ c. $\\alpha ( \\chi _ { \\mathrm { i } } , \\pi ) \\geqslant 0 . 8 : { \\bf C } \\times { \\tt I } . 1 0$ $< 0 . 8 : \\mathbf { C } \\times 0 . 8 0$ $d , \\alpha ( \\Upsilon _ { \\mathfrak { i } } , \\mathbb { N } ) { < } 0 . 8 { : } \\mathsf { C } \\times 0 . 8 0$ e. $\\alpha ( \\chi _ { \\mathrm { i } } , \\ V \\ ) > 0 . \\up8 : \\mathrm { C } \\times 0 . \\ 9 0$",
+    "context10": "$\\textcircled{5}$ 文种：",
+    "context11": "中文： $\\mathrm { C } \\times 1 . 0 0$",
+    "context12": "【英文：",
+    "context13": "a.研究级（I.I）：Cン1.10b.学习级（Ⅲ）： $( { \\ ' } , { \\acute { \\prime } } , { \\acute { \\prime } } ) ( )$",
+    "context14": "c.其它级 $( \\mathrm { ~ N ~ } , \\mathrm { ~ V ~ } ) _ { : } \\mathrm { C } \\times 0 . \\ 0 0$   \nⅢ德文、法文：a.研究级 $( \\textbf { I } , \\texttt { I } ) _ { : } \\mathbb { C } \\times 0 . 9 0$ b.学习级（Ⅲ）： $\\mathtt { C } \\times 0 . 8 0$ c.其它级 $( \\mathrm { ~ N ~ } , \\mathrm { ~ V ~ } ) _ { : } \\mathrm { C } \\times 0 . 0 0$   \nN日文、俄文：a.研究级（Ⅰ，Ⅱ）： $\\mathrm { C } \\times 0 . 8 5$ b.学习级（Ⅲ）： $\\mathtt { C } \\times 0 . 8 0$ c.其它级 $( \\textsf { N } , \\textsf { V } ) _ { : } \\mathbb { C } \\times 0 . 0 0$   \n$\\textcircled{6}$ 文献类型：a.专著： $\\mathrm { C } \\times 1 . 1 0$ b.期刊及其它连续出版物： $\\mathrm { C } \\times 1 . 1 0$ c.工具书： $\\mathbb { C } \\times 1 . 1 5$ d.一般图书： $\\mathrm { C } \\times 1 . 0 0$ e.文艺小说： $\\mathtt { C } \\times 0 . 9 0$ f.普及读物： $\\mathtt { C } \\times 0 . 8 0$ g.论文集、会议录： $\\mathtt { C } \\times 1 . \\mathtt { 0 0 }$ h.其它文献： $\\mathbb { C } \\times 0 . 8 0$"
+  },
+  "四、复本问题及其它": {
+    "context1": "说到复本问题，我原来就是一个纯理性主义者。同许多朋友一样，希望通过理性的、精确的推算去决策。但事实证明，至今还未有人得出公允的、实用的方法来。究其因，至少有三：",
+    "context2": "-复本最终要概括为极简单的正整数。在这些简单的数字之后·隐含着大量的、复杂的信息，不是通过纯粹定量的计算所能解决的。硬要这样做·势必导致“大数悖反\"的",
+    "context3": "结局。",
+    "context4": "图书馆的复本发展的总趋势，有走向“单本政策\"的可能，国外已经有许多事实。这是由于科学发展、文献爆炸、经费短缺的限制，也是由复印手段之便宜而促成的。",
+    "context5": "-复本的判决·实质上是一个理性与非理性矛盾较激烈的代表,1、2、3、的主观判定，往往比繁琐地计算更实际。",
+    "context6": "通过以上对国内外选书专家系统研究的介绍、比较，虽然自端浅陋，但大致使读者有所了解。最后，我希望我们学界在加快步伐、迎接未来之时代精神的启示下，加强联络，相互砥砺，在选书决策这一领域提高水平，以更好的藏书奉献于祖国四化大业。"
+  },
+  "参考文献：": {
+    "context1": "何志宁.介绍美国布莱克威尔图书公司纲目订单的特 色.广东图书馆学刊，1987(4)   \n2 Brownson C.W.Mchanical Selection.Library Resources&Technical Services,1988,32(1)   \n3 Johnston M,Weckert J.Selection Advisor:An Expert System for Collection Development.Information Technology and Libraries,Sept,1990.   \n4 邓珞华.我国图书情报界的人工智能研究.情报学报， 1989,8(3)   \n5 Vickery and others. Expert System for Referral.Library and Research Report 66 Wetherby,England： British Library,1988,35   \n6 Rutledge J and Swindler L.The Selection Decision: Defining Criteria and Establishing Priorities.College& Research Libraries,48,Mar.1987.   \n7 〔美]J·拉特列奇等著，翁勇荣译.图书馆藏书选购模 式与藏书等级制度.国外图书情报工作，1992(4)"
+  },
+  "The Progress on the Intelligent Selection of Books at Home and Abroad": {
+    "context1": "Zhang Yanlie(Library.Shanxi Normal University.Xian）",
+    "context2": "[Abstract]The author first introduces the study of intelligent book selection in foreign countries in general.and thengives the comparison between the foreign and the domestic studies.",
+    "context3": "[作者简介]张炎烈.男.1933年生，陕西省图书馆学会学术委员会委员·副研究馆员、在10余种刊物上发表专业论文40余篇："
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "original_filename": "full_9988.md",
+  "链接分布机制评述": {
+    "context1": "优先连接与均匀连接",
+    "context2": "R ev iew on the M echan ism of L ink Degree D istribu tion 一P referen tialA ttachm ent and Un ifom A ttachm ent",
+    "context3": "苏芳荔李江",
+    "context4": "(郑州航空工业管理学院 信息科学学院郑州450015）(南京大学信息管理系南京210093)",
+    "context5": "摘要评述了Web中链接的分布机制——优先连接与均匀连接。大型链接网络中，可用二者结合的混合机制对链接分布现象进行解释。整体而言，链接分布呈幂律分布，可用优先连接机制进行解释，但对于特定的网页集合，需用均匀连接机制进行解释。链接网络中，存在人为操纵的链接现象，如“交换链接”、“购买链接\"等，两种机制均无法解释。引文网络与链接网络相似，本文提出可将链接分布机制移植到引文分布的研究中。",
+    "context6": "关键词 链接分布优先连接 均匀连接 引文分布幂律分布",
+    "context7": "中图分类号 $G 3 5 0$"
+  },
+  "文献标识码A": {
+    "context1": "文章编号1002－1965(2010)10－0167－05",
+    "context2": "“链接分布（Link DegreeDistribution）\"也称“链接度分布”,是“链接分析（Link Analysis)\"领域的一个重要研究方向，侧重于揭示Web中链接在不同网站网页之间的分布规律。作为基础性理论研究，链接分布机制研究有助于揭示Web中链接资源(链接代表推荐、认可,可视为一种资源)的分配规则，有助于揭示Web结构的连通性，也有助于揭示Web中网站网页的影响力大小。",
+    "context3": "以“链接分布\"为研究主题的文献较少。以“链接分布”、“链接度分布\"等检索词在CNKI的“摘要\"中进行“跨库检索”（1979－2009年），可得到约10条结果；以“Link D istribution”、“Link Degree D istribution\"等检索词在Webof Science的“主题\"中进行跨库检索(包括 SCI一E、SSCIA&HCICPCI—S四个数据库，时间为 $1 9 0 0 - 2 0 1 0$ 年），可得到约 50条结果。结果显示，这种检索的查全率与查准率均较低。就笔者积累的相关文献来看，专门研究链接分布机制的内容包散落在以“链接结构（Link Stucture)”、“Web结构（W ebStucture)”、“度分布（Degree D istribution）\"的文献中。这些文献共同显示：链接分布机制包括优先连接机制与均匀连接机制;大型链接网络结构中，需用混合连接机制解释链接分布现象。"
+  },
+  "1优先连接": "",
+  "11优先连接的含义与表述": {
+    "context1": "“优先连接（PreferentialA ttachment)”,有时也被译为“择优连接”、“优先链接”、“优先粘贴\"等，是指拥有更多财富或信誉的个体将优先得到财富或信誉[]。其含义与马太效应(指穷者愈穷、富者愈富的现象)相近，不同的是，优先连接强调财富或信誉在流动过程中优先选择的偏好，而马太效应强调的是财富或信誉的累积效应。1925年，Yule最先从严格意义上考虑了优先连接过程,他用这一理论解释了物种进化过程的出现的幂分布现象[2]。所以，“优先连接过程”有时也会被称为“Yule过程”。",
+    "context2": "优先连接机制并非起源于Web的链接结构。1999年，Barabasi与Abert最先将优先连接理论用于Web结构,分析Web中链接的分布规律[3]。优先连接应用于Web结构中时，可表述为：拥有更多链接的网站 网页将优先获得链接 (指入链,即其他网站 网页指向该网站 网页的链接）。 $\\mathrm { ~ W ~ e b }$ 中每增加一个新的链接时，新链接优先指向那些拥有较多链接的节点，指向第i个节点(节点 的入度为 $\\mathbf { k } _ { \\mathrm { i } } > 0$ )的概率为：",
+    "context3": "$$\n\\Pi \\left( \\mathrm {  ~ i \\right) = k _ { i } \\sum _ { j } \\ k _ { j } }\n$$",
+    "context4": "H. JeongZNéda和 A.Barabasi在 2OO4年进行的一项实证研究中，通过对4种网络中节点对入度（ $\\mathbf { h } ^ { - }$ degree)的依赖程度进行测试，用实证的方法验证了网络中优先链接机制的存在[4]。孙建军等人将链接结构中的优先连接机制译为“优先链接（PreferentialAttach-ment)”,并将其定义为“根据链接的建立机制而形成的一项关于网络中链接分布情况的理论”[5]。"
+  },
+  "1.2优先连接的表现形式——幂律分布": {
+    "context1": "Web结构中链接的优先选择偏好使得少数网站拥有大量链接，而大量其他网站只拥有少量链接。总体上讲，链接的分布呈幂律分布：拥有 $\\mathrm { k }$ 个链接的网站的数量与 $1 / \\mathrm { k } ^ { \\beta } ( \\beta > 0 ) .$ )成正比。Li[等人借助天网(http://e pku edu cn)在 2003年 5月统计到约 47.9万个网站以及网站之间的1800万个链接，网站与网页的入链数均服从幂律分布，即包含i个入链的网站的数量与 $1 / \\mathrm { { } _ { 1 } ^ { 1 . 4 } }$ 成正比,如图1(a);即包含 j个入链的网站的数量大约与 $1 / \\xi ^ { 0 5 }$ 成正比，如图1(b)。",
+    "context2": "Web结构中链接分布的幂定律不是个例，而是普遍现象。 $\\mathbf { B j } ^ { \\mathrm { i } } \\mathrm { i } \\mathrm { m e b o m } ^ { [ 7 ] }$ 、A bert Joeng以及 Barabäsi8]、Broder等人[9]、Kumar等人[10]、Barbarasi与Abert²]在不同Web结构中选择不同的数据集进行检验，均发现其中链接的分布呈现幂定律。",
+    "context3": "![](images/a22bd11f1cddbecc3e6aa6254b93fb9ca9f3ed7e3ca7f540a5a9f22761e1caac.jpg)  \n图1(a）网站数(纵轴)与链接数(横轴)",
+    "context4": "![](images/8b08cfca81fbfcdb05a0cbd04d8bafd554fe12d6e91f29cbb116f612a90b0a35.jpg)  \n图1(b）网页数(纵轴)与链接数(横轴)",
+    "context5": "优先连接机制存在不足。它将网络中的链接行为过于简化，忽略了很多其他因素，例如地理因素、语言因素，又如一个新建的网页更倾向于链接到同一网站下的其他网页。理论上的优先连接模型并不能完全概括链接分布的特征,如图 1(a)与图 1(b)中右下侧的宽尾与杂乱点。因此，针对这些优先连接机制无法解（Tempered Preferential Atachment)模型[]、APA( $\\mathrm { \\bf A d ^ { - } }$ justable Preferential A tachment)模型[12]等。Web中也存在一种与优先连接大相径庭的链接现象：部分网站随机地、偶然地获得链接，他们获得链接的数量也他们已拥有的链接数量毫无关系。因此，“均匀连接\"机制被提出。",
+    "context6": "V"
+  },
+  "2均匀连接": "",
+  "2.1 均匀连接的含义与理论基础": {
+    "context1": "匀连接（Unifom Attachment)是指在一般网络结构(由节点与连线构成的图结构)中，增加新的连线是完全随机的，且与节点已有的入度无关。均匀连接机制最早由Pennock等人在研究Web中不符合优先连接规律的链接现象时发现的[13]。在链接结构中,均匀连接是指链接的添加是随机的，与页面已有的入链数无关。",
+    "context2": "链接结构中的均匀连接是优先连接的补充，而不是替代。按照优先连接机制，入链数为0的那些网页获得新链接的概率为0而且无论新增多少链接，这些网页的入链数将始终为0。这个推论并不符合常理，事实上，入链数为0的网页仍有可能获得链接。而按照均匀连接理论，入链数为0的网页与入链数较高的网页一样，都可以随机地获得链接。",
+    "context3": "随机图理论是均匀连接的理论基础。随机图中，连线的出现是独立的概率事件,节点的度分布服从泊松分布[1]。ER随机图是典型的随机图模型,其中任意两个节点之间有一条边相连接的概率都为 $\\mathrm { _ { p } }$"
+  },
+  "2.2链接结构中均匀连接的实例与散点图示": {
+    "context1": "Pennock等人发现在以大学网站(或报纸网站、公司网站)形成的子网络中，优先连接机制并不适用[3]。这些子网络中链接分布的散点呈单峰图，即泊松分布图，如图2(a)、2(b)、2(c)所示。图中横轴均为入链数，纵轴均为标准化的网页数。图2与图1相同的是：都是双对数数轴;不同的是：图1中散点的分布近似一条直线，而图2中散点的分布为单峰曲线。",
+    "context2": "![](images/1ba7d7e53e4802453caec7cce2914fedf18b0a58739a96e5bc2176e5d14203f8.jpg)",
+    "context3": "释胞现务4有稀出修的优先选接模型mPublishingHouse.Alrigtsresedtp/ http://www.cnki.net",
+    "context4": "![](images/de8cab11fd5a07fd787dfcf24c94762de47c172b0143f3b0e89e9f7e43483e26.jpg)  \n图2（b）大学网站主页上的链接分布",
+    "context5": "![](images/a3c67879938ad7d5de938cd24cb9366c3ec9436828578b5bb14ad47eadcdbcab.jpg)  \n图2（c）报纸网站主页上的链接分布",
+    "context6": "需要强调的是，均匀连接机制只是存在于特定的网页集合中，如Pennock等人研究中的公司网站主页、大学网站主页、报纸网站主页等,而并非普遍存在的规律，也并非在链接分布机制中占主导地位。对于整个Web而言，网站 网页入链数的分布依然呈幂律分布，但均匀连接机制可作为优先连接机制的补充，解释优先连接并不适用的链接现象。",
+    "context7": "均匀连接机制起源于链接网络结构，但并不局限于此。Shao等人[15]、Berger等人[16]发现一般网络结构中也存在均匀连接现象。"
+  },
+  "3混合连接机制": "",
+  "3.1优先连接与均匀连接共存": {
+    "context1": "对于大型网络结构而言，优先连接机制占主导地位,但均匀连接机制不可忽略，二者共存于网络结构中。Shao等人认为[15]：网络结构中的连接机制是一种混合机制，同时包括优先连接机制与均匀连接机制，优先连接机制存在的概率为 $\\mathbf { q }$ 均匀连接机制存在的概率为 $1 - _ { \\mathbf { q } }$ 言外之意，这种混合机制可以概括链接网络结构中的链接分布的全体特征。Liu等人总结出一类由优先连接与均匀连接机制共存的网络结构特征，这一类网络同时具备随机网络与无标度网络的特征[17]。Berger等人发现以优先连接为主导的一般网络结构中存在均匀连接现象[16]。Luo与 Horadam将优先连接与均勾连接共存的混合机制称为P复杂网络模型”[18],与 Shao等人的结论相似，他们也用线性关系概括两种机制的共存。",
+    "context2": "在链接分布方面，Pennock等人认为网络中同时存在优先连接和均匀连接，二者的比例依网页类型而定。例如，科学家主页上的入链分布以优先链接为主，而大学主页上的入链分布而以均匀链接为主[13]"
+  },
+  "3.2二者均无法解释的链接现象": {
+    "context1": "在PageRank算法、搜索引擎爬取网页策略、A lexa网站排名指标等的拉动作用下，Web中的链接的建立常被人为操纵。",
+    "context2": "a交换链接。网站为了提高自身在搜索引擎中的可见度以及访问量，通过与其他网站交换链接，借助人际网络扩展其网站的链接网络。",
+    "context3": "b 购买链接。网站为了迅速提高其在搜索引擎检索结果中的排序，向知名网站或“链接工厂\"购买链接，以此迅速获得大量入链。获得一定入链数之后的网站可以凭借其累积的链接优势，更容易被其他网站发现，进而吸引更多的链接。",
+    "context4": "“交换链接”、“购买链接\"使得这些链接的分布既不符合优先连接机制，也不符合均匀连接机制，这两种机制自然无法对其进行解释。笔者认为链接的分布不应只用这两种机制的线性关系概括，人为操纵的因素也应考虑在其中。"
+  },
+  "4链接分布机制在引文分析研究中的应用方向": {
+    "context1": "链接分析研究与引文分析研究具有共性。从1996年Larson[19提出将引文分析理论移植到互联网中至今，链接分析研究一直沿袭这一思路。另一方面，同样基于链接分析与引文分析的共性，有学者将链接分析理论的特性移植到引文分析研究中，如Bollen等人[20]、Fiala等人[21]、Jezek等人[22]、Ma等人[2]、Liu等人[24]、李江等人[25]将 PageRank算法直接移植或修正后移植到引文网络中。"
+  },
+  "4.1链接网络与引文网络的共性": {
+    "context1": "邱均平等[26]、邓中华等[2]人先后对链接网络与引文网络进行过比较，笔者在此基础上将二者的共性总结如下：",
+    "context2": "a有向图。链接与引文都有方向性。以网站网页为节点，以链接为连线的抽象图结构中，链接的方向性使得链接网络结构图成为有向图。同理,以期刊论文为节点，以引文为连线的抽象图结构中，引文的方向性使得引文网络结构图成为有向图。",
+    "context3": "b 幂律分布。优先连接机制使得链接网络中的链接分布呈幂律分布，也使得引文网络中的引文分布呈幂律分布[28][29]。链接网络与引文网络均为无标度网络：(具有幂律分布特性的网络）lhttn//y cnlin。",
+    "context4": "$\\mathbf { o }$ 小世界特性。小世界图包含以下两个特性：聚类系数远大于随机图(与小世界图相比，节点数相同，平均每个节点的边数相同)的聚类系数;特征路径长度与随机图的平均路径长度同样小[30]。LBjomebom[]、AlbertJoeng与Barabasi8]等先后验证链接网络具有小世界特性。尹丽春等[31.32]、孙建军等验证引文网络中同样存在小世界特性。",
+    "context5": "链接网络与引文网络的共性使得引文分析理论移植到Web中成为可能,链接分布机制也可因此而移植入引文分析研究中。"
+  },
+  "4.2应用前景": {
+    "context1": "1976年Price首次将优先连接理论（当时被称为“累积优势”)应用于引文分析的研究[33]。然而。目前，链接分布机制已成为物理学、计算机科学、信息科学领域的研究热点，但将链接分布机制应用到引文分析中的研究仍十分少见。笔者认为：基于链接分析与引文分析相互移植式的应用研究，以及链接网络与引文网络的共性，将链接分布机制应用于引文分析研究中将会是引文分析研究深化的方向之一，也将成为引文分析研究的热点之一。",
+    "context2": "将链接分布机制移植到引文分析研究中的研究重点在于：考查引文分布机制;筛选核心文献;解释引文网络中的睡美人现象、幂律分布现象、无标度现象等。",
+    "context3": "a考查引文分布机制。引文网络与链接网络如此相似，以至于可以推断引文网络中引文的分布机制与链接分布机制相似,但这一点尚需论证[34]。论证思路为：首先，将引文分布数据描绘在对数散点图中，观察是否存在线性趋势;其次，用上文中的(1)式对引文分布数据进行拟合，根据拟合效果（一般可用R2与残差两个指标进行判断)判断引文分布是否服从优先连接机制。均匀连接机制作为优先连接机制的补充，在优先连接机制不适用时，可考察均匀连接机制是否适用。",
+    "context4": "以链接分布机制为参照，将使得对引文分布机制的考察更有目标性，也更易操作。王镇岭等人[35]、缪玲等人分别选择Webof Science CSSCI中的部分期刊论文之间的引文为例，考查了引文的分布状况，数据显示引文的分布符合幂律分布[36]。但他们选择的样本较小,结论并不具备代表性。一般性的结论则需要基于全面的、大样本数据。",
+    "context5": "b筛选核心文献。文献计量学中，“布拉德福定律\"的文字表述为：如果将科技期刊按其刊载某学科专业论文的数量多少，以递减顺序排列，那么可以把期刊分为专门针对这个学科的核心区、相关区和非相关区。各个区的文章数量相等，此时核心区、相关区，非相关区期刊数量为1：n’n的关系。",
+    "context6": "式，可用优先连接机制筛选出某学科领域的核心期刊论文。具体方法如下：首先,将某一学科领域的期刊论文按照被引次数的多少降序排列，然后，将被引次数划分为数量相等的三个区域，优先连接区域(即高被引的第一区域)中的论文可视为该学科领域的核心论文。依据同样的方法，还可以筛选出核心作者等。",
+    "context7": "c解释引文现象。引文中的“睡美人（Sleepingbeauty)现象\"是指文献发表之初并未引起他人注意，一段时间后突然开始被大量引用的现象[3]。引文中的幂律分布如同链接中的幂律分布，即少数论文拥有大量引文，而大量论文只拥有少量引文。引文的幂律分布使得引文网络具有无标度特性。在论证存在这些引文现象的引文网络服从优先连接机制后，可基于优先连接机制对这些现象进行解释。李粤提出“可调优先连接模型（Adjustable PreferentialA ttchment APA模型，是优先连接模型的修正模型）\"专门用于解释引文网络中的引文现象。此外，他还将该模型用于预测引文网络的发展[12]。"
+  },
+  "5结束语": {
+    "context1": "优先连接机制并非源于对链接分布的研究，已被应用于链接网络结构;均匀连接源于对链接分布的研究，已被扩展到一般网络结构。二者结合的混合机制可用于解释大型链接结构中链接的度分布现象。基于链接网络与引文网络的相似性，可将链接分布机制移植到引文分布研究中，用于考查引文分布机制、筛选核心期刊论文以及解释引文现象。笔者认为，这种移植将成为深化引文分析研究的一个重点方向。"
+  },
+  "参考文献": {
+    "context1": "[1］李江·中国互联网络信息的增长规律研究[D].南京：南京大学，2010  \n[2]YuleG U.A Mathematical Theory of Evolution Based on theConclusions ofDrJCWillisFR·S[A].PhilosophicalTransactions of the Royal Society of London（SeriesB)，1925(213):21- 87  \n[3]BarabasiA，A lbertR·Emeigence of Scaling in Random Networks[J]，Science 1999(286):509-512  \n[4]Jeong H,Néda Z Barab&siA.Measuring PreferentialA tachm entforEvolving Networks[J]. Eumophysics Letters 2OO3,6l(4)：567-572  \n[5]孙建军,李江·网络信息计量理论——工具与应用[M]北京：科学出版社，2009  \n[6]Liu G，Yu H, Han Jet al China Web Graph Measurements andEvolution[A]In Y. Zhang et al（Eds)：APWeb 2005,LNCS 2005(3399):668-679  \n[7]Bjomebom L Small-world link Structures Across an Academ icpenhagen;Royal School of Library and Infomation Science 2004  \n[8]A bert R，Jeong H，Barabasi A.Diameter of the $\\mathrm { W \\ o r l d ^ { - } W }$ ideWeb[J]. Natur 1999(40l):130-131  \n[9]Broder A，KumarR，MaghoulF,et al Graph Stucture in theweb[J]: CamputerNetworks 2000(33):309 - 320  \n[lO]KumarR,Raghavan P,Rajagopalan S etal Traw ling theWeb forCyber Communities[J],Computer Netwoiks1999（31)：1481-1493  \n[ll] D'Souza R M，Borgs C,Chayes JT etal Emergence ofTemperedPreferential A tachment Frm Optim ization[A].PNAS2007,104(15):6112-6117  \n[12]李粤·引文网络的可调优先粘贴模型及其应用[D].北京：清华大学，2007  \n[l3] Pennock D M，FlakeGW，Law rence S etal W iners don Ttakeall Characterizing the Cmpetition for links on the web[J].Pm\"ceedings of the NationalAcademy of Sciences 2OO2, 99(8): 5207-5211  \n[14]汪小帆,李翔,陈关荣·复杂网络理论及其应用[M]北京：清华大学出版社，2006.67  \n[15] Shao Z Zou X,Tan X,et al Grow ing Networks with Mixed Attachment Mechanisms[J].J PhysA：Math Gen，2006(39):2035- 202  \n[16] BergerN,Borgs C.Chayes JT etal Degree D istribution ofCom-petition—Induced PreferentialAtachm ent G raphs[DB]．htp://www. cs comell edu/\\~ idk/papers/cipa pdf $2 0 0 4 - 0 9 - 2 9 /$ 2010-04-10  \n[17]Liu Z LaiY，Ye N,et al Connectivity Distribution and AttackTolerance of GeneralNetworks with Both Preferentialand RandomA tachments[J]. Physics Letters A，2002,303(5—6)：337-344  \n[18] Luo H,Horadam K.Simulation and Measurement of Complex Network G rowth:the Interp layof Unifoim and Preferen tialA tachm ent[J].Fundamenta infomaticae 2008,84(1):61—79  \n[19]LarsonR.Biblimetrics of theWorldW ideWeb:AnExploratoryAnalysis of the Intellec tual Structure of Cyberspace[J]·Proceedings of ASIS96,1996:71-78  \n[20] Bolen J RodriguezM,van de SmpelHJoumal status[J].Scientmetrics 2006,69(3):669-687  \n[21]Fiala D，RousselotF，Je&ek K.PageRank for Bibliographic Networks[J]，Scientmetrics 2008,76(1):135-158  \n[22]Jezek K,Fiala D,Steinbeiger JExploration and Evaluation of Citation netwoiks[DB].http://jps library utoronto ca/ocs-2.0.0－1/index php/Elpub/2008/paper/view/670,2008－12－10/2010-05-15  \n[23] Ma N，Guan J Zhao Y.Bringing PageRank to the Citation Analysis[J]. Infomation Pmcessing and Management 2OO8,44(2)：1-1  \n[24] LiuX,Bollen JNelson ML et al $\\mathrm { C o } ^ { - }$ authorship Netwoiks inthe D igitalLibrary Research Comm unity[J]·Infomation Process\"ing and Management 2005,41(6):1462-1480  \n[25］李江,孙建军·链接分析对引文分析的启示:从 PageR ank到Paperank[J].情报学报，2009,28(4):618-625  \n[26]邱均平,李江·链接分析与引文分析的比较[J]中国图书馆学报，2008(1):60－64  \n[27］邓中华·社会网络、引文网络和链接网络之比较[J]·图书馆杂志，2008(9).6-10  \n[28］耿志杰,王文鼐·引文网络幂率分布特征的原因探析［J]·情报杂志，2009,28(11)：15—17  \n[29］方爱丽,高齐圣,张嗣瀛·引文网络的幂律分布检验研究［J]·统计与决策，2007(14)：22—25  \n[30] Watts D,Strogatz S H. Collective Dynam ics of ‘Small-World'Networks[J]. Nature 1998,393.440-442  \n[31]尹丽春，刘则渊·《科学计量学》引文网络的演化研究[J]·中国科技期刊研究，2006,17(5)：718—722  \n[32]尹丽春·科学学引文网络的结构研究[D].大连：大连理工大学,2006  \n[33]Price D Jde S A General theory ofBiblimetric and other Cumu-lative Advantage Processes[J].J Amer SooInfom:Sci,1976(27): 292 - 306  \n[34]Newman M E J The Structure and Function of Complex Networks[J]·SIAM Review，2003,45(2):167—256  \n[35]王镇岭，方爱丽，张嗣瀛，高齐圣·基于“优先连接\"的复杂网络建模与仿真[J]·青岛大学学报(工程技术版），2006,21(3)：6-9  \n[36]缪玲,吴娟仙·我国图情学研究论文引文分布的文献计量研究［J]·嘉兴学院学报，2006,18(4)：136-140  \n[37]Van Raan A.Sleeping Beauties in Science[J]. Scien tmetrics2004,59(3):467-472",
+    "context2": "(责编：贺晓利）"
+  }
+}

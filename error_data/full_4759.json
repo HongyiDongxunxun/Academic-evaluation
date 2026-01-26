@@ -1,0 +1,85 @@
+{
+  "original_filename": "full_4759.md",
+  "$\\bullet$ 李丹丹，马静(南京航空航天大学经济与管理学院，江苏南京211106)": "",
+  "复杂社会网络上的谣言传播模型研究综述": {
+    "context1": "摘要：谣言传播易引发社会舆论的形成和发展，已成为舆情传播和复杂网络传播动力学领域的重要研究方向。文章从经典的遥言传播模型到复杂社会网络上的谣言传播模型，从微观个体层面到政府、社会媒体的宏观层面，分别从个体的遗忘和记忆心理因素、政府对公民的教育率、社会媒体的信息发布等角度，系统评述了谣言传播模型的发展历程。基于此，提出几个值得进一步研究的问题：真实社交网络上的谣言传播、加权网络上的遥言传播、线上社交网络和线下人际关系网络交互作用下的谣言传播以及多个谣言的共同传播。",
+    "context2": "关键词：谣言传播；复杂社会网络；模型；综述",
+    "context3": "Abstract:Rumor spreading mayleadto the generation anddevelopment of publicopinion，which has become the hotresearch topicinthefeldsofpublicopinionspreadingandspreadingdynamicsincomplex networks.Thispapersystematicallyreviews thede velopmentofrumorspreading，from the clasical rumor spreading modelsandthelevel of micro individual totherumorspreading modelsincomplexnetworksandthemacrolevelofthegovernmentandsocialmedia，intheperspectivesof psychologicalfactorsof individualforgetingandremembering，theeducationrateofthepublicandtheinformationdifusionofsocialmediarespectivelyAt theend，weproposeseveral problems thatcould bestudiedinthefutureincluding therumor spreading inreal social networks， weightednetworks，theinteractionofonlinesocialntworksndfieinterpersonalrelationshipnetworks，asellasultipleru mors co-existed.",
+    "context4": "Keywords: rumor spreading； complex social networks； model; review",
+    "context5": "谣言作为一种社会现象，自人类文明诞生以来就在社会生活中扮演着特殊的角色。所谓谣言是指在社会中出现并流传的未经官方公开证实或已经被官方所辟谣的信息，具有虚假性、匿名性、非官方性等特点，其实质是一种以信息传播为特征的集群行为。谣言的传播会形成社会舆论，容易引发社会动荡，危害公共安全，影响金融市场等。然而，作为一种典型的社会现象，谣言在现代社会中不但没有消失，而且其传播手段、传播途径等都发生了很大的变化，尤其在突发事件、乃至各种危机中谣言的作用更是不可低估。因此，对谣言传播的内在机理和传播规律进行系统研究是十分必要的。",
+    "context6": "谣言传播及其引发的社会舆情事件往往牵涉到大规模的人群，人与人之间的接触和相互作用方式对于事件的演化和控制有着至关重要的影响。如果用节点表示个人，用边连接具有接触或相互作用关系的个人，那么人群就可以用社会网络来刻画。社会网络大体可分为两类：具有物理接触的社会网络和基于信息交换和传递的社会通信网络。研究表明，社会网络结构具有小世界效应和度分布的无标度特性。随着社会网络的发展，网络舆情的传播速度和演化广度远超过人们的预期。围绕谣言[、网络舆情、舆情传播-等相关课题近年来得到了广泛研究。传播学、心理学、社会学等领域对谣言传播的研究主要通过问卷调查或实验等手段定性分析谣言的内涵[、谣言传播的影响因素[、心理动机[4、产生和传播机制等。然而，复杂网络理论为定量研究社会网络上的谣言传播规律提供了契机。通过建立合理的网络模型来再现真实社会网络的若干特征，并在此基础上进行理论研究和数值仿真，成为了当前研究舆情或谣言传播及演化动力学的重要途径[5-1]。"
+  },
+  "1经典的谣言传播模型": {
+    "context1": "谣言传播模型的研究起源于20世纪60年代，由于谣言在人际关系网络中的散布与流行病的传播存在很多相似"
+  },
+  "之处，所以现有的谣言传播模型大多是基于流行病传播模型。": {
+    "context1": "Daley和Kendal通过对流行病与谣言的对比研究，全面比较了谣言与流行病传播的相似性，并揭示了谣言传播与流行病传播存在的差异。谣言传播中，最终听到谣言的人数占人群总数的比例几乎与初始未知谣言人数无关，即谣言传播不存在传播临界值，而流行病传播中却存在临界值。",
+    "context2": "Daley和 Kendal在《随机谣言》一文中详细介绍了随机性和确定性谣言传播模型。在所提出的模型中，将封闭的同质混合人群分为三类：没有听到谣言的（Igno-rants），听到谣言且传播谣言的（Spreaders）和听到谣言但不再传播的（Stiflers）。假设初始条件下总人口数为 $X +$ $Y + Z = N + 1$ ，其中有 $X \\ : = \\ : N$ 个未知者， $Y = 1$ 个传播者，$Z = 0$ 个遏制者。未知者到传播者的转移比例为 $X Y _ { \\colon }$ 当一个传播者遇到另一个传播者或遏制者时，前一种情况中两个传播者都转变为遏制者，后一种情况只有一个传播者转变为遏制者，转移比例分别为1/2Y（Y-1）和 $Y Z$ 。",
+    "context3": "Maki和 Thompson 认为谣言是通过传播者与其他个体的直接接触而进行传播，所以他们提出的MK模型认为，当一个传播者接触到另一个传播者时只有初始传播者会变为遏制者。在DK模型和MK模型之后，很多学者基于数学、物理学和随机理论等对谣言传播过程展开了大量研究。"
+  },
+  "2网络结构对谣言传播的影响": {
+    "context1": "随着复杂网络模型的发展，Newman等认为 DK模型和MK模型都没有考虑社会网络的拓扑结构特性，且只能描述小规模社交网络上的传播过程。进而，学者们进一步研究了社交网络的复杂拓扑对谣言传播动力学的影响[223。"
+  },
+  "2.1小世界网络上的谣言传播模型": {
+    "context1": "Zanette等分别研究了静态和动态小世界（Small-world）网络上的谣言传播模型，并找到了谣言传播的临界值。模型中分别用 $n _ { s } ( \\textit { t } ) \\_ n _ { I } ( \\textit { t } )$ 和 $n _ { R } \\left( \\mathbf { \\Theta } _ { t } \\right)$ 表示未知者、传播者和遏制者的人数，且简化了谣言传播中的感染机制。他们认为未知者与传播者接触时一定会传播谣言，而传播者与另一个传播者或遏制者接触时，都会变为遏制者。",
+    "context2": "静态小世界网络上的研究结果表明，当随机性较小时（随机连接率 $p = 0 . 0 5 )$ ，遏制者人数 $N _ { R }$ 近似服从指数分布且与人口总数 $N$ 无关，这是由于高连接个体与初始感染个体联系密切而失去兴趣，从而谣言很快在小领域范围内消失；对于随机性较大的情形（随机连接率 $p = 0 . 3 ]$ ，$N _ { R }$ 服从双峰分布，当 $N _ { R }$ 较小时，谣言很快在小领域范围内消失；当 $N _ { R }$ 较大时，出现了另一个峰值，谣言在一定范围内迅猛传播；对于 $N _ { R }$ 处于中间情况，当 $p = 0 . 1 9$ 时，$N _ { R }$ 服从指数为 $\\alpha { \\approx } 1 . 5$ 的幂律分布。从而发现， $p = 0 . 2$ 是谣言从“在局部范围消失”向“在一定范围传播”转变的临界值。",
+    "context3": "当人口总数 $N { \\longrightarrow } \\infty$ 时，遏制者人数占总人口的比例$r ~ = ~ \\langle N _ { R } \\rangle / N$ 趋近于极限 $r ^ { * } = 0 . 7 9 6$ ，即人群中有大约 $20 \\%$ 的个体为未知者。当 $N _ { R }$ 较小时， $T$ ， $N _ { R }$ 和 $N _ { I }$ 的关系服从幂律分布；当 $N _ { R }$ 较大时， $T$ ， $N _ { R }$ 和 $N _ { I }$ 的值分布于某一特定值附近。当 $p$ 增大， $T$ 减小， $N _ { R }$ 与 $N _ { I }$ 都增大，即传播过程更加有效。动态小世界网络比静态网络上的传播效率更高，演化时间更短，传播人数更多。"
+  },
+  "2.2无标度网络上的谣言传播模型": {
+    "context1": "Moreno通过MonteCarlo仿真方法研究了无标度（Scale-free）网络上的随机MK模型，表明网络的均匀性对谣言传播动力学机制产生很大影响，并且采用随机方法得到了平均场方程的数值解。",
+    "context2": "Moreno等首先研究了同质网络上的谣言传播动力学，由于传播过程中的一些客观原因，如Ignorants没有记住谣言，或Spreaders认为这个谣言已经过时从而失去传播的价值等，所以传播率 $\\lambda < 1$ 。假设一个未知者与传播者接触时，以概率 $\\lambda$ 变成传播者；传播者与另一个传播者或遏制者接触时，变成遏制者的概率为 $\\alpha$ ，并发现与流行病传播模型不同的是，谣言在均匀网络中传播时不存在临界值。随后，他们又研究了异质度分布的无标度网络上的谣言演化动力学过程。由于不同度的节点在传播过程中的传播能力不同，所以，Moreno等进一步研究了度分布对传播过程的影响，用 $i _ { k } ( \\textit { t } ) \\_ s s _ { k } ( \\textit { t } )$ 和 $r _ { k } \\left( \\mathbf { \\Theta } _ { t } \\right)$ 分别表示度为 $k$ 的未知者、传播者和遏制者的比例，修正了同质网络上的传播模型，仿真结果表明最终遏制者的数量与传播源的度$k _ { i }$ 无关，而流行病传播的相关研究中显示最终恢复个体的数量与初始传播者的度密切相关，这一发现表明复杂网络中的谣言传播与流行病传播虽有很多相似之处，但也存在明显差异。",
+    "context3": "汪小帆等2在经典谣言传播模型的基础上，研究了具有幂律度分布和可变聚类系数的无标度网络上的谣言传播行为。结果表明，聚类系数越高的网络，越有利于抑制谣言的传播。Isham等研究了广义网络上的谣言分布规模。赵来军等研究均匀网络和无标度网络中考虑传播率和移出率变化的谣言传播规律。孙睿等和王筱莉等分别研究了无标度网络中具有非一致传播率和遗忘率变化的谣言传播模型。",
+    "context4": "上述研究揭示了网络拓扑与谣言传播机制之间的复杂作用关系，也表明了网络的异质性对谣言传播动力学有重要影响。"
+  },
+  "3微观机制对谣言传播的影响": {
+    "context1": "从个体层面出发，分析谣言传播过程的微观影响因素主要包含个体的心理因素，如遗忘机制、记忆机制。"
+  },
+  "3.1常数遗忘机制": {
+    "context1": "Nekovee 首次研究了谣言传播过程中存在自发性遗忘机制，并修正了经典的SIR谣言传播模型，使用马尔科夫链理论框架得到了任意度相关复杂网络上的谣言传播动力学的确定性平均场方程。",
+    "context2": "Zhao 基于Nekovee模型更加详细地描述了考虑遗忘机制的谣言传播过程，并以LiveJournal为例进行仿真实验，分析了网络平均度、遗忘率和遏制率对谣言传播的影响。研究发现遗忘机制能削弱谣言的影响力，而且传播者数量主要受网络平均度的影响。",
+    "context3": "由于传播者对传播者的影响与遏制者对传播者的影响是不同的，文献β6] 在考虑遗忘机制的基础上，将传播者转变为遏制者的概率分为两类，当一个传播者与另一个传播者接触时，初始传播者转变为遏制者的概率γ；当一个传播者与一个遏制者接触时，传播者变为遏制者的概率为 $\\eta$ ，且 $\\gamma \\ < \\ \\eta$ 。"
+  },
+  "3.2记忆机制": {
+    "context1": "Wei和 $\\mathrm { G u } ^ { \\ [ 3 8 ] }$ 通过引入遗忘和记忆机制提出了两状态SI模型，采用线性函数和指数函数来表示遗忘和记忆效应，通过数值模拟分析了遗忘和记忆对BA无标度网络上的信息传播的影响，结果表明遗忘和记忆机制能够导致传播的终止。",
+    "context2": "Zhao分别在同质网络和异质网络上研究了含有记忆机制和遗忘机制的 SIHR 谣言传播模型。文献B9]增加了新的状态Hibernators，提出了包含4种状态的SIHR模型。",
+    "context3": "通过对不同传播率、遏制率、遗忘率和网络平均度下的谣言传播规模进行稳态分析，采用Ruge-Kutta法进行数值模拟，结果表明未知者到遏制者状态的直接转变加速了谣言的终止时间，降低了谣言的最大影响力，且遗忘和记忆机制延迟了谣言的终止时间，降低了谣言的最大影响力。",
+    "context4": "文献[4O]进一步研究了异质网络上修正的 SIHR模型，发现网络拓扑对谣言传播产生了极大的影响，且BA无标度网络比ER网络上的传播速度更快，谣言规模更小。此外，对模型进行稳定性分析时发现不存在传播临界值。"
+  },
+  "3.3时变遗忘机制": {
+    "context1": "上述模型中研究的遗忘率都是常数，Zhao考虑了时变遗忘率[，研究了小世界网络上的含时变遗忘率的谣言传播模型，发现初始遗忘率越大或遗忘速度越快，谣言传播的最终规模越小，且时变遗忘率比常数遗忘率下谣言的传播规模更大。"
+  },
+  "4宏观机制对谣言传播的影响": {
+    "context1": "从社会层面出发，主要从政府和媒体两个角度分析谣言传播过程的宏观影响因素。"
+  },
+  "4.1受教育程度的影响": {
+    "context1": "前文在个体层面的研究中，谣言的终止只依赖于遏制和遗忘两个因素，然而 Afassinou认为人们的受教育程度也是阻止谣言传播的一个重要因素。他们将未知个体分为两类：受教育的未知个体和未受教育的未知个体。由于受教育个体具有较强的背景知识、推理能力和辨别能力，当他们听到谣言时，会对谣言的可信度和有效性产生质疑，从而对谣言失去兴趣不再传播；而未受教育个体更容易相信并接受不真实的谣言信息。所以，文献[42]考虑了遗忘率和受教育率，提出了SEIR模型。",
+    "context2": "从遗忘率、遏制率和教育率三个谣言终止因素研究了其对谣言传播规模的影响，结果表明受教育人数越多，谣言的最终规模越小。也就是说，教育对抑制谣言传播起到了重要作用。因此，从政府角度出发，应该加强对公民的文化教育，严格监督义务教育落实情况，大力提高义务教育普及水平。"
+  },
+  "4.2官方媒体的影响": {
+    "context1": "当突发事件发生时，官方信息的发布是避免谣言传播的主要因素之一，Zhao等[研究了官方媒体对谣言传播的影响，官方媒体的可信度和官方信息的收视率对谣言引起的突发事件的演化有重要影响，为了研究官方媒体、谣言传播和突发事件演化之间的作用机制，文献[3]提出了一个新的作用模型。",
+    "context2": "采用Routh稳定性条件进行稳定性分析，结果表明，如果采用高收视率低可信度的媒体发布信息将导致大范围的恐慌，且会滋生大量的附带谣言，官方应该根据事件的严重程度和谣言传播率选择恰当的媒体发布真实的信息。此外，郭强等研究了真实信息发布在谣言传播中的作用。"
+  },
+  "5总结与展望": {
+    "context1": "本文系统阐述了学者们对谣言传播的研究现状，综上所述，国内外关于谣言传播动力学的相关工作主要是借鉴传染病传播模型，研究网络拓扑结构、网络的统计指标、传染率及其他的影响因素对谣言传播阈值、传播范围及传播速度的影响。然而在大数据背景下，我们可以运用所获得的真实社交网络数据，具体地研究谣言在网络中的传播机理和内在规律，并制定相应的抑制谣言传播的有效措施。鉴于以上分析，本文给出社会网络上谣言传播的几个研究方向。"
+  },
+  "5.1实证研究社交网络结构": {
+    "context1": "复杂网络上的谣言传播动力学的研究主要是基于已有的网络模型，这些模型是对现实社交网络的结构和特性的模拟，然而与真实的社交网络仍存在一定的差异。然而，大数据时代下，社交网络和信息技术的迅猛发展，使得互联网上的真实数据的获取不再是难题。",
+    "context2": "基于真实社交网络数据集，从微观机制和宏观机制综合分析舆情传播的影响因素，通过仿真实验分析舆情传播动力学，可以深入理解和掌握舆情传播规律。李丹丹等已在真实社交网络数据集上开展了谣言传播的研究工作。"
+  },
+  "5.2加权网络上的谣言传播": {
+    "context1": "社交网络中，个体间关系的亲疏程度是不同的，如家庭成员、朋友之间的联系较为紧密，而与同事、其他相识的人之间的联系较为稀疏。不同亲密关系的个体之间对他人意见接受程度不同，人们通常只愿意与熟悉的人进行信息的传递，并且人们更倾向于接受从他们的熟人那里传来的谣言。现实中人们对于关系更亲密的人的信任度更高，所以研究加权网络中的谣言传播模型更有现实意义。"
+  },
+  "5.3线上线下网络交互作用下的谣言传播": {
+    "context1": "随着在线社交网络的发展，谣言的传播是在线上社交网络和线下人际关系网络中同时进行的，且现实的人类活动不是孤立的，而是相互依赖、相互作用的，因此，为了更准确地把握舆情演化过程和演化规律，需从网络舆情场和传统舆情场两方面入手，基于超网络理论研究线上社交网络和线下社交网络交互作用下的舆情演化规律。"
+  },
+  "5.4多个谣言的共同传播": {
+    "context1": "谣言在传播过程中往往会产生话题的偏移，从而滋生出附带谣言，而这些附带谣言的出现通常会加速（人们意识到谣言的危害面更广，从而引发更激烈的讨论）或减缓（人们开始关注新的谣言）原始谣言的传播。所以，多个谣言并存的传播问题值得深入研究。□"
+  },
+  "参考文献": {
+    "context1": "[1] 李静．谣言传播与当前社会风险的关系研究综述[．现代经济信息，2014（15)：107-108.  \n[2] 霍良安，黄培清．基于系统动力学的谣言传播模型研究[．数学的实践与认识，2013，43（16)：1-8.  \n[3] SCOTT J.Social network analysis a handbook[M]．London:Sage Publications，2000.  \n[4]周涛，汪秉宏，韩筱璞，尚明生．社会网络分析及其在舆情和疫情防控中的应用[．系统工程学报，2010，25(6): 742-753.  \n[5] WATTS D J，STROGATZ S H. Collective dynamics of small-world networks[J]．Nature，1998，393（6684）：440-442.  \n[6] BARABASI A L，ALBERT R. Emergence of scaling in randomnetworks[．Science，1999，286（5439):509-512.  \n[7] 童文胜，王建成，曾润喜．我国网络谣言研究议题与内容文献分析[．情报杂志，2014，33（7)：135-150.  \n[8] 苏创，彭锦，李圣国．国内外网络舆情数学建模研究综述[．情报杂志，2014，33（10)：14-24.  \n[9] 陈福集，陈婷．基于 SEIRS 传播模型的网络舆情衍生效应研究[．情报杂志，2014，33（2)：108-113.  \n[0] 邢梦婷，王日芬．国内外社会舆情研究的回顾与展望．情报理论与实践，2015，38（11)：139-144.  \n[1] 林晓静，庄亚明，孙莉玲．具有饱和接触率的 SEIR 网络舆情传播模型研究[]．情报杂志，2015，34（3)：150-55.  \n[2] KAPFERERJN.谣言：世界最古老的传媒 M．郑若麟，译．上海：上海人民出版社，2008.  \n[13] GARRETT R K. Troubling consequences of online political ru-moring[]．Human Communication Research，2011，37:255-274.  \n[4] COHEN G L，ARONSON J，STEELE C M. When beliefs yieldto evidence:reducing biased evaluation by affirming the self[．Personality and Social Psychology Bulletin，2000，26:11514164.  \n[5] 王长春，陈超．基于复杂网络的谣言传播模型[．系统工程理论与实践，2012，32（1)：203-210.  \n[6] 王辉，韩江洪，邓林．基于移动社交网络的谣言传播动力学研究[．物理学报，2013，62（11)：110505.  \n[7] 任立肖，张亮，杜子平．复杂网络上的网络舆情演化模型研究述评[．情报科学，2014，32（8)：148-156.  \n[8] DALEY D J，KENDALL D G. Epidemics and rumours[].Nature，1964，204:1118.  \n[19] DALEY D J，KENDALL D G.Stochastic rumours[]．IMAJ. Appl.Math.，1965，1（1)：42-55.  \n[0] MAKI D，THOMSON M. Mathematical models and applicationsM．Prentice-Hall:Englewood Cliff，1973.  \n[1] NEWMAN M,FOREST S，BALTHROP J. Email networks andthe spread of viruses[]．Phys.Rev.E，2002，66:1162-1167.  \n2] ZHOUJ，LIU Z H，LI B W.Influence of network structure onrumor propagation[．Phys.Lett.A，2007，368:458-463.  \n[3]王长春，陈超，董志强．网络结构对谣言传播的影响"
+  },
+  "": {
+    "context1": "·第39卷2016年第12期·",
+    "context2": "．系统仿真学报，2013，25（1)：127-138.  \n[4]ZANETTE D H，ARGENTINA R N. Critical behavior of propa-gation on small-word networks[．Phys.Rev.E，2001，64:1725-1732.  \n[5] ZANETTE D H. Dynamics of rumor propagation on small wordnetworks[．Phys.Rev.E，2001，65:110-126.  \n[6] MORENO Y，NEKOVEE M，VESPIGNANI A.Efficiency andreliability of epidemic data dissemination in complex networks．Phys.Rev.E，2004，69:343-358.  \n[7] MORENO Y，NEKOVEE M，PACHECO A. Dynamics of ru-mor spreading in complex networksl．Phys.Rev.E，2004,69.  \n[8] MORENO Y，PASTOR SR，VESPIGNANI A. Epidemic out-breaks in complex heterogeneous networks[J]．EuropeanPhysical Journal B，2002，26(4)：521-529.  \n[9] 潘灶烽，汪小帆，李翔．可变聚类系数无标度网络上的谣言传播仿真研究[．系统仿真学报，2006，18（8)：2346-2348.  \nB0] ISHAM V，HARDEN S，NEKOVEE M. Stochastic epidemicsand rumours on finite random networks[J]．Physica A,2010，389:561-576.  \nB1] 赵来军，吴盼．考虑传播率和移出率变化的谣言传播规律研究[．上海理工大学学报，2014，36（4)：345-350.  \nB2] 孙睿，罗万伯．具有非一致传播率的无标度网络谣言传播模型[．复杂系统与复杂性科学，2014，11（3)：6-1.  \n[B3] 王筱莉，赵来军，谢婉林．无标度网络中遗忘率变化的谣言传播模型研究[．系统工程理论与实践，2015，35(2):458-465.  \nB4] NEKOVEE M，MORENO Y，BIANCONI G，et al. Theory ofrumour spreading in complex social networks[．Physica A,2007，374:457-470.  \n[B5] ZHAO L J，WANG Q，CHENG JJ，et al. Rumor spreadingmodel with consideration of forgeting mechanism:a case of on-line blogging Live Journal[J]．Physica A，2011，390:2619-2625.  \nB6]ZHAO L J，CUI H X，QIU X Y，et al.SIR rumor spreadingmodel in the new media age[]．Physica A，2013，392:995-1003.  \nB7] LI W，GU J，CAI X. Message spreading and forget-remembermechanism on a scale-free network[l．Chinese Phys.Lett.，2008，25:2303-2306.  \n[B8] GU J，LI W，CAI X. The effect of the forget-remember mecha-nismonspreading[J]．Eur.Phys.J.B，2008，62:247-255.  \nB9] ZHAO L J，WANG JJ，CHEN Y C，et al. SIHR rumor sprea-ding model in social networks[]．Physica A，2012，391:2444-2453.  \n[40] ZHAO L J，QIU X Y，WANG X L，et al. Rumor spreadingmodel considering forgetting and remembering mechanisms in in-homogeneousnetworks[J]．Physica A，2013，392:987-994.  \n[41] ZHAO LJ，XIE WL，OLIVER G H. A rumor spreading modelwith variable forgettingrate[]．Physica A，2013，392:6146-6154.  \n[42] AFASSINOU K. Analysis of the impact of education rate on therumor spreading mechanism [J]．Physica A，2014，414:43-52.  \n[43] ZHAO LJ，WANGQ，CHENG JJ，et al. The impact of au-thorities’media and rumor dissemination on the evolution of e-mergency[．PhysicaA，2012，391:3978-3987.  \n[4] 郭强，刘新惠，胡兆龙．真实信息发布在谣言传播中的作用研究[．计算机应用研究，2014，31（4)：1031-1034.  \n[45] LI D D，MA J,TIAN Z H, ZHU H M. An evolutionary gamefor the diffusion of rumor in complex networks[]．PhysicaA，2015，433:51-58.  \n作者简介：李丹丹（ORCID:0000-0003-2949-2777），女，1990 年生，博士生。研究方向：网络舆情，复杂网络。马静（ORCID:0000-0001-8472-2518），女,1966年生，博士，教授。研究方向：网络舆情，复杂网络，大数据分析。通讯作者。"
+  }
+}

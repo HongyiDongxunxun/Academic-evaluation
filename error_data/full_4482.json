@@ -1,0 +1,187 @@
+{
+  "original_filename": "full_4482.md",
+  "基于序列到序列模型的生成式文本摘要研究综述": {
+    "context1": "石磊1，阮选敏²，魏瑞斌1，成颖2,3（1.安徽财经大学管理科学与工程学院，蚌埠233030；2.南京大学信息管理学院，南京210023；3．山东师范大学文学院，济南 250014)",
+    "context2": "摘要相较于早期的生成式摘要方法，基于序列到序列模型的文本摘要方法更接近人工摘要的生成过程，生成摘要的质量也有明显提高，越来越受到学界的关注。本文梳理了近年来基于序列到序列模型的生成式文本摘要的相关研究，根据模型的结构，分别综述了编码、解码、训练等方面的研究工作，并对这些工作进行了比较和讨论，在此基础上总结出该领域未来研究的若干技术路线和发展方向。",
+    "context3": "关键词生成式摘要；序列到序列模型；编码器-解码器模型；注意力机制；神经网络"
+  },
+  "Abstractive Summarization Based on Sequence to Sequence Models: A Review": {
+    "context1": "Shi Lei', Ruan Xuanmin²,Wei Ruibin' and Cheng Ying2,3 (1.SchoolofManagement Science and Engineering,Anhui UniversityofFinanceand Economics,Bengbu233030; 2.School ofInformation Management,Nanjing University,Nanjing 210023; 3.School of Chinese Language and Literature,Shandong Normal University, Jinan250014)",
+    "context2": "Abstract: Compared with the early abstractive summarization method,the text summarization method based on Sequence to Sequence models is much closer to the process ofhuman-writen summaries,and the qualityof the generated summary has alsobeen significantly improved,whichhas atracted increasing attention fromthe academiccommunity.This paperreviews the research related to abstractive summarization based on Sequence to Sequence models in recent years. According to the structure of the model,this paper summarizes the research on the model in terms of encoding,decoding,training, and soon,and itcompares anddiscusses these works.On thisbasis,some technical routesand development directions for future research in this field are put forward.",
+    "context3": "Key words:abstractive summarization； Sequence to Sequence model； encoder-decoder model；attention mechanism;neural networks"
+  },
+  "1引言": {
+    "context1": "领域已经形成了丰硕的成果。目前，自动摘要方法大体上可以分为两类[2]：抽取式（extractive summa-rization）和生成式（abstractive summarization）。抽自1958年Luhn[开启了自动摘要研究以来，该取式的基本做法是从原文中抽取部分重要的句子形成摘要，研究重点集中在句子的重要性判断、筛选以及排序等。生成式摘要的基本思路是在理解原文语义的基础上，凝练其思想与概念，以实现语义重构。抽取式是先前自动摘要研究的主导方法[3]，不过，在TAC2011等评估中[4]，表现最优的结果仅被认为“勉强可接受”[5]。",
+    "context2": "Khan等对止于2014年的生成式摘要的相关研究进行了综述，从方法上将其分为基于结构以及基于语义两类。前者生成摘要的主要不足是语言质量相对较差，比如，语句中包含较多的语法错误；后者生成的摘要具备简明、内聚、信息丰富以及低冗余等优点，不足之处在于主要使用浅层自然语言处理技术。近年来，深度学习技术为自动摘要研究提供了新的思路，其中，序列到序列（sequence to se-quence，Seq2Seq）模型的研究与应用最为广泛。该模型由Cho 等[7]和 Sutskever等[8]提出，基本思想是利用输入序列的全局信息推断出与之相对应的输出序列，由编码器（encoder）和解码器（decoder）构成。Rush等[首次将该模型应用于生成式摘要，和先前的生成式方法相比，该模型是在“理解”文本语义的基础上生成摘要，更加接近人工摘要的生成过程[10]。随之，学界提出了一系列基于Seq2Seq的生成式摘要模型，对编码器、解码器以及训练方法等开展了卓有成效的研究工作。基于该模型生成的摘要在语言流畅性、连贯性等方面让学界看到自动摘要实用化的希望[]。",
+    "context3": "本 文以（“abstractive”OR“sequence” OR“seq2seq”OR“neural”）AND“summarization”及其对应的中文为检索词分别检索中国知网、万方、Webof Science（WoS）以及Google Scholar等数据库，在文献阅读过程中再根据参考文献不断扩展文献范围，最后发现切题文献共50篇，其中会议论文30篇，开放存取论文16篇，期刊论文4篇。鉴于该主题的研究已经形成了丰富的文献积累，有必要对其进行梳理，在深入提炼的基础上为后继研究提供参考。本文第2节阐述基础 Seq2Seq模型，第3节按照模型的结构分别梳理编码、解码以及训练等方面的研究进展，第4节与第5节分别对本领域工作展开讨论并做出总结。"
+  },
+  "2基础模型": {
+    "context1": "在Cho等[7]的工作中，编码器和解码器均采用循环神经网络（recurrent neural network，RNN）。编码器将输入的一个可变长序列 $X { = } ( x _ { 1 } , \\cdots , x _ { T } )$ 编码为一个固定的语义向量；解码器从该向量中提取语义信息，输出另一个可变长序列 $Y { = } ( y _ { 1 } , \\cdots , y _ { T ^ { \\prime } } )$ ，序列中的每个词项采用词向量表示。模型的具体计算过程如下：编码器基于输入的词向量 $x _ { i }$ 以及上一词项的隐层 $h _ { i - 1 }$ 计算当前词项隐层 $h _ { i } [ $ 公式(1)]，再通过隐层向量计算语义向量 $c [$ 公式(2)]；解码器在每个时间步$t$ ，基于语义向量 $c$ 、上一时间步隐层 $s _ { t - 1 }$ 和生成的上一个词项 $y _ { t - 1 }$ ，计算当前隐层 $s _ { t } [ $ 公式(3)]，再基于语义向量 $c$ 、当前隐层 $s _ { t }$ 和生成的上一个词项 $y _ { t - 1 }$ ，推导当前词项 $y _ { t }$ 的分布[公式(4)]。",
+    "context2": "$$\nh _ { i } = f ( x _ { i } , h _ { i - 1 } )\n$$",
+    "context3": "$$\nc = q ( \\{ h _ { 1 } , \\cdots , h _ { T } \\} )\n$$",
+    "context4": "$$\ns _ { t } = f \\left( y _ { t - 1 } , s _ { t - 1 } , c \\right)\n$$",
+    "context5": "$$\np \\left( y _ { t } | y _ { < t } , X \\right) = g \\left( y _ { t - 1 } , s _ { t } , c \\right)\n$$",
+    "context6": "其中， $f$ 和 $q$ 为非线性激活函数； $g$ 通常是 softmax 函数，用于产生词项在词汇表 $V$ 中的概率分布，一般用贪婪算法（greedy search）取最大概率对应的词项作为输出。",
+    "context7": "模型使用有标注的训练集 $D$ 进行训练， $D$ 由大量源文本 $x$ 和对应的标准摘要 $y$ 构成。训练的基本目标是优化参数集 $\\theta$ ，使输入序列 $x$ 的输出结果最大似然于序列 $y$ ，即最大化 $\\log p ( y | x ; \\theta )$ ，等同于最小化交叉熵损失，损失函数为",
+    "context8": "$$\nL _ { _ { \\mathrm { M L E } } } ( \\theta ) = - \\sum _ { ( x , y ) \\in D } \\log p \\ ( y | x \\ : ; \\theta \\ ) =\n$$",
+    "context9": "$$\n- \\sum _ { \\left( x , y \\right) \\in D } \\sum _ { t } \\log p \\left( y _ { t } | y _ { < { t } } , x \\mathbin { \\left. \\theta \\right. } \\right)\n$$",
+    "context10": "该模型的不足之处是，编码器把源文本中的所有信息表示为一个固定的语义向量，解码器在生成每一个词项时均参考该向量，这为神经网络处理长文本带来了困难。Cho等7的实验证实随着文本长度的增加，模型的表现快速下降。对此，Bahdanau等[12]在模型中引入了注意力（attention）机制，目的是使解码器在生成每一个词项时重点关注源文本中的特定部分，即解码过程不再依赖原先固定的语义向量 $c$ ，而是利用动态的 $c _ { t } [ $ 公式(6)\\~公式(8)]， $c _ { t }$ 是时间步 $t$ 所有词项隐层的加权。",
+    "context11": "$$\nc _ { t } = \\sum _ { i = 1 } ^ { T } \\alpha _ { t i } h _ { i }\n$$",
+    "context12": "$$\n\\alpha _ { t i } = \\mathrm { s o f t m a x } \\left( e _ { t i } \\right) = \\frac { \\exp \\left( e _ { t i } \\right) } { \\displaystyle \\sum _ { k = 1 } ^ { T } \\exp \\left( e _ { t k } \\right) }\n$$",
+    "context13": "$$\n\\boldsymbol { e } _ { t i } = \\mathrm { s c o r e } \\left( h _ { i } , \\boldsymbol { s } _ { t - 1 } \\right)\n$$",
+    "context14": "其中， $e _ { t i }$ 是注意力得分，用来估计位置 $i$ 附近的输入和时间步 $t$ 的输出之间的匹配程度； $\\boldsymbol { \\alpha } _ { t i }$ 是注意力分布，代表在时间步 $t$ 每个词项的隐层 $h _ { i }$ 被解码器关注的程度。每个输出词项的分布相应地由公式(4)更新为公式(9),",
+    "context15": "$$\np \\left( y _ { t } | y _ { < t } , X \\right) = g \\left( y _ { t - 1 } , s _ { t } , c _ { t } \\right)\n$$",
+    "context16": "Bahdanau等[12]的实验结果表明，带有注意力机制的模型在机器翻译任务上取得了更好的成绩，对于句子长度变化更具鲁棒性。注意力机制的加入使得Seq2Seq模型更加完善，之后大量相关研究都建立在该模型的基础上。带注意力机制的Seq2Seq模型结构如图1所示，图中编码器以双向RNN为例，解码器以单向RNN为例，以生成词项 $y _ { 2 }$ 为例对编码、解码过程做出示意。",
+    "context17": "![](images/26dcdc79c18680e2880e4562b9375996b582ce9697292e3a5825a40e5cdfa128.jpg)  \n图1带注意力机制的Seq2Seq模型示意图"
+  },
+  "3衍化": "",
+  "3.1编码": {
+    "context1": "Rush等[9在论文中提出了三种编码器方案： $\\textcircled{1}$ 词袋编码器，将输入序列中的词向量平均后作为语义向量，并不考虑词的顺序； $\\textcircled{2}$ 卷积编码器，使用时滞神经网络（time-delay neural network，TDNN）对词向量交替进行时间卷积（temporalconvolution）和最大池化（max pooling）以计算出语义向量； $\\textcircled{3}$ 基于注意力机制的编码器，即ABS（attention-basedsummarization）模型。ABS模型基于词袋编码器，在计算语义向量时，不仅考虑输入序列中的词向量$x _ { i }$ ，还考虑解码器已输出的最近 $R$ 个词的向量 $y _ { R } ^ { t - 1 }$ ，模型用 $y _ { R } ^ { t - 1 }$ 在输入序列和输出序列之间做对齐。ABS 模型在DUC2004 和英语Gigaword 测试集上的表现并不理想（表1)，生成的摘要存在着语法错误、事实歪曲等问题[9]，但该工作作为一次有益的尝试，为后续研究带来了很多启发。编码器的工作相当于阅读一篇文本并理解其语义，这对机器来说无疑是相当具有挑战性的。人在阅读时，可能会采取选择性阅读、多遍阅读、分块阅读，还可能会借助外部资源理解文本，受此启发，学界提出多种编码器改进方案。由于注意力机制的设计和编码方式密切相关，本节在梳理编码方面的工作时将涵盖注意力相关内容。"
+  },
+  "3.1.1选择性编码": {
+    "context1": "借鉴人类在阅读时会标注出重点内容的做法，Zhou等[13]提出了选择性编码模型。该模型通过设置一个门控网络对编码器生成的词项隐层进行权重标注，相当于“选择”出相对重要 的内容，使解码器可以有针对性的读取源文本。模型的具体实现使用门控循环单元（gated recurrent unit，GRU）计算词项的隐层 $h _ { i } = \\mathrm { G R U } \\left( x _ { i } , h _ { i - 1 } \\right)$ 以及文本表示 $h _ { \\mathrm { s e n t } }$ ，然后将二者输入基于多层感知机的门控网络以计算出每个词项的权重向量weighti,",
+    "context2": "$$\n\\mathrm { w e i g h t } _ { i } = \\sigma \\left( h _ { i } , h _ { \\mathrm { s e n t } } \\right)\n$$",
+    "context3": "之后用权重向量更新隐层 $h _ { i }$ ，得到新词项隐层 $h _ { i } ^ { \\mathrm { n e w } }$ ，",
+    "context4": "$$\nh _ { i } ^ { \\mathrm { n e w } } = h _ { i } \\otimes \\mathrm { w e i g h t } _ { i }\n$$",
+    "context5": "其中， $\\otimes$ 代表向量点乘运算（element-wise multipli-cation）。",
+    "context6": "Zeng等[14]提出的“再读（read-again）”模型与Zhou等[13]工作类似，不同点是该模型没有直接用权重向量更新当前词项的隐层，而是用另一个GRU对源文本进行二次编码，然后将权重向量用于更新第二次编码生成的词项隐层 $h _ { i } ^ { ( 2 ) }$ ，$h _ { i } ^ { ( 2 ) } = \\left( 1 - \\mathrm { { w e i g h t } } _ { i } \\right) \\otimes h _ { i - 1 } ^ { ( 2 ) } + \\mathrm { { w e i g h t } } _ { i } \\otimes \\mathrm { { G R U ^ { ( 2 ) } } } ( x _ { i } , h _ { i - 1 } ^ { ( 2 ) } )$",
+    "context7": "该模型综合考虑了当前词项的权重、当前隐层 $h _ { i } ^ { ( 2 ) }$ 以及上一个词项的隐层 $h _ { i \\textrm { - } 1 } ^ { ( 2 ) }$ 。",
+    "context8": "Zeng 等[14]还将GRU更换为长短时记忆网络（long short-termmemory，LSTM）做了对比实验，考虑到LSTM使用非线性激活函数来更新隐层，无需单独计算weighti，直接利用第一遍编码获得的词项隐层和文本表示即可更新 $h _ { i } ^ { ( 2 ) }$ ，",
+    "context9": "$$\nh _ { i } ^ { ( 2 ) } = \\mathrm { L S T M } ^ { ( 2 ) } \\big ( \\big [ \\boldsymbol { x } _ { i } ; h _ { i } ^ { ( 1 ) } ; h _ { \\mathrm { s e n t } } ^ { ( 1 ) } \\big ] , h _ { i - 1 } ^ { ( 2 ) } \\big )\n$$",
+    "context10": "实验结果表明，GRU和LSTM的表现不分伯仲。",
+    "context11": "Lin 等[15]提出的全局编码（global encoding）模型本质上也属于选择性编码，该模型使用门控单元对第一遍编码的输出赋予权重，从而选择出与全局语义相关的信息。模型的创新之处是在第二遍编码时使用了CNN（convolutional neural network）和自注意力（self-attention）机制。基于卷积核参数共享，CNN可以提取文本局部特征，如 $n$ -gram；自注意力是Vaswani等[]提出的一种注意力机制，句子中的每个词项都和该句中的所有词项进行注意力计算，其目的是学习句子内部的词依赖关系，捕获句子中的内部结构。经过第二遍编码，编码器输出的词项隐层包含了更多的短语结构信息和句子结构",
+    "context12": "表1短文本摘要模型基本信息及评测结果",
+    "context13": "<table><tr><td rowspan=\"5\"></td><td rowspan=\"5\">模型</td><td rowspan=\"5\">框架</td><td colspan=\"3\">DUC2004</td><td colspan=\"3\">英语Gigaword</td><td colspan=\"3\">LCSTS</td></tr><tr><td>ROUGE-</td><td>ROUGE-</td><td>ROUGE-</td><td>ROUGE- ROUGE- ROUGE- ROUGE-</td><td></td><td></td><td></td><td>ROUGE- ROUGE</td><td></td></tr><tr><td>1</td><td>2</td><td>L</td><td>1</td><td>2</td><td>L</td><td>1</td><td>2</td><td>L</td></tr><tr><td>Rush等[9] (2015)</td><td>ABS(基线）</td><td>注意力编 码→NNLM</td><td>26.55</td><td>7.06</td><td>22.05</td><td>29.55</td><td>11.32 26.42</td><td></td><td></td><td></td></tr><tr><td>Rush等[9] (2015)</td><td>ABS+</td><td>注意力编 码→NNLM</td><td>28.18</td><td>8.49</td><td>23.81</td><td>29.76</td><td>11.88 26.96</td><td></td><td></td><td></td></tr><tr><td>Chopra 等[32](2016)</td><td>RSA-Elman</td><td>卷积编码→ Elman</td><td>28.97</td><td>8.26</td><td>24.06</td><td>33.78</td><td>15.97</td><td>31.15</td><td></td><td></td></tr><tr><td>Gulcehre 等[36](2016)</td><td>指针 Softmax</td><td>GRU→GRU</td><td></td><td></td><td></td><td>37.29</td><td>17.75</td><td>34.70</td><td></td><td></td></tr><tr><td>Gu等[40] (2016)</td><td>CopyNet</td><td>GRU→GRU</td><td></td><td></td><td></td><td></td><td></td><td>35.00</td><td>22.30</td><td>32.00</td></tr><tr><td>Zeng等[14] (2016)</td><td>再读+拷贝机LSTM→ 制</td><td>LSTM</td><td>29.89</td><td>9.37</td><td>25.93</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ayana等[51] (2016)</td><td>最小风险训练</td><td>GRU→GRU</td><td>30.41</td><td>10.87</td><td>26.79</td><td>36.54</td><td>16.59</td><td>33.44 38.20</td><td>25.20</td><td>35.40</td></tr><tr><td>Zhou等[13] (2017)</td><td>选择性编码</td><td>GRU→GRU</td><td>29.21</td><td>9.56</td><td>25.51</td><td>36.15</td><td>17.54</td><td>33.63</td><td></td><td></td></tr><tr><td>Cao等[31] (2017)</td><td>抽取事实</td><td>GRU→GRU</td><td></td><td></td><td></td><td>37.27</td><td>17.65</td><td>34.24</td><td></td><td></td></tr><tr><td>Gehring 等[33]（2017)</td><td>ConvS2S</td><td>多层CNN→ 多层CNN</td><td>30.44</td><td>10.84</td><td>26.90</td><td>35.88</td><td>17.48</td><td>33.29</td><td></td><td></td></tr><tr><td>Li等[44] (2017)</td><td>深度循环生成GRU→GRU 解码器</td><td>+ VAE</td><td>31.79</td><td>10.75</td><td>27.48</td><td>36.27</td><td>17.57</td><td>33.62</td><td>36.99 24.15</td><td>34.21</td></tr><tr><td>Amplayo 等[49]（2018）</td><td>解码器融入主 题信息</td><td>GRU→GRU</td><td></td><td></td><td></td><td>37.04</td><td>16.66</td><td>34.93</td><td></td><td></td></tr><tr><td>Zhou等[39] (2018)</td><td>序列拷贝网络</td><td>GRU→GRU</td><td></td><td></td><td></td><td>35.93</td><td>17.51</td><td>33.35</td><td></td><td></td></tr><tr><td>Wang等[68] （2018）</td><td>ConvS2S+主 题+强化学习</td><td>多层CNN→ 多层CNN</td><td>31.15</td><td>10.85</td><td>27.68</td><td>36.92</td><td>18.29</td><td>34.58 39.93</td><td>21.58</td><td>37.92</td></tr><tr><td>Li等[54] (2018)</td><td>Actor-Critic训 练</td><td>GRU→GRU</td><td>29.41</td><td>9.84</td><td>25.85</td><td>36.05</td><td>17.35</td><td>33.49</td><td>37.51 24.68</td><td>35.02</td></tr><tr><td>Lin等[15]</td><td>全局编码+LSTM+</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>（2018）</td><td>CNN+自注意 CNN→ 力</td><td></td><td></td><td></td><td></td><td>36.30</td><td>18.00</td><td>33.80 39.40</td><td>26.90</td><td>36.50</td></tr><tr><td></td><td></td><td>LSTM</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Song等[69] (2018)</td><td>融入结构的拷 贝机制</td><td>LSTM→ LSTM</td><td></td><td></td><td></td><td>35.47</td><td>17.66</td><td>33.52</td><td></td><td></td></tr></table>",
+    "context14": "注：DUC2004是美国国家标准与技术研究院(NIST)文本摘要比赛用的小型数据集，包含500篇短文本，每篇文本包含4个由专家撰写的标准摘要,该数据集仅用于评测;英语Gigaword包含约950万篇新闻,取每篇新闻的首句作为源文本,新闻标题作为标准摘要9],属于单句摘要数据集;LCSTS是大规模中文短文本摘要数据集,数据采集自新浪微博,短文本为80\\~140字,摘要为10-30字[70]。",
+    "context15": "信息。"
+  },
+  "3.1.2层级编码": {
+    "context1": "实验证明，对于Seq2Seq模型来说，源文本越长处理难度越大，主要原因在于神经网络的记忆能力有限，即使有注意力机制，也很难联合较远的输入做出判断。因此处理长文本的一个思路是将其拆分成区块（如句子、段落、语篇等），对区块和全文分别进行编码，再用层级注意力（hierarchical at-tention）计算语义向量，从而缓解记忆压力，并尝试在语义向量中融入文本的结构特征。"
+  },
+  "1）句子": {
+    "context1": "Nallapati等[7]首次用 Seq2Seq模型处理长文本摘要，提出层级注意力模型，其基本思想是词的重要性会受到其所在句子的重要性的影响，因此在计算词项注意力分布时要考虑句子的注意力分布。该模型在编码器端使用了两个双向RNN，一个是词级，一个是句子级。词级RNN对词项进行编码，生成词项隐层，每遇到句末标志，就将当前隐层和相应句子的位置信息相结合，作为句子的向量表示赋给句子级RNN；句子级RNN对多个句子向量进行编码，生成句子隐层。分别计算词项注意力分布 $\\boldsymbol { a } _ { i } ^ { w }$ 和句子注意力分布 $a _ { s } ^ { s }$ ，之后用句子的注意力分布将词项的注意力分布更新为 $\\boldsymbol { \\mathscr { a } } _ { i }$ ，",
+    "context2": "$$\n\\alpha _ { i } = \\frac { \\alpha _ { i } ^ { w } \\alpha _ { s ( i ) } ^ { s } } { \\displaystyle \\sum _ { k = 1 } ^ { T } \\alpha _ { k } ^ { w } \\alpha _ { s ( k ) } ^ { s } }\n$$",
+    "context3": "最后用公式(6)计算出语义向量 $c _ { t }$ 。"
+  },
+  "2）段落": {
+    "context1": "和句子相比，段落可以更好地体现文本的结构信息。Celikyilmaz等[18]提出深度通讯代理（deepcommunicatingagents）模型，该模型设置了多个“代理”，每个代理负责编码一个段落。假设文本由$M$ 个段落组成，代理 $a$ 负责编码段落 $a$ ， $a { = } 1 , \\cdots , M _ { \\mathrm { { c } } }$ 每个代理使用两个LSTM对段落进行编码：先用双向单层LSTM对段落中的每个词项进行编码，获得词项隐层 $h _ { i } ^ { ( 1 ) }$ ；将 $h _ { i } ^ { ( 1 ) }$ 输入双向多层LSTM，作为第一层的初始值；第 $l$ 层的词项隐层 $h _ { m , I } ^ { ( l ) }$ 的计算公式为",
+    "context2": "$$\nh _ { i } ^ { ( l + 1 ) } = b \\mathrm { L S T M } ( f ( h _ { i } ^ { ( l ) } , z ^ { ( l ) } ) , \\vec { h } _ { i - 1 } ^ { ( l + 1 ) } , \\overleftarrow { h } _ { i + 1 } ^ { ( l + 1 ) } )\n$$",
+    "context3": "其中， $\\boldsymbol { z } ^ { ( l ) }$ 代表来自其他代理的第 $l$ 层输出的最后一个隐层 $h _ { m , i } ^ { ( L ) }$ 的均值,",
+    "context4": "$$\nz ^ { ( l ) } = \\frac { 1 } { M - 1 } \\sum _ { m \\neq a } h _ { m , l } ^ { ( l ) }\n$$",
+    "context5": "代理之间通过 $\\boldsymbol { z } ^ { ( l ) }$ 实现了“通讯”，这些信息可以让模型了解段落之间的关系，进而理解文本的全局结构。",
+    "context6": "用公式(15)计算出的双向多层LSTM的最后一层的词项隐层 $h _ { a , i } ^ { ( L ) }$ 作为每个段落中词项的隐层向量，之后计算出每个段落中的词注意力分布 $\\boldsymbol { \\alpha } _ { a , i } ^ { t }$ ，将其和词项隐层 $h _ { a , i } ^ { ( L ) }$ 加权后得到每个段落的语义向量 $\\boldsymbol { c } _ { a } ^ { t }$ 。和层级注意力不同的是，该模型利用 $\\boldsymbol { c } _ { a } ^ { t }$ 计算代理注",
+    "context7": "意力分布 $\\beta _ { a } ^ { t }$",
+    "context8": "$$\n\\beta _ { a } ^ { t } = \\mathrm { s o f t m a x } \\left( \\mathrm { s c o r e } \\left( c _ { a } ^ { t } , s _ { t } \\right) \\right)\n$$",
+    "context9": "最后将 $\\boldsymbol { c } _ { a } ^ { t }$ 和 $\\beta _ { a } ^ { t }$ 加权计算出语义向量 $c _ { t }$ 。"
+  },
+  "3）语篇": {
+    "context1": "论文摘要在很大程度上依赖于语篇（discourse）结构，即通过总结各语篇的要点以形成摘要。例如，学术论文的典型语篇包括问题描述、研究方法、结论等。受此启发，Cohan等[19]提出语篇感知注意力（discourse-aware attention）模型，用学术论文作为语料，在预处理阶段利用论文的一级标题将其拆分为 $M$ 个语篇，每个语篇包含 $N$ 个词。用双向单层LSTM分别对每个语篇中的词项进行编码，得到第 $j$ 个语篇中第 $i$ 个词项的隐层 $h _ { j , i }$ ，各个语篇参数共享。连接每个语篇的正向和反向隐层作为语篇隐层 $h _ { j } = f ( [ \\vec { h } _ { j } ; \\tilde { h } _ { j } ] )$ 。该模型在计算词注意力分布时，用语篇注意力分布 $\\beta _ { j } ^ { t }$ 对词项注意力得分进行加权，",
+    "context2": "$$\na _ { j , i } ^ { t } = \\mathrm { s o f t m a x } \\ : ( \\beta _ { j } ^ { t } \\mathrm { s c o r e } \\ : ( h _ { j , i } , s _ { t - 1 } ) \\ : )\n$$",
+    "context3": "再将 $a _ { j , i } ^ { t }$ 和 $h _ { j , i }$ 加权计算出语义向量 $c _ { t }$",
+    "context4": "鉴于层级注意力模型的时间复杂度偏高，Ling等[20]提出了“由粗到精（coarse to fine，C2F）”注意力模型。模型对区块注意力分布进行“硬注意（hard attention）”，选出注意力权重最大的区块 $J$ ，利用该区块中的词注意力分布直接计算语义向量$c _ { t } = \\sum _ { i } a _ { J , i } h _ { J , i } \\mathrm { ~ c ~ }$ 。C2F模型虽然有效降低了层级注意力计算的时间复杂度，但“硬注意”会丢失其他区块的信息，致使该模型在CNN/Daily Mail测试集上的表现并不理想（表1）。"
+  },
+  "3.1.3抽取辅助": {
+    "context1": "抽取式摘要研究中形成了包括基于词频统计、机器学习、主题以及图等在内的多种抽取方法，此外还利用外部资源帮助识别文本中的命名实体、词性等[3]。尽管抽取式摘要本身存在局限，但依然具有借鉴价值。一些学者利用抽取方法辅助编码，试图使机器注意到源文本的重点，这一点上和选择性编码类似，区别在于前者有显式抽取过程，后者没有。"
+  },
+  "1）句子抽取": {
+    "context1": "一些学者在生成式模型中加入了句子抽取技术，具体做法大致可以分为两类。",
+    "context2": "一类是将抽取和生成独立为两个阶段，即先抽取句子，再将这些句子输入生成式模型。王帅等[21]用TextRank算法[22]从源文本中抽取出重要的句子，再用基于RNN的Seq2Seq模型生成摘要，这种做法显然会丢失源文本中的信息。Xie等[23]利用WordNet识别和抽取重要的句子，在编码阶段用两个双向LSTM对源文本和抽取出的句子分别进行编码，得到它们的语义向量 $\\boldsymbol { c } _ { t } ^ { \\mathrm { d o c } }$ 和 $\\boldsymbol { c } _ { t } ^ { \\mathrm { e x t r } }$ ，利用二者计算出语义向量 $c _ { t }$ ，",
+    "context3": "$$\n\\mathrm { M L P } \\big ( \\left[ c _ { t } ^ { \\mathrm { d o c } } ; c _ { t } ^ { \\mathrm { e x t r } } \\right] \\big )\n$$",
+    "context4": "该模型的优点在于既关注重要性高的句子，也兼顾重要性相对较低的句子。",
+    "context5": "Chen等[24]构造了两个Seq2Seq模型，一个是基于CNN-LSTM的句子抽取器（extractor），另一个是基于RNN的生成器（abstractor）。模型的创新之处在于利用强化学习方法训练句子抽取器，即用生成器生成的摘要和标准摘要进行比较得到的ROUGE值作为回报，反馈给抽取器，修正其参数，以期下一轮的抽取更准确。",
+    "context6": "另一类是将抽取和生成融合在一个Seq2Seq模型中。Chen等[25]用两个双向GRU分别计算每个词项和句子的隐层，用sigmoid 函数计算句子的重要性得分，基于给定阈值确定句子保留与否。对于所有保留下来的句子，用层级注意力计算语义向量。Hsu等[26]构建了一个统一模型，可同时用于抽取式和生成式摘要，并构造了不一致损失函数（incon-sistencyloss），用于惩罚词注意力分布和句子注意力分布的不一致性，力图达到抽取和生成的一致性。",
+    "context7": "Tan等[27]以句子隐层 $h _ { j }$ 和解码器隐层 $S _ { t }$ 作为图的结点，利用TextRank算法计算句子的重要性得分$f _ { j } ^ { t }$ 。该工作的创新之处是在计算句子注意力分布时不再利用 $h _ { j }$ ，而是利用句子得分 $\\mathcal { f } _ { j } ^ { t }$ ，",
+    "context8": "$$\n\\alpha _ { j } ^ { t } = \\frac { \\operatorname* { m a x } _ { } ( f _ { j } ^ { t } - f _ { j } ^ { t - 1 } , 0 \\ ) } { \\sum _ { m } ( \\operatorname* { m a x } _ { } ( f _ { m } ^ { t } - f _ { m } ^ { t - 1 } , 0 \\ ) ) }\n$$",
+    "context9": "可以看出，一个句子只有在当前时间步的重要性大于上一时间步的重要性时才会被关注，这一算法兼顾了句子的重要性和新颖性。"
+  },
+  "2）关键词抽取": {
+    "context1": "一些学者用TextRank算法抽取源文本中的关键词，得到关键词序列 $\\{ k _ { 1 } , \\cdots , k _ { n } \\}$ 。Li等[28]用双向LSTM对关键词序列进行编码，计算出关键词的隐层向量，通过连接正向隐层和反向隐层得到关键词序列的隐层向量 $k w = [ \\vec { h } _ { n } ; \\overleftarrow { h } _ { 1 } ]$ ；Jiang等[29]考虑到关键词是相对独立的，不需要考虑上下文关系，直接将关键词序列中的词向量相加得到关键词向量 ${ \\mathrm { k w } } =$ $\\sum _ { i \\mathop { = } 1 } ^ { n } k _ { i }$ 。两篇工作均将 $_ \\mathrm { k w }$ 添加到注意力计算中,",
+    "context2": "$$\n\\boldsymbol { e } _ { t i } = \\operatorname { s c o r e } \\left( h _ { i } , s _ { t } , \\mathrm { k w } \\right)\n$$",
+    "context3": "可以让模型更多地关注源文本中的关键信息。",
+    "context4": "侯丽微等[30]用注意力机制计算出关键词语义向量 $\\boldsymbol { c } _ { t } ^ { k }$ ，将其和编码器语义向量 $c _ { t } ^ { e }$ 、解码器语义向量$\\boldsymbol { c } _ { t } ^ { d }$ 结合后共同推导下一个词项。该模型在NLPCC2017的中文单文档摘要评测数据集上取得了领先成绩。"
+  },
+  "3）事实抽取": {
+    "context1": "Cao 等[31]研究发现基于神经网络生成的摘要有$30 \\%$ 存在事实捏造现象，例如，谓词与其主语或宾语之间不匹配，因此提出将源文本中的事实描述显式地编码到模型中。该模型利用开源信息抽取（OpenIE）和依存句法分析（dependencyparser）工具抽取源文本中的事实关系，并表示为三元组的形式，如(主语 $^ +$ 谓语 $^ +$ 宾语)；再利用两个双向GRU对源文本以及抽取出的事实分别编码，得到它们的语义向量 $\\boldsymbol { c } _ { t } ^ { \\mathrm { d o c } }$ 和 $c _ { t } ^ { \\mathrm { f a c t } }$ ，之后的工作和Xie等[23]类似。"
+  },
+  "3.1.4卷积编码": {
+    "context1": "卷积编码即对输入序列进行卷积操作以得出文本表示。Rush等[曾使用基于TDNN的卷积编码器计算语义向量，鉴于TDNN不擅长处理时间序列，而且模型缺少注意力机制，实验效果并不理想；来自同一团队的Chopra等[32]改进了Rush等[]的工作，将输入序列中词项的位置信息嵌入到词向量中，并加入注意力机制，在一定程度上提升了模型的表现。之后的相关工作大多采用更擅长处理时间序列的RNN进行建模。2017年，Gehring等[33]提出基于CNN 的卷积序列到序列（convolutional sequence tosequence，ConvS2S）模型，在机器翻译和文本摘要任务中均表现出色，引起学界的关注。",
+    "context2": "ConvS2S模型的编码器和解码器均是多层CNN，编码器对输入序列做多层卷积，解码器在每一层都做注意力计算，即多步注意力（multi-step at-tention）。模型首先对输入序列中的词项做位置嵌入，将每个词向量 $x _ { i }$ 和其绝对位置向量 $p _ { i }$ 相加作为模型的输入，即 $e { = } ( x _ { 1 } { + } p _ { 1 } , \\cdots , x _ { T } { + } p _ { T } )$ ，位置嵌入给原本不擅长处理时间序列的CNN带来一些“位置感”。对于第l层，用大小为 $k$ 的卷积核 $\\boldsymbol { \\nu } ^ { l } \\in \\mathbb { R } ^ { k d }$ 对上一层的输出做一维卷积，得到每一层的输出$g ^ { l } \\in \\mathbb { R } ^ { 2 d }$ ，其中 $d$ 代表词向量的维度；将 $g ^ { l }$ 转换为矩阵 $G ^ { l } = [ G _ { 1 } G _ { 2 } ]$ ,其中 $G _ { 1 }$ ， $G _ { 2 } \\epsilon \\mathbb { R } ^ { d }$ ，用门控线性单元（gated linear unit，GLU）对 $G ^ { l }$ 做非线性变换；为支持深度卷积网络，在每一层的输出中还增加了残差连接，最后得到第 $l { + } 1$ 层的隐层 $h _ { i } ^ { l + 1 }$ ，",
+    "context3": "$$\nh _ { i } ^ { l + 1 } = G _ { 1 } ^ { l } \\otimes \\sigma ( G _ { 2 } ^ { l } ) + h _ { i } ^ { l }\n$$",
+    "context4": "多步注意力的具体实现为：首先将解码器第 $l$ 层的隐层 $s _ { t } ^ { l }$ 和上一步输出的词项 $y _ { t - 1 }$ 结合得到 $d _ { t } ^ { l }$ ，之后利用 $d _ { t } ^ { l }$ 和编码器最后一层的隐层 $h _ { i } ^ { L }$ 计算解码器第 $l$ 层的注意力 $a _ { t i } ^ { l }$ ，",
+    "context5": "$$\n\\alpha _ { t i } ^ { l } = \\frac { \\displaystyle \\exp \\big ( d _ { t } ^ { l } \\cdot h _ { i } ^ { L } \\big ) } { \\displaystyle \\sum _ { k = 1 } ^ { T } e x p \\big ( d _ { t } ^ { l } \\cdot h _ { k } ^ { L } \\big ) }\n$$",
+    "context6": "最后用 $a _ { t i } ^ { l }$ 加权 $h _ { i } ^ { L }$ 和 $e _ { i }$ 得到第 $l$ 层的语义向量 $c _ { t } ^ { l }$ ，",
+    "context7": "$$\nc _ { t } ^ { l } = \\sum _ { i = 1 } ^ { T } a _ { t i } ^ { l } ( h _ { i } ^ { L } + e _ { i } )\n$$"
+  },
+  "3.1.5其他": {
+    "context1": "在大部分模型中，输入序列中的每个词都是词向量形式（如one-hot、word2vec 等），仅含有少量语义信息，一些学者[17,34]将富特征（feature-rich）嵌入词向量中，试图通过增加输入词项的特征来提高模型的学习能力。这些特征包括命名实体标签（NER）、词性（POS）、词频（TF）和逆文档频率（IDF）等。实验结果显示，这些特征并没有提升模型的表现。Song等[35]认为短语比词更能表达完整的意思，因此提出基于短语的LSTM-CNN编码方案，将模型输入和输出的基本单位都替换成短语。在预处理阶段用短语抽取方法将文本分解成短语序列，具体包括主语短语、关系短语和宾语短语等。编码阶段先用CNN将短语编码成向量，再用LSTM计算每个短语向量的隐层。该方法保持了生成摘要的语法完整性，但短语的组合可能会限制摘要的新颖性。"
+  },
+  "3.2解码": {
+    "context1": "解码器读取语义向量并输出目标序列，相当于人在理解文本后开始编写摘要。解码过程主要存在以下问题： $\\textcircled{1}$ 当某个词不存在于词汇表中时，便无法生成； $\\textcircled{2}$ 解码器可能会重复关注到源文本的某些部分，导致摘要也产生重复； $\\textcircled{3}$ 解码器变量有限，无法将高级语法或结构信息模型化。围绕上述问题，学界提出多种改进方法。"
+  },
+  "3.2.1拷贝机制(copy mechanism)": {
+    "context1": "在基础模型中，解码器基于一个预设的词汇表V生成词项， $V$ 一般由训练集中的高频词汇组成。对于未登录词（outofvocabulary，OOV）使用${ < } \\mathrm { U N K } >$ 标签来替代。当源文本中存在 ${ < } \\mathrm { U N K } >$ 时，生成的摘要中也可能会出现 ${ < } \\mathrm { U N K } >$ ，这显然是无法接受的。针对该问题，Gulcehre等[36]提出指针 soft-max（pointer softmax）模型，基本思路是将源文本中的OOV在必要时直接拷贝到摘要中。该模型要解决两个问题：在解码的每个时间步是选择从词汇表中生成一个词还是从源文本中拷贝一个词；若选择拷贝，从源文本的什么位置拷贝。模型在解码器中使用了两个 softmax 输出层：词汇表 softmax 和位置softmax。前者输出的是要生成的词项在词汇表中的分布 $P _ { \\mathrm { v o c a b } }$ ；后者是一个指针网络[37]，输出要拷贝的词项在输入序列中的位置分布。由于词项的注意力分布和位置分布基本相同，模型直接将注意力分布 $\\boldsymbol { \\mathcal { \\alpha } } _ { t i }$ 用作位置分布，通过参数复用，降低了模型的复杂度。模型设置了一个基于多层感知机的开关网络，将语义向量 $c _ { t }$ 和解码器隐层 $s _ { t }$ 输入该网络，得到一个开关变量switch,,",
+    "context2": "$$\n\\mathrm { s w i t c h } _ { t } = \\sigma \\left( c _ { t } , s _ { t } \\right)\n$$",
+    "context3": "在解码的每个时间步，若switch $_ t { = } 1$ ，用词汇表 soft-max从词汇表中生成一个词；若switch $_ { t } = 0$ ，则用位置 softmax输出一个位置，并将输入序列中和该位置对应的词项拷贝到输出序列。Nallapati等[17]改进了Gulcehre等[36]的工作，在计算 switch,时加入了解码器上一时间步生成或拷贝的词项 $y _ { t - 1 }$ ，在一定程度上提高了开关网络的准确性。",
+    "context4": "然而switch,是“硬开关”，非0即1，不利于提升机器学习的精度。针对这一问题，See等[38提出指针-生成器网络（pointer-generator network），计算出生成概率 $ { p _ { \\mathrm { g e n } } }  { \\in } ( 0 , 1 )$ ，",
+    "context5": "$$\np _ { \\mathrm { g e n } } = \\sigma ( c _ { t } , s _ { t } , y _ { t - 1 } )\n$$",
+    "context6": "拷贝概率则为 $1 { - } p _ { \\mathrm { g e n } }$ 。对于每篇源文本，模型在解码时将该文本中的词动态地加入词汇表中得到扩展词汇表，扩展后的词汇分布为",
+    "context7": "$$\nP \\left( w \\right) = p _ { \\mathrm { g e n } } P _ { \\mathrm { v o c a b } } \\left( w \\right) + \\left( 1 - p _ { \\mathrm { g e n } } \\right) \\sum _ { i : w _ { i } = w } \\alpha _ { t i }\n$$",
+    "context8": "当词项 $w$ 不在词汇表中时， $P _ { \\mathrm { v o c a b } } ( w ) { = } 0$ ；当 $w$ 不在源文本中时， $\\sum _ { i : w _ { i } = w } \\alpha _ { t i } = 0 _ { \\circ } p _ { \\mathrm { g e n } }$ 相当于“软开关”，不仅可以让模型学习是从词汇分布 $P _ { \\mathrm { v o c a b } }$ 中生成一个词还是从输入序列中拷贝一个词，而且可以提高词汇表中罕见词项的训练精度。",
+    "context9": "Zhou等[39]在Gigaword训练集上统计发现，文本摘要中生成的词占 $4 2 . 5 \\%$ ，其余的均由拷贝所得，且连续两个词以上的拷贝约占1/3。在之前的拷贝机制中，每次拷贝都有一个决策过程—一拷贝还是生成，如果要连续拷贝3个词，机器就要做3次决策。因此，Zhou等[39]提出序列拷贝网络，其基本思想是如果机器决定要拷贝，则直接拷贝一个子序列，如3个词，从而减少决策次数，同时降低了拷贝机制在连续拷贝过程中出错的概率。",
+    "context10": "Gu等[40]提出的CopyNet在模型结构上有别于先前的拷贝机制[36.38]，没有使用开关网络和指针网络，在解码时基于生成模式和拷贝模式的混合概率预测单词。模型构造了一个词汇表 $X$ ，只收录存在于输入序列中的词，扩展后的词汇表为VUXU<UNK$>$ ，由于 $X$ 中可能包含不存在于 $V$ 中的词，这部分词将用于拷贝。在输出每个目标单词时分别计算生成模式和拷贝模式的概率，并相加得到混合概率，",
+    "context11": "$$\np \\left( \\boldsymbol { y } _ { t } \\vert \\boldsymbol { s } _ { t } , \\boldsymbol { y } _ { t - 1 } , \\boldsymbol { c } _ { t } , \\boldsymbol { H } \\ \\right) = p _ { \\mathrm { g e n } } ( \\boldsymbol { y } _ { t } \\vert \\boldsymbol { s } _ { t } , \\boldsymbol { y } _ { t - 1 } , \\boldsymbol { c } _ { t } , \\boldsymbol { H } \\ ) +\n$$",
+    "context12": "$$\np _ { \\mathrm { c o p y } } ( y _ { t } | s _ { t } , y _ { t - 1 } , c _ { t } , H )\n$$",
+    "context13": "其中， $H$ 表示由编码器生成的词项隐层 $\\left\\{ h _ { 1 } ^ { \\prime } , \\cdots , h _ { { \\scriptscriptstyle T } } ^ { \\prime } \\right\\}$ 构成的矩阵， $h _ { \\ i } ^ { \\prime }$ 既包含词项语义信息又包含位置信息。CopyNet在生成模式下读取语义信息，在拷贝模式下则读取位置信息。由于 $H$ 包含了位置信息，CopyNet在网络结构上更加简单，不需要开关和指针；但也正是因为 $H$ 的特殊性，限制了CopyNet的通用性。"
+  },
+  "3.2.2重复控制": {
+    "context1": "由于注意力机制忽略了输入序列和输出序列之间的对齐关系[41]，因此解码器可能会重复关注到输入序列的某些部分，导致输出序列也产生重复。针对这一问题，有以下几种解决方案。"
+  },
+  "1）覆盖机制（coverage mechanism）": {
+    "context1": "覆盖机制由Tu等[4I提出，最初用于解决神经机器翻译模型中存在的过度翻译和翻译不足的问题。See 等[38]将覆盖机制应用于生成式摘要模型，其基本思路是在计算注意力分布时不再关注先前已经关注过的部分。具体做法是在计算时间步 $t$ 的注意力分布时考虑一个覆盖向量coverage,",
+    "context2": "$$\n\\alpha _ { t i } = \\mathrm { s o f t m a x } \\left( \\mathrm { s c o r e } \\left( h _ { i } , s _ { t } , \\mathrm { c o v e r a g e } _ { t i } \\right) \\right)\n$$",
+    "context3": "该向量是时间步 $t$ 之前所有时间步计算出的注意力分布的累加和，",
+    "context4": "$$\n\\mathrm { c o v e r a g e } _ { t } = \\sum _ { t ^ { \\prime } = 0 } ^ { t - 1 } \\alpha _ { t ^ { \\prime } }\n$$",
+    "context5": "记录了源文本中解码器已经关注过的部分。为确保覆盖机制的有效性，模型还定义了一个覆盖损失，",
+    "context6": "$$\n{ \\mathrm { c o v l o s s } } _ { t } = \\sum _ { i } \\operatorname* { m i n } \\left( \\alpha _ { { { t i } } } , { \\mathrm { c o v e r a g e } } _ { t i } \\right)\n$$",
+    "context7": "用于惩罚重复关注到同一位置的情况，并将该损失添加到损失函数[公式(5)]中。",
+    "context8": "2）时间注意力（temporalattention）和解码器内注意力（intra-decoder attention）",
+    "context9": "时间注意力由Sankaran等[42]提出，最初用于应对机器翻译中注意力缺乏问题。Nallapati等[17]发现它也能应对重复摘要问题。时间注意力机制在思想上和覆盖机制类似，都是利用先前时间步的注意力来影响当前注意力的计算，以防止生成重复内容。具体计算[43]是将公式(8)计算出的注意力得分 $e _ { t i }$ 在时间维度上做归一化处理，得到时间注意力得分 $e _ { t i } ^ { \\mathrm { t e m p o r a l } }$ ，",
+    "context10": "$$\ne _ { t i } ^ { \\mathrm { t e m p o r a l } } = { \\left\\{ \\begin{array} { l l } { \\exp \\left( e _ { t i } \\right) } & { t = 1 } \\\\ { \\displaystyle { \\frac { \\exp \\left( e _ { t i } \\right) } { \\sum _ { j = 1 } ^ { t - 1 } \\exp \\left( e _ { j i } \\right) } } } & { { \\ddag \\downarrow \\notinq } } \\end{array} \\right. }\n$$",
+    "context11": "可以看出，先前关注过的词项的时间注意力得分会降低，未关注过的会提高，这样解码器就不会重复关注到相同的词项。",
+    "context12": "和覆盖机制相比，时间注意力直接用先前注意力得分调整当前注意力得分，不需要损失函数，使模型结构更加简单。虽然时间注意力确保了输入序列不会被重复关注，但解码器仍可能会根据自身已经生成的词项来生成重复内容。为避免这种情况，Paulus等[43]提出解码器内注意力，用解码器已生成的词项隐层计算出解码器语义向量 $\\boldsymbol { c } _ { t } ^ { d }$ ，让解码器在生成每个词项时同时考虑 $c _ { t } ^ { e }$ 和 $\\boldsymbol { c } _ { t } ^ { d }$ ，该工作在重复控制上取得了不错的效果。"
+  },
+  "3.2.3融入额外信息": {
+    "context1": "Li等[44]通过对解码过程的研究发现，用于生成摘要的变量很有限，无法将高级语法或结构信息模型化。针对该问题，一些学者将额外信息融入解码过程，试图提高生成句子的质量。Li等[44]对CNN新闻中的人工摘要进行了语言学分析，发现人工摘要存在着某些固定的句子结构，如“什么”、“发生了什么”、“谁做了什么”等。为将这些潜在的句子结构信息融入解码过程中，Li等[44]提出深度循环生成解码 器（deep recurrent generative decoder,DRGD），在解码器端加入变分自编码器（variation-al auto-encoder，VAE）。VAE最初由Kingma等[45]提出，对潜在随机变量具有较强的建模能力，在句子生成和图像生成方面取得了一定的成效[46-47]。VAE自身也是一个基于神经网络的编码器-解码器模型，将源文本和对应的摘要输人VAE模型进行训练（实验阶段和基础模型共同训练），可以推导出含有潜在结构信息的向量 $q _ { t }$ 。DRGD使用了双层GRU，并将VAE作为解码器的一个子模块，通过第二层隐层${ S } _ { t } ^ { ( 2 ) }$ 和潜在结构向量 $q _ { t }$ 计算出解码器隐层 $s _ { t } =$ $f ( s _ { t } ^ { ( 2 ) } , q _ { t } )$ ，用含有潜在结构信息的解码器隐层 $S _ { t }$ 来生成句子，会使句子也具有一定的结构。",
+    "context2": "Kryscinski等[48]在解码器端融入了语言模型，试图在提高摘要流畅性的同时融入特定领域的语言风格。该工作基于Paulus等[43]的工作，创新之处是通过特定语料集预训练语言模型，从而获得特定领域的语言风格。在解码时，将上一时间步生成的词项$y _ { t - 1 }$ 分别输入语言模型和解码器中，得到语言模型的隐层 $h _ { t } ^ { l m }$ 和语义向量 $c _ { t }$ ，将两者结合后共同推导下一个词项。",
+    "context3": "Amplayo等[49]在解码器端加入实体到主题（En-tity2Topic）模块，将源文本的主题信息融入解码过程。具体做法是，利用维基百科抽取源文本中的实体，将抽取的实体向量和编码器生成的文本向量进行比较，选出最重要的 $E$ 个实体，并利用其计算主题向量 $t$ 。连接主题向量 $t$ 和解码器隐层 $s _ { t }$ 得到新的解码器隐层 $\\boldsymbol { s } _ { \\iota } ^ { \\prime } = \\left[ \\boldsymbol { s } _ { t } ; t \\right]$"
+  },
+  "3.2.4束搜索(beam search)": {
+    "context1": "在训练阶段，解码器生成的每个词项都有标准摘要作参考，并将误差反向传播以修正模型参数，因此一般采用贪婪算法取词汇分布的概率最大值作为输出词项。但在测试阶段，没有标准摘要作参考，这时概率最大的词项未必是最好的选择，研究表明，用贪婪算法生成的句子可读性较差9。束搜索算法是解决上述问题的一种手段，已被广泛运用于多个摘要模型[9.38]，具体算法是，给定一个束宽（beam width） $B$ ，在解码的每个时间步都保留词汇分布中概率最大的 $B$ 个词项作为候选词项，从第二个时间步开始，会产生 $B { \\times } B$ 个候选分支，依然只保留概率最大的前 $B$ 个分支，依次进行下去，直至遇到终止条件。最后得到 $B$ 个候选序列，选择概率最大者作为最终结果。束搜索的问题是缺乏多样性，即 $B$ 个候选序列区别不大，因此Cibils等[50]提出多样性束搜索（diverse beam search），将束宽 $B$ 等分为若干个组，在解码时每个组依次进行束搜索，并构造一个差异函数来度量当前组的候选序列和先前组生成的序列之间的差异，通过惩罚差异小的分支以增加组之间生成序列的多样性。"
+  },
+  "3.3训练": {
+    "context1": "从公式(5)可以看出，基础模型的训练过程属于词级训练，即逐个最大化每个词项的条件概率$p \\left( \\boldsymbol { y } _ { t } | \\boldsymbol { y } _ { < { t } } , \\boldsymbol { X } \\right)$ ，可能会丢失全局信息。对此，Ayana等[51]提出最小风险训练（minimumrisk training,MRT）策略，属于序列级训练[52]，即通过最小化生成摘要 $y ^ { \\prime }$ 和标准摘要 $y$ 的距离 $\\Delta \\left( y ^ { \\prime } , y \\right)$ 来估计模型参数，距离 $\\Delta \\left( y ^ { \\prime } , y \\right)$ 利用ROUGE值计算而来（如负ROUGE值），损失函数为",
+    "context2": "$$\nL _ { \\mathrm { M R T } } ( \\theta ) = \\sum _ { ( x , y ) \\in D } \\sum _ { y ^ { \\prime } \\in Y ( x ; \\theta ) } p ( y ^ { \\prime } | x ; \\theta ) \\Delta ( y ^ { \\prime } , y )\n$$",
+    "context3": "其中， $Y ( x ; \\theta )$ 代表训练集中的每个 $x$ 可能生成的摘要的集合。可以看出，最小化 $L _ { \\mathrm { M R T } }$ 可以使模型生成的摘要更加接近标准摘要。",
+    "context4": "MRT策略依然属于有监督学习，主要存在两个不足[43]：一是曝光偏差（exposure bias）[52]，由于在训练过程中有真值（ground truth）参考，而测试过程中没有，因此测试时会产生误差累积；二是最大似然于真值并非摘要质量评价的唯一标准。针对以上问题，一些学者使用自我评判（self-critical）[53]-一种强化学习（reinforcement learning，RL）中的策略梯度训练算法来训练模型。模型的训练目标不再似然于真值，而是优化用户定义的度量标准（如ROUGE）。Paulus等[43]让模型在每次训练迭代时分别产生两个输出序列：用贪婪算法得到的y和经随机采样得到的 $y ^ { s }$ 。用回报函数 $r ( \\cdot )$ 返回参数序列和标准摘要 $y$ 相比较得到的ROUGE分数。基于强化学习的损失函数为",
+    "context5": "$$\nL _ { \\mathrm { R L } } ( \\theta ) = \\sum _ { ( x , y ) \\in D } \\left( r ( \\hat { y } ) - r ( y ^ { \\mathrm { s } } ) \\right) \\log p ( y ^ { \\mathrm { s } } | x ; \\theta )\n$$",
+    "context6": "可以看出，最小化 $L _ { \\mathrm { R L } }$ 相当于最大化 $y ^ { s }$ 的条件似然，从而增加模型的预期回报。然而，Paulus等[43]发现强化学习方法虽然可以提高模型的ROUGE得分，但生成的摘要在可读性上不如最大似然方法，因此将公式(34)和公式(5)结合，得到混合目标函数，",
+    "context7": "$$\nL _ { _ { \\mathrm { M X E D } } } = \\gamma L _ { _ { \\mathrm { R L } } } + ( 1 - \\gamma ) L _ { _ { \\mathrm { M L E } } }\n$$",
+    "context8": "其中，γ为超参数，用于权衡两个目标的比重。",
+    "context9": "Li等[54]借鉴了深度强化学习中的Actor-Critic算法[55]，用摘要生成模型作为actor，将最大似然估计器和全局摘要质量估计器相结合作为critic。全局摘要质量估计器是一个回报函数，可以将生成的摘要和标准摘要区分开。actor生成摘要，critic对其打分，actor根据打分调整策略，通过迭代实现回报最大化，以此训练出模型的参数。",
+    "context10": "Shi等[56]发现摘要任务在训练过程中存在样本不均衡问题，如训练集中各个样本的训练难度不同，每个句子中各个词的训练难度也有区别。这些区别可以通过输出的词项概率 $P ( w )$ 体现出来： $P ( w )$",
+    "context11": "接近1，代表系统可以较为肯定地预测该词； $P ( w )$ 接近0，代表该词的训练难度较大。focalloss是Lin等[57]提出的一种损失函数，基本思想是希望困难样本对损失的贡献变大，使网络更倾向于从这些样本上学习。因此，Shi等[56]利用 focal loss为每个词的损失分配权重 $\\lambda ( 1 - P ( w ) ) ^ { \\gamma }$ （λ和y为超参数），让模型可以更多地关注 $P ( w )$ 较小的词，从而提升模型的整体表现。"
+  },
+  "3.4其他": {
+    "context1": "基于Seq2Seq模型的生成式摘要的研究还包括以下方面：Hua等[58]研究了摘要模型的跨领域适应性，发现利用某个领域的语料训练出来的模型可以捕捉另一领域中文本的重要信息，但无法生成和目标领域相符的语言风格，模型的可移植性有待进一步研究；Fan等[59]研究了摘要模型的用户可控性，包括自定义摘要的长度、聚焦特定的实体、选择喜好的风格，以及仅摘取未读内容；Zhang等[60]和Chu等[61]设计了面向多文档的摘要模型；Nema等[62]、Hasselqvist 等[63]和 Baumel等[64]研究了基于查询的摘要任务；Pasunuru 等[65-66]和Guo 等[67]提出了多任务学习框架，即用一个Seq2Seq模型处理多种不同的任务，包括问题生成、蕴涵（entailment）生成和文本摘要，并利用问题生成和蕴含生成的相关信息提升文本摘要的质量。"
+  },
+  "4讨论": {
+    "context1": "表1以Rush等的工作为基线整理了短文本摘要模型的基本信息和评测结果，表2以Nallapati等[7的工作为基线整理了长文本摘要模型的基本信息和评测结果。从整体上看，在基于Seq2Seq模型的生成式摘要研究中，2015一2016年的工作主要集中于短文本摘要，2017—2018年逐渐转向长文本，大部分研究的评测结果相较于基线模型都有明显提升。结合第3节的梳理以及表中的数据可以进行以下主题的讨论。"
+  },
+  "1）模型框架": {
+    "context1": "由于基础模型中的RNN存在长期依赖问题（long termdependency），难以学习到相隔较远的信息，因此绝大部分模型都使用LSTM或GRU取代之。LSTM引入了门控概念，可以学习记忆单元的记忆/遗忘、输入程度和输出程度，从而让机器知道何时应记住或抛弃某些信息。GRU则使用门控网络来学习新的输入与先前记忆的组合方式以及先前记忆的保留程度。尽管LSTM和GRU原理不同，但都可以学习长期依赖信息，在很多任务上的表现都优于RNN。和LSTM相比，GRU参数较少，更容易训练，但在训练数据较多的情况下，表达能力更强的LSTM或许会有更好的表现。基于该考虑，超过半数的短文本摘要任务使用了GRU建模（见表1），长文本摘要任务中超过 $80 \\%$ 的研究者使用了LSTM建模（见表2）。",
+    "context2": "在使用LSTM/GRU的模型中，绝大部分都采用了单层网络结构，只有Celikyilmaz等[18]提出的深度通讯代理模型在编码器端使用了多层LSTM，该模型在CNN/DailyMail测试集上综合表现第一。表1中有两项研究[33.68]使用了ConvS2S模型，ConvS2S模型默认是多层结构，两个模型在相应测试集上的表现均位于前列。Gehring等[33]对其实验结果的解释是，相较于单层RNN，ConvS2S模型对原文本的层级表示，使其较易于发现序列中的复合结构。综合表1与表2可见，多层神经网络在摘要任务中的表现整体上优于单层。究其机理，以编码为例，单层网络仅将词向量编码为包含上下文关系的隐层；而多层网络可以将低层隐层编码为更加抽象的高层隐层，相当于源文本的抽象表示。多层网络的层层抽象，可以构建出源文本的分布式特征，还可以提供更短的路径来捕捉长期依赖关系[33]。但是，多层网络（尤其是多层循环神经网络）需要更大量的训练数据才能达到较好的学习精度，而且需要更大的计算开销，这可能是绝大部分使用LSTM/GRU的摘要模型采用单层结构的原因之一。鉴于CNN可以并行处理并利用GPU加速[I]，在训练速度上优于RNN，在多层网络模型中具有良好的应用前景。"
+  },
+  "2）注意力机制": {
+    "context1": "注意力机制是Seq2Seq模型的核心组件，是连接编码器和解码器的桥梁，被广泛运用于各种自然语言处理任务。早期的注意力机制只用于计算输入序列和输出序列的匹配程度，随着研究的深入，多种注意力被提出，并可实现更多的功能。例如，在拷贝机制中用注意力分布表示输入序列中词项的位置信息[36,38]，在覆盖机制中用于避免重复关注[38],时间注意力用于重复控制[17,43]，解码器内注意力可以关注已生成的序列[43]，层级注意力可以捕捉词项和区块的关系[17-19]，自注意力可以学习句子的内部结构[15]，多步注意力使解码器在每一层都能关注到先前的信息[33.68]，等等。其中使用了内注意力、多步注意力和自注意力的模型在评测结果中均有突出"
+  }
+}

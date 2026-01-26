@@ -1,0 +1,156 @@
+{
+  "original_filename": "full_7099.md",
+  "文本主题视域下的高校论文研究前沿领域及演化发展趋势研究": {
+    "context1": "吴一平1,于纯良²,曲佳彬²,白如江1",
+    "context2": "(1.山东理工大学科技信息研究所，山东 淄博 255049；2.烟台大学 图书馆，山东 烟台 264005)",
+    "context3": "摘要：【目的/意义】利用文本挖掘方法分析高校论文前沿主题和发展趋势,为高校科研评价破除“四唯\"提供新的视角,为高校科研优势方向选择提供模型参考与理论支持【方法/过程】首先,获取高校高水平论文题录信息,运用PLDA模型进行研究主题识别,提出一种利用主题热度、主题新颖度等指标表征高校研究前沿主题的识别模型。然后,利用余弦相似度模型计算不同主题间的研究相似度，进行各高校研究主题演化分析,揭示高校研究主题发展变化趋势。通过与世界研究前沿内容契合度进行对比分析，识别出高校研究主题的前沿领域【结果/结论】实验结果表明,文本提出方法能够有效揭示出各高校研究前沿主题以及随时间变化的主题演化规律以及与世界研究前沿的契合度。【创新/局限】提出一种文本主题视域下的高校论文研究前沿领域及演化发展趋势研究方法，主要局限是数据集覆盖范围还不够全面。",
+    "context4": "关键词：研究前沿;主题识别;论文分析;科研管理;演化趋势中图分类号：G250.2 DOI:10.13833/j.issn.1007-7634.2021.05.021"
+  },
+  "1引言": {
+    "context1": "高校科研评价难题一直为学界、政府和社会广泛关注。近年来，高校科研评价工作中存在SCI论文相关指标片面、过度、扭曲使用等异化现象，社会各界对破除论文\"SCI至上”、净化学术风气、优化学术生态等呼声日益强烈。2020年02月18日，教育部、科技部印发了《关于规范高等学校SCI论文相关指标使用树立正确评价导向的若干意见》（以下简称《若干意见》),对SCI论文的使用提出了负面清单，将对科研和高等教育界中广泛存在的\"SCI至上\"现象采取直接措施，规范各类评价工作中SCI论文相关指标的使用，推进科研学术评价体系改革。希望引导科研评价工作突出科学精神、创新质量、服务贡献,推动高等学校回归学术初心，净化学术风气,优化学术生态。《若干意见》印发的初衷无疑是良好的,但是需要强调的是：",
+    "context2": "(1)文件依然肯定SCI等高水平论文是科技创新成果的一种表现形式与学术交流的重要载体，并非全盘否定SCI以及SCI论文相关指标的使用分析应用于高校科研评价。",
+    "context3": "(2)文件并未明确提出什么是正确的科研评价体制，仅反对论文\"SCI至上\"作为的科研评价的指导思想,以及否定仅通过论文数量等文献计量指标简单粗暴地进行科研水平评价的扭曲滥用现象。",
+    "context4": "(3)文件要求各\"双一流\"建设高校,特别是教育部直属高校根据《若干意见》,检查修改相关制度文件及\"双一流\"建设方案。",
+    "context5": "因此，在破除\"SCI至上\"背景下，亟待创新论文分析与科研评价研究，建立更加富有科学精神、注重创新内涵、赶超研究前沿的SCI高水平科研论文分析方法与高校科研评价体系，帮助高校提升论文分析能力与科研管理水平，促进高校科研创新面向世界科技前沿、面向经济主战场、面向国家重大需求，迎合国家重大需求的研究领域[2],促进科研资源的合理配置,源源不断地服务于\"双一流\"高校建设、教育强国和科技强国建设。"
+  },
+  "2相关研究": "",
+  "2.1基于论文分析的高校科研评价研究": {
+    "context1": "基于论文分析的高校科研评价方法通过分析科研论文成果评价高校科研水平，寻找优势研究方向，对促进高校科研创新、促进科研资源合理配置具有重大意义。",
+    "context2": "基于论文分析的高校科研评价方法具体包括基于专家同行评议的定性评价方法、文献计量学方法等。其中,同行评议是科研论文评价的基本方法3],该方法的优点在于对于论文分析的专业性与针对性较强，局限性在于容易受主观因素的影响,以及难以应对大规模的文献等。基于文献计量学量化的方法以其引文计数的客观性而在高校科研评价中得到广泛重视与应用，由部分使用文献计量指标，到完全使用文献计量指标体系,再到使用高级文献计量指标[4],学界、政府和社会不断反思和改进所采用的文献计量评价指标体系，以提高基于文献计量论文分析进行高校科研评价结果的有用性、公正性、透明度。",
+    "context3": "然而，目前在进行实际论文分析的科研水平评价研究过程中,只是对论文大体划分了学科来源，还有待更为充分深入挖掘不同研究论文文本的具体研究内容,进行细致的研究内容与演化发展分析，有关论文研究内容与世界前瞻性研究前沿主题的契合关系也仍待进行进一步探索。目前过分重视论文发表数量、影响因子和引用率等量化统计指标的论文分析方法，以及仅停留在对关键词、高频词等进行简单文献计量的统计分析方法在文本语义处理与内容理解方面都不够深入,容易导致文献指标统计在论文分析与科研水平评价过程中的扭曲滥用现象，以此作为科研评价信息决策参考容易导致许多具有重大研究价值但并不在论文指标统计结果上占优势的前沿科研领域得不到足够的重视和发展空间,进而导致科研资源分配与科研领域价值之间不匹配。",
+    "context4": "在此情况下，基于论文分析的高校科研评价研究迫切需要转换新视角，例如从挖掘文本主题视域下丰富论文分析研究方法，进而进一步完善高校科研评价研究的机理机制。理想的基于论文分析的科研评价方法应该坚持定性与定量方法相结合的原则,因此需要建立兼顾科研创新内容质量与科学文献计量指标统计相结合的基于论文分析的高校科研评价体系。深入挖掘论文研究内容有助于尊重科研文献研究成果,全面评价分析科研创新情况。设计科学的文献计量指标有助于提供可靠的科研评价与管理考核依据,将二者结合进行文本主题视域下的高校论文研究前沿领域及演化发展趋势研究，有利于帮助高校科研管理者进行更为科学有效的科研评价。"
+  },
+  "2.2研究前沿识别研究": {
+    "context1": "研究前沿(ResearchFront)的最早概念是Price[5]（1965年)提出的\"科学引文网络中经常被引用且近期发表的文献集所代表的研究领域”。挖掘识别研究前沿对于挖掘某时期内科学研究与发现中最先进、最具发展潜力的新兴研究主题或领域，前瞻性地识别科学研究的重点难点与发展趋势具有重大意义。",
+    "context2": "目前主流的研究前沿识别方法包括了引文分析探测方法、网络结构探测方法、文本挖掘探测方法等。基于文献计量学特征的引文分析探测方法目前主要是通过筛选论文题目、关键词标识进行研究前沿判读，或是通过专家判读的方式进行研究前沿识别，但是难以克服耗时较长、效率较低、受主观性影响较强等问题]。引文分析探测方法还能够从多角度进行分析来识别科学前沿，例如按引文类型分析不同可分为共被引分析、直接引用分析与耦合分析,按引文对象不同可对文献、作者和机构等分别进行分析，对于识别科学前沿具有一定可行性。但是,在最为前瞻地识别新兴研究前沿问题上难以克服由于文献从发表到被引用造成的时滞性问题。网络结构探测方法通过分析科学网络、知识图谱等复杂网络结构，通过判断网络节点数量、疏密分布、关联情况、是否离群等情况识别探测研究前沿。",
+    "context3": "主题词分析方法是文本挖掘探测方法中的重要方法，基于文本挖掘探测方法的主题分析法是近年来新兴的科学前沿探测方法之一，以基于概率主题模型的主题识别方法为代表,是主题词方法体系中的重要方法之一。该方法应用计算机文本挖掘技术与数据科学计量技术,将表征新兴主题或科学前沿的特征指标融入主题概率模型中[],通过统计方法构造文本的主题描述应用于主题的识别分析研究,通过挖掘文献集中大量涌现的新主题词，并分析相关含义、属性等的变化情况来识别研究主题，并以此为基础进行科学前沿的探测[8]。其中LDA主题模型通过设置调整阈值和改变主题词的数量，可以从海量文本数据中识别探测研究前沿,将同一主题通过多个主题词描述,还提供每个主题词对这一主题的贡献度，不仅节约主题分析时间[,还能够充分保证计算精度[],全面揭示科研前沿领域的竞争态势,深入对文本内容的深度语义理解、细化识别主题粒度,提高识别结果的前瞻性、准确度和可靠性，为本文提出的文本主题视域下的高校论文研究前沿领域及演化发展趋势研究方法打下了较为扎实的理论与技术基础。"
+  },
+  "2.3文本主题视域下的高校论文研究前沿领域及演化发展趋势研究相关思考": {
+    "context1": "目前基于论文分析的高校科研评价与研究前沿识别均取得了一定的研究成果,但一些问题仍待解决：首先,仍待以研究前沿主题识别方法，从文本主题视域下进行高校论文研究前沿领域及演化发展趋势研究，帮助高校通过SCI等高水平论文分析研究进行科研水平评价管理;其次，仍待根据不同的研究主题特征对研究前沿主题进行进一步类型划分，以细化研究主题分析粒度，分析高校论文的创新质量与科研水平;最后，仍待通过时间演化分析进一步进行论文研究主题内容发展演化规律研究,将研究主题识别结果与世界科研前沿内容进行契合程度分析，帮助高校科研管理人员了解自身科研水平，紧随世界科研先进方向。",
+    "context2": "因此，在破除\"SCI至上\"背景下，本文利用先进的统计机器学习文本挖掘技术与研究前沿主题识别方法，提出一种文本主题视域下的高校论文研究前沿领域及演化发展趋势研究方法。该研究方法的创新之处如下：",
+    "context3": "其一，从研究前沿主题视域创新对高校SCI高水平论文的研究评价方式与科研水平管理的研究方法。通过PLDA主题模型深入论文文本内容，提升对科技文献文本内容的深度语义理解[8],进行深层次、细粒度、精准的高校论文研究主题识别。",
+    "context4": "其二，提出一种包含主题热度、主题新颖度等指标的高校研究前沿主题识别模型，根据不同研究前沿主题的指标特征,对研究前沿主题的类型进行进一步划分，比如划分为新兴热点研究前沿、未来新兴的研究前沿。",
+    "context5": "其三,利用余弦相似度计算方法将论文研究前沿主题识别结果进行时间演化分析，揭示高校研究主题演化发展趋势，以挖掘不同高校论文研究前沿主题之间的内容联系，并将高校论文研究前沿主题内容与世界科研前沿内容进行契合性分析，揭示高校科研前沿主题的前瞻性和先进性。",
+    "context6": "通过文本主题视域下的高校论文研究前沿领域及演化发展趋势研究方法，能够回答高校发表论文的研究主题有哪些、哪些研究主题数量丰富、哪些主题研究强度高、哪些是新兴的研究主题、高校的研究主题与当今世界研究前沿主题的契合度如何等实际问题,进一步为高校进行科研水平评价、研判科研前沿态势与科研主流方向、支撑优势研究方向选择、优化科研领域资源配置、提高整体科研水平与学科建设水平提供方法参考与理论支持。"
+  },
+  "3研究思路": {
+    "context1": "文本主题视域下的高校论文研究前沿领域及演化发展趋势研究思路如图1所示。",
+    "context2": "![](images/24af4bacdfd4b38cdbf36db4406da9d158ac40aa6c2cdbc69a2a19967fc88665.jpg)  \n图1研究思路图  \nFigure 1 Schematic Diagram of Research Ideas",
+    "context3": "(1)数据获取与预处理",
+    "context4": "首先选择Webof Science核心数据集，构建检索条件并采集数据。然后对论文基本指标进行统计，并对论文题录信息进行时间分割与文本预处理,经过格式转换、数据清洗、提取词干,最终得到词袋模型。"
+  },
+  "(2)研究主题表征": {
+    "context1": "首先利用PLDA主题识别模型识别论文中的研究主题，然后并构建主题-文档和主题-主题词矩阵，计算主题热度、主题新颖度、主题下论文数量等评价指标。",
+    "context2": "(3)研究前沿主题识别",
+    "context3": "基于主题-文档、主题-主题词矩阵,构建一种利用主题热度、主题新颖度等指标表征高校研究前沿主题的识别模型，对识别出的研究主题进行分类，识别探测值得关注的研究前沿主题。",
+    "context4": "(4)研究前沿主题演化分析",
+    "context5": "为深入挖掘不同高校论文研究前沿主题之间的内部联系,本文构建主题-文档和主题-主题词矩阵,根据主题-主题词矩阵，对相邻时期高校论文研究前沿主题进行余弦相似度计算，将计算结果以可视化图谱的形式呈现,并进行研究前沿主题发展趋势分析，揭示高校论文研究前沿主题与世界研究前沿主题的契合情况。"
+  },
+  "3.1基于PLDA主题模型的高校论文研究主题识别方法": {
+    "context1": "本研究基于PLDA模型设计了高校论文研究主题识别方法。PLDA主题模型是基于Gibbs sampling近似分布并行框架的LDA模型,提高了算法的运行效率和并行的加速比，不仅能够高效准确地识别高校论文标题、关键词、扩展关键词和摘要文本中所蕴藏的主题及其主题词,识别结果还提供了不同主题的所属论文、发表时间等相关数据。"
+  },
+  "3.2 高校论文研究主题热度计算方法": {
+    "context1": "将主题热度定义为每个主题内部的论文数量占该高校论文总量的权重，主题热度指标能够直观反映高校论文研究主题的受关注度与影响力变化趋势。论文数量等基础分析指标能够用作研究热度的评价指标参考。设计高校研究主题热度计算公式为：",
+    "context2": "$$\nT H { = } \\frac { X _ { i } } { \\sum _ { j = 1 } ^ { n } X _ { j } }\n$$",
+    "context3": "其中,TH代表高校研究主题热度(Topic Heat);",
+    "context4": "$X _ { i }$ 代表从每个高校SCI高被引论文中识别出的每个研究主题下的论文数量;",
+    "context5": "$\\sum _ { j = 1 } ^ { n } X$ 代表该高校所有主题下论文数量之和。",
+    "context6": "通过实验结果分析，将排名前 $10 \\%$ 的主题热度值设置为主题热度阈值Y,若某主题热度大于Y，则属于高热度研究前沿主题，在该高校全部高被引论文中所占比重较大，反之则认为该主题在该高校全部高被引论文中所占比重较小。"
+  },
+  "3.3高校论文研究主题新颖度计算方法": {
+    "context1": "主题新颖度指标能够揭示高校论文研究前沿主题的科研创新程度,研判该主题发展趋势是新生、成长还是消亡。设计主题新颖度计算公式为：",
+    "context2": "$$\nT N { = } \\sum _ { i { = } 1 } ^ { n } { { y e a r } _ { i } } / t o t a l { { \\_ } } n u m\n$$",
+    "context3": "其中， $T N$ 代表高校研究主题新颖度(Topic Novelty);  \ntotal_num为该研究主题下的论文数量之和;"
+  },
+  "表1时期V北京大学论文研究主题识别结果(部分)": {
+    "context1": "Table 1 Results of Research Topic Identification of Peking University Papers in Period V (part)",
+    "context2": "<table><tr><td>主题</td><td>主题词</td></tr><tr><td></td><td>PKU_TO_Vgrowtharcioma丨mobilhepatocellar丨resistoptic丨suppress丨umor丨frmio丨cellfactor丨pathay丨materilphase丨YB-1</td></tr><tr><td></td><td>PKU_T1_Vmodellproduct丨plantldivers丨crop丨land丨carbon丨controllcatalysttempor丨triger丨function丨nitrogen丨cancerlvan</td></tr><tr><td></td><td>PKU_T2_VNephropathiIClinic丨RandomControlIgA丨major丨TriallAssociat|Diseas Clasif Patient|Unite丨DataUrbanlEye</td></tr><tr><td></td><td>PKUT3_Vcell|peroskitOxidatExperientigmicroscopiquanum丨arbonsolarframewrkoans ierirdainfal</td></tr><tr><td></td><td>PKU_T6_Vcolis ITeV丨root Search丨proton-proton|product Pair quark 丨boson丨Hig|decay丨reson丨Measur 丨lepton|CMS</td></tr><tr><td></td><td>PKU_T7_VanalysilGloballemiss Idiseas丨globallimpact|perform丨trend丨polut丨region|poollrisklair丨Beij urban</td></tr></table>",
+    "context3": "$\\textstyle \\sum _ { i = } ^ { n }$ yeari为该研究主题下每篇论文发表年份之和。",
+    "context4": "计算结果为该主题全部论文的平均发表年份，即主题新颖度。主题新颖度越强，则表明该研究主题越具备研究前沿主题的新颖性特性。"
+  },
+  "3.4高校论文研究主题相似度计算方法": {
+    "context1": "构建利用主题热度、主题新颖度等指标表征高校研究前沿主题的识别模型,研判高校的研究前沿主题,利用余弦相似度计算研究前沿主题之间的相似性。",
+    "context2": "第一步,构建向量空间模型(VSM),把高校论文题录文本中的主题用向量的方式进行描述,向量空间模型中用Top-ic表示主题、T表示主题词、W表示主题词权重，主题向量可用主题词表示为 $T o p i c _ { i } = \\{ t _ { 1 } , t _ { 2 } , t _ { 3 } , . . . t _ { n } \\}$ 主题词权重向量为TopicVector $= \\{ w _ { 1 } , w _ { 2 } , w _ { 3 } , . . . w _ { n } \\}$ 每个主题词都有一个权重。",
+    "context3": "第二步，计算两两研究主题之间的相似度，计算结果介于[0,1]之间。设计高校论文研究主题相似度计算公式为：",
+    "context4": "$$\nS i m ( T o p i c _ { i } , T o p i c _ { j } ) = \\cos \\theta\n$$",
+    "context5": "$$\n= \\frac { \\sum _ { k = 1 } ^ { n } w _ {  { k } } ^ { 2 } ( T o p i c _ { i } ) \\times \\sum _ { k = 1 } ^ { n } w _ {  { k } } ^ { 2 } ( T o p i c _ { j } ) } { \\sqrt { ( \\sum _ { k = 1 } ^ { n } w _ {  { k } } ^ { 2 } ( T o p i c _ { i } ) \\ ) \\times ( \\sum _ { k = 1 } ^ { n } w _ {  { k } } ^ { 2 } ( T o p i c _ { j } ) \\ ) } }\n$$",
+    "context6": "其中,分子 ${ \\sum } _ { k = 1 } ^ { n } w _ { \\ k } ^ { 2 } ( T o p i c _ { i } ) \\times { \\sum } _ { k = 1 } ^ { n } w _ { \\ k } ^ { 2 } ( T o p i c$ 表示两个研究主题向量的点乘积;",
+    "context7": "分母 $\\scriptstyle { \\sqrt { ( \\sum _ { k = 1 } ^ { n } w \\ _ { k } ^ { 2 } ( T o p i c _ { i } ) \\ ) \\times ( \\sum _ { k = 1 } ^ { n } w \\ _ { \\ k } ^ { 2 } ( T o p i \\not \\in \\not \\ G ) } }  .$ 两个研究主题向量模的乘积;",
+    "context8": "$S i m ( T o p i c _ { i } , T o p i c _ { j }$ 是两个研究主题之间的相似度。",
+    "context9": "阈值S为判定研究主题内容之间相似度的依据。用户需要根据实验结果设定具体的值。例如，在实验结果中有100个主题相似度计算结果，用户可以设定前 $10 \\%$ 最后一个结果的值作为阈值S。当两个主题之间的相似度计算值大于S,则认为这两个主题是互为相似的主题，反之亦然。"
+  },
+  "3.5基于多维指标的高校论文研究前沿识别方法": {
+    "context1": "本文综合考虑影响科学研究前沿识别因素，构建了一种基于主题热度、主题新颖度和主题下论文数量多维指标表征的高校研究前沿主题识别模型。指标最高五颗星 $( \\bigstar \\bigstar \\bigstar \\bigstar$ $\\star$ ),最低一颗星 $( { \\star } )$ 。通过该指标体系评定方法，划分不同类别的研究主题，识别高校论文的科学研究前沿并分析解读。研究主题主要分为以下几类：",
+    "context2": "(1)新兴热点研究前沿主题(Emerging Hot Spot Re-searchFrontierTopics）:论文数量、主题新颖度和热度评级均在3星及以上。",
+    "context3": "(2)未来新兴研究前沿主题(Future Emerging ResearchFront Topics):论文数量、研究热度在1-2星,新颖度在3星及以上。"
+  },
+  "3.6研究前沿主题演化分析方法": {
+    "context1": "本文利用余弦相似度计算方法对各高校研究前沿进行主题演化分析，揭示高校研究主题演化发展趋势。该方法将定性与定量评价相结合，通过与世界研究前沿内容契合度进行对比分析，识别高校科研研究主题特征。"
+  },
+  "4基于数据挖掘的高校研究前沿主题识别及发展趋势分析": "",
+  "4.1数据获取与预处理": {
+    "context1": "数据源获取：C9高校SCI高被引论文。选择Webof Sci-ence核心数据集,检索机构:北京大学、清华大学、浙江大学、复旦大学、哈尔滨工业大学、南京大学、上海交通大学、西安交通大学、中国科学技术大学;时间跨度：2009-2018年；检索源：SCI-EXPANDED;选取文献类型:Article、Review;选取领域中的SCI高被引论文，最终导出检索结果：8624项。",
+    "context2": "数据预处理：对论文数量等基本文献计量指标进行统计，并对数据进行时间分割，以2年为时间间隔，共划分5个时间序列组。"
+  },
+  "4.2高校论文研究主题识别分析": {
+    "context1": "利用KNIME大数据分析平台对论文标题、关键词、扩展关键词、摘要文本进行文本挖掘与PLDA主题模型研究主题识别，为确保实验结果严谨可靠，首先通过困惑度检验对主题数量(No.of topic)和主题下的主题词数量(No.of word pertopic)进行参数设置，最终通过PLDA主题模型总共识别出557个研究主题。"
+  },
+  "表2新兴热点研究前沿主题(部分)": {
+    "context1": "Table 2 Emerging Hot Spot Research Frontier Topics(part)   \n表3未来新兴研究前沿主题(部分)",
+    "context2": "<table><tr><td>主题</td><td colspan=\"4\">论文数量星级 主题热度星级主题新颖度星级</td></tr><tr><td>USTC_T14_V</td><td>★★★★★</td><td>★★★★★</td><td>★★★★★</td><td>氧、效率、框架、二氧化碳、水、金属有机、增强、氢、还原、裂解、纳米片、电催 化等</td></tr><tr><td>SJU_T4_V</td><td>★★★★★</td><td>★★★★★</td><td>★★★★★</td><td>电池、太阳能、受体、有机、高效能、非富勒烯、钙钛矿等</td></tr><tr><td>PKU_T7_V</td><td>★★★★★</td><td>★★★★★</td><td>★★★★★</td><td>分析、全球、环境、影响、北京、城市、大气、污染、趋势、区域、风险等</td></tr></table>",
+    "context3": "Table 3 Future Emerging Research Front Topics (Part)",
+    "context4": "<table><tr><td>主题</td><td colspan=\"3\">主题数量星级主题热度星级主题新颖度星级</td><td>主题词(部分)</td></tr><tr><td>NJU_T5_V</td><td>★</td><td>★</td><td>★★★★★ 合并等</td><td>连接、伽玛射线、观测者、前沿、演化、能量、分析、电化学发光、共聚物、起源、</td></tr><tr><td>USTC_T3_V</td><td>★</td><td>★</td><td>★★★★★</td><td>激活、平面、快速、溢出、原油、粘滞、清理、海绵、石墨烯、包覆、焦耳等</td></tr><tr><td>USTC_T6_V</td><td>★</td><td>★</td><td>★★★★★</td><td>分配、抵抗、关键、量子、吸收、微波、高效、复合、治疗、电、聚乙二烯、枝晶等</td></tr></table>",
+    "context5": "分别对各高校论文各时期研究主题进行识别与编号，取每个主题下前15个主题词对论文进行表述。以北京大学为例，从北京大学发表的SCI高被引论文中总共识别出了78个研究主题，其中北京大学时期V(2017-2018年)的部分研究主题识别结果见表1。",
+    "context6": "这些主题中：",
+    "context7": "PKU_TO_V含有生长、肿瘤、移动、肝细胞、抵抗、抑制、癌症等主题词,属于对癌症等恶性肿瘤的相关控制与治疗方法研究；",
+    "context8": "PKU_T1_V含有模型、产品、植物、作物、土壤、碳、催化剂、氮、癌症等主题词,属于农业科学与生物健康领域的相关研究；",
+    "context9": "PKU_T2_V含有肾病、临床、控制、IgA、试验、疾病等主题词,属于对肾病的诊断及治疗相关研究；",
+    "context10": "PKU_T3_V、PKU_T4_V与PKU_T5_V含有电池、钙钛矿、有机等主题词,属于电池和材料领域钙钛矿太阳能电池等三个具体不同方向的科学研究,该高校这一时期在这个领域】这一段改为【PKU_T3_V、PKU_T4_V与PKU_T5_V含有电池、钙钛矿、有机等主题词,该高校在这一时期进行了电池材料领域的钙钛矿太阳能电池等三个不同主题方向的科学研究；",
+    "context11": "PKU_T6_V含有撞击、TeV、夸克、玻色子、希格斯、衰败等主题词,属于在高能物理与理论物理等领域的研究;",
+    "context12": "PKU_T7_V含有分析、全球、排放、疾病、污染、区域、风险、大气、北京、城市等主题词,属于对全球城市空气污染与疾病风险等相关研究。"
+  },
+  "4.3高校论文研究前沿主题识别分析": {
+    "context1": "基于本文提出的一种利用主题热度、主题新颖度等指标表征高校研究前沿主题的识别模型,通过指标评级进行研究前沿主题分类。",
+    "context2": "通过使用公式(1)计算主题热度，主题热度指标最低的为0.01以下，一颗星 $( { \\star } )$ ,每多0.01热度增加一颗星，最高为热度在0.04以上，五颗星 $( \\star \\star \\star \\star \\star )$ 。使用公式(2)计算主题新颖度，设定主题新颖度指标最低的为第I时期，一颗星 $( { \\star } )$ ,每增加一时期增加一颗星,指标最高的为第V时期，五颗星 $( \\star \\star \\star \\star \\star )$ 。统计各主题下论文数量，主题下论文数量指标最低的为10篇以下，一颗星 $( { \\star } )$ ,每多10篇增加一颗星，最高为40篇以上，五颗星 $( \\star \\star \\star \\star \\star )$ 。",
+    "context3": "总体看来，高校论文研究前沿主题主要划分为以下几类：",
+    "context4": "(1)新兴热点研究前沿主题",
+    "context5": "通过计算，具备新兴热点研究前沿的主题有85个，选取3个指标特征比较鲜明的研究主题为例,见表2。",
+    "context6": "如表2所示，中国科学技术大学新兴热点研究前沿主题USTC_T14_V符合世界研究前沿在化学与材料科学领域有关功能性金属有机框架化合物、纳米材料等方向的研究[12,18-23]；上海交通大学新兴热点研究前沿主题SJU_T4_V符合世界研究前沿在电池领域关于钙钛矿太阳能电池[13-14.18-23]的研究以及对非富勒烯受体的关注[18-21];北京大学新兴热点研究前沿主题PKU_T7_V符合世界研究前沿中关于环境科学领域关于空气污染以及污染趋势、环境影响、区域分布及相关风险等问题的分析[15.21]。",
+    "context7": "(2)未来新兴研究前沿主题",
+    "context8": "通过计算具备未来新兴研究前沿的主题有204个，选取3个指标特征比较鲜明的部分研究主题为例，见表3。",
+    "context9": "如表3所示，南京大学未来新兴研究前沿主题NJU_T5_V符合世界研究前沿在天文学与天体物理学中包括伽玛射线、宇宙形成与演化等领域的研究[16.18-23],中国科学技术大学未来新兴研究前沿主题USTC_T3_V符合世界研究前沿在化学与材料科学领域有关石墨烯等碳纳米材料的研究[17-19,21-22],例如对处理海上原油泄漏事件等用途的石墨烯材料研制[]；中国科学技术大学未来新兴研究前沿主题USTC_T6_V符合世界研究前沿在关于化学材料领域关于复合材料的研制与应用研究[17-19,21-22]。",
+    "context10": "![](images/c8b7cc6165ddd0c6f37e29c112ebe15e7192d4cefb2ec5ece9aaff4cac0c42d6.jpg)  \n图2 高校论文研究主题演化图谱  \nFigure 2 Research Topic Evolution Map of University Papers",
+    "context11": "整体看来，研究前沿主题识别结果较为符合数据样本的分布与世界研究前沿内容。电池与材料领域对实用低廉清洁的电池与材料的不懈改良与研制、环境科学领域对于环境污染的防治研究等一直是重要的研究前沿主题。"
+  },
+  "4.4高校研究前沿主题演化趋势分析": {
+    "context1": "本文通过KNIME及公式(3)计算相邻时期研究前沿主题相似度，并解读各高校内部相似主题之间的演化关系。",
+    "context2": "设置主题相似度大于0.3为相似主题，采用DyData可视化平台以桑基图的形式呈现相邻时期相似主题演化关系，如图2所示。",
+    "context3": "如图2所示，主题在研究发展过程中不断交叉、分化与融合。",
+    "context4": "例如在临床医学领域，未来新兴研究前沿主题的复旦大学FDU_T2_Ⅲ的其中一支演化为上海交通大学SJU_T10_V,该主题成为了较大的一组未来新兴研究前沿演化主题，含有全球、疾病、负担、国家、地区、系统、世界、风险、致死、伤害、寿命、趋势等主题词,属于世界研究前沿在全球致命疾病流行与防治领域的研究[18-22],近年来越来越引起学界与社会重视,该主题演化为下一时期上海交通大学SJU_T9_V、西安交通大学XJU_T10_V、南京大学NJU_T1_V和清华大学THU_T8_V，在演化主题中研究层次更加丰富，研究内容不断深入。",
+    "context5": "例如新兴热点研究前沿主题的北京大学PKU_T4_V由未来新兴研究前沿主题西安交通大学XJU_T8_IV与新兴热点研究前沿主题北京大学PKU_T14_IV的研究内容相互融合形成,是含有电池、太阳能、受体、多形性、效率、钙钛矿、非富勒烯、有机、电子、晶体、高性能等主题词的研究,符合世界研究前沿中有关钙钛矿太阳能电池以及非富勒烯型聚合物太阳能电池的相关研究[13-14.18-23],不同研究前沿主题之间的相互融合不断为交叉领域的研究提供了新的发展契机。",
+    "context6": "总体来看，各高校论文主要研究前沿主题在不断演化，反映出各高校在各研究领域不断深入的研究成果与学者们紧跟研究前沿的敏锐洞察力。各高校研究前沿主题主要分布在医学健康、生态环境、能源材料等领域,总体与世界研究前沿内容较为契合，研究内容上不断深入且具有相对稳定性,符合论文样本数据的分布,并反映出学术界对特定研究领域的不断跟踪深人研究。研究前沿领域的学科知识都存在一定程度的相互交叉、渗透与融合,其中数学、物理、化学等基础学科与其它学科的交叉融合度更高，体现了各高校SCI高被引论文研究前沿内容呈现综合化的大趋势。"
+  },
+  "5结语": {
+    "context1": "本文通过结合文献计量学方法与PLDA主题模型技术，创新性地提出了文本主题视域下的高校论文研究前沿领域及演化发展趋势研究方法，并利用计算余弦相似度方法，揭示了各时期高校论文研究主题演化发展趋势并与世界研究前沿内容契合度进行对比分析，识别出高校研究主题的前沿领域。",
+    "context2": "通过实验结果表明，该研究方法能够通过研究前沿主题识别分析揭示各高校论文研究前沿领域的宏观研究内容、研究强度与演化趋势，且反映出高校研究前沿主题主要具有时间新颖性、内容创新性、学科交叉性、研究高热度4个特征。",
+    "context3": "文本主题视域下的高校论文研究前沿领域及演化发展趋势研究方法有助于高校在破除\"SCI至上\"背景下进行更为科学全面的科研水平评价与优势科研方向分析工作。"
+  },
+  "参考文献": {
+    "context1": "1教育部 科技部印发《关于规范高等学校SCI论文相关指标使用 树立正确评价导向的若干意见》的通知[EB/OL].http://www.moe.gov.cn/srcsite/A16/moe_784/202002/t20200223_423334.html,2020-03-26.  \n2 韩启德.在中国科协九大上的工作报告[J].科协论坛,2016,(6):21-29.  \n3姜春林,张立伟,谷丽,胡志刚.知识单元视角下学术论文评价研究[J].情报杂志,2014,33(4):29-34.  \n4董琳,刘清.学科评价之文献计量指标分析[J].图书情报工作,2008,(1):31-34.  \n5 PRICE D J. Networks of Scientific Papers [J].Science,1965,149(3683):510-515.  \n6 冯佳,张云秋.科学前沿探测方法述评[J].图书馆杂志,2017,36(5):29-35.  \n7郑彦宁,许晓阳,刘志辉.基于关键词共现的研究前沿识别方法研究[J].图书情报工作,2016,60(4):85-92.  \n8 白如江,冷伏海,廖君华.科学研究前沿探测主要方法比较与发展趋势研究[J].情报理论与实践,2017,40(5):33-38.  \n9王旭仁,姚叶鹏,冉春风,何发镁.一种并行LDA主题模型建立方法研究[J].北京理工大学学报,2013,33(6):590-593.  \n10 高阳,严建峰,刘晓升.朴素并行LDA[J].计算机科学,2015,42(6):243-246.  \n11 潘菲,王效岳,白如江,周彦廷.研究主题视域下零被引与高被引论文分析——以环境科学领域为例[].图书情报工作,2018,62(20):77-87.  \n12 赵田,董茗,赵熠,刘跃军.纳米金属-有机框架材料的制备及应用[J].化学进展,2017,29(10):1252-1259.  \n13 张米娜,季叶克,张立昆,董靓.基于知识图谱的太阳能电池研究前沿探测分析[J].中国材料进展,2018,37(1):74-80.  \n14 牛秀秀,田铎,陈棋.太阳能电池的明天[).物理,2018,47(3):143-151.  \n15 范英杰,鲁荣凯.重大国际合作研究计划项目的发起、组织与实施:以中英\"大气污染与人类健康\"重大国际合作计划为例[J].中国科学基金,2016,30(3):220-222.  \n16 吴伯冰,张双南.中国空间天文展望[].中国科学:技术科学,2015,45(8):779-795.  \n17 刘国杰.石墨烯重防腐涂料产业化研发的初步进展[.中国涂料,2016,31(12):6-15.  \n18中国科学院科技战略咨询研究院.《2014研究前沿》报告[EB/OL].http://www.whiov.ac.cn/xwdt_105286/kydt/201411/W020141111411139459501.pdf,2020-03-26.  \n19中国科学院科技战略咨询研究院.《2015研究前沿》报告[EB/OL].http://120.221.34.83:6510/xkb.xauat.edu.cn/UploadFile/file/20160927/20160927101060936093.pdf,2020-03-26.  \n20 中国科学院科技战略咨询研究院.《2016研究前沿》报告[EB/OL].http://xkb.xauat.edu.cn/UploadFile/file/20181030/20181030123597139713.pdf,2020-03-26.  \n21 中国科学院科技战略咨询研究院.《2017研究前沿》报告[EB/OL].http://xkb.xauat.edu.cn/UploadFile/file/20181030/20181030123585138513.pdf,2020-03-26.  \n22 中国科学院科技战略咨询研究院.《2018研究前沿》报告[EB/OL].http://xkb.xauat.edu.cn/UploadFile/file/20181030/20181030123474247424.pdf,2020-03-26.  \n23中国科学院科技战略咨询研究院.《2019研究前沿》报告[EB/OL].http://xkb.xauat.edu.cn/UploadFile/file/20191210/20191210110684618461.pdf,2020-03-26.",
+    "context2": "（责任编辑：毛秀梅）"
+  },
+  "Sentiment Analysis of Online Users in the Emergency Based on Video Context and High-dimensional Fusion": {
+    "context1": "FAN Tao1 , WANG Hao1,HAO Lin-na², WANG Shi-qin (1.School of Information Management, Nanjing University,Nanjing 210o23, Chind;",
+    "context2": "2. Nanjing Library,Nanjing 210018,China;",
+    "context3": "3.School of Economics and Management, Nanjing University ofScience and Technology, Nanjing 21094, China)",
+    "context4": "Abstract:【Purpose/significanceResearchononlineusers’sentimentanalysis inemergencyis mostlybasedontextsortextscombined with images,lackingtheresearchonthemultimodalcontentofvideos.Atthesametime,theexistingmulti-modalsentiment analysisresearchmostlyfocusesonthefeatureextractionofdiferentmodalies,ignoringthecontextofvideosandmodal fusion. 【Method/proessBasedonthat,this paperproposesasentimentanalysis modelbasedonthe videocontextandhigh-dimensionalfusion.The modelfirstusestheBi-GRU-basedneuralnetworktolearnthecontextrelationshipsofdiferentmodalitiesinthevideo,nd thenmerges them inpairs.ThefusedfeaturesareinputtedintotheBi-GRU networktolearnthecontextrelationshipsafterthefusion of differentmodalities.Finall,atripleCartesianproductmethodisusedtofusebimodalfeatures tocapturethedynamicinteraction betwn modalitistoobtainhigh-dimensionalfusedfeatures,hichareinputedintoultiplefullyonetedlayers tooutputlabels. 【Result/conclusionThepaperconducts empricalresearchonthe proposedmodelintherealdatasetof \"COVD19\"emergencyand compares it withthebaseliemodels (FN,HFCM,etc.).Experimentalresultsshowthattheproposedmodelhascertainadvantages. 【Inovation/limitationThemodelandresearch methodproposedinthispapercanprovidenewideasfor thesentimentofonlinesers in emergencies.",
+    "context5": "Keywords:emergency;sentiment analysis of onlineusers;multimodalfusion;context modeling; high-dimensional fusion",
+    "context6": "（上接第162页）"
+  },
+  "The Frontier Field and the Development Trend of University Papers from the Perspective of Text Topic": {
+    "context1": "WU Yi-ping',YU Chun-liang², QU Jia-bin',BAI Ru-jiang1 (1.Science and Technology Information Research Institute,Shandong University of Technology,Zibo 255049,China;",
+    "context2": "2.Yantai University Library,Yantai 264005,China)",
+    "context3": "Abstract:【Purpose/significanceThispaperusedtextmining methodtoanalyze thefrontiertopicsanddevelopmenttrendsof Universitypapers,sostrovideanewperspectivfuversitysienticeseachevaluationaswellasodeleferenendteical supportforuivesitysientificeseachdvantagedirectionseletion.【Method/proess】Frstlytheitleiforatioofhigelpapersin Collegesndversitisisbaied,teDAmodelissedtodentifyereseachtopics,andarecogitionodelispro posedtorepresenttheresearchfrontiertopics incolegesanduniversitiesbyusingthe indexessuchastopicheatandtopicnovelty. Then,thecoiesilarityodelisusedtoalulatethsearchsilarityetwendierenttopis,ndeevolutioofseahtopicsincollegsanduniversitisisnalyedtovealthdevelopmenttredofresearchtopisincollgesaduniversiti.Thoughthe comparativeanalysisofthefitdegreewithteorldresearchfrontiercontent,thfrontierareasofuniversityresearchtopiredentified.【Result/conclusion】Theexperimentalresultsshowthattheproposed methodcanefectivelyreveal theresearch frontiertopicsof universities,theevolutionlawof opicsovertie,andthefitdgreewiththeworldresearchfrontier.Innovation/limitation】ispaperproposes aresearch methodfortheresearch frontierand evolutiontrendofuniversitypapers fromthe perspectiveof texttopics. The main limitation is that the coverage of data sets is not comprehensive enough.",
+    "context4": "Keywords : research front; topic identification; paper analysis; scientific research management; evolution trend"
+  }
+}

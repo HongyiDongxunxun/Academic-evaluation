@@ -1,0 +1,83 @@
+{
+  "original_filename": "full_9938.md",
+  "远程访问图书馆电子资源技术综述": {
+    "context1": "夏志方",
+    "context2": "天津泰达图书馆天津300457",
+    "context3": "[摘要]从技术框架、应用情况、利分析等方面，对传统代理服务器、改进的代理服务软件(Ezproxy）、VPN、PKI、Athens、shib-boleth等实现远程访问图书馆电子资源的技术手段进行综合分析与比较，以为图书馆选择合适的远程访问技术提供参考，为研究者把握相关技术的发展趋势提供借鉴。",
+    "context4": "［关键词］电子资源远程访问数字图书馆代理服务器Ezproxy虚拟专网Athens PKI Shibbaleth〔分类号】G250.72"
+  },
+  "A Reviews on Techniques Offering Remote Access to Library Digital Resources": {
+    "context1": "Xia Zhifang",
+    "context2": "Tianjin TEDA Library,Tianjin 300457",
+    "context3": "[Abstract]Thisarticleintroduces thestructuresandtheapplicationsof6RemoteDatabase Access echnologies：standard proxyserver,EzproxyVP,PKIAthensndibboleth.enitaalyesthedntagesanddisadvantagsoftesoutiosmetiodboe. Theaimof hispaperistoprovidereferencesforlibraryadministrators，harejustmakingadecisiononowtochooseRemote Database Access technologies，and to help researchers well informed with the development of related technologies.",
+    "context4": "〔Keywords）digital resourceremote accessdigital libraryproxy serverEzproxy VPNAthens PKI Shibboleth"
+  },
+  "1引言": {
+    "context1": "据笔者了解，用户一般都要求能远程访问图书馆电子资源，这里的远程访问，又叫校外访问（off-campus access），是指突破IP地址的物理限制，可以在任何能上网的地方使用图书馆电子资源[1]。",
+    "context2": "网络技术的进步，为我们解决资源提供商和资源用户之间的这对矛盾提供了契机，通过有效的技术手段，目前用户已可实现随时随地访问图书馆所订阅的网络电子资源。这些技术同时还提供良好的用户控制手段，有效地保护了资源提供商的利益。国外对于远程访问图书馆电子资源的研究，在上世纪90年代中期就已开始，下面笔者以欧美高校的研究和应用为主，介绍几种目前普遍采用的远程数字资源访问技术及当前的研究热点，以为我国研究类似问题提供借鉴。"
+  },
+  "2传统代理服务器技术": "",
+  "2.1代理服务器概述": {
+    "context1": "代理服务器（proxyserver)的功能是代理网络用户去获取网络信息。形象地说,就是网络信息的中转站。其工作原理如图1所示：",
+    "context2": "![](images/ba56eba2942d83b7fab2493a5bdec5975173d09460c35a88c758cc4ad86c88b9.jpg)  \n图1代理服务器工作原理",
+    "context3": "在一般情况下，我们在使用网络浏览器直接连接其他Internet站点获取网络信息时，须先发送请求信号，然后由对方把信息以比特流方式传送回来。代理服务器是介于浏览器和Web服务器之间的一种服务器，有了它，浏览器就不必直接到Web服务器去取回网页，而是向代理服务器发出请求，请求信号将先送到代理服务器，再由代理服务器取回浏览器所需要的信息并传送给浏览器[2]。代理服务器可分为网关型代理和应用型代理两种、前者广泛应用于局域网中的共享服务器上，后者则是本文要探讨的解决远程访问图书馆电子资源的重要途径。应用型代理可以通过多种方式对不同类型的用户进行身份认证，如IP地址方式、用户名口令方式等，经过认证的用户，即被视为图书馆的合法用户，可以通过该代理服务器访问受IP地址限制的电子资源，直观上看起来，就如同用户的IP地址(受限范围外)已经变成了代理服务器的IP地址(受限范围内）。",
+    "context4": "代理服务器的主要特点有：具有缓冲功能，能提高浏览速度和效率;连接Internet与Intranet充当防火墙;节省 IP开销,降低网络的维护成本等[3]。"
+  },
+  "2.2代理服务器应用现状": {
+    "context1": "代理服务器是最基本，也是应用最广泛的解决受IP地址限制的用户访问电子资源的技术手段。国内外高校大多提供该项服务，例如复旦大学、上海交通大学、浙江大学、美国加州大学、杜克大学等。经调查，中国大陆及台湾地区高校使用代理服务器比较普遍，而欧美高校则主要采用其他改进的方式，代理服务器作为补充手段仍然保留。在用户身份认证方面，代理服务器可以与校园邮件系统、借阅证系统、学生学号管理系统等身份认证系统进行对接。"
+  },
+  "2.3代理服务器用于远程访问数字资源的主要优缺点": {
+    "context1": "代理服务器用于远程访问图书馆数字资源的主要优点是,实现简单，运行维护成本较低。只需要购置一台性能较好的服务器，安装一个代理服务器软件如Squid、MicrosoftProxyServer、Netscape ProxyServer、WinGate、WinProxy 等,经过一些简单的配置，并建立合适的身份认证即可。用户在使用代理服务器访问Internet时，需在浏览器中进行配置，配置方法虽然简单，但对于大多数不熟悉计算机操作的用户来说仍不够友好，这也是这种方式的缺点之一。理想的访问方式应该对用户是透明的，这是后续解决方案中一个重点改进的方面。代理服务器的另一个不足是，无法对使用情况进行跟踪统计和分析，有的代理服务器软件虽提供一些统计分析功能,但还不能满足要求。另外，代理服务器受支持的协议限制，一些客户端/服务器模式的电子资源（如CA网络版SciFinder)无法直接通过代理服务器访问。"
+  },
+  "3改进的代理服务器软件": {
+    "context1": "传统的代理服务器有其局限性，为了解决浏览器设置及统计分析的问题，出现了经过改进的代理服务器软件。由Useful Utilities 公司提供的EZproxy 软件是被国外高校广泛采用的代理服务器软件，现以该软件为例作一介绍。"
+  },
+  "3.1EZproxy 概述": {
+    "context1": "EZproxy是目前被国外图书馆广泛使用的实现校外访问的代理服务器软件。其与普通代理服务器软件的主要区别在于，它采用先进的\"URL重写\"技术，用户无需修改浏览器的设置就能实现代理访问资源的功能[4]。例如,EZproxy服务器的地址为：http://myproxy.mylibrary.com,我们要访问的地址为：http://www.mydatabase.com/index.htm,EZproxy将其映射为：http://www.mydatabase.com.myproxy.myli-brary.com/index.htm，经过映射之后，对目标网站的访问就由Ezproxy服务器进行中转[5]。这种方式对用户来说是透明的，只需输入口令，通过EZprxoy 的验证即可访问目标网址。EZprxoy的用户认证支持文本文件、E-mail服务器等多种用户数据源，同时还可以编写外部程序实现与其他数据库的集成，例如图书馆自动化系统、学生证号管理系统，等等。要使用EZproxy访问某个数据库资源，必须事先进行配置，只有配置到其\"Menu\"中的网址才可由EZprxoy 进行代理访问。EZ-proxy还提供强大的日志功能，对访问者信息和资源访问量进行记录。"
+  },
+  "3.2EZproxy的应用现状": {
+    "context1": "EZproxy在国外已得到广泛运用，尤其是欧美高校更为普遍。目前，中国大陆仅北京理工大学已正式使用该软件为师生提供数据库的校外访问服务。UsefulUtilities公司的网站上列出了EZproxy 在全球40个国家和地区的1800 余个客户，其中绝大部分为各类高校、科研机构、大公司、政府组织，等等[6]。"
+  },
+  "3.3EZproxy 的主要特点": {
+    "context1": "EZproxy是一种功能强大、价格低廉(495美元）、操作简单的代理服务器软件，它运用先进的\"URL重写\"技术，免除了浏览器反复设置的麻烦。另外，其强大的日志和分析功能也为图书馆对数据资源的使用进行监控和分析带来了极大的便利。由于它仍是一种代理服务器技术，因此，目前只能应用于浏览器/服务器模式的资源访问，而对于客户端/服务器模式的数据库资源仍然无法访问。"
+  },
+  "4 VPN 技术": "",
+  "4.1什么是VPN": {
+    "context1": "VPN的全称是VirtualPrivateNetwork，即虚拟专网，指的是依靠ISP(Internet 服务提供商)和其他NSP(网络服务提供商)在公用网络中建立专用的数据通信网络的技术。在虚拟专用网中，任意两个节点之间的连接不是传统专网所需的端到端的物理链路，而是利用某种公众网的资源动态组成的。所谓虚拟，是指用户不需要使用实际的长途数据线路，而是使用Internet公众数据网络现有的长途数据线路。所谓专网，是指用户可以为自己建立一个最符合自己需求的网络[7]。目前，一些图书馆使用一种叫做远程访问虚拟网（ac-cessVPN)的VPN技术,通过AccessVPN可拨人当地的ISP,并进入Internet,再连接VPN 网关，便能让用户随时、随地通过远程方式访问内部资源。AccessVPN的远程方式包括拨号ISDN、数字用户线路(xDSL)。通过这些灵活的拨人方式能让移动用户、远程用户或分支机构安全地接人内部网络。VPN 作为一种综合性网络安全方案，主要包含下列4种重要技术：基于对称和非对称的密钥加密技术;基于标准数字证书的身份认证技术;基于网络层和数据链路层隧道协议的隧道技术;保证密钥在公网上传输而不被窃取的密钥管理技术。"
+  },
+  "4.2VPN的应用现状": {
+    "context1": "VPN 技术广泛应用于企业的移动办公和远程访问企业内部网络方面，国外高校也广泛采用该技术作为从校外访问图书馆数字资源的主要手段。近几年，随着我国高校合并、-校多区现象的增多,我国一些高校也开始采用VPN 实现多校区之间的数据传输。例如,华南师范大学采用VPN 实现了3个校区之间的网络互联[8]。上海交通大学、暨南大学等也都采用VPN供用户在校外访问校园网资源。"
+  },
+  "4.3VPN用于远程访问图书馆数字资源的特点": {
+    "context1": "目前，采用IPSecVPN需要在用户电脑中安装一个客户端，客户端接人VPN服务器之后，本机的网络设置即自动进行相应更改。直观上看起来，用户的电脑已经成为局域网中的一员,在使用网络资源方面和物理上处于该局域网中的其他电脑没有任何区别。而采用SSL协议的下一代VPN则不需安装或设定客户端软件，因此，有人认为,SSLVPN将成为远程访问的技术主流[9]。VPN技术的主要特点是成本低、扩展性好、安全性高，与基于代理服务器的方式相比，其最显著的优点是解决了客户端/服务器对数字资源的远程访问问题。但VPN的实现和安装较为复杂，现有的IPSecVPN需要安装客户端并进行相应的设置，对用户不够友好。另外，由于它并非专用于图书馆的数字资源访问，因此,不具备用户分析、资源利用率统计等附加功能。"
+  },
+  "5Athens项目": "",
+  "5.1Athens 项目简介": {
+    "context1": "Athens是英国高等教育部于1996年开始实施的一个用于网络数据库登录管理的项目，随后成为英国教育部门和卫生部门利用网络资源的事实标准[\"0]，注册Athens 账号后仅需登陆一次就可以利用AthensAccessManagement系统提供的多种网络资源。其工作的大致流程如图2所示。",
+    "context2": "范围内完成)等,Athens 则返回给该机构一个管理员账户，该管理员账户可以用于注册Athens数据库访问口令，访问口令享有该机构在Athens中登记的数据库访问权限，且该口令不再受IP范围限制。当用户需要访问受Athens保护的数据库时，他会被要求提供Athens数据库访问口令，一旦通过验证，该用户即可访问其权限范围内的所有数据库而无需再次进行验证。Athens提供4种注册数据库访问口令方式：与现有的认证系统建立借口、单个用户注册、批量用户导入和用户自行注册。其中，前3种都由管理员操作，用户自行注册则可由最终用户使用一个由管理员生成的、该机构通用的用户注册专用账号，并在事先登记的IP范围内注册自己的账号。另外,管理员账户还具有用户统计、数据库访问统计、权限配置等附加功能[11]。",
+    "context3": "![](images/cb298f0a4ca28a6121883d8fe6b97cae1d4468b31598aed8fe3ee7191d1bc405.jpg)  \n图2Athens工作流程"
+  },
+  "5.2·Athens项目的应用现状": {
+    "context1": "在Athens项目的网站上列出了在Athens中登记的全球80余个国家和地区的数千个不同机构，主要以英国的学术、科研、医疗机构为主[12]，支持Athens 的数据库已经达到300余个，且仍在不断增加,其中包括 ScienceDirect、Wiley Inter-Science、Web ofKnowledge等著名数据库[13]。"
+  },
+  "5.3Athens的项目特点": {
+    "context1": "Athens的显著特点是将IP范围限制转换为用户名、口令限制，而且只要一个口令就可登录所有有权限的数据库。对用户而言，Athens 是一个不需要任何额外工具支持或设置的解决方案，只要注册一个用户名口令，就像我们申请电子邮件一样,便可在任何可以上网的地方登录数据库。其操作也相当简单，所有操作都可在浏览器中完成，对用户来讲几乎没有什么障碍。Athens的另一个特点是把用户验证工作交给了专门的系统，数据库从维护用户数据中解脱了出来，而且，用户通过各自的口令访问数据库，更加便于数据库的知识产权控制及为用户提供个性化服务。",
+    "context2": "Athens与数据库提供商(DSPs)达成协议，在Athens中列出一张对各数据库的访问权限清单，这些访问权限将分配给用户注册的Athens数据库访问口令;购买了数据库访问权限的机构需在Athens中进行登记，登记项目包括购买的具体访问权限、机构IP范围(注册数据库访问口令的操作需在 IP"
+  },
+  "6当前研究的技术热点": {
+    "context1": "当前普遍采用的IP控制和用户名密码控制存在较多的安全漏洞，利用匿名代理服务器和搜索引擎的帮助，非法用户很容易窃取受限资源，图书馆面临的网络安全问题不可小视。另外，基于IP控制方式无法对用户进行细分，不能很好地满足用户的个性化需求，因此，目前国内外研究的重点集中在突破 IP 限制、增强信息安全和提供个性化服务方面[14]。"
+  },
+  "6.1 PKI技术": {
+    "context1": "PKI（Public Key Infrastructure,公钥基础设施）是利用公钥密码理论和技术建立起来的提供安全服务的普适性基础设施。PKI是重要的信息安全技术和搭建全球可信网络（Global TrustNetwork,GTN)的基础平台技术,也是目前解决电子商务、电子政务安全的关键技术。国外已开始研究如何将 PKI技术引入数据库的访问控制中，但从目前PKI技术实施的情况来看，由于其代价太高，图书馆真正引入PKI来控制数字资源访问的时机还未成熟[15]。"
+  },
+  "6.2Shibboleth项目": {
+    "context1": "Shibboleth是一个用于解决对共享资源的机构成员进行认证和授权的体系，它是Internet2（下一代互联网)项目中的一个子项目[16]。Shibboleth 是基于采购电子信息资源的机构和资源提供商之间的一种信任机制进行工作的，这种信任机制的建立来源于两个程序组件：安装在机构用户站点（来源站点）的 Shibboleth Identity Provider（IdP)和安装在资源提供商站点（资源站点）的Shibboleth ServiceProvider（SP)。当用户访问某种资源时，资源站点首先询问访问者的来源（Whereareyoufrom?），当访问者提供其来源后，资源站点便请求来源站点对用户进行验证，来源站点通过验证之后再将该用户的信息发送给资源站点，该信息并不仅仅说明该用户是否合法，还可以包括其他一些个人信息，资源站点以收到的用户信息为依据,对用户进行相应的授权及个性化服务[17]。与Athens项目类似,这种模式突破了IP地址的限制，可以为用户提供更多的个性化服务，资源提供商也从维护一大堆密码、IP范围的重负中解脱出来。与Athens不同的是，资源提供商不是把验证工作交给第三方，而是由用户机构本身来完成。目前，已有OCLC、CSA、EBSCO 等29个数据库提供商宣布支持Shibboleth，同时，美国的麻省理工学院、杜克大学等众多高校也参与到Shibboleth的研究开发中。"
+  },
+  "7结语": {
+    "context1": "用户利用信息资源的方便性和信息资源的安全性之间似乎是一对矛盾。一方面，用户希望随时、随地访问任何信息；另一方面，因受到知识产权保护、商业利益等因素的影响，图书馆信息资源必然对访问进行控制。现代信息技术的发展为我们彻底解决这个问题带来了希望，同时也使我们面临许多新问题,这本身又是一对矛盾，技术也就在矛盾的博弈中不断进步[18]",
+    "context2": "由于片面追求到馆率和纸本馆藏量等种种原因，目前，我国对数字资源的远程访问问题还没有引起足够的重视，随着我国高校的合并、扩大、开设分校、功能区域分散等情况的增多，远程教育的发展，个人电脑的普及，科研人员研究方式的多样化，人们获取信息方式的变革,远程访问图书馆电子资源的要求将会越来越多，随时随地访问数字资源是未来数字图书馆需要实现的基本功能，图书馆界应对这一问题进行深入研究，认真探索，以突破传统服务模式，切实满足用户的实际需求。"
+  },
+  "参考文献：": {
+    "context1": "1Denise T C. The need to improve remote access to online library resources：filling the gap between commercial vendor and academic user practice.Libraries and the Academy,2003,3(4）：577-599   \n2杨心强等.数据通信与计算机网络．北京：电子工业出版社， 2003   \n3杨新等.代理服务器在Intermet中的应用.计算机工程与应用， 2000(10):148-149 4 EZproxy by useful utilities.[2005-11-10]. http://www.usefulutilities. com 5 EZproxy technical details.[2005-11-10].htp://www.usefulutilities. com/supporl/technical. html 6 EZproxy customer list.[2005-11-10].http://www.usefulutilities.com/support/institutions.html   \n7黄新明,刘旺泉.VPN技术综述.计算机安全,2003,10(5）：9-11   \n8曾巧红.VPN技术在高校图书馆的应用.情报学报,2005,6（3）： 357-362   \n9匿名.SSL VPN将成远程访问技术主流.通信与信息技术， 2004(8):60   \n10Eduserv Athens for education.[2005-11-I0].htp://www.athens.ac.uk   \n11 Getting started with Athens.[2005-11-10].htp://www.athensams.net/help/getting_started.pdf   \n12 Athens organizations.[20o5-11-10]. http://www.athensams. nel/orglist. php   \n13 Athens protected resources.[2005-11 -10].http://www.athensams. net/allresources. php   \n14Remote user authentication in Libraries.[2005-11-10].http:// library.smc.edu/rpa.htm   \n15 Norman M.Accessing services with client digital certificates：a short report from the DCOCE project．New Review of Information Networking,2004,10（2）:193-207   \n16Shibboleth project.[2005-11-10].http://shibboleth.intermet2. edu   \n17 Mark N.The Shibboleth authentication/authorization system. Serials Review，2004(30):252 -253   \n18 Brian L M．Anything，Anytime，Anywhere:Proxy Servers,Shibboleth,and the Dream of the Digital Library.In: Patrick B．Mohoney eds.The Eleventh Off- Campus Library Services Conference Proceedings,2004:315 -326"
+  }
+}

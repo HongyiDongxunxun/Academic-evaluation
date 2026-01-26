@@ -1,0 +1,129 @@
+{
+  "original_filename": "full_8369.md",
+  "社交网络情境的国内外研究综述": "",
+  "罗艳 陶之祥": {
+    "context1": "(上海大学悉尼工商学院上海201899)",
+    "context2": "摘要回的/意义情境(context)作为描述主体所处环境的信息,对社交网络(SNS)用户行为和信息服务具有重大影响。通过系统化梳理社交网络情境研究的主题、内容、理论、方法和结果,以帮助学界和业界更好地认识和理解情境对社交网络用户行为的影响、情境在社交网络信息服务中的作用、情境在实证研究和应用研究中的差异、现有研究的不足及展望,为社交网络情境的进一步研究提供参考。方法/过程从采纳行为、持续使用行为、内容创建行为和内容消费行为4个方面，总结情境对社交网络用户行为的影响;从情境感知、基于情境的推荐和具体应用3个方面，总结情境在社交网络信息服务中发挥的作用。结果/结论结果表明，情境在实证领域和应用领域的运用存在一定差异，但同时也存在彼此可借鉴之处，二者都将情境和信息系统的相关研究同社交网络紧密结合,以拓展理论和解决问题。最后，提出了现有研究在理论、方法和技术方面的不足，供情报和信息科学领域的学者进一步研究和探讨。",
+    "context3": "关键词社交网络情境用户行为信息服务情境感知  \n中图分类号G206 文献标识码A 文章编号 1002-1965(2019)08-0179-09引用格式罗艳,陶之祥.社交网络情境的国内外研究综述.情报杂志,2019,38(8):179-187.  \nDOI10.3969/j.issn.1002-1965.2019.08.026"
+  },
+  "Review of the Research on Social Network Situation in China and Abroad": {
+    "context1": "Luo YanTao Zhixiang (SHU-UTS SILC Business School,Shanghai University， Shanghai201899)",
+    "context2": "AbstractPurpose/Significance]Contextistheinformationcharacterzingthesituationofentities，hichhassignificantimpactsonus ersbehaviorandiforatiosevicesicialetwoks.Thepurpoeoftispaeristtematicallysumaetetopics，oetsth ories，methodsndresultsofsocialnetworkcontextreseach，sostoprovideabeteruderstandingofteimpactofcontetonsoialnet workuserbehaviortheoleofcontextinsocialnetworkinformationservie，thediferencesbetweencontextsofmpiricalsarchnd appliedresearchandtheshortcoming/prospectsofexistingreseachforthacademiaandindustry，hichcanbeusedaseferencend basisforfurtherresearchMetod/ProcessThispapersummarzestheefectofcontextonuserbehaviorofsocialnetworkfromadoption, continuoususage，contentcreationandcontentconsumption，ndsummareshowcontextworksinsocialnetworkinformationservice fromcontextawareness，context-basedrecommendationndspecificaplication.Result/Conclusion]Theresultsshowthatthereare somedierencesintheaplicationofontextinmpiricalandappliedfields，uttherearealsosomepointsforreference.othofthm combinetheexistingresearchoncontextandinformationsystemwithocialnetworkcloselytoexpandtheoryandsolveproblems.Final， thispaperputsforwardtheshortcomingsofexistingresearchintheory，metodandtechnologyforfurtherstudyanddiscussonbysholars in the field of information and information science.",
+    "context3": "Key wordssocial networkcontext user behavior information servicecontext awareness"
+  },
+  "0引言": {
+    "context1": "社交网络凭借其高度的开放性和共享性，已经深深嵌入到人们工作、学习和生活中，成为当代社会不可或缺的工具。社交网络兼具社会属性和信息技术属性,因此,实证领域和应用领域都有大量关于社交网络的研究。实证研究更关注其社会属性，应用研究更关注其信息技术属性。情境作为这两种属性的结合点，对理解社交网络用户行为、用户需求和用户偏好具有至关重要的作用,被广泛运用于营销、个性化推荐和人工智能等领域。近年来，社交网络情境的研究逐渐增多,应用领域不断扩大，涵盖的内容也更加丰富。然而，目前对社交网络情境进行综述的文献相对较少，多数文章仅针对社交网络或仅针对情境进行综述。本文围绕情境的概念、社交网络用户行为受情境的影响、社交网络信息服务中情境的应用，进行国内外研究细致梳理,总结研究现状，归纳研究框架，为该领域的后续研究提供相关理论基础。"
+  },
+  "1情境的概念": {
+    "context1": "情境的概念在实证领域和应用领域都有大量研究。其中,实证领域存在多种情境概念,而应用领域对情境的界定则较为统一。",
+    "context2": "在实证领域,情境的概念主要有以下几类:a.情境因素泛指所有的影响因素，如个体、职位、团队、组织,用户、资源、服务、技术等。b.情境因素特指社会和环境层面的客观因素。如竞争、城市规模、行业背景、公司年限等。c.情境指研究所处的环境或条件。有学者认为情境的作用是界定与底层过程有关的理论边界条件，换言之，理论中的变量和关系具有情境敏感性(contextual sensitivity）,即理论只在特定的情境下成立。任何研究都是在一定情境下进行的，而这些情境中的某些未被察觉或不可操控的因素对研究有影响,因此导致某些已发表的研究成果不可复现。",
+    "context3": "在应用领域,情境的概念最早在“人工智能之父”McCarthy的研究中出现,用语句 $\\mathrm { \\dot { \\ u s t } } ( \\ \\mathrm { a } , \\mathrm { b } )$ 来描述情境，其中,ist是is true in的缩写,表示命题a在情境b下为真。随着个性化与普适化计算的发展，学术界对情境进行了更加详细地阐述与讨论。某事物的情境由与之相关的思想、情况、事件和信息组成,这些内容能够有助于更好地理解该事物。情境可以是位置、人物和周围物体的标识和这些物体的变化，也可以是人、地方、物理或计算客体的态势特征的信息。Dey关于情境的定义被广泛接受和采纳，认为情境是可以用来描述实体所处环境特征的任何信息，该实体是一个人、地方或物体，它和用户及应用程序是有关联的，这些实体也包括用户和应用程序自身。",
+    "context4": "情境内容宽泛、涵盖面广，因此需要分类归纳。目前使用最多的分类方法是用户导向分类，例如JamaliHR等将情境分为个体特质、目标任务、科研信息素养、历史研究、期望和假设、心理状态、职业和社会地位。另一种分类方法是资源导向分类,例如LopesC T将情境分为资源内情境、资源之间情境、用户与资源交互的情境、社会和环境的情境、经济技术情境和历史情境。此外,Christopher、Ayse Goker 等学者也提出了各自的情境框架。这些情境框架虽然不尽相同，但都遵循了Dey对情境的定义，将跟实体有关联的任何信息都纳入情境之中。",
+    "context5": "国内外学者对情境概念和分类的研究表明，情境是一个非常宽泛的概念，不存在一个普适的情境框架，因此往往需要根据具体的问题识别情境因素。同时，众多研究也存在共性的观点,即情境是用来描述主体所处环境的信息，这些信息对主体产生重要影响。"
+  },
+  "2情境对社交网络用户行为的影响": {
+    "context1": "情境作为描述社交网络用户所处环境的相关信息,对用户行为具有关键影响。现有的社交网络情境研究所考察的情境因素主要包含4大类：用户情境、服务情境、资源情境和社会情境。其中,用户情境是用以描述用户自身特征的信息，包括用户特质、用户需求、用户期望、用户感情等;服务情境是用以描述用户和系统之间互动的信息，包括用户对系统的感知及态度、网络口碑、认同感等;资源情境是用以描述系统和网络资源的信息，包括网络类型、信息来源、系统兼容性等;社会情境是用以描述用户所处社会关系或文化的信息,包括社会影响、社会认同、氛围等。这4类情境因素会对社交网络用户行为产生影响，包括：用户采纳行为、持续使用行为、内容创建行为和内容消费行为,如图1所示。",
+    "context2": "![](images/067e8883c06c9971c43d32dc60df8da77b5b7cd8df3335090dfb2fd7f391635c.jpg)  \n图1情境因素影响社交网络用户行为",
+    "context3": "2.1用户采纳行为用户采纳行为,即用户正式接纳和使用社交网络的行为。目前社交网络用户采纳行为的研究主要有3个视角：",
+    "context4": "a.用户情境和服务情境的综合视角。此类研究借鉴技术接受模型、期望理论、自我效能理论、理性行为理论、动机理论等相关理论,对个体的态度、动机、情感、认知等情境因素进行了研究。技术接受模型的运用较为广泛,该模型从期望理论中提取出感知有用性，从自我效能理论中提取出感知易用性，用这两个变量取代理性行为理论中的主观规范，以此来解释用户对新技术的接受采纳行为[。在此基础上,不少学者加入了其他变量,对技术接受模型进行了拓展,如利他主义、感知鼓励、绩效期望、努力成本、感知流行性等。此视角认为，当用户认为社交网络能满足其特定需求和期望时，用户更趋向于采纳社交网络。",
+    "context5": "b.社会情境和服务情境的综合视角。该视角主要探讨外部条件、人际关系、文化等情境因素。主要理论基础包括社会影响理论、社会存在理论、任务匹配理论等,认为社会影响、社会存在[,临场感、便利条件、技术任务匹配度、促成因素[等会影响用户采纳行为。此类研究认为,用户之所以采纳社交网络，不仅因为用户对社交网络有正向感知,还因为用户处在一定社会关系中，当该社会关系里的其他人采用社交网络时，用户更趋向于采取相同的做法以维持社会关系。",
+    "context6": "c.用户情境、社会情境和服务情境的综合视角。主要理论基础有整合技术接受模型、计划行为理论[等。其中,整合技术接受模型综合了理性行为理论、动机理论、计划行为理论、创新扩散理论和社会认知理论,以绩效期望、努力期望、社会影响和便利条件作为解释变量,以性别、年龄、经验和自愿使用作为调节变量,增加了模型的解释力度[ 。",
+    "context7": "2.2用户持续使用行为用户持续使用行为是用户忠诚度的表现形式,指用户在较长的时间内保持一定频次使用社交网络。主要研究视角有：",
+    "context8": "a.用户情境。包含两方面的内容，一是用户需求，相关理论有使用与满足理论、动机理论，认为用户之所以长期使用社交网络,是因为社交网络满足了他们的特定需求,这些需求包括：娱乐需求、信息需求、社交需求、自我呈现需求、时尚需求等；二是用户情感，相关理论主要是心理学的情感依恋理论和沉浸理论。社交网络能够满足用户自主、关联和发展能力的需求,增强用户的情感依恋,激发用户积极体验联想，使用户处于愉悦状态,增加用户非理性参与社交网络的频率[。用户会专注于浏览社交网络，并从中获得心理享受,过滤掉不相关的知觉,进入沉浸体验[d。现有研究认为，情感依恋和沉浸体验对社交网络持续使用意向有正向影响。",
+    "context9": "b.服务情境。用户对社交网络的感知会对其使用意愿产生直接或间接的影响，包括：价值感知(效用价值、享乐价值）、感知互动性（人际互动、人与信息互动、人与社区互动)、感知风险(隐私风险、心理风险、时间流失风险、社交风险)等[。基于此视角的研究认为，用户对社交网络的积极感知(感知价值、感知互动性)正向影响其持续使用意愿，对社交网络的消极感知(感知风险)负向影响其持续使用意愿。",
+    "context10": "c.社会情境。主要理论基础包括理性行为理论、自我决定理论、社会影响理论、社会交换理论,认为人际因素也是影响持续使用行为的重要因素，包括社会规范,社会资本[1,社会影响、社交助力、社交过载[等。",
+    "context11": "d.资源情境。理论主要是创新扩散理论,认为用户持续使用社交网络的意向受到社交网络复杂性、相对优势和兼容性的影响。",
+    "context12": "2.3内容创建行为社交网络用户内容创建行为是社交网络最重要的信息来源，指用户通过社交网络渠道制作、传播、发布和分享信息的行为。主要研究视角包括：",
+    "context13": "a.用户情境。包含两方面的内容，一是用户特质，这类研究认为，用户分享知识的原因在于用户具有乐于分享的性格和能力,影响因素包括情绪稳定性、经验开放性、宜人性、尽责性、外倾性、先验知识[等;二是用户动机,相关理论有动机理论、激励理论、计划行为理论、社会资本理论、社会交换理论等，认为用户分享知识的行为受其动机驱动,包括：利他主义、名声动机、印象管理动机、归属动机、娱乐动机、互惠期望2。用户情境从用户特质和用户动机两方面对用户的内容创建行为进行解释，前者认为用户之所以在社交网络上分享信息，是因为用户自身是一个乐于分享的人；后者则认为，用户之所以愿意分享，是因为该行为能满足其特定动机。",
+    "context14": "b.服务情境。在社会资本理论、社会认知理论、认知整合理论、期望确认理论的基础上,认为用户对社交网络服务的认知，会对其知识分享意愿造成影响,包括认同感、信任、自我效能感、感知相对优势、感知兼容性,分享信念、分享态度、期望确认度。此类研究认为,用户之所以愿意在社交网络上分享信息，是因为用户认为社交网络是一个良好的分享渠道。",
+    "context15": "c.社会情境。除了上述因素外,社交网络用户知识分享还受到社会情境因素影响，包括结构资本（个体嵌入社交网络的程度)互惠性规范,文化、氛围，技术条件等。基于此视角的研究认为,用户之所以愿意分享信息是因为其处在一个强调信息共享的群体中。",
+    "context16": "2.4内容消费行为内容消费行为是用户参与社交网络的重要方式,指用户在社交网络浏览、搜索、点击、收藏、评价信息的行为。其研究视角包含以下几类:",
+    "context17": "a.用户情境,如性别、解决问题风格2,任务目标、先验知识[25-2d 。",
+    "context18": "b.资源情境,如社交网络类型，信息来源及类型",
+    "context19": "c.服务情境,如任务阶段持续时间、搜索次数2，网络互动,信任、网络口碑、价值共创，感知个性化园",
+    "context20": "内容消费行为研究跟前面三类研究(采纳行为研究、持续使用行为研究、内容创建行为研究)有显著的区别。其一,研究方法不同。前三类研究大多数是采用问卷调查法，而内容消费行为的很多研究采用实验法。其二,理论基础和变量选择不同。前三类研究往往有经典理论作为支撑，所用的变量或构念相对成熟，而内容消费行为研究往往没有经典理论支撑，所考察的变量也相对简单。其三，前三类研究具有一定的普适性，而内容消费行为研究则聚焦于某一细分领域。",
+    "context21": "综上所述，情境因素对社交网络用户行为影响的研究,引入了大量社会心理学领域的理论,对社交网络用户行为进行系统而深入的分析和研究。基于用户情境的研究认为,用户自身的特质、需求、动机和情感会驱动其行为。基于服务情境的研究认为，用户对社交网络的感知、态度和互动会影响其行为。基于资源情境的研究认为,社交网络用户行为受到社交网络自身特征的影响。基于社会情境的研究认为，用户所处群体的文化、氛围和规范对用户行为产生影响。上述理论、情境和用户行为的关系如图2所示。"
+  },
+  "3基于社交网络的情境应用研究": {
+    "context1": "社交网络的情境应用研究,主要是将计算机技术与情境相结合,用以提升社交网络服务的智能化和个性化程度。与实证研究相比,社交网络情境的应用研究具有以下特点。",
+    "context2": "a.实证研究目的是利用情境因素对社交网络用户行为进行解释和预测，应用研究目的是捕获用户偏好，从而高效而精准地满足用户的个性化需求,提升社交网络服务质量。",
+    "context3": "b.实证研究所考察的情境因素既包含主观因素，也包含客观因素，应用研究所考察的情境因素主要是客观因素。",
+    "context4": "c.实证研究主要通过问卷(实验)来获取(操控)情境,应用研究主要通过设备传感器获取情境。",
+    "context5": "d.实证研究情境主要呈现形式是模型和变量，应用研究情境主要呈现形式是数据集。",
+    "context6": "由此可见,应用研究领域中的情境和实证研究领域中的情境尽管都是用于描述主体所处环境的信息，但在各自研究领域的目的、类型、获取方式和呈现形式方面存在很大差异。本文对照社交网络用户行为的情境因素框架,将应用研究中的情境归为六类,分别是:用户情境、活动情境、计算情境、社会情境、物理情境和时间情境。其中,用户情境用于描述用户层面的信息,社会情境用于描述社会层面的信息;活动情境属于服务情境，用于描述人机交互层面的信息；计算情境属于资源情境,用于描述网络和系统层面的信息;物理情境和时间情境分别用以描述自然环境和时间，二者虽然在社交网络用户行为的研究中并不多见，但是在社交网络情境应用研究中却十分普遍。这6类情境所包含的内容如图3所示。",
+    "context7": "![](images/d2b4ed8644e27afc9e25c2494b36b747c6e8b939056b8809f1482937572b2690.jpg)  \n图2理论、情境和用户行为之间的关系图",
+    "context8": "![](images/694fabe955db479915ae83546d0fef30750345f4bf82d95ac321d8edbbd13023.jpg)  \n图3社交网络应用研究中情境分类框架",
+    "context9": "本文根据情境在社交网络中应用的过程,将相关内容分为3个部分：情境感知、基于情境的推荐和针对具体问题的应用。其中,情境感知、基于情境的推荐属于方法研究,针对具体问题的应用则是运用这些方法来解决实际问题。",
+    "context10": "3.1社交网络情境感知情境感知是社交网络情境应用的基础,其本质是将情境信息转化为计算机可以读取和加工的数据。情境感知的第一步是情境捕获，这一步通常由计算机完成,通过自带的传感器捕获时间、地点、光照、温度等信息,通过计算机日志得到历史操作、浏览信息等信息，在某些应用中，甚至需要邻近对象、网络宽带、用户签到等信息。",
+    "context11": "原始情境数据获取后，需要通过情境计算才能运用于计算机服务。常见的情境计算方式有以下几种。",
+    "context12": "a.基于智能设备的情境感知推荐框架(CAMR）。该框架支持情境的感知、识别和推断，使用分类算法，尤其是支持向量机、神经网络、决策树、KNN(邻近算法)、贝叶斯网络,从统计特征中导出情境,识别用户偏好,对媒体项目进行推荐。CAMR框架代表了一类社交网络情境感知计算的思路，即首先通过多种途径获取原始情境数据，并按照特定格式将其纳入数据集，然后通过情境计算(主流的方式是机器学习算法)得到可以用于计算机服务的情境。这种方法的优势在于能处理复杂的情境信息，前提是传感器能收集到足够的情境信息。",
+    "context13": "b.轻量级增量回归树(the light-weight IncrementRegression Tree)。在很多情况下,系统所能感知的情境往往十分有限,只能提供相对简单的原始情境数据集。此时,复杂的算法,如支持向量机、深度学习等并不适用。因此,学者提出了用轻量级增量回归树来处理情境。在这个回归树中,每一个节点代表一个情境维度,每一条路径代表一种特定的情境,每一个叶节点代表一个记录集(用户，项目，评分）。这种方法的实质是穷举每一种情境，研究表明，当考察的情境维度较少时,这种方法是有效的[ 。",
+    "context14": "c.本体模型。为了让情境模型在普适的计算环境中得到充分共享与重复利用，学者们提出了本体建模方法。CONON是其中一种本体模型,该模型使用上层本体和具体领域本体两层结构对情境进行描述，上层本体被定义为推荐服务中情境概念的一般属性，具体领域本体被定义为特定推荐领域中的细节和特征。其中，上层本体包含了设备、位置、个人、活动4类情境,具体领域本体包含了家庭领域本体和工作领域本体。CONON本体模型为移动设备情境感知提供了一个开放的、可重复使用的基础结构,具有良好的拓展性,因此被之后的研究广泛借鉴,用于电影推荐、知识管理系统、通用情境管理模型(GCOM）。",
+    "context15": "d.移动生态系统。为避免数据在服务提供商、程序开发人员和用户之间的重复获取与传输，学者提出了一个通用的、无缝集成的解决方案——移动生态系统，该系统基于移动社交网络，将情境数据与移动应用进行集成,构建多维情境感知体系，为服务提供商、程序开发人员和用户提供情境感知能力。该系统所构建的情境感知数据集由两部分构成：原始感知数据和情境数据，其中，情境数据由原始感知数据经过情境计算而来，分为环境情境、个人活动情境和社会情境 。",
+    "context16": "总体而言，社交网络情境感知实际上是将计算机科学中的情境感知方法运用于社交网络，而在学术界，情境的研究远早于社交网络，这就使得社交网络领域的情境建模大多使用较为前沿的方法,而标识模型、图形模型、面向对象模型等相对的方法则较少出现。",
+    "context17": "3.2基于社交网络情境的推荐系统通过情境感知得到的情境数据集包含了必要且有用的信息，能够广泛运用于自适应服务、人工智能、普适计算等方面。在社交网络应用领域,情境相关研究集中在基于情境的推荐。",
+    "context18": "传统的推荐通常基于一个( $\\mathrm { U s e r } \\times \\mathrm { I t e m } \\to \\mathrm { R a t - }$ ing)二维评分矩阵,而基于情境的推荐在此基础上增加了情境维度，扩展为( $\\mathrm { U s e r } \\times \\mathrm { I t e m } \\times \\mathrm { C o n t e x t } \\longrightarrow \\mathrm { R a t - }$ ing)的三维评分矩阵。与传统意义上的推荐相比，基于情境的推荐具有两个特点:a.建立用户偏好时，考虑了历史偏好产生时的情境;b.为用户产生推荐时，考虑了用户当前的情境。大量研究表明,基于情境的推荐在准确率、覆盖率、多样性等方面的性能普遍优于传统的推荐。",
+    "context19": "在社交网络环境中,有两种特有的推荐方法：基于社会关系的推荐和基于信任的推荐。其理论依据在于,社交关系和信任能够反映用户兴趣相似度。相关学者将这两种方法同情境结合，开发新的推荐系统,如SoCo、TB-CA 等。SoCo是一种结合了情境和社会关系的推荐系统,具备良好的推荐性能[4。TB-CA是一种结合了情境和信任的推荐系统，能够提高冷后动用户的预测评级精度[4。",
+    "context20": "3.3针对具体问题的社交网络情境应用研究本文归纳总结5类与社交网络密切相关的情境应用研究。其中,社交关系推荐、场地推荐、活动推荐属于个性化推荐的范畴,社交网络照片标签构建及人脸识别侧重于人工智能的范畴，移动群体感知侧重于建模和优化的范畴。",
+    "context21": "a.好友推荐。好友推荐是社交网络的重要服务。目前,好友推荐经常被作为一类链路预测(link predic-tion)问题来处理,即利用社交关系网络预测新的社交关系。基于情境的好友推荐主流方法是用图来表示社交网络，节点表示用户，边表示用户关系，将情境融入模型,设计算法生成推荐结果。研究表明,基于情境的好友推荐能得到更高的预测精度[ 。",
+    "context22": "b.场地推荐。智能手机的普及和定位技术的提高催生了基于位置的社交网络(Location-based SocialNetworks,LBSNs）,而场地推荐(Venue Recommenda-tion)就是为用户推荐令其感兴趣的位置。研究表明,将情境用于场地推荐过程,能有效应对冷后动、用户-兴趣点矩阵的极端稀疏性和用户偏好不均匀的问题。",
+    "context23": "c.活动推荐。近年来，基于活动的社交网络(E-vent-based Social Networks,EBSNs,在部分中文文献中也被译作基于事件的社交网络)获得了大量关注，这类社交网络为用户举办、宣传、参加活动提供了平台。用户可以创建和加入兴趣小组，小组成员可以组织各种线下活动(如聚餐、旅行、会议等）。当活动量非常大时，活动推荐就非常重要。然而,活动推荐面临相当大的挑战:其一,活动生命周期很短,活动推荐仅在活动创建之后、活动开始之前有效;其二，社交网络具有一次性消费的特点,不像传统的产品、电影、音乐等可以反复消费和体验;其三,通常而言,新活动仅由少数用户创建注册,因此面临着严峻的冷启动问题[。这三个特点导致可用于分析和挖掘的数据不足，因此学者将数据拓宽至情境数据，设计基于情境的推荐算法，取得了较好的效果[。",
+    "context24": "d.社交网络照片标签构建及人脸识别。在社交网络中进行图片搜索时，文本标签查询是搜索的主要手段,而这需要稳健的注释系统。学者基于who，where，when，what,设计了情境框架,并对框架下的每一个变量给出了计算方法,由此开发了一个新的协同注释系统和视觉辅助标注框架，以便社交网络的成员能够有效地注释图像[4]。此外,在互联网环境下,对海量图片的识别、分析和检索是一项非常有价值的工作。针对此问题,学者研究了社交网络情境在人脸自动识别中的应用，在条件随机场模型中,将人脸识别分数同情境相结合，构建了人脸照片的参数模型，最后用机器学习的方法进行人脸识别[48 。",
+    "context25": "e.移动群体感知。移动群体感知（Mobile CrowdSensing)是众包(Crowd-sourcing）的一个具体应用模式。众包模式是通过向一大群人寻求帮助的方式来获取所需服务，属于一种分布式的问题解决模式。随着智能设备的普及，众包模式得到更大的技术和用户条件支持,从而衍生出移动群体感测，即用户向平台提供移动设备上的传感数据，平台对这些数据进行挖掘，得到有用的信息。移动群体感测在医疗健康、智慧交通等都得到了运用，但相关研究正处于起步阶段，因此，该研究具有广阔的应用前景和研究价值。移动群体感知需要用户的广泛参与，并且有以下限制条件：平台预算有限;用户收益非负；用户提交真实数据;保护用户隐私。这是一个NP-hard问题,很难获取最优解，因此,最好的做法是寻求近似解。学者综合考虑准确位置、参与者概况、当前任务、节点可观测性、覆盖效用评分等情境信息，设计了情境感知近似算法，得到了表现良好的近似解5 。",
+    "context26": "总之,社交网络情境应用研究,是传统的情境应用研究与社交网络相结合的产物。首先通过情境感知，获取原始的情境数据，然后通过情境计算将其转化为包含了情境特征的、可以被其他程序或算法读取的有用信息,最终用于改进社交网络服务。具体过程如图4所示。",
+    "context27": "![](images/a2a76ef741d638fcab7d5f2211443757b95060ec8d5cc624f0036f7a983a5c08.jpg)  \n图4社交网络情境应用过程",
+    "context28": "(C)1994-2022 China Academic Journal Electronic Publishing House. Allrights reserved.htp://www.cnki.net"
+  },
+  "4总结、后示和展望": {
+    "context1": "上述国内外研究回顾与梳理表明，社交网络情境研究已取得丰硕成果。在实证领域，情境的本质意义在于解释信息行为，这些行为受到用户、资源、服务和环境四个情境维度的影响,分别对应了行为主体、行为客体、人机交互和人际交互4个层面的相关因素，现有研究的进展主要体现为通过全方位、多层次的研究视角将经典理论与社交网络紧密结合，有力解释了社交网络用户行为,极大丰富了社交网络情境的内。在应用领域，情境的本质意义在于扩充数据源，并改进分析技术，从而有力弥补传统数据分析技术的缺陷，高效解决原有方法力不能及的问题。现有研究的进展主要体现为充分利用社交网络中所能获取的大量情境数据,设计更优的计算方法,提升社交网络服务的智能化和个性化水平,满足社交网络环境下用户多样的、动态的、充满不确定性的需求。实证研究和应用研究彼此的后示有以下3点：",
+    "context2": "a.社交网络情境的实证研究为相关应用研究提供了指导依据。在基于情境的应用研究中，大部分模型和算法通常不会涵盖所有情境因素，而是选择少部分因素,这些因素具有相关性、重要性和可获取性。实证研究综合定性和定量的方法，对相关用户行为的主要影响因素进行了识别和验证,对各因素的作用关系及机制进行了阐述和论证,回答了应用研究“可以考虑哪些因素”和“应该重点考虑哪些因素”两个问题，即对情境因素的相关性和重要性进行了确认。",
+    "context3": "b.社交网络情境的应用研究为相关实证研究提供了技术方法。一方面,在以相关分析、方差分析和回归分析为基础的实证研究中,变量的测量不再局限于问卷,目前已经存在更多元的测量方法,例如,在关于用户信任和兴趣相似度的研究中，研究者用机器学习的算法来获取用户信任度，用数学建模的方法来获取用户相似度。另一方面，部分实证问题尤其是社交网络用户群体行为需要通过其他方式进行研究,例如，有学者用模拟仿真技术对社交网络谣言进行了研究。",
+    "context4": "c.部分研究主题需要同时运用实证研究和应用研究的方法。例如:社交网络用户行为预测问题,实证研究侧重于从理论的高度进行研究，而应用研究更看重效率和准确率;基于情境的推荐系统的评价问题,实证研究采取的评价方法主要是实验法、准实验法和非实验法，而应用研究采取的评价方法主要是衡量准确率等指标;安全与隐私问题，实证研究探讨用户隐私的影响因素及机制,应用研究则给出具体的隐私保护策略。此外,以情境为基础的普适化计算强调尽最大可能挖掘有用信息，这为用户隐私带来巨大威胁。如何平衡二者关系、用户对二者的感知是否同步、个性化服务带来的满意度的正增量是否足以抵消隐私焦虑带来的负增量等，都是非常有意义的研究方向。",
+    "context5": "此外,无论在实证领域还是在应用领域,现有的社交网络情境研究都存在不足之处，主要体现在以下5个方面：",
+    "context6": "a.情境的概念不统一。在实证领域，一部分研究把所有影响因素都归为情境因素，另一部分研究则认为情境是社会层面或群体层面的外在变量，与个体层面的内在变量相对应，个体的情境并不包含个体本身。还有一部分研究认为情境是研究所处环境。因此，未来的研究应该进一步对情境的概念作探究和界定，将现阶段有些模糊甚至矛盾的概念进行梳理和论述，形成认可度较高的定义。",
+    "context7": "b.相关理论不足。目前关于社交网络情境的实证研究中,大部分采用管理学、行为科学、社会心理学等领域的相关理论和变量，其余一些研究的理论部分则较为薄弱，其变量也相对简单。这些理论通常是从企业组织发展而来,将其移植到社交网络研究中,尽管得到一定发展,但仍未能满足研究需求(例如,社交网络内容消费行为的部分研究难以用传统理论研究），也未能突出社交网络自身的特性。因此,未来研究有必要结合社交网络的特质，发展新的理论来研究社交网络环境下的用户行为。",
+    "context8": "c.研究方法较为单一。目前社交网络情境的实证研究中,绝大部分采用问卷调查法或实验法,这两种方法尽管在社会学领域已经发展到相当标准和严谨的程度，但在社交网络环境下，却只注重其社会属性，完全摒弃其信息技术属性，因此对某些实证问题稍显无力。事实上，社交网络作为一个综合的人际交往、信息分享和数据传播平台，具有高度的开放性和共享性,研究者可以通过一定技术获取一些问卷和实验所无法获取的数据。因此,未来的实证研究应该注重融合社交网络的社会属性和信息技术属性，由此开发新的研究领域和新的变量，甚至是构建全新的、基于社交网络的理论。",
+    "context9": "d.相对于移动社交网络而言，一般性社交网络的研究则相对较少。在应用领域，研究大多将情境跟移动社交网络绑定在一起,较少关注一般性社交网络的情境应用。造成这种现象的一个可能的原因是，以智能设备为基础的移动社交网络更容易获取初级情境信息。所以，未来的研究应该关注情境在一般性社交网络中的运用,解决其中情境获取、感知计算等的关键技术问题。",
+    "context10": "e.社交网络情境应用领域存在大量高效的方法，但是缺乏共享性和可重复利用性。本文综述了许多种基于情境的框架、模型和算法，其中许多算法性能优良，但是这些模型往往只针对某个特定的问题，具有较强的条件敏感性和较低的可移植性,难以投入商业应用。因此,未来的研究应该注重开发标准化、集成化的平台系统,并针对具体应用设计接口，在“具体问题具体分析\"的同时,保持高度的开放性和共享性，减少重复工作,加快商业化进程。",
+    "context11": "综上所述，社交网络情境研究虽然已经得到广泛关注并取得长足进步，但仍不足以应对社交网络所带来的用户行为和用户需求的巨大改变。随着社交网络的发展,用户行为和用户需求的动态性、多样性和不确定性只会越来越高，因此，社交网络情境的研究也会越来越重要。未来研究可基于本文的分析结果，进一步明确情境概念、发展相关理论、扩充研究方法、解决技术难题。"
+  },
+  "参考文献": {
+    "context1": "[]Shalley C E,Gilson L L.What leaders need to know:A review of social and contextual factors that can foster or hinder creativity [.Leadership Quarterly,2004,15(1) : 40-53.   \n[2]刘健,毕强,晁亚男.用户情境与数字图书馆情境关 系模型构建与实证研究[．情报理论与实践,2015,38 (9):20-25.   \nB Kimberly JR,Evanisko M J.Organizational innovation: The influence of individual,organizational,and contextual factors on hospital adoption of technological and administrative innovations .Academy of Management Journal,1981,24(4) :689-713.   \n[] Johns G.Reflections on the 2016 decade award: Incorporating context in organizational research [.Academy of Management Review,2017,42(4):577-595.   \n] Akman V,Surav M. Stepstoward formalizing context [C] // AI Magazine,1996: 55-72.   \n[] Anagnostopoulos C B,TsounisA,Hadjiefthymiades S.Context awareness in mobile computing environments [].Wireless Personal Communications,2007,42(3) :445-464.   \nDey A K,Abowd G D,Salber D.A conceptual framework and a toolkit for supporting the rapid prototyping of context-aw are applications [l.Humana Computer Interaction,2001,16(2/4) :97 -166. Jamali HR,Dehghani Z,Afshar E,et al.A multilayer contextual model for recommender systems in digital libraries []．Aslib Proceedings,2011,63(6) :555-569. Lopes C T.Context features and their use in information retrieval [C] // Bcs-Irsg Conference on Future Directions inInformation Access.BCS Learning & Development Ltd,2009:36-42.   \n[1d]Davis F D.Perceivedusefulness,perceived ease of use,and user acceptance of information technology [].Mis Quarterly,1989, 13(3):319-340.   \n[1]Cheung C M K,Chiu PY,Lee M K O.Online social networks: Why do students use facebook?[ .Computers in Human Behavior,2011,27(4):1337-1343.   \n[4刘师.基于丨IF和UIA丨俣型的毛年用尸杠云化网给服务 采纳行为研究[.情报科学,2016,35(2)：115-119.   \n[13]Baker R K,White K M.Predicting adolescents'useof social networking sites from an extended theory of planned behaviour perspective Ml .Elsevier Science Publishers B.V.2010.   \n[14]Venkatesh V,Morrs M G,Davis G B,et al. User acceptance ofinformation technology:Toward a unified view l.Mis Quarterly,2003,27(3):425-478.   \n[15]曹园园,李君君,秦星红.SNS采纳后阶段用户持续使用行为 研究——基于情感依恋与ECM-IS 的整合模型[.现代情 报,2016,36(10):81-88.   \n[dHuang L Y,Hsieh Y J,Wu Y C J.Gratifications and social network service usage:The mediating role of online experience $\\mathbb { I }$ · Information & Management,2014,51(6):774-782.   \n[7]王冰,吴剑琳,古继宝.基于自我决定理论的社交网络用户 持续使用影响因素研究．大连理工大学学报（社会科学 版),2017,38(4):74-80.   \n[18]肖璇.基于社会影响理论的社交网络服务持续使用机理与 模型研究[]．哈尔滨:哈尔滨工业大学,2016.   \n[19]赵君.人格特质对知识共享的影响:以组织信任为中介变量 [．情报理论与实践,2013,36(5):34-38.   \nbdChen C J,Hung S W.To give orto receive? Factors influencing members‘ knowledge sharing and community promotion in professional virtual communities []．Information & Management, 2010,47(4):226-236.   \n[1]Lin MJJ,Hung S W,Chen C J.Fostering the determinants of knowledge sharing in professional virtual communities $\\mathbb { I }$ . Computers in Human Behavior,2009,25(4):929-939.   \n[2]He W,Wei K K. What drives continued knowledge sharing? An investigation of knowledge-contribution and-seeking beliefs [.Decision Support Systems,2009,46(4) :826-838.   \n[3]Huysman M,Wulf V.IT to support knowledge sharing incommunities,towardsa social capital analysis [.Journal of Information Technology,2006,21( 1) :40-51.   \nb4Kim,Kyung-Sun Sin,Sei-Ching Joanna.Useof social media in different contexts of information seeking:Effects of sex and problemsolving style [/OL].[2018-09-20] .htp://InformationR.net/ir/20-1/isic24/html.   \n[5]Choi Y.Effects of contextual factors on image searching on the Web [.Journal of the Association for Information Science & Technology,2010,61( 10):2011-2028.   \n6 Schmit JB,Schneider FM,Weinmann C,et al. Saving tiger,0- rangutan & co: How subjective knowledge and text complexity influence online information seeking and behavior $[ [ ] ]$ . Information Communication & Society,2017:1-19.   \n[7]李佳.社交网络下网络口碑、价值共创对消费者购买意愿的 影响[]．北京:北京邮电大学,2015.   \n[28]顾君忠.情景感知计算[]．华东师范大学学报（自然科学 版）,2009(5):1-20.   \n[9]Otebolaku A M,Andrade M T. Acontext-aware framework for media recommendation on smartphones [l.Lecture Notes in Electrical Engineering,2014,302:87-108.   \nβ0Jiang C,He Y. Smart-DJ: Context-aware personalization for",
+    "context2": "music recommendation on smartphones [Cl // IEEE,International Conference on Parallel and Distributed Systems.IEEE,2017: 133-140.",
+    "context3": "B1]Wang X H,Zhang D Q,Gu T,et al. Ontology based context modeling and reasoning using OWL [C]// Pervasive Computing and Communications Workshops,2004.Proceedings of the Second IEEE Conference on.IEEE,2004:18-22."
+  },
+  "[2]李浩君，张芳.活动理论视角下移动设备情境感知信息推荐服务研究[1.情报杂志,2018,37(3)：187-192.": {
+    "context1": "B3]Chen Y J. Development of a method for ontology-based empirical knowledge representation and reasoning [ .Decision Support Systems,2011,50(1) :1-20.",
+    "context2": "B4Ejigu D,Scuturici M,Brunie L.An ontology-based approach to context modeling and reasoning in pervasive computing [C] // IEEE International Conference on Pervasive Computing and Communications Workshops.IEEE Computer Society,2O07:14- 19.",
+    "context3": "[5]Hu X,LiX,Ngai E,et al. Multidimensional context-aware social network architecture for mobile crowdsensing [l.IEEE Communications Magazine,2014,52(6) :78-87."
+  },
+  "[6]陈独伊.基于用户情境的社交网络推荐[D]．上海:上海交通大学,2014.": "",
+  "[7]高全力.上下文感知推荐系统关键问题研究[D]．2017.": {
+    "context1": "B8Lee D H,Brusilovsky P.Social networks and interest similarity: The case of CiteULike [C]// Acm Conference on Hypertext & Hypermedia.ACM,2010.",
+    "context2": "β9]Ziegler C N,Golbeck J.Investigating interactions of trust and interest similarity [l.Decision Support Systems,2007,43(2):460 -475.",
+    "context3": "[40]Liu X,Aberer K.SoCo:A social network aided context-aware recommender system [C] // International Conference on World Wide Web.ACM,2013:781-802.",
+    "context4": "[41]Keikha F,Fathian M,Gholamian M R. TB-CA:A hybrid method based on trust and context-aw are for recommender system in social networks [].Management Science Letters,2015,5(5): 471-480.",
+    "context5": "[42]郑建国，朱君璇，曹如中.基于情境的社交网络信息传播链路预测研究[.情报理论与实践,2018,41(6):98-103.",
+    "context6": "[43]徐前方,王嘉春,肖波.融合时空上下文信息的兴趣点推荐[．北京邮电大学学报,2018(1)：38-50.",
+    "context7": "[44Aliannejadi M,Crestani F.Personalized context-aware point of interest recommendation [.2018,36(4):1-28."
+  },
+  "[45]何平.基于多特征的社交活动推荐算法研究[D]．杭州：浙江大学,2015.": {
+    "context1": "[46Macedo A Q,Grande C,Grande C .Context-aware event recommendation in event-based social networks [Cl// Acm Conference on Recommender Systems.ACM,2015.",
+    "context2": "[47]Shevade B,Sundaram H,Xie L.Modeling personal and social network context for event annotation in images [Cl// Acm/ieee -Cs Joint Conference on Digital Libraries.ACM,2007:127-134.",
+    "context3": "[48]Stone Z,Zickler T,Darell T.Autotagging Facebook: Social network context improves photo annotation [Cl // Computer Vision and Pattern Recognition Workshops,20o8.CVPRW $^ { \\prime } 0 8$ IEEE Computer Society Conference on.IEEE,2Oo8:1-8."
+  },
+  "[49]周宇.移动群体感知系统中的激励机制和隐私保护机制研究[D].南京:南京大学,2018.": {
+    "context1": "b@Nguyen P,Nahrstedt K. Context-aware crowd-sensing in opportunistic mobile social networks [c] $/ /$ IEEE,International Conference on Mobile Ad Hoc and Sensor Systems.IEEE,2016:477 -478."
+  },
+  "[1]李仕争,丁菊玲,蒋鹏,等.移动社交网络谣言演化的系统动力学模型与仿真[.情报杂志,2016,35(9)：117-123.": {
+    "context1": "(责编:王平军;校对:刘武英)"
+  },
+  "(上接第164页)": {
+    "context1": "[0]俞立平,伍蓓,刘骏.协调发展视角下的学术期刊评价一 协调TOPSIS[.情报杂志,2018,37(8):1-5.   \n[1]赵蓉英,王建品.基于FDH模型的学术期刊评价新方法[.图 书情报工作,2018,62(8):100-106.   \n[12]Bell D E.Regret in decision making under uncertainty [ .Operations Research,1982,30(5) :961-981.   \n[13]Loomes G,Sugden R .Regret theory:An alternative theory of rational choice under uncertainty [l .Economic Journal,1982,92 (368):805-824."
+  },
+  "[4张晓,樊治平,陈发动.基于后悔理论的风险型多属性决策方法[.系统工程理论与实践,2013,33(9)：2313-2320.": {
+    "context1": "[15]Tavana M,Santos-Arteaga F J,Caprio D D.The value of information as a verification and regret-Preventing mechanism in algorithmic search environments [I] .Information Sciences,2018",
+    "context2": "(8) :187-214.  \n[6俞立平，武夷山.学术期刊客观赋权评价新方法一指标难度赋权法[.数据分析与知识发现,2011,27(4)：64-70.  \n[7] Cheng CH,Yang KL,Hw ang CL.Evaluating attack helicoptersbyAHP based on linguistic Variable weight [ .European Journalof Operational Research,1999,116(2) :423-435.  \n[18]中国社会科学文献计量评价研究中心,清华大学图书馆.中国学术期刊影响因子年报(自然科学与工程技术)[/CD].北京：中国学术期刊电子杂志社，2017.  \n[9]张朋.学术期刊评价方法综合比较研究[D].合肥:中国科学技术大学,2018.  \n[20]辛督强,韩国秀.因子分析法在科技期刊综合评价中的应用[.数理统计与管理,2014,33(1)：116-121.",
+    "context3": "(责编/校对:刘影梅)"
+  }
+}

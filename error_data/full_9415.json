@@ -1,0 +1,119 @@
+{
+  "original_filename": "full_9415.md",
+  "认知信息检索研究的发展与展望": "",
+  "张新民化柏林": {
+    "context1": "中国科学技术信息研究所北京100038"
+  },
+  "罗卫东": {
+    "context1": "新疆阿克苏地区公安局阿克苏843000",
+    "context2": "(摘要）剖析认知信息检索概念和与之相关的几个重要概念，如认知观、信息交互、情境、任务、多元表示、相关性；对相关研究模型—Wilson模型、Kuhlthau模型、Vakkari模型、Wang-Soergel模型、Ingwersen模型、Saracevic模型进行评述,并回顾认知信息检索所取得的成就，展望其未来发展方向。",
+    "context3": "[关键词]信息检索认知信息检索信息查寻[分类号]G354"
+  },
+  "Development and Prospect of Cognitive Information Retrieval(CIR) Research": {
+    "context1": "Zhang Xinmin Hua Bolin",
+    "context2": "Institute of Scientific and Technical Information of China, Beijing 100038"
+  },
+  "Luo Weidong": {
+    "context1": "Akesu Public Security Bureau, Xinjiang Uygur Autonomy Region, Akesu 843000",
+    "context2": "(Abstract）Thispaperanalyzes theconceptofCIR,folowedbysomecentralconceptandresearch models inrelationtoCIR,including cognitiveviewpnt,foratioiteactiootet,oktaslyeprestatiodeleane.Fnalleperpstsoof potential new directions for further CIR research.",
+    "context3": "[Keywords]information retrieval cognitive information retrieval information seeking"
+  },
+  "1认知信息检索的概念": {
+    "context1": "20世纪60－90年代，信息检索（IR）领域出现了三大方向：系统导向的IR，用户导向的IR和认知导向的IR。",
+    "context2": "认知导向的IR,通常也被称为认知信息检索(CognitiveInformationRetrieval,简称CIR),是与传统系统导向IR相区别的一种IR研究范式。系统导向IR的研究重点是作者文本、文本表示、提问式与IR技术，而CIR则将信息检索者的认知和行为表现作为研究的重点。",
+    "context3": "在20世纪70年代，CIR的主要特点是面向用户和中介。随着90年代在IR认知上发生的重大变化和转折 (即：认知革命、相关性革命和交互式革命)，CIR观点又有了新的发展与变化，从以往注重个体行动者的信息行为及情境的个体主义认知观，转变为关注信息传递过程中发生的所有交互过程的整体主义认知观[1]，它更加关注复杂的IR情景中的人类行动者、任务以及相关性。"
+  },
+  "2几个与认知信息检索相关的重要概念": "",
+  "2.1认知观": {
+    "context1": "认知观(Cognitive Viewpoint):整体主义认知观的核心观点是：任何信息处理一一无论是感知还是符号的信息处理，都是由一个分类系统或概念体系来介导的。对于信息处理设备而言，这就是它的一个世界模型一一无论该设备是人还是机器。依据这种观点，世界模型是由包括情绪在内的认知结构(或知识结构）所组成，而认知结构是由在社会/组织/文化和系统情境下的个体与社会/集体经验/教育等等多方面因素决定的。",
+    "context2": "CIR框架就是一种以整体主义认知观为基础的、用于研究IR现象的研究框架。其5个核心要素（/组件）是：信息检索者，界面，社会一组织情境，IT，信息对象。它们之间通过信息交互联系在一起。"
+  },
+  "2.2信息交互": {
+    "context1": "信息交互(Information Interaction)是指在IR情境中,两个或更多的认知行动者之间的交流。交互是一个双向的交流活动，信息交互是CIR框架中5个组成部分之间的核心情境桥梁。在IR中存在三种交互方式：短期的信息交互，基于会话期的信息交互以及长期的、纵向的IR交互。",
+    "context2": "交互革命发生于20世纪90年代，是IR认知转折的一个重要方面，它强调用户与系统的交互，认为： $\\textcircled{1}$ 用户的信息需求和行为不是静态的，而是动态的，会随时间而发生变化;$\\textcircled{2}$ 交互发生在多个层面和多个维度； $\\textcircled{3}$ 交互就是要将用户带入一种选择状态，以激发用户做出某种选择； $\\textcircled{4}$ 由于在IR交互情境中的学习和认知，相关性评估因此也是动态的，并且可能发生在各个维度，所以传统的以主题性作为相关性测量指标是不够的。"
+  },
+  "2.3情境": {
+    "context1": "情境（Context）是CIR中的另一个重要概念。按照CIR的观点，与CIR框架中每个要素相关的行动者和对象就成为他们基本认知结构的情境 (即对象内部情境)，并成为彼此之间的情境 (对象之间情境)。而在框架各个要素之间相互作用过程的情境中，这些框架要素自身又成为彼此的情境。在后者，可能会讨论社会的、组织的、文化的以及体系的情境。所有的信息查寻、检索的组成部分和相关活动都处于公共的社会、物理与技术基础结构以及它们的历史情境中。",
+    "context2": "情境具有历史性 (累积性)，由认知行动者在与“使用团体”同行长期接触过程中获得的知识及经验组成。此外，情境还具有社会、文化或组织特征，与对象、系统、领域以及检索者的工作和日常任务、情感、动机、喜好等密切相关。历史情境和实时交互情境 (检索会话)共同构成了当前情境，并直接影响认知行动者对当前状态的认识与理解。在每一个要素内部，其组成要素之间（包括最小的符号元素）又互为情境。"
+  },
+  "2.4任务": {
+    "context1": "任务 (WorkTask)，是指认知行动者执行的工作任务或与工作无关的日常任务或兴趣。任务可以是现实生活中自然存在的任务，也可以是模拟情景下分配的工作任务。如果行动者已经对此有所认识但无法立即解决，这个工作任务就会导致不确定状态和信息查寻或检索行为。",
+    "context2": "任务是CIR中的一个核心概念，旨在强调任何IR的行为都是发生在任务的情境之下，是为了完成任务和提高绩效而进行的信息行为。工作任务是构成IR和真正信息行为的驱动力。"
+  },
+  "2.5多元表示": {
+    "context1": "多元表示(Polyrepresentation,也称为多元证据)原理起源于Ingwersen与Pao，Ingwersen进一步将其作为交互式IR的认知理论成果而提出[2]。多元表示最初是作为一种提高检索效率的知识组织方法而提出的，不仅意味着以各种形式进行的与文献内容有关的主题检索，还意味着对主题之外的文献内容检索，例如通过格式、颜色、结构要素、参考文献或链出结构与内容锚点、引用或链入以及不同的元数据元素如作者、单位或期刊名称等等。多元表示意在表明：指向文献的知识表示在认知和功能上越不同、越多样，文献与提问式、信息需求、感知的工作任务情境相关的可能性就越大；通过认知上不同的知识表示所产生的认知重叠，从而发现文献应赋予最高的相关性。多元表示是整体主义认知观中利用不同行动者的诠释方式和认知结构多样性的具体表现。"
+  },
+  "2.6相关性": {
+    "context1": "相关性概念是IR中的重点和难点。近年来，除了传统的系统相关和用户相关类型外，研究者们开展了一些重要的理论研究和实验研究。研究进一步发现和阐释了算法相关、主题相关、需求相关、情景相关与社会认知相关这5个不同的相关性类型及其关系[1]： $\\textcircled{1}$ 算法相关，类似于检索引擎处理的排序结果,并涉及到请求(或查询)与检索目标之间的关系; $\\textcircled{2}$ 主题相关，由人类进行的评估(解释)方式,主要解决检索到的文献内容和请求之间的相关性关系，这种相关不是客观的，它具有主观情感和智力的性质； $\\textcircled{3}$ 需求相关，指在给定时点由搜索者感知到的检索对象的本质和信息需求之间的针对性; $\\textcircled{4}$ 情景相关，指检索到的对象和个体检索者感知到的工作任务情景之间的关系； $\\textcircled{5}$ 社会认知相关，指领域、情境和集体性情境偏好。它表示由认知行动者进行的情景相关评估和解释以及这种评估和解释随时间的变化。"
+  },
+  "3认知IR研究的模型": "",
+  "3.1 Wilson模型": {
+    "context1": "T.D．Wils0n于1999年提出了IR信息行为研究模型[3],揭示了主要概念间的嵌套关系，其核心思想是：IR总是处于信息查寻过程的情境之中，而信息查寻又是构成整体信息行为的其中一种。如图1所示：",
+    "context2": "![](images/eb8917bb31c46c748021d47f4b70d847f8821acb17f03e0d7c3372a5baf5227a.jpg)  \n图1信息行为的嵌套模型"
+  },
+  "3.2Kuhlthau的检索阶段与过程模型": {
+    "context1": "CarolC．Kuhlthau开展的一系列长期研究结果表明,学生和图书馆用户的学习任务与问题解决包括几个阶段[4]。他从研究中总结出一种模型，认为人们检索与使用信息的差异取决于过程阶段 (见表1)。",
+    "context2": "Kuhlthau的模型也指向IR的核心情感特性。该模型给同时代的其他研究者带来了灵感，在不同领域中，他们利用该模型并证实了它的效用。"
+  },
+  "3.3Vakkari模型": {
+    "context1": "表1 Kuhlthau模型",
+    "context2": "<table><tr><td rowspan=1 colspan=1>阶段</td><td rowspan=1 colspan=1>开始</td><td rowspan=1 colspan=1>选择</td><td rowspan=1 colspan=1>探索</td><td rowspan=1 colspan=1>焦点形成</td><td rowspan=1 colspan=1>收集</td><td rowspan=1 colspan=1>表现</td></tr><tr><td rowspan=1 colspan=1>感觉</td><td rowspan=1 colspan=1>不确定</td><td rowspan=1 colspan=1>乐观</td><td rowspan=1 colspan=1>困惑,挫折，怀疑</td><td rowspan=1 colspan=1>清晰化</td><td rowspan=1 colspan=1>方向感信心</td><td rowspan=1 colspan=1>宽慰，满意或失望</td></tr><tr><td rowspan=1 colspan=1>思想</td><td rowspan=1 colspan=1>模糊</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>更清楚</td><td rowspan=1 colspan=1>增加兴趣</td><td rowspan=1 colspan=1>形成焦点</td></tr><tr><td rowspan=1 colspan=1>行动</td><td rowspan=1 colspan=1>查寻背景信息</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>查寻相关信息</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>查寻贴切的信息</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>任务</td><td rowspan=1 colspan=1>认识</td><td rowspan=1 colspan=1>识别,调查</td><td rowspan=1 colspan=1>识别,调查</td><td rowspan=1 colspan=1>形成系统的查找方案</td><td rowspan=1 colspan=1>收集</td><td rowspan=1 colspan=1>完成</td></tr></table>",
+    "context3": "在2001年,Vakkari基于一系列的长期实验研究[5]提出了一个新的模型。该模型显示任务执行阶段和需要检索的信息、检索策略，并将检索到的信息有机联系在一起。如图2所示：",
+    "context4": "![](images/5328f4204b44e79ff26487a99edfc77f5d67a2c36f79b61d2d9c56b4e3a08831.jpg)  \n图2工作任务与检索任务执行中的阶段",
+    "context5": "该模型作用： $\\textcircled{1}$ 在与完成任务相关的知识中，领域知识和IR知识之间有着清晰的区别； $\\textcircled{2}$ 在任务执行与解决过程中，信息利用明显与检索任务的执行区分开。检索被视为信息利用的工具，而检索与相关性评价的结果有助于信息利用。"
+  },
+  "3.4 Wang-Soergel模型": {
+    "context1": "Wang与Soergel基于长期的实验研究,于1998年提出了IR的文献选择框架[6](见图3)。它也是一个阶段模型，比图2的Vakkari模型更详细，在决策阶段应用了11个相关性标准和5个文献价值维度对如何选择检索到的文献进行决策。另外，它成功地将标准、价值与决策和所谓的“文献信息元素”结合起来。“文献信息元素”即作者创建的文献结构、数据元素等重要数据。"
+  },
+  "3.5Ingwersen的概念模型": {
+    "context1": "Ingwersen在1992年出版的专著[7]中提出了IR交互模型。该模型包括信息检索者的社会一组织环境 (情境)(见图4)。"
+  },
+  "3.6Saracevic的概念模型": {
+    "context1": "Saracevic于1996年提出了信息交互层面的分层模型[8](见图5)。该模型的特点是： $\\textcircled{1}$ 指向三个通讯层。第一层是表面处理层，负责数据源与基于提问式的接口之间的计算数据处理；第二层是交互式认知沟通层，包含在人一机交互期间的感知与感知到的信息需求相关的信息过程，即检索者一提问式一接口之间的对话；第三层被称为“情景层”是指在某一环境的情景中，与感知到的工作任务有关的信息利用。第一层与信息处理的语言层相关，后两个层次则与信息处理的语义层和语用层相关。 $\\textcircled{2}$ 有利于人们对有关交互IR的相关性类型的修正和更准确地领会。",
+    "context2": "![](images/9eddcf1638b39cf5f1489aa2120767aa3361937e102107f66d3503b5866ec781.jpg)  \n图3文献选择决策阶段",
+    "context3": "![](images/d65d4c2557116a6292668d8167e2497459ea94acf41c1b694fa4893714a0e454.jpg)  \n图4信息传递的认知模型",
+    "context4": "![](images/34a59305fdf42bc34c644c0f372a3c3b77d4a6c641dd9456eec0fb6c21c62f23.jpg)  \n图5信息交互的分层模型"
+  },
+  "4 认知信息检索所取得的主要成就": "",
+  "4.1模型方面": {
+    "context1": "在实验研究的基础上，形成了综合的研究模型，并应用于实验研究。在此期间，模型之间有时互相集成或彼此组合。"
+  },
+  "4.2理论建构方面": {
+    "context1": "研究者尝试发展和应用更加综合的理论构架，ASK假说、多元表示假说等成为CIR的理论基础。此外，该阶段还提出了其他一些有关工作任务复杂性和工作任务情景的假说。"
+  },
+  "4.3IR评价方面": {
+    "context1": "设计了新颖的IR评价模型以处理多维相关状态中动态的信息情景，例如受认知观后发而来的交互IR评价包。"
+  },
+  "4.4相关性研究方面": {
+    "context1": "研究者成功地发现了多种相关类型以及可供使用的相关性标准分类；在与搜索者相关的最佳匹配中，相关性研究也取得了突破;在真实环境中，包括检索者在内的(间接)相关反馈和查询修改算法受到了关注。"
+  },
+  "4.5分级相关性方面": {
+    "context1": "分级相关性被重新发现，并开展了实验研究。结果得到了许多新颖的、适用于真实的交互式IR研究评价的性能评价指标，从而搭起了与实验室IR研究团体沟通的桥梁。"
+  },
+  "4.6方法学方面": {
+    "context1": "对IR现象的实验研究大量增加，并应用了一定的方法学。长期的纵向研究方法也得到了应用。此外，研究的对象也从成人扩展到儿童，并且开始在网络环境中进行研究。"
+  },
+  "5认知信息检索的未来发展方向[1,9]": "",
+  "5.1情境方面": {
+    "context1": "CIR将与人类信息行为集成，从而更加全面地理解CIR。在IR研究中，将人类信息行为的情境考虑在内，正是在该情境中，人与IR系统发生交互作用。"
+  },
+  "5.2认知研究方面": {
+    "context1": "在认知研究方面，需要继续开展深入研究，以期更多地了解人类一IR系统交互作用的认知动力学。"
+  },
+  "5.3社会和组织研究方面": {
+    "context1": "在社会和组织研究方面，需要继续展开深入研究，探索人类与IR系统在社会和组织层面上的交互作用。"
+  },
+  "5.4相关性和评价研究方面": {
+    "context1": "相关性一直是而且今后仍是CIR研究的重点。"
+  },
+  "5.5情境观和认知观方面": {
+    "context1": "在情境观和认知观的统领下，IR研究与信息查寻不同的研究路径和研究阵营，将从以往相互隔离的状态逐步走向互动与整合，最终可能形成集成的信息查寻及检索研究框架。"
+  },
+  "6结语": {
+    "context1": "1977－1982年是IR认知观被确立为一种理论观点的时期，CIR作为一种独立的研究范式得以确立和发展。随后，与CIR相关的重要概念得到了阐述，有关的理论基础和假说也得到发展，建立了相应的研究模型，陆续展开了一系列的实验研究，取得了一系列的研究成果。如2005年出版的两部著作《The Tur: Integrationof Information Seeking and Retrieval inContext》[1]和KNewdirections incognitive information retrieva[9],对CIR研究进行了系统的总结。",
+    "context2": "从长远来看，CIR为具有图书馆人文传统的信息查寻与具有情报学技术传统的信息检索之间建立起互动与沟通的桥梁，寻求让两者在情境中进行有机的集成，从而开创一条新的研究路径，有望发展成为一个新的统一、集成的理论体系，并最终改进IR及WEB系统的设计。"
+  },
+  "参考文献：": {
+    "context1": "[1]Ingwersen P.Jarvelin K.The Turn: Integration of Information Seeking and Retrieval in Context.Dordrecht:Springer,2005.   \n[2] Ingwersen P. Cognitive perspectives of document representation // Bruce H,et al.(Eds.）[CoLIS4],2002:285-300.   \n[3] Wilson T D. Models in information behavior research. Journal of Documentation，1999,55(3):249-270.   \n[4]Kuhlthau C C. Inside the search process: Information seeking from the user's perspective. Journal of the American Society for Information Science, 1991,42(5):361-371.   \n[5] Vakkari P.A theory of the task-based information retrieval process: asummary and generalization of a longitudinal study. Journal of Documentation,2001,57(1):44-60.   \n[6] Wang P, Soergel D.A cognitive model of document use during a research project: Study I: Document selection. Journal of the American Society for Information Science.1998, 49(2):115- 133.   \n[7] Ingwersen P.Information Retrieval Interaction.London: Taylor Graham Publishing,1992.   \n[8] SaracevicT. Modeling interaction in information retrieval (IR): a review and proposal $I I$ ASIS.Proceedings of the 59th Annual Meeting of the American Society for Information Science. Maryland:ASIS, 1996,(33):3-9.   \n[9]Amanda S.Charles(Eds.）C.New directions in cognitive information retrieval. Dordrecht; London: Springer,2005.   \n[10] Gruzd,Anatoliy.New directions in cognitive information retrieval: Book Reviews. Journal of the American Society for Information Science & Technology，2007,58(5):760-761.   \n[11] Schneider, Wiborg J.Review of : Spink,Amanda and Cole,Charles (Eds.）New directions in cognitive information retrieval Dordrecht.London: Springer,20o5.Information Research, 2006,11(3):20-20.   \n[12] Ingwersen P, Martha EW. Cognitive information retrieval// Annual Review of Information Science and Technology,Volume 34,1999-2000,2001:3-52."
+  }
+}

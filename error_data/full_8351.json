@@ -1,0 +1,147 @@
+{
+  "original_filename": "full_8351.md",
+  "社交媒体危机主题演化模型构建与趋势分析": "",
+  "■马晓悦’　薛鹏珍²　陈忆金’朱多刚'": {
+    "context1": "丨西安交通大学新闻与新媒体学院西安 710049²西安电子科技大学经济与管理学院信息管理系西安 710071",
+    "context2": "3华南师范大学经济与管理学院广州510006",
+    "context3": "摘要：[目的/意义]基于社交媒体,探索突发事件信息生命周期中不同利益相关者的动态分类及其关注主题的演变规律,为更精准的危机信息监测与动态决策提供依据。[方法/过程]以特定危机事件的事实文本数据为来源,以利益相关者理论和动态主题模型为指导，构建三维动态主题演化模型以对社交媒体危机事件中不同利益相关者的分类与话题关注进行主题挖掘。其中包括时间粒度划分、利益相关者的定量评估、基于时间和主体的危机主题观点识别与刻画,并利用可视化工具对该动态趋势进行表征。[结果/结论]基于三维动态主题演化模型,利益相关者的组成与分类在不同阶段中具有明显的差异性，同时其关注主题与行为特征也体现出不同的偏好性和动态差异性。危机主体的动态与危机主题的动态有效结合，能够更加全面地表达舆情传播的特点和规律。",
+    "context4": "关键词：利益相关者 动态特征分类 动态主题演化 生命周期理论",
+    "context5": "分类号：G202  \nDOI: 10.13266/j. issn.0252 -3116.2021.13.008"
+  },
+  "1引言": {
+    "context1": "近年来,突发公共危机事件使得我国各级政府和应急管理部门对突发事件应急响应给予前所未有的高度重视[1]。随着物联网和大数据等技术的不断发展，研究者们关于应急信息的管理研究越来越考虑到时空动态特性变化这一特征和趋势[2],危机利益相关者的实时动态信息需求与演变模式也随之成为了研究热点[3]。同时,越来越多用户选择利用社交媒体平台展现其对于危机事件的关注,网络舆情也在反映民意中承担着重要作用[4]。突发事件本身的危害性、突发性等特征与互联网平台的自由性等特点相互叠加,形成突发事件网络中的不同主题[5]。这极大程度加剧了危机信息传播的复杂性与不确定性，对突发事件的有效治理形成了极大挑战,并影响着社会和谐与稳定[6。因此,及时监测媒体平台中突发事件相关的网络热点话题,解析突发事件网络舆情所折射的真实民众需求，对于突发事件公共治理问题等具有重要现实意义[7]。",
+    "context2": "危机信息是危机响应和管理的关键。对信息进行全面的需求分析,有助于危机管理人员对事件的发展过程有全面的认识，并能及时调动资源进行救援工作。已有研究从多个阶段、多个维度、利用多种方法对危机利益相关者的信息需求进行了研究,然而大多数研究忽略了在不同的阶段中危机利益相关者的特征分类与组成是动态变化的特点。",
+    "context3": "鉴于此,本研究从利益相关者动态分类的角度切入，重新审视社交媒体中危机主题的演化过程。首先，在利益相关者的辨识中，考虑不同阶段下涉及的利益相关者分类不同,从相关性、影响力、关注度等维度对利益相关者的分类进行综合评估，明晰各个阶段中利益相关者的动态组成和分类变化。其次，依据三维动态主题演化模型(多阶段、多主体、动态需求），分析在不同阶段和不同主体这两者共同作用下，利益相关者的信息需求演变规律。最后，在不同阶段下,针对利益相关者的分类及其话题关注度演化规律进行案例验证,并利用可视化工具进行表征。"
+  },
+  "2 相关研究综述": "",
+  "2.1危机管理领域的利益相关者分析": {
+    "context1": "危机管理中的利益相关者是指任何能够影响事件应急响应任务完成和目标实现,或者受事件应急响应策略目标实现影响的团体或个人[8]。探索不同利益相关者的信息关注点及其演变趋势可以帮助危机事件决策部门掌握各类角色的信息需求,并采取相应的应对措施[9],从而及时发现明显的极端言论,正确引导网络舆情[10] 。",
+    "context2": "针对危机利益相关者的分类研究，研究者们提出了不同的方法和标准。通过实地访谈,突发事件的利益相关者可以分为志愿者、公共管理者与突发事件服务者[];将多元主体理论融入突发事件案例知识库的组织中,地震中的利益相关者可以划分为：政府及其职能部门、政府抢险人员、灾区受灾群众等10类[12]。此外,突发事件的相关者还可以划分为群众、管理者、应急人员以及企业4种[13]。借鉴\"米切尔评分法”的思路,沙勇忠等提出了公共危机的利益相关者分析模型,根据公共危机相关者的三维属性将利益相关者分为：核心利益相关者、边缘利益相关者以及潜在利益相关者[14]。根据利益相关者的划分方法,危机利益相关者分析在多个具体应用领域被证明有助于危机管理。例如，在风险评估中引入利益相关者分析可以优化决策管理[15];在水灾管理领域,从利益相关者的角度可以分析水灾的风险管理问题[16]；针对食品安全突发事件,研究者将应急事件中的多元主体分为9种类型，进而提出多元主体管理的四大步骤[17];识别核废物处理问题中的利益相关者有助于分析其对风险的认知[18]。此外还有研究者提出随着“社会利益相关者”的出现,利益相关者的角色也在发生转变[19]。",
+    "context3": "综上所述,研究者将利益相关者理论应用于不同类型的危机事件，从多个分类角度对应急管理中涉及的利益相关者进行了辨识与分类。然而，在危机发展的不同阶段中，利益相关者的特征分类与组成处在动态变化的过程中，基于利益相关者理论的网络舆情中的用户分类方法是动态的,不同的利益相关者在一定条件下可以转换，关于各主体分阶段、分区域的分类与辨识等问题尚未有研究明确揭示。"
+  },
+  "2.2　危机信息需求演化及社交平台主题演化分析": {
+    "context1": "如何采取一种有效的分析框架对危机管理的信息需求进行识别,是危机信息领域一个需要深入研究的问题。首先，在危机用户需求的分类研究中，根据危机管理信息需求分析的相关概念界定，信息需求可以按照突发事件危机前、危机中和危机后3阶段进行划分[20],也可以划分为危机前和危机后两个阶段[21]。同时还有研究者根据应急管理中的信息需求和信息流进行危机阶段的划分[22]。其次,研究者在一些具体应用领域,如孟加拉国气候变化和灾害风险评估[23]、军事组织中的战略决策[24]等领域展开了危机信息需求分析。最后，在危机信息需求分析技术方面,研究者从信息系统的角度对消防、救护和警察3个机构联合开展应急活动进行信息需求分析[25]；或者利用数据挖掘技术设计业务连续性信息网系统原型,从而监测用户信息需求[26]。同时还有研究者通过建立技术分析模型,为灾害后预警反应阶段中各机构选择沟通渠道和工具提供对应的信息依据[27]。",
+    "context2": "对以社交媒体为来源的网络舆情进行热点话题识别与监测是危机信息需求演化研究的热点方向之一。研究者针对网络舆情内容进行共现分析从而监测主题演变趋势[28],在对事件关键词加权的基础上利用社交网络分析方法实现共现网络聚类[29],以可视化的形式呈现应急信息的监测[30]。基于动态主题模型,研究者根据时间序列将语料库离散到对应的时间窗口，依次处理后最终形成话题随时间的演化[31-32]。利用澳大利亚危机跟踪工具,研究者从 Twitter 和 Instagram 上获取灾害信息，并进行主题分析[33]。此外，趋势敏感的潜在狄利克雷[34] 多分面主题建模的统一框架[35]等方法也常被用来揭示社交平台的话题演化特性。在舆情监测领域,研究者通过对用户搜索内容展开分析实现舆情话题的聚类[36]，将用户信息行为引入社交网络舆情话题发现过程,从而实现舆情监测[37]。用户情感分析领域的研究结果显示,突发事件在媒体平台的扩散正是通过网络用户面对此类信息时所体验到的焦虑、质疑等复杂的信息感知和信息需求来推动的[38]。此外有研究者通过社区问答平台中的主题建模来跟踪用户角色的演变,及其对社区问答中问题建议性能的影响[39]。",
+    "context3": "综上所述,现有研究者已经从危机管理不同阶段、多个应用领域以及多种技术等角度对应急管理中的信息需求进行了分析与模型构建研究。然而在危机不同阶段,随着利益相关者的变化,危机管理各主体的信息需求也随之变化,关注各阶段各利益相关者动态变化的信息需求的研究仍有所欠缺。现有的话题演化分析研究大多是从单一的时间或主体维度来分析不同时间段的话题演化,鲜有研究从发布主体的动态性和时间动态性这两个维度来分析同一事件下不同人群在不同社交媒体平台上的话题演化规律。",
+    "context4": "本研究从利益相关者的动态分类视角，探讨社交媒体中危机主题随时间演化的特征及其可视化，主要研究3个问题： $\\textcircled{1}$ 危机发展的不同阶段中，利益相关者的分类如何动态变化; $\\textcircled{2}$ 利益相关者动态分类视角下,社交媒体危机事件多主题演化模型如何构建; $\\textcircled{3}$ 加入时间窗口后利益相关者的主题演化如何可视化呈现。"
+  },
+  "3 研究设计": "",
+  "3.1研究思路与流程": {
+    "context1": "为了实现危机利益相关者动态分类的社交媒体危机主题挖掘与发展规律剖析，本研究以突发公共卫生事件为研究对象,研究思路如图1所示。首先，以生命周期理论为依据划分危机信息生命周期的不同阶段；其次，基于评价指标体系对利益相关者进行动态特征分类;再次,基于DTM(Dynamic Topic Model)模型进行动态主题的挖掘与发展模式剖析;最后,将生命周期、利益相关者的动态分类以及动态话题演化三者进行可视化表征。",
+    "context2": "![](images/8a12e3be70486a022fd386dd393c4a2d4d5900adb798ec13244486e07e30c170.jpg)  \n图1研究流程设计"
+  },
+  "3.2　利益相关者动态分类的主题演化模型构建与分析方案": {
+    "context1": "本研究根据社交媒体数据的特征和特殊性,构建由生命周期、利益相关者、主题挖掘与演化3个维度因",
+    "context2": "素融合影响下的动态主题挖掘模型，见图2,主题挖掘结果与演化过程随着生命周期不同阶段与利益相关者类型而动态变化。",
+    "context3": "![](images/b3446d56248948cad96cad9348e2850419f5dc99b2674e09b83ebd34a8f8f5e2.jpg)  \n图2　利益相关者动态分类的主题演化模型"
+  },
+  "3.2.1突发公共事件社交媒体信息的生命周期划分": {
+    "context1": "根据社交媒体平台下突发公共卫生事件信息传播的特点,在生命周期理论的基础上,通过识别社交媒体信息数量变化及标志性事件，本研究将突发公共卫生事件社交媒体信息的生命周期划分为潜伏期、爆发期、衰退期、稳定期4个阶段。",
+    "context2": "(1)潜伏期。潜伏期的事件特征并不明显，只有较少用户或较小群体关注到此事件,难以引起媒体和政府部门的重点关注。该阶段的信息传播速度缓慢，相关的内容及信息数量较少。",
+    "context3": "(2)爆发期。爆发期中事件诱因持续累加,影响范围迅速扩大，相关信息爆炸性增长，较多用户都会关注到该事件。该阶段信息的发布数量持续上升。",
+    "context4": "(3)衰退期。该阶段持续时间相对较长,由于管理者进行应急响应使得灾情趋向好转,相关性较低的群众对于事件的关注度也逐渐降低。",
+    "context5": "(4)稳定期。该时期事件已经得到基本控制，社会秩序逐渐恢复，仅有少部分人群仍在关注，相关信息数量起伏较小。"
+  },
+  "3.2.2利益相关者的识别与动态分类方法": {
+    "context1": "根据利益相关者理论,在突发公共卫生事件生命周期基础上，本研究将突发公共卫生事件的利益相关者归纳为四大类;医药相关人员、政府机构、企业与媒体。这四大类利益相关者又可详细划分为主媒体、自媒体、经济、政府医药机构等10小类用户主体。以新浪微博为例,首先基于用户名称和认证信息识别的方法对利益相关者进行分类,即通过匹配账号的用户名、认证说明、工作单位、简介等信息中的关键词对利益相关者进行划分。其次对利益相关者进行认证识别后，基于信息生命周期的不同阶段对其进行定量评估（见图3)。最后为更好地识别利益相关者的动态组成与分类,本研究从相关性、影响力、关注度3个指标出发对各个利益相关者进行计算。",
+    "context2": "![](images/f770618d946a61d4d7a66f19b25d3234fc47a0f94a915f2b125fb29a3f59346e.jpg)  \n图3利益相关者的定量评估与优化",
+    "context3": "在相关性这一指标计算中，本研究通过获取相关微博中涉及的文字数量、图片数量、视频数量来进行定量评估[40]。由于文字、图片、视频这三者在信息传播中具有的权重不同,本研究采用公式(1)计算其相关性。",
+    "context4": "$$\n\\mathrm { S _ { R } = \\frac { \\displaystyle \\frac { S _ { w } } { A _ { w } } + \\frac { S _ { p } } { A _ { p } \\Omega * 2 } + S _ { v } } { S _ { p } } }\n$$",
+    "context5": "其中， $\\mathrm { \\Delta S _ { \\mathrm { R } } }$ 代表在特定阶段中,某一特定类型利益相关者的相关性总得分， $\\mathrm { S } _ { \\mathrm { w } }$ 表示其相关微博中的文字总数， $\\mathrm { A } _ { \\mathrm { w } }$ 表示这一阶段中所有微博的文字数均值, $\\mathrm { S } _ { \\mathrm { p } }$ 表示其相关微博中的图片总数， $\\mathrm { A } _ { \\mathrm { P } }$ 表示这一阶段中所有微博的图片数均值， $\\mathrm { S } _ { \\mathrm { v } }$ 表示其相关微博中的视频总数， $\\mathrm { S } _ { \\mathrm { P } }$ 表示这一阶段中特定类型利益相关者总数。",
+    "context6": "关于影响力指标计算,本研究通过获取相关账号的粉丝数量及其发布微博下的转发、评论、点赞量等，构建公式(2)来计算。",
+    "context7": "$\\mathrm { S _ { \\mathrm { { I } } } = S _ { \\mathrm { { L } } } * 0 . 2 + S _ { \\mathrm { { R E } } } * 0 . 4 + S _ { \\mathrm { { C } } } * 0 . 4 }$ 公式(2)",
+    "context8": "其中， $\\mathrm { S } _ { \\mathrm { I } }$ 表示在特定阶段中,某一特定类型利益相关者的影响力总得分， $\\mathrm { S } _ { \\mathrm { L } }$ 表示其相关微博中的点赞总量， $\\mathrm { S } _ { \\mathrm { R E } }$ 表示其相关微博中的转发总量， $\\mathrm { S _ { c } }$ 表示其相关微博中的评论总量。",
+    "context9": "关注度计算的目的是得到在特定阶段中哪一类型的利益相关者关注度较高,即较为活跃。因此,本研究采用公式(3)对其进行计算。",
+    "context10": "$$\n\\mathrm { S _ { A } = \\frac { \\Gamma _ { \\mathrm { { a } } } ( \\mathrm { { i } } , \\mathrm { { j } } ) } { \\sum _ { \\mathrm { { i } } = 0 } ^ { 9 } \\sum _ { \\mathrm { { i } } = 0 } ^ { 3 } \\mathrm { { a } } ( \\mathrm { { i } } , \\mathrm { { j } } ) } }\n$$",
+    "context11": "其中， $\\mathrm { S _ { A } }$ 代表在特定阶段中,某一特定类型利益相关者的关注度总得分，i代表10类用户主体标签的序号，j代表4个危机阶段的序号。"
+  },
+  "3.2.3突发公共卫生事件社交媒体中的利益相关者话题发现及可视化表征方法": {
+    "context1": "首先,为更好地对动态主题进行获取,本研究采用",
+    "context2": "DTM动态主题模型来实现研究目的。传统的时间序列建模主要集中在连续数据上，而动态主题模型则是针对分类数据设计的。在动态主题模型中,将数据划分为时间片，再用K-Component主题模型对每个切片的文档进行建模,其中与切片t相关的主题从与切片t-1相关的主题演变而来。其次,根据研究的需求,本文选择微博帖子和用户短评论作为初始的语料。考虑到文本分析的效率,对微博所表达的观点、语义结合内容进行总结,在进行人工处理后建立了规范的基础语料库。之后利用分词工具包实现中文分词、去除停用词等自然语言处理过程,剔除无实际意义的词语,得到整齐、结构化的数据,并以此作为实验所用的语料。本研究采用数据挖掘的方法,以新浪微博这一社交平台为数据来源。首先,选定使用案例,根据微博中相关信息数量多少的变化,划分出危机发展的不同阶段；其次，在每个阶段的所属时间内，获取利益相关者的微博数量、该阶段的粉丝增长数、转赞评数,从而获得不同阶段中利益相关者的活跃度变化以及所占“权重”的动态组成;再次，在利益相关者动态特征分类的基础上,明晰其不同阶段的话题关注及演变趋势。最后,为直观地展示突发卫生事件中不同利益相关者在社交网络中的动态分类、传播及演化过程,本文借助可视化工具来展示其演化趋势。"
+  },
+  "4 研究结果": "",
+  "4.1 数据采集结果": {
+    "context1": "本研究利用网络爬虫工具,采集微博上关于“长生疫苗造假\"事件的话题数据。研究抓取数据包括：微博发布内容、微博评论内容、微博发布者ID、微博评论者ID等。采集时间为2018年7月1日至2018年8月30日，共获得88647条微博数据。为了更好地权衡可视化的效果和数据的变化,笔者选取3天为一节点,将这3天内的数据总和作为该节点值。图4为统计的微博发布和评论数据总的传播量趋势。根据“长生疫苗造假\"话题传播量趋势，本文首先对所研究的舆情案例进行信息传播周期的切分，周期分为4个阶段：潜伏期（7月1日-7月20日）、爆发期（7月21日-7月25日）、衰退期（7月26日-8月18日）、稳定期(8月19日-8月30日）。",
+    "context2": "![](images/14fc1f87f0af3fe67a349c27c6baeed25e5358639ca66ba6a7f359d70c57de99.jpg)  \n图4 “长生疫苗造假”信息传播量趋势"
+  },
+  "4.2利益相关者的动态组成分类与主题演化模式": {
+    "context1": "根据利益相关者识别算法,分析结果见表1,本研究所使用的样本数据集中，共出现四大类10个子类的利益相关者。",
+    "context2": "表1中共计10类利益相关者，本研究将其按照总分排序。其中前3名视为核心利益相关者,4-7名视为边缘利益相关者,8－10名视为潜在利益相关者。由表1中排名可知,各个利益相关者在不同阶段中活跃度、微博数等因素的变化,导致其所属分类也具有显著差异。",
+    "context3": "本研究分别对实验语料库进行不同阶段的DTM主题抽取，得出每个阶段的10个抽取主题及该主题下的15个相关词项。为了更准确地挖掘、解读主题语义，本研究选取传播周期各阶段强度前5的热点主题进行分析，且择优选取热点主题下概率较高的10项特征词进行主题解读。热点主题特征词归纳结果如表2所示：",
+    "context4": "表1各类型利益相关者在不同阶段的定量评估结果",
+    "context5": "<table><tr><td>得分所属分类</td><td>潜伏期</td><td>爆发期</td><td>衰退期</td><td>稳定期</td></tr><tr><td>核心</td><td>主媒体</td><td>主媒体</td><td>主媒体</td><td>主媒体</td></tr><tr><td rowspan=\"5\">边缘</td><td>自媒体</td><td>政府其他机构</td><td>其他企业</td><td>医药相关</td></tr><tr><td>经济</td><td>自媒体</td><td>政府其他机构 政府其他机构</td><td></td></tr><tr><td>政府其他机构</td><td>医药相关</td><td>自媒体</td><td>经济</td></tr><tr><td>医药相关</td><td>其他企业</td><td>经济</td><td>自媒体</td></tr><tr><td>其他企业</td><td>经济</td><td>政府医药机构</td><td>教育</td></tr><tr><td rowspan=\"4\">潜在</td><td>教育</td><td>教育</td><td>娱乐</td><td>其他企业</td></tr><tr><td>政府医药机构</td><td>医药企业</td><td>教育</td><td>娱乐</td></tr><tr><td>娱乐</td><td>娱乐</td><td>医药相关</td><td>政府医药机构</td></tr><tr><td>医药企业</td><td>政府医药机构</td><td>医药企业</td><td>医药企业</td></tr></table>",
+    "context6": "表2　潜伏期信息传播热点主题抽取结果",
+    "context7": "<table><tr><td>Topic 1</td><td>Topic 2</td><td>Topic 3</td><td>Topic 4</td><td>Topic 5</td></tr><tr><td>0.0807疫苗</td><td>0.1024 疫苗</td><td>0.0666 生物</td><td>0.0189 疫苗</td><td>0.0744 疫苗</td></tr><tr><td>0.0496长生</td><td>0.0633长生</td><td>0.0515长生</td><td>0.0164长生</td><td>0.0450 长生</td></tr><tr><td>0.0352长春</td><td>0.0386生物</td><td>0.0446疫苗</td><td>0.0089 围观</td><td>0.0307长春</td></tr><tr><td></td><td>0.0339 狂犬病0.0266 长春</td><td>0.0141造假</td><td>0.0073造假</td><td>0.0302 山东</td></tr><tr><td>0.0204造假</td><td>0.0262造假</td><td>0.0109 跌停</td><td>0.0067长春</td><td>0.0193百白破</td></tr><tr><td>0.0181公司</td><td>0.0180事件</td><td>0.0078公司</td><td>0.0059 彻查</td><td>0.0133流向</td></tr><tr><td>0.0178记录</td><td>0.0105孩子</td><td>0.0075退市</td><td>0.0056生物</td><td>0.0127合格</td></tr><tr><td>0.0160 生物</td><td>0.0098武汉</td><td>0.0074 百白破0.0053 微博</td><td></td><td>0.0122接种</td></tr><tr><td>0.0134狂犬</td><td>0.0094百白破0.0071亿元</td><td></td><td>0.0037回答</td><td>0.0121公司</td></tr><tr><td>0.0115涉事</td><td>0.0057 接种0.0069 表态</td><td></td><td>0.0035世界</td><td>0.0108 疾控中心</td></tr><tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr></table>",
+    "context8": "突发事件信息生命周期各阶段的主题语义分析见图5。在潜伏期中,微博发布的最热点主题是“长生疫苗造假\"这一事件本身。不同类型的利益相关者基于该事件纷纷发表了自己的看法与评论。其中,同时期的\"武汉疫苗事件”由于事件性质的相似性,也被人们大量提及。除此之外，长生公司的股票、退市等问题也引发了网友的热烈讨论，成为该时期的第3热点话题。同时微博舆情与后续的疫苗流向等话题也被人们所关注。在爆发期中,除去长生疫苗造假事件本身与股票问题等热点话题外，疫苗造假的详细批次与记录等事件细节逐渐被人们探讨。此外，相关政府机构也开始介入这一事件的调查,长生公司的负责人处于舆论的风口浪尖。在衰退期中，“官员”“自杀”等关键词组成了新的热点话题,并且由于相关受害者的疫苗免费接种等话题的出现,舆论逐渐开始出现了正向的情感表达。在稳定期中,该事件的讨论度趋于平缓,用户的态度也不再严厉和具有批判性，而是逐渐转向一些更为轻松的娱乐、健康话题,例如电影“我不是药神”等话题又成为了热点。",
+    "context9": "由此可见,样本数据对应事件在潜伏期的热点主题分别为“事件报道”与“事件讨论”，爆发期的热点主题分别为\"事件追查”和\"事件情感”,衰退期的热点主题分别为“事件处置”和\"事后安排”，稳定期的热点主题分别问“事件总结”和\"事件相关话题”。",
+    "context10": "基于利益相关者的动态组成分类与危机主题演化的可视化图见图6。图6中不同矩形代表事物的不同类别,矩形的高度代表该类别所占的比例大小。可见，在不同的危机发展阶段中,10 种类型的利益相关者动态变化,分别映射到不同的分类中,继而又映射到不同的危机主题。"
+  },
+  "5讨论": {
+    "context1": "根据上述验证结果,构建利益相关者动态分类的危机主题演化模型可以更好地展示事件发展的动态性与整体趋势。利益相关者的动态分类表明了不同的危机主体在不同阶段中具有不同的“权重”。该“权重”变化趋势与其关注主题的变化趋势相结合，更准确、快速地发现了危机事件的演变规律与舆情走向，同时还可以挖掘出潜在的相关规律。该模型验证结果回答了开篇提到的两个研究问题,并得出以下启示。"
+  },
+  "5.1利益相关者随事件生命周期动态分类方法有助于危机管理中各个利益方的有效协调与协同": {
+    "context1": "根据模型验证结果可知,在不同的危机发展阶段中,利益相关者的权重得分与排名存在显著的差异性。这种差异性体现出各利益相关者在信息传播过程中，所受到的关注度、具有的影响力、被认同度等因素是动态变化的。同时,利用这种差异性,管理者可以有效协调各利益相关者的管理策略,使其协同效率最大化。",
+    "context2": "首先,利益相关者的动态组成与分类可以体现出危机主体在不同阶段的重要性。由表1可知,在危机发展全过程中，主流媒体这一利益相关者的权重得分始终处于首位,高于医药相关部门及企业。这表明在社交媒体平台中,用户对于媒体账号的关注度高于特定的机构组织。当医疗机构账号和媒体账号对同一信息进行发布或转载时,大部分用户往往选择更为熟悉的媒体账号来关注该信息,导致媒体账号的转发、评论、点赞数居于高位。此外在该事件的潜伏期中,经济领域的利益相关者具有较高的权重。这表明事件曝光初期,用户针对股票等信息走向进行了较多讨论与预测,这与安璐等的研究结果相符合[41]。而在之后的阶段中，该领域的权重呈现出降低趋势,这说明随着事态的升级,大量的网络用户参与讨论,更关注于事件本身的发展趋势,从而导致经济这一领域的关注度比例降低。",
+    "context3": "同时，利益相关者的动态组成与分类为动态协调提供了依据。作为公共危机的管理者要采取利益协调策略以实现协同效应。不同类型的利益相关者不能“等量齐观”,要高度重视核心利益相关者的作用。例如,对于主流媒体这一利益相关者来说,由于其惯有的娱乐性，因此在事件的报道中可能通过夸大某些字眼来获得更多的关注。而其又在舆情传播中又具有较高的权重，因此危机管理者要重视媒体账号这一舆论前沿阵地,加大对其新闻内容的审查,确保客观真实，从而起到良好的舆论导向作用。而对于医疗相关机构这一权重较低者来说,危机管理者应适当地加强其宣传力度,使其在信息传播中充分发挥作用。",
+    "context4": "![](images/a81bc5535b6bc10f58dc29476a78ccae465eac648af67cc677839ecd00068897.jpg)  \n图5　利益相关者在不同阶段关注主题的演化"
+  },
+  "5.2动态主题演化模型中“主体的动态”与“主题的动态”相结合有助于全面刻画危机事件的发展过程并记录实时走向": {
+    "context1": "利益相关者动态分类的危机主题演化模型更能有效表征危机管理的实时动态性，为智慧危机管理模式提供了思路。动态主题演化模型可以提高网络信息分析能力，监测危机演化趋势,有效引导舆情。本文从利益相关者的动态视角切入，拓展以往微博危机事件中用户分类的研究,引入信息传播过程中的参与主体并明晰其相关趋势，使得不同阶段中危机主要主体更加明确,相关部门的舆情分析更加具有针对性。主体的动态与主题的动态相结合，更有助于危机管理者和相关部门及时有效地进行舆情引导和管理。此外，本文借助利益相关者理论的相关成果应用到微博舆情研究,分析微博舆情传播过程中的利益相关者,构建微博舆情利益相关者的定量分类模型,拓宽和丰富现有的研究视角和结论。",
+    "context2": "利益相关者动态分类的危机主题演化模型从“主题－人-时间\"3个维度刻画了社交媒体危机事件的发展过程,深化了社交媒体危机事件的信息聚合理论。",
+    "context3": "![](images/ee58d51da6aa8bb2235d227367f3fe3595ec0a94dec7b2bbdad56459ac092409.jpg)  \n图6利益相关者和主题演化的动态表征",
+    "context4": "该模型在划分突发事件演化周期的基础之上，分析了不同阶段不同危机主体危机信息需求特征、类型及内容。这与曹树金等所提出的多模式综合的深度聚合发展趋势相吻合,即情景－关系－聚合对象的聚合[42]。危机情景的细化和深入研究势必带来多模式的综合应用,可以进一步满足危机主体复杂的、多样的和动态的需求。"
+  },
+  "6 结论": {
+    "context1": "传统的媒体平台中危机主题演化研究大多聚焦于信息需求这一研究角度。本研究从利益相关者动态分类的视角切入，在利益相关者理论的基础上进行定量评估,基于主体的动态来剖析主题的动态,进而发现两者之间可能存在的关系以及潜在发展规律。理论上，本研究明晰了应急管理中利益相关者的特征分类与信息需求变化模式,提出了三维动态主题演化模型。从危机多阶段、多元主体、动态信息需求3个不同的维度系统全面地分析了危机信息的需求及应急信息之间的内在关系，建立了危机信息动态分析模型,探讨了突发事件下共性的危机信息需求。实践上，本研究为公共危机管理体系中各主体的协调策略与管理提供了依据。不同类型的危机主体不能等量齐观，要高度重视核心主体的作用，积极引导边缘的危机主体主动参与公共危机的救助，为实时应急决策情报体系建设提供参考。"
+  },
+  "参考文献：": {
+    "context1": "[1］NAWEEDA，BYE R.Joint cognitive systems：patterns in cogni-tive systems engineering[J]．Ergonomics，2008，51（5）:768-770.  \n［2]马晓悦,薛鹏珍.大数据环境下的信息时空分析与应用研究评述[J].情报理论与实践，2020，43(2)：164-170.  \n［3］丁学君，樊荣，苗蕊,等．社会化媒体中突发公共卫生事件舆情传播规律研究[J]．信息系统学报，2018(2)：1-14.  \n［4］刘雅姝，张海涛,徐海玲，等.多维特征融合的网络舆情突发事件演化话题图谱研究[J].情报学报,2019,38(8)：798-806.  \n[5］ZAHRAK，IMRANM,OSTERMANNFO.Automatic identifica-tion of eyewitness messages on Twitter during disasters[EB/OL].[2021-01-27].https://www.sciencedirect.com/science/arti-cle/pii/S0306457319303590.  \n［6］马哲坤,涂艳.基于知识图谱的网络舆情突发话题内容监测研究[J].情报科学，2019，37(2)：33-39.  \n［7］安璐,吴林.融合主题与情感特征的突发事件微博舆情演化分",
+    "context2": "析[J].图书情报工作,2017,61(15)：120-129.",
+    "context3": "[8]TOWERS S,AFZAL S,BERNALG，et al.Mass media and the contagion of fear：the case of Ebola in America[EB/OL].[2021- 01-27].https://journals.plos.org/plosone/article? $\\mathrm { i d } = 1 0$ 1371/ journal.pone.0129179.",
+    "context4": "[9]STARBIRD K，PALEN L.“Voluntweeters”：self-organizing by digital volunteers in times of crisis[C]//Proceedings of the SIGCHI conference on human factors in computing systems.Vancouver：ACM Press,2011:1071-1080.",
+    "context5": "[10]YUN H.Analysis of similarity of twitter topic categories among regions［J].Journal of information and communication convergence engineering，2012，10(1）：27-32.",
+    "context6": "[11］LUDWIG T，KOTTHAUSC，REUTER C，et al．Situated crowdsourcing during disasters：Managing the tasks of spontaneous volunteers through public displays[J].International journal of human-computer studies,2017，102：103-121.",
+    "context7": "[12］邓三鸿,刘喜文，蒋勋.基于利益相关者理论的突发事件案例知识库构建研究[J].图书与情报，2015(3)：1-8.",
+    "context8": "[13]MALTONI C,ROSSI C,SANCHEZ G. Improving resilience to emergencies through advanced cyber technologies：the I-REACT project[J].GEOmedia,2017,21(3)：18-22.",
+    "context9": "[14］沙勇忠,刘红芹.公共危机的利益相关者分析模型[J].科学经济社会，2009，27(1)：58-61.",
+    "context10": "[15]APOSTOLAKIS G E,PICKETT S E.Deliberation：integrating analytical results in to environmental decisions involving multiple stakeholders[J].Risk analysis,1998,18(5）:621-634.",
+    "context11": "[16］VARIA，LINNEROOTH-BAYERJ，FERENCZZ.Stakeholder views on flood risk management in hungary’s Upper Tisza Basin [J]．Risk analysis,2003,23(3）:585-600.",
+    "context12": "[17］WILSON TD.On user studies and information needs[J].Journal of documentation,1981,37（1)：3-15.",
+    "context13": "[18］ SJOBERG L.Atitudesand risk perceptions of stakeholders in a nuclear waste siting issue[J]．Risk analysis,2003,23(4）：739- 749.",
+    "context14": "[19］MAASSEN P.The changing roles of stakeholders in Dutch university governance[J]．European journal of education,2Ooo,35（4）： 449 -464.",
+    "context15": "[20]KLENK JS. Emergency information management and telecommunications[J]．Journal of dairy research，1997，46（2）:1045- 1057.",
+    "context16": "[21]REGO A J. National disaster management information systems & networks：an Asian overview[EB/OL].［2021-01-27]．http://adpc.net/infores/adpc-documents/paperatgdinO1.pdf.",
+    "context17": "[22]WU G X. Information needs and flow for disaster management[EB/ OL].[2021 -01 -27].https://www.itu.int/en/ITU-D/Emergency-Telecommunications/Documents/Thailand_2Oo6/finall/Session% 207/SESSION% 207% 20[ESCAP]% $2 0 \\mathrm { M r } \\%$ $20 \\%$ 20Guoxiang. pdf.",
+    "context18": "[23]ANDERSSON T.Adaptation to climate change-gendered processes , power and places in the national adaptation programmes of action [EB/OL].[2021-01 -27]．http://lup.lub.lu.se/luur/download?func $=$ downloadFile&recordOId $=$ 1324113&fileOId $=$ 1324114.",
+    "context19": "[24］KUUSISTOT，KUUSISTOR,YLINIEMIT.Information needsof strategic level decision-makers in crisis situations[C]//Proceedings of the 4th European conference on information warfare and security. Glamorgan: University of Glamorgan,2O05:187-194.",
+    "context20": "[25]GHAFARIAN SH,YAZDIHS.Identifying crisis-related informative tweets using learning on distributions[EB/OL].［2O21-01 -28]．https://www.sciencedirect.com/science/article/pii/S030 645731930322X.",
+    "context21": "[26]ZHENGL,SHEN C，TANGL，et al.Using data mining techniques to address critical information exchange needs in disaster affected public-private networks[C]//Proceedings of the 16th ACM SIGKDD international conference on knowledge discovery and data mining.Washington，DC：ACMPress,2010:125-134.",
+    "context22": "[27]RYAN B.A model to explain information seeking behaviour by individuals in the response phase of a disaster[J].Library $\\&$ information science research，2018，40(2）:73-85.",
+    "context23": "[28] SAYYADI H,RASCHID L.A graph analytical approach for topic detection[EB/OL].[2021-01-28]．htps://dl.acm.org/doi/ 10.1145/2542214.2542215.",
+    "context24": "[29]YAN S,TANG S T,PEI S,et al. The spreading of opposite opinions on online social networks with authoritative nodes[J]．Physica a-statistical mechanics $\\&$ its applications，2013，392（17）：3846 -3855.",
+    "context25": "[30]WANGQ S,YANG X，XIWY.Efects of group arguments on rumor belief and transmission in online communities：an information cascade and group polarization perspective[J]. Information & management，2018,55(4）:441-449.",
+    "context26": "[31]BLEID M,LAFFERTYJD.Dynamic topic models[C]/／Pro-ceedings of the 23rd international conference on machine learning.New York：ACMPress，2006：113-120.",
+    "context27": "[32]SHERCHANW,PERVIN S,BUTLERCJ,et al.Harnessing Twitter and Instagram for disaster management[EB/OL].[2O21-O1 -28]. https://ieeexplore.ieee.org/abstract/document/8l67723.",
+    "context28": "[33]FINK S.Crisis management:planning for the inevitable[M]．New York：American Management Association,1986.",
+    "context29": "[34]YANG M C,RIM H C.Identifying interesting Twitter contents using topical analysis［J].Expert systems with applications,2014, 41(9):4330-4336.",
+    "context30": "[35]VOSECKY J,JIANG D,LEUNG KWT,et al. Integrating social and auxiliary semantics for multifaceted topic modeling in Twitter [EB/OL].[2021-01-28]．https://dl.acm.org/doi/10. 1145/2651403.",
+    "context31": "[36]FATHIR,THOMD,KOCH S,et al.VOST:a case study in voluntary digital participation for collaborative emergency management [EB/OL].[2021-01-28]．https://www.sciencedirect.com/ science/article/pii/S0306457319302316.",
+    "context32": "[37]HASAN M,ORGUNMA，SCHWITTERR．Real-time event detection from the Twitter data stream using the TwitterNews $^ +$ Framework[J].Information processing & management,2O19,56 (3):1146-1165.",
+    "context33": "[38]DAKICHEN,TAYEBFBS,SLIMANIY,etal.Tracking community evolution in social networks：a survey[J].Information processing & management,2019,56(3）：1084-1102.",
+    "context34": "[39］FU C G. Tracking user-role evolution via topic modeling in community question answering[EB/OL].[2021-01- 28]． htps://www. sciencedirect.com/science/article/pii/S030645731830709X.",
+    "context35": "[40］郑昌兴，苏新宁，刘喜文．突发事件网络舆情分析模型构建——基于利益相关者视阈[J]．情报杂志，2015,34（4）：71-75.",
+    "context36": "[41]安璐,杜廷尧,李纲，等.突发公共卫生事件利益相关者在社交媒体中的关注点及演化模式[J].情报学报，2018，37（4）：394-405.",
+    "context37": "[42］曹树金,马翠嫦.信息聚合概念的构成与聚合模式研究[J].中国图书馆学报，2016，42(3)：4-19."
+  },
+  "作者贡献说明：": {
+    "context1": "马晓悦：确定选题和研究内容，构建论文框架；  \n薛鹏珍：负责模型搭建,数据获取;  \n陈忆金：负责数据分析，论文撰写；  \n朱多刚：负责数据分析，论文定稿。"
+  },
+  "Construction and Trend Analysis of Crisis Theme Evolution Model in Social Media": {
+    "context1": "Ma Xiaoyue' Xue Pengzhen’ Chen Yijin’Zhu Duogang",
+    "context2": "1 School of Journalism and New Media, Xi'an Jiaotong University， Xi’an 710049",
+    "context3": "² Department of Information Management， Xidian University， Xi'an 710126",
+    "context4": "School of Economics and Management， South China Normal University， Guangzhou 510006",
+    "context5": "Abstract: [Purpose/significance] Based on social media, this paper explores the dynamic clasification of differentstakeholders inthe informationlife cycle of emergencies andthe evolution rules of their concerns，so as to provide basis for more accurate crisis information monitoring and dynamic decision-making.[Method/process] Based on the factual text data of specific crisis events，guided by stakeholder theory and dynamic topic model,a three-dimensional dynamic topic evolution model was constructed to mine the clasification and topic concerns of diffrent stakeholders insocial media crisis events.Itincluded time granularity division,quantitative evaluationof stakeholders,identification and characterization of crisis themes based on time and subject.Finaly，the dynamic trend was characterized by visualization tools.[Result/conclusion] Based on the three-dimensional dynamic theme evolution model,the compositionand clasification of stakeholders have obvious differences in diferent stages.At the same time，their focus themes and behavior characteristics also show diferent preferences and dynamic differences.The dynamicsof thecrisis stakeholdersandthe crisis themeare effectively combined，which can more comprehensively express the characteristics and regulars of public opinion dissemination.",
+    "context6": "Keywords: stakeholdersdynamic feature classificationdynamic theme evolution life cycle theory"
+  }
+}

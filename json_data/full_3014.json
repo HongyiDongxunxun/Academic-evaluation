@@ -1,0 +1,62 @@
+{
+  "original_filename": "full_3014.md",
+  "nothing": {
+    "context1": "·信息资源开发与利用·"
+  },
+  "国内外机构库现状调查及建设": {
+    "context1": "朱咫渝",
+    "context2": "(浙江传媒学院图书馆，浙江杭州 310018)",
+    "context3": "[摘要]机构库是用来保存并使用机构研究成果的数据库，本文通过网络调查，对目前国内外机构库的应用软件、收录资料的数量、类型等进行了分析研究，并对国内的大学或研究机构如何着手规划建置机构库提出一些建议。",
+    "context4": "[关键词]机构库；自行典藏；开放获取",
+    "context5": "[中图分类号】G203 〔文献标识码]B〔文章编号〕1008－0821（2010）01－0070－03"
+  },
+  "The Investigation and Construction of Institutional Repository": {
+    "context1": "Zhu Zhiyu",
+    "context2": "(Library，Zhejiang University of Media and Communications，Hangzhou 31OO18，China)",
+    "context3": "[Abstract）Institutionalrepositoriesaredigitalcollections thatcontaintheintelecualoutputofuniversitiesorresearchisti tutes·Inthispaper，instiutionalrepositoriesonInteethavebeeninvestigated，andtheircharacteristicswereanalyzdbasedon theirapplicationsoftware，theamountof infomationcollcted，type，etcInaddition，theauthor proposedagudelineforuniversities to build their own institutional repository·",
+    "context4": "[Key words]institutional repository；self-archiving；open acces",
+    "context5": "机构库（institutional repository，简称IR）是开放获取运动中的一个重要内容，是由机构提供一个平台，由机构成员自己将个人或机构的研究成果提交到机构知识库中，在一定范围内传播使用，并进行长期保存。机构库发展最重要的原因来自于大学希望能够有一个完整保存学校学术成果产出的学术交流平台。本文希望能够通过调查和分析国内外机构库的建设情况，对国内大学机构库的规划建置提供建议。"
+  },
+  "1国内外机构库建设概况": "",
+  "1.1国内外机构库数量": {
+    "context1": "2002 年11月美国麻省理工学院（MIT）和惠普公司共同开发的第一个DSpace 系统机构知识库面世，可以说是拉开了全球范围内大规模建设机构库的序幕。根据 Registry ofOpen Access Repositories，ROAR （http: //roar· eprints· org/in-dex·php）注册的全球机构知识库，至2009 年3月已超过1300个，分布于60多个国家，其中欧美的发展最为蓬勃，美国 277个最多，英国135个居于第二位。（见表1)",
+    "context2": "表1全球机构库各国数量",
+    "context3": "<table><tr><td>洲别 (数量)</td><td>国别 (数量)</td></tr><tr><td>欧洲 (605)</td><td>英国（135）、德国（101)、法国（49)、瑞典（34)、意大利（42）、荷兰（26)、西班牙（48）、比利时（17）、丹 麦(13)、葡萄牙(21)、瑞士(8)、挪威(8)、匈牙利(8)、芬兰（9)、奥地利(6)、希腊(16)、俄罗斯（25)、 爱尔兰(10)、以色列(1)、克罗地亚(3)、斯洛文尼亚（1)、乌克兰（8)、波兰（7)、南斯拉夫（1)、冰岛 (1)、塞浦路斯 (2)、捷克(1)、罗马尼亚 (2)、爱沙尼亚(2)</td></tr></table>",
+    "context4": "续表1",
+    "context5": "<table><tr><td colspan=\"2\">洲别 (数量) 国别 (数量)</td></tr><tr><td>美洲 (432)</td><td>美国（277)、巴西(53)、加拿大(48)、墨西哥（9)、哥伦比亚(10)、智利（6)、秘鲁(9)、委内瑞拉（7)、哥 斯达黎加(3)、阿根廷(5)、古巴(1)、乌拉圭(1)、玻利维亚(1)、厄瓜多尔（2)</td></tr><tr><td>亚洲 (170)</td><td>印度（42)、日本（67)、中国大陆（10)、新加坡（3)、土耳其（6)、台湾（15）、香港（2)、巴基斯坦（1)、韩 国(3)、印度尼西亚(2)、菲律宾（1)、马来西亚（13)、孟加拉国（1)、沙特阿拉伯（1)、阿塞拜疆（1)、吉 尔吉斯坦 (2)</td></tr><tr><td>非洲 (20) 大洋州 (58)</td><td>南非(12)、纳米比亚(1)、埃及(3)、尼加拉瓜(l)、埃塞俄比亚(1)、津巴布韦(1)、加纳（1)</td></tr><tr><td>其他 (19)</td><td>澳大利亚 (43)、新西兰 (14)、萨摩亚 (1)</td></tr><tr><td>总计</td><td>1304</td></tr></table>"
+  },
+  "1.2创建机构库的软件平台": {
+    "context1": "目前，国内外创建机构库的软件主要可以分为4类：$\\textcircled{1}$ 专用系统，这类系统是IR研究项目的成果，如eScholarship、JISC IE、Knowledge Bank 等； $\\textcircled{2}$ 开放源代码和免费的系统，如 Dspace、Fedora、Archimede、CDSware 等； $\\textcircled{3}$ 商业系统，如 Documentum、Bepress、 $\\mathrm { U M / P r o Q u e s t }$ 研制的 Digital-Commons、DiMeMa 公司研制的CONTENTdm、Innovative 公司的 DRM、BioMed 中心的 Open Repository 等； $\\textcircled{4}$ 混合型的系统，如VTLS公司的Vital等。表2列出了ROAR网站上统计的各机构库使用的软件类型和数量。",
+    "context2": "表2机构库软件类型及数量",
+    "context3": "<table><tr><td>软件类型</td><td>数量</td><td>软件类型</td><td>数量</td></tr><tr><td>ARNO</td><td>6</td><td>Fez/Fedora</td><td>7</td></tr><tr><td>Bepress</td><td>82</td><td>Greenstone</td><td>4</td></tr><tr><td>CDS Invenio</td><td>14</td><td>HAL</td><td>10</td></tr><tr><td>DigiTool</td><td>4</td><td>i-Tor</td><td>1</td></tr><tr><td>DiVA</td><td>16</td><td>MyCoRe</td><td>4</td></tr><tr><td>DoKS</td><td>5</td><td>Open Journal System</td><td>5</td></tr><tr><td>DSpace</td><td>403</td><td>Open Repository</td><td>12</td></tr><tr><td>EDOC</td><td>2</td><td>OPUS（Open Publications System)</td><td>31</td></tr><tr><td>EPrints</td><td>319</td><td>SciX</td><td>3</td></tr><tr><td>ETD-db</td><td>25</td><td>Other softwares</td><td>354</td></tr><tr><td>Fedora</td><td>12</td><td></td><td></td></tr></table>"
+  },
+  "1.3机构库的学科及内容分布": {
+    "context1": "2005 年在荷兰阿姆斯特丹举行的“Making the StrategicCase forInstitutional Repositories”研讨会上发表了一个13个国家的机构库建置状况统计报告，其中表3、表4分别为机构库中资料类型涵盖百分比、学术领域涵盖百分比。",
+    "context2": "表313个国家机构库典藏资料类型百分比",
+    "context3": "<table><tr><td>国家</td><td>文章/ 论文 （%)</td><td>毕业 论文 （%)</td><td>书籍 （%）</td><td>原始 资料 (%)</td><td>影像资料、课程 音乐等 （%)</td><td>资料 (%)</td><td>其他 (%)</td></tr><tr><td>澳大利亚</td><td>8</td><td>8</td><td>1</td><td>83</td><td></td><td></td><td></td></tr><tr><td>比利时</td><td>33</td><td></td><td>66</td><td></td><td></td><td></td><td></td></tr><tr><td>加拿大</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>丹 麦</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>芬 兰 法 国</td><td>80</td><td>20</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>德 国</td><td>20</td><td></td><td>40~50</td><td></td><td>5</td><td>1</td><td>25</td></tr><tr><td>意大利</td><td>70</td><td></td><td>5</td><td></td><td></td><td>20</td><td>5</td></tr><tr><td>挪 威</td><td>10</td><td></td><td>90</td><td></td><td></td><td></td><td></td></tr><tr><td>瑞 典</td><td>30</td><td></td><td>70</td><td></td><td></td><td></td><td></td></tr><tr><td>荷</td><td>兰 20</td><td></td><td>40</td><td></td><td></td><td></td><td>40</td></tr><tr><td>英 美国</td><td>国 74</td><td></td><td>16</td><td>1</td><td>4</td><td></td><td>4</td></tr></table>",
+    "context4": "表413个国家机构库典藏资料学术领域涵盖百分比",
+    "context5": "<table><tr><td>国家</td><td>人文及 社会科学 (%)</td><td>生命 科学 (%)</td><td>自然 科学 (%)</td><td>工程 (%)</td><td>表演 艺术 (%)</td><td>其他 （%）</td></tr><tr><td>澳大利亚</td><td>49</td><td>19</td><td>17</td><td>9</td><td>3</td><td>3</td></tr><tr><td>比利时</td><td>33</td><td>39</td><td>16</td><td>11</td><td></td><td></td></tr><tr><td>加拿大 丹麦</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>芬 兰</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>法 国</td><td>18</td><td>1</td><td></td><td>4</td><td></td><td>67</td></tr><tr><td>德国</td><td>5</td><td>5~10</td><td>20</td><td>10~20</td><td>5</td><td>25</td></tr><tr><td>意大利</td><td>55</td><td>10</td><td>20</td><td>15</td><td></td><td></td></tr><tr><td>挪 威</td><td></td><td></td><td>30</td><td>20</td><td></td><td></td></tr><tr><td>瑞 典</td><td>30</td><td>20 20</td><td>30</td><td>20</td><td>1</td><td>19</td></tr><tr><td>荷 兰</td><td>20</td><td></td><td></td><td></td><td></td><td>6</td></tr><tr><td>英 国 美 国</td><td>16</td><td>12</td><td>25</td><td>41</td><td>4</td><td></td></tr></table>",
+    "context6": "从表4的数据可以看出，目前的机构库典藏资料涉及的学术领域较为宽泛，而且以典藏传统学术出版品和灰色文献为主。"
+  },
+  "2机构库建置的建议": {
+    "context1": "机构库是存取和长久保存机构知识成果的数字化资料集合，它提供一个集中化典藏的机制，能扩大研究成果与控制学术传播，增加学术竞争力，机构库是衡量机构研究质量的指标，它收藏文字、声音等多样性的资料形式，可保存机构内所有的历史传承与知识成果，集中典藏、保存、及散布机构的学术文化，机构可以通过机构库来展示他们的研究活动对科学、社会及经济的关联性，更可以增加机构的能见度、学术地位以及对公众的价值。各大学及研究单位建置本身的机构库时，应宣传机构库的效益，选取合适的建置软件，制定完善的机构库典藏政策。"
+  },
+  "2.1加强宣传机构库的效益": {
+    "context1": "机构库以数字化方式保存机构内全面性的研究成果，并以开放取用模式供大众使用，它的基础在于所属机构成员的共识和参与，用户是机构库的内容提供者同时也是使用者，其提交资料的意愿及支持程度关系着机构库的成败，因此大学在建置机构库之初，可以利用举办学术会议、短期课程等方式介绍和推广机构库的概念、使用方法等，取得有影响力的学者支持，积极推进机构库的建设。"
+  },
+  "2.2选取合适的机构库建置软件": {
+    "context1": "在众多的机构库建置软件中，DSpace、EPrints 和 Bepress 是使用最广泛的，其中DSpace 是一个免费的开放源代码的机构库构建软件，由MIT 和惠普公司联合开发，具有很强的灵活性和可定制性。目前，DSpace 联盟的许多成员使用该软件构建了本机构的机构库，如 MIT、Cambridge、Columbia、Comell、Massachusetts 等大学，以及国内的香港科技大学、厦门大学。DSpace 的设计原则是易于使用，它具有基于web的用户界面，这个界面可以为特定机构或个别的院系定制。",
+    "context2": "EPrints 是由南安普顿大学开发的一个通用免费软件，用于建立基于web 的档案系统。它是GNU（一个类似于U-NIX的操作系统）的一部分，采用Perl语言开发，运行在GNU/LINUX或UNIX系统上，但不能在Windows系统上运行，其缺省配置是构建机构库具有高度的可定制性。",
+    "context3": "Bepress 是Berkeley Electronic Press 开发的一个系统，用以促进学术交流的便捷畅通，它的核心软件是EdiKit，具有很强的灵活性，可以对用户的工作流和站点的设计进行定制。",
+    "context4": "在建置机构库时，必须根据实际需求选择合适的软件。"
+  },
+  "2.3制定完善的机构库政策": {
+    "context1": "机构库政策是指机构对成员研究成果进行汇集、保存和维护，以及提供使用所制定的行动方向或原则，包括建置目的、汇集内容、长久保存及服务提供等方面，特别是机构库所典藏的资料内容更是需要仔细考虑。一般来说，机构库典藏的学术成果包括该机构研究人员的学术论文全文、博硕士论文、各类技术报告与研究报告、研究记录等。此外，纳入机构库典藏范围的学术成果有3个侧重点，第一是强调机构库应收藏全文，因为书目资料无法完整记录此资料的所有面向、以及不同使用者所关注的不同焦点，只有全文收藏，机构的研究成果才能通过网络进行全文检索及获取；第二是不限研究成果的类型、使用语言、在国内或国外发表、或是否出版或未出版，均应完整纳入典藏;第三则是强调不同学科间的差异，并非所有的学科都以期刊或书籍为学术传播的惟一渠道，所以应加强收集与管理机构内产生的各种数字化资源及灰色文献。"
+  },
+  "3结语": {
+    "context1": "机构库是大学或机构集中所有学术研究成果的资产管理系统，对内是研究人员的研究交流平台，能够记录机构内研究的传承与发展；对外则能帮助机构展现研究力，提高机构学术成果的能见度与影响力。目前国内机构库建设尚属萌芽阶段，未来如何推动机构库建设将是一个值得深入思考的问题。"
+  },
+  "参考文献": {
+    "context1": "[1]姜瑞其．国外机构库发展概况[J]．图书情报工作，2005,(11)：142—145.  \n[2]柯平，王颖洁．机构知识库的发展研究[J]．图书馆论坛，2006，(6)：243—248.  \n[3]欧美大学机构典藏的发展现况[EB]．htp://libraryviews·blogsome·com/2005/09/19/142/#m0re—142，2009—03—15.  \n[4] The case for institutional repositories：A SPARC position paper [EB].http:// www·arl·org/sparc/IR/IR-Final-Release-lO2.pdf，2009-03—15.  \n[5]袁顺波，董文驾．机构库的起源、影响及图书馆的应对策略[J]．情报资料工作，2006，(2)：44-46."
+  }
+}

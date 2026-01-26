@@ -1,0 +1,107 @@
+{
+  "original_filename": "full_8479.md",
+  "●张继洋，李宁（上海大学 图书情报档案系，上海200444)": "",
+  "科学合著网络研究进展分析": {
+    "context1": "摘要：分析目前合著网络研究的缺陷，介绍社会网络分析法的小团体分析、中心性分析以及角色分析和复杂网络的小世界性、无标度性在合著网络中的应用前景，以及国内外的研究现状，为合著网络的研究提供借鉴。",
+    "context2": "关键词：合著网络；社会网络分析；复杂网络分析；科学计量学；研究进展",
+    "context3": "Abstract:This paper analyzes the defects incurrnt researchoncolaboration networks，and describes the prospectof applyingthesbgroupanalysis，centricityanalysisandroleanalysis insocialnetwork analysisandthesmallworldnatureandscalefree natureicomplexnetwork incollaborationnetworksaswellastheresearch statusathomeandbroad.Tepaperaimstoprovide some references for research on collaboration networks.",
+    "context4": "Keywords:collaboration networks；social network analysis；complex network analysis；scientific metrology；research progress",
+    "context5": "在现代科学中，随着研究的不断深入，科研人员很难单独完成某项课题或论文，科学合作成为推进学科发展的一大趋势。Barnett等人在1998年提出的质量假说（Quali-ty Hypothesis）中试图根据学科的复杂性来鉴定合著论文的质量与影响力。Urbancic等人的研究表明合著论文改善了科研成果的质量并提高了其接受概率（theProbabilityofAcceptance）。科学合著现象一直是科学计量学和文献计量学研究的重要课题，洛特卡定律、普赖斯定律以及合作率、合作度等计量指标可以从宏观角度度量科学合著现象，但无法从微观角度进行细致的研究。研究科学合著现象，其本质就是研究作者之间的关系，而社会网络分析法和复杂网络分析法正是以关系研究见长。目前国内外已经有一些学者运用社会网络分析法和复杂网络分析法研究科学领域的合著现象。"
+  },
+  "1合著网络的定义及研究要素": "",
+  "1.1合著网络的定义": {
+    "context1": "社会网络分析（Social Network Analysis，SNA）和复杂网络分析均来自于数学的图论，根据图形理论合著网络（Collaboration Networks）可以定义为：合著网络 $G$ 由一组节点 $N = \\{ \\ n _ { 1 } , \\ n _ { 2 } , \\ \\cdots , \\ n _ { n } \\}$ 和一组链接 $L = \\left\\{ \\ l _ { 1 } , \\ l _ { 2 } , \\ \\cdots , \\right.$ $l _ { n } \\}$ 组成。其中节点 $n$ 表示科学论文的作者， $N$ 表示所有作者的集合，如果作者 $n _ { i }$ 与作者 $n _ { j }$ 合著一篇论文，则两者之间存在一条链接 $< l _ { i }$ ， $l _ { j } >$ ， $L$ 表示所有链接的集合，由此形成的网络 $G$ 称之为合著网络。"
+  },
+  "1.2合著网络的基本要素": {
+    "context1": "1.2.1子合著网络如果合著网络 $G _ { s }$ 的一组节点是网络",
+    "context2": "$G$ 的节点（著者）的子集合，而 $G _ { s }$ 的一组链接是 $G$ 的链接的子集合，则 $G _ { s }$ 是网络 $G$ 的子合著网络。合著子网络在社会网络分析法的小团体分析和复杂网络分析法的巨组元分析中起着重要作用。",
+    "context3": "1.2.2度度（Degree）是节点属性中最简单也是最重要的性质。合著网络中一个节点（著者） $i$ 的度 $k _ { i }$ 定义为与它相连的节点的数目，一个节点的度越大意味着该著者发表研究论文的数量越多，此作者在合著网络中的地位越重要。",
+    "context4": "1.2.3最短路径合著网络中连接节点 $i$ 和节点 $j$ 的最短路径是指使得节点 $i$ 到节点 $j$ 所经过的边数最少，如果考虑到加权合著网络，则指使得这条路径所经过的个边的权值之和最小。最短路径表明两个作者之间新的信息、知识传播的最快速度。最短路径越长意味着知识在两个作者之间传递速度越慢，知识获取速率越低。",
+    "context5": "1.2.4合著网络直径合著网络中任意两个节点之间距离的最大值称为合著网络的直径。直径的概念在传播和信息研究中经常使用，它可以衡量个人在传递信息过程中需要多长时间才能传到。信息传递距离越长，失真程度越多，信息传输效率越低。"
+  },
+  "1.2.5密度合著网络的密度（Density）是指在此网络中实际存在的链接数与可能存在的链接的比例。其公式为：": {
+    "context1": "$\\Delta = \\frac { 2 L } { g ( ⨏ g - 1 ) } { \\bigl ( } \\ L =$ 网络的实际链接数目， $\\cdot g =$ 网络节点数目)",
+    "context2": "一个群体结构形态指针中，密度是一项重要变量，一个紧密团体的行为不同于离散团体，关系紧密的团体合作",
+    "context3": "行为越多，信息疏通越容易，团体的绩效越好，反映在合著网络中，即指论文合著率越高，论文质量越好。"
+  },
+  "2社会网络分析法在合著网络中的应用": {
+    "context1": "社会网络是指社会个体成员之间因为互动而形成的相对稳定的关系体系。社会网络分析是西方社会学的一个重要分支，就是要对社会网络中行为者之间的关系进行量化研究。社会网络分析强调人际关系、关系内涵以及社会网络结构对社会现象的解释，合著网络无疑是一种社会网络，它正是科学家通过交流思想、共享知识、合著论文而形成的人际关系网络。将社会网络分析法的小团体分析、中心性分析、角色分析引入信息计量学中必定对科学合著现象的分析起到借鉴作用。"
+  },
+  "2.1小团体分析": {
+    "context1": "小团体（Subgroup 或Cliques）指团体中的一小群人关系特别紧密，以至于结合成一个次级团系，即派系，派系问题是社会学研究以及管理学研究的重要课题，研究表明合著网络中也存在类似的派系关系。根据节点度和节点距离这两种不同的计算方法和理论思想，小团体分析包括K-plex，K-core，N-cliques，N-clan，N-club 等分析方法。",
+    "context2": "2.1.1K-plexK-plex是一类以节点度来计算的方法，一群相连的节点视为一个小团体。它是包含了 $G _ { s }$ 节点的子图形，其中，每一个节点都与同一子图形中的 $G _ { s } \\mathrm { - } \\mathbf { k }$ 各节点有相连关系，这是小团体分析最常用的一个概念。 $\\mathrm { K } -$ core 的概念与K-plex的定义大同小异，即如果对于所有的$n _ { i } \\ni N _ { s }$ 来说， $d _ { s } ( { \\bf \\Gamma } _ { i } ) \\geq k$ ，则子图形 $G _ { s }$ 是K-core。K-core表示一小团体有 $g _ { s }$ 个人，其中每个人都至少与此小团体的其他成员保持 $k$ 条的关系。Seidman指出对网络结构的研究可以运用最小度标准，以便区分网络中高、低凝聚力的领域。一个K-core便是一个在整个网络中凝聚力相对较高的区域。但它不一定是最大的凝聚子图，有可能存在一些相互之间联系松散，却有很高凝聚力的区域。",
+    "context3": "2.1.2N-cliques，N-clan，N-club这3种是以距离为基础计算小团体的方法。N-cliques是指小团体内任意两个人的距离要小于等于 $N$ 。在实际分析中 $N$ 的大小由研究者自己决定。 $N$ 越大对派系成员限制的标准就越松散。",
+    "context4": "2.1.3小团体的密度小团体密度（ $\\mathrm { E } \\mathrm { - } \\mathrm { i n d e x } )$ 主要衡量的是大型网络中小团体现象是否很严重。最糟糕的情况是大团体很松散，核心小团体却具有高度凝聚力。小团体密度等于子团体密度与整个网络密度之比，即:",
+    "context5": "$$\n{ \\mathrm { E } } { \\mathrm { - } } \\ { \\mathrm { i n d e x } } = { \\frac { { \\mathrm { d e n s i t y } } - { \\mathrm { o f } } - { \\mathrm { s u b g r o u p } } } { { \\mathrm { d e n s i t y } } - { \\mathrm { o f } } - { \\mathrm { g r o u p } } } }\n$$",
+    "context6": "此指数的取值范围为 $[ - 1$ ， $+ 1 ]$ 。其值越趋近于1,",
+    "context7": "·情报理论与实践·",
+    "context8": "表明关系越趋向于发生在群体之外，意味着派系林立程度越大；其值越趋近于-1，表明子群体之间的关系（即外部关系）越少，关系趋向于发生在群体之内，意味着派系林立程度越小；其值越趋近于0，表明关系越趋向于随机分布，看不出派系林立的情形。对合著网络进行小团体分析可以判断作者之间的紧密程度，根据作者单位、地域等信息可以了解相关学科领域的研究热点分布情况。如果合作网络中的小团体密度过高则表明此团体内学者的交流频繁，而处于团体之外的学者不能得到足够的信息和科研合作机会，这对新知识的传播会有消极影响。"
+  },
+  "2.2中心性分析": {
+    "context1": "实际上合著网络是一种虚拟空间的社会关系网络，中心性是一个重要的个人虚拟空间结构位置的重要指针，它可以评价作者在某个领域中的学科地位程度。其中，程度中心性与中介性是合著网络中最重要的两项个体结构指针。",
+    "context2": "2.2.1程度中心性在合著网络中，程度中心性是指一个著者的合著关系数量总和。程度中心性越高表明此著者的地位越高，在合著网络中是具有一些明星地位的学者。标准化程度中心性的公式为：",
+    "context3": "$$\n\\nonumber { \\cal C } _ { d } ^ { \\prime } = \\frac { d \\bigl ( { n } _ { i } \\bigr ) { \\mathrm { \\Omega } } = \\sum _ { j } X _ { i j } } { g - 1 }\n$$",
+    "context4": "其中 $d ( n _ { i } )$ 为节点 $i$ 的度， $g - 1$ 为某一节点在合著网络中的最大关系数。群体中心性是一个合著网络的整体结构指针。其公式为：",
+    "context5": "$$\nC _ { _ D } \\ = \\ \\frac { \\displaystyle { \\sum _ { i = 1 } ^ { g } \\ { \\cal { C } } _ { _ D } { \\left\\lfloor \\ n ^ { * } \\ \\right\\rfloor } \\ - \\ C _ { _ D } { \\left\\lfloor \\ n _ { i } \\right\\rfloor } \\ } \\ \\mathrm { { I } } } { \\displaystyle { \\left[ \\ g \\ - 1 \\right] \\left( \\ g \\ - 2 \\right) } \\ \\mathrm { { I } } }\n$$",
+    "context6": "其中 $\\boldsymbol { C } _ { D } \\big ( \\boldsymbol { n } ^ { * }$ ）是 $C ( \\boldsymbol { n } )$ 中最大的度中心性，它与其他 $C ( n _ { i } )$ 相减所得差额的相加总和即为群体中心性。分母是此数值的最大可能值。群体中心性表明了一个合著网络中程度中心性最高的那个人其程度中心性与其他人程度中心性之间的差距，差距越大，则群体中心性数值越高，表明此合著团体权力过分集中，有一个著者的地位特别重要。",
+    "context7": "2.2.2中间中心性在网络中，如果一个行动者处于许多交往网络路径上，可以认为此人占据重要地位，因为他具有控制其他两个人之间交往的能力。",
+    "context8": "在合著网络中，如果一个著者处于许多其他著者的最短路径上，可认为该著者具有较高的中间中心性。如果一个合著网络中有严重的切割，形成了一个个的分离子网络即有结构洞（Structural Hole）出现时，若一个作者这两个分离的子合著网络中间形成了连带，此作者就是一个切点。见图1。",
+    "context9": "![](images/9d5877d94d73fd427aa5822e0a151da1f397a9d00aa283161fd127cd0cf9b7e2.jpg)  \n图1中间中心性",
+    "context10": "该合著网络被切割成两个分离的组件M和N，而作者E在这两个组件中起到连带作用， $\\mathbf { M }$ 和N通过作者E发生联系，E在两个组件之间的信息交流上起到桥的作用。标准化的中间中心性的公式为：",
+    "context11": "$$\n\\begin{array} { r l } { C _ { B } ^ { \\prime } \\bigcup _ { i } } & { = \\cfrac { 2 \\displaystyle \\sum _ { j < k } g _ { j k } \\big ( \\textit { n } _ { i } \\big ) } { \\displaystyle g _ { j k } \\big ( \\textit { g } - 1 \\big ) \\big ( \\textit { g } - 2 \\big ) } } \\end{array}\n$$",
+    "context12": "其中 $g _ { j k }$ 是作者 $i$ 达到作者 $k$ 的最短路径数， ${ { g } _ { j k } } \\left( \\boldsymbol { n } _ { i } \\right)$ 是作者 $j$ 达到作者 $k$ 的最短路径方式上有作者 $i$ 的最短路径数， $g$ 是此合作网络中的人数。同程度中心性类似，群体中间中心性可以表示为：",
+    "context13": "$$\nC _ { B } = \\frac { 2 \\displaystyle { \\sum _ { i = 1 } ^ { g } \\ { \\left[ { { C _ { B } } \\left( { \\ n } ^ { * } \\right) \\ - C _ { _ B } ( \\ n _ { i } ) \\ } \\right] } \\ } } { \\left[ { { g - 1 }  ^ { 2 } } \\left( { \\ g \\ - 2 } \\right) \\displaystyle { 1 } }\\right)\n$$",
+    "context14": "群体中间中心性也是一个网络结构的整体指针，其含义为在一个合著网络中，中间中心性最高的那个著者与其他人中间中心性的差距，差距越大，则群体中间中心性的数值越高，表示此合著团体分成数个小团体而过分依赖于某一个著者的桥作用。指针越高表明组织中知识被少数人所垄断的可能性越高，某一个著者可能高度掌控着某些信息，这不利于信息的传播。"
+  },
+  "2.3角色分析": {
+    "context1": "从社会网络分析的角度上讲，网络意义上的“位置”或者“角色”是很重要的，因为位置分析能够对社会行为和社会结构进行一般化分析，得到具有推广意义的结论。在进行角色分析时，更多的是关注行动者之间关系模式的相似性，而不是行动者的个人属性、类别和个体变量。充当同一种社会角色的个体之间，必须在某些关系结构特征方面具有对等性或相似性，相似性有结构对等性、自同构对等性和规则对等性，这3种相似性有不同的抽象程度，其中前者更具体，研究难度也越大，后者更抽象。自同构对等性抽象程度居中。将角色分析法应用在合著网络分析中，可以抽象出“核心”和“边缘”两种典型的角色，核心角色在这些作者中起领导作用。这种根据关系确定核心作者的方法与普赖斯定律根据文献数量确定核心作者的方法有所不同。",
+    "context2": "国内一些学者试图用角色分析法来测量著者在合著网络中的地位问题。吕海洋、冯玉强在《合著网络中作者的角色分析》一文中，用自同构对等性分析了ACMSIGKDD合著网络，取得了良好效果。",
+    "context3": "目前国内一些学者尝试用社会网络分析法来研究科学合著现象，李亮、朱庆华从中心性分析、凝聚子群分析和核心一边缘结构分析3个角度来研究《情报学报》的合著现象，对国内情报学领域的合著现象进行实证研究;陈定权、朱维凤、莫秀娟等人运用社会网络分析法从网络密度、度中心性、成分、派系等方面研究了图书情报学1999—2002年的论文合著现象；袁润、王慧从合著网络的个体属性和整体属性两个角度对《中国图书馆学报》2003—2008年收录的文章进行中心性、网络密度等相关研究，揭示出图情领域合著的特点、现状以及存在的问题。但总的来说运用社会网络分析法研究合著论文在国内出现的较少，研究深度不够，同时上述作者研究的数据源基本上是基于单一期刊来进行数据分析，并且选取的数据年限较短（一般不超过4年），由此统计出的作者数量较少，这必然导致进行数据分析时的结果不够精确，无法完全反映某个学科领域的整体合著情况。"
+  },
+  "3复杂网络研究在科学合著网络中的应用": {
+    "context1": "近年来，复杂网络研究正处于蓬勃发展的阶段，其研究正渗透到数理学科、生命学科、计算机学科和工程学科等众多不同领域，对复杂网络的定量与定性特征的科学理解，已经成为网络时代科学研究的一项重要课题。复杂网络可以描述人与人之间的社会关系，物种之间的捕食关系，计算机网络之间的链接，词与词之间的语义关系，蛋白质之间的相互作用等，合著网络在某种意义上也是一种复杂网络。将复杂网络的定量分析法引入信息计量学的合著现象研究中无疑大有裨益。",
+    "context2": "利用复杂网络分析法，Newman最早于2001年在“The structure of scientific collaboration networks”一文中首次对生物医学、物理学（包括理论物理学、高能物理学等）和计算机科学等领域的科学家合作情况进行了研究[d；Barabási 等于2002 年在“Evolution of the social net-work of scientific collaborations”中研究了数学家领域的合作情况[。目前国外运用复杂网络分析法研究科学合著关系已经扩展到化学、人类学、营销学、经济学[、管理学等众多领域，但国内运用此方法的文献数量屈指可数，研究也欠深入。"
+  },
+  "3.1小世界特性": {
+    "context1": "一个社会网络就是一群人或团体按某种关系连接在一起而构成的一个系统。20世纪60年代美国哈佛大学的社会心理学家S.Milgram通过一些社会调查推断：地球上任意两个人之间的平均距离是 $6 ^ { [ 1 ] }$ 。也就是说，平均中间只要通过5个人，你就能与地球上任何一个角落的任何一个人发生联系。这就是著名的六度分离理论（SixDegreesofSeparation）。研究表明某些合著网络也具有小世界特性，即合著网络中作者数目很大，但是任意两个作者之间的距离却很短。可以从巨组元（the Giant Component）、平均路径长度（Average Path Length）以及聚类系数（ClusteringCoefficient）3个方面来刻画网络的小世界特性。",
+    "context2": "3.1.1巨组元在所有的社会网络中，都存在发生渗透相变（Percolation Transition）的概率。即在网络中节点之间存在较少链接时，所有的节点都分属于一些小型的合作或交流岛屿（小型组元），当链接数量的总数增加时，就有可能导致巨组元（the Giant Component）的形成———通过中间节点都能相互连通的节点所组成的巨大群体。许多研究表明合作网络中存在着这样的巨组元，并且网络中第二大组元的规模要远小于巨组元的规模，这说明合作网络具有良好的展透机制（PercolatingRegime）。也就是说合作网络具有高度的连接性并且不存在分裂的危险。如果不存在这样的巨组元，则说明科学界没有很好的连通，知识的传播遇到严重的障碍。",
+    "context3": "3.1.2平均路径长度网络中两个节点 $i$ 和 $j$ 之间的距离$d _ { i j }$ 定义为连接这两个节点的最短路径上的边数，网络中任意两个节点之间的距离称为网络的直径（Diameter），记为 $D$ ，即 $D = \\operatorname* { m a x } _ { i , j } d _ { i j }$ ，网络的平均路径长度 $L$ 定义为任意两个节点之间的距离的平均值，即:",
+    "context4": "$$\nL = \\frac { \\displaystyle \\sum _ { i \\in N } \\sum _ { j \\in N } d \\big ( i , j , G \\big ) } { n \\big ( n - 1 \\big ) }\n$$",
+    "context5": "研究表明尽管合作网络的节点数巨大，网络的平均路径长度却很小。对于固定网络节点的平均度 $< k >$ ，平均路径长度 $L$ 的增加至多与网络规模 $N$ 的对数成正比。",
+    "context6": "3.1.3聚类系数与同一个节点相连接的两个节点之间也可能彼此连接，这种属性称为网络的聚类特性。一般的，假设网络中的一个节点 $i$ 有 $k _ { i }$ 条边将它和其他节点相连，这 $k _ { i }$ 个节点就称为节点 $i$ 的邻居。显然，在这 $k _ { i }$ 个节点之间最多有 $k _ { i } { \\big ( } k _ { i } - 1 { \\big ) } / 2$ 条边。而这 $k _ { i }$ 个节点之间实际存在的边数 $E _ { i }$ 和总的可能的边数 $k _ { i } { \\big ( } k _ { i } - 1 { \\big ) } / 2$ 之比就定义为节点 $i$ 的聚类系数（Clustering Coefficient） $C _ { i }$ ，即 $C _ { i } =$ $2 E _ { i } / { \\mid k _ { i } \\mid k _ { i } - 1 } ) .$ ），从几何上看其等价定义记为："
+  },
+  "c=与点 $i$ 相连的三的数量$i$": {
+    "context1": "整个网络的聚类系数 $C$ 就是所有节点 $i$ 的聚类系数 $C _ { i }$ 的平均值。研究表明合作网络具有很高的聚类系数。",
+    "context2": "目前国外合作网络研究的成果见表1。",
+    "context3": "表1国外合著网络研究成果",
+    "context4": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>网络</td><td rowspan=1 colspan=1>规模</td><td rowspan=1 colspan=1>巨组元</td><td rowspan=1 colspan=1>&lt;k&gt;</td><td rowspan=1 colspan=1>l</td><td rowspan=1 colspan=1>lrand</td><td rowspan=1 colspan=1>C</td><td rowspan=1 colspan=1>Crand</td><td rowspan=1 colspan=1>参考</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>LANL</td><td rowspan=1 colspan=1>52909</td><td rowspan=1 colspan=1>44337</td><td rowspan=1 colspan=1>9.70</td><td rowspan=1 colspan=1>5.9</td><td rowspan=1 colspan=1>4.79</td><td rowspan=1 colspan=1>0.430</td><td rowspan=1 colspan=1>1.8 ×10-4</td><td rowspan=1 colspan=1>Newman 2001</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>MEDLINE</td><td rowspan=1 colspan=1>1520251</td><td rowspan=1 colspan=1>1395693</td><td rowspan=1 colspan=1>18.10</td><td rowspan=1 colspan=1>4.6</td><td rowspan=1 colspan=1>4.91</td><td rowspan=1 colspan=1>0.066</td><td rowspan=1 colspan=1>1.1 ×10-5</td><td rowspan=1 colspan=1>Newman 2001</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>SPIRES</td><td rowspan=1 colspan=1>56627</td><td rowspan=1 colspan=1>49002</td><td rowspan=1 colspan=1>173</td><td rowspan=1 colspan=1>4.0</td><td rowspan=1 colspan=1>2.12</td><td rowspan=1 colspan=1>0.726</td><td rowspan=1 colspan=1>0.003</td><td rowspan=1 colspan=1>Newman 2001</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>NCSTRL</td><td rowspan=1 colspan=1>11994</td><td rowspan=1 colspan=1>6396</td><td rowspan=1 colspan=1>3.59</td><td rowspan=1 colspan=1>9.7</td><td rowspan=1 colspan=1>7.34</td><td rowspan=1 colspan=1>0.496</td><td rowspan=1 colspan=1>3×10-4</td><td rowspan=1 colspan=1>Newman 2001</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Math.</td><td rowspan=1 colspan=1>70975</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>3.90</td><td rowspan=1 colspan=1>9.5</td><td rowspan=1 colspan=1>8.20</td><td rowspan=1 colspan=1>0.590</td><td rowspan=1 colspan=1>5.4×10-5</td><td rowspan=1 colspan=1>Barabasi 2002</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Neurosci.</td><td rowspan=1 colspan=1>20923</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>11.50</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>5.01</td><td rowspan=1 colspan=1>0.760</td><td rowspan=1 colspan=1>5.5×10-5</td><td rowspan=1 colspan=1>Barabasi 2002</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Marketing</td><td rowspan=1 colspan=1>32381</td><td rowspan=1 colspan=1>22278</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>7.5</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.50</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Jacob 2009</td></tr></table>",
+    "context5": "表1中 $< k >$ 表示网络的平均度， $l$ 为平均路径长度，$l _ { \\mathrm { r a n d } }$ 为随机网络的平均路径长度， $C$ 为网络的聚类系数，$C _ { \\mathrm { r a n d } }$ 为随机网络的聚类系数。"
+  },
+  "3.2无标度性": {
+    "context1": "网络中所有节点度的分布情况可以用分布函数 $p ( \\boldsymbol { k } )$ 来描述。 $p ( k )$ 表示一个随机选定节点的度恰好为 $k$ 的概率。完全随机网络的度分布近似为Poisson分布。然而，近几年的大量研究表明许多实际网络的度分布明显不同于Poisson分布，实际上许多网络的度分布可以用幂律的形式 $P ( \\ k ) \\propto k ^ { - r }$ 来更好地描述。幂律分布的曲线比Poisson分布曲线下降要缓慢得多。即网络中大多数节点仅有少量的链接，而少数顶点拥有大量链接，因为结构异质性，于是特征标度消失了，所以这种网络也成为无标度网络。",
+    "context2": "网络中拥有大量边的节点也称“富节点”（Rich",
+    "context3": "·情报理论与实践·",
+    "context4": "Nodes），它们倾向于彼此之间相互链接，构成“富人俱乐部（Rich-club)”，富人俱乐部现象反映在合著网络中就是发文量多的作者之间更容易产生合作关系，这点类似于信息学中的马太效应。富人俱乐部现象可以如下刻画:$\\phi ( \\boldsymbol { r } / N )$ 表示合著网络中前 $r$ 个发文数量最大的作者之间，实际存在的合作数 $L$ 与这 $r$ 个作者之间可能存在的总的合作数量 $r ( r - 1 )$ $/ 2$ 的比值，即:",
+    "context5": "$$\n\\phi \\big ( r / N \\big ) \\ = \\frac { 2 L } { r \\big ( r - 1 \\big ) }\n$$",
+    "context6": "目前，还没有足够的证据说明合著网络也拥有无标度形式，在这方面研究文献也十分缺乏。"
+  },
+  "3.32-模合著网络": {
+    "context1": "上述合著网络中，节点只有一种类型，即节点表示论文作者，称之为1-模合著网络。如果想知道作者与论文之间的某种关联，可以用网络中一部分节点表示科学家，另一部分节点表示合著论文，如果一个科学家参与了一篇论文的撰写，则论文与作者之间存在一条链接，由此形成的不同类型节点之间的从属关系的网络称之为2-模合著网络。小型2-模合著网络可以更加微观地展现论文与作者以及作者之间的相互合作关系。"
+  },
+  "4结束语": {
+    "context1": "目前，国内已经有一些学者尝试利用社会网络和复杂网络分析法研究合著网络，但是这些研究对象仅局限于图书情报学论文作者之间的合著情况，并且这些研究未能覆盖整个图书情报学领域，缺少对其他学科合著现象的研究。相比来看，国外合著网络研究已经进入成熟阶段，我国在此领域的研究还有很大差距。运用综合信息计量学、社会网络、复杂网络分析法等手段研究合著关系、进行人才评价将会是一个很有潜力的研究领域。□"
+  },
+  "参考文献": {
+    "context1": "[]ACEDO F J. Co-authorship in management and organizationalstudies:an empirical and network analysis[]．Journal ofManagement Studies，2006(7)：958-983.  \n[] 林聚任，刘玉安，泥安儒．社会科学研究方法[M]．济南：山东人民出版社，2004：283.  \nB 罗家德．社会网络分析讲义M．北京：社会科学文献出版社，2005:134-135.刘军．整体网络分析讲义—UCINET软件应用[C]//第二届社会网与关系管理研讨会．哈尔滨：哈尔滨工程大学社会学系，2007：111.  \n5] 刘军．社会网络分析导论[M]．北京：社会科学文献出版社，2005:122-123.  \n吕海洋，冯玉强．合著网络中的角色分析[．情报理论与实践，2010（1)：96-99."
+  },
+  "(上接第123页)": {
+    "context1": "fication of library data based on HIPAA[．Journal of The American Society for Information Science and Technology， 2007 (58):1198-206.",
+    "context2": "美国国会将《爱国者法案》中的图书馆条款延长至2011年[EB/OL]．[2011-03-28]．http://www.nlc.gov.cn/service/fuwudaohang/tyck/2010/201002d_2.htm.  \nMAGIT.A study of US library directors’confidence and prac-tice regardingpatron confidentiality[J]．Library Manage-ment，2008(29):746-756.  \n[0] OCLC.Sharing，privacy and trust in our networked world:a re-port to the OCLC membership community contributions[EB/OL]．（2007-10-31）．htp:// www.oclc.org/reports/sha-ring/default. htm.  \n[1] BALAS JL.Should there be an expectation of privacy in the li-brary[．Computers in Libraries，2005(7)：33-35.  \n[2]STURGES P，et al. User privacy in the digital library environ-李亮，朱庆华．社会网络分析法在合著分析中的实证研究[．情报科学，2008（4)：549-555.8 陈定权，朱维凤，莫秀娟．图书情报学论文合著（1999—2002）现象研究．情报科学，2009（1)：70-73.袁润，王慧．基于社会网络分析的图书馆学论文合著现象研究．图书情报研究，2010（3)：37-40.  \n[0] NEWMAN M E J. The structure of scientific collaboration net-works[．PNAS，2001，98(2)：404-409.  \n[1] BARABáSI A L，JEONG H，RAVASZ R. Evolution of the so-cial network of scientific collaborations[．Physica A，2002(1):590-614.  \n[2] DURBACH L N,NAIDOO D,MOUTON J. Co-authorship net-works in South African chemistry and mathematics[．SouthAfrican Journal of Science,2008 (1):487-492.  \n[13] LARIVIeREV,GINGRASY，eRIC ARCHAMBAULT.Cana-dian collaboration networks: comparative analysis of the naturesciences，social sciences and the humanities[．Scientomet-rics，2006 (3):519-533.  \n[4] GOLDENBERGJ,LIBAIB，MULLERE.The evolving socialnetwork of marketing scholars[]．Marketing Science，2010(3):1-7.  \n[5] GOYAL S，VAN DER LEI M J. MORAGA-GONZALEZJL.Economics:an emerging small world[．Journal of PoliticalEconomy，2006(4):403-432.  \n[6] ACEDO F J，BARROSO G，CASANUEVA C，et al.Co-au-thorship in management and organization studies:an empiricaland network analysis[J]．Journal of Management Studis,2006 (7):957-982.  \n[7] MILGARAM S. The small world problem []．Psychology To-day，1967(2):60-67.  \n[8] 汪小帆，李翔，陈关荣．复杂网络理论及其应用M].北京：清华大学出版社，2006：55.",
+    "context3": "收稿日期：2011－10－10ment[．Library Management,2003（24)：44-50."
+  },
+  "[3]赵润娣．基于图书馆核心价值的读者隐私权保护研究．情报资料工作，2008（2)：31-35.": {
+    "context1": "[14]COOMBS K A.Protecting user privacy in the age of digital libraries[．Computers in Libraries,2005（7)：16-20.   \n[15]Corrado E M.“Privacy and library 2.O: how do they conflict?”in sailing into the future:charting our destiny[C// THOMPSON H. Proceedings of the Thirteenth National Conference of the Association of College and Research Libraries,Baltimore，Maryland，USA，2007:333.   \n[6] TRINA J，MAGI A.Content analysis of library vendor privacy policies:do they meet our standards[．College & Research Libraries，2010 (3):254-272.",
+    "context2": "作者简介：廖璠，女，1965年生，博士，副教授。发表论文近50篇。黄丹珠，女，1988年生。",
+    "context3": "收稿日期：2011-09－23"
+  }
+}

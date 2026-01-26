@@ -1,0 +1,97 @@
+{
+  "original_filename": "full_9584.md",
+  "nothing": {
+    "context1": "$\\bullet$ 李慧²，刘东苏²",
+    "context2": "（1.西安电子科技大学计算机学院，陕西西安710071；2．西安电子科技大学经济管理学院，陕西西安 710071)"
+  },
+  "语义维基系统研究综述\\*": {
+    "context1": "摘要：本文运用CiteSpace软件对近10年国内外关于维基的论文进行引文网络和关键词分析，总结当前的研究热点，构建了语义维基的通用体系结构，从基础理论、引擎软件、应用系统三方面对语义维基的研究现状进行阐述，并指出目前存在的问题及今后的发展方向。",
+    "context2": "关键词：语义维基；可视化分析；知识管理；综述",
+    "context3": "Abstract:This paper uses the CiteSpace software toanalyze thecitation network and keywords of paperson wikipublishedat homeandabroad inrecenttenyears，summarizes thecurentresearch focus，andconstructs theuniversalarchitectureofsemantic wiki.Then，the paperexpatiatesontheresearch statusofsemanticwikifromthethree aspectsofbasictheory，engine softwareand application system.Finally，the paper points out the existing problems and the directions for future development.",
+    "context4": "Keywords:semantic wiki； visualized analysis； knowledge management； summary",
+    "context5": "在当今社会，知识作为一种生产要素和资源，对经济增长、企业发展和个人成功至关重要。但由于IT技术的飞速发展，信息、数据等出现了指数级的爆炸式增长，用户很难快速、准确地获取自己所需知识，同时传统的知识共享和知识管理机制也迎来了新的挑战。而Wiki(维基)以其协作、开放、共享的特性和“人人参与”的模式，实现了分布式和协同环境下知识的发布、共享、整合与创新。国内外学者结合语义Web 技术将Wiki用于不同领域的知识工程，并创建了多个应用实例。",
+    "context6": "为了能更好地把握Wiki在知识管理中的研究现状、前沿和热点问题，本文利用CiteSpace软件对Webof Sci-ence和CNKI中与Wiki相关的文献进行可视化分析，绘制共被引和关键词知识图谱，重点对语义Wiki体系结构、引擎及其在知识管理中的应用进行总结和分析，初步揭示了语义Wiki的演变规律和发展趋势。"
+  },
+  "1数据来源和Wiki研究的可视化分析": "",
+  "1.1数据来源": {
+    "context1": "本文所用的全部数据来源于Webof Science引文索引数据库和CNKI全文数据库。笔者于2012年3月8日以“Wiki”和“Wikipedia”为主题词在Web of Science 中检索到2002——2012年间发表的类型为“Proceedings paper'和“Article”的文献记录660 篇。同时以“Wiki”为主题词在CNKI中检索到2005—2012年发表在核心期刊的文献记录230篇。"
+  },
+  "1.2Wiki研究的可视化分析": {
+    "context1": "美国德雷克赛尔大学陈超美团队开发的CiteSpace是一款用于文献引文网络分析的信息可视化软件。其特点是能够显示一个学科或知识域在一定时期发展的趋势与动向，形成若干研究前沿领域的演进历程。",
+    "context2": "笔者运用CiteSpace3.0.R5分别对中英文两种数据集的关键词进行共现分析，以揭示国内外在Wiki原理与应用方面的研究前沿。",
+    "context3": "1.2.1关键词共现分析针对从Web of Science中获取的数据集，运用CiteSpace生成关键词共现科学知识图谱，如图1所示，其中共选择出228种关键词以及关键词之间的643条连线。",
+    "context4": "![](images/373cbad1127079f3a751b7caa51901ec6345c7d4b447f3ec024603cc89f0b4de.jpg)  \n图1Web of Science Wiki论文关键词共现分析",
+    "context5": "根据图1中节点的大小来寻找关键节点，以揭示研究背景。图1表明，“Wiki”是图谱中的最大节点。另外，“Wiki technology’、“Wiki pages”、“Knowledge sharing”、“Wikipedia article”、“Semantic wikis”、“Knowledge man-agement”也很显眼，节点相对较大。依据图1中最上端的时间轴对关键节点进行分析，可以发现“Wiki technolo-gy”是初期的研究热点，“Knowledge sharing”、“Semanticwikis’、“Knowledge management”是国外近几年的研究热点和发展趋势。针对从CNKI中获取的数据集，用CiteSpace生成的关键词共现科学知识图谱如图2所示，其中共选择出142种关键词及关键词之间的270条连线。通过对图中节点年环和关键词被引频次的分析，笔者得出国内对Wiki的研究主要集中在“知识管理’、‘知识创新”、“知识共享’、‘数字图书馆”这4个方面。另外，维基百科作为一个重要的分析对象用于词条质量、复杂网络和语义知识库的研究。",
+    "context6": "![](images/f920e1f7b486545079abda899f009b8e0d6784af341688f018448109d42b9370.jpg)  \n图2CNKIWiki论文关键词共现分析",
+    "context7": "1.2.2研究前沿的演进分析根据Web of Science数据集中不同节点文献所发表的时间，图3给出了共被引聚类的年代分布情况。图3中右侧列出了35个聚类标签，对英文Wiki文献的共被引聚类结果进行了标引。图3中左上角显示 ModularityQ和 Mean Silhouette 的值分别达到0.6775和0.7678，表示图3中各聚类具有较高的模块化值和轮廓性，说明分析结果能够解释各聚类的基本情况，可信度较高。",
+    "context8": "在图3中最大的引文年环表示Giles 2005年发表在“Nature”上的文章“Internet encyclopaedias go head tohead”在笔者的英文Wiki数据集中的被引频次为69；第二大引文年环表示Leuf 2001 年出版的“The Wiki Way:Quick Collaboration on the Web”的被引频次为43。观察共引文献随时间的变化情况，可以看出Wiki从2005年开始进入全面研究时期，研究内容主要集中在“Semanticwikis”、“Wiki content’、“Wiki community’、“Informationquality”等类别上。另外聚类31到34的文献之间的引用很密集，这四类文献主要是Wiki在生物学中的应用研究。",
+    "context9": "![](images/8437fb680c8de17c2bcc9ed6de866d64aa652dd01aa62e0733068a0105ce5db1.jpg)  \n图3按“时间线”分布的Wiki文献的共被引聚类图谱通过上述基于CiteSpace的可视化分析，归纳出Wiki技术及语义Wiki在知识管理、知识共享和生物医学中的应用是当前的研究热点和发展方向。"
+  },
+  "2Wiki和语义Wiki": "",
+  "2.1Wiki": {
+    "context1": "Wiki是一种采用“多人协作”模式的超文本写作系统。1995年坎宁安设计了第一个Wiki，其意图是建立一个协作式的超文本数据库，方便社群交流。此后，针对不同的Web服务器开发出各种Wiki引擎，据WikiMatrix统计目前有Wiki引擎135个，其中代表性的有MediaWi-$\\operatorname { k i } ^ { \\sharp }$ 、DokuWiki、JspWiki@和 TWiki☑。Wikipedia已成为全球最大的Wiki站点，截至2012年1月，Wikipedia的语言版本数已达到283，词条总数为 $2 \\ 1 0 0 \\ \\overline { { \\mathcal { F } } } ^ { \\perp }$ 。国内最大的维基站点“百度百科”自2008年4月正式发布后，已收录词条达 $4 6 7 \\ : \\mathcal { F } ^ { \\sharp }$ 。"
+  },
+  "2.2语义Wiki": {
+    "context1": "尽管Wiki得到了广泛的应用，但Wiki的内容缺乏机器可读性、数据没有结构化，无法实现基于知识的全文检索。语义Wiki将语义Web 技术与Wiki引擎相结合，采用RDF/OWL对Wiki页面及页面之间的链接进行语义标注，并生成结构化的元数据，进而实现关键词和语义关系相结合的语义检索。通过对现有语义Wiki引擎的分析，本文抽象出语义Wiki的体系结构如图4所示。",
+    "context2": "该系统按照语义标注、存储、推理、检索和显示的处理流程将语义技术和普通Wiki进行有机融合，达到知识复用与共享的目标。语义相关模块的具体功能与研究现状如下。",
+    "context3": "1）语义存储。该模块对用户在Wiki页面增加的语义标注信息采用形式化的方式进行存储，形成知识库。目前最常用的存储格式为RDF，存储容器有关系数据库和文件系统两种。有些语义Wiki引擎还具有OWL导入功能。",
+    "context4": "![](images/e71dabb7c22c093e253998a2f2154879c00e6f91e54bc160334299e309615f33.jpg)  \n图4语义Wiki体系结构",
+    "context5": "2）语义推理。该模块运用知识库中预先存储或用户定义的规则从Wiki系统输入的事实中获得额外信息和隐性知识。推理在语义Wiki中的效用主要体现在以下四方面：语义信息的浏览和显示、知识查询、对文本和语义编辑的支持、形式化知识的验证[。",
+    "context6": "目前针对语义Wiki推理机制的研究主要集中在系统应用方面，对核心理论的研究比较少。德国慕尼黑大学的Kotowski采用Well-foundness 和 Support Count 设计了解决推理维护问题的算法，并将其用于语义Wiki系统Ki-$\\mathbb { V } \\mathrm { i } ^ { \\ [ \\mathrm { 1 } \\mathrm { 1 } ] }$ 。德国莱比锡大学的 Bacher等人采用ABox推理设计了一个基于本体的语义Wiki系统BOWikil。该系统为用户提供了一个自动推理机可以验证新增加的数据和知识库内容的一致性，并用Pellet进行实现。荷兰格罗宁大学的Liang等人提出了基于语义Wiki的需求推理方法用于解决大型协同软件项目中的分布式需求分析自动检测问题。法国里昂大学的Cordier等人以语义Wiki为平台建立了基于案例的推理系统WikiTaable，用于揭示语义Wiki如何通过用户反馈帮助他们进行知识管理[4。",
+    "context7": "3）语义检索。该模块通过分析用户的搜索意图，运用语义属性、上下文环境和本体进行知识库查询，为用户生成更多、更准确的查询结果。增加了语义标注和本体的Wiki可以进一步满足用户“Why，What，Who，How”的查询需求。",
+    "context8": "目前适用于语义Wiki的查询语言有 SPARQL、KWRL、AnQL和KWQL。SPARQL是标准的RDF数据查询语言，可以用于语义Wiki，存在空白节点结构受限的问题。KWRL[是专为语义Wiki设计的基于规则的查询语言。该语言基于数据日志概念模型，容忍规则的不一致，解决了 SPARQL 的空白节点问题。 $\\mathrm { A n Q L } ^ { \\mathrm { { [ i \\AA } } }$ 是基于SPARQL的面向带标注的RDFS（RDF Schema）的查询语言。该语言对 SPARQL的语义功能进行了扩展，使用标注进行RDF查询，具有聚合、变量分配和子查询等特性。KWQL[是以标签一关键词为查询式的基于规则的语义Wiki检索语言。该语言不仅能进行全文、文档结构查询，而且能对正式和非正式的语义标注进行检索，同时查询表达式的形式多样化。语义Wiki查询语言的标准化是今后发展的方向。",
+    "context9": "4）语义标注与知识表示。该模块主要负责用户和语义Wiki之间的信息交互，包括语义标注方法及相应的编辑器，语义属性、本体、语义检索结果的图形化显示界面和满足用户需求的知识表示系统。列表、知识地图是常用的表示方式。采用计算机可以理解的方式对Web资源进行描述的过程称为语义标注。其格式为元数据，即基于本体的受控词表和形式化模型。德国卡斯鲁大学的AIFB(Institute of Applied Informatics and Formal Description Meth-ods）研究中心从2002年就开始进行语义标注的相关研究，创建了基于本体、关系型元数据的标准框架[，并针对语义Wiki提出其语义标准的概念模型和标注语法。AIFB的研究成果已经成功地用于Media Wiki的插件 Semantic Media Wiki。意大利巴勒莫大学的Pipitone等人构建了一个适用于维基百科的层次化纯文本自动语义标注框架，该框架的标注策略采用域本体和语言模式匹配方法消除纯文本的歧义。斯坦福大学的Flickinger等人提出的研究计划WikiWoods为英文维基百科提供丰富的句法语义标注。WikiWodds运用自然语言处理技术系统研究维基百科文本内容的自动抽取、分割、句法解析、歧义消除的具体步骤，最终输出多种形式的句法和语义信息。",
+    "context10": "5）语义导航。该模块在原有的链接导航和分类导航的基础上，利用结构化的语义标注信息为用户提供导航链接框和导航图。目前对Wiki中语义导航的研究主要集中在使用刻面、语义标注、标签等技术提高导航结果的准确性和多样性。德国耶拿大学的Landefeld等人设计了能够同时创造和产生语义Wiki内容和本体的Maariwa系统。该系统利用本体构建语义Wiki文本内容的同时，采用了链接方式集成语义Wiki的内容来增强语义导航功能。阿根廷拉塔大学的Torres等人对语义Wiki进行扩展使其具备个性化标注功能，从而实现个性化导航。爱尔兰国立大学的Oren等人[提出使用刻面浏览技术实现Wiki的语义导航功能。RDF中的谓词便于进行刻面的自动提取，能够满足用户的各种浏览需求，提高其发现能力。西班牙国立远程教育大学的Zubiaga将社会标签用于维基百科文章的导航，提供3种导航方式：枢轴浏览、知名度驱动导航和过滤导航，同时还提供了新的元数据增强了文档搜索功能。"
+  },
+  "3语义Wiki引擎": {
+    "context1": "语义Wiki引擎是指用来架设语义Wiki的软件，即在普通Wiki系统上增加语义标注、语义存储和语义存储与导航功能。在理论研究的基础上，目前国外的研究者已经开发出多个语义Wiki引擎，用于知识内容的演化和知识工程。其中典型的软件系统有SemanticMediaWiki（SMW）、IkeWiki d、AceWiki 和OntoWiki 。下面将对这4个引擎系统进行介绍，并从语义特性和实现技术两方面进行分析和比较。"
+  },
+  "3.1语义Wiki引擎简介": {
+    "context1": "1）Semantic MediaWiki。Semantic MediaWiki是 Medi-aWiki的语义扩展插件，旨在解决MediaWiki的内容一致性、知识访问控制和知识重用等问题。SemanticMediaWiki最初发布于2005年，目前正用于数百个站点。此外，人们还创建了大量的相关插件，对SMW所存储数据的编辑、显示和浏览能力进行扩展。SMW不需要预先为标注定义架构或本体，用户可以按需增加新的标注，类似于标签系统。",
+    "context2": "2）IkeWiki。IkeWiki是一个基于Java的Web应用程序，并成为协同开发本体和知识管理的便利工具。与SMW相比，IkeWiki的语义功能更强，譬如OWL-DL推理、基于规则的推理和本体编辑器。",
+    "context3": "3）AceWiki。AceWiki是一个功能强大同时易于使用的语义Wiki。该引擎使用控制自然语言ACE表示Wiki内容，一方面提升了可用性；另一方面便于用户进行本体管理。AceWiki还集成了OWL推理机Pellet，确保本体的一致性。",
+    "context4": "4）OntoWiki。OntoWiki是由德国莱比锡大学开发的基于表单的语义Wiki应用系统。该系统采用信息地图的方式对知识库进行可视化，语义内容编辑方式类似于WYSIWIG。OntoWiki成为敏捷分布式知识工程环境下建立定制化语义Web应用的有力工具。"
+  },
+  "3.2语义Wiki引擎比较分析": {
+    "context1": "表1从语义特征等方面对4个典型的语义Wiki引擎进行了详细的比较分析。",
+    "context2": "通过表1可以看出，这4个引擎系统在语义功能实现方面都较为全面，并有很多相似之处，但是只有SMW支持中文。SMW和IkeWiki是以内容为中心的语义Wiki引擎系统，AceWiki和OntoWiki则以逻辑为中心。SMW的语义推理功能不完备，不支持基于传递性、领域和功能属性的推理，其他3个引擎都支持OWL推理。OntoWiki还开发出移动版的语义Wiki系统。",
+    "context3": "表1语义Wiki引擎特性比较分析",
+    "context4": "<table><tr><td rowspan=1 colspan=1>引擎名称</td><td rowspan=1 colspan=1>SMW</td><td rowspan=1 colspan=1>IkeWiki</td><td rowspan=1 colspan=1>AceWiki</td><td rowspan=1 colspan=1>OntoWiki</td></tr><tr><td rowspan=1 colspan=1>最新版本</td><td rowspan=1 colspan=1>1. 7.1（2012/03/05)</td><td rowspan=1 colspan=1>2.0(2008/03/05)</td><td rowspan=1 colspan=1>0.5.0（2012/01/19)</td><td rowspan=1 colspan=1>0.9.5(2010/06/14)</td></tr><tr><td rowspan=1 colspan=1>开源软件</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td></tr><tr><td rowspan=1 colspan=1>开发语言</td><td rowspan=1 colspan=1>PHP</td><td rowspan=1 colspan=1>Java</td><td rowspan=1 colspan=1>Java</td><td rowspan=1 colspan=1>PHP</td></tr><tr><td rowspan=1 colspan=1>语义标注</td><td rowspan=1 colspan=1>Wiki markup</td><td rowspan=1 colspan=1>MetadataeditorType editorLink editor</td><td rowspan=1 colspan=1>Predictiveeditor</td><td rowspan=1 colspan=1>RDFauthor</td></tr><tr><td rowspan=1 colspan=1>语义存储</td><td rowspan=1 colspan=1>RDF、OWL</td><td rowspan=1 colspan=1>RDF</td><td rowspan=1 colspan=1>OWL</td><td rowspan=1 colspan=1>RDF</td></tr><tr><td rowspan=1 colspan=1>语义检索</td><td rowspan=1 colspan=1>SPARQL</td><td rowspan=1 colspan=1>SPARQL</td><td rowspan=1 colspan=1>SPARQL</td><td rowspan=1 colspan=1>SPARQL</td></tr><tr><td rowspan=1 colspan=1>语义推理</td><td rowspan=1 colspan=1>部分支持</td><td rowspan=1 colspan=1>OWL-RDFS推理</td><td rowspan=1 colspan=1>OWL推理</td><td rowspan=1 colspan=1>插件支持OWL推理</td></tr></table>"
+  },
+  "4基于语义Wiki的知识管理系统": {
+    "context1": "语义Wiki充分结合了维基和语义Web 技术的特性，使其成为开放Web环境下和组织内部进行知识管理与共享的有效工具。语义标注使得显性知识更加系统化，语义检索在全文检索的基础上实现了对关联知识的整合查询，语义导航还提升了Wiki的知识重用功能。目前国内外对语义Wiki在知识管理中的应用研究可以归纳为三类：构建知识库、知识共享、具体的知识管理系统。"
+  },
+  "4.1构建知识库": {
+    "context1": "由于维基百科的半结构化性质和覆盖度，已成为一种用来构建语义知识库的优质语料来源，可用于构建主题词表、词典和本体等多种形式的语义知识库，典型代表有WikiNet、All You Can Eat@等。文献B1] 利用SMW构建知识元库，实现了Wiki站点上的知识元语义图系统。"
+  },
+  "4.2知识共享": {
+    "context1": "Wiki的初衷是实现知识共建与共享，但在网络环境下并不是所有人都愿意共享其个人知识尤其是隐性知识。因此，提升知识共享意图和构建基于Wiki的知识共享平台成为国内外的研究重点。文献[2] 提出一个用于分析和预测Wiki社团成员知识共享意图的理论模型。该研究成果对虚拟社群和组织的管理者创建成功的知识共享系统提供了指导方针。文献β3]从内容、技术、社会值等方面探讨了维基百科对知识共享和工作绩效的影响，证明了Wiki技术可以提高知识共享水平和工作能力。",
+    "context2": "国内学者主要从Wiki知识共享系统模型 [4-3、实现流程及与知识创新的契合性这三方面展开研究。但这些研究成果都停留在理论阶段，没有进行实际系统的"
+  },
+  "开发。": "",
+  "4.3具体应用领域的知识管理系统": {
+    "context1": "以德国为首的欧洲等国家的研究人员近年来将Wiki用于不同的领域，并开发出多个功能迥异的知识管理系统，推动了Wiki理念和语义技术的融合，促进了知识管理模型的发展。",
+    "context2": "德国维尔茨堡大学的Baumeister等人开发了基于语义Wiki的知识工程软件KnwoWE，使用任务本体实现自动问答和自适应推理。荷兰阿姆斯特丹大学的Vliet和ArchiXL 公司的 $\\mathrm { B o e r } ^ { \\mathrm { [ 3 9 ] } }$ 运用语义Wiki构建了一个结构化的知识管理系统，并将其成功地用于电子政务和分布式软件开发。德国雅各布大学的Lange[4创建了专门用于数学知识管理的语义Wiki系统—SwiM。该系统采用语义标记语言OMDoc表示数学知识，运用IkeWikiyinqing实现数学知识的创建、共享和管理。"
+  },
+  "5结束语": {
+    "context1": "综上所述，语义Wiki的底层支撑理论和技术已经取得了长足的发展，国外已开发出多种语义Wiki原型系统和扩展插件，并将其用于某些领域的知识管理。但这些系统还没有得到广泛应用。而国内目前还没有开发出语义Wiki引擎及相应的知识管理系统，专门针对中文语言特性的语义Wiki技术的研究也比较匮乏。",
+    "context2": "鉴于语义Wiki是多种技术的融合与创新，笔者认为其发展趋势为结合Wiki的特性对语义标注、语义推理、语义检索和语义导航进行深入研究；利用知识地图等技术对语义编辑和显示界面进行改进从而扩展其用户群；与博客、微博等技术相结合并选用确切的知识管理理论构建通用和个性化的语义Wiki知识管理系统，最终实现协同、开放环境下的知识共享、复用与创新。□"
+  },
+  "参考文献": {
+    "context1": "[]刘继伟．吉林省科技创新体系设计[．科技管理研究，2011，31（19).",
+    "context2": "empirical study[]．Online Information Review，2011，35(5):799-820.  \nB3] TSENG S,HUANG J.The correlation between Wikipedia andknowledge sharing on job performance[]．Expert Systemswith Applications，2011，38 (5)：6118-6124.  \nB4] 焦玉英，袁静．基于WIKI的群体知识共享与创新服务研究．情报科学，2008，26（5)：652-656.  \n[B5] 张红兵，和金生．基于Wiki的知识共享系统研究[．科学学研究，2010，28（5)：727-731.  \nB6] 李翠艳．基于Wiki的高校知识共享平台的实现及应用研究[．图书馆学研究，2011（7)：71-72.  \nB7] 雷雪，徐飞.Wiki与知识创新的契合性研究[．情报理论与实践，2010，33（5)：14-17.  \nB8] BAUMEISTERJ,REUTELSHOEFERJ,PUPPEF.KnoWWE:a semantic wiki for knowledge engineering [．Applied Intel-ligence，2011，35(3):323-344.  \nB9] BOER R,VLIET H. Experiences with semantic wikis for archi-tectural knowledge management[C]//Proceedings of 9thConference on Software Architecture，2011:32-41.  \n[40] LANGE C.SwiM-A semantic wiki for mathematical knowledgemanagement[C．CoRR abs/1003.5196，2010.",
+    "context3": "作者简介：李慧，女，1980年生，博士生，讲师。刘东苏，男，1964年生，博士，教授，硕士生导师。研究方向：信息系统与信息安全。",
+    "context4": "收稿日期：2012-04－17",
+    "context5": "[]BI Xinhua，YU Cuiling.Absorptive capacity of informationtechnology and its conceptual model []．Tsinghua Scienceand Technology，2008，13(3)：337-343.  \nB 余翠玲，毕新华．企业信息系统成长的动力学机理模型研究．情报杂志，2008，27（7)：6-8.余翠玲．信息技术吸纳能力理论模型与实证研究[D].长春：吉林大学，2010.余翠玲，毕新华，于宝君．信息技术吸纳能力演进的动力机制研究[．情报科学，2009，27（12)：1880-1884.  \n6] 陈文波．基于知识视角的组织复杂信息技术吸收研究．上海：复旦大学，2006.  \n宋雪雁，王萍．信息采纳行为概念及影响因素研究[．情报科学，2010，28（5)：760-767.  \n8 FICHMAN R G. Real options and IT platform adoption: impli-cations for theory and practice[．Information Systems Re-search，2004，15(2)：132-154.  \n余翠玲，毕婷，施莹，等．信息技术吸纳能力影响因素的实证研究[．软科学，2011，25（11)：15-8.  \n[i0] 王磊．吉林省中小企业IT吸纳能力影响因素分析及对策研究[]．长春：吉林大学，2011.",
+    "context6": "收稿日期:2012-01－09"
+  },
+  "·情报理论与实践·": {
+    "context1": "TWikiEB/O1]．D012-02-0]．htp/ww.twiki.org. WikipediaEB/01]．2012-02-0]．http://en．wikipedia.org/wiki/WikipediaJHJcite_note-3. 百度百科[EB/OL]．[2012-02-0]．http://baike. baidu.com.   \n[10] KRoTZSCH M,SCHAFFERT S, VARANDECIC D. Reasoning in semantic wikis[C]// Proceedings of the 3rd International Summer School,2007:310-329.   \n[写] KOTOWSKI J. Constructive reasoning for semantic wikisD] [S. .]：Ludwig Maximilians University，2011.   \n[2] BACHER J,HOEHNDORF R,KELSO J.BOWiki: ontologybased semantic wiki with ABox reasoning [C // Proceedings of the $3 ^ { \\mathrm { r d } }$ Semantic Wiki Worshop，2008.   \n[3] LIANG P,AVGERIOU P, CLERC V. Requirements reasoning for distributed requirements analysis using semantic Wiki [C] $/ /$ Proceedings of the 4th IEEE International Conference on Global Software Engineering，2009:388-393.   \n[4] CORDIER A,LIEBER J,MOLLI P,et al. WIKITAAABLE:A semantic wikias ablackboardfor atextual case-basereasoning system[//Proceedings of the4th Semantic Wiki Worshop, 2009.   \n[5] PRUD’HOMMEAUS E, SEABORNE A. SPARQL query language for RDF [EB/OL]（2008-01-15）．[2012-02-12]. http://www.w3.org/TR/rdf-sparql-query.   \n[6] LOPES N，POLLERES A，STRACCIA U，et al.AnQL: SPARQLing up annotated RDFS[//Proceedings of the 9 $\\operatorname { t h }$ International Semantic Web Conference，2010:518-533.   \n[7] BRYF,WEIAND K. Flavors of KWQL,a keyword query language for a semantic wiki [//Proceedings of the 36th Conference on Current Trends in Theory and Practice of Computer Science，2010:247-258.   \n[8] HANDSCHUH S,STAAB S. Authoring and annotation of web pages in CREAM[// Proceedings of the 11th International Conference on World Wide Web，2002:462-473.   \n[9] OREB E，DELBRU R，MOLLER K，et al.Annotation and navigation in Semantic Wikis[C]//Proceedings of the First Workshop on Semantic Wikis，2006.   \n[20] PIPITONE A,PIRRONE R.A framework for automatic semantic annotation of Wikipedia articles[//Proceedings of the 6th WorkshiponSemanticWebApplicationsandPerspectives，2010.   \n[21] FLICKINGER D, OEPEN S, YTRESTOL G. WikiWoods: syntacto-semantic annotation for english Wikipedia[c]//Proceedings of the International Conference on Language Resoures and Evaluation,2010.   \n[22] SCHAFFERT S,PELLEGRINI T,TOCHTERMANN K,et al Networked knowledge-networked media: integrating knowledge management，new media technologies and semantic systems M．[S.1.]:Springer Verlag,2009:129-140.   \n[23]TORRES D,DIZA A,SKAF-MODLLI H,et al. Personal navigation in Semantic Wikis[//Proceedings of the Workshop onAdaptation and Personalization for Web 2.O，2009: 148-51.   \n4] ZUBIAGA A. Enhancing navigation on Wikipedia with social tags[EB/OL]．[2011-11-02]．htp://arxiv.org/abs/1202. 5469.   \n[25] http://semantic-mediawiki.org/.   \n6] IkeWiki [EB/OL]．[2011-01-0].http://sourceforge．net/ projects/ikeWiki/.   \n[7] AceWikiEB/Ol]．http://attempto.ifi.uzh.ch/acewiki/.   \n[8] http://ontowiki.net/Projects/OntoWiki.   \n[29] NASTASEV，STRUBE M，BORCHINGERB，et al.WikiNet:a very large scale multi-lingual concept network [C]// Proceedings of the International Conference on Language Resources and Evaluation，2010.   \nB0] SARJANT S,LEGG C,ROBINSON M，et al. All you can eat ontology-building:feeding Wikipedia to Cyc[C]// Proceedings of IEEE/WIC/ACM International Joint Conference on Web Intelligence and IntelligentAgent Technology，2009.   \nB1] 温有奎，焦玉英.Wiki知识元语义图研究[]．情报学 报，2009，28(6)：870-877.   \nB2]WANG W,WEI Z. Knowledge sharing in wiki communities: an"
+  },
+  "(上接第81页)": {
+    "context1": "此外，基于吉林省中小企业IT吸纳能力在地区、行业上具有明显的差异性及区分度，政府部门可以更有针对性地分类指导中小企业提升IT吸纳能力。"
+  },
+  "4结束语": {
+    "context1": "由于吉林省特殊的地理环境与产业特征，造就了当前吉林省中小企业不同地区、不同行业的发展现状。这对于吉林省中小企业IT吸纳能力强弱的分布也产生了很大的影响。政府扶持为中小企业IT吸纳能力的开发及提升提供了十分便利的条件。可以说，在中小企业成长的整个过程中，政策上的支持对其发展无疑是非常有益的。同时，中小企业应该充分利用IT咨询的价值，但也要看到IT咨询作为一把双刃剑对中小企业IT吸纳能力发展的制约，这就要求中小企业不能完全依赖IT咨询，特别是要提高自身的IT吸纳能力，能够对IT产品有一定的辨识能力。"
+  }
+}

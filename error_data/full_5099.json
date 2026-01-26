@@ -1,0 +1,57 @@
+{
+  "original_filename": "full_5099.md",
+  "层次结构的信息可视化技术研究综述": {
+    "context1": "The Research of Infom ation V isualization Technique ofH ierarch ical Structure"
+  },
+  "杨峰1 李蔚²": {
+    "context1": "(1广东商学院广东省电子商务市场应用技术重点实验室广州510320;2.广东商学院图书馆广州510320）",
+    "context2": "摘要信息可视化自 20世纪90年代中期提出以来，出现了各种不同形式的技术。其中展示层次结构的占有重要的地位，有着广泛的应用背景。在研究大量可视化技术特点的基础上，对层次结构可视化技术的几类流派的典型代表进行剖析;分析一些主要的改进方案与相关技术;最后指出他们的各自特点并给出总结。",
+    "context3": "关键词信息可视化层次结构分类",
+    "context4": "中图分类号TP391; $\\mathtt { G 3 5 4 }$ 文献标识码A",
+    "context5": "文章编号1002－1965（2010)12—0152-04"
+  },
+  "0引言": {
+    "context1": "信息可视化（Infomation visualizationInfoVis)是情报学领域一个较新的研究热点。信息可视化的技术方法根据不同的标准可分为不同类别。按照信息可视化处理对象的层次可以分为属性可视化、信息结构可视化和高维信息可视化[1]。信息集合的单元之间组成了不同的结构关系，这些结构形式可以分成三类：顺序结构、层次结构和网状结构。结构可视化的重点是展示信息单元的上下左右“位置”即信息单元间的某种逻辑结构。其中层次结构可视化的应用最为成熟。",
+    "context2": "由于层次是展示信息集合结构的重要方法，因此，层次结构的可视化技术从一开始就是信息可视化技术的重点。如轮廓图（outlines)或树形图表（Tree diagram)对于小型的、简洁的层次结构可视化效果好。他们可以绘制在一张纸上或计算机屏幕上而不需要滚动。但是当层次结构很大时，这种方式就显得过于简单而不容易理解。很多普通的网络也可以转化成一个生成树，从而使用层次可视化技术。",
+    "context3": "大量的信息集合都具有严格的层次结构。无论在信息技术领域还是在社会经济的各个方面，信息的层次结构都是一个非常普遍的现象。例如，文献分类体系、评价中的指标体系结构、企业员工的组织、企业的机构组织图、产品分类图、磁盘文件结构、HTML文件等。随着Intemet技术的普及，人们在网上获得信息的周期越来越短，数量越来越多，这个现象在过去的10年中特别明显。数量的增加使得信息集合的层次结构",
+    "context4": "也变得越来越大和复杂。"
+  },
+  "1层次结构可视化分类": {
+    "context1": "对层次结构组织的一个最容易的方法是将他们转化成一棵树。树是一种常用的信息结构的表示方式，在图论中常常称为层次树。可见层次结构与树有着很好的对应关系。树有着从上到下的顺序，内节点有子节点，叶子节点是最终节点。从根到每一个节点存在惟一的一条路径。为解决越来越大型的层次结构的可视化问题，层次结构一直都被列为重要的一类，层次结构的信息可视化技术和方案的研究成果也是最多的[2]。多年的研究使得层次树类型的可视化技术发展出众多的具体方法。杨（Young）赫尔曼等（Heiman)和道基（Dodge)分别1996年、2000年与 2002年对层次结构的可视化给出了总结[3-5]。综观这些技术方案可以主要地分为两个技术流派[。即节点连线式$( \\mathrm { N o d e ^ { - } l i n k }$ 层次树与空间填充式（Space－filling)层次树可视化技术,有些文献中称为连接式（Connection)与包围式（Enclosure)。",
+    "context2": "在上两类思想指导下，发展出多种具体的层次树可视化模型。经过一些改进，产生多种多样的组合形式。另外还有一些层次结构的可视化方法很难说清楚属于上述哪一类,因此，我们根据目前各种层次结构的可视化技术特点将他们分为以下 4类：",
+    "context3": "a节点连线式，是最直观的可以表示树形结构的图式方法。它用某种形式的图符代表顶点信息单元，用细线代表边表示信息单元之间的父子关系。它较好地表示了层次结构中的节点关系，便于人们理解整个信息集合中结构。为了更好地利用有限空间、最大限度地展示信息集合及其结构关系，人们陆续研制了其他一些基于节点连线式的层次可视化技术，主要有 H树 $( \\mathrm { H } ^ { - } \\mathrm { t r e e } )$ ，射线图（Radialview），气球图（Balloonview),双曲树（Hypeibolic－tree),锥形树（Cone－tree)等。",
+    "context4": "b空间填充式,其主要思想是将整个信息集合对应到一个区域,例如一个矩形区域。节点按照他们各自的层次占据相应的大小。使用的基本单元从矩形、三角形、圆环到扇形，几乎都有考虑的方案。在平面上实现的这类技术分别是树图（Tree－map）冰柱图（Icicle－plot)、圆环图（ $\\mathbf { \\nabla } \\mathrm { T r e e } ^ { - } \\mathrm { r i n g } )$ 以及基奥普斯图（Che-ops)等。",
+    "context5": "$\\mathbf { o }$ 三维形式，将层次结构在三维空间中显示，增加了实现难度，但加强了视觉效果，在某些应用中是非常有效的。在上两类可视化技术中有些也有三维效果，但不是其主要特征。如 $\\mathrm { H 3 }$ 是三维空间的，但更是点线连接的。当然这种划分主要是为总结的方便，没有遵守某一严格的标准。在三维空间实现层次结构可视化的典型代表有Landscapes Infomation cube、Infomation pyiam id和 Beem tree等。",
+    "context6": "d其他方案，另外有一些层次结构的可视化方案与上述技术都不相同，但形式新颖、思路独特、构思精巧，特别是在一些特定的应用有独到的优势，对于开拓层次结构可视化的思路很有必要。"
+  },
+  "2常用形式": {
+    "context1": "2.1节点连线式节点连线式层次结构可视化模型基础是图论中使用树形图表（Treediagram);最早开始使用的是“树浏览器”（Treebrow sers)，Window s操作系统使其变得完美;H一树 $( \\mathrm { H } ^ { - } \\mathrm { t r e e } )$ 针对平衡分布的层次结构可以较好地利用了可视化空间[7];射线图(RadialView),算法简单易行，通常效果不错，但空间利用不是很优化[8];气球图（BalloonView）将同级的兄弟节点安排在以父节点为中心的一个圆上[9];锥形树（Cone tree)由罗伯特森(Robertson)等给出[10],它的可视化场景相对变化很小,容易使用户在总体结构把握上造成不便。",
+    "context2": "最能代表节点连线思想的双曲树（Hypeibolic一tree)技术由Lamping和 Rao首先提出[11]。它在双曲平面上建立一个树结构，采用焦点 十细节的优化技术。该方法几乎是目前最著名的信息可视化技术之一。该市搖双平面tp建：立WWM树结构n然垢将其映射到普通的欧几里得平面上，产生出一个较好的可视化效果，几乎将一个圆形区域的空间完全利用了。其特点是对每一个方向提供了一个无限的空间，所以无论多么大的层次结构总是可以绘制的。Inxight一Xerox等系统采用了该技术。该方法还扩展到 3D空间[12]。与2D双曲树类似，3D双曲树在3D双曲空间进行绘制，最终结果也转换到一个单位圆上并绘制在屏幕上。3D可以将一些必要的交叉情形绘制出来，该技术已经有了一些相应的软件。",
+    "context3": "![](images/9a32eb4c91513a43b441d7b6eb02c59e659ce61de41828969fbc83399f1edf7a.jpg)  \n图1有代表性的节点连线式",
+    "context4": "2.2空间填充式空间填充式用一个区域,可以是矩形、圆、半圆、三角形等表示全部信息集合，代表着层次结构的根。然后将该区域交替地划分为逐渐小的区域,对应各层子树。区域面积大小与对应子树的权重对应，常常是节点的信息数量。",
+    "context5": "其理论模型可以归结到韦恩图[13];约翰逊( $\\operatorname { J o h n } ^ { - }$ son)和施莱德曼（Shneideiman)注意到韦恩图对面积的利用率较低,通过改进设计了树图（Treemaps);冰柱图（Icicle—plot)用矩形区域表示节点，但不用嵌套形式表示父子关系[14];信息片（Infoimation Slices)在 2一维空间上用一个或多个半圆可视化层次结构，适合对大型，尤其是深层次结构进行可视化[15];填充射线图与信息片有相同的大思路，但他们不用半圆区域，多用一个圆来可视化层次结构[16];基奥普斯图（Cheops)是唯一使用三角形区域的方法[17]。",
+    "context6": "![](images/fea8aa000bcc8edf2055c03356eeb7256f270c894e55766c56df6dca79e5e2e2.jpg)  \n图2有代表性的空间填充式",
+    "context7": "空间填充式的一个成功应用是市场图（Marketmap)[18]。它克服过分狭窄的带状小矩形的出现。它在每一层处理时，通过启发式方法将过于狭窄的小矩形正方形化，改善可视化结果的平衡效果。该方法成功地用于表现用美国股票市场 1999年9月数据生成的市场图。",
+    "context8": "2.3三维形式信息立方体（Infomationcube)是三维空间可视化技术的典型代表[19],它用一个立方体表示全部信息集合;其他有信息金字塔（Infomationpyram id),它是一种 3一D风景画形式的层次结构的简明可视化方法[20];光柱树（Beam trees)可看成是Treemap的立体化[21]。",
+    "context9": "该类中实际使用过的是文件系统导航（File System Navigator FSN）[22]。首先布置一个 3D的文件空间,绘制一个灰色的底座表示当前文件单元，在其上绘制一些方块表示该单元的文件，大小与文件字节大小按指数比例对应，颜色表示文件的使用时间，子目录不再显得重要。不同文件单元之间用连线连接，以便导航。用户通过观赏“风景\"很容易得到全局影像。也可以对处于焦点位置的文件进行访问。FSN在它出现在电影“侏罗纪公园\"后得到关注。在SGI的MineSet产品中用它来可视化决策树，该方法在早期曾广泛使用,它随早期 SGI工作站一同出现在 SGI网站中。这种 3D方式的层次可视化较新的版本的免费软件可以在（http://www:sgi com)上获得。",
+    "context10": "用它实现了Unix系统的文件结构的可视化。",
+    "context11": "信息隧道（Infomation Tunnel)是 Bubble Trees的方案的原型系统[2]。该思路提供一个对下一层节点的微型化预览，帮助用户做出基于经验的选择。当前节点用一个大圆表示，称为隧道，在它之下的第一层子节点用若干个小圆表示。小圆的圆周装饰为红或蓝等不同的颜色表示该子节点下的文件个数的多少。缺省情况下，子隧道按字母顺序从内向外排列，用户可以通过左边的控制面版改变显示方式。点击子隧道，界面动画地转换成新的界面。点击中间的三角形则回到上一级层次。"
+  },
+  "3主要特点": {
+    "context1": "从以上的总结中可以看出层次结构的信息可视化技术的一些主要特点。",
+    "context2": "首先是方法众多，一是已经在某些通用系统已经采用的技术,如W indows中使用的Outline view(虽然它是最简单的形式），Sony公司使用的Infomationcube SGI中使用的 Infomation pyram id另外一些则是在信息可视化研究过程中产生较大影响的(可能没有任何一个实用系统使用过)，主要表现在其他的技术方案的实现都参考过其思想，如Tree「map。其他一些影响较窄的技术方法没有总结到文中来。这充分说明层次结构的可视化是信息可视化的重要方面。众多的技术思路也反映出层次结构的可视化技术中还没有形成一个统一认可的具体方案。这说明该方向的研究还没有完全成熟，现有的技术方案还各自存在着自身的缺点。",
+    "context3": "![](images/13b963a6f249ffebc1ab47da3e7311ad9af3d30483d854f8b2333a257816c666.jpg)  \n图3有代表性的三维形式与其他方案",
+    "context4": "2.4其他方案其他很难划分到上述主要流派中的构思新颖的方案有 CCT树（Collapsible CylindricalTrees CCT),适合中等规模层次结构的可视化技术，最早用在对 W eb信息的可视化及导航上[23];GopherVR,它是一个Gopher服务器的浏览器[24],GopherVR的主要问题是它在某一时刻只能显示层次结构中的一层，用户在使用时很容易迷航;魔眼视图（MagicEyeView）是 SinVis系统的一部分[25]。它的可视化效果很类似于已经取得专利的双曲树浏览器，所不同的是它没有使用双曲几何;恩斯特·科雷伯格(EmstKleiberg)等人注意到人类在观察自然界的树时，很容易分清其结构关系，而这种感觉不会受到无论有多少树叶的影响。他们将Holton模型实现的三维立体树引入层次结构信国阿观化h称为植物/树(Bdtnchltree）2。并",
+    "context5": "节点连线式较好地解决了信息集合中的节点间的父子关系，不仅结构层次一目了然，还可以通过连线的长短、粗细、颜色等表示节点之间的其他关系，如相似度等。但他们对于节点内部信息的表达较弱。虽然可以通过节点的大小表示节点内容的多少，但这受到其所在层次的限制。一般情况越远离根部的节点尺寸越小。一个叶子节点即使比某些上层节点包含更多的信息(如文件个数），一般也不会将它画的比上层节点还要大。",
+    "context6": "空间填充式在反应层次关系的表达的同时，注重了节点信息的表达。层次关系通过区域的嵌套表达，同时每个区域的大小与颜色特性丰富了对节点内容信息的表达。上述集中方法都是用面积表示节点信息的多少（Cheops除外）。对颜色的利用则相差很远，颜色特征使用效率最高的当数Cheops方法，而且它还将区域的边框的有无特征也有效地利用起来。"
+  },
+  "参考文献": {
+    "context1": "[-」 心力 」 (3).81-85 [2] Chi EA Taxonomy of Visualization Techn iques Using the Data State Reference Model[A].IEEE Sym posim on Visual Languages 2000. 69-75 [3]Young PThree D mensional Infomation Visualization[EB].   \n2005. UniversityofDurham,l996,Availablein: htp://vrg dur aouk/m isc/PeterY oung/pages/work/documents/lit-suivey /lit suv ps gz 5 [4] Heman I Melancon G，MarshallM.SGraph Visualization in Infomation V isualization；a Survey[J]．IEEE Transactions on Vi sualization and ComputerG raphics 2OOo,6(1): 24—43 [5] Dodge M.An Atlas of Cyberspaces[EB]. 2OO2. Available in; ht tp://www. cybergeography org/atlas/atlas hm1 5 [6] Nguyen QV，Huang M.L A Space optim ized Tree Visualization [A].Proceeding of the IEEE Sym posim on Infomation Visualiza\" tion:202.85-92 [7] Shiloach Y.Arrangem ents of PlanarGraphs on the PlanarLatices [D]. PhD Thesis Weimann Institute of Science Rehovot Israel1976 [8]Wils GJNiche works Interactive Visualization of Verylarge Graphs[A]. Pmo Symp Graph Draw ing GD'97,1998, 403-415 [9] ChiEH,Pitkow JMackinlayJetal Visualizing the Evolu tion ofW eb Ecologies[A].Prmceeding of ACM SG ICHI'98 Confer ence on Human Factors in Computing Systems l998, 400-407 [1O]RobertsonG G，Mack inlay JD，Card SK.Cone Trees Animated   \n3D V isualizations ofHierarchical Infomation[A].Human Factors in Camputing Systems CHI '9l Conference Proceedings 1991.   \n189-194 [11] Lamping J Rao R:Laying Out and V isualizing Large Trees Using a Hyperbolic Space[A].In Proo UIST l994,13-14 [12]Munmer TBurchard P. V isualizing the Stucture of the World W ideW eb in 3D hypeibolic space[A]. VRML‘95[C],1995. 33 -38 [13] Johnson BShneideman B Tree-Map:a Space Filing App roach to the Visualization of Hierarchical Infomation structures[A]. IEEE V isualization，199l, 284—291 [14] Barlw TNeville P.A Com parison of2-D V isualizations ofHier archies[A].Proceedings of the IEEE Symposim on Infomation V isualization200l, 131—138 plring Large H ierarchies Using Cascading Seni-circular D iscs [A].InfoVis 1998.9-12   \n[16] Stasko J Zhang E Focus十context D isplay and Navigation Techniques for Enhancing Radial Space-filling H ierarchy Visualizations[A]: IEEE,2000,57-65   \n[17] Beaudoin L ParentM.A，Vroomen L CCheops A CompactExplrer for Complex Hierarch ies[A].ProoVisualization1996. 87-92   \n[18] Watenbeig M.Visualizing the Stock Market[A].In $\\mathrm { C H I 9 9 ~ E x ^ { - } }$ tended Abstracts[C]，1999,188-189,Pitsburgh Philadelphia   \n[19]Rekimoto J Green M. The Infomation Cube Using Transparency in 3D Infomation Visualization[A].ProcThird Ann Workshop Infomation Technologies& Systems(W ITS'93),1993,125—132   \n[20]Wolte JInfomation Pyram ids Compactly Visualising Large H ier archies[EB].MastersthesisGraz Universityof Technolgy AustriaAvailable in:ftp://ftp icm:edu/pub/theses/jwolte pdf 1998   \n[21]Ham F,W ijk JBeam trees Com pactV isualization of Large Hierar ch ies[A]. Proceed ings of the IEEE Symposim on Infoimation Visualization 2002（InfoV is'02),2002.93—102   \n[22] Strasnick S L Tesler JD.Method and Apparatus for Displaying DataW ithin a Three-D imensional Infomation landscape[P].US Patent 5528735,1996   \n[23] Dachselt R，Ebert J Collapsible Cylindrical Treesa FastHierar ch icalNavigation Techn ique[A].Pmceed ings of the IEEE Sym\" posim on Infomation V isualization 2OOl（NFOVIS'Ol)，2001. 79-88   \n[24] McCahillMP,Erickson T Design for a 3D Spatial User Interface for IntemetGopher[A]. In Poo ofED-MEDIA 95,1995.39- 44   \n[25]K reuselerM,Schumann H.Infom ation V isualization Using a new Focus十context techn ique in Combination W ith Dynam ic C lustering of Infomation Space[A].Pmceeding of the 1999 Workshop on New Paradigm s in Infomation Visualization and Man ipulation (NPV'99),1999.1-5   \n[26] Holton M.Strands Gravity and BotanicalTree magery[J].Com\" puterG raphics Fonm，1994,13(1):57—67   \n[27]Boarlman R.Bubble Trees Visualization ofHierarchical Infoma tion Trees[A]．In CHI 2OOO Extended Abstracts[C].The Hague The Netherlands 2000",
+    "context2": "(责编：白燕琼）"
+  },
+  "（上接第158页）": {
+    "context1": "Sixth Intemational Conference on Machine Leaming and Cybemetics(ICMLC2007)，2007：4032—4037[8]M.Nagamachi Kansei Engineering and Rough Sets Model[J],Rough Sets and Current Trends in Cam puting(RSCT2OO6)，2006:27-37",
+    "context2": "[9]Ioan Salm ie Mihaela Dinsoreanu Cristina Pop etal A System for Generating and Processing Semantically- Enhanced A rch ival eCon tent[C]. The $5 \\mathrm { t h }$ In temational Conference on W eb In fo m a\" tion System s and Technolgies(W ISS2009)，2009．237—242",
+    "context3": "（责编：王平军）"
+  }
+}

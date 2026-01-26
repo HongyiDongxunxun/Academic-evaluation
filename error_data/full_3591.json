@@ -1,0 +1,86 @@
+{
+  "original_filename": "full_3591.md",
+  "国外法律本体研究综述": {
+    "context1": "赵忠君",
+    "context2": "（湘潭大学 旅游管理学院,湖南 湘潭411105）",
+    "context3": "摘要：在人工智能与法律的研究背景下,法律本体在法律知识表达中起着不可忽视的作用并具有独特优势。本文着重梳理现存法律本体的研究内容,分别阐述了法律通用本体和法律领域本体的研究现状,其中涉及到法律本体构建的理论基础、方法、工具、语言、应用及未来研究方向等方面。关键词：人工智能;法律本体;法律通用本体;法律领域本体",
+    "context4": "中图分类号：G350 文献标识码：A 文章编号:1007-7634(2012)01-149-06"
+  },
+  "A Summary of Study on Legal Ontology Abroad": {
+    "context1": "ZHAO Zhong-jun",
+    "context2": "(School of Tourist Management,Xiangtan University,Xiangtan 411105,China)",
+    "context3": "Abstract: In the background of AI&Law,legal ontology which has the unique advantage plays an important role in legal knowledge expresson.This paper focuses on contents of existing legal ontology which can be divided into legal general ontology and legal domain ontology. The theory,methodology, tools,languages,applications and the future research directions are involved.",
+    "context4": "Keyword: AI; legal ontology; legal general ontology; legal domain ontology",
+    "context5": "随着本体技术逐渐成熟[],法律本体也逐步完善[2]。大量研究项目致力于将语义网技术应用到法律领域而积累了丰富的本体工程(旨在构建概念结构或概念模型及概念之间的关系)的经验。法律本体作为概念模型用于各种法律应用中,如信息检索、互操作框架及结论提取等。在法律本体逐渐成熟的过程中，关键问题及不足也显示出来,对现有研究的梳理有助于进一步研究,本文对法律本体的产生背景、功能、优点、类型、研究内容及趋势等方面进行综述。",
+    "context6": "(AI&Law)的结合，为了实现人工智能在法律领域的应用目标、突破限制条件,本体的方法被用于表达法律领域知识,从而构建知识基础,实现推理及智能应用,反言之AI&Law的目标、应用方向及挑战也影响法律本体的研究目标、内容及方向。"
+  },
+  "1.1目标": {
+    "context1": "随着专家系统在各个领域应用成功，人工智能也逐渐的渗透到法律领域,其目标包括[3]： $\\textcircled{1}$ 交叉学科的研究会对法学、认知科学及人工智能均产生新贡献； $\\textcircled{2}$ 提高辩护律师法律推理及论证的技巧； $\\textcircled{3}$ 提高法律判决的质量，其中包括法院的合法判决; $\\textcircled{4}$ 改善律师培训并提供律师的基本技能：律师可以更加细致的阅读法律材料、更精准的起草法律文件、更理"
+  },
+  "1人工智能与法律": {
+    "context1": "法律本体的重要研究起源之一人工智能与法律性的进行风险管理以及更高效的信息管理; $\\textcircled{5}$ 提供更为公平有效的司法体制：减少高额的法律服务成本,处理相似案件及二选一的问题变得更为容易,增加公众对法律及法律制度的理解; $\\textcircled{6}$ 规避潜在的争议：计算机程序只是作为法律判决者的工具,决策并不是由程序独立完成的。"
+  },
+  "1.2应用": {
+    "context1": "人工智能与法律如今已成为当今欧美学界一种专门的研究领域。从1991年开始，道义(规范)逻辑与计算机科学国际研讨会每隔2年召开一次,整理出版了《道义逻辑、行为人和规范性系统》论文集多本，还创立了专门性的研究刊物《人工智能和法律》，这些都说明了法学与人工智能这种跨学科的研究课题较好的结合起来了。然而,不可否认的是，人工智能与法律问题的研究依旧处于初级阶段,对于这一问题的探讨依然是一个先者浅探的神秘领域[4]。由于受到专家系统成功研制的启发，开始了法律专家系统的尝试,进而又研发了法律信息系统,行政管理自动化装置，司法自动化和电脑辅助协同创作等智能成果。目前，人工智能在法律领域的应用大致可概述为如下方面：介绍法律信息(法律数据库,法律信息系统);日常工作的自动化(尤其是行政管理);指导大事登记(如居民,机动车，土地籍簿,债务人);判决的支持和部分自动执行判决(知识支持系统，专家系统);辅助立法(发现法律漏洞,避免规则冲突）。"
+  },
+  "1.3 挑战": {
+    "context1": "即是描述世界上的对象、概念、其他实体(或实体的一部分)以及它们之间的联系。因此,法律本体就是描述\"法的构成\"[5]。"
+  },
+  "2.1功能": {
+    "context1": "人工智能发展的挑战：构建普通概念的知识基础,关联概念与实例,利用概念进行总结、预测或实现相应的目标，自然语言沟通;而其应用到法律领域遇到更为具体问题：同时表达法规中的推理关系和修订过程;用开放文本概念和规范概念进行表达和推理;模拟法律专家预测或解决问题的过程;利用案例和规则进行论证;理解并生成法律文本[3]。",
+    "context2": "应用问题对法律知识的表达产生了迫切需求，并涌现出各种方法，如模态逻辑(特别是道义逻辑)的方式、基于案例的方式、针对特定任务的实用方式等,在这些方法的效果不理想的情况下，本体的方式被提出来，并吸引了大批学者对此进行研究。"
+  },
+  "2法律本体的功能及优点": {
+    "context1": "法律本体的功能总结为[： $\\textcircled{1}$ 法律信息的组织和结构化表达。本体作为描述研究领域事件或现象的基本工具,起着词汇表的作用,提供术语及句法的正确表达。 $\\textcircled{2}$ 法律本体服务于法律推理及相关问题的解决。本体能够清楚的表达领域知识从而使得自动推理机能够表达问题并提供问题的答案,换言之，本体使得领域知识实现结构化表达,这也是人工智能领域专家系统或者决策支持运行的基础。 $\\textcircled{3}$ 法律本体可作为法律文件索引及检索的基础。日常的管理业务产生大量的文件,法律本体能够对各类文档进行语义标注,相比于目前广泛采用的利用关键字的方式进行检索的方法,基于法律本体的文档的组织管理及检索在查准率、查全率上均能有显著提高。 $\\textcircled{4}$ 法律本体可实现异构系统的语义集成与互操作。法律本体的作用好似定义一张系统间信息交换的词汇表,从而实现两系统之间的语义集成与互操作。 $\\textcircled{5}$ 法律本体澄清了领域中的法律知识。本体通过领域内容知识的分类，提供一个新的视角审视该领域。本体在澄清领域知识时,更关注领域内最为本质的知识,通常是与领域原则或基础理论相关，因此也称为核心本体,这是详细描述该领域的基础。",
+    "context2": "人工智能领域,本体就是一个概念化的过程,也"
+  },
+  "2.2优点": {
+    "context1": "(1)本体以概念为基础的表达方式适合法律知识的表达。法律概念是法律构成的基本要素，法律概念对于法律的适用起着决定性的作用,本体能够充分清晰的并且用形式化的语言描述概念,通过分析概念之间的关系形成概念网络来构成领域知识，这种方式符合人们的认知习惯，本体尝试去描述的是法律整体，而不仅仅是规则或者案例,这正是基于规则的方式和基于案例的表达方式所缺失的。",
+    "context2": "(2)本体包含丰富的语义信息，可以充分表达法律概念的涵义。随着本体技术的发展,本体表达语言也不断完善，现在使用最为广泛的就是W3C推出的网络本体描述语言OWL,其含有三个子语言，可满足不同程度的描述需要，同时其提供自定义的方式描述概念之间的关系，能够充分满足法律概念描述的需要,增加了描述的灵活度和准确度。",
+    "context3": "(3)本体概念的层级关系与本体规则相结合成为法律推理的基础。法律和逻辑均与推理技术密不可分，法律就是一门推理的学问,本体通过概念的层级关系以及规则在一定程度上实现法律推理,并且与基于规则的推理相比，其不受有限规则的约束,可以完成更为复杂的推理过程,结果往往也更符合实际;与基于案例的推理相比更具理论基础。",
+    "context4": "(4)领域本体与问题解决模型相分离，具有一定的独立性和稳定性。法律的动态性和一致性一直是法律知识表示考虑的重点，本体方式将领域知识本体与问题解决模型相分离,两者具有一定的独立性，在法律信息变更的情况下只需更新领域本体即可，而对于具体的任务不同只需调整问题解决模型,这样就保证了领域本体的稳定性。",
+    "context5": "(5)实现共享法律知识的重用。本体构建的最重要的目的之一就是实现知识的重用,同样本体方式表达的法律知识也朝着重用的目标去努力，虽然前期的很多法律本体的成果多依据个人经验而建立，缺少重用的价值,但是也有成功的案例,如DOLCE、LRI-Core等都在不同的工程中成功实现重用。",
+    "context6": "(6)以本体表示的法律知识应用范围更为广泛。本体表示方式与基于第一代人工智能技术的实用方式相比，虽然后者能够得到很实际的结果,但是此方法只能在较窄的知识范围内展开,而前者则不受此限制,能够在较广的范围内应用。",
+    "context7": "(7)法律本体的构建多以法律理论为基础，所要解决的问题也是理论界研究的问题,法律理论对法律本体构建的引导是对其实际应用、有效解决实际问题的有力保障。"
+  },
+  "3法律本体研究": {
+    "context1": "国外对人工智能与法律的研究开始较早，目前已经形成了相当丰富的理论与案例,研究主要集中在法律本体构建、法律本体的应用、法律信息网络检索、法律专家知识库的设计与实现等方面，依据本体的分类,法律本体也可分为通用本体和领域本体：通用本体是指法律领域通用,其中涉及到法律领域一般概念及概念之间的关系,适于各子领域的重用;领域本体是针对法律具体领域(如刑法、交通法等)而建立的本体。"
+  },
+  "3.1 法律通用本体": {
+    "context1": "目前,已建立的法律通用本体包括：LLD,FO-Law，FBO，KBO,LRI-Core，LKIF-core，JurWordNet",
+    "context2": "等。",
+    "context3": "LLD的全称为A language for legal discourse,提出者McCarty认为建立法律领域的深层次概念化模型,不管从理论和实践的方面而言,深层次概念模型都是必不可少的，实践方面长远的目标是建立尽可能接近法律人思维的分析/计划/检索系统，从实践工程的经验也体现了完备的领域知识的重要性，深层次概念模型均能满足两者的需要。McCarty提出了一种语言来表示法律论述(LLD),分别对LLD的基本特征及LLD如何表达规则、证据、模态等法律内容进行了阐述,LLD并不能算作一个法律本体，而是用半形式化语言来概念化法律领域的一种尝试。",
+    "context4": "法律功能本体FOLaw[s]（a functional ontology oflaw)阐述的主要观点是法律知识工程所使用的法律模型应以一个清晰的法律本体为基础,本体在此起到法律理论的作用，其中所提到的法律本体依据功能不同将法律知识分成许多相互联系的类及子类，主要类别包括： $\\textcircled{1}$ 规范知识（normative knowledge）;$\\textcircled{2}$ 世界知识（world knowledge）; $\\textcircled{3}$ 义务知识(respon-sibility knowledge）; $\\textcircled{4}$ 反应知识（reactiveknowl-edge); $\\textcircled{5}$ 元法律知识（meta-legal knowledge）; $\\textcircled{6}$ 创造性知识(creative knowledge);许多类别是从法律理论中借鉴过来的,但是其含义既不同于日常用语中的原始意义,也不同于法律理论中的通常含义。此外,对于法律知识工程需要应对的主要问题及现有方法进行讨论，经总结认为现有的方法均不能条理清晰一致的表达法律领域理论,基于此建议采用建模方式构建法律知识工程,并阐述了主要原则和指导思想。与AI&LAW传统方式不同,法律知识工程基于模型的方式可以： $\\textcircled{1}$ 在清晰的本体基础上获得一致连贯的领域理论 $\\textcircled{2}$ 关注知识层面模型的使用 $\\textcircled{3}$ 将知识工程看作是建模任务[8]。",
+    "context5": "基于框架的概念性的法律本体FBO[9-支柱主要包含三个框架结构，分别是规范框架（normframe）、行为框架(act frame)和概念描述框架(con-cept-descriptionframe）;结构的形式可以通过法理分析确定，法律本体除了包含以上三个框架结构外，还包括一些结构示例的共有要素。此法律本体关注用于法律领域建模的概念原语,很少涉及到通常意义上的法律知识系统的发展、法律推理任务的描述、本体的形式化表达及不同本体的对比等内容。基于框架的法律本体可以满足Gruber所提出的本体构建原则,并且经证实其可以满足不同任务的需要。",
+    "context6": "基于知识的法律本体KBO[2将知识融入到法律本体中,包含两方面：一是在知识层面涉及到知识获取及证明合理的方式,这就是哲学中的\"认知论”(Epistemology),二是存在层面涉及到存在的实体及其存在方式,也即是哲学中的\"本体论\"(Ontology）。通常的法律观念包含认知法律知识的方式及构成法律的实体，基于知识的法律本体包含多重本体状态层次，用来说明实体存在的不同类型和多重认知功能(说明实体的知识状态),可用以表示不同的关于“法律知识是什么\"的观点,基于知识的法律本体由六个基本类别构成：实体(entities）、本体状态层(on-tological status layers）、认知功能(epistemic roles）、关系(relations）、行为(acts）、事实(facts）。",
+    "context7": "LRI-Core[13]与FOLaw同是莱布尼兹法律中心的研究成果，前者认为依据后者的知识分类,法律来源中的绝大多数概念都涉及到特定领域的社会行为，而这些特定的领域就是法律功能本体中的\"世界知识”，可以说前者以后者为基础,两者具有紧密的联系。LRI-Core的类别包括物理概念、抽象概念、精神概念、角色和发生。",
+    "context8": "LKIF[14](legal knowledge interchange format ）作为法律知识系统框架的一部分,是一个法律核心本体，能使现存法律知识系统的知识交互,这也是Estrella项目的研究内容。LKIF具有两个作用： $\\textcircled{1}$ 翻译不同格式和形式化表达的法律知识基础; $\\textcircled{2}$ 法律知识形式化表达,这也是法律知识系统大框架的一部分。法律本体在法律知识转换中起着重要作用,尤其是将知识转换为LKIF作为知识服务基础时更是如此。",
+    "context9": "JurWordNet[15]是WordNet在意大利法律领域的扩展,目的不仅是提供一个法律信息描述模型,也提供多语言和异构的信息资源。JurWordNet作为词汇资源，概念通过词汇关系进行关联;作为内容描述模型，词汇通过构成法律领域的实体之间的本体关系进行关联；因此JurWordNet实际上经过了双重描述。保证JurWordNet一致性的关键问题是：详细描述词汇资源中的概念；领域内主要实体的概念化需与上层类别建立联系。JurWordNe选取DOCLE作为上层本体。",
+    "context10": "以上七个法律通用本体均是通过手工方式建立的,这是因为通过本体较为抽象，并涉及到认知，手工方式能够更好的完成分类,用以表达法律知识，并且是高度结构化的。这些通用本体均具有澄清领域知识的作用,同时FOLaw具有推理及问题解决的功能,JurWordNe具有组织及构造信息的功能。其中，LLD、框架本体和基于知识的法律本体是用普通语言表示法律知识,FOLaw尝试提供法律问题解决框架,而LRI-Core 和LKIF-core 支持领域本体知识的获取。前期的研究部分是以Ontolingua为基础的，随着本体语言及工具的丰富，逐渐转变为OWL语言表达。"
+  },
+  "3.2 法律领域本体": {
+    "context1": "在通用本体研究的基础上，研究者开始关注更为具体的领域的知识表达以实现有效的应用。如Peters[]等人介绍了LOIS工程中的法律知识结构,LOIS工程拟通过提供相应的法律知识以改进法律信息检索策略，且此工程更加关注构建多语言Wordnet以满足法律领域的跨语言信息检索。通过将词典中的语义和法律环境中的语义联合表示法律概念的方法满足专家和非法律专业人士的跨语言法律信息检索的需要。",
+    "context2": "意大利正在进行的许多工程旨在为量刑法官提供支持，但所有这些工程并没有定义领域本体，而Asaro认为利用领域本体可以在这些工程中建立一致的概念结构，并将领域知识加载到支持工具中。领域概念化可以通过元数据的方式管理文件、为法官鉴定或建议犯罪假设，利用XML对刑法进行语义标注，该文利用UML形式化犯罪的本体概念，认为罪由罪犯、行为、处罚、事件和强制措施任选其一构成[17]。",
+    "context3": "Gangemi简要描述了一个旨在通过银行管理文件的不同版本表达与管理规范动态的工程中所使用的概念性工具,也即描述了表达规范动态的初步框架,其可作为本体集成的特例。这个框架使用了通过表达描述逻辑的分类服务的本体集成模式、一个具有原则顶层和组件库的形式本体模式、从文本和半形式化材料得到的领域本体和详细的映射关系集合，这个关系叫做比较关系，用来强调在规范变动中容易改变的特性，而这也为文本标记法律文本中有变动的概念而铺平了道路[8]。",
+    "context4": "LAME[介绍了面向信息检索的法律本体的构建方法,其所构建的本体是一个领域本体,描述的是法国法律领域。面向信息检索的法律本体是在网络环境下构建的,计划建立一个法国法律的门户网站，收集不同的法律文件。这些法律文件通常是规范性的,如法律、法令、政令、准则等。构建法国法律本体的目的是创造一种加载在终端用户搜索引擎上的工具,计划用本体去扩展用户的需求,通过将用户输入词汇与本体库中的词汇相匹配,扩展或者缩小搜索",
+    "context5": "表1 法律领域本体[20]",
+    "context6": "<table><tr><td>本体或工程</td><td>应用</td><td>类型</td><td>功能</td><td>构建方式</td></tr><tr><td>专业法律知识本体[21] (OPLK)</td><td colspan=\"3\">FAQsystem）(信息检索)(Iuriservice）（可转化为OWL）</td><td>半自动</td></tr><tr><td>专业法律知识本体(OPJK)[22]</td><td>i-FAQ (Iuriservice第二版)</td><td>protege构建的OWL知识基础，高度结构化语义索引及检索</td><td></td><td>手工</td></tr><tr><td>法国法典本体[23]</td><td>法律信息检索</td><td>面向自然语言处理，字典式知识基础，高度语义索引及检索 结构化</td><td></td><td>自动</td></tr><tr><td>金融诈骗本体[24]</td><td>金融诈骗案件的表达</td><td>UML格式的知识基础，高度结构化</td><td>语义索引及检索</td><td>手工</td></tr><tr><td>意大利犯罪本体[17]</td><td>意大利法律规范中犯罪的表示框架UML格式的知识基础，高度结构化</td><td></td><td>语义索引及检索</td><td>手工</td></tr><tr><td>CLIME本体[25] 法律因果推理[26]</td><td>海洋法法律咨询系统 法律中的因果关系的表达</td><td>protegé构建的RDF知识基础，适度结构化 知识基础，高度结构化</td><td>推理及问题解决 澄清领域内容</td><td>手工 手工</td></tr><tr><td>法院多媒体流程本 体西班牙民事听证程序的表达</td><td></td><td></td><td>办公视频记录的</td><td></td></tr><tr><td>e-Sentencias [201 葡萄牙律师事务本体[27]</td><td>为法律文件添加语义信息</td><td>西班牙民事听证的RDF格式的程序知识 OWL和逻辑程序（ISCO和EVOLP）</td><td>内容分类与标注 （图像和音频） 组织及构造信息</td><td>手工 自动</td></tr><tr><td>非专业本体[28]</td><td></td><td>表达非法律专业人士的关于责任的QWL和自然语言处理（NLP），非专业的法）内容，自然</td><td>澄清领域（侵权</td><td></td></tr><tr><td></td><td>知识</td><td>自然语言表达的知识基础</td><td>语言与法律概念 的互操作</td><td>半自动</td></tr><tr><td>荷兰Wordnet（Crime.NL）[29] 微观本体[30]</td><td>荷兰刑法本体 表达欧盟指令</td><td>OKBC</td><td>刑法的主要结构</td><td>自动</td></tr><tr><td>UCC本体[31]</td><td>表达顶层概念（如所有权）</td><td>OWL和NLP(TERMINAE方法) 基于NM的NML上层本体</td><td>澄清领域内容 组织及构造信息</td><td>半自动 手工</td></tr><tr><td>IRC本体[32]</td><td></td><td></td><td>基于税收案例进</td><td></td></tr><tr><td></td><td>美国税收法典</td><td>OWL</td><td>行推理</td><td>手工</td></tr></table>",
+    "context7": "范围,同时这个本体可以用于文件分类。其他的领域本体如表1所示。  \nand law[EB/OL].http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.83.4549&rep=rep1&type=pdf,2011-03-20."
+  },
+  "4结语": {
+    "context1": "在法律本体的构建过程中，部分学者在不断的总结和分析：法律本体的研究与法律研究的关系[5]；法律本体的构建与法律理论分类的关系；法律概念的本体表达;现存法律本体的比较及优缺点分析[33]等。",
+    "context2": "目前，已建立的法律本体超过了60个，并逐步趋于完善，为后续的研究奠定了基础,未来的研究趋势更倾向于实用性,研究已经成熟的法律本体的实践应用以及基于知识的法律信息网络检索等： $\\textcircled{1}$ 现存本体的验证与完善； $\\textcircled{2}$ 现存本体在具体应用领域的扩展; $\\textcircled{3}$ 本体构建方法及技术的改进; $\\textcircled{4}$ 法律本体在知识系统、网络、知识管理、文献管理等方面的应用研究。"
+  },
+  "参考文献": {
+    "context1": "1McGuinness,D.L. Ontologies Come of Age[M].In D.Fensel, J. Hendler,H. Lieberman,W.Wahlster (Eds.) Spinning the Semantic Web:Bringing the World WideWeb to Its Full Potential.Cambridge,:MITPress,MA,2003:163-171.   \n2 Casanovas P, Sartor G, Biasiotti M.A., et al. Introduction: Theory and Methodology in Legal Ontology Engineering:Experiences and Future Directions[M].In Sartor G,Casanovas P,Biasiotti M,et al.Approaches to Legal Ontologies: Theories,Domains,Springer:Methodologies,201O:1-14.   \n3Ashley K,Gordon T.An introduction to artificial intelligence",
+    "context2": "4 陈锐.法律推理论[M].济南:山东人民出版社,2006:325-327.",
+    "context3": "5Valente,A. Legal Knowledge Engineering: A Modelling Approach[D].Universityof Amsterdam,The Netherlands:IOS Press,Amsterdam,The Netherlands,1995.",
+    "context4": "6Valente,A..Types and roles of legal ontologies[G].In Benjamins,V., Casanovas,P., Breuker,J.,and Gangemi,A.,Law and the Semantic Web,Lecture Notes in Artificial Intelligence,Springer:German,2005 3369: 6576.",
+    "context5": "7McCarty,L.T.A language for legal discourse,I. Basic features [C].Proceedings of the Second International Conference on Artificial Intelligence and Law,Canada:Vancouver,1989: 180-189.",
+    "context6": "8 Valente,A.and J. Breuker.A model-based approach to legal knowledge engineering[G].In Grutters C.et.al.,editor,Legal Knowledge Based Systems: Information Technology and Law. The Netherlands:Koninklijke Vermande,1992:123-133.",
+    "context7": "9 Kralingen,V: Frame-based Conceptual Models of Statute Law [C].Computer/Law Series,No.16,Kluwer Law International, The Netherlands :The Hague,1995.",
+    "context8": "10 Kralingen,V. ().A Conceptual Frame-based Ontology for the Law[C].In Visser,P.R.S.and Winkels,R.G.F.(eds.),Proceedings of the First International Workshop on Legal Ontologies LEGONT _97,2336.University of Melbourne,Law School,Australia:Melbourne,1997.",
+    "context9": "11Visser,P.R.S.: Knowledge Specification for Multiple Legal Tasks[D].A Case Study of the Interaction Problem in the Legal Domain,The Netherlands:Leiden University:Ph.D.thesis, 1995.   \n12 Mommers,L.: Applied legal epistemology.Building a knowledge-based ontology of the legal domain[D].The Netherlands $:$ Leiden University:Ph.D. Thesis,2003.   \n13Joost Breuker and Rinke Hoekstra. Core concepts of law: taking common-sense seriously[C]. In Proceedings of Formal Ontologies in Information Systems (FOIS-20O4).The Netherlands: IOS-Press,2004.   \n14Hoekstra,R. (2009). Ontology Representation: Design Patterns and Ontologies that Make Sense[M].The Netherlands: IOS Press,2009.   \n15Gangemi A., SAGRI M.T., TISCORNIA D.,A constructive framework for legal ontologies[C]. In benjamins V.R., Casanovas P., Breuker, J., Gangemi A.,eds: Law and the semantic web,2005.   \n16 PETERS W., SAGRI M.T., TISCORNIA D., The structuring of legal knowledge in LOIS[J].The Netherlands:Artificial Intelligence and Law 2007,(15):117-135.   \n17 Asaro, C.,Biasiotti, M.A., Guidotti,P., Papini,M.,Sagri ,M. Tand Tiscornia,D.[EB/OL].htp://www.lri.jur.uva.nl/\\~winkels/LegOnt2003/Asaro.pdf,2010-05-25.   \n18 Gangemi,A., Pisaneli, D.M., Steve G. [EB/OL].http://www. iwayan.info/Research/Ontology/Papers_Research/formal-ontology-bank.pdf,2010-05-25.   \n19 Lame,G. (2001). Constructing an IR-oriented Legal Ontology.[EB/OL].htp://www.lri.jur.uva.nl/jurix2001/papers/lame. pdf,2010-05-25.   \n20Breuker,J.,，P.Casanovas,M.C.A.Klein,E. Francesconi (2009). The Flood,the Channels,and the Dykes: Managing Legal Information in a Globalized and Digital World[G]. In J. Breuker et al. (Eds.) Law, Ontologies and the Semantic Web. Channelling the Legal Information Flood, Frontiers in Artificial Intelligence and Applications n.188,The Netherlands: IOS Press,Amsterdam,,2009.   \n21 Benjamins, V.R., Contreras,J., Casanovas,P.,Ayuso, M., Becue,M., Lemus,L. And Urios,C[EB/OL].http://citeseerx.ist. psu.edu/viewdoc/download?doi=10.1.1.106.5158&rep= repl&type=pdf,2010-05-20.   \n22 Casells, N., Blazquez, M., Kiryakov,A., Casanovas, P.,and Benjamins,R. OPJK into PROTON: legal domain ontology integration into anupper-level ontology[C].In Meersman, R.，Tari,Z.，Herrero,P.，et al.OTM Workshops 2005, Springer-Verlag,Berlin:Heidelberg,2005.   \n23[EB/OL].ologies & Web based legal information management.2003.http://www.lri.jur.uva.nl/\\~winkels/legont2003/ lame.pdf,2010-05-10.   \n24Leary, R.M., Vandenberghe, W. and Zeleznikow, J.[EB/OL]. http://www.forensic-pathways.com/wp-content/uploads/ 2011/07/Leary-Ontology.pdf,2010-07-15.   \n25Boer,A., Hoekstra, R.and Winkels,R. The CLIME Ontology.[EB/OL].http://citeseerx.ist.psu.edu/viewdoc/download? doi=10.1.1.23.5483&rep=rep1&type=pdf,2010-06-08.   \n26Lehman,J., Breuker,J.and Brower,B.[EB/OL].http://www. leibnizcenter.org/\\~winkels/LegOnt20o3/Lehmann.pdf, 2010-06-09.   \n27 J Saias and Paulo Quaresma.A methodology to create legal ontologies in a logic programming information retrieval system, pages 185200.V.R[C]. Benjamins et al. (Eds): Law and the Semantic Web,LNAI 3369. Springer:Verlag, 2005.   \n28M.C.A. Klein,W.van Steenbergen,E.M.[EB/OL].http://cli. vu/pubdirectory/290/manuscript.pdf,2010-06-20.   \n29BREUKER,J.A., ELHAG,A.,PETKOV,E. and WINKELS, R[EB/OL].http://citeseerx.ist.psu.edu/viewdoc/download? doi=10.1.1.91.6677&rep=rep1&type=pdf,2010-06-15.   \n30 Despres S.and Szulman S. (2005)[EB/OL].http:/logic.sysu. edu.cn/logic/Soft/UploadSoft/200711/20071120161053362. pdf,2010-06-15.   \n31 Shaheed,J., Yip,A.,and Cunningham,J.[EB/OL]. http://citeseerx.ist.psu.edu/viewdoc/download?doi=1.1.115.6100&rep= repl&type=pdf,2010-06-20.   \n32Melz,E.,Valente,A.[EB/OL]. htp://www.springerlink.com/ content/8u0ucr3x6gkve3ef/fulltext.pdf,2010-06-10.   \n33Valente,A.and J.[EB/OL].http://iteseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.46.9649&rep=rep1&type=pdf, 2010-06-18.",
+    "context10": "(责任编辑：刘凤琴)"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "original_filename": "full_10202.md",
+  "馆际互借系统发展趋势研究": {
+    "context1": "卢振波姚晓霞曾丽军",
+    "context2": "摘要通过对当前馆际互借标准和系统的分析调研，结合图书馆馆际互借现状，试图对馆际互借系统的发展趋势进行探索。",
+    "context3": "关键词馆际互借文献传递自动化标准系统",
+    "context4": "近年来，各图书馆都把资源共享提上了议事日程。在众多的资源共享方式中，馆际互借(简称ILL)是最为有效的形式之一。",
+    "context5": "随着图书馆工作自动化程度的提高和馆际互借工作量的不断增加，人们越来越关注馆际互借的自动化问题，以求提高馆际互借工作的效率、质量和服务水平。因此，何种模式的馆际互借系统将更适合今后馆际互借实际工作的需要，能更好地为读者提供服务，就成为馆际互借员关注的焦点。本文分析了目前通用的几种馆际互借标准及相关系统，并对馆际互借系统的发展趋势进行一些探索。"
+  },
+  "1两个重要的馆际互借相关标准": {
+    "context1": "1.1 ISO ILL",
+    "context2": "ISO10160（服务定义)和ISO10161（协议说明）是国际标准组织公布的开放系统互连环境下有关馆际互借协议的两个国际标准，简称ISOILL,第一版于1993年公布，1997年公布了第二版。",
+    "context3": "ISO ILL国际标准的作用是，在由网络模型国际标准IS07498定义的开放系统互连环境下提供一系列用于图书馆实现与馆际互借事务有关的应用层服务。",
+    "context4": "ILL服务能够请求借阅可归还的书目文献，如图书，也能够请求借阅不可归还的书目文献,如期刊文章的复印件。该服务还支持相关活动，如续借、催还、过期通知等。就应用服务因素(ASE)提供给用户一套服务而言，ILL服务定义的目的是据此界定ILL处理的通讯问题。ILL活动的中心是书目文献（图书、期刊、期刊文章、缩微复制品等)。其应用关注两个相关过程：图书馆之间的文献互借或图书馆之间的复印件互换。",
+    "context5": "ILL服务的定义力求满足多个目标，包括：",
+    "context6": "-ILL事务处理控制。就控制得到允许的活动、交换信息、跟踪借出的文献以及使ILL事务处理中的两种或多种活动同步发生来说，该服务须提供控制 ILL事务处理的方法。",
+    "context7": "-多系统互连。ILL将继续使用手工和自动化系统结合的方式。ILL服务和协议须承认这一事实并允许具有不同自动化程度的系统互通，如以有意义的方式相互通讯。",
+    "context8": "-使ILL事务处理的费用最小化。与ILL事务处理相关的费用包括操作费和通讯费。ILL协议应努力使符合协议的实施费用最小化。费用最小化的途径是使协议实施需要的操作干预最小化，使ILL事务处理包含的地址之间发送的信息量最小化。",
+    "context9": "-反映目前的ILL业务。给协议下定义的目的不在于引进新的方法来进行ILL事务处理，而是规范现行的业务，使现存的系统能够以标准的方式实现相互通讯，并允许新的自动化系统充分利用协议的潜能。但是,必须承认由于现存各系统的潜能差别较大，若不加以修改，本国际标准可能不会对所有现存系统都适用。",
+    "context10": "1.2 NCIP",
+    "context11": "NCIP 全称是 NISO Circulation InterchangeProtocol，即Z39.83。它是美国国家信息标准组织(NISO)的流通数据交换协议。该标准于2002年10月17日被美国国家标准组织批准。",
+    "context12": "NCIP这一标准定义了为在各自独立的图书馆系统间支持流通活动所需要的各种处理。流通活动包括读者和书目的查询及其更新处理，例如预约、取走书、续借和登录。新的标准被期望可以支持印刷本和电子资料的流通，能够方便读者直接借阅、远程读者的身份验证、联机付款和电子文献的访问控制。",
+    "context13": "NCIP分3部分：直接集团内借阅（Directconsortialborrowing,DCB）、流通与馆际互借相链接(circulation to ILL)和自助式服务(self service)。",
+    "context14": "（1)DCB(Direct consortial borrowing）的应用描述：通过DCB,一个机构的读者能够发出馆际互借请求或借入集团内另一机构的书。NCIP推动用户数据和书目数据在不同的流通系统间传递，因此使得该机构可以管理非本地读者的事务，或提供属于另一机构文献的本地控制。",
+    "context15": "(2)Circulation/Interlibrary Loan Interaction流通与馆际互借相链接。NCIP方便了在馆际互借系统和流通系统之间的数据交换，因此允许机构利用流通系统可以向一个用户借阅所有文献。属于本地馆藏的文献和通过馆际互借为读者借来的文献都可以一起记录在这个读者的流通记录中。同时也可以在本地流通系统内，及时跟踪通过馆际互借借出的文献。",
+    "context16": "(3)Self-Service Circulation——自助式流通服务。此应用允许读者不需要工作人员的帮助就可以借阅或归还文献。这些应用还可以支持罚款/费用的处理,由本地的流通系统提供读者的帐目数据。"
+  },
+  "2重要馆际互借系统介绍": "",
+  "2.1 RLG的 ILL Manager 系统": {
+    "context1": "2.1.1RLG馆际互借系统简介",
+    "context2": "RLG 全称是 Research Libraries Group,即研究图书馆联合会,是一个非盈利组织，有160多个成员馆,包括公共图书馆、大学图书馆、档案馆等，致力于信息资源的共享和服务。",
+    "context3": "2002年7月,RLG的馆际互借系统由集中式馆际互借系统RLINILL升级到分布式馆际互借系统ILL Manager。"
+  },
+  "2.1.2 RLG ILL Manager 的工作模式": {
+    "context1": "(1)通过联合目录检索馆际互借请求的文献的馆藏地址；",
+    "context2": "(2)定位后，通过本馆的分布式馆际互借系统把馆际互借请求直接发给合作单位；",
+    "context3": "(3)图书馆也可以直接和合作单位联络和传输馆际互借信息，掌握和控制信息流，处于馆际互借的中心位置；",
+    "context4": "(4)合作单位包括使用分布式馆际互借系统，或使用遵守协议的集中式馆际互借系统的单位；",
+    "context5": "(5)随着使用分布式馆际互借系统的用户越来越多,图书馆的绝大部分合作单位将使用分布式馆际互借系统，绕过收费昂贵的集中式馆际互借系统。",
+    "context6": "![](images/86af1147f063d305f25ecc0925a1f23e3bc0049acf95c2fc5bd5872f666ee2d6.jpg)  \n图1RLG馆际互借系统的工作模式示意图",
+    "context7": "2.1.3ILL Manager主要特点",
+    "context8": "(1)遵守协议，包括：ISO ILL 协议(ISO10160/10161）、IPIG Profile (ILL协议应用组织的配置表),Z39.50和 NCIP (NISO Circulation InterchangeProtocol);",
+    "context9": "（2）可以和传统的集中式馆际互借系统互操作：RLIN ILL，OCLC ILL，DOCLINE，BritishLibrary ;",
+    "context10": "(3)通过集成遵守Z39.50协议的联合目录系统对可以进行馆际互借的文献定位；",
+    "context11": "(4)馆际互借请求和数据通过本地的PC 机或本地服务器管理,进行过程跟踪、搜索、ILL事务的本地管理；",
+    "context12": "(5)优化的、合理的、自动的请求和借阅流程：合作单位之间、图书馆之间、系统之间直接\"对话\"，直接传输馆际互借的信息；",
+    "context13": "(6)效率提高、经费节省：通过一种工作流程处理和多个合作单位的合作；",
+    "context14": "(7)对读者更加友好：读者可以通过网页提交馆际互借申请，查询申请的状态，取消申请,续借文献；图书馆员还可以自动的定制给用户提示信息，包括对收到的文献通知用户来取、用户提醒、过期提示等功能；",
+    "context15": "(8)具有费用结算功能；",
+    "context16": "（9）支持 通过 ALA（American LibraryAssociation)表格和 IFLA(International Federation ofLibraryAssociation)表格发送的,还有e-mail 发送的馆际互借请求；",
+    "context17": "(10)和RLG开发的文献传递软件Ariel集成在一起，可以直接给图书馆或读者传递文献。",
+    "context18": "2.2 Epixtech 公司的 Horizon Interlibrary Loan 系统  \n2.2.1Horizon Interlibrary Loan馆际互借系统简介",
+    "context19": "Horizon Interlibrary Loan系统是美国Epixtech公司的馆际互借产品。该产品分3个独立的子系统：Horizon Reciprocal Borrowing（相互借阅）、Resource Sharing System（RSS，资源共享系统）和Universal Resource Sharing Application （URSA,世界资源共享应用系统）。",
+    "context20": "Horizon Interlibrary Loan 的请求管理主要是遵循美国国家标准Z39.83--流通数据交换协议之相互借阅协议(NCIPDCB),同时也支持馆际互借的国际标准(ISO ILL)和 Z39.50。",
+    "context21": "2.2.2基于网络的 Horizon Interlibrary Loan 支持4种类型的馆际互借。",
+    "context22": "![](images/c6190590311581e663c95c80c394ffcce9b31dc768b9efd37c72739222975a87.jpg)  \n图2Horizon馆际互借系统支持4种类型馆际互借的示意图",
+    "context23": "(1)第一种类型：传统的馆对馆的馆际互借服务（Traditional library-to-library）。",
+    "context24": "读者会在家中或任何地方通过Z39.50检索虚拟目录，并可查看书目的馆藏地址、费用、是否可借、传递时间及条款等，通过Horizon信息人口一次性点击链接到请求界面，自动发送馆际互借请求给首选的借出馆，借出馆会将文献运送到读者所在的图书馆，然后读者到自己的图书馆去取文献。",
+    "context25": "(2）第二种类型：相互借阅（Reciprocal borrowing)。",
+    "context26": "借出馆验证外馆读者身份后，该读者可直接从借出馆取走文献。",
+    "context27": "$\\textcircled{1}$ 相互借阅的目标：相互借阅利用NCIP标准在不同的图书馆自动化系统中工作。它是Epixtech公司馆际互借产品系列中的一个单机模块。它适用于一个地域内的馆际互借协议单位的读者，且主要用于那些亲自走到外馆去索取资料的读者（“walkin”interlibraryloans），允许借出馆的工作人员验证外馆读者的身份，以使得该读者仅使用本馆的借书卡就可以直接从借出馆取走文献；这样会使劳动密集型工作自动化，从而节省工作人员的时间，同时也方便读者利用邻馆的资源。",
+    "context28": "$\\textcircled{2}$ 相互借阅的操作过程：为达到以上目标，借出馆工作人员只需从系统中找到该读者所在馆的名字，然后扫入该外馆读者的条码号。如果该读者的卡是有效的，读者的基本信息就会被调出来，这时借出馆的工作人员可以在这些数据的基础上形成一个新的读者记录。是否给新的条码号，就看借出馆的处理了。当书被归还之后，这个新的读者记录是否应保留也由借出馆自己来决定。",
+    "context29": "$\\textcircled{3}$ 相互借阅为何可以实现？",
+    "context30": "你的邻馆或相互借阅合作馆可能会使用不同厂商的流通系统。在过去，由于系统间缺乏互操作性，就会鼓励一地域内的图书馆选择同一厂商的系统。但现在已经没有这个必要了。相互借阅正是引进了准流通互换协议这一标准，从而在不同的流通系统间来验证和产生读者记录。由于这种相互借阅相对比较少，所以Epixtech会为相互借阅提供一个中心服务器，这将意味着没有硬件花费。因为它是完全基于网络的，图书馆要做的就是需要一个标准网络浏览器。",
+    "context31": "(3)第三种类型:NCIP 链接(NCIP Link)。",
+    "context32": "通过NCIP(流通互换协议)信息在借出和借入馆的传递而实现的直接集团内借阅(DirectConsortialBorrowing)。这样，一个机构的读者能够申请或借阅集团内另一机构的文献。NCIP推动读者数据和书目数据在不同的流通系统间传递，因此允许一个机构去管理非本地读者的数据，并且/或者提供属于另一机构书目的本地控制。",
+    "context33": "NCIP推动流通数据在馆际互借系统和流通系统间的交流，因而允许图书馆利用流通数据去跟踪某一读者的所有借书情况。该读者的属于本地馆藏的文献和他通过馆际互借借来的文献都能够被记录在读者的流通记录中。无论这些文献是本馆的还是从另一机构借来的，取文献通知、收费单、过期通知等能以同一方式处理。借出馆也可以在他们的本地流通系统及时跟踪他们馆际互借出的文献。",
+    "context34": "(4)第四种类型：直接传递给最终用户(Directdelivery to home or office）",
+    "context35": "借出馆直接将被请求的文献运送到读者的家里或办公室。直接将文献传递给最终用户，尽量减少中间环节的出现,提高工作效率。"
+  },
+  "2.2.3 Horizon Interlibrary Loan 主要特点": {
+    "context1": "(1)通过NCIPDCB 标准从读者所在馆的文档验证读者身份,从而简化相互借阅的手续；",
+    "context2": "(2)通过Z39.50检索虚拟目录；查找可获取的文献的馆藏址；自动发送请求给首选的图书馆；联机查看请求的状态；",
+    "context3": "(3)可行性的书目选项，包括书目馆藏地址、费用、可获得性、传递时间和条款等；",
+    "context4": "(4)提供基于馆际互借国际标准的对外服务网关；通过Horizon信息入口一次性点击链接到请求界面；",
+    "context5": "(5)允许读者在借出馆取走文献,或通过读者所在馆传递给读者；利用各种工具,将文献直接传递到读者的家里或办公室；",
+    "context6": "(6)提供与本地流通系统的选择性链接；",
+    "context7": "(7)跟踪统计报告；",
+    "context8": "(8)允许基于流通系统的图书馆共享文献；",
+    "context9": "(9)请求界面简单、直观，能够使得公共服务馆员为读者建立请求，而不需要他们了解复杂的馆际互借过程;通过典型的请求自助服务，进一步减少工作人员的投人时间。"
+  },
+  "2.3 OCLC的 ILLiad系统": "",
+  "2.3.1 ILLiad系统简介": {
+    "context1": "“ILLiad” 是 InterLibrary LoanInternetAccessible Database 的首字母缩写。OCLC ILLiad 是一个资源共享管理软件,它是用软件的方式实现了馆际借阅处理过程。它是由VirginiaPolytechnicInstitute and State University 的馆际互借工作人员设计和开发的,并且由Altas Systems 公司做了进一步的扩展。",
+    "context2": "OCLCILLiad系统自动处理馆际互借的日常功能。通过唯一的基于Windows的界面,管理图书馆的借出、借入和文献传递,提高了工作效率。用户通过web 提交和跟踪他们的请求。OCLC ILLiad自动处理满足的请求并且当请求完成时与用户联系。"
+  },
+  "2.3.2 OCLC ILL 的工作模式": {
+    "context1": "OCLCILL是一个中心模式的系统,OCLCILL的用户共享一个请求记录。当借阅方在操作请求时,出借方将不能访问该请求。当一个请求的状态变了，也就是立刻改变了借阅方和出借方的状态。OCLC ILL可以和支持 ISO ILL 协议的系统进行连接，不论使用这个系统的是借阅方、出借方，还是两者都是。"
+  },
+  "2.3.3ILLiad主要特点": {
+    "context1": "（1）它是一个馆际互借管理系统，提供了与Worldcat 和OCLC ILL无缝的、完整的接口；",
+    "context2": "(2)读者请求可以通过FirstSearch 和其他支持OpenURL服务直接提交；",
+    "context3": "(3)可直接将电子文献传递给读者；",
+    "context4": "(4)强大的统计功能。系统可生成详细的统计报告，帮助管理者跟踪工作流程和了解最新情况；",
+    "context5": "(5）为图书馆工作人员提供唯一的基于Windows 的界面,处理ILL各项功能；",
+    "context6": "(6)图书馆的读者可以通过任何Web浏览器访问和跟踪他们的请求；",
+    "context7": "(7)其版权管理系统允许馆际互借工作人员跟踪和监控所有用户的对期刊论文的请求；",
+    "context8": "(8)遵循ISO 标准,允许通过ISO ILL进行对等的服务。"
+  },
+  "2.4CALIS馆际互借系统": "",
+  "2.4.1CALIS馆际互借系统简介": {
+    "context1": "CALIS馆际互借系统是CALIS（中国高等教育文献保障系统）公共服务软件系统的重要组成部分。CALIS馆际互借系统的实现主要基于Z39.50协议和 ISO10160/IS010161协议。利用 Z39.50 协议采用统一的检索界面，实现对所有CALIS成员馆的馆藏文献信息的查询和资源定位；通过ISO10160/ISO10161馆际互借协议实现用户的互借请求,完成馆际互借的事务处理。CALIS馆际互借系统由四部分组成：",
+    "context2": "(1)馆际互借事务信息管理系统：即馆际互借管理客户端。利用此系统，馆际互借操作员可以方便完成读者馆际互借申请的处理,读者个人信息及其资金的管理,馆际费用结算等。主要功能包括：用户管理、帐户管理、事务管理、结算管理、数据查询、统计分析、系统管理、参数配置、成员馆管理；",
+    "context3": "![](images/94152e1b3851306a01c76c7039711d7c1c76cec9611bf98a0c895082882629e2.jpg)  \n图3CALIS馆际互借系统工作模式示意图",
+    "context4": "(2)馆际互借网关系统：提供给用户使用的系统。用户可通过此系统，完成馆际互借申请的提交、取消、查询，个人信息的管理，以及资金帐户的查询等功能；",
+    "context5": "(3)馆际互借协议机：即馆际互借服务器。主要功能是负责馆际互借请求的接收与发送，支持馆际互借国际标准ISO10160/ISO10161，是馆际互借系统重要的组成部分；",
+    "context6": "(4)文献传递系统：系统相对独立,可单独运行。主要提供文献的扫描、传递功能。"
+  },
+  "2.4.2 CALIS馆际互借系统的工作模式": "",
+  "2.4.3CALIS馆际互借系统的主要特点": {
+    "context1": "(1)CALIS馆际互借服务器间对馆际互借事务的处理是按照国际标准馆际互借协议ISO10160/10161(第二版)开发和研制的，从服务的模式到协",
+    "context2": "议都遵循国际标准；",
+    "context3": "(2)馆际互借服务器采用Java语言编程，跨平台性好,支持Unicode字符集；",
+    "context4": "(3)可与OPAC系统配套使用，可直接从网上提交馆际互借申请，并可从网上实时查询申请处理情况；",
+    "context5": "(4)对无馆际互借协议机的其他图书馆，可采用馆际互借协议状态进行馆际互借的仿真事务，便于统一管理；",
+    "context6": "(5)支持返还式(借阅)及非返还式(复制)馆际互借事务；",
+    "context7": "(6)有较强的帐户管理、用户管理功能，便于操作员对用户及其资金的管理；",
+    "context8": "(7)包含文献传递软件,将扫描和传递集成一体，便于文献信息及时传递。"
+  },
+  "3以上四个系统的比较(见表1)": "",
+  "4馆际互借系统发展趋势": "",
+  "4.1集中式馆际互借系统": {
+    "context1": "所谓集中式馆际互借系统，就是通过一个集中式的管理软件管理所有的馆际互借事务。比较典型的系统有本文提到的OCLC的ILLiad和RLIN。为了照顾集中式馆际互借系统的用户，并考虑到目前馆际互借标准化的需求，许多系统正在升级到遵循协议集中式馆际互借系统，例如，Docline和OCLC已经根据ISOILL协议,完成了改造，成为遵循协议的集中式馆际互借系统;或者改造为遵守协议的分布式馆际互借系统。从2002年7月开始，RLIN要求所有使用和参加RLG馆际互借共享系统的单位从集中式馆际互借系统RLINILL转到遵循协议的、分布式的馆际互借系统。2003年6月30日以后，RLIN ILL将不再接受新的馆际互借请求。2003年8月31日以后，所有参加RLG馆际互借共享活动的单位将使用新的系统,RLINILL已被废止。",
+    "context2": "表1",
+    "context3": "<table><tr><td rowspan=1 colspan=1>项目</td><td rowspan=1 colspan=1>RLG ILL Manager</td><td rowspan=1 colspan=1>Horizon Interlibrary Loan</td><td rowspan=1 colspan=1>OCLC ILLiad</td><td rowspan=1 colspan=1>CALIS ILL</td></tr><tr><td rowspan=1 colspan=1>分布式或集中式</td><td rowspan=1 colspan=1>分布式</td><td rowspan=1 colspan=1>分布式</td><td rowspan=1 colspan=1>集中式</td><td rowspan=1 colspan=1>分布式</td></tr><tr><td rowspan=1 colspan=1>遵循的协议、标准</td><td rowspan=1 colspan=1>ISOILL、IPIG、Profile、Z69.83(NCIP DCB）、ISOZ39.50、NCIP</td><td rowspan=1 colspan=1>ISOILL、IPIG、Profile、Z69.83(NCIP DCB）、ISOILL、Z39.50</td><td rowspan=1 colspan=1>ISO ILL、Z39.50</td><td rowspan=1 colspan=1>ISO ILL、Z39.50</td></tr><tr><td rowspan=1 colspan=1>有无联合目录系统</td><td rowspan=1 colspan=1>有</td><td rowspan=1 colspan=1>有</td><td rowspan=1 colspan=1>有</td><td rowspan=1 colspan=1>有</td></tr><tr><td rowspan=1 colspan=1>用户如何得知请求处理状态</td><td rowspan=1 colspan=1>通过网页查询申请状态</td><td rowspan=1 colspan=1>E-mail或信件通知</td><td rowspan=1 colspan=1>图书馆的读者可以通过任何Web浏览器访问和跟踪他们的请求</td><td rowspan=1 colspan=1>通过用户网关查询</td></tr><tr><td rowspan=1 colspan=1>管理功能</td><td rowspan=1 colspan=1>具有费用结算功能</td><td rowspan=1 colspan=1>跟踪借人借出的统计报告及费用，以便于馆藏发展</td><td rowspan=1 colspan=1>强大的统计功能。系统较强的帐户、用户管理可生成详细的统计报功能、以及馆际互借事告，帮助管理者跟踪工作流程和了解最新情况</td><td rowspan=1 colspan=1>强大的统计功能。系统较强的帐户、用户管理可生成详细的统计报功能、以及馆际互借事务统计、查询、费用结算功能    ：</td></tr><tr><td rowspan=1 colspan=1>与本地流通系统链接</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>可以提供</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>不能提供</td></tr><tr><td rowspan=1 colspan=1>用本馆借书证是否可以直接从借出馆借走文献</td><td rowspan=1 colspan=1>不可以</td><td rowspan=1 colspan=1>可以</td><td rowspan=1 colspan=1>不可以</td><td rowspan=1 colspan=1>不可以</td></tr><tr><td rowspan=1 colspan=1>文献传递服务</td><td rowspan=1 colspan=1>和RLG开发的文献传递软件Ariel集成在一起，可以直接给图书馆或读者传递文献</td><td rowspan=1 colspan=1>允许读者在借出馆取走文献，或通过读者所在馆传递给读者；利用各种工具，将文献直接传递到读者的家里或办公室</td><td rowspan=1 colspan=1>系统提供灵活的文献传递服务。无论是本地图书馆还是其它图书馆提立，可单独运行；将文供的文献，都可以通过献传递给读者所在馆系统直接传给读者</td><td rowspan=1 colspan=1>文献传递系统相对独书馆还是其它图书馆提立，可单独运行；将文供的文献，都可以通过献传递给读者所在馆</td></tr></table>"
+  },
+  "4.2分布式的馆际互借系统": {
+    "context1": "所谓分布式馆际互借系统，是指每个馆有一套完整的包括馆际互借协议机和管理客户端的馆际互借系统，系统之间通过协议机相互进行联络。主要的分布式馆际互借系统有Epixtech'sRSS、RLG'sILLManager 和CALIS ILL系统，还有Fretwell-Downing's VDX、The III ILL module、The Wingssystem from Pigasus Software。这些分布式馆际互借系统，大多遵守ISOILL协议，彼此之间传递的信息是标准的、结构化的，可以互相识别的；系统之间可以互操作，各馆(借人馆和借出馆)之间可以直接联络和传输馆际互借信息，例如RLG ILLmanger、CALIS的馆际互借系统；利用分布式的馆际互借系统，使用不同语言的相关机构开展馆际互借业务；可在网关上将协议信息转换成系统可识别的信息，联络遵守协议的集中式的馆际互借系统。"
+  },
+  "4.3两类系统的利弊": {
+    "context1": "·集中式馆际互借系统起步早，使用起来简单方便，使用面较为广泛，但是它们之间的互操作性比较低。为了互相联络和传输馆际互借信息，集中式的馆际互借系统正在改造成遵循协议的集中式馆际互借系统，保持他们在馆际互借领域的优势。",
+    "context2": "分布式的、馆对馆的馆际互借系统2000年才刚刚开始投放市场，图书馆的接受率还比较低。调查发现，一些图书馆的馆际互借部门没有真正理解什么是分布式的、馆对馆的馆际互借；他们也不想从原来的集中式馆际互借系统的思维模式中走出来；使用一个新的模式思考问题对馆际互借员是一个挑战。如何让人们转变观念，接受分布式的馆际互借系统，需要经历实践的检验和人们的认可。目前分布式的、馆对馆的馆际互借系统增加了各馆图书馆员的工作量，被认为还不是最理想、最快捷和最方便的获取文献信息的方式。但是鉴于分布式的、馆对馆的馆际互借系统的优势，如直接面对最终借出机构、分担事务联络通畅、传输标准化的信息、统计功能、读者可以跟踪所有的馆际互借过程等，如果坚持推广和使用，它将成为图书馆日常生活的一部分。专家预言3\\~7年后分布式馆际互借系统将成为馆际互借领域的主宰。",
+    "context3": "通过以上对几个重要馆际互借系统的分析调研，结合当前的图书馆现状来看，集中式和分布式馆际互借系统各有优缺点。希望此文能起到抛砖引玉的作用，能让更多的图书馆界有识之士对这一问题深入探讨。"
+  },
+  "参考文献": {
+    "context1": "1ISO 10160 --Information and documentation --Open systems interconnection--Interlibrary loan application service definition   \n2ISO 10161 --Information and documentation --Open systems interconnection--Interlibraryloanapplicationprotocol specification   \n3ANSI/NISO Z39.83--Circulation Interchange Protocol(NCIP)   \n4Mary Jackson.Association of Research Libraries.During the July 2000 annul meeting of the American Libraries Association.   \n5 http://www.rlg.org   \n6 http://www.dynix.com/products/ill/index.asp   \n7 http://www.oclc.org/illiad   \n8 曾丽军.网络环境下的馆际互借.大学图书馆学报，2001(3)   \n9 姚晓霞，陈凌，曾丽军.CALIS馆际互借系统的工作流程.大学图书 馆学报，2002(6)",
+    "context2": "作者单位：卢振波，北京大学图书馆，北京，100871;姚晓霞、曾丽军，CALIS管理中心；北京，100871收稿日期：2003年10月28日"
+  },
+  "The Trends of Interlibrary Loan Management Systems Development Lu Zhenbo, Yao Xiaoxia, Zeng Lijun": {
+    "context1": "Abstract:With the development of library automation and the increase in interlibrary loan requests, librarians pay more attention to interlibrary loan automation in order to improve the service efficiency and quality. In this paper， several major interlibrary loan management systems are analyzed, and the future trends of interlibrary loan management system development are discussed too.",
+    "context2": "Keywords: Interlibrary Loan, Document Delivery, ILL Systems"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "original_filename": "full_2194.md",
+  "·前沿与热点·": "",
+  "关联数据可视化研究进展分析 \\*": {
+    "context1": "曲佳彬1.2欧石燕1",
+    "context2": "（1.南京大学信息管理学院江苏南京210023）",
+    "context3": "（2.烟台大学图书馆 山东烟台264005）",
+    "context4": "摘要送联数据集的规模不断扩大，如何使用和消费关联数据逐渐成为研究的主要问题。关联数据可视化可以直观、清晰地展示关联数据集，有较高的用户接受度。目前对关联数据可视化研究主要分布在本体可视化、关联数据可视化浏览和关联数据可视化应用三个方面。从技术原理和实现方法入手，对这三方面所涉及的工具和应用进行通用的关联数据可视化分析框架构建，可以发现：关联数据可视化研究呈阶梯状发展，从辅助性的本体可视化到关联数据的列表式和图形化浏览，进一步深入到关联数据的可视化应用；图形化浏览是关联数据可视化的发展趋势，通过简单配置就可以使用的工具将会逐渐受到青睐；在关联数据集上构建可视化Web应用以丰富的图形展示关联数据的知识，将会是未来关联数据可视化研究的重点。",
+    "context5": "关键词：送联数据；可视化；关联数据消费；分析框架中图分类号：G202 文献标识码：A DOI :10.11968/tsyqb.1003-6938.2018065"
+  },
+  "Analysis of Research Progress on Linked Data Visualization": {
+    "context1": "Abstract The scaleof linkeddata sets has been expanding,and how toconsume and use linked data has gradually become the main issue oflinked data research.Linkeddata visualization can display linked data intuitivelyand clearlyand have high useracceptance.Afterreviewingthe relevant literature and tool of linked data visualization,we summarized threeaspectsof linked datavisualizationresearch:ontologyvisualization,visualization browseof linked data and visualizationapplicationof linkeddata.Andthen,starting with the technical principleand method,a detailedreviewof the tools and appication involved in these threeaspects was madeanda visual analysis framework for linked data was designed.Theresultsshow that:(l)theresearch of linked data visualization is slowly in-depth,from ontology visualizationto the listand graphical browseof linkeddata,and furterinto the visualizationapplicationof linked data;(2)the graphical browsingof linkeddata isthedevelopment trendof linked data visualization,and toolsthatcan beused through simpleconfiguration will graduallybecome popular;(3)Constructing Visual Web Aplications on linked dataets to presentrich knowledgeof linked data willbe the focus ofresearchon the visualizationoflinked data in the future. Key words linked data; visualization; linked data consumption; analysis frame"
+  },
+  "1引言": {
+    "context1": "随着关联数据概念的提出和技术发展，关联数据逐渐成为网络上发布结构化数据的一种普遍形式，大量结构化数据以关联数据形式被发布到网络上，使得关联数据成为全球数据空间中不可或缺的一部分。近十年来,关联开放数据云(Linked Open DataCloud）由最初的12个RDF数据集发展到现今的1163个，数据规模不断扩大，数据类型不断丰富，涵盖生命科学、政府、媒体、出版、社会网络、地理等领域[1]。关联数据的发展使得Web上分布着富含语义并相互关联的海量数据，目前面临的主要问题是如何消费这些数据、充分发掘关联数据的价值。为了便于用户查询数据，关联数据集通常都提供SPARQL查询端点，但是构建SPARQL查询不仅需要具备语义网方面的专门知识还要对数据集的结构有深入了解,这对于普通用户显然是非常困难的。自2010年起，国际语义网会议(International Semantic Web Confer-ence,ISWC)每年都开设“关联数据消费\"(ConsumingLinkedData,COLD)讨论会,对关联数据的消费工具、平台及案例进行介绍，也会涉及到关联数据可视化的相关技术[2]。此外,从2015年开始ISWC增设了“本体和关联数据的可视化与交互（Visualization andInteraction for Ontologies and Linked Data,VOILA)\"议题，从本体和关联数据两个层次研究可视化用户界面和交互技术以及可视化分析，主要目的是帮助用户更好的从关联数据中获取领域知识[3-4]。",
+    "context2": "关联数据采用的数据模型是RDF图，它可以被看作是有向标记图(Directed Labeled Graph),每条有向边及其所连接的两个节点对应一个RDF三元组，再通过RDF链接把资源整合成为相互关联的RDF图[5。因此，关联数据可视化可分为数据模式（即本体)可视化和数据可视化两个层面：(1)本体主要用来描述实例数据的体系结构，本体可视化采用有向标记图的形式，通过点、线和圆形展示其体系结构包含的类和类以及类和属性值之间的关系;(2)数据可视化主要是基于列表或图形的形式浏览关联数据集。前者提供图形化界面帮助领域专家编辑本体，屏蔽了直接采用OWL和RDF本体标记语言的复杂性，还能够以可视化的方式展示体系结构，对普通用户使用和理解本体有极大的帮助[6。后者是采用列表和图形化的方式展示关联数据集，便于用户浏览和发现知识。一方面，基于列表的浏览以“属性-属性值\"形式展示关联数据集，这种浏览方式充分展现了关联数据RDF链接的特性，使用户可以沿着有向边浏览整个数据集；另一方面，图形化的浏览以在线方式或者可视化插件提供关联数据集的可视化展示，用户可以简单地配置并构建SPARQL查询语句，将查询结果借助可视化工具图形化展示。随着语义网技术和可视化技术的普及，关联数据集的可视化应用成为关联数据可视化研究的另一重要方向，基于Web的关联数据集可视化应用，通过对关联数据集的挖掘和分析，可从多个维度展示关联数据集隐含的知识。",
+    "context3": "从以上分析可以看出，关联数据可以在多方面可视化展示：Schema层面数据的结构、“属性-属性值”列表形式的浏览、图形化展示查询结果以及语义层面的知识可视化。通过对关联数据可视化相关文献和工具进行归纳和梳理，发现成果主要集中在本体可视化、关联数据可视化浏览和关联数据可视化应用。"
+  },
+  "2本体可视化": {
+    "context1": "本体可视化主要有桌面本体可视化工具和在线本体可视化工具，前者通过本地下载的方式将本体可视化应用安装在本地使用，后者通过在线访问的形式提供本体的可视化编辑和可视化展示。"
+  },
+  "2.1桌面本体可视化工具": {
+    "context1": "桌面本体可视化的研究开始得比较早，主要代表性工具有 Protégé、RDF Gravity以及 $\\operatorname { I s a V i z }$ ,至今在本体可视化编辑和浏览方面发挥着重要作用。这些工具都是免费开源的，目前仅有Protege提供更新维护服务。",
+    "context2": "(1)Protége7由斯坦福大学生物医学信息学研究中心开发设计，采用图形化的用户界面，屏蔽了本体描述语言的复杂性，提供本体中类、关系、属性和实例的构建。Protége是缩进列表展示本体的最佳代表，采用缩进的方式展示父类和子类的关系，并且每一个节点只有一个单一的路径。",
+    "context3": "(2)RDFGravity[8由奥地利萨尔茨堡研究所开发设计的,基于\"node-link\"图模式,面向RDF/OWL数据集的图形可视化工具,采用 Jung Graph(Java UniversalNetwork /Graph Framework,Java通用网络/图形架构）接口和Jena语义网络工具包来实现。用户使用RDFGravity可以对RDF文件进行全局、局部和自定义方式浏览,同时RDFGravity提供了基于类、属性和实例的全文搜索功能，并支持多文件的同时可视化。",
+    "context4": "(3)IsaViz[9由W3C推出的，基于Java语言的本体可视化工具，提供RDF数据的可视化浏览和编辑功能。此外,IsaViz需要在本地部署Java环境,并且下载AT&T公司(美国电话电报公司)的Graphviz（采用Dot语言脚本描述的图形）辅助插件来构造可视化图形。IsaViz采用GSS(Graph Stylesheet,基于 CSS和SVG样式表语言)样式表以有向图的方式可视化本体的RDF图。"
+  },
+  "2.2在线本体可视化工具": {
+    "context1": "在线本体可视化工具可以直接通过Web浏览器使用,无需本地安装,减轻了用户安装配置可视化工具的负担。代表性工具有WebProtégé和 Web-VOWL,其中 WebVOWL 基于 VOWL(Visual Notationfor OWL Ontologies,OWL本体的视觉符号)开发。",
+    "context2": "(1)WebProtégé[10]是在Protégé本体编辑器的基础上开发的轻量级的在线服务，它将基于桌面的本体编辑和可视化移植到Web环境中，同时支持部署到本地服务器。WebProtege能够支持多用户的协同工作，用户注册登陆后会看到自己所拥有的本体，以及其它用户分享的本体。用户使用WebProtége编辑的本体也可以分享给其它用户，通过在列表中添加协作者的登录姓名，实现面向特定用户的本体可视化显示、编辑和评论。",
+    "context3": "(2)VOWL由德国斯图加特大学视觉和交互系统研究所开发，主要是为了解决普通用户的本体可视化需求而设计的一套OWL语言的图形化描述符号。该本体描述模型提供了OWL中元素的图形化描述，采用不同形状和颜色的图形，描述本体包含的类、类之间的关系以及属性，能更直观可视化展示本体的体系结构[]。目前采用该本体描述模型实现本体可视化的工具有两种—ProtégéVOWL和Web-VOWL: $\\mathrm { \\textregistered P r o t e g e V O W L }$ 是Java编写的VOWL插件，需要拷贝插件 $\\operatorname { J a r }$ 包到Protégé桌面应用中，并在用户界面中配置后才能使用； $\\textcircled { 2 } \\mathrm { W e b V 0 W L }$ 是基于Web的在线本体可视化工具,采用开放的Web标准（HTML、JavaScript、CSS和SVG)设计可视化页面，并以VOWL定义的图形描述本体。",
+    "context4": "鉴于 $\\mathrm { P r o t e g e V O W L }$ 实现的可视化功能与Web-VOWL一致,这里以 $\\mathrm { { W e b V O W L } ^ { [ 1 2 ] } }$ 为例,介绍其具体实现方式和整体框架(见图1)。",
+    "context5": "![](images/3694ea20763243a900485061490c75c0b5ae081e21a058e9dce7e5653d14bba9.jpg)  \n图1WebVOWL可视化本体的框架",
+    "context6": "WebVOWL可视化本体的处理过程分四步：（1）WebVOWL通过上传本体文件的方式获取数据,OWL$\\mathrm { A P I ^ { \\textregistered } }$ 负责解析加载的本体文件；(2)OWL2VOWL转换器②将本体文件的解析结果转换成为Web-VOWL自定义的OWL2-JSON数据格式,该数据格式包括本体的类、属性以及数据类型等（如owl:Class，owl:ObjectProperty,xsd:dateTime）；（3)VOWL2配置文件定义了本体文件解析后每个元素的图形和显示样式，如图形的SVG③代码和CSS样式；(4)通过力导向图(Force-Directed Graph)展示本体的体系结构，并支持简单的过滤，如子类显示与否、类的属性显示与否。"
+  },
+  "2.3本体可视化分析": {
+    "context1": "本文所调研的本体可视化工具主要从其类型、开发时间、当前状态、数据加载方式以及可视化方式五个方面进行对比(见表1)。",
+    "context2": "本体是用来描述类和类之间、类和属性之间的关系，早期的本体可视化工具都是基于桌面，主要目的是帮助领域专家构建本体，同时也提供图形化展示本体的体系结构，如以树状图的形式展示本体中类与类之间的关系。桌面本体可视化工具只有Protege提供更新服务，其持续更新和维护以及良好的操作性使其成为目前本体编辑和可视化的主要工具。此外,Protege还提供两种方式的功能扩展：插件和Java的API,如ProtegeVOWL使Protége实现了本体图形化的展示。",
+    "context3": "表1本体可视化工具详情表",
+    "context4": "<table><tr><td rowspan=1 colspan=1>工具</td><td rowspan=1 colspan=1>类型</td><td rowspan=1 colspan=1>开发时间</td><td rowspan=1 colspan=1>当前状态</td><td rowspan=1 colspan=1>数据加载方式</td><td rowspan=1 colspan=1>可视化方式</td></tr><tr><td rowspan=1 colspan=1>Protegé</td><td rowspan=3 colspan=1>桌面可视化工具（开源）</td><td rowspan=1 colspan=1>2008年至今</td><td rowspan=1 colspan=1>可用，持续更新</td><td rowspan=1 colspan=1>本地本体文件</td><td rowspan=1 colspan=1>树状/节点链接图</td></tr><tr><td rowspan=1 colspan=1>RDFGravity</td><td rowspan=1 colspan=1>2004-2009</td><td rowspan=1 colspan=1>不可用，停止服务</td><td rowspan=1 colspan=1>本地本体文件</td><td rowspan=1 colspan=1>树状/节点链接图</td></tr><tr><td rowspan=1 colspan=1>IsaViz</td><td rowspan=1 colspan=1>2004-2007</td><td rowspan=1 colspan=1>可用,但停止更新</td><td rowspan=1 colspan=1>本地本体文件/远程本体文件</td><td rowspan=1 colspan=1>树状/节点链接图</td></tr><tr><td rowspan=1 colspan=1>WebProtege</td><td rowspan=2 colspan=1>在线服务(开源）</td><td rowspan=1 colspan=1>2013年至今</td><td rowspan=1 colspan=1>在线服务，持续更新</td><td rowspan=1 colspan=1>本地本体文件</td><td rowspan=1 colspan=1>树状/节点链接图</td></tr><tr><td rowspan=1 colspan=1>WebVOWL</td><td rowspan=1 colspan=1>2014年至今</td><td rowspan=1 colspan=1>在线服务，持续更新</td><td rowspan=1 colspan=1>加载本体文件/远程本体文件</td><td rowspan=1 colspan=1>图形可视化</td></tr></table>",
+    "context5": "在线本体可视化工具无需用户在本地安装，WebProtégé和WebVOWL是典型代表。WebVOWL仅提供本体的可视化服务，并不支持本体可视化编辑，但是WebVOWL能从整体上概览本体，采用力导向图展示本体的类和类、类和属性的关系，并可统计本体中类和属性的数量。"
+  },
+  "3关联数据的可视化浏览": "",
+  "3.1基于列表的浏览": {
+    "context1": "基于列表的浏览是采用“属性-属性值\"列表方式展示关联数据集，并允许用户沿着RDF链接探索并浏览整个关联数据集。基于列表的浏览有在线远程服务和Web浏览器插件两种实现方式。",
+    "context2": "(1)在线远程服务方式。通过在线远程访问关联数据浏览器，然后在关联数据浏览器中输入关联数据集的URL或关联数据集中某个资源的URI地址，以远程方式浏览关联数据。早期提供关联数据远程浏览的工具有Disco、Dipper和Marbles等，但这些工具目前基本处于停止服务状态，无法进行访问。远程服务方式消失的可能原因是：当前许多关联数据集都提供HTML和RDF两种表示格式,通过HTTP协议的内容协商机制，采用传统的HTML浏览器用户在本地就可以列表的方式浏览RDF数据，无需再通过这种远程服务来进行访问。内容协商机制（Content Negotiation）是HTTP协议提供的对服务器端响应的资源内容进行协商的一种机制，服务器根据客户端信息请求的类型(text/html或 $\\operatorname { r d f + x m l }$ 格式),以最适合的表示形式向其返回请求的资源，通常是Web资源的HTML或RDF表示格式。",
+    "context3": "(2)Web浏览器插件方式。通过安装在本地浏览器中的插件来访问关联数据集。用户通过浏览器访问关联数据集时,利用插件间的切换实现资源的RDF表示格式和HTML表示格式的浏览。比较有名的插件有 Tabulator 和 Openlink Data Explorer(ODE）。",
+    "context4": "Tabulator是较早的关联数据浏览器插件，但是2008年以后已经停止更新服务，且仅支持Fire-$\\mathrm { f o x } 3 . 0$ 。Tabulator以RDF表示格式展示用户要访问的关联数据时,支持 RDF/XML、Turtle和N-Triple 三种序列化显示格式。",
+    "context5": "ODE是OpenLink项目开发的关联数据浏览器插件，支持的浏览器有Internet Explorer、Firefox 和Google Chrome等[13]。ODE在浏览器中提供数据表示格式切换的选项，在浏览发布为关联数据的网站时点击鼠标右键会出现\"Openlink Data Explorer\"选项,点击其中的“View data resource\"选项会打开新的页面,以RDF表示格式展示资源（见图2）。",
+    "context6": "ODE的主要工作原理是：关联数据的解析工作是由ODE的服务器端URIBurner完成，用户在切换浏览方式的时候，资源的URI地址通过HTTP协议传递到URIBurner，待服务器完成解析后以“属性-属性值\"对形式返回OED 插件。URIBurner是OpenLink项目开发的数据解析服务器，通过\"http://linkeddata.uriburner.com/sparql?query=resource_URI”的形式获取资源的URI地址，对关联数据集的语义标签（如采用RDFa格式或者Pubby发布的关联数据）进行解析,同时提供RDF/XML、N-Triple和JSON 多种序列化格式的显示[13]。"
+  },
+  "3.2图形化浏览": {
+    "context1": "关联数据的图形化浏览主要有可视化插件和远程服务两种方式。可视化插件采用脚本嵌入的方式集成到HTML页面中实现关联数据的图形化浏览。在线远程服务主要采用“客户端浏览器和远程服务器”架构方式实现，根据用户配置的关联数据集SPARQL端点或者上传的本地关联数据集，采用内置的可视化图形实现关联数据集可视化。",
+    "context2": "(1)可视化插件。该可视化插件主要有两类，一类是针对专门的多维统计数据，其描述词表必须是RDFData Cube Vocabulary(DCV)①;另一类是通用的可视化插件，不受关联数据中所使用的词表或本体的限制。",
+    "context3": "![](images/9dab047fa8284b7901926a87aa2d12145525ce8a95677ba37bb3c278814e47db.jpg)  \n图2ODE浏览亚马逊网站中的关联数据",
+    "context4": "在发布的关联数据中，语义化数据表是其中重要的一部分，如欧盟委员会“欧洲数字议程(DigitalAgendaforEurope）”行动进展和绩效统计数据就是以语义化数据表的形式存储[14]。语义化数据表可视化的典型代表是CubeViz[15]。该可视化插件是德国莱比锡大学计算机学院开发，主要用于可视化展示采用DCV描述的统计关联数据集。CubeViz以嵌入HTML网页的方式完成插件的配置，采用饼图、曲线图和直方图对配置的关联数据集可视化展示。",
+    "context5": "通用的关联数据可视化插件比较有代表性的是Sgvizler[16]。该可视化插件集成了开源的GoogelCharts图形类库，对SPARQL查询结果可视化展示。Sgvizler提供三种方式构建 SPARQL查询[17]： $\\textcircled{1}$ 在HTML5页面中直接使用Sgvizler标签<data-sgvi-zler-query>和<data-sgvizler-endpoint>构造 SPARQL查询式（见图3)； $\\textcircled{2}$ 在 HTML页面中使用JavaScript其提供的API构建SPARQL查询，该方式与第一种类似,即直接采用Sgvizler内置的\"sgvizler.query”函数构造 SPARQL查询式； $\\textcircled{3}$ 在HTML5页面中添加From表单查询远程关联数据集,相比以上两种方式该方式实现较为复杂。",
+    "context6": "(2)在线远程服务方式。在线远程服务无需用户进行复杂的配置，仅需用户在浏览器端进行数据源的配置，然后在浏览器上执行查询、选择和过滤等多种操作，远程服务器负责处理客户端的操作，最后将关联数据集解析结果返回客户端进行可视化展示。其代表性的工具有RelFinder和RDF:Synops Viz。",
+    "context7": "RelFinder是P.Heim等人于2009年开发的一款可视化工具，旨在帮助用户发现关联数据集中感兴趣资源实体之间的关系，其前身是面向DBpedia数据集的对象关系发现工具DBpediaRelationship",
+    "context8": "![](images/ebc300b80cf6fb83822fa714b7aa30113bb11f080e21e8530571174872802511.jpg)  \n图3采用Sgvizler类库的方式对SPARQL查询结果可视化",
+    "context9": "Finder[18-20]。RelFinder发现关联数据集中对象间关系的原理为： $\\textcircled{1}$ 用户在RelFinder浏览器的查询框中输入要查询的两个对象，输入的对象在数据集中被映射为唯一的实体或者按相关性排序的一组实体列表供用户选择； $\\textcircled{2}$ 确定要查找的实体后，RelFinder根据实体间的RDF链迭代查找，发现两个实体间的所有关系； $\\textcircled{3}$ 以可视化导向图的方式展示实体间的语义关系，可根据用户预先设定的相关性策略自动过滤相关性较小的关系，仅显示最优关系。Relfinder用动态视图展示资源实体间关系，展示方式直观、生动，并提供关键词过滤，能实现资源实体间关系的局部可视化。除了在线服务,Relfinder还支持本地下载，作为一个Web应用在应用服务器（如Tomcat服务器)中运行，这种方式也是目前国内关联数据可视化采用的主要方式[3.21-22]。",
+    "context10": "SynopsViz[23]是一个分层展示和浏览关联数据的在线浏览器，主要工作原理是采取层次模型展示关联数据,避免了数据集较大时的加载负担。SynopsViz将关联数据集按类(Class）和属性(Property)进行统计，并提供对数据集的过滤功能，过滤结果采用时间轴、图表和TreeMap进行可视化展示。SynopsViz的工作原理分为：关联数据集上传、数据集预处理、可视化分析模块和浏览器端可视化四个部分，各部分主要功能为： $\\textcircled{1}$ 关联数据集上传：可以上传本地关联数据集的RDF文件或远程关联数据集的URI地址；$\\textcircled{2}$ 数据集预处理：首先对数据集进行解析，生成类和属性的分面信息，然后交由分层处理模块对分层信息进行存储； $\\textcircled{3}$ 可视化分析模块：根据浏览器端的分类过滤请求，可视化分析模块调用相匹配的分层信息，如某个类的实例数据； $\\textcircled{4}$ 浏览器端可视化：根据用户的请求，从可视化分析模块获取相关数据，采用开源的GoogleCharts图形库对过滤结果进行简单的统计和分析[23]。"
+  },
+  "3.3关联数据可视化浏览分析": {
+    "context1": "所调研的关联数据可视化浏览工具主要从数据集参引方式、可视化展示方式、使用方式以及操作方式四个方面进行对比(见表2)。",
+    "context2": "(1)数据集参引方式：主要有配置 SPARQL查询端点、上传本地关联数据集RDF文件、加载远程关联数据集RDF文件以及关联数据集的浏览页面。",
+    "context3": "(2)可视化展示方式：主要有两类方式，一类是基于列表的浏览；另一类是图形化浏览。前者以“属性-属性值\"对形式展示关联数据集，后者以饼图、折线图或直方图展示关联数据集或SPARQL查询结果。其中Sgvizler的可视化图形来源于Google Charts可视化类库,CubViz、RelFinder和 SynopsViz均内置可视化图形。",
+    "context4": "(3)可视化工具使用方式： $\\textcircled{1}$ 以插件的形式安装到浏览器中，直接浏览关联数据； $\\textcircled{2}$ 以可视化类库的形式嵌入到HTML页面，其中CubeViz针对专门的语义化数据表,Sgvizler面向通用数据类型两种，但需要用户构建 SPARQL查询表达式； $\\textcircled{3}$ 通过浏览器访问的在线远程服务或者本地应用服务器内运行，Relfinder通过关键词查询发现实体间关系,Syn-opsViz可以直接图形化浏览关联数据。",
+    "context5": "由于越来越多的关联数据集提供HTML和RDF两种表示格式，早期基于列表的可视化浏览器和插件工具逐渐停止了服务。目前，只有ODE是以Web浏览器插件形式实现关联数据列表浏览，对采用RDFa、D2R或Pubby发布的关联数据集有较好的可视化支持。",
+    "context6": "表2关联数据可视化浏览工具详情表",
+    "context7": "<table><tr><td rowspan=1 colspan=1>工具</td><td rowspan=1 colspan=1>数据集参引方式</td><td rowspan=1 colspan=3>可视化展示方式</td><td rowspan=1 colspan=1>使用方式</td></tr><tr><td rowspan=1 colspan=1>ODE</td><td rowspan=1 colspan=1>直接浏览关联数据集</td><td rowspan=1 colspan=1>列表浏览</td><td rowspan=1 colspan=2>数据集以“属性-属性值&quot;对形式展示</td><td rowspan=1 colspan=1>安装浏览器插件，插件提供列表浏览</td></tr><tr><td rowspan=2 colspan=1>CubeViz</td><td rowspan=1 colspan=1>配置 SPARQL查询端点</td><td rowspan=5 colspan=1>图形化浏览</td><td rowspan=2 colspan=1>语义数据表</td><td rowspan=2 colspan=1>内置图形展示关联数据集</td><td rowspan=2 colspan=1>嵌入HTML页面,插件多种可视化浏览</td></tr><tr><td rowspan=1 colspan=1>配置关联数据集RDF文件</td></tr><tr><td rowspan=1 colspan=1>Sgvizler</td><td rowspan=1 colspan=1>配置SPARQL查询端点</td><td rowspan=3 colspan=1>通用数据类型</td><td rowspan=1 colspan=1>Google Charts图形展示查询结果</td><td rowspan=1 colspan=1>嵌入 HTML页面,构造 SPARQL查询式,进行可视化浏览</td></tr><tr><td rowspan=1 colspan=1>RelFinder</td><td rowspan=1 colspan=1>配置 SPARQL查询端点</td><td rowspan=1 colspan=1>内置图形展示实体间关系</td><td rowspan=1 colspan=1>远程服务/本地服务器内运行，通过关键词查询,发现实体间关系</td></tr><tr><td rowspan=1 colspan=1>SynopsViz</td><td rowspan=1 colspan=1>配置关联数据集RDF文件</td><td rowspan=1 colspan=1>内置图形展示关联数据集</td><td rowspan=1 colspan=1>远程服务，提供多种可视化浏览</td></tr></table>",
+    "context8": "从关联数据图形化浏览工具的易用性来说，按照其是否需要构造SPARQL查询分为两大类：第一类可视化工具操作简单无需用户自行构造SPARQL查询式；第二类需要用户将可视化工具集成到HTML页面，且自行构造SPARQL查询式。这两类关联数据图形化浏览工具分析如下： $\\textcircled{1}$ 第一类可视化工具主要有 Cubeviz、RelFinder 和 SynopsViz。Cubeviz是封装的JavaScript类库,需要嵌入HTML页面才能使用，且用户需要具有一定的HTML网页设计技术，其可视化图形相对简单，仅有饼状图和直方图。此外,Cubeviz仅支持采用DCV词表描述的统计数据，相对于其它工具来说其通用性较差。SynopsViz提供在线远程服务，将本地或远程关联数据集RDF文件上传服务器即可直接可视化浏览，该工具根据用户的选择将过滤结果采用时间轴、图和表可视化展示。RelFinder主要目的是帮助用户发现关联数据集中两个实例对象的所有关系。因此，有很多领域需要这种发现实体关系的可视化工具，如在基因和疾病相关的生物医学领域关联数据中Relfinder可发现基因或者药物之间的关系； $\\textcircled{2}$ 第二类可视化工具需要用户自行构造SPARQL查询表达式，可视化效果完全依赖于 SPARQL查询式,主要有Sgvizler。Sgvizler是封装好的JavaScript库，需要嵌入HTML页面才能使用，但其集成了GoogleCharts图形库，提供更丰富的图形展示查询结果。",
+    "context9": "从所调研的关联数据可视化工具总体来看，基于列表的浏览工具逐渐会被淘汰，其更新服务会慢慢停止，但是对于领域专家来说，这种简洁的浏览方式能更好地了解关联数据集的结构。图形化浏览工具和插件中不需要用户构建 SPARQL查询式，通过简单配置就可以使用工具将会逐渐受到青睐，如RelFinder；需要用户构建SPARQL查询式的可视化浏览工具灵活性更好，能更有针对性的可视化浏览关联数据集，对专家用户来说是一种较好的关联数据可视化浏览方式,如 Sgvizler。"
+  },
+  "4关联数据可视化应用": "",
+  "4.1基于Web 的关联数据集可视化应用实例": {
+    "context1": "除了前文所述的关联数据可视化工具，还有一些语义网应用针对特定的关联数据集提供可视化分析，具有代表性的有：(1)开放存取期刊《语义网杂志（Semantic Web Journal,SWJ)》论文投稿和审稿数据的语义化及可视化分析；(2)美国的VIZ-VIVO项目；(3)欧洲的关联高校项目。这些关联数据可视化应用，面向用户提供可视化分析和浏览，一方面屏蔽了底层关联数据的复杂性，为用户提供了友好的数据访问界面；另一方面,实现了对关联数据的深度分析，也为发掘关联数据集中有价值的知识提供了新方法。",
+    "context2": "(1)SWJPortal。SWJ是语义网领域的一个开放存储期刊，该期刊的内容管理系统中采集了大量科学论文元数据、科学论文全文、学者信息和评审人信息，同时也收集了评审人的审稿意见和论文的修改版本等信息[24]。SWJPortal是加州大学圣塔芭芭拉分校 STKO 实验室(Space and Time Knowledge Organi-zation,STKO)的研究人员在SWJ数据集上构建了可视化Web应用。SWJPortal通过对原始的关系型数据库进行挖掘和语义转换，构建了蕴含深度隐性关系的关联数据，采用Highcharts可视化类库分模块、分层次的展示论文作者的地域分布、合作者网络以及论文主题的演化趋势等[25]。",
+    "context3": "SWJPortal采用Jena的TDB存储器存储RDF关联数据集，以Fuseki作为SPARQL查询终端，构建客户端和服务器端架构的可视化应用(见图4)。SWJPortal的工作原理为： $\\textcircled{1}$ 可视化界面采用JavaScript的ExtJS①类库设计可视化界面,结合Highcharts可视化类库展示关联数据分析结果； $\\textcircled{2}$ 服务器端可视化模块由一系列封装好的 SPARQL查询式组成，负责与关联数据集查询终端进行交互； $\\textcircled{3}$ 客户端与服务器端的交互采用Ajax来实现，根据不同的分析功能调用不同的可视化模块，并将 SPARQL查询结果以JSON数据格式返回客户端的图形。",
+    "context4": "![](images/8e2bab1b358f32baaaf8a8f3bbb41145fb6dd1e3430b6eb6fda03bdcfbbf5996.jpg)  \n图4SWJPortal可视化分析架构[25]",
+    "context5": "(2)VIZ-VIVO。VIVO（社交网络型的科研脸谱网)是康奈尔大学在2004年启动的项目，旨在方便科研人员通过科研社区进行交流，从而寻找同行并促成合作。VIVO项目采用关联数据技术将科研人员、机构和学术信息等彼此关联起来，并提供与外部相关信息的关联，目前有25个国家的140多个机构实施了VIVO 项目[26]。",
+    "context6": "VIZ-VIVO是在VIVO项目上的扩展,目的是以可视化图形展示VIVO数据中潜在知识，帮助科研人员发现潜在学术合作者、学者研究主题或学者间合作网络等[27]。如VIZ-VIVO中\"学者-主题\"网络图可以清晰展示学者与主题的关系，选中学者会展示其研究主题，选中主题会展示研究该主题的所有学者(见图5)。",
+    "context7": "VIZ-VIVO的工作原理为： $\\textcircled{1}$ 采用D3可视化类库展示VIVO中隐含的知识，通过Ajax向服务器端发送数据请求； $\\textcircled{2}$ 服务器端的配置文件根据浏览器端不同可视化请求分配不同SPARQL查询模块，然后将查询结果以Json数据格式返回浏览器端可视",
+    "context8": "![](images/d4a8a6420d89938b91dc1c249f94ddc91bb08d2a294440cd89b35e14440b7e6a.jpg)  \n图5“学者-主题”关系网络图[27]",
+    "context9": "化展示。",
+    "context10": "（3）欧洲的关联高校项目。Linked Universities[28]（关联的大学)是欧洲多所高校间的联盟，致力于将高校的各类开放数据(如学术成果信息、教职工人事信息、课程信息和学生信息等)发布为关联数据。目前,LinkedUniversities联盟中有1O所大学对其关联数据集开放了SPARQL查询终端，提供了访问和使用高校开放数据集的新方式。在这10所大学中仅有Aalto大学设计了关联数据集可视化分析平台，采用GoogleCharts图形库的饼图或柱状图来展示学生选课信息、教学单位教师数量等[29]。此外,高级用户可以在可视化分析平台的 SPARQL查询窗口中构建SPARQL查询式，查询结果以“属性-属性值\"的形式返回，然后采用GoogleCharts提供的图形编辑器以合适图形展示查询结果。"
+  },
+  "4.2关联数据可视化应用分析": {
+    "context1": "根据三个关联数据可视化应用实现方式的不同，本文分别从客户端的实现技术、客户端和服务器端交互方式、可视化工具的类型、数据存储与查询接口的设计方式对所调研的关联数据可视化应用进行对比(见表3)。",
+    "context2": "(1)客户端的实现技术：以富客户端技术和普通HTML来实现。富客户端技术主要基于JavaScript开源类库有较好的用户体验，且可视化模块间相互独立易于维护及可视化功能扩展。",
+    "context3": "(2)客户端和服务器端交互方式：主要有Ajax技术、传统的Web交互技术。数据请求主要通过调用应用系统封装的SPARQL语句和用户自行构造SPARQL查询式来实现。与传统的Web交互技术相比，Ajax以数据交互为主导，无需重新刷新页面即可实现客户端和服务器端的数据交互。",
+    "context4": "（3）可视化展示方式：以Highcharts、D3、GoogleCharts为代表的开源可视化类库。",
+    "context5": "(4)数据存储与查询接口：采用JenaTDB存储器存储关联数据,JeanFuseki负责提供数据访问的接口；系统自己的存储器存储关联数据，并提供数据访问接口。",
+    "context6": "表3关联数据可视化应用详情",
+    "context7": "<table><tr><td rowspan=1 colspan=1>Web应用</td><td rowspan=1 colspan=1>前端实现技术</td><td rowspan=1 colspan=2>客户端和服务器端交互方式</td><td rowspan=1 colspan=2>可视化展示方式</td><td rowspan=1 colspan=1>数据存储与查询接口</td></tr><tr><td rowspan=1 colspan=1>SWJ Portal</td><td rowspan=1 colspan=1>HTML/Javascript类库</td><td rowspan=2 colspan=1>Ajax技术</td><td rowspan=2 colspan=1>封装的 SPARQL查询式</td><td rowspan=3 colspan=1>开源可视化类库</td><td rowspan=1 colspan=1>Highcharts</td><td rowspan=1 colspan=1>Jena TDB+Fuseki</td></tr><tr><td rowspan=1 colspan=1>VIZ-VIVO</td><td rowspan=1 colspan=1>HTML/JavaScript类库</td><td rowspan=1 colspan=1>D3/Google Charts</td><td rowspan=1 colspan=1>VIVO 存储系统+VIVOAPI</td></tr><tr><td rowspan=1 colspan=1>Linked Universities</td><td rowspan=1 colspan=1>HTML</td><td rowspan=1 colspan=1>传统的Web交互</td><td rowspan=1 colspan=1>用户自行构造SPARQL查询式</td><td rowspan=1 colspan=1>Google Charts</td><td rowspan=1 colspan=1>Jena TDB+Fuseki</td></tr></table>",
+    "context8": "从所调研的关联数据可视化应用详情来看，SWJPortal、VIZ-VIVO 和Aalto大学的可视化应用都是在各自关联数据集上通过SPARQL查询端口构建Web应用。Aalto大学的关联数据可视化应用,不仅提供简单的可视化统计，同时为高级用户提供了SPARQL查询窗口,并可视化展示查询结果。而其它两个可视化Web应用都不需用户自行构造 SPARQL查询式，均提供用户直接访问的页面。",
+    "context9": "SWJPortal和VIZ-VIVO均采用数据挖掘技术对其数据进行了深入挖掘并以关联数据形式发布，譬如学者研究主题挖掘、作者机构地理位置提取等。与VIZ-VIVO不同的是,SWJPortal集成了许多外部开放的数据，如微软学术研究（MicrosoftAcademicSearch,MAS)包括大量开放的学术作品和学者数据。SWJPortal利用外部开放数据对作者进行重名消歧，获取每个作者的唯一所属机构，通过作者机构信息获取机构所在地理位置，进而可视化展示每篇论文引文的地理空间分布。"
+  },
+  "4.3关联数据可视化分析框架": {
+    "context1": "通过上述调研工作，本文提出了关联数据可视化分析技术框架，该框架主要包括四个部分：关联数据发布存储、数据查询与格式转换、数据请求控制层和数据可视化(见图6)。",
+    "context2": "（1)关联数据集存储：将数据源进行语义描述，形成资源间相互关联的语义化RDF数据，采用三元组存储器Jena TDB存储RDF数据集。此外,针对不同的数据源可以适当采用数据挖掘或文本挖掘方法，提取数据源中有价值的知识，在此基础上进行RDF数据可视化将会提高知识发现能力。",
+    "context3": "(2)数据查询与格式转换：由Jena的Fuseki提供 SPARQL查询的访问接口，以响应可视化应用的数据请求。从Jena TDB存储器获取请求数据后，为了满足可视化图形的数据格式，需对获取的数据进行格式转换，如 $\\mathrm { x m l }$ 数据格式。",
+    "context4": "![](images/fa78f68310e580abf1f9c308ce143710c95851170b13dfd41d4009be9007c7e9.jpg)  \n图6关联数据可视分析框架",
+    "context5": "(3)数据请求控制层：数据请求控制器负责分发数据可视化层的数据请求，并指定给某一个可视化分析模型，可视化分析模型由多个封装的 SPARQL查询表达式组成。同时，可视化分析模块可以通过查询其他开放关联数据集来丰富或者集成已有的关联数据，使可视化结果能发现更多有价值的信息。",
+    "context6": "(4)数据可视化：图形化展示采用开源的D3或Highcharts等可视化图形库，这些图形库对JSON/XML格式数据有良好支持,且内部封装了Ajax请求无需过多修改即可完成数据请求的发送与接收。此外，可视化类库创新的拖拽重计算、丰富的图形视图大大增强了用户体验和数据图形化展示能力。"
+  },
+  "5结语": {
+    "context1": "随着关联数据的发展，大量结构化数据以关联数据形式被发布到网络上，如何消费和使用关联数据集成为当前研究的主要问题。关联数据可视化可以直观、清晰地展示关联数据，有较高的用户接受度，一定程度上帮助人们从关联数据中获取有价值的知识。",
+    "context2": "通过对关联数据可视化相关文献和工具进行调研分析，本文得出以下结论：",
+    "context3": "（1)本体是一种特殊的关联数据，本体可视化更加注重图形化表示，目的是让用户快速理解本体的整体结构和内部关系。本体可视化逐渐从只有专家用户使用转变到普通用户使用，展现形式也趋向于生动的图形化以便于用户理解。同时,本体可视化工具也提供在线服务，用户直接通过浏览器进行访问和使用，不仅增加交互性，也使用户免于工具配置的负担，主要在线可视化工具有WebProtege和 $\\mathrm { { W e b V O W L } _ { \\circ } }$",
+    "context4": "（2）关联数据集列表形式浏览是关联数据最基本的可视化方式，以“属性-属性值\"对形式展示三元组数据，属性通常来自于本体或元数据标准，然而对于不熟悉词表或本体含义的普通用户来说很难发现有价值的信息；其次，当前关联数据集均提供HTML和RDF两种表示格式，通过HTTP协议的内容协商机制，用户采用传统的HTML浏览器就可以实现关联数据集的\"属性-属性值\"列表式浏览。因此，提供列表式浏览的RDF数据浏览器(或插件)目前已逐渐被淘汰。",
+    "context5": "（3）关联数据图形化浏览是关联数据可视化浏览的发展趋势，主要采用可视化插件和远程服务的方式实现关联数据可视化，通过采用各类图形（如GoogleCharts的饼图、折线图和散点图等)呈现数据集，能够直观地展示数据集中各类实体间的关系或统计相关的实例，并相对于列表式浏览有更好的用户体验。图形化浏览的关键是 SPARQL查询式的构建，有些图形化浏览工具需要用户自行构造SPAR-QL查询语句（如Sgvizler）,这对普通用户具有很大挑战，但是其可以根据用户需求来有针对性的可视化展示数据。那些不需要用户构建SPARQL查询或通过简单配置就可以使用的工具将会逐渐受到青睐，如针对语义化数据表的Cubeviz、发现数据集中实体关系的RelFinder以及分层展示关联数据集的SynopsViz。",
+    "context6": "(4)关联数据可视化Web应用直接提供在线的可视化服务，屏蔽了关联数据集查询、可视化插件或工具配置的复杂性，将会是未来关联数据消费的新方式。关联数据可视化Web应用可以结合关联数据集的特点，针对特定任务和需求挖掘关联数据集的知识，如对数据进行扩充或者挖掘数据隐含的知识，进而发布为关联数据增加其知识可视化能力。国外关联数据可视化Web应用取得了一定的进展，但国内尚未有关联数据可视化Web应用的研究，大都是基于可视化工具的简单应用研究。通过对关联数据可视化应用相关技术和功能的分析，我们提出了通用的关联数据可视化分析框架，该框架包括四个部分：关联数据发布存储、数据查询与格式转换、数据请求控制层和数据可视化，每部分都有独立的功能来处理且相互关联，借助Web服务器（如Tomcat）来实现可视化应用。在后续研究中，我们将探索科学论文书目数据深度语义化问题，深入挖掘科学论文书目数据中隐含的知识并构建关联数据，在此基础上实现科学论文关联数据集的交互式可视化。"
+  },
+  "参考文献：": {
+    "context1": "[1]The Linking Open Data cloud diagram[EB/OL].[2018-02-26].http://lod-cloud.net/.   \n[2]Seventh Intermational Workshopon Consuming Linked Data[EB/OL].[2018-03-22].hps://ww.dc.uchile.cl/cold2016/.   \n[3]VisualizationandInteractionforOntologiesandLinked Data[EB/OL].[2018-03-27].htp://voila2016.visualdataweb.org/.   \n[4]Call for PapersSpecial Isueon\"Visual ExplorationandAnalysisofLinkedData\"[EB/OL].2O18-03-27].htp:/www.semantic-web-journal.net/blog/cal-papers-special-issue-visual-exploration-and-analysis-linked-data.   \n[5]洪娜,钱庆,范炜,等.关联数据中关系发现的可视化实践[J].现代图书情报技术,2013(2):11-17.   \n[6]FuB,NatalyaFN,StoreyMA.Eyetrackingtheuser experience-Anevauationofontologyvisualization techniques[J].Semantic Web Journal,2017(1):23-41.   \n[7]Protege[EB/OL].[2018-03-13].htp:/protegewiki.stanford.edu/wiki/Main_Page.   \n[8]RDF Gravity[EB/OL].[2018-03-13].http:/semweb.salzburgresearch.at/apps/rdf-gravity/."
+  }
+}

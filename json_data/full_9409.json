@@ -1,0 +1,70 @@
+{
+  "original_filename": "full_9409.md",
+  "计算机辅助内容分析软件进展研究 \\*": {
+    "context1": "张蕊　邱均平　周黎明",
+    "context2": "武汉大学中国科学评价研究中心武汉430072",
+    "context3": "[摘要]介绍CATPAC、WordStat、DIMAP、Concordance、General Inquirer、Atlas-ti6种国外主要的内容分析软件及国内计算机辅助内容分析软件的研究进展;从中文分词的角度探讨中文计算机辅助内容分析软件的发展趋势——基于语法分词、基于语义分词和基于语用分词的内容分析软件。",
+    "context4": "［关键词」内容分析法计算机辅助内容分析内容分析软件〔分类号］G350"
+  },
+  "On the Development of Computer-assistant Content Analysis Software": {
+    "context1": "Zhang Rui Qiu Junping Zhou Liming Research Center for Chinese Science Evaluation，Wuhan 430072",
+    "context2": "〔Abstract）Thisarticlefirstintroducessomemainsoftwaresforcontentanalysisintheworldatpresent，whichincludesthesoftwaressuchas CATPAC，WordSTAT,DMAP,Concordance,GeneralInquirer,andAtlas-ti，etc.Thenitshowstheresearchstatusoftherecentdevelopmentofsoftwaresforcomputer-asistantcontentanalysisinChina.FromthutomaticseparationofChineseterms，thepa-perfinallydiscussesthedevelopmenttrendandapplicationperspectivesofsuchkindofChinesesoftwares，namely,softaresbasedongrammar separation，on seniantic separation and on artificial intelligence separation，respectively.  \n[Keywords] content analysiscomputer-assistant content analysissoftware for content analysis20 世纪初，有人采用一些半定量的方法对文献的内容进行分析和解释。这些研究主要是通过统计报纸上某方面内容的新闻报道篇数，来考察报道的重点以及社会舆论状况，并对艺术、音乐、文学和哲学等方面的文献的主题进行分析，以期发现社会和文化发展的历史趋势。这种研究方式的出现和应用形成了内容分析法的雏形，并因其可操作性强、适用性广的特点而得以不断发展。第二次世界大战期间，美国著名传播学家哈罗德·拉斯韦尔等人在美国国会图书馆通过组织一项名为\"战时通讯研究”的工作，系统地发展和完善了内容分析法。他们以德国公开出版的报纸为研究对象，通过内容分析法获取重要的军政机密情报，取得了出乎意料的成功。这项工作所采用的方法和取得的效果，为战后内容分析法的发展和应用奠定了基础。奈斯比特所著的《大趋势-改变我们生活的十个新方向》的出版,则是内容分析法走向成熟的里程碑。他的咨询公司运用内容分析法对200份美国报纸进行分析、综合，经过几年的积累，归纳出美国从工业社会过渡到信息社会的十大趋势。在这部书取得成功",
+    "context3": "的同时,众多的研究者开始关注内容分析法在社会研究中的巨大作用和潜力。"
+  },
+  "1国外几种主要的计算机辅助内容分析软件简介": {
+    "context1": "内容分析法主要是通过对文献资料进行分析来发现事物本质的，因此内容分析法对文献的数量、来源要求都很高，这无形中增加了科学工作者的负担;同时随着网络时代及信息时代的到来，“信息爆炸”更增加了内容分析的难度。因此，只有不断将新技术应用于内容分析领域，才能提高工作效率和分析结论的可信度。基于这一点，国外开发了数十种内容分析软件，且数量仍在不断增长。计算机在内容分析中的应用使得计算机辅助内容分析成为研究的热点。"
+  },
+  "1.1CATPAC（http://www.terraresearch.com/)": {
+    "context1": "CATPAC是由伽利略公司开发的内容分析软件，它的开发者声称\"CATPAC是一种智能软件，它能够阅读任何文本并且归纳出其主要内容，不需要预先编码和任何语言学假",
+    "context2": "设”。但是CATPAC只有一些基本的功能，只包括对聚类分析和多维标度的可视化。CATPAC能够满足用户的基本需求，但是有人评价它的用户界面差。"
+  },
+  "1.2WordStat (htp://www.simstat.com/wordstat.htm)": {
+    "context1": "WordStat 能够像手工编码一样，使用字典给文本自动分类或者进行各类文本挖掘。它可以将已经存在的分类字典应用到新的文本集合中，也可以用来发展新的分类词典或分类方法。当和手工编码一起使用时，WordStat可以对编码规则提供更系统的应用，帮助揭示子类之间词的不同用法，使用上下文内关键词KWIC对已经存在的编码进行辅助修订。WordStat包括大量探测性的数据分析和文字工具，可以用来检验文件信息内容之间的关系。使用其等级聚类和多维标度分析可以断定词或类之间的关系，而相关性分析可以断定关键词和不同组别个体之间的关系。"
+  },
+  "1.3DIMAP(http://www.clres.com/)": {
+    "context1": "DIMAP是一种为文本分析开发词典而提供的开发环境。DIMAP提供了在自然语言和语言技术应用过程中开发和维护词典的功能，包括管理多种词典、搜索和分析词典数据（例如通过分解定义来创造语义网及制作词典之间的语义地图）、输入和输出数据（XML）、使用整合资源（如WordNet）自动创建词典、进行各种文本解析(包括消除词的歧义，创建帮助问答的文本库)。所有定义的解析都使用近义解析器，辅之以综合的、辅助性词典，如WordNet、Macquarie词典或牛津+新英语词典。"
+  },
+  "1.4Concordance(http://www. dundee. ac. uk/english/wics/wics. htm)": {
+    "context1": "Concordance是对文本进行综合索引的工具。在一个文本中，要迅速定位任何文章，只需要知道文章中的一个单词，查阅Concordance的文本语词索引就可以找到这篇文章。它可以给出你所查词汇的全部用法，并且对使用这个词的文本进行比较，因此它是最有力的词汇浏览工具之一。Concord-ance可以统计词频，而且是一种交叉引用系统，各类组织都可以利用Concordance在局域网中提供迅速的内部引用信息。所有在源文件中使用的词都是按照字母排列的，但是当所有特殊的词出现并聚积在一起时就可以按照各种方式排列。Concordance不能替人思维，因此必须正确提问，即用户必须按照自己的预感和了解进行提问。而且有时为了节省空间，Concordance忽略了某些高频词。因此，对于检验文本来说，Concordance 不是合适的工具。"
+  },
+  "1.5General Inquirer (http://www.wjh. harvard. edw/ \\~ inquirer/)": {
+    "context1": "GeneralInquirer是美国自然科学基金会资助的项目，由马里兰大学的约翰·鲁滨逊等人开发。它提供最基本的功能.没有可视化功能。该程序包括182个嵌入式类目，这些类目是将几种已经存在的内容分析词典合并的结果，其中有些词典在程序中被简化了。用户还可以根据需要增加类目。"
+  },
+  "1.6Atlas -ti (http://www.atlasti.de/)": {
+    "context1": "Atlas-ti是一种提供有限的自动内容分析注释和说明帮助的软件，是Windows下运行的一个内容分析程序。它支持文本解释处理，尤其是在管理、编码、备忘、抽取、分析和比较文本及编码方面独具特色。该软件相对来说比较专业，支持文本理解、文本管理和文件中的概念知识的抽取（理论构建)。其应用领域包括社会科学、经济学、教育学、犯罪学、市场调研、质量管理、知识获取和神学。Atlas-ti可以输出HT-ML,并宣称可以输入和输出HTML类型的文件，它具有各种类型的注释，包括用户定义的地图结构。Atlas-ti能提供强大的带有布尔逻辑、语义和模糊性操作选项的代码检索功能，还能生成 SPSS可读文件，以便作进一步统计分析。Atals-ti中可分析的文本类型包括观察记录、演讲及通过各类调查得来的数据。一般来说，Atlas-ti也可处理各类非文本资料，如图形或声音文件。"
+  },
+  "2国外计算机辅助内容分析软件的研究进展": {
+    "context1": "通过以上分析，我们可以将计算机辅助内容分析软件分为三种类型： $\\textcircled{1}$ 以词典为基础的内容分析软件。通常这类软件都具有基本的文本分析功能，包括词的计数、分类和简单的统计，如前面介绍的CATPAC，Concordance，WordStat，General Inquirer 等都属于这类软件。 $\\textcircled{2}$ 软件本身不作为分析工具，而是提供一种开发环境，自动生成词典、语法规则和其他文本分析工具。这种软件更像是高级文本说明编程语言，而不是独立的内容分析包，前面介绍的DIMAP就是这类软件。 $\\textcircled{3}$ 标记辅助软件。这种软件通常能自动进行内容分析，就像我们在进行手工文本分析时产生的页边笔记、互引和笔记摘要的电子版,如前面介绍的Atlas-ti就是这类软件。以上软件的主要功能参见表1。",
+    "context2": "表1国外几种计算机辅助内容分析软件的主要功能",
+    "context3": "<table><tr><td rowspan=1 colspan=1>房号</td><td rowspan=1 colspan=1>软件名称</td><td rowspan=1 colspan=1>操作系统</td><td rowspan=1 colspan=1>处理的语言</td><td rowspan=1 colspan=1>获取方式</td><td rowspan=1 colspan=1>主要功能</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>CATPAC</td><td rowspan=1 colspan=1>Windows</td><td rowspan=1 colspan=1>ASCII</td><td rowspan=1 colspan=1>购买</td><td rowspan=1 colspan=1>断词、词干提取、词频统计、聚类、多维标度：聚类距离的可视化计算</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>WordStat</td><td rowspan=1 colspan=1>Windows</td><td rowspan=1 colspan=1>英语、法语、西班牙语、荷兰语</td><td rowspan=1 colspan=1>购买</td><td rowspan=1 colspan=1>提供一个终止词和起始词的集合、列表、断词、词干提取消除语义歧义、词频统计、共现索引、语词索引、聚类</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>DIMAP</td><td rowspan=1 colspan=1>Windows</td><td rowspan=1 colspan=1>ASCII</td><td rowspan=1 colspan=1>购买</td><td rowspan=1 colspan=1>提供一个终止词和起始词的集合、列表、断词、词干提取、消除语义歧义、词频统计、共现索引、语词索引、聚类、多维标度</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Concordance</td><td rowspan=1 colspan=1>Windows</td><td rowspan=1 colspan=1>英语、汉语</td><td rowspan=1 colspan=1>购买</td><td rowspan=1 colspan=1>提供一个终止词和起始词的集合、断词、词干提取、词频统计、共现索引、语词索引、聚类、多维标度</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>GeneralInquirer</td><td rowspan=1 colspan=1>JAVA程序</td><td rowspan=1 colspan=1>ASCII</td><td rowspan=1 colspan=1>对于学术用途免费</td><td rowspan=1 colspan=1>提供一个终止词和起始词的集合、提供工具词典列表、断词、词干提取、消除语义歧义、词频统计</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>Atlas -ti</td><td rowspan=1 colspan=1>Windows,MS-DOS</td><td rowspan=1 colspan=1>英语</td><td rowspan=1 colspan=1>购买</td><td rowspan=1 colspan=1>数据管理、编码.检索、人工构建概念网络、多授权、输出分析数据进行统计处理及网1发布</td></tr></table>",
+    "context4": "由于受语言、文化限制，国外内容分析软件通常只能处理英语等非字符型文字，虽然Concordance 能够进行汉字处理,但实质上在处理汉字方面它只是一种中文学习软件，只能实现汉字的查找和拼音标注，对于汉语的内容分析来说是极其有限的。因此，开发中文内容分析软件是解决计算机辅助内容分析的重要突破点。"
+  },
+  "3国内内容分析软件的研究进展及发展趋势": {
+    "context1": "由于中文是形音义文字，因此中文的词的切分存在许多问题，中文分词技术的滞后也是当前中文内容分析技术发展的瓶颈。中文自动分词准确率低主要缘于以下几个难题： $\\textcircled{1}$ 词表收录； $\\textcircled{2}$ 分词规范； $\\textcircled{3}$ 未登录词的识别； $\\textcircled{4}$ 歧义切分。各种应用对分词要求的颗粒度(切分单位的细致程度)是不同的。比如自动分类、关键词抽取就比检索需要的分词颗粒度大，因为这样表示文本语义特征时效果会更好，而检索时有查全率的要求,就需要把分词单位做得更为细致，否则就会造成漏检。"
+  },
+  "3.1研究进展": {
+    "context1": "国内分词方面做得比较好的是海量科技公司，他们在现有中文分词技术的基础上推出了海量中文智能分词功能基础件，以“砌词”为突破口，巧妙地解决了困扰分词的最大问题——未登录词的识别问题：采用复方概念平衡各算法，使海量分词在大规模语料测试中的准确率达到了 $9 9 . 5 \\%$ ，分词效率为2000万字/分钟，基本上达到实用要求。目前海量科技公司的中文智能分词功能基础件已经做了5种类型的分词标准，分别是：检索、自动分类、聚类、自动摘要和关键词抽取,并且已经成功地应用于商务印书馆、方正电子图书、中国搜索、Autonomy、天极、CSDN、Donews、天津日报、音乐搜索引擎、中国大百科全书出版社、3721、方正研究院(数字图书馆产品）、天津市信息中心、北大方正技术研究院(为方正博思内容管理平台提供全文检索技术）。",
+    "context2": "下面以Autonomy为例。2003年，海量科技公司与Au-tonomy公司合作，为Autonomy提供全球范围内的中文分词技术。海量中文智能分词功能基础件是海量科技公司在其海量中文智能分词技术基础之上开发的分词准确、高效、接口方便灵活、便于二次开发的软件包以及为使软件包在目标系统中实现最优品质而提供的特定服务。Autonomy 将海量中文智能分词功能基础件应用于软件的开发，令电脑对纷繁错杂、浩如烟海的信息进行准确的挑选、分类和储存，可以在几小时内按内容对上百万份文章进行准确自动的分类；可以根据内容含义来自动链接网页；可以通过职员或用户所读写的文章、电子邮件、网页和所打的电话来为他们自动建立准确而个人化的档案，并通过这些档案把他们最感兴趣的新文章、新消息及时地传送给他们。Autonomy开发的系统将广泛应用于各行各业，包括国防、汽车、金融服务、新闻、电信、高科技、咨询、法律、政府机构,等等。",
+    "context3": "Autonomy的核心是建立在独特的信息论和概率论基础上的模式识别技术。Autonomy的技术可以保证对任何形式的信息（文本文件或基于语音的、视频的、非结构化或结构化的实际内容)的基本理解，而不论它保存在哪里、用何种格式创建或者与数据相关的应用又是什么。正因为如此，Autono-my 可以实现“基于理解进行集成（integration through under-standing)”，它允许应用彼此间通讯，且不需要手工去设置复杂的连接器或使用元数据。此外，该技术本身也允许应用间的通讯,不管后端的数据源如何。Autonomy在系统内创建了一个新层,即智能数据操作层(intelligent data operating layer,IDOL)，从而使自动处理数字信息及其应用间彼此通讯在系统中成为可能。",
+    "context4": "Autonomy的IDOL是围绕非结构化信息处理技术建立的一个框架,它使企业系统\"以数据为中心”，并可保证前所未有的自动化效率,使系统降低成本和更有效地运营。Au-tonomy独特的技术架构解决了影响每个行业的信息处理的基本问题,并且它可以应用于任何非结构化信息的处理，如电子商务、CRM、知识管理、商务智能和企业信息平台。Au-tonomy技术的核心概念匹配不依赖英语语法结构，也不依赖其他任何语言。IDOL将字看成是意义的抽象符号，它通过字出现时的上下文环境而不是通过严格的语法定义来形成对该字的理解。",
+    "context5": "表2Autonomy的主要功能",
+    "context6": "<table><tr><td rowspan=1 colspan=1>软</td><td rowspan=1 colspan=1>操作系统</td><td rowspan=1 colspan=1>处理的语言</td><td rowspan=1 colspan=1>获</td><td rowspan=1 colspan=1>主要功能</td></tr><tr><td rowspan=1 colspan=1>Autonomy</td><td rowspan=1 colspan=1>Microsoft WindowsNT/95/98/ME/2000</td><td rowspan=1 colspan=1>英语、西班牙语、中文、韩文和其他</td><td rowspan=1 colspan=1>购买</td><td rowspan=1 colspan=1>自动聚类、自动交叉索引/超链接、自动上下文环境总结、获取和检索、自动分类、自动分类生成器、主动匹配、自动内容综合和精练</td></tr></table>"
+  },
+  "3.2发展趋势": {
+    "context1": "目前的中文计算机辅助内容分析软件只是基于篇幅的文本分析，对于物理单元的字、词、段等知识片断的分析很少，而这一问题很难解决。",
+    "context2": "3.2.1基于语法分词方法的计算机辅助内容分析软件这种分词方法是以机械分词方法为基础的分词方法，由于这种方法回避了难度较大的语言本身信息的处理，容易实现，所以仍然得到了广泛的应用，以这种方法为基础开发的内容分析软件是目前的主流。但是这种机械分词法对于词表中未能及时收录的新词无法予以正确的切分，另外缺乏自学习的智能性也是它的一大弱点。因此，以语法分词为基础的计算机辅助内容分析软件一般只能实现词频统计、聚类、多维标度等最基本功能，而对于知识的发现、提取、挖掘等，则很难实现。",
+    "context3": "3.2.2基于语义分词方法的计算机辅助内容分析软件语义分词法也可以称为理解分词法，它也是一种人工智能分词的方法。其基本思想就是在分词的同时进行句法、语义分析，利用句法信息和语义信息来处理歧义现象。它引入了语义分析，对自然语言自身的语言信息进行更多的处理，通过让计算机模拟人对句子的理解，达到识别词的效果。由于汉语语言知识的笼统、复杂性，难以将各种语言信息组织成机器可直接读取的形式，因此目前基于理解的分词系统还处在试验阶段。对于中文来说，以语义分词法为基础的计算机辅助内容分析软件实现起来困难更大些，但是由于这种软件可以很好地解决分词所存在的歧义、未登录词的识别等问题，所以它的开发及应用前景较好。",
+    "context4": "3.2.3基于语用分词方法的计算机辅助内容分析软件语用分词方法也可以称为高级的人工智能分词方法，它是对信息进行智能化处理的一种模式，主要有两种处理方式： $\\textcircled{1}$ 基于心理学的符号处理方法； $\\textcircled{2}$ 基于生理学的模拟方法。",
+    "context5": "以上两种思路也是近年来人工智能领域研究的热点问题,应用到分词方法上，就产生了专家系统分词法和神经网络分词法。以语用分词方法为基础开发的计算机辅助内容分析软件的最大特点是知识获取快，这也是神经网络方法的一大特色。并行、分布性和联接性的网络结构为人工神经网络的知识获取提供了良好的环境，并通过样本学习和训练来自我更新。以语用分词方法为基础的计算机辅助内容分析软件对于计算机辅助内容分析来说是质的飞跃，它对用户的知识获取、知识利用和知识挖掘可以进行智能分析，从而为用户提供隐藏于文献内部的知识，可以说是未来内容分析软件的发展方向。但神经网络的知识分布在整个系统内部，对用户而言是黑箱操作，而且它对于所采取的结论不能作出合理的解释;实践环节中涉及知识库的组织和神经网络推理机制的建立。因此，在实践中还有许多问题需要解决。",
+    "context6": "目前，中文内容分析软件发展缓慢，虽然海量科技公司解决了一部分中文分词的问题，但是在语义分析、语用分析、词频统计、概念(范畴)分析等方面还有很多路要走。由于内容分析法在政治、经济、社会、新闻、传播、军事等领域都有广泛的应用前景,内容分析法作为一种研究方法必将日益得到人们的重视，而计算机辅助内容分析法使得内容分析可以借助于先进的科学技术，其发展必将推动内容分析法的进一步发展。因此，应加大对计算机辅助内容分析法的研究，推动其理论与实践的进一步结合，从而推动内容分析法的应用和发展。"
+  },
+  "参考文献：": {
+    "context1": "1邱均平，邹菲.我国内容分析法的研究进展.图书馆杂志,2003(4):5-82邱均平,邹菲.国外内容分析法的研究进展.图书情报知识,2003(6):6-83邱均平，邹菲.关于内容分析法的研究.中国图书馆学报,2004（4):12-174缪其浩.观察国际图书馆学术前沿及其发展：内容分析.中国图书馆学报,2002(3)：5-85Content analysis on the Web．[2004-O8-11]．http://www.web- analysis.com/index.php? pagename $=$ ContentAnalysisOnTheWeb  \n6How the General Inquirer is used and a comparison of General In-quirer with other text-analysis procedures.[2004 -O8-11]．ht-tp://www.wjh.harvard.edu/\\~inquirer/3JMorelnfo.html  \n7Autonomy.［2004-08-11]．http://www.hylanda.com/market/autonomy.htm  \n8Overview：content analysis.[2004-08-11]．http://writing.co-lostate.edu/references/research/content/  \n9 IDOL 功能白皮书.[2004-08-11]．http://www.abstractpower.com/Products/index.htm  \n10 Lowe W. Software for content analysis--A review.[2OO4-08-11].http://www.wcfia.harvard.edu/misc/initiative/identity/ima-ges/content_analysis.pdf  \n11 V5.0 User's Guide and Reference.[2004-O8-11].http://61.222.167.226/html/Download_File/Document/atlman.pdf  \n12 Computer content analysis programs.[2004-08-11]．htp://ac-ademic.csuohio.edu/kneuendorf/content/cpuca/ccap.htm  \n[3 Software for content analysis.[2004-O8-11].http://www.audi-encedialogue.org/soft-cont.html  \nl4Software for content analysis:links to external sites. $\\left[ 2 0 0 4 - 0 8 - 1 1 \\right]$ http://bama.ua.edu/\\~wevans/content/csoftware/software_menu.html  \n15黄昆,符绍宏.自动分词技术及其在信息检索中应用的研究.现代图书情报技术，2001(3）：26-29",
+    "context2": "[作者简介]张蕊，女，1976年生，博士研究生，发表论文10余篇。邱均平,男,1947年生,武汉大学中国科学评价研究中心主任,武汉大学图书情报研究所所长,教授，博士生导师，发表论文200余篇。周黎明,女,1963年生,《图书情报知识》副主编，博士研究生,发表论文10余篇，出版专著3部。"
+  },
+  "（上接第61页）": {
+    "context1": "3王斌.小世界网络理论在交通网络中的应用研究.[学位论文].南京：南京航空航天大学，2003",
+    "context2": "4韩红芳.基于小世界网络的搜索引擎算法研究.［学位论文].天津：河北工业大学,2004",
+    "context3": "5梁战平.论情报学研究.中国信息导报，2003(1)：12-15  \n6 朱涵，王欣然,朱建阳.网络\"建筑学\".物理,2003(6):364-369  \n7 鲁伊.这是-个小世界.[2002-20-11].http://www.life week  \n8 柯南.你想与施瓦辛格建立联系吗？[2004－06-15].http://  \nwenxue redent.com.cn"
+  }
+}

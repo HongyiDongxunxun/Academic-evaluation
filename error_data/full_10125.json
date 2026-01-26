@@ -1,0 +1,123 @@
+{
+  "original_filename": "full_10125.md",
+  "面向应急管理的仿真模型构建过程评述": {
+    "context1": "李纲柳明飞叶光辉（武汉大学信息资源研究中心，武汉，430072)",
+    "context2": "[摘要]模拟仿真分析是描述、解释突发事件形成机理，提升人类应对突发事件决策能力的重要方法。为政府及相关部门仿真分析提供可实施的模式，本文从概念设计、系统设计和应用设计三个层面，依次综述了面向突发事件的仿真模型构建过程。概念设计说明了情景从描述、构建到演化的整个过程;系统设计对比了现有的仿真分析方法与平台，描述了仿真建模与评估过程;应用设计分别论述仿真模型在三类突发事件中的应用状况。最后指出当前仿真分析过程中存在的挑战。",
+    "context3": "［关键词］突发事件应急管理仿真模型",
+    "context4": "[中图分类号］G250[文献标识码］A[文章编号］2095-2171(2016)04-0065-09   \nDOI:10.13365/j.jirm.2016.04.065"
+  },
+  "A Review of Construction of Simulation Modeling Oriented to Emergency Management": {
+    "context1": "Li GangLiu MingfeiYe Guanghui",
+    "context2": "(Center for the Studies of Information Resources of Wuhan University，Wuhan 430072)",
+    "context3": "[Abstract]The simulation analysis describes and explains the formation mechanism of emergent events, thus serving as a crucial tool to enhance the decision making capacity of human being when facing emergent events.To provide feasible paterns of simulation analysis for the government and relevant sectors，this paper successively reviews on the construction process of simulation modeling oriented to emergent events from the perspective of conception design，system design and application design. Conception design features the process of scenario description，construction and evolution.System design ilustrates the process of simulation modeling and assessment through the comparison of present simulation methods and platforms.Application design reviews the current situationof simulation models applied in three kinds of emergent events.The challenges existing in current simulation analysis are lastly pointed out.",
+    "context4": "[Key words]Emergent eventsEmergency management Simulation model"
+  },
+  "1引言": {
+    "context1": "随着信息、经济及人文等的日益多元化，一方面，人类社会系统正日渐复杂和繁荣，另一方面由于系统赖以支撑的物质、能源等资源利用不当及日渐殆尽，人类社会系统又呈现出一定的脆弱性，而这脆弱性典型表现为社会应对突发事件的能力不足。作为一个正处在经济转型并努力构建和谐社会的大国，中国需要采取有力的措施去应对突发事件可能带来的各项挑战，既包括由物理环境破坏所引发的经济损失、人员伤亡，还包括由不实信息(如谣言等)引发的群体恐慌、與情发酵等社会影响。",
+    "context2": "应急管理体系是一个开放的复杂的巨型系统，具有多主体、多尺度、多因素和多变性的特征[1]，同时考虑到突发事件本身造成的破坏性和不确定性，现实活动中很难采用传统的研究方法进行实时分析和跟踪，只能通过构建实验环境来重复上述过程，而为了减小实验过程的复杂性，减少不必要及不可控因素对实验结果的影响，往往采用仿真分析的方法[2]。模拟仿真分析是目前应急管理领域的重要科学问题，突发事件演化过程模拟[3]、突发事件仿真模型构建及评估[4]、各决策主体仿真行为分析[5]等是该主题研究关注的重点内容。综合已有研究，笔者同时也发现：仿真分析对象正从特定类型突发事件向次生、衍生和耦合的综合性突发事件发展；突发事件的应对模式也正由传统的\"预测－应对\"向\"情景－应对\"转变；",
+    "context3": "应急管理中的网络化分布交互仿真系统、智能仿真系统、虚拟现实仿真系统正逐渐代替传统的单一的仿真系统。",
+    "context4": "鉴于此，本文依托突发事件仿真分析的研究框架，从概念设计、系统设计和应用设计三个层面，综述突发事件仿真模型的构建、实现及应用评估的相关研究成果，以为提升政府及相关职能部内突发事件应急处置能力提供可实施和可借鉴的模式。"
+  },
+  "2面向应急管理的突发事件仿真分析框架": {
+    "context1": "综述过往研究，面向应急管理的突发事件仿真分析模式可设定为三个层级：概念层、系统层和应用层，各层级内容可依次表述为：",
+    "context2": "![](images/d2f262892cff8b9dad6e300165cb8853d1c08805dda798c741152a59f8e7c01b.jpg)  \n图1突发事件仿真分析框架",
+    "context3": "(1)概念层从突发事件的情景出发，提取仿真系统中的\"数据”，构建突发事件的初始情景，并且依据不同突发事件演化的机理推演出中间、最终情景，形成完整的突发事件“情景一应对模型”，参见图1。",
+    "context4": "(2)系统层主要是实现突发事件的关键情景要素与仿真平台要素之间的映射，基于不同的仿真方法，应用适合某种特定情景的仿真工具，实现仿真系统的建模，并在实际突发环境中进行仿真的结果分析，参见图1。",
+    "context5": "(3)应用层分别从宏观和微观两个方面描述仿真技术在突发事件三个领域的应用：公共卫生、自然灾害以及事故灾害领域，参见图1。"
+  },
+  "3面向应急管理的突发事件仿真分析过程": "",
+  "3.1概念设计": {
+    "context1": "突发事件具有不可预测性、动态性和信息不完全性[6]，因此本节引入情景分析法来统筹概念设计过程。情景分析方法能将定量与定性方法相结合，同时突发事件仿真分析模型也需要借助当前突发事件的\"情景”，抽取动态演化的\"情景要素”，实现仿真系统。"
+  },
+  "3.1.1情景描述": "",
+  "(1)情景定义": {
+    "context1": "情景是突发事件所有相关主客观实体当前真实状态的综合，并处于不断发展变化之中。突发事件演化过程的模拟仿真本质上是情景的模拟仿真。目前，国内外应急管理领域学者对情景的定义主要分为主观和客观两个方面：主观方面认为情景是面向决策的，是人为的、主观的总结突发事件未来发展的可能性[7-8];客观方面认为情景与决策者如何看待无关，它是包含很多参数的客观集合[9-10]。基于上述学者从各方面对于情景的认识，笔者总结为：突发事件的情景包括多方面客观存在的内容，而其主要目的是辅助应急决策，因此突发事件的情景不仅要包括客观事件本身的信息，还要包括人类活动以及二者相互影响的相关信息。"
+  },
+  "(2)情景要素": {
+    "context1": "要素是构成事物的组成部分，而情景要素是情景的构成单元，也是分析情景的重要依据，例如在地震情景中，情景要素包括震中、震级、受灾人数、灾区地理气候条件等。目前，学界多数认为情景要素的结构可描述为CBF结构，主要包括致灾体(Causing）、承灾体（Bear-ing)以及抗灾体(Fighting)[11]。除此之外，还有部分学者从灾害动力学[12]、应急预案[13]、PSR表达[14]以及SOM表达[15]等方面对情景要素进行了论证。突发事件情景涉及的CBF涉及众多影响因素，如何从繁杂多变的影响因素中通过科学合理的手段提取出关键要素，是情景及仿真模型构建的关键问题。对此，盛勇等[16]基于突发事件的演化机理提出了四类关键要素的提取方法；王旭坪等[17]采用面向对象、语义网、复杂网络等思想，构建面向对象的多粒度异构情景要素提取方法；潘旭伟等[18]提出了直接情景识别与间接情景关联获取相结合的关键情景要素获取方法。这些方法都在一定程度上能够对突发事件发生发展状态进行刻画。"
+  },
+  "3.1.2情景构建": {
+    "context1": "情景构建目的是通过提取关键要素建立与之对应的仿真模型，而实质上是危害识别和风险分析过程[19]。刘铁民[20]提出了资料收集与分解、评估与收敛以及情景的集成与描述的突发事件情景构建基本技术方法；刘德海等[21]建立突发公共卫生事件的疫情传播方程，进行情景构建；李建伟[22]、刘乃朋等[23]从知识元的角度出发，实例化承灾体知识元并组合成不同的情景；Chen[24]、Sheu[25]、Fiedrich等[26]对应急活动中资源的配置、调整进行情景构建并给出了定量的模型。通过上述定量模型进行的情景构建，在一定程度上未能考虑抗灾主体的心理以及其他方面活动。另外，在突发事件次生、衍生灾害的影响下，情景很可能会发生突变，因此还需对实时信息下的情景突变模型进行重新计算，从而重构突变情况下",
+    "context2": "突发事件情景。"
+  },
+  "3.1.3情景推演": {
+    "context1": "为制定合理有效的应急决策，需要准确地描述突发事件的发展演化趋势，而进行情景推演就是要依据致灾体、承灾体以及相互间作用的客观规律，并考虑应急管理措施及其效果，在仿真系统中，由仿真模型模拟突发事件发展过程中各种可能状态[27]。王宁等[28]在情景构建的基础上，从模型库中调用相关模型关联到情景中不断关联下一事件，从而实现事件的动态推演;Pastor[29]、陈长坤[30]、Waugh[31]、Kapu-cu[32]利用复杂网络的相关概念对情景的演化模式展开研究;Fang[3]、裘江南等[34]运用贝叶斯网络理论来研究突发事件的演化机理，并将其应用于对突发事件的预测;Leveson[35]、余廉等[36]从系统理论的角度出发，构建了水污染突发事件的推演模型。通过模拟某一具体突发事件发生的过程，上述方法抽取出了相关规则，但没有从共性出发构建情景推演模型，将复杂网络客观地运用于已经被完全认知的网络结构，然而尚未拓展到未被完全认知的网络结构要素。"
+  },
+  "3.2系统设计": {
+    "context1": "本节从仿真方法、仿真工具以及仿真模型三个角度，对系统设计过程进行综述。仿真方法是系统设计的理论基础，主要包括多智能体仿真方法、系统动力学方法、元胞自动机等；仿真平台是系统设计的实践工具，是仿真方法在具体实施过程中的映射对象，主要涵盖Swarm、RePAST、Netlogo、Mason 等。仿真模型方面以突发事件舆情演化中简单的谣言传播过程为例综述了仿真模型构建的基本步骤。各个仿真方法及对应平台的评述如下。"
+  },
+  "3.2.1仿真方法": {
+    "context1": "国内外已出现诸多突发事件模拟仿真平台，其支撑方法主要有三种。"
+  },
+  "(1)多智能体仿真方法": {
+    "context1": "基于多智能体的方法(Multi-agent System,MAS)侧重对复杂系统的建模，它注重建立一种抽象的表示方法，以获得对真实世界和现存理论的深刻认识[37]，建模思路由下到上，Agent是真实世界中个体的映射，具有自治性、通信能力、感知能力和能动性[38]，并且能够利用Agent间的自治、通信和协作模拟出个体间的交互和协作[39]。Uno等[40]基于GIS以及MAS构建了一种灾害人员的疏散模拟系统；Shendarkar[41]基于BDI Agent设计了一种在人为事故或者自然灾害中使用的群体仿真模型方法。"
+  },
+  "(2)系统动力学方法": {
+    "context1": "与多智能体仿真方法相反，系统动力学(System dynamics,SD)建模集中在对系统的整体建模，描述系统随时间变化的因素。如Sast-ry[42]利用系统动力学对组织中非连续的过程进行描述和仿真;Zhang[43]针对突发水污染事故中的水质变化构建了一个基于 SD与GIS 的仿真模型框架并进行时空模拟仿真分析。"
+  },
+  "(3)元胞自动机": {
+    "context1": "元胞自动机(Cellular Automata，CA)本质上是基于多智能体的仿真方法[44]，,是一种时空离散的局部动力学模型，特别适合用于空间复杂系统的时空动态模拟研究，CA模型上的时间、空间、状态都离散，散布在规则网格中的每个元胞取有限的离散状态，通过相互作用构成动态系统的演化。",
+    "context2": "综合对比分析，基于多智能体的模拟仿真由于Agent本身的结构较为复杂，导致其内部结构不够清楚，从而难以清晰刻画个体;基于系统动力学的仿真建模过程相对复杂，建模者需要了解整个复杂系统的功能以及结构;基于元胞自动机的仿真将具体问题简化，元胞大多是单一、均匀的个体，因而不能很好地反应真实世界。突发事件的演化过程具有高度的复杂性，事件间具有复杂的衍生、耦合关系，其模拟仿真需要多学科理论交织，而上述方法未能完全从突发事件的动态演化方面解决相关问题。"
+  },
+  "3.2.2仿真平台": {
+    "context1": "由于要从零开始编写一个突发事件的仿真程序并非易事，因此一些仿真平台应运而生，这些工具的出现大大推进了科学仿真研究的规范化。对于应急管理领域主要有以下仿真平台。"
+  },
+  "(1)Swarm": {
+    "context1": "Swarm[45]是圣菲研究所(Santa Fe Institu-te,SFI)构建的一款标准计算机仿真建模工具，旨在为科研工作者提供程序语言及工具包，从而可以把更多的精力放在专业模型的建立上。它由多个Swarm 组成，每一个 Swarm 包括主体、模拟环境以及行为时序表（Schedule），其中主体 Agent 相当于 Swarm 模拟世界中的物质，而时序表负责移动Agent按照时序在模拟",
+    "context2": "环境中运动。",
+    "context3": "(2)RePAST",
+    "context4": "RePAST[46-47](Reursive Porus Agent Simula-tion Toolkit)起源于芝加哥大学的社会科学计算研究所，被认为是类Swarm仿真工具包，却在很多方面优于Swarm。对比Swarm,RePAST更侧重应用于社会科学领域方面[48]。一个基本的 RePAST 模型由 Model Object、Space Object和Agent Object三个部分构成:Model Object 对应模型本身，是RePAST仿真程序的核心；Space Object对应仿真程序运行的环境；AgentObject 定义Agent的属性和行为。",
+    "context5": "(3)NetLogo",
+    "context6": "NetLogo[49]由Uri Wilensky于1999年首次提出，由美国西北大学的Center for ConnectedLearning and Computer-Based Modeling(CCL）开发，它采用接近自然语言的logo语言，更适合于那些缺乏编程经验的研究人员。NetLogo自身带有模型库，用户可以基于已有模型库改变多种条件的设置进行探索性研究，其应用过程主要分为两个阶段： $\\textcircled{1}$ Interface中创建可视化控件； $\\textcircled{2}$ Procedures中编写相应代码。",
+    "context7": "(4)Mason",
+    "context8": "Mason[50]是美国乔治梅森大学在Swarm改进的基础上，使用Java语言开发的多Agent仿真模拟器，具有平台独立、运行速度快、通用性、集成性的特点。Mason模型的创建包括两个阶段： $\\textcircled{1}$ 创建一个简单的 Simstate子类以完成后动、调度等命令； $\\textcircled{2}$ 创建Guistate子类以封装 Simstate进行显示[51]。",
+    "context9": "从上述四种仿真平台所使用的建模语言、内部的集成算法、模型构建模块、应用特点以及在突发事件中的运用等方面，笔者对它们进行了系统总结，结果参见表1。"
+  },
+  "3.2.3仿真模型示例分析": {
+    "context1": "仿真模型示例分析多选取关联到多主体、多场景、多因素的传播学或网络科学的相关主题，例如，董晓非提出了一个整合了地形、风因子、树种因子、以及树木水平分布因子的多智能体模型，并借助NetLogo仿真平台实现了在特定条件下林火的蔓延模拟并预测林火发展的趋势[52]，Benenson以居民作为城市网络中的节点，根据居民主体的经济状况、文化认同性以及房产价值变动等属性模拟了城市空间演化的自组织现象[53]。在此笔者以突发事件舆情演化中简单的谣言传播过程为例，基于仿真平台NetLogo,综述了仿真模型构建过程所涉及的主要步骤。",
+    "context2": "表1四种仿真平台的特点对比",
+    "context3": "<table><tr><td rowspan=1 colspan=1>仿真平台</td><td rowspan=1 colspan=1>建模语言</td><td rowspan=1 colspan=1>集成算法</td><td rowspan=1 colspan=1>构成模块</td><td rowspan=1 colspan=1>应用特点</td><td rowspan=1 colspan=1>应用领域</td></tr><tr><td rowspan=1 colspan=1>Swarm</td><td rowspan=1 colspan=1>ObjectiveC</td><td rowspan=1 colspan=1>BreederNeuroLibBP-CT</td><td rowspan=1 colspan=1>主体Agent、模型环境和行为时序表Schedule</td><td rowspan=1 colspan=1>离散、非线性系统模拟方面</td><td rowspan=1 colspan=1>自然科学、社会科学、战争与商业等复杂系统</td></tr><tr><td rowspan=1 colspan=1>RePAST</td><td rowspan=1 colspan=1>: net、java语言</td><td rowspan=1 colspan=1>Joone回归算法随机数类库Colt</td><td rowspan=1 colspan=1>Agent类模型类行为类数据源类辅助功能类</td><td rowspan=1 colspan=1>复杂社会网络、商业网点选择等网状结构系统的仿真</td><td rowspan=1 colspan=1>社会学、灾害学、生态环境等领域</td></tr><tr><td rowspan=1 colspan=1>NetLogo</td><td rowspan=1 colspan=1>Logo语言</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>主体Agent空间表达仿真推进</td><td rowspan=1 colspan=1>跨平台、可复用，易用易学，适合对随时间演化的复杂系统进行建模</td><td rowspan=1 colspan=1>生物学、地球学、社会学等领域</td></tr><tr><td rowspan=1 colspan=1>Mason</td><td rowspan=1 colspan=1>Java语言</td><td rowspan=1 colspan=1>进化算法包ECJ</td><td rowspan=1 colspan=1>事件调度表(Schedule)仿真状态集(Simstate)快速随机数产生器(Mersenne Twister Fast)</td><td rowspan=1 colspan=1>针对具有复杂网络关系的多Agent网络建模运行速度快内存占用小</td><td rowspan=1 colspan=1>社会科学与经济学</td></tr></table>",
+    "context4": "(1)模型环境设计",
+    "context5": "以谣言传播过程为例，其情景CBF结构是：致灾体(谣言)，承灾体(普通人群)，抗灾体(政府部门)，其常见传播模式参见图2。",
+    "context6": "![](images/31465c08b7b5b0f51128779fc84f078ae2fd3e8917b0e3b1f8110747575e919f.jpg)  \n图2谣言传播模式分析",
+    "context7": "图2中谣言指对普通人群产生负面导向的信息。政府部门所作的辟谣行为是向公众传递正面信息。民众可分为无知者、传播者和免疫者，无知者指代对谣言一无所知的民众；传播者指代散播谣言的民众；免疫者是受到谣言干扰但不相信谣言的民众。谣言产生后，无知者接触谣言信息立即变为此谣言的知情者，根据不同民众所具有的信息吸收能力不同，一部分知情者会变成传播者，一部分变成免疫者，政府发布辟谣信息后传播者可能成为免疫者。"
+  },
+  "(2)模型主体抽象": {
+    "context1": "运用情景要素提取的方法可以得到Agent的属性：态度、信息吸收能力、信息传播能力以及信息可信度。以图2所示谣言传播模式为例，态度指代公众对谣言信息所采取的意见，一般分为反对、中立、支持三种;信息吸收能力、信息传播能力以及信息可信度描述了各类主体的属性，信息吸收能力是对谣言信息或者政府辟谣信息的采纳程度；信息传播能力是民众在多大程度上会传递自己的信息；信息可信度是谣言信息与辟谣信息本身的可信程度。三类主体的属性如表2所示。",
+    "context2": "表2各类主体属性",
+    "context3": "<table><tr><td rowspan=1 colspan=1>主体</td><td rowspan=1 colspan=1>属性</td></tr><tr><td rowspan=1 colspan=1>谣言</td><td rowspan=1 colspan=1>谣言信息可信度</td></tr><tr><td rowspan=1 colspan=1>普通人群</td><td rowspan=1 colspan=1>态度、信息吸收能力、信息传播能力</td></tr><tr><td rowspan=1 colspan=1>政府部内</td><td rowspan=1 colspan=1>辟谣信息可信度</td></tr></table>"
+  },
+  "(3)仿真建模": {
+    "context1": "以 NetLogo仿真平台为例，其是由海龟(turtle）、瓦片(patch)以及观察者(observer)三种不同类型构成的虚拟世界，瓦片构成背景网格，海龟在背景上移动，观察者观察监视着所有事情。图2描述现实情景建模的关键在于谣言情景要素与NetLogo中Agent之间的元素映射，如刘小波等[54]在构建舆情演化模型中，将人群要素映射为turtle，人群通过吸收政府部门或谣言传播者的信息不断演化改变自身状态，信息的流动可以通过patch表示，其中个体接收信息时采取的行为表现为turtle在patch上移动的格数。"
+  },
+  "(4)仿真验证": {
+    "context1": "仿真验证对突发事件仿真模型的可信度、适用性、准确度的提高起到了关键性作用，关于种类繁多的仿真验证技术，Balci[55]将其分为非正式、静态、动态、限制、符号、正式六类。目前在国际中一些成功使用的案例主要有docking 法[56-57]、动态非线性测试方法[58]以及定性分析法[59]等。"
+  },
+  "3.3应用设计": {
+    "context1": "对于突发事件的模拟仿真可以描述、解释事件发生的成因以及形成机理，应用于人类应对、预测以及决策等突发事件问题中。"
+  },
+  "(1)在自然灾害中的应用": {
+    "context1": "自然灾害方面的应用主要涉及地震灾害以及森林火灾两个方面。地震灾害方面，我国建成了许多大型抗震试验系统，开发了模拟动力试验系统和分布式地震模拟振动台，以研究大型城市基础设施地震非线性反应和破坏机理;美国致力于开展地震模拟试验和计算技术，力图整合世界上所有国家的地震模拟试验资源以开展大型地震模拟试验研究[60]。在森林火灾方面主要研究的是通过构建林火蔓延模型来仿真分析可能要发生或者已经发生森林火灾行为，辅助应急决策以减少损失[61-62]，例如Karafyllidis[63]、Encinas[64]利用二维元胞自动机建立火灾蔓延模型，并对此进行模拟仿真，研究森林火灾的扩散问题。"
+  },
+  "(2)在事故灾害中的应用": {
+    "context1": "目前，国内外对于事故灾害中的仿真研究主要集中在事故发生时人员分布、人员撤离以及大型危机事故爆发后的应急资源运输等问题。例如，Cruz[65]总结已有的突发事件发生过程中人员撤离模型，设计了高层建筑中的人员撤离模型，并且已经开发相关软件；Drury等[66]通过建立仿真模型来模拟公共场所的动物群体或人群行走，为事故灾害发生时进行救援提供依据;Wang[6]针对大规模的伤亡事故建立了紧急医疗应对模型，并进行模拟仿真。"
+  },
+  "(3)在公共卫生事件中的应用": {
+    "context1": "宏观上主要研究的是运用系统动力学模型、复杂网络概念等仿真传染病的传播过程，建立数学模型;运用仿真技术预测传播趋势以及传播范围，使人们弄清相关问题的产生、演化机理，缩短认识过程以减少损失。例如，An-derson等[68]从信息控制的角度出发建立数学模型并在计算机上进行仿真，得到了控制流行病大面积传播的方法；Eidelson等[69]通过构建天花病毒传播的随机网络模型并进行仿真，探讨不同控制措施对疫情传播的影响。此外，Rousseau[70]、White[71]、Fuentes[72]、Ahmed[73]根据SIRS等模型制定疾病传播的规则，用元胞自动机模拟出HIV、流感等传染病的传播方式，模拟这一具体突发事件发生的过程。在微观方面则主要研究使用仿真模型对卫生机构的管理和救治过程进行优化等问题，逐渐将计算机的相关技术运用其中，用仿真分析的数据为医院管理提供指导。"
+  },
+  "4结语": {
+    "context1": "本文从概念设计、系统设计和应用设计三个层面，依次综述了突发事件仿真模型的构建、实现及应用评估的相关研究过程：以突发事件的\"情景一应对\"应急管理范式为出发点，从应急情景中提取关键要素进行情景构建和推演，实现关键要素和仿真工具的映射以构建仿真模型，为提升政府及相关职能部门突发事件应急处置能力提供可实施的模式。然而上述研究过程中依然存在着一些问题以及挑战，突出表现为：",
+    "context2": "(1)传统模拟仿真的规则设计只能模拟人对当时环境的适应，无法模拟人、组织之间的互动和面向未来的演化策略，因而基于多智能体的仿真建模，在突发事件协同演化问题上面临诸多不足。",
+    "context3": "(2)突发事件应急管理研究涉及的学科交叉深入，领域广泛，包括网络舆情、信息处理、应急决策等学科领域。如何通过动态模拟仿真集成这些学科知识，整体性地再现突发事件情景演变及应急管理过程是一项困难的工作。",
+    "context4": "(3)突发事件应急管理过程中，系统的结构可能发生急剧变化，因而仿真模型需要及时调整来反映系统的现状，然而传统的仿真模型主要通过手工方式进行调整，难以满足应急管理的要求。",
+    "context5": "(4)信息化使得突发事件的演变更加复杂，不确定性因素加强，因此要求仿真平台具有很强的在线决策能力以适应网络时代带来的新问题。",
+    "context6": "参考文献[1]范维澄.国家突发公共事件应急管理中科学问题的思考和建议[J].中国科学基金，2007(2)：71-76[2]QuesadaF JM.Gilbert,Nigel;Troitzsch，Klaus(2005):Simulation for the Social Scientist[J].Papers:Revista deSociologia，2006（80):303-306[3]Lin K P,Wen W，Chou C C,et al.Applying fuzzy GERT with approximate fuzzy arithmetic based on the weakest t-norm operations to evaluate repairable reliabity[J].Applied Mathematical Modeling，2011，35(11)：5314-5325[4]Rumpf J，Weindl H,HoppeP,et al.Tropical cyclone hazardassessment using modelbased track simulation[J].Nat-ural Hazards，2009，48(3)：383-398[5]Tamura H，Yamamoto K,Tomiyama S,etal. Modeling and analysis of decision making problem for mitigating naturaldisaster risks[J].European Journal of Operational Research，2000，122(2)：461-468[6]Tang A，Wen A.An intellgent simulation system for earthquake disaster assessment[J].Computers & Geosciences,  \n2009,35(5):871-879[7]Boukerche A，AraujoRB,SilvaFHS.Acontext interpretation based wireless sensor network forthe emergency pre-paredness class of applications[C]//Algorithmic Aspects of Wireless Sensor Networks.Second International Work-shop，ALGOSENSORS 2006，Venice，Italy，July 15，2006.Springer Berlin Heidelberg，2006：25-34[8]Gershuny J. The choice of scenarios[J].Futures,1976,8(6):496-508[9]Schnaars S P.How to develop and use scenarios[J].Long Range Planning,1987,20(1):105-114[10] GeorgoffDM,Murdick R G.Manager's guide to forecasting[J].Harvard Business Review,2010,64(1):10-120[11]刘樑，许欢，李仕明.非常规突发事件应急管理中的情景及情景——应对理论综述研究[J].电子科技大学学报：社科版，2013,15(6）:20-24[12]王颜新，李向阳，徐磊.突发事件情境重构中的模糊规则推理方法[J].系统工程理论与实践，2012，32(5)：954-962[13］刘铁民.应急预案重大突发事件情景构建木——基于“情景－任务－能力\"应急预案编制技术研究之一[J].中国安全生产科学技术，2012，8(4)：5-12[14] HuaYE，Yan M A,Dong L.Land ecological security assessment for Bai autonomous prefecture of Dali based usingPSR model—with data in 2009 as case[J].Energy Procedia，2011，5(22):2172-2177[15]姜卉.应急实时决策中的情景表达及情景间关系研究[J].电子科技大学学报：社会科学版,2012，14(1)：48-52[16]盛勇，孙庆云，王永明.突发事件情景演化及关键要素提取方法[J].中国安全生产科学技术，2015,11(1)：17-21[17]王旭坪，杨相英，樊双蛟，等.非常规突发事件情景构建与推演方法体系研究[J].电子科技大学学报：社科版，2013(1):22-27[18]潘旭伟，顾新建，王正成，等.集成情境的知识管理方法和关键技术研究[J].计算机集成制造系统，2007，13(5):971-977[19]Commission staff working paper.Risk assessment and mapping guidelines for Disaster Management[R].EuropeanCommission，December，2010.12.21[20]刘铁民.重大突发事件情景规划与构建研究[J].中国应急管理,2012(4):18-23[21]刘德海，王维国，孙康.基于演化博弈的重大突发公共卫生事件情景预测模型与防控措施[J].系统工程理论与实践，2012，32(5)：937-946[22]张承伟，李建伟，陈雪龙.基于知识元的突发事件情景建模[J].情报杂志，2012，31(7):11-15[23]王雪华，刘乃朋，裘江南，等.基于知识元的应急决策模型表示方法研究[J].电子科技大学学报：社科版，2013(4):18-24[24]ChenC,Li Q，Kaneko S,etal.Locationoptimizationalgorithm foremergencysigns inpublicfacilies anditsappli-cation to a single-floor supermarket[J].Fire Safety Journal，2009，44(1)：113-120[25]Seu JB.An emergency logistics distributionapproach for quick response to urgent relief demand in disasters[J].Transportation Research Part E:Logistics and Transportation Review，2007，43(6): 687-709[26]FiedrichF,Gehbauer F，Rickers U. Optimized resource allocation for emergency response after earthquake disasters[J].Safety science，2000，35(1)：41-57[27]王旭坪，樊双蛟，阮俊虎.基于情景的自然灾害应急管理系统框架[J].电子科技大学学报(社科版)，2013,3：006[28]王宁，黄红雨，仲秋雁，等.基于知识元的突发事件衍生网络仿真平台的设计与实现[J].情报杂志,2012(11)：150-155[29]Pastor-Satoras R,Vespignani A.Epidemic dynamics in finite size scale-free networks[J].Physical ReviewE，2002,  \n65(3):035108[30]陈长坤，孙云凤,李智.冰雪灾害危机事件演化及衍生链特征分析[J].灾害学，2009,24(1):18-21[31]Waugh JrWL,Sylves R T.Organizing the waron terorism[J].Public Administration Review，2002，62(S1):145-153[32]Kapucu N.Interorganizational coordination in dynamic context:Networks inemergencyresponse management[J].Connections，2005，26(2)：33-48",
+    "context7": "[33]Fang Z，WeiH,YangB,etal.The designof thedriving-coupling algorithm inunconventional incidents basedon the GertsNetwork[A]//Liu S,Forrest JY(eds).Advances in Grey Systems Research.Springer Berlin Heidelberg,2010: 3-11",
+    "context8": "[37］王正中.复杂系统仿真方法及应用[J].计算机仿真，2001，18(1)：3-6   \n[38]MacalCM,NorthMJTutorialonagent-basedmodelingandsimulation[J].Jouralof Simulation,2010,4(3):151-162   \n[39]Macy MW，WilerR.Fromfactors toactors:：Computational sociologyandagent-based modeling[J].Anual Review of Sociology，2002：143-166   \n[40]Uno K， Kashiyama K. Development of simulation system for the disaster evacuation based onmulti-agent model using GIS[J].Tsinghua Science & Technology，2008(13)：348-353   \n[41] Shendarkar A,Vasudevan K,LeeNS,etal.Crowdsimulation for emergency response using BDI Agent based on vir tual reality[C]//Proceedings of the Winter Simulation Conference WSC 2006，Monterey，California,USA，December 3-6，2006.IEEE，2006:545-553   \n[42]SastryMA.Problems and paradoxes ina model of punctuated organizationalchange[J].Administrative Science Quarterly，1997，42(2):237-275   \n[43]Zhang B，QinY，Huang M,et al.SD-GlS-based tempora-spatial simulationof water quality in sudden waterpolution accidents[J].Computers & Geosciences，2011，37(7)：874-882   \n[44]Wolfram S.Celular automata as models of complexity[J]. Nature，1984，311(5985):419-424   \n[45]曹慕昆，冯玉强.基于多Agent计算机仿真实验平台 Swarm的综述[J].计算机应用研究，2005(9)：1-3.33   \n[46]Collier N.Repast:An extensible framework foragent simulation[J/OL].Natural Resourcesand Environmentallssues: Vol.8，Article 4.[2016-05-11].http://digitalcommons.usu.edu/nrei/vol8/iss1/4   \n[47]Tobias R，Hofmann C.Evaluationofree Javalibraries forsocialscientificagentbased simulation[J/OL].Journalof Artificial Societies and Social Simulation,2004,7(1).[2016-05-10].http://jass.soc.surrey.ac.uk/7/1/6   \n[48]RobertsonDA.Agent-based models of a banking network as an example of a turbulent environment:The deliberate vs.emergent strategy debate revisited[J].Emergence，2003，5(2)：56-71   \n[49]WilenskyU,Evanston I.NetLogo:Center forconnected learning andcomputer-based modeling[R].NorthwesternUniversity，Evanston，IL，1999：49-52   \n[50]LukeS,Cioffi-Revill C,PanaitL,etal. Mason:Anewmuliagentsimulation tolkit[EB/OL].[2016-05-10].ttp:// cs.gmu.edu/ $\\sim$ eclab/projects/mason/   \n[51]毛远佐.基于多Agent仿真技术的虚拟股票市场分析[J].计算机与现代化，2009（6)：158-161   \n[52]董晓非.基于多智能体的森林火灾蔓延模拟[J].安徽农学通报，2010，16(9)：202-208   \n[53]BenensonI.Multi-agent simulations of residential dynamics in the city[J].Computers，Environment and Urban Systems，1998，22(1):25-42   \n[54]刘小波.基于 NetLogo平台的舆情演化模型实现[J].情报资料工作，2012(1)：55-60   \n[55]BalciO.Validation，verification，andtesting techniques throughout thelifecycleofa simulationstudy[J].Annals f operations research，1994，53(1)：121-173   \n[56]AxtellR，Axelrod R，Epstein JM,et al. Aligning simulation models:Acase study and results[J].Computational& Mathematical Organization Theory，1996，1(2)：123-141   \n[57] ChenLC,CarleyK M,Fridsma D,etal.Model alignmentof anthrax atack simulations[J].Decision Support Sys tems，2006，41(3):654-668   \n[58]Midgley D,MarksR，KunchamwarD.Building and assrance ofagent-based models:An example and challenge to the field[J].Journal of Business Research，2007，60(8)：884-893   \n[59]Carson ER,FloodRL.Model validation: philosophy，methodology and examples[J].Transactions of the Instituteof Measurement and Control，1990，12(4)：178-185   \n[60]郭迅.地震工程试验联网最新进展[J].地震工程与工程振动，2006，26(4)：37-41   \n[61]Alexandridis A，Vakalis D，Siettos CI,etal.Acelllarautomata modelforforestfire spread prediction：Thecaseof the wildfire thatswept through Spetses Island in1990[J].Applied Mathematicsand Computation，2008，204（1): 191-201   \n[62]Berjak S G,Hearne JW.An improved celular automaton modelfor simulating fire in a spatially heterogeneous Savanna system[J].Ecological Modelling，2002，148(2)：133-151   \n[63]KarafylidisI.Designofadedicatedparallelprocessorforte predictionofforestfire spreadingusing cellarautomataand genetic algorithms[J].Engineering Applications of Artificial Intelligence，2004，17(1)：19-36   \n[64]Encinas AH,EncinasLH,WhiteSH,etal.Simulationofforestfirefronts using celularautomata[J]Advances n Engineering Software，2007，38(6)：372-378   \n[65] Cruz FRB，Smith JMG,Medeiros R O.An M/G/C/C state-dependent network simulation model[J].Computers& Operations Research，2005，32(4)：919-941   \n[66] Drury J，Cocking C，Reicher S,et al.Cooperation versus competition in a mass emergency evacuation:A new laboratory simulation and a new theoretical model[J].Behavior research methods，2009，41(3)：957-970   \n[67]Wang Y,Luangkesorn K L，ShumanL.Modeling emergency medical response to a masscasualtyincident using agent based simulation[J].Socio-Economic planning sciences，2012，46(4)：281-290   \n[68]Anderson R M,May R M.Infectious diseases of humans:Dynamics and control[J].Infectious Diseases of Humans Dynamics & Control，1992，108(2):174-175   \n[69]Eidelson B M,Lustick I.VIR-POX:An Agent-Based analysis of smalpox preparedness and response policy[J].Journal of Artificial Societies& Social Simulation，2004，7(3):6   \n[70]Rousseau G，Giorgini B,LiviR，et al.Dynamical phases inacelular automaton model for epidemic propagation[J]. Physica D：Nonlinear Phenomena，1997，103(1)：554-563   \n[71] White SH，del ReyAM，Snchez G R.Modeling epidemics using celllar automata[J].Applied Mathematics and Computation，2007，186(1)：193-202   \n[72]Fuentes MA,Kuperman MN.Celular automata and epidemiological models with spatial dependence[J].Physica A: Statistical Mechanics and its Applications，1999，267(3)：471-486   \n[73]AhmedE，Agiza HN,Hassan SZ.Onmodeling hepatitis Btransmission using celularautomata[J].Journalofstatistical physics，1998，92(3)：707-712",
+    "context9": "(收稿日期：2016-03-07)"
+  },
+  "（上接第64页）参考文献": {
+    "context1": "[1] Pandey SC,Duta A.Role of knowledge infrastructurecapabilities in knowledge management[J].Journal of Knowl-edge Management，2013，17(3)：435-453  \n[2] ChenTF.Knowledge-based enterprise:Thecollaboration innovation in Most Admired Knowledge Enterprise(MAKE)[C]//Knowledge Management International Conference 2008，Langkawi，Malaysia.Kedah Malaysia: Universiti Ut-ara Malaysia，2008：522-527  \n[3] Singh J，Yadav P.Challenges and strategies to knowledge management:Case studies of selected companies[J].Drishtikon：A Management Journal，2010，1(1):47-61  \n[4] Defond ML，KonchitchkiY，Mcmullin JL，et al.Capital markets valuationand accounting performance of Most Ad-mired Knowledge Enterprise(MAKE）award winners[J].Decision Support Systems，2013，56(4)，348-360  \n[5] 夏敬华.对标 MAKE—解析中国知识管理模式[J].化工管理，2010(12):48-48  \n[6] 杨扬.中国企业应当如何看待MAKE评选[J].科技情报开发与经济，2010，20(18)：188-190  \n[7] 孙艳颖.知识型企业评价研究[J].中国市场，2011(44)：12-13  \n[8] 钱军.知识管理案例[M].南京：东南大学出版社，2003：1-355  \n[9] 康妮·摩尔，李洪舰.知识管理与业务重组[J].It经理世界，1999(9):54-55  \n[10]Buildinga Knowledge Sharing Culture[EB/OL].[2015-07-20].htp://www.slb.com/resources/publications/industry_articles/oilfield_review/2001/or2001spr03_building_culture.aspx  \n[11]苗锡哲，李晓琳，何东华.青岛啤酒知识管理的新探索—“新师傅管理法\"[J].当代经济月刊，2008(2)：32-33  \n[12]李琪，何华灿.石油钻井知识共享体系和环境的建立[J].天然气工业，2004，24(10)：151-153  \n[13]张成洪，郭磊.大型集团企业知识共享模式研究[J].科学学研究，2009，27(3):399-406  \n[14]储节旺，方千平.国内外知识共享理论和实践述评[J].情报理论与实践，2007，30(5)：705-709  \n[15]段韵柳，李锡元.集团企业的知识共享模式探究——基于企业集权度和知识分离性的情境[J].中国人力资源开发，2011(7):31-35  \n[16]王言峰，杨忠.知识共享研究理论述评[J].南京社会科学，2010(6):37-43  \n[17］马娟娟.高科技企业知识共享模式研究[D].哈尔滨：哈尔滨工程大学，2013：1-10  \n[18]万青，陈万明，胡恩华.知识密集型服务企业知识共享模式及机制研究[J].科技与经济，2011，24(1)：11-15  \n[19]The KNOW Network[EB/OL].[2015-07-18].http://www.Know- ledgebusiness.com",
+    "context2": "(收稿日期：2016-04-27)"
+  }
+}

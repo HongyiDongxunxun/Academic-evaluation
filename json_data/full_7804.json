@@ -1,0 +1,72 @@
+{
+  "original_filename": "full_7804.md",
+  "浅谈图书馆管理系统的发展趋势 \\*": "",
+  "□魏群义彭晓东": {
+    "context1": "摘要论文综述了当前图书馆管理系统主流产品的发展现状,分析了Web 2.O和Library2.0的理念给图书馆管理系统带来的变化。总结了当前大部分图书馆管理系统存在的图书馆资源的相对隔离及信息服务的相对孤立、不能全面集成图书馆的业务和管理工作、信息孤岛现象日益严重、难以体现图书馆的管理思路等问题。提出了图书馆管理系统发展趋势：融合图书馆的管理理念、数据驱动管理、开放合作的理念、云计算、整合服务评价体系。",
+    "context2": "关键词图书馆管理系统(LMS） Library 2.O 云计算Web 2.0"
+  },
+  "1引言": {
+    "context1": "图书馆自动化集成管理系统作为图书馆开展业务工作和读者服务的基础，在很大程度上代表和体现了图书馆自动化的水平，为图书馆信息化和数字化的发展方向起到引导和定位作用，并直接影响着图书馆读者服务工作和业务工作的质量和效率。目前广泛使用的图书馆自动化管理系统都是根据图书馆的业务流程(采访、编目、典藏、流通)构建的，所谓的管理系统只是一线工作人员的自动化系统，不能称为真正的管理系统，没有突破以图书为核心的管理理念。随着Web2.O、Library2.O等理念的引入，读者对图书馆服务要求的不断提高，图书馆管理系统出现了可喜的变化，论文在综述图书馆管理系统发展现状的基础上，讨论了图书馆管理系统的发展趋势。"
+  },
+  "2图书馆管理系统发展现状": "",
+  "2.1图书馆管理系统研发现状": {
+    "context1": "当前图书馆管理系统中，主流的国内产品主要有汇文[1]、ADLIB2. $0 ^ { [ 2 ] }$ 、金盘[3等，主流的国外产品主要以ExLibris的Aleph5OO 为代表。近年来，随着Web2.0的发展和Library2.O研究的深入，给图书馆管理系统带来了新的理念和思路，图书馆管理系统很好地融合了Library2.O的理念和Web2.O的技术。",
+    "context2": "汇文的产品系统以图书期刊为管理对象，产品包括文献信息服务系统、手机图书馆系统、图书外采系统、区域通借通还服务系统、区域联合馆藏书目检索系统等。汇文的OPAC检索系统融合了Tag、评论等技术和应用，汇文目前在国内拥有4O0余家用户单位。重庆大学图书馆自主研发的ADLIB2.0系统被称为图书馆2.0的整体解决方案，首次全部采用B/S模式,全面引入图书馆2.0的理念,实现以用户为中心的图书馆管理与服务的全面信息化，将“资源、服务、管理”三位一体的管理理念引进到AD-LIB2.0系统,将图书馆关注和管理的重点从单一的图书转移到资源、服务、管理三大要素。ADLIB2.O系统包括基于读者的服务系统一一我的书斋、图书馆知识搜索（LKS）、基于馆员的图书馆管理系统，AD-LIB2.O系统的用户单位主要集中在西南地区，重庆市大学城高校图书馆统一部署了ADLIB2.O系统。金盘的产品系统同样以图书期刊为管理对象，产品覆盖自动化流通系统、图书管理系统PDA外采、笔记本外采、短信平台等,引入了SNS、Blog等Web2.O理念和技术构建了个人图书馆的 SNS系统。",
+    "context3": "ExLibris(艾利贝斯有限公司)是一家为大中型图书馆和信息中心提供完整数字图书馆解决方案的国际软件供应商，其产品Aleph5OO图书馆自动化集成系统在国内大型图书馆中拥有35家图书馆用户[4]。Aleph 5O0以图书期刊为主线，主要功能模块有WebOPAC、编目、采访、连续出版物、流通、馆际互借等。为了满足用户对数字资源管理、资源整合等方面的需求， $\\operatorname { E x }$ Libris相继开发了链接服务器SFX、学术资源门户系统Metalib、数字资源管理产品DigiTool、电子资源管理系统Verde和一站式知识发现与服务系统Primo。",
+    "context4": "随着Web 2.O的发展和Library2.O研究的深入，Library2.O给图书馆带来了新的理念和思路，将Library2.0理念融入到图书馆的管理中来，真正推进图书馆的各项服务工作，成为当前图书馆管理系统发展的新方向。南京大学图书馆、厦门大学图书馆、上海交通大学图书馆等已经开始采用Library2.0理念和 Web2.0技术(如RSS、Blog、Tag 等)对OPAC、个人图书馆等系统进行改进，建设了学科博客、学科服务平台等，取得了不错的效果。上海交通大学图书馆基于以用户为中心的Web2.O理念，开发了“思源探索”OPAC检索平台，实现了图书馆馆藏资源和电子资源的一站式发现和获取，读者还可以添加标签、发表评论,融合了读者参与的Library2.O理念。很多高校图书馆都相继推出了个人图书馆系统，例如重庆大学图书馆的个人书斋系统[5，融合了个人借阅查询、个人文档管理、RSS管理、博客、群组、相册等功能,凸显了个性化、SNS等2.O理念，提升了个人图书馆的使用效果。清华大学图书馆[利用Ajax、RSS等web2.0技术建设了清华大学图书馆个性化门户网站，设计并且实现了栏目可拖拽、内容可定制并且可自动更新的个性化主页，读者可以根据个人兴趣和行为习惯打造出属于自己的图书馆主页。"
+  },
+  "2.2当前图书馆管理系统普遍存在的问题": "",
+  "2.2.1图书馆资源与服务的相对隔离与孤立": {
+    "context1": "随着数字图书馆的快速发展，图书馆的数字资源增长迅速，不少图书馆数字资源的购置费用已经超过纸本资源的购置费用，数字资源成为图书馆信息资源的重要组成部分，同时，基于数字资源的网络信息服务已经成为图书馆信息服务的亮点。但是，在当前大部分图书馆管理系统中，数字资源和纸本资源、传统的文献服务和网络信息服务都是相互隔离的，大大影响了图书馆的资源整合和服务一体化进程。不少高校图书馆改进OPAC检索系统，在一定程度上整合了馆藏纸本资源和数字资源，例如，重庆大学图书馆OPAC系统在展示图书检索结果的同时，显示电子图书的在线阅读链接和书后光盘的下载链接，显示期刊检索结果的同时显示电子期刊导航的链接。"
+  },
+  "2.2.2不能全面集成图书馆的业务和管理工作": {
+    "context1": "当前的图书馆管理系统仅仅是以传统图书馆业务为主线的自动化管理系统，关注的重点和管理对象仍然是纸本图书和文献，不能对数字资源进行有效管理，难以集成网络信息服务，不能全面管理图书馆工作，如：电子公文、资金管理、资产管理、党务管理等等，更不能作为图书馆的信息交流平台，难以满足图书馆现代化管理的需求。"
+  },
+  "2.2.3信息孤岛现象日益严重": {
+    "context1": "随着数字图书馆的发展和新业务的出现，现有的图书馆管理系统越来越无法集成全部的业务工作，独立的系统不断增多，信息孤岛现象日益严重。独立系统的增多不仅给读者带来了极大的困惑，同时大大影响后续的资源和服务整合。例如，很多图书馆都购买论文提交系统，但是由于系统开放性和接口设计问题，读者都不能通过个人图书馆进行论文提交操作，不仅存在重复登录、读者使用不便的问题，也增加了图书馆的管理难度，通过图书馆管理系统无法实时了解读者的论文提交情况。"
+  },
+  "2.2.4难以体现图书馆的管理思路": {
+    "context1": "当前的图书馆管理系统以图书管理为中心，难以体现图书馆以读者为中心的服务理念。图书馆管理系统重要的是要体现管理的思路和理念，但是现有的图书馆系统无法做到这一点，因为通过现有系统无法评价图书馆的运行和服务开展情况，无法掌握读者的关注点和馆员的工作情况，无法给馆长提供有效的决策支持，这就是馆长一般不使用自动化系统的原因。重庆大学图书馆的ADLIB2.O系统提供图书馆运行状态功能，系统利用晚上的空闲时间自动统计一天业务运行状况，并将统计数据静态化，避免下次查询占用系统资源，并可组合查询一段时间的运行统计数据，使管理者可以随时查询到图书馆的运行服务状态。"
+  },
+  "3图书馆管理系统的发展趋势": "",
+  "3.1融合图书馆的管理理念": {
+    "context1": "管理理念应该是管理系统的灵魂，缺乏管理理念的管理系统只能实现业务系统流程的自动化，难以凸显管理思路。当前大部分图书馆管理系统难以体现管理者的管理理念，仍然以图书期刊管理为中心而构建。应该树立以用户为中心的设计理念，系统功能设计都应该围绕用户而进行。将图书馆关注和管理的重点从单一的图书转到资源、服务、管理三大要素。三者是相互关联、相辅相成的，资源是服务开展的基础，服务是管理的目的，管理是提高服务效率和服务质量的必要手段。"
+  },
+  "3.2数据驱动管理": {
+    "context1": "如何提升图书馆资源建设水平、如何提升图书馆的各项服务、读者对图书馆的哪些服务不满意，这是每位图书馆管理者都会思考的问题。大部分图书馆都会通过举办读者交流会、开展问卷调查等获取读者对图书馆的意见、了解读者对图书馆服务的满意度。这些方式诚然具有一定效果，但是存在事后意见收集、后管理等问题，由于参与读者的广泛性有限，难以客观反映图书馆管理问题。",
+    "context2": "其实，获取以上问题的答案有更好的方法。“数据驱动管理\"将是图书馆管理系统发展的下一动力，利用数据发现问题，促进管理工作。图书馆运行过程产生了大量的日志、历史数据等，对这些数据和日志进行深入的数据挖掘，图书馆可以获得大量有价值的规律和数据，从而为图书馆管理者提供决策参考支持，真正促进图书馆的各项管理工作。通过分析读者借阅历史数据，可以深入了解读者的借阅习惯、发现读者的阅读兴趣，据此指导图书采访从而提升图书馆的资源建设水平，并可以根据读者的阅读兴趣进行有效的、个性化的图书推荐。通过分析数字资源的点击、下载情况，配合IP分布分析,可以了解各个学院的数据库使用偏好和习惯，了解读者的资源需求、开展针对性的读者培训。通过读者使用图书馆主页的日志，可以发现图书馆最常用的信息服务，哪些服务读者从来不关心。"
+  },
+  "3.3开放合作的理念": {
+    "context1": "尽管图书馆管理系统在不断进步，但是有些问题还是无法彻底解决，比如，图书馆可以决定购买哪些数字资源，但是无法确定能否获取到数字文献的元数据，故难以实现馆藏纸本资源和数字资源的有效整合；图书馆可以决定购买哪些应用系统，这些应用系统能否和图书馆管理系统进行单点登录和接口设计，往往难以掌控，信息孤岛问题难以得到有效的解决。所以，要解决资源整合和服务整合问题，彻底解决信息孤岛问题，图书馆管理系统应该秉承开放合作的理念，和元数据提供商、系统供应商进行有效合作。重庆大学图书馆ADLIB2.O系统和北京超星公司进行了有益的探索，双方合作开发图书馆知识搜索系统(LKS)，超星公司提供元数据检索入口,LKS不仅可以检索到重庆大学图书馆的馆藏资源，可以实时展示超星电子图书和读秀知识库的图书信息，还可以检索期刊数据库的元数据，例如Elsevier、CNKI数据库等，大大方便了读者的资源检索，使得重庆大学图书馆在资源整合和服务整合方面迈出了一大步。"
+  },
+  "3.4云计算": {
+    "context1": "云计算[7是近年来出现的一个新概念，也给图书馆管理系统的发展带来了新的机遇。高端管理系统由于价格较高，不少小型图书馆难以部署这些管理系统，云计算给双方带来了合作机会，通过SAAS模式，小型图书馆通过缴纳较少的费用就可以享受图书馆管理系统的各项专业服务。采用云计算架构的管理系统将为中小型图书馆的管理系统的解决方案提供可能。"
+  },
+  "3.5Library 2.0": {
+    "context1": "Web2.O和Library2.O的出现给图书馆管理系统的发展带来了新的契机，通过采用Web2.O技术和融合Library2.0的理念，图书馆管理系统也走向了2.0。OPAC系统具有了Tag、评论功能，个人图书馆建设富有成效，有效提升读者使用图书馆的粘度。随着图书馆各项服务工作的提升，图书馆管理系统将继续融合Library2.0的理念，全面提升管理系统的个性化和人性化，全面走向管理系统的2.0化。"
+  },
+  "3.6整合服务评价体系": {
+    "context1": "目前图书馆通过采用评价体系（例如：SE-RVQUAL[8] $\\mathrm { . L i b Q U A L + ^ { T M [ 9 ] } }$ )来评价图书馆的各项服务，图书馆管理系统应该融合先进的服务评价体系，随时监控图书馆的各项信息服务情况。为管理者提供图书馆的服务状况评估报告，促进图书馆信息服务的及时调整，真正促进图书馆的管理工作。"
+  },
+  "4结语": {
+    "context1": "图书馆管理系统是图书馆开展业务工作和读者服务的基础,在Web2O和Library2O理念的影响下,图书馆管理系统出现了不小的变化，但仍存在图书馆资源的相对隔离及信息服务的相对孤立、不能全面集成图书馆的业务和管理工作、信息孤岛现象日益严重、难以体现图书馆的管理思路等问题。图书馆管理系统应朝着如下方向发展：融合图书馆的管理理念、数据驱动管理、开放合作的理念、云计算、整合服务评价体系。",
+    "context2": "用——济南大学应用化学专业硕士论文引文分析研究．新世纪图书馆，2005(3)：12-14  \n4 鲍世琪.由引文分析探讨阳明大学图书馆馆藏发展政策之制定[硕士学位论文].台北：世新大学，2008  \n5Joel Sam，S.Nii Bekoe Tackie.Citation Analysis of Dissertations Accepted by the Department of Information Studies，University of Ghana,Legon.Afr.J.Lib&.Inf.Sc.2007,17(2）:117-124  \n6 Nuria Vallmitjana，L.G.Sabaté.Citation Analysis of Ph.D.Dissertation References as a Toolfor Collection Management in an",
+    "context3": "Academic Chemistry Library. College &. Research Libraries, 2008(1):72-81 7Pali U.Kuruppu，Debra C.Moore.Information Use by PhD Students in Agriculture and Biology：A Dissertation Citation Analysis.Libraries and the Academy，2008，8(4)：387 － 405",
+    "context4": "作者单位：北京大学图书馆，北京，100871收稿日期：2010年12月6日"
+  },
+  "Research on Library Literature Resources Guarantee Based on Citation Analysis": "",
+  "Li Feng": {
+    "context1": "Abstract: Doctoral candidates need to collct a large amount of literature materials in the process of writing dissertations,and the main channel of geting what they need is library. By analyzing the references in the doctorate dissertations，we can acquire the library literature resources guarantee status. In this paper we choose 42 doctorate dissertations of Peking University，in $2 0 0 3 - 2 0 0 9$ majored in theoretical physics，to make the citation analysis.The results of statistical analysis on amount of citations，type of citations，publication year and language distribution of citations，and the research on the highest cited foreign periodicals show the status and development direction of literature resources guarantee in Peking University Library. We also explore the impact of network open access resources to library resources construction.",
+    "context2": "Keywords:Doctoral Dissertation； Citation Analysis； Literature Resources Guarantee",
+    "context3": "（接第40页）"
+  },
+  "参考文献": {
+    "context1": "1江苏汇文软件有限公司产品列表．[2010－12—14]．http：//www.libsys.com.cn/libsys.php  \n2 魏群义，杨新涯．图书馆2.O整体解决方案——ADLIB2.0的设计与实现．图书情报工作，2010，54（1)：108-112  \n3 金盘软件产品.[2010-12-14]．http://www.goldlib.com.cn/production.asp  \n4 艾利贝斯有限公司北京代表处——公司产品．［2010—12—14]http://www.exlibris.com.cn/product/aleph/index.asp  \n5魏群义，彭晓东．图书馆2.0的理论研究与实践．图书与情报，2009(4):16-21，46  \n6张蓓等．Ajax和RSS在图书馆个性化门户网站中的应用．现代图书情报技术，2007(3)：65-68  \n7 胡小菁，范并思．云计算给图书馆管理带来挑战．大学图书馆学报，2009,27(4):7—12  \n8 施国洪等.基于SERVQUAL的图书馆服务质量评价模型构建.图书馆理论与实践，2010(7)：1-6  \n9 曾照云.LibQUAL $^ +$ TM图书馆服务质量评价研究综述．情报杂志，2009，28(12):95-98",
+    "context2": "作者单位：重庆大学图书馆，重庆，400033收稿日期：2011年1月4日"
+  },
+  "Views on the Development Tendency of Library Management System": {
+    "context1": "Wei Qunyi Peng Xiaodong",
+    "context2": "Abstract: The paper summarized the development of mainstream products of library management system and analyzed the changes that the conception of Web 2.O and library 2.0 brought to LMS. Some problems of most current library management systems were presented， such as the relative isolation of library resources and information services，insuficient integration of services and management of the library，the deterioration of the phenomenon called information island and dificulty in reflection of the library’s management ideas，etc. Finally the paper proposed the development tendency of library management system, for example,the synthesis of the concept in library management，data-driven management，open-cooperative concept，cloud computing and evaluation system of integration services.",
+    "context3": "Keywords: LMS；Library 2.O；Cloud Computing；Web 2.07"
+  }
+}

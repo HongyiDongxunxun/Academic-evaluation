@@ -1,0 +1,99 @@
+{
+  "original_filename": "full_7480.md",
+  "nothing": {
+    "context1": "●马建霞（中国科学院国家科学图书馆兰州分馆，甘肃兰州730000；中国科学院资源环境科学信息中心，甘肃 兰州 730000)"
+  },
+  "机构知识库内容建设与服务设计的趋势\\*": {
+    "context1": "摘要：文章首先概括了机构知识库发展的现状，分析了存在的问题；然后从机构知识库的利益相关方的需求分析入手，审视了机构知识库的目标定位，提出了机构知识库在内容建设与服务设计方面的趋势：指定强制存缴政策、采取灵活的访问策略、简化存缴步骤、集成到用户信息环境、以机构知识库联盟获得规模优势、提供知识审计与能力分析功能、可信长期保存服务、技术和服务团队的持久保障等。",
+    "context2": "关键词：机构知识库；内容建设；服务设计；发展趋势",
+    "context3": "Abstract:This article firstly summarizes the development statusof the institutional repository，and analyzes its existing problems.Then，proceeding from the analysis of the requirement of the stakeholders，the article scans the aimsof the institutionalrepository，and pointsoutthetrendof the institutional repositoryincontentdevelopmentand service design:specifying constrained deposit policies，adopting flexible accessng strategies，simplifying deposit procedures，integrating into the user information environment，wining scale superiorities via institutional repository alliance，and providing knowledge auditing and capability analysis function，crediblelong-term preservation service， and sustained support for technology and service teams.",
+    "context4": "Keywords: institutional repository； content development； service design； development trend",
+    "context5": "自2002年R．Crow首次提出机构知识库（InstitutionalRepository，IR）的概念到国内外大学和机构图书馆积极建设机构知识库，目前已有近10年的时间，但机构知识库的发展还是在尝试和摸索中进行，没有现成的路线图。对机构知识库的发展现状、存在问题的审视将有利于明确机构知识库下一步的发展方向。"
+  },
+  "1机构知识库的发展现状": "",
+  "1.1机构知识库的发展": {
+    "context1": "根据OpenDOAR的统计，从2005—2009年，登记的开放数字仓储数据量在稳步上升，其中IR就有1255个占了 $81 \\%$ [。目前OpenDOAR中存缴条目最多的IR是剑桥大学IR，其内容达到了210806条。",
+    "context2": "有研究表明，在德国、挪威以及荷兰，IR已经获得了与国内相关高等教育部门的公共基础设施建设相应的地位。而国内IR建设还处于起步阶段，仅有香港大学、香港科技大学、香港城市大学、香港理工大学、清华大学、厦门大学、浙江大学、中国科学院部分研究所构建了IR系统。此外尽管很多大学建设了学位论文数据库，但是由于这些数据库的元数据标准和数据开放性等问题，未能在",
+    "context3": "OpenDOAR，OAIster，ROAR等开放仓储中注册。",
+    "context4": "在相关的研究计划方面，The Joint Information SystemsCommittee（JISC）是尤为引人注目的。JISC将IR视为信息环境（Information Environment，IE）的重要组件，围绕科学研究的过程，JISC资助了内容涉及IR建设推广、IR服务改进、共享IE架构服务、内容自动存缴、自动元数据抽取、保存、发布、关联、评注等4O多项IR相关项目。此外，欧盟的 DRIVER项目、澳大利亚的 AR-ROW、荷兰的DAREnet等都取得了令人瞩目的进展。",
+    "context5": "在学术会议方面，自2006 年以来，Open Repository 年会通过Dspace，Fedora，Eprints的开放用户组会议，围绕开放数字仓储包括IR的前沿技术、功能、实施以及理论、政策等问题展开讨论b。两年一次的OAIWorkshop 也围绕开放获取与数字仓储的互操作等前沿问题交流讨论。"
+  },
+  "1.2机构知识库发展中存在的问题": {
+    "context1": "1）规划和政策不完善。仅有低于 $18 \\%$ 的仓储定义了内容政策、提交政策， $9 \\%$ 的仓储定义了保存政策，对于元数据和全文的重用，大多数仓储都没有定义",
+    "context2": "2）内容存缴方面存在问题。一些IR的数据增长呈现平台状、阶梯状，加入到仓储中的新记录在头几个月之后急剧下降。",
+    "context3": "3）功能和服务不到位。一些IR提供的功能和服务有限，在许多情况下，IR并没有作为图书馆可以提供给机构服务的一部分，而只是缺乏有力支持的鼓励性项目，IR与其他资源完全割裂开来。",
+    "context4": "4）产生问题的原因。一些研究对IR低存缴率的原因进行了分析。他们的研究表明，低存缴率的原因主要在于IR 在学术环境中的角色没有清晰的共识；对于IR建设的需求分析不足；IR的规划和政策制定不完善；缺乏可持续发展的机制；尚不完善的服务；对知识产权的不确定性等 [10-1]",
+    "context5": "5）对IR发展中问题的讨论。国外图书馆界针对 IR发展实践中遇到的问题开展了热烈的讨论。美国信息科学与技术学会（ASIS&T）[卡罗来那分会举办了一场关于IR 的辩论，“Bulletin of the American Society for InformationScience and Technology”和“Library Trend”也分别推出专刊讨论IR的发展现状和未来发展。",
+    "context6": "笔者将结合国内外IR的发展趋势，对IR如何健康持续地发展，IR建设的利益相关方的需求，IR的目标定位，如何提高IR的内容存缴率，IR应该提供怎样的服务这些问题谈一点自己的理解和看法，以期能为国内IR规划建设提供参考。"
+  },
+  "2机构知识库的利益相关方分析": {
+    "context1": "IR的建设尤其需要良好的管理，需要持续的规划、确定优先事项并协调不同利益相关方，包括学术机构的教学科研人员、图书馆、机构管理人员、出版商，甚至包括高校参与科研的学生（博士、硕士）的利益。IR 相关方需求及现实与需求的差距见表1。",
+    "context2": "IR的存在是为了满足相关各方的需求。IR建设团队通过与机构管理方、基金管理方合作设计研究产出提交的长期保证机制，包括强制政策和激励机制，IR通过搜集整理机构的知识产出，提供集中的管理平台，使机构分散无序的多种类型的知识产出成为独特的知识资产，并为机构管理方和基金管理方提供知识资产展示、知识能力分析的平台；IR建设团队采用适当的知识产权处理策略，与出版方协商谈判，为科研人员提供快速发布知识产出的平台，通过快速发布，提高产出的显示度和影响力，从而间接地促进期刊和研究人员的影响力；IR通过研究和利用长期保存的技术，为科研人员提供当前技术条件允许的符合标准规范的可信的保存服务。"
+  },
+  "3机构知识库的目标定位": {
+    "context1": "当前IR的目标定位有多种，包括集中提供机构研究知识产出的开放获取、传统学术出版的补充、提供传统出版的全部功能，集中管理和保存机构知识产出等。对于",
+    "context2": "表1IR相关方需求及现实与需求的差距",
+    "context3": "<table><tr><td rowspan=1 colspan=3>IR相关方需求及现实与需求的差距</td></tr><tr><td rowspan=1 colspan=1>利益相关方</td><td rowspan=1 colspan=1>需求</td><td rowspan=1 colspan=1>现实与需求的差距</td></tr><tr><td rowspan=4 colspan=1>教学科研人员及参与科研的学生</td><td rowspan=1 colspan=1>及时获得相关领域的最新文献</td><td rowspan=1 colspan=1>1）期刊论文发表存在时滞2）经费不足的大学，期刊定价高升，不易获取全文</td></tr><tr><td rowspan=1 colspan=1>提升自己的学术影响力</td><td rowspan=1 colspan=1>1）自己的论文散见于多个期刊，没有集中的展示平台2）有些论文的引用率很低，是否因为论文很难被同行看到3）可在个人主页、机构主页上发布，但需要时间精力4）提交到IR是否涉及版权问题</td></tr><tr><td rowspan=1 colspan=1>获得文献和相应的数据</td><td rowspan=1 colspan=1>尚没有平台支持此功能</td></tr><tr><td rowspan=1 colspan=1>保存科研产出</td><td rowspan=1 colspan=1>1）技术的发展，会使数字化产出面临丢失毁坏的危险2）是否有可信可行的长期保存方案</td></tr><tr><td rowspan=3 colspan=1>图书馆</td><td rowspan=1 colspan=1>看到网络环境带来的职业危机和机会，寻找新的服务方式</td><td rowspan=3 colspan=1>1）较低的IR存缴率2）现成的IR不能很好地支持所需要的功能3）能否获得IR建设资金、人力、机制的持久支持</td></tr><tr><td rowspan=1 colspan=1>期刊涨价,甚至本机构的知识产出，如果没有购买期刊，也不能被本机构人员访问到</td></tr><tr><td rowspan=1 colspan=1>建设本机构独特的资源</td></tr><tr><td rowspan=2 colspan=1>管理人员</td><td rowspan=1 colspan=1>1）集中展示本机构学术影响力2）本机构知识产出的学术影响力怎样3）本机构知识产出管理</td><td rowspan=1 colspan=1>1）员工的知识产出分散在个人手中，很难获得所有员工某段时间内的知识产出的集成展示2）现有的科研管理系统中的数据元数据质量不高，限于内部使用，支持的分析功能不够3）员工的知识产出分散在不同期刊中，尽管可以利用 SCI等工具统计员工知识产出的引用数据，但需要一定的人力物力4）本机构员工的非正式产出，如演示报告、数据、多媒体等没有适当的途径管理</td></tr><tr><td rowspan=1 colspan=1>4）需要分析机构知识能力的布局是否合理，知识能力的发展是否令人满意</td><td rowspan=1 colspan=1>1）无处获得这种数据</td></tr><tr><td rowspan=1 colspan=1>研究基金管理方</td><td rowspan=1 colspan=1>需要对本基金资助的研究产出统一管理公共资助的研究成果应可为公众访问</td><td rowspan=1 colspan=1>尚没有支持平台</td></tr><tr><td rowspan=1 colspan=1>出版方</td><td rowspan=1 colspan=1>提高刊物影响因子</td><td rowspan=1 colspan=1>OA 是否会影响出版商利益？OA 是否会提高刊物影响因子</td></tr></table>"
+  },
+  "·第33卷2010年第9期·": {
+    "context1": "IR的功能定位或者建设目标的不同会直接导致IR内容建设策略、访问策略、提供的服务的不同。而把握了需求、结合实际、良好设计的IR的功能定位，也是IR能够吸引利益相关方的卖点，对于IR的成败起着至关重要的作用。张晓林认为，IR的目标可以分成3个层次：机构知识资产管理，机构知识传播管理，机构知识能力管理[4。这种分层次定义的IR目标，真正认识到了中国科学院国家科学图书馆服务于全院科研、管理人员的使命，充分考虑了IR建设相关利益方的不同层次的需求，跳出了OA的局限，不再局限于试图争取影响学术交流模型的约束，分层次定义IR的目标，也便于IR建设推进的分步骤、稳步推行。"
+  },
+  "4机构知识库的内容建设与服务设计趋势": {
+    "context1": "针对IR发展中的问题，国内外IR建设的研究实践项目进行了积极的探索和实践。笔者从以下几方面总结IR在内容建设与服务设计方面的趋势。"
+  },
+  "4.1制定强制存缴政策，建立内容发展的长期机制": {
+    "context1": "目前在ROARMAP注册的仓储中，只有176个IR有强制政策，其中77个有机构强制政策，31个是部内强制政策，42个是基金强制政策，39个是学位论文强制政策。",
+    "context2": "A．Swan的调查说明，研究人员与教师喜欢开放获取，但除非有机构或者基金强制他们存缴，大多数研究人员与教师不愿意自存储。A．Sale还对比了3个澳大利亚的仓储的存缴率[。这3个仓储分属以下3种情况:$\\textcircled{1}$ 只有一个IR； $\\textcircled{2}$ 有一个IR并由图书馆员鼓励和帮助存缴； $\\textcircled{3}$ 有一个IR，有自存档强制政策，并辅之以图书馆员的帮助。结果表明，在采纳了强制存档政策两年内，他们的存档率分别是 $1 5 \\%$ ， $30 \\%$ 和接近 $100 \\%$ 。NIH在只是鼓励存档的两年里，存缴率还是低于 $4 \\%$ ，但是强制性存档后，存缴率上升到了 $60 \\%$ ，而且还在上升。",
+    "context3": "当前已有RCUK，Wellcome Trust等 $3 5 \\%$ 的基金组织支持开放获取，NIH、哈佛大学等机构要求员工向大学提供他们研究的副本和发布其电子版的非专有授权。在中国科学院推进IR建设时我们发现中国科学院大连化学物理研究所在员工知识资产的积累和管理方面做得非常好，他们积累了1万多条员工的知识产出，这与该所在员工知识资产提交方面制定的激励和强制政策密不可分，所里将年终考评和员工业绩的评价与知识产出的提交结合起来，这就使得他们在引入IR平台后，会有良好的内容建设积累和持续发展的内容建设机制。",
+    "context4": "可见，制定强制内容存缴政策，对于IR的内容建设至关重要，是IR内容发展的长期保证机制。当然，内容存缴的强制政策不是图书馆自己就能制定并被员工认可的，这就需要IR建设团队积极向机构管理层宣传IR的目标、优点，促使他们制定相应的强制提交政策。"
+  },
+  "4.2制定灵活的访问策略": {
+    "context1": "1）机构知识库与OA。IR的发展离不开OAI和开放获取运动的背景，开放获取将会使论文的引用率提高[。有报道称，Arxiv 使学术期刊论文引用增加了5倍，MIT@Dspace在2009年达到了740万次下载量，平均每天达到20 000次。很明显，OA应该是IR内容建设的重要内容。",
+    "context2": "在期刊OA政策方面，2007年，Ulrich期刊指南的统计数据学术期刊共有23750种，ROMEO提供了661个出版商的超过10 000种期刊的政策，这其中 $62 \\%$ 的出版商允许某种形式的自存档，也就是说OA期刊并没有占到所有期刊的大多数。如果IR存缴OA的文章，意味着在文献提交前，确认是否具有OA的许可，这会使得提交的过程牵涉一个版权确认的过程，增加了提交的复杂度。因此，如果把IR的内容只限于OA，那么OA的文章并不能代表机构知识产出的全部，如果把OA等同于IR将成为限制IR发展的障碍。",
+    "context3": "Lynch 提到，“OA与IR是彼此依赖的”。如果IR被定位为机构知识资产的管理、发布、利用、分析、保存服务，那么OA将是IR的一部分内容，OA可以促进知识产出的开放获取，也可以提高知识产出被利用的机会，IR离不开OA，但IR不完全等同于OA。",
+    "context4": "2）组合的访问策略。当IR中收集的内容不局限于OA时，就意味着IR应该提供组合的访问策略，根据不同类型的文献，采取不同的知识产权策略。既有支持开放获取的策略，也具有支持不同粒度、不同范围的访问权限的设计，可以提供到期开放（Embargo）的选择。这种策略也保护了部分期刊出版商和作者的权益，他们期望自己的知识产出在某段时间内在某个范围内被共享。同时，以自动或者人工协助的方式，协助提交者判断期刊论文是否支持开放获取，对于提交的可以开放获取的期刊论文，保证在IR上尽快发布。",
+    "context5": "在实践中往往存在大型研究项目的成员分布于不同地区的不同单位，而各自的单位都可能会建立面向本单位的IR，这就产生了跨机构访问其他IR的需求。跨机构的 IR联盟的访问授权和控制不仅需要联盟责权利约定等政策机制方面的保证，也需要有技术上的保障，比如采用Schib-boleth来实现跨机构的联邦服务。"
+  },
+  "4.3简化和方便存缴各种类型的知识产出": {
+    "context1": "IR 研究实践中，为了简化和方便各种类型的产出，一些项目的实践体现出两个特点，一是提供自动提交和元数据抽取技术简化提交；二是为科研人员提供多种类型产出组织管理的方案。",
+    "context2": "1）简化提交过程。基于SWORD开发的支持从Word直接提交的过程，可以简化提交。此外，一些工具可以自动抽取元数据，或者自动生成背景元数据以嵌入到用户自然的工作流程中，从而简化存缴过程，改进元数据质量。",
+    "context3": "2）复合数字对象的组织、管理、应用与重用服务。复合数字对象，是包括文本、图像、音频、视频等类型数字对象的复合体，是组合起来形成逻辑整体的多个信息单元的集合。Driver提出的增强出版物包括： $\\textcircled{1}$ 研究数据（研究的证据）。 $\\textcircled{2}$ 附加材料（用于演示或者澄清）。 $\\textcircled{3}$ 后期出版的数据（包括注释和评论）。通过增强出版物模型，可以提供复合数字对象内部构建的关联，揭示其结构，便于对复合数字对象及其组件的组织、管理、应用与重用。这就为用户提供了多种类型知识产出组织管理、发布利用的方案。",
+    "context4": "3）从相关主题仓储收割。CERN的IR建设面临本学科已有学科仓储的挑战，但是他们在制定强制存缴政策的同时，也与相关的主题仓储达成协议，可以在IR与主题仓储之间交换数据。",
+    "context5": "4）与出版商谈判，由出版商直接提供内容。PEER项目开展从出版商直接获取论文发表前的预印本到仓储中的实验，重点考虑了与出版商的合作。项目通过定期从出版商处获得数据，利用SWORD向仓储批量上载数据。而Elsevier的 Scopus 近期也向香港大学IR提供开放API，这样香港大学的IR可以及时地反映本校教师和研究人员的论文、引文情况、合作者情况等，并可在 Re-searcherPage显示相关的信息。这两个最新的发展动态说明，IR与出版商合作，将是IR内容建设的趋势之一。"
+  },
+  "4.4将IR集成到机构和用户的信息环境中": {
+    "context1": "IR不是独立的实体，而是在技术上与其他系统集成，政策上与机构和其他政策集成，实践上也要突破组织界限，要把IR作为整个科研信息环境的有机组成部分，把IR与科研教学人员的科研教学流程结合起来，把IR与图书馆的其他服务结合起来，提供不可替代的服务，这是个挑战性的长期目标。",
+    "context2": "1）与科研流程结合，实现内容自动提交。JISC资助Repository for theLaboratory（R4L）研究将实验室的数据自动存缴到仓储的方法。这是将IR与用户科研流程紧密结合的尝试。",
+    "context3": "2）与图书馆其他服务结合，让IR成为图书馆服务系统的组成部分。IR既然是图书馆的服务之一，就不应该独立于图书馆服务系统之外，其中的内容应该能被图书馆的整合检索系统检索到，能够根据用户身份判定可对该文献获取的服务。应该提供读者与作者邮件沟通获取全文的渠道，或者通过读者授权，提供图书馆的原文传递服务。",
+    "context4": "日本北海道大学的 Access Path to Institutional ResourcesVia Link Resolvers项目实现了IR的开放获取文献通过链接解析OpenURL的导航。这种做法，将IR的服务与图书馆的其他资源和服务结合成一个整体。",
+    "context5": "3）研究人员个人主页、单位主页的内容同步更新。IR可以提供机构、研究部门、研究课题、研究者网上CV在一段时期内知识产出的集中呈现，这在当今注重科学研究的合作交流的环境下，将很受研究人员欢迎。而且这些信息也应该能与研究人员个人主页、研究室或者研究课题的主页、研究单位的主页同步实现自动内容更新。",
+    "context6": "4）与科研信息管理系统的数据交换。一些机构和大学往往已经有科研管理信息系统，其中已经有关于研究产出的部分信息，但这些信息往往是不完全的，元数据的质量也不好，中国科学院在IR建设的实践中，开发了导入导出工具与科研管理信息系统、学位论文系统及图书馆自动化系统之间的数据交换功能，这样就可以批量摄入元数据，再由图书馆员或者作者根据需要提交全文。这种做法也在德国哥廷根大学图书馆开展。此外爱尔兰的 TrinityCollegeDublinRepository，荷兰国家NARCIS门户等，都实现了与科研管理信息系统的集成。"
+  },
+  "4.5以机构知识库联盟方式获得规模优势": {
+    "context1": "当前IR联盟的发展值得瞩目，区域性（如美国的ALADIN联盟)、国家性（如法国HAL、日本DLF等）和国际性的IR联盟（如COAR）发展迅速。",
+    "context2": "IR 联盟既可以作为机构共建共享IR的模式，从而节约成本，共享技术平台和内容资源，也可以使内容得到更广泛的传播，以通过地区性联盟、行业联盟、国家联盟等方式让最终用户获得某一地区、某一行业相关文献。同时联盟技术平台也可以根据主题内容形成不同的专题，这样有利于用户按照研究主题宏观地了解领域或者专题的知识产出情况。"
+  },
+  "4.6提供知识管理与能力分析功能": {
+    "context1": "1）引文分析、使用的统计分析。访问统计和引文分析是IR向最终用户提供内容使用情况的服务，也是表明IR会提高知识产出的可见性的证据，这对于IR建设的所有利益相关者都是有意义的。DRIVER的统计数据表明，17个欧盟国家的114个仓储中，大约 $70 \\%$ 记录了下载和访问统计的情况， $30 \\%$ 提供了访问统计的数据。德国的 Open Access Statistics，欧盟的 OpenAIRE， JISC 的Pub-lisher and Institutional Repository Usage Statistics 都开展了IR访问统计方面的研究和应用。而中国科学院的IR平台中，已经支持对所存缴内容从不同使用类型（如浏览、下载)、不同范围（如机构内外、国内、国外等）、不同的时间区间（如月、年或任意时间段)、不同的研究单元或个人等维度及其组合进行利用统计，并以可视化的方式予以展现，支持研究所对其知识内容的访问和传播利用状况进行动态及时地了解和把握。",
+    "context2": "2）知识资产审计服务。这种服务针对机构管理方和基金管理方对知识能力和布局宏观把握的需求。对IR中存缴的内容从总体、研究单元（部室、课题组等）、个人、时间等多角度进行统计，并生成各层次知识目录；通过对所保存内容从多维度或多层面进行逻辑语义关系分析和关联，建立知识地图，支持对机构的知识能力、知识关系、知识资产应用和需求等进行分析和评估[。"
+  },
+  "4.7提供当前技术条件下可信的保存服务": {
+    "context1": "对存缴内容的保存服务不仅仅意味着对内容和软件平台的及时备份，更强调对IR中内容的长期保存服务。IR技术平台遵循OAIS框架，为存缴的内容对象提供唯一标识符，对IR存缴的内容格式进行识别和迁移转换等，都是在当前技术条件下IR可以提供的长期保存的服务。为了保证能够跟上技术的进步，提供可能的保存服务，一些项目也积极开展了长期保存的研究实践，比如JISC除资助了内容生命周期有效管理中角色责任模型和技术方法，保存成本，审计的基于风险的方法，数字保存评价工具的项目外，还通过 PRESERV ，SherpaDP和 CAIRO（Complex Archive Ingest for Repository Objects）b开发 IR的保存架构。可信的数字仓储架构（TRAC）也为数字仓储在提供可信的保存服务提供了参考。但是长期保存的复杂性和不确定性使得IR在当前对长期保存的承诺方面仍然比较谨慎。"
+  },
+  "4.8技术和服务团队的保障": {
+    "context1": "IR 的技术平台可以基于开源的软件平台，但是开源软件提供了IR的基本功能，要想满足更为多样的需求，可行的方案之一是在开源软件基础上进行二次开发和功能完善。此外，为了跟上需求和技术的发展，必须部署力量进行新技术和新功能的研发储备。",
+    "context2": "IR的建设并不是建好技术平台就万事大吉，IR建设团队中必须有联系馆员，负责与出版社、教学研究人员、机构管理方联系，负责搜集需求，向相关各方进行IR的宣传推广。此外联系馆员还必须及时向IR团队反馈IR功能需求的新变化。"
+  },
+  "5结束语": {
+    "context1": "随着全球经济一体化的深入，各国围绕专利的知识产权大战日趋白热化。专利已经不仅仅是一项能够给公司带来效益的技术，还是一种进攻与打击竞争对手的手段。为了保护自己的利益，各个企业都争相加大自己的专利保护力度，而各个国家允许的专利保护宽度也在逐渐变大，专利联盟的再次出现就是一个很好的证明。我国企业与政府必须清楚地看到这种趋势，做好充分的准备，以积极的态度面对，从而才能在专利竞争中占据有利的地位，推动我国技术迅速向前发展。□"
+  },
+  "本文在撰写过程中得到德国哥廷根大学图书馆Dr.N.Lossau 的帮助和指导，特此致谢。□": "",
+  "参考文献": {
+    "context1": "[1] MACHLUP F.An economic review of the patent systemM.Washington:U．S.Govt.Print.Off.,1958.  \nMANSFIELDE,SCHWARTZM，WAGNER S.Imitation costsand patents:an empirical study[．Economic Journal,1981(91):907-918.  \nB SHAPIRO C.Navigating the patent thicket: cross licenses ， pa-tent pools and standard setting[M]．Massachusetts:MITPress,2001.郭丽峰，高志前．专利池的形成机理及对我国的后示．中国科技产业，2006（4)：41-42.  \n李玉剑，宣国良．专利联盟反垄断规制的比较研究[．知识产权，2004，14（2)：52-55.  \n陈欣．专利联盟理论研究与实证分析[]．武汉：华中科技大学，2006.  \nhttp://www．sipo．gov．cn/sipo2008/ghfzs/zltjjb/201002/P02 0100226540674797185．pdf.詹映．专利池的形成：理论与实证研究[]．武汉：华中科技大学，2007.",
+    "context2": "作者简介：胡世龙，男，硕士生收稿日期：2010－05－13"
+  },
+  "(上接第27页）": {
+    "context1": "[2]Publisher copyright policies & self-archiving statistics for the 661 publishers on this list[EB/OL]．[2008-2-6]．http:// www.sherpa.ac.uk/romeo/statistics.php.   \n[3] ALBANESE A R. Institutional repositories: thinking beyond the boxlibraryjournal[EB/OL]．[2009-O3-13]．http:// www.libraryjournal.com/article/CA6639327.html.   \n[24] http://hdl. handle.net/1853/28446.   \n[25] http://www. jisc.ac.uk/whatwedo/programmes /programme_ rep_pres /tools/metatools.aspx.   \n[26] RepoMManEB/Ol]．2009-l1-0．http://www. jisc.ac.uk/ whatwedo/programmes/programme_digital_repositories/project _repomman. aspx.   \n[7] LAGOZE C,Van de SOMPEL H. The OAI object re-use & exchange（ORE) initiative report on work by the OAI-ORE technical committee[EB/OL]．[2008-08-11]．http://openre positories.org/2007/program/files/5/lagoze.pdf.   \n[8] CERN document server: institutional repository and service. CERN,Geneva，Switzerland [EB/OL]．[2O09-1-O7]．http://cdsweb.cern.ch.   \n[]Publishing and theecology of European research.[EB/OL]. [009-11-10].http://www.peerproject.eu.   \nB0] Hong Kong university institutional repository uses scopus API for researcher citation data[EB/O1]．O10-O2-09]．http:// digital-scholarship. org/digitalkoans.   \nB1] http://airway.lib.hokudai.ac. jp/index_en. html.   \n[B2] http://dare.uva.nl/document/150752.   \nB3]曾苏，马建霞，祝忠明．机构知识库联盟发展现状及关键问 题分析．图书情报工作，2009（12).   \nB4] EIJNDHOVEN,Van KWAME，Van DERGRAAFM.Inventory study into the present type and level of OAI compliant digital repository activities in the EU[EB/Ol]．[O08-O8-5]．http://www.driver-support.eu/documents/DRIVER $\\%$ 20Inventory% 20study% 202007.pdf.   \nB5] http://preserv. eprints.org.   \nB6] http://www. sherpadp.org.uk.   \nB7] http://www. jisc.ac.uk/whatwedo/programmes/programme_ rep_pres/cairo.aspx.",
+    "context2": "作者简介：马建霞，研究馆员。收稿日期：2010-04－26"
+  }
+}

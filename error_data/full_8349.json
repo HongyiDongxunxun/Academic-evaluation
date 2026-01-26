@@ -1,0 +1,124 @@
+{
+  "original_filename": "full_8349.md",
+  "社交媒体信息可信度评估研究综述": {
+    "context1": "王一华",
+    "context2": "(郑州大学科学技术信息研究所，河南 郑州450001)",
+    "context3": "（摘要）社交媒体信息可信度评估研究不仅有助于发展与完善网络信息资源管理理论，而且有助于提高社交媒体舆情监控、社交媒体搜索、社会化推荐等方面的效果。本文通过梳理国内外相关文献，从社交媒体信息研究、信息可信度研究、社交媒体信息可信度评估研究对国内外研究情况进行综述，指出国内社交媒体信息可信度评估研究存在的研究面窄、定性研究多、缺乏系统性等问题，并提出应对中文社交媒体信息可信度进行系统研究、进行自动评估等解决方法。",
+    "context4": "（关键词）社交媒体；信息可信度；评估；综述 DOI:10.3969/j.issn.1008 -0821.2016.12.030 （中图分类号）G203（文献标识码）A（文章编号）1008-0821（2016）12-0164-06"
+  },
+  "Review on Information Credibility Assessment in Social Media": {
+    "context1": "Wang Yihua",
+    "context2": "( Institute of Scientific and Technical Information， Zhengzhou University， Zhengzhou 450o01，China)",
+    "context3": "(Abstract）Information credibility assessment research in social media not only contributes to the development and improvementof network informationresource managementtheory，butalso helps to improve the efectiveness of social media monitoring publicopinion，social mediasearch，social recommendationandsoon．The paper firstlyreviewed theresearchesathomeandabroadaboutthe socialmediainformationresearch，informationcredibilityresearch，andsocialmedia informationcredibilityassessmentresearch，andthen pointedouttheproblems existing in information credibilityassessment research of domestic social media，and finally put forward the solution to it.",
+    "context4": "(Key words）social media; information； credibility；assessment；review"
+  },
+  "1研究的意义": {
+    "context1": "随着互联网技术和移动技术的突飞猛进，社交媒体盛行，人人可做信息的制造者，制造的信息极为丰富。然而，在这丰富信息的背后，隐藏着漫天飞舞的谣言、病毒般传播的虚假照片和视频，这给人们幸福的生活、社会的稳定带来了严重的隐患。为了遏制虚假不良信息传播，营造健康向上的网络环境，信息可信度评估就成了迫在眉睫的问题，社交媒体信息急需“鉴定师”和“测谎仪”。",
+    "context2": "社交媒体信息可信度评估研究既有较高的学术价值，也有较强的应用价值。具体来说，学术价值表现在研究社交媒体信息可信度评估并探讨虚假信息的生成机制、传播模式、治理措施，是对社交媒体环境下网络信息资源管理理论的丰富、发展与完善。应用价值表现在研究社交媒体信息可信度评估有助于社交媒体用户判断信息的可信性，营造诚信健康的互联网环境，也有助于提高社交媒体信息舆情监控、社交媒体信息引导、社交媒体搜索、社会化推荐等方面的效果。"
+  },
+  "2社交媒体信息研究": {
+    "context1": "社交媒体（Social Media）是通过Web2.O技术实现的一类支持用户自主创造和交换内容的媒体，如Twitter、Fa-cebook、Youtube、LinkedIn、Wiki、微博、微信、QQ、论坛、人人网等。自1973年Lipkin、Szpakowski和Felsenstein3人在美国加州伯克利市建立全球第一个公共电子公告牌系统CommunityMemory后，BBS以及网络社区等早期的社交媒体开始映入人们的眼帘。 $\\langle \\langle 2 0 1 5 $ 年全球社会化媒体、数字和移动业务数字统计趋势》报告表明：全球社交媒体活跃用户约占全球人口的 $2 9 \\%$ 。"
+  },
+  "2.1国外研究": {
+    "context1": "社交媒体的相关研究从20世纪80年代开始，在2005年左右开始进入快速发展阶段，发文量有逐年增加的趋势。在国际期刊中，发表社交媒体论文较多的要属《Computersin Human Behavior》。近两年，关于社交媒体的国际会议主要有ASONAM、SMP、MISNC、SMAP、SCSM。国外学者研究内容主要集中在以下4个方面:"
+  },
+  "2.1.1社交媒体信息利用研究": {
+    "context1": "社交媒体在商业领域、教育领域、公共管理领域等都有广泛的应用。如在营销领域，利用社交媒体信息，可以获知消费者态度和行为，可以获知客户交流和推荐对营销的影响b-4，可以获知社交媒体信息对营销管理功能的影响 。"
+  },
+  "2.1.2社交媒体信息检索与信息推荐研究": {
+    "context1": "侧重于社交媒体信息检索与信息推荐方法的研究。社交媒体信息的检索采用主题模型、社会网络、本体等检索方法。比如，Hong和Davison（201O）使用标准主题模型进行社交媒体Twitter信息的检索。社交媒体信息的推荐采用内容推荐、协同过滤[、时序推荐、位置推荐、社会化推荐等方法。比如，Levandoski等（2012）提出位置感知推荐系统（LARS）[。"
+  },
+  "2.1.3社交媒体信息传播研究": {
+    "context1": "侧重于反映信息传播传播规律的社交媒体信息传播模型的构建以及通过模型的构建对实际问题进行预测等方面的研究。如Galuba等（2010）通过研究1500万URL在不同Twitter用户之间的300小时传播，提出了基于内容流行度、用户影响力和传播速度的线性阈值模型[4。Adar和Adamic（2005）通过研究信息在博客中传播的模式和动力学特性，提出用传染病模型来描绘信息传播的机理[。Asur和Huberman（201O）采用来自Twitter.com的聊天数据通过简单的线性回归模型预测电影票房的收入[。"
+  },
+  "2.1.4社交媒体用户隐私研究": {
+    "context1": "在探讨社交媒体用户隐私现存问题的基础上，提出了相应的隐私保护方法。如Viswanath等（2010）首先研究Sybil防御的缺陷，在其基础上探讨了替代 Sybil防御的方法］。Conti等（2011）采用FaceVPSN解决社交媒体用户隐私问题[ 。"
+  },
+  "2.2国内研究": {
+    "context1": "国内学者的社交媒体研究最早可追溯至20 世纪90 年代末，但从2005年后起关于社交媒体的论文才逐渐表现出增长态势。国内研究内容主要集中在:"
+  },
+  "2.2.1社交媒体信息传播研究": {
+    "context1": "研究内容包括： $\\textcircled{1}$ 社交媒体信息传播模式研究。如韩佳等（2013）提出了基于改进SIR的在线社交网络信息传播模型[g。姜景等（2015）构建表征谣言信息与辟谣信息传播机理的Lotka-Volterra竞争模型。 $\\textcircled{2}$ 社交媒体信息传播中存在的问题与对策研究。如阎俊（2015）探讨微博传播存在的问题及原因，并提出了加强微博内容管理、增强把关意识、提高微博用户的媒介素养等对策。 $\\textcircled{3}$ 社交媒体信息传播效果研究。如陈远和袁艳红（2012）以新浪微博作为数据来源，把信息覆盖人数、评论数、转发数作为微博信息传播效果的量化指标，从纵横向两个角度研究新浪微博信息传播过程造成的效应。"
+  },
+  "2.2.2社交媒体舆情分析与监测研究": {
+    "context1": "如张玥等（2014）以打砸日系车系列突发公共事件为实例，探讨其在新浪微博和新浪新闻平台上舆情传播的特征与规律。张瑜等（2015）对新浪微博热内话题“北京单双号限行常态化”下的微博进行了数据采集，将舆情演化划分为潜伏、成长、爆发、衰退、波动、死亡6个阶段，并对各阶段进行情感分析，为舆情治理提供了支持。唐涛（2014）在分析网络舆情五要素的基础上，探讨移动互联网舆情的新特征，指出面临的新挑战，并从信息分析、信息筛选、信息引导等方面提出对策。"
+  },
+  "2.2.3社交媒体营销研究": {
+    "context1": "如唐兴通（2012）的著作《社会化媒体营销大趋势：策略与方法》系统总结了社交媒体营销，并对众多社交媒体工具在实际工作中的应用提供了具体的建议。张淼（2014）提出了企业完善社交媒体营销策略的 $^ { 6 } 9 + 3 ^ { , 5 }$ 模式。刘晓燕和郑维雄（2015）采用社会网络分析方法研究企业微博营销传播的效果。"
+  },
+  "3信息可信度研究": "",
+  "3.1国外研究": {
+    "context1": "信息可信度（Information Credibility）是指人们对信息可相信程度的认识。它由值得信赖（Trustworthiness）和专业性（Expertise）两个关键要素组成。信息可信度比较系统的研究始于20世纪50年代的传播领域。Hovland和同事的工作具有里程碑的意义。信息可信度最初关注的是传播者的可信度。国外对传统媒体信息可信度的研究主要是从信源可信度、内容可信度、渠道可信度三方面展开的。随着互联网的出现，网络信息可信度的评估被提上了议事日程。研究情况可归纳如下："
+  },
+  "3.1.1网络信息可信度评估的理论模型": {
+    "context1": "主要有Fogg（2003）的P-I理论模型、Wathen和Burkell（2002）的评判模型、Sundar（2008）的 MAINModel、Hilligoss和Rieh（2008）的统一模型、Metzger（2007）的双处理模型以及Lucassen等（2013）的3S模型（修订版)。以上理论模型是由情境、用户特征、操作性、处理过程这些侧面的若干部分构建而成的。"
+  },
+  "3.1.2网络信息可信度研究内容": {
+    "context1": "主要有对网络新闻的可信度研究、对搜索引擎结果的可信度研究以及对维基百科内容的可信度研究。比如，Nagura等（2006）通过比较关于同一主题不同网页的相似度来计算每个网页的可信度。Yamamoto和Tanaka（2011）利用用户可信度评判模型对网页搜索结果进行重新排序，以便从Web搜索结果的列表中用户可以更高效的找到可信的网页。Adler等（2008）以文章长度、版本数量和基于贡献数量的作者声誉建立模型，计算出维基百科文章的可信度"
+  },
+  "3.1.3网络信息可信度研究方法": {
+    "context1": "主要采用定量研究法。比如，Olteanu等（2013）在调查网页的各种特征(文本内容、链接结构、网页设计等)的基础上，经过统计分析方法筛选出关键的特征，采用监督学习算法来推断网页内容的可信度[。与网络信息可信度有关的典型系统有日本的WISDOM和Honto?Search。"
+  },
+  "3.1.4影响力较大的项目和国际会议": {
+    "context1": "影响力较大的项目有互联网可信度研究（TheWebCredibilityResearch）项目，影响力较大的国际会议有WI-COW（Workshop on Information Credibility on the Web）。"
+  },
+  "3.2国内研究": {
+    "context1": "1993年的《鉴别虚假信息五法》是国内发表的早期论文。2004年至今，相关研究进入快速发展期。相对于国外较多研究评估算法和评估系统，国内研究重点在于定性分析上，大多采用问卷调查及专家访谈法等进行人工评估。国内研究内容主要有："
+  },
+  "3.2.1侧重于信息可信度影响因素研究": {
+    "context1": "比如，龚思兰等（2013）针对评论信息的文本内容、长度、情感倾向、时效性、发布者、商家活动等特征，通过问卷调查方式对大学生消费群体进行在线商品评论信息可信度影响因素实证分析。蒋洪梅（2013）运用理论分析辅以实证研究的方法，从宏观的社会系统、中观的政策法规、微观的媒介与受众3个视角分析网络新闻信息可信度的影响因素。"
+  },
+  "3.2.2侧重于信息可信度指标体系的构建": {
+    "context1": "比如，胡红亮（2013）按照信息源、信息加工、信息传播和信息应用等方面采用德尔菲专家调查法建立了学术著作可信度的基本评价模型。潘勇和孔栋（2007）基于第三方认证机构的视角，构建了电子商务网站的信用评价指标体系及评价因素集，并建立灰色关联信用评估模型。当然，也有少量基于机器学习的信息可信度自动化评估实验研究，比如，马伟瑜（2011）提出一种采用改进的PageRank算法评估网页信息可信度的方法。"
+  },
+  "4社交媒体信息可信度评估研究": "",
+  "4.1国外研究": {
+    "context1": "国外相关研究较早。社交媒体信息可信度的相关研究随着BBS的出现随之展开，最早可追溯到20世纪80年代。目前可以说，研究处于繁荣期。国外研究情况可归纳如下："
+  },
+  "4.1.1社交媒体信息可信度评估研究内容": {
+    "context1": "研究内容主要包括： $\\textcircled{1}$ 不实信息的判断识别。如Qaz-vinian等（2011）提取Twiter信息的文本特征、网络特征和微博元素特征，构建贝叶斯分类器甄别谣言[4d。Zhao等（2015）通过研究查询帖以便及早识别社交媒体谣言[1]。 $\\textcircled{2}$ 话题新闻的可信度评估。如Castillo等（2011)选取了有关用户特征、文本特征、主题特征、信息传播特征，采用J48决策树评估Twitter中话题新闻的可信度[。"
+  },
+  "4.1.2社交媒体信息可信度评估方法": {
+    "context1": "评估方法主要有监督学习，统计分析，与可信信息来源的相似性比较[45-4d，社交网络的链接结构分析与主题模型的利用[4等。它们主要采用自动评估，具体来说： $\\textcircled{1}$ 选取的特征：选取的特征主要是用户特征、文本特征、信息传播特征。比如，西班牙的Castillo和智利的Mendoza、Poblete（2011）选取用户特征（如注册时间、粉丝量、好友量)，文本特征（如是否包含#标签、是否包含问号、Tweet中包含的URL数量、是否转发)，主题特征（如带#标签Tweet的比例、Tweet 数量、Tweet 的平均长度、Tweet的平均情感分值、积极情绪或消极情绪的比例），以及信息传播特征（如传播树的深度），采用J48决策树评估Twitter信息的可信度。 $\\textcircled{2}$ 评估的方法：大多通过构建SVM分类器、Bayesian分类器、Decision Tree分类器等方法，并对结果进行分类，以达到评估社交媒体信息可信度的目的。上例Castillo等采用J48决策树构建分类器，并对结果进行分类，从而评估Twitter信息的可信度。当然，也有通过对结果进行排序的实例，从而达到评估社交媒体信息可信度的目的。比如，Gupta 和Kumaraguru（2012）采用Rank-SVM与PRF相结合的方法，按照可信度得分对Twitter信息进行排序[4"
+  },
+  "4.1.3有较大影响的在研项目与系统": {
+    "context1": "由欧盟资助七国科研人员联合攻关的PHEME项目研究的重点是社交媒体信息的真实性，该项目在国际上有较大影响。JacobRatkiewicz等（2011）开发出可实时追踪Twitter上政治谣言的 Truthy系统。Gupta等（2014）、Lorek等（2015）分别开发出一款可自动评估推文可信度的工具 TweetCred、TwitterBOT 49-5d 。"
+  },
+  "4.2国内研究": {
+    "context1": "2007年《博客信息“可信度不亚于纽约时报”？》拉开了国内探讨社交媒体信息可信度评估的序幕。目前研究还处于发展的初期。社交媒体信息可信度评估研究主要有："
+  },
+  "4.2.1社交媒体信息可信度影响因素研究": {
+    "context1": "如刘雪艳和闫强（2013）探讨政府微博中的热点事件信息可信度的影响因素b。丁科芝（2015）从信息传播者、渠道、信息内容和用户基本信任观念4个方面构建社交网络可信度影响因素模型。薛传业等（2015）从信息来源可信度、信息传播渠道可信度、信息内容可信度以及信息评论反馈多维度探讨了突发事件中社交媒体信息可信度的影响因素 。"
+  },
+  "4.2.2构建社交媒体信息可信度指标体系研究": {
+    "context1": "它大多采用问卷调查及专家访谈法进行人工评估。屈文建和谢冬（2013）从站点层次、版块层次、主题层次、内容层次4方面，采用模糊综合信用评估模型对网络学术论坛信息可信度进行评估。莫祖英等（2013）从微博信息量、信息内容质量、信息来源质量和信息利用情况等方面进行问卷调查，采用层次分析法构建微博信息质量评估模型。当然国内也有少量自动化评估的例子。比如，贺刚等（2013）引入关键词分布特征和时间差等新特征，基于SVM算法来预测新浪微博信息是否为谣言。程亮等（2013）提出基于BP神经网络模型及改进其激发函数，同时引入冲量项，对微博话题在传播过程中演变为谣言进行检测。路同强（2015）采用半监督学习算法检测微博谣言，但不足之处在于未考虑信息的深层特征。"
+  },
+  "4.3存在的问题": {
+    "context1": "对比国内外研究情况，可发现国内研究存在如下问题："
+  },
+  "4.3.1研究内容": {
+    "context1": "关于社交媒体信息可信度研究，国内外目前以微博研究较多。与国外丰富的研究内容相比，国内在该领域的研究还主要集中于对影响因素以及特征的探讨上。"
+  },
+  "4.3.2研究方法": {
+    "context1": "国外定量研究较多，很多涉及自动化评估，而国内定性研究较多，大多采用问卷调查法、专家访谈法等进行人工评估。",
+    "context2": "总之，现有研究大多是针对Twitter等英文社交媒体，其研究成果大多不能直接应用于中文社交媒体。尽管也有少量研究是面向中文社交媒体的，但研究成果零散，还缺乏系统性。另外，在特征选择上，选择范围面较窄，考虑社交媒体深层的隐含特征较少。"
+  },
+  "5结语": {
+    "context1": "为了解决中文社交媒体的可信度评估问题，在吸收前人研究的基础上59-63，很有必要对中文社交媒体信息可信度进行系统研究，特别是在参考国外信息可信度评估系统的基础上，很有必要研制开发中文社交媒体信息可信度评估系统，实现中文社交媒体信息可信度的自动评估。在进行中文社交媒体信息可信度评估中，应注意下列问题：",
+    "context2": "1）评估要在对信息资源分类的基础上，对不同的类别采用不同的评估指标体系，以提高评估工作的科学性和合理性。",
+    "context3": "2）评估既要重视定性评估，也要重视定量评估，尤其是自动化评估。特别是在大数据环境下，应针对评估的实际需求，制定科学的评估方案，选择恰当的评估方法，构建适合评估工作需要的自动化评估系统。",
+    "context4": "3）评估指标、评估模型的选取以及参数的训练，既要考虑研究结果的精确度，又要考虑系统的运算时间。",
+    "context5": "4）评估模型构建后，不仅要进行实验室评估，还应进行实际效果评估。"
+  },
+  "参考文献": {
+    "context1": "[]Ngai，E.W.T.，Moon，K.K.，Lam，S.S.，Chin，E.S.K. and Tao，S.S.C.． Social media models，technologies，and ap",
+    "context2": "plications[．Industrial Management and Data Systems，2015,115 (5): 769 -802.  \n[2]Gamboa，A.M.and Goncalves，H.M.．Customer loyaltythrough social networks: lessons from Zara on Facebook[].Business Horizons，2014,57(6)：709-717.  \nBJin，S-A.A．and Phua，J.Follwing celebrities\"tweets aboutbrands:the impact of Twitter-based electronic word-of -mouthon consumers'source credibility perception，buying intention，andsocialdentifatoicelebiJoualofviing2014,43 (2):181-195.  \nColliander，J.and Dahlen，M.Following the fashionable friend:the power of social media[．Journal of Advertising Research，2011,51 (1):313-320.  \nb]Moncrief，W.C.，Marshall，G.W．and Rudd，J.M.．Socialmedia and related technology:drivers of change in managing thecontemporary sales force[J]．Business Horizons，2015，58(1): 45 -55.  \nb]Hong，LiangjieandDavison，B.D.Empirialstudyoftopicmodeling in twitter[C]//Proceedings of the First Workshop onSocial Media Analytics（SOMA1O）．ACM，New York，NY,USA，2010: 80 -88.  \nKleinberg，J.M..Authoritativesources inahyperlinked environ-ment[．Journal of the ACM，1999，46（5)：604-632.  \nTobar，C.M.，Germer，A.S.，Adan-Coello，J. M.，and DeFreitas，R.L..Informationretrieval in Wikisusing anontology[．Computational Science and Engineering，2009:826 -831.  \nKim，Y．and Shim，K．TWILITE:A recommendation system forTwiter usingaprobabilistic modelbasedonlatent Dirichlet alloca-tion．Information Systems，2014:59 -77.  \n[o]Ramesh，A.，Anusha J.，Clarence，J.M.T.．A novel，gen-eralized recommender system for social media using the collabora-tive -filtering technique．ACM SIGSOFT Software Engineer-ing Notes，2014:1-4.  \n[1] Zimdars，A.，Chickering，D.M.，and Meek，C.Using Tem-poral Data for Making Recommendations[c]//Proceedings ofthe Seventeenth conference on Uncertainty inartificial intellgence（UAI01），Jack Breese and Daphne Koller（Eds.）．MorganKaufmann Publishers Inc.，San Francisco，CA，USA，2001:580-588.  \n[12]Levandoski，J.J.，Sarwat，M.，Eldawy，A．and Mokbel,M.F..LARS:A Location - Aware Recommender System[c]//IEEE 28th International ConferenceonDataEngineering,Washington，DC，2012:450 -461.  \n[3] Jamali，M.and Ester，M.Trust Walker:arandom walk modelfor combining trust -based and item -based recommendation[//Proceedings of the 15th ACM SIGKDD international conferenceon Knowledge discovery and data mining（KDDO9)．ACM，NewYork，NY，USA，2009:397-406.  \n[4]Galuba W，Aberer K，Chakraborty D，Despotovic Z，KelererW.Outweeting the twitterers - predicting information cascades inmicroblogs[C]//Proceedings of the 3rd Workshop on Online So-cialNetworks，USENIX Association，Boston，MA，USA，2010:1-9.  \n[15]Adar，E.and Adamic，L.A.. Tracking Information Epidemicsin Blogspace[C]//Procedings of the 2005 IEEE/WIC/ACMInternational Conference on Web Intellgence（WIO5）．IEEEComputer Society，Washington，DC，USA，2005:207 -214.  \n[6]Asur，S and Huberman，B.A.．Predicting the Future with So-cial Media[C]//2010 IEEE/WIC/ACM International Confer-ence on Web Intelligence and Intelligent Agent Technology（WI-IAT)，Toronto，2010:492 -499.  \n[17]Viswanath，B.，Post，A.，Gummadi，K.P.，and Mislove,A．An analysis of social network - based Sybil defenses[].Acm Sigcomm Computer Communication Review，2010，40（4)：363-374.  \n[18]Conti，M.，Hasani，A.，and Crispo，B.Virtual Private So-cial Networks[// Proceedings of the 1st ACM Conference onData and Application Security and Privacy（ACM SIGSAC CO-DASPY 2011)，San Antonio，TX，USA，2011:39 -50.  \n[9]韩佳，肖如良，胡耀，等．在线社交网络中信息传播模式的特征分析[．计算机应用，2013，（1)：105－107，111.  \n[0] 姜景，李丁，刘怡君．基于竞争模型的微博谣言信息与辟谣信息传播机理研究[．数学的实践与认识，2015，（1)：182 -191.  \n[1] 阎俊．微博传播的问题与对策研究[]．锦州：渤海大学,2015:1-38.  \n[2]陈远，袁艳红．微博信息传播效果实证研究[．信息资源管理学报，2012，（3)：28-34.  \n[3]张辨，孙霄凌，朱庆华．突发公共事件舆情传播特征与规律研究——以新浪微博和新浪新闻平台为例[．情报杂志，2014, (4): 90 -95.  \n[4]张瑜，李兵，刘晨 $^ { 3 \\sharp }$ ，面向主题的微博热内话题舆情监测研究——以“北京单双号限行常态化”舆情分析为例[．中文信息学报，2015，（5)：143-151，159.  \n[25]唐涛：移动互联网舆情新特征、新挑战与对策．情报杂志，2014, (3):113 -117.  \n[6]唐兴通．社会化媒体营销大趋势：策略与方法(第2版)M．北京：清华大学出版社，2012：1－235.  \n[7]张淼．社会化媒体在市场营销中的应用研究[]．北京:首都经济贸易大学，2014:1-47.  \n[8]刘晓燕，郑维雄：企业社会化媒体营销传播的效果分析-以微博扩散网络为例[．新闻与传播研究，2015，（2)：89 -102，128.  \n[9]Fogg，B.J.，and Tseng，H. The elements of computer credibil-ity[//Proceedings of the SIGCHI conference on Human Fac-tors in Computing Systems，Pittsburgh，Pennsylvania，USA,1999:80 -87.  \nBolRieh，Sand Danielson，D.Credibity:A MultidisciplinaryFramework [．Annual Review of Information Science and Tech-nology，2007:307 -364.  \nB1] Nagura，R.，Seki，Y.，Kando，N and Aono，M．A methodof rating the credibility of news documents on the web[//Pro-ceedings of the29th annual iternational ACMSIGIR conferenceonResearch and development in information retrieval（SIGIRO6).ACM，New York，NY，USA，2006:683-684.  \nB2]Yamamoto，Yand Tanaka，K．Enhancing credibility judgmentof web search results[C]//Proceedings of the SIGCHI Confer-ence on Human Factors in Computing Systems（CHI11)．ACM,New York，NY，USA，2011:1235-1244.  \nB3]Adler，B.T.，Chaterjee，K.，De Alfaro，L.，Faella，M.，Pye，I.，and Raman，V.Assgning trust to Wikipedia content[//Proceedings of the 4th International Symposium on Wikis.ACM，2007:1-12.  \nB4]Olteanu，A.，Peshterliev，S.，Liu，X.，and Aberer，K.Web Credibility:Features Exploration and Credibility Prediction[//European Conference on Advances in Information Retriev-al，2013:557-568.  \n[5]龚思兰，丁晟春，周夏伟，等．在线商品评论信息可信度影响因素实证研究[．情报杂志，2013，（11)：202－207，180.  \n[6]蒋洪梅．网络媒体新闻信息可信度研究[D]．南京：南京师范大学，2013：1-56.  \n[7]胡红亮．数字环境下学术著作的可信度研究[．科技与出版，2013，(5)：97-100.  \n[8]潘勇，孔栋．电子商务网站可信度评价模型．情报杂志，2007,(7):81-82，87.  \nB9]马伟瑜．基于改进的 PageRank 的网页信息可信度评估方法研究[]．保定：河北大学，2011:1-34.  \n[40]Qazvinian，V.，Rosengren，E.，Radev，D.R.，and Mei,Q.Rumor has it:Identifying misinformation in microblogs[c]//Proceedings of the Conference on Empirical Methods in NaturalLanguage Processing，Association for Computational Linguistics，UK，2011:1589 -1599.  \n[41]Zhao，Z.，Resnick，P.，and Mei，Q.Enquiring Minds:Ear-ly Detection of Rumors in Social Media from Enquiry Posts[C]//Proceedings of the 24th International Conference on World WideWeb（WWW15)．ACM，USA，2015:1395-1405.  \n[42]Castilo，C.Mendoza，Mand Poblete，B.Informationcredibili-ty on twiter[//Proceedings of the 2Oth international confer-ence on World wide web（WWW11)．ACM，New York，USA,2011:675-684.  \n[43]Gupta，A.，Kumaraguru，P.Credibility ranking of tweets dur-ing high impact events[//Proceedings of Workshop on Priva-cy and Security in Online Social Media Ser Psosm， 2012:2-8.  \n[44]ODonovan，J.，Kang，B.，Meyer，G.，Hollerer，T.，andAdalii，S.Credibility in Context:An Analysis of Feature Distri-butions in Twitter[C]/ Privacy，Security，Risk and Trust,2012:293-301.  \n[45]Al- Khalifa，H.S.and Al- Eidan，R.M.．An experimentalsystem for measuring the credibility of news content in twitter.International Journal of Web Information Systems，2011，7（2):130 -151.  \n[46]Suzuki，Y.and Nadamoto，A.Credibility Assessment UsingWikipedia for Messages on Social Network Services[]//IEEENinth International Conference on Dependable，Autonomic and Se-cure Computing， Sydney， NSW，2011: 887 -894.  \n[47]Canini，K.R.，Suh，B.，and Piroll，P.L.．Finding CredibleInformation Sources in Social Networks Based on Content and SocialStructure[//Privacy，Security，Risk and Trust (PASSAT)and 2011 IEEE Third Inernational Conference on Social Computing（SocialCom），2011 IEEE Third International Conference on,Boston，MA，2011:1-8.  \n[48]Ratkiewicz，J.，Conover，M.，Meiss，M.，Gongalves，B.,Patil，S.，Flammini，A．and Menczer，F.Truthy:mappingthe spread of astroturf in microblog streams[C//Proceedings ofthe 2Oth international conference companion on World wide web（WWW11)．ACM，New York，NY，USA，2011:249-252.  \n[49]Gupta，A.，Kumaraguru，P.，Castillo，C.，and Meier，P.TweetCred:Real - Time Credibility Assessment of Content onTwitter[//Social Informatics. Springer International Publish-ing，2014:228-243.  \nbo]Krzysztof，L.，Jacek，S.W.，Michal，J.L.，and Amit，G.Automated Credibility Assessment on Twitter[．Computer Sci-ence，2015，(2):157-168.  \n[1]刘雪艳，闫强．政府微博中的热点事件信息可信度研究[．北京邮电大学学报：社会科学版，2013，（2)：6－12.  \n[2]丁科芝．社交网络信息可信度研究[]．武汉：华中师范大学，2015:1-61.  \n53]薛传业，夏志杰，张志花，等．突发事件中社交媒体信息可信度研究[．现代情报，2015，（4)：12－16.  \n[4]屈文建，谢冬．网络学术论坛信息可信度的灰度分析[.图书情报知识，2013，（2)：112-118.  \n[5]莫祖英，马费成，罗毅．微博信息质量评价模型构建研究．信息资源管理学报，2013，（2)：12－18.  \n[6]贺刚，吕学强，李卓，等．微博谣言识别研究[．图书情报工作，2013，(23)：114-120.  \n57]程亮，邱云飞，孙鲁．微博谣言检测方法研究[．计算机应用与软件，2013，(2)：226-228，262.  \n[8] 路同强，石冰，闫中敏，等．一种用于微博谣言检测的半监督学习算法[．计算机应用研究，2016，（3)：744-748.  \n[9]Ginsca，A.L.，Popescu，A.，and Lupu，M.Credibility inInformation Retrieval [.Foundations and Trends in InformationRetrieval，2015:355-475.  \nb0]Lazar，J. Meiselwitz，G．and Feng，J.Understanding WebCredibility:A Synthesis of the Research Literature[M]．NowPublishers Inc，2007:1-80.  \n[1]Zafarani，R.Abbasi，M.A.，and Liu，H.社会媒体挖掘M．北京：人民邮电出版社，2015：1-240.  \n[2]拉塞尔．社交网站的数据挖掘与分析（第2版[M]．北京：机械工业出版社，2015：1-368.  \n[3] 梁循，杨小平，张海燕．面向社会化媒体大数据的社会计算M．北京：清华大学出版社，2014：1-129.",
+    "context3": "(本文责任编辑：孙国雷)"
+  },
+  "": "",
+  "(上接第159页)": {
+    "context1": "23］路甬祥．空间数据共享及其面临的伦理挑战（英文）[遥感学报，2000，（4)：245-250.  \n[4]Gummer E，Mandinach E.Building a Conceptual Framework forData Literacy[]．Teachers College Record，2015，117（4):n4.  \n[5]Mandinach E B，Gummer E S.Every teacher should succeedwith data literacy[．PhiDelta Kappan，2016，97(8)：43-46.  \n[6]Mandinach EB，Gummer E S.A systemic view of implementingdata literacy in educator preparation[．Educational Researcher,2013，42 (1):30 -37.  \n[7]孟祥保，钱鹏．国外数据管理专业教育实践与研究现状．中国图书馆学报，2013，（6)：63-74.  \n[8]孟祥保，钱鹏．国外高校图书馆数据馆员岗位设置与管理机制．图书与情报，2013，(4)：12-17.  \n[9]沈婷婷，卢志国．科研项目不同阶段的科学数据监管方法．图书馆建设，2013，（3)：49-51.  \nBo] Christine L.Borgman，青秀玲．科研数据共享的挑战[]．现代图书情报技术，2013，（5)：1-20.  \nβ1]Platt R，Ramsberg J. Challenges for Sharing Data from Embed-",
+    "context2": "ded Research[．New England Journal of Medicine，2O16，374 (19):1897-1899.   \nβ2]Meineke F A，Lobe M，Staubert S，et al．Integration of the clinical data management system OpenClinica into the research infrastructure of the Center for Sepsis Control and Care （CSCC)[C]. Infection．Tiergartenstrasse 17，D-69121 Heidelberg，Germany: Springer Heidelberg，2011，39:S141-S141.   \nB3]Myneni S,Patel VL.Organization of biomedical data for collaborative scientific research:A research information management system[．International journal of information management，2010, 30 (3):256-264.   \nβ4]Frank EP，Pharo N．Academic librarians in data information literacy instruction:a case study in meteorology[．College & Research Libraries，2015:crl15-828.   \nB5]Haendel MA，Vasilevsky NA，Wirz JA.Dealing with data:A case study on information and data management literacy．PLoS Biol，2012，10(5)：e1001339.   \nB6]Carmichael P.Tribes，territories and threshold concepts:Educational materialisms at work in higher education[]．Educational Philosophy and Theory，2012，44(s1)：31-42.",
+    "context3": "(本文责任编辑：郭沫含)"
+  }
+}

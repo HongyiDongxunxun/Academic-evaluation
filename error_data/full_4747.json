@@ -1,0 +1,102 @@
+{
+  "original_filename": "full_4747.md",
+  "境外近年电子档案技术与应用进展\\*": {
+    "context1": "王萍 郭秋言 宋雪雁（吉林大学管理学院信息资源管理系长春130022）",
+    "context2": "[摘要]本文整理分析了国外2000年至2014年的电子档案技术与应用方面的研究文献，主要评析了国外学者在传统载体档案数字化技术、原生数字档案的归档和利用、云技术的应用三个方面的研究成果。",
+    "context3": "[关键词]电子档案原生数字档案云技术"
+  },
+  "[中图分类号]G270.7": {
+    "context1": "Abstract: In this paper，the foreign papers about the technology and application of electronic archives from 2000 to 2014 were reviewed. The Authors introduced the key research achievements,such as: the digital technologyof the traditional carrierarchives,the archivingand utilization of born-digital records；and the application of the cloud technology.",
+    "context2": "Keywords: Electronic archive; Born-digital records; Cloud technology",
+    "context3": "1引言",
+    "context4": "本文的研究数据来源于ACM、Springer-link、EBSCO （LISTA）Emerald 和 Elsevier Science 五个数据库，在检索过程中限定的时间范围为2000年至2014年，以“electronicrecords”、“electronicarchive”、“digitalarchive\"作为检索词,经过对文献的主题筛选，共获得电子档案技术研究的英文文献409篇（其中电子医疗档案技术应用文献230篇，不包括医学具体专业的数据管理研究）。在这些文献中，以美国、英国、澳大利亚和其他一些欧洲国家的学者的学术成果为主，亚洲地区日本和中国台湾的学者也有较多的研究。从文献分析可以得出，近年来传统载体档案的数字化技术、原生档案的归档和在医疗、电子政务方面的利用以及云存储技术与电子档案的融合是技术开发与应用的重点内容，本文随后按照这三个主题进行了总结分析。"
+  },
+  "2多种载体档案数字化技术": {
+    "context1": "将传统载体的档案转换为数字格式，进行数字档案信息的重建是最为基础的工作。从所获文献来看，近年来各国学者的研究方向多为特定方面的档"
+  },
+  "案数字化技术及其应用。": {
+    "context1": "2.1自动页面分析",
+    "context2": "希腊国家信息与电子通信研究中心的Gatos等学者开发了一种报纸档案的自动页面分析技术，即在数字化的过程中采集和存储相关信息，对文章内容进行逻辑理解。1该技术首先进行报纸图像的预处理，定义一个阀值提取图像信息并进行图片增强；然后在整个页面按照线、图形、背景线、特殊符号、文本和标题栏的顺序自动提取图像的组件；最后进行文字的识别和重建，通过对数字文件单个组件的字符分割识别和对文本内容的逻辑识别以实现文本信息的数字化重建。"
+  },
+  "2.2曼彻斯特计算": {
+    "context1": "曼彻斯特计算为英国曼彻斯特大学Macintyre等学者开发的一个档案数字化的原型应用程序，其功能包括纸质档案的初始转换、数据的管理和访问。2曼彻斯特计算通过ASCII文本协助创建搜索资源，采用逐页和文章逐条两种数据加载方法，使用自动创建页面级数据、手动创建文章级数据、持续改进存档三项操作来创建元数据，定义了归档的最小元"
+  },
+  "数据集合标准，并应用标记通用语言-文件形态定义（SGML DTD)来反映。": {
+    "context1": "$2 . 3 \\mathrm { \\ A } / \\mathrm { D }$ 转换技术",
+    "context2": "意大利帕多瓦大学Orio等学者将A/D转换技术应用于近年来数量逐增的多媒体档案的生成。[3]Orio研究了音频档案信号转换的载波分析和恢复、信号提取、数据评估和保存副本，应用半自动的方式从音频和视频载波中针对性地获取元数据，通过校准曲线和相似性的可视化表示得出差异性图表，以减少A/D转换设备导致的无意识的信息损失和转变。此项技术目前成为为欧盟各国音像资料数字化普遍采用的技术。"
+  },
+  "2.4 3D激光扫描与三维模型": {
+    "context1": "档案学者认为应用3D激光扫描技术，建立文化遗产档案的三维数字模型并将其存储、开放利用是保护文化遗产最好的办法。中国科技大学Yang等学者提出了采用三维激光扫描仪获取点云数据的方法，然后将数据导入Rapidform XOR2软件中并构建三维模型，随后通过参数化软件Pro/ENGI-NEER转换成二维图像提供给用户。[4斯坦福大学Koller等学者进行的米开朗基罗及古罗马城图志数字化工程，将文物用高解析度的激光扫描仪扫描，把所获三维数字模型及其元数据存档并公布于项目网站，使用户可以通过远程ScanView呈现系统访问。[5]加州大学Frischer等学者开展了数字化罗马广场项目，进行了整体空间的虚拟三维重建，并将三维模型每个组件的元数据全部存入实时三维数据库。[",
+    "context2": "总体而言，目前档案数字化的基础技术已经成熟，学者们关注的是所创建的数字档案信息的准确性，主要从正确理解原始档案的逻辑内容和避免直接的信息丢失两方面入手，并注重档案数字信息转换各个过程操作的自动化研究。此外，越来越多载体形式的档案被转换为数字档案，但仍存在一些技术挑战有待解决，如文化遗产档案三维模型的数字版权管理、版本控制、互操作性和三维重建不确定性等。"
+  },
+  "3原生数字档案技术": {
+    "context1": "近年来国外学者主要研究了来源于网络和捐赠者的原生数字资源的归档存储技术以及在医疗和公共管理领域集中产生的原生数字档案的利用。"
+  },
+  "3.1原生数字档案的归档技术": {
+    "context1": "学者们普遍将原生数字档案的归档工作分为采集有档案价值的数字资源，以及对所获资源的整理加工使其成为可访问的档案信息这两个步骤。",
+    "context2": "3.1.1奥地利在线归档(AOLA)数据收割技术。AOLA网络原生数字资源收割由奥地利国家图书馆和维也纳科技大学联合开发，其目标为实现奥地利网络空间的周期性的归档。[7该技术基于Linux系统，遵循开源的方法，采用自动收割索引技术整体下载网络空间的内容，研究人员已将此技术应用于奥地利网络空间数据的收割和数字图书馆的建设。",
+    "context3": "3.1.2网络数字资源映射。",
+    "context4": "美国国会图书馆开展了“映射网络数字资源的虚拟存档(MINERVA)”项目，[8其内容包括对网页和多媒体文件内容的采集、存储、编目和最终向用户提供访问。该项目采用基于事件和主题的方式进行内容选择，获取网页资源，并对创建获得文件的档案元数据，包括作为编码和类型定义标准的结构/系统管理元数据，以及有助于索引的内容元数据。应用人工编目的方式，为每份档案创建一个在集成管理系统(ILS)中的AACR2/MARC目录记录，并使用元数据对象描述模式(MODS)创建了每个网站的描述性记录。研究人员还设计了用户查阅界面，并计划进一步的研究数据的访问方式和接口。",
+    "context5": "3.1.3“白色档案”的转换。“白色档案\"的转换为美国埃默里大学Carroll等学者组成的工作组提出的概念，即原生电子数据通过每一步骤的加工和复制最终成为可供用户查看的仿真环境下的文件的副本的全程技术。原始数据经过硬件的分类典藏转化为“黑色档案”（档案原件，主要用于存档，没有副本）,经过初步加工和灾难恢复进一步转化为“灰色档案”（内部工作副本，模拟环境的构建依据）,最后经过文档的限定和迁移转化为“白色档案”（数据的可访问副本）。",
+    "context6": "Carroll应用该技术收集整理学者Rushdie捐赠的数字论文资源。[10首先，工作组进行了数字材料及制备文件的初步评估，识别每个硬件的详细的物理状况。接着，创建硬盘驱动器的磁盘映像，计算和记录每份文件的散列值，收割各类型的用户和系统生成的元数据，并将其转换为电子表格的格式，应用消息摘要算法(MD5)校验和为标准获得唯一的用户创建文件的清单。随后进行对原生数字记录的排列和描述，确定文件的可被访问的范围，并选择应用文件的关联信息来描述。最后采取数据迁移和系统仿真这两种技术来提供访问条件，建立原生数字档案的信息分析。",
+    "context7": "3.1.4Fedora 档案存储系统。Fedora是基于Linux的允许数据发布、修改和存储的操作系统，目前有学者提出将原生数字档案导入Fedora系统以进行原生数字档案馆藏建设。",
+    "context8": "(1)原生数字信息管理系统(AIMS)项目。AIMS项目由弗吉尼亚大学、赫尔大学、斯坦福大学、耶鲁大学和英国赫尔历史中心共同参与，使用AddThis网站开发的分布式任务处理系统（Hydra），将原生数字档案材料引入Fedora，创建一个元数据封装器，使用DROID,FITS等工具，以求达到在五年内创建超过一百万的原生数字档案集合的目标。[1在档案收集后制定相应的管理政策和程序，包括档案接收前的网络的初步审查与评价；对档案进行病毒检测、校验、清单创建和提交信息包(SIP)创建；考虑文件访问格式迁移，设置用户权限等。",
+    "context9": "(2)Fedora数字对象存储库。英国惠康图书馆Hilton等学者建立了一个Fedora数字对象存储库，并开发了一个采集和检索数字资源的系统。[12该项目在使用元数据编码及转换标准(METS)的Fedora所提供的技术元数据起始模型的基础上，研究了对于不同标准的技术元数据的重新创建、收集和管理，同时也参考了保存元数据实施战略(PREMIS)技术元数据标准和国际档案著录标准(ISAD(G)）,并开发了技术元数据的自动提取的工具和设施。",
+    "context10": "总之，学者们通过自动的方式采集原生数字档案，采用现有的档案元数据标准对其进行分类整理，并以用户需求为基准提供档案信息利用服务。但目前发展尚未完善，在档案采集方面，网络数字资源的版权问题有待解决，同时应进一步整合社会各机构的原生数字资源捐赠归档流程。在数字资源库建设方面，目前多为档案馆或图书馆独自操作，缺少与其他机构的合作，且有些服务模式依然比较传统，这些问题是各国学者进一步研究的方向。"
+  },
+  "3.2原生数字档案在医疗领域的应用": {
+    "context1": "电子健康档案(EHR)是电子病历的更高级的形式，为应用最为广泛的原生数字档案。北美、澳大利亚及欧洲等国家很早便开始了这方面的实践，学者们主要关注电子健康档案系统的开发及对患者实时健康信息的掌控。",
+    "context2": "3.2.1集成电子病历系统(iEMRS)iEMRS由香港理工大学S.L.Ting等学者开发，通过数据挖掘技术提供一体化的医疗机构信息管理。[3iEMRS由表示层、通信层、逻辑层和数据层四部分组成，其中表示层是医生和护士访问系统的媒体平台，同时也向用户提供信息查询服务；通信层负责保护医疗数据的保密性和完整性的安全链接；逻辑层包括对临床信息的记录，可进行信息检索、医学行为警报和治疗模式的图形处理；数据层保护多个数据仓库以存储通过逻辑层转换的电子健康数据信息。",
+    "context3": "3.2.2一站式多媒体病历系统。美国南加州大学Jorge等学者开发了一个集成的一站式实时多媒体电子病历系统，用于管理和分配实时多模式成像和信息数据，并将其应用于微创脊柱外科的临床手术中。[14该系统收集、显示和归档病人从术前到术后全过程的所有数据。术前信息应用医学数字成像和通信标准(DICOM)数据模型成像，电子病历系统的网关从图片存档和通信系统(PACS)中接收DICOM格式的图像，提取元数据记录在数据库中，并通过手术室中的显示器呈现给医生。系统的集成单元连接所有的临床设备并持续接收整个手术过程中的实时数据信号，进行实时的数字显示。在术后恢复阶段系统继续收集被传输到网关的病人生命体征，并存入电子病历服务器中作为患者手术的永久记录。",
+    "context4": "3.2.3个人实时电子健康档案。国外学者集中研究了获取患者实时健康信息并实时向医生传递。",
+    "context5": "(1)集成流媒体技术。台湾亚洲大学Chen等学者开发了一个应用集成流媒体技术的便携式电子健康档案系统，将患者静态和动态的医疗图形编码为流媒体视频格式，并基于视频压缩解码器(VP6)编解码技术存储于流媒体服务器 (FMS)中，通过互联网传递给医生。[15同时，系统将患者信息存档于可携带的IC卡中并应用医院公钥加密，其他医务人员在解密后可通过患者的IC卡来读取数据库中的动静态医学图像档案。目前此项技术正计划与台湾原有的医疗IC卡的基本数据、医疗数据、卫生行政数据融合进行应用。",
+    "context6": "(2）体域网数据集技术。爱尔兰科克大学Donoghue等学者开发了采用体域网(BAN)数据集技术的本体医疗推理三方管理模型(DMS-TOMRM),[1应用病人生命体征监测装置，通过读取病人的多个感应器的脉冲读数，根据设定的预期数据范围估计健康状况，对数据进行集成发送，无缝实时地传递病人连贯的生命体征，重点可以解决远程病人监护的问题。",
+    "context7": "(3)Arcatech生物传感技术。西班牙ATOS研究与创新机构的Quintero等学者开发设计了一个结合生物传感技术的Arcatech电子健康档案图形用户界面(EHR-GUI)平台。[7该系统应用基于电化学的生物传感器，同时检测患者多个生命体标志物，采用医学概念原型和存储静态结构参考模型的“双模式的方法\"双级建模，将健康档案信息传递给医疗机构和图形用户界面(GUI)。目前此项技术主要用于西班牙心血管疾病的诊断。",
+    "context8": "综上所述，当前电子健康档案系统集成性高、覆盖范围广，且服务种类多样，技术发展较为成熟，但主要应用功能为医疗诊疗服务，档案信息共享功能的作用尚为有限，从全社会角度来看健康档案信息较为分散。因此目前已有学者提出了用户与“官方”健康档案信息双向共享的进一步研究方向。",
+    "context9": "3.3原生数字档案在电子政府领域的应用",
+    "context10": "3.3.1面向服务的体系结构(SOA)框架。各国政府和学者对于电子政务技术方面的研究多为信息资源的整合和系统的互操作性。SOA框架为面向服务的体系结构，希腊爱琴大学Charalabidis等学者认为在语义网时代，[18SOA架构是解决电子政务中互操作性的整合以及对动态需求的描述等问题较为理想的工具，在其中创建了电子政务资源的基于本体的扩展元数据集合，包含XML架构、代码表、公共机构服务和信息系统。并使用网络服务描述语言（WS-DL)和网络服务本体语言(OWL-S)等描述工具对政府网站之间的注册和交流进行了解决方案的设计，拟将此技术应用于政府网站的服务系统。",
+    "context11": "3.3.2电子文件管理与归档系统(E-BEYAS)项目。土耳其政府与安卡拉大学联合开展了E-BEYAS项目，共同管理行政记录和学业记录，对电子政务系统技术集成进行了研究，包括单点登录(SSO)集成、电子签名集成、国家组织数据库集成、移动签署集成等，以求实现在政府、高校和企业之间的电子文件管理系统的集成运行。[19]",
+    "context12": "总之，电子政务系统作为一种公共服务方式，其技术开发从行政效率角度出发的同时也兼顾用户的具体服务需求，并注重电子识别和电子授权的确认等信息安全的保障。此外，学者们逐渐开始关注各个国家之间的电子政务体系的协助，如电子政务系统之间的互操作性框架 (EIF)、跨国安全系统的开发等。"
+  },
+  "4云技术及其应用": {
+    "context1": "将云技术应用于电子档案的管理，其中心为电子档案数据的分布式存档和并行处理，以及最终提供给用户的云存档服务。从2010年起，出现了较多的云计算在电子档案领域的应用研究，学者们主要探讨的是云计算对电子档案存储模式的影响以及在云环境下面提供给档案用户的服务。"
+  },
+  "4.1云存档分层模型": {
+    "context1": "日本筑波大学JanAskhoj等学者创建了一个云存档系统的整体模型。[20JanAskhoj首先将其指定的云服务用分层的方法进行了抽象和描述，即将OAIS模型的功能实体映射到云服务的分层系统中，提出新的云归档分层模型，包括保存及服务(PAAS)层、软件即服务（SAAS）层、保存层和交互层四部分。PAAS层提供通用的存档和业务系统，其所有的对象都是比特字符串，并提供给每个数据一个唯一的URI;SAAS层将字符串转化为可供理解的数字对象，且可以提供给用户操作利用；保存层起到用户与系统之间的桥梁作用，将数字对象转换为包含描述元数据、表示信息(RI）、保存描述信息(PDI)和封装信息的信息包；交互层包含直接面向用户的系统，用户可以直接访问和读取信息包，或者获取由SAAS层传递来的数字对象。",
+    "context2": "JanAskhoj等学者又提出了另一种云存档模型，将最顶层的与用户的交互改为ARM层，包含随着时间推移来管理档案的不同的系统，将保存层变为AIP 的档案存储和数据管理的实体。此外,JanAskhoj进行了应用规范的设计，选择了元数据编码及转换标准（METS)，并应用保存元数据实施战略（PREMIS)元数据字典来表示元数据的存储。[21]",
+    "context3": "4.2云数据存档(CloudDA)系统",
+    "context4": "清华大学Guigang等学者开发了一种在云环境中名为CloudDA的存储系统以提供海量的档案信息存储。[22首先做出所获取信息的数字摘要，将其与电子档案实体、元数据一起使用DA/T48-2009标准装入提交信息包(SIP)中，并将其传递给管理者；随后进入清华云文件系统(THCFS），判断并记录电子档案的存储路径，并创建档案信息包(AIP)在系统中进行长期保存。最后AIP包被发布为分布式信息包(DIP)以供终端用户利用档案信息。此外还设计了一个HUABASE数据库用于存储元数据和索引信息等的结构化数据。",
+    "context5": "4.3云加密技术",
+    "context6": "加拿大国家档案馆Stuart等学者研究了云中加密数据的存储。[23Stuart指出在虚拟技术中并不能确保加密数据的安全，提出可以采用产生随机加密密钥对数字档案对象的哈希值进行标记，在文件加密时采用PKI安全技术和框架，或者在系统中增加一个加密层，使敏感信息数据在存储到云中之前进行加密并在检索后解密。",
+    "context7": "总之，云存储作为一种强大的信息管理技术，能够为电子档案提供一种全新的资源获取、存储和传播模式，已使电子档案管理技术在OAIS框架的基础上有了较大的创新，相信基于云平台的电子档案管理技术将会得到更多推广和应用。"
+  },
+  "5结束语": {
+    "context1": "电子档案技术对于当代档案领域整体的发展至关重要，其发展主要取决于外部技术环境的变化。在计算机技术不断影响着电子档案数据的存储技术的同时，网络信息技术也极大地改变了传统档案信息的传播服务模式。",
+    "context2": "本文梳理了电子档案技术及应用方面最新研究进展，从研究思路看，国外的研究者已经将技术开发的出发点转向了满足用户的档案信息需求，以服务为宗旨进行技术开发，且与数字图书馆、计算机、行政管理等相关学科联系较为密切；在研究方法上，他们更侧重具体的专项技术的深入细致的探讨，且多数与实际应用案例相结合，并做出结果分析，提出不足之处和未来发展方向；在研究成果上，对于档案的数字化技术、原生数字档案的归档及云档案存储技术的研究创新较多，发展较为成熟且多数已经投入应用。"
+  },
+  "注释与参考文献：": {
+    "context1": "[1]B.Gatos, S.L. Mantzaris,S.J. Perantonis,A. Tsigris.Automatic page analysis for the creation of a digital library from newspaper archives[J].International Journal on Digital Libraries,2OOO,3(1): 77- 84.",
+    "context2": "[2]Ross Maclntyre,Simon Tanner. Nature a prototype digital archive [J].International Journal on Digital Libraries ,July 2000,3(1):67-76.",
+    "context3": "[3]Nicola Orio, LauroSnidaro, Sergio Canazza,",
+    "context4": "Gian Luca Foresti. Methodologies and tools for audio digital archives[J]. International Journal on Digital Libraries,2009,10(4):201-220.",
+    "context5": "[4]Wun -Bin Yang, Min -Bin Chen, Ya - NingYen.An application of digital point cloud to historic architecture in digital archives U].Advances in Engineering Software,2011,42(9):690 - 699.",
+    "context6": "[5][6]DavidKoller,BernardFrischer,Greg Humphreys.Research challenges for digital archives of 3D cultural heritage models [J].Journal on Computing and Cultural Heritage,2009,2(3):No.7.",
+    "context7": "[7]Andreas Rauber,Andreas Aschenbrenner. Part of Our Culture is Born Digital - On Efforts to Preserve it for Future Generations [J].On-line Journal for Cultural Studies Internet-Zeitschrift,2001(7).",
+    "context8": "[8]Robin Taylor.MINERVA Archiving BornDigital Material at the Library of Congress [J].Slavic &East European Information Resources,2Oo4,5 (2): 157-162.",
+    "context9": "[9][1O]Laura Carroll,Erika Farr,Peter Hornsby, Ben Ranker.A Comprehensive Approach to BornDigital Archives[EB/OL].[2014-03-30].http://journals.sfu.ca/archivar/index.php/archivaria/issue/view/ 454/showToc.",
+    "context10": "[11]Simon Wilson,Digital Archivist.Born - digital archives $@$ Hull early steps and lessons learnt (sofar)[EB/OL].http://born - digital - archives. blogspot.com",
+    "context11": "[12]Chris Hilton，Dave Thompson. Collecting Born Digital Archivesat the Wellcome Library [EB/OL].2007-01-30][2014-03-30].http://packed. be/en/resources/detail/collecting_born_digital_archives_at_the_wellcome_library/andere_literatu$\\mathrm { { \\mathbf { u r } } } / { \\AA }$",
+    "context12": "[13]S.L.Ting,W.H. Ip,AlbertH.C.Tsang,GeorgeT. SHo.An integrated electronic medical record system (iEMRS) with decision support capability in medical prescription J].Journal of Systems and Information Technology,2012,14(3):236-245.",
+    "context13": "[14]Documet J1,Le A, Liu B,Chiu J,Huang HK.A multimedia electronic patient record (ePR) system for image-assisted minimally invasive spinal surgery J].Int J Comput Assist Radiol Surg,2010,5 (3):195-209.",
+    "context14": "[15]Wei Chen,Chien-Chou Shih.Architecture of Portable Electronic Medical Records System Integrated with Streaming Media Dl.J. Medical Systems,2012(36):25-31.",
+    "context15": "[16]JohnO‘Donoghue， John Herbert,PhilipO ‘Reilly,DavidSammon.TowardsImproved Information Quality The Integration of Body Area Network Data within Electronic Health Records []. Lecture Notes in Computer Science,2009,7(3):299- 302.",
+    "context16": "[17]Ana Maria Quintero,Carlos CaveroBarca, Carlos Marcos Lagunar，César Mediavilla,José Luis Conesa,MiguelRoncalés,YaizaBelacortu,AlejandroJuez,LuisFernandez,AlexandraMartin,RenzoDalMolin. Integrating an Electronic Health Record Graphical User Interface into Nanoelectronic-Based Biosensor TechnologyU].IFMBE Proceedings,2013(9):845-848.",
+    "context17": "[18]Charalabidis Y,Lampathaki F,Askounis D. Metadata sets for e-government resources: The extended e-government metadata schema []. Electronic Government,Proceedings,2009,5698: 341 - 352.",
+    "context18": "[19]zlemBayrama,Fahrettin?zdemircib,TaylanGiivercinc. Developing Electronic Records Management Software Applications and Managing Institutional Differences:A Comparative Study[].Procedia - Social and Behavioral Sciences,2O13,73 (27): 526-533.",
+    "context19": "[20]JanAskhoj， ShigeoSugimoto， MitsuharuNagamori.Preserving records in the cloud [J]. Records Management Journal,2011,21(3):175 - 187.",
+    "context20": "[21]JanAskhoj， ShigeoSugimoto， MitsuharuNagamori.A Metadata Framework for CloudBased [J].Lecture Notes in Computer Science,2011 (10): 118-127.",
+    "context21": "[22]Zhang Guigang, XueSixin, Feng Huiling, Li Chao,Liu Yuenan，Yong Zhang,ChunxiaoXing.Massive Electronic Records Processing for Digital Archives in Cloud[J].Lecture Notes in Computer Science,2013(11): 814-829.",
+    "context22": "[23]KatharineStuart,DavidBromage. Current state of play records management and the cloud[J]. Records Management Journal2010,20(2):217 - 225.",
+    "context23": "[作者简介]王萍,女,1965年生,吉林大学管理学院信息管理系教授,博士生导师,从事档案信息资源管理、数字信息管理等方面的研究。郭秋言,女,1991年生,吉林大学档案学硕士研究生;宋雪雁,女,1980 年生，吉林大学管理学院信息管理系副教授。"
+  }
+}

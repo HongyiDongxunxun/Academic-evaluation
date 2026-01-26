@@ -1,0 +1,145 @@
+{
+  "original_filename": "full_6848.md",
+  "数字人文中的交互式可视化应用研究综述": "",
+  "A Review of Research on Interactive Visualization Applications in Digital Humanities": {
+    "context1": "李文琦1.2",
+    "context2": "LI Wenqi",
+    "context3": "(1.北京大学信息管理系，北京，100871;2.北京大学数字人文研究中心，北京，100871)",
+    "context4": "8888888888888摘要：[目的/意义]交互式可视化在数字人文研究中被广泛应用,对该领域研究现状进行综述具有参考价值。[研究设计/方法]从数字人文领域的代表性期刊、会议及国内数字人文研究机构的主要成果中收集了50个交互式可视化研究及项目,结合已有可视化理论,应用归纳式编码构建分类分析框架。基于该框架从用户、数据、任务、视觉呈现和交互五个要素对所收集文献进行梳理分析。[结论/发现]当前研究尚缺乏对大众视角的GLAM数据可视化、人文数据集的建设、利用可视化辅助人文标注三个方向的关注；当前数字人文中交互式可视化设计的主要挑战是应对数据不确定性,以及提升面向大规模、多维度数据及复杂任务的交互式可视化的表现力和可用性。[创新/价值]揭示了交互式可视化在数字人文领域应用中关注的焦点和有待探索的方向。",
+    "context5": "关键词:数字人文;交互式可视化;人文数据;信息可视化;文献综述中图分类号:G250 D0I:10.13366/j.dik.2022.05.042",
+    "context6": "引用本文:李文琦.数字人文中的交互式可视化应用研究综述[J].图书情报知识,2022,39(5):42-5.(LiWenqi.AReview of Research onInteractiveVisualizationApplicationsinDigitalHumanities[J].Documentation,Information&Knowlede,20239(5):4-55.)",
+    "context7": "Abstract:[Purpose/Significance]Thispaperpresentsasystematicreviewofcurentresearch thatemploy interactivevisualization indigitalhumanitiesstudiestorevealthewholepictureofthearea.Design/MethodologylFiftyinteractivevisualizationstudiesand projectswerecollectedfromrepresentativejournalsandconferencesinthefieldofdigitalhumanitiesandmajorprojectsofdomestic digitalhumanitiesresearchinstitutions.Anewnalyticalframeworkandtaxonomyasproposedbasedonxistingvisualizatioteorynd inductivecodingBasdothiframeworktecollctediteratureserecategoredandanalydfromtheperspectiveofusedtatask visualepresentationandinteractions.[Findings/Conclusion]Ourresultsshowthat(1)There'salackofatentiontovisualizingGAM dataforpublicusersonstructingumanitiesdatasetsandassingannotationwithsualizations.(2)Temainchalengeofinteractie visualizationdesigninthecurentdigitalhumanitieistcopewithdatauncertaintyandimprovetheperformanceandavailabilityof interactivevisualizationforlarge-scale,multi-dimensionaldataandcomplextasks.[OriginalityValue]Thispaperrevealstheresearch state and future direction of interactive visualization in the field of digital humanities.",
+    "context8": "Keywords: Digitalhumanities;Interactive visualization; Humanities data;Information visualization; Literature review"
+  },
+  "1引言": {
+    "context1": "88888888888888888888888888888888888888888888",
+    "context2": "数字人文由20世纪80年代的人文计算领域发展而来，主要关注人文领域文本的数据化和标准化[1]，后来McCarty对人文计算涉及到的学科背景、研究对象进行了全面的梳理，并将研究方法拓展到包括文本分析、数据库设计及图像处理等[2]。随着Moreti[3]提出远读（distant reading）的概念，即通过计算和可视化的方式作为近读（closereading）的补充，可视化逐渐成为数字人文领域最重要的方法之一[4]。",
+    "context3": "基于交互式可视化从大量、复杂的数据中挖掘有价值的信息并进行分析推理，了解数据内部结构、相关关系的过程[5。文本可视化及媒体可视化在数字人文中应用较广。文本可视化是指利用文本数据的交互式图形表示来实现知识发现的信息分析技术和过程；媒体可视化通过将一组图像转换为另一幅图像从而揭示在图像集中可能不明显的模式，不限于对媒体元数据层面的呈现，还可以在交互后呈现图像本身的具体细节，实现大规模媒体数据远读与近读的结合[6]。上述概念主要从可视化对象和任务上进行区分，共同之处体现在图形界面的交互性。",
+    "context4": "为了明确本文的研究范畴，首先需要对可视化相关概念进行梳理。信息可视化是指通过使用交互式视觉界面来传达与行动相关的抽象数据；可视分析是指",
+    "context5": "交互作为连接“远读”与“近读”的桥梁，使学者可以将整体的、抽象的信息与具体的内容相结合，回归原始资料，这对可视化在数字人文中的应用十分关键。特别是在探索性的人文研究中，交互式可视化相较于静态可视化更有助于人文学者进行直观的对比分析、发现规律模式以及浏览及查找资料[。由于数字人文中可视化对象和任务的多元性，本文选择可以有效概括该领域的概念“交互式可视化”作为研究范畴，即“通过对可视化中颜色、亮度、大小以及形状等数据的视觉表示进行操纵来探索数据的技术”[8]。",
+    "context6": "现有文献中不乏对数字人文领域可视化研究的概述。Bradley等对数字人文可视化研讨会（VIS4DHWorkshop)进行了该领域研究现状总结[9]；Sinclair等从交互的角度对信息可视化在数字人文中的应用进行了概括性介绍[7}；Benito-Santos和Sanchez采用数据驱动的方式，对数字人文可视化研究的学者和主题进行了描述性分析[10]。这些研究从不同角度概括了数字人文中可视化研究现状，尚缺乏对该领域文献的系统性分析。此外，部分综述局限于特定数据类型或技术，如文本可视分析[11、文化遗产数据可视化[12]、文本对齐可视化[13]等，这些细分领域的综述难以反映可视化在数字人文领域的应用全貌。本文的目标是通过对相关文献进行深入地归纳式梳理，全面描绘交互式可视化在数字人文领域的应用现状，并进一步总结目前研究中存在的问题与挑战，探讨该领域值得关注的方向。",
+    "context7": "本文首先介绍文献收集流程和结果；随后提出文献分析框架，并基于此框架对收集到的文献进行分类梳理；再从用户、数据、任务、视觉呈现和交互五方面对可视化在数字人文领域中的应用现状进行阐述；最后，探讨有待探索的问题和挑战，以及本文的贡献和局限性。"
+  },
+  "2研究方法": {
+    "context1": "二种文献收集方法，从可视化技术和数字人文两个领域的期刊、会议集收集研究成果[16-17]，以反映该交叉领域的不同学科视角[10-1]。在数字人文领域，我们选取了国际上代表性同行评议期刊DigitalScholarship intheHumanities(DSH)、Digital Humanities Quarterly(DHQ)和国内的《数字人文研究》作为文献来源；在可视化领域,我们以会议IEEEVIS的VIS4DH Workshop为来源，这是由可视化领域学者组织的将数字人文和可视化两个学术团体融合到一起的学术活动[9。为了控制本文研究范围及可行性，我们并没有将文献来源拓展到其他可视化期刊和会议(如人机交互、计算机图形学等)。具体数据采集过程是：在Web of Science中以“visual analy\\*OR visualiz\\*”为检索式对DSH和DHQ两个期刊自2016-2021年发表的论文进行检索，共检出89篇文献，通过阅读摘要及全文按以下标准进行筛选：",
+    "context2": "$\\textcircled{1}$ 基于人文数据且面向具体人文问题。排除文献计量分析、可视化案例评述及理论构建等没有涉及到具体人文问题及可视化过程的研究。",
+    "context3": "$\\textcircled{2}$ 使用交互式可视化技术方法。包括尚未实现交互,但明确指出预期交互功能的研究[18-19]；以及从其使用的技术工具可以推测出其交互性的研究。",
+    "context4": "$\\textcircled{3}$ 有初步或完整的可视化呈现。排除只有设计思路和前期数据准备的文章。",
+    "context5": "对VIS4DH和《数字人文研究》中的文章，本文直接通过人工阅读摘要和全文的方式按照上述标准进行筛选。最终共收集到44篇符合标准的文献作为本研究的分析对象,包括VIS4DH中20篇,DSH中12篇,DHQ中10篇，《数字人文研究》中2篇。此外，本文进一步选取国内主要数字人文研究机构的6个代表性交互式可视化项目作为补充[20-25]。以上50个论文和项目成果构成了本文最终的调研范围。",
+    "context6": "88888888888888888888888888888888888888888888888"
+  },
+  "2.1 文献收集": {
+    "context1": "文献收集通常有两种方法，一种是根据研究目标制定检索策略，通过关键词构建查询语句在学术搜索引擎或数据库中检索，第二种是基于特定期刊或文献进行人工收集[14]。前者需要有明确的领域、主题界定，而数字人文领域尚未有明确定义[15]，很多应用可视化的人文研究并没有标明为数字人文研究，因此这种文献收集方式不适用于本文研究范畴。本文采用第"
+  },
+  "2.2分析框架": {
+    "context1": "用户、数据和任务是交互式可视化设计的三个主要因素，它们共同影响交互式可视化的视觉呈现及交互设计[26-27]。交互式可视化设计本质上是用户驱动的[26],用户需求决定了可视化要呈现的数据和支持的任务，除此以外，设计过程中还需要充分考虑用户对可视化呈现的理解能力和交互部署能力等可视化素养[28-29]。数据类型直接影响可视化的视觉编码[28]，特别是在数字人文研究中，对人文数据的抽象、构建是视觉呈现的基础[27]。交互是实现任务的具体方式，各类任务需求都有惯用的交互方法来实现，因此，任务类型直接影响交互功能设计[30-31]。综上，本文以用户、数据、任务、视觉呈现和交互五个要素以及要素之间的主要关系为框架主体，基于已有研究和对文献的开放式编码，针对数字人文中的交互式可视化进行了各要素的细化分类，构建了文献分析框架(图1）。",
+    "context2": "基于该分析框架，对所收集文献进行了分类、梳理和统计，分别从五个要素解构了数字人文中交互式可视化设计和应用的具体类型，形成了概览图表（图2）。纵观各类别的文献分布，可以进一步探讨交互式可视化在数字人文研究中的应用现状，图中分布密集处体现了当下研究的关注焦点，而相对空白处则可能成为未来研究关注的方向。",
+    "context3": "![](images/443be2fe4995735575dd18c51ecb08565e80d70d2f048b499a2854212bfefdcc.jpg)  \n图1文献分析框架Fig.1The Analytical Framework"
+  },
+  "3用户": {
+    "context1": "8888888888888888888888888888888888888888888888"
+  },
+  "3.1用户类型": {
+    "context1": "面向不同用户群体的可视化在数据类型、使用模式及提供的洞见类型等方面都存在差异[32]。Windhager等将文化遗产类可视化的用户分为专家用户和大众用户两类，认为用户的经验、知识和兴趣会影响他们对视觉界面的期望和交互[12]。在数字人文领域，交互式可视化一方面可以作为研究工具通过复杂的交互式视觉呈现帮助人文学者增强认知、揭示规律模式，从而为其理解文化现象、解决研究问题提供洞见；另一方面，数字人文中的交互式可视化也可以服务于非学者用户，如公众文化体验[3-34]、人文知识爱好者[35-36]教育从业者[37-38],以及美术馆、图书馆、档案馆、博物馆(Galleries,Libraries,Archives,and Museums,GLAM)馆员[39-40]等,这类可视化主要目的是提供丰富的信息获取和浏览方式、帮助用户探索文化现象。",
+    "context2": "本文调研范围的用户以人文学者为主（45/50），涉及的数据和任务类型与学科密切相关，如文学和语言学数据以文本为主，而公共文化领域则多是文化遗产及馆藏数据；同样以文本为可视化对象，历史学者更关注其中的时空关系，而文学学者则更关注版本演变等。从学科领域来看，本文调研文献基本覆盖了GALE数字学术实验室列举的参与数字人文的主要院系[41],此外，还有一定数量的文献涉及公共文化领域。对比各学科的文献分布可以发现，目前交互式可视化在文学领域的应用最为广泛，其次是语言和历史（图3）。",
+    "context3": "![](images/4ee3d30a87ab8daca04add049c4d19db67fc3278f470192d530d471385fade13.jpg)  \n图2可视化要素分类梳理 Fig.2 Categorical Distribution of the Visualization Elements",
+    "context4": "![](images/12c7075aab63a52b589670b65910341fd2a1e9ea766cd32eaf4b3584beef607d.jpg)  \n图3调研范围内可视化的人文领域分布Fig.3 Distribution of the Surveyed Visualization Humanities Areas"
+  },
+  "3.2用户群体的开放性": {
+    "context1": "数字人文中的交互式可视化可依据其用户群体的开放性进一步分为两类： $\\textcircled{1}$ 为解决具体研究问题而设计的交互式可视化，即主要用户是研究团队本身，例如探索不同国家畅销书的差异[42]，揭示叙利亚古文字的分类问题等[43]。此类设计中，可视化的复杂度、交互的丰富度不是主要考量因素。 $\\textcircled{2}$ 作为探索和可视分析工具开放给他人使用（见表1），不针对具体人文研究问题。这类交互式可视化需要充分考虑用户的理解程度，并提供尽量全面的交互功能以支持对方从各种角度进行探索分析。",
+    "context2": "表1公开访问的交互式数字人文可视化  \nTable 1 Publicly Accessible Interactive Digital Humanities Visualizations",
+    "context3": "<table><tr><td rowspan=1 colspan=1>可视化平台</td><td rowspan=1 colspan=1> URL</td></tr><tr><td rowspan=1 colspan=1>古音小镜[36]</td><td rowspan=1 colspan=1>http://www.kaom.net/index.php</td></tr><tr><td rowspan=1 colspan=1>莫高窟061窟五台山图[20]</td><td rowspan=1 colspan=1>http://dh.whu.edu.cn/wutaishan/</td></tr><tr><td rowspan=1 colspan=1>历史人文大数据平台[21]</td><td rowspan=1 colspan=1>https://dhc.library.sh.cn/</td></tr><tr><td rowspan=1 colspan=1>中国家谱知识服务平台[24]</td><td rowspan=1 colspan=1>https://jiapu.library.sh.cn/#/</td></tr><tr><td rowspan=1 colspan=1>宋元学案知识图谱[23]</td><td rowspan=1 colspan=1>https://syxa.pkudh.org/</td></tr><tr><td rowspan=1 colspan=1>年谱可视化交互系统[25]</td><td rowspan=1 colspan=1>https://nianpu.pkudh.org/</td></tr><tr><td rowspan=1 colspan=1>中国历代典籍目录分析系统[22]</td><td rowspan=1 colspan=1>https://bib.pkudh.org/</td></tr><tr><td rowspan=1 colspan=1>书目数据地理可视化[40]</td><td rowspan=1 colspan=1>http://glammap.win.tue.nl/glamdev/maps/5</td></tr><tr><td rowspan=1 colspan=1>教师评价中的性别歧视可视分析系统[33]</td><td rowspan=1 colspan=1>http://benschmidt.org/profGender/</td></tr><tr><td rowspan=1 colspan=1>濒危语种地理可视化[44</td><td rowspan=1 colspan=1>https://glammap.net/glottovis/</td></tr><tr><td rowspan=1 colspan=1>女性作家作品远读[45]</td><td rowspan=1 colspan=1>https://wwp.northeastern.edu/lab/names-viz/</td></tr><tr><td rowspan=1 colspan=1>阿尔卑斯地带语言地图[46]</td><td rowspan=1 colspan=1>https://www.verba-alpina.gwi.uni-muenchen.de/</td></tr><tr><td rowspan=1 colspan=1>历史摄影时空可视化[34]</td><td rowspan=1 colspan=1>https://photogrammar.org/maps</td></tr><tr><td rowspan=1 colspan=1>文学作品中的爱丁堡地理可视化[47]</td><td rowspan=1 colspan=1>https://litlong.org/</td></tr><tr><td rowspan=1 colspan=1>奥赛罗翻译版本时空可视化[48]</td><td rowspan=1 colspan=1>https://othellomap.nand.io/</td></tr><tr><td rowspan=4 colspan=1>中世纪文学作品版本变动可视化[49]</td><td rowspan=1 colspan=1>http://informatik.uni-leipzig.de:8080/Fabliaux/</td></tr><tr><td rowspan=1 colspan=1>http://informatik.uni-leipzig.de:8080/roland/</td></tr><tr><td rowspan=1 colspan=1>http://informatik.uni-leipzig.de:8080/Duggan/</td></tr><tr><td rowspan=1 colspan=1>http://informatik.uni-leipzig.de:8080/EditionAlignment2/</td></tr><tr><td rowspan=1 colspan=1>Gibson 科幻短篇选集可视化[50]</td><td rowspan=1 colspan=1>http://stuffofsciencefiction.ca/vis/Wonderverse/</td></tr><tr><td rowspan=1 colspan=1>腓特烈·威廉四世画作可视化[51]</td><td rowspan=1 colspan=1>https://uclab.fh-potsdam.de/fw4/en/</td></tr><tr><td rowspan=1 colspan=1>文学作品叙事层级可视化[52]</td><td rowspan=1 colspan=1>https://uclab.fh-potsdam.de/narrelations/</td></tr><tr><td rowspan=1 colspan=1>英国议会议事录主题可视化[53]</td><td rowspan=1 colspan=1>https://brown-ccv.github.io/hatori/page/home/</td></tr><tr><td rowspan=1 colspan=1>法国大革命翻译作品中的事件[54]</td><td rowspan=1 colspan=1>https://radicaltranslations.org/database/timeline/?page=1&amp;page_size=1500</td></tr><tr><td rowspan=1 colspan=1>播客可视化数据库[55]</td><td rowspan=1 colspan=1>https://podcastre.org/</td></tr></table>"
+  },
+  "4数据": {
+    "context1": "888888888888888888888888888888888888888"
+  },
+  "4.1数据类型": {
+    "context1": "人文数据的形式包括文本、图像、视频、音频、实物以及表演艺术、礼仪习俗等无形文化遗产[56-57]。本文调研范围中，大多数交互式可视化的原始数据是文本形式（31/50），具体分为： $\\textcircled{1}$ 小说、诗歌、字典等单文本[23,25,39,52,5859； $\\textcircled{2}$ 一部作品的不同版本[12]; $\\textcircled{3}$ 同一作者的作品集[50.60]； $\\textcircled{4}$ 同一题材的 $\\textcircled{5}$ 同一体裁的作2.669。其他类型的原始数据包括影集、画作等图像，影视、电子游戏等视频，以及人工整理或公开获取的数据集[36.44,46]调查问卷及报告[38-39]或者是馆藏数据库等[40]。",
+    "context2": "除了结构化数据库外，其他形式的原始数据需要进行预处理、元数据提取等数据转换才能进行视觉编码[70。本文对调研文献中数据转换的主要方式进行了梳理（表2）。其中最基本的是文学及艺术作品的题名、创作者、创作时间、馆藏信息等描述性元数据的提取。对于文本数据，词频统计[58]、主题聚类[53.71]、命名实体及关系提取[45.47.69]、情感词提取[37]、文本相似度[49.60]以及叙事结构等领域知识提取[50.52]是常用的数据转换方式。图像数据常用转换方式包括色值、亮度等色彩特征聚类[42.72]、图形相似度[73]以及画面元素提取[20.72]等。视频数据的转换与图像数据类似，可以提取关键时间节点及关键帧进行上述图像转换[74]，还可以从影视作品中提取人物对话等文本进行上述文本数据的转换[75]。",
+    "context3": "大多数据转换可以借助计算机进行，但部分转换需要部分或完全依赖于人工标注。大量的人工标注可以借助CATMA等标注工具[52.68],或引入众包机制[24.69]。",
+    "context4": "表2各类原始数据的主要数据转换方式Table 2 Data Transformation Approaches for Various Types of Original Data",
+    "context5": "<table><tr><td rowspan=1 colspan=1>原始数据</td><td rowspan=1 colspan=2>数据转换方式</td></tr><tr><td rowspan=1 colspan=1>文本</td><td rowspan=1 colspan=1>词频统计、主题聚类、命名实体识别、关系抽取、情感词提取、文本相似度、领域知识提取</td><td rowspan=3 colspan=1>描述性元数据提取</td></tr><tr><td rowspan=1 colspan=1>图像</td><td rowspan=1 colspan=1>色彩特征聚类、图形相似度、图像元素提取</td></tr><tr><td rowspan=1 colspan=1>视频</td><td rowspan=1 colspan=1>关键帧及时间节点提取、主色提取</td></tr></table>"
+  },
+  "表3调研文献所使用的公共数据源": {
+    "context1": "根据获取到的原始数据的处理程度，数据转换过程的复杂度也不一样。例如，从基于文本编码计划（TextEncoding Initiative,TEI)标记过的XML文档[45.53]中提取元数据比纯文本更便捷[11；而对于只有印刷版的文本数据，在数据转换前还要先进行数字化，再进一步通过人工标注等方式提取相关信息来建立数据库[50]。"
+  },
+  "4.2数据集的公开获取": {
+    "context1": "部分文献说明了具体数据来源，除社交媒体[33.67]和公共馆藏外，其他公开获取数据集见表3。这些公开数据集是人文研究的重要基础设施[76，从来源可以看出，图书馆、数字人文研究机构以及档案机构在人文数据收集及提供数据服务等方面扮演了重要角色。"
+  },
+  "5任务": {
+    "context1": "88888888888888888888888888888888888888888",
+    "context2": "Shneiderman从数据类型的角度将信息可视化任务分为一维数据、二维数据、时间数据、多维数据、树型数据及网络数据的可视化[77],这种分类仅从数据特点出发，没有考虑到用户特点和需求；Jänicke等将文本可视分析任务分为命名实体、主题、相似模式、文本兴趣、语料分析几大类[1],该分类仅针对文本，没有涉及其他类型数据的可视分析；Sinclair等将人文可视化的主要任务分为辅助浏览和检索、揭示特征以及时间和空间[，,该分类考虑到了人文学者的研究需求，但分类较宽泛且时间和空间分类标准与前两者有所不同。本文基于上述分类并结合对收集文献的梳理，兼顾数据类型和用户需求，构建了数字人文中的交互式可视化任务分类，包括探索式分析、资料发现与查找和辅助标注三大类。",
+    "context3": "Table 3 Publicly Available Data Sources Used in the Surveyed Literature",
+    "context4": "<table><tr><td rowspan=1 colspan=1>数据</td><td rowspan=1 colspan=1>主要机构及来源</td><td rowspan=1 colspan=1> URL</td></tr><tr><td rowspan=1 colspan=1>Trove数字馆藏[40.69]</td><td rowspan=1 colspan=1>澳大利亚国家图书馆等</td><td rowspan=1 colspan=1>https://trove.nla.gov.au/</td></tr><tr><td rowspan=1 colspan=1>北美奴隶叙事[37]</td><td rowspan=1 colspan=1>美国北卡莱罗纳大学图书馆</td><td rowspan=1 colspan=1>https://docsouth.unc.edu/neh/</td></tr><tr><td rowspan=1 colspan=1>奥地利的巴伐利亚方言字典[66]</td><td rowspan=1 colspan=1>奥地利科学院数字人文中心</td><td rowspan=1 colspan=1>https://wboe.oeaw.ac.at/</td></tr><tr><td rowspan=1 colspan=1>世界语言编目[44]</td><td rowspan=1 colspan=1>马克斯普朗克人类历史科学研究所</td><td rowspan=1 colspan=1>https://glottolog.org/</td></tr><tr><td rowspan=1 colspan=1>女作家文集（英文）[45]</td><td rowspan=1 colspan=1>美国东北大学数字学术团队</td><td rowspan=1 colspan=1>https://www.wwp.northeastern.edu/wwo/</td></tr><tr><td rowspan=1 colspan=1>ACMI年度报告[39]</td><td rowspan=1 colspan=1>澳大利亚动态影像中心 (ACMI)</td><td rowspan=1 colspan=1>https://www.acmi.net.au/about/reports-policies/annual-reports/</td></tr><tr><td rowspan=1 colspan=1>Rijksmuseum数字艺术馆藏[72]</td><td rowspan=1 colspan=1>荷兰国家博物馆 (Rijksmuseum)</td><td rowspan=1 colspan=1>https://www.rijksmuseum.nl/en/search?ii=0&amp;p=1</td></tr><tr><td rowspan=1 colspan=1>腓特烈·威廉四世画作[51]</td><td rowspan=1 colspan=1>柏林-勃兰登堡普鲁士宫殿和花园基金会</td><td rowspan=1 colspan=1>https://bestandskataloge.spsg.de/</td></tr><tr><td rowspan=1 colspan=1>英国国会议事录[53]</td><td rowspan=1 colspan=1>英国议会</td><td rowspan=1 colspan=1>http://www.hansard-archive.parliament.uk/</td></tr><tr><td rowspan=1 colspan=1>Bob Gibson小说集[50]</td><td rowspan=1 colspan=1>加拿大卡尔加里大学图书馆</td><td rowspan=1 colspan=1>https://asc.ucalgary.ca/book-collection/bob-gibson/</td></tr><tr><td rowspan=1 colspan=1>法国大革命翻译作品集[54]</td><td rowspan=1 colspan=1>伦敦国王学院数字实验室</td><td rowspan=1 colspan=1>https://radicaltranslations.org/database/</td></tr><tr><td rowspan=1 colspan=1>播客数据库55]</td><td rowspan=1 colspan=1>威斯康星大学传播艺术系、教学媒体中心和图书馆</td><td rowspan=1 colspan=1>https://podcastre.org/about</td></tr></table>"
+  },
+  "5.1探索式分析": {
+    "context1": "时空分析是数字人文领域最普遍的分析任务（21/50），时间和空间既是人文馆藏的重要元数据，也是文本内容里关键的实体信息，二者经常在交互式可视化中同时呈现。也有部分可视化只聚焦于时间，分析文字形式、图像色彩等变量随时间的变化。此外，很多可视化还同时需要呈现类别、关系等其他数据维度，因此要将多维数据映射到时空坐标中。地图和时间轴是这类任务常见的呈现方式，也有研究尝试了其他方式，如Miller等跳出了时间轴和地图的模式，将时间、经纬度作为坐标轴来呈现事件的时空[9]。",
+    "context2": "相似模式分析，对于文本数据是指发现、对齐一组文本资料之间的相似文本片段[]，如文本复用和版本比较，特别是诗歌或戏剧的流传、翻译版本的比较。图像和视频数据相似模式则以色彩、形状相似度聚类为主。近年来基于图像相似模式的媒体可视化已形成了一定的可视化模式，而基于文本的相似模式分析尚未形成成熟的可视化模式，仍有许多挑战和机遇值得探索[13]。",
+    "context3": "主题及词频统计是最常见的对人文数据进行量化处理的方式。这类任务主要有以下几种： $\\textcircled{1}$ 对所有词汇或指定关键词进行统计[33.71]; $\\textcircled{2}$ 结合WordNet词库、语言查询和计数（Linguistic Inquiry and WordCount,LIWC)等方法对特定类别的词语频次进行统计对比[37.75],如情感类别; $\\textcircled{3}$ 通过人工标注对文本或图像进行分类并对该类别标签进行统计[51.63.68]； $\\textcircled{4}$ 对各类主题模型计算出的主题进行统计[53.71]。这类交互式可视化可通过常用的图表形式呈现，如词云、散点图、线形图等，这些图表通常会与其他视图进行联动。",
+    "context4": "语言及文本结构分析通常需要深入到文本内部的层级结构，主要分为词语、语句和篇章三个层级，并需要充分考虑上下文。其中词语结构分析包括词根之间的关系、词语构成模式[59.66]；语句结构分析则通过考察前后文中的共现词语来比较语言模式[62；篇章层级分析涉及到文章的叙事层级及时序等文学结构[52]。结构分析的视觉呈现通常较为复杂，目前还没有普适性的设计模式，需要与人文学者的研究问题密切结合。",
+    "context5": "关系分析在人文研究中通常包括层级关系、社会网络分析以及二元关系，如Campbell等对作品类别与人名、地名之间的二元关系呈现[45]。节点链接图是最常见的关系可视化方式，若要引入除实体和关系以外的其他关键维度，则需要更复杂的定制可视化呈现，如Valdivia等为了展示不同时段人物关系网络，设计了一种新的动态超图可视化形式[61]。"
+  },
+  "5.2资料发现与查找": {
+    "context1": "交互式可视化在人文领域可以支持的另一重要任务是资料发现和查找[],包括浏览和搜索[78]。一方面，交互式可视化可以通过对地理位置、时间、相关人物或层级关系等属性进行视觉化分组和聚类，有效地帮助用户快速筛选感兴趣的内容。例如，利用时空可视化，用户可以快速判断其感兴趣的地域、时段是否存在相关资料并直接在地图及时间轴上定位到相应子集[34.40,47.5569]；Szilas等对叙事行为层级的可视化，可以使用户逐步定位到所需的特定叙事行为条目[64]；Chen等和Burghardt等分别通过文本和视频中的关键词、人物、情感等元素的可视化，帮助用户定位到具体章节或时间节点[37.74]。另一方面,交互式可视化也可以辅助用户的搜索。如Bradley等通过视觉搜索界面呈现文档内容的语义关系及匹配文献的数量，帮助用户补全搜索表达式[79]；Van等在搜索结果列表中引入了可视化图形，帮助用户更高效地判断检索式所匹配的文档层级以及其相关性[60]。"
+  },
+  "5.3辅助标注": {
+    "context1": "精读一直是传统人文研究中文本解读的基本方法[80]，标注则是人文学者在精读中的重要手段[81]。随着数字人文的发展，对数字化文本进行标注和整理也是利用计算手段进行大规模文本分析和远读的基础。目前，交互式可视化在促进人文学者近读中的应用远少于其在大规模文本远读中的应用[11.58]。交互式可视化可以辅助标注流程的各个环节，如预标注文本的校对、协作标注一致性的核查以及对标签进行定位和统计等[58]。Cheema等设计的AnnotateVis工具支持在文本中插入音频、图片、视频等各种形式的注释，特别是提供了结合远读的交互式可视化标注方式，从而将近读和远读两种人文研究范式有机融合[58]。Alex等提出的众包数据管护工具则可以通过交互式可视化快速定位到标签在文本中的位置并对机器标注结果进行校对[47]。除了与远读结合外，颜色、字体、连线、图形等近读可视化中常用的技术也可应用于辅助标注的交互可视化[1]。这类交互式可视化需要注重可视化视图与文本的切换及对文本的直接操作，并充分考虑用户的阅读、标注行为习惯。"
+  },
+  "6.3节点链接图（点线图）": {
+    "context1": "点线图是关系分析最常用的可视化形式。其中二元点线图可以用来呈现两类变量之间的对应关系，如图5-a中二元点线图呈现了文学作品中命名实体与作品类别之间的对应[45]；树结构点线图最常被用于层级关系可视化，如图5-b中用径向布局的点线图呈现书中的目录层级[50；而网状点线图，特别是力导向布局的网络图常被用于进行社交网络分析或者相似度分析，如Hu等用网图呈现不同象形文字之间的相似度[7]。此外，点线图在词共现等语言或文字结构中也会用到，如Benito等对词根之间的连接方式进行分析[66]。"
+  },
+  "6视觉呈现": "",
+  "6.1基础图表": {
+    "context1": "基础可视化图表在调研文献中被广泛应用（27/50），包括最常用于时间序列的直方图、折线图和堆积图，用于词频统计的词云图[53.5.71]，用于展示层级数据的旭日图[64.68]，用于多维数据的散点图和平行坐标[43]，以及热力图、蜂窝图、桑基图等常见统计图表。这些图表通常联合使用，或者融合到其他类型视觉呈现中。例如饼图或旭日图可以与地图可视化融合，从而在空间可视化基础上引入分类统计（图4-a）。"
+  },
+  "6.2地图": {
+    "context1": "地图是时空分析中最常用的视觉呈现形式，其中分级统计地图和气泡地图常用于呈现某一数值的空间分布，如不同地域的馆藏数量、方言种类等。气泡地图中的气泡常会用其他图形元素代替以增加数据维度(如图4-a)，此外，地图还常与点线图相结合，以呈现不同地理位置之间的关系，如图4-b在地图上叠加了点线图以呈现与每个《奥赛罗》版本相关的地理位置[48]。"
+  },
+  "6.4图像排列": {
+    "context1": "这类呈现形式按照图像日期、内容以及色彩、亮度等视觉特征在一定的坐标系中对其进行排列和聚类。图像排列一般分两类，一类是提取图像中关键色进行排列和呈现，如图6-a提取视频中不同画面帧的主色并以时间顺序排列为矩阵,揭示故事场景的变化[75]；另一类是在二维坐标中对图像进行类似散点图式排列，如图6-b将每部迪士尼动画映射成一个代表性缩略图像，并将其呈现在横轴为色彩标准差、纵轴为亮度标准差的坐标系中[82]。这类呈现形式既可以对大规模图像的特征进行远读，同时也可以展示图像本身[42.82-83]。"
+  },
+  "6.5定制可视化": {
+    "context1": "当分析任务较为复杂，或者希望在同一视图中展示多维变量时，上述常用可视化形式可能难以满足需求。因此需要基于数据特点、用户需求和分析任务，对现有可视化视觉呈现进行融合和拓展，设计新的呈现形式。例如图7-a叙事层级及时序关系的可视化很大程",
+    "context2": "![](images/c275388330ef99e24610b367cccba26a41793eaf80732dbd28c66d161c11452b.jpg)  \n图4地图与其他呈现形式的结合",
+    "context3": "Fig.4 Visualization Diagram Integrated Maps and Other Forms of Presentation",
+    "context4": "![](images/3b289729ade53de754b3ff15ab59dd6d388e657cf673bc85cd751caa83173c1f.jpg)  \nb.书籍目录层级关系树状点线图",
+    "context5": "a.作品类别与命名实体二元网络点线图",
+    "context6": "Fig.5 Different Types of Node-link Diagrams a.视频画面主色矩阵排列",
+    "context7": "![](images/dbe3f0fb97acc32fd41c46980e7c1849c1e6fe17ada23affc1297fbd65bce1c1.jpg)  \n图5不同类型的点线图",
+    "context8": "![](images/9e43e6359c3189287db906a14cc5df13b8c2d42182a40ea4dc6cbb57241dd9bc.jpg)  \nb.使用ImagePlot进行电影缩略图散点排列",
+    "context9": "![](images/3418d6df2c38a1ef2ba7e07f518c8ed35a05b73d8d9ac156b213fe34fb239600.jpg)  \n图6矩阵型和散点型图像排列①  \nFig.6 Images Organized by Matrix and Scatterplots   \na.基于已有可视化呈现形式融合改进的可视化",
+    "context10": "![](images/7c952688ab30f9003b614a6dfa41683ecd2b78f5dfcb8edad6caade1967199f6.jpg)  \nb.通过视觉链接呈现版本变化"
+  },
+  "图7定制可视化示例": {
+    "context1": "Fig.7 Examples of Customized Visualization度上借鉴了弦图、旭日图等已有视觉呈现形式[52]。在针对相似模式分析的定制可视化中，最重要的视觉元素是连接，如图7-b将不同版本的文字并排呈现，并以彩色线条将相关的语句连接起来，当选择具体语句时可以看到不同版本的用词差异[49]。",
+    "context2": "一个文本或媒体资料的局限。“细节”相当于“近读”。用户通过过滤和缩放选择感兴趣的数据点来获取细节。近读可以使人文学者验证远读假设，并建立对远读这种新型研究方法的信任[58，所以交互式可视化可以通过远读辅助近读，却无法取代近读，提供与原始资料细节的交互十分必要。本文调研的大部分可视化（33/50）都提供了多种交互方式来实现概览-细节交互模式。最常见的交互方式是通过点击或悬停光标来选择可视化概览中的视觉元素，并以浮窗形式展示细节。也可以将原始文本与可视化视图并列展示，通过下划线或颜色高亮来连接概览和细节(如图7-a)。超链接也是该交互模式的常用技术，如图5-a中，点击文本标题可以跳转到该作品的页面。"
+  },
+  "7交互": {
+    "context1": "88888888888888888888888888888888888888888888"
+  },
+  "7.1概览-细节交互模式": {
+    "context1": "概览-细节交互模式在数字人文领域的交互式可视化中被广泛应用[84],符合Shneiderman提出的“概览-缩放和筛选-按需提供细节”视觉信息搜寻模式[77]。“概览”相当于数字人文中常用的“远读”概念，即首先提供一个全体数据的可视化远景图，使用户不需要通过任何操作便能在一个视图上观察到所有对象并对全局信息进行整体判断，可以克服传统人文学者仅能每次阅览",
+    "context2": "![](images/0503171a2136bd3893761ac6467b4e4c132d11871210a93187eb892488d662ed.jpg)  \na.包含多种控件的动态查询窗口"
+  },
+  "7.2交互方式": {
+    "context1": "本文结合Heer和Shneiderman的交互分类[85以及归纳式编码将调研范围内应用广泛的交互方式分为“指定数据及视图”和“操纵视图”两类。指定数据及视图包括筛选、数据输入和切换视图三种，操纵视图类交互包括选择、缩放和多视图关联。"
+  },
+  "7.2.1指定数据及视图": {
+    "context1": "指定数据及视图是指通过改变视觉编码或底层数据，使用户可以聚焦于感兴趣的数据及视图。筛选是最常见的指定数据类交互（25/50），最基础的筛选是通过一系列辅助控件实现的，如时间轴、复选框或者图例等。关键词搜索或SQL语句查询也是常用的筛选方式。在数据维度复杂的交互式可视化中，可以利用各类筛选方式的组合形成动态查询窗口进行筛选(图8-a)。数据输入与筛选的区别在于，筛选是先对数据全局可b.支持时序分析和聚类分析的不同可视化图视化呈现，在用户进行筛选交互后仅呈现所选数据子集对应的视觉元素而隐藏掉其它；而数据输入则首先需要用户指定数据，从一开始便只对所选择或输入的数据进行可视化，如图7-a左侧视图用于选择文本数据集。视图切换常见于两类情况，一类是当可视化视图分别需要展示不同数据维度时，如Campbell等为了用同一种可视化形式分别对人名、组织名、地名进行呈现和分析，在可视化视图上方设计了选项卡供用户进行视图切换[45]；另一类是为了支持同一组数据的不同分析任务，如图8-b对画作分别通过柱状图和图片聚类排列的形式进行时序分析和主题聚类分析[51]。",
+    "context2": "![](images/f74f38efda2df50aef78711538c187aa3b8e786897c69303908cddb8b73f08fa.jpg)  \n图8指定数据及切换视图的交互示例Fig.8 Interaction Examples of Specifying Data and Switching Views"
+  },
+  "7.2.2操纵视图": {
+    "context1": "操纵视图是指通过对视图中某些视觉元素进行操纵以突出视觉模式、探究细节从而达成用户任务，这类交互并不改变底层的数据或视觉编码。选择和缩放是最基础的视图操纵交互。多视图关联在数据属性多、任务复杂时十分常用。该交互可以将多种可视化视图组合起来，用户对任一视图进行选择、缩放等操作会以高亮、缩放或筛选等形式反映在其他视图。在数字人文可视化中该交互最常用于时空分析中的地图和时间轴之间、各类统计图表之间以及统计图表与地图、点线图等图表之间(如图4）。",
+    "context2": "以数据库为直接数据来源的交互式可视化并不多。作为数字人文研究的必要基础，人文数据库的建设目前还很欠缺，人文数据集的规模、质量及公开获取都是亟待解决的问题[。图书馆、档案馆以及数字人文研究机构等都可以在人文数据库建设中扮演主导角色[8。因此，如何促进人文数据库建设，并充分发挥各机构的作用是交互式可视化在数字人文中应用的基础，也是数字人文领域未来需要关注的重要方向。",
+    "context3": "从任务来看，目前大多数研究以探索式分析任务为主，只有极少研究利用交互式可视化辅助标注。一方面，标注是传统人文研究中常用的解读方法，辅助标注的交互式可视化设计需要关注如何将其更好地融入或者模拟传统人文研究工作流程；另一方面，标注也是人文资料数字化的重要手段[47.50.68-69]和数据分析过程中最耗时的过程之一[48]，众包机制的逐渐普及一定程度上提升了人文资料的标注效率[47.69.8]，但准确性依然面临挑战[37.47],交互式可视化如何在这类标注任务中发挥辅助作用也是值得进一步探讨的问题。"
+  },
+  "8讨论": "",
+  "8.1应用现状、问题及未来关注方向": {
+    "context1": "从用户来看，本文调研的交互式可视化受众以人文学者为主，较少在可视化设计时面向大众用户。而Windhager等在文化遗产可视化研究综述中提到，有一半以上的可视化面向普通用户而非专家用户[12]。本文的结论一方面受限于文献收集范围，很多文化遗产可视化的研究并没有发表在数字人文领域出版物上;另一方面也反映了文化遗产、GLAM相关研究在数字人文领域的关注度不足。交互式可视化不仅可以提升文化遗产的教育普及和观览体验，还可以帮助GLAM馆员更有效地评估、管理馆藏[40]。因此，未来数字人文可以更多地关注面向大众的文化遗产和GLAM领域的交互式可视化设计和研究。",
+    "context2": "从数据来看，数字人文中的交互式可视化目前主要基于文本数据，媒体可视化也逐渐受到关注。然而，",
+    "context3": "从视觉呈现来看，数字人文中的交互式可视化呈现仍以现有的可视化图表类型为主，地图和点线图分别广泛应用于时空分析和关系分析，而面向文本相似模式及文本结构分析等任务的视觉呈现形式尚未形成成熟的模式。从交互来看，概览-细节的交互模式在数字人文中尤为重要，除了筛选、选择等基础交互外，数据输入和视图切换也是适用于数字人文复杂数据维度和任务的交互方式。交互式可视化设计需要同时考虑视觉呈现和交互方式。目前最主要的问题和挑战有两点,一是面向数据不确定性的交互式可视化方法[19.37.66],例如回溯性记录的模糊或丢失问题，以及人工标注等人文数据转化过程中常见的不确定性；二是面向大规模、多维度的人文数据以及复杂的人文分析任务，需要降低视觉混乱、优化交互流程，在满足数据呈现和用户任务需求的同时保证交互式可视化的表现力和可用性[66。除了引入更多的可视化呈现形式及更灵活的交互外，人文学者在整个可视化设计及评估过程中的密切参与也十分重要[52.89]。"
+  },
+  "8.2贡献与局限性": {
+    "context1": "本文对50个数字人文领域的交互式可视化研究与项目进行了分类梳理。这些文献和项目精选自该领域的重要期刊、会议以及国内数字人文研究机构，对数字"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "original_filename": "full_2190.md",
+  "关联媒体研究及应用进展王敬 祝忠明": {
+    "context1": "【摘要】关联媒体是一个结构化、互联的媒体标注网络规模层，它同时将媒体资源及其元数据发布为关联数据。关联媒体不仅可以最大限度满足用户分享、重用多媒体资源的需求，而且还可为用户提供更多与多媒体资源相关的背景信息。本文首先介绍关联媒体的概念、关联媒体的规则与要求，并探究如何将关联规则应用于媒体片段；然后论述媒体关联的方法、关联媒体的检索以及关联媒体的应用；最后指出关联媒体的未来研究方向。"
+  },
+  "【关键词】关联媒体关联数据媒体片段媒体资源本体": {
+    "context1": "Abstract：Linked Media is a Web scale layerof structured，interlinked media anotations.The media resources and its metadata are published as linked data Not only Linked Media satisfies the users’requirements of sharing and reusing multimedia resources，but also provides more abundant information about the multimedia for users Firstly, this paper introduces the concept of Linked Media，the principles and requirements of Linked Media and investigates how to apply Linked Data principles to media fragments；Then，the authors discussthe methods of interlinking media，the retrieval of Linked Media and itsapplications Finally，the authors give some proposals for the research of Linked Media",
+    "context2": "Key words: Linked Media linked datamedia fragmentsontology for media resources"
+  },
+  "0引言": {
+    "context1": "2007年W3C后动了关联开放数据（LOD）项目[1，其主要目标是使用语义网技术，如资源描述框架(RDF)、SPARQL查询语言等，来发布结构化数据集，从而推动语义网的发展。截至2014年9月，LOD云已包含2909个链接集（linksets）所连接的570个关联数据集[2]。尽管开放数据集的出版一直在快速地增长，但是关联数据集大多处理的是文本资源[3]。数量众多的多媒体资源与LOD云的整合却处于起步阶段，原因是缺乏一种用于描述网络多媒体资源的综合方法。“互联网之父”Tim Berners-Lee认为：“文本信息已不再是下一代网络的主要内容，未来的网络是一个充斥着复杂语义的多媒体环境。”[4]因此，如何将多媒体资源及其元数据发布为关联数据逐渐引起了人们的研究兴趣。2008年，Burger T等提出了“互联多媒体（Interlinking Multimedia)”的概念，在其文章中阐述了互联多媒体的准则与要求；2012年，NixonLJB在 Burger T研究的基础上提出了“关联媒体(Linked Media)”的概念[5]。按照Lyndon的定义，关联媒体是指一个结构化、互联的媒体标注网络规模层，媒体资源对象根据它们之间的语义关系而互相连接在一起。",
+    "context2": "关联媒体受关联数据运动的后发，目的是为媒体资源提供结构化、互联的描述。它可以将媒体资源片段及其元数据出版为关联数据，从而建立起媒体资源片段之间、媒体资源片段与其元数据之间以及媒体资源片段与其他关联数据之间的语义关系。关联媒体可最大限度地满足用户分享、重用媒体资源的需求，发布的媒体资源元数据可以被用户重复使用，从而提高媒体资源元数据标注的效率。另外，用户可以根据媒体资源的内容发现与资源内容相关的人物、地点、机构等信息，或者根据人物、地点等信息查找与此相关的媒体资源，从而为用户提供更多丰富的信息资源。",
+    "context3": "本文将从关联媒体的规则与要求、关联媒体的互联方法、关联媒体的检索以及关联媒体的应用几个方面论述关联媒体研究与应用的最新进展，以期为关联媒体的研究提供策略参考。"
+  },
+  "1关联媒体发布的规则与要求": {
+    "context1": "关联数据将互联网上任一信息资源看成是一个可采用标准方法进行规范描述的知识对象，借助语义网技术实现对不同知识对象以及知识对象之间关系的规范化描述，从而实现对不同来源的知识对象的关联发现。与关联数据一样，关联媒体的发布同样需要遵循一定的规则与要求。与关联数据只发布元数据不同，关联媒体除了要发布媒体资源的元数据之外，还需将媒体资源本身发布为关联数据。因此，为了将媒体资源内容与其元数据发布为关联数据就需要满足以下几个规则与要求[6]：",
+    "context2": "（1）关联媒体首先必须符合关联数据的4个规则；  \n（2）若要符合关联数据四规则并实现媒体片段之间的语义互联，就必须有一种能够标识媒体片段的机制；  \n（3）为了能够参引并整合所描述的媒体资源片段，描述媒体资源内容的元数据之间必须是可交互的。"
+  },
+  "1.1媒体片段标识": {
+    "context1": "媒体片段标识是实现媒体资源片段之间的语义互联与发布的基础，可以提高对媒体资源片段的处理与检索，促进当前以及未来网络基础设施中对这些媒体片段的再利用。一个完整的媒体资源可以使用传统的URI来表示，但是如何使用URI来标识媒体片段则关系到媒体资源能否发布为关联数据。2012年9月W3C媒体工作组发布了Media Fragments URI1.O（basic)[7]，它提供了一种基于URI来处理媒体资源片段的机制[8]。媒体片段是指根据不同维度，如：时间、空间以及轨道等，而把媒体资源划分为不同的片段。",
+    "context2": "时间维度（Temporalaxis)：指源媒体的一个特定的时间范围，如“从10秒开始，至20秒结束\"。时间片段由标识符“t”表示，它有一个开始时间与一个结束时间。如：http：//example com/video. $\\mathrm { m p 4 } \\# \\mathrm { t } = 2 0$ ，90，表示 20秒至90秒的视频片段。",
+    "context3": "空间维度（Spatialaxis)：表示源媒体资源中一个特殊的空间矩形，该矩形可被指定为像素坐标或者百分比。使用标识符xywh来表示，其值用逗号隔开的整数表示。（x，y）表示矩形左上角的一个坐标点，而w， $_ \\mathrm { h }$ 分别表示矩形的宽度与高度。如：http：//example com/video.mp4# xywh $=$ pixel：160，120，320，240（像素）。",
+    "context4": "轨道维度（Track dimension)：表示媒体容器所支持的不同轨道对象（如：音频、视频以及字幕等），使用标识符 track 表示，其值为字符串（string）类型。如：http：//example com/video.mp4 # track $=$ subtitleso",
+    "context5": "命名维度（Named dimension)：指源媒体已命名的章节，如某部电视剧的“第一集”。实际上它是上述3个维度的语义替代。使用标识符id来表示，其值为字符串类型。如：http：//example com/video. $\\operatorname* { m p 4 } \\# \\mathrm { i d } =$ napter-1。",
+    "context6": "组合维度（Combined dimensions)：时间、空间以及轨道维度逻辑上是独立的，但是也可以把这些维度组合起来标识，如：",
+    "context7": "http: //example com/video. $\\mathrm { m p 4 } \\# \\mathrm { t } = 1 0$ ， $2 0 \\&$ track $=$ vid& xywh $=$ pixel:0，0，320，240在实现对媒体片段的标识后，就需要探讨如何将关联数据规则应用于媒体片段。"
+  },
+  "1.2关联数据规则": {
+    "context1": "为了能够在网络上分享并连接结构化数据，Tim Berners-Lee于2006年提出了关于资源对象描述的关联数据规则[9]：",
+    "context2": "（1）使用URIs来标识事物；  \n（2）使用HTTPURIs使人们可以访问到这些标识；  \n（3）当有人访问这些标识时，可以使用一些标准（如RDF、SPARQL等）来提供有效的信息；  \n（4）与其他URIs链接，以便可以发现更多的信息。",
+    "context3": "前两条规则主要用于建立规范化命名机制和获取资源对象的机制，根据上文所述媒体片段标识符的语法，可以很容易满足这两条规则，如：http：//example com/video. $\\mathrm { m p 4 } \\# \\mathrm { t } = 2 0$ ，90 是一个有效的HTTPURI。当用户请求该URI时，根据内容协商机制[10]，智能用户代理引擎在对该URI处理后，会向服务器端发送GET请求：",
+    "context4": "GET http:// example com/video. mp4 Accept:application/ $\\mathrm { m p 4 }$ Range:seconds $= 2 0 - 9 0$",
+    "context5": "服务器端在接收到请求后会根据请求的内容返回相对应的视频片段。",
+    "context6": "第三条规则要求用结构化、规范化的方式来描述资源对象，也就是获取媒体片段的语义描述。使用以下GET请求可以获取到关于视频片段http：//examplecom/video. $\\mathrm { m p 4 } \\# \\mathrm { t } = 2 0$ ，90的RDF 语义描述：",
+    "context7": "GET http:// example com/video.mp4 Accept:application/rdf+xml Range:seconds $= 2 0 - 9 0$",
+    "context8": "服务器端根据GET请求返回该视频片段的RDF文件，“HTTP Link：header”使用rdfs：seeAlso属性建立起$\\mathrm { m p 4 }$ 文件与其RDF文件之间的关系。如下所示：",
+    "context9": "HTTP/1.1 200 OK   \nAccept-Ranges:bytes，seconds   \nContent-Length：1088   \nContent-Location:http:// example com/video rdf   \nContent-Type:application/rdf+xml   \nLink：<http:// example com/video. $\\mathrm { m p 4 > }$ ；   \nrel $\\underline { { \\underline { { \\mathbf { \\Pi } } } } } ^ { \\mathfrak { n } }$ http: //www. w3. org/200o/01/rdf-schema # seeAlso\" ; Vary:accept",
+    "context10": "第四条规则要求建立资源对象与其他资源对象的关联，从而可以从某个资源对象出发检索到与之关联的资源对象。有许多（半）自动与人工的方法可以建立媒体资源的RDF文件与其他数据集之间的关系，本文将在第2节详细论述媒体资源的关联方法。",
+    "context11": "内容协商机制可以很好地处理文本数据，但是对于媒体资源而言这种处理机制还存在一些问题。首先，描述媒体资源的RDF文件并不等同于媒体资源内容本身，只有当描述媒体资源的RDF文件与媒体资源本身传达的信息完全相同时，内容协商机制才能发挥出最好的效果。另外，当解析某个URI如：htp：//www.example org/myPodcast. $\\mathrm { m p 3 \\# t = 1 5 }$ ，45时，用户期望同时获取音频信息以及对该音频信息的语义描述，而不是其中的某一个。还有一个问题是，通常来讲RDF文件描述的是整个媒体资源，但是当用户请求某个媒体资源片段时，系统是返回整个媒体资源的RDF文件还是对应媒体片段的RDF文件？当前还不能有效地将整个媒体资源的RDF文件分割为描述各个媒体片段的RDF文件片段，如果想获取媒体片段的RDF描述文件，只有重新构建一个新的 RDF描述文件。以上这些问题将会是未来关联媒体的重点研究内容。"
+  },
+  "1.3媒体资源本体": {
+    "context1": "在使用RDF描述媒体资源时，就必须选择一种用于描述媒体资源的元数据。由于多媒体所涉及到的领域特别广泛，用于描述媒体资源的元数据标准层出不穷，如EXIF、XMP以及DublinCore等，在搜索与标注相关媒体资源时出现了不同元数据格式之间的交互性问题。因此，为了能够引用并整合所描述的媒体资源片段，就需要一种可以对多媒体内容的语法以及语义特征进行描述与表示的通用框架。基于此，W3C媒体标注工作组（MediaAnnotation Working Group）在 2012年2月开发完成了“媒体资源本体1.0”（Ontology for Media Resources1.0)[11]。媒体资源本体定义了一组用于描述多媒体内容的最小标注属性集以及一组这些属性与当前主要元数据格式之间的映射集。如：某个应用程序只支持MPEG一7元数据标准，此时没有必要重写此元数据格式，只需要使用媒体资源本体将其映射为MPEG—7元数据即可[12]。",
+    "context2": "在关联媒体的应用中，不但可以使用媒体资源本体来描述不同元数据类型的媒体资源，也可以用它来连接媒体资源与媒体片段[13]。利用媒体资源本体，结合媒体片段URI，可以完成媒体资源片段之间以及与其他网络资源之间的语义互联，如图1所表示。",
+    "context3": "图中实现了视频资源 http：//sitel.org/fragl.ogg与其视频片段http://sitel.org/fragl.ogg # $\\mathrm { t } = 8 0$ ，90之间的互相连接，以及与其他视频片段（http：//site2.org/frag2. $\\mathrm { m p 4 } \\# \\mathrm { t } = 2 0$ ，500）的关联；同时又把视频片段与网络文本内容关联（http：www.w3.org/DesignIssues/LinkedData $\\mathrm { h t m l }$ ）到了一起。"
+  },
+  "2关联媒体的互联方法": {
+    "context1": "关联数据的第四条规则要求建立资源对象与其他资源对象的关联，以便可以发现更多的信息。媒体资源之间的关联方法决定着资源之间能否建立有效的连接。当前媒体资源互联方法主要有人工方法、协作互联、半自动方法与自动方法[15]。",
+    "context2": "![](images/689c225e4d0f82bd48721f14e3ddfb77aced529483cc6c323ca15f4dc9c8ce01.jpg)  \n图1媒体片段互联与语义扩展[14]",
+    "context3": "（1）人工方法，包含用户贡献的互联与基于游戏的互联两种方法。用户贡献的互联方法依靠终端用户来实现媒体资源之间的互联，如：CaMiCatzee[16]允许用户将 Flickr中的图片与其他与人物相关的数据（如：FOAF）、位置以及相关的话题进行关联。基于游戏的方法可以充分发挥用户的积极性，它使媒体资源的关联过程变得有趣并将互联的过程隐藏于游戏过程中。如：OntoGame的目标是发现某个领域的共享概念，它要求玩家对图片、音频与视频文件进行描述。这些方法将有助于用户在媒体资源对象与其片段之间建立有效的语义关系。",
+    "context4": "（2）协作互联。协作互联的一个典型例子是语义维基，它建立在合作、易用、关联、版本控制的基础上并通过语义标注建立起类型链接与条目之间的关系[17]。一些语义维基系统，如：Ylvi[18]与MultiMakna[19]，只把多媒体对象作为条目的一部分，它不允许将媒体资源作为单独的对象对之进行标注与关联。另外一些语义系统，如：Meta—VidWiki[20]则支持处理与关联视频片段，视频片段被当作“条目”，并使用URIs来标识与关联。协作互联的方法可以充分发挥社区团体的优势，大大提高媒体资源关联的效率。",
+    "context5": "（3）半自动方法。半自动方法建立在多媒体自动分析技术与用户反馈的基础之上。为了获得潜在的语义关系，首先利用分析技术对多媒体内容及其环境进行分析，然后用户会对分析的结果进行反馈（用户可以选择接受、反对、修改等）。",
+    "context6": "（4）自动方法。自动关联多媒体资源的片段可以通过分析资源的内容来实现。例如：对于一段音乐音频内容来说，可以通过分析音频信息来获取音频内容的时间分段。时间片段可以自动地与音乐相关的概念（如：音调、表演者、节拍以及注释等）进行关联。在音乐领域自动关联媒体片段的一个典型应用是Henry[21]，它可以在线处理音乐内容，将其分割为不同的音乐片段，借助媒体片段标识符对这些片段进行标识与关联，同时将这些片段与相关的音乐概念进行连接。",
+    "context7": "当前，大多数据集之间的连接过程都是完全自动化的，主要使用后发式的方法决定两个数据集中的两个资源是否标识的是相同的对象[22]。然而，这种互联的方法主要建立在已有RDF描述的基础之上，因此，只有当多媒体对象存在RDF描述时，才能使用这种自动的关联算法。这些自动关联算法一般包括分析的过程，在建立关联之前需要从多媒体对象的内容中抽取一些信息，如上文提到的Henry。然而，这种自动关联的方法严重依赖于其分析",
+    "context8": "算法，对其准确性还有一定的争论。",
+    "context9": "当前数据集之间连接的另一重要来源是大的社区团体，如：Musicbrainz社区建立了Musicbrainz中艺术家与DBpedia中艺术家之间的关联。虽然人工的方法可以建立高质量的连接，然而这种方法单调乏味并且耗费了大量的时间。",
+    "context10": "较好的方案是把自动的方法与人工的方法联合使用。自动关联的方法可以快速地建立起媒体对象之间的关联，然后社区团体可以对已建立起的连接进行修正与更改，最终的连接会越来越准确。"
+  },
+  "3关联媒体的检索": {
+    "context1": "关联媒体的检索就是从“WebofData”中发现与信息需求相关的媒体资源或其片段。虽然语义网的标准查询语言 SPARQL可以用于查询任何用RDF来表示的信息资源，但是SPARQL并不支持多媒体资源的特殊属性，如：时空特征与媒体资源的相似性等。基于此，Thomas Kurz等根据媒体资源的特征对 SPARQL进行了扩展，构建了可以查询关联媒体的查询语言 SPARQL-MM[23]。SPARQL-MM设计了一些过滤函数（如：rightBeside、after与temporalOverlap等）以及聚合函数（如：boundingBox)，它可以处理如：“查询人物A在人物B右侧的时空片段”的查询请求。针对此查询请求，首先使用媒体片段标识符对某段视频中的人物A与B进行标识，人物A、B在媒体片段中对应的URI分别为：",
+    "context2": "A:http://example com/video. mp4 # xywh $=$ percent:26，20，22， $8 0 \\& . t = 1 9 4$ ，198  \nB:http://example com/video. mp4 # xywh $=$ percent:71，0，29， $1 0 0 \\& . \\mathrm { t } = 1 9 3$ ，198",
+    "context3": "然后使用 SPARQL-MM中的 $\\mathrm { m m }$ ：temporalOverlaps 函数获取在相同时间序列出现的媒体片段，使用 $\\mathrm { m m }$ ：rightBeside处理查询请求中的空间关系，最后用 $\\mathrm { m m }$ ：boundingBox函数聚合符合查询请求的两个媒体片段。最终的查询结果为：http://example com/video. mp4 # xywh $=$ percent:26，0，22， $1 0 0 \\& . \\mathrm { t } = 1 9 3$ ，198，具体的查询语句如下所示[24]：",
+    "context4": "SELECT (mm:boundingBox (l1，l2） AS two_guys)   \nWHERE $\\{$ fl a ma:MediaFragment;ma:locator ll；dct:subject pl. pl foaf: name\" A\". f2 a ma:MediaFragment；ma: locator l2；dct: subject p2. p2 foaf:name\" B.   \nFILTER mm:rightBeside (l1，l2)   \nFILTER mm: temporalOverlaps (l1，l2)",
+    "context5": "为了能够全面、规范地描述媒体片段的时空特征，SPARQL-MM专门设计了一个适用于多种数据描述模型的本体，主要定义了时间实体、空间实体以及时空实体三类实体。当前对关联媒体的检索还处于不断的探索中，SPARQL-MM现在关注更多的也是媒体片段的时空特征，对媒体相似性特征以及其他相关问题还需进一步的研究。"
+  },
+  "4关联媒体的应用": {
+    "context1": "关联媒体的应用主要是指当前把关联媒体的思想应用到实际场景中的典型实践。虽然对于关联媒体的研究还处于起步阶段，但是也出现了一些具有代表性的应用。",
+    "context2": "LinkedTV[25]项目由欧洲委员会第7框架组（FP7）资助，其主要目标是使电视内容与网络信息无缝地互联。用户在观看电视的同时，可以简单、方便地获取到与电视内容相关的网络信息资源。LinkedTV项目开发了一个核心本体（LinkedTV Core Ontology)[26]，该本体定义了一系列与电视内容大部分领域相关的类，如：Chapters、Scenes、Concepts以及Objects等。LinkedTV本体充分借助已构建的知名本体，如：媒体资源本体、开放标注核心数据模型（The Open Annotation Core Data Model)[27]、NERD ontology[28]以及项目本体（Programmesontology)[29]等。因为使用了MediaFragments URI，LinkedTV不仅可以对整个电视内容进行标注，还可以标注不同粒度的电视媒体资源。LinkedTV元模型框架如图2所示。",
+    "context3": "红牛内容池（The Red BullContent Pool)[31]是一个存储与体育赛事相关媒体内容的核心仓储，由红牛媒体之家股份有限公司与澳大利亚研究中心——“Salzburg NewMediaLab\"[32]共同开发。该内容池支持基于媒体片段的检索，并提供与视频相关的背景信息。为了实现这两方面的功能，开发者首先基于结构化元数据（如镜头摘要）",
+    "context4": "![](images/7469a7d73a128d1e2ee6c3e21a5a35a96444b5709cc5ec0c4d14a856ad3df78c.jpg)  \n图2LinkedTV元模型框架[30]",
+    "context5": "对媒体片段进行了识别，并使用Media Fragments URI对媒体片段进行标识；然后从与视频相关的文本内容中抽取出一些语义概念（如：人物、地点等），并将这些语义概念与不同的数据集（如：redbull com、DBPedia[33]等）进行连接；最后使用媒体资源本体将媒体片段与语义概念关联起来[34]。这样，用户就可以以结构化、语义化的方式浏览与检索视频，增强用户的体验，提高媒体资源的利用率。",
+    "context6": "Synote[35]是一个由英国南安普敦大学（Universityof Southampton）开发的基于网络的多媒体标注工具，它可以将用户产生的标签、注释以及图片等与媒体片段进行同步。Synote不存储多媒体资源，它只保存音视频资源与图片的URLs，用户产生的标注以及同步时间点将同时被保存至 Synote的数据库中。构建Synote的目标有以下两个[36]：",
+    "context7": "（1）将媒体片段与用户产生的标注出版为关联数据，并将媒体片段与标注关联起来；",
+    "context8": "（2）提高媒体片段的网络可见性。媒体片段可以通过标注进行索引，同时可以通过搜索引擎准确定位所查询的媒体片段。",
+    "context9": "Synote播放器可以交互与同步的方式展现所有媒体资源与标注。用户可以通过点击aSynmark（由一个文本附注与许多标签资源构成）、transcript block（语音文本块）或 slide（幻灯片）来跳转至相应的播放时间。如图3所示。Synote播放器同时也支持用户创建 Synmarks、Transcript与 slides，并将其与多媒体资源进行同步。",
+    "context10": "通过这些典型实践可以看出，关联媒体的研究正逐渐得到重视，有部分研究机构已经把关联媒体应用到了实际的场景中；重要的是关联媒体可以使用户以多媒体为核心来全方位地获取不同类型、不同渠道的网络信息资源，极大地丰富了用户获取信息的体验。"
+  },
+  "5总结与展望": {
+    "context1": "本文从关联媒体的规则与要求、关联媒体的互联方法、关联媒体的检索与应用等几个方面综述了关联媒体研究的最新进展。关联媒体可以提高媒体资源及其片段在网络上的可见性；用户可以方便、快捷地发现所需要的媒体资源，有利于多媒体资源的分享、重用；用户可以利用关联数据获得有关媒体资源的背景信息，如：视频中的人物、地点等信息，从而丰富用户获取网络信息资源的体验。",
+    "context2": "以关联媒体为主题的国际会议“The InternationalWorkshopon Linked Media”已连续举办了三届，对关联媒体的研究逐渐得到研究人员的重视。未来对关联媒体的研究可从以下几个方面进行：",
+    "context3": "（1）媒体资源的标注与描述。媒体资源的标注与描述是媒体资源与其他关联数据能否有效连接的关键。随着媒体资源数量的不断增长，如何自动、即时地抽取多媒体内容的元数据并将其与关联数据进行整合将会是未来的一个重要研究方向。",
+    "context4": "（2）媒体资源之间的互联。连接媒体资源是构建关联媒体网络的重要步骤。如何将媒体资源与其片段以及具"
+  },
+  "Tim Berners-Lee: The next Web of open, linked data": {
+    "context1": "焱settings γ Help +1 1 Tweet",
+    "context2": "byyunjiali created 30/01/2012 Playfrom00:00:01.000to00:00:14.000 1 00:00:39/00:00 Synmarks 2 Tim Berners-Lee:The next Web of open, linked data by Yunjia position:00:00:00 tags:timbernersleetedlinkeddata 20 yearsago,Tim Berners-Lee invented the World Wide Web.For his next project, he's buildinga web for open,linked data that could do for numbers what the Web did for words,pictures,video:unlock our data and reframe the way we use it together. TED talk by Yunjia position:00:00:01to 00:00:14 You Tube Ti 00:39 16:51 menu □ Theaterandit is given byTim Berners LeeaboutLinked Data. ? · Pace:1s ▼ 00:00:00 HansRosling's talk by Mike position:00:04:24to 00:05:11 Transcript 3 tags:data Hans Rosling Here is Hans Rosling's talk. Wridideb Linkeddataand linked data principles by Mike new reframing.Time flies.It'sactually almost 20 years ago when I position:00:06:09 tags:principleslinked data want toask your helpinanew reframing. Tim talked about linked data principles 00:00:38 to 00:01:02 Linked dataarticle by Mike Sogoing back to1989,Iwroteamemosuggestingtheglobal hypertext system. Nobody really did anything with it, pretty much. But 18 months position:00:07:40to00:07:48 later-- this is how innovation happens--18months later,my boss said I tags:linked dataarticle could doit on the side,asasort of a play project,kick the tires ofa new Thearticle Tim mentioned is here computer we'd got.And so he gave me the time to code it up. 00:01:03 to 00:01:18 Government Data by Mike 会 4 15 Presentation Slic 体相同主题的媒体片段自动关联在一起也将会是一个热点研究问题。",
+    "context3": "![](images/516fee13679cd10b677149ab5b571115520e150bd55ac5cb7b09ef448dab3dc5.jpg)  \n图3Synote播放器截图[37]",
+    "context4": "（3）关联媒体的浏览与检索。关联媒体发布以后，语义网查询语言以及传统的搜索引擎能否检索到相关的关联媒体内容决定着关联媒体能否真正被用户发现、分享以及再利用。所以，一方面需要在语义网查询语言上探索新的查询方法，另一方面需要尝试利用新的技术让传统的搜索引擎可以搜索到关联媒体内容。"
+  },
+  "注释": {
+    "context1": "[1][2]LOD[EB/OL].[2015-03一31].htp://www.w3.org/wiki/SweoIG/TaskForces/CommunityProjects/LinkingOpenData   \n[3][6]BUrgerT，HausenblasMInterlinkingMultimedia：PrinciplesandRequirementsC].In：ProcedingsoftheO08Inteatioal WorkshoponInteracting withMultimediaContentintheSocialSemanticWeb.Graz，Austria：SemanticTechnologyInstitute，2008：1一 6.   \n[4]Berners-LeeT，HallW，HendlerJA，etalAframeworkforWebScience[J].FoundationsandTrendsinWebScience，2006（1)： $1 -$ 130.   \n[5]NixonLJBTheImportanceofLinked MediatotheFutureWeb：Lime2Ol3KeynoteTalk—AProposalfrtheLinkedMediaResearch Agenda[C].In：Procedingsofthe22ndIternationalConferenceonWorldWideWebCompaion，RiodeJaneiroRepublicandCantof Geneva：ACM，2013：455-456.   \n[7]Media Fragments URI1.0 （basic）[EB/OL].[2015-04-01].htp://www. w3.org/TR/media-frags/.   \n[8]GlachsD，SchafertS，BauerCInterlinkingMediaArchives withtheWebofDataSemanticInlineAnnotationofOnlineContentCIn： Proceedings of the I-SEMANTICS 20l2 Posters & Demonstrations Track，Graz，Austria 20l2：17-21.   \n[9]Berers-Lee T.Linked Data-Design Issues[EB/OL].[2015-03-31].http：//www.w3.org/DesignIssues/LinkedData html   \n[10]Heath T，Bizer C.Linked Data Evolving the Web into a Global Data Space[M].Morgan & Claypool，2011.   \n[11]Ontology for Media Resources 1. 0[EB/OL]. $[ 2 0 1 5 - 0 4 - 0 1 ] .$ http：//www.w3.org/TR/mediaont-10/.   \n[12]LiY，WaldM，WillGApplyingLinkedDataiMultimediaAotationsJ]InterationalJouralofSemanticComputing，1（3)： 1-26.   \n[13]KurzT，GuntnerG，DamjanovicV，etalSemanticEnhancementfor Media Aset ManagementSystemsJ].MultimediaToolsand Applications，2012(2)：949-975.   \n[14]LiY，Mikewald，WilGInterlikingultiediaotatiosCI：ProedingsfteCWebSceCfereeKblen, Germany.Koblenz：ACM，2011： $1 - 4$   \n[15]HausenblasM，TroncyR，BurgerT，etalInterlinkingMutmedia：HowtoApplyLinkedDataPrinciplestoMutimediaFragments[C] .In：Proceedings of the 2O09 Linked Data on the Web Workshop，Madrid，Spain.Web，2009.   \n[16]HausenblasM，HalbW.InterlinkingMultimediaDataC]In：ProcedingsoftheISEMANTICS2oo，Graz，AustriaWeb，08：1 $- 2$   \n[17]Schaffert S，Bry F，Baumeister J，et al Semantic Wikis [J]. IEEE Software，2O08 （4)：8-11.   \n[18]PopitschN，SchandlB，AmiriA.Yvi-MultiediaizingtheSemanticWikiC]In：ProcedingsoftheFirstWorkshoonSemanticWikis Budva，Montenegro.Web，2006： $1 - 5$   \n[19]NixonLJB，SimperlEPBMaknaandMultiMakna：TowardsSemanticandMultimediaCapabilityin WikisfortheEmerging Web[C]. In：Proceedings of the Semantics 2oo6，Vienna，Austria.Web，2006.   \n[20]Meta-VidWiki[EB/OL].[2015-06-11].http：//metavid org/wiki/.   \n[21]RaimondY，SandlerMAWebofMusicalInformationC.I：Proceedingsofthe9thInternationalConferenceonMusicInforation Retrieval，Pennsylvania，America.Web，20o8：263－268.   \n[2]RaimondY，SuttonC，SanderMAutomatiInterlinkingofMusicDatasesontheSemanticWebC]In：ProcedingsoftheLinkedData on the Web 2008，China.Web，2008： $1 - 8$   \n[23]KurzT，SchlegelK，KoschPDHEnablingAcesstoLinkedMediawithSPARQL-MMC]In：Proceedingsofthe24thInteatioal Conference on World Wide Web Companion，Florence，Italy.Switzerland：ACM，2O15：721－726.   \n[24]KurzT，SchafertS，SchlegelK，etalSARQL-MM-ExtendingSPARQLtoMediFragmentsC]In：ProcedingsoftheEWC214, Crete，Greece. Switzerland：Springer，2014：236-240.   \n[25]LinkedTV[EB/OL].[2015-04-08].www. linkedTV.eu.   \n[26][29]LinkedTV Core Ontology[EB/OL].[2015-04-08].http://data linkedtv. eu/ontologies/core/.   \n[27]Open Annotation Data Model[EB/OL].[2015-04-08]. http：//www. openannotation org/spec/core/.   \n[28]NERD ontology[EB/OL].[2015-04-08].http：//nerd eurecom fr/ontology#.   \n[30]Programmes ontology [EB/OL]. $[ 2 0 1 5 - 0 4 - 0 8 ]$ . http：//www. bbc co.uk/ontologies/po.   \n[31]The Red BullContentPool[EB/OL].[2015-04-08]. https://www.redbulcontentpoolcom/content/international   \n[32]Salzburg NewMediaLab[EB/OL].[2015-04-09]. http://www. newmedialab at/.   \n[33]DBPedia[EB/OL].[2015－04-09].http：//wiki dbpedia org/.   \n[34]KurzT，SchafertS，GntnerG，etalAddingWingstoRedBullMedia：SearchandDisplaySemanticallyEnhanced VideoFragments [C].In：Procedingsofthe1stInternationalConferenceCompaniononWorldWideWeb，Lyon，FranceNewYork：ACM,012：373 -376.   \n[35]Synote[EB/OL].[2015-04-09].http：//synote org/synote/.   \n[36][37]LiY，Mikewald，OmitolaT，etalSynote：WeavingMediaFragmentsandLinkedDataCIn：Procedingsofthe2Workshop on Linked Data on the Web，Lyon，France. Lyon：LDOW2012，2012：1-10.",
+    "context2": "王敬中科院兰州文献情报中心，硕士研究生。"
+  }
+}

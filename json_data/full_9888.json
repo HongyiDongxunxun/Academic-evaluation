@@ -1,0 +1,136 @@
+{
+  "original_filename": "full_9888.md",
+  "近年来国外英文知识组织系统研究现状和发展趋势": {
+    "context1": "司莉，周李梅",
+    "context2": "(武汉大学信息管理学院，湖北武汉430072)",
+    "context3": "[摘要]“知识组织”自1929年由英国著名的分类法专家布利斯（H·E·Bliss）提出以来，一直都是领域内专家研究的重点之一。知识组织系统是知识组织的载体，知识组织的发展有赖于知识组织系统的发展。“知识组织系统（KOS）”这一术语涵盖了所有组织信息和促进知识管理的工具。文章通过大量的文献调查，分析总结知识组织系统研究现状，涉及关于分类法、叙词表、本体、概念图、知识分类表和大众分类法等等，在此基础之上，分析了知识组织系统的发展趋势。",
+    "context4": "[关键词]知识组织系统；综述；国外；研究现状；发展趋势[中图分类号]G254.0[文献标识码]A[文章编号]1002－1167（2010）06－0220－07",
+    "context5": "知识组织系统（KOS）是用户信息需求和文献资源之间的桥梁，其概念涵盖了组织信息和促进知识管理的所有方式，一般可以将其分为以下三大类：词单（TermLists）：如权威文档（AuthorityFiles）、字典（Dictiona-ries）、术语表（Glossaries）、地名辞典（Gazetteers）；分类与大致归类（Classification and Categorization）：如标题表(Subject Headings）、分类法（Classification Schemes）、范畴表（Categorization Schemes）、体系分类表（Taxono-mies）；关联组织（RelationshipGroups）：叙词表（Thesaurus）、语义网络（Semantic Network）、本体（Ontology）和概念地图（Concept maps）等。",
+    "context6": "为了了解国外学者对于知识组织系统研究的前沿动态，本文选用图书情报学文摘数据库LISA，对国外近五年来的相关研究成果进行统计分析，梳理研究主题，并指出知识组织系统的发展趋势。"
+  },
+  "1知识组织系统的研究现状": {
+    "context1": "笔者从LISA数据库中，以各种知识组织方式为检索词进行检索得出2006年至2010年知识组织中各类知识组织方式的研究概况。主要热点主题分布如下："
+  },
+  "1.1关于知识组织的基本问题研究": {
+    "context1": "Gnoli探讨了21世纪知识组织研究中的基本问题，总结为：（1）知识组织（KO）原则能否被扩展到更广阔的范围，包括超文本、多媒体、博物馆等对象；（2）本体和认识论的基本方法能否协调一致；（3）知识组织的本体基础能否定义；（4）各学科是否仍是知识组织的结构基础；（5)知识组织如何被应用到本地文献需求中；（6）知识组织如何应对知识的变化；（7）如何提升软件和格式以更好地满足这些需求；（8）谁来进行知识组织：信息专家，著者或用户[2]。",
+    "context2": "Budin总结了KOS的功能，主要有：组织和保存大量文献内容的工具；信息系统的组成部分；支持基于概念查询标准的目标信息检索；查询帮助、可视化导航和查询语言；支持沟通的工具(跨语言、跨学科和跨文化)；机构知识管理的工具；学习支持、目标支持和教育工具[。曾蕾认为KOS可为一个领域内语义结构建模，并为标签、定义、关系和性质提供语义、导航和翻译。嵌入到网络中，KOS工具还能作为语义路线图帮助用户发现和检索知识，因此，也为标引人员和未来用户提供可能的导航[4。"
+  },
+  "1.2关于知识组织的应用研究": {
+    "context1": "1.2.1关于知识组织的综合应用研究",
+    "context2": "知识组织综合应用是起源于网络上混合应用的趋势Mashup（混搭或聚合)，即从多个分散的站点获取信息源，组合成新网络应用的一种应用模式。具体而言，就是通过将各个组成部分重组，创造一种应用环境。",
+    "context3": "Fichter指出Mashup是一种网络应用，可以将多种资源合并，以整合的方式传递给用户[5。Wilde认为综合应用是重复利用网上急剧增长的信息的方法，也是一种在网络环境下应用发展支持工具和技术的趋势。总结了知识组织综合应用的主要问题：即（1）技术问题：数据模型、数据格式、数据获取等问题；（2）设计问题：如OpenURL设计；（3）组织问题：将参与者集中起来，组织协调等[6。"
+  },
+  "1.2.2关于知识组织系统在数字图书馆中的应用研究": {
+    "context1": "知识组织系统是数字图书馆不可或缺的组成部分，是用户检索与浏览资源的途径。Soergel总结了KOS在数字图书馆中的主要功能[：（1）单个领域和其相互关系的语义路线图。给出一个概念的范畴，关联概念和术语并给出定义；在分类法的背景下解释概念；通过学科、语言和文化关联概念和术语；（2）促进交流，为学习者提供概念框架。（3）设计良好检索的概念基础；（4）定义数据元的本体；（5）多语种服务；（6）自然语言处理的词汇基础等。",
+    "context2": "Shiri 和Molberg 2005 年调查了33个加拿大数字图书馆的KOS组织界面，发现主题词表和分类法是用于数字图书馆界面支持用户查询信息的最主要工具8。2009 年 Shiri将调查范围扩展到北美的269个数字图书馆。调查发现，美国国会主题词表（LCSH）是主题描述使用最广泛的工具，其次是具体领域叙词表，有113个数字图书馆利用本馆自编的知识分类表，还有的图书馆利用DDC分类法组织资源。"
+  },
+  "1.3关于分类法和叙词表的研究": {
+    "context1": "1.3.1关于叙词表等的建立和维护研究",
+    "context2": "随着对叙词表在信息检索中的作用的重视，创建与维护叙词表成为研究的热点。McCulloch等从术语选择、结构和标记、标准、咨询、软件、网络、维护和更新等方面探讨叙词表的创建与维护[10]。Ibekwe一SanJuan 等将自然语言处理、聚类算法和信息可视化界面结合，提出叙词表创建和维护的综合方法，并创建了TermWatch系统，可从文件中抽取术语，并能够利用补充的语言工具挖掘这些术语间的语义关系，再利用这些语义关系聚类术语[11]。 $\\mathrm { P u m } ^ { - }$ Mo等在2006 年国际术语标准和技术转移会议上提出采用机器自动处理和人工核实相结合的方法。词表构造步骤包括术语提取，术语分类和知识分类表构建等，每一步骤并基于该方法构建了韩国IT 领域的叙词表，包括81个大类和1000 多个IT 术语[12]。",
+    "context3": "Mai采用了认知工作分析（CognitiveWork Analysis）的方法，全面分析了人的信息行为对设计受控词汇的影响。Mai对人类信息活动进行了维度分析，指出人类信息活动包括：环境 (维度1)；工作领域分析 (维度2)；机构分析(维度3)；活动分析 (维度4)；工作领域术语的活动分析(维度4a)；决策术语中的活动分析（维度 $4 \\mathrm { b }$ )；可用策略方面的术语活动分析（维度 $4 \\mathbf { c }$ )；用户来源和价值观分析(维度5)。这项研究结合用户需求和文件描述或组织两个方面，以新的角度研究受控词汇的构建[13]。"
+  },
+  "1.3.2关于分类法和叙词表的应用研究": {
+    "context1": "分面分析是概念组织、关系分类和受控词的构建的逻辑基础，Broughton 和Slavic 提出创建用于在网络环境下查找信息资源的分面分类法的原则和程序[14]，阐明了如何将分面分析应用到FATKS项目之中，设计出FAT一HUM分类法原型，宏观层面基于BC2和UDC，如概念结构、分",
+    "context2": "面规则等。",
+    "context3": "Svanberg于2006 年首先提出混合翻译方式翻译DDC。Mitchell等在2009 年的IFLA卫星会议的会前文献中讨论了将DDC 翻译为多个版本，如挪威版DDC 和瑞典版DDC,介绍了挪威版和瑞典版DDC混合模型，讨论了知识组织系统中双语和多语言描述的理论问题[15]。混合翻译不是一种双语版本；混合翻译可以加快翻译过程，也使得翻译更易于维护。",
+    "context4": "王忠红提出可将分类表与叙词表运用于机构知识分类表中。介绍了新加坡南洋理工大学知识分类表创建方法：应用自上而下的方法将知识分类表建立在DDC、信息科学分类法和两种信息系统分类法、以及ASIS&T、LISA 和ERIC3种叙词表之上[1。目前这方面的成果还有：McGre\"gor利用医学主题词表建立了一个医学知识分类表，Chaudhry用分类表和受控词汇来建立知识分类表的分类资源，另外美国医学协会的知识分类表则建立在MeSH的基础上；SESDL （Scottish Electronic Staff Development Li-brary）知识分类表是利用了DDC和BET。这些研究在某种程度上说明利用分类法和叙词表建立知识分类表的潜力和益处。",
+    "context5": "另外，知识组织中语义研究也成为学者研究的重点。Mazzochi等讨论了叙词表关系语义的各个方面，提出语义理论影响着叙词表的关系语义的设计。通过关系语义将术语连接，提高信息检索的效率，也可通过更为具体的术语，限制不需要的信息而提高查寻的精度[。"
+  },
+  "1.4关于本体的研究": "",
+  "1.4.1关于本体理论与构建方法研究": {
+    "context1": "由于对跨系统的知识重用和分享的需求的增加，不同的系统描述领域的时候使用不同的概念和术语，很难从一个系统中提取知识运用到另一个系统中，这样，开发可重用的本体以推进共享以及开发支持构建、合并和翻译本体的工具是本体研究的重要目标。Budin将本体的主要特征总结为：（1）概念被明确定义；（2）概念间的关系明确；（3)术语标准化；（4）有具体的逻辑应用规则和限制。",
+    "context2": "Budin还比较了本体与语义网络的异同，认为两者非常相似，都是表示知识的形式，并且均可以通过带标记的有向图来表示，适合用于逻辑推理。但从描述的对象或范围而言，两者有所区别。依照领域依赖程度，可将本体细分为顶级、领域、任务和应用本体等[18]。",
+    "context3": "关于本体的设计，Park 等提出一个以内容为中心的、以分面分类法作为设计本体结构的方法[19]。为此，Park 还设计了一个酒本体，显示图书馆和信息科学中的知识组织方法如何提高本体的设计。"
+  },
+  "1.4.2关于本体的应用研究": {
+    "context1": "Anumba等探讨了本体在建设项目交付过程中的作用，尤其是考虑到信息和知识管理方面。由于不同机构在项目组织中使用异构系统，如何实现不同系统间的互操作，本体则是解决这类问题的一种重要方法。Anumba介绍了SWIMS本体，它可提供不同分布式建造项目成员的有效沟通的基础[20]。",
+    "context2": "本体可用于文件的分类管理。Uddin 和Janecek 提出本体在文件处理中已经得到应用。Yu一LiangChi等介绍了本体和语义规则在新闻特征中推断知识的应用。Chi指出新闻本体提供新闻实例描述的抽象框架，包括特定领域的基本属性和背景属性，基本属性是指已存文件描述标准如DC，Chi 将背景属性划分四类：人物、时间、地点和事件〔21]",
+    "context3": "Gangemi介绍了一个旨在建立渔业领域的本体的项目，能够支持现有的渔业信息系统语义交互性。这个本体通过概念整合和合并现有渔业领域的术语、叙词表、参考列表和主题树而建立[22。Weller对将本体应用于知识组织系统进行探讨。提出知识组织本体（KOSO）概念，KOSO旨在组织有关不同类型KOS专门知识和为已存在的知识模型提供有序获取，详细描述了KOS 的细节并对其进行分类，捕获不同KOS之间的交叉一致性和相关性。Weller指出KO-SO 可以用来组织各种类型的知识组织系统的专门知识，并对当前的知识模型提供系统的访问。知识组织本体的主要目的有两个方面：（1）揭示不同类型知识组织系统的共同定义；（2）详细描述个人知识组织系统，为当前的信息资源提供结构化获取途径[23]。"
+  },
+  "1.5关于知识分类表的研究": "",
+  "1.5.1关于知识分类表的应用研究": {
+    "context1": "在具体的应用方面的研究已较普遍。如Andrew 等提出在儿童美学中建立可视化知识分类表[24]；Boeri和Rob-ert 提出将知识分类表用于美国税收系统中。英国图书馆的“CollectBritain”网站（www $\\because$ aclin·org/index·html)，用户可以通过一个基于主题的知识分类表浏览资源；在 Herit-age Colorado网站，使用了三级的基于主题的知识分类表，PictureAustralia网站、SCRAN网站（苏格兰文化遗产网站）都不同程度地应用了知识分类表[25]。Chaudhry 等介绍了基于新加坡的文化遗产网创建的 500 个术语的知识分类表，说明了创建步骤[26]。"
+  },
+  "1.5.2关于知识分类表的互操作研究": {
+    "context1": "虚拟机构的资源分类是基于本地知识分类表的，而这些知识分类表之间的异构性导致其协作效率较低，如知识分享和交互查询。Jung 提出一种基于虚拟机构知识分类表组合的框架，着重研究基于知识分类法的虚拟机构之间的语义交互性。通过测量两个类的相似度组合每一对知识分类表[27] 。"
+  },
+  "1.6关于概念图的研究": {
+    "context1": "Novak 总结了概念图的特点：（1）概念图是一种等级结构，最具概括性、最一般的概念在顶层，而具体的概念在底层。（2）概念图具有交叉连接功能，能够帮助理解图中一个知识领域的某个概念如何与另一个知识领域的概念相连接。（3）概念图中有具体的实例或物体帮助解释概念的意义。Novak还提出创建概念图的步骤：（1）了解所建概念图的知识领域； (2）确定这个领域的关键概念；（3)初步建立概念图；（4）修改概念图；（5）待初稿完成，寻找连线。连线是图中表明概念间关系的重要部分[28]。",
+    "context2": "Buter等尝试对概念图与书目计量学地图的结合。建立了一个“定性的地图”，作为概念图和思维地图的总术语。并创建了一个连接定性地图与书目计量学图的工具，用户可以在地图专用的不同词汇之间建立相关的关系[29]。",
+    "context3": "Conlon等介绍了一种半自动化的软件分析器，评估用于课堂学习的概念图[30。Henao一Calad 等认为，概念图可用于知识创建或转换过程，讨论了概念图用于以知识管理为目标的组织或机构中的可行性，并阐述利用Cmap Tools软件支持机构知识管理的过程。并描述了概念图用于促进或支持知识实现社会化、外化、组合化、国际化的转化[31]。"
+  },
+  "1.7知识组织系统的互操作研究": {
+    "context1": "互操作性是指两个或多个系统相互使用已被交换信息的能力，就其本质而言，互操作性是在异质实体（包括异种体系结构、异种操作系统、异种网络和异种语言等）中可获得资源的透明调用的能力。Dagobert Soergel指出，实现互操作性的两种方式：一是标准，可以使两个系统采用统一的语法甚至是语义；二是映射。",
+    "context2": "Ohly指出，互操作有三种类型：语义、语法、结构互操作，并将其分为六个层次，依次分别为：无互操作、技术互操作、句法互操作、语义互操作、实用互操作、动态互操作、概念互操作。其互操作性依次不断加强[32。映射是解决互操作的最主要的方法之一。McCulloch 和 Macgregor认为在分布式术语服务环境下进行互操作需要的多种类型的等价或映射，用从AAT、LCSH、MeSH和UNESCO选择的术语映射到DDC的实例进行了证明，并提出了匹配类型[33]。",
+    "context3": "Sanchez－Alonso 等研究了SKOS元数据到基于本体模型的映射，以促进不同概念体系的语义交互性。介绍了一种特定的顶级本体OpenCyc，即Cyc 的开放资源版。通过将SKOS词汇映射到顶级本体，从而提出SKOS词汇中的术语的准确定义；定义了一个将SKOS的概念映射到顶级本体术语的中间模型[34)",
+    "context4": "目前已有一些实现的互操作项目，如德国的CAR-MEN，欧洲的Renardus 项目等。Giunchiglia 与 Soergel 等介绍了在不同知识组织系统（KOS）之间的基于概念的自动映射方法，具体举例说明美国国会图书馆标题表(LCSH）和美国国家农业图书馆叙词表之间的映射(NALT)。"
+  },
+  "1.8关于大众分类法的研究": "",
+  "1.8.1关于大众分类法的基本问题研究": {
+    "context1": "Dye 阐述了大众分类法的过程：用户为图片、文章、博客、书签或网址指定一个名称或标签，只需查看标签就可以找到需要的信息[35]。Gordon－Murnane 讨论了大众分类法的定义、发展、制作工具、优劣势等问题，并例举比较分析了基于大众分类法的网站[36]。Wichowski认为变化着的信息环境引起了机构或组织的变化，分析了大众分类法产生的条件[37。DeMeo 等提出一种支持用户注释和浏览大众分类法标注信息的新方法，即提出一种快速准确决定两个标签之间相似性和抽象程度的可能性技术，还提出两个等级结构和两种相关算法，可以聚合具有语义相关性的标签(38]。Peterson 等对标签维护（Tagging gardenning）进行研究，讨论了修订和重新编辑标签的各种方法，包括在大众分类法中逐渐添加语义结构，或将这些标签合并为复杂的知识组织系统[39]。"
+  },
+  "1.8.2关于大众分类法的调查研究": {
+    "context1": "Morrison比较了社会标签网站中大众分类法的检索效果和搜索引擎、主题目录的检索效果，选择34个用户，创建了103个基于不同信息需求的查询实验，结果显示：搜索引擎和主题目录的准确度较高，但大众分类法的检全率也不低[40]。",
+    "context2": "Peterson对美国蒙大拿州立图书馆电子论文的标签运用进行调查，发现传统的等级主题词和用户标签都得到应用，鼓励用户使用标签[41]。Sinclair等讨论了标签云对信息检索的适用性。通过试验让用户利用标签云或传统的检索界面回答问题，发现在具体信息查询过程中用户偏向于检索界面；相反，如果用户需要查找一般或抽象信息，他们偏向于标签云[42]。",
+    "context3": "Munk 等调查了del·icio·us 网站，探讨了人们如何在网上进行标注等问题。通过统计标签的出现频度和分布百分比等，从定量角度调查了标签类型及用户标注的策略[43]。"
+  },
+  "1.8.3关于大众分类法的应用研究": {
+    "context1": "随着大众分类法的发展，其应用也越来越广泛。Sun研究了大众分类法在健康信息中的利用，即社会标注如何帮助用户查找医学信息。由于大众分类法的使用使得信息依赖于用户使用的词汇，用户更容易查找健康信息。此外，大众分类法还为具有共同兴趣的人提供分享和查找信息的平台[44]",
+    "context2": "Spiteri指出，将大众分类法用于公共图书馆目录后，用户可以构建个人信息空间，补充现有的受控词汇或创建网络社区[45]。Peterson 调查了一些仍在使用传统主题编目方法的机构，这些机构同样也鼓励用户进行标注。大众分类法与传统的编目可以并存[46。大众分类法能够增加公共图书馆编目的价值，大众可以根据自身喜好使用标签对词条进行保存、维护和组织[47]。Arch 也提出将大众分类法用于高校图书馆的建议[48]",
+    "context3": "在 $\\mathbb { W } \\mathrm { e b 2 . ~ 0 ~ }$ 环境下，有些学者试图利用社会标注丰富图书馆的联机公共检索目录（OPAC）。Metitieri介绍了一个最近投入市场的集成图书馆系统和各种社会标注工具,测试了目录和社会网络的首次交互效果[49]",
+    "context4": "Pera 等提出一种强化图书馆系统。用户可以通过这个系统进行相似度匹配。系统还允许用户用自然语言提问，在保证检索时间的基础上以相似度高低排列检索结果[50]。"
+  },
+  "1.8.4关于大众分类法受控词表的结合研究": {
+    "context1": "大众分类法与受控词表的结合研究主要集中于叙词表与本体的结合上。Kwan 等调查了基于单词匹配的大众分类法与LCSH之间的连接，运用LCSH对大众分类法进行有序化。还选取了“Delicious”的标记系统与LCSH进行单词匹配。与LCSH匹配的标签占了所有标签的2/3，且有$10 \\%$ 的标签有匹配的可能性。研究表明，用户创建词汇、非受控词汇和受控词汇的匹配十分有潜力〔51]。Alireza 讨论了叙词表在使用大众分类法系统中的作用[52：（1）可以作为一个单独工具，为添加标注提供帮助；（2）可运行于搜索界面后台，用户无需与之交互就可以进行查询；（3）可以提高信息检索的效果。",
+    "context2": "Dotsika指出本体和大众分类法具有相似性，探究了整合本体和大众分类法的方法，提出使两者共生与质量保证的普遍框架[53]"
+  },
+  "1.9一些机构与组织对知识组织研究的贡献": "",
+  "1.9.1W3C 对知识组织研究": {
+    "context1": "W3C下的SKOS区域负责制定KOS使用标准。W3C语义网下的最佳实践和应用工作小组出版并维护简约知识组织表述语言(SKOSCore)，它是以资源描述框架RDF 为基础，是一种表述规范词表中的基本结构和概念表内容的格式语言[54]。",
+    "context2": "在 SKOS 规范和文档模块给出SKOS的相关规范，包括简单知识组织系统参考的初级版本和 2009 年的改进版或终极版。在该模块里介绍了SKOS 的参考规范和用户指南。在W3C 网站上，可以查找RDF 词汇、SKOS补充报告、相关软件工具和应用、用户参与方式，以及相关的教材、报告和论文等。"
+  },
+  "1.9.2OCLC 对知识组织研究": {
+    "context1": "OCLC启动了许多有关知识组织研究项目，主要有DeweyBrow ser、FAST、Tag Cloud Builder 与 TerminologyServices等。",
+    "context2": "DeweyBrow ser：是由OCLC 研究人员开发的一种支持检索与浏览由DDC 组织的资源的研究模型[55]，采用异步的Java描述语言与XML语言AJAX，可呈现DDC三级类目的检索结果，并可以用英、法、德、西班牙、瑞典等五种语言显示，用户通过点击DDC 等级类目或输入检索词来使用该模型。DeweyBrowser可用于检索21万册电子图书、220万条WorldCat记录与选自DDCl4 版简略版的数据。",
+    "context3": "FAST：FAST词表是一个基于LCSH制作的列举式主题词表[5。FAST 包括1,600,000 多个规范记录，其术语分为八个类或分面：人名、地名、企业名、事件、标题、时间、主题和格式等。自2OO1年FAST文件在IFLA会前会议上发布以来，该项目就取得持续的进展。",
+    "context4": "Tag CloudBuilder：是OCLC为研究社会标注或标签云而制作的可视化术语提取工具。用户将一段文字或网页的URL复制到标签云制作网页的文本框内，可自动生成标签云，并提供打印等服务[57]。",
+    "context5": "Terminology Services：术语服务可以理解为涉及各种类型知识组织资源（包括规范档、主题词表系统、网络分类、分类表等）的Web 服务。它是互操作领域的研究项目，重点在于研究词表映射匹配以及在此基础上实现词表之间的互操作[58。目前，OCLC已经实现了部分受控词表的互操作查询系统，包括其自身开发的FAST词表、LCSH、MeSH等。",
+    "context6": "VIAF：虚拟国际规范文档（VIAF）是个人名称规范文档，由德国国家图书馆、美国国会图书馆和OCLC联机计算机图书馆中心联合开发。VIAF连接世界各国国家书目机构的规范记录，并免费提供网上检索。VIAF长远目标是将许多国家图书馆和其他重要来源的规范名称结合起来，形成一个共享的全球规范服务[59]。"
+  },
+  "1.9.3ISKO 对知识组织研究": {
+    "context1": "国际知识组织协会（International Society of KnowledgeOrganization，简称ISKO)[成立于1989年，具有广泛的、跨学科的范围，ISKO集中了各领域学科的专业人士，在全世界拥有超过400个成员机构，致力于推进各种形式的概念在知识组织中的工作。",
+    "context2": "ISKO每两年召开国际会议，在未召开国际会议的年份，定期召开国家和地区会议。ISKO创建专业杂志KnowledgeOrganization（KO），刊登有关知识组织的原创性文章、会议报道和类似讯息、ISKO的实时通讯（ISKONews）、书评及读者来信等。"
+  },
+  "2知识组织系统的发展趋势": {
+    "context1": "笔者认为知识组织系统向网络化、可视化、互操作、知识组织系统的集成化等方面发展，具体如下：",
+    "context2": "（1）知识组织系统的网络化。实现网络化是传统知识组织体系适应网络环境的发展方向。其主要表现为：各种分类法和主题词表将Web作为展示窗口，在印刷版的基础上推出网络版，并通过HTML网页提供基本的浏览、查询功能。",
+    "context3": "传统知识组织体系已广泛应用于网络信息的组织与检索中，积极向联机数据库、网络搜索引擎、学科信息门户等新的领域拓展。如传统文献分类法DDC、UDC、LCC 等已广泛应用在网络资源的组织中。DDC、LCC以及《中国分类主题词表》等推出了网络版，据有关统计，国外检索语言中有网络版的已占 $8 2 . 5 \\%$ 。知识组织工具的网络化能够提供Web化的检索界面与系统化的资料内容，是建立在Web 站点上的知识组织工具，具有快捷的获取途径、数据更新及时、非线性超文本链接等特征，也是Web环境下知识组织系统应用与拓展的基本条件。",
+    "context4": "（2）知识组织系统的互操作。互操作性，是实现异构系统知识共享的前提，已有大量的项目研究这一课题。互操作不仅成为研究的重点，也是目前知识组织体系建设的主要内容。目前人们已提出了一些实现互操作的技术与方法，如派生法、翻译法、系列化分类表或词表、卫星词表法、直接映射、共现映射、中介词典、宏词汇等。",
+    "context5": "在这一领域当前关注的焦点及发展趋势是将多类型、多语种的知识组织体系通过相互映射集成整合在一起，并可被运用于多个不同系统，实现异地跨系统的浏览与检索，以期有效提高信息检索的效率和精确度。",
+    "context6": "（3）知识组织系统的可视化。可视化能够大大节省用户查找信息和理解信息的时间，是知识组织的重要研究内容。可视化是用图形可视化工具方式显示知识组织系统的结构，可视化工具主要包括概念图（Concept Map）、思维导图（Mind Map）、认知地图（CognitiveMap）、语义网络(Semantic Network）、思维地图（ThinkingMap）等。",
+    "context7": "词表、分类表以及本体的可视化等，能够为用户动态直观多维地揭示概念之间的关系。如以图形方式网状显示词间关系，将语词的相关信息在同一张图上显示出来，通过多维及多级显示为用户提供更多的信息，从而克服树型结构的缺点，改善叙词表性能。本体的可视化也是本体发展的趋势之一，通过图形可视化的方式展示本体中网状结构的知识，其可视化检索系统能够将本体中的类层次、属性、实例等语义关系以图形化方式直观显示，实现可视化语义检索。",
+    "context8": "（4）知识组织系统的集成化。主要是知识组织系统在数字图书馆或网络信息组织中的应用集成，如集成不同类型的知识组织体系，如叙词表、分类系统、地名辞典、知识分类表、本体等，应用于数字图书馆和语义Web中。另外，受控语言与自然语言的融合也是图书情报领域的研究热点，知识组织系统的集成研究，尤其是传统的知识组织方式，与新出现的知识组织方式如大众分类法等的结合，正定又狂诣言习日然语台融合的里安体现。",
+    "context9": "[参考文献]   \n[l］曾蕾：用于标引、浏览、检索的语义工具Semantic Tools 〔EB/ OL]．[2010—O9—11]．www·libnet·sh·cn/upload/htmleditor/File/071213121547. pdf.   \n[2]Gnoli,Claudio· Ten Long-Term Research Questions in Knowledge Organization[J]·Knowledge Organization，2OO8，35（2 -3): 137-149.   \n[3]G．Budin·From Terminologies to Ontologies- Advances in Knowledge Organization [D].Terminology Sumer School,Unwersity of Vienna，2007.   \n[4] Zeng， Marcia Lei. Knowledge Organization Systems [J]. Knowledge Organization，2008，35 $( 2 - 3 )$ ： 160-182.   \n[5]Darlene Fichter·Mashups and Libraries：Resources，Articles and Links Compiled [DB/OL]. $[ 2 0 1 0 - 0 9 - 1 1 ]$ .http://library2.usask·ca/\\~fichter/mashups/.   \n[6]Erik Wilde．Knowledge Organization Mashups[DB/OL]. (2006) $[ 2 0 1 0 - 0 5 - 1 1 ]$ http：//dret:net/netdret/publica tions # wilO6f.   \n[7]Fausto Giunchiglia，Dagobert Soergel，Vincenzo Maltese, Alessandro Bertacco·Mapping large scale Knowledge OrganiZation Systems [EB/OL]. $[ 2 0 1 0 - 0 4 - 3 0 ]$ . http://www. disi·unitn·it.   \n[8]Ali Shiri，Keri Molberg·Interfaces to knowledge organization systems in Canadian digital library collections〔J]·Online Information Review，2005，29（6)：604-620.   \n[9]Ali Shiri， Sarah Chase-Kruszewski. Knowledge organisation systems in North American digital library collections[J]·Pro\" gram：electronic library and information systems，2009，43 (2)：121-139.   \n[10]Emma McCulloch·Thesauri: practical guidance for construction [J]·Library Review，2005，54（7)：403－409.   \n[11] Ibekwe- SanJuan，Fidelia．Constructing and maintaining knowledge organization tools：a symbolic approach [J]·Journal of Documentation，2006，62（2)： 229－250.   \n[12] $\\mathrm { P u m ^ { - } M o }$ etc.Taxonomy Building by Divide and一Conquer Method[C]//RyuJae－Ho，TSTT'2OO6：International Conference on Terminology，Standardization and Technology Transfer·Beijing:China National Institute of Standardiaztion （CNIS)，2006.   \n[l3] Jens—Erik Mai: Actors，Domains，and Constraints in the Design and Construction of Controlled Vocabularies [J]· Knowledge Organization，2008，35（1)： $1 6 - 3 0$   \n[l4] Vanda Broughton，Aida Slavic·Building a faceted classification for the humanities：principles and procedures 〔J]·Journal of Information，2007，63（5)：727—754.   \n[l5] IFLA Satellite Pre Conference of the Classification and Inde\" xing Section· 研究〔J]·大学图书馆学报，2007（4)：36－40.   \n[l7]Fulvio Mazzochi et al．Relational Semantics in Thesauri； Some Remarks at Theoretical and Practical Levels[J].Konwledge Organization，2007，34（4)：115－132.   \n[18]G．Budin·From Terminologies to Ontologies - Advances in Knowledge Organization Gerhard Budin [DB/OL][2010－09 - 21].http://www·termnet:org/downloads/english/events/TSS2O07_ TerminologiesOntologies_ more·pdf.   \n[19] Park，Ok nam·Opening Ontology Design:A Study of the Implications of Knowledge Organization for Ontology Design [J]. Knowledge 0rganization，2008，35（4)：209—221   \n[20] Chimay J· Anumba,Raja R.A Issa，Jiayi Pan，Ivan Mutis· On\" tology—based information and knowledge management in construction [J]·Construction Innovation，2008,8（3)：218—239.   \n[21]Yu－Liang Chi，Hsiao－Chi Chen·Ontology and semantic rules in document dispatching〔J]．The Electronic Library, 2009，27 (4):694—707.   \n[22] Aldo Gangemi,Frehiwot Fisseha,Ian Pettman， Domenico M. PisanelliMarcTaconet，Johans KeizerAForaOntologi cal Framework for Semantic Interoperability in the Fishery Domain $[ \\mathrm { J / o L } ]$ .http://74.125.155.132/scholar? ${ \\bf q } ^ { \\mathrm { ~ ~ } = }$ cache : $\\mathrm { f 0 l } { 7 } _ { - }$ deWz MgJ: scholar· google. $\\mathrm { c o m } / + \\mathrm { A } ^ { + } \\mathrm { F o r m a l }$ + Ontological $^ +$ Framework +for+Semantic $^ +$ Interoperability $+ \\mathrm { i n } + \\mathrm { t h e } + \\mathrm { F i s h e r y } + \\mathrm { D o m a i n } \\mathcal { E } . \\mathrm { h l } = _ { \\mathbf { z } \\mathbf { h } } - \\mathrm { C N } \\mathcal { E } . _ { \\mathbf { a s } _ { - } } \\ \\mathrm { s d t } = 2 0 0 0 .$   \n[23] Katrin Weller.KOSO:A Reference-Ontology for Reuse of Existing Knowledge Organization Sy stems $\\mathrm { [ J / o L ] }$ .2008.http：//wwwalt·phil-fak:uni-duesseldorf· de/infowiss/admin/public_dateien/files/35/1215088990015_weller·pdf.   \n[24] Large， Andrew，etc. Developing a Visual Taxonomy: Children 's Views on Aesthetics [J]· Journal of the American Society for Information Science and Technology，2009，6O（9)：1808 -1822.   \n[25] Boeri，Robert $\\cdot$ If s TAXonomy Time [J].EContent， 2009, 32 (4):19.   \n[26] Abdus Sattar Chaudhry，Tan Pei Jiun．Enhancing access to digital information resources on heritage〔J]. Journal of Documentation，2005，61（6)：751—776.   \n[27]Jason J· Jung· Taxonomy alignment for interoperability between heterogeneous virtual organizations[J].Expert Sys\" tems with Applications，2008，34（2008)：2721 - 2731.   \n[28] Joseph D. Novak· The Theory Underlying Concept Maps and How to Construct and Use Them [DB/OL]. $[ 2 0 1 0 - 0 5 -$ 10].http:：//cmap·ihmc·us/Publications/ResearchPapers/ TheoryUnderlyingConcept Maps ·pdf .   \n[29] Buter，R·K，etc.Combining concept maps and bibliometric maps: first explorations[J]· Scientometrics，2006，66（2): 377-387. active Learning Research， 2O06，17（1).   \n[3l] Mónica Henao-Calad，Maria Pia Arango-Fonnegra· Concept maps as astrategy toconvert knowledge in knowledge management [J].The journal of information and knowledge management systems，2007，37(1)：41-48.   \n[32] H. Peter Ohly $\\cdot$ Knowledge Organization 2. O--A Communicative Paradigm?[DB/OL]．（2008） $[ 2 0 1 0 - 0 4 - 3 0 ]$ http://www. iskoi. $\\mathbf { o r g } / \\mathrm { d o c } / \\mathrm { w e b } / \\mathrm { o h l y }$ pdf.   \n[33] Emma McCullch， George Macgregor:Analysis of equivalence mapping for terminology services [J]·Journal of Information Science，2008，34（1)：70—92.   \n[34] Salvador Sanchez—Alonso，Elena Garcia—Baricanal． Making use of upper ontologies to foster interoperability between SKOS concept schemes[J]． Online Information Review, 2006，30 (3):263-277.   \n[35]Dye.Folksonomy:a game of high-tech（and high-stakes） tag[J]：EContent：2006，29（3)：38—43.   \n[36] Gordon-Murnane.Social bookmarking,folksonomies，and Web 2.0 tools [J]·Searcher，2006，14(6)：26-38.   \n[37]Wichowski: Survival of the Fittest Tag:Folksonomies，Findability，and the Evolution of Information Organization〔J]. First Monday，2009,14（5).   \n[38] De Meo，Quattrone，Ursino ·Exploitation of Semantic Relationships and Hierarchical Data Structures to Support a User in His Annotation and Brow sing Activities in Folksonomies [J]. Information Systems，2009，34(6)：511—535.   \n[39] Peterson· Beneath the metadata：some philosophical problems with folksonomy 〔J]·D-Lib Magazine，2006，12（10).   \n[40]Morrison· Tagging and Searching: Search Retrieval Effectiveness of Folksonomies on the World Wide Web [J]·Information Processing and Management，2008，44（4）：1562一 1579.   \n[4l] Peterson，Elaine .Patron Preferences for Folksonomy Tags : Research Findings When Both ierarchial Subject Headings and Folksonomy Tags are Used [J]·Evidence Based Library and Information Practice，2009,4（1)：53—56.   \n[42] Sinclair，Cardew-Hall.The folksonomy tag cloud：when is it useful?[J]·Journal of Information Science， 2O08，34（1)： $1 5 - 2 9$   \n[43] Munk，Timme，Folksonomies，Mork ·tagging communities， and tagging strategies—an empirical study[J].Knowledge Organization，2007，34（3)：115—127.   \n[44] Sun. Folksonomy and health information access: how can social bookmarking assst seekers of online medical information? [J]·Journal of Hospital Librarianship，2OO8，8（1)：119- 126.   \n[45] Spiteri ·The use of folksonomies in public library catalogues [J]·Serials Librarian，2006，51（2)：75－89.   \n[46] Peterson· Parallel Systems: The Coexistence of Subject Cataloging and Folksonomy〔J]·Library Philosophy and Practice, 2008[EB/0L] $[ 2 0 1 0 - 0 9 - 2 2 ]$ . http://ww. webpages: uidaho · $\\mathrm { \\mathbf { e d u } / { \\sim } _ { \\mathrm { m b o l i n } } / \\mathrm { e } ^ { - } p e t e r s o n 3 }$ :htm·   \n[47] Spiteri: Structure and form of folksonomy tags: the road to the public library catalogue〔J]：Webology，2007,4（2).   \n[48]Arch: Creating the academiclibrary folksonomy : put social tagging to work at your institution[J].College $\\&$ Research Libraries News，2007,68 (2): 80-81.   \n[49]Metitieri·OPAC Collaborative，and Socializing between Folksonomy[J]. Biblioteche Oggi，2009，27（2)：7—12.   \n[50]Pera，Maria，Lund，Ng Yiu-Kai.A Sophisticated Library Search Strategy Using Folksonomies and Similarity Matching [J]·Journal of the American Society for Information Science and Technology，2009，60（7)：1392－1406.   \n[5l]Kwan Yi，Lois Mai Chan·Linking folksonomy to Library of Congress subject headings:an exploratory study [J]·Journal of Documentation，2009，65（6)：872—900.   \n[52]Alireza·Folksonomies: Why do we need controlled vocabulary? [J]：Webology，2007，4（2).   \n[53]Dotsika.UnitingFormaland InformalDescriptivePower：Reconci ling Ontologies with Folksonomies [J]·International Journal of Information Management，2009，29(5)：407－415.   \n[54] SKOS Simple Knowledge Organization System [EB/OL]. [2010—09-21]. http://www:w3.org/2004/02/skos/.   \n[55] OCLC DeweyBrowser: http://www: oclc: org/research/activities/brow ser/default·htm   \n[56]FAST[EB/0L]．[2010-09-22].http://www $\\cdot$ oele: org/ research/activities/fast/default. htm.   \n[57]Tag Cloud Builder [EB/OL]. $[ 2 0 1 0 - 0 9 - 2 1 ]$ . http:// www·oclc·org/research/activities/tagcloud/default·htm·   \n[58] Terminology Services[EB/OL]. $[ 2 0 1 0 - 0 9 - 2 2 ]$ http:// www：oclc.org/research/activities/termservices/default· htm.   \n[59] VIAF [EB/0L].[2010-09－22].http://www $\\cdot$ oclc: org/ research/activities/viaf/default. htm.   \n[60] ISKO [EB/0L]．.[2010-09-22].ttp:/www $\\cdot$ isko: org/ index·php·   \n[61]司莉，等.OCLC术语服务研究：背景、进展与启示〔J]·中 国图书馆学报，2007（1)：58－61.   \n[62]张会平，周宁，陈勇跃．概念图在知识组织中的应用研究 [J]·情报科学，2007，25（10）：1570—1574.   \n[63]王忠红．知识组织工具的发展和趋势〔J]·图书情报知识， 2009，132(6)：97-103.   \n[64]李育嫦·网络数字环境下知识组织体系的发展现状和未来趋势 [J]·情报资料工作，2009（2)：45－49.",
+    "context10": "订往往相互参考，取长补短。现仅《中图法》一枝独秀，就是修订也局限于自己圈内。如果能够邀请像港、澳、台图书馆界，出版方（CIP乃国内首先标引图书机构与“中国国家书目”主体之一，颇有一定发言权)，圈外有相当理论与实践经验的图书馆学家加盟，这无论对《中图法》修订成效，还是扩展使用范围，都将颇有裨益。"
+  },
+  "[参考文献]": {
+    "context1": "[l]《中国图书馆分类法》编辑委员会·中国图书馆分类法〔M]．4版·北京：北京图书馆出版社，1999.  \n[2]卜书庆，汪东波·《中国图书馆分类法》（第四版）修订构想[J]·国家图书馆学刊，2008（2)：27－31.  \n[3]文榕生·文献分类由被动走向理智：类目控制论〔J]·中国图书馆学报，1997(6)：37－42.  \n[4]文榕生·再探分类法类目控制〔J]·图书馆，1998（1)：19一21.  \n[5]宋力·为《中图法》缩身〔J]·图书馆杂志，2006（9)：35一37，34.  \n[6]施振宏·关于精简《中图法》的探讨〔J]·图书情报工作，2007 (9):109-112.  \n[7]http://clc:nlc:gov:cn/.  \n[8]http://www:gapp:gov:cn/cms/html/21/464/200907/465083.html.  \n[9] http://cbj:zj:gov· $\\mathrm { c n / g b / 0 5 0 8 / 3 1 1 3 }$ .htm·  \n[l0] http://www·xwcbj:gd·gov:cn/news/html/qgtj/article/2369966832325.html.  \n[ll]http：//sinobook·com $, \\cdot$ cn/press/new sdetail·cfm?iCntno $=$ 797.  \n[l2]文榕生·第六版《人大法》之成功与不足〔J]·北京高校图书馆学刊，1998 (2)：1—4.  \n[l3]文榕生·刍议图书分类法中以人列类〔J]·图书情报工作，1997 (3):49-51.  \n[l4]吴英美·《中文图书分类法》的修订与使用〔EB/OL]．[2009$- 1 1 - 0 2 ]$ .http：//isbnfax·ncl·edu·tw/isbn/admin/pdf/970411218.pdf.  \n[15]《中国档案分类法》编委会·中国档案分类法〔M]．2版·北京：中国档案出版社，1997.  \n[16]杜慧平，侯汉清·《杜威十进分类法》第22版的新进展〔J].图书馆理论与实践，2005(1)：95－96."
+  },
+  "Control the Catagories Is One of the Important Point of the Improvement Chinese Library Classification": {
+    "context1": "WEN Rong-sheng",
+    "context2": "(The Library of Chinese Academy of Sciences，Beijing 100190)",
+    "context3": "Abstract:ComparingithandanalysingthroughtheumerofatagoresofChineebarylasificationandChineseookpublishgai fication，otonlypointeduttatthefrrcategorsisseturealiticallyighumberofimproperprobls，utaogaveheassfor its formation and improvement recommendations·",
+    "context4": "Keywords:classification of literature；Chinese library Classification；category number；literature clasification",
+    "context5": "[作者简介]文榕生（ $1 9 5 1 -$ )，男，中国科学院文献情报中心副研究馆员，已发表学术论文260多篇，已出版学术专著5部 (含合作)，获省部级科技成果一、二等奖4项。",
+    "context6": "[收稿日稿]2009—12—03",
+    "context7": "（上接第 226页）"
+  },
+  "Research on Status and Development Trends of Knowledge Organization System in Abroad Recent Years": {
+    "context1": "SI Li,ZHOU Li mei",
+    "context2": "(School of Information Management of Whuhan University，Wuhan 43OO72，China)",
+    "context3": "Abstract:KnowldgeOrganzation（KO）asbeenoneoftheimportanttopicssincehasbeenproposedbythefamousexpertofclasificationH. EBlissinl929.KOSisthecarierofknowledgeorganzationandtedevelopmentofknowledgeorganizationreliesontheimproeentof “Knowledge OrganizationSystem（KOS）”.Theterm KOSconcludesallthetols thatorganizeinformatioandenhancethemanageentof knowledge.AfterextensiveliteraturesurvythepapeanalyzsandsummaristhestatusofthevariouspartsofKOSandheoverallstatus of KO.ThearticeanalesthestatsquoofKOSinetailincudingClasicatio，esaurus，Ontolog，nceptapsaxoyFolk sonomy etc·，and finaly，which is based on the survey，the author gives the viewpoint of the trend of KOS.",
+    "context4": "eywords：knowledge organization sy stem $, ;$ literature review；abroad；research Status quo $;$ trend:",
+    "context5": "[作者简介]司莉（ $1 9 6 5 - \\cdot$ )，女，教授，博士生导师，武汉大学信息管理学院图书馆学系副主任；周李梅，武汉大学信息管理学院硕士研究生。",
+    "context6": "[收稿日期]2010－09—25"
+  }
+}

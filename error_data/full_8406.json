@@ -1,0 +1,87 @@
+{
+  "original_filename": "full_8406.md",
+  "社会化标注系统的信息检索关键技术研究综述": "",
+  "徐志玮1 郑建瑜晏武": {
+    "context1": "(1.中山大学图书馆广州 510275;2.中山大学附属第三医院图书馆广州 510275)",
+    "context2": "摘要比较社会化标注系统和传统搜索引擎在信息检索上的差别,对标签相关性排序、标签本体、个性化标签搜寻和多媒体标签检索等关键性技术进行了综述。认为系统观的信息检索技术并不能很好地处理用户的信息查询需求，需要从认知观方面开展用户信息行为的研究。",
+    "context3": "关键词社会化标注系统信息检索搜索引擎标签排序个性化检索  \n中图分类号G354 文献标识码A 文章编号 1002-1965(2014)04-0148 -05  \nDOI $1 0 . 3 9 6 9 / \\mathrm { j }$ .issn.1002-1965.2014.04.027"
+  },
+  "Review on Several Key Information Retrieval Techniques of Social Tagging Systems": {
+    "context1": "Xu Zhiwei'Zheng Jianyu1Yan Wu² (1.SunYat-sen University Libraries，Guangzhou 510275; 2.The Third Affiliated Hospital Library,Sun Yat-sen University,Guangzhou 510275)",
+    "context2": "AbstractThisarticlefirstlycomparedthedierencebetweensocialtaggingsystemsandsarchegines.Then，thearticlesumriesof thekeytechnologiesof tagrelevanceranking，tagontolog，personalizedtagsarchandmultimediatagsearch.Itisfoudthatsystemorientednformationretrievaltechquescanottteusers’nedofiforationinquiryandsudyinguserntedinfortiobe havior in Cognitive View is needed.",
+    "context3": "Key wordssocial tagging system information retrievalsearch enginetag rankingpersonalized search"
+  },
+  "0引言": {
+    "context1": "社会化标注系统是一种新型的网络资源管理和组织形式的系统，该系统可以允许网络用户自由选择标签(字词或短语),对网络资源进行标引和分类,并且通过标签的检索，发现资源和资源之间的语义关系。社会化标注系统与传统的单顶点网络或者二分网络(比如:超链接网络、作者-文档网络、文档-关键词网络)的网络搜索引擎(比如:Google、百度等)不同,社会化标注系统是用户、标签和资源的三元网络关系,因此,信息检索技术处理上有很大的差异，需要突出社会搜寻和个性化搜寻的特点。",
+    "context2": "本文以 SCI和 Scopus 两种引文索引库为外文文献的收集工具，检索式 $=$ (（ folksonomy or“collabora-tive tagging”or“social classification”or“social inde-xing”or“social tagging\"）and “information retriev-al\"）,以CNKI为中文文献的收集工具,检索式 $=$ （（“大众分类法”or“分众分类法”or“社会标注系统”）and“信息检索”），获得与社会化标注系统的信息检索内容有关的论文。从中进行整理和分类，认为相关的关键技术主要分为：标签相关性排序技术、标签本体技术、个性化标签搜寻技术、多媒体标签检索技术、个性化标签推荐技术、标签词义消歧技术、垃圾标签的消除技术以及标签聚类技术等几方面，由于篇幅有限，本文只涉及前四项主要内容。"
+  },
+  "1社会化标注系统和传统搜索引擎的区别": {
+    "context1": "社会化标注系统主要分为如下几种：社会书签系统（Delicious、Diigo、Redditd 等）、社会引文系统（Ci-teULike、Cannotea、Bibsonomy等）、社会图书馆系统（LibraryThing、Discogs、IMDb、豆瓣等）、社会指导系统（Thoos、Socialguides、Tripist等）和多媒体分享系统（Flickr、YouTube等）。标签被认为是用户对网络资源的手工索引，与传统专家对资源的索引方式有很大的差异性，主要如表1所示。从表2可以看出社会化标注系统和传统搜索引擎的区别。",
+    "context2": "表1标签和传统专家手工索引的区别",
+    "context3": "<table><tr><td>比较因子</td><td>标签</td><td>传统手工索引</td></tr><tr><td>标引者</td><td>由一群不同背景和地区的人 共同产生</td><td>由一个或多个专家产生，一 般是同一地区的人</td></tr><tr><td>标引词质 量</td><td>内容广泛,个性化,无层次性， 对内容的多维表述，自然语言 方式,灵活性,但是,模糊性， 歧义性，有部分是恶意标注内 容</td><td>层次性，内容规范,无恶意 标注内容，可以消除歧义 性、模糊性。但是,无法灵 活处理及时内容</td></tr><tr><td>标引覆盖 面</td><td>可以覆盖资源的各个方面 (作者、读者、性别、联系等)</td><td>大部分只是揭示资源的学 科区域</td></tr><tr><td>分类法</td><td>没有统一的分类法</td><td>一般由LCC、DDC、中图法 等指导</td></tr><tr><td>拓扑图</td><td>基于网络的连接图</td><td>树状的层次图</td></tr><tr><td>费用</td><td>便宜，基于社区</td><td>贵，依赖分类专家</td></tr></table>",
+    "context4": "表2社会标注系统和传统搜索引擎的区别表",
+    "context5": "<table><tr><td>对比因子</td><td>传统网络搜索引擎</td><td>社会标注系统</td></tr><tr><td>案例</td><td>Google、Yahoo、Bing、Baidu</td><td>Delicious、Flickr、豆瓣</td></tr><tr><td>资源文本 预处理</td><td>需要预处理（比如：token- izing、stopping、stemming)</td><td>不需要或者少量预处理</td></tr><tr><td>索引词</td><td>主要从文档中提取</td><td>资源的标签</td></tr><tr><td>索引词选</td><td>传统信息检索模型布尔模型、 向量空间模型和概率模型，假</td><td>社会搜索和个性化搜索,用</td></tr><tr><td>择和权重</td><td>设词与词之间是相互独立的， 没有语义关系</td><td>户的社会网络关系暗示标 签之间的语义关系</td></tr><tr><td>索引词特 征</td><td>静止和不相关的，增加文档的 频次高于修改的频次</td><td>动态和连续的,可以同步增 加和修改文档</td></tr><tr><td>意图</td><td>用户检索希望检索出与自己需求有关 的信息</td><td>不仅希望检索出与自己需 求有关的信息，还希望了解 其他人对信息的评价，寻找</td></tr></table>"
+  },
+  "2标签相关性排序技术": {
+    "context1": "传统的基于链接分析的网页排序算法,如PageR-ank 和HITS等,是利用网页间的链接关系开发的网页排序。Andreas Hotho 等人最早提出了一种基于社会标注图的个性化搜索算法FolkRank，并已经应用到BibSonomy社会标注系统中。该方法拓展了PageRank算法,将用户、网页和标签看作一个三部图中的三个顶点集合，不同集合中的顶点之间的权重为与它们共现的另一集合中的对象数。Bao Shenghua等人提出了类似的网页排序算法 SocialPageRank和 So-cialSimRank,前者基于标签和网页的频次数量,后者基于标签和网页之间的语义相似性关系，通过这两种算法对网页重新进行排序。Yanbe等人开发了基于用户协作关系的改良版PageRank算法 SBRank,根据标注网页的用户数量，计算一个书签网页的流行性排序。而CollaborativeRank排序考虑的是del.icio.us系统的排序算法,利用某人标注一个书签的URL,有多少人跟随他/她的频次数量进行排序。",
+    "context2": "传统的以向量空间模型和统计模型中的聚类方法应用到标签相关性排序中,也是目前学者们探讨的课题之一。 $\\mathrm { X u }$ 等人利用网页的主题向量和用户兴趣向量,对返回的初始网页进行搜寻者之间语义相似性算法的计算，然后对搜寻结果重新进行排序。Schenkel等人则利用标注者和搜寻者共享标签的关系,利用top-K 算法重新排序检索结果。",
+    "context3": "上述几种方法虽然模型直观,算法简单,但存在一定的不足。由于标签只是用户对网页的描述，其本身并不具备独立的评价属性,PageRank算法认为使用重要标签的用户或被重要标签标注的网页重要的观点在标签检索中缺乏依据，另外,传统的信息检索模型算法并不能合理地显示出个性化用户的真正需求，算法容易受到垃圾标签的影响，因此，有学者研究基于社会性标注的二部图模型的网页排序算法来解决这两个问题。首先使用相关标签为网页和用户建模,并计算查询相关性,然后利用二部图模型刻画网页和用户间的互增强关系，使用相关标签与网页内容和用户兴趣的匹配程度为互增强关系赋予权重，最后结合查询相关性和互增强关系,以迭代方式同时计算网页和用户的排序。实验结果表明，与目前的代表性算法相比，该算法在检索性能上有明显提高。",
+    "context4": "倒排索引是信息检索中最基本的索引方式，好的索引能够大大提高检索速度。传统搜索引擎使用的倒排索引只是关键词-文档的倒排索引，没有考虑到用户因素。针对社会标注系统的倒排索引近几年开始研究，Dmitriev等人构建了一个倒排索引,处理从内容、锚文本和每个网页中分离的关键词,但是，该方法没有在倒排索引中考虑个性化用户的标注信息内容;文献 [O] 建立了一个(标签、搜寻者)的倒排列表,以此可以快速和容易地获得搜寻者的分数，虽然该方法考虑到倒排索引中的用户性质,但是,依然没有包含用户的个性化信息。为此,有学者提出了一种新的“社会倒排索引”,对每一个资源增加一个用户子集,用户子集中的每一个用户进行用户查询的匹配，再给予用户不同权重。上述的标签倒排索引技术都是针对一个社会标注系统的，并不能适用于大部分系统中。"
+  },
+  "3标签本体技术": {
+    "context1": "社会化标签的平面性，影响标签语义检索的效果，而标签的稀疏性，也会影响众多没有被标注的资源的检索，而本体应用到标签检索的研究成为信息检索的重点课题之一。",
+    "context2": "Peter Mika是最早利用本体对大众分类法进行研究的学者之一,他根据大众分类法的特点,通过增加社会化维度将传统本体的二部图结构扩展为三部图结构，并利用图变换理论提取大众分类法Web页面中基于社区的本体;Jael Garcia-Castrol利用HyperTag模型建立标签间的联系。也有学者开始构建标签本体模型,比如:Tag Ontology、SCOT、MOAT 等;Alexan-dreMonnin等提出基于RDF和标签行为模型的本体构建方法；Jeff Z．Pan等人针对资源搜索中标签的歧义性问题,提出借助本体建立标签和文本间关系并实现标签查询扩展的方法。",
+    "context3": "当然,标签本体构建困难，成本花费巨大，难以实现。目前，借助于现有的在线词表、叙词表等已经成熟的本体工具，对标签进行层次化、标签查询扩展等研究。Laniado等人[6-1]利用WordNet构建大众分类法的标签树，首先收集标注了某一标签的最新资源有关的相关标签，通过WordNet的层次关系,建立一个包含与WordNet的层次关系词的路径树，该方法基于标签共现关系，尽可能地处理没有包括在词典中的标签。但是，质量依赖用户的标注数量和用户对资源标注行为的一致性。Huairen Lin[等将所有的标签分为标准标签、复合标签、术语标签以及无意义标签四个类别，首先在预处理阶段将错误拼写等无意义标签去除，对复合标签拆分，然后将标准标签与WordNet中的词语进行对应，最后通过弱关联规则挖掘的方法分析标签之间的关系,将其他标签补充至现有的本体,构成完整的标签层次结构。还有学者[利用OpenCyc知识基提供标签本体的重新构建，作者认为，标签共现检索算法并不能表明标签之间的语义关系，所以，需要引进本体概念,利用OpenCyc本体，构建标签的层次关系，当然,那些不存在于WordNet的标签,则可以使用共现原理,寻找到有语义关系的标签,而利用OpenCyc的原因在于该本体是目前最大和最全面的综合性知识基,最新版本有4.7万个概念和30.6万个事实，而且提供基于Javade API TagExplore和链接OpenCyc 的服务。",
+    "context4": "上述研究都是单向性的，就是说，要么对大众分类法进行本体化工程的构建,或者利用本体对大众分类法的标签进行相关性匹配技术的处理。近年来，有学者开始探讨双向性的融合技术研究,叫“Folkson-omizedOntologies”，一方面可以丰富标签的语义、分类等，另一方面，通过对大众分类法的标签数据对现有本体进行评价，并且进行改善 善20-21] 。"
+  },
+  "4标签个性化搜寻技术": {
+    "context1": "本体能够把平面的标签层次化，可以应用到标签的查询扩展技术中,提高信息检索的效果，但是，本体依然不能很好地处理标签的个性化搜寻。社会化标注系统的个性化搜寻，最主要体现在个性化推荐系统上，包括标签推荐、资源推荐和相似用户推荐等,这与传统的推荐系统有很大的差别。",
+    "context2": "最简单的标签推荐主要通过标签共现技术，也有学者利用传统协同过滤模式下的标签推荐技术，还有人利用基于文本/网页、图像内容、激活扩散、张量降维等推荐方法。但是，这些方法不能很好地处理个性化推荐的需求。",
+    "context3": "个性化的标签查询扩展技术被应用到标签推荐中，该技术既能提高检索深度和广度，也能凸显个性化用户的信息需求。最简单的相关技术就是通过标签－标签关系，从用户属性中选择最相关的标签进行局部分析。通过标签共现技术计算，得到共现关键词作为扩展标签，但是，扩展词只是用户偏好中存在的词和查询词进行词汇匹配,而且标签在描述资源时可能是不准确的,因此,伪装相关性反馈（PseudoRelevanceFeedback,PRF)被应用到查询扩展中,基本原理是：对一个查询词来说,最合适的查询扩展词语是从那些最初查询中获得的排名前面的文档中抽取出来的,那些是有联系和有影响的。因此，通过伪装相关性反馈技术得到初始的前 $K$ 个排序文档,然后,利用个体用户偏好属性，根据共现概率技术,计算用户偏好中的关键词和初始排序文档关键词进行相关性计算，确定权重，最高分数的关键词被选为扩展关键词，该方法更能为用户提供个性化的推荐资源。"
+  },
+  "5图像的标签检索技术": {
+    "context1": "社会化多媒体共享系统是非常成功的社会化标注系统之一，针对图像的标签检索开展的研究较多。传统的图像检索有基于文本和基于内容的两种方式,基于文本的图像检索在处理海量的网络多媒体信息方面有很大的缺陷，目前的大部分技术采用第二种方式。标签的图像检索技术主要从传统的基于内容的图像检索方式改进而来。",
+    "context2": "利用图像的可视化技术和标签共现算法进行图像的自动标注。利用RGB颜色柱状图、SIFT 描述器、MPEG7特征中的颜色布局描述器(ColorLayout De-scriptor,CLD）、颜色结构描述器(Color Structure De-scriptor,CSD） 同构纹理描述器(Homogenous TextureDescriptor,HTD） 边缘直方图描述符(Edge HistogramDescriptor,EHD)等抽取低层次水平的图像特征,进行",
+    "context3": "K-nearest邻居聚类算法,找到最相似的前 $K$ 个图像作为初始图像集，收集初始图像集的所有标签，按照标签共现频次进行排序。该方法比较直观,易于实现，但是,查准率不高，有学者进行研究,只有 $1 9 \\% - 3 0 \\%$ 的准确率,而且没有标签相关性的排序。",
+    "context4": "图像标签相关性排序研究主要采用的方法有：文献[4]对检索图像和 $K$ 个相邻图像进行近邻投票算法,得到分数，再重新排序。该方法按照相关性进行了排序,但是,计算时间很长。文献[25]使用概率密度估计和随机游走的方法计算标签的相关性对标签进行排序,按照核密度估计算法(Kernel Density Estima-tion,KDE)计算出标签分数,分数越高表示与图像的相似性越高，尽管该方法呈现一定的相关性，但是，这个算法本身计算是 $\\mathrm { O } \\big ( \\mathrm { N } ^ { 2 } \\big )$ 。文献 [6] 提出了一个二维（文本和视觉）的学习方法计算标签和图像之间的相关性。",
+    "context5": "上述图像的相关性排序方法都是针对整幅图像，计算量大，在现实的社会化标注系统中，通常要对百万张图像进行筛选，为了减少计算时间，基于显著性的技术被应用,该技术是Itti和Koch等人在1998年提出的,通过视觉注意模型可以获得若干个注意区域，然后将这些注意区域组合成显著性区域，接着，从图像集合中找到 $k$ 个与目标图像的显著性区域最相近的图像。有学者按照Itti的原理,设计了根据标签与图像内容的相关性，将图像的标签次序进行重排,首先，基于图像显著性区域的视觉内容，用 $K$ 近邻算法找到给定图像的视觉近邻，用近邻图像的标签列表对给定图像的标签进行投票学习每个标签的相关性，按相关性由高到低的次序对标签进行重新排列。",
+    "context6": "本体、在线词表等也被应用到图像的标签检索中。有学者设计了一个i-TagRanker模型,该方法包括两部分：标签传播阶段(Tag Propagation Phase）和标签排序阶段。在标签传播阶段，首先利用FuzzyColorand Texture Histogram技术,对没有被标注的图像进行低水平的特征抽取，根据相似性算法，从基于大众分类法的图像数据库中获得最相似的前 $K$ 个图像,从这些图像中抽取出标签集合；在第二阶段,设计标签对的矩阵,使用WordNet进行标签语义关系的分数计算，得到相关性排序。该方法计算量较少，可以消除标签的模糊性和对垃圾标签的诊断，但是，该方法也有缺陷：对于图像标签的某些特性(比如：表示颜色的特性，对图像感觉、感情标签等)不能根据WordNet的层次性进行计算，这些标签的相关性分数可能较低，而偏偏这些标签特性却能体现用户的个性化偏好，其次,如果标签不能在WordNet中找到,就无法计算出标签的分数。",
+    "context7": "利用地理位置对图像的标签检索研究尽管很少，但也有一些,而且较有意义,可以消除标签的部分歧义性。文献 BO]利用标签相似性和地理分布相似性方法，确定标签和地理标签之间的关系，发现标签相似性和地理标签相似性有很强的相关性，确定标签的准确含义。比如:如果有一个标签是“jaguar”,似乎与一种动物有关，如果确定发布这个内容或者地方是从SanDiego Zoo而来,则大概可以确定是美洲虎;标签“uso-pen\"如果内容发布在8月或者9月的话,则可能与USOpen Tennis Championships 有关,而内容发布在6月，则可能表示是US Open Golf Championships。"
+  },
+  "6结语": {
+    "context1": "对上述四类关键技术进行梳理和总结后发现，社会化标注系统的信息检索研究主要以系统观为主，从计算机和信息科学学科角度出发，大部分技术都是对传统信息检索技术的改进，而针对用户观的信息搜寻和检索研究还远远不够，研究成果也主要是国外的学者，也还没有真正应用到系统的设计和技术改进中。比如:Begelman等人认为,用户在查询信息时存在两种方法Pull和 $\\mathrm { P u s h }$ ，通过标签或者标签云图进行的动态查询是Pull方法,通过基于标签或RSS 的查询是Push方法;Hassan－Montero等人认为,在信息检索中，标签检索更加适合信息的浏览（Browsing）而不是查询(Querying）；Schmitz认为,用户通过标签、用户/个体和资源的三元关系进行“PivotBrow sing”,作者对Delicious的实证研究表明，通过任何个体用户、标签或者资源,平均点击3.5次鼠标,就能获得网站上的任何网页资源,所以,内容的偶然发现“serendipity”概念在标签检索中扮演了重要角色;Mislove等人认为,社会网络中人的因素帮助吸引其他用户的浏览，用户之间的链接成为社区的一部分，个体通过与之联系的其他用户阅读、存储、上传或评论的资源,进行交互协作活动,直接或者间接影响他人,形成“社会浏览（Social Browsing）\"或者“社会导航（Social naviga-tion)”现象;Heejin Park根据信息线索和觅食理论（Information Scent and Foraging Theory）,探讨了用户通过交互如何构建大众分类法，研究了用户搜寻相关信息和用户的轨迹，以此构建一个(标注、导航和知识共享)的概念框架。国内主要是对国外信息检索行为的普遍性理论进行综述6-31,藤广青对电子商务网站用户进行标签的语义认知分析，发现用户Tag的语义认知随时间延展表现出一定的恒定状态的同时也会发生迁移,并表现出迭代发展的趋势，并且用户Tag语义认知既具有总体趋同的特征，但又会受到不同文化氛围的影响，在细节表现上呈现出语义认知的差异。",
+    "context2": "通过本文的综述，了解了目前的系统观研究进展，发现其中的缺陷，为今后开展大众分类法的认知观研究奠定基础。"
+  },
+  "参考文献": {
+    "context1": "[1] 曾元显.关键词自动提取技术与相关词反馈[.中国图书馆学报,1997(59) :59 -64.  \n[] 章成志.自动标引研究的回顾与展望[.现代图书情报技术，2007(11):33 -39.  \nB] 沈志斌,白清源．文本分类中特征权重算法的改进[.南京师范大学学报:工程技术版,2008,8(4）:95-98.张瑜,张德贤.一种改进的特征权重算法[].计算机工程，2011,37(5):210-212.苏丹,周明全,王学松.一种基于最少出现文档频的文本特征提取方法[.计算机工程与应用,2012,48(10)：164－166.  \n] 李原.中文文本分类中分词和特征选择方法研究[D].长春：吉林大学,2011.  \nGerard Salton,Christopher Buckley.Term-weighting Approa-ches in Automatic Text Retrieval [l．Information Processing &Management,1988,24(5) :513-523.",
+    "context2": "(责编：王平军)"
+  },
+  "]刘凯鹏.社会性标注关键技术及其在信息检索中的应用研究[D].哈尔滨:哈尔滨工业大学,2010.": {
+    "context1": "Dmitriev P,Eiron N,Fontoura M,Shekita E.Using Annotations in Enterprise Search [C] .Proceedings of the 15th International WorldWideWeb Conference.Edinburgh,UK,2006:811-817.   \n[io]Yahia S,Benedikt M,Lakshmanan L,Stoyanovich J.Efficient Network Aware Search in Collaborative Tagging Sites [C]．Proceedings of the VLDB Endowment,2008，1(1):710 - 721.   \n[11]Kang-PL,Hong-Gee K,Hyoung-Joo K A Social Inverted Index for Social Tagging-based Information Retrieval [ .Journal of Information Science,2012(38) :313-332.   \n[2]Peter M. Ontologies Are Us:A Unified Model of Social Networks and Semantics [].Journal of Web Semantics,2007,5 (1):5-15.   \n[13] Garcia- Castro L,Martin H,Alexander G. TagSorting:A Tagging Environment for Collaboratively Building Ontologies []. Lecture Notes in Computer Science,2010,6317:462-472.   \n[14]Alexandre M,Freddy L,Fabien G.Speech Acts Meet Tagging: Nice Tag OntoIogy [C] .6th International Conference on Semantic Systems and the 5th International Conference on Pragmatic Web，Austria:2010.   \n[i5]Jonathan G,Schimoler T,Bamshad M,etc.Hybrid Tag Recommendation for Social Annotation Systems [C] .Proceedings of the 19th ACM International Conference on Information and Knowledge Management，New York,2010:829-838.   \n[16]Bongshin L,Nathalie H,Amy K，etc. SparkClouds:Visualizing Trends in Tag Clouds[].IEEE Trans.Vis.Comput.Graph,   \n[17]Matt M,Perry F.A System for Semantically Navigating Tagged Web Pages [C] .Proceedings of the 2010 IEEE/WIC/ACM International Conferenceon Web Intelligence and Intelligent Agent Technology,2011: 1102 -1111.   \n[18] Mohammed N,Trong H,Ngoc T,Xin- Min Qi,Geun S.Semantic Similarity Measures for Enhancing Information Retrieval in Folksonomies [Jl．Expert Systems with Applications，2013 (40) : 1645 -1653.   \n[9]Leonardo L,Elena G.and Miguel- Angel S.Bridging Informal Tagging and Formal Semantics Via Hybrid Navigation [ . Journal of Information Science,2012(38):140-155.   \n[0]Alves H,Santanche A.Folksonomized Ontologyand the 3E Steps Technique to Support Ontology Evolvement [l．Web Semantics:Science,Services and Agents on the World Wide Web,2013 (18):19 -30.   \n[1]Donghee Y,Keunho C,Yongmoo S,Gunwoo K.Building and Evaluating a Collaboratively Built Structured Folksonomy []. Journal of Information Science,2013(9):1-15.   \n[2]Dong Z.Seamus L,Vincent W.Improving Search Via Personalized Query Expansion Using Social Media [l .Information Retrieval,2012(15):218 -242.   \n[3] Sare G,Onur K,Fazli C.Automatic tag Expansion Using Visual Similarity for Photo Sharing Websites [.Multimed Tools,2010 (49):81 -99.   \n[4]Li X,Snoek C,Worring M.Learning tag Relevance by Neighbor Voting for Social Image Retrieval [C]．Paper presented at the Proceeding of the 1st ACM International Conference on Multimedia Information Retrieval,Vancouver，British Columbia，Cana$\\mathrm { d a } , 2 0 0 8$   \n[5]Liu D,Hua X -S,Yang L,Wang M, Zhang H-J.Tag Ranking []．the Proceedings of the 18th International Conference on World Wide Web,Madrid,Spain,2009.   \n6 Zhuang J, Hoi S.A Two - View Learning Approach for Image Tag Ranking [C] .Proceedings of ACM International Conference on Web Search and Data Mining,Hong Kong,2011:625-634.   \n[7]Itti L,Koch C,Niebur E.A Model of Saliency - Based Visual Attention for Rapid Scene Analysis [ .IEEE Transactions on Pattern Analysis and Machine Inteligence,1998,20(11） :1254- 1259.   \n[8]李旻先,赵春霞,唐金辉,等.基于视觉显著性近邻投票的标签 排序方法[.南京理工大学学报，2012(36):561-566.   \n[9]Jin-Woo Jeong，Hyun -Ki Hong，Dong -Ho Lee，iTagRanker: an Eficient tag Ranking System for Image Sharing and Retrieval Using the Semantic Relationships Between Tags [．Multimed Tools,2013(62):451-478.   \nBol Sang S.Tag Based Search and Recommendation in Social Media D] .USA: University of Southern California, 2011.   \nB1Begelman G，Keller P,Smadja F.Automated Tag Clustering: Improving Search and Exploration in the Tag Space [C]．In Proceedings of the Collborative Web Tagging Workshop at WWW 2006,Edinburgh，Scotland,2006.",
+    "context2": "类的文本数的比例,它体现了分类的准确程度。表达式如下:",
+    "context3": "$$\nP = { \\frac { A } { A + B } }\n$$",
+    "context4": "召回率(Recall)：分类正确的文本数占应分到该类的文本数的比值,它体现了分类的完备性。表达式如下:",
+    "context5": "$$\nR = { \\frac { A } { A + C } }\n$$",
+    "context6": "准确率和召回率反映了分类质量的两个不同方面,其中一个指标提高,会导致另一个指标下滑,采用两者的调和平均值，计算公式如下:",
+    "context7": "$$\nF _ { _ { 1 } } \\ = \\ { \\frac { 2 P R } { P \\ + R } } = { \\frac { 2 A } { 2 A \\ + B \\ + \\ C } }\n$$",
+    "context8": "可以看出 $F _ { 1 }$ 值越大，抽取性能就越好。",
+    "context9": "$A , B , C$ 的含义如表2所示：",
+    "context10": "表2关键词抽取结果",
+    "context11": "<table><tr><td></td><td>人工划分为关键词人工划分为非关键词</td><td></td></tr><tr><td>自动划分为关键词</td><td>A</td><td>B</td></tr><tr><td>自动划分为非关键词</td><td>C</td><td>D</td></tr></table>",
+    "context12": "其中A表示机器正确抽取的关键词集合;B表示机器误抽的关键词集合；C表示机器漏抽的关键词集合。",
+    "context13": "3.5性能对照笔者使用公式作为权值计算方法和传统权值计算方法对照实验，实验结果如表3。从表中的统计数据可以看出,改进的TF－IDF方法优于传统方法，总体的准确率、召回率和F1值都有所提高。",
+    "context14": "表3传统方法和改进TF－IDF方法",
+    "context15": "<table><tr><td>性能指标</td><td>传统方法(%)</td><td>改进TF-IDF(%)</td></tr><tr><td>准确率</td><td>62.9</td><td>67.0</td></tr><tr><td>召回率</td><td>59.3</td><td>63.5</td></tr><tr><td>F1值</td><td>61.1</td><td>65.2</td></tr></table>"
+  },
+  "4结束语": {
+    "context1": "本文提出基于TF-IDF、词位置和词跨度的情报关键词自动提取的方法，首先在文档预处理中对词语的位置进行统计,然后计算词频及词语的位置权值及词跨度权值,并对传统TF-IDF进行改进,最后根据计算结果选取能够代表文档主题的关键词。性能对照实验结果表明，该方法优于传统的方法。",
+    "context2": "当然，该方法还有不足之处：在计算位置权值时在不同位置的权值比例需要经过多次实验进行调整，比例的大小直接影响到结果的不同;在计算跨度权值的时候应该考虑词语在每一段的词频,每一段的中的词语词频对词跨度会有直接影响，应该根据段落词频改进词跨度的权值计算。这也是笔者下一步继续研究的内容。"
+  },
+  "(上接第152页)": {
+    "context1": "b2]Hassan - Montero Y,Herrero - Solana V. Improving Tag - Clouds as Visual Information Retrieval Interfaces [C]．In Proceedings of the International Conference on Multidisciplinary Information Science and Technologies，Merida,Spain,2006.",
+    "context2": "B3]Schmitz C,Grahl M,et al.Network Properties of Folksonomies []．In Proceedings of the $1 6 ^ { \\mathrm { t h } }$ International WWW Conference，Banff,Alberta,Canada,2007.",
+    "context3": "B4]Mislove A,Koppula H S,et al. Growth of the Flickr Social Network [C]．In Proceedings of the $1 ^ { \\mathrm { s t } }$ Workshop on Online Social",
+    "context4": "Networks，Seattle,WA,USA,2008:25-30.  \nB5]Heejin Park.A Conceptual Framework to Study Folksonomic In-teraction ．Knowledge Organization,2011(6):515-529.  \nB6张新民,化柏林，罗卫东，认知信息检索研究的发展与展望[.图书情报工作,2007(10):6-9.  \nβ7]王知津,韩正彪.信息行为集成研究框架初探[．中国图书馆学报,2012(1):87 -95.  \nB8]藤广青.电子商务网站Folksonomyy用户Tag的语义认知分析．情报科学,2011(12):1871-1875.",
+    "context5": "(责编：刘影梅)"
+  }
+}

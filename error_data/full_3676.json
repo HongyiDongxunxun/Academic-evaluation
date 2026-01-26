@@ -1,0 +1,72 @@
+{
+  "original_filename": "full_3676.md",
+  "国外网络叙词表的现状调查及发展趋势": {
+    "context1": "司莉　柴　源　周李梅　邓伊婷(武汉大学信息管理学院湖北武汉 430072)",
+    "context2": "文摘网络叙词表的实践主要集中在国外，为了全面了解国外网络叙词表的现状以把握其发展趋势,笔者主要从TaxonamyWarehouse中抽取108个英文网络叙词表，进而从应用形式、学科主题范围、编制语种、使用方式、应用范畴等五方面分析其构建与应用现状，并总结出更新方式智能化、互操作、可视化、本体转换及Web2.0技术的应用将是网络叙词表的发展方向。",
+    "context3": "关键词网络叙词表叙词表编制叙词表发展",
+    "context4": "The Sta tus and Trends of Online ThesauriAb road SiLi ChaiYuan Zhou L m ei Deng Y iting （School of Infomation Management ofWuhan Un iversity; Wuhan 430072）",
+    "context5": "Abstract The practice of online thesaurus ismainly in abroad this paper reveals the devebpment tendency on the basis of an investigation of online thesauri abroad The authors select lO8 online English thesauri frm the website ofTaxonomyWarehouse and analyze their construction and application status quo in tems of application foms subject categorys language usage patemsapplying scope The authors also conclude that the trends of online thesauri such as intelectualization in updatinginteroperability visualizationtransfomation to ontobgy and application ofWeb2. O technology",
+    "context6": "K ey words. Online thesaurus Thesaurus comp ilation Trends Abroad"
+  },
+  "1引言": {
+    "context1": "对于网络叙词表的定义至今尚未形成共识，如Maconi在“循证检验医学（Evidence based Labora toryMedicine)\"项目研究中指出“这种电子叙词表是应用MASPT技术和JAVA语言开发的，能借助Web浏览器进行访问，可在临床医学科学协会（SMeL)的网站上获取[1]\";Neveol指出“网络叙词表能够将语义信息和领域专家知识联系在一起[2]”，Joma还提出“网络叙词表应该是基于语义关系的[3]\";司莉、陈红艳指出“它是以传统叙词表构建原理和原则为准则,通过定义词汇的范围和含义，运用等同、等级、相关等关系揭示词汇之间的关系，并用超链接的方式予以显示;借助Web浏览器介质进行访问[4]”。",
+    "context2": "在借鉴以上学者所提出定义的基础上，笔者认为网络叙词表是遵循传统叙词表的结构与原理，使用超链接显示概念及其间关系，借助Web浏览器进行访问，用于网络信息资源标引、浏览、检索与导航的一种概念语义工具。按照存在格式可分为 TXT静态 $\\mathrm { H M L }$ 动态HTML、XML等类型;按照应用形式可分为独立于和内嵌于信息检索系统两种类型。"
+  },
+  "2国外网络叙词表现状调查": {
+    "context1": "网络叙词表在组成上与传统叙词表没有大的差异,但其在生成和实现方式上有其自身特征。笔者主要通过 TaxonamyWarehouse网站,按类别选取叙词表，共调查统计英文网络叙词表 108个(调查时间：从2010年7月至10月31日），逐一打开词表网站,主要从其应用形式、学科主题范围、编制语种、使用方式与应用范畴等五个方面进行统计分析。"
+  },
+  "2.1网络叙词表的应用形式": {
+    "context1": "根据网络叙词表的应用形式，可将其分为独立式和嵌入式两种，独立式是指叙词表不属于任何检索系统或数据库，不与任何资源链接，仅供词汇选择使用，一般是通过浏览选择检索词。嵌入式是指将叙词表集成到数据库或检索系统，通过浏览可以直接链接到相应的资源[5]。调查结果显示，在108部网络叙词表中，21部（占 $1 9 . 4 \\%$ )有自己独立的网站，如《世界银行主题词表》（TheWorld Bank The-saurus)、《公共健康信息主题词表》（PublicHealthInfomation Thesauus)、《液体水晶研究与应用术语汇编》（Thesauius for L iquid Crystal Research and $\\mathbf { A } \\mathbf { p } ^ { - }$ plications)、《职业安全与健康主题词表》（CISOccu-pational Safety and Health Thesaurus)；87部(占 80.$6 \\%$ )是嵌入相应数据库或挂靠某网站的，如嵌入到Free Medline中的《医学主题词表》（MeSH),集成到美国教育信息资源中心主题网关的《教育主题词表》(ERIC Thesauus),应用于英国数据档案主题网关的《人文社会科学电子叙词表》(HASSET),挂靠在国家刑事司法参考服务(NCJRS)网站的《国家刑事司法主题词表》（National Crim inal Justice Thesau\"us)等。"
+  },
+  "2.2网络叙词表的学科主题范围": {
+    "context1": "调查结果显示，网络叙词表的主题呈现出多元化、综合化特征，既有单一主题领域的词表,如《交通研究叙词表》（TRT）、《地理名称术语汇编》（TNG)等共有 45部(占 $41 \\%$ ),也有多学科领域的词表，如《美国农业图书馆叙词表》（NALAgricultural Thesauus)、《澳大利亚公共事物信息服务叙词表》(APAIS)等共 48部（占 $4 4 . 4 \\%$ )，另外，还有《澳大利亚政府互动功能叙词表》（AGIFT)，《国会图书馆叙词表》（Library of Congress Thesauri)等综合类的网络叙词表 15部。"
+  },
+  "2.3网络叙词表的编制语种": {
+    "context1": "在开放获取的网络环境下，随着信息交流的日益频繁，用于标引与检索的多语言叙词表，可为用户跨语言信息交流提供支持，成为当前网络叙词表发展的方向之一。调查结果显示，87部(占 $81 5 \\%$ 的网络叙词表采用英文编制，两种或两种以上语言的网络叙词表有 24部（ $2 2 . \\ 0 \\%$ ),其中，采用7种以上语言编制的网络叙词表有9部，如适用于英语、丹麦saurus)，《粮农组织农业术语汇编》（AGROVOC Thesaurus)则是由中文、英语、法语、西班牙语、葡语等16种语言编制而成,欧盟《通用多语种环境主题词表》(GEMET)采用包括英语、德语、法语、葡语、俄语、希腊语等18种语言编制而成，《欧盟多语种叙词表》(EUROVOC)则多达21种，包括保加利亚语、西班牙语、捷克语、丹麦语、德语、爱沙尼亚语、希腊语、法语、英语、意大利亚语等。"
+  },
+  "2.4网络叙词表的使用方式": {
+    "context1": "网络叙词表的用户界面主要涉及到浏览页、检索页及结果显示页，其界面的易用性、友好性和交互性，将会直接影响到用户使用词表的心理与行为。",
+    "context2": "调查显示，78部（占 $72 \\%$ )网络叙词表支持关键词检索，其中，《澳大利亚土著和托雷斯海峡岛民研究术语表》（AIATSISThesaurus)等8部支持前匹配、后匹配或全匹配的截词检索，《健康主题词表》(Health Thesauus)等 47部（占 $4 4 . 5 \\%$ )支持精确检索 (提供日期、词间关系、范围、语言等不同条件的选择），《国家刑事司法词主题词表》（NationalCrim inalJustice Thesauus)等 6部支持布尔逻辑检索。80(占 $74 . 1 \\%$ )部分别提供不同形式的浏览功能，以A$- z$ 字顺浏览方式的有 57部（占 $71 \\%$ ），23部$2 2 . 8 \\%$ )采用主题浏览、等级浏览、KWOC及KWIC等不同方式。其中，30部（占 $2 7 . 8 \\%$ )只具有浏览功能，如以txt格式显示供字顺浏览的《联邦登记册索引术语汇编》（Federal Register Thesaurus of IndexingTeim s),首页只有字顺浏览索引的《佛罗里达州在线环境叙词表》（Flrida Environments Online Thesau-rus),而《交通研究叙词表》（TRT)可提供等级、字顺、KWOC、KWIC等4种浏览方式。详见下表：",
+    "context3": "叙词表检索方式的统计",
+    "context4": "<table><tr><td rowspan=1 colspan=3>检索方式</td><td rowspan=1 colspan=1>词表数量</td><td rowspan=1 colspan=1>所占比率</td></tr><tr><td rowspan=2 colspan=1>浏览（80部）</td><td rowspan=1 colspan=2>字顺浏览</td><td rowspan=1 colspan=1>57</td><td rowspan=1 colspan=1>71. 2%</td></tr><tr><td rowspan=1 colspan=2>主题与等级浏览</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>28.8%</td></tr><tr><td rowspan=4 colspan=1>检索（78部）</td><td rowspan=1 colspan=1>简单检索</td><td rowspan=1 colspan=1>关键词检索</td><td rowspan=1 colspan=1>78</td><td rowspan=1 colspan=1>100%</td></tr><tr><td rowspan=3 colspan=1>高级检索</td><td rowspan=1 colspan=1>精确检索</td><td rowspan=1 colspan=1>47</td><td rowspan=1 colspan=1>60.3%</td></tr><tr><td rowspan=1 colspan=1>截词检索</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>10.2%</td></tr><tr><td rowspan=1 colspan=1>布尔逻辑检索</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>8%</td></tr></table>",
+    "context5": "调查还显示，有 53部（占 $4 9 . \\ 1 \\%$ )网络叙词表是集浏览与检索于一体的，如《英国教育主题词表》(BritishEducation Thesaurus),其首页的右栏是关键词检索界面，右下角为字顺浏览入口；《应用生命科",
+    "context6": "语法语等7种语言的《数学主题词表》（MahsTetroni学叙词（CABhesans），基首页的有侧是精确/",
+    "context7": "检索界面，中间部分是字顺浏览与主题浏览界面；《艺术与建筑叙词表》(AAT)，在其主页关键词检索与等级浏览入口分居其中部上下；25部（占 $23 . 1 \\%$ ）仅有检索功能，如《教育在线主题词表》（SCoT)，其首页上只有关键词检索入口及高级检索入口，《联合国区域间犯罪和司法研究术语汇编》（UNICRIThe-saurus),其首页只有关键词检索入口。另外，界面也显示除不同的服务项。调查显示，97部（占 $89 . 8 \\%$ ）网络叙词表词汇间建立了超链接，其他的 11部是静态的 HTML或 TXT格式。此外，有 8部叙词表提供pdf域 $\\mathrm { M m }$ I格式下载服务，有17部允许用户通过邮件推荐修改词汇。还有11部网络叙词表分别提供RSSWikiFAQ等不同形式的服务，具体见：",
+    "context8": "RSS WKi FAQ服务",
+    "context9": "<table><tr><td rowspan=1 colspan=1>FAQ</td><td rowspan=1 colspan=1>《非洲研究叙词表》（A frican Studies Thesau mus），《Getty地名术语词表》（Getty Thesaumus ofGeographic Names），《国家数字典藏主题词表》(NDADThesauus)，《高层帆船术语汇编》（SailspottingAThesaurus of the Sailsof TallShips)，《艺术与建筑叙词表》（Art&amp;Architecture Thesauus），《西南地区叙词表》（Southwest Thesaumus），《艺术家人名汇编》（UnionListofArtistNames)</td></tr><tr><td rowspan=1 colspan=1>Wiki</td><td rowspan=1 colspan=1>《通行多语言环境叙词表》（GeneralMultilingualEnvironmental Thesaumus）《STW经济学主题词表》(STW Thesaurus for Econam ics)</td></tr><tr><td rowspan=1 colspan=1>RSS</td><td rowspan=1 colspan=1>《健康叙词表》（Health Thesauus）《通行多语言环境叙词表》（GeneralMultilingual Envionm en talThesauus)</td></tr></table>"
+  },
+  "2.5网络叙词表的应用范畴": {
+    "context1": "(1)用于传统文献的词标引与检索",
+    "context2": "通过在线浏览与检索叙词表即可实现对实体文献的标引与检索，标引人员可以查阅规范叙词进行标引,检索人员可以查询规范叙词进行检索[6]。调查显示，有72部（占 $6 6 . 7 \\%$ )网络叙词表用于图书馆、博物馆或某机构文献的标引与检索，如用于美国善本书目及特色馆藏编目的《美国善本书目与特色馆藏叙词表》（A Thesaurus forUse in Rare Book andSpec ialCollectionsCatalogu ing)，用于联合国区域间犯罪和司法研究所（UNICRI)图书馆文献标引与检索的《犯罪学叙词表》（Crm inological thesauius)，用于标引与检索英国档案文献的《英国档案叙词表》(UKAT)，用于加拿大广播电视委员会文件标引的《加拿大广播电视与通讯委员会术语汇编》（CRTCThesaurus)。"
+  },
+  "(2)用于网络资源的标引与检索": {
+    "context1": "网络叙词表应用于网络数据库，一方面帮助标引人员对该数据库文献进行准确一致的标引，另一叙词表用于数据库资源的标引与检索，例如，可直接标引与检索网络信息资源的《世界银行主题词表》(TheWorldBankThesauus)，用于Viikki科学图书馆文献数据库（eVikki)信息检索的《农林叙词表》(AGRIFORESTThesauus)，用于国家数字典藏数据库信息浏览与检索的《英国国家数字典藏资料主题词表》（NDAD Thesauus)，嵌入并应用于标引与检索美国教育信息资源中心主题网关的《教育信息资源主题词表》(ERIC Thesauus)，应用于英国数据档案主题网关的《人文社会科学电子叙词表》(HAS-SET Thesau us)。"
+  },
+  "(3)与搜索引擎的链接": {
+    "context1": "网络叙词表直接与搜索引擎相链接，辅助用户选择精确的检索词，便可直接以选用的叙词表术语作为检索词查寻搜索引擎。调查显示，有9部网络叙词表可自动链接到Google或Yahoo检索框，在该环境下进行检索。如《世界银行主题词表》（TheWorld Bank Thesaurus)、《加拿大文学叙词表》（Ca-nadianLiteracy Thesauus)、《应用生命科学叙词表》(CABthesauus)等可直接链接到Google和Yahoo检索框；《犯罪学叙词表》（Crim inological Thesaurus）、《洛杉矶综合书目数据库主题词表》(LACDBT)可直接与Google相连接。"
+  },
+  "3国外网络叙词表的发展趋势": {
+    "context1": "网络叙词表的发展需要不断优化其显示与控制功能，实现更好的人机交互。一方面要利用可视化、本体等技术，实现叙词表可视化与易理解，满足语义网环境下知识组织与管理的功能需求;另一方面，网络叙词表必须结合人类心理与行为，重视人性化设计以及“拟人化\"服务，才能有效发挥其功能与效果[7]。"
+  },
+  "3.1更新方式智能化": {
+    "context1": "网络叙词表采用的是基于概念的建模方式，可以充分实现自动构建、自动丰富与更新、自动标引、知识发现等。例如，在2010修订本中《医学主题词表》(MeSH)自动增加HlN1等病毒学方面的新词汇,除此之外，《医学主题词表》(MeSH)通过共词聚类分析实现新词汇自动替换旧词汇[8]。究其本质即是从已标引语料中挖掘新词，通过分析它们和标引词间的关系，确定新词所对应的规范词，最终将新词作为对应规范词的下位词添加到词表中[9],实现网络叙词表的自动更新。"
+  },
+  "3.2互操作": {
+    "context1": "表的兼容问题，多语言叙词表是解决跨语言检索的主要方法，如《粮农组织农业术语汇编》（AGROVOCThesauus)允许16种语言跨语言检索，《通用环境多语种叙词表》（GEMET)则允许可使用18种语言检索叙词表款目，显示所选中语言及对应的其它语言的词汇。在解决多个词表兼容问题方面，《澳大利亚教育术语汇编》（Australian Thesaurus of EducationDescriptors),用户通过点击其网站的“LNK\"按纽，即可与《英国教育叙词表》（BET)、《加拿大文学叙词表》（CLT)、《欧盟教育叙词表》（EET)、《教育在线主题词表》（SCoT）、《新西兰学科主题网关》(SONZ)相链接；《国家古迹记录词库》（NationalMonumentsRecord Thesauus）通过集成的方式将《NMR飞机型号词库》（NMRAircraft Type Thesaurus)、《NRM主要建筑材料词库》（NMRMain Build-ingMaterialsThesauus)等七部网络叙词表集成一体，各词表之间可以相互链接；《国会图书馆叙词表》（Libraiy of Congress Thesauri)通过识别《法律词汇索引》（LIV）、《图形资料叙词表I》（TGMI)及《图形资料叙词表 II》（TGMII)词表的等价词及准等价词,建立词汇转换系统，通过GLN实现词表的兼容互换。"
+  },
+  "3.3可视化": {
+    "context1": "利用可视化技术将网络叙词表的概念及其关系以图形方式展开，便于用户进行检索词的准确定位，同时也符合人类“形象化\"式认知思维。伦敦商学院开发的《商业研究分类或主题词表》（London C lassification/Thesauus of Business Studies)以同心圆形式形成的一个概念网络空间 (见图1)，《思维导图》(TVT)以三维动态语义网形式显示概念及其间关系，用户在概念和关系的引导下，可以很快找到所需词汇，同时还提个性化定制等功能。这些网络叙词表都是将语言、文字和虚拟信息转化为视觉呈现的信息，包括人物、图像、色彩、结构以及基于上述内容的页面布局，信息可视化可增强信息的生动性、易读性和表达性[10]。",
+    "context2": "![](images/05d0d5e944e611b4b670418fcbdf485aa615b4ec7d283a240168283c6e5d58ba.jpg)  \n图1《商业研究分类或主题词表》概念网络空间图",
+    "context3": "该同心圆表示，选中词 $\\mathrm { E } ^ { - } \\mathrm { c o m m e r c e }$ (红色标识）一词,其相关词(玫瑰色标识)为 Digital enterpriseElectron ic distribution In temet serv ices In temetmarketing其上位词(绿色标识）为Business enterprise与 Intemet另外，点击 $\\mathrm { E } ^ { - } \\mathrm { c o m m e r c e }$ 可以文本形式显示其定义注释、词间关系、同义词与分类号。"
+  },
+  "3.4本体转化": {
+    "context1": "叙词表和本体两者有很多相似之处，都为学科或以自然语言建立的概念和术语提供一套构建框架，叙词表提供的是词汇以及词汇间结构化关系。本体除提供这些内容外，还提供语义关系与其它的关于概念及其关系的信息[1],能提供更完善的知识表示和基于此的强大推理功能。调查结果显示，国外一些叙词表已实现向本体的转化。如美国国家癌症研究所的《国家癌症元词表》(NCIMetathesauius)已经实现OWL版本，阿姆斯特丹大学的Wielinga等将《艺术和建筑叙词表》(AAT)转换为本体;联合国粮农组织将规则进一步细化以丰富词间关系，并增加推理规则，同时借助计算机程序,将原来编好的叙词表中的词抽取出来，按照一定的转换规则将《粮农组织农业术语汇编》（AGROVOCThesaurus)表示成本体[12]。网络叙词表本体化，既保持科学的延续性和继承性，也是其在语义网环境下的发展方向之一。",
+    "context2": "当前,在以 Blog Tag SNSRSS Wiki等应用为核心的 $\\mathrm { { \\mathbb { W } \\ e b ^ { 2 } \\cdot \\mathrm { { ~ 0 ~ } ~ } } }$ 环境下，用户参与、注重互动、集体智慧、共建共享是 $W \\ \\mathrm { e b 2 . } \\ 0$ 的重要特征。网络叙词表也开始引入 $\\mathrm { { W e b 2 . 0 } }$ 技术，用于词表的更新与维护以及与用户的互动。调查结果显示，《通行多语言环境叙词表》（General Multilingual EnvironmentalThesaurus)、《健康主题词表》(Health Thesaurus)等 7部网络叙词表提供RSS服务，《STW经济学主题词表》（STW Thesaurus for Econom ics)提供WIKI服务，《生物多样性术语汇编》（B iocomplexity Thesaurus)提供 SKOS化的Web服务模型，《犯罪学叙词表》(Crm inological thesauus)的检索界面上有tweeter等微博服务。这表明，在更关注用户协同参与的Web环境下，网络叙词表的构建需要由面向组织的信息标引转向用户的信息检索，由面向单一服务转向面向多元服务，提供 RSSBLOG等个性化服务。"
+  },
+  "4结语": {
+    "context1": "曾任国际图联（IFLA）标引与分类法委员会主席的曾蕾认为：“在我们的网络时代迈向下一代互联网一语义网的进程中，知识组织系统的发展和应用再一次走向高潮。\"网络叙词表是一个“不断生长的有机体”凭借Web技术、本体等可以充分实现其自身的智能化，同时也要借鉴人机交互、认知心理学等理论实现其人性化功能与效果。本次调查的网络叙词表主要是来自于 TaxonomyWarehouse 调查样本还存在一定的局限性。同时，调研中笔者发现对网络叙词表的性能、构建标准研究在国内外尚少，亟需深入研究。"
+  },
+  "参考文献": {
+    "context1": "1MaconiM. An electronic thesaumus of Evidence Based Labo-ratory Medicine hem atological and biochem ical diagnostictests[J]·In temational Jou mal Of Laboratory Hem atology2009(10)： 544—551  \n2NeveolA，Souam ia LF,Douyere M，Rogozan A，ThirionB，Dam oni SJ Using CISMeF MeSH“encapsulated”term inology and a categorization algorithm for health resources[J].Intemational Joumal Of Medical Infomatics 2004(2):57-64  \n3Joma K;Davies S Multilingual thesauri for the modemworld- no ideal so ltion［JJ·Joumal of Docum en tation2001(3):284-295  \n4 司莉，陈红艳·网络叙词表构建的现状调查与分析［J]图书馆理论与实践，2008(5)：36-39  \n5Ali Asghar Shiri，Craw ford Revie Thesauri on the Web:curent developm en ts and trends Online Infoim ationR eview[J],2000(4):273-279  \n6曾建勋,常春·网络时代叙词表的编制与应用［J].图书情报工作，2009(8):8-16  \n7顾立平·用户行为模型驱动个性化服务研究综述［J]现代图书情报技术，2010(10).1—11  \n8 Sonohara Mari Change Points ofMeSH 2OlO Revised Edi-tion[J]. Online Kensaku 20lO(2)：38-56  \n9 JunW ang Autm atic Thesaurus Development Teim Extrac-tion Frm Title Metadata[J]· Joumal of the American soc ie-ty for infoimation sc ience and technology 2OO6(3)： $9 0 7 -$ 920  \n10 GONG Chao Hum an $- \\mathbf { M }$ ach ine Interface，Design Principles of V isual Infomation in Hum an $- \\mathbf { M }$ ach ine InterfaceDesign[J].2OO9 Intemational Conference on IntelligentHuman—Machine Systems and Cybemetics 2OO9（2):262-265  \n11 Robert M.Losee Decisions in thesaunus construction anduse[J]. Infomation Pocessing and Management 2007(6):958-968  \n12 Margherita Sini Boris Lauser Gauri Salokhe JohannesKeizer，Stephen Katz The AGROVOC Concept ServerIationalegoals and usage[J],Library Review 2O08(3):200-212司莉 女　1965一，博士生导师，武汉大学信息管理学院图书馆学系副主任。  \n柴源1987一，武汉大学信息管理学院 2010级硕士。  \n周李梅女1988一，武汉大学信息管理学院 2010级硕士。  \n邓伊婷女1987一，武汉大学信息管理学院 2010级硕士。  \n(收稿日期： $2 0 1 1 - 0 3 - 2 3 $ 编发：许桂菊）"
+  }
+}

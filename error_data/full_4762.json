@@ -1,0 +1,124 @@
+{
+  "original_filename": "full_4762.md",
+  "复杂网络节点影响力测度及其最大化研究综述": "",
+  "张应青罗明李星": {
+    "context1": "[1．武汉大学经济与管理学院，湖北 武汉430072；2．贵州财经大学管理科学学院，贵州 贵阳 550025)",
+    "context2": "（摘要）节点影响力研究对于舆情导控、信息传播、知识共享、市场营销以及群体性事件等问题具有重要的理论价值和实践指导意义。围绕节点影响力的概念界定、内涵辨析、测度与评估，以及影响力最大化等方面进行了相关文献梳理和述评。在已有节点影响力研究梳理的基础上，提出了现有研究存在的不足，并对未来研究的方向进行展望。",
+    "context3": "（关键词）复杂网络；节点影响力；测度；评估；影响力最大化；综述",
+    "context4": "DOI:10.3969/j. issn.1008 -0821.2017.01.030",
+    "context5": "（中图分类号）G201（文献标识码）A（文章编号）1008-0821（2017）01－0160-05"
+  },
+  "A Review on the Node Influence and Influence Maximization of Complex Networks": {
+    "context1": "Zhang Yingqing'Luo Ming'Li Xing² (1. Economics and Management School，Wuhan University，Wuhan 430072，China; 2.Management Science School，Guizhou University of Finance and Economics，Guiyang 550025，China)",
+    "context2": "(Abstract）Research on the influential nodes oncomplex networks has importanttheoretical value and practical significance for emergencies control，information transmision，viral marketing，knowledge sharing and mass incidents．The definitio，connotation，indexandevaluationaswellas influencemaximization，werereviewed.Onthebasisofliterature review，the existing research limitations and new directions for future research were pointed out.",
+    "context3": "(Key words） complex networks； index；evaluation； node influence；influence maximization；review",
+    "context4": "节点影响力研究已经成为当前信息科学、社会科学、复杂性科学等学科和领域关注的热点和前沿性问题。例如，在社交网络的舆情传播中，具有高影响力的节点，如微博大V、焦点媒体、公众人物等，在观点传播、信息传递等过程中扮演着重要的角色[-，往往起到推波助澜或风向逆转的作用，挖掘、认识和利用这些高影响力节点就成为了引领传播方向、增强舆情导控以及降低负面影响的关键。又如，在庞大的科研合作关系网络中，如何准确、有效地进行作者识别，客观、公正地测度作者学术贡献的重要程度，是基金资助、职称评定乃至人才评价体系构建的重要环节。除此之外，节点影响力的测度和评价在信息传播、市场推广、语意探测、群体性事件等多个领域也发挥了重要的作用[4-]。",
+    "context5": "如何有效、快速、精准地测度节点影响力成为首先需要解决的问题。信息科学家从信息扩散的广度、速度以及深度等维度来衡量，社会科学家从节点的社会影响力、资本、权利等指标来衡量，等等。这些研究从不同的维度和视角在一定程度上有效地测度了节点的影响力。但不容忽视的是，随着互联网、社交媒体、网络平台的迅速发展，网络化属性已经成为当前社会、经济、信息以及交通等复杂系统的一个重要特征。一般而言，复杂系统可以抽象为节点及其连边组成的复杂网络。节点作为嵌入复杂网络中的个体，节点间的互动关联会导致网络涌现出丰富的动力学特性和新的结构性特征，网络结构的多样性以及网络演变的动态性又会使得网络中节点的行动、功能、作用及其影响力呈现层级化、差异化等特点。由此可见，基于复杂网络的视角能够进一步洞察微观主体和宏观结构之间的互动关系，能够更加全面和深入地分析节点的网络位置与影响力之间的内在联系和影响过程。因此，本文将对当前复杂网络结构特征下的节点影响力研究新进展进行梳理，以期对未来相关性研究提供理论依据和实践指导。"
+  },
+  "1节点影响力的概念界定及其内涵辨析": {
+    "context1": "节点影响力是指对复杂网络中所有节点进行相对影响力或重要程度的衡量和排序，并基于关键节点实现网络功能优化和控制的研究过程。节点影响力一般包括影响力测度与评估和影响力最大化两部分。节点影响力的测度与评估侧重于对节点重要程度的定义和排序，通过从不同视角、维度和约束条件下构建起节点影响力指标，并试图以最精准和快速的方式找到最有影响力的节点。而影响力最大化是在节点影响力测度的基础上，找到一个影响力节点集合，使得在这样的节点集合组合下，其传播效果最大，传播范围最广以及传播所需的资源最少。",
+    "context2": "从理论价值和应用价值来看，节点影响力研究对于寻找网络中的关键节点无疑具有重要的理论意义和实践价值。但就其节点影响力研究的最终目的来看，如何以最少的资源投入，在有限的时间范围内，以最快的速度使得传播效果达到最大，才是社会、市场以及利益群体所关注的焦点。这也即是表明影响力最大化才是节点影响力研究的最终目的，而节点影响力的测度与评估只是为影响力最大化提供寻找关键节点的手段。"
+  },
+  "2节点影响力的测度与评估": "",
+  "2.1节点影响力的测度": {
+    "context1": "随着复杂性科学以及多学科交叉的不断融合，节点影响力测度的定量化方法层出不穷，其研究视角和构建的影响力指标从基于节点单属性到多属性指标，其网络结构属性从无向、无权、单层网络到有向、权重、多层网络，其研究的问题从舆情导控、信息传播、疾病控制到犯罪组织监察、市场营销以及异常事件监测等[6-。因此，研究问题的不同、网络结构的异质性、约束条件的差异性等，使得不同学者对节点影响力的理解和认识都有所不同，这也就直接导致了节点影响力测度方法的指标选取呈现出不同的视角和维度，具体可以分为基于节点局部信息的单属性指标测度方法，基于网络全局信息的单属性指标测度方法和基于节点多属性的多指标测度方法，具体如表1所示。"
+  },
+  "2.1.1基于局部信息的单属性指标测度方法": {
+    "context1": "具有简单、计算复杂度低等优点。如Chen等[提出的半局域中心性（Semi-localCentrality），利用了节点一阶邻居和二阶邻居的信息来定义中心节点的影响力，并通过对博客网络、科学家网络、路由器网络以及邮件网络4种网络的节点影响力分析，发现此方法的有效性优于传统的介数中心性指标，且拥有更低的算法复杂度。但Gao等[]的研究进一步指出，半局域中心性方法只用到了一阶邻居和二阶邻居与中心节点的关联，而忽视了邻居节点彼此间又有可能建立连接的拓扑信息，基于此提出了基于邻居间连接信息的局域结构中心性（Local Structural Centrality），通过此方法，可以发现节点的影响力最终由两个部分构成：其一是邻居的数量，衡量的是节点能够影响的范围；其二是邻居节点间的关系，衡量的是邻居节点间相互影响的程度。从本质上来说，邻居节点间的紧密程度可以用节点的聚集系数来表示，而节点的集聚系数又与网络中的三角结构具有紧密的联系，节点与其邻居节点形成的三角结构越多，节点的集聚系数就越高，表明节点的影响力就越高[。",
+    "context2": "表1基于网络结构信息的节点影响力测度方法",
+    "context3": "<table><tr><td>类别</td><td>信息结构</td><td>指标内容</td></tr><tr><td rowspan=\"2\">单属性 指标</td><td>局部信息</td><td>邻居数量 邻居间连接拓扑信息 三角结构数量 (聚集系数) 结构洞 (网络约束系数） 社区中心性</td></tr><tr><td>全局信息</td><td>接近中心性 介数中心性 流介数中心性 特征向量中心性 K-shell分解法及其改进算法</td></tr><tr><td>多属性 指标</td><td>局部+ 全局信息</td><td>3指标法（度数中心性、结束中心性、 K - shell核层) 4指标法（度数中心性、介数中心性、 接近中心性、K-shell核层） 7指标法（网络约束系数、介数中心 性、等级度、效率、网络规模、PageR- ank值、聚类系数） 内部属性（社区中心性、度数中心性 等）、外部属性（K-shell核层)</td></tr></table>",
+    "context4": "此外，在关系网络化、个体异质性不断演变的时代，复杂网络的网络结构呈现出多样性和复杂性的新特征，如小世界、无标度、社团、结构洞以及多层等，不同的复杂网络结构特征带来了丰富的动力学特性。如当前以微博为载体的在线社交网络，其网络结构具有明显的“小世界”网络的高聚集系数和较短的平均路径特征，微博信息通过网络中的长程连接可以迅速实现裂变传播，其传播的速度和深度在高聚集的网络中高于传统的传播媒介[。又如Burt 的结构洞理论[4认为，处于结构洞两边的邻居节点具有差异化的信息和资源，在结构洞上充当中间人的“Ego”位置的节点会获得更多的竞争优势和网络控制能力，从而使节点获得更多累加而非重叠的网络收益，包括信息利益和控制利益，进而控制社会关系与信息的传播。因而处于结构洞上的节点在话题传播、新思想、新产品推广上，相比其他节点而言显得更加重要。基于此，苏晓萍等[在",
+    "context5": "Burt提出的结构洞度量方法基础上，综合考虑了节点的邻居数量及其邻居间的“桥接”拓扑信息，提出了基于节点及其邻居结构洞的节点影响力测度方法。此外，在社交网络中“人以群分”的现象非常明显，每个节点都会有一个或多个活跃的社区（Community），每个社区内部由具有某种共同属性或起某种相似作用的个体组成，社区内部连接稠密，各社区间连接稀疏，往往那些连接多个社团的节点可能并不是网络中度最大的节点，但其在传播观点或信息的影响力并不弱于度大节点[。因此，对处于不同网络结构特征下的节点，其影响力测度指标需要紧密结合网络结构自身的属性和特征。"
+  },
+  "2.1.2基于全局信息的单属性指标测度方法": {
+    "context1": "基于网络全局信息的单属性指标测度方法，具有定义准确、可靠性高等优点，但其计算复杂度高而难以适用于大型复杂网络，如经典的接近中心性、介数中心性、流介数中心性、特征向量中心性、K－shell分解法等[]。此类方法主要从网络全局的视角来观察节点的网络位置以此来定义节点影响力，越处于网络核心以及起到信息中转或桥接作用的节点往往影响力更高。值得提出的是，K－shell分解法[是Kitsak提出的一种新的基于网络全局信息的节点影响力定义方法，其主要思想是从网络的最外层开始将节点度从小到大依次剥离网络，并将每次剥离度值相等的节点归为一层，越处于网络最内层的节点，其影响力越高，此方法可以区分出那些度较小但实际影响力很大的节点。",
+    "context2": "但由于K-shell分解法的排序结果过于粗粒化，从而难以区分在同一层内节点的影响力。基于此考虑，一些学者提出了一种改进的K-shell分解法，将剥离出的邻居节点的信息加入到被保留的节点影响力定义之中，从而更加全面的衡量节点影响力[19-2@。而Liu等[2]则是通过增加K- shell分解法分解的层级，以便进一步区分出同一层节点间的影响力。"
+  },
+  "2.1.3基于节点多属性的多指标测度方法": {
+    "context1": "基于节点多属性的多指标测度方法，这是一种综合性方法，从节点的多属性角度出发，以更加全面和深入的视角来综合定义节点影响力。此类方法认为从单一维度或指标来定义节点影响力，其准确性和有效性不高，而综合单个指标各自的优点，从多个角度或维度来评价节点的影响力，其准确性和有效性将会提高。例如，Hou[、Liu[2]以及韩忠明等[2分别提出了包含3个指标、4个指标和7个指标的节点影响力测度方法。进一步的， $\\mathrm { F u } ^ { \\ [ 2 4 }$ 和胡庆成等[2将节点的影响力看成是节点内部属性和外部属性共同作用下的结果，并且可以运用信息熵的方法来定义节点的内、外部信息。可以看出，通过将个体内部属性和外部网络结构信息结合的综合评价方法可以进一步克服了单一指标的缺陷，进而更加真实、准确、全面地对节点影响力做出评价。",
+    "context2": "此外，将多目标决策的方法引入节点影响力研究中，成为当前节点影响力测度的一个重要分支。Yang等2将节点影响力涉及到的各种指标看成是决策过程的一个个目标，运用TOPSIS的多目标决策方法来构建节点的影响力测度模型，进一步丰富了多指标节点影响力模型的研究视角。但由于传统的TOPSIS方法将各目标的权重看成是相同的，与现实情境不一致。基于此 $\\mathrm { H u }$ 等[2提出了一种动态权重算法，运用 SIR （Susceptible-Infected -Recovered Model)模型来确定各目标的权重值。"
+  },
+  "2.2节点影响力的评估": {
+    "context1": "节点影响力的评估指的是对不同指标定义的节点影响力测度方法优劣的比较，一般可以通过网络攻击和传播动力学两种方法进行评估。"
+  },
+  "2.2.1网络攻击": {
+    "context1": "就网络攻击而言，就是看复杂网络中部分节点在经受网络攻击后，其网络的连通性以及信息的传输效率是否受到影响，网络的结构和功能被影响的越严重，表明受到攻击的网络节点也就越重要。网络攻击的方式一般分为随机攻击和蕃意攻击两类。其中，蓄意攻击的目标可以根据不同的节点影响力测度方法选出，通过评比不同方法选取的最大影响力节点在经过攻击后的网络脆弱性和稳定性，以此评选出较优的测度方法[2。此外，不同网络结构对于不同的攻击具有不同的抗毁性和鲁棒性，如无标度网络对于随机攻击具有较高的鲁棒性，而对蓄意攻击则显得异常脆弱。"
+  },
+  "2.2.2传播动力学": {
+    "context1": "传播动力学过程的不同对最终评估的一致性也存在一定偏差。传播动力学过程一般可以分为信息传播与疾病传播两类模型，这两类模型的内在机理和传播机制具有一定的共性同时又存在差异。其共性主要表现为传播阈值是传播成功与否的关键，而其差异就主要表现在传播主体以及传播路径的差异。此外，即使在相同的传播动力学过程下，不同的影响力测度方法的适用性也存在偏差。如在SIR模型传播概率较小情形下，度数中心性指标的测度方法优于其他指标下的测度方法，而在传播概率较大情形下，特征向量中心性指标的测度方法表现更好[28-29。除此之外，传播的时间因素也会直接影响测度方法的适用性。Ghan-barnejad和Klemm[认为达到预期传播范围所需的时间越短，其传播能力越强，对于不同的指标的测度方法而言，在较小的时间约束条件下，度数中心性指标优于其他指标下的测度方法，而在宽裕的时间情形下，特征向量中心性指标的测度方法表现更好。"
+  },
+  "3影响力最大化": {
+    "context1": "影响力最大化问题已经越来越受到企业和学者的关注。例如，在新产品的市场推广中，口碑营销和病毒营销已经成为当前被广泛使用的新型营销方式，商家在有限资金和人力约束下，通过筛选出最有影响力的消费群体组合，使得其最终的传播效果和范围达到最大化目标[3。可以看出，影响力最大化的关键就在于如何找出一个影响力节点集合，使得在这样的节点集合组合下，其传播效果最大，传播范围最广以及传播所需的资源最少。寻找影响力节点集合的方法，一般可以分为贪心算法（GreedyAlgorithms）、后发式算法（HeuristicAlgorithms）以及渗流方法（Perco-lation Methods）。"
+  },
+  "3.1贪心算法": {
+    "context1": "贪心算法是通过每一次添加一个能提供最大影响值的节点进入集合，使得集合内的节点所能影响的范围达到预期或最大，该算法具有精确度高、定义准确等特点，但算法复杂度较高、运算效率低。Kempe等[首次将贪心算法（BasicGreedy）运用到影响力最大化问题之后，就备受关注。例如，为了提高贪心算法的运算效率和精度，新的贪心算法New Greedy被提出[。在应用方面，Anshelevich等[34发现在紧急预警和撤离事件过程中，信息扩散往往无法准确传达到正确的目标人群，反而会引起其他正常群体不必要的恐慌和骚乱，基于此，作者提出了一种基于信任的信息扩散模型，并运用投射的贪心算法（ProjectedGreedy）来寻找信息扩散的重要节点集合，从而提高为信息扩散的准确性和有效性。Zhou等[认为在信息传播过程中，不同节点具有差异化的传播偏好，因此提出了一种两阶段的节点影响力集合算法：第一阶段是计算节点的偏好；第二阶段则是基于贪心算法来寻找最有影响力的节点集合。"
+  },
+  "3.2后发式算法": {
+    "context1": "而后发式算法是一种根据直观或经验构造出来的算法，是为了在给定资源约束和时间成本条件下找出一个满意的可行解，由于不需要精确计算节点的影响力，具有效率高、运算快等特点，但精确度较低。一般来说，网络中节点度是衡量节点影响力最为直观、简单的指标，基于此Chen等提出了基于节点度的度折扣（DegreeDiscount）后发式算法，该算法的主要思想是首先将最大节点度选入影响力节点集合中，并从其邻居节点中选择能使集合影响力增大的节点进入集合，不断重复此过程并最终找到使得影响力最大化的节点集合。Sheikhahmadi等认为选择两个太近的节点作为初始影响力节点，有时会因为他们的影响范围相似而使得最终节点集合影响力辐射范围重叠和缩小，因此提出了基于节点间距离（DegreeDistance）的后发式算法及其改进算法。此外，Wang等[认为节点对不同邻居的影响力具有差异性，因此提出了一个考虑节点异质性的更加一般的度折扣（GeneralizedDegreeDiscount）后发式算法。"
+  },
+  "3.3渗流方法": {
+    "context1": "渗流理论是统计物理学和随机图理论的重要分支，其理论的重要发现是当不超过渗流阈值时，网络由碎片化的节点集群形成，而当超过渗流阈值时，网络形成一个巨大的连通图[3。当前渗流理论被广泛运用到网络鲁棒性、谣言传播和疾病传播的研究之中，而将其运用到节点影响力最大化是近几年来的前沿课题。Morone等[3认为寻找使得如信息传播以及疾病免疫最大化的最小影响力节点集合等问题，可以映射为一个点渗流问题。根据渗流理论，当网络中节点随机移除超过一定阈值之后，网络的最大连通子图将被瓦解，也即是表明影响力最大化问题就转换为渗流问题中找到使网络变成碎片时的最小移除阈值。",
+    "context2": "此外，针对复杂网络出现的新特征，如社团结构、网络快速增长、适应性、时间敏感性等，节点影响力最大化研究也得到了新的发展。如Bozorgi等[4在具有社团结构的网络中，提出了一种基于线性阈值模型的寻找影响力节点集合的INCIM算法，此算法综合了节点局域传播和全局传播的信息，其算法精度更高。"
+  },
+  "4总结与展望": "",
+  "4.1总结": {
+    "context1": "随着研究问题的复杂性、网络结构的异质性以及约束条件的多变性等复杂网络新特征的出现，传统节点影响力的测度对于寻找关键节点的有效性和准确性降低。因此，基于不同视角和维度的节点影响力测度的定量化方法也层出不穷，具体可以分为基于节点局部信息的单属性指标测度方法，基于网络全局信息的单属性指标测度方法和基于节点多属性的多指标测度方法。此外，继节点影响力测度与评估之后，影响力最大化成为当前节点影响力研究的新热点和前沿。影响力最大化关心的问题是如何寻找一个影响力节点集合，使得在这样的节点集合组合下，其传播效果最大，传播范围最广以及传播所需的资源最少。其寻找方法一般可以分为贪心算法、后发式算法以及渗流方法等。"
+  },
+  "4.2展望": {
+    "context1": "就目前复杂网络节点影响力研究的现状来看，以下几个方面还需进一步深入挖掘和研究。",
+    "context2": "1）具有多个传播源以及存在传播源叠加、负载和竞争效应的节点影响力研究。如当多个传播源之间由于距离较近，使得接近于这些传播源的节点能够获得不断叠加的新信息，从而增加了个体的影响力，而这种影响力并非来自于个体自身属性或网络拓扑，而仅仅是基于传播源的位置；又如由于不同利益传播源之间存在对潜在群体的争夺和竞争关系，使得节点的影响力范围是一个长期动态、竞争变化的结果。",
+    "context3": "2）不同传播机制下的节点影响力研究。谣言传播、信息传播以及疾病传播在传播机理上还是存在差异的。而现有节点影响力研究大多是基于SIR模型来验证所构建节点影响力模型的合理性和有效性，缺少从不同传播机制的差异性去进行深入分析。",
+    "context4": "3）关系多样性的节点影响力研究。复杂网络节点间关系的多样性也是一个很现实的问题，如某个个体在工作、家庭和社会等不同环境下具有多种身份，与不同环境下的个体形成的关系又是具有多样性，针对某一事件或信息的传播，不同关系的传播力度、依赖程度以及传播渠道也不尽相同，要想真实地揭示出某一节点的影响力，还需深入分析这些关系网络与事件的相关性。",
+    "context5": "4）网络动态性和时间约束条件下的节点影响力研究。随着新的传播媒介和社交方式的出现，网络的动态性和快速增长已经成为复杂网络演变的新特征，能在传播初期进行关键节点预测或者在时间约束条件下实现预期传播范围将更具有理论意义和实践价值。"
+  },
+  "参考文献": "",
+  "[1］蒋侃，唐竹发．微博情境下网络舆情关键节点识别及扩散模式分析［J]．图书情报工作，2015，（20)：105－111.": {
+    "context1": "[2]Tang L.Identifying Influential Users in Network Public Opinion of Crowd Unfollow on Twitter［J]．Journal of Information and Computational Science，2015，12（17)：6629-6642."
+  },
+  "[3]王妍，郭舒，张建勇．学者影响力评价指标的相关性研究[J]．图书情报工作，2015，（5)：106-112，127.": {
+    "context1": "[4] Zhu T，wang B，wu B，et al.Maximizing the spread of influence ranking in social networks［J]． Information Sciences，2014, (278): 535 -544.",
+    "context2": "[5］林琛．微博个体信息传播影响力评价模型研究［J]．现代图书情报技术，2014，（2)：79-85."
+  },
+  "[6]田占伟，王亮，刘臣．基于复杂网络的微博信息传播机理分析与模型构建[J]．情报科学，2015，（9)：15-21.": {
+    "context1": "[7]Saito K，Kimura M，Ohara K，et al．Super mediator-A new centrality measure of node importance for information diffusion over social network ［J]．Information Sciences，2016，（329)：985- 1000.   \n[8]Taha K，Yoo PD．SIMCO:A Forensic Investigation Tool for Identifying the Influential Members of a Criminal Organization [J]. IEEE Transactions on Information Forensics and Security，2016, 11 (4):811-822."
+  },
+  "[9]曹学艳，段飞飞，方宽，等．网络论坛视角下突发事件舆情的关键节点识别及分类研究［J]．图书情报工作，2014，(4):65-70.": {
+    "context1": "[10]Chen D,Lu L，Shang M，et al.Identifying influential nodes in complex networks [J].Physica A:Statistical Mechanics and its Applications，2012，391（4):1777-1787.   \n[11]Gao S，Ma J，Chen Z，et al．Ranking the spreading ability of nodes in complex networks based on local structure ［J]．Physica A:Statistical Mechanics and its Applications，2014，（403）: 130 -147."
+  },
+  "[12］韩忠明，陈炎，李梦琪，等．一种有效的基于三角结构的复杂网络节点影响力度量模型［J]．物理学报，2016，（16）：285-296.": "",
+  "[13］郭海霞．基于小世界网络的微博信息影响力研究［J]．情报科学，2014，（9)：60-63.": {
+    "context1": "nal of sociology，2004，110（2)：349-399.",
+    "context2": "[15］苏晓萍，宋玉蓉．利用邻域“结构洞”寻找社会网络中最具 影响力节点［J]．物理学报，2015，（2)：5-15.   \n[16］赵之滢，于海，朱志良，等．基于网络社团结构的节点传播 影响力分析［J]．计算机学报，2014，（4)：753-766.   \n[17]Lu L，Chen D，Ren X，et al．Vital nodes identification in complex networks ［J]．Physics Reports，2016， $( 6 5 0 ) : 1 - 6 3$   \n[18]Kitsak M，Gallos L K，Havlin S，et al．Identification of influential spreaders in complex networks ［J]．Nature Physics，2010, 6(11):888-893.   \n[19]Bae J,Kim S.Identifying and ranking influential spreaders in complex networks by neighborhood coreness ［J]．Physica A: Statistical Mechanics and its Applications，2014，（395）： 549- 559.   \n[20]Ma L，Ma C，Zhang H，et al．Identifying influential spreaders in complex networks based on gravity formula ［J].Physica A: Statistical Mechanics and its Applications，2016，（451）:205- 212.   \n[21]Liu Z，Jiang C，Wang J，et al.The node importance in actual complex networks based on a multi -attribute ranking method [J]. Knowledge-Based Systems，2015，（84):56-66.   \n[22]Hou B，Yao Y，Liao D． Identifying all-around nodes for spreading dynamics in complex networks［J].Physica A:Statistical Mechanics and its Applications，2012，391（15)：4012-4017."
+  },
+  "[23]韩忠明，吴杨，谭旭升，等．面向结构洞的复杂网络关键节点排序[J]．物理学报，2015，64（5)：421-429.": {
+    "context1": "(下转第171页)"
+  },
+  "[24］胡庆成，尹桑，马鹏斐，等．一种新的网络传播中最有影响力的节点发现方法［J]．物理学报，2013，62（14）：140101 -140101.": {
+    "context1": "[25]Du Y，Gao C，Hu Y，et al.A new method of identifying influential nodes in complex networks based on TOPSIS［J]．Physica A:Statistical Mechanics and its Applications，2014，（399)： 57 -69.",
+    "context2": "[26]Yang Y，Xie G．Efficient identification of node importance in social networks［J]．Information Processing & Management，2016, 52(5):911-922.",
+    "context3": "[27]Hu J，Du Y，Mo H，et al.A modified weighted TOPSIS to identify influential nodes in complex networks［J].Physica A: Statistical Mechanics and its Applications，2016，（444):73- 85.",
+    "context4": "[28]Klemm K，Serrano M A，Eguiluz V M，et al.A measure of individual role in collctive dynamics[J]．Scientific Reports, 2012， $( 2 ) : 2 9 2$",
+    "context5": "[14]Burt R S. Structural holes and good ideas1 [J]．American jour-证研究［J]．山东图书馆学刊，2012， $( 1 ) : 2 2 - 3 5$"
+  },
+  "[21］张赛，徐恪，李海涛．微博类社交网络中信息传播的测量与分析[J]．西安交通大学学报，2013，47（2)：124-130.": {
+    "context1": "[22]Metzger MJ,Flanagin AJ，Medders R B. Social and heuristic approaches to credibility evaluation online ［J]． Journal of Communication，2010，60（3):413-439.   \n[23]Cha M，Benevenuto F，Haddadi H，Gummadi K．The World of Connections and Information Flow in Twitter [J].IEEE Transactions on Systems Man and Cybernetics Part A:Systems and Humans，2012, 42(4):991-998."
+  },
+  "[24]郭晓姝．企业微博信息互动传播模式、途径与影响因素研究[D]．沈阳：东北财经大学，2013.": "",
+  "[25］陈慧娟，郑啸．微博网络信息传播研究综述[J]．计算机应用研究，2014，31(2)：333-337.": {
+    "context1": "[26] Zhao W，JiangJ，WengJ,He J,Lim EP，Yan H，et al．Comparing twitter and traditional media using topic models [J]．Advances in Information Retrieval，2011:338-349."
+  },
+  "[27］新浪微博在地震中的传播研究［D]．杭州：浙江大学，2011:77.": {
+    "context1": "[28]Liu Z,Liu L,Li H.Determinants of information retweeting in microblogging [J]．Internet Research，2012，4（22)：443-466.",
+    "context2": "[29] So J，Prestin A，Lee L，et al．What Do People Like to“Share” About Obesity?A Content Analysis of Frequent Retweets About Obesity on Twitter [J]．Health Communication，2016，32:193-206.",
+    "context3": "[30]Chen Q，Rodgers S.Development of an instrument to measure web site personality［J]．Journal of Interactive Advertising，2006，7 (1):47-64.",
+    "context4": "[31]McMillan S J.Effects of Structural and perceptual factors on attitude toward the website ［J]．Journal of Advertising Research，2004，43 (4)：400-421."
+  },
+  "[32]李阳．企业网络舆情再传播意愿研究［D]．哈尔滨：哈尔滨工业大学，2013.": {
+    "context1": "[33]Jessica Vitak，Paul Zube，Andrew Smock，Carr，Nicole Ellson,and Cliff Lampe.It's Complicated:Facebook Users'Political Partici-pation in the 2008 Election [J]．Cyberpsychology，Behavior，and So-cial Networking，2011，14（3)：107-114.  \n[34]吴敏琦．微博用户日常生活信息获取行为模式及其影响因素研究[J]．情报科学，2013，（1)：86-90.  \n[35]袁园．微博用户转发意愿的影响因素研［D]．南京：南京大学，2013.  \n[36]JWAK H,LEEC，PARK H，et al．What is twitter:a social net-work or a news media[C]．Proceedings of the 19th InternationalConference onWorldWideWeb，New York，ACMPress，201O:591-600.  \n[37]Granovetter. The strength of weak ties [J]．American Jour of Sociol-ogy，1973:1360-1380.  \n[38]JAVA A，SONG Xiao -dan，FININ T，et al．Why we twitter: un-derstanding microblogging usage and communities [C]．Proceedings ofthe 9th Web KDD and 1st SNA KDD Workshop on web Mining and So-cial Network Analysis，New York，ACM Press，2007:56-65.  \n[39]Yang J，Counts S.Predicting the speed，scale，and range of infor-mation diffusion in twitter [J]．International Conference on Weblogs &Social Media，2010，（10).  \n[40]余眺．微博营销对用户行为意愿的影响研究［D]．上海：东华大学，2013.  \n[41］蒋盛益，陈东沂．微博信息可信度分析研究综述［J]．图书情报工作，2013，57（12)：137-141.  \n[42］周金元，张莎莎．国内微博研究综述［J]．情报杂志，2013，32(9):49 -51.  \n[43]李洋．微博信息传播预测研究综述［J]．软件学报，2016，27(2):247-263.  \n[44］刘滨．微博分析研究综述［J]．河北科技大学学报，2015，36(1)：100-109.",
+    "context2": "(本文责任编辑：马卓)"
+  },
+  "(上接第164页)": {
+    "context1": "[31]Gong M，Yan J，Shen B，et al.Influence maximization in social networks based on discrete particle swarm optimization [J]．Information Sciences，2016，（367)：600-614.   \n[32]Kempe D，Kleinberg J，Tardos E.Maximizing the spread of influence through a social network ［C]//Proceedings of the ninth ACM SIGKDD international conference on Knowledge discovery and data mining．ACM，2003:137-146.   \n[33]Chen W，Wang Y，Yang S.Efficient influence maximization in social networks [C]//Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining.ACM, 2009:199-208.   \n[34]Anshelevich E，Hate A，Magdon -Ismail M.Seeding influential nodes in non -submodular models of information diffusion [J]．Autonomous Agents and Multi-Agent Systems，2015，29（1):131-159.   \n[35] Zhou J,Zhang Y，Cheng J.Preference-based mining of top - influential nodes in social networks［J].Future Generation Computer Systems，2014，(31):40-47.   \n[36]Sheikhahmadi A，Nematbakhsh M A. Identification of multi - spreader users in social networks for viral marketing [J]． Journal of Information Science，2016:1-12.   \n[37]Wang X，Zhang X，Zhao C，et al．Maximizing the Spread of Influence via Generalized Degree Discount ［J]．PLOS ONE，2016，11 (10):e164393.   \n[38]Zhong L，Liu J，Shang M.Iterative resource allcation based on propagation feature of node for identifying the influential nodes［J]. Physics Letters A，2015，379 (38):2272-2276.   \n[39]Morone F，Makse H A．Influence maximization in complex networks through optimal percolation[J]．Nature，2015，524（7563)：65- 68.   \n[40]Bozorgi A，Haghighi H,Sadegh ZM，et al．INCIM:A community -based algorithm for influence maximization problem under the linear threshold model ［J]．Information Processing & Management，2016, 52(6): 1188-1199.",
+    "context2": "(本文责任编辑：郭沫含)"
+  }
+}

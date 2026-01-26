@@ -1,0 +1,54 @@
+{
+  "original_filename": "full_368.md",
+  "DIALOG系统一年来的进展": {
+    "context1": "美国DIALOG系统是我国情报界常用的一个大型国际联机情报检索系统。1987年这个系统在使用功能与服务内容方面究竟又有哪些变化或值得注目之处？本文对此作一些综合性介绍。"
+  },
+  "一、功能的改进": "",
+  "1.用户自定密码": {
+    "context1": "过去DIALOG在签订合同时向每个用户指定一个密码，联机时用户键入该密码后即可进入系统开始检索。但从去年开始，为更好地保障用户的利益，系统允许用户自行规定一个密码，实行双保密制。这同ORBIT系统一样，当用户用合同中规定的密码进入系统后，系统还将提示用户键入自己所规定的密码，只有在两个密码均准确无误时才能允许用户进行检索。用户自定的密码在检索过程中还可随时加以更换。因此，双密码制有利于防止系统被非合同用户窃用。"
+  },
+  "2.自定输出格式": {
+    "context1": "目前.DIALOG系统除规定有各种固定的输出格式外，部份文档已开始允许用户自定输出格式。联机时，用户可先键入?UDF指令来了解所检文档是否具备此功能，然后键入指令与字段代号，如“TS3/TI，AU，DE/ALL”即可调出仅含标题、作者、叙词字段的全部文献记录。DIALOG所增加的“自定输出格式”的功能，对用户按自己的需求套录该系统的数据是较为有用的。"
+  },
+  "3．多文档一次检索功能": {
+    "context1": "过去用户联机检索几个文档时，需要逐个调用所检的文档号，并多次重复输入检索策略式或调出暂存的策略式代号，这样做既费时又费钱。现在，通过DI-ALOG新开发的“OnSearch”功能，用户只需一次键入检索策略式即可同时在20个以内的不同文档中检索所需的文献记录。使用时，用户只要将调用的文档号用逗号分隔开输入即可。因此，利用这一功能可为用户解决交叉文档的检索问题。"
+  },
+  "4.编制表格功能": {
+    "context1": "DIALOG588号文档（国防定货文档）已具有抽",
+    "context2": "取数据编表输出的功能。"
+  },
+  "5.扩大定题服务范围": {
+    "context1": "在1987年内又有16个文档或数据库，先后增加了定题服务（SDI）的功能。"
+  },
+  "6.系统服务时间延长": {
+    "context1": "目前DIALOG系统除每周的星期六美国东部时间12时至星期日3时停机外，其它时间都对外提供联机服务。"
+  },
+  "二、数据库的改善": {
+    "context1": "去年DIALOG系统新增加了39个数据库。值得注意的是：它增加了日本技术数据库；另外，原属DRI数据资源公司的DMS国防信息数据库，脱离DRI系统后已加入了DIALOG系统。我国的专利数据库也装入了DIALOG系统，成为该系统的一个新文档（344号）。",
+    "context2": "另外，DIALOG系统还对18个文档进行了翻新，增加了新的字段，提高或改进了检索能力，并使之与其它文档所用的数据格式标准相统一。",
+    "context3": "DIALOG系统还将过去分属于几个文档的大型数据库如美国专利、医学（MEDLINE）、商情(DI-SCLOSURE）等三个大型库分别合并为340号、155号、100号文档，以便于用户检索时不必调用更多的文档号。",
+    "context4": ".在14个文档中，DIALOG系统增加了新的数据与特征（见附表）。"
+  },
+  "三、新推出的产品与技术": "",
+  "1．OnDisc系列只读光盘产品": {
+    "context1": "1987年DIALOG推出的这种光盘数据库，包括ERIC（教育）、MEDLINE（医学）NTIS（美国政府科技文献）等三个数据库。OnDisc与其它光盘产品的不同之处，是它与DIALOGLINK通信软件的应用相结合，使用户既可进行光盘检索，又可随时转至DIALOG大系统进行国际联机检索。从而使两种不同的工作方式得到更好的结合与补充。"
+  },
+  "2.医学文献综合检索软件包": {
+    "context1": "便于医学、生物医学研究及保健人员较易从DI-ALOG系统有关的医学数据库中，取得医学科技方面的情报信息。"
+  },
+  "3.商情综合检索软件包": {
+    "context1": "其功能与上述医学软件包类似，是1986年为便于有关用户较易从DIALOG系统查找商情而设计的。但在1987年又增加了快速查找公司、扩充了公司信息的菜单驱动检索工作方式、公司综合报告的编写以及私营公司深度信息分析等方面的功能，从而使该软件功能得到进一步提高。"
+  },
+  "4．快速获取信息软件": {
+    "context1": "目前已有Businesswire（610号文档）、McGra-w-Hill News（600号文档)、PR Newswire（613号文档）、Reuter（611号文档）开始具备这种定时取得15分钟内更新信息的功能，以便于用户可以随时掌握最新的动向。"
+  },
+  "四、数传通信能力的提高": {
+    "context1": "目前DIALOG与OCLC与RLIN两大信息服务系统之间分别设置了网络接口。这样，这两大系统的用户终端均可进入DIALOG系统，对有关书目数据库进行查找与联机订购，利用DIALOG强大的软件检索能力作为它们的一种补充服务。",
+    "context2": "DIALOG对其设计与运行中的DIALNET远程通信网络的功能继续作了一些开发工作。在新墨西哥州的阿尔伯克基新设了一个通信节点；在伦敦的节点可与美国的网络并网；并且伦敦的节点开通了2400波特的数传信道，这一网络收费较低，在美国为8美元／小时，在美国以外为10美元/小时。",
+    "context3": "在扩大使用拨号方式联机方面，通过Dun&Brastreer公司拥有的Duns Net网络在世界上200多个城市已可用300、1200或2400波特的速度采用拨号方式与DIALOG系统联通。",
+    "context4": "此外，DIALOG系统去年还在帮助用户掌握DI-ALOG系统的应用上作了不少工作：包括多种形式的教育培训，编制出版新的使用手册，发行介绍DIA-LOG的录相带等方面的工作。",
+    "context5": "DIALOG系统1987年还分别在加州的阿纳海姆、科州的丹佛以及德州的达拉斯等地举办了三次用户经验交流会，会议仍沿用UPDATES的会名。计划1988年将在伊州的芝加哥，佐州的亚特兰大等城市召开同样性质的会议。",
+    "context6": "附表新增数据及特征数据库目录及内容",
+    "context7": "<table><tr><td rowspan=1 colspan=1>文档号</td><td rowspan=1 colspan=1>文档名称</td><td rowspan=1 colspan=1>改进的主要内容</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>PTS PROMT</td><td rowspan=1 colspan=1>每年增加8,00条日本信息：通过 PRNEWSWIRE文档可获得本文档15分钟内快速更新的内容。</td></tr><tr><td rowspan=1 colspan=1>570</td><td rowspan=1 colspan=1>PTS MARKETING &amp; ADVERTISINGREFERENCE SERVICE</td><td rowspan=1 colspan=1>从1987年8月起，改为月更新文档。</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>SPORTCAB ABSTRACTS</td><td rowspan=1 colspan=1>增加联机词表。</td></tr><tr><td rowspan=1 colspan=1>239</td><td rowspan=1 colspan=1>MATHSCI</td><td rowspan=1 colspan=1>增加了“现代数学出版物”与“统计学近期文献索引”两个子文档，并增加了一些新字段。</td></tr><tr><td rowspan=1 colspan=1>624</td><td rowspan=1 colspan=1>McGRAW-HILL Business Backgrounder</td><td rowspan=1 colspan=1>扩充了有关尖端工业7个主要出版物的全文文档。</td></tr><tr><td rowspan=1 colspan=1>480</td><td rowspan=1 colspan=1>UL RIC H&#x27;S International PeriodicalsDirectory</td><td rowspan=1 colspan=1>增加了新字段，并改为月更新文档。</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>INSPEC</td><td rowspan=1 colspan=1>提高了对化学与数值型数据的检索能力，相应增加了一些新的字段。</td></tr><tr><td rowspan=1 colspan=1>47</td><td rowspan=1 colspan=1>Books In Print</td><td rowspan=1 colspan=1>增加了对交叉文档出版商信息检索的功能。</td></tr><tr><td rowspan=1 colspan=1>450</td><td rowspan=1 colspan=1>Publis hers Distributors and Wholesales</td><td rowspan=1 colspan=1>同47号文档。</td></tr><tr><td rowspan=1 colspan=1>262</td><td rowspan=1 colspan=1>Canadian Business &amp; Current Affairs</td><td rowspan=1 colspan=1>增加了加拿大对外关系子文档。</td></tr><tr><td rowspan=1 colspan=1>261</td><td rowspan=1 colspan=1>PTS NPA/PLUS</td><td rowspan=1 colspan=1>扩展了有关商务活动事务收集的范围。</td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1>Micrcsom puter Index</td><td rowspan=1 colspan=1>增加了检索新开发的软、硬件名称的字段。</td></tr><tr><td rowspan=1 colspan=1>OAG</td><td rowspan=1 colspan=1>OAG Electronic Edition</td><td rowspan=1 colspan=1>增加了对游览或空位折扣乘机等信息进行检素的可能性。</td></tr></table>"
+  }
+}

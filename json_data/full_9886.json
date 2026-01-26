@@ -1,0 +1,70 @@
+{
+  "original_filename": "full_9886.md",
+  "近年来国外基于语义Web的数字图书馆研究进展": {
+    "context1": "侯集体程慧荣鲁东大学图书馆烟台 264025",
+    "context2": "[摘要]以基于语义Web的数字图书馆为研究对象，从国外典型的基于语Web数字图书馆原型系统以及语义Web的数字图书馆在底层系统架构、信息描述与信息组织、信息搜索与浏览、信息交流与共享等方面入手，系统梳理国外学者近年来在此方面的研究成果，指出将语义Web引入到数字图书馆领域，进一步提升数字图书馆的服务水平，是国外图书馆界近年来较为关注的问题。",
+    "context3": "[关键词]本体语义Web数字图书馆 [分类号]G250.76",
+    "context4": "Rev iew of Researches on D igitalL ibrary based on Sem an tic W eb Abroad   \nHou Jiti Cheng Huirong   \nLibrary ofLudong University; YanTai 264025",
+    "context5": "[Abstract]Basedonhestudyofdigitallbrarywith semanticWebthepapersystematicallydiscusses thecurrentresearchesabrad frmtheaspects ncdngsystemarchitectureinfomationdescriptionandinmationoganzatinnfmationretrevalandifomation browsing infomationcommuncationand nfmatin sharingfordgitallibrarybased osemanticWebAnd itpointsout thatresearchers abroad fcuson inprovinginfomationserviceofdgitalibarythrough introducingsmanticWebintodigitallbrarycommunity [K eywords] ontobgysemantic Webdigital library"
+  },
+  "1引言": {
+    "context1": "语义Web是现有Web的扩展,信息被赋予明确的含义，更有助于计算机之间以及计算机与用户之间的协同工作。其思想是采用一种全新的方式来定义和链接Web数据，使其在各种不同的应用场景中有效地实现数据的发现、自动化处理、集成与复用。只有Web不仅成为人类共享信息的场所，也成为自动化工具进行信息加工和共享的场所时，才是真正意义上的语义$\\mathrm { { W } \\ e b _ { \\mathrm { { \\ell } } } }$ 近年来,国外基于语义Web的数字图书馆研究持续升温，笔者将通过介绍国外几个典型的基于语义Web数字图书馆原型系统，了解其在底层系统架构、信息描述与信息组织、信息搜索与浏览、信息交流与共享等几个方面的研究进展,探讨数字图书馆如何受益于语义Web技术。"
+  },
+  "2基于语义Web的数字图书馆原型系统 介绍": {
+    "context1": "语义Web数字图书馆运用语义Web技术为数字图书馆提供了新的信息组织与处理能力，通过本体揭示元数据的语义、动态加工提取、组织信息知识，在各个应用领域或不同信息系统间有效实现无缝交换、虚拟集成和互操作性。下面简要介绍几个国外典型的语义数字图书馆原型系统，以此了解基于语义Web的数字图书馆底层系统架构的研究概况。"
+  },
+  "2.1Talia": {
+    "context1": "Talia是一个分布式语义数字图书馆系统，该系统针对人文社科领域的学术研究需求而设计，并将数字档案管理系统的特点与在线同行审议制度结合在一起,因此，它既具有数字图书馆的功能,同时也具有电子出版系统的功能。Talia数字图书馆原型系统最具创新的一点是,它完全基于语义Web技术，采用语义",
+    "context2": "Web软件工具和应用程序，实现了文献资源数据深层次上的互操作;尤其是，Talia知识库以RDFS/OWL本体描述。",
+    "context3": "基于Talia的语义数字图书馆可以加入Talia联盟，成为2P数字图书馆互联网络上的一个节点。Talia还具有基于OpenID的单点登录机制，联盟既可以运行他自己的OpenID身份服务器，也可以选择依存于任何现有的外部服务。Talia的工作环境是基于Web并且易于使用，该环境将分散在各处的不同桌面和基于Web的工具集成在一起。这些工具包括对XML的标记和转换、图像音频分析、文本语言分析、手稿批注、电子版编辑等等。此外，Talia的窗口组件允许扩展核心引擎，并易于将这些工具整合到基础底层架构中。"
+  },
+  "2.2JermeDL": {
+    "context1": "Jem oeDL[2] （e-Library with Semantics）由 Gdansk大学图书馆和 DERI（D igital En teiprise Research Institu\"te)国际组织联合开发，是一个完全开源的社交语义数字图书馆系统。该系统设计语言以J2EE平台为基础，确保了系统的稳定性和可扩展性。同时，利用语义Web技术和社交网络技术，改进资源的浏览和搜索能力。更为重要的是，每个数字图书馆用户可以对自身感兴趣的图书、文章或其他的资源进行语义标注，而且用户之间可以共享各自的书签和标注。",
+    "context2": "JermeDL数字图书馆在传统数字图书馆的基础上,增加了语义Web的技术,利用 RDF、FOAF和本体等描述信息资源和元数据，以提升信息查找和浏览的有效性和易用性。JemmeDL体系架构由5部分组成：资源管理层、基于语义Web的搜索浏览层和基于FOAF用户模型管理层、实现互操作的数据通讯层、系统管理接口以及用户接口代理[3]。"
+  },
+  "2.3BRICKS": {
+    "context1": "整合文化知识服务资源建设[4]（Building ResourcesforIntegrated Cultural Know ledge ServicesBRICKS)是欧盟资助的一个项目，它是集成化、可升级、安全性高的开源软件系统，可透明访问分布式资源，支持多语言，易于安装和维护。BRICKS依托分布式开放结构，通过最大限度地重用已经存在的成果，减少开发和部署新服务的成本，同时通过消除不必要的需求来减少维护成本。BRICKS把全局语义技术视为革新过程，为了克服语言上和本体上的障碍而形成一致性协议，从而创建共享的知识空间。",
+    "context2": "BR ICKS基础结构是依托 Peer-toPeer（P2P）的没有中心服务器的分散结构，每一个安装BRICKS的成员机构就是分布式结构中的一个节点。BNode为内容和元数据管理提供可用的资源，BNode由组件bricks组成，bricks由Web Services组成,主要有三种bricks：基础bricks 核心bricks基本 bricks"
+  },
+  "2.4FEDORA": {
+    "context1": "灵活可扩展的数字对象仓储结构[3] （Flexible Ex-tensible D igital Object and Repository Architecture FE-DORA)是由AndrewW．Mellon基金会资助，由Virgin ia和Comell大学联合开发的遵守Mozilla协议的开源系统。Fedora是语义技术、知识库技术、企业技术和数据保存技术的集成应用。提供数字内容的创建、管理、出版、共享和保存的功能。可以作为学术和科学研究的工作平台，是 $\\mathrm { { W e b 2 . 0 } }$ 基础上的协作知识库系统。",
+    "context2": "FEDORA是一个三层结构的通用数字对象管理系统。最上层是管理和访问接口层，定义了系统的公共视图,构建于Web Services技术之上。中间层是内部服务层，包含管理子系统、安全子系统、访问子系统。底层是存储子系统，负责读写数字对象和数字对象元素。存储子系统需要负责实时请求和缓存分布的数据，FEDORA支持通过HTTP协议和 FTP协议访问分布式资源。"
+  },
+  "3基于语义的信息描述：语义标注": {
+    "context1": "信息描述是数字图书馆有效实现资源组织、资源检索和知识挖掘的重要前提。在语义Web技术的支撑下,数字图书馆的信息描述被赋予了一些新的特征。其中，将语义标注（sem antic annotation)引入到数字图书馆的信息描述中，应该是国外学者近几年来在此方面的研究聚焦点之一。",
+    "context2": "语义标注是文件数量增长及价值增加的重要方式。利用自然语言处理工具进行数字论文内容特征挖掘、采用标注论文获取文档中存储的相关信息、通过智能搜索系统进行知识的抽取是语义标注需要解决的重要问题。作者AbascallR等提出利用信息检索工具在数字图书馆中检索发现相关信息的方法[5]，并为数字文档的创建定义了一个特定结构。据此，文档中显著特征整合了新的元数据，定义了文档的语义结构，这为鉴别存储在数字图书馆中的科研论文中的语义部分提供可能。系统也进行了基于语义搜索和基于关键词或概念搜索效果比较，用此方法，用户可以获得一篇或数篇论文的相关片段。作者分析指出词性标注是引起语义缺失的根本原因，提出了以语义标注作为构建信息抽取规则的基础，设计了基于语义标注的MIE系统，并对标图文本试行信息抽取。抽取结果表明，基于语义标注的信息抽取方式有一定的可行性和适用性。目前，对出版发行的研究论文进行信息挖掘的工具有Google Scholar DBLP机构知识库、ACM门户以及IEEE数字图书馆等。这些服务提供对知识库的访问，允许用户搜寻论文及检索出版物的内容特征和外部特征信息，数字图书馆用户也有可能看到论文摘要和目前的引用情况。Cemo是一个基于软件编码分析技术的语义标注系统[6],它可以分析研究性和学术性的电子出版物，具体地说，该系统为那些需要处理大量研究文件的作者提供自动支持。",
+    "context3": "数字图书馆中的资源描述方法有多种，如传统的目录检索和全文索引，还有利用MARC21和BibTEX格式著录的书目数据描述。数字图书馆领域构建本体的另一个问题是其收藏的资源囊括人类所有领域，其本体必须能覆盖比较宽泛的范围。有学者以JermeDL原型系统为研究对象，指出该原型系统的核心本体需要普通高级别核心，以被用来捕获书目著录注释的精华本质,这与上层本体的概念相一致[7]。构建本体的关键点是DublinCore元数据，本体中DublinCore元数据的修改包括结构值的许可、关键词的定义、目录分类等。在JermeDL中,以RDF描述的信息资源与社交网络信息和用户模型相连接，以RDF格式标注信息是可行的，并易于同其他信息相连接。"
+  },
+  "4信息搜索与浏览": {
+    "context1": "以往图书馆是值得信赖的主要信息源，如今，网络正逐渐取代图书馆的位置，成为主要的信息提供者。但是从信息组织良好的图书馆到无组织、无监督管理的因特网，这转变引发了很多问题。理论上说可以从网上发现任何需要的信息，但实际上由于信息的泛滥，信息的发现犹如大海捞针一般。",
+    "context2": "有学者以语义数字图书馆原型系统JemmeDL为分析对象[8],指出该系统设计语言以J2EE平台为基础，确保了系统的稳定性和可扩展性。借助于RMI管理应用程序与系统相连，与此同时，其他数字图书馆和客户端应用程序与JermeDL通过SOAP扩展进行信息交流(通信），JemmeDL系统提供很多安全策略，以保障信息资源的获取。该数字图书馆系统运用语义Weh技术和标准的书目数据描述格式,以提升信息查找和浏览的有效性和易用性。同时也说明了如何将Dub-linCore和FOAF词汇表与众所周知的书目著录格式如MARC21和BibTEX相结合以达到更好的搜索结果。JermeDL是一完全开源的数字图书馆系统，以此为例说明数字图书馆内容管理如何得益于语义 $\\mathrm { \\nabla { W e b } ^ { [ 9 ] } }$ ，并对浏览和搜索功能进行评估，赋予了数字图书馆资源和用户档案语义描述，从而改进数字图书馆的可用性。此外，FOAFReam介绍的处理用户配置文件（用户兴趣)的基础架构，是提供共享网络书签和网络朋友对资源标注的手段。目前，该系统增强数字图书馆检索易用性的特征： $\\textcircled{1}$ 在原有的书目数据描述语言的基础上添加了本体的语义描述，增强了搜索运算法则的有效性；只要新用户的喜好度与他们朋友相似，就可以找到相似的资源，从而提高了搜索的准确度;而书签和标注功能，在浏览数字图书馆的目录时也非常有用。 $\\textcircled{2}$ 针对根据目前网络信息检索存在的查全率和查准率低的特点，提出一种个性化的局部上下文分析方法,以提高Web信息检索的性能。该方法通过设计一种客户端的用户兴趣挖掘模型，同时将用户兴趣模型与局部上下文分析方法相结合，克服了局部上下文分析的缺陷。实验结果显示，该方法能有效提高Web信息检索的查全率与查准率。",
+    "context3": "为了在数字图书馆和万维网中能够进行语义搜索，以获得更适宜的学习资源，介绍为学习对象的扩展描述而进行的努力[10],并介绍了利用本体在教育学领域中所取得的进一步优势。这些优势包括：语义浏览和学习对象内容的可视化;链接到其他不同在线资源时的高级搜索能力;当学习者和教育者在添加额外内容时，学习对象易于扩展;教育和教育领域内作为可利用的本体模型非常丰富。此外,在语义数字图书馆的查询方面，虽然数字图书馆中的信息越来越多地使用元数据标注，但是关于元数据结构的语义查询却很少能够解决。数字图书馆的内容和服务是两个重要方面，它们之间的相关能够产生额外的语义关系。本研究提出了一个内容和服务推理模型（CSM)[11],利用该模型得出内容和服务之间的15种关系，并定义了处理这些关系的函数。实验结果表明，CSM模型在内容和服务查询方面要优于传统关键词查询方法。数字图书馆应用CSM,在开发新的数字图书馆查询推理、图书馆资源发展计划和虚拟联合目录查询时，可以显著提高语义查询效率，减轻管理负荷。"
+  },
+  "5信息交流与共享": {
+    "context1": "当前传统数字图书馆的检索和浏览所依赖的机制"
+  },
+  "图书馆学理论研究": {
+    "context1": "是文本型搜索引擎，该方法对元数据的重要性和知识的共享都未能充分重视。简单的搜索返回太多繁杂信息，用户不得不进行必要的过滤;网页排名算法有助于网站,但不能简单应用于e-leaming学习的目标;此外，查看朋友的书架可以比阅读成千上万的图书或登陆网站更清楚地了解当前某一领域的发展情况。语义数字图书馆试图通过重建协作方法以共享知识。",
+    "context2": "有学者研究发现[12]，JermeDL图书馆利用语义Web技术和社交网络技术，改进资源的浏览和搜索能力。借助于语义Web技术和社交网络技术，每个数字图书馆用户可以给自己感兴趣的图书、文章或其他的资料进行语义标注，而且该用户可允许其他用户看到自己的书签和标注，并共享知识。用户可以评论资源的内容并对其他人的评论做出反应，以此方式创建出新的知识。利用RDF标准和技术描述过的数字图书馆中的资源，便于获取、交流和共享。",
+    "context3": "传统图书馆需要用户进行身份识别，以便为用户提供指定的资源。互联网上的数字资源易于复制，除了被保护的内容，读者不必进行身份的识别就可以阅读特定内容;然而,数字图书馆的读者却能从身份识别上获益颇多。注册读者可以对数字图书馆中的资源内容进行注释、评价和分类。在研究JermeDL有关内容后，国外学者指出，该系统的用户管理子系统，采用的是树形结构的书签管理模式[4],支持个人书架的创建(也称之为个人数字图书馆）。根据读者以前所读的书籍、书签、标注过的资源、评价过的资源等，可以推断出读者的兴趣所在，从而为读者推荐资源。为了管理数字图书馆中的用户模型，系统创建了FOAFReamA-PIFOAFReamAPI执行标准J2EE验证机制，它利用FOAF元数据，使在数字图书馆登记过的用户能够发现其他的用户并成为他的朋友，而且可以重用注册信息。基于用户模型描述的FOAF本体可以使用户与其他元数据连接，从而使用户模型和社交网络信息在搜索过程中可以自动被发现。JermeDL受益于在线社交网络技术，图书馆用户能够浏览朋友书签，并将它们链接到自己的结构里。读者创建的每个种别都有唯一的 ACL(access controllist),该名单对阅读和使用其类目的用户进行了限制，通过这种机制，构建同趣用户的社交网络，促进信息交流与共享。"
+  },
+  "6语义Web在数字图书馆的应用评估": {
+    "context1": "图书馆是答疑解惑的工具,馆员工作质量取决于所运用的工具。最近，语义Web技术和社交网络技术正被引进到数字图书馆领域，对数字图书馆使用的语义Web技术和社交网络技术进行综合评估，通过调查问卷对开源数字图书馆DSpace和语义数字图书馆JermeDL进行对比评估[13]。评估结果表明,使用语义技术和社交技术的数字图书馆有利于增强读者发现资源的能力。读者对语义数字图书馆的满意度要高于非语义数字图书馆，而且收集和运用知识的能力也高于非语义数字图书馆的用户。用户更加信赖语义数字图书馆所提供的问题解决方案，比如推荐，同时也信赖朋友所提供的信息。下一步的研究主要集中在提高自动推荐服务的准确度和现有方案的可用性。",
+    "context2": "无可否认，语义Web技术给数字图书馆带来许多益处。尤其是语义Web将有助于人们更加高效搜索相关信息，并给出更为有效的获取途径，有助于数字图书馆社区的用户信息共享。SEKT项目的关键目标是对语义Web技术在数字图书馆领域的应用进行评估。经过研究，作者指出[14],应用了语义Web技术的数字图书馆，其功能至少需要实现： $\\textcircled{1}$ 易于在网上获取大量相关信息内容，因此，数字图书馆应被扩展为包含相关网页并支持RSS订阅; $\\textcircled{2}$ 利用共同本体将来自 ABI和Inspec的书目记录数和网络信息进行整合; $\\textcircled{3}$ 书目元数据应使元数据更加丰富，比如：识别文本中指定的实体； $\\textcircled{4}$ 更佳的搜索精确度； $\\textcircled{5}$ 数字图书馆注册用户之间可以互相对网页进行注释并共享; $\\textcircled{6}$ 描述用户兴趣的用户档案应能支持新的应用程序，比如：可以搜索用户,并将相关信息推送给用户等。"
+  },
+  "7结语": {
+    "context1": "与传统的Web相比，语义Web将更有利于人类和机器的理解。将语义Web引入到数字图书馆领域，进一步提升数字图书馆的服务水平，是国内外图书馆界近年来较为关注的研究问题。与传统数字图书馆相比，基于语义Web的数字图书馆在底层系统架构、信息描述与信息组织、信息搜索与浏览、信息交流与共享方面,均具有一定的新颖性。需要指出的是,即使语义Web的开发与应用仍处于探索阶段，而且基于语义Web的数字图书馆也多是在原型系统的研制与试验阶段，但国外有关学者已经走得更远，这一切都为我国图书馆界进一步提升基于语义Web的数字图书馆的研究水平提供参照与借鉴。",
+    "context2": "（下转第115页）",
+    "context3": "对DataSetDataTable等的操作是一样的，因此，通过它设计出的Web Service能够提供统一的接口对外发布，不管其后台数据库是Oracle SQL Server等。设计出的Web Service部署在安装了W indows Server 2OO3操作系统的计算机上，该计算机必须安装 IIS和DNS组件，以便发布和解析Web Service站点。"
+  },
+  "5结语": {
+    "context1": "本文研究了各种异构资源整合的方法，并在此基础上提出了基于Web服务的分层次异构资源整合方案的模型及具体实现，使用该方案可以有效整合和充分利用了图书馆现有数据资源,为广大用户提供一个统一的数据库访问界面，从而达到了提升图书馆服务质量，促进数字图书馆建设的作用。",
+    "context2": "[作者简介]吴一平，女，1982年生，馆员，发表论文6篇。"
+  },
+  "参考文献：": {
+    "context1": "[1]M ichele B M ichele N, Hahn D,et al A semantic web powered distributed digital library system//Poceed ings ELPUB 2OO8 Confer ence on Electron ic Publish ing Canada 2OO8(7)：l3O—139.   \n[2]Kuk SWoroniecki T G zella A,et al The anatomy of a social se\" m an tic lib ra ry $[ 2 0 1 0 - 0 8 - 0 1 ]$ :http://www.contexta cl/medi $\\mathrm { a w i k i / i m a g e s } / 7 / 7 2 / \\mathrm { T h e }$ anatomy of a_ Social_Semantic_Digital Library pdf   \n[3]Fedora Development Team,Fedora open souice repository software W hite paper Fedora Pmject 2005. $[ 2 0 1 0 - 0 8 - 0 1 ]$ http:// www. irel-open ie/file $\\mathrm { \\ p h { p } / 2 }$ /FedoraW hitePaper pdf   \n[4]R isse T Knezevic P, MeghiniCet al The bricks infrastruc ture an overview. $[ 2 0 1 0 - 0 8 - 0 1$ ].http://www.Bs $\\mathrm { d e } / { \\sim } \\mathrm { r i s s e } / \\mathrm { p u b } /$ $\\mathrm { e v a 2 0 0 5 }$ pdf   \n[5]Abascal IR,RumplerB.Adaptive semantic annotations fora digit al library[2OlO-O8—Ol].htp://citeseerx ist psu edu/viewdoc/summary doi=10. 1 1. 94. 4267.   \n[6]N icola Z Nadzeya K,Mich L etal A lightweight appmach to se mantic annotation of research papers//Kedad Zet al(Eds): NLDB 2OO7.Verlag Berlin Heidelberg Spriger 2OO7: 61-72.   \n[7]K uk R.JEROMEDL-a digital library on the semantic eb [2010 -08—01]. htp//citeseerx ist psu edu/viewdoc/downloaddoi",
+    "context2": "$\\scriptstyle \\mathbf { \\left. \\begin{array} { l } { = 1 0 . \\mathrm { ~ 1 . ~ 1 ~ 1 0 2 . ~ } 8 2 9 0 \\& \\mathrm { r e p } = \\mathbf { r e p } 1 \\& \\mathrm { t y p e } = \\mathbf { p d f } } \\end{array} \\right. }$",
+    "context3": "[8]Sebastian R K．Advanced search and brow sing in digital libraries· [2010—O8—O1]. htp//citeseerx ist psu edu/viewdoc/downlad doi=10.1.1 99.6897& rep $_ { \\cdot } =$ repl& type= pdf   \n[9]Mark G,R itesh A Tawan B.Building richsemantic descriptions of leam ing activities to facilitate reuse in digital libraries Intemational Joumal on DigitalLibraries $2 0 0 7 ( 7 ) \\colon 8 1 - 9 7 .$   \n[10] Huang SH, Ke HR Yang W P. Enhancing semantic digital lib rary query using a con tent and seivice inference model(CSM).Infor mation Pocess and Management 20O5(4l)：891-908.   \n[ll]K uk SR Decker S Zieborak L Jerm eDL-Adding semantic W eb technolgies to digital libraries//Database and Expert System s Applications Berlin:Springer 2OO5.7l6—725.   \n[l2]K mk SR,Woroniecki TG zella A，et alJermeDL-a Seman tic D igital Library · $[ 2 0 1 0 - 0 8 - 0 1 ]$ . http//citeseerx ist psu edu/ viewdoc/downloaddoi=10.1 1.102.8290&rep=repl& type $=$ pdf   \n[l3]K ruk SRK ruk E Stank iew icz K.Evaluation of Sem antic and Social Technologies for D igitalLibraries//Christensen Dalsgaard B et al(Eds)：ECDL 2OO8.Berlin:Springer 2008. $7 4 - 7 7$   \n[14]Thurlow IDuck A,Davies JApplying semantic web technology in a digital library $[ 2 0 1 0 - 0 8 - 0 1 ]$ .http//kmi open ao uk/even ts/esw cO6 /posterpapers/FP44—Thurlow. pdf"
+  },
+  "（上接第40页）": ""
+}

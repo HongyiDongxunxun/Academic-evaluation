@@ -1,0 +1,158 @@
+{
+  "original_filename": "full_2570.md",
+  "合著者贡献率的国际文献回顾": {
+    "context1": "王红王全红",
+    "context2": "(大连理工大学图书馆，辽宁大连116024)",
+    "context3": "（摘要）本文对合著者贡献率的国际文献进行了回顾，分析了修正 Harmonic算法，CCA分配法，夏普里值法，Ab-index以及NBA算法等作者贡献分配率算法的优缺点。结果表明：修正Harmonic算法在评价作者贡献时仅仅区分第一作者，年长作者和其它作者，评价算法相对简单。CCA分配法通过常数K，调整了合著者之间的贡献分配，CCA算法合著者贡献率取值在Frac-tional和 Harmonic算法范围之间。夏普里值法通过界定具体的边际贡献细节确定某一作者在合著中的边际贡献，但计算过程复杂。Ab－index明确区分了第一作者，通讯作者和其它作者的贡献；提出了适合各年龄层次的作者区分度方法，易于操作。NBA算法贡献率分配指数随着学科不同而取不同的值。",
+    "context4": "（关键词）合著者；贡献率；文献回顾；Harmonic算法；CCA分配法；夏普里值法；Ab-index DOI:10.3969/j.issn.1008-0821.2016.05.011",
+    "context5": "（中图分类号）G354.2（文献标识码）A（文章编号）1008－0821（2016）05-0063-08"
+  },
+  "Review of Contribution of International Co - author Literature": {
+    "context1": "Wang HongWang Quanhong (Library，Dalian University of Technology，Dalian 116024，China)",
+    "context2": "(Abstract）This paper reviewed the literatures of co-author contribution，andthe advantagesand disadvantages of Harmonic，CCA，Shapley，Ab-indexand NBA methods.Findings showed that Harmonic methods onlydistinguished the firstauthor，senior authorand other authors．This method isrelativesimple.CCArelocatedthecontributionlevel through constant K．Shapleyvaluesolutionoriginated fromcooperativegametheory，anddivided benefits fromcooperation written byasetofauthors．Ab-indexclarifiedthecontributionsof thefirstauthor，correspondingauthor，andotherco-authors and the sharing of credit ina logical ratio．NBA contribution varied across different disciplines.",
+    "context3": "(Key words）co - authors；contribution；literature review；Harmonic； CCA；Shapley；Ab - index",
+    "context4": "随着合著现象的增多，如何对合著的贡献进行分配是近年来文献计量学研究的热点，目前合著贡献分配的方法有：",
+    "context5": "（1）完全分配法（WholeCounting），即合著者的贡献率都分配为1，而不考虑合著的排名或者贡献，目前AR-WU（世界大学学术排名Academic Ranking of World Univer-sities），ESI，SCI和Scopus数据库都采用这种方法。",
+    "context6": "(2）直接统计法（Straight Counting）：这种方法只统计第一作者或者通讯作者的贡献。Lotka在统计ChemicalAbstracts以及 Aurbach's Geschichtstafeln derPhysik 做倒数平方定律即洛特卡定律时，就采用了第一作者统计方法。",
+    "context7": "(3）Fractional Counting 法，即将合著者的贡献平均分"
+  },
+  "配，每个著者的贡献为作者合著人数的 $N$ 分之一。目前德国莱顿大学CWTW项目利用这种方法统计大学排名。": {
+    "context1": "以上几种方法尽管因为统计过程简单直接而被得到广泛使用，但是以上方法在实际统计的过程中被许多学者所质疑。例如Huang指出，由于完全统计法对于合著者的贡献不加以区分，实际上高估了（Inflate）合著的贡献，从而导致某些国家/机构的排名靠前，因此许多学者提出了对合著贡献进行合理分配的算法，并对高估率（InflationRate）进行了统计和计量。例如Egghe，Rousseau和Hooydonk针对完全统计法和分数统计法未考虑不同作者排名贡献率的不同，提出了Geometric Counting。Abbas同样针对合著署名的权重问题，提出了Arithmetic算法（以上算法在2014年《情报杂志》“基于ESI科学家计量方法的重新评估中”一文中有详细说明，这里不在赘述)。以上算法尽管考虑了作者贡献率以下3个方面的问题：",
+    "context2": "(1）一篇论文的贡献率是为所有合著者共享;(2）第一作者的贡献率最大，第 $i$ 个作者的贡献大于第 $i + 1$ 个作者的贡献率；(3）随着合著者数量的增加，作者相应的贡献率将减少。",
+    "context3": "但是上述算法并没有提及通讯作者的贡献率。随着目前科研研究深度越来越深入，越来越复杂，跨学科、跨领域共同合作成为科学发展的趋势之一。因此研究论文的署名，排名成为我们广大科研工作者经常面临的问题：例如谁应包括为作者，谁被致谢？通讯作者的定义及发表论文时如何体现各自的贡献？作者如何排名；排名标准是什么？如何对以上日益复杂的作者署名贡献率进行评估，是近两年来国际计量学领域大家比较关注的问题，主要观点如下："
+  },
+  "1作者贡献率分配方法介绍": "",
+  "1.1修正 Harmonic 算法": {
+    "context1": "Hodge and Greenberg在 Science 发表一篇短文，对DerekDe SollaPrice针对不同排名的科学家分配贡献比例一致提出质疑，他们提出了Harmonic算法，算法如下：Harmonic $\\dot { u } h$ author credit: $\\frac { \\frac { 1 } { I } } { \\left( 1 + { \\frac { 1 } { 2 } } + \\cdots { \\frac { 1 } { N } } \\right) }$ 2009年Hagen重提这一理论。随后在2014年Hagen又对 Har-monic算法做了修正。Hagen在统计来自于120个期刊，531篇论文的署名情况时发现，在531篇文献中，125位合著者是年长的作者，他们以通讯作者的身份署在最后。Hagen认为，这些年长的作者提出论文的整体思路，论文指定研究生完成各自方向的小综述，然后年长的作者作为通讯作者，负责与编辑部的一切通信联系和接受读者的咨询等。",
+    "context2": "因此，Hagen提出了第一作者和年长的通讯作者的贡献率为：",
+    "context3": "1st and senior author = 2(1 +(1/2) +\\*+. (1/N)) Midle author(i =1,-1) = 1+(1/2)++. (1/N)",
+    "context4": "尽管Hagen为了验证上述算法，对文献进行了实证研究，然而第一作者和通讯作者的署名原则可能因学科、国家和地区、课题组的习惯风气而异。因此以年龄来区分通讯作者和其它作者的贡献，无疑有失偏颇，尤其对于多机构合著的文献，通讯作者和第一作者通常是课题的总负责人，确定作者的署名基于平衡考虑各机构对研究工作的构思，设计，分析和撰写所做的贡献，而不是作者的年龄和声望，因此在评价作者贡献时仅仅区分第一作者，年长作者和其它作者，这种评价算法相对简单。"
+  },
+  "1.2CCA分配法": {
+    "context1": "Liu认为，合著者贡献分配应该基于两个原则：",
+    "context2": "原则1：除了通讯作者，排名 $r + 1$ 作者的贡献率应少于排名 $r$ 作者的贡献率；",
+    "context3": "原则2：对于排名 $r$ 的作者，其贡献率会随着合著者数量不同而不同。",
+    "context4": "Liu认为第一作者和通讯作者是一篇文章最重要的作者，因此，第一作者和通讯作者的贡献率相同，其它作者的贡献按排名降序排列。",
+    "context5": "第一作者和通讯作者的贡献为： $\\begin{array} { r l } { p _ { 1 s t r a n k } \\left( n \\right) } & { { } = } \\end{array}$ $\\frac { \\sum _ { r = 1 } ^ { n 1 s t r a n k } n ^ { \\frac { 1 } { k } } k ^ { \\left( 1 \\frac { 1 } { k } \\right) } } { n _ { 1 s t r a n k } }$ 其中， $k$ 为常数。第 $r$ 个作者的贡献为:p(r,n)=nkr(1-)。",
+    "context6": "将以上贡献标准化（Normalized），则第一作者（通讯作者）的贡献率分别为：p(n)n 第 $r$ 个作者的贡献为：p'(r,n)=p(n), 其中， $S _ { _ { p } } ( { \\boldsymbol { n } } ) \\ = \\ \\sum _ { r \\ = 1 } ^ { N } p ( { \\boldsymbol { r } } ,$ $n$ ）。我们发现，当 $k = 1$ 时，合著者的分配率等于Fraction-al Counting，当 $k = \\infty \\mathrm { ~ , ~ } p ^ { \\prime } \\big ( n , r \\big )$ 的值等于 Harmonic Counting算法。当 $k = 2$ 和3时，各个著者的标准化分配率如表1所示：",
+    "context7": "表1CCA作者贡献率分配",
+    "context8": "<table><tr><td rowspan=\"2\">计算方法</td><td rowspan=\"2\">合著者数 (N)</td><td colspan=\"9\">合著者排名</td></tr><tr><td>第一</td><td>第二</td><td>第三</td><td></td><td></td><td>第四</td><td></td><td>第五</td><td></td><td>第六</td></tr><tr><td rowspan=\"4\">Liu (当k =2)</td><td>2</td><td>0.586</td><td>0.414</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>0.438</td><td>0.310</td><td>0.253</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>0.359</td><td>0. 254</td><td>0.207</td><td></td><td></td><td>0.179</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>0.309</td><td>0.219</td><td>0.179</td><td></td><td></td><td>0.155</td><td></td><td>0.138</td><td></td><td></td></tr><tr><td rowspan=\"4\">Liu (当k =3)</td><td>2</td><td>0. 614</td><td>0.386</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>0.474</td><td>0.299</td><td>0. 228</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>0.399</td><td>0. 251</td><td>0.192</td><td></td><td></td><td>0.158</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>0.351</td><td>0. 221</td><td>0.169</td><td></td><td></td><td>0.139</td><td>0.120</td><td></td><td></td><td></td></tr></table>",
+    "context9": "通过表1，我们可以看出，Liu提出的算法具有以下特点：",
+    "context10": "(1) $K$ 为常数，可以调整合著者之间的贡献分配，当$k$ 的取值增大时，将会加大排名靠前的著者和排名靠后著者贡献率的差值。",
+    "context11": "(2）第 $i$ 个作者和第 $j$ 个著者的贡献率始终为（j:",
+    "context12": "$$\ni ) \\left( { 1 - \\frac { 1 } { k } } \\right) _ { \\circ }\n$$",
+    "context13": "(3）当 $k$ 为常数时，标准化的合著者贡献率取值在Fractional和Harmonic二种算法的取值范围之间（Fractional和Harmonic算法贡献率如表2所示)，因此Liu将之命名为混合贡献率分配法（Combined Credit Allocation，CCA）。",
+    "context14": "表2Fractional和Harmonic作者贡献率分配",
+    "context15": "<table><tr><td rowspan=\"2\">计算方法</td><td rowspan=\"2\">合著者数（N）</td><td colspan=\"7\">合著者排名</td></tr><tr><td>第一</td><td>第二</td><td></td><td>第三</td><td></td><td>第四</td><td>第五</td></tr><tr><td rowspan=\"4\">Fractional</td><td>2</td><td>0.500</td><td>0.500</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>0. 3333</td><td>0.3333</td><td>0.3333</td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>0.2500</td><td>0.2500</td><td></td><td>0.2500</td><td></td><td></td><td></td></tr><tr><td>5</td><td>0.2000</td><td>0.2000</td><td>0.2000</td><td></td><td>0.2000</td><td></td><td>0.2000</td></tr><tr><td rowspan=\"4\">Harmonic</td><td>2</td><td>0. 6667</td><td>0. 3333</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>0. 5455</td><td>0. 2727</td><td></td><td>0.1818</td><td></td><td></td><td></td></tr><tr><td>4</td><td>0.4800</td><td>0.2400</td><td></td><td>0.1600</td><td>0.1200</td><td></td><td></td></tr><tr><td>5</td><td>0.4380</td><td>0.2190</td><td>0.1460</td><td></td><td>0.1095</td><td>0.0876</td><td></td></tr></table>"
+  },
+  "1.3夏普里值法": {
+    "context1": "Shapley（夏普里值法）是夏普里1953年提出的多人合作博弈的情况下，成员利益的分配方法。假设成员 $a$ 独立完成可以获得100元收益， $b$ 成员独立完成可以获得60元收益，二个人合作完成则可以获得180元收益，则 $a$ 的边界效益为 $1 8 0 - 6 0 = 1 2 0$ 元，成员 $b$ 的边界效益为180-$1 0 0 = 8 0$ 元。也就是说，当 $n$ 个人从事某项活动时，成员的合作对每一位成员都能够带来更大的效益，而 Shapley值就是分配这个效益的一种方案[。经济主体通过合作关系构成联盟后，可以得到比不构成联盟时更多的收益，那么他们各自能从这增加的收益中分到多少，成为了博弈各方最为关心的问题之一。根据 Shapley理论，Radzik[提出了利益分配中博弈方的贡献率权重分配方法。Karpov在2014年Radzik的基础上，提出了分配作者贡献的算法[：$n$ 个成员构成了一个集合 $N$ ${ ( 1 , 2 \\cdots n ) }$ ，这其中的合著者 $S$ 组成集合， $S _ { j } \\in 2 ^ { N }$ ，作者贡献 $S _ { j }$ 为实数 $q _ { j } \\in R$ 。合著文献的作者贡献符合以下3个假设：",
+    "context2": "(1）Equal Weights Measure：即每位作者的贡献平均分配。算法如下：",
+    "context3": "$$\nv _ { 1 } \\left( s \\right) ~ = ~ \\sum _ { i = S } \\sum _ { j = 1 } ^ { m } { \\frac { S _ { j } \\cap \\left\\{ i \\right\\} } { S _ { j } } } q _ { j }\n$$",
+    "context4": "其中， $\\mid S _ { j } \\mid$ 为合著者数量。 $V \\left( s \\right)$ 为边际贡献值。",
+    "context5": "(2）Full Obligation Game：每位合著者都对文献的发表具有重要影响，缺少任一合著者会导致作品无法发表。算法如下：",
+    "context6": "$$\nV _ { _ 2 } ( S ) \\ = \\ \\sum _ { j = 1 } ^ { m } 1 _ { s _ { j } \\subseteq s } q _ { j }\n$$",
+    "context7": "这里，如果 $S _ { j } \\subseteq S$ ， $1 _ { S _ { j } \\subseteq S } = 1$ ，否则 $1 _ { s _ { j } \\subseteq s } = 0$ 。",
+    "context8": "(3）Full Credit Game：只有出现任一合著者，就会有文献发表，即合著者是文献发表的充分条件。算法如下：",
+    "context9": "$$\nV _ { 3 } \\left( S \\right) ~ = ~ \\sum _ { j = 1 } ^ { m } 1 _ { S _ { j } \\cap S \\neq \\phi } q _ { j }\n$$",
+    "context10": "接着，Karpov提出了作者i的边际贡献（Marginal Con-tribution）的 Shapley值，算法如下：",
+    "context11": "$$\n\\varphi _ { i } \\left( v \\right) \\ = \\frac { 1 } { n ! } \\sum _ { \\sigma } \\ \\mathsf { \\bar { b } } \\bigl ( S _ { \\sigma \\left( i \\right) } ^ { \\sigma } \\bigr ) \\ - v \\bigl ( S _ { \\sigma \\left( i \\right) 1 } ^ { \\sigma } \\bigr ) \\mathsf { I }\n$$",
+    "context12": "其中， $\\sigma$ 为成员 $i$ 在集合 $S$ 中的排列， $\\sigma \\left( i \\right)$ 为成员 $i$ 在集合中的排列位置，成员 $i$ 的边际贡献为 $v \\left( S _ { \\sigma ( i ) } ^ { \\sigma } \\right) - v$ $( S _ { \\sigma ( i ) 1 } ^ { \\sigma } )$ 。",
+    "context13": "以下以Full Obligation Game 算法3个例子为例，分别计算文献合著成员 $\\mathbf { a } , \\mathbf { b } , \\mathbf { c }$ 的贡献率。",
+    "context14": "假设作者 $\\mathbf { a } , \\mathbf { b } , \\mathbf { c }$ 的 $V _ { ( s ) }$ 值如表3所示：",
+    "context15": "表3ShapleyValue作者贡献分配举例",
+    "context16": "<table><tr><td>S</td><td>V1(s)</td></tr><tr><td>?</td><td>0</td></tr><tr><td>a</td><td>2</td></tr><tr><td>b</td><td>1</td></tr><tr><td>C</td><td>0</td></tr><tr><td>ab</td><td>4</td></tr><tr><td>a，c</td><td>3</td></tr><tr><td>b,c</td><td>1</td></tr><tr><td>abc</td><td>6</td></tr></table>",
+    "context17": "由Full ObligationGame算法的定义，我们可知作者排序 $a b c$ 的情况下， $a$ 的边际贡献 $v _ { 2 } \\left( \\left\\{ a \\right\\} \\right) = 2$ ，作者 $b$ 排在第二位， $b$ 的边际贡献为 $v _ { 2 } ( \\{ a , b \\} - v _ { 2 } ( \\{ a \\} ) = 4 - 2 = 2$ ，作者 $c$ 拍在第三位， $c$ 的边际贡献为 $v _ { 2 } ( \\{ c \\} ) = v _ { 2 } ( \\{ a , b , c \\}$ $- v _ { 2 } ( \\{ a \\} - v _ { 2 } ( \\{ b \\} ) = 6 - 2 - 2 = 2 \\quad$ 。同理在已知作者排序bac的情况下，作者 $b$ 排在第一位， $b$ 的边际贡献为 $v _ { 2 }$ $\\left( \\left\\{ b \\right\\} \\right) = 2$ ，作者 $a$ 排在第二位， $a$ 的边际贡献为 $v _ { 2 } \\left( \\left\\{ a , b \\right\\} \\right.$ $- v _ { 2 } \\left( \\left\\{ b \\right\\} \\right) = 4 - 1 = 3$ ，作者 $c$ 拍在第三位， $c$ 的边际贡献为 $v _ { 2 } \\left( \\left\\{ c \\right\\} \\right) = v _ { 2 } \\left( \\left\\{ a , b , c \\right\\} - v _ { 2 } \\left( \\left\\{ a \\right\\} - v _ { 2 } \\left( \\left\\{ b \\right\\} \\right) \\right) = 6 - 3 - 1 = 3 - 1 \\right) .$ 2。由此可知作者 $a$ 的 Shapley值为3.33，作者 $b$ 的 Shapley值为1.83，作者 $c$ 的 Shapley值为0.83。如表4所示。",
+    "context18": "表4ShapleyValue.贡献率计算方法",
+    "context19": "<table><tr><td>排列</td><td>作者a的贡献</td><td>作者b的贡献</td><td>作者c的贡献</td></tr><tr><td>abc</td><td>2</td><td>2</td><td>2</td></tr><tr><td>acb</td><td>2</td><td>3</td><td>1</td></tr><tr><td>bac</td><td>3</td><td>1</td><td>2</td></tr><tr><td>bca</td><td>5</td><td>1</td><td>0</td></tr><tr><td>cab</td><td>3</td><td>3</td><td>0</td></tr><tr><td>cba</td><td>5</td><td>1</td><td>0</td></tr><tr><td>Shapley值</td><td>3.33</td><td>1.83</td><td>0.83</td></tr></table>",
+    "context20": "Shapley值法不同于单独以作者排名的进行贡献率的分配方法，基于Shapley值法收益分配不是平均分配，而是根据合作者对文章的边际贡献进行分配，Shapley值法的优点在于其结果易于被各个合作方视为合理，分配方式灵活，结果容易被合作方接受[。另一方面，我们也看到，Sha-pley值分配法也存在一定的缺陷：在文章合作过程中每个成员都会贡献自身的知识并期望得到与贡献相称的排名分配方案，但由于知识分配的模糊性，因此很难精确确定某一作者在合著中的边际贡献和合著署名次序；其次，由于Shapley值需要确定每位合著作者的边际贡献，在合著者数量众多的情况下，计算过程复杂。以上缺点局限了Shapley值法在实际中的具体应用。"
+  },
+  "1.4Ab -index": {
+    "context1": "Biswal[提出了计量第一作者，通讯作者和其他作者的Ab-index方法。算法如下：",
+    "context2": "$i = p a _ { 0 } + \\left( a _ { 0 } - r \\right) + \\left( a _ { 0 } - 2 r \\right) + \\left\\{ a _ { 0 } - \\left( n - p \\right) r \\right\\}$ ，其中 $p$ 为第一作者加上通讯作者数目； $a _ { 0 }$ 为主要作者的贡献率； $r$ 为除主要作者，其它作者的降序比例数； $i$ 为文献的总贡献率。",
+    "context3": "将上式变化，可得： $i = n a _ { 0 } - { \\frac { \\left( n - p \\right) \\left( n - p + 1 \\right) r } { 2 } }$",
+    "context4": "对于 $( n - p + 1 ) ^ { t h }$ 个合著者来说， $a _ { 0 } - \\left( n - p + 1 \\right) r = 0$ ，由上式可得：r=(n -p+1)",
+    "context5": "由以上两式，可以得出： $a _ { 0 } = { \\frac { 2 i } { n + p } }$",
+    "context6": "假设 $x$ 为第一作者数， $y$ 为通讯作者数，上式可以写成： $a _ { 0 } = { \\frac { 2 i } { n + x + y } }$",
+    "context7": "第 $m$ 个作者的贡献率为： $a _ { { \\scriptscriptstyle m } } = a _ { 0 } - \\left( m - x \\right) r$",
+    "context8": "举例说明，假设一篇文献有3个合著者：第一作者，第二作者，第三作者是通讯作者。",
+    "context9": "由以上公式，可以得出， $a 1 = 2 i / 5$ ， $a 2 = i / 5$ ， $a 2 =$ $i / 5$ 。如表5所示。",
+    "context10": "Biswal提出，Ab-index不仅可以计算某一作者 $n$ 年贡献率和值，而且可以用于机构研究绩效的计算。例如假设某一作者在 $n$ 年内发表了 $T$ 篇文章，则 $T$ 篇文章的作者贡献率为 $\\sum _ { T = 1 } ^ { T } a _ { c } \\circ$ 一个机构的研究绩效（ $\\mathrm { p } _ { \\mathrm { r - i n d e x } }$ ）为机构内作者贡献率 $\\sum _ { T = 1 } ^ { T } a _ { c }$ 的之和。",
+    "context11": "从以上分析和计算可以看出，Biswal提出的作者分配率算法具有如下特点：",
+    "context12": "第一，明确区分了第一作者，通讯作者和其它作者的贡献；",
+    "context13": "第二，提出了适合各年龄层次的作者区分度方法；",
+    "context14": "第三，提供了免费的Java软件进行作者贡献率的计算，易于操作。",
+    "context15": "表5Ab-index作者贡献率分配\\*",
+    "context16": "<table><tr><td rowspan=\"2\">合著者数 (N)</td><td colspan=\"6\">合著者排名</td></tr><tr><td>第一</td><td>第二</td><td>第三</td><td>第四</td><td>第五</td><td>第六</td></tr><tr><td>2</td><td>0.50</td><td>0.50</td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>0.40</td><td>0.20</td><td>0.40</td><td></td><td></td><td></td></tr><tr><td>4</td><td>0.33</td><td>0.22</td><td>0.11</td><td>0.33</td><td></td><td></td></tr><tr><td>5</td><td>0.29</td><td>0.21</td><td>0.14</td><td>0.07</td><td>0.29</td><td></td></tr></table>",
+    "context17": "$^ *$ 第一作者和通讯作者相同，最后一位作者为通讯作者。"
+  },
+  "1.5NBA算法": {
+    "context1": "$\\mathrm { K i m } ^ { [ 1 5 ] }$ 指出：Fractional算法未能区分第一作者和其它作者的贡献，而Egghe的Geometric算法高估了第一作者的贡献率，其它作者的贡献率较低。Arithmetic的算法的缺点在于随着合著人数的增加，第 $r$ 个作者和第 $r + 1$ 个作者的贡献率比值也随之变化。尽管Harmonic算法解决了随着合著人数的增加，第 $r$ 个作者和第 $r + 1$ 个作者的贡献始终为$r + 1 : \\ r _ { \\mathrm { ~ \\normalfont ~ { ~ c ~ } ~ } }$ 。从这一点看，Harmonic 算法优于Fractional，Geo-metric和Artihmetic算法。但是以上算法有一个共同的缺点：没有考虑在不同学科领域，著者贡献的分配率不尽相同。因此， $\\operatorname { K i m }$ 提出了著者贡献率的分配原则：",
+    "context2": "第一，著者的贡献率随着署名顺序递减；",
+    "context3": "第二，每一位著者贡献率为文献的价值除以文献合著者数量，这里文献的价值设定为1；",
+    "context4": "第三，排名靠后的作者将他贡献的一部分均分给排名在他之前的每一位作者。假设一篇文献由三位作者合作发表，排名第三的作者将他的贡献率（ $1 / 2 ^ { * } 1 / 3 = 1 / 6$ ）均分给前两位作者，这里， $\\operatorname { K i m }$ 提出了贡献率分配指数 $d$ 。",
+    "context5": "假设一篇文章的合著者数量为N，每个作者的贡献率为 $v = 1 / N$ ， $V t$ 为转移贡献（Transferable Credit）， $d$ 为贡献率分配指数（Distribution Factor）。",
+    "context6": "$$\n\\boldsymbol { v } _ { t } = d \\times \\boldsymbol { v } \\qquad \\left( 0 \\leqslant d \\leqslant 1 \\right)\n$$",
+    "context7": "第一作者的贡献率为：",
+    "context8": "$$\nv _ { r } ^ { N } \\ = v \\ + v _ { t } \\sum _ { n = 1 } ^ { N - r } { \\frac { 1 } { \\left( N - n \\right) } } \\left( r \\ = 1 , 2 \\leqslant N \\right)\n$$",
+    "context9": "第 $r$ 个作者的贡献率为：",
+    "context10": "$$\nv _ { r } ^ { N } \\ = \\ \\left( v - v _ { t } \\right) \\ + v _ { t } \\sum _ { n = 1 } ^ { N - r } { \\frac { 1 } { \\left( N - n \\right) } } \\quad \\left( 1 \\ < r \\ < N , 2 \\leqslant N \\right)\n$$",
+    "context11": "最后一位作者的贡献率为：",
+    "context12": "$V _ { r } ^ { N } = v - v _ { t }$ $( r = N , ~ 2 \\leqslant N )$ ，如表6所示。",
+    "context13": "Kim认为，基于贡献率分配指数（Distribution Factor）进行著者贡献分配的算法有如下优点：第一，即使对于同一作者来说，由于贡献率分配指数不同，作者的分配率也有可能不同，因此，该算法具有非常高的灵活度。第二，贡献率分配指数随着学科不同而取不同的值。贡献率分配指数越小，作者贡献分配差值越小，贡献率分配指数越大，作者贡献分配差值越大（见表6）。如果 $d = 0$ ，意味着作者之间不存在贡献转移，因此，贡献率分配算法与Faction-al算法一致。",
+    "context14": "表6NBA算法作者贡献率分配",
+    "context15": "<table><tr><td rowspan=\"2\">计算方法</td><td rowspan=\"2\">合著者数 (N)</td><td colspan=\"8\">合著者排名</td></tr><tr><td>第一</td><td>第二</td><td>第三</td><td></td><td>第四</td><td>第五</td><td></td><td>第六</td><td></td></tr><tr><td rowspan=\"4\">d =0.00</td><td>2</td><td>0.50</td><td>0.50</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>0.33</td><td>0.33</td><td>0.33</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>0.25</td><td>0.25</td><td>0.25</td><td></td><td>0.25</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>0.20</td><td>0.20</td><td>0.20</td><td></td><td>0.20</td><td></td><td>0.20</td><td></td><td></td></tr><tr><td rowspan=\"4\">d=0.30</td><td>2</td><td>0. 65</td><td>0.35</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>0.48</td><td>0.28</td><td>0.23</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>0.39</td><td>0.24</td><td>0.20</td><td></td><td>0.18</td><td></td><td></td><td></td></tr><tr><td>5</td><td>0.33</td><td>0.21</td><td>0.18</td><td></td><td>0.16</td><td>0.14</td><td></td><td></td></tr><tr><td rowspan=\"4\">d =0.50</td><td>2</td><td>0.75</td><td>0.25</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>0.58</td><td>0.25</td><td>0.17</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>0.48</td><td>0.23</td><td>0.17</td><td></td><td>0.13</td><td></td><td></td><td></td></tr><tr><td>5</td><td>0.41</td><td>0.2</td><td>0.16</td><td></td><td>0.13</td><td>0.10</td><td></td><td></td></tr><tr><td rowspan=\"4\">d =0.80</td><td>2</td><td>0.90</td><td>0.10</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>0.73</td><td>0.20</td><td>0.07</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>0. 62</td><td>0.22</td><td>0.12</td><td></td><td>0.05</td><td></td><td></td><td></td></tr><tr><td>5</td><td>0.53</td><td>0.21</td><td>0.13</td><td>0.08</td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=\"4\">d =1.00</td><td>2</td><td>1. 00</td><td></td><td></td><td></td><td></td><td>0.04</td><td></td><td></td></tr><tr><td>3</td><td>0.83</td><td>0.00</td><td>0.00</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>0.71</td><td>0.17 0.21</td><td>0.08</td><td></td><td>0.00</td><td></td><td></td><td></td></tr><tr><td>5</td><td>0.62</td><td>0.22</td><td>0.12</td><td></td><td>0.05</td><td>0.00</td><td></td><td></td></tr></table>",
+    "context16": "$\\operatorname { K i m }$ 称这种作者贡献率的分配算法为NBA（NetworkBased Approach）算法。",
+    "context17": "尽管上述模型提供分配作者贡献的情况，但是没有考虑下述情况：",
+    "context18": "首先，在很多学科领域，有两个以上作者并列为第一作者；",
+    "context19": "其次，很多通讯作者虽然不是第一作者，但是他们是课题负责人，承担课题设计，和实验数据分析。同时也是文章和研究材料联系人，因此他们的贡献和第一作者贡献不相伯仲。",
+    "context20": "因此 $\\operatorname { K i m }$ 针对以上现象，对NBA算法做了修正：",
+    "context21": "第一，如果在论文标注中，声明通讯作者或最后一名作者贡献大于第一作者的贡献，则通讯作者或最后一名作者的位置排在第一位，原第一作者排在第二位，其它顺延。",
+    "context22": "第二，如果在论文标注中，声明通讯作者或最后一名作者对论文的贡献要大于第一作者，而小于其它作者的贡献，则原第一作者排在第一位，通讯作者或最后一名作者排在第二位，其他作者排名顺延。",
+    "context23": "在以上两种情况下，NBA算法不需要进行修正，但是还有一种情形：通讯作者或末位署名作者和第一作者的贡献率相同。在这种情况下，每一位声明和第一作者贡献率相同的作者都和第一作者贡献率进行均分，其他作者排名顺延。",
+    "context24": "为了验证NBA算法的可靠性，Kim利用失拟分析(Lack of Fit）对经济学、市场学、心理学、化学和生物医学学科作者贡献率进行了实证分析，失拟分析的计算方法为：",
+    "context25": "$$\nL a c k ~ o f f i t ~ = \\frac { 1 } { n - 1 } \\sum ~ \\frac { ( \\mathit { \\varepsilon } _ { E } - C ) ^ { 2 } } { C }\n$$",
+    "context26": "其中， $E$ 为实证值， $C$ 为 NBA算法预测值， $n$ 为样本数。通过实证分析， $\\operatorname { K i m }$ 发现，可以根据学科调整贡献率分配指数 $d$ ，从而达到模型最优化。例如，对于经济学科 $d$ 取值0.25，市场学 $d$ 取值0.23，心理学， $d$ 取值0.30，化学， $d$ 取值0.51，生物医学， $d$ 取值 $0 . 5 9$ 。 $\\operatorname { K i m }$ 最后得出结论，正是由于 $d$ 取值的灵活性，使得这个模型优于其它"
+  },
+  "算法。": {
+    "context1": "但是我们也发现NBA算法存在以下缺点：首先，尽管$d$ 取值灵活，但是不同学科如何调整 $d$ 的取值作者并没有在文献中进行进一步的说明；其次，尽管一些期刊在投稿指南中补充类似利益冲突和作者贡献的声明，但这些内容往往不刊出，并且也不是强制性要求，因此有时我们无从判断第一作者，通讯作者以及末位作者之间的贡献率的大小。因此，NBA算法在实际应用中具有操作困难等缺点。",
+    "context2": "各个算法特点描述情况见表7。",
+    "context3": "表7各个算法特点描述",
+    "context4": "<table><tr><td>算法名称</td><td>算法提出者</td><td colspan=\"2\">计算方法</td><td>算法特点 第一，以年龄来区分通讯作者和其它作者</td></tr><tr><td>修正Harmonic算法</td><td>Hagen</td><td colspan=\"2\">1st and senior author = 2(1 + (1/2) +* +* (1/N)) 1 +(1/2) Middle author(i =1,…·N-1) = 1 1/i + 1 1+ (1/2)+ + (1/N)</td><td>的贡献；第二，对于多机构合著的文献， 确定作者的署名基于平衡考虑各机构对研 究工作设计和撰写所做的贡献，而不是作 者的年龄和声望，因此在评价作者贡献时 仅仅区分第一作者，年长作者和其它作</td></tr><tr><td>CCA分配法</td><td>Liu</td><td>Pist rank (n） =</td><td>nlst rank n(1÷） 1 n1st rank</td><td>者，这种评价算法相对简单。 第一，K为常数，可以调整合著者之间贡 献分配，当k取值增大时，将会加大排名 靠前的著者和排名靠后著者贡献率差值； 第二，当k为常数时，标准化合著者贡献 率取值在Fractional和Hamonic二种算法 取值范围之间。</td></tr><tr><td>夏普里值法</td><td>Karpov</td><td colspan=\"2\">1 M b(s(i)）-v(Sg(i))] i(u）= n！ σ</td><td>第一，结合作者排名和作者的边际贡献来 确定贡献的比值，分配方式公平、灵活 性；第二，由于合著和署名次序的复杂性 和模糊性，很那确定某一作者在合著中的 边际贡献，在合著者数量众多的情况下， 计算过程复杂。</td></tr><tr><td>Ab-index</td><td>Biswal</td><td>i=pao+(ao-r)+(ao-2r)+{ao-(n-p)r}</td><td></td><td>第一，明确区分了第一作者，通讯作者和 其它作者的贡献；第二，提出了适合各年 龄层次的作者区分度方法；第三，提供了 免费的Java软件进行作者贡献率的计算， 易于操作。</td></tr><tr><td>NBA算法</td><td>Kim</td><td>M v 1 =v+v (N-n) M 1 v,=(v-v）+vt） (N-n) n=1</td><td>(r = 1,2 ≤N) (1 &lt; r &lt; N,2 ≤N)</td><td>第一，即使对于同一作者来说，由于贡献 率分配指数不同，作者的分配率也有可能 不同，因此，该算法具有非常高的灵活 度；第二，贡献率分配指数随着学科不同 而取不同的值。贡献率分配指数越小，作 者贡献分配差值越小。</td></tr></table>"
+  },
+  "2实证分析": {
+    "context1": "以上算法详细列出了各个作者的贡献的计算方法，为了更直观了解各个算法计算方式不同，本文以ESI计算机学科的5位科学家为对象，通过下载5位科学家的被引数据，将各个算法的分配情况代入数据中，获得5位科学家新的排名情况（由于无法判断各个作者的边际效益，因此夏普里值法未被统计）。",
+    "context2": "5位科学家Watanabe CK，Waterhouse AM，WEIR JT和WiggintonJE在ESI数据库中都发表了一篇高被引论文，按照ESI作者发文数排名，各位科学家并列排名为3044～3047，作者发文和通讯作者标示如表8所示：",
+    "context3": "表8ESI科学家发文和作者排名情况",
+    "context4": "<table><tr><td>ESI排名</td><td>作者</td><td>题 目</td><td>作者排名（通讯作者标红*）</td></tr><tr><td>3044</td><td>Watanabe CK</td><td>GMAP:a genomic mapping and alignment program for mRNA and EST sequences</td><td>WU TD*；Watanabe CK</td></tr><tr><td>3045</td><td>Waterhouse AM</td><td>Jalview Version 2—a multiple sequence alignment editor and analy-Y sis workbench</td><td>Waterhouse AM；Procter JB；Martin DMA；Clamp M；Barton GJ*</td></tr><tr><td>3046</td><td>Weir JT</td><td>GEIGER：investigating evolutionary radiations</td><td>Harmon LJ*；Weir JT；Brock CD; Glor RE；Hallenger W</td></tr><tr><td>3047</td><td>Wigginton JE*</td><td>PEDSTATS:descriptive statistics，graphics and quality assessment for gene mapping data</td><td>Wigginton JE*；Abecasis GR</td></tr></table>"
+  },
+  "根据以上算法，作者获得的分值情况如表9所示：": {
+    "context1": "表9根据各个算法作者发文和排名情况分配的作者贡献率一览表",
+    "context2": "<table><tr><td>ESI</td><td>Straight Counting</td><td></td><td>Fractional Geometric Arithmetic Harmonc</td><td></td><td></td><td>修正 Har</td><td>Cca （ =2)</td><td>Cca （k =3)</td><td>Ab - index</td><td>Nba d=0.3</td><td>Nba d=0.5</td><td>Nba d=0.8</td><td>作者</td></tr><tr><td>1</td><td>0</td><td>0.5</td><td>0.33</td><td>0.33</td><td>0.33</td><td>0.44</td><td>0.41</td><td>0.39</td><td>0.5</td><td>0.35</td><td>0.25</td><td>0.10</td><td>Watanabe CK</td></tr><tr><td>1</td><td>1</td><td>0.2</td><td>0.52</td><td>0.33</td><td>0.43</td><td>0.33</td><td>0.31</td><td>0.35</td><td>0.29</td><td>0.27</td><td>0.31</td><td>0.37</td><td>Waterhouse AM</td></tr><tr><td>1</td><td>0</td><td>0.2</td><td>0.26</td><td>0.27</td><td>0.21</td><td>0.15</td><td>0.22</td><td>0.22</td><td>0.21</td><td>0.21</td><td>0.2</td><td>0.21</td><td>Weir JT</td></tr><tr><td>1</td><td>1</td><td>0.5</td><td>0.67</td><td>0.67</td><td>0.67</td><td>0.5</td><td>0.57</td><td>0.62</td><td>0.67</td><td>0.65</td><td>0.75</td><td>0.90</td><td>Wigginton JE*</td></tr></table>",
+    "context3": "由上表的比较，我们可以看出算法存在以下特点：",
+    "context4": "第一，由于WiggintonJE既是第一作者又是通讯作者，因此无论哪种算法，Wigginton JE的排名都最高。",
+    "context5": "第二，对于StraightCounting算法，作者贡献率只有0和1两个数值，算法过于简单。对于Fractional算法，作者贡献率均分，因此WatanabeCK和WiggintonJE的贡献率一样，WaterhouseAM和WEIRJT的贡献率一样，显然，这对于排名第一Waterhouse AM和Wigginton JE有失偏颇。",
+    "context6": "第三，Geometric，Arithmetic和Harmonc 算法由于没有区分第一作者和通讯作者的贡献，因此当只有二位作者时，3种算法的值相同，因此，WatanabeCK在3种算法下贡献率相同，WiggintonJE在3种算法下贡献率也相同。",
+    "context7": "第四，对于CCA算法来说， $k$ 越大，靠后的作者的贡献率越小，因此，当WatanabeCK是第二作者时， $k = 3$ 时的贡献率小于 $k = 2$ 时的贡献率。",
+    "context8": "第五，对于Ab-index 算法，虽然Watanabe CK既不是第一作者又不是通讯作者，但是仍然被赋予了0.5的贡献率，因此Ab-index在计算二位合著者贡献率时存在缺陷。",
+    "context9": "第六，Harmonic算法没有考虑通讯作者的贡献，修正Harmonic虽然考虑了通讯作者的贡献，但是在实际计算时，需要考虑年龄的因素对实际贡献率的影响，因此统计过程复杂。",
+    "context10": "第七，由于NBA算法对于第一作者和通讯作者赋予了较高的权重，因此WatanabeCK尽管在合著中排名第二，但是 $d = 0 , 8$ 时，贡献率被赋予了较低的分值。由此可见，虽然 $\\operatorname { K i m }$ 声称 $d$ 取值灵活，但是当 $d$ 越大时，第一作者权重越高。 $d = 1$ 时，末位作者的贡献为零，因此，在进行作者贡献评价时， $d$ 需要赋予一个恰当的值。"
+  },
+  "3结语": {
+    "context1": "尽管以上算法按照作者的排名和贡献详细列出了各个作者的贡献，然而在实际应用中，作者贡献率排名算法面临以下困难："
+  },
+  "3.1如何计算团体作者中每个作者的贡献率": {
+    "context1": "随着科学的发展，一些科研项目如气候学、生物基因学需要学术团体之间合作才能完成。因此一篇论文的署名人数也越来越多，一些国际合作研究项目，论文的署名人数有几十人甚至几百人。例如发表在2001年Nature上的Initial sequencing and analysis of the human genome 一文，作者署名达243个，作者机构共53个，2005年发表在Nature上的 The map -based sequence of the rice genome 一文作者署名达260个，作者机构32个，2005年发表在Physical Re-view Leters 上的 Combined Measurement of the Higgs BosonMass in pp Collisions at sqrt $\\boxed { \\begin{array} { r l } \\end{array} } = 7$ and 8 TeV with the ATLASand CMSExperiments一文作者署名达5154名。文章篇幅为33页，其中只有7页内容与真正的科学研究有关，2页刊载了参考文献，15页刊载了作者署名，9页刊载了作者研究机构名称。上述Harmonic算法，CCA分配法等方法由于计算过程复杂，无法用于团体作者中单个著者贡献率计算，因此需要更科学的算法对上述复杂的团体作者署名问题进行贡献率分配，客观计算每位作者的贡献。"
+  },
+  "3.2如何计算过多共同第一作者和通讯作者贡献": {
+    "context1": "我们在浏览期刊论文时，在作者简介栏经常有介绍性的说明“these authors contributed equally to these work”，说明对于多位作者对该文的贡献相当。例如2004年发表在The journal of biological chemist 上“Efficient intracellular de-livery of a protein and a low molecular weight substance via re-combinant polyomavirus- like particles”一文，一共有10 位并列第一作者。如果作者真正在某研究领域开展了实质性的合作，且多位作者对文章的贡献无法区分，并列作者也无可非议。然而目前对涉及多个合作单位并列第一作者（通讯作者）与同一研究机构的研究人员采用并列第一作者（通讯作者）的方式时统计贡献率是否应采用相同的计算方法争议比较大。目前国内某些院校在职称评定时，采用的办法是提交按照期刊影响因子的高低来分配作者贡献：例如，当IF小于某一系数时，共同第一作者只统计第一位作者贡献；当IF影响因子在某一系数区间时，计算共同第一作者的前两位的贡献；当IF大于某一系数时，只计算共同第一作者的前三位的贡献。并且当并列作者来自于不同研究机构时，计算并列作者贡献，当并列作者来自同一机构时，只计算署名在前的并列作者贡献。科研固然需要合作，因为每个人的能力都是有限的，共同合作可以实现双赢。然而过多并列作者然似有滥用署名权之嫌，容易成为滋生学术不端的行为。"
+  },
+  "3.3如何对按照作者姓氏字母的署名顺序的论文计算各位作者的贡献率": {
+    "context1": "当一般论文由导师提出问题并提供解决思路，学生实验或仿真验证，如果有效，由学生撰写论文，导师修改并提出改进要求，学生修改后投稿。在论文发表时，按照作者姓氏的字母顺序来安排论文署名情况，这种情况下，双方的贡献度如何计算？由于对一篇论文的贡献大小是很难量化，因此上述Harmonic 算法，CCA分配法，夏普里值法，Ab-index以及NBA算法并不适用于按字顺署名的作者贡献分配。",
+    "context2": "由此可见，修正Harmonic算法，CCA分配法，夏普里值法，Ab-index以及NBA算法区分了作者署名和通讯作者对文章贡献的大小，但在实际操作中也往往会受到各种的因素影响。为了避免出现以上问题，很多目前期刊在文章里都要求作者客观填写每位作者的贡献。期刊详细描述每位作者的贡献的规避了可能产生的学术道德风险和著作权争议。随着科研合作的增多，错综复杂的署名贡献率分配将会引起更多学者的关注和讨论。"
+  },
+  "参考文献": {
+    "context1": "[1]I K.Ravichandra Rao Professor & Head.Distributions of Multiple",
+    "context2": "Authors: A Case Study of two Journals（JASIST and Scientometrics［J]．Collnet Journal of Scientometrics & Information Management，2008，2（1)：27-36.   \n[2]Waltman，L.et al.．The Leiden Ranking 2011/2012:Data collection，indicators，and interpretation [J]．Journal of the American Society for Information Science and Technology，2012，63 (12): 2419-2432.   \n[3]Huang M H,Lin C S，Chen D Z. Counting methods，country rank changes，and counting inflation in the assessment of national research productivity and impact [J]．Journal of the Association for Information Science& Technology，2011，62（12)：2427-2436.   \n[4]Egghe，L.，Rousseau，R.，& Van Hooydonk，G.Methods for accrediting publications to authors or countries:Consequences for evaluation studies[J]．Journal of the American Society for Information Science，2000，51（2)：145-157.   \n[5]Abbas，A. M..Weighted indices for evaluating thequality of research with multiple authorship [J]．Scientometrics，2011，88 (1):107-131.   \n[6]Hodge SE，Greenberg DA Publication credit[J]．Science, 1981,213:950.   \n[7]Hagen，N.T..Harmonicpublication andcitationcounting:sha ring authorship credit equitably - not equally，geometrically or arithmetically[J]．Scientometrics，2010，84（3)：785-793.   \n[8］Hagen N T. Counting and comparing publication output with and without equalizing and inflationary bias［J]．Journal of Informetrics，2014，8（2):310-317.   \n[9]Liu X Z，Fang H.Fairlysharing the credit of multi -authored papers and its application in the modification of h- index and g - index[J]．Scientometrics，2012，91（1)：37-49.   \n[10］李纲．Shapley值在知识联盟利益分配中的应用［J]．情报 杂志，2010，2（2)：115-117.   \n[11]Radzik T.A new look at the role of players'weights in the weighted Shapley value [J]．European Journal of Operational Research, 2012,223 (2): 407-416.   \n[12]Karpov A.Equal Weights Coauthorship Sharing and Shapley Value are Equivalent[J]．Journal of Informetrics，2012,8（1)：71-76.   \n[13]Tol R S J. Shapley values for assessing research production and impact of business schools and scholars[J]．Scientometrics, 2012，90 (3): 763-780.   \n[14]Biswal A K.An Absolute Index（Ab- index）to Measure a Researcher's Useful Contributions and Productivity[J]．PloS one, 2013，8（12):e84334.   \n[15]Kim J，Diesner J.A network -based approach to coauthorship credit allocation[J]．Scientometrics，2014，101（1)：1-16. (木文责仟编辑·郭法今)"
+  }
+}

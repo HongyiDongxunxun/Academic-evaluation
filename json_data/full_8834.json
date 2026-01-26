@@ -1,0 +1,132 @@
+{
+  "original_filename": "full_8834.md",
+  "网络信息检索现状和性能评价": {
+    "context1": "曾民族(北京文献服务处，北京100036)",
+    "context2": "摘要网络信息检索作为一种新型检索模式,主要特异性在于网络环境引起的信息资源分布化和数字技术带来的信息资源多媒体化，从而引起了信息检索过程各个要素的量变和质变。本文将考察信息资源的变化对信息检索提出的新的要求以及由此推动信息检索方式、信息界面、索引自动化、性能评价标准的变化;介绍当前网络信息检索工具尤其WWW查询引擎的发展现状和作为网络查询引擎核心技术的网络自动跟踪索引软件的有关发展，以及查询引擎性能的评价方法等问题。"
+  },
+  "关键词": {
+    "context1": "Internet信息资源信息检索网络查询工具WWW查询引擎索引技术性能评价"
+  },
+  "Networked Information Retrieval and Performance Evaluation": {
+    "context1": "Zeng Minzu (Beij ing Document Service,Beij ing 100036)",
+    "context2": "AbstractNew changes are reviewed in information resources as a whole under network environment,which have brought new requirements on information retrieval and greatly updating in\" formation retrieval modes，user interfaces，indexing generation and performance evaluation, etc· The development of network-based information searching tools is presented with a brief description of development of Web search engines and ways of robot-generated indexing·The criterion on the performance evaluation of Web search engines is also dicsussed·",
+    "context3": "Internet information resources，network search tools，Web search engines，robotgenerated indexing,performance evaluation"
+  },
+  "1前 言": {
+    "context1": "组织和管理信息资源，核心和关键仍是信息检索。当前信息检索技术在向两个方向发展：一是传统信息检索向全文文本、多媒体、多载体、多原理等新型信息检索发展，从深度上提高组织和管理信息资源的能力;二是信息资源的网络化和分布化，从广度上提高组织和管理信息资源的能力。几年来，围绕网络信息资源的开发和利用，信息检索技术的研究非常活跃，并已取得了突破性的进展，可以说国外已初步解决了如何索引和查询Internet 浩翰无垠、零乱分散的信息资源的技术难题。在已开发的众多网络信息查询工具中,WWW 查询引擎后来者居上，显示其技术优异性和可用性。从1994年以来的短短两三年内，已有数百个WWW 查询引擎在In-ternet 网上投入运行，发展势头压倒其他网络查询工具，目前已成为Internet 网络信息检索方式的主流，并大有发展成为网络标准检索工具的趋势。网络信息资源的控制、管理和利用是全球性课题，我国同样面临着世界范围信息资源这一格局的改组和变化，开发既符合信息技术和信息环境客观发展规律又适合我国文字、文化和具体信息环境和网络信息检索模式应该提上日程研究。本文将分析网络信息资源的特点及其对信息检索提出的新的要求，介绍网络信息查询工具的类型和功能，着重综述WWW 查询引擎、网络自动跟踪索引技术发展现状和查询引擎性能评价等问题，希望促进我国信息检索专业人员和用户对这一领域发展动向的跟踪和重视。"
+  },
+  "2网络信息资源的特点": {
+    "context1": "据1996年3月的数据,Internet用户已超过 6000万,各种Web 服务器超过 20万个，且以每天 500 个的数量在增加。有人估计，Internet 网每天发布14万件新的信息（总量约 $4 5 0 \\mathbf { M } \\mathbf { B } )$ ），全网提供的信息总量在 2OTB以上。",
+    "context2": "Internet信息资源，按时效性可分四大类：",
+    "context3": "（1)电子报纸：估计80种以上世界著名报纸有网络版。",
+    "context4": "（2)动态信息：如政府机构发布的消息，政策法规，会议消息，论文集，研究成果，项目进展报告，产品目录，出版目录，广告等。",
+    "context5": "(3)全文期刊：网上有数百种全文文本期刊。",
+    "context6": "（4)书目数据库:网上有数千种文摘或目录数据。",
+    "context7": "Internet信息资源，按其文件组织形式可分两大类：",
+    "context8": "（1)自由文本：全文、文摘或题目的非结构化组织，无须规范处理。",
+    "context9": "（2)规范文本：按统一标准和格式上网，组成联合编目等规范文本。",
+    "context10": "Internet信息资源的特点对信息检索提出了如下新的课题：",
+    "context11": "(1)伴随网络化和数字化而产生的大数量、多类型、多媒体、非规范、跨时间、跨地理、跨行业、跨语种网络信息资源，是对原来以相对集中和规范为标志的传统数据库资源的突破性发展。对这一新型信息资源，手工方式自不必说，原有计算机处理方式也已多半不适用，需要发展崭新的自动化信息组织和管理方式。",
+    "context12": "(2)信息源分散、无序，更迭、消亡无法预测。信息源的无政府状态迫使人们更改相关性判断的概念和标准。用户无法判断网上有多少信息同自己需求有关，查全率等检索评价标准需要重新定义。浏览、查询、阅读等功能比预期目的的检索更为实用和迫切需要。",
+    "context13": "（3)信息内容特征抽取更加复杂化。传统信息检索大都以结构化文本内容特征来组织索引工具,而网络信息除文本信息外，有图表、图形、图像、声音、影视等信息，需要研究多媒体信息内容特征的表现和抽取的索引手段，并在时效、自动化实现、成本等方面具有实用价值。",
+    "context14": "（4)高功能和简单易用的友好用户界面更加必要。Internet信息服务已进入全社会和普通家庭，对用户界面的友好性提出了更高的要求on方面，普通用户要求使用网络信息服务就像打电话一样简单方便，一方面专业用户要求更加全面整体的技术解决方案，例如能够自动搜索所需的信息源，能够得到传统检索所能得到的查全率、查准率，能够对从网上取得的信息进行自动分类、自动翻译和自动摘要等。"
+  },
+  "3网络信息查询工具": {
+    "context1": "网络信息检索毕竟有异于传统的信息检索，为了区别和准确表达概念，国外越来越多的文章称传统信息检索概念为信息检索(Information Retrieval)，称网络信息检索概念为网络信息查询(Information Searching）。网络信息查询工具大致可分三大类型：",
+    "context2": "（l)字典型查询工具。类似字典、电话簿和人名录的功能，用于查询网上用户人名、E-mail、URL、服务器地址等。这类工具有：",
+    "context3": "查地址:White Pages Directory，Internet Yellow Pages，whois，Fred,X. 5OO,Netfinder,IAF，Fourll,Finger，Who Where?。查用户组:DejaNews，FAQ Archive 等。查软件:sharew are $\\cdot$ com。查字典:字典，词典，百科全书，谚语,圣经等。（2)索引型查询工具。为网上信息资源建立索引,这类工具有：FTP 资源的索引:Archie等。Gopher 资源的索引:Verronica，Jughead 等。网上服务器的索引:Wais 等。（3)交互型查询工具。提供类似商用联机检索的网络信息查询服务。这类工具基本可分Gopher 和WWW 两大类：",
+    "context4": "Gopher:采用客户机/服务器结构,把Internet上分散和各自独立的信息源联成一体，以简单的菜单选择方式提供遍布全球的Gopher 信息资源的查询。Gopher 是较早期的网络检索工具,发展势头不如WWW。",
+    "context5": "WWW(WorldWideWeb):中文译名环球网、全球网或万维网，同样采用客户机/服务器结构，以其联网简单(http)、超文本连接(Hyperlinks)、标准格式、规模大小可伸缩、多媒体、浏览界面(brow ser）、易用等特点，大到美国国会图书馆、小到任何个人都可入网，从而构成当今世界上最大型、最普及的网络信息检索系统。"
+  },
+  "4WWW 查询引擎": {
+    "context1": "WWW 出现于1994年，是Internet应用系统的后来者，超文本界面和多媒体等特点使它脱颖而出并迅速发展成为Internet目前仅次于电子邮件的第二大项应用。WWW 信息检索是当前网络信息提供商、网络信息检索研制者、网络信息用户普遍关注的焦点，大有成为Inter-net 标准检索工具的趋势。WWW 覆盖了2000万个大小不等的信息源，但没有统一的网络管理机构和统一的资源管理机构，获取信息的手段是用户自己去寻找信息源服务器，因此WWW 信息检索首先要帮助用户去查找各个服务器在网上的网络地址(URL),并通过该地址去访问该服务器提供的信息。人们把为这一目的开发的检索工具称为\"网络查询引擎\"(WWW或WebSearchEngines）。aWWW查询引警的发展犹如雨后春籍据报道，全网级通用查询引擎已有十几个，其他按领域或专业的查询引擎有数百个。美国大的信息提供商和软件企业都在积极开发或引进已有的查询引擎软件，一场\"查询引擎战\"正在悄悄进行中。查询引擎是开发和利用Internet信息资源的技术关键，这类软件的设计和应用，应该成为当前我国信息检索领域关注的焦点。"
+  },
+  "(1)网络查询引擎类型": {
+    "context1": "·查询引擎按内容查询同传统检索系统划分分类检索和主题检索一样，也分为按范畴层次查询引擎(list-based search engines）和词语查询引擎(Words-based search engines）两大类。而范畴层次查询通常带有关键词索引,词语查询通常带有范畴层次索引，以弥补分类法和主题法各自的不足。",
+    "context2": "有代表性的列表查询引擎有:Yahoo,InfoSeek,GNN,Galaxy,WWWVirtual Library 等。以 Yahoo 查找 Web Search Engines 为例,在Yahoo 列表查询要经过Yahoo $\\nrightarrow$ Computer andInternet→Internet→World Wide Web $\\nrightarrow$ WWW Search Engines 几个层次,最后给出17个Web Search Engines 的信息,并指引用户继续查询InfoSeek 系统，进而给出更多的有关信息。在某些层次上有时还建立索引让用户用主题词检索。列表查询对普通用户很方便，可较快获得较全面的信息，但比较费时间，对检索结果的选择性较不灵活。",
+    "context3": "有代表性的词语查询引擎有:Webcrawler,Lycos,Alta Vista,Open Text,Excite等。功能大致地说不如传统的关键词检索精确，有布尔检索、词语检索、截词检索、字段检索、大小写有别检索、概念检索等。同样，有的系统有范畴指导检索。词语查询对有经验的用户比较有利，而且检索结果可按相关性排序输出。对检索结果有时高达数十万条信息的查询来说，这一功能就显得非常必要。",
+    "context4": "·查询引擎按覆盖范围可分为通用查询引擎和专业查询引擎两大类。本文介绍的查询引擎如无特别指明,均指通用引擎。专业查询引擎如CSTR,DejaNews,FTPSearch95,InternetMovie Database,LookUp,OKRA,Point Search,SIFT，Tribal Voice, Virtual Software Libr-ray等。",
+    "context5": "·查询引擎按引擎功能可分为常规查询引擎和多元查询引擎(meta-or unified search en\"gines)两大类。常规查询引擎是单一引擎的功能。多元查询引擎是多个单一引擎的组合，对同一个查询可同时在多个查询引擎上查询，或组合指定的查询引擎查询，或在单一查询引擎上查询，可综合输出查询结果，也可分别输出每个查询引擎的查询结果。比较有名的多元查询引擎有 All-in-One Search Page, CUSI,Fun City Web Search，HyperNews,LinkSearch, Savvy-Search,MetaCrawler $,$ Best Search,W 3Search Engines,Web-Search 等。"
+  },
+  "(2)信息索引范围": {
+    "context1": "WWW查询引擎的标引信息通常由以下部分组成：",
+    "context2": "·URL:WWW 上多媒体信息源的地址:可指向一个HTML 文件、一个GIF 图像、一个MPEG 影视、一个声音文件等。",
+    "context3": "·HTML主页:用HTML 格式编写的WWW文件页,包括文本和图像及其间的查询点（anchors)或叫超文本链接点(Hyperlinks)。HTML 主页必须带有一个URL,以便查询引用。文本中的查询点用下划线增亮显示，查询点在各个主页中交叉参照。",
+    "context4": "·HTML页名和URL名:页名和URL名可起到检索点的作用。",
+    "context5": "CHMLO文件：HTL文件指用HTML格式语言编写的文件，也是URL的具标/",
+    "context6": "件可以是题录、文摘或全文。每个HTML 文件必须以一个HTML页名开始，并带有指向其他URL或其他网点的超文本链接点。"
+  },
+  "（3)信息索引方法": {
+    "context1": "索引是查询引擎的关键技术所在。WWW 查询引擎要通过Internet 网上的WWW、FTP、Gopher 地址等对信息进行收集、整理、分类、索引等处理以产生数据库，并对每个网点加以注释,给出范畴或关键词。不同的系统采用不同的标引方法。例如，Webcrawler 利用全文索引技术,对Web 页中每一个单词进行索引。Lycos只对页名、标题以及最重要的 100个注释词等选择性词语进行索引。InfoSeek 和Open Text 则提供概念检索和词组检索,支持 and,or、adja-cent、near、not 等布尔运算。Lycos 和Webcrawler只对机械人自动识别的URL 的部分进行全索引,Webcrawler 始终只报道全索引的WWW 页数,Lycos 则包括全索引和仅有URL 和Hy-perlinks 文本,能检索但没有索引。Lycos 和InfoSeek 包括非WWW 资源如Gopher、FTP 等。查询引擎的索引方法大致可分自动索引、手工索引、用户登录三类。自动索引以下重点介绍。手工索引是利用现有工具按照一定格式加工和索引信息。用户登录是在网页上开辟专门位置，让愿意加入系统的用户可方便地把自己的信息源并入系统。三种方法通常是同时并用，而最主要的方法是自动索引技术。"
+  },
+  "5网络自动索引技术": {
+    "context1": "Internet上有上千万个网点，要采集WWW、Gopher和FTP各网点文本及其各种信息并且对这些信息进行分类标引等，用手工方法无论如何是无法胜任的。查询引擎的实现首先就是得助于网络自动索引技术的实现。人们把网络自动索引软件起名为Robots,Spiders，Worms，Web crawlersWebWanderers,WebAnts。这些名词大致可视为同义词，但Worms技术上是指一个重复软件,WebAnts是指分布型的Robots。Robots 目前无正式译名，暂译为\"自动跟踪索引机器人\"或\"自动跟踪索引软件\"。国外资料称,Robots 是指\"一个在网络上检索文件且自动跟踪该文件的超文本结构并循环检索被参照的所有文件的软件\"。而上述的网络查询引擎则是指\"一个查询被 Robots 采集的、由 HTML 文件组成的信息源的软件。\"Robots 的基本功能包括以下五个方面：",
+    "context2": "·索引；  \n·HTML合法性确认;  \n·链接点合法性确认；  \n·监控或辨识新信息；  \n·镜像。",
+    "context3": "一个Robot通常从现有的URL集或手工采集的URL集起步，然后在网上自动搜索，找到一个文件后则分析它的HTML 题目、全文和链接点，并利用它们作为寻找新的URL 的起点。所有的网络查询引擎都有自己的Robot。Robot的研制是当前Internet 应用软件开发的热点,市场上已出现商品化产品,已出现PEAL 等专用编程语言和 Robot Exclusion Standard 等标准。下面以Harvest为例介绍Robot 的大体结构。Harvest是美国科罗拉夫大学计算机科学系1994年至1996 年完成的一个实用化网络自动索引机器人。这个软件已由美国联邦调查局、美国国会图书馆、NASA阿米斯研究中心管单位采用abHresH电以下五个部分组成：.",
+    "context4": "·采集器(Gatherer)：是一个内容抽取系统，用于本地或远程抽取不同类型、不同网络表现层和不同摘要内容的数据，形成目标摘要格式文件。",
+    "context5": "·建库器(Broker)：把以上采集器收集的文件形成网络可访问的数据库。",
+    "context6": "·索引查询器(Index/Search Subsystem):同建库器配套的子系统，决定索引时空比、布尔逻辑操作、表达式匹配、结构化和非结构化文件处理、词语匹配、匹配相关性排序等。",
+    "context7": "·备份复制器(Replicator)：不同级别的网络备份拷贝、更新拓扑、更新周期等。",
+    "context8": "·目标缓存器(Object Cache)：确定不同网络级别的目标之间的层次关系。",
+    "context9": "·目标管理器(Harvest Object System):定义网络目标的层次类型和访问方法，允许从网络服务器引进和定义新的层次类型的访问方法。",
+    "context10": "国内同行可从下列Internet地址获取Beta 版或免费版的Robots 软件：",
+    "context11": "http://harvest $\\cdot$ cs $\\cdot$ colorado $\\cdot$ edu/harvest/INSTRUCTIONS-1 .4.thml   \nhttp://w ww $\\cdot$ w ebcompass $\\cdot$ qdeck $\\cdot$ com   \nhttp ://www $\\cdot$ agentw are $\\cdot$ com   \nhttp://w ww $\\cdot$ exploit $\\cdot$ com/wizard/aboutc $\\cdot$ html"
+  },
+  "6Internet 重要查询引擎举例": {
+    "context1": "据 $P C W o r l d 1 9 9 6$ 年10月7日报道，目前Internet上有成百上千的WWW查询引擎在运行。 $P C W o r l d$ 按照自己评测标准每隔100 天选出100个热点查询引擎予以发表，并按商业、计算领域、新闻、娱乐、一般查询五个领域分别列出。下面按照不同技术特点和风格举例介绍当前Internet上几个重要的WWW查询引擎。",
+    "context2": "(1) Alta Vista( AV)  \nhttp://altavista $\\cdot$ digital $\\cdot$ com/  \nDEC 公司 1995年 12 月对外推出 Alta Vista。",
+    "context3": "Alta Vista收集 2200 万网页、13000 个新闻组的全文数据，共约110亿个词汇，总容量33GB。其中6GB的索引存放在Alpha机的64位内存，保证较快的查询速度。AV 自称每天可获取符合Robot Exclusion Standard 标准的 25O万网页信息，每小时可索引lGB 的文本信息。AV 的特点是检索功能同传统联机检索服务有很大的相似性，提供布尔AND,OR,NOT，NEAR 算符操作和嵌套提问表达式，截词，联机帮助和举例帮助。提供简单、标准和详细三种输出格式。提供简单和高级两种查询方法。简单查询不支持布尔算符，而用不同句法的组合来表示词语、相邻词、必用词和禁用词。可用页名、URL、系统名称作为字段进行检索。检索结果按相关程度排序。高级查询同简单查询采用相同句法来定义单词、词语、通配符和标点符号，但用布尔算符来组合单词和词语，用括号嵌套表达式。",
+    "context4": "( 2) Excite( EX)",
+    "context5": "http ://www $\\cdot$ excite $\\cdot$ com/",
+    "context6": "Excite 收集500O 万网页数据，采用一个称为\"智能概念抽取\"(ICE)专用查询软件，允许用户用自然语言提问,例如\"How to stay healthy by eating well\",\"Learn to speak Chinese\"等。EX每次列出10个检索结果，按相关性排序，相关性用红色百分数给出。显示结果可按网点名称排序，从中看出哪一个网点与需求关系最密切。显示第一个10个结果之后，可继续显示第二个904个检索结果、第三个10个检索结果等。每个输出给出网页标题，URL和网页的摘要。EX 的功能有几个特色:第一是用ICE 自动编制摘要;第二是概念检索，如查询\"知识产权\"可把\"软件版权\"和\"版权法\"同时检索出来，查询引擎自动处理同义词和相关词。EX 还提供一个\"FIND Similar\"功能，例如查询\"jordan\"一词,这个功能可区分是国家名称\"约旦\"还是篮球巨星空中飞人\"乔丹\"。EX 目前只能处理简单的AND 和OR 布尔逻辑检索，还不能处理高级查询功能。"
+  },
+  "( 3) Infoseek( IS)": {
+    "context1": "http://w ww $\\cdot$ infoseek $\\cdot$ com/",
+    "context2": "1995年2月由 Infoseek 公司推出，是Web 第一家收费的查询系统，但检索结果在100 个以内不收费。IS 对 25OO 万WWW、FTP,Gopher、New sgroups 网点进行全文索引,计算机平台采用单机 SUN Microsystem Ultra Enterprise 4OOO 服务器。运行约一年之后,IS 于1996 年4月宣布启用新的查询引擎Ultraseek(US)，采用一种崭新多元自动跟踪索引技术，在快、大、新、准方面有新的突破。IS 自称每秒钟能处理1000 个提问，每周对 2500万网页的变化更新一次；自称以\"Olympic Gold Medalists\"三个词查找,得到的检索结果是77 个网页,而用Lycos只得到1个网页,以此说明其查准性。IS 采用词频统计方法来确定词语的重要性和相关性，可按词序检索，词汇大小写有别，采用双引号、连符、加号、减号、括号来表示词间的句法，检索结果有描述内容,检索结果按相关性排列。新的软件采用 Xerox Lexical Technology(Xerox 词库技术)，可按词根归纳相关的所有词语，据说该词库技术也可用于德语和日语词语的索引。"
+  },
+  "( 4) Inktomi( IT)": {
+    "context1": "http://inktomi $\\cdot ^ { \\star }$ berkeley $\\cdot$ edu",
+    "context2": "Inktomi是美国Berkeley 加州大学在美国国防高级研究计划局（ARPA）和SUN Mi-crosystem 公司资助下研制并提供非商业性查询服务的系统，全文索引280万WWW页，用词语前加号或减号表示必用词或禁用词,OR是缺省值，用词根进行检索，检索结果以相关性排序,包括资源题目、相关性值、URL,但没有摘要。Inktomi的检索功能没有Open Text或AltaVista强，但全文索引、简便、快速是它的特点。而且Inktomi技术上的特点颇受人们注意，它利用一般的商品工作站组成并行计算平台建立大型、快速、规模任意伸缩的查询引擎，成本性能比很高，容错能力强，而且还采用了一个叫做HotBot的软件，利用并行处理技术建立索引，并具有高性能的查询语言和智能性相关性排序工具。"
+  },
+  "( 5) Lycos(LY)": {
+    "context1": "http://www $\\cdot$ lycos $\\cdot$ com",
+    "context2": "美国卡内基梅农大学研制，现已被American Online收购。截止1996 年1月统计，已对1900 万唯一性的URL 包括FTP 和Gopher 地址进行索引,覆盖 $9 5 \\%$ 的 $\\mathrm { { W e b } }$ 地址。但1900 万网页不是全文索引,仅其中的360万网页进行比较完整的索引,索引的内容为页名、URL、子标题、文本的前 20行和 100 个加权的单词。这一点被其他竞争者视为Lycos 的薄弱形象。但Lycos 的数据库还包括 500万个二进位文件(声音、图像和影视等)和 700万个已收集但尚未做出完整索引的WWW主页。LY建立标题字段，显示主页的所有标题，支持AND操作。LY的一个特点是对提问可选择五种不同的匹配命中级别：松匹配、一般匹配、良好匹配、紧密匹配和强匹配。检索结果的数量可选择每次显示10,20,30或40个检索结果。LY 的一个特色是建立一个叫做 $\\mathbf { a } \\ 2 _ { \\mathbf { Z } }$ 的Lycos数据库最常用主页的主题目录。 $\\mathbf { a } \\ 2 _ { \\mathbf { Z } }$ 的标题显示在Lycos 的主页上,可用关键词查找。对每个系统有一两个句子介绍，并指引到\"FindRelated Sites\"，从这些网点的标题又可获得进的可用词.LY运行情况很好1995年被PCsWorl为最焦WWWh",
+    "context3": "询服务系统。",
+    "context4": "( 6) Open Text(OT)",
+    "context5": "http://w ww $\\cdot$ opentext $\\cdot$ com",
+    "context6": "由Open Text公司和加拿大UUNET 联合开发。对1900 万个超文本链接点、100 万个WWW点,FTP,Gopher 服务器进行全文索引,索引总量达7.86亿个词语。OT采用一个称为Open Text 5的专用软件自动跟踪索引每个网点的信息。Open Text 5专用软件可索引 40 种以上格式文件，因此也可作为一般检索软件使用。OT 提供 Simple Search、Power Search、Weighted Search、Find Similar Pages 等检索功能。简单查询是基本的关键词,AND 和OR 匹配。高级查询可指定位置进行关键词查询，例如对全网、摘要、网页名、第一标题、URL、超文本链接等进行布尔、邻接和字段查询。加权查询可对单词和词语加权，而且可指定查询位置。输出结果按相关性排序，高级查询给出命中数。用户界面灵活、功能强、易学易用。缺点是不能进行嵌套查询，不能截词检索，不能按词检索，词语的多数变化作为新词处理。",
+    "context7": "(7) WebCrawler( WC)",
+    "context8": "http ://webcraw ler $\\cdot$ com",
+    "context9": "WC 是WWW查询引擎元老之一,1994年4月开始联机服务,1995年6月被AmericanOnline 收购。WC的特色是界面简单友好，信息经过精选,以 350000个关键词搜索建立索引,全文索引10万HTML文献，检索结果精选出25条,按相关性排序,分简单和详细两种格式显示。支持自然语言查询和布尔算符查询，用户输入一串词语时可指定任何一词匹配或全部词语匹配,WC 分别给出检索结果。例如,输入\"NASA Space Shuttle Program\"后,WC 既给出含有四个词语的检索结果，也分别给出 NASA,Space，Shuttle 和Program 四个词语的检索结果。WC 的检索结果只有Web 页名,没有URL,也没有相关的注释,所以不能利用URL 中的gov,com,edu 等线索。检索无停用词，把复数转化为单数检索，但不能把Children 转为Child。WC被认为可用于起步训练新用户，简便易用，响应时间快。",
+    "context10": "(8) Yahoo( YA)",
+    "context11": "http://www $\\cdot$ yahoo $\\cdot$ com",
+    "context12": "Yahoo 于1994年4月由斯坦福大学电子工程系研制,1995年SequoiaCapital 公司投资创建 Yahoo 公司,现有雇员1OO 多名。据说该公司最近已由American Online 收购。Yahoo 提供的查询服务是免费的，但年收入1500 万美元，主要收入是电子广告。Yahoo 同Netscape 关系很密切。Netscape 的Net Directory 直接引用Yahoo 的主题目录,而主题查询对新手构筑检索表达式要方便得多，因此Yahoo 拥有许多用户,每天约有 4000000人次访问。Microsoft 公司也选择Yahoo 作为它的传播媒介。Yahoo 数据库有 65OOO 篇 HTML 文献和其他 Internet 信息源，共20多万个条目，其最大特色是提供优秀的主题浏览工具,对网点信息按主题建立分类索引,按字母顺序列出14个大类，每个大类所包含的子类有精练的描述，每个子类有数以千计的相关的 Internet 网点信息。1996年Yahoo 还引入了Open Text 的索引和查询引擎。Yahoo的检索结果除Yahoo 提供的结果外，还链接Open Text 提供的网点地址,对新增加的网点有图标指示。Yahoo采用16台Pentium 服务器作为硬件平台，采用网络自动索引、人工索引结合方式扩充系统，据说现在每天有上百个Web 网点通过电子邮件给Yahoo 送来自己的网页信息，加入Yahoo 的目录索引。"
+  },
+  "7WWW查询引擎性能评价标准": {
+    "context1": "1973 年Lancaster 提出的涵盖范围、查全率、查准率、响应时间、用户方便性和输出格式六个方面的标准，应该说今天仍基本上适用于对网络查询引擎的性能评价。但网络查询的超大规模数据库、多媒体表达和分布式体系结构等特点对检索性能的评价提出新的课题。例如查全率对网络空间的信息资源没有实际意义和价值，其他方面的标准也在发生不同程度的量变。随着查询引擎的实际应用，国外关于查询引擎性能评价的研究也非常活跃，出现了众多的研究报告和论文，对推动查询引擎的研制和改进起到积极的作用。下面对国外关于查询引擎性能评价的主要指标作一简单归纳，希望对选用和研制网络查询引擎有参考价值。"
+  },
+  "网络查询引擎评价指标：": {
+    "context1": "(1)数据库规模和内容",
+    "context2": "·覆盖范围:不同查询引擎用不同单位计算索引的信息源单位,如URL、Web页、Hyper-links、文件数、入口点，而且不是唯一性统计。应以完全索引和可检索的WWW页数作为信息资源的单位。关键不在数量，而在于经过选择的、具有可检索价值的WWW 页。",
+    "context3": "·索引组成：全文、标题、小标题、前头数行等。",
+    "context4": "·更新周期：更新周期、查重、添加、删除等。",
+    "context5": "·索引组成：是否有可检索的字段。",
+    "context6": "(2)索引方法",
+    "context7": "·自动索引：是否采用网络跟踪自动索引及其软件功能。",
+    "context8": "·人工索引：人工选材和加工。",
+    "context9": "$\\bullet$ 用户登录：提供网上自动登录功能。",
+    "context10": "(3)检索功能·布尔查找。  \n·复杂布尔操作(嵌套)。  \n·相邻和相邻and/or查询。  \n·截词查找（自动或用户定义）。  \n·字段查找。  \n·大小写有别。  \n·概念检索。  \n·词语加权。  \n·词语限定。  \n·特定字段限定。  \n·缺省值。  \n·中断退出。  \n·重复辨别。  \n·上下文关键词。  \n·查询集操作。  \n(4)检索结果",
+    "context11": "·相关性排序：单纯排序或注明排序分值。",
+    "context12": "内爸;emic Journal ElectronicPublishing House.Alrghts reserved.http://ww",
+    "context13": "·输出数量选择：限定或改变显示数量。",
+    "context14": "·显示格式选择。",
+    "context15": "（5)用户界面·帮助文件。",
+    "context16": "·数据库和检索功能说明。",
+    "context17": "·查询举例。",
+    "context18": "(6)其他·查准率。",
+    "context19": "·响应时间。"
+  },
+  "参考文献": {
+    "context1": "[1] Heting Chu and Marilyn Rosenthal:World Wide Web:A Comparative Study and Evaluation Methodology,ASIS Proceedings,1996   \n[2] Courtois $,$ Martin P.，William M·Baer and Marcella Stark :Cool Tools for Searching the Web :A Performance Evaluation·ONLINE,1995,19(6), $1 4 - 3 2$   \n[3] Peggy Zorn,Mary Emanoil,Lucy Marshalland Mary Panek :Advanced Web Searching:Tricks of the Trade,ONLINE,1996,20(3)，14-36   \n[4] Best Search Engine,PCWorld,1995,13(9)165-170   \n[5] Scoville,Richard:Special Report:Find it on the Net,PC World,1996,14(1)，124-129   \n[6] Leighton,H·Vernon (l995) :Performance of Four World Wide Web Services :InfoSeek,Lycos,WebCraw ler,and WWWWorm $\\cdot$ http://w ww $\\cdot$ winona $\\cdot$ msus $\\cdot$ edu/ services-f/library-f/webind·htm·   \n[7] Leonard，Andrew J·（1996):Where to Find Anything on the Net: http://www $\\cdot$ cnet $\\cdot$ com/Content/Review s/Search/.   \n[8] Notess,Greg R::Searching the World-Wide Web WebCrawler and More,ONLINE,1995,19(4), 48-53   \n[9] Scoville,Richard（January 1996) :Special Report :Find it on the World,http://www $\\cdot$ lycos $\\cdot$ com·   \n[10] Taubes,Gary :Indexing the Internet,Science,September 8，1995,1354-1356   \n[11] About Yahoo!，http://www $\\cdot$ yahoo $\\cdot$ com /doc· pr/   \n[12] Welcome to GNN,http://gnn $\\cdot$ com/gnn/w ell/index $\\cdot$ html   \n[13] http://inktomi·berkeley $\\cdot$ edu/   \n[14] The World Wide Web,http://www $\\cdot$ w 3.org/hypertext/www /theProject $\\cdot$ html   \n[15] Dong Moses's Top 1O List of World Wide Web Search Engines , http://www $\\cdot$ geocities $\\cdot$ com :80/heartland/284l/search $\\cdot$ html   \n[16] Lycos:Frequently Asked Questions,http://lycos $\\cdot$ cs $\\cdot$ cms $\\cdot$ edu/lycos-faq $\\cdot$ html   \n[17] More information about InfoSeek,http://www $\\cdot$ infoseek $\\cdot$ com/doc/FAQ $\\cdot$ html   \n[18] http://harvest $\\cdot$ transarc:com   \n[19] 储荷婷：国际互联网及其网络工具(四),《现代图书情报技术》,1995,(5),50－62"
+  }
+}

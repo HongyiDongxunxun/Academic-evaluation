@@ -1,0 +1,71 @@
+{
+  "original_filename": "full_7463.md",
+  "nothing": {
+    "context1": "·理论探讨·"
+  },
+  "本体语言研究综述\\*Research on Ontology Language": {
+    "context1": "丘威张立臣",
+    "context2": "(嘉应学院计算机科学与技术系梅州514015）（广东工业大学计算机学院广州510090)",
+    "context3": "摘要对Ontology语言及其应用研究作了简要的综述：首先比较分析了五种基于XML的Ontology语言，介绍了其它基于谓词逻辑的本体描述语言、基于图的本体描述语言和Web 本体语言及其相关本体开发工程;分析了本体的主要应用领域以及本体应用研究现状;总结了本体应用研究存在的问题和发展方向。",
+    "context4": "关键词 本体本体语言 XML Web",
+    "context5": "本体(Ontology)原是一个哲学上的概念，用于描述事物的本质，在近几年作为信息抽象和知识描述的工具被计算机领域所采用。关于Ontology 很多人给出了不同的理解，其中Gruber的定义得到众多认可,他认为Ontology 是概念模型的明确规范的描述[1]。Ontology 是面向特定领域,描述特定领域的概念模型即关于该领域的一个公认的概念集，其中的概念有公认的语义，通过概念之间的关联来体现。",
+    "context6": "在进行知识表达时，Ontology 对信息抽象的方式近似于语义网络,都可以采用带标记的有向图来标志,但Ontology 更侧重于表示特定领域整体的内容。在软件领域，任何软件本身都固有一套概念体系，这个体系包括对象、对象之间的相互约束关系、对事务处理过程的描述、语义交互，以及简单的推理和逻辑规则，因此可以把此体系通称为软件领域的本体[2]。"
+  },
+  "1Ontology 语言": {
+    "context1": "过去的几年里已经开发了五种基于XML 的Ontology 语言(如图1所示)。有些是直接基于XML语法，例如基于XML的本体交换语言（XOL,XML-Based Ontology Exchange Lan-guage）、简单的 HTML 本体扩展(SHOE,Simple HTML OntologyExtension)和本体标记语言(OML,Ontology Markup Language）,另外的两种语言是建立于RDF(S)RDF 和RDFS 的并集之上，以便改善 RDF(S)的特征;本体交互语言(OIL,Ontology Interchange Language)和 DA ML(DARPA Agent Markup Language) $^ +$ OIL。",
+    "context2": "![](images/6f296cab2d61a00537f581f628c37029f2c4b4c99c963a38471c2153d4d13bbc.jpg)  \n图1语义网中的语言堆栈",
+    "context3": "1.1基于XML 的本体交换语言(XOL） 为了在异构的软件系统中进行本体定义的交换，美国的生物信息学领域设计了XOL。在研究了生物信息学专家的代表性需求后，研究人员创造了XOL。他们基于XML,选取Ontolingua 和OML 作为生成XOL 的基础,并结合开放知识库的连通协议（Open KnowledgeBase Connectivity protocol)的子集OKBC一Lite 的高级表现和OML的语法。没有工具支持使用XOL开发本体论。然而，由于XOL文件使用XML 语法，因此可以使用XML 编辑器来生成 XOL 文件[3]。",
+    "context4": "1.2简单的 HTML 本体扩展(SHOE） 美国 Maryland 大学开发了SHOE,并用它来开发OML。SHOE是HTML的扩展，在HTML文档或其它Web文档中结合了机器可读的语义知识。最近，Maryland大学已经把SHOE语法适应到XML。SHOE能够使得Agent收集Web页面和文档的有意义的信息，改善搜索机制和知识聚集。这个过程由三个阶段构成：定义本体;用本体论的信息注释HTML页面，以便描述自身和其它的页面;Agent通过搜索现有的全部网页来语义地检索信息，并一直保持信息的更新[4]。",
+    "context5": "1.3本体标记语言（OML）美国Washington大学开发了部分基于SHOE的OML。事实上，最初是把OML视为SHOE的XML顺序化。因此OML和SHOE共享很多特征。存在四个不同层次的OML：OML核心(OMLCore)相关到语言的逻辑方面,其余的层都将包含它;简单的OML(SimpleOML)直接映射到RDF(S);简化的OML(Abbreviated OML)包括概念上的图表特征;标准的OML(StandardOML)是OML中最具表现力的版本。除了现有的通用目的的XML编辑器工具外，没有其它的工具生成OML 本体论[5]。",
+    "context6": "1.4本体交互语言（OIL）在OntoKnowledge项目和 $\\mathrm { I } ^ { - }$ BROW下开发了OIL，欧盟信息社会技术的IST程序资助开发OIL，允许Web资源之间的语义互用性。它的语法和语义是基",
+    "context7": "基金项目：国家自然科学基金资助项目（编号：60474072.60174050)；广东省自然科学基金资助项目(编号：04009465)；广东省嘉应学院科研基金资助项目（编号：05KJY11)。",
+    "context8": "乍者简介：丘威,男,1974年生，讲师，硕士,研究方向为知识工程和软件工程;张立臣,男,1962年生,教授,博士,研究方向为软件工程。",
+    "context9": "于现有的提议(OKBC、XOL和RDF(S))，把基于框架的方法中普遍使用的原始建模提供给本体论的工程(概念、概念分类、关系等)，以及在描述逻辑方法(结合了决定性和有效推理机制，维护高表现力的第一阶逻辑的子集)中发现的形式的语义和推理支持,即OIL 的定义融合了三种范例：基于框架的建模、基于描述逻辑的形式化语义和基于XML的语法。使用OIL定义的本体能够被映射到描述逻辑的公理，因此能够借助已有的系统执行可靠性和完整性推理。OIL 建立于RDF(S)之上。OILEd、$\\mathrm { P r o t { } \\acute { e } g \\acute { e } 2 0 0 0 }$ 和WebODE都能够用来编辑OIL本体论。OIL的语法不仅能用XML表达，而且也能用ASCII表达。OIL已经成功地应用于多个领域,如知识管理、电子商务等[6]。",
+    "context10": "1.5DARPA 的 Agent 标记语言 $^ +$ 本体推理层（DAML $^ +$ OIL）美国国防部的DARPA基金，联合W3C 组织，致力于DAML(www $\\cdot$ daml·org)的开发以便帮助军事上的指令和控制领域，并应用于军事智能领域。例如,DAML的用途之一是改善大型军事信息仓储的组织和检索。关于智能方面，DAML 的目的是从多个源到提供特殊指示和警告来改善信息的集成，以便阻止恐怖分子对军事目标的攻击。美国和欧盟(IST)的联合研究委员会在DAML的基础上共同开发了DAML $^ +$ OIL，这个语言是基于资源描述架构(RDF,Resource Description Framework$\\left( \\mathbf { w w w } \\cdot \\mathbf { w } ^ { 3 } { \\cdot } \\mathbf { o r g } ^ { \\prime } \\mathbf { r } \\mathbf { d } \\mathbf { f } \\right)$ )。DMAML网站提供了该语言的细节，众多本体论和有注释网页的知识库，以及DAML和相关项目的全面描述。DAML是在XML中允许语义互用性的DARPA项目。因此，DAML $+ \\mathrm { o u c }$ 与OIL共享同样的目标[7]。",
+    "context11": "DAML $+ _ { \\mathrm { O I L } }$ 建立于RDF(S)之上，它的名字也间接地暗示出与OIL语言有着密切的关系。它取代了最初开发的称为DAML一ONT的规范，尽管此规范也是基于OIL语言。OILEd、OntoEdit $\\mathbf { P r o t } \\acute { \\mathrm { e } } \\mathbf { g } ^ { \\mathrm { e } 2 0 0 0 }$ 和 WebODE都是用来编辑DAML$+ _ { \\mathrm { O I L } }$ 本体论的工具。DAML项目的目标就是开发以机器易读的方式来表述语义关系的一门语言，这种方式将会与当前和未来的Internet技术相兼容。当前，项目正在开发原型工具来展示如此标记提供革命性能的潜能，这将改变人类和信息交互的方式。为了实现这些目标,Internet标记语言应该脱离XML和特殊领域受控语言固有的隐式语义协定。DARPA指引着DAML的方向，DAML将变成把网页上的信息与机器易读的语义相结合的语义语言。该语言应该允许领域自身扩展简单的本体论，还允许自底向上的设计方式，同时允许更高级概念的共享。此外,该语言将为服务、过程和商业模型的显式表示提供机制，并且还允许识别非显式信息(如程序或传感器中的封装)。相对于当前的标记方法，DAML将提供很多优点。它将跟当前在XML中的语法互用性同一级别上允许语义互用性。Web 中的对象标记包括：对象编码的信息描述、对象提供的功能描述和对象能产生的数据描述。这样的话，将允许通过 $\\mathrm { A } ^ { - }$ gent 把网页、数据库、程序、模型和传感器都链接到一起，以便使用DAML来识别它们查询的概念。",
+    "context12": "这里对以上Ontology 语言进行简要的比较分析。表述性的需要依据应用中本体库的使用而不同。术语轻型(lightweight)和重型(heavyweight)指的是两种不同的本体库：这些本体库包含概念(用概念的属性加以描述，并在分类学中仅用 subclass一of 关系进行组织)、关系和功能以及实例(可能是被表述的唯一构件),也包含公理。",
+    "context13": "如果从允许定义轻型本体库的语言到允许定义重型本体库的语言来测量语言的表现力,那么顺序将是;XOL、RDF(S）、SHOE、OML、OIL 和DAML+OIL。",
+    "context14": "如果为应用定义轻型本体(仅关注描述的概念和在分类学中的组织),能使用任意一门语言。通过考虑现有的编辑本体库的工具、处理语言的可用软件(APIs、推理机等)以及熟悉的表现形式（框架(XOL和SHOE）、语义网(RDF(S)）、概念图(OML)或描述逻辑(OIL和DAML $^ +$ OIL))来决定选用何种语言。",
+    "context15": "在定义重型本体库时，应该仔细选择语言，因为错误的决定会阻止应用的成功。在应用中最初采用框架来确定表现力需要。一旦表格填满了信息，就可以用标准信息对其进行比较，从而去掉没有充足表现能力的语言。接下来应该基于应用所需的推理机制。XOL和OML没有任何可用的推理机制，而RDF(S)、SHOE、OIL和DAML $+ _ { \\mathrm { O I L } }$ 都有推理机制。在此情况下,应该考虑需要何种推理。RDF（S）、SHOE和DAML $^ +$ OIL能生成查询服务。OIL和DAML $^ +$ OIL 也为本体中的一致性检测和分类学中的组织概念提供自动分类。",
+    "context16": "通过基于现有的生成本体库和注释资源(生成实例和约束)的工具,能对候选的语言进一步筛选。大范围的本体开发工具（OILEd、OntoEdit（仅DA ML $+ _ { \\mathrm { O I L } }$ ） $\\mathrm { P r o t e _ { g } e }$ 和 WebODE)都支持OIL和DAML $+ _ { \\mathrm { O I L } }$ 。没有任意一种本体工具支持RDF(S),但更通用的生成元数据的工具支持它。注释RDF(S)的工具也能用于存储为RDF实例的OIL和DAML $+ _ { \\mathrm { O I L } }$ 。SHOE知识注释器允许用SHOE注释Web页面，但没有可用的建立本体库的本体编辑器。没有任何特定的工具支持剩余的语言。"
+  },
+  "2基于谓词逻辑的本体描述语言": {
+    "context1": "基于谓词逻辑的本体描述语言，开始使用的本体描述语言多数基于框架和谓词逻辑，现在的本体描述语言在此基础上多数采用了XML 语法,如OIL和XOL。比较有代表性的基于谓词逻辑的本体描述语言如下：",
+    "context2": "2.1KIF（Knowledge Interchange Format ）[8] Stanford 大学人工智能实验室专家在研究本体时，提出了一种基于谓词演算的形式化语言，它重点研究语言的表达能力，主要功能包括对象、函数和关系的定义，它允许元级知识和非单调推理规则的表示，并基于一阶谓词逻辑，具有描述语义，为采用不同知识表示方式的计算机程序之间的通讯搭建了桥梁。",
+    "context3": "2.2Ontolingua[9] 以 KIF 为其核心语言，定义本体框架作为知识表示的基础。Stanford 大学人工智能实验室的 OntologyServer采用Ontolingua作为本体表示语言。该语言支持三种本体定义形式：KIF表示;仅使用Frame Ontolingua 的词汇库;同时使用上述两种表示方法。无论采用哪种表示方法，Ontolingua都包括3个组成部分：定义头部分、用自然语言描述的非形式化定义部分、用KIF或者Frame Ontolingua 定义的转换器。这些Ontolingua 转换器将由Ontolingua 表示的本体转换为LOOM等目标。Ontolingua 提供了本体开发环境 Ontology Server，用户可以通过Ontology Server 协作开发本体，还提供了一个共享的本体库，以便用户重用已有的本体来开发新本体。",
+    "context4": "2.3CycL[10] CYC 的知识表示语言。本质上讲，它是一阶逻辑语言。但是,为了增强知识表示的灵活性,CYC 在一阶逻辑的基础上增加了缺省知识的表示、二阶谓词等，所以是一阶谓词逻辑的一种扩展。CycL具有可处理量词、缺省推理、Skolem 化和其他一些二阶特性。实践证明，二阶谓词逻辑的知识描述是不可避免的。在CycL中,类和关系的命名是唯一的，断言的语法形式与LISP语法一致。CYC 是通用本体论最著名的研究项目之一，启动于1984年，它的主要目的是建立一个庞大的人类常识知识库，用于解决计算机软件的脆弱性问题。到2000 年为止,CYC 的常识库已有了16 万条知识，几百个微理论。CYC 的主要资助商有 Apple,Bellcore,DEC,DoD,Interval,Kodak 和 Microsoft等。",
+    "context5": "2.4LO0M[11]一种基于一阶谓词逻辑的知识本体表示语言，由美国南加州大学信息科学学院设计并实现。LOOM提供了明确定义而且表达力强的模型描述语言，能描述定义、规则、事实和缺省规则等;提供了有效的推理机制，能利用向前推理、语义一致化和面向对象的真值维护等技术实现推理;提供了编程范例、逻辑范例、产生式规则范例和面向对象范例等，并能方便地把范例集成到应用中。目前南加州大学又推出了LOOM的第二代Power－loom。",
+    "context6": "2.5F-logic(Frame logic)[12]集成了基于框架的本体表示语言和一阶谓词演算，主要特点在于知识表示和推理两个方面。在知识表示方面,F一logic支持简单和复杂的对象定义，支持继承定义、多态类型、封装等;在演绎推理方面,F一logic 同时支持谓词演算和结构以及行为继承。"
+  },
+  "3基于图的本体描述语言": {
+    "context1": "基于图的表示方法也是一种重要的本体表示方法，它的最大特点是直观。比较有代表性的基于图的本体描述语言如下：",
+    "context2": "3.1WordNet的语义网络[13] WorNet采用语义网络作为其词汇的表示形式，是典型的基于图的本体表示例子WordNet的词汇包括名词、动词、形容词、副词和功能词。每个词是一个网络节点。节点之间通过“同义关系”“反义关系”、“上位关系”“下位关系”、“部分一整体关系”、“形态关系\"等联系在一起。目前，WorNet已经分别建立了名词、动词、形容词和副词的四个相互独立的语义网络，包括约95600个词项。WordNet 是由Princeton大学G.A·Miller 教授主持开发的一个庞大的语言知识库系统。",
+    "context3": "3.2概念图(Conceptual gragha:CG)[14] 概念图是Sowa 提出的基于图的本体表示方式,是C.S.Peirce 的存在图(Existen\"tial Graphs)的扩展。概念图是二分有向图，包括“概念”和“关系\"两类节点，分别称为\"概念节点”和\"概念关联节点”，二者之间通过由\"概念关联节点\"到\"概念节点”的有向弧相连。概念图中的所有概念按照\"IsKindOf\"关系形成一个格结构。这个格的最顶层元素是\"Entity”，任何事物都是它的子类型或者实例;最底层元素是\"Absurdity”，是任何类型的子类型，而且任何事物都不是它的实例。",
+    "context4": "3.3Conceptual Representation 是一种概念图,由 Roux 等人采用其描述本体。Conceptual Representation 中的节点按照“ISA\"关系连接成一个格结构。",
+    "context5": "基于图的本体描述语言还有Faure 和Poibeau 的Directed A-cyclic Graph(DAG)、Borgo 等人的 Lexical Semantic Graph、Guarino和 Masolo 等人的 Lexical Conceptual Graph(LCG)等。"
+  },
+  "4Web本体语言": {
+    "context1": "W3C 组织的成员协会和受邀专家组成WOWG(WebOntol-ogy Working Group)的宪章中明确表述：当设计Web 本体语言时应把DAML $+ \\mathrm { o u r }$ 当作起始点[15]。Web 本体语言是很多人用于不同用途的工具，最重要特性是定义良好的形式化语义，共有7维;层次、包容、大小、研究、前景、社会、商业。本体语言能充分有力地捕获所需的大多数信息，同时仍足够的简单以便允许Agents在任意特定时刻执行自身基于事实的推理，这必将会给语义网的开发带来很大的贡献。语义网中本体的目的是：为分布在所有Web中的数据提供一种语义类型以方便用户通过搜索或查询引擎的访问，同时更便于Web 服务的输入或输出。",
+    "context2": "设计Web本体语言的需求：第一，如果单一语言将要服务所有不同的领域，那么该语言需要分层设计，其中简单的核心能够适应简单的分类学和关系，然而能够增加额外的层次（表达性、功能性和复杂性)以满足团队所需的更多表现力;第二，如果想要被广泛接受的话，语言(或至少核心)应具有简单、可达的语法;第三，如果取消标准化本体语言，应有软件工具来支持本体开发、使用和维护;第四，应有一些已开发的大规模应用，以便论证标准化本体语言和形式语义的价值，并帮助定义和表达语义网的不同层次应该怎样一起工作，以及这些技术怎样与更可用的XML 技术相关联。",
+    "context3": "Web 本体语言具有三种复杂性：计算复杂性、技术复杂性和概念复杂性。",
+    "context4": "a·计算复杂性。计算效率是三种复杂性中最少引人注意的，特别是当解释成渐近最坏情况的复杂性结果。有时所需的可判定性也是有争议的，可判定仅意味着不存在判断任意OWL理论一致性的算法，然而实际情况中可能存在许多很好的算法。不过计算复杂性仍是设计DAML十OIL 的指导方针之一。",
+    "context5": "b·技术复杂性。快速、广泛可用且便宜的技术支持是任意W3C 标准取得成功的基础。！ $\\mathrm { D A M L ^ { + } O I L }$ 在这方面已取得特别好的平衡，因为在很短的时间内，已经开发出相当多支持DAML+OIL的工具和技术:编辑器、推理引擎、浏览器、APIs、存储设备等。",
+    "context6": "c·概念复杂性。DAM $\\mathrm { I L } + \\mathrm { O I L }$ 失去平衡最多的地方就是概念复杂性。在概念方面强调DAMI $\\iota + \\mathrm { o u r }$ 优点的唯一方法就是查看DAML十OIL建立的本体。概念复杂性的另一重要方面就是建模方式，大多数本体建模都是基于框架的建模方式，这与DAML $^ +$ OIL 的描述逻辑有着直接的冲突。OWL通过删除一半DAML $^ +$ OIL 语言，并基于RDF 和RDFS 把描述逻辑语义隐藏在基于框架的语法后面，从而能降低DAML $^ +$ OIL的概念复杂性。",
+    "context7": "比较有代表性地支持 Web 本体的开发环境如 OntologyServer、Ontosaurus(一个基于Web 的Loom 和Power一Loom 知识浏览器[16]）、WebOnto[17]等等。"
+  },
+  "5总结": {
+    "context1": "本体是各种领域知识的一个研究方向。文中对 Ontology语言作了简要的综述：首先介绍了五种基于 XML 的 Ontology语言并对其比较分析;介绍了基于谓词逻辑的本体描述语言及相关本体工程;其次介绍了基于图的本体描述语言和Web 本体语言及其研究现状;最后介绍了本体的主要应用领域以及本体研究方向和应用现状。",
+    "context2": "随着研究的进展，人们已经不断认识到本体在计算机科学、知识工程等中的重要的意义和作用。但目前对本体的研究还存在许多问题以及有待发展的方向。本体研究存在的问题有：一是缺乏自动有效的开发管理工具，当前大多数的本体基本由手工开发，其开发效率较低，质量更难保证；二是目前本体的评价准则基本是类似定性的描述，还没有明确可操作的定量评价准则;三是当前许多本体的表示方式仍然是非形式化的，本体只提供了领域术语的自然语言或类自然语言定义，这样的本体很难实现机器与人、机器与机器交流与理解的目标[18]。本体已经在一些商用系统中得到应用，其重要性已经被半导体制造、飞机设计、企业过程管理、异构数据库集成、知识工程、软件工程和电子商务等不同领域所认识，但目前已开发本体的应用还是十分有限。如何解决上述问题，将是下一步研究的一个重点。"
+  },
+  "参考文献": {
+    "context1": "1A·Lee Gilbert·Using Multiple Scenario Analysis to Map the Competitive Futurescape：A Practice—based Perspective·Competitive Intelligence Review , 2000;11(2)   \n2FaheyL.Competitor Scenarios；Projecting a Rival's Marketplace Strategy. Competitive Intelligence Review，1986;10(2)   \n3Fink A，Schlake O． Scenario Management An Approach for Strategic Foresight·Competitive Intelligence Review 2OOo;11(1)   \n4Wei YM，Liang QM，Fan Y·A Scenario Analysis of Energy Requirements and Energy Intensity for China’s Rapidly Developing Society in the year 2020. Technological Forecasting and Social Change，2OO6;73(4)   \n5Lopez—Baldovin MJ，Gutierrez $-$ MartinC，BerbelJ.Multicriteriaand Multiperiod Programming for Scenario Analysis in Guadalquivir River Irrigated Farm\" ing· Journal of the Operational Research Society，2OO6;57(5)   \n6Marshall N，Grady B. Travel Demand Modeling for Regional Visioning and Sce\" nario Analysis·Transportation Research Record(l921)，2005   \n7Kapur A·The Future of the Red Metal Scenario Analysis·Futures,2005;37 (10)   \n8McBurney P，Parsons S·Chance Discovery and Scenario Analysis·New Genera tion Computing，2003;(1)   \n9曾忠禄,张冬梅·不确定环境下解读未来的方法：情景分析法·情报杂志， 2005;(5)   \n10张学才,郭瑞雪·情景分析方法综述.理论月刊,2005;(8)   \n11孙知明·情景分析的战略贡献.企业研究,2002;(3)   \n12宗蓓华·战略预测中的情景分析法·预测,1994;(2)",
+    "context2": "(责编：梅亦愚)"
+  },
+  "5.2情景分析本身固有的局限性": {
+    "context1": "a·过程复杂。目前许多企业都不再使用情景分析法作为长期预测的工具。造成这种现状的主要原因是情景分析法过程本身过于复杂。情景分析法在一定程度上依赖于管理者的直觉，而缺乏程序化模式，操作起来比较困难。而且环境中一些极其重要的变化往往逐渐演变，不易察觉。",
+    "context2": "b.近期效果不显著。情景分析法作为长期预测的工具，短期内效果不明显。运用情景分析法进行预测一般需要高层管理者投入大量宝贵的时间，而且使用者常常经过几年时间才能对情景分析法有深入的理解和信任。这也是曾经使用过情景分析法的企业最终放弃的原因。",
+    "context3": "c·受到公司传统模式的制约。一些企业的高层管理者相信自己和外部专家知道所有问题的答案，他们往往根据企业的过去经历来判断将面对的未来，认为未来与过去之间是连续的而不是跳跃式的发展。企业的计划部门使用传统的程序化的模式进行预测。在这样的企业中,情景分析法是很难获得成功的。",
+    "context4": "Knowledge Acquisition,1993;5(2) 2邓芳.Ontology 在语义Web中的应用研究·计算机应用研究,2004;(6) 3 R Karp,V Chaudhri,J Thomere $\\gamma \\cdot$ XOL;An XML-Based Ontology Exchange Language (version O.4) Aug.1999,www·ai·sri·com/pkarp/xol (current Jan· 2002). 4 S.Luke,J. Heflin· SHOE 1.O1 Proposed Specification· SHOE Project,Feb. 2000,www·cs·umd·edu/projects/plus/SHOE/spec1. O1. htm (current Jan. 2002) 5R.Kent ·Conceptual Knowledge Markup Language (version O.2).1998.www. ontologos·org/CKML/CKML%200.2.html (current Jan.2002). 6I Horrocks et al.OIL in a Nutshell,Proc ECAI'OO Workshop on Application of Ontologies and PS Ms,Berlin,Germany,2000 7I Horrocks and F van Harmelen·Reference Description of the DAML+OIL On tology Markup Language,draft report,2OO1,www·daml·org/2OOo/12/reference·html (current Jan.2002). 8 Knowledge Interchange Format ·http://logic Stanford·edu/kif/ 9Ontolingua·http://www-ksl·stanford·edu/knowledge sharing/ontolingua/ 10CycL·http://www·cyc·com/tech·html#cycl 11LOOM·http://www ·isi·edu/isd/LOOM/LOOM-HOME·html 12 F-Logic.http://www informatik uni-freiburg·de/dbis/Publications/95/ flogic-jacm ·html 13 Miller G,Beckwith R,Fellbaum C,Gross D,Miller K·Introduction to WordNet:an on-line lexical database·In International Journal of Lexicography, 1990;3(4) 14Concept Graph(CG).http://www·jfsowa·com/cg/ 15I.Horocks et al,OIL in a Nutshell,Proc.ECAI'OO Workshop on Application of Ontologies and PSMs,Berlin,Germany,2000 16Ontosaurus·http://www·isi·edu/isd/ontosaurus·html 17 WebOnto·http://kmi·open·ac·uk/projects/webonto 18刘柏嵩,高济·本体演化管理研究·计算机科学,2004;(5)",
+    "context5": "(责编：梅王京)"
+  }
+}

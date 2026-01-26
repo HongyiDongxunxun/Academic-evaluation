@@ -1,0 +1,95 @@
+{
+  "original_filename": "full_3583.md",
+  "国外术语注册与术语服务综述": "",
+  "欧石燕": {
+    "context1": "摘要本文对国外上最具代表性的三个术语注册与术语服务系统(FAO注册系统与术语服务，OCLC术语服务,Open Metadata Registry)和四个相关研究项目(STAR,HILT,ADL地名表与叙词表协议,PolParty)进行了详细的调研分析，在此基础上对我国术语注册与术语服务系统的开发与构建提出建议，主要包括：采用新兴的语义网和关联数据技术开发兼具术语注册与术语服务功能的完整系统，提供人与机器对注册词表元数据和词表内容的访问，采用RESTfulWeb服务构建术语服务，支持以关联数据方式发布词表内容等。图5。表4。参考文献30。",
+    "context2": "关键词术语注册术语服务语义网技术关联数据",
+    "context3": "分类号G250.76"
+  },
+  "A Review of Foreign Terminology Registries and Terminology Services": {
+    "context1": "Ou Shiyan",
+    "context2": "ABSTRACTThis paper givesa thorough reviewof three mostrepresentative terminology registriesand terminologyservices (FAO VESTRegistry&VocBench,OCLC Terminology Services，Open Metadata Registry）and fourrelated projects（STAR, HILT,ADLGazetee&ThesaurusProtocol,PolParty)．Andonthisasisitputsforwardthesugestions toheevelopentf domestic terminologregistriesndterminologyservices,includingdevelopinganintegratedsystemwhichhasdualfunctialitis ofterminologyregistryandterminologyservicesusingtheburgeoningSemanticWebandLinkedData technologies,providingboth humanandmachineacess tothemetadataandcontentofregisteredcontrolldvocabularies,building terminologyserviceswith RESTful web services,and enabling the publication of controlled vocabularies as Linked Data.5figs.4tabs.30 refs.",
+    "context3": "KEY WORDSTerminology registries.Terminology services.Semantic Web technologies.Linked Data."
+  },
+  "0引言": {
+    "context1": "行组织与管理。因此，早期一些机构(如图书馆)常常创建和维护许多词表列表以供内部使用,譬如欧盟发布的Thesaurus Guide列出了至少以一种欧洲语言表示的约700个词表。1996年以来,国外陆续出现了一些以电子格式发布的在线词表列表,如加拿大英属哥伦比亚大学图书情报学院创建的词表索引①,德国MaxPlanck数字图书馆的Koch创建和维护的词表列",
+    "context2": "术语表、分类表、叙词表、本体等各类词表(也称为知识组织系统)在信息资源描述、组织、管理、发现等方面的强大功能已经得到图书情报界和其他相关领域的广泛认可。为了促进对这些知识组织资源的有效利用，需要对它们进"
+  },
+  "表①,但是它们中的大多数都没有得到持续的维护与扩展,有些甚至已经消失。": {
+    "context1": "1998年,在美国计算机学会(ACM)数字图书馆会议的专题讨论会上，网络知识组织系统( $\\mathrm { \\Delta N K O S ^ { ( 2 ) } }$ )的研究人员开始对词表注册进行讨论,探讨如何对叙词表等知识组织系统提供交互式的网络访问和使用。前期工作主要集中在词表元数据方案的设计上,Hill领导的任务小组首先提出了一个以词表注册为目的的非常详尽的元数据方案,被称之为NKOSRegistry，该方案包含了选择词表时所需的大部分信息。1998在NKOS 网站上发布了NKOSRegistry的第二版。2001年,来自OCLC的Vizine-Goetz 创建了一个更为正式的文档(即数据元素的参考文档)，仿照DC元数据元素，采用来自ISO/IEC11179标准的一组属性来定义词表元数据方案中的每个元素，这就是NKOS Registry第三版的草案。",
+    "context2": "在2003一2004年间,都柏林核心元数据后动计划(DCMI)在开发其元数据注册系统时开发并测试了“词表编码体系（Vocabulary EncodingSchemes）\"注册系统,用以描述和命名能够在元数据记录中使用的词表，这可看作是最早的词表注册系统，但该系统因种种原因最终没有得以持续。目前DCMI的注册系统总称为都柏林核心元数据注册系统(Dublin Core Metadata Registry)③,提供关于DCMI元数据术语及其相关词表的最新权威信息。这个注册系统中包含的词表数量非常少,仅限于DC元数据中使用的词表。",
+    "context3": "2005年以来，术语注册与术语服务成为各种元数据会议和知识组织系统会议的热门主题。2005年都柏林核心元数据(DC)大会的 NKOS特别论坛将词表注册作为其中的一个议题，Heery做了关于元数据和词表注册的报告。2006和2007年欧洲NKOS研讨会④也讨论了对注册系统的需求-。2008年欧洲NKOS研讨会分析并讨论了术语注册与术语服务的需求和应用以及用于词表注册的元数据。2008 年DC大会的NKOS特别论坛讨论了不同类型注册系统的异同点[。2009年美国NKOS研讨会和欧洲NKOS研讨会也将术语注册与术语服务作为会议的主要议题之—[11-12]",
+    "context4": "在上述背景下，国外许多机构开展了术语注册与术语服务的研究与开发工作,既有不少实用系统问世,如FAO VEST Registry与 VocBench③、OCLC术语服务③、Open Metadata Registry?,也有大量的研究项目进行,如HILT项目③、STAR项目等,这些系统和研究项目对于构建我国面向中文知识组织系统的术语注册与术语服务有着非常重要的借鉴意义和参考价值。因此，本文对国外著名的术语注册与术语服务系统及相关研究项目进行调研分析，从而为我国术语注册与术语服务的开发研制提供建议和参考。"
+  },
+  "1术语注册与术语服务概述": {
+    "context1": "所谓注册(Registry）,是指权威的、集中控制的信息存储[。集中控制有两种情况：一是集中存储,即将信息集中存储在一个服务器中，从而进行集中管理和访问，这种也被称为存储库(Repository）；二是分布式存储，虽然信息是分散存储在不同的服务器中，但进行集中管理并提供统一访问。本文所述的注册系统涵盖了上述两种情况。注册系统通过对注册资源进行集中发布、描述和管理并提供统一访问,能够有效地促进信息交换和知识共享。注册系统对注册资源提供的管理与访问分为两个层次：一个是元数据层面，对注册资源的特征和属性进行描述，供用户浏览和查询注册资源;另一个是内容层面，提供对注册资源内容的操作与访问。注册系统对注册资源可只提供元数据层面的管理与访问，也可同时提供上述两个层面的管理与访问。常见的信息注册系统有以下几种。",
+    "context2": "·元数据注册：提供对元数据规范及规范中的元数据术语(元数据元素和元数据记录中需使用的规范词汇)的注册，譬如都柏林核心元数据注册系统。",
+    "context3": "·术语注册：提供对各类受控词表以及词表中术语的注册,因此也被称为词表注册。术语注册常常伴随术语服务功能，从而支持机器对机器的词表访问，譬如OCLC术语服务。",
+    "context4": "·本体注册：提供对本体及本体中定义词汇(类和属性)的注册，譬如美国国家自然科学基金项目海洋元数据互操作(Marine Metadata In-teroperability)中研发的MMI本体注册和存储库(MMI Ontology Registry & Repository)①。",
+    "context5": "·服务注册：提供对Web服务的注册,通常采用网络服务描述语言WSDL对Web服务进行描述，譬如英国联合信息系统委员会（JISC）的信息环境服务注册（Information EnvironmentService Registry）[4。术语服务既可单独在服务注册系统中进行注册,也可在术语注册中列出。",
+    "context6": "·馆藏注册：提供对信息资源集合的注册,譬如Cornell大学图书馆的数字馆藏注册（Registryof Digital Collection)②。",
+    "context7": "·数据标准注册：对各种数据标准(如数据词典、数据模型、方案和代码集等)进行注册，譬如美国儿童支持执行办公室面向儿童支持群体的数据标准注册（Data Standards Regis-try)③。",
+    "context8": "有些注册系统同时支持多种类型资源的注册,如 Open Metadata Registry和FAO VEST Regis-try同时提供对元数据元素集和受控词表的注册,这类系统属于综合注册系统。本文主要对术语注册系统和提供术语注册功能的综合注册系统进行调研分析。",
+    "context9": "术语注册是指对各种受控词表提供权威的、集中控制的存储，从而促进词表的发现、重用、管理、标准化和互操作。一个术语注册系统能够列出、描述、识别、指明在信息系统和信息服务中可用的词表集合，并且提供图形化界面和术语服务以供用户访问和使用词表内容(指词表成员术语、概念及其相互关系）。术语服务是指对词表元数据和词表内容进行浏览、查询、应用的各种Web服务的统称。术语服务通过Web应用程序接口(API)支持机器对词表及其内容的访问和调用，是在网络环境下对词表进行应用的重要途径。术语注册和术语服务两者相辅相成，前者是后者的前提和保证，后者是前者的目的和应用。术语注册和术语服务系统是各种知识组织系统共建共享的重要平台，是网络知识组织系统由理论走向实际应用的关键环节，也是一个国家或领域内重要的信息基础设施。"
+  },
+  "2代表性术语注册与术语服务系统": {
+    "context1": "目前，能够在线访问并提供服务的代表性术语注册与术语服务系统有:FAO注册系统与术语服务、OCLC术语服务和开放元数据注册（OpenMetadata Registry）。"
+  },
+  "2.1FAO注册系统与术语服务": {
+    "context1": "联合国粮农组织（FAO）下属的农业信息管理标准(AIMS)团队创建并维护着大量农业领域的信息资源，其中包括各种农业类受控词表。为了促进对这些词表资源的利用，FAO开发和构建了针对受控词表的注册系统和Web服务，提供对词表的浏览与检索以及对词表内容的访问与使用。FAO的术语注册和术语服务分为两部分：一个是综合性农业信息管理注册系统VEST Reg-istry，提供对受控词表、元数据元素集和信息管理工具三种资源的注册;另一个是多语言词表编辑与管理工具VocBench,主要针对AGROVOC词表提供编辑、管理与术语服务。"
+  },
+  "2.1.1VEST Registry": {
+    "context1": "FAO早期构建了一个受控词表注册系统，称作FAOKOSRegistry,存储了90 多个与农业和农业管理相关的叙词表、规范文档、标题表、本体等。2011年,FAO将KOS 注册系统升级为综合性的VEST注册系统,不仅包括受控词表，还包括元数据元素集和信息管理工具。VESTRegistry提供了一个基于Web的用户界面，使得用户能够通过该界面检索和分类浏览各种注册资源。该注册系统实质上是一个目录系统，只支持对注册资源元数据的检索与浏览，无法支持对注册资源内容的访问，尤其是对词表内容的访问。此外,VESTRegistry中注册的词表是事先存在的,该注册系统不支持用户注册并上载新词表,因此不能算是一个真正意义上的术语注册系统。"
+  },
+  "2.1.2VocBench": {
+    "context1": "AGROVOC多语言农业词表是农业领域的核心词表,因此FAO重点开发了针对该词表的编辑、管理与访问工具。",
+    "context2": "1996年，FAO采用OWL语言定义AGRO-VOC词表的语义化描述模型，力图以更精炼和更准确的方式描述叙词表中的语义和词汇关系，从而在农业领域建立一个多语种的概念库(即Con-cept Server）。2010 年,在W3C正式推出SKOS语言之后,FAO又改用SKOS和SKOS-XL语言对AGROVOC词表重新进行语义化描述[。为了实现对传统格式AGROVOC词表的语义化转换，FAO采用JAVA语言开发了一个基于Web的多语言本体概念构建和维护工具，称作AGROVOC Concept Server Workbench,以帮助分布在全球各地的AGROVOC词表维护者合作构建农业领域的多语言本体和词汇系统[。Workbench具有词表编辑管理、术语查找、词表验证、词表内容统计、词表输出和用户管理等功能。目前,Workbench 已从单一的AGROVOC词表编辑工具发展成为一个管理基于SKOS的叙词表、规范列表、地名表等多种类型词表的多语言编辑和工作流程工具VocBench。该工具相当于一个术语注册系统,提供词表内容层面的管理与访问。",
+    "context3": "通过VocBench编辑和维护的AGROVOC词表已被FAO 发布为关联数据,并且与LCSH、DDC等多个词表建立了关联，成为关联开放数据(LOD)云的一部分。AGROVOC的关联数据版采用SKOS和 SKOS-XL 语言表示为RDF数据，存储在Allegrograph三元组存储器中，可通过SPARQL终端对词表内容进行查询,并通过关联数据前端Pubby将词表中概念的URI地址转换为 HTTP协议可解引用的HTML文档。",
+    "context4": "针对终端用户，FAO对AGROVOC词表提供了基于Web的浏览与查询、SPARQL查询和术语服务三种访问方式,支持对AGROVOC词表内容的访问。通过Web界面，用户可查找词表中与输入字符串相匹配的术语，浏览词表中某个术语的详细信息及其所处的概念层级，还可以某种序列化格式下载整个词表。通过AllegroGraph 的",
+    "context5": "SPARQL查询终端,用户可自行构建SPARQL查询以检索词表中的特定内容，虽然这给用户提供了极大的灵活性,但编写 SPARQL查询对于普通用户来说并不是件容易的事情。因此,FAO还提供了18个基于 SOAP协议的术语服务以支持机器对词表内容的访问。这些术语服务在后台通过SPARQL查询终端来实现,但相应的 SPARQL查询已由开发者编写完成,并以Web服务的方式提供。"
+  },
+  "2.2OCLC术语服务": {
+    "context1": "OCLC术语服务是OCLC Research在2004至2008年间开展的一项研究项目，基于10个受控词表①构建了一个实验型术语服务系统。该系统提供的功能有： $\\textcircled{1}$ 浏览某个词表的描述(即元数据信息）； $\\textcircled{2}$ 搜索某个指定词表中的术语(即概念或标题）； $\\textcircled{3}$ 浏览某个术语与其他术语的关系（含等价关系、层次关系和网状关系等）； $\\textcircled{4}$ 通过URI标识符检索某个术语。",
+    "context2": "在OCLC术语服务实验系统中，词表元数据(即词表的描述)和词表内容(即词表中的术语)均采用MARC21规范数据格式(Marc21Formatfor AuthorityData in XML)进行表示和存储,为了便于检索，还为词表元数据和词表中的术语建立了索引。整个系统采用 SRU(Search/Retrievevia URL)检索协议和 CQL(Common Query Lan-guage)查询语言实现对词表元数据和词表内容的检索。SRU是针对Web的信息检索协议，采用REST风格的Web 服务架构,通过URI参数方式提交检索请求,用于查询网络上的索引或数据库并以XML 流返回检索结果。CQL是一种面向信息检索系统(如Web索引、图书馆编目)的形式化查询语言，不仅具有直观、人类可读可写的优点，还具有较强的表达能力，能用于构建复杂的查询。在OCLC术语服务中，检索结果可以HTML、MARC XML、MADS、SKOS 和 Zthes多种不同的表示形式输出，用户可从中自行选择输出形式。",
+    "context3": "OCLC术语服务可以有多种应用，譬如： $\\textcircled{1}$ 提供用于社会标签的术语源； $\\textcircled{2}$ 在搜索(如搜索引擎)中对查询进行精炼； $\\textcircled{3}$ 为检索词提供上下文关系或背景； $\\textcircled{4}$ 对元数据中的名称和主题词进行验证； $\\textcircled{5}$ 为跨数据库检索提供便利。OCLC术语服务在元数据创建和查询词扩展中已经有了一些实践性应用。在OCLC术语服务项目的早期,开发者实现了一种通过Microsoft Office 2003中的 Microsoft Research Task $\\mathrm { P a n e } ^ { \\textregistered }$ 调用OCLC术语服务的方式,通过该方式,可在OCLCConnex-ion编目工具中使用术语服务,譬如,通过术语服务自动获取其他词表(如LCSH)中与“lovesorties\"一词相映射的词并拷贝到编目工具的相应字段(见图1）。此外,美国印第安纳大学数字图书馆项目利用OCLC术语服务提供了一个查询扩展功能，譬如，通过术语服务自动获取\"temples”一词的下位词并将其作为查询扩展词推荐给用户（见图2）"
+  },
+  "2.3Open Metadata Registry": {
+    "context1": "Open Metadata Registry,原名 NSDL Regis-try,源于2005年美国自然科学基金资助的一个大型数字图书馆研究项目“美国自然科学数字图书馆（NSDL）”。在该项目中设计和开发了大量元数据元素集（metadata schemas）、受控词表（schemes）和应用规范（application pro-files）,为了在项目成员中共享这些方案（sche-mas)和概念体系（schemes）,NSDL开发了一个综合性注册系统，对上述元数据方案、受控词表和应用规范提供统一的存储与管理,以支持它们的发现、重用、创建、管理、标准化和",
+    "context2": "![](images/b0fce6f05d778c85bca8991b2e623caa673d5eb5951354355889cbec6db1bb73.jpg)  \n图1在OCLC Connexion编目工具中使用术语服务[22",
+    "context3": "![](images/257c126c77bd07466d9411cf9c13d2a5a150597d0beac8cbbba8722bfc16b13b.jpg)  \n图2印第安纳大学数字图书馆项目中利用OCLC术语服务实现的查询词扩展功能[23]",
+    "context4": "互操作。当时正值SKOS语言的草案出台，因此,NSDLRegistry也成为第一个事实上采用SKOS作为核心标准的注册系统。在NSDL项目结束后，项目的开发者将其作为一个完全免费的注册系统向公众开放,并于2010年7月将其改名为 Open Metadata Registry（OMR）。目前,在OMR系统中共注册有316个受控词表和83个元数据元素集。",
+    "context5": "OMR注册系统的开发者将系统的服务对象分为两大类：词表提供者(vocabulary owners /pro-viders)和词表消费者(vocabulary users/consum-ers）。他们认为,注册系统成功与否,在很大程度上取决于词表提供者能否对其注册的词表进行持续维护4。因此OMR的重点是为词表提供者提供非常重要且独具特色的服务，包括： $\\textcircled{1}$ 词表注册与上载：既可以多种格式(含非RDF/XML格式)导入词表内容,也可通过可视化编辑界面创建和修改注册词表的内容； $\\textcircled{2}$ 词表自动验证：能够对导入的词表文档自动进行句法和完整性验证,检测其中的错误,以保证注册词表的质量； $\\textcircled{3}$ 版本控制：追踪注册词表的变化情况,保留其完整的修改历史。在OMR注册系统中,注册词表以RDF格式表示和存储,其中受控词表采用SKOS语言描述，元数据元素集采用RDFS语言描述,均采用 SPARQL查询实现对词表内容的检索。",
+    "context6": "词表消费者可进一步分为人和机器两种。对于人类用户,OMR注册系统提供的服务有： $\\textcircled{1}$ 浏览注册词表的元数据和词表内容； $\\textcircled{2}$ 浏览词表成员(术语或概念)的详细信息; $\\textcircled{3}$ 浏览注册词表修改或更新的历史信息及版本信息； $\\textcircled{4}$ 对词表中的术语进行基于字符串匹配的检索； $\\textcircled{5}$ 提供SPARQL查询界面实现对词表元数据和词表内容的检索; $\\textcircled{6}$ 以 SKOS RDF或XMLSchema格式输出受控词表的内容，以RDFS格式输出元数据元素集的内容； $\\textcircled{7}$ 提供词表更新的自动通知。在下一步工作中,开发者还计划提供词表内容的可视化浏览。对于机器用户，OMR注册系统提供REST风格的Web服务,支持机器对机器的词表访问。总体来说，OMR注册系统提供了非常强大的术语注册功能,但是其面向机器的术语服务功能还比较薄弱。"
+  },
+  "3相关研究项目": {
+    "context1": "除了在线的术语注册与术语服务系统，许多研究项目也对术语服务进行了研究探索，比较著名的有HILT项目、STAR项目、ADL地名表与叙词表协议。此外,2008年，英国巴斯大学UKOLN研究中心和格拉摩根大学超媒体研究小组合作进行的TRSS项目对当时主要的术语注册和术语服务系统进行了调研分析，并在此基础上提出了一个术语注册推荐模型[。TRSS可以说是目前为止关于术语注册与术语服务最全面的调研分析项目，对术语注册与术语服务系统的开发与设计具有重要的参考价值。"
+  },
+  "3.1 HILT项目": {
+    "context1": "HILT项目是由英国斯特斯克莱德大学信息资源局数字图书馆研究中心和爱丁堡大学国家学术数据中心开展的一系列研究项目的总称，由英国联合信息系统委员会(JISC)资助。HILT第四阶段的任务是关于术语服务，其主要任务是研究、探索和开发解决多学科信息环境中交叉搜索难题的试点方案并提供各种术语检索工具。该阶段的研究开始于2007年4月，完成于2009年5月。",
+    "context2": "HILT项目中构建的术语服务基于LCSH、MESH和HASSET等12个受控词表,且部分词表(如MESH、HASSET和UNESCO 等)与DDC 建立了映射关系,整个系统架构如图3所示。词表内容以关系型数据的形式存储在 SQL Server2005数据库中,对数据库的访问通过SOAP服务器进行。SOAP服务器提供了七个APIs,实现与数据库的交互,检索结果被包装为 SKOS格式。这七个SOAP服务采用一组简单易用的PHP类创建和调用。虽然在HILT项目中也测试了REST方式的Web服务，但是开发者认为SOAP方式在现阶段足够使用且更加稳定。最后,SRU/SRW服务器通过SRU/SRW协议访问SOAP服务器提供的APIs,并以SKOS格式返回检索结果。",
+    "context3": "![](images/5631d41ab31f008b9c268a5cf12e549667b8cd5ea85d27c680815e8214d766c5.jpg)  \n图3HILT术语服务的实现机制[2",
+    "context4": "HILT项目的合作伙伴,包括Intute①,TheDepotat EDINA $\\textcircled{2}$ ，Scottish Collection Network(SCONE) $\\textcircled{3}$ 等,将该项目中开发的术语服务嵌入到各自系统中，演示术语服务在实际应用中的功能与作用。譬如,在Intute中,通过术语服务从MESH和HASSET词表中获取与“rocket”相关的术语以及相匹配的DDC分类号，并返回到用户界面，以帮助用户扩展检索词（见图4）。但非常遗憾,这些演示系统目前都已经无法在线访问。"
+  },
+  "3.2 STAR项目": {
+    "context1": "STAR是由英国AHRC研究基金会资助的研究项目,由英国格拉摩根大学、英国文物委员会和丹麦图书馆学和情报学皇家学院合作研究。该项目历时三年(2007—2010)，主要目的是探索语义术语工具对于扩展和提升数字考古资源可访问性的潜在作用。",
+    "context2": "在该项目中，提供服务的词表是关于英国遗产的受控词表(含叙词表和术语表)，整个系统的架构如图5所示1。词表内容采用SKOSRDF格式进行表示，通过 $\\mathrm { S e m W e b } \\mathcal { \\textregistered }$ 开源类库以RDF三元组的形式存储在底层的MySQL数据库中，中间层采用 $\\operatorname { S e m } \\mathbb { W } \\mathrm { e b }$ 支持的SPARQL查询实现对词表数据的检索，上层通过SOAP风格的Web服务提供远程应用系统访问词表内容的API接口。STAR项目中一共实现了七个术语服务，提供术语查找、浏览和概念扩展等功能。STAR项目中开发的Web 服务客户端有两种：一种是基于Web 浏览器的微件（Web Widget）,另一种是基于Windows的应用程序。"
+  },
+  "3.3ADL地名表与叙词表协议": {
+    "context1": "ADL Gazetteer 和 Thesaurus Protocol 是 2001至2002年间在美国亚利山大数字图书馆项目中开发的访问分布式地名表和叙词表资源的两个协议,是基于XML和HTTP协议的轻量级无状态协议。目前该项目已结束,这两个协议的最后修改日期是2009年9月。",
+    "context2": "![](images/27d1521e723cb13a7eaccd1627ab544dd8511d00599d231f0b53ef04420a387b.jpg)  \n图4在Intute通过术语服务获取“rocket\"的相关术语和DDC 分类号[2",
+    "context3": "![](images/da3376fd49f2edf80c5241498dd08492995a83cc5333c642b58ac1aebed0052e.jpg)  \n图5STAR项目中基于SKOS的术语服务架构",
+    "context4": "ADL地名表协议首先半形式化地定义了一个简单的地名表抽象模型,给出了地名表的通用结构和内容构成。该模型是定义地名表术语服务、报告格式和查询语言的基础。ADL叙词表协议共提供了三个SOAP方式的术语服务，实现对地名表属性和地名表中地名的查询[2",
+    "context5": "ADL叙词表协议遵循ANSI/NISO Z39.19-1993标准①构建了一个叙词表模型，自定义了八种XML格式,分别用于描述叙词表中的术语和属性以及术语的组织与排列。该协议用于机器对叙词表的访问和使用，提供了五个独立的、无状态的SOAP方式的术语服务，用于实现对叙词表内容的查询与浏览，但不支持叙词表的创建、维护、共享与映射等操作。"
+  },
+  "3.4PoolParty": {
+    "context1": "PoolParty是奥地利的 Semantic Web 公司开发的一个基于Web 的叙词表管理工具,具有术语注册与术语服务的功能。PoolParty采用JA-VA语言基于语义网标准与技术进行构建，采用SKOS语言表示叙词表内容，采用语义网工具包Sesame 的 Storage & Inference Layer（SAIL）API对词表SKOSRDF数据进行存储与推理,采用关联数据技术发布词表,采用SPARQL查询访问词表内容。",
+    "context2": "PoolParty有基本、高级和企业三个版本：基本版提供了基于Web 的可视化编辑环境,支持基于 SKOS的叙词表的创建与编辑;高级版增加了关联数据前端，能够将叙词表中的概念在网络上发布为关联数据,并且与其他开放数据集（如DBPedia、WordNet、LCSH、GeoNames）中的资源建立关联关系，从而成为关联开放数据(LOD)云的一部分,同时提供 SPARQL 终端供用户访问词表内容;企业版增加了文本挖掘功能,能够从大规模文档集中自动抽取短语或命名实体,并基于叙词表中的概念对文档进行标注或利用文档中的新词扩充叙词表中的词汇，然后将结构化或非结构化信息集成到一个强大的智能搜索索引或RDF三元组存储器(如Vir-tuoso 或OWLIM)中。PoolParty支持以SKOS格式（含RDF/XML、N-Triples、Turtle、N3、Trix、Trig序列化格式)或Zthes格式表示的外界词表的导入,采用PoolParty创建的SKOS词表也能够以各种 RDF 序列化格式导出。此外,PoolParty还能够对基于SKOS的叙词表的质量自动进行检测，检测内容包括句法检测、SKOS完整性检测、关联数据检测等几个方面。",
+    "context3": "PoolParty还发布了一组SKOSAPI,提供通过RESTfulWeb服务方式对叙词表元数据和内容的访问，使得机器和不熟悉SPARQL查询语言的用户也能够方便地访问叙词表。通过这些Web服务API,能够实现基于叙词表的各种语义网应用，譬如：文档标注标签的自动推荐，输入标签时的自动拼写提示，相似文档推荐，语义搜索等 。"
+  },
+  "4分析比较": {
+    "context1": "在本节中,笔者从总体功能、数据格式、术语服务架构模式、术语服务种类与功能四个方面对所调研的三个在线系统（FAO,OCLC，OMR)和四个相关项目(HILT,STAR,ADL,Pool-Party)进行分析比较。"
+  },
+  "4.1总体功能": {
+    "context1": "所调研的七个系统/项目的总体功能如表1所示。上述系统中,只有OMR(Open Metada-da Registry)和PoolParty同时提供术语注册与术语服务功能。PoolParty本质上是一个软件工具而非信息系统,但是基于该工具能够很方便地实现一个术语注册系统并提供术语服务。PoolParty的注册功能主要在于叙词表的创建与"
+  }
+}

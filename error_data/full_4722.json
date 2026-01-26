@@ -1,0 +1,100 @@
+{
+  "original_filename": "full_4722.md",
+  "基于谷歌趋势和百度指数的ResearchGate关注度及使用情况分析": {
+    "context1": "张义民,韩 文,霍萌(同方知网(北京)技术有限公司，北京100192)",
+    "context2": "摘要：【目的/意义】指出了国内对ResearchGate的关注及使用上的不足,为学术社交产品在国内的推广和发展提供参考。【方法/过程】利用谷歌趋势(Google Trends)功能和百度指数平台,分析ResearchGate近五年内在全球受关注度和使用情况，并将国内关注度和使用情况与其进行了对比分析。【结果/结论】ResearchGate近五年内在全球范围内的受关注度不断上升。搜索热度变化与新闻热点密切对应。国内用户开始对ResearchGate产生明显关注的时间远远落后于国际整体，关注热度及利用程度也不及国际水平。",
+    "context3": "关键词：ResearchGate;谷歌趋势;百度指数中图分类号：G254.9 文献标识码：A 文章编号:1007-7634(2017)07-60-05",
+    "context4": "DOI:10.13833/j.cnki.is.2017.07.011"
+  },
+  "A Study of ResearchGate's Attention and Usage Based on Google Trends and Baidu Index": {
+    "context1": "ZHANG Yi-min, HAN Wen, HUO Meng (Tsinghua Tongfang Knowledge Network Technology Co.,Ltd.,Beijing 10o192,China)",
+    "context2": "Abstract:【Purpose/significanceThe shortage of the atention and the usage of ResearchGate in domestic are pointedout. This paper providesareference for the promotionand developmentof academic socialnetwork products in China.【Method/ processThe global atention rate andusageof ResearchGateareanalyzedand compared withthedata of China in recent 5 years according to the Google Trends and Baidu Index.【Result/conclusion】The globalusers’atentionrateon ResearchGaterises continuouslyduring thelastfiveyears.Thechangeof searching frequencyof thissite is closely relatedto the hot news.The beginnngof domestic usersbegan topayatentiontoResearchGateisfarbehindtheinternationaltrend.Inaddition,thedegree ofthe domestic users on theatentionrateand utilization is also lowerthan the international level.",
+    "context3": "Keywords: ResearchGate; Google Trends; Baidu Index"
+  },
+  "1引言": {
+    "context1": "ResearchGate。",
+    "context2": "随着Web2.0信息技术的快速发展,在线社交网络[已经成为人们获取信息、传播信息的主要渠道[。学术社交网络作为虚拟社交的一个细分产品,改变着传统的学习和教育方式，已经越来越成为科研人员，专业技术人员进行知识分享,学术交流的重要平台[3-4]。通过学术社交网络,学者能第一时间掌握最新的学术动态,解决目前学术人员的信息交流和知识共享相对滞后的问题,促进知识的创新。对于学术社交网络的用户来说,可能来到网站的目的不尽相同[5],但是不可否认学术社交网络的影响力正在不断上升中，尤其是",
+    "context3": "德国的ResearchGate创建于2008年,是目前比较热门的学术社交网络之一。截止本文撰写之际,已超过1100万人在上面分享他们的成果，目前已收集到多达一亿篇幅以上的成果和一百万的问答。科学家可以在上面分享研究成果、学术著作,以及参加一些科研论坛或兴趣小组及问答。网站的创建人之一Madisch表示要把ResearchGate建成全球科学家参与合作交流、同行评议、分享研究成果,甚至是上传一些原始数据的关键平台[]。",
+    "context4": "2014年5月，《自然》杂志给数以万计的研究人员发送了调查问卷[],来了解研究人员对学术社交网络的使用情况,收到了来自95个国家的3500多个回函。分析结果肯定了",
+    "context5": "ResearchGate在科学圈内确实拥有较高知名度。所以本文的研究对象为有学术界Facebook之称的ResearchGate,数据采集工具选用谷歌趋势和百度指数,分析ResearchGate的受关注情况及使用情况。",
+    "context6": "搜索引擎用户关注度是以数千万网民的搜索量为数据基础,以关键词为统计对象,科学分析并计算关键词在搜索引擎中搜索频次的加权和，并以曲线图的形式呈现计算结果。用户主动搜索的行为体现了对象的被关注情况,如果用户通过搜索引擎进行查询的次数越多，说明该对象被网民的关注度越高，从而对象的热度就越高。另外从搜索对象的相关搜索中可以看出用户对查询对象的关注重点及使用情况。",
+    "context7": "目前典型的搜索引擎谷歌和百度均对用户搜索量进行了分析，并提供不同区域搜索热度的对比分析，用户的相关搜索词分析等。利用谷歌趋势和百度指数对ResearchGate的受关注度及使用情况进行对比分析，可以找出国内用户在使用：上与国际水平的差距,从而为学术社交产品在国内的推广及发展提供参考。"
+  },
+  "2 理论基础与工具": "",
+  "2.1灰色理论": {
+    "context1": "灰色理论[8是应用数学的细分理论，该理论是由邓聚龙教授提出的小样本数据处理工具。他提到灰色生成方法包括累加生成、累减生成、初值化生成、均值化生成、区间值化生成。灰生成方法可用来处理曲线数据,分析曲线趋势。为研究ResearchGate搜索热度的总体趋势，本文运用\"均值灰生成方法”,对曲线图形进行处理，来获得搜索热度的变化率。所用公式是在张凯设计的灰生成计算方法基础上进行的改良,如公式(1)：",
+    "context2": "$$\n\\mathrm { y j } { = } \\left( \\sum _ { i = n \\times ( j - 1 ) + 1 } ^ { n \\times j } \\right) / \\mathrm { n }\n$$",
+    "context3": "将搜集的数据分成两组，其中j代表1或2,n代表数据总数的一半,碰到奇数的情况可以增加或减少一个数据,在数据较多的时候不影响结果的讨论。"
+  },
+  "2.2工具介绍：谷歌趋势与百度指数": {
+    "context1": "谷歌趋势是Google开发的一款服务[],用于分析用户在谷歌中搜索过的条目。分析结果会在世界地图上显示出对于条目的地区关注度差异。谷歌趋势图谱中的搜索量指数[代表相对于图表中指定区域和指定时间内最高点的搜索热度。横轴代表时间,纵轴代表搜索热度，热度最高的时间点对应的得分为100,其他时间点的得分则是相对于最高点而形成。多个检索词对比时也是将当前限定条件下的最高点设置为100。要注意数值不代表绝对搜索量。还可以通过设置搜索范围和所需时间段进行精准的定位检索。它甚至能告诉用户哪些地区的人对于当前搜索热词关注度最高,并提供与关键词相关的主题与查询。它通过谷歌本身的海量搜索结果,利用可视化效果向用户展示某一关键词在网络空间的关注热度，从而进行舆情挖掘以及发展趋势研究。",
+    "context2": "谷歌作为全球最知名的搜索引擎，一直在世界搜索引擎市场占据主导地位。支持多语言检索，可提供30余种语言选择，是互联网上五大最受欢迎的网站之一。所以可以认为谷歌趋势的分析结果具有充分的可信度和分析价值。",
+    "context3": "百度指数是百度的一个子产品，可提供数据采集、存储、挖掘、分析和可视化服务[2],包括趋势研究,需求图谱,舆情洞察，人群画像四个模块。趋势研究提供搜索指数，是以网民在百度的搜索量为数据基础，以关键词为统计对象，科学分析并计算出各个关键词在百度网页搜索中搜索频次的加权和。",
+    "context4": "百度指数基于百度海量数据，一方面进行关键词搜索热度分析，另一方面深度挖掘舆情信息、市场需求、用户特征等多方面的数据特征。百度指数反映网民的主动搜索需求，所有影响网民搜索行为的活动都可能影响百度指数。本文以百度指数搜索的可视化结果作为分析国内用户对Research-Gate 的关注度的数据基础具有可参考性。"
+  },
+  "3ResearchGate的数据调查与分析": {
+    "context1": "下面将对ResearchGate进行详细的关注度及使用情况分析。分析指标有谷歌趋势的总体热度变化，谷歌趋势的区域搜索热度变化,全球用户的相关查询，百度指数内的搜索指数，国内用户的相关查询等。对比分析近五年内，Re-searchGate在全球和在中国市场的关注度变化，及用户的相关搜索的差异。"
+  },
+  "3.1 谷歌趋势": "",
+  "3.1.1 热度变化趋势": {
+    "context1": "图1是过去五年ResearchGate在全球范围内的搜索热度变化曲线图,横轴代表时间,纵轴代表热度,数值的意义是设定当前条件下搜索热度最高的时间点对应的值为100,其他时间点的搜索热度值在此基础上得到。即数值不代表绝对搜索量，从谷歌搜索的热度变化曲线图中可以看出搜索热度的变化趋势。",
+    "context2": "![](images/98aa4a66fabe92920a9a1db3a64fb7fdcd9d2c7c005fd764a1753d2396109743.jpg)  \n图12012年1月1日 ${ \\sim } 2 0 1 7$ 年1月1日ResearchGate在全球范围内的搜索热度变化曲线图(谷歌趋势)",
+    "context3": "首先从总体曲线图中可以看出，近五年全球范围对Re-searchGate的关注度不断升高，2012年热度变化较平稳且缓慢，2013和2014年热度上升速度不断加快，然后从2015年至今保持了一个较平稳且较高的搜索热度。",
+    "context4": "其中有两个时间段出现了明显的尖峰,即热度飙升期，分别是2012年2月和2013年6月(矩形框标注处)。2012年2月,ResearchGate完成了B轮融资[13],由Founders Fund合伙人和PayPal的联合创始人Luke Nosek领投。2013年6月完成了由比尔盖茨和Teneya 资本的又一次融资。谷歌趋势的峰值段曲线正好与新闻时间对应，说明搜索热度与新闻热点形成了密切的关联。",
+    "context5": "ResearchGate在近五年内的受关注程度不断上升，为了知道ResearchGate在全球各个区域的发展情况,进行了下面的区域搜索热度分析。"
+  },
+  "3.1.2区域搜索热度": {
+    "context1": "谷歌的搜索量指数是一个经过规格化[14]处理的相对指标，即将得到的数据除以某个常规变量来消除变量对数据的影响，来比较数据集的基础特征。因此,谷歌趋势可以显示用户在谷歌上搜索某个主题的相对倾向，但不能测算对某主题的总体关注度,不能用于单个搜索的绝对值相关计算。",
+    "context2": "图2是近五年全球范围内ResearchGate的区域搜索热度演变图。图中的数值意义：在指定时间范围内，所查关键词在该位置所有搜索中热度最高的得100分;字词热度是前者一半的位置得50分;而字词热度不到最高热度 $1 \\%$ 的位置得0分。得分越高表示字词在当地所有查询中占比越高，并不代表绝对查询次数越多。",
+    "context3": "结合图2的a),b),c),d),e)可以看出2012年对Research-Gate 的关注度最高的是美国，其他地区基本没有什么关注度。到了2013年印度的关注度最高，欧洲主要国家也保持一个较高的关注度,从世界地图中可看出美国依然有一定的关注度。2014年印度关注度最高，欧洲等主要国家关注度依然可观,澳大利亚的关注热度位居第五，加拿大和巴西首次出现在ResearchGate 的全球搜索热度的世界地图中。2015年，伊朗对ResearchGate年的区域关注热度最高，印度第二,欧洲主要国家整体关注度保持平稳。其他国家比如澳大利亚,加拿大,巴西也依然有一定的关注度。日本也出现在了关注ResearchGate的全球图谱中。2016年伊朗势头不减,仍是对ResearchGate的关注度最高的国家，除了美国，加拿大，澳大利亚,欧洲大部分国家的关注外，俄罗斯,非洲北部及亚洲西部的一些国家均出现在ResearchGate的全球搜索热度的世界地图中。",
+    "context4": "总结发现：ResearchGate的全球区域关注度是以区域辐射的形式演变的，主要是通过美国和欧洲主要国家向其地理位置的四周进行辐射。由2012年一开始的美国的热度最高，随后欧洲,印度,澳大利亚，加拿大,进而辐射到日本，俄罗斯,巴西，巴基斯坦等国家。发展至今,ResearchGate的受关注区域基本覆盖了科研水平较高的大部分国家和地区，这反映出ResearchGate受到全球学者用户的普遍认可。这一结论佐证了前文提到的《自然》杂志的问卷调查结果，同时也能证明图1的曲线变化并不是某一个或某几个少数国家的贡献,更加验证了ResearchGate在全球范围的普及和使用。",
+    "context5": "![](images/1412b5166261d7d387a6466d2af5f978dfdad441cc119d29bd9a01cc12b77de1.jpg)  \na）2012年ResearchGate的区域搜索热度",
+    "context6": "![](images/d2489e99cdedc8d9b509019ab9ce728501c42a04eca734f6dda0e331a0175b02.jpg)  \nb）2013年ResearchGate的区域搜索热度",
+    "context7": "按区域显示的搜索热度按区域显示的搜索热度",
+    "context8": "![](images/911fc1c33dfd70aeb136dd045ab9e0d6021b801d5cdd48827c551ced5a83c8bb.jpg)  \n区域  \nc）2014年ResearchGate的区域搜索热度",
+    "context9": "![](images/5c140fc532b12597dc46a924c3bb90133872ba5be8bbeef9e4fd90931a360632.jpg)  \n区域  \nd）2015年ResearchGate的区域搜索热度",
+    "context10": "![](images/8490c689a0940d532cd01affd7ef7757ffb97d57a6e07c67bb9911258edaa729.jpg)  \n按区域显示的搜索热度  \n区域  \ne）2016年ResearchGate的区域搜索热度  \n图2近五年ResearchGate的区域搜索热度演变图(谷歌趋势)"
+  },
+  "3.1.3 整体灰分析": {
+    "context1": "表1是过去五年ResearchGate在全球范围内每周的搜索热度值，共约262周,取262个数,数据来源于谷歌趋势。从第一行第一列开始依次为第一周谷歌趋势热度值,第一行第二列为第二周热度值,直至最后。",
+    "context2": "表12012年1月1日 ${ \\sim } 2 0 1 7$ 年1月1日ResearchGate在全球范围每周的搜索热度(谷歌趋势)",
+    "context3": "<table><tr><td>4</td><td>6</td><td>14</td><td>7</td><td>5</td><td>7</td><td>15</td><td>10</td><td>7</td><td>5</td></tr><tr><td>5</td><td>5</td><td>6</td><td>10</td><td>9</td><td>9</td><td>8</td><td>9</td><td>8</td><td>7</td></tr><tr><td>7</td><td>6</td><td>7</td><td>6</td><td>6</td><td>6</td><td>7</td><td>10</td><td>10</td><td>9</td></tr><tr><td>10</td><td>9</td><td>10</td><td>11</td><td>11</td><td>10</td><td>9</td><td>9</td><td>10</td><td>10</td></tr><tr><td>10</td><td>9</td><td>9</td><td>11</td><td>9</td><td>10</td><td>11</td><td>12</td><td>12</td><td>11</td></tr><tr><td>11</td><td>9</td><td>11</td><td>12</td><td>12</td><td>15</td><td>14</td><td>16</td><td>15</td><td>17</td></tr><tr><td>17</td><td>19</td><td>16</td><td>16</td><td>16</td><td>18</td><td>21</td><td>21</td><td>20</td><td>19</td></tr><tr><td>22</td><td>18</td><td>20</td><td>25</td><td>38</td><td>26</td><td>24</td><td>23</td><td>26</td><td>23</td></tr><tr><td>28</td><td>26</td><td>24</td><td>28</td><td>25</td><td>30</td><td>28</td><td>32</td><td>31</td><td>35</td></tr><tr><td>34</td><td>35</td><td>34</td><td>33</td><td>36</td><td>33</td><td>37</td><td>38</td><td>40</td><td>37</td></tr><tr><td>36</td><td>40</td><td>42</td><td>31</td><td>36</td><td>44</td><td>43</td><td>44</td><td>44</td><td>40</td></tr><tr><td>43</td><td>40</td><td>45</td><td>44</td><td>43</td><td>47</td><td>50</td><td>46</td><td>52</td><td>41</td></tr><tr><td>47</td><td>52</td><td>53</td><td>49</td><td>51</td><td>52</td><td>50</td><td>48</td><td>46</td><td>45</td></tr><tr><td>47</td><td>52</td><td>50</td><td>54</td><td>53</td><td>56</td><td>53</td><td>55</td><td>57</td><td>58</td></tr><tr><td>59</td><td>58</td><td>63</td><td>59</td><td>60</td><td>63</td><td>59</td><td>64</td><td>66</td><td>63</td></tr><tr><td>65</td><td>62</td><td>63</td><td>61</td><td>63</td><td>52</td><td>52</td><td>64</td><td>65</td><td>67</td></tr><tr><td>70</td><td>70</td><td>74</td><td>75</td><td>80</td><td>74</td><td>77</td><td>77</td><td>82</td><td>75</td></tr><tr><td>80</td><td>76</td><td>79</td><td>84</td><td>75</td><td>77</td><td>74</td><td>76</td><td>76</td><td>79</td></tr><tr><td>83</td><td>80</td><td>77</td><td>82</td><td>76</td><td>85</td><td>83</td><td>86</td><td>83</td><td>83</td></tr><tr><td>86</td><td>90</td><td>92</td><td>92</td><td>91</td><td>91</td><td>92</td><td>89</td><td>89</td><td>93</td></tr><tr><td>89</td><td>89</td><td>93</td><td>95</td><td>91</td><td>86</td><td>90</td><td>74</td><td>70</td><td>88</td></tr><tr><td>92</td><td>96</td><td>97</td><td>97</td><td>97</td><td>99</td><td>98</td><td>96</td><td>100</td><td>94</td></tr><tr><td>89</td><td>89</td><td>98</td><td>92</td><td>97</td><td>94</td><td>94</td><td>95</td><td>94</td><td>95</td></tr><tr><td>97</td><td>92</td><td>94</td><td>93</td><td>93</td><td>84</td><td>90</td><td>89</td><td>87</td><td>87</td></tr><tr><td>86</td><td>80</td><td>89</td><td>90</td><td>90</td><td>88</td><td>95</td><td>93</td><td>95</td><td>94</td></tr><tr><td>95</td><td>93</td><td>97</td><td>92</td><td>98</td><td>94</td><td>99</td><td>93</td><td>93</td><td>87</td></tr></table>",
+    "context4": "将262个数据平均分成两组，利用公式(1)计算表1可得到 $_ { \\mathrm { y _ { 1 } = 2 3 . 1 1 } }$ ， $\\mathrm { y } _ { 2 } { = } 8 1 . 1 9$ 。比较发现， $y _ { 1 } { < } y _ { 2 } , \\mathrm { y } _ { 2 } { - } \\mathrm { y } _ { 1 } { = } 5 8 . 0 8$ 。这说明ResearchGate搜索热度整体呈上升趋势， $( \\mathrm { y } _ { 2 } \\mathrm { - y } _ { 1 } ) / \\mathrm { y } _ { 1 } \\mathrm { = } 2 5 1 . 3 \\%$ ，这意味着五年多的时间ResearchGate搜索热度上升了$2 5 1 . 3 \\%$ 。",
+    "context5": "分析发现：近五年内，谷歌趋势对ResearchGate搜索热度呈快速上升趋势，上升率为 $2 5 1 . 3 \\%$ ,这也定量的反映了全球学者用户对ResearchGate的关注度和需求度在提高。此结论与图1热度趋势分析的结论一致。"
+  },
+  "3.1.4 谷歌相关搜索": {
+    "context1": "图3是近五年来，在谷歌搜索引擎内，全球用户对Re-searchGate的相关搜索的关键词,即搜索了ResearchGate 的用户还搜索了这些关键词。选取了相关搜索的热门关键词的前五名。",
+    "context2": "![](images/89b84ea4308dc52171f7b30db74e9f047bc7dc8ddedb57e3cab3cbe02e9f74a1.jpg)  \n图32012年1月1日 ${ \\sim } 2 0 1 7$ 年1月1日，谷歌趋势内ResearchGate的相关搜索",
+    "context3": "可以看出全球学者搜索ResearchGate的同时,搜索最多的有\"领英”，“谷歌学术”，“影响因子\"等关键词。领英是一个专业的高端人群求职社交网站,说明用户对ResearchGate的社交功能很看重,同时也关心ResearchGate的同行评议功能。",
+    "context4": "下面将用百度指数来分析中国用户对ResearchGate的关注及使用情况。"
+  },
+  "3.2百度指数趋势研究": "",
+  "3.2.1搜索量变化趋势分析": {
+    "context1": "在百度指数设置检索词为\"ResearchGate”,检索时间设置为近五年内得到图4的搜索指数曲线图，横轴代表时间，纵轴代表检索频次加权和，可以理解为用户搜索量。",
+    "context2": "从曲线的总体趋势可以看出，国内用户对于Research-Gate 的搜索量经历了较为漫长的低迷期，一直到2014年下半年才开始出现搜索量的明显上升。对比图1,国际上对ResearchGate的关注度持续上升是从2013年开始，说明Re-searchGate在国内发展情况落后于国际。这与语言限制等多方面因素有关。近两年国内用户对ResearchGate的搜索量才维持在1000左右。",
+    "context3": "![](images/b92d5b34de9856ddc02a9ca2914df71f5c30902d2d0b004ab38e94b22d11f15f.jpg)  \n  \n图42012年1月1日 ${ \\sim } 2 0 1 6$ 年12月31日Research-Gate在中国区域的搜索指数变化曲线图(百度指数)",
+    "context4": "另外图4的曲线中在2012年并未出现类似图1中的尖峰,这代表ResearchGate的B轮融资这条新闻并没有引起给国内用户大范围的响应，这也说明在发展初期影响力有限，国内用户对于舆情的反应也受影响。图4中在2013年6月左右出现了明显的尖峰，比尔盖茨对ResearchGate的投资，引起了国内用户的普遍关注。",
+    "context5": "结论：ResearchGate在国内的起步较晚，用户关注热度远不及国际发展水平。",
+    "context6": "![](images/8d726eeb24197e5f9e4783570880812c18658740c9399ef2bd8c8dca60eeadb3.jpg)  \n百道  \n图52013年11月1日\\~2016年12月31日，百度指数内ResearchGate的相关搜索"
+  },
+  "3.2.2百度相关搜索": {
+    "context1": "图5是近几年，在百度内搜索ResearchGate的用户的相关搜索情况。选取了百度知道内热门问题的前十名。从热门的前十名相关搜索可以看出，国内用户主要关注Re-searchGate的文献共享功能，而且账号注册问题仍是目前国内用户的热门搜索之一。对比图3国际用户的相关搜索情况可以得出，国内用户对ResearchGate的关注和使用还处于起步阶段，使用的功能也集中在文献共享上，而对于Re-searchGate的社交，评价等功能还未充分涉及。"
+  },
+  "4结语": "",
+  "4.1现阶段研究": {
+    "context1": "通过谷歌趋势和百度指数两种工具,分析ResearchGate近五年内在全球受关注度和使用情况,并将国内关注度和使用情况与其进行了对比分析，得出以下结论。",
+    "context2": "国际上：",
+    "context3": "$\\textcircled{1}$ ResearchGate近五年内在全球范围内的受关注度不  \n断上升，尤其是近两年内保持较高的关注度。$\\textcircled{2}$ ResearchGate的全球区域的搜索热度规律是由美国  \n和欧洲的主要国家向其地理位置的四周辐射发展，且逐渐受  \n到全球学者用户的普遍认可。$\\textcircled{3}$ 用户对ResearchGate的搜索热度变化与新闻热点密  \n切对应，ResearchGate的两次融资都造成了关注度的飙升。"
+  },
+  "国内对比分析：": {
+    "context1": "$\\textcircled{1}$ 国内用户开始对ResearchGate产生明显关注的时间远远落后于国际整体。用户关注热度也不及国际水平。$\\textcircled{2}$ 国内用户对ResearchGate的关注主要集中在文献共享功能上，而国际用户更多的关注在其社交功能，同行评议功能等方面。国内用户对ResearchGate的利用程度不深。"
+  },
+  "4.2问题及展望": {
+    "context1": "虽然ResearchGate受到越来越多的人的关注,但是仍远不及Facebook,Twitter,LinkedIn等社交产品。在国内也没有豆瓣,知乎等产品普及的好。这不仅仅是因为学者们在分享数据、论文和评论时比较谨慎,更主要的是知识产权问题是网络学术信息传播中面临的很重要的一个问题。Research-Gate 正在带领同仁们进行着一场学术出版与自由获取学术信息的战争。版权问题一直以来就是大型网络社区的共同问题，如何在保护知识产权的前提下，在不侵犯著作人的权益的基础上更好的为学者服务，更高效地实现学术传播是学术社交网络必须解决的问题。学术社交网络的管理者应该保证学术资源的合法，社区系统的有序运行使用及信息资源的安全，在知识产权保护的角度采取措施。基于目前的状况,我国在互联网信息的知识产权管理上还需要有关部门加强,学习国外的网络信息管理技术,力求首先在技术方法上解决此类问题。",
+    "context2": "未来随着网络学术资源的数量不断增加，学者对于网络知识的依赖性也会不断增强,学术社交网络的信息知识交流发挥的作用也会愈加重要。ResearchGate只要能不断解决和完善出现的问题,必将能利用新的学术交流模式服务于全球学者。"
+  },
+  "参考文献": {
+    "context1": "1 Boyd D M,Ellison N B.Social network sites:Definition,history,and scholarshipJ]. Journal of Computer-Mediated Communication,2007,13(1)210-230.   \n2 Crwaford M.Biologists using social-network sites to boost collaboration[J]. BioScience,2011,61(9):736.   \n3 Beech M. Key issue-How to share and discuss your research successfully online[J]. Insight:The USKG Journal,2014, 27(1):92-95.   \n4 Mangan K. Social networks for academics proliferate, despite some doubts[J]. Cbronicle of Higher Education,2012,58(35):A20-A21.   \n5 Nirmali C. Activities and Reasons for Using Social Network Sites by Research Scholars in NEHU:A Study on Facebook and ResearchGate. 8th Convention PLANNER-2012,Gangtok: Sikkim University, March 01-03 [C]. Ahmedabad:INFLIBNET Center, 2012 :19-27.   \n6ResearchGate[EB/OL].http://www.researchgate.net/ home,2017-01-08.   \n7 Nature:学术社交网络前途未卜?[EB/OL].http://www. medsci.cn/article/show_article.do?id $=$ e8b039243c0, 2016-12-08.   \n8 邓聚龙.灰色控制系统[J].《华中工学院学报》,1982,(3): 9-18.   \n9 张凯.基于百度指数的科技期刊影响力大数据分析- 以《中华医学杂志》为例[J].中国科技期刊研究,2016,27 (7): 779-784.   \n10 维基百科:谷歌趋势[EB/OL].http://zh.wikipedia.org/wiki/Google搜尋趨势,2017-01-08.   \n11 Google 趋 势 [EB/OL]. htp://www.google.com/trends/, 2017-01-08.   \n12百度指数[EB/OL].http://index.baidu.com/,2017-01-08.   \n13ResearchGate:Press[EB/OL].https://www.researchgate.net/ press,2017-01-08.   \n14 梁志峰.基于Google趋势分析的区域网络关注度研究 以湘潭为例[.湖南科技大学学报(社会科学版), 2010, 13(5):41-48.",
+    "context2": "(责任编辑：孙晓明)"
+  }
+}

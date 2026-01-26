@@ -1,0 +1,113 @@
+{
+  "original_filename": "full_3841.md",
+  "国际编目标准现状与进展(2015-2017)": "",
+  "胡小菁": {
+    "context1": "摘要文章概述2015-2017年间国际编目标准现状与进展，包括IFLA的《图书馆参考模型》（LRM）、《国际编目原则声明》（ICP）2016版、FRBRoo和PRESSoo、ISBD的发展与UNIMARC的更新；书目框架的开发，包括BIBFRAME2.0词表，两次试验及相关研究项目BIBFLOW和LD4L系列；《资源描述与检索》（RDA）不同语种翻译与政策声明、治理结构国际化和3R计划(工具包重构与重新设计)。这三年的发展表明关联数据应用在图书馆编目领域成为一种方向。",
+    "context2": "关键词 编目标准 IFLA RDA BIBFRAME",
+    "context3": "引用本文格式胡小菁.国际编目标准现状与进展（2015-2017）[.图书馆论坛，2018（6)：124-131."
+  },
+  "International Cataloging Standards : Status and Progress for 2015-2017 HU Xiaojing": {
+    "context1": "AbstractsThis paper outlines the status and progress of international cataloging standards for 2015-2017, including IFLA’s Library Reference Model （LRM），Statement of International Cataloguing Principles (ICP 2016)，FRBRoo and PRESSoo，ISBD's developments and UNIMARC updates； the development of BIBFRAME, including BIBFRAME 2.O vocabularies，Pilot phase 1and Pilot 2，and related research programs such as BIBFLOW and LD4L series; and Resource Description and Access (RDA)，its translations in diferent languages and policy statements，internationalization of governance structures and 3R(RDA Toolkit Restructure and Redesign）Project.From the development in 2015-2017，theapplication of linked data in library cataloging can be seen as a direction.",
+    "context2": "Keywordscataloging standards； IFLA；BIBFRAME；RDA",
+    "context3": "进入21世纪以来，伴随着文献资源形态及传播方式的变化，文献编目相关的元数据标准也发生了相当大的变化。其中，对当前编目影响最大的相关标准包括：2009年国际图书馆协会联合会(International Federation of Library Associa-tions and Institutions，IFLA)发布的指导性文件《国际编目原则声明》（Statementof Interna-tional Cataloguing Principles， ICP)，2010年发布的内容标准《资源描述与检索》(ResourceDescription&Access，RDA)，2011年出版的描述标准《国际标准书目著录(统一版)》 (Inter-national Standard Bibliographic Description,ISBD)，始于2011年、目前仍在制订中的结构标准《书目框架》(BIBFRAME)，以及2017年发布的书目信息概念模型《国际图联图书馆参考模型》(IFLA Library Reference Model，LRM)。本文追踪2015-2017年上述及IFLA其他相关标准规范的内容，及其制订或修订进展，以期提供当前主要国际编目标准发展的概貌。"
+  },
+  "1国际图联(IFLA)标准规范进展": {
+    "context1": "IFLA制订的相关文件是编目界广泛遵循的重要文献，包含从模型、原则到描述(著录)、元数据结构与词表等各类标准规范。2015-2017年间的发展包括新编制完成的LRM，以及诸多已有标准规范的更新与发展。特别引人注目的是，在2017年8月IFLA年会期间宣布的6项2017年新标准中，有五项与编目相关，体现了编目相关标准在IFLA标准体系中的重要地位。这五项标准均在前几年编制完成，2017年陆续获批，分别是《国际编目原则声明(2016版)》 (ICP)、《国际图联图书馆参考模型》(LRM)、《FRBRoo的定义：面向对象的形式化的书目信息概念模型(2.4版)>以下简称FRBRoo)、《PRESSoo 的定义：有关连续出版物和其他连续性资源书目信息的概念模型(1.3版)》(以下简称 “PRESSoo\")和《国际图联ISBD在RDF中的命名空间之翻译指南》。此外，UNIMARC第三版再次更新，ISBD也有进展。"
+  },
+  "1.1LRM：IFLA功能需求系列模型的发展": {
+    "context1": "《图书馆参考模型》 (LRM)是在实体-关系模型框架中开发的高层次概念参考模型，是单独开发的IFLA功能需求(FR)系列概念模型《书目记录的功能需求》(FRBR)、《规范数据的功能需求》(FRAD)和《主题规范数据的功能需求》(FRSAD)的整合；是为了解决这三个模型之间的不一致而开发的；对原有三个模型各自的用户任务、实体、属性和关系进行了审查，形成一个单一、简化和逻辑一致的模型，涵盖书目数据的所有方面；设计用于关联数据环境，并支持和促进在关联数据环境中使用书目数据2。LRM是诸多标准的基础，未来很多标准规范将依据LRM修订。LRM相较于先前的FR模型，主要变化有两个。",
+    "context2": "(1)聚焦书目(目录)与最终用户。正式发布的LRM(2017年8月版)与2017年3月预先发布版本相比，新增了副题名“书目信息的概念模型”，明确排除了规范相关内容。与原有三个概念模型很重要的差别在于，LRM只面向最终用户，它的“用户”不包括数据制作者(如编目员)或信息中介(如情报检索人员)。相应地，其“用户任务”沿用 FRBR的查找、识别、选择和获取，只增加\"探索\"(explore)一项，没有包括FRAD和FRSAD这二个规范功能需求的用户任务。虽然“探索”在用词上与FRSAD的第四个用户任务相同，实际内容却是源自ICP(2009版）“目录的目标和功能”之“浏览” (navigate)，ICP(2016版)此项也已改用“浏览和探索”。",
+    "context3": "(2)重新设计实体，增加通用性。LRM重组了FRBR建立的三组实体，形成了新的三层实体，见表1(译自LRMTable $4 . 1 ^ { 1 3 1 } )$ 。LRM共11个实体，完全保留用于FRBR化的第1组实体(E2-E5)；为第二组实体新设上层实体“E6行为者”，将团体和家族合并为“E8集体行为者”，以简化属性与关系的定义；取消第三组实体，新的顶层实体“E1 Res\"(拉丁语，与thing同义)包含所有其他实体，比原主题实体更通用；沿用来自FRSAD的实体“E9命名\"，顺应名称(包括标识符、受控检索点等)与真实世界对象分离的语义网环境；新增广义时空实体“E11时段”“E10地点”，不再如原“地点”仅局限于主题范围内。此外，LRM实体和属性在名称外增加了标识(如作品为LRM-E2、附注为LRM-E1-A2)，这是原FR系列模型所没有的。实体和属性标识在形式上参照的是博物馆本体CIDOC-CRM，显然也将方便未来进行元数据注册。",
+    "context4": "表1LRM实体等级",
+    "context5": "<table><tr><td rowspan=1 colspan=1>顶层</td><td rowspan=1 colspan=1>第二层</td><td rowspan=1 colspan=1>第三层</td></tr><tr><td rowspan=1 colspan=1>LRM-E1Res</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRM-E2Work作品</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRM-E3 Expression内容表达</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRM- E4 Manifestation载体表现</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRM-E5 Item 单件</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRM-E6 Agent行为者</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRM-E7 Person 个人</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRM-E8 CollectiveAgent集体行为者</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRM-E9 Nomen 命名</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRM-E10 Place 地点</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LRM-E11 Time-span 时段</td><td rowspan=1 colspan=1></td></tr></table>"
+  },
+  "1.2ICP(2016版)：指导编目规则制订": {
+    "context1": "IFLA编目部在21世纪初开始编制《国际编目原则声明》(ICP)，目的是取代1960年代的《巴黎原则声明》，用于指导制订一部国际性编目规则。2003年提出首个草案，2009年正式发布。2010年RDA以工具包形式发布，明确以IFLA的ICP和功能需求系列模型为基础，并通过不断修订使其日益国际化，让IFLA逐渐放弃由自己主导编制一部国际性编目规则的想法4。2016年版ICP“建立在国际上主要的编目传统以及国际图联功能需求系列的概念模型之上。希望本声明中的原则有助于增进国际书目数据和规范数据的共享，并为编目条例制定者提供指导\"5。2016版的变化主要有两部分。",
+    "context2": "(1)总原则扩展。在2009版九项原则的基础上，增加“互操作性”“开放性”“可访问性”，并把原来的最后段落归纳为“合理性\"，计13项总原则。新增三项原则主要针对目录/书目数据的利用政策，顺应开放获取环境(开放性)，考虑到残疾用户(可访问性)，也考虑人类用户之外的机器用户(互操作性)，为编目规则制订提供宏观指导。",
+    "context3": "(2)实体调整。ICP实体参照IFLA功能需求模型，2009版采用FRBR/FRAD第1-3组共11个实体，2016版将原第3组四个实体替换为FRSAD的Thema和Nomen 两个实体，合计九个实体。根据ICP在2015年全球公示时的说明，实体未来势必还要根据功能需求模型统一版LRM进行修订。"
+  },
+  "1.3FRBRoo和PRESSoo：与博物馆本体兼容 的尝试": {
+    "context1": "FRBRoo和PRESSoo是IFLA功能需求模型与博物馆本体CIDOC-CRM结合的产物。以FRBR为代表的功能需求模型以静态的实体-关系表现活动的结果，而CIDOC-CRM则表现动态的活动过程。FRBRoo用类和属性取代原模型中的实体和关系，并引入“事件”表达创作、生产等活动过程。“FRBRoo是一个正式的本体，意在抓取与表达书目信息的潜在语义，方便书目与博物馆信息的集成、中介与交换\"。",
+    "context2": "FRBRoo 是FRBR的面向对象版(FunctionalRequirements for Bibliographic Records- Ob-ject Oriented)，2009年6月发布1.0版。作为IFLA标准的FRBRoo2.4版发布于2015年11月，在1.0版基础上增加了来自FRAD和FRSAD的类和属性，以及相应于CIDOC-CRM的映射，名称为《FRBR：面向对象定义与映射，来自FRBRER、FRAD和FRSAD》。经全球评审后修订，由IFLA专业委员会于2016年12月签署时改名为《FRBRoo的定义：面向对象的形式化的书目信息概念模型》，副题名不再包含三个FR文件名，与LRM的副题名“书目信息概念模型\"一致。编者之一Pat Riva女士称，FRBRoo将在LRM批准后参照修订为3.0版。",
+    "context3": "PRESSoo是FRBRoo模型的扩展，也是正式本体，设计用于表达与连续出版物和连续性资源相关的书目信息。PRESSoo1.0版于2014年6月发布，作为IFLA标准的PRESSoo1.3版在2016年8月发布，2017年3月得到IFLA专业委员会批准。PRESSoo包含FRBRoo中缺乏的与连续出版物各种演变相关的类和属性，可表达动态“事件\"，如吸收、分离、开始出版、结束出版。"
+  },
+  "1.4ISBD的发展": {
+    "context1": "ISBD在2011年完成统一版。近年ISBD的发展基于统一版，主要体现在如下文件中：",
+    "context2": "(1)ISBD元素集与RDA元素集校准(3.1版，2015)。RDA在2010年首次发布时，附录D含ISBD与RDA的元素对照表。IFLA编目部在ISBD统一版出版后，开始制作《ISBD元素集与RDA元素集校准》，2012年9月发布1.1版。2015年2月3.1版发布后，RDA工具包在2015年4月更新时将原自带的对照表替代为上述3.1版文件的链接，并一直保持到最近的2017年更新。",
+    "context3": "(2)《国际图联ISBD在RDF中的命名空间之翻译指南》。IFLA在2011年确立了RDF命名空间iflastandards.info，并在开放元数据注册(Open Metadata Registery，OMR)网站对FR系列和ISBD元素集进行了注册，这些RDF词表得到一些关联数据项目的采用。注册的元素集/词表从标签到描述等，使用的都是英语。为促进多语种应用，IFLA于2015年发布《国际图联ISBD在RDF中的命名空间之翻译指南》，是为词表由英语译为其他语言而制定的规则。如前所述，本指南在2017成为IFLA标准。",
+    "context4": "(3)《ISBD用作关联数据指南》，2016年发布了最终草案。本指南供应用开发人员使用，推动图书馆为语义网公开ISBD元数据，旨在促进关联数据环境中使用ISBD命名空间[10]。"
+  },
+  "1.5UNIMARC的发展": {
+    "context1": "UNIMARC格式在全世界范围内有不少应用，我国CNMARC就是在UNIMARC基础上增加少量本地扩展制订而成的，并且一直随UNIMARC的修订而更新。",
+    "context2": "UNIMARC目前的版本为第三版，2016年分别完成书目格式和规范格式第三版的第二次更新，包括修改及增加字段、子字段。增加的重要字段有：",
+    "context3": "(1)记录内容、媒介、载体类型，包括书目格式的代码数据字段181(内容形式)、182(媒介类型)、183(载体类型)和描述信息字段203(内容形式和媒介类型)。新增字段可用于记录ISBD第0项，181-183字段更可用于RDA编目，解决了RDA和ISBD统一版取消“一般资料标识\"，改用内容、媒介、载体类型后，无法在UNIMARC中揭示的问题。",
+    "context4": "(2)国际标准名称标识(ISNI)，规范格式010字段。ISNI在2012年成为ISO标准，越来越多的作者拥有ISNI。在规范记录中记录此名称永久唯一号码，有助于个人的识别，以及不同规范系统间相同人物的关联。",
+    "context5": "(3)揭示演员与所扮演的角色，书目格式623字段(角色名)。7XX字段演员与623字段扮演角色，通过代码加以连接，可以强化书目记录对影视作品责任的揭示。",
+    "context6": "另外，IFLA开展UNIMARC的RDF计划，使用与FR系列及ISBD相同的命名空间 iflastandards.info。书目格式RDF注册于2015年12月在“开放元数据注册”网站上发布，规范格式RDF注册也在加紧进行中。",
+    "context7": "Congress，LC)启动书目框架计划，意在取代已有40多年历史的MARC21格式。BIBFRAME是作为关联数据模型进行开发的，其模型和词表在2012年底2013年初先后发布，经历了早期实验，2015年开始更新模型和词表，并进行实际编目测试。与此同时，美国高校图书馆积极申请相关研究项目，参与BIBFRAME的实验与开发。可以看到，BIBFRAME的开发已进入最后阶段。"
+  },
+  "2.1BIBFRAME2.0": {
+    "context1": "LC在2015年发布BIBFRAME词表的修订草案，为作区别，称先前版本为BIBFRAME1.0(以下简称BF1.0)，当前版本为BIBFRAME2.0(以下简称BF2.0)。BF2.0于2016年4月发布，2017年3月略有更新。BF2.0相对于BF1.0有相当大的变化，主要体现在："
+  },
+  "2.1.1模型变化": {
+    "context1": "BF1.0为“作品一实例”两层模型，BF2.0为“作品一实例一单件”三层模型。BF2.0模型更接近FRBR第1组实体的四层模型：“作品”对应FRBR的作品和内容表达，“实例”对应FRBR的载体表现，“单件”对应FRBR的单件。另外，BF2.0引入“事件\"，为模型增加了动态性；以泛指的“行动者(Agent)”代替使用面较狭、有特定含义的“创作者”。"
+  },
+  "2.1.2核心类变化": {
+    "context1": "BF1.0有四个核心类，即作品、实例、规范和注释；BF2.0仅有三个核心类，即作品、实例"
+  },
+  "2书目框架(BIBFRAME)的开发": {
+    "context1": "2011年美国国会图书馆(Library of",
+    "context2": "![](images/b0babf5e27702823eefb8abde405a93d90bef56697cf7db3bc5b3fce647381c3.jpg)  \n图1BIBFRAME模型： $1 . 0 ^ { [ 1 1 ] } \\mathsf { V S } 2 . 0 ^ { [ 1 2 ] }$",
+    "context3": "和单件。",
+    "context4": "BF2.0取消规范类，意在泛化“规范”概念[13。传统的“规范”以对象的首选名称形式作为标识(规范检索点)，在资源普遍以URI/IRI(统一资源标识符/国际资源标识符)作为标识的环境下，名称形式就是一个标签(rdfs：label)，不再需要特别关注[14]。",
+    "context5": "BF2.0取消注释类，决定复用成熟的外部词表。因为“Web注释”模型已被接纳为W3C标准，LC“相信该模型将足够通用于处理书目需求，不需要任何BIBFRAME类的特定属性\"[15]。",
+    "context6": "BF2.0取消注释类后，该类下图书馆书目系统中独特的子类馆藏资料(HeldMaterial)以及其下级子类馆藏单件(Heldltem)被抽出，升级成为BF2.0新增的核心类单件。"
+  },
+  "2.1.3类和属性变化": {
+    "context1": "BF1.0词表有类53个、属性289个;BF2.0词表有类180多个、属性约195个。若将属性和类合计，BF2.0术语有所增加。其中，BF2.0与BF1.0术语完全相同的类或属性合计约占1/3，变化比较大。BF2.0相对BF1.0的一个重要变化，是把BF1.0中很多属性重新定义为类(约50个),或增加属性对应的类(与原有的属性对应类合计约60个)。因此，在类大为增加的同时，属性大为减少[16，这主要出于技术应用方面的考虑。"
+  },
+  "2.2BIBFRAME的两次试验": {
+    "context1": "BIBFRAME要取代MARC，除需要前述的词表，还需要一整套支持工具，包括现有MARC数据转换、BIBFRAME数据编制等。为此，LC开发了BIBFRAME转换程序和编辑器，并安排了两次试验，由编目员用BIBFRAME词表进行不同类型文献的实际编目。"
+  },
+  "2.2.1第一阶段试验(Pilot，Phase 1)[17]": {
+    "context1": "第一阶段试验于2015年9月8日－2016年3月31日进行，采用BF1.0词表和1.0版编辑器，测试内容可概括为三个方面：一是转换MARC记录供编目员使用，包括所有MARC规范记录和大部分书目记录，书目记录转换为BIBFRAME作品和实例记录；二是词表的适用性，看编目员能否将BIBFRAME描述(著录)录入到面向",
+    "context2": "BIBFRAME的系统；三是编辑器的功能，如录入提示、下拉框选择是否方便，编辑器标签是否清晰有用，能否实施适当搜索等。此次试验成功达到了目的，参与系统测试的编目员的录入过程及内容，使开发者在开发中做出相当大的改进。"
+  },
+  "2.2.2第二阶段试验2(Pilot 2)18]": {
+    "context1": "第二阶段试验于2017年开始，采用BF2.0词表及改进后的编辑器。LC所有MARC书目与规范记录均已转换为BIBFRAME作品、实例和单件，因而将在更完整、现实的编目环境中进行测试，包括编制书目与规范记录。本阶段试验还将探索用机器由MARC创建BIBFRAME，实验从供应商获取BIBFRAME的RDF(外包)，试验BIBFRAME的书目扩展，以及从BIBFRAME到MARC映射。"
+  },
+  "2.3相关研究项目": {
+    "context1": "作为研究热点，美国高校图书馆近年有不少与BIBFRAME相关的研究项目。最著名的是美国政府的博物馆和图书馆服务研究所(IMLS)资助的BIBFLOW，以及安德鲁·W.梅隆基金资助的LD4L系列项目。",
+    "context2": "(1)BIBFLOW(2013-2015)，编目再发明：未来图书馆运作模式。项目由加州大学戴维斯分校承担，项目最终报告《BIBFLOW：图书馆关联数据转换路线图》在2017年3月发布[1。项目探索了编目工作走向关联数据两个阶段的路线图：阶段一，MARC生态系统中的关联数据，即基于MARC数据的关联数据准备与应用；阶段二，转变到原生关联数据生态系统，包括以关联数据做编目、批转换原有MARC记录为关联数据，迭代转换整个图书馆目录系统。项目选择套录、原编和连续出版物编目三部分，试验转变现有编目工作流程。最终报告在肯定“关联数据代表着机遇而非挑战”的同时，也说明“从数据角度，转变到关联数据的主要障碍，是将MARC记录中实体的文字表达，与机器可操作URI联系起来。这种联系必须反向实施到所有遗留记录(艰巨任务)，必须更新图书馆系统，在处理新记录或编辑已有记录时创建这种联系”。项目在编目试验中使用了BIBFRAME模型和词表，还参与了轻量级BIBFRAME即 BIBFRA.ME的开发[20]。",
+    "context3": "(2)LD4L系列项目。安德鲁·W.梅隆基金分别在2014年和2016年资助康奈尔、哈佛和斯坦福等大学图书馆联合申报的三项百万美元级的项目，探索关联数据在图书馆的应用。三个项目分别是“图书馆关联数据\"(Linked Data forLibraries,LD4L，2014-2016)、“图书馆关联数据实验室”(LD4L-Labs，2016-2018)和“关联数据生产\"(Linked Data for Production，LD4P，2016-2018)。其中，美国国会图书馆参与了LD4P项目。LD4P的一项重要工作是扩展BIBFRAME本体，以包含图书馆必须处理的众多资源格式。参与项目的各图书馆就各自关注的专业领域和特定格式资源，对BIBFRAME作出评估，并做必要扩展21。另外，LD4P项目也考虑从以事件为中心的博物馆本体CIDOC-CRM中提取必要概念来扩展BIBFRAME，以满足在通用发现界面中描述资源的基本需求[22]。"
+  },
+  "3资源描述与检索(RDA)的发展": {
+    "context1": "RDA是元数据内容标准、即传统意义上的编目规则。RDA文本及RDA工具包网站自2010年发布后，一直持续更新，推动RDA在国际上得到广泛采用。西班牙国家图书馆特别具有代表性，该馆曾在2014年12月宣布暂不采用RDA,但2016年11月改变决定，宣布将从2019年元旦开始依据RDA创建书目与规范记录；主要原因：一是编制于1999年的《西班牙编目规则》太过陈旧、无力更新；二是作为国际标准，采用RDA符合该馆《2015-2020年战略计划》23。中国国家图书馆研究馆员顾犇2017年底受邀成为RDA理事会的亚洲代表(2018-2020年)，预期将有助于未来RDA在中国的应用。",
+    "context2": "RDA在2015-2017年间的发展围绕着国际化，主要体现在三个方面：一是更多语种翻译及政策声明发布；二是治理结构国际化启动；三是网站重新设计与内容重构(3R计划)。"
+  },
+  "3.1不同语种翻译及各国政策声明": {
+    "context1": "RDA在国际上广泛采用，前提是多语种翻译及各种政策声明的完成。这些内容大多在RDA工具包及RDA注册网站上发布。",
+    "context2": "(1)RDA译本。在RDA工具包网站上，自2013年法语版和德语版推出后，2015年起陆续发布了西班牙语版、芬兰语版、意大利语版和加泰罗尼亚语版，挪威语版在2017年已经完成但发布推迟。工具包界面可以在多语种版本间切换，也提供两种语言版本对照，方便跨语种使用。",
+    "context3": "(2)RDA取值词表翻译。除RDA工具包网站，RDA还对元素集和取值词表进行了注册(rdaregistry.info)。其中，取值词表是直接用于编目的术语。一些国民英语水平较高的国家(如荷兰和丹麦)已经或即将采用RDA，但没有全文翻译RDA的计划，只翻译取值词表供编目使用。截至2017年底，取值词表有18种语言翻译，即阿拉伯语、加泰罗尼亚语、汉语、丹麦语、荷兰语、芬兰语、法语、德语、希腊语、希伯来语、意大利语、挪威语、葡萄牙语、斯洛伐克语、西班牙语、瑞典语、乌克兰语和越南语24。不同语种取值词表大多只选择翻译了常用部分，其中汉语由中国国家图书馆翻译。",
+    "context4": "(3)机构政策声明。RDA国际化的基础是其具有众多的替代和可选规则，这就决定了不同机构在采用时必须确定本机构对替代、可选规则的取舍，这就是“政策声明”的作用。在美国国会图书馆和合作编目项目(PCC)的政策声明之后，不列颠图书馆、加拿大图书馆和档案馆、澳大利亚国家图书馆、德语国家(德国-奥地利-瑞士)、瑞典皇家图书馆、芬兰图书馆和音乐图书馆协会也在RDA工具包网站上发布了各自的政策声明。我国CALIS联合目录和中国国家图书馆分别在2015年和2017年完成外文编目的政策声明，前者发布在RDA工具包网站的工作流程版块，后者作为印刷图书《国家图书馆外文文献资源RDA本地政策声明暨书目记录操作细则》（国家图书馆出版社，2017)正式出版。"
+  },
+  "3.2治理结构国际化": {
+    "context1": "为进一步推动RDA在国际上的广泛采用，2015年开始RDA管理机构和编辑机构启动治理结构的国际化，同时更改机构名称。RDA国际化计划于2019年完成，两个机构的成员原来由美国、加拿大、英国、澳大利亚和德国五个编制国的国家图书馆或专业协会代表组成，届时将由非洲、亚洲、欧洲、拉美及加勒比、北美和大洋洲六个地区的代表组成。",
+    "context2": "(1)RDA管理机构，现名RDA理事会。2018年初已任命所有六个地区的代表，非洲代表来自南非国家图书馆，亚洲代表来自中国国家图书馆，欧洲代表来自德国国家图书馆，拉美和加勒比地区代表来自智利国会图书馆，北美代表来自美国国会图书馆，大洋洲代表来自澳大利亚国家图书馆[25]。",
+    "context3": "(2)RDA编辑机构，现名RDA指导委员会(RSC)。截至2018年初，成员结构仍未有大的变化。但三个地区的未来代表机构已经成立，分别是由欧洲RDA兴趣组(EURIG)形成的欧洲地区(Europe Region)、大洋洲 RDA委员会(ORDAC)和北美RDA委员会(NARDAC)26]。"
+  },
+  "3.3工具包重构与重新设计(3R)计划": {
+    "context1": "为增加条款显示的灵活性与实用性，让RDA数据更模块化、动态化，RDA工具包自2017年4月起实施为期一年的“RDA工具包重构与重新设计计划\"(简称“3R计划\")。原定2018年4月完成，后宣布将延期到6月27。本计划在重新设计RDA工具包网站的同时，也将对RDA内容框架进行重构：",
+    "context2": "(1)工具包网站的重新设计。目的是方便使用、方便维护，尤其是多语种译本的更新。",
+    "context3": "(2)RDA文本的重大修订。将依据LRM进行修订，同时重新组织RDA结构，12个RDA实体各自一章，大幅增加元素数量，某些新元素支持来自LRM的新实体，某些新元素支持“载体表现陈述”概念2。变化如此之大，几乎是由《英美编目条例(第二版)》(AACR2)到RDA的再现，难怪业内有人视之为RDA2.0。但官方在“3R计划常见问题\"28中对此予以否定，指出RDA作为集成性资源，随时间而发展是正常情况。根据\"3R计划常见问题”，完全重新编排的RDA，条款将不使用顺序编号，打算使用元素标签进行参引、用RDA注册的统一资源标识符(URI)提供超链接。RSC同时强调，正通过在开放元数据注册(OMR)网站注册的术语、定义、范围注释和语义关系，支持关联数据应用这一未来远景。"
+  },
+  "4结语": {
+    "context1": "上文概述了2015-2017年间国际编目标准规范的发展，这些标准规范将影响现在和将来的编目工作及书目数据的组织。从这些标准规范的发展可以看到一个共通的趋势：语义网和关联数据应用在图书馆编目领域成为一种方向。最突出的是BIBFRAME，从一开始就是以一种关联数据模型进行开发的。IFLA自2010年起，即致力于包括UNIMARC的RDF计划在内的多种元数据词表的注册，还开发了新本体FRBRoo和PRESSoo，同时在指导性文件中也处处体现语义网/关联数据的影响。比如，LRM声明设计用于关联数据环境；ICP2016版新增“互操作性\"原则，将适用范围由人类用户扩大到机器用户；还有ISBD的多个关联数据相关指南。RDA原本是元数据的内容标准而非结构标准，但它不仅如结构标准那样为元素集进行注册，为取值词表进行注册，还计划以URI提供相应元素条款的链接，使RDA本身也可能成为关联数据。",
+    "context2": "以上种种表明，我们正在进入终结MARC格式的关联数据时代。目前IFLA、BIBFRAME、RDA及更多元数据元素集争相注册RDF词表，颇有点像当年各种MARC格式百花齐放。群雄逐鹿，未知鹿死谁手？"
+  },
+  "参考文献": {
+    "context1": "[1]国际图联2017年新标准 [EB/OL].[2017-08-22]. https://www.ifla.org/node/11720.   \n[2]IFLA Library Reference Model (LRM）[EB/OL]. $[ 2 0 1 7 - 0 9 -$ 12].https://www.ifla.org/publications/ node/11412.   \n[3]Riva P,Le BoeufP,Zumer M. IFLA Library Reference Model：A Conceptual Model for Bibliographic Information [EB/OL].[2017-09-12]. https://www. ifla.org/files/assets/cataloguing/frbr- lrm/ifla- lrmaugust-zu1/.pui.   \n[4]IFLA Cataloguing Section Standing Committee. Minutes，Helsinki，Finland，2012. Appendix IV Expansion of the ICP to form an international cataloguing code? [EB/OL].[2017-08-22]. https://www.ifla.org/ files/assets/cataloguing/reports/meeting_2012.pdf.   \n[5] 国际图联编目部和国际图联国际编目规则专家会议. 国际编目原则声明（ICP）[EB/OL].[2017-08-22]. https://www.fa.org/files/assts/catalogng/icpicp 2016-zh.pdf.   \n[6] IFLA Cataloguing Section. World- wide Review of Statement of International Cataloguing Principles (ICP）-2015 edition [EB/OL].2015-04-22[2017- 08-22]. htps: //www.ifla.org/node/9542.   \n[7] What is the FRBRoo? [EB/OL]. [2018-01-12]. http://www.cidoc-crm.org/frbroo/.   \n[8] 编目精灵.FRBRoo 2.4作为IFLA标准发布[EB/ OL].[2017- 03- 20]. http://catwizard.net/posts/ 20170320200401.html.   \n[9] PRESSoo [EB/OL]. [2018-01-13]. http://www. issn.org/understanding- the- issn/assignment- rules/ pressoo/.   \n[10] Guidelines for Use of ISBD as Linked Data （2016) [EB/OL].[2018- 01- 13]. https://www.ifla.org/ publications/node/10834.   \n[11] The BIBFRAME Model [EB/OL]. [2018-02-13]. http://bibframe.org/vocab-model/.   \n[12] Overview of the BIBFRAME 2.0 Model [EB/OL]. （2016-04-21） [2017-08-22]. htt://www.loc. gov/bibframe/docs/bibframe2-model.html.   \n[13] Library of Congress.BIBFRAME Authority Proposal [EB/OL].（2015-08-12）[2017-08-22]. http：// www.loc.gov/bibframe/docs/pdf/bf-authorityproposal08-12-2015.pdf.   \n[14]胡小菁.规范控制：从名称选择到实体管理].数 字图书馆论坛，2018（1)：2-7.   \n[15] Denenberg，R.Re: BF Core Classes [R/OL]. BIBFRAME Archives，2015-11-17 [2017-08-22]. http://listserv.loc.gov/cgi-bin/wa?A2 $\\mathbf { \\equiv } =$ ind1511&I bibframe&T $^ { \\prime } =$ O&P $=$ 9657.   \n[16]编目精灵．BIBFRAME2.0类的变化[EB/OL]. (2016-05-22） [2017-08-22]. http://catwizard. net/posts/20160502220754.html.   \n[17] Library of Congress Acquisitions & Bibliographic Access Directorate. BIBFRAME Pilot （Phase One—Sept. 8, 2015-March 31，2016)：Report and Assessment [EB/ OL].(2016-06-16） [2017-08-22].http://www.loc. gov/bibframe/docs/pdf/bibframe- pilot- phase1-analysis.pdf.   \n[18] McCallum S. BIBFRAME Pilot Two [EB/OL].（2017- 06-25)[2017-08-22]. http://www.loc.gov/bibframe/ news/source/ala2017-june-bfupdate.pptx.   \n[19] Smith M.， Stahmer C G，Li X，Gonzalez G. BIBFLOW：A Roadmap for Library Linked Data Transition [EB/OL].(2017-03-14） [2017-09-12]. https://bibflow.library.ucdavis.edu/roadmap/.   \n[20] The Visible Library:Weaving the best of libraries, data and the web together [EB/OL]. [2018-01-16]. http://bibfra.me/about/.   \n[21]编目精灵.重量级图书馆关联数据项目LD4P获得 资助[EB/OL]. （2016-05-10）[2017-08- 22]. http://catwizard.net/posts/20160510222424.html.   \n[22] Linked Data for Production (LD4P）：Background and Rationale [EB/OL]. [2018- 01- 16]. https:// wiki.duraspace.org/display/LD4P/Background $^ +$ and $^ +$ Rationale.   \n[23] Biblioteca Nacional de Espana. La BNE adoptaŕ RDA como estándar de catalogacion [EB/OL].(2016-11- 04）[2017-08-22]. http://www.bne.es/webdocs/ Prensa/Noticias/2016/comunicado_bne_adopcion_rda. pdf.   \n[24]RDA value vocabularies [EB/OL]. [2018- 02- 13]. http ://www.rdaregistry.info/termList/.   \n[25] RSC.Board Members [EB/OL]. [2018- 01-18]. http://www.rda-rsc.org/node/433.   \n[26] Dunsire G，Barnhart L. News from the RDA Steering Committee [I/OL]. IFLA Metadata Newsletter，2017, 3(1)[2017-08-22].htps://www.ifla.org/files/assets/ cataloguing/scatn/metadata_newsletter-20170630.pdf.   \n[27] 3R Project Status Report #3 [EB/OL]. (2017-09- 29）[2017- 09- 12]. http://www.rdatoolkit.org/ 3Rproject/SR3.   \n[28]3R Project Frequently Asked Questions [EB/OL]. [2018-01-04]. http://rda-rsc.org/node/551.",
+    "context2": "作者简介胡小菁，硕士，华东师范大学图书馆研究馆员。收稿日期 2018-02-14",
+    "context3": "(责任编辑：何燕）"
+  }
+}

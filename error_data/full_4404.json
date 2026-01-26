@@ -1,0 +1,81 @@
+{
+  "original_filename": "full_4404.md",
+  "基于信息熵的关联分类方法(GARC类方法)综述": {
+    "context1": "陈国青刘冠男倩华大学经济管理学院，北京，100084)",
+    "context2": "摘要]分类方法研究是商务智能领域关注的重要课题,也在信息检索、电子商务以及信息资源管理中有广泛应用。近年来,将关联规则挖掘方法扩展到分类领域的工作受到重视,形成的关联分类方法显现出若干良好特征。本文围绕一类新颖的关联分类方法即基于信息熵的GARC类方法)进行综述,通过阐述其基本思想、主要性质和方法脉络,反映此类方法不仅保持了传统关联分类方法在可理解性、精度和效率等方面的特点，而且使得生成的分类器GARC GARCIIGEAR)具有良好的简约性,同时有效消除了可能的规则冗余和冲突。此外,针对数值属性分区离散化中的锋利边界\"问题进行了相应的模糊扩展GARC）。",
+    "context3": "送键词]信息熵关联分类综述",
+    "context4": "中图分类号]TP311.13 女献标识码]A女章编号] 2095-2171 2011)02-0004-06",
+    "context5": "Abstract]The research of classification methods is the focus in the field of business intelligence,also is widely used in information retrieval,e-commerceand information resource management.In recent years,the association rule mining method expands to classification areas,and shows some good features.This paper focuses on a novel correlation classfication method that is,GARC class method based on the information entropy)，summarizes the basic idea,the main properties and methods.This method not only keeps the tranditional association classification method in the comprehensible,effciencyand precision,and reflects other aspects,and efectively eliminates the possibilityof redundant rules and conflict.In addition,it carries on the corresponding fuzzy extensionsGARCt）according to the‘sharp boundary”problem of numerical attribute discrete division.",
+    "context6": "Key words] Information entropy Class associative rule Review"
+  },
+  "1关联分类": {
+    "context1": "分类和关联规则挖掘都是商务智能领域中重要的研究课题，多年来一直受到学界和业界的高度关注。近年来随着信息技术的飞速进步和网络互联的广泛普及，数字化生活和新兴电子商务显现出移动性、社会化、虚拟体验、个性化、极端数据等显著特征。信息搜索、社会网络、网上购物、虚拟现实等深度应用实践和广阔发展前景，为数据挖掘和商务分析技术创新提供了动力。在这样的背景下,分类方法及其分析技术受到了高度重视。其应用场景包括知识搜索的分类整理、社会联系类别分析、客户概括及类别确定、行为模式特征分析等等。",
+    "context2": "具体说来,分类是通过训练数据包括数据与给定类别的关系)以得到分类模型又称分类器),从而用于对其他数据的类别进行预测。目前已有多种较为成熟的分类方法，包括决策树分类、贝叶斯分类、神经网络、支持向量机、关联分类等等[2]。这些方法从不同角度构建了分类模型，并表现出了各自的优势。关联分类的基本思想是基于关联规则挖掘，其目标是从数据中得到形如 $\\mathbf { \\tilde { X } } { \\Rightarrow } \\mathbf { \\tilde { Y } }$ ”的规则， $\\mathsf { X }$ 和Y分别代表不同的数据项。如果把关联规则中的Y用数据的类别C来代替,则产生了分类关联规则 Class Association Rule，CAR),通过分类关联规则就可以构造关联分类器AsSocia-tive Classifier)。",
+    "context3": "在关联分类中，一个传统方法是CBA 方法』。CBA方法基于Apriori算法挖掘出满足最小支持度和置信度要求的分类关联规则。实验表明CBA具有良好的分类精度accura-cy),但是通常需要反复扫描数据库，并可能生成大量的分类规则。后续研究试图从分类关联规则的生成以及剪枝规则等方面对CBA进行了改进。如CMAR、 ${ \\mathsf { L } } ^ { 3 } { \\hat { \\mathbb { \\Omega } } } ^ { 1 }$ 、 ${ \\mathsf { L } } ^ { 3 } { \\mathsf { G } } ^ { \\mathtt { B } \\mathtt { l } }$ 利用FP-growth的方式来生成关联规则,减少了对数据库的扫描次数;CPAR[]则借鉴FOIL这种贪婪式算法来生成规则。在剪枝方面,CMAR采用 $\\mathsf { x } ^ { 2 }$ 来检验规则中属性项 $\\mathsf { X }$ 与类别项C的相关性,若负相关则删除该规则 $\\mathfrak { L } ^ { 3 }$ ， ${ \\mathsf { L } } ^ { 3 } { \\mathsf { G } }$ 利用了懒惰剪枝规则，只删除那些将训练集中的数据错误分类的规则。综合来看，这类关联分类的算法都基于相似的算法流程，即先生成关联规则，再采用后剪枝策略来构造分类器，如图1所示。",
+    "context4": "![](images/5cd9a86f124f938ede2648329f6dea2e8e718cd8ee50b2c8e9f3c8dd5d700e0f.jpg)  \n图1传统关联分类的一般算法流程",
+    "context5": "以上提到的算法都是基于后剪枝策略。在这种策略下，剪枝前就已经产生了大量无意义的规则。一个改进思路是先剪枝策略，即利用先剪枝有效减少候选项集的数目和数据库的扫描次数，从而提高算法效率。其中，GARCGain-based Association Rule Classification)方法就是采用先剪枝策略进行关联分类的一个新方法。在GARC中，一方面引入了信息增益来选取最佳分类属性，要求所有规则都必须包含该属性另一方面利用冗余和冲突规则的性质，在分类关联规则的生成过程直接规避掉这类规则的生成，在保证分类准确率的前提下,大大减少了规则数,得到了简约的分类器。本文就主要针对GARC及其相应的一类扩展方法展开综述。"
+  },
+  "2理论框架": "",
+  "2.1相关术语及定义": {
+    "context1": "数据记录。数据集T中的每行数据可以被定义一条数据记录，是属性 $\\mathsf { A } _ { \\mathrm { i } }$ 的集合，另外每条数据记录还包含一个类别 $\\mathsf { C } _ { \\mathrm { j } }$ 。",
+    "context2": "支持度。项集×的支持度定义为包含 $\\mathsf { X }$ 的数据记录在 $\\intercal$ 中所占的比例。设 $\\parallel$ X $\\parallel$ 表示包含 $\\mathsf { X }$ 的记录的出现次数，则 $\\mathsf { X }$ 的支持度为：Dsupp ${ \\mathfrak { K } } ) = { \\frac { \\parallel \\times \\parallel } { | \\mathsf { T } | } }$ 。对分类关联规则 $\\mathsf X { { \\Rightarrow } } { \\mathsf C } _ { \\mathsf X }$ 其支持度为:Dsupp $\\mathsf { \\pmb { \\mathscr { K } } } ) = \\frac { | | \\mathsf { \\pmb { \\mathscr { K } } } { \\mathsf { C } } _ { \\mathrm { i } } \\mathrm {  ~ \\mathscr { l } ~ } | } { | { \\mathsf { T } } | }$ 。合格的分类关联规则应满足支持度大于最小支持度 $\\propto$ $\\big \\{ \\mathfrak { x } \\in \\mathrm { ~ \\mathfrak { 6 } ~ } , 1 \\big ] \\big )$ 。",
+    "context3": "置信度。对分类关联规则 $\\mathsf X { = } \\mathsf C _ { \\mathrm { i } }$ ，其置信度为 Dconf K>C)= XCI。 。合格的分类关联规则应满足置信度大于最小置信度 $\\beta \\beta$ $\\in ~ ( \\ell , 1 ] )$ 。",
+    "context4": "最佳分类属性。对于任意一个数据集 $\\mathsf { S }$ $\\subseteq { \\mathsf { T } }$ ，其平均信息量",
+    "context5": "$$\n6 ) \\mathrm { ~ \\textstyle --~ } \\sum _ { \\mathrm { ~ \\tiny ~  ~ } } ^ { \\mathrm { ~ \\tiny ~ \\it ~  ~ f r e q ~ } \\mathrm { ~ \\bf ~ C } _ { k } \\mathrm { ~ \\bf ~ \\mathsf { , } ~ \\mathsf { , } ~ \\mathsf { ) } ~ } } \\times \\log _ { \\mathrm { 2 } } \\mathrm { ~ \\frac { f r e q ~ \\mathrm { ~ \\bf ~ C } _ { k } , \\mathrm { , } \\mathrm { , } \\mathrm { S } } { \\mathrm { ~ | ~ \\mathrm { ~ \\boldsymbol ~ { ~ S ~ } ~ } | ~ } } , }\n$$",
+    "context6": "其中 freq $\\mathfrak { c } _ { \\mathrm { k } } , \\mathtt { S } )$ 表示S中类别为 ${ \\sf C } _ { \\sf k }$ 的记录数， $^ { 9 }$ 为 $\\intercal$ 中的类别数目。假设属性A共有n个取值,对应将 $\\intercal$ 分为 $\\mathsf { T } _ { 1 } \\bullet \\mathsf { T } _ { 1 } \\bullet \\cdots , \\mathsf { T } _ { n }$ 共 $\\mathsf { n }$ 个子集，于是属性A的平均信息量为",
+    "context7": "$$\n\\begin{array} { r } { i n f o _ { A } \\ U ) = \\sum _ { i = 1 } ^ { n } \\frac { \\mid T _ { i } \\mid } { \\mid T \\mid } \\times i n f o \\ U _ { i } ) } \\end{array}\n$$",
+    "context8": "于是对属性A的信息增益为gain $\\mathbb { A } ) = \\mathfrak { i n } -$ fo $\\left( \\uparrow \\right) - \\mathsf { i n f o } \\left( \\uparrow \\right)$ 。最佳分类属性是 $\\intercal$ 中信息增益最大的属性。",
+    "context9": "规则项集。对项集 $\\mathsf { X C } _ { \\mathrm { i } }$ ,若满足最小支持度 $\\propto$ 和最小置信度 $\\beta$ 条件，则称为规则项集，并可生成规则 $\\mathsf { X } { \\Rightarrow } \\mathsf { C } _ { \\mathrm { i } }$ 。",
+    "context10": "排除项集。若一个候选项集的支持度小于最小支持度 $\\propto$ ,则称为排除项集。",
+    "context11": "简约规则集 Compact Set)",
+    "context12": "·冲突规则 若存在 $\\mathsf { r } _ { 1 }$ $\\mathsf { x } { \\Rightarrow } \\mathsf { C } _ { \\mathrm { i } }$ 和 $\\mathsf { r } _ { 2 } \\ \\mathsf { x } \\mathrm { = } \\mathsf { C } _ { \\mathrm { i } }$ 均满足最小支持度 $\\propto$ 和最小置信度 $\\beta$ ，且 $\\mathsf { i } \\neq \\mathsf { j }$ ，则称 $\\mathsf { r } _ { 1 }$ 与 $\\boldsymbol { \\mathsf { r } } _ { 2 }$ 冲突。",
+    "context13": "·冗余规则 若存在 $\\mathsf { r } _ { 1 }$ $\\mathsf { x } { \\Rightarrow } \\mathsf { C } _ { \\mathrm { i } }$ 和 $\\mathsf { r } _ { 2 } \\ \\mathsf { Z } { \\Rightarrow } \\mathsf { C } _ { \\mathrm { i } }$ 均满足最小支持度 $\\propto$ 和最小置信度 $\\beta$ ，且 $z =$ $\\mathsf { X }$ ,则称 $\\boldsymbol { \\mathsf { r } } _ { 2 }$ 相对于 $\\mathsf { r } _ { 1 }$ 是冗余的。",
+    "context14": "排除了冲突规则和冗余规则，并满足最小支持度和最小冗余度的规则集称为简约规则集。",
+    "context15": "优先规则 Precede rules)。对于规则 $\\boldsymbol { \\mathsf { r } }$ ,若Dconf $\\theta >$ Dconf （）,或Dconf $\\mathbf { \\theta } =$ Dconf （），且Dsupp $6 >$ Dsupp （),或 Dconf $\\mathsf { \\Omega } ( ) = \\mathsf { D c o n f }$ 且Dsupp $\\theta =$ Dsupp $\\left( \\cdot \\right)$ 且规则先生成,则称 $\\boldsymbol { \\mathsf { r } }$ 优先于 $\\mathsf { r } ^ { \\star }$ 。"
+  },
+  "2.2基于信息熵的关联分类": {
+    "context1": "和传统关联分类不同,GARC引入了最佳分类属性的概念，在保持信息量的前提下使得规则候选集的规模大大减小;洞时，在规则的生成过程中排除了冗余和冲突规则，得到了由简约规则集构造的分类器，规则更加简约且可理解性更强。由于GARC保证了较高的分类精度和简约性，之后又提出了多种扩展方法。如GEAR[从冲突与冗余规则入手,进一步提炼性质以增加先剪枝效果;GARCI则针对各个类别分别提取最佳分类属性。此外，GARC针对连续型数据的分类问题，对GARC进行了模糊扩展。我们把以GARC为核心的基于信息熵的关联分类方法称为GARC类方法，其方法脉络框架如图2所示。"
+  },
+  "3GARC类方法": "",
+  "3.1GARC": {
+    "context1": "在GARC方法中,首先计算各个属性的信息熵和信息增益，从而确定对数据集T的最佳分类属性即具有最大信息增益的属性），使得在之后生成分类关联规则中必须包含该属性。进而将上述冗余冲突规则的概念应用到规则集的生成过程中。此外,进一步应用下列两个性质以进行剪枝。",
+    "context2": "![](images/27061d4ee00507afce8327a4b306ec37863a3392a71eae9d4a372a63a701e50f.jpg)  \n图2GARC类方法脉络",
+    "context3": "性质1如果最小置信度 $\\beta > 5 0 \\%$ ，,那么规则 $\\mathsf { X } { \\Rightarrow } \\mathsf { C } _ { \\mathrm { i } }$ 和规则 $\\mathsf { X } { \\Rightarrow } \\mathsf { C } _ { \\mathrm { i } }$ 在数据集中不能同时成立。",
+    "context4": "性质2如果规则 $\\mathsf { X } { \\Rightarrow } \\mathsf { C } _ { \\mathrm { j } }$ 在数据集中成立，若1-Dconf $\\yen 123,456$ ，或者 $\\mathsf { X } \\parallel { < } 2 \\mid \\mathsf { D } \\mid \\propto ;$ 则任何项集 $\\mathsf { X Y C } _ { \\mathrm { j } }$ 都是排除项集。",
+    "context5": "由性质1可知，当把最小置信度 $\\beta$ 设定为高于 $50 \\%$ 时,将不会出现冲突规则而利用性质2则可以在规则的生成过程中，直接剔除满足相应条件的排除项集。具体说来，GARC生成简约规则集的算法流程如图3所示。",
+    "context6": "采用国际上通行的UCI基准数据库，通过30个数据集对GARC的分类效果进行了检验和比较。通过统计检验发现,GARC在精度方面和 CBA及其它方法 例如:C4.5类、NN、SVM)相比无显著差异;但是GARC产生了有意义的分类规则，并且规则数明显少于CBA，从平均数量来看前者仅为后者的 $4 . 3 \\%$ 。换句话说,GARC在可理解性和简约性方面的优势明显。"
+  },
+  "3.2GARCII": {
+    "context1": "在GARC方法中，最佳分类属性在数据库中是唯一确定的，并且所有的规则都包含该属性。但从规则语义上来看，不同类别的分类规则对应的最佳属性并不一定相同。基于此提出了GARCI方法{3]。通过在GARCI方法中引入了类信息熵的概念，可以为不同类别的规则选择其最优分裂属性，即类最优分裂属性。为了得到某一类别 ${ \\sf C } _ { \\sf k }$ 的类信息熵，需要进行以下扩展将其他类别的记录都认为属于类别$\\mathsf { C } _ { - \\mathsf { k } }$ ,于是对于T中 ${ \\sf C } _ { \\sf k }$ 的类信息熵为：",
+    "context2": "![](images/1cdac09acf571391b38da90d0f67cc4e792763f3769eb60c4ef7684ac7e69535.jpg)  \n图3GARC算法流程示意图",
+    "context3": "$$\ni n f o _ { k } ( T ) = - { \\frac { \\operatorname { f r e q } ( C _ { k } , T ) } { \\mid T \\mid } } \\times \\log _ { 2 } { \\frac { \\operatorname { f r e q } ( C _ { k } , T ) } { \\mid T \\mid } } - { \\frac { \\operatorname { f r e q } ( C _ { - k } , T ) } { \\mid T \\mid } } \\times \\log _ { 2 } { \\frac { \\operatorname { f r e q } ( C _ { - k } , T ) } { \\mid T \\mid } } ,\n$$",
+    "context4": "利用类信息熵的概念，可以计算每个属性A对于 ${ \\sf C } _ { \\sf k }$ 中的信息量，进而得到信息增益：",
+    "context5": "$$\n\\begin{array} { r } { i n f o _ { A K } ( \\pmb { \\mathbb { V } } ) = \\sum _ { i = 1 } ^ { n } \\frac { \\mid T _ { i } \\mid } { \\mid T \\mid } \\times i n f o _ { k } ( \\pmb { \\mathbb { V } } _ { i } ) , \\mathrm { g a i n } _ { k } \\ A ) = i n f o _ { k } \\ \\pmb { \\mathbb { V } } ) - i n f o _ { A k } \\ \\pmb { \\mathbb { V } } ) } \\end{array}\n$$",
+    "context6": "可以看到，类信息熵的引入能更好地反映类别所包含的信息。因此，对每个类别分别利用类信息熵得到类最优分类属性，并将其包含到相应的规则中，可以保证更大的信息量;洞时,还能够反映类别语义，分类规则更有意义。值得一提的是,在UCI基准数据集上的实验表明[3],GARCI方法具有满意的精度,特别是其简约性得到进一步提升,生成的平均规则数量与 GARC相比显著减少。"
+  },
+  "3.3GEAR": {
+    "context1": "GEAR{方法是在GARCI 的基础上对GARC的进一步改进。首先,GEAR对冗余规则概念进一步进行了细化,加入了优先级的约束,即得到分类关联规则 $\\mathsf { r } _ { 1 } \\ \\mathsf { x } { = } \\mathsf { C } _ { \\mathrm { i } }$ 和 $\\mathsf { r } _ { 2 } \\ \\mathsf { Z } { \\Rightarrow } \\mathsf { C } _ { \\mathrm { i } }$ 满足 $z { \\stackrel { - } { \\longrightarrow } } \\mathsf { X }$ 且 $\\boldsymbol { \\mathsf { r } } _ { 2 }$ 的优先级低于 $\\boldsymbol { \\mathsf { r } } _ { 1 }$ ,则称 $\\boldsymbol { \\mathsf { r } } _ { 2 }$ 相对于 $\\mathsf { r } _ { 1 }$ 是冗余的。",
+    "context2": "进而,GEAR方法还考虑了分类关联规则的相关性约束，认为有效规则不仅应满足最小支持度和冗余度的要求,还应满足规则前后项正相关性，即规则的置信度大于类别的支持度Dconf $\\mathsf { k } { \\Rightarrow } \\mathsf { C } _ { \\mathrm { j } } ) { \\ > } \\mathsf { D s u p p } \\ \\mathsf { C } _ { \\mathrm { j } } )$ 。比如,在最小支持度和最小置信度分别为 $10 \\%$ 和 $70 \\%$ 的情况下,如果得到规则 $\\scriptstyle \\mathbf { \\tilde { X } } \\Rightarrow \\mathbf { C } _ { i }$ $60 \\%$ ， $72 \\%$ )”，且此时已有 Dsupp $6 ) = 7 5 \\%$ 。那么可以认为 $\\mathsf { X }$ 并没有有效支持类别 $\\mathsf { C } _ { \\mathrm { j } }$ 。",
+    "context3": "特别地,GEAR方法进一步挖掘了下列冗余冲突规则的性质,并将其应用到规则的生成过程中。",
+    "context4": "性质3：假设规则集中已包含 $\\mathsf X \\Rightarrow \\mathsf C _ { \\mathrm { j } }$ ，若Dsupp K)- Dsupp $\\yen 023,456$ ,或者1-Dconf $\\bigstar$ $ 0 , ) < \\beta$ ，那么 $\\mathsf { X } { \\Rightarrow } \\mathsf { C } _ { \\mathsf { k } }$ $\\pm \\mathrm { i }$ 将不成立。",
+    "context5": "性质4若Dconf $/ ( \\mathrm { \\Rightarrow C _ { i } } ) = 1 0 0 \\%$ ,那么Z$\\Rightarrow \\mathsf { C } _ { \\mathrm { i } } \\pmb { \\ell } \\supset \\mathsf { x } )$ 一定是冗余规则。",
+    "context6": "性质5当最小置信度大于最频繁类别的支持度，即Minconf ${ \\tt { \\Rightarrow } } { \\tt { m a x } } _ { \\mathrm { { i = 1 } } }$ togsupp Ci)},生成的所有规则均满足相关性约束，无需再做检验。",
+    "context7": "此外,GEAR在采用类最有分裂属性思路的基础上,提出了集合冗余规则 6et redun-dancyrule)的概念。基于数据库覆盖策略的思路,对算法得到的分类关联规则按优先级降序排列，逐条扫描数据库，若训练集中数据被规则所覆盖，则将其标记;若当前规则没有覆盖任何未标记的数据，则为集合冗余规则。将简约规则集 $\\Phi \\mathrm { c }$ 中的集合冗余规则排除,则得到了高度简约规则集 $\\Phi _ { \\mathsf { c } } ^ { - }$ 。在UCI基准数据集上实验表明,GEAR方法的分类精度与GARC／GARCIIRIPPER RSES 统计上)相当,而构造的分类器规则数进一步得到显著减少。"
+  },
+  "3.4GARCi": {
+    "context1": "在商务智能应用中经常会遇到连续型属性的问题，比如年龄、工资就是连续型属性。对于连续型属性，关联规则挖掘的常见做法是将其离散化后，即将连续属性按一定的准则划分成不同的区间，这样一个数值属性值则转化为对应某一区间。比如年龄 Age 假设取值为$\\Updownarrow$ ,100])就可以划分为6,30]，60,60]和$6 0 , 1 0 0 ]$ 三个区间,进而形成三个新属性:Age$\\textstyle { \\mathfrak { h } } , 3 0 ]$ ，Age 0,60]，Age 60,100]。目前离散化的方法有多种,如基于信息增益（D3）、基于统计方法ChiMerge，Chi2）\\$,8的等等。但是，具有锋利边界的区间可能导致分类误差，居于边界附近的数据可能对于边界划分很敏感,进而产生‘过分类6ver-classification）”或次分类 (nder-classification)\"情形。",
+    "context2": "针对锋利边界问题，引入模糊逻辑进行模糊扩展是一个求解思路[2]。一个做法是将连续属性划分为若干个模糊子集 如年轻，中年和老年)，并将属性值转化为在各个隶属函数下的隶属度[2]。在GARC方法中{5],将定义在模糊子集 $\\mathsf { A } _ { \\mathrm { q } }$ 上的梯形隶属函数用 $\\mu _ { \\mathrm { q } } : \\pi \\ \\delta _ { \\mathrm { q } } , \\mathsf { b } _ { \\mathrm { q } }$ ，$\\mathsf { c } _ { \\mathrm { q } } , \\mathsf { d } _ { \\mathrm { q } } )$ 来表示。进而通过定义一个单参数f来反映边界的模糊度取值从0到0.5,取值越高，表示模糊度越大。当 $\\mathfrak { f } = 0 . 5$ 时隶属函数为三角隶属函数；当 $\\mathfrak { f } = 0$ 时，隶属函数退化成非模糊矩形函数，表示具有锋利边界的区间。",
+    "context3": "在此基础上,GARC的一系列相关概念都需要进行扩展，比如支持度、置信度、信息熵等。例如支持度计数采用了模糊逻辑中的count。此外,GARC中的冗余、冲突及其它性质包括算法实现等),也在GARCi中进行了相应的扩展。",
+    "context4": "通过UCI基准数据集实验表明[5],GARCi方法与GARC在平均意义上看具有相当的分类精度，但可能通过调整f值获得较高的精度。在规则数目方面，GARCi方法可以获得更简约的分类器规则集。"
+  },
+  "4结语": {
+    "context1": "GARC类方法是一类新颖的基于信息熵的关联分类方法。本文通过对GARC及其扩展方法 GARCII GEAR GARCi）进行综述，分析概括了其主要思路和方法框架。相比传统的分类方法,GARC类方法在保证分类精度的前提下，具有在可理解性特别是简约性方面的优势。",
+    "context2": "在目前的方法探讨中，已经开始针对实际数据进行了初步应用。下一步的工作将围绕若干实际行业背景，通过采集大规模数据开展相关方法的应用，并对方法进行深度分析和完善。"
+  },
+  "参考文献": {
+    "context1": "[]Liu,B.，Hsu,W.,Ma,Y.Integrating classificationandassociation rule mining.International Conferenceon Knowledge Discovery and Data Mining，AAAl，New York，1998 80-86   \n2] Baralis,E.,Garza,P.A Lazy Approach to Pruning Classfication Rules.Proceedings of the 2002 IEEE International Conference on Data Mining CDM'02)，2002 35   \nB] Baralis,E.，Chiusano,S.，Garza,P.On support thresholds inassociative clasification.Proceedings of the 2004 ACM symposium on Applied computing，2004:553-558   \n4 Chen,G.,Liu,H.,Yu,L.,etal.Anew approach to clasification based on asociation rule mining.Decision Support Systems,2006,42 &)674-689   \n5] Liu,H.,Setiono,R.Chi2 :Feature selection and discretization of numeric attributes.Proceedings of Seventh International Conference on Tools with Artificial Intelligence,1995 388-391   \n6] Quinlan,J.,Cameron-Jones,R.FOIL:Amidterm report,Proceedings of the European Conference on Machine Learning，19933-20   \nf] Quinlan,J.R.Induction of decision trees.Machine learning，1986 81-106   \n8] Kerber,R.Chimerge :Discretizationof numericatributes.Proceedings of the tenth national conferenceonArtificial intelligence，1992:123-128   \nLiW.，Han,J.，Pei,J.CMAR :Accurate and effcient classification based on multiple classassociation rules.Pro ceedings of the IEEE 2001 International Conference on Data MiningCDM'01)，San Jose,CA,2001 369-376   \n[0]Yin,X.,Han,J.CPAR :Classification basedonpredictive associationrules.Proceedings of the third SIAM international conference on data mining，2003 331   \n[1] Zhang,X.,Chen,G.，Wei,Q.Building a highly-compact and accurate associative clasifier.Applied Inteligence, 2011:74-86"
+  },
+  "[2]陈国青,卫强．商务智能原理与方法．北京电子工业出版社,2009": {
+    "context1": "[3] Chen，G.Q.,Zhang,X.,Yu,L.An improved GARC algorithm for building accurate and more understandable associative clasifiers.Dynamics of Continuous,Discrete and Impulsive Systems Series Bapplications &algorithms,2006 S2) :161-165   \n[4] Chen,G.Q., Xiong,Y.X., Wei,Q.A Fuzzy Extension to Compact and Accurate Associative Clasification.In Studies in Fuzziness and Soft Computing，Cornelis C.，ShiY.，Schockaert S.，Nachtegael M.，éds.），Volume 261, Springer，2010，171-193."
+  }
+}

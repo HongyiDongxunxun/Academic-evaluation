@@ -1,0 +1,68 @@
+{
+  "original_filename": "full_2139.md",
+  "关于XML数据库的研究与进展": "",
+  "熊曾刚　陈建新　张学敏": {
+    "context1": "(孝感学院计算机科学系孝感432100)",
+    "context2": "摘要论述了XML数据库的类型，介绍了选择XML数据库的方法以及XML与数据库的转换技术，强调了XMI数据库建模工具研究的重要性，指出了XML数据库的研究方向。",
+    "context3": "关键词 XML 数据库 概念建模",
+    "context4": "XML是自描述的、半结构化的和可扩展的标记语言，可以表示文档、元数据和数据，现在已变成Web上结构化和半结构化数据标准化的表示,为不同系统间交换数据的\"混合语”(lingua fran\"ca)。由于XML的重要性，它已经用于很多领域，如在电子商务(EC)和企业应用集成(EAI)应用领域，XML已成为通用信息交换标准格式。XML引起了学术界、工业界和各行各业用户的广泛关注，XML及相关技术的研究已经非常热门。特别在数据库领域，自从1998年W3C正式采用了XML，人们就开始将XML作为一种描述结构化数据的方式，XML作为数据使用呈指数级增长，XML在数据库中的存储也已经越来越重要，自然XML就成了数据库研究者新的研究对象。"
+  },
+  "1 XML数据库类型": {
+    "context1": "目前在XML文档在数据库中有很多存储选择，除了关系数据库,XML数据可以存储在文件系统、对象关系数据库、或者专用的(半结构化的)系统如Lore、Lotus Notes,或 Software AG 的Tamino[2]。目前已经提出和实现的XML 数据库可以分为三大类:Native XML Database(NXDB)、XML Enabled Database(XEDB)和混种(Hybrid)XML Database(HXDB)。已经实现的XML 的数据库产品更是种类繁多，有研究者将XML数据库产品分为9类，除了以上提到的NXDB、XEDB，另外包含中间件、XML 服务器、XML 查询引擎、内容管理系统、Wrappers 等等[3]。下面对主要的XML 数据库NXDB、XEDB 和 HXDB 作一介绍。",
+    "context2": "1.1NXDBNXDB 是专门用于存储 XML 文档的数据库,底层的DBMS就很容易以XML文档自身的形式存储XML文档、检索XML结构的数据。这种原生的XML服务系统通过XML标准处理数据和模型：把文档作为存储的基本单位;使用DTD 或schemas作为\"数据定义语言”定义文档的属性;使用XPath或其他XML规范查询语言；自身的服务引擎可以使用SAX、DOM、XSLT来处理数据。由于内部模型是基于XML文档格式的，也支持事务、安全、多用户访问等。典型的NXDB如 Software AG 的Tamino，它的产品Taminio XMLServer提供了XML文档的存储、维护、发布和交换，可以原生地存储XML 和 $\\mathrm { n o n } ^ { - } \\mathrm { X M L }$ 数据，可以使用Web 和XML 的规范和界面查询和转换数据，很适合于内容管理和应用集成系统使用。",
+    "context3": "1.2XEDBXEDB 主要是在关系数据库(RDB)或对象关系数据库(ORDB)基础上增加CLOB 类型，在CLOB上能对XML文档进行整体存储和输入输出，但不能直接操纵文档中的节点片断。用RDB 或ORDB存储XML文档时，可将文档(重点是文档中的数据)拆分到若干个表中,这样可直接查询文档的片段,但难以获得完整的、不变形的原始文档，即难以提供\"往返车票(round$- \\mathrm { { t r i p } ) ^ { \\mathrm { { \\sc , \\sqrt { 4 } } } } }$ 。也不支持完全的 XPath 规范,访问数据要通过公开标准的API 如 ODBC。",
+    "context4": "1.3HXDBHXDB 是介于以上两种系统之间的数据库,根据具体的要求和应用，既可以做 NXDB，又可以做 XEDB。Oracle$9 \\mathrm { i R 2 / 1 0 _ { g } }$ 采用的XML DB 技术是 HXDB 的典型代表。",
+    "context5": "但目前Oracle $9 \\mathrm { i R 2 / 1 0 _ { g } }$ 支持 XPath、DOM、SAX、XSLT、XMLschema等XML规范，亦不是单纯的HXDB了，可以把它看作是NXDB,它的数据类型XMLType支持原生的XML 内容存储， $\\mathrm { O r a ^ { - } }$ cle XMLDB消除了传统的结构化、半结构化和无结构化的界限，其SQL 操作可以在XML内容上执行,XML 操作也可在关系型数据上执行[5]。"
+  },
+  "2如何选择XML数据库": {
+    "context1": "XML 文档可以分为以数据为中心(data－centric)和以文档为中心(document一centric)两类[4]。以数据为中心的文档就是将XML用作数据的传输载体，只提供给机器使用的文档。以数据为中心的文档的例子有销售订单、航班时刻表、科研数据及股市汇率。特点是结构相当整齐，数据粒度精细(即最小的独立数据单位只存在于PCDATA元素或属性这一级别)，很少或没有混合内容。同级元素或PCDATA的出现次序一般来说并不重要，除非在对文档进行验证的时候。",
+    "context2": "以文档为中心的文档通常是供人阅读使用的。例如书籍、E$- \\mathrm { m a i l }$ 广告以及几乎所有人工写成的XHTML文件。其特性为："
+  },
+  "·情报技术·": {
+    "context1": "结构不太或根本不规则、数据粒度大(最小的独立数据单位可能存在于包含混合内容的元素甚至整个文档本身)、混合内容多。同级元素或PCDATA出现的次序一般来说总是非常重要的。",
+    "context2": "针对不同的文档类型，可以选择相应的数据库存储方式。一般的，XEDB适合管理数据为中心的文档，而NXDB适合管理文档为中心的文档，OracleXMLDB提供了对这两种文档的存储方式。文献[4]描述了以数据为中心和以文档为中心的文档之间的差异如何影响其在数据库中的应用。但有时数据是以文档为中心还是以数据为中心并不容易区分，有时也需要两者都兼顾的平台来处理这类数据,PowerDB一XML[]就是一种既可以处理以文档为中心又可以处理以数据为中心的XML平台。"
+  },
+  "3XML与数据库的转换研究": {
+    "context1": "虽然XML可以存储在以上三类数据库中，但根据应用程序的需要，现有的关系数据库中的数据要转换为XML，XML文档又需存储在其他关系数据库中，就要考虑XML与数据库的转换(mapping)。",
+    "context2": "由于XML和数据库的结构不同，为了在XML文件和数据库之间交换数据,必须将 XML 文件的 schema(DTD,XML Schema,RELAXNG等)映射到数据库的schema或将数据库中表的结构转换映射为XML文件的 schema,经过转化映射后XML文档就能够方便地访问存储数据库并进行后续处理。",
+    "context3": "国内外关于XML与数据库的转换研究非常多，主要研究转换XML文档模式、内容存入关系数据库或对象关系数据库及将数据库表中的内容提取转为XML模式等。在将关系模式转换为DTD来描述XML文档方面已经做了大量的工作，如将关系模式向XML Schema 转换[7]。文献[8]介绍了几大数据库厂商 IBM、Microsoft、Oracle、Sybase 如何通过使用工具将XML 数据映射存入传统的关系数据库表中。",
+    "context4": "另外也有厂商将XML与数据库的转换过程做成工具软件，具有实际的应用意义。著名的开发XML的编辑环境XMLSPY的Altova公司最近推出了MapForce( $\\mathrm { ~ \\ t m ~ }$ ） $2 0 0 5 ^ { [ 9 ] }$ ，它是为项目集成而开发的第一个XML／database／flat file／EDI 映射工具。可以将任何XML、数据库、扁平文件和 EDI 映射为XML、数据库和/或扁平文件。用它可以轻易地将XML文档映射成其他格式的XML文档，或者在XML和数据库间相互映射。实现了转换的工具化，另外IBMAlmadenResearch Center 也设计了自己的转换工具 Clio[10],它是一个半自动化的 schema 映射工具，可以在关系型数据和XML Schema 间相互映射，便于数据集成。"
+  },
+  "4XML数据库建模工具研究": {
+    "context1": "软件开发过程中设计是最重要的过程，设计需要一定的辅助软件工具帮助。XML技术出现以来，可视化逻辑建模工具出现了不少，应用较多的如Altova公司的XMLSPY、Sybase公司的XML Model（含在PowerDesignerlOi/1li 中）、TIBCO Turbo XML(tm)[11]等。但上面提到的软件工具是帮助设计 XML Schema 或DTD。XMLSchema或DTD定义了文档的语法和结构，是文档的逻辑数据模型而不是概念模型。我们设计数据库时一般都要进行概念建模，也即表达数据的语义及其相互关系，然后才将概念模型转为逻辑模型，因此，对应于数据设计的概念建模，也应有",
+    "context2": "目前XML的概念建模方面的理论研究不多，没有成熟的工具可以提供直观的概念建模，但也有一些这方面研究的论文，如通过应用和扩展ER模型[12,13]、UML、语义网[14]、图概念模型和Asset Oriented Modeling(AOM)[15]等。下面对应用UML、ER 为XML 数据库概念建模作一介绍。",
+    "context3": "4.1UML为XML数据库建模UML是一种功能强大的可视化的建模语言，具有定义良好、易于表达、功能强大和普遍适用的特点，为面向对象系统概念建模的首选。把UML作为建模语言，XML作为数据表示语言，研究基于UML的XML建模方法[16],用UML 的标准类图表示概念层模型,用构造型类图表示逻辑层模型,用XML Schema表示实现层模型，对XML 词汇表进行建模，有一定的现实意义。但UML不能完全表示XML的主要特征，有些数据类型不能在UML中表示。",
+    "context4": "4.2扩展ER模型为XML数据库建模 在关系数据库中，实体关系(Entity Relationship，ER)模型常用的概念建模工具，可以考虑利用ER模型来为XML数据库建模，但是ER模型中不支持XML的很多特点，如顺序等，就要考虑扩展ER模型描述XML文档结构并可自动生成XMLDTD和Schema,得到扩展实体关系模型 XER（Extensible Entity Relationship Modeling)[12]。XER Entity可以表示出XML的实体和属性。使用各种符号表现顺序实体、无序实体和混合实体，且实体间的关系 $1 , 1 , 1 , \\mathtt { n }$ 和 $\\mathbf { n } { } ; \\mathbf { m }$ 也能表示,并且支持XML 的泛化（Generalizations）、聚集（aggregations）、弱实体及其他XML概念。通过可视化的环境可以直接对XML数据概念建模,然后自动生成XMLDTD或 Schema,但此XER图没考虑XML属性，有一定的局限性。",
+    "context5": "EReX(Entity Relationship Extensible for XML)[13]通过对传统ER模型研究，对ER模型图进行扩展，给出了的EReX的形式化描述和转换为Schema的算法，EReX最大特点是支持XML的 $\\mathbf { u } ^ { - }$ nion types 和d recursive types 特性并可为任何通用的数据库应用程序建模。提供了一种XML 数据库概念建模方法学,但没解决XML元素的顺序问题。",
+    "context6": "4.3存在问题虽然目前已有这方面的研究和相关的映射工具，但是都是相对孤立的、零散的，未形成一个体系(方法学)，不能支持XML的多种需求(如可以同时进行XML文档建模和XML数据库建模)，也不能完全支持XML数据库的概念模型和其他模型(如逻辑模型)的相互转换。这就需要开发并集成各种相关工具(DBMS,文档设计工具,数据库设计工具,映射／转换算法与工具等)，形成一个较完整的系统环境，从而方便进行XML文档建模和XML数据库建模，并可以很容易地实现相互转换。"
+  },
+  "5结束语": {
+    "context1": "XML作为数据库系统，可把复杂的数据合理地分解，以适应当前的数据库模型，并以其良好的简单性、开放性、移动性、适应性和可扩充性的特点，提供了数据库逻辑接口。但与传统数据库相比，XML在存储、索引、安全、多用户访问、事务管理等方面还存在不足之处。关于XML数据库还有其他的研究领域，如XMLView、查询语言和查询优化、事务管理、存储管理等方面[17,4]。",
+    "context2": "XML数据库作为正在发展中的事物，还有很多问题未解决，这就是XML数据库吸引大量人员研究的重要原因之一。其中关于XML数据库的建模工具统一平台的研究有一定的研究价值，这也是我们目前进一步研究和探索的方向。",
+    "context3": "来表示,因而在一个可忽略的误差范围内,我们可以得到近似式：",
+    "context4": "$$\n\\sum _ { n = 1 0 } ^ { c - 1 } \\frac { 1 } { n ! } ( \\frac { \\lambda } { \\mu } ) ^ { n } \\approx \\mathrm { e } ^ { \\frac { 1 } { \\mu } }\n$$",
+    "context5": "-情报技术·",
+    "context6": "$$\n\\boldsymbol { w } ^ { \\prime } = \\frac { 1 } { \\mu } + \\frac { ( \\frac { \\lambda } { \\mu } ) ^ { c \\mu } } { ( c ^ { - 1 } ) ! ( c ^ { \\mu - } \\lambda ) ^ { 2 } } \\times [ \\mathbf { e } ^ { \\frac { 1 } { \\mu } } + \\frac { 1 } { c ! } ( \\frac { \\lambda } { \\mu } ) ^ { c } ( \\frac { c ^ { \\mu } } { c ^ { \\mu - } \\lambda } ) ] ^ { - 1 }\n$$",
+    "context7": "因此,等式(2)可以重新写为：",
+    "context8": "从这个等式就可以得到一个 $\\textbf { M } ^ { / } \\textbf { M } ^ { c }$ 的唯一的服务率 $\\displaystyle \\{ ^ { \\mu } ,$ 这个转换应用于第二步,即图 $3 ( \\mathbf { b } ) - ( \\mathbf { c } )$ 。",
+    "context9": "为在一个调度器级和一个服务器级之间建立一个队列网络，可以依次调整服务率从 $\\boldsymbol { \\mu } _ { 0 }$ 到 ${ \\boldsymbol { \\mu } } _ { 1 } , { \\boldsymbol { \\mu } } _ { 1 }$ 到 $\\boldsymbol { \\mu } _ { 2 }$ ，使 $W _ { 0 } = W _ { 1 } = W _ { 2 }$ ，如图3所示,最后将一个调度器级(服务器级)转换成其对应的单一$\\textbf { M } ^ { / } \\textbf { M } ^ { c }$ 排队系统。换句话说，一个调度器级(服务器级)可以用每个具有到达率 $\\lambda ^ { \\prime } / \\ Y$ 和服务率 $\\boldsymbol { \\mu } _ { 0 }$ 的 $Y \\textbf { M } / \\textbf { M } / \\textbf { \\Lambda } c$ 来模仿，最后转换为一个具有到达率 $\\lambda ^ { \\prime }$ 和服务率 $\\boldsymbol { \\mu } _ { 2 }$ 的 $\\mathbf { M } / \\mathbf { \\Sigma } _ { \\mathbf { M } } / \\mathbf { \\Sigma } _ { c Y }$ ，即得到一个二级队列网络。",
+    "context10": "2.2服务器的最佳数量由2.1部分转换过程的结果可知,在一个服务器级和一个调度器级之间的队列网络可以用图4来描述。一个调度器级转换为一个具有到达率 $\\lambda ( 1 - P _ { k } )$ 和服务率 ${ \\boldsymbol { \\mu } } _ { a }$ 的 $\\mathbf { M } / \\mathbf { \\Sigma } _ { \\mathbf { M } } / \\mathbf { \\Sigma } _ { c 1 }$ ，一个服务器级也转换为一个具有到达率 $P _ { i } \\lambda ^ { ' }$ 和服务率 ${ \\boldsymbol { \\mu } } _ { b }$ 的 $\\mathbf { M } / \\mathbf { \\Lambda } _ { \\mathbf { M } } / \\mathbf { \\Lambda } _ { c 2 }$ 。在一个服务器中，通过观察结果1.1可知，当拒绝率是 $\\lambda P _ { k }$ ，接受率是 $\\lambda ( 1 - P _ { k } )$ ，也就是 $\\mathbf { M } / \\mathbf { \\Sigma } _ { \\mathbf { M } } / \\mathbf { \\Sigma } _ { c 1 }$ 的实际到达率。因为 $\\textbf { M } ^ { / } \\textbf { M } ^ { / } \\mathbf { \\Lambda } c _ { 1 }$ 的离开率是 $\\lambda ^ { \\prime } = \\lambda ( 1 - P _ { k } )$ ，等于它的实际到达率。当客户请求的这个服务器级服务的概率是 $P _ { i }$ 时， $\\mathbf { M } / \\textbf { M } / \\mathbf { \\Lambda } _ { c 2 }$ 的到达率是 $P _ { i } \\lambda ^ { ' }$ 。与一个服务器级中服务器最佳数量有关的变量是$c _ { 2 }$ ，由于服务器总的服务率不必大于调度器总的服务率，即：",
+    "context11": "$$\nc _ { 2 } \\mu _ { _ { b } } \\le \\mathbf { c } _ { 1 } \\mu _ { _ { a } }\n$$",
+    "context12": "另一方面，对图4所示的处于稳定状态的 $\\textbf { M } ^ { / } \\textbf { M } ^ { / } \\mathbf { \\Lambda } c _ { 2 }$ 来说,它的利用系数( $P _ { i } \\lambda ^ { \\prime } / _ { c 2 } \\mu _ { b } )$ 应当小于1,即：",
+    "context13": "$$\n\\frac { p _ { i } \\lambda ^ { ' } } { c _ { 2 } \\mu _ { _ { b } } } < 1\n$$",
+    "context14": "从不等式(4)和(5)可得到 $c _ { 2 }$ 的范围变为：",
+    "context15": "$$\n\\begin{array} { r } { \\frac { p _ { i } \\lambda ( 1 - p _ { k } ) } { \\mu _ { _ b } } = \\frac { p _ { i } \\lambda ^ { \\prime } } { \\mu _ { _ b } } < _ { c 2 } \\leq \\frac { c _ { i } \\mu _ { _ a } } { \\mu _ { _ b } } } \\end{array}\n$$",
+    "context16": "如图3， $\\mathbf { \\Psi } _ { c 2 } = \\mathbf { \\Psi } _ { c } \\times Y$ 这里 $c$ 是每个服务器进程的线程数量，Y是一个服务器级中服务器的数量。因而，不等式(6)可以重新写为：",
+    "context17": "$$\n\\begin{array} { r } { \\frac { p _ { i } N ^ { ' } } { c ^ { \\mu } { } _ { b } } < Y \\leq \\frac { c _ { 1 } \\mu _ { a } } { c ^ { \\mu } { } _ { b } } } \\end{array}\n$$",
+    "context18": "如果不等式(7)满足，我们就认为服务器数量 $Y$ 在服务器最佳范围内；如果不满足，服务器数量必须调整。通过重复应用转换，我们就可以得到服务器最佳数量的范围。",
+    "context19": "![](images/a1fb91b40faad6a98c8c97b874bf2bd6fb472a5934afc15943881715a593300e.jpg)  \n图4在一个调度器级和一个服务器级之间的队列网络"
+  },
+  "3结论": {
+    "context1": "我们仅考虑了先到先服务(FCFS)队列，至于其他的排队规则，如优先权队列，实际也可以广泛应用，但需要进一步研究不同的运行模型来适合其他的排队规则。"
+  },
+  "参考文献": {
+    "context1": "1Liu HongXing，YanSheng Lu·A Multi一dimension Perspective to XMLDatabases Modeling·In Proceeding of the DCABE2OO4，Hubei Science &Technology Press，2004.  \n2Tamino XML Server，Number One in XML Management （white paper），Soft-ware AG，2002  \n3R·Bouret·XML Database Products· September 2OO4，www $\\cdot$ rpbourret : com/xml/XMLDatabaseProds·htm  \n4 Ronald Bourret·XML and Databases· htp://www·rpbourret·com/ xml/XMLandDatabases·htm，2003  \n5ORACLE，XML DB，An Oracle Technical White Paper·January 2004  \n6T．Grabs，H· Schek，PowerDB-XML：A Platform for Data—Centric andDocument-Centric XML Processing. LNCs 2824，2003，Springer-Verlag  \n7高峰,鲁士文·XML Schema 对关系型数据源的映射·微电子学与计算机，2004;(2)  \n8Igor Dayen·Storing XML in Relational Databases: htp://www-xml·com/pub/a/ 2001/06/20/databases·html? page=1,2001  \n9Altova MapForce 2Oo5.http://www·altova·com/products-mapforce·html  \n10Popa·L,et al· Mapping XML and Relational Schemas with Clio·Proceedings·18th International Conference on Data Engineering， 2002  \n11TIBCO Turbo XML(tm).http://www·tibco·com/ software/business-inte-gration/turboxml·jsp  \n12Sengupta，A，et al· XER-Extensible Entity Relationship Modeling· In Proceedings，XML 2OO3．Philadelphia，PA，December，2003  \n13Murali Mani:EReX：A Conceptual Model for XML·XSym 2O04，LNCS3186  \n14Ling Feng，Elizabeth Chang $,$ Tharam Dillon·A Semantic Network-basedDesign Methodology for XML Documents·ACM Transactions on InformationSystems (T0IS),2002;20(4)  \n15Berthold Daum $1 \\cdot$ Asset Oriented Modeling(AOM).htp://www $\\cdot$ aomodeling-org.  \n16张志,赵文耘,李川.基于UML的 XML 建模方法·计算机工程,2003;（8）  \n17Jayavel Shanmugasundaram et al·Querying XML Views of Relational Data·Procedings of the $2 7 _ { \\mathrm { t h } }$ VLDB Conference，Roma， Italy，2001",
+    "context2": "(责编：阳)"
+  },
+  "(上接第44页）": ""
+}

@@ -1,0 +1,107 @@
+{
+  "original_filename": "full_7201.md",
+  "新信息环境下数学文献老化趋势及影响因素新探": "",
+  "钟晶晶」游毅索传军": {
+    "context1": "(1.国家图书馆北京100081;2.南京大学信息管理系 南京 210093)",
+    "context2": "摘要借助Web of Science引文数据库,随机选取了SCIE收录的40种数学期刊,对期刊中的文献以及其参考文献和被引记录进行统计分析,考察了数学文献在1960-2009年50年间的老化趋势，并重点分析了网络环境的变化对文献老化的影响。通过对共时法和历时法文献半衰期的计算和分析得出,在互联网环境下文献的绝对老化并未发生,而文献的相对老化速度持续减缓。在发文量、即年指标等基础上,提出了即年影响力和长尾效应等新的信息环境影响因素，并用灰色关联分析的方法定量分析出篇均引文量和长尾效应是影响文献老化速度的最重要因素。",
+    "context3": "中图分类号 G255 文献标识码A 文章编号 1002-1965(2011)12-0036-07"
+  },
+  "Analysis of Mathematics Literature Obsolescence Trend and Influence Factors in the New Information Environment": {
+    "context1": "ZHONG Jingjing1YOU Yi²SUO Chuanjun' (1.National Library of China,Beijing100081; 2.Department of Information Management，Nanjing University,Nanjing210093)",
+    "context2": "AbstractBasedonteWebofSiencecitationatabaseeconductsatisticalanalysisoftedocuments，theaacedreferecdthe citationsi4OandomlyselectedathematicaljoualsindeedyCE.Accordingtothesatisticaldata，ivestigateteathatics literatureosolesccetredintheast5Oyars(96-)ndfousoeetok ifueneoliteratureagingspeciallWecal culate thelieraturehalf-lifewithbothsychoousmethodsandasychoous methods，fromchwefinduthatteabsouteliteature obsolescencedoesn'toccurintheinteretenvironent，whiletherelativeobsolescencespeedkeepsslowingdown.Besidestheaual numberofarticlesandimmediacyindex，eproposeseveralewindicatorsofiformationenvironentsuchasimmediacyifluencend thelongtailefectUsingthquanitativeanalysismetod“greyrelationnalysis”，wesuggest hatteaveragitesperarticleadlng tail effect are the most important factors influencing the literature obsolescence speed.",
+    "context3": "Keywordsliteratureobsolescencehalf-lifethelongtailefectimmediacyinfluencegreyrelationshipdegreeinfluencefactor"
+  },
+  "0引言": {
+    "context1": "互联网的普及和数字资源服务的日益深入缩短了文献从产生到被发现、获取直至利用的时间,这一现象自然而然地引发了研究者对于文献老化速度将不断加快的猜想。然而与此同时,也有另一种观点认为数字化的手段方便了文献利用者对旧有文献的获取，将在一定程度上延缓文献的老化。因此,我们有必要通过对文献老化半衰期等指标的实证研究,定量化分析文献老化的总体趋势特征。"
+  },
+  "1样本选择与数据获取": {
+    "context1": "根据INC公布的全球互联网年度调查报告，截至1994年10月全球互联网主机数为386万台,而到了1996年1月该数字则激增至947万台，也就是说1995年前后全球互联网规模扩张了近3倍。因此从文献利用角度看，其大致经历了如图1所示的分别以1980和1995年为界的非网络时代、网络过渡时代和互联网时代三个阶段。为观察科学文献在不同网络发展时期的老化状况,本文确定了从1960 年至2009 年",
+    "context2": "50年的研究时间跨度,数据来源为Webof Science引文数据库。",
+    "context3": "![](images/9bdc6c47ee0cf66d4edf7903d4af1bff82381a6763a4cc4408c671d2f191bbbe.jpg)  \n图1网络环境发展阶段示意图",
+    "context4": "在期刊样本选择方面,基于1997-2009年JCR 网络版数学期刊列表，根据期刊影响因子对期刊进行排序并划分为四组,经过随机选择最终确定了40种样本期刊，从而保证了对各类型期刊的全覆盖。对于40种样本期刊在Web of Science中收录的全部文献,统计样本时间跨度内其文后的参考文献信息及其发表后历年的被引数据，并剔除了明显的错误信息和不完整数据,从而得到最终的样本数据。其数据中共包含了91 484篇文献,1379 982条参考文献和944 627条文献被引记录。",
+    "context5": "降趋势逐渐趋缓,亦即文献利用者对于旧有文献的引用更多、依赖性更强。这一明显的变化直接导致了半衰期的延长和文献老化速度的减缓。",
+    "context6": "在数学期刊50年共时引文分布数据上,分别以所有年份和30年为时间窗口计算数学文献的插值引文半衰期(如图3所示)。结果表明，两种情况下引文半衰期均表现出相同的趋势：在小幅波动中基本保持线性增长。另外,还可以观察到2002年之后引文半衰期的增长速度放缓,基本维持了相对平稳的状态,而这一现象是否代表某种长期趋势仍值得我们继续关注和深入分析。"
+  },
+  "2文献老化指标及趋势分析": {
+    "context1": "常用的文献老化测度指标主要有半衰期、普赖斯指数和剩余有益性指标三种。根据本文的研究内容，选择半衰期这一针对于某一学科或专业领域文献总和，衡量较长时间范围内文献老化整体情况的测度指标。根据引证数据的不同,文献半衰期可分为引文半衰期和被引半衰期,前者以文献末尾参考文献中时间信息为依据对引文的半衰期长度进行测定，而后者则依据文献自身的被引时间对其作为一个整体的老化状况进行测度;根据观测角度的不同，又可以分为共时法半衰期和历时法半衰期，前者是以调查年度为时间起点依时序向后进行，而后者则以调查年度为时间起点逆着时间轴向前进行统计测度。本文基于文献的引用与被引数据，分别从不同角度对数学文献的半衰期变化趋势做了对比分析。",
+    "context2": "![](images/1bfa13094103cdc06d5b3c7a718db1b6370ba9a1f5cb7df3335f0f5dd7c133db.jpg)  \n图2历年参考文献分布图",
+    "context3": "2.1共时法引文半衰期针对1960-2009 年间的历年数学文献,分别统计其文后所附参考文献的年代分布,并以最大年度引文量为基数对其做归一化处理以便对比分析。图2中以10年为间隔分别给出了样本期刊年度引文量的两组归一化分布曲线。从图中可以观察到，网络环境对于加快文献利用即时反应速度的作用并不明显，在达到文献引用峰值前曲线的差别不大，且文献引用峰值出现于观测年2-4年前这一特点50年来基本不变;而在引文曲线在达到峰值之",
+    "context4": "![](images/e03987d1e1bfe39b943ac33f3e59709bac1a1cb3c857c595f6bf3f78dbe6d92f.jpg)  \n图3数学文献的引文半衰期曲线(1960-2009)",
+    "context5": "2.2共时法被引半衰期 以1960-2009 每一年为观测点，分别考察之前历年发表的文献在观测年的被引量，并对其进行归一化处理,得到了如图4所示的共时法被引曲线。图4曲线表现出与共时法引文分布曲线相类似的趋势特征,即发表于2-4年前文献的被引量最大，而在达到被引峰值之后的曲线下降趋势则逐渐趋缓。这说明数学文献的共时法被引半衰期同样在不断延长。",
+    "context6": "![](images/db1388e276cbc749cea4a14655354a226acbcea1808dbcce6f61c672b2fcf125.jpg)  \n图4共时法被引分布图",
+    "context7": "2.3历时法被引半衰期以每年发表的数学文献为观察对象，分别考察其发表后历年的被引用量，并对其进行归一化得到如图5所示的历时法被引分布图。图中分别用两种不同的横坐标绘制了被引量分布曲线,试图从两个角度来展示曲线的变化规律。如图5(a)所示,历时法被引曲线与图2、图4中两种共时法曲线有很大的差异：虽然被引量在文献发表后前几年的增长趋势基本相同,但文献的被引峰值多数情况下并未出现在其发表后的第2-4年,同时并未在其后的若干年出现持续下降的趋势。恰恰相反,从图5(b)中可以看到，无论曲线前半部分的变化趋势如何，其从20 世纪90年代后期即进入互联网时代以来都表现出比较明显的上升趋势。",
+    "context8": "由此可以看到,随着科学研究的发展、文献生产的繁荣、网络以及数字化技术的普及,文献的绝对老化(即文献绝对利用量的降低)在近年来并未发生，相反旧有文献在当前甚至表现出了更强的生命力。常用的共时法文献老化测度方法在固定的观测点上观测每一年的文献相对于其他年份文献的老化状况，都是对文献相对老化速度的测度。故而，传统意义上讲的文献老化只是一种相对老化。",
+    "context9": "2.4三种半衰期比较最后,基于上文分析数据在30 年时间窗口下对数学文献引文半衰期、共时法被引半衰期、历时法相对被引半衰期三种文献相对老化测度结果进行观测比较(图7）。受到时间和数据库的限制,在30年时间窗口下共时法被引半衰期的计算中仍有部分数据左删失，而历时法相对被引半衰期有部分数据右删失，因此在两种被引半衰期的计算中都只给出了数据完整年份的半衰期。如图7所示，尽管研究的对象和角度不尽相同,但三种文献半衰期都表现出了相同的增长趋势且半衰期长度大致相当，这充分说明数学文献的相对老化速度减缓是一个客观存在的现象。",
+    "context10": "![](images/d1a1f5f8f83f872a60dc24aee11c20ea960bea848eb586cf96a64d683e17019f.jpg)  \n图7三种半衰期计算结果比较",
+    "context11": "![](images/20f03dc43c08bbd208fbca5ffdec45d8a32e2403b607f03af2048abed50c2a33.jpg)  \n图5历时法被引分布图",
+    "context12": "借助文献的相对被引量也可以实现历时法被引半衰期对文献相对老化速度的测度。文献相对被引量即文献在发表后某一年的被引量占当年所有文献总被引量的比例。图6中文献相对被引曲线的形状与图2、图4基本相同。唯一的区别在于,近些年有随时间推移而曲线下降速度变快的情况出现。这究竟是由文献自身因素所产生的个例，还是内外环境改变所引发的普遍规律,由于受到时间限制,统计数据缺失,无法给出明确的结论，尚需进一步的观察。",
+    "context13": "![](images/61ba099b175f7545fe302bb7cbb7548033d85589f7d4b06c5f27fc34567ff09f.jpg)  \n图6历时法相对被引量分布图"
+  },
+  "3文献老化影响因素分析": {
+    "context1": "上文文献老化趋势往往只是其老化规律的外在表征,而若要深入探讨其内在老化机理,则必须深入考察网络环境下影响文献老化的内外部因素及其作用大小及方式。文献老化的影响因素繁多而复杂,通常可归纳为文献增长、用户需求与利用特点、外部信息环境等几个方面，要逐一透析其对文献老化的影响实属不易。本文在发文量和即年指标等基础上,提出了即年被引率、即年相对被引率、即年影响力、经典文献被引比例和文献整体被引率等几项新指标，并对上述指标做了文献老化影响因素的相关性分析。"
+  },
+  "3.1文献增长对文献老化的影响": {
+    "context1": "3.1.1文献增长指标及趋势分析。文献增长的直接表现就是发文量的变化。学科期刊发文量从一个侧面反映出学科的发展状况,并对文献老化有直接的影响。发文量的变化主要取决于两个因素，一是期刊种类的变化，二是期刊容量的变化。图8中给出了数学学科40种样本期刊50年来的发文量变化和有参考文献信息的文献数量变化趋势。从图8可以看到,数学期刊的发文数量大致呈指数型增长趋势，但在2000年以后增长速度趋缓,而Lariviere等对科学文献长期老化趋势的研究中也有类似的发现，只是其样本数据观测所显示的文献生产增速下降趋势提前至1980年。",
+    "context2": "![](images/5cebd791089e4edb71206a2e85d9993453f39931bbfcf9e33cb9db4f934f93d1.jpg)  \n图8样本期刊历年发文量",
+    "context3": "通过对期刊样本的深入分析可知，上述现象产生的主要原因可能在于样本数据未能充分反映出期刊数量的真实变化趋势。如图9(a)所示,本文所选择的样本期刊数在1995年之后基本保持不变，而与此同时JCR每年收录的期刊量却一直保持线性增长且增速较之前加快(通过JCR网络版只能查询1997年之后的数据），因而1995年后期刊发文量增幅减缓可能缘于样本期刊未能同步增长所致。而在上文Lariviere 的研究中也有类似问题，其在1980年后样本期刊数的增长速度明显减缓(图9(b),图中曲线根据文献中列出的几个基准数据绘出，仅能反映整体的增长趋势）。由此可见,期刊种类增长因素是在以考察半衰期为指导思想的样本数据选择中未能充分考虑到的，因而从客观上对观察发文量的增长趋势造成了一定的影响。",
+    "context4": "类似的结论。由此,在发文量增长会加速文献老化这一前提下,可认为文献增长因素对于文献老化的影响已被其他因素所冲抵,发文量只是影响文献老化的一个次要因素。",
+    "context5": "![](images/be95526331ee3679df3cee22db8a574822d38a1c5902f2fb3032d8432b8859f0.jpg)  \n图10发文量与半衰期的关系",
+    "context6": "3.2用户利用特点对文献老化的影响用户利用特点包括用户利用文献的数量、类型、语种、学科分类和年代分布等。文献自身内容、来源等内在因素以及科学研究规范化等外部条件都会培养和改变用户的文献利用特点，进而对文献老化趋势构成深远影响。参考文献作为文献生产者直接利用已有相关文献的证据,能够较为可靠地反映用户文献利用习惯的数量特征,因此篇均引文量可以作为测度用户利用特点对文献老化影响的定量化指标。",
+    "context7": "3.2.1期刊篇均引文量趋势分析。引文分析是文献计量学领域考察文献老化状况的重要依据，其一方面可作为考察文献实际利用状况的客观依据，另一方面也是测度文献老化趋势的数据来源。本文统计了40种数学期刊样本中所引用的参考文献总量与篇均引文量变化情况(图11a）。结果表明，1960-2009年数学期刊引文总量与发文总量相同，都表现出指数增长趋势，同样由于受到样本期刊数的影响,期刊引文总量在2000年后出现了增速放缓的现象。与之相比,期刊篇均引文量由于不受期刊数量的影响，因而在50年间保持了稳定的线性增长趋势（图11b）,2009",
+    "context8": "![](images/b4689f639a8fe0c06ff25b4293f08aa90d77c152c8ba0e9880bd17d0a5b402b1.jpg)  \n图9历年样本期刊数",
+    "context9": "3.1.2发文量对文献老化的影响。通常认为发文量增长表明文献生产繁荣、可利用文献增多，从而导致文献所含知识的更新速度加快，老化半衰期变短，文献老化加速。然而在实证研究中,由于受到其他老化因素的影响,发文量的增长对于加速文献老化的作用往往得不到直接的反应，反而表现出截然相反的作用结果——发文量增长与半衰期正相关（如图",
+    "context10": "10,当发文量增长时,引文半衰期变长,而当发文量下降时,引文半衰期变短)。在已有的研究成果中也有",
+    "context11": "![](images/ff6f81a9c4c8343e5dff38e8c1b963a28337481f4772025c3ff2201033c68101.jpg)  \n年的篇均引文量达到1960年的4倍之多。  \n图11样本期刊引文总量及篇均引文量增长趋势图",
+    "context12": "3.2.2篇均引文量对文献老化的影响。篇均引文量增长意味着每生产一篇新文献都要利用更多的旧有文献。从图12中可以看到，篇均引文量与引文半衰期正相关且基本满足线性关系，随着篇均引文量的增长,引文半衰期逐渐延长,文献老化速度减缓。因此随着文献可获取性的增强、科学研究自身的发展以及文献著录规范性的提高，文献引文量增加所反映出的用户文献利用量的提升成为导致文献老化减缓的一个重要原因。",
+    "context13": "![](images/52acdc8f95903a72d86012f46c6008f4cbf09d02d45f43d2b68ed894dcceab33.jpg)  \n图12篇均引文量与半衰期的关系",
+    "context14": "3.3信息环境对文献老化的影响随着互联网的发展,信息环境有了翻天覆地的变化,进而对文献的生产、获取和利用都产生了巨大的影响,这也正是本文研究的初衷和所要重点关注的一个因素。网络对于文献利用的影响主要体现在一头一尾两个方面,即对于即年文献和发表于较早年代的旧有文献的利用状况的改变。",
+    "context15": "的影响不大,而随着互联网的普及和期刊数字化的发展,文献从生产到利用的时效性得到了显著的提高。",
+    "context16": "虽然网络环境下文献的即时反应速度加快，但即年文献的影响力却持续减弱。即年文献的影响力可用即年相对被引率和即年影响力两个指标来衡量（式2)。",
+    "context17": "即年相对_当年发表文献在当年的被引次数 $\\cdot \\times 1 0 0 \\%$   \n被引率“所有文献在当年的总被引次数当年发表文献在当年的篇均被引次数  \n即年影响力 $=$ 所有文献在当年的篇均被引次数",
+    "context18": "如图13(b)中所示，自20 世纪70年代以来,数学文献即年相对被引率平稳下降，即年影响力也呈现下降趋势。这两个比例的下降反应出科学研究对旧有文献的依赖性增强,同时也从另一个方面印证了文献老化速度减缓的事实。",
+    "context19": "3.3.1即年指标和即年影响力趋势分析。文献的即时反应速度是研究文献老化的一个重要指标，可根据文献发表当年的被引状况进行测度。对文献的被引状况，可从被引的深度和广度两个角度进行分析。即年指标即文献在发表当年的篇均被引次数,是对文献即年被引深度的测度;而即年被引率则是某年度发表的所有文献中当年被引次数大于零的文献数量与当年发表的文献总量的比值,反映了文献即年被引的广度(式1）。",
+    "context20": "即年指标=当年发表文献在当年被引用的总次数当年发表文献总数",
+    "context21": "即年_当年发表文献在当年被引用的篇数×100%被引率 当年发表文献总数",
+    "context22": "图13(a)中给出了数学文献50年来两个指标的变化曲线及相应的指数型趋势线，两个指标变化趋势大致相同:整体呈上升趋势,但在20世纪70年代末到90 年代末的网络过渡时代基本保持平稳，而进入互联网时代以来却表现出快速的上升态势。由于在不同的网络发展阶段发文量和篇均引文量的增长趋势相同，因此可见,发文量和篇均引文量的增长对于即年指标",
+    "context23": "![](images/f700066be455a92739f8e2b076620d7ab140c1d295652b4e7a91f9ab936d047b.jpg)  \n图13即年指标和即年影响力变化趋势",
+    "context24": "3.3.2长尾效应。传统文献环境下的“二八定律\"反映了在文献利用与用户需求两方面均普遍存在的“马太效应”,即大约 $20 \\%$ 的文献满足了 $80 \\%$ 的需求。但随着互联网的发展,这一状况发生了根本性的转变一—当文献获取的瓶颈开始消失,所有文献都能够相对均等获取时，“马太效应\"相对弱化,而“长尾效应”自然发生：经典文献仍然贡献了相当的被引量，但与此同时由一般文献所构成的长尾被更多地被引用，且其总被引次数相当可观。",
+    "context25": "图14(a)中分别描述了在100 年时间窗口和30年时间窗口下，经典文献被引比例即被引次数前$20 \\%$ ， $10 \\%$ 和 $5 \\%$ 的经典文献的被引量占所有文献总被引量百分比的变化情况（式3）。",
+    "context26": "被引次数前 $20 \\%$ $1 0 \\% , 5 \\% )$",
+    "context27": "经典文献 的文献的总被引次数 $\\cdot \\times 1 0 0 \\%$ 被引比例 所有文献的总被引次数",
+    "context28": "从图14中可以看到,50年来曲线的变化大致可分为1960-1980、1981-1997、1998-2009年3个阶段，这与图1中网络发展阶段划分大致吻合。由此可见，随着互联网时代的到来,经典文献被引比例呈现出明显的下降趋势。而与此相辅相成的是文献整体被引率即被引用次数大于零的文献数量在所有文献中所占比例(式4)呈持续上升趋势，且进入90年代后期以来增速明显加快(图14(b)）,因此可以断言长尾部分在互联网环境下的文献利用中扮演了更为重要的角色。文献整体被引率 $=$ 被引次数大于0的文献数量 $\\cdot \\times 1 0 0 \\%$ 所有文献的总量",
+    "context29": "![](images/c5aa6f974614447b0a5510c823721c36f6d5ea726bb1970321e78bda416837cf.jpg)  \n图14长尾效应",
+    "context30": "进一步地,从图14(b)中100 年窗口和30 年窗口两条曲线的变化趋势可以看到，在90年代末之前两曲线基本吻合,而在90年代末之后,100年窗口曲线的增长速度要明显快于30年窗口曲线,这一变化充分说明互联网时代更多的旧有文献(发表时间30年以上)得到利用。综上分析可见,文献利用的长尾效应在互联网时代得到了更充分的体现，这既体现在文献利用的广度上，又体现在文献利用的深度上,同时也是文献老化速度减缓的一个重要原因。",
+    "context31": "3.3.3网络环境对文献老化的影响。在前文中已经阐述了互联网所引发的文献利用的长尾效应和即年影响力下降,进一步地将历年的被引文献根据发表的年份分成即年文献(0年）、已发表1年、2年、3-5年、6-10年、11-20年、21-50年、50-100年8个时间区间,计算每一区间内文献所占百分比,得到如图15所示的历年被引文献年代区间分布图。从图中可以看到,进入互联网时代以来,发表于20年前文献的被引比例较其他区间的文献明显提高。因此我们可以认为文献数字化与网络化存取为旧文献的利用提供了便利,使其焕发了新的生命力,并直接导致了文献整体老化速度的降低。"
+  },
+  "3.4文献老化影响因素的重要性分析灰色关联分析方法是进行系统影响因素重要性分析的有效工": {
+    "context1": "具,对于样本量的多少和样本有无规律都同样适用，非常适合进行文献老化的影响因素分析。灰色关联分析的基本思想是根据序列曲线几何形状的相似程度来判断其联系是否紧密。曲线越接近，相应序列之间关联度就越大,反之就越小。灰色关联度、灰色相对关联度、灰色绝对关联度和灰色综合关联度从不同的角度度量了序列的相关性，其取值范围皆为b,1],值越大表明相关性越大。其中灰色综合关联度既体现了曲线的相似程度，又反映出曲线相对于始点的变化速率的接近程度，是较为全面地表征序列之间联系是否紧密的一个数量指标。",
+    "context2": "![](images/d09f90896757fb9f3b107609091317511d83fd0a0e04b1103c1646b99e7690c5.jpg)  \n图15历年被引文献年代区间分布图",
+    "context3": "表1中分别给出了发文量、篇均引文量、即年指标、即年影响力和长尾效应( $\\mathrm { T o p } 5 \\%$ 经典文献被引比例和历年文献整体被引率)三类影响因素的数量表征与引文半衰期、共时法被引半衰期以及历时法被引半衰期三类文献老化测度指标之间的相关性。从表中可以看到,篇均引文量与文献老化指标的相关性最高，因此可以推断用户文献利用特点是影响文献老化的最重要因素;而长尾效应所反映的信息环境因素对文献老化的影响次之;文献生产因素与文献老化的关联度最低。这与前文中的定性分析结果相一致。"
+  },
+  "4总结与讨论": {
+    "context1": "本文借助Web of Science引文数据库,以40 种数学期刊的引文和被引数据作为分析样本,对文献老化相关的指标进行了统计分析，考察了50年来数学文献老化的总体变化趋势，并在此基础上对文献老化的影响因素进行了重要性的定量分析，结果表明用户文献利用特点(篇均引文量)是影响文献老化的最重要因素。通过对不同网络环境下文献老化指标与趋势的分析可知,在文献的相对老化趋势研究中,互联网对于加快文献在发表初期的获取和利用的作用由于受到研究对象和其他因素的影响并未在文献老化趋势中得以充分体现,而文献利用的长尾效应却得到了淋漓尽致的展现,这是互联网时代文献老化速度减缓的另一重要原因。虽然本文仅仅是基于数学期刊引文数据做出的分析,但在信息环境普遍发生变化的大背景下,应当对其他学科也具有相当的指导意义。",
+    "context2": "表1影响因素与文献半衰期的相关性",
+    "context3": "<table><tr><td rowspan=\"2\">影响因素</td><td colspan=\"3\">灰色关联度</td><td colspan=\"3\">灰色相对关联度</td><td colspan=\"3\">灰色绝对关联度</td><td colspan=\"3\">灰色综合关联度</td></tr><tr><td>1*</td><td>2*</td><td>3*</td><td>1</td><td>2</td><td>3</td><td>1</td><td>2</td><td>3</td><td>1</td><td>2</td><td>3</td></tr><tr><td>发文量</td><td>0.57</td><td>0.57</td><td>0.48</td><td>0.53</td><td>0.63</td><td>0.50</td><td>0.50</td><td>0.50</td><td>0.50</td><td>0.51</td><td>0.56</td><td>0.50</td></tr><tr><td>篇均引文数</td><td>0.91</td><td>0.87</td><td>0.86</td><td>0.86</td><td>0.72</td><td>0.69</td><td>0.80</td><td>0.94</td><td>0.66</td><td>0.83</td><td>0.83</td><td>0.67</td></tr><tr><td>即年指标</td><td>0.96</td><td>0.83</td><td>0.91</td><td>0.85</td><td>0.76</td><td>0.54</td><td>0.51</td><td>0.51</td><td>0.52</td><td>0.68</td><td>0.63</td><td>0.53</td></tr><tr><td>即年影响力</td><td>0.92</td><td>0.67</td><td>0.92</td><td>0.51</td><td>0.51</td><td>0.72</td><td>0.50</td><td>0.50</td><td>0.59</td><td>0.50</td><td>0.51</td><td>0.65</td></tr><tr><td>文献整体被引率</td><td>0.95</td><td>0.86</td><td>0.89</td><td>0.94</td><td>0.75</td><td>0.57</td><td>0.51</td><td>0.51</td><td>0.52</td><td>0.72</td><td>0.63</td><td>0.54</td></tr><tr><td>Top5%被引比例</td><td>0.94</td><td>0.74</td><td>0.95</td><td>0.51</td><td>0.52</td><td>0.99</td><td>0.50</td><td>0.50</td><td>0.58</td><td>0.51</td><td>0.51</td><td>0.78</td></tr></table>",
+    "context4": "\\* 1指引文半衰期,2指共时法被引半衰期,3指历时法被引半衰期。",
+    "context5": "此外,通过本文的研究还得到了以下后示:a.传统文献利用的“二八定律\"在互联网时代中已经发生了巨大的变化，“长尾效应”日益显现:第一,网络环境下可获取的文献较传统印刷环境大为增加;第二,由于文献可获取性的增强,文献的利用率分布更趋于平均化;第三,冷门文献与经典文献都能满足相当一部分的用户需求。这一变化值得关注，尤其是对于“长尾文献”的研究将对文献老化和文献管理起到重要作用。b.文献的老化有绝对老化和相对老化之分，因此对于文献老化指标的分析应基于同一老化模式。用文献的绝对老化指标来预测相对老化趋势和用相对老化指标来评价文献的绝对利用状况都是不合适的。c.随着文献利用的外部环境和文献内在属性的日益复杂化，仅根据单"
+  },
+  "一因素来进行文献老化的趋势判断是不可取的,应从更加全面的角度进行综合性的分析和评价。": "",
+  "参考文献": {
+    "context1": "[]Line M B.Changes in the Use of Literature With time: Obsolescence Revisited [.Library Trends,1993(41):665-683   \n[] Price D JD.Networks of Scientific Papers [].Sciences,1965, 149:510-515   \nB Odlyzko A.The Rapid Evolution of Scholarly Communication .Learned Publishing,2002(15):7-19 Internet Systems Consortium: Internet Domain Survey [EB/OL]. [2011-02-16] .http://www.isc.org/index"
+  },
+  "邱均平.信息计量学M].武汉：武汉大学出版社,2007": {
+    "context1": "bLariviere V，Archambault E,Gingras Y. Long-Term Variations in the Aging of Scientific Literature:From Exponential Grow th to Steady-State Science（1900-2004)[ .Journal of the American Society for Information Science and Technology，2Oo8,59(2) : 288-296   \nEgghe L.On the Influence of Growth on Obsolescence [ .Scientometrics,1993,27(2):195-214   \n8 Wallace D P.The Relationship Between Journal Productivity and Obsolescence [l .Journal of the American Society for Information Science,1986,37(3):136-145",
+    "context2": "陈立新,梁立明,刘则渊．力学文献老化速度50 年（1954-2003)的变化趋势[.现代情报,2006(10)：12-15"
+  },
+  "[0]刘思峰,谢乃明等.灰色系统理论及其应用(第四版[M].北京：科学出版社,2008": {
+    "context1": "(责编:贺晓利)"
+  },
+  "(上接第89页)": {
+    "context1": "[2]Rivkin J.Imitation of Complex Strategies [] .Management Science,2000,46(6):824-84   \n[23]Zander U,Kogut B.Knowledge and the Speed of the Transfer and Imitation of Organizational Capabilities:An Empirical Test .Organization Science,1995,6(1) :76-92   \n4Rivkin J.Reproducing Knowledge: Replication Without Imitation at Moderate Complexity [].Organization Science,2001(12): 274-293   \n[5]Mariano N,Waldo P.A firm's Assets as a Foundation for Strategy,Learning and the Grounds to Success [] .The Learning Organization,2002,9(1) :19-28   \n[6]Rao PM.Sustaining Competitive Advantage In A High-Technology Environment:A Strategic Marketing Perspective [].Advances in Competitiveness Research,2005,13(1):33-47   \n[7]Sanchez R，Mahoney J T. Modularity,Flexibility,and Knowledge Management in Product and Organization Design [] .Strategic Management Journal,1996(17) :63-76   \n[28]Kurokawa S.Make-or-Buy Decisions in R&D:Small Technology Based Firms in theUnited States and Japan  .IEEE Transactions ON Engineering Management,1997,44(2):124-134   \n[9]Veugelers R,Cassiman B. Make and Buy in Innovation Strate",
+    "context2": "gies:Evidence From Belgian Manufacturing Firms [l .Research Policy,1999,28:63-80 BolTidd & Trewhella. Organizational and Technological Antecedents for Knowledge Acquisition and Learning [ .R&D Management, 1997,27(4) :359-375"
+  },
+  "B1]吴明隆.SPSS 统计应用实务:问卷分析与应用统计 [M].北京：科学出版社，2003": {
+    "context1": "β2]Jones G K,Lanctot A,Teegen H J.Determinants and Performance Impacts of External Technology Acquisition [l .Journal of Business Venturing,2001(16) :255-283   \nB3]Cassman B,Veugelers R. R&D Cooperation and Spillvers: Some Empirical Evidence From Belgium [l .The American Economic Review,2002,92(4):1169 -1184   \nB4Chen H,Chen T J. Governance Structures in Strategic Alliances: Transaction Cost Versus Resource-Based Perspective [ .Journal of World Business,2003(38) :1-14   \nB5]Telesio P.Technology Licensing and Multinational Enterprises [M] .New York:Praeger,1979   \nB6]Martin S.Spillovers,Appropriability，and R&D [ .Journal of Economics,2002,75(1) :1-32",
+    "context2": "(责编：刘武英)"
+  }
+}

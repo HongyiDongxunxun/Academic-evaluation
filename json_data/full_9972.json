@@ -1,0 +1,44 @@
+{
+  "original_filename": "full_9972.md",
+  "采故纳新 继往开来": "",
+  "-评《情报学研究方法与技术体系》": "",
+  "■陆伟": {
+    "context1": "武汉大学信息管理学院武汉430072",
+    "context2": "摘 要：［目的/意义]对《情报学研究方法与技术体系》一书进行评介,旨在使读者了解情报学学科包含的基本研究方法、研究方法与技术体系的构建过程与结果。［方法/过程]综合使用信息组织、自然语言处理、机器学习等理论与技术,构建情报学研究方法与技术体系、开发情报学研究方法知识库与检索系统，并针对特定场景下的情报学方法体系问题进行探索。［结果/结论]该书视角独特,创新性地利用机器学习辅助构建学科研究方法体系,对情报学研究方法的拓新和情报学学术体系的构建具有重要的促进作用，也为学科和行业实际问题的解决提供了一把钥匙。",
+    "context3": "关键词：情报学研究方法体系学术体系分类号：G250DOI: 10.13266/j. issn.0252 -3116.2021.21.006",
+    "context4": "完整的方法论体系是一门学科独立的基础与成熟的重要标志。国内外的情报事业经过多年的发展,为情报学研究提供了非常丰富的实践资源。与此同时，情报学在研究实践中，已形成众多的相关学术流派、学科基础理论和研究方法。研究方法是促进学科发展与深入研究的推动力,在科学研究过程中扮演着举足轻重的角色。通过对情报学相关方法与技术的梳理、归纳与总结,形成情报学方法与技术体系,对情报学研究与情报工作具有重要的指导作用。",
+    "context5": "需要指出的是，在当前的大数据环境下,情报学方法与技术不断出现新变化、产生新内容、呈现新特点。因此,构建一个较为系统的情报学研究与方法体系，具有极大的挑战。尤其是在当前的大数据时代，作为交叉性学科的情报学,必须打破学科壁垒,有效地吸收并融合其他学科的理论和方法,保证情报学理论研究具有更大的创新空间,知识体系能够得到更大的拓展[1]。学术界亟需新的思路与方法，综合考虑情报学学科中传统研究方法与新兴研究方法,并针对不同领域与应用场景提炼其中所使用的情报学方法与技术共性,从而构建一个覆盖面广、适应性强的情报学方法与技术体系。",
+    "context6": "在这一背景下，章成志教授团队基于多年来在学术文本挖掘、情报学研究方法等相关方向取得的系列研究成果,系统梳理了情报学学科相关的研究方法与技术,并在此基础上构建了情报学方法与技术体系。《情报学研究方法与技术体系》[2]一书是章教授团队上述研究成果的结晶,也是他的团队近来年的代表作品之一。该书在理论框架、研究内容设计、研究方法、成果呈现等方面匠心独具,是一部优秀的著作，总体来说,具有如下4个方面的特色："
+  },
+  "1 研究视角独特": {
+    "context1": "为保证所构建的情报学研究方法与技术体系的全面性和适用性，本书在继承前人研究方法体系相关成果的基础上,结合当前的情报学与情报工作特点,依据丰富的实际数据,构建了多层次的情报学研究方法与技术体系。",
+    "context2": "首先,本专著对现有情报学理论与方法进行调研，人工梳理情报学研究方法后，获取了情报学一般研究方法(一级类目)与情报学专门研究方法（一级类目）；然后，大规模收集情报学领域学术出版物构建基础语料库,并借助自然语言处理技术从语料库自动抽取情报学领域的研究方法实体;接着，利用层次聚类方法对研究方法实体进行聚类，从而构建情报学二级与三级类目；最终，本专著将传统类目与机器学习生成类目相结合，构建情报学方法与技术体系。该研究另辟蹊径，研究视角具有一定的独特性。"
+  },
+  "1 研究内容创新性强": {
+    "context1": "本书逻辑框架清晰，文章结构安排合理。研究内容主要包括3个部分，即： $\\textcircled{1}$ 人工梳理得到传统情报学研究方法体系； $\\textcircled{2}$ 机器自动生成新兴情报学研究方法体系； $\\textcircled{3}$ 特定场景下的情报学研究方法体系研究。",
+    "context2": "有别于传统的人工构建研究方法体系,该书采用人工梳理结合机器学习的模式来构建多层次的特定学科研究方法与技术体系。基于人工的内容分析法用于获取体系中的一级类目方法，基于机器的深度学习技术用于从学术论文全文中自动抽取二、三级类目方法句子及实体,并探寻层级之间关系。该模式不仅加快了研究方法体系的构建速度,也可以被推广应用到其他学科的研究方法体系构建研究与实践中。此外，团队组织研究人员标注了情报学研究方法语料。语料标注是一项基础性工作,不仅有一定的示范作用,还为今后进一步提升情报学研究方法描述句抽取、研究方法实体抽取以及实体聚类等研究与实践提供了语料保证[3]。以上都体现出该专著较强的创新性,对情报学学科建设具有重要的理论意义和现实指导意义。"
+  },
+  "3 研究方法学科交叉特色突出": {
+    "context1": "本书综合使用了内容分析法、实证研究方法以及综合集成等多种研究方法。本书研究内容涵盖学术文献采集与语料库整理、学术文本信息提取与挖掘、系统开发与可视化等方面,研究涉及情报学、语言学、计算机科学等多个学科领域，体现出了很强的学科交叉特色。",
+    "context2": "首先,在学术文献采集与语料库整理方面,本书利用搜索引擎以及国内外学术论文数据库，搜集并归纳情报学相关领域中情报与情报学的概念，并从现有的文献、专著、百科全书和情报工作案例等资料中，利用规则与机器学习相结合的方法，抽取国内外情报学方法,得到情报学方法语料库。",
+    "context3": "其次,在学术文本信息提取与挖掘方面,本书使用深度学习方法对学术论文中的句子进行自动分类；依据深度学习模型从描述研究方法的句子中自动识别研究方法实体;使用层次聚类方法实现情报学方法体系",
+    "context4": "的自动构建。",
+    "context5": "最后，在系统开发与可视化方面,本书综合研究方法实体抽取与研究方法体系构建的结果,设计了情报学研究方法知识库和相应的检索系统,体现了多种方法与技术手段的集成。"
+  },
+  "4 研究成果实用价值高": {
+    "context1": "本书依据包含情报学研究方法集合的语料库（情报学方法语料库），对情报学研究方法进行表示，利用聚类算法生成方法的层次概念体系，即情报学方法体系。这里需要指出的是,本书中的情报学方法体系自动构建,是限定在人工梳理的研究方法一级类目中进行聚类所得到的。这种人工梳理与机器学习相互结合的层次体系生成方法,在一定程度上保证了方法体系的稳定性与可解释性。",
+    "context2": "此外,本书结合情报学领域学术文献,对情报学方法实体、情报学层次体系进行知识库的构建与检索，通过检索平台直观地展示情报学方法实体与方法体系，这对情报学领域的科研工作者快速了解该学科的研究方法体系具有很好的辅助作用。",
+    "context3": "最后，本书还针对特定场景下的情报学方法体系问题进行了探索，主要包括面向“过程－问题”的情报学方法技术体系构建研究、特定领域(以我国经济情报研究为例)的情报学研究方法体系、大数据环境下情报学方法与技术体系构建等3个方面，对相关领域的实践有一定的参考价值。",
+    "context4": "在当前的大数据时代,对情报学学科的相关方法与技术进行系统梳理、构建情报学研究方法与技术体系,是情报学学科一项不可缺少的基础工作。本书的研究成果丰富了这一研究领域的内容,无疑会对情报学学科建设和情报学人才培养提供重要支撑,此外,将情报学方法和技术体系与情报工作相结合，可为情报工作未来发展路径提供参考和借鉴。本书运用多样的研究方法,整合人工标注与机器学习的结果,并结合具体的场景,给出情报学研究方法与技术体系,不仅对情报学领域的科研工作者、研究生等具有较高的参考价值,对相关领域的科研人员也具有较强的借鉴意义。在学科交叉日益突出、学科边界日益模糊的今天,新技术新方法层出不穷,如何既坚守情报学初心,同时又能开放包容,与时俱进地调整和完善适应学科和时代发展的情报学研究方法与技术体系，是学科永恒的话题,期待章成志教授团队能在这个方向继续探索，取得更加丰富的研究成果。"
+  },
+  "参考文献：": {
+    "context1": "文献出版社，2021.",
+    "context2": "[1］苏新宁.中国特色情报学学科体系、学术体系、话语体系论纲[J].中国图书馆学报,2021,47(4)：16-27.",
+    "context3": "[2]章成志,等．情报学研究方法与技术体系[M].北京：科学技术[3]章成志，王玉琢,王如萍.情报学方法语料库构建[J].科技情报研究,2020,2(1):30-45.",
+    "context4": "Adopting the Past and Absorbing the New, Charring Forward the Cause and Forging Ahead into the Future: A Book Review of Taxonomy of Research Methods and Technologies in Intelligence Stdies",
+    "context5": "Lu Wei",
+    "context6": "School of Information Management， Wuhan University， Wuhan 430072",
+    "context7": "Abstract: [Purpose/significance] The book entitled Taxonomy of Research Methods and Technologies in Inteligence Studies is reviewed. This review aims to make readers understand the fundamental research methods,the construction process and results of taxonomy of research methods and technologies in intelligence studies.[Method/ process] The theoriesand technologies of information organization，naturallanguage processing and machine learning werecomprehensively used to construct the taxonomy of research methods and technologies in intellgence studies, develop the knowledge base and retrieval system of research methods in intelligence studies，and explore the taxonomy of research methods in particular scenarios of inteligence studies.[Result/conclusion] The book has a unique perspective and uses machine learning to construct the research methods taxonomy in specific discipline innovatively. It plays an important role in promoting the innovation of the research method in intellgence studies,andtheconstructionof the academic system in intellgence studies.It also provides a key for solving practical problems indisciplines and industries.",
+    "context8": "Keywords : intelligence studies taxonomy of research methods academic system"
+  }
+}

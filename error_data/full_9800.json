@@ -1,0 +1,82 @@
+{
+  "original_filename": "full_9800.md",
+  "近几年来国外信息检索模型研究进展": {
+    "context1": "The Review of Information Retrieval Models in Recent Years"
+  },
+  "孙坦周静怡 (中国科学院国家科学图书馆北京 100190)": {
+    "context1": "[摘要]信息检索模型是信息检索的核心。近几年来国外对于布尔模型的研究主要表现在对布尔模型的改进及对扩展布尔模型的进一步优化。对向量空间模型的研究,主要集中在对向量空间模型的扩展研究及对向量空间模型的应用方面。概率模型的发展主要集中在继续对概率模型进一步的研究，其与其它信息检索模型的结合,以及语言模型的研究和发展。近年来对于新兴的基于本体的信息检索模型的研究,主要集中在对基于本体的信息检索模型理论的研究，与其它检索模型的融合，以及基于本体检索模型的应用。国外信息检索模型研究的最新成果，为国内此方面的研究提供了前沿性的参考信息。",
+    "context2": "[关键词]信息检索布尔模型向量空间模型概率模型语言模型本体 [中图分类号]G252.7 [文献标识码]B",
+    "context3": "[Abstract] IInformation retrieval modelsare the important components of information retrieval.In recent years,the research of foreign countries on Boolean retrieval model mainly includes improvement and optimization.The research on vector space retrieval model includes the expansion and application. The research on probabilityretrieval model includes furtherstudy,combinationwithother information retrieval models,and the research and development of language model.The research on ontology-based information retrieval model includes the theory,combination with other information retrieval models and application. The latest achievements of information retrieval models will provide references for domestic research on informationretrievalmodels.",
+    "context4": "[Keywords] Informationretrieval; Booleanretrievalmodel; Vectorspace retrieval model; Probabilityretrieval model; Language model; Ontology",
+    "context5": "1引言",
+    "context6": "信息检索模型是信息检索的主要内容之一，其运用数学或其它的语言和工具，对信息检索的主要要素一一查询(Query)和文档(Document),及其之间的匹配程度一一相似度(Relevance)进行抽象描述,用于信息检索过程。近年来，",
+    "context7": "the Interactive Information Retrieval Context[J].Information Processing and Management,2006(42):751-768.   \n[36] Cheng Chersheng, Chung Chungping,Shann J.Fast Query Evaluation Through Document IdentifierAssignment for InvertedFile-based Information Retrieval Systems[J].Information Processing and Management,2006(42):729-750.   \n[37] MurdockV, Kelly D,Croft WB,etc.Identifying and Improving RetrievalforProceduralQuestions[J].InformationProcessingand Management,2007(43):181-203.   \n[38] JarvelinA,JarvelinA,JarvelinK.DefiningGeneralizedN-grams for InformationRetrieval[J].InformationProcessingandManagement, 2007(43):1005-1019.",
+    "context8": "对信息检索模型的不断研究和应用，推动了信息检索的发展和进步。"
+  },
+  "2布尔模型": {
+    "context1": "布尔模型(Booleanretrievalmodel)以布尔表达式为基础，以查询和文档的相似度是否满足布尔表达式为依据。",
+    "context2": "[39] JohoH,JoseJM.EffectivenessofAdditionalRepresentationsforthe SearchResultPresentationontheWeb[J].InformationProcessing and Management,2008(44):226-241.   \n[40] Sweeney S, CrestaniF.Effective Search Results Summary Size and DeviceScreenSizelsThereaRelationship[J].InformationProcessing and Management,2006(42):1056-1074."
+  },
+  "[作者简介]": {
+    "context1": "孙坦男，1970年生，中国科学院国家科学图书馆副馆长，研究馆员，教授，发表论文50余篇。周静怡女,1981年生,中国科学院国家科学图书馆馆员，发表论文10余篇。 [收稿日期:2008-02-22]"
+  },
+  "2.1利用算法对经典布尔模型进行改进": {
+    "context1": "提出利用归纳实例查询(Inductive Query by Example,IQBE)过程来提高布尔模型[1]。在IQBE过程中，融合和改进了两种布尔查询中曾经用过的算法,分别是Smith在1997年提出的在布尔模型中利用遗传规划(genetic programming,GP)算法[2]和进化算法[3](EvolutionaryAlgorithm,EA)遗传规划算法通过相关反馈机制来建立布尔查询用于文本检索，进化算法在每次运行的时候，可以同时获取具有不同查全率和查准率的多个查询来交替使用。"
+  },
+  "2.2优化扩展布尔模型": {
+    "context1": "利用相关反馈方法(relevancefeedbackmethod)来解决扩展布尔模型中存在的一些问题[4],通过分级聚类的方法将文档集分成不同的组，每组之间都存在着一些共性，但是组与组之间又相互区别，并通过“或”运算将这些文档集进行连接，同时，利用通过相关反馈机制来调整布尔查询的权重，最终实现将基于P-Norm(P范分布，实质是对布尔模型和向量空间模型的一个理论上的高度概括)的扩展布尔模型表达为一个神经网络;利用基于模糊逻辑的方法对布尔模型进行扩展[5]，用严谨的逻辑表达方式来描述检索模型的要素一一文档、查询及对查询的评估。",
+    "context2": "综上,由于布尔模型基于逻辑判断,要求准确,不能支持文档与查询之间的部分匹配，已经无法充分满足当前信息检索系统的需要，布尔模型的应用和发展更多体现在对其进行不断的扩展和其它模型的融合上。"
+  },
+  "3向量空间模型": {
+    "context1": "向量空间模型(Vector space retrieval model)以向量的形式来表示查询和文档，通过计算向量的相似度来判断查询与文档的相似度，并将查询返回的结果文档集按相似度进行排序。",
+    "context2": "近年来，对向量空间模型的研究如火如荼,主要集中在对向量空间模型的扩展研究及对向量空间模型的应用方面。"
+  },
+  "3.1向量空间模型的扩展研究": {
+    "context1": "潜在语义索引和Rocchio的相关反馈都是向量空间模型的扩展,潜在语义索引模型(Latent Semantic Indexing,LSI)是向量空间模型的扩展之一,该模型通过奇异值分解(Singular Value Decomposition，SVD)算法,将词向量和文档向量映射到一个低维空间，降低了词和文档之间的语义模糊度。April Kontostathis等[6]的研究中,提出了一个便于理解潜在语义索引的理论模型，展示了二阶特征项共现和奇异值分解算法得到的值之间的相似度，并对奇异值分解算法对特征项共现信息的封装进行了数学证明。MilesEfron研究指出[7],Rocchio的相关反馈和潜在语义索引模型之间的关系，这两者都是对经典向量空间模型的扩展，都是基于最小二乘法。研究表明,当检索一个简化的分类问题时，采用相关反馈机制更为合适，当检索时一个偏差回归问题时，潜在语义索引算法更为合适；近年来，关于利用截断性奇异值分解算法的潜在语义索引模型来进行检索的研究不断发展，但是该方法的缺点是要花费大量复杂的计算在奇异值分解算法上,针对这个问题,Cherukuri等[8]提出了不使用截断性奇异值分解算法，并进行了相关测试，证明了矩阵秩逼近对信息检索有效性的影响，证明了在没有使用截断性SVD时，基于特征值分析排序的潜在语义索引方法，在保证查准率的前提下，可以提高计算时间。"
+  },
+  "3.2向量空间模型的应用": {
+    "context1": "向量空间模型是当前应用最为广泛的信息检索模型之一。在邮件过滤系统一一SpamAssassin中,应用向量空间模型和潜在语义索引模型的分类性能来区分是否是垃圾邮件，应用中比较重要的两个内容是：潜在语义索引模型中的截断性奇异值分解算法，以及应用中分类结果的性能，并通过数据进行试验，结果证明通过应用该模型，可以获取比SpamAssassin更好的分类结果,而且比单纯的基于文本特征的向量空间模型的方法更好和更加具有鲁棒性[9];向量空间模型在音乐信息的检索中的也得到了相关的应用[10],在该研究中，将音乐的结构信息一一计时、和声等描述成音乐结构的金字塔层关系，并抽取每层的结构信息，分析音乐的节拍并分成相应的音程，完成信息抽取之后通过向量空间模型进行索引，在实例查询中每一个查询都被表示为一个向量，同时还提出了两种有效的检索模式一一硬索引模式(hard-indexingscheme)和软索引模式(soft-indexingscheme)。",
+    "context2": "综上,向量空间模型只是提供了一个理论框架,根据需要，可以使用不同的权重评价函数和相似度计算方法，因此，向量空间模型具有广泛的适应性和生命力。"
+  },
+  "4概率模型": {
+    "context1": "1976年,Roberston和Sparck Jones提出经典概率模型,该模型以概率理论为基础，对文档和查询建立概率模型，并依据模型计算文档和查询之间的相似度。",
+    "context2": "近年来，概率模型的发展主要集中在对概率模型进一步的研究，和其它信息检索模型的结合，以及语言模型的研究和发展。"
+  },
+  "4.1对概率模型的深入研究": {
+    "context1": "ChengXiang Zhai等[11]提出了一种新的概率信息检索模型,在这个模型中，检索问题被看成是一个统计决策问题，查询和文档通过统计语言进行模拟，通过损失函数来计算用户偏好，将检索的风险降到最低。与传统的检索问题相区别,将该模型应用到在子主题的检索中;Kacprzyk等[12],提出了一种新的基于概率逻辑的信息检索模型，其主要特点就是简洁地来表达模糊和不确定性的文本信息表达和处理，通过文档和查询中索引的权重来定量表达不确定性；针对当前一些模型中，对查询和文档相互独立的假设的缺点,Changki Lee等[13]提出将chow Expansion理论应用到概率模型中的新方法，并通过对英文和韩文文档集进行试验，证明了利用该方法可以有效提高信息检索系统的效率。"
+  },
+  "4.2概率模型与其它信息检索模型之间的融合": {
+    "context1": "根据布尔模型可以准确描述信息需求，但是针对无法满足查全率、很难建立合适的布尔查询表达式的特点，Masaharu等[14]将概率模型与布尔模型合并应用于WWW文档检索，基于这两种信息检索模型和Okapi系统生成的新的信息检索系统一一合适的布尔查询重制检索系统(appropriate Boolean query reformulation for informationretrieval,ABRIR),该系统对用户的布尔查询进行修改和重制，有效地提高检索的查全率和查准率。",
+    "context2": "综上,概率模型的理论研究仍然在不断地深入，能够有效融合到其它的信息检索模型中形成组合模型进行检索。"
+  },
+  "5语言模型": {
+    "context1": "由于当前以大规模真实语料库的处理为基本方法的语料库语言学取得了较大的进展，因此，近年来对信息检索中的以建立自然语言的数学模型为目标的语言模型(Language Modeling)的研究非常广泛。",
+    "context2": "目前,语言模型信息检索取决于对文档模型的精确估计,TaoTao等[15]提出了一种文档扩展技术来处理文档样本不够的问题，针对每一个文档构建一个概率邻居，并对每一个文档扩展它的邻居的信息。扩展文档提供了一种更加精确的文档模型的估计，因此提高了检索的查准率，同时，通过几种不同数据集的试验结果证明了这种方法的有效性。除了文档扩展的方法之外，语言模型还可以通过查询扩展和基于聚类的方法来解决词条之间的不匹配问题,Seung-Hoon[16]等对这两种方法进行了系统比较和评价，并将这两种不同的方法进行组合形成新的算法——C&Q(Cluster-based&queryexpansion,聚类和查询扩展方法)。在c&Q中，文档通过聚类的方法进行聚类，并为每个聚类建立查询扩展的共现信息。对于每个给定的查询，基于聚类的检索通过预处理进行聚类排序，再根据聚类分值进行查询扩展，在高分值的聚类中抽取基于共现信息的扩展条目。GuihongCao等通过弱化独立性假设来对已有的语言模型的方法进行扩展[17],试图建立一个可以整合各种词的关系的语言模型。在他们的研究中，将从WordNet中抽取出的关系和共现关系进行整合，并通过实验证明，整合词关系到语言检索模型中的必要性；XiaoyongLiu等[18]回顾了近年来统计语言模型的研究和在信息检索上的应用，如模糊查询、分布式检索、跨语言检索等。",
+    "context3": "综上,20世纪90年代末才引入到信息检索领域的语言模型，理论和实践仍然在不断的研究当中，但是有望借助于语言模型的研究成果，提高信息检索的查全率和查准率。"
+  },
+  "6基于本体的信息检索模型研究": {
+    "context1": "近年来，本体广泛应用于各种领域的自然语言处理中，成为描述语义信息和知识的建模工具。由于基于本体的信息检索模型通过对知识和语义上的匹配，具有更好的查准率和查全率，因此基于本体的信息检索模型的研究成为信息检索的一个新的发展方向，主要集中在对基于本体的信息检索模型理论的研究，与其它检索模型的融合，基于本体检索模型的应用。"
+  },
+  "6.1基于本体的信息检索模型理论的研究": {
+    "context1": "基于本体的信息检索模型可以帮助用户更容易明白他们的信息需求,解决语义表达问题。Steind[19]将基于本体的信息检索模型整合到传统的检索技术中，有效地将基于本体的信息检索模型应用到大型检索系统(挪威油气部门的大型语义网络标准化项目）中，利用本体概念表达领域术语，从而计算出特征向量值，提高给定的查询。"
+  },
+  "6.2与其它检索模型的融合": {
+    "context1": "基于本体的信息检索模型广泛应用于语义检索。PabloCastells等[20]的研究中,利用基于本体的模型,对文档和检索系统进行半自动化处理，同时，利用经典向量空间模型的加权算法和排序算法，进行完善，实现对大规模文档知识库的语义检索。"
+  },
+  "6.3基于本体信息检索模型的应用": {
+    "context1": "Henrik[21]利用本体提出了一套语义知识表示方法,开发了一个基于本体的个性化的检索系统用于帮助工程师找到合适的设计，解决了用户和系统之间的语义表示的转换问题;AsuncionGomez-Perez[22]在电子政务中,建立基于本体的法律信息检索系统一一EgoIR,该系统主要用于检索电子政务文档，同时还用于处理房地产交易文档，让市民、商家和政府共同来整合和展示文档，实现对电子政务文档的管理、检索和共享。",
+    "context2": "综上,基于本体的信息检索模型可以帮助用户更加明确自身的信息需求和文档之间的语义关系，得到了国内外信息检索专家的关注和推崇，得到了相对广泛的应用。"
+  },
+  "7其它信息检索模型研究": {
+    "context1": "在信息检索模型中,除了经典的布尔模型、向量空间模型、概率模型，以及后来引入现在蓬勃发展的语言模型和基于本体的信息检索模型之外,还有一些学者也在不断尝试一些新的模型，如利用元数据和文本建立的信息检索模型，网格环境下的异构信息检索模型等。",
+    "context2": "由于元数据能够准确表达用户的查询请求,所以具有高的查准率，因此在信息检索模型中开始得到应用，但是另一方面，精确的查询请求也导致了低的查全率。Kim SS的研究[23]提出了一种用于检索元数据和文本文档的复合信息检索模型，该模型可以分析用户查询并自动转换为复合查询，并对改模型进行了试验测试。"
+  },
+  "8结论": {
+    "context1": "近年来，随着信息和知识环境的不断变化，对信息检索提出了更高的要求，对信息检索模型的研究也一直在进行之中。",
+    "context2": "布尔模型以简洁易懂的方式表示查询和文档,它们的相似度以是否满足布尔表达式为依据;向量空间模型以向量的形式来表示文档和查询，通过计算向量的相似度来判断查询与文档的相似度，并将查询返回的结果文档集按相似度进行排序；概率模型基于概率排序原理，考虑了词条、文档之间的内在联系，利用词条之间和词条与文档之间的概率相似度进行信息检索;统计语言模型假设每个文档都存在一个语言模型，从文档的语言模型抽样产生检索的概率表示文档与查询的相似度;基于本体的信息检索模型克服了基于统计的信息检索模型缺乏语义理解的问题，在信息检索模型中通过引入本体对领域知识进行表示，通过定义和共享共同的领域知识来建立人机交流的平台，促进用户和信息系统对领域知识的共同理解，提高知识检索的层次。",
+    "context3": "无论是经典的布尔模型、向量空间模型、概率模型，还是随着环境的变化和技术的发展涌现出来的语言模型、基于本体的信息检索模型，都从不同层面丰富了信息检索模型的研究内容。"
+  },
+  "参考文献：": {
+    "context1": "[1] Cordo'nO,E.Herrera-Viedma, Luque M.Improving the Learningof Boolean Queries By Neans of a Multiobjective IQBE Evolutionary Algorithm[J].InformationProcessingandManagement,2006(3): 615- 632.   \n[2] SmithMP,SmithM.The Use of GeneticProgramming to Build Boolean Queries forText RetrievalThrough RelevanceFeedback [J]. Journal of InformationScience,1997(6):423-431.   \n[3]Coello,C.A.,VeldhuizenV,etc.EvolutionaryAlgorithmsforSolving Multi-objectiveProblems[M].Kluwer.AcademicPublishers,2002.   \n4] Choi J, Kim M,Raghavan W.Adaptive Relevance Feedback Method ofExtendedBooleanModel UsingHierarchicalClusteringTechniqes [J].Information Processingand Management,20o6 (2):331-349.   \n[] Zadrozny, Kacprzyk S, J.An Extended Fuzzy Boolean Model of Information Retrieval Revisited[C].The14th IEEE International Conference on Fuzzy Systems,2005.   \n[]KontostathisA,PottengerWM.AFrameworkforUnderstandingLatent SemanticIndexing(LSI)Performance[J].InformationProcessingand Management,2006(1):56-73.   \n[7] Efron M. Query Expansion and Dimensionality Reduction: Notions of OptimalityinRocchioRelevanceFeedbackandLatentSemantic Indexing [J].InformationProcessingandManagement,2008(1):163-180.   \n[]Kumar CA, Sriniva S.Latent Semantic Indexing Using Eigenvalue AnalysisforEfficientInformationRetrieval[J].Int.J.Appl.Math. Comput.Sci.,2006(4):551-558.   \n[] Gansterer WN,Janecek AGK, Robert Neumayer.SpamFiltering Based on Latent Semantic Indexing[M].Surveyof Text Mining Il, London : Springer,2008.   \nJ10] Namunu C,Li Haizhou,MohanS.Music Structure BasedVector Space retrieval[C].Proceedingsofthe29thAnnual InternationalACMSIGIR Conferenceon ResearchandDevelopment in Information Retrieval, 2006:67-74.   \n[1] Zhai Chengxiang,LaffertyJ.ARisk MinimizationFramework for InformationRetrieval[J].InformationProcessing&Management,2006 (1):31-55.   \n[12] KacprzykJ,NowackaK,ZadroznyS.APossbilistic-Logic-Based Information Retrieval Model with Various Term-Weighting Approaches[C].Artificial IntelligenceandSoftComputing一 ICAISC 2006 , Proceedings.Lecture Notes in Computer Science, 2006: 1120-1129.   \n[13] LeeChangki,LeeGG.Probabilistic InformationRetrieval Modelfor aDependencyStructuredlndexingSystem[J].InformationProcessing and Management,2005 (2):161-175.   \n[14] Yoshioka M, Haraguchi M.Ona Combination of Probabilistic and Boolean IR Models for Www Document Retrieval[C].ACM TransactionsonAsianLanguage InformationProcessing,2005 (3): 340-356.   \n[15] TaoTao,Wang Xuanhui,Qiaozhu Mei,etc.Language Model InformationRetrieval withDocument Expansion. HumanLanguage Technology Conference[C].Proceedingsof themainconferenceon Human Language Technology Conference of the North American Chapterof theAssociationof ComputationalLinguistics,NewYork: New York.2006: 407 - 414.   \n[16] NaSH, Kang IS,Roh JE,etc.An Empirical StudyofQueryExpansion andCluster-Based Retrieval inLanguage Modeling Approach[J]. InformationProcessingandManagement,20o7 (2):302-314.   \n[17] CaoGuihong,NieJianyun,JingBai.IntegratingWordRelationships intoLanguageModels[C].SIGIR'O5,Salvador,Brazil:2005.   \n[18] Liu Xiaoyong, Croft WB.Statistical Language Modeling for InformationRetrieval[M].AnnualReviewof InformationScienceand Technology39, Chapter1.Information Today. Cronin,B.(Ed.),C: 2005.   \n[19] TomassenSL.Researchon Ontology-Driven Information Retrieval [C].OTM Workshops (2),2006: 1460-1468.   \n[20] CastellsP,Ferndez,ValletD.AnAdaptationof theVector-Space Model for Ontology-Based Information Retrieval[C].IEEE Transactionson KnowledgeandDataEgineering,2007(2): 261- 272.   \n[21] StyltsvigHB.Ontology-Based InformationRetrieval[D].Denmark: RoskildeUniversity,2006.   \n[22] Pérez AG, Rodr iguez FO,Terrazas BV.Ontology-Based Legal Information Retrieval to Improve the information Access in eGovermeng[C].www 2006,Edinburgh,Scotland:2006.   \n[23] KimSS,Myaeng SH,Yoo JM.AHybrid Information Retrieval Model Using Metadataand Text[C]. Digital Libraries: Implementing Strategies and Sharing Experiences, ProceedingsLectureNotes in Computer Science3815,2005: 232-241."
+  }
+}

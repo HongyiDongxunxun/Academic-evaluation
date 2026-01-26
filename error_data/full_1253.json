@@ -1,0 +1,70 @@
+{
+  "original_filename": "full_1253.md",
+  "nothing": {
+    "context1": "●赵蕴华（中国科学技术信息研究所，北京100038)"
+  },
+  "中文DOI应用现状及建设构想": {
+    "context1": "摘要：本文阐释了DOI产生的背景以及现阶段DOI在国外应用的状况，详细介绍了西文DOI应用平台CrossRef的工作原理、运营机制及主要功能。从信息资源共享的角度阐述了目前中文DOI存在的主要问题，以及建立中文DOI应用平台的必要性、目的和意义。",
+    "context2": "关键词：数字对象唯一标识；唯一标识符；数字期刊",
+    "context3": "AbstractThisarticle explains the backgroundof DigitalObject Identifier(DOI)and itsapplication status a   \nbroadIt gives a detailed description of the working principlesoperating mechanisn and main functions of Cross  \nRefFurthemorethe article discusses the major problemsofChinese DOI from the perspectives of infomation re   \nsources sharingand the necessitypuipose and significance of constructig the Chinese DOIapplicatin platfom. Keyw ords DOI un ique identifier digital period ical",
+    "context4": "数字对象唯一标识(Digital Object Identifier DOI)是针对数字资源的永久性标识符。1994年美国出版协会（AmericanA ssociateofPublish ingAAP）为探讨互联网上的著作权保护问题，成立非盈利性组织国际DOI基金会(IntemationalDOIFoundationIDF)，开始探讨防止著作出版物被非法使用所需的技术，IDF在美国国家创新研究组织（The Coiporation forNational Research Initiatives CNR I)的配合下，制定了DOI标准和相应的解析系统（HandleSystem)。",
+    "context5": "目前，IDF拥有7个DOI注册代理机构（RegisterA-gent RA)，上千万个已经分配并解析的DOI号码在美国、欧洲和澳大利亚以及一些非英语国家的各DOI代理注册机构注册，其应用范围已从科技领域扩展到了政府部门领域。",
+    "context6": "DOI实现了动态的持久链接。如果文献的URL发生变动，成员出版商只要向RA提交并更新数据即可保证链接的有效性；其次是提供一站式服务，即各出版商通过DOI系统实现引文到全文一站式的链接，从而提高产品竞争力。"
+  },
+  "1 西文 DOI应用平台": {
+    "context1": "CrossRef是一个基于DOI实现文献引文跨出版商服务平台链接的参考文献链接服务系统。AIP，Blackwell Pub-lishers Elsevier Science IEEE K luwer Nature Springer和Wiley等多家著名的学术出版商在2000年初联合创立了非盈利组织世界出版商联合会（Publishers IntemationalL ink-ingA ssoc iationInc，PILA)，负责对CrossRef进行管理和为成员出版商提供链接服务。CrossRef并不保存全文内容，而是通过数字对象标识符来链接出版商成员提供的文章元数据。",
+    "context2": "CrossRef自2000年9月成为正式授权的D0I注册代理机构。作为CrossRef城员的出版机构，应将其发行的电子出版物的DOIURL和相应的元数据提交给CrossRef这些数据收藏在CrossRefDataBase中，用于实现CrossRef链接服务，也为会员和单个用户提供元数据及DOI的检索及链接服务。截至 2007年3月31日，加入CrossRef联盟的出版社和学会有2345个；图书馆1197个；覆盖的刊物 16 884个；发放的D0数量达到惊人的25696063个；而 2007年2月单月的D0I发放量就达到585846个，检索(引文匹配查询）量达到5486433个，终端用户解析量达到13290744个[1]。",
+    "context3": "CrossRef目前在学术期刊方面得到了广泛的应用，国外的大型出版集团，如荷兰的爱思唯尔出版集团（wwwelseviercom）、德国的施普林格出版集团（www·springerlinkcom）等都对其期刊论文等数字信息资源进行了DOI标识。原因是学术期刊有相互连结的需要，而且本身制作也较其他领域更有规律。例如，一篇文献的引文 (或参考文献）原文如果有网络版并注册了DOI用户就可以直接利用引文中设置的CrossRef链接按钮直接链接到引文所在的出版社网页，并获得引文文摘信息；如果信息生产商从出版商那里订购了该网络版期刊，用户将可以由此打开引文全文。"
+  },
+  "1.1 CrosRef运营机制": {
+    "context1": "每个加入CrossRef的出版商成员首先获得一个 DOI作为前缀，出版商为其出版的每一篇期刊文献编制一个包含出版商本身 DOI前缀的 DOI号，并将 DOI号附加到文献元数据和URL上。所有文章的原数据，出版商会以XML的形式提供给CrossRef元数据库（MDDB：MetadataData-Base)，CrossSRef再将每一篇文献的 DOI和 URL注册在一个统一的 DOI名录中。同时，出版商也将每篇文献的参考文献的数据提供给参考书目解析器，这一解析器是用来检索 DOI群的，它是MDDB的主要部分。用户点击CrossRef链接，就可以链接到显示有该论文全部引文目录的出版商网页。引文全文获取形式取决于出版商的选择，引文可能以 HTML形式发布，用户可以直接通过适当的机制获取全文；也可通过订购、文献传递、按浏览付费或者预印本付费等方式获得。如读者所在机构已订购并被授权使用某数据库时，则可通过授权的合法 IP地址登陆该数据库，并获得引文的全文[2]。"
+  },
+  "1.2 CrossRef的主要功能": {
+    "context1": "1）永久指向。CrossRef解决了数据因URL发生变动后出现的断链问题。不会出现因网域的异动使数据消失的现象。",
+    "context2": "2）动态维护。CrossRefDataBase中的数字对象元数据和URL由出版机构负责更新维护。如果成员出版商提供的文献URL发生变动，那么他只要向CrossRef提交并更新数据即可保证链接的准确性和有效性。",
+    "context3": "3）实现一对多的路径。通过D0I将参考引文进行多项解析，方便快捷地链接到该文献的文摘或全文。4）支持新的应用。目前已经从学术期刊领域扩展到电子书、政府文档、教学参考、科学数据等方面。5）保护著者版权。CrossRefDataBas仅存储描述文件的 MetaData而不存储文件内容。这样可以避免使用者随意下载全文，保护了著者的版权。"
+  },
+  "1.3CrosRef给我们的借鉴": {
+    "context1": "CrossRe建立了开放式的知识链接体系。它的运营管理机制包括技术、组织、政策和具体应用。 $\\textcircled{1}$ 技术上:Handle System是一个基于因特网的分布式数字对象命名与标识系统。它保证了数据的唯一性、永久性、多重性、安全性、可扩展性。 $\\textcircled{2}$ 组织上：是出版商联盟。建立在多家出版商协作基础上的链接系统。 $\\textcircled{3}$ 政策上：制定了相关的会员会费交纳制度及明确规定了会员的义务和职责。"
+  },
+  "2中文 DOI应用平台": "",
+  "2.1 国内主要数字文献生产商唯一标识符应用现状": {
+    "context1": "中文 DOI平台的建设思路应按照 IDF基本 DOI政策和技术进行运作，并参照CrossRef的运行模式的成功经验，同时又要结合国内数字信息资源建设的实际情况。目前，通过国内主要数字期刊文献生产商唯一标识符应用现状 (见表1)[34]，可以看出国内的唯一标识符的应用仍处于初级阶段，还没有建立DOI标准规范体系。",
+    "context2": "表1国内主要数字期刊文献生产商唯一标识符应用现状",
+    "context3": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>清华同方</td><td rowspan=1 colspan=1>万方数据</td><td rowspan=1 colspan=1>重庆维普</td></tr><tr><td rowspan=1 colspan=1>唯一标识符使用现状</td><td rowspan=1 colspan=1>采用自定义的数字期刊唯一标识符，自称为DOI其唯一标识符的结构为：“CNKIISSN:XXXX -XXXX.0.YYYYNN.ZZZ ”。其中：“XXXX-XXXX &quot;为论文所在期刊的国际标准刊号ISSN；“YYYY”为文章所在期刊的出版年；“0”为文献类型;“NN”为文章所在期刊的期次;“ZZZ”为流水号</td><td rowspan=1 colspan=1>采用分配给期刊中的每篇论文的唯一代码作为数字期刊论文的唯一标识符。其结构为：“期刊代码轮文出版年/论文所载期刊的期号流水号”。其中：“期刊代码”是万方数据标识期刊的代码，取期刊名称的首个汉字的汉语拼音字母组成</td><td rowspan=1 colspan=1>采用“文章编号”对文章进行唯一标识。其结构为：    XXXX-XXXX（YYYY）NN PPPP-CC”。其中：“XXXX-XXXX&quot;:文章所在期刊的国际标准刊号 ISSN;“YYYY&quot;：文章所在期刊的出版年;“NN”：文章所在期刊的期次；“PP-PP&quot;：文章首页所在期刊页码；“CC&quot;文章页数</td></tr><tr><td rowspan=1 colspan=1>优点</td><td rowspan=1 colspan=1>唯一标识符比较规范</td><td rowspan=1 colspan=1>每篇期刊论文都有唯一的标识符</td><td rowspan=1 colspan=1>唯一标识符比较规范</td></tr><tr><td rowspan=1 colspan=1>缺点</td><td rowspan=1 colspan=1>尚未运用 DOI标准，未实现与外部信息资源的链接，实现资源共享</td><td rowspan=1 colspan=1>没有建立与 DOI标识规范及相应的 DOI解析系统，只能在内部使用。不能和外界动态的链接，实现资源共享</td><td rowspan=1 colspan=1>没有建立与 DOI标识相应的 DOI解析系统，只能在内部使用。不能和外界动态的链接，实现资源共享</td></tr></table>",
+    "context4": "从上述3家数字期刊生产商的标识规范来看，唯一标识符的应用仍处于一个初级阶段。唯一标识符的制定和使用缺少规范，与唯一标识符应用相关的解析系统和管理机制也没有建立，具体表现在：",
+    "context5": "1）它们自定义的唯一标识符作用仅仅是数字对象的唯一编号，唯一标识符的制定和使用缺少规范，各个数字文献生产商使用的唯一标识符各异，没有形成统一的规范标准。",
+    "context6": "2）唯一标识符仅在各自资源范围内发挥作用，一旦脱离各自的数据库，其唯一标识符便不能揭示文献的任何特征。",
+    "context7": "3）唯一标识符的应用层次比较低，其作用仅限于对内部数字对象的标识，与唯一标识符应用相关的解析系统和管理机制也没有建立起来，无法实现各个数字文献生产商的资源共享了。这将会造成国内数字文献生产商时间、资金的浪费，资源的重复建设。",
+    "context8": "上述3个数字期刊生产商各自为战，未构建成中文资源统一规范标准，目前无法与国外数字文献生产商实现资源共享。因此，建设中文DOI标准规范及中文DOI应用平台是实现国内外信息资源共享的必备条件，建设中文DOI应用平台已迫在眉睫。"
+  },
+  "2.2建立中文DOI应用平台的必要性": {
+    "context1": "建立中文DOI应用平台，可以实现出版界和数字图书馆界的沟通与合作；实现不同信息服务服务商的联结；有助于实现国内和国外、中外文信息的融合；为连接学术研究不同范畴和领域提供了可能性；延伸了行业中每个个体的链接空间和合作空间 (见图1)。",
+    "context2": "![](images/7011e708c316c245a5600eb4c8c563829fff4e3516a50a234912bb7b8f128a82.jpg)  \n图1中文DOI应用平台",
+    "context3": "从图1可以看出，今后作为D0I会员的信息集成商可以在中文DOI应用平台上实现自身资源与国内外其他机构所拥有的科技信息资源的共享，从而为广大用户通过中文DOI平台实现快速的链接服务，使中文DOI系统成为名副其实的开放式的知识链接系统。"
+  },
+  "2.3中文 DOI应用平台的功能构建": {
+    "context1": "借鉴Cossref在包括技术、组织、政策和具体应用的成功经验，中文DOI应用平台同样要具有永久指向、动态维护、实现一对多的路径、支持新的应用、保护著者版权等功能。为广大普通用户及会员用户实现DOI解析和查询服务。"
+  },
+  "2.4中文DOI应用平台建设的目的和意义": {
+    "context1": "建设DOI标准规范与DOI应用平台，可以为中文信息资源生产商、中间商等机构带来共赢。",
+    "context2": "出版商：通过DOI应用平台实现引文到全文的链接，实现一站式信息服务，从而提高整个行业的服务数量和服务质量，提升整个行业的产品竞争力。",
+    "context3": "图书馆：通过在本地导入DOI并与OpenURL结合，图书馆为用户提供了访问更多的图书馆未能收藏的全文文献的机会，并可以更加有效的管理现有资源，开发更为高效的检索和馆藏功能。",
+    "context4": "中国知网https://www.cnki.net·情报理论与实践·",
+    "context5": "二次文献数据库：实现二次文献数据库与全文数据库的链接，如 SCI EI CSA、CABI等都通过 DOI建立了与全文的链接。",
+    "context6": "搜索服务：在学术搜索中引入DOI可以提高搜索质量。例如 CrossRef与Google合作的CrossRef Search。与一般的Google搜索不同，CrossRef Search仅在成员所提供的学术内容中进行搜索，因此不像一般的 Web搜索那样产生很多噪声结果，而且通过DOI保证了检索结果到全文链接的有效性和持久性。",
+    "context7": "政府机构：相关政府机构通过DOI的推广和应用可以更有效地管理学术信息资源，从标识体系的建立和应用上实现包括科技文献和科学数据在内的资源整合，从而有助于建立一个基于分布环境下的一站式的科技基础信息服务平台。",
+    "context8": "中文DOI会员：通过DOI的应用可以与国内、外数字文献生产商实现资源共享，并为行业发展带来共赢。"
+  },
+  "2.5中文 DOI应用现状存在的主要问题": {
+    "context1": "1）尚未建立DOI标准规范体系。DOI标准规范的建立是中文DOI应用平台建设基础。2）中文DOI平台的商业运营模式、收费制度、会员的职责和义务等正在和多方机构和专家一起讨论制定中。3）如何解决出版机构与数字文献生产商之间的版权问题以及利益冲突（DOI由谁注册、DOI链接指向谁），同一文章可能被注册多个DOI号，与国外系统的互联。",
+    "context2": "中国科技信息研究所已经联合北京万方数据股份有限公司向IDF（国际 DOI基金会）申请成为中文DOI的代理。目前正开始从事中文DOI应用平台建设工作，此应用平台将参照目前 IDF最成功的代理机构CrossRef先进的技术、组织、政策来保证中文DOI解析和链接服务。"
+  },
+  "3结束语": {
+    "context1": "中文DOI应用平台的建设，将为加入中文DOI系统的用户提高使用资源的效率；提高中国精品期刊在国际上的影响度和显示度；有利于数字资源的长久保存和唯一识别；逐步实现中西文数字资源的链接，实现行业的共赢。□"
+  },
+  "参考文献": {
+    "context1": "[1][EB/OL].[2007-03-23]. http://wwwcrossref org/  \n[2]潘松华．CrosSRef在数字图书馆中的应用［J]·图书馆理论与实践，2005(6)：63-65  \n[3]中国知网网站[EB/0L]·[2007-03-28]．http://lsgcnkinet/grid2O/detail aspx²Query $\\mathrm { 0 = 1 8 \\& ( }$ CuRec $_ { ; } = 2$   \n[4]维普资讯网站[EB/OL]·[2007-03-28]．http://www.cqvipcom/content/citationdll $\\mathrm { i d } { = } 2 1 1 9 4 3 6 0 \\& \\mathrm { S U } \\mathbb { D } { = } \\mathrm { E G } ^ { - }$ BNBFDHDNCBCOP IBOLGEMCBCDO IPNFP#",
+    "context2": "作者简介：赵蕴华，女，1967年生，助理研究员，硕士。收稿日期：2007－06－22"
+  }
+}

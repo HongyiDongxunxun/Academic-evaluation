@@ -1,0 +1,154 @@
+{
+  "original_filename": "full_3325.md",
+  "国外书目RDF词表的进展与趋势": {
+    "context1": "胡小菁 (华东师范大学图书馆)",
+    "context2": "摘要随着语义网和关联数据成为技术发展热点，新兴的元数据标准开始以RDF或OWL等格式发布，包括书目RDF词表与本体。近年国外出现的书目RDF词表包括IFLA的ISBD词表和FRBR词表、RDA注册、Europeana数据模型（EMD）词表、OCLC扩展Schema.org的BiblioGraph、LC的书目框架(BIBFRAME）等。可以看到这些RDF词表在类和属性数量上的差异，但也有一些共同的趋势，包括标准编制机构间相互协调、命名空间数量最小化以及引入“事件”类。",
+    "context3": "关键词RDF词表书目元数据元数据标准",
+    "context4": "DOI: 10.13663/jcnki.lj.2015.05.001"
+  },
+  "The Evolvementof Worldwide RDF Vocabularies for Bibliographic Description": {
+    "context1": "Hu Xiaojing (East China Normal University Library)",
+    "context2": "AbstractAs semantic web and linked data became hot topics, new standards in metadata, including bibliographic vocabularies and ontologies,were published in RDF or OWL. IFLA's ISBD Vocabularies and FRBR Vocabularies,RDA Registry,Europeana Data Model (EMD) Vocabulary, OCLC's BiblioGraph (bibliographic extension of Schema.org),and Library of Congresss BIBFRAME are emerging in recent years.There is discrepancy in amount of classes and properties between these RDF vocabularies.The tendency in the making of RDF vocabularies is coordinating among agencies,minimizing number of namespaces,and introducing “event” class into the vocabularies.",
+    "context3": "Key wordsRDF vocabularies, Bibliographic metadata,Metadata standard",
+    "context4": "在书目元数据标准中，MARC（机读目录）以字段、子字段及字段指示符所定义的一套元素集，为书目信息的数字化提供了坚实的基础，成为半个世纪以来图书馆自动化系统发展的支柱。随着计算机技术特别是互联网的发展，MARC因其封闭性成为众矢之的，取代MARC的呼声逐渐高涨。自20世纪末期都柏林核心（DC）作为元数据标准兴起，20年间国际上书目元数据标准的发展已呈现多样性，MARC一统天下的情况渐成过去式。",
+    "context5": "近年来，随着语义网和关联数据成为技术发展热点，新兴的元数据标准开始更多地以W3C（万维网联盟）开发的RDF（资源描述框架）或OWL（网络本体语言）等格式发布，其中不乏面向书目应用的词表或本体，甚至MARC21也有了非官方的RDF词表。",
+    "context6": "“在语义网中，词表定义描述与表达某一关注领域的概念与关系”，也称为“本体”[,其重要特征是为所定义的概念与关系规定URI(统一资源标识符，或更新的IRI国际资源标识符，以下统称URI)。概念与关系通常被定义为类(实体）和属性，通过“资源-属性-属性值”三元组表达元数据内容，其中“资源”是类的实例，“属性值”则是类的实例或者是字符串(包括数值)，属性及类的实例均以URI标识。三元组提供计算机操作而不是由人读取，通过词表或本体所表达的类与属性间的各种逻辑关系，从而支持一定的语义搜索甚至初步的逻辑判断与推理能力[2]。",
+    "context7": "本文主要分析作为书目元数据标准的RDF词表或本体（以下简称“书目RDF词表\"，不包括元数据使用中涉及的取值词表或领域本体(如主题词表、地理代码表等)。"
+  },
+  "1现行国际通用书目RDF词表": {
+    "context1": "网络时代，书目数据的应用不限于图书馆领域，书目RDF词表也由不同领域专家制订，分散在各处。开放元数据注册（Open MetadataRegistry，OMR）网站集中了部分近年开发的书目RDF词表。",
+    "context2": "OCLC研究部在2014年中做了一次国际关联数据项目与服务的调查。由于关联数据项目通常复用已有的RDF词表，该调查为了解国际现行书目用词表提供了一个较为全面的视野。调查针对图书馆、档案馆等发布的关联数据，调查结果中有76个对项目作了详细描述，涉及15个国家的47个机构，有一定的国际代表性[3]。分析调查得到的数据，可供了解当前国际上图书馆、博物馆、档案馆领域关联数据的应用现状，由这些项目所用的词表与本体，也可以总结出现行通用的书目RDF词表[4 (见表1)。",
+    "context3": "表1图书馆关联数据项目使用RDF词表",
+    "context4": "<table><tr><td rowspan=1 colspan=1>名       称</td><td rowspan=1 colspan=1>中文名称</td><td rowspan=1 colspan=1>出现次数*</td></tr><tr><td rowspan=1 colspan=1>Dublin Core Terms (DCT) + Dublin Core (DC)</td><td rowspan=1 colspan=1>都柏林核心术语+都柏林核心</td><td rowspan=1 colspan=1>29+27</td></tr><tr><td rowspan=1 colspan=1>SKOS (Simple Knowledge Organization System)</td><td rowspan=1 colspan=1>简单知识组织系统</td><td rowspan=1 colspan=1>38</td></tr><tr><td rowspan=1 colspan=1>FOAF (Friend of a Friend)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>30</td></tr><tr><td rowspan=1 colspan=1>Schema.org + purl.org/library</td><td rowspan=1 colspan=1>schema.org+图书馆扩展</td><td rowspan=1 colspan=1>22+2</td></tr><tr><td rowspan=1 colspan=1>Bibliographic Ontology (BIBO)</td><td rowspan=1 colspan=1>书目本体</td><td rowspan=1 colspan=1>14</td></tr><tr><td rowspan=1 colspan=1>RDA (Resource Description &amp; Access) + rdaGr2</td><td rowspan=1 colspan=1>资源描述与检索+第2组实体</td><td rowspan=1 colspan=1>10+2</td></tr><tr><td rowspan=1 colspan=1>WGS84 Geo Positioning</td><td rowspan=1 colspan=1>地理位置</td><td rowspan=1 colspan=1>11</td></tr><tr><td rowspan=1 colspan=1>Organization Ontology</td><td rowspan=1 colspan=1>组织本体</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>CIDOC-CRM</td><td rowspan=1 colspan=1>文化遗产信息交换参考本体</td><td rowspan=1 colspan=1>8</td></tr><tr><td rowspan=1 colspan=1>Europeana Data Model (EMD) Vocabulary</td><td rowspan=1 colspan=1>Europeana数据模型词表</td><td rowspan=1 colspan=1>8</td></tr><tr><td rowspan=1 colspan=1>Biographical Ontology</td><td rowspan=1 colspan=1>传记本体</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>Bibframe</td><td rowspan=1 colspan=1>书目框架</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=1>British Library Terms (BLT)</td><td rowspan=1 colspan=1>不列颠图书馆术语</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>Event Ontology</td><td rowspan=1 colspan=1>事件本体</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>ISBD (International Standard Bibliographic Description)</td><td rowspan=1 colspan=1>国际标准书目著录</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>OWL (Ontology Web Language)</td><td rowspan=1 colspan=1>网络本体语言</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>nomisma.org ontology</td><td rowspan=1 colspan=1>钱币概念本体</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>EAC-CPF (Encoded Archival Context for Corporate Bodies, Per-|sons, and Families)</td><td rowspan=1 colspan=1>团体、个人和家族用档案编码背景信息</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>Fabio (FRBR-aligned Bibliographic Ontology)</td><td rowspan=1 colspan=1>基于 FRBR的书目本体</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>FRBR (Functional Requirements for Bibliographic Records)</td><td rowspan=1 colspan=1>书目记录的功能需求</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>RDFS (Resource Description Framework Schema)</td><td rowspan=1 colspan=1>资源描述框架规范</td><td rowspan=1 colspan=1>2</td></tr></table>",
+    "context5": "$^ \\star$ 说明：根据OCLC“关联数据实施者调查结果”汇总表[5]，针对“What RDF Vocabularies&Ontologies doyou use in yourlinked data publishing or data management effrts?”选项，统计原始数据，加上“other”选项中提及的词表，列出出现次数2次及以上者。同一个项目通常同时采用多种词表。",
+    "context6": "表1所列词表可分为以下4种类型，其中第4类即是本文所关注的书目RDF词表：",
+    "context7": "(1）定义项目所用RDF词表的标准，包括：SKOS、OWL和 RDFS；",
+    "context8": "(2）名称规范用词表，包括：个人用FOAF和 Biographical Ontology，机构用OrganizationOntology，地理位置用WGS84 Geo Positioning；",
+    "context9": "(3）特定资源专用词表，包括：档案用CIDOC-CRM和 EAC-CPF，事件描述用 EventOntology和钱币用nomisma.org；",
+    "context10": "(4）可用于书目描述的综合性RDF词表，依 次为：DC/DCT、Schema.0rg、BIBO、RDA、EMD Vocabulary、BIBFRAME、BLT、ISBD、Fabio 和 FRBR。"
+  },
+  "2国外书目RDF词表的进展": {
+    "context1": "从前述关联数据项目使用RDF词表可知，目前有为数不少的书目用词表，并在图书馆界得到采用。其中以表达引文与书目关系为宗旨的书目本体（BIBO）是原生的RDF词表，由于完成较早而在相关项目中得到较多应用，目前稳定在2009年的1.3版。始于2011年的Schema.org，因为有主流搜索引擎 Bing、Google和Yahoo 的支持，也得到较广泛应用。",
+    "context2": "除 BIBO 和 Schema.org之外，其他常用书目RDF词表的开发维护者包括了图书馆领域的重要机构。以下从这些机构角度，择要介绍近年来书目RDF词表的动态。"
+  },
+  "2.1都柏林核心元数据项目（DCMI）：DC与DCT": {
+    "context1": "DCMI于1995年创建“都柏林核心元数据元素集”，包括15个宽泛定义的属性，命名空间通常以dc:标识，属性没有规定取值范围(值域)，意味着客体可使用任意值。为规定值域，2003年推出“DCMI元数据术语集”，使用新的命名空间，通常以dct:或dcterms:标识，复制最初的15个属性，再加上限定与扩展属性，目前包括55个属性并定义有22个类。",
+    "context2": "DCMI元数据术语集是图书馆界RDF词表的先行者，也是影响超出图书馆界的元数据标准，在网络资源描述中得到广泛采用。不仅如此，如其名称所示，DC实际上是“一个核心元数据词表，用于简单通用的资源描述，在各种通用或专用元数据词表/本体中得到很广泛的应用”[6，最常用于描述词表本身(即词表的元描述)。因而严格来说，DC并非书目用词表，而是通用的RDF词表。"
+  },
+  "2.2国际图联（IFLA）：ISBD词表、FRBR词表": {
+    "context1": "IFLA自2007年启动FRBR词表的注册，2009 年启动ISBD词表注册，于2011-2012年间陆续完成ISBD元素集及FRBR元素集（包括 FRBRer《书目记录功能需求》、FRAD《规范数据功能需求》和FRSAD《主题规范数据功能需求》）注册。命名空间采用 iflastandards.info。",
+    "context2": "ISBD元素集和FRBR、FRAD元素集发布不久，即在西班牙国家图书馆书目的关联数据中得到采用[]。",
+    "context3": "由于IFLA正对3个功能需求模型进行融合，完成后必然对FRBR词表产生影响。"
+  },
+  "2.3RDA开发联合指导委员会（JSC）：RDA注册元素集": {
+    "context1": "《资源描述与检索》（RDA）自2004年开始编制，2010年发布。2007年，仍在编制过程中的RDA启动元素集与取值词表的注册工作,作为对RDA落后于时代的回应。2009年RDA元素集与取值词表在开放元数据注册 (OMR)平台上完成注册。OMR注册版RDA元素集、特别是其中的第2组实体元素，曾在德国国家图书馆规范数据、日本国会图书馆规范库、虚拟国际规范档（VIAF）等多个图书馆关联数据应用中得到采用[8]。",
+    "context2": "在 RDA发布后，RDA注册中部分取值词表陆续得到JSC批准，但元素集一直没有得到JSC 认可。直到2014年初，在进行了结构上的大幅度更改后，RDA注册元素集的官方版发布，采用新的命名空间rdaregistry.info，原命名空间rdvocab.info 保留给 RDA取值词表。",
+    "context3": "由于RDA本身还在持续修订中，年度更新有可能涉及元素变化，因而RDA注册元素集仍处于不断更新之中。"
+  },
+  "2.4Europeana 基金会:EMD 词表": {
+    "context1": "Europeana是欧盟各国画廊、图书馆、档案馆和博物馆共同参与的大型数字图书馆项目。Europeana原有元数据方案基于都柏林核心(DC)，称为《Europeana 语义元素集》(EuropeanaSemantic Elements，ESE)，不同来源、不同格式的元数据都简化到DC这个“公分母”，其结果是源数据中原有精确信息的损失[9]。",
+    "context2": "为改变这种状况，Europeana 设计了开放、跨领域、基于语义网框架的《Europeana 数据模型》(Europeana Data Model,EDM)，EMD 词表除继续沿用DC属性外，还自定义了较多的 EMD类与属性。2013年开始EMD词表取代ESE,在 Europeana 中应用。"
+  },
+  "2.5联机计算机图书馆中心（OCLC）：Schema.org扩展": {
+    "context1": "OCLC自2011年起实验采用schema.org作为基本词表，向搜索引擎曝光图书馆元数据。2012年OCLC将其全球联合目录WorldCat用schema.org发布为关联数据，对schema.org缺少部分加以扩展，称为schema.org的图书馆扩展。为谋求将“图书馆扩展”融入schema.org，同年OCLC牵头成立W3C的Schema书目扩展小组SchemaBibEx，目标是提交建议给WebSchemas小组，扩展Schema.org词表，强化其描述书目资源的能力。",
+    "context2": "由于SchemaBibEx小组进展乏力，OCLC在2014年上半年注册了BiblioGraph.net网站 (命名空间简称bgn:，以下简称 BGN)，基于schema.org词表，增加在“图书馆和相关领域中书目和文化遗产资源与收藏的概念、实体和关系”2014年下半年起，虚拟国际规范档(VIAF）和WorldCat已开始陆续采用新的 BGN命名空间[10]。"
+  },
+  "2.6美国国会图书馆（LC）:MADS/RDF,MODS本体，BIBFRAME词表": {
+    "context1": "LC自2009年起尝试在图书馆领域发布关联数据。在RDF词表方面，LC在2012年完成针对规范数据的MADS（元数据规范描述方案）RDF词表，目前正在开发针对书目数据的MODS（元数据对象描述方案）本体。",
+    "context2": "2011年启动的BIBFRAME（书目框架）是LC 影响最大的原生RDF词表，其首要目标是以关联数据方式取代在图书馆界居主宰地位的 MARC 格式。2013年BIBFRAME模型公布,基本词表在2014年初上线。其后规范、关系和应用纲要(Profile）的草案陆续上线，注释、资源类型目前还处于更早期的讨论稿阶段。LC将在2015年发布词表的修订版。",
+    "context3": "BIBFRAME全部完全尚有待时日，但得到普遍关注。近两年国际上先后有十多个机构参与早期实验和其后的实施测试。从前述OCLC关联数据项目调查可知，已有机构开始部分采用其词表。"
+  },
+  "3国外书目RDF词表的差异": {
+    "context1": "RDF词表/本体在不断发展，该领域仍存在很多没有取得一致的认识，W3C也有很多不确定的内容。比如说，本质上，词表中的“概念”描述的到底是真实世界还是其代理？再比如概念应当定义为类还是属性？对此，图书馆界资深的关联数据专家Karen Coyle曾称：“某些使用RDF社区似乎非常重类，另一些则不是。更多类还是较少类，这会如何影响实践，其含意对我仍不清楚，但类明显提供我们不常开发的功能。”[11]",
+    "context2": "表现在书目RDF词表中，面对相同的书目对象，即使描述深度相近，在类与属性的数量上也可能有较大差异。表2以描述范围近似的若干书目RDF词表为例，例示其类和属性数量：",
+    "context3": "表2书目RDF词表类和属性数量表",
+    "context4": "<table><tr><td rowspan=1 colspan=1>名称</td><td rowspan=1 colspan=1>类数量</td><td rowspan=1 colspan=1>属性数量</td></tr><tr><td rowspan=1 colspan=1>ISBD元素集</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>155</td></tr><tr><td rowspan=1 colspan=1>FRBRer</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>206</td></tr><tr><td rowspan=1 colspan=1>RDA元素集</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>1005+720*</td></tr><tr><td rowspan=1 colspan=1>BIBFRAME词表</td><td rowspan=1 colspan=1>52</td><td rowspan=1 colspan=1>约266</td></tr><tr><td rowspan=1 colspan=1>MODS本体</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>约110</td></tr></table>",
+    "context5": "\\*说明：RDA元素集的属性包括有类约束的（合计1005个）和无类约束的 (720 个)。",
+    "context6": "可以说，书目RDF词表在形式上已经有了URI，接下来该如何使用这些词表，各方并不一定有很清晰的认识。好在RDF/OWL中隐含“开放世界假设\"(Open World Assumption)，即没有明确包含在语义网或本体中的所有陈述,都被假定为未知的事实而非错误 (假的)。因此即使书目数据采用设计上完全不同的词表，也不一定会影响未来数据之间的相互关联。如果在不同RDF词表的相同或近似概念间存在“相同”(Same As）声明，更可提升关联效果，目前各标准机构间正在做的协调工作正致力于此。"
+  },
+  "4国外书目RDF词表的发展趋势": {
+    "context1": "尽管国外书目RDF词表间有相当大的差异，但目前就词表本身及相互间关系，仍可观察到三个方面的趋势：一是标准编制机构间协调，二是命名空间数量最小化，三是引入“事件”类。"
+  },
+  "4.1标准编制机构间协调": {
+    "context1": "图书馆界诸权威机构基于自身立场与目标，争相制定各自标准，为康妮·莫瑞拉(ConnieMorella）所说的“标准就像牙刷，每个人都需要一个，但没有人想用其他人的”做了很好的脚注。显然这不是因为“不同社区由于不了解邻近社区的发展、没有看到两个或更多相关规范的重叠的或共同的目标，而去创建自己的规范”[12]。",
+    "context2": "由于同在图书馆界，各机构在制定各自标准的同时，也关注到标准之间的协调与映射，其中包括RDF词表间的协调与映射问题。机构间对RDF词表进行协调，有助于RDF词表间更好的映射，也必然会影响各自未来的发展。"
+  },
+  "4.1.1JSC与IFLA 的协调": {
+    "context1": "RDA的目标是实现全球化应用，因而积极寻求与IFLA旗下标准的协调。早在2011年JSC首次进行RDA年度修订时，就与IFLA的ISBD评审组、ISSN 网络召开协调会，会议成果是：“各方同意，协调的目的是使RDA、ISSN和ISBD记录功能上可互操作，即在一个标准下有效的记录应当能被映射到任一其他标准。我们认识到，某些问题将花更多时间解决，而一些问题可能被证明是不可调和的，但可以采取一些措施减轻这些差别的影响。”[13]目前FRBR评审组和ISBD评审组中有JSC成员作为联络人，有助于在FR系列和ISBD未来修订中注意与 RDA 的协调。",
+    "context2": "IFLA 网站已经发布了多个ISBD与RDA元素映射的文件[14]，包括：《RDA中的ISBD 概况：构造功能性互操作核心记录》、《ISBD元素集与RDA元素集校准》、《ISBD第0项词汇与RDA/ONIX框架词表对照表》、《RDA内容类型与ISBD内容形式与媒介类型对照表》等。"
+  },
+  "4.1.2BIBFRAME 依据 RDA调整": {
+    "context1": "LC与JSC目前没有公开的协调行动。但负责BIBFRAME开发的LC网络开发和MARC标准办公室主任 Sally McCallum，曾于2014年7月在BIBFRAME论坛上主动发帖提示RDA对BIBFRAME的作用：“真正影响BIBFRAME词表的是RDA，这是我们在书目环境中无法忽略的。\"RDA为操作目的，倾向于让RDA 中每个元素有独立标识。随着RDA成熟，BIBFRAME将遵循其进程并适当调整”。[15]"
+  },
+  "4.1.3OCLC与 LC的协调": {
+    "context1": "自2014年8月起，OCLC开始与LC合作，共同澄清图书馆关联数据方法，讨论内容包括BIBFRAME和Schema书目扩展词表的异同，“双方将同撰写一份白皮书，澄清如何组装两种方法以表达图书馆的特定需求与挑战”[16]。",
+    "context2": "2015年初白皮书发布，对BIBFRAME和Schema书目扩展关系做了初步分析，并说明将在年内完成更深入的技术分析[17]。该白皮书将Schema 书目扩展称为OCLC/Schema 模型。"
+  },
+  "4.2命名空间数量最小化": {
+    "context1": "RDF词表的重要特征是对其中的概念赋予URI。作为全域标识符，其他人可以复用URI以标识相同的事物。很多原生的RDF词表中都以此理念复用其他词表的类与属性。如图书馆关联数据项目中使用较多的书目本体BIBO，其属性复用较多都柏林核心术语 (DCT)、FOAF和事件本体（Event Ontology)。",
+    "context2": "但一些新的书目RDF本体则反其道而行之，呈现命名空间数量最小化的特征，其中IFLA 的FR系列和 ISBD，以及RDA、BIBFRAME完全没有复用其他词表。如果说IFLA和 RDA是基于自身原有的元数据元素集，尚可理解，那么全新制定的EMD、BIBFRAME和",
+    "context3": "BGN 的命名空间最小化策略就是出于自身考虑了。"
+  },
+  "4.2.1 EMD 的命名空间": {
+    "context1": "Europeana原来的元数据方案《Europeana语义元素》(ESE）基于DC，将不同来源、不同格式的元数据都简化到DC这个“公分母”元数据标准升级到EMD时，保留了DC的属性，增加EMD自己的类与属性[18]。新增属性没有包括在《EMD入门》中作为示例出现的FOAF、VIAF和rdaGr2命名空间，这些命名空间中用到的属性被统一纳入EMD命名空间。"
+  },
+  "4.2.2BGN 的命名空间": {
+    "context1": "作为Schema.org的扩展，BGN将只用schema 和 BGN 两个命名空间。",
+    "context2": "2012年OCLC发布WorldCat关联数据时，除了schema.org及其图书馆扩展外，还用到包括DC、FOAF、VIAF等在内的命名空间。注册BiblioGraph.net后，“目标是确保在 BiblioGraph.net描述数据的命名空间数量在最小限度，优先为仅二个一-schema:和 bgn:”，DC、BIBO 等词表中的术语会被加入bgn:[19]。"
+  },
+  "4.2.3BIBFRAME的命名空间": {
+    "context1": "BIBFRAME完全没有复用其他词表。对于BIBFRAME词表只用一个命名空间，官方给出如下理由：“词表重用有很多益处，但和许多事情一样，也有需要仔细考虑的代价。设计涉及不同利益相关人管理的多个词表的系统是个棘手的问题，需要仔细考虑。有很多理由为什么命名空间/词表随时间‘漂移'‘未找到‘错误是更糟糕情况的例子)，所有这些都会对系统有影响。商业采购、经济因素、组织变迁、社会利益变化等等，只是导致变化的一小部分原因。事先考虑支持图书馆未来40多年的基础架构，在对待如何最佳集成与投资于本社群外的词表术语上，命名空间持久性是考虑的关键点。”[20]",
+    "context2": "LC所称的“命名空间持久性”，可以作为理解书目RDF词表命名空间数量最小化趋势的一个样板。"
+  },
+  "4.3引入“事件”类": {
+    "context1": "在书目数据中，有一些同时涉及时间、地点、参与者的活动，比如出版、会议等，曾经被作为预组元素，以“集合项”(AggregatedStatements）特别处理。比如RDA的OMR注册版本，依据都柏林核心抽象模型 (DCAM),将出版等项定义为“语法编码体系”(SyntaxEncoding Scheme，SES）类[21]，这在RDA注册官方版中已经不存在。",
+    "context2": "目前的书目RDF词表，较多引入“事件”类及其属性来表达上述活动，以更灵活地表达相关属性。在定义方法上，有的直接复用事件本体（Event Ontology）中的“事件”相关类，有的则自定义“事件”类。"
+  },
+  "4.3.1复用事件本体": {
+    "context1": "在书目本体（BIBO）中，复用事件本体的“事件”，其下细分子类会议、访谈、演出和个人通信等；在不列颠图书馆术语(BLT）中，复用事件本体定义“出版事件”(PublicationEvent） [22]。"
+  },
+  "4.3.2EMD 的事件": {
+    "context1": "Europeana数据模型基于CIDOC-CRM模型引入事件，称之为“事件中心法”(Event-centric approach)，作为与“对象中心法”(Object-centric approach）并列的元数据描述方法：“事件中心法认为对象描述应当关注描绘对象参与的不同事件，通过表达构成对象历史的事件，将导致建立更丰富的实体网络。”",
+    "context2": "在EDM中使用三个属性表达事件：wasPresentAt（参与事件的资源)、happenedAt(事件发生的场所）和occurredAt（事件与发生的时段)。"
+  },
+  "4.3.3BIBFRAME的事件": {
+    "context1": "BIBFRAME的“事件”类（Event)，定义为事件的时间与地点，属性包括eventPlace,eventAgent,eventDate。目前针对生产、发行、出版、制作，采用上述属性解决出版等集合项(如出版地、出版者、出版日期)。",
+    "context2": "BIBFRAME另外还有作品的属性“事件”(event)，指事件的地理区域与时间范围，应当是作为作品的主题，与出版需求行业标准元数据（PRISM）的事件元素类似。"
+  },
+  "4.3.4BGN的事件": {
+    "context1": "作为 Schema.org扩展，BGN 继承了 Event类及其子类 PublicationEvent，增加publishedBy属性（即出版者，同时也是Agent类的属性）；另外在 Event类下增加“会议\"(Meeting)子类。"
+  },
+  "5我国图书馆界的应对措施": {
+    "context1": "综上所述，国际图书馆界重要标准制订机构正开发各自的书目RDF词表。总体上，书目RDF词表仍处在开发期，还没有完全成熟。无论是RDA注册还是BIBFRAME词表或BGN,都还没有最终定稿。同时，W3C关联数据方面的进展也会对书目RDF词表的进化产生影响，未来各词表间的协调与映射仍会是重要的工作。",
+    "context2": "国内目前未见综合性的书目RDF词表。对我国的标准制订机构来说，应当考虑以适当形式参与现有国际标准的制订，积极提供意见与建议。这将有助于未来我国直接采用成熟的书目RDF词表，而无须另起炉灶重新制订标准。",
+    "context3": "另一方面，对需要进行数字化项目规划的各类机构，在选择元数据标准时，应根据数字对象的实际情况与项目的期望与目标，优先考虑重用已有RDF词表术语。鉴于现有书目RDF词表的不稳定性，也可以考虑采用自己的命名空间，同时提供与已有词表对应概念术语的“相同”声明，以方便项目发布后未来的数据互操作。"
+  },
+  "附：书目RDF词表相关网站": {
+    "context1": "BGN: BiblioGraph.net. http://bibliograph.net/",
+    "context2": "BIBFRAME Vocabulary. http://bibframe.org/",
+    "context3": "BIBO: Bibliographic Ontology.http://purl.org/ ontology/bibo/",
+    "context4": "BLT: Schemas at the British Library.http:// www.bl.uk/schemas/",
+    "context5": "DC/DCT: DCMl Specifications. htp:// dublincore.org/specifications/",
+    "context6": "EDM:Europeana Data Model Documentation. http://pro.europeana.eu/edm-documentation",
+    "context7": "FaBiO: the FRBR-aligned Bibliographic Ontology. http:/purl.org/spar/Fabio",
+    "context8": "FRBR Vocabularies.http://iflastandards.info/ ns/fr/",
+    "context9": "ISBD Vocabularies.http://flastandards.info/ns/ isbd/",
+    "context10": "OMR: Open Metadata Registry. http:// metadataregistry.org/",
+    "context11": "RDA Registry. htp://rdaregistry.info",
+    "context12": "RDA Vocabularies.Http://rdvocab.info",
+    "context13": "MADS/RDF Vocabulary. htp://www.loc.gov/ standards/mads/rdf/",
+    "context14": "MARC21 Vocabularies. http://www.marc21rdf. info/",
+    "context15": "MODS RDF Ontology. http://www.loc.gov/ standards/mods/modsrdf/",
+    "context16": "schema.org. http://schema.org/",
+    "context17": "Schema Bib Extend Community Group.http:// www.w3.org/community/schemabibex/",
+    "context18": "Experimental\" library ”extension vocabulary. http://purl.org/library/"
+  },
+  "参考文献": {
+    "context1": "[1]Vocabularies (W3C Standard.Semantic Web. Ontologies)[OL].[2014-12-01]. http://www.w3.org/ standards/semanticweb/ontology.   \n[2] 刘炜,胡小菁,钱国富,等.RDA与关联数据[J].中 国图书馆学报,2011(12):34-42.   \n[3] Smith-Yoshimura K.Linked Data Survey results 1-Who 's doing it[OL].[2014-09-04].http:// hangingtogether.org/ $? 0 = 4 1 3 7$   \n[4]Smith-Yoshimura K.Linked Data Survey results 4-Why and what institutions are publishing[OL]. [2014-09-04]. htp://hangingtogether.org/ $? 0 = 4 1 6 7$   \n[5]OCLC Research.Results of Linked Data Survey for Implementers[OL]. [2014-09-09]. http://www.oclc. org/content/dam/research/activities/linkeddata/oclcresearch-linked-data-implementers-survey-2014. xlsx.   \n[6］Dublin Core to PROV Mapping:W3C Working Group Note[OL]. [2013-04-30]. http://ww.w3.0rg/ TR/2013/NOTE-prov-dc-20130430/.   \n[7］夏草草.西班牙国家图书馆基于FR将书目数 据发布为关联数据[OL].[2012-05-31].http:// librarysalon.com/space-50-do-blog-id-11392. html.   \n[8]编目精灵．日本国会图书馆规范库的关联 数据[OL].[2012-08-18]. http://catwizard.net/ posts/20120818231432.html.   \n[9] Europeana Data Model Primer[M/OL].[2013-07-14]. http://pro.europeana.eu/documents/900548/770bdb58- c60e-4beb-a687-874639312ba5.   \n[10]编目精灵.OCLC低调注册BiblioGraph.net扩展 Schema.org[OL].[2014-12-20]. http://catwizard.net/ posts/20141201202236.html.   \n[11] Coyle K. Constrained vs unconstrained schemas[EB]. BIBFRAME Forum,2015-01-07.[LISTSERV].   \n[12] Why are there so many standards?[OL]. NISO blog, [2011-07-20]. htp://www.niso.org/blog/?p=122.   \n[13] Hansen H H. Letter from the Chair[J/OL]. SCATNews, no.37(2012):4.   \n[14] IFLA.International Standard Bibliographic Description[OL].[2014-01-23] htp://www.ifla.org/ publications/international-standard-bibliographicdescription.   \n[15] McCallum S H.BF vocabulary and RDA[EB]. BIBFRAME Forum,2014-07-25.[LISTSERV].   \n[16] OCLC and the Library of Congress - working together to clarify approaches to library linked data[OL]. [2014-12-04]. https://clc.org/news/ announcements/2014/oclc-lc-linked-data.en.html.   \n[17] Godby C J,Denenberg R.Common Ground: Exploring Compatibilities Between the Linked Data Models of the Library of Congress and OCLC[M/ OL].Dublin,Ohio: Library of Congress and OCLC Research,2015.http://www.oclc.org/content/dam/ research/publications/20l5/oclcresearch-loclinked-data-2015.pdf.   \n[18] Definition of the Europeana Data Model v5.2.4[M/ OL].[2013-07-14]. http://pro.europeana.eu/ documents/900548/4b190b0f-9adc-4a65-bc09- 3a9b16e45827.   \n[19] BiblioGraph.net. Schema Structure[OL].[2014-12- 01].http://bibliograph.net/schemas.   \n[20] BIBFRAME Frequently Asked Questions.Why a single namespace for the BIBFRAME vocabulary? [OL].[2014-09-16] http://www.loc.gov/bibframe/ faqs/.   \n[21] Hillmann D,et al.RDA Vocabularies: Process, Outcome,Use[J/OL].D-Lib Magazine, v.16,no.1/2(2010).   \n[22]小河尘.[学习笔记]关联书目数据系列之BNB Free Data[OL].[2015-01-06].http:/librarysalon. com/space-4591-do-blog-id-19199.htm.",
+    "context2": "胡小菁女，华东师范大学图书馆，研究馆员。研究方向：文献编目与元数据。E-mail:xjhu@library.ecnu.edu.cn 上海 200062",
+    "context3": "(收稿日期：2015-02-13)"
+  },
+  "“数据技术新视界一一与汤贝克面对面”研讨会在上海图书馆举行": {
+    "context1": "极速发展的互联网挟风带雨、一往无前，语义网、大数据、关联数据等新技术层出不穷，国外图情界为了搭上互联网这艘飞船，DC元数据、FRBR、RDA、BIBFRAME等数据技术不断推陈出新，为了跟上国际图情界这一发展步伐，由中国图书馆学会数字图书馆委员会、上海市图书馆学会、都柏林核心元数据组织（DCMI）亚太区域（DCMIAsia Pacific）主办，上海图书馆、《图书馆杂志》社承办的“数据技术新视界一一与汤贝克面对面”研讨会，于2015年5月5日在上海图书馆举行，会议邀请了国际知名的图情&信息技术跨界专家汤贝克（Thomas Baker）与中国同行进行一场面对面的交流，来自全国各系统图书馆、图情信息机构、IT企业等30多家单位近百名代表参加了会议。"
+  }
+}

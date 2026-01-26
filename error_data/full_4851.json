@@ -1,0 +1,116 @@
+{
+  "original_filename": "full_4851.md",
+  "·业务研究·": "",
+  "大数据情境下网络舆情分众化演变趋势分析": {
+    "context1": "傅雷鸣，王兆烨,陈一飞，罗远渊(南京农业大学工学院,江苏 南京 210031)",
+    "context2": "摘要：【目的/意义】为有效判断网络舆情演变趋势,分析网络舆情传播和形成的规律,研究网络舆情分众化演变的状态和特征，本文基于AEMIPO方法提出了大数据情境下网络舆情分众化演变趋势分析方法,以期为网络舆情传播引导策略提供优化参考。方法/过程通过对网络舆情分众化演变过程的自相似性、周期性和平稳性等统计特性进行动态跟踪,选取ARMA,ARIMA,SARIMA,FARIMA模型对上述统计特性进行描述,构建备选模型库,从备选模型库中根据选择规则选择模型对网络舆情分众化演变趋势进行建模,并在大数据情境下预测网络舆情分众化演变趋势。结果/结论以“山东金矿爆炸救援案\"的微博数据为实例对所提方法进行验证分析,结果反映该方法预测准确率高达 $80 \\%$ ,表明其可在大数据情境下对网络舆情分众化演变趋势进行准确地预测和分析【创新/局限】由于本文针对一个实证案例进行分析,存在一定研究局限性，因此在日后研究中需结合更多案例进行验证，并对该方法进行不断优化,从而全方面提升其有效性和准确度。",
+    "context3": "关键词：大数据;网络舆情;演变趋势;统计特征;实例分析 中图分类号：G206.3 DOI:10.13833/j.issn.1007-7634.2022.02.015"
+  },
+  "1引言": {
+    "context1": "互联网的飞速发展，促使我国进入了网络时代。在这种情况下,网络作为一种新型媒体和重要沟通渠道开始融入人们的生活。公众可以通过网络了解和关注社会热点事件，表达自己对社会矛盾的意见和看法。近年我国正处于社会改革和转型的关键时期,会存在一些矛盾和问题,有些人借助网络对这些矛盾和问题进行报道，在一定程度上可以促使人们及时发现问题,但网络的虚拟化和开放性也提高了网络信息的复杂度，网络中存在的不实信息会误导民众的观点，在上述背景下就产生了网络舆情事件。而政府是公共行政权力的实际行为体、承载体和象征，是我国权力的执行者。有关政府负面言论的传播和汇聚会削弱政府的公信力，损害有关部门和政府的信誉，甚至会引起民众反政府的思想,导致社会动荡，而积极向上的报道会增强民众的爱国热情。为此,有必要加强网络舆情分众化演变趋势研究,对网络舆情传播引导策略进行优化,以推动我国网络治理规范化、制度化和科学化建设，推进国家治理能力与治理体系的现代化，保障网络与信息情报安全。在这种情况下，不少学者对此进行了研究，例如，杨阳等人认为突发事件容易催生舆情主体的各种情绪，诱发其情绪化行为和态度，为此,分析网民和政府的情绪对其行为倾向的影响机制,有助于更好地把握舆情态势,基于此,其引入包含情绪函数的RDEU理论,从而对情绪因素影响下的突发事件网络舆情演化进行了研究;秦涛等人[2针对网络舆情突发性强、标注数据较少且管控资源有限等问题,提出了一种面向网络舆情的无监督演化趋势评估方法，以在无标注数据的情况下实现舆情事件演化态势分析；张和平等人[3]为对网络舆情发展趋势做出准确的预测，对基于灰色马尔可夫模型的网络舆情预测进行了研究。但时代的发展,网络舆情出现了新的特点，为更准确地在大数据情境下对网络舆情分众化演变趋势进行预测和分析，文章提出大数据情境下网络舆情分众化演变趋势分析方法。首先选取ARMA,ARIMA,SARIMA,FARIMA模型对上述统计特性进行描述，再构建备选模型库，从备选模型库中根据选择规则选择模型对网络舆情分众化演变趋势进行建模，并以“山东金矿爆炸救援案\"的微博数据为实例分析设计方法的有效性。"
+  },
+  "2网络舆情分众化演变趋势分析": {
+    "context1": "随着网络技术的快速发展，众多社交平台不断出现，为人们的沟通交流提供了方便。但当人们在网络上进行交流活动时，由于网络的开放性和虚拟性，导致人们的言论无法受到有效控制。在这种情况下,一旦出现网络舆情就可能会造成重大社会矛盾。具体而言，造成这种现象的最主要的原因是网络缺乏规则限制和有效监督，使其成为了网民宣泄情绪的重要空间。一些在生活中遇到挫折或不顺的居民会选择在网络上进行宣泄,更使网络舆情难以控制。基于此，必须对网络舆情分众化演变趋势进行预测和分析。为实现对网络舆情分众化演变趋势的预测和分析，本文引入了AEMI-PO方法。这是因为AEMIPO方法具有强大的预测跟踪能力，可以实现对网络舆情的动态跟踪。在动态跟踪的过程中,其主要通过平稳性、周期性以及自相似性等对相关舆情信息数据进行全面分析,减少由于分析方面不全导致的网络舆情预测不准确的问题。正是因为其具有以上优势,因此对其进行研究，以更准确地预测网络舆情演化趋势。"
+  },
+  "2.1动态跟踪统计特性": {
+    "context1": "大数据情境下网络舆情分众化演变趋势分析方法采用AEMIPO方法对网络舆情分众化演变趋势进行分析[4]。",
+    "context2": "网民发帖过程的时间序列可以描述网络舆情的分众化演变过程,因此可以通过统计时间序列的统计特性检验实现网络舆情分众化演变过程的统计特性检验，自相似性、周期性和平稳性都会对后续建模产生决定性的影响[5-6]。AEMI-PO方法需要对自相似性、周期性和平稳性的变化情况进行跟踪。",
+    "context3": "(1)平稳性",
+    "context4": "序列的平稳性通过ADF检验法进行检验,ADF检验法包含的检验模型如下：",
+    "context5": "模型 $1 { : } \\Delta X ( t ) = \\delta X ( t - 1 ) + \\sum _ { i = 1 } ^ { k } \\rho _ { i } \\Delta X ( t - i ) + \\varepsilon _ { i }$ 模型 $| 2 { : } \\Delta X ( t ) = \\alpha + \\delta X ( t - 1 ) + \\sum _ { i = 1 } ^ { k } \\rho _ { i } \\Delta X ( t - i ) + \\varepsilon _ { i }$ 模 $\\frac { \\mathbb { H } } { \\pm } 3 { \\cdot } \\Delta X ( t ) = \\alpha + \\beta t + \\delta X ( t - 1 ) + \\sum _ { i = 1 } ^ { k } \\rho _ { i } \\Delta X ( t - i ) + \\varepsilon _ { i }$",
+    "context6": "式(1)中， $\\Delta$ 代表差分运算； $X ( t )$ 代表当前序列；$\\Delta X ( t ) = X ( t ) - X ( t - 1 ) ; \\delta$ 代表待估参数; $k$ 代表滞后项数； $\\rho _ { i }$ 代表待估参数； $\\varepsilon _ { i }$ 代表高斯白噪声;与模型1相比,模型2引入了截距项 $\\alpha$ ；与模型2相比，模型3引入了趋势项 $\\beta t$ 。",
+    "context7": "ADF检验法的主要过程如下：",
+    "context8": "$\\textcircled{1}$ 对模型3进行检验，设 $\\tau _ { \\delta _ { 3 } } = \\delta _ { 3 } / S ( \\delta _ { 3 } )$ 代表的是参数δ在模型3中对应的 $t$ 统计量， $\\delta _ { 3 }$ 描述的是参数δ在模型3中的OLS法估计值; $S ( \\delta _ { 3 } )$ 描述的是 $\\delta _ { 3 }$ 对应的标准差。如果在显著性水平0.05的状况下,模型3的ADF临界值 $c v _ { 3 }$ 大于 $\\tau _ { \\delta _ { 3 } }$ ,不符合零假设,此时序列处于平稳状态],如果模型3的ADF临界值 $c v _ { 3 }$ 小于 $\\tau _ { \\delta _ { 3 } }$ ,进行下一步。",
+    "context9": "$\\textcircled{2}$ 对模型2进行检验，设 $\\tau _ { \\delta _ { 2 } }$ 代表的是参数δ在模型2中对应的统计量，如果在显著性水平0.05的状况下，当模型2的ADF临界值 $c v _ { 2 }$ 大于统计量 $\\tau _ { \\delta _ { 2 } }$ 时,不符合零假设,表明序列此时处于平稳状态,如果相反,进行下一步。",
+    "context10": "$\\textcircled{3}$ 对模型1进行检验，设 $\\tau _ { \\delta _ { 1 } }$ 代表的是参数 $\\delta$ 在模型1中对应的统计量，在显著性水平0.05的状况下，如果模型1的ADF临界值 $c v _ { 1 }$ 大于统计量 $\\tau _ { \\delta _ { 1 } }$ ，表明不符合零假设,序列此时处于稳定状态,如果相反，表明序列处于不平稳状态[8]。"
+  },
+  "(2)周期性": {
+    "context1": "针对序列的周期性，大数据情境下网络舆情分众化演变趋势分析方法通过方差分析法进行判断，并计算周期值 $T$ ，主要过程如下：",
+    "context2": "$\\textcircled{1}$ 设 $n$ 代表序列 $X ( t )$ 对应的长度,通过下式计算周期 $T$ ：",
+    "context3": "$$\nT = \\left\\{ \\begin{array} { c c } { { 2 , 3 , \\cdots , ( n - 1 ) / 2 } } & { { n \\mathcal { H } \\Sigma \\xrightarrow { \\infty } \\mathbb { X } } } \\\\ { { 2 , 3 , \\cdots , n / 2 } } & { { n \\mathcal { H } \\ S \\tilde { H } \\xrightarrow { \\mathbb { X } } } } \\end{array} \\right.\n$$",
+    "context4": "$\\textcircled{2}$ 以 $T$ 为间隔对序列 $X ( t )$ 进行分组， $\\begin{array} { r } { m = \\left[ n / T \\right] } \\end{array}$ 代表的是每组对应的项数，可用 $X ( i , j )$ 描述序列 $X ( t )$ ，代表的是第 $j$ 组中存在的第 $i$ 个数值，设 $S _ { 1 } { \\setminus } S _ { 2 }$ 分别代表的是组间离差平方和、组内离差平方和,其计算公式分别如下：",
+    "context5": "$$\n\\left\\{ \\begin{array} { l } { \\displaystyle { S _ { 1 } = \\sum _ { j = 1 } ^ { T } m \\Biggl [ \\frac { 1 } { m } \\sum _ { i = 1 } ^ { m } X ( i , j ) - \\bar { X } \\Biggr ] ^ { 2 } } } \\\\ { \\displaystyle { S _ { 2 } = \\sum _ { j = 1 } ^ { T } \\sum _ { i = 1 } ^ { m } \\Biggl [ X ( i , j ) - \\frac { 1 } { m } \\sum _ { i = 1 } ^ { m } X ( i , j ) \\Biggr ] ^ { 2 } } } \\end{array} \\right.\n$$",
+    "context6": "$\\textcircled{3}$ 设 $F$ 代表统计量，设置自由度 $f _ { 1 } = T - 1 { \\sqrt { _ { 2 } } } = n - T$ ，统计量计算公式如下：",
+    "context7": "$$\nF = \\frac { S _ { 1 } / f _ { 1 } } { S _ { 2 } / f _ { 2 } }\n$$",
+    "context8": "$\\textcircled{4}$ 对统计量进行检验，在显著性水平为0.05的状况下获得临界值 $F ( f _ { 1 } , f _ { 2 } )$ ,如果 $F > F ( f _ { 1 } , f _ { 2 } )$ ，此时 $T$ 为序列对应的周期,如果 $F < F \\big ( f _ { 1 } , f _ { 2 } \\big )$ ，此时 $T$ 不是序列对应的周期，重新迭代[9]。",
+    "context9": "(3)自相似性",
+    "context10": "自相似性表现为从不同的时间尺度上看时间序列的统计特性都是相似的。如果随机过程 $X ( t )$ 符合 $X ( t ) = a ^ { - H } X ( a t )$ ，则 $X ( t )$ 属于自相似过程,其中 $H$ 代表的是Hurst参数， $a$ 为正实数。如果Hurst参数在区间(0.5,1)内取值，表明序列存在自相似性，序列的自相似性随着Hurst参数的增大而变强，如果 $_ \\mathrm { H u r s t }$ 参数不在区间(0.5,1)内取值，表明序列不存在自相关性[1-]。大数据情境下网络舆情分众化演变趋势分析方法通过小波法对网络舆情演化过程中存在的 $_ \\mathrm { H u r s t }$ 参数进行计算。"
+  },
+  "2.2备选模型库": {
+    "context1": "在建立备选模型库的过程中需要考虑上述统计特性，包括ARMA模型、ARIMA模型、SARIMA模型和FARIMA模型。",
+    "context2": "(1)ARMA模型",
+    "context3": "用 $A R M A ( p , q )$ 描述ARMA模型,其中 $q$ 代表滑动平均部分的阶数； $p$ 代表自回归部分的阶数。平稳时间序列的建模通过ARMA模型完成，其表达式如下：",
+    "context4": "$$\nX ( t ) - \\sum _ { i = 1 } ^ { p } \\varphi _ { i } X ( t - i ) = a ( t ) - \\sum _ { j = 1 } ^ { q } \\theta _ { j } a \\bigl ( t - j \\bigr )\n$$",
+    "context5": "式(5)中， $\\varphi _ { i }$ 代表自回归系数; $a ( t )$ 代表白噪声； $\\theta _ { j }$ 代表滑动平均系数。设置后移算子 $B$ ，即 $B ^ { i } X ( t ) = X ( t - i )$ ，令$\\varphi ( B ) = 1 - \\sum _ { i = 1 } ^ { p } \\varphi _ { i } B ^ { i } \\setminus \\theta ( B ) = 1 - \\sum _ { i = 1 } ^ { q } \\theta _ { j } B ^ { i } ,$ 用下式描述上式：",
+    "context6": "$$\n\\varphi ( B ) X ( t ) = \\theta ( B ) a ( t )\n$$",
+    "context7": "(2)ARIMA模型",
+    "context8": "用 $A R I M A ( p , d , q )$ 描述ARIMA模型,其中 $d$ 代表差分运算阶数。与ARMA模型相比,ARIMA模型引入了差分运算，非平稳时间序列中存在的多项式趋势性可以通过差分运算消除[12-13],存在多项式趋势性的非平稳时间序列可以通过ARI-MA模型进行建模,其表达式如下：",
+    "context9": "$$\n\\varphi ( B ) ( 1 - B ) ^ { d } X ( t ) = \\theta ( B ) a ( t )\n$$",
+    "context10": "(3)SARIMA模型",
+    "context11": "用 $S A R I M A ( p , d , q ) ( P , D , Q ) ^ { s }$ 描述SARIMA模型,其中 $P$ 代表季节自回归部分的阶数； $D$ 代表季节差分的阶数; $Q$ 代表季节滑动平均部分的阶数。与ARIMA模型相比,SARIMA模型引入了季节差分运算，时间序列的周期性可以通过季节差分运算消除[14],周期性的非平稳时间序列可以通过SARI-MA模型进行建模：",
+    "context12": "$$\n\\begin{array} { l } { \\displaystyle \\left\\{ \\varphi ( B ) \\Phi ( B ^ { s } ) ( 1 - B ) ^ { d } ( 1 - B ^ { s } ) ^ { p } X ( t ) \\right. } \\\\ { \\displaystyle = \\theta ( B ) \\Theta ( B ^ { s } ) a ( t ) } \\\\ { \\displaystyle \\left\\{ \\Phi ( B ^ { s } ) = 1 - \\sum _ { i = 1 } ^ { P } \\Phi _ { i } B ^ { i s } \\right. } \\\\ { \\displaystyle \\left. \\Theta ( B ^ { s } ) = 1 - \\sum _ { i = 1 } ^ { Q } \\Theta _ { i } B ^ { i s } \\right. } \\end{array}\n$$",
+    "context13": "式(8)中， $\\Theta _ { i }$ 代表季节滑动平均系数; $\\Phi _ { i }$ 代表季节自回归系数。"
+  },
+  "(4)FARIMA模型": {
+    "context1": "用 $F A R I M A ( p , d , q )$ 描述FARIMA模型，表达式与ARIMA模型相同，具有自相似性的非平稳时间序列通过FARIMA模型进行建模[15]。"
+  },
+  "2.3模型选择规则": {
+    "context1": "在统计特性动态检验结果的基础上利用AEMIPO方法选择规则从备选模型库中存在的模型中进行选择并建模，从而实现对网络舆情分众化演变趋势进行预测。",
+    "context2": "采用AEMIPO方法分析网络舆情分众化演变趋势的过程如下：",
+    "context3": "(1)在网页中采集大数据情境下的网络舆情数据。",
+    "context4": "(2)在网页中采用网页抽取技术获取行为特征，网民发帖行为的用户率、回帖率和原帖率等时间序列可以通过合适的时间尺度采样获取，根据获取的时间序列对网络舆情分众化演变过程进行表征。",
+    "context5": "(3)在演化过程中动态跟踪统计特性，在备选模型库中根据模型选择规则选择合适的模型实现演化过程的建模，对大数据情境下网络舆情分众化的演变趋势进行预测。",
+    "context6": "对网络舆情分众化演变趋势预测的流程图如图1所示。",
+    "context7": "![](images/8d159fb2b10d1bf1d28141c0f0d8f9dc396f8e3259581570448d7886979ac391.jpg)  \n图1网络舆情分众化演变趋势分析流程  \nFigure 1 Analysis process of the evolution trend of online public opinion segmentation"
+  },
+  "3 实例分析": "",
+  "3.1数据收集与案例选取": {
+    "context1": "本次实例分析的研究对象是\"山东金矿救援案件\"具有如下特征：",
+    "context2": "(1)与\"山东金矿救援\"的社会热点话题紧密相扣，奇观化潜质高，具有文化符号特征。(2)在事件发展过程中媒体具有重要的推动作用,媒体的刻意碎片化报道容易引发民众争议。(3)政府对突发事件反应时间较快,对舆论的掌控能力较强，但由于情况复杂，且该事件是国内难度最大的矿山救援案例,因此受到社会各界的关注，导致舆论不断升级。(4)事件涉及的面较广，涉事企业态度漠视，人们对此极为关注，作为意见领袖知名人士带动群体舆论民粹化。",
+    "context3": "数据来源采集自国内社会第一大信息源——微博,微博核裂变式的传播形态和\"自媒体\"的交流模式成为奇观的形成地。在微博中输入关键词\"山东金矿救援案件\"或\"山东金矿爆炸救援”，采集1105条相关信息，其中存在15条与事件无关的微博，共存在1090条有效微博，时间跨度为2021年1月1日至1月24日。"
+  },
+  "3.2舆情热度解读和计算": {
+    "context1": "通过式(9)将该事件相关的转发、点赞和评论转化为每日舆情热度值进行汇总，获得微博舆情在时间跨度内的舆情热度表,如表1所示。",
+    "context2": "$$\nH _ { n } = h _ { n , 1 } + h _ { n , 2 } , + h _ { n , 3 } + \\cdots + h _ { n , i }\n$$",
+    "context3": "$$\n= w _ { 1 } \\sum _ { i = 1 } ^ { n } C _ { 1 , n , i } + w _ { 2 } \\sum _ { i = 1 } ^ { n } C _ { 2 , n , i } + w _ { 3 } \\sum _ { i = 1 } ^ { n } C _ { 3 , n , i }\n$$",
+    "context4": "式(9)中， $n$ 代表第 $n$ 天； $h _ { n , i }$ 代表单条微博对应的舆情热度； $i$ 代表第 $i$ 条微博; $w _ { i }$ 代表评价指标的权重值。",
+    "context5": "表1 舆情热度统计  \nTable 1 Public opinion popularity statistics",
+    "context6": "<table><tr><td>日期(2021)</td><td>舆情热度</td></tr><tr><td>1.10</td><td>1500.654</td></tr><tr><td>1.11</td><td>1801.674</td></tr><tr><td>1.12</td><td>1439.854</td></tr><tr><td>1.13</td><td>1407.648</td></tr><tr><td>1.14</td><td>11500.664</td></tr><tr><td>1.15</td><td>7564.854</td></tr><tr><td>1.16</td><td>27724.65</td></tr><tr><td>1.17</td><td>1300.593</td></tr><tr><td>1.18</td><td>18.633</td></tr><tr><td>1.19</td><td>1150.456</td></tr><tr><td>1.20</td><td>1156.581</td></tr><tr><td>1.21</td><td>1095.354</td></tr><tr><td>1.22</td><td>1089.451</td></tr><tr><td>1.23</td><td>998.364</td></tr><tr><td>1.24</td><td>1064.034</td></tr></table>",
+    "context7": "根据表1中的数据绘制图2。",
+    "context8": "分析图2可知，网络舆情事件在发展过程中满足舆情生命周期的基本特点，1.10-1.13日为网络舆情事件的萌动期，1.14-1.15日为网络舆情事件的加速期，1.16日为成熟期，",
+    "context9": "1.17日之后为衰退期。1.10-1.13日为网络舆情事件的萌动期是因为此时该事件刚刚发生，虽然引发一些关注,但人数较少,呈现一定的波动性,这正好与1.10山东金矿救援案件发生的时间相对应;1.14-1.15日为网络舆情事件的加速期是因为在这两天中微博讨论人数在快速飞升，尽管还处于波动变化的过程中,但其与萌动期而言具有明显的舆情热度飞升的趋势；1.16日为成熟期是因为此刻舆情热度来到最高点，在关注热度达到最高时,必然会迎来事件的关注衰退期，即1.17日之后。由于该案例与一般网络舆情事件不同,因此存在多个小型舆情波峰，多个子生命周期构成的集合即为整个事件,与山东金矿爆炸救援案事件相关的消息传播是产生舆情波动的主要原因，如表2所示。",
+    "context10": "![](images/6977d8f1fc44a9da8ff998e4ca0e48eefdec3dca0d1c9df38b53ef62517574af.jpg)  \n图2山东金矿爆炸救援案舆情热度曲线图  \nFigure 2 Public sentiment curve of Shandong gold mine explosion rescue case",
+    "context11": "表2舆情热度分析  \nTable 2 Public sentiment enthusiasm analysis   \n表3舆情热度趋势值",
+    "context12": "<table><tr><td>序号</td><td>消息</td><td>萌动期</td><td>加速期</td><td>成熟期</td><td>衰退期</td></tr><tr><td>1</td><td>山东金矿爆炸救援案</td><td>1.10</td><td>1.11-1.15</td><td>1.16</td><td>1.17</td></tr><tr><td>2</td><td>事发企业迟报</td><td>1.10</td><td>1.10</td><td>1.10</td><td>1.11</td></tr><tr><td>3</td><td>社会公众人物、大型网站呼呼发布真相，民众产生怀疑</td><td>1.10</td><td>1.11</td><td>1.12</td><td>1.13</td></tr><tr><td>4</td><td>,事件遭曝光，官方即将公开调查结果，民众不满和好奇被推到最高</td><td>1.10</td><td>1.11-1.15</td><td>1.16</td><td>1.17</td></tr><tr><td>5</td><td>官方发布调查结果,舆论出现反转</td><td>1.13</td><td>1.14</td><td>1.14</td><td>1.15</td></tr><tr><td>6</td><td>人民日报完善案件细节</td><td>1.19</td><td>1.20</td><td>1.20</td><td>1.21</td></tr><tr><td>7</td><td>事件反思</td><td>1.23</td><td>1.23</td><td>1.23</td><td>1.24</td></tr></table>",
+    "context13": "Table 3 Trend value of public opinion popularity",
+    "context14": "<table><tr><td>日期(2021)</td><td>热度趋势/%</td></tr><tr><td>1.10</td><td>15.56411234</td></tr><tr><td>1.11</td><td>20.36458957</td></tr><tr><td>1.12</td><td>-0.56487269</td></tr><tr><td>1.13</td><td>41.56487966</td></tr><tr><td>1.14</td><td>10.78588421</td></tr><tr><td>1.15</td><td>-27.7521301</td></tr><tr><td>1.16</td><td>-95.4521667</td></tr></table>",
+    "context15": "<table><tr><td rowspan=1 colspan=1>1.17                       -0.12460034</td></tr><tr><td rowspan=1 colspan=1>1.18                       1.245223667</td></tr><tr><td rowspan=1 colspan=1>1.19                       -0.0852457</td></tr><tr><td rowspan=1 colspan=1>1.20                        15.636657</td></tr><tr><td rowspan=1 colspan=1>1.21                      2.3652001401</td></tr><tr><td rowspan=1 colspan=1>1.22                       0.12254682</td></tr><tr><td rowspan=1 colspan=1>1.23                       0.178523201</td></tr><tr><td rowspan=1 colspan=1>1.24                        -0.2362457</td></tr></table>",
+    "context16": "对二零二一年一月十日至一月二十四日的舆情热度趋势值进行记录，结果如表3所示。当公布事件满足了人们的",
+    "context17": "好奇、愤怒或得到处理时，舆情事件处于成熟期。由于互联网中每天都存在新话题,因此最高峰停留时间通常情况下是很短的，舆情事件因为人们的注意力被转移而进入衰退期。"
+  },
+  "3.3舆情分众化演变趋势预测": {
+    "context1": "采用大数据情境下网络舆情分众化演变趋势分析方法对2021年1月15日至1月24日的网络舆情热度演化趋势进行预测,并将预测结果与实际结果进行对比,对比结果如表4所示。"
+  },
+  "表4舆情热度演化趋势预测结果": {
+    "context1": "Table 4 Forecast results of the evolution trend of public opinion heat",
+    "context2": "<table><tr><td>日期</td><td>实际值</td><td>预测值</td></tr><tr><td>1.15</td><td>5</td><td>5</td></tr><tr><td>1.16</td><td>10</td><td>10</td></tr><tr><td>1.17</td><td>1</td><td>1</td></tr><tr><td>1.18</td><td>0</td><td>1</td></tr><tr><td>1.19</td><td>1</td><td>1</td></tr><tr><td>1.20</td><td>1</td><td>1</td></tr><tr><td>1.21</td><td>1</td><td>1</td></tr><tr><td>1.22</td><td>1</td><td>1</td></tr><tr><td>1.23</td><td>1</td><td>2</td></tr><tr><td>1.24</td><td>1</td><td>1</td></tr></table>",
+    "context3": "分析表4中的数据可知，在2021年1月15日至1月24日共10天时间中，大数据情境下网络舆情分众化演变趋势分析方法预测的1.18与1.23舆情热度演化趋势与实际值不符，剩余的预测结果都与实际值相符，预测准确率高达 $80 \\%$ ，表明大数据情境下网络舆情分众化演变趋势分析方法可有效地对网络舆情分众化演变趋势进行分析。"
+  },
+  "4结语": {
+    "context1": "在大数据时代背景下，对网络舆情分众化演变趋势进行分析，可以使管理者及时获取敏感信息，并为舆情疏导做好前提准备。基于此,本文对大数据情境下网络舆情分众化演变趋势进行分析。采用AEMIPO方法对网络舆情分众化演变趋势进行预测，并通过\"山东金矿爆炸救援案\"进行实证分析，以验证设计方法的有效性和合理性。由实证分析结果可知，网络舆情分众化演变的最终趋势是缓慢下降的，这表明网络舆情存在自身特定的生命周期，无法得到长期发展，因此可以利用这一特点对网络舆情进行控制。但由于人力和资源方面的限制，本文只对一个实证案例进行了研究，为提升网络舆情预测的准确性，在日后的研究中还需要进行更多实证案例验证。"
+  },
+  "参考文献": {
+    "context1": "1杨阳,王杰.情绪因素影响下的突发事件网络舆情演化研究[J].情报科学,2020(3):37-43,71.  \n2秦涛,王熙凤,沈壮,等.面向网络舆情的无监督演化趋势评估方法[J].西安交通大学学报,2020,54(11):119-126.  \n3张和平,陈齐海.基于灰色马尔可夫模型的网络舆情预测研究[J].情报科学,2018,36(1):75-79.  \n4兰月新,夏一雪,刘冰月,等.网络舆情传播阶段精细化建模与仿真研究[J].现代情报,2018(1):76-86.  \n5王宁,赵胜洋,单晓红.基于灰色系统理论的网络舆情预测与分级方法研究[J].情报理论与实践,2019,42(2):124-130.  \n6 王晰巍,韦雅楠,邢云菲,等.社交网络舆情知识图谱发展动态及趋势研究[J].情报学报,2019,38(12):1329-1338.  \n7傅丽芳,裴城妍,郭永瑞,等.农产品安全网络舆情演化分析与导控策略[J].科学技术与工程,2020,20(7):2801-2809.  \n8 李燕凌,彭明珠,李诗悦.网络舆情分众化差异化演变及其发展趋势研究[J].图书与情报,2019(2):89-97.  \n9 谢卫红,杨超波,朱郁筱,等.网络舆情监控算法研究与分析[J].科技管理研究,2019(22):197-205.  \n10 赵玉霞.自媒体时代政府舆情应对策略分析].青年记者,2018(9):62-63.  \n11 孙铭涛,宋晓东.高校网络舆情管理研究的计量分析与评价——基于科学知识图谱的方法[]).湖南社会科学,2019(5):109-115.  \n12 严亚.泛媒·可视·跨屏——网络舆情在新技术环境中的转向与应对[]).郑州大学学报(哲学社会科学版),2018,51(1):146-151.  \n13 刘嘉毅,陈玲,陈玉萍.旅游舆情网络关注度时空演变特征与影响因素[J].地域研究与开发,2019(1):90-96.  \n14严错.公共安全视域下的舆情热点及发展趋势可视化分析[].西安科技大学学报,2019,39(6):1082-1089.  \n15 张阳,李雄飞.基于时间窗口的舆情异动量化模型[].计算机工程,2019,45(3):321-326.(青任纻辑.油)"
+  },
+  "The Evaluation of Internet Public Opinion Guidance Effect for Serious Emergencies Based on Confidence Level": {
+    "context1": "CHENG Tie-jun},NI Cong' ,FENG Lan-ping² (1.School of Economics,Nanjing University of Posts and Telecommunications,Nanjing 210o23,China;",
+    "context2": "2.Business School,Hohai University,Changzhou 213o00,China)",
+    "context3": "Abstract:[Purpose/significanceTheefectiveguidanceofonlinepublicopinionisnotonlyrelatedtothesuccessofon-sitergen cyresponsebutalsorelated tosocialtabiltyandharmonywhentheemergencyhappens.Theevaluationof teefectofntwork public opinionguidanceforemergenciesisof greatsignificance topromotetheimprovementof governmentemergencymanagementcapabilitiesandpromotethepositivedevelopmentofemergenciesnetworkpublicopinion.Metod/process】Basedonthecharacteristicsofserious emergenciesandthefocusofguidanceconstructanindicatorsystemforthegudanceefectofnetworkpublicopiniononemergencies.introduceexpertconfidencelevelsandPythagoreanfuzyiformatiointotheevaluatioprocess,andbuildguidanceffects Evaluation model.【Result/conclusion】Theanalysisandempiricalcalculationsofthethree incidentsoftheYangtzeRiverShipwreck. TianjinBinhai ExplosionandJiangsu XiangshuiExplosionhaveverifiedtheefectivenesandpracticabilityofthemodel.Iovation/ limitation】Asevaluatorshavediferentunderstandingabouttheemergenciesandtnetworkpublicopiniochanges.theywillbehsitatedanduncertainintheevaluation.Thegroupevaluationmodelconstructedinthispapertakesthebovecharacteristicsintocosiderationandhascrtainpracticalvalue.Limitedtotheavailabilityofindicatordata.theevaluationindicators involedinthisarticleay not be comprehensive enough and have a certain impact on the evaluation.",
+    "context4": "Keywords:serious emergencies; network public opinion; guidance efect; confidence level; evaluation model"
+  },
+  "Analysis of the Evolution Trend of Network Public Opinion Segmentation in the Context of Big Data": {
+    "context1": "FU Lei-ming,WANG Zhao-ye,CHEN Yi-fei,LUO Yuan-yuan (College of Engineering,Nanjing Agricultural University,Nanjing 21oo31,China)",
+    "context2": "Abstract:Purpose/significance】Inordertoefectivelyjudgetheevolutiontrendofonlinepublicopinion,analyzethelawof the spreadandformationofonlinepublicopinionndtudyhestatusandcharacteristicsoftheevolutionofonlinepublicopiniongmen tation.basedonAEMPOmethod,thispaperputsforwardananalysisethodoftheevolutiontrendofnetworkpublicopiniondierentiationnthecontextofbigdatasoastoprovideanoptimizedreferencefortheuidancestrategyofnetworkpublicopiniodissination.【Method/procs】Byynamicallytracking testatisticalcharacteristicsoftheevolutonprocesofoliepublicopnonn tation.suchaself-ilarityperiodciydabilitylect,,AFAodelstscribeteoicalcharacteristicsndconstructalterativemodelsLibrary;Selectthecorrspondingmodelfromthecanddatemodellibrayaccordingtotheselectionrulestomodel theevolutiontrendofoninepublicopinionsegmentationandprdicttheevolutiontrendofonline publicopinionsegmentationinthecontextofbigdata.Result/conclusion】Theproposedmethodwas validatedandanalyzed withthe Weibodataofthe \"ShandongGold Mine ExplosionRescue Case\"asanexample.Theresults showedthat he predictionaccuracyrate of the method was as high as $80 \\%$ ,indicating that the methodcan be used in the context of big data.The evolution trend of public opinionsegmentationisaccuratelypredictedandanalyzed.【Innovation/limitation】Duetotheanalysisofanempiricalcaseinthisarticle. therearecertainresearchlimitatios.Therefore,itisnecessrytoombineorecasesforverificationinfutureesearchndcontiueto optimize the method to improve its effectiveness and accuracy in all aspects degree.",
+    "context3": "Keywords: big data; Internet public opinion; evolution trend; statistical features; case analysis;"
+  }
+}

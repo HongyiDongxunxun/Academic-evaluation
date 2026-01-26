@@ -1,0 +1,67 @@
+{
+  "original_filename": "full_446.md",
+  "●司莉徐丽晓吴钢陈红艳": "",
+  "OCLC术语服务研究：背景、进展与启示": {
+    "context1": "摘要OCLC术语服务是互操作领域的一个研究项目。术语服务可以理解为涉及各种类型知识组织资源(包括规范文档、主题词表系统、网络分类、分类表等)的Web 服务。该项目的目标是通过在多个受控词表之间有选择地建立映射，帮助文献收藏机构为馆藏创建相互兼容的元数据,通过任何基于网络的元数据编辑器获取术语资源，实现对术语资源的一站式获取。我们可以借鉴OCLC的做法，对国内外词表间映射进行研究。表4。参考文献3、",
+    "context2": "关键词术语服务受控词表匹配兼容映射",
+    "context3": "分类号G254",
+    "context4": "ABSTRACTOCLC Terminologies Service isa research projecl in the field of interoperability. Terminologies Service can be regarded asa Web service relating to various knowledge organization resources，including authority files，subject thesauri，network clasifications and clasification schedules.The goal of the project is to selectively establish mappings among diferent controlled thesauri,help document collection institutions to create compatible meladata for their holdings，get terminology resources through any network-based meladata editors，and realize the one-stop access to lerminology resources.The authors recommend learning from OCLC and doing researches on diferent mappings among thesauri. 4 tabs.3 refs.",
+    "context5": "KEY WORDS'Terminologies serviceControlled thesaurus.Matching.Compatibility.",
+    "context6": "CLASS NUMBER G254"
+  },
+  "1OCLC术语服务研究项目的背景": {
+    "context1": "受控语言是知识组织系统的主要组成部分，即使在网络环境也有广泛的应用空间，它可以提高信息检索的效率和准确性。受控语言虽然有助于情报检索系统内部的一致性，但却降低了系统之间的兼容性[1]。检索语言的兼容转换是实现网络信息资源整合、跨库浏览与检索的重要技术方法，也是优化信息组织、实现资源共享、满足一站式获取的前提。而现有知识组织系统间兼容转换还未能引起足够重视。",
+    "context2": "1994年，OCLCResearch项目组开始关注该问题。OCLCResearch项目组主要从事数字图书馆相关技术的开发与研究工作，研究范围包括元数据管理、知识组织、内容管理、管理智能化、互操作、系统和交互设计等领域，其任务是方便用户获取和利用全世界的信息资源，降低图书馆成本[2]",
+    "context3": "OCLC术语服务是互操作领域的一个研究项目，术语服务可以理解为涉及各种类型知识组织资源（包括规范文档、主题词表系统、网络分类、分类表等)的Web 服务，其目标是为人和计算机获取和理解知识组织资源中的概念以及概念间的关系提供方便，帮助软件开发者研制工具以改进搜索引擎性能，提高检索效率。该项目的目标是通过在多个受控词表之间有选择地建立映射，帮助图书馆、档案馆、博物馆等为馆藏创建相互兼容的元数据，通过任何基于网络的元数据编辑器获取术语资源，实现对术语资源的一站式获取[3]。"
+  },
+  "2术语服务研究项目进展": {
+    "context1": "1994年，OCLC开始建立LCSH和DDC之间的映射，DDC/LCSH映射产生于OCLCWorldCat记录中的DDC 分类号和LCSH词汇。OCLC 的词表映射研究项目主要采用两种映射实现方法：直接映射（directmapping）和同现词映射（co-occurrence mapping）。前者是指在不同的受控词表之间或词表与分类号之间建立等同词联系。后者是指在相同的元数据或编目记录中，对来自不同词表而同时出现的词建立映射。OCLC在WebDewey与LCSH之间创建了大约9万个同现词映射。",
+    "context2": "OCLC 的词表映射研究项目已经扩展到其他分类表、主题词表系统，如ERIC Thesaurus,LCSHac,MeSH,NLMC等。OCLC词表映射研究项目中的词表联系和映射途径（直接映射、同现词映射、同时使用这两种方法），如表1所示。其中，LCC/DDC，NLMC/",
+    "context3": "DDC有选择地在一些类之间建立了直接映射，GSAFD中的小说和戏剧部分类型词分别与LCSH,LCSHac词汇建立了直接映射。",
+    "context4": "表1OCLC词表的相关映射",
+    "context5": "<table><tr><td rowspan=1 colspan=1>从</td><td rowspan=1 colspan=8>到</td></tr><tr><td rowspan=1 colspan=1>词表</td><td rowspan=1 colspan=1>DDC</td><td rowspan=1 colspan=1>ERIC</td><td rowspan=1 colspan=1>GSAFD</td><td rowspan=1 colspan=1>LCC</td><td rowspan=1 colspan=1>LCSH</td><td rowspan=1 colspan=1>LCSHar</td><td rowspan=1 colspan=1>MeSll</td><td rowspan=1 colspan=1>NLMC</td></tr><tr><td rowspan=1 colspan=1>DDC(杜威十进分类法）</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1>直接、同现词</td><td rowspan=1 colspan=1>直接、同现词</td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1>直接</td></tr><tr><td rowspan=1 colspan=1>ERIC Thesaurus（美国教育资源数据库叙词表）</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>GSAFD(个人作品主题检索指南）</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>LCC（国会图书馆分类法）</td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>：</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>LCSH(国会图书馆标题词表）</td><td rowspan=1 colspan=1>直接，同现词</td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1>同现词</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>LCSHac（国会图书馆儿童标题词表）</td><td rowspan=1 colspan=1>直接同现词</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>MeSH(医学标题词表）</td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>NLMC（国家医学图书馆分类法）</td><td rowspan=1 colspan=1>直接</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+    "context6": "注：本表引自Terminology Services，htp://www.orleorg/research/projects/lermservicesdefault.htm(20o6-03-10查询）",
+    "context7": "如表1所示，OCLC的许多映射研究项目都选择与LCSH进行映射。主要原因是：（1)LCSH是迄今为止使用最为广泛的主题词表，是国际范围内应用的受控词表，被世界上许多国家翻译使用。（2）LCSH是最大的综合性的英文标引词表，涵盖了所有主题领域的词汇。它也被推荐用来规范DC主题元素的编码表，一些著名项目就是基于LCSH利用DC元数据建立主题元素的，例如Colorado Digitization Program,Dspace 和 EPrints UK等。",
+    "context8": "OCLC研究项目中，词表编码有多种标准：对于规范文档、标题词表和叙词表，采用MARC21规范数据格式；对分类数据，采用MARC21分类数据格式。一些著名词表都有MARC格式，MARC规范格式支持词表间联系，因此采用MARC格式作为编码标准。MARC规范格式可以为许多受控词表元素提供详细编码，在MARC中1XX字段描述选用词，150字段描述主题词,4XX字段描述非选用词,5XX字段描述广义词、狭义词、相关关系词，7XX字段描述同一词表或不同词表中等同关系词之间的关系。"
+  },
+  "3词表映射的实现过程：以ERICThesaurus与LCSH映射为例": {
+    "context1": "ERIC Thesaurus是由美国教育部赞助教育资源信息中心创建的进入教育文献资料库的公共人口词表，它是一个规范的叙词表。"
+  },
+  "3.1将ERIC 转换为MARC 规范数据格式": {
+    "context1": "被映射的词表即源词表首先要转换为结构化的MARC21规范格式，以ERIC中的Tutors一词转换为MARC记录格式为例加以说明（如表2和表3所示）。在表2和表3的例子中，广义词(BroaderTerms)转换为含有 $\\$ 8$ 子字段的MARC550字段，相关词（RelatedTerms)转换为多个不含 $\\$ 8$ 子字段MARC550字段，替代词(UsedFor)字段转换成MARC450字段，“CoachingTeachers”一词曾经用作正式有效词,在450字段，增加子字段 $\\$ 8a$ 说明这个词曾经是正式有效词。ERIC记录对\"CoachingTeachers\"进行说明，并给出这个词的生命周期,当这个数据转换成MARC时，就为这个数据创建了688字段(应用历史阶段说明）。通过MARC规范格式对源词表和目标词表进行编码，可以对相似信息的描述进行标准化处理，提高词表匹配的能力。",
+    "context2": "表2Tutors的ERIC记录实例",
+    "context3": "<table><tr><td rowspan=1 colspan=1>Record Type:</td><td rowspan=1 colspan=1>Main</td></tr><tr><td rowspan=1 colspan=1>Scope Note:</td><td rowspan=1 colspan=1>Persons   engaged,  oftenprivately,to instruct anindividual or snall group in aparticular subject (Note:Use&quot;College Faculty&quot;forBritishpostsecondary tutors -- priQr toMar80,this termdid not carry aScope Note)</td></tr><tr><td rowspan=1 colspan=1>Category:</td><td rowspan=1 colspan=1>Students，Teachers，SchoolPersonnel</td></tr><tr><td rowspan=1 colspan=1>Broader Terms:</td><td rowspan=1 colspan=1>Teachers;</td></tr><tr><td rowspan=1 colspan=1>Narrower Terms:</td><td rowspan=1 colspan=1>n/a</td></tr><tr><td rowspan=1 colspan=1>Related Terms:</td><td rowspan=1 colspan=1>Tutor  Training;  TutorialPrograms; Tutoring;</td></tr><tr><td rowspan=1 colspan=1>Used For:</td><td rowspan=1 colspan=1>Coaching Teachers  (19661974):</td></tr><tr><td rowspan=1 colspan=1>Use Term:</td><td rowspan=1 colspan=1>n/a</td></tr></table>",
+    "context4": "表3Tutors的MARC21规范格式记录(部分)",
+    "context5": "<table><tr><td rowspan=1 colspan=1>150</td><td rowspan=1 colspan=1>$a tutors</td></tr><tr><td rowspan=1 colspan=1>450</td><td rowspan=1 colspan=1>$waSa Coaching Teachers</td></tr><tr><td rowspan=1 colspan=1>550550550</td><td rowspan=1 colspan=1>$a Tutor Training$a Tutorial Programs$a Tutoring</td></tr><tr><td rowspan=1 colspan=1>550</td><td rowspan=1 colspan=1>$a Teachers$wg</td></tr><tr><td rowspan=1 colspan=1>680?</td><td rowspan=1 colspan=1>SiPersons engaged, often privately,to instruct an individual or smallgroup in a particular subject (Note:Use &quot;College Faculty&quot;for Britishpostsecondary tutors --prior toMar80,this term did not carry aScope Note)</td></tr><tr><td rowspan=1 colspan=1>688</td><td rowspan=1 colspan=1>$a Coaching Teachers (1966 1974)</td></tr></table>"
+  },
+  "3.2建立词汇匹配": {
+    "context1": "通过一系列计算机程序，将源词表ERIC和目标词表LCSH中的所有选用词和非选用词进行匹配。匹配过程中，空格、字母大小写、标点符号的差异将被忽略。下面的词被认为是匹配的：",
+    "context2": "<table><tr><td>ERICThesaurus Term</td><td>LCSH Term</td></tr><tr><td>Alzheimers Disease</td><td>Alzheimers disease</td></tr><tr><td>Nurses Aides</td><td>Nurses&#x27;aides</td></tr></table>",
+    "context3": "目前，复数与单数形式的词、带与没带括号的词、带与没带以逗号引出修饰词的词，都不能进行匹配。例如：",
+    "context4": "<table><tr><td>ERICThesaurus Term</td><td>LCSH Term</td></tr><tr><td>Echolocation</td><td>Echolocation（Physiology）</td></tr><tr><td>Crack</td><td>Crack（Drug）</td></tr><tr><td>Radiology</td><td>Radiology，Medical</td></tr><tr><td>Rh factors</td><td>Rh factor</td></tr></table>",
+    "context5": "共有3797个ERIC词匹配到LCSH,可以根据匹配类型将它们分为4类：（1)PT/PT匹配：源词表中的选用词和目标词表中的选用词之间的精确匹配。(2)PT/NPT匹配：源词表中的选用词和目标词表中的非选用词之间的精确匹配。（3）NPT/NPT匹配：源词表中的非选用词和目标词表中的非选用词之间的精确匹配。（4)NPT/PT匹配：源词表中的非选用词和目标词表中的选用词之间的精确匹配。"
+  },
+  "3.3进行匹配评价": {
+    "context1": "OCLC术语研究项目组应用美国西北大学的LCSH/MeSH映射项目中建立的指标体系，对4种匹配类型分别进行匹配评价。其原则是：（1)匹配的两个词表中映射词概念应有同样的外延。（2)源词表中的词只能映射到LCSH主标题词，但当源词表中的选用词与目标词表LCSH中的副标题词完全相同时，则可以与LCSH中的副标题词匹配。（3)一对一的映射是优选的，但源词表中的词可以映射到目标词表中的表达等同概念的多个词。",
+    "context2": "表4PT/NPT匹配与NPT/PT匹配举例",
+    "context3": "<table><tr><td rowspan=1 colspan=1>REIC.</td><td rowspan=1 colspan=1>LCSH</td><td rowspan=1 colspan=1>Match Type</td><td rowspan=1 colspan=1>ValidMapping</td></tr><tr><td rowspan=1 colspan=1>PT:Adolescents</td><td rowspan=1 colspan=1>PT:TeenagersNPT:Adolescents</td><td rowspan=1 colspan=1>：PT/NPT</td><td rowspan=1 colspan=1>Yes</td></tr><tr><td rowspan=1 colspan=1>NPT:Adolescence</td><td rowspan=1 colspan=1>PT:Adolescence</td><td rowspan=1 colspan=1>NPT/PT</td><td rowspan=1 colspan=1>No</td></tr><tr><td rowspan=1 colspan=1>NPT: Teenagers</td><td rowspan=1 colspan=1>PT: Teenagers</td><td rowspan=1 colspan=1>NPT/PT</td><td rowspan=1 colspan=1>Yes</td></tr></table>",
+    "context4": "表4的例子中,Adolescence 的NPT/PT 匹配是-个无效映射，因为 Adolescence 在 ERIC 和LCSH中分别代表不同的概念，ERIC中的Adolescents指13～17岁的年轻人，LCSH中的Adolescence 指青春期的生理发展、心理发展和社会发展。ERIC中的AdolescentDevelopment 与 LCSH 中的 Adolescence 是较好的匹配",
+    "context5": "映射的维护也是映射评价的一个方面，可以在追踪词表记录软件的帮助下实现。当词表发生变化时，需要通过评价来决定原有映射是否仍然有效。"
+  },
+  "3.4实现词表间的链接": {
+    "context1": "词表间的链接在MARC的7XX字段中描述，可对下列内容进行编码：（1）目标词表的名称或代码;",
+    "context2": "(2)源词表的映射词；(3）目标词表中映射词的控制号;(4)映射组织的身份。ERIC 中的映射词与目标词表中的映射词进行链接，就在ERICMARC 的规范记录中增加750的入口字段。在下面的例子中，前两个750 字段是ERIC/LCSH 映射，第一个750字段，ERIC中的词与LCSH中对应词EideticImagery的LCMARC21主题规范记录进行链接;第二个750字段，ERIC 中的词与LCSH中对应词 Photographic memory的LCMARC21主题规范记录进行链接;最后一个750字段是ERIC/MeSH映射，ERIC中的词与MeSH中对应词Eideticlmagery的MeSH规范文档记录进行链接。",
+    "context3": "链接到LCSH中对应词的LCMARC2I主题规范记录 750#0 SaEidetic imagery\\$0(DLC)sh 85041379 \\$5OCoLC-O ■链接到LCSH中对应词的LCMARC21主题规范记录 750#0 SaPhotographic memoryS0(DLC)sh Q0009368 \\$5OCoLC-O 750#2 SaEidetic lmageryS0(DNLM)D004538 →链接到MeSH中对应词的MeSH规范文档",
+    "context4": "在上面的例子中，750字段两个指示符，#表示未定义，0表示目标词表为LSCH/名称规范文档，\\$0子字段表示映射词的控制号，\\$5子字段表示提供映射数据的组织，如代码OCoLC-O是MARC为OCLC研究办公室设定的机构代码。LCSH词汇通过OAI-Cat框架同LC规范记录相联系。用户通过浏览器和机器通过OAI-PMHWeb服务机制可以获取这些记录。"
+  },
+  "4OCLC术语服务研究项目对我们的启示": {
+    "context1": "从对OCLC术语服务研究项目的分析中可以看出：该研究项目的重点在于研究词表映射匹配以及在此基础上实现词表之间的互操作。词表映射中采用MARC格式记录作为中介进行转换，词表的匹配易于实现，能够提高匹配效率和准确性。该项目注重研究词汇匹配的效果和质量，采用多种方法对匹配效果进行评价。",
+    "context2": "OCLC术语服务的研究眼界很开阔，涉及了各种类型的多种词表之间的映射匹配。我国目前已有众多的分类表、叙词表、元数据应用项目，一些机构还编制了自己使用的专业词表，如深圳证券信息有限公司就研制了自己行业的证券信息主题词表。我们可借鉴OCLC术语服务的研究思路和方法，如通过MARC21规范文档或中介词典等，对国内词表间以及国内外词表间映射进行研究，实现词表间的互操作，提高检索效率，为用户的跨库浏览和检索提供条件。"
+  },
+  "参考文献": {
+    "context1": "1戴维民.信息组织.北京：高等教育出版社,2004：156  \n2[2006-05-10].OCLC Research. http://www.oclc.org/research/about/default. htm  \n3 [2006-03-10].Terminology Services.http://www.ocic.oig/research/projects/termservices/default. htm",
+    "context2": "司莉武汉大学信息管理学院图书馆学系副主任，副教授，博士。通信地址：武汉。邮编430072。",
+    "context3": "徐丽晓河南南阳师范学院工作，现为武汉大学信息管理学院2005级在读研究生。通信地址同上。",
+    "context4": "吴钢陈红艳武汉大学信息管理学院2005级在读研究生。通信地址同上。 （来稿时间：2006-05-31）"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "original_filename": "full_10179.md",
+  "预印本知识库的长期保存研究进展 Review of Long term Preservation of E—Print Repository": "",
+  "刘华": {
+    "context1": "(中国科学院研究生院北京100029;中国科学院文献情报中心北京100080)",
+    "context2": "摘要预印本知识库是存储预印本资源的在线知识库，能通过网络提供对预印本资源的免费获取，促进了预印本内容的广泛传播。为了确保将来对预印本资源的存取，国外已经开始关注预印本知识库的长期保存问题。目前的研究进展主要体现在必要性研究、保存框架、法律问题、软件及保存模式等方面。",
+    "context3": "关键词 预印本预印本知识库长期保存",
+    "context4": "预印本是指研究论文或类似的研究成果的数字版本，它包括两种形式:preprint(未经过同行评议的论文)与postprint(经过同行评议的论文)，在内容上它们可以是期刊论文、会议论文、图书章节或其它任何形式的研究成果。预印本知识库是存储预印本资源的在线知识库，能通过网络提供免费的获取，促进预印本内容的广泛传播[1]。但是，预印本都是以数字形式存在，其中相当一部分还是原生数字资源，而数字资源的使用受到硬件和软件的限制，其使用寿命相对于印刷型文献要短得多。要确保将来对预印本内容的存取，就势必要考虑到长期保存的问题。所以，业内人士逐渐关注预印本知识库的长期保存问题，也启动了一系列相关的研究项目。目前的研究进展主要体现在必要性、保存框架、法律问题、软件及保存模式等几个方面。"
+  },
+  "1必要性及可行性研究": {
+    "context1": "预印本知识库的主体一预印本是传统形式出版的期刊论文的数字版本，而传统出版的期刊论文已由其它机构予以保存，因此对预印本知识库的长期保存研究就首先要回答这样一个问题：是否有必要对预印本进行长期保存。",
+    "context2": "关于这个问题，目前业内业内人士还未达成共识，在JISC(Joint Information Systems Committee）知识库邮件列表[2]中曾对此有过广泛的争论。有些人认为，预印本及机构知识库的目的在于提供即时的、不间断的内容存取，使其使用或学术影响达到最大化。而要达到这个目的,工作重心应该放在推进预印本的自存储上，而不是长期保存。而且，机构已出版的期刊论文早已由其它实体承担，如出版商和法定的存储图书馆，长期保存不是预印本知识库的责任。另外一些人则认为长期保存是一个非常重要的功能，只有实施长期保存，才能保证预印本内容无论是现在还是将来都能提供可持续的存取。因此，预印本知识库从一开始就应该将这个问题考虑在内。Stephen Pinfield[3]在\"预印本的保存”一文中指出，预印本知识库的扩充和长期保存并不必要互相排斥，推进预印本的自存储肯定是主要优先考虑的问题，因为没有内容，也就谈不上保存。只是在说服作者将他们的研究成果存储在机构知识库的同时，也可以在后台开始长期保存方面的工作。只是需要注意，不要因为长期保存而给作者的自存储增加额外的负担，影响他们进行自存储的积极性。",
+    "context3": "AHDS(Arts& Humanities Data Service，艺术与人文数据服务中心)承担的\"预印本保存的需求和可行性研究\"[4],主要是为预印本知识进一步开展长期保存研究提供建议，开发相关的服务和工具以支持英国预印本内容的长期保存。该项目报告所形成的三个最终结论之一，就是从现在就开始保存。报告指出，为了从长远的角度来对预印本进行管理，预印本知识库需要从现在就开始着手解决保存问题，开始收集管理和保存元数据，以支持机构知识库的资源管理。如果不及早地考虑这一问题，就只会增加将来预印本保存的成本。",
+    "context4": "JISC的\"复合机构知识库的权利与利益调查”显示，保存是调查对象将教学资源存放在机构知识库中的主要原因。当被调查者被问到将资源放在机构知识库的原因时，“机构知识库能帮助管理和保存这些资源”占了很大的比例。尽管保存教学资源和保存学术论文的考虑是不同的，但调查结果显示，长期保存的承诺使作者对将来利用资源有了更多的信心，从而更有动力将研究成果存储在机构知识库中[5]。因此，从预印本知识库的发展来看，长期保存也是非常有必要的。"
+  },
+  "2保存框架研究": {
+    "context1": "目前预印本知识库的保存框架都是基于OAIS参考模型的。OAIS参考模型没有详细说明实施数字仓储的确切方法，只是构建了一个理解仓储的结构组织的高层框架，是一个维护内容的有效方法。OAIS模型的应用为预印本知识库提供了通用术语和通用概念框架，从而简化了共享理念和实践的过程。",
+    "context2": "OAIS功能模型(见图1)指出了对信息包进行一致、有效的处理所必须的各个实体。这些实体置于知识库管理结构上之后，可用来确定接受预印本提交所需的关系和责任。为了确保知识库能发布其内容并长期保存，AHDS 根据OAIS参考模型中指定的功能给出了知识库应具备的五个功能;a·与作者或版权拥有者协商，从他们那里获取预印本;b·对支持长期保存的相关信息进行充分的控制;c·确定预印本的目标用户，确保内容的发布能被这些用户独立理解，而无需专家的协助;d·构建和遵循相关的政策和过程，以确保信息的保存，使信息得以真实地发布，或者能追溯到原始文件;e·使被保存的信息能被指定的用户群体所获取[6]。",
+    "context3": "![](images/861b24a3950a4e2494120fc0b4f24406eac2691599f6de748a79a0631277c563.jpg)  \n图1OAIS 功能模型",
+    "context4": "（源自于:Consultative Committee for Space Data Systems（CCSDS）（2002). Reference Model for an Open Archival Information System（OAIS).Retrieved on March 29,2OO4，from：http://public·csds·org/publications/archive/ $6 5 0 \\mathrm { { _ x } 0 \\mathrm { { _ b } 1 } }$ pdf)"
+  },
+  "3法律问题": {
+    "context1": "在建设预印本知识库的过程中，保存所涉及的法律问题经常都被忽略了,RoMEO项目的调查[中显示， $38 \\%$ 的回复者都想当然地认为作者有权利存储，并相信作者会同意对内容进行迁移，而没有以书面的方式进行确认。这样就会导致在涉及版权纠纷时,由于没有一定的书面证明，知识库将不得不承担相关的法律责任，也会给知识库的发展带来负面影响。所以，如果知识库不拥有所存储的内容的版权，就需要征求版权拥有者的同意，允许知识库对内容进行存储，并在必要时对数据进行迁移。",
+    "context2": "AHDS 建议预印本知识库与作者(或存储者)协商,要求他们在提交内容的同时，完成一份存储许可，并以协议的方式记录下来。存储许可一般包括四个主要内容：存储者合法存储预印本的权力；存储者对于已存储的内容所拥有的权利；允许知识库对已存储的内容进行维护;在哪些情况下知识库能删除预印本。其作用在于：明确了版权拥有者的身份;明确了知识库可以为保存和备份而对预印本进行移动、复制和改变的权利,在论文涉及侵权时，可减小知识库的法律责任;使作者(或存储者)充分了解自己所拥有的权利以及知识库提供的服务[8]。"
+  },
+  "4支持长期保存的机构知识库软件": {
+    "context1": "目前大多数机构知识库软件在设计时都没有将长期保存考虑在内，根据《OSI机构知识库软件指南》[9]，只有DSpace 和CDSware 在设计时对数字保存战略进行了定义。",
+    "context2": "DSpace[10]是 MIT 图书馆和 Hewlett一Packard Company的合作项目，其宗旨是获取、存储、索引、永久性保存与发布数字形式的大学科研智力成果，,使研究资料、个人信息更透明、更容易获得。该系统可以被免费使用、定制与扩展，面向研究机构、大学系所提供基于Web 的用户服务。主要功能包括：信息采集、信息发布、信息保存。DSpace 系统则是一个分布式数字资源保存系统，适用于大学等机构保存其机构知识资源。MIT、剑桥DSpace 小组和一些数字保存专家于2OO3 年7月30日讨论了DSpace 数字保存功能的进一步发展，就其发展方向给出了如下的建议：迁移工具、摄取过程、保存行动计划、与TOM(the Typed Object Model)的互操作性、对外部成熟工具的开发利用、保存战略中成本因素的分析[11]。",
+    "context3": "CDSware(现已改名为CDSInvenio)由CERN文献服务小组开发，是一个为创建和管理自治的数字图书馆服务器提供相应的框架和工具的集成化系统。它可用来处理非常大型的、拥有各种不同类型资源的知识库。CDSw are结构的主要特征在于它的模块化。每个模块体现数字图书馆系统的一个特定功能。每个模块与其它模块、数据库以及界面互相交互，其逻辑、运行和互操作性都是可伸展和可定制的。CDSware 的灵活性和高性能使得它成为管理中到大型知识库的综合解决方案[12]。",
+    "context4": "此外,2OO6 年初由 FCLA(Florida Centre for LibraryAutomation,佛罗里达图书馆自动化中心)开发的DAITSS",
+    "context5": "(Dark Archive in the Sunshine State)[13]也是一个支持长期保存的知识库软件。除了拥有摄入、数据管理和发布等知识库功能以外,还支持格式标准化、格式迁移等保存功能。它是一个隐含的存储系统，没有公共的界面，主要是作为数字图书馆软件或机构知识库的后台系统来使用。DAITSS支持来自不同部门或不同机构的多用户使用，对于所存储的资源及其相应的存储处理上具有很大的灵活性。"
+  },
+  "5保存模式": {
+    "context1": "在数字保存领域有一个共识，那就是合作是必要的。合作主要体现在项目分工、资源共建、信息共享和经费分担方面。对于预印本知识库就更是如此。目前的预印本知识库多数是基于机构的，而预印本的功能性保存需要一系列的技术，这些技术分布在许多不同的专业和部门，或者机构中可能根本没有具有数字保存方面的专门知识和经验的人员，因此需要与其它机构合作开展相关的保存活动。",
+    "context2": "5.1 AHDS 提出的分布式保存模式AHDS 承担的\"预印本保存的需求及可行性研究\"[4]中提出了一种分布式保存模式（如图2)。",
+    "context3": "![](images/5a2d6daef480de1654144c848f46904f2b80bb140f85688ba4e93dd7d7f4e6b9.jpg)  \n图2预印本知识库分布式保存模型",
+    "context4": "(源自于：Requirements and Feasibility Study of Preservation of $\\mathrm { E } ^ { - } \\mathrm { P r i n t s }$ · October，29，2003. $\\mathrm { h t t p }$ ://www. jisc·ac·uk/uploaded-documents/e-prints\"re\" port-final·pdf)",
+    "context5": "在上面的保存模型中，参与保存活动的有三方：预印本知识库委员会、基础设施服务方和专家支持服务方。他们将其专业知识结合起来，形成一个完整的预印本知识库系统。也就是说，分布式模型建议将预印本处理所涉及的问题分开，特别是要将收集和保留政策和提交的评估与预印本的技术管理和传递分开。MIT 图书馆在他们实施DSpace时也提出了类似的任务分离的提议[14]。参与保存活动的三方有可能在同一个机构，也可能分布在三个机构,因此,工作实践的相容性、有效的交流及管理和服务在技术上的互操作性，都会给预印本知识库的分布式管理带来实际操作上的局限，但还是有可能找到相应的解决方案。",
+    "context6": "该模式中最重要的组成部分是预印本知识库委员会，由知识库用户、机构代表、学科专业人士等代表所组成的。在OAIS模型中，知识库委员会将负责部分的管理任务，特别是在拟定知识库收集政策和与作者协商“论文提交协议”。eScholarship[15]中的预印本服务采用的就是这种模式。",
+    "context7": "基础设施服务，也就是知识库运行所需要的各种功能，如摄取、数据管理、文档存储和存取功能等，也有许多方法可以将其分开。如一个机构内，计算机服务将会承担文档存储的责任，但是摄取、数据管理和存取可能由图书馆服务所承担。而多个机构中， $\\mathrm { R e P E c } ^ { [ 1 6 ] }$ 合作就是一个很好的例子,它以RePEc 数据库的形式进行集中的数据管理，而摄取、文档存储和存取则分散在各个参与机构中。",
+    "context8": "认识到目前数字保存知识和服务设施的不足，该模式认为，特别的保存任务应外包给那些专业服务机构。基础设施服务在确保预印本的安全性和保存上负有主要的责任，因此需要深入地了解保存问题，并决定什么时候需要利用专业服务机构。利用专业服务机构提供的服务有三种方法;a·订制那些能提供预印本收集管理的相关信息的专家服务，如技术观察和文件格式登记服务等;b·将特定的保存活动外包给专家服务，如文件的批量迁移;c.就保存计划活动寻求专家的意见和支持。",
+    "context9": "5.2分布式保存模式的实施项目一SHERPADP[17] 由AHDS(Artsand HumanitiesData Service)牵头，诺丁汉大学和SHERPA的参加者共同承担的SHERPADP中实施的是分布式的、第三方的保存服务，它旨在为以OAIS参考模型为框架的SHERPA项目创造一个合作共享的保存环境，该项目将SHERPA知识库与AHDS 保存仓储集成起来，将之前的合作扩展到整个保存服务，形成一种分布式的、第三方的保存服务(见图3)。",
+    "context10": "![](images/8ec8329eaa913f1de368a3489540c73062634e116e745d35781fd85f59a84730.jpg)  \nInstitutional Repository Layer(SHERPA Repositories)   \n图3SHERPADP 的保存服务模型",
+    "context11": "（源自于：SHERPA DP:Creating A Persistent Preservation Environment For Institutional Repositories·http://www·sherpadp·org·uk/documents/Sherpa一DP -final· pdf)",
+    "context12": "这种服务可以避免每个知识库增加长期保存模块的重复性，节省了费用，也解决了各机构在技术储备与专业知识人力资源方面的不足。保存服务层(Preservation ServiceLayer)可能提供的功能包括：支持元数据和数据收割;格式转换工具;文件完整性检查工具;保存元数据的抽取工具;过时文件格式检测;提醒和迁移服务；一种或多种将数据和元数据转回机构知识库的方法。该项目将研究这一模式的应用实例，并建立经济的模式，确保知识库的长期可持续性。项目最后还将形成一个数字仓储保存用户指南，在SHERPA和其它相关计划的研究基础上，推荐预印本知识库的管理、保存和呈现中可以采用的标准、最佳实践、原型和过程。"
+  },
+  "6结语": {
+    "context1": "综上所述，目前预印本知识库的长期保存研究，在保存的必要性、保存框架等方面基本已经取得了一些成果，在如何处理相应的法律问题上也已经提出了初步的解决办法，在保存模式方面已经启动了若干试验项目，但离取得实际的成果仍有一段距离。"
+  },
+  "参考文献": {
+    "context1": "1 Pinfield S,Gardner M，MacColl J.Seting $\\mathrm { U p }$ an Institutional $\\mathrm { E } ^ { - } \\mathrm { P r i n t }$ Archive:April 11，2002. $\\mathbf { h t t p } { : } / / \\mathbf { \\mu _ { W W W } }$ ariadne- ac· $\\mathrm { \\ u k / i s s u e 3 1 / e p r i n t } \\mathrm { ~ - ~ }$ archives/intro·html.,2006-12—11   \n2LIS一ELIB Archives，Preservation vs：Preservation，JISCmail．March，2006. http://www-jscmail·.ac·uk/cgi-bin/webadmin? $\\mathrm { A } 1 = \\mathrm { i n d } 0 6 0 3 \\mathrm { \\& } \\mathrm { L } = \\mathrm { l i s } -$ elib.,2006-12—11   \n3Pinfield S，James H.The Digital Preservation of ${ \\mathrm { E } } ^ { - } { \\mathrm { P r i n t s } }$ $\\mathrm { D } ^ { - }$ Lib Magazine, 2003；9（9).htp://www·dlib:org/dlib/septemberO3/pinfield/O9pinfield. html.,2006—12—11   \n4Requirements and Feasibility Study of Preservation of $\\mathrm { E ^ { - } }$ Prints：October，29, 2003.http://www -jisc-ac·uk/uploaded-documents/e-prints-report-final. pdf.,2006—12—11   \n5Bates M，Loddington S，Manuel S.Rights and Rewards Project Academic Survey：Final Report·January，2O06.http://rightsandrewards:lboro·ac·uk/ files/resourcesmodule/ $\\circledast$ random43cbae8b0d0ad/1137423150-SurveyReport pdf.,2006-12-11   \n6Arts& Humanities Data Service.Report on Preservation·Standards·http:// www $\\cdot$ sherpa·ac-uk/documents/D4—5-Report-on-Preservation-Standards· pdf,2006-12—11   \n7Project RoMEO，RoMEO Studies Series·htp://www· lboro·ac·uk/departments/ls/disresearch/romeo/,2006-12—11   \n8Arts& Humanities Data Service.Report on a Deposit Licence for E一prints· June 21，2O04.http://www·sherpa·ac·uk/documents/D4一2 Report on a deposit licence for $\\mathrm { E ^ { - } p r i n t s \\cdot p d f } \\cdot , 2 0 0 6 { - } 1 2 { - } 1 1$   \n9OpenSociety InstituteAGude to InstitutionalRepository Software $\\mathbf { v } 3 . 0$ August, $2 0 0 4 . \\mathrm { h t t p } _ { ! } / / \\mathrm { w } \\mathrm { w } \\mathrm { w } \\cdot \\mathrm { s o r o s } \\cdot \\mathrm { o r g } / \\mathrm { o p e n a c c e s s } / \\mathrm { p d f } / \\mathrm { O S I }$ Guide to IR Software v3.pdf.,2006-12—11   \n10MIT Libraries &Hewlett-Packard Company·DSpace· $\\mathrm { H t t p } { : } / / \\mathrm { w } \\mathrm { w } \\mathrm { w }$ dspace·org., 2006-12—11   \n11 WheatleyP．A Way Forward for Developments in the Digital Preservation Functions of DSpace：Options，Issues and Recommendations·July 25,2003. http://libraries·mit·edu/dspace-fed/news/articles/DpAndDSpace·pdf., 2006—12—11   \n12Pepe A，Baron T，Gracco M· CERN Document Server Software:the Integrated Digital Library·http://cdsware·cern·ch/invenio/doc/elpub2Oo5.pdf., 2006-12-11   \n13Florida Center for Library Automation·DAITSS Overview·January 2006. http://www ·fcla·edu/digitalArchive/pdfs/DAITSS·pdf.,2O06-12—11   \n14Barton MR，Walker JH· MIT Libraries’DSpace Business Plan Project Final Report to the Andrew W．Mellon Foundation·July，2OO2．http://www. dspace org/implement/mellon·pdf.,20o6-12—11   \n15eScholarship：http://www·cdlib:org/programs/escholarship.html.,2006 12-11   \n16The RePEc Project· http://repec·org/docs/RePEcIntro·html.,2006—12- 11   \n17 SHERPA DP.http://www $\\cdot$ sherpadp-org· uk/",
+    "context2": "(责编：钧加勃)"
+  }
+}

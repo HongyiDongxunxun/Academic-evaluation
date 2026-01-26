@@ -1,0 +1,118 @@
+{
+  "original_filename": "full_3887.md",
+  "图书情报学领域的情感问题研究综述": "",
+  "■张薷王凤暄": {
+    "context1": "滴要 以SSCI、CNKI收录的图书情报学领域核心期刊刊登的关于情感主题的研究论文为对象进行统计分析,从用户视角、技术视角以及应用视角3个角度梳理其研究内容;在此基础上，结合目前研究概况，提出进一步研究的方向。",
+    "context2": "送键词 图书情报学情感图书馆服务信息行为",
+    "context3": "份类号G203",
+    "context4": "DOI: 10. 13266/j. ssn. 0252 -3116. 2014. 09. 016"
+  },
+  "1引言": {
+    "context1": "情感是人们对客观事物所持的某种态度或体验，具有复杂性、模糊性、不确定性、普遍性和基础性等特点。近年来,有关人与信息、人与技术交互中的用户情绪、情感问题逐渐引起图书情报领域研究人员的关注。1991年,罗格斯大学的C.C.Kuhlthau提出了信息查寻模型,其中就纳入了情绪维度,指出在用户检索过程的各个阶段都应对思想、情感和行动进行关注，并突出强调心理情感的作用。2007年,夏威夷大学的D.Nahl专门提出了情感负荷理论，对信息行为中的情感问题进行研究。不仅如此,情感也常常被作为评价查询结果相关与否的标准之一。这些研究为更深刻地揭示用户与信息、技术交互的行为与心理特点奠定了重要的基础,并且为人机交互界面的改进、信息组织与检索方式的优化、信息系统用户接纳与体验的改善提供了参考和借鉴。本文将通过分析图书情报领域核心期刊近7年所刊登的以情感为主题的研究论文，分析目前该领域的研究对象、研究内容以及研究方向。"
+  },
+  "2文献调研概述": {
+    "context1": "为了全面系统地收集图书情报领域关于情感问题探讨的文献,本研究除了以情绪(emotion/mood）、情感（feeling/affect/affective）、主观体验(subjective experi-ence)和感觉(feeling)作为关键词,同时还以能够侧面反映用户喜好的“偏好（prefernce）”以及“认知心理（cognitive psychology）”作为检索关键词之补充,在H.Julien等人关于图书情报领域的情感问题研究中,发现了后面两类关键词。",
+    "context2": "在国内文献收集上，主要以中国期刊全文数据库(CNKI)为数据源,使用关键词、主题词结合的检索方法，构造如下检索式：（TS $=$ （‘情感’ $^ +$ （‘认知’\\*‘心理’） $^ +$ ‘主观体验'））or $\\begin{array} { r } { \\left( \\mathrm { { ~ K Y } = } \\right| } \\end{array}$ ‘偏好’ $^ +$ ‘情绪 $^ +$ '感觉'））and $\\mathrm { J N } = \\left( \\begin{array} { l l } { \\mathrm { ~  ~ \\sigma ~ } } & { \\mathrm { ~  ~ \\cdot ~ } } \\\\ { \\mathrm { ~  ~ \\sigma ~ } } & { \\mathrm { ~  ~ \\sigma ~ } } \\end{array} \\right)$ ,X为2013年《中文社会科学引文索引》（CSSCI）中“图书馆、情报、文献学\"学科所涵盖的20种期刊名称，时间跨度为2007-2014年，共检索到170 篇文献。",
+    "context3": "在国外文献收集上,主要以社会科学引文索引（SSCI)数据库为数据源,通过主题检索,以2012年《期刊引证报告》（JCR)社会科学版图书情报学专业目录下收录的85种学术期刊为来源期刊,构造如下检索式： $\\mathrm { T S } = \\langle$ preference OR mood OR feeling OR\"cognitivepsychology\" OR affective OR\" subjective experience \")and $\\mathrm { J N } = \\left( \\begin{array} { l l } { \\mathrm { ~  ~ \\sigma ~ } } & { \\mathrm { ~  ~ J N ~ } } \\end{array} \\right)$ ， $\\mathrm { X }$ 为85种学术期刊名称,时间跨度为2007 －2014年，共检索到415 篇文献。",
+    "context4": "国内外图书情报领域关于情感问题研究的论文数量分布情况如图1所示：",
+    "context5": "![](images/377378ef02373cdb746bc24a5efdfc989e17d24a708b3155071ece921cf592e9.jpg)  \n图1国内外图书情报领域情感研究论文数量分布",
+    "context6": "通过分析国内外图书情报领域关于情感问题研究的论文情况,发现相关学者对该领域的研究已经给予了高度重视,并在不断地探索、创新与应用，体现在两"
+  },
+  "个方面：": {
+    "context1": "（1)国内外整体研究的数量和规模。国内外研究论文数量呈现相同的特点,即在2007年、2008年期间，相关研究论文的数量没有太大变化，但是从2008年开始，相关论文数量开始增多，这与以情感为主题的会议的举办和项目的审批有着一定的关系，如2006年8月,JASIST( Journal of American Society for InformationScience&Technology)专门举办过一次主题为“信息查找与利用过程中的情感和情绪研究”的小型年度研讨会;国内从2007年起，有关情感计算的研究开始得到国家基金项目的支持,如基于读者满意的图书馆与读书心理契约的研究、用户信息焦虑量表制定及其在信息服务中的应用研究等项目，这在一定程度上带动了一系列有关情感问题的研究，因此相关研究的数量逐步增加,研究论文数量于2013年达到近7年的最高峰，反映出该领域的研究热度不减，且受到更多研究者的关注。从国内外的对比来看,其变化趋势趋同,国内增长更快一些。",
+    "context2": "(2)具体的研究问题。主要包括3类研究: $\\textcircled{1}$ 基于用户视角，探讨信息行为中的情感因素及其对认知行为的影响; $\\textcircled{2}$ 基于技术视角，探讨如何识别、提取信息的情感特征,用于预测用户的情感倾向和反应,满足用户基于情感特征进行信息检索与选择的需要; $\\textcircled{3}$ 关注情感问题研究在现实中的应用，即基于应用视角，探讨如何在实际的图书馆场馆设计、系统及网站设计方面考虑情感因素,如何应用情感分析进行结果的预测以及信息与服务的提供。"
+  },
+  "3 用户视角下的情感问题研究": {
+    "context1": "情感对于人类认知行为的影响早已受到研究者的关注。情感会影响人们的知觉、认知、社会判断及各种行为,也是动机产生的重要原因。在信息行为领域，研究者对情感问题的研究,更多侧重于发现信息查寻过程中用户情感状态及其与认知行为的关系、情感激发的影响因素等问题。从图情研究整体领域来看，现有研究除了关注信息查寻用户的情感问题，也同时关注信息咨询与服务从业人员的情感状态问题。"
+  },
+  "3.1信息行为研究中的情感问题研究": {
+    "context1": "3.1.1信息用户的情感状态及其与认知行为的关系在心理学中将情感分为基本情绪和复杂情绪，基本情绪包括基本的愉快或不愉快的广泛的反应，心理学家主要关注的是该类情绪中带有评价性质的情感（包括喜欢、吸引、偏向等,是对刺激的简单肯定或否定反应)和心境(指那些影响范围较宽泛，强度较弱而持久性却较强的情感反应)；复杂情绪指的是那些持续时间较短,强度较大，有着明显的起因，指向具体的认知内容的情感反应，比如愤怒、愧疚、恐惧等。",
+    "context2": "信息用户情感状态通常分为积极与消极两类情绪,不同的情感认知对信息查找策略、任务和过程、期待和满意度都会产生不同的影响，积极乐观的情绪能够鼓励信息用户克服信息查寻中的挫折感，消极悲观的情绪容易让用户中止信息查寻行为。",
+    "context3": "在关于信息用户积极情绪的影响研究中,沈旺、邹永利等人发现用户在心情愉悦的情况下更有可能获得更好的检索结果，同时会觉得搜索引擎的使用越简单，越能够较好地完成检索任务;而针对信息用户消极情绪的研究中，图书馆焦虑、信息焦虑问题的研究较为成熟‘图书馆焦虑\"是用户情感表达的一种状态，是读者在使用图书馆时由认知、情感、生理和行为衍生出来的不舒服的情绪或情感意向，包括沉思、紧张、害怕、不确定和无助感、弄巧成拙的消极思想、精神崩溃等。“信息焦虑”是类似于“图书馆焦虑”的一种情感表达方式，是信息用户在信息获取和利用过程中由于自身认知类型、信息质量、个人信息素养及检索工具等原因而引发的一系列复杂的情绪状态，诸如紧张、焦急、忧虑、担心、恐惧、慌张、不安等心理反应。在这方面,Q.G．Jiao 等人对教育学专业的93个博士生的论文的引用错误率和参考文献列表的质量进行了研究,发现减少图书馆焦虑对于构建高质量的参考文献列表有重要的影响作用。",
+    "context4": "3.1.2信息用户情感的影响因素为何信息用户会产生不同的情感状态？这一过程受到哪些因素的影响？现有研究大致提出了以下诱发用户情感的因素：",
+    "context5": "（1）用户的主观因素。比如外向、胆汁质的人容易情绪表露于外,且持续时间短;内向、抑郁质的人情绪不易表露于外,但是情绪波动较大。",
+    "context6": "具体来说,这些主观因素包括性别、偏好、教育水平、文化背景等。N.Aharonyl通过对以色列图书馆学和情报学专业学生研究,发现学生性别、个性特征、教育水平(本科、硕士、博士)和年龄都影响了他们使用Facebook的模式以及对Facebook的情感认知；J.Yoon[发现面对相同图像检索任务,不同的文化背景导致用户会选择不同的图像来表达同样的情感;D.Cyr等人发现用户更加偏好包含人的面部特征的图片设计,这样的设计更能引起用户的情感共鸣，获得用户的认同感。"
+  },
+  "张薷，王凤暄.图书情报学领域的情感问题研究综述": {
+    "context1": "K.Knautz和W.G.Stock让被试利用受控词汇表中的9种基本情绪(可以调节情绪的强度)对20个视频内容进行标注，结果发现在对视频本身的情绪和视频唤起的参与者的情绪进行区分的基础上，用户标注的一致性非常高，而且特定视频情感的标签分布很稳定，这在一定程度上说明了用户标注的准确度较高。",
+    "context2": "基于图像内容的情感自动标注研究思路，是基于语义内容的图像标注和检索研究的分支领域，其目的是使计算机能够自动分析图像所包含的情感语义，并为其分配最合理的语义标签。该标注的关键在于识别模型和机器学习算法的应用与改进，目前国外图书情报研究领域的学者已提出了一些模型和方法，用以进行图像情感特征的自动标引。如Lin Kuancheng等针对脸部特征提出了一个学习情感识别模型，该模型包括3个阶段：情感特征提取和生成、特征子集选择、情感识别。情感特征提取是指提取脸部特征并转换为一组新的经过向量计算和定义的特征;特征子集选择是利用免疫记忆克隆算法来优化特征选择;情感识别是利用分类器来建立面部表情和学习情感之间的联系。基于基本脸部表情识别数据库JAPPE的实验结果表明该脸部表情识别模型有很高的分类能力。为了使图像的情感信息容易被获得,J.Yoon提出了一种新的方法，该方法利用图像检索者的情感反应来实现，图像检索者的情感反应可以利用语义差异（semanticdifferential,SD)和自我评价模型(self-assessment mani-kin,SAM)获得。"
+  },
+  "3.2信息咨询与服务从业人员的情感问题研究": {
+    "context1": "图情领域的研究中，不仅探讨了普通用户与信息交互中的情感问题,同时也研究了信息咨询与服务从业人员的情感问题,主要包括图书馆员的职业倦怠、工作满意度等。改善职业倦怠、提升馆员服务的精神面貌,对于改进服务质量具有直接的影响，并且，充分了解馆员的个人能力及业务优势,合理安排工作,也有助于提高馆员的工作满意度和自信心。",
+    "context2": "研究表明，影响馆员情绪状态的因素主要来自个体和环境两方面。个体因素从馆员角度进行研究，主要包括馆员自身归属感、认同感;环境因素则从图书馆角度进行研究，包括馆员工作内容的分配、工作环境等方面。如宋颖等指出,图书馆员自身的工作价值感以及工作满意度和馆员的情感承诺呈正相关，工作价值感越高，工作满意度越高，情感承诺也就越高。服务对象对馆员工作的认可和支持，也是影响馆员工作情绪的重要因素,C.S.Ritchie通过研究发现,如果图书馆员认为教师和上级管理者支持图书馆，他们便觉得自己的工作是重要的、专业的，就会对自己的工作满意，产生较好的心理反应;M.L.Matteson等探索了情绪劳动的组成部分：组织对情绪表达规则的要求包括表达积极情绪和隐藏消极情绪，个体调节情感的策略，包括表面行为(外部表情)和深度行为(个人努力改变对情形的认知，要么转移注意力要么重新评价，从而唤起应有的情形)。他还通过实验验证了情绪劳动与员工工作满意度和倦怠之间的关系，结果发现：馆员如果只是应付管理者的要求(表面行为），在一定程度上会降低工作满意度；然而馆员对管理者理念的认同(深度行为)与产生工作倦怠没有很强的关联性，可见深度行为相对于表面行为是一种更积极的情感策略。因此，当图书馆管理者意识到员工采用表面行为时，应采取一定的策略将其转换为员工的深度行为，提高员工的情感满意度"
+  },
+  "4技术视角下的情感问题研究": {
+    "context1": "基于技术视角探讨情感问题，多是关注信息情感特征的分析、提取、标引及检索的方法和技术。下面分文本信息及非文本信息两类介绍相关研究进展。"
+  },
+  "4.1文本信息的情感倾向性研究": {
+    "context1": "文本情感分析是指对带有情感色彩的主观性文本信息进行分析、挖掘、处理、归纳和分析,从而获取潜在的、有价值的隐含知识的过程。技术视角下的文本情感分析主要研究文本的情感倾向性方面,包括技术方法以及处理模型。",
+    "context2": "总体来说，文本情感倾向性分析根据粒度可以分为词语情感倾向性分析、句子情感倾向性分析和篇章情感倾向性分析3个研究层次。目前相关学者提出的基于文本的情感倾向性研究算法主要包括：融合语义关联挖掘的文本情感分析算法、基于句法语义的情感倾向性评测算法、机器学习的方法、极性传递算法、基于神经网络的情感计算方法、情感设置和词汇扩展等方法;利用的语言处理模型主要包括基本扩展句法树、基于旋进原则和AdaBoost集成技术的回归SVM情感分类模型 。",
+    "context3": "也有一些学者对于现有的一些算法进行了对比分析，从而在分析不同研究主题和研究内容时采取相应的文本处理算法,提高文本情感倾向性分析的准确性。夏火松等人比较研究了中文情感分类挖掘预处理技术中的不同算法组合的情感分类效果，通过实验发现信息增益IG和TF－IDF的组合分类效果最好,文本证据权WET和词频型特征权重TF的组合效果最差。M.Thelwall和K.Buckley指出目前通用的社交网络用户情感分析算法对于特定主题的文本来说可能不是最优的选择,基于此提出两种方法:情感设置和词汇扩展，以此来提高社交网络特定主题情感词汇强度的准确性。M.Thelwall等人还对 SentiStrength(对短文本中的积极和消极情感强度进行预测的软件)进行了改进，来研究社交网站的用户观点的情感强度，通过实验发现该方法对于积极情绪和消极情绪的预测准确率都在 $60 \\%$ 以上,优于基线方法和机器学习的方法,而且可以适用于各种不同社交网站的文本分析，但是在分析与新闻观点相关的讨论中,机器学习的方法对于用户积极情绪的分析效果更好。"
+  },
+  "4.2非文本信息的情感特征标注研究": {
+    "context1": "非文本信息是由视觉、听觉刺激引发的一类情感信息，其情感特征标注的表现形式一般体现为从用户角度对非文本(图像、音频、视频)进行的主观性的描述,描述的方式通常为一组形容词或副词(欢快的、快速地）,作为对客体的修饰和补充[ 。",
+    "context2": "目前,图书情报领域关于技术视角下的非文本信息的情感研究的重点在于非文本信息的情感特征标注,其中研究图像情感特征标注的论文较多。现阶段国内图书情报领域学者对该方面的研究较少，因此目前该领域研究以国外为主。",
+    "context3": "国外该领域研究对于非文本情感特征的标注主要有两种方法:基于人类认知的手工标引及社会标注方法、基于非文本信息内容的自动标注方法。其中,自动标注方法目前主要应用于图像情感特征标注方面。",
+    "context4": "非文本情感的手工标引以及社会标注都是基于人类认知的非文本标注方法，它建立在对客观事物的主观认知之上，利用人的智力为非文本情感分配高层次的描述符号。目前图书情报领域的学者已经开始探索利用该方法进行图像、音视频情感特征的标注研究，如J.Yoon 4d、S.Schmidt和W.G.Stock4让被试利用6种基本情绪（love,joy，surprise，anger,sadness,fear）对Flickr上的图像进行标注，以此分析图像的情感属性;"
+  },
+  "5 情感问题研究的主要应用": {
+    "context1": "在图书情报领域中，对用户情感研究的理论发现主要应用在3个层次的实践中："
+  },
+  "5.1改善信息系统界面及功能": {
+    "context1": "主要注重对用户积极情感的唤醒及持久投入。如儿童图书馆的系统界面，可寓教于乐，设计丰富多彩的图形用户接口，类似于电脑游戏，但是没有动画和声音；在名字方面,可以意为“书的宝藏”,用来激发孩子的兴趣;Drexel大学的在线公共图书馆针对不同阶段的儿童,根据其特点设计了不同的系统功能与界面；在儿童图书馆类目设计中，“国际儿童数字图书馆”参考了儿童自己的意见，将故事的情感特征作为分类的目录;在内容设计上，美国图书馆协会推出了“最适合儿童使用的网站”,集合了大量的音频、视频等非文本内容，并对这些内容按专题进行了详细的分类，包括:动物、艺术、历史传记、文学语言、数学计算机、教辅资料、自然科学、社会科学。这些基于儿童情感特点的设计有助于增强儿童的兴趣，从而激发起儿童利用图书馆的兴趣。"
+  },
+  "5.2服务方式的改进及服务环境的改善": {
+    "context1": "一方面,加强对馆员的培训,使其及时洞察读者的焦虑情绪，在面对面的服务过程给予相应的帮助，并注意服务体态等；另一方面，在设计实体场馆时，注意采用柔和的色彩和灯光、适宜的温度、宽敞的空间等，降低用户的不舒适感。",
+    "context2": "对于基于儿童特点提供情感服务的图书馆而言，馆员的素质应该包括敏锐的情感洞察能力，同时，馆员要用游戏来代替严肃的课堂,让孩子们在游戏中学习文化知识;馆员应该能够营造和谐图书馆的环境氛围，如组织各种各样的阅读活动，包括故事会、朗诵会等。就图书馆空间设计而言,Stephen中央图书馆在馆舍外专内设立了儿童交流空间,Poter Henderson图书馆在馆舍内划分了大量的格子,每个格子可以容纳6名孩子,通过这种方式促进儿童之间的交流。就体验活动的举办而言，廖倩等人认为，儿童图书馆开展幼儿体验活动应当充分结合幼儿的心理特征和认知规律,在图书馆、幼儿园、家长三方的共同参与下,对幼儿进行图书馆知识的宣传和阅读指导，帮助幼儿从感性上认识和了解图书馆，激发其从小阅读的兴趣。"
+  },
+  "5.3预测用户情感倾向及态度": {
+    "context1": "主要应用于政治和商业领域。例如,在通过网络舆论分析用户对于政治观点的情感倾向与态度方面，A.Tumasjan等人[4在德国选举总统时，通过分析社交媒体Twitter上选民的情感特征(如积极、消极)数据，成功预测了获胜的总统人选;P.Sobkowicz等人提出通过基于社会化媒体用户观点的挖掘预测政治观点;S.Stieglitz等研究了Twitter中情感观点与分享行为之间的关系，通过对Twitter中关于政治观点交流的数据的分析，发现Twitter中含有情感的观点比中性的观点被转发的概率更高。在对商业领域的产品评论的倾向挖掘方面,M.Thewall等b通过分析YouTube上关于视频的用户评论，发现用户评论的数量与负面评论的数量呈正相关，因此公司在设计与品牌相关的广告信息时，应该基于上述引起用户讨论的方式设计广告内容,从而激发用户情感。LiFan等b也提出基于中国社交媒体平台用户的情感分析可以应用在商业和市场营销方面，用以把握消费者的心理需求和对产品的意见。M.S.Pera等人基于内容的相似度和流行度了解用户的偏好并向其推荐电影;A.Majid等人通"
+  },
+  "过用户在Flickr上分享的照片中包含的地理信息了解其偏好，以此为依据进行旅游地点的推荐。": "",
+  "6结语": {
+    "context1": "情感问题的研究已经成为图书情报学者关注的一个新的领域，本文通过对情感问题的系统梳理与总结，发现：目前图书情报领域关于情感问题的研究主要从用户视角、技术视角以及应用视角展开,用户视角的研究在分析情感与认知行为间关系的基础上，主要关注不同群体用户的情感影响因素以及情感测量;技术视角的研究主要侧重文本、图像、音视频信息的情感特征标注、提取以及倾向性分析;应用视角的研究主要分析情感在信息系统设计、信息服务人员及其服务环境设计的监督和指导、政治和商业领域的用户倾向性预测3个方面的应用。",
+    "context2": "通过分析与总结,笔者认为，关于情感问题的研究与应用，还需要从以下几个角度进一步深入：",
+    "context3": "(1)就用户视角而言，目前主要针对学生、馆员两个群体进行研究,而对于其他用户群体如农民工、企业人员的情感问题没有给予重视;同时用户情感的测量方法主要是利用量表,但是用户情感的不可表达性导致这种测量方式存在一定的不足，值得进一步思考。",
+    "context4": "(2)就技术视角而言，目前该领域主要研究文本情感，而对非文本信息的情感特征提取以及标引的研究较少。总的来说，该视角的研究有一定的欠缺,或者说研究的重点不在于技术,这是由图情领域的期刊性质所决定的，该方面的研究更多地是发表在一些相关会议文献、计算机科学领域的期刊中,因此本文对此方面的分析研究较少。",
+    "context5": "(3)就应用视角而言，基于情感分析的儿童图书馆的系统界面设计以及功能的完善在国外已经引起了高度重视和相关研究，而国内的研究相对较缺乏，需要学者们继续探讨与分析,尤其是实证研究。此外,情感问题的研究应用还应涉及到对用户情感特点的研究和提取，用以实现对信息情感特征的自动标引，支持以情感特征为线索的检索，这对于更好地满足用户的检索需求也提供了一定的思路和愿景。",
+    "context6": "情感问题在图书情报领域已经引起了一定关注，得到了研究与应用，这对于我们从用户情感角度出发，分析和理解其认知行为和信息需求具有非常重要的指导意义，可以帮助相关部门完善自身的服务方式，更好地实现以用户为中心的服务理念。同时也要认识到，情感理论与图书情报领域的结合还需要进一步完善，"
+  },
+  "其研究任重而道远。": "",
+  "参考文献：": {
+    "context1": "[1]Calvo R A，D'Mello S.Affective detection:An interdisciplinary review of models,methods,and their applications $\\mathbb { I }$ ．IEEE Transactions on Affective Computing,2010, $1 { \\left( \\ 1 \\right) } : 1 8 - 3 6 .$   \n[2]朱婕,靖继鹏，窦平安．国外信息行为模型分析与评价[．图 书情报工作,2005,49(4):48 -51.   \n[3] Nahl D.Learning the Internet and the structure of information behavior[]．Journal of the American Society for Information Science,1998，49（11)，1017-1023.   \n[4]Julien H,Mckechnie L EF,Hart S.Affective issues in library and information science systems work:A content analysis [] .Library &Information Science Research,2005,27(4):453-466.   \n[5]赵凯．情感体验对社会认知的影响[D].长春:吉林大 学,2005.   \n[6]沈旺,国佳,李贺．信息检索过程中用户主观因素作用研究 ．图书情报工作,2013,57(8):130-134,140.   \n[7]邹永利,王春强．影响网络信息检索效率的用户因素[．情 报理论与实践，2008(3)：374-376.   \n[8]Jiao Q G,Onwuegbuzie AJ,Waytowich VL. The relationship between citation errors and library anxiety:An empirical study of doctoral students in education [．Information Processing & Management，2008，44(2):948-956."
+  },
+  "[9]汪碧云．基于气质类型的情感计算在e-Learming中的应用[].上海:上海师范大学,2013.": {
+    "context1": "[io] Aharony N.Facebook use by Libraryand Information Science students [．Aslib Proceedings,2013,65(1)：19 -39.   \n[11]Yoon J.Searching for an image conveying connotative meanings:An exploratory cross- cultural study [].Library & Information Science Research,2008,30(4) :312 -318.   \n[2]Cyr D,Head M,Larios H,et al.Exploring human image in Website design:A multi-method approach [.MIS quarterly,20o9,33(3): 539 -566."
+  },
+  "[13]李景云.试论体态语在高校图书馆服务中的应用[.图书馆工作与研究,2009(2):100－102.": {
+    "context1": "[4]Bonnet JL，McAlexander B.First impressions and the reference encounter: The influence of afect and clothing on librarian approachability[]．Journal of Academic Librarianship，2O13，39 (4):335 -346.   \n[5]Karim N HA，Ansari NA. Investigating the effects of students' major and bibliographic instruction programme on library anxiety sub-scale，barriers with staff []．Malaysian Journal of Library & Information Science,2013,18(3):39 -47.   \n[16]Bell JC. Student affect regarding library-based and web-based research before and after an information literacy course []．Journal of Librarianship and Information Science，2011，43（2)：120 -130."
+  },
+  "[7]王春艳,卢章平,李明珠．基于传统心理学和现代认知神经科学的产品情感获取方法研究[．艺术与设计（理论),2012": {
+    "context1": "(4):131-133.   \n[8]李森,孙敏,许娜,等．网页浏览任务的用户情感测量模型研究 [．工业工程与管理,2013(1):106-110,128.   \n[9]宋志强,薛玉,赵微.图书馆焦虑量表的构建与实证分析[]．图 书情报工作,2011,55(15):79-83.   \n[0l Swigon M. Library anxiety among Polish students: Development and validation of the Polish library anxiety scale $\\mathbb { I }$ .Library& Information Science Research,2011,33(2):144-150.   \n[1]Anwar M A,Al-Qallaf C L,Al- Kandari N M,et al. AQAK:A library anxiety scale for undergraduate students []．Journal of Librarianship and Information Science，2012，44(1):36-46.   \n[2] Abusin K A,Zainab AN, Karim N HA. Sudanese library anxiety constructs [J]．Information Development，2011，27（3)：161 -175."
+  },
+  "[3]曹锦丹,王畅,刘鑫,等.用户信息焦虑影响因素及其干预模式研究[.情报科学,2010(10):1461－1463.": {
+    "context1": "[4]程文英,曹锦丹,卢时雨.信息焦虑量表的制定[].情报科学， 2014,32(1):64-66.   \n[5]Erfanmanesh M,Abrizah A,Karim N HA. Development and validation of the information seeking anxiety scale $\\mathbb { I }$ .Malaysian Journal of Library & Information Science,2012,17(1)：21-39.   \n6 Chen C M,Wang Huiping.Using emotion recognition technology to assess the effects of different multimedia materials on learning emotion and performance [l.Library & Information Science Research, 2011,33(3) :244 -255.   \n[7]Lin Kuancheng,Huang T C,Hung JC,et al.Facial emotion recognition towards affective computing-based learning [].Library Hi Tech,2013,31(2):294-307.   \n[8]Jacobsen TL.Showing our strengths [ .Library Journal,2010,135 (15):28 -31."
+  },
+  "[9]宋颖，徐建华．当今图书馆员工作满意度对组织承诺影响的研究[．图书情报知识， $2 0 0 7 ( 5 ) \\colon 8 - 1 2$": {
+    "context1": "B0]Ritchie C S.The self-perceived status of school librarians [.Journal of Librarianship and Information Science,2011,43(2)：88 -105.   \nB1]Matteson ML,Miller S S.A study of emotional labor in librarianship[l.Library& Information Science Research,2013,35(1) :54 $^ { - 6 2 }$   \n[B2]明均仁.融合语义关联挖掘的文本情感分析算法研究[.图书 情报工作,2012,56(15):99-103.   \n[3]段建勇，谢宇超,张梅.基于句法语义的网络舆论情感倾向性评 价技术研究.情报杂志 $, 2 0 1 2 , 3 1 { \\left( \\ 1 \\right) } : 1 4 7 - 1 4 9 .$   \nB4]唐晓波,肖璐.基于情感分析的评论挖掘模型研究[.情报理 论与实践,2013,36(7):100-105.   \nB5] Chen Longsheng,Liu C H,Chiu H J.A neural network based approach for sentiment classification in the blogosphere $\\mathbb { I }$ . Journal of Informetrics, $2 0 1 1 , 5 \\left( 2 \\right) : 3 1 3 - 3 2 2$   \nB6] Thelwall M,Buckley K,Paltoglou G.TI sentiment strength detection for the social Web [ .Journal of the American Society for Information Science and Technology,2012,63(1):163 -173.   \nβ7]唐晓波,严承希.基于旋进原则和支持向量机的文本情感分析 研究[.情报理论与实践 $, 2 0 1 3 , 6 ( 1 ) : 9 8 \\mathrm { ~ - ~ } 1 0 3 .$   \nB8] 夏火松,刘建,朱慧毅．中文情感分类挖掘预处理关键技术比 较研究[.情报杂志,2011(9):160-163.   \nB] 黄崑,骆方,游祎：图像情感特征及其检索应用[]，情报科 学,2010(4) :602 -606.   \n[40] Yoon J.A comparative study of methods to explore searchers’affective perceptions of images [].Information Research,2011,16 (2).   \n1]Schmidt S,Stock WG.Coletive indexing of emotions in iages: A study in emotional information retrieval $\\mathbb { I }$ . Journal of the American Society for Information Science and Technology,2Oo9,60(5): 863 -876.   \n[42]Knautz K,Stock W G.Colletive indexing of emotions in videos [.Journal of Documentation,2011,67(6):975-994.   \n[43]Yoon J. Utilizingquantitativeusers’reactions to represent affective meanings of an image [l .Journal of the American Society for Information Science and Technology,2010,61(7) :1345-1359.   \n[4] Martens $\\mathbf { M }$ .Issues of accessand usability in designing digital resources for children $\\mathbb { I }$ .Library& Information Science Research, 2012,34(3):159 -168.   \n[45]李彬.国际儿童图书馆发展趋势分析.图书馆工作与研究， 2013(3):121 -123.   \n[6]梁新春.浅谈少年儿童图书馆的情感服务[.图书馆工作与研 究,2013(2):112 -114.   \n[47] Tumasjan A，Sprenger T O,Sandner P,et al.Election forecasts with Twitter:How140charactersreflect thepoliticallandscape [.Social Science Computer Review,2011,29(4): 402 -418.   \n[48] Sobkowicz P,Kaschesky M, Bouchard G. Opinion mining in social media:Modeling，simulating，and forecasting political opinions in the Web ．Government Information Quarterly,2012,29(4): 470 -479.   \n[49]Stieglitz S,Linh Dangxuan.Emotions and information difusion inso cial media-sentiment of microblogs and sharig behavior $\\mathbb { I }$ . Journal of Management Information System,2013,29(4):217 -247.   \nb0l ThewallM,Sud P. Commenting on YouTube videos: From guatemalan rock to EI Big Bang [l .Journal of the American Society for Information Science and Technology,2011,63(3) :616 -629.   \nB1]Fan Li,Zhang Yulei,Dang Yan,et al.Analyzing sentiments in Web 2.O social media data in Chinese:Experiments on business and marketing related Chinese Web forums lil． Information Technology & Management,2013,14(3):231-242.   \nb2] Pera M S,Ng Y K. A group recommenderfor movies based on content similarity and popularity [l．Information Processing & Management,2013,49(3):673 -687. ments:A preliminary investigation []．Scientometrics,2011,87 (2):373 -388.   \nB8]Small H.Text mining of citations for emerging scientific communities[o1]．[o14-03-07].http://mediazone.brighttalk.com/ comm/ReedElsevier/78d7d945a8-24781-4950-26860.   \nβ9] Nanba H. Okumura M. Towards multi-paper summarization using reference information [ //IJCAII. The Proceedings of 16th International Joint Conference on Artificial Intelligence.Stockholm: Morgan Kaufmann Pub Inc，1999:926-931.   \n[40] Mohammad S,Dorr B,Egan M,etal.Using citations to generate surveys of scientific paradigms[ // Proceedings of Human Language Technologies: The 2OO9 Annual Conference of the North American Chapter of the Association for Computational Linguistic. Stroudsburg:Association for Computational Linguistics,2Oo9:584 -592.   \n[41]Frsig RE. Citation classification based on genre: The significance of the textual location of citations [D]．Copenhagen:Royal School of Library and Information Science,2011.   \n[42] Teufel S, Siddharthan A,Tidhar D.Automatic classification of citation function [Cl // Association for Computational Linguistics. Proceedings of the 2OO6 Conference on Empirical Methods in Natural Language Processing（EMNLP'O6).Stroudsburg:Association for Computational Linguistics,2006:103-110.   \n[3]胡志刚,陈超美,刘则渊,等．基于XML全文数据引文分析系 统的设计与实现[．现代图书情报技术，2012(11)：72-77."
+  },
+  "Citation in Full-text: The Development of Citation Analysis": {
+    "context1": "Zhao Rongying1,2,3 Zeng Xianqin1,3 Chen Bikun1,3",
+    "context2": "1 School of Information Management，Wuhan University，Wuhan 430072",
+    "context3": "²The Center for the Studies of Information Resources，Wuhan University，Wuhan 430072",
+    "context4": "3 Research Center for China Science Evaluation，Wuhan University，Wuhan 430072",
+    "context5": "[Abstract] This paper makes a comprehensive analysis on the fulltext citation analysis.It sums up the background of themethodasthedisappointmentofthetraditional citationanalysisandthedevelopmentofrelevanttechnologies.The paper also introduces theresearchdata,methodsandcontents of the fulltext citationanalysis.Atlast,it makes its future research direction.It draws a conclusion that the method can changeand develop the theoryand method of citation analysisandscientificevaluationasamicrocosmic fulltext-basedmethodandit will get moreattentionanddevelopment with the popularity of structured data.",
+    "context6": "[Keywords] citation in ful-textcitation context analysisciting analysiscitation analysis"
+  },
+  "(上接第120页)": {
+    "context1": "53] Majid A,Chen Lin, Chen Gencai,et al. A context-aware person",
+    "context2": "alized travel recommendation system based on geotagged social",
+    "context3": "media data mining [．International Journal of Geographical Information Science,2013,27(4):662-684."
+  },
+  "Review on Emotional Issues in the Field of Library and Information": {
+    "context1": "Zhang RuWang Fengxuan",
+    "context2": "School of Government Management，Beijing Normal University，Beijing 100875",
+    "context3": "[Abstract] This paper makes a statistic analysis on the articles about emotional isues which are published in the journalsof libraryand information science included bySSCIand CNKI.Theresults show thatusers’emotional issues have been paid much more atention to.Therefore given thecurrent research articles，this paper concludes the research object and contents from the perspectives of users，technologies andapplications.Finall,it puts forwardthe furtherresearchdirection combined with the current research work.",
+    "context4": "[Keywords] library and information scienceemotion library serviceinformation behavior"
+  }
+}

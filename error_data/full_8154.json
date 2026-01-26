@@ -1,0 +1,104 @@
+{
+  "original_filename": "full_8154.md",
+  "电子资源管理系统的研究现状与演进趋势探析张文竹邵波": {
+    "context1": "【摘要】下一代图书馆系统的出现给电子资源管理系统带来冲击与反思，引发学界对电子资源管理系统演进方向的研究热潮。文章跟踪国内外电子资源管理系统研究的最新进展，探析现阶段电子资源管理系统发展存在的难点与困境，在此基础上为图书馆电子资源管理系统建设提供后示，并预测以更加整合的方式管理电子资源是未来图书馆系统平台发展不可逆转的趋势，下一阶段电子资源管理系统会演进至一种过渡形态，成为图书馆更换下一代系统的缓冲与过渡，为构建开放、共享的智慧图书馆服务体系打好基础。"
+  },
+  "【关键词】电子资源管理电子资源管理系统ERMS纸电一体下一代图书馆系统": {
+    "context1": "Abstract:The emergence of the next generation library system hasbrought shock and reflection to the electronic resource management system，which trigered the academic researchon the evolution direction of the ERMS.Thispaper provides enlightenment fortheconstructionoftheERMSbasedonthelatestresearchofitathomeandabroadandthedilemmaof itsdevelopment.Itispredictedthatintegratedmanagementofelectronicresources isthefuturedevelopment trendoflibrary system platform.The next stageof electronic resource management system willevolve intoatransitional form，and become thebuferandtransition forthelibrary toreplacethenext generation system，layinga good foundationfortheconstruction of open and shared intelligent library service system.",
+    "context2": "Key words: electronic resource managementelectronic resource management systemERMSpaper - electric   \nintegrationnext generation library system   \nDOI:10.15941/j.cnki.issn1001-0424.2019.04.002",
+    "context3": "0引言",
+    "context4": "近年来，我国大数据、云计算、人工智能等新技术浪潮迭起，图书馆界顺应时代趋势出台《中华人民共和国公共图书馆法》，鼓励和支持利用数字化、网络化技术向社会公众提供便捷服务，提高公共图书馆的服务效能。为了实现服务功能创新与优化，图书馆纷纷参与到变革浪潮之中，不断扩大硬件规模、购置电子资源，并更新换代传统的图书馆信息化管理系统。下一代图书馆系统如Alma、Intota等，因能够采用大数据、人工智能等先进技术为读者提供更全面更强大的知识服务，而受到越来越多图书馆的青睐，逐渐成为图书馆系统更换的首选，而原有图书馆系统尤其是电子资源管理系统（Electronic Resources Management System，ERMS）面临被取代的危机。尽管电子资源管理系统自身存在着与时代发展不相符的不足之处，但同时又鉴于全面更换下一代图书馆系统确实是一项耗时耗材且有难度的工程，因此，多数图书馆目前面临着是继续坚持选择原有的电子资源管理系统，还是在新一代图书馆管理系统上寻求机会的棘手抉择，而这也引发了学界对图书馆新系统选择的解决方案的热烈探讨。",
+    "context5": "笔者认为以更加整合的方式管理电子资源的下一代图书馆系统固然是未来图书馆系统平台发展不可逆转的趋势，Alma、Sierra等新一代图书馆管理系统或将成为图书馆电子资源管理的新选择，但庞大复杂的系统替换过程并非一蹴而就，因此，传统电子资源管理系统不会被立刻替代，而是会演进成一种过渡形态，为下一代图书馆系统的实施应用做好铺垫。本文通过对国内外电子资源管理系统的理论与实践现状进行归纳分析，探讨电子资源管理系统研究存在的问题与不足，总结更换下一代系统的难点，为图书馆电子资源管理系统建设提供建议与后示，探析下一阶段电子资源管理系统的演进趋势。",
+    "context6": "电子资源管理系统是电子资源的选择、评估、获取、维护等相关信息和工作流程的管理，并根据商业协议和授权规定为读者提供有效的资源访问方式。随着 ERMS在实践应用上繁荣发展，涌现出很多优秀的研究成果。笔者于2018年7月10 日在 Web of Science、LISA、Taylor&Francis等数据库中以“Electronic Resources ManagementSystem”“Electronic Resources Management”和“ERMS”为检索词进行检索，经过相关性和参考价值筛选，最终得到181篇文献。对这些文献进行内容分析，发现国外ERMS 的主要研究内容可以概括为ERMS产品分析，ERMS标准研究，ERMS的人文关注，ERMS的选择、应用与发展四个方面。"
+  },
+  "1.1ERMS产品分析": {
+    "context1": "目前，国外ERMS的产品主要有三种类型：大学图书馆自主研发的 ERMS、图书馆集成系统（IntegratedLibrary Systems，ILS）供应商开发的ERMS、第三方数据提供商开发的 ERMS 。国外许多文献都对市面上不同类型的ERMS产品进行了详细介绍，分析其功能、相关技术与生命周期等。Kennedy Marie R.综述性讨论了大学图书馆自主研发的ERMS如麻省理工大学图书馆的Vera、宾夕法尼亚州立大学图书馆的ERLIC、约翰霍普金斯大学图书馆的 HERMES以及北卡罗来纳州立大学图书馆的E－Matrix的发展情况及问题。随后市面上ILS厂商开发的ERMS 产品和第三方数据提供商的产品纷纷出现，占据市场大部分份额，这些商业性的ERMS 产品也都有比较全面的考察，如Maria Colins通过对供应商的问卷调查，详细介绍对比了西蒙弗雷泽大学开发的CUFTS ERM、ERM Essentials、Verde、Gold Rush 等多家产品的可用性、开发、使用标准、兼容性、功能和显著的特性，为图书馆选择、实施系统提供相应的建议和指导；Patra N.K．和 Jha S.S.则更加全面分析比较了目前16个ERMS的功能、使用标准和兼容性、模块等。由于商业性ERMS需求功能的局限，部分图书馆纷纷推出开源ERMS。目前最出名的是威斯康星大学拉克罗斯分校墨菲图书馆的ERMes和圣母大学赫斯伯格图书馆的CORAL。国外ERMS产品随着技术的进步不断发展升级，在不断的实践中更加智能与成熟。"
+  },
+  "1.2ERMS标准研究": {
+    "context1": "为了能够使ERMS的使用更加规范，国外相关组织及学者积极研究ERMS 的相关标准。2004年，美国数字图书馆联盟（Digital Library Federation，DLF）发布的电子资源管理项目（Electronic Resource Management Initiative，ERMI）报告概述了系统功能需求、数字字典、数字结构、实体关系图、纸质和数字资源工作流等ERMS建设需遵循的标准，这个报告的发布为日后电子资源管理系统的标准研究奠定了基础。随着电子资源的增长，图书馆要求出版商提供详细的使用数据，以便更好地管理资源和购买过程，并提供收集和管理这些数据的服务，电子资源使用统计标准（COUNTER）及收割协议（SUSHI）应运而生。随后美国国家信息标准组织（NISO）还成立了ERMS数据标准和最佳实践评审指导委员会，对标准和最佳实践进行“差异分析”，并发布了电子资源管理系统未来标准需求白皮书。白皮书中将电子资源管理标准划分为5类：链接解析器和知识库、表现和数据获取情况、成本和使用情况数据、许可条款以及基于机构标识符的数据交换[。随着 ERMS不断出现的新功能，以及综合图书馆系统在处理大量使用电子资源及其管理带来的各种挑战方面的不足，Pradhan Sanghamitra[调查了不同级别机构为应对挑战而制定图书馆ERMS系统标准所做的实践尝试，讨论了一些新出现的功能和标准。这些研究都不断丰富完善着国外电子资源管理标准体系。"
+  },
+  "1.3ERMS的人文关注": {
+    "context1": "在关注ERMS本身功能、标准及技术发展的同时，学界从人本角度出发关注人与系统的关系。一方面关注电子资源环境下图书馆员的专业素养与职业发展。NASIG于2013年首次提出“电子资源馆员的核心竞争力”一词[，随着图书馆事业的进步发展，图书馆员不仅需要了解学术交流和数字出版的新兴商业模式[，也应通过培养如技术知识等的核心竞争力来提高管理电子资源的能力与职业认可度[4。另一方面则更加关注馆员与读者等使用者的体验反馈与满意程度。电子资源管理利益集团（ERMIG）就详细讨论了电子资源环境中的用户体验，主张图书馆、供应商和电子资源之间的协作与共赢，保证不同平台上用户体验的一致性[。为了得到一手的用户反馈，Maria Collins和Jil Grogg[通过问卷调查馆员及 ERMS 销售商对 ERMS 的满意度，发现馆员最关注的功能；Lo Patrick及Cho Alln等[则通过采访四位香港学术图书馆馆员，总结使用 ERMS期间出现的收购、版权、工作流和图书馆系统变更等问题并积极寻求解决方法，以提高系统使用满意度。对电子资源环境下馆员发展及用户反馈的关注更利于系统的优化，让ERMS发挥出最大使用价值。"
+  },
+  "1.4ERMS的选择、应用与发展": {
+    "context1": "在 ERMS 的选择上，Howland Jared和 Wright Thomas 认为 ERMS 的选择应首先基于图书馆自身需求，再考虑知识库及互操作性等因素；Rutenberg Clara也认为在决定使用哪一个 ERMS之前最需要考察的是需求动机，除此之外还要考虑成本、本地IT支持、正在使用的当前系统、当前工作流等。ERMS 的应用主要针对图书馆在使用ERMS 产品过程中的经验介绍，以及其中出现的问题与解决方式。比如 $\\mathrm { ~ L ~ T u l l ~ } ^ { [ 2 0 ] }$ 等介绍了俄亥俄州立大学图书馆与III 公司合作开发ERMS及其实施，重点阐述了在OPAC中显示资源的功能。华盛顿州立大学图书馆、格拉斯哥大学图书馆也都使用了II公司的 ERMS并分别详细介绍了实施情况。当然，在商业性ERMS广泛应用的同时，也有许多图书馆选择通过自主研发ERMS产品或使用开源ERMS系统来实现管理电子资源，比如西蒙弗雷泽大学（SFU）的图书管理员自主开发实现的CUFTS ERM电子资源管理系统、加拿大多伦多的约克大学构建的名为“管理大学图书馆电子资源”（MULER）的系统，以及北卡罗来纳州立大学图书馆选择使用CORAL开源ERMS 作为跟踪和处理新订单的工具以促进其电子资源收购管理的效率。这些自行研发或是开源的系统能够更好地满足本地图书馆的需求，为其提供更匹配的服务。另外，随着国外ERMS研究体系逐渐成熟和下一代图书馆系统的出现，越来越多的图书馆更倾向于使用更加集成的下一代图书馆管理系统，这是未来ERMS发展的选择。但 Singley Emily等对在使用 Alma、WorldShare Management Services（WMS）和 Siera的图书馆员进行调查时发现，目前这些新一代图书馆系统不能全面覆盖核心的ERM任务的执行，因此认为ERMS 仍需独立使用直至新系统的进一步开发。"
+  },
+  "2国内电子资源管理系统研究进展": {
+    "context1": "笔者于2018年7月10日在CNKI上以“电子资源管理系统’“ERMS”等主题词进行检索，经过筛选后最终得到47篇相关文献。",
+    "context2": "![](images/6310e3867109bd622e2590dcf09a809fce0fb2fa1334ffacb84242bd9f5d41f4.jpg)  \n图1国内ERMS研究文献年份分布",
+    "context3": "国内电子资源管理系统的研究起步于2005年，北京师范大学图书馆研制数字化资源管理系统DRMS和中国科学院文献情报中心提出的基于知识库的电子资源集成系统框架拉开国内ERMS研究的序幕。从“国内ERMS研究文献年份分布”（图1）可以看出，虽然我国ERMS研究发展已有十余年，但总发文量却并不多，整体呈下降趋势，仅在2007年受到国外ERMS产品的推广应用的影响而引发了国内研究热潮，文献数量增长较快，出现了一次小高峰。笔者结合文献内容分析，将国内ERMS的研究划分为两个时期：探索期（ $2 0 0 5 \\sim 2 0 1 2$ 年）以及转型期(2013年至今）。"
+  },
+  "2.1探索期 ( $2 0 0 5 \\sim 2 0 1 2$ 年)": {
+    "context1": "探索期 ( $2 0 0 5 \\sim 2 0 1 2$ 年）对ERMS的研究依赖于国外经验，内容主要集中于介绍评价国外产品及其功能、ERMS 的应用现状及发展问题，并在此基础上初步进行设计开发系统模型。这一时期杨思洛、王丙炎最先对国外市场上有代表性的 ERMS 如 Hoirzon ERM、Endeavor Meridian 等进行介绍；叶新明则是将美国 ERMS产品以开发者用途的不同分为ILS商、自产、数据商开发三种类型并分别对比分析各自的功能特点；傅天珍、沈健选择了市场上较有代表性的商业性 ERMS 产品 Innovative Interfaces ERMS、Serials Solutions ERMS、Ex Libris 的 Verde、CARL的Gold Rush进行分析比较；赵以安则比较与评述主要开源电子资源管理系统包括CUFTS、CORAL、ERMes、E－Matrix、OLLARA、SMDB。这些详实的介绍与评述为国内图书馆在选择采用 ERMS上提供参考。除了介绍评价ERMS产品，我国高校图书馆也积极尝试引进国外ERMS进行应用实践，比如香港中文大学图书馆就利用 Serials Solutions 公司的服务和 Innovative公司的 ERMS来管理与日俱增的电子资源，清华大学图书馆引进Verde系统进行电子资源管理。这些实践为我国图书馆电子资源管理系统的应用提供借鉴案例，同时也暴露了一些问题与挑战，比如图书馆资源整合和一体化服务、系统整合、知识产权保护以及系统本地化的挑战，还有在实施与应用国外ERMS 过程中存在的选型标准、人员安排、工作流程、著录规范、互操作、使用许可、知识库、使用统计数据处理等方面的问题。基于使用现有 ERMS存在以上难点，有的图书馆自行设计开发 ERMS，比如深圳大学图书馆自主研发成功的开源电子资源管理系统Open ERMS b，目前已在深圳多个高校及公共图书馆投入使用。尽管 ERMS 的发展存在诸多问题，但标准化、整合化、智能化、知识管理是该时期公认的 ERMS方向发展态势。"
+  },
+  "2.2转型期 (2013年至今)": {
+    "context1": "$2 0 0 5 \\sim 2 0 1 2$ 年的探索期不仅关注理论研究，也更加关注国内需求，侧重实践应用的研究。可实际上我国对ERMS 的研究并不深入，总体来看理论重复，实践较少。当国内研究ERMS的理论还未成体系、实践上也还未真正成熟时，恰逢国外下一代图书馆管理系统出现。ERMS受其影响发展滞缓，进入研究转型期。该时期对 ERMS的研究多是和下一代图书馆系统结合，许多学者将ERMS纳入下一代图书馆系统的一部分进行研究。",
+    "context2": "就下一代图书馆系统管理电子资源的问题，包凌、赵以安认为下一代图书馆自动化系统将实现整合图书馆用于管理纸本、电子和数字资源的各种系统，实现资源的统一管理，而不会分散独立地使用ERMS及其他管理平台；田晓迪、孙博阳以Alma为例分析其对电子资源的全流程管理功能包括社区与知识库、资源试用、资源选择和激活、统计和评价等模块，引导图书馆更好地使用下一代图书馆服务平台，提高电子资源的管理质量；田晓迪4还介绍了DLFERMI项目的电子资源许可的系统管理标准，以Alma为例对标准内容及系统应用模式进行分析，指出只有遵循标准才能提高图书馆管理电子资源的水平。多数学者都看好下一代图书馆系统中的电子资源管理能力，但陈大庆认为新系统的电子资源管理功能可能还不够完备，国内电子资源管理标准化工作尚待改进，因此独立的ERMS被下一代图书馆系统替代还需要一段时间，现阶段可能是下一代新系统与独立的电子资源管理系统、旧式的自动化集成系统共生共存的局面，甚至寻求新一代系统会成为图书馆的未来选择。在多数 ERMS被下一代图书馆服务平台的关注掩盖的情况下，石泽顺等提出开源的CORAL作为更加经济实用高效的电子资源管理系统值得在国内推广，成为现阶段电子资源管理系统解决方案。"
+  },
+  "3电子资源管理系统发展存在的难点与对策": {
+    "context1": "从上述国内外研究进展可以看出，国外ERMS的发展经历了从高校图书馆自行研究到产品市场化与商业化的转型，并逐渐建立完善了电子资源管理相关的标准规范体系的过程。在系统实施与应用上也已趋于成熟，对ERMS 的选择、评估与反馈也都有所涉及，研究主题全面多样，已经形成一套完整的研究体系。和国外相比，国内的研究起步较晚，早期主要是对国外产品的介绍及应用，并进行自主开发系统。可由于引进国外ERMS 产品的图书馆不多，因此实施应用的相关文献成果较少。自主开发ERMS虽然小有成果，但受限于区域性试验，相关研究也数量有限，同时国内也很少涉及ERMS的规范标准以及反馈评估机制研究。另外，在我国ERMS研究还未成熟时，下一代图书馆系统的兴起干扰了ERMS研究进程，国内ERMS的研究进入了冷却转型期，此时业界更倾向研究下一代图书馆集成管理系统的电子资源管理功能，这引发了图书馆界对独立型电子资源管理系统未来发展的思考。图书馆面临着是坚持选择原有的电子资源管理系统，还是在新一代图书馆管理系统上寻求机会的难题。",
+    "context2": "然而就目前情况而言，无论是哪一种选择都存在着亟待解决的问题与困难。首先，现有的电子资源管理平台在实际操作过程中已经暴露了很多缺陷，比如电子资源的传统Excel管理方式粗放落后、学科建设服务缺失、系统订购续订与试用评估功能整合度低导致采购流程繁琐、面向读者的资源揭示途径有待优化、系统无法监控资源访问等问题，如一味坚持原有的ERMS会降低电子资源管理效率和服务水平；其次，如果选择全面更换下一代系统，也存在着很大的风险和困难，主要表现在元数据缺乏科学统一的标准规范、ERMS的卖方市场导致用户缺乏自主选择权、系统更换对接以及迁移部署难度大、国外产品无法满足我国图书馆特色需求以及云端部署带来信息安全隐患等方面。以上新旧系统各自存在的缺陷与困难将ERMS 的发展推入困境，面对固守与冒进的挑战，笔者借鉴国内外ERMS研究及应用经验，提出几点对国内ERMS下一阶段发展建设的对策建议。"
+  },
+  "3.1建立统一的元数据标准规范": {
+    "context1": "当今图书馆系统难以成型的根源就在于缺乏标准统一的数据格式和普遍规范的业务流程。在图书馆系统中存在着大量的交互操作与数据交换以及图书信息载体的元数据，不同图书馆电子资源所采用的标准体系有很大不同，如果没有相关科学的标准规范，不仅影响 ERMS 的建设，对未来图书馆下一代系统的集成管理也造成阻碍。建立统一的元数据标准规范是ERMS发展演进的根基。"
+  },
+  "3.2加快纸电一体化，实现元数据协作共享": {
+    "context1": "电子资源的快速增长使ERMS发展迅速，但是有的图书馆仍然摆脱不了传统纸质资源管理方式的束缚，元数据管理不够精细化。加快纸电资源数据仓合并，实现元数据跨系统共享与统一管理。纸电融合的ERMS可揭示采购查重、同一出版物纸电版本的合并展示和统一检索，还可以汇总揭示全部图书馆馆藏电子资源详细数据，并对其进行导航、检索、分析、纸电查重以及差异比对，优化馆藏配置，提升读者服务质量。"
+  },
+  "3.3基于电子资源生命周期优化工作流程": {
+    "context1": "由于电子资源提供商或数据库商的平台限制，使得图书馆电子资源的订购与续订、试用评估等功能无法与图书馆ERMS整合，图书馆员需要在多个平台上操作，造成采购流程复杂繁琐。为了使馆员有更高的接受程度，图书馆可以保留原有纸质资源管理系统流程，增加电子资源管理及采购流程，基于电子资源生命周期全面管理资源试用、资源评估、资源订购、资源激活、上架管理合同管理、资源续订等完整流程，实现电子资源闭环管理。"
+  },
+  "3.4加强学科建设服务": {
+    "context1": "ERMS不应仅是为了实现资源的整合，更重要的在于其服务价值。对读者群体来说，ERMS的作用是能让读者全面又有条理地了解并找到图书馆的资源并了解数据库特色。如今许多ERMS都无法很好地深度整合资源、揭示资源，也直接导致了学科资源保障率低，不能很好为学科建设服务。今后ERMS建设应与发现系统数据深度整合，展现灵活的学科导航模式，从学科建设角度出发，提高图书馆核心电子资源的学科保障率。"
+  },
+  "3.5增加对数据的监控统计功能": {
+    "context1": "图书馆应该充分利用馆藏数据、用户数据等的监护权和控制权，一方面为了保障信息安全，另一方面图书馆通过对数据库访问量统计和异常访问数据实时监控统计进行分析，可以及时调整采购策略或馆藏资源结构，提高采购经费利用率，并对异常情况及时处理，保障资源正常使用。"
+  },
+  "3.6加强自主创新，积极开发系统": {
+    "context1": "有的国外ERMS产品研发过程中是基于国外图书馆实际需求，并没有调查投放本地的图书馆环境，无法满足我国图书馆特色需求，在引进国外ERMS后出现了诸如选型标准、工作流程、著录规范、互操作等方面的问题。因此加强ERMS的自主研发，开发适合本地的电子资源管理系统是下一个阶段发展建设新思路。"
+  },
+  "4未来电子资源管理系统演进趋势探析": {
+    "context1": "虽然功能集成强大的下一代图书馆系统的应用是图书馆系统平台发展的大趋势，或将成为未来图书馆电子资源管理的新选择，但图书馆系统的更迭换代与集成整合并非系统之间简单的替换或叠加，需要考虑诸多互操作、工作流程及相关资源格式标准等的管理与设计的问题，同时系统替换工程浩大，存在诸多风险。因此笔者认为，目前，独立的电子资源管理系统不会马上被下一代图书馆系统全面替代，而是会在自身基础上进行改进，演进至一种过渡形态，为下一代图书馆系统的全面实施应用做铺垫。",
+    "context2": "南京大学图书馆“纸质资源管理系统 $^ +$ 电子资源管理系统 $^ +$ 资源发现服务”融合的一体化电子资源管理体系是积极探索图书馆系统发展的尝试。南京大学智慧图书馆的建设走在高校图书馆前列，目前建设二期的超高频RFID 智能图书盘点机器人“图客”与咨询服务机器人“图宝”也已应用落地一年，智慧服务能力不断提升。同时南大图书馆对图书馆系统的建设也倍加关注，致力于使用新的技术有效并有序地为图书馆解决图书馆信息化建设面临的难题，实现资源与服务的整合，推动智慧图书馆的建设与实现。其中，一体化的电子资源服务体系是南大智慧图书馆系统建设的重点之一。该体系通过纸电元数据仓融合，实现多层级数据相互关联、统一配置，打破了以往各系统孤立运行的状态，采用多系统组合、按需定制的融合方式，可以在现阶段覆盖下一代图书馆系统的绝大部分功能需求，一定程度上弥补了传统ERMS的缺陷，又为下一步实现基于新一代系统的南京大学智慧图书馆服务平台NLSP打下基础，是传统ERMS升级至下一代图书馆系统的缓冲与过渡。构建一体化电子资源服务体系将可能会成为下一阶段图书馆ERMS的演进趋势。",
+    "context3": "一体化电子资源管理系统的解决方案为下一步实现多厂家、多机构共同协作，构建开放、共享的下一代图书馆系统打好基础，也为大多数图书馆争取到思考未来系统发展的时间。目前，南京大学图书馆根据自身需求构建的多组合、多层级的电子资源服务体系已初具雏形，其构建经验值得持续关注与深入探讨，以期能为其他图书馆的电子资源管理系统升级提供借鉴。"
+  },
+  "注释": {
+    "context1": "[1]中国人大网．中华人民共和国公共图书馆法[EB/OL]．[2018-07-30]．htp:：//wwwnpc.gov.cn/npc/xinwen/2017-/04/content_",
+    "context2": "[2]AndersonI，FarbSE，ChaderA，etaleportofteFletrocResoueaageentIntiativeAppendiA:Fuctoaleqntsfor ElectronicResouceaagement1EB/O1htps://braresiversityofcalfor.du/groups/fls/sopg/docs/ appen05dlfa.pdf.   \n[3]DuranceauE.ElectronicResourceManagementSystemsFromILSVendors[EB/OL]．2018-07-30．htp://docslibpurdue.edu/cgi/ viewcontent.cgi?article $=$ 4420&context $=$ atg.   \n[4]KenedyMR.ElectronicResourceManagementinLibrariesResearch &Practice[M].Hershey，PA，USA:IGIGlobal，Oo8:350-362.   \n[5]ColinsM.Electronic Resource Management Systems（ERMS）Review[J].Serials Review，2008，34（4)：267-299.   \n6]ColinsM.ElectrocJoualForu:ElectrocResoueManageentSste:UnderstadingtelaesdHwtoMaketheightCocefor Your Library [J]．Serials Review，2005，31 $( 2 ) : 1 2 5 - 1 4 0$   \n[7]PatraNK，JaS.ProgresiveTrendsinElectroncResourceManagementinLbraries[MHershey，PA:IGlob，2O4:8146.   \n[8]Doering W，Chilton G.ALocaly Created ERM:How and Why We DidIt[J].Computersin Libraries，2008，28（8)：4.   \n[9]DgitalLibaryFderatioClrWshngtonc.lectocResoceMaageet:TeReportfteFititiveEBO]21 http://old．diglib.org/pubs/dlf102/.   \n[10]NISO.MakingGoodonthePromiseofERM:AStandardsandBestPracticesDiscusionPaperEB/OL]．201808-01]ttps://www. niso.org/publications/making- good-promise-erm - standards -and-best -practices-discusion- paper.   \n[11]PradanSDeveloingStadardsforletrocesouceaagent]nteatioalJoualoatioDiseatio&Tolog 2013，3(4):236.   \n[12]SutonSW，SulengerP.TeDvelopentandUseofthNSIGCoreCopetenciesforElectroncResouesLibrariansJ]SeralsRevie, 2017，43(2):147-152.   \n[13]WhittakerM.TheChallengeof AcquisitionsintheDigitalAge[J].PortalLibraries&theAcademy，2O08，8（4)：439-445.   \n[14]AtamnBKeqetfoIfoaiorofessoalsigialEviotooughtsrogaElectrocLibafotio Systems，2009，43(2):215-228.   \n[15]CanepiK.ReportofteALCSEletroicResouceMageentInterestGroupMetingCSaAntoo:TechicalServicsQarterly， 2007:71-73.   \n[16] Collins M，Grogg JE.Bulding a Better ERMS[J]．Library Journal，2011，136 $( 4 ) : 2 2 - 2 8$   \n[17]LoP,ChoA，LawBK-K，tal.ProgressveTrendsinElectronicResouces ManagementAmongAcademicLbrarisiHongKong[J]. Library Collections Acquisitions & Technical Services，2017，40 $( 1 - 2 ) : 2 8 - 3 7$   \n[18]HowlandJ，WrightT.IplementinganElectroicResourceManagementSystem:BrighaYoungUniversityExperenceJ]LibaryHTech News，2006，23(23):28-31.   \n[19]RutenbergC.ndingheTlThatitsBest:CloudBasedTaskanageentforEectroResoucsJ]clSystes&rvics，9 (3):151-160.   \n[20]Tll，vistetigdreaigElerocoucvioisErosoet [J]．Serials Librarian，2005，47（4)：103-124.   \n[21] Chisman J，Mathews G，Brady C.Electronic Resource Management [J].Serials Librarian，2006，48 $( 1 - 2 ) : 9 5 - 1 1 1$   \n2]GallwaoivtecetrocoeagntCataltfaeatUeitbaa 2006，51(1):83-94.   \n[23]TaylorD，DoddF，urphyJOpeSourceElectrocResourceManagementSyste:ACbraiveImplementationJ]SerialsLibaian, 2010，58(1-4):61-72.   \n[24]LuptonAA，SalmonMK.MULER:BuildinganElecronicResource Management（ERM）SolutionatYorkUniversityJ]Joualfbray Innovation，2012，3（2)：105.   \n[25]HutchinsC，MnchT.PulingItAllTogether:UsingCORALERMforSerialsAcqusitionsMaagementJ]SerialsReviw，201，4（3) 216 -221.   \n[26]SingleyE，NatchsindigeGaps:AurveyofEetroResouceMaagementilaSieandWJ]JoualofEtro Resources Librarianship，2016，29（2):71-83.",
+    "context3": "[27]孙博阳，吴英梅，杜晶双，等．图书馆数字资源管理系统设计与实现——以北京师范大学图书馆为例[J]．现代图书情报技术，200:(4):77-80.",
+    "context4": "[28]邵燕．基于知识库建设电子资源集成系统[J]．图书情报工作，2005（8）：47-50.",
+    "context5": "[29]杨思洛，王丙炎．电子资源管理系统初探[J]．图书馆杂志，2005（12)：52－55，6[30]叶新明．美国ERMS产品的分析与启示[J]．中国图书馆学报，2007（4)：54－59.",
+    "context6": "[31]傅天珍，沈健．国外商业性电子资源管理系统探析[J]．图书馆建设，2008（5)：89-93.",
+    "context7": "[32]赵以安．开源电子资源管理系统探析[J]．现代图书情报技术，2011（6)：39－45.",
+    "context8": "[33]张宝珍，吴玉珍，林柔云．香港中文大学图书馆电子资源管理的挑战与对策[J]．大学图书馆学报，2008（6)：68－74.",
+    "context9": "4]邵敏，张喜来．电子资源管理系统Verde的应用实践［J]．图书情报工作，2010（7）：84-88.",
+    "context10": "[35]莫秀娟．电子资源管理系统研究[J]．图书馆建设，2011（4)：19－22.",
+    "context11": "[36]叶兰．电子资源管理系统实施与应用研究[J]．图书情报工作，2012（13)：89-94.",
+    "context12": "[37]李洪．基于生命周期的电子资源管理系统的分析与设计[J]．图书馆理论与实践，2012（4)：11－15.",
+    "context13": "[38]刘峥．电子资源管理系统研究的发展与趋势[J]．图书情报工作，2007（6)：45-47，80.",
+    "context14": "[39]包凌，赵以安．国外下一代图书馆自动化系统的实践与发展趋势研究[J]．图书馆学研究，2013（9)：58-65.",
+    "context15": "[40]田晓迪，孙博阳.下一代图书馆服务平台的电子资源全流程管理功能——以Alma为例[J]．图书情报工作，2016（17）：65-6",
+    "context16": "1]田晓迪．电子资源DLFERMI许可管理标准及实践[J]．图书情报工作，2016（3）：65-68，82.",
+    "context17": "[42]陈大庆．电子资源管理标准述评[J]．图书情报工作，2013（3)：125－130.",
+    "context18": "陈大庆．电子资源管理系统的发展及未来思考[J]．大学图书馆学报，2014（3)：74－79.",
+    "context19": "[44]石泽顺，孙博阳．开源电子资源管理系统CORAL研究［J]．图书情报工作，2017（4)：130－137.",
+    "context20": "[45]刘炜．关于“下一代图书馆系统”的思考［J]．国家图书馆学刊，2015（5）：7－10.",
+    "context21": "16]沈奎林，邵波，陈力军，等．基于超高频RFID的图书盘点机器人的设计和实现[J]．图书馆学研究，2016（7）：24－28.",
+    "context22": "[47]南京大学新闻网．南京大学打造机器人图书管理员“图宝”系国内高校首创[EB/OL]．[2018-08-02]．htp://news，nju.edu.cn/show_article_2_45673.",
+    "context23": "张文竹南京大学信息管理学院硕士研究生。",
+    "context24": "邵波南京大学信息管理学院教授，南京大学图书馆副馆长。"
+  },
+  "(上接第40页)": {
+    "context1": "[46]江苏省工程技术信息文献中心．江苏省工程技术信息文献中心《工作简报》2016年第1期[EB/O0L]．[2018-08-08]．http://portal.e-library.com.cn/show/brief/46.html.",
+    "context2": "[47]张建平，等．江苏省高等学校图书馆“十五”期间事业发展报告［Z]．南京师范大学图书馆，2007：340.",
+    "context3": "[48]教育部高等学校图书情报工作指导委员会，中国高等教育文献保障系统．教育部全国高校图书馆事实数据库系统[EB/OL].[2018 -02-03].http://libdata. scal.edu.cn/login. html.",
+    "context4": "[49]BredingMPerceptios21AnIteatioalureyofLibraryutomatioEB/O]2008]ps:libaryecolgg/ perceptions /2011/.",
+    "context5": "50]教育部．普通高等学校图书馆规程（教高（2015）14号[J]．大学图书馆学报，2016（2）：5-8.",
+    "context6": "[51]雅斯贝尔斯．什么是教育［M]．北京：生活 $\\cdot$ 读书 $\\cdot$ 新知三联书店，1991：178.",
+    "context7": "[52]Adams BeckerS，Cummins M，DavisA，et al.新媒体联盟地平线报告：2017图书馆版[J]．图书情报工作，2018（3)：114－152.",
+    "context8": "[53]洪有丰．图书馆组织与管理［M]．上海：商务印书馆，1925：260.",
+    "context9": "[54]习近平．国家主席习近平发表二O一八年新年贺词[N]．人民日报，2017－12-31（1）：",
+    "context10": "徐晖南京大学图书馆馆员，江苏省高校图书情报工作委员会秘书处办公室主任。研究方向：图书馆管理学、图书馆学及目录学、区域性数字图书馆联盟规划建设与管理。",
+    "context11": "罗钧南京大学图书馆副馆长，江苏省高校图书情报工作委员会副秘书长，江苏省高校数字图书馆（JALIS）管理中心副主任，研究馆员。研究方向：图书馆管理学、图书馆学及目录学、区域数字图书馆联盟规划建设与管理。"
+  }
+}

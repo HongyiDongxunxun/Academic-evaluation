@@ -1,0 +1,85 @@
+{
+  "original_filename": "full_4415.md",
+  "基于共被引方法的情报学前沿领域识别与演进趋势分析": {
+    "context1": "高楠周庆山\\*（北京大学信息管理系，北京100871)",
+    "context2": "摘要：旧的/意义为更全面、细致地揭示国内外情报学的发展路径与特点，从而有助于学者从更宏观的角度对领域的发展有更深入的认识。方法/过程本文以情报学领域国内、国外代表性核心期刊论文作为数据源，采用共被引分析法、词频法、知识图谱等方法，对国内外情报学领域的研究前沿及演进趋势进行可视化呈现。结果/结论]首先，通过对比发现，国内外情报学领域前沿主题既存在共通之处，也存在差异性。其次，国内情报学领域的经典前沿演进路径有聚焦图书馆信息服务的演化路径和聚焦计量学与信息可视化的演化路径，国外的经典前沿演进路径为聚焦用户感知与用户行为的演化路径。国内外典型前沿演进路径表现的不同，其根本原因在于国内外情报学的起源、发展背景和研究范式的不同。",
+    "context3": "关键词：共被引分析；情报学研究；研究前沿识别；演进趋势；国内外对比DOI: 10.3969/j.issn.1008-0821.2024.05.001（中图分类号）G250.2（文献标识码）A（文章编号）1008-0821（2024）05-0003-17"
+  },
+  "Research Fronts Identification and Evolution Trend Analysis of Information Science based on Co-Citation Method": {
+    "context1": "Gao Nan Zhou Qingshan\\* (Department of Information Management，Peking University，Beijing 100871，China)",
+    "context2": "AbstractPurpose/SignificancelIn order to revealthe development path and characteristics of information science athomeand abroad inamore comprehensiveand detailed way，soas to help scholars havea deperunderstanding of the development of the field froma more macro perspective.Method/Process]This paper took the representativecore journal papers nthe fieldof information science at homeandabroad asdata sources，and adopted methods such as co-citation analysis，word frequencymethodand knowledge graph to visually present theresearch fronts and evolution trends inthe field of informationscienceathomeandabroad.Results/Conclusion]Firstly，thecomparisonreveals that thereare both similaritiesanddiferences intheresearch fronttopicsof informationscienceathomeandabroad.Secondly，theclassicalre search frontevolutionpath inthefieldof domestic informationscience includethe evolutionpathfocusingonlibrary informationserviceandtheevolution path focusing onmetrologyand information visualization，whiletheclasic research front evolution path in foreign countries is theevolution path focusing onuser perceptionand user behavir.The fundamental eason forthe diferenceintheperformanceof typicalresearchfront evolutionpathsathomeandabroadliesinthedifferentorigins， development backgrounds and research paradigms of information science at home and abroad.",
+    "context3": "Key words:information science;research frontier; evolution trend；co-citation analysis；comparison at home and abroad",
+    "context4": "研究前沿是对学科发展有重要指引性和影响力的研究方向，伴随着科技创新速度的不断加快，学科交叉与知识融合程度的不断加深，这都为科研工作的开展带来了很大的挑战，因而准确把握学科前沿热点和演进规律，有助于科研人员洞察科研动向，锁定前瞻研究方向，提高科研效率，同时还有助于科研管理机构优化资源配置，及早进行前沿科技布局，从而抢占未来科技制高点。",
+    "context5": "情报学的学科定位是支撑战略决策，要做“耳目、尖兵、参谋”，需要达到广、快、精、准的目标，情报内容涉及整个情报过程，包括按需采集、加工、组织、存储、检索、分析、传递、服务等。此外，情报学是一门具有高度学科交叉性，且发展过程存在较大的环境差异性与变化性的学科。因此，无论是情报学的学科定位，还是学科特点，都使得情报学天然具有追踪领域前沿与热点的趋向，同时，对学科领域研究前沿与热点的识别也一直是情报学的重要研究课题之一。",
+    "context6": "本文通过对国内外情报学领域不同时间阶段内的前沿识别与对比分析，以揭示二者不同的前沿发展特点与演进趋势，从而有助于学者从更宏观的角度对领域的发展有更深入的认识。"
+  },
+  "1相关研究综述": {
+    "context1": "近年来，情报学界对国内外情报学领域的前沿热点与发展历程进行了多维度、多层面的揭示与分析，常采用的方法大致分为两类：一种以定性分析法为主，这类研究以学者在本领域深厚的学术积淀为基础，主要依靠专家智慧与经验来对领域的发展历程进行总结与回顾，并划分领域的发展阶段，提炼各阶段的发展特点与前沿热点，如马费成等[以我国情报学发展的重要事件为划分依据，将我国情报学的发展阶段划分为初期阶段、成长阶段、转型阶段、繁荣阶段。梁战平以我国情报工作的内容为划分依据，将我国情报学的发展阶段划分为翻译报道阶段、学科专业研究阶段、情报综述和评述研究阶段、决策支持研究阶段、参与决策的知识服务研究阶段。王知津等以图书情报学教育的标志性事件为标准，将我国情报学的发展阶段划分为恢复、发展、徘徊、调整和提高5个阶段。冯惠玲等按照我国图书情报与档案管理学科院系与机构的本科、硕士和博士学位点设置时间，进行发展阶段划分。很显然，这类研究对学者在领域内的学术积淀与业界声望有非常高的要求，否则其研究结论很难具备充分的说服力。此外，因这类研究的主观性较强，学者的关注点或理解不同，得出的结论会有很大的差异性，甚至可能出现截然不同的观点。如之前学界“关于建立情报学一级学科”的大讨论b-、情报学的术语争议等，不同的学者态度与观点往往截然不同。",
+    "context2": "另一种则以定量分析法为主，部分辅助文献调研法来对情报学领域的前沿热点与发展历程进行分析。但目前，基于定量分析法的情报学领域前沿分析存在以下3种局限性。首先从横向上看，数据源的覆盖范围不足，大多数学者仅以筛选后的10余种情报学领域的期刊来反映整个学科领域的前沿热点和发展历程，存在以偏概全的风险，且多数计量分析仅考虑了单一语种。如邱均平等基于13种高影响力外文源刊，对近5年来图书情报学的研究热点与前沿进行可视化分析。曹文振等[基于遴选的10种国际情报学核心期刊分析了情报学领域2016—2018年的前沿研究领域。其次，从纵向上看，分析的时间范围跨度有限，大多数学者均是对情报学领域近3～5年的前沿热点进行分析，使得分析结果缺乏一定的宏观纵览性。如苏瑞竹等[基于Web of Sceince核心库收录的14种图书馆学、情报学类期刊，对2017—2019年的国外图书情报学领域的研究前沿与热点进行可视化呈现。第三，从方法上看，由于引文数据的获取存在一定的壁垒性，尤其是中文期刊论文的引文数据获取难度较大，使得基于定量分析法的情报学领域前沿探测多以词频统计法或共词分析法为主，较少使用引文分析法，少部分使用引文分析法的多依赖于软件工具，如CiteSpace等。而一方面，由于文献间的共被引关系及共被引强度随着时间变化具有变化性，使得采用基于共被引分析法的前沿识别方法更适用于主题演变分析，能更好地揭示知识的动态转移与学术的交叉发展过程，有助于绘制完整的学科发展脉络；另一方面，现有的具备共被引分析功能的软件，多是从原始论文集的参考文献集中抽取论文间的被引关系，参考文献集也被作为施引文献集，这种分析结果明显存在缺陷，论文间的被引关系仅是被部分揭示，超出参考文献集的施引文献及施引关系不能被展示到最终结果中，其共被引分析结果并不准确[。因此，本文将对纳入共被引分析的文献集进行施引文献追踪与下载，以使共被引分析结果更准确。",
+    "context3": "综上，本文将采用共被引分析法对国内与国外的情报学领域前沿主题进行识别与对比分析。对于代表性期刊的选取则综合典型性与全面性两方面考虑，尤其是国外情报学领域代表性期刊的选择，将以Web of Science 平台中 Information Science & Li-brary Science学科内的100余种期刊为遴选基础，综合期刊的影响因子、载文量等指标，以及领域专家的辅助筛选，最后保留了53种情报学领域国际核心期刊进行分析。此外，为兼顾论文质量与分析范围，对于国际情报学领域的核心期刊，本文将期刊全部的Article、Review 类型文献纳入分析，以尽可能保证国外数据源在时间范围上的覆盖广度；对于国内情报学领域的核心期刊，则将期刊创立以来的全部载文纳入分析范围。"
+  },
+  "2研究设计": {
+    "context1": "本文研究框架如图1所示。第一，对获取的中英文期刊论文进行数据清洗与规范，根据期刊每年的载文量与作者数量划分时间切片。第二，对每个时间切片内的论文采取共被引分析法识别出对应的前沿主题，根据词频获取对应时间切片内的热点主题。第三，根据本文提出的相似度算法计算相邻时间窗内两两前沿主题间的相似度，建立主题关联。第四，设置主题关联过滤规则，对可能存在的由于两个主题相似度过低而形成的无效主题关联进行过滤。第五，构建前沿主题演化路径，选择典型的前沿主题演化路径进行深入分析。",
+    "context2": "![](images/86e349221e98d70ccc6880cdeb9a20c5435a710389052d447387a5342b370ab9.jpg)  \n图1国内外情报学领域前沿主题识别与演进趋势分析流程",
+    "context3": "Fig.1The Process of Identifying and Analyzing the Evolution Trend of Research Front Topics in the Field of Information Science at Home and Abroad"
+  },
+  "2.1时间切片划分": {
+    "context1": "技术生命周期是专利分析中最常用的方法之一，主要通过图示法和指标评价这两种途径来实现[14-1。其中，图示法指通过分析专利申请数量与相应专利申请人数量之间的关系来反映该技术领域的技术生命周期，常见的划分阶段包括萌芽期、发展期、成熟期、下降期等，目前已被许多学者用于领域分析[6-18。因此，本文借鉴专利分析中对于技术生命周期划分的方法，通过分析领域内论文的发文量与作者数量间的关系，来划分领域的发展周期，并以此方法作为时间切片划分的依据。"
+  },
+  "2.2前沿主题识别": {
+    "context1": "研究前沿(ResearchFronts）是文献计量学里的一个专有名词，最早由 Price D J[于1965年提出，他认为研究前沿由领域内 $3 0 \\sim 5 0$ 篇最新发表的高被引文献及其相关研究主题来反映。随后，SmallHG等、Garfield E等提出将一组高被引文献或共被引聚类文献集定义为研究前沿。共被引分析方法作为经典的研究前沿识别方法之一，被学者广泛使用24-2d。因此，本文拟采用共被引分析法进行情报学领域的研究前沿识别。",
+    "context2": "共被引分析法的基本步骤包括3点。第一，针对所要分析的领域，获取能够进行前沿预测的原始文献集，依据ESI选取核心论文的标准，将被引次数排名前 $1 \\%$ 的论文集定义为高被引论文集；以WOS、万方平台上文献的被引频次及施引文献列表为准，获取高被引论文集的施引文献，建立用于共被引分析的施引文献集。第二，建立共被引相似度矩阵。矩阵的行列均以论文的“第一作者 $^ +$ 出版年份”来表示各篇论文（如出现第一作者在同一出版年发表多篇论文的情况，则以“第一作者 $^ +$ 出版年份 $^ +$ 序号”进行区分），行列交叉处以对应两篇论文的施引文献数量来表示二者的共被引相似度。第三，采取一定的聚类算法对共被引相似度矩阵进行聚类分析，以获得相应的研究前沿簇，最后对各簇中论文的标题、关键词、摘要进行切词并统计，以词频前3位的主题词组合来为各研究前沿簇命名。"
+  },
+  "2.3前沿演化路径构建": {
+    "context1": "1）时序前沿主题生成。采用共被引分析法，对每个时间切片内的研究前沿进行识别。",
+    "context2": "2）相似度计算。为计算相邻时间窗内两两前沿主题的相似度，提炼出相似度计算的两个原则：一是两个前沿主题类中包含相同的关键词数量越多，类间相似度越高。二是两个前沿主题类中产生关联的论文数量越多，类间相似度越高。因此，得到如式（1）的相似度计算公式:",
+    "context3": "$$\nS = \\left| \\log _ { 1 0 } a { \\times } b \\right| { } ^ { - 1 }\n$$",
+    "context4": "其中， $a =$ 两个聚类主题中相同的关键词的个数/这两个聚类主题中所有关键词的和； $b =$ 两个聚类主题中产生关联的论文数量/这两个聚类主题中所有论文的和。",
+    "context5": "3）关联关系构建与遴选。根据相似度计算公式，遍历相邻两个时间切片内所有前沿主题对，计算两两前沿主题间的相似度。接着，剔除前沿主题间因相似度过低而形成的无效关联关系，保留强关联关系。剔除原则为：计算所有时间切片内所有前沿主题对的相似度均值，若相似度值在均值以下，则视为弱相关关系，应该剔除。",
+    "context6": "4）前沿演化路径构建与典型路径分析。基于相邻时间切片内前沿主题对的强关联关系构建前沿演化路径，并结合内容分析法对典型路径进行分析。"
+  },
+  "3情报学领域研究前沿识别": "",
+  "3.1数据来源": {
+    "context1": "在万方平台上筛选出与情报学相关的10种CSS-CI核心期刊，获取这些期刊所有年份的期刊论文，共计75 475篇。在Web of Science平台选择Informa-161",
+    "context2": "tion Science&Library Science学科，语种设置为英语，文献类型为Article、Review，索引数据库选择SCI-EXPANDED、SSCI，结合专家建议，最终筛选出与情报学相关的53种核心期刊，共检索到59 512篇文献。"
+  },
+  "3.2时间切片划分": {
+    "context1": "在获取了中英文数据后，对论文作者的地址字段进行拆分，仅截取机构名称部分，根据中国科学技术信息研究所自建的机构名称规范词表对提取的机构名称进行规范，使作者与所属机构名称一一对应。之后，统计中英文期刊每年的载文量、涉及的作者数量、机构数量，借鉴专利的技术生命周期，以作者数量结合发文量划分时间切片。",
+    "context2": "![](images/8386e9a0170ffbc2185f44e24184d39da2fcecf671e8b7237b4567d81f3a2377.jpg)  \n图2英文期刊论文时间切片划分",
+    "context3": "![](images/a68aee89711bbeaface2430de020fcb45132dd247507eed96840a9832dfaf8ab.jpg)  \nFig.2English Journal Paper Time Slice Division   \n图3中文期刊论文时间切片划分Fig.3Chinese Journal Paper Time Slice Division",
+    "context4": "从图2、图3可见，英文期刊论文的时间切片划分为4个：1956—1993年、1994—2005年、2006—2015年、2016—2023年。中文期刊论文的时间切片划分为4个：1982—1996 年、1997—2004年、2005—2009年、2010—2023年。"
+  },
+  "3.3国内前沿主题": {
+    "context1": "借鉴ESI高被引论文的概念，选取每个时间切片内被引量前 $1 \\%$ 的论文，追踪并下载其引文数据，其中，英文引文共计78144篇，中文引文共计16 329篇。根据文献间的共被引关系，构建共被引相似度矩阵，采用Modularity算法进行主题聚类。图4中不同颜色代表文章所属的不同前沿主题类，每个节点代表一篇论文，以论文作者和出版年进行标识，节点的大小代表论文的被引量，连线的粗细代表两篇论文的共被引频次。每个簇类中的核心论文指，该论文与其他论文的共被引次数的和，以及产生关联关系的论文篇数均是最多的论文。",
+    "context2": "从图4可见，1982—1996年国内情报学领域共获得6个前沿主题聚类，分别是： $\\textcircled{1}$ 信息经济学|情报市场|情报消费，以马费成、李纲、乌家培等作者的文献为代表； $\\textcircled{2}$ 竞争情报|信息服务|企业，以缪其浩、包昌火、张左之等作者的文献为代表;$\\textcircled{3}$ 信息检索|自动标引叙词表，以苏新宁、赖茂生、陈光祚等作者的文献为代表； $\\textcircled{4}$ 情报学|学科建设|现状与发展，以马费成、包昌火、曾民族等作者的文献为代表； $\\textcircled{5}$ 文献计量学|信息化测定，以邱均平、卢泰宏、王崇德等作者的文献为代表;$\\textcircled{6}$ 情报工作|情报理论|分析方法，以包昌火、卢晓宾、刘东维等作者的文献为代表。",
+    "context3": "其中，规模最大的前沿主题是“信息经济学|情报市场|情报消费”，团簇的核心论文第一作者为马费成，有5篇相关论文，分别是《论情报的消费与交换》《信息经济学与情报经济学》《论情报信息市场的兴起》《论情报市场的结构与运行机制》《论情报生产》，论文被引量为30次。篇均学术影响力最大的前沿主题是“情报学|学科建设|现状与发展”，团簇的核心论文第一作者为马费成，标题为《情报学的进展与深化》，单篇论文被引量达148次，团簇的篇均被引量为29次/篇。该时间切片内，平均出版年份最新的前沿主题是“竞争情报|信息服务|企业”，团簇的核心论文第一作者为缪其浩，标题为《竞争情报一国外的发展动向及其对我国的影响》，单篇论文被引量达37次。",
+    "context4": "![](images/a0b9ffc31864bfdf64f4664206b9d0551f6d7b8f25f1e05da584ed0540bb6a48.jpg)  \n图41982—1996年国内情报学领域前沿主题  \nFig.4Research Fronts in the Field of Domestic Information Science，1982—1996",
+    "context5": "从图5可见，1997—2004年共获得8个前沿主题聚类，分别是： $\\textcircled{1}$ 数字图书馆|转型期建设|人文精神，以黄宗忠、黄晓丽、朱晓华等作者的文献为代表； $\\textcircled{2}$ 信息管理|知识管理|知识经济，以邱均平、孙建军、丁蔚等作者的文献为代表； $\\textcircled{3}$ 互联网1个性化信息服务|数字图书馆，以张晓林、赵继海、卢共平等作者的文献为代表； $\\textcircled{4}$ 知识组织|网络计量学|信息生态，以王知津、邱均平、李美娣等作者的文献为代表； $\\textcircled{5}$ 网络信息资源|信息评价|标准与方法，以张咏、蒋颖、陆宝益等作者的文献为代表； $\\textcircled{6}$ 网络信息资源|知识组织|信息检索，以曾民族、张晓娟、付立宏等作者的文献为代表； $\\textcircled{7}$ 知识服务|知识经济|图书馆，以任俊为、姜永常等作者的文献为代表； $\\textcircled{8}$ 学科馆员|制度建设|读者服务，以靳红、任俊为等作者的文献为代表。",
+    "context6": "其中，规模最大的前沿主题是“数字图书馆|转型期建设|人文精神”，团簇的核心论文第一作者为黄宗忠，标题为《论图书馆的新模式——复合图书馆》，单篇论文被引量达214次。该时间切片内，篇均被引量最高的前沿主题也是“数字图书馆|转型期建设|人文精神”，其次是“信息管理|知识管理|知识经济”，团簇的核心论文第一作者为邱均平，标题为《论知识管理与竞争情报》，单篇论文被引量达217次，团簇的篇均被引量为106次/篇。该时间切片内，平均出版年份最新的前沿主题是“学科馆员|制度建设|读者服务”，团簇的核心论文第一作者为胡继东，标题为《关于学科馆员制度的建立与完善问题》，单篇论文被引量达169次。",
+    "context7": "![](images/1c7a5358162a8db638c43cc5170122ef47a527730ce08437fb9e1bbb40690c5e.jpg)  \n图51997—2004年国内情报学领域前沿主题  \nFig.5Research Fronts in the Field of Domestic Information Science，1997—2004",
+    "context8": "从图6可见，2005—2009年共获得8个前沿主题聚类，分别是： $\\textcircled{1}$ 共词分析|知识图谱|研究热点，以马费成、崔雷、钟伟金等作者的文献为代表;$\\textcircled{2}$ 信息生态|信息流转|理论研究，以靖继鹏、韩刚、娄策群等作者的文献为代表； $\\textcircled{3}$ 社会网络分析|共词分析|可视化，以朱庆华、魏瑞斌、刘则渊、邱均平等作者的文献为代表； $\\textcircled{4}$ 学科馆员|人队伍建设|服务模式，以初景利、徐恺英、李春旺等作者的文献为代表； $\\textcircled{5}$ 网络舆情|管控预警|信息分析，以曾润喜、许鑫、黄晓斌等作者的文献为代表;",
+    "context9": "$\\textcircled{6}$ 情报学|理论体系|人际网络，以包昌火、马费成、沈固朝等作者的文献为代表； $\\textcircled{7}$ 知识图谱|前沿热点|网络演化，以陈超美、侯剑华、王晓光等作者的文献为代表； $\\textcircled{8}$ 互联网|信息共享|图书馆服务，以刘炜、范并思、任树怀等作者的文献为代表。",
+    "context10": "其中，规模最大的前沿主题是“共词分析|知识图谱|研究热点”，团簇的核心论文第一作者为马费成，标题为《国内外知识管理研究热点基于词频的统计分析》，单篇论文被引量达359次。篇均学术影响力最大的前沿主题是“学科馆员丨人才队伍建设|服务模式”，团簇的核心论文第一作者为初景利，标题为《第二代学科馆员与学科化服务》，单篇论文被引量达421次，团簇的篇均被引量为164次/篇。该时间切片内，平均出版年份最新的前沿主题是“网络舆情|管控预警|信息分析”，团簇的核心论文第一作者为曾润喜，标题为《网络舆情管控工作机制研究》，单篇论文被引量达265次。",
+    "context11": "![](images/b7e31958d33abf360e9e8ddaa76b84f7575ff5f83b843c8e8ba6dd910facd4b1.jpg)  \n图62005—2009年国内情报学领域前沿主题  \nFig.6Research Fronts in the Field of Domestic Information Science，20o5—2009",
+    "context12": "从图7可见，2010—2023年共获得8个前沿主题聚类，分别是： $\\textcircled{1}$ 大数据|信息服务|数据挖掘，以李广建、陈传夫、韩翠峰等作者的文献为代表； $\\textcircled{2}$ 阅读推广|信息传播|用户服务，以王波、吴高、万慕晨等作者的文献为代表； $\\textcircled{3}$ 网络舆情|舆情监测|突发事件，以李纲、曾润喜、平亮等作者的文献为代表； $\\textcircled{4}$ 智慧服务|图书馆服务|创客，以董晓霞、乌恩、陶蕾等作者的文献为代表； $\\textcircled{5}$ 嵌入式学科服务|学科馆员|图书馆，以初景利、刘颖、陈全松等作者的文献为代表； $\\textcircled{6}$ 信息可视化|知识图谱|Altmetrics，以邱均平、张晓林、侯剑华等作者的文献为代表； $\\textcircled{7}$ 信息素养IMOOCI图书馆服务，以黄如花、罗博、陆波等作者的文献为代表； $\\textcircled{8}$ 智库服务|智库建设|决策，以马费成、李纲、初景利等作者的文献为代表。",
+    "context13": "其中，规模最大的前沿主题是“大数据|信息服务|数据挖掘”，团簇的核心论文第一作者为韩翠峰，标题为《大数据带给图书馆的影响与挑战》,单篇论文被引量达257次。篇均学术影响力最大的前沿主题是“阅读推广|信息传播|用户服务”，团簇的核心论文第一作者为王波，标题为《图书馆阅读推广亟待研究的若干问题》，单篇论文被引量达313次，团簇的篇均被引量为136次/篇。该时间切片内，平均出版年份最新的前沿主题也是“智库服务|智库建设|决策”，团簇的核心论文第一作者为李纲，标题为《情报视角下的智库建设研究》，单篇论文被引量达77次。"
+  },
+  "3.4国外前沿主题": {
+    "context1": "从图8可见，1956—1993年共获得7个前沿主题聚类，分别是： $\\textcircled{1}$ 信息系统|信息管理|战略规划，以 Brancheau JC、Dickson $\\mathrm { ~ G ~ W ~ }$ 、Niederman F等作者的文献为代表； $\\textcircled{2}$ 信息系统管理|系统评估|用户服务,以 DeLone W H、Doll W J、Raymond L 等作者的文献为代表; $\\textcircled{3}$ 共被引分析|共词分析|科学知识图谱，以 Small H、White HD、Braam R等作者的文献为代表； $\\textcircled{4}$ 电子会议|群体决策支持系统|群体共识，以Daft $\\textrm { R L }$ 、Dennis A R、Gallupe R B等作者的文献为代表； $\\textcircled{5}$ 信息技术|技术接受模型|用户感知，以Davis FD、Moore $\\textrm { G C }$ 、Mathieson K等作者的文献为代表； $\\textcircled{6}$ 信息检索|检索性能|相关性反馈，以Deerwester S、SaltonG、Porter MF等作者的文献为代表； $\\textcircled{7}$ 信息系统|信息组织，以BenbasatI、OrlikowskiWJ等作者的文献为代表。",
+    "context2": "![](images/4fe2988eeabdc486ec64f3ac0cb6e292804d31f33d8507683eeb9e07cdb3157a.jpg)  \n图72010—2023年国内情报学领域前沿主题  \nFig.7Research Fronts in the Field of Domestic Information Science，2010—2023",
+    "context3": "其中，规模最大的前沿主题是“信息系统|信息管理|战略规划”，团簇的核心论文第一作者为Brancheau JC，标题为 Key Issues in Information Sys-tems Management，单篇论文被引量达314次。篇均学术影响力最大的前沿主题是“信息技术|技术接受模型|用户感知”，团簇的核心论文第一作者为—10－",
+    "context4": "Davis F D，标题为 Perceived Usefulness，PerceivedEase of Use，And User Acceptance of InformationTechnology，单篇论文被引量达15864次，团簇的篇均被引量高达3121次/篇。该时间切片内，平均出版年份最新的前沿主题也是“信息技术|技术接受模型|用户感知”。",
+    "context5": "从图9可见，1994—2005年共获得6个前沿主题聚类，分别是： $\\textcircled{1}$ 信息系统|信息质量|用户满意度，以Bhattacherjee A、DeLone WH、Wixom BH等作者的文献为代表； $\\textcircled{2}$ 技术接受模型|使用意图|使用行为，以Venkatesh $\\mathrm { V }$ 、Taylor S、Karahan-na E等作者的文献为代表； $\\textcircled{3}$ 用户心理|技术使用|用户感知，以Agarwal R、Moon $\\mathrm { ~ J ~ W ~ }$ 、Koufaris M等作者的文献为代表； $\\textcircled{4}$ 电子商务|电子数据交换|技术扩散，以Iacovou $\\mathrm { ~ C ~ L ~ }$ 、Mata FJ、Teo $\\textrm { H H }$ 等作者的文献为代表； $\\textcircled{5}$ 信息隐私|知识贡献|信息管理，以Chin W W、Wasko M M、Kankanhalli A等作者的文献为代表； $\\textcircled{6}$ 社会认知理论|自我效能，以 Compeau D R、Agarwal R、Compeau D 等作者的",
+    "context6": "![](images/37e6a511cd825351f3a28b870d9789d726897d9b43e2a7590dcbed376cba57dd.jpg)  \n图81956—1993年国外情报学领域前沿主题  \nFig.8Research Fronts in the Field of Foreign Information Science，1956—1993",
+    "context7": "文献为代表。",
+    "context8": "其中，规模最大的前沿主题有两个，分别是“信息系统|信息质量|用户满意度”，团簇的核心论文第一作者为Bhattacherjee A，标题为Under-standing Information Systems Continuance: An Expec-tation ConfirmationModel，单篇论文被引量达2378次；以及“技术接受模型|使用意图|使用行为”，团簇的核心论文第一作者为VenkateshV，标题为User Acceptance of Information Technology: Toward AUnifiedView，单篇论文被引量达10056次。篇均学术影响力最大的前沿主题也是“信息系统|信息质量|用户满意度”，其次是“信息隐私|知识贡献|信息管理”，团簇的核心论文第一作者为 $\\operatorname { C h i n } \\mathrm { ~ W ~ W ~ }$ ，标题为A Partial Least Squares Latent Variable Model-ing Approach For Measuring Interaction Effects，单篇论文被引量达2552次，团簇的篇均被引量为1174次/篇。该时间切片内，平均出版年份最新的前沿主题是“用户心理|技术使用|用户感知”，团簇的核心论文第一作者为AgarwalR，标题为Time Flies",
+    "context9": "When You’re Having Fun: Cognitive Absorption and Beliefs About Information Technology Usage，单篇论 文被引量达1617次。",
+    "context10": "从图10可见，2006—2015年共获得7个前沿主题聚类，分别是： $\\textcircled{1}$ 社交网络|知识共享|社会影响，以 Boyd D M、Ellison $\\textrm { N B }$ 、Valenzuela S等作者的文献为代表； $\\textcircled{2}$ 技术接受模型|消费行为|移动银行，以VenkateshV、KingWR、BenbasatI等作者的文献为代表； $\\textcircled{3}$ 信息隐私|信息系统|隐私管理，以 Dinev T、Smith $\\textrm { H J }$ 、BelangerF等作者的文献为代表； $\\textcircled{4}$ 信息系统|电子商务，以PetterS、WetzelsM、LiangH等作者的文献为代表； $\\textcircled{5}$ 电子商务|在线评论|信息反馈，以Mudambi $\\mathrm { ~ S ~ M ~ }$ 、Forman C、LiXX等作者的文献为代表； $\\textcircled{6}$ 信息技术|信息管理，以 Rai A、Pavlou $_ { \\mathrm { ~ P ~ P ~ } }$ 、LuYA等作者的文献为代表； $\\textcircled{7}$ 信息技术|技术抗拒|行为意图，以LimayemM、Andrew BJ、Polites $_ { \\mathrm { ~ G ~ L ~ } }$ 等作者的文献为代表。",
+    "context11": "其中，规模最大的前沿主题是“社交网络|知识共享|社会影响”，团簇的核心论文第一作者为",
+    "context12": "![](images/44bcd77b1aa126c73fc9823c795a5df5d19c03a9c8eaac9a43790cfb58a21992.jpg)  \n图91994—2005年国外情报学领域前沿主题  \nFig.9Research Fronts in the Field of Foreign Information Science，1994—2005",
+    "context13": "Boyd D M，标题为 Social Network Sites:Definition, History，and Scholarship，单篇论文被引量达6287 次。篇均学术影响力最大的前沿主题是“信息系 统|电子商务”，该团簇的核心论文第一作者为Petter S，标题为 Consumer Acceptance and Use of Information Technology: Extending the Unified Theory of Acceptance and Useof Technology，单篇论文被引量 达1767次，团簇的篇均被引量为1464次/篇。该 时间切片内，平均出版年份最新的前沿主题是“技 术接受模型|消费行为|移动银行”，团簇的核心论文 第一作者为Venkatesh V，标题为Consumer Acceptance and Use of Information Technology:Extending the Unified Theory of Acceptance and Use of Technology , 单篇论文被引量达4208次。",
+    "context14": "从图11可见，2016—2023年共获得7个前沿主题聚类，分别是： $\\textcircled{1}$ 数字经济|数字转换|数字创新，以VialG、Nambisan S、SvahnF等作者的文献为代表； $\\textcircled{2}$ 移动商务|用户感知|享乐动机，以Alal-wan A A、Baabdullah A M、Sharma $\\textrm { S K }$ 等作者的文献为代表； $\\textcircled{3}$ 社交媒体|行为动机|用户粘性，以—12—",
+    "context15": "Alalwan A A、Kamboj S、Shiau WL等作者的文献为代表； $\\textcircled{4}$ 区块链|供应链管理|数字支持，以Queiroz MM、Kamble S S、Hughes L等作者的文献为代表； $\\textcircled{5}$ 大数据|数据分析|企业服务，以GuptaM、GuentherWA、GroverV等作者的文献为代表;$\\textcircled{6}$ 人工智能|云计算|大数据，以Duan $\\textrm { Y Q }$ 、Dwive-di $\\textrm { Y K }$ 、GursoyD等作者的文献为代表； $\\textcircled{7}$ 区块链|分布式分类技术|信息系统安全，以Kshetri N、Casino F、KuoTT等作者的文献为代表。",
+    "context16": "其中，规模最大的前沿主题是“移动商务|用户感知|享乐动机”，团簇的核心论文第一作者为Alalwan A A，标题为 Unified Theory of Acceptanceand Use of Technology: A Synthesis and the Road A-head，单篇论文被引量达592次。篇均学术影响力最大的前沿主题是“区块链|分布式分类技术|信息系统安全”，该团簇的核心论文第一作者为Ksh-etri N，标题为1 Blockchain’s Roles in Meeting KeySupply Chain Management Objectives，单篇论文被引量达608次，团簇的篇均被引量为346次/篇。该时间切片内，平均出版年份最新的前沿主题是“区"
+  }
+}

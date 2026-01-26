@@ -1,0 +1,51 @@
+{
+  "original_filename": "full_388.md",
+  "FRBR应用于网络信息组织研究述评": {
+    "context1": "詹丽华",
+    "context2": "摘要对国内外FRBR应用于网络信息组织的研究文献进行调查分析，发现FRBR促进了网络信息的描述与揭示，对OPAC、书目控制、规范控制等产生影响，FRBR的实践应用也取得了成就。指出现有研究存在的不足，展望FRBR应用于网络信息组织的研究方向。",
+    "context3": "关键词FRBR 网络信息信息组织"
+  },
+  "An Evaluation of Application of FRBR to Network Information Organization Zhan Lihua": {
+    "context1": "AbstractThis paper analyses the academic literature on aboutthe applicationofFRBR to network information organizations at home and abroad,and notices that FRBR has promoted the identification and description of network information, exerting an impact on OPAC,bibliographic control,and specification control.Inorder to address the insufciency in current research,future research direction is discussed in the paper as well.",
+    "context2": "Key wordsFRBR,Network information, Information organization",
+    "context3": "国际图联（IFLA）于1998年发表的书目记录的功能需求（FRBR）的最终报告指出，FRBR研究尽量涵盖所涉及的各类资料，包括在研究中的数据涉及文字、音乐、地图、视听、图形和立体资料，而且反映所有记载信息的方式（模拟的、声学的、电学的、数字的、光学的等)，以数字形式存储的文字、音乐、地图、视频等网络信息也被纳入该研究范畴。根据中国期刊全文数据库、维普中文科技数据库、Springer-Link、Science Direct、ScienceOnline 等的检索结果，国内外FRBR应用于网络信息组织的研究主要集中在：（1）应用于网络信息资源的描述与揭示；(2）对OPAC、书目控制和规范控制等产生的影响；(3）FRBR模型的实现及实践应用。本文拟对现有研究进行分析，找出研究中存在的不足，并指出未来FRBR应用于网络信息组织研究的发展走向。"
+  },
+  "1FRBR应用于网络信息资源的描述与揭示FRBR将书目数据用户关心的关键对象分": {
+    "context1": "成三组实体：（一）作品、内容表达、载体表现、单件；（二）个人、团体；(三）概念、实物、事件、地点。三组实体的不同层次以及实体之间以属性相关联，构成了一个多层立体的概念模型。该模型在网络书目控制、网络资源分类组织中具有重要意义，在数字信息资源组织方面也具有显著优点。面对网络信息的繁芜，基于FRBR能探寻更为合理的网络信息的加工和序化方法，比如，将“搜索引擎”方案、“人海”方案和“简化”方案结合使用，构成网络信息资源加工和序化的总体解决方案[1；Aqua Browser Library、FRBRDisplayTool、Visual Cat、Virtua 等多个国外软件也实现了基于FRBR的信息组织深度序化[2。",
+    "context2": "在对各类型网络信息的描述与揭示上，FRBR模型有其独特的作用。例如应用于音频资源的描述与揭示。由于当前完成对音频资源的查找与检索任务的主要困难在于音频资源的格式、编目方式和MARC记录的格式等，FRBR化会对解决这些困难有所促进[3，它的立体模型和面向对象编目的理念为其提供了新视角。要对网络环境中的音频资源进行描述，首先要考虑到音乐作品及其查找需求的特点主要由整体一部分和派生两种关系决定，基于MARC的编目体系在描述音乐作品关系中存在局限性，基于FRBR的资源描述框架却能较好地反映音乐作品整体与其组成部分、源作品与其衍生作品的关系[4。从元数据规范的角度来看，制定音频资料元数据规范需要正确界定著录对象，确定它们之间的关系，同时根据著录对象的特征及其被用户利用的特点明确元数据的构成元素，FRBR提出的文献信息资源的实体层次有助于根据资源的特征与用户需求，选择适当的描述层次，确定相应的元素构成[5。再如对网络型电子期刊和连续出版物的电子资源等连续性资源的描述与揭示，基于FRBR的研究对策能较好地处理该类型资源的复杂性和多重版本等问题[。对于电子期刊，研究者通过分析各实体属性、关系与用户任务的关联性，根据支持用户任务必需的实体属性和关系，确定国家书目记录的基础书目数据，探讨了FRBR与期刊编目的关系，并初步设计了基于 FRBR的电子期刊编目的新思路、新方法[]。",
+    "context3": "FRBR模型的主旨之一是帮助书目数据用户完成查找、识别、选择和存取的任务，但从用户需求和对该模型的测评来看，FRBR理念在网络信息组织中的实现尚待进一步完善，进而研究者提议设计一个概念性的结构，在MARC和FRBR之间建立关联，既能避免MARC记录的平面性和FRBR模型的刻板性，又能同时发挥二者在网络信息描述中的长处[8。可以说，在当前的网络环境中，FRBR正深刻地影响着编目工作和信息组织。"
+  },
+  "2FRBR对网络信息组织产生的影响2.1 FRBR与OPAC": {
+    "context1": "OPAC集采访、编目、流通管理等为一体，主要面向用户服务，它对不断增长的网络资源的查找、发现和选择任务的完成仍有不足，仍存在检索入口过时、检索结果实用性低、信息显示呆板僵硬以及与读者互动不够等问题。FRBR模型面向用户编目及其立体结构的特征使它首先对OPAC的检索功能产生如下影响：使书目架构立体化从而改变记录格式；改善显示模式，使资源间的关系更加明确，利于用户基于关系进行缩检和扩检；提高用户检索的全面性；利于OPAC向Web-OPAC发展。郭卫宁通过分析美国VTLS、RLG、OCLO 的 Humphry Clinker FRBR化等项目发现，FRBROPAC能尽可能地将相关资源聚合在一起，更好地反映知识之间的相互关系，而且FRBR使书目记录从文献单元上升到表现形式，增加了书目记录的内容信息，强化了记录之间的关系，还能使OPAC的检索界面更友好，更好地支持用户任务[1]。Yin Zhang 和Athena Salaba分析了FRBR与OPAC的优劣、FRBR的功能、FRBR如何改进检索界面、FRBR如何满足用户的检索需求等，提出FRBR应更多地关注用户，将它的框架建立在用户任务上[11]。",
+    "context2": "除了探讨FRBR对OPAC产生的影响及如何在OPAC中实现优化理念外，研究者还致力于FRBR化OPAC系统的开发研究。创建一个用现有CNMARC书目记录实现基于FRBR模型的OPAC系统是可行方法之一。该系统能将独立的CNMARC记录通过OPAC系统返回查询时，将关联的记录以FRBR 模型分层反映出来。它由数据库层、持久层、业务层和表现层组成,以CNMARC书目记录的引入及聚合来实现系统过程[12]。但由于MARC数据和OPAC都存在缺陷，找到折中的方法十分必要。方法一，将OPAC与豆瓣融合改进并体现FRBR编目模式，就能找到解决豆瓣的自由分类与OPAC的图书分类数据对接的方法，从而改进豆瓣的书目数据组织，构建立体的书目检索模型[13]。方法二,将CNMARC书目记录转换为FRBR模式，转换的重点在于要剖析作品层的识别要素：责任者、题名、文学体裁，内容表达层的识别要素：语种、次要责任者、记录类型、版次，可以借鉴国外的研究经验研究出将CNMARC格式的书目记录转换为FRBR模式的运算法则[14]。",
+    "context3": "在我国，FRBR在OPAC中的实现仍存在不少障碍，如无法真正做到书目记录著录一致、标识符号使用统一、题名统一、著者名称规范以及不同语种名称标目问题、数据的合并与转换问题等。如何解决这些障碍，还需要研究者深入地探索。"
+  },
+  "2.2对网络书目控制的影响": {
+    "context1": "网络书目控制在描述性控制、版权控制、规范化控制、远程资料著录控制、搜索引擎和文献信息的专指性等方面仍有一定的难度[15]。FRBR模型对网络书目控制在解决上述难点上也起到促进作用。FRBR的著作、内容表达和载体表现的实体层次能重新构造书目数据体系，也可以由用户和网页制作者制作网页标签，以实现基于FRBR的网络书目控制[1]。在网络书目数据构建方面，基于FRBR的书目关系网络构建可以从两个层次展开：基于作品一内容表达层的书目关系、基于载体表现层的书目关系[17]。"
+  },
+  "2.3对规范控制的影响": {
+    "context1": "IFLA发表FRBR后又成立了“规范记录的功能需求和编号\"(Functional Requirements andNumbering of Authority Records， 简 称 FRANAR)工作组。它的基本任务是继续FRBR的工作,定义规范记录的功能要求；研究国际标准规范数据号 (ISADN)的可行性、定义可能的应用和用户、确定需要ISADN的规范记录类型、研究该号的结构和必要的管理类型等。研究者结合FRBR、FRANAR思想对规范工作提出的新要求，探讨了实现FRBR化目录的难点和障碍。例如，在并列题名著录上，《中国文献编目规则(2）》和《CALIS联机合作编目手册》存在着差异，在FRBR思想的指导下制定并列题名统一化和规范化的著录原则就显得非常必要[19]。如今，FRBR模式已在我国国家图书馆规范工作得到应用，对检索控制发挥着重要作用[20。"
+  },
+  "3FRBR的实践应用": "",
+  "3.1FRBR的实现方法－-FRBR树模型及FRBR化": {
+    "context1": "在FRBR的深化与拓展方面，研究者尝试结合数据结构中的树概念建立FRBR树模型，以链表作为其存储结构，来实现FRBR树模型在计算机内的存储[21]，并利用树的性质将FRBR数学化、结构化，使用数据结构中已经比较成熟的有关树的各种操作，诸如求根函数、求双亲函数、求孩子结点函数、插入子树操作等，来对FRBR 书目记录进行建立、修改等[2]。",
+    "context2": "FRBR化即转换现有书目记录以符合FRBR 需求的过程，它是 OCLC(Online ComputerLibrary Center)提出的概念。OCLC的 FRBR项目试图达到以下目的：(1)检测在大型书目数据库中FRBR应用的灵活程度；(2)检验所转换的书目记录是否符合FRBR要求；(3)利用FRBR化数据库建立一个服务模型。OCLC公布了这个将书目记录转换成FRBR模式的算法“FRBRWork-Set Algo-rithm”[23]。俄亥俄州 OCLC研究组成员Timothy J.Dickey 指出，FRBR化对音乐、绘画等艺术作品以及文学作品等有很好的序化作用[24]。我国研究者张俊娥对OCLC公布的算法流程进行了介绍与分析[25]。"
+  },
+  "3.2国内外FRBR的实践项目": {
+    "context1": "在国内，FRBR理念率先在香港大学图书馆和台北故宫博物馆得到实现。前者在个人姓名元数据结构中使用了FRBR模型，它们扩展了该模型中的PERSON概念，建立了PERSON模型，用于替换传统的规范数据模型。后者是基于NPM(National Palace Museum，中国台北故宫博物馆）中国绘画和书法的FRBR模型元数据项目，其结果证明FRBR概念模型在阐明元数据元素及其关系上非常有用。其他类似项目还有台湾地区的数字拓片项目元数据计划、台湾社会人文电子影音数字博物馆、元数据系统的需求评选与发展设计[26]。",
+    "context2": "国外FRBR应用于网络信息组织的实践研究主要集中在：(1）应用于主题网关，如澳大利亚国家图书馆的 AustLit(Australian Literature Gateway)项目；(2）应用于系统开发，如OCLC公布的模式转化算法“FRBR Work-Set Algorithm’、RLG的“Red Light Green”项目；(3）应用于音乐、艺术作品等组织，如印第安那大学的Digital Music Li-brary 项目；(4）FRBR 模型的拓展、信息组织方法的选择与设计、元数据设计等。"
+  },
+  "4结语": "",
+  "4.1研究中存在的不足": {
+    "context1": "FRBR应用于网络信息组织的研究内容广泛，但仍存在不足：(1）对FRBR应用于地图、视频图像、多媒体等网络信息组织的研究缺乏；(2）对FRBR深度序化网络资源的研究乏力，例如，如何利用FRBR来区分“连续性资源”的“连续性”概念与电子格式所记录的实体的动态本质、文本资源的摹本与影印与图像资源的“图像”等；(3）对利用元数据拓展FRBR模型、或转换CNMARC数据成FRBR 模式等的研究不够。另外，国内研究者对国外在该方向发展的追踪研究不够；与国内相比，国外研究者在FRBR的实践应用上投入了较多的关注，如应用于音频信息、口述历史、艺术作品等的组织，并通过对比FRBR与其他模型(如ABC、CRM、UKLON、XOBIS等）的关系进一步探析了FRBR在网络信息组织中的挑战与作用。"
+  },
+  "4.2对未来研究的展望": {
+    "context1": "通过上述分析，认为可以从以下方面对FRBR应用于网络信息组织作深入探讨：(1)"
+  },
+  "参考文献": {
+    "context1": "从元数据规范入手，尝试重构MARC记录格式，以便更直接地反映各实体间的关系； (2)将FRBR模型拓展或深化，延伸模型的适用性；(3）以FRBR 概念模型为基础，创建完整开发的数据模型；(4）设计FRBR实践的检测模式，检测FRBR的实现情况，为进一步完善模型理念提供参考。由于FRBR出现的时间不长，它应用于网络信息组织的先进性和优越性还需要时间和实践的双重检验，因此，探讨网络环境下FRBR如何更好地应用于信息组织与检索是目前具有理论意义和实践探索意义的重要课题。",
+    "context2": "[1]真溱.矛盾重重的元数据世界(二)[J].图书情报工作,2002(10):23-28.  \n[2] 白海燕.FRBR在信息组织深度序化中的应用分析[J].现代图书情报技术,2009(9):34-39.  \n[3] Timothy J. Dickey.FRBRization of a Library Catalog:Better Collocation of Records,Leading to EnhancedSearch,Retrieval,and Display[J].Infornation Technol-ogy and Libraries,2008(3):23-31.  \n[4] 洪颖.基于FRBR的音乐资源描述[J].图书馆工作与研究,2009(1):58-60.  \n[5] 王绍平.音频资料元数据规范与FRBR的应用[J].现代图书情报技术,2004(9):21-24.  \n[6] 谢美萍.FRBR在连续性资源编目中的应用[J].图书馆杂志,2007(3):18-21.  \n[7] 孟妍嫣，张援朝．试析书目记录功能需求(FRBR）与期刊编目的关系[J].图书情报论坛,2009(2):31-35.  \n[8]Seungmin Lee,Elin K.Jacob.An Integrated Approachto Metadata Interoperability—Construction of a Con-ceptual Structure between MARC and FRBR.LRTS,55(1).  \n[9] 高冉.FRBR模型对OPAC检索功能的影响[J].国家图书馆学刊,2006(4):15-19.  \n[10] 郭卫宁.FRBR与OPAC发展[J].图书馆杂志,2005(9):49-54.  \n[11] Yin Zhang.Athena Salaba.User reasearch and Test-ing of FRBR Prototype Systems[J].Proceedings ofthe American Society for Information Science andTechnology.2007,44(1):1-5.  \n[12] 王泽贤.基于CNMARC的FRBR化OPAC系统开发初探[J].现代图书情报技术,2008(7):81-85.  \n[13] 吴江.OPAC与豆瓣融合改进体现FRBR的编目模式研究[J].图书情报工作,2009(7):43-48.  \n[14] 胡晓鹰.FRBR化中文OPAC运算法则开发研究[J].图书情报工作,2008(8):89-92.  \n[15]吴宗敏.网络环境下书目控制理论研究[J].兰台世界,2006(3):54-55.  \n[16] 吴江.FRBR在网络书目控制的实现构想[J].数字图书馆论坛,2007(4):37-40.  \n[17] 鞠福琴，胡仲谋.FRBR视角：关于书目关系网络构建的思考[J].农业图书情报学刊,2008(3):82-83.  \n[18] 付蔚,王海兰．从FRBR到FRAR一一兼述中文文献资源的规范控制工作[J].大学图书馆学报,2007(2):97-99.  \n[19] 寿建琪.从FRBR原则看并列题名著录及其规范化[J].科技情报开发与经济,2008(13):24-26.  \n[20] 高红.FRBR模式在国家图书馆规范控制系统中的实践与探索[G].//文津论丛:国家图书馆第八次科学讨论会获奖论文选集.北京:北京图书馆出版社,2005:101-106.  \n[21] 张学梅,曹先胜.FRBR-一树模型的应用研究[J].现代图书情报技术,2006(6):31-33.  \n[22] 张学梅，曹先胜.FRBR书目记录的树模型[J].图书馆建设,2006(4):53-55.  \n[23] OCLC Research Activities and IFLA 's FunctionalRequirements for Bibliographic Records[N/OL].[2012-01-10].http://www.oclc.org/research/activi-ties/past/orprojects/frbr/default.htm.  \n[24] TimothyJ.Dickey.FRBRization ofa Library Catalog:Better Collocation of Records,Leading to EnhancedSearch,Retrieval,and Display[J].Infornation Technol-ogy and Libraries,2008(3):23-31.  \n[25] 张俊娥.浅析OCLC的FRBR作品聚集算法[J].大学图书馆学报,2006(6):66-70.  \n[26] 陈丽萍.书目记录功能需求模型及其应用[J].图书馆理论与实践,2005(5):62-64.",
+    "context3": "詹丽华女，1976-，硕士，广东肇庆学院图书馆，馆员。肇庆526060",
+    "context4": "(收稿日期:2011-12-01 编发:许桂菊)"
+  }
+}

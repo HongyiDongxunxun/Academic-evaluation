@@ -1,0 +1,106 @@
+{
+  "original_filename": "full_5010.md",
+  "实验规程的过程级语义表示研究综述": {
+    "context1": "付 芸1² 刘细文² 朱丽雅」韩 涛1,2  \n1（中国科学院文献情报中心北京 100190)  \n2（中国科学院大学经济与管理学院信息资源管理系北京100190)",
+    "context2": "摘要：【目的】揭示实验规程过程级语义表示研究进展，发现尚需解决的关键研究问题,探究发展趋势。【文献范围】使用相关主题词在Web of Science、arXiv、Engineering Village、中国知网、万方、维普中检索筛选出76篇文献,并参考知名实验规程专业期刊的提交要求和评审原则文档。【方法】在界定实验规程及其过程级语义表示相关概念基础上，从过程级语义表示方法、表示要素抽取方法以及相关表示数据应用三方面进行分析评述。【结果】实验规程的过程级语义表示研究整体处于发展初期,表示方法中表示框架尚未统一、表示要素各异,从以自然语言编写为主的实验规程中自动抽取过程级语义表示要素难度较大、效果一般,过程级语义表示的实验规程数据已在部分方向开展应用研究,整体可提升空间较大。【局限】未详细阐述面向表示要素自动抽取技术细节及数据应用方法过程。【结论】未来应融合各类表示方法的优势以探索构建包含较完整要素的统一表示框架,探索基于先进智能技术的表示要素自动抽取方法研究,探索使用过程级语义表示的实验数据开展广泛应用研究。",
+    "context3": "关键词：实验规程过程级语义表示表示方法表示要素抽取方法数据应用  \n分类号：G35N19  \nDOI: 10.11925/infotech.2096-3467.2023.0335",
+    "context4": "引用本文：付芸，刘细文，朱丽雅等.实验规程的过程级语义表示研究综述[J].数据分析与知识发现,2023,7(8):1-16.(Fu Yun,Liu Xiwen, Zhu Liya, Han Tao.Review of Semantic Representation of ExperimentalProtocols at Process-Level[J]. Data Analysis and Knowledge Discovery, 2023,7(8): 1-16.)"
+  },
+  "1引言": {
+    "context1": "智能科研要求实验规程由语句级向过程级语义表示转变。以AlphaFold[1为代表的\"数据驱动知识发现\"方法[2],受所使用数据完整性和实质内容的限制[3],以材料领域为例,包含材料性质、结构的数据已较为丰富，限制新材料开发速度的步骤已变成合成路径的发现和验证[4]。数据驱动的材料合成路径发现研究，需将语句级实验规程向可计算的过程级语义表示转变[5]。",
+    "context2": "智能实验平台发展要求实验规程由文本语句向标准操作指令转变。科学实验存在较高的复现危机[，以自驱动实验室、实验机器人为代表的智能实验平台是当前解决实验数据质量、多样性及实验复现、效率、安全等问题极具潜力的解决方案[7]。由于缺乏规范的数字实验规程表示和交换协议[8],缺乏标准实验操作指令或通过自然语言处理(NaturalLanguageProcessing，NLP)直接访问文献中实验工作流程的能力等[9],正在限制智能实验平台发展。因此需将文本语句描述的实验规程向标准操作指令转变。",
+    "context3": "然而，当前尚未发现实验规程的过程级语义表示或标准操作指令的明确定义以及相关研究综述，本文则致力于补足这一研究空白。为最大化获取相关文献,本文使用核心主题词 scientific/experiment/experimental protocol/procedure、wet lab protocol,在Web of Science、arXiv、Engineering Village 中不限年份检索，经人工判读后筛选出76篇英文文献。基于这些文献内容,提炼总结中文核心主题词\"实验规程\"\"实验程序\"或\"实验协议”,及限定主题词\"数据化\"或\"数字化\"和\"表示\"\"表征\"\"组织\"或\"抽取”,在中国知网、万方、维普中不限年份检索，未发现相关文献。同时,参考Current Protocol、NatureProtocol、Bio-protocol等实验规程专业期刊中论文撰写和评审要求文档。",
+    "context4": "通过梳理76篇文献发现，当前研究主要分为实验规程的过程级语义表示方法、表示要素抽取方法以及该类数据应用三方面。本文在界定实验规程的过程级语义表示相关概念基础上,围绕上述三方面展开综述，并提出对应的关键研究问题及发展趋势。"
+  },
+  "2实验规程的过程级语义表示概念界定": {
+    "context1": "当前尚未有研究明确定义什么是实验规程的过程级语义表示。本文在归纳分析前人关于实验规程概念和特征的研究基础上，重新定义实验规程;在总结前人围绕实验规程的过程级语义表示框架和要素研究基础上，明确定义实验规程的过程级语义表示。"
+  },
+  "2.1实验规程的内涵解析": {
+    "context1": "实验规程源于科学实验，对应科学实验三个层级[10](即设计层、模型层(方法)和物理层(结果))中的设计层，是实验设计的书面计划[]。实验规程具体是指对数据和真实世界对象操作的描述，目的是收集和处理实验数据，和/或构建新对象，其本质上是科学研究活动的显式离散化和组织，通常包含两类任务：结构化实验任务和操作动作（以及附属参数)[3]。在生物领域,实验进一步分为以计算机处理数据为主的干实验和在实验室环境下操作的湿实验,并将湿实验规程(WetLab Protocols，WLP)定义为一组用领域专业自然语言编写的用于分布执行生物实验过程的指令集[12]。",
+    "context2": "根据专业实验规程期刊的刊文要求，可将实验规程文献分为三类：研究型实验规程、丰富型实验规程、精选型实验规程。研究型实验规程对应PLOSONE中出版的StudyProtocol,强调实验规程的前期研究设计。丰富型实验规程对应NatureProtocol中出版的Protocol以及PLOSONE中出版的LabProtocol，强调实验规程应来自经同行评议后已出版的研究文献。精选型实验规程对应CurrentProtocol中出版的Protocol Article④以及Bio-protocol中出版的Protocol,强调由期刊编委精选后邀请已出版研究文献作者，丰富和完善实验规程。",
+    "context3": "三类实验规程文献均强调实验过程的完整性和复现性特征，即实验规程应包含实验目标、材料、溶剂、配方、设备、数据和软件等要素，且内容编写应：按时间顺序,详细描述实验分步执行说明;按不同的子实验分类、分层描述;通常使用主动语态及现在时,即每步一般以动词开头;除操作动词,每步还应包含详细的实验材料、溶剂、温度、压强等条件;用词一致、词义明确,避免模糊词,如\"一些\"\"大约\"等。",
+    "context4": "基于上述总结可知，前人关于实验规程的定义无法覆盖当前对实验规程内容的新要求和特征。因此,本文将重新定义实验规程：对数据和真实世界的实验活动、行动、操作动作、操作对象、操作顺序、操作条件等的描述，目的是确保实验过程完整且可复现,规范执行实验，收集和处理实验数据，和/或构建",
+    "context5": "新对象。"
+  },
+  "3.1本体": "",
+  "2.2实验规程的过程级语义表示概念界定": {
+    "context1": "尽管实验规程专业文献中提出诸多编写要求，但这些使用自然语言编写的文本通常带有术语或口语,很难被计算机或智能实验平台理解执行[13]。围绕将自然语言描述的实验规程转换为机器可读的语义格式,科学家们已开展众多探索研究，并将这种形式的实验规程称为实验动作显性语义[13]、实验动作序列[14]、过程级语义表示[15]、实验操作指令[16]。尽管名称不同,但其本质基本相同：捕获实验过程及其参数之间关系，以确保实验过程完整、可复现及支持机器计算执行。",
+    "context2": "在兼顾名称的通用性和描述力的基础上,本文将这种机器可读的语义格式统称为实验规程的过程级语义表示。由于当前相关研究成果中仅描述机器可读的实验规程语义表示方法和要素，尚未给出明确定义，本文在理解相关论述的基础上,将实验规程的过程级语义表示定义为：通过定义捕获实验规程复现的全部语义特征,包括实验操作动作、操作对象、操作顺序、操作条件等,在自然语言格式的文献语句与机器可读的低级实验指令之间构建一套语义表示框架。",
+    "context3": "下面将具体阐述实验规程的过程级语义表示方法、表示要素获取及数据应用等研究进展。"
+  },
+  "3实验规程的过程级语义表示方法研究": {
+    "context1": "实验规程的过程级语义表示方法主要有三类：本体、数据模型和结构化图。研究表明,在科学数据的互操作性和知识推理方面，基于本体的方法具有更多优势[17-18]；基于数据模型的方法对于特定用户需求场景更具适应性[19];结构化图表示方法则是引入图论的思想，将实验规程表示为连贯的动作事件[5],较为直观。接下来将具体分析各类表示方法的特点和适用情景。",
+    "context2": "当前围绕实验规程的过程级语义表示本体可以分为4类，其典型代表分别为强调完整实验内容的本体EXPO[10]、强调实验规程内容的本体EXACT2[13]、强调实验过程执行计划的本体P-PLAN①、强调实验过程安全的本体OntoSafe[20]。值得一提的是，当前使用最广泛的本体语言是OntologyWebLanguage(OWL）[21],最常用的本体编辑工具是Protege,通过它可以直观浏览、设置本体语言中定义的类、关系和逻辑公理。考虑到本文关注的实验规程相关本体的差异主要体现在类及关系结构的设计上，因此下文将着重呈现各本体中重要的类及关系结构设计。"
+  },
+  "（1）强调完整实验内容的本体EXPO": {
+    "context1": "早期实验本体主要面向特定研究方向，如微阵列实验本体(MGEDOntology,MO)、蛋白质组学实验本体（The Controlled Vocabularies（CV's）of theProteomic Standard Initiative（PSI),PSI CV)④等。首个独立于领域的科学实验通用本体EXPO是由Soldatova等[10]于2006年提出的，旨在为有效分析、注释和共享结果提供实验的正式描述,可用于描述计算和物理实验、原子动作和复杂动作、实验装置等内容。如表1所示，EXPO③中包含过多非实验规程内容。本文在此仅选取其中与实验规程相关的类及其关系结构，如图1所示。即使EXPO对实验的描述较为丰富，但对实验动作和过程安全等内容的描述力不足。",
+    "context2": "在EXPO的基础上，融合领域需求研制出众多特色实验本体，主要包括：在摩擦学领域的实验本体tribAIn[22,基于已发布的tribAIn.owl可知,主要借鉴EXPO中Proposition Relation、ContentBearingPhysical类别下的部分子类以及hasPart属性下的部分子属性，其他的类及属性则主要依据摩擦学领域特征设置，已用实例证实tribAIn覆盖摩擦学实验的能力；"
+  },
+  "表14个本体内容概要": {
+    "context1": "Table 1The Main Content Contained in the Four Ontologies",
+    "context2": "<table><tr><td>本体</td><td>类</td><td>对象属性</td><td>标注 属性</td><td>数据 属性</td><td>公理</td><td>逻辑 公理</td><td>声明 公理</td><td>注释 断言</td></tr><tr><td rowspan=\"4\">EXPO</td><td>325个,包括Entity类、Abstract和Physi-</td><td></td><td rowspan=\"4\"></td><td rowspan=\"4\"></td><td rowspan=\"4\">角2个0个2067条1019条402条646条</td><td rowspan=\"4\"></td><td rowspan=\"4\"></td><td rowspan=\"4\"></td></tr><tr><td>cal两个子类,整体类别层级已划分至978个，包括hasAttribute和hasPart两</td><td></td></tr><tr><td>层;每个类都明确定义其标签和表示含个属性及子属性;每个属性都明确</td><td></td></tr><tr><td>义、包含的下一子类、对应的公理、不相定义其用法、上级属性、对应的类等</td><td></td></tr><tr><td rowspan=\"4\">EXACT2</td><td>交类等信息</td><td></td><td rowspan=\"4\"></td><td rowspan=\"4\">角7个1个858条371条168条319条</td><td rowspan=\"4\"></td><td rowspan=\"4\"></td><td rowspan=\"4\"></td><td rowspan=\"4\"></td></tr><tr><td>162个,包括experimental action、experi- mental procedure、alert message等;每个</td><td>16个,包括 hasAtribute 和 hasPart两</td></tr><tr><td>类都明确定义其标签和表示含义、包含的</td><td>个属性及子属性;每个属性都明确</td></tr><tr><td>下一子类、对应的公理、不相交类等信息</td><td>定义其用法、上级属性、对应的类等</td></tr><tr><td rowspan=\"4\"></td><td>12个,其中 Plan 和 MultiStep 分属多个</td><td>15个,包括correspondsToStep、</td><td rowspan=\"4\"></td><td rowspan=\"4\">13个0个</td><td rowspan=\"4\"></td><td rowspan=\"4\">142条47条</td><td rowspan=\"4\"></td><td rowspan=\"4\">61319条</td></tr><tr><td>P-PLAN类;每个类都明确定义其标签和表示含</td><td>hasInputVar等;每个属性都明确定</td></tr><tr><td>义、包含的下一子类、对应的公理等信息</td><td>义其标签和表示含义、表示语言转</td></tr><tr><td></td><td>化形式、对应的类等</td></tr><tr><td rowspan=\"4\"></td><td></td><td>513个,包括 Sensor、controller、Hazard 80个,包括define、hasElment、is-</td><td rowspan=\"4\"></td><td rowspan=\"4\"></td><td rowspan=\"4\"></td><td rowspan=\"4\"></td><td rowspan=\"4\"></td><td rowspan=\"4\"></td></tr><tr><td>OntoSafe 等,每个类都明确定义其标签和表示含CausedBy等;每个属性都明确定义5个70个2496条1172条720604条</td><td></td></tr><tr><td></td><td>义、包含的下一子类、对应的公理等信息其用法、表示语言转化形式等</td></tr><tr><td></td><td></td></tr></table>",
+    "context3": "![](images/03974490645bb3ce3b4ea46cba922f4bb4fd7100a237c4a8dc7e57ee3338fdfe.jpg)  \n图1EXPO中与实验规程相关类及关系结构  \nFig.1Experitenmental Protocol Related Classes and Its Relation in EXPO",
+    "context4": "在生物医药领域,King等基于EXPO开发了系列面向实验机器人使用的定制实验本体—初期面向机",
+    "context5": "器人科学家Adam执行微生物实验的定制版本体LABORS[23],以及面向机器人科学家Eve执行药物"
+  },
+  "数据分析与知识发现": {
+    "context1": "筛选实验的定制版本体 $\\mathrm { D D I } ^ { [ 2 4 ] }$ ;在计算机领域,机器学习实验本体Expose[25]旨在促进算法交流,其中关于实验背景的类主要来自EXPO;在材料领域,本体MatOnto[26]旨在表示材料及其结构和特性、材料构成及工程处理步骤等结构化知识,其中处理步骤相关类来源于EXPO。"
+  },
+  "（2）生物医药实验规程语义本体EXACT2": {
+    "context1": "生物医药实验的通用本体EXACT2[13]是在生物实验的通用本体EXACT[27]的基础上扩建的，最重要的变化是为每个实验动作添加了描述符，如温度、动作持续时间等，确保实验规程可安全复现。EXACT2旨在明确定义实验规程的语义信息，以确保其再现性，支持计算机应用程序读取计算，帮助生物学家准备、维护、提交和共享实验规程。EXACT2中包含的内容要点如表1所示，使用Protegé软件打开后呈现的全部类及其关系结构如图2所示。",
+    "context2": "EXPO与EXACT2的区别是：EXPO注重科学实验更全面内容的语义表示，实验规程只是其中的一部分;EXACT2更聚焦实验规程的语义表示，最为突出的是规定系列实验动词类和属性描述符、预警信息类和属性信息等，保证实验动作的显式语义可被机器读取计算,实验规程可安全复现,因此更符合当前对实验规程过程级语义表示的需求。",
+    "context3": "![](images/ee40755d07e75ea09b51dfcae56300494ff606e28f56b1d82d5c66d48d5ae894.jpg)  \n图2EXACT2类及关系结构①  \nFig.2Classes and Its Relation in EXACT2",
+    "context4": "（3）强调实验过程执行计划的本体",
+    "context5": "实验过程执行的计划本体P-PLAN，其核心思想是：实验过程执行工作流是一个“计划”，它定义了角色（Entity）、任务（Activity）、要执行的任务(Step)三层结构，即科学工作流通过实施科学方法,实现科学知识收集和组织的总体目标。通过分离工作流步骤,可实现不同工作流对同一任务指令的重用。P-PLAN中包含的内容要点如表1所示，一个P-PLAN示例如图3所示，其中图3(a)为P-PLAN中子计划表示,图3(b)为使用Protégé软件打开后呈现的类及关系结构。P-PLAN已应用于面向FAIR原则的科学工作流数据建设[28],优化工作流任",
+    "context6": "务，提高数据复用率。",
+    "context7": "![](images/6a883392c7a6f6419c5ebbe4b6dad3a7702b720e16ca67ab39b2548b39d393b6.jpg)  \n图3P-PLAN示例",
+    "context8": "（4）强调实验过程安全的本体",
+    "context9": "实验过程安全本体OntoSafe[20]涵盖化学过程安全基本概念,化学工艺安全系统,工业卫生,安全标准、法规和组织,数学(排放和扩散)模型等与过程安全相关的所有方面，为过程安全社区提供对相关概念及其关系的共同理解,以提高实验过程安全设计、分析和管理的效率，使用和重用社区信息。OntoSafe中包含的内容要点如表1所示，使用Protegé软件打开后呈现的类及关系结构如图4所示，图中着重展示安全系统、火及暴露物、毒理等特色内容。OntoSafe已应用于面向实验机器人平台使用的过程控制与模拟框架建设[29],明确实验过程中的温度边界、时间边界等。",
+    "context10": "![](images/4acd11f936b582e0d381aceeace385b17972cc573afea2b3bcbbc244ef4dcaf1.jpg)  \nFig.3Example of P-PLAN   \n图4OntoSafe示例③  \nFig.4Example of OntoSafe"
+  },
+  "3.2数据模型": {
+    "context1": "实验规程的过程级语义表示数据模型可以分为三类,典型代表分别是合成实验规程的过程级语义表示数据模型（包括有机[14]、无机[30-33]）、支撑智能实验平台的化学配方文件模型(Chemical RecipeFiles,CRF）[34]和化学描述语言模型（ChemicalDescriptive Language, $\\chi \\mathrm { D L }$ )[9,它们各自的特征及适用场景如下。",
+    "context2": "（1）合成实验规程的过程级语义表示数据模型",
+    "context3": "有机、无机合成实验规程的过程级语义表示数据模型及其对应的实验动作和表示参数设置如表2所示。其中,有机合成与无机合成的数据模型中实验动作及表示参数差异较大，无机合成的多个数据模型均由Ceder教授团队完成，相应实验动作及表示参数设置差异不大。因此,数据模型表示方法中的关键问题是：选择合适的动作词,并为其预定义合适的属性(表示参数),以完整、高效地表示实验规程,且保证其可复现。",
+    "context4": "表2合成实验规程的过程级语义表示数据模型  \nTable 2Process-Level Semantic Representation Data Model for Synthesis Experimental Protocols",
+    "context5": "<table><tr><td>数据模型名称</td><td>实验动作及表示参数</td></tr><tr><td rowspan=\"2\">有机合成实验动作序列模型[14]</td><td>定义28类实验动作,且为每个动作预定义相关属性： InvalidAction(error）、Add(material,dropwise,temperature,atmosphere,duration）、CollctLayer（layer）、 Concentrate(none）、Degas(gas,duration）、DrySolid(duration,temperature,atmosphere）、DrySolution （material）、Extract(solvent,repetitions）、Filter(phase_to_keep）FolowOtherProcedure(none）MakeSolu-</td></tr><tr><td>tion(materials）、Microwave(duration,temperature）、OtherLanguage(none）、Partition（material_1,materi- al_2）、PH(material,ph,dropwise,temperature）、PhaseSeparation(none）、Purify（none）、Quench(materi- al,dropwise,temperature）、Recrystallize(solvent）、Reflux(duration,dean_stark）、SetTemperature(temper- ature）、Sonicate(duration,temperature）、Stir(duration,temperature）、Triturate(solvent）、Wait(duration, temperature）、Wash(material,repetitions）、Yield(material）、NoAction(none)</td></tr><tr><td>统一语言模型定义8类动作:Starting、Mixing、Purification、Heating、Cooling、Shaping、Reaction、Non-Altering</td><td>eration、SolutionMixing 固态合成[31] 预定义8类通用属性:token、type、conditions、heating_temperature(max_value,min_value,values,units）、 heating_time(max_value,min_value,values,units）、heating_atmosphere、mixing_device、mixing_media 定义6类实验动作:MixingOperation、PurificationOperation 、HeatingOperation、DryingOperation、Coolin- gOperation、ShapingOperation</td></tr><tr><td>基于液体的无 无机合成实验规 机合成[32] 程的过程级语义 表示数据模型</td><td>预定义8类通用属性:token、type、conditions、temperature(max_value,min_value,values,units）、time (max_value,min_value,values,units）、atmosphere、mixing_device、mixing_media 定义5类实验动作:MIXING、STARTSYNTHESIS、HEATING、COOLING、DRYING</td></tr><tr><td>金纳米粒子[33] 无机合成动作</td><td>预定义14类通用属性:congtain_recipe、conditions、temperature(value,unit,max_value,min_value）、time (value,unit,max_value,min_value）、string、subject、type、env_toks、op_token、op_type、ref_op、subject、 temp_values(max,min,tok_ids,units,values）、time_values(max,min,tok_ids,units,values)</td></tr></table>"
+  },
+  "(2）CRF模型": {
+    "context1": "麻省理工学院Coley博士及其团队2019年在Science期刊上发布实验机器人平台[34],使用基于CSV结构的CRF模型,为15个小分子制备实验定制机器可读、可执行的实验规程。为了便于理解CRF模型如何发挥作用，本文以阿司匹林合成为例进行阐述,如图5所示。其中，图5(a)为实验室的统一实验装置;图5(b)为合成阿司匹林的化学方程式;图5(c)为抽象的合成方案,包括反应物、反应条件、实验步骤以及实验结果;图5(d)是为完成阿司匹林实验特别设置的实验装置;图5(e)为基于上述实验方案、实验装置，使用CSV格式描述的阿司匹林合成实验规程部分内容。",
+    "context2": "CRF是一种与设备密切关联的表示方法。观察实验规程内容可知，第一列为编号，第二列为自定义的实验动作,第三列为反应器,对应图5(d)中的6、2、3、4号装置,第四列的内容则依据不同的实验动作有所不同，前三列内容充分表明CRF是与实验设备相关的实验规程过程级语义表示方法。",
+    "context3": "CRF模型的优点：使用CSV结构表示，决定CRF模型简单易操作。缺点：无法表示复杂的操作，每个实验动作后至少连接一个实验设备，后续可连接的动作相关参数有限;灵活性差，实验方案与设备固定,若更换设备，则需重新编制整个实验规程。",
+    "context4": "![](images/2f9bdd0694df7cf1e57e7f710d80310038c500809d78eebc4674ece560ea984a.jpg)  \n图5CRF模型表示的阿司匹林合成示意图[34]  \nFig.5Schematic Diagram of Aspirin Synthesis Represented by CRF Model"
+  },
+  "（3）xDL模型": {
+    "context1": "英国格拉斯哥大学Cronin教授团队等[9,16,35]在探索化学实验数字化研究中,参照计算机中\"程序\"的设计理念,提出一套适用于自动化实验平台的通用标准架构(ChemPU),并用XML格式编写的高级化学语言xDL进行控制，具体示例如图6所示。其中，图6(a)为实验室的统一实验装置;图6(b)为自然语言格式的实验规程翻译为使用 $\\chi \\mathrm { D L }$ 语言编码的格式;图6(c)为抽象的自动实验工作流。从图6(c)可知,专门设计的 States中记录了实验应该在哪个设备、如何操作及后续状态,保证xDL模型仅关注实验动作表示，无须考虑动作与哪些设备关联。因此,不同设备可重复调用同一动作表示,极大提高编码效率。",
+    "context2": "XDL模型的编码对象是实验动作及其表示参数，与设备无关，一个独立的实验动作及其表示参数也被称为操作单元， $\\chi \\mathrm { D L }$ 模型可看作不同操作单元的组合。考虑到化学合成的数字化要求以模块化的方式准确捕捉所有相关参数和过程[3],要实现这一数字化转型,需要考虑不同粒度的化学合成，并尽可能精确和明确[37]。Cronin教授进一步提出基于操作单元的实验规程模块化表示理念[38-41],数字化实验信息由一系列具有专用功能的模块组成,对每个模块系统单独考虑进行合成所需的操作单元及其参数。一旦建立这样的功能模块，今后在面对不同反应及场景时,只根据需求调用不同模块组合即可,而无须重新设计每个细节。",
+    "context3": "$\\chi \\mathrm { D L }$ 模型的优点是：与设备无关，可重用性和灵活性较高,尤其是模块化表示方法,更进一步提高实验规程的表示效率;基于XML结构，可表示复杂的实验操作,扩展性较好。缺点是：当前尚未明确表明需要设计多少实验动作及其表示参数，才能表示出所有实验规程。",
+    "context4": "![](images/6ca453aec286dab26a4150b3fb88684fae19e302026e3421878a535e255fb36e.jpg)  \n图6xDL模型示例[41]   \nFig.6Examples of xDL"
+  },
+  "3.3结构化图": {
+    "context1": "结构化图表示方法利用有向无环图(DirectedAcyclic Graph，DAG)的思想,节点表示操作、材料、属性等,边表示节点间的关系，每条边都从一个节点指向另一个节点，连边不会形成闭合环。当前主要研究结果包括动作图（ActionGraphs)[5]、合成图（SynthesisGraph)[42]、流程图(Flowchart)[43]、过程执行图(Process Execution Graph，PEG)[15],四者基本理念一致,区别在于节点和边标签的定义,具体内容如表3所示。尽管图表示方式较为直观,但是由于操作、材料、属性等均用节点表示,不易于区分和理解计算。"
+  },
+  "4实验规程的过程级语义表示要素抽取方法研究": {
+    "context1": "尽管当前已经出现专门出版实验规程的期刊,但其内容依然使用自然语言形式编写。此外，一般科技文献中依然存在数量庞大且丰富的实验规程[44],基于科技文献的实验规程要素自动抽取依然是当前获取大量可用实验规程的主要方式。下面将从科技文献中的实验规程内容特征、文本标注语料构建方法及自动抽取方法三方面梳理总结。"
+  },
+  "4.1研究文献中实验规程内容特征分析": {
+    "context1": "综合当前研究结果[3,14,34-47]可知,实验规程内容特征表现为以下三方面。",
+    "context2": "(1)信息缺失或额外信息掺杂，导致实验规程的完整性和清晰度不足。具体表现为：实验目标不够明确,有些是在文本的步骤中逐步分散给出，有些则需要通过实验描述环节推理;实验规程完整性不足，任务或操作以引用形式给出，或表述较为笼统甚至缺失;任务描述通常伴随附加信息，如理论信息或任务说明。"
+  },
+  "表3结构化图表示方法": {
+    "context1": "Table 3The Methods of Structured Graph Representation",
+    "context2": "<table><tr><td>图名称</td><td>节点标签</td><td>边标签</td></tr><tr><td>动作图</td><td>表示操作和参数,省略/缺失的参数通过添加&quot;隐式参数&quot;节点来处理,灰色节点表示缺少引用边， 表示“原始&quot;节点;定义18类:TARGET、MATERIAL、DESCRIPTOR、AMT_UNIT、CND_MISC、 CND_UNIT、INTERMED、OPERATION、NUMBER、AMT_MISC、PROP_UNIT、PROP_TYPE、 PROP_MISC、SYNTH_APRT、CHAR_APRT、BRAND、META、REF</td><td>表示操作与其参数之间的关系， 定义两类:association、reference</td></tr><tr><td>合成图</td><td>表示材料、操作和属性,定义11类:material-start material-intermedium material-final、material-sol- vent、materials-others、operation、property-time property-temp property-rot、property-press、property- atmosphere</td><td>表示节点间的关系，定义三类： condition next、coreference</td></tr><tr><td>流程图</td><td>表示材料、操作和属性,定义19类:operation、material、nonrecipe-material、number、property-misc、 property-type、property-unit、amount-unit、amount-misc、condition-misc、condition-type、synthesis-ap- paratus apparatus-unit apparatus-property-type 、material-descriptor、apparatus-descriptor、brand me- ta、reference</td><td>表示节点间的关系，定义三类： Operation-Operation、Operation- Material、Remaining relations</td></tr><tr><td>过程执 行图</td><td>表示操作和参数,其中操作用橙色标记,表示实验操作动词,共定义14类:Transfer、Temperature、 Treatment、General、Mix Spin Create、Destroy、Remove、Measure、Wash、Time、Seal、Convert 参数用蓝色标记,表示实验物理对象,共定义8类:Reagent、Measurement、Seting、Location、Modi- fier、Device、Method、Seal</td><td>表示操作与其参数之间的关系， 定义三类:core-roles、non-core roles、temporal edges</td></tr></table>",
+    "context3": "(2)语义模糊或高度依赖上下文，导致实验规程的可理解性或自动抽取存在诸多困难。具体表现为：实体表述不清,如black solid、clear solution 等状态表述词,较为定性，无法进行定量判断;句子中多个动作与相同试剂关联,动作嵌套致使很难区分有效操作动作；句子包含高度依赖上下文的动词,如包含followedby的句子，当前的自动抽取模型很难处理。",
+    "context4": "（3）实验步骤横跨多个句子、段落甚至是章节，连贯性较差。当前研制的基于科技文献自动抽取实验规程模型，通常直接忽略这种跨段情况，将每段看成一个独立完整的实验步骤。部分商业数据库则依靠专家智慧，人工阅读文本后，将这部分信息提取出来。",
+    "context5": "这些特征为从科技文献中自动抽取实验规程的过程级语义表示要素带来极大困难，理清这些特征可为自动抽取算法设计提供规则依据，提高抽取效率。"
+  },
+  "4.2文本标注语料构建方法研究": {
+    "context1": "数据的质量、数量和多样性，对机器学习模型的准确性和通用性施加了上限[48],文本标注语料建设至关重要。当前实验规程文本标注语料构建一般包括以下三个环节。",
+    "context2": "(1)标注语料筛选,主要是识别研究内容高度相关的论文、章节、段落或句子。已有的方法包括基于TF-IDF（TermFrequency-InverseDocumentFrequency）[3.49]或 BERT（Bidirectional EncoderRepresentations from Transformers)[5o]的论文分类、基于 Scikit-learn[51]的段落[4]和句子[49]分类、基于二元分类器[52]的段落分类及基于字典和规则的句子分类[53]、基于递归神经网络的论文分类及基于隐含狄利克雷分布（Latent Dirichlet Allocation,LDA）的段落分类[33]",
+    "context3": "(2)语料标注,依据一定的标注框架形成一系列文本标签，由于科技文献中的实验规程编写不够规范，用词不够恰当，当前实验规程文本标注语料多是依靠专家手工标注,在此基础上应用有监督的主动学习[50]、Scikit-learn[51]、LDA与随机森林结合[46,54]等方法，改善标签分布不均问题。",
+    "context4": "(3)标注语料检验，保证语料的质量，通常使用多位注释者之间一致性测评指标,两两标注者之间的一致性可用Krippendorff的 $\\alpha$ 指标[55],面向多个标注者则可用Cohen的Kappa指标[56]等。"
+  },
+  "4.3过程级语义表示要素自动抽取方法研究": {
+    "context1": "实验动作序列抽取可转化为NLP中的实体关系抽取任务，相关研究如表4所示。相较于NLP中相关任务已经研发的算法成果，当前应用在实验规"
+  }
+}

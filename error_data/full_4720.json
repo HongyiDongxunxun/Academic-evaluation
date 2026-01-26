@@ -1,0 +1,72 @@
+{
+  "original_filename": "full_4720.md",
+  "基于语义标注的知识抽取相关技术的国外进展研究": {
+    "context1": "刘振1,2.3,张智雄1",
+    "context2": "(1.中国科学院 文献情报中心,北京 100190;2.中国科学院大学,北京 100190;",
+    "context3": "3.徐州工程学院 管理学院，安徽 徐州221008)",
+    "context4": "摘要:为了更加全面深入了解基于语义标注的知识抽取技术现状,本文从相应的协会和组织、语义标注技术和知识抽取等方面,通过详细介绍国外重要的相关项目中基于语义标注的知识抽取技术的运用现状，对国外的最新进展进行了阐述与分析,并且探讨在环境和生物医药等领域的实际应用，在此基础上对未来发展进行展望。",
+    "context5": "关键词:语义标注;知识抽取;知识抽取技术",
+    "context6": "中图分类号：G254 文献标识码：A 文章编号:1007-7634(2015)08-157-05  \nDOI:10.13833/i.cnki.is.2015.08.029"
+  },
+  "Advancement in Semantic Annotation-based Knowledge Extraction Technology Abroad": {
+    "context1": "LIU Zhen1 23,ZHANG Zhi-xiong1 (1.National Science Library, Chinese Academy of Sciences, Beijing 1Oo190,China; 2.Graduate University of Chinese Academy of Sciences, Beijing 100190,China; 3.School of Management,Xuzhou Institute of Technology, Xuzhou 221008,China)",
+    "context2": "Abstract: In order to understand comprehensively and profoundly the present situation of the field, the paper elaborates and analyzes advancement abroad in semantic annotation and knowledge extraction by elaborating current application of the relevant technologies in important projects abroad in detail.Moreover it discusses practical application in such domains as environment science and medical care.Finally, based on the above,it looks to the future development of the technologies.",
+    "context3": "Key words: semantic annotation; knowledge extraction; Knowledge extraction technology",
+    "context4": "语义标注是给一个资源提供附加的信息(元数据),在自然语言表达概念的含糊性和形式语言的计算表示两者之间架起沟通桥梁。知识抽取是从结构化资源(关系数据库）、半结构化资源(HTML,XML等)或非结构化资源(文本、图像等)中形成以机器可理解和解释的形式表示的知识。语义标注是知识抽取的一个重要方法，随着 $\\mathbb { W } \\mathrm { e b } 3 . 0$ 的深入研究,基于语义标注的知识抽取也取得了显著进展。"
+  },
+  "1相关协会和国际标准化组织新动向": {
+    "context1": "TAC(Text Analysis Conference)[]是一系列的研讨组，为自然语言处理技术的大型评估提供了基础设施,改善NLP的评估方法和措施,通过评估结果改进NLP技术。2012年的关注重点是KnowledgeBasePopulation(KBP),主要目标是加深对自动系统的研究，从大规模语料中发现有关命名实体的信息，并把这些信息整合进知识库，具体有三个任务：$\\textcircled{1}$ 实体链接：给定一个人物或组织的名字以及包含它的文档，为这个命名实体确定知识库节点，如果不存在，则添加。 $\\textcircled{2}$ 槽填充：给定一个命名实体和事先定义的属性,从大量语料文档中为这个实体抽取槽值(子属性值),扩充知识库节点。参考知识库来源于英语维基百科。 $\\textcircled{3}$ 冷启动知识库：给定一个知识库模式和空知识库,通过挖掘大量文本集从头开始建设知识库。这些都是为了提高从文本中自动建立知识库的能力。当然TAC依旧支持摘要和文本蕴含识别的任务。",
+    "context2": "国际标准化组织ISOProject $2 4 6 1 7 ^ { [ 2 ] }$ 语义标注框架中,ISO-TimeML是时间和事件标记和标注国际标准，为电子文档中时间和事件标注的产生和使用提供一个公共的模型,来管理文档中与时间相关的数据，方便以后的数据分类和利用元数据进行的数据抽取，DiAML是为对话的行为进行语义标注。"
+  },
+  "2语义标注技术的进展": "",
+  "2.1语义标注的自动化工具开发": {
+    "context1": "SemLib EUproject在2012年开发了Pundit[3]这是一个新的语义标注和扩充工具,能够使用户在标注网页的同时建立结构化数据，还可以使群组用户分享标注和协同去建立结构化知识。整个宏观架构采用C/S(客户端/服务器)模式,服务器基于Jer-sey框架、实现了RESTAPI的Java应用程序,通过三元组存储(暴露出标准SPARQL终端)和关系数据库(管理用户权限和提供对元数据快速访问)实现标注的持久化。由于所有特性都是通过RESTAPI,可以创建不同类型的客户端或让机器自动从服务器上读写内容。Pundit客户端是基于Dojo Toolkit的Javascript程序,允许对各种类型的网页内容进行标注。它不仅可以评论、标记网页，而且在标注的同时，建立具有语义的结构化数据。基于本体和特定词典,表示出资源的语义关系，可以在其他web应用程序之间共用这些协同创造的知识。"
+  },
+  "2.2标注对象范围的延伸": {
+    "context1": "(1)Web APIs对象。英国开放大学SWEET[4](Semantic Web Services Editing Tool) 为 建立WebAPIs的语义标注提供了一个轻量级Web应用，该软件不需要安装,直接嵌人到web浏览器中,javascript和ExtGWT实现的。对WebAPIs进行的语义描述为建立更灵活的整合关联开放数据和WebAPIS的聚合奠定了基础，它采用hRESTS微格式来标记关键服务属性，从而支持机读的服务描述的建立，还采用MicroWSMO微格式，把语义信息关联到服务属性,有利于Web服务的发现、组合和调用。",
+    "context2": "(2)多媒体对象。很多的项目涉及到多媒体领域,欧洲FP7资助的CASAM项目[5]（2008-2011），即多媒体计算机辅助语义标注,采用了知识驱动的方法优化了多媒体分析，通过在特定场景下的机器知识推理来进行信息获取,加深了人机互动的程度，比手工和自动标引相比,提高了标注的速度和准确率。昆士兰大学3DSA项目[专注为3D数字对象，因为很多文化遗产机构使用3D数字保存技术来保存易损的馆藏物品,进行在线虚拟展览,为此开发出简单的语义标准服务。Marco Attene[等给3D图形提供有用的语义标注，在多级分割框架中，把一个图形分解成有趣的特征，并引入了标注流水线，赋予特征和形状一个正式的语义。Liangliang Cao[s]通过逻辑经典相关回归来增强web图像的语义标注，以便图像的查询和检索。"
+  },
+  "2.3语义标注的服务模式的转变": {
+    "context1": "Ontotext在2012年启动的AnnoMarket项目[9],引入开放市场的概念,使用Saas(软件即服务)模型,降低了文本处理资源和服务部署、维护、定制和共享的复杂性，文本分析资源和服务的中小厂商能够通过AnnoMarket市场部署他们的定制组件或应用来获得利润,使文本标注市场发生革命性变化,为基于云平台的抽取资源和服务提供开放的市场，使中小规模用户和服务提供商都能受益。"
+  },
+  "3基于语义标注的知识抽取相关研究": "",
+  "3.1开放抽取系统的改进": {
+    "context1": "开放信息抽取是华盛顿大学图灵中心提出一种新的思路,OpenIE 的目标[]在于促进领域无关的知识抽取应用,它能从文本中抽取出大量关系对，并可被应用到各种类型和规模的Web信息抽取任务中。除需要标注的文档集外,OIE不需要任何其它人工输入，同时为保障在处理大规模文档集时的效率,OIE 只需要对文档集进行一次处理。华盛顿大学图灵中心,针对目前的开放抽取系统Text-Runner和WOE等的抽取结果经常会出现不合逻辑的关系和不提供信息的关系,研发出新一代的开放抽取系统ReVerb系统[],引入了两个语法限制和词汇限制,作用在动词表示的两元关系上。比Text-Runner和WOE等软件，无论在召回率还是准确率上都有显著提高， $30 \\%$ 以上的ReVerb抽取结果的准确率都超过了0.8。"
+  },
+  "3.2半自动化抽取理念的实践推广": {
+    "context1": "背景领域知识库在科技界是公认的重要资源，不仅提供了一个学科基本知识的独立引用,而且有助于知识抽取和探寻。知识库的建立需要专家及时和经常的参与。人工建立的本体库具有较高的质量或准确率,但自动建立的本体库具有较高的召回率,也能满足知识发现的需要。最近结合人工和自动化工具的半自动化方法日益受到重视,这是因为知识库的组织和更新维护，只有借助有效的工具才能完成。美国莱特州立大学HPCO项目[(Hu-man Performance and Cognition Ontology)采用半自动化领域层次构建技术，通过迭代的过程，涉及从科技领域进行知识抽取，从选定的社区作者内容（例如维基百科)进行自动分类抽取，在有限的专家指导下进行半自动化本体建设,为生命科学家提供优质的科学文献的查询和检索服务，以便在人类性能和认知领域中抽取出有价值的信息。"
+  },
+  "3.3云计算和分布式平台的广泛应用": {
+    "context1": "对海量的数据资源进行语义标注以及进行逻辑关系推理会占有大量的资源，单独一台机器难承载这样的负担，须将分布式计算和云平台等技术引入知识抽取的工作中。Ontotext2011年11月启动的TrendMiner项目[3],实现了大规模、跨语言的趋势挖掘和实时媒体流的摘要生成，通过跨学科方法，融合了文本处理的深层语言方法，网络科学的基于知识的推理,机器学习和经济政治学科等。由于采用了时间序列数据,不需要昂贵的人工标注的数据,监督机器学习算法实现了新趋势和关联的自动发现。在云结构基础平台上,从流媒体中进行实时文本挖掘,具备了一定的伸缩性。",
+    "context2": "欧盟FP7大规模集成项目LarKc[14],开发了一个大知识对撞机,建设一个用于大规模分布式、不完整推理的集成平台，满足依赖于大量异构信息资源产业的需求，基于可插拔式的架构，确保了不同组件的有效集成,使用了群计算技术进行并行计算,解决了当前语义计算中的数据驱动应用程序的可伸缩性的问题,丰富了当前基于逻辑的语义网的推理方法，运用认知激发的方法和技术,建设了分布式推理平台。"
+  },
+  "3.4跨语言抽取的日益完善": {
+    "context1": "在全球一体化的背景下，把各个国家重要的资源进行整合具有非常重要的意义,抽取和共享多语言表示的知识是必然的趋势,欧盟FP7资助的Xlike项目[15](2007-2013)研发对主流媒体和社交媒体广泛传播的知识进行监控和聚合的技术，为出版社、媒体监控和商业智能提供跨语言的服务。该项目试图综合运用现代计算语言、机器学习、文本挖掘和语义技术等手段，去解决两个关键开放研究问题： $\\textcircled{1}$ 在跨语言知识库的基础上，从多语言文本中抽取和集成正规知识。 $\\textcircled{2}$ 采用语言技术和众包去解决社交媒体广泛使用的非正式语言的非规则性。欧盟FP7资助的Excitement项目[6]（通过文本蕴含探索客户交互）（2012-2014)，考虑到识别文本中语义推理关系在一个重要的文本理解应用中的必需性，目前没有适用于广泛文本推理的语义引擎或平台，标注工具只能完成狭隘的语义任务，系统必须独立的分解和扩充它们而获得一个完整的推理过程，所以该项目主要目标是在文本蕴含范式的基础上,开发一个通用的多语言的文本推理平台，可供科技领域内使用,而且利用这个推理平台，进一步为客户交互研发新一代无监督文本探索技术，使得商家更好抓住客户不同的,难以预测的内容。"
+  },
+  "3.5综合技术和框架的应用": {
+    "context1": "德国人工智能研究中心TAKE(Technologies ofadvanced knowledge extraction）项 目[17] (2009-2011)采用研发了一系列的语言和知识技术,从互联网上进行逐步自动的知识抽取，在系统的扩展形式化知识体过程中，融入基于规则和统计的语言处理方法。其核心技术是系统驱动的高级信息抽取,尤其是关系抽取,例如大量文本中的语义关系实例的发现,这些相关的关系属于一些类(例如事实、定义、事件、引文和观点）。德国莱比锡大学AKSW研究组提出的 FOX[18l（Federated knOwledge eXtractionFramework)框架整合了关联数据云平台，利用NLP算法的多样性来从自然语言中抽取RDF三元组，整合了命名实体识别、关键字抽取和关系抽取工具。Andrew C.C.Yao[]探讨了在公钥模型下并发知识抽取。PauloLeitao[2o]等提出从Petri网模型中进行知识抽取，来支持面向服务自动化系统中的实时决策。"
+  },
+  "3.6系统评估": {
+    "context1": "英国SEALS项目[2为语义技术远程评估提供一个独立、开放、可伸缩的、可扩展和持续的基础设施，对不同现存的各种语义技术进行客观的比较，帮助他们选择合适的技术，将涉及不同的技术，提供不同的测评标准。荷兰阿姆斯特丹大学的D-MAP（Deep Meaning annotation project）项目[22](2010-2015），重点研究文本的大规模深层次语义标注，以及机器学习方法在计算语义中的应用，把不同方面的含义（词义，修辞关系，时和体，主题词角色,指代,背景知识等)整合成一个语义形式,对语义形式进行定量评估。"
+  },
+  "4特定领域的广泛应用": "",
+  "4.1环境科学": {
+    "context1": "JISC 资助的EnviLOD项目 $^ { [ 2 3 ] } 2 0 1 2$ 年为环境科学进行关联开放数据本体实验,证明了在环境科学领域使用关联开放数据词汇的价值，环境科学研究人员通过LOD词汇即可完成检索,屏蔽掉 SPARQL语义检索语言的复杂性。在实验中,还开发了一个新的面向环境科学的英国图书馆信息发现工具En-via。欧洲FP7项目TaTo0[24]（2010-2012)开发基于语义发现框架的工具集，给网络上有价值的环境领域的相关资源(数据或者服务)进行语义标注，从而使专家和一般用户分享可靠信息,有利于发现知识和利用,形成了良好的信息增益的循环。"
+  },
+  "4.2生物医疗领域": {
+    "context1": "欧洲 FP7 (Seventh Framework Programme)资助的Khresmoi项目[25],开发针对为生物医学文档和信息进行的多语言、多模式的检索和抽取系统。该系统能对生物医学文档进行有效的自动信息抽取，对医学影像(2DX光片、3D的MRI、CT)自动分析和索引,把从半结构化或非结构化的医学文本和图像中抽取出来的信息链接到知识库里的结构化信息，采用灵活的人机界面，通过人机工程学和交互的可视化手段完成查询和结果显示。德国人工智能研究中心的MEDIX项目[26（2012-2013)，计划开发医学领域的智能问答系统,解决复杂语义关系，能够自动识别该领域内的相关概念和关系,该系统允许病人用户采用自然语言提出复杂问题，克服病人和专家沟通的障碍。美国明尼苏达梅奥临床医学院 建立 cTAKES[27](Mayo clinical Text Analysis and Knowl-edgeExtractionSystem）借助开源的技术（非结构信息管理框架和OpenNLP自然语言处理工具集）,实现了从电子医疗记录诊疗自由文本中进行知识抽取。ManuelMoller等开发了了用于医学图像的语义标注和检索工具 $\\mathrm { R a d S e m } ^ { [ 2 8 ] }$ ,利用MEDICO本体,覆盖了各种生物医学本体、术语以及诊疗程序。"
+  },
+  "5研究热点及其研究进展": {
+    "context1": "时间和事件的标注和抽取和知识库的自动建立是国际和行业标准化组织近年关注的焦点，标注和抽取内容依旧延续多样化的趋势,多媒体对象的语义标注研究更多集中在3D数字图形，为文物遗产知识的抽取、展示和交流提供了新的途径,大大提高了多媒体知识查询和检索的效率。",
+    "context2": "Pundit等语义标注自动化工具大量出现，功能日益完善,语义标注服务市场,参照了Saas(软件即服务)模型,引入了开放市场,降低了语义标注的成本，缩短了中小用户和服务提供商距离，推动了语义标注的普及和应用。语义技术远程评估受到了一定的重视,一些项目尝试提供一个独立、开放、可伸缩的、可扩展和持续的基础设施,对不同现存的各种语义技术建立客观的评估标准，进行定量评估。",
+    "context3": "多文本和多源化的知识抽取和集成依旧是研究重点，Web信息资源已经是知识抽取的重要来源,Web信息抽取中开放抽取系统通过相关技术的改进,提高了抽取的性能,知识抽取的可视化改善了用户的体验，加深了与用户的沟通，跨语言抽取技术的成熟加速了全球知识资源的共享和交流。抽取对象的范围和数量的海量增加,给计算带来了巨大的压力和挑战，云平台和分布式计算为基于语义标注的知识抽取系统提供了强有力的支持技术环境。另外,并发知识抽取的安全性、Web 对象抽取、术语识别、主题发现、概念和非概念层次关系抽取、事实抽取、观点抽取等不同思路的提出对知识抽取技术的发展做出了有益尝试。",
+    "context4": "基于语义标注的知识技术在很多应用领域得到了广泛的推广和实践,由于学科背景、技术支撑等各个方面具备优越的基础条件,发展相对比较成熟，众多相关项目取得了良好的效果。"
+  },
+  "6结语": {
+    "context1": "知识抽取是当前自然语言处理、语义WEB、机器学习、知识工程、知识发现、文本挖掘等相关领域共同关注的重点研究之一，相关的技术和方法不断得到完善和丰富，语义标注作为知识抽取的一种重要的技术手段，也受到越来越多的研究机构和学者的重视,有了很大的发展。目前，语义标注不仅利用自然语言的语法模式和规则,更重要的是通过本体和上下文语义环境,对语义内容的挖掘,实现了共指消解、语义消歧等，有利于知识库的建设和检索。国外正在建设和使用的各种知识抽取系统中机器学习和自然语言分析两大技术思路正在相互融合、相互借鉴,各自都得到了较大的发展。",
+    "context2": "当下大数据的环境下，大量网站使用RDF、微格式、微数据或者开放图等进行标记其内容,微博等在线社交媒体的海量信息的涌现,这些变化让语义标注技术无论在方法、服务模式或标注对象都带来了新的挑战，也给知识抽取带来了新的发展趋势,国外取得的相应进展,值得国内借鉴,随着知识抽取技术方法的不断完善,知识抽取必将更加深远地影响到诸多与语义应用密切相关的领域,如语义Web、知识工程、趋势分析、主题发现、舆情监测、自动问答等，必将带来更多种更深层次的应用，如用于知识领域描绘、爆破主题的监测,新兴发展趋势的探测等。基于语义标注的知识抽取技术未来发展方向应该会更加重视观点挖掘和情感分析，应用领域进一步扩大,云平台的广泛应用,和其他技术的进一步结合等。"
+  },
+  "参考文献": {
+    "context1": "1 Text Analysis Conference[EB/OL].http://www.nist.gov/ tac/,2012-11-15.   \n2 ISO-TimeML[EB/OL].http://en.wikipedia.org/wiki/IS O-TimeML,2012-11-15.   \n3Pundit[EB/OL].http://www.thepund.it/,2012-11-15.   \n4SWEET[EB/OL].http://core.kmi.open.ac.uk/display/81 987,2012-11-15.   \n5CASAM[EB/OL].http://cordis.europa.eu/search/index. cfm?fuseaction=proj.document&PJ_RCN=9834156, 2012-11-15.   \n6 3DSA[EB/OL].http://itee.uq.edu.au/\\~eresearch/projec ts/3dsa/index.php#overview,2012-11-15.   \n7 Characterization of 3D shape parts for semantic annotation[EB/OL].http://119.93.223.179/ScienceDirect/ Computer-Aided%20Design/Computer-Aided% 20Design% 20Volume% 202009/Computer-Aided% 20Design%20Volume%202009%20Issue%20-%20(10)/sdarticle_007.pdf,2012-11-15.   \n8Enhancing Semantic and Geographic Annotation of Web Images via Logistic Canonical Correlation Regression[EB/OL].http://www.ifp.illinois.edu/\\~cao4/papers/cao-MM09.pdf,2012-11-15.   \n9 Annomarket[EB/OL].https://annomarket.eu/,2012-12- 01.   \n10 张智雄,孙坦,吴振新,等.知识抽取的概念、思路、方法和 趋势研究[R].北京:中国科学院文献情报中心,2008.   \n11Identifying Relations for Open Information Extraction[EB/ OLJ.http://ai.cs.washington.edu/pubs/279,2012-11-20.   \n12 HPCO[EB/OL].http://www.knoesis.org/projects/hpco,2012- 11-20.   \n13 Trendminder[EB/OL].htp://www.trendminer-project.eu/,201 2-11-20.   \n14 LarKc[EB/OL].http://www.larkc.eu/,2012-11-20.   \n15 Xlike[EB/OL].http://www.xlike.org/,2012-11-20.   \n16 Excitement [EB/OL].http://www.dfki.de/lt/project.php?id=Pro ject_683&l=en,2012-11-20.   \n17Take[EB/OL].http://take.dfki.de/,2012-11-20   \n18FOX[EB/OLJ.htp://aksw.org/Projects/FOX.html,2012-11-20.   \n19Concurrent Knowledge Extraction in the Public-Key Model [EB/OL].http://arxiv.org/pdf/0908.2476.pdf,2012-11-20.   \n20 Paulo Leitao, Joel Alves.Energy Aware Knowledge Extraction from Petri Nets Supporting Decision-making in Service orientedAutomation[EB/OL].https://bibliotecadigital.ipb.pt/ bitstream/10198/2579/1/2010-ISIE.pdf,2012-11-20.   \n21Seals [EB/OL].http://kmi.open.ac.uk/projects/name/seals, 2012-12-01.   \n22 D-MAP[EB/OLJ.htp://www.let.rug.nl/bos/dmap/,2012-12-01.   \n23EnviLOD[EB/OL].http://gate.ac.uk/projects/envilod/,2012- 12-01.   \n24 Tatoo [EB/OL].http://www.tatoo-fp7.eu/tatooweb/about,2012 -12-01.   \n25Khresmoi [EB/OL].http://www.khresmoi.eu/,2012-12-01.   \n26MEDIX [EB/OL].http://www.dfki.de/lt/project.php?id=Projec t_721&l=en,2012-12-01.   \n27Guergana K Savova, James J Masanz,.Mayo clinical Text Analysis and Knowledge Extraction System (cTAKES): architecture,component evaluation and applications.[EB/OL]. http://171.67.114.118/content/17/5/507.full.pdf+html,2012- 12-01.   \n28Manuel Moller.RadSem: Semantic Annotation and Retrieval forMedical Images.[EB/OL].http://download.springer.com/ static/pdf/16/chp%253A10.1007%252F978-3-642-02121- 3_6.pdf?auth66=1355475380_88998ba7de54a2fb7e2dcd7d 3efb9ee2&ext=.pdf,2012-12-01. (责任编辑：赵红颖）"
+  }
+}

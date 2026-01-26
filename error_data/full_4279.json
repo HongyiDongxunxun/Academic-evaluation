@@ -1,0 +1,157 @@
+{
+  "original_filename": "full_4279.md",
+  "基于BP神经网络的突发传染病與情热度趋势预测模型研究": {
+    "context1": "會子明1²黄城莺1,2（1．武汉大学信息资源研究中心，湖北武汉430072;2．武汉大学图书情报实验教学中心，湖北 武汉 430072)",
+    "context2": "（摘要）旧的/意义]研究突发传染病舆情热度的发展趋势，能够为制定舆情引导策略提供参考，具有重要的理论意义。仿法/过程本文首先构建微博舆情热度评价指标体系，基于信息熵确定各个指标的权重，然后对求得的舆情热度趋势值进行分类，在此基础上，建立基于BP神经网络的突发传染病舆情热度趋势预测模型。以新浪微博为例，选取“MERS病毒卫生突发事件”的舆情热度数据进行实例分析，预测该突发传染病事件的发展趋势，从而验证模型的可行性。结果/结论]实验结果表明，该模型能有效预测突发传染病舆情热度趋势，进而为舆情管控提供决策支持。",
+    "context3": "（关键词）BP神经网络；舆情热度；突发传染病；微博；预测模型 DOI:10.3969/j.issn.1008-0821.2018.05.006",
+    "context4": "（中图分类号）G206.2（文献标识码）A（文章编号）1008-0821（2018）05-0037-08"
+  },
+  "Research on Public Opinion Heat Trend Prediction Model of Emergent Infectious Diseases Based on BP Neural Network": {
+    "context1": "Zeng Ziming1,2Huang Chengying1,2 (1. Center of Information Resources Research，Wuhan University，Wuhan 430072，China; 2.Library and Information Experimental Teaching Center，Wuhan University，Wuhan 430072，China)",
+    "context2": "(Abstract]Purpose/Significance]It isof great theoretical significance to study the development trend of publicopinion iemergent infectious diseases，which canprovide reference for making publicopinion guidance strategy.Method/ Process]The paper firstconstructedthe index system of microblog publicopinion and evaluatedthe weight of each index basedonthe information entropy，and then clasified theobtained publicopinion heattrend，onthe baseof which，it established the publicopinion heat trend prediction model of emergent infectious diseases bases on BP neural network.Taking Sina microblog asan example，it analyzed the publicopinion heatdata of“MERS virus”to predictthe development trend of the emergent infectious diseaseevent，and verifiedthe feasibilityof the model.Result/Conclusion]Theexperimental results showedthatthemodelcould efectively predictthetrendof publicopinion inemergent infectious diseases，and then provide decision support for public opinion control.",
+    "context3": "(Key words）BP neural network；heat of public opinion； emergent infectious diseases；microblog;prediction mod-el",
+    "context4": "据中国互联网络信息中心（CNNIC）发布的《第40次中国互联网络发展状况统计报告》显示，截至2017年6月，我国互联网普及率较2016年底提升了1.1个百分点，达到 $5 4 . 3 \\%$ ，超过全球平均水平4.6个百分点。在互联网迅猛发展的环境下，国际范围内频繁发生的突发传染病引起人们高度关注，如“埃博拉病毒、“塞卡病毒”、“SARS病毒’、“MERS病毒”等。微博作为传播媒介的代表，具有互动性高、传播速度快等特点，突发传染病事件借助新浪微博等社交平台不断发酵，往往迅速演化为网络舆情。以2014年西非爆发的埃博拉病毒为例，在2014年2月1日至10月31日期间，新浪微博平台上共产生23万多条包含“埃博拉”关键词的微博。在描述突发传染病舆情的诸多要素中，舆情热度体现了人们对于舆情事件的关注程度，日益受到政府以及学术界的广泛关注。",
+    "context5": "突发传染病舆情同其他类型突发事件舆情相较而言，具有爆发性、演变不确定性、负面倾向性等特征。由于涉及公众的健康和生命安全，社会公众高度关注致病原因、每日新增病例数、死亡率、治愈情况等与之相关的信息。相关消息一旦发出就会掀起网络舆情的浪潮，引起整体舆论环境的波动，其舆情发展的管控已经成为应急管理的一个重要组成部分。基于此，本文结合徐旖旎对媒体奇观网络舆情热度趋势分析以及赵磊、王松等对舆情热度趋势仿真模型的研究思路，将突发传染病舆情热度趋势预测问题转化为模式分类问题，并尝试引入BP神经网络对舆情热度趋势做预测。首先，文章构建面向微博的舆情热度评价指标体系，基于信息熵确定各个指标的权重，再利用加权求和的方法得到热度值，然后求出舆情热度趋势值并进行分类，接着引入BP神经网络理论，从新浪微博收集“MERS病毒卫生突发事件”相关数据，对突发传染病的舆情热度趋势进行预测，探讨该方法的可行性和有效性。"
+  },
+  "1研究现状": "",
+  "1.1网络舆情热度研究": {
+    "context1": "网络舆情热度研究是一门涉及情报学、统计学、传播学等多学科交叉融合的研究领域。当前，国内外学者针对网络舆情热度的研究分为定性研究、定量研究以及定性定量相结合方法。其中，定性研究包含网络舆情热度发展演变规律、特征、热度评价指标体系建立等，定量研究包含最优化模型、系统动力学模型、马尔可夫链模型等。Lean$\\mathrm { Y } _ { \\mathrm { u } }$ 等提出了以网络公民、意见领袖、政府以及大众媒体四大主体为代表的网络舆情传播模型，并通过4起典型的危险化学品泄漏事件进行案例研究，验证模型的有效性;张行钦等使用百度指数，研究了“乙肝疫苗”事件网络舆情热度演变规律；JeffreyRLax等根据突发事件网络舆情生成过程、热度涨落的影响因素，提出了较为成熟的舆情热度指标。曹学艳等引入突发事件应对等级，构建了网络舆情热度评价指标体系；王慧军等通过最小化舆情热度的负面作用与监控成本之和，研究了政府对舆情热度的最优监控问题；袁国平等[借助系统动力学的流图模型，通过Vensim PIE软件进行模拟仿真，从事件公共度、事件敏感度、网民质疑度、政府公信力4个方面分析对网络舆情热度的影响；屈启兴等[给出了基于微博的企业网络舆情热度的计算公式，在此基础上提出基于马尔可夫链的舆情热度趋势分析模型；王新猛[构建了针对政府负面网络舆情热度趋势的马尔可夫链预测模型。XueGangChen等[运用粗糙集理论降低网络舆情指标体系的属性，并通过层次分析法确定指标权重，从定量和定性的角度出发，提出一种网络舆情趋势预测与评价的新方法。"
+  },
+  "1.2我国突发传染病舆情研究": {
+    "context1": "我国对于突发传染病舆情的研究始于2003年的SARS事件。目前，相关研究主要包括舆情传播规律、舆情监测预警和舆情引导治理3个方面。安璐等以埃博拉（Ebo-la）有关的微博为调查对象，利用LDA模型和 SOM方法比较分析了Twitter和Weibo平台上相关微博的热点主题类别，揭示其演化模式和时序发展趋势的异同点；靳松等[4以H7N9禽流感事件为研究对象，通过采集到的数据生成H7N9信息传播网络拓扑结构图，并基于其邻接矩阵，系统分析传播网络的要素和内部簇结构特性；安璐等[以“塞卡病毒”的微博数据为研究样本，利用潜在狄利克雷模型识别微博内容的主题特征，同时结合用户特征和发布时间特征，构建决策树模型，对突发传染病微博影响力进行预测；杜洪涛等[以新浪微博社区中MERS疫情数据为样本，研究如何改善突发性传染病舆情中的公共管理沟通问题；翁士洪等[以H7N9事件为例，探讨微博谣言的产生机制，并结合现有文献资料和现实状况，提出针对性的治理对策。",
+    "context2": "综上所述，虽然国内外已经有诸多学者对网络舆情热度展开研究，涵盖了从演变规律、评价指标到预测模型的多个方面，但是突发传染病舆情的相关研究仍然处于发展阶段，还需要深入研究该领域及相关技术方法。BP神经网络由于具有强大的自学习、自适应的能力，擅长于模式识别、分类、数据拟合等问题的解决，被广泛应用于应急需求预测、微博转发量预测、冬小麦耗水预测等方面。因此，本文将基于BP神经网络，对突发传染病的舆情热度趋势进行预测研究。"
+  },
+  "2微博舆情热度评价指标体系构建": "",
+  "2.1舆情热度评价指标": {
+    "context1": "建立一个科学合理的评价指标体系是衡量微博舆情热度的基础，并非指标越多越好，关键在于能否定量化反映微博舆情热度的实质。本文借鉴文献[11，12]构建的网络舆情指标，从原创微博发布量（A）、转发量（B)、评论量$( C )$ 、点赞量（D）等4个指标来描述微博舆情热度。这些数据以天为单位进行统计，其与时间的对应关系见表1。",
+    "context2": "表1突发传染病微博舆情数据统计表",
+    "context3": "<table><tr><td>时间（T)</td><td colspan=\"2\">原创微博A</td><td colspan=\"2\">原创微博A2</td><td colspan=\"2\"></td><td colspan=\"2\">原创微博An</td></tr><tr><td>1</td><td></td><td>b1,C11d,1</td><td></td><td>b12 C12 d12</td><td></td><td></td><td></td><td>b1nC1n d1n</td></tr><tr><td>2</td><td></td><td>b1C2,1d,1</td><td></td><td>b222 c22d2</td><td></td><td>…</td><td></td><td>b2,n C2n d2n</td></tr><tr><td>：</td><td></td><td>：</td><td></td><td>…</td><td></td><td>：</td><td></td><td>：</td></tr><tr><td>m</td><td></td><td>bm,1Cm,1dm,1</td><td></td><td></td><td>bm,2Cm22 dm,2</td><td></td><td>bmnCmn</td><td>dmn</td></tr></table>",
+    "context4": "第 $i$ 天的原创微博发布量由公式（1）表示:",
+    "context5": "$$\nA _ { i } = n\n$$",
+    "context6": "第 $i$ 天的转发量由公式（2）表示：",
+    "context7": "$$\nB _ { i } \\ = \\ \\sum ^ { n } { b _ { i , j } }\n$$",
+    "context8": "第 $i$ 天的评论量由公式（3）表示：",
+    "context9": "$$\nC _ { i } \\ = \\ \\sum _ { j \\ = 1 } ^ { n } c _ { i , j }\n$$",
+    "context10": "第 $i$ 天的点赞量由公式（4）表示：",
+    "context11": "$$\nD _ { i } \\ = \\ \\sum _ { j \\ = 1 } ^ { n } d _ { i , j }\n$$",
+    "context12": "由以上公式可以推出第 $i$ 天微博舆情热度 $H \\left( \\mathbf { \\nabla } i \\right)$ 的表达式为：",
+    "context13": "$$\nH ( \\mathbf { \\epsilon } _ { i } ) = W _ { 1 } \\bullet A _ { i } + W _ { 2 } \\bullet B _ { i } + W _ { 3 } \\bullet C _ { i }\n$$",
+    "context14": "其中， $\\mathbb { W } _ { k }$ $k = 1 , 2 , 3 , 4 )$ 分别为原创微博发布量、转发量、评论量、点赞量的权重，为了更加便于计算， $A _ { i }$ 、$B _ { i }$ 、 $C _ { i }$ 、 $D _ { i }$ 需根据公式（8）进行归一化处理。",
+    "context15": "第 $i$ 天微博舆情热度趋势值的表达式为：",
+    "context16": "$$\n\\overline { { H ( \\textit { i } ) } } = H ( \\textit { i + } 1 ) \\ - H ( \\textit { i } )\n$$"
+  },
+  "2.2计算舆情热度评价指标权重": {
+    "context1": "本文利用信息熵[确定各项指标的权重，计算步骤如下:",
+    "context2": "1）设有 $m$ 个评价对象（天数）， $n$ 个评价指标，构造的原始指标矩阵为 $\\boldsymbol { X } = \\left( \\mathbf { \\nabla } _ { X _ { i , j } } \\right) _ { m \\times n }$ ，由公式（7）表示：",
+    "context3": "$$\nX { = } \\left[ \\begin{array} { c c c } { x _ { 1 , 1 } } & { \\cdots } & { x _ { 1 , n } } \\\\ { } & { } & { } \\\\ { \\vdots } & { \\ddots } & { \\vdots } \\\\ { } & { } & { \\cdots } & { x _ { m , n } } \\end{array} \\right]\n$$",
+    "context4": "2）一般而言，不同评价指标的类型、量纲等往往存在差异，为了消除这些差异带来的影响，将其转化为无量纲、方向一致的标准指标值，本文采用极值法[对评价指标进行无量纲化处理:",
+    "context5": "成本型指标：yimax（x）-min（x）",
+    "context6": "其中， $\\operatorname* { m a x } ( \\ x _ { i , j } ) \\ , \\ \\operatorname* { m i n } ( \\ x _ { i , j } )$ 分别为指标评价值的最大值和最小值。",
+    "context7": "3）计算第 $j$ 项指标下第 $i$ 个评价对象指标值的比重，由公式（10）表示：",
+    "context8": "$$\np _ { i , j } \\ = \\ { \\frac { y _ { i , j } } { \\sum _ { i = 1 } ^ { m } y _ { i , j } } }\n$$"
+  },
+  "4）计算第 $j$ 项指标的熵值为：": {
+    "context1": "$$\ne _ { j } \\ = - k \\sum _ { \\iota = 1 } ^ { m } { \\cal P } _ { i , j } \\mathrm { l n } p _ { i , j } , k \\ = \\frac { 1 } { \\mathrm { l n } m } \\big ( k \\ > \\ 0 , 0 \\leqslant e _ { j } \\leqslant 1 \\big )\n$$",
+    "context2": "5）进一步对 $1 - e _ { j }$ 归一化，得到第 $j$ 项指标的熵权值为：",
+    "context3": "$$\n{ \\begin{array} { r l } { w _ { j } } & { = { \\frac { 1 \\ - \\ e _ { j } } { \\displaystyle \\sum _ { j = 1 } ^ { n } ( \\ 1 \\ - \\ e _ { j } ) \\ } } \\ = \\ { \\frac { 1 \\ - \\ e _ { j } } { n \\ - \\ \\displaystyle \\sum _ { j = 1 } ^ { n } e _ { j } } } \\  \\ 0 \\ \\leqslant \\ w _ { j } \\ \\leqslant \\ 1 \\ . \\  } \\\\ { \\displaystyle \\sum _ { j = 1 } ^ { n } w _ { j } \\ = \\ 1 \\  } & { \\ ( \\ 1 ) } \\end{array} }\n$$"
+  },
+  "3BP神经网络": {
+    "context1": "BP 神经网络（Back Propagation Neural Network）基于梯度下降策略，通过反向传播来不断调整网络连接的权值和阈值，直到输出值与真实值的误差减少到可以接受的范围或预先设定的学习次数为止。BP神经网络由输入层、隐含层、输出层组成，本文选取单隐层的三层BP神经网络来实现突发传染病舆情热度趋势的预测。其中输入向量为原创微博发布量、转发量、评论量、点赞量4个元素，所以输入层的节点数为4。输出向量为微博舆情热度趋势值，本文将预测问题转化为模式分类问题，将微博舆情热度趋势值分为6类： $C 1 =$ 急速上升 $= \\left[ { \\frac { \\overline { { H ( \\ i ) } } \\operatorname* { m a x } } { 2 } } , \\overline { { H ( \\ i ) } } \\operatorname* { m a x } \\right]$ ， C2$=$ 明显上升 $= \\left[ { \\frac { \\overline { { H ( \\mathbf { \\Phi } _ { i } ) } } \\operatorname* { m a x } \\_ } { 4 } } , { \\frac { \\overline { { H ( \\mathbf { \\Phi } _ { i } ) } } \\operatorname* { m a x } } { 2 } } \\right]$ $C 3 =$ 缓慢上升 $=$ [0，Hmax7， $C 4 =$ 缓慢下降 $= \\left[ \\frac { \\overline { { H ( \\mathrm { \\Delta } i ) } } \\operatorname* { m i n } } { 4 } , 0 \\right]$ ， $C 5 =$ 明显下降 $\\begin{array} { r l } { = } & { { } \\left[ \\frac { \\overline { { H ( \\mathbf { \\Phi } i ) } } \\operatorname* { m i n } } { 2 } , \\frac { \\overline { { H ( \\mathbf { \\Phi } i ) } } \\operatorname* { m i n } } { 4 } \\right] } \\end{array}$ ， $\\begin{array} { r l } { C 6 } & { { } = } \\end{array}$ 急速下降 $=$ $\\left[ \\overline { { H ( \\mathfrak { i } ) } } \\operatorname* { m i n } , \\overline { { 2 } } \\right]$ ，其中H $\\overline { { i ) } }$ max、 $\\overline { { H ( \\mathrm { \\it ~ i } ) } } \\mathrm { ~ m i n }$ 分别为微博舆情热度趋势值的最大值和最小值。在此基础上，分别用二进制001、010、011、100、101、110表示微博舆情热度趋势值的类别，所以输出层的节点数为3，输出状态为：001、010、011、100、101、110，分别对应6种类别。对于隐含层节点数而言，若节点过多，则会致使网络复杂化甚至出现过度拟合的情况，若节点过少，则会致使结果不收敛，目前并没有一个理想的解析式可以用来确定合理的隐含层节点数，本文采用经验公式（13）得到隐含层节点数的估计值：",
+    "context2": "$$\nN { = } \\sqrt { m { + } n } { + } \\alpha\n$$",
+    "context3": "其中， $m$ 为输入层节点数， $n$ 为输出层节点数， $\\alpha$ 为[,10]之间的常数。BP神经网络结构见图1。",
+    "context4": "![](images/dc01f8bf05c3aa70855182361e7c36434cd1cec98be8a1b8312f089bc6fdfb8a.jpg)  \n图1BP神经网络结构图",
+    "context5": "BP 神经网络标准学习步骤2如下:",
+    "context6": "输入样本为 $x _ { i }$ ，对应的隐含层的输出和输出层的输出分别为 $z _ { j }$ 和 $y _ { k }$ ； $V _ { i j }$ 是输入层和隐含层间的权重， $V _ { j k }$ 是隐含层和输出层间的权重； $\\theta _ { j }$ 、 $\\gamma _ { k }$ 分别为隐含层和输出层阈值。",
+    "context7": "a．将连接权值 $V _ { i j }$ 、 $V _ { j k }$ 以及阈值 $\\theta _ { j } \\setminus \\gamma _ { k }$ 随机初始化为$[ - 1 , + 1 ]$ 之间的值。",
+    "context8": "b．根据公式（14）计算隐含层输出 $z _ { j }$ 。",
+    "context9": "$$\nz _ { j } = f \\big ( \\sum _ { i = 1 } ^ { m } V _ { i j } x _ { i } + \\theta _ { j } \\big ) \\quad j = 1 , 2 , \\cdots , N\n$$",
+    "context10": "其中， $N$ 为隐含层节点数； $f$ 为隐含层激励函数，本文所选函数为 $f ( x ) = { \\frac { e ^ { x } - e ^ { - x } } { e ^ { x } + e ^ { - x } } } \\circ$",
+    "context11": "c．根据公式（15）计算输出层输出 $y _ { k }$",
+    "context12": "$$\ny _ { k } \\ = f \\textstyle \\bigcup \\ \\sum _ { j = 1 } ^ { N } V _ { j k } z _ { j } \\ + \\gamma _ { k } \\mathnormal  \\} \\quad k \\ = \\ 1 , 2 , 3\n$$",
+    "context13": "其中， $f$ 为输出层激励函数，本文所选函数为 $f ( x ) =$ $\\frac { e ^ { x } - e ^ { - x } } { e ^ { x } + e ^ { - x } } \\circ$",
+    "context14": "d．根据公式（16）计算误差:",
+    "context15": "$$\ne _ { k } { = } t _ { k } { - } y _ { k }\n$$",
+    "context16": "其中， $t$ 表示期望输出， $y$ 表示实际输出。",
+    "context17": "e．根据公式（17）、（18）更新网络连接权值 $V _ { i j }$ 、 $V _ { j k }$",
+    "context18": "$$\nV _ { i j } \\ = \\ V _ { i j } + \\eta z _ { j } \\big ( \\mathrm { \\small ~ 1 ~ - ~ } z _ { j } \\big ) \\ x _ { i } \\sum _ { k \\ : = \\ : 1 } ^ { 3 } V _ { j k } e _ { k }\n$$",
+    "context19": "$$\nV _ { j k } = V _ { j k } + \\eta z _ { j } e _ { k }\n$$",
+    "context20": "其中， $\\eta$ 为学习率。",
+    "context21": "f.根据公式（19）、（20）更新阈值 $\\theta _ { j } \\circ \\gamma _ { k } \\circ$",
+    "context22": "$$\n\\theta _ { j } \\ = \\ \\theta _ { j } \\ + \\eta z _ { j } \\big ( \\mathrm { ~ 1 ~ - ~ } z _ { j } \\big ) \\ \\sum _ { k = 1 } ^ { 3 } V _ { j k } e _ { k }\n$$",
+    "context23": "$$\n\\gamma _ { k } = \\gamma _ { k } + \\eta e _ { k }\n$$",
+    "context24": "g.网络进行学习训练，使得实际输出尽可能地接近期望输出，直至达到最大训练次数或满足误差精度要求。"
+  },
+  "4实验及结果分析": {
+    "context1": "本研究通过Excel2007软件完成描述性统计以及图形绘制，利用MATLABR_2016a神经网络工具箱构建突发传染病舆情热度趋势预测模型。研究分为突发传染病舆情时间跨度选择、舆情热度数据收集、舆情热度数据预处理及清洗、舆情热度数据归一化处理等阶段，具体的流程见图2。",
+    "context2": "![](images/eda4f4f3cbe321fbbb4d50f24ec91362323c33b42220299148adca47a5100e7d.jpg)  \n图2突发传染病舆情热度趋势预测流程图"
+  },
+  "4.1突发传染病舆情时间跨度的选择": {
+    "context1": "本文选取2015年上半年人民网舆情监测室广受关注的“MERS（中东呼吸综合征）病毒卫生突发事件”作为研究对象。根据人民网、中国新闻网关于中东呼吸综合征的新闻报道得出该突发传染病事件的进展见表2。",
+    "context2": "结合百度指数搜索指数的网民关注度时间变化趋势，截止到2015年7月31日，该事件基本平息，网民关注度降到与突发传染病爆发前持平的状态。因此，选取2015年5月28日至2015年7月31日为研究时间段。",
+    "context3": "表2MERS（中东呼吸综合征）进展表",
+    "context4": "<table><tr><td>时间</td><td>MERS事件进展报道</td></tr><tr><td>2015.05.28</td><td>广东出现首例MERS疑似病例，韩国发热男子入 境已被隔离；</td></tr><tr><td>2015.05.31</td><td>广东官方：接诊首例MERS患者救护车司机被感 染是谣言；</td></tr><tr><td>2015.06.11</td><td>1名中国人在韩国感染MERS（首位)；</td></tr><tr><td>2015.06.13</td><td>韩国MERS疫情出现首例第三代人传人感染者;</td></tr><tr><td></td><td>2015.06.26中国首例MERS患者痊愈回国;</td></tr><tr><td>2015. 07. 03</td><td>韩国MERS存活的第一代患者全部治愈，确诊病 例增至184例;</td></tr><tr><td>2015.08.04</td><td>韩国MERS疫情致36人死亡后，韩国总统宣布 撤换卫生部长;</td></tr><tr><td>2015.10.01</td><td>韩国最后1名MERS确诊患者判定为完全治愈;</td></tr><tr><td>2015.11. 25</td><td>韩国最后1名MERS确诊患者死亡（10月11日 出现发热症状)；</td></tr><tr><td>2015.12.24</td><td>韩国宣布MERS疫情结束，此次疫情共186人感 染，38人死亡；</td></tr></table>"
+  },
+  "4.2舆情热度数据收集": {
+    "context1": "本文利用Gooseeker爬取新浪微博上包含“MERS”词条的所有原创微博条目，具体字段包括：发布时间、博主名称、原创微博内容、微博网页、转发量、评论量、点赞量，共收集数据样本56043条。"
+  },
+  "4.3舆情热度数据预处理及清洗": {
+    "context1": "对收集到的原创微博进行逐条筛选，剔除232条广告、重复的1255条记录、以及其他与MERS无关的401条微博，得到有效数据54155条，累计转发量1316856次，累计评论量572759次，累计点赞量991963次。然后，以天为单位，根据公式（1）\\~（4）整理汇总每日微博舆情热度数据，得到65条结果见3。",
+    "context2": "表3 每日微博舆情热度数据",
+    "context3": "<table><tr><td>序号</td><td>时间</td><td>原创微博 发布量</td><td>转发量</td><td>评论量</td><td>点赞量</td></tr><tr><td>01</td><td>2015.05.28</td><td>465</td><td>28131</td><td>10 958</td><td>7284</td></tr><tr><td>02</td><td>2015. 05. 29</td><td>1 308</td><td>95 938</td><td>19 061</td><td>27 052</td></tr><tr><td>03</td><td>2015.05.30</td><td>3330</td><td>109 948</td><td>33 919</td><td>121 904</td></tr><tr><td>04</td><td>2015. 05.31</td><td>9 431</td><td>213 551</td><td>90 099</td><td>188 940</td></tr><tr><td>05</td><td>2015.06.01</td><td>4 759</td><td>29 486</td><td>20 399</td><td>40 555</td></tr><tr><td>06</td><td>2015.06. 02</td><td>2 817</td><td>188 797</td><td>50 634</td><td>84 709</td></tr><tr><td>07</td><td>2015. 06. 03</td><td>2 996</td><td>57 244</td><td>37 601</td><td>71 484</td></tr><tr><td>08</td><td>2015.06. 04</td><td>2 842</td><td>155 920</td><td>53 580</td><td>105 945</td></tr><tr><td>09</td><td>2015. 06.05</td><td>2 660</td><td>74 825</td><td>36065</td><td>72 362</td></tr><tr><td>10</td><td>2015.06.06</td><td>1 471</td><td>15 991</td><td>10 993</td><td>25 581</td></tr><tr><td>11</td><td>2015. 06. 07</td><td>1284</td><td>7 725</td><td>6 476</td><td>12 230</td></tr><tr><td>12</td><td>2015.06.08</td><td>1 509</td><td>30 667</td><td>19 079</td><td>28190</td></tr><tr><td>13</td><td>2015.06. 09</td><td>1 611</td><td>26 475</td><td>17 557</td><td>22 286</td></tr><tr><td>14</td><td>2015.06. 10</td><td>1 726</td><td>34 413</td><td>13 977</td><td>12 324</td></tr><tr><td>15</td><td>2015. 06. 11</td><td>1 711</td><td>36 632</td><td>15101</td><td>17 821</td></tr><tr><td>：</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td></tr></table>",
+    "context4": "数据来源：新浪微博。"
+  },
+  "4.4舆情热度数据归一化处理": {
+    "context1": "本文中原创微博发布量、转发量、评论量、点赞量均为效益型指标，根据公式（8）进行无量纲化处理，见表4。",
+    "context2": "表4微博舆情热度数据无量纲化",
+    "context3": "<table><tr><td>序号</td><td>时间</td><td>原创微博发布量</td><td>转发量</td><td>评论量</td><td>点赞量</td></tr><tr><td>01</td><td>2015. 05. 28</td><td>0. 047993205</td><td>0.131688996</td><td>0. 121426748</td><td>0. 038404328</td></tr><tr><td>02</td><td>2015. 05. 29</td><td>0. 137502654</td><td>0. 449225207</td><td>0. 211381121</td><td>0. 143046196</td></tr><tr><td>03</td><td>2015. 05.30</td><td>0. 352197919</td><td>0.514833217</td><td>0. 376325226</td><td>0. 645145068</td></tr><tr><td>04</td><td>2015. 05. 31</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>05</td><td>2015.06.01</td><td>0. 503928647</td><td>0.138034382</td><td>0. 226234749</td><td>0. 2145243</td></tr><tr><td>06</td><td>2015.06.02</td><td>0. 297727755</td><td>0. 884078467</td><td>0. 561884568</td><td>0. 44825341</td></tr><tr><td>07</td><td>2015. 06. 03</td><td>0. 316733914</td><td>0. 268023471</td><td>0. 417200457</td><td>0. 378246899</td></tr><tr><td>08</td><td>2015. 06.04</td><td>0. 300382247</td><td>0. 730117401</td><td>0. 594589194</td><td>0. 560666134</td></tr><tr><td>09</td><td>2015. 06. 05</td><td>0.281057549</td><td>0. 350354265</td><td>0. 400148758</td><td>0. 382894591</td></tr><tr><td>10</td><td>2015. 06. 06</td><td>0. 154809938</td><td>0.074838087</td><td>0. 121815295</td><td>0. 135259461</td></tr><tr><td>11</td><td>2015. 06. 07</td><td>0. 134954343</td><td>0. 036128893</td><td>0. 071670423</td><td>0. 064585969</td></tr><tr><td>12</td><td>2015.06. 08</td><td>0. 158844765</td><td>0. 143564936</td><td>0. 211580946</td><td>0.149070197</td></tr><tr><td>13</td><td>2015. 06. 09</td><td>0. 16967509</td><td>0.123934045</td><td>0. 194684666</td><td>0. 117817385</td></tr><tr><td>14</td><td>2015.06. 10</td><td>0. 181885751</td><td>0.161107235</td><td>0. 154941773</td><td>0. 065083558</td></tr><tr><td>15</td><td>2015. 06. 11</td><td>0.180293056</td><td>0. 171498682</td><td>0. 167419709</td><td>0. 094181916</td></tr><tr><td>…</td><td>：</td><td>…</td><td>…</td><td>…</td><td>…</td></tr></table>"
+  },
+  "4.5舆情热度计算": {
+    "context1": "根据公式（10）～（12）计算得到原创微博发布量、转发量、评论量、点赞量对应的权重（保留小数点后5位)：$W _ { \\scriptscriptstyle 1 } = 0 . 2 0 3 6 4$ ， $W _ { 2 } = 0 . 2 8 4 5 6$ ， $\\begin{array} { r } { W _ { \\mathrm { 3 } } = 0 . 2 3 7 9 7 } \\end{array}$ ， $W _ { 4 } = 0 . 2 7 3 8 3$ 。"
+  },
+  "根据公式（5）计算微博舆情热度，结果见表5。": {
+    "context1": "从图3可以看出，MERS微博舆情热度的演变具有快速爆发、回落相对缓慢的特点，大致经历了萌动、加速、成熟、衰退4个阶段，基本符合网络舆情生命周期的特点。",
+    "context2": "表5MERS微博舆情热度",
+    "context3": "<table><tr><td>序号</td><td>时间</td><td>MERS微博舆情热度</td></tr><tr><td>01</td><td>2015. 05. 28</td><td>0.086660857</td></tr><tr><td>02</td><td>2015.05.29</td><td>0. 245312423</td></tr><tr><td>03</td><td>2015. 05.30</td><td>0. 48446897</td></tr><tr><td>04</td><td>2015.05.31</td><td>1. 00005</td></tr><tr><td>05</td><td>2015. 06.01</td><td>0. 254490092</td></tr><tr><td>06</td><td>2015.06.02</td><td>0. 568681963</td></tr><tr><td>07</td><td>2015. 06.03</td><td>0. 343643907</td></tr><tr><td>08</td><td>2015.06.04</td><td>0. 56398168</td></tr><tr><td>09</td><td>2015. 06.05</td><td>0. 357021939</td></tr><tr><td>10</td><td>2015.06. 06</td><td>0. 118854669</td></tr><tr><td>11</td><td>2015.06. 07</td><td>0. 072507156</td></tr><tr><td>12</td><td>2015.06.08</td><td>0. 164377249</td></tr><tr><td>13</td><td>2015.06.09</td><td>0. 148416243</td></tr><tr><td>14</td><td>2015.06.10</td><td>0. 137580468</td></tr><tr><td>15</td><td>2015. 06. 11</td><td>0. 151151954</td></tr><tr><td>…</td><td>：</td><td>：</td></tr></table>",
+    "context4": "萌动期（5月28日\\~5月30日），公众开始关注该突发传染病事件，舆情热度上升明显，此后，网络舆情热度进入短暂的加速期（5月30日～5月31日），然后维持在成熟期（6月1日\\~6月5日)。尤其是在衰退期(6月6日后)前期，出现明显的波动，体现为在6月18日和6月26日微博舆情热度剧增，出现两个小高峰，经过分析原创微博原文发现在这两日，“为抢救韩国MERS患者广东15天花掉逾80O万元”与“韩国籍MERS患者出院”两大话题引起网友广泛关注，致使微博與情热度上升。",
+    "context5": "根据公式（6）计算MERS微博舆情热度趋势值，再由上文关于类别的计算方法，将微博舆情热度趋势值分为6类， $C 1 \\ = \\ \\ \\left[ 0 . 2 5 7 7 9 0 5 2 , 0 . 5 1 5 5 8 1 0 3 \\right]$ ， $C 2 =$ [0.12889526,0.25779052]， ${ \\cal C } 3 = \\mathrm { ~ [ 0 , 0 . }$ 12889526]， $C 4 = \\mathrm { \\ t 0 . 1 8 6 3 8 9 9 8 , 0 ] }$ ，$C 5 = \\ \\left[ - 0 . 3 7 2 7 7 9 9 5 , - 0 . 1 8 6 3 8 9 9 8 \\right]$ ， $\\begin{array} { l l } { C 6 = } & { \\left[ - 0 . 7 4 5 5 9 9 0 8 \\right. } \\end{array}$ ，-0.37277995]，计算结果见表6。"
+  },
+  "4.6BP神经网络参数设置": {
+    "context1": "![](images/440dd802dbb2f13ed267998374bc7218e19805d7910d6e12ef0310818d5ee6e3.jpg)  \n隐含层和输出层的传递函数均采用双曲正切S型函数  \n图3MERS微博舆情热度曲线图",
+    "context2": "表6MERS微博舆情热度趋势值",
+    "context3": "<table><tr><td>序号</td><td>时间</td><td>MERS 微博 舆情热度</td><td>MERS 微博與情 热度趋势值</td><td>类别</td><td>二进制 输出</td></tr><tr><td>01</td><td>2015.05.28</td><td>0.086660857</td><td>0. 158651566</td><td>2</td><td>010</td></tr><tr><td>02</td><td>2015. 05. 29</td><td>0. 245312423</td><td>0. 239156547</td><td>2</td><td>010</td></tr><tr><td>03</td><td>2015. 05.30</td><td>0. 48446897</td><td>0. 51558103</td><td>1</td><td>001</td></tr><tr><td>04</td><td>2015. 05.31</td><td>1. 00005</td><td>-0. 745559908</td><td>6</td><td>110</td></tr><tr><td>05</td><td>2015. 06. 01</td><td>0. 254490092</td><td>0. 314191871</td><td>1</td><td>001</td></tr><tr><td>06</td><td>2015.06.02</td><td>0. 568681963</td><td>-0. 225038057</td><td>5</td><td>101</td></tr><tr><td>07</td><td>2015. 06. 03</td><td>0. 343643907</td><td>0. 220337773</td><td>2</td><td>010</td></tr><tr><td>08</td><td>2015. 06. 04</td><td>0. 56398168</td><td>-0. 20695974</td><td>5</td><td>101</td></tr><tr><td>09</td><td>2015. 06. 05</td><td>0. 357021939</td><td>-0. 23816727</td><td>5</td><td>101</td></tr><tr><td>10</td><td>2015. 06. 06</td><td>0. 118854669</td><td>-0. 046347513</td><td>4</td><td>100</td></tr><tr><td>11</td><td>2015.06.07</td><td>0. 072507156</td><td>0. 091870094</td><td>3</td><td>011</td></tr><tr><td>12</td><td>2015. 06.08</td><td>0. 164377249</td><td>-0. 015961007</td><td>4</td><td>100</td></tr><tr><td>13</td><td>2015.06.09</td><td>0. 148416243</td><td>-0. 010835775</td><td>4</td><td>100</td></tr><tr><td>14</td><td>2015. 06. 10</td><td>0. 137580468</td><td>0. 013571487</td><td>3</td><td>011</td></tr><tr><td>15</td><td>2015. 06. 11</td><td>0. 151151954</td><td>-0. 066551899</td><td>4</td><td>100</td></tr><tr><td>：</td><td>…</td><td>：</td><td>：</td><td>…</td><td>…</td></tr></table>",
+    "context4": "“Tansig”，训练函数采用Levenberg-Marquardt反向传播算法训练函数“Trainlm”1，训练目标误差为0.005，学习率为0.05，最大训练次数设置为 $1 \\ 0 0 0$ 。各训练参数设置见表7。"
+  },
+  "4.7突发传染病舆情热度趋势预测": {
+    "context1": "本文将2015年5月28日至2015年7月23日期间的数据作为训练样本。根据隐含层节点数的公式（12），将 $\\alpha$ 进行逐个试验，。先设定初始隐含层节点数为3（ $\\alpha = 1$ 时），然后训练10次，去掉最大和次大误差，取剩下8个误差的平均值并记录下来，再设置隐含层节点数为4一直到取隐含层节点数为12（ $\\alpha = 1 0$ 时），得到不同隐含层节点数下网络训练平均误差见图4。",
+    "context2": "表7训练参数设置",
+    "context3": "<table><tr><td>N</td><td>训练参数</td><td>参数值</td></tr><tr><td>1</td><td>隐含层传递函数</td><td>Tansig</td></tr><tr><td>2</td><td>输出层传递函数</td><td>Tansig</td></tr><tr><td>3</td><td>训练函数</td><td>Trainlm</td></tr><tr><td>4</td><td>性能函数</td><td>Mse</td></tr><tr><td>5</td><td>显示间隔时间</td><td>net.trainParam.show = 100</td></tr><tr><td>6</td><td>目标误差</td><td>net.trainParam.goal= 0. 005</td></tr><tr><td>7</td><td>学习率</td><td>net.trainParam.lr= 0. 05</td></tr><tr><td>8</td><td>最大训练次数</td><td>net.trainParam.epochs=1 000</td></tr></table>",
+    "context4": "![](images/59a904ad046201d69dcbf3eb5300cf2a0dced8277f01e6a00c912333af7526a5.jpg)  \n图4BP神经网络训练平均误差",
+    "context5": "从图4可以看出，随着隐含层个数的增加，训练样本的Mse平均值基本呈下降趋势。当 $\\alpha = 8$ 时，即隐含层节点数 $\\mathrm { N } = 1 0$ 时，网络误差最小。因此，本文所建BP神经网络拓扑结构为 $^ {  } 4 - 1 0 - 3 ^ { \\because }$ ，将隐含层为10中训练误差较小、预测结果准确率较高的BP神经网络结构的参数保存。经过141次迭代，达到最小误差值0.005848，网络训练提前停止，其训练结果混淆矩阵见图5。",
+    "context6": "![](images/8b48ac31947ba8ee634cb06786f1133b4eee538753f88a97a3baee524a78acc9.jpg)  \n图5训练结果混淆矩阵",
+    "context7": "从图5可知，57个训练样本的准确率为 $8 7 . 7 \\%$ ，说明该模型的训练结果较为理想。基于此，通过训练好的网络预测2015年7月24日至2015年7月31日MERS舆情热度趋势值，对应的预测结果见表8。",
+    "context8": "表8MERS微博舆情热度趋势值预测结果",
+    "context9": "<table><tr><td>序号</td><td>时间</td><td>预测值</td><td>预测类别</td></tr><tr><td>58</td><td>2015. 07. 24</td><td>011</td><td>3</td></tr><tr><td>59</td><td>2015. 07. 25</td><td>011</td><td>3</td></tr><tr><td>60</td><td>2015. 07. 26</td><td>011</td><td>3</td></tr><tr><td>61</td><td>2015. 07. 27</td><td>011</td><td>3</td></tr><tr><td>62</td><td>2015. 07. 28</td><td>100</td><td>4</td></tr><tr><td>63</td><td>2015. 07. 29</td><td>100</td><td>4</td></tr><tr><td>64</td><td>2015. 07.30</td><td>011</td><td>3</td></tr><tr><td>65</td><td>2015. 07. 31</td><td>100</td><td>4</td></tr></table>"
+  },
+  "4.8突发传染病舆情热度趋势预测模型的评价": {
+    "context1": "将预测得出的MERS微博舆情热度趋势值的类别与实际类别进行误差分析见表9，模型预测结果的混淆矩阵见图6。",
+    "context2": "表9微博舆情热度趋势预测模型误差分析",
+    "context3": "<table><tr><td>序号</td><td>时间</td><td>实际类别</td><td>预测类别</td><td>正确与否</td></tr><tr><td>58</td><td>2015. 07. 24</td><td>4</td><td>3</td><td>错误</td></tr><tr><td>59</td><td>2015. 07. 25</td><td>3</td><td>3</td><td>正确</td></tr><tr><td>60</td><td>2015. 07. 26</td><td>3</td><td>3</td><td>正确</td></tr></table>",
+    "context4": "Confusion Matrix",
+    "context5": "<table><tr><td colspan=\"5\">表9 (续)</td></tr><tr><td>序号</td><td>时间</td><td>实际类别</td><td>预测类别</td><td>正确与否</td></tr><tr><td>61</td><td>2015. 07. 27</td><td>3</td><td>3</td><td>正确</td></tr><tr><td>62</td><td>2015. 07. 28</td><td>4</td><td>4</td><td>正确</td></tr><tr><td>63</td><td>2015. 07. 29</td><td>4</td><td>4</td><td>正确</td></tr><tr><td>64</td><td>2015. 07. 30</td><td>3</td><td>3</td><td>正确</td></tr><tr><td>65</td><td>2015. 07. 31</td><td>4</td><td>4</td><td>正确</td></tr></table>",
+    "context6": "![](images/14f532557961cac8d9584e26fb7011283c95437f470113be6e4f20e731252acf.jpg)  \n图6模型预测结果混淆矩阵",
+    "context7": "由表9的误差分析以及图5的混淆矩阵可以看出，基于BP神经网络预测的MERS微博舆情热度趋势的后7个类别与实际相符，只有第一个类别预测有偏差，准确率达到 $8 7 . 5 \\%$ ，预测结果较为理想。说明基于BP神经网络模型的突发传染病舆情热度趋势的预测是可行的。"
+  },
+  "5结语": {
+    "context1": "突发传染病发生后，由于严重危及生命安全，事件相关信息往往迅速在网络上传播交流，从而形成网络舆情。本文将BP神经网络应用到突发传染病舆情热度趋势的预测中。首先在查阅文献的基础上，针对微博自身的特点，提出舆情热度的定量方法，然后利用信息熵确定各个指标的权重，最后建立基于BP神经网络的突发传染病舆情热度趋势预测模型，并选取新浪微博“MERS病毒卫生突发事件”的舆情热度数据进行实例分析，预测该突发传染病事件的发展趋势，从而验证模型的可行性。研究结果可以为突发传染病微博舆情的管控提供决策支持。",
+    "context2": "然而，本文研究也存在一定的局限性：第一，本文仅针对新浪微博这一媒介平台建立指标体系，忽略了微信、论坛、新闻网站等互联网平台上的舆情信息，而且选取的微博舆情热度评价指标只包括新浪微博的原创微博发布量、转发量、评论量，点赞量四项指标，较为单一，忽略了微博内容主题特征、博主类型，博主粉丝量等信息对舆情热度的影响，该体系还有待进一步完善；第二，突发传染病舆情具有爆发性、演变不确定性等特点，在一段时间内（1天或者数小时）可能会有大幅度的波动，本文以天为单位进行数据统计，在未来的研究中还需考虑选取更加细粒度的单位进行分析；第三，本文只选取了一个突发传染病案例进行实证分析，结果表明模型预测的准确率较高，但对于该模型是否同样适用于其他突发传染病舆情尚未进行探讨。因此，在未来的研究中还需要选取一定数量的案例来验证模型的合理性和有效性。"
+  },
+  "参考文献": {
+    "context1": "[]中国互联网络信息中心（CNNIC)．第40次中国互联网络发展状况统计报告[R]．中国互联网络信息中心，2017.  \n安璐，杜廷尧，余传明，等．突发公共卫生事件的微博主题演化模式和时序趋势[．情报资料工作，2016，（5)：44-52.  \n徐旖旎．基于微博的媒体奇观网络舆情热度趋势分析[．情报科学，2017，35（2)：92-97，125.  \n赵磊，王松.基于BP神经网络的舆情热度趋势仿真模型研究[．情报学报，2016，35（9)：989-999.  \n[]Yu L，Li L，Tang L.What Can Mass Media do to Control PublicPanic in Accidents of Hazardous Chemical Leakage into Rivers?AMulti-Agent-Based Online Opinion Dissemination Model[].Journal of Cleaner Production，2017，(143)：1203-1214.  \n[张行钦，张东红，付刚瓯，等．“乙肝疫苗”事件网络舆情热度演变特点及应对研究[．中国预防医学杂志，2017，18(1):60-62.  \nLax JR，Philips JH.How Should we Estimate Public Opinion inthe States[．American Journal of Political Science，2O09，53(1):107-121.  \n曹学艳，张仙，刘樑，等．基于应对等级的突发事件网络舆情热度分析[．中国管理科学，2014，22（3)：82-89.  \n王慧军，石岩，胡明礼，等．舆情热度的最优监控问题研究[．情报杂志，2012，31（1)：71-75.  \n[o]袁国平，许晓兵．基于系统动力学的关于突发事件后网络舆情热度研究[．情报科学，2015，33（10)：52-56.  \n[]屈后兴，齐佳音．基于微博的企业网络舆情热度趋势分析[．情报杂志，2014，33（6)：133-137.  \n[2]王新猛．基于马尔可夫链的政府负面网络舆情热度趋势分析——以新浪微博为例[]．情报杂志，2015，34（7)：161-164.  \n[13]Chen XG,Duan S，Wang L. Research on Trend Prediction andEvaluation of Network Public Opinion[.Concurrency and Com-putation:Practice Practice and Experience，2017，29（24):e4212.  \n[16Wrench JS，Punyanunt-Carter N M. The Relationship BetweenComputer-Mediated-Communication Competence，Apprehension,Self-Efficacy，Perceived Confidence，and Social Presence[].Southern Communication Journal，2007，72（4)：355-378.  \n[17]Dholakia U M，Bagozzi RP，Pearo L K．A Social InfluenceModel of Consumer Participation in Network-and Small-Group-Based Virtual Communities[．International Journal of Researchin Marketing，2004，21(（3)：241-263.  \n[18]Houtman E，Makos A，Meacock HL. The Intersection of SocialPresence and Impression Management in Online Learning Environ-ments[．E-Learning and Digital Media，2014，11（4)：419-430.  \n[19]Lu Y，Zhao L，Wang B.From Virtual Community Members toC2C E-commerce Buyers:Trust in Virtual Communities and ItsEffect on Consumers'Purchase Intention[]．Electronic Com-merce Research and Applications，2010，9（4)：346-360.  \n[0]Zhao L，Lu Y，Wang B，et al. Cultivating the Sense of Belong-ing and Motivating User Participation in Virtual Communities:ASocial Capital Perspective[．International Journal of InformationManagement，2012，32(6)：574-588.  \n[1]Ogonowski A，Montandon A，Botha E，et al． Should New On-line Stores Invest in Social Presence Elements? The Effect of SocialPresence on Initial Trust Formation[l．Journal of Retailing andConsumer Services，2014，21 (4):482-491.  \n[2]Blanchard AL，Markus ML.The Experienced Sense of a VirtualCommunity: Characteristics and Processes[]．ACM Sigmis Da-tabase，2004，35(1):64-79.  \n[3]Kankanhali A，Tan B C Y，Wei K K.Contributing Knowledgeto Electronic Knowledge Repositories: An Empirical Investigation  \n[24金晓玲，汤振亚，周中允，等．用户为什么在问答社区中持续贡献知识?：积分等级的调节作用[]．管理评论，2013，25 (12):138-146.  \n[25]秦敏，乔晗，陈良煌．基于CAS理论的企业开放式创新社区在线用户贡献行为研究：以国内知名企业社区为例[．管理评论，2015，27（1)：126-137.  \n[26]Lu Y，Zhao L，Wang B.From Virtual Community Members toC2C E-commerce Buyers:Trust in Virtual Communities and ItsEffect on Consumers'Purchase Intention[]．Electronic Com-merce Research and Applications，2010，9(4)：346-360.  \n[7]Gharib R K，Philpott E，Duan Y.Factors Aecting Active Par-ticipation in B2B Online Communities:An Empirical Investigation[．Information & Management，2017，54（4)：516-530.  \n[28]范晓屏，韩洪叶，孙佳琦．网站生动性和互动性对消费者产品态度的影响一认知需求的调节效应研究[．管理工程学报，2013，27（3)：196-204.  \n[9]赵宏霞，王新海，周宝刚．B2C网络购物中在线互动及临场感与消费者信任研究[．管理评论，2015，27（2)：43-54.  \nB0]Gefen D，Straub D W. Consumer Trust in B2C E-Commerce andtheImportance of Social Presence:Experiments in E-Products andE-Services[.Omega，2004，32(6)：407-424.  \n[1] 黄敏学，廖俊云，周南．社区体验能提升消费者的品牌忠诚吗——不同体验成分的作用与影响机制研究．南开管理评论，2015，18（3)：151-160.  \n[2]王哲．社会化问答社区知乎的用户持续使用行为影响因素研究[．情报科学，2017，35（1)：78-83.",
+    "context2": "(责任编辑：孙国雷)"
+  },
+  "(上接第44页)": {
+    "context1": "[4靳松，庄亚明.基于H7N9的突发事件信息传播网络簇结构特性研究[．情报杂志，2013，32（12)：12-17.  \n[15]安璐，周思瑶，余传明，等．突发传染病微博影响力的预测研究[．情报科学，2017，35（4)：27-31.  \n[6]杜洪涛，滕琳，赵志云.突发性传染病舆情中的公共管理沟通效果研究——以中东呼吸综合征疫情微博社区舆情为例．情报杂志，2017，36（2)：108-114.  \n[7]翁士洪，顾佩丽．公共突发事件中微博谣言的机制与治理—以H7N9事件为例[．电子政务，2015，（10)：10-18.  \n[8]魏志惠，何跃．基于信息熵和未确知测度模型的微博意见领袖识别——以“甘肃庆阳校车突发事件”为例[]．情报科学，2014，32（10)：38-43.  \n[9]朱喜安，魏国栋．熵值法中无量纲化方法优良标准的探讨．统计与决策，2015，（2)：12-15.  \n[20]赵志勇.简单易学的机器学习算法——神经网络之BP神经网络[EB/O1]．http://blog.csdn.net/google19890102/article/de-tails/32723459，2017-09-01.",
+    "context2": "[1]陈明．MATLAB神经网络原理与实例精解 [M]．北京：清华大学出版社，2013：95.",
+    "context3": "(责任编辑：郭沫含)"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "original_filename": "full_449.md",
+  "Ontology在数字图书馆领域中的应用与研究综述": {
+    "context1": "刘颖詹萌（武汉大学图书馆武汉430072)",
+    "context2": "文摘Ontology作为一种能在语义和知识层次上描述概念体系的有效工具，是知识工程及其相关领域的研究热点之一，在数字图书馆领域也得到了相当广泛的关注。本文简要介绍了Ontology在数字图书馆领域的研究和应用现状，包括Ontology与叙词表、分类法、知识库、元数据的关系，Ontology构建方法以及Ontology在数字图书馆领域的应用等。",
+    "context3": "关键词Ontology本体论数字图书馆"
+  },
+  "A Review of Ontology Research On Digital Library Liu Ying & Zhan Meng": {
+    "context1": "（Wuhan University,Wuhan 430072)",
+    "context2": "Abstract:As an efective tool which describes concept system on semantic and knowledge level, Ontology has been aresearch hotspot in knowledge enginering and related fields，and has also been paid wideattention indigital library field.This paper briefly introduces Ontology Research and itsapplications on digital library .",
+    "context3": "Key words:Ontology , Digital Library"
+  },
+  "1引言": {
+    "context1": "Ontology称为知识本体或本体，是对概念体系的明确的、形式化、可共享的规范说明[1]。Ontology 是某个领域的一套概念体系，它通常表达为一组对象（概念）、关系、函数、定理和示例。由于Ontology 具有概念化、形式化、可共享等特点，因此Ontology 适合于对领域知识进行描述和形式化，从而建立人机之间对信息的共同理解，实现领域知识的共享和重用。Ontology自90年代初提出以来，在知识表达、智能推理、信息共享等方面获得了广泛的关注，在知识工程及其相关的领域具有广阔的应用前景。",
+    "context2": "在数字图书馆领域，面对信息资源日新月异的增长，如何有效组织复杂的海量信息，提供高效信息服务，成为数字图书馆界迫切需要解决的难题。On-tology作为一种能在语义和知识层次上描述概念体系的有效工具，在数字图书馆领域也得到了相当广泛的关注。国内外进行了大量的相关理论研究和实践探索。本文就Ontology在数字图书馆领域的研究和应用现状作简要介绍。"
+  },
+  "2Ontology与叙词表、分类法、知识库、元数据": {
+    "context1": "叙词表和分类法在图书馆的应用有着悠久的历史，已成为图书馆信息描述和信息组织最重要的两种工具。知识库和元数据分别为知识描述的工具和资源组织的工具，也在数字图书馆领域有着广泛而i长期的应用，作为信息描述和信息组织方面的新兴工具,Ontology与叙词表、分类法、知识库、元数据之间有着什么样的区别和联系，这是数字图书馆领域"
+  },
+  "众多研究人员所共同关心的论题。": "",
+  "2.1Ontology与叙词表、分类法": {
+    "context1": "李景和钱平从多个方面对Ontology 和叙词表进行了比较，认为二者有着密切的联系，叙词表可以看成是一种本体，其中许多概念影响着今天的形式化的本体;同时二者也存在显著的不同，主要体现在：[2](1)在逻辑表达形式上,叙词表中的术语均是规范的科学语言，而Ontology 中的概念、术语可以用自然语言和半自然语言来表达。(2)在术语关系上，叙词表中只包含“用、代、属、分、参、族\"这样的简单的语义关系;而Ontology中还包括整体-部分、相交等等众多关系，术语之间的关系被描述得更为广泛、深入、细致和全面。(3)叙词表相对稳定，结构保守而单一，不可能经常修订。而Ontology是一个开放集成的体系，可以随时进行修正和更新，并且容易被复用。 (4)叙词表是一个词汇库(语料库)但不是知识库，而Ontology不仅仅是概念集、语料库，还可以是一个知识库。Reimer认为分类法可看作简化的Ontology，其简化表现在分类法缺少对概念的定义和领域定理[3]。",
+    "context2": "概括来看，叙词表和分类法与Ontology同为信息组织的工具,都是--套概念体系，体系中包含了一组概念和概念之间的相互关系。叙词表和分类法所揭示的概念间的关系比较简单，二者都可以看作是简化的Ontology。叙词表、分类法和Ontology 的区别除了表现在逻辑表达形式、术语关系、系统开放程度上之外，还表现在概念体系内容上和形式化程度上。Ontology通常包含叙词表和分类法所缺乏的概念的定义、实例和领域定理;并采用一定的编码语言来实现机器对其的理解，这也是叙词表和分类法所望尘莫及的。由于叙词表和分类法修订困难,维护和使用的人工成本很高，它的发展方向必然是本体。"
+  },
+  "2.2Ontology与知识库": {
+    "context1": "在文献[4]中Mike Uschold提出：如果本体和知识库用同一语言表达的话,两者之间并没有清晰的界限。区别仅仅在于知识库的哪一部分是可以共享和重用的，哪一部分是针对特定应用的。这种区别往往还随着时间和具体的背景变化。",
+    "context2": "William则认为：一般来说本体提供的是描述某个领域的一组术语和概念，知识库则使用这些术语来表达该领域的事实。例如医药本体可能包含“白血病”、“皮肤病\"等术语的定义，但它不会包含对某一病人患某一疾病的诊断；而这正是知识库所要表达的内容[5]。",
+    "context3": "总的来说Ontology与知识库都是形式化的知识描述，但是它们描述的侧重点有所不同。从体系内容上看，知识库使用术语来表达一些可供机器推理的事实,Ontology中尽管也包含了一些公理和实例，但侧重于描述术语本身。从应用范围上看，知识库通常是针对特定应用的，而Ontology更强调相关领域内的共享和重用。"
+  },
+  "2.3Ontology与元数据": {
+    "context1": "在文献[6]中刘炜等认为：Ontology可对元数据方案起到补充和高层互操作的作用。元数据和Ontolo-gy 的共同之处为采用标准编码语言进行形式化处理，因而能为资源提供语义基础，可用于资源组织和资源发现。其差异表现为元数据难以对不同知识体系、不同粒度的资源进行描述，而知识本体则提供了不同元数据之间的相互映射机制，可实现异构系统之间的互操作。"
+  },
+  "3Ontology构建方法": {
+    "context1": "Ontology构建方法的理论研究和实践探索是Ontology研究领域的一个热点。从各自应用领域和具体任务出发，不少研究人员提出了不同的 Ontology构建原则和方法。"
+  },
+  "3.1Ontology构建的原则": {
+    "context1": "在Ontology构建原则中最有影响的是Gruber于1995年提出的6条规则[7]：",
+    "context2": "（1）清晰性：Ontology应该用自然语言对所定义术语给出明确的、客观的语义定义。",
+    "context3": "(2）完全性：所给出的定义是完整的，完全能表达所描述术语的含义。",
+    "context4": "(3）一致性：由术语得出的推论与术语本身的含义是相容的，不会产生矛盾。",
+    "context5": "（4）可扩展性：即向Ontology中添加通用或专用的术语时，不需要修改其已有的内容。",
+    "context6": "(5）本体约束最小：对待建模对象给出的约束 应该尽可能少，只要能够满足特定的知识共享需求 即可。",
+    "context7": "(6）编码偏好程度最小：概念的描述不应该依赖于某一种特殊的符号层的表示方法。",
+    "context8": "K．Mahesh 在文献[8]中提出的Ontology 构建原则为：",
+    "context9": "（1）非唯一性：Ontology 是由人工创建的，即使在非常狭窄的领域中,Ontology也不是唯一的。",
+    "context10": "（2）面向特定任务：Ontology是针对其用途而创建的，因承担任务的不同,Ontology所包含的知识也是各不相同的。",
+    "context11": "（3）易用性：Ontology应该容易重用，可方便的进行概念的定义、相关词查找等操作。",
+    "context12": "(4）模块化：可以添加新的概念和概念之间的新关系。",
+    "context13": "（5）颗粒度：建立准确的Ontology需要对所包含概念进行适当的分解，概念颗粒度的大小取决于Ontology 的用途。",
+    "context14": "(6）冗余性：由于Ontology中概念的分类总会有相互重叠之处,Ontology的冗余性是不可避免的。"
+  },
+  "3.2Ontology构建的方法论": {
+    "context1": "Uschold和Gruninger在文献[9]中提出了一个称为\"骨架法\"(skeletal)的本体构造的方法学框架。该框架包括以下组成部分：(1)确定本体的目的和使用范围;(2)构造本体。具体包括三步：本体捕获，即确定关键的概念和关系，给出精确定义，并确定其它相关的术语。本体编码：选择合适的表示语言表达概念和术语。已有本体的集成：对已有本体的重用和修改。(3)评估：根据需求描述、能力问题等对本体以及软件环境、相关文档进行评价。(4)文档记录。",
+    "context2": "在此框架下他们详细描述了本体捕获和形式化的本体设计和评估方法。提出了完善本体等级体系的三种可行的方法：(1)自顶向下法：由某一领域中最大的概念开始，而后再将这些概念细化。(2)自底向上法：由底层最小类的定义开始，然后将这些细化的类组织在更加综合的概念之下。(3)综合法：综合上两种方法。首先定义很多非常显而易见的概念，然后分别将它们进行恰当地归纳和细化，从一些顶层概念着手，将它们与一些中级概念关联起来。",
+    "context3": "M.Gruninger&M.S．Fox在进行TOVE本体的研究和开发时，也总结了设计和评估本体的方法学[,包括背景和需求描述、非形式化的能力问题描述、词汇和术语确定、形式化的能力问题描述、用一阶谓词逻辑进行规范描述、调整解决方案，使本体趋于完备。",
+    "context4": "Natalya F．Noy 和 Deborah L.McGuinness在文献[1]中提出了被称为\"七步法\"的领域本体构建方法。其构建方法包括七步：（1）确定本体的专业领域和范畴(2)复用现有的本体。(3)列出本体中的重要术语。(4)定义类和类的等级体系。(5)定义类的属性。(6）定义属性的分面。(7)创建实例。",
+    "context5": "李景和孟连生对TOVE法、METHONTOLOGY法、骨架法、KACTUS法、SENSUS法、IDEFS法、七步法等当前的7种主要知识本体构建方法进行了比较研究，指出了它们各自的优势、缺点和不足[12]。他们认为这七种方法均允许系统之间进行互操作;并提供知识共享和复用的机制，但是与IEEE标准相比较，没有一种方法体系是完全成熟的。"
+  },
+  "3.3利用叙词表等建立Ontology": {
+    "context1": "领域内的叙词表、分类法和专业词典等包含了大量的专业术语及术语间的关系，是Ontology 构建过程中非常重要的参考资料。对现有叙词表、分类法和专业词典等进行整合，作为Ontology概念体系的基础，是构建Ontology中普遍采用的方法。不少研究者进行了这方面的尝试，并取得了较好的效果。",
+    "context2": "B.J.Wielinga和Qin，Jian等人进行了将单一的专业叙词表扩展为领域本体的研究。文献[I3]论述了将艺术与建筑叙词表（Art and Architecture The-saurus)扩展，建立古家具本体，解决了图像信息的语义标引和语义检索问题。文献[14]则描述了成功地将GEM教育资料门户（Gateway to Educational Materi-als)的控制词表转化为本体的方法。",
+    "context3": "文献[15]中贺纯佩和李思经介绍了联合国粮食与农业组织采用专业基础词汇表和学科特异性文本建立食物安全专业本体论的实践。其步骤如下：（1)创建核心本体论：由主题专家对本领域的专业文献进行搜索，选取有代表性的文献，从中提取重要的概念和关系，作为核心本体。(2)用叙词表抽取本体论知识：对联合国粮食与农业组织出版的AGROVOC多语种叙词表进行评估，自动选择相关概念，组成本体。(3)本体论的合并和竞选：对第2步产生的本体进行专家筛选，选出的新概念和新关系与第一步产生的核心本体论合并便组成了食物安全本体论的样板。",
+    "context4": "文献[16]和[17]论述了在系统整合基础上建立FOS 渔业本体服务（Fishery Ontology Service）的方法。FOS项目整合了四个词表系统：FIGIS门户的参考目录、ASFA叙词表、AGROVOC 叙词表的渔业部分、One Fish主题树。建设目标是在现有系统基础上建立通用的概念框架下的本体，实现现有系统之间的相互映射和参照，并实现异构系统之间的互操作。IFO(Integrated Fishery Ontology)建立的主要步骤如下：",
+    "context5": "(1)通过对原有四个系统中的数据处理，整合其中的分类体系及术语关系等，形成初步的核心Ontol-ogy。（2)借鉴 OntoClean upper level等各领域可共用的Ontology，以及生物分类法等分类系统，建立核心Ontology。（3)修改核心Ontology原型中的层次分类体系，补充注解，建立层次分类体系。（4）利用On-tologies fortopics等资源等建立主题结构。（5)在现有Ontology基础上修改和建立领域定理。(6)按照主题将 Ontology 模块化,分为设备 Ontology、法律Ontology、核心Ontology、生物Ontology、管理Ontology 等五个模块。(7)建立多语种的词语关系。"
+  },
+  "4Ontology在数字图书馆领域的应用": {
+    "context1": "总的来说，构造本体的目的都是为了实现某种程度的知识共享和重用。本体的作用主要有：(1)澄清了领域知识的结构，从而为知识表示打好基础。",
+    "context2": "(2)为人和组织之间的通讯提供共同的词汇，使知识共享成为可能。(3)在不同的建模方法、范式、语言和软件工具之间进行翻译和映射，以实现不同系统之间的互操作和集成。[19.20]",
+    "context3": "Ontology在知识表达和知识处理的诸多领域得到了广泛的应用。邓志鸿等认为Ontology的应用领域包括知识工程、数字图书馆、软件复用、信息检索和Web上异构信息的处理、语义Web等[2I]。文献[22]认为Ontology在WEB上的应用包括搜索引擎、电子商务和知识管理。在文献[23]中,B.C．Vickery提出Ontology的应用领域还包括：机器翻译、数据库合并及软件系统整合、自然语言中语义的抽取等等，并给出了相关的应用实例。",
+    "context4": "数字图书馆是Ontology的重要应用领域,Ontolo-$\\pmb { \\delta } \\mathbf { y }$ 在其中可发挥重要作用之处主要包括处理信息组织、信息检索和实现异构信息系统互操作。刘炜等在文献[6]中将Ontology 在数字图书馆中的应用总结为：(1)提供信息资源相关领域知识的规范描述；(2)提供描述型元数据有关语义描述的知识地图；(3)提供元数据映射方案，集成到数字图书馆体系中的元数据服务中，成为协议的一部分；(4)提供智能代理与信息环境之间基于语义的理解机制；(5)跨平台、跨系统之间的通信中介;(6)分布环境下查询请求的语义理解、自动分发；(7)提供计算机支持的协同工作(CSCW)的能力；(8)用于数字图书馆中的数字挖掘。",
+    "context5": "国际粮农组织所研制农业本体论服务(AOS)提出 AOS的主要目标是为下列方面提供一个框架：更佳的资源索引;更好地检索资源;增加农业领域内的相互作用[24]。邓凯等认为Ontology在知识图书馆中的应用包括：片断知识建模、知识分类、组织和存放、知识智能检索[25]。"
+  },
+  "4.1在文献标引中的应用": {
+    "context1": "王泰森在文献[26]中提出了一个基于本体论的全文自动标引方案。该方案的中心思想是强调词与词之间的内在联系，把相同概念的词集合于一个本体论概念节点之中，并由概念关系连线与节点组成一个有序的知识网。通过对目标文件的分词、将文件中出现的名词与由本体论产生的本体论概念空间节点的比较、计算、确定主题词集合的抽出。",
+    "context2": "在文献[27]中贺娇提出了基于术语本体的一种半自动化的结构化网页标引建立的方法。术语本体和结构化的标引过程有以下优势：(1)用户的查询得到扩展，词被转换为概念;(2)逻辑操作比原先的简单的关键词有了更丰富的语义内涵;(3)查询结果更能符合用户的需求，整个标引过程可以分为四步：",
+    "context3": "(1)抽取网页中的词，计算每个选词的权值频率。(2)使用辞典生成能够被预先索引的词标记的所有候选概念。(3)通过本体和概念的表达式产生过滤器，在候选概念中进行进一步选择，确定标引概念。"
+  },
+  "4.2在信息检索中的应用": {
+    "context1": "Ontology应用在信息检索中能够较好地改进信息检索系统性能，表现在：(1)具有集成结构化文档、半结构化文档和关系数据库的知识，提供机器能够理解的语义知识；(2)支持术语的语义推理，分析用户提问中所包含术语的意义，理解用户的问题；(3)通过概念间的关系来表示概念语义，从而能够提高检索的查全率和查准率;(4)在检索过程中和检索结果显示时可为用户提供语义提示，更好地实现与用户的交互。",
+    "context2": "王洪伟等在文献[28]中利用描述逻辑建立了本体的形式化模型，利用本体模型定义了6种查询模式,并提出了本体术语包含关系的检验算法，最后根据所建的本体模型研究了信息检索机制。",
+    "context3": "董慧在文献[29]中认为传统的信息检索机制在数字图书馆中存在\"忠实表达”、“表达差异\"和“词汇孤岛\"三个深层次的问题，解决这些问题的根本和关键，在于把信息检索从传统的基于关键词层面提高到基于知识(或概念)层面。文中提出数字图书馆本体论模型，并设计了一个区别于传统的数据库系统的基于本体论的检索算法。",
+    "context4": "韩毅在文献[30]中讨论了当前情报检索系统的相关性判断，指出在相关性判断的多维度多层次的复杂概念中用户关心的是语用相关，但多数检索系统仅能提供形式相关。运用本体论的基本原理，建立了本体论的情报检索系统，该系统在一定程度上实现了检索的语言相关判断。系统在提交检索请求、信息检索匹配和检索结果的提供过程中均运用本体论提供语义基础。文献[31.32]则分别提出了基于Ontology的跨语言信息检索和智能检索系统的模型。",
+    "context5": "总结基于Ontology的信息检索的基本设计思想，大致如下：",
+    "context6": "(1)在领域专家的帮助下，建立相关领域的On-tology。(2)收集信息源中的数据，并参照已建立的Ontology，把收集来的数据按规定的格式存储在元数据库(关系数据库、知识库等)中。(3)对用户检索界面获取的查询请求,按照Ontology 把查询请求转换成规定的格式，在Ontology 的帮助下从元数据库中匹配出符合条件的数据集合。(4)检索的结果经过定制处理后，返回给用户。",
+    "context7": "在系统检索过程中Ontology的作用除了体现在按照语义扩展检索词之外，还可以表现在与用户的交互过程中。即在检索前为用户提供提问词的近义词和相关词等语义提示，以明确用户信息需求；得到检索结果后按照概念体系以用户便于使用的方式提供检索结果，以及进一步扩展检索或缩小检索结果的提示。"
+  },
+  "4.3在信息过滤、知识发现中的应用": {
+    "context1": "刘柏嵩在文献[33]中提出了一种新的基于本体的数字图书馆信息过滤方法。其中应用3类本体来表示用户在线浏览数字图书馆的过程：数字资源本体、浏览任务本体、用户模板的本体，本体从不同的方面支持信息交换过程。这种信息方法具有3个显著的优点：(1)采用了混合信息过滤模型，克服了基于内容和协作过滤的不足；(2)建立本体驱动的用户模板，解决了用户兴趣的获取问题；(3)信息内容采用本体来组织，实现语义级查询和高效的匹配机制。",
+    "context2": "在文献[34]中，邓志鸿等在搜索引擎和联邦数字图书馆的基础上，采用本体和 Agent等技术提出一种新的信息发现服务模型。本体在该模型中主要有两方面的作用：一方面是提供类似于书目的分类功能；另一方面是提供语义层的检索，提高检索的查全率和查准率。",
+    "context3": "周明建等在文献[35]中以本体论为基础，以所要提取的信息的层次结构作为信息提取的路径，定义了Web页面的信息项本体,并自动解析生成Web页面的结构本体。通过对这两个本体进行对比，构造了一种归纳学习算法来半自动地生成信息提取规则。",
+    "context4": "文献[36]提供了关于Web数据抽取与集成的一种解决方案。利用Ontology规则文件来控制Web数据抽取和转换。所采用的数据抽取方法是：先用Ontology建立数据模型，再把可能抽取的数据项映射到Ontology中的元素上，用户选择Ontology中的元素以决定抽取的对象。Ontology的引入既保证了结构的一致性，又保证了数据的一致性，使不同来源的数据都能以统一的视图呈现，方便了信息的继承和交换。",
+    "context5": "文献[18]描述了一个基于Ontology 的数字图书馆服务器（ScholOnto）的设计和实现，ScholOnto提供了实现学术性信息讨论和交互的语义平台。"
+  },
+  "4.4其它应用": {
+    "context1": "张晓林在文献[37]中提出了新的数字图书馆模式,其中整合了多个本体的本体服务层(OSL)，为数字资源和服务提供语义理解起到了核心作用。",
+    "context2": "OSL的目标为：对于数字资源和它们相互关系进行基于知识的组织；在异构的数字资源环境下对于资源、服务等的整合；刺激、和整合基于用户的、面向问题的知识活动，包括查询和检索、连接、交换、分析、资源组织、知识发现等。",
+    "context3": "OSL的主要功能包括：(1)元数据服务，包括利用Ontology以标准和增强语义的方式描述数字资源和他们的关系，描述服务和活动，以及他们与数字资源的关系，描述现有的元数据、Ontology以及OSLOn-tology之间可能的映射关系。（2）知识目录服务，包括在UDDI等标准开放注册机制中注册数字资源及他们的相互关系，以及服务和活动以及他们与数字资源的相互关系；为资源、服务和活动提供开放的发现机制，以便他们能在第三方服务中得到反映。（3)检索服务，包括支持扩展、限制、语义转移、关系构建和结果组织等语义增强功能的本体检索；使用本体对于数字资源进行浏览和可视化整合；将服务和活动与相关数字资源进行方便的连接和分离。（4）过程管理服务，包括对复合资源的复合过程的发现、实施、评价等过程的管理。",
+    "context4": "文献[38]用标示语言来表示语言中的语义基元，也即元信息。从而建立起一个小范围语言应用的Ontology词典。在语言分析时我们通过访问Ontology词典来获得语义基元的详细语义信息，以此来提高语义的识别能力。",
+    "context5": "文献[39]中论述了在 Engineering and TechnologyEducation Digital Library（NSDL)基础上建立的 Ontolo-gy 服务，包括基于Ontology的信息检索，以及多种课程之间的比较分析。",
+    "context6": "文献[40]采用Web服务架构、Agent软件系统和基于Ontology的知识组织方法，解决图书知识服务问题。设计图书出版、销售、金融、物流网络、服务流程等ONTOLOGY，实现自动为读者找到所需要图书经销商，自动完成金融、物流等服务。"
+  },
+  "参考文献": {
+    "context1": "1Gruber，T..A tranalation approach to portable Ontology speci-fications，Knowledge Acquisition.1993（2）：I99\\~220  \n2李景,钱平.试论叙词表与本体(Onlology)的异同.中国图书馆学报，2004(1):36\\~39  \n3Reimer，U.Tutorial on Organizational Memories for Captur-ing，Sharing and Utilizing Knowledge.Intemational Conferenceon Enterprise Information Systems，ICEIS 2OOl，Setubal，Por-tugal，July 7\\~ 10,2001，http://lresearch.swisslife.ch/-reimer/OM\\~Tutorial/index.html  \n4 Mike Uschold．Knowledge level modelling:concepls and ter-minology.The Knowledge Engineering Review，1998(13）：5\\~ 29  \n5William，S．And Austin，T.．Ontologies．IEEE IntelligentSystems，1999 Jan/Feb:18\\~19  \n6刘炜,李大玲,夏翠娟.元数据与知识本体.图书馆杂志， $2 0 0 4 ( 6 ) : 5 0 \\sim 5 4$   \n7Gruber T.Towards principles forthe design of ontologies usedfor knowledge sharing. Intemational Journal of Human - Com-puter Studies 1995,43 (5/6): 907\\~ 928  \n8K．Mahesh. Ontologies for Natural Language Processng.http://crl.nmsu.edu/users/mahesh/  \n9Uschold，M,Gruninger，M,Ontologies：Principles，methodsand applications．The Knowledge Engineering Review，1996,I (2)  \n10Fox，M.et.al．“A Common Sense Model of the Enterprise”,Proceedings of the 2nd lndustrialEngineering Research Confer-ence：1993:425\\~429  \n11Natalya F.Noy，Deborah L.McGuinness.Ontology Develop-mentl0l:A Guide to Creating YourFirst Ontology.http://www.ksl.stanford.edu/people/dlm/papers/ontology-tutori-al-noy-mcguinness -abstract.html  \n12李景,孟连生.构建知识本体方法体系的比较研究，现代图书情报技术,2004(7)  \n13B.J. Wielinga et.al．.From Thesaurus to Ontology，Intema-tional Conference On Knowledge Capture Proceedings of theintemational conference on Knowledge capture: 194 ～ 201  \n14Qin, Jian& Paling，Stephen （20ol）“Converting a controlledvocabulary into an Ontology：thecase of GEM”InformationResearch,6(2）hup://LnformationR.nel/ir/6-2/paper94.html  \n15贺纯佩,李思经.农业本体论—农业知识组织系统的建立．农业图书情报学刊,2004(10):41～44  \n16Development ofan IntegratedFormal Ontologyandan Ontology Service for Semantic Interoperabilityin theFishery Do-main.http://ceur- ws.org/Vol - 64/gargemi.pdf  \n17李景、以语义互操作性为目标的FOS(水产业Ontolo-gy服务）的开发研究.农业图书情报学刊，2003(5):5\\~14  \n18李培,孙琳.数字图书馆信息资源本体论的构建.图书情报工作,2003(6):24-27  \n19B.Chandrasekaran，et al．What Are Ontologies，and WhyDo We Need Them?1999 Jan/Feb:20 - 25  \n20Uschold，Mand Gruringer，M，1996.Ontologies：Princi-ples，methods and applications.The Knowledge EngineeringReview 11 (2)  \n21邓志鸿等.Ontology研究综述、北京大学学报（自然科学版）,2002,38(5):229\\~231  \n22姚绍文.语义化Web的关键技术及其应用研究．电子科技大学博士论文  \n23B.C.. VickeryOntologies，Joumal of Information Science,1997,23 (4):277 \\~ 286  \n24农业本体论服务(AOS).htp://www.fao.org/agris/aoe/aos-zh/default. htm  \n25邓凯等.本体论在知识图书馆中的应用初探．情报科学，2003(1):106\\~109  \n26王泰森.一个基于本体论全文自动标引方案．情报科学，2003(9):950\\~952  \n27贺娇.基于术语本体的网页标引方法．情报杂志，2004(3):28\\~ 29  \n28王洪伟等.基于本体模型的信息检索机制研究.情报学报，2004(1)  \n29董慧.基于本体论和数字图书馆的信息检索.情报学报,2003(6):648\\~652  \n30韩毅.基于检索相关性转移的本体论检索系统．情报科学，2003(2)：194\\~197  \n31王进,陈恩红,张振亚,王煦法，基于本体的跨语言信息检索模型.中文信息学报，2004(3):1\\~9  \n32赵庆龄等：基于本体论的土壤知识体系智能检索系统的设计与Web实现.中国农业大学学报，2003,8（增刊):66\\~ 70  \n33刘柏嵩.基于本体的数字图书馆信息过滤研究.上海交通大学学报,2003第37 卷增刊:171\\~176  \n34 邓志鸿，唐世渭，杨冬青.基于本体的多分布式数字图书馆Agent资源信息发现服务模型之研究.计算机工程，2002(6):37\\~39  \n35周明建,高济,李飞.基于本体论的Web信息抽取.计算机辅助设计与图形学学报,2004(4)：535～541  \n36张成洪,王向安，古晓洪．利用Ontology 和规则表达式的Web 信息抽取.计算机工程，2004(5)：58\\~60  \n37 Xiaolin Zhang．Ontological Service Layer for Digital Li-braries：A Requirement and Architeclural Analysis．DigitalLibraries:Intermational Collaborationand Cross -Fertiliza-tion:7th Intemational Conference on Asian Digital Libraries,ICADL 2004，Shanghai，China，December 13\\~I7，2004.Proceedings  \n38 孙艳峰等.Ontology技术在自然语言理解中的应用。青海师范大学学报（自然科学版),2003(3)  \n39 Amamath Gupta et al. Ontology Services for Curriculum De-velopment in NSDL.. Intemational Conference on Digital Li-braries Proceedings of the 2nd ACM/IEEE-CS joint confer-ence on Digital libraries: 219 \\~ 220  \n40陈文彬.Ontology在图书服务网络中的应用、现代图书情报技术,2003(6):8\\~12",
+    "context2": "刘颢女武汉大学图书馆馆员，主要研究方向：信息检索与咨询，数字图书馆技术。",
+    "context3": "麕萌女武汉大学图书馆,副研究馆员，主要研究方向：数字图书馆技术。（收稿日期:2005-02-02编审：刘炜赵亮）"
+  }
+}

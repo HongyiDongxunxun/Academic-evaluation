@@ -1,0 +1,77 @@
+{
+  "original_filename": "full_409.md",
+  "nothing": {
+    "context1": "·综述与评论·"
+  },
+  "InvisibleWeb研究综述": {
+    "context1": "黄晓冬",
+    "context2": "(北京大学信息管理系，北京100871)",
+    "context3": "摘要本文对有关Invisible Web 的内容进行了全面、详细地介绍。首先论述了什么是Invisible Web 以及为什么要研究Invisible Web，同时介绍了两个相关概念;其次对Invisible Web不可见的原因加以分析;对Invisible Web的类型进行了划分；介绍了InvisibleWeb 的检索工具；最后总结了InvisibleWeb 研究的方向。",
+    "context4": "关键词Invisible web Deep web 信息检索搜索引擎",
+    "context5": "中图分类号 $_ { G } 2 5 0 \\ . 7 3$ 文献标识码A 文章编号1007-7634（2004）09-1144-05"
+  },
+  "An Overview of Invisible Web": {
+    "context1": "Huang Xiaodong",
+    "context2": "(Information Management Department of Beijing University，Beijing 1O0871)",
+    "context3": "AbstractThis article gives aconprehensiveand detailed introduction to Invisible Web·Firstof all，what is Invisible Web is discussed,whyto study it is alsoillustratedand tworelated conceptsare introduced afterwards· Then thereason that InvisibleWeb is invisible isanalyzed·After that，Invisible Web is divided into several types·A discussion about search tools of Invisible Web follows，there is a conclusion in the end·",
+    "context4": "KeywordsInvisible web Deep web Information retrieval Search engine",
+    "context5": "自1999 年开始，国外针对InvisibleWeb 的研究相当热烈，成果众多。从对OCLCFirstSearch数据库系统的检索结果来看，目前在这个研究领域已有数本英文著作，包括Christ Sherman、Gary Price合著的《The Invisible Web:Uncovering Informat\"ion Sources Search Engines Can't See》（2OOl)和Paul Pedley 所著的《The Invisible Web:Searchingthe Hidden Parts of the Internet》（2OOl）等，相关论文的数量则达几百篇。与此形成对照的是，国内学者并不太重视这个问题，相关论述较少，其中只有台湾的学者研究得较多。InvisibleWeb 资源无论在质量还是数量上，相对于visibleweb来看均占优势，具有重要的应用价值。此外，一般搜索引擎的索引库中却往往遗漏了InvisibleWeb 资源，如何检索InvisibleWeb资源已经引起了广泛的关注。"
+  },
+  "1Invisible Web 概述": "",
+  "（l）Invisible Web 概念。": {
+    "context1": "20 世纪 90 年代中期，Matthew Koll 提出了InvisibleWeb 这一概念，又称为DeepWeb或HiddenWeb。理解其含义可从与之相对的概念VisibleWeb(又称SurfaceWeb)入手。VisibleWeb指用户通过一般搜索引擎可以检索到的网络资源，而InvisibleWeb则是通过上述渠道无法获取的那一部分网络资源。举个最简单的例子：用户想知道北大图书馆是否收藏了《沉默的大多数》这本书，这时候如果通过搜索引擎检索，一般来说无法直接找到答案。而利用北大图书馆的联机公共目录查询系统则可快速获得所需信息。联机公共目录查询系统就是Invisible Web 的一种。",
+    "context2": "（2）为什么要研究InvisibleWeb?",
+    "context3": "互联网上信息资源丰富，任何人都可以在网上发布信息，“信息泛滥\"、\"信息爆炸”之类的词正是该种状况的真实写照。那么，为什么在网上信息泛滥的情况下，还要研究InvisibleWeb？更多的信息对于人们来说有何益处？最有力的理由是：InvisibleWeb资源内容更为丰富，专业性较强，质量比一般网络资源也即 visibleweb 好得多。2OOO 年BrightPlanet 公司曾针对InvisibleWeb 作过一个详细的调查，并将其调查白皮书发布在互联网站点上。该白皮书中所称的 $\\mathrm { D e e p ~ W e b }$ 即Invisible $\\mathrm { { W e b } }$ 。以下是文中提到的几点调查发现： $\\textcircled{1}$ DedpWeb上资源的数量是www上资源数量的 $4 0 0 - 5 0 0$ 倍； $\\textcircled{2}$ 目前存在的Deep Web 站点超过 200000 个； $\\textcircled{3}$ 最大型Deep Web 站点的 $60 \\%$ 所包含的资源数量大约有",
+    "context4": "$7 5 0 \\mathrm { G B }$ ，已是Surface $\\mathrm { { W e b } }$ 的50倍; $\\textcircled { 4 } \\mathrm { { D e e p } \\ W e b }$ 站点的月访问量是一般站点的 $1 5 0 \\%$ ，并且更经常地被链接，但是，典型的Deep $\\mathrm { { W e b } }$ 站点都不太有名;$\\textcircled { 5 } \\mathrm { { D e e p } \\ \\mathrm { { W e b } } }$ 是互联网上最大、发展最快的新型信息资源; $\\textcircled { 6 } \\mathrm { { D e e p } \\ W e b }$ 站点与一般站点比较，所涉及范围较小，内容更为精深; $\\textcircled { 7 } \\mathrm { { D e e p } \\ W e b }$ 资源的质量比一般网络资源要好得多； $\\textcircled{8}$ 大约一半Deep Web资源存在于各种主体明确的网络数据库中； $\\textcircled{9} 9 5 \\%$ 的 DeepWeb 资源是免费信息。",
+    "context5": "（3）两个相关概念：Almost Invisible Web、Shallow Web。",
+    "context6": "Almost Invisible Web 由 Gary Price 提出。AlmostInvisibleWeb 指这样一类资源：一般搜索引擎的SPIDER可能爬过并且将其添加到索引库中，但是出于某些原因，用户通过特定的或者目标明确的检索工具能更快、更有效率地获得检索结果。",
+    "context7": "Shallow Web：Danny Sullivan 指出 ShallowWeb 才是目前检索界最大的问题。目前，相当一部分网站的地址是动态的，原因在于管理员使用了ColdFusion、LotusDomino之类的软件。这种网站资源就构成了所谓的 Shallow Web，一般搜索引擎选择放弃索引这种类型的网页，原因是为了避免不断的重复索引。检索Invisible Web 的检索工具也不会收录此种网站。"
+  },
+  "2InvisibleWeb不可见原因分析": {
+    "context1": "\"不可见\"指这类资源未被一般搜索引擎的索引库所收录，用户通过一般搜索引擎无法检索到或者说“看见”它们。",
+    "context2": "InvisibleWeb为什么不可见？要回答这个问题，要从搜索引擎的历史说起。真正意义上的搜索引擎最早出现于1994年，典型代表是Lycos。当时的互联网远没有现在风光，资源少、更新慢，主要以静态网页形态存在，搜索引擎能够很轻易地索引整个网络。但自1996年开始，有3种现象对互联网上的资源组织方式产生了巨大的影响： $\\textcircled{1}$ 数据库技术的不断发展； $\\textcircled{2}$ 电子商务概念的出现； $\\textcircled{3}$ 动态网页技术的发明。电子商务指通过网络开展商务活动，这是一个互动的过程，因此，电子商务网站必须以动态网页为主，静态网页根本无法实现互动。许多站点尤其是大型站点抛弃静态网页方式，转向了以数据库为后台、动态网页技术和数据库技术相结合的资源组织方式，那么搜索引擎的工作模式有什么改变呢？虽经过几年的发展，搜索引擎技术得到一定的改进，例如针对检索结果的相关度排序问题，就引入了“引文索引\"思想，形成了超链分析技术，但是搜索引擎基本的工作模式没有大的改变，SPIDER收集的主要还是静态网页。这就是InvisibleWeb形成的主要原因。",
+    "context3": "不可见原因有两方面。",
+    "context4": "（1）技术障碍。",
+    "context5": "我们知道，一般搜索引擎的 SPIDER 在网络上沿着超链漫游，主要通过点击（click）网页上的超级链接提取新的URL，如此循环往复。可以说SPIDER的工作是通过\"click\"动作完成的。SPIDER无法进行\"type\"（输入）动作，更没有思考分析能力。这点造成了如下两类资源不可见： $\\textcircled{1}$ 网络数据库资源。互联网上存在许多数据库资源，其中很大一部分可以免费获取，例如美国专利商标局的网上专利检索数据库是完全免费的。网络数据库的资源组织方式正是前面已经提到过的以数据库为后台、动态网页技术与数据库技术相结合的方式。用户在网络数据库检索页面上输入检索词，获得的页面不是预先存在的静态网页，而是针对用户此次的检索词和其他一些检索限制而动态生成的网页，谓之动态网页。SPIDER无法进行“输入检索词”的动作，自然爬不进数据库； $\\textcircled{2}$ 需注册的站点。相当一部分站点需要用户注册，分为有偿注册和免费注册两种。用户要进入站点，获取站点内容必须取得用户名和密吗。对于搜索引擎的SPIDER来说，不管是有偿的还是免费的，它都无法进入。",
+    "context6": "（2）搜索引擎对SPIDER访问限制。",
+    "context7": "$\\textcircled{1}$ 搜索引擎一般只收录HTML 网页文件，而对于用户不经常检索的文件格式，比如PDF文档等选择不加收录。HTML 是互联网上最基本的通用语言，搜索引擎的SPIDER最擅长处理HTML语言写成的网页文件。在HTML中可以设置超级链接链接其他类型的文件，比如PDF文档。处理其他类型的文件在技术上没有很大的难题，但搜索引擎开发商出于种种考虑，一般将之排除在外。维持一个一般搜索引擎的运营相当昂贵，这可能是最大的原因。不过近两年来已有一些搜索引擎正在努力扩展和完善其检索服务，例如Google，现在可以通过Google检索图片、PDF、Word、PowerPoint等多种格式的文档。",
+    "context8": "$\\textcircled{2}$ 对于基于脚本语言的网页，如果其URL 中含有\"SPIDER通常放弃对该类网页的访问。为e1什么呢?因为在访问此种网页时，SPIDER有可能陷入恶意的\"SPIDERTRAP\"程序当中,导致 SPIDER陷入死循环，影响搜索引擎的正常运转。因此，搜索引擎一般限制SPIDER访问该类网页。"
+  },
+  "3Invisible Web 类型": {
+    "context1": "（1）具体类型划分。",
+    "context2": "$\\textcircled{1}$ 未被链接的网页（Unlinked Pages）。若一网页未被任何其他网页链接，SPIDER 显然无法访问。",
+    "context3": "$\\textcircled{2}$ 非HTML 网页（Non－html Pages)。这种网页包含 SPIDER无法处理的内容，例如声音文件、视频文件等。",
+    "context4": "$\\textcircled{3}$ 特殊文件(Special Files）。该类的例子有：PDF 文件、Microsoft Office 文档（包括Word、Power Point,Excel 等)、压缩文件(比如 zip 文件）、可执行程序、Flash文件以及shockw ave文件等。",
+    "context5": "$\\textcircled{4}$ 关系数据库文件（Relational DatabaseFiles）。这类文件就是前面已经谈到过的网络数据库的例子，又可细分为3种类型，包括：收费型，例如EBSCO、OVID和Medline 等；免费型，例如政府数据库、图书馆的公共书目查询系统等；混合型，例如Dialog的数据库产品，兼有收费与免费服务。",
+    "context6": "$\\textcircled{5}$ 实时或者流动文件（Real－time orStreamingFiles）。包含股票报价，天气预报，航班信息等变化很快、数据量很大的网页，也不在一般搜索引擎收录的范围之内。",
+    "context7": "$\\textcircled{6}$ 动态网页（Dynamic Pages）。在过去的几年间，InvisibleWeb 被称为互联网检索的下一个难点(thenextbigthing)，直至今日仍是大难题。但是随着人们的努力，已经解决了一部分问题。例如，现在通过Google已经可以检索到PDF、Office、压缩文件等多种特殊文件；通过百度可以检索 $\\mathrm { { m p ^ { 3 } } }$ 文件。因此，上面所列的6种InvisibleWeb类型并不是绝对的，例如特殊文件这一类型已经可以划入Visible Web之列。",
+    "context8": "（2）按不可见原因划分的类型。",
+    "context9": "$\\textcircled{1}$ 不透明网页（The OpaqueWeb)。指搜索引擎可以索引但未索引的网页。搜索引擎对SPIDER索引网页的数量一般都有所限制，某一站点的网页不可能每一页都收录。又如新网页，因为没有其它网页到达它的超级链接，网页的主人又没有把网址提交给搜索引擎等。前述情况下未被收录的网页就",
+    "context10": "$\\textcircled{2}$ 私人网页(The Private Web)。这类网页本来是可以索引的，由于网页主人加了口令保护、禁止索引的网站标记等，便将搜索引擎的 SPIDER拒之门外。",
+    "context11": "$\\textcircled{3}$ 专用网页（The Proprietary Web)，某些网页只有注册用户才能浏览，SPIDER不会填表，当然也就没法收集。",
+    "context12": "$\\textcircled{4}$ 搜索引擎因为技术原因无法索引的真正看不见的网页(The Truly InvisibleWeb）。到目前为止,大部分搜索引擎能够收集索引的还是HTML等语言编写的常规网页。再就是以数据库为后台的动态网页了，SPIDER一方面不敢陷进无休止的圈子,更主要的是它不能填写查询表单，自然也爬不进数据库。"
+  },
+  "4InvisibleWeb 检索工具": {
+    "context1": "利用以Yahoo为代表的主题指南工具，通过其目录一级级地往下查找，可以查找到一些InvisibleWeb 站点。利用一般搜索引擎检索引擎时，键入\"database”之类的词，也可以查找到一些网络数据库资源，掌握一定的检索技巧可以通过一般搜索引擎或主题指南查找到部分InvisibleWeb 资源。但这些只是冰山一角，更多的InvisibleWeb 资源依然深藏在海面之下。当人们意识到问题时，便开始寻求解决之道。最直观的办法就是利用一个分类体系把所有的InvisibleWeb站点组织起来，用户需要查找哪一类的信息，就可以选择哪一类的Invisible Web站点。目前互联网上已经出现了许多InvisibleWeb检索工具，大致可以分为两大类。"
+  },
+  "（l） Selective Directory 。": {
+    "context1": "第一大类实质上跟主题指南非常相似，英文称为 SelectiveDirectory，可以说它就是一种主题指南。一般主题指南，像Yahoo，它的分类系统组织的是一般站点，而InvisibleWeb 的主题指南组织的则是InvisibleWeb 站点。这类工具一般既提供分类导航服务，又提供关键词检索服务。例如用户检索'searchengine\"，出来的结果是研究“searchengine”的站点列表，而不是直接的有关“searchengine”的资料。这个大类下的检索工具为数不少，以下列出几个站点：",
+    "context2": "$\\textcircled{1}$ The Invisible Web Directory。http://invisible-web $\\cdot$ net 由Gary Price 和 Chris Sherman建置，将收录的InvisibleWeb 资源予以整理，以主",
+    "context3": "$\\textcircled{2}$ Librarians'Index to the Internet。http://www lii org/The Library of California 的一个项目，旨在提供组织良好的检索途径。",
+    "context4": "$\\textcircled{3}$ Invisible Web com。http: //www invisi-ble web com/采用 intelliseek 技术，检索数万个深层网页。",
+    "context5": "$\\textcircled{4}$ Direct Search。http: //www freepint $\\cdot$ com/gary/direct thmGary Price 号召编辑这个专业检索工具。",
+    "context6": "(2) Proprietary Software。",
+    "context7": "第二大类称为专有软件（ProprietarySoftware)。用户使用该类软件，键入关键词后得到的结果不是站点列表，而是直接的相关资料。这类软件是真正对InvisibleWeb 进行检索，它可以将用户的检索请求同时推送到多个相关网络数据库中进行检索，而后把结果送回给用户。这一大类下的检索工具不多,Bright Planet 公司的LexiBot 和Inte\"lliseek 公司的Bulls Eye 是其中两个杰出的代表。"
+  },
+  "5InvisibleWeb 研究方向": "",
+  "（1）分布式检索Invisible Web。": {
+    "context1": "可以看出，某些InvisibleWeb 资源，例如前面提到的联机公共目录查询系统，用户可能并不需要直接通过搜索引擎得出答案，他们只需要知道上哪儿去查找，这种时候 Selective Directory 是很好的择。然而更多的时候，用户希望InvisibleWeb 的检索工具直接给出答案。采用分布式检索技术的ProprietarySoftware看起来更有发展潜力。",
+    "context2": "分布式检索InvisibleWeb可以分为如下两步。$\\textcircled{1}$ 用户的检索请求被同时推送到多个网络数据库;$\\textcircled{2}$ 各个数据库的检索结果经过一定处理返回给用户。在此过程中，存在着若干问题需要解决。首先，用户的检索请求应该推送到哪些网络数据库，也即在数据库的选择方面，目前并没有一定标准。针对某个特定的检索提问，很难保证ProprietarySoftware所选择的网络数据库集合没有漏掉关键性的相关数据库；其次，各个网络数据库的检索格式不同，如何把用户的检索提问正确转化为各个数据库的特定的检索形式？再次，对一般搜索引擎来说，检索结果的相关性排序是一个很重要的、并且至今也没有完全解决的问题，InvisibleWeb 的检索工具在这点上同样无能为力；最后，同时推送检索时检索效果也并不尽如人意。分布式检索InvisibleWeb 技术并不十分成熟。",
+    "context3": "（2）元数据与InvisibleWeb 的结合。",
+    "context4": "元数据的思想经过多年发展，尤其随着都柏林核心集（DublinCore）的不断完善，已经得到了不少应用。利用元数据来标注网络资源可以大大提高检索效率。那么想到把元数据的思想应用于InvisibleWeb就是理所当然了。",
+    "context5": "OpenArchivesInitiative（OAI）开发了一个协议: Open Archines Initiative Protocol for MetadataHarvesting，该协议简称为OAI协议，是1999年由美国数字图书馆联盟（DLF）、网络信息联盟（CNF）等组织提出的一个应用框架，最初是为了解决电子期刊的预印本（pre－print）的互操作和元数据收割（metadata harvesting）问题。2OOl年OAI协议的应用扩展到数字图书馆领域，目的是实现分散的、不同系统平台之间的元数据交换和共享，提高系统的互操作能力。2003年度，ALCTS(Association for Library Collections & TechnicalServices）的年度会议项目（ALCTSAnnualConference Programs）为:Metadata Harvesting:Using the Open Archives Initiative Protocol toExposetheDeepWeb。该项目旨在利用OAI协议把元数据的思想应用于InvisibleWeb，利用元数据来标注InvisibleWeb 资源，以获得更好的检索效率。目前这方面的研究正在起步阶段。"
+  },
+  "参考文献": {
+    "context1": "1黎平,孙伟.电子商务中的消费者权益保护.北京工业大学学报,2002(2)  \n2杨海艺.电子商务对消费者权益保护的挑战与对策.中国工商行政管理,2002(5)  \n3 王宇红·电子商务中的消费者权益及其保护.理论导刊，2002(7)  \n4蒋志培.网络与电子商务法·北京:法律出版社,2001  \n5王利明·中国民法案例与法理研究·总则篇·北京：法律出版社，1998  \n6 肖玉英·试论隐私权与知情权·法学杂志,200l(4)  \n7 张新宝·隐私权的法律保护·北京：群众出版社，1997  \n8 翁国民,汪成红·论隐私权与知情权的冲突·浙江大学学报(人文社会科学版)，2002(2) (责任编辑：滕代娣)"
+  }
+}

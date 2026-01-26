@@ -1,0 +1,114 @@
+{
+  "original_filename": "full_6771.md",
+  "搜索引擎评价研究综述": {
+    "context1": "苏君华",
+    "context2": "(南京大学信息管理系南京210093;南昌大学历史系南昌330031)",
+    "context3": "摘要搜索引擎的评价是搜索引擎发展的依据，也是用户选择的依据。本文依据 Saracevic的信息检索交互模型，借鉴数字图书馆评价的概念框架，从内容、技术、界面、用户、服务、环境等六个方面系统地梳理了搜索引擎的评价研究。",
+    "context4": "关键词搜索引擎评价指标综述研究"
+  },
+  "Review of the Evaluation of Search Engines": "",
+  "SU Junhua": {
+    "context1": "(Department of Infomation Management of Nanjing University, Nanjing210093;",
+    "context2": "Departnent of H istroy of Nanchang University, Nanchang330031)",
+    "context3": "AbstractTheevauationwilpmotethedevelbpmentofsearchengineandhpuserstbselectheapropriatesearchengineBasedon testratifiedmodelofinfomationretrievalinteractionandusingtheconcepualfameworkofdigitalIbraryevaluationforreferencethe papergivesarevieof heevaluationresearchofsearchenginescontenttechnolgyinterfaceorinteractionusersservicesandcontext",
+    "context4": "Key wordssearch engineevaluation indexreview",
+    "context5": "从1995年开始,学者们开始对搜索引擎进行比较和评价。此后,该项研究一直是国内外搜索引擎研究领域的一个热点问题，它的深入研究将有力地促进搜索引擎的发展，同时可以作为用户了解、选择搜索引擎的依据。",
+    "context6": "1996年，借鉴人机交互的研究成果以及语言学的分层理论，Saracevic提出了信息检索层次交互模型。该模型认为IR系统是由分属不同层次的要素构成的实体：信息、计算机、界面、提问式、用户、情境、环境。Saracevic(1999)认为信息检索评价的问题不是以系统为中心或以用户为中心的方法，问题的关键是应该包括不同的层面、不同的目标，整合以用户为中心和以系统为中心的方法与标准。基于信息检索层次交互模型，Saracevic(2O0O)提出了系统评价数字图书馆的概念框架。根据 Saracevic等人的研究基础，Zhang Y.(2007)从内容、技术、界面、服务、用户、环境六个方面建立了评价数字图书馆系统的指标体系，综合考虑数字图书馆的各个层面以及相互之间的影响。本文将借鉴数字图书馆评价研究的基本思路，从内容、技术、界面、用户、服务、环境等六个方面系统地梳理搜索引擎评价研究。"
+  },
+  "1内容层次的评价": {
+    "context1": "搜索引擎信息采集中数据涵盖范围、数据描述和组织方式、索引数据库中的信息能够在多大程度上满足用户的信息需求等，都是搜索引擎内容层次所关注的问题。因此，搜索引擎内容层次的评价主要包括两方面：一是索引数据库的评价，二是信息内容的评价。",
+    "context2": "索引数据库的构成是搜索引擎检索性能优劣的基础，相关评价研究中学者们往往把它作为评价指标的第一部分。互联网是一个巨大的分布式的信息空间，其信息容量浩如烟海，且以爆炸式的速度增长，任何搜索引擎都不可能收录所有的信息，即信息覆盖率不会很高。但用户在选择搜索引擎的过程中，数据库的大小仍然具有一定的参考价值，毕竟收集的网页越多，用户检索到相关结果的可能性就越大。另外，资源类型也反映了搜索引擎收录信息的范围。标引内容包括URL、文件名、全文、标题等,标引内容和深度将直接影响搜索引擎的查准率和查全率。",
+    "context3": "表1 搜索引擎评价指标——内容",
+    "context4": "<table><tr><td>指标</td><td>来源</td></tr><tr><td colspan=\"2\">索引数据库</td></tr><tr><td>覆盖率</td><td>王惠(2009);杨永升(2006)；王炼(2005)；SanjbK·Deka et al(2010)； Zhang J&amp; Cheung Ch(2003)；C.Oppenheim etal （2000)；Gw izdka&amp; Chignell(1999)</td></tr><tr><td>标引数量</td><td>朱庆华等(2007);魏红梅(2005);凤元杰等（2004)</td></tr><tr><td>资源类型</td><td>陈艳（2008)；宋迪（2007);朱庆华等（2007)；凤元杰等 (2004);W inship IR.(1995)</td></tr><tr><td>标引内容</td><td>王炼（2005）；Chu&amp;Rosenthal(1996)</td></tr><tr><td>标引深度</td><td>杨永升（2006);王炼（2005)；魏红梅（2005)；凤元杰等 (2004)</td></tr><tr><td>新颖率</td><td>王渊（2007);王炼（2005）</td></tr><tr><td>更新频率</td><td>蒋伟伟(2007);朱庆华等（2007);杨永升（2006);凤元杰等 (2004)；Chu &amp; Rosenthal（1996)</td></tr><tr><td>重复率</td><td>朱庆华等(2007);宋迪(2007);王渊（2007);魏红梅（2005); Sanjib K.Deka et al (201O);C.Oppenheim et al(2000); Repm an &amp; carlson(1999)；Nasios et al(1998)</td></tr><tr><td>死链率</td><td>王渊（2007);宋迪（2007);张莉扬（2001）；Sanjib K·Deka et al(2010)；C.Oppenhein etal(200O)；Felman (1998); Nar sios et al (1998)</td></tr><tr><td>无效链接</td><td>Sanjib K·Deka et al(2OlO); Law rence&amp;G iles(1998)</td></tr><tr><td>链接的 有效性</td><td>M.M.Sufyan Beg（2005)；su（2003)；Su Chen &amp; Dong (1998)</td></tr><tr><td colspan=\"2\">信息内容</td></tr><tr><td>可靠性</td><td>王惠(2009)</td></tr><tr><td>权威性</td><td>王渊（2007);R ieh&amp; Belkin(1998); Hum phries&amp; Kelly(1997)</td></tr><tr><td>精确性</td><td>B unk &amp; Bidgood(20OO); Dm psy et al（2000); Nasios et al (1998)；Stobart&amp; Kerridge(1996)</td></tr><tr><td>新颖性</td><td>朱庆华等(2007);蒋伟伟（2007);杨永升（2006)；Law rence&amp; Giles(l998);BharatK.&amp; BroderA.(1997)</td></tr><tr><td>完整性</td><td>Hum phries K.A·&amp; Kelly JD.（1997)</td></tr><tr><td>全面性</td><td>陈艳（2008);蒋伟伟（2007)</td></tr><tr><td>有用性</td><td>Nahl D.(1998)</td></tr><tr><td>有效性</td><td>王惠(2009)</td></tr><tr><td>准确性</td><td>王惠(2009);蒋伟伟(2007)</td></tr><tr><td>信息性</td><td>Am anda Spink(2O02); Hum phries &amp; Kelly（1997)</td></tr><tr><td>可获得性</td><td>Am anda Spink(2002)</td></tr><tr><td>详细程度王惠(2009)</td><td></td></tr></table>",
+    "context5": "重复链接率是检索结果中内容重复的结果数占检索结果总数的百分比。死链接率是无法链接的结果数占检索结果总数的百分比。这两个指标被用来评价搜索引擎的检索效果，但其根本的原因在于索引数据库的质量。搜索引擎的信息采集模块对采集到的信息并没有进行去重处理，才导致搜索结果中会出现大量的重复;同时，索引数据库中出现的死链接也反映了搜索引擎检查索引数据库中链接有效性的频率。互联网上时刻都有大量的新信息发布，还有大量网页不断更新或淘汰，搜索引擎必须尽可能追踪网络信息的变化，才能为用户提供最新的信息，同时也尽量避免死链接的出现，因而搜索引擎的新颖率或更新频率被作为评价的重要指标。",
+    "context6": "搜索引擎所能够提供的信息内容即是网络信息资源的一部分，其评价标准与传统信息资源内容和网络信息资源的内容评价标准完全一致，这些标准从不同方面反映了信息用户对所需要的信息的基本要求。所以在搜索引擎内容层次的评价研究中，学者们更多地关注了索引数据库的评价。"
+  },
+  "2技术层次的评价": {
+    "context1": "搜索引擎技术层次的评价主要针对软件，而其核心技术包括信息采集技术、信息标引技术和信息检索技术，评价指标的设定主要从检索功能、检索性能、检索效率和检索结果排序等方面考虑。",
+    "context2": "一般搜索引擎都提供多种检索语法，如布尔逻辑检索、位置检索、字段检索等;并根据网络信息和用户信息需求的特点提供简单检索、二次检索和高级检索选项;同时还可以选择搜索范围，如网页、图片、新闻、视频等等。搜索引擎所提供的检索语法和检索选项的多少、优劣影响着用户使用搜索引擎的效果。",
+    "context3": "搜索引擎的响应时间在很大程度上取决于检索主机的硬件配置、通讯设备、网络的拥挤程度等外部因素，同时还受用户个体因素影响，因此对相同的信息需求，相同的搜索引擎在不同时间的响应速度也会不一样。Chu&Rosenthal(1996)发现各搜索引擎之间的响应时间的差异很小。Nasios etal（1998)提出他们的研究项目没办法定义一个客观的标准来考虑搜索引擎这方面的绩效。因此响应时间这个指标的实际意义不大。",
+    "context4": "检索结果的相关性、基于相关性评价的查准率和查全率是传统信息检索效果评价的主要指标，对搜索引擎检索效果的评价有一定的借鉴价值。部分学者直接用它们来评价搜索引擎的检索效果，而Jansen et al(2000)发现大约 $8 0 \\%$ 的用户只查看搜索结果的第一页，即对用户而言，其所需要的信息是否出现在检索结果的前几页可能比查全率和查准率更有意义。因此，对这两个评价指标进行调整，利用“前X命中记录查准率\"代替查准率，“相对查全率\"代替查全率。",
+    "context5": "基于此又引出了对搜索结果排序质量的评价。搜索引擎检索结果排序的主要方法是相关性排序，Ja-towtAetal（2005)又提出相关性和新颖性相结合的排序方法。不同排序方法的综合运用和可选择性成为搜索引擎性能的一项重要指标。而结果排序质量方面的指标则包括搜索长度 $\\mathbf { n } _ { \\mathbf { \\lambda } }$ 用户相关性排列与系统相关性排列的相关系数。前者是指用户发现n个相关文献之前需要查看的不相关文献的数目，用来测度搜索。",
+    "context6": "引擎在多大程度上能够把最相关的文献排列在检索结果集的最前端（Su Chen and Dong 1998;Oppenheimet al 2O0O;Chignell etal 1999)。后者通过比较用户的相关性排列和系统的相关性排列之间的相关系数，测度搜索引擎的排列效果。",
+    "context7": "表2搜索引擎评价指标——技术",
+    "context8": "<table><tr><td>指标</td><td>来源</td></tr><tr><td colspan=\"2\">检索功能</td></tr><tr><td>检索语法</td><td>宋迪(2007);朱庆华等（2007);杨永升（2006)；王 炼(2005);Felm an (1998)；Nasios et al(1998); Hum phries&amp; Kelly（1997)；Ding&amp; March ion ini</td></tr><tr><td>检索选项</td><td>(1996) 杨永升（2006)；王炼（2005);张莉扬（2001)；Sto- bart&amp; Kerridge(1996)</td></tr><tr><td>辅助功能：预览、快</td><td>王炼(2005)</td></tr><tr><td colspan=\"2\">照 检索效果</td></tr><tr><td></td><td>王惠（2009);宋迪（2007);朱庆华等（2007)；FC Johnson et al（200l)；C.Oppenheim etal(2000); Chignell et al（1999)；Law rence &amp; Giles（1998);</td></tr><tr><td>响应时间</td><td>Nasios et al (1998) 蒋伟伟（2007)；Sanjb K. Deka etal（2010); M. M. Sufyan Beg(2005)；su(2003)；Su etal(1998)；Na-</td></tr><tr><td>相关性</td><td>sios et al（1998); Su Chen&amp; Dong(1998);Hum - phries K.A. et al(1997) 朱庆华等(2007)；王炼(2005);张莉扬(2001)；FC Johnson et al(200l)；C.Oppenheim et al(2000);</td></tr><tr><td>查准率</td><td>Chu &amp;Rosenthal（1996) 朱庆华等（2007)；王炼（2005)；Menczer&amp; Belew</td></tr><tr><td>查全率</td><td>(2000);Chu&amp; Rosenthal(1996) 前X命中记录查 王渊（2007)；Muh-chyun Tang etal（2003);Lou&quot;</td></tr><tr><td>准率</td><td>ise TSu(2003) 王渊（2007）;Louise T Su(2003); C.Oppenhei et</td></tr><tr><td>相对查全率</td><td>al(2000)；Clarke&amp; W ilett(1997) 朱庆华等（2007)；王渊（2007)；宋迪（2007)；FC</td></tr><tr><td>相关性排序</td><td>Johnson et al （2001)</td></tr><tr><td>结果排序的合理性王惠（2009) 排序方式</td><td>杨永升(2006);张莉扬(2001)</td></tr><tr><td>用户相关性排列与 系统相关性排列的</td><td>Muh—chyun Tang et al(2OO3)；Louise TSu (2003);Su&amp; Chen(l999); Su et al（1998)</td></tr><tr><td>搜索长度</td><td>Muh-chyun Tang et al（2OO3）;Menczer&amp; Belew (2000);Chignell etal（1999)</td></tr><tr><td>稳定性</td><td>蒋伟伟(2007); Sanjib K.Deka et al(201O); Abdur Chow dhury(2005);L iw en Vaughan（2004)；Nasios</td></tr><tr><td>结果一致性</td><td>et al（1998）；Leighton&amp; Srivastava(1997) C.Oppenhein etal(2000)</td></tr><tr><td>重复率</td><td>宋迪（2007)；王渊（2007)；朱庆华等（2007)；C. Oppenheim，et al（200O)；Repman &amp;carlson</td></tr><tr><td></td><td>(1999); Nasios et al(1998)；Feldman(1998) 王渊（2007);宋迪(2007）；Feldman（1998);Nasios</td></tr><tr><td>死链率 无效链接</td><td>et al (1998); Nasios et al (1998) Law rence &amp; G iles(1998)</td></tr><tr><td>链接的有效性</td><td>M. M.Sufyan Beg(2005); Su(2003)；Louise TSu</td></tr><tr><td>文摘:可读性、长度</td><td>（2003)；Su Chen&amp; Dong(1998) C.Oppenheim et al(20OO); Wheatley，A.et al</td></tr></table>",
+    "context9": "传统信息检索系统对于给定的检索提问能够提供稳定的搜索结果，而搜索引擎的搜索结果则很不稳定。",
+    "context10": "比如，在高峰期，搜索引擎可能会截取部分结果以提高响应速度;多数据库或多种索引并不总是一致的，但可能被同一个搜索引擎用来响应用户的提问。因此，Mettop&Nieuw enhuysen（2OOl)认为搜索引擎结果集的波动不能再被忽视了，搜索结果的稳定性应该被作为搜索引擎的一个性能测度。结果集的稳定性引起了很多学者的关注（Vaughan & Thelw all 2OO4；Mettrop& N ieuw enhuysen, 2OOl;M ow show itz & Kaw aguchi2002)。LiwenVaughan(2O04)从三个方面测度搜索结果的稳定性：a检索到的网页数的稳定；b在间隔一段时间的两次检索中，前 20页的内容中相同的数目；c在间隔一段时间的两次检索中，前 20页的内容中排列顺序保持不变的数目。",
+    "context11": "重复链接率和死链接率都是检索效果的评价指标。检索结果中同一内容的反复出现，尤其是标题和描述作了变动，网站地址不相同的重复内容对用户的迷惑性极大。检索结果中经常会有死链接出现，用户无法从结果页面直接判断其是否是死链接，只有通过实际点击才能知道，而且有的死链接从结果页面显示的相关信息判断，与用户信息需求的相关程度很高。重复链接和死链接的存在不仅浪费用户的时间，降低了信息检索的效果，同时也影响用户对搜索引擎的认知。当然，有些搜索引擎提供的“网页快照\"功能很大程度上降低了死链接所带来的负面效果。"
+  },
+  "3界面交互层次的评价": {
+    "context1": "界面是用户与系统交互的接口。搜索引擎的有效利用很大程度上取决于系统是否为用户提供了一个便于用户学习使用、理解用户语言、适应用户操作行为、帮助用户有效查询信息的良好的人机界面。Zhang Y.(2007)认为界面层次的评价主要有三个目标：系统如何有效、高效地帮助用户发现所需的信息;界面如何更好地适应用户的知识基础和信息查询需求或行为;界面是否遵守了界面设计原则 (简洁性、一致性、提供反馈等等）。因此，搜索引擎的界面评价是从用户角度出发对搜索引擎可用性的评价。",
+    "context2": "根据 ISO标准9241可用性规范，可用性是特定环境中特定用户得到特定目标的有效性、效率和满足性。Am andaSpink(2002)以用户为中心的搜索引擎可用性评价包括用户对界面整体的满意度、易用性、吸引力、可学习性、提供信息的充分性、界面布局合理性、界面规划充分性、界面术语的有用性。搜索引擎检索界面的布局要以用户为主，色彩搭配协调、区域划分合理，提供各种检索功能且各层界面保持一致，提高用户操作过程的舒适度，使用户的操作经验可以延伸到新的操作任务，降低用户记忆负担，使用户能够更迅速有效",
+    "context3": "地控制系统。",
+    "context4": "搜索引擎界面的个性化既是用户的需求，也是搜索引擎吸引用户的特色之一。针对用户的专业水平、爱好、习惯等个性化因素，为用户提供可选择的个性化界面及结果显示格式、内容、数量等的个性化设计。Tennant(1999)提出用户界面应该为不同层次的用户提供不同的服务，为初学者提供简单查询，为熟练用户提供高级查询或捷径。另外，帮助信息的提供从另一方面促进了系统的可用性和易用性，也减轻了用户的负担。",
+    "context5": "根据用户交互满意度问卷QUIS7.0,搜索引擎交互评价应该从用户的整体反应、屏幕、术语和系统反馈、可学习性、在线指南等角度全面展开。从目前的文献回顾中发现，虽然搜索引擎的相关研究中非常强调反馈的重要性，但在其评价研究中却鲜有提及。而搜索引擎提供的术语和系统反馈是用户和系统有效交互的基础，系统反馈信息包括用户操作的可逆和对错误操作的解释,将帮助用户完成信息查询任务。",
+    "context6": "表3搜索引擎评价指标一界面 交互",
+    "context7": "<table><tr><td>指标</td><td>来源</td></tr><tr><td>可用性</td><td>Am anda Spink(2002)</td></tr><tr><td>检索界面 (简单或高级检 索选项以及搜索命令）</td><td>Louise T. Su(2003); Dong&amp; Su(1997)</td></tr><tr><td>检索界面(颜色、图形、菜 单）</td><td>W inship(1995)</td></tr><tr><td>界面友好</td><td>王惠(2009);宋迪（2007);杨永升（2006）； C.O ppenhein et al(2OOO)；Nasios et al (1998); Stobart&amp; Kerridge(1996)</td></tr><tr><td>检索界面易用性</td><td>王惠 (2009)</td></tr><tr><td>结果显示</td><td>宋迪(2007)；杨永升（2006);王炼（2005); Louise T. Su(2003); Dong&amp; Su(1997);Chu &amp; Rosenthal(1996)</td></tr><tr><td>用户对输出的控制</td><td>F C Johnson et al（2OOl);C.Oppenhein et al(2000)</td></tr><tr><td>检索提问式的输入、更改、 可视化</td><td>王炼（2005）;FC Johnson et al（2001)</td></tr><tr><td>用户努力</td><td>王炼（2005)；张莉扬（2001)；Chu&amp; Rosen thal( 1996)</td></tr><tr><td>在线帮助和指导</td><td>宋迪（2007);Louise T Su(2003)；Dong&amp; Su(1997)</td></tr><tr><td>帮助信息的有用性</td><td>C.O ppenhein et al( 2000)</td></tr><tr><td>帮助信息的易用性</td><td>杨永升 (2006)</td></tr></table>"
+  },
+  "4用户层次的评价": {
+    "context1": "搜索引擎最终的目标是为用户提供信息检索服务，技术的先进性固然重要,但如果技术的优势无法获得用户的认可，技术的价值就无法实现，因此搜索引擎评价研究中用户层次的评价非常必要也是最重要的。用户层次的评价主要调查用户在使用搜索引擎之后的成果，主要集中于用户认知、情感的变化以及对用户信息需求或任务的影响，包括客观评价和主观评价。。",
+    "context2": "满意是用户在使用搜索引擎后的情感认知，是交互过程的另一个评价方法，最先由Cleverdon（1974）提出，用来测度系统满足用户需求的程度。Su（1991)把用户满意整合到交互过程的多层次评价中，提出八项用户满意测度指标，其中五项关于系统特征和交互的指标,包括用户对响应时间的满意、对搜索界面的满意、对在线文档的满意、对结果显示的满意和对交互的满意;三项有关搜索结果和整体绩效的指标，包括用户对查准率的满意、对时间节约的满意和对系统成功的全面判断。FCJohnsonetal（2OOl)认为用户满意是一个复杂的、多层次的概念，复杂性源自于系统特征、用户特征、信息需求及认知状态等都会影响到用户对搜索引擎的满意程度，而且用户的需求、认知状态会不断地发生变化。基于此提出了根据系统内在特征及系统适应用户任务需求和个体能力的程度来评价搜索引擎,包括用户对搜索引擎有效性、效率、效用和交互的满意四个方面。",
+    "context3": "检索有效性的测度基于相关性概念，采用的测度指标是查准率和查全率，而面对用户与搜索引擎的直接交互则有所变化。Clarke&Willett（l997）、Haw kingetal（1999）、C.Oppenhem（2000)从系统的整体评价搜索引擎的有效性。FC Johnson etal（2O01)的有效性测度从实际系统的查准率、检索结果排序以及用户对这两方面的满意程度、系统结果与用户满意结果的比较。Amanda Spink(2OO2)发现用户关心的问题不是检索结果的数目和查准率，而是其信息问题解决的进展。因此在查准率的基础上，进一步判断通过搜索引擎查询信息，用户的信息问题所处的阶段、用户对信息问题理解程度、用户信息查询阶段、用户个人知识水平等各个方面是否有不同程度的变化，并判断搜索引擎的使用对用户问题解决的贡献。宋迪(2007)根据用户对搜索结果的认知从主观角度评价了搜索引擎：重复率认知、死链率认知、全面性认知和准确性认知。",
+    "context4": "用户对搜索引擎的评价受到系统效率的影响，即用户希望尽可能高效地检索到所需信息（ $\\mathrm { { S u } \\ 2 0 0 3 ; }$ M. M.Sufyan Beg,2OO5)。Louise T $\\mathrm { S u ( 2 0 0 3 \\cdot }$ 采用搜索时间和搜索策略评价搜索引擎的效率；FC John-son etal（2001)的效率评价则包括响应时间、搜索时间和相关性评估时间；GangLuo（2O09)在评价其开发的面向医学信息的智能搜索引擎Med时也采用了搜索时间。搜索时间是指用户从登陆系统到完成搜索所花费的时间;搜索策略是用户针对一个信息问题提交的搜索提问式的数目；相关性评估时间是用户从搜索结果中选择相关结果的过程;这三项指标可以作为反映搜索主题的难易程度、系统易用性和用户努力程度的指标有效性测度的是系统达到目标的能力，是面向用户的，而效率测度的是单位资源所提供的服务的量,但如果服务是无效的，则效率几乎没有意义（Boy\"ce et al 1994)。",
+    "context5": "Louise T. $\\mathrm { S u ( 2 0 0 3 ) }$ 认为效用是搜索引擎满足用户需求或解决用户问题的整体有用性。该测度源自$\\mathrm { S u ( 1 9 9 1 ) }$ ，是从系统有用性的角度进行评价。它不同于查全率和查准率，用于测度搜索引擎满足用户需求的能力，而不强求完整或查准率。Saracevic&Kanto1认为标准的可用性评价不存在，并提出相关的评价标准：浏览摘要所花费的时间、结果的有用性评估值、结果信息对问题解决的贡献、对结果的总体满意程度。C.Oppenheim: et al（2OOO）、F C Johnson et al（2001）、LouiseTSu(2003）王惠（2009)也通过判断搜索结果的整体价值评价搜索引擎的效用，FCJohn\"sonetal（2001)的指标中还包括了信息源的质量、链接的有效性、继发的链接数等。",
+    "context6": "Gang Luo et al（2O09)针对 $\\mathrm { ~ M ~ e d }$ 从客观和主观两个角度评价了搜索绩效。客观指标包括成功率、搜索反复的次数、查看的搜索结果页数、搜索过程花费的时间。主观指标包括用户的系统易用性认知、易理解性认知、搜索结果有用性认知和对系统的总体满意度。实验发现用户满意与Med性能因素紧密相关：指导搜索者提供关于他们所处情境的最重要信息、自动形成提问式、构造搜索结果的层次、提供各种相关的医学短语的建议。测度搜索引擎绩效的另一种方法基于 ESL（estmated(or expected） search length)。ESL用来测度搜索引擎在多大程度上能够在结果集的最顶端传递最相关的信息（Agata et al 1997;Su Chen& Dong1998; C. Oppenhem et al 2OOO; Chignell et al 1999),Harter&Hert(1997)建议用它代替查全率和查准率，计算用户所付出的成本，即用户在获得满足提问需求的充分记录之前所需要浏览的站点数。",
+    "context7": "表4搜索引擎评价指标一用户",
+    "context8": "<table><tr><td>指标</td><td>来源</td></tr><tr><td></td><td>有用性认知Gang Luo(2009）;NahlD.（1998)</td></tr><tr><td></td><td>易用性认知Gang Luo(2009);NahlD.（1998)</td></tr><tr><td>ESL</td><td>C.Oppenhein etal(2OOO)；Menczer&amp; Belew(2O0O); Har ter&amp;Hert(1997)；Agata et al (1997)</td></tr><tr><td>用户满意</td><td>M.M.Sufyan Beg（2005)；Su（2003)；Am anda Spink (2002)；F C Johnson et al(2OOl)；Marchionini et al (2000); NPD Media Service(200O)；Kuk(1999)；Su&amp;Chen (1999);Wang etal (199)；Su etal (1998)</td></tr><tr><td>有效性</td><td>Am anda Spink(2002); C.Oppenhein et al(200O); Haw king et al（1999);C larke&amp;W illett(1997)</td></tr><tr><td>效率</td><td>Gang Luo(2009);M. M.Sufyan Beg(2005)； Su(2003); Louise T Su(2003);FC Johnson etal(200l)；Su Chen &amp;Dong(1998)</td></tr><tr><td>效用</td><td>王惠（2009)；Louise TSu(2003）；FC Johnsonet al (2001)；C.Oppenheim etal(2000)</td></tr></table>",
+    "context9": "（C用户层次的评价对搜索引擎创新研究非常重要",
+    "context10": "但也是最复杂、最不稳定的，评价结果会受到用户的知识水平、信息需求、对需求的认识能力、对系统的认知水平、自信心、压力水平等多种因素的影响，而且搜索引擎本身也在不断的发展变化，技术的变动尤其是索引数据库的实时更新也会影响到用户对搜索引擎的评价。"
+  },
+  "5服务层次的评价": {
+    "context1": "搜索引擎的评价研究多集中在系统的性能、效果、用户满意等层次，而从服务角度出发的研究较少。好的服务质量能够满足或超越用户的预期。服务质量高或低的判断依赖于消费者在他们预期的情况下感知到的实际服务绩效。A·Parasuraman etal（l985)提出SERVQUAL模型用于评价服务质量。该模型面向用户主观意识,分析用户质量认知和期望之间的差距，由有形性、可靠性、响应性、保证性、移情性5个维度和22项评测指标组成。Wang etal（1998)根据 SE·RVQUAL模型确定了面向搜索引擎服务质量的 SE·RVQUAL模型,如表 5所示。Wangetal(1999)进一步分析了搜索引擎服务质量评价模型，通过因子分析把14个质量指标组合成三个主因素，依重要程度排列依次为技术支持、速度和辅助服务。",
+    "context2": "表5面向搜索引擎服务质量的 SERVQUAL模型",
+    "context3": "<table><tr><td>维度</td><td>定义</td><td>指标</td><td>新维度</td></tr><tr><td>有形性（Tan&quot; gibles)</td><td>设施、设备、人员和交流工 具的完备;搜索引擎的特 征和功能</td><td>信息组织合理 多种搜索方法 大量的信息</td><td>技术支持</td></tr><tr><td>可靠性（Relia- bility)</td><td>可靠、精确地完成任务的 能力;为提问式提供相关、 有用信息的能力</td><td>可以缩检 搜索中关键词语法 高度一致 搜索结果与提问式 相关</td><td></td></tr><tr><td>保证性（As&quot; surance)</td><td>雇员的知识和礼貌以及让 用户产生信任感和信心的 能力;保证针对提问式提 供的结果的精确性、新颖 性和相关性的能力</td><td>没有重复链接 没有死链接 信息最新</td><td></td></tr><tr><td>pathy）</td><td>公司关心并为用户提供个 移情性（Em－人化的关注;搜索引擎关 心并为用户提供个性化关 注</td><td>对版面设计的第一辅助服务 印象是易懂 提供自然语言搜索 提供语言选择 (针 对不同文字） 有帮助显示，介绍 页面或指导用户的</td><td>速度</td></tr><tr><td>响应性（Re&quot; sponsiveness)</td><td>愿意帮助用户并提供敏捷 服务;快速响应提问式的 能力</td><td>搜索实例 很快提供搜索结果</td><td></td></tr></table>"
+  },
+  "6环境层次的评价": {
+    "context1": "搜索引擎具有一定的社会和环境依赖性。成功的搜索引擎一方面,应该遵守制度和社会实践，另一方面也应该得到制度和社会的良好支持。搜索引擎环境层次的评价包括两方面：一方面评价搜索引擎如何很好。",
+    "context2": "地适应社会环境(如制度、社会、文化、经济、法律），另一方面评价搜索引擎对社会环境的影响。到目前为止，还没有相关评价研究考虑到搜索引擎的环境影响。",
+    "context3": "搜索引擎成为人们查找信息的主要方式。有研究表明用户在家装了宽带之后，遇到问题时首先想到的是互联网，而现在更愿意访问搜索引擎以发现答案。王振华（2009)提出，在 $\\mathrm { { W } \\ e b ^ { 2 } \\cdot \\ 0 }$ 时代，搜索引擎已经成为《十万个为什么》的网络版，而且所能解决的问题范围更广泛。0CLC在 2006年全球报告中指出， $8 9 \\%$ 的大学生在进行信息搜索时会选择商业搜索引擎，仅有$\\mathcal { Z } \\%$ 的学生会选择图书馆网站。王侠、陆敏（2010)的调查结果也显示，高教科研人员的信息获取途径主要是图书馆和搜索引擎。",
+    "context4": "搜索引擎成为隐性知识显性化的最好平台。隐性知识管理是知识管理的重点，也是难点。搜索引擎建立了互动问答平台，用户根据自己的具体需求有针对性地提出问题，由搜索引擎的专家团或通过积分奖励机制发动网友来共同解答。通过这种方式，可以把用户的隐性知识固化成为显性知识,并对其进行组织形成知识库，提供给有相似问题的用户检索使用，从而达到知识共享的效果。搜索引擎的知识问答平台已经成为一部综合性的网络百科全书。",
+    "context5": "搜索引擎对图书馆信息服务方式的影响。一是学术搜索对图书馆文献检索的影响。搜索引擎的学术搜索在不需要支付任何费用(除上网费和花费的时间）没有并发用户、下载数量限制的情况下，用户可以方便地搜索全球的学术科研信息。二是搜索引擎对科技查新的影响。网络上的部分信息是查新数据库的有力补充，利用搜索引擎的检索功能还能够有效地扩展检索范围，实现一站式搜索。三是互动问答对图书馆参考咨询服务的影响。搜索引擎的互动问答平台聚集了大量的志愿者并形成了庞大的知识库为信息提问者解惑答疑。",
+    "context6": "搜索引擎的客观与公正。随着人们越来越依赖网络信息，搜索引擎正深刻地影响和改变着人类认识世界的方式，其客观和公正非常重要。而搜索引擎市场的垄断趋势日益显著，加之人工干预的竞价排名，必将侵害公众的知情权和信息透明度。",
+    "context7": "搜索引擎带来的知识产权问题。互联网提供的大量免费信息中包括部分仍处于版权保护期内的传统图书、影像资料等，这无疑侵害到了著作权人的利益。尽管搜索引擎只负责提供相关资源的链接，但无异于对侵权行为起到了推波助澜的作用。",
+    "context8": "另外,搜索引擎还面临着个人隐私保护、信息安全、不良信息等问题，这都是搜索引擎要适应环境、更",
+    "context9": "搜索引擎环境层次的评价需要有更多的研究，扩展评价范围，从人们的日常生活到教育、研究、商业等各个领域，识别不同的用户群体的适宜评价指标。"
+  },
+  "7结语": {
+    "context1": "搜索引擎评价面临的一个重要问题是它们在不断地发展变化着，发展更先进的搜索机制和更为人性化的用户界面;而且网络信息资源的根本特点是它的规模、异构和变动，尽管搜索引擎有超强的速度和能力，却很难跟上网络信息的变化速度。因此，搜索引擎的评价方法没有标准可言，任何评价结果只能说明搜索引擎在当时的绩效，但搜索引擎的评价研究仍然是一个重要的课题，它既是用户选择搜索引擎的依据，也是推动搜索引擎发展的灵感来源之一。搜索引擎的评价模型应该是一个综合性的评价模型，整合系统、用户、用户与系统之间的交互以及用户与系统所处的环境。"
+  },
+  "参考文献": {
+    "context1": "[1］王淼,吴义春·建立我国技术中介的全方位服务模式［J]·科学学研究，1998(3):80-84",
+    "context2": "[2]李纪珍,闫立罡·欧盟创新驿站网络对中国科技中介机构发展的启示「J].科学学与科学技术管理，2006(5)：36－40",
+    "context3": "[3]唐丽艳，闫如玉，王国红·创新驿站中科技中介项目特征浅析及其风险识别[J].科学学与科学技术管理，2008(4)：28－31",
+    "context4": "[4]阮峰儿·信息技术(I)企业经营战略创新的理论视角［J]生产力研究，2003(1):253－255",
+    "context5": "[5]郭启宏，万迪昉,蔡地·信息技术运用于城市基础设施管理绩效关系的实证研究一基于个体理性水平的中介作用[J]情报杂志，2008(8):94—97",
+    "context6": "[6]章琰·大学技术转移网络系统分析[J].科技进步与对策，2006(6).151—153",
+    "context7": "[7]朱晨晨,郁晓明·创新驿站[J].华东科技，2008(10)：64－65",
+    "context8": "[8](美)爱迪思(AdizesI)著，赵睿等译.企业生命周期[M].北京：中国社会科学出版社，1997（10)",
+    "context9": "[9]刘凤委,孙铮,李增全·政府干预、行业竞争与薪酬契约［J]管理世界，2007(9)：76—85",
+    "context10": "[10]陈建勋，朱容，吴隆增·内部社会资本对技术创新的影响一—知识创造的中介作用［J]·科学学与科学技术管理，2008(5).90-93",
+    "context11": "[11]徐凯，高山行·技术资源管理对社会资本和产品创新中介作用研究[J].管理科学，2008(6).2-7",
+    "context12": "[l2] The Pathway for European Technolgy: The Innovation Relay Centre(R IC)Network at a G lance http://iro Cordis lu/",
+    "context13": "[13]BELLANDL M. Capacita Innovative D iffusa E S istem iLocalidi Impress[M]. In BecattiniG; ModelliLocali di Sviluppo IMulino Bo\" lohna 1989(87)",
+    "context14": "[14] Nonaka I&Takecuchi H. The Know ledge-creating Company [M].Oxford University Press New York, 1995",
+    "context15": "（责编：王平军）"
+  },
+  "（上接第33页）": {
+    "context1": "In teraction w ith Web Search Enginesan Exploratory Study[J] Infomation Pocessing and Management 2OO2(38):4Ol-426 [14]Questionnaire forUser Interface Satisfaction[EB/OL].[2Ol0—10 -27]. htp: //ap umd edu/quis",
+    "context2": "[l5]Su L T An Investigation to Find Appropriate Measures for Eval uating Interactive In fomation Retrieval[D].Doc toralD issertation Rutgers University New Brunsw ick NJ(1991)",
+    "context3": "[l6]Lou ise TSuA Comprehensive and Systematic Model of UserEvaluation ofW eb Search EnginesI Theory and Background[J]. Joumal of the American Society for In foimation Science and Technology 2003,54(13)：1175—1192",
+    "context4": "[17]Johnson F C. G riffihs JR Hartley R JDEV ISE A Fram ework for the Evaluation of Lntemet Search Engines[EB/OL].[2OlO—10 -20]. The Council for Museums A rchives and Libraries 2001. http://www. e-space mmu ao uk",
+    "context5": "[l8]Oppentheim C,Morris A,Mckn ightC.The Evaluation of WWW Search Engines[J]．Joumal ofDocumen tation2OOo,56(2)：190 -211",
+    "context6": "[19]宋迪·基于用户偏好的搜索引擎的指标分析与评价[D].哈尔滨：哈尔滨工业大学，2007",
+    "context7": "[2O]Gang Luo Design and Evaluation of the Med IntelligentMedical Search Engine[D].ICDE:2OO9 IEEE $2 5 \\mathrm { { T H } }$ NTERNATIONAL",
+    "context8": "CONFERENCE ON DATA ENG NEER NG，VOLS1一31379— 1390",
+    "context9": "[21]Oppenheim C Morris A，Mcknight C. The Eveluation of wwwSearch Engines[J]·Joumal ofDocumen tation 2OOo,56(2)：190-211",
+    "context10": "[22]Harter S P,Hert C A·Evaluation of Infomation Retrieval Sys tem\\$ A ppoaches Issues and Methods[J]·AnnualReview of Infomation Science and Technology 1997(32):3-79",
+    "context11": "[23]X ie M, W ang H Goh TN.Quality D imensions of Lntemet Search Engines[J]. Joumal of Infomation Science 1998,24(5):365— 372",
+    "context12": "[24]Wang H,X ie M,Goh TN. Service Quality of Lntemet Search En\" gines[J]· Joumalof Infomation Science 1999,25(6):499-507 [25]The Pew Research Center[N]. Search Engine Use August 6, 2008",
+    "context13": "[26]刘念·未来图书馆信息服务的新模式一一与商业搜索引擎联姻［J]图书馆工作与研究，2009(7)：13—17",
+    "context14": "[27]徐勇·学术搜索引擎在科技查新中的应用［J]·浙江高校图书情报工作，2009(1)；58-61",
+    "context15": "[28]王振华·搜索引擎：一把网络双刃剑[J].新闻世界，2009:154[29]张浩，于，程秀全，等·搜索引擎进入综合发展期需完善监管策略解决多种问题[J]:世界电信，2009(7)：48－52",
+    "context16": "(责编：刘影梅）"
+  }
+}

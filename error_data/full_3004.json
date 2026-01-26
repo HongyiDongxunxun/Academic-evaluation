@@ -1,0 +1,70 @@
+{
+  "original_filename": "full_3004.md",
+  "国内外文本分类研究计量分析与综述\\*": {
+    "context1": "胡泽文　王效岳 白如江山东理工大学科技信息研究所淄博 255049",
+    "context2": "摘要]运用文献计量分析方法、计算机统计分析技术、社会网络分析软件对文本分类领域的历史文献进行计量分析及可视化，通过绘制文献数量分布图、核心关键词的共现网络，挖掘文本分类领域的发展趋势、目前研究概况、热点及未来研究趋势等信息，并对文本分类领域研究热点和未来研究趋势进行综述。",
+    "context3": "[关键词]文本分类计量分析社会网络分析可视化图谱[分类号]G250TP391",
+    "context4": "Quantitative Analysis and Rev iew of Text C lassification Research at Hom e and Abroad Hu Zewen Wang X iaoyue Bai Rujiang Institute of Scientific & Technical InfomationShandong Universityof TechnologyZibo 255049",
+    "context5": "〔Abstract）Tispapemakesquantitatienalysisdvisualzationoestorcaliteratusof textlasificationdmanbyusingbb limetricanalysis methodmputerstatisticanalysis echnolgyandsocialnewokanalysissofwareBydrawingeliteraturquantity distrbutionmapandthecoocurrencenetworkofcore keywordsexcavatesdevelopmenttrendscurrntresearch sitationshotspots andfutureresearch trendsetointextclasificationdmainandmakesareviewonresearchhotspotsandfutureresearchtrends [K eywords] text classificationquantitative analysissocial network analysisvisualizing map"
+  },
+  "1引言": {
+    "context1": "随着数字化文档信息总量的快速增长，大规模文本处理已经成为一个挑战。传统向量空间模型表征文本的方法逐渐呈现出一些问题，比如忽视词间语义关系，不能解决同义词、多义词、词间上下位关系等问题，为解决这些问题，国内外学者开始从概念或语义层次上对文本自动分类方法展开广泛的研究，出现一些新的文本分类方法，如基于词典或概念的文本分类、基于本体或语义的文本分类等。随着文本分类领域的快速发展，文本分类领域的总体发展趋势、研究概况、热点及未来发展趋势如何，将是关注的焦点。因此关于文本分类领域文献信息的计量分析与综述具有重要的理论和现实指导意义。",
+    "context2": "关文献。在方法运用上，利用文献计量分析方法对国内外文本分类领域的发展趋势进行对比分析;利用 $\\operatorname { E x } ^ { - }$ $\\mathbf { c e l 2 0 0 7 } ,$ SQL语句的数据处理与统计分析功能、社会网络分析软件Ucinet和NetDraw[1]的数据分析及可视化功能等，对文本分类文献中的关键词进行词频统计与分析、共现频次统计与分析，绘制国内外文本分类领域研究概况和热点的可视化图谱。据此可以解读国内外文本分类领域的发展趋势、研究概况、热点等信息。样本数据的检索情况如表1所示：",
+    "context3": "表1样本数据的检索情况",
+    "context4": "<table><tr><td>数据库</td><td>检索入□</td><td>检索词</td><td>时间范围</td><td>文献数量</td></tr><tr><td>Campendex</td><td rowspan=\"2\">Title</td><td rowspan=\"2\">“text classification” or “ text categorization”</td><td>1969-2009</td><td>954</td></tr><tr><td>ScienceD irect</td><td>1969-Present</td><td>去重：60</td></tr><tr><td>中国期刊全文数 据库(CNKI)</td><td>篇名</td><td>文本分类(精确匹 配）</td><td>1999-2009</td><td>615</td></tr><tr><td>中国硕博学位论 文数据库(CNKI)</td><td>题名</td><td>文本分类(精确匹 配）</td><td>1999-2009</td><td>222</td></tr></table>"
+  },
+  "2样本与方法": "",
+  "3分析与结果": {
+    "context1": "在样本数据检索中，共检索到1851篇国内外相"
+  },
+  "3.1文献数量分析": {
+    "context1": "对表1中1980－2009年 30年间的国内外文本分类文献数量进行分析（5年一个区间，30年共计6个区间）具体如图1所示：",
+    "context2": "![](images/45b7f87703eb58db4c2ef568c9d1238e34f2e27df9c245e66e2d101d82a55f9f.jpg)  \n图1 $\\mathbf { 1 9 8 0 - 2 0 0 9 }$ 年国内外文本分类文献数量分布",
+    "context3": "从图1可以看出，国外在文本分类方面的研究存在如下特点： $\\textcircled{1}$ 起步较早。德国学者GiereW和DettmerH在1986年就提出基于词典的文本分类与检索[2]。国内在1999年才出现文本分类方面的研究文献，比国外晚了13年。 $\\textcircled{2}$ 实际应用成果多，理论落后于实践。国外自动分类技术早在1975年就进入实用化阶段，而理论研究从1986才开始，落后于实践 11年。 $\\textcircled{3}$ 发展速度快。国外从1995年开始进入快速增长期，而国内从 2000年才开始进入快速增长期，比国外晚了5年。国内在文本分类方面的研究虽然起步较晚，应用成果少,但是发表的文献数量较多。国外在快速增长期（1995－2009)内共发表文献 510篇，而国内在快速增长期 ( $2 0 0 0 { - } 2 0 0 9$ )内发表文献1338篇，比国外多出 828篇。"
+  },
+  "3.2词频分析": {
+    "context1": "利用作者提出的词频统计分析方法[3]对检索到的文献关键词进行统计分析，获得文本分类领域高频关键词86个。对86个高频关键词进行词频分析，发现国内外对文本分类领域的研究主要集中在以下几个部分 (词汇后括号中的数字为词频)：",
+    "context2": "3.2.1文本分类过程主要对分词（18)、词汇处理（27）、文本表示（27）、向量空间模型（200)等进行研究。最常用的文本表示方法是向量空间模型，到目前为止，国内外学者重点研究的向量空间模型主要有词向量空间模型、语义向量空间模型。词向量空间模型存在向量空间维度过高、词项之间缺乏语义关系等问题,针对这些问题，国内外学者提出语义向量空间模型，尝试利用潜在语义索引(32)技术或本体（28)的概念语义关系挖掘词项之间的语义关系，构建低维的语义向量空间模型。"
+  },
+  "3.2.2文本分类算法目前国内外学者重点研究的": {
+    "context1": "文本分类算法有支持向量机算法（257）、K近邻算法（102）神经网络算法（90）、朴素贝叶斯算法（56）决策树算法（28)和遗传算法（24)。未来研究趋势将是各类算法的融合、改进和提高。",
+    "context2": "3.2.3文本分类降维技术文本分类的一个核心难题就是特征空间的高维性，因此文本分类降维技术是国内外学者研究的重中之重。降维技术主要分为两大类：特征选择(475)和特征重构(85)。特征选择是去除文档中信息量少的项以提高分类的效率，目前流行的特征选择方法有 $\\mathrm { T F } \\times \\mathrm { \\mathbb { D } } \\mathrm { F }$ 方法（11）主分量分析(6）互信息（27）信息增益(20)和信息熵(6)。特征重构是将原有特征集T加以联系和转化以构建新特征集 T的过程，从而使得降维的效果最大化。目前主要有两种特征重构方法：项聚类(25)和潜在语义索引(32)。",
+    "context3": "3.2.4文本分类应用领域主要对文本分类在信息检索（216）、学习系统（205）、数据挖掘（115）、文本挖掘（39）模式识别（35）数字图书馆（13)等领域的应用方法、原理和模型进行研究。"
+  },
+  "3.3共现频次分析": {
+    "context1": "利用程序统计“文本分类\"与3.2节中获得的 86个高频关键词在文本分类文献标题中共现的频次，根据词汇之间的共现频次，利用Ucinet6的矩阵编辑功能构建文本分类与其领域关键词汇的共现矩阵，再利用NetDraw绘制文本分类与其领域关键词汇的共现网络如图2所示：",
+    "context2": "![](images/216682097e326c73711ad49e2f8109cf4337757e07e9f671b7d5ccb46f093d28.jpg)  \n图2文本分类与其领域关键词汇的共现网络",
+    "context3": "从图2可以看出，文本分类领域的研究热点主要有文本分类特征选择方法、文本分类方法如传统的支持向量机分类算法、K近邻分类算法和目前基于语义的文本分类方法。"
+  },
+  "4文本分类研究热点综述": "",
+  "4.1 文本分类特征选择方法": {
+    "context1": "目前常用的特征选择方法有 TFIDF方法、互信息、信息增益等，其主要利用特征权重统计方法统计文档集中特征项的权重，然后设定阈值，选择特征权重大于等于阈值的特征项构建文档特征空间，进行文本分类模型的训练。不过在特征选择过程中，由于没有考虑词间语义关系如同义关系、多义关系、上下位关系等造成特征空间维度较高，文本分类性能无法提高到一个更高水平。针对此问题，国内外学者对传统特征选择方法进行改进和提高，将特征选择方法与特征重构方法如聚类、潜在语义索引等进行融合。如国内学者刘海峰等人将TFIDF和互信息特征选择方法分别进行改进,并重新组合，形成一种新的特征选择方法[4]。季铎、郑伟、蔡东风等人提出融合文档频率和潜在语义索引的文档特征优化方法，首先利用文档频率对文档集合进行特征选择，然后利用潜在语义索引技术挖掘特征之间语义关联,形成低维语义向量空间[5]。"
+  },
+  "4.2文本分类方法": {
+    "context1": "4.2.1支持向量机分类算法支持向量机算法是以结构风险最小化原则为基础，通过构造分类超平面进行无序文本的分类，具有很强的学习能力和较好的泛化性能，只需较少的样本就可迅速训练出具有较高性能指标的分类器，在解决小样本、非线形及高维模式识别问题中表现出许多特有优势[6]。不过，其对于大规模数据集，训练速度异常缓慢，并且需要占用很多内存。针对此问题，一些学者提出相应的解决方案如利用数据集分解算法如Bagging算法[7]、Google的 Map/Reduce算法[8]等，将大数据集分解成小数据集分别进行支持向量机的训练，然后通过合并算法将各支持向量机进行两两合并，形成最终的支持向量机分类模型[9]。",
+    "context2": "4.2.2K近邻分类算法K近邻分类算法（KNN算法)的基本思想是在训练样本中找到测试样本的K个最近邻，然后根据这K个最近邻的类别来决定测试样本的类别,具有很好的鲁棒性，简单易用，对于大规模数据非常有效。但是，它存在如下缺点： $\\textcircled{1}$ 计算量巨大,要求计算未知文本与所有训练样本间的相似度，进而得到K个最近邻样本。针对此问题，吴春颖和王士同提出融合Rocchio和KNN的文本分类方法，其先通过Rocchio分类算法快速得到 $\\mathrm { k _ { 0 } }$ 个最有可能的候选类别，然后在 $\\mathrm { k _ { 0 } }$ 个类别训练文档中抽取部分代表样本采用KNN算法[10]。 $\\textcircled{2}$ 在决定测试样本的类别时,把测试样本的K个最近邻等同对待，没有考虑这K个最近邻在所属类别中的重要程度。针对此问题,江涛、陈小莉等学者提出利用聚类算法，求出训练样本集合中每个训练样本的隶属度，利用隶属度来区别对待测试样本的 K个最近邻[11]。",
+    "context3": "4.2.3基于语义的文本分类方法该方法主要借助本体、项聚类、潜在语义索引等挖掘词间语义关系，将原文档词项之间相互独立的高维特征空间转换为低维的语义特征空间或概念特征空间进行文本分类模型的训练。本体具有丰富的概念语义关系如同义关系、多义关系、上下位关系等和清晰的层次结构，利用本体可以将原文档高维特征向量中词性不同而语义相同的特征映射成相同的特征即本体同义词集，将具体的特征映射成通用特征即本体通用概念，从而建立低维的概念或语义向量空间模型[12]。项聚类就是试图将在语义方面具有高关联性的项分组，以该分组的表示代替这些项成为向量空间中的维度[13]。潜在语义索引是一个通过词共现产生语义向量模型的文本分类和文档索引技术，主要通过词一文本矩阵的奇异值分解技术解决文档向量维度过高的问题[14]。"
+  },
+  "5文本分类未来研究趋势": "",
+  "5.1 特征选择方法与特征重构方法之间的融合": {
+    "context1": "特征选择方法在进行特征选择时认为各个特征维度之间是相互独立的，没有考虑特征维度之间的语义关联，从而降低了分类的精度[15]。目前加强语义信息的特征选择方法如主分量分析或特征重构建方法如项聚类、潜在语义分析等利用统计信息方法来发现文档特征间的关联，这些方法虽然在挖掘特征之间语义关系上占有优势，但它们在特征选择上存在很大的局限性。因此，文本分类特征选择方法的未来研究趋势是传统特征选择方法的改进和提高、特征选择方法与特征重构方法之间的融合，如融合互信息和聚类的特征选择[16-17],即通过互信息最大化从原始特征空间中选择次优特征子集，借助特征空间的聚类来剔除冗余特征，从而实现特征空间的再次降维。"
+  },
+  "5.2 文本分类算法之间的融合、改进和提高": {
+    "context1": "目前已经出现很多有效的文本分类算法，这些算法各有优缺点。因此未来研究趋势是如何将这些算法进行融合、改进和提高，利用它们的优势，摒弃它们的劣势，取长补短，从而有效提高文本分类算法的性能。比如：李蓉、叶世伟等人针对支持向量机（SupportVectorMachineSVM)在对分类超平面附近样本进行分类时，容易将其误分，而KNN很容易将其分开的现象，提出基于SVM和KNN融合的分类方法。该方法对样本在空间中的不同分布使用不同的分类方法，即样本离分界面较远时，用SVM分类，反之用KNN分类[18]；美国学者MitraVikramjit等人针对支持向量机在进行大规模样本数据分类时，效率和分类性能非常低，而神经网络具有大规模并行、分布式存储和处理、自组织和自学习的能力，提出一种融合递归神经网络和最小二乘支持向量机的文本分类模型，从而提高 SVM训练效率和分类性能，实验显示分类准确率达到99.66%[19] 。"
+  },
+  "5.3语义或概念向量空间模型文本分类方法": {
+    "context1": "传统词向量空间模型文本分类方法没有考虑词间语义关系，造成文档向量空间维度高，不能解决同义词和多义词对分类的干扰，因此语义或概念向量空间模型文本分类方法开始成为国内外学者研究的热点和方向。目前已出现很多语义或概念向量空间模型的构建方法,其中比较流行的有潜在语义分析法、本体语义映射法、概念格构建法、规范化概念分析法等。如 Deerwester Scott在 1990年提出的潜在语义索引模型，通过奇异值分解技术将原文档词向量空间分解成低维的语义向量空间[20]。芬兰学者Fili PG inter等人在 2004年提出利用本体的概念语义关系将原文档高维特征向量转换成低维语义特征向量[21]。意大利学者Caip ine-to C laudio等人在 2O09年提出基于概念格的支持向量机文本分类方法，通过规范化概念分析挖掘文档特征之间关系，构建概念格进行文本分类模型的训练[22。"
+  },
+  "6结语": {
+    "context1": "IEEE1986.85-88.  \n[3]胡泽文，王效岳．1998－2008年国内外本体应用研究计量分析及可视化·现代图书情报技术，2009(12)：25－30.  \n[4]刘海峰，王元元，刘守生·一种组合型中文文本分类特征选择方法·广西师范大学学报（自然科学版），2007,25（4)：208一211.  \n[5]季铎,郑伟,蔡东风·潜在语义索引中特征优化技术的研究·中文信息学报，2009,23(2):69-76.  \n[6]Joachims T Training linear SVMs in linear time//Proceedings ofthe ACM SIGKDD Intemational Conference on Know ledge D iscovery and Data M ining New Yoik; ACM，2O06:217-226.  \n[7]Leo B. Bagging predictors Machine Leaming 1996,24（2):123-140.  \n[8] Jefrey D, Sanjay G.MapReduce Simplified data processing onlarge clusters Cammunications of the ACM，2O08,51(1)：107-113.  \n[9]叶 菲,罗景青,俞志富．一种改进的并行处理 SVM学习算法.微电子学与计算机，2009,26(2):40－43.  \n[10]吴春颖，王士同．一种改进的 KNNWeb文本分类方法·计算机应用研究,2008,25(11):3275—3277.  \n[11]江涛，陈小莉，张玉芳,等·基于聚类算法的 KNN文本分类算法研究·计算机工程与应用，2009,45(7).153—158.  \n[l2]FiliPG，Sampo P,Joma Betal Ontology based feature trans'fomationsA data-driven appmach Lecture Notes in Artificial In-telligence 2004,279—290.  \n[13]David D L W，Buce C.Tem clustering of syntactic phrases//Pr\"ceed ings of the $1 3 \\mathrm { { t h } }$ In temational Conference on Research and Development in Infomation Retrieval-SIG IR ${ } ^ { , } 9 0 .$ New Yoik: ACM,1990.385-404.  \n[14]Abdelwahab A，Sek iya H,Matsuba I etal An efficient collabora-tive filtering algorithm using SVD-free latent semantic indexing andparticleswamoptization//2O09 IntemationalConferenceon Natural Language Pmcessing and Know ledge Engineering NLPKE2009.Piscataway: IEEE Computer Society2009.  \n[15] Yang Y,Pedersen JO.A Comparative Study on Feature Selection inText Categorization//Poceedings of the $1 4 \\Uparrow$ In tema tional Con ference on Machine LeamingICML 197.San Francisco MorganKaufnann 1997, 412-420.  \n[16]Martinez S JPla FSupervised feature selection by clstering u\"sing conditional mutual infomation based distancesPattem Rec\"ognition 2010,43(6)： 2068—2081.  \n[17]张成彬,唐 建·基于互信息最大化和特征聚类的特征选择．现代计算机(专业版），2009(8):31-33.  \n[18]李 蓉,叶世伟,史忠植·SVM_KNN分类器—一种提高 SVM分类精度的新方法．电子学报，2002,30(5):745－748.  \n[19] Mitra V,Wang CBanerjee S A neum SVM model for text classifi-cation using latent sem antic indexing//Poceed ings of the Intema-tional Joint Conference on Neural NetwoiksNew Yoik:IEEE,2005,564-569. （下转第142页）  \n[1] 2008 NIPS UCNET& NeiD raw Woikshop [2OO9—O8—2O].http://www:hks haivard edu/netgov/files/NIPS /Halgin_N PS_2008.pdf  \n[2] G iere W，DetmerH.Free text classification and retrievalbased ona thesaurus Eight years of experience at the johann wolfgang goe theun iver sity medical school//Prceedings-The Tenth Annual Symposiim on Camputer Applicationsin Medical CareNew York;"
+  },
+  "参考文献：": {
+    "context1": "[1]Tomatzky L G.The prcess of technolgical innovation Lexington; Lexington Books 1990.149—163.   \n[2]Huang Z Y.Towaid a deeper understanding of the adoption deci sion for Interorgan izational Infomation Systems(IOS)：An Inves tigation of In temet EDI(IEDI)[dissertation]. Tennessee Univer sity ofMemphis 2003.54-55.   \n[3]Vemar JM.Competitive intelligence at Xerox Cmpetitive Intelligence Review,1996,7(3)：15—19.   \n[4 ]Raman Bukary Top 10 BI traps·[2009—O2—27]. htp://www. inflectionpointbe/hame/10_bi traps to_avoid457.267.LEasp   \n[5]Shaku Atre The Top lO critical challenges for business intellgence success $[ 2 0 0 9 - 0 2 - 2 7 ]$ ：http://www.computeiworldcom/ com puteiworld/recoids/mages/pdf/BusIntelW Ponline pdf   \n[6]Fuld & Com pany Could career risks outweigh benefits for competitive intellgence technology usersnew ly released suivey speculates $[ 2 0 0 9 - 0 2 - 2 7 ]$ http://www: fuld com/New s/PressReleases/pr051020.hm l   \n[7]PremkumarG,Ram amurthy K·The ole of intemational and organizational factors on the decision m ode for adop tion of in terorgan iza tional systems Decision Sc iences 1995,26(3):303-336.",
+    "context2": "[作者简介〕刘细文，男，1965年生,研究员,硕士生导师,发表论文 20余篇；金学慧，女，1980年生,研究实习员，发表论文2篇。"
+  },
+  "（上接第73页）": "",
+  "（上接第81页）": {
+    "context1": "[20] ScottD，Susan TD, GeoigeW F,etal Indexing by latent semantic analysisJoumal of the American Society for Infomation Science 1990,41(6).391   \n[2l] FiliPG，Sampo P，Joma B，etal Ontolgy based feature transfor mations A data-driven appmach//Proceedings of the 4th Intema\"",
+    "context2": "tional Conference ESTAL 2OO4-Advances in Natural Language Processing Berlin: Springer 2004,279—290. [22]Caip ineto C，M ichiniC N icolussiR·A concept lattice based ker nel for svm text classification//Poceedings of the 7th Intemational Conference ICFCA 2OO9-Fomal Concept AnalysisBerlin; Springer 2009.237—250."
+  }
+}

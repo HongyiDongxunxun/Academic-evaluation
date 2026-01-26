@@ -1,0 +1,89 @@
+{
+  "original_filename": "full_9301.md",
+  "虚拟知识环境下的知识组织研究进展": {
+    "context1": "The Review of the Knowledge Organization in the Virtual Knowledge Environment",
+    "context2": "刘峰 (中国科学院国家科学图书馆北京100190)翟爽 (中国科学院国家科学图书馆中国科学院研究生院北京100190)",
+    "context3": "[摘要]随着虚拟知识环境的发展，知识组织成为虚拟知识环境建设中的热点问题。2007-2008年，虚拟知识环境的知识组织研究主要聚焦于利用分类和主题、元数据、本体和语义关系来构建虚拟知识环境的知识组织体系，力图通过改进和完善知识组织来提高虚拟知识环境中知识的发现和检索能力。"
+  },
+  "[关键词]虚拟知识环境知识组织": {
+    "context1": "[中图分类号]G250.73 [文献标识码]A",
+    "context2": "[Abstract] With the rapid development of Virtual Knowledge Environment,the knowledge organization becomes a hot issue of the construction of Virtual Knowledge Environment.From 20o7 to 0o8,the research of the knowledge organization of Virtual Knowledge Environment focuses on using classification and glossary,metadata,ontology and semantic relations to construct the knowledge organization system,in orderto develop theabilityof knowledge discovery and knowledge retrieval in Virtual Knowledge Environment through improving and perfecting the knowledge organization.   \n[Key words] Virtual Knowledge Environment; Knowledge organization",
+    "context3": "随着信息技术的发展，各式各样的虚拟知识环境不断出现，既有用于教学科研的E-Science和E-Learning环境，也有用于知识交流的社会网络。在虚拟知识环境中，数字资源对象纷繁复杂、数量庞大、流动变更频繁，如何有效地进行知识组织成为了虚拟知识环境建设中的一个热点问题。本文通过扫描和跟踪国外最近两年虚拟知识环境下知识组织的相关文章和项目，从基于分类和主题的知识组织、基于元数据的知识组织、基于本体和语义关系的知识组织、大众参与的知识组织等方面进行整理和分析，以期为我国进行相关研究提供参考。"
+  },
+  "1基于分类和主题的知识组织": {
+    "context1": "分类法和主题法是信息组织最基本的方法。但由于虚拟知识环境中的知识资源有诸多不同于传统信息资源的特性，研究人员在采用传统的分类法和主题法进行虚拟知识环境的知识组织和存取时须进行发展和完善来适应环境的变化。"
+  },
+  "1.1专业知识组织体系的构建方法": {
+    "context1": "用分类法框架和叙词构建机构专业领域的知识组织体系常常无法充分发挥分类法和叙词的特点和优势，同时此方面的实证研究也相对缺乏。因而新加坡南洋理工大学信息学系采用从上至下的构建方法，以创建本机构信息学领域的专业知识组织体系为例，来探讨专业知识组织体系的构建。他们以杜威十进制分类法和信息科学分类两部分类法以及美国信息科学和技术学会、图书馆学和信息科学文摘及教育资源信息中心的三部叙词表为基础，采用6步法来构建专业领域的知识组织体系。研究结果发现，已有的分类法和叙词表虽然有助于创建专业知识组织体系的学科分面和结构，但是专业领域资源的组织更需要征询专业领域人员包括组织目的、分面方式、覆盖范围等方面的意见。主要类目应根据机构利益、机构所拥有的资源和领域分类法共同确定；分类款目应根据机构的兴趣从分类表中的术语、专业领域知识体系以及叙词表中选取。搭建完成的机构专业领域知识组织体系初稿需要再次征求咨询机构人员的意见，与使用机构保持一致的创建原则，这样有利于专业领域内容的组织和导航[1]。",
+    "context2": "RowleyJ和SlackF提出了信息展示台自助服务的多维知识组织体系。这个知识组织体系根据信息展示台技术的发展，兼顾传统服务和电子服务内容，从地点、用户、任务和技术4个维度来组织信息，下级类目是由上级的主要类目发展起来的。它能应用于所有的信息展示台，其构建也使信息展示台的研究和开发得以整合，为电子服务、在线服务和自我服务延伸奠定基础[2]。"
+  },
+  "1.2分面分类的应用": {
+    "context1": "分面分析提供了一套严谨的方法来构建学科领域概念组织体系、关联分类结构和受控词表结构。因而在建立虚拟知识环境下的知识组织体系时，分面分析也常会被使用。Broughton V和 Slavic A在FATKS (Facet Analytical Theoryin ManagingKnowledge Structure)项目构建人文领域的知识组织体系中使用了此方法，目的在于考查分面分析方法能否满足创建人文领域受控词表和建立分面分类体系的要求[3]。结果发现，为了能方便地支持分面组合索引以及界面的分面检索和浏览，分面分类需要一个正规化的数据结构和一个合适的管理工具。恰当的分面系统的概念框架能被应用在人文科学方面，并可以完全集成在一个词汇管理系统中。",
+    "context2": "UddinMN和JanecekP提出了分面分类系统的框架以改进网络信息组织、检索和导航，他们通过对一些使用分面元数据的商业网站进行案例分析，确定了初步的信息架构模式，即利用分面分析原理建立分面分类系统，并将其与内容管理系统相结合。其中分面分类系统的知识组织体系采用语义网技术,如领域本体、XML(Extensible Markup Language,可扩展标识语言)、RDF(Resource Description Framework,资源描述框架）来建立。通过雏形系统的检验，他们发现多维度的信息组织比单一维度的信息组织更容易被检索和发现，XML/RDF构建的分面分类结构提升了分面分类系统研究，使用户更能根据信息需要检索和发现信息[4]。"
+  },
+  "1.3词表的应用": {
+    "context1": "虚拟知识环境中，关键词是用户表达需求以进行检索和浏览信息的主要方法。由于用户使用关键词的多样性和个性化会影响信息的查找，因而在虚拟知识环境中常会使用词表来帮助规范、控制关键词，以提高查全率和查准率。何种词表能较好地覆盖专业领域用户的关键词，帮助虚拟知识环境中信息的组织？芬兰医学会的EerolaJ和坦佩雷大学的VakkariP抽取了医学网站中50条配对的问题和答案来考查病人和医生关于心血管疾病的医学概念表述与专业叙词表的匹配程度，研究结果显示：芬兰医学叙词表(Finnish Medical Subject Headings,FinMeSH)覆盖了 $6 5 \\%$ 的文本中的医学术语，而芬兰叙词表（GeneralFinnishThesaurus，GFT）的覆盖率为 $41 \\%$ 。专业的医学词表的匹配率明显优于通用词表，但它存在同义词匹配度低的问题，因而将通用词表与医学词表相结合可以提高匹配度、扩展词间关系[5]。"
+  },
+  "2基于元数据的知识组织": {
+    "context1": "元数据是数字环境下对数据进行组织和处理的基础，不同应用领域存在不同的元数据方案。但仅仅根据现有的元数据标准并不能满足虚拟知识环境下信息交换、共享和",
+    "context2": "重用的特定需求，因而研究人员在现有的元数据方案基础上又展开了进一步研究。"
+  },
+  "2.1学科元数据聚类": {
+    "context1": "在虚拟知识环境下，资源的纷繁复杂常常阻碍了用户及时有效地检索信息资源。通过学科主题的方式聚类能帮助解决此困难，但此方法在异构资源环境下是否还能发挥作用呢？密歇根大学和加州大学欧文分校合作采用主题建模算法从不同OAIster语料库自动提取元数据记录。他们将所产生的元数据记录结果集的标签匹配到本地的分类系统，并以此为基础开发了一个原型系统，通过使用增加的记录来搜索和检索。结果发现，虽然该算法有费时和使用本地分类系统的缺陷，但准确的记录集群得以实现，原型系统设计的分面分类方式也有效地帮助了用户寻找资源[。这项研究的重要之处在于它将不同领域的元数据相关联，实现了异构元数据的学科主题聚类，有利于异构环境下的元数据的互操作，便于用户进行检索和知识发现。"
+  },
+  "2.2元数据模型": {
+    "context1": "不同的虚拟知识环境所包含的知识资源的类型、创建的目的、采取的服务方式都有所差异，因而它们在采用元数据模型进行知识组织时，会根据自身的需要对现有的元数据方案进行修改和完善。",
+    "context2": "民俗藏品数字化对国家文化的保存十分有价值，但数字民俗藏品载体形式多样（如含有手写文本、照片、3D实体、声频文件等)，它们在数字化、描述及保存方面存在很大差异，因而数字民俗藏品的元数据模型仅靠单一元数据方案无法实现，LourdiI等人提出了一个用于数字化民俗藏品的多层次的元数据模型，该元数据模型整合了各个来自于不同数据方案的元素，确保有效的信息可以覆盖各结构层次[7]。",
+    "context3": "PatraC也提出了一个元数据模型：陶器领域的数字化存储。他通过分析陶器领域的元数据需求来建立陶器资源数字化仓储，为陶器研究者和艺术家提供所需要的信息。他首先评价和对比了各种不同的可获得的元数据标准和形式，然后对陶器资源进行分析，以确定需要对其描述的元数据元素，组织陶器资源。研究表明，现有的DC（DublinCore，都柏林核心元数据）和描述艺术作品的GEMS(Greenstone Editor forMetadata Sets）都可以用来组织和描述陶器资源，但是又都不能完全符合陶器资源数字化仓储的标准[8]。",
+    "context4": "除构建满足不同虚拟知识环境需求的元数据模型外，完善现有的元数据模型也是研究人员长期讨论的热点问题。在E-Learning领域，FerranN等通过数字图书馆的使用分析来扩展和完善E-Learning环境的元数据模型。他们通过分析在一个学期内2个学科350名学生与课堂知识互动的日志来提取有用的信息，以改进元数据描述知识对象和学习过程的质量。日志分析帮助研究人员了解学生和虚拟校园的互动，有助于建立用户档案与他们所需信息和信息行为的联系，这对于促进个性化和改进虚拟环境有重要的意义[9]。"
+  },
+  "2.3元数据的互操作": {
+    "context1": "元数据的互操作保障了不同系统的用户能够在整个分布环境中发现、检索和利用所需要的资源和服务，因而元数据的互操作一直是信息组织中的热点问题。",
+    "context2": "面对异构分布式的数字图书馆系统，如何有效地支持查询而不需要建立全球统一的框架，Hao Ding和S lvbergI从元数据互操作的角度进行了研究。在分析应用本体的优点和缺点以及不同元数据框架中元数据术语复杂关系的推理规则的基础上，两人设计了在元数据框架之间描述复杂关系的本体和规则的映射进程，这个进程被分解成一系列的操作片断来说明如何使两个类似的书目本体片段相互联系以支持下一步查询。结果显示，本体带有推理功能有助于描述复杂关系的元数据术语映射。这种方法对于从一个本体到另一本体的查询是至关重要的。以往方法是以一个全球性的架构通过中央或虚拟服务器来提供本地和外界的元数据方案映射，灵活性差，而具有复杂推理功能的本体异构元数据互操作的方法改变了这一缺陷，更能适应动态的数字图书馆环境[10]。"
+  },
+  "3基于本体和语义关系的知识组织": {
+    "context1": "近年来，知识组织发展的一个重要趋势是向强结构的语义系统发展，从机器可读走向机器可理解，因而在构建虚拟知识环境时，不少研究者或以本体为基础的概念模型来创建知识组织体系，或尝试将等级结构、元数据、专用置标语言相结合来表征语义关系进行知识组织。"
+  },
+  "3.1基于本体的知识组织": {
+    "context1": "利用本体创建的虚拟知识环境中最典型的是美国康奈尔大学的VIVO系统和德国卡尔斯鲁厄大学的AIFB门户。",
+    "context2": "为了帮助生命科学领域的教师、研究人员和学生发现他们共同的研究兴趣，康奈尔大学图书馆建立了虚拟社区VIVO，它采用实体一关系的本体模型来组织和呈现有关人员、研究成果和教育活动等的信息[]。VIVO系统的知识组织体系是一个细粒度的类和关系的本体概念模型。类是指本体中的实体概念；关系包括了实体的描述性数值属性和实体与实体之间关系的对象性属性。通过此本体概念模型，能将人员、研究领域、项目、课程、研讨会以及相关的科学设备等关联起来，而不用考虑实体处于哪个学院及部门。除了基础的本体模型外，VIVO系统也采用了本体架构，它通过条目和条目组来实现与类的关联。因而VIVO知识资源的组织实现了结构化，并能反映知识资源之间的关系，在VIVO的每个实例页面都具有双向链接的属性来揭示当前实例与其他实例的关系。",
+    "context3": "AIFB是德国卡尔斯鲁厄大学应用信息学和形式化描述方法研究所的网站，此研究所是全球研究本体论的权威机构之一，目前研究的重点是构建基于本体的知识门户和语义门户。AIFB门户正是此研究所研究成果的反映，它采用本体的形式来组织研究所的相关信息，如人员、研究小组、研究项目、研究报告，并能在实例页面通过双向链接来反映与其他类的关系[2]。与VIVO作为发现工具的目的不同，AIFB主要对机构内容进行组织，因而对检索结果并没有再进一步揭示其所属类型，而是对实体间的关系进行了详细揭示，如人员之间的关系。",
+    "context4": "除了被用来架构知识组织体系外，本体的方法也被用来提高信息检索的效率。YiM探讨了主题地图本体方法如何影响用户的搜索行为，他组织了40名学生参加了此项任务测试，分别根据两个因变量即访问时间和检索时间来进行测评。研究结果表明，与以叙词表为基础的信息检索系统相比，以主题地图为基础的本体信息检索系统对访问时间和检索时间具有重要和积极的影响。因而在设计信息检索系统时，增加主题地图本体的设计能更好地揭示资源之间的关系并改进检索的效率[13]。"
+  },
+  "3.2术语的语义化": {
+    "context1": "在虚拟知识环境中，知识资源的细粒度化及语义化发展推动了知识组织体系从体系结构的机器可理解向知识组织内容的机器可理解发展。如何对知识内容进行语义标注和知识组织是近两年研究人员关注的一个热点问题。研究人员尝试将传统知识体系主题词表、叙词表、规范文档以OWL（Web Ontology Language，网络本体语言)、SKOS(SimpleKnowledge Organization System，简单知识组织体系)、RDF等编码语言进行描述，以帮助机器对语义的理解。",
+    "context2": "SummersE等探讨了如何将MARCXML格式的美国国会主题词表转换为SKOS编码，这种转换的优点在于有良好的扩展性，并能整合语义网的其他词表[14]。同样,ZengML和 Fan Wei也用SKOS《中国分类主题词表》（ChineseClassifiedThesaurus,简称CCT)进行了编码的实验,并指出了SKOS在反映等级结构、辅表的顶级概念、标注多类型的标码方式上存在问题[15]。",
+    "context3": "而此研究领域最为引人注目的是OCLC（OnlineComputerLibraryCenter，联机图书馆计算中心）的术语服务项目，OCLC试图对各种类型知识组织资源（包括规范文档、主题词表系统、网络分类、分类表等）进行互操作，提供基于Web的服务。项目通过在多个受控词表之间有选择地建立映射来帮助文献收藏机构为馆藏创建相互兼容的元数据，以便于基于网络的元数据编辑器获取术语资源，其好处在于能够在检索过程中整合叙词，利用分面结构进行语义扩展[16]。",
+    "context4": "为了满足词汇发展应用的需要,Tennis TJ和Sutton S A探讨了SKOS的进一步发展：追踪词汇框架和词汇概念的变化。研究显示：尽管SKOS模型能较好地表示概念，支持语义网的索引和检索，但不能满足词汇发展的应用需求，不能保持历史的延续性。因而TennisTJ和Sutton SA提出了采用词汇注册的方式来管理概念以及相应的工作流程[17]。"
+  },
+  "4大众参与的知识组织": {
+    "context1": "虚拟知识环境的一个重要特点是用户融入到虚拟知识环境中并能与其他用户和虚拟知识环境进行互动和交流，体现在知识组织上，就表现为吸收了更多的Web2.0思想，让用户参与到知识组织体系的构建中，以实现知识的发现、分享。因而在最近两年的虚拟知识环境下的知识组织研究中，大众参与知识组织是一个热点话题，它主要体现在标签标注的应用、Web2.0的软件系统的应用及在大众参与知识组织的基础上增加语义架构等方面。"
+  },
+  "4.1标签的应用": {
+    "context1": "标签是用户根据自身需要以关键词对资源进行揭示和组织的方式，它能从多角度根据用户的使用习惯对资源进行组织。标签是用户参与知识组织最为常用的方法。",
+    "context2": "标签有助于用户参与知识组织，但它是否有助于帮助用户查找信息，一直没有明确的答案。SinclairJ和Cardew-Hall M进行了一组实验来探讨标签集的作用。实验发现，在任务明确的情况下，用户更倾向于使用传统的检索界面，而在任务抽象、不具体时，用户更倾向于使用标签集的方式[18]。因而，在构建虚拟知识环境的时候，尽管标签有着重要的价值，但不能用它作为唯一的手段来为用户导航。同样，ChopinK的研究也表明，基于用户标签的检索不能比其他的网络检索方式检索、发现更多的内容[19]。",
+    "context3": "GazanR认为，社会标注和评论能作为一种交互论坛鼓励知识的合作发现和产生，同时也能减少数字图书馆服务的障碍，增强用户的参与。但数字图书馆要应用标注来实现知识的组织和交流必须注意8个方面：呈现、标注的便捷性、匿名、内容控制、收割标注内容、易检索性、网络效率、通知和分享[20]。"
+  },
+  "4.2Web 2.0思想软件的应用": {
+    "context1": "许多虚拟知识环境都应用和借鉴了大量Web2.0思想的软件来实现知识之间的关联。澳大利亚的昆士兰大学构建了一个展示研究人员和研究生成果的虚拟知识环境一一在线研究文件系统“UQResearch但虚拟知识环境搭建完成后，研究人员和研究生很少参与到项目中，而是更乐于利用MySpace和Facebook等社会网络来展示其研究成果。为此，WeaverB在2007年进行了一系列的访谈来了解UQResearch项目的不足。结果发现，同UQResearch相比，Facebook更灵活，能提供更多的参与和交互，研究者能够利用其进行实时交流。因而，虚拟知识环境在知识组织、系统功能上需要进一步完善来吸引用户参与，如增加电子邮件功能，增加定制功能，允许整合外部应用程序，支持更多格式而不是仅能使用纯文本格式，允许按照用户的喜好进行存储，经常更新数据，允许定制事件条目、易于获取目标新闻和RSS条目，能显示研究者的工作状态等[21]。",
+    "context2": "除了比较研究之外，国外研究人员还尝试采用Web 2.0思想的软件来搭建虚拟知识环境。MitchellE等考查了开源的社会软件在数字图书馆的应用，并通过社会数字福塞斯项目利用博客搭建数字图书馆的服务平台。研究结果表明，在数字图书馆中应用开源的社会软件，知识组织要注意保持系统的数据模型与数字图书馆的元数据架构的一致性[22]。华盛顿大学图书馆利用在线百科全书Wikipedia链接数字化馆藏的信息，以词条的形式进行知识资源的组织，结果发现Wiki的形式吸引了用户的大量使用[23]。"
+  },
+  "4.3语义融入大众参与的知识组织": {
+    "context1": "大众参与虚拟知识环境下的知识组织，其最新的发展是将语义融入大众参与的知识组织当中，Twine网站正是这一思想的体现。Twine是提供书签标注服务、保存网页内容以及上传文件的系统，并支持用户间对资源的分享和发现，从某种意义上，Twine是一个个人的网络资料中心[24]。",
+    "context2": "而Twine最为引人注目的功能在于能够抽取语义层，为机器处理打下基础。它通过对书签、上传文件、用户标签进行自动分析，提取人名、地名、组织名、产品名等概念以标签形式标注，来实现为所有网页包裹一个语义层。其次，Twine在标签的基础上，设立高级权重的标签，类似于组的概念，能够将多用户创建的同一主题的不同内容进行聚合。"
+  },
+  "5结语": {
+    "context1": "虚拟知识环境下的知识组织研究是一项应用性的研究，有很强的目的性。近年来的研究主要聚集在构建虚拟知识环境下的知识组织体系、改进和完善知识组织以提高虚拟环境中知识的发现和检索能力、鼓励用户参与虚拟知识环境下的知识组织等方面。同时，虚拟知识环境下的知识组织又是信息组织中发展较快的领域，它迅速地将信息组织中的新概念和新思想转化成实际应用。它吸取了不同知识组织系统的特点，集中优化使用；将等级结构与元数据相结合；十分注重知识组织体系编码和处理的机器可理解。这些特点都代表了知识组织从弱结构向强结构转变、从形式特征的描述组织向深入内容特征的描述组织转变的过程，因而虚拟知识环境的知识组织研究值得虚拟知识环境和知识组织领域相关研究人员的持续关注。"
+  },
+  "参考文献：": {
+    "context1": "[1]Wang Zhonghong,ChaudhryAM,Khoo CSG.Using Classification Schemes and Thesauri to Build an Organizational Taxonomy for Organizing Content and Aiding Navigation[J].Journal of Documentation,2008(6): 842-876.   \n[2] Rowley J, Slack F.Information Kiosks:A Taxonomy[J].Journal of Documentation,2008(6): 879-897.   \n[3] Broughton V,Slavic A.Buildinga Faceted Classification for the Humanities: Principles and Procedures [J].Journal ofDocumentation, 2008(5):727-754.   \n[4]Uddin MN,Janecek P.Faceted Classification in Web Information Architecture [J].The Electronic Library,2007(2): 219-233.   \n[5] Eerola J,Vakkari P.How a General and a Specific Thesaurus Cover Expressions in Patients'Questions and Physicians'Answers [J]. Journal of Documentation,2008(1):131-142.   \n[6] Hagedorn K,Chapman S,Newman D.Enhancing Search and Browse Using Automated Clustering of Subject Metadata [EB/OL].[2009- 05-01].http://www.dlib.org/dlib/julyo7/hagedorn/O7hagedorn.html.   \n[7] LourdiI,Papatheodorou C,Nikolaidou M.AMulti-Layer Metadata Schema forDigital Folklore Collections [J].Journal of Information Science,2007(33):197-213.   \n[8] Patra C.DigitalRepository in Ceramics:AMetadata Study[J].The Electronic Library,2008(4):561-581.   \n[9] Ferran N, Casadesus J, Krakowska M, et al.Enriching E-Learning Metadata Through DigitalLibrary Usage Analysis [J].The Electronic Library,2007 (2).148-165.   \n[10] Hao Ding,S lvberg I.Rule-Based Metadata Interoperation in Heterogeneous Digital Libraries[J].The Electronic Library,2007 (2):193-206.   \n[11]Devare M,Corson-RikertJ,Caruso B,etal.VIVO [EB/OL].[2009- 05-01].http://www.dlib.org/dlib/julyo7/devare/O7devare.html.   \n[12] Institute ofApplied Informatics and Formal Description Methods [EB/OL].[2008-12-06].http://www.aifb.uni-karlsruhe.de/english .   \n[13]YiM.Information Organization and Retrieval Using a Topic MapsBased Ontology: Results of a Task-Based Evaluation[J].Journal of the American Society forInformation Science,2008(12):1898-1911.   \n[14]Summers E,Isaac A,Redding C,et al.LCSH, SKOS and Linked Data[EB/OL].[2009-05-01]. http://webdoc.sub.gwdg.de/univerlag/ 2008/DC_proceedings.pdf.   \n[15] Zeng ML,Fan Wei. SKOS and Its Application in Transfering Traditional Thesauri into Networked Knowledge Organization",
+    "context2": "Systems[EB/OL].[2008-12-06].http://www.oclc.org/us/en/news/ events/presentations/2008/ISKO/200808-SKOS-zeng.pdf. [16] OCLC.Terminology Services [EB/OL].[2009-02-01].http://www. oclc.org/research/projects/termservices. [17]Tennis TJ,Sutton SA.Extending the Simple Knowledge Organization System for Concept Management in Vocabulary Development Applications[J].Journal of the American Society for Information Science,2008(1):25-37. [18]Sinclair J,Cardew-HallM.The Folksonomy Tag Cloud [J].Journal of Information Science,2008(1):15-29. [19] Chopin K.Finding Communities: Alternative Viewpoints Through Weblogs and Tagging [J].Journal ofDocumentation,20o8(6):552-575. [20] GazanR.Social Annotationsin DigitalLibrary Collctions[EB/OL].[2009- 02-01].htp://www.dlib.org/dlib/novemberO8/gazan/1gazan.html. [21]WeaverB.ResearcherProfiles and Porfolios[EB/OL].[2009-02-01]. http://www.dlib.org/dlib/julyo8/weaver/O7weaver.html. [22] Mitchell E,Gilbertson K.Using Open Source Social Software as Digital Library Interface [EB/OL].[2009-02-01].http://www.dlib. org/dlib/marcho8/mitchell/03mitchell.html. [23] Lally AM,Dunford CE.Using Wikipedia to Extend DigitalCollection [EB/OL].[2009-02-01].http://www.dlib.org/dlib/may07/lally/ 05lally.html. [24] Twine [EB/OL].[2008-12-06].http://www.twine.com."
+  },
+  "[作者简介]": {
+    "context1": "刘毅男，1972年生，副研究馆员，研究方向：语义网、数字图书馆技术，发表论文数篇。  \n汤怡洁女，1979年生，馆员，研究方向：语义网、数字图书馆技术，发表论文数篇。  \n杨锐男，1977年生，馆员，研究方向：语义网、数字图书馆技术，发表论文数篇。  \n刘清男，1969年生，研究员，研究方向：战略情报研究、数字图书馆技术，发表论文40多篇。",
+    "context2": "[收稿日期：2009-05-17]"
+  },
+  "(上接第104页)": {
+    "context1": "[10] Hughes JR,Jones CB.Reasoning about Programs via Operational Semantics:Requirements fora Support System [J].Automated Software Engineering,2008(7):299-312.   \n[11]Kontopoulos E,Bassiliades N,Antoniou G.Deploying Defeasible Logic Rule Bases for the Semantic Web[J].Data&Knowledge Engineering,2008(7):116-146.   \n[12] Blanco-Fernandez Y,Pazos-Arias J,Gil-Solla A,et al. Exploiting Synergies Between Semantic Reasoning and Personalization Strategies in Intelligent Recommender Systems:A Case Study [J]. Journal of Systems and Software,2008(4):2371-2385.   \n[13]Hakia[EB/OL].[2009-01-12].http://company.hakia.com/.   \n[14] Celino I,Valle E,CerizzaD,etal .Squiggle:A Semantic Search Engine forIndexing and Retrieval ofMultimedia Content[EB/OL]. [2009-01-18].http://ftp.informatik.rwth-aachen.de/Publications/ CEUR-WS/Vol-228/4.pdf.   \n[15]LeiYuangui,Uren V,MottaE.SemSearch: ASearch Engineforthe Semantic Web [J].Lecture Notes in Computer Science,2006(10): 238-245.   \n[16]BensaberD,MalkiM.Developmentof Semantic Web Services: Model Driven Approach[J].Proceedings of the 8th International Conference on New Technologies in Distributed Systems,2008(6): 23-27.   \n[17]Barmbilla M,Ceri S,Facca FM,etal.Model-Driven Design and Development of Semantic Web Service Applications [J].Acm Transactions on Internet Technology,20o8(11):23-31.   \n[18] Semantically-Enabled Heterogeneous Service Architecture and Platforms Engineering (SHAPE)[EB/OL].[2009-01-14]. http:// cordis.europa.eu/fetch?CALLER $. =$ FP7_PROJ_EN&ACTION $\\sqsubset$ D&DOC $= 4 0$ &CAT $\\underline { { \\cdot } } _ { = }$ PROJ&QUERY $Y { = } 0 1$ le66be7ffa:cb4e: 743e7237&RCN=85337.   \n[19]Dietze S,Gugliotta A,Domingue J.Towards Context-Aware Semantic Web Service Discovery Through Conceptual Situation Spaces [J]. Proceedings of the 2Oo8 International Workshop on Context Enabled Source and Service Selection,Integration and Adaptation,2008(4)."
+  }
+}

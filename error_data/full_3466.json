@@ -1,0 +1,83 @@
+{
+  "original_filename": "full_3466.md",
+  "国外图书馆领域用户画像的研究现状及后示陈慧香邵波": {
+    "context1": "【摘要】用户画像是大数据时代实现精准服务的工具之一。图书馆拥有庞大的用户群和海量的数据，利用好用户画像可以帮助图书馆员了解用户，为用户提供精准服务。文章探讨了国外图书馆领域用户画像的研究现状，从定义与组成、算法与技术、模型构建、实践应用、问题与策略等5个方面作了详细的阐述。借鉴国外图书馆领域用户画像的发展经验，文章提出国内图书馆应用用户画像的思路。"
+  },
+  "【关键词】用户画像图书馆精准服务用户需求用户偏好": {
+    "context1": "Abstract:User profileis one of the tools to realize accurate service in the era of big data The library has many users and a large amount of data.Making use of user profile can help librarians understand users and provide accurate services for users The article discusses the research status about the user profile in the library field at abroad The research status includes the definition and composition，algorithms and technologies，construction of the model，practical applications，problems and strategies Learning from the development of user profile in foreign libraries， the article proposes some ideas of the application of user profile in domestic libraries Key words: user profilelibraryprecision serviceuser requirementuser preference DOI:10.15941/j.cnki.issn1001-0424.2017.20.003",
+    "context2": "“十三五”规划纲要中确定实施国家大数据战略，数据已经上升为国家战略。随着大数据技术的发展和应用，研究者们逐渐聚焦于怎样利用好大数据实现精准服务。用户画像作为大数据时代实现精准服务的工具之一，已被广泛应用与计算机领域和电子商务领域。",
+    "context3": "大数据时代引发了图书馆的变革，大力推动了数字图书馆的发展，图书馆的服务创新形式越来越多，如Web服务、学科服务、知识发现、手机终端服务等等。同时，数字图书馆庞大的用户量也带来了多样的用户需求，图书馆现有服务与用户需求之间的矛盾也日益显现。基于此，笔者认为，可以借鉴计算机领域和电子商务领域，引入用户画像来了解用户需求，重新审视图书馆现有的服务系统，从而实现图书馆精准服务。",
+    "context4": "通过文献调研，笔者发现目前国内图书馆领域对用户画像的研究非常少，截止笔者发稿时仅有4篇文献；国外图书馆领域对用户画像的研究相对较多，且应用逐步趋向成熟。结合国内现状，借鉴用户画像在其他领域的成功应用以及国外图书馆领域用户画像的研究，本文将提出几点国内图书馆应用用户画像的思考与后示。"
+  },
+  "1相关概况及数据来源": "",
+  "1.1用户画像概述": {
+    "context1": "Alan Cooper（交互设计之父）最早提出用户画像的概念，用户画像是真实用户的虚拟代表，是建立在一系列真实数据上的目标用户模型[1]。根据用户的目标、行为和观点的差异，将用户分为不同的类型，然后从每种类型中抽取出典型特征，赋予名字、照片、一些人口统计学要素、场景等描述，即形成了一个用户画像。用户画像也称用户角色，是一种勾画目标用户、联系用户诉求与设计方向的有效工具[2]。",
+    "context2": "DavidTravis认为一个完整的用户画像需要满足7个条件，即 PERSONA，P（基本性，Primaryresearch)、E（移情性，Empathy）、R（真实性，Realistic）、S（独特性，Singular）、O（目标性，Objectives）、N（数量，Number）、A（应用性，Applicable)[3]。",
+    "context3": "用户画像最初应用于计算机和电子商务领域的产品设计、优化、精准营销、个性化服务等方面。随着大数据技术的深入研究和应用，企业的专注点日益聚焦于怎样利用大数据来为精准营销而服务，于是“用户画像”的概念应运而生。目前，用户画像在电子商务领域的应用已经较为成熟，用户画像可以帮助产品经理精准地了解和预测用户需求。大数据时代推动了图书馆服务的变革，图书馆领域亦可借鉴电子商务领域应用，引入用户画像，实现精准服务。",
+    "context4": "综上，笔者认为用户画像是建立在一系列真实数据之上的描述用户需求和偏好的目标用户模型，其目标是了解用户，猜测用户的真实需求和潜在需求，实现精准服务。真实数据包括用户背景、用户能力、用户性格、用户兴趣、用户习惯、用户行为等能够全方位、立体化地反映用户特征的数据。"
+  },
+  "1.2数据来源": {
+    "context1": "笔者于2017年5月26日利用南京大学学术资源发现系统（Find $^ +$ ，该系统整合了南京大学现有的学术资源，为用户提供统一检索入口的“一站式”检索服务），分别以“user profile”、“user portrait”、“userprofiling”、“user figure”、“Persona”为关键词进行主题检索，检索领域限定为图书馆领域，共检索出130篇文献，根据内容筛选，共有59篇文献符合主题。"
+  },
+  "2研究现状": {
+    "context1": "笔者用59篇符合主题的文献作为研究样本，通过详细阅读和分析后，发现目前国外图书馆领域对用户画像研究的主要内容可以分为以下5个方面：定义与组成、算法与技术、模型构建、实践应用、问题与策略等。"
+  },
+  "2.1定义与组成": {
+    "context1": "用户画像的定义与组成大部分是研究文献中预先阐述的内容。由于研究者的专业知识、研究方向、研究背景等的不同，对于用户画像的定义和其组成的理解也所有差别。TeixeiraC，PintoJS，MartinsJA认为用户画像是一个独立的描述用户需求、偏好和兴趣的用户模型，是从海量的系统数据中提取个人数据的信息集合[4]。Gauch S，Speretta M，Chandramouli A等将用户画像描述为一组加权关键词、语义网或概念层次结构的集合[5]。用户画像的组成部分可以包括用户基本素养、文化水平、社会背景、社交情况、工作情况、交通情况、可支配时间等因素[6]。"
+  },
+  "2.2算法与技术": {
+    "context1": "用户画像的构建、完善与应用离不开算法与技术的支持，如分类算法、过滤算法、反馈算法、加权算法等。BillsusD，PazzaniMJ认为用户画像是由用户的长期偏好和短期偏好组合而成的混合式模型，针对短期偏好可以采用最近邻分类算法，针对长期偏好可以采用朴素贝叶斯分类法[]。ZengL，ZhangY，QiuRG等学者提出用户画像已经整合和利用了许多成熟的算法与技术，如向量空间模型算法、Rocchio反馈算法、TF一IDF算法等[8]。通常，研究人员用标签的形式来描述用户画像，最常见的描述形式有标签向量和标签组，由于每个标签对用户的重要程度不同，需要对标签加权。NasraouiO，SakaE提出可以利用数据挖掘技术从Web站点的日志数据中发现用户行为模式，采用K一均值聚类算法将用户分成不同的集群，构建集群的用户画像[9]。"
+  },
+  "2.3模型构建": {
+    "context1": "通常，研究者们从3个角度理解和构建用户画像、个人用户画像和群体用户画像，明确的用户信息和隐含的用户信息、短期偏好和长期偏好。由于理解角度和构建用户画像的目的不同，研究者们提出了不同的用户画像模型和构建方法。",
+    "context2": "LafougeT，LardyJP，AbdallahNB指出信息检索系统中的用户特征信息主要包含两方面：一是与用户相关的稳定因素，如用户的个人信息和行为习惯；二是检索环境下的可变信息，如搜索目标。围绕上述两种特征信息，可以构建用户画像模型，主要包括5部分信息：USER（用户状态）、UGOAL（用户目标）、KNOW（用户对相关领域的认知）、IRS（用户对系统的熟悉程度)、BACK（用户背景)[1o]。RumplerB提出可以采用4种方式构建用户画像：一是社会学方式：通过调查或访谈的形式收集用户信息；二是人机方式：运用记忆算法和程序来挖掘用户信息；三是认知方式：主要是用户对自身、对使用系统、对特定领域的认知；四是案例推理方式：通过案例推理用户行为[11]。",
+    "context3": "AmatoG等认为用户画像的构建过程需要两个步骤：一是明确描述哪些与用户相关的信息，二是如何有效地描述上述信息。该学者也提出与用户画像相关的数据类型有个人资料、采集数据（采集的内容、形式、来源)、提交数据（提交的方式和时间）、行为数据（尤其是与隐私相关的安全数据)[12]。HenczelS将用户画像的开发分为6个阶段：一是确定需要了解用户的哪些信息；二是识别和查找现有的数据，再判断需要补充哪些数据；三是利用问卷或访谈的形式开展调查；四是分析与开发产品和服务有关的用户数据和特征，并将其应用于个人或具有共同特征的群体来生成用户画像；五是评估测试并制定方案来应对用户画像的变化；六是运用持续的反馈机制来完善和维护用户画像[13]。"
+  },
+  "2.4实践应用": {
+    "context1": "在笔者研究的文献样本中，用户画像在国外图书馆领域的应用最早出现在20世纪80年代中期，应用于英国国家书目和Blaise一line（欧洲首批在线服务之一）的服务优化。文章通过电话采访和个人访谈的形式，调查用户对英国国家书目和Blaise一line的订阅情况、使用情况、满意度、未来认购意向等，并进行了相关分析。基于该调查，英国国家书目和Blaise一line的服务结构和模式会被重新审视，使服务满足用户需求[14]。用户画像在国外图书馆领域的实践应用还有很多，典型的应用有信息推荐、信息过滤与图书馆的服务设计。"
+  },
+  "2.4.1信息推荐": {
+    "context1": "用户画像是许多个性化推荐系统常用的工具，现有的大多数的研究通常利用标签语义来改进用户画像，而忽略标签之间的关系。MaoJ等呼吁调查和利用标签之间的关系提高用户画像的准确度，以获得更好的推荐效果。文章基于扩散理论，试图减少用户冗余标签，选择密集用户标签，利用社会网络理论研究标签之间的网络关系，从而改进用户画像的标签系统[15]。$\\mathrm { K i m ~ H ~ N }$ ，HaI，LeeSH等的研究主要集中在基于文本内容过滤的个性化推荐，基于内容分析方法分析用户的信息客体，基于客体的特征构建用户偏好模型[16]。"
+  },
+  "2.4.2信息过滤": {
+    "context1": "用户利用数字图书馆在线系统进行信息检索时，经常会检索到不相关的信息。为了解决该问题，不少学者提出利用用户画像精准地了解用户需求，将不相关的信息过滤，为检索系统降噪，实现个性化搜索。",
+    "context2": "ParkW，KimW，KangS等运用注册用户的信息构建用户画像，并基于用户画像，采用协同过滤算法，开发了一个个性化的数字图书馆检索系统[17]。SemeraroG，BasileP，GemmisMD等介绍了用于数字图书馆智能过滤系统的用户画像，研究建议利用存储在机器可读词典中的知识和概念，描述用户兴趣，并提出机器学习技术与语言知识的结合有助于实现智能过滤[18]。"
+  },
+  "2.4.3服务设计": {
+    "context1": "除了常见信息推荐和信息过滤的应用，部分研究者也提出专门针对图书馆服务设计的用户画像。ZauggH认为图书馆的空间与服务的设计应该关注用户需求，可以借鉴营销领域和产品设计中用户画像的应用，进行图书馆空间与服务的设计。文章采用定性定量相结合的方法分析用户，构建用户画像，并运用迭代的方法验证用户画像[19]。CherryJM，ClintonM通过问卷调查的形式，了解多伦多大学图书馆OPAC（联机公共目录查询系统）用户的学术背景和其对OPAC的满意度，进一步分析调查结果，刻画出OPAC的用户画像，并在此基础上讨论其对OPAC用户培训和界面设计的影响[20]。Rackham S将有共同需求和使用行为的用户分类，从本科生、研究生、教师的角度构建典型群体的用户画像，注重用户画像与图书馆的发展趋势和模式的匹配，完善和发展现有图书馆服务并创新新",
+    "context2": "的服务[21] 。"
+  },
+  "2.5问题与策略": {
+    "context1": "用户画像的研究与应用正在逐步兴起，尚未进入成熟阶段，依然存在一些问题，主要有用户的隐私问题和用户偏好的演变问题。针对这些问题，研究者们也提出了相应的解决策略。HenczelS提出收集的用户数据会涉及用户隐私的问题，为避免该问题，可以从三方面入手：一是仅收集必要信息，二是尽量利用现有信息，三是确保受访用户充分了解收集信息的原因和用途[22]。不少研究者认为用户画像中的用户偏好可以由长期兴趣和短期兴趣组成。长期兴趣趋向于一种用户习惯，变化缓慢，循序渐进，而短期兴趣变化快，难以预测。因此，如何应对用户画像中经常变化和演进的标签项是模型改进的问题之一。NasraouiO，SolimanM，SakaE等提出利用好动态网站中的点击流跟踪用户画像相关数据的演变进展[23]。 $\\mathrm { K i m ~ H ~ N }$ 提出增量学习也是解决用户偏好变化的方法之一[24]。"
+  },
+  "3对国内图书馆领域研究的后示": {
+    "context1": "通过文献调研，笔者发现目前国内图书馆领域对用户画像的研究非常少，国外图书馆领域对用户画像的研究相对较多，且应用逐步趋向成熟。因此，结合国内现状，借鉴用户画像在计算机领域和电子商务领域的成功应用以及国外图书馆领域用户画像的研究，笔者提出几点对国内研究的启示。"
+  },
+  "3.1构建用户画像模型": {
+    "context1": "在国内少数几篇有关图书馆用户画像的文献中，有2篇文献介绍了数字图书馆用户画像的构建。胡媛、毛宁基于用户画像，构建了数字图书馆知识社区用户模型，运用层次分析法，评价用户画像中标签对服务能力的影响[25]。刘速以天津图书馆为例，构建了包含资源层、数据采集层、数据挖掘层的用户画像框架模型[26]。国内图书馆构建用户画像时可以适当借鉴上述模型，不过由于图书馆服务类型和用户群体的不同，在构建用户画像模型时还应该根据馆内的情况进行调整。笔者认为，图书馆在构建用户画像时，可以区分个人画像和群体画像。针对个人画像，可以提供个性化服务；针对典型群体画像，可以设计和改进图书馆服务系统。"
+  },
+  "3.2重新审视图书馆服务与应用": {
+    "context1": "目前，图书馆的服务方式和应用类型呈现种类多、功能零散的状态，甚至有些服务功能类似。以南京大学图书馆电子资源为例，图书馆为用户提供了上百个数据库，其中不乏类型和内容重复的数据库。另外，基于“互联网 $^ +$ ”，南京大学图书馆推出了多样的创新应用，Book $^ +$ 、Find $^ +$ 、Mobi $^ +$ 、Pad+、Subject $^ +$ 等，虽然服务功能不同，但用户面临如此多种类的服务时短时间内可能无法辨识出适合自己的服务。为更好地解决上述问题，服务好用户，笔者认为，图书馆管理者可以借助用户画像，构建典型群体的用户画像，如：本科生、研生、教师等（也可以进一步细分），重新审视图书馆现有服务与应用。"
+  },
+  "3.3支持数据过滤，消除冗余数据": {
+    "context1": "收集用户数据是构建用户画像的前提。图书馆拥有庞大的用户群和数据量，建立数据中心有助于用户数据的收集、整理和加工。用户的注册信息和浏览日志是常用的数据收集来源，而这些数据源中均包含与用户特征无关的冗余信息，过滤这些冗余信息十分关键。笔者认为，可以借鉴国外信息过滤系统的成功经验，建立用户画像与用户数据的映射，筛选出有效数据。"
+  },
+  "3.4重视用户需求，创新服务设计": {
+    "context1": "用户需求是图书馆服务设计的依据。用户画像可以直接和间接反映用户需求，为新服务的设计提供客观有效的决策依据。因此，图书馆服务设计人员可以深入研究用户画像，从用户需求的角度，设计图书馆服务。例如，根据典型用户行为习惯，设计图书馆的建筑、布局；根据用户普遍存在的尚未实现的需求，设计符合该需求的新服务。"
+  },
+  "3.5不断更新优化，提升用户体验": {
+    "context1": "用户画像不是一成不变的，有部分用户特征和用户兴趣会随着时间的推移演变，用户画像也需要相应更新。因此，在图书馆服务系统也需要同步优化更新，来提升用户体验。在复杂的服务系统设计中，可以将用户画像按照变化情况作进一步细分，及时感知变化，从而更好地适应用户需求。"
+  },
+  "3.6提供个性化功能，实现精准服务": {
+    "context1": "用户画像可以帮助图书馆系统实现个性化检索、个性化推荐等功能。图书馆检索系统面临的主要问题之一是用户难以获取所需的信息，为解决该问题，图书馆检索系统可以利用用户画像，实现个性化检索。个性化检索的目标是帮助用户找到需要获取的信息，即使需求表述不精确，系统也能反馈与用户相关的信息。个性化检索可以从两个目标定位：一是使图书馆检索变得更容易；二是系统能进一步预测用户需求。此外，也可以基于用户画像，利用关联规则和聚类算法等构建个性化推荐系统，实现精准推送的服务。"
+  },
+  "4结语": {
+    "context1": "在大数据环境下，精准服务是各服务行业发展的趋势，图书馆领域也不例外。笔者分析了国外图书馆领域用户画像的研究现状，借鉴计算机、电子商务领域以及国外图书馆领域用户画像的发展经验，提出几点国内图书馆应用用户画像的思考与后示。笔者认为，用户画像作为实现精准服务的描述工具之一，将其应用于图书馆领域，重新审视图书馆的服务系统，实现精准服务，是图书馆领域新的研究点。另外，本文着重与理论研究与分析，关于图书馆用户画像模型的构建，笔者将在下一个研究阶段继续探讨。"
+  },
+  "注释": "",
+  "[1曾冯，关办祝：基于做博时大数据用尸画像子稍准宫玥J」．现": {
+    "context1": "代经济信息，2016（16)：306－308.   \n[2]豆瓣[EB/OL].[2017-05-30].https：//www.douban.com/ note/310794064/.   \n[3] Travis D.E- Commerce Usability: Tools and Techniques to Perfect the On-Line Experience[M].CRC Press，2002.   \n[4]Teixeira C，Pinto J S，Martins J A.User Profiles in Organizational Environments [C]．Webist 2oo8，Proceedings of the Fourth International Conference on Web Information Systems and Technologies，Volume 2，Funchal，Madeira，Portugal, May.DBLP，2008：329－332.   \n[5]Gauch S，Speretta M，Chandramouli A，et al.User Profiles for Personalized Information Access．[C]． The Adaptive Web, Methods and Strategies of Web Personalization. DBLP，2007： 54-89.   \n[6]Guimaraes，Tatiara Paranhos Perfil de Usuarios de Biblioteca Governamental：O Caso do Ministério da Saude [J]. Perspectivas Em Ciencia Da Informacao，2007(3)：96-115.   \n[7]Billsus D,Pazzani M J.A Hybrid User Model for News Story Classification [M].UM99 User Modeling. Springer Vienna, 1999:99-108.   \n[8] Zeng L， Zhang Y，Qiu R G.Adaptive User Profiling in EnhancingRSS-BasedInformationServices[C].IEEE International Conference on Service Operations and Logistics, and Informatics IEEE，2007：1-5.   \n[9] Nasraoui O， Saka E.Web Usage Mining in Noisy and Ambiguous Environments:Exploring the Role of Concept Hierarchies，Compression，and Robust User Profiles[J].From Web to Social Web Discovering &. Deploying User &. Content Profiles，2006，4737：82-101.   \n[10]Lafouge T，Lardy JP，Abdallah N B Improving Information Retrieval by Combining User Profile and Document Segmentation [J].Information Processng &. Management An International Journal，1996（3)：305-315.   \n[11]Rumpler B.A Study of the Impact of the User Profile in Documentary Systems[J].2001 (6)：359－365.   \n[12]Amato G，Straccia U.User Profile Modeling and Applications to Digital Libraries [C]．European Conference on Research and Advanced Technology for Digital Libraries Springer- Verlag, 1999:184-197.   \n[13]Henczel S. Creating User Profiles to Improve Information Quality[J].Online，2004（3)：30－33.   \n[14]Bishop J，Lewis P R BLAISE-LINE and the British National Bibliography：Profiles of Users and Uses [J].Journal of Librarianship &Information Science，1985（2)：119-136.   \n[15]Mao J，Lu K，LiG，etal.ProfilingUsers with TagNetworks in Diffusion-Based Personalized Recommenda-tion[J]. Journal of Information Science，2016（5）.   \n[16][24]Kim HN，Ha I,Lee S H，et al. Modeling and Learning User Profiles for Personalized Content Service[C].Asian Digital Libraries Looking Back 1O Years and Forging New Frontiers, International Conference on Asian Digital Libraries，Icadl 2007, Hanoi，Vietnam，December10 13，2007, Proceedings.DBLP，2007：85-94.   \n[17]Park W，Kim W，Kang S，etalPersonalized Digital E-library Service Using Users’Profile Information [M].Research and Advanced Technology for Digital Libraries. Springer Berlin Heidelberg，2006：528-531.   \n[18]Semeraro G，Basile P，Gemmis M D，et al.User Profiles for Personalizing Digital Libraries [C]．Handbook of Research on Digital Libraries：Design，Development and Impact 2oo9：149 -158.   \n[19]Zaugg H.Using Persona Descriptions to Inform Library Space Design [M].The Future of Library Space. Emerald Group Publishing Limited，2016：335-358.   \n[20]Cherry JM，Clinton M.A Profile of User Background and User Satisfaction With the University of Toronto OPAC and the Implications for User Training and User Interfaces [C]. Proceedings of the 52nd Annual Meeting of the American Society forInformationScience Held inWashington，DCon October 1989：121-128.   \n[21] Zaugg H，Rackham S Identification and Development of Patron Personas for an Academic Library[J].2016 (2)：124-133.   \n[22]Henczel S Creating User Profiles to Improve Information Quality[J].Online，2004（3)：30-33.   \n[23]Nasraoui O，Soliman M，Saka E，et al.A Web Usage Mining Framework for Mining Evolving User Profiles in Dynamic Web Sites [J].IEEE Transactions on Knowledge and Data Engineering，2008（2)：202—215.   \n[25]胡媛，毛宁.基于用户画像的数字图书馆知识社区用户模型构 建[J].图书馆理论与实践，2017（4)：82－85.   \n[26]刘速.浅议数字图书馆知识发现系统中的用户画像——以天津 图书馆为例[J].图书馆理论与实践，2017（6)：103—106.",
+    "context2": "陈慧香南京大学信息管理学院硕士研究生。",
+    "context3": "邵波南京大学图书馆副馆长，南京大学信息管理学院教授。"
+  }
+}

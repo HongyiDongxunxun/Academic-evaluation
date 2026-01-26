@@ -1,0 +1,77 @@
+{
+  "original_filename": "full_4699.md",
+  "基于网络检索的语料库软件系统评述": {
+    "context1": "王雁苓¹，吕学实²",
+    "context2": "(1.吉林省教育学院,吉林 长春 130022;2.吉林省工商银行,吉林 长春 130021)",
+    "context3": "摘要:基于网络检索的语料库研究均开始于语料库软件系统的开发,语料库软件系统是从事语料库语言学、机器翻译、语言教学、词典编纂等研究的基础,软件系统的质量决定了语料库建设规模的大小和研究成果的优劣。大规模语料库软件系统建设的关键环节包括：文档抽取;元数据建立；词性、句法和语误标注;索引、检索和统计分析。针对上述技术环节,我们收集并编程测试了大量国外语料库开发软件包,从软件实现的理论方法、执行效率、准确率、鲁棒性、实用性、支持中文等多个方面进行分析和评述,以期对国内大规模语料库软件系统的建设提供借鉴和帮助。",
+    "context4": "关键词:语料库;网络检索;语料库软件系统;语料标注中图分类号：G254.9 文献标识码：A 文章编号:1007-7634(2014)11-147-05"
+  },
+  "Commentary of Corpus Software System Based on Network Retrieval": {
+    "context1": "WANG Yan-ling1 ,LV Xue-shi²",
+    "context2": "(1.Teaching Affairs Ofice of Jilin Provincial Institute of Education,Changchun 130022,Chind; 2.Industrial and Commercial Bank of Jilin Province, Changchun 130021,China)",
+    "context3": "Abstract: The study of corpus software system based on network retrieval was all launched out with the development of corpus software system.The corpus software system plays as the foundational stone in the building of the studies on corpus linguistics,machine translation,language teaching and lexicography. The system’s quality formulates the scale of corpus construction and the outputs of the studies as well. The construction of large-scale corpus software system, whose key links include: document extraction; Metadata set up; the part of speech,syntax and miss labeling; indexing,retrieval and statistical analysis. According to the technologies above, we analyzed and commented the corpus development package from various of aspects,like the theory method, execution efficiency,accuracy,robustness and practicability, weather support Chinese and so on, by means of a large amount of foreign corpus development package collection and programming tests.We do it for the reason that we may provide a reference ora little help for the construction of domestic large-scale corpus software system later on.",
+    "context4": "Key words: corpus;net search;corpus software system; corpus tagging"
+  },
+  "1引言": {
+    "context1": "语料库(corpora)是应用计算机技术对海量自然语言材料进行统计分析的大型资料库。一般认为语料库的发展经历了三个阶段： $\\textcircled{1}$ 手工语料库阶段 $\\textcircled{2}$ 电子语料库阶段 $\\textcircled{3}$ 基于网络检索的大规模电子语料库阶段。其应用领域也由原来的语料库语言学研究、词典编纂扩展到现在的机器翻译、语言教学等诸多领域。基于语料库的研究与应用均开始于语料库软件系统的开发。典型的语料库软件系统应包括：文档的抽取及元数据创建;自动词性/语法标注;索引、检索和统计分析等功能模块。其中最为重要的是词性、句法、语误的标注环节，软件系统提供的标注手段和准确率直接关系着语料库的建设规模大小和研究成果的优劣。",
+    "context2": "语料库软件系统应用于不同的研究领域，其功能存在一定差异。以教学为目的的语料库建设，主要作用在于观察学生的语言特征和言语失误情况，通过定量、定性的方法对语言学习者做出精确的评述；分析第二语言学习者与本族语者语言能力的差距;为教学及培训等提供依据和改进策略。"
+  },
+  "2语料库开发组件": "",
+  "2.1文档抽取及元数据创建": {
+    "context1": "收集到的语料信息一般以文件形式存储于各类文档中。文档抽取就是从Msword、MsExcel、Pow-erpoint、PDF、RTF、Html、txt等各类文档中提取纯内容信息，去掉用于描述格式、样式和图片等的信息。其目的为下一步词性、句法标注做准备。一些文档的格式开发商出于商业利益的考虑不对外公开,从各类文档中抽取纯文本内容一般采用第三方组件。业界常用的抽取组件如表1所示。",
+    "context2": "表1 文档抽取软件列表",
+    "context3": "<table><tr><td rowspan=\"2\">组件名称</td><td colspan=\"3\">最高稳 文档类型</td><td rowspan=\"2\">发布日期 开源协议</td></tr><tr><td>Msword97~2003/</td><td>定版本</td><td></td></tr><tr><td rowspan=\"3\">Apache POI[2] Apache PDF-</td><td>2007 MSEx-</td><td>3.9</td><td>2012-12-03</td><td>Apache li-</td></tr><tr><td>cel97-2003/2007</td><td></td><td></td><td>cense V2.0</td></tr><tr><td>PowerPoint</td><td></td><td>2013-11-28</td><td>Apache li-</td></tr><tr><td>Box[3]</td><td>PDF</td><td>1.8.3</td><td></td><td>cense V2.0</td></tr><tr><td>Jtidyl4] Cyber Nekd</td><td>Html</td><td>r938</td><td>2009-12-01</td><td></td></tr><tr><td>[5]</td><td>HTML Parser 所有类型文档</td><td>1.9.19</td><td>2013-10-09</td><td>Apache li- cense V2.0</td></tr><tr><td>Java swing</td><td>RTF</td><td></td><td>JDK 1.6 2008-09</td><td>GPL</td></tr><tr><td>Java I/O</td><td>TXT</td><td></td><td>JDK 1.6 2008-09</td><td>GPL</td></tr><tr><td>Apache Tika [6]</td><td>所有类型文档</td><td>1.4</td><td>2013-07</td><td>Apache li- cense V2.0</td></tr></table>",
+    "context4": "Apache POI3.5以上版本增加了对OOXML格式的支持,对office97/2003/2007均可进行解析。最新版本的POI、PDFBox可以按段落提取信息,对文档中页脚/页眉和页号等信息均有完美的处理。RTF文档的抽取采用Java swing 软件包中提供的两个类:Javax.swing.text.DefaultStyleDocument 和 Javax.swing.text.rtf.RTFEditorKit。",
+    "context5": "特别值得一提的是,Apache新近发布了Tika项目,Tika是一个开发软件包，它集成了现有的文档抽取器(如:POI、PDFBox等等),实现侦测文档类型以及从各种文档提取元数据(标题、作者等信息)和纯文本内容的功能,并以结构化的形式输出。Tika可以支持20余种文档类型的抽取，其中包括图像、音视频格式的文件。它隐藏了不同格式文件结构的复杂性，同时又为集成开发提供了简单且功能强大的机制。Tika网页提供了详细的开发及使用资料。不仅如此,Tika还提供了mimeType类一用于侦测文档类型;cpDetector类一用于侦测文档的charset编码;Languageldentifier类一用于侦测文档语种,这些也是Tika项目所贡献的实用开发工具。",
+    "context6": "在语料库系统中元数据是指语料的数据来源、作者、标题、文献等信息。元数据的创建主要还是依靠手工输入完成,Tika的元数据抽取功能可以在提高数据输入的准确率,减少文字输入量上起到一定作用。",
+    "context7": "从各类文档中抽取纯内容信息是大规模语料库软件系统不可缺少的一项基本功能。互联网的普及促使网络文档类型激增,这给语料的收集提供了极大的方便,从其中提取出纯内容信息是语料进一步处理的前提,集成于语料库软件系统的开发组件，除实现基本的纯内容信息提取功能外,还应重点关注三个方面的功能。一是兼容某一类型文档的各个版本;二是可以将页脚/页眉中的文本信息从内容文本分离开来；三是为了准确定位检索关键字在原文档中的位置，抽取软件应能够按段落抽取和获取文档页号。"
+  },
+  "2.2自动词性/语法标注": {
+    "context1": "语料库系统中常见的标注包括词性标注、句法标注、语误标注等。词性标注(Part-Of-Speech Tag-ger)就是根据句子上下文信息给每个词一个正确的词性标记,即确定每个词的词性是名词、动词或其它词性。词性标注的难点在于对兼类词(多词性词)和未登记词(在训练语料库中未出现的词)的处理。词性标注发生在系统对语料抽取得到纯内容信息之后。选取了用于词性标注的软件包，如表2所示。",
+    "context2": "表2 词性标注软件列表",
+    "context3": "<table><tr><td>组件名称</td><td>组织/个人</td><td>版本</td><td>发布 日期</td><td>开源 协议</td><td>原理</td><td>开发 语言</td></tr><tr><td>Stanford POS tagger[7]</td><td>斯坦福大学</td><td>3.2.0</td><td>2013- 06-20</td><td>GPL</td><td>对数 线性 模型</td><td>Java1. 6+</td></tr><tr><td>TreeTagger [8]/t4j[]</td><td>Helment Chmid(斯图加特 大学计算机语言 学研究所)</td><td>3.2/ 1.1.1</td><td>2012- GPL/ 07-14 LGPL</td><td></td><td>决策 树 算法</td><td>Perl java</td></tr></table>",
+    "context4": "表2中列举的开发组件均由世界知名大学科研机构或该领域的著名学者开发。在多个项目中得已实际应用,特别是Tree Tagger在国内被广泛的使用,具有很高知名度。",
+    "context5": "Stanford pos tagger是斯坦福大学自然语言处理组开发的用于标注词性的软件包,它独立于语种实现词性标注，由纯JAVA语言开发，运行在JAVA1.6以上版本，提供了面向JAVAAPI的编程接口和完整的JAVADOC类库手册，在其维克(Wiki)中还可以找到由GalalAlg撰写的编程入门教程。标注结果保存在TaggedWord类中。程序设计人员可调用该类中的方法分别获取Token和它的词性标注，方便于索引阶段的处理。Stanford Pos Tagger采用宾州树库标注集,以宾州树库中的语料数据作为标注器的训练数据，目前随下载包还可以获得英文、中文等4种语言的训练模型。",
+    "context6": "Tree Tagger由Helmut Schmid基于Perl 程序设计语言开发,采用命令行方式提供给用户使用。它除提供了对特定格式文本进行词性标注的功能外，还提供生成训练模型的软件工具,用户可以使用词典和手工标注创建新的训练模型文件。Tree Tagger采用宾州树库标注集，随下载包可以得到英文、德文、法文等7种语言的训练模型文件,遗憾的是未发现中文训练模型文件。",
+    "context7": "2012年4月理查德(Richard Eckart de Castilho)先生又发布了JAVA包裹的软件开发包一t4j(1.1.0版),tt4j向开发人员提供由JAVA API调用Tree Tag-ger的接口,从而使Tree Tagger更易于集成到应用程序中,tt4j需要和 Tree Tagger一同使用并布置成服务器架构,以获得最高的标注效率,值得一提的是，与 standford pos tagger相比较,tt4j的标注结果中,除可获取token和词性标记外，还可以获取归并词(lemma),这一功能为类符的多口径统计奠定了基础。",
+    "context8": "除外用于词性标注的软件还有SVMTool[]HunPOS[]、MBT[2]、YamCha[]等,分别使用了支持向量机、隐马尔可夫模型、隐马尔可夫模型、支持向量机等方法，在解决词性标注问题上取得了不错的效果。遗憾的是这几款软件未能提供程序开发接□，要集成到应用程序中需进行源代码分析和移植。",
+    "context9": "现阶段，基于统计的方法是句法分析的主流技术,本文选取了具有代表性的 Stanford Parser 和Berkeleyparser语法分析器,前者基于因子模型，后者基于非词汇化分析模型如表3所示。",
+    "context10": "表3Stanford Parser 和Berkeley parser语法分析器各项对比数据",
+    "context11": "<table><tr><td>组件 名称</td><td>组织/个人</td><td>版本</td><td>最后发 开源 布日期 协议</td><td></td><td>原理</td><td>开发 语言</td></tr><tr><td>Parser</td><td>Stanford 斯坦福大学自然 语言处理小组</td><td>3.2.0</td><td>2013-06 -20</td><td>GPL</td><td>因子 模型</td><td>Java 1.6+</td></tr><tr><td>parser</td><td>Berkeley伯克利大学自然 语言处理小组</td><td>1.7</td><td>2012-10</td><td>GNUGPL V2</td><td>非词汇 化分析 模型</td><td>Java 1.7</td></tr></table>",
+    "context12": "StanfordParser是由斯坦福大学自然语言处理小组开发的开源句法分析器，Java编程语言实现。它基于宾州树库作为分析器的训练数据,支持英文、中文、德文等多语种句法分析,分析器内置了分词工具,词性标注工具等辅助程序,提供了多种分析结果输出形式,如：句法分析树输出、分词和词性标注文本输出、短语结构树输出,斯坦福依存关系输出等。",
+    "context13": "Berkeleyparser是由伯克利大学开发的句法分析器。该分析器支持文本文件输入（每行一个句子）,输出文件中包含句法分析结果。同时还支持句法分析树输出（图像文件）。与Stanford Parser最大的区别在于,Berkeley parser不含分词功能,所以必须先借助外部分词工具来进行分词,再将分词结果串作为句法分析器的输人[14]。"
+  },
+  "2.3索引、检索和统计分析": {
+    "context1": "目前用于语料库索引、检索和统计分析的软件工具多达数十种,具有代表性的软件工具,如表4所示。",
+    "context2": "表4语料库索引、检索和统计分析的常用软件工具表",
+    "context3": "<table><tr><td>软件工具名称</td><td>类型</td><td>版本</td><td>界面</td></tr><tr><td>WordSmith Tools</td><td>商业软件</td><td>V6</td><td>Windows</td></tr><tr><td>Concordance</td><td>免费</td><td>V3.2</td><td>Windows</td></tr><tr><td>TACT</td><td>免费</td><td></td><td>DOS</td></tr></table>",
+    "context4": "这几款软件都实现了语料库的检索、统计功能。提供了关键字检索，正则表达式检索，支持大小写敏感,支持关键字逻辑组合等。检索结果关键字高亮、对齐,支持语境跨度显示,支持检索结果中排序或再次检索,提供词频排列表、词目表、词频分布等统计报表。特别是WordSmithTools还提供了独特而强大的\"词频对比\"功能,可以把观察",
+    "context5": "在语料库软件系统中，索引与检索的实现方案一般有两种一基于搜索引擎建立索引和基于专用语料库索引组件。",
+    "context6": "基于搜索引擎的索引方案以Lucene[5]搜索引擎使用最为广泛。Apache Lucene是一个高性能Ja-va实现的全文搜索引擎，它支持大型语料库的索引和检索。目前最高稳定版本是4.5.1(发布日期：2013-10-24)。Lucene提供了近10种检索方法，可实现语料库检索所要求的关键字检索、关键字逻辑组合检索、短语检索、正则表达式检索等功能。特别是Lucene3.0以后的版本，针对标注词的特点进行了改进。在TokenStream类中增加了token的属性功能，旨在解决标注词三元组(词、词性标记、归并词)的索引及检索问题。所不同的是,Lucene的统计功能相对薄弱，在进行分组统计(即 SQL语句的group by字句所实现的功能)时略显遗憾。著名的NLP开发框架Gate[以Lucene作为语料信息索引、检索的核心模块，2011年开始的KorAP[项目也计划以Lucene进行开发,Lucene在语料库系统中有着优异的表现。",
+    "context7": "专用语料库索引组件是指一些组织或个人针对语料库系统的特殊需求而研发的索引、检索软件。具有代表性的是英国国家语料库(BNC)[8项目中的XAIRA[索引工具。它基于XML格式文档实现语料库数据的索引和检索。其核心模块一索引器(indexer)和检索服务器(Server)由 $\\mathrm { C } + +$ 语言开发。XAIRA没有提供用于开发的API接口,在语料库集成开发项目中要利用XAIRA的索引器和检索器需要进行源代码分析和移植。XAIRA的最新版本可以在 SourceForge.net 网站下载[20]"
+  },
+  "3语料库软件系统分析与改进建议": "",
+  "3.1目前语料库建立的三个关键环节上均具有丰富软件资源。": {
+    "context1": "其中有可直接应用的软件工具包,也有进行集成开发的组件。有商业软件也有免费开源软件。运行平台涵盖Windows、DOS、Linux、unix和MOC OS等目前主流操作系统平台。从实现功能上看语料库检索工具的历史最为悠久，应用范围广泛,使用频率最高,品种丰富。这些软件大都产自英、美、德等国家，国产软件特别是用于集成开发的组件并不多见。从集成开发的角度看，能用于索引、检索及统计分析环节的开发组件较少，一些统计分析工具出于商业利益的考虑不公开技术细节。"
+  },
+  "3.2自动英语词性/语法标注技术已基本达到实用阶段": {
+    "context1": "词性/语法标注是语料库建设的关键环节，是语料库深层次分析的研究基础。由计算机自动完成词性及语法的标注直接关系着语料库的建设规模及速度。近些年,国内外的学者从基于规则的方法和基于统计的方法两条途径进行探索，特别是应用统计学的方法，使许多系统的准确率已达到或超过了 $9 6 \\% - 9 7 \\%$ ,这样的准确度基本满足实际应用的要求,取得了具有实用价值的研究成果。",
+    "context2": "语料的语义分析是一个值得进一步研究的课题。目前,语义分析技术不如词性、语法分析技术成熟,还有很多问题有待解决。"
+  },
+  "3.3检索方式有待丰富与规范": {
+    "context1": "检索是语料库最常用的功能，主要作用是查询和计算某一或某些词汇(短语)在指定语料文档中出现的位置和频次。一般语料库软件系统应提供关键字(单词或短语)检索;基于正则表达式检索等检索方式，同时支持大小写敏感;支持关键字逻辑组合；支持排除词(exclude if context contains)等功能。检索结果的展示要求被检索关键字高亮、对齐。为进一步研究检索关键字的常用词语搭配,软件系统还应提供语境跨度显示和在检索结果中排序或再次检索等功能。有必要制定规范的检索表达式和通配符使用规范。"
+  },
+  "3.4构建大型功能完善的语料库管理系统": {
+    "context1": "语料库检索工具、词性/语法标注工具、文档抽取工具在软件设计上各自独立，各功能模块接口各异，给语料库的检索统计分析带来困难,要想快速构建大规模语料库,需整合这三部分功能,基于B/S模式跨Internet部署构建功能完善的语料库管理系统。"
+  },
+  "4结语": {
+    "context1": "语料库开发的各技术环节中，文档抽取和词性标注有着丰富且实用的软件资源。索引检索及统计分析环节被发现的资源较少，元数据创建还要以及手工输入为主，系统自动创建的技术尚有待发展。将文档抽取及元数据创建、词性/语法自动标注，索引、检索及统计分析等功能集成，构建语料库管理系统,同时结合已经成熟的界面模型、工作流管理模型、自动统计报表模型等技术，研发语料库系统的通用定制开发框架(二次开发平台),从而屏蔽技术难点,提高开发效率和系统稳定性,是满足该领域各类用户需求行之有效的方案。"
+  },
+  "参考文献": {
+    "context1": "1B Shahraray,D C Gibbon.Automatic Generation ofPictorial Transcripts of Video Programs [M].USA:Mul-timedia Computing and Networking,1995:114-119.  \n2 A.Nagasaka,L. Tanaka.Automatic video indexingand full video search for object appearances[J].Visu-al Database System,1992,(6):14-17.  \n3 张继东,陈都.基于内容的视频检索技术[J].电视技术,2002,(8): 17-19.  \n4 季春.基于内容的视频检索中的关键帧提取技术[J].情报杂志,2006,(11): 116-119.  \n5明巍.基于内容的视频检索中关键帧提取算法研究[D].武汉:武汉工业学院,2010.  \n6 李晓梦.基于视频模型的镜头分割及关键帧提取算法研究[D].长春:吉林大学,2007.  \n7W Wolf.Key Frame Selection by Motion Analysis [M].NewYork:Second Annual ACM,1996:68.  \n8Joshi A,Auephanwiriyakul S,Krishnapurm R.OnFuzzy Clustering and Content Based Access to Net-worked Video Database[C]. USA:IEEE conference,Eighth International Workshop on Contnuous-MediaDatabases and Applications,1998:42-49.  \n9 谭枫.镜头边界检测及关键帧提取[D].哈尔滨:哈尔滨工程大学,2006.  \n10 李秀环.镜头边界检测及关键帧提取研究[D].长沙：湖南大学,2009.  \n11 刘仲伟,章毓晋.利用局部累加直方图进行彩色图像检索[J].中国图象图形学报,1998,3(7):533-537.  \n12 刘仲伟,章毓晋.十种基于颜色特征的图象检索算法的比较和分析[J].信号处理,2000,16(1):79-84.",
+    "context2": "(责任编辑：赵红颖)"
+  },
+  "（上接第141页）": {
+    "context1": "本文在现有方法分析的基础上，提出了最大最小差值关键帧提取算法,在大量视频片段实验的基础上,发现该方法能够比传统的方法提取更丰富、以及更具代表性的关键帧序列，从而验证了该方法的有效性。"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "original_filename": "full_4429.md",
+  "基于关联规则的高校图书馆微博关注趋势分析": {
+    "context1": "|程秀峰李重阳陈莉玥",
+    "context2": "脑要 介绍基于API和基于Python爬虫的页面解析两种不同的微博数据获取方法和流程,同时对新浪微博中的高校图书馆关注数据进行关联分析。提出微博的一次关注、二次关注以及多次关注的关联现象，对相关图书馆微博进行一次和二次关注关联规则的挖掘，发现高校图书馆微博经过不断地传递关注，最终形成其微博关注独有的特点以及基于微博关注的高校图书馆微博信息之间的传播模式。",
+    "context3": "送键词 关联规则高校图书馆微博关注",
+    "context4": "份类号]G250",
+    "context5": "DOI: 10. 13266/j. issn. 0252 -3116. 2014. 08. 012"
+  },
+  "1引言": {
+    "context1": "微博作为能够反映用户关系的新兴信息平台，逐渐走入公众视野。高校图书馆纷纷开通了官方微博，利用这一新兴社交平台为用户提供更好的服务。在传统的信息传播模式基础上，微博形成了二级至多级的信息传播模式，产生了裂变式的传播能量和海量信息。国内对图书馆微博方面的研究主要集中在应用现状、服务、使用特征及发展策略以及对国外图书馆微博建设情况的介绍分析等方面，缺少对于其关注趋势的相关研究。在关联规则的相关研究方面，大多数研究都是对关联规则挖掘算法的改进，仅有少量的研究是将关联规则应用于商品销售、医学等领域，而将关联规则应用于图书馆微博领域的还较少。虽然有学者利用关联规则对微博主题搜索策略进行研究，但是将它应用于微博关注尤其是高校图书馆微博关注趋势方面的研究甚少。因此，引入关联规则理论描述高校图书馆之间的知识传播的特点，并基于图情领域的知识传播规律，判断其发展规律或预测其理想状态下的传播速度与效果，是本文研究的主要内容。笔者采用多种数据获取技术，通过对大量微博关注数据的分析，提取出关联规则，从社区知识传播角度揭示用户使用偏好的发展趋势;同时，从知识交流的角度为高校图书馆之间的信息交流提供研究思路，希望借此提高图书馆知识推荐的服务水平。"
+  },
+  "2数据获取及数据内容": "",
+  "2.1数据获取方案": {
+    "context1": "《中国微博元年市场白皮书》显示,新浪微博在知名度、使用率、首选率、满意度、用户粘性、权威性、吸引力、月度覆盖人数、月度总访问次数、月度总浏览时间10项指标上全部位列国内第一。国内高校图书馆也几乎全部是以新浪为其微博平台。因此,笔者的数据获取也是基于新浪微博这一成熟的公共社交平台，方案如图1所示：",
+    "context2": "![](images/a67906d014f947d2565cd53ee9c1eef4ee7afa66bee0ee22c61124b4f2746a73.jpg)  \n图1图书馆微博关注数据获取方案",
+    "context3": "2.1.1基于新浪 API的数据获取新浪微博提供利用微博账号登陆的开放数据获取平台OpenAPI,可以为不同数据用户提供包括信息订阅、分享与交流的接口。开发者利用自己创建的应用，就可以通过OpenAPI来获取相关信息，获取过程大致如图2所示：",
+    "context4": "![](images/c6584a0a74cc73a262fbb52a988fa0436f72655386825100046632683ea11224.jpg)  \n图2Open API获取流程",
+    "context5": "其中用户认证是这几个步骤中较为关键的一步。新浪微博API的用户验证协议为OAUTH协议。",
+    "context6": "OAUTH认证为用户资源的授权提供一个安全、开放、简易的标准,OAUTH授权不会泄露用户的信息，这是区别于以往的授权方式的。",
+    "context7": "新浪API可以返回 $\\mathrm { x m l }$ 和 json两种格式。本文的数据挖掘的程序利用 $\\mathrm { d o m } 4 \\mathrm { j }$ . jar可以实现对xml语言的解析，但是微博用户信息中可能包含一些个性化的字符，而 $\\mathrm { d o m 4 j }$ .jar对文本的格式要求又比较严格，因此采用json返回方式具有更高的稳定性,这也是为什么笔者在图1中基于新浪API获取数据时,直接说明返回json文件。新浪开发平台的接口有很多，可以获取所需的数据。此外,新浪平台提供了一套软件开发包SDK，里面封装了数据授权和解析的功能，有支持多种不同语言的版本可以大大降低程序开发的工作量。但是新浪API也存在着诸多限制,包括针对一个IP地址的请求次数限制等，因为所有的微博服务商都不会无条件地将完整API开放给普通用户。所以笔者需要采用另外一种数据挖掘方法一—传统的网络爬虫技术来获取数据。",
+    "context8": "2.1.2基于Python 爬虫的页面解析Python利用 url-lib 模块完成与Web服务器的数据交互,re模块用来进行文本提取（与正则表达式有关），使用Cookielib模块进行Cookie管理,此外Python还有着丰富的第三方库,使得Python能够轻易支持模拟浏览器数据抓取。利用Python进行模拟的基本步骤如图3所示：",
+    "context9": "![](images/c4a079bc46d7940183f03bbf5aefe8f84a4380a09b87e5018f7976456e7b2c12.jpg)  \n图3基于Python 爬虫的页面解析",
+    "context10": "（1）抓取并解析HTML页面。目前,对于抓取页面的解析有两种常见方法： $\\textcircled{1}$ 利用Python的re模块，即基于正则表达式(一种小型的、高度专业化的编程语言）来提取相关内容。其中,re.match是从字符串的起点位置开始匹配一个模式,re.search会在字符串内查找模式匹配,re.split用于分割字符串,re.sub用于替换字符串中的匹配项,re.findall获取字符串中所有匹配的字符串,re.compile则可以把正则表达式编译成一个正则表达式对象。 $\\textcircled{2}$ Python的第三方库Beautiful$\\mathrm { { S o u p / l x m l } }$ ,这是基于Python的 $\\operatorname { h t m l } / \\operatorname { x m l }$ 解析器，可以很好地处理不规范的标记并生成剖析树。Lxml库支持标准的XPath规范，XPath是一种在 $\\mathrm { x m l }$ 文档中查找信息的语言，用于在 $\\mathrm { x m l }$ 文档中通过元素的属性进行导航,利用XPath可以方便地在 $\\operatorname { h t m l }$ 文档中定位感兴趣的节点。通过这两种方式的结合,能够灵活获取页面内容，进行结构化存储，为研究提供依据。",
+    "context11": "（2)数据存储问题。Python 中的 MySQLdb 是 Py-thon对开源数据库MySQL的支持,用于连接MySQL数据库。",
+    "context12": "总的来说,基于新浪API的微博数据获取使用方便,但有接口开放不完善、结果数量存在上限、调用频率方面存在限制等问题;虽然基于网络爬虫的页面解析技术效率较低，但可以辅助API实现数据的全面获取。"
+  },
+  "2.2数据整理": {
+    "context1": "目前我国开通微博的高校图书馆很多，众所周知，微博间的引证关系是通过“关注”和“被关注”来实现的，二者之间并不存在显著的相关关系；此外,由于高校的综合影响力 $\\mathbf { \\dot { 9 } 8 5 }$ \"和“211\"高校及普通高校)会影响图书馆微博用户的活跃度,其计算公式为： $\\textstyle \\sum n t _ { i } \\times \\sum n _ { j } f$ $t | t _ { i } \\in T , f | \\in F )$ $\\mathbf { t } =$ 用户关注度， $\\dot { \\mathbf { \\eta } } = \\mathbf { \\eta }$ 微博转发量)。",
+    "context2": "设置样本阈值的时候，并不能像传统那样以“被关注数”(即粉丝数)作为简单的选择依据,而需要综合考虑某段时间内用户活跃度和高校综合影响力这两个因素来抽取部分样本作为研究的对象。因此,笔者在每一档综合影响力中选择了活跃度排名靠前的10所高校,结合图书馆微博的“关注”情况进行统计，以保证样本分布;而利用快速更新频繁项集算法,找出高校图书馆微博关注对象之间的关联规则。所选取的高校图书馆如表1（表中“清华大学\"即指“清华大学图书馆”,以此类推)所示：",
+    "context3": "表1高校图书馆微博总体样本",
+    "context4": "<table><tr><td>“985&quot;高校 （图书馆）</td><td>事务 编号</td><td>“211&quot;高校 图书馆</td><td>事务 编号</td><td>其他 (图书馆)</td><td>事务 编号</td></tr><tr><td>清华大学</td><td>T1</td><td>武汉理工大学</td><td>T11</td><td>上海海事大学</td><td>T21</td></tr><tr><td>北京大学</td><td>T2</td><td>华中师范大学</td><td>T12</td><td>北京工商大学</td><td>T22</td></tr><tr><td>中国人民大学</td><td>T3</td><td>上海财经大学</td><td>T13</td><td>江苏大学</td><td>T23</td></tr><tr><td>复旦大学</td><td>T4</td><td>上海大学</td><td>T14</td><td>上海理工大学</td><td>T24</td></tr><tr><td>武汉大学</td><td>T5</td><td>华中农业大学</td><td>T15</td><td>北京吉利大学</td><td>T25</td></tr><tr><td>同济大学</td><td>T6</td><td>中南财经政法大学</td><td>T16</td><td>杭州师范大学</td><td>T26</td></tr><tr><td>上海交通大学</td><td>T7</td><td>北京工业大学</td><td>T17</td><td>武汉纺织大学</td><td>T27</td></tr><tr><td>华东师范大学</td><td>T8</td><td>北京邮电大学</td><td>T18</td><td>武汉科技大学</td><td>T28</td></tr><tr><td>南开大学</td><td>T9</td><td>中国传媒大学</td><td>T19</td><td>长江大学</td><td>T29</td></tr><tr><td>北京理工大学</td><td>T10</td><td>上海外国语大学</td><td>T20</td><td>上海中医药大学</td><td>T30</td></tr></table>",
+    "context5": "表2是笔者所获取高校图书馆微博关注数据的列表(截至2013年10月27日）。"
+  },
+  "3 数据分析": {
+    "context1": "如前所述,关注对象有着其自身的特点。一方面，关注事务项本身的频繁程度(可以用支持度Support、置信度Confidence和兴趣度Lift来衡量)是不同的，从事务项的频繁程度到关联程度的衡量，最后到关联规则的建立，需要引入关联算法(如Apriori先验算法)；另一方面,对于整个高校图书馆微博群体来说,它们之间又存在某些共性或者规律。前者是后者的数据基础,后者是前者的群体分析。关注度分析的第一步，需要对关注的对象进行定义。",
+    "context2": "表2高校图书馆微博关注具体指标",
+    "context3": "<table><tr><td>事务编号微博t转发f</td><td></td><td></td><td>关注对象(部分)</td></tr><tr><td>T1</td><td>359</td><td>45</td><td>CASHL开世览文、国家图书馆、北京大学图书 馆、</td></tr><tr><td>T2</td><td>24</td><td>10</td><td>CASHL开世览文、新浪微博校园小秘书、北大未名 BBS..·</td></tr><tr><td>T3</td><td>89</td><td>32</td><td>兰州大学、幸福人大、CASHL开世览文、媒体微博 助理、人大表白墙…</td></tr><tr><td>T4</td><td>60</td><td>30</td><td>同济大学图书馆、武汉大学图书馆、南京农业大学 图书馆…</td></tr><tr><td>T5</td><td>277</td><td>73</td><td>福州大学图书馆、武汉大学、北川县图书馆…</td></tr><tr><td>T11</td><td>73</td><td>85</td><td>新浪读书、迟子建、文章同学、武汉理工大学、新浪 湖北……</td></tr><tr><td>T12</td><td>78</td><td>90</td><td>武汉微闻、三石出版痴语、书香武汉、上海图书馆文 献服务、武汉图书馆…</td></tr><tr><td>T13</td><td>289</td><td>31</td><td>南开大学图书馆、初景利、网易公开课、科学网、新 浪读书…</td></tr><tr><td>T14</td><td>64</td><td>78</td><td>Android客户端、书骨精、武汉大学图书馆、上海图 书馆信使…</td></tr><tr><td>T15</td><td>106</td><td>12</td><td>武汉微吧、南方都市报、中国之声、华中农业大学学 生会…·</td></tr><tr><td>T21</td><td>148</td><td>48</td><td>知识视界、上海图书馆信使、复旦大学图书馆官方 微博、厦门大学图书馆…</td></tr><tr><td>T22</td><td>110</td><td>42</td><td>中国数字图书馆、厦门大学、首都图书馆、上海图书 馆信使、南京师范大学.….</td></tr><tr><td>T23</td><td></td><td>12437</td><td>新浪读书、图书情报工作、武汉图书馆、北京师范大 学图书馆、图书馆报…</td></tr><tr><td>T24</td><td>132</td><td>91</td><td>新浪微博、万方、CNKI知者汇、新浪读书…</td></tr><tr><td>T25</td><td>75</td><td>81</td><td>上海图书馆信使、北京吉利大学、北京吉利大学商 学院…</td></tr></table>"
+  },
+  "3.1挖掘频繁项集": {
+    "context1": "3.1.1相关定义设 $\\tilde { I } = \\left\\{ \\mathrm { { I } } _ { 1 } , \\mathrm { { I } } _ { 2 } , \\cdots , \\mathrm { { I } } _ { m } \\right\\}$ 是项的集合；设任务相关的数据 $D$ 是数据库事务的集合，其中每个事务 $T$ 是一个非空项集，使得 $T \\subseteq { \\tilde { I } }$ ；设 $A$ 是一个项集，并且有 $A \\subseteq T ;$ 关联规则是形如 $A { \\longrightarrow } B$ 的蕴含式,其中 $A$ $\\subset \\tilde { I } , B \\subset \\tilde { I } , A \\neq \\emptyset$ ， $B \\neq \\emptyset$ ,并且 $A \\cap B \\neq 0$ ；规则 $A { \\longrightarrow } B$ 在事务集 $D$ 中成立,具有支持度 $s , s = P { \\bigl ( } A \\cap B { \\bigr ) } \\ , s$ 为项集相对支持度的百分比，与此对应的绝对支持度是指项集的出现频度,即包含项集的事务数;规则 $A \\longrightarrow B$ 在事务 $D$ 中具有置信度 $c \\bullet c = P { \\big ( } B I A { \\big ) }$ ；同时满足最小支持度阈值 $\\operatorname* { m i n } - \\operatorname* { s u p } \\left( \\begin{array} { c } { m p } \\end{array} \\right)$ 和最小置信度阈值min-conf（mc）的规则成为强关联规则。如果项集1的相对支持度满足预定义的最小支持度阈值(即I的绝对支持度满足对应的最小支持度计数阈值），则 $I$ 为频繁项集。",
+    "context2": "在本文中，清华大学图书馆和北京大学图书馆微博都关注了CASHL开世览文和武汉大学图书馆，那么在某个最小支持度阈值标准下，可以认为{CASHL开世览文、武汉大学图书馆}就是它们的频繁项集。",
+    "context3": "3.1.2挖掘方法关于频繁项集的挖掘算法很多,其中最流行的是基于逐层搜索的迭代方法的Apriori算法由R.Agrawal等人提出的。Apriori算法的基本流程如下图4所示：",
+    "context4": "![](images/c10a55b2b01480689bc21720472283dc4d314ba9153a18158192e85bf5827547.jpg)  \n图4Apriori算法基本流程",
+    "context5": "事实上,Apriori算法虽然具有较好的性能,但它会产生大量候选集，又要重复扫描数据库。不同学者对频繁项集的挖掘算法提出了改进方案。"
+  },
+  "3.2研究过程": {
+    "context1": "设 $\\tilde { I }$ 为图书馆微博的关注的集合， $D$ 为满足条件的30个图书馆微博集合,将每个高校图书馆微博关注看作一个事务 $T$ ，其中 $D$ 为 $T$ 的集合，并且Tid(事务编号 $\\star 1$ 到30,并且 $T \\subseteq { \\tilde { I } }$ 。设 $A$ 是关注集合,当且仅当$A \\subseteq T$ 时，事务 $T$ 包含 $A ; B$ 是关注其他微博的集合，显然 $A \\subset \\tilde { I } , B \\subset \\tilde { I } , A \\neq \\emptyset , B \\neq \\emptyset , A \\cap B \\neq \\emptyset .$ 然后，笔者利用频繁项集对图书馆微博的一次关注进行支持度计算与置信度计算,从而发现其中的关联规则。"
+  },
+  "3.2.1 一次关注": {
+    "context1": "(1)频繁项集发现。所谓“一次关注\"即各个图书馆官方微博所关注的对象。样本集合中关注总数为3 822个，即存在3822个微博用户被这些图书馆微博所关注。但经关注度过滤发现：有很多图书馆微博关"
+  },
+  "程秀峰，李重阳，陈莉玥.基于关联规则的高校图书馆微博关注趋势分析": {
+    "context1": "限制，不仅有全国各地的微博，而且包含大量国外机构或个人微博; $\\textcircled{2}$ 关注大量个人微博，这些个人要么为大学教授、科学研究者,要么为具有较高学位（如博士)的人; $\\textcircled{3}$ 这类微博内容多与科技、教育、文化等相关，并不像普通个人微博那样多是展示自己的生活细节而已。",
+    "context2": "第五类为其他社会机构，包括政府新闻办公室、新浪相关服务机构或媒体机构等。经过分析发现，这类微博的关注也如前面4类一样: $\\textcircled{1}$ 大量关注了与自己处于同一个领域的微博,如“上海发布\"为上海政府新闻办公室,它不仅关注了将近40个同为“发布”的主体，也关注了很多其他的政府机构微博; $\\textcircled{2}$ 关注个人微博较少，关注机构团体微博较多; $\\textcircled{3}$ 所关注的微博多涉及社会生活的方方面面,包括科技、教育、文化、就业、医疗、商业、娱乐等； $\\textcircled{4}$ 微博关注具有明显的地域特征，例如“上海发布\"所关注的微博主体,有很多是位于上海的机构。"
+  },
+  "4结论": {
+    "context1": "目前关于微博关注方面的研究多是基于社会化网路分析方法(SNA)的，主要用于发现高质量社区，挖掘核心用户，同时结合一定的统计分析方法，对微博群体用户的特征进行挖掘。而关联规则是对事物和其他事物的相互依存和并联关系的一种描述,相对来说具有以下特性: $\\textcircled{1}$ 简单性,即借助挖掘算法便可以实现关联规则的挖掘； $\\textcircled{2}$ 易用性，即对于不同特征的数据，挖掘其中的规则，无需对数据作很大的预处理等; $\\textcircled{3}$ 广泛性,即关联规则应用领域十分广泛,包括商业、企业、过程控制、政府部门及科学研究等领域。",
+    "context2": "利用频繁项集研究高校图书馆官方微博的关注可以发现,高校图书馆微博相对于个人、机构性质的微博,具有较高的支持度。具体来说,高校图书馆比较倾向于关注其他图书馆或图书馆某职能部门，其次是该高校院系或机构团体，然后是个人、社会学术机构或其他机构。根据关联规则分析发现,如果一个高校图书馆微博关注了某一个其他微博,它就会有很大的可能关注大量同类型的微博，这样经过不断地传递关注，最终形成了高校图书馆微博关注独有的特点以及基于微博关注的高校图书馆微博信息之间的传播模式。利用统计分析方法分析其二次关注可以发现，每一类关注又都有各自的特点。可以说高校图书馆正是通过关注与自己同性质的机构或有影响力的学术机构或个人来进行信息的传播和交流,对用户信息推荐活动进行规范和优化。"
+  },
+  "参考文献：": {
+    "context1": "[]郑娟，祝宁．基于信息传播模式的微博信息挖掘与应用[．新闻世界， $2 0 1 1 ( 5 ) : 9 1 - 9 2 .$ ]新浪发布.中国微博元年市场白皮书 [EB/OL]．[2013-12-  \n26] .http://ishare.iask.sina.com.cn/f/14220084.html.β]廉捷,周欣,曹伟,等.新浪微博数据挖掘方案[].清华大学学报(自然科学版) $, 2 0 1 1 , 5 1 { \\big ( } 1 0 { \\big ) } : 1 3 0 0 - 1 3 0 5 .$ 齐鹏,李隐峰,宋玉伟．基于Python 的 $\\mathrm { W e b }$ 数据采集技术[．电子科技 $, 2 0 1 2 , 2 5 { \\left( \\ 1 1 \\right) } : \\ 1 1 8 \\ - 1 2 0 .$   \n⑤] 唐琼，袁媛，刘钊.我国高校图书馆微博服务现状调查研究以新浪认证用户为例[.大学图书馆学报,2013(3):97－103.]朱玉全，孙志挥．快速更新频繁项集[.计算机研究与发展，  \n2003,40(1) :94 -99.Agrawal R,Mannila H, Srikant R,et al.Fast discovery of associa-tion rules [.Advances in Knowledge Discovery and Data Mining,  \n1996,12(1) :307 -328."
+  },
+  "颜跃进，李舟军，陈火旺．频繁项集挖掘算法[．计算机科学,2004,31(3) :112 -114.": {
+    "context1": "Wasito I, Sadikin M,Handhayani T. Predictive genotype based on phenotype using the association rules mining [Cl //Advanced Computer Science and Information Systems （ICACSIS)．2013 International Conference on．IEEE,2013:185-188."
+  },
+  "An Analysis on the Trend of Weibo Follow’Patterns of University Libraries Based on Association Rules": {
+    "context1": "Cheng Xiufeng Li Chongyang Chen Liyue",
+    "context2": "School of Information Management and Information System，Central China Normal University，Wuhan 430079",
+    "context3": "[Abstract] This paper introduces two diferent processs of Weibo data acquisition: the API based acquisition and Python basedacquisition.Theasociationrulesare implemented toanalyze the Weibo's‘follow’dataofcertain universitylibraries.It also proposes levels of thefolow’hierarchy in Weibo.Then weuse associationrulestodescribe‘1st level’and‘2nd level’followregulations．We discoveredan ultimatepatternorcharacteristicof Weibo’s transmision is formed through constantly pasing‘follw’toone another.University librariescan use methods presented in this paper to make prospective survey on their Weibo development.",
+    "context4": "[Keywords] association rulesuniversity libraryWeibofollow"
+  }
+}

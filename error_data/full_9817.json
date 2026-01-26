@@ -1,0 +1,184 @@
+{
+  "original_filename": "full_9817.md",
+  "近十年国内外图书馆资源发现系统研究与实践进展述评": "",
+  "■李慧芳孟祥保": {
+    "context1": "东南大学图书馆 南京211189",
+    "context2": "摘 要：旧的/意义]回顾和梳理图书馆资源发现系统的发展历程及研究进展，促进资源发现系统与图书馆业务发展深度融合与创新。方法/过程通过检索中国知网数据库、Web of Science、Emerald、Elsevier、Taylor & Francis SSH等数据库，运用内容分析和案例研究方法，总结图书馆资源发现系统理论研究、选型研究、部署实施、宣传推广、成效评价以及影响研究。结果/结论研究发现：资源发现系统在图书馆得到了快速应用，资源发现系统研究具有明显的周期性和阶段性，国内外资源发现系统发展演进具有差异性，研究内容以实践工作为主而理论深度不足，研究方法以案例研究、问卷调查方法为主，定量研究方法偏少。提出图书馆资源发现系统研究应与图书馆服务深度融合，拓展研究范围和加强研究深度，加强资源发现系统用户画像研究。",
+    "context3": "关键词：资源发现系统发现服务知识发现技术扩散大学图书馆",
+    "context4": "分类号：G250.7",
+    "context5": "DOI: 10.13266/j. issn. 0252 -3116.2020.06.014"
+  },
+  "1引言": {
+    "context1": "在数字环境下，丰富的数字学术资源已逐渐成为高校图书馆的主导性学术资源。但是，海量的数字资源在结构、分布和访问方式等方面的较大差异，给用户检索与使用带来了极大不便。最初图书馆界提出了联邦检索的解决方案，联邦检索可以用来同时搜索多个数据库，返回一个检索结果集。然而，由于联邦检索系统是基于应用层的信息整合技术，其受到不同资源对象数据接口差异的限制，难以实现内容异构或孤立的资源深度揭示和整合。随着Google Scholar的快速发展,图书馆也急需一个在检索范围和检索速度上与之相媲美的新系统。在此情境下，资源发现系统应运而生:2009年7月,Serials Solutions 推出 Summon,随后,ExLibris 推出 Primo,EBSCO 推出 EBSCO DiscoveryService（EDS）。国内自2012年开始,也在努力开发中文资源发现系统，比较具有代表性的是北京超星公司于2012年推出的超星中文资源发现系统。经过近十年的发展，资源发现系统在高校图书馆得到了广泛的应用，逐渐成为高校用户发现获取图书馆信息资源的主要途径。因此，回顾近十年图书馆资源发现系统的实践与研究，总结其影响及经验，对于资源发现系统更好应用乃至技术发展具有较高的价值。"
+  },
+  "2 研究方法与数据": "",
+  "2.1研究方法": {
+    "context1": "本文主要采用定性方法对图书情报领域的图书馆资源发现系统研究与实践进展进行系统梳理与归纳。具体而言，首先，系统检索与筛选国内外近十年(2010-2019年)资源发现系统相关的期刊论文、学位论文、调查报告和案例资料等;其次,通过内容分析,逐一阅读所收集的资料,反复比较分析资料，归纳研究主题,形成研究框架,力求全面、准确地揭示本领域的研究概况;然后，通过文献细致分析各个主题内容,并在叙述过程中用案例实施加以佐证;最后，通过归纳分析和理论思辨，对研究特征进行总结,揭示研究基本走向，并提出建议，力求指明未来研究走向和实践工作重点。"
+  },
+  "2.2数据来源": {
+    "context1": "本文检索来源数据库包括Web of Science平台的SCI-E、SSCI文摘数据库,Emerald、Elsevier、Taylor&Francis SSH、EBSCO、Wiley 等外文期刊数据库,Pro-Quest学位论文数据库，以及中国知网、万方数据库和维普数据库,外文检索词设定为“Web-scale Discovery",
+    "context2": "Services”‘Summon”‘Primo”“EDS”。中文检索词设定为“资源整合系统”“资源发现系统”。检索时间范围为2010年1月至2019年5月。通过对检索结果进行查重、补充、逐篇筛选，共得到国外文献226篇、国内文献195篇,具体见图1。此外,本文还利用百度学术、谷歌学术检索国内外网络文献。",
+    "context3": "![](images/dbdea1b31a72c7dc58ddcbd71f2a1f3512845a032ab0225d1e7e1b50754802fe.jpg)  \n图1资源发现系统相关文献"
+  },
+  "3 研究结果与分析": "",
+  "3.1资源发现系统概念内涵": {
+    "context1": "2005年,在Google Scholar发布后,M．Breeding第一个提出了资源发现系统的模型，认为联邦检索系统的分散式搜索不能和Google Scholar的集中式搜索相抗衡,提出开发“集中搜索模型”，该模型首先要收集大量广泛的数据,并将其处理为索引，以便为搜索者的查询提供即时结果。2007 年,C．J．Belliston、J．L.Howland等调查发现相较于传统的单个数据库检索，本科生更倾向于使用联邦检索系统，因为联邦检索能节省时间，且返回的结果也基本能满足需求。基于此，他们期望元搜索技术能得到有效改进和运用，以解决联邦检索系统存在的问题。",
+    "context2": "2009年，随着资源发现系统的正式推出，对资源发现系统的定义有如下几种:K.Durante、Z.Wang和E．D.Cassidy将发现系统描述为:具有Google检索体验的图书馆资源最新检索方式。殷红与刘炜认为资源发现服务是一种“大数据”规模的元数据库的搜索服务。L.M.Rose-Wiles、M.A.Hofmann 描述了发现服务系统的特点：将图书馆从各出版商和数据库供应商处订购的电子资源及图书馆的OPAC、机构知识库以及其他的资源,以统一的元数据集中索引,可瞬间返回检索结果。聂华、朱玲认为资源发现服务是对各种异构资源的元数据和部分对象数据通过一系列的预处理,形成格式统一的元数据索引，最终通过搜索引擎向用户提供统一的检索和服务。R．Rowe和F.W.Chickering、S.Q.Yangd认为资源发现系统具有单一检索框、相关性排序和分面等功能。2015年,M.Breeding对资源发现系统的特征进行了全面的概述：终端用户界面为单一检索框,提供简单和高级检索功能、集中索引馆藏资源、具有分面功能、可以实现文摘到全文的链接、能够和图书馆ILS系统交互,如显示图书流通状态等[。虽然不同的文献对发现系统的特点描述不尽相同，但在其主要特征上却有着广泛的一致性：具有单一检索框、集中索引、相关性排序、具有分面功能、响应速度快、简单、易用、可以与图书馆其他系统兼容，将图书馆的数据与服务集于一体。"
+  },
+  "3.2资源发现系统发展动因": "",
+  "3.2.1 用户行为": {
+    "context1": "OCLC研究发现,越来越多的用户在查找资源时，首选并不是图书馆网站，而是谷歌或谷歌学术等搜索平台。尽管用户觉得图书馆的资源更权威、更详细,但是检索过程和结果整理比较麻烦,图书馆信息资源碎片化管理极大降低了其可用性[。而资源发现系统可以模拟网络搜索环境，满足用户对图书馆信息完整发现和即时获取的期望[14 。"
+  },
+  "3.2.2资源整合": {
+    "context1": "资源发现系统将期刊和书籍的全文与引文数据、商业数据和机构数据结合在一起,实现的是对图书馆全部资源的覆盖，不同于联邦检索系统对异构、分布式数据库的实时查询方式,资源发现系统是统一规范化的海量元数据预索引仓储，对资源能够进行深度揭示和融合，相较于联邦检索，其在检索范围、效率、结果质量等方面都有了很大的提高[。发现系统克服了联邦检索技术所带来的限制，真正实现图书馆资源的一框式检索。"
+  },
+  "3.2.3发现服务": {
+    "context1": "资源发现系统作为一种整合了馆员专业知识、图书馆学术资源的特定服务平台[，是资源揭示、查寻信息的发现平台,是知识发现服务的重要形态,例如南京中医药大学图书馆以文献资源发现为基础、面向学科开展的知识发现服务。发现系统是图书馆提高资源利用率、延伸服务的重要途径[ 。"
+  },
+  "3.3资源发现系统选型研究": "",
+  "3.3.1 选型指标": {
+    "context1": "选型研究是在系统性能研究的基础上，结合实际需求，探讨选型时主要考察指标。早期的研究大多侧重于产品特性和功能的比较方面,例如:R．Rowe根据内容、用户界面、价格和合同选项等标准，对资源发现系统进行比较分析。S.Q.Yang和K．Wagner根据用户界面特性比较了商业和开源发现工具，其中包括搜索选项、分面导航、结果排名和Web2.0特性[。秦鸿等从元数据、架构与功能、检索与界面、商务因素共4个方面对 Summon、EDS、Primo3种流行的发现服务系统进行了比较研究。许多研究人员提供了资源发现系统选型的关键指标来帮助图书馆选型工作的开展。A．Hoeppner提出了一系列关键因素,如索引的广度和深度、搜索和分面选项、定制功能以及对检索结果的保存、组织和导出；A．Hoseth提出最终用户特性、图书馆目标、成本、供应商支持以及技术的兼容性等为主要考察指标。刘万国等除将收录资源范围和系统架构列为考察指标外，还指出数据来源以及用户群也是发现系统考察的重要指标。J．Deodato指出选型的过程应该是包容的、面向目标的、数据驱动的、以用户为中心的和透明的。"
+  },
+  "3.3.2选型案例": {
+    "context1": "随着资源发现系统应用的普及，越来越多的图书馆开展了发现系统选择和评估工作。表1列出了国内外图书馆资源发现系统选型的典型案例。评估和选型工作一般具有以下4个要素：评估对象、评估主体、评估指标和评估时间。",
+    "context2": "资源发现系统的选型是一项全面而周密的系统评估工程，需要投入大量的时间和人员。选型指标体系的建立是这项工程中的核心工作,总结国内外相关研究和案例,表2列出了资源发现系统选型的主要考察指标。通过选型指标明确各系统的优缺点，结合本馆的实际情况和需求，选择最适合的资源发现系统。"
+  },
+  "3.4资源发现系统部署实施": "",
+  "3.4.1资源发现系统部署实施案例": {
+    "context1": "不同的资源发现系统架构不同，在部署实施时采取的策略也是不同的。Summon和EDS系统架构采用云部署，不需要本地安装，实施时对本地技术要求相对较低,而Primo的架构则是云部署和本地安装相结合的方式,需要相应的硬件设备和人力维护。不论哪种架构方式，资源发现系统的实施都需要图书馆不同部门相互分工协作完成。表3列出了国内外图书馆资源发现系统实施代表案例。",
+    "context2": "从调研案例来看，国内外图书馆主要选择 Sum-mon,Primo和EDS三个代表性发现系统,一方面是由于三种系统的优良可靠性能和售后服务以及与图书馆业务系统的兼容性等因素。另一方面也不排除是图书馆之间相互交流与学习的结果。"
+  },
+  "3.4.2实施内容": {
+    "context1": "总结表3中的资源发现系统实施经验，其工作可归纳为以下几个方面： $\\textcircled{1}$ 数据配置：主要指商业电子资源的订阅和配置以及本地资源的映射与同步; $\\textcircled{2}$ 搜索功能：优化搜索和检索选项,提升检索精度、速度以及相关性排序等; $\\textcircled{3}$ 界面设计：根据用户的需求对资源发现系统的界面进行个性化定制; $\\textcircled{4}$ 增强服务能力：与图书馆本地系统进行整合; $\\textcircled{5}$ 测试和评估：总结问题，对以上各工作进一步优化; $\\textcircled{6}$ 宣传推广。"
+  },
+  "3.5资源发现系统宣传推广": {
+    "context1": "后期的宣传推广是提升系统应用量与影响力的必不可少的环节。德克萨斯大学圣安东尼奥图书馆为资源发现系统Summon移动访问的推广开发了简短视频。北京大学图书馆分享了“未名学术搜索\"的推广方式。资源发现系统的推广主要有以下几种方式： $\\textcircled{1}$ 采用多种宣传形式,如制作读者手册、宣传海报，拍摄视频、微电影等; $\\textcircled{2}$ 将资源发现系统作为图书馆常规培训内容之一，并制作微课,方便读者随时学习;$\\textcircled{3}$ 开展相关活动，吸引读者广泛参与,如北京大学图书李慧芳，孟祥保.近十年国内外图书馆资源发现系统研究与实践进展述评』.图书情报工作,2020,64(6)：120-129.",
+    "context2": "表1图书馆资源发现系统选型案例",
+    "context3": "<table><tr><td>时间</td><td>图书馆</td><td>组成人员</td><td>考察指标</td></tr><tr><td>2009年</td><td>美国戴维森学院立 特图书馆[</td><td rowspan=\"3\">成立发现系统小组，由图书馆管理 委员会组织和领导</td><td>评估指标:内容、检索和界面、历史和保存、系统交互、个性化功能、信息技术、商业信息 等，对Summon、Primo、Encore三个系统进行测试评估</td></tr><tr><td>2011年</td><td>瑞士洛桑联邦理工 学院图书馆2</td><td>从内容与相关性、检索功能、检索结果、用户账户、管理功能、专业检索6个方面对 EDS、 Summon、Primo、Worldcat4个系统进行测试对比</td></tr><tr><td></td><td>2011年赖德大学图书 馆[</td><td>评估指标主要包括：系统界面、内容、分面导航、简单检索、高级检索、相关性排序、链接 功能、拼写检查、RSS功能、系统兼容性、移动访问功能等。依据以上指标,对14个系统 进行测试评估</td></tr><tr><td></td><td>2011年北京大学图书馆</td><td></td><td>以项目实施经验为依据，总结选型要点为：系统架构和功能、元数据规模与质量、商业电 子资源、本地馆藏与数字特藏以及中文化与本地支持,依据以上指标,先后对EDS、Sum- mon、Primo三个系统进行测试对比</td></tr><tr><td></td><td>2012年新加坡管理大学李 嘉诚图书馆1</td><td>成立资源发现系统评估选型和实 施项目团队，成员包括数据馆员、 信息服务馆员、系统馆员等</td><td>通过文献调研并结合其他已经实施资源发现系统图书馆的反馈信息，该团队制定了资 源发现系统的评估指标,并根据重要度对指标赋予不同的权重。团队成员依据评估指 标对EDS、Summon、Primo三个系统分别进行测试、评分,得分最高的系统即被采用</td></tr><tr><td></td><td>2012年武汉大学图书 馆28</td><td>成立资源发现系统评估小组,成员 来自于咨询部、技术部和资源组织 部</td><td>对 EDS、Summon、Primo、超星4家系统进行功能、内容、设计、技术等多方面的测试。设 置&quot;数据资源“检索功能“系统架构与定制功能”“系统开放性&quot;4个一级指标。一级 指标下含有25个二级指标、47个三级指标</td></tr><tr><td></td><td>2013年山东大学图书 馆g</td><td>成立资源整合评估项目组，成员来 自于参考咨询部门和技术部门</td><td>考察指标主要包括：资源类型、检索功能、检索结果、全文链接解析服务及文献获取性、 兼容性及扩展性、技术框架、支持的标准格式。依据以上指标,对 EDS、Summon、Primo 三个系统分别进行测试对比</td></tr><tr><td></td><td>2013年上海图书馆3</td><td>成立跨部门工作小组，成员来自于 系统网络中心、文献提供中心、读 者服务中心、咨询研究和采编中心</td><td>评估指标主要包括：系统架构、元数据质量和覆盖率、系统性能、服务能力等。依据以上 指标,对EDS、Summon、Primo三个系统分别进行测试对比</td></tr><tr><td></td><td>2013年南京航空航天大学 图书馆B1</td><td></td><td>从元数据、架构与功能、检索与界面以及其他因素等方面对 Summon、Primo、Find+这 三大发现系统进行调研、测试，评估</td></tr><tr><td>2013年</td><td>复旦大学图书 馆</td><td>成立资源发现系统工作组,技术分 管馆长为工作组的负责人，成员来 自系统部、采访编目部和参考咨询 部等</td><td>从检索功能和用户界面、读者评估、元数据评估、资源整合产品功能、后续系统可扩展性 与可维护性五大方面对Primo、Summon、EDS三家资源发现系统产品进行了综合评估</td></tr></table>",
+    "context4": "表2图书馆资源发现系统选型主要考察指标",
+    "context5": "<table><tr><td>主要指标</td><td>详细内容</td></tr><tr><td>元数据规模和质量</td><td>元数据规模：元数据总量、资源类型、高水平学术资源的覆盖率、本馆资源的覆盖率、OA与免费资源的收录情况以及更新频率 元数据规范：数据处理的规范性，统一格式“去重&quot;效果</td></tr><tr><td rowspan=\"3\">界面与检索功能</td><td>元数据质量：数据来源渠道、元数据包含的字段、信息“厚“薄&quot;程度</td></tr><tr><td>界面设置开放性、简洁易用性、友好性</td></tr><tr><td>简单检索、高级检索、检索响应速度、分面功能、相关性排序、全文检索、语义联想功能、检索词推荐功能</td></tr><tr><td>资源获取功能</td><td>全文链接解析服务与资源获取稳定性和可靠性、资源保存和输出功能、RSS定制功能</td></tr><tr><td>系统功能架构</td><td>部署方式、模块与子系统、与OPAC的整合、本地数据上载方式、资源导航、移动访问、个性化服务、与图书馆其他系统的兼容开 放性、二次开发能力、支持的标准格式</td></tr><tr><td>图书馆个性化需求</td><td>本地馆藏、特藏、机构知识库、资源整合目标、本地用户特征和需求</td></tr><tr><td>商务因素</td><td>性价比、本地支持、后期服务等</td></tr></table>",
+    "context6": "表3国内外图书馆资源发现系统实施代表案例",
+    "context7": "<table><tr><td>时间</td><td>图书馆名称</td><td>发现系统名称</td></tr><tr><td>2010年</td><td>哈德斯菲尔德大学</td><td>Summon</td></tr><tr><td>2011年</td><td>富兰克林学院[4</td><td>Primo</td></tr><tr><td>2011年</td><td>东密歇根大学图书馆[</td><td>Summon</td></tr><tr><td>2011年</td><td>北京大学图书馆</td><td>Summon</td></tr><tr><td>2011年</td><td>清华大学图书馆[3</td><td>Primo</td></tr><tr><td>2012年</td><td>北卡罗来纳州皮埃蒙特自动化图书馆[38</td><td>Primo</td></tr><tr><td>2012年</td><td>谷堡州立大学图书馆[3g</td><td>Summon</td></tr><tr><td>2012年</td><td>上海交通大学图书馆[4</td><td>Primo</td></tr><tr><td>2013年</td><td>马里兰大学健康科学与人类服务图书馆[41</td><td>EDS</td></tr><tr><td>2013年</td><td>东卡罗来纳大学图书馆[43]</td><td>Summon</td></tr></table>",
+    "context8": "馆开展的有奖问卷调查、搜索达人大赛; $\\textcircled{4}$ 提升用户体验,优化系统功能，获取教授等高级用户的认可，则可有效提升资源发现系统的使用量； $\\textcircled{5}$ 提供使用帮助,通过邮件、虚拟参考咨询、BBS等多种途径收集读者的使用反馈,解答用户使用中遇到的各种问题。"
+  },
+  "3.6资源发现系统成效评价": {
+    "context1": "资源发现系统实施之后，需要对其性能、使用效能、影响等方面做出评估。从评价视角来说,主要有3"
+  },
+  "种模式：": "",
+  "3.6.1基于使用数据的评价": {
+    "context1": "使用数据来源有： $\\textcircled{1}$ 资源发现系统使用数据，对系统日志数据挖掘分析对资源发现系统的部署、应用和优化都具有积极的参考价值。 $\\textcircled{2}$ 来自 Google Ana-lytics的使用数据,通过在资源发现系统页面建立和部署GA跟踪代码,跟踪并记录用户的使用行为，国内外的研究者开始利用GoogleAnalytics统计用户的详细使用数据[47-48。对用户行为的研究为图书馆资源整合和发现服务优化提供参考。"
+  },
+  "3.6.2基于馆藏使用量的评价": {
+    "context1": "国内外对馆藏使用量的研究主要是围绕数字资源使用量的变化开展的，大量的研究表明，资源发现系统实施后对每个学校以及每个数据库的影响是不确定的。D．Way通过使用统计数据研究了Summon对图书馆资源的影响,研究结果和预期基本一致，文摘和索引库的使用量明显下降,全文数据库的使用量急剧上升。Z.Evelhoch 发现实施了发现服务系统后,该馆数据库和电子期刊的使用量均明显下降[4。P．P.Yeo研究发现，实施了资源发现系统后，电子期刊和电子图书的使用量整体上是上升的,但单独分析发现,有的数据库上升明显,也有的不仅没有上升，反而下降。而北京师范大学图书馆研究发现,实施资源发现系统后,对数据库资源的使用量没有显著影响。对纸本期刊和图书的使用量变化鲜有涉及,L.O'Hara虽然发现纸本资源使用量在实施了资源发现系统后出现了下降,但作者对下降的原因却并不十分确定和资源发现系统有关。"
+  },
+  "3.6.3基于用户体验的评价": "",
+  "主要体现在以下3个方面：": {
+    "context1": "（1）可用性评价方面。可用性评价是根据用户的使用感知、评分和测试任务完成情况得出资源发现系统可用性评价结论。整体上用户普遍对资源发现系统持积极的态度，对系统的可用性和质量都给予高度评价。但在具体的使用过程中,还是存在各种主客观因素影响了用户使用体验。主要有： $\\textcircled{1}$ 图书馆专有名词理解障碍。如期刊、文章、杂志、连载、HTML全文、PDF全文等是用户理解资源发现服务的障碍，学生对这些术语是非常模糊的。 $\\textcircled{2}$ 分面功能使用障碍。用户在选择和应用分面功能来优化搜索时常常感到困惑，无法确定哪些分面和精炼功能可以改进他们的搜索结果。 $\\textcircled{3}$ 全文获取路径障碍。用户对链接解析器的使用和理解存在一定的困惑54-d 。",
+    "context2": "(2)用户满意度方面。用户群体的差异造成用户对资源发现系统功能需求的差异5。英国伯明翰大学实施资源发现系统一年后的大规模在线调查结果表明,发现系统整体评分 $7 1 . 1 3 \\%$ 为“好”或“非常好”,其中本科生对服务最满意,而教职工最不满意。比较意外的是，图书馆员作为资源发现系统的实施人员，却也是资源发现系统最严厉的批评者，研究表明，图书馆员认为资源发现系统不能满足他们的个人研究需求，更倾向于使用特定主题的数据库。相较于研究生和研究人员，资源发现系统更适用于本科生和一般研究人员[0-61]",
+    "context3": "（3)相关性判断方面。B．Lee和E．K.Chung从用户的角度对 EDS 和 ERIC、ERC、LISA 和LISTA4个数据库检索结果的相关性进行了比较，发现EDS的排序结果与参与者的相关性排序判断之间存在较大的差距。在资源发现系统海量的结果中准确地识别出符合用户专业需求的搜索结果是一项非常具有挑战性的工作,这要求资源发现系统进一步优化资源索引方案，改进搜索结果的相关性排序。"
+  },
+  "3.7资源发现系统影响研究": {
+    "context1": "资源发现系统对用户服务、资源建设、馆员发展、学术出版等方面产生了较大的影响。分析这些影响，有助于较为全面地评估资源发现系统的价值，以便准确、及时改进与提高，也有助于以资源发现系统为基础延伸图书馆服务、拓展服务深度、创新服务方式。"
+  },
+  "3.7.1对图书馆用户的影响": {
+    "context1": "资源发现系统是一种主动发现，用户根据自己的检索意图，可以最大化发现并挖掘资源仓储，资源发现系统为用户提供了更广泛的选择空间，极大地扩展了用户视野。同时,资源发现系统极大地降低了对用户信息获取能力的要求,这为用户尤其是新用户提供了便利。‘简单、直观、快速、结果庞大\"是用户对资源发现系统的普遍反馈，但庞大的检索结果集要求用户具备更高的资源评价与选择能力。文献选择过程中的批判性思维方式是用户使用最大的障碍。同时,资源发现系统为用户的个性化服务提供了客观依据,资源发现系统的行为日志数据客观反映了用户真实意图与需求，是图书馆个性化服务的依据和集成。"
+  },
+  "3.7.2对信息素养教育的影响": {
+    "context1": "资源发现系统从根本上改变了用户的学术搜索方式。这种改变迫使教师重新思考教授学生寻找信息的方式。发现系统让图书馆的检索变得越来越容易，信息素养的重点应转换为培养学生用批判性思维来评估资源。香港浸会大学在实施Summon后，图书馆员改变了教学目标,将教学重点从对资源的介绍和操作步骤方面转移到了对信息的探索、评估和使用上：如信息的产生过程、信息的类型、如何评估信息的质量和相关性等。对资源发现系统用户使用行为数据的挖掘和分析，有利于改进信息素养教学策略。"
+  },
+  "3.7.3对文献资源建设的影响": {
+    "context1": "美国宾州州立大学图书馆在Summon实施两年后，本科生馆际互借申请量下降了 $57 \\%$ ，四年后全校馆际互借需求量下降了 $22 \\%$ ,从而使得馆员腾出资源去拓展新服务。此外,相关研究表明,资源发现系统实施后,图书馆电子资源使用量,尤其是电子期刊使用量急剧增长,但是纸本馆藏流通量却急剧下降。这些数据对馆藏政策调整、资源整合具有积极的参考价值。"
+  },
+  "3.7.4对馆员发展的影响": {
+    "context1": "图书馆资源发现系统对馆员开展信息素养教学所产生的影响尚不清楚,图书馆员之间尚存在分歧，一些馆员支持资源发现系统，尽管它的检索结果还不完美，但简单易用;另一些馆员则担心资源发现系统会降低用户信息素养能力，他们认为应更加重视培养学生的搜索策略和研究技能。同时,调查发现,很少有机构要求馆员将发现系统作为他们教学内容的一部分 。"
+  },
+  "3.7.5对学术出版的影响": {
+    "context1": "哈德斯菲尔德大学的使用数据表明，只要出版商向资源发现系统提供高质量的内容索引，那么即使是中小型的公司，也能有效地提高其内容显示度，资源发现系统为文章发现提供了公平的竞争机会，能够有效平衡学术资源内容提供商之间的竞争。但数据在出版商和发现服务提供商之间传递过程中，因多种因素，可能会造成一些差异,这要求学术出版商和发现服务系统提供商以及图书馆加强合作，最大程度地消除差异，提升索引内容质量。"
+  },
+  "4 研究结论与建议": {
+    "context1": "综合上述,本文从“理论——实践—影响\"3个维度梳理图书馆资源发现系统研究与实践进展，综合上述研究内容,本文提出一个整合的研究框架,具体如图2所示：",
+    "context2": "![](images/036432adf419e1e45b780c2a9485853a24d12cc0aaf82245f59ce44aa988101a.jpg)  \n图2图书馆资源发现系统研究内容框架",
+    "context3": "从图2和上述综述内容可将图书馆资源发现系统研究与实践的发展特点总结如下："
+  },
+  "4.1.1资源发现系统应用呈现出技术扩散特征": {
+    "context1": "图书馆资源发现系统本身就是一种技术应用，随着时间发展,技术扩散可以划分为认识、说服、决策、实施和证实5个阶段，与之相对应的是资源发现系统的发展动因、系统选型、部署实施、宣传推广、效能评价5个实践步骤。在空间上，资源发现系统经历了从国外研究型图书馆到国内高校图书馆,从北京大学、清华大学图书馆等一流大学图书馆到一般院校图书馆的扩散过程。"
+  },
+  "4.1.2国内外资源发现系统发展演进具有差异性": {
+    "context1": "发现服务理念起源于国外，元搜索概念和系统模型的建立最初均由国外学者提出，国外资源发现系统发展轨迹基本遵循“提出理念－构建模型－实例研究-应用研究－成效及影响\"的逻辑思路。具体而言,首先是发现联邦检索的不足以及GoogleScholar等搜索引擎的威胁,进而提出元搜索概念和模型，并在此基础上对资源发现系统的实体和应用以及成效和影响开展较为全面的探索。而国内实践相对较晚，多集中于具体个案的实施，对成效和影响方面的探索显得不足，尤其是对用户的主观使用感受和评价、效能评价、资源发现系统影响等方面的探索还比较欠缺。"
+  },
+  "4.1.3研究过程具有周期性与阶段性": {
+    "context1": "从时间角度来看，第一阶段是针对资源发现系统的介绍、自身需求及选型研究，第二阶段是对发现服务系统部署实施案例研究，评价资源发现系统的服务成效，第三阶段是图书馆发现系统影响研究以及与图书馆业务和系统的深入融合研究，呈现出“S”型生命成"
+  },
+  "4.1研究与实践总结": {
+    "context1": "长特征。此外，图书馆资源发现系统实践研究也具有明显的周期性，“发展动因-系统选型-部署实施－宣传推广－效能评价\"构成一个承前启后、层层递进的系统应用步骤，学者针对不同环节展开重点研究。"
+  },
+  "4.1.4研究内容以实践工作为主,理论研究不足": {
+    "context1": "分析图书馆资源发现系统的发展进程不难发现，图书馆实践是这一领域研究的主要推动力,用户需求、发现系统比较、实施经验总结、发现服务评价等都与图书馆实践紧密联系，研究人员也是以图书馆员为主要力量。但是，有关资源发现系统的用户行为理论、项目实施模型、发现服务评价理论框架等理论总结较为欠缺。与国外研究相比，国内研究对系统成效评价、影响研究不足。"
+  },
+  "4.1.5研究方法以案例研究为主，定量研究方法偏少": {
+    "context1": "定性研究方法以案例研究、比较分析、焦点小组等方法为主，主要集中在资源发现系统实施案例研究、系统选型比较研究。定量研究以问卷调查、实验研究、日志分析为主，问卷调查主要是调查发现系统需求、使用行为、用户满意度等，实验研究主要是研究用户利用资源发现系统的信息检索行为，日志挖掘分析主要是挖掘用户检索日志,此外关联分析，如资源发现与馆藏发展之间的关联，也被运用。"
+  },
+  "4.2研究与实践建议": {
+    "context1": "如前所述，图书馆资源发现系统前期研究比较热门而后期研究不足、实践研究居多而理论深度不够、国内对发现系统评价与影响研究不足，因此，本文提出如下建议："
+  },
+  "4.2.1资源发现系统与服务深度融合": {
+    "context1": "虽然图书馆资源发现系统在大中型大学图书馆得到了应用，但主要还是作为“一站式”检索门户，远远没有发挥出应有的功能。在今后的实践工作中，需要一方面加强发现系统成效评价工作,定量分析出对图书馆用户行为、文献资源建设、信息素养教育等方面工作的影响,为相关工作优化与创新提供数据支持;另一方面，加强资源发现系统与图书馆其他服务系统(如文献传递、科技查新等）、相关服务项目的融合，系统与服务相互关联与融合，发挥出整体功能与效益。"
+  },
+  "4.2.2拓展研究范围、加强研究深度": {
+    "context1": "在研究范围方面，国内研究应在资源发现系统成效、影响等方面拓展研究,对本馆所部署的系统展开后期研究,对不同馆的数据进行比较研究。在研究对象方面,应细化用户群体,分析本科生、科研人员等群体的使用行为及其影响,同时还应注意开展历时跟踪研究,分析资源发现部署前后、资源发现系统培训推广前后的用户行为变化。在研究数据方面，应融合多源数据,细粒度刻画资源发现系统的使用成效、用户行为和影响研究。在研究方法方面，在采用案例研究、问卷调查等方法的同时,应注意眼动研究、大数据方法的引入。"
+  },
+  "4.2.3加强资源发现系统用户画像研究": {
+    "context1": "在大数据环境下,用户画像是图书馆数据处理与个性化服务的重要思路与方法。资源发现系统实施多年，积累了大量的用户行为数据。图书馆在数据收集、构建方法、处理平台、画像构建等方面可展开深入系统研究，为个性化、知识化服务提供参考。"
+  },
+  "参考文献：": {
+    "context1": "[1]姜爱蓉.数字资源整合系统的技术发展与应用趋势[].图书 馆杂志,2006,25(12):14-18.   \n[2]BREEDING M.Ploting a new course for metasearch [EB/OL]. [019-02-12]．htps://librarytechnology.org/repository/item. pl? $\\mathrm { i d } = 1 1 3 4 1$   \n[3]BELLISTON C J,HOWLAND JL,ROBERTS B C. Undergraduate use of federated searching:a survey of preferences and perceptions of value-added functionality [EB/OL]．[2O19-O3-24]. http://hdl.lib.byu.edu/1877/608.   \n[4]DURANTE K,WANG Z. Creating an actionable assessment framework for discovery services in academic libraries []．College& undergraduate libraries,2012,19(2/4) :215-228.   \n[5] CASSIDY E D,JONES G,MCMAIN L,et al. Student searching with EBSCO discovery:a usability study [．Journal of electronic resources librarianship,2014,26(1) :17 -35."
+  },
+  "[6]殷红，刘炜.新一代图书馆服务系统:功能评价与愿景展望[.中国图书馆学报,2013,39(5):26-33.": {
+    "context1": "[7]ROSE-WILES L M,HOFMANN M A. Still desperately seeking citations:undergraduate research in the age of Web-scale discovery [．Journal of library administration,2013,53(2/3):147 -166."
+  },
+  "[8]聂华,朱玲.网络级发现服务—通向深度整合与便捷获取的路径[.大学图书馆学报,2011,29(6):5-10.": {
+    "context1": "[9] ROWE R.Web-scale discovery:a review of Summon,EBSCO discovery service，and worldcat local [．Charleston advisor,2010, 12( 1) :5 -10.   \n[0] CHICKERING F W，YANG S Q.Evaluation and comparison of discovery tools:an update []．Information technology & libraries,2014,33(2) :5 -30.   \n[1]BREEDING M.The future of library resource discovery:a white paper commissioned by the NISO discovery to delivery（D2D）topic committee [R/O1]．[2019 -01-07] ．http: //citeseerx. ist. psu.edu/viewdoc/download? doi $=$ 10.1.1.675.3000&rep $=$ rep1&type $=$ pdf.   \n[12] CALHOUN K, CANTRELL J, GALLAGHER P,et al. Online catalogs what users and librarians want [R/Ol]．[O19-O3 -26]. https://www.oclc.org/content/dam/oclc/reports/onlinecatalogs / fullreport. pdf.   \n[13] DOLSKI AA.Information discovery insights gained from multipac, a prototype library discovery system[]．Information technology and libraries,2009,28(4):172-180.   \n[4]SPEZI V,CREASER C,O'BRIEN A. Impact of library discovery technologies:a report for UKSG R/O1]．[019-03-26]．https://www.uksg.org/sites/uksg.org/files/UKSG_final_report_16 _12_13_by_LISU.pdf."
+  },
+  "[5]洪坚.网络级资源发现系统与图书馆信息服务—基于超星中文发现系统的思考[.图书馆工作与研究，2014,1(6)：42-45.": {
+    "context1": "[6]卢章平,袁润,王正兴.发现服务:大学与研究机构图书馆的趋势[.中国图书馆学报,2014(3):20-26.",
+    "context2": "[7]李文林,曾莉,杨斓.基于文献的知识发现服务及其问题——以南京中医药大学图书馆为例[．大学图书馆学报，2015,33(2):61-65.",
+    "context3": "[8]郑丽君.资源发现服务：图书馆服务与研究的新视角[].图书与情报,2013(3):132-134.",
+    "context4": "[9] YANG S Q，WAGNER K. Evaluating and comparing discovery tools:how close are we towards next generation catalog[]．Library hi tech,2010,28(4):690 -709."
+  },
+  "[20]秦鸿,钱国富,钟远薪.三种发现服务系统的比较研究[.大学图书馆学报,2012(5):5-11.": {
+    "context1": "[1] HOEPPNER A.The ins and outs of evaluating Web-scale discovery services [．Computers in libraries,2012,32(3):6-40.",
+    "context2": "[2] HOSETH A. Criteria to consider when evaluating Web-based discovery tools[EB/O1]．[2019 -02-11]．https://doi.org/10. 4018/978-1-4666-1821-3.ch006."
+  },
+  "[23]刘万国,孙波，黄颖.网络级发现服务平台比较研究[.情报理论与实践,2013,36(4):111-113.": {
+    "context1": "[24]DEODATO J. Evaluating Web-scale discovery:a step-by-step guide[．Information technology & libraries,2015,34(2):19- 75.",
+    "context2": "[5]MILBERG C I.A tale of two systems: a case study on the implementation of two discovery systems at Davidson College []．College & undergraduate libraries,2012,19(2/4):264-277.",
+    "context3": "[6]AYMONIN D,BOREL A，GROLIMUNDR，et al．Be realistic, demand the impossible: comparison of 4 discovery tools using real data at the EPFL Library[R/OL]．[2019-O3-O2]．https:// zenodo.org/record/7028#.XQdMNfkzaUk.",
+    "context4": "[7]YEO PP.Impact of a new discovery service at Li Ka Shing Library []．Singapore journal of library& information management,",
+    "context5": "LUI TI·JU - JU.   \n[8]李云华,刘颖,刘伟成.学术资源发现系统选型研究[.新世纪 图书馆,2015(12):22 -25.   \n[9] 廖静.山东大学图书馆资源发现系统评估工作的摸索与实践 [.图书情报工作 $, 2 0 1 3 , 5 7 ( 9 ) : 5 2 - 5 7 .$   \n[0]孙宇，张磊,刘炜.图书馆资源发现系统选型研究[.图书馆杂 志,2013,32(12):63 -70.   \nB1]姜莹莹,李睿华.图书馆发现服务平台的评估工作与研究[. 大学图书情报学刊 $, 2 0 1 5 , 3 3 \\bigl ( 3 \\bigr ) : 8 6 - 9 1$   \nB2]殷沈琴,唐武京,邵诚敏,等.三家资源发现系统的调研、测试和 评估.图书馆杂志 $, 2 0 1 3 , 3 2 \\bigl ( 1 2 \\bigr ) : 8 2 - 8 6$   \nB3] STONEG.Searchinglife,the universe and everything?theimplementation of Summon at the University of Huddersfield[]. LIBER quarterly,2010,20(1) : 25-51.   \nB4] MAHONEY J,LEACH-MURRAY S. Implementation of a discovery layer:the Franklin College experience[]．College &undergraduate libraries,2012,19(2/4):327-343.   \nB5] WROSCH J,ROGERS-COLLINS K,BARNES M,et al. Search me:Eastern Michigan University’s journey through the highs and lows of implementing the Summon discovery tool []．College & undergraduate libraries,2012,19(2/4):367 -386.   \nB6]朱玲,崔海媛,聂华.网络级发现服务的实施:实践与思考- 以北大图书馆“未名学术搜索”为例[．大学图书馆学报， 2014,32(4):91 -97.   \n[7] 窦天芳,姜爱蓉,周虹,等.清华大学学术资源发现平台的建设 及思考——以“水木搜索”为例[．图书馆杂志,2013,32 (12) :71 -75.   \nB8] MORTIMORE JM,DUNN M G,MCNAUGHTON D A,et al. Smoke gets in your eyes:trialsand triumphs of implementing the Ex Libris Primo discovery service in a small regional consortium .College & undergraduate libraries $\\bullet 2 0 1 2$ ,19(2/4) :344 -366.   \nB9]WALKER S,SIMS IL. Implementing a discovery tool at two HBCUs[]．College & undergraduate libraries,2012,19(2) :312- 326.   \n[0]孙翌,郭晶.上海交大图书馆资源发现与获取平台建设[.图 书馆杂志,2013,32(6):70 -75.   \n[41] PINKAS,MAR？A M,BAGLIVO MD,KLEIN IR,et al. Selecting and implementing a discovery tool:the University of Maryland health sciences and human services library experience .Journal of electronic resources in medical libraries,2014,11(1) :1-12.   \n[2]BACON V，BOYER G.Beyond discovery tools:the evolution of discovery at ECU librariesEB/O1]．2019-04-06]．http: // hdl. handle. net/10342/4279.   \n[43] WILLIAMS H,PETERS A.And that’s howIconnect to my library:how a 42-second promotional video helped to launch the UTSA libraries’new summon mobile application [．The reference librarian,2012,53(3):322-325.   \n[44]周义刚,聂华,廖三三.北京大学资源发现服务推广探析——以 未名学术搜索为例[.图书情报工作,2014,58(20)：67-72.   \n[45]EVELHOCH Z.Web-scale discovery:impact on library database Web page views and usage[]．Journal of Web librarianship, 2016,10(3):197 -209."
+  },
+  "[46]朱玲，聂华.通过日志挖掘研究图书馆资源发现服务用户的搜索行为.现代图书情报技术,2011(12):74-78.": {
+    "context1": "[47] COHEN R A，THORPE A. Discovering user behavior:applying usage statistics to shape frontline services [．The serials librarian,2015,69(1):29 -46.   \n[48]杨丽萍,王俊,韦晓莹.资源发现系统的用户信息行为分析——以 西交利物浦大学图书馆为例.图书馆研究,2019,(2):92-99.   \n[49]WAY D.The impact of Web-scale discovery on the use of a library collection [．Serials review,2010,36(4) :214-220."
+  },
+  "[0]高冉,郭丽然,毛芸.发现系统对期刊数据库使用量的影响分析——基于北京师范大学使用Primo发现系统前后4年的数据库统计.高校图书馆工作 $, 2 0 1 8 , 3 8 ( 2 ) : 4 2 - 4 4$": {
+    "context1": "β1] O'HARA L. Collection usage pre-and post-Summon implementation at the University of Manitoba []．Evidence based library & information practice $, 2 0 1 2 , 7 ( 4 ) : 2 5 - 3 4$   \n52] COMEAUX D J. Usability testing of a Web-scale discovery system at an academic library[]．College & undergraduate libraries, 2012,19(2/4):189-206.   \nb3]MEIROSE J,LIAN B. User testing:gathering data from first-year medical students as they interact with the EBSCO discovery service (EDS[．Journal of electronic resources in medical libraries, 2019:16(1):1-7.   \nb4] CLARK A R,ERDMANN A,FERGUSON J,et al. Taking action on usability testing findings: Simmons College Library case study [．The serials librarian,2016,71(3/4):186-196.   \n[5] FOSTER A K,MACDONALD JB. A tale of two discoveries: comparing the usability of Summon and EBSCO discovery service[. Journal of Web librarianship,2013,7(1):1-19.   \nB6] DJENNO M,INSUA G,GREGORY G M. Discovering usability: comparing two discovery systems at one academic library[]. Journal of Web librarianship,2014,8(3):263-285."
+  },
+  "[7]杨桦,袁润，王正兴，等.高校图书馆资源发现系统用户功能需求与差异性量化研究[.现代情报,2018,38(6)：111-116.": {
+    "context1": "[8]BULL S,CRAFTE,DODDS A.Evaluation of a resource discovery service: $\\operatorname { F i n d l t } @$ Bham[]．New review of academic librarianship,2014,20(2) :137 -166.   \n59]FOSTER A K.Determining librarian research preferences: a comparison survey of Web-scale discovery systems and subject databases[]．Journal of academic librarianship,2018,44(3):330-   \n336. b0] LUNDRIGAN C，MANUEL K，YAN M.“Pretty Rad\":explorations in user satisfaction with a discovery layer at Ryerson University[．College & research libraries,2015,76(1):43-62.   \nb1]NICHOLS A，BILLEY A，SPITZFORM P，et al．Kicking the tires:a usability study of the Primo discovery tool []．Journal of Web librarianship,2014,8(2) :172-195.   \n62] LEE B,CHUNG E K.An analysis of Web-scale discovery services from the perspective of user's relevance judgment []．Journal of academic librarianship，2016，42(5) :529-534.   \n[3]杨超.高校图书馆资源发现系统选型分析[].保定：河北大学， 2015.   \nb4]KLIEWERG，MONROE-GULICK A，GAMBLE S，et al．Using Primo for undergraduate research:a usability study[.Library hi tech,2016,34(4) :566 -584.   \n65] TONYAN J,PIPER C. Discovery tools in the classroom: a usability study and implications for information literacy instruction[. Journal of Web librarianship,2019,13(1)：1-19."
+  },
+  "[6周欣,陆康.基于图书馆数字资源访问系统的读者行为数据挖掘研究[.现代情报,2016,36(1):51-56.": {
+    "context1": "[7] SEEBER KP. Teaching“format as a process”in an era of Webscale discovery[．Reference services review,2015,43(1):19 -30.   \nb8l CMOR D,LI X. Beyond bolean,towards thinking: discovery systems and information literacy[．Library management,2012,33 (8/9):450-457.   \n69] MUSSER L R, COOPEY B M. Impact of a discovery system on interlibrary loan[．College & research libraries，2O16,77(5): 643 -653.   \n[0 CALVERT K. Maximizing academic library collections: measuring changes in use patterns owing to EBSCO discovery service[]. College & research libraries,2015,76(1) :81-99.   \n[1]NICHOLS AF,CRIST E, SHERRIFF G,et al． What does it take to make discovery a success?:a survey of discovery tool adoption, instruction，and evaluation among academic libraries []．Journal of Web librarianship,2017,11(2) :85-104.   \n[2]STONE G.The benefits of resource discovery for publishers:a librarian's view.Learned publishing,2016,28(2):106-113.   \n[3]ZHU J,KELLEY J. Collaborating to reduce content gaps in discovery:what publishers，discovery service providers，and libraries can do to close the gaps [．Science & technology libraries,2015,34 (4):315 -328.   \n[4]ROGERS E M. Diffusion of innovations [M]．New York:The Free Press,1983."
+  },
+  "作者贡献说明：": {
+    "context1": "李慧芳：资料检索与收集、数据分析和初稿撰写;  \n孟祥保：论文选题和论文修改。",
+    "context2": "李慧芳，孟祥保.近十年国内外图书馆资源发现系统研究与实践进展述评Ⅲ.图书情报工作,2020,64(6):120 －129.",
+    "context3": "A Review of Research and Practice of Library Resource Discovery System in Domestic and Foreign: 2010 -2019",
+    "context4": "Li Huifang Meng Xiangbao",
+    "context5": "Southeast University Library， Nanjing 211189",
+    "context6": "Abstract[Purpose/significance] Reviewing and combing the development process and research status of library resource discovery system has important theoretical and practical significance for promoting deep integration and innovation of resource discovery system and library development.Method/proces Based on China Knowledge Network (CNK1)，Web of Science,Emerald Insight,Elsevier,Taylor & Francis SSH and other academic databases, the paper summarized the theoretical research，system selection，deployment implementation，service promotion，effectiveness evaluation and impact research of library resource discovery system by content analysis and case study. [Result/conclusion] The research results demonstrate that the resource discovery system is applied rapidly in the library.The research process of resource discovery system has obvious periodicityand stage.There are diferences in the evolution of resource discovery systems at home and abroad.The research content is practical andthe theoretical depth is insufficient. Research methods are mainly case studies and questionnaires，and quantitative research methodsare few.Therefore,library resource discovery system should be deeply integrated withthelibrary service，expand the scope of research and strengthen the research depth，and strengthen the research on the user profile of the resource discovery system.",
+    "context7": "Keywords: resource discovery system discovery service knowledge discoverytechnology diffusion academic library"
+  },
+  "《图书情报工作》投稿作者学术诚信声明": {
+    "context1": "《图书情报工作》一直秉持发表优秀学术论文成果、促进业界学术交流的使命，并致力于净化学术出版环境，创建良好学术生态。2013年牵头制订、发布并开始执行《图书馆学期刊关于恪守学术道德净化学术环境的联合声明》（简称《声明》)（见:http://www.lis.ac.cn/CN/column/item202.shtml),随后又牵头制订并发布《中国图书馆学情报学期刊抵制学术不端联合行动计划》（简称《联合行动计划》)（见：htp://www.lis.ac.cn/CN/column/item247.sht-ml)。为贯彻和落实这一理念,本刊郑重声明,即日起,所有投稿作者须承诺:投稿本刊的论文,须遵守以上《声明》及《联合行动计划》,自觉坚守学术道德,坚决抵制学术不端《图书情报工作》对一切涉嫌抄袭、剽窃等各种学术不端行为的论文实行零容忍，并采取相应的惩戒手段。",
+    "context2": "《图书情报工作》杂志社"
+  }
+}

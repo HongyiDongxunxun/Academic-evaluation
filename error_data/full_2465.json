@@ -1,0 +1,70 @@
+{
+  "original_filename": "full_2465.md",
+  "原创性指数值的测度及其变动趋势分析": "",
+  "基于美国经济发展局的数据": {
+    "context1": "杨中楷黄　颖　梁永霞²　刘　佳",
+    "context2": "1大连理工大学公共管理与法学学院大连116024²中国科学院文献情报中心北京100190(摘要）原创性(originality)指数是美国经济发展局(NBER)提出的一项新专利指标。基于美国经济发展局建立的专利引文数据库,以美国专利商标局(USPTO)专利分类系统为标准，可测算出每项专利的原创性指数。按大类和小类汇总计算其均值,并绘制依时间变化的趋势图,能展现出原创性指数均值的稳步上升态势,也体现出技术的整体发展规律的融合、会聚趋势，对技术研发和管理具有重要意义。",
+    "context3": "（关键词）原创性指数美国经济发展局专利计量〔分类号）G306"
+  },
+  "Measurement and Changing Trends of Originality Index Value": {
+    "context1": "-In View of NBER Patent Citation Database Yang Zhongkai1Huang Ying'Liang Yongxia²Liu Jia' 1 School of Public Administration and Law,Dalian University of Technology,Dalian 116024 ²Library of Chinese Academy of Sciences,Beijing 100190",
+    "context2": "(Abstract）OriginalityindexisanwindicatorofpatentmeasurementichpresentedbyBER.Calculatingpatents'originalitydicein viewfNBERpatentitationdatabaseandUSPOclasificatioereisasteadilyrisingtrendsoheyaraveragevalueofoiginalityindex.Thisreflects themergingtrendof tchnologyasawholewhichisof greatimportanceonthetechnologyresearchandmanagement.",
+    "context3": "(Keywords）originality indexNBERpatentometrics"
+  },
+  "1引言": {
+    "context1": "2001年,美国经济发展局(NBER)发布了题为TheNBER Patent Citations Data File: Lessons,Insights andMethodologicalTools(美国经济发展局的专利引文数据档案:教程、洞见和方法工具）的研究报告。该报告的主要内容分为三大部分：第一部分详细介绍了美国经济发展局建立的美国专利数据引文数据库的主要内容;第二部分在前人研究的基础上提出系统的专利引文分析的指标和方法;第三部分用大时间尺度的数据揭示了专利引文的特征与规律。这是一个里程碑式的研究成果,将要、或者说已经对专利引文研究产生巨大的推动作用。",
+    "context2": "首先,它提供了一个开放的、规范的、海量的专利引文数据库,为专利引文研究提供了数据基础;其次,它提供了多样的、新颖的、实用的专利引文指标,为专利引文研究提供了框架规范;最后，它提供了合理的、准确的、可操作的专利分析手段,为专利引文研究提供了方法支持。在技术分类、被引次数、被引时滞、自引数量等基础指标之外,该报告中正式推出了以原创性(originality)指数为代表的新指标。这一指标已于1997年在相关文献里出现,当时仅处于概念阶段,由于数据库的缺乏，无法进行基于大规模真实历史数据的测度，直到美国经济发展局数据库建立之后，该指数的测度和应用才真正得以实现。而报告中所进行的定量研究案例,主要用来辅助说明指标和方法，未做更多展开。",
+    "context3": "随着专利计量学的兴起，学术界对于专利引文的研究已经逐渐成熟，且学者们已经开始借鉴社会网络的相关方法对专利引文网络进行刻画与解析，并渗透到诸多应用领域,但对于原创性指数的研究却仍未超越美国经济发展局研究报告的水平。这固然是由于美国经济发展局研究报告并未对原创性指数做出更多的阐述，但同时也隐含着相关理论和方法尚未发展到一定水平的原因。因此,随着数据库的更新完善和专利计量学的不断发展，需要研究者对原创性指数深入进行测度和解析：一方面要利用定量手段不断发现原创性指数随着时间变化所展现的新趋势和规律,对其做出总结概括;另一方面，要定性揭示原创性指数的影响因素和现实意义，发掘原创性指数在指导技术研发和管理层面的现实意义，为其在未来的潜在应用提供指向性建议。",
+    "context4": "本文拟通过对原创性指数值的变动趋势的定量探讨,深入阐释原创性指数的内涵，揭示出技术整体发展规律和趋势，为技术研究和科技管理工作提供有益的参考。"
+  },
+  "2测度算法与数据来源": "",
+  "原创性指数的测度算法如下：": {
+    "context1": "$$\n\\begin{array} { r } { O r i g i n a l i t y = 1 - \\sum _ { j } ^ { n i } S _ { i j } ^ { 2 } } \\end{array}\n$$",
+    "context2": "其中： $S _ { \\mathrm { i j } }$ 表示j类专利的数量在专利i所引用的专利总量中的比例， ${ \\mathfrak { n } } _ { \\mathrm { i } }$ 表示专利i所引用的专利类别的数量。如果专利i所引用的专利都属于同一类,那么原创性指数值为0。如果专利i所引用的专利分属不同的类别，且分布越宽泛的话，原创性指数值就会越大，最大值趋近于1。也就是说,如果一项专利引用的其他专利类别差异性越大，那么其原创性值就越大。需要注意的是，原创性指数的测度是以专利分类系统为基础的，如果一个专利分类系统中类别层次越多越细，则原创性指数值可能会越大；而类别层次越少越宽，则数值可能会越小。选择不同的专利分类系统会使得原创性指数值的测算产生不同的结果,而一般认为一个精细而且准确的分类系统是原创性指数值测算所必需的。",
+    "context3": "就目前的专利分类系统来看，美国专利商标局（USPTO)经过多年的努力已经为发明专利所属的技术类别开发出一个高度详尽的分类系统。该系统包括6个以一位数表征的大类（category）、37个以两位数表征的小类(sub-category）以及多达12万个更详细的专利分类（classes）。这个分类系统保证任何一个专利只属于唯一的一个两位数表征的小类,而不像国际专利分类系统IPC那样存在着各种交叉。如表1所示：",
+    "context4": "表1美国专利商标局专利分类",
+    "context5": "<table><tr><td rowspan=1 colspan=1>大类代码</td><td rowspan=1 colspan=1>大类名称</td><td rowspan=1 colspan=1>小类代码</td><td rowspan=1 colspan=1>小类名称</td><td rowspan=1 colspan=1>大类代码</td><td rowspan=1 colspan=1>大类名称</td><td rowspan=1 colspan=1>小类代码</td><td rowspan=1 colspan=1>小类名称</td><td rowspan=1 colspan=1>大类代码</td><td rowspan=1 colspan=1>大类名称</td><td rowspan=1 colspan=1>小类代码</td><td rowspan=1 colspan=1>小类名称</td></tr><tr><td rowspan=6 colspan=1>1</td><td rowspan=6 colspan=1>化学</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>农业、食品、纺织品</td><td rowspan=2 colspan=1>3</td><td rowspan=2 colspan=1>医药</td><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>生物</td><td rowspan=2 colspan=1>5</td><td rowspan=2 colspan=1>机械</td><td rowspan=1 colspan=1>55</td><td rowspan=1 colspan=1>交通</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>涂层</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>其他医药类</td><td rowspan=1 colspan=1>59</td><td rowspan=1 colspan=1>其他机械类</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>气体</td><td rowspan=7 colspan=1>4</td><td rowspan=7 colspan=1>电气电子</td><td rowspan=1 colspan=1>41</td><td rowspan=1 colspan=1>电气设备</td><td rowspan=13 colspan=2>6    其他</td><td rowspan=1 colspan=1>61</td><td rowspan=1 colspan=1>农业、畜牧业、食品</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>有机化合物</td><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>电气照明</td><td rowspan=1 colspan=1>62</td><td rowspan=1 colspan=1>娱乐设备</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>树脂</td><td rowspan=1 colspan=1>43</td><td rowspan=1 colspan=1>测量与测试</td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>服装纺织</td></tr><tr><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>其他化学类</td><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>核能和X射线</td><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>地面采掘及钻井</td></tr><tr><td rowspan=5 colspan=1>2</td><td rowspan=5 colspan=1>计算机及通信</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>通信</td><td rowspan=1 colspan=1>45</td><td rowspan=1 colspan=1>电力系统</td><td rowspan=1 colspan=1>65</td><td rowspan=1 colspan=1>家具、家庭装备</td></tr><tr><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>计算机软硬件</td><td rowspan=1 colspan=1>46</td><td rowspan=1 colspan=1>半导体器件</td><td></td><td></td></tr><tr><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>计算机外设</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>其他电子产品</td><td rowspan=1 colspan=1>66</td><td rowspan=1 colspan=1>加热、采暖设备</td></tr><tr><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>信息存储</td><td rowspan=6 colspan=1>5</td><td rowspan=6 colspan=1>机械</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>材料加工与处理</td><td rowspan=1 colspan=1>67</td><td rowspan=1 colspan=1>管道与接头</td></tr><tr><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>其他计算机及通信</td><td rowspan=1 colspan=1>52</td><td rowspan=1 colspan=1>金属加工</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td rowspan=3 colspan=1>汽车、发动机及零件</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td rowspan=2 colspan=1>68</td><td rowspan=2 colspan=1>容器</td></tr><tr><td rowspan=2 colspan=1>3</td><td rowspan=2 colspan=1>医药</td><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>药品</td><td rowspan=1 colspan=1>53</td></tr><tr><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>手术医疗器械</td><td rowspan=1 colspan=1>54</td><td rowspan=1 colspan=1>光学</td><td rowspan=1 colspan=1>69</td><td rowspan=1 colspan=1>其他</td></tr></table>",
+    "context6": "图1展现的是一个基于美国专利商标局分类系统的原创性指数值测度示例。专利M引用了4个专利,其中专利A属于第1大类中的第13小类;B和C同属于第1大类中的第14小类,D则属于第3大类中的第33小类。我们以小类为测度的参照,那么专利M的原创性指数值为 $1 - \\left( \\left( 1 / 4 \\right) ^ { 2 } + \\left( 2 / 4 \\right) ^ { 2 } + \\left( 1 / 4 \\right) ^ { 2 } \\right) \\ = 5 / 8$ 。同理，如果以一位数的大类为测度的参照，那么专利 $\\mathbf { M }$ 的原创性指数值为 $1 - ( ( 3 / 4 ) ^ { 2 } + ( 1 / 4 ) ^ { 2 } ) = 3 / 8$ 。本文所进行的原创性指数值测度是以两位数的小类为参照的。"
+  },
+  "3 原创性指数值的变动趋势": {
+    "context1": "美国经济发展局建立的数据库中，包含着1967-",
+    "context2": "![](images/4a17855b08cd1435ed0300a83af7a2b270941a891c3ad3800e2ef303acc664ca.jpg)  \n图1一个原创性指数值测度的示例",
+    "context3": "2006年40年间美国专利商标局所授予的2811000项专利信息,在这些项专利之间共发生22405000 对有效引用关系。根据上述算法，我们利用ACCESS 2007软件对每一个专利分别计算其原创性指数值，然后按照专利申请年份加总平均刻画整体原创性指数值的变"
+  },
+  "动趋势，如图2所示：": {
+    "context1": "![](images/09409cd50efde77edc7d14ddbd37f69afdfaa2b8b9818c91b11a2c54008aa5b0.jpg)  \n图2原创性指数值变化趋势(按总量)",
+    "context2": "图2中出现一条前段波动很大，中段平稳上升，尾段略微下降的趋势曲线。1973年以前，原创性指数值是不稳定的，到1975年前后逐步开始上升，及至2001年左右达到最高，之后略有下降。",
+    "context3": "对于中段平稳上升的趋势是比较容易解释的。按照算法，原创性指数值的稳步上升意味着美国专利数据库的专利所引用的其他专利的类别越来越多，差异性越来越大。作为注解，研究报告曾指出：原创性指数值的大小往往和专利引用的其他专利数量有关。也就是说,当一个专利更多地引用其他专利的时候,相应地其原创性指数值就更高。这是因为当被引用的专利数量较多的时候,其属于较多类别的概率也较大。可作为印证的数据是1975-1999 年,每一个专利平均引用其他专利的数目由5上升到10左右。",
+    "context4": "如何解释前段的波动和后段的下降是一个颇为困难的问题。首先，波动的最高值甚至超过了以后任意一个时间节点的最高值,这是不合常理的;其次，一条一直平稳上升的趋势曲线为何会在尾端出现降低的趋势,这又是令人费解的。年度原创性指数值是一个平均值,如果当年专利数量过少,那么该指数值出现不规则变动的概率就会很大。基于此思路,绘制图3、图4对上述问题做出回答,图3展现的是按申请年计算的专利数量的变化：",
+    "context5": "![](images/1d20211e832f98db25b4abe01f1ae9e93174a4b4105c6b6c699f67dc637075b9.jpg)  \n图3专利数量的变化趋势(按总量)",
+    "context6": "图4进一步展现了各大类的专利数量。图3和图4都出现了早期数量很少，中期数量稳步上升,及至后期数量又迅速下降的情况。结合图3和图4可以看出,在1975年以前,专利数量是不成规模的,1967-1969年专利数量均为个位数。1970－1973年每年的数量在100以下,1974年达到400左右，也正是从这一年开始，原创性指数值开始稳步上升,1975年的专利数据为5323项,标志着专利数量达到规模层次，也保证了统计数据的稳定性。对照美国专利制度的发展历史可以知道,将专利文献的电子文档引入始于1975 年前后，而美国经济发展局数据库对引文数据的统计也是在电子文档引入前后,也即1975年,因此数据库收录的1967－1975年的专利数据并非全部的真实历史数据，只包含了部分信息,这也正是前段原创性指数值强烈波动的原因。",
+    "context7": "![](images/3fc2884753af69ea8be5ef0d7c0b1a6ae8792cd7c9e852ffd3dc3de0fbf18260.jpg)  \n图4专利数量变化趋势(按大类)",
+    "context8": "如果说前段专利数量的问题来自于人为原因，那么后段专利数量的变动则更多是出于客观原因。前文提到，我们使用的美国专利数据库中的专利都是已经被授权的，而统计口径则是以申请年为准。一般来说，一项专利自提交申请到被授权要经过3年左右的时间,也就是说,2002年前后提出申请的专利一般要到2006年前后才会得到授权。统计数据显示，2003 年之前的几年,每年专利数量都在10 万以上，2004年则锐减到6万，2005年为1万，2006年为1000左右，这种数量的大幅度变动无疑会影响到原创性指数值的变化趋势。因此可以认为至2003年前后原创性指数值的趋势变化是因为数据的截断造成的。",
+    "context9": "![](images/d3f7ef0fc47c161f8d099370a2cb6b23b74f760549293ab3d6f6dec13fac8f80.jpg)  \n图5原创性指数值变化趋势(按大类)",
+    "context10": "继续绘制图5作为对图2变动趋势的印证，图5中各大类原创性指数值在前段都出现了波动情况，叠加结果形成图2前段的图形。图中1、2、3大类在后段都出现了小幅波动,而4、5、6大类在后段出现了明显的一致下降趋势,由于2003年后4、5、6大类的专利总量两倍于1、2、3大类,叠加结果形成图2后段呈下降趋势的图形。由于各大类中段的图形都较为一致地平稳上升，图2中对应时间段的图形也相应地呈现平稳上升的趋势。",
+    "context11": "可以认为，前段波动与后段下降都是由于小样本干扰引起的。为清晰起见，去除1975年以前与2003年以后的数据，将六大类中37小类的原创性指数值变化趋势绘制成图6:",
+    "context12": "![](images/3037a00541f6cac2e0065a2199a331424ca4934e5b36c5446c2c948c76778597.jpg)  \n图6原创性指数值变化趋势(按六大类中各小类)",
+    "context13": "图6中,1975-2003年间,绝大多数小类的原创性指数值都处于稳步上升的过程，最不规则的是小类33,其变动原因也是因为累计专利数量只有3000余件,且年度分布极不均匀,直接引发了小样本干扰。"
+  },
+  "4 分析与结论": {
+    "context1": "为什么要从引文的角度来描述原创性，一直以来并没有得到很清晰的解释,这也许是原创性指标并没有得到预期的广泛关注的原因所在。从文献计量学的角度来看,图1中专利A、B、C、D4个专利文献同时被专利文献M所引用，它们4个构成共被引关系,有时直接称为共引关系。用术语可表示为:一组文献（被引文献)共同被同一篇或同一组文献(施引文献)引证，则被引证的前一组文献形成共引关系。刘则渊先生基于赵红州先生的知识游离结晶理论，指出共引关系的实质在于一组被引文献的知识联系与知识扩散，对共引文献中知识单元的分析和游离，并为一组施引文献对知识单元的重组所反映的研究前沿提供知识基础。陈超美进一步指出:这种过程不是简单的重复，而是在重组中产生全新的知识系统、全新的知识单元。一篇有创见的论文(或专利)引用参考文献,是从参考文献中进行知识单元的吸收、组合与升华;各个知识单元的学科差异性越大，知识单元重组的创造性越大，基于文献的发现就越重大。",
+    "context2": "按照上述观点，一项(组)专利(施引专利)引用了其他专利(被引专利），代表着知识单元从被引专利中游离出来,经过重组,成为施引专利的知识基础,并使得新知识产生结晶于施引专利之上。如果被引文献之间所属类别的差异越大，那么知识单元重组的创造性越大，施引专利的原创性就越高，这也正是原创性指数的创建和存在的理论基础。当然,由于专利施引行为可能存在偶然性，所以大量专利原创性指数值的均值会远比个体专利的原创性指数值更具有实际意义。纵观30年间的原创性指数值的增长趋势，我们有理由认为,技术整体发展正呈现出融合、会聚的趋势,这直接导致了技术整体水平的提高。",
+    "context3": "最后需要指出，本研究绝不仅仅是要提供一种指数的测度方法，因为对于不同的专利分类体系，原创性指数值的绝对值大小将会是截然不同的。我们更想做到的是提供一种从引文分析角度来考察专利个体和技术整体发展规律的研究思路,从而能够指导技术研发和管理工作，为我国科技水平的整体提高提供决策参考。需要特别指出的是，本研究虽基于权威性和系统性较强的美国专利数据库展开，也存在着挂一漏万的风险，可能的话，将会继续选择其他数据库进行对照验证，保证研究结论的全面性与准确性。"
+  },
+  "参考文献:": {
+    "context1": "[1]金越．网络信息资源的评价指标研究[.情报杂志,2004 (1):64 -66.   \n[2]Harrs R.Evaluating Internet research sources [oI]．[012 -03 - 08].http://www.virtualsalt.com/evalu8it.htm.   \n[3]Oliver K M,Wilkinson GL,Bennett L T.Evaluating the quality of Internet information sources [OL]．[2012-O3-O8]．http:// eric.ed.gov/ERIC-Docs/data/ericdocs2sql/content_storage_01/ 0000019b/80/15/05/9c.pdf.   \n[4]Smith A G.Criteria for evaluating information resources $\\mathbb { I }$ .Public-Access Computer Systems Review,1997，8(3):1-14.   \n[5]Kapoun J.Teaching undergrads Web evaluation:A guide for library instruction [l .College & Research Libraries News,1998(7/8）： 522 -523.   \n[6]Wilkinson G L,BennettL,Oliver K.Evaluation criteria and indicators of quality for Internet Resources [ .Educational Technology,1997(5/6):52 -59.   \n[7]CIQM.Database quality criteria [O1]．[012-O3-16] .http: // www.i-a-l.co.uk/ciqm_qcriteria. html   \n[8]王毅,罗军.中美图书馆咨询知识库比较研究[].图书情报工 作 $, 2 0 1 0 , 5 4 \\bigl ( \\ 1 7 \\bigr ) : 4 0 - 4 4 .$   \n[9]Stoker D,Cooke A.Evaluation of networked information sources [01]．[012 -03 -16] .http://omni.ac.uk/agec/essen.html.   \n[io]Tillman H.Evaluating quality on the net [o1]．[O12-03-16]. http:// www.hopetillman.com / findqual.html.   \n[1]罗春荣,曹树金.因特网的信息资源评价[.中国图书馆学报， 2001(3):45 -52.   \n[2]邱皓政.量化研究与统计分析：SPSS中文视窗版资料分析范例 解析M.台中:五南图书出版公司，2003.   \n[13]Fornell C,Larcker D.Evaluating structure equations models with unobservable variables and measurement error $\\mathbb { I }$ . Journal of Marketing Research,1981,18(2):39 -50.   \n[14]Kerlinger F N.Foundations of behavioral research [M]．New York:Holt，Rinehart and Winston，1973.   \n[5]张咏.网络信息资源评价方法[].图书情报工作,2002,46"
+  },
+  "5结语": {
+    "context1": "基于用户需求的科技信息评价量表由内容质量、覆盖范围、组织界面和技术支持四大维度，共计16个要素构成。通过调查数据的统计分析与修正检验，量表得到了实证数据的有力支持，能够较好地适用于用户需求的科技信息资源评价，从而有效发现不足、反馈用户的潜在需求，为促进科技信息的服务与利用制定优化方案。由于数据样本的局限，具体评价要素在实际操作过程中可能略有差异。本研究仅提出了通用的评价量表，对不同创新主体对科技信息评价的差异性没有涉及，有待在后续研究中分类进行展开。随着研究与实践的进展，科技信息评价也在随着主题或学科领域的特定要求和用户的信息需求而变化，例如评价标准和指标逐渐细化，逐渐符合主题和学科领域的差"
+  },
+  "异并符合特定用户群的特定需求[。": "",
+  "(10):41-47.": {
+    "context1": "(作者简介）张公一，男，1982年生，讲师，博士后，发表论文12 篇。"
+  },
+  "(上接第37页)": "",
+  "刘则渊,胡志刚,王贤文.30年中国科学学历程的知识图谱展现.科学学与科学技术管理,2010,31(5)：17-23.": {
+    "context1": "BChen Chaomei,Ibekwe-SanJuan F,Hou Jianhua.The structure and dynamics of co-citation clusters:A multiple-perspective co-citation",
+    "context2": "analysis [ .Journal of the American Society for Information Science and Technology,2010,61(7):1386-1409.",
+    "context3": "罗科,班布里奇.聚合四大科技 提高人类能力M].蔡曙山,等译.北京：清华大学出版社,2010."
+  }
+}

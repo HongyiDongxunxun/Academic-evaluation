@@ -1,0 +1,76 @@
+{
+  "original_filename": "full_4440.md",
+  "nothing": {
+    "context1": "·情报研究·"
+  },
+  "基于内容分析法的国内RFID技术现状与发展趋势研究 \\*": {
+    "context1": "Study on the Recent Research and Developing Trends of RFID Based on Content Analysis"
+  },
+  "李文川王旭²吴昊倪霖": {
+    "context1": "（1.重庆大学机械工程学院重庆400030;2.重庆大学贸易与行政学院重庆400030;3.重庆大学经济与工商管理学院重庆400030)",
+    "context2": "摘要利用内容分析法，对 $1 9 9 9 \\sim 2 0 0 8$ 年间国内核心期刊上496 篇与RFID技术或其应用直接相关的学术性论文进行了统计分析。建立以共性基础技术、软件与信息平台、技术标准与测试、其他四大类为基础的RFID分类框架,以此探析了近10年RFID研究的热点领域及发展变化。研究结果表明,RFID研究的重点领域主要集中在软件与信息平台，而标准与测试领域是目前RFID研究中最为薄弱的环节。通过对RFID 发展趋势的描述，为未来 RFID研究和应用提供研究支持。",
+    "context3": "关键词 RFID 分类框架内容分析 文献计量",
+    "context4": "中图分类号TN-9文献标识码A",
+    "context5": "文章编号1002－1965(2009)12－0060－04",
+    "context6": "射频识别(Radio Freguency Identification,RFID)技术，是一种基于射频原理实现的非接触式自动识别技术,被视作可取代条形码技术的21世纪十大重要技术之—[1-2]。作为一项具有广泛应用前景的技术,RFID产品近年来已被广泛应用于社会、经济、国防等众多领域[3]。我国的RFID技术虽然起步较晚,但自1993 年我国政府颁布实施\"金卡计划\"以来,RFID 技术的发展及应用十分迅猛。“十一五”期间，随着国家863计划“射频识别(RFID)技术与应用”重大专题的推动,我国已取得了一部分核心技术的自主知识产权，形成了完整、协调、联合的RFID技术链和产业链,拥有了一批成功应用案例。",
+    "context7": "本文期望通过对国内近1O年来RFID 研究成果的文献回顾，建立较为科学的RFID分类框架，利用此框架对现有研究成果进行定量分析和总结，并为RFID未来研究和应用提供研究支持。"
+  },
+  "1国内RFID 技术研究现状": {
+    "context1": "目前国内关于RFID技术现状及发展趋势的研究收稿日期：2009－06—10 修回日期：2009－07－20主要分为经验研究和实证研究。经验研究方面：丁振华等[4]论述了RFID 中间件的研究情况,并提出了一种新的 RFID 中间件平台;杨宜生等[5]讨论了RFID 产品的测试内容、测试步骤、测试标准、测试现状、测试环境等问题，并对测试技术提出相关建议;金颖妮等[]总结了国内外对各类别标签天线的研究状况，分析了标签天线的设计热点;聂赛如等[7]介绍了解决多标签与阅读器通信时出现的碰撞问题所常用的几种防碰撞算法，并提出了改进思路;王睿等[8]将供应链领域的研究现状总结为相关技术研究、应用研究、安全问题探讨和标准制定四个方面，并展望了未来研究方向;Zongwei$\\mathrm { L u o } ^ { [ 9 ] }$ 利用创新扩散理论研究了国内RFID 的应用现状并提出了加快国内RFID 实施的若干解决思路。",
+    "context2": "实证研究方面:Chia－Chen Chao[10]等利用文献计量方法对 $1 9 9 1 { \\sim } 2 0 0 5$ 年间发表在SCI期刊上与RFID相关的文献进行了回顾，概括了RFID 的技术发展和应用历程并对其研究趋势进行了展望;E.W.T.Ngai[11]等利用文献计量法和内容分析法对 $1 9 9 5 \\sim$ 2005 年间国外数据库中的85篇外文文献进行分析，建立了以技术、应用、政策和安全、其他等四个层面为基础的分类框架,研究了RFID 的未来发展趋势;刘白秋[12]通过对国内图书馆的应用实践情况的调查研究，对RFID技术在国内图书馆应用中的普遍优势与不足进行归纳与分析，指出了RFID系统建设过程中的若干关键问题。",
+    "context3": "上述经验研究和实证研究存在的主要问题是：a·经验研究方面，主要以RFID单个技术、单个应用层面为主，从系统的角度对RFID相关技术及应用进行全面的分析和总结的研究较少，且研究得出的结论较粗；b·实证研究很少，且以国外文献研究为主，即使部分研究了国内RFID 的研究现状，但也是针对某个具体领域，没有对RFID技术发展现状及趋势进行整体把握;实证研究针对的是2005 年以前的论文，研究结论不再具备时效性。因此，为全面、系统地描绘国内RFID 研究的最新进展及发展趋势须进一步深入研究。"
+  },
+  "2研究方法和方案": {
+    "context1": "2.1研究方法文献计量法和内容分析法作为两种研究各具特色的科学研究和情报学研究方法在科学研究评价中起到了积极作用[13-14]。文献计量法借助文献的各种特征数量，采用数学与统计学方法来评价和预测科学技术的现状与发展趋势，但分析粒度较粗且难以度量论文质量;内容分析法通过对文献的内容进行分析，透过现象看本质，但由于介入了很多人为因素,研究结果具有很强的主观性[15-16]。面对 RFID 领域的海量文献，为克服单一文献分析方法造成的局限，本文将文献计量法与内容分析法综合应用于本研究，以期得到可靠、准确的分析结果。",
+    "context2": "2.2研究方案鉴于目前国内的研究还没有形成标准的RFID 技术分类框架,本文在借鉴前人研究基础上结合《中国射频识别（RFID)技术政策白皮书》，把RFID 技术研究分为共性基础技术、软件与信息平台、技术标准与测试、其他等四大类，各大类又分为若干小类[1]。通过对检索到的论文进行内容分析，依据文章的题目、摘要、关键词、引言和结论来推断论文的主题，判断论文所属类目，一篇文章只对应一个大类中的一个小类。",
+    "context3": "为全面了解国内RFID技术的研究现状，保证来源数据的科学性、代表性，选取国内核心期刊上与RFID 技术或其应用直接相关的学术性论文（不含会讯、消息、信息等非学术论文，增刊论文亦不计入)。在中国期刊网(CNKI)的中国期刊全文数据库中查询近",
+    "context4": "10年来( $1 9 9 9 \\sim 2 0 0 8$ )主题为\"RFID”或者“radio fre\"quency identification\"的核心期刊、EI来源期刊、SCI来源期刊，返回结果为核心期刊430篇,EI来源期刊161篇,SCI来源期刊1篇。剔除核心期刊和EI来源期刊中重复和不符合研究要求的论文，实际得到496 篇。",
+    "context5": "表1RFID 技术分类框架",
+    "context6": "<table><tr><td>共性基础 技术</td><td>软件与信 息平台</td><td>技术标准 与测试</td><td>其他</td></tr><tr><td>芯片设计与制 造</td><td>应用系统</td><td>隐私与安 全</td><td>综述或一 般性介绍</td></tr><tr><td>天线设计与制 造</td><td>中间件和数据 管理</td><td>标准</td><td></td></tr><tr><td>电子标签封装 技术与装备</td><td>系统集成</td><td>测试</td><td></td></tr><tr><td>读写器设计与</td><td>公共服务体系</td><td></td><td></td></tr><tr><td>制造 防碰撞算法</td><td></td><td></td><td></td></tr></table>"
+  },
+  "3数据分析与结论": {
+    "context1": "3.1年度论文发表数量分布 $1 9 9 9 \\sim 2 0 0 8$ 年,各年度RFID论文发表数量见图1。从图1可以看出，2005 年以前国内对RFID研究相对较少。受国家政策对RFID产业扶持的激励，特别是国家863计划RFID专项的逐步实施，RFID 的研究取得了长足进步，仅2006 年发表的论文数量就超过了以前各年度的总和。",
+    "context2": "3.2　期刊分布一共有154 种国内核心期刊发表了与RFID技术或其应用直接相关的学术性论文。表2 列出了发表5篇及以上RFID学术论文的期刊名称及其论文数量。从表2可以看出，一共25 种核心期刊上发表了5篇及以上RFID学术论文，其中《计算机工程》、《微计算机信息》是目前国内发表RFID相关论文数量较最多的期刊。",
+    "context3": "![](images/8f503e4130b3ce6b8d2b3867f853c9e279983975d53baed15f32aa4e225d4b0e.jpg)  \n图1 $1 9 9 9 \\sim 2 0 0 8$ 年各年度论文发表数量",
+    "context4": "3.3研究领域分布图2描述了RFID研究领域分布情况，由图可知国内RFID研究的重点领域主要集中在软件与信息平台（174 篇论文，占论文总数的$3 5 . 0 8 \\%$ ),而标准与测试领域(35 篇论文，占论文总数的7.06%）是目前BFID研究中最为薄弱的环节ki.ne",
+    "context5": "表2发表5篇及以上RFID学术论文的期刊",
+    "context6": "<table><tr><td>期刊名称</td><td>论文数</td><td>期刊名称</td><td>论文数</td></tr><tr><td>计算机工程</td><td>41</td><td>农业工程学报</td><td>6</td></tr><tr><td>微计算机信息</td><td>41</td><td>仪器仪表学报</td><td>6</td></tr><tr><td>商场现代化</td><td>32</td><td>微电子学</td><td>6</td></tr><tr><td>中国物流与采购</td><td>27</td><td>煤矿安全</td><td>6</td></tr><tr><td>半导体学报</td><td>20</td><td>北京邮电大学学报</td><td>5</td></tr><tr><td>电子技术应用</td><td>15</td><td>图书馆建设</td><td>5</td></tr><tr><td>计算机工程与应用</td><td>12</td><td>计算机工程与设计</td><td>5</td></tr><tr><td>计算机应用</td><td>11</td><td>上海海事大学学报</td><td>5</td></tr><tr><td>微电子学与计算机</td><td>9</td><td>现代情报</td><td>5</td></tr><tr><td>计算机应用研究</td><td>8</td><td>制造业自动化</td><td>5</td></tr><tr><td>包装工程</td><td>8</td><td>电测与仪表</td><td>5</td></tr><tr><td>图书馆论坛</td><td>7</td><td>中国市场</td><td>5</td></tr><tr><td>航空维修与工程</td><td>7</td><td></td><td></td></tr></table>",
+    "context7": "![](images/0c2612d67742dc90ff80984bdcdee3d6e2946cf5d219c52e21608aa5583e3294.jpg)  \n研究领域分布  \n图2研究领域分布",
+    "context8": "共性基础技术类论文统计见表3。读写器设计与制造、防碰撞算法、芯片设计与制造等领域研究比较活跃，占本大类比例分别为31. $82 \\%$ 、30. $30 \\%$ 和$2 4 . 2 4 \\%$ ;天线设计与制造占 $1 2 . 8 8 \\%$ ;电子标签封装与装备作为电子标签的一个重要环节，研究还处于起步阶段,2007年王日明等研究了CIS 图像反馈技术在RFID 封装设备中的应用[18]。",
+    "context9": "表3共性基础技术类论文",
+    "context10": "<table><tr><td>共性基础技术</td><td>论文数</td><td>本大类比 例(%)</td><td>总主题 比例(%)</td></tr><tr><td>读写器设计与制造</td><td>42</td><td>31.82</td><td>8.47</td></tr><tr><td>芯片设计与制造</td><td>32</td><td>24.24</td><td>6.45</td></tr><tr><td>电子标签封装与装备</td><td>1</td><td>0.76</td><td>0.20</td></tr><tr><td>天线设计与制造</td><td>17</td><td>12.88</td><td>3.43</td></tr><tr><td>防碰撞算法</td><td>40</td><td>30.30</td><td>8.06</td></tr><tr><td>合计</td><td>132</td><td>100</td><td>26.61</td></tr></table>",
+    "context11": "表4软件与信息平台类论文",
+    "context12": "<table><tr><td>软件与信息平台</td><td>论文数</td><td>本大类 比例(%)</td><td>总主题 比例(%)</td></tr><tr><td>应用系统</td><td>139</td><td>79.89</td><td>28.02</td></tr><tr><td>系统集成</td><td>11</td><td>6.31</td><td>2.22</td></tr><tr><td>中间件和数据管理</td><td>16</td><td>9.20</td><td>3.23</td></tr><tr><td>公共服务体系</td><td>8</td><td>4.60</td><td>1.61</td></tr><tr><td>合计</td><td>174</td><td>100</td><td>35.08</td></tr></table>",
+    "context13": "系统的研究主要集中在面向公共安全、现代物流与供应链管理、交通管理、生产管理与控制等领域;相对应用系统的研究,RFID系统集成技术、中间件和数据管理技术以及公共服务体系的研究还处于理论探索阶段。详细应用系统分类统计见表5。",
+    "context14": "表5应用系统子类论文",
+    "context15": "<table><tr><td>应用系统</td><td>论文数</td><td>本类比 例(%)</td><td>总主题 比例(%)</td></tr><tr><td>公共安全</td><td>45</td><td>32.37</td><td>9.07</td></tr><tr><td>现代物流与供应链管理</td><td>39</td><td>28.06</td><td>7.86</td></tr><tr><td>交通管理</td><td>15</td><td>10.79</td><td>3.02</td></tr><tr><td>生产管理和控制</td><td>14</td><td>10.07</td><td>2.82</td></tr><tr><td>□岸进出口监管</td><td>2</td><td>1.44</td><td>0.40</td></tr><tr><td>其他</td><td>24</td><td>17.27</td><td>4.84</td></tr><tr><td>合计</td><td>139</td><td>100</td><td>28.02</td></tr></table>",
+    "context16": "标准与测试类论文见表6。隐私、安全是RFID推广和应用的关键问题，相关研究的占本大类的 $5 4 . 2 9 \\%$ ；测试是保障RFID系统可靠性的基础，国内研究人员对RFID 进行了一系列性能和应用测试研究，包括阅读器和标签安装方式[19]、金属环境[20]对 RFID 读写率的影响,RFID 信号损失与覆盖模型[21]等;而关于RFID 标准相关的研究仅占本大类的 $5 . 7 1 \\%$ 。表7中，关于RFID的综述性论文很多(54篇论文，占论文总数的 $10 . 8 9 \\%$ )，反映出国内研究",
+    "context17": "人员对RFID 技术的密切关注，通过对大量的国内外RFID应用相关成功案例的介绍，为国内RFID 的研究和实施提供了宝贵经验。",
+    "context18": "表6标准与测试类论文",
+    "context19": "<table><tr><td>标准与测试</td><td>论文数</td><td>本大类比 例(%)</td><td>总主题 比例(%)</td></tr><tr><td>标准</td><td>2</td><td>5.71</td><td>0.40</td></tr><tr><td>隐私、安全</td><td>19</td><td>54.29</td><td>3.83</td></tr><tr><td>测试</td><td>14</td><td>40</td><td>2.82</td></tr><tr><td>合计</td><td>35</td><td>100</td><td>7.06</td></tr></table>",
+    "context20": "表7其他类论文",
+    "context21": "<table><tr><td>其他</td><td>论文数</td><td>本大类 比例(%)</td><td>总主题 比例(%)</td></tr><tr><td>综述</td><td>54</td><td>34.84</td><td>10.89</td></tr><tr><td>一般应用介绍</td><td>101</td><td>65.16</td><td>20.36</td></tr><tr><td>合计</td><td>155</td><td>100</td><td>31.25</td></tr></table>",
+    "context22": "3.4结论对某领域已发表的文献进行回顾有利于研究者跟踪研究热点，规避研究风险[22]。全面而系统的文献综述不仅能对某些研究问题进行重新评价和创新,还能指导某研究领域的未来研究方向[23]。本文通过对 $1 9 9 9 \\sim 2 0 0 8$ 年国内154 种国内核心期刊上发",
+    "context23": "C软件与信息平台类论文统计见表EID应用Publi表的496篇RFIP学术论文进行研究p得出国内关于et",
+    "context24": "RFID 研究的如下结论：",
+    "context25": "a·近年来，特别是2005 年以后，国内RFID 的研究和应用得到了突飞猛进的发展，但2008年国内研究成果有了一定下滑。根据Gartner的\"光环曲线”理论可以预计RFID技术已经过了过热期，正逐步走向商业化的道路[24]。",
+    "context26": "b·目前国内RFID 的研究主要偏重于RFID 应用系统的研究和共性基础技术研究。应用系统研究集中于公共安全、现代物流与供应链管理两方面，交通管理、生产管理和控制方面也取得了一定进展;电子标签封装与装备的研究是共性基础技术的薄弱环节，一定程度制约了国内电子标签制造业的发展壮大。",
+    "context27": "c·鉴于国内RFID成功应用案例相对较少，对RFID 的数据管理技术、系统集成技术以及公共服务体系平台等方面还缺乏深入研究。",
+    "context28": "d·关于标准和测试：隐私、安全方面，国内专家从RFID 标签、数据和网络三个层面对RFID 隐私、安全进行了研究;标准方面，只能公开查询到面向图书馆行业的编码标准化方案[25],还没有形成针对多种行业RFID标准;测试方面，对RFID性能测试和应用测试两方面进行了单因素条件下的研究，还没有针对多因素复杂环境进行相应测试。",
+    "context29": "e·受国内RFID还处于小规模试点应用的限制，RFID 的研究偏重于技术和应用层面。理论研究不完善也缺乏对RFID 的实证研究，没有从经济、社会角度对建立RFID评价指标体系和投资收益模型，缺乏面向行业、具有指导意义的应用模式和应用框架。",
+    "context30": "3.5发展趋势理论研究和应用实践相结合是成功实施RFID 的关键，除大力推动RFID 相关技术的攻关还必须从经济、社会、政策等角度对RFID进行系统研究，并建立一系列涉及到RFID系统设计、规划、实施和评价的原则和规范。",
+    "context31": "预计未来RFID 的研究将向以下几个方面发展：a·RFID系统定性或者量化模型评估。选取合适的评价指标，利用定量的数学模型研究和分析RFID系统的性能以及 RFID 系统应用的效果[26-27]。b.面向行业应用的RFID投资收益分析。尽管RFID 技术具有很多优势，但并非所有RFID的实施案例都获得了成功。应综合考虑成本、标准、风险等多因素建立面向行业应用的RFID投资收益分析模型，为企业采用RFID提供决策支持[28-29]。c.面向特定行业的 RFID 应用模式和应用框架研究。RFID系统的实施没有通用的模式可以照搬，不同行业具有不同的应用点和应用需求，应针对行业的具体特征研究合适的RFID应用模普遍指导意义的基本准则和规范[30- -31] d· RFID 实施对现有信息不对称市场的影响。现有供应链管理中经常会出现信息不对称、信息失真等问题，RFID 实现了供应链的各个环节之间信息的准确传达和供应链的透明化、可视化，必将改变供应链中上下游企业、买卖方之间的关系[32-33]。 $\\mathbf { e } \\cdot \\mathbf { \\partial }$ RFID 实施对企业业务流程的影响。RFID技术使得企业管理理念得到创新，企业中很多原本分离的工作实现了功能整合和重组，必然会导致企业业务流程的重组[34]。f·隐私、安全和标准体系研究。RFID技术要得到广泛的应用和推广，必须首先解决RFID 的隐私、安全问题[35]。而 RFID 标准体系关系到物品信息控制权和RFID产业控制权，主要用于解决解决编码、通信、空中接口和数据共享等问题，制定符合中国国情、具有自主知识产权的RFID 标准体系显得特别重要[36]。g·RFID产业化关键技术研究。国内RFID要实现大规模产业化的进程，必须要对关键技术进行大力攻关，主要包括：芯片设计与制造、天线设计与制造、电子标签封装技术与装备、RFID标签集成、读写器设计与制造等[17]。"
+  },
+  "4结束语": {
+    "context1": "本文利用内容分析法对国内近10年来RFID 技术的发展进行了统计分析和概括总结，提出了RFID技术未来发展方向，但仍存在不足之处。a·文献数量还不够全面，国内学者在国外期刊上发表的学术论文暂未纳入统计范围;b·由于期刊发表时间的滞后性，因此本文的统计分析和结论并不能完全符合RFID技术发展的真实状况;c:由于国内暂无较为权威的RFID技术分类框架,本文在借鉴前人成果的基础上提出了自己的观点，且由于内容分析法本身的主观性，本文的研究具有一定的局限。"
+  },
+  "参考文献": {
+    "context1": "[44」Gartner Group $^ { \\dagger \\ast }$ Emerging Technologies Hype Cycle &UUə(OL) [EB].http://www $\\cdot$ gartner·com : 2008   \n[25]董曦京·图书馆行业RFID一UID 编码标准化方案问题探讨 [J]·现代图书情报技术，2006(12)：62－66   \n[26]李泉林,郭龙岩·综述 RFID 技术及其应用领域[J]·RFID 技术 与应用,2006,1(1):51-62   \n[27] Chen-Yang Cheng,and Vittal Prabhu Performance Modeling of Business Processes Enabled by RFID and Web Services[C]//Pro\" ceedings $- 6 \\mathrm { { t h } }$ IEEE/ACIS International Conference on Computer and Information Science,ICIS 2OO7;1st IEEE/ACIS Internation\" al Workshop one—Activity，IWEA,2OO7:718—723   \n[28] Shiou-Fen Tzeng,Wun-Hwa Chen,Fan-Yun Pai Evaluating the Business Value of RFID:Evidence From Five Case Studies [J]·International Journal of Production Economics，2OO8,112 (2):601-613   \n[29] Jayavel Sounderpandian, Rajendra V Boppana,Suresh Chalasani , et al· Models for Cost-Benefit Analysis of RFID Implementations in Retail Stores[C]//2OO6 Innovations in Information Technolo\" gy，IIT,2006,105—114   \n[3O]Daria Battini,Maurizio Faccio,Alessandro Persona,et al·A new Methodological Framework to Implement an RFID Project and its Application[J]. International Journal of RF Technologies：Research and Applications,2009,1(1):77—94   \n[31] Dianmin Yue, Xiaodan Wu， Junbo Bai $\\therefore$ RFID Application Framework for Pharmaceutical Supply Chain[C]//Proceedings of 2008 IEEE International Conference on Service Operations and Logistics,and Informatics,IEEE/SOLI,2008,1l25-1130   \n[32] May Tajima $, \\cdot$ Strategic Value of RFID in Suply Chain Management[J]·Journal of Purchasing and Supply Management,2007,13 (4):261-273   \n[33] Harold Boeck $_ \\cdot \\cdot$ RFID and Buyerseller Relationships in the Retail Supply Chain[J]·International Journal of Retail $\\&$ Distribution Management,2008,36(6):433—460   \n[34]刘传玺，周秀会,董真·基于RFID 技术的图书馆业务流程重 组[J]·图书馆论坛,2008,28(5):68-70   \n[35]曾丽华,熊璋,张挺·Key 值更新随机Hash 锁对RFID安 全隐私的加强[J]·计算机工程,2007,33(3)：151—154   \n[36]翟根红,王异轩,谢关友等.对我国建立RFID 标准体系的几点 思考[J]·物流技术,2008,27(8):20-21",
+    "context2": "(责编：刘影梅)",
+    "context3": "[4]黄志标,周琳·广西知识产权战略研究:战略的制定与实施[J]·广西大学学报(哲学社会科学版),2008,30(2)：89-93  \n[5]韩华林，包蕾萍·上海知识产权发展;SWOT分析和制度创新[J].社会科学，2005(8).16-21  \n[6]戴宏伟,赵敏·东北地区知识产权战略SWOT 分析[J]·商场现代化，2008(11)：268—269  \n[7] 王国金，范威·构建镇江区域知识产权战略的思考[J]·镇江社会科学,2006(2)：4—7  \n[8]莫守忠·促进创新型湖南建设的知识产权战略[J]·湖南财经高等专科学校学报,2007,23(105)：5—8",
+    "context4": "(责编：白燕琼)"
+  },
+  "（上接第69页）": {
+    "context1": "[1]国家知识产权战略纲要[EB/OL]·http://www·gov:cn/ 06/ 10/2008   \n[2]Houben G,Lente K,Vanhoof K·A Knowledgw Based SWOTanalysis as an Instrument for Strategic Planning in Small and Medium Sized Enterprises [J].Decision Support Systems,1999 (2)：125-135   \n[3] Weihrich H.The TOWS Matrix:A Tool for Situational Analysis [J]·Long Range Planning,l982(2):54-66"
+  }
+}

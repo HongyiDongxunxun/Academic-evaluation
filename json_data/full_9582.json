@@ -1,0 +1,64 @@
+{
+  "original_filename": "full_9582.md",
+  "语义检索研究综述": "",
+  "黄敏": {
+    "context1": "西南大学计算机与信息科学学院重庆400715"
+  },
+  "赖茂生": {
+    "context1": "北京大学信息管理系北京100871",
+    "context2": "[摘要]随着语义网技术的发展，语义检索已成为研究热点，其旨在克服传统网络检索技术的局限性，支持知识检索。在对现有研究与应用调研的基础上，对当前语义检索研究进行综述,详细分析两类语义检索研究：语义支持的检索及语义网资源检索，并进一步分析后者三种不同的研究方向：语义网文档检索，实例检索和关系检索。",
+    "context3": "[关键词)语义检索语义网本体信息检索",
+    "context4": "[分类号]TP391"
+  },
+  "Survey of Semantic Search": "",
+  "Huang Min": {
+    "context1": "College of Computer and Information Science, Southwest University, Chongqing 400715"
+  },
+  "Lai Maosheng": {
+    "context1": "Department ofInformation Management,Peking University,Beijing 100871",
+    "context2": "(AbstractWiththedevelopmentofsemanticweb,theresearchofsemanticsearchhasbeenhotspot.Through investigation,twodierent categoriesfsmanticsearcedividd:seanticallyasistedsearhandseaticebresourcessearchurtheror,nsmanticebearch three dimensions are analyzed: ontology search, instance search, relations search.   \n(Keywords)semantic searchsemantic webontologyinformation retrieval"
+  },
+  "1网络信息检索的局限与语义检索": {
+    "context1": "目前网络检索的实现技术主要有两种：一种是依赖于编码处理，通过分类模式来描述信息资源，从而实现检索；另一种是通过全文检索，查找文本中含有用户指定词语的信息源[1]。其应用的体现分别为基于分类目录的搜索引擎和全文搜索引擎。前者虽然基于人工处理，准确性较高，但它更适合用于网络信息资源的浏览和导航；后者实现较为方便，适应了对迅速增长的海量网络信息资源进行自动处理的需要，成为网络信息检索的主要途径。但是用户在检索中始终面临不少困难，如：检索结果的过载和低查准率，用户负担重；检索结果及其排序不一致，且与用户使用的查询词汇形式及其组合形式高度相关等。究其原因，统计意义上的词型匹配难以支持对网络信息资源的有效检索利用。因此研究者们将目光投向了对词形背后的意义的挖掘上，探索实现基于概念匹配的检索技术和方法。",
+    "context2": "早在上世纪80年代对语义检索的讨论就出现在SIGIR会议论文中，但语义检索研究始终受制于语义信息处理发展水平的局限。随着自然语言处理、人工智能的发展，尤其是语义网技术的兴起与发展，语义检索研究自上世纪末以来得以迅速发展。尽管到目前为止对语义检索在概念上仍没有统一的界定，但不同的研究却有着共同之处，就是基于对信息资源的语义处理实现效率更高的检索。语义信息的提取和处理可以是基于语义网方法与技术的，也可以是基于自然语言处理技术的。目前，前者在语义检索研究中相对更为普遍。事实上，正是由于语义网的出现与发展，才使语义检索的研究更加得以明确并发展如此迅速。"
+  },
+  "2基于本体的信息资源检索": {
+    "context1": "本体是语义网技术的核心部分，承担着语义表达的关键任务。本体在传统信息检索中的应用可促进从词型匹配到概念匹配的转变。从处理环节来看，它体现在两个方面：查询处理与文档标注及索引。"
+  },
+  "2.1基于本体的查询处理": {
+    "context1": "基于本体的查询处理包括查询消歧与查询扩展。通过消歧，明确查询的确切所指，准确反映用户的信息意图，继而通过加入与其语义相关的其他概念来实施扩展。许多研究中利用了语言本体(如WordNet),通过其所提供的词的不同义项来实现查询消歧，通过其所蕴含的同义、整分、上下位等词汇关系来实现查询扩展。文献[2]支持两种处理模式：查询消歧和扩展、检索结果后分类控制。前者是系统在查询消歧的基础上将某义项的上位词或下位词加入以扩展查询;后者则是系统先以常规方式处理用户查询，再对检索结果基于用户指定的查询义项进行分析和加权。文献[3]则在词义消歧的基础上，利用WordNet根据查询词义抽取子概念图来实现查询扩展。子概念图作为查询的上下文信息用于支持对由普通搜索引擎返回的初次结果的过滤,以选出相关文档。文献[4]提出的查询消歧方法包括三步：首先用WordNet中的义项及同义词簇，对查询用词进行两两配对，即在固定其中一词的情况下，与另一词的所有义项进行组合，得到若干种不同的组合情况,反之亦然;其次将这些组合作为提问通过AltaVista进行搜索，并根据命中数对它们进行排序;最后，以WordNet中对相关义项的注释为上下文，计算排序在前的配对词间不同义项组合的语义密度，从而决定查询用词所指的确切概念。国内基于WordNet汉化而建设的中文概念词典(CCD)也在信息检索研究中得到了应用。",
+    "context2": "此外,各种自建的领域本体也被应用于查询处理。文献[5]以一个有关人、地、事件、组织等的本体为基础来实现查询消歧，为每一个初始查询结果提供一个特别链接，用户通过点击这些链接来向系统确认该结果代表的概念符合其查询意图。文献[6]构建了一个三层本体模型,分别为概念层(即按等级层次组织起来的概念)、语言层(即与概念对应的表达形式)、出现层 (即对应于表达形式的具体字串)。在其可视化本体浏览提问接口中，用户可在本体层级体系中点击选择合适的概念。系统会自动执行查询扩展，将用户指定层级范围内的下位概念以及相关关联概念增加进来。扩展后的查询通过上述三层本体模型从抽象到具体被依次转换，最终变为由文档中实际出现的具体词汇构成的查询式。"
+  },
+  "2.2语义标注文档的检索": {
+    "context1": "语义标注文档检索的一种普遍思路是在对文档进行语义标注与索引的基础上，先进行实例检索，再据此返回所有以检出实例标注的文档信息。此外,也有其他不同方案。文献[7]引入了向量空间模型,采用了基于概念级的向量空间文档表达，还设计了文档排序算法。文献[8]在进行标注时以文档为单位，将其作为一个概念类的实例来进行处理。它设计了一种独特的索引和检索方法，以从文档全文和其语义标注数据中抽出的内容描述符 (词）来代表文档，并建立索引记录。这样的索引可支持基于关键词或语义标注信息的检索。文献[9]根据自建的历史领域本体对文档进行实例标注以构成其语义上下文信息(含概念与时间信息),并认为用户浏览的当前资源的上下文信息可代表其真实查询意图。检索时，用户首先通过传统的全文检索获得一个初始资源或自行提供一个初始资源。然后系统据此反馈该资源的上下文信息，并以嵌入文档中的链接供用户选择。当用户点击链接时，系统即将当前上下文信息作为新的查询,对其进行基于本体和规则的查询扩展,在对系统全部文档先进行过滤之后，再进行最终的检索匹配。"
+  },
+  "3语义网资源检索": {
+    "context1": "语义网是一个基于某种知识表达语言(如RFD(S)、OWL等）的、机器可处理的语义网文档集合。从逻辑上看，它不再仅是一个普通文档的网络，而是一个资源(可以是各种媒介资源和现实世界中的其实对象，如人、地方、组织、事件等）及其语义关系的网络，表现为本体文档，实例数据和各种语义关系。"
+  },
+  "3.1本体文档检索": {
+    "context1": "本体文档检索旨在找到含有特定类或属性的本体文档。普通搜索引擎，如Google,可以通过指定文档类型为RDF等方法来搜索本体文档，但其根本问题是不能识别本体文档中的结构化语义标注信息，因而也无法将它们与普通文本信息区别对待。所以在检索的过程中无法将真正符合需要的本体文档与那些只是含有检索词的本体文档区分开来。这正是对本体文档进行检索需要解决的问题。",
+    "context2": "解决问题的一种思路就是对本体文档进行适用于普通搜索引擎的改造处理。文献[10]就是基于这种思路,通过对RDF文档进行一定处理使其可被普通搜索引擎索引和检索，而同时又能在某种意义上发挥其语义信息的作用。它的关键技术Swangling能将语义信息编码成普通文本,并将其作为新的陈述加入到原RDF文档中（对于以三元组表示的查询，也以相同编码方法处理,将其变为普通文本)。这样提问与文档的匹配就可以按传统的方式进行。",
+    "context3": "另一种思路则是探索新的本体搜索方法和技术。文献[11]使用了本体注册的方法。注册服务器并不实际存储任何本体文档，只保存由本体服务器提供的元数据信息。同时，系统通过将本体中的元素与WordNet中的词进行匹配来构建本体摘要，并将其也放入元数据信息。这样，用户就可以从WordNet中选词来对注册服务器进行检索。文献[12]采用基于Google Web Servic构建的Googlecrawle来进行本体搜索在此基础上，基于向量空间模型，采用一种概念一权重向量匹配方法来进行本体索引与匹配。文献[13]也进行基于Googlecrawler的本体搜索,不同的是,系统没有独立的索引和匹配过程,而是将Google搜索与本地仓库结合起来，后者专门用于存储已搜索到的本体文档，并保存检索历史。对于已经执行过的同类查询，系统直接从本地仓库中提供查询结果，只有当一定时间内无相同查询被执行过时，才后动新的一次Google搜索。文献[14]还另开发了针对某个特定网站的搜索器以及基于JENA2的搜索器。系统将从搜集到的语义网文档中抽取的元数据与原结构信息一起存入数据库。它们支持对含有某一特定类或属性的本体的查询。同时还通过定制的索引与检索引擎Sire对语义文档进行基于传统检索技术的处理。文献[15]提出了另一种匹配方法,它通过Google搜索获取一批与用户查询域相关的文档，然后从这些文档中抽取一批词，并用这个词集合取代原始查询与本体文档进行检索匹配。在结果排序方面，主要有两种方法：一种是跨本体链接分析方法(cross-ontologylink-analysis;另一种则是图分析方法(graph-analysismethod。从效果上看,前者是让更流行的本体文档排序在前，而后者则是让更相关的本体文档排序在前。"
+  },
+  "3.2 实例检索": {
+    "context1": "除了本体文档外,语义网资源还有表征各类对象的实例数据。对于大多数一般用户来说，对实例数据检索的需求更为普遍。实例检索的目的是在基于本体的知识库中发现和搜集关于某一指定类的所有实例信息。尽管传统检索技术在其中也有不同应用，但实例检索主要是基于结构化查询与推理的。基于RDF(S)、OWL等底层知识模型的图遍历(graph-traversal)与图模式(graph patterns得到了广泛的应用。文献[5]中用语义网数据来补充传统检索结果的这一部分就属于实例检索。其“语义网\"资源包括正式的语义网文档和语义标注信息。在执行传统检索的同时，系统会针对查询概念在RDF知识库中通过图遍历搜索所有相关的数据信息。文献[16]相对复杂的是将一种认知模型加入到搜索过程中，它支持用户用自然语言输入一段文字，从中抽出概念并将其作为关键词概念的上下文信息以用于检索过程。文献[17]在传统关键词检索的基础上，结合了扩展激活算法，通过图遍历进一步扩展搜索与初始结果相关的更多实例信息(即使其不含查询中的关键词甚至与初始结果不是直接相关联)。文献[18]在此基础上还提出了一个特别的实例相似性计算方法,并将其用于扩展激活过程中。文献[19]提出了一种面向RDF(S)仓库的可视的语义检索途径。系统为用户提供可视的语义检索与语义浏览服务,其基础是底层的本体及基于本体映射得到的概念分面。在多分面视图中，用户可对系统资源有一个概括的了解，并通过点击各分面中的不同范畴概念来提交查询。文献[20]中的语义搜索引擎通过图遍历等方法来进行查询构建与查询扩展。系统接受用户的自然语言提问，并将其解析为一组元素(包括类、属性、实例等)，构建基于这些元素的图模式以作为复杂提问。文献[7]中的隐式查询扩展也是基于类层次关系与规则而实现的。为了更好地结合传统信息检索技术与结构化查询及推理,充分利用普通文本信息与语义标注信息,文献[21]提出了一种增强的语义检索模型,基于自由文本的关键词搜索与基于语义信息的结构化查询与推理被紧密地融合在一起来实现检索目标，这种检索有利于解决集中了模糊关键词概念与结构化查询要素的混合查询问题，如“请查找由研究语",
+    "context2": "义网检索的教授撰写的论文”"
+  },
+  "3.3语义关系检索": {
+    "context1": "尽管在上述本体文档检索与实例检索中运用了各种语义关系，但毕竟没有直接以这些语义关系为检索处理对象。而概念、文档等之间的语义关系也应是语义网资源检索的重要内容之一。目前，一些研究已开始关注针对语义关系的检索问题,如文献[22]、[23]等进行的有关语义关联检索(Semanticassociationsearch的研究。它所关注的不仅是简单的属性链关系，更是概念间的各种复杂关联关系。研究的主要贡献是分析了语义关系检索所面临的三大主要挑战(即对关系的理解不够通用和全面、缺少以关系而非概念为对象的查询语言和系统、检索结果排序问题)，并提出了相应的解决方法(将关系分为语义关联和语义相似性两类并形式化、设计了p-query以支持关系查询、基于用户指定的上下文来进行结果排序)。为检验这些解决思路，在相关研究的基础上，还在国家安全领域实现了一个名为SemDIS的检索系统[24]。"
+  },
+  "4 结语": {
+    "context1": "语义检索较之于传统网络检索的进步主要在于能表达和处理信息的语义内容以实现基于语义的匹配和推理。此外,传统网络检索仍属文献检索而非信息检索、知识检索，其结果仅提供相关文档的链接。但通常用户所需的信息是分散在多个文档中的，需要对多次查询所得的相关文档进行遍历、信息抽取与组合以满足需要。而语义检索则能为实现从文献检索到信息与知识检索的转变提供支持。",
+    "context2": "在语义检索的发展中本体处于非常重要的位置，它承担着知识表达的核心任务，对检索中基于语义的文档与提问处理以及实现智能推理都起着支撑作用。因而在自然语言处理、人工智能还不能支持完全自动化处理的情况下，本体构建始终是语义检索的主要问题之一。在这方面，经过长期发展积累的受控语言因其包含着丰富的语义资源，有待在语义检索中被挖掘利用。此外，语义检索中面临的问题还有如语义标注、充分利用语义标注信息与全文信息、检索结果排序以及提供友好用户接口等方面。"
+  },
+  "参考文献：": {
+    "context1": "[1] Guarino N, Masolo C, Vetere G. OntoSeek: content-based access to the web.IEEE Intelligent Systems,1999,14(3): 70-80.   \n[2]Kruse PM, Naujoks A, Ro'sner D. Clever search: A wordnet based wrapper for internet search engines//Claudia K,LotharL.Proc. of the 2nd GermaNet Workshop:applications of GermaNet Il. Bonn,Germany:arXiv e-print,2005.   \n[3] Albanese M, CapassoP,PicariclloA,etal. Information retrieval from the web:An interactive paradigm// Candan K S, Celentano A,Eds..MIS 2005:LNCS 3665.Berlin, Heidelberg:Springer",
+    "context2": "Verlag,2005:17-32.   \n[4]Moldovan DI, Mihalcea R.Using WordNet and lexical operators to improve internet searches.IEEE Internet Computing, JanFeb, 2000.   \n[5] Guha R, McCool R,Miller E.Semantic search// IW3C2,MTA SZTAKI.Proc.of the 12th int'l Conf.on Www.New York: ACM，2003:700-709.   \n[6]Airio E.Jarvelin K,Saatsi P.Ciri -anontology-based query interface for text retrieval// HynenE, KauppinenT,Salminen M,et al,eds..Proceedings of the 11th Finnish Al Conference, vol2.,Web Intelligence.Finland: Finnish Al Society,2004.   \n[7] Vallet D,Fernadez M, Castells P.An ontology-based information retrieval model// ESwc 2005: LNcS 3532. Springer-Verlag,2005:455-470.   \n[8] Davies J.Weeks R.QuizRDF: Search technology for the semantic web// Sprague R H, Jr.Proceedings of the 37th Annual Hawaii International Conference on System Sciences (HICSs'4). CA,Los Alamitos:IEEE Press,2004.   \n[9]VICODI_annual report 2003.[2007-11-25].http://www.vicodi. org/VICODl_Annual%20Report_2003.doc.   \n[10] Finin T,Mayfield J, Joshi A.Information retrieval and the semantic web// Phan V, Glisic S, Luong D. Proceedings of the 38th Hawaii International Conference on System Sciences.CA, Los Alamitos: IEEE Press, 2005.   \n[11] Maedche A, Motik B, Stojanovic L.An infrastructure for searching,reusingandevolvingdistributedontologies// IW3C2, MTA SZTAKl．Proc.of the 12th int'l con.on www.New York:ACM,2003:439-448.   \n[12] Gao M,Liu C, Chen F.An ontology search engine based on semanticanalysis//Proc.of the Third int'l Conf.on Information Technology and Applications.Washington，DC.USA:IEEE Computer Society, 2005:256-259.   \n[13] Zhang Y, Vasconcelos W, Sleeman D. Ontosearch: An ontology search engine// Macintosh A,Ellis R,Allen T,editors. Applications and Innovations in Intelligent Systems XIl, Proc. of the 24th SGAl int'l Conf．on Innovative Techniques and ApplicationsofArtificial Intelligence.LectureNotes inArtificial Intelligence,Berlin,Heidelberg:SpringerVerlag,2004.",
+    "context3": "[14] Ding L, Finin T, Joshi A. Swoogle: A search and metadata engine",
+    "context4": "for the semantic web// ACM SIGIR.Proc.of the 13th ACM int'l conf.on Information and knowledge management.New York: ACM，2004:652-659.   \n[15] Jones M,Alani H. Content-based ontology ranking.[2008-00- 00].http://eprints.ecs.soton.ac.uk/12605/01/protege06-final.pdf   \n[16] K.Wechsler, J.Baier, M.Nussbaum, etal. Semantic search in the wwW supported by a cognitive model// WAlM 2004:LNCS 3129.Berlin, Heidelberg: Springer-Verlag,2004: 315-324.   \n[17] Rocha C.A hybrid approach for searching in the semantic web// Feldman SI, Uretsky M, Najork Marc, et al, Eds..Proc.of the 13th int'l conf.on Www. New York:ACM,2004:374-383.   \n[18] Zhang K, Tang J, Hong M C.Weighted ontology-based search exploiting semantic similarity// APWeb 2006: LNCS 3841. Berlin, Heidelberg: Springer-Verlag,2006: 498-510.   \n[19] Hyvonen E, Saarela S, Viljanen K. Application of ontology techniques to view-based semantic search and browsing// ESWS 2004:LNCS 3053.Berlin, Heidelberg:Springer-Verlag,2004: 92-106.   \n[20] Rodrigo L, Benjamins VR, Contreras J.A semantic search engine for the int'l relation sector// ISWC 2005: LNCS 3729. Berlin, Heidelberg:Springer-Verlag,2005:1002-1015.   \n[21] zhang L,Yu Y, Zhou J.An enhanced model for searching in semantic portals// EllisA, Hagino T, Eds..Proc.of the 14th int'l Conf.on Www.New York:ACM，2005:453-462.   \n[22] Anyanwu K, Sheth A.p-Queries: Enabling querying for semantic associations on the semantic web// IW3C2, MTA SZTAKI.Proc. of the 12th int'l Conf.on WwW.New York:ACM,2003:690- 699.   \n[23]Aleman-Meza B, Halaschek C, Arpinar I B. Context-aware semantic association ranking// Cruz IF, Kashyap V, Decker S, et al,Eds..Proc.of the 1th int'l Workshop on Semantic Web and Databases.Co-located with VLDB 2003.Berlin,Germany: Humboldt-Universit't, 2003:33-50.   \n[24] Halaschek C,Aleman-Meza B,Arpinar IB.Discovering and ranking semantic associations over a large RDF metabase// Michael C, Serge A, Lockemann PC,Eds.. Proc.of the 30th VLDB Conference.Toronto, Canada:Elsevier Science & Technology Books,2004:1317-1320.",
+    "context5": "[作者简介]黄敏,女,1974年生,副教授,博士研究生,发表论文10余篇。赖茂生,男,1946年生,教授,博士生导师,发表论文130余篇,出版著作20余部。"
+  },
+  "更 正": {
+    "context1": "刊登于2008年第5期的《基于系统思考的知识发现流程研究》一文，因工作疏忽，导致中文目次页上的作者顺序有误，正确顺序应为第一作者李农、第二作者陈隽，特此更正，并向作者及广大读者致。"
+  }
+}

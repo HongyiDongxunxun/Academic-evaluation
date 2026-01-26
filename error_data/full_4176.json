@@ -1,0 +1,85 @@
+{
+  "original_filename": "full_4176.md",
+  "图像语义标注方法及其语义鸿沟问题研究进展": {
+    "context1": "陆泉韩阳陈静",
+    "context2": "【摘要】文章按照图像语义标注方法的发展阶段，对四种图像语义标注方法——基于文本的人工图像标注方法、自动图像标注（AIA）方法、结合相关文本的Web图像标注方法以及大众标注方法进行述评，指出现有图像语义标注方法均存在不同程度的语义鸿沟问题，分析语义鸿沟问题的产生根源，介绍解决语义鸿沟问题的有益尝试，并结合图像信息资源语义标注方法研究的发展脉络与学科特点，探讨其未来发展趋势。"
+  },
+  "【关键词】图像语义标注图像语义标注方法语义鸿沟": {
+    "context1": "Abstract: In light of the developing process， four semantic image annotation methods-—-text-based manual image anotation，automatic image annotation，Web image annotation with associated texts and folksonomy are reviewed in this paper. Then this paper points out that the existing semantic image anotation methods are faced with the problem of semantic gap，analyzes the root of semantic gap，and introduces beneficial attempts in solving this problem Furthermore，with the analysis of development venation and discipline distribution of the research of semantic image annotation methods， this paper also discusses its future development trends Key words: semantic image annotation semantic image annotation methodssemantic gap",
+    "context2": "随着多媒体技术与互联网应用的不断发展，图像信息资源数量迅速增长，在网络中所占的比例也日益增大，人们越来越需要能有效组织、管理和检索大规模图像信息资源的应用服务。作为图像信息资源管理重要而基础的研究任务，图像信息资源语义标注已经成为国内外的一个研究热点。",
+    "context3": "一般来说，图像的语义可被分为六个层次，自下而上依次为：特征语义、对象语义、空间关系语义、场景语义、行为语义以及情感语义[]。其中，特征语义是指图像的低层视觉特征（如颜色、纹理、形状等）所对应的语义，它不能表达真正意义上的图像语义内容，因此图像信息资源语义标注研究重点关注的是图像的对象语义及其上层语义。",
+    "context4": "本文首先述评了不同阶段的图像信息资源语义标注方法，然后对现有标注方法中普遍存在的语义鸿沟问题及其相关研究进行介绍，最后结合图像信息资源语义标注方法研究的发展脉络与学科特点，探讨了其未来发展趋势，以期人们对图像信息资源语义标注方法研究有一个总体把握，并为图像语义标注与检索领域的研究人员提供借鉴与参考。"
+  },
+  "1图像信息资源语义标注方法的发展": {
+    "context1": "图像信息资源语义标注方法是随着时代的变迁、技术的进步以及图像信息资源检索需求的变化而不断发展的，主要研究成果包括基于文本的人工图像标注、自动图像标注、结合相关文本的Web图像标注以及大众标注。"
+  },
+  "1.1基于文本的人工图像标注": {
+    "context1": "基于文本的人工图像标注是图像信息资源语义标注的最初方法。1984年，Tamura和Yokoya在对一些图像数据库进行调查后首次指出了对图像进行标注的需求，并提出与传统文本检索理论类似的基于文本的人工图像标注模型，即由人手工给图像标注相关文本，然后再用文本检索的方法检索图像[2]。",
+    "context2": "由于基于文本的检索方法已为人们所熟知，这种图像标注方法大大提高了图像检索系统的易用性。不过这种方法同时存在一些缺陷，比如由于受到标注者认知水平和文化背景等因素的影响，图像标注结果往往具有主观性和不确定性，而且人工标注费时费力，当面对海量图像信息资源时，这种图像标注方法的局限性非常明显。"
+  },
+  "1.2自动图像标注（AIA）": {
+    "context1": "为了提高图像信息资源标注效率，自动图像标注（Automatic Image Annotation，AIA）方法在图像信息资源数量急剧增长，模式识别、机器学习等相关技术不断发展的时代背景下应运而生。从上世纪90年代至今，自动图像标注一直都是图像信息资源语义标注研究的热点之一。",
+    "context2": "研究人员试图通过在图像与图像语义之间建立联系来实现对图像信息资源的自动标注。1998年，Szummer和Picard根据图像低层视觉特征分析，成功实现了为一个场景图像数据库的所有图像自动添加“户内”或“户外”这样的高层语义概念[3]。随后，Mori等人于1999年明确提出了一个在图像与语义概念之间建立联系的共生模型（Co一occurrence Model)[4]。该模型的基本原理是：首先，将已标注图像集中的每幅图像均分成若干个子图像，并将每幅图像的全部关键词分别赋给它的各个子图像；然后，利用图像相似性对图像集的所有子图像进行聚类，并计算出每个聚类中各个关键词的出现概率；最后，对于一幅待标注图像，把其分割后的各个子图像利用图像相似性分配到相应聚类中，并计算出这些聚类中所涉及关键词出现的平均概率，把出现概率最高的关键词赋给该幅待标注图像。共生模型是自动图像标注的基本理论模型，开辟了自动图像标注领域的理论研究。",
+    "context3": "后续研究者根据共生模型设计的自动图像标注模型与方法，一般通过对用户提供的一组已标注图像样本或其他可获得的信息进行机器学习，来建立图像语义概念空间与视觉特征空间的关系模型，再用此模型标注未知语义的图像，进而支持对图像进行语义检索。随着机器学习理论的不断发展，包括相关模型、分类器模型等不同的学习模型已经被广泛地应用于自动图像标注研究领域。根据图像视觉特征提取及表示机制的不同，现有自动图像标注方法可以划分为基于全局特征[5][6]和基于区域划分的标注方法；其次，根据语义模型学习算法的不同，又可以将基于区域划分的自动图像标注方法进一步划分为基于分类的标注方法[7][8]、基于概率关联的标注方法[9][10]以及基于图学习的标注方法[1]。",
+    "context4": "当前，很多新的自动图像标注模型与算法仍在不断被提出，其图像语义标注水平也在不断提高。虽然现有自动图像标注方法仍存在语义标注准确性不高的问题，但是这类方法的自动化、智能化特性使其在大规模图像信息资源的语义标注方面具有独特的技术优势和光明的应用前景。"
+  },
+  "1.3结合相关文本的Web图像标注": {
+    "context1": "近年来，Web图像信息资源数量增长迅速，并在人们的工作生活中发挥着越来越重要的作用。如何对Web 图像信息资源进行自动语义标注也成了研究人员关注的热点问题。利用Web图像信息资源的固有特点，如Web图像所在网页中存在与图像内容相关的文本信息，研究人员实现了对Web图像信息资源的自动标注，即结合相关文本的Web图像标注方法。",
+    "context2": "谷歌、百度、雅虎等商业图像搜索引擎就是利用网页中图像的关联文本来进行Web图像的标引工作，取得了一定的效果，为人们利用网络图像信息资源提供了方便。为了提高Web图像的标注效果，Vadivu等人通过对Web 图像所在HTML文件的分析，按照揭示图像语义内容的能力大小，将 $<$ img src $>$ 标签的所有属性划分成四个等级，并分别赋予每个等级相应的权重[12]，提高了标注结果的准确性。国内陈世亮等人提出的结合Web背景知识的图像自动语义标注方法则分两步进行：首先，通过图像视觉特征相似性计算，自动产生图像的候选标注关键词；然后，考虑到有些图像虽然视觉特征非常接近，但所蕴含的语义却可能完全不同的情况，结合Web背景知识计算关键词与图像间的语义距离，最终确定标注所用的关键词[13]。",
+    "context3": "结合相关文本的Web图像标注为海量网络图像信息资源的语义标注难题提供了解决方案，但由于关联文本中存在大量与图像语义并不相关的词语，这种方法仍存在标注结果准确性不高的问题，需要进一步改进与完善。"
+  },
+  "1.4大众标注": {
+    "context1": "随着近年来Web2.0的兴盛，一些研究人员开始以一种新的视角来研究图像信息资源语义标注问题，试图将基于文本的人工图像标注模型推广到社会网络中，采用大众标注方式完成图像信息资源的语义标注工作，如Dye曾于2006年讨论了将社会标签应用于网络图像信息资源描述的可行性[14]。目前，大众标注方法已经存在部分商业应用，如flickr com、photoSIG.com以及Photo.net等网站允许大众用户手工对图片进行标注，并以此方式浏览，获得了大量的已标注图像；一些重要的学术年会（如ImageCLEF）已采用这些网站作为初步数据源进行自动图像标注的研究。",
+    "context2": "作为Web2.0的应用典范，大众标注不仅充分调动了用户积极性，为大规模图像信息资源标注问题提供了解决途径，还打破了标注者与使用者之间传统的角色定位。之前，图像信息资源的标注工作主要由受过培训的专家来负责，专家们需要遵循特定的标注规则，同时还要考虑到潜在用户的检索需求；而大众标注则是用户通过网络并以社会合作的方式直接参与图像信息资源的标注工作，用户既是标注者，又是使用者。",
+    "context3": "大众标注方法同样存在一些固有问题，如因缺乏受控词汇导致的精度缺失、标签语义层次缺乏规范、存在用户自定义的特殊标签以及错误的关键词等。这些问题的出现使得被标注图像组织混乱、难以检索，不能很好地满足图像信息资源的管理与利用要求。对此，Sun Aixin等人于20l1年对一系列基于社会标签的图像检索方法进行了评估，从检索效果角度提供了相关证明[15]。而Rorissa在对Flickr中的标签与一般用途图像集中的标引词进行比较之后，发现用户生成的标签与专家分配的标引词存在很大不同，提出应该将大众标注与传统的受控词汇标注结合使用，让两者互为补充，以达到更好的标注效果[16]。"
+  },
+  "2图像语义标注中语义鸿沟问题的相关研究": {
+    "context1": "从最初费时费力的基于文本的人工图像标注，到完全自动化的自动图像标注（AIA）、结合相关文本的Web 图像标注，再到Web2.0环境下全民参与的大众标注，图像信息资源语义标注方法与时俱进，图像语义标注水平不断提升。然而，现有图像语义标注方法仍然面临一些挑战，其中受到重点关注的就是语义鸿沟问题。"
+  },
+  "2.1语义鸿沟在图像语义标注中的普遍存在": {
+    "context1": "Smeulders等人将语义鸿沟定义为：在给定的情形下，用户从视觉数据中获取的信息与其对视觉数据的理解之间存在的不一致[1]。在此基础上，谢毓湘等人对语义鸿沟问题进行了细化和扩展，将语义鸿沟分为思维与自然语言鸿沟、人机交互鸿沟、特征提取鸿沟、实体语义鸿沟及抽象语义鸿沟等层次[18]。",
+    "context2": "前文所提到的不同阶段的图像语义标注方法，均存在着不同程度的语义鸿沟问题。基于文本的人工图像标注方法受标注者认知水平和文化背景等因素的影响，其标注结果具有主观性和不确定性，存在思维与自然语言鸿沟。对于自动图像标注方法，Enser等人指出现有的模型方法均存在根本性的语义鸿沟问题[19]；Zhang等人在研究语义鸿沟现象后进一步指出：该问题是一个“维的诅咒”问题，即涉及的语义层次越高，如场景语义、行为语义和情感语义等，根据低维的图像视觉特征对高层语义进行标注的效果就无可避免地越差，这也导致现有的自动图像标注方法还无法进行具体应用，甚至目前也没有一个被学界普遍接受的已标注图像库[20]。结合相关文本的Web图像标注方法则因为与图像语义并不相关的词语在关联文本中的大量出现，而不可避免地存在语义鸿沟问题。大众标注方法不仅存在思维与自然语言鸿沟，还存在由受控词汇、标签语义层次规范等缺失而导致的语义鸿沟问题。"
+  },
+  "2.2图像语义标注中语义鸿沟问题的产生根源": {
+    "context1": "为了缩小乃至消除现有图像语义标注中存在的语义鸿沟问题，首先要对语义鸿沟问题的产生根源进行分析研究。",
+    "context2": "在人对图像与语义的认知差异方面，认知神经科学领域的Cabeza和Nyberg于2OOO年的研究指出，感知与图像处理属于大脑的同一区域，而语言及语义处理属于大脑的另一区域，人脑对两者的处理存在差异[21]，该研究从根本上解释了为什么人在某些时候无法用语言及词汇来准确表达自己对图像语义内容的理解。在图像信息资源语义标注过程中，这种原因所导致的语义鸿沟问题来源于人类自身。",
+    "context3": "在计算机语义与用户认知的区别方面，Enser等人总结指出：计算机标注理论，如共生模型等，过于简单模型化处理用户对图像的认知模型，用单一模型取代了用户对图像的复杂认知过程，因此自动图像标注研究中现有的语义概念模型不能表达用户对图像理解而形成的概念[22]。在图像信息资源语义标注过程中，这种原因所导致的语义鸿沟问题则来源于计算机处理等技术方面。"
+  },
+  "2.3解决图像语义标注中语义鸿沟问题的有益尝试": {
+    "context1": "图像信息资源标注的应用需求不断向高层语义与网络化方向发展，理论不足与现实需求之间的矛盾日益突出[23]，为了化解这一矛盾，研究人员尝试着从各种角度来研究图像语义标注中语义鸿沟问题的解决方案。",
+    "context2": "一些研究人员从标注结果优化的角度来缩小语义鸿沟。Jin等人使用WordNet对结合相关文本的Web图像标注方法所得到的标注结果进行优化，通过WordNet中词语的属分关系，计算出各个参考标注词之间的相似性，并将相似性低于一定阈值的标注词去除，达到优化图像标注结果的目的[24]。而在大众标注的标签优化方面，Chen等人提出的批处理再标注方法，能够利用网络上数百万的训练图像以及与之相关联的丰富的文本描述，对同一用户在短时期内上传的一组Flickr图像进行噪声标签的自动优化[25]；Liu等人提出的基于多图多标签学习的图像再标注方案，则同时利用了图像的视觉内容、标签之间的语义关系以及用户提供的先验信息来实现图像标签优化[26]。",
+    "context3": "在人对图像的视觉感知方面，Itti和Koch的研究指出，当人们浏览图像时，图像的各个区域在人们视觉中所占的权重是不一样的[27]，这就形成了基于视觉权重的图像标注与检索方法的理论基础。在此基础上，国内陈祉宏等人于2011年提出了基于视觉焦点权重模型的图像标注方法，首先以图像区域的面积、位置和亮度为参数计算出图像各个区域的视觉焦点权重，并提取权重最大的区域作为图像的焦点区域，然后在对焦点区域进行标注的基础上实现对整幅图像的标注，提高了自动图像语义标注的准确率[28]。",
+    "context4": "在用户图像认知与图像行为方面，Damasio等人于2004年研究表明，人在处理感性概念检索时的大脑活动与使用词语检索时不同[29]，与词语—图像关联检索时用户同时使用感性概念和语义词汇相比，用户寻找相似图像时只使用感性概念，其大脑负担小，准确率高；曹梅于2011年对网络图像检索行为与心理的研究指出，用户对图像具有较少的认知负担[30]；Iris Xie通过对人机交互检索的多项基础研究指出：使用符合用户认知习惯的交互设计对保持人机之间的沟通有效性非常重要[3]，用户习惯于挑选相似图像，或为词语挑选合适图像，而不是给图像加上合适的描述（如flickr.com等采取的标注模式)。以上有关用户图像认知与图像行为的研究虽然只在理论层面，还没有出现具体应用，但却为后续的图像信息资源语义标注方法研究提供了新思路。"
+  },
+  "3总结": "",
+  "3.1图像语义标注方法研究的发展脉络": {
+    "context1": "图像信息资源语义标注方法经历了基于文本的人工图像标注、计算机自动语义标注以及大众标注等发展阶段。其中，图像信息资源数量急剧增长所带来的用户图像需求的增加，模式识别、机器学习等技术的不断进步与成熟，促成了图像信息资源语义标注方法从基于文本的人工手动标注到计算机自动语义标注的跨越；Web2.0时代的到来所导致的信息交互方式的变化，则促成了大众标注方法的兴起。而由于语义鸿沟问题在现有图像语义标注方法中的普遍存在，研究人员开始逐步重视语义鸿沟方面的研究，尝试着从不同角度来解决图像信息资源语义标注方法中的语义鸿沟问题。"
+  },
+  "3.2图像语义标注方法研究的学科特点": {
+    "context1": "通过对图像语义标注方法研究的学科类别进行分析，可以发现，情报学与计算机科学是其重要的学科载体，但是两者也有不同侧重。计算机科学领域主要从技术的角度来进行研究，提出了很多新模型、新算法，对图像信息资源语义标注方法的研究起着重要的推动作用。而情报学领域则利用自身的学科优势，更多地从用户图像信息需求、图像语义描述规范、标注结果语义优化等角度来进行研究，对现有图像语义标注模型与算法进行了很多有益改进。不难看出，两者的相互合作与优势互补，对图像信息资源语义标注方法研究的发展具有重要意义。"
+  },
+  "3.3图像语义标注方法研究的发展趋势": {
+    "context1": "图像语义标注中普遍存在的语义鸿沟问题，导致当前已有的图像语义标注方法无法对图像信息资源的管理与应用提供有力支持，对图像信息资源语义标注研究与应用的发展构成严峻挑战，是图像信息资源语义标注方法研究亟待解决的问题之一。",
+    "context2": "笔者认为，综合图像、文本、用户等信息消除语义鸿沟将是图像信息资源语义标注方法研究的一个发展趋势。一些研究人员正在转向以图像、图像相关文本以及图像用户等多种信息为基础建立新的图像语义标注理论，从多角度多层次缩小用户图像感性认知与计算机图像语义之间的语义鸿沟，提高标注准确性与标注效率。",
+    "context3": "另一方面，将多学科的理论、方法与工具融合起来进行跨学科交叉研究也将成为图像信息资源语义标注方法研究的重要发展趋势。除了情报学与计算机科学，认知、神经、心理、行为等其他学科领域的研究成果对解决图像语义标注中的语义鸿沟问题有着重要的参考借鉴价值，一些突破性的研究成果可能会在这种交叉研究中产生。"
+  },
+  "注释": {
+    "context1": "[1]王惠锋，孙正兴，王箭．语义图像检索研究进展[J].计算机研",
+    "context2": "究与发展，2002（5)：513-523.",
+    "context3": "[2]Tamura H，Yokoya N Image database systems：a survey [J] .Pattern Recognition，1984（1)：29-43.   \n[3] Szummer M，Picard R W.Indoor-outdoor image classification [C].Proceedings of the IEEE International Workshop on Content -Based Access of Image and Video Databases，1998： $4 2 - 5 1 .$   \n[4] Mori Y，Takahashi H，Oka R Image - to - word transformation based on dividing and vector quantizing images with words[C].Proceedings of the Seventh ACM International Conference on Multimedia，ACMPress，1999：405-409.   \n[5]Oliva A，Torralba A.Modeling the shape of the scene：a holistic representation of the spatial envelope[J].International Journal of ComputerVision，2001 （3)：145－175.   \n[6]Yavlinsky A， Schofield E，RügerS.Automated image annotation using global features and robust nonparametric density estimation [J].Lecture Notes in Computer Science: Image and Video Retrieval，2005：507-517.   \n[7]Maron O，Ratan A L.Multiple- instance learning for natural sceneclassification[C].Proceedings15thInternational Conference on Machine Learning，1998：341-349.   \n[8]Feng Songhe，Xu De. Transductive Multi- Instance MultiLabel learning algorithm with application to automatic image annotation [J].Expert Systems with Applications，2olo（1）： 661-670."
+  },
+  "[9]张元清，包骏杰，况夯，基于贝叶斯理论的图像标注和检索[J]．计算机科学，2008（8）：229—231.": {
+    "context1": "[10]Monay F，Gatica -Perez D.Modeling Semantic Aspects forCross一Media Image Indexing[J]. IEEE Transactions on PatternAnalysis and Machine Intelligence，2007（10)：1802-1817."
+  },
+  "[11]卢汉清，刘静．基于图学习的自动图像标注[J].计算机学报，2008 (31)：1629-1639.": {
+    "context1": "[12]Vadivu P S，Sumathy P，Vadivel A Image Retrieval from WWWusing Attributes in HTML TAGs [J].Procedia Technology，2012(6)：509-516."
+  },
+  "[13]陈世亮，郭向东，董洋溢．结合WEB背景知识的图像语义标注[J].计算机工程与应用，2013（4)：166—169，223.": {
+    "context1": "[14]Dye J.Folksonomy：A game of high-tech (and high-stakes) tag[J]. $\\mathrm { E - }$ Content，2006：38-43.   \n[15]Sun Aixin，Bhowmick SS，Khanh T NN，et al. Tag-Based Social Image Retrieval：An Empirical Evaluation [J]. Journal of the American Society for Information Science and Technology, 2011 (12)：2364—2381.   \n[16]Rorissa A.A Comparative Study of Flickr Tags and Index Terms ina General Image Collection[J]. Journal of the American Society for Information Science and Technology，2olo（11）： 2230—2242.   \n[17]Smeulders A W M，Worring M，Santini S，et al. Content一 based image retrieval at the end of the early years [J].IEEE Transactions on Pattern Analysis and Machine Intelligence, 2000(12)：1349—1379."
+  },
+  "[18]谢毓湘，栾悉道，吴玲达．多媒体数据语义鸿沟问题分析[J].武汉理工大学学报（信息与管理工程版)，2011（6）：859-863.": {
+    "context1": "[19][22]EnserPGB，Sandom CJ，Hare JS，et al.Facing the reality of semantic image retrieval [J]. Journal of documentation, 2007 (4):465-481.",
+    "context2": "[20] Zhang Dengsheng，Islam M M，Lu Guojun.A review onautomatic image annotation techniques [J].Pattern Recognition;2012 (1)：346-362.  \n[21] Cabeza R，Nyberg L Imaging cognition II：An empiricalreview of 275 PET and fMRI studies[J].Journal of cognitiveneuroscience，2000（1)：1-47.  \n[23]朱学芳，袁顺波，徐强.我国数字图像信息资源应用现状及分析[J].中国图书馆学报，2008（1)：56—59，74.  \n[24]Jin Y，Khan L，Wang L，et al Image Annotations byCombining Multiple Evidence and wordNet[C]//Proceedings ofthe 13th Annual ACM International Conference on Multimedia,2005：706-715.  \n[25]Chen L，Xu D，TsangIW，et al.Tag-based Web PhotoRetrieval Improved by Batch Mode Re - Tagging [C]//Proceedings of IEEE Computer Society Conference on ComputerVision and Pattern Recognition，2010：3440－3446.  \n[26]Liu D，Yan S C，Hua X S，et al Image Retagging UsingCollaborative Tag Propagation [J].IEEE TransactionsonMultimedia，2011（4)：702-712.  \n[27]Itti L，Koch C. Computational modelling of visual attention [J].Nature Reviews Neuroscience，2001 (3)：194-203.  \n[28]陈祉宏，冯志勇，贾宇．考虑视觉焦点权重和词相关性的图像标注方法[J].计算机应用，2011（9)：2518—2521，2541.  \n[29]Damasio H，Tranel D，Grabowski T，et al.Neural systemsbehind word and concept retrieval[J].Cognition，2oo4（1一2）：179—229.  \n[30]曹梅．网络图像检索行为与心理研究[J].中国图书馆学报，2011 (5)：53-60.  \n[31]Perez-Carballo J，Xie I，Cool C.Design Principles of HelpSystems for Digital Libraries[J].Academy of Information andManagement Sciences Journal，20l1 （1)：10l-135.",
+    "context3": "陆泉武汉大学信息管理学院，副教授，硕士生导师。韩阳武汉大学信息管理学院，硕士研究生。陈静华中师范大学信息管理学院，副教授，硕士生导师。"
+  }
+}

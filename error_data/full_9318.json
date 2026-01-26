@@ -1,0 +1,76 @@
+{
+  "original_filename": "full_9318.md",
+  "《情报科学》网络首发论文": {
+    "context1": "题目：  \n作者：  \n网络首发日期：  \n引用格式：  \n融合BERTopic 和LSTM的LIS学科AI研究主题演变分析及趋势预测  \n徐汉青  \n2024-12-18  \n徐汉青．融合BERTopic 和LSTM的LIS学科AI研究主题演变分析及趋势预  \n测[J/OL]． 情报科学.https://link.cnki.net/urlid/22.1264.G2.20241218.1456.016",
+    "context2": "网络首发：在编辑部工作流程中，稿件从录用到出版要经历录用定稿、排版定稿、整期汇编定稿等阶段。录用定稿指内容已经确定，且通过同行评议、主编终审同意刊用的稿件。排版定稿指录用定稿按照期刊特定版式（包括网络呈现版式）排版后的稿件，可暂不确定出版年、卷、期和页码。整期汇编定稿指出版年、卷、期、页码均已确定的印刷或数字出版的整期汇编稿件。录用定稿网络首发稿件内容必须符合《出版管理条例》和《期刊出版管理规定》的有关规定；学术研究成果具有创新性、科学性和先进性，符合编辑部对刊文的录用要求，不存在学术不端行为及其他侵权行为；稿件内容应基本符合国家有关书刊编辑、出版的技术标准，正确使用和统一规范语言文字、符号、数字、外文字母、法定计量单位及地图标注等。为确保录用定稿网络首发的严肃性，录用定稿一经发布，不得修改论文题目、作者、机构名称和学术内容，只可基于编辑规范进行少量文字的修改。",
+    "context3": "出版确认：纸质期刊编辑部通过与《中国学术期刊（光盘版)》电子杂志社有限公司签约，在《中国学术期刊（网络版)》出版传播平台上创办与纸质期刊内容一致的网络版，以单篇或整期出版形式，在印刷出版之前刊发论文的录用定稿、排版定稿、整期汇编定稿。因为《中国学术期刊（网络版)》是国家新闻出版广电总局批准的网络连续型出版物（ISSN2096-4188，CN11-6037/Z），所以签约期刊的网络版上网络首发论文视为正式出版。"
+  },
+  "融合BERTopic和LSTM的LIS学科AI研究主题演变分析及趋势预测": {
+    "context1": "徐汉青1",
+    "context2": "(宁波大学 科学技术学院,浙江宁波 315211)",
+    "context3": "摘要：[目的/意义]本文旨在梳理人工智能（AI)）在图书情报学（LIS）中的研究进展及未来趋势，为LIS学科的研究方向规划、资源配置及科研政策制定提供重要参考。[方法/过程基于 BERTopic 模型识别研究主题，采用主题强度和主题词共现网络追踪主题及知识结构演变，并利用长短期记忆网络（LSTM)）预测主题发展趋势，全面展现LIS 学科中AI研究的动态和未来趋势。[结果/结论]主题演化分析表明，临床数据分析与健康信息模型、信息检索、社交媒体情感分析和 AI决策是LIS 学科 AI研究的持续核心主题。主题词共现网络的演变揭示，研究重心逐渐从传统的数据驱动向大语言模型的广泛应用转移，未来研究将更加聚焦于大语言模型的构建、解释及应用。LSTM 模型预测显示，信息检索、引文分析、AI治理和人机交互与信任四个主题将在未来几年呈现显著的增长趋势。此外，AI与图书馆服务、AI算法公正与偏见以及数据隐私与安全等主题也展现出成为潜在热门主题的增长潜力。[创新/局限]本研究首次在LIS学科中结合BERTopic和LSTM模型，进行更具前瞻性和应用价值的主题演化分析与趋势预测。研究的局限在于模型预测依赖单一数据维度，未来研究需引入多维特征，以提高预测的准确性和科学性。",
+    "context4": "关键词：图书情报学；人工智能；BERTopic模型；长短期记忆网络；主题预测"
+  },
+  "Evolution Analysis and Trend Prediction of AI Research in LIS Based on BERTopic and LSTM": {
+    "context1": "XU Hanqing1\\*",
+    "context2": "(1,College of Science and Technology, Ningbo University, Ningbo 315211, China)",
+    "context3": "Abstract: [Purpose/significance] This paper aims to review the research progress and future trends of AI in LIS, providing valuable insights for planning research directions, resource allocation, and the formulation of research policies in LIS. [Method/process] Based on the BERTopic model, this study identifies research topics and tracks their evolution, as well as the transformation of knowledge structures, through topic strength and co-occurence network analysis. Furthermore, Long Short-Term Memory (LSTM) model is employed to predict future trends of topics, offering a comprehensive overview of the dynamics and future directions of AI research in LIS. [Result/conclusion] Topic evolution analysis reveals that clinical data analysis and health information modeling, information retrieval, social media sentiment analysis, and AI decisionmaking are the enduring core topics within AI research in LIS. The evolution of the keyword cooccurrence network reveals that the research focus is gradually shifting from traditional data-driven approaches to the broad application of large language models. Future research will increasingly focus on the construction, interpretation, and application of these models.LSTM model predictions show that the four topics-information retrieval, citation analysis,AI governance, and humancomputer interaction and trust—are expected to experience significant growth in the coming years. Additionally, topics such as AI in library services, algorithm fairness and bias, and data privacy and security also show potential for becoming emerging hot topics. [Innovation/limitation] This study is the first to integrate BERTopic and LSTM models in LIS,conducting a more forward-looking and practically valuable analysis of topic evolution and trend prediction. The limitation ofthis study lies in the reliance on a single data dimension for predictions; future research should incorporate multidimensional features to enhance the accuracy and scientific validity of the predictions.",
+    "context4": "Keyword: LIS; AI; BERTopic Model; LSTM; topic prediction"
+  },
+  "0引言": {
+    "context1": "随着人工智能（AI）技术的快速发展，各学科领域正经历前所未有的深刻变革，AI已成为推动学术创新与实践进步的核心驱动力。作为与新兴技术紧密相关的学科，图书情报学（LIS）同样深受影响。以深度学习和自然语言处理为代表的前沿技术，不仅为LIS 学科中的科学研究[I、信息检索[2]、科学计量[3]、智能决策[4]等传统领域注入新的活力，还进一步拓宽了其研究边界。近年来，随着大语言模型的崛起，生成式AI技术（如ChatGPT）的发展为LIS学科带来新的机遇与挑战[5]。这些前沿技术在数据处理、模型训练和多样化应用中的复杂性，对学科发展提出了更高要求。因此，如何科学评估这些技术对 LIS 学科的长期影响及其潜在变化，成为研究者当前迫切需要解决的问题。在这一背景下，系统梳理LIS 学科中AI研究的主题演变特征以及未来发展趋势，具有重要理论价值和现实意义。",
+    "context2": "LIS 学科对AI技术的重视，催生了丰富的研究成果。目前国内外已有部分学者从多个不同视角对LIS 学科中的AI研究进行系统性梳理。例如，张海等从技术融合视角出发，基于扎根理论和内容分析法，对154篇文献进行梳理，研究结果明确了信息资源管理领域生成式 AI 的六大研究主题[7]。Kelly 等人从技术接受视角出发，采用系统文献综述方法，对60 篇关于AI技术接受度的文献开展分析，研究结果揭示了不同行业群体对 AI技术的行为意图、使用意愿与实际行为的差异]。Gumusel从用户隐私视角入手，采用扎根理论方法，对38 篇有关对话式AI聊天机器人与用户隐私的文献进行探讨，研究结果为理解AI技术在用户隐私保护中的挑战提供新的见解，并为制定相关监管框架提供参考依据[9]。Laine 等人从技术伦理视角出发，采用元分析方法，对93 篇关于AI审计的伦理问题文献进行审查，研究结果为利益相关者提供了关于 AI审计的理论框架和实践工具，并为 AI技术应用构建重要的伦理审查体系[0]。",
+    "context3": "在实际应用层面，AI技术已广泛应用于LIS 学科的多个领域，并引发深入的学术探讨。例如，AI在图书馆中的应用显著提升多个方面的服务质量，包括图书馆技术支持（如分类与编目）、图书馆管理（如人员配置与项目决策）、图书馆服务（如参考服务与信息服务）以及信息素养教育。然而，AI技术在图书馆中的成功实施仍然面临诸多挑战，必须满足一系列条件才能确保其有效性和可持续性[11,12]。在行政部门中，AI技术有助于提升决策支持、优化流程管理以及提高公共服务效率。但其有效应用需要依赖标准化的操作流程、清晰的知识标准以及与社会规范一致的执行机制[13]。此外，AI技术在信息系统[14]、在线评论[15]、电子健康记录[16]、虚假新闻检测[17]、数字人文[18]、知识管理[19]、知识组织[20]、科研知识生产[21等多个领域的广泛应用，进一步拓展LIS 学科的研究边界，并为未来研究开辟新方向。",
+    "context4": "综上所述，LIS 学科中的AI研究已成为当前学术界关注的热点话题，相关文献的梳理为进一步深入探讨这一领域的研究提供重要理论依据。然而，现有关于LIS 学科AI的综述研究仍存在以下不足：首先，研究视角较为单一。现有文献多集中于特定的行业部门或技术应用，缺乏对LIS学科中AI研究的全方位探讨。其次，研究方法较为主观。大部分梳理文章以定性分析为主，定量研究较少，可能存在偏见或不足。最后，现有研究主要集中于对已有知识的回溯性分析，缺乏对研究主题和知识结构动态演变的关注，且很少涉及对未来趋势的预测。鉴于此，为全面客观地揭示LIS 学科 AI研究主题的演变特征及未来趋势，回答“LIS学科AI研究的突出主题是什么？”以及“在最新的AI技术背景下，LIS 学科未来的研究方向可能是什么？”等关键问题，本文以Web of Science（WoS）数据库中4,573篇LIS 学科 AI研究文献为基础数据，采用 BERTopic模型识别LIS 学科中的AI研究主题，并利用LSTM模型预测这些主题的未来发展趋势。研究结果将为科学研究的战略规划和资源分配提供有力支持。"
+  },
+  "1研究思路与方法": "",
+  "1.1研究思路": {
+    "context1": "本研究综合应用BERTopic模型、主题强度分析、主题词共现网络和LSTM模型，定量探究LIS学科 AI研究主题的演变过程及其未来趋势。具体研究步骤如下：（1）数据收集与预处理。从WoS 数据库中检索相关学术文献，收集文章标题、关键词和摘要作为语料库数据，并按时间顺序将数据分割成不同的时间窗口。（2）主题模型构建。使用 BERTopic 模型确定最优主题数量，并通过层次聚类识别研究方向，进行主题的初步分析，以揭示LIS 学科 AI研究的主要主题和知识结构。（3）演变趋势分析。计算不同时间窗口的主题热度，可视化主题演变趋势，并从细粒度层面分析主题词共现网络的知识结构演化特征。（4）发展趋势预测。基于LSTM模型预测主题的未来发展趋势。"
+  },
+  "1.2 基于BERTopic 的动态主题识别": {
+    "context1": "尽管传统的LDA主题建模方法在LIS 学科被广泛应用，但其局限在于只能处理静态数据集，无法捕捉主题随时间的变化，从而难以揭示前沿和实时的研究主题。相比之下，BERTopic[22模型不仅能够实现动态主题建模，深入理解特定主题的时间演变，还能自动识别最优主题数量，减少人工干预。",
+    "context2": "在本研究中，BERTopic 的应用过程详见图1。首先，使用 sentence-transformers 模型进行文档嵌入，将文献中的段落或句子转换为包含丰富语义信息的高维向量。接着，利用UMAP 技术进行向量降维，以增强数据的可解释性，并通过HDBSCAN 算法对降维后的数据进行聚类，根据语义相似性将文档聚集成群组，形成初步的主题划分。随后，将每个主题的文档按照时间步长分离，便于进行时间序列分析。对每个主题及其对应的时间步长的文档子集应用预先拟合的c-TF-IDF 模型，生成每个时间步长的主题特定表示。在每个时间步长t，调整c-TF-IDF表示，方法是将当前时间步长的表示与全局表示或前一时间步长（t-1）的表示进行平均。这一步骤帮助平滑主题表示，增强时间序列分析的连贯性和准确性。",
+    "context3": "![](images/4a11f13d304b41d304b710841945e1846e5e84c30c3ef29ca4fbf10770f1b17c.jpg)  \n图1BERTopic动态建模流程  \nFigure 1 Dynamic modeling process of BERTopic"
+  },
+  "1.3基于时序的主题强度分析": {
+    "context1": "主题强度是衡量某一主题在特定时间窗口内受关注程度的关键指标，在某个时间窗口内包含该主题的文档数目越多，则其主题强度越大，则越有可能认为其是热点主题，学界更加关注。通过分析主题强度在不同时间窗口的变化，能够揭示学术界在各个时期内对",
+    "context2": "LIS 学科中AI研究主题的兴趣变化。这种分析有助于理解学术界研究重点的迁移，为未来研究的规划提供参考。参照 Griffiths[23]在《PNAS》杂志中提出的通过时间序列追踪主题动态变化并识别热点主题的方法，本研究借鉴这一思路，通过计算不同时间段的主题强度，分析LIS学科中AI研究主题的演变。主题强度计算公式如下：",
+    "context3": "$$\nS \\big ( Z _ { t , k } \\big ) = \\frac { \\sum _ { d = 1 } ^ { D _ { t } } \\theta _ { d , k } } { D _ { t } }\n$$",
+    "context4": "其中，S（ $Z _ { \\mathrm { t , k } }$ ）为当前时间窗口t中主题 $K$ 的强度； $\\theta _ { d , k }$ 为第 $d$ 篇文档上第 $k$ 个主题的概率； $D _ { t }$ 时为时间窗口t上的文档数量。在利用 BERTopic 模型识别出研究主题并计算主题强度后，还需要设定强度阈值。通过将计算出的主题强度与设定的阈值进行比较，识别出每个时间段内的热点主题。具体而言，当某一主题的强度高于阈值时，认定为该时间段内的热点主题。其阈值计算公式如下[24]：",
+    "context5": "其中，T为主题强度阈值，K为主题个数。"
+  },
+  "1.4基于时序的主题词共现网络分析": {
+    "context1": "不同于主题强度分析关注特定主题在不同时间窗口的整体变化趋势，基于时序的主题词共现网络分析聚焦于具体研究点和主题词之间的关联关系，提供一个动态且细致的知识结构演变视角。基于BERTopic模型的输出结果，构建反映特定时间段内主题词共现关系的知识网络。具体步骤如下：首先，从每个时间窗口中提取各个主题前十个高分特征主题词;然后，根据这些主题词之间的共现关系构建知识网络；最后，利用Gephi 软件对网络进行统计指标测度和可视化分析，以揭示主题词之间的复杂关系及其动态变化。结合时序社会背景，进一步解析LIS学科AI研究在不同时间序列中的微观变迁。"
+  },
+  "1.5基于LSTM模型的学科主题发展预测": {
+    "context1": "本研究通过应用LSTM[25]模型来预测LIS学科AI研究主题热度的未来趋势变化。LSTM的核心通过引入遗忘门、输入门和输出门三个门控机制，有效地解决了传统RNN在处理长期依赖时遇到的问题。LSTM单元的工作原理如下：",
+    "context2": "1.遗忘门（Forget Gate）:",
+    "context3": "$$\nf _ { t } = \\sigma \\big ( W _ { f } \\cdot [ h _ { t - 1 } , x _ { t } ] + b _ { f } \\big )\n$$",
+    "context4": "2.输入门（Input Gate):",
+    "context5": "$$\n\\begin{array} { r l } & { i _ { t } = \\sigma \\big ( W _ { f } \\cdot [ h _ { t - 1 } , x _ { t } ] + b _ { i } \\big ) } \\\\ & { } \\\\ & { \\tilde { C } _ { t } = t a n h ( W _ { C } \\cdot [ h _ { t - 1 } , x _ { t } ] + b _ { C } ) } \\end{array}\n$$",
+    "context6": "3.细胞状态（Cell State）：",
+    "context7": "$$\nC _ { t } = f _ { t } * C _ { t - 1 } + i _ { t } * \\tilde { C } _ { t }\n$$",
+    "context8": "4.输出门（Output Gate）:",
+    "context9": "$$\nO _ { t } = \\sigma ( W _ { o } \\cdot [ h _ { t - 1 } , x _ { t } ] + b _ { o } )\n$$",
+    "context10": "$$\nh _ { t } = O _ { t } * \\mathrm { t a n h } ( C _ { t } )\n$$",
+    "context11": "其中 $\\sigma$ 代表sigmoid激活函数：一种常用的激活函数，能够将输入值压缩至0到1之间，常用于控制门结构中信息的通过程度。tanh表示双曲正切激活函数：能够将输入值压缩至-1到1之间，用于调节网络中信息的流动，增加数据的非线性。W和b分别代表权重和偏差参数：在神经网络中，权重和偏差是学习过程中调整的参数，用于控制模型中信息的传播和转换。h和C分别代表隐藏状态和细胞状态：隐藏状态h是LSTM单元输出的部分，可以传递给下一层或用于计算下一时间步的状态；细胞状态C是LSTM内部的记忆部分，用于长期保存信息。具体研究中，首先收集并归一化LIS学科AI研究历史发文数据作为模型输入。模型的训练采用均方误差（MSE）作为损失函数，并通过反向传播算法优化权重和偏差参数。训练完成后，通过与 BP、SVM、KNN 方法比较，从均方根误差（RMSE）、平均绝对误差（MAE）和R²分数等指标进行评估，以确保LSTM模型预测的准确性和可靠性。"
+  },
+  "1.6预测模型效果评估": {
+    "context1": "使用 TensorFlow 框架和Keras 模块构建LSTM模型，预训练参数设置为look_back $= 4$ ，epochs 200,batch_size=1,verbose=2，为检验LSTM模型的预测效果，同样参数下对比BP、SVM、KNN 三种不同的预测模型，并采用均方根误差（RMSE）、平均绝对误差（MAE）和 R2 分数等指标进行评估，相关统计指标如表1所示。可以看出，KNN在主题趋势预测方面表现最差，而LSTM在RMSE、MAE和R等评估指标上表现最佳。",
+    "context2": "表1不同模型算法的效果评估  \nTable 1 Evaluation of the effectiveness of different model algorithms",
+    "context3": "<table><tr><td colspan=\"1\" rowspan=\"1\">指标模型</td><td colspan=\"1\" rowspan=\"1\">RMSE</td><td colspan=\"1\" rowspan=\"1\">MAE</td><td colspan=\"1\" rowspan=\"1\">R²</td></tr><tr><td colspan=\"1\" rowspan=\"1\">LSTM</td><td colspan=\"1\" rowspan=\"1\">22.37</td><td colspan=\"1\" rowspan=\"1\">15.36</td><td colspan=\"1\" rowspan=\"1\">0.99</td></tr><tr><td colspan=\"1\" rowspan=\"1\">BP</td><td colspan=\"1\" rowspan=\"1\">36.79</td><td colspan=\"1\" rowspan=\"1\">20.77</td><td colspan=\"1\" rowspan=\"1\">0.96</td></tr><tr><td colspan=\"1\" rowspan=\"1\">SVM</td><td colspan=\"1\" rowspan=\"1\">68.05</td><td colspan=\"1\" rowspan=\"1\">65.7</td><td colspan=\"1\" rowspan=\"1\">0.91</td></tr><tr><td colspan=\"1\" rowspan=\"1\">KNN</td><td colspan=\"1\" rowspan=\"1\">75.89</td><td colspan=\"1\" rowspan=\"1\">37.51</td><td colspan=\"1\" rowspan=\"1\">0.88</td></tr></table>",
+    "context4": "进一步观察四种模型的拟合效果（图2)，不难发现，相对 BP、SVM、KNN 模型，LSTM拟合的准确度最高、误差最小，因此，LSTM模型被选用于主题发展预测。",
+    "context5": "![](images/0fbb0122d7a9c30caef4cc400e05015445a28a65c87eafcda2d8ac7140efbcd7.jpg)  \n图2各预测模型拟合优度  \nFigure 2 Goodness of fit for various predictive models"
+  },
+  "2数据采集与处理": "",
+  "2.1数据获取": {
+    "context1": "依托WoS数据库核心集合，获取LIS学科中的AI研究文献。依据Liu[2在其论文中提出的 AI检索策略，结合最新的AI技术概念，构造以下检索式： $\\mathrm { T S } =$ （\"Generative ArtificialIntelligen\\*\" OR ChatGPT OR \"Large Language Model\\*\" OR \"GAI\" OR \"Artificial Inteligen\\*\" OR\"Intelligent Agent\\*\" OR \"Neural Net\\*\" OR \"Expert System\\$\" OR \"smart system\\*\" OR \"Machine\\*Learning\" OR \"Deep Learning\" OR \"Reinforcement Learning\" OR \"Natural Language Processing\"OR \"Learning Algorithm\\*\" OR \"\\*Supervised Learning\" OR \"Robot\\*\" ） AND WC $\\mathop { : = }$ InformationScience&Library Science，检索时间范围设定为1995年1月1日至2024年4月30日。文献类型限定为学术文章，语言为英语，最初得到 4,627篇文献。为提高数据质量，本研究排除了没有摘要的文献，因为摘要是理解文章核心内容的关键。经过这一筛选步骤，最终选取4,573篇相关文献进行后续分析。"
+  },
+  "2.2LIS学科AI研究发展阶段划分": {
+    "context1": "根据AI技术在LIS学科中的应用和发展历程，可以将其划分为三个主要阶段（图3)：",
+    "context2": "第一阶段（1995-2011)：在近 20年的时间跨度中，LIS 学科中的AI研究处于初期探索阶段。年发文量从1995年的23篇增加到2011年的57篇，尽管研究增长幅度相对有限，但这一时期的研究为AI在LIS 领域的应用奠定基础，尤其是在信息检索和知识管理方面，推动了搜索引擎智能化和图书馆自动化管理的发展。",
+    "context3": "第二阶段（2012-2019)：2012年，Krizhevsky等人在Hinton 实验室设计的 AlexNet模型在ImageNet图像识别竞赛中碾压群雄，向世人证明了深度学习的潜力，同时引发学术界的广泛关注[27]。从这一时刻（2012年）开始，AI研究进入快速增长期，同时也标志着深度学习时代的到来。该阶段，LIS学科AI研究的年发文量从2012年的 50篇激增至2019年的282 篇，研究重点从基础技术应用拓展到解决更为复杂的问题，如图像识别和用户行为分析。",
+    "context4": "第三阶段（2020-2024)：2020年，OpenAI发布GPT-3，凭借其1750亿参数和卓越的自然语言处理性能，受到学界和业界的广泛关注，标志着大语言模型技术时代的来临[28]。2023 年，ChatGPT 的出现进一步展示出大语言模型在自然语言处理和深度学习中的潜力。在这一阶段，在这一阶段，AI在LIS 学科中的应用已超越传统边界，广泛涵盖信息检索、知识组织、用户服务及自动化内容创作等领域。",
+    "context5": "![](images/ffef403f16774c72e0cb161e8069dc8db8e4ba750f1b0351f3ed82768e2c9a4e.jpg)  \n图3LIS学科AI研究的时间序列"
+  }
+}

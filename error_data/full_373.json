@@ -1,0 +1,72 @@
+{
+  "original_filename": "full_373.md",
+  "e-science环境下科研数据研究现状与发展趋势": {
+    "context1": "曹锦丹¹,徐 坤1,2",
+    "context2": "(1.吉林大学 公共卫生学院,吉林 长春130021;2.吉林医药学院 图书馆,吉林 长春130021)",
+    "context3": "摘要：科学数据在科学研究中具有重要作用,针对我国目前科学数据存储和应用的实际情况,介绍了数据监护理论。从数据监护的概念、基础理论、服务和工具等方面分别进行了具体分析,找出我国在科学数据监护研究方面的差距,给出了我国要做好科学数据监护研究的相关建议，为后续的相关研究打下良好的基础,最终推进科学数据监护在国内蓬勃发展。",
+    "context4": "关键词：科研数据;科学研究;数据监护",
+    "context5": "中图分类号：G644 文献标识码：A 文章编号:1007-7634(2014)02-58-05"
+  },
+  "Data Curation Research Status and Developing Trends": {
+    "context1": "CAO Jin-dan1,XU Kun1,2",
+    "context2": "(1.School of Public Health,Jilin University,Changchun 130021,China; 2.Library of Jilin Medical College,Changchun 130021,China)",
+    "context3": "Abstract: Scientific research data plays an important role in scientific research,to the status of the scientific research data in China, introducing the data curation from the aspects of concept,theory ,service and tool.Finding the shortage of our country in the study of scientific research data,and then give advice on how to do wellin data curation.the research lay a good foundation, promote data curation in China.",
+    "context4": "Key words: research data； scientific research ; data curation"
+  },
+  "1引言": {
+    "context1": "数据监护相关项目。"
+  },
+  "2相关概念": {
+    "context1": "计算机和网络技术在科学研究中的地位越来越重要，网络环境改变了科研人员互相交流的方式,电子科研(E-SCIENCE)已成为科研人员的主要科研环境,在科学领域内产生的海量数据给相关科研人员带来了巨大的挑战,如何有效管理和利用这些数据成为一个新的研究热点，数据监护就是对科学数据的整个生命周期进行动态管理和维护，并在其他科研人员需要时能够提供共享,最大程度发挥科学数据的价值。科研数据监护对科研群体具有重要意义，各国都已开始重视并大力研究，如美国国家科学基金会准备投资1亿美元资助5个科研",
+    "context2": "对科学数据的研究还是一个相对较新的领域，相关术语还需要定义,JISC(Joint Information Sys-tems Committee,英国联合信息系统委员会)在2003年的相关报告中专门就科学数据研究的相关概念作了解释[2]。",
+    "context3": "数据监护(curation)是指从数据产生开始即对其管理,以促进数据的利用,确保数据能够在需要时被再发现和利用。对于动态数据集而言,意味着需要对其进行持续性补充和更新,以使数据符合用户再利用的需求。高水准的数据监护还要设计具备相应的标注和相关发表资料的链接。",
+    "context4": "数据归档(archiving)是数据监护的任务之一,指合理对数据进行选择及储存,以确保其物理上及逻辑上的持续完整性,以及具备可获取性、安全性和可靠性的活动,数据归档从内容层面确保数据的可用性。",
+    "context5": "数据保存(preservation)是数据归档的任务之一,指对具体数据对象进行持续维护,以确保其在相关技术变革后仍能被读取和理解的活动,数据保存从技术层面确保数据的可持续性。",
+    "context6": "这三个概念是相关的，数据归档是数据监护的一部分,数据保存又使数据归档的一部分，三者在对数据的动态管理中存在着联系。体现了对科学数据的研究应该是对数据的整个生命周期进行有效管理,以实现科学数据的有效利用,实现其最大价值，更好的促进科技发展。",
+    "context7": "英国数据监护中心(digital curation center,DCC)对数据监护过程进行了详细研究,创建了数据监护生命周期模型，将其分成描述和表示信息、建立存储计划、对科研组织活动的观察和参与、数据监护和保存四个阶段[3],而澳大利亚国家数据服务项目(Australian National Data Service,ANDS)将数据监护分成8个动作：创造、存储、描述、标识、登记、获取、检索、开发[4]。"
+  },
+  "3国外科研数据研究现状": {
+    "context1": "科研数据监护是一项系统工程，在欧美等发达国家已经成为研究热点，从数据监护的人员、组织部门、相关技术和服务等方面都有了详细的研究。",
+    "context2": "在数据监护实施人员上，英国图书馆网络工程事物所(UK Office for Library Networking)对科研数据的相关人员的关系进行了详细的分析，包括数据创建者、数据管理者、图书馆员、数据科学家和相关项目的资助者，在报告中给出了10项相关人员在数据监护上的工作建议[5]。",
+    "context3": "LizLyon通过在其报告中表明，目前科研人员处理科学数据的能力与实际对他们的要求之间还存在一定的差距,数据监护人员在辅助科研人员管理科学数据上具有重要作用[。基于数据监护人员的重要作用,各国也都在开始数据监护的相关教育，培养数据监护人才。美国图书馆服务协会资助DigCCurr项目，目的是研究数据监护所需技能，构建相关的课程系统，培养数据监护人才。美国的伊利诺伊大学在2006年开始数据监护教育，并设置了硕士和博士教育计划,培养专业数据监护人员。",
+    "context4": "在组织部门上，通过相关研究，都认为图书馆是比较理想的数据监护组织和实施单位。英国图书馆联盟就英国科研人员与图书馆合作进行数据监护的模式进行分析和总结,得出科研图书馆可以与研究人员合作,向他们提供数据监护服务，并能够得到较好效果[]。加拿大研究图书馆联盟(Cana-dian Association of Research Libraries）在 2O10 年对图书馆向科研人员提供科研数据管理等服务做了研究[。指出了图书馆可以满足科研人员对科学数据的需求,具体服务包括提供数据管理培训,给予技术支持,数据的发现、获取、归档,还能提供虚拟的科研环境。美国国家科学基金会(National Sci-ence Foundation)在报告中指出，科研图书馆应该在数据监护上给予科研机构业务和技术支持，为他们提供相应的数据服务[9]。",
+    "context5": "在对组织机构数据管理能力方面，科研机构和组织需要管理大量的科研数据,但每个科研单位管理数据的能力和效果却不相同，如何评估这一问题对科学数据管理的有效改进具有重大意义。英国联合信息系统委员会资助的Assessing InstitutionalDigitalAssets项目开发了一系列的工具用来评估某组织机构的数据存储能力、存储潜力和总体的数据监护能力[10]。英国联合信息系统委员会资助的Da-ta AssetFramework给出了一种审计方法，用来辅助机构决定他们应该保留什么数据，对这些数据怎样管理。",
+    "context6": "在科研数据管理费用上，随着科研数据的海量增加,对科研数据的管理成本问题一直都是相关人员所关心的问题，伦敦大学就这一问题在英国做了相关调查。调查显示,数据管理费用不仅有存储空间问题,数据的创建、选择、检索、获取等都要投入资源,都是科学数据共享服务所必须要支付的[]。英国高等教育研究机构(UK Higher Education andResearchInstitutions)也做了科学数据共享的成本效益分析,并给了一个合理数据共享框架[2]。",
+    "context7": "在相关软件和服务上，目前，已经有了较多的软件和中间件辅助数据监护,覆盖了数据监护生命周期的各个阶段。澳大利亚联邦教育部的AR-CHER工具箱能够以元数据形式选择和保存大量的数据集，支持科研人员对数据的发布和获取，同时还具有对数据的标注和讨论功能。惠普公司和麻省理工学院合作生产的Dspace已经成为应用最广的开源数据存储软件，该系统可以收集、存储、索引、保存和重新发布研究数据。DSpace是一个专门的数字资产管理系统,它管理和发布由数字文件组成的数字条目，并且允许创建、索引和搜索相关的元数据以便定位和存取该条目[13]。在数据的存储和管理上,南安普顿大学开发的Eprints,能够让用户方便快速的建立包括论文、科学数据、多媒体等电子资源的开放获取库，该软件是一个开源软件，简单易用,并且能够让用户根据自己需要构建满足自己需要的数据库[14]。弗吉尼亚大学和康奈尔大学合作开发的Fedora是一个开源的数据存储平台，可以作为各种存储应用程序的基础,eSciDoc 和Is-landora都是在此基础上开发的数据应用软件,不但提供了数据存储功能,还能处理各种数据监护相关的问题,如数据的出版、存储等,它是构建虚拟的科研环境成为可能[15-16]。由南安普顿大学和曼彻斯特大学联合开发的myExperiment允许科研人员上传他们的科学工作流以让其他人员共享并可以执行，微软研究院的Project Trident可以提供科研人员比较工作流的功能,有效的提供了科研工作的共享和相互交流[]。英国数字资源监护中心(Digital Cura-tion Centre)门户网站不断更新国际上数据监护的相关知识和技术培训内容,包括数据创建者和管理者所需要的相关技术,也包括图书馆员和数据科学家在实施数据监护时应该具有的知识技能等[18]。",
+    "context8": "在数据存储格式方面，科学数据要想实现有效存储和共享，必须要有良好的数据描述标准，元数据被定义为描述数据的数据，目前已经产生了多个元数据模型。通用元数据，如DublinCore,还有针对不同应用领域的相关元数据，如描述政府信息资源的GLS元数据,描述地理空间信息的FGDC/CS-DGM元数据,元数据已经成为数字信息组织的重要工具,为各数字化信息资源提供规范的描述标准，在E-SCIENCE下发挥着重要的作用。",
+    "context9": "在数据监护具体实践上，由于科研数据的重要性被越来越多的科研人员所认识,相关机构团体都开始大力研究，投入大量资源对数据监护进行研究。国际科学联合会(International Council for Sci-ence,ICSU)设立的世界数据中心（World Data Cen-ter,WDC)和国际科技数据委员会(Committee on Da-tafor Scienceand Technology,CODATA)就是专门从事科研数据的收集、交换、服务和共享;在美国，普渡大学图书馆负责的Distributed Data Curation Cen-ter搜集了超过50个不同学科的科学数据数据库，供科研人员获取和参考利用[19],英国的数据监护中心主要是向英国高等教育研究机构提供科学数据服务，包括专业化的数据管理建议和实践帮助，如数据的存储、维护、数据保护和共享等。另外已有机构开始考虑机构内科研数据的采集、保存、管理和分析等工作，如康奈尔大学搭建的DataStar数据中心，提供科研数据的上载存档功能，目的是促科研人员之间相互共享数据，鼓励研究人员发布数据,为知识库提供高质量的元数据[20]。",
+    "context10": "因为涉及到社会和个人利益、知识产权保护等，必须需要相关政策法规的保障，数据监护才能有效实施。欧美等发达国家已经制定了相关政策法规。美国于1996年颁布了国有科学数据完全与开放的国策，在不同的应用领域和部门,科学数据共享相关的政策和管理规章也相继出现,这些政策法规很好地促进了各自领域中的数据资源与信息的共享,协调了共享过程中出现的问题。在欧洲也颁布了涉及到与科学数据共享保障体系相关的诸多领域的法规[21]。"
+  },
+  "4国内科研数据研究现状": {
+    "context1": "我国科学数据研究起步较晚，但进步较快。我国已经积累了丰富的数据资源，一批科学数据库建成,有些已经开始在网上提供信息服务[22],如科技部支持建设的科学数据共享工程以及中国科学院支持建设的中国科学院科学数据库[23]。",
+    "context2": "与国外图书馆相比，国内图书情报机构对于科学数据的研究较少，只有少量科技信息机构或图书馆从事科学数据研究和服务的初步探讨[24-25],实践方面，中国科学院网络信息中心负责中国科学院重要数据资源的保存、共享,其中一项任务为制定相关领域的元数据标准。",
+    "context3": "为充分开发利用我国已有科学数据的科学价值,国家科学技术部于2002年开始实施科学数据共享工程,目的是在国家整体规划与协调管理、政策调控和法规体系保障下,应用现代技术,实现科学数据信息资源的开放与共用,增强国家科技创新能力,推进科技进步与创新。国家科技基础条件平台科学数据共享项目\"医药卫生科学数据管理和共享服务系统\"2003年在科技部立项,2004年4月启动，目前已经启动了40个数据库,提交了元数据,并已在医药卫生科学数据共享网上实现了基于元数据的目录查询,正在按照数据集制作规范进行数据库改造和充实数据库内容[26]。2010年8月12日，中国 -北美图书馆会议在北京举行，主要讨论议题是数字资源共享,包括数字资源共享策略、数字化基础设施建设和技术、科学数据共享、共享资源的检索利用等内容[27]。此后,杨鹤林发表文献,引入数据监护的概念，并倡导国内高校图书馆积极开展数据监护服务，为国内科学数据共享和交流，特别是基于高校的中小型科研团队科学数据共享和交流引入理论科学的理论体系,相信随着科研人员数据共享意识和理念的转变,加上越来越多的部门和科研人员的努力,数据监护将会在国内迅速发展，使我国现有的和将来创造的科学数据被更好的应用,促进科研人员之间的科学数据交流和共享,进而促进科学研究的发展。同时我国也制定了或者正在制定相关数据管理和利用的相关政策法规，以促进科学数据的有效且有序利用,在数据监护人才培养、相关软件等方面未见相关研究。"
+  },
+  "5分析讨论": {
+    "context1": "随着网络技术的发展,在E-SCIENCE的科研环境下，科学数据的地位越来越重要，各国研究人员都对其进行了大量研究和实践，从科学数据监护的理论管理到实施人员和组织部门,再到相关技术标准和应用工具服务，还有相关政策法规都有了较大发展。但是,作为一个新的研究领域,数据监护还有很多问题需要解决。",
+    "context2": "(1)数据共享问题。",
+    "context3": "数据监护的最终目的是发挥科研数据的最大价值，让更多需要的人共享。但在相关人员共享数据的同时，如何有效保护数据创建者的利益，如何有效防止数据滥用，这些问题都需要相关部门制定有效的政策法规,约束相关科研人员的学术行为，同时也需要具有良好的共建共享机制,促进科研人员参与数据共享。",
+    "context4": "(2)数据存储规范问题。",
+    "context5": "数据监护还要解决的问题就是数据一旦被存储就要始终是可理解的,并非是只在本学科内，即使是跨学科,甚至是跨领域也应该容易理解和使用，这一问题单寄希望于元数据还远不能解决，因为不同领域的元数据标准会相差很大，还有些数据需要在相应的模式下才能很好的被理解，如何能设计一个良好的数据存储规范,使数据能在不同领域内传递时即避免冗余，又有效的保证科研数据的可理解性仍是数据监护需要解决的问题。",
+    "context6": "(3)控制词表问题。",
+    "context7": "不同领域对相同或相近概念的用词具有很大的差别,如何能有效理解其他领域的专业用语，这需要一个跨领域的控制词表,但这样的词表的构建将是一个巨大的工程,需要跨领域的专家参与完成。",
+    "context8": "(4)与语义网技术结合问题。",
+    "context9": "数据监护目的是更好的利用网络促进数据共享,方便科研人员间的数据交流。只有计算机更好的理解相关的数据内容，才能有效达到上述目标。目前的以本体理论为基础的语义网技术在国外已经有了长足的发展,但在数据监护上如何将不同本体中的，甚至是跨领域的本体中的数据有效联系起来,形成更广的语义网络,这将是数据监护需要面对的问题。",
+    "context10": "相比国外，国内在科学数据方面的研究除了同样存在上述问题外,还有以下问题需要解决。",
+    "context11": "(1)科研人员对数据监护的参与问题。",
+    "context12": "目前我国科研人员对共享自己的科研数据热情不高，主要是因为国内相关的政策法规还不健全，不能有效的保护科研人员的知识产权，还有一个原因就是科研人员的传统思维，这两方面都不是短时间能解决的，需要相关部门完善政策法规的同时，还需要加大对科研数据共享实践的促进,逐步改变科研人员对数据共享的态度。",
+    "context13": "(2)基层单位数据数字化问题。",
+    "context14": "目前我国国家层面的科研数据已有相当规模，具有专门的系统和人员进行管理，而中小型科研单位的科研数据管理仍是用传统方法，以纸质资料和电子文档为两类主要存储介质，数据的数字化程度不高，这给进一步的科研数据管理和利用带来一定的阻碍。",
+    "context15": "(3)科研数据质量保证问题。",
+    "context16": "部分科研人员的学术不端问题还是存在,数据的收集和管理还没有明确的标准,难以保证数据的质量，这有违数据监护的目标，不利于数据监护的有效实施。",
+    "context17": "(4)人才培养问题。",
+    "context18": "数据监护人员不单要有信息管理知识，同时还要有相关的学科背景才能胜任数据监护工作，我国目前的信息管理人员培养多不具备相关学科背景。相关教育部门应该重视相关学科背景的培训和学习。"
+  },
+  "6结语": {
+    "context1": "数据监护是对科学数据整个生命周期的动态管理和维护，目的是实现数据在不同时间、不同学科、不同领域之间有效共享。数据监护是一个庞大的系统工程,需要广大科研人员和机构共同努力，使科学数据发挥更大的价值,是科学研究能站在一个更高的起点上开始。随着国家政策的支持,科研人员数据共享意识的提高,越来越多的信息管理人员和机构参与到数据监护中来，我国的数据监护将快速发展,更好的发挥科学数据的价值,更好的服务于科学研究。",
+    "context2": "1 张红丽,吴新年.e-Science环境下面向用户科研过程的 知识服务研究[J].情报资料工作,2009,(3):80-84.   \n2 Lord P,Macdonald A.Data curation for e-Science in the UK:an audit to establish requirements for future curation and provision[EB/OL].http://www.jisc.ac.uk/ uploaded_documents/e-ScienceReportFinal.pdf,2011 -11-18.   \n3 DCC Curation Lifecycle Model[EB/OL].http://www. dcc.ac.uk/resources/curation-lifecycle-model,2011- 11-18.   \n4 Adrian Burton,Andrew Treloar,Deputy Directors,Australian National Data Service Designing for Discovery and Re-Use: the‘ANDS Data Sharing Verbs’ Approach to Service Decomposition[J].The International Journal of Digital curation,2009,(3):44-56.   \n5Dealing with Data:Roles,Rights,Responsibilities andRelationships[EB/OL].http://www.jisc.ac.uk/media/documents/programmes/digitalrepositories/dealing_with_data_report-final.pdf,2011-11-18.   \n6 Skills,Role&Career Structure ofDataScientists& Curators:Assessment of Current Practice & Future Needs [EB/OL].http://www.jisc.ac.uk/publications/reports / 2008/dataskillscareersfinalreport.aspx,2011-11-18.   \n7Researchers'Use of Academic Libraries and Their Services[EB/OL].http://www.rin.ac.uk/researchers-uselibraries,2012-03-19.   \n8 Addressing the Research Data Gap:A Review of Novel"
+  },
+  "参考文献": {
+    "context1": "Services for Libraries[EB/OLJ.http://www.carl-abrc. ca/about/working_groups/pdf/library_roles-final.pdf, 2012-03-15.   \n9 To Stand the Test of Time: Long-Term Stewardship of Digital Data Sets in Science and Engineering[EB/OL]. http://www.arl.org/pp/access/nsfworkshop.shtml,2012 -03-19.   \n10 Assessing Institutional Digital Assets (AIDA)[EB/OL].http:// aida.jiscinvolve.org/,2012-03-19.   \n11 A Shared Research Data Service for the UK[EB/OL].http:/ www.hefce.ac.uk/finance/shared/feasibility/show.asp?id=18& cat=6,2012-03-19.   \n12Identifying Benefits Arising from the Curation and Open Sharing of Research Data[EB/OL].htp://ie-repository.jisc. ac.uk/279/,2012-03-19.   \n13 Dspace[EB/OL].http://dspace.0rg/,2012-03-19.   \n14 Eprints[EB/OL].http://www.eprints.org/,2012-03-19.   \n15Fedora[EB/OL].http://fedora-commons.org/,2012-03-19.   \n16 eSciDoc Project[EB/OL].https://www.escidoc.org/,2012-03 -19.   \n17 Project Trident[EB/OL].htp:/research.microsoft.com/en-us /collaboration/tools/trident.aspx,2012-03-19.   \n18 DCC--Data Management Courses and Training [EB/OL]. http://www.dcc.ac.uk/node/8975 2012-3-15.   \n19Distributed Data Curation Center: Other Data Repositories [EB/OL].http://d2c2.lib.purdue.edu/OtherRepositories.php, 2012-03-19.   \n20 Datastar[EB/OL].http://datastar.mannlib.cornell.edu,2012- 03-16.   \n21 刘细文,熊瑞.国外科学数据开放获取政策特点分析[J]. 情报理论与实践,2009,(9):5-10.   \n22 孙鸿烈,刘闯.国际科学数据前沿领域发展研究[J].中国 基础科学,2003,(1):13-18.   \n23 杨从科.中国农业科学数据资源建设研究[D].北京:中国 农业科学院,2007：22.   \n24 彭洁,涂勇.科学信息机构从事科学数据研究的趋势 和可行性分析[J].图书情报工作,2009,(10)：47-50.   \n25 黄筱瑾.研究型图书馆参与科学数据共享服务研究[J]. 图书馆论坛,2009,(12):177-179,193.   \n26 刘德培,尹岭.医药卫生科学数据共享[J].中国基础科学, 2007,(1):26-28.   \n27 Sha Li Zhang, Sharing digital resources globall: the China-North America Library Conference[J].Library Hi Tech News,2011,(6):1-5. -kn"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "original_filename": "full_349.md",
+  "CBIR性能评价研究：现状与建议 Research on Performance Evaluation of CBIR: Status Quo and Proposals": {
+    "context1": "袁顺波",
+    "context2": "(嘉兴学院商学院嘉兴314001)",
+    "context3": "摘要性能评价是CBIR(Content一based Image Retrieval)研究的一个重要方面，通过建立性能评价标准，可以有力地推动图像检索技术的良性发展。对CBIR性能评价研究现状的分析，提出从建立通用的标准测试数据集、综合利用各种相关性判断方法、建立通用的评价框架等角度来优化CBIR性能评价。",
+    "context4": "关键词性能评价基于内容的图像检索图像检索信息检索",
+    "context5": "在多媒体技术和用户图像检索需求等因素的多重推动下，CBIR技术日趋成熟，众多商用和科研图像检索系统相继问世，如美国IBM公司开发的QBIC、哥伦比亚大学的VisualSeek 等。因此，建立方便、合理、有效的评价方法，评价CBIR系统的检索性能，从而方便用户快捷、准确地获取所需图像信息就显得尤为重要。"
+  },
+  "1 CBIR性能评价研究现状": {
+    "context1": "性能评价是CBIR中的一个关键问题，目前已有学者针对CBIR的性能评价提出了多种方法。如检准率和检全率、检索有效性、检索评分法、匹配百分比方法、tau系数方法、目标查询成功率等方法。下面就对目前几种主要的CBIR 性能评价方法进行介绍和简评。",
+    "context2": "1.1检准率和检全率(Precision and Recall）评价检索系统性能最常用的指标就是检准率和检全率。对于用户来说，检索系统应该为用户检索出尽可能多的相关信息，同时还要尽量减少不相关信息的检出数量。检准率和检全率最初用来评价文本检索系统，现在已经被越来越多地使用在CBIR性能评价当中，如KamAH等就利用检准率和检全率对CBIR进行评价[1-2]。CBIR中的检准率和检全率如图1所示。",
+    "context3": "A：检索结果集  \n$\\left| R a \\right|$ ：检索结果中的相关图像集  \nR：相关图像集",
+    "context4": "![](images/59964e21b2111c6140029385b70898981515d6651a4a1178528f39d17da770d3.jpg)  \n图1检准率和检全率关系示意图",
+    "context5": "则检准率 $\\mathrm { \\bf P } = \\mathrm { \\bf \\Phi } | _ { \\mathrm { \\bf \\Lambda } R a } \\ | \\mathrm { \\bf \\Lambda } / \\mathrm { \\bf \\Lambda } | _ { \\mathrm { \\bf \\Lambda } A }$ |,检全率 $\\smash { \\mathrm { R } = | \\mathbf { \\Lambda } _ { R a } | \\mathrm { ~ / ~ } | \\mathbf { \\Lambda } _ { R } | }$ ，误检率 $= ( \\mid  { A } \\mid - \\mid  { R a } \\mid ) / \\mid  { A } \\mid$ 。",
+    "context6": "针对部分检索结果,Tan $\\mathrm { K i a n } ^ { - } \\mathrm { L e e }$ 等人提出检准率 $\\mathrm { P _ { n o r m a l } }$ 和标准检全率 $\\mathrm { R } _ { \\mathrm { n o r m a l } } [ 3 ]$ 其定义如下：",
+    "context7": "$$\n\\begin{array} { r } { \\mathrm { P } _ { \\mathrm { n o m a l } } = \\frac { \\displaystyle \\sum _ { i = 1 } ^ { L } \\left( \\log r _ { i } - \\log i \\right) } { \\log \\frac { N } { \\left( N - L \\right) ! L ! } } } \\\\ { \\mathrm { R } _ { \\mathrm { n o m a l } } = 1 - \\frac { \\displaystyle \\sum _ { i = 1 } ^ { L } \\left( r _ { i } - i \\right) } { \\left( N - L \\right) L } } \\end{array}\n$$",
+    "context8": "其中, $N$ 为检索结果中的子图像数目， $L$ 是检索结果中与查询图像相关的子图像数目， $r _ { i }$ 是第 $i$ 幅相关子图像的排序。",
+    "context9": "检准率用以反映检索的准确度，检全率用以反映检索结果的全面性,因此可以用检全率和检准率来评价CBIR 的有效性。但是，此方法也存在一定缺陷：a·高检准率和高检全率并不与系统的检索性能成绝对的正比例关系，这是因为，在此方法中，没有考虑相关图像在检索结果中所处的位置，如果在检索结果中，相关图像反而排在不相关图像的后面，即使检全率和检准率高也不能说明此系统具有较好的检索性能;b·在CBIR系统中，检全率会很低，用检全率和检准率来评价CBIR系统的性能是否合适还有待验证。",
+    "context10": "1.2检索有效性（Retrieval Effectiveness）检索的有效性可以反映一个系统为用户检索出相关图像的有效性，因此也可以成为评价CBIR系统性能的一个指标。VishalChitkara 定义检索有效性E为[4]：",
+    "context11": "$$\n\\mathrm { E } { = } \\frac { 2 \\displaystyle \\sum _ { i = 1 } ^ { s } s _ { i } } { s ( s + 1 ) }\n$$",
+    "context12": "其中 $s$ 表示检索前预测的与示例图像相关的图像数量， $S _ { i }$ 表示在检索结果中这些图像的排列序号，E的值越小，说明CBIR系统的性能越好。",
+    "context13": "检索有效性比较符合人们的逻辑思维，简单、容易实现。当然该方法也存在着一定的不足，如果两个检索结果得出的检索效率相同，则无法判断性能的优劣。并且，检索有效性只是CBIR性能评价中的一个方面，有效性高并不一定代表性能优越。",
+    "context14": "1.3错配法(Mismatch)[5]Sameer Antani 等人针对基于形状的医学图像检索系统，提出错配法，分别赋予基准检索图像不同的序号,利用示例图像与基准检索图像相匹配，累积错配的序号差，进而评价整个CBIR系统的性能。定义如下：",
+    "context15": "$$\nP = \\frac { T _ { d } - D m } { T _ { d } } \\times 1 0 0 \\%\n$$",
+    "context16": "其中, $P$ 表示CBIR系统的性能， $D m$ 表示对系统所有图像进行检索的错配序号差的总和， $T _ { d }$ 表示错配的最大可能值，其表达式为：",
+    "context17": "$$\nT _ { d } = 2 \\times \\sum _ { k = 0 } ^ { | \\frac { N } { 2 } - 1 | } N ^ { - } ( 2 k ^ { + } 1 )\n$$",
+    "context18": "错配法主要针对基于形状的医学图像而提出，通过与基准图像的比较，得出一个具体的数值，因此能够以定量的方式评价CBIR系统的性能，如系统中有 $N$ 幅基准检索图像，那么针对第一幅的 $T _ { d }$ 为( $N ^ { - 1 ) }$ ,第二幅的 $T _ { d }$ 则为 $( N ^ { - 3 } )$ ,这是因为第一幅图像及相应错配图像的位置已经固定，系统中就只剩下 $M$ $\\ O = ( N ^ { - 2 } )$ 幅位置未固定的图像,第二幅的 $T _ { d }$ 为 $( M ^ { - 1 } )$ ，也即是( $N ^ { - 3 } )$ ,如此类推,最终得出 $T _ { d }$ 的总值，比如说一个系统中有250 幅图像，那么 $T _ { d }$ 的值就为31250。但是，该方法主要针对基于形状的图像，并且需要对每一个基准图像赋予编号，因此只适合对小型的CBIR系统进行评价。",
+    "context19": "1.4标准化平均排序法（Normalized Average Rank）标准化平均排序法由Henning Muller等人提出,其表达式为：",
+    "context20": "$$\n\\overline { { \\mathrm { R a n k } } } { = } \\frac { 1 } { N N _ { R } } ( \\sum _ { i = 1 } ^ { N _ { \\mathrm { } } } R _ { i } { - } \\frac { N _ { R } ( N _ { R } { - } 1 ) } { 2 } )\n$$",
+    "context21": "其中, $N$ 表示系统中的图像总数， $N _ { R }$ 表示某次检索中与示例图像相关的图像数量，且按其相关度从大到小分别赋予不同的标记，最相关的图像为 $K _ { 1 }$ ，次相关的图像为 $K _ { 2 }$ ,依次类推，直到 $K N _ { R }$ ， $R _ { i }$ 表示检索结果中第 $K _ { i }$ 幅图像的排列序号( $R _ { i } =$ $1 \\cdots N )$ 。其取值范围为 $[ 0 , 1 ]$ ，越接近于0,系统的性能越好，反之亦然。Henning Muller 指出，对于随机检索，其值一般为$0 . 5 ^ { [ 6 ] }$ 。",
+    "context22": "标准化平均排序法综合运用了基于排序的方法、单值方法以及PR图的思想，因此能够较为科学地反映CBIR系统的性能。不过笔者发现，标准化平均排序法在理想状态下，检索结果应只包括相关的 $N _ { R }$ 幅图像，且图像均按相关度从大到小排列，即 $R _ { 1 } = 1$ , $R _ { 2 } = 2$ ，依次类推。根据式(6)可知,Rank的最小值应该是 $1 / N$ ，而不是0。因此，应在 $N _ { R }$ 为某一定值的情况下来讨论Rank 的取值范围。由此可知， $\\mathbf { R a n k }$ 的取值范围应为 $[ 1 / N , 1 ]$ 。",
+    "context23": "1.5目标查询成功率(Success of Target Search STS)[7]如果相对于每次检索，系统中都只有一幅相关图像(也即目标图像),即可用目标查询成功率方法来量化评价系统性能，表达式为：",
+    "context24": "$$\n{ \\mathrm { S T S } } ^ { = } ( 1 ^ { - } { \\frac { \\mathrm { R a n k } ^ { - } 1 } { N ^ { - } 1 } } )\n$$",
+    "context25": "其中，Rank表示目标图像在检索结果中的排列序号，取值范围为[1,N],N即为系统中的图像总数。该方法虽然简单、易于实现，但仅考虑了一幅相关图像，无法顾及更多的相关图像，因此实用性较差。",
+    "context26": "1.6平均匹配百分比(Average Match Percentile AMP）该方涛圈依据 是依据系统中图像的排列序号来评价系统的索引能力,由In Kyu Park 等学者提出[8],表达式为：",
+    "context27": "$$\n\\mathrm { A M P } { = } \\frac { 1 } { Q } \\sum _ { i = 1 } ^ { Q } \\frac { N ^ { - } } { N ^ { - } 1 }\n$$",
+    "context28": "其中， $N , Q$ 分别表示系统中的图像数和检索示例图像数，$R _ { i }$ 表示相对于第 $i$ 次检索的相关图像的排列序号，AMP的值越接近于1,系统的性能就越好。此后，又有学者改进了AMP,定义其为[9].",
+    "context29": "$$\n\\begin{array} { l l } { { \\displaystyle \\mathrm { A M P } = \\frac { 1 } { Q } \\sum _ { \\ell } \\boldsymbol { \\mathrm { M P } } _ { Q } } } \\\\ { { \\displaystyle \\boldsymbol { \\mathrm { M P } } _ { Q } = \\frac { 1 0 0 } { S _ { Q } } \\sum _ { i = 1 } ^ { S _ { o } } \\frac { N - R _ { i } } { N - { \\mathrm { \\Omega } } _ { i } } ( R _ { i } < R _ { i + 1 } ) } } \\end{array}\n$$",
+    "context30": "(8)、(10)中 $N , R _ { i } , Q$ 所代表的含义相同， $S _ { Q }$ 则代表与示 例图像相关的图像总数。",
+    "context31": "1.7检索率(Retrieval Rate RR)[10] 按图像的某一特征(纹理、颜色)将系统的图像分成若干类，用 $T _ { k }$ 表示( $k = 1 , 2$ ，$\\cdots M )$ 。假设以示例图像 $q \\in \\mathrm { \\Delta T } _ { i }$ 进行检索,结果中包括 $N$ 幅图像，选取排在前列的 $P _ { j }$ 幅图像，那么该次检索的检索率为：",
+    "context32": "$$\n\\begin{array} { r l } & { { \\mathrm { R R } } _ { ( q ) } = \\cfrac { 1 } { P _ { j } } \\underset { j = \\vdots } { \\overset { P _ { i } } { \\sum } } S ( P _ { j } ) \\times 1 0 0 \\% } \\\\ & { \\not \\plus \\not \\Psi , S _ { ( q ) } = \\left\\{ \\begin{array} { l l } { 1 } & { \\quad \\not \\{ { \\mathrm { 1 } } \\rceil \\not \\Psi \\not \\equiv \\mathrm { ~ { { T } } } _ { i } } \\\\ { 0 } & { \\quad \\not \\{ { \\mathrm { 1 } } \\rceil \\not \\Psi \\not \\equiv \\mathrm { ~ { P } } _ { j } } \\not \\in \\mathrm { ~ { T } } _ { i } \\right.} \\end{array}   \\end{array}\n$$",
+    "context33": "RR 的值越高,说明系统的性能越好,在理想状态下，其值应该为 $100 \\%$ 。",
+    "context34": "1.8检索评分法[11]检索评分法是基于排序方法提出的一种性能评价方法。假设对系统进行了 $q = 1 , 2 , \\cdots , Q$ 次查询，$G _ { ( q ) }$ 为第 $q$ 次查询中符合查询要求的图像数量，且 $G _ { \\mathrm { m a x } }$ 为 $G _ { ( q ) }$ 的最大值。",
+    "context35": "一个评分窗口 $U _ { ( q ) }$ 与第 $q$ 次查询相对应,设 $U$ 中所包含的图像数为 $\\boldsymbol { W } _ { ( q ) }$ ，则 $W _ { ( q ) } > G _ { ( q ) }$ 。包含在 $W$ 中的返回图像按照索引 $r = 1 , 2 , \\cdots W$ 进行排列。最终的检索评分表达式为：",
+    "context36": "$$\nS = \\frac { \\displaystyle \\sum _ { q = 1 } ^ { \\varrho } \\mathrm { N R R } _ { ( q ) } } { \\varrho }\n$$",
+    "context37": "其中 $\\operatorname { N R R } ( q )$ 为相对检索排序， $S$ 的取值范围为[0,1],其值越小,说明CBIR系统的检索性能越好;相反，其值越大，说明CBIR系统的性能越差。"
+  },
+  "2优化CBIR 性能评价的建议": {
+    "context1": "综上所述，已有不少学者对CBIR性能评价展开了研究，但从整体上来看，提出的性能评价方法通用性和实用性较差，并且随着相关反馈技术在CBIR中的应用，要求具有相关反馈的交互式性能评价方法，进一步对CBIR性能评价提出了挑战。因此，直面现阶段存在的问题，优化、完善相关评价方法，提高CBIR性能评价水平，应该是界内相关学者研究的重点之一。",
+    "context2": "2.1建立通用的标准测试数据集测试数据集是CBIR 性能评价的前提条件，建立通用的标准测试数据集将有助于科学、合理地评价系统特征提取的有效性及整体性能。目前比较常用的是美国加州水资源图像集和Corel公司的22000 幅专业收藏照片等，但令人遗憾的是，这些测试数据集中的图像数量不够丰富，Corel中的图像资源因受到知识产权限制还需有偿获取，造成大部分研究机构只能利用其中的一部分子数据集，从而影响性能评价的科学性、正确性。因此，建立通用的标准测试数据集就成为必然的选择。但建立一个通用的数据集并非易事，需要各相关单位通力协作，逐渐实现图像资源共建共享，故可以采取强强联合、逐步扩展的策略，首先由几家权威机构合作，建立动态扩展的测试数据集，然后不断联合全球各地的相关机构，最终建立一个规模庞大、图像资源丰富、类型多样化、分类详细、可免费获取、无知识产权限制、可在互联网上传输、下载的通用标准测试数据集。",
+    "context3": "2.2综合利用各种相关性判断方法 与文本信息不同的是，图像信息具有多维特征，如颜色、纹理、形状特征等，因此，如何合理地判断图像之间的相关性便成为性能评价中的一个难点。目前常用的相关性判断方法主要有：a·利用内容已标注的图像数据库，这些数据库已将其图像进行了分类，如Corel，可由数据库自动判断图像之间的相关性：具有相同主题的图像是相关的，不同主题的图像是不相关的。该方法的优点是根据图像中的对象而不是整幅图像来确定相关性，因此能保证比较高的准确性,但也存在着不少缺点：首先，图像数据库的选择会在很大程度上影响判断结果，容易造成利用不同数据库得到的判断结果不同甚至相反的可能;其次，根据标注来判断图像之间的相关性，其真实性程度有待验证;最后，需要对图像资源进行全面标注，加大了相应的工作量和复杂度。b·模拟用户法，利用坐标距离，模拟用户来判断图像之间的相关性，距离越近，相关性越强。该方法简单、易于实现,但用户自己的判断是非线性的，用坐标距离很难准确反应用户的真实判断，因此该方法无法完全代替用户的判断。c.用户判断图像的相关性，由于只有用户知道自己所期望的检索结果，因此可以由用户自己来判断图像之间的相关性,GuojunLu等分别介绍了三种用户判断相关性的方法。但这些方法操作费时，如果数据库中有N幅图像和M幅基准检索图像，用户需要进行 $\\mathbf { N } \\times \\mathbf { M }$ 次判断。并且有实验表明,对同一幅图像，不同用户有不同的判断结果。",
+    "context4": "现有的相关性判断方法或多或少的存在不足，因此，比较明智的做法是综合利用各种判断方法，对图像进行多方面的判断，如利用内容已经标注的图像数据库方法与用户判断方法相结合，用系统比较客观的判断和用户主观方面的判断相结合共同确定图像的相关性，从而达到较高的准确性。",
+    "context5": "2.3建立通用的评价框架为评价不同的CBIR系统，可以采取不同的评价方法和不同的评价准则，但问题是目前尚未形成一个通用的评价框架，由于各种方法都基于不同的框架所提出的，造成了这些方法的通用性、互补性不够理想。因此，有必要建立一个通用的评价框架，在这个框架下提出一系列针对不同CBIR系统的评价方法，使这些方法都有明确的评价对象，彼此之间相互协作，形成一个具有较强整体性的、能评价各种CBIR系统的评价体系。现在已有相关机构开始这方面的工作,Benchathlon 网站就是一个典型的CBIR评价行动，其宗旨是在国际上建立一个CBIR重要的评价行动，具体目标为：建立一个通用的框架以评价各种CBIR系统；鼓励对CBIR的研究和对CBIR评价的研究；帮助CBIR的研究人员和公司开发客观评价的良好环境，主要是指一个通用的评价框架;为CBIR的研究人员和国提借基本的而数据含农止：济网站已取得了如下成果;a·引起了相关人员对CBIR评价研究的兴趣;b·已将研究人员集合到共同关注的问题上;c·构建了一个开放的图像数据库，并搜集了大量对图像的标注;d·搜集了大量图像标注工具;e.对CBIR 性能提出了一系列性能测度;f.开发了一些将不同系统加入到评价框架中的工具;g·构建了一个基本的基准架构，并进行了测试。"
+  },
+  "3结束语": {
+    "context1": "性能评价作为CBIR的一个重要方面，已经逐渐得到了相关人员的重视，但由于CBIR系统依然缺乏为界内学者普遍接受的性能评价框架，导致了目前不能很好地比较不同方法和系统的能力。本文分析了CBIR性能评价的研究现状，并针对现阶段存在的问题提出若干建议，以期对CBIR性能评价研究有所启发。"
+  },
+  "参考文献": {
+    "context1": "1Kam A H,N g T T，Kingsbury NG，et al. Content Based Image Retrieval Through Object Extraction and Querying[J]·In：IEEE Work shop on Content based Access of Image and Video Libraries : Hilton Head，South Carolina，USA 2OOO：91—95   \n2 Markus Koskela，Jorma Laaksonen，Sami Laakso $^ \\prime \\prime$ Erkki Oja·Evaluating the Performance of Content-Based Image Retrieval Systems [J]·VISUAL,2000:430-441   \n3 Tan Kian-Lee，Ooi Beng Chin，Yee Chia Yeos·An Evaluation of Colorspatial Retrieval Techniques for Large Image Databases [J]. Multimedia Tools and Applications,20Ol,14(1):55—78   \n4 Vishal Chitkara·Color-Based Image Retrieval Using Compact Binary Signatures [EB]. http://knightcis·temple.edu/lakaemper/courses/cis595-2004/papers/chitkara2001.pdf   \n5Sameer Antania· Evaluation of Shape Similarity Measurement Methods for Spine X-ray Images[EB]. http://archive·nlm·nih· gov/ pubs/antani/jvcl72/jvcl72.pdf   \n6 Henning Muller，Wolfgang Muller,David McG．Squire，Thierry Pun $, ^ { \\star }$ Performance Evaluation in Content-based Image Retrieval: Overview and Proposals[J].Pattern Recognition Letters,2OOl,22: 593-601   \n7 Raimondo Schetini,Gianluigi Ciocca,Silvia Zufi $\\therefore$ A Survey of Methods for Colour Image Indexing and Retrieval in Image Databases [EB]· http://www $\\cdot$ itim·mi·cnr· it/Linee/Lineal/scaricare/methodsCIIR $- 9 - 1 - 0 1 \\mathbf { a }$ pdf   \n8 In Kyu Park,Il Dong Yun，Sang Uk Lee.Color Image Retrieval Using Hybrid Graph Representation[J]·Image and Vision Computing, 1999,17:465—474   \n9Gerald Schaefer,Simon Lieutaud·Color and Shape Based Image Re trieval for CVPIC Codedimages[EB]·http://scom·hud·ac·uk/scom zl/conference/chenhua/040528-0lE/CIS2129 .pdf   \n10G.Qiu· Indexing Chromatic and Achromatic Patterns for Content一 based Color Image Retrieval[J]·Pattern Recognition,2OO2，35 1675 -1686   \n11Neil J.Gunther,Giordano Beretta $\\cdot$ A Benchmark for Image Retrieval using Distributed Systems over the Internet BIRDS一I[J]. Proceedings of SPIE,200l,43(1l):252—267",
+    "context2": "(责编：梅王京)"
+  }
+}

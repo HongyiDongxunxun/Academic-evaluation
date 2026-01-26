@@ -1,0 +1,122 @@
+{
+  "original_filename": "full_4295.md",
+  "·情报理论与前瞻观点·": "",
+  "基于GMM-HMM的话题生命周期状态识别及趋势预测方法": {
+    "context1": "朱恒民1²蔡婷婷魏静1（1．南京邮电大学管理学院，江苏南京210003;2．江苏高校哲学社会科学重点研究基地—信息产业融合创新与应急管理研究中心，江苏 南京 210003)",
+    "context2": "摘要：旧的/意义本研究对正处于演化过程中的话题进行状态识别及趋势预测，为相关部门了解话题现状，对话题进行有效监管提供科学依据。方法/过程首先，考虑网民情感，结合话题的新颖度和关注度，构建话题生命周期状态观测指标；其次，基于隐马尔可夫模型(HMM)和高斯混合模型(GMM)的原理，提出话题生命周期状态识别及趋势预测方法；最后，选用微博话题构建数据集，设计对比实验，验证方法的有效性。结果/结论基于GMM-HMM的话题状态识别及趋势预测方法的F1值和准确率均高于 $87 \\%$ ，MAPE低于 $3 . 5 \\%$ ，相较于GaussianHMM和BP神经网络具有较大优势。",
+    "context3": "关键词：话题生命周期状态；话题状态识别；话题趋势预测；高斯混合隐马尔可夫模型 DOI: 10.3969/j.issn.1008-0821.2023.03.003 （中图分类号）G202（文献标识码）A（文章编号）1008-0821（2023）03-0026-07"
+  },
+  "Topic Lifecycle Status Identification and Trend Prediction Method Based on GMM-HMM": {
+    "context1": "Zhu Hengmin'2Cai Tingting1Wei Jing1   \n(1.School of Management，Nanjing University of Posts and Telecommunications，Nanjing 210003，China;   \n2.Jiangsu University Philosophy and Social Science Key Research Base—Information Industry Integration Innovation and Emergency Management Research Center，Nanjing 210oO3，China)",
+    "context2": "Abstract[Purpose/Significance] In this paper，the status identificationand trend prediction of topics in the process f evolution arecariedout，soas to provide scientific basis forrelevant departments tounderstand the status of topicsandeffectivelysupervise the topic.Method/Process]Firstly，considering theemotionof netizensand combining the noveltyandatentionofthetopic，theobservationindexesofthetopic lifecyclestatus wereconstructed.Secondly，basedon Hiden Markov Model and Gaussian Mixture Model，thispaperproposeda methodof topic lifecyclestatus identification and trend prediction.Finally，microblog topics were selectedasadataset and comparative experiments were designed to verify theefectiveness of the method.Results/Conclusion]TheF1valueand acuracyof topic state identificationand trend prediction method based on GMM-HMM are both higher than $87 \\%$ ，and MAPE is lower than $3 . 5 \\%$ ，which has greater advantages compared with GaussianHMM and BP neural network.",
+    "context3": "Key words:topic lifecycle status；topic status identification； topic trend prediction； Gausian Mixed Hidden Mark-ov Model",
+    "context4": "网络话题已成为网民发表评论、政府了解民意、监管部门追踪社会热点的重要媒介。同生命体的生命周期类似，话题也有生命周期，也会经历从萌芽到衰亡的各个阶段，反映话题新兴或衰亡等演化状态。因此，识别话题的生命周期状态对于监管部门了解话题现状、掌握发展趋势、监控舆论危机具有重要意义。",
+    "context5": "根据话题生命周期老化理论，话题演化可划分为萌芽、生长、成熟和衰退4个状态。为了识别话题生命周期的状态，一些学者提出了描述话题状态的相关指标。Braun T等提出了关于技术主题生命周期的新颖度指标，判断主题是否进入了生命周期的成熟阶段；基于新颖度指标，部分学者新增了一些其他指标来综合判定话题的生命周期状态。TuYN等基于老化理论新增发文量指标，结合新颖度指标探测技术主题生命周期阶段；祝娜等新增被引量指标，通过自定义生命周期探测表来构建知识主题完整的生命周期演化路径；谭春辉等新增支持度指标，通过二维空间映射法判定主题所处的生命周期阶段，从时间与强度两个维度分析主题在各时间片所属的状态。此外，刘自强等基于CallonM等提出的向心度和密度指标，采用平面坐标法将科技文献主题划分为4个生命周期状态，以描述主题在整个生命周期的演化过程。另有一些学者通过绘制话题演化曲线来判定话题的生命周期状态。刘东霞等绘制专利累计量的S曲线，通过曲线走势划分煤炭液化技术主题的生命周期状态；王晰巍等利用百度指数曲线图并结合话题事件特点，将微博话题划分为4个生命周期状态。",
+    "context6": "上述工作多是针对科技文献，通过回溯一个已经演化完成的话题生命周期过程来划分状态，未能对一个正在演化中的话题进行状态识别。其次，话题在演化过程中总是伴随着网民情绪的变化，它会影响话题传播和发展趋势[，但是上述工作并未将网民情绪纳入话题生命周期状态的判定指标。",
+    "context7": "在识别当前时刻话题状态的基础上，可以进一步预测未来时刻话题状态的演化趋势。已有相关工作多是基于时间序列预测方法，分析话题热度或者强度等流行度指标的演化趋势。岳丽欣等[采用",
+    "context8": "ARIMA模型预测话题的强度变化趋势；王宁等[运用灰色模型实现对话题热度趋势的预测；刘勘等[采用马尔可夫链对话题热度进行预测，并检验了建模方法的有效性；张和平等[选用百度指数作为话题热度的衡量指标，采用马尔可夫链修正灰色模型的预测结果。然而，仅预测话题流行度等单一指标并不能很好地描述话题状态的演化趋势。LiuRF等采用隐马尔可夫模型(Hidden MarkovModel，HMM)试图预测话题状态，对多个话题分别构建HMM模型并建立模型库，通过人工判别待预测话题与模型库中已有话题是否相似，从而选择相应模型预测话题未来的状态，但是该方法人工干预工作量较大。此外，话题生命周期状态是循序演变的，相较于预测话题在未来时刻的状态，预测反映话题状态的观测指标趋势更有意义。",
+    "context9": "HMM作为一种概率统计模型，能考虑时间序列的影响。通过观测指标数据建立概率模型，运用最大似然估计法学习模型参数，用于解决分类和预测等问题[6-18。LiuRF等在预测话题生命周期状态时，假设话题状态指标数据是由随机过程产生的随机变量，采用高斯概率密度函数拟合这些指标数据。然而，单个高斯概率密度函数无法很好地拟合实际应用中的所有变量，于是使用几个高斯概率密度函数的线性组合模拟观测变量[19-20，即高斯混合模型(Gaussian Mixture Model，GMM）。因此，本文采用GMM来拟合话题状态的多重观测指标，并结合HMM提出话题状态识别和趋势预测方法。",
+    "context10": "综上所述，现有研究主要是通过回溯话题演化过程来划分话题生命周期状态，鲜有研究引入网民情感指标来描述话题状态，且多数研究是通过预测单一指标来分析话题的演化趋势。因此，本研究对正处于演化中的话题进行状态识别，将网民情感纳入话题状态识别指标，通过预测多个话题指标来更准确地描述话题状态的发展趋势，以期为监管部门识别话题演化状态、揭示话题发展趋势、采取干预措施提供决策支持。"
+  },
+  "1话题生命周期状态指标构建": {
+    "context1": "话题状态指标能够量化描述话题生命周期状态特征，反映话题从出现到衰亡的整个演化过程。首",
+    "context2": "先基于Gompertz曲线来划分话题的生命周期状态，然后构建新颖度、关注度和情感度这3个话题状态指标，分析指标与演化过程的相关性。"
+  },
+  "1.1话题生命周期状态划分": {
+    "context1": "本文基于Gompertz曲线将话题生命周期划分为萌芽、生长、成熟和衰退4个状态。Gompertz 曲线所描述现象的特点是：初期增长缓慢，之后逐渐加快，当达到一定程度后，增长率又逐渐下降，最后接近一条水平线。它通常用于描述事物的发展由萌芽、成长到饱和的周期过程。考虑到网络话题的传播过程与其较为一致，本文基于Gompertz 曲线模型[21-23对话题的生命周期发展阶段进行模拟，通过微积分计算，确定曲线的3个分界点，然后据此划分话题生命周期的4个状态阶段。",
+    "context2": "百度指数能够统计并展示话题在生命周期内的用户关注度数据，它是以话题关键词为统计对象，以海量网民在某一时间段的百度搜索量为数据基础，并综合网民的阅读、评论、转发、点赞等行为的数据量，进行加权求和、指数化处理后得出，较为全面地衡量了用户对话题的关注程度。百度指数累计量是一个随时间连续变化的过程，本文对百度指数累计量进行Gompertz曲线拟合。",
+    "context3": "首先，假设话题百度指数累计量 $y$ 是时间 $t$ 的函数，其饱和值为 $K$ ，增长系数为 $\\alpha$ ，初始值为$y _ { 0 }$ 。用于描述百度指数累计量增长的微分方程为：",
+    "context4": "$$\n\\frac { d y } { d t } = - \\alpha y \\ln { \\frac { y } { K } }\n$$",
+    "context5": "求解微分方程得：",
+    "context6": "$$\ny = K { \\left( \\frac { y _ { 0 } } { K } \\right) } ^ { e }\n$$",
+    "context7": "当 $y _ { 0 } < K$ 时，式（2）可表示为：",
+    "context8": "$$\n\\scriptstyle { y = K a ^ { \\ b ^ { t } } }\n$$",
+    "context9": "其中， $a = \\frac { y _ { 0 } } { K } , \\ b = e ^ { - \\alpha }$ ，并且 $0 < a < 1$ ， $0 < b < 1$ 。称式（3）为Gompertz曲线的标准方程 。",
+    "context10": "为了求解参数 $K , \\ a , \\ b$ ，可以对标准方程进行变化，对方程两边取对数可得：",
+    "context11": "$$\n\\ln \\left( \\ln { \\frac { K } { y } } \\right) = \\ln \\left( - \\ln a \\right) + \\varepsilon \\ln b\n$$",
+    "context12": "$Y { = } \\ln \\left( \\ln { \\frac { K } { y } } \\right)$ ），则式（4）为关于时间‘的一元线性方程，应用Excel软件进行一元线性回归分析，即可得出方程的系数 $\\ln { b }$ 和 $\\ln (  - \\ln a )$ 。当 $K$ 取不同值的时候，有不同的可决系数 $\\mathrm { R } ^ { 2 }$ 。根据可决系数选取拟合度较高的一元线性方程式，进而求出参数 $a , \\ b$ 的值，得到话题生命周期发展阶段的曲线函数式。对其求二阶导数和三阶导数，结果如下:",
+    "context13": "令 $y ^ { \\prime \\prime } { = } 0$ ，得：",
+    "context14": "$$\n\\displaystyle t _ { 0 } = \\frac { \\ln \\bigl ( - \\ln a \\bigr ) } { - \\ln b }\n$$",
+    "context15": "令 $y ^ { \\prime \\prime \\prime } { = } 0$ ，得：",
+    "context16": "$$\n\\begin{array} { l } { t _ { 1 } = \\frac { \\displaystyle \\ln \\bigl ( \\ 3 + \\sqrt { 5 } \\ \\bigr ) \\ - \\ln \\bigl ( \\ - 2 \\ln a \\bigr ) } { \\displaystyle \\ln b } } \\\\ { t _ { 2 } = \\frac { \\displaystyle \\ln \\bigl ( \\ 3 - \\sqrt { 5 } \\ \\bigr ) \\ - \\ln \\bigl ( \\ - 2 \\ln a \\bigr ) } { \\displaystyle \\ln b } } \\end{array}\n$$",
+    "context17": "其中， $t _ { 1 } < t _ { 0 } < t _ { 2 }$ ， $2 t _ { 0 } = t _ { 1 } + t _ { 2 }$ 。称 $t _ { 1 }$ $\\ , \\quad t _ { 0 } \\setminus \\ t _ { 2 }$ 为Gompertz曲线的特征点，即划分话题生命周期状态阶段的分界点。如图1所示，话题在 ${ \\bf \\Xi } ( 0 , t _ { 1 } )$ 时期处于萌芽状态， ${ \\bf \\Xi } (  { t _ { 1 } } ,  { t _ { 0 } } )$ 处于生长状态， ${ \\bf \\Xi } (  { \\mathbf { \\Lambda } } _ { t _ { 0 } } ,  { \\mathbf { \\Lambda } } _ { 2 } )$ 处于成熟状态， $\\left( \\mathbf { \\Phi } _ { t _ { 2 } } , \\infty \\right)$ 处于衰退状态。",
+    "context18": "![](images/56b4fa52c909597b8e9827ab972078fda98e6a3bd94ca23c48ec1ce6ce3a5f51.jpg)  \n图1Gompertz曲线描述的话题生命周期状态阶段"
+  },
+  "1.2话题生命周期状态指标计量": {
+    "context1": "1）新颖度指标：新颖度是指话题的新鲜程度。一个话题开始出现后，随着时间的推移，话题的发文数量逐渐增加，新颖度逐渐降低，话题逐渐成熟。将话题出现的第一个时刻(以小时为单位)",
+    "context2": "作为话题的开始时刻(First Hour，FH），一个话题在 $t$ 时刻的新颖度指标(NoveltyIndex，NI）的计量公式如式（8）所示。",
+    "context3": "$$\nN I _ { t } = \\frac { 1 } { t - F H + 1 }\n$$",
+    "context4": "2）关注度指标：关注度是指话题受网民关注的程度，其与话题的发文量有关，发文量越多，话题越受关注。因此，一个话题 $T$ 的关注度可用该话题在 $k$ 时刻内的发文量 $d ( \\boldsymbol { T _ { k } } )$ 来表示。在话题演化的各个生命周期阶段，其关注度是有差异的。在萌芽阶段，话题逐渐受到关注；在生长阶段，关注度持续增加；到成熟阶段，关注度维持在一个较高水平；当话题进入衰退阶段，其关注度随之降低。因此，话题的关注度是衡量话题状态的重要指标。",
+    "context5": "3）情感度指标：话题信息蕴含着网民的情绪，情绪越强烈，话题越容易激发网民的热烈讨论。因此，话题的情感度反映了话题蕴含的能量，是衡量话题状态的又一个重要指标。",
+    "context6": "本文选择百度情感分析API对 $k$ 时刻内的话题博文计算情感值，结果得到博文情感倾向的积极概率 $P _ { \\ k } ^ { + }$ 和消极概率 $P _ {  k } ^ { - }$ 。将积极和消极两种情感极性分别表示为1和-1，将积极和消极两种情感的概率与相应的情感极性相乘求和，其绝对值作为话题$k$ 时刻内的情感强度，表示为 $\\big | P _ { k } ^ { + } \\times 1 { + } P _ { k } ^ { - } \\times \\big | - 1 \\big ) \\big |$ 。"
+  },
+  "1.3话题指标与演化过程的相关性分析": {
+    "context1": "参照话题在生命周期内的百度指数曲线，通过绘制该话题在相同时间窗口内的关注度和情感度变化曲线，来分析指标与话题演化过程的相关性。以“专家称已找到马航MH370”话题为例，分析结果如图2所示。通过验证相关性，发现话题的关注度和情感度指标与百度指数的相关系数均超过0.9，说明关注度和情感度指标可以用来描述话题的演化过程。此外，话题从出现到衰亡的演化过程也是话题新颖度逐渐降低的过程，因此新颖度被众多学者纳入话题状态指标。",
+    "context2": "![](images/93a174a2b51fd6de411a91fdd24cdc99cdb551c9340a6a2f20447dac3ef47ccb.jpg)  \n图2话题在2021年11月30日—12月10日的各指标曲线与百度指数曲线对比图"
+  },
+  "2话题生命周期状态识别及趋势预测方法框架": {
+    "context1": "话题从萌芽走向衰退的过程可以看作是循序渐进的状态转移过程，这些内部隐藏状态的变化无法用肉眼直接观测到，但可以通过外部观测指标来确定内部状态的转移。随着时间推移，话题内部状态变化是一种随机过程，话题外部观测变量在不同状态下的结果也具有随机性。这种由外部观测变量反映内部状态变化的过程是一种双重随机过程，与HMM建模过程一致。GMM-HMM允许隐藏状态以多高斯分布产生观测值，相比单个高斯分布，其更能合理地表达观测值与隐藏状态之间复杂的关联关系。因此，本文基于GMM-HMM提出话题生命周期状态识别和趋势预测方法。"
+  },
+  "2.1GMM-HMM模型构建": {
+    "context1": "GMM-HMM是一个双重随机过程。其中，一个随机过程描述隐藏状态之间的概率转移关系，另一个随机过程描述隐藏状态与观测变量的映射关系。模型参数描述如下:",
+    "context2": "1）q:话题的隐藏状态。话题状态有萌芽状态、生长状态、成熟状态和衰退状态，分别用1、2、3、4表示。话题在 $t$ 时刻的状态表示为 $q _ { t }$ 。",
+    "context3": "2）o：话题的观测变量。考虑到话题在小时内的关注度和情感度指标值波动量过大，因此将关注度和情感度的累计值作为话题在 $t$ 时刻的指标值，并结合新颖度构成三维观测变量。话题在 $t$ 时刻的观测变量表示为 $o _ { t }$ ， $\\boldsymbol { o } _ { t } = \\left( \\begin{array} { l }  N I _ { t } , A I _ { t } , S I _ { t } \\right) \\end{array}$ 。其中$A I _ { t }$ 表示话题在 $t$ 小时内的发文量累计值，即 $A I _ { t } =$ $\\textstyle \\sum _ { k = 1 } ^ { t } d { \\big ( } T _ { k } { \\big ) }$ ， $S I _ { t }$ 表示话题在 $t$ 小时内的情感强度累计值，即 $S I _ { t } = { \\sum } _ { k = 1 } ^ { t } \\ \\big | P _ { k } ^ { + } \\times 1 + P _ { k } ^ { - } \\times ( - 1 ) \\big |$ 。话题在一段时间内的观测变量组成的观测序列为 $o$ 。",
+    "context4": "3） $\\pi$ ：话题的初始状态概率分布。 $\\pi = \\left\\{ \\pi _ { i } \\right\\}$ ，$\\scriptstyle \\pi _ { i } = P \\mid q _ { t } = i )$ ， $1 \\leqslant i \\leqslant 4$ 。其中， $\\pi _ { i }$ 为出现状态 $i$ 的概率，满足 $\\sum _ { i = 1 } ^ { N } \\pi _ { i } = 1$ 。由于话题在初始时刻的状态为萌芽状态，故 $\\mathit { \\Pi } \\pi = \\mathit { \\Pi } [ 1 , 0 , 0 , 0 ]$ 。",
+    "context5": "4） $A$ ：话题的初始状态转移概率矩阵。 $A =$ $\\dot { } { } _ { \\cdot } a _ { i j } \\} \\ , \\ a _ { i j } { } = P \\{ \\ q _ { t + 1 } = j | \\ q _ { t } = i \\}$ ， $1 \\leqslant i$ ， $j \\leqslant 4$ 。其中， $a _ { i j }$ 为话题状态从 $i$ 转移到 $j$ 的概率，满足 $\\mathrel { \\mathop : } \\sum _ { j = 1 } ^ { N } a _ { i j } = 1$ a=1。由",
+    "context6": "$$\n\\zeta { \\bigl ( } \\circ _ { { \\mathrm { } } _ { t } } , u _ { i m } , \\mathbf { { \\mathrm { } } } , \\Sigma _ { i m } { \\bigr ) } = { \\frac { 1 } { \\sqrt { { \\bigl ( } 2 \\pi { \\bigr ) } ^ { D } \\left| \\Sigma _ { i m } \\right| } } } \\qquad \n$$",
+    "context7": "根据上述参数意义，一个GMM-HMM模型可以表示为一个五元组 $\\lambda = \\mid \\pi , A , w _ { i m } , u _ { i m } , \\textstyle \\sum _ { i m } \\mid$"
+  },
+  "2.2模型训练": {
+    "context1": "通过Gompertz曲线划分训练话题的各个生命周期状态后，对各话题状态构建并训练GMM-HMM模型。假设有 $L$ 个训练话题，依次提取 $L$ 个话题在萌芽期、生长期、成熟期和衰退期这4个状态下的多观测序列，表示为 $S _ { i } = \\ \\left[ \\theta _ { i } ^ { ( 1 ) } , \\theta _ { i } ^ { ( 2 ) } , \\cdots , \\right.$ $O _ { i } ^ { ( k ) } , \\cdots , O _ { i } ^ { ( L ) } ]$ ， $i \\in \\left\\{ 1 , 2 , 3 , 4 \\right\\}$ 。其中， $O _ { i } ^ { ( k ) }$ 为第 $K$ 个训练话题在状态 $i$ 下的观测序列。一段观测序列由1～T时刻的多个观测变量构成, $O ^ { ( k ) }$ 可表示为${ \\cal O } ^ { ( \\mathrm { \\Delta } k ) \\mathrm { ~ = ~ } \\left[ \\mathrm { { } } k \\mathrm { { } } \\right] \\mathrm { ~ } , o \\left\\{ \\mathrm { { } } ^ { k } \\right\\} \\mathrm { ~ , \\cdots , \\it { o } \\left\\{ \\mathrm { { } } _ { k } ^ { k } \\right\\} ] } }$ 。",
+    "context2": "将4个话题状态下的多观测序列作为训练集，基于多观测序列训练算法24-2依次训练各话题状态模型，得到4个话题状态的模型库，表示为{GMM-HMM1,GMM-HMM2,GMM-HMM3,GMM-HMM4}，对应模型参数集为{ $\\lambda _ { 1 } , \\lambda _ { 2 } , \\lambda _ { 3 } , \\lambda _ { 4 } \\}$"
+  },
+  "2.3话题状态识别": {
+    "context1": "话题状态识别是根据正处于演化过程中的话题前几个时刻的观测序列，判断出话题当前时刻所处的生命周期状态，便于了解话题现状，分析话题演化过程。",
+    "context2": "于话题的生命周期状态转移是从萌芽到衰退循序变化的，可设：",
+    "context3": "$$\n\\begin{array} { r } { A = \\left[ \\begin{array} { c c c c c } { 0 . 5 } & { 0 . 5 } & { 0 } & { 0 } \\\\ { 0 } & { 0 . 5 } & { 0 . 5 } & { 0 } \\\\ { 0 } & { 0 } & { 0 . 5 } & { 0 . 5 } \\\\ { 0 } & { 0 } & { 0 } & { 1 } \\end{array} \\right] } \\end{array}\n$$",
+    "context4": "5） $B$ ：话题各状态输出的多维混合高斯概率密度函数。 $B { = } \\{ \\ b _ { i } ( \\ o _ { t } ) \\ \\}$ ， $b _ { i } \\{ \\ o _ { t } \\} = \\sum _ { m = 1 } ^ { M } w _ { i m } \\xi \\{ \\ o _ { t } , { u } _ { i m } ,$ $\\textstyle { \\sum _ { i m } } \\big )$ ， $o _ { t } = \\{ \\ : N I _ { t } , A I _ { t } , S I _ { t } \\}$ ， $1 \\leqslant i \\leqslant 4$ 。式中， $M$ 表示每个话题状态包含的混合高斯数，通常设置为 3； $w _ { i m }$ 表示状态 $i$ 的第 $m$ 个高斯分布的权值； $\\xi ( \\mathbf { \\xi } _ { o _ { t } } , \\mathbf { \\xi } _ { u _ { i m } }$ ，$\\textstyle { \\sum _ { i m } } \\big |$ 表示话题状态 $i$ 的第 $m$ 个高斯分布函数，其公式如式（9）所示， $u _ { i m }$ 和 $\\Sigma _ { i m }$ 分别是其均值向量和协方差矩阵， $D$ 为观测变量的维度，本文取 $D = 3$ 。",
+    "context5": "$$\n\\mathrm { ~  ~ { ~ \\sigma ~ } ~ } ^ { \\mathrm { ~ o ~ } } \\Big ( - \\frac { 1 } { 2 } { \\big ( \\mathrm { ~ \\boldsymbol { o } ~ } } _ { t } - { \\boldsymbol { u } } _ { i m } { \\big ) \\mathrm { ~ \\boldsymbol { { \\tau } } ~ } } \\Sigma _ { i m } ^ { - 1 } { \\big ( \\mathrm { ~ \\boldsymbol { o } ~ } } _ { t } - { \\boldsymbol { u } } _ { i m } { \\big ) \\mathrm { ~ \\boldsymbol { { \\tau } } ~ } } \\Big )\n$$",
+    "context6": "将话题在一段连续时间内的观测序列 $o$ 输入模型库，分别计算模型库中4个状态模型产生 $O ^ { \\prime }$ 的概率 $P \\{ \\ O ^ { \\prime } | \\lambda _ { i } \\}$ ，概率值最大的模型即为最优模型，其对应的话题状态即为话题当前所处的状态，判断公式如式（10）所示。",
+    "context7": "$$\ni ^ { * } \\ = a r g \\ m a x { P } \\big ( \\ O ^ { \\cdot } | \\lambda _ { i } \\big ) \\ , \\quad i \\in \\big \\{ \\ 1 , 2 , 3 , 4 \\big \\}\n$$"
+  },
+  "2.4话题状态趋势预测": {
+    "context1": "话题状态趋势预测是基于话题当前时刻的状态识别结果，预测话题关注度和情感度等状态指标在未来时刻的变化趋势，便于监管部门适时进行话题引导和网民情绪疏导。话题状态趋势预测可获取话题在未来时刻的关注度和情感度的累计值，通过计算未来时刻与当前时刻的累计值之差，可得到话题状态指标在未来时刻的变化量，进而反映出话题的演化趋势。",
+    "context2": "通过话题状态识别方法，得到最优模型。基于该模型的最优参数 $\\lambda$ 和当前时刻的话题状态 $i$ ，运用式（11）可预测出话题在未来时刻所对应的三维观测变量值，即 $o _ { t + 1 } = \\{ \\ N I _ { t + 1 } , A I _ { t + 1 } , S I _ { t + 1 } \\}$ 。式中，$E { \\big ( } b _ { j } { \\big ( } o _ { t } { \\big ) } { \\big ) }$ 表示话题状态 $j$ 的混合高斯分布函数的期望值。",
+    "context3": "$$\n\\boldsymbol { o } _ { t + 1 } = \\sum _ { j = 1 } ^ { N } a _ { i j } E \\{ \\ b _ { j } ( \\ o _ { t } ) \\ \\}\n$$"
+  },
+  "3实验与结果分析": "",
+  "3.1数据采集与处理": {
+    "context1": "本文利用Python爬取新浪微博6个话题从出现到衰退完整生命周期内普通用户发表的原创微博，话题分别为‘郑州地铁5号线事件”（话题1)、‘鸿星尔克捐款”（话题2、“鹿道森发遗书后失联”（话题3、‘专家称发现马航MH370”（话题4、“淘宝双十二”（话题5）和“西安考研”（话题6），获得数据共22127条。",
+    "context2": "由于微博话题传播速度快且易发酵，话题演化周期短，本文按小时(h)划分时间片统计并处理话题数据，以便更快速地捕捉话题状态的演变。6个话题的完整生命周期时间跨度分别为 $1 2 0 \\mathrm { h }$ 、 $2 0 0 \\mathrm { { h } }$ 、$1 2 0 \\mathrm { h }$ 、 $1 2 2 \\mathrm { h }$ 、 $4 9 0 \\mathrm { h }$ 、 $2 5 0 \\mathrm { h }$ 。基于Gompertz 曲线将这6个话题分别划分为萌芽、生长、成熟和衰退4个状态阶段，各话题生命周期状态的划分时段如表1所示。基于状态指标公式分别计算出每个话题在各个时间片的指标值，并作归一化处理。由于关注度和情感度的取值范围较大，故先利用小数定标法规范化指标，再利用Logistic函数将指标归一化到(0,1)之间。各话题在每个时刻下的三维指标值构成一组观测变量，另外加上每个话题在初始时刻的观测变量，得到6个话题下共1308组观测数据。",
+    "context3": "表16个微博话题生命周期状态的时间跨度",
+    "context4": "<table><tr><td>话题 名称</td><td>萌芽状态 时段</td><td>生长状态 时段</td><td>成熟状态 时段</td><td>衰退状态 时段</td></tr><tr><td>话题1</td><td>0~26h</td><td>27~47h</td><td>48~67h</td><td>68~120h</td></tr><tr><td>话题2</td><td>0~35h</td><td>36~58h</td><td>59~80h</td><td>81~200h</td></tr><tr><td>话题3</td><td>0~39h</td><td>40~59h</td><td>60~79h</td><td>80~120h</td></tr><tr><td>话题4</td><td>0~18h</td><td>19~40h</td><td>41~62h</td><td>63~122h</td></tr><tr><td>话题5</td><td>0~50h</td><td>51~131h</td><td>132~211h</td><td>212~490h</td></tr><tr><td>话题6</td><td>0~57h</td><td>58~120h</td><td>121~182h</td><td>183~250h</td></tr></table>"
+  },
+  "3.2话题状态识别结果分析": {
+    "context1": "实验采取类似交叉验证的方法对话题状态识别进行效果评估。在每一次验证中，都取6个话题中的5个话题数据作为训练集，训练各状态模型得到模型库。取剩下的一个话题数据作为测试集，依次将该测试话题在连续5个时刻下的观测变量作为一条观测序列，输入训练好的模型库，通过识别方法得到当前时刻的话题状态。例如，将话题1～5的数据作为训练集，话题6的数据作为测试集，从初始时刻开始，将连续5个时刻的观测序列输入模型库，得到话题在当前时刻所处的状态。识别结果的混淆矩阵如表2所示。",
+    "context2": "表2话题6状态识别的混淆矩阵",
+    "context3": "<table><tr><td rowspan=\"2\">实际话题 状态</td><td colspan=\"4\">识别出的话题状态</td></tr><tr><td>萌芽状态</td><td>生长状态</td><td>成熟状态</td><td>衰退状态</td></tr><tr><td>萌芽状态</td><td>42</td><td>12</td><td>0</td><td>0</td></tr><tr><td>生长状态</td><td>13</td><td>48</td><td>0</td><td>2</td></tr><tr><td>成熟状态</td><td>0</td><td>1</td><td>61</td><td>0</td></tr><tr><td>衰退状态</td><td>0</td><td>0</td><td>3</td><td>65</td></tr></table>",
+    "context4": "实验采取精准率（Precision）、召回率（Recall）、F1值和准确率(Accuracy，Acc）这4个指标衡量话题状态的识别效果。由于本次实验数据来自于不同的微博话题，每个话题的生命周期长短不一，话题状态类别不均衡。为了使评价指标更具有说服力，本文对不同话题的评价指标计算加权平均值，如式（12）所示。其中， $P$ 代表精准率， $R$ 代表召回率，$n u m \\big ( \\mathrm { \\it { t o p i c } } _ { k } \\big )$ 和 $n u m ( ~ a l l )$ 分别表示第 $k$ 个话题的测试组数和6个话题的观测数据总数， $P _ { k }$ 、 $R _ { k }$ 、 $F 1 _ { k }$ 、$A c c _ { k }$ 分别表示第 $k$ 个话题识别的精准率、召回率、F1值和准确率。",
+    "context5": "$$\n\\begin{array} { r l } { \\displaystyle P _ { \\mathrm { s e i g h } , \\mathrm { o u g } } = \\sum _ { k = 1 } ^ { m = 6 } { \\frac { n u m \\big ( \\log i c _ { k } \\big ) } { n u m \\big ( a l i ) } } \\times P _ { k } } & \\\\ { \\displaystyle R _ { \\mathrm { s e i g h } , \\mathrm { o u g } } = \\sum _ { k = 1 } ^ { m = 6 } { \\frac { n u m \\big ( \\log i c _ { k } \\big ) } { n u m \\big ( a l i ) } } \\times R _ { k } } & \\\\ { \\displaystyle F 1 _ { \\mathrm { w i g h } , \\mathrm { o u g } } = \\sum _ { k = 1 } ^ { m = 6 } { \\frac { n u m \\big ( \\log i c _ { k } \\big ) } { n u m \\big ( a l i ) } } \\times F 1 _ { k } } & \\\\ { \\displaystyle M _ { \\mathrm { c e } , \\mathrm { s e i g h } , \\mathrm { o u g } } = \\sum _ { k = 1 } ^ { m = 6 } { \\frac { n u m \\big ( \\log i c _ { k } \\big ) } { n u m \\big ( a l i ) } } \\times 1 _ { k } } & \\\\ { \\displaystyle M _ { \\mathrm { c e } , \\mathrm { s e i g h } , \\mathrm { o u g } } = \\sum _ { k = 1 } ^ { m = 6 } { \\frac { n u m \\big ( \\log i c _ { k } \\big ) } { n u m \\big ( a l i ) } } \\times \\mathrm { A c c } _ { \\ell } } & \\end{array}\n$$",
+    "context6": "实验采用GaussianHMM模型、BP神经网络模型进行对比，话题在不同模型下的状态识别结果如表3所示。从中可以看出，基于GMM-HMM的话题状态识别精准率、召回率、F1值和准确率均高于 $87 \\%$ ，相较于GaussianHMM和BP神经网络具有较大优势。这也说明多个高斯分布函数拟合话题状态下的观测变量是合适的。",
+    "context7": "表3不同模型的话题状态识别效果对比",
+    "context8": "<table><tr><td>模型</td><td>精准率 (%)</td><td>召回率 (%)</td><td>F1值 （%</td><td>准确率 （%)</td></tr><tr><td>GMM-HMM</td><td>88.30</td><td>87.09</td><td>87.55</td><td>89.37</td></tr><tr><td>GaussianHMM</td><td>82.98</td><td>64. 65</td><td>72.25</td><td>72.56</td></tr><tr><td>BP神经网络</td><td>78.85</td><td>68.35</td><td>67.32</td><td>68.50</td></tr></table>"
+  },
+  "3.3话题状态趋势预测结果分析": {
+    "context1": "实验采用平均绝对误差（Mean Absolute Error,MAE)和平均绝对百分比误差(Mean Absolute Per-centageError，MAPE)作为话题状态趋势预测精度的评价指标，误差值越小表示模型的预测效果越好。其计算公式分别如式（13）、式（14）所示，其中， $n$ 为预测组数， $R _ { t + 1 }$ 为 $t + 1$ 时刻的实际值，$\\boldsymbol { P } _ { t + 1 }$ 为 $t { + } 1$ 时刻的预测值。",
+    "context2": "$$\n\\ M A E { = } \\frac { 1 } { n } { \\sum _ { k = 1 } ^ { n } | R _ { t + 1 } - P _ { t + 1 } | }\n$$",
+    "context3": "$$\n\\ M A P E { = } \\frac { 1 } { n } { \\sum _ { k = 1 } ^ { n } \\ } \\left| \\frac { R _ { t + 1 } { - } P _ { t + 1 } } { R _ { t + 1 } } \\right| { \\times } 1 0 0 \\%\n$$",
+    "context4": "实验采用GaussianHMM模型、BP神经网络模型进行对比，话题在不同模型下的状态趋势预测结果如表4所示。从中可以看出，基于GMM-HMM的话题关注度和情感度的 $M A E$ 值均低于0.03,MAPE值均低于 $3 . 5 0 \\%$ 。可见，该方法对话题状态趋势的预测效果优于GaussianHMM和BP神经网络方法。",
+    "context5": "表4不同模型的话题状态趋势预测效果对比",
+    "context6": "<table><tr><td>模型</td><td>关注度 MAE</td><td>情感度 MAE</td><td>关注度 MAPE</td><td>情感度 MAPE</td></tr><tr><td>GMM-HMM</td><td>0. 0192</td><td>0. 0235</td><td>（%) 2.66</td><td>(%) 3.31</td></tr><tr><td>GaussianHMM</td><td>0. 0235</td><td>0. 0271</td><td>3.58</td><td>4.06</td></tr><tr><td>BP神经网络</td><td>0. 0306</td><td>0. 0279</td><td>3.80</td><td>3.83</td></tr></table>"
+  },
+  "4结束语": {
+    "context1": "识别演化过程中的话题状态，预测话题发展趋势，能够及时跟踪话题发展动态，尽早采取干预措施，对于舆情监管部门具有重要意义。为了实现此目标，本文提出话题状态识别与趋势预测方法，将网民情感纳入话题状态观测指标中，基于GMM-HMM构建各话题生命周期状态模型库。通过实验对比，验证了该方法比GaussianHMM和BP神经网络识别效果更好，预测误差更小。本研究仅考虑到传播速度较快、生命周期历时较短的微博话题，在未来的研究中还需扩充网络舆情的数据集，提高基于GMM-HMM的话题生命周期状态识别及趋势预测方法的普适性。",
+    "context2": "参考文献  \n[]Chien C C，Yao-Tsung C，Meng CC. An Aging Theory for EventLife-Cycle Modeling [．IEEE Transactions on Systems，Man,and Cybernetics-Part A:Systems and Humans，2OO7，37（2)：237-248.  \n[]Braun T，Schubert A P，Kostoff R N.Growth and TrendsofFullerene Research as Reflected in Its Journal Literature[].Chemical Reviews，2000，100(1)：23-38.  \nBTu YN，Seng JL.Indices of Novelty for Emerging Topic Detection[]．Information Processing & Management，2012，48（2):303-325.  \n祝娜，王芳．基于主题关联的知识演化路径识别研究——以3D打印领域为例．图书情报工作，2016，60（5)：101-109.  \n谭春辉，熊梦媛．基于LDA模型的国内外数据挖掘研究热点主题演化对比分析[．情报科学，2021，39（4)：174-185.  \nCallon M，Courtial JP，Laville F.Co-word Analysis as a Tool forDescribing the Network of Interactions Between Basic and Techno-logical Research:The Case of Polymer Chemistry[]．Sciento-metrics，1991，22(1):155-205.  \n刘自强，王效岳，白如江.多维主题演化分析模型构建与实证研究[．情报理论与实践，2017，40（3)：92-98.  \n刘东霞，陈红．煤炭液化技术研发趋势、生命周期、前沿技术与影响因素—基于专利的视角[．情报杂志，2017，36(7):52-58.  \n王晰巍，李玥琪，刘婷艳，等．新冠肺炎疫情微博用户情感与主题挖掘的协同模型研究[．情报学报，2021，40（3)：223-233.  \n[0]魏静，丁乐蓉，朱恒民，等．基于情感和亲密度的社交网络舆情传播模型研究[．情报科学，2021，39（4)：37-46.  \n[11]岳丽欣，刘自强，胡正银．面向趋势预测的热点主题演化分析方法研究．数据分析与知识发现，2020，4（6)：22-34.  \n[2]王宁，赵胜洋，单晓红．基于灰色系统理论的网络舆情预测与分级方法研究[．情报理论与实践，2019，42（2)：120-126. （下转第41页)  \n[29]史雯.檀变与形塑：新时期青少年网络阅读研究[M]．北京：中国广播影视出版社，2016：109-110.  \n[0]陆卓涛，张雨强．PCAP 阅读素养评估框架及后示[．全球教育展望，2022，51（2)：108-118.  \n[1]中国新闻出版研究院，全国国民阅读调查课题组．全国国民阅读调查报告2017M．北京：中国书籍出版社，2018.  \n[2]艾瑞咨询.2020年中国数字阅读产品营销洞察报告[R].2020.  \nβ3]胡立如，丁静静，马颖峰，等．时间限制对沉浸体验的影响机制——基于教育游戏情境的实证研究[．开放教育研究，2016，22(2):113-120.  \nB4Council of Ministers of Education Canada.PCAP 2O19 Public Re-port[EB/Ol]．https://www.cmec.ca/Publications/Lists/Publica-tions/Attachments/426/PCAP2019-Public-Report-EN.pdf，2022-01-15.  \nB5]Foasberg N M. Student Reading Practices in Print and ElectronicMedia[．College&Research Libraries，2014，75（5)：705-723.  \nB6Farinosi M，Lim C，Roll J.Book or Screen，Pen or Keyboard?A Cross-cultural Sociological Analysis of Writing and Reading Hab-its Basing on Germany，Italy and the UK[．Telematics and In-formatics，2016，33(2):410-421.  \nβ7]周宪．从“沉浸式”到“浏览式”阅读的转向．中国社会科学，2016，（11)：143-163，208.  \n[8]王子舟，周亚，巫倩，等．“浅阅读”争辩的文化内涵是什么．图书情报知识，2013，（5)：15-21.  \n[9]夏国富．沉浸式互动体验传播在数字阅读产品中的应用探索研究[．传媒，2017，（5)：88-90.  \n[40]朱永新．信息时代的数字化阅读——2021新教育年度主报告（节选EB/Ol].https://www.thepaper.cn/newsDetail_forward_15065060，2021-10-25.  \n[1]程焕文.中国迈向数字文明社会——《提升全民数字素养与技能行动纲要》的时代价值与图书馆的时代使命[．图书馆论坛，2021，41（12)：2-5.  \n[42]National Council of Teachers of English．NCTE Framework for21st Century Curriculum and Assessment[EB/Ol].https://cdn.ncte.org/nctefiles/resources/positions/framework_21stcent_curr_assessment.pdf，2013-02.  \n[43]许晓霞．多元化的阅读促进策略：理论、实施和效果分析-以苏州图书馆为例．图书情报工作，2010，54（19)：74-77，27.  \n[4赵双．多学科视野的儿童阅读研究[．图书馆杂志，2015，34(4):35-40.",
+    "context3": "(责任编辑：王维)"
+  },
+  "": "",
+  "(上接第32页）": {
+    "context1": "[13]刘勘，李晶，刘萍．基于马尔可夫链的舆情热度趋势分析[．计算机工程与应用，2011，47（36)：170-173.  \n[4]张和平，陈齐海．基于灰色马尔可夫模型的网络舆情预测研究[．情报科学，2018，36（1)：75-79.  \n[15]Liu RF，Guo W B.HMM-based State Prediction for Internet HotTopic[C//Proceedings of 2011 IEEE International Conference onComputer Science and Automation Engineering.IEEE，Shanghai,China，2011，240-244.  \n[16]Gales M JF.Maximum Likelihood Linear Transformations forHMM-based Speech Recognition[]．Computer Speech & Lan-guage，1998，12(2)：75-98.  \n[17]Ferreira C A，Gama J，Costa V S，et al.Predicting Ramp E-vents with a Stream-based HMM Framework[C]//InternationalConference on Discovery Science．Springer，Berlin，Heidelberg,2012，224-238.  \n[18]Galagedarage D M，Khan F.Process Fault Prognosis Using HiddenMarkov Model-bayesian Networks Hybrid Model[]．Industrial &Engineering Chemistry Research，2019，58 (27)：12041-12053.  \n[19]Mouret F，Albughdadi M，Duthoit S，et al.Reconstruction ofSentinel-2 Derived Time Series Using Robust Gaussian Mixture Mod-els—Application to the Detection of Anomalous Crop Development[．Computers and Electronics in Agriculture，2022，198:106983.  \n[20]刘华茜，郑秀娟，王艳，等．人类视觉行为的混合高斯-隐马尔可夫模型[．生物医学工程学杂志，2021，38（3)：512-519.  \n[1]曹维芳，付文达，兰月新，等．基于Gompertz模型的网络新闻舆情扩散规律及对策研究[．现代情报，2015，35（5)：20-24.  \n[2]夏一雪．网络话题传播规律建模与预测问题研究[]．现代情报，2019，39（4)：3-12.  \n[23]朱正元，陈伟侯，陈丰．Logistic 曲线与Gompertz曲线的比较研究[．数学的实践与认识，2003，（10)：66-71.  \n[24]Li X L，Parizeau M，Plamondon R.Training Hidden MarkovModels with Multiple Observations—A Combinatorial Method[].IEEE Transactions on Pattern Analysis and Machine Intelligence,2000，22(4):371-377.  \n[5]YeF，YiN，WangYF.EMAlgorithm for Training High-orderHidden Markov Model with Multiple Observation Sequences[].Journal of Information & Computational Science，2011，8（10):1761-1777.",
+    "context2": "(责任编辑：陈媛)"
+  }
+}

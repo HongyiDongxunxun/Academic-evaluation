@@ -1,0 +1,108 @@
+{
+  "original_filename": "full_8075.md",
+  "用户认知导向的网络信息搜索模型研究述评": "",
+  "1引言": {
+    "context1": "2012年11月底，国际互联网协会（InternetSociety)发布2012全球互联网用户调查报告（GlobalInternet User Survey 2012),表明 $98 \\%$ 的用户认为互联网对于其学习知识和接受教育不可或缺，超过 $80 \\%$ 的用户同意互联网在自己的个人生活以及社会中扮演着积极角色，近 $7 5 \\%$ 的用户十分同意能够在网络上搜索到他们感兴趣的信息。互联网承载着海量数据，成为前所未有的人类信息资源宝库，促进了当代信息社会的加速发展。互联网的普及使人们的日常生活更加便利和高效,但同时也使人们面临新的挑战。互联网规模越来越大，结构越来越复杂，海量数据正形成一座信息围城，让有价值的信息变得越来越难以被搜索，造成用户信息负荷过载(informationoverload）问题。甚至，在迷宫似的网络空间里，面对海量信息进行搜索时用户会产生焦虑情绪。因此，网络信息搜索行为引起了多个学科,如心理学、信息科学、计算机科学等的关注。",
+    "context2": "近年来，信息搜索行为的研究方向正逐渐从以系统为中心（systemcentered）转向以用户认知为中心（users’cognitioncentered）,开始关注用户的认知活动、情感状态等在信息搜索过程中的作用。尤其是,认知心理学对信息搜索行为思维活动的研究表明，网络信息搜索行为包括一系列复杂的认知操作活动，如对问题进行心理表征，确定关键词，选取搜索策略，作出信息相关性判断等。而这些认知操作活动会受到个体年龄、认知方式和能力、情感状态、任务类型和难度等的影响,进而影响搜索表现和效率4-。因此,本文将试图从用户认知视角出发,总结网络信息搜索行为的概念，梳理用户认知导向的网络信息搜索模型，并从用户、网络信息环境和社会情境三个方面阐述网络信息搜索的影响因素。"
+  },
+  "2认知导向的网络信息搜索行为": "",
+  "2.1向认知导向的信息检索研究模式的转变": {
+    "context1": "网络信息搜索研究源于传统的计算机信息检索研究。1992年,P.Ingwergen在其专著《信息检索交互》中将信息检索研究方法分为三类：系统导向的信息检索、用户导向的信息检索和用户认知导向的信息检索。传统以系统为中心的信息检索过于强调系统方法，忽略用户以及用户需求在检索过程中的主导地位，因此信息检索转向以用户为中心，尤其是在信息科学认知观的影响下，强调信息检索过程中用户认知与信息系统之间的交互作用，逐渐转向用户认知导向的信息检索,又常被称作认知信息检索（cognitiveinformationretrieval,CIR)，主要研究信息检索过程中用户认知行"
+  },
+  "2.2基于认知观的网络信息搜索": {
+    "context1": "信息搜索行为是伴随互联网的发展而出现的概念,与传统的计算机信息检索行为意义相同。国内外有关用户信息行为的研究一直关注信息搜寻行为，指人类搜索和利用信息的方式。T.D．Wilson认为，信息搜索行为是信息搜寻行为的核心过程，因此，二者只是在概念上存在一定的交叉和区别。",
+    "context2": "在网络环境中,浏览(browse)是一种与搜索同等重要的用户信息行为，指先前缺乏明确信息需求目标或特定意图的信息搜寻行为。搜索和浏览行为中都包含一系列的选择过程，然后从这些选择中选出目标。但是，搜索需要比浏览付出更多的努力[,因为搜索前在头脑中有明确的信息需求,建立了一定的心理目标，在做选择决策的过程中对心理目标和序列中出现的选择做比较后，筛选出所需要的最优信息。而浏览只是对出现在序列中的信息进行比较,不存在和心理目标比较的过程。但是,网络信息浏览行为作为人类信息活动之一，仍具有行为上的目的性,满足已知或未知的信息需求[。并且搜索和浏览影响人们对网络信息的认知和情感反应的水平，通过网络搜索获得的故事,能够引发用户更强烈的心率加速、皮肤电水平和皱眉肌激活水平;此外,搜索获得的故事细节能够更清晰地被辨别，而浏览获得的故事比搜索获得的更令人愉快[ 。",
+    "context3": "综上，本文认为网络信息搜索行为（Webinformationsearchingbehavior）是指用户为满足某些特定的信息需求,建立一定的心理目标,使用网络搜索工具(搜索引擎)或网站，经过目标明确的、有计划的信息搜索过程，筛选出符合心理目标信息的行为活动。"
+  },
+  "3 用户认知网络信息搜索模型": {
+    "context1": "自20世纪90年代初，网络信息搜索行为的研究一直关注用户信息搜索过程建模问题，而搜索过程中有关用户认知心理作用的研究也已成为人机交互、认知心理学等多个领域的重要研究主题。梳理网络信息搜索过程模型,可以发现其大致有两类模式：科学导向模型和认知模型。前者是从比较宽泛的视角研究信息搜索行为，而后者则是更多地聚焦于用户信息搜索行为的认知过程，尤其是解释搜索困难和预测搜索表现的心理加工过程。而且，认知模型沿着认知交互模型、信息问题解决模型和基于搜索引擎的网络信息搜索行为模型逐渐发展成为一种动态、交互、循环的问题解决和决策的信息搜索过程模型，与现实生活中网络信息搜索行为的差距逐渐缩小。本文将对后者进行系统介绍。"
+  },
+  "3.1认知交互模型": {
+    "context1": "科学导向模型将信息搜索行为简单地认为是由一系列的序列动作和操作构成，忽略搜索任务中的心理加工过程[。认知交互模型是信息搜索行为研究转向以用户认知为中心的开始,逐渐关注用户的认知心理活动以及认知所产生的社会情境的影响。",
+    "context2": "3.1.1 Wilson模型20 世纪80-90 年代,英国情报学家T．D．Wilson通过总结与信息行为研究相关的用户导向研究模型以及交互信息行为研究，提出Wilson信息行为模型。P.Ingwersen将Wilson模型简化成信息行为嵌套模型[（见图1）,揭示了主要概念的嵌套关系以及概念的情景性。Wilson模型有两个基本假设： $\\textcircled{1}$ 用户的信息需求不是建立在原始需求之上，而是源于其心理、认知和情感三方面的需求，并且每一种需求都有其存在情境,包括个人、社会角色、文化背景和社会环境等； $\\textcircled{2}$ 用户在满足信息需求过程中，有可能会遇到不同类型的障碍。Wilson模型的核心思想是认知交互信息检索总是处在信息搜寻过程的情境中，这一过程又构成几个信息行为中的一个。Wilson 模型不是一个过程模型,也不基于实证研究，只是一个宏观"
+  },
+  "的用户信息检索行为模型。": {
+    "context1": "![](images/a9706567cfe05ef09608ba3e3fd53ac02678f3745ac4fe07c1c8005f454e0cc0.jpg)  \n图1 Wilson 模型",
+    "context2": "3.1.2Belkin片段模型20 世纪80 年代初,N．J.Belkin提出的“知识非常态”（anomalousstateofknowledge,ASK)理论,是信息检索很重要的一个理论。N.J.Belkin基于ASK理论以及一系列的假设提出片段模型[,如图2所示：",
+    "context3": "![](images/79d1d28632e0102302e11953b401658312f1ee0e74f0ea2e0a4cdf52de00dc9a.jpg)  \n图2N.J.Belkin的片段模型",
+    "context4": "假设包括： $\\textcircled{1}$ 由于认知状态以及问题环境的动态变化，人们很难明确表达自己的信息需求; $\\textcircled{2}$ 人们的搜寻行为有多种形式，根据不同的目的、意图和知识等来改变与系统的交互行为; $\\textcircled{3}$ 信息检索的本质是交互，而人和文本的交互是主要过程。Belkin片段模型的核心就是用户与信息的交互，用户在目标和任务驱动下产生信息需求，在交互过程中通过对获取的信息进行判断、修改和筛选等来解决当前的知识异常状态。",
+    "context5": "该模型可直接描述用户与系统的交互过程,应用于对信息系统和交互过程的评价。片段模型的特点在于它把信息检索过程分为众多的相同片段，这也表明信息检索是一个循环过程，随着时间的推移，一次次检索就会改进用户的认知。而且，知识非常态理论和B.Dervin提出的意义建构理论一样，转变了传统信息检索中用户信息需求被作为一种常量的假设，是认知检索的基础理论之一，在信息认知观中具有承上后下的作用。",
+    "context6": "3.1.3Ingwersen 的信息搜索过程模型 P.Ingwersen在N.J.Belkin研究的基础上,结合自己先前的研究,提出一种简化的信息搜索交互模型[（见图3）。该模型由用户区域和信息源区域两部分构成。当用户搜索时,如果用户不能独自解决问题,用户区域就会产生一个信息需求，并传达给搜索系统，而信息源区域代表不同个体的知识结构和搜索系统设施。用户进行信息搜索时,在信息对象、搜索系统与设施、界面、用户的认知空间以及社会和组织环境中会发生一系列的动态交互过程。",
+    "context7": "![](images/153b6adb171a4d2c4819cfb19dc29700e5c6092ec25dde8a980667a365aeeb66.jpg)  \n图3P.Ingwersen的信息搜索过程模型",
+    "context8": "从用户认知角度分析，该模型认为个体认知结构具有差异多样性,用户认知空间是一组结构化并具有因果关系的元素集合，而情境和用户认知状态是主要的影响因素。S．Knight和A．Spink 指出该模型主要探讨了在使用信息系统以及搜索和利用信息时，用户与系统的交互认知过程[。",
+    "context9": "3.1.4Saracevic的分层交互模型20世纪90 年代中期,T.Saracevic几乎和P.Ingwersen 同时提出信息搜索行为过程模型，他基于信息使用的获得-认知－应用（acquisition-cognition-application）模式,提出信息搜索行为的分层交互模型[（见图4）。该模型主要有两个假设：一是用户与系统交互的目的是利用信息;二是信息使用与认知和情境相联系。而且，模型从系统、用户到社会情境是动态的交互过程，并有三个交流水平(阶层)：表层水平,用户通过发出命令或疑问与系统"
+  },
+  "3.2使用互联网的信息问题解决模型": {
+    "context1": "S.Brand-Gruwel等人在“大六信息问题解决模式”（Big6 model of information problem-solving)研究的基础上,提出基于互联网的信息问题解决模型(IPS-模型，the information problem-olving using Internet model）,区分了五大成分技能模块[（见图5)：",
+    "context2": "·定义信息问题(define information problem）,根据检索或搜索请求形成主要问题和次要问题，并激活与此主题相关的先前知识经验。",
+    "context3": "·搜索信息(search information）,用户选择一种搜索策略、具体的搜索术语和判断目标网站。",
+    "context4": "·扫描信息（scan information）,用户结合先前的知识经验和搜索到的其他信息，识别和评价当前搜索信息的质量以及与信息问题之间的相关程度。",
+    "context5": "·加工信息（process information）,即对信息进行深度加工(deepprocessing）,目的是达到对信息的深度理解，将搜索的不同信息与先前相关的知识进行整合。",
+    "context6": "·组织和呈现信息（organize and presentinformation）,结合所有信息解决问题，按照要求执行任务。",
+    "context7": "![](images/34a4de240f4d56a2fd742975c2e33a0966a417f0efb20ac0aacf04881ceb719c.jpg)  \n图5S.Brand-Gruwel等人的基于互联网的信息问题解决模型(I-PS模型)",
+    "context8": "该模型基于信息问题解决角度提出，包含对用户认知和元认知心理活动的探析。模型中，前4种技能模块为分析阶段，最后一种技能为综合阶段。除此之外,为能够成功完成任务，用户需具备三种技能：阅读技能(readingskills,如成功阅读超链接文本）、评价技能(evaluatingskills,如获得可靠的信息资源)和计算机技能(computer skills,如输入和导航技能)。而且,在信息搜索的整个过程中一直有调节活动（regulationactivities)参与,如用户控制执行的任务、管理时间、辨别信息内容的质量和评价结果与过程等。调节活动主要有4种策略:定向(orientation）、监控(monitoring）、操作(steering)和评价(evaluating）,这些在搜索过程中都有重要的作用。从认知角度看，这4种调整策略与元认知加工有关,，,监控和调整意识水平上的信息搜索行为。"
+  },
+  "3.3使用搜索引擎的网络信息搜索行为模型": {
+    "context1": "J.Sharit等人在前人研究的基础上提出使用搜索引擎工具进行信息搜索行为的新模型（见图6），描述了用户的知识(专业和计算机系统知识)和认知能力对信息搜索行为的影响，尤其是那些与年龄有关的认知能力(如工作记忆、空间能力、推理能力和认知灵活性等，这些是确保用户定向的关键因素，防止其在搜索或导航过程中迷路）。",
+    "context2": "模型中的信息问题解决过程包括以下三个子过程：",
+    "context3": "·表征（representation）,对搜索对象进行心理表征,进而内化形成问题表述，即图6中的问题定向（problem orientation）。",
+    "context4": "·计划（planning）,为能够提出解决方案,将问题分解成几个部分或子目标，即图6中的问题定向到界面(facets)（虚线方框标注）。",
+    "context5": "·执行（execution）,完成在计划阶段形成的操作。",
+    "context6": "![](images/9669a04b3e0096ca843646adb750323e722623d4580a23c8cf9de7cce95c9a62.jpg)  \n图6基于搜索引擎的网络信息搜索行为模型",
+    "context7": "在互联网上进行信息搜索时，用户根据问题特性形成不同的问题定向,对问题形成心理表征，采用不同的搜索途径来获取信息，而且用户需要应用他们的知识并操作其心理表征来达到目标。并且，信息搜索过程本质上为一种迭代(iterative)循环过程(如图6中的循环圈),比如,在计划阶段,对问题理解的加深,可能会促进对问题心理表征的进一步修改，进行新的搜索过程。该模型从问题解决和决策角度提出,描述了网络信息搜索行为的迭代循环特征和用户背景知识、认知能力对搜索过程的影响，是目前对网络信息搜索行为过程描述最为精准的一种模型。模型的动态交互性和迭代循环性，也描述了现实生活中的网络信息搜索行为的本质特性。",
+    "context8": "综上,从认知交互模型开始关注用户认知活动在信息搜索行为中的作用，到基于搜索引擎的网络信息搜索行为模型将问题解决过程和决策过程纳入到信息搜索行为过程中，网络信息搜索行为的认知模型逐渐发展成为一种关注认知能力和用户知识等的动态交互模型。信息搜索研究向用户认知角度的转变，会更加关注用户的认知心理以及认知所产生的社会情境对搜索的影响。因此,要从用户、信息环境和社会情境三个"
+  },
+  "方面探讨网络信息搜索的影响因素。": "",
+  "4网络信息搜索过程的影响因素": "",
+  "4.1用户因素": {
+    "context1": "4.1.1认知能力认知能力指个体接收、加工、储存和应用信息的能力。大部分是研究老年人由于年龄的增长,认知能力下降,和成人形成对比研究。研究发现词汇能力、记忆容量、注意和知觉速度能够显著预测搜索表现。J．Sharit等人研究认为网络信息搜索行为对用户的工作记忆、空间能力、推理能力有很高的要求,随着年龄的增长,老年人的认知执行功能下降，尤其是工作记忆容量、认知灵活性、推理能力等的下降，导致了老年人搜索表现不佳。例如,A．Dommes 等人研究表明，认知灵活性在年龄差异和形成搜索问题数量的关系之间起调节作用，即老年人增长的词汇能力不能弥补认知灵活性的下降,而产生新的搜索关键词。这与先前研究的结论不一致,先前研究认为工作记忆容量和空间能力与搜索表现相关不显著，但发现词语流畅性和认知干扰与成功搜索显著相关。",
+    "context2": "4.1.2认知风格认知风格(cognitive style)对信息搜索过程的影响是指个体在某种程度上会采用一致的信息处理策略。主要有两种表现风格： $\\textcircled{1}$ 分析式（analytic)认知风格，即在信息加工时，场独立性个体善于进行知觉分析，不易受背景信息干扰; $\\textcircled{2}$ 整体式（wholist)认知风格，即场依存性个体的知觉容易受所处的环境的影响，会依赖外部的环境信息进行加工。",
+    "context3": "研究表明，不同认知风格对网络信息搜索行为影响不同,例如N．Ford和D．Miller发现,整体式认知风格个体更倾向于浏览关键词，大范围使用网络探索，经常会受到相关材料的干扰。K．S.Kim认为,焦点控制(focuscontrol）影响用户的导航行为,如场独立性个体焦点控制强，更频繁地使用链接和返回按钮。这与之前的研究结果一场依存性个体更频繁地使用链接和返回按钮相反。",
+    "context4": "4.1.3情感因素用户进行网络信息搜索之前，可能会处于一种不确定、困惑、焦虑等负性情绪状态,而用户的负性情绪和神经倾向性会阻碍成功的信息搜索行为。用户可以通过控制自己的情绪状态,表现出平静、放松和低神经质倾向，这可能会增加对信息搜索欲望的满意感，进而促使个体在信息搜索过程中克服更多的困难。K.S.Kim认为情感控制（emotioncontrol)影响关键词的使用，不能有效控制情感的用户倾向于使用更多的关键词,并且搜索的准确性和回忆"
+  },
+  "4.2信息环境因素": {
+    "context1": "4.2.1网络信息资源网络信息的发布具有很大的自由性和随意性,政府、企业、学校、社会团体及个体都可以在网上发布信息。由于网络信息的发布缺乏规范，其可靠性、权威性和利用价值受到质疑。网络信息资源分散、无序、时常更换,用户很难判断网络上有多少信息同用户需求有关，搜索评价标准无法确定。搜索引擎往往返回符合检索条件的所有信息，使检索结果的重复率增加。除此之外，网络信息表征的合理程度将会影响用户利用信息的效率。",
+    "context2": "4.2.2网络工具及设施搜索引擎大多采用自建的分类体系，具有很大的随意性，网络信息分类与学科及知识体系之间缺乏必要的内在联系。各种搜索工具覆盖范围有限，检索功能不够完善，主要表现为检索点不能从多个方面对检索问题进行限制，只能就某一个或几个关键词进行笼统的检索。此外,网络上的信息存放地址会频繁转换和更名，根据搜索引擎不一定能搜索到相应的内容。"
+  },
+  "4.3社会情境因素": {
+    "context1": "信息认知观认为,用户的一切信息活动都是在一定情境中完成，因此，信息搜索行为也不例外。信息搜索行为是一种获取信息后再将其转化为知识的过程。而在此过程中,用户作为处在社会、组织、特定文化背景下,与周围时刻发生作用的一个整体，社会情境必定会影响用户在搜索语言、策略和信息资源等方面的选取。社会情境对网络信息搜索的影响主要表现在两个方面：一是信息搜索需求的社会性，用户的信息需求来源于在工作和社会生活中遇到的问题;二是信息搜索过程的社会性，在用户通过信息搜索系统解决问题时，除用户的领域知识、搜索技能和经验之外,用户的常识能力、思维特征、操作习惯以及文化价值观等都会对其搜索过程产生影响，而以上因素大多都是用户在与社会情境不断进行交互而产生的结果，并且用户新汲取的知识同时也会影响周围社会情境的变化。"
+  },
+  "5结语": {
+    "context1": "网络信息搜索是日常生活中获取信息的重要途径,而且还具有多维度和多结构特性，包含一系列复杂的认知操作活动。虽然先前研究者从认知交互、问题解决和决策等角度，提出了一些认知模型解释用户在信息搜索过程中的作用，探讨了用户、网络环境和社会情境因素对网络信息搜索行为的影响,但目前有关网络信息搜索认知模型研究仍处于建构阶段，未来还需要与系统主导的信息检索模型进行融合，才有可能将认知信息搜索模型应用到现实生活中，优化网络的服务功能。"
+  },
+  "参考文献:": {
+    "context1": "[1]冯雪梅.网络用户信息检索焦虑研究[.图书馆学刊,2008,30(4) :130 -132.[2]Hsieh-Yee I.Research on Web search behavior []．Library &",
+    "context2": "Information Science Research,2001,23(2) :167-185.   \n[3]Dinet J,Chevalier A，Tricot A．Information search activity:An overview []．European Review of Applied Psychology,2012,62 (2):49 -62.   \n[4]Dommes A,Chevalier A，Lia S.The role of cognitive flexibility and vocabulary abilities of younger and older users in searching for information on the Web $\\mathbb { I }$ ．Applied Cognitive Psychology,2011, 25(5) :717 -726.   \n[5]Sharit J,Hernändez M A,Czaja S J,et al.Investigating the roles of knowledge and cognitive abilities in older adult information seeking on the Web []．ACM Transactions on Computer-Human Interaction(TOCHI)，2008,15(1):3-28.   \n[6]Ingwersen P.Information retrieval interaction M.London: Taylor Graham Publishing，1992:61-202."
+  },
+  "[7]孙在全.基于用户认知的信息检索研究 [D].郑州:郑州大学,2011.": {
+    "context1": "[8]Fairer-Wessels F A. Basic community information needs of urban black women in Mamelodi，Pretoria，South Africa [J]．South African Journal of Library and Information Science,1990,58(4) : 359 -369.   \n[9]Wilson T D.Models in information behaviour research [] .Journal of Documentation,1999,55(3):249 -270."
+  },
+  "[0] 邓小昭．因特网用户信息检索与浏览行为研究[]．情报学报， $2 0 0 3 , 2 2 ( 6 ) : 6 5 3 - 6 5 8 .$": {
+    "context1": "[11]Wise K,Kim HJ,Kim J. The effect of searching versus surfing on cognitive and emotional responses to online news []．Journal of Media Psychology:Theories，Methods，and Applications,2009,21 (2):49 -59.   \n[12] Case DO.Looking for information:A survey of research on information seeking，needs，and behavior [M]．New York: Academic Press,2012:284-288."
+  },
+  "3] lngwersen P，Jarvelin K.转折——在情境中集成信息查寻与检索M.张新民，赵俊杰，吴运高，译.北京：科学技术文献出版社,2007:180 -181.": {
+    "context1": "[14] Belkin N J.Anomalousstatesof knowledge asa basisfor information retrieval [.Canadian Journal of Information Science, 1980,5(1) :133 -143.   \n[i5] Ingwersen P.Cognitiveperspectivesofinformationretrieval interaction:Elements of a cognitive IR theory []．Journal of Documentation,1996，52(1) :3-50.   \n[16]Knight S，Spink A．Toward a Web search information behavior model[M]//SpinkA，ZimmerM.WebSearching: Multidisciplinary Perspective.Berlin: Springer,2Oo8:2O9 -234.   \n[7] Saracevic T. Modeling interaction in information retrieval(（IR)：A review and proposal [C] //Hardin S.Proceedings of the 59th Annual Meeting of the American Society for Information Science. Medford:Information Today,Inc.，1996:3-9.   \n[18]Brand-Gruwel S,Wopereis I,Walraven A.A descriptive model of information problem solving while using Internet [．Computers & Education,2009,53(4):1207 -1217.   \n[9]Brand-Gruwel S，Wopereis I,Vermetten Y. Information problem solving by experts and novices: Analysis of a complex cognitive skill [ .Computers in Human Behavior,2005,21(3):487 -508.   \n[o]Sharit J，Czaja S J，Hernandez M，et al．An evaluation of performance by older persons on a simulated telecommuting task [．The Journals of Gerontology Series B:Psychological Sciences and Social Sciences,2004,59(6) :305 -316."
+  },
+  "[21]柯青,王秀峰．认知风格与信息搜寻行为整合研究[．情报理论与实践，2011，34(4):35-39.": {
+    "context1": "[2]Ford N，Miller D. Gender diffrences in Internet perception and use [ .Aslib Proceedings,1996,48(7/8):183 -192.   \n[23] $\\operatorname { K i m } \\mathrm { ~ K ~ S ~ }$ Experienced Web users’search behavior: Efects of focus and emotion control [] .Proceedings of the American Society for Information Science and Technology,2005,42(1):1-6.   \n[4]Kim K S,Allen B. Cognitive and task influences on Web searching behavior [J]．Journal of the American Society for Information Science and Technology,2001,53(2) :109 -119.   \n[5]Kuhlthau C C. Inside the search process: Information seeking from the user's perspective [I].Journal of the American Society for Information Science,1991,42(5) :361 -371.   \n[6]Halder S，Roy A，Chakraborty P. The influence of personality traits on information seeking behaviour of students []．Malaysian Journal of Library & Information Science,2010,15(1):41 -53.   \n[7]Kim K S.Effcts of emotion control and task on Web searching behavior []．Information Processing & Management,2008，44 (1):373 -385.   \n[8] Kao G Y M,LeiPL,Sun C T. Thinking style impacts on Web search strategies [J]．Computers in Human Behavior,2008,24 (4):1330 -1341.   \n[29] Flavi@n-Blanco C,Gurrea - Sarasa R，Orus- Sanclemente C. Analyzing the emotional outcomes of the online search behavior with search engines [] .Computers in Human Behavior,2011,27(1): 540 -551."
+  },
+  "[0]李恒.基于认知心理学的科技用户信息搜索行为理论研究[].南京：南京理工大学,2006.": {
+    "context1": "B1]Large A，Beheshti J. The Web as a classroom resource:Reactions from the users [l．Journal of the American Society for Information Science,2000,51(12):1069-1080.   \nB2] Small G W,Moody TD,Siddarth P,et al. Your brain on Google: Patterns of cerebral activation during Internet searching [J]. American Journal of Geriatric Psychiatry,2009,17(2):116-126.   \nb3]Ford N，Miller D，Moss N.Web search strategies and human individual differences: Cognitive and demographic factors，Internet attitudes，and approaches $\\mathbb { I }$ ．Journal of the American Society for Information Science and Technology,2005,56(7):741-756.   \nB4] Wildemuth B M. The effects of domain knowledge on search tactic formulation []．Journal of the American Society for Information Science and Technology,2003,55(3):246 -258."
+  },
+  "刘燕君马红宇刘腾飞周宗奎": {
+    "context1": "b5]Vibert N,Ros C,Bigot LL,et al.Effects of domain knowledge on reference search with the PubMed database: An experimental study [．Journal of the American Society for Information Science and Technology,2009,60(7) :1423-1447.",
+    "context2": "B6] Kuo FY,Chu TH,Hsu MH,et al.An investigation of effort",
+    "context3": "accuracy trade-off and the impact of self-eficacy on Web searching behaviors [1．Decision Support Systems,2004,37(3):331 -342. β7]王淑群．影响网络信息检索的因素与对策[．图书馆论坛， 2006,26(2):197-199."
+  },
+  "A Study Review on Web Information Searching Model Based on User Cognition": {
+    "context1": "Liu YanjunMa Hongyu Liu Tengfei Zhou Zongkui",
+    "context2": "School of Psychology，Central China Normal University，Wuhan 430079",
+    "context3": "[Abstract] Web information searching behavior is closely related to theusers’daily life.Cognitive information retrieval istheappicationofcognitive theoryandsocialcognitivetheoryintheinformationretrievalresearch，which is diferentfromtheresearch paradigmof the traditionalandusercentered informationretrieval.Thecognitivemodels of web information searching behavior depict the importantroleofuses’cognitiveactivities in thesearch process，mainly including the interactivecognitionmodel，the informationproblem-solving using internet modeland search engine information-searching behavior model.There are three influential factors of web information searching behavior:user cognitive factors ，web information factors and social situations.",
+    "context4": "[Keywords] Webinformation searchinguser cognitionmodel"
+  },
+  "《国际科学技术前沿报告2013》正式出版发行": {
+    "context1": "由中国科学院国家科学图书馆张晓林和张志强主编、国际科学技术前沿报告研究组组织研究完成的《国际科学技术前沿报告2013》已经于2013年8月由科学出版社正式出版发行。",
+    "context2": "《国际科学技术前沿报告2013》从基础科学、生命科学与生物技术、资源环境科学与技术、战略高技术等四大科学技术领域选择自旋电子器件、铅铋合金冷却系统、小麦锈病研究、生物信息技术、深水油气勘探开发科技、流域水资源管理研究、新型原子钟、药用植物资源科技、类人机器人研究、小型模块化反应堆技术、计算材料与工程等11个科技创新前沿领域、前沿学科、热点问题或技术领域,以专业型、计算型、战略型、政策型和方法型“五型融合\"的科技情报研究新范式,逐一对其进行国际研究发展态势的系统分析，全面剖析这些领域国际科技发展的整体进展状况、研究动态与发展趋势、国际竞争发展态势，并提出我国开展相关领域研究的对策建议，为我国这些领域的科技创新发展战略决策提供重要的决策依据，为有关科研机构开展这些科技领域的研究部署提供国际发展的参考背景。",
+    "context3": "国家科学图书馆自2007年开始，围绕有效支撑和服务国家和中国科学院的科技创新决策需求，以及适应数字信息环境和数据密集型科研新范式的新趋势，面向前沿、面向需求、面向决策，部署《国际科学技术前沿报告》年度系列研究工作，由总馆、兰州分馆、成都分馆、武汉分馆以及上海生命科学信息中心等单位的战略情报研究团队，围绕各自分工关注的科技创新领域的科技发展态势，选择相应科技创新领域的前沿科技问题或热点科技方向开展国际科技发展态势分析研究,为国家和中科院相关科技领域的科技发展提供国际发展的最新参照和决策咨询建议。从2010年开始，《国际科学技术前沿报告》年度报告开始由科学出版社正式出版发行。"
+  }
+}

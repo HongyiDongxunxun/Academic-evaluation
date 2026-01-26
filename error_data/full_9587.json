@@ -1,0 +1,104 @@
+{
+  "original_filename": "full_9587.md",
+  "语义网环境下编目的发展与趋势": {
+    "context1": "王亚林",
+    "context2": "摘要当前的编目理念及所采用的MARC格式，已经滞后于语义网技术的要求。从FRBR、RDA，到BIBFRAME以及OCLC基于Schema.0rg的关联数据模型，图书馆界在寻找新的书目关联数据模型替代MARC。图书馆界率先完成各种规范词表和分类法的关联数据化，并通过它们实现图书馆界内部网站之间的互联，以及图书馆网站与维基等公众网站之间的互联。VIAFbot等项目表明，语义网时代规范数据依然具有很强的实用性。从探索过程可以总结出，编目有知识化、关联化、主题分面化等趋势。参考文献21。",
+    "context3": "关键词语义网编目关联数据MARC规范"
+  },
+  "Development and New Trends of Cataloging in the Era of Semantic Web": {
+    "context1": "Wang Yalin",
+    "context2": "Abstract：The current cataloging idea and MARC format have fallenfar behind the requirements of Semantic Web technologies.From FRBR,RDA，BIBFRAME to OCLC's linked data model based on Schema.org,the library community is trying to findanew bibliographic linkeddata model toreplace MARC.Controlled vocabularies and classifications are the first being transferred to linked data，through which the linking inside library websites and between libraries and public websites such as Wiki isrealized.The projects suchas VIAFbot show that,authority datas stillhave a practical value in the era of Semantic Web.Analyzing the trend in cataloging exposed through the exploring process，faceted subject headings，wiki style web pages and linking to the web can be found in the cataloging.21 refs.",
+    "context3": "Keywords：Semantic Web；Cataloging；Linked Data；MARC；Authority",
+    "context4": "语义网并不是一个单独的网络，它是植根于现有网络中的一套技术，使得机器不但能够理解网络上的词语和概念，而且还能够理解它们之间的逻辑关系。这样语义网络上的信息除能被人所理解外，同时可以被计算机理解并处理[]。语义网技术的核心是本体和关联数据，本体重在概念及其关系的体现，关联数据则重在为语义网提供具有唯一标识和丰富语义的数据。如今，许多国际大公司的网站，如Facebook、Google、Yahoo、Microsoft、BBC等[2],以及HathiTrust、OCLC、美国国会图书馆等图书馆及其相关机构，都已普遍应用语义网技术。",
+    "context5": "语义网技术的应用,推动了图书馆的技术变革。图书馆数据的关联数据化,或许将成为两个世纪以来图书馆数据最重大的变化[3]。编目工作也面临着前所未有的挑战，因为图书馆的编目理念依然停留在卡片目录时代。"
+  },
+  "1编目理念和技术滞后于时代": {
+    "context1": "当前书目元数据的设计，可以追溯到1969年ISBD的诞生。当时的设计理念是由人来读取和解释书目，书目用来在人工环境下辅助管理和识别图书。卡片目录进化为机读目录之后，早期的在线目录也主要是为了满足内部需要。目录的先天设计中就缺少了读者使用和机器处理的考虑。"
+  },
+  "1.1描述性编目": {
+    "context1": "卡片目录时代，图书馆文献整序主要关注的是图书的排架和区别版本，因此目录比较强调资源载体表现的相关信息。如今四十多年过去，卡片目录早已进化为在线目录，但编目的内容没有发生太大变化。编目员耗费很多时间和精力来描述书本有没有图版,有没有地图，有没有索引，引用文献在哪一页，作品的题目来自封面还是题名页等等。但这些对于当今的读者，没有太多意义。对于标点、字段等格式上的关注，使得编目的速度也大受影响。编目员对书目的描述，像是在编织一个篮子,不管篮子编织得有多精美，读者关心的只是篮子内装的内容。读者需要更多对文献内容的揭示，它的目录是什么，哪儿能下载全文，哪儿有相关文献,相同作者或者相同主题有没有其它作品，等等。",
+    "context2": "RDA作为新的内容标准，在理念上相对AACR2进行了大的调整。将编目的焦点集中到对象的内容而不是载体表现，比如不再关心题名信息来自哪里，尺寸、布局、媒体类型等不再设为核心元素。但“不漏掉任何可能有用信息”的编目传统习惯依旧强大。RDA规定了31项关于载体表现的核心元素，北美编目实际遵守的“美国国会图书馆合作编目项目政策声明\"（LC-PCCPS)在此基础上又增加了18项核心元素，RDA的精神只得到部分践行。"
+  },
+  "1.2主题标引": {
+    "context1": "无论是中国分类主题词表还是美国国会图书馆主题词表，都存在共同的缺点。比如专业性强，掌握难度大，不利于向大众推广；采用新术语或修订过时术语的速度比较缓慢；各种复分和组配使得主题可能会很长，有时长达八九个词组组配在一起，不利于在OPAC显示时继续限定检索。当前网络技术要求主题标目应该尽量使用单一概念主题词，LCSH中存在的大量并列概念主题词,比如“Nursesand Nursing”,不适于机器自动处理[4]。",
+    "context2": "OCLC于2001年开始主题术语分面应用（Faceted Application of Subject Terminology,FAST)项目，将标题拆分为个人名称、团体名称、事件、题名、时序、论题、地理名称、形式体裁等8个分面，以便于分类检索。这样既适用于计算机辅助标引与规范控制、分面检索，又比枚举式词表维护更方便经济[5]。OCLC通过计算机自动处理完成了WorldCat书目库中fast主题词的添加，但并列概念主题词却需要人工判断后处理。LCSH也有一些修正,例如“Nursesand Nursing\"已被替换为两个单一概念术语\"Nurse”和\"Nursing”，但这种进展，相对于技术的发展，太过缓慢。"
+  },
+  "1.3关于MARC的迷思": {
+    "context1": "MARC诞生于1966年。它的设计中，还带有第一代计算机纸带存储的特点。MARC格式有很多局限。例如，MARC不够直观,若不借助于工具与手册，很难读懂。MARC对编目对象的描述是平面的，不能区分FRBR模型定义的不同实体，不能表达这些实体之间的关系。随着资源载体类型的增加，一个内容表达可能会有多种载体表现。MARC表达书目的方式，使得图书馆书目库中充满大量题名相同的重复记录。MARC记录本身，为了显示和检索的不同需要，字段内容也存在大量重复。并且，MARC记录不方便机器自动识别，不适于当前主流编程技术。总之，MARC越来越表现出与当今网络与技术环境不相适应的一面。",
+    "context2": "语义网的到来，加剧了MARC的滞后性。语义网要求数据是关联数据，能够通过一个唯一的、稳定的标识符进行链接，形成一个数据的网络。而书目数据库中的MARC数据，虽说可以在网上检索，但它本质上是一个数据孤岛。除非被大的搜索引擎索引,否则不能够直接被检索到。也就是说，它虽在网络上，但它不是网络的一部分，只能被已知它们存在的人访问和使用。现存的协议，如Z39.50等，只能通过复制实现传播，而不能直接无缝链接至内容。",
+    "context3": "图书馆界从本世纪初就开始呼呼淘汰MARC,以2002年Roy Tennant发表的《MARC必须死》[6最为著名。但是,MARC在全球范围内拥有海量数据，仅OCLC的WorldCat书目数据库的数据量就超过了三亿三百万条[。且目前的主流图书馆系统均支持MARC,图书馆界书目存储与交换采用的主流数据格式，依然是MARC。MARC的地位暂时没有哪种格式能够撼动与",
+    "context4": "替代。",
+    "context5": "同时，MARC至今依然保存着旺盛的生命力。MARC不仅在不同国家和地区发展出多种变种，比如MARC21、UniMARC等MARC家族。新的RDA标准公布后，MARC还迅速为之修订，增加、修改字段来支持RDA，体现出MARC格式较强的可扩展性。MARC的修订与接纳，也是RDA得以在图书馆界快速应用的原因之一。但无论如何，MARC终将被淘汰，这已成为业界共识。但淘汰的过程是漫长的，同时也是图书馆理念与技术大变革的过程。"
+  },
+  "2语义网新数据模型的探索": {
+    "context1": "如前分析，MARC已不再适应语义网的要求，符合语义网技术要求的是结构化关联数据。这些数据要能够细分为更小的实体，要更加开放，不再仅限于图书馆界，而是整个网络都可以访问；能够通过人工或者机器远程获取；能够适应各种软件和硬件环境，特别是新兴的移动设备；能够实现不同机构之间数据的互联和共享。而MARC做不到这一点。"
+  },
+  "2.1FRBR": {
+    "context1": "图书馆对新的数据模型的探索，可以追溯到FRBR概念模型的诞生。1998年，IFLA出版了研究报告《书目记录的功能需求》（简称FRBR）。FRBR和随后的FRAD、FRSAD,定义了三组实体，分别是作品、内容表达、载体表现、单件，个人、家庭、团体，主题，以及这三组实体之间的关系。这三组实体，对书目记录描述的对象、整个生命周期过程中不同阶段的不同实体类型及其之间的关系，进行了详细的分析，为资源的描述、定位提供了完整的思考框架。",
+    "context2": "FRBR是图书馆界第一次从实体的逻辑层次与关系上来理解书目世界。它的重要性不在于作品、内容表达或者载体表现的具体定义和分界，而是人们从一个全新的视角，来了解事物本身(比如说一本书,或者一篇文章)以及事物之间的联系（改编、赋值、衍生、翻译和其他的关系)[8]。FRBR应用“实体-关系”模型（E-RModel)来构建概念框架，是一个立体模型，相比MARC的平面结构，在理念上是一种巨大进步。"
+  },
+  "2.2 RDA": {
+    "context1": "2010年发布的RDA，基于FRBR概念模型，对编目条例进行重写。它不再区分文献类型，而是围绕FRBR和FRAD所提出的用户任务，从对实体的\"识别\"和实体之间的“关系”角度组织内容。RDA规定了从哪些角度描述实体的属性和关系及必备性，规定了如何描述这些属性和关系，是资源描述与检索的内容标准。RDA可以理解为FRBR的元数据词表。",
+    "context2": "但RDA在FRBR的基础上又有所发展。除了FRBR模型指定的实体，RDA也在定义其他实体之间的关系。RDA正逐渐发展成为包括图书馆各类馆藏、档案等资源的共同数字模型[9]。"
+  },
+  "2.3BIBFRAME": {
+    "context1": "FRBR搭起了实体的概念框架，RDA规定了框架元数据细节。2011年，美国国会图书馆发起的BIBFRAME项目，则是重在编码格式的创新。它采用关联数据模型，希望该模型能成为新的数据交换格式、编目格式，以及图书馆集成系统的内部格式。",
+    "context2": "也许是因为FRBR模型对于语义网来说太过复杂,BIBFRAME并没有全盘接受FRBR[9]。它借鉴了FRBR和RDA，并进行了一定的变通。BIBFRAME设计了4个实体，作品、实例、规范和附注。由于FRBR 概念模型中的“作品”是一个较虚的概念，在现实世界中没有对应的实体，BIB-FRAME的作品便将FRBR模型中作品和内容表达进行了结合。BIBFRAME的实例（Instance），对应FRBR的载体表现和单件[10]。BIBFRAME的规范对应传统的受控词表，它基于国会主题词表并进行了扩展，增加了原本MARC格式中不受控的\"出版社\"等规范。附注包括馆藏数据（对应FRBR的单件）、评论和封面等[\"],能够记录用户评论。这是对书目的一大补充，能够发挥出web2.0的优势。",
+    "context3": "BIBFRAME词汇表一直处在修订过程中，使之在关联数据环境下尽量实现语义层内涵和外延的准确定义。BIBFRAME词汇表的一个重要来源是RDA，但它同时致力于独立于任何特定的编目规则[12]。一个实用的设计，必须考虑如何继承MARC的庞大遗产，因此BIBFRAME的词汇表同时要保持与MARC 的兼容性。为此,OCLC 设立“基于WorldCat的书目库\"项目，对每个MARC字段子字段出现的次数及馆藏数进行统计，分析每个MARC字段、子字段实际使用情况[3],以此来辅助判断继承该字段或子字段的必要性。由于WorldCat是世界上数量最大、成员机构最多的书目库，因此其结果具有一定的代表性。",
+    "context4": "目前，BIBFRAME已经进人测试和实施阶段，对BIBFRAME模型和词汇表中的错误、矛盾或缺点等进行检测。在BIBFRAME官方网站上注册实施BIBFRAME的机构已经有7家，包括美国国会图书馆、德国国家图书馆、普林斯顿大学图书馆等[14]。"
+  },
+  "2.4OCLC关联数据模型": {
+    "context1": "与BIBFRAME创造图书馆全新编码不同，OCLC的关联数据模型则是基于Schema.org建立。Schema.org是由Google、Microsoft和Yahoo！三方共同打造的一个通用词汇表(本体)，可直接嵌入HTML网页中。网页上添加Schema.org编码后，数据就能够在页面正常显示的同时，被搜索引擎或者其它网站理解和利用。",
+    "context2": "由于Schema.org是由众多搜索引擎打造的结构性数据的发布标准，图书馆很难忽视Sche-ma.org的存在。虽然它不是图书馆界的标准，不能反映FRBR的四层结构（虽然有CreativeWork类,但是跟FRBR的定义不同);内容和载体之间也没有清晰的界限，基本不能反映作品之间的关系等[15]。但是OCLC和其他图书馆专家认为，该本体可以像DC那样简单描述图书馆的书目资源[15]。为了解决Schema.org与图书馆的兼容性，W3CSchema Bib Extent工作组对 Schema.org的编码进行了扩展，促进实现书目信息的标记和",
+    "context3": "共享。",
+    "context4": "W3C Schema Bib Extent 尽量复用 Schema.org现有的类和属性，而不是新增图书馆专用属性[15]。经过创新与简化新词表的过程,最新版本的 SchemaBibExtend补充定义了16个类（对应图书以外的16种资源类型）、两个对象属性、两个关系属性[16]。2012年6月，OCLC使用RDFa语法，利用Schema.org编码,在其WorldCat书目页面中加人了关联数据。WorldCat的关联数据，则是目前网络上最大的关联书目数据库[17]。",
+    "context5": "OCLC的关联数据模型的研发与BIBFRAME项目是并行开展的，但有不同的侧重。BIBFRAME是图书馆界研发的用于图书馆资源管理的模型，能够描述更多资源的细节，更适于图书馆数据的存储与交换。而OCLC模型则是一个通用模型，它重在实现传统html页面上的显示和发布能够被搜索引擎所理解。",
+    "context6": "独立发展的模型，还有欧洲数字图书馆的EDM数据模型、美国数字公共图书馆DPLA数据模型等。无论是哪种数据模型，都需要经过时间的验证，才能被图书馆系统开发商所接受，从而被图书馆乃至出版界、博物馆等更大的范围接受。"
+  },
+  "3关联数据的应用与互联": "",
+  "3.1图书馆的关联数据化": {
+    "context1": "不管未来采用何种数据模型,图书馆书目的关联数据化是必然的趋势。将数据转化为关联数据，不需要挑战图书馆现有数据生产过程、软件结构和工具，是加入语义网最快捷的方式。关联数据化的同时，图书馆也在为数据扩展外部链接，使数据成为万维网的一部分，方便用户的发现。用于扩展外部链接的字段，主要是受控词汇表的规范字段和分类法字段。",
+    "context2": "图书馆界率先完成关联数据化的也是受控词表和分类法。2003年开始，由德意志图书馆、美国国会图书馆和OCLC联合开发的虚拟国际规范文档（Virtual International Authority File,VIAF）项目，连接世界各国的规范文档，使之成为一个统一的虚拟规范文档。至2014年7月，VIAF的贡献者已达29个国家的34个机构。2009年，美国国会图书馆选择主题标目，开始关联数据化过程,如今已将其发布的人名、地名、机构名、题名、主题词表、术语表、国会分类法等规范关联数据化。2011年，OCLC完成《杜威十进分类法》全部层级的关联数据化。",
+    "context3": "这些率先完成的本体项目，成为图书馆关联数据扩展外部链接的对象，也成为图书馆数据网的中心。根据OCLC的调查，外部链接的对象，排在前四名的是id.loc.gov、DBpedia、GeoNames以及VIAF网站[18]。DBpedia是从维基百科（Wiki-pedia)的词条里擷取出结构化的资料，也是世界上最大的多领域知识本体之一。GeoNames则是包含了超过1000万个地点的免费全球地理数据库。",
+    "context4": "2012年,OCLC为Worldcat书目页面增加了关联数据栏，其已经实现的外部链接有：将著者关联至VIAF的著者规范页；将主题关联至国会图书馆主页的主题规范和地理规范关联数据页，主题同时关联到FAST主题；分类关联到杜威分类法页面；出版地关联到DBPEDIA。记录还可以关联至其作品级记录，查找不同版本不同载体表现的其他记录。",
+    "context5": "欧洲数字图书馆(Europeana)整合了2000多家欧洲机构的书籍、绘画、电影、博物馆藏品和音频档案等资源。目前，Europeana已经实现其7百万条记录与全球免费地理数据库GeoNames地名的链接;完成14.4万条记录与DBpedia的链接；实现910万条记录与通用多语种环境术语表（GEMET)的链接[19]。"
+  },
+  "3.2图书馆与知识网站的互联": {
+    "context1": "VIAFbot是一个由OCLC的维基百科人（Wikipedians)和英国国家图书馆合作领导的项目，目标是整合VIAF的规范数据和维基传记文章。该项目的成果是在维基百科的英文传记页面增加\"规范控制\"栏。该栏集成了WorldCat、VI-AF、ISNI以及各国人名规范链接，点击链接可以指向上述各网站的人名规范页面，为读者提供被传人的各国规范形式，并可继续挖掘被传人的其它作品等信息。WorldCat和ISNI也提供了指回维基传记页面的链接，这些链接促进了图书馆的传统数据在网络平台上的开放获取。自从维基推出VIAFbot之后，从2012年9月到2013年6月间,VIAF.org的访问量增加了三倍[20] 。",
+    "context2": "VIAFbot与维基整合规范记录，被称为“图书馆规范用于非传统用户路上的里程碑”。这为图书馆人带来信心，即使是在语义网时代，传统的规范数据依然具有很强的实用性，在整合网络资源的过程中,能够发挥出网络访问“集线器（hub)”的作用[21] 。",
+    "context3": "人名规范仅仅是开始。VIAF还包含其它的规范记录，例如机构名，也可以用相似的过程匹配到维基文章中。大量的既不是描述人也不是描述机构的维基文章，则可以匹配受控主题词表，例如FAST、LCSH、MeSH等[20]。未来维基的文章还可以被赋予分类号，这样维基的读者就可以连接至WorldCat或其它图书馆，来发现更多可以参考的图书馆资源。技术上可以利用文章引文的主题分类来确定文章本身的主题和分类[20]。数据之间的关联，开辟了编目员进行知识组织工作的新空间。"
+  },
+  "4语义网发展对编目工作的启示": {
+    "context1": "编目不断发展的过程是图书馆不断利用新技术，使目录更方便用户使用的过程。从卡片目录发展到机读目录，再到在线目录，皆是如此。总结语义网发展对编目工作及其发展趋势的影响，可以得出以下几点："
+  },
+  "(1)开放的态度": {
+    "context1": "编目员在自己的专业上倾向于越做越专深，越来越复杂，不仅效率低下，也远离了大众。现如今，搜索引擎、百科以及社交等网站，已成为网络的主流。他们所采用的技术，成为事实上的标准。图书馆应避免闭门造车，多与外界合作，共享通用标准；从实用的角度出发，用最省力的办法，完成",
+    "context2": "最有效的工作。",
+    "context3": "(2)主题分面化",
+    "context4": "主题词表在语义网环境下依然适用并发挥作用，但是复杂的复分与组配规则不适合当前的技术。未来需要对主题标目进行简化、标签化,并使用单一概念术语。将标题拆分为个人名称、团体名称、事件、题名、时序、论题、地理名称、形式体裁等分面,保留LCSH丰富词汇的同时，简化语法。同时，方便读者参与图书馆数据的建设。"
+  },
+  "(3)书目知识化": {
+    "context1": "百科网站的流行提醒图书馆员，网络不再仅仅提供知识的线索，而是提供完整内容。简略的书目信息,已经不再满足读者的需要。未来编目员所要做的，不仅仅包含元数据的著录，还需要提供必要的视频、图像或地图等信息,形成类似谷歌知识图谱（Google Knowledge Graph）或者百科词条类的知识。图书馆可以选择自己的优势学科,建设自己的维基网站。"
+  },
+  "(4)书目关联化": {
+    "context1": "语义网要求图书馆不再将自己的目录局限在数据库里,而是转化为有独立链接地址，可以直接检索的关联数据。编目员需要为数据提供尽可能多的相关资源链接,指向本地网站、专业网站,或者Worldcat、VIAF、维基、百度等数据中心，方便读者继续进行知识的挖掘,也方便资源被发现。",
+    "context2": "技术在发展，环境在变化,对编目有重大影响的不仅仅是语义网。越来越多的云服务，也将对编目工作造成重大影响，图书馆需要编目的资源类型、编目对象等都将发生变化。持续不变的，是图书馆对数据质量的关注，以及对读者需求的不断满足。"
+  },
+  "参考文献": {
+    "context1": "1 语义网[EB/OL].[2014-06-04].http://baike.baidu.com/view/1967.htm.  \n2 谁在使用语义技术？——采用 Semantic Web技术的大公司列表[EB/OL].［2014-07-17]．http://bbs.w3china.org/dispbbs.asp?",
+    "context2": "boardID $=$ 2&ID $^ { 1 } =$ 123762.",
+    "context3": "3Jennifer Zaino.The Future of Libraries,Linked Data and Schema.Org Extensions [EB/OL]. [2014-10-01].http://semanticweb.com/the -future-of-libraries-linked-data-and-schema -org-extensions_b35315.",
+    "context4": "4 Diane I.Hillmann,et al. Versioning Vocabularies in a Linked Data World[EB/OL].[2014-10-   \n12]. http://ifla2014-satdata.bnf.fr/pdf/iflalld   \n2014_submission_Hillmann_Dunsire_Phipps.pdf.   \n5 Catwizard.WorldCat书目记录开始批量增加 FAST主题[EB/0L].[2014-06-04].http:// catwizard.net/posts/20130928220008.html.   \n6 Roy Tennant，“MARC Must Die!\"[J]. Library Journal,2002,127(17):26-28.   \n7 OCLC.Annual Report 2012-2013[EB/OL]. [2014-10-01]. htps://oclc.org/content/ dam/oclc/publications/AnnualReports/2013/   \n2013.pdf.   \n8 Ross. Why do we obsess over FRBR entities? [EB/OL] .[2014-08-05].ttp://dilettantes. code4lib.org/blog/2011/11/why-do-we-obsessover-frbr-entities/.   \n9 Lars G.Svensson.Are Current Bibliographic Models Suitable for Integration with the Web? [EB/OL].[2014-08-06]. http://www.niso. org/apps/group_public/download. php/11931/ FE_Svenssonbibliographic_models_isqv25no4. pdf.   \n10 Shieh，Jackie.A Transformative Opportunity: BIBFRAME at the George Washington University, an Early Experimenter[J].Information Standards Quarterly，Winter 2013,25(4)：17-21.   \n11 ANGELA KROEGER. The Road to BIBFRAME: The Evolutionof the Idea of Bibliographic Transitioninto a Post-MARC Future[J]. Cataloging & Classfication Quarterly.2013,51（8）:873 -890.   \n12BIBFRAME Frementlv Asked Onestinne「ER/"
+  },
+  "·信息组织·": {
+    "context1": "OL].[2014-10-01]. http://www.loc.gov/bibframe/faqs/.",
+    "context2": "13MARC Usage in WorldCat[EB/OL].[2014-06 -15].http://experimental. worldcat. org/marcusage/.",
+    "context3": "14BIBFRAME Implementation Register[EB/OL]. [2014-06-15].http://www.loc.gov/bibframe/ implementation/register.html.",
+    "context4": "15Carol Jean Godby．The Relationship between BIBFRAME and OCLC’s Linked-Data Model of Bibliographic Description：A Working Paper [EB/OL].[2014-10-01]. http://oclc.org/ content/dam/research/publications/library/2013/ 2013-05.pdf.",
+    "context5": "16WorldCat Linked Data Vocabulary[EB/OL]. [2014-09-06].http://oclc.org/developer/ develop/linked-data/worldcat-vocabulary.en. html.",
+    "context6": "17Innovation Lab[EB/OL].[2014-O7－17]. http://www.oclc.org/research/innovationlab.html.",
+    "context7": "18Linked Data Survey Results 3-Why and What",
+    "context8": "Institutions are Consuming（Updated）[EB/ OL].[2014-09-27].http://hangingtogether. $\\mathbf { o r g } / ? \\mathbf { p } { = } 4 1 5 5$   \n19Valentine Charles,et al.Links,languages and semantics：linked data approaches in The European Library and Europeana[EB/OL].[2014- 10-01].http://ifla2014-satdata.bnf.fr/pdf/iflalld2014_submission_Charles_Freire_Isaac.pdf.   \n20Maximilian Klein,Alex Kyrios.VIAFbot and the Integration of Library Data on Wikipedia[EB/ OL].[2014-10-01].http://journal.code4lib. org/articles/8964.   \n21Richard Wallis.From Records to a Web of Library Data-Pt2 Hubs of Authority[EB/OL]. [2014-10-01]．http://dataliberate.com/ 2013/03/from-records-to-a-web-of-librarydata-pt2-hubs-of-authority/.",
+    "context9": "(王亚林副研究馆员北京大学图书馆)收稿日期：2015-08-14"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "original_filename": "full_5265.md",
+  "nothing": {
+    "context1": "·信息工作·"
+  },
+  "开放数据及其应用现状": {
+    "context1": "谭健 (浙江大学公共管理学院信息资源管理系浙江杭州310027)",
+    "context2": "摘要：开放数据是一种理念与实践,按照用户特定的需求和相应的互联网协议、规则、框架对Web数据进行开发、加工、存储、组织等管理活动,以实现局域和全部Web空间的数据开放、互通、共享。文章探讨了开放数据在科学学术交流、Web2.0时代信息组织中的愿景,重点介绍了开放数据在当今电子政务中的应用现状,以及非营利性组织、企业对开放数据的推动情况。",
+    "context3": "关键词：开放数据信息组织开放政府数据关联数据",
+    "context4": "中图分类号：G250.73 文献标识码：A 文章编号:1003-6938(2011)04-0042-06"
+  },
+  "Current Status of Open Data and Its Application": {
+    "context1": "Tan Jian (Department of Information Resources Management, ZheJiang University, Zhejiang Hangzhou, 310027)",
+    "context2": "Abstract Basedonusersnedsandcertain Internetprotocol,rulesandframework,opendataisamanagementphilosophyand practiceincludingdevelopingproceeding,storingandorganizingwebdata,soastorealizethegoalofoen,interconnected,srd webspae.Thispaperdisussesoendata'oleindigitalsholarlcommunicationandinfomationorganzation.Italsohiglightsits application status in e-government, NGOs,and enterprises as well.",
+    "context3": "Key Words open data; information organization; open government data; linked data",
+    "context4": "CLC number: G250.73 Document code：A",
+    "context5": "Article ID:1003-6938 (2011) 04-0042-06",
+    "context6": "随着新的技术、标准、协议、应用等不断涌现,全球互联网发展正面临着机遇与挑战并存的局面。“万维网之父”TimBerners-Lee在展望未来互联网时强调其三大主要特征为数据整合、多样的网络和独立的设备、无所不在的Web 应用[],其中\"数据整合”(Data Integration)即指在相应的网络标准格式（如ResourceDescriptionFramework、Web OntologyLanguage等下实现整个Web 的数据互联互通、开放共享。",
+    "context7": "全面的数据整合和无所不在的Web应用客观上要求现有的互联网不断进行技术、理念的创新与突破，在向第二代互联网演进过程中，开放数据成为继开源软件、开放存取后又一崇尚开放、自由、共享精神的研究热点，也为当前数字化网络环境下的数据管理、信息组织的研究与实践注入了新的活力。"
+  },
+  "1开放数据概念": {
+    "context1": "当前，人们对\"开放数据\"尚无统一的定义，不同的组织、机构有不同的理解，如“开放数据中心联盟”(OpenData CenterAlliance视之为公司IT基础设施、云计算的应用模式与解决方案[2]学术出版和学术资源联盟(SPARO主张它为科学数据的一种新型学术出版模式、理念[3]；",
+    "context2": "W3C倡导的\"开放数据运动\"则是采用RDF数据模型,在网络空间中不同类型和来源的数据实体之间建立“RDF链接”，从而用特定的语义网浏览器或搜索引擎为用户在普通的HTML网页和结构化数据中导航，最终实现人人都可自由地获取到其想要数据的目标[4]。",
+    "context3": "尽管各个领域因数据应用相异而有不同的主张，但以秉持中立(neutralpointof view著称的维基百科对\"开放数据”的定义可看作是早先兴起的其他“开放运动”(如Open Access的扩展：它是一种哲学理念及实践，要求相应的数据可以被任何人自由获取，而没有版权、专利或其他机制的限制[]。这种定义缺陷在于对\"数据\"这一关键要素及其应用没有明确的规定，只提供了一个指导性的原则,即数据的无限制、无障碍获取。故可考虑改进如下开放数据,即对Web中产生或存在于Web中的各种类型的数据,按照用户特定的需求和相应的互联网协议、规则、框架进行开发、加工、存储、组织等管理活动，最终目标是实现局域和全部Web空间的数据开放、互通、共享。"
+  },
+  "2开放数据的愿景": {
+    "context1": "2.1成为推进学术交流、科学研究的关键角色数字学术交流 (Digital Scholarship Communication） 不仅包括学者在印刷型和数字出版物发表论文的全过程，同时也包括利用数字媒体进行的交流活动，如在个人或团体博客、论坛、讨论群上发表观点和意见，编辑维基条目，给仓储或社会网站提交数据或学术交流的产品等[]，这种新的学术交流模式最大的特点就是“数据驱动”,这就对研究成果(数据的管理、检索、传播提出了更高的要求，因此，开放数据就被科研团体寄予厚望。",
+    "context2": "剑桥大学PeterMurray-Rust教授以化学实验为例,阐述了数据开放对科研的必要性，提出了支持开放数据的八大论据,并被维基百科采用[7]:()数据属于全人类,如人类基因组、生物、医疗、环境数据;②公共资金支持了这些研究,故其数据应被广泛获取;(3数据由政府机构产生或为政府所拥有；(4事实性数据不应受到法律上的版权保护；(）只有科学研究产生的数据能自由获取到，其赞助者才能得到最大化的价值；(6限制对数据的再使用会产生“反公共体”(anticommons）；(人类公共活动的正常运行需要数据支持；(8更佳的数据获取能提升科研新发现的概率。"
+  },
+  "2.2实现数据网络空间互联互通,消除信息孤岛": {
+    "context1": "信息孤岛是指在社会信息化过程中，由于信息系统、软件系统数据库之间关联性差，难于互联、互通和互操作的弊端，造成数据共享性差，信息难以融合贯通，无法实现业务协作,系统效率低,而无法真正实现信息化的问题[8]。信息孤岛是一个复杂的现象，广义上还包括因资源格式、计算机技术标准、编程语言各异、数据交换协议不统一等而造成的“网络数据孤岛”,它一定程度阻碍了互联网的发展和网络信息的有效组织。",
+    "context2": "当前，“关联数据”(LinkedData 是一种新型的开放数据服务。它可以在不同来源的数据之间创建链接，这些数据源可能是两个处于不同地理位置的机构所维护的数据库，也可能是一个机构内的无法在数据层面上进行互操作的不同系统,通过发布和链接网上的结构化数据[9]。例如，W3CSWEO于2007年7月后动了“关联开放数据项目”,截止到2010年7月，其由203个数据集构成的关联数据网络中包含了250亿条RDF语句，这些语句被3.95亿个RDF链接相连[10],而且这些链接正在持续地增加；此外,世界银行[]、纽约时报[12]等也为公众开发了专门的关联数据、开放数据。随着开放数据运动的深入，网络中的私有封闭数据比重会越来越小，结构化关联开放数据就越来越多，那么消除数据孤岛、信息孤岛，构建全球范围内开放、统一的数据网络空间将变得可能。"
+  },
+  "2.3每个人都将是数据信息的发布者和创建者": {
+    "context1": "在以开放协作、用户参与为特征的Web2.0时代，开放数据的利益相关者不仅有学术团体、IT公司、信息机构、政府等,公众也是极为重要的信息主体。由于Web2.0的信息活动是围绕用户开展的，用户在互联网上参与内容创造，而不是作为被动的客体，他们贡献内容，传播内容,而且提供了这些内容之间的链接关系和浏览路径，从而更好地变革互联网的内容组织和信息传播，创造关联性和社会性[13]。维基、博客、微博、社会网络、社会性书签等是当前Web2.0的代表性应用，每一个人都可以成为网络的真正主体，其角色也不再局限于信息受众和接受者，他们可以在网络空间中发布、创建、修改属于自己的数据，为互联网建设贡献自己的力量。TimBerners-Lee在TED2009年会演讲中鼓励人们在网络中发布自己的原始数据(RawData),如文本、图片、视频等,并呼吁开放数据并重塑我们使用数据的方式(即整合并形成深度关联[14]，描绘了开放数据理念指导下的网络发展前景，可见这种基于网民参与的信息自组织方式是一大趋势。"
+  },
+  "3开放数据在信息组织中的应用现状": {
+    "context1": "众所周知，当前网络中的数据信息量正以指数级别增长，海量、异构、无序、多元的数据特征使网络信息组织面临着巨大的挑战,元数据、语义网、云计算、本体等成为现代信息组织的关键技术，而开放数据不仅是一种理念，它能与这些技术相结合而成为网络信息组织的有效实践。",
+    "context2": "由于开放数据具有基于本身数据集 (技术层面的应用和\"开放性”(社会层面的保障两种增值方式，使得开放数据在信息组织中的应用朝两个方向分别发展：公共信息服务领域(政府、科研组织等和商业应用领域[15]。开放数据源起于科学研究和创新的诉求，但政府部门早期就起到了极大的推动作用，如2004年所有的经济合作与发展组织(OECD成员国的科技部长签署了一个宣言，提倡所有的获公共资金支持得到的档案数据都应能被公众获取、共享[16],随后为之特别颁布了一个\"软法”(soft-law性质的《公共资助的研究数据获取原则与指南》支持全球性科学信息系统的健康运作[17]；另一方面，开放数据还是企业信息资源管理的重要议题，其本身也离不开商业组织的投入和技术支持。故以下将按此三类分别进行论述。"
+  },
+  "3.1开放数据在电子政务中的应用现状": {
+    "context1": "随着开放环境下公民参与意识的进一步加强，传统的政府治理、决策制定、公共服务方式已难以满足人们的期望,open government、government 2.0、governance web 等理念应运而生。简单地说,Government 2.0可视为e- government在Web2.0时代的新型应用，它始于政府开放原先所封闭的、提升透明度、革除阻碍创新的旧体制，这种形态的政府应当 向外部世界开放其门户；与每一位公民合作以谋求创新共享原先壁垒森严的资源流分利用大众协作的力量；作为一个真正集成的组织运转而不是孤立部门或管辖权(的行使者)[18]。从以上不难看出，开放数据是未来电子政务发展的必要条件，开放政府是未来政府胜任角色挑战的必然选择。本文选择美国、加拿大、英国三个国家，介绍开放数据在电子政务中的应用现状。"
+  },
+  "()美国政府": {
+    "context1": "2009年1月21日，新当选的美国总统奥巴马签署了他上任后的第一份备忘录就是《透明和开放的政府》[19]，决心“致力于让政府开放程度提高到一个前所未有的水平”指出“政府应该是透明的、具有高参与水平的、合作协调的”，并责成联邦管理和预算局(OMB负责人起草《开放政府令》(Open Government Directive),以具体行动贯彻这些原则。随后白宫建立了专门的“开放政府计划”(Open Government Initiatives)网站[2o],公民在此可定制政府出版物、寻找政府数据、查阅联邦政府投资及财税收入的使用情况,还可参与监督和评论开放政府执行进展、提供相关解决方案等。",
+    "context2": "经“头脑风暴”方式广泛征求公民意见后，第37任OMB局长PeterR.Orszag向白宫提交了《开放政府令》并获批准，该法案要求联邦政府机构和执行部门采取以下措施推进更加开放的政府建设[21] $\\textcircled{1}$ 支持信息开放，以开放格式在线发布政府信息，尊重公众知情权和公众参与；$\\textcircled{2}$ 提高公众获取政府信息的质量，遵守OMB的《InformationQuality Act》和其他信息质量规定，各机构需指定一名高级官员对本部门信息质量负责； $\\textcircled{3}$ 创造一种开放政府的文化并使其制度化，整合部门内政策、法律、技术等资源发展出更好的开放政府方案； $\\textcircled{4}$ 为开放政府创造一种有力的政策框架，重视新技术的应用，必要时修订现有的信息法案。该法案对开放政府事项之“透明度、参与、协作\"三大原则作了详细的说明和规定，美国所有的联邦政府机构都需据此提交各自的“开放政府计划”，重视公众对其开放计划与实践的反馈、评价意见。",
+    "context3": "当前，美国联邦政府层面的开放数据项目除了前文提到的奥巴马政府 Open Government Initiatives 外,另一著名的当属联邦CIO委员会开发、总务管理局主管的Data.$\\mathrm { G o v } ^ { [ 2 2 ] }$ 。该网站以都柏林核心元数据集(DO为标准,采用目录(catalog）方式组织政府数据和其他应用型网络工44",
+    "context4": "具，提供类目、机构、关键词等搜索途径，资源主要有三大类型 $\\textcircled{1}$ “原始数据(RawData)目录\"除提供可机器识别、即时浏览下载的无关平台的政府数据资源 (这些数据大多以XML、Text/CSV、KML/KMZ,Feeds,XLS等格式呈现外，还有相关链接指向各个数据集的元数据页面，这些元数据页面上又有其他的链接指向有权威信息来源的联邦机构，从而形成数据关联网络 $\\textcircled{2}$ “工具目录\"则以超链接形式为公众获取联邦数据提供服务，例如虚拟交互工具、数据挖掘和抽取工具、RSS定制等，用户可以便捷地从中选择自己感兴趣的数据 $\\textcircled{3}$ “地理数据目录\"致力于提供可信、权威的联邦地理数据，用户可在此链接至这些数据的下载页面、元数据描述页面或其他更加详细站点，如联邦地理数据委员会的元数据信息。值得一提的是,Data.Gov 网站还定期审查数据以保证与W3C的“Web可访问性倡议”(WA)原则一致,并主动应用语义网的最新技术，例如计划将超过64亿条政府数据转换成RDF格式、采用统一资源标识符(UR)更好地开发和扩展数据、朝新一代的关联数据混搭(mashups应用目标迈进。总之,Data.Gov是全球第一个国家政府层面的数据门户网站，它极大地解决了以往分散在各个政府机构网站的数据不兼容问题，是美国政府乃至全球范围内开放数据实践的标志性成果。",
+    "context5": "加拿大政府",
+    "context6": "《信息获取法案》(Access to Information Act是加拿大联邦政府信息公开的法律依据，该法案于1983年起生效，其目的是“拓展加拿大现有的相关法律，依据政府信息应该被公共获得之原则，(为公民 提供政府机构控制下信息的获取权\"[23]，此外,各省、地区也有其各自的信息获取、信息自由法律。当开放政府数据运动兴起时，与其他国家由中央政府主导不同的是，加拿大各级地方政府走在前列。如英属哥伦比亚省2007年7月起向GoogleEarth和GoogleMaps提供省域内的交通、矿产、高速公路工程等更高质量、即时更新的数据和图片[24]渥太华市[25]、多伦多市[26]、温哥华市[27]政府等纷纷接受了开放的哲学理念,建立了专门的开放数据门户网站，为公众提供在线的政府数据目录或报告。",
+    "context7": "为了在开放数据运动中追赶美国，2010年加拿大联邦政府将其提上了议事日程，并加快了行动步伐[28]5月10日,现任执政党保守党在\"数字经济战略\"中声称\"政府应协助获公共资金支持的研究数据更好地被加拿大商业和研究者获取”9月1日：“信息获取与隐私委员会\"通过了《开放政府决议》(Open Government Resolution）,鼓励各级政府拥护开放政府,积极地以开放格式披露信息；10月21日，自由党发布了《自由开放政府计划》，文件内容包括创建一个全国性的开放数据网站，促进政府数据的公共获取；11月25日，绿党建议制定“联邦开放数据政策”。2011年3月17日,加拿大国家开放数据的统一门户网站opendata.gc.ca正式上线,作为开放数据、开放信息、开放对话的趋势下开放政府的重要尝试，该网站旨在协助公众更好地寻找、下载、使用政府数据，以期促进公众参与和创新，并为公众提供更多的社会、经济机会。"
+  },
+  "(3)英国政府": {
+    "context1": "2009年12月7日，前首相布朗在伦敦“smartergovernment\"[29]的集会上,声明将发布更多的政府数据(除个人和敏感数据外)，如社会治安、医院、学校、交通、地理等原始数据,并用一站式网站呈现,值得一提的是，一些极具前瞻性的开放政府数据原则得到了确认，如这些公共数据以一种可再使用和机器识别的形式发布，使用开放标准、遵循W3C的倡议，所有的原始数据集以关联数据的形式呈现等，这些原则的应用对英国取得在全球开放数据运动的领先地位有重要意义。",
+    "context2": "2010年，数据民主运动在英国进一步发展，1月21日,英国政府开放数据网站Data.gov.uk[30]正式投入使用，迄今它已包含了5600多个来自各政府部内的数据集，涉及健康、交通、环保、社区、商务、教育等众多领域。该网络开放平台由\"万维网之父”TimBerners-Lee和南安普顿大学 Nigel Shadbolt教授负责创立，由于在数据组织方面使用了高效的国际标准和恰当的技术 (如RDF格式、URI、SPARQL查询语言、关联数据API等，因此其数据的交互、关联、有效性得到了较好的实现,与Data.Gov相比，大有后来居上之势。新上任的首相卡梅伦提出了一种新的“数据权”(Right to Data 概念,指出这是信息社会一项基本的公民权利，承诺要继续在全社会推向深入并使之制度化；5月25日，英国女王在新一届议会发表演讲，也强调要全面保障公众的\"数据权”。此外，“开放政府数据\"还成为卡梅伦政府\"大社会”(big society施政纲要、“还政于民\"社会改革的重要组成部分。"
+  },
+  "3.2非营利性组织对开放数据的推动": {
+    "context1": "众所周知，开源软件、开放存取等已证明了其巨大的经济效益和深远的社会效益，非营利性组织在促进全社会接受这些\"开放\"理念的过程中扮演了重要角色。当前的开放数据运动也得到了一些非营利性组织，如科学团体、互联网领导机构、图书馆的密切关注，它们又一次走到了开放数据实践的最前列。",
+    "context2": "()开放知识联盟(Open Knowledge Foundation,简称OKF,[31]是一家旨在推进知识开放(包括任何形式的开放内容、开放数据、开源软件服务等的非营利性组织，该组织对\"开放知识\"的定义如下：一条开放的内容或数据，任何人都可以自由使用、再使用、再分发等，而只需满足注明其出处和以相同方式共享即可。OKF的主要成果包括制定了“开放数据共享\"系列许可，如《开放数据库许可》、《公共领域的贡献与许可》等；开发了一个名为CKAN的开源软件，为数据的发布、搜索、共享提供一个中枢平台提供\"开放式文本图书”、“开放经济学”“开放莎士比亚”“开放地理数据\"等开放数据产品举办\"2010年开放政府数据营\"交流活动，来自世界各地的政府代表、学者、律师、公民等共同探讨开放政府数据过程中的法律、技术、政策问题,互相交流经验。",
+    "context3": "(自2007年起，W3C年会都设有研讨\"关联(开放)数据\"的分会场，其\"链接开放数据项目\"目标是使互联网最终成为全球性数据空间。W3C呼呼每个人、机构组织以关联数据的原则、标准开放其原始数据。为帮助政府科学、规范地开放其公共数据,2009年9月8日,W3CeGovInterest Group 公布了《开放政府数据指南》[32]文件,提供了开放政府数据的标准和方法，例如鼓励政府以XML、RDF、CSV格式发布原始数据并形成结构化数据，以在线目录、完备的文本方式组织这些数据集，采用语义、元数据、标识等技术处理数据,并用URI、RDF使之形成人和机器都可读的关联数据。",
+    "context4": "(3开放数据运动正对数字时代图书馆数据政策、数据管理的影响，图书馆将以更加开放的姿态向社会开放公共数据，例如开源站点?biblios.net采用了类似维基模式向图书馆界提供开放MARC数据的开发、创建、共享、转换服务，目前以3000万余条数据成为全球最大的免费图书馆编目数据平台[33]，德国国家图书馆[34]、大英图书馆[35]也宣布对外提供开放数据服务。其他组织,如学术与研究型图书馆联盟—SPARC，不仅是全球开放存取运动的一支重要力量，现也致力于促进科学数据的开放，倡导允许互联网上的科学数据供所有人下载、复制、分析、再加工、制成软件或其他任何目的使用而没有经济、法律或技术的障碍。2010年2月该组织发布了“潘顿原则\"[36](PantonPrinciples)支持开放数据的许可问题解决 $\\textcircled{1}$ 发布数据的时附上一个明确而稳妥的愿望声明； $\\textcircled{2}$ 使用一种适合数据的、得到认可的豁免或许可协议 $\\textcircled{3}$ 为了更有效地使用数据和方便他人添加数据，开放的数据应遵循OKF关于\"开放知识/数据\"定义，尤其是不应使用限制商业性应用等条款 $\\textcircled{4}$ 发布的科学数据使用《公共领域的贡献与许可》或者《知识共享的豁免》(Creative CommonsZerd以规避法律风险。"
+  },
+  "3.3企业对开放数据的响应": {
+    "context1": "数据是企业的极为重要的资源，是企业决策和解决方案的依据，开放网络环境下的企业普遍面临着数据的存储、组织、挖掘分析等应用问题。开放数据不仅能为企业提供与外部客户、合作伙伴即时而紧密的链接网络，对企业降低数据整合成本、充分利用外部创新环境从而提升效率和竞争力也有重要意义。下图体现了企业开放数据追求当今网络条件下最佳实践的一般理念[37]：",
+    "context2": "![](images/3a9ab08c2a349596f9cadc586bae2b28415e4df1a79cde4619d040eeb41a2ba6.jpg)",
+    "context3": "即在企业内部数据层面，通过建设面向网络的基础设施、开放API、按语义网和关联数据原则定位、组织、发布企业自身数据或相关网络数据，应用层要解决的问题主要是为外界用户通过HTTP协议等其他方式搜索这些数据提供方便,设计面向服务的系统架构 (SOA模型与外界业务伙伴、利益相关者建立新的交互渠道，由关联数据等生成综合应用与服务以及优化组织业务流程等。",
+    "context4": "作为国内最大的网络零售平台，淘宝网占据了国内C2C市场超过 $80 \\%$ 的市场份额，积累了海量的关于消费商品的购买数据和信息。2009年6月22日，淘宝开放平台(Taobao Open Platform,简称 TOP)发布,淘宝开放平台的使命是把淘宝网的商品、用户、交易、物流等一系列电子商务基础服务，像水、电、煤一样输送给有需要的商家、开发者、社区媒体和各行各业,截至2011年1月,TOP对外开放的API已超过300个,API调用量已超过6亿/日，成为国内开放规模最大，开放程度最深的开放平台[38]。2010年3月31日，淘宝网又正式宣布对外开放交易平台的海量原始数据，适合开放的数据主要有两方面涉及电子商务行业的宏观数据以及让消费者了解最新消费风向标的数据，实行免费开放策略;涉及各个行业市场情况、消费者行为研究等商业数据，通过商业方式开放[39]，淘宝数据平台致力于建立\"开放、透明、分享、责任\"的新商业文明生态圈，成为分享数据的第一平台，这无疑有益于缓解电子商务市场信息不对称矛盾，为企业和消费者决策提供帮助。"
+  },
+  "4结语": {
+    "context1": "开放数据作为一种理念已得到了广泛的认同，在政府、互联网、图书馆等领域的信息组织中的实践已证明了其广阔的应用空间。开放数据的未来增值潜力在于它能成为语义网环境下关联数据组织的数据对象，即关联开放数据的组织会逐渐成为重点，开放数据的终极愿景是：与语义网等新兴技术结合形成全球性的Web数据网络、信息空间。"
+  },
+  "参考文献：": {
+    "context1": "[1] Tim Berners -Lee.Digital Future of the United States : Part I—The Future of the World Wide Web [EB/OL] [2011-03-15].http /dig.csail.mit.edu/2007/03/01-ushou se-future-of-the-web.html.   \n[2] Open Data Center Alliance.Defining a New Class of Data Center and Cloud Infrastructure Solutions[EB/OL]. [2011-03-15].htp //www.opendatacenteralliance.org/the -alliance.   \n[3] SPARC. Open Data [EB/OL] .[2011-03-15].http V/www. arl.org/sparc/opendata/.   \n[4] [10] W3C. Linking Open Data [EB/OL].[2011-03-15]. http //www.w3.org/wiki/SweoIG/TaskForces/CommunityProjects/LinkingOpenData#FAQ.   \n[5][EB/OL]．[2011 -03-15].http /en.wikipedia.org/wiki/ Open_Data.   \n[]秦健.由数字学术交流引起的思考[].图书情报工作， 2009,(16) 5-6.   \n[7] Peter Murray-Rust.Open Data in Science [] .Series Review,2008,() 52-64.   \n[]王俊杰.冲出信息孤岛,实现数字资源共享[].大学图 书馆学报,2004,(3） :16-18.   \n[]潘有能,张悦.关联数据研究与应用进展[].情报科学， 2011,() :124-130.   \n[11] World Bank.Data [EB/OL] .[2011-03-15].http /data. worldbank.org.   \n[12] New York Times.Linked Open Data(Beta)[EB/OL] . [2011-03-15] .http //data.nytimes.com/.   \n[13]熊回香.Web2.0环境下的网络信息组织[].情报资料 工作,2007,() 29-32.   \n[14] TED Talks. Tim Berners-Lee on the next Web [EB/ OL]. [2011-03-15] .htp //www.ted.com/index.php/talks /tim_berners_lee_on_the_next_web.html."
+  },
+  "[15]李佳佳.信息管理的新视角一开放数据[].情报理论与实践,2010,(10) 35-39.": {
+    "context1": "[16] OECD. Science,Technology and Innovation for the 21st Century.Meeting of the OECD Committee for Scientific and Technological Policy at Ministerial Level [EB/OL]. [2011-03 -15] .http V/www.oecd.org/document/0,2340, en_2649_34487_25998799_1_1_1_1,00.html.   \n[17] OECD. OECD Principles and Guidelines for Access to Research Data from Public Funding [EB/OL].[2011- 03-15].http //www.oecd.org/document/55/0,3343,en_ 2649_201185_38500791_1_1_1_1,00.html.   \n[18] Don Tapscott，Anthony D. Williams，Dan Herman. Government 2.O Transforming Government and Governance for the Twenty-First Century [R] .New Paradigm, 2008.   \n[19] Barack Obama. The Memorandum for the Heads of Executive Departments and Agencies on Transparency and Open Government [EB/OL].[2011-03-15] .http /www. whitehouse.gov/the_press_offce/Transparency_and_Open_ Government.   \n[20] The White House -the Administration. Open Government Initiatives[EB/OL].[2011-03-15] .http /www. whitehouse.gov/open/about/initiatives.   \n[21] The White House -the Administration. Open Government Directive[EB/OL].[2011-03-15] .http /www. whitehouse.gov/open/documents/open -government -directive.   \n[22] [EB/OL].[2011-03-15] .http //www.data.gov/.   \n[23l Denartment nf Istice The Access tn Informatinn Act 1983[EB/OL] . [2011-03-1/] .http V/laws.justice.gc.ca/ eng/A-1/20110323/page -0.html rp2 =SEARCH&rp3 $=$ SI&rp1 =information% 20&rp4 =all&rp9 =cs&rp10 = L&rp13=50#idhit1.   \n[24] Vancouver Sun.Google Earth eyes partnership with B.C. governments [EB/OL]. [2011-03-20].htp /www.canada.com/vancouversun/news/business/story.html?id=9a33 leff-ae47-4609-b7cf-3452a742c64a&.   \n[25] [EB/OL].[2011-03-20].http /ottawa.ca/opendata.   \n[26] [EB/OL].[2011-03-20].http /www.toronto.ca/open.   \n[27] [EB/OL].[2011-03-20].http //data.vancouver.ca/.   \n[28][EB/OL]．.[2011-03-20].htp /en.wikipedia.org/wiki/ Open_Data_in_Canada.   \n[29] Gordon Brown. Speech on Smarter Government [EB/ O1]. [2011-03-20] .http /webarchive.nationalarchives. gov.uk/+/number10.gov.uk/news/speeches-and -transcripts/2009/12/speech-on-smarter-government-21633.   \n[30] [EB/OL].[2011-03-20].http /data.gov.uk/.   \n[31] [EB/OL].[2011-03-20].http /okfn.org/.   \n[32] [EB/O1].[2011-03-20].http /www.w3.org/TR/gov-data/.   \n[33] EB/OL].[2011-03-21].http/biblios.net/faq.   \n[34] German National Library.Linked data service of the German National Library [EB/OL].[2011-03-21].http： //www.d-nb.de/eng/hilfe/service/linked_data_service.htm.   \n[35] The British Library.Free data service [EB/OL].[2011-03- 21].http //www.bl.uk/bibliographic/datafree.html.   \n[36] [EB/OL]. [2011-03-21] .htp /pantonprinciples.org/.   \n[37] Widgett. The future of enterprise data ina radically open and Web-based world[EB/OL].[2011-03-22] http //www.widgetti.com/wordpress/?p=38.   \n[38]淘宝网开放平台 [EB/O1]. [2011-03-22]http /my.open. taobao.com/about_top.htm.   \n[39]淘宝数据平台 [EB/OL].[2011-03-22] http /blog.shuju.taobao.com/archives/416."
+  }
+}

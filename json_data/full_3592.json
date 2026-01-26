@@ -1,0 +1,54 @@
+{
+  "original_filename": "full_3592.md",
+  "国外泛在图书馆理论与实践研究进展": {
+    "context1": "郑永田",
+    "context2": "（华南师范大学图书馆广州510006）",
+    "context3": "文摘泛在图书馆是描绘图书馆的现在和未来的一个非常贴切的专业术语。本文在分析国外有关泛在图书馆研究文献的基础上,概括泛在图书馆的相关定义，归纳泛在图书馆的主要特征,剖析泛在图书馆的软件架构,阐释构建泛在图书馆的技术解决方案,并列举LG上南图书馆、Google图书馆计划、内容开放联盟(OCA)等几个国外泛在图书馆的成功案例，以为国内泛在图书馆理论与实践研究提供必要的参考。",
+    "context4": "关键词泛在图书馆网络信息存取信息利用信息构建"
+  },
+  "On the Ubiquitous Library Abroad: Theory and Practice": {
+    "context1": "Zheng Yongtian（Library of South China Normal University，Guangzhou 510006）",
+    "context2": "Abstract:The Ubiquitous library is an appropriate professional term describing the present and future libraries.Based on the analysis on ubiquitous library research abroad，the paper summarizes the notion of the ubiquitous library，analyzes the main characteristics of ubiquitous library，dissects the software architecture of the ubiquitous library,explains the technical solutions for the ubiquitous library，and finally enumerates several successful solutions of global ubiquitous libraries such as LG Sangnam Library，Google Library Project and Open Content Alliance in order to provide necessary references for the ubiquitous library research in China.",
+    "context3": "Key words: Ubiquitous library，Network,Information access， Information utilization，Information architecture",
+    "context4": "许多年以前，人们就梦想能够拥有一个随时随地都可利用的泛在图书馆。1计算机技术、网络技术、通讯技术等尖端技术和新兴技术的飞速发展为图书馆提供了传递数字信息和服务的新方式，2]使泛在图书馆这个梦想的实现变成了可能。2006年8月，第72届国际图联大会在首尔举行，泛在图书馆成为国际图联科学和技术图书馆委员会征文的主题，泛在图书馆理论以及泛在技术在图书馆的应用实践成为国际图书馆学、信息学界研究的热点。3本文旨在介绍国外在泛在图书馆概念、特征、构建方法等方面的理论研究进展，并列举数个国外泛在图书馆构建的成功案例，以期起到抛砖引玉的作用，吸引更多的图书情报工作者和专家学者参与泛在图书馆",
+    "context5": "理论和实践的研究。"
+  },
+  "1泛在图书馆的概念": {
+    "context1": "“Ubiquitous”（泛在）一词来源于拉丁文“Ubique\"（到处，处处），简明牛津英语词典网络版解释其为“处处呈现、出现或被发现\"之意。4目前，国外图书馆学情报学领域还没有建立一个清晰的“泛在图书馆”概念体系。许多学者试图从各个角度去阐释这个新的词汇。1999年，MichaelKeller用“泛在图书馆\"这一词来描述对重要内容的网络检索；[5]2003年韩国学者李恩奉（Lee EungBong）认为，泛在图书馆是用户能应用信息设备随时随地获得所需信息的数字图书馆，并且能够通过集成的有线或无线宽带网迅速提供相关信息。同年12月，由Charless B.Lowry博士领导的团队直接将“泛在图书馆\"作为马里兰大学图书馆未来五年发展的新导向,使\"泛在图书馆\"这一术语在校园里得到广泛传播。72005年,澳大利亚蒙纳士大学信息技术网发布了一个“泛在图书馆”的研发计划,使用户能在Caulfield图书馆的任何角落检索和返回各种文献。[8]",
+    "context2": "在这里特别值得关注的是马里兰大学的CharlessB.Lowry博士，他于2005年专门撰文理清“泛在图书馆\"的概念,指出“泛在图书馆”是一个比虚拟图书馆、数字图书馆、电子图书馆更加贴切的定义未来图书馆的专业术语,并且强调拥有这样一个具有特殊意义、能够与时俱进、若不过分使用则显亲近的术语去描绘图书馆的现在和未来是非常重要的。9]“泛在”一词的使用传达这样一个讯息：今天的先进技术如数字服务以及无线技术正在把传统图书馆变成所有的信息服务都能在用户的指尖敲击中得到利用的泛在图书馆。[10]"
+  },
+  "2泛在图书馆的特征": {
+    "context1": "从20世纪90年代以来，网络已经成为人们检索、存储、传递和利用信息资源的重要平台。而图书馆则从进入基于网络的数字化信息传递的时候开始,就已经成为这场变革的前沿阵地。当今日益发展的数字图书馆技术、无线网络技术以及与之相关的网络互联协议已经共同造就了“泛在图书馆”。泛在图书馆服务将在用户的指尖处触手可及。享受无缝的、动态的和交互性的信息资源和服务，对于泛在图书馆用户来说，只要轻轻一点，就可以轻松实现。",
+    "context2": "从泛在图书馆的传递和利用方式我们可以看出,网络是未来泛在图书馆发展的基本平台。乔治亚州南方大学图书馆的LiliLi提出了数字时代泛在图书馆的六个特征：[2]",
+    "context3": "$\\textcircled{1}$ 网络化。泛在图书馆信息资源和服务以网络为传播媒介，离开了网络，泛在图书馆的功能将无从实现。",
+    "context4": "$\\textcircled{2}$ 全天侯。泛在图书馆不受时空的限制，每天24小时不间断向用户提供服务，用户可以随时随地随心所欲地获取自己想要的信息资源和服务。",
+    "context5": "$\\textcircled{3}$ 开放性。开放性是泛在图书馆的一个重要属性。泛在图书馆除了为特定用户提供受密码保护的信息资源、服务和教育外，也对全球用户开放其信息资源特别是学术性信息资源。",
+    "context6": "$\\textcircled{4}$ 多格式。泛在图书馆通过网络不间断地、无缝地向用户实时传递TXT、JPG、WAV、RM、PPT、PDF、HTML等格式的信息资源，满足不同种类、层次用户的信息需求。",
+    "context7": "$\\textcircled{5}$ 多语种。泛在图书馆致力于为不同国家和地区、具有不同文化背景的用户提供各具特色的多语种服务，以促进不同文化和语言背景的用户自由利用泛在图书馆信息和服务的权利。",
+    "context8": "$\\textcircled{6}$ 全球化。泛在图书馆为全世界不同年龄、性别、肤色、种族、宗教、语言能力、信息技能和信息素养的用户提供各种信息和服务，成为全球性的信息服务提供者,保障全球用户平等利用泛在图书馆信息和服务的权利。",
+    "context9": "与此同时,泛在图书馆还有许多与我们传递信息和馆员参与教学和科研相关的特征，这些特征主要包括：[7.9]学术检索(学术信息日益增长的优势将使其在网上可以获得全文检索)；资源整序(泛在图书馆信息应用程序将为用户提供经许可的资源和网络免费资源，以使用户能够将这些杂乱无序的资源整合、序化)；专家咨询(通过网络参考咨询服务可与学科专家馆员取得联系）；馆员作用（馆员的作用尤其是在信息素养的培养和构建同步和异步学习能力方面引人注目);设备更新(旧的设备需要加大关注的力度，一些设备需要更换或重新设计以适应泛在图书馆新技术发展的要求);复本存取(图书馆将创建能够减少低使用率资料的复本的合作，同时通过国家和地方的呈缴本制度维持“最终复本”的存取);机构合作(本地和地区为共享资源的合作、利用和网络将在未来发生最大的作用);数图项目（数字图书馆将提供独一无二的特色馆藏,并将使离线检索成为可能。一些数字化的努力将瞄准保护现有公共领域免遭商业利益的侵蚀);领导地位(图书馆将通过计划、数字仓库、数字档案等方式提升高校教师学术成果的检索，占据机构领导地位)。这些特征都已被\"泛在图书馆”这一词汇很好地概括。"
+  },
+  "3基于网络的泛在图书馆的软件架构": {
+    "context1": "泛在图书馆是一种分布式的图书馆。泛在图书馆由图书馆信息系统（LIS）、外围图书馆信息系统（PLIS）和智能设备（Smart Device）三个组件构成。[1]LIS 和PLIS 通过无线局域网联接。PLIS 和智能设备之间的通讯也是基于无线局域网。与成员馆联系的移动用户相互作用形成自组织分组无线网络（Adhocnetworks）。这个项目由软件架构和网络模拟器两部分实现。",
+    "context2": "软件架构已经用 Sockets 技术在一个Linux平台上得到实现。Sockets 技术使建立移动设备、智能设备和服务器之间的联接成为可能。这种不同实体之间的信息交换在局域网中得到检测。因智能设备和移动设备同时进行信息检索而引起的问题也用旗语（Semaphores）得到解决。由于移动设备和服务器之间的信息交换需要得到安全保障，RSA加密算法应运而生。",
+    "context3": "现实中的泛在图书馆将在一个无线网络中运作。新的Adhoc路由协议是一个被选择用来实现泛在图书馆的协议。Adhoc作为一个简单的路由选择协议，将有效而易于执行，最终实现泛在图书馆的功能。"
+  },
+  "4构建泛在图书馆的技术解决方案": {
+    "context1": "泛在图书馆技术解决方案涵盖计算机技术、网络技术、通讯技术、人工智能技术、数据库技术等尖端技术和新兴技术，如超带宽无线网络（UltraBandWireless Network）、数字通讯（Digital Communica-tion）、语音识别（VoiceRecognition）、语音网络传送（Voice Over Internet）、人工智能（Human-Intel-legence）、机器翻译（Machine-Translation）、关系型数据库管理系统（ORDBMS）、DOM、IPv6、WiMax、XML等等。在寻求最好的泛在图书馆技术解决方案的过程中，应该遵循特殊的用户需求、基于网络的分布式图书馆信息架构和配额资金支持。因为最好的技术是相对的，是以用户需求、网络架构和运行预算为基础的。技术解决方案仅仅是达到目的的手段。用最好的技术解决方案和最低的运行成本去追求最终用户满意度是泛在图书馆建设者们的使命。（21",
+    "context2": "目前，在构建泛在图书馆方面，主要有三种比较切实可行的方法可资利用：（1)自建。利用当今成熟的计算机技术、网络技术、通讯技术、数字化技术、存储技术等等来自行建立基于网络的分布式泛在图书馆信息系统。许多图书馆已经应用这种方法来建设和发展它们的信息应用和服务软件。但是这种方法受技术、资金、人才等条件的限制，投资多，见效慢。(2)购买。购买全球领先的技术、设备和资源供应商的先进泛在图书馆技术解决方案。如采购图书馆集成管理系统、数字图书馆、数据库和其它电子设备来建设分布式泛在图书馆信息架构。对于一般的图书馆来说，这是一种比较方便、快捷、高效的建设方式，缺点是需要花费巨额的资金。（3)合作。与产业巨头合作设计和开发技术先进的泛在图书馆是学术图书馆和国家图书馆的最佳选择。学术图书馆和国家图书馆可以利用它们丰富的馆藏资料、声像记录、原始手稿、地图照片，而IT产业巨头可以利用它们雄厚的资金、技术和力量来设计和建造技术最先进的泛在图书馆系统，达到资源和技术的完美结合。",
+    "context3": "无论是哪种图书馆，在选择最佳方案来建设泛在图书馆之前，都应当充分考虑自身的人力、物力、财力等特点，考虑用户的需求、网络的架构和可支配的运行资金，力争最大的投入产出比，获取最优的经济效益和社会效益。"
+  },
+  "5泛在图书馆举要": {
+    "context1": "自从泛在图书馆理念提出以来，世界上许多组织和机构,尤其是实力雄厚的IT产业巨头、网络搜索服务提供商和数据库提供商积极探索和开展泛在图书馆计划,并在泛在图书馆建设方面取得了许多显著的成绩，积累了许多宝贵的经验。",
+    "context2": "LG上南图书馆。LG上南图书馆始建于1996年4月，是韩国的第一个数字图书馆,它的使命是在数字时代承担挑战和革新。LG上南图书馆践行真正的泛在图书馆理念，于2005年开始了一项新的旨在发展面向未来的图书馆模式的计划一—“LG数字有声读物图书馆”（LGDigital TalkingBook Librar-y)这是一个为无法阅读印本资料的人包括盲人和残障者而设计的泛在图书馆。它通过基于NFC(近距离通讯)技术设计的移动电话就能够利用图书馆系统和信息服务而不需要复杂的联接程序和用户认证。这个模型由三个通信定义表组成。第一个通信定义表提供一个基于网络的数字有声读物。一个拥有NFC移动电话的用户只要触摸与一台计算机联接的Dongle（一种小型的与计算机连接以鉴别某款软件的硬件设备)并且使计算机执行NFC和蓝牙通讯。第二个通信定义表使用通过移动电话的网络链接。第三个通信定义表使用声音设备通过电话来获取图书馆服务。LG上南图书馆为用户提供实时数字有声读物，利用泛在技术为无法阅读印本资料的人创造舒适的信息环境。于2006年4月完成的\"LG数字有声读物图书馆\"项目在社会产生了广泛的影响，取得了巨大的社会效率。",
+    "context3": "Google图书馆计划。2004年12月，Google发起Google图书馆计划，至2007年3月，Google图书馆计划的合作伙伴已经达到了13个，包括德国巴伐利亚州图书馆、普林斯顿大学、加州大学、西班牙加泰罗尼亚国立图书馆、西班牙马德里大学、哈佛大学、密执根大学、纽约公共图书馆、英国牛津大学、斯坦福大学、德克萨斯大学、弗吉尼亚大学、威斯康星大学。[12]Google图书馆计划是Google向全球出版发行产业投下的一枚重型炸弹,是21世纪世界泛在图书馆最具野心的计划。Google图书馆计划的目标是使人们更加容易地找到相关图书,尤其是他们在其它地方已经找不到的不再出版的图书，同时认真尊重著者和出版商的版权。Google的最终目标是与出版商和图书馆一起创建一个全面的、可检索的所有语种图书的增强型虚拟卡片目录，[13]其计划扫描的1500多万册图书的数字化书目或全文都可以在“Google图书搜索”[14]里找到。Google图书馆将为全球公众信息素质的提高做出巨大的贡献，并将对著者、用户、版权、知识产权保护、出版发行、馆员、泛在图书馆等等产生重大而深远的影响。",
+    "context4": "开放内容联盟（Open Content Alliance）。许多大学和图书馆都制订了馆藏数字化的计划，但进展较慢,Google图书馆计划的开展刺激了许多组织团结起来。为了抗衡Google图书馆计划,打破其数字资源服务的垄断地位,由世界各地文化、技术、非营利机构、政府机构组成的“内容开放联盟”诞生，它的目的是通过建立一个多语种的数字化文本和多媒体内容的永久性档案来提供丰富的世界文化全景的广泛、公共检索。由Yahoo、微软、Adobe、惠普实验室、波斯顿图书馆联盟、加州大学、英国哥伦比亚大学、欧洲档案馆等42个机构捐助服务、设施、工具、资金等成立的\"开放内容联盟”，以建立一个全球内容开放获取的数字档案馆为己任。15]OCA创建一个用于对图书、照片、视频进行数字化和存储的通用框架的支持,并且正在研究如何使其数字图书馆计划不会受到出版商的起诉。通过创建一个日益增长的数字资源档案,OCA将为其捐助者和全球因特网用户提供内容丰富的泛在图书馆信息和服务。"
+  },
+  "6结论": {
+    "context1": "在泛在技术高度发展的今天，虽然泛在图书馆的概念在人们的头脑中还比较模糊，但泛在图书馆的存在已经是不争的事实。泛在图书馆以其独特的优势和魅力通过网络为全球用户提供丰富的信息资源的检索、存储、传递和利用等各种服务，极大地提高了人类的信息素养，推动了人类知识和信息的公开、公平和公正获取的进程。因此,泛在图书馆的意义不仅在于它的存在本身，而在于它彻底地改变了人类知识和信息的组织和利用方式，成为知识和信息社会的动力引擎。"
+  },
+  "参考文献": {
+    "context1": "1Neal Kaske.The Ubiquitous Library is Here.Library and the Academy,2004,4(2):291-297   \n2Lili Li.Building the Ubiquitous Library in the 21st Century.[2007-3-21]ttp://www.ifla.org/IV/ifla72/papers/140 -Li - en. pdf   \n3IFLA section for Science and Technology Libraries.Call for Papers.[2007-4-16] htp://www.ifla.org/IV/ifla72/ call -2006-stl-e. htm   \n4The Compact Oxford English Dictionary.[2007-4-16] http://www.askoxford.com/results/?view $\\mathbf { \\eqcirc }$ dev_ dict&field-12668446 $\\simeq$ ubiquitous&branch $\\approx$ 13842570&textsearchtype $=$ exact&sortorder $\\asymp$ score% 2Cname   \n5Tia OBrien．You Thought Library were Dull.[2007 -4- 16]http://www. stanfordalumni. org/news/magazine/ 1999/sepoct/articles/keller. html   \n6Kyung-Jae Bae,etc.The Ubiquitous Library for the Blind and Physically Handicapped-A Case Study of the LG Sangnam Library,Korea.[2007-3-21]http:/www.ifla.org/IV/ifla72/papers/140 - Bae -en. pdf   \n7Charless B.Lowry. The Ubiquitous Library:University of MarylandLibrary in the NextFive Years New Directions $\\pmb { \\& }$ Continuing Legacy. $[ 2 0 0 7 - 3 - 2 1 ] \\mathrm { \\ h t t p { : } / / w w w }$ lib. umd.edu/dean8/ublibreport. pdf   \n8R&D Projects - CoolPlaces.[2007 -4-16]http:// www.infotech.monash.edu.au/promotion/coolcampus/rdprojects-coolplaces. html   \n9Charless B.Lowry.Lets Call It the“Ubiquitous Library” instead.Library and the Academy,2005,5(3):293-296   \n10Science and Technology Library Section Open Sessin. IFLA Journal,2005,31(4):381-381   \n11Software Architecturefor Ubiquitous Library（Final Year B.E Project).[2007-3-21]http://www.cs.iastate. edu/\\~shetty/doc/quick_abs_ubi.pdf   \n12Go0gle Library Partners[2007-4 -18]htp://books, google.com/googlebooks/partners. html   \n13 Google Library Project.[2007-4-18]htp://books. google.com/googleprint/library.html   \n14 Google book search.[2007-4-18]http://books. google.com/   \n15 OCA Contributors.[2007-4-18]ttp://www.opencontentalliance.org/contributors. html",
+    "context2": "郑永田硕士研究生。（收稿日期：2007-05-24编发：王宗义）"
+  }
+}

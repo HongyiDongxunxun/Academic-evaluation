@@ -1,0 +1,97 @@
+{
+  "original_filename": "full_5701.md",
+  "我国光盘业的现状与前景": "",
+  "戚其秀": {
+    "context1": "（中国科技信息研究所）"
+  },
+  "摘 要": {
+    "context1": "本文回顾了我国光盘业的发展历程。根据国外光盘技术的发展现状，提出了我国发展光盘技术的几点对策，并对我国发展光盘产业的模式进行了初步探讨。"
+  },
+  "1历史的回顾": {
+    "context1": "我国光盘技术研究工作始于70年代末，较国外晚十几年。70年代末上海激光技术研究所开展了“光盘存储技术研究”课题，1985年研究成功中国第一套光盘录放系统。1984年，上海无线电二厂研制出激光视盘放像机样机。“七五”期间，中国科学院上海冶金所等9个单位联合研制出5.25英寸的磁光型可擦重写光盘，其容量为652MB。机电部杭州52所研制出ZPG一1型5.25英寸磁光光盘驱动器。北京航空航天大学研制出8英寸相变型直接改写光盘40片。其中包括数据盘，双面容量1280MB，用作计算机外部设备；录像盘，单面存储28125幅图像。盘片可擦重写次数：静态100万次，动态20万次。清华大学研制出配套的8英寸相变光盘驱动器。1991年分别通过了鉴定[1]。但至今还未商品化。",
+    "context2": "深圳先科激光电视有限总公司1991年10月投产，目前可生产LV（视盘）、CD（声盘）和CD-ROM，并开发出中国药典CD-ROM产品。北京金盘公司今年内开发出5种CD-ROM产品。",
+    "context3": "1986年，国家海洋局情报所首家引进国外CD-ROM数据库以来，CD-ROM用户逐年增多，1992年初达200多户。由表1看出，CD-ROM数据库种类的增长速度小于驱动器拥有量的增长[2-5]。",
+    "context4": "表1我国引进CD-ROM数据库种类量及驱动器拥有量",
+    "context5": "<table><tr><td rowspan=1 colspan=1>年份项目</td><td rowspan=1 colspan=1>1986</td><td rowspan=1 colspan=1>1987</td><td rowspan=1 colspan=1>1988</td><td rowspan=1 colspan=1>1989</td><td rowspan=1 colspan=2>1990       1991</td><td rowspan=1 colspan=1>1992</td></tr><tr><td rowspan=1 colspan=1>数据库种类（种）</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>60余</td><td rowspan=1 colspan=1>近100</td></tr><tr><td rowspan=1 colspan=1>驱动器拥有量（台）</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>78</td><td rowspan=1 colspan=1>116</td><td rowspan=1 colspan=1>200~300</td><td rowspan=1 colspan=1>600余</td></tr></table>",
+    "context6": "WORM光盘在我国的应用主要是5.25英寸和12英寸两种规格，前者居多。其主要应用于文本数据存储；大容量的图象存储；建立数据库；建立文件存储与检索系统等等。1990年，交通部情报所在WORM系统上建立了三个数据库。1991年北京图书馆引进了光盘文件存储与检索系统，它是建立在用户一服务器概念和结构基础上，具有汉字功能的局域网系统。目前正在建立宋元善本光盘存储检索系统[7-8)。",
+    "context7": "可擦重写光盘主要是5.25英寸规格。1991年全国销售近200台。主要用于存储计算机制作动画的大量画面及数字地图、医学图象、遥感卫星图片、气象云图等图象处理领域中，以及局域网服务器上的共享设备(9]。",
+    "context8": "以上回顾了我国光盘的研究与应用情况。目前，我国已具备了儿种光盘的开发与生产能力。今后在光盘技术与光盘产业方面如何发展，我提出一些个人见解。"
+  },
+  "2光盘技术的发展策略": "",
+  "2.1发展光盘网络，提高CD-ROM数据库利用率": {
+    "context1": "目前，CD-ROM数据库租赁价格还比较高，每个用户购买多种数据库为已所用很不经济。我国用户绝大部分单位均采用单机服务。光盘网络技术可以使光盘驱动器和数据库资源.得到集中管理，所有的网络用户可以方便地共享光盘数据库和设备资源。近几年光盘网络技术在国外开始发展，CD-ROM网络主要是局域网，同时开始了广域网的试验。国内清华大学采用LAN在校园内建立了CD-ROM光盘网络。",
+    "context2": "（1）局域网（LAN）",
+    "context3": "CD-ROM局域网主要有两种方式，即文件服务器方式和点对点服务方式。它们的区别在于CD-ROM驱动器的连接及共用CD-ROM驱动器所使用的软件类型不同。",
+    "context4": "$\\textcircled{1}$ 文件服务器方式[10-12]",
+    "context5": "这种方式是将所有的CD-ROM驱动器连接到一台或多台称为服务器的中心计算机上。服务器的软件专门用来共享CD-ROM驱动器。文件服务器是CD-ROM网的核心,其功能包括：文件共享管理；系统安全管理；工作站点对点通信协调管理：；外部设备（打印机、磁盘机等）共享管理；自身内部工作控制管理；在多服务器网络中，协调自身和服务器相关动作等。综合文件服务器包括光盘服务器。",
+    "context6": "CD-ROMLAN操作系统提供一个称为“虚拟文件系统”（“virtual file system”）的功能层，可以使联网的CD-ROM驱动器连接到当地的每台工作站上，共享CD-ROM。光盘网软件允许用户通过LAN同时访问多个光盘驱动器。管理人员通过系统中的管理软件包，从显示屏上了解各工作站检索情况，各CD-ROM数据库利用率，并可统计用户上机时间及机时费。",
+    "context7": "$\\textcircled{2}$ 点对点方式[10]",
+    "context8": "这种方式中，所有的CD-ROM驱动器连接到一台或多台工作站上。网上所有其他工作站可以通过CD-ROM共同软件，检索这些工作站上连接的CD-ROM驱动器。工作站上的用户不知道网上别的用户正共享着本地的CD-ROM驱动器。如果一个用户取出他驱动器上的盘片，那么网上所有用户将不能再检索该盘，正在检索的用户也被中断。",
+    "context9": "以上所述的CD-ROM光盘局域网的两种方式中，在性能、可靠性和稳定性方面，文件服务器方式都优于点对点方式。我国应发展文件服务器方式。",
+    "context10": "（2）广域网（WAN）(10]",
+    "context11": "国外许多机构都装有WAN，使用着TCP/IP（Transport Control Protocal/Inter-nal Protocal）的网络协议。WAN通过Token RingLAN或Ethernet链接CD-ROM驱动器和工作站。波士顿和伦敦的银盘公司电子参考图书馆进行了WAN试验，1992年达适用阶段。我国可在装有WAN的地区进行小规模试验。"
+  },
+  "2.2高起点研究，以研究成果的转化来促进产业的发展": {
+    "context1": "国外光盘技术研究进展迅速，其发展趋势是：增大存储容量；提高驱动器的性能和缩短存取时间。我国应从高起点开始研究。",
+    "context2": "（1）提高光盘存密度，增加不同规格光盘的研究",
+    "context3": "国外，光盘存储密度约每2.5年增长一倍。我国“七五”期间研制的5.25英寸MO光盘密度相当于国外80年代末的水平。而如今日本的Panasonic的LM-D702W盘片达1GB。美国正研究3GB的盘片和驱动器。14英寸的MO盘每面超过5GB。为NASA研制中的多通道航天光盘记录装置（SODR）是一个具有20GB容量的二光盘系统(13>。国外，3.5英寸的光盘成为“可装入口袋计算机”的存储器[。",
+    "context4": "我国在5.25英寸光盘研究的基础上，研究提高存储密度的同时，应增加12英寸、14英寸大规格的光盘研究。为配合计算机小型化的发展趋势，增加3.5英寸以下规格光盘的研究。",
+    "context5": "（2）提高驱动器的性能",
+    "context6": "国外已研制出5.25英寸、 $2 . 2 \\mathrm { M b } / s$ 数据传输率，存储密度每面600MB的直接改写型MO光盘驱动器(。1990年，Ricoh开始销售新型的5.25英寸多功能驱动器，RO-5042D能兼容磁光、染料/聚合物一次写两种光盘[1]。日本的Panasonic的LF-7010可用于直接改写、可重写盘的多功能相变光盘驱动器系统，还可与LF-7014WORM光盘兼容。",
+    "context7": "我国研制的5.25英寸MO和8英寸的相变光盘驱动器均是单功能的。因此，我国在光盘驱动器研究方面，除提高单机性能外，应向多功能方向发展。",
+    "context8": "（3）加强新型光头研究，以缩短存取时间",
+    "context9": "光头研究一直是光盘技术研究领域中最为活跃的一个分支。光盘技术发展初期，采用整体光头，其重量约100克，大大影响了光盘信息存取速度。分离式光盘，移动部分仅有 $5 \\mathord { \\sim } 6$ 克重。 $8 6 \\mathtt { m m }$ 直径的MO光盘驱动器采用这种光头和伺服系统，平均查找时间小于 $2 0 \\mathrm { m } s$ ，3600转/分的光盘旋转速度下，数据传输率达 $9 . 2 \\sim 1 5 . 5 \\mathrm { M b } / \\mathrm { s } ^ { \\mathrm { G 8 } }$ 。采用声光偏转光头，12英寸的MO光盘存取时间仅为 $\\mathrm { i } 4 \\mathbf { m } \\mathbf { s } ^ { \\mathtt { C I S } 3 }$ 。全息光元件组成的光头，除具有聚焦和跟踪误差信号检测功能外：还具有数据信号检测用的大于15分贝衰减率的分析功能。已研制出CD和MO光盘的全息光元件组合小型光头。全息光头可做到3克重。我国应组织高等院校和科学院的力量，从事先进光头的研究。",
+    "context10": "（4）积极开展多媒体研究，促进光盘技术的发展",
+    "context11": "过去由于存储载体性能的限制，原始文献只能存储文字。随着科技的发展，人们对原始文献在电子信息载体上真实再现的要求越来越强烈。多媒体技术的出现，正是情报需求深化的产物[1。现在已从书目数据库所提供的文献线索，发展到多媒体中的各种源情报，如图象、声音、文字等信息。多媒体数据库的存储要求高密度载体，光盘使多媒体系统的实现成为可能。",
+    "context12": "（5）加速研究成果的商品化，以促进光盘产业的发展",
+    "context13": "过去我们在计划经济的环境下，研究成果转化成商品的周期较长。而市场经济要求成果尽快转化。我国光盘业是从LV、CD盘的生产起家，发展到目前可以生产CD-ROM。但我国“七五”期间的可擦重写光盘的研究成果远未有商品投放市场。应积极促进转化，使我国在“八五”末，便具有LV、CD、CD-ROM、WORM、可擦重写的三大类型光盘的生产能力，以形成产业化格局。"
+  },
+  "2.3开发国产CD-ROM，以促进数据库业的发展": {
+    "context1": "光盘的高密度存储特点，使它成为数据库极好的存储载体。特别是当今，用户对情报需求的深化，对图象与声音的需求，以及对原始文献真实再现的要求，都大大促进了CD-ROM的发展。",
+    "context2": "（1）适合生产CD-ROM的数据库已诞生",
+    "context3": "表2中国CD-ROM数据库产品",
+    "context4": "<table><tr><td>序号</td><td>数据库名称</td><td></td><td>出版发行单位</td><td>发行日期</td></tr><tr><td>1</td><td>Chinese Businessi</td><td>中国工商名录，英文版</td><td>上海经济信息中心</td><td>1991.10</td></tr><tr><td>2</td><td>中国对外经济贸易 法律</td><td>国家法律、法规、部门规章、地方政策法 规，英文版</td><td>北京大学法律中心</td><td>1992.初</td></tr><tr><td>3</td><td>中文科技期刊CD- ROM光盘库</td><td>收录中文科技期刊4,339余种。1989年一- 1992年底，文献量达18万条/每年，半年更 新</td><td>中国科技信息所重1992.9 庆分所</td><td></td></tr><tr><td>4</td><td>中国专利公报</td><td>1985年以来中国专利局公布的全部发明专 利、实用新型专利、外观设计专利的著录 项目和文摘以及法律状态，年更新</td><td>中国专利文献出版1992.10 社</td><td></td></tr><tr><td>5</td><td>中国专利（CNP- TA)/文摘</td><td>1985年至今已公布的发明和实用新型专利。 包括题录与文摘，计18.3万条，中英文两</td><td>中国专利局</td><td>1992.12</td></tr><tr><td>6</td><td>能动英语</td><td>种产品，季更新 母语为汉语的图、声、文字并茂的英语学</td><td>北京金盘公司</td><td>1992.12</td></tr><tr><td>7</td><td>中国机电工业10万 企业及产品商情</td><td>习光盘，6张 包括企业名称、经济类型、企业等级、企 业法人、企业概况、产品基本情况，1989</td><td>机械工业出版社</td><td>1993.</td></tr><tr><td>8</td><td>CNPAT/图文</td><td>年至今，年更新 包括发明和实用新型的题录、文摘和主附</td><td>中国专利局</td><td>1993下半年</td></tr><tr><td>9</td><td>中华药典</td><td>图，中英文两种产品，季更新 约400MB，图文并茂，季更新</td><td>深圳先科公司</td><td>1993</td></tr><tr><td>10</td><td>东方旅游</td><td>汇集东南亚、东北亚13个国家和地区的44 个主要旅游城市的信息，图文并茂，中英</td><td>北京金盘公司</td><td>1993</td></tr><tr><td>11</td><td>邮票上的中国</td><td>文对照 搜集自清朝海关大龙邮票至1992年底中国 大陆出版的1476套邮票，近万枚。包括中</td><td>北京金盘公司</td><td>1993</td></tr><tr><td>12</td><td>中国城市</td><td>英文对照历史背景、票面图案说明。 包括50个旅游城市风光，中英文双语</td><td></td><td></td></tr><tr><td>13</td><td>1992年人民日报</td><td>全文</td><td>北京金盘公司 北京金盘公司</td><td>1993 1993</td></tr><tr><td>14</td><td>中国企业、公司及</td><td>收录8万条记录，约80MB</td><td>中国科技信息所</td><td>1993.6</td></tr><tr><td>15</td><td>产品数据库 中国化学文献数据 库</td><td></td><td>中科院上海有机所</td><td>1993.4</td></tr></table>",
+    "context5": "我国数据库的建设始于1984年，经历了9年的发展历程。1991年底，在国家科委科技信息司登记注册的各类数据库共有806个。其中中文库约700多个。超过30万条记录的有84个，10-—30万条的32个，5万一10万29个，1万—5万158个(19]。目前已有近100个的数据量具备生产CD-ROM数据库的条件。",
+    "context6": "（2）目前CD-ROM品种虽不多，但品位高",
+    "context7": "国外CD-ROM的发展是从文献型数据库开始的,1985年出现第一个CD-ROM产品。1987年CD-ROM全文数据库仅占 $10 \\%$ ，书目与文摘等占 $90 \\% \\%$ 。图、声、文字一体化产品近几年才出现，而我国刚刚起步的CD-ROM数据库中，书目与文摘仅占 $2 6 . 7 \\%$ ，全文及图、声、文字并茂等数据库却占 $7 3 . 3 \\%$ （参见表2）。这说明我国CD-ROM数据库的品位高，我国光盘业有了良好的开端。‘"
+  },
+  "3发展光盘产业模式的探讨": {
+    "context1": "以CD-ROM为例，谈我国光盘产业的发展。组织生产CD-ROM光盘需要几个环节：数据源提供；出版发行；CD-ROM制作及其软件的开发。",
+    "context2": "我国现有LV生产线、CD和CD-ROM生产线数条。深圳先科公司于1991年10正式投产。每年可生产CD盘500万张，LV盘150万张，CD放送机和CDV放送机各5万台。1993年4月开始生产CD-ROM。上海联合光盘有限公司和珠海华声公司等均引进了CD盘压制生产线。",
+    "context3": "我国CD-ROM驱动器拥有量已达600多台。我国潜在市场很大。全国有高等院校1075所，高校图书馆拥有微机800余台。全国中学9万所，小学70万所，它们是教学用CD-ROM和CD-I光盘的广大潜在用户。独立情报机构414个。全国公共图书馆2643个。科研机构与设计院约有7500个。因此说，我国CD-ROM的潜在市场很大。",
+    "context4": "我国光盘产业才刚刚起步，采取产业化模式规划与发展，将有利于光盘业的发展。下面从产业化观点出发，谈几点个人看法。",
+    "context5": "（1）数据库生产社会化",
+    "context6": "我国数据库的发展有近10年的历史。以往数据库的生产是个体、分散加工方式，没有形成社会化，大大影响了数据库的发展。数据库的销售多半局限于本系统小规模内。在改革开放、市场经济不断发展的形势下，信息需求必将不断扩大，与目前数据库的生产方式不相适应。",
+    "context7": "建议国家科委信息司将全国较有实力的情报机构组织起来，成立联合公司或集团公司。该公司以集资方式筹集资金，以市场需求为导向，以社会化方式组织数据库的生产与销售，逐步走向产业化。该公司委托光盘出版发行公司加工CD-ROM产品。"
+  },
+  "（2）光盘的出版发行由独立机构经营": {
+    "context1": "目前，我国CD-ROM的出版发行工作还未形成完整的独立体系，依附于图书的进出口机构内。中国科技信息研究所是国家的情报机构，与国内外情报界有着密切的联系，并形成了广泛的协作网，利用这种地位与优势成立光盘的出版发行公司是可行的。公司业务范围包括： $\\textcircled{1}$ 组织数据源生产CD-ROM； $\\textcircled{2}$ 开发光盘产品； $\\textcircled{3}$ 小批量加工CD-ROM和样盘； $\\textcircled{4}$ 建立销售网与租赁网； $\\textcircled{5}$ 制定价格体系； $\\textcircled{6}$ 售后服务。",
+    "context2": "从业务范围及在CD-ROM生产的几个环节中所处的地位来看,该公司是个承前启后的核心公司，它将光盘生产的几个环节密切地联系在起。",
+    "context3": "该公司可以采取与国外合资方式，一方面解决资金不足，另一方面对外联系也有了便利条件。通过合资公司，在海外建立我国的CD-ROM产品市场；还可以吸引国外客户来我国加工制作CD-ROM,提高我国生产设备的利用率，促进我国光盘产业的发展。",
+    "context4": "（3）建立与健全光盘生产协作网，形成我国光盘业配套生产",
+    "context5": "深圳先科公司的生产设备配套，技术力量较雄厚。全国应以先科公司为骨干企业，加强全行业合作，取长补短，在国内形成配套生产。先科公司应进行技术改造，设备更新换代，加强经营管理，提高产品质量，加强与其他公司的协作，同各公司携手向国内外提供光盘制作的优质服务。把在国外加工CD-ROM的客户吸引回来，并努力吸引国外客户来我国生产光盘。只有依靠全行业的努力，才能使产品的性能价格比在世界上具有竞争力，方能促进我国光盘产业的发展。",
+    "context6": "（4）充实与加强光盘软件的开发能力",
+    "context7": "目前，国内CD-ROM软件的开发多半是加工CD-ROM的客户自行开发，或者委托国外软件公司开发。国内还没有形成一支专门开发光盘各种软件的队伍。随着CD-ROM产品的不断增多，其他种光盘用户的不断增加，对光盘软件的需求会逐渐增多、因此，现在应蕴酿成立独立的光盘软件公司。在此过渡时期，现有软件公司兼顾光盘软件的开发。",
+    "context8": "综上所述，我国光盘业的发展刚刚起步。目前，CD-ROM的产品虽然很少，但品位较高，光盘产业有了良好的开端。我阀光盘的制作公司已初具规模。但从产业化模式米看，我国光盘产业结构还不健全。应积极筹备成立数据库联合公司、光盘出版发行公司和软件公司，以利于光盘产业的健康发展。“八五”期间搞好研制光盘的商品化工作，逐步形成WOR M和可擦光盘的小批量生产能力。"
+  },
+  "参考文献": {
+    "context1": "[1]戚其秀等：情报科学技术进展研究，中国科技信息研究所软科学研究项目，1993年3月   \n[2]戚其秀：CD-ROM与我国的图书情报事业，《情报学报》，1991，10（5）， $3 7 5 { \\sim } 3 8 0$   \n[3] Qi Qixiu: CD-ROMs and Their Application in China's Librarianship and Information Undertakings, The 3rd Beijing International Symposium on Computerized Information Management，14-18 October，1991,ISTIC,Beijing，PRC   \n[4] Qi Qixiu: CD-ROMs and Their Application in China, Asian Libraries, 1992, 2（1）, $5 4 \\sim 6 0$   \n[5] Qi Qixiu: The Present Conditions of the Applications and Development of Optical Disk in China, The ${ \\mathfrak { g } } { \\mathfrak { 0 } } ^ { \\prime } { \\mathfrak { s } }$ International Symposium on the Latest Development in Technologies of Library Service,7--1l September, 1992, The National Library of China,Beijing，China   \n[6] Xu Rujing， Yin Juntao: CD-ROM PLUS,The 3rd Beijing International Symposium on Computerized Information Management 14\\~18 October，1991,ISTIC,Beijing，PRC   \n[7] Bao Jishi: Optical Disk Documents Storage and Retrieval System of National Library of China, The 90's International Symposium on the Latest Development in Technologies of Library Service,7-1l September， 1992, The National Library of China. Beijing，China.",
+    "context2": "[8] Xu Suiwen, Sun Chengjian: The Studies on the Focal Points for the Development of Info:mation Technologies in China's Libraries in the ${ \\mathfrak { g } } 0 ^ { \\prime } { \\mathfrak { s } }$ ，The ${ \\mathfrak { g } } 0 ^ { \\prime } { \\mathfrak { s } }$ International Symposium on the Latest Development in Technologies of Library Service,7-1 September，1992,The Nationa1 Library of China，Beijing，China",
+    "context3": "[9]蔡立农等：磁光式可重写型光盘及其应用，《计算机世界月刊》，1992，（10），9～10 [10] Sally C.Tseng， James E. Crooks: CD-ROM Net-working:An Advanced Technology for Dissemination of Information,The 90's International Symposium on the Latest Development in Technologies of Library Service,7-11 September， 1992， The National Library of China,Beijing,China",
+    "context4": "[1]张保明：CD-ROM光盘网络化及其影响，《情报科学》，1992，13（1），2～5[12]杨新良：CD-ROM局域网络技术及其性能评价，《情报学报》，1992，11（6）， $4 2 5 \\sim 4 3 2$ [13] J，Edwards,N. Giorgini， P. Taylor,J. U1seth,14' Advanced Erasable Optical DiskDevelopment, Proceeding of SPIE, Vol.1316,5-7 March,1990, Vancouver,Canada,252\\~258",
+    "context5": "[14] F.Tanaka, S. Tanaka, Y. Sasano, K. Ono,S. Suzuki: Advanced Magneto-Optical Disk Drive and Media，Proceeding of SPIE，Vo1.1316, $\\mathbf { 2 4 5 } \\sim \\mathbf { 2 5 1 }$",
+    "context6": "[15]戚其秀等：国内外光盘技术现状与应用及我国发展光盘技术的对策，国家科委科技情报司“七五”研究项目（编号89-001-5B）《光盘适用性经济性研究》分报告之一，P21",
+    "context7": "[16] Naoya Eguchi,Minoru Tobita，Masataka Cgawa：An $8 6 m \\mathrm { m }$ Magneto-Optical Disk Drive with a Compact and Fact-seek-time Optical Head， Proceeding of SPIE,Vol. 1316, $2 \\sim 1 0$",
+    "context8": "[17] Akitomo Ohba, Saijin Sugama,Ryuichi Katayana, Yutaka Urino， Yuzo Ono: Co mpact Magneto-Optical Disk Head Using a Holographic Optical Element with Analyzer Function，Proceeding of SPIE，Vol.1316, $1 5 9 \\sim 1 6 6$",
+    "context9": ":18]王在平、杨熔：基于网络的多媒休情报检索，《现代图书情报技术》，1993，（1）， ${ 2 4 \\sim 2 8 }$",
+    "context10": "19]张广凯等：《开发中文CD-ROM数据光盘情报产品的可行性研究》总报告，国家科委科技情报司“八五”计划项目（编号91-3018）",
+    "context11": "[20] Anneli Heimburger: Guide to CD-ROM, Gereral Information Programme and UNISIST，United Nations Educational Scientific and Cultural Organization， 1988年"
+  },
+  "STATUS QUO AND PERSPECTIVE OF CD-ROM INDUSTRY IN CHINA": {
+    "context1": "Qi Qixiu",
+    "context2": "( Institute of Scientific and Technical Information of China ）",
+    "context3": "Abstract",
+    "context4": "In this paper，the development of CD-ROM industry in China is reviewed. Based on the status quo of CD-ROM technologies abroad， the author puts forward some countermeasures in this field. Meanwhile,the developing mode of this industry in China is approached.",
+    "context5": "（责任编辑芮国章）"
+  }
+}

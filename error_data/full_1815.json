@@ -1,0 +1,144 @@
+{
+  "original_filename": "full_1815.md",
+  "·综 述·": "",
+  "信息检索模型及其在跨语言信息检索中的应用进展": {
+    "context1": "吴丹齐和庆²（1．武汉大学信息管理学院，湖北武汉430072;2．山东德州德化装备工程有限公司，山东德州 253000)",
+    "context2": "[摘要]信息检索发展中的一个重要理论问题是如何对查询与文档进行匹配，由此形成了不同的信息检索模型。跨语言信息检索是信息检索研究的一个分支，也是近年来的热点问题。本文主要对信息检索模型的研究进展，及其在跨语言信息检索中的应用进展进行分析与综述。",
+    "context3": "[关键词]信息检索；跨语言信息检索；检索模型",
+    "context4": "[中图分类号]G354[文献标识码]B〔文章编号〕1008－0821（2009）07－0215－07"
+  },
+  "Development of Information Retrieval Model and its Application in Cross -Language Information Retrieval": {
+    "context1": "Wu DanQi Heqing (1．School of Information Management，Wuhan University，Wuhan 43OO72，China; .Shandong Dezhou Dehua Mechanical $\\&$ Equipment Engineering Corporation Limited，Dezhou 253OOO，China）",
+    "context2": "[Abstract）Animportanttheoratical problemininfomatonretrievalishowtomatchthequeryandthedocuments，therefore, different information retrieval models are formed·Cross $-$ language information retrieval（CLIR）is a branch of infomation retrievalresearchfieldsandisoneof themostactiveinfomationretrievalareas inthepastdecades：Thispaperanalyzesthereviews and the progresses of infomation retrieval modelsand itsapplication in crosslanguage informationretrieval.",
+    "context3": "[Key words）information retrieval；cross language information retrieval；retrieval model",
+    "context4": "作为一个正式的学术概念，信息检索（Information Retrieval）于1948年由美国学者Mooers[在其硕士学位论文中首次提出。经过半个多世纪的研究，信息检索的发展演变可以看作是不断消除一道道信息存取障碍的过程。首先，从脱机批处理到计算机检索系统的产生，是超越了信息存取的速度障碍；其次，从单机到网络平台，从集中式网络到分布式、异构性、动态Web 环境的迁移，是打破了信息存取的空间障碍；再次，从分类法、主题词表到本体（ $\\mathrm { O n ^ { - } }$ tology）的出现和应用，是跨越了信息存取的语义理解障碍。即便如此，在全球信息共享的迫切要求下，依然还有另一道障碍未被攻克，即信息存取的语言障碍。",
+    "context5": "跨语言信息检索（Cross—Language Information Retrieval,CLIR）是20世纪70年代从信息检索领域发展出来的一个分支，旨在以一种语言的查询去检索另一种语言的信息资源，这一技术已成为突破信息存取语言障碍的关键。跨语言信息检索在一定程度上继承了传统信息检索技术的发展，其关键问题是要使查询语言与文档语言在检索之前达成一致。",
+    "context6": "信息检索发展中的一个重要理论问题是如何对查询与文档进行匹配，由此形成了不同的信息检索模型。经过60年的发展，信息检索模型已由原来的三大经典模型一—布尔模型、向量空间模型、概率模型，发展为时下非常流行的统计语言模型和语义处理模型。同时，这些传统检索模型和新兴检索模型都在跨语言信息检索领域发挥着非常重要的作用。本文主要对信息检索模型的研究进展，及其在跨语言信息检索中的应用进展进行分析与综述。"
+  },
+  "1信息检索模型研究进展": {
+    "context1": "一般的信息检索模型由以下四部分组成：（1）查询表示；（2）文档表示；（3）匹配机制；（4）反馈修正。用形式特征可以将信息检索模型表示为一个四元组的模型框架：$\\left[ \\mathrm { D } , \\mathrm { Q } , \\mathrm { F } , \\mathrm { R } ( \\mathrm { q } _ { i } , d _ { j } ) \\right]$ 。其中，D是文档表示；Q是查询表示；F是一种机制，用于构建文档表示、查询表示及它们之间关系的模型； $\\mathbf { R } ( \\mathbf { \\Delta q } _ { i } , \\mathbf { \\Delta } d _ { j } )$ 是一个排序函数，该函数输出一个与查询表示 $q _ { i } \\in Q$ 和文档表示 $d _ { j } \\in D$ 有关的实数，这样就可以根据文档 $d _ { j }$ 与查询 $q _ { i }$ 之间的相似度进行排序[2]。",
+    "context2": "图1概括出了信息检索模型的分类。信息检索模型由最初的经典布尔模型、向量空间模型、概率模型，发展到现在的多种模型综合运用一一其中的语言模型和语义模型等新兴模型表现出了很强的生命力。",
+    "context3": "![](images/06c96f389cae476c792019c849764bf7dbae7469917c072fbc67f02954b36497.jpg)  \n图1信息检索模型分类"
+  },
+  "1.1经典模型": {
+    "context1": "经典的信息检索模型用称为标引词的关键词来表示一篇文档，令 $k _ { i }$ 表示一个标引词， $d _ { j }$ 表示一个文档， $w _ { i j } > 0$ 为二元组（ $\\left( \\begin{array} { l l } { k _ { i } , } & { d _ { j } } \\right) \\end{array}$ 的权值，用来衡量描述文档语义内容中标引词的重要性。在经典模型中存在一个普遍假设，即标引词是互相独立、彼此无关的。"
+  },
+  "1.1.1布尔模型 (Boolean Model)": {
+    "context1": "布尔检索模型是基于集合论的一种最早、最简单的检索模型。在布尔模型中，标引词在文档中出现或不出现，因此标引词 $k _ { i }$ 在文档 $d _ { j }$ 中的权值 $w _ { i j }$ 为二值数据，即 $w _ { i j } \\in$ $\\{ 0 , 1 \\}$ 。一个查询表示 $q _ { i }$ 由连接符 $\\mathrm { N O T }$ 、AND、OR 连接多个标引词组成，本质上是一个常规的布尔表达式 $q _ { d n f } ( \\ k _ { 1 } , \\ k _ { 2 }$ ,$\\cdots , k _ { i } , \\cdots )$ ，可以表示为多个合取向量的析取 $q _ { c c }$ （ $q _ { c c }$ 为 $q _ { d n f }$ 的任意合取分量)，则文档 $d _ { j }$ 与查询 $q _ { i }$ 的相似情况表示为：",
+    "context2": "${ } w _ { i } , { \\textstyle \\ j } = \\left\\{ { 1 , q _ { c c } \\in q _ { d r f } , } \\right.$ 表示文档 $d _ { j }$ 与查询 $q _ { i }$ 相似表示文档 $d _ { j }$ 与查询 $q _ { i }$ 不相似布尔模型形式简洁、结构简单、容易实现，但只能判断文档相关或不相关，无法描述与查询条件部分匹配的情况。针对这些缺点，两个改进集合论模型：模糊集合模型和扩展布尔模型应运而生。",
+    "context3": "模糊集合模型 (Fuzzy Set Model)[2]是将文档看成与查询在一定程度上相关，而且每一标引词都存在一个模糊的文献集合与之相关。对于某一给定的标引词，用隶属函数表示每一文档与该词的相关程度，即隶属度，其取值在[O,1]上，则标引词 $\\mathbf { k } _ { i }$ 在文档 $d j$ 中的权值可以定义为 $w _ { i j } \\in [ 0$ ，1]，文档对标引词的隶属度可以通过词一一词关联矩阵来计算。模糊集合模型保留了传统布尔模型的结构化特点，同时还能对检索结果按相似度排序，但不能对查询中的检索词赋予权值。",
+    "context4": "扩展布尔模型（Extended Boolean Model)[2]在保持传统布尔模型结构式查询的同时，也吸取了模糊集合模型和向量空间模型的长处。假定文档 $d _ { j }$ 仅用两个标引词 $k _ { x }$ 和 $k _ { y }$ 标引，并且 $k _ { x }$ 和 $k _ { y }$ 允许被赋予一定的权值 $w _ { x j }$ 和 $w _ { y }$ ，点 $d$ $( x , y )$ 表示文献向量 $d _ { j } = ( \\boldsymbol { w _ { x j } } , \\boldsymbol { w _ { y j } } )$ ，则文档 $d _ { j }$ 与查询 $q _ { i }$ 的相似度可以表示为：",
+    "context5": "$$\ns i m ( d _ { j } , q _ { i } ) = \\{ \\begin{array} { l l } { \\sqrt { ( { x } ^ { 2 } + { y } ^ { 2 } ) / 2 } \\qquad , { q } _ { i } = k _ { x } \\vee k _ { y } } \\\\ { 1 - \\sqrt { [ ( 1 - x ) ^ { 2 } + ( 1 - y ) ^ { 2 } ] / 2 } , q _ { i } = k _ { x } \\wedge k _ { y } } \\end{array} \n$$"
+  },
+  "1.1.2向量空间模型(Vector Space Model，VSM)": {
+    "context1": "在向量空间模型中，标引词 $k _ { i }$ 在文档 $d _ { j }$ 中的权值 $w _ { i j }$ 是一个非二值正数， $w _ { i j } \\in [ 0 , 1 ]$ 。此外，标引词 $\\mathbf { k } _ { i }$ 在查询 $q _ { i }$ 中的标引词也要加权，用 $w _ { i q }$ 表示，也是一个非二值正数。文档 $d _ { j }$ 可以表示为一个文献向量 $d _ { j } = ( w _ { 1 j } , w _ { 2 j } , \\cdots , w _ { t j } )$ ，查询 $q _ { i }$ 可以表示为一个查询向量 $\\cdot q _ { i } = ( w _ { 1 _ { q } } , w _ { 2 _ { q } } , \\cdots , w _ { t q } )$ ，其中 $t$ 是系统中的标引词数目。这样，文档和查询都被表示成了 $t$ 维向量，最常用的一种计算它们之间相似度的方法是计算文档向量与查询向量夹角的余弦：",
+    "context2": "$$\ns i m ( d _ { j } , q _ { i } ) = \\frac { \\displaystyle \\sum _ { i = 1 } ^ { t } w _ { i j } \\times w _ { i q } } { \\displaystyle \\sqrt { \\sum _ { i = 1 } ^ { t } w _ { i j } } ^ { 2 } \\times \\sqrt { \\sum _ { i = 1 } ^ { t } w _ { i q } } ^ { 2 } }\n$$",
+    "context3": "标引词的权重 $w _ { i j }$ 可以通过很多加权方法来计算，最常用的是f-if函数， $\\it { \\Delta } t f$ 是标引词在文档中出现的频率，用来衡量一个标引词在多大程度上描述了一篇文档；if 是倒文献频率，体现标引词区分文档的能力大小，计算方法也有很多，如下公式是比较常用的：",
+    "context4": "$$\nf ^ { ' } { } _ { i j } { = } \\frac { t f _ { i j } } { \\operatorname* { m a x } _ { j } t f _ { i j } } \\qquad i d f _ { i } { = } \\log \\frac { N } { n _ { i } } \\qquad w _ { i j } { = } f ^ { ' } { } _ { i j } \\stackrel { { _ { \\ast } } } { \\kappa } { \\it \\ i } d f _ { i }\n$$",
+    "context5": "其中， $N$ 为文档集合， $n _ { i }$ 为包含标引词 $k _ { i }$ 的文档篇数， $\\mathcal { \\boldsymbol { t f } } _ { i j }$ 为标引词 $k _ { i }$ 在文档 $d _ { j }$ 中出现的频率, $\\boldsymbol { f ^ { \\prime } } _ { i j }$ 为文档 $d _ { j }$ 中标引词 $k _ { i }$ 的标准化频率。",
+    "context6": "向量空间模型对标引词的权重进行了改进，并且能根据相似度对检索结果进行排序，有效地提高了检索效率。",
+    "context7": "不过，该模型中依然存在的问题是：标引词仍然被认为相互独立，会丢掉大量的文本结构信息，且相似度计算量大。考虑到这一点，人们由对向量空间模型的改进产生了广义向量空间模型、神经网络模型等，目的均为获得更高的检索效率。",
+    "context8": "广义向量空间模型（Generalized Vector Space Model,GVSM）由Wong[3]等于1985 年提出。该模型认为标引词之间不是互相独立的，即不是两两正交的，而是存在着一定的相互关系，即标引词向量是线性独立的一—这就是广义向量空间模型的基本思想。在广义向量空间模型中，标引词向量以一组更小的分量所组成的正交基向量来表示，词与词之间的关系可直接由基向量表示给出较为精确的计算。标引词 $k _ { i }$ 在文档 $d _ { j }$ 中的权值为 $w _ { i j }$ ，如果所有 $w _ { i j }$ 都是二值的， $t$ 个标引词生产 $2 ^ { t }$ 个互不相同的最小项 $m _ { i }$ 。广义向量空间模型将所有向量 $m _ { i }$ 的集合作为目标子空间的基：其中$\\begin{array} { r } { m _ { 1 } = ( 1 , 0 , \\cdots , 0 ) , m _ { 2 } = ( 0 , 1 , \\cdots , 0 ) , \\cdots , m _ { 2 } \\ i = ( 0 , 0 , \\cdots , } \\end{array}$ 1)。标引词 $k _ { i }$ 的标引词向量是通过把所有最小项 $m _ { i }$ 的向量相加求和得出，然后利用余弦函数计算文献向量和查询向量之间的相似度。",
+    "context9": "神经网络模型（Neural Network Model)[4]的主要思想是：首先从文本空间中抽取文档及文档相关的标引词 $k _ { i }$ ，并且对这些标引词进行概念关联分析；然后计算出任意两个标引词之间的关联权值，建立概念的词义关联权矩阵，以概念为节点，关联权值为节点的连接权，这样就构成了神经网络。当用户输入检索关键词后，查询语词节点通过向文献语词节点发出信号来做联想回忆进行推理，而且文献与此节点自身也可以向文献节点发出信号一一—如此不断重复这一联想回忆推理过程，直到信号衰减到无法激活联想回忆。"
+  },
+  "1.1.3概率模型 (Probabilistic Model)": {
+    "context1": "经典概率模型也称二元独立概率模型（Binary Independence Relevance，BIR)，其基本思想是：用户提出了查询，就有一个由相关文档构成的集合，通常把这个集合称为理想的集合 $R$ 。如果知道 $R$ 的特征，就可以找到所有的相关文档，排除所有的无关文档。然而，第一次查询时并不知道 $R$ 的特征，只能去估计 $R$ 的特征来进行查询。第一次查询完成后，可以让用户判断检索到的文档哪些是相关文档，根据用户的判断，可以更精确地估计 $R$ 的特征。",
+    "context2": "在经典概率模型中，标引词 $k _ { i }$ 在文档 $d _ { j }$ 中的权值是二值的， $w _ { i j } \\in \\{ 0 , 1 \\}$ ；标引词 $k _ { i }$ 在查询 $q _ { i }$ 中的权值也是二值的， $w _ { i q } \\in \\{ 0 , 1 \\}$ ； $R$ 为相关文献集，R为非相关文献集；条件概率 $\\mathrm { P } ( \\mathbb { R } ^ { | } d _ { j } )$ 表示文档 $d _ { j }$ 与查询 $q _ { i }$ 相关的概率，条件概率 $P ( \\mathbb { R } ^ { | } d _ { j } )$ 表示文档 $d _ { j }$ 与查询 $q _ { i }$ 不相关的概率； $P ( k _ { i } |$ $R$ )为标引词 $k _ { i }$ 在集合 $R$ 的某篇文献中随机出现的概率， $P$ $( k _ { i } | \\mathbf { R } )$ 为标引词 $\\mathbf { k } _ { i }$ 在集合R的某篇文献中随机出现的概率。由于假设标引词之间无相关关系，则文档 ${ \\bf d } _ { j }$ 与查询 $q _ { i }$",
+    "context3": "的相似度表示为：",
+    "context4": "$$\n\\begin{array} { r l } & { s i m ( \\ r { d } _ { j } , \\mathbf { \\varphi } _ { q _ { i } } ) = \\frac { P (  { R } \\mid \\mathbf {  { d } } _ { j } ) } { P (  { R } \\mid \\mathbf {  { d } } _ { j } ) } = \\frac { P (  { d } _ { j } \\mid \\mathbf {  { R } } ) \\times P (  { R } ) } { P (  { d } _ { j } \\mid \\textbf { \\textsf { R } } ) \\times \\mathbf { P } (  { R } ) } \\approx \\frac { P (  { d } _ { j } \\mid \\mathbf {  { R } } ) } { P (  { d } _ { j } \\mid \\textbf { \\textsf { R } } ) } } \\\\ & { \\approx \\displaystyle \\sum _ { i = 1 } ^ { t } w _ { i q } \\times w _ { i j } \\times \\left( \\log \\frac { P (  { k } _ { i } \\mid \\mathbf {  { R } } ) } { 1 - P (  { k } _ { i } \\mid  { R } ) } + \\log \\frac { 1 - P (  { k } _ { i } \\mid \\textbf { \\ r { R } } ) } { P (  { k } _ { i } \\mid \\textbf { \\textsf { R } } ) } \\right) } \\end{array}\n$$",
+    "context5": "$P ( \\ k _ { i } \\vert \\ R )$ 和 $P ( \\ k _ { i } \\mid \\mathrm { ~ R ~ } )$ 可以用如下方法来实现：假定P$( \\mathbf { k } _ { i } | \\mathbf { \\omega } _ { R } )$ 对于所有标引词 $k _ { i }$ 是恒定不变的，通常假设等于0.5；假定非相关文献中标引词的分布可以通过集合的所有文献中标引词的分布来估计，则：",
+    "context6": "$$\n\\begin{array} { r } { P ( k _ { i } | { \\cal R } ) { = } 0 . 5 \\qquad P ( k _ { i } | { \\bf \\delta R } ) { = } \\frac { n _ { i } } { N } } \\end{array}\n$$",
+    "context7": "其中， $n _ { i }$ 为包含标引词 $k _ { i }$ 的文献数目， $N$ 为集合中的文献总数。",
+    "context8": "许多研究者对上述 $P ( \\boldsymbol { k } _ { i } | \\boldsymbol { R } )$ 和 $P ( \\ k _ { i } \\mid \\mathbf { R } )$ 的估计方法进行了改进，但二元独立概率模型始终没有考虑词频tf 和长度因素，因此，它还在不断完善和发展中。目前比较流行的 OkapiBM25公式加入了 $\\boldsymbol { t f }$ 因素和长度调整，计算公式如下：",
+    "context9": "$$\n\\begin{array} { r l r } {  { \\mathrm { ~ ` ~ ` ~ } } } \\\\ & { } & { \\times \\sum _ { w \\in { \\mathfrak { q } } / { \\mathrm { d } } } ( i d f ^ { \\ast } t f _ { d \\alpha } * t f _ { q } ) = \\sum _ { w \\in { \\mathfrak { q } } / { \\mathrm { d } } } ( \\ln \\frac { N - d f ( w ) + 0 . 5 } { d f ( w ) + 0 . 5 } *  } \\\\ & { } & {  \\frac { ( k _ { 1 } + 1 ) * _ { c } ( w , d ) } { k _ { 1 } ( ( 1 - b ) + b \\frac { L _ { d } } { L _ { w e } } ) + _ { c } ( w , d ) } * \\frac { ( k _ { 3 } + 1 ) * _ { c } ( w , q ) } { k _ { 3 } + _ { c } ( w , q ) } ) } \\end{array}\n$$",
+    "context10": "其中， $k _ { 1 }$ 、k3、 $^ { b }$ 是经验参数。",
+    "context11": "概率模型有严格的数学理论基础，采用了相关反馈原理克服不确定性推理的缺点。但其参数估计难度较大，最初没有任何先验知识。于是人们将统计学的认识论引入到概率模型中，形成了各种基于贝叶斯网络的检索模型。",
+    "context12": "推理网络模型(Inference Network Model)[5]模拟人脑的推理思维模式，将文档与用户查询匹配的过程转化为一个从文档到查询的推理过程。基本的文档推理网络包含文档网络和用户查询网络两部分，通过随机变量将标引词、文档以及用户查询联系在一起。与文档 $d _ { j }$ 相关的随机变量表示对该文档观测的事件，对文档 $d _ { j }$ 的观测可以为标引词的随机变量给出一个信任度，因而对文档的观测是标引词变量不断增加信任度的原因所在。标引词变量和文档变量用网络中的节点来表示，节点之间的边是从文献节点指向它的语词节点，以此来表示文献观测会不断提高标引词节点的信任度。",
+    "context13": "信任度网络模型(Belief Network Model)[]采用明确化的概念空间，用户查询 $q _ { i }$ 也被模型化为一个与二值随机变量$q _ { i }$ 相关的网络节点，只要 $q _ { i }$ 完全包含概念空间 $k$ ，这个随机变量的值就为1。文档 $d _ { j }$ 也被模型化为一个与二值随机变量 $d _ { j }$ 相关的网络节点，只要 $d _ { j }$ 完全包含概念空间k，这个随机变量的值就为1。通过这种形式，集合中的用户查询和文档都被模型化为标引词的子集，每个子集为概念空间 $k$ 中的一个概念。与推理网络模型相反，构成文献的标",
+    "context14": "引词节点指向文献节点。"
+  },
+  "1.2统计语言模型": {
+    "context1": "统计语言模型(Statistical Language Model，SLM)[7]是关于某种语言所有语句或者其他语言单位的分布概率，也可以将统计语言模型看作是生成某种语言文本的统计模型。语言模型通常用以回答如下问题：已知文本序列中前面 $i$ -1个词汇，第i个词汇为单词 $w$ 的可能性有多大?",
+    "context2": "语言模型根据马尔可夫链的阶数分为一元语言模型和多元语言模型。一元语言模型（unigram language model）假设词与词之间是相互独立的，一个词出现的概率与这个词前面的词没有必然联系。多元语言模型（n」gram languagemodel）假设词与词之间是相互关联的，一个词出现的概率与这个词前面的词存在一定的关联。根据目标词前面其他词个数的多少，多元语言模型可被划分为二元语言模型、三元语言模型等几种。",
+    "context3": "对于一个句子 $s { = } w _ { 1 }$ , $w _ { 2 } , \\cdots , w _ { i }$ （ $w _ { i }$ 代表某个词)，在语言模型 $M$ 中， $S$ 出现概率 $P$ 用一元和多元模型可以分别表示为：",
+    "context4": "$$\n\\begin{array} { l } { P ( S \\mid M ) = \\displaystyle \\prod _ { w _ { i } \\in \\bf S } P ( w _ { i } \\mid M ) } \\\\ { P ( S \\mid M ) = \\displaystyle \\prod _ { w _ { i } \\in \\bf S } P ( w _ { i } \\mid w _ { i - 1 } , w _ { i ^ { - 2 } } , \\cdots , w _ { i ^ { - } n ^ { + 1 } } , M ) } \\end{array}\n$$",
+    "context5": "其中， $n ^ { - 1 }$ 代表了马尔可夫链的阶数。",
+    "context6": "统计语言模型于1998 年由 Ponte 和 $\\mathrm { C r o f t } ^ { [ 8 ] }$ 应用到信息检索中，之后不少学者在此基础上提出了一系列模型。统计语言模型现已成为信息检索领域里的主要研究方向，本文在此只选择其中几个主要的模型进行概括性介绍："
+  },
+  "1.2.1查询似然模型(Query Likelihood Model)": {
+    "context1": "Ponte和Croft最初提出的语言模型被称为查询似然模型。该模型将相似度看作是每篇文档对应的语言下生成该查询的可能性，即利用查询的似然来度量文档与查询的相似度。在该模型中，首先为每篇文档 $D$ 建立一个语言模型$M _ { D }$ ，系统的目标是根据 $P ( D | Q )$ 对文档进行排序。根据贝叶斯公式，我们得到：",
+    "context2": "$$\nP ( \\boldsymbol { D } | \\boldsymbol { Q } ) \\mathrm { { } } = P ( \\boldsymbol { Q } | \\boldsymbol { D } ) P ( \\boldsymbol { D } ) / P ( \\boldsymbol { Q } )\n$$",
+    "context3": "其中， $Q$ 代表查询条件， $D$ 代表文档集合中某个文档。先验概率 $P \\left( D \\right)$ 和 $P \\left( Q \\right)$ 对于文档集合中每篇文档来说都是相同的。所以，关键是估计每篇文档的语言模型 $P$ $( Q \\vert D )$ 。",
+    "context4": "估计 $P ( Q | D )$ 的一个最常用的方法是用多项一元语言模型(multinomial unigram language model)，即首先估计每篇文档的词汇概率分布，然后计算从这个分布抽样得到查询条件的概率，并按照查询条件的生成概率来对文档进行排序。此方法基于二值假设及独立性假设，前者假设如果一个词汇出现在查询条件中，代表该词汇的属性值被设置成1,否则设置为0；后者假设文档中词汇之间是相互独立的。这样，文档 $D$ 可以看成是多项随机试验的观测结果，即：",
+    "context5": "$$\nP (  { Q } |  { D } ) = \\prod _ { i = 1 } ^ { Q } P ( q _ { i } \\mid  { D } ) = \\prod _ { w \\in \\mathfrak { q } } P ( w \\mid  { D } ) ^ { c ( w , Q ) }\n$$",
+    "context6": "其中， $q _ { i }$ 是查询Q中的检索词， $w$ 是文档集中的词项(term）， $c ( w , Q )$ 表示查询 $Q$ 中 $w$ 出现的次数。这样，要计算 $P ( Q | D )$ ，必须先估计 $P ( w ^ { | } D )$ ，即估计文档 $D$ 的一元语言模型。",
+    "context7": "$P ( w ^ { | } D )$ 可以通过一种非参数的方法计算，利用包含$w$ 的文档 $D$ 中 $w$ 出现的平均概率，如下公式：",
+    "context8": "$$\nP ( w \\mid D ) = \\frac { c ( w , D ) } { \\displaystyle \\sum _ { w ^ { ' } \\in \\mathbf { D } } c ( w ^ { ' } , D ) }\n$$",
+    "context9": "其中， $\\textit { c } ( \\textit { w } , \\textit { D } )$ 表示文档 $D$ 中 $w$ 出现的次数,$\\sum _ { w ^ { ' } \\in \\mathrm { { D } } } c ( w ^ { ' } , D )$ 表示 $D$ 中所有词项的个数。",
+    "context10": "与传统检索模型相比，语言模型检索方法能够利用统计语言模型来估计与检索有关的参数，在如何改善检索系统性能方面有更加明确的指导方向。但该方法隐含着词汇相互独立关系，没有考虑词汇间的相互影响。传统检索模型中常用的相关反馈技术在概念层面融入语言模型框架比较困难。"
+  },
+  "1.2.2隐马尔可夫模型(Hidden Markov Model，HMM)": {
+    "context1": "Miller[9]等将隐马尔可夫模型引入统计语言模型。他们使用了两状态隐马尔可夫模型：一个状态表示直接从文档中选出一个词；另一个状态表示从通常英语语言中选出一个词，来估计文档 $D$ 的一元语言模型 $P ( w \\mid D )$ 。第一个状态的概率分布记为 $P _ { d o c u m e n t } ( \\boldsymbol { w } \\mid D )$ ，第二个状态的概率分布用文档集中词项 $w$ 的最大出现概率来近似估计，记为$P _ { c o l l e c t i o n } ( \\it { w } )$ 。两个概率的计算方法均采用词频 $\\boldsymbol { t f }$ 和文档频率df来计算，公式如下：",
+    "context2": "$$\nP _ { d o c u m e n t } ( w \\mid D ) = { \\frac { c ( w , D ) } { \\displaystyle { \\sum _ { w ^ { ' } \\in \\mathrm { \\scriptsize ~ D } } } } }\n$$",
+    "context3": "$$\nP _ { c o l l e c t i o n } ( w ) = \\frac { c ( w , C ) } { \\sum _ { w ^ { ' } \\in \\mathrm { v } } ^ { } c ( w ^ { ' } , C ) }\n$$",
+    "context4": "其中， $c ( w , C )$ 表示整个文档集合 $C$ 中 $w$ 出现的次数,文档集合 $C = \\{ \\ D 1$ ， $D _ { 2 } , \\ldots \\}$ ，词汇表 $V = \\{ \\mathbf { \\sigma } _ { w 1 }$ ， $w _ { 2 } , \\ldots \\}$ ,$\\sum _ { w ^ { ' } \\in \\mathrm { v } } c ( w ^ { ' } , C )$ 表示文档集合中所有词项的总数。",
+    "context5": "最后，将二者通过概率加权合并得到 $P ( w ^ { | } D )$ ：",
+    "context6": "$$\nP ( \\textit { w } | \\textit { D } ) { = } \\lambda P _ { \\mathit { d o c u m e n t } } ( \\textit { w } | \\textit { D } ) { + } ( 1 { - } \\lambda ) P _ { \\mathit { c o l l e c t i o n } } ( \\textit { w } )\n$$"
+  },
+  "1.2.3翻译模型 (Translation Model)": {
+    "context1": "Berger[10]将机器翻译领域中的统计翻译模型引入到语言模型中，目的在于将词汇间的同义词因素考虑进来，将信息检索过程看作是一个从文档向查询条件进行翻译的过程：假设查询 $Q$ 通过一个有噪声的信道变成文档 $D$ ，从文档 $D$ 去估计原始的查询 $Q$ 。",
+    "context2": "$$\nP (  { Q } |  { D } ) = \\prod _ { i } P ( q _ { i } \\mid  { D } ) = \\prod _ { i } \\sum _ { j } P ( q _ { i } \\mid  { w } _ { j } ) P ( w _ { j } \\mid  { M } _ { D } )\n$$",
+    "context3": "其中， $q _ { i }$ 是查询Q中的检索词， $w _ { j }$ 是文档集中的词项， $P ( q _ { i } | _ { w _ { j } } )$ 是翻译概率， $P ( w _ { j } | M _ { D } )$ 是生成概率。",
+    "context4": "由于翻译模型方法遵循的是统计机器翻译的思路，这在本质上决定了其主要考虑因素是将词汇间的同义词关系引入语言模型信息检索中，其作用类似于传统检索模型中的查询扩展技术。但是该方法有个很明显的缺点，就是在训练统计翻译模型的参数的时候，需要大量的查询条件和对应的相关文档作为训练集合。"
+  },
+  "1.2.4相关模型(Relevance Model)": {
+    "context1": "与试图对查询产生过程建模相反，Lavrenko 和Croft[11]直接对“相关性”建模，并提出了一种无需训练数据来估计相关模型的新方法。相关模型是对用户信息需求的一种描述，假设如下：给定一个文档集合与用户查询条件 $Q$ ，存在一个未知的相关模型 $R$ ，相关模型 $R$ 为相关文档中出现的词汇赋予一个概率值 $P ( w \\mid R )$ 。这样，相关文档被看作是从概率分布 $P ( w ^ { \\parallel } R )$ 中随机抽样得到的样本。同样的，查询条件也被看作是根据这个分布随机抽样得到的样本。所以，相关模型的关键是如何估计分布 $P ( w \\mid R )$ 。定义 $P$ $( w \\mid R )$ 为从相关文档中随机采样一个词是词 $w$ 的概率,Lavrenko 和 Croft 用 $w$ 和查询词q1, $q 2 , \\cdots , q _ { m }$ $Q = \\{ \\mathbf { \\Psi } q _ { 1 } , \\mathbf { \\Psi } q _ { 2 }$ ，$\\cdots , q _ { m } \\}$ ）同时出现的联合概率分布来近似估计 $P ( w \\mid R )$ ：",
+    "context2": "$$\nP ( w \\mid R ) \\approx \\mathrm { P } ( \\textrm { w } | \\textrm {  { Q } } ) = \\frac { P ( w , q _ { \\mathrm { 1 } } , \\cdots , q _ { m } ) } { \\displaystyle \\sum _ { v \\in \\mathrm { { \\scriptsize ~ v o c a b u l a r y } } } P ( v , q _ { \\mathrm { 1 } } , \\cdots , q _ { m } ) }\n$$",
+    "context3": "他们提出两种估计上述联合概率分布的方法。这两种方法都假设存在一个概率分布集合 $U$ ，相关词汇就是从 $U$ 中某个分布随机抽样得到的。不同之处在于它们的独立假设。",
+    "context4": "方法一：假设所有查询条件词汇和相关文档中的词汇是从同一个分布随机抽样获得，这样一旦我们从集合 $U$ 中选定某个分布 $M$ 后，这些词汇是相互无关的、独立的。如果我们假设 $U$ 是一元语言模型分布的全集并且文档集合中每个文档都有一个分布，那么我们得到：",
+    "context5": "$$\n\\begin{array} { l } { { P ( w , q _ { 1 } , \\cdots , q _ { m } \\mid M ) = \\displaystyle \\sum _ { M \\in \\mathrm { U } } P ( \\ M ) P ( w , q _ { 1 } , \\cdots , q _ { m } \\mid M ) } } \\\\ { { = \\displaystyle \\sum _ { M \\in \\mathrm { U } } P ( \\ M ) \\biggl ( \\ P ( w \\mid \\ M ) \\prod _ { i = 1 } ^ { m } P ( q _ { i } \\mid M ) \\biggr ) } } \\end{array}\n$$",
+    "context6": "其中， $P \\left( M \\right)$ 代表集合 $U$ 中的一些先验概率分布， $P$ $( w \\mid M )$ 是我们从 $M$ 中随机抽取词汇而观察到词汇 $w$ 的概率。",
+    "context7": "方法二：假设查询条件词汇 $q 1 , \\cdots , q _ { m }$ 是相互独立的,但与词汇 $w$ 是相关的。",
+    "context8": "$$\n\\begin{array} { l } { P ( w , q _ { 1 } , \\cdots , q _ { m } ) = P ( w ) \\displaystyle \\prod _ { i = 1 } ^ { m } P ( q _ { i } \\mid w ) } \\\\ { P ( q _ { i } \\mid w ) = \\displaystyle \\sum _ { P ( q _ { i } \\mid M _ { i } ) P ( M _ { i } \\mid w ) } ^ { M _ { i } \\in \\mathrm { U } } } \\end{array}\n$$",
+    "context9": "这里又有一个假设：一旦选定一个分布 $M _ { i }$ ，查询条件词汇 $q _ { i }$ 就和词汇 $w$ 是相互独立的。",
+    "context10": "相关模型是一种将查询扩展技术融合进入语言模型检索框架的方法。"
+  },
+  "1.3语义处理模型": {
+    "context1": "前面所提及的模型都是基于关键词和标引词的，由于字义本身与其概念的延伸不在同一级上，使得检索结果仅仅是字面意义的匹配。为此，人们提出语义处理模型，即探究词语背后所指代的本质概念，明确词语的主题范畴，识别同一概念的各种表示形式。为了分析词语的含义、词语和文档之间的语义关联、文档的相似度，从目前的技术实现方法来看，主要采取从文档结构入手的潜在语义分析方法，以及从内容入手的利用知识组织体系（词典、知识库和本体等）的方法。"
+  },
+  "1.3.1潜语义标引模型 (Latent Semantic Indexing Model)": {
+    "context1": "潜语义标引模型由Furnas 和 Deerwester 等[12]于 1988 年提出。首先，该模型将标引词之间、文档之间的相关关系以及标引词与文档之间的语义关联都考虑在内，将文档向量和查询向量映射到与语义概念相关联的较低维度空间中，从而将标引词向量空间转化为语义概念空间；其次，该模型在降维后的语义概念空间中，计算文档向量和查询向量的相似度。总而言之，该模型的主要思想是：用数学方法把标引词一—文档矩阵进行奇异值分解（奇异值分解是一种与特征值分解、因子分析紧密相关的矩阵方法)。由此可见，潜语义标引模型将文档和查询向量的 $t$ 维标引词向量空间转化为 $x$ 维语义概念空间，降低了空间维度，克服了同义词和多义词对检索结果的影响。"
+  },
+  "1.3.2本体模型（Ontology－based Model)": {
+    "context1": "本体模型是自20 世纪90 年代随着本体和本体工程应用到信息检索领域出现的一种方法。图2[13]描述了本体模型的一般原理。一方面，用户的信息需求通过共享本体转化为计算机可理解的查询表达，为了提高查全率，再通过共享本体中概念与概念之间的关系扩展查询表达。通过与一个或几个本体的交互，查询表达能被计算机理解，以此判断用户需求的信息所属领域。另一方面，被检信息资源需要通过同样的本体进行标引，信息资源的表达包括逻辑判断等。在基于本体的信息检索过程中，查询表达与信息资源之间的匹配过程仿佛一种“探索”过程，这一过程能依照查询的表达形式和逻辑理解以不同的方式进行实现。本体在信息检索中的作用主要体现在查询扩展、信息抽取、自动分类、语义形式化表示，以及推理机制上。"
+  },
+  "2检索模型在跨语言信息检索中的应用": {
+    "context1": "布尔模型、向量空间模型、概率模型、语言模型、本体模型等应用于跨语言信息检索，在查询语言转换以及查询翻译消歧中发挥着重要作用。",
+    "context2": "![](images/e4227316a9401feaea38e109589c7a538d2029ff03afdc2b42f6da5bfebb4ec0.jpg)  \n图2本体模型原理"
+  },
+  "2.1　布尔模型的应用": {
+    "context1": "布尔模型及其扩展模型在查询翻译消歧中有重要应用。Diekema[14]探讨了扩展布尔模型在查询翻译消歧中的应用。Pirkola[15]通过结构化查询（structured query）来消除查询词语的歧义性和词典覆盖度不足的问题。结构化查询共有3种算符：“sum”、“syn”和“uw3”。“sum”相当于逻辑与，属于缺省值；“syn”是同义词（同源词）算符；近邻算符“uw3”（unorderedwindown，这里n取3）用于短语的查询翻译，这里的结构化查询采用的就是布尔模型的思想。早期基于词典的查询翻译倾向于包含每个检索词的所有译项，在进行检索的时候这些译项的贡献是一样的，这就相当于赋予拥有较多译项的检索词较高的权重，这显然是不合理的，拥有较少译项的检索词通常专指性更强（对检索更有用)，这种情况被称为非平衡（unbalanced）查询翻译。为此，Levow 和 $\\mathrm { O a r d } ^ { [ 1 6 ] }$ 提出了平衡翻译（balanced translation）的概念，即通过计算查询词的每个译项的权重并通过某种方法（算数平均、加权平均等）来获取该词的权重。",
+    "context2": "Oard 和 Wang[17]在 NTCIR一2 和 MEI（Mandarin一EnglishInformation）项目的评价实验中，证明了平衡翻译能有效消除翻译的歧义性。"
+  },
+  "2.2向量空间模型的应用": {
+    "context1": "在跨语言信息检索的应用中，国外学者应用广义向量空间模型实现了不需要翻译的跨语言信息检索。卡耐基梅隆大学语言技术研究所的Carbonell等人[18]将广义向量空间模型应用于跨语言信息检索，其基本思想是：根据双语训练文档集分别建立源语言与目标语言的检索词一—文档关联矩阵，在计算查询条件和文档的相似度时，考虑将经典的向量空间模型与两个关联矩阵相结合，在源语言与目标语言之间实现映射关系，在不需要翻译的条件下实现跨语言信息检索，为跨语言信息检索的研究开辟了一条新路。"
+  },
+  "2.3概率模型的应用": {
+    "context1": "著名的InQuery 就是基于 Bayesian推理网络模型的信息检索系统。作为一种查询网络模型，InQuery 允许使用查询算符，这在跨语言信息检索中被证明是非常有用的。另外，朴素贝叶斯算法（Naive Bayes，NB）也可以应用于自然语言处理的消歧工作，如词性标注、词义消歧、文本分类等。XuJinxi 等人[19]评价了概率模型在跨语言信息检索中的应用。"
+  },
+  "2.4统计语言模型的应用": {
+    "context1": "统计语言模型已经被应用于不同的信息检索领域，如信息过滤、跨语言信息检索、跨语言语音检索等。除此之外，语言模型还广泛应用于词性标注、词义消歧、名词短语的识别、词法分析、机器翻译等自然语言处理领域，这些都在解决查询翻译的语言歧义性中发挥重要作用。",
+    "context2": "传统的概率模型和统计语言模型可以看作在同一概率框架下不同的推导结果，然而统计语言模型却克服了传统概率模型在概率估计上的不足（传统的概率模型在估计概率时需要有文档相关性的先验知识，往往需要人为地设定一个经验值作为初值)。对于这两种概率方法，Larkey 等[20]通过实验进行了比较，结果表明，如果不进行查询扩展，概率模型的效果要稍好于语言模型，如果进行查询扩展，那么语言模型进行跨语言信息检索的效率更高。在2000 年举行的TREC一9 测评会议上，BBN公司将隐马尔可夫模型从单语言信息检索扩展到跨语言信息检索，并取得了第一名的好成绩[21]。另外，Liu Xiaoyong 等人[22]还研究了语言模型在跨语言信息检索及查询翻译消歧中的应用。"
+  },
+  "2.5语义模型的应用": {
+    "context1": "Dumais等人[23]将潜语义标引模型应用于跨语言信息检索，其基本思想是：首先通过将有代表性的文档与其对应的翻译文档联系起来形成训练文档集，然后利用奇异值分解技术对双语检索词一一文档关联矩阵进行奇异值分解，获得双语文档集的特征信息以及检索词用法上的映射关系，即构造出不同语种的潜在语义空间，最后根据平行文档中语词的用法特征可检索出另一种语种的相关信息。",
+    "context2": "本体应用于跨语言信息检索的成果之一是Cindor系统[24]，它围绕WordNet 组织概念资源的层次结构，将其他语言的词汇链接到与它们所表达的概念对应的同义词群(synsets）上。这样，概念中间语言就能确保各种语言的文献和查询在概念层次进行匹配。此外，王进等[25]提出了一种基于语义的跨语言信息检索模型Onto一CLIR，即利用本体在知识表示和知识描述方面的优势，解决查询请求在从源语言到目标语言转换过程中出现的语义损失和曲解等问题。实验结果显示，基于本体的跨语言信息检索比常规的单一语言信息检索在查全率和查准率方面都有明显的优势。"
+  },
+  "3结语": {
+    "context1": "尽管布尔模型、向量空间模型和统计模型是发展得较为成熟的三类经典检索模型，对信息检索的发展起到了至关重要的作用，在跨语言信息检索领域也得到了大量应用。然而，目前在信息检索和跨语言信息检索领域，数学被证明是解决信息检索和自然语言处理的最好工具，这其中最好的例证就是Google。Google是全世界最好的搜索引擎，其",
+    "context2": "2007年5月24日发布的跨语言搜索引擎Google TranslatedSearch 效果也十分不错，Google的中英文跨语言搜索引擎用的最重要的就是统计语言模型。事实证明，统计语言模型比任何已知的借助某种规则的解决方法都有效，是目前在实用中效果最好的检索模型，在跨语言信息检索领域也是如此。但是，我们仍然相信，数学不能解决信息检索的一切问题，尽管语义模型目前仍停留在理论探讨阶段，离实用化还有一定距离，但随着信息检索模型研究的不断深入，语义处理模型终将走向实用，并与其他检索模型一起在信息检索领域发挥作用，并帮助解决跨语言信息检索的翻译消歧、语言转换等问题，真正实现信息检索的语义理解。"
+  },
+  "参考文献": {
+    "context1": "[1] Mooers C．Application of random codes to the gathering of statistical in\" formation·M·S.Thesis·MassachusettsInstitute of Technology, 1948.   \n[2] Baeza $-$ Yates R，Ribeiro $-$ Neto B.Modern information retrieval. Massachusetts：Addison Wesley，1999.   \n[3]Wong SK M，Ziarko W，Wong PC N．Generalized vector space model in information retrieval·In：Proceedings of the $8 ^ { \\mathrm { t h } }$ Annual Inter\" national ACM SIGIR Conference on Research and Development in Infor\" mation Retrieval（SIGIR'85)．Montreal，Canada，1985： $1 8 - 2 5$   \n[4] Wilkinson R，Hingston P.Using the cosine measure in a neural network for document retrieval·In：Proceedings of $1 4 ^ { \\mathrm { t h } }$ Annual Interna\" tional ACM SIGIR Conference on Research and Development in Informa\" tion Retrieval （SIGIR'91)． Chicago，USA，1991： $2 0 2 { - } 2 1 0$   \n[5] Turtle H，Croft WB．Evaluation of an inference network $^ -$ basedretrieval model．ACM Transactions on Information Systems，1991，9 (3):187-222.   \n[6] Berthier A，Ribeiro $^ -$ Neto，Muntz R．A belief network model for IR. In：Proceedings of $1 9 ^ { \\mathrm { t h } }$ Annual International ACM SIGIR Conference on Research and Development in Infomation Retrieval（SIGIR'96). Zurich，Switzerland，1996：253—260.   \n[7] Croft W B，Lafferty J（Eds·）．Language modeling for information re\" trieval．Netherlands：Kluwer Academic Publishers，2003 $4 - 6$   \n[8] Ponte JM，Croft WB．A language modeling approach to information retrieval·In：Proceedings of the $2 1 ^ { \\mathrm { s t } }$ Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'98)．Melbourne，Australia，1998：275—281.   \n[9] Miller DR H，Leek T，Schwartz R M·A hidden markov model infor\" mation retrieval system·In：Proceedings of the $2 2 ^ { \\mathrm { n d } }$ Annual Interna - tional ACM SIGIR Conference on Research and Development in Informa\" tion Retrieval（SIGIR'99)．Berkeley，USA，1999：214—221.   \n[10]Berger A，Laferty J.Information retrieval asstatistical translation In：Proceedings of the $2 2 ^ { \\mathrm { n d } }$ Annual International ACM SIGIR Confer enceon Researchand Development in InformationRetrieval (SIGIR'99)．Berkeley，USA，1999：222—229.   \n[11]Lavrenko V，Croft W B．Relevance based language models·In: Orleans，USA，2001：120—127.   \n[12]Furnas G W.Derwester S，Dumais S T，et al．Information retrieval using a singular value decomposition model of latent semantic structure.In：Proceedings of $1 1 ^ { \\mathrm { t h } }$ Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'88)．Grenoble，France，1988：465—480.   \n[13]吴丹．本体在信息检索中的作用分析及实例研究[J]．情报 杂志，2006，(6)：72-75.   \n[14] Diekema A RTranslation events in crosslanguage information re trieval lexical ambiguity，lexical holes，vocabulary mismatch，and correct translations·Ph．D Dissertation．Syracuse University，2003.   \n[15]PirkolaATheeetsfqueyuctureanddcoayeud tionarybased crosslanguage infomationretrieval：In：Proceedings of the $2 1 ^ { \\mathrm { s t } }$ Annual International ACM SIGIR Conference on Research and Development in Information Retrieval （SIGIR'98)．Melbourne，Aus\" tralia，1998： $5 5 - 6 3$   \n[16] Levow GA·Oard D W．Translingual topic tracking with PRISE．In : Working Notesofthe Topic Detectionand Tracking Workshop （TDT'2000）．Gaithersburg，USA，2000； $1 - 6$   \n[17] Oard D W，Wang J Q．NTCIR $- 2$ ECIR experiments at Maryland : comparing structured queriesandbalancedtranslation·In：Proceedings of the $2 ^ { \\mathrm { n d } }$ National Institute of Informatics Test Collection Infomation Retrieval（NTCIR）Workshop．Tokyo，Japan，2001： $1 - 7$   \n[18] CarbonellJG，Yang Y，Frederking RE，et al．A realistic evalua\" tion of translingual information retrieval methods·Personal communica\" tion·LTI,CMU，1997； $1 - 8$   \n[19] Xu JX，Weischedel R，Nguyen C．Evaluating a probabilistic model for cross $-$ lingual information retrieval．In：Proceedings of the $2 4 ^ { \\mathrm { t h } }$ Anual International ACM SIGIR Conference on Research and Develop\" ment in Information Retrieval（SIGIR $^ { \\ ' 0 1 }$ )．New Orleans，USA, 2001：105—110.   \n[20]LarkeyLS，Conell ME.Structured queries，language modeling, andrelevance modeling in cross—language information retrieval·Infor mation Processing and Management，2005，41（3)：457-473.   \n[21] Xu J，Weischedel R·TREC $- 9$ cross $^ -$ lingual retrieval at BBN. In:Proceedings of the $9 ^ { \\mathrm { t h } }$ Text Retrieval Conference( $\\mathrm { T R E C } - 9$ ） Gaithersburg，USA，2001：106 $-$ 116.   \n[22]Liu X，Croft WBStatistical language modeling for information re\" trieval·The Annual Review of Information Scienceand Technology, 2004，39：3-31.   \n[23] Deerwester S，Dumais S T，Furnas G W，et al．Indexing by latent semantic analysis·Journal of the American Society for Information Science，1990，41（6)：391—407.   \n[24] http://www·cindorsearch·com [EB].2008-01—08.   \n[25]王进，等．基于本体的跨语言信息检索模型[J]．中文信息 学报，2004，18（3)：1-8，60."
+  }
+}

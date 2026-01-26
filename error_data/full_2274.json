@@ -1,0 +1,99 @@
+{
+  "original_filename": "full_2274.md",
+  "分面检索模型与关键技术综述": {
+    "context1": "高建忠，何绯娟",
+    "context2": "（西安交通大学图书馆，陕西西安710049）",
+    "context3": "[摘要]从分面检索的基本概念与特点出发，对基于集合论、基于轻量级本体、基于形式概念分析的三类分面模型进行分析归纳，对分面分类体系生成、分面排序及搜索结果排序等关键技术的主要研究工作进行综述，并对有代表性分面检索系统进行说明。",
+    "context4": "〔关键词]分面；分面检索；分面模型；分面术语 [中图分类号]G254.9[文献标识码]A[文章编号]1002-1167（2012）06-0112-05",
+    "context5": "目前图书馆很多检索系统是基于关键词检索及学科目录导航检索方式，如OPAC、学位论文检索系统等。这些传统的检索模式往往采用oneresult list only检索结果呈现方式，导致用户很难从检索结果中筛选出感兴趣的内容，从而引发信息过载（InformationOverload）问题(1-2]。分面检索（Faceted Search）由于具有对检索结果分类、检索流程逐步求精、不产生空结果集等特性，能够解决上述模式存在的问题。本文对分面检索模型与关键技术进行综述，在此基础上对基于分面检索技术的分面系统的性能特点进行分析与概括。"
+  },
+  "1分面检索的基本概念与特点": {
+    "context1": "分面（Facet)：印度图书馆学家阮冈纳赞在20世纪50年代首次提出分面概念，将分面定义为主题的一个维度或视角，提出Personality、Matter、Energy、Space和 Time五个基本分面（简称PMEST)[3-4），并创建第一种文献分面分类法：冒号分类法（ColonClassification，CC）。",
+    "context2": "分面分类体系（FacetedTaxonomy）：由关于特定主题的一组分类体系构成，每个分类体系分别描述这一主题的一个分面4。在分面分类体系中，分面之间属性应满足相互排斥性，即分面间没有共同的术语，该特性保证了分面分类体系的简洁性、易维护性。",
+    "context3": "分面检索（Faceted Search）：同时具备全文搜索和目录索引搜索功能，是探索式搜索，以迭代方式从事物的不同属性（分面）对检索结果不断求精、筛选和过滤得到最终检索结果的检索方法。",
+    "context4": "分面检索能够对检索结果进行多层面、多主题、多属性的分门别类，这符合人们在网络时代对信息海量性、不确定性的引导。与关键词检索及目录导航检索方式进行比较，笔者得出以下结论：",
+    "context5": "（1）分面检索中，用户通过鼠标点击分面或分面术语进行后发式检索，与关键词检索方式相比，用户无需关于数据集先验知识，即可获得较好的检索结果。",
+    "context6": "（2）分面检索是导航式检索，用户选取分面进行筛选，随时扩大和缩小结果范围，且不产生空结果集；与采用试错法方式的关键词检索方式相比，用户不需要尝试多次即可获得期望的结果集；与单一分类体系相比，分面检索适应人们对事物不同的思维与组织方式，不易产生迷航问题。",
+    "context7": "（3）分面检索具有很强的搜索结果分类能力，检索用户可以仅关注所感兴趣类别中的检索结果，忽略其它类别的检索结果，从而能有效缓解信息过载问题。",
+    "context8": "由于上述特点，分面检索近年成为信息检索中的热点研究方向，并在电子商务网站、文献目录数据库、多媒体等多个领域得到应用。"
+  },
+  "2分面检索模型研究": {
+    "context1": "分面模型是对分面分类体系与交互过程的抽象、形式化描述。分面模型从理论基础、分面结构、交互性等方面可分为基于简单集合论（Simple Set Theo-ry）、基于形式概念分析（FormalConcept Analysis,FCA）和基于轻量级本体（LightweightOntology）三种类型。"
+  },
+  "2.1基于简单集合论的分面模型": {
+    "context1": "简单集合论分面模型是运用集合论对象之间的包含、从属关系来组织和描述各分面术语之间的层次体系的方法。Sacco 等提出的 Faceted Taxonomy Model（FTM)[5-6模型依据从属关系（IsA或 Part Of）将分面术语组织成树型结构，允许将数据项映射到多个分面术语上，给出了术语（Terminology）、复合词（Compound Term）、分面分类法（Faceted Taxono-my）、包含（Subsumption）、分类（Taxonomy）等概念的形式化表示，并定义焦点（Focus）、放大点（ZoomPoints）、限制（Restriction）等操作来支持模型的交互性。图1中的（a）（b）两图分别表示这两种从属关系的树型结构。",
+    "context2": "![](images/deb59547fc7f74b4fbacc6bb48b5d3a92c626fd815c4d30c026ebaae2a1ee797.jpg)  \n图1基于简单集合论的分面术语从属关系",
+    "context3": "Bonino等提出的FaSet模型给出分面（Fac-et）、分面空间（Facet Space）、焦点（Focus）等概念的形式化表示，并定义与检索算法相关的过滤计算（Filtering Computation）、焦点相似性（Focus Similar-ity）等操作分别实现分面导航与检索结果排序。Fa-Set主要针对关系型数据库中的数据项，并基于SQL语言实现所定义的操作。",
+    "context4": "Li等人在Facetedpedia系统中提出的分面模型给出分类层次体系（CategoryHierarchy）、分面（Fac-et）、导航路径（NavigationPath）等概念的形式化表示，并定义导航路径代价以实现分面排序。与其它模型不同的是，该模型的结构为有向无环图8]。"
+  },
+  "2.2基于形式概念分析的分面模型": {
+    "context1": "形式化概念分析模型是对概念哲学理解的数学化处理，是以人为中心对数据的内在结构、含义及相关性形象化的方法。典型模型是Pris等提出的FKR（Faceted Knowledge Representation）模型9]。该模型给出单元（Units）、关系（Relations）、分面（Fac-ets）等概念的形式化表示，并将分面术语组织成格结构。FKR的不足在于仅支持数据项与分面术语的单一映射，不支持动态交互。"
+  },
+  "2.3基于本体的分面模型": {
+    "context1": "典型的基于本体的分面模型是Giunchiglia等提出的分面轻量级本体（Faceted Lightweight Ontologies）模型(10。轻量级本体是一种类似于树形的结构，该结构的每一节点标签是一个语言独立的命题描述逻辑公式，该模型包括描述型本体和分类型本体。分面轻量级本体模型可以很好地应用于某一个专业领域，但未定义交互性操作。"
+  },
+  "2.4三类分面模型对比分析与归纳": {
+    "context1": "可从理论基础、模型结构、核心概念、交互性及对应的分面系统等方面对各分面模型进行分析。",
+    "context2": "（1）简单集合论作为分面模型理论基础的分面模型有 FTM、FaSet、Facetedpedia等。FTM和 FaSet的模型结构为树型结构、Facetedpedia为有向无环图。各核心概念和交互性前面已经提及，典型分面原型系统主要有 dbWorld Xtended[]、Facetedpedia[8]",
+    "context3": "（2）形式化概念分析典型分面模型：分面知识表示模型（FKR），典型原型系统FaIR[12]。",
+    "context4": "（3）基于本体的分面模型：分面轻量级本体（FLO)，典型原型系统 Living Knowledge Project[13]。",
+    "context5": "通过上述三类分面模型的分析，可看出基于简单集合论的分面模型不仅对术语、分面、分面分类体系、数据项到分面分类体系的映射等进行形式化描述，而且在动态交互性方面优于其它类型的分面模型。"
+  },
+  "3分面检索关键技术": {
+    "context1": "在对现有分面搜索系统分析的基础上，笔者提出一个涵盖分面分类体系生成、分面排序及搜索结果排序等功能的分面搜索系统体系结构，如图2所示。以下结合该体系结构，对三项关键技术进行阐述。"
+  },
+  "3.1分面分类体系构建": {
+    "context1": "分面分类体系生成是以自动化或半自动化方式构建分面分类体系，这是进行分面检索的前提。分面分类体系生成包括分面术语抽取和概念层次体系构建两个过程。",
+    "context2": "![](images/7fdd27702e1522e7c615e6492fc00611345ab66e5b24c7cc32d080988623824d.jpg)  \n图2分面搜索系统体系结构",
+    "context3": "分面术语抽取主要完成从数据对象（如自然语言文本、Web页面、关系数据库）中自动抽取用于层次体系构建的术语。对该问题的解决往往综合运用文本的统计特征、语言学特征及外部资源。典型算法研究如 Hearst等人提出基于词汇分布频率的分面术语识别算法Castanet[14]，该算法选择词频大于一定阀值的词汇作为分面术语。Anick等人提出一种基于词汇离散度的分面术语抽取算法(15]。词汇离散度是指文本集中包含该词的组合词的数目。该算法以文本集合为输入，输出离散度最高的词作为分面术语，最频繁的组合词作为该分面术语对应的属性值。",
+    "context4": "概念层次关系构建用于发现分面术语之间的从属关系（IsA或PartOf）以建立分面分类体系。在构建分面分类体系过程中，有些算法能够同时实现分面分类体系与数据对象之间的映射，即建立了实体化的分面分类体系。概念层次关系的构建一般包含以下几种方法：",
+    "context5": "（1）基于模式匹配的方法。通过发现文本中存在的层次关系表示语言，来查找概念之间的关系。代表性方法是Hearst-pattern方法[16]，还可利用首语重复法来抽取同位概念、利用合成词（修饰词 $+$ 主要词)来抽取上下位类概念。",
+    "context6": "（2）基于分布式假设的方法。Harris提出的分布式假设认为，在同一上下文环境中出现的词趋向于有一个确定的相似意义，其本质意义就是一个词是通过它周围环境中的其它词来描绘其特点的，更进一步，一个词的意义是通过与它一同出现的词，以及这些词与该词同时出现的频次决定的(17。分布式假设构成了统计语义学的基础，同样也构成了语义关系抽取的一条重要理论方法。",
+    "context7": "（3）基于文献频次统计术语包含关系的方法。",
+    "context8": "Mark Sanderson[18认为，概念层次关系构建是一个将术语按从综合性到专业性进行排序的过程，他参照Forsyth和Rada的研究成果认为一个术语的综合性或专业性可以通过它的文献频次（DF）来判定，在同一文献集中，如果出现某个术语的文章数越多，这一术语就可能会越综合。因此，Mark Sanderson认为对于两个术语 $\\mathbf { x }$ 和 $_ \\textrm { y }$ ，如果它们满足 $P$ $( \\boldsymbol { \\mathscr { x } } \\mid \\boldsymbol { y } ) \\ = 1$ ， $P$ $( \\boldsymbol { y } \\mid \\boldsymbol { x } ) \\angle 1$ ，则 $\\mathrm { x }$ 包含 $_ \\mathrm { y }$ 。也就是说，如果有术语y出现的文献集是有术语 $\\mathrm { x }$ 出现的文献集的一个子集，则术语 $\\mathbf { x }$ 包含 $_ \\mathrm { y }$ 。",
+    "context9": "目前也有一些方法将以上三种方法有机整合，形成一个统一的体系，从多个角度来构建概念层次关系，取得较好的效果。"
+  },
+  "3.2分面排序": {
+    "context1": "当数据项的分面及其术语较多时，受界面尺寸限制，有必要按照某些原则选择出分面或术语的子集构成分面搜索界面。典型方法包括依据分面分类能力及分面间关联性两种类型。",
+    "context2": "依据分面分类能力的典型研究如：Oren等采用属性的平衡性、属性基数与取值变化频次来排序分面(19。Roy等将对结构化数据库的分面导航过程看成构建最小代价 （决策树的根到叶子的平均路径最小）决策树的过程(20。基于分面间关联性的典型研究如：Li等提出选择平均导航路径代价最小分面为最优分面，这里的导航路径代价由导航路径的深度取对数得到(11]。"
+  },
+  "3.3搜索结果排序": {
+    "context1": "搜索结果排序功能类似于一般信息检索模式的结果排序，用于当查询精化的过程中检索结果过多时，对检索结果按照一定规则和用户选择进行排序。"
+  },
+  "4典型分面系统": {
+    "context1": "目前分面搜索已在文献检索、电子商务等不同领域得到应用，产生了大量的分面搜索系统。笔者选择较有影响力的6个分面搜索系统进行分析。",
+    "context2": "在结构化数据检索方面，Berkeley大学的Fla-menco[21、UTA大学的 DynaCet 20]和 Buffalo 大学的FACeTOR对结构化数据库构建分面导航界面，且都使用数据库表的属性作为分面。",
+    "context3": "在非结构化数据检索方面，UTA大学的Facet-edpedia实现了自动构建分面导航界面，以维基百科文章的标题作为分面，从维基百科分类系统得到分面分类体系并提出根据平均相似度来确定分面搜索界面。Forth大学的Mitos(22首先爬取Web页面，通过聚类的方式形成分面，允许用户动态组织分面分类体系。Yahoo！的MediaFaces(23]从Yahoo！网站上多媒体数据集的半结构化注释中生成分面分类体系，并根据用户的查询日志对分面进行排序。"
+  },
+  "[参考文献]": {
+    "context1": "[1] Brian T. Sulivan. Academic Library Autopsy Report, 2050[ER/OL]． http：//chronicle com/article/AcademicLibrary-Autopsy/125767/.",
+    "context2": "[2]Harvard Moves Ahead with Library Reorganization [EB/OL]．http：//www. libraryjournal com/lj/home/ 892234-264/harvard_moves_ahead_with_library. html csp.",
+    "context3": "[3]Librarians in the U S from 1880-2009 [EB/OL]．http：//",
+    "context4": "www. swissarmylibrarian. net/2ol1/06/21/librarians-in the-u-s-from-1880-2009/?utm_source $: =$ LISNews.",
+    "context5": "[4]图书馆陷入转型之困〔EB/OL]．http：//news.xinhuanet com/bo0k/2010-11/04/c_12736231.htm.",
+    "context6": "[5]知识服务推动图书馆转型—-“2012知识服务专家论坛”纪要〔J]．图书情报工作，2012（3）：5.",
+    "context7": "[6]魏东原．专业图书馆科学管理的实践探索〔J．图书馆论坛，2010（6)：296-298，309."
+  },
+  "〔4]宋克强，许培基．冒号分类法解说及类表〔M]．北京：书目文献出版社，1986：32.": {
+    "context1": "[5]G.M Sacco.Dynamic taxonomies:a model for large information bases [J]，IEEE Transactions on Knowledge and Data Engineering，2000，12（3)：468-479.   \n[6]G.M Sacco，Y.Tzitzikas. Dynamic taxonomies and faceted search：theory， practice，and experience [M]，lst ed.New York：Springer，2009.   \n[7]D.Bonino，F.Corno，L.Farinetti.FaSet：A Set Theory Model for Faceted Search[C]．in Proceedings of the 2009 IEEE/WIC/ACM International Joint Conference on Web Intelligence and Intelligent Agent Technology-Volume 01，2009：474-481.   \n[8]C.Li，N.Yan，S.B.Roy，et al.Facetedpedia：dynamic generation of query-dependent faceted interfaces for wikipedia [C].in Proceedings of the 19th international conference on World wide web，Raleigh，North Carolina，USA，2010：651-660.   \n[9]U.Priss. Description Logic and Faceted Knowledge Representation [C].in Proceedings of the $1 9 9 9 ~ \\mathrm { ~ I n ^ { - } }$ ternational Workshop on Description Logics $\\mathrm { \\Omega [ D L ^ { \\prime } 9 9 \\rangle }$ ， Link? ping，Sweden，1999.   \n[10]F Giunchiglia，B Dutta，V. Maltese.Faceted Lightweight Ontologies，Conceptual Modeling： Foundations and Applications，Lecture Notes in Computer Science A.Borgida，V.Chaudhri，P.Giorginietal.，eds [M]．Springer Berlin/Heidelberg，2O09：36-51.   \n[11]G.M Sacco.“DBWorld Xtended：Semantic Dissemination of Information through Dynamic Taxonomies” [C]Proceedings of I-KNOW，2005.   \n[12]U Priss.“Faceted Information Representation”[C].in Proceedings of the 8th International Conference on Conceptual Structures， 20oo：84-94.   \n[13]“living knowledge-project”[EB/OL].[2012-06-16]. http：//livingknowledge-project.eu/.   \n[14]E Stoica，M A. Hearst，M. Richardson. Automa ting Creation of Hierarchical Faceted Metadata Structures [C]． Proceedings of the Human Language Technology Conference of the North American Chapter of the Association for Computational Linguistics （HLT-NAACL)，2007： 244-251.   \n[15]P.G. Anick， S. Tipirneni. The paraphrase search assistant: terminological feedback for iterative information seeking [C]. in Proceedings of the 22nd annual international ACM SIGIR conference on Research and development in information retrieval，Berkeley，California，United States，1999：153-159.   \n[16]Hearst，M. A. Automatic acquisition of hyponyms from large text corpora [C]．Proceedings of the 14th conference on Computational linguistics，1992（2）： 539-545.   \n[17]Harrs，Z. Distributional structure ［J]． The Philosophy of Linguistics，1985：26-47.   \n[18]M Sanderson，B. Croft. Deriving concept hierarchies from text [J]. Research and Development in Information Retrieval，1999：206-213.   \n[19]Oren，R Delbru，S. Decker.Extending faceted navigation for RDF data [C]． Proceedings of the 5th International Semantic Web Conference（ISWC），2006: 559-572.   \n[20]SB Roy，H D.Wang，U.Nambiar，et al.DynaCet： building dynamic faceted search systems over databases [C]．IEEE 25th International Conference on Data $\\mathrm { E n ^ { - } }$ gineering（ICDE)，2009：1463-1466.",
+    "context2": "[21]K.P.Yee，K Swearingen，K.Li，et al.Faceted metadata for image search and browsing [C].Proceedings of the SIGCHI conference on Human factors in computing systems，2003：401-408.",
+    "context3": "[ 22 ]Y. Tzitzikas， N. Armenatzoglou，P. Papadakos. FleXplorer：A Framework for Providing Faceted and Dynamic Taxonomy-Based Information Exploration [C]．Proceedings of the 19th International Conference on Database and Expert Systems Application，2008: 392-396.",
+    "context4": "[23]R v Zwol，B Sigurbjornsson，R. Adapala，et al.Faceted exploration of image search results [C].Proceedings of the $1 9 \\mathrm { t h }$ international conference on World wide web，2010：961-970."
+  },
+  "Model and Technique of Facet Search: An Overview": {
+    "context1": "GAO Jian-zhong，HE Fei-juan (Xi'an Jiaotong University Library，Xi'an 71o049，China)",
+    "context2": "Abstract：This paper introduces thebasicconceptsandcharacteristicsof thefaceted search，andthen presentsacomparative analysis ofthreekindsoffacet models，i.e.settheory-based,FCA-based，andlightweightontology-based.Next，this paper proposesageneralframework for faceted search，and surveys some related methodsand techniques，including faceted taxono myconstruction，results refinement andranking.Finall，thepaper conducts a studyon the existing typical faceted search systems.",
+    "context3": "Keywords：facet；faceted search；faceted model；facted terms〔作者简介〕高建忠（1972-）男，西安交通大学图书馆馆员。",
+    "context4": "[收稿日期]2012-03-19"
+  },
+  "（上接第169页）": "",
+  "Practice and Exploration of Professional Libraries’ Transformation": {
+    "context1": "WEI Dong-yuan",
+    "context2": "(Guangdong Provincial Library of Science and Technology，Guangzhou 51oo7o,China)",
+    "context3": "Abstract：Throughanalyzingthetransformationpracticeofprofessonallibraries，combined withthecurrentsituationoflibraries， especiallyprofesionallibraries，athome andabroad，this paper propose thatonlytowards scientific development directions, canprofessionallibrareshveabrightfuture，onlycaryoutmore multipleservices willtheproffesionallibrariesnotbeneglected by the society，only with more effective management can professional libraries be prosperous.",
+    "context4": "Keywords:professional libraries；transformation；practice"
+  },
+  "[作者简介]魏东原（ $1 9 6 4 - )$ ，男，博士，研究馆员，广东省科技图书馆党委书记兼副馆长。": {
+    "context1": "[收稿日期]2012-05-07"
+  }
+}

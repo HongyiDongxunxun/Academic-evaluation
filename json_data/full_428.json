@@ -1,0 +1,74 @@
+{
+  "original_filename": "full_428.md",
+  "Java新进展及其对图书馆的意义": {
+    "context1": "王纯",
+    "context2": "(曲阜师范大学图书馆，山东 273165)",
+    "context3": "摘要综观当今IT 世界的两大潮流，可以说一是Internet，一是Java。目前，Java已经推出新的 2.0版本，它比以前的版本更受用户欢迎。本文通过分析Java1.0到 $\\mathrm { J a v a ^ { 2 } }$ 的功能选项，向读者介绍Java的新进展，把Java作为建立读者兴趣的程序的工具，并由Java2的新特性看到 Java 对图书馆的意义。",
+    "context4": "关键词Java 图书馆 Web",
+    "context5": "图分类号 TP312 G25.7 文献标识码A 文章编号1007-7634（2003)01-0033-03"
+  },
+  "New Developments of Java and Its Significance for Library": {
+    "context1": "Wang Chun",
+    "context2": "(Library of Qufu Normal University， Shandong273165)",
+    "context3": "AbstractThere are two important trends in today's IT world:Internet and Java·Java has already produced its new $2 , 0$ version and it is much more popular than the old version $\\cdot$ By analyszing some of the functional selections of Java's old and new version,this paper introduces to the reader Java's new developments，taking Java as a programming tool in which the readers are very interested $\\cdot$ From its new characteristics，we can also see Java's significance for library",
+    "context4": "KeywordsJava LibraryWeb",
+    "context5": "Java 编程语言是1995 年由美国 Sun Microsystems 公司正式发布的。Java 内置了支持网络、进程间通信和可移植图形界面等功能，正成为主流应用程序的强大平台。从集团的内部网到PC机的桌面系统，Java将是21世纪软件开发的重要工具。",
+    "context6": "计算机语言可分为三个层次：最高层是一种完全为解释型的高级语言；中间是平台独立，又结合了面向对象特色的语言;最低层是与平台有一定相关性能满足各种开发项目要求的语言。Java是一种中间层语言，是一种简单、面向对象、分布式、体系结构中立、可移植、高性能、多线程和动态性的语言。",
+    "context7": "取一条指令，然后执行与该指令相应的机器码，该过程不断循环直到指令被处理完，或者有指令使它停止处理。采用该结构的最大优点是带来了Java语言的平台无关性，Java语言的字节码文件可以在任何具有Java 虚拟机的机器上执行，而现在的主流操作系统都具有Java 虚拟机。另外，由于编译过程中（Javac）已经进行了词法、语法、语义分析，字节码解释器无需再做通常语言解释器所要做的词法、语法、语义分析工作，所以字节码解释器比语言解释器速度快。这种结构使得编译系统也具有良好的可移植性。采用该结构还支持Java语言的动态特征和安全性。其缺点是：由于是解释执行，与完全编译执行的程序相比，速度还是太慢，也很难采取优化措施。"
+  },
+  "1 Javal.O的特点": {
+    "context1": "Netscape 公司在1996年1月推出的 NetscapeNavigator2.0中支持 $\\mathrm { J a v a l . 0 }$ 版。之后，许多公司，例如 IBM等都获得了Java 的许可证，Microsoft也在它的浏览器中支持Java。究其原因，在于Java是一个非常适合于当前计算机技术发展要求的语言。",
+    "context2": "Java 第一代采用解释器。Javac 将源程序编译生成字节码，由Java 虚拟机解释执行。Javal.O编译系统结构是由编译器和虚拟机组成的。Java 编译器（Javac）将Java 源代码编译生成字节码，并将其放入字节码文件(·clss 文件)。Java虚拟机（JVM）则首先对字节码进行载入、校验，通过校验后，解释器开始对字节码进行解释执行。其工作原理为每次"
+  },
+  "2从Javal. O到Javal·1": {
+    "context1": "$\\mathrm { J a v a 1 . 1 }$ 是 $\\operatorname { S u n }$ 公司在1997年推出的。及时编译是Java第二代的新进展。在方法被执行前，直接将字节码编译为机器代码，这称为及时编译，速度能提高 $6 \\sim 1 0$ 倍。许多读者比较熟悉Javal.O,但可能还不熟悉Javal·l，因此首先介绍一下 $\\mathrm { J a v a 1 . 0 }$ 到 Javal·1的变化。",
+    "context2": "抽象窗口工具增强。Javal·1支持打印、快速滚动、弹出菜单、剪贴板、事件模型、图像和图形增强等。此外，执行速度比 $\\mathrm { J a v a 1 . 0 }$ 更快。",
+    "context3": "· jar 文件。·jar（Java 文档）文件出现在Jayal·1中。它允许将若干文件作为一个包，然后压缩这些文件，这样用户一次可以下载许多文件。可以将许多小程序和数据放在一个·jar 文件中,这使得下载更快。除了浏览器下载·jar文件，然后随时解压它们之外，这些文件类似于·zip文件。",
+    "context4": "国际化Javal·1允许程序员开发本地小程序，包括使用UNICODE字符、本地机制，它支持对消息本地化、本地日期、时间、时区和数字系统。",
+    "context5": "带签名的小程序和数字签字Javal·1能够建立数字签名的Java应用程序，在出现错误的情况下，数字签字向用户提供返回的“路径\"。这是WordWideWeb上最流行的新安全性机制。",
+    "context6": "远程方法调用。在Javal·1中，远程方法调用（RMI）允许Java 对象从运行在其它Java对话中的Java代码中调用方法。这类似于本地远程过程的调用（LRPC)。",
+    "context7": "对象串行化。串行化（Serialization）在Javal·1中是新特性。它允许用户利用二进制输入/输出流存储和处理对象。除了允许存储你串行化的对象拷贝之外，串行化也是RMI中对象通信的基础。对于熟悉Microsoft 基础类的读者说，对象串行化类似于MFC 串行化。",
+    "context8": "反射（Reflection)。在Javal·1中，反射允许Java代码检查有关方法和装载类的构造器，并且利用这些反射的方法和构造器。",
+    "context9": "内部类（Inner classes)。Javal·l使得建立适配器类更加容易。适配器类是实现API（应用程序接口）所需要的接口的类。适配器类将控制“递交”回给结束的主对象。",
+    "context10": "新Java方法接口。固有（native）代码是为专为某个特定机器编写的代码。在Javal.1中,这个接口用于为编写 Java固有方法提供标准编程接口。主要目标是在给定平台上跨越全部Java虚拟机固有方法库的二进制兼容性。编写和调用固有代码能够极大地提高执行速度。Javal·1包含一个功能十分强大的新Java 固有方法接口。",
+    "context11": "Byte、Short 和Void类。在Javal·l中，当使用新的 Java类Byte 和 Short 时，可以将字节（byte）和短（short）值作为\"环绕式\"数字处理。新的Void类是一个位置标识符。我们能够从Void 类派生类，而不是直接使用它。",
+    "context12": "废弃的方法。在Javal·1中，许多Javal.O的方法被认为是过时的。在Javal·1文档中这些方法被标记为被废弃的（当Java 编辑器遇到使用被废弃特征性的代码时，它显示一个警告信息)。",
+    "context13": "网络增强。Javal·1中的网络增强包括在Java $\\cdot$ net基类中支持有选择的 BSD 套接字功能。在Javal·1中，Socket 和ServerSocket是非最终可扩展的类。为了更准确地报告和处理网络错误，增加了 Socket Exception 的新子类。",
+    "context14": "I/O 增强。在Jayal·1中，字符流扩展I/O 包。字符流除了包含16位Unicode字符而不是8位字节之外，它与字节流相同。字符流使得编写独立于特定字符编码的程序更加容易，因而更易于国际化。几乎字节流的全部可用功能也都对字符流画网https://www.cnki.net",
+    "context15": "以上是Javal·1中新特性的概述。现在我们看一下Java2",
+    "context16": "中的新特性。"
+  },
+  "3从Javal.1到Java2": {
+    "context1": "Java 第三代是动态编译。实际应用中大部分程序往往是$20 \\%$ 的代码花费程序运行时间的 $8 0 \\% \\mathrm { S u n }$ 公司提出一种热点技术，就是要找出这 $20 \\%$ 的代码，将其编译成本地代码并采用高效的优化技术进行优化，以提高程序的运行效率。动态编译器包括解释器、及时编译和测试器。测试器记录代码被执行的性能信息，测试器设计是动态编译技术的关键。",
+    "context2": "安全性增强。现在当装入代码时，根据目前有效的安全性策略对代码分配权限。每个权限指定对某个资源的访问权限（诸如，对某个文件或目录的“读”和“写”权限，对某个主机和端口的\"连接\"权限等等)。外部可配置的策略文件可以初始化策略(它指定从各个签字人/位置，代码的可用权限)。除非明确地对代码分配权限，否则不能访问被权限保护的资源。",
+    "context3": "Swing（JFC)。Swing是Java 基础类（JFC）的一部分，它使用“可插入的\"视觉组件（Look and feel）实现一组新的GUI部件。Swing 用纯Java实现，并且基于JDK1.1轻量级UI框架。可插入的视觉允许你设计一组GUI部件，这组GUI部件能够自动地具有任何平台（例如，Windows,Solaris，Macintosh）的视觉（look and feel）。",
+    "context4": "Java 2D（JFC)。Java2DAPI是为高级2D 图形和图像准备的一组类。它在一个完整的模型中包括线形图、文本和图像。",
+    "context5": "易用性(JFC)。通过Java易用性API，开发人员能够建立Java应用程序。这些应用程序能够使用有益的技术，比如屏幕阅读器、语音识别系统和盲文终端。",
+    "context6": "拖放（JFC)。拖放能够使数据在Java 和应用程序之间、在Java 应用程序之间和一个Java 应用程序内传输。",
+    "context7": "聚集（Collections）。Java 聚集API是为演示和操纵 Java聚集而设计的统一框架(后面将详细介绍有关聚集的内容)。聚集可以独立于它们代表的细节。",
+    "context8": "Java 扩展。框架（Framework）扩展是Java类（和任何相关代码）的软件包。应用程序开发人员可以使用它们扩展核心平台。扩展机制允许Java 虚拟机（VM）以它使用系统类的方式使用扩展类。",
+    "context9": "Java Bean 增强。Java2向开发人员提供了建立复杂 JavaBean 部件和应用程序所需的标准机制。这些Java Beau 部件和应用程序向客户提供了与延时环境的无缝集成。诸如基本操作系统或浏览器。",
+    "context10": "输入方法框架。输入方法框架使得所有文本编辑部件能够通过标准输入方法接收日文、中文或朝鲜的文本输入。",
+    "context11": "软件包版本标识。\"版本标识\"能够确定软件包的版本，应用程序和小程序能够在运行时标识某个Java延时环境、VM 和类软件包的版本。",
+    "context12": "RMI增强。远程方法调用（RMI）具有若干新增强，包括远程对象激活（它支持远程对象和自动对象激活）和客户套接字类型（它允许远程对象指定RMI对那个对象远程调用使用的客户套接字类型。使用客户套接字类型，支持通过安全传输的 RMI，比如 SSL)。",
+    "context13": "串行化增强。目前串行化包括允许指定对象的串行化数据，而与类的域无关。使用现在的技术，这允许串行化数据域写向流（stream）或从流读入（这保证与缺省读和写机制兼容)。",
+    "context14": "引用对象。引用对象封装对某个其它对象的引用，这样可以像任何其它对象那样检查和操作引用本身。引用对象允许程序保持对一个对象的引用，而不阻止对象被Java\"垃圾聚集器\"收问，垃圾聚集器（garbage collector）管理内存。",
+    "context15": "声频增强。声频增强包括新的声音引擎，并且支持小程序和应用程序中的声频。",
+    "context16": "Java IDL。Java IDL 向 Java 增加了COBRA（CommonObjectRequestBrokerArchitecture)功能，它提供基于标准的互操作性和连接性。Java IDL 使分布的具有Web 能力的Java 应用程序，能够使用工业标准OMGIDL（ObjectManagement Group Interface Definition Language) 和 IIOP（由对象管理小组定义的 Internet Inter－ORB Protocol）透明地在远程网络服务上调用操作。",
+    "context17": "JAR 增强。增强包括用于建立和更新JAR文件的命令行JAR工具所增加的功能，对于读和写JAR文件也有新的标准API。",
+    "context18": "JNI增强。Java 固有接口（Native Interface)是编写 Java固有方法和将Java虚拟机嵌入到应用程序中的标准程序设计接口。主要目标是在某个平台上跨越所有Java虚拟机固有方法库的二进制兼容，Java2 扩展了Java 固有接口（JNI)，融合了Java平台中的新特性。",
+    "context19": "JVMDI。新调试器接口，Java虚拟机，对调试提供低级服务。这些服务的接口是Java 虚拟机调试器接口（JVMDI）。",
+    "context20": "JDBC 增强。Java 数据库互联（JDBC）是标准 SQL数据库访问接口，它提供对广泛的关系数据库的统一访问。JDBC也提供一个公共基础，较高级工具和接口可以构造在这个公共基础之上Java2 软件，包括JABC 和 JDBC－ODBC 桥。",
+    "context21": "Java 在编译技术、虚拟机技术、Java2平台、构件模型与EJB、Jini技术等方面都有了新进展。Java2平台是1998 年12 月8日Sun 公司首次在纽约宣布的核心Java 技术的新版本。其新特性如上所述。EJB是运行在服务器端的 JavaBean，由Sun公司1999 年6月份正式推出，客户端通过RMI（远程方法调用）为用户提供服务，包括装载EJB、事务管理、创建Bean、状态管理、安全等。Jini技术是1999 年1月25日在旧金山的Sun 公司全球分析家大会上发布的具有革命性的新技术。它将Java技术所建立起来的基于开放性标准的以网络为中心的计算模型又大大向前推进了一步，摧毁了传统的网络壁垒，使用户能从任何地点将任何消费类电子产品和企业设备简单地与网络相连。Jini的体系结构分为信息基础设施、编程模型、服务三大部分。Jini技术大大简化与网络的互动关系，实现网络简单联结，即插即连。对用户来说，在网络上联结设备和软件就像打电话那么简单。而对图书馆服务来说，简化了服务的提供与管理，使之能为用户提供更方便更多的特殊服务。"
+  },
+  "4 Java对图书馆的意义": {
+    "context1": "Java 所具有的开放性、安全可靠、应用范围广泛、节约成本费用、易于操作等优势，使Java在图书馆计算机与自动化工作中大有用武之地，它对图书馆的意义主要表现以下几个方面。",
+    "context2": "（1）图书馆依托网络跨地域、超时空地开展信息服务已成为大势所趋，其中Internet互联网是重要的依托对象。Java编写的程序可使网页由静态转变为动态，并赋予它生动活泼的动画效果。有了这个工具，网页的设计制作会更具表现力。",
+    "context3": "（2）用户无时无刻不在担忧网络病毒所造成的种种危害。Java具有阻断病毒传播的能力，因而用户更有兴趣。（3）平台问题对图书馆的困扰，几乎是从它实现自动化的第一天就开始了。Java具有解决这方面问题的独特优势。（4）经费问题对图书馆的发展构成了严重的威胁。采用Java瘦客机/服务器模式建网络可以减少硬件及软件方面的支出，更可减少系统维护方面的开销。(5)Java程序易于编写，并以小型化为特征，因而能在任何地方运行，具有广泛的适应性。",
+    "context4": "综上所述，美国 $\\operatorname { S u n }$ 公司开发的Java，是能在因特网上使用、独立于各种软件硬件平台的、具有交互能力的一种软件技术。Java可以产生小应用程序，它突破了常规模式，允许用户通过因特网调用服务器上的应用程序并传输到本地的机器上予以执行。Java在许多方面已经改变了Web 和Web 程序设计。Java使得Web页面活龙活现，它可以显示按钮、菜单、图像和动画。Java推出新的2.O版本，比以前的版本更受用户欢迎。越来越多的Web 浏览器具有Java解释功能，越来越多的计算机支持Java，Java十分活跃。Java2具有的许多功能强大的选项，也将为图书馆的信息服务带来生机。"
+  },
+  "参考文献": {
+    "context1": "1冀振燕，程虎·Java编译系统的研究·计算机研究与发展，1999（1)  \n2 （美)ScottRobertLadd 著，辛运伟等译·Java 算法．电子工业出版社，1998  \n3 （美）StevenHolzner著，王岚波等译·Java2轻松进阶·电子工业出版社，1999  \n4程虎·Java又见新功夫·中国计算机用户，1999（23)  \n5郑登理·Java 对图书馆的意义·情报学报，1999（5)",
+    "context2": "(责任编辑：孙晓明)"
+  }
+}

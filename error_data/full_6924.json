@@ -1,0 +1,81 @@
+{
+  "original_filename": "full_6924.md",
+  "数字图书馆的多语言信息存取": {
+    "context1": "Europeana项目进展与启示",
+    "context2": "杜慧平",
+    "context3": "（上海师范大学图书馆 200234;南京大学信息管理系210093)",
+    "context4": "文摘介绍欧洲数字图书馆项目 Europeana的多语言存取研究进展,包括拟实现的功能、内部架构和关键技术,如语义数据层的词表映射、命名实体识别、翻译消歧、语言识别等，并分析了数字图书馆的多语言存取存在的问题和可能解决的方法，为我国数字图书馆建设提供借鉴。",
+    "context5": "关键词数字图书馆跨语言信息检索Europeana项目多语言存取",
+    "context6": "Multilingual Information Access in Digital Library: Europeana Project Du Huiping ( Shanghai Shanghai Normal Univeristy Library 200234;",
+    "context7": "Nanjing Department of Information Management of Nanjing University 210093)",
+    "context8": "Abstract: This article introduced the progress of Multilingual Information Access in one of the most important European digital library projects - Europeana，including its MLIA functions，inner structure and key techniques，such as the mapping of diferent control dictionaries ，named entity recognition，translation candidates disambiguation and language recognition. Existing problems were also analysed in order to provide example for the construction of Chinese digital libraries.",
+    "context9": "Key words: Digital library，Cross language information retrieval，Europeana project，Multilingual information access"
+  },
+  "1前言": {
+    "context1": "多语言性、多文化性和多媒体形式是数字图书馆的三个主要特征，根据“互联网世界统计\"的数据显示,英语是互联网上使用最多的语种,用户占$2 7 . 3 \\%$ ,汉语次之，占 $2 2 . 6 \\%$ ，然后是西班牙语$( 7 . 8 \\%$ ）、日语 $( 5 . 0 \\%$ ）、葡萄牙语 $( 4 . 2 \\%$ ）、德语$( 3 . 8 \\%$ ）、阿拉伯语 $( 3 . 3 \\%$ ）、法语 $( \\ 3 . 0 \\%$ ）、俄语$( 3 . 0 \\%$ ）、韩语( $2 . 0 \\%$ ）。多语言信息资源丰富了数字图书馆的馆藏，但同时也为用户获取信息资源带来障碍,因此数字图书馆虽然跨越了地域和空间的限制，但用户获取非母语信息资源时仍然存在问题。",
+    "context2": "数字图书馆的多语言存取问题早已受到世界范围的重视，美国、印度、日本等国家陆续后动和开展了相关研究项目，在语言问题较为突出的欧洲更为如此,从而积累了丰富的经验。根据吴丹等学者对我国五所高校图书馆所提供的多语言信息存取服务调查，以及对武汉大学师生对多语言信息存取服务的需求调查结果，我国数字图书馆用户十分需要多语言信息资源,在使用过程中也存在一定困难,建议数字图书馆提供相应跨语言信息检索服务。",
+    "context3": "对多语言信息存取及跨语言信息检索技术在数字图书馆中的应用研究，对实现信息共享和提高国内外科学文化交流都具有重要的实践意义。本文主要介绍目前欧洲较重要的数字图书馆项目之一-Europeana的多语言存取的解决方案和研究成果，并分析了存在的主要障碍和解决途径，旨在为我国数字图书馆建设提供借鉴。"
+  },
+  "2跨语言信息检索技术在数字图书馆中的": "",
+  "应用": {
+    "context1": "多语言信息存取（Multilingual Information Ac-cess，MLIA）,指从多语文献集合中存储和检索信息,不仅包括语言识别、字体解码、多语言内容显示等基本功能，还包括检索和存储多语种信息。跨语言信息检索( Cross -Language Information Retrieval,CLIR)则特指实现用某种语言(源语种)的查询提问从不同语种(目标语种)的信息资源中检索相关文档的技术，它涉及到查询提问和检索结果的翻译、多语言检索结果的合并、自动摘要和检索结果的多语种显示等问题。根据翻译策略的不同，跨语言信息检索可以分为查询翻译、文献翻译、中间语言方法、同源匹配和不翻译等。Salton于1971年报道了跨语言信息检索实验，开后了该领域研究的先河。经过40 年发展,尤其是在CLEF、NTCIR和TREC 三大信息检索评价论坛所提供的跨语言测评项目的推动下，跨语言信息检索技术已经日趋成熟，有实验结果显示其检索性能已经接近单语信息检索。",
+    "context2": "解决数字图书馆的多语言信息检索问题是跨语言信息检索技术的主要应用之一。除了具体技术如命名实体识别、短语识别、跨语言词典的构建外，目前研究主要集中在以下方面： $\\textcircled{1}$ 系统架构研究-；$\\textcircled{2}$ 潜在用户的论证[10-1； $\\textcircled{3}$ 实际建设项目实验。如欧盟联机目录的跨语言存取项目CACAO(Cross-Language Access to Catalogues and On - line Librar-ies）[、文化遗产的多语言存取项目MultiMatch(Multilingual/Multimedia Access to Cultural Herit-age）[、欧洲数字图书馆项目 TEL（The European li-brary）[4等。Yahoo 和Google 分别于2005年和2007年引入跨语言信息检索服务，代表了该技术真"
+  },
+  "正走向实用化,这无疑鼓舞了数字图书馆的多语言信息存取项目的实施。": "",
+  "3Europeana项目的多语言存取研究和实践": {
+    "context1": "由欧委会(Europe Commission)和会员国文化和教育部(Member States'ministries of Culture and Edu-cation)的共同资助,Europeana项目于 2008 年后动，目的是使欧洲的科学文化遗产广泛传播于众。目前通过Europeana 能够检索来自欧洲27个国家的1500余所机构，包括图书馆、档案馆、博物馆等所馆藏的一千万多条记录，如图书、绘画、电影、博物馆展品、档案等信息。它采集会员馆的元数据信息以提供用户检索，再通过超链接把用户指引到真正的馆藏地。目前,Europeana已经提供29种语言界面供用户定制,以及机器翻译功能,目前正致力于跨语言信息检索功能的实现。"
+  },
+  "3.1系统总体规划": {
+    "context1": "Europeana项目的多语言存取建设的目标是，通过提问翻译实现多语言检索，通过对不同来源馆藏所使用的不同语种的知识组织系统工具之间建立映射来实现多语言浏览和查询，并从以下三个方面着手实施:建立多语言翻译和映射用语言库——Europeana语言资源库，其内容包括停用词表、语言探测器(lan-guageguessers）、语言分析器和翻译词典;实现元数据中的主题标目和其他受控词表之间的多语言映射;开发一套翻译模块和服务，并整合到总体检索框架中（见下图）[。Europeana项目计划前期首先实现需求量最多的六种语言的跨语言信息检索功能，包括英语、德语、西班牙语、法语、意大利语和波兰语。随后加入荷兰语、葡萄牙语、瑞典语和匈牙利语。",
+    "context2": "![](images/6e4a0a36d86c92d9592e808b94afd8cc69dbab26df849cb9d5858ebbfca2e0fe.jpg)  \n图1Europeana 的 MLIA功能架构",
+    "context3": "对于用户的查询提问,系统首先调用 Europe-ana语言资源库对提问进行分析,包括语种识别、去除停用词、词性标注、专有名词识别等操作，然后通过查询语言资源库中的翻译词典把处理后的用户单语查询提问翻译成目标语言查询词，并进行查询扩展等消歧操作后送入检索引擎实施多语检索。对于系统检索到的元数据结果，如果用户需要，系统会调用内嵌的微软机器翻译模块，把外文元数据内容翻译成用户查询用语种返回给用户。"
+  },
+  "3.2Europeana拟实现的多语言信息存取功能[d": {
+    "context1": "$\\textcircled{1}$ 多语言用户界面的建设。翻译检索界面网页中所有的静态内容，并对所有内容的语言信息进行系统管理。",
+    "context2": "$\\textcircled{2}$ 增加多语言内容描述。对元数据提供多种语言描述,主要由来源馆藏地以人工翻译形式实现;建立单语知识组织系统及名称权威档之间的映射，形成多语言语义网。",
+    "context3": "$\\textcircled{3}$ 实现多语言检索。通过提问翻译、元数据翻译或者中间语言方法实现跨语言检索。",
+    "context4": "$\\textcircled{4}$ 多语言结果显示。以用户指定语言显示检索结果，即提供语言过滤功能和检索结果的自动翻译功能。当用户选中检索结果中的一个条目时，系统把其元数据的描述信息翻译成用户想要的语言。",
+    "context5": "$\\textcircled{5}$ 多语言信息浏览：通过提供图像和文本标注信息供用户浏览。系统通过对受控词表和权威档之间的映射,使得用户能够从人物、地点、主题、对象类型等分面浏览馆藏信息。"
+  },
+  "3.3Europeana实现多语言存取的资源保障——语义数据层[]": {
+    "context1": "对来源馆藏所使用的不同语种的受控词表和权威档之间建立映射,是Europeana实现多语言馆藏信息检索的基础。受控词表,包括主题词表、分类表、地名表和人名表,通过映射后在各自内部的语义关系基础上形成了更为广泛的语义网络，构成了Euro-peana的语义数据层,用于查询提问重构和基于概念的浏览检索。",
+    "context2": "词表之间的映射即互操作通过半自动化方式完成。首先就人名、地名和普通主题分别选择应用范围广、内容含量大和语言种类多的受控词表作为轴心表,如人名表VIAF、地名表Geonames和普林斯顿大学开发的Wordnet等,然后把其他词表到轴心表之间进行对齐和映射。已有手工建立起来的映射关系也被吸纳到语义数据层，如MACS项目已经建成的对LCSH、RAMEAU、SWD、AAT等词表之间的映射关系。对于两词表之间映射关系的匹配,借助了词表对齐工具Amalgame,首先把词表转换成SKOS/RDF存储格式,先后通过主题词匹配、基于词表微观结构的匹配、和基于实例的匹配三种策略实现两部词表的的自动对齐。对齐的词对如果存在歧义，即对于源词表的一个概念,在目标词表中如果匹配到两个或以上对象时，再由人工通过分析词间上下位关系排除错误的映射，最后合并获取的映射对。"
+  },
+  "3.4Europeana实现多语言存取的关键技术": {
+    "context1": "$\\textcircled{1}$ 多语命名实体识别。网络搜索引擎的查询提问中，有 $70 \\%$ 包含命名实体,如人名、地名等专有名词,数字图书馆的用户查询中存在同样现象，甚至更为严重。目前，自然语言处理工具并不能适用于所有语种,因此除了利用现有工具,如GATE、StanfordNER、OpenNLP、Yahoo!Placemaker,Europeana 还开发了地名识别工具Geoparser; $\\textcircled{2}$ 翻译消歧。由于多义词和词义模糊现象的存在，翻译歧义是基于翻译词典的查询提问翻译类跨语言信息检索系统所不可避免的问题。Europeana拟引入用户交互过程,把翻译候选词提供给用户进一步选择，再结合查询扩展完成翻译消歧过程[； $\\textcircled{3}$ 语言识别。Europeana 的语言探测器主要用于识别用户查询提问的语种。语言识别方法目前主要有基于字符序列的统计分布方法、基于文本中职能词(连词、代词、修饰词等)的出现情况和比较待测文本在特定语种的语料库中的词频方法。数字图书馆的用户查询提问很短，缺乏上下文背景知识和职能词，给语言识别带来一定困难。Bosca和Dini利用TEL检索日志中的查询提问对基于语料库的方法、基于字符序列方法和两者结合方法进行了测试,取得了较为满意的结果[，但是该技术还需要进一步实验。"
+  },
+  "4数字图书馆实现多语言信息存取的思考": {
+    "context1": "（1）实际应用问题。解决数字图书馆的多语言存取问题需要考虑到数字图书馆这一特殊应用环境，如： $\\textcircled{1}$ 用户查询提问往往较短，有时只有一两个词。而且检索的“目标文档”往往只是元数据记录中的作者、关键词或者文摘字段。而以往CLEF、TREC和NTCIR测评项目所使用的测评问题有长提问和短提问两种形式,即使短提问也往往为一句话，检索对象为全文。因此不能照搬以上测评项目的研究成果来解决数字图书馆中的多语言存取问题; $\\textcircled{2}$ 数字图书馆馆藏内容通常涉及各个学科,用户多为学生和教育科研人员，既广泛又深入的检索需求对跨语言信息检索用翻译资源的覆盖范围要求很高；",
+    "context2": "$\\textcircled{3}$ 馆藏内容多种媒体形式是数字图书馆的典型特征之一，著录图像、文本和声视频所使用的元数据方案及受控标引用词表都可能有区别，这些因素都增加了多语言存取的复杂性。",
+    "context3": "(2)资源瓶颈。与普通跨语言信息检索一样，数字图书馆中的多语言存取面临着同样的资源获取瓶颈，即缺乏可靠的，优质的翻译资源来解决查询提问翻译和文档翻译问题，包括双语翻译词典、平行语料库和机器翻译软件等。现有翻译质量较好的商业资源，如Google所提供的机器翻译功能，已列为收费服务,并不免费提供API调用接口。而对于市场上琳琅满目的机器翻译产品也需要仔细评价和获取授权使用。由于翻译质量较低,现有多语言存取项目更偏重于采用对元数据增加多语言著录信息和对受控词表进行多语映射的方法。此外,利用可免费获取的外部资源如Wikipedia来构建翻译资源是一个较有前景的解决方案",
+    "context4": "(3)系统整合问题。实现数字图书馆的多语言信息存取功能并不是简单地在原检索引擎基础上添加一个翻译模块。例如,欧洲图书馆TEL项目采用了两种策略:建立独立查询翻译模块和伪扩展记录翻译，经过实验发现前者虽不需对原有检索引擎做任何修改,但是翻译和检索分离容易导致检索结果中相关文档的丢失，后者实质上属于元数据记录翻译方法,因此TEL计划将两种方法结合使用。Europeana项目借鉴前者经验，采取了元数据翻译与跨语言信息检索结合的方法，并以词表映射得到的语义数据层作为资源保障。无论采用哪种策略，都需要考虑数据格式兼容问题、检索界面友好性、用户交互设计、系统即时反应的时间限制等问题。因此多语言存取功能的实现，应该是整个数字图书馆架构的一部分。"
+  },
+  "5结语": {
+    "context1": "科学的信息组织方法体系是读秀的海量资源能为其用户有效利用的关键。读秀的成功运行建基于对其信息资源和信息系统从宏观到微观层面的有效信息组织技术。读秀已为用户提供了一个相对较为完善和深入的资源信息组织方法体系，可以带给国内数字图书馆信息组织一些借鉴和后示。但笔者也期待读秀在下一步发展的过程中，能汲取国内外先进信息组织理念和方法，在导航系统、同词词典、词间关系可视化、语义挖掘等方面作进一步的优化与完善。"
+  },
+  "言信息存取的开发中，有必要对潜在用户进行深入调查和研究,获取他们的真实需求和信息查询习惯，对解决资源瓶颈和系统开发都有裨益。": "",
+  "参考文献": {
+    "context1": "1关于连云港高校文献资源共享服务平台开通使用的通知[EB/OL]．[2011-09-26].http://www.lygtc.net.$\\mathrm { c n } / \\mathrm { s } / 1 / \\mathrm { t } / 1 / \\mathrm { a } / 4 3 8 3 / \\mathrm { i n f o . h t m }$   \n2曾祥云.信息检索基础M．成都:四川科学技术出版社，2005:188-190  \n3于新国.“读秀”图书搜索引擎的图书资源及其利用[.当代图书馆,2006(4):45-47,29  \n4伍清霞.读秀知识库述评[．图书馆论坛,2007(4)：58"
+  },
+  "4吴丹，古南辉，何大庆．数字图书馆用户的多语言信息需求调研[．图书情报工作，2010，55(2):6-10": {
+    "context1": "5Peters Carol，Martin Braschler,Paul Clough．Multilingual Information Retrieval:From Research To Practice [M]. Springer,2011   \n6 Salton G.Experiments in multi- lingual information retrieval [．Information Processing Letters，1973,2(1): 6-11   \n7Chen Hsin - Hsi. Cross - Language Information Retrieval for Digital Museums[C],in Global Digital Library Development in the New Millennium.Peijing:Tsinghua University Press,2001:33-40   \n8Chen Hsin-Hsi. multilingual information access in digital library[c],in Proceedings of International Conference on e -Education 2004:Review and New Perspectives. Macao, 2004:44-47   \n9 Mizera-Pietraszko Jolanta.Model design of user interfaces for multilingual digital libraries[J]．TCDL Bulletin, 2007,3(3)   \n10Capstick J,G Erbach，H Uszkoreit，Design and evaluation of a psychological experiment on the effectiveness of document summarisation for the retrieval of multilingual WWW documents[C]．in Working notes of the AAAI spring symposium on intelligent text summarisation. Stanfors,1998   \n11 Gonzalo Julio，scenarios for interactive cross language information retrieval system [C],in SIGIR 2002 Workshop on Cross-language Information Retrieval,2002   \n12 Chen Hsin -Hsi,Cross-Language Information Retrieval for Digital Museums [C],in Global Digital Library Development in the New Millennium.Beijing:Tsinghua University Press,2001:33-40",
+    "context2": "也已经有相关搜索词、外文词、查询词扩展的概念关系揭示与组织,但相对来说词汇控制仍较弱，没有同义词、近义词或词表受控词汇的提示或控制。"
+  },
+  "注释": {
+    "context1": "$\\textcircled{1}$ 本文所论述的读秀包含超星公司的读秀、百链和Med-alink三个产品，目前在浙江高校这三个产品是在读秀一个平台上使用。"
+  },
+  "": "",
+  "(上接第23页)": {
+    "context1": "13Dini Luca，The multilingual facet of the CACAO project [EB/OL]． [2011 -11 - 29] . http://www.europeanaconnect.eu/MLIA4DL09 Workshop.php   \n14Hinrichs Erhard,CLARIN:Goals and Structure of the Project [EB/O1]．[2011-11-29] .htp://www.europeanaconnect.eu/MLIA4DL09 Workshop.php   \n15Petras Vivien．Multilingual access to online contect - the Europeana experience Rl．Eurovoc Conference，2010   \n16Petras Vivien．Europeana Connect -Report on multilingual access strategies to digital librariesEB/OL].[2011 -11-29] .http://www.europeanaconnect.eu/resultsand -resources. php? page $^ { = 2 }$   \n17 Multilingual mapping of schemes and vocabularies[EB/ OL]．http://www.europeanaconnect.eu/documents / D2．3．1% 20Multilingual%20mapping% $20 \\mathrm { o f } \\%$ 20schemes% 20and% 20vocabularies-Draft.pdf.   \n18Petras Vivien，Anne Schiller，WP2-objectives and scope of multilingual aspects [EB/OL]． [011-11-29]．ht",
+    "context2": "- 60,93",
+    "context3": "5肖蕾.用OPAC2.0的标准比较汇文、读秀、豆瓣[．现代情报,2008(6):172-174,177  \n6 马铭锦.从读秀知识库看网络环境下信息服务的发展趋势[.兰台世界,2009(7下半月)：14-15  \n7黄星亮.图书馆资源搜索的变革-读秀学术搜索与CA-LIS统一检索系统对比研究[.高校图书馆工作,2009(3):30-32  \n8 吴云珊.读秀学术搜索与Medalink 述评[.农业图书情报学刊,2010(6)：70-73  \n9 赖群，廖球.基于Medalink的广西高校图书馆与公共图书馆资源整合.图书馆学刊， $2 0 1 1 ( 3 ) : 4 3 - 4 5$   \n10 欧阳剑．新网络环境下用户信息获取方式对图书馆信息组织的影响[.中国图书馆学报,2009(6)：97-102  \n11 包冬梅.从信息组织视角解析CNKI[].图书情报工作,2009(10):106 -110  \n12 司莉．KOS在网络信息组织中的应用与发展[M].武汉：武汉大学出版社，2007:2  \n13 读秀宣传册彩页[EB/OL]．[2011-09－26].http://www.duxiu.com/help/brochure.html  \n14曹树金,司徒俊峰,马翠嫦.学术数字资源的组织体系研究[.图书馆论坛,2010(6):214-219"
+  },
+  "李幸女武汉大学信息管理学院在职硕士研究生，浙江外国语学院图书馆参考咨询部主任，副研究馆员。": {
+    "context1": "(收稿日期:2011-11-27 编发:王宗义)",
+    "context2": "水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水",
+    "context3": "tp://www.versionl.europeana.eu/c/document_library/ get_file？uuid $=$ 25876a6d - 19ac - 4e24 - 8d07 - a39785ef016f&groupId =10602   \n19 Bosca Alessio，Luca Dini.Language identification strategies for cross language information retrieval [C]，in Proceedings of LogCLEF2010 2010.   \n20Ye Zheng，Jimmy Huang，Ben He，Hongfei Lin．mining multilingual association dictionary from Wikipedia for cross -language information retrieval [EB/OL]．[2O11 -11 - 29]．http://dutir-lib.googlecode.com/svn-history/ r1023/trunk /latex/SIGIRO9 /IPM- endm $-$ package $-$ Ben/ KAIS. pdf.   \n21 Braschler Martin，Nicola Ferro，Adding multilingual information access to the European Library [C],in Digital libraries:R&D,2007:218-227"
+  },
+  "杜慧平上海师范大学图书馆馆员，南京大学信息管理系在读博士。": {
+    "context1": "(收稿日期:2011-11-29 编发:许桂菊)"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "original_filename": "full_2527.md",
+  "三、对传统向量空间模型的改进": {
+    "context1": "传统向量空间模型的假设前提是各标引词向量之间是正交的，从而各标引词是独立出现的。但实际上标引词的出现常常是相互有联系的，表现在其向量表承上判是非正交的。在这种情况下，我们可以通过某一途径（例如考虑词的共发频率）来近似地给出词与词之间的相互关系。这样得到的矩阵G只是一个近似的结果，它只是在一定程度上或是从某一个角度反映词与词之间的关系才是有效的。我们把这样的矩阵G也叫做词关系矩阵。",
+    "context2": "（8）式中的文献标引矩阵A是在假定词相互独立的前提下给出的。为使文献标引能考虑到询与词之间的关系，我们将词关系矩阵 $\\vec { \\mathbf { o } } ^ { \\prime }$ 与A结合起来，得到新的文献标引矩阵 $\\mathbf { \\delta G ^ { \\prime } } \\mathbf { \\delta A ^ { \\prime } }$ ，从而（8）式变为",
+    "context3": "$$\n\\mathbf { \\overrightarrow { S } } = \\mathbf { \\overrightarrow { q } } \\mathbf { \\overrightarrow { G } } ^ { \\prime } \\mathbf { A } ^ { \\tilde { r } }\n$$",
+    "context4": "根据（9）式检索出的文献，是由查询标引词及与查询标引词相关的词所确定的。可以认为，按这种方式检索出的文献比之按（8）式检索出的文献更接近于用户的查询请求。",
+    "context5": "沿着上述思路，Heaps在〔2中已做了更深入的工作。下面我们从线性代数出发考虑模型（6）的另一种表达方式。",
+    "context6": "对任- $\\pmb { \\nbar { \\ n } }$ 维欧氏空间，都可以从该空间中 $\\pmb { \\nmid }$ 个线性无关的向量出发得到一组正交基。设由 $\\pmb { \\nparallel }$ 个标引词向量， $\\vec { \\mathrm { ~ t ~ } } _ { 2 } \\cdot \\cdots , \\vec { \\mathrm { ~ t ~ } } _ { n }$ 生成的正交基向量为，…，，则可设",
+    "context7": "$$\n\\begin{array} { r l } { \\dot { \\mathrm { f i } } _ { 1 } ^ { \\mathrm { ~ ~ ~ } } } & { = \\dot { \\mathrm { b } } _ { 1 1 } \\dot { \\mathrm { f i } } _ { 1 } ^ { \\mathrm { ~ ~ ~ } } + \\dot { \\mathrm { b } } _ { 1 2 } \\dot { \\mathrm { f i } } _ { 2 } ^ { \\mathrm { ~ ~ } } + \\cdots + \\dot { \\mathrm { b } } _ { 1 1 } \\dot { \\mathrm { f i } } _ { n } ^ { \\mathrm { ~ ~ } } , } \\\\ { \\dot { \\mathrm { f i } } _ { 2 } ^ { \\mathrm { ~ ~ ~ } } = \\dot { \\mathrm { b } } _ { 2 1 } \\dot { \\mathrm { f i } } _ { 1 } ^ { \\mathrm { ~ ~ ~ } } + \\dot { \\mathrm { b } } _ { 2 2 } \\dot { \\mathrm { f i } } _ { 2 } ^ { \\mathrm { ~ ~ } } + \\cdots + \\dot { \\mathrm { b } } _ { 2 1 } \\dot { \\mathrm { f i } } _ { n } ^ { \\mathrm { ~ ~ } } } \\\\ { \\dot { \\mathrm { t r a n s t . ~ } } \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots } \\\\ { \\dot { \\mathrm { t r } } _ { n } ^ { \\mathrm { ~ ~ } } } & { = \\dot { \\mathrm { b } } _ { \\mathrm { n } } \\dot { \\mathrm { f i } } _ { 1 } ^ { \\mathrm { ~ ~ } } + \\dot { \\mathrm { b } } _ { \\mathrm { n } } \\dot { \\mathrm { f i } } _ { 2 } ^ { \\mathrm { ~ ~ } } + \\cdots + \\dot { \\mathrm { b } } _ { \\mathrm { n } } \\dot { \\mathrm { f i } } _ { n } ^ { \\mathrm { ~ } } } \\\\  \\dot { \\mathrm { f i } } _ { 1 } ^ { \\mathrm { ~ ~ } } = \\dot { \\mathrm { b } } _ { 2 1 } ^ { \\mathrm { ~ ~ } } \\dot { \\mathrm { f i } } _ { 2 } ^ { \\mathrm { ~ ~ } } + \\dot { \\mathrm { b } } _ { \\mathrm { n } } \\dot { \\mathrm { f i } } _ { 2 } ^ { \\mathrm { ~ } } \\dot { \\mathrm { f i } } _ { 2 } ^ { \\mathrm { ~ } } + \\cdots + \\dot { \\mathrm { b } } _  \\end{array}\n$$",
+    "context8": "及",
+    "context9": "由（1）、（2）知",
+    "context10": "$$\n\\begin{array} { l } { { \\displaystyle { \\dot { \\bf d } } _ { 1 } ^ { \\prime } = \\dot { \\sum _ { i = 1 } ^ { i } } { \\bf d } _ { \\mathrm { ~ i ~ } } ^ { i } { \\bf b } _ { \\mathrm { ~ k ~ j ~ } } } } \\\\ { { \\displaystyle { \\bf q } _ { \\mathrm { ~ j ~ } } ^ { \\prime } = \\dot { \\sum _ { i = 1 } ^ { i } } { \\bf q } _ { \\mathrm { ~ k ~ } } { \\bf b } _ { \\mathrm { ~ k ~ j ~ } } } } \\end{array}\n$$",
+    "context11": "故",
+    "context12": "$$\n\\vec { { \\bf d } _ { i } } \\cdot \\vec { { \\bf q } } ^ { * } = \\dot { \\sum _ { i = 1 } } { \\bf d } _ { i } ^ { \\prime } { \\bf d } _ { i } ^ { \\prime }\n$$",
+    "context13": "从而（6）式变为",
+    "context14": "$$\n\\overrightarrow { \\textbf { S } } = \\frac { \\partial } { \\partial } \\cdot \\textbf { A } ^ { \\prime } \\textbf { r }\n$$",
+    "context15": "其中",
+    "context16": "$$\n\\mathbf { A } ^ { \\prime } = { \\left( \\begin{array} { l l l l } { { \\begin{array} { l l l l } { \\mathbf { d } _ { 1 1 } ^ { \\prime } } & { \\mathbf { d } _ { 1 2 } ^ { \\prime } } & { \\cdots } & { \\mathbf { d } _ { 1 n } ^ { \\prime } } \\\\ { \\mathbf { d } _ { 2 1 } ^ { \\prime } } & { \\mathbf { d } _ { 2 2 } ^ { \\prime } } & { \\cdots } & { \\mathbf { d } _ { 2 n } ^ { \\prime } } \\\\ { \\vdots } & { \\vdots } & & { \\vdots } \\\\ { \\mathbf { d } _ { n 1 } ^ { \\prime } } & { \\mathbf { d } _ { n 2 } ^ { \\prime } } & { \\cdots } & { \\mathbf { d } _ { n n } ^ { \\prime } } \\end{array}  } } \\end{array} }\\right)\n$$",
+    "context17": "(10）式与传统向量空间模型有相同的形式。这使得我们能够应用已有的方法来探索标引词相似情形下的检索问题。由于n维欧氏空间中正交基的存在性以及从任意n个线性无关的向量中生成某一组正交基的可行性，我们提出（10）式作为（6）式的新的表现形式。这在理论上是非常必要的。它将对（6）式中词关系矩阵的计算转化为从原始标引词向量出发对某一组正交基的确定。这给我们从理论上进一步探！讨检索问题提供了一个非常重要的途径。",
+    "context18": "显然，由于我们无法提前准确知道标引词向量，所以很难采用代数的方法来生成一组正交基。但这并不是说这种方法是不可行的，例如，它提示我们可以设计一些关于标引词的互不相关的特性，人为地构成一组正交基。"
+  },
+  "参考文献": {
+    "context1": "1 G.Salton.The SMART Rct rieval exp-eriments in aut omatic document processi-:ng.New York： Prentice-Hall，Englewoodcliffs, 1971.",
+    "context2": "2H，S．Heaps，张承庆，顾慧芳译，计算机情报报检索导论，北京：知识出版社，1984。"
+  },
+  "可擦除光盘的新进展": {
+    "context1": "自1966年首次提出光存贮器概念以来，光盘在消费及计算机应用方面都取得显著进展。",
+    "context2": "![](images/ec664564cc2997de8e6677a7011621da77cac73f630d5323269c5bc8c634943b.jpg)",
+    "context3": "--代光学存贮器主要是60年代后期和70年代初发展的全息记录技术，在模拟和数字存贮应用方面做了大量开发工作。第二代光存贮器始于70年代初，采用逐比特记录技术，对诸如视盘和小型数字声盘之类的只读光盘作了广泛研究。第三代光存贮器始于1978年，它采用激光二极管和逐比特读／写技术，重点开发一次写入和可擦除在内的记录材料。",
+    "context4": "最近可擦除光盘和驱动器领域的开发活动主要是磁光和相变介质方面。几个公司已推出可擦除光盘和驱动器。磁光介质目前主要特点是作为文件存贮器应用。相变介质仍处于研究阶段。（摘自《光盘通信》）"
+  }
+}

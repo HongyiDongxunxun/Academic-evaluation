@@ -1,0 +1,92 @@
+{
+  "original_filename": "full_2199.md",
+  "$\\bullet$ 赵文轩，李春旺²": {
+    "context1": "(1．中国科学院大学，北京100049；2.中国科学院 文献情报中心，北京100190)"
+  },
+  "关联数据质量评价方法研究述评": {
+    "context1": "摘要：旧的/意义近年来关联数据数量飞速增长，伴随而来的数据垃圾、语义与语法错误等低质量现象屡见不鲜，数据集质量问题受到普逼关注。全面分析关联数据质量评价的研究内容与方法，为质量控制与评价体系的构建提供参考，仿法/过程系统梳理国外关联数据质量相关的研究动态，总结评价方法的演变过程，归纳与分析各种评价类型的内容、模式、特点与优缺点，在此基础上进行文献综述结果/结论关联数据的质量评价类型主要分为基于单一指标的评价、基于多维指标的评价与质量评价指标体系。质量控制与评价体系的研究将向指标程度完整、公认度高、可行性强的方向寻求发展。",
+    "context2": "关键词：关联数据；质量评价；评价指标；评价方法；述评",
+    "context3": "AbstractPurpose/significance]Recently the amount of linked data increasing gradually，lowquality problems like junk data，semanticandsyntax erorsbecomescommon，andthequalityproblemof linkeddatagetscommonatentiononallsides.This paper makesacomprehensivestudyin theresearch contentand methodof inkeddataquality evaluation，and providesareference forbuilding qualitycontroland evaluationsystem.Method/processThepapersystematicallyreviewsthedynamicresearchof linkeddataqualityabroad，and summarizes theevolution processof theevaluation method.The paperanalyzes thecontent，models，features，advantagesand disadvantagesof evaluation method，makesthe literaturereview basedontheabove points.Result/conclusion]Linkeddataqualityevauationcanbeclasifiedinto3categories，thatis，theevaluationbasedonthesingle index，theevaluationbasedonthemultidimensional indexandtheevaluation indexsystem.Theresearchofqualitycontrolandevaluation system is seeking the development in having complete index，generally accepted and strong feasibility.",
+    "context4": "Keywords:linked data; quality evaluation; evaluation index； evaluation method； review",
+    "context5": "关联数据作为揭示与获取数据的应用形式，已成为备受学者及用户瞩目的数据网络基石。然而，在其发布技术愈加稳定，相关应用也愈加宽泛之时，关联数据集频繁地出现语法、语义错误以及冗余、不完整、不准确等质量问题。据LODStats统计，截止到2015年7月，实时记录的数据集为9960个，却有将近 $6 6 . 7 \\%$ 的数据集存在不同程度的质量问题。随着关联数据的广泛发布与应用，其质量问题将愈加凸显。如何控制关联数据质量、如何防止低质量数据集的发布等值得深入研究与探索。",
+    "context6": "然而，国内在此方面的研究尚处于起步阶段，主要内容包括从理论层面分析图书馆关联数据质量控制的意义，以及基于绿色关联数据平台归纳质量标准的研究。因此，本文将国外关联数据质量评价内容及技术方法进行梳理，分析其特点及未来发展趋势，以期为国内外进一步的相关研究提供借鉴。",
+    "context7": "笔者于Googel Scholar，ISI Web of Science，ACMDigital Library，IEEE Xplore Digital Library，Springer Link，Science Direct 中，采用 linked data and（quality OR assessment",
+    "context8": "OR evaluation OR methodology OR improvement）以及（dataOR quality OR data quality） AND（assessment OR evaluationORmethodology OR improvement）的检索式查找从2004—2015年的相关文章，筛选与关联数据质量评价直接相关的文献，且排除集中于数据质量管理或不涉及评价指标或方法的研究，从而对剩余文献进行总结与归纳。"
+  },
+  "1关联数据质量评价概述": "",
+  "1.1关联数据质量评价内涵": {
+    "context1": "自T.Berners-Lee提出关联数据标准规范以来，关联数据质量评价就是人们关注的重点。从狭义角度看，关联数据质量评价仅包括评价数据内容本身的质量。从广义角度看，关联数据质量评价不仅要考虑关联数据本身固有属性，还应重点关注在关联数据生命周期中影响数据有效应用的各种因素。近期数据质量评价主要聚焦于“适用于用户使用”，但对于语义网络环境下新形式数据而言，除了关注准确性、及时性、完整性、一致性等影响质量的因素之外，关联数据质量评价还应关注关联数据的特有属性，例如数据之间的关联关系与关联程度等。当前，关联数据质量评价研究主要以评价数据集的质量为目标，根据具体的评价情况构建不同的数据质量指标和度量标准，检测出数据集中存在的质量缺陷。"
+  },
+  "1.2关联数据质量评价方法演变": {
+    "context1": "国外在关联数据质量评价研究方面起步较早，评价的内容及技术不断扩宽与发展，关联数据质量评价方法亦逐步演变。在其发展过程中，评价内容由对单一质量问题的重点解决到多角度考量的指标体系建立，使得研究角度与方法多样化，质量评价也更为深入与完善。最初，因数据质量问题影响到用户使用效果，人们选取这些关键问题作为质量评价的切入点，提出质量评价方法及质量控制策略，以减少数据质量问题的产生，这个阶段研究的重点是针对特定问题的单一指标评价，例如数据集的可信度评价。",
+    "context2": "随着数据质量问题的复杂化、多样化发展，单一指标评价已难以满足人们的需求，于是出现了依照不同质量特性划分评价维度的多维度指标评价方法，例如O.Hartig和J.Zhao提出基于网络数据来源信息的数据质量评价框架。多维指标从多种角度实现对数据质量的分析控制，在一定程度上解决了单一指标的不足。",
+    "context3": "然而，多维指标评价法仍然存在度量指标有限、覆盖面窄等问题，无法实现对数据整体质量的综合评价。为此，人们从数据内容、数据组织、发布管理以及访问利用等多种不同角度，试图构建出评价指标更加系统化、精细化的数据质量评价指标体系，并针对不同的度量指标，提出具体的度量标准以及多种可能的质量检测技术方法。其中，A.Zaveri提出的评价指标体系在度量标准划分方面有较为深入的研究，J.Debattista等则构建了依附在数据集上的质量评价本体，为用户质量检测提供更好的指导。实践证明，通过多种方式进行评价，并根据综合评价结果评估关联数据整体质量水平，将是一种行之有效的数据质量评估策略。"
+  },
+  "2基于单一指标的评价": {
+    "context1": "单一评价指标是指对关联数据某一个质量标准或特性进行分析，研究重点包括划分该特性的度量标准、评价算法以及评价指标优劣性分析等。由于单一指标评价能确切地反映出不同数据集在同一属性上的质量差异，所以当用户仅对数据的某一特性进行质量控制时，此评价方法不但简单易行，而且评价结果准确可靠。当前，在单一指标研究中，人们关注的重点包括关联数据质量的可信度、流通性和关联性等。"
+  },
+  "2.1可信度评价": {
+    "context1": "数据的可靠性与有用性评价是关联数据质量评价的重要方面。在最初的语义网络体系结构中，信任层用来处理身份验证、识别、检测的过程，然而随着网络逐渐成熟化，内容可信度评价变得更为重要。",
+    "context2": "Y.Gil等认为内容的可信度评价是指对特定环境下信息内容可信、可靠程度的判断[。I.Jacobi等则着重考虑与数据本身相关联的信任值，将可信度评价定义为对数据内容的真实性、数据来源、变更原由以及词汇表的使用、创建者信誉等的综合评价[。",
+    "context3": "与数据可信度评价相关的因素很多，如数据来源的可信度、用户知识水平与数据利用经验等，而某些因素依赖用户的主观评定，给评价增加难度，这也成为研究人员关注的重点。其中，I.Jacob等为了减少主观因素对信任评价的影响，利用已存在的信任指标创建信任本体，分别向数据、数据源、规则等分配信任值，同时捕获数据生成与说明规则，结合所有评价值形成信任评价模型;S.Shekarpour等将语义网络信任模型与统计加权机制相结合，提出新型信任评价方法[；M.Gamble等针对科研领域关联数据的质量问题，提出“信任”与“实用”评价维度[，以此为方向划定度量标准，借用决策网模型融合信任、实用的指标值。"
+  },
+  "2.2流通性评价": {
+    "context1": "用户从某一数据源所获得的信息内容正确性通常与数据更新的及时程度密切相关，因此，数据流通性（Curren-cy）成为人们衡量数据质量的另一重要指标。",
+    "context2": "A.Rula将数据流通性定义为数据的年龄[4，即数据最近一次更新操作的年龄。关联数据集中任意基于RDF描述的文档，其流通性都可通过用户查询文档的实时时间与文档最近修订时间的差值来表示，差值越小代表数据越新，更新程度越高，即流通性越高，反之，差值越大表示数据越旧，流通性越差。在进行流通性评价时，如何获取RDF文档相关时间信息是关键。在关联数据集中，类似于“最终修改时间”等元数据通常无效，甚至没有有效的版本管理元数据。因此，A.Rula等通过建立“时间抽取模块”抓取时间信息，包括抓取在关联数据中的文档创建时间和修改时间等注释信息、隐藏在HTTPheaders中的有用信息等，以此来替代无效的版本管理元数据。并在分析BTC（Billion Triple Challenge）数据集的基础上，汇集出用于版本管理注释最频繁与最相关的属性，构建包含三种核心数据类型属性的本体，指导流通性评价检测。",
+    "context3": "关联数据流通性评价从时间变动的角度侧面反映出数据内容的滞后性，是数据质量的重要影响因子。因记录、抓取与利用时间相关的元数据十分困难，数据集更新水平的评价一直停留在对其定义的诠释与指标的确定上，难以进一步实证检测。然而该流通性评价方法的出现，尤其所提出的时间抽取方式与版本管理注释本体，将成为需要时间元素从而能顺利评价质量的具体实现方法的奠基石。"
+  },
+  "2.3关联性评价": {
+    "context1": "关联数据的发布、使用以及拓展很大程度上与数据资源之间的“链接”质量密切相关。由于数据之间通过语义链接产生价值，关联性作为关联数据独特的质量特征，是关联数据创造价值的最关键影响因素。",
+    "context2": "C.Gueret等认为，关联性评价的目的是提高数据间的连通性，且增加其语义丰富度。C.Gueret等借鉴社会网络方法提出LINK-QA评价框架，包括选择、构建、分析、扩展、比较5个阶段。选择需被质量评价的资源集构建局部网络，利用SPARQL端点或数据文件来创建单个资源周围的图。在每一局部网络环境下的每个节点处，分析聚集系数、中心性度量、出入度、同一性链接评价和描述丰富度5项度量标准，并将每个节点获得的度量结果汇总于一个分布中。同时，向被选中的数据集内添加两条新的关联关系链接改变局部网络，比较与原始局部网络的差异，评价出关联关系链接的变化对质量的影响。数据的关联关系时刻处于动态过程，因此数据关联程度的保持与监测是维持数据质量的保证。",
+    "context3": "从上述对关联数据某一质量指标评价的梳理可看出，无论对关联数据的哪一类质量特性进行评价，所制定的相应计算方法或质量评价框架都较为具体且完整。然而，以数据集角度来考量，从某一质量标准的评价切入，并不能评估整个数据集的质量水平。若数据集流通性的评价结果越好，就用来说明该关联数据集的质量比其他数据集优质，难免以偏概全。"
+  },
+  "3基于多维指标的评价": {
+    "context1": "单一质量指标评价方式无法从数据集水平判定质量的优劣，为准确地检测出特定数据集的质量问题，满足发布者与用户能从不同属性及多种数据资源类型的角度进行综合判断，多维指标评价研究受到重视。关于多维指标评价的研究主要分为以下两种类型。"
+  },
+  "3.1按数据属性类别确定多维指标": {
+    "context1": "按数据属性类别确定的多维指标评价通常依据特定背景及质量特征选取关键影响因素，进而划分数据属性类别并细化质量评价标准，以期望多元化、多角度地衡量数据质量。该多维指标类别数量精简，集中凸显特定的质量属性，评价维度虽不够完整，但可行性较高。",
+    "context2": "C.Bizera等提出评价信息质量取决于特定的信息环境、用户的主观偏好和可利用的信息质量相关元数据。为使用户不再以单一、固定的方法区分优劣信息，根据被检测质量标准的信息类型，将评价指标聚合为三类，即指标基于信息内容本身、基于特定环境下的信息描述以及基于相关数据本身或信息提供者的等级。基于信息内容本身的度量采用异常值检测方法排查数据错误；基于信息描述的度量采用信息内容的元信息与创造信息的环境描述作为评价指标；而基于等级的度量通过评价信息本身、信息源或信息提供者的等级来判定质量，评级主要由信息消费者及领域专家共同决定[ 。",
+    "context3": "该多维指标评价依赖元数据的信息描述，结合了专家与用户的共同评价。但由于关联数据的元信息通常不完整，用户评定等级时专业知识未知，且排名结果经常处于不确定情况，因此会导致质量评价的结果不够严密和准确。",
+    "context4": "B.Behkamal等认为数据固有质量可有效地代表与反映数据真实的信息，为使数据在发布之前能够具有较高的质量水平，基于ISO/IEC 25012标准提出了一组评价内在质量特征的多维度指标。该多维指标将质量的固有属性划分为语法准确性、语义准确性、一致性、完整性与唯一性[。语法准确性通过检测数据错误及不准确的注释、分类、描述来评价实体的语法准确程度及属性是否恰当；语义准确性代表数据值的正确程度，可直接衡量实体及属性值的错误；一致性指两者及以上的值存在冲突与矛盾的情况；完整性意味着所需数据的描述信息要足够详细，描述实体的有用信息数量需充足；唯一性度量数据集的实体、属性、属性值的冗余程度。5种衡量指标从数据水平及Schema层面分析了数据集的固有质量，并通过添加关联性指标及详细的32项度量标准[，使多维度指标的评价更加有效。然而，此多维度指标于整体质量评价而言只涉及关联数据内在质量属性，影响数据有效应用的各种因素却未涵盖其中。"
+  },
+  "3.2按操作或用户需求提出多维指标": {
+    "context1": "质量评价框架的搭建常常伴随着多维质量指标的产生，指标的确立也是数据质量评价模型的根基，两者之间常常密不可分。在质量评价模型的数据操作过程中，依据操作层面需求或用户自主需求制定与选择多维指标内容是必不可少的环节。该多维指标类别以满足实际需求出发，指标内容更具实用价值。",
+    "context2": "在缺乏相关技术而无法随时了解数据网络质量情况的背景下，M.Hepp等学者提出了包括数据采集层、查询层、本体层3个流程模块的SWIQA质量评价框架。在查询层中，为实现目标数据集的质量检测，质量维度作为数据操作过程中的质量评判标准，被分割为语句准确性、语义准确性、完整性、及时性与唯一性，并通过加权等方法计算出相应分数，进而反映质量优劣。SWIQA的指标内容基于质量本身特性来评判数据的好坏，指标检测趋向于在技术不成熟的情况下容易实施且效果明显。然而，提出的标准与规则较为传统，且未涉及到数据关联程度的评价，难以真正凸显关联数据的重要特点。",
+    "context3": "异构信息源的集成融合过程通常会产生多余、冗长、矛盾等质量较低的数据集，为评价数据集冗余程度与关联度，E.Ruckhaus等基于贝叶斯网络创建了LiQuate架构来分析数据质量。通过检测数据集标签或命名冗余的产生概率，以及关联性不完整和不一致的概率，于实践中评估特定关联数据集的质量现状。",
+    "context4": "而为解决异构融合产生的冲突，P.Mendes等提出Sieve模型来实现数据质量评价与融合的功能。Sieve框架支持用户可选择的数据质量指标、评分函数与聚合度量标准，在实际质量评价工作中，用户需依照使用需求与自我预期选择和配置评价标准，甚至于自定义指标与算法，从而形成具体的多维质量指标。由于需求存在差异的用户在特定情况下对数据质量的要求也不尽相同，因此评价任一数据集是否满足用户需求取决于多维质量标准的选择。针对某一特定的具体情况，这些指标并非都有效用，用户自主配置质量指标集则更贴合实际评价需求。",
+    "context5": "同样，从满足用户使用需求出发，WIQA评价框架将多种信息过滤政策与质量指标相结合，可以有侧重点地选择多维质量指标组合。与Sieve模型不同的是，为获取信息消费者的信任，WIQA框架会面向用户生成有关过滤信息决策的详尽解释。虽然以上多维质量指标的制定考虑到用户的主观意识与需求的重要性，却过于偏向用户的主观意愿而缺乏科学的选择过程。",
+    "context6": "多维指标评价虽完善了单一指标的不足，但评价标准大多不够全面与完整，缺乏深入挖掘影响关联数据质量的其他因素，多数选择机器可识别的质量指标，不足以体现数据集的整体质量水平。一般依托评价需求而构建，指标之间相对独立，缺少相互关联。"
+  },
+  "4质量评价指标体系相关研究": "",
+  "4.1现有质量评价指标体系": {
+    "context1": "质量评价指标体系从数据内容角度，支持对数据各属性要素的全面评价；从用户需求角度，尽量满足各类用户的个性化要求；从评价实施角度，具有清晰的质量指标划分，提出多种度量标准且具有一定规模，并逐步通过技术实现方法以及针对不同领域数据特点的评价示范使体系完善。",
+    "context2": "为降低数据污染，J.Hoxha等参考绿色工程领域构建了“绿色关联数据”的原则标准体系，指出高质量、无冗余的数据集应符合的度量标杆。为达到质量预期，详细描述出20项评价标准，且平均每项指标具有多条具体的度量措施以便数据集能最大化接近优质水平。G.McDonald为使质量指标满足全面性与简单的原则，提出了衡量关联数据质量的18个标准，并诠释了每一指标的含义。该评价体系包含准确性、可理解性、完整性、及时性等普遍适用的指标，同时也存在有界限、节点类型、同构性等个性化指标，以独特的判定视角对数据质量属性进行剖析。A.Flemming详尽归纳出关联数据质量评价体系的四大类别、11项指标以及61项度量标准，并界定了不同类别每一具体指标的内涵。由于采用的度量标准更偏向执行性强且系统可直接检测的措施，因此于实践应用方面更具参考价值。ZaveriA．等学者为使研究人员与数据监管者能全面了解数据质量评价情况，定性分析了现有的评估方法，将指标体系扩充至18项质量维度及几十项度量标准，并且按指标共性聚合成语境维度、固有属性维度、可访问性维度、描述维度4个类别2。不仅使质量评价指标体系越来越完善，更为重要的是首度提出评价指标之间的关联关系。"
+  },
+  "4.2质量评价指标体系的特点分析": {
+    "context1": "将现有质量评价指标体系从指标划分、内容特点、结构特点等多方面进行对比分析。不难看出，在选择指标方面，评价体系提出的质量指标有许多共同之处。一致性、及时性、可理解性是当前指标体系均认可的评价指标。可见在进行质量控制与评价时，数据是否存在冲突，是否能及时为用户提供有效信息且容易被理解是重要的评价方向。而来源、数据数量、有效性、协议许可、性能同样获得较为集中的肯定，在构建指标体系时需着重考量这部分评价属性。然而，依据构建指标体系的不同目的，质量指标与度量标准内容仍存在差异。若更注重评价体系的完整程度，则在选择如何制定质量标准时，倾向于指标能够全面覆盖数据质量特性，尽可能细化个性质量指标。若需呈现出实用性较高且易于操作的评价体系，则应舍弃主观性较强、无法定量度量的质量指标，选择较有公认度的检测维度，并赋予每一指标详尽的度量标准与说明。",
+    "context2": "再者，现今质量评价指标体系的结构通常呈现树形模式，包含类别、质量指标和度量标准，使评价指标更为聚拢。然而，除了能够被归为一类的相关关系外，部分质量指标之间实际上相互影响、相互关联，形成局部关联网络。例如，如果数据集的完整性较低，那么通常数据的数量也不足；如果数据集中数据污染严重，会直接影响数据集质量的相关性。这种网状结构的出现揭示出质量指标之间的关联关系，加强了指标之间的语义逻辑，推动着语义传递和推理的应用。可以预见，此类结构模式终将成为语义推理网络的基石，是未来构建质量指标体系的发展趋势。",
+    "context3": "目前，关联数据质量评价体系的内容与方法还未得到公认和广泛的应用。在指标内容方面，指标的选取相对分散，且存在不完善、不准确、不实用的情况。在指标结构方面，虽不同学者对质量维度和度量标准的研究有相似之处，但各指标体系的分类、分级内容不一，还没有一个较为准确且容易判断、执行的指标体系，使得对于数据消费者和发布者而言均可适用。在评价实施方面，现存的质量指标没有完全涉及具体的定量方法与权重分配，提供给数据消费者作为参考的用户配置选择方案也未见有所研究。因此，提出一个数据属性要素全面，满足用户个性化需求以及易于控制与评价的指标体系便迫在眉睫。"
+  },
+  "5结束语": {
+    "context1": "国内外对关联数据质量评价相关的研究越来越重视，评价内容围绕单一质量指标、多维指标评价、构建指标体系三种研究类型分别展开，其相关方法愈加多种多样。但必须看到，就目前的研究而言，关联数据质量评价内容和方法远不够完善。从关联数据质量的某一标准切入，虽展现了具体的实现方法与过程，却不能以某一标准的评定来判断数据集整体质量是否优质。利用多维指标评价质量，大多数以质量本身特性及实际需求作为着重点选取评价指标，且指标之间往往互不相关。而质量评价指标体系的应用障碍在于，大部分质量指标不够具有实践价值，容易成为“行动上的矮子”。因此，在未来的质量评价探索中，更应向理论研究与实际价值相结合的方向发展，进而构建出评价程度完整、公认度高、可行性强的关联数据质量评价研究指标与方法。□"
+  },
+  "参考文献": {
+    "context1": "[1] 马建玲．综合科技资源集成登记系统&开放资源元数据集成服务系统[EB/OL]．[2015-06-26].http://ir.las.ac.cn/handle/12502/7743.  \n[2] CASIIPEB/OL]．[2015-06-20] .http://zsfw.whlib.ac.cn/web/guest/home.  \n[3] SKEEB/O1]．[015-06-20]．http://ske.las.ac.cn/.  \n[4] iLibrary[EB/Ol]．[015-06-20].http://ilibrary.las.ac.cn/web/guest.  \n[5] e 划通[EB/OL]．[2015-06-20].htp://eclick.las.ac.cn/dts20_web/.  \n[6]Databib将数据知识库和研究人员联系在一起[]．现代图书情报技术，2012（9)：35.  \n[7] FP Research project ontologies[EB/OL]．[2014-04-03].http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/ontol-ogies/81-research-proj-ontologies.  \n[8] 王思丽，祝忠明．利用关联数据实现机构知识库的语义扩展研究[]．现代图书情报技术，2011，27（11)：17-23.  \n[9] DBpedia SpotlightEB/O1]．[O14-08-0]．http://dbpe-dia-spotlight. github.io/demo/.  \n[10] RDF APIEB/O1]．[015-07-02]．http://irsr.llas.ac.cn/help/rdf_info. jsp.",
+    "context2": "作者简介：王思丽，女，1985年生，硕士，馆员。马建玲，女，1969年生，研究馆员，硕士生导师。王楠，女，1979年生，硕士，副研究馆员。李慧佳，女，1984 年生，硕士，馆员。张秀秀，女，1981年生，硕士，馆员。"
+  },
+  "[5]郭少友，郑雪丽，苏丽娟．关联数据质量问题研究[].2012年全国知识组织与知识链接学术交流会论文集，2012.": {
+    "context1": "[6]JURAN J.The quality control handbook[M]．NewYork:",
+    "context2": "McGraw-Hill，1974.   \n[7] WANG R Y， STRONG D M. Beyond accuracy: what data quality means todata consumers.Journal of Management Information Systems，1996，12 （4):5-33.   \n[8] HARTIG O，ZHAO J. Using web data provenance for quality assessment[//Proceedings of the First International Workshop on the role of Semantic Web in Provenance Management （SWPM 2009），2009.   \nDEBATTISTA J，LANGE C，AUER S.daQ:an ontology for dataset qualityinformation[c]．International Workshopon Linked Data on the Web（LDOW2014)，2014.   \n[0] GIL Y，ARTZ D. Towards content trust of web resources. Web Semantics:Science，Services and Agents on the World Wide Web，2007，5(4):227-239.   \n[写] JACOBI I，KAGAL L，KHANDELWAL A. Rule-based trust assessment on the semantic web[l．Lecture Notes in Computer Science，2011， 6826: 227-241.   \n[2] SHEKARPOUR S，KATEBI S D. Modeling and evaluation of trust with an extension in semantic web[．Web Semantics: Science，Services and Agentson the World Wide Web，2010, 8 (1): 26-36.   \n[13] GAMBLE M，GOBLE C.Quality，trust，and utility of scientific dataonthe web:towardsajoint model[//Procedings of the Acm Websci，2011.   \n[4] RULA A，PALMONARI M，MAURINO A. Capturing the age of linked open data: towards a dataset-independent framework []．2012 IEEE Sixth International Conference on Semantic Computing，2012（1):218-225.   \n[15] GUERET C，GROTH P， STADLER C，et al. Assessing linked data mappings using network measures[]．Lecture Notes in Computer Science，2012，7295:87-102.   \n[6] BIZER C，CYGANIAK R. Quality-driven information filtering using the WIQA policy framework[]．Web Semantics:Science，Services and Agents on the World Wide Web，2009，7 (10):1-10.   \n[7] BEHKAMAL B，KAHANI M，BAGHER E，et al.A metricsdriven approach for quality assessment of linked open data . Journal of Theoretical and Applied Electronic Commerce Research，2014,9(2):64-79.   \n[8] BEHKAMAL B.Metrics-driven framework for LOD quality assessment[.The Semantic Web:Trendsand Challenges, 2014，8465:806-816.   \n[19] CHRISTIANF，HEPP M，BIZER C. Swiqa-a semantic web information quality asessment framework[c]．19th European Conference on Information Systems，ECIS 2011，2011.",
+    "context3": "引擎和关联数据发现工具，可尽量借助现有工具进行关联数据的自动监测、发现、采集与存储，以提高工作效率。",
+    "context4": "2）应当注重关联数据的质量和关联关系的有效性。目前，网络上关联数据源众多，关联数据增长速度很快，但领域分布比较集中，主要集中在社会网络领域，高质量、最新的科研类学术类数据相对较少。在实际应用中，需要从综合型的关联数据源中甄别、抽取出有用的科研数据或从其他形式的权威的数据源提取出数据并建立关联。而同时，有些关联数据源的关联链接是自动生成的，在一定时间或上下文范围有效，有可能在一段时间后这个关联链接指向的数据不存在。或者当关联数据源有所改变，如原有资源改变了Web地址，数据源之间原有的关联关系也会失效。因而在实际应用中必须定期对已发布的关联数据进行链接监测和更新维护，保证URI的准确性和有效性，确保提供给用户的是最新的可靠的资源信息和相关信息。",
+    "context5": "3）应当提高关联数据的查询效率和增强关联数据应用的服务方式，使其不仅能够方便支持机器获取和解读，也需要同时更加人性化，符合或引导用户的查询习惯和服务需求。关联数据最初的产生是为了方便机器理解和阅读数据，但随着关联数据技术和应用的深入发展，最终关联数据还是要回归到资源系统，为用户服务。目前的关联数据浏览器和关联数据发布工具虽然支持自动批量发布和展示关联数据及关联关系，并提供语义查询和推理，但在关联数据导航和检索结果显示方面还是比较“机械化”“模式化”。因此，数字图书馆等各服务系统在利用关联数据增强和扩展服务时，需要进一步完善它们的功能，服务方式需要从传统以文件为中心的浏览，转向以实体为中心的浏览视图，努力改变或引导为用户提供应用服务的角度和焦点。试验研究发现，基于本体模型进行发布的关联数据能够更加全面地展示数据间的关联关系，但是在提供语义查询和推理方面还有待深入研究。尤其是基于SPARQL语法和基于Jena组件的语义查询，一旦数据量稍微过大，响应速度就会变慢，效果并不是很理想。因而必须在后续的研究中考虑采用合理的方法提高资源登记系统对关联数据的查询速度。□"
+  },
+  "(上接第138页)": {
+    "context1": "[20]RUCKHAUS E，VIDAL M，CASTILLO S，et al.Analyzing linked data quality with LiQuate[．Lecture Notes in Computer Science，2013，8186:629-638.   \n[1] PABLO N M，HANNES M，BIZER C.Sieve:linked data quality assessment and fusion []．Joint EDBT/ICDT Workshops，2012(2):116-23.   \n[22] BIZER C.Quality-driven information filtering in the context of web-based information system[M]．Germany:VDM Verlag Saarbrucken，2007.   \n[3] HOXHA J，RULA A，ELL B.Towards green linked data [．the Semantic Web-ISWC，2011.   \n[4]MCDONALD G.Quality indicators for linked data datasets [EB/OL]．[2015-08-01]．http://answers.semanti-cweb.   \ncom/questions/1O72/quality-indicators-for-linked-data-datasets."
+  },
+  "[5]付瑶．图书馆关联数据质量控制研究[]．长春：东北师范大学，2013.": {
+    "context1": "[6]ZAVERI A，RULA A，MAURINO A，et al. Quality assessment for linked data:a systematic literature review and conceptual framework[J]．The Semantic Web Journal，2015: 1-31.",
+    "context2": "作者简介：赵文轩，女，1991年生，硕士生。研究方向:数字图书馆技术。通讯作者。李春旺，男，1966年生，研究馆员，硕士生导师，发表论文60余篇。",
+    "context3": "收稿日期：2015－09－11"
+  }
+}

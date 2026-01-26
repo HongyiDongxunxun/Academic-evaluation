@@ -1,0 +1,138 @@
+{
+  "original_filename": "full_8073.md",
+  "用户行为在信息检索中的研究现状及发展动态评述": {
+    "context1": "Review on the Research Status and Development Trend of Users Behavior in Information Retrieval",
+    "context2": "杨海锋1,2",
+    "context3": "(1.武汉大学信息管理学院，武汉，430072；2.江西理工大学应用科学学院，赣州,341000）",
+    "context4": "[摘要]用户搜索行为已受到了学者们的广泛研究，并涌现出了许多优秀的研究成果，本文跟踪国内外重要研究成果，对其研究现状进行了总结和评述，并提出了面临的诸多挑战。研究主要涉及到不同类型的用户、检索行为的类别、主要研究方法、实际应用几个方面。研究结果表明，搜索用户的行为研究更加隐式化和细分化，研究数据收集更加多样科学化，研究方法和模型更加丰富化，实际应用更加广泛化。用户搜索行为中包含着非常重要的隐式信息，借助科学的数据收集和分析方法对其进行充分挖掘和应用将不断改进检索系统的服务能力，提高用户的检索满意度。但由于用户检索行为的随机性、隐含性等特点，目前对检索用户行为的研究还存在许多不足之处，比如研究针对特定实验环境开展而通用性和外效性不强，因为其无法确保抽样数据的充分性和多样性等。",
+    "context5": "[关键词]信息检索搜索引擎用户行为隐式反馈查询点击 [中图分类号]G350[文献标识码]A [文章编号]1003-2797(2015)06-0079-10 DOI:10.13366/j.dik.2015.06.079 [Abstract]Scholars have maken extensive research onuser behavior，andmany excellent achievements have come forward. This paper followed major researchachievements，summarizedand reviewed the research status of search behavior，and raised some chalenges we face.Research mainly involved user clasification，types of user behavior，research methods， practicalaplication.Theresults showedthat research of user behavioris more implicitand segmented，data colection is morediverseand scientific，research methodsand modelsare richer，practicalapplication is more extensive.We mustfuly mineanduse user search behaviorwith methods of the scientificdata collctionand analysis，which contains very important implictinformation，toimproveretrieval abilityandimproveusersatisfaction.However，duetotherandomnessandimplicity of retrieval behavior，thereare stilmany shortcomings in curent researchonuser behavior，suchasthe studycarriedout in the specificexperimentalenvironment，sothestudylackversatilityandexternalvaliditybecause itcouldn'tensurethesample data adequacy and diversity.",
+    "context6": "[Key words] Information retrievalSearch engineUser behavior Implict feedbackQueryClick"
+  },
+  "1引言": {
+    "context1": "不断提高信息搜索过程和结果的满意度是业界不断努力的目标，其中，用户搜索行为的研究一直是信息检索研究的热点，许多研究已成功用于实践中，比如相关反馈、伪相关反馈、查询扩展等，但由于网络用户行为的随机性、隐含性、难量化等特点，该课题研究空间较大且许多研究还需进一步深入。随着用户信息素养的不断提高，通过信息检索工具获得信息已变成了日常性工作，这也为信息检索中用户行为的研究提供了条件，用户的样本充分，且提供了较详细的",
+    "context2": "用户查询日志。",
+    "context3": "现阶段信息检索过程中，用户类型多样，检索主题丰富，检索内容组成复杂且数量庞大，而且对用户行为的认知不断深化，基于上述特点，本文将对用户行为在信息检索中的研究做一归纳和评述，以期尽量反映其研究的的现状。主要从不同用户行为、用户的不同行为、研究方法、应用方面进行了探讨，最后对整个研究进行了总结并提出面临的挑战。"
+  },
+  "2不同用户行为研究": "",
+  "2.1一般用户行为": {
+    "context1": "一般搜索用户的界定还不明确，这里暂且认为该用户的搜索行为对于大多数用户来说具有普遍性，是大多数用户搜索行为的交集。Park等[1]通过搜索引擎NAVER发现，用户通常提交的查询词较短，很少使用高级检索特性，浏览很少的结果页面。用户的行为也显示出了消极的方面，他们很少改变搜索引擎的环境设置，更倾向于重新构造查询词而不愿增加或删除词项来重构以前的查询词。对不同搜索环境下的用户行为研究，Jansen等[2]基于5个搜索引擎的9个研究，通过会话长度、查询长度、查询复杂度、浏览内容角度比较了用户和搜索引擎的交互过程。研究结果显示，用户浏览很少的结果页面，基于美国搜索引擎的用户比基于欧洲搜索引擎的用户更多的使用查询操作符。从布尔操作符的使用和被浏览的结果页面看，不同用户满意度区别非常明显，而且用户未必将某个搜索引擎的搜索结果运用到别的搜索引擎中去。Wolfram等[3]验证了不同网络搜索环境中用户行为的差异性。通过对不同网络搜索环境(文献数据库、OPAC、搜索引擎、专门的搜索系统)的交互日志分析，发现用户更可能使用OPAC和专门的搜索系统来进行更加宽泛的搜索，令人诧异的是，相比于一般的搜索引擎，文献数据库搜索环境导致了质量较差的搜索结果。"
+  },
+  "2.2成人和未成年人": {
+    "context1": "在对成人和未成年人搜索行为的研究中，Hsieh-$\\mathsf { Y e e } ^ { [ 4 ] }$ 对 $1 9 9 5 \\sim 2 0 0 0$ 年间儿童和成人的搜索行为的研究评述比较详实、客观、全面，分析认为，对儿童行为研究主要是描述和搜索引擎的交互过程，成人行为研究主要聚焦搜索类型，并且分析了影响其搜索行为的因素，包括信息呈现、搜索任务类型、网络经验、认知能力和情感状态，成人搜索行为研究的区分主要依靠不同的数据聚合模型。同时提出了研究中至少涉及5类用户，即儿童、专业检索者、信息技术工作者、大学生、成人志愿者。因为研究数据来源的特殊性，可能导致许多研究缺少外部有效性。Bilal等[5]研究了孩子和成年人信息搜寻的差异和相似性。在对14名七年级的理工科学生和9名情报科学研究生在使用Yahooligans！的行为研究中，作者通过搜索移动、浏览移动、回溯移动、循环移动、屏幕滚动、目标定位、偏差移动以及完成任务花费时间等交互类型对两者进行了比较，并对用户的效果、效率和移动质量进行了量化，研究发现，研究生的加权的效果、效率和移动质量都比未成年人高， $89 \\%$ 的研究生找到了任务的正确答案，而未成年人只有 $50 \\%$ 。同时显示，Yahooli-gans！欠佳的关键词搜索结构是学生和研究生遭遇“故障\"的主要因素，克服\"故障\"的能力、导航类型、任务的专注性三个主要因素影响了用户的表现。对成人和未成年人搜索行为的研究，由于其影响因素较多，所以要求其研究的环境比较具体。"
+  },
+  "2.3不同知识背景用户": {
+    "context1": "不同知识背景用户分类比较复杂且不统一，本文主要涉及到有搜索经验的用户和一般用户、不同学科背景的用户、同学科不同认知类型的用户。",
+    "context2": "Holscher等[在模拟环境和真实网络环境下比较了网络专家和初学者搜索行为的差异，同时考虑两者领域知识高低因素，结果发现，“双专家\"(经验和领域知识都高)直接键入相关搜索领域的网址，而其他用户通过别的方式访问搜索引擎，网络专家注重考察搜索结果，而初学者更多的来重构他们的查询，双专家更加倾向于浏览网站更多的内容，或者改变策略使用不同的搜索引擎，而初学者这种后向定位能力相对欠缺，相对\"双初学者\"(经验和领域知识都低)，领域知识高的用户和网络专家完成任务耗时都更少，但前者表现比后者表现更加明显，网络专家更注重利用查询重构工具，高领域知识用户对布尔操作符和修改工具使用率较低。White等[7研究了高级搜索引擎用户的查询和浏览特性，结果发现，相对于非高级用户，高级搜索引擎用户在查询、结果点击、查询后浏览行为、查询成功率方面显示了巨大的差异。比如，用户查询中包含的高级语法越多，其查询和点击行为方面区别也越大，高级搜索用户的搜索行为更直接，虽然会话时间长，但其搜索路径短，搜索成功率高且点击结果之间一致性好。",
+    "context3": "不同学科背景的用户搜索行为研究中，Shiri等[8]调查了教学人员和研究生的查询扩展行为，这个过程是基于一个增强主题词表的搜索系统。结论表明，相比研究生选择更加宽泛和系统的查询词项，教学人员的选择更狭窄和同义，查询主题的复杂程度影响了用户和主题词表的交互，用户以前的搜索经验对主题词表中词项的选择和评估有显著的影响， $50 \\%$ 的用户在开始搜索时没有意识到词表提供的附加词项，这一点在研究生的行为中更加明显。",
+    "context4": "相同学科知识背景的用户，比如大学生、具体专业学生等，其搜索行为也因其认知能力、查询意图等不同而有不同表现。为了研究认知类型、在线搜索经验、任务类型如何影响用户的搜索行为， $\\mathsf { K i m } ^ { [ 9 ] }$ 将48个大学根据其认知类型和搜索经验分为4组，每组在一个大学网站上完成2个不同的搜索任务，通过用户花费的时间和访问的节点数来衡量用户的搜索特性，用导航工具的选择来确定用户的搜索导航类型。结果发现，搜索经验和认知类型相互作用并影响搜索特性和导航类型，搜索经验也和搜索任务交互，并影响搜索导航类型和访问节点数。Dogan等[10]对PubMed数据库用户行为进行了分析，发现除一般信息用户的普遍特征外，生物医学信息搜索者显示了信息检索的一致性，经常重构查询和使用缩写词查询，提交短的查询词并仅点击排名前几位的结果，其搜索类型主要是作者姓名、基因或者蛋白质、疾病名。Yuan[1研究了搜索经验如何影响终端用户的搜索过程，研究数据选取了法律系学生超过1年的在线搜索记录(QUICKLAW，一个在线的法律信息检索系统)，并从命令和特征集、语言运用类型、错误类型、学习方法、对搜索系统的态度几个方面进行考察，相比于对照组，具有高搜索经验的用户能灵活的对命令和策略进行变换，加快检索速度，改变学习方法，但搜索错误率并未得到减少，且状态链中错误编码不能有效被纠正。"
+  },
+  "3用户不同行为研究": "",
+  "3.1查询": {
+    "context1": "查询是重要的搜索行为之一，用户查询行为的研究主要通过查询、查询之间、查询过程来挖掘用户的查询意图、查询特征以及查询行为和相关文档的关系，目前的研究向行为更加细化的方向发展。",
+    "context2": "Jansen等[12]的研究较具普遍性，他分析了18113个用户在Excite（一个主要的网络搜索服务）上的51473个交互日志，其数据主要包括： $\\textcircled{1}$ 查询，查询词项的个数，逻辑符和约束符的使用; $\\textcircled{2}$ 会话，一个会话中查询的变化，访问页面的数量，相关反馈的使用；$\\textcircled{3}$ 词项，它们的排序/频率分布和使用频率最高的搜索词项。结果发现：",
+    "context3": "(1)用户查询数量不多且查询词长度短，查询反  \n馈使用不多；(2)布尔逻辑符没有被频繁的使用，“ $^ +$ ”和“-”  \n约束符的使用多于布尔逻辑符；(3)大部分用户使用一次查询而不是连续多次的  \n查询，平均每个用户访问了2.21个网页；(4)词项使用的频率分布高度倾斜，许多词项被  \n重复的使用，有部分色情词的查询，但总体数量较小。",
+    "context4": "Silverstein等[13]的研究也验证了上述结果，即检索用户使用很短的查询，几乎只查看前10个返回结果，而且很少修正查询。Broder[14]提出的查询分类(导航类、信息类、事务类)已被广泛接受，部分学者在此基础上进行了发展。Rose等[15]提出的查询类别与Broder分类类似，不过用资源查询取代了事务类查询，并表示信息类查询和资源类查询还可以进一步细化。结果显示，导航类查询没有我们想象的那样普遍，网络搜索大部分由资源类查询构成。Lee等[16]将查询划分为导航类查询和信息类查询，并实现了查询的自动分类。除了传统的从查询词长度、查询词修改率、查询推荐点击率、问题式查询比例和熟悉的查询扩展、查询重构角度分析查询外[17],Azzopardi等[18]的研究更加深入，他借助微观经济学理论，研究了查询成本如何影响用户和检索系统的交互，且该查询是基于上下文信息检索的，其中查询成本包含脑力、体力、时间、财力以及它们的结合。通过标准化查询界面、结构化查询界面和查询建议界面的实验，结果发现，相对于其他两种查询，结构化查询提交查询词少，对每次查询的结果浏览多且深入。"
+  },
+  "3.2点击": {
+    "context1": "作为隐式反馈的点击行为，它是发现和查询相关联文档的重要依据，是挖掘用户查询与点击页面之间关系的重要特征，点击过程的研究可以细化成不同的特征，同时也要考虑其中掺杂的大量噪音。",
+    "context2": "Joachims等[19]通过研究眼球追踪技术来分析用户的决策过程，并将其隐式反馈和人工相关判断进行了比较，发现点击蕴含丰富的相关性信息，但存在偏置。因此，不能将点击作为绝对的相关性判断。结果发现：",
+    "context3": "(1)用户对前两位搜索结果摘要更加关注，其后结果受关注度急剧下降；",
+    "context4": "(2)用户在鼠标滚动前首先会充分浏览能看到的 结果；",
+    "context5": "(3)结果排序越靠后，用户浏览其摘要的信息越多；",
+    "context6": "(4)当前点击和最后一次点击的页面要比排序靠前但没点击的页面更相关；",
+    "context7": "（5)后点击页面比前点击页面更相关；",
+    "context8": "(6)当前点击页面比其紧邻的上(下)一个页面（假设该页面未点击)更相关；",
+    "context9": "在此基础上，文献[20]从查询点击率、首次点击时间、首次/最后一次点击位置分布、查询内点击次数分布等点击行为方面进行了研究，并设计了12个点击特征来验证点击判断的有效性。其中得到一些结论：",
+    "context10": "(1)用户提交较多查询词的会话或点击较多的页面，可能整体满意度较低；",
+    "context11": "(2)如果用户点击比较离散的页面，则点击结果和查询词相关度较低；",
+    "context12": "(3)如果点击为会话或查询点击序列中首次点击，则点击的相关性较高；",
+    "context13": "(4)点击为会话或查询点击序列中最后一次点击，表明用户对当前点击结果满意，将不再同搜索引",
+    "context14": "擎进行交互；",
+    "context15": "(5)点击序列中，以会话为特征的有效性要优于以查询为特征的有效性；",
+    "context16": "(6)虽然用户存在点击偏置，但搜索引擎系统的智能化对点击可靠性影响也很大。",
+    "context17": "Wu等[21]使用的理论比较新颖，且行为特征比较综合，他使用信息线索(信息觅食理论的组成部分)和认知需求来解释用户与搜索结果之间的交互过程，即查询重构、翻页、搜索停止，研究回答了： $\\textcircled{1}$ 首次交互的信息线索等级(低、中、高)和搜索行为间的关系；$\\textcircled{2}$ 首次交互信息线索类型（执着型、中断型、爆发型）和搜索行为之间的关系； $\\textcircled{3}$ 认知需求和搜索行为之间的关系。搜索日志中涉及到的用户行为包括：",
+    "context18": "(1)查询活动，查询提交后结果分类评估，分类评估的三个依据为第一次交互的查询重构，第二次交互的翻页和第一次交互的任务停止；",
+    "context19": "(2)丢弃，交互过程中没有点击结果；(3)翻页数，交互过程中翻页的频率；(4)查询数，一个查询任务中提交的查询次数；(5)时间，查看一个搜索结果集花费的时间;(6)搜索结果中最远点击位置；(7)鼠标定位的最远位置；(8)结果集中查看文档的数量；(9)用户点击但不相关的文档数，用户点击且相关的文档数，最远点击位置前且没有点击的文档数。"
+  },
+  "实验结果表明：": {
+    "context1": "(1)当和包含更多的相关文档交互时，用户查看文档更多且点击位置更远；",
+    "context2": "(2)对于包含相同相关文档数目但排序不同的结果，当相关结果排序较后时，用户更可能丢弃查询；",
+    "context3": "(3)认知程度较高的用户翻页少且对排序靠后的结果关注度低；",
+    "context4": "(4)认知需求和相关文档的数量影响了搜索时间，并可能导致用户重构、翻页和停止。"
+  },
+  "3.3其他": {
+    "context1": "除了传统显示的查询和用户点击行为外，学者们也从别的检索行为要素以及行为过程进行了研究。比如鼠标的滚动、光标的定位、停留时间、结果浏览轨迹、用户认知、用户搜索行为过程等。",
+    "context2": "Smucker等[22]通过鼠标移动的研究来确定用户的关注度，并指出不同的搜索主题中，鼠标移动和用户关注度之间的区别。以前的摘要产生算法是基于和查询词相似的文档片断生成的，但这没有从用户的角度来考虑问题。Ageev等[23]通过用户后点击搜索行为数据来完善搜索结果摘要，比如鼠标光标定位和在结果文档上的滚动。用户在文档上的停留时间已被充分重视，Agichtein等[24]认为停留时间是一项重要的行为特征，实验表明停留时间的使用对查询结果改善明显，Buscher等[25]将其用在查询扩展中。Bilenko等[26]利用用户的后搜索浏览轨迹来估计文档的相关度，并对该特征进行学习以便提高搜索结果的排序。用户偏置对搜索行为和结果排序的影响常常被忽略，White[27]在医学领域对该问题进行了细致的研究，结果显示，用户的偏置行为希望别人能对其搜索以及有偏差的结果给予信任，而不管真正情况如何，同时用户更喜欢正面的结果。Cutrel等[28]使用了眼球追踪技术来理解用户如何通过网络搜索来发现信息，对导航类和信息类任务来说，用户是否采取不同策略来浏览搜索结果。"
+  },
+  "4研究方法": "",
+  "4.1调查实验方法": {
+    "context1": "调查实验方法是信息检索行为研究中最普遍的方法，之所以称之为调查实验方法，笔者认为单纯的调查和单纯的实验很少，两者相互依存、结合实为最佳的选择，通常为通过调查进行宏观统计研究，然后实验进行实证研究，且目前研究更加侧重于实证研究。该方法主要通过控制性实验、搜索日志、用户面谈、问卷调查等方法收集用户的信息搜索记录，然后提炼用户特征，并以此为基础通过相关统计工具(方法）、模型对不同用户的行为进行分析，结果可以是对用户行为特征的总体性分析，也可预测特定用户的查询类型、用户满意度等，并以此来改进检索系统服务能力，提出新的结果评价方法。该研究过程最适合以图表的方式呈现，该方法为定性定量方法结合，不同环境下两者侧重点不同。比如文献[29]收集用户访问日志信息，对用户查询长度、查询修改率、点击率、点击分布等行为进行了简单的宏观统计分析。文献[30]为了调查用户对搜索引擎工具的态度，通过台中一个医学院的120名学生的问卷调查收集数据，并对整理后的数据进行回归分析，这可称为特定用户的微观分析。基于搜索日志的研究方法可概括为收集、准备和分析三个阶段，每个阶段还可以细化为目标、度量值以及流程[31]。"
+  },
+  "4.2机器学习、统计语言模型(具体的定量方法和模型）": {
+    "context1": "收集好的数据要进行有效的组织，这必须借助具体的研究方法和模型。用户搜索行为研究中，机器学习方法和统计语言模型由于自身优秀的特征而备受关注。机器学习方法在信息检索用户行为研究中已得到了充分的应用，该方法主要是通过监督或无监督的学习来预测用户的偏好、类别、意图等，并将其结果运用到搜索过程和结果的改善中。其实这里的信息检索可被看作是有大量用户特征可以使用的分类问题，不同的研究角度决定了用户行为特征的提取状况。",
+    "context2": "在用户搜索行为研究中，分类聚类方法已被普遍使用。为了克服数据噪音，Piwowarski等[32]使用了分层的贝叶斯网络方法来研究搜索用户的行为。将用户按照不同的搜索任务分组，每组用贝叶斯网络来对用户交互行为进行建模，最终来确定用户行为的特征，并将该特征融入到通常的用户行为特征(查询时间、查询词重构等)中，通过决策树方法来预测查询文档的相关性。该方法增加了区分相关性的特征值，是对传统方法的改进。和上述方法不同，Chapelle等[33]从搜索结果位置偏置问题入手，通过一个动态的贝叶斯网络来无偏置地估计文档的相关性，该模型通过一个严格定义的会话来完成，并能很好的区分查询中的感知相关和实际相关，说明排名高的并不一定是相关文档。Stenmark[34]基于用户实际的搜寻行为，通过自组织映射自动聚类技术将用户聚成了6类，涉及到11个内容变量，事实表明，用户是多样化的，应为不同类别用户提供差异性的搜索方案，而不是通用的搜索策略。",
+    "context3": "自从1988年Ponte和Croft首次将统计语言模型应用到信息检索领域，这为信息检索研究提供了全新的研究视角和丰富的理论基础[35]。信息检索中许多统计语言模型被提出，但涉及到搜索行为的研究并不多，因而这成为未来研究的重要方向。传统的检索模型是用文档集合来匹配查询，因而对个性化和内容相关的查询建模是不充分的，为了克服这个不足，Shen等[36]使用统计语言模型对用户需求进行建模，在KL(Kullback-Leibler)距离模型的基础上结合隐式反馈信息(查询历史和点击历史)形成了4个统计语言模型，4个模型的主要差别是对不同反馈信息的类型分配不同的权重，本质上是用反馈信息来估计一元语言模型的插值。Craswell等[37]为了克服点击日志的噪音和稀疏性，使用马尔科夫随机游走模型来产生文档排序概率，同时提出了将语言模型(文档内容、查询内容)运用到该概率模型中的想法。Simola等[38]提出了用眼晴的移动行为来反推用户在阅读任务中的认知状态，这显然与隐马尔科夫过程不谋而合，因此，认知状态和眼睛移动的关系可使用隐马尔科夫来建模研究。为了研究执行3类检索任务(简单信息搜索，问答任务，主观任务一最感兴趣的话题)时用户如何处理变化，这里提出了判别性的隐马尔科夫模型（dHMM，discriminative Hidden Markov Model)。从目前研究的情况看，高阶和复杂统计语言模型、各种平滑方法、机器学习方法和统计语言模型的融合研究等将逐渐被引入到搜索行为的研究中。",
+    "context4": "检索模型是信息检索中重要的研究话题，除了传统的布尔模型、向量空间模型、概率模型以及后来发展的统计语言模型，学者们和商业公司都根据自己的研究角度和使用情况提出了许多新的检索模型，这里暂不展开讨论。"
+  },
+  "5应用": "",
+  "5.1对搜索引擎的总体评估": {
+    "context1": "检索系统用户行为的研究是对系统运作过程表现的最好考验，是对检索系统算法进行改进的重要依据。Spink[39]提出了一个以用户为中心的评价方法，并在搜索引擎Inquirus上进行了测试，评价指标包括效果和易用性，其中易用性包括屏幕布局、系统性能。Fox等[40]测试了用户的隐性评价(驻留时间、点击率、打印、购买等)和用户满意度等级之间是否有关联，并研究了什么样的隐性评价和用户满意度最相关。结果显示，用户满意度和用户的活动(标注、打印、购买等)显示了相关性，并提出最好的个人页面是应将用户的点击、驻留时间、用户如何进入搜索结果或者如何退出搜索会话等隐性评价考虑在内，当然，最好也包含行为类型。"
+  },
+  "5.2结果排序": {
+    "context1": "通过对网络用户信息检索中行为的分析，传统的召回率和准确率评价指标已不能很好的满足要求，许多新的信息检索评价指标被提出，比如 $\\mathsf { P } @ \\mathsf { n }$ (Preci-sion at n),RR(Reciprocal rank of first correct)，NDCG(Normalized discounted cumulative gain)[41-42],同时许多融入用户搜索行为特性的新的排序方法也因此产生。文献[43]结合用户行为分析方法和传统的Cran-field评价体系，构建基于用户行为分析的搜索引擎搜索性能评价的框架结构，并实现了相关评价系统。由于AP(Average Precision)评价标准缺少用户的模型支持，所以Ferrante等[44]提出了用户检索效果的评价方法MP(MarkovPrecision），该方法依靠不同的用户模型来计算正确率，而且用马尔科夫链和不同的拓扑以及状态转移概率来呈现每一个排序的位置。Agichtein等[45]将点击链接特性、浏览特性、查询文本特性反馈行为融入到结果排序算法中，并在大规模数据上进行了测评，该数据包含3000多个查询和120万个用户交互，比较重排序后最靠前的结果序列（BM25FRerankCT、BM25F-RerankAII)，同时也比较将隐式反馈引入到排序过程后的总体结果( $\\mathsf { R N } + \\mathsf { A l l }$ 、BM25F $^ +$ AI),研究显示，相比基线方法(RN、BM25F)，该方法能很好提高排序结果，特别是当 $\\mathsf K = 1$ 时的准确率提高了 $31 \\%$ ，而且K不同的取值准确率也提高明显。Mei-Ss等[46]考察了加权流量网络主机地图，指出这个复杂的动态网络模型能揭示许多令人感兴趣的结构特征(相对于以往的链接图),通过流量数据验证了PageR-ank 随机冲浪模型的效果，并指出基于流量的排序和PageRank排序的重要区别，甚至质疑PageRank排序的假设违背了真实的用户行为。但该方法数据源有限，而且由于采样网络图带来的偏置，该模型不能直接和网络上爬取的链接图进行比较。"
+  },
+  "5.3用户界面改善": {
+    "context1": "从传统的专家用户的复杂检索接口到大众用户搜索界面，用户检索界面为用户的检索体验提供了良好的交互接口。用户检索界面是用户和检索系统交互的中介，好的交互界面能提高用户检索的效率，为检索经验不足的用户提供很好的帮助。许多学者对此展开了研究。",
+    "context2": "为了比较两类用户在DIALOGUE系统两个不同检索界面上的检索表现，Meadow等[47]将用户分为检索过程专家和没有检索经验的某学科领域专家，并分别在基于检索语言和基于菜单的自然语言界面上进行检索，结果显示检索界面的确影响不同用户的检索行为，建议最好能为不同类型用户提供不同的检索界面。Rose[48]通过对用户行为的研究，比如信息搜寻目标的类型、检索的文化和情景语境、搜索任务的迭代性质，提出了不同搜索目标要匹配不同的搜索界面、搜索界面应能使用更方便的选择搜索语境、搜索界面应支撑搜索的迭代性等建议。",
+    "context3": "和上述研究不同，Edwards等[49]将情绪因素加入到搜索过程中，考察查询界面的设计如何影响用户的紧张度、工作量和表现。该研究使用了一个具有标准搜索框的标准查询界面和一个实验(结构化)界面。结果显示不同界面中紧张度没有明显区别，但结构查询成功率明显高于标准查询界面的结果，而工作量恰恰相反。"
+  },
+  "5.4垃圾网页检索": {
+    "context1": "为了提高网页的排名，必须提高网页的质量，提供和用户查询内容相关的信息。但有的网页企图通过不正常的手段(比如使用PageRank、HITS算法的缺陷等)来提高自己的排名，这称为网页作弊或者垃圾网页。李智超等提出网页作弊技术主要包括基于内容关系的作弊技术、基于链接关系的作弊技术、掩盖技术和重定向技术。和传统基于内容、链接等方法相比，用户检索行为的介入为此研究提供了一个新的视角[50]。以往基于链接的网页垃圾监测研究主要是利用超链接地图和相应的用户模型，由于超链接很容易被添加和移动，因此，超链接地图显示出了不可靠性。Yu等[51]构造了用户浏览地图，并在该地图上采取链接分析算法来确定垃圾网页。但该方法没有考虑用户浏览中的噪音，对浏览地图如何产生最大收益还需要进一步研究。目前许多监测技术还不能及时监测出新出现的垃圾网页，为了克服这种垃圾－反垃圾处理过程的时滞性，Liu等[52]在基于用户行为的基础上提出了基于贝叶斯学习的垃圾网页监测算法。该研究主要贡献是：访问垃圾网页的用户行为被研究，并提炼出该用户行为的3个特征来区分垃圾网页和一般网页，同时，在基于用户行为分析的基础上，一个垃圾监测框架被提出，以便能侦测到未知的和新出现的垃圾。但该方法的使用局限在一定的范围内，是对现有的检测作弊方法的重要补充。"
+  },
+  "5.5其他应用": {
+    "context1": "除了上述主要应用外，用户行为在搜索过程自动化、智能化和搜索结果多样化、个性化等应用方面的作用也得到了研究。Jiang等[53]将查询重构分为词项等级、查询等级和会话等级三个特征，最终细化了43个与查询重构相关的特征，然后通过半监督学习用户重构行为来对查询自动补全。Morita等[54]研究了基于用户行为的信息过滤技术，通过用户行为监测收集用户信息偏好，并将该用户配置文件应用于信息过滤。从中也发现，用户对文章阅读的时间反映了用户偏好，用户通过使用简单的句法类型匹配来选择自己感兴趣的文章。Field等[55]的研究对搜索用户的挫折感进行了建模，搜索系统能够预测用户挫折状态，并能判断什么时候提出备选的搜索策略以防用户更加挫折、放弃或者转向其他搜索引擎，实验中使用的特征从查询日志和身体传感器抽取。"
+  },
+  "6评述及挑战": {
+    "context1": "本文对信息检索中用户行为做了比较全面的梳理，从中也得到了其研究过程中的一些特点： $\\textcircled{1}$ 数据获取困难。网络环境下用户数据的获取主要是通过用户的访问日志，实际环境下用户行为对实验更有说服力，但该数据一般个人用户难以获取，对于企业发布的公开数据，由于涉及个人隐私而被二次加工，这在一定程度上降低了数据的质量。 $\\textcircled{2}$ 用户行为数据的采集更加多样科学。比如眼睛跟踪技术、身体传感器、医学设备监测搜索行为中用户的心跳。大数据环境下，可穿戴设备、物联网、移动通信设备等都能为用户行为信息的采集提供更加便利的条件，且数据噪音少质量高。 $\\textcircled{3}$ 用户行为分析从表象到隐性不断深入，从单行为向多行为交叉演进。除了传统的显式行为研究，目前用户的认知需求、个性化特征、情感等隐性特征也逐渐被引入了研究范围，多学科的交融更加紧密，具体研究方法和模型更加多元化，同时多行为依存关系更加复杂。 $\\textcircled{4}$ 研究中对不同用户及其不同的交互环境更加细化。比如基于年龄、认知能力、知识背景、从事行业等分类的用户，交互环境除了通用搜索引擎外，许多专业的搜索引擎也被研究。 $\\textcircled{5}$ 搜索行为在检索的各阶段都受到重视； $\\textcircled{6}$ 借助用户行为的细分，传统问题的研究不断深入。",
+    "context2": "面临的挑战： $\\textcircled{1}$ 英文环境搜索行为研究因其天生良好条件而备受关注，中文环境下的用户搜索行为研究还需加强； $\\textcircled{2}$ 基于用户行为的检索评价方法虽然研究较多，但许多是针对不同的领域的检索环境进行设计的，通用性不强，也在业界没能达成共识形成经典；$\\textcircled{3}$ 许多新的研究方法都是基于实验数据而非真实环境开展的，因此，抽样的充分性、多源数据处理的有效性、结果的外效性还需确认； $\\textcircled{4}$ 相对于桌面搜索系统而言，移动用户信息检索行为研究刚刚起步，随着各大组织的APP不断上线运营，移动搜索行为的研究将更加受到重视。"
+  },
+  "参考文献": {
+    "context1": "1Park S,Lee JH,Bae H J. End user searching: AWeb log analysis of NAVER，a Korean Web search engine[J].Library & Information Science Research，2005，27(2)：203-221   \n2 Jansen B J，Spink A.How are we searching the World Wide Web ?A comparison of nine search engine transaction logs[J]. Information Processing& Management，2006，42(1)：248-263   \n3 Wolfram D.Search characteristics in different types of Web-based IR environments：Are they the same?[J].Information Processing & Management，2008，44(3)：1279-1292   \n4 Hsieh-Yee I.Research on Web search behavior[J]. Library& Information Science Research，2001，23(2)：167-185   \n5 Bilal D，Kirby J.Differences and similarities in information seeking：children and adults as Web users[J]. Information Processing & Management，2002，38(5)：649-670   \n6 Holscher C，Strube G.Web search behavior of Internet experts and newbies[J].Computer Networks，2000，33(1)：337-346   \n7 White R W，Morris D. Investigating the querying and browsing behavior of advanced search engine users[C]//Proceedings of the 30th annual international ACM SIGlR conference on research and development in information retrieval.ACM，2007：255-262   \n8 Shiri A，Revie C. Query expansion behavior within a thesaurus-enhanced search environment：A user- centered evaluation[J]. Journal of the American Society for Information Science and Technology，2006，57(4)：462-478   \n9 Kim K S.Information-seeking on the Web:Effects of user and task variables[J].Library& Information Science Research，2001，23 (3):233-255   \n10 Dogan R I,Murray G C,Névéol A，et al. Understanding PubMed? user search behavior through log analysis[J].Database，2009， 2009：bap018   \n11 Yuan W.End - user searching behavior in information retrieval:A longitudinal study[J].Journal of the American Society for Information Science，1997，48(3)：218-234   \n12Jansen B J,Spink A，Bateman J，et al.Real life information retrieval：A study of user queries on the web[J].ACM SIGIR Forum，1998，32(1)：5-17   \n13 Silverstein C，Marais H，Henzinger M，et al．Analysis of a very large web search engine query log[J].ACM SIGlR Forum，1999， 33(1):6-12   \n14 Broder A.A taxonomy of web search[J].ACM SIGIR Forum, 2002，36(2):3-10   \n15 Rose D E，Levinson D.Understanding user goals in web search [C]//Proceedings of the 13th international conference on World Wide Web.ACM，2004：13-19   \n16Lee U,Liu Z，Cho J.Automatic identification of user goals in web search[C]//Proceedings of the 14th international conference on World WideWeb.ACM，2005：391-400"
+  },
+  "17,20，43岑荣伟.基于用户行为分析的搜索引擎评价研究[D].北京：清华大学，2010": {
+    "context1": "18Azzopardi L，Kelly D，Brennan K.How query cost affects search behavior[C]//Proceedings of the 36th international ACM SIGIR conference on research and development in information retrieval. ACM，2013:23-32   \n19 Joachims T，Granka L，Pan B，et al. Evaluating the accuracy of implicit feedback from clicks and query reformulations inweb 2007，25(2)：7   \n21 Wu W C，Kelly D，Sud A.Using information scent and need for cognition to understand online search behavior[C]//Proceedings of the 37th international ACM SIGlR conference on research& development in information retrieval.ACM，2014：557-566   \n22Smucker M D,Guo X S,Toulis A.Mouse movement during relevance judging:implications for determining user attention[C]//Proceedings of the 37th international ACM SIGIR conference on research & development in information retrieval.ACM,2014:979-982   \n23Ageev M，Lagun D，Agichtein E. Improving search result summaries by using searcher behavior data[C]//Proceedings of the 36th international ACM SIGlR conference on research and development in information retrieval.ACM，2013：13-22   \n24 Agichtein E，Brill E，Dumais S. Improving web search ranking by incorporating user behavior information[C]//Proceedings of the 29thannual international ACM SlGlR conference on research and development in information retrieval.ACM，2006：19-26   \n25 Buscher G,van Elst L，Dengel A.Segment-level display time as implicit feedback：a comparison to eye tracking[C]//Proceedings of the 32nd international ACM SIGlR conference on research and development in information retrieval.ACM，2009：67-74   \n26 Bilenko M，White R W.Mining the search trails of surfing crowds: identifying relevant websites from user activity[C]//Proceedings of the 17th international conference on World Wide Web．ACM, 2008:51-60   \n27White R.Beliefs and biases in web search[C]//Proceedings of the 36th international ACM SIGlR conference on research and development in information retrieval.ACM，2013：3-12   \n28 Cutrell E，Guan Z.What are you looking for?:an eye-tracking study of information usage in web search[C]//Proceedings of the SIGCHl conference on human factors in computing systems.ACM, 2007:407-416"
+  },
+  "29岑荣伟，刘奕群，张敏等.网络搜索引擎用户行为分析和研究[C].//第五届全国信息检索学术会议论文集.上海：中国中文信息学会，2009：186-194": {
+    "context1": "30Liaw S S，Huang H M.An investigation of user attitudes toward search engines as an information retrieval tool[J].Computers in Human Behavior，2003，19(6)：751-765   \n31 Jansen B J.Search log analysis：What it is，what's been done, how to do it[J].Library & Information Science Research，2006, 28(3):407-432   \n32 Piwowarski B,Dupret G,Jones R.Mining user web search activity with layered bayesian networks or how to capture a click in its context[C]//Proceedings of the second ACM international conference on web search and data mining. ACM，2009: 162-171   \n33 Chapelle O,Zhang Y.A dynamic bayesian network click model for web search ranking[C]//Proceedings of the 18th international conference on World wide web.ACM，2009：1-10   \n34 Stenmark D.Identifying clusters of user behavior in intranet search engine log files[J]. Journal of the American Society for Information Science and Technology，2008，59(14)：2232-2243   \n35 Ponte JM,Croft W B.A language modeling approach to information retrieval[C]//Proceedings of the 21st annual international ACM SIGIR conference on research and development in information retrieval.ACM，1998：275-281   \n36 Shen X，Tan B，Zhai C X.Context-sensitive information retrieval using implicit feedback[C]//Proceedings of the 28th annual international ACM SlGlR conference on research and development in information retrieval.ACM，2005：43-50   \n37 Craswell N，Szummer M. Random walks on the click graph[C]// Proceedings of the 30th annual international ACM SIGlR conference on research and development in information retrieval.ACM, 2007:239-246   \n38 Simola J，SalojäRvi J,Kojo I. Using hidden Markov model to uncover processing states from eye movements in information search tasks[J].Cognitive Systems Research,2008，9(4):237-251   \n39Spink A.A user-centered approach to evaluating human interaction with web search engines：an exploratory study[J]. Information Processing& Management，2002，38(3)：401-426   \n40 Fox S,Karnawat K，Mydland M,et al. Evaluating implicit measures to improve web search[J].ACM Transactions on Information Systems (TOIS)，2005，23(2):147-168   \n41 Hawking D,Craswell N.Very large scale retrieval and web search [EB/OL].[2015-04-23].htp://es.csiro.au/pubs/trecbook_for_ website.pdf   \n42 Jarvelin K，Kekalainen J.Cumulated gain-based evaluation of IR techniques[J].ACM Transaction on Information Systems (TOlS)， 2002，20(4):422-446   \n44 Ferrante M，Ferro N，Maistro M. Injecting user models and time into precision via Markov chains[C]//Proceedings of the 37th international ACM SlGlR conference on Research & development in information retrieval.ACM，2014：597-606   \n45 Agichtein E，Brill E，Dumais S.Improving web search ranking by incorporating user behavior information[C]//Proceedings of the 29th annual international ACM SIGIR conference on research and",
+    "context2": "development in information retrieval.ACM，2006：19-26",
+    "context3": "46Meiss MR，MenczerF，Fortunato S,etal.Ranking web sites with real user traffic[C]//Proceedings of the 20o8 international conference on web search and data mining.ACM，2008：65-76",
+    "context4": "47 Meadow C T，Wang J，Yuan W.A study of user performance and attitudes with information retrieval interfaces[J].Journal of the American Society for Information Science，1995，46(7)：490-505",
+    "context5": "48Rose D E.Reconciling information-seeking behavior with search user interfaces for the Web[J].Journal of the American Society for Information Science and Technology，2006，57(6)：797-799",
+    "context6": "49 Edwards A，Kelly D，Azzopardi L.The impact of query interface design on stress，workload and performance[M]//Advances in Information Retrieval.Springer International Publishing，2015：691-702"
+  },
+  "50 李智超，余慧佳，刘奕群，等.网页作弊与反作弊技术综述[J].山东大学学报(理学版），2011,46(5)：1-8": {
+    "context1": "51 Yu H,Liu Y，Zhang M,et al.Web spam identification with user browsing graph[M]//Information Retrieval Technology.Springer Berlin Heidelberg，2009：38-49",
+    "context2": "52 Liu Y，Cen R,Zhang M,et al. Identifying web spam with user behavior analysis[C]//Proceedings of the 4th international workshop on adversarial information retrieval on the web.ACM,2008： 9-16",
+    "context3": "53 Jiang JY，KeYY，Chien PY,etal.Learning user reformulation behavior for query auto-completion[C]//Proceedings of the 37th international ACM SlGlR conference on research & development in information retrieval.ACM，2014：445-454",
+    "context4": "54Morita M，Shinoda Y. Information filtering based on user behavior analysis and best match text retrieval[C]//Proceedings of the 17th annual international ACM SIGlR conference on research and development in information retrieval.Springer-Verlag New York, Inc.，1994:272-281",
+    "context5": "55Feild HA,Allan J,Jones R.Predicting searcher frustration[C]//Proceedings of the 33rd international ACM SIGlR conference on research and development in information retrieval.ACM,2010:34-41",
+    "context6": "(收稿日期:2015-06-02)"
+  },
+  "（上接第47页）": {
+    "context1": "2LiY,angJoetAegatedethdfusetaosdladfrtigtorrentsfiaie. Expert Syst. Appl.，2009(3):7045-7053",
+    "context2": "13 侯智，陈世平.TRIZ理论与KANO 模型的集成研究[J].机床与液压,2005(6):47-49,51",
+    "context3": "14唐晓玲，何燕.基于QFD和KANO模型的数字图书馆质量评估研究[J].情报理论与实践,2013(6):89-92",
+    "context4": "15习羽.高校图书馆服务质量评价体系的优化—基于KANO模型与服务质量差距模型的视角[J].图书馆学研究,2013(8)：22-26,48",
+    "context5": "16吴冬曼，邵敏，张喜来.研究图书馆服务质量评价指标构建实证研究[J].大学图书馆学报，2012(5)：82-89",
+    "context6": "17EinastoO.Usingserviceqaitymonitoringtosupportlibrarymanagementdecisions:AcasestudyfromstoniaJTenteratioalfor mation& Library Review，2009,41(1):12-20",
+    "context7": "18 Roy A， Khare A,Liu B SC,e tl. An Investigation of Affect of Service Usinga LibQUAL $^ +$ TM Survey and an Experimental Study[J].The Journal of Academic Librarianship，2012(3):153-160",
+    "context8": "19MccafreyCLibQUALineland：PerformanceAssessmentandServicemprovementinrishUniversityLibrariesJ]TheJouralofAca demic Librarianship，2013(1):1011-1016",
+    "context9": "20 曹树金，陈忆金，杨涛.基于用户需求的图书馆用户满意实证研究[J].中国图书馆学报，2013(5)：60-74",
+    "context10": "21夏有根，潘继进，徐忠.基于LibQUAL的图书馆服务质量评价及实证研究[J].情报理论与实践，2009(6)：32-35",
+    "context11": "22施国洪，岳江君，刘庆广，等.SERVQUAL模型在我国图书馆服务质量评价中的适应性研究——基于KANO理论[J].图书情报工作2009(12):49-51",
+    "context12": "23邱皓政.量化研究与统计分析：SPSS中文视窗版资料分析范例解析[M].台中：五南图书出版公司，2003：189",
+    "context13": "24MatzlerK，HinteruberH.HowtomakeproductdevelopmentprojectsmoresuccesfulbyintegratingKano'smodelofcustomersatisfactior into quality function development[J].Technovation，1998,18(1):25-38",
+    "context14": "25YangCC.TherefinedKano'smodelanditsalicationJTtalQualityanagement&usinesExcelence,200516(1）:1137",
+    "context15": "(收稿日期：2015-07-30)"
+  }
+}

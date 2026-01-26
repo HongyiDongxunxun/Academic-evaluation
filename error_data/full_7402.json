@@ -1,0 +1,117 @@
+{
+  "original_filename": "full_7402.md",
+  "工作探索": {
+    "context1": "![](images/231850160b97f5e6bcebd26c566745217f3374fc20634d42632de4d264022ad0.jpg)  \n图5Scite学者主页示例",
+    "context2": "用次数、引文提及数等定量数据的同时，系统也给出关联的机构、发文列表和关联的期刊等。点击机构名称或论文列表中的作者名称、期刊名称，可跳转到对应的机构主页、作者主页或者期刊主页(见图5)。作者间的引用关系需要借助论文才能追踪到。在分析相关句子的基础上，丰富了揭示的维度，但揭示的深度简单，并未构造新的评价指标。",
+    "context3": "WoS 除显示学者的ResearchID、ORCID、发文量、H指数、被引次数、施引文献数、预印本数及发文列表外，还提供作者影响力射束图、地理引证关系图、不同作者贡献类别(第一作者、末位作者、通讯作者，系统称“作者位置”)的发文占比情况、合作作者列表、合作发文数等。以55号文献作者Bergman为例，其影响力射束图(见图6)可直观展示其不同年份发文的学科规范化引文影响力、被引频次在同学科同年份同类型文献中的相对百分位，以及当年被引百分位中位数，还可以结合作者贡献类型进行更精准分析，这对提高跨学科比较有益。地理引证关系图是结合世界地图来直观显示各个国家、地区、城市等不同地理对象中与当前作者存在引用关系的作者数量。遗憾的是，这些统计都是基于传统被引次数而展开，并未根据引文内容特征进行区分，准确性有待提升。",
+    "context4": "![](images/1e32e77b26f08f5bf9cc41fc04bffc7e8aa3119ccf04a7afaa2bd3f739029cf0.jpg)  \n图6WoS的作者影响力射束图示例",
+    "context5": "总的来说，S2基于论文间的引用关系，通过参考作者列表、施引作者列表及合作作者",
+    "context6": "列表来揭示学者间引用关系，在H指数及总被引次数的基础上，通过高影响力引文数来反映学者的影响力。Scite主要在对学者的引证文献数、引用文献数的基础上，通过细化的引文提及数、不同引文情感数等量化指标反映学者的影响力。WoS分别通过作者影响力射束图、地理引证关系图揭示作者相对影响力及合作作者地理分布，但都是基于传统被引次数，并不是细粒度的引文类别特征。"
+  },
+  "智能引文数据平台的功能比较与趋势分析": {
+    "context1": "宋丹辉，陶俊",
+    "context2": "摘要因应传统引文分析忽视引用情境信息，无法提炼引文的情感、意图、重要性等内容特征，不能为细粒度知识发现、语义检索、学术评价等提供支持，Semantic Scholar、Scite、COCI等智能引文数据平台在引文内容分析理论和人工智能技术支持下应运而生。文章选取55篇特定主题的开放获取论文作为实例，考察引文内容特征的揭示及应用，并与代表传统引文数据的Webof Science，以及代表未来发展方向的COCI进行对比，分析在基础算法、分析粒度、数据准确性、服务方式等方面的趋势，以期为选择合适引文内容分析工具、构建中文智能引文数据平台、开展细粒度知识发现和科研评价提供参考。",
+    "context3": "关键词引文内容特征引文意图 引文情感 ChatGPT引用本文格式宋丹辉，陶俊.智能引文数据平台的功能比较与趋势分析[).图书馆论坛，2023，43(11):59-69."
+  },
+  "Functional Comparison and Trend Analysis of Smart Citation Data Platform": {
+    "context1": "SONG Danhui & TAO Jun",
+    "context2": "AbstractIn response to the fact that traditional citation analysis，which ignores the citation context information, fails to refine content features such as emotion，intention，and importance of citations，and cannot support the fine-grained knowledge discovery，semantic retrieval，and academic evaluation，etc.，Semantic Scholar, Scite，COCI and other intellgent citation data platforms have emerged withthe support of citation content analysis theory and artificial intellgence technology.Taking 55 open access papers on specific topics for example，this paper examines the disclosure and application of citation content features.By comparing them with Web of Science，which represents traditional citation data，and COCI，which represents the future development of semantic citation，it analyzes the trends in basic algorithms，analysis granularity，data accuracy，and service methods，with a view to providing references for selecting appropriate citation content analysis tools，building Chinese inteligent citation data platforms，and conducting fine- grained knowledge discovery and scientific research evaluation.",
+    "context3": "Keywordscitation features； citation intent；citation sentiment； ChatGPT"
+  },
+  "0引言": {
+    "context1": "引文是科技论文的重要组成部分，不仅能为作者的论点提供论据，而且有助于精炼文字，开展被引检索和统计。在文献计量领域，自1955年EugeneGarfield提出“引文索引”概念以来，引文分析深入发展2，一些基于引用次数的评价指标，如影响因子、H指数4被提出，广泛应用于期刊、机构、科研人员学术影响力评价。然而，随着研究深入，学者发现传统引文分析把所有引用都视为等同，忽略引用动机、意图、情感等语义信息，无法客观反映不同引文的相对重要性，存在基础数据不精准等问题，相关指标在学术评价中的准确性开始被质疑。",
+    "context2": "20世纪90年代以来，随着自然语言处理技术(Natural Language Processing，NLP)发展，基于全文的引文内容分析(Content based CitationAnalysis，CCA)兴起，有关引文动机、引文功能、引文情感、引文位置等内容特征的研究日渐丰富，但多为人工采集处理数据。受技术门槛及学术成果垄断等影响，引文分类自动化进程并不顺利。一方面，自动提取引文并进行标注需要NLP基础，一般科研人员难以掌握；另一方面，能提供权威的、高质量引文数据的平台，如Webof Science(WoS)①，需要巨额的订阅费，一般科研人员不易获取。20世纪90年代末，PubMed②和arXiv等平台的出现缓解了全文可获取性问题，但引文数据仍然被保护在付费墙之后。2017年8月，OpenCitation、Crossref等联合发起开放引文倡议，引文数据开放获取揭开序幕。",
+    "context3": "2008年以来，随着深度学习等人工智能技术在NLP中的广泛应用，以及全文数据特别是结构化数据的丰富，CCA不再停留在理论和小样本实证层面，开始阔步迈向实践。SemanticScholar $( \\mathsf { S } 2 ) ^ { \\textcircled { 4 } }$ 、Scite等新兴引文数据平台先后发布，标注引文意图、引文情感等细粒度引文内容特征，支持检索、聚类、统计分析等，对细粒度语义搜索、知识发现、学术评价具有重要的意义。鉴于此，本文选取特定主题的开放获取文献作为案例，对S2、Scite等智能引文数据平台的主要功能和发展趋势进行实证分析，以期为相关研究人员选择合适CCA工具、构建中文智能引文数据平台、提升知识发现及科研评价的准确性提供参考。"
+  },
+  "1相关研究": {
+    "context1": "CCA发展以及人工智能技术的进步促进了智能引文数据平台的落地。",
+    "context2": "(1)引文内容分析研究。引文内容是指施引者在论著中对被引文献的识别、总结和评价，以实现施引者独特的引用动机和意图，通常表现为引文标记所在的句子。引文内容特征指施引文献中被引文献的上下文特征信息。最早的引文内容研究始于20世纪六七十年代，Lipetz发现传统引文分析方法存在缺陷，引文内容可用来筛选出更有价值的引文。随后学者开始手工采集引文内容分析引文功能、引文动机等特征，提出引文分类框架，如分析学者引用原因和复杂动机[1以及引文提及次数、提及位置。Zhang等将引文内容特征概括为句法和语义两个维度，句法方面侧重于关注引用提及频率和引文位置等，语义方面侧重关注引文主题和引用情感等，相关研究构建了CCA理论框架。2000年Teufel提出论证区域(Argumentative Zone)概念，构建引文内容标注框架，并利用计算机进行标引、抽取和结果评估；随后专攻引文功能的自动分类3技术的发展，自动化研究自此得到关注。何荣利等14探讨引文的提及次数和提及位置之间的关系；袁子晗等[15]构建引用态度标记体系和标记规则；PLoS公开旗下所有期刊论文的结构化全文数据和开发工具。2008年以来，随着人工智能技术发展和大规模结构化论文全文数据的出现，引文功能识别、引文位置和提及次数等经典特征开始在大样本数据集里被广泛研究和检验[1。情感分析技术也使得引文内容的情感研究迅速展开17]。",
+    "context3": "CCA理论的丰富促进应用研究的繁荣，包括引文检索与推荐、自动摘要生成等。胡志刚等[18]提出一种由引用位置、引用强度和引用语境组成的全文引文分析的研究框架，并以Journal ofInformatics为例进行实证分析，还展示了全文引文分析方法在科学文献检索、科学评价与预见等方面的应用；刘盛博等[19利用引文在文献中被多次提及的情况重新修改引文的排序方式，实现了比传统检索系统更好的排序效果；陆伟等20设计了一种包含引文功能、引文重要性、引文情感的引文内容标注框架，并证实其可用性。",
+    "context4": "(2)智能引文数据平台实践。人工智能旨在让计算机模拟人类的思维、自动化解决不能用代码描述的问题。机器学习、深度学习等都是人工智能的实现方法。从NLP技术范式演进看，2010年前基于规则或模型的传统机器学习是主流。2013年后基于深度神经网络的NLP技术开始流行，出现以循环神经网络为代表的深度语言模型。2017年谷歌推出Transformerl21]，2018年BERT22和GPT预训练语言大模型发布，大模型技术萌芽。2022年11月OpenAl上线聊天机器人模型ChatGPT，全球科技巨头纷纷开始布局AI大语言模型。2023年3月，百度发布我国首款生成式知识增强大语言模型“文心一言\"。",
+    "context5": "随着深度学习的不断迭代与广泛应用，引文数据开始走向智能化。2016年起，艾伦人工智能实验室、Nicholson团队分别发布 $S 2 ^ { \\left[ 2 3 \\right] }$ 、Scitel24智能引文数据平台并阐述工作原理。",
+    "context6": "2021年9月，WoS推出引文分类视图和被引参考文献深度分析服务。我国相关研究和实践相对晚一些。2017年以来，相关研究[26-27]多是介绍S2、Scite的特点功",
+    "context7": "能，未专门就引文内容特征的揭示及应用情况进行实证分析。在实践领域，中科院张智雄团队开发SciAIEngine，其中引用句识别模块能够自动识别科技文本引用情感、引用意图，但仅适用于自科领域英文文献。"
+  },
+  "2数据来源与实验方法": {
+    "context1": "为增强分析力度，笔者选取特定主题的开放获取文献为案例，对S2、Scite在引文内容特征的揭示、引文内容特征的应用情况进行实证分析，还引入WoS、COCl(Crossref OpenCitationsIndex of Crossref Open DOl-to-DOl)@进行对比。WoS是科研工作者长期使用的数据平台，具有广泛的社会影响力，将其作为传统基准进行对比，有助于认识智能引文数据的优势。COCI是OpenCitations的重要研究成果，借助SPAR本体和 OpenCitations Data Model数据模型③,形式化描述引文与文献、作者、机构、期刊等不同实体间的丰富语义关系，支持推理、可扩展性强[2。将其作为是未来语义化引文数据的参考标准，有助于明确现有引文数据的不足。本文以“语义出版”“语义标注”为主题获取实验数据，具体步骤如下： $\\textcircled{1}$ 在PubMedCenter中检索并选取被引频次较高的55篇论文作为种子文献，获取这些文献的DOI和PMID等元数据信息，以 CSV格式导出； $\\textcircled{2}$ 依据DOI及PMID，从Semantics Scholar、Scite、COCl、WoS中收集引文数据； $\\textcircled{3}$ 对比分析引文数据，考察不同平台在CCA方面的特色。这些平台的隶属关系、标注体系、数据规模、发布时间等见表1。",
+    "context2": "表1代表性智能引文数据平台概况",
+    "context3": "<table><tr><td rowspan=1 colspan=1>平台</td><td rowspan=1 colspan=1>隶属关系</td><td rowspan=1 colspan=1>标注的引文内容特征</td><td rowspan=1 colspan=1>平台规模(截至2022年8月)</td><td rowspan=1 colspan=1>时间</td></tr><tr><td rowspan=1 colspan=1>S2</td><td rowspan=1 colspan=1>美国艾伦人工智能实验室</td><td rowspan=1 colspan=1>引文意图、高影响力引文</td><td rowspan=1 colspan=1>近20个学科的1.98亿多篇文献</td><td rowspan=1 colspan=1>2015</td></tr><tr><td rowspan=1 colspan=1>Scite</td><td rowspan=1 colspan=1>美国Scite.Al公司</td><td rowspan=1 colspan=1>引文位置、引文情感</td><td rowspan=1 colspan=1>2,700多万篇全文文献、9亿多条引文</td><td rowspan=1 colspan=1>2018</td></tr><tr><td rowspan=1 colspan=1>coc</td><td rowspan=1 colspan=1>OpenCitations</td><td rowspan=1 colspan=1>将引文视为实体，赋予唯一开放引文标识符OCI，具有引文类型特征等属性[28]</td><td rowspan=1 colspan=1>75,030,924个书目实体之间的1,363,718,366条引文</td><td rowspan=1 colspan=1>2018</td></tr><tr><td rowspan=1 colspan=1>WoS</td><td rowspan=1 colspan=1>美国科睿唯安公司</td><td rowspan=1 colspan=1>通过引文分类视图、被引参考文献深度分析等，标注引文部分、引文分类</td><td rowspan=1 colspan=1>WoS核心合集部分开放获取的文献</td><td rowspan=1 colspan=1>2021</td></tr></table>"
+  },
+  "3智能引文数据平台功能分析": "",
+  "3.1引文内容特征与引文提及的揭示": {
+    "context1": "引文提及通常按照引文类别展示，因此在分析引文提及揭示情况之前，先分析引文内容特征的揭示情况。55篇文献在S2、Scite、COCI、",
+    "context2": "WoS中分别能检索到55篇、49篇、48篇、41篇，按照总被引频次由高到低排序，S2、Scite中总被引次数最高的都是55号文献。下文以该文献为案例展开分析。"
+  },
+  "3.1.1引文内容特征的揭示": {
+    "context1": "S2主要揭示两种引文内容特征：一是引用意图，包括背景引文、方法引文和结果引文三类，分别充当研究的背景、研究参照的程序或实验、研究需要的前提与基础；二是高影响力引用数，反映文献的相对重要性。",
+    "context2": "55号文献在S2中的主界面如图1，除高亮显示研究方法等重要句子，关联相关预印本、演示文稿、数据集外，还重点从引文意图(背景性引用94次，方法性引用97次)和高影响力引用(32次)两个维度对总被引次数进行细分(306次)。点击页面下方的施引文献、参考文献视窗，可分别查看对应文献的引文意图分布及相关的引用句。",
+    "context3": "![](images/27ec53bec97da3a4b8b7a89c066934d60bac2b8513f2aedb28a105467626a184.jpg)  \n图1S2的引文内容关系图页面示例",
+    "context4": "Scite主要揭示两种引文内容特征：一是引用情感，包括支持引文、提及引文和反对引文三类，并给出可信度供用户参考；二是引文位置，包括简介、方法、结果、讨论等类型。55号文献在 Scite中的主界面如图2，除展示期刊、DOI、全文链接、标题、作者、摘要等基本信息，点击施引文献和参考文献两个视窗，可查看对应文献列表及其引文位置、引文情感分布，每篇文献下方还根据引文情感特征对总被引次数进行细分。点击Visualizecitations，可查看当前文献的引证关系图。节点代表文献(标明作者和发表时间)，边代表文献间的引用关系，箭头指向参考文献，边的粗细代表引用次数多少，边的不同颜色代表不同的引用情感。如图2所示，在该文201篇施引文献中，只有3篇支持性引用，另有1篇因无法获取全文而无法判断引文情感；在该文44篇参考文献中，只有2篇支持性引用。",
+    "context5": "![](images/e6ddbe248cd4ce4fdd5112d1c4d9d6094b28ac9eba5cb98e476fb7e046990f36.jpg)  \n图2Scite的论文详情页及引文关系图页面示例",
+    "context6": "WoS主要揭示两种引文内容特征：一是根据可用的引文上下文数据和相关引用项目中的摘录，对当前文献在引证文献正文中的提及方式进行细分而得到“引文分类”，如Introduction、Discuss、Differ，不同类别以条形图的方式展示在引文分类图中；二是根据参考文献在当前文献中被提及时的篇章位置进行细分而得到“引文部分”，如 Background、 Methods、 Results、Support，不同类别以不同颜色展示在被引参考文献深度分析矩阵图中。55号文献在WoS中可检索到，但未显示引文内容特征，说明WoS此类服务普及率需提高。检索其他54篇文献后发现，WoS可检到41篇，21篇有引文分类图，仅1篇(6号文献，见图3)存在“被引参考文献深度分析\"。图中每个黑点代表1篇参考文献，点击可查看“引文提及”，并标注所属“引文分类”“引文部分”，部分支持跳转到出版商处查看全文。如果某篇参考文献在正文中被多次引用，系统可显示引文提及总数，点击箭头还可依次查看各引文提及的内容。需注意，WoS这种引文内容分析服务只适用于部分文献。",
+    "context7": "总的来说，上述平台借助引文位置、引文意图、引文情感等特征，不仅可以更精准的表达检据、被引数据、引文类别数据，以及基于内容特征的引用统计与排名等。",
+    "context8": "![](images/7530da5fba3a4fbc821252321954075a17969d5fb801b52b3491d55afed83822.jpg)  \n19篇引用的参考文献  \n图3WoS的被引参考文献深度分析示例"
+  },
+  "3.2.1对学者引用特征的揭示": {
+    "context1": "利用深度学习技术，S2在文献高影响力引用次数基础上衍生出影响力分数(Influence Score)来度量学者A对学者B的学术影响力。以55号文献作者Bergman为例，在作者主页，不仅能查看发文量、H索需求、筛选目标文献，还能多角度分组、聚类、统计文献的施引或被引数据，为构建更客观的学术评价指标提供数据支撑。"
+  },
+  "3.1.2引文提及的揭示": {
+    "context1": "对特定文献，S2、Scite支持一站式查看被引信息： (1)总被引次数，宏观上了解本文总被引情况； (2)不同引文内容特征下不同类别的被引情况，包括参考文献在当前文献正文中被引时的引文类别、次数、引文提及，当前文献在施引文献中被引时的引文类别、次数、引文提及。WoS主要通过被引参考文献深度分析图、引文分类分布图来揭示(2)，两图相距较远不便集中对比。相关引文提及需要分别点击对应的圆点、数字才能查看，使用不方便。",
+    "context2": "S2、Scite的引文提及，一站式展示当前文献被引用或引用其他文献时的具体语境，既能帮助科研工作者节省搜集文献、查找论据、推敲词句的时间，更专注科研创新工作，又能帮助读者更快更好地理解文献的知识内容，更全面地认识文献的学术影响力。WoS虽然既有“引文部分”，又有“引文分类”，但不能按照这些特征去一站式聚类相关文献、直观展示引文提及，易用性和计量功能不如Scite。"
+  },
+  "3.2引文内容特征的应用": {
+    "context1": "引文内容特征的应用主要体现在对学者、期刊、机构的引用特征的揭示上，包括相关发文数指数、总被引次数、高影响力被引次数、推荐相关作者，点击右侧Influence(见图4)，还能查看对其影响最大和受其影响最大的各5位学者。学者名称旁有Influence Score卡片，可直观简单对比。2023年S2系统升级后，学者主页进行改版(见图4下半部分)，更突出显示作者的发文数、引证作者数、引用作者数、合作作者数。",
+    "context2": "![](images/e6de045a2d1bf77b8bd7cc7d119a2d56058829ee0b50a4baabfb06cb2340751e.jpg)  \n图4S2的作者主页学术影响关系图示例",
+    "context3": "Scite主要通过统计作者发文数、被引用时的引文提及数、引用他人时的引文提及数，总被引次数及其引文情感分布、总引用次数及其引文情感分布等数据来全面多角度地展示作者的引用情况。以55号文献作者Bergman为例，发文101篇，被引9,542次，共获得11,635条引文提及，其中支持性引用579次、反对性引用45次；施引4,484次，共产生6,054条引文提及，支持性引用412次、反对性引用40次。在展示上述引"
+  },
+  "3.2.2对机构及期刊引用特征的揭示": {
+    "context1": "Scite基于引文情感提出SI指数来优化期刊和机构的影响力评价，即支持性引用在所有表明立场的引用(包括支持性引用和否定性引用)中的比重。SI越接近1，支持性引用占比越高，代表认可文献的人越多，文献影响力也就越高。",
+    "context2": "为避免小样本干扰，SI指数只面向特定评价周期内表明立场的引用数不低于100的实体。由于现有引文多是中立性引用，能达到这个阈值的论文、作者不多，但期刊或机构不少，因此，SI主要衍生出期刊指数 SJI(Scite Journal Index)、机构指数 SOl(Scite Organization Index)两个指标，分别显示在Scite的期刊主页和机构主页上。考虑到被引次数会随着时间动态变化，Scite给出2年、5年和全生命周期3种SI趋势图。考虑到期刊的被引次数会随着学科不同而呈现较大差异，Scite还为期刊配置 Subject Area选项。对同一种期刊，选择的SubjectArea不同，返回的SI指数也不同，每个SI指数下方会同步列出其在对应学科领域的排名和相对百分位[24]。",
+    "context3": "为支持细粒度学术评价，Scite还把收录的所有期刊、机构按照SI指数、总被引频次、支持性引用次数、否定性引用次数等排序，并展示在Journal List或Organizations List页面上，也支持通过刊名、出版商、机构名等检索特定实体的对应指标值。",
+    "context4": "S2对期刊、机构引用情况的揭示并无亮点，WoS中JCR、ESI等主要基于传统被引次数，并未细化到引文内容特征，不具有可比性，本文不再展开论述。"
+  },
+  "3.3引文内容特征的语义化描述与关联": {
+    "context1": "S2、Scite、WoS基于不同引文内容特征而标注的引文类别见表2。相较而言，S2的“引文意图”、Scite的“引文位置”与WoS的“引文部分”都与文献篇章结构存在较强对应关系；S2的“引文情感”与WoS的“引文分类”“引文部分”都有交叉，存在同一名称在不同平台分别归属与不同引文内容特征的混乱现象，不利于平台之间的互操作、智能运算和跨平台整合研究，需要一个统一的引文分类框架进行对齐和映射。这方面的代表性成果是引文类型本体(theCitationTyping Ontology，CiTO)@，不仅将 Citation 作为独立的实体，赋予引文唯一标识符，设置hasCitationCharacterization等属性描述引文类型特征信息，还按照引文的客观性和修辞特征等设计一个包含近百种引文类别的分类框架，可作为统一的引文分类标准框架，对不同平台的引文类别进行映射与互操作。CiTO描述的引文数据不仅符合Force11的FAIR数据创建原则[2，可查找、可访问、可互操作和可重复使用，也满足I4OC对结构化、可分离和可开放的要求。良好的数据结构使CiTO很快得到计量研究领域的关注。Heibi等3o利用CiTO对Wakefield被撤销论文的分析发现，大多数施引文献的情绪是负面的；PLoS通过引入CiTO丰富的引文特征来分析撤稿信息与引文位置的关联关系。",
+    "context2": "COCI最大特色在于引入CiTO，不仅形式化描述特定引文的各种属性和引文类型特征，还通过the Provenance Ontology(PROV-O)描述引文的来源信息，通过SPAR本体与相关学者、机构、期刊建立语义关联，支持多维度的语义分析。",
+    "context3": "调研发现，55号文献因引文数据不公开而未能在COCI中检索到。检索其他54篇文献后发现，COCl可检到48篇，每篇文献的Citation实例数与其他平台的施引文献数大体相当。操作方法为：在“Citations of a specific document(DOI)”模式下，输入DOI，返回引用该DOI的Citation列表，每个Citation代表一个引文；切换到“Data of a specific citation(OCl)”模式下，输入OCI，可查看该引文的各种属性与类别特征。"
+  },
+  "4智能引文数据平台发展趋势": "",
+  "4.1基础算法更加智能化": {
+    "context1": "随着NLP与人工智能技术进步，引文内容特征的自动分类日渐成为关注重点。Kunnath等3发现， $8 2 \\%$ 经典论文用到机器学习方法，超 $70 \\%$ 为传统机器学习。也有学者探索深度学习的可行性，S2、Scite都是深度学习的代表。",
+    "context2": "表2S2、Scite引文类别及其与WoS的对应关系",
+    "context3": "<table><tr><td rowspan=1 colspan=1>平台名称</td><td rowspan=1 colspan=1>引文内容，分析维度</td><td rowspan=1 colspan=1>标注框架</td><td rowspan=1 colspan=1>WoS对应特征</td><td rowspan=1 colspan=1>服务方式</td></tr><tr><td rowspan=4 colspan=1>S2</td><td rowspan=3 colspan=1>引文意图，Citation Type</td><td rowspan=1 colspan=1>Background citations背景引用</td><td rowspan=1 colspan=1>Background①</td><td rowspan=4 colspan=1>检索、排序、聚类、分类计数</td></tr><tr><td rowspan=1 colspan=1>Methodscitations方法引用</td><td rowspan=1 colspan=1>Methods①</td></tr><tr><td rowspan=1 colspan=1>Resultscitations结果引用</td><td rowspan=1 colspan=1>Results</td></tr><tr><td rowspan=1 colspan=1>高影响力引用</td><td rowspan=1 colspan=1>Highly Influential Citations</td><td rowspan=1 colspan=1>高被引论文，热点论文</td></tr><tr><td rowspan=8 colspan=1>Scite</td><td rowspan=3 colspan=1>引文情感，Citation Type</td><td rowspan=1 colspan=1>Supporting支持性引用</td><td rowspan=1 colspan=1>Support</td><td rowspan=4 colspan=1>检索、排序、聚类、分类计数、可视化</td></tr><tr><td rowspan=1 colspan=1>Contrasting否定性引用</td><td rowspan=1 colspan=1>Differ2</td></tr><tr><td rowspan=1 colspan=1>Mentioning提及性引用</td><td rowspan=1 colspan=1>无</td></tr><tr><td rowspan=1 colspan=1>引文可信度</td><td rowspan=1 colspan=1>当前引文被标注为当前分类的概率</td><td rowspan=1 colspan=1>无</td></tr><tr><td rowspan=4 colspan=1>引文位置，</td><td rowspan=1 colspan=1>Introduction在背景部分被引用</td><td rowspan=1 colspan=1>Introduction</td><td rowspan=4 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Method在研究方法部分被引用</td><td rowspan=1 colspan=1>Methods①</td></tr><tr><td rowspan=1 colspan=1>Paper Section Results在研究结果部分被引</td><td rowspan=1 colspan=1>Results①</td></tr><tr><td rowspan=1 colspan=1>Discussion在讨论分析部分被引用Discuss?</td><td rowspan=1 colspan=1>Discuss②</td></tr></table>",
+    "context4": "注： $\\textcircled{1}$ 表示WoS中归属于“引文部分”的类别； $\\textcircled{2}$ 表示 $\\mathbb { W } _ { 0 . 5 }$ 归属于“引文分类”的类别。表格并未穷举“引文部分”“引文分类”的所有类别。",
+    "context5": "传统机器学习主要采用大量标注数据、训练或微调范式，需要严谨的工程设计和相当多的领域专业知识，才能设计特征提取器，性能和效率存在提升空间。深度学习允许由多个处理层组成的计算模型学习具有多个抽象级别的数据表示，每个处理层都将前一级别的表示形式转换为更高、更抽象的级别的表示形式，经过足够多的此类转换，就能学习复杂的功能3。每层的功能无需人工设计，而是通用训练从数据中学习，显著提升了知识抽取性能，但也存在无法解释模型输出、缺失推理常识、缺乏语义理解，以及依赖大量样本数据等问题。而完成理解、推理、解释等认知智能的任务不仅需要数据，更需要知识背景。本体及其实例化后形成的知识图谱在这方面优势明显，它以形式化的语言来明确、规范地表达概念、实体以及实体间的关系，不仅支持机器可理解、可重用，还支持推理，能够把隐含在显示声明中的知识通过特定处理机制提取出来，COCI是应用该技术的代表。本体构建包括Schema构建、知识抽取等过程。深度学习是完成知识抽取的重要方式。",
+    "context6": "深度学习与知识图谱各有所长，二相结合是实现认知智能的良方。一方面，将深度学习得来的知识输入引文知识库，可以修正本体中不准、不全和不够灵活的地方，为本体演化及知识推理提供支撑。另一方面，知识表示学习技术的成熟为知识融入深度学习框架提供了可能，不仅有助于提升深度学习的鲁棒可解释能力，也能克服远程监督的噪声标注问题及长尾分布数据的少次学习问题。"
+  },
+  "4.2数据来源更加开源化众包化": {
+    "context1": "相较于WoS等商业引文库，S2、Scite、COCI以开放获取文献为主要数据源，可检到文献的数量可能偏小。然而，本文案例调研发现，三者可检到文献数量高于WoS。这都得益于开放获取运动，目前开放获取文献可观，截至2022年4月，arXiv总量达186万余篇，且每月以1万多篇速度增长；Crossref注册的元数据记录已增到1.34亿条。WoS在预印本和开放获取文献上的缺失反而成为短板，55篇文献只检索到41篇，而 S2、Scite、COCI分别能检索到55篇、49篇、48篇。",
+    "context2": "COCI高度依赖DOl，Citation实例数会因以下情况缺失： (1)不少出版商在Crossref中开放出版物的引文数据，但出版物未使用DOI； (2)部分出版商在Crossref中存放引文数据，但未能按照I4OC建议将其开放； (3)在转储Crossref数据过程中，部分引文数据DOI缺失； (4)参考文献本身无DOI，相关被引情况无法获取。为弥补COCI不足，OpenCitation发布众包开放引文索引(Crowdsourced Open Citations Index， CROCl@),呼吁科研人员自行丰富缺失的引文数据。"
+  },
+  "4.3分析粒度更加细化": {
+    "context1": "聚焦这55篇文献在不同平台的被引数据(见图7，限于篇幅，仅展示进入各平台TOP10的14篇文献)，不难发现统计口径的细化使得相关统计数据更加丰富。",
+    "context2": "![](images/85aede62981df793bffbb86c6e207a9006f675348449d45d351126fa6f539cf6.jpg)  \n图7进入各平台总被引频次排名前10文献的被引情况",
+    "context3": "S2 总被引次数、Scite 的 citing_publica-tions、COCl的Citation实例数整体略高于WoS_Z9。S2中有 $8 8 \\%$ 总被引高于Scite的 cit-ing_publications数(49篇中有43篇)， $9 8 \\%$ 总被引高于COCl的Citation 实例数(48 篇中有47篇)， $9 5 \\%$ 总被引高于WoS的Z9(41篇中有39篇)。Scite中 $7 7 \\%$ citing_publications 高于COCl的 Citation实例数(48篇中有37篇， $80 \\%$ cit-ing_publications 高于WoS_Z9(41篇中 有 33篇)。COCl 中 $6 8 \\%$ 的Citation实例数高于WoS_Z9(41篇中有28篇)。",
+    "context4": "在统计不同引文意图的次数和高影响力引用次数时，S2是以文献篇数为统计口径，但会根据引文意图的差异性进行微调：若论文A多次以同样意图引用文献B，则文献B相对于文献A的此类引文意图只被计算1次；若论文A分别以不同的意图引用文献B，那么文献B相对于文献A的每种引文意图都会被计算1次。在统计不同引文情感、引文位置的次数时，Scite是以识别到的引文提及为统计口径，粒度更细，由于文献A可能会在不同位置以不同的情感引用文献B的不同内容，或在同一位置以同样的情感引用不同文献的相似内容，因此citation_statements 数与citing_publications数并没有严格的关联关系，但总体呈现高于传统引用次数的态势。需要注意的是，人工智能算法对XML全文中参考文献的识别率并非百分百，PDF格式只有 $7 5 \\%$ 左右。不能识别的引文只作为附录而未被计数，这会降低相关引文意图、引文情感等分类特征的计数。在判定引文情感时，Scite主要依据情感线索词。对纯逻辑、概念化的表达，情感线索词少，Scite很难做出判断。S2对引文意图的处理也存在类似情况。",
+    "context5": "总的来说，S2、Scite基于句子级的引文提及来判定引文类别，虽然计数的准确性受到算法识别能力的影响，但支持按照引文类别进行二次检索、聚类、排序和定量统计分析，这为开展细粒度、精准化的知识发现和学术影响力评价提供了可能。"
+  },
+  "4.4前端更关注引文数据的准确性": {
+    "context1": "由上文看出，智能算法主要基于已有的引文数据进行解析、加工，而不对已有引文的正确性进行校验，若引文数据本身存在标引错误、缺失或者有撤稿情况，那么基于这些不准确数据计算出来的结果将不具有可靠性。为从源头上提高引文数据的准确性，部分平台扩展引文校验功能：(1)COCl的Open Citation平台提供参考文献校对服务，用户在指定Web端上传文献便可检测参考文献中的错误标注。(2)Scite通过ReferenceCheck支持对参考文献进行检查，上传论文及参考文献列表，系统可快速返回参考文献的被引情况，以及是否有撤稿或编辑更正通知等信息。(3)WoS与Retraction Watch(撤稿观察)合作，共享撤稿数据库，一旦有文章被撤稿，WoS会根据DOI或PubMed ID自动识别并标记为",
+    "context2": "Retractedpublication，显示在系统自动创建的Retractions分组中。",
+    "context3": "此外，引文意图或引文情感等引文内容特征是智能算法自动判定结果，存在错误在所难免，显示可信度或者人工校验就变得十分必要。为此，Scite不仅显示引文情感的可信度，还允许用户对错误数据进行举报，并设置评审员对举报内容进行核验、更正。"
+  },
+  "4.5后端更注重服务方式的多样性": {
+    "context1": "作为公益平台，S2提供免费API和开放研究语料库S2ORC，S2ORC包含超过1.36亿篇论文及其4.67亿篇引文关系，部分还提供PMDS和DOI3。Scite虽然需要付费以会员方式使用，但也免费提供API(使用者需遵循相应的使用条款)、Zotero扩展插件、浏览器扩展插件分别支持在其他数据库文献详情页面、在Zotero中显示引文情感数据。COCI提供HTTPIRI、SPARQL端点、RESTAPI、搜索/浏览Web接口、FigShare转储等方式，全方位支持人类或人工智能开展文献计量研究。Stephen Pearson利用COCl检索曼彻斯特大学所属出版物之间的引用关系，挖掘跨学科和跨部门的潜在合作关系[34]；lorio等[35利用COCl数据对最新的Italian Scientific Habilitation(意大利学术资格认证)进行实验，发现利用开放引文数据(包括COCI)能从一定程度上代替商业引文数据库开展学者学术影响力评价；WoS是商业数据库，订阅用户可选择多种格式导出，包括EndNote，也可借助Incites、JCR等工具先进行筛选分析，再将结果导出。"
+  },
+  "5结语": {
+    "context1": "S2、Scite、WoS、COCl等智能引文数据平台利用深度学习等人工智能技术自动识别引文意图、引用情感、引文位置等引文内容特征，标注对应引文类别并进行定量统计分析，提供二次检索、分组、排序、可视化展示等服务，这对开展细粒度知识发现、语义检索及精准化学术评价具有重要的意义。本文选取55篇特定主题的开放获取论文作为实例，分析不同平台引文内容特征的揭示及应用情况，指出存在问题，总结其在基础算法、数据来源、分析粒度等方面的趋势，既能为中文智能引文数据平台建设提供参考，也能为相关人员选择合适的开放引文分析工具提供指南。我国智能引文数据建设及平台开发尚未整体跟进，迫切需要加强相关研究和基础设施建设。",
+    "context2": "大样本训练语料和大规模计算能力使得基于人工神经网络深度学习的知识学习性能大幅提升，以ChatGPT为代表的大模型逐渐成为数智时代的典型技术和应用创新。目前行业巨头已经储备相当的算力，大模型生态逐步形成。在我国，能够进行大模型研究的机构屈指可数，大模型生态单薄，迫切需要结合领域知识进行应用。引文内容分析是细粒度引文检索和推荐、学术文献摘要自动生成、研究主题发现等任务的基石，应用大模型、深化特征信息提炼、促进引文数据智能化对激活科技文献中海量知识单元、实现数智时代下知识循证具有重要价值。",
+    "context3": "引文内容分析关注文献内容特征，强调从引文提及中挖掘引用的语法、语义特征乃至语用特征。借鉴ChatGPT经验，依托中文生成式预训练大模型技术，加强科技文献“训练语料”建设，加强引文内容识别、抽取与分析方法等的研究，将SPAR本体及OCDM数据模型融入深度学习，指导并弱监督抽取过程，让机器从更大规模全文数据中更好的识别文本的结构和语义、发现更深层次的引用模式和规律，从而细化引文分析粒度、拓展分析视角，形成更大规模可计算引文内容知识网络，为问答式引文推荐、知识发现及学术评价等提供支撑。在此基础上，引入人类反馈的强化学习算法(ReinforcementLearning with Human Feedback，RLHF)，把用户偏好作为奖励信号来微调模型，可以进一步增强学习效果。"
+  },
+  "注释": {
+    "context1": "$\\textcircled{1}$ https://www.webofscience.com/wos/woscc/basic-search.   \n$\\textcircled{2}$ https://pubmed.ncbi.nlm.nih.gov/.   \n$\\textcircled{3}$ https://arxiv.org/.   \n$\\textcircled{4}$ https://www.semanticscholar.org/.   \n$\\textcircled{5}$ https://scite.ai/users/danhui-song-83P3/feed. $\\textcircled{6}$ http://sciengine.las.ac.cn/.   \n$\\textcircled{7}$ http://opencitations.net/index/coci.   \n$\\textcircled{8}$ http://opencitations.net/.   \n$\\textcircled{9}$ http://opencitations.net/model.   \n$\\textcircled{10}$ http://purl.org/spar/cito.   \n$\\textcircled{1}$ https://w3id.org/oc/index/croci."
+  },
+  "参考文献": {
+    "context1": "[1] GARFIELD E.Citation Indexes for Science:A New Dimension in Documentation through Association of Ideas[J].Science，1955，122(3159):108-111.   \n[2] GARFIELD E.Citation Analysis asa Tool in Journal EvaluationU].SCIENCE，1972，178（4060)：471- 479.   \n[3] GARFIELD E. The History and Meaning of the Journal Impact Factor[J].Jama，2006，295（1)：90- 93.   \n[4] EGGHE L. The single publication $\\mathrm { H - }$ index of papers in the Hirsch-core ofa researcher and the indirect $\\mathrm { H - }$ indexJ].Scientometrics，2011，89 (3):727-739.   \n[5] IOANNIDIS JPA，BOYACKK W.Citation metrics for appraising scientists: misuse， gaming and proper use[J].Medical Journal of Australia，202O，212（6): 247-249.   \n[6] 赵蓉英，曾宪琴，陈必坤.全文本引文分析—引文分 析的新发展].图书情报工作，2014，58(9)：129- 135. doi: 10.13266/j.issn.0252-3116.2014.09.018.   \n[7] TARABORELLI D, PATTER SON M. Unlocking references from the literature: The Initiative for Open Citations[EB/OL]. [2022-12-30]. ttps://figshare.com/articles/presentation/Unlocking_references_ from_the_literature_The_Initiative_for_Open_Citations/5545108/1.   \n[8] MITROVI S, MULLER H. Summarizing citation contexts of scientific publications[C]//Experimental Ir Meets Multilinguality，Multimodality，and Interaction(Lecture Notes in Computer Science). Springer, 2015，9283:154-165.   \n[9] LIPETZ B A. Improvement of the selectivity of citation indexes to science literature through inclusion of citation relationship indicators[J].American Documentation，1965,16(2):81-90.   \n[10] BORNMANN L，DANIEL HD.What do citation counts measure? A review of studies on citing behavior D].Journal ofDocumentation，2008，64(1):45-80.   \n[11] ZHANG G，DING Y，MILOJEVIC S. Citation content analysis (CCA): A framework for syntactic and semantic analysis of citation content[J]. Journal of the American Society for Information Science and Technology，2013，64（7)：1490-1503.   \n[12] TEUFEL S. Argumentative zoning: information ex"
+  }
+}

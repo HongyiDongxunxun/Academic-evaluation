@@ -1,0 +1,150 @@
+{
+  "original_filename": "full_3364.md",
+  "国外健康类APP评价研究综述": {
+    "context1": "全晶晶邓胜利（武汉大学信息资源研究中心，武汉，430072）",
+    "context2": "[摘要]随着智能手机的快速发展，越来越多的用户使用手机APP管理健康信息。本文以\"健康类APP的评价\"为主要研究对象，对国外与健康类APP评价相关的文章进行收集、整理和分析。从评价标准、评价方法、评价结果三个主要方面对健康类APP的评价进行研究。总结并归纳了健康类APP 的评价标准和指标，为健康类APP的评估与选择提供参考。最后指出了未来研究的方向。",
+    "context3": "［关键词]健康类APP评价标准评价方法综述软件评价",
+    "context4": "[中图分类号］R-05;G203;TP31 ［文献标识码］A[文章编号］2095-2171(2016)04-0028-13   \nDOI:10.13365/j.jirm.2016.04.028"
+  },
+  "A Literature Review about the Evaluation of Health Apps Abroad": {
+    "context1": "Tong JingjingDeng Shengli",
+    "context2": "(Center for the Studies of Information Resources of Wuhan University，Wuhan，430072)",
+    "context3": "[Abstract]With the rapid development of the smartphone，users can employ smartphone apps to help them manage their health.This paper mainly reviews evaluation of health apps and systematically collcting，arranging and analyzing the literatures related to the assessment of health apps.It reviews on the evaluation progress from the aspects of evaluation criteria,methods and results.In addition，the evaluation indicators and criteria are generalized inorder to provide reference for assessment and selecting.Finaly，it gives the working directions of next steps.",
+    "context4": "[Key words]Health application(App）Evaluation criteriaEvaluation methodsLiterature reviewSoftware evaluation",
+    "context5": "随着智能手机的迅速发展和普及，移动应用的研究已逐渐成为信息科学领域新的研究热点，特别是在公众对个人健康关注持续升温的前提下，健康管理类工具的研究成为重要的前沿课题。2007年10月，微软发布了HealthVault为用户提供追踪健康信息的服务，允许用户与第三方设备分享信息，并接收个性化的反馈。2008年5月，谷歌推出了Google Health为谷歌用户创建在线健康档案，帮助用户寻找健康问题的权威信息。此后，各种健康应用不断拓展，包括各种为特定人群设计的相关应用[1-5] 。",
+    "context6": "随着移动互联网的迅速发展，智能终端设备的成本不断降低，用户移动设备的拥有量不断上升。纽约大学朗格尼医学中心（NYULangone)2015年的调查显示： $58 \\%$ 的受访者表示他们已经在自己手机中下载了一个健康类APP, $45 \\%$ 的人下载了5个或5个以上的健康类APP。而下载了健康类APP的人中，有 $65 \\%$ 表示会经常使用它们[6]。此外，卡斯蒂略的调查则显示有 $92 \\%$ 的人愿意在专家的推荐下使用健康类 $\\mathsf { A P P } ^ { [ 7 ] }$ 。由此可见健康类APP逐渐融入人们的生活[8,9]。",
+    "context7": "行之有效的评价方法和全面的评价标准可以更好地对健康类APP的质量进行检测，但是国内针对健康类APP质量的研究还比较缺乏。因此，本文对国外有关评价健康APP的相关文章进行收集、整理、分析和归纳，旨在探讨健康类APP的质量评价方法、标准、指标、结果等重要议题，以期为用户和相关研究者提供参考。"
+  },
+  "1研究方法": "",
+  "1.1数据来源与检索策略": {
+    "context1": "为了比较准确全面地呈现国外健康类APP 的研究现状，本文在对外文数据库进行了全面的调研后，最终选定ACM(AsSOciation forComputingMachinery）Digital Library、IEEE",
+    "context2": "Xplore Digital Library、ProQuest Research Li-brary和Web of Science等与健康主题相关的数据库。检索词主要以\"移动健康应用\"和\"评价\"为主。为了适应不同数据库检索格式的要求，检索内容和方式会发生变化。表1列出了在各个数据库中检索得到的文献数。共计643 篇文献。",
+    "context3": "表1数据库及检索结果",
+    "context4": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>数据库</td><td rowspan=1 colspan=1>检索得到的文档数</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>ACM（Association for ComputingMachinery)Digital Library</td><td rowspan=1 colspan=1>18</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>IEEEXplore Digital Library</td><td rowspan=1 colspan=1>14</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>ProQuest Research Library</td><td rowspan=1 colspan=1>125</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Wiley Online Library</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Web of Science</td><td rowspan=1 colspan=1>479</td></tr></table>"
+  },
+  "1.2筛选文章的标准": {
+    "context1": "本文的目的是对健康类APP的评价标准和评价方法进行系统研究，因此所选文献应是对健康类APP提供了相关评价标准并详细描述评价过程的文章，具体标准如表2所示。",
+    "context2": "表2文献筛选的标准",
+    "context3": "<table><tr><td rowspan=1 colspan=1>筛选项目</td><td rowspan=1 colspan=1>标准</td></tr><tr><td rowspan=1 colspan=1>文献类型</td><td rowspan=1 colspan=1>除去会议摘要、综述等类型的文献</td></tr><tr><td rowspan=1 colspan=1>研究内容</td><td rowspan=1 colspan=1>针对某一款或者某一些具体的健康类APP展开研究</td></tr><tr><td rowspan=1 colspan=1>研究方法</td><td rowspan=1 colspan=1>详细描述研究方法与研究过程的文章被包括在内，而对研究过程没有进行详细阐述的文章则被剔除</td></tr><tr><td rowspan=1 colspan=1>评价标准</td><td rowspan=1 colspan=1>文章应该对评价过程中使用的具体标准和指标进行描述。以便给用户和设计者提供更加全面的参考。而没有指出评价标准的文章将会被剔除</td></tr><tr><td rowspan=1 colspan=1>时间</td><td rowspan=1 colspan=1>文献出版的时间则被限制在2000年12月到2016年3月之间，以第一台触屏智能手机发布的时间作为起始时间。以本研究开始的时间作为结束时间</td></tr><tr><td rowspan=1 colspan=1>语言</td><td rowspan=1 colspan=1>英文</td></tr></table>"
+  },
+  "1.3文献获取": {
+    "context1": "本文将643篇文献题录导入到 Noteex-press 中进行去重操作，得到609 篇文献。然后阅读所得文献的标题和摘要，去除与健康类APP的评价明显不相关的文献，如涉及健康类APP分类，健康类APP发展趋势，健康类APP对用户的影响等文章，得到108篇文章。接着，研究者对这108篇文章进行全文阅读，将不满足表2标准的文章删除，得到了35篇与研究主题直接相关的文献。",
+    "context2": "鉴于健康类APP是一个新兴研究领域，其英文表达方式具有多样化的特点，而针对特定领域的健康类APP表达方式又存在较大差异，这样造成漏检的可能性很大，因此本文对初步纳入的35篇文献的引文进行追溯，筛选出符合表2标准的文章共计15篇。因此，最终选择文献共50篇，具体筛选流程如图1所示。",
+    "context3": "![](images/40f61d4fec0fc140dceeccc15441bcab12c1fa2040294b28dde7e5fffeb1712e.jpg)  \n图1文献筛选流程"
+  },
+  "1.4数据抽取与分析": "",
+  "1.4.1数据抽取": {
+    "context1": "本文对最终纳入文献的全文进行仔细阅读并抽取相关的数据。文章数据的抽取按照表3列出的项目进行。",
+    "context2": "表3数据抽取表",
+    "context3": "<table><tr><td rowspan=1 colspan=1>类别</td><td rowspan=1 colspan=1>项目</td></tr><tr><td rowspan=5 colspan=1>文献基本信息</td><td rowspan=1 colspan=1>标题</td></tr><tr><td rowspan=1 colspan=1>出版年份</td></tr><tr><td rowspan=1 colspan=1>作者</td></tr><tr><td rowspan=1 colspan=1>作者机构</td></tr><tr><td rowspan=1 colspan=1>文章的原产国</td></tr><tr><td rowspan=3 colspan=1>健康类APP的选取</td><td rowspan=1 colspan=1>APP的来源</td></tr><tr><td rowspan=1 colspan=1>APP的应用领域</td></tr><tr><td rowspan=1 colspan=1>APP的数量</td></tr><tr><td rowspan=2 colspan=1>评估者的选取</td><td rowspan=1 colspan=1>评估者的身份</td></tr><tr><td rowspan=1 colspan=1>评估者的数量</td></tr><tr><td rowspan=2 colspan=1>研究方法</td><td rowspan=1 colspan=1>收集数据的方式</td></tr><tr><td rowspan=1 colspan=1>数据分析的方法</td></tr><tr><td rowspan=3 colspan=1>评价标准</td><td rowspan=1 colspan=1>标准的数量</td></tr><tr><td rowspan=1 colspan=1>标准的来源</td></tr><tr><td rowspan=1 colspan=1>标准对应的指标</td></tr><tr><td rowspan=3 colspan=1>研究结果</td><td rowspan=1 colspan=1>主要发现</td></tr><tr><td rowspan=1 colspan=1>方法的不足</td></tr><tr><td rowspan=1 colspan=1>作者的结论</td></tr></table>",
+    "context4": "(1)文献的基本信息。为了更好的观察纳入文献的分布情况，找出高产的作者和相关的研究机构，本文对出版年份、文献原产国、作者、作者机构等基本信息进行抽取。",
+    "context5": "(2)健康类APP的选取。记录健康类APP的来源,应用领域以及选取的总数，以便分析研究者选取APP的方法和近年来健康类APP研究的领域变化。",
+    "context6": "(3)评估者的选取。评价过程中，评估者的身份和数量影响评价结果的准确度，因此有必要对评估的具体信息进行研究。",
+    "context7": "(4)研究方法。数据收集的方式和分析的方法是本文研究的重点，以期为同类型的研究提供参考。",
+    "context8": "(5)评价标准。评价标准指导整个评价过程的开展，标准和对应的指标是评价过程中的关键内容，也是本研究的重点内容。",
+    "context9": "(6)研究结果。记录各个研究中的不足以便为未来研究的开展提供建议，而作者的结论和主要发现则是获取评价结果的关键信息。",
+    "context10": "为了更好的开展信息抽取和信息分析工作，本文对评价标准、质量指标和作者的结论进行预先定义。",
+    "context11": "(1)标准：判断健康类APP质量的抽象规则，反映了评价者在评测健康类APP质量时考虑的决定因素[10]。",
+    "context12": "(2)指标：健康类APP评价内容的具体体现，用户可以直接参考以判断该APP是否满足某一特定的评价标准[10]。",
+    "context13": "本研究中评价结果的划分借鉴Eysenbach的研究方法[11]，把健康类APP的质量评价结果分为四个等级：积极、消极、中立和多变，如表4所示。",
+    "context14": "表4质量评价结果及表现",
+    "context15": "<table><tr><td rowspan=1 colspan=1>评价结果</td><td rowspan=1 colspan=1>表现</td></tr><tr><td rowspan=1 colspan=1>积极</td><td rowspan=1 colspan=1>作者叙述时态度积极，没有对他们评价的结果表示担心</td></tr><tr><td rowspan=1 colspan=1>消极</td><td rowspan=1 colspan=1>作者对于他们评价的结果感到悲观的或者是抱有谨慎小心的态度</td></tr><tr><td rowspan=1 colspan=1>中立</td><td rowspan=1 colspan=1>作者既讨论缺点又讨论益处，从结论中也无法察觉出积极或是消极的态度</td></tr><tr><td rowspan=1 colspan=1>多变</td><td rowspan=1 colspan=1>作者明确的表示评论的结果会随着健康类APP的变化而发生改变</td></tr></table>",
+    "context16": "信息抽取中，本文为每一篇文章创建一个Word文档，仔细阅读全文，按照表3所列出的项目，逐条在文章中获取所需的信息，并将原文的内容转述为中文。信息抽取完毕后将Word文件保存，并以原文的标题为文档命名，共计 50 篇文档。"
+  },
+  "1.4.2数据分析": {
+    "context1": "本文使用Nvivo10.0进行编码分析，它可以基于某一个相同的节点将文章分组。首先把所有文献对应的Word文件导入Nvivo10.0中，然后按照表3中所列出的18个项目在Nvivo10.0中建立节点，再阅读每篇文献对应的抽取信息，根据信息的内容在相应的节点下建立子节点，对表达相同含义的表述进行总结，并编码至同一个子节点。",
+    "context2": "图2展示了Nvivo的部分页面，截取了7个节点，每个节点下包含了必要的子节点。例如发表时间节点下就有2011，2012，2013，2014等子节点。节点和子节点后的材料来源和参考点依次记录了编码过程中使用的文献数目和编码位置数。以APP来源节点为例，此节点对应的材料来源数为37，表示有37篇文献对健康类APP的来源进行了阐述，而参考点为61则表示在分析过程中研究者在这37篇文献中的61个地方进行了编码。",
+    "context3": "![](images/2638649f4a13a3167ab31ca0c61fe042be8640f75d2bebd9086cc30539e0465a.jpg)  \n图2Nvivo的节点页面"
+  },
+  "2结果分析": {
+    "context1": "2.1纳入文献的分布特征通过筛选获取的50篇文献按年限分布如图3所示。纳入文献最早出版于2011年，并且文献数目逐年递增。因为只对2016年1—3月份的文献进行了筛选，因此2016年的文献只有4篇。",
+    "context2": "![](images/296b8edd0b8e27c2a4684445bd98662da783c932d9ba61e74c032e4379c03b97.jpg)  \n图3文献数目随年份变化图",
+    "context3": "本研究中，本文根据作者所属机构来确定文献的原产国，共包括9个国家(如图4)，分别是爱尔兰 $\\mathfrak { n } { = } 1 { : } 2 \\% \\ \\mathrm { ~ , ~ }$ 、澳大利亚 $( \\mathsf { n } = 5 : 1 0 \\% )$ 、德国 ${ \\ : \\ : } _ { \\mathrm { m } } = 4 : 8 \\%$ 、韩国 $: n = 1 : 2 \\%$ )、加拿大(n$= 3 , 6 \\% 1$ ，美国 $( \\mathsf { n } = 1 9 : 3 8 \\% )$ 、挪威（ $\\mathsf { n } = 3$ ，$6 \\%$ ）、西班牙 $( \\mathsf { n } = 4 , 8 \\% )$ 、英国 $\\mathrm { \\Delta \\cdot n } = 1 0 , 2 0 \\% \\mathrm { \\Delta \\Gamma }$ 。其中美国所占的文献数目最多，为19篇，是纳入文献总数的 $38 \\%$ 。",
+    "context4": "![](images/25fbc1e182356b71b26e1b50d3fa145c1a689120614a9607b0616f0d220ed528.jpg)  \n图4文献数目随国家变化图",
+    "context5": "本文通过编码分析发现，共有98个机构中的219名研究者参与这些文献的创作。Chan[12,13]、Zhang[14,15]、Chomutare[16,17]等14位研究者都参与了两篇文献的研究。"
+  },
+  "2.2纳入文献的研究流程": {
+    "context1": "国外对健康类APP的评价研究大致分为两类，一类是以设计为导向的研究，另一类是以用户为中心的研究。",
+    "context2": "以设计为导向的研究按照以下步骤进行：首先在应用商店或智能手机上进行检索，根据检索的结果确定初步纳入研究的健康类APP类型，制定一系列的健康类APP筛选标准，对初步纳入的APP进行逐一检验来获取最终研究的样本。然后收集应用商店中对入选的健康类APP的描述和APP本身功能方面相关的数据，根据已有的研究结果或是设计指南来制定健康类APP的评价标准，对其进行检测。最后根据评价的结果总结健康类APP的质量情况。以设计为导向的研究方法的具体流程如图5所示。",
+    "context3": "如Mani[18]等人在对有关提高用户注意力的APP进行评估时，在谷歌市场和萃果应用商店输入相应的检索词，搜索得到700个相关的APP，然后按照筛选标准对检索结果进行筛选，最后纳入23个APP进行评估。而后借鉴 Stoy-anov[19]的研究结果从用户参与方式、功能设计、美观性和信息质量四个方面进行评价，使用李克特五点量表对每个应用的各个方面进行评",
+    "context4": "![](images/c71e63b31e04a8613f0120d55fa9c8f58e63cea3430e78f5318615421665a2b6.jpg)  \n图5以设计为导向的研究方法",
+    "context5": "![](images/74b5a811e53f5bd826726407f23f8b796079444322a062b569a75cf9015242bd.jpg)  \n图6Main等人的研究过程",
+    "context6": "以用户为中心研究的整体流程如下：研究者首先招募志愿者，使用半结构化访谈、焦点小组和问卷调查等方法来收取与健康类APP内容与设计方面相关的信息。再根据数据分析的结果设计健康类APP的原型。然后在志愿者中间进行健康类APP的可用性测试，并辅以问卷调查和半结构化访谈等方式来获取健康类APP评价与测试相关的数据。而后使用主题分析、描述性统计等方法对定性数据进行分析，运用SPSS和Excel对定量数据进行分析。最后根据数据分析的结果总结健康类APP的质量情况，如图7所示。以用户为中心的健康类APP应用设计大多数是针对特定的人群，如老年人[2,4]、糖尿病患者[3,5]等。",
+    "context7": "还有部分研究是针对市场上已有的一款应用进行评价，因而并不包括流程图7中的“获取健康类APP的设计特色”和“设计健康类APP原型”这两个环节。如Mirkovic和Kaufman[20]在对一款针对癌症病人的健康应用进行评估时，先对7位癌症患者进行可用性测试以收集功能和设计方面的数据并进行分析，而后又对受试者开展了半结构化的访谈，询问更多的设计细节，以进行应用的完善。",
+    "context8": "![](images/0d9d81eea3c31bd46d921b69d67cf756b6337c3361ad8b5cee11f5cce70d08f1.jpg)  \n图7以用户为中心的评价方法"
+  },
+  "2.3健康类APP的选取": {
+    "context1": "健康类APP的来源反映了研究者获取健康类APP的方式和途径。本文通过分析发现各个文献中研究者获取APP的方式大致可以分为三类。",
+    "context2": "(1)直接在萃果应用商店、谷歌市场按照关键词进行检索，然后再筛选；(2)在安卓、萃果、黑莓、微软、诺基亚几类智能手机平台上进行搜索和筛选；(3)研究者自行构建特定领域的健康类APP进行研究。",
+    "context3": "本文根据萃果应用商店中对APP的分类，大致将健康类APP分为健康与健美类、医疗类。文章中研究的健康类APP多集中在医疗类，包括糖尿病[16,17,21-24]，癌症[20,25]，艾滋病[26]等，以慢性病居多，此类健康类APP的目标用户以老年人为主。健康与健美类主要有心理健康[13,27]、减肥[28,29]、睡眠[30]等。针对常见健康问题的APP研究较多，但也有研究者对一些少见的疾病进行研究。例如：创伤后应激障碍[31]，囊胞性纤维症[32]，改善女性更年期前铁的摄入量[33]等。健康类APP应用领域具体分布情况如图8所示。",
+    "context4": "各个研究中健康类APP的总数分布范围较大，最多的针对947个APP进行研究[34]，最少的则只对一款APP 进行研究。 $64 \\%$ 的研究中选取的APP总数小于50， $16 \\%$ 的研究中选取的APP类总数大于100，而有 $10 \\%$ 的研究未指出健康类APP的总数。具体的分布情况如图9所示。",
+    "context5": "![](images/5a9131058333a4fad6877d5003d1bc63451802e1f4488e2ad32e0229c4c7c67f.jpg)  \n图8健康类APP类别分布饼形图",
+    "context6": "![](images/c7d4baabea765e3e164028e0335714b1228d8cfea144a17ced451816d459a964.jpg)  \n图9研究中健康类APP总数分布饼形图"
+  },
+  "2.4评估者的身份及数量": {
+    "context1": "评估者的身份和数量是反映评价结果可信度的重要指标。本文对评估者的身份进行统计发现，文章中所提及的评估者身份包括研究人员、专家、用户、文章作者、图书馆员、信息技术人员、医生、学生。对于健康类APP的评价最有话语权的是用户，其次是领域专家，包括这类评估者的文献共计有26篇，是研究总数的 $52 \\%$ 。共有7篇文献没有对评估者的身份进行详细阐述。还有部分研究让不同身份的人群分别进行评估。评估者身份分布如图",
+    "context2": "10所示。",
+    "context3": "评估者的数量影响评价结果的客观性。为了降低评价过程中评估者的个人主观性对于结果的影响应该适当的增大评估者的数量。综合统计结果可知，入选文献中的评估者数量从1—140不等，有17篇文献中选取的评估者数目小于10。而有近一半的文章未对评估者的总数进行说明。评估者数量分布如图11所示。",
+    "context4": "![](images/ef8cd70bc20f6b66b7b276242f64b6668093e3585696989493f6f956ff2bc73a.jpg)  \n图10评估者身份分布图",
+    "context5": "![](images/805a95e93ce6e0b176cb127043b892853f7a97b7f87116376ad9210d9eac946c.jpg)  \n图11评估者数量分布图"
+  },
+  "2.5评价标准": {
+    "context1": "经过文献调研，本文发现健康类APP的评价标准主要集中在内容和设计两个方面。",
+    "context2": "针对健康类APP的内容，McMillan等[35]提出检测健康类APP质量必须考虑九个方面内容：APP的目的、APP的计划与发展、可用性、评估与改进、行为转化技术、应用的维护与更新、用户评价、应用的文档编制、数据的保护，更多的强调APP基本信息的完备性。而Mendiola[36]等人则更注重健康类APP的设计，他们通过回归分析找出目前谷歌市场和苹果应用商店中排名靠前的健康类APP的四大特色：计划定制、数据分享、高效性和成本，希望能够为用户APP选择提供参考。",
+    "context3": "尽管目前有许多用于健康类APP的评价标准和指标，但是缺乏一致性，而且众多研究的侧重点不同，许多评价标准不能被消费者实际应用。为了能够获得统一的健康类APP评价标准，本文对纳入文献的评价标准和指标进行系统的分析和归纳，如表5所示。",
+    "context4": "表5健康类APP质量标准及指标",
+    "context5": "<table><tr><td rowspan=1 colspan=1>评价的要素</td><td rowspan=1 colspan=1>标准（文献数）</td><td rowspan=1 colspan=2>指标（文献数）</td></tr><tr><td rowspan=12 colspan=1>内容</td><td rowspan=5 colspan=1>基本信息完备性（21)</td><td rowspan=1 colspan=1>-APP的任务与目的（14）</td><td rowspan=1 colspan=1>-广告策略的解释（5）</td></tr><tr><td rowspan=1 colspan=1>-APP的研发者（7）</td><td rowspan=1 colspan=1>-APP的更新信息（4）</td></tr><tr><td rowspan=1 colspan=1>声明赞助商（5）</td><td rowspan=1 colspan=1>-APP的发布时间（1）</td></tr><tr><td rowspan=1 colspan=1>给出联系方式（3）</td><td rowspan=1 colspan=1>-APP的证明文件(2）</td></tr><tr><td rowspan=1 colspan=1>指出操作系统（4）</td><td rowspan=1 colspan=1>软件的大小(1)</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=4 colspan=1>可信度（29）</td><td rowspan=1 colspan=1>语言通俗易懂（7）</td><td rowspan=1 colspan=1>信息的综合性（10）</td></tr><tr><td rowspan=1 colspan=1>内容敏感度（3）</td><td rowspan=1 colspan=1>信息的准确度（5）</td></tr><tr><td rowspan=1 colspan=1>首先显示最重要信息（2）</td><td rowspan=1 colspan=1>给出信息的参考及日期（5）</td></tr><tr><td rowspan=1 colspan=1>使用有意义的标题（1）</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>可定制性（17）</td><td rowspan=1 colspan=1>一计划定制（5）</td><td rowspan=1 colspan=1>信息提醒（3）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=23 colspan=1>设计</td><td rowspan=3 colspan=1>美观性（22)</td><td rowspan=1 colspan=1>图片的正确使用（13）</td><td rowspan=1 colspan=1>-小部件设计简单美观(3)</td></tr><tr><td rowspan=2 colspan=1>文字易读（6）颜色的正确使用（7）</td><td rowspan=1 colspan=1>主屏幕简单有吸引力（5）</td></tr><tr><td rowspan=1 colspan=1>风格一致性（2）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>导航性（8)</td><td rowspan=1 colspan=1>可轻松访问菜单和主屏幕（2）</td><td rowspan=1 colspan=1>信息按主题分类（2）</td></tr><tr><td rowspan=1 colspan=1>返回按钮的使用（2）</td><td rowspan=1 colspan=1>使用线性的信息路径（1）</td></tr><tr><td rowspan=1 colspan=1>支持简单的搜索与浏览（2）</td><td rowspan=1 colspan=1>链接的标签清晰（1）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=4 colspan=1>交互性（29)</td><td rowspan=1 colspan=1>数据的分享（8）</td><td rowspan=1 colspan=1>可用的交互小工具（11）</td></tr><tr><td rowspan=1 colspan=1>输入指导（6）</td><td rowspan=1 colspan=1>社交媒体的使用（11)</td></tr><tr><td rowspan=1 colspan=1>用户参与方式（6）</td><td rowspan=1 colspan=1>多媒体的使用（3）</td></tr><tr><td rowspan=1 colspan=1>访问数据的方式（1）</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>隐私与安全性（20）</td><td rowspan=1 colspan=1>密码保护（2）</td><td rowspan=1 colspan=1>数据传输加密（1)</td></tr><tr><td rowspan=1 colspan=1>用户控制与自由（4）</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>可达性(16)</td><td rowspan=1 colspan=1>价格（7）</td><td rowspan=1 colspan=1>登陆或者注册简单（2）</td></tr><tr><td rowspan=1 colspan=1>有障碍人群可使用（3）</td><td rowspan=1 colspan=1>可供不同文化人群使用（1)</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=4 colspan=1>功能性（38)</td><td rowspan=1 colspan=1>效率(11)</td><td rowspan=1 colspan=1>追踪能力</td></tr><tr><td rowspan=3 colspan=1>易用性（9）系统维护与预防（8）处理危险情况的能力（6）</td><td rowspan=1 colspan=1>功能可学习性（2）</td></tr><tr><td rowspan=1 colspan=1>可记忆性(2)</td></tr><tr><td rowspan=1 colspan=1>独特性(2)</td></tr></table>"
+  },
+  "2.5.1与内容相关的评价标准": {
+    "context1": "在健康类APP的评价标准中与内容相关的评价标准分别是：基本信息完备性、可信度、可定制性。"
+  },
+  "(1)基本信息完备性": {
+    "context1": "基本信息完备性是指健康类APP的一些基本信息是否完善。Lewis[37]借鉴 HONcode建立了一套评价体系，他指出基本信息的完整性是评估健康类APP的重要内容。经统计共有 $42 \\%$ 的文献对这类信息进行了评估。"
+  },
+  "(2)可信度": {
+    "context1": "可信度即健康类APP中信息的可信程度，主要有两个方面的指标：内容的展示和信息的权威度。内容的展示描绘了APP信息内容的显示形态以及呈现给用户的整体感受。信息权威度是可信度的一个重要指标，Lewis等人认为",
+    "context2": "APP中有关医学相关的信息都应该指出作者及作者的研究领域，而信息创建的日期、上次更新的日期、参考信息也要进行说明[37,38]。"
+  },
+  "(3)可定制性": {
+    "context1": "可定制性即能够按照用户的需求为用户提供相关的功能及内容[14]。个性化服务是以用户为中心进行设计的重要体现，Mani等人[18,39,40]在对市场上的健康类APP 进行评估时都对应用的可定制性进行了检测。"
+  },
+  "2.5.2与设计相关的评价标准": {
+    "context1": "在健康类APP的评价标准中与设计相关的分别是：美观性、导航性、交互性、隐私与安全性、可达性、功能性。"
+  },
+  "(1)美观性": {
+    "context1": "美观性是指APP的设计给用户带来的视觉吸引和感受。Hale[41]研究已有的成果后指出，大多数文章在对APP进行评估时都会从用户体验的角度考虑应用的美观性。界面布局是美观性的一个重要指标，主要表现在风格简单[42]、吸引注意力[19]、风格一致性[20,43]等诸多方面。此外，使用对比鲜明的颜色和特定颜色的正确使用是保证美观性设计的重要指标[18,20,21,23,24,43,44]"
+  },
+  "(2)导航性": {
+    "context1": "导航性是评估用户在APP使用过程中进行移动或跳转便捷性的标准。Monkman等[43]借鉴健康网站设计指南 HLO(health literacy On-line)，采用后发式评估的方法对健康类APP进行评价。其中导航性的评价指标主要包括两个方面：信息组织有逻辑和链接往返无障碍。"
+  },
+  "(3)交互性": {
+    "context1": "交互性是指用户在使用APP过程中与系统或者其他用户进行交流的能力。Olmsted等[45]组织用户进行焦点小组讨论他们针对健康类APP的内容与设计的需求，实验结果表明，直观而友好的交互性设计更容易赢得用户的喜爱。"
+  },
+  "(4)隐私与安全性": {
+    "context1": "隐私安全性标准用来评估APP为使用的用户提供的隐私及数据保护。很多健康类APP需要用户输入隐私数据以提供特定的功能，因此对于健康类APP，隐私与安全性问题尤其重要。Dehling等[46]从用户信息安全出发对市场上的各类健康类APP进行评价，为用户提供指导。Martinez等[47]则针对健康类APP的设计提出了一系列满足现行隐私与安全法规的建议。经调研发现，尽管很多文章提出了将隐私与安全性作为评价标准，但是大部分文献并没有对这一标准提出详细的指标。"
+  },
+  "(5)可达性": {
+    "context1": "可达性是用来评估对于任何用户而言，这个产品是否可获得和利用。Chan等[13]综合已有的研究提出了健康类APP的评价体系，其中文化可达性、有障碍人群可达性、社会经济可达性是衡量有用性的重要指标。此外，价格[25,36,40,44,48-50]也是可达性常用的衡量指标。"
+  },
+  "(6)功能性": {
+    "context1": "功能设计用来评估APP可以满足用户一般使用需求的能力。本研究中的功能设计并不包含特定领域的 APP 特征。共有39 篇文献对APP的功能设计进行了评估，常用的指标包括效率、易用性、可学习性等。"
+  },
+  "2.6评价结果": {
+    "context1": "在研究过程中，研究人员通常会对健康类APP的质量状况进行描述。依据Eysenbach的研究方法[11]对作者的结论进行划分，发现目前市场上健康类APP的质量不容乐观，$34 \\%$ 的文献作者对健康类APP的质量持消极态度。仅有 $26 \\%$ 的评价结果是积极的，但这些文献中有近五成是针对研究者自行构建的健康类APP进行评价，如图12所示。",
+    "context2": "![](images/a83e7ae8026a7760c61595dc101a3925f12d77f3565513272d7b75000e2c580f.jpg)  \n图12评价结果分布图",
+    "context3": "综合文献对健康类APP质量问题的分析，可概括为以下几个方面。"
+  },
+  "(1)信息内容质量有待提升": {
+    "context1": "目前市场上的健康类APP呈现给用户的信息缺乏科学依据[25.29]，综合性不强，可信赖度低[38]，甚至有的内容包含过多的专业词汇而难以理解，这样的信息内容势必会给用户造成困扰。"
+  },
+  "(2)健康类APP缺乏权威认证": {
+    "context1": "健康类APP市场鱼目混珠，许多APP的证明资料内容不全[25]。而较低的健康专家参与度[28]和临床医生参与度[44]也会影响健康类APP的权威度与可靠性。"
+  },
+  "(3)隐私保护不足": {
+    "context1": "数据的安全性是用户十分关心的问题，然而据目前的研究结果来看，众多APP的隐私保护措施存在问题[26]，Kharrazi等[49]在对19款个人健康记录应用进行评估时发现有7款应用缺乏基本的安全保障措施。"
+  },
+  "3讨论": "",
+  "3.1国外研究的特点": {
+    "context1": "国外健康类APP的评价研究主要呈现三方面的特点。"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "original_filename": "full_8910.md",
+  "网络日志存档研究现状分析": {
+    "context1": "郭红梅张智雄刘振",
+    "context2": "foundations of the current blogosphere [C]//The International Conference on Web Intelligence，Mining and Semantics (WIMS). Romania:Vniversity of Cralova,2012:125-127.   \n[8]Heritrix.IA Web Crawler [EB/OL]．[2013-O3-20].https:// webarchive. jira.com/wiki/display/Heritrix/.   \n[19] Archive-it.Web Archiving Services [EB/Ol]．[2013-O3-20]. http://www.archive-it.org/.   \n[0] DPE.Digital presentation Europe [EB/OL]．[2013-03－26]. http://www.digitalpresentationeurope.eu.   \n[1] CASPAR.CASPAR project [EB/O1]．[013 -03-26] http: // casparpreserves.eu.   \n[22]PANDORA.PANDORA project [EB/OL] .htp: //pandora.nla. gov. au.   \n[3]Ronallo J.HTML 5 Microdata and Schema.org []．Code 4 Lib Journal,2012(6):296-209.   \n[4]BlogForever．BlogForever project [EB/OL]．[2013-03-26]. http: //blogforever. eu.   \n[5] Kim Y，Ross S. BlogForever: D2.5 Weblog spam filtering report and associated methodology EB/O1]．[013-03-26] .http:// blogtorever.ell/deliretables/.   \n[6]Kalb H,Kasioumis N,Garcia Llopis J,et al.BlogForever: D4.1 User Requirements and Platform Specifications Report [EB/OL]. [013-03-26] .htp://blogforever.ell/deliverables/."
+  },
+  "$\\bigstar$ 郭红梅张智雄刘振": {
+    "context1": "摘要 指出网络日志作为特殊的数字化资源受到长期保存界的关注,从网络日志归档项目出发对网络日志的研究现状进行概述,对网络日志归档过程中技术、方法以及在采集、保存和管理中存在的局限性进行分析,并对现有网页归档项目进行描述。最后从目标、重要平台、保存策略以及所产生的社会影响几个角度对网络日志归档项目 BlogForever进行说明,针对网络日志归档的现状,认为在未来研究中仍需要对技术和方法作进一步改进。",
+    "context2": "送键词 网络日志数字化长期保存网络存档",
+    "context3": "份类号 TP393"
+  },
+  "1前言": {
+    "context1": "网络日志一词起源于1997年，虽然早期也存在在线日志和网络日志，但那些只是简单定期更新的网站，直到LiveJournal和Blogger保存系统的提出,才意味着现代化的网络日志存储平台真正出现。网络日志作为网络时代的典型产物,已成为社会以及政府事件的重要记录工具，这种新的交流和信息传播媒介有助于人类记录在社会发展中的重要事件，据保守估计目前世界上存在大约1.5亿多条网络日志记录，内容涉及社会生活的各个方面。网络日志成为新的面向社会公众的在线交流平台和信息发布工具，它是一系列时时更新的、按时间逆序排列的网页，不论网络日志保存系统的支持软件是什么，目前大多数系统仍按日期或命令结构为用户提供网络订阅服务。所有网络日志以及它们之间所有的链接关系组成网络日志圈，网络日志圈的重要性和影响力日益加大,如网络日志趋势探测服务系统Blogpulse,2009年报道有1.26亿条网络日志,2010年有1.52亿条网络日志；作为一种新的微博服务系统,Tumblr报道其包含有0.33亿条网络日志;2006年对政府领域网络日志圈的调查显示，美国国会对立法和领导决策的制定所起作用日益加大,这些统计数据无疑证明网络日志的动态发展和社会的广泛接受性。网络日志的发展更说明了网络传播媒介的重要性，作为当代文化的一部分正发挥日益强大的作用。如何对一些重要的网络日志进行长期保存和管理是目前长期保存界面对的一个很重要的问题,不少学者和团队进行了深入研究。"
+  },
+  "2相关研究": {
+    "context1": "类网络日志服务不断增加，它在促进用户之间进行信息交流传播的同时也使网络日志理念变得越来越模糊。但在长期保存背景下，将网络日志作为信息对象来理解，其真实性、完整性和可获取性是非常重要的。与其他网络资源一样,网络日志记录信息也难免会衰退和丢失，如很多对重大事件进行记录的网络日志，在事件发生后不久已经丢失了，还有一些重要人物的网络日志也消失了。网络日志资源转瞬即逝的特性使得人们对其长期保存和可获取进行了很多研究和实践尝试,如因特网存档以及HTTP存档研究,但是目前存在的网页存档方法并不能实现对动态网络日志信息的有效存储。另一方面，网络日志的保存需依赖对其一些基本性质的获取,但由于网络日志圈的复杂性（网络日志类型多样，网页标准和网络日志支持软件动态变化,对第三方平台有较强的依赖性）,对网络日志的所有内容进行完整保存是不可能的，因此应对网络日志的一些重要特性进行识别和保存，以避免网络日志对象潜在价值的丢失。"
+  },
+  "2.1网页存档(Web archiving)研究": {
+    "context1": "网页存档是对网站和网络资源进行获取、保存和"
+  },
+  "2.1.3SCAPE ( Scalable Preservation Environments)": {
+    "context1": "SCAPE项目通过开发可扩展保存基础架构和工具，提供自动化、质量保证的工作流框架，并将这些组件与保存计划和监测系统进行融合来改进目前长期保存方法和系统。SCAPE项目的具体结果可在三个不同领域（图书馆界的数值化仓库、网页存档界的网页内容以及科研界的科学数据流)的大规模测试平台中进行展示。SCAPE从目标对象数量、规模、复杂度和数据集的异质性4个维度来解决长期保存中存在的扩展性问题;以Plato工具为基础,以机器能够识别的方式传输一个通用的类目并定义对象的语义表示信息;提供一些能扑获目标对象整个生命周期中语义信息的方法和工具；除了封装软件组件外,SCAPE利用虚拟机影像来封装复杂的软件环境。同时,SCAPE聚集了来自存储机构、数据中心、科研实验室、大学以及企业的专家来开发可扩展的长期保存系统,以向整个长期保存界提供可共用的开源软件方案。",
+    "context2": "2.1.4LAWA（Longitudinal Analytics of Web ArchiveData Project）该项目建立了基于因特网的、用于大规模数据分析的实验测试平台。重点是开发用于在因特网规模下异质数据集的聚集、查询和分析的软件工具、方法和基础系统,尤其是沿时间维度对爬行到的网页数据进行纵向分析[。",
+    "context3": "除了开展的长期保存项目之外,仍有不少私人创业公司也参与到网页保存以及网络日志保存活动中，如Pagefreezer（PageFreezer.com)支持网页存档和社会媒体存档;VaultPress可对网络日志系统进行备份，提供安全支持。"
+  },
+  "2.2网络日志重要性质识别": {
+    "context1": "在长期保存界，一般根据保存内容的一些重要性质对其进行定义。这些性质能在保存之前对对象进行限定并将保存内容具体化。由于缺乏对重要性质识别的方法,定义一些无歧义的重要性质非常困难,但目前仍有不少长期保存项目对其进行研究,试图提出有关重要性质识别机制,如PLANETSPlato重视对利益相关者需求进行分析,InSPECT中包含对对象以及利益相关者进行分析,而JISC则继续对 NARA模型特征进行深入分析。虽然表面上存在不少工具可对重要性质进行分类、表示以及测试其在不同操作下(迁移和仿真)的保真度，但用于相关类型和性质的识别决策过程时仍显得很抽象，尤其对于复杂的对象。在综合各种方法的基础上,InSPECT提出了更为均衡的重要性质识别方法，该方法封装在平行操作过程中，可同时对对象和利益相关者需求进行分析，该方法可通过特定的工作流对信息对象的重要性质进行识别[。"
+  },
+  "3网络日志长期保存中遇到的挑战": {
+    "context1": "随着网络技术的发展，网络日志圈快速增长，但对于网络日志语义存档、数字化保存、管理和传播仍没有有效方法。目前网络日志存档工具效率较低,未考虑网络日志的动态性和内容关联性,所使用的方法也不一致,不能扑获网络日志的动态性、连续性、社会网络机构以及概念之间的演化。对网络日志数据的存档方法尚未充分考虑,而且目前已存在的网页保存方法不能将动态的网页内容，比如动态网络日志内容完全保存。由于对网页资源只是偶尔收割况且把这些资源仅看作无结构化的网页，所以媒介之间的相互依赖关系常常被忽略。"
+  },
+  "3.1形式复杂": {
+    "context1": "网络日志保存中的首要挑战是网络日志定义多样，展示形式复杂，结果也多样。很多文献都表明网络日志的定义在不断变化，《牛津英文词典》定义blog强调网络日志为短暂性和周期活动,B.A.Nardi等对网络日志的技术基础较为关注；P.Pluempavarn 和 N.Panteli则对网络日志在社会文化中所起的作用很感兴趣[。另外网络日志可为用户提供自我表达的社会空间并可相互交互,正是网络日志的这种社会性使网络日志者很容易融入到现有的网络中[ 。"
+  },
+  "3.2网络日志内容的采集": {
+    "context1": "目前存在两种通用的网页存档技术： $\\textcircled{1}$ 以单个机构为基础进行网站的选择复制,这种方法常用于网页存档; $\\textcircled{2}$ 利用爬行程序对大批量公开网站进行自动收集和存储,因特网存档采用这种方法，自1996年以来周期性对整个网站进行快照复制,而其他基于爬行方法的项目仅关注国家范围内的存档。所有国家网页存档项目见图1。不管项目的目标内容如何，目前的存档项目都使用通用的网络收割来收集材料,这种方法简单易行,但存档中会产生错误、出现问题,尤其对于高动态的网站,如网络日志和WIKIS,它们具有特殊的",
+    "context2": "性质 -3,17 。",
+    "context3": "3.2.1网页内容采集时间网页内容聚合调度是网络存档项目中常见的问题，因为它只是定期执行任务，并未考虑网站的更新。另一方面，网络日志非常不稳定，一天中常会更新好几次,有来自编辑的内容更新也有用户的评论和讨论,因此大量的网络日志内容并未得到保存，这样会导致信息丢失和存在不一致性的网页存档。如最新的网站存档项目Archive-it,利用最新Heritrix网站爬行方法,定期从网站中收割资料,如每24 小时一次、每周一次、每月一次等[18-1。这种方法也应用到了其他网页管理工具项目中,如国会图书馆网站、新西兰国立图书馆等发起的存档项目中。",
+    "context4": "3.2.2网页内容采集方法采用什么方法采集网页内容是网络长期保存工作中遇到的另一个重要挑战，目前大部分网页保存项目只是采用比较耗时费力的爬行方法对整个学科领域或者一组URL进行爬行,首先根据预先定义的规则检索每一个网页，抽取其中的连接,然后通过递归的方法访问每一个站点。这种方法只是按照规定周期对网页进行爬行采集，并未考虑目标站点至上次采集后内容是否更改或者网络日志是否更新。网络日志与常规网站不同，当向网站提交新内容或者对已存在内容进行修改时，可通知第三方应用程序进行新内容的智能采集，常见有logPing和PubSubHub两种采集方法，但由于会造成计算资源浪费并没有得到广泛应用[。",
+    "context5": "3.2.3网页采集内容信度检查资源可信性是长期保存中的重要问题。DPE是第一个采取自我评价方法（DRAMBORA)来解决资源可信性的项目，它支持机构在对隐式风险进行识别和管理评价之前对活动目标及资源进行全面的自我评估；CASPAR项目对数字化对象的真实性和可信性进行了研究；在APARSEN项目中提出了通用的第三方组织资源长期保存可信性检定方法。在网络日志归档中大部分项目是通过人工或半自动化的方式对采集到的网页内容进行信度检查,即使被广泛接受的网站管理工具在进行存档时也需要管理员进行质量检查,如PANDORA项目在质量检查过程中需要人工指导。"
+  },
+  "3.3网络日志内容的保存": {
+    "context1": "网络资源长期保存是指对数字化或者数码化资源的长期存储和利用,现有的一般网站存档方法与网络日志的保存和访问有一定的相关性,但由于网络日志具有自身的特点,加之网站存档方法也存在自身缺陷，所有网络日志保存时并不能直接使用这些方法[1 。"
+  },
+  "3.4网络日志内容的管理": {
+    "context1": "目前的网络存档方法不能向用户提供对已保存信息的管理功能。在因特网存档中把博客作为一般的文件进行存储,按顺序一个个列出,这种方法如果得不到控制将会进一步阻碍对网络日志的管理。据调查，在图1列出的23项网页存档项目中,只有8项支持完全文本检索,9项支持按字顺浏览,8项支持按主题分类。",
+    "context2": "3.4.1完全忽略了网络日志或其他媒介的社会性和交互关系由于在网络日志内容采集时已完全忽略了其社会网络和交互关系，加之采用定期网络爬行方法采集信息,这样用户只能浏览网络日志前一爬行时间点的状态,并不能跟踪像网络日志这样高动态超文本网页的语义演化和使用背景。如Occasio新闻存档系统根据与社会问题之间的相关性来收集站点，仅从",
+    "context3": "Occasio新闻数据库中选择一些特定内容进行保存，文献也并未按连续时间序列列出，在未来使用中不可能进行进一步分析，导致网络日志演化信息大量丢失。此外网络日志的其他信息,如发帖情况、相关链接以及受其他日志的影响情况等信息目前并未进行保存，但是这些信息具有很大社会文化价值必须要进行处理。3.4.2整个网络日志环境的获取仍处于尝试阶段利用目前网络资源存档方案来浏览已保存的网络日志环境仍处于尝试阶段，在这些框架中，以Blogroll形式表示的网络日志相互关系可看作是所检索网页之间的常规超链接，这些网页并不包含特殊信息。这种方法不仅会导致相互关系在收割阶段遗漏，而且会忽视对网络日志相关主题以及有价值关联的保存。",
+    "context4": "3.4.3缺乏强健的网络日志分类技术虽然网络存档内容可按主题、区域或者时间进行分类，但目前并没有一个全面的分类体系。在网络日志中，那些不存在于预先定义类别中的元数据将被忽略,如作者的国际关系信息很少被纳入泛型存档模式中。但是电子出版物中作者关系功能在文本挖掘、社会网络以及科学界很受关注,如利用作者排序、个人检索以及作者与匿名对象之间的相互关系来识别核心作者，对于那些关注社会网络站点的网页存档活动来说也是研究焦点。实时收割方法的应用可使我们在网络日志生命周期内对其连续观察，提供每条网络内容在任何时间点的精确表达。",
+    "context5": "通过上述对网络存档相关研究的介绍以及对网络日志归档中存在问题的分析可知，目前网络日志缺乏完整的数字化长期保存方案，即使有也只能是实现部分归档;而且通过上述方法进行的数字化归档并不能确保信息的正确性和一致性，使得这些信息不能有效和准确适用。"
+  },
+  "4 网络日志长期保存项目BlogForever": {
+    "context1": "BlogForever网络日志长期保存项目开发主要针对网络日志资源的数字化保存、管理以及传播工具，将网络日志内容存放到一个安全在线存档中，把临时的网络信息转变为可长期保存的完好的资源，从模拟、采集、保存和传播4个角度进行研究。该工具能获取到网络日志动态以及持续演变性质、网络社会关系以及观点和概念之间的交流,同时也能获取到目前网络存档方法和方案所忽略到的信息。为创建泛化的网络日志数据模型,BlogForever对网络日志的结构和语义以及它们与其他网络信息实体之间的关联关系进行了探索分析 。",
+    "context2": "BlogForever平台中包括两个重要组件:网络日志采集组件和数字化存储组件。网络日志采集组件用于查找、收集和分析大量的网络日志资源，在采集过程中对垃圾文件进行过滤，并对日志抽取方法和技术以及日志数据抽取模型进行评估。存储组件用于网络日志资源的复制，保证其真实性、安全性和长期可用性，以便于未来更好地被共享和重用。",
+    "context3": "BlogForever保存策略中包括风险评估信息、存储内容评估要求以及数字化对象的重要特征。在保存过程中需要采用易于检索的结构进行存储，这不仅有利于机构的抽取和描述,而且也能对未来查询方式进行预测。BlogForever平台上能从句法、语法和语境中对资源不同方面的交互性进行分析，并计划与已存在的网络日志归档平台以及图书馆、档案馆等存储机构进行协同工作,还对网络日志版权问题进行了鉴别分析，对网络日志的内容信息、作者以及管理者信息进行保护。",
+    "context4": "BlogForever项目的最终结果是创建简单的网络日志数字化归档方案,任何用户及机构都可以通过该平台来存储他们的网络日志以保证其作为有价值的文化、社会和知识资源,具有可靠性、完整性以及长期可访问性。图书馆、档案馆、信息中心等大量机构都能从该项目中受益。"
+  },
+  "5结论": {
+    "context1": "作为一种特殊的网络资源，网络日志传递着重要的社会和文化信息，在社会网络关系研究中提供了重要的指示信息，如何对这种特殊的网络资源进行存储受到长期保存界的日益关注。虽然在网络日志的长期保存过程中存在很多挑战,世界上一些重要存储机构也对其进行了大量尝试并取得了一定成效,但目前网络日志保存所使用的工具存储效率较低，各系统所采用的存储方法也各不相同,相互之间不能兼容，而且未考虑日志的动态变化以及内容之间的关联，因此不能充分扑获到网络日志的动态性、连续性以及社会网络中概念和机构之间的演变，在以后研究中不仅要在技术和方法上进一步改进,而且需要对网络日志的特性进行全面的考虑分析。"
+  },
+  "参考文献：": {
+    "context1": "[1]Hank C，Choemprayong S，Sheble L.Blogger perceptions on digital preservation [C]//Proceedings of the 7th ACM/IEEE-CS",
+    "context2": "Joint Conference on Digital Libraries.New York:The Association for Computing Machinery,2007: 477 -477.   \n[2]Banos V，Baltas N,ManolopoulosY.Trends in blog preservation [c]//Proceedings of the 14th International Conference on EnterpriseInforationSystems (ICES).Poland:SpringerVertag 2012: 168 - 172.   \n[3] Maureen P,Richard D. ArchivePress:A really simple solution to archiving blog content $\\mathbb { H }$ //The Sixth International Conference on Preservation of Digital Objects（iPRES）.San -Francissco: The California Digital Library,2009: 264-268.   \n[4]Agarwal N,Liu H.Blogosphere:Researchisues，tols and applications [．ACM SIGKDD Explorations,2008,10(1):18- 31.   \n[5] Ashley K,Davis R,Guy M,etal.A guide to Web preservation [c]//PoWR project.University of London Conputer Centre （ULCC),2010:14 -18.   \n[6]Tumblr numbers:Therapid rise of social blogging [EB/OL]. [013-03-10].http://mashable.com/2011/11/14/tumblrinfographic/.   \n[7] Sroka TN.Understanding the political influence of blogs:A study of the growing importance of the blogosphere in the US Congress， Institute for Politics，Democracyand the Internet [EB/OL]. 2013-03-10].ttp://www. ipdi.org.   \n[8]Strodl S，PetrovP，Rauber A.Research on digital preservation within projects co-funded by the European Union in the ICT programme [.Vienna University of Technology，Tech Rep,2011 (5) : 245 -251.   \n[9]Edelstein O,Factor M,King R,etal.Evolving domains,problems and solutions for long term [C]//The Eighth Proceedings International Conference Preservation of Digital Objects( iPRES). Singapore.The National Library Board,2011: 271-274.   \n[o]LiWA.Living Web Archives Project EB/Ol].013-03-26]. http: //liwa-project. eu.   \n[1]ARCOMEM. From Collect-All Archives to Community Memories. EB/O1]．2013 -03-26] .http://www.arcomem.eu.   \n[2]SCAPE.Scalable Preservation Environments [EB/O1]．[2013 -03 -26] http://www.scape-projeet.eu.   \n[3]LAWA.Longitudinal Analyticsof Web Archive Data Project[EB/ 01]．013-0-6].ttp://www.lawa-projecteu/.   \n[4]Stepanyan K,Gkotsis G,Kalb H.Blogs as objects of preservation: Advancing thediscussion onsignificantproperties[C] //The Proceedings International Conference Preservation ofDigital Objects（iPRES).Toronto: University of Toron to iSchool,2012: 295-297.   \n[5]Nardi B A,SchianoDJ,Gumbrecht M,et al.Why we blog. Communications of the ACM,2004,47(12):41-46.   \n[6PluenpavaPanteliNBuildingsoialidentityhroughbloging [.Palgrave Macmillan,2008(5):195 -198.   \n[7]Banos V，Stepanyan K，Manolopoulos Y，et al.Technological"
+  },
+  "Research Status Analysis on Weblog Preservation": {
+    "context1": "Guo HongmeiZhang Zhixiong",
+    "context2": "'National Science Library of CAS,Beijing 100190²University of Chinese Academy of Sciences，Beijing 100190",
+    "context3": "[Abstract] As the special digital resource，weblog gains the attntion from the digital preservation field.This paper concludestheresearch status of weblog preservation from the viewof theweblogarchiving projects.Italsoanalyzes the limitations inthearching technologyand methodas wellas in the processof aggegation，preservationand management. Them itintroduces theexisting weblog archive projects.Finaly，thispaper analyzes Blogforever project fromitsobjective, important platform，preservation strategyandsocialeffects.According toitsresearch status,itis necessry toimprovethe quality of weblog preservation from technology and method in the future.",
+    "context4": "[Keywords] weblogdigital preservationweb archive"
+  },
+  "(上接第135页)": {
+    "context1": "B3] Hertel G T,S Geister，U Konradt.Managing virtual teams:A reviewof current empirical research[J]．Human Resource Management Review,2005,15(1) :69-95.   \nB4] Kohn A.Why incentive plans cannot work [].Harvard Business Review,1993,71(5) :54-63.   \nβ5]Tyler TR,Blader S L.Identity and cooperative behavior in groups",
+    "context2": "[．Group Processes and Inter- group Relations,2Oo1,4(3): 207 -226. b6 Hsu Meng-Hsiang,Ju Teresa L,Yen Chia-Hui,et al. Knowledgesharing behavior in virtual communities:The relationship between trust，self -efficacy，and outcome expectations [].International Journal of Human-Computer Studies,2007,65(2)：153-169."
+  },
+  "Research on Knowledge Sharing Motivations and Incentives of the Knowledge Providers in Virtual Teams": {
+    "context1": "Gong Liqun1,²Fang Jie1,3",
+    "context2": "1. School of Information Management，Nanjing University，Nanjing 210093 $^ 2$ School of Computer Engineering of Changji College，Changji 831100",
+    "context3": "3 Urumqi Vocational University,Urumqi 830002",
+    "context4": "[Abstract] The entire process of knowledge sharing consists of two directions: the knowledge providers to contribute their knowledgeandthe knowledgerecipients to find,useandabsorb knowledge.Forknowledge sharing in virtual teams， how tomotivateknowledgecontributing behaviorof knowledge providersaccording to their knowledge contributing motivation ismoreimportant.Basedonthis，According tothetheoryofplannedbehavior,fromtheperspectiveof intrinsic motivationand extrinsic motivation，knowledge sharing behaviormotivationmodelof knowledge providerin virtual teamis established based onPLSstructural equationmodeling，andempirical research is conducted.Acording to empirical results ，the knowledge sharing incentive mechanisms are proposed.",
+    "context5": "[Keywords] virtual teamsknowledge sharing motivation incentive"
+  }
+}

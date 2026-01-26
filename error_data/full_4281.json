@@ -1,0 +1,74 @@
+{
+  "original_filename": "full_4281.md",
+  "基于CiteSpace的家用空调技术热点、前沿识别及趋势分析\\*": {
+    "context1": "黄鲁成 王 凯 王亢抗",
+    "context2": "（北京工业大学经济与管理学院北京100124)",
+    "context3": "摘要以德温特专利数据库(DII)收录的家用空调相关专利为数据源，借助信息可视化软件CiteSpace对所采集的数据进行了时间与地域分布分析,展示了该领域研究力量分布;并利用CiteSpace软件提供的词频探测技术绘制了家用空调领域的技术热点与前沿知识图谱,识别了家用空调领域的技术热点、前沿，并对其发展趋势进行了分析。",
+    "context4": "关键词家用空调CiteSpace知识图谱可视化专利分析",
+    "context5": "文章编号 1002-1965(2014)02-0040 -04",
+    "context6": "中图分类号G353.1 文献标识码A DOI 10.3969/j. issn.1002-1965.2014.02.008"
+  },
+  "Technology Hot Spots and Fronts of Household Air Conditioner: Identification and Trend Analysis Based on CiteSpace": {
+    "context1": "Huang LuchengWang Kai Wang Kangkang (School of Economics and Management，Beijing University of Technology，Beijing100124)",
+    "context2": "AbstractThisarticledealswithhouseoldairconditionerechnologyusingCiteSpacetoanalyztherelatedpatents includedinerent InnovationsIdex（DI)，showstheresearchpowerdistribution，andthendrawstheknowledgemaptohelpidentifythetechnologyhot spots and fronts of household air conditioner.",
+    "context3": "Key wordshousehold air conditioner CiteSpaceknowledge mapvisualization patent analysis"
+  },
+  "0引言": {
+    "context1": "当前提高人居环境水平成为当今社会关注的问题，各国对于家用空调的研发日趋重视，因此，及时识别家用空调领域的技术热点和前沿，对于我国布局家用空调的研发具有重要意义。",
+    "context2": "科学知识可视化图谱是在信息技术的推动下发展而来的一种新工具,是当前科学计量学的一个新热点。陈悦和刘泽渊认为科学知识图谱是显示科学知识的发展进程和结构关系的一种图形，它是揭示科学知识及其活动规律的科学计量学从数学表达转向图形表达的产物,是显示科学知识地理分布的知识地图转向以图像展示知识结构关系与演进规律的结果。华人学者陈超美基于Java程序语言开发了科学文献与知识图谱可视化软件CiteSpace,通过对科学文献题录数据的分析与处理，用图谱形式展示科学发展的演化趋势和科学发展前沿领域,能够分析知识领域中的新趋势。",
+    "context3": "本文旨在利用CiteSpace,以德温特专利数据库（DII)中收录的家用空调相关专利数据为分析样本，确定对家用空调领域的技术热点、前沿及发展趋势。"
+  },
+  "1数据来源与研究方法": {
+    "context1": "1.1数据来源本文研究数据来源于德温特专利数据库(DII)。Derwent Innovations Index(简称DII)是由Thomson Derwent与Thomson ISI公司共同推出的基于Web的专利信息数据库，这一数据库将Derwent",
+    "context2": "World Patents Index(德温特世界专利索引,简称WPI)与Patents Citation Index(专利引文索引）加以整合，以每周更新的速度，提供全球专利信息。DII收录来自全球40多个专利机构(涵盖100多个国家)的1000多万条基本发明专利信息，2000多万条专利信息，资料回溯至1963年。因此,使用DII作为数据来源,能够保证数据的充分性。",
+    "context3": "本研究以主题 $= \\mid$ “household air condition\\*”OR“domestic air condition\\* ”OR“residential air condition\\* ”OR“room air condition\\* ”OR“home air condi-tion\\*\"）为检索表达式;时间跨度 $=$ 所有年份，检索时间是2013年4月7日,在DII中共检索出2683条数据。本研究以2683条题录数据为数据源，每条题录中包含标题、专利申请人、专利权人、摘要、德温特分类、施引专利等信息。",
+    "context4": "1.2研究方法本研究运用计量学的方法,通过绘制科学图谱来展示家用空调领域的技术热点与前沿趋势。研究采用著名信息可视化专家美国Drexel信息科学与技术学院的陈超美博士基于JAVA语言开发的CiteSpace软件作为知识图谱可视化工具。通过分析CiteSpace绘制的知识图谱,能够看出一个知识领域在一定时期发展的趋势与动向以及若干研究前沿领域的演进历程。如张昭利用CiteSpace,以WoS（Web ofScience)数据库中商务智能的相关文献为分析样本，确定了商务智能的热点研究领域和前沿发展趋势；吴学雁等利用CietSpace,以 SCIE 数据库中LED 领域的三种代表期刊收录的文献为分析样本,对LED研究热点与前沿进行了可视化识别 。",
+    "context5": "CiteSpace可处理的数据最初仅限于Webof Sci-ence的题录数据,后来陈玉光等开发了一个数据转换程序,可以将德温特专利数据转换为WOS格式的数据,使得CiteSpace也可以对德温特专利数据进行分析。因此,本文在进行数据分析前,先将德温特专利数据进行了转换。德温特专利文献题录主要字段转换前后对照表如表1所示。",
+    "context6": "表1德温特专利文献题录主要字段转换前后对照表",
+    "context7": "<table><tr><td>转换前字段</td><td>字段所标识内容转换后字段</td><td></td><td>在 CiteSpace中的用途</td></tr><tr><td>AU</td><td>发明人</td><td>AU</td><td>Co-inventorship network</td></tr><tr><td>AE</td><td>专利权人</td><td>C1</td><td>Network of co-inventors&#x27; institutions</td></tr><tr><td>DC</td><td>德温特分类号</td><td>DE</td><td>Co -occurring burst terms</td></tr><tr><td>CP</td><td>引用专利</td><td>CR</td><td>Patent co -citation netw ork</td></tr></table>"
+  },
+  "2家用空调专利分布": {
+    "context1": "2.1时间分布CiteSpace可以协助统计数据的时间分布,图1所示的是在DII中检索的家用空调2 683条相关专利的时间分布情况,可以看出,从1971年开始出现少量专利，随着时间的变化，专利数量逐步增多，基本上是呈现递增的趋势，偶尔也出现下跌的现象,总之，关于家用空调的专利总体处于上升趋势，相信在未来的几年内，相关专利也会不断增多。",
+    "context2": "![](images/6ff60561eb31dff59bfb8ce0755b64f683a713668216b50a814a3f3e0516a2d0.jpg)  \n图1家用空调相关专利的时间分布",
+    "context3": "2.2地域及专利权人分布表2给出了全球家用空调领域专利数量排名前十的专利权人，共拥有专利851项，占全部家用空调专利的 $3 1 . 7 2 \\%$ 。排名前十的专利权人有7家公司在日本,2家在韩国，1家在中国。可以看出，日本在家用空调领域的研发力量占有绝对优势。其中,日本松下电器、日本三菱电器、日本日立集团位列前三，以日本松下电器专利拥有量最多，其拥有225项专利，占了全部专利的近 $9 \\%$ 。中国开利集团拥有69项家用空调专利，位列第四。",
+    "context4": "表2全球家用空调领域专利权人TOP10",
+    "context5": "<table><tr><td>专利 数量</td><td>专利权人</td><td>专利权人 所属国家</td></tr><tr><td>225</td><td>MATSUSHITA DENKI SANGYO KK(MATU)</td><td>日本</td></tr><tr><td>160</td><td>MITSUBISHI ELECTRIC CORP(MITQ)</td><td>日本</td></tr><tr><td>131</td><td>HITACHI LTD (HITA)</td><td>日本</td></tr><tr><td>69</td><td>CARRIER CORP(CARG)</td><td>中国</td></tr><tr><td>63</td><td>SANYO ELECTRIC CO LTD(SAOL)</td><td>日本</td></tr><tr><td>57</td><td>DAIKIN KOGYO KK(DAIK)</td><td>日本</td></tr><tr><td>41</td><td>SAMSUNG ELECTRONICS CO LTD(SMSU)</td><td>韩国</td></tr><tr><td>41</td><td>TOSHIBA KK(TOKE)</td><td>日本</td></tr><tr><td>33</td><td>LG ELECTRONICS INC (GLDS)</td><td>韩国</td></tr><tr><td>31</td><td>KOBE STEEL LTD(KOBM)</td><td>日本</td></tr></table>"
+  },
+  "3家用空调领域技术热点、前沿识别及趋势分析": {
+    "context1": "3.1技术热点领域识别通过了解家用空调领域的研发热点，有助于对整个家用空调研发动向的把握，使研发人员及企业明确家用空调的技术发展态势，以更好的布局技术研发。",
+    "context2": "关键词共现知识图谱可以展现一段时间内相关文献集中反映的热点词汇，虽然关键词在一篇专利中所占篇幅不大,但却是专利文献的核心,是对专利技术的高度概括与集中描述，因此对专利的关键词进行分析，频次高的关键词常被用来确定一个领域的热点-。本研究主要运用CiteSpace信息可视化分析软件，对所检索的专利文献题录中的关键词进行分析,生成家用空调领域热点技术图谱，用来确定家用空调领域的技术热点。",
+    "context3": "将1971－2012年公开的全部2683项专利的题录数据转换成WoS题录数据后导入CiteSpace中，分析的时间间隔设为4年，主题词来源选择标题、摘要，类型选择突现词(burst），网络节点选关键词,阈值设定为(5,5,20)（7,6,20)（9,6,20）,其他都按默认选择。运行软件后生成家用空调技术热点图谱(见图2），图2中有49个网络节点,77条节点间的连线,节点大的点其出现频次高，带有深色外圈的节点代表突现率(burst值)高,其中出现频次较多的关键词在一定程度上代表了家用空调领域的技术热点领域,burst值大的点一定程度上代表了家用空调领域的前沿技术领域。同时我们截取了出现频次较高的热点技术词汇列表，如表3所示。",
+    "context4": "表3家用空调热点技术领域",
+    "context5": "<table><tr><td>技术领域</td><td>频次</td><td>Burst值</td></tr><tr><td>x27 (domestic electric appliances)</td><td>918</td><td></td></tr><tr><td>q74(heating_ranges_ventilating)</td><td>832</td><td>12.73</td></tr><tr><td>q75 (refrigeration_liquefaction)</td><td>471</td><td>6.46</td></tr><tr><td>q78 (heat exchange in general)</td><td>199</td><td></td></tr><tr><td>t01(digital computers)</td><td>175</td><td>13.96</td></tr><tr><td>a88(mechanical engineering_tools_valves_gears_con- veyor belts)</td><td>125</td><td></td></tr><tr><td>x25 ( industrial electric equipment)</td><td>102</td><td></td></tr><tr><td>j07(refrigeration_ice_gas liquefaction/solidification)</td><td>99</td><td></td></tr><tr><td>v06（electromechanical transducers and small ma- chines)</td><td>94</td><td></td></tr></table>",
+    "context6": "![](images/730f59c57b88c819f9aeb9145a4e2ef65e6ade298d256ef805e98c1009f898ef.jpg)  \n图2家用空调领域专利关键词共现图谱",
+    "context7": "从图2中,可以看出， $\\mathbf { x } 2 7$ (domestic electric appli-ances）的节点最大,即出现频次最高，由于我们检索的是家用空调相关专利，所以 $\\mathbf { x } 2 7$ 出现频次最高是可以想象的。紧随其后的热点词 $\\mathbf { q } 7 4$ (heating_ranges_ven-tilating)制热的出现频次，它所代表的是制热技术领域,可以看出对于家用空调制热技术的研究一直是一个热点。q75（refrigeration_liquefaction)制冷的出现频次居于第三，它所代表的是制冷技术领域。还有一些其他的热点技术领域,包括 $\\mathbf { q } 7 8$ (heat exchange in gen-eral)热传导、tO1（digital computers）电脑控制等。",
+    "context8": "3.2技术前沿领域识别利用CiteSpace提供的词频探测技术，通过考察词频的时间分布，将其中频次变化率高的词(burst term）从大量的主体词中探测出来，依靠词频的变动趋势，而不仅仅是频次的高低,来确定前沿领域和发展趋势。所以在这里，我们认为突现率(burst值)高的关键词可以代表技术前沿领域。图2中,带有深色外圈的节点即为凸显率高的关键词,我们对这些词进行了截取，如表4所示。节点的中心度是指网络中所有最短路径通过该点的比例，中心度高的节点在网络中起到了桥梁作用。",
+    "context9": "表4家用空调前沿技术领域",
+    "context10": "<table><tr><td>技术领域</td><td>Burst值</td><td>中心度</td></tr><tr><td>t01(digital computers)</td><td>13.96</td><td>0.32</td></tr><tr><td>q74(heating_ranges_ventilating)</td><td>12.73</td><td></td></tr><tr><td>q55(machines_engines for liquids)</td><td>12.46</td><td></td></tr><tr><td>ql2(suspension_heating_doors_screens)</td><td>7.95</td><td></td></tr><tr><td>x22 (automotive electrics)</td><td>7.46</td><td>0.33</td></tr><tr><td>q75 (refrigeration_liquefaction)</td><td>6.46</td><td></td></tr><tr><td>hO7 (lubricants and lubrication)</td><td>4.63</td><td>0.11</td></tr><tr><td>q66 (valves_taps cocks)</td><td>4.54</td><td></td></tr><tr><td>w05(alarms_signalling_telemetry and telecontrol)</td><td>4.07</td><td>0.14</td></tr><tr><td>v04(printed circuits and connectors)</td><td>3.96</td><td>0.11</td></tr></table>",
+    "context11": "通过表4,可以看到tO1（digital computers）电脑控制技术的 burst 值高居第一位, $\\mathrm { q } 7 4$ ( heating_ranges_ventilating）制热技术与 $\\mathbf { q } 5 5$ (machines_engines for liq-uids）湿度控制分列二三位,这三类技术处于家用空调技术领域的最前沿，关注度最高。此外burst值较高的还有 $\\mathbf { x } 2 2$ (automotive e-lectrics）自动控电技术、$\\mathbf { w } 0 5$ ( alarms_signalling_te-lemetry and telecontrol）预警技术等。",
+    "context12": "3.3趋势分析结合前面热点技术与前沿技术分析，本文认为既是热点又是前沿的技术领域应该重点关注,即对于出现频次和burst值都较高的技术应该是未来家用空调重点发展的技术,我们对这些技术领域进行了提取,共5项,如表5所示。这些技术可以作如下分类：",
+    "context13": "a.同时具有高频次和高burst值的技术。如 $\\mathbf { q } 7 4$ （heating_ranges_ventilating）制热技术、q75（refrigera-tion_liquefaction）制冷技术。这一类技术是家用空调的基础技术，是从家用空调诞生起就开始强调的技术，从突现率的表现来看，制热制冷仍是家用空调技术发展的前沿关注点，未来在制热制冷方面的研究仍会持续增长。这类技术的研究由于需要一定的基础,故适合于在家用空调方面有比较深厚基础的企业重点关注。",
+    "context14": "b.具有较高频次、高burst 值技术。如 tO1（digitalcomputers）电脑控制和 q55（machines_engines for liq-uids)湿度控制技术。这类技术近年来刚开始浮现,但是关注度非常高，是未来家用空调重点关注的新技术。这类技术会造成家用空调产业结构的重大变化，需要企业重点研发与突破，一旦掌握了该领域核心技术,将会给企业带来高回报。",
+    "context15": "c.具有较高频次和较高burst 值技术。如 $\\mathbf { x } 2 2$ （automotiveelectrics）自动控电技术。这类技术近年开始浮现，关注度还不是很高，未来的有一定的潜力。如果企业想快速创新实现差异化产品策略，尽早掌握该类核心技术，应重点关注。",
+    "context16": "表5家用空调重点技术领域统计",
+    "context17": "<table><tr><td>技术领域</td><td>出现频次</td><td>Burst值</td></tr><tr><td>q74(heating_ranges_ventilating)</td><td>832</td><td>12.73</td></tr><tr><td>q75 (refrigeration_liquefaction)</td><td>471</td><td>6.46</td></tr><tr><td>t01(digital computers)</td><td>175</td><td>13.96</td></tr><tr><td>q55(machines_engines for liquids)</td><td>85</td><td>12.46</td></tr><tr><td>x22(automotive electrics)</td><td>77</td><td>7.46</td></tr></table>"
+  },
+  "4总结": {
+    "context1": "本研究基于CiteSpace信息可视化软件,对DII数据库中公布的家用空调相关专利(1963－2012年)进行统计和可视化分析后，得到如下结论：",
+    "context2": "第一,家用空调相关技术主要集中在日本、中国、韩国的一些家电企业手中,其中日本占有了绝对优势地位。",
+    "context3": "第二，通过关键词共现图谱分析，识别了家用空调领域的一些热点技术及前沿技术,包括制热制冷、热传导、电脑控制、湿度控制、自动控电技术等。",
+    "context4": "第三,对既是热点又是前沿的技术进行了汇总分类,对企业布局何种技术研发进行了浅显的分析。",
+    "context5": "为了更好地识别家用空调领域的技术热点与前沿,未来还可以基于Web of Science中的文献数据进行分析。同时拿来与现有结果对照，可能会对企业布局研发更有指导性。"
+  },
+  "参考文献": {
+    "context1": "[]陈悦,刘则渊.悄然兴起的科学知识图谱[]．科学学研究，2005(2):149 -154.  \n[] 侯建华.工商管理学科演进与前沿热点的可视化分析[D]．大连：大连理工大学,2009.  \nB] Chen C.CiteSpace II:Detecting and Visualizing Emerging Tr-ends and Transient Patterns in Scientific Literature [．Journalof the American Society for Information Science and Technolo-gy，2006,57(3):359 -377.  \n4 张昭.基于Cistspace的商务智能研究热点与前沿可视化分析[.情报探索,2012(12):6-9.吴学雁,艾丹祥,张延林.LED研究热点与前沿的知识图谱分析[.情报杂志,2013,32(4):127-133.  \n] 陈玉光，丁堃，刘盛博.基于CiteSpaceⅡ的专利知识可视化的实习机制及其应用[.情报学报,2010,29(4):663-670.Bailon-Morenor,et al．Analysis of the Field of Physical Chem-istry of Surfactants With the Unified Scientometric Mode.Fit ofRelational and Activity Indicators []．Scientometrics,2005,63(2):259 -276.赵蓉英，许丽敏.文献计量学发展演进与研究前沿的知识图谱探析[1.中国图书馆学报,2010,36(5):60-68.",
+    "context2": "(责编:刘武英)"
+  },
+  "(上接第103页)": {
+    "context1": "[5]Ruane F,Tol R S J. Rational（Successive) h -indices: An Application to Economics in the Republic of Ireland [．Scientometrics,2008,75(2):395-405.",
+    "context2": "[6]蒋旭纯,吴强.基于更多引文信息的改进h指数[.情报杂志,2013,32(3) :84,85 -88.",
+    "context3": "[17]Hirsch JE.An Index to Quantify an Individual S Scientific Re",
+    "context4": "search Output [．PNAS,2005,102(46) :16569 -16572.[8]张学梅. $\\mathbf { h } _ { \\mathrm { i } }$ 指数—一种对 $\\mathbf { h }$ 指数进行迭代计算的个人学术影响力评价方法[：图书情报工作， $, 2 0 1 3 , 5 7 \\left( \\ 1 1 \\right) : 9 6 \\mathrm { ~ - ~ } 9 9$ ，119.",
+    "context5": "(责编:刘影梅)"
+  }
+}

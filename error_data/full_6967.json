@@ -1,0 +1,121 @@
+{
+  "original_filename": "full_6967.md",
+  "数字科研环境下国外新型科研资源组织管理研究进展 \\*": {
+    "context1": "■马雨萌祝忠明",
+    "context2": "[摘要]分析数字科研环境下国外新型科研资源组织管理的研究实践和进展。首先依据国外管理的实践概括科研资源的新类型，然后结合国外相关具体研究总结目前科研资源组织管理所呈现的特征，并从管理政策和技术支持的角度分析国外科研资源组织管理的策略，提出目前组织管理策略研究中存在的问题，为科研资源组织管理的未来研究提供建议。",
+    "context3": "[关键词]数字科研环境科研资源新类型组织管理特征组织管理策略",
+    "context4": "[分类号]G250",
+    "context5": "DOI:10.7536/j.issn.0252-3116.2013.13.001"
+  },
+  "1引言": {
+    "context1": "目前的数字科研环境改变了传统的科研环境和科研方式，数据驱动、语义关联、融入社会网络的新型学术交流模式推动了对科学数据的管理，也使得各类科研资源价值的重要性越来越明显。仅对出版文献等传统科研资源进行组织管理和共享已经不能满足科研人员的需求，需要揭示各类有价值的科研资源，并制定相应的组织管理机制，实现研究学术价值链上各个环节科研资源的共享、重用和增值。",
+    "context2": "为了适应数据密集型科研范式对数据共享和管理的需求，美国科学基金会(NSF)的科学数据共享政策要求在申请NSF基金时提交数据管理计划i\"，欧盟推出资助项目的科学数据开放获取框架[2]。随着科学数据的管理越来越得到重视，科研过程逐步将科学数据作为核心资源,依据科学数据的生命周期开展研究[3]。面对数字科研环境下重现科研过程和重用知识产出的需求，目前科研管理研究开始关注一些具有学术重用价值的新型科研资源的组织管理，并从管理和技术的角度采取相应策略三个进行组织管理科研资源的实践。本文从科研资源组织管理的新类型、特征、策略三个方面，梳理和分析数字科研环境下国外新型科研资源组织管理的研究实践和进展，以期为国内科研资源的组织管理提供研究借鉴和策略参考。"
+  },
+  "2_数字科研环境下科研资源的新类型": {
+    "context1": "传统的科研发现和学术交流体系仅对正式出版物等学术成果进行管理和共享，而数字科研环境的新型学术交流模式要求揭示整个研究过程中各类有价值的科研知识资源,包括科学数据、科学工作流、实验指南、科研流程步骤、模型、程序等资源。"
+  },
+  "2.1科学数据": {
+    "context1": "随着数字科研环境下数字技术、实验技术和科学仪器设备的发展，科学研究的模拟、观察、实验过程产出了海量的科学数据，这种数据密集型科学研究模式将科学数据作为重要的科研资源,对其进行保存、组织、管理、分析和重用。目前学科领域仓储、知识库、数据中心对于科学数据已有较为成熟的管理、保存应用实践。GenBank[4]和DDBJ(DNA Data Bank of Japan）[5]为科研人员、个体实验室和大规模基因组测序计划产出的基因序列数据提供了存储和共享的平台。DataStaR（Data StagingRepository）提供了机构知识库支持数据密集型学术的新形式，科研人员能够在整个科研流程的不同阶段发布科学数据成果到各自领域的学科库，并通过创建多种格式的高质量元数据实现跨学科的数据共享、发布和元数据重用[6]。数据管理中心鼓励科研人员上传和共享数据，努力探索如何将科学数据作为一个协调统一的研究资源集合进行收集管",
+    "context2": "马雨萌祝忠明",
+    "context3": "理。加州大学圣地亚哥分校的圣地亚哥超级计算中心在为科学界提供计算服务的同时，将数据管理纳入目标，建立了自己的数据中心，为各类科学机构保存其科学数据。为了统一管理多仓储平台和多学科领域的科学数据,DataONE（Observation Network forEarth）将学科仓储、知识库、数据中心组织成节点网络，并向用户提供通用服务，促进了科学数据的开放、持久及安全获取，推动了数据密集型的知识发现[]",
+    "context4": "数据发布对科学数据的质量控制和有效使用有积极的影响，所以科学数据开放服务需要被整合到传统科学发布过程中。一方面,通过结合期刊提交过程,建立科学数据与文献关联的发布方式。figshare与PLOS合作,将科研人员发表在PLOS 期刊论文中的数据存储在figshare,提供了数字网络化环境下全面发布科研人员科研成果和科学数据的方式，促进了开放科研环境下知识内容和科学数据的发现、分享和重用[8]；Dryad通过与领域中科学期刊文献提交系统合作的方式,形成一个作者、期刊、Dryad 数据提交之间无缝出版的过程[9]。另一方面,将科学数据作为独立出版物发布。Scientific Data是计划于2014年启动的用于描述有价值科学数据集合的开放获取出版物，以满足科研人员和资助者对于科学数据可获取、可引用、可发现、可说明、可重用、可再生的需求，通过提供实验和观测数据集合的详细描述、评估数据质量的同行评议机制以及与figshare、D.Dryad 等科研领域认可的科学仓储的关联合作,实现对传统科研期刊和数据仓储的补充，促进科学数据的共享、重用和科学发现[0]。"
+  },
+  "2.2科学视频": {
+    "context1": "为了能够准确传递目前科学研究的复杂步骤,一些传统的非文本类型资源被用于捕获和记录面向科学研究的知识,通过可视化技术捕捉和传输科研过程中的细节,以弥补传统书面静态式印刷刊物的不足。JoVE(Journal of Visualized Experiments）视频期刊以视频格式发布科学研究的标准程序和实验技术,动态地详细记录了实验过程的步骤，并随附一份包含引言、指南、结果、讨论和引用参考的书面描述[\"],促进对实验技术的理解和重用,加快科学研究的进程。"
+  },
+  "2.3科学工作流": {
+    "context1": "科学工作流技术提供了一种全面捕捉数据生产和处理过程的方法，从而使科研结果和间接数据可以被重演和重复,科研方法可以被审查、检验、重复及改变，日益成为支持以数据为中心的科研范式的重要工具。为了提供了一个供科研人员发布、查找、管理科学工作流的平台，myExperiment通过科学研究社群的支持，实现社会标注、评论、分级和推荐，并构建本体模型支持社会虚拟研究环境的功能特征，包括内容管理、组件、权限管理、标注等模块[2]。"
+  },
+  "2.4面向科研过程资源": {
+    "context1": "科学的开放共享需要公开发布整个科学研究过程，包括研究思路和方法、实验过程、中间结果、实验指南、同行评论、实验最终结果、实验历史记录、实验数据分析处理结果等，使整个科研过程处于一种完全透明的状态。Protocol Exchange 和 Nature Protocols 的结合形成了科研实验指南共享交互的平台，通过详细描述和组织管理有关科研人员实验技术的开放资源，支持科研指南的快速提交和分享[13]。Open NotebookScience通过提供完整的科学研究记录，使得其他科研人员能够全面了解科研过程，并及时获取关于实验程序、原始数据和数据分析的详细描述，为他们开展自己的研究工作提供比较借鉴或基础依据(4]。"
+  },
+  "2.5其他科研资源": {
+    "context1": "科学数据在产生、处理、分析、重用等一系列过程中会涉及到相应的方法、模型、计算机程序、可视化技术相关算法以及软件、设备的相关参数，这些资源有助于科研人员理解科学研究中数据处理过程,提供对科学研究进行验证的可能性,增强科研结果的可靠性和可重用性[15]。",
+    "context2": "随着上述科研资源在数字科研环境的地位逐渐提高，目前它们不仅仅作为一种被存储和获取的资源，包括科学数据、实验指南、科学视频在内的新型科研资源已作为科学出版物融入传统科学发布过程中，形成了科学出版的新领域。此外,在数字科研环境下产出的以上新型科研资源中，关于科学数据的组织管理和长期保存已有较为丰富的应用实践和较为成熟的模式机制,而对于其他类型资源的管理大多停留在存储层面和简单的元数据描述，缺乏专门的仓储平台和结构化、语义化的组织管理机制。"
+  },
+  "数字科研环境下科研资源组织管理的特征": {
+    "context1": "在数字科研环境下，科研资源不仅仅是传统的科学出版物,其规模、本质、类型和内容发生了变化,因此相应的组织管理方式也发生了变化,呈现以下特征。"
+  },
+  "3.1融入基于Web2.0的社交网络": {
+    "context1": "如何将Web2.0应用转变成卓有成效的科研社交工具是目前科研社交网络研究的问题,博客、维基等工具以及Twitter、Friendfeed、CiteULike等服务已被科研人员和学术团体作为构建科研社交平台和组织管理科研资源的方式。OpenWetWare为实验室、科研人员和科研团体提供了基于用户群组的科研交流合作、科学工作评估平台,群组成员能够随时编辑、修正、更新页面内容,并对发布的科研工作及成果进行交流和评论[16]。博客、维基等 Web 2.0工具在UsefulChem 得到充分应用，维基中的实验记录页面用于组织和管理实验，访问者通过博客了解详细的实验信息和项目的思路方法，自由评论实验进展以及获得实验中所遇困难的解决方案[17]"
+  },
+  "3.2科研知识资源对象化": {
+    "context1": "数字仓储系统将科研资源作为独立的数字对象存储,采用元数据模式定义和描述,并通过数字对象唯一标识符建立出版物与科研资源的关联。Dryad采用数据包（datapackage)组织管理科学数据及其基本描述、引用格式等信息，开发了一个基于DC、符合新加坡框架模型（Singapore Frameworkmodel）的元数据模式，建立了科学出版物与其科学数据集的关联[18]。SPP（Scientific PublishingPackages）不仅提供了封装科研知识内容、选择性保存管理科学数据和科研出版物的数字对象模型，而且通过扩展ABC本体模型，定义了科学研究中事件、数据、时间、地点等类以及捕获与科研过程和结果相关的元数据，实现了科研过程中科研知识对象的组织描述和发布共享[19]。"
+  },
+  "3.3科研资源可视化关联": {
+    "context1": "目前面向数据密集型科研实现了科学文献和科学数据的动态关联，促进了科学数据的可视化以及交互操作。可执行论文(executable papers)为科研出版物主体部分的静态内容扩展了交互元素，提供可视化导航展示交互结果，使得科研人员能够获取原始数据来验证结论[20]。Elsevier 的“Article of the Future\"格式将在线学术文献和相关科学数据关联，增强了科学数据的可视性,提供了支持数据说明和重用的环境[21]。"
+  },
+  "3.4语义关联、扩展和增强": {
+    "context1": "随着语义Web技术和方法体系的逐步成熟，语义技术在关联组织数字资源、增强知识对象语义表达方面的应用，使得科研资源的组织管理实现了语义关联、扩展和增强。联合国粮农组织——农业信息管理标准部采用关联数据技术，发布可关联文献数据（LinkedOpen Data- Enabled Bibliographic Data,LODE-BD）编码策略选择建议，描述了如何选择合适的编码策略产生可关联文献数据[22]。关于外化科学篇章修辞和论证结构、鉴别和语义标注科学出版物中科学知识对象与知识关系的研究,包括对科学报告进行模型化标引的MOSTR计划[23]、SALT语义写作框架[24]、W3C推出的科学篇章修辞块本体（Ontology ofRhetorical Blocks，ORB)标准[25]等，通过增强和扩展科学知识对象在整个生命周期中的语义,实现快速处理科学信息、服务科研过程、语义化科学出版等应用。"
+  },
+  "4国外科研资源组织管理的策略": {
+    "context1": "为了支持数字科研环境下科研资源的组织管理，目前国外关于组织管理策略的研究主要从管理政策和技术支持的角度实施,科研资源管理政策包括保存政策和权限控制，而在技术策略应用实践中，主要从元数据描述、文件格式标准和语义模型构建方面,为定义、描述、存储科研知识对象提供技术支撑和底层模型。"
+  },
+  "4.1元数据标准": {
+    "context1": "元数据描述了科研资源的主题、源流、情境等信息,使其易于理解和重用以支持未来的科学研究。目前有研究通过捕获科学数据所涉及的知识属性和关系属性，形成标准化的元数据描述模式。CSMDM（CCLRCScientificMetadataModel）采用层次结构的数据存储和元数据模型，通过科研元数据记录中的Topic、Related Material、Access Conditions 等字段,描述了有关科研项目和科学数据的学科类别、情境信息、访问权限等信息，从而捕获科学研究过程中策略、计划、项目以及产出科学数据的研究活动，为描述科学数据提供了一种可扩展的通用格式[26]。Scientific Data 使用数据描述（DataDescriptor），将传统出版物中通用叙述性内容与科学数据内部组织管理的结构化信息结合,叙述性内容包括背景摘要、方法、技术验证、用法说明等标准化通用元数据以及描述实验样本的关键特征、产生数据的技术、数据集的情境信息等关键实验元数据，并提供样本模板和内部管理支持数据集合的一致性描述，从而详细描述了实验或观测过程直接产生的科学数据[27]。对于其他类型的科研资源,ADEPT项目提出了描述计算模型的内容标准CSCM（contentstandard forcomputationalmodels）,包括标识信息、配置要求、输入输出、访问控制、元数据来源等方面的元素，为计算模型的描述提供了标准化元数据框架,使得用户在计算环境下能够发现、评价、获取、运行计算资源[28]。",
+    "context2": "目前针对不同仓储元数据模式不同所导致的资源提交和分享过程复杂化的局面，需要对科学元数据进行标准化和丰富化。一方面通过构建语义本体实现元素映射，例如，DataStaR将不同学科领域元数据模式整合构建语义本体，支持科研人员根据需求创建、共享和发布不同元数据模式描述的数据集合[29]。另一方面提供描述元数据的通用格式，例如ISA-Tab的Investigation/Study/Assay（ISA）框架，基于研究活动（investigation）、研究项目（study）和文献（assay）三个关键实体创建和交流元数据，提供了样本特征、技术方法类型、样本和数据关系等有关实验元数据的丰富描述，促进了科研成果和科学数据的重用，提供了描述实验元数据的可扩展、跨领域通用格式[30]"
+  },
+  "4.2文件格式标准": {
+    "context1": "目前制定科研资源文件格式标准的研究，采用类似文件管理系统的方式描述、存储科研资源，通过特定结构的文件表示、描述科研资源的结构及其相关元数据。HDF5（Hierarchical Data Format）提出了一个能够创建和存储多样、复杂数据对象和元数据的简单而通用的数据模型，包括多维数组结构和组结构，这种具有自我描述能力、类似文件管理系统的分层数据格式，允许用户自定义元数据和数据对象的组织方式，可实现对图像等任意类型科学数据的组织和存储[31]。NetCDF（Network CommonDataForm）是一种适于网络共享的通用数据格式,以多维数组的形式表示数据,代表数组的变量有可共享的维度和相关属性，NetCDF4基于HDF5格式扩展了原有数据模型,加人分层组结构组织变量、维度和属性以及用户自定义数据类型，实现了重要元数据关系的表达，从而以简洁、可扩展、自我描述的方式支持科学数据的创建、获取和分享[32]。"
+  },
+  "4.3数字对象模型": {
+    "context1": "数字对象模型的构建对数字对象及其关系进行有效的语义化揭示、分析与组织,使大量科研知识对象成为富语义和可计算的资源。目前关于数字对象语义模型的研究，将科研资源通过语义结构封装、关系属性的描述嵌人复合数字对象模型，或采用构建本体模型、关联组织框架的方式，识别数字对象类型,捕获科研情境,建立功能模块以及语义描述关联关系，为语义关联组织数字对象提供了基础框架。",
+    "context2": "4.3.1复合数字对象模型由于科研资源在语义类型、媒体类型和格式等方面的多样性,为了增强数字对象间语义关联以及语义表达数据集内部资源,越来越多的科研产出采用复合数字对象模型进行表达。",
+    "context3": "在复合数字对象模型的研究中,OAI组织提出的对象重用和交换标准(OAI-ORE）,提供了一种描述资源聚合及其关系的明确的、可扩展的机制[33]。一方面可通过ORE聚合结构关联某一科研产出的相关资源，每项资源由URI唯一标识，被聚合的科研资源可被发现、参考和重用；另一方面从科研过程的角度，将研究过程中每一个阶段的产出作为一个聚合，被聚合资源可以继续聚合资源，这种聚合框架明确了每个阶段的产出以及阶段内部的聚合关系[34]。 。",
+    "context4": "为了支持科研数字知识的重用和交换，“研究对象\"（researchobject)概念被提出。研究对象是一种资源富语义集成的“知识单元”，提供了资源规则聚合的容器，封装了有关科研过程的重要信息，如科学数据、建模和处理分析数据的方法、科研成果产出及涉及的人员、机构等实体[35]。同样体现这一思想的复合数字对象包SPP模型，选择性封装了原始数据、计算资源、情境源流元数据、衍生产品和文本出版物，并对组件的结构、谱系等关系进行语义化描述,添加捕获资源间关系的元数据来增强聚合[19]。这种聚合的改进和相应附加值的产生，能够实现资源重用和共享，支持科学研究目标的实现。",
+    "context5": "4.3.2数字对象关联组织模型为了提供关联组织科研数字对象的通用模型，一些研究通过建模的方式，识别应用领域的数字对象类，并建立类与类之间的关系，从而达到语义揭示和组织管理应用领域中科研资源及其关联关系的目标。科学资源模型SPM提供了对模型和程序资源概念、关系的描述，定义了两个基本概念，表示模型和程序资源的转换类（transformationcategory）以及描述数据资源的数据类（datacategory），由于转换类涉及了输入数据、参数和输出数据以及定义专门数据类描述模型、程序相关联的数据资源，从而构建了模型、程序与所涉及数据等其他科学资源的关联关系[36]",
+    "context6": "目前大多数数字仓储平台通过建立数字对象结构语义关系的基础数据模型，或组织管理数字对象的功能框架模型,提供满足仓储目标的富语义功能，同时通过为不同类型科研产出扩展数据模型的方式，实现面向科研的语义化应用和服务的构建。微软开发的科研产出仓储平台 Zentity,基于.NET 的实体框架构建语义数据模型，包括资源（resource）、资源属性（resourceproperty）、关系（relationship）、关系属性（relationshipproperty）、谓词（predicate）、文件（file）等类,用于处理资源与资源之间的语义关系,不同类型科研产出的数据模型可通过继承resource类，增加属性和关系进行扩展[37],实现了语义化数据的保存与资源语义关系的揭示。为了增强通用数字对象模型Fedora在数字科研环境下对科研的支持，eSciDoc项目基于Fedora仓储系统，中间层加入面向服务的eSciDoc框架，为不同类型的科研对象提供了内容模型，应用层通过提供发布管理和学术平台，支持数字科研成果的集成、交流和发布[38]"
+  },
+  "4.4保存政策": {
+    "context1": "对于提交的科研资源，仓储平台会制定相应的保存政策和长期保存计划，确保科研资源的安全存储和长期获取。弗吉尼亚大学数据管理计划关于科学数据的存储，需要考虑文件格式、存储介质、保存环境和数据备份的因素，规定了科研人员提交数据时所需的文档类型，包括记录数据集合情境、数据收集方法、数据文件结构、数据质量控制信息的科研项目文档以及描述变量、算法、格式、工具的数据集合文档，并需要遵循一些科研资助机构的数据管理指导和数据分享政策。同时，弗吉尼亚大学的保存政策支持对实验室笔记、科研记录、研究过程日志等面向科研过程文档的保存，要求科研人员准确记录并提交具有重用价值、可检索的科研产出成果[39],保证科研程序的完整、研究记录的可验证、原始数据的保存和可获取。"
+  },
+  "4.5权限控制": {
+    "context1": "为了明确不同科研人员身份存取权限的差异，数字仓储在管理科研资源时需要制定相应的存取权限控制的管理机制，为不同科研人员分配相应的存取、参考、重用等权限。UHM（Universityof Hawaiiat Manoa）图书馆的仓储系统ScholarSpace将科学研究领域中的科研人员主体划分为提交者、浏览者、协调者和元数据编辑者的角色，对于查看、提交、编辑等行为，为不同角色分配相应的行为权限[40]。DataShare项目针对仓储规划开发人员提出的科学数据管理和保存相关政策，重点对提交者的身份和权限进行规定，从而保证提交程序的规范和提交内容的质量[41] 。"
+  },
+  "5结论": {
+    "context1": "虽然国外的相关研究从政策管理和技术组织方面，实现了对科学数据、模型、程序、科学工作流等新型科研资源的组织管理，但是这些研究目前仍存在以下问题：",
+    "context2": "科研关联关系单一。虽然目前关联组织模型构建了数字科研对象之间的关联关系，或采用关系本体定义数字对象网络中的常见关系，但是着重于简单的组成关系、聚合结构关系、输入产出关系，对科研资源的衍生关系、源流关系、情境关系等揭示科研较深层关联的关系缺乏关注。",
+    "context3": "情境、源流信息缺乏。情境、源流信息记录了科研环境条件和科研资源产出的过程，为科研人员重现科研过程、验证科研知识、重用科研资源提供依据。目前一些仓储平台的数字保存政策要求提交资源情境和源流信息的描述文档，然而元数据模式大多仅提供了不同类型科研资源的基本描述信息，揭示符合该类科研资源特征的产出过程的情境、源流信息则较少。",
+    "context4": "组织管理的科研资源类型单一。虽然目前在科研管理研究中，科学数据作为核心科研资源逐步得到了越来越多的组织管理研究和实践，但是其他类型具有学术重用价值的科研资源的组织管理仍缺乏相应政策机制和描述标准。目前科研资源管理的研究大多提供一种通用的组织框架或描述模式，较少描述不同类型科研资源的特征，缺乏揭示各类有价值科研资源及其关联关系的组织管理机制。",
+    "context5": "面向科研过程的组织管理体系缺乏。上述三类问题的原因在于缺乏面向科研过程的组织管理体系作为分析科研资源类型及关联关系的依据。结合科研过程可深入分析各个科研阶段产出的资源类型和情境实体，并揭示科研资源之间、科研资源与情境实体之间的关联关系。虽然有研究开始关注科研过程，但只是将研究过程不同阶段的数字对象聚合，或对科研过程所涉及的基本资源和常见关系进行描述组织，缺乏对科研全过程资源类型及其关联关系进行全面、深层语义揭示的组织管理体系。",
+    "context6": "在语义和数据驱动的开放关联环境下，为了构建和发展数字科研环境下新型学术交流模式的语义计算环境，需要实现各种有价值科研资源的语义关联组织，从而支持基于语义关联的科学知识发现、检索、浏览、分析、重用、可视化等面向科学研究的服务和应用。通过分析数字科研环境下国外新型科研资源组织管理的研究进展现状和存在的问题，笔者认为，未来的研究应面向科学研究过程各个阶段的具体场景，形成科研资源、关联关系的分析依据和建立全面的组织管理体系，识别各类有价值的科研资源并捕获科研关联关系，对于不同类型的科研资源制定相应的描述模式，揭示符合各类资源特征和科研过程情境的属性，从而实现面向科学研究过程的科研资源语义关联组织管理。"
+  },
+  "参考文献：": {
+    "context1": "[1]NSF. NSF data management plan requirements[EB/OL].[2013- 03-12]. http://www.nsf.gov/eng/general/dmp. jsp."
+  },
+  "数字科研环境下国外新型科研资源组织管理研究进展": "",
+  "马雨萌祝忠明": {
+    "context1": "[2]EU Commission. Towards better access to scientific information： Boosting the benefits of public investments in research[EB/OL]. $[ 2 0 1 3 - 0 3 - 1 2 ]$ . http://ec. europa. eu/research/science - society/document_library/pdf_O6/era -communication -towardsbetter-access-oscientific-information_en.pdf.   \n[3] Starr J.What is the research life cycle？[EB/OL].[2013-03- 12].htp://www.slideshare.net/joanstarr/the -research-data-lifecycle.   \n[4]Benson D A,Karsch-Mizrachi I,Clark K,et al．GenBank[J]. Nucleic Acids Research,2000,28(1):15-18.   \n[5]Miyazaki S,Sugawara H,Gojobori T,et al. DNA data bank of Japan（DDBJ）in XML[J]．Nucleic Acids Research,2003,31 (1):13 -16.   \n［6］杨鹤林．从数据监护看美国高校图书馆的机构库建设新思 路——来自 DataStaR的启示[J]．大学图书馆学报,2012（2）： 23-28,73.   \n[7]Allard S.DataONE：Facilitating eScience through collaboration [J]．Journal of eScience Librarianship,2012,1(1）:4-17.   \n[8]Kishor P.PLOS and figshare make open science publishing more open[EB/OL].[2013-03-12]. http://creativecommons.org/ weblog/entry/36504.   \n[9]Vision T.The Dryad Digital Repository：Published evolutionary data as part of the greater data ecosystem[EB/OL].[2013 -03- 12]. http://precedings.nature. com/documents/4595/version/1/ html.   \n[10]Nature Publishing Group．About Scientific Data[EB/OL].[2013 -04-15]. htp://www.nature.com/scientificdata/about/.   \n[11] Jourmalof Visualized Experiments.Manuscript instructions for authors[EB/OL].[2013-03-12]. htp://www. jove.com/ files/Instructions_for_Authors.pdf.   \n[12]Newman D,Bechhofer S,De Roure D.myExperiment:An ontology fore-Research [C]//Semantic Web Applications in Scientific Discourse. Washington DC:CEUR-WS,2009.   \n[13]Nature Publishing Group.About Nature Protocols[EB/OL].[2013 -04-15]. htp://www.nature.com/nprot/info/about. html.   \n[14]Bradley JC. Open Notebook Science[EB/OL].[2013-03-12]. http://istolsfsr/pr   \n[15］陈仕吉，史丽文,左文革．e-Science环境下复合数字对象研究 [J]．现代图书情报技术,2009(2）:33-38.   \n[16] Sukale J.Don’t hide your research，share it！[J]．Lab Times, 2009(2) :54-55.   \n[17]BradleyJC，Mirza K，Giammarco J，et al. The UsefulChem Project：An application of open source science in malaria research [EB/OL].[2013-04～15]. htp://showme.physics.drexel. edu/usefulchem/TheUsefulChemProject.ppt.   \n[18]White H C，Carrier S，Thompson A，et al.The Dryad Data Repository: A Singapore framework metadata architecture ina DSpace environment [C ]//Proceedingsof the Intermational Conference on Dublin Core and Metadata Applications.Berlin: Dublin Core Metadata Initiative,2008:157-162.   \n[19]Hunter J. Scientific Publication Packages -A selective approach to the communication and archival of scientificoutput [J]. International JoualofDigitalCuration,2008,1（1):352.   \n[20]Nowakowski P，Ciepiela E，Harezlak D，et al．The collage authoring environment [C]//llth Intermational Conference on Computational Science.Singapore;Elsevier,2011:608 -617.   \n[21]Elsevier．Article of the Future[EB/OL].[2013-04-15]. http://beta.cell.com/index.php/2009/07/article-of-the-future.   \n[22]Food and Agriculture Organization of the United Nations.LODEBD Recommendations 2.0[EB/OL].[2012-09 -02].http:// aims.fao.org/lode/bd.   \n[23]Allen R B. Model-oriented scientific research reports[J/OL].DLib Magazine,2011,17(5）[2012-09-02].http://www.dlib. org/dlib/mayl1/allen/O5allen.html.   \n[24]Groza T. SALT - Semantically Annotated LaTex[ EB/OL].[2012 -09-02]. htp:/alt.semanticauthoring.org.   \n[25]World Wide Web.Ontologyof Rhetorical Blocks（ORB）[EB/ OL].[2012-09-02].http://www.w3.org/TR/hcls-orb.   \n[26] Sufi S,Mathews B. CCLRC Scientific Metadata Model:Version 2 [R/OL].[2013 - 04 - 15]. htp://epubs.cclrc.ac. uk/ bitstream/485/csmdm.version-2.pdf.   \n[27]Nature Publishing Group．Data Deseriptor content and submission [EB/OL]．[2013- 04 - 15 ]. http://www.nature.com/ scientificdata/for-authors/data-descriptor-content-and-submission/.   \n[28]Hill L L,Crosier S J,Smith T R，et ai．A content standard for computational models[J/OL].D-Lib Magazine,2001,7(6）[2013 -04-15].http://www.dlib.org/dlib/june01/hil/06hill. html.   \n[29] Khan H,Caruso B,Corson-Rikert J,et al．DataStaR：Using the Semantic Web approach for data curation[J].The Intermational Joumal of Digital Curation,2010,6(2):209-221.   \n[30] Rocca-Serra P,BrandiziM,Maguire E,et al. ISA software suite: Supportingstandards-compliantexperimentalannotationand enabling curation at the community level［J]．Bioinformatics, 2010,26(18):2354-2356.   \n[31]Dougherty M T，Folk MJ,Zadok E,etal．Unifying biological image formats with HDF5[J]. Communications of the ACM,2009, 52(10) :42 -47.   \n[32]Hartnet E,Rew R．Experience with an enhanced NetCDF data model and interface for scientific data access[C]//24th Conference on Interactive Information Processing Systems.New Orleans: American Meteorology Society,2008.   \n[33] ORE user guide- Primer[EB/OL].[2012-10-18]. http:// www.openarchives.org/ore/1.0/primer.   \n[34]Pepe A，Mayermik M，Borgman C L，et al．From artifacts to aggegations：Modeling scientific life cycles on the Semantic Web [J]．Journal of the American Society for Information Science and Technology,2010,61(3）:567-582.",
+    "context2": "[35]Bechhofer S,De Roure D,Gamble M，et al．Research objects:"
+  },
+  "第57卷第13期2013年7月": {
+    "context1": "Towards exchange and reuse of digital knowledge[C]//The Future oftheWeb forCollaborativeScience.Raleigh：Nature Precedings,2010.",
+    "context2": "[36]Cavalcanti MC,Matoso M,Campos ML,etal．Sharing scientific models in environmental applications[C]//Proceedings of the 2002 ACM symposium on Applied computing. Madrid:ACM,2002:453 - 457.",
+    "context3": "[37]Parastatidis S. ZENTITY：A repository and a platform for building repositories[EB/OL].[2012-09-02].http://colab.mpdl. mpg.de/mediawiki/images/d/d6/ESci_09_Sem_2_Zentity_ Parastatidis. pdf.",
+    "context4": "[38]Razum M,Karlsruhe F.eSciDoc:A next-generation e-Research infrastructure[EB/OL].[2012-09-02].htp://www.escidoc",
+    "context5": "project.de/homepage. html.",
+    "context6": "[39]University of Virginia Library.Data management plan：Security, storage & backups[EB/OL].[2013-04- 15].http:// dmconsult.library.virginia.edu/plan/storage/.",
+    "context7": "[40]University of Hawaii at Manoa Library.Content and collection guidelines[EB/OL].[2013-04-15]. htp://guides.library. manoa.hawaii.edu/content.php？ $\\mathrm { p i d } = 1 0 2 4 1 2 \\& \\mathrm { s i d } = 7 7 0 4 9 8 \\#$ workflow.",
+    "context8": "[41]Green A,Macdonald S,RiceR.Policy-making for research data in repositories:A guide[EB/OL].[2013-04-15]. http://pdf. aminer.org/000/222/918/distributed_data_repository_supporting_ ad_hoc_collaborations.pdf."
+  },
+  "Research Development on Organization and Management of New Research Resources at Abroad in the Digital Research Environment": {
+    "context1": "Ma Yumeng1 1,2 Zhu Zhongming1",
+    "context2": "IThe Lanzhou Branch of National Science Library，Chinese Academy of Sciences，Lanzhou 73000",
+    "context3": "2University of Chinese Academy of Sciences，Beijing 100049",
+    "context4": "[Abstract]This paper analyzes organization and management practices and development of new research resources in thedigitalresearch environment.New typesof research resource areoutlined according to the foreign practices.Thenthe features oforganizationand managementaresummarized with foreign specificresearch.Furthermore,foreignorganization and management strategiesare analyzed from the point of management policyand technical support.Problems inthe strategies study are proposed to provide advices for future study.",
+    "context5": "[Keywords]digital research environmentnew type of research resourcefeature of organization and management organization and management strategy"
+  },
+  "《知识管理论坛》征稿启事": {
+    "context1": "为推动知识时代知识的创造、组织和有效利用,促进知识管理研究成果的快速、广泛和有效传播，从2013年第1期开始,《图书情报工作网刊》改名为《知识管理论坛》(ISSN2095-5472,新出网证(京)字058号,仍为月刊),启用全新的论文发布平台www.kmf.ac.cn。为推动科学研究成果公共利益最大化,本刊自创刊号起,对本刊发表的论文实行立即完全的开放获取出版,并鼓励和支持实施自存储政策。自2013年7月1日起,本刊实行按篇出版，稿件一经录用立即进入快速出版流程,改变传统按期出版模式,发挥数字出版和网络出版的优势。",
+    "context2": "《知识管理论坛》与《图书情报工作》杂志社联合办公,遵循严格的学术研究规范和学术期刊质量规范。将逐步采用国际先进的审稿制度和编辑处理制度。",
+    "context3": "本刊关注知识的生产、创造、组织、整合、挖掘、分享、分析、利用、创新等方面的研究成果。任何有关政府、企业、大学、图书馆以及其他各类实体组织和虚拟组织的知识管理问题,包括理论、方法、工具、技术、应用、政策、方案、最佳实践等,都在本刊的报道范畴之内。",
+    "context4": "现面向国内外学界业界征稿：",
+    "context5": "1.稿件的主题应与知识相关,探讨有关知识管理、知识服务、知识创新等相关问题。文章可侧重于理论，也可侧重于应用、技术、方法、模型、最佳实践等。",
+    "context6": "2.文章须言之有物，理论联系实际,研究目的明确,研究方法得当,有自己的学术见解,对理论或实践具有参考、借鉴或指导作用。",
+    "context7": "3.所有来稿均须经过论文的相似度检测,提交同行专家评议,并经过编辑部的初审、复审和终审。",
+    "context8": "4.文章篇幅不限,但一般以4000-20000 字以内为宜。",
+    "context9": "5.来稿将在1个月内告知录用与否。",
+    "context10": "6.稿件主要通过网络发表,如我刊的网站(www.kmf.ac.cn)和我刊授权的数据库。",
+    "context11": "联系电话：010-82626611-6638 联系人：刘远颖"
+  }
+}

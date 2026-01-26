@@ -1,0 +1,100 @@
+{
+  "original_filename": "full_4040.md",
+  "图书馆异构特藏资源现状及其整合设计": "",
+  "以全国师范大学图书馆联盟为例 \\*": {
+    "context1": "汪志莉，李 欣，张毅",
+    "context2": "摘要传统图书馆特藏资源建设模式难以适应人文学科研究需要，人文学科研究者期待资源全面、开放共享的研究新环境。文章在调研全国师范大学图书馆联盟成员馆异构特色资源现状的基础上，借鉴Europeana异构资源整合模式，提出异构特藏资源整合模式思路：数据集成方面，按类收集成员馆特藏资源元数据；数据共享方面，利用关联数据实现资源开放共享，解决数据孤岛问题；技术框架方面，建立特藏资源服务云平台，采用元数据逻辑整合、全文分布式保存管理方式，并基于此设计异构特藏资源整合框架。",
+    "context3": "关键词数字人文异构特藏资源全国师范大学图书馆联盟Europeana 关联数据引用本文格式汪志莉，李欣，张毅.图书馆异构特藏资源现状及其整合设计——以全国师范大学图书馆联盟为例[J].图书馆论坛，2017(12：95-100，107."
+  },
+  "Status Quo and Integration Design of the Heterogeneous Special Collection of Library": {
+    "context1": "-A Case Study of the National Union of Normal University Libraries WANG Zhi- li,LI Xin，ZHANG Yi",
+    "context2": "AbstractThe traditional construction model of special library collction has strugged to meet the needs of humanities research， because the humanities researchers expect anew research environment whichis comprehensive ， open and shared. Based on a detailed investigation of the heterogeneous special colection of National Union of Normal University Libraries，and with the heterogeneous resource integration model of Europeana for reference, this paper has put forward the idea of integrating heterogeneous special collection in the following aspects first, data integration，collecting the metadata of the special collection by class from the member libraries ；second, data sharing，using the linked datato realize the open sharing of resources and to addressthe issue of data silos ； third，the technical framework，building the service cloud platform for special colection，which adopts metadata logic integrationand distributed fulltext storage management.Based on this，thisstudy has designed the framework of heterogeneous special collection integration，soas to provide reference for library heterogeneous resource integration.",
+    "context3": "Keywordsdigital humanities ; heterogeneous special colection ；National Union of Normal University Libraries; Europeana ; linked data"
+  },
+  "1问题的提出": {
+    "context1": "长期以来，图书馆特色资源数据库大多只对部分授权用户开放，存在开放性差和数据孤岛现象。其小范围的数字化整合与共享服务主要以元数据定期或不定期收割后，基于关系型数据库的检索系统向机构间用户提供元数据层面的有限揭示。CALIS建立的高校特藏资源栏目(以下简称“CALIS特藏平台”)是我国大学图书馆不多见的针对特色资源进行整合的平台之一。CALIS 特色资源建设项目后动于1999年，目前共收录75所大学97个特色数据库。本文针对这75所大学图书馆门户网站展开调查，发现这些图书馆拥有特色资源数据库数量是CALIS特藏平台收录数的2倍以上。高校图书馆特色资源数据库远远不止这些，但相互之间粘合度和共享度不高，各馆的同类知识没有实现聚类与统一揭示，不能满足研究者对某一学科知识全面性掌握的需求，不利于知识发现。",
+    "context2": "随着数字人文研究兴起，人文学者开始在各个领域自行构建全面研究型数据库。例如，由哈佛大学费正清中国研究中心、我国台湾“中央研究院”历史语言研究所、北京大学共建的中国历代人物传记资料库(CBDB)，其远程目标在于系统收集中国历史上所有重要的传记资料，并将其内容毫无限制地、免费地公诸学术之用；由复旦大学、格里菲斯大学、哈佛燕京学社共建的中国历史地理信息系统(CHGIS)为研究者提供GIS数据平台、时间统计以及查寻工具和模型，目标是建立按中国历史时期连续变化的可共享的数字化基础历史地理信息系统；我国台湾历史数位图书馆(THDL)为集合台湾史一手史料之资源库，提供全文检索、资料诠释、检索，包含“淡新档案”“明清台湾行政档案”“古契书”三大文献集，全文资料逾10万笔。",
+    "context3": "调研表明，传统图书馆特藏资源建设模式难以适应当前的人文学科研究需要，人文学科研究者期待资源全面、开放共享的人文研究新环境。图书馆需要思考如何改变资源数字化全文扫描和简单元数据加工的现状，建立一个广泛参与的分布式平台，让各种资源在开放环境下根据一定的格式实现共享，从而提升特藏资源辅助数字人文研究的能力。本文以全国师范大学图书馆联盟(以下简称“师范联盟”）各成员馆的异构特藏资源为数据源，在调研师范联盟特藏资源现状的基础上，借鉴Europeana(欧洲数字图书馆)资源整合模式，设计异构特藏资源整合框架，旨在给异构资源整合提供借鉴。"
+  },
+  "2师范联盟异构特藏资源现状调研": {
+    "context1": "通过问卷5和网络调研了解师范联盟30个成员馆的特色资源建设平台及数据库建设情况。截至2017年3月，特色资源数据库平台(含商用和自行开发)共8个(见表1）、特色数据库共164个(见表2)。"
+  },
+  "2.1政策引导": {
+    "context1": "师范联盟由10所重点师范大学图书馆发起，以教育科学信息资源共建、共知、共享为基础，以促进师范院校图书馆全面合作与发展为目的。师范联盟2014年5月发布3-5年工作规划，第1条就是“基于师范院校办学优势，推进教育学科和教师教育文献信息资源的共知、共建和共享，以此带动联盟各类资源全面建设”，其中的重点建设之一就是“以成员馆自建特色资源或网络资源为主，整合如专题性的OA资源、教育教学资源、机构知识库等”；第3条构建联盟技术服务合作支撑体系，主要通过建立版权允许的资源获取工作流，与各馆统一认证系统实现对接，逐步分层次实现联盟成员馆资源的一站式检索、在线浏览、文献传递等功能。这为本课题组在师范联盟内开展基于异构特藏的资源整合研究奠定了基础。"
+  },
+  "2.2特色资源数据库平台": {
+    "context1": "表1是师范联盟特藏资源库平台及接口情况，平台基本涵盖图书馆主流商用/共享软件系统。调研结果表明，可以通过对元数据获取协议进行二次开发实现数据的实时获取，这为数据集成提供了参考支持。",
+    "context2": "表1师范联盟成员馆特色资源数据库平台调查表",
+    "context3": "<table><tr><td rowspan=2 colspan=2>软件平台名称</td><td rowspan=2 colspan=1>后台数据库</td><td rowspan=2 colspan=1>学校数量（个)</td><td rowspan=1 colspan=3>支持二次开发元数据获取协议</td></tr><tr><td rowspan=1 colspan=2>OAI- PMH</td><td rowspan=1 colspan=1>Web Service</td></tr><tr><td rowspan=1 colspan=2>TPI</td><td rowspan=1 colspan=1>KBase(封闭)</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=2>(调用COM组件)</td><td rowspan=1 colspan=1>(调用COM组件)</td></tr><tr><td rowspan=1 colspan=2>自行开发</td><td rowspan=1 colspan=1>SQLServer/MySQL</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=2>√</td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=2>TRS</td><td rowspan=1 colspan=1>SQLServer/MySQL</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=2>√</td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=2 colspan=1>Apabi</td><td rowspan=1 colspan=1>DESi</td><td rowspan=1 colspan=1>SQLServer</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=1>TASi</td><td rowspan=1 colspan=1>SQLServer</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=2>IDL- ETD(CALIS 提供)</td><td rowspan=1 colspan=1>SQLServer</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=2>√</td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=2>DIPS</td><td rowspan=1 colspan=1>SQLServer</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=2>√</td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=2>超星</td><td rowspan=1 colspan=1>SQLServer</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=2>麦达</td><td rowspan=1 colspan=1>SQLServer</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td></tr></table>"
+  },
+  "2.3数据库分类": {
+    "context1": "根据表2调研结果，师范联盟特色资源数据库分为8类，其中涉及人文学科(不含文库、教参",
+    "context2": "及学位论文)的资源约占 $65 \\%$ ；除“其他专题”外，“教育类”资源占比最高。本文从教育类资源着手，分步骤分阶段逐步扩大研究内容。",
+    "context3": "表2师范联盟成员馆特色资源数据库分类统计表",
+    "context4": "<table><tr><td rowspan=2 colspan=1>资源</td><td rowspan=1 colspan=7>人文学科</td><td rowspan=2 colspan=1>教参/学位论文/文库</td></tr><tr><td rowspan=1 colspan=1>古籍善本</td><td rowspan=1 colspan=1>民国图书</td><td rowspan=1 colspan=1>方志</td><td rowspan=1 colspan=1>地区类专题</td><td rowspan=1 colspan=1>多媒体</td><td rowspan=1 colspan=1>教育类</td><td rowspan=1 colspan=1>其他专题</td></tr><tr><td rowspan=1 colspan=1>数量</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>22/22/14</td></tr><tr><td rowspan=1 colspan=1>占比(%)</td><td rowspan=1 colspan=7>65</td><td rowspan=1 colspan=1>35</td></tr></table>"
+  },
+  "3异构资源整合的典型技术": "",
+  "3.1CrossRef 的 DOI技术": {
+    "context1": "2000年出版商国际链接协会发起CrossRef项目，目的是利用DOIDigitalObject Identifier，数字对象标识符)实现在线学术资源之间高效可靠的交叉链接。链接的文章内容来源于异构的不同服务器，由不同出版商出版。DOI是数字内容的唯一标识符，由对象的电子地址或由位于可更新的中央目录中的URL组成。Cros sRef维护一个DOI查询系统，从而保证出版商、图书馆、销售商能够实现内容的自动链接。该系统支持DOI的重新定位以建立与图书馆馆藏的本地链接。"
+  },
+  "3.2 基于 OpenURL的SFX技术": {
+    "context1": "OpenURL是开放链接的框架，核心思想是把链接服务从信息资源中分离出来，允许有服务程序组件或链接服务器的第三方提供链接服务。OpenURL允许信息源公开链接接口来实现信息源和链接服务器之间的信息传输，以实现异构数据库之间的互操作，因此OpenURL又可看作异构系统之间互操作的详细规范。SFX服务器就是基于OpenURL标准的服务组件。使用OpenURL语句，元数据库可以将一个SFX来源传递到一个服务程序组件。SFX由5个要素组成：来源、服务组件、目标、元数据对象和OpenURL的描述规范。在实际应用中，SFX不仅能完成二次文献到全文的链接，还能实现文摘到文摘、全文到全文的链接。"
+  },
+  "3.3基于Web Service的异构资源整合": {
+    "context1": "基于Web Service技术的异构资源整合主要通过创建信息检索协议，如XML、Web Servcie、UDDI、SOAP等，在数据库提供者按信息检索协议的标准提供检索接口的前提下，实现异构资源的整合。主要有以下优点：(1)高封装性：Web服务对象将功能封装起来，对外部使用者而言，提供的只是功能界面；(2)高内聚、低耦合：Web服务内部各模块能很好地实现其特定功能，模块与模块之间相互独立，服务内部的任何变更对外部调用者来说都是透明的；(3)使用规范协议、集成能力高、易部署：Web服务建立在一些规范协议的基础上，很好地屏蔽了平台差异，使各个平台之间具有很好的协同互操作性。",
+    "context2": "本文主要采用WebService技术实现各个异构数据库平台元数据的实时／定期批量自动获取，解决数据获取的问题。"
+  },
+  "4Europeana异构资源整合模式": {
+    "context1": "在公共数字文化整合项目中，Europeana 建设成效最显著，该项目通过构建统一的网络平台来整合欧洲的图书馆、博物馆、档案馆的文化历史资源，提供一站式浏览和检索服务。"
+  },
+  "4.1集成各类数字资源": {
+    "context1": "Europeana和3,500多家机构开展合作，包括博物馆、档案馆、图书馆等文化机构，以及信息技术企业、国际组织；提供53,264,883条资源检索，资源类型包括文本、图片、音频、视频、动画、3D资源等；资源内容涵盖“艺术”“时尚”“地图和地理”“音乐”“民族历史”“摄影”“体育”等类别；资源形式方面，不仅有传统的书目描述信息，还囊括Web2.0时代流行的维基百科内容描述、用户标签与评论、社交网络中的用户照片及视频等。"
+  },
+  "4.2建立关联数据模型": {
+    "context1": "欧洲各国图书馆、档案馆、博物馆等文化机构采用不同的元数据标准，为此Europeana设计Europeana Semantic Element(ESE)元数据方案，它是基于Dublin Core的扁平式数据结构，只保留不同数据规则的最基本信息，舍弃资源的个性化内容。这种方式虽然能实现数据规则的统一，但容易在资源描述过程中出现语义损失。随着关联数据的发展，Europeana 参考METS、RDF等标准和规范，设计了开放、跨领域的EuropeanaData Modal (EDM)数据模型。EDM 在保留ESE核心元素的基础上，增加类和属性，具有很强的可扩展性，能尽可能多地保留元数据信息，还允许其他来源信息对该数据进行丰富和补充，并与很多数据模型(如LIDO、EAD、MARC)建立关联，实现语义层面的互操作[8]。"
+  },
+  "4.3建立云技术架构": {
+    "context1": "2013年1月 Europeana 启动 EuropeanaCloud项目，主要包括两种云：计算云(虚拟服务器)和存储云(NoSQL数据库，分布式文件系统)。计算云由前端系统和后端系统两层服务构成，前端系统又称功能性服务层，主要融合数据处理验证服务、元数据及内容服务、数据诠释服务、标识符服务、通知服务5项基本功能；后端服务不直接服务于最终用户，主要满足系统管理及其他非功能性服务需求，主要融合异步信息传送服务、登录服务、许可／授权服务3项基本功能。存储云为计算云中的各项功能性服务提供相应的存储性服务[9]。",
+    "context2": "Europeana资源整合模式对异构特藏资源整合具有启示意义：第一，大规模数据集成，以达到资源全面覆盖的目的；第二，利用关联数据模型，解决资源异构问题，实现共建共享；第三，利用云技术架构解决系统部署重复性、单一服务器承载过量、不易拓展等问题，建立成本节约、可持续化的基础设施，支持元数据存储及内容存储。"
+  },
+  "5师范联盟异构特藏资源整合的框架设计": {
+    "context1": "基于师范联盟各馆异构特藏资源调研结果，参考Europeana整合模式，本研究提出特藏资源整合模式思路：数据集成方面，按类收集成员馆特藏资源元数据，从共有的教育资源为切入点收集数据；数据共享方面，利用关联数据实现开放共享，解决数据孤岛问题；在技术框架方面，建立特藏资源服务云平台，采用元数据逻辑整合、全文分布式保存管理方式。基于该整合模式思路，设计师范联盟异构特藏资源整合框架(见图1)，分三层：数据集成、数据共享、数据应用平台。"
+  },
+  "5.1数据集成的解决思路": {
+    "context1": "重点解决数据的实时/定期批量自动获取。根据师范联盟异构平台调研结果(见表1)，数据库平台大致分为8类(含商用和自行开发)，后台数据库除TPI使用封闭KBase数据库外，其他的基本为SQLServer和MySQL商用数据库，商用数据库含有数据调用接口；从用户占有量看，师范联盟30所高校，其中10所的数据库平台含有TPI数据库，占 $3 3 \\%$ ，故该阶段主要解决TPI平台数据获取问题。下面介绍基于Web Service",
+    "context2": "![](images/0bc8b0a8a12f8515315d60976ec12c1cfd575a158b9cb9707420f9cb60e15f1f.jpg)  \n图1师范联盟异构特藏资源整合框架"
+  },
+  "解决TPI平台数据获取的实践。": {
+    "context1": "Web Service 是基于 SOA 结构 (Service-Oriented Architecture，面向服务的体系结构)的分布式计算机技术，基于Internet技术在网络程序之间实现互操作。WebService发布的服务通过 XML协议传输，它由XML、SOAP、WSDL、UDDI技术构成。XML作为Web Service平台中表述数据的基本格式，使用Unicode编码，采用自描述的数据结构，能够以简单的文本文档格式存储、传输、读取数据[10]。通过Web Service可在Web站点放置可编程元素，其作为自描述的模块化业务程序，可以将软件(来自不同系统的对象、函数等)发布为网络上的一种服务，用户可以使用任何编程语言与协议开发松散耦合的应用。",
+    "context2": "基于Web Service开发Open API接口，分为服务器端和客户端两部分。在服务器端建立Web Service程序，bin 下面的Service.svc 是外部调用接口，可将其发布为可供外部调用的URL；App_Code文件夹下面有Iservice.cs和 Service.cs两个文件，其中Iservice.cs定义各种供外部调用的函数和对象，Service.cs定义了访问数据库的方法，是OpenAPI接口实现最核心的部分，它决定外部平台访问资源的权限[11]。",
+    "context3": "客户端调用Web Service 提供的接口和平台(编程语言不限)，本文以在.Net环境中调用",
+    "context4": "Web Service的方法为例。在VisualStudio中新建一个Web 网站工程，然后引用前面创建好的Web Service接口URL；引用成功后，就可在调用端的文件目录中看到相应的Web Service接口文件，将Web Service接口对象实例化，便可在调用端使用服务器端的方法与函数。例如，可以通过关键字查询资源内容并且把查询结果通过GridView显示出来。",
+    "context5": "对于TPI以外的软件平台，后续将通过对元数据获取协议(Web Service或OAI-PMH)进行二次开发，实现从 SQL Server和MySQL数据库获取数据。至此，通过OpenAPI接口可全面获取联盟各异构平台的特色资源数据，实现异构平台的元数据整合，为数据处理、数据应用打下坚实的基础。"
+  },
+  "5.2数据共享的解决思路": {
+    "context1": "数据共享采用关联数据，主要解决关联词表的选择、数据清洗和关联数据发布问题。目前此部分只完成对词表的调研。OCLC研究部2014年进行国际关联数据项目与服务调查[12]，调查报告对76个项目作了详细描述，涉及15个国家的47个机构，有一定的国际代表性；总结现行通用的书目 RDF 词表，依次为 DC/DCT、Schema.org、BIBO、RDA、EMD Vocabulary、BIBFRAME、BLT、ISBD、Fabio和FRBR。其中，参与调查项目选用最多的通用词表是DC/DCT和Schema.org。本研究需要整合的特色资源元数据多基于DC 扩展，故倾向选择Schema.org作为词表。Schema.0rg 是 2011年6月由Google、Bing、Yahoo联合发起，后来Yandex加入，目的在于创建主要搜索引擎都支持的结构化数据标记架构，以便为用户提供更好的网络体验。网页结构化数据标记可以帮助搜索引擎理解网页上的信息，从而提供更丰富的搜索结果。",
+    "context2": "倾向选择Schema.org主要基于以下理由：第一，语义更丰富，有潜力容纳各种自定义的DC扩展；第二，得到主流搜索引擎Bing、Google和Yahoo支持，广泛应用于网络资源的标注，有助于集成后数据在搜索引擎中有良好表现；第三，2012年OCLC将其全球联合目录WorldCat用 Schema.org发布为关联数据，并致力于扩展，使其对书目资源描述有更好的适用性。2014年上半年注册 BiblioGraph.net网站(命名空间简称\"bgn:，以下简称“BGN”），基于 Schema.org词表，增加“图书馆和相关领域中书目和文化遗产资源与收藏的概念、实体和关系”。2014年下半年起，虚拟国际规范档(VIAF)和WorldCat开始采用新的BGN命名空间[13]。",
+    "context3": "后续研究将从“教育类”资源着手，从各成员馆获取数据样本，从平台相同的若干个库开始，抽取核心元数据，并逐步拓展到其他平台，对核心元数据进行补充，实现基于本体的特色资源语义整合。"
+  },
+  "5.3数据应用平台的设计思路": {
+    "context1": "本文设计的特藏资源服务云平台的后台由一个调度中心和联盟各高校子系统构成，采用元数据逻辑整合、全文分布式保存管理方式实现特藏资源共享。平台并不保存特藏资源全文，只存放元数据，特藏资源全文仍然保存在联盟高校的本地，由各高校自行决定开放程度。",
+    "context2": "前台提供一站式浏览检索和分类检索，尝试基于开源工具在平台内嵌入可视化、量化分析、GIS 等工具，由华东师范大学图书馆进行了实践探索。该馆自2004年对特藏资源进行数字化扫描，内容包含民国书刊、古籍、年谱、地方志、文革资料、学位论文、英文图书、教学参考，截至2016年底共扫描特藏资源约1400万页。该馆基于扫描的地方志资料整合订购的数据库，并对元数据进行优化，2016年建立全新的面向方志的发现平台[14]。该平台引入新的GIS、标签云等技术，提供更多与资源特性相关的发现手段，提高资源的可发现性。后续将在如何借助LOD-CLOUD平台[15]、发现系统平台，实现特色资源主动发现与联合查询等方面进行探索，最终目标是建立资源集成－利用－扩大资源集成－扩大利用的资源共建共享良性生态循环。"
+  },
+  "6结语": {
+    "context1": "本文针对特藏资源粘合度和共享度不高的现状，基于师范联盟特藏资源调研结果，借鉴Europeana资源整合模式，设计特藏资源整合模式的框架，框架分为数据集成、数据共享、数据应用平台三层。目前对数据集成做了部分实践，从后台是封闭数据库KBase的TPI平台入手，通过OpenAPI的开发，解决自动获取多来源异构或同构数据以及数据同步更新一致性问题。后续研究包括：数据集成层面，将对除TPI以外的其它软件平台进行接口二次开发，以全面实现数据的实时／定期批量自动获取；数据共享层面，建立数据清洗规范、分析核心元数据、发布关联数据；数据应用层面，建立异构特藏资源服务云平台，采用元数据逻辑整合、全文分布式保存管理的方式，基于开源工具进行文本挖掘、可视化分析等工具开发，还将在如何借助LOD-CLOUD 平台、发现系统平台，实现特色资源主动发现与联合查询等方面进行探索。希望能激活特藏资源，改变特藏资源开放程度低及服务功能单一的现状，构建一个以体现特色资源价值、推进其开放共享为目的的实用共享平台。"
+  },
+  "参考文献": {
+    "context1": "[1]CALIS特色资源中心服务系统[EB/OL][2017-01-01].（下转第107页",
+    "context2": "Council ofEurope Pub.，1997."
+  },
+  "[2]任珺.跨域视角下的文化政策研究[M].北京：社会科学文献出版社，2014：34.": {
+    "context1": "[3]Compendium ofCultural Policiesand Trendsin Europe, Inc.What is the Compendium?[EB/OL].[2016- 04- 09]. http //www.culturalpoliciesnet/web/compendium.php.   \n[4]Compendium ofCultural Policies and Trends in Europe, Inc.What is the Compendium?[EB/OL].[2016- 04- 07]. http // www.culturalpoliciesnet/ web/ compendium.php.   \n[5]Compendium ofCulturalPoliciesand Trendsin Europe, Inc.Home.[EB/OL]. [2016-04-09].http://www. culturalpoliciesnet/web/.   \n[6] Compendium of Cultural Policies and Trends in Europe，Inc.Profile Structure[EB/OL].[2016- 04- 29]. http //www.culturalpoliciesnet/web/countries- profiles - structure.php.   \n[7]Compendium ofCultural Policies and Trends in Europe, Inc.Experts [EB/OL]. [2016- 04- 09].http://www. culturalpoliciesnet/ web/national- expertsphp.   \n[8]Wikipedia. Compendium ofcultural policies and trends in Europe [EB/OL]. [2016- 04-16].htps://en.wikipedia. org/wiki/Compendium_of_cultural_policies_and_trends _in_Europe.   \n[9]Compendium ofCultural Policiesand Trendsin Europe, Inc.Compose Report [EB/OL]. [2016- 04- 09].http: //www.culturalpoliciesnet/ web/countries- profiles- cr. php.",
+    "context2": "作者简介李婧，硕士，国家图书馆立法决策服务部副研究馆员。",
+    "context3": "收稿日期 2017-04-07债任编辑：沈丽霞"
+  },
+  "(上接第100页": {
+    "context1": "http :// scs.calisedu.cn/.  \n[2] 中国历代人物传记资料库(CBDB[EB/OL].[2017- 01- 01].http ://www.zggds.pku.edu.cn/006/cbdb/ CBDB.htm.  \n[3] 中国历史地理信息系统(CHGIS[EB/OL].[2017- 01- O1]http // yugongfudan.edu.cn/ views/ chgis_data.php.  \n[4]台湾历史数位图书馆(HD[EB/OL][2017-01-01].http://thdl.ntu.edu.tw/ index.html.  \n[5]全国师范院校图书馆联盟文献资源建设调查问卷[EB/OL]. [2014- 11- 20]. htp //www.sojump.com/ jq/4055719.aspx.  \n[6]全国师范大学图书馆联盟[EB/OL].[2017-01-01].http：// sflm.bnu.edu.cn/templates/qgsflm/default.cshtml.  \n[7]Europeana collections Explore 53 657 626 artworks,artefacts，books，videos and sounds from across Europe[EB/OL].[2017- 07- 20].htp :// www.Europeanaeu.  \n[8]汪静.Europeana发展现状及后示[J].数字图书馆论坛，2017 0 :46- 53.  \n[9]陈劲松.欧盟数字图书馆云计划 EuropeanaCloud研究[J].新世纪图书馆，2015 (10：84-87.  \n[10] Yu Le，Wang Zhili，Meng Luoming.Learning- BasedWeb Service Composition In Uncertain Environments[J].Journalof Web Engineering，2014 (13 :450-468.  \n[11]张毅，李欣.基于API技术的学位论文开放获取研究与实践[J].情报杂志，2015@：187-190.  \n[12] Smith- Yoshimura K.Linked Data Survey results 1-Who's doing it [EB/OL]. [2014- 09- 04]. http ：//hangingtogether.org/ $\\scriptstyle \\mathbf { \\lambda } \\mathbf { \\cdot } \\mathbf { p } = 4 1 3 7$   \n[13]胡小菁.国外书目RDF词表的进展与趋势[J.图书馆杂志，2015，34:4-11.  \n[14] 华东师范大学方志库.[EB/OL].[2017-01-01]. http：//202.120.82.36/local_chronicle_books/.  \n[15] LOD- CLOUD[EB/OL]. [2017- 01- 01]. http ://lod-cloud.net/ .",
+    "context2": "作者简介汪志莉，硕士，华东师范大学图书馆馆员；李欣，研究馆员，华东师范大学图书馆副馆长；张毅，硕士，华东师范大学图书馆系统部副主任。",
+    "context3": "收稿日期 2017-07-02债任编辑：刘洪"
+  }
+}

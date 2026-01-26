@@ -1,0 +1,113 @@
+{
+  "original_filename": "full_4609.md",
+  "基于模糊神经网络的微博舆情趋势预测方法": {
+    "context1": "胡悦,王亚民",
+    "context2": "（西安电子科技大学 经济与管理学院,陕西 西安 710071)",
+    "context3": "摘要：【目的/意义】微博舆情对社会各领域的影响与日俱增,但由于其影响因素众多，呈现出非线性且复杂的变化。因此,如何快速、准确地预测其发展趋势是一个很有价值的研究课题。方法/过程以微博话题的博文总数作为微博话题发展趋势的量化指标,考虑话题发展的复杂性和非线性的特点，采用模糊神经网络来预测微博话题的发展趋势。并通过改进的粒子群优化算法对模糊神经网络的参数进行优化以更好的发挥模糊神经网络在处理非线性、模糊性等复杂问题上的优越性【结果/结论】通过对新浪微博数据集的对比实验,验证了本文所提方法的有效性和准确性。本文方法有效解决了微博舆情趋势预测中遇到的模型参数复杂、易陷入局部最优的问题,提高了微博舆情发展趋势预测的准确性。",
+    "context4": "关键词：粒子群优化算法；模糊神经网络；趋势预测；微博舆情",
+    "context5": "中图分类号：G206 文献标识码：A 文章编号:1007-7634(2017)12-28-06   \nDOI:10.13833/j.issn.1007-7634.2017.12.005"
+  },
+  "Trend Prediction Method of Microblog Public Opinion Based on Fuzzy Neural Network": {
+    "context1": "HU Yue,WANG Ya-min",
+    "context2": "(School of Economics and Management, Xidian University, Xi'an 710o71,China)",
+    "context3": "Abstract:[Purpose/significance】Microblog publicopinion is playingan significantrole in many society fields in ecent years.Butdue to somanyaffectfactors,it presents a nonlinear and complexchanges.How to fleetlyand accurately predict its development tend has become a meaningfulresearch.【Method/process】Taking allofthe microblog for certain topicsas aquantitative indicatorofthedevelopmenttrendof microblog,considering the complexityand nonlinearityoftopicchange, thefuzzy neural network is used to predict the trendof microblog topic.And improved Particle SwarmOptimization Algorithm isused tooptimize the parametersoffuzzy neural networkto beter playtheadvantages offuzzy neural network in dealing with complex problems such as nonlinear,fuzzand soon.【Result/conclusion】Theresult of simulated experimentalanalysisonsina WeiBodata showsthatitiseficientandaccuratefor the method suggested inthis paper.This method can solveproblems of complex model parameters and easilyto run into partial optimization in microblog public opinion trend prediction,and improve the accuracy of trend predicting of microblog public opinion.",
+    "context4": "Keywords: Particle Swarm Optimization; Fuzzy Neural Network; trend prediction; microblog public opinion"
+  },
+  "1引言": {
+    "context1": "微博是指允许用户实时更新简短文本并能够公开发布的博客形式。由于发布和接收信息简便、信息传播范围广、传播快捷等显著特性,越来越多的用户将微博作为事件曝光、情感宣泄、信息分享等的主要渠道,即形成微博舆情。由于微博舆情的突发性和裂变式信息传播的特性使其成为社会舆论快速的反映形式,并在一定程度上引导着舆论事件的走向。对微博舆情及时监测、分析舆情数据,准确预测其发展趋势,有助于政府准确掌握社会舆情动态,更好的进行引导和控制以避免危害更大的扩散，对社会的和谐稳定有着重要意义。",
+    "context2": "如何快速准确的预测微博舆情发展的趋势是本文需要解决的问题。目前对微博舆情趋势预测的研究，主要有基于传统统计学的预测方法[-4和以机器学习[5-8为基础的预测方法。如文献[1]提出一种基于时间序列的预测方法;文献[2】采用马尔科夫链的方法建立模型对舆情热度趋势进行预测;文献[4]中利用指数平滑法对微博舆情未来发展趋势进行预测。这些基于传统统计学的预测方法参数设置少,容易实现但大都是对微博舆情的线性建模,不能够有效体现出微博信息非线性变化的特点，预测结果往往缺乏准确性。文献【5】利用机器学习中的逻辑回归模型建立了一种基于行为预测的微博信息传播模型;文献[6]提出基于灰色模型的方法跟踪并对微博舆情的变化倾向进行预测;文献[7]和文献[8]分别提出了基于神经网络结合遗传算法和模拟退火算法的微博舆情趋势预测方法。这些方法相比较传统统计学方法其预测结果的精确度有一定的提高。但这些方法存在各自的不足,如逻辑回归模型的自变量间存在的多重共线性会影响预测结果的准确性;灰色模型对随机波动性较大的数据预测效果较差;神经网络方法的网络结构复杂且存在易出现过度拟合的缺陷。",
+    "context3": "综合以上分析，结合对趋势预测方法的研究，同时考虑到微博舆情趋势发展的复杂性和非线性的特点。本文提出一种基于模糊神经网络的方法用于微博舆情发展趋势的预测,并采用改进的粒子群优化算法(Particle Swarm Optimiza-tion,PSO)对模糊神经网络的参数进行优化。PSO优化算法在全局寻优和快速收敛方面具有良好的性能。模糊神经网络在处理非线性、模糊性等复杂问题上有很大的优越性，通过与改进PSO算法的融合能够更好的发挥模糊神经网络的性能，有效解决在微博舆情趋势预测中遇到的算法收敛速度慢、易陷入局部最优的问题,提高对微博舆情趋势预测的准确性。",
+    "context4": "![](images/c1edad9d4d288c01d6e001d3bfe367a2e3f82682d9ecba22bcfbb113ceeed80c.jpg)  \n图1微博與情趋势预测框架"
+  },
+  "2 微博舆情趋势预测模型": {
+    "context1": "微博舆情的发展趋势受多方面因素的影响，微博话题的博文总数是对各影响因素的综合反映,也是对微博话题受关注程度最直接的反映,在单位时间内与话题相关的博文总数越多说明该话题受关注程度越高,越热门。因此，本文采用微博话题的博文总数作为衡量话题发展趋势的指标。微博舆情趋势预测框架如图1所示。运用模糊神经网络并融合改进的PSO优化算法构造微博舆情趋势预测模型，以微博话题的博文总数作为模糊神经网络的输入，对微博话题的发展趋势进行预测。"
+  },
+  "2.1改进的粒子群优化算法": "",
+  "2.1.1 粒子群优化算法": {
+    "context1": "粒子群优化算法是Eberhart和Kennedy在1995年提出的[10-11,该算法是通过模拟鸟群觅食行为而发展起来的一种基于群体协作的随机搜索方法。PSO算法的基本思想是通过群体中个体间的协作和信息共享来寻找最优解。",
+    "context2": "PSO算法的描述如下：首先在一个N维随机搜索空间中实现粒子的初始化。之后初始化的所有粒子通过跟踪个体最优Pi和全局最优P进行速度和位置的迭代更新以寻求最优解。如图2所示为标准PSO算法中粒子的迭代更新过程。",
+    "context3": "![](images/c1803ad9eb022822c46d0400b0fab7f5e4ca8f47268ebaf0430fd38436289edf.jpg)  \n图2 标准PSO算法的迭代过程",
+    "context4": "对于一个粒子数量为 $\\mathrm { n }$ 的粒子群 ${ \\mathrm { X } } { = } \\{ \\mathrm { x } _ { 1 } { , } { \\mathrm { x } } _ { 2 } { , } { \\mathrm { . . . , } } \\mathrm { x } _ { \\mathrm { n } } \\}$ ,其中第i个粒子在该N维空间中所处位置的矢量表示为 ${ \\mathrm { X } } _ { \\mathrm { i } } { = } \\{ { \\mathrm { x } } _ { \\mathrm { i } 1 } , { \\mathrm { X } } _ { \\mathrm { i } 2 } , { \\ldots } ,$ $\\mathbf { X } _ { \\mathrm { i N } } \\}$ ,其速度表示为 $\\mathrm { V _ { i } { = } \\{ v _ { i 1 } , v _ { i 2 } , { \\ldots } , v _ { i N } \\} }$ ,其个体最优为 $\\mathrm { P _ { i } { = } \\{ p _ { i 1 } , p _ { i 2 } , \\ldots , } $ $\\left. { p } _ { \\mathrm { i N } } \\right\\}$ ,整个粒子群的全局最优表示为 $\\mathrm  P _ { g } = \\{ p _ { g 1 }$ ， $\\mathbf { p } _ { \\mathrm { g } 2 } , . . . , \\mathbf { p } _ { \\mathrm { g N } } \\}$ 。在不断地探索研究中Eberhart通过在算法中引入惯性权重 $\\omega$ 来改善对总体最佳状态的搜索。此外,提出速度范围 $\\left[ \\mathbf { V } _ { \\mathrm { m i n } } , \\mathbf { V } _ { \\mathrm { m a x } } \\right]$ 和位置范围 $\\left[ \\mathbf { X } _ { \\mathrm { m i n } } , \\mathbf { X } _ { \\mathrm { m a x } } \\right]$ 以确保在粒子迭代更新的过程中实现对粒子速度和位置的有效控制和调节,即标准的PSO算法[2]。在标准PSO算法中粒子 $\\mathbf { X } _ { \\mathrm { i } }$ 的速度和位置更新公式如下：",
+    "context5": "$$\nv i d ( t + 1 ) = \\omega ^ { * } v i d ( t ) + c 1 ^ { * } r 1 ^ { * } [ p i d ( t ) - x i d ( t ) ]\n$$",
+    "context6": "$$\n+ c 2 ^ { * } r 2 ^ { * } [ p g d ( t ) - x i d ( t ) ]\n$$",
+    "context7": "$$\nx i d ( t + 1 ) = x i d ( t ) + v i d ( t + 1 ) \\ ( \\ 1 \\leq i \\leq n , 1 \\leq d \\leq N \\ ,\n$$",
+    "context8": "式中，t表示迭代次数； $\\mathbf { V } _ { \\mathrm { i d } } \\left( \\mathrm { t } \\right)$ 表示第i个粒子在第t次迭代中在第d维子空间上的速度; $\\mathbf { \\sigma } _ { \\mathbf { X } _ { \\mathrm { i d } } } ( \\mathbf { \\varepsilon } _ { \\mathrm { t } } )$ 表示第i个粒子在第t次迭代中在第d维子空间的位置; $\\mathrm { { p } _ { i d } ( \\Omega _ { t } ) }$ 表示第i个粒子在第t次迭代中其个体最优的第d维分量； $\\mathrm { p } _ { \\mathrm { s d } } ( \\mathrm { t } )$ 表示在第t次迭代中全局最优的第d维分量; $\\mathrm { c } _ { 1 } , \\mathrm { c } _ { 2 }$ 为学习因子,表示粒子向其个体最优和全局最优运动的加速权值,通常 $\\mathbf { c } _ { 1 } { = } mathbf { c } _ { 2 } { = } 2 ; { \\mathrm { r } } 1 , { \\mathrm { r } } 2$ 为在[0,1]间服从均匀分布的随机数。",
+    "context9": "位置更新公式中等式右边的第一部分表示相应粒子在前一时刻的位置对当前时刻的影响，通过对惯性权重w的调节实现对粒子运动速度的控制;第二部分表示粒子的自学习，即粒子自身的信息对其运动的影响，代表粒子的局部搜索能力;第三部分表示社会学习，即群体信息对粒子运动的影响，代表粒子间的全局搜索能力，体现粒子间的信息共享和相互合作。"
+  },
+  "2.1.2粒子群优化算法的改进": {
+    "context1": "相比其他方法标准PSO算法的优势在于规则简单、需调节的参数少、容易实现、收敛速度快等。但仍存在一些问题，主要问题在于其进化后期收敛速度较慢,易陷入局部最优,从而导致算法的收敛精度降低。为解决标准PSO算法所存在的问题,本文提出改进的PSO算法,通过改进惯性权重w提高算法的收敛速度;通过对速度更新公式的改进解决算法易陷入局部最优的问题,以提高算法的精确度。",
+    "context2": "(1)优化惯性权重。",
+    "context3": "惯性权重的大小决定了粒子对其原有状态的保持程度，惯性权重值的选取对算法的收敛速度有决定性的作用。通过对已有相关文献的研究发现,增大惯性权重有利于加快算法的探索能力，但参数设置较大会导致粒子在收敛的过程中易错过最优解，降低粒子寻优能力，致使算法后期的收敛速度和精确度降低。因此本文提出随着算法迭代的进行,惯性权重逐渐减小的策略。在算法的开始阶段，较大的惯性权重可以使算法不容易陷入局部最优;到算法的后期，随着与最优解的不断接近，惯性权重变小，速度也减少使收敛更加平稳,避免出现错过最优解的现象。通过对惯性权重的优化有效地平衡PSO算法的寻优能力和探索能力。",
+    "context4": "同时考虑到PSO算法的寻优过程是非线性且复杂的，本文提出一种指数下降的方式对惯性权重进行改进,使得改进的PSO算法既能保证较快的收敛速度又能获得较好的收敛效果。具体的惯性权重更新公式如下所示：",
+    "context5": "$$\n\\omega ( t ) = [ 0 . 5 + e ^ { ( - p t / t \\operatorname* { m a x } - 0 . 9 ) } ] \\omega \\operatorname* { m a x }\n$$",
+    "context6": "其中, $\\mathrm { p }$ 为控制参数( $\\mathrm { ( p { > } 0 ) }$ ,对惯性权重的变化速度进行调节； $\\mathrm { \\Delta t _ { m a x } }$ 表示粒子群迭代的最终次数; $\\omega _ { \\mathrm { m a x } }$ 表示惯性权重的最大值。",
+    "context7": "(2)优化速度更新公式。",
+    "context8": "PSO算法源于对鸟群捕食行为的研究,鸟群中某一个体行为的运动轨迹会受多种随机因素的影响，并且每个因素的作用都不大。考虑到这种情况更符合高斯分布的应用范围，本文提出用高斯随机变量代替均匀分布的随机变量来提高PSO算法的性能。改进的PSO算法的速度更新公式如下：",
+    "context9": "$$\nv _ { i d } ( t + 1 ) = \\omega ( t ) ^ { * } v _ { i d } ( t ) + c _ { 1 } ^ { * } G ( \\mu , \\sigma ^ { 2 } ) ^ { * } [ p i d ( t ) - x i d ( t ) ]\n$$",
+    "context10": "$$\n+ c 2 ^ { * } G ( \\mu , \\sigma ^ { 2 } ) ^ { * } [ p g d ( t ) - x i d ( t ) ]\n$$",
+    "context11": "$$\nx _ { i d } ( t + 1 ) = x _ { i d } ( t ) + v _ { i d } ( t + 1 )\n$$",
+    "context12": "其中高斯分布的概率密度函数为： $g ( x ) = \\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - x ^ { 2 } / 2 }$",
+    "context13": "在PSO算法中使用高斯随机变量有利于改善搜索的性能和粒子之间的信息共享能力。改进的PSO算法在最优解的搜索过程中更加稳定。通过分析初始速度为0的粒子的概率分布，可将该粒子的位置看作在平行四边形的内部。在以后的迭代过程中粒子的位置将处于平行四边形的顶点。经过若干次迭代,可观察到平行四边形会重叠并最终得到全局最优解。改进的PSO算法的粒子更新迭代过程如图3所示。",
+    "context14": "![](images/0fc0e5d10d9bb1aef4842963361b01aaf7e312f846b8f2b4fdede27c292ec063.jpg)  \n图3改进PSO算法的迭代过程"
+  },
+  "2.2基于模糊神经网络的预测模型": "",
+  "2.2.1 模糊神经网络": {
+    "context1": "模糊神经网络(Fuzzy Neural Network,FNN)是将模糊理论融合到神经网络中[13],将两者的优点结合,有利于提高信息处理的速度、扩大神经网络信息处理的范围、提高网络的自适应能力、增强容错能力。模糊神经网络由于其良好的非线性映射能力、较强的自学习能力等已被广泛应用于多个领域的预测研究中[14-19]。本文在已有研究的基础上提出基于模型神经网络的微博舆情趋势预测模型。",
+    "context2": "模糊神经网络的结构如图4所示,共分五层,每一层的作用功能描述如下：",
+    "context3": "![](images/17366cacabab5b0c9f5cf08977e3bcf8636f2f68404aa8b7800f216adf2f8466.jpg)  \n图4模糊神经网络的结构",
+    "context4": "第一层:输入层,每一节点代表变量的输入,xi表示第i个输入变量,输入层节点数 $\\mathrm { n }$ 等于输入变量的个数;",
+    "context5": "第二层：模糊化层,对输入变量进行模糊化,通过隶属函数计算每一节点的隶属度 $\\mu _ { \\mathrm { i } } ^ { \\mathrm { j } } ( \\mathrm { i } { = } 1 , 2 , . . . , \\mathrm { n } ; \\mathrm { j } { = } 1 , 2 , . . . , \\mathrm { m } _ { \\mathrm { i } } )$ ,节点数等于每个变量进行模糊分级的个数 $\\mathrm { m } _ { \\mathrm { i } }$ 之和；",
+    "context6": "本文中隶属度 $\\mu _ { \\mathrm { i } } ^ { \\mathrm { j } }$ 的计算采用高斯隶属函数,公式如下：",
+    "context7": "$$\n\\mu _ { i } ^ { j } = e ^ { - [ ( x i - c i ) / \\sigma i j ] ^ { 2 } } ( \\mathrm { { i } = 1 } , 2 , \\dots , \\mathrm { { n } ; j = 1 } , 2 , \\dots , \\mathrm { { m } _ { i } ) }\n$$",
+    "context8": "其中 $\\mathbf { C } _ { \\mathrm { i j } }$ 和 $| \\sigma _ { \\mathrm { i j } }$ 为隶属函数的中心和宽度。",
+    "context9": "第三层:模糊推理层,每个节点代表一定的模糊规则,节",
+    "context10": "点数等于模糊规则数。用于计算当前输入对各规则的激励强度 $\\mathrm { a _ { j } }$ ,计算公式为： $a j = \\prod \\mu _ { i } ^ { j }$ ；",
+    "context11": "第四层：归一化层,对模糊规则层中各规则的激励强度进行归一化,节点数与模糊推理层相同。归一化公式为：$\\overline { { a j } } = a j / \\sum _ { j = 1 } ^ { m } a j :$",
+    "context12": "第五层：输出层,计算出神经网络模型的最终推理值$\\widehat { Y }$ ,该层节点数的计算公式为： $\\hat { Y } = \\sum _ { j = 1 } ^ { m } p j \\overline { { a } } \\overline { { j } }$ ,其中 $\\mathrm { p _ { j } }$ 表示权重系数。"
+  },
+  "2.2.2模糊神经网络模型优化": {
+    "context1": "模糊神经网络模型中需要优化的参数有隶属函数中心值 $\\mathbf { C } _ { \\mathrm { i j } }$ 和宽度值 $\\sigma _ { \\mathrm { i j } }$ 以及权重系数 $\\mathrm { p _ { j } }$ 。典型的参数优化方法主要有梯度下降法、最小二乘法以及将两者结合的混合算法。但这些方法对参数初始值的选择异常敏感,优化结果不稳定且普遍存在收敛速度慢、容易陷入局部最优的问题。因此本文采用在全局寻优和快速收敛方面具有优势的PSO算法作为模糊神经网络的参数优化方法。并通过对标准PSO算法进行改进以提高算法的收敛精度。",
+    "context2": "改进PSO算法优化模糊神经网络模型的过程如图5所示，具体说明如下：",
+    "context3": "![](images/d62c84a015a9367355f3151b873ad20e9d4f75f488b73893380ef3789d41772d.jpg)  \n图5 改进PSO算法对模糊神经网络模型的优化",
+    "context4": "(1)初始化。根据模糊神经网络的输入样本确定模糊神经网络的结构。将模糊神经网络模型需要优化的参数 $\\mathbf { C } _ { \\mathrm { i j } } \\mathbf { \\setminus } \\mathbf { 0 } _ { \\mathrm { i j } }$ 以及p构成改进PSO算法中的一个粒子，并对改进PSO算法的参数进行初始化,包括粒子群数量n,最终迭代次数 $\\mathrm { \\Delta t _ { m a x } }$ ,惯性权重的最大值 $\\omega _ { \\mathrm { m a x } }$ ,粒子个体最优Pi以及整个粒子群的全局最优P等的初始化。",
+    "context5": "(2)计算粒子适应度值。以模糊神网络训练结果的均方误差 $\\boldsymbol { \\mathrm { f } } _ { \\mathrm { m s e } } ( \\mathbf { V } , \\mathbf { X } )$ 作为粒子群算法的适应度函数f(V,X)计算粒子的适应度值。计算公式如下：",
+    "context6": "$$\nf f i t ( V , X ) = f m s e ( V , X ) = \\frac { 1 } { M } \\sum _ { j = 1 } ^ { M } ( \\tilde { Y } j ( V , X ) - Y j ) ^ { 2 }\n$$",
+    "context7": "式中 $\\tilde { Y } j ( V , X )$ 表示将粒子X和样本数据输入模糊神经网络后计算得到的输出值; $\\mathrm { Y _ { j } }$ 表示期望输出; $\\mathrm { M }$ 表示样本集训集中的样本数。",
+    "context8": "(3)更新个体最优P和全局最优 $\\mathrm { P _ { g o } }$ 通过对粒子适应度值进行比较,如果某个粒子的适应度值优于其个体最优值的适应度值,则将其个体最优值P更新为当前值;如果群体中某个粒子的个体最优值的适应度值优于当前的全局最优,则将全局最优P更新为该个体最优值。",
+    "context9": "(4)更新粒子位置和速度。根据公式(2)更新惯性权重$\\omega$ ,并根据公式(3)更新粒子的速度和位置。",
+    "context10": "(5)用改进PSO算法优化模糊神经网络的参数，对模糊神经网络进行评价。将改进PSO算法的优化结果代入模糊神经网络中进行训练，通过计算模糊神经网络的均方误差$\\mathrm { f } _ { \\mathrm { m s e } } ( \\mathrm { V } , \\mathrm { X } )$ ,来确定网络结构是否达到最优，当均方误差fmse（V,X)满足条件则停止优化过程。否则转入过程2继续迭代。",
+    "context11": "(6)获得预测结果。输入测试样本完成基于改进PSO算法优化模糊神经网络模型的测试,输出预测结果。"
+  },
+  "3 实验分析": {
+    "context1": "实验采用python语言，以Spyder作为编译环境来实现。采用相对误差作为评价指标。相对误差 $=$ （实验值-标准值)/标准值,相对误差越接近0,说明实验输出结果与期望值之间的误差越小，模型的预测效果越好。通过对改进PSO-FNN（改进PSO算法优化模糊神经网络模型）、标准PSO-FNN（标准PSO算法优化模糊神经网络模型）以及BP-FNN(BP算法优化模糊神经网络模型)的预测结果进行比较来验证本文所提改进PSO-FNN模型的有效性。"
+  },
+  "3.1数据来源与处理": {
+    "context1": "本文实验数据来自新浪微博,采用任子行舆情管理系统以2016年6月1日到6月30日间的热点话题\"2016高考”、“英国脱欧\"及\"聂树斌案重审\"作为搜索词获取各话题博文总数的时间序列数据作为实验数据进行模型的训练和预测。以天作为单位时间,各话题博文总数随时间的变化趋势如图6所示。",
+    "context2": "在对话题的发展趋势进行预测前，首先对数据进行归一化处理。本文采用滚动预测的方式对话题发展趋势进行预测,依次选取连续5天的博文总数作为输入数据对第6天的博文总数进行预测。按照此方式进行滚动排列,形成实验数据集。即对于所获得的实验数据以2016年6月1日至20日构成的15组数据作为训练集;以2016年6月16日至30日构成的10组数据作为预测集。"
+  },
+  "3.2模型参数设置及训练": {
+    "context1": "根据之前的理论研究构造本实验所用模糊神经网络的拓扑结构。第一层输入层将连续五天的博文总数作为输入数据，故该层节点数为5;第二层模糊化层将第一层输入数据的模糊分割数设为2,由此可得该层节点数为10,相应的隶属函数数目也为10;第三层模糊推理层,每个节点设两条规则，则该层节点数为 $2 ^ { 5 } { = } 3 2$ ；第四层归一化层节点数同第三层;第五层输出层节点数为1,输出对第六天博文总数的预测结果。即本实验的网络拓扑结构为5-10-32-32-1。",
+    "context2": "![](images/148f4c598973db5494f607262d577904a8768b7230749135efd56e00a8b48f09.jpg)  \n图6各话题博文总数随时间的变化曲线",
+    "context3": "![](images/2c26114231dd369fca006629e025966778195155b7becdd5b17d4cdec5866321.jpg)  \n日期",
+    "context4": "![](images/51f9e51b8dc8ecc5eb110c078aecc9ed35865f6d471409952513c8b9ed41e75b.jpg)",
+    "context5": "![](images/c3ca7e9b930267c709e87a939baa4142f02cbf147c15614c052842f5e67f11a7.jpg)  \n图7各话题不同模型预测结果对比",
+    "context6": "![](images/5e2a4f943d39499b9c8b33f32112f7a03570a333234fc3122d8a2a362197f32d.jpg)",
+    "context7": "![](images/71fbf30ca8a383f549dd3b50722febad0c61e877898e1456cdce451833e7a0c3.jpg)  \n图8不同优化方法相对误差分布曲线",
+    "context8": "根据模糊神经网络的结构初始化粒子群算法。将模糊神经网络中需要优化的参数 $\\mathbf { C } _ { \\mathrm { i j } } \\setminus \\mathbf { 0 } _ { \\mathrm { i j } }$ 以及p连接构成一个粒子。需优化的参数个数为 $1 0 ^ { * } 2 + 3 2 = 5 2$ ,因此改进PSO算法中初始空间维度N设为52。根据历史经验结合训练速率与精确度将粒子数n设置为40,最大惯性权重 $\\omega _ { \\mathrm { m a x } }$ 设为1.2。最大迭代次数设为 $3 0 0 0$ 。",
+    "context9": "分别采用改进的PSO算法、标准PSO算法、BP算法对模糊神经网络进行训练，最小均方误差设为 $0 . 0 0 1$ 。针对每一话题观察在训练样本相同时采用不同优化算法时模型的性能，如表1所示为各话题分别采用改进PSO-FNN、标准PSO-FNN以及BP-FNN进行模型训练时性能对比（由于篇幅原因表中只列出了两个话题下模型训练时的性能对比)。",
+    "context10": "BP-FNN模型由于BP算法收敛速度慢、容易陷入局部最优等问题，迭代次数范围内误差未能达到最小均方误差的要求。改进PSO-FNN平均通过1800多次迭代到达期望误差，收敛速度明显优于BP及标准PSO优化算法，且误差更小,性能表现更加稳定。",
+    "context11": "表1 改进PSO-FNN、标准PSO-FNN和BP-FNN模型性能对比",
+    "context12": "<table><tr><td rowspan=\"2\">训练模型</td><td colspan=\"3\">2016高考</td><td colspan=\"3\">英国脱欧</td></tr><tr><td>训练时间/s</td><td>迭代次数</td><td>均方误差</td><td>训练时间/s</td><td>迭代次数</td><td>均方误差</td></tr><tr><td>改进PSO-FNN</td><td>8.32</td><td>1852</td><td>8.43×10-4</td><td>7.97</td><td>1750</td><td>8.58x10-4</td></tr><tr><td>标准PSO-FNN</td><td>11.53</td><td>3000</td><td>7.84×10-2</td><td>11.25</td><td>3000</td><td>8.31x10-²</td></tr><tr><td>BP-FNN</td><td>14.36</td><td>3000</td><td>1.16</td><td>15.32</td><td>3000</td><td>0.95</td></tr></table>"
+  },
+  "3.3预测结果分析": {
+    "context1": "将各话题下的10组预测样本分别代入相应的通过改进PSO算法、标准PSO算法、BP算法优化后的模糊神经网络中，对各模型进行验证。如图7所示为各话题不同模型预测结果对比。由图7可知，本文所提出的改进PSO-FNN模型对各话题发展趋势的预测结果均优于标准PSO-FNN以及BP-FNN模型，其预测结果最接近实际博文总数，可满足对微博话题发展趋势预测的要求。",
+    "context2": "对各话题预测结果的相对误差进行比较分析，如图8所示为预测结果的相对误差分布曲线。从图8可看出对于不同的话题改进PSO-FNN模型的相对误差曲线波动范围都更小,更加接近零值。通过对比可验证本文所提出的微博舆情话题趋势预测模型在网络训练和预测方面均表现出更优的性能，证明改进PSO-FNN模型在微博话题趋势预测方面的高效性和精确性。"
+  },
+  "4结语": {
+    "context1": "微博舆情的发展趋势受到多重因素的影响，呈现出非线性且复杂的变化。传统基于统计和机器学习的方法很难取得有效地预测结果。本文利用模糊神经网络其良好的非线性映射能力和较强的自学习能力，并基于对粒子群优化算法的改进构建模型以微博话题的博文总数作为指标,实现对微博舆情发展趋势的预测。最后设计实验验证本文所提方法的有效性,本文构建的基于模糊神经网络的预测模型能够更加精确的对话题发展趋势进行预测。预测结果有助于政府对舆情信息的控制和引导，有利于社会发展的和谐稳定。"
+  },
+  "参考文献": {
+    "context1": "1 程辉.网络用户偏好分析及话题趋势预测方法研究[D].北京：北京交通大学,2013.  \n2屈启兴,齐佳音.基于微博的企业网络舆情热度趋势分析[J].情报杂志,2014,33(6):133-137.  \n3王新猛.基于马尔科夫链的政府负面网络舆情热度趋势分析-以新浪微博为例[J].情报杂志,2015,34(7):161-164.  \n4 徐敏捷.基于指数平滑法的微博舆情预测模型研究[J].网络安全,2016,42(1):80-84.  \n5吴凯,季新生,刘彩霞.基于行为预测的微博网络信息传播建模[J].计算机应用研究,2013,30(6):1809-1812.  \n6 吴青林,周天宏.基于话题聚类及情感强度的中文微博與情分析[J].情报理论与实践,2016,39(1):109-112.  \n7张华.基于优化BP神经网络的微博舆情预测模型研究[D].武汉;华中师范大学,2014.  \n8 野雪莲,杨孔雨.舆情趋势预测中神经网络的优算法[J].网络新媒体技术,2016,5(1):33-37.  \n9 何星星,孙德山.模糊神经网络与SARIMA结合的时间序列预测模型[J].计算机技术与发展,2008,18(8):61-64.  \n10 Kennedy J,Eberhart R.Particle swarm optimization[C]//Proceedings of IEEE International Conference on NeuralNetworks,1995:1942-1948.  \n11 Kennedy J. The particle swarm: social adaptation of knowl-edge [C]//IEEE International Conference on EvolutionaryComputation,1997:303-308.  \n12Shi YH,Eberhart R.A modified particle swarm optimizer[C]//IEEE International Conference on Evolutionary Com-putation,1998:69-73.  \n13 周春光,张冰,梁艳春,等.模糊神经网络及其在时间序列分析中的应用[].软件学报,1999,10(12):1304-1309.  \n14 Chen YS,Chen LC,Hsu MY et al. A Machine LearningMethod for Power Prediction on the Mobile Devices [J].Journal Of Medical Systems,2015,39(10):126-129.  \n15Suna L,Lia MFNN model for carbide size of M5O steelduring hot deformation [J].Ironmaking & Steelmaking,2016,  \n43(3):220-227.  \n16Geon PC,Dong YK,Kwae HY et al. Prediction of hydro-gen concentration in nuclear power plant containment un-der severe accidents using cascaded fuzzy neural networks[J].Nuclear Engineering and Design,2016,300(2):393-402.  \n17 任金霞,游鑫,余志武.电力系统短期电力负荷预测仿真研究[].计算机仿真,2015,32(5):132-135,139.  \n18 吴丽,石玉和,赵雁红.城市需水的智能预测方法.水利水电计算,2015,46(6):37-53.  \n19 谷志新,张鑫宇.生物质燃料成型工艺模糊神经网络预测模型研究[].太阳能学报,2015,36(6):1371-1376.",
+    "context2": "（责任编辑：张连峰）"
+  }
+}

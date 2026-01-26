@@ -1,0 +1,104 @@
+{
+  "original_filename": "full_2950.md",
+  "国内外学术图书馆精准服务前沿研究综述\\*张汝昊　杨志萍": {
+    "context1": "【摘要】图书馆精准服务是基于精准化服务理念，以多种精准化技术为依托，对已有服务全过程进行创新优化的新型服务模式。当下，精准化正成为学术图书馆服务改革的新方向，也是学术图书馆服务不断追求高质量过程中的必然趋势。基于对精准服务这一概念内涵的细化，文章对近年国内外学术图书馆精准服务的前沿方法和技术进行了检索、梳理、概括与提炼，探索了可用于促进学术图书馆服务精准化发展的关键技术及应用策略。研究发现了国内外研究偏重不同，多种精准服务方法或技术具备融合互补潜质，精准服务需要适当的边界与安全控制、更完善的模式与架构支持等要点，并得出若干可供参考的研究视角。",
+    "context2": "【关键词】精准服务学术图书馆信息服务",
+    "context3": "Abstract:Library precision service is anew service model based on the concept of precision service and a variety of precisiontechnologies，to innovatively optimizetheentire process of information service.Atpresent，precisionis becoming thenew direction of academic library service reformand the inevitable trend inthe process of continuous pursuit of high qualityservices.Through the literature research based on the spliting of theconcept of precisionservice，this paper summarizes and refines the advanced methods and techniques of precision service in domestic and foreign academic libraries in recent years.Italsoexplores keytechnologies and application strategiesthatcan beused toadvance precisionbased academic library services Itis found that:a）thereare diferences between domesticand foreign researches;b) multiple precisionservice methodsor technologies havepotential forcomplementarity；c）precision servicesrequire appropriate boundaries and security controls；d）precision services need sophisticated modelsand architectural support; e）precision services need assessment mechanisms.And several research perspectives for future are proposed.",
+    "context4": "Key words: precision serviceacademic libraryinformation service DOI:10.15941/j.cnki.issn1001-0424.2019.24.001",
+    "context5": "0引言",
+    "context6": "文化服务体系建设正从数量增长阶段向质量提升阶段转变，在此时代背景下，服务精准化逐渐成为图书馆服务改革的新方向。图书馆精准服务是指图书馆在普适服务基础上针对用户个性化需求而建立的，以用户问题为导向的服务模式[1]。图书馆精准服务并不是一种新的服务类型，而是在新型服务理念的基础上，以精准化为目标，以多种精准化技术为依托，对已有服务全过程进行创新优化的新型服务模式。在此模式下，图书馆服务将进一步准确识别和定位用户，并紧贴用户特征和环境，更细致而动态地识别用户显、隐性需求，提供对接需求的更优质服务和资源配置方案。",
+    "context7": "当前，学术图书馆服务理论与实践发展迅速，作为面向科研一线的信息情报机构，学术图书馆由广向深、由量向质的服务精准化趋势是发展必然。本研究考察和总结了国内外学术图书馆在精准服务方面的前沿技术进展，以为学术图书馆服务精准化的实现提供可借鉴的方法、技术思路及有价值的启发。",
+    "context8": "由于“精准服务”提法较新，以往相关的研究或方法并不限于该词，故本研究通过对精准服务概念的细化，根据内涵组配检索词进行检索，并作总结提炼形成以下综述。"
+  },
+  "1国外学术图书馆的精准服务方法与技术": {
+    "context1": "经初步调研，国外精准服务领域研究偏重综合应用而不限于单种方法与技术，故通过细化“精准化”这一理念及所涉及的技术、工具、过程等来提取关键词，与“service” “academic/research library”组配进行多次检索，并利用引文网络进行筛选，可保证较高的查全率。所用概念关键词包括：precision（准确)、personalized/personalization（个性化）、user-centered/user oriented（用户中心的）、user data/profile（用户数据/用户简档）、persona（型人化)、customization（定制)、embedded（嵌入的）等。根据结果文献研究重点的差异，笔者将它们按精准服务全过程中的定位进行总结和归纳（图1）。",
+    "context2": "![](images/352c104ae196a75d8181ed3f92350f2fa14a45554278a92ad3d301fd9eee38ce.jpg)  \n图1精准服务的过程框架"
+  },
+  "1.1后端：精准识别": {
+    "context1": "注重精准服务“后端”的研究关乎数据采集基础上的用户识别、用户聚类与分组等，类似于Nicholson 早在2003 年所提出的 Bibliomining（意为：在图书馆应用的数据挖掘技术）的概念[2]，该过程的目的是精准识别用户特征及行为模式，从而构建起高质量的用户模型，为有效的用户关系管理和服务质量提高打下基础。"
+  },
+  "1.1.1用户数据挖掘与用户识别": {
+    "context1": "在用户分析与识别方面，Silva与Ma指出当前科学知识动态变化对专家分析提出的重大挑战，并针对以往不足，提出了基于大数据技术、利用社交网络和科学数据库中的人群集体智能（Collective Intelligence of Crowd）进行专家识别的方法，搭载该方法的系统已被纳入ScholarMate中，用于生成专业相关的、全面的专家概况[3]。而要实现这样大规模的用户数据挖掘，离不开相应的用户数据结构的优化。为解决当前用户简档（User Profile）数据质量差、呈现用户特征确定性与动态性低下的问题，Pena[4、Hoppe[5]都提倡将用户简档建模为能表征用户兴趣的语义本体（Semantic Ontology），通过可扩展的自动化技术实现专业本体的识别、建构和填充，将用户与高价值的细分受众群关联，推动数字精准服务开展。针对用户偏好数据难于获取问题，Porcel提出通过采集用户对零碎、多粒度的研究资源的偏好或模糊语言，构建用户对各主题的偏好向量模型，从而改进数字图书馆用户简档，为用户数据挖掘、用户识别、分类或聚类奠定基础[6]。"
+  },
+  "1.1.2用户分类与聚类": {
+    "context1": "在用户分类与聚类方面， $\\mathrm { K i m } ^ { [ 7 ] }$ 提出用于数字图书馆协作推荐系统的基于兴趣的用户分组模型，该模型使用高性能文档聚类算法LINGO，从用户访问日志中提取文档主题和用户兴趣进行聚类。为获得典型用户群，Martinez-Comeche[8]、Kovacevic[9]与 Hajek[10-1]的研究都通过对图书馆数据挖掘工具的开发，聚焦于对用户信息行为进行聚",
+    "context2": "类（多采用K-means算法)、建模、关联等的方法，从而根据各群组特征更好地支持管理层的服务决策。这些研究均包含有在数字图书馆应用的完整过程，对于国内图书馆实现有效用户分层与针对性服务具有参考价值。"
+  },
+  "1.2中端：精准化功能实现": {
+    "context1": "注重精准服务“中端”的研究关乎对精准识别结果所采取的措施，是根据“后端”中已形成的用户模型所设计的，针对个体或人群需求的服务功能，此外，其又是构成精准服务“前端”的基本技术单元。对于这部分的研究文献，可依据各研究的不同用途定位一一定制搜索、个性化推送、群组推荐进行划分和总结。"
+  },
+  "1.2.1面向定制化搜索": {
+    "context1": "面向搜索的精准服务，协同过滤（Colaborative Filtering）是多数研究的重点。其基本思想是，具有相似兴趣的用户之间共享搜索体验减少了个体用户在检索时所需付出的努力，便于用户高效、准确地发现所需资源。许多研究尝试利用图书馆用户行为特征构建协同过滤框架，使得用户在检索式能获得个性化的搜索排序[12]，如 Rohini利用了支持向量机（SVM）学习用户简档以强化协同过滤流程，实现高效检索（图2)[13]。此外，近年来结合语义和概念的智能搜索很受关注，如LouW构建了包括用户认知和文献知识网络在内的双层知识概念模型，对于用户的检索请求，其将分别通过语义分析进行概念关联、比较、推理，实现知识层面的检索，从而优化用户的检索体验[14]。",
+    "context2": "![](images/dc77d4e0161066c0d7c2ef65480868cb3f2793a97a4e0cbda7ac1920789dbd95.jpg)  \n图2Rohini提出的强化检索流程框架"
+  },
+  "1.2.2面向个性化推荐": {
+    "context1": "随着数字学术资源规模扩大，研究人员识别所需资源的过程变得困难，这使得推荐系统（RecommenderSystem，RS）的应用备受重视。如Kao与 $\\mathbb { W } \\mathbf { u }$ 开发的数字图书馆个性化知识整合平台（PIKIPDL），采用Apriori算法和关联规则作为数据挖掘机制，从用户在线共享知识中整合知识类别，为用户提供个性化的知识推荐服务[15]。Porcel 所提出的模糊语言推荐系统模型，能帮助学术图书馆用户快速访问潜在所需的研究资源，并通过研究人员专业信息间的关联来推荐和补充资源，促进多学科合作可能性[16]。",
+    "context2": "许多学者探讨了协作过滤和基于内容的过滤（Content-based filtering）在推荐系统中的应用，研究了两者的缺点及在新信息环境中的改进方法。Dhanda认为，基于内容和协作过滤的技术应用于学术文献领域时，无法反映研究者近期的偏好变化。该研究提出了基于高效项集挖掘（HUIM）技术的精准文献推荐方法（图3），通过算法EFIM挖掘对用户具有高实用性的论文。经实验评估，其满足了研究人员的个性化要求，并在时间和空间复杂性方面优于同类系统[17]。另有部分研究者提出了结合内容和协作过滤优势的新型推荐系统。如 Kardan等提出的混合推荐系统（图4）在讨论组协同数据基础上，利用WordNet词汇库来对隐含信息进行语义概念定位和消歧，从而识别用户相似性邻域[18]，实验证明，用户资源推荐准确性显著改进。",
+    "context3": "![](images/83df41afc957016c5f630b313d195b032febbcd16bc16c0bcd5450bac685f1ae.jpg)  \n图3Dhanda提出的基于高效项集挖掘技术的推荐系统框架",
+    "context4": "![](images/991361500ebb5faec2120ef5bde6c9f4928cb5d5ffc69670ba6f468594a4ada3.jpg)  \n图4Kardan等提出的混合推荐系统机制",
+    "context5": "针对协同过滤存在的数据稀疏等缺陷问题，Pham等提出了一种基于用户社交信息聚类的推荐方法，并在学术情境下开展应用实验，评估表明该技术在准确性指标方面更具鲁棒性[19]。Chen提出的基于个人本体的推荐系统，能够从语义层面，弥补协同过滤对个体真实偏好考虑的欠缺，并用 Mapreduce 保证了推荐系统的运行效果[20]。Tejeda-Lorente等提出的基于质量的推荐系统，克服了以往过滤法对用户简档和项目特征质量指标考虑的欠缺，能帮助用户高效访问所需高质量研究资源[21-22]"
+  },
+  "1.2.3面向群组推荐": {
+    "context1": "过去几年中，群组推荐系统（Group Recommander System，GRS）的普及程度有所提高，该类模式是对于当下而言，最具实用性和可用性的精准推荐模式。不同于面向个人的推荐，群组推荐的对象是因业务或兴趣相联系的小组，能克服一些单用户推荐的缺点，例如冷启动[23]。Baltrunas 的研究使用标准化的折扣累积增益（DiscountedCumulative Gain，DCG）来比较个人和群体推荐列表的有效性。结果表明：群体推荐的有效性不一定随群体规模增长而降低；组内相似度越高，推荐就越有效[24]。在建立以协作为基础的群组推荐方面，Serrano-Guerrero 与 Porcel的研究理念类似，都通过平台构建使主题相关的科研人员方便协作，并利用模糊语言标识、偏好和特征等的计算推荐适用于群组的学术资源与学习建议[25-26]。近期关于GRS 的研究更注重算法优化，目的是使组内个体偏好能以更科学、有序的形式在群组层面表现出来，典型研究成果包括 Kassak 提出的利用特殊聚合策略的混合推荐器[27]，以及Castro提出的通过智能权重矩阵实现的基于意见动态的推荐器（图5）[28]。",
+    "context2": "![](images/e6625f1a75627b06ddddf25bd876600da0ef3a23c67c5c9c670ebd59143db5a9.jpg)  \n图5Opnion Dynamics-based GRS 框架"
+  },
+  "1.3前端：精准服务聚合": {
+    "context1": "精准服务“前端”关乎与用户切实交互的精准化服务过程，这些服务以实现用户科研、学习需求、融入用户环境为目标，聚合了多种“中端”的线上服务功能和其他线下服务。这一部分的研究，包括了图书馆综合利用前述技术与功能进行的模式创新，以及图书馆对进行精准化服务变革所需自身架构、配置的思考。"
+  },
+  "1.3.1科研支持的精准化模式创新": {
+    "context1": "科研支持是学术图书馆的重要业务职能，如何使科研支持在阵地布局、资源建设、资源推送等方面做出围绕科研人员的创新和改变，以更好地融入科研人员、融入科研过程，实现科研信息服务的精准化，是该部分研究探讨的重点。Corral认为，图书馆对于科研正转向“更高端的支持”和“深度合作”的新服务模式[29]。她的研究收集并分析了来源于机构网站和其他公共领域的数据，探讨了24所英国领先学术图书馆面向科研支持的资源组织和服务模式，结果揭示了包括“泛在化/去中心化”“专家职能扩大化”“跨界活动频繁化”等在内的科研支持发展趋势。昆士兰大学图书馆（The University of Queensland Library，UQL）馆员 Brown 等探讨了该馆在整个科研生命周期中的关键作用。为适应科研支持服务的发展，UQL提出将传统的学科馆员联络模式与职能团队模式结合，即以一种纵深与扁平化架构相结合的方式，加强科研支持人员配置的机动性，提供更敏捷的服务，对此Brown还提出了功能团队与传统学科馆员进行合作和服务创新，利用机构知识库进行科研服务流程链接等对策[30]。"
+  },
+  "1.3.2教学支持的精准化改良与新应用": {
+    "context1": "教学支持是当下学术型高校图书馆的拓展性业务，其主要面向教学过程，提供教学资源管理、筛选和推送、融入式信息素养培养等服务，如何在实践层面实现其精准化改良与创新应用，是该部分研究讨论的重点。Reiter和Huffman 介绍了宾夕法尼亚州立大学图书馆（Penn State University Library）商学院图书馆员与教师之间的嵌入式合作项目，展示了将图书馆数据作为决策和行动的支持，以针对教学项目实现高质量的资源管理的流程[31]。Tsunekage进行了一项信息素养培育的成功实践，其根据课程计划和对学生的观察与测试，作针对性的信息素养分层计划，以改善在信息素养方面教学支持服务的精准度[32]。事实上，精准化教学支持服务已有众多优秀应用案例[33]，如明尼苏达大学（the University of Minnesota）的个人信息管理服务、北卡罗来纳州立大学（North CarolinaState University）的可定制资源视图课程工具[34]等，这些应用注重于线上线下服务在个性教学支持精准化方向上的整合与改进，具有参考价值。"
+  },
+  "1.3.3学习分析（Learning Analytics）功能的实现与完善": {
+    "context1": "学习分析是通过对学生多方位数据的挖掘和分析，理解和优化学习环境，使学习者获得最为与自身适配的学习计划，这是图书馆将新技术与服务融合的一个“精准化”生长点。根据ACRL研究规划和审查委员会（theACRL Research Planning and Review Committee）每两年一次的学术图书馆热门趋势报告来看，已有2016 年[35]、2018 年[3]两份报告提到了“学习分析”这一主题，就当下学术图书馆价值认知度不高、迫切需进一步嵌入学习研究者环境的形势而言，这一功能的实现意义特殊。Simovic、Ferera-Satler等关注可融汇不同来源学生学习数据、图书馆使用数据的大数据系统设计，以支持面向个体特征的教育决策[37-38]。Renaud 等、Capuano 等的研究则在这种数据融汇的基础上进一步提出了电子学习推荐系统，通过模糊本体对用户各学习阶段数据进行建模，实现精准推荐，并可在电子学习环境中自动生成个性化学习计划[39-40]。"
+  },
+  "2国内学术图书馆的精准服务方法与技术": {
+    "context1": "国内学术图书馆精准服务相关研究主要围绕小数据、用户画像、精准营销等核心方法及技术点展开。"
+  },
+  "2.1小数据在精准服务中的应用": {
+    "context1": "在学术图书馆精准服务的前沿技术研究方面，不得不提及小数据（Small Data／Dark Data[41l）的相关研究及应用。小数据是针对个体用户的全方位、多层次行为模式和情景感知的数据集合，能够全息地表征个体用户的完整特征[42]。作为大数据的必要补充和完善，小数据能满足对非结构化数据的关联和深度挖掘，基于小数据的分析能实现对个体用户行为习惯、兴趣偏好、需求状态等的动态预测，为个性化用户服务提供准确导向与支持。",
+    "context2": "小数据与大数据的区别在于：小数据以个体为唯一对象，重点在于深度，即对个人数据进行全方位、全天候的分析；而大数据面向领域或群体，侧重于广度（图6)。其次，小数据既关注个体用户多要素间的关系，更关注它们产生的内在原因；而大数据技术聚焦于挖掘不同事物间的关系，注重结果而非逻辑缘由。",
+    "context3": "![](images/5113fae34d5fc30492577abf1f1a15b220f48677392ff40ebb198decf7325054.jpg)  \n图6大数据与小数据的构成区别",
+    "context4": "对科研用户来说，小数据是以科研用户个体为对象，围绕其科研活动而所产生的相关数据。当在科研项目整个生命周期内由各种设备、技术采集的科研用户个人信息和行为数据能通过某种模式或方法不断累积、集成与融合，就能为个性化科研服务提供直接、准确的量化依据和决策支撑。因而，自2016年“小数据”这一概念被引入我国学术图书馆服务研究中以来，小数据融合与管理过程、小数据于科研服务中的应用问题很受关注。"
+  },
+  "2.1.1面向融合与管理的应用": {
+    "context1": "我国现有小数据融合与管理方面的研究，注重探究小数据由零散至聚合的知识化、价值化、可管理化操作过程及模式框架，从而为发掘科研用户潜在需求、完善精准服务推送提供基础。李立睿[43]重点研究了“互联网 $^ +$ ”背景下面向科研用户小数据融合的原则与具体过程，归纳出具基础库、关联级融合、特征级融合和需求级融合4个层面的小数据动态获取与跨界融合模型，探讨了数据收集、数据关联、特征提取等方面的方法。杨晓刚[44]搭建了基于Mongo DB $^ +$ Spark 技术的小数据管理框架，该框架结合了传统数据管理技术和大数据管理技术，并融合了小数据以用户为中心的特点，使小数据管理在采集、存储和使用方面更为灵活、高效、细粒度化。"
+  },
+  "2.1.2面向科研服务模式的应用": {
+    "context1": "小数据于科研服务模式中的应用，即如何将小数据在合理、全面采集的基础上充分应用于现有科研服务中，与微知识服务、个性化科研推送服务等融合，推动服务精准化。王欣利用科研用户小数据决策支持层、图书馆科研服务推送层构建了个性化科研服务模式。该模式应用小数据的特性，使精准决策与推送的联结更为紧密：在服务决策支持中，通过对科研用户基本特征及科研活动数据的采集，与用户基础小数据库中数据进行融汇并进行多维度分析，形成个性化科研服务决策；在科研服务推送中，基于服务决策和不同科研角色划分，提供贴合特征的知识情报推送[45]。李立睿等探讨了小数据与微知识服务的契合问题，提出面向科研用户小数据的微知识服务过程[46]，并进一步从系统动力学视角构建了以科研用户实时需求为导向的微知识服务模型，进行仿真分析，揭示了基于科研用户小数据的微知识服务质量提升对策[47]。"
+  },
+  "2.2用户画像在精准服务中的应用": {
+    "context1": "用户画像（User Profiling／Persona）最早由Alan Cooper提出，即用户信息标签化[48]。用户画像是大数据时代实现精准服务的重要工具之一，其特点在于通过对用户的社会属性、行为习惯、兴趣偏好等信息的挖掘和分析，多维度聚类并抽象出用户的信息特征全貌[52]，实现用户的标签化、细分化及特征用户群的发现，从而实现有效管理。目前，用户画像多应用于电子商务、智能推荐系统中。",
+    "context2": "伴随信息技术的发展及图书情报机构服务“用户中心化”的发展趋势，用户画像推动了精准服务的进一步发展。在图情领域，用户画像应是建立在大量真实数据基础上的，能表征用户信息需求、行为和偏好的用户模型，用于全方位、多维度地识别、分析用户，从而挖掘和预判用户的真实与潜在需求，推动精准服务的开展。国内该领域研究可归纳为以下应用方向。"
+  },
+  "2.2.1面向用户行为识别、定位的应用": {
+    "context1": "该方向研究专注于如何更准确地识别用户群体，从而为之后的服务决策提供接口，也就是注重塑造“型人”，使用户标签化的过程。顾立平通过对学术图书馆用户群体的调查和基于大量数据支撑的分析，划分用户信息行为模式，聚类出4个可用于引导图书馆服务改进方向的虚拟人物，这是最早在图情研究中将标签化的中心由“物”真正转向了“人”的研究[49]。陈添源在移动图书馆用户群的识别过程中引入了人口统计学工具VALS2态度量表，构建了用户画像标签体系，通过问卷调查用户偏好与行为特征，最终获得4种移动图书馆情境下的具有不同需求特性的用户画像[50]。"
+  },
+  "2.2.2面向知识发现系统和知识社区的应用": {
+    "context1": "许多研究将用户画像应用于知识发现系统或知识社区中，作为准确获取、特征化、分类用户群的工具，以实现更精准的知识定制与推送。刘速以天津图书馆的知识发现系统为例进行用户画像构建，提出了包括可视化统计描述、多维度交叉分析、用户关系图谱等在内的用户画像应用分析方法[51]。张钧基于用户画像构建了图书馆知识发现服务模型，该模型连接了用户需求画像与面向复杂大数据资源的语义处理层、知识发现层，以用户画像为两者的共同应用提供通路[52]。胡媛、毛宁[53]将用户画像技术引入数字图书馆知识社区中，通过对用户数据的整理、挖掘、标签化，构建了知识社区中的用户画像，便于用户服务精准、高效开展。还有一些研究将用户画像应用于阅读疗法[54]、阅读推广[5]中的用户群需求的精准挖掘，也取得了进展。"
+  },
+  "2.2.3用户画像在资源推荐中的应用": {
+    "context1": "部分研究通过探讨用户画像在图书馆资源与价值精准“输出”的各个过程中的应用路径，利用用户画像打破了无差别化推广的现状。如徐立宁[5]与王庆、赵发珍[57]通过设计具多维度的个性化推荐模型，分别从资源推荐服务、宣传服务、构建图书馆可持续发展与规划等方面探究了利用用户画像实现精准推荐的应用模式。与之理念相似的还有王顺箐所提出的智慧推荐系统[55]，其强调在数据采集基础上整合用户基础数据画像、观点分析等流程，为高校图书馆“输出型”服务提供更多可用的准确参考。将用户画像与本体和概念模型结合，是用户画像应用的可拓展点。刘漫基于高校图书馆用户基本特征、行为特征、兴趣特征抽象出大学生用户标签，利用OWL进行本体建模，构建用户画像概念模型，挖掘大学生阅读需求与阅读动机，以实现更精准的阅读推广效果[58]。"
+  },
+  "2.3精准营销": {
+    "context1": "精准营销是精准服务这一概念的前身，由“营销之父”Philip Kotler在2005 年提出。精准营销是基于可量化现代信息技术，通过对用户群的精准识别、划分、定位，构建起的个性化沟通和服务体系，能够实现营销主体可度量、可持续的发展之路。其要求精准地细分市场，定位目标用户群及需求，并针对用户进行长期的信息沟通，这与“以用户为中心”的信息服务理念一致。学术图书馆应充分借鉴精准营销理论、手段和视角，尤应注重对用户关系的精细化管理，从中寻求服务模式的突破和发展。",
+    "context2": "国内现有关于学术图书馆精准营销的研究以探讨精准营销领域的理论与工具于学科服务中的应用为主。如：王晓文的研究[59-60]、陈添源的研究[61]通过引入市场细分（Market Segmentation）、目标市场（Market Targeting）、市场定位（Market Positioning）理论，采用因子分析和 K-means聚类分析法对学科服务用户进行分类研究，获得多个各具特征的用户群子市场，并针对不同子市场提出差异化服务营销策略；赵洪波[62]将营销学的RFM模型应用于高校图书馆，分三大指标搜集和分析读者数据，并构建了图书馆精准服务平台。目前，该方面的研究仍然很少，而适用于信息服务，并可为其精准化提供指导的营销理论却有很多，如价值链法等。将精准营销理论工具运用于学术图书馆服务的精准化改良中，不失为一种研究角度。"
+  },
+  "3讨论与展望": {
+    "context1": "综合上述调研，可总结以下结论及未来可供参考的研究视角：",
+    "context2": "（1）国内外研究偏重存在差异，国内研究可尝试拓展当前研究重点导向。从目前已获取的文献来看，国内关于精准服务技术的研究主要围绕单种技术应用展开，是一种“技术为导向”的“点型”研究；而国外研究从精准识别、精准功能实现再至精准服务聚合皆有涉及，且多综合应用了多种技术，是一种“应用为导向”的“线型”研究。但国内外研究也具有相似之处，大都聚焦于关键用户数据，认为用户个体特征、行为数据对于精准定位用户、实现精准服务是十分必要的。如果以国内外研究重点所处精准服务前、中、后端上的位置进行比较，相较于国内，国外研究更偏重于中、前端，即用户数据在采集之后的功能探索、服务应用方面。国内相关领域学者应尝试以应用为导向，综合多种技术进行实践，而非陷入不断追寻热点理论的定式。",
+    "context3": "（2）多种精准服务方法或技术具备融合互补潜质，可多挖掘结合方法。正如第一小点所述，多种方法的综合可能使服务的精准化实现更为全面。例如：小数据与用户画像是具备相似之处的，它们具有同样的输入（用户个人信息与行为数据）与同样的输出目的（实现精准的用户识别)，只不过前者强调以个体用户为中心的细致的、具时间线索的数据获取与融合，后者强调这种多方位信息获取后的特征抽象与标识，以形成“块状”的小型用户簇类。若各取所长，探讨两者的系统结合方法，探索更优的用户数据采集和分析方案，将对精准服务发展具有很大意义。",
+    "context4": "（3）精准服务需要精准，更需要适当。该领域研究对于服务精准化方法和技术所涉及的边界、安全、隐私保护问题的讨论较为空缺，尤其是国内，例如：小数据在科研用户的整个科研生命周期都实时地、以多种方式产生和存在，如何判定何者为“信号”，何者为“噪音”，关乎小数据质量的边界判定方法值得研究。同时，其涉及的大量个人数据需要有完善、严密的保护机制和政策的支撑，这是图情机构服务精准化过程中需要直面的问题，也是未来研究需要特别注意之处。",
+    "context5": "（4）实现科研信息支持精准化需要在服务的整体模式与架构上作更多的思考。当下，嵌入式学科服务已是一种共识和趋势，其嵌入科研一线、嵌入用户过程、嵌入情感[63]的特性决定了其走向“精准化”的必然。而现有对于嵌入式科研信息服务精准化的研究，虽涉及知识发现平台等，但与学科服务过程仍然割裂。学科服务需要精准化技术手段支持，更需要通过对服务流程、架构、模式的改良，以实现精准化技术手段与相应子过程的最优化结合与配备。如中科院文献情报中心在上海硅酸盐研究所的专利信息精准服务试点建设[64]是具有参考价值的案例，其围绕需求特征分析、嵌入式课题组架构、科研项目全周期动态服务策略、信息管理机制、流程机制和可持续发展机制等核心过程，构建起嵌入式专利信息精准服务模式，切实地将精准服务融入了嵌入式学科服务的全过程中，获得了良好效果。未来的研究在关注方法与技术的同时，也应注意实践中服务模式与架构的完善，即不仅仅是思考“用什么”，而是“怎么用”“如何用得更好”的问题。",
+    "context6": "（5）精准化服务需要配套的精准化评估反馈体系。服务的精准化将为用户带来更人性、更个性的优质体验，但同时也需要相应的更为精细、有效的评估和反馈机制来评价、督促。这种精准化的评估反馈机制，应能容纳更多、更切实的数据支持，并被合理地分配在用户所接收服务的全过程周期之内，使服务能够不断被优化。在这种配套的评估反馈体系下，服务的精准化才能够长久维持，并形成良性的更新循环，而非仅仅停留于单次、单方面。就目前来看，关于精准化服务的评估方法及体系的研究仍然欠缺。"
+  },
+  "4结语": {
+    "context1": "本文对近10年间国内外学术图书馆实现精准服务的关键方法与技术进行梳理与总结，为国内学术图书馆服务精准化提供了有价值的参考与实践路径。当下，精准化是图书馆服务变革的必然趋势，也是时代对于图书馆服务变革的必然要求，国内图书馆与研究者应更关注高新技术与图书馆服务过程间的可能联系，充分吸收国内外及相关领域经验，实现精准服务模式与技术上的启发式借鉴与再创新。"
+  },
+  "注释": {
+    "context1": "[1]牛勇．图书馆精准服务研究[J]．图书馆学研究，2016（5)：50-52.   \n[2]NicholsoSeblioiingProcess：DataWareousigandataMiningforLibraryDeisioMakingJ]IforationTechoogdai， 2003，22(4)：146-151.   \n[3]SilvaT，MaJExpertProfigforColboratieIation:igDataerspeiveJ]IfoaoiscovedDeiver，O4（4：6 -180.   \n[4]PenaP，DelHR，VeaurguiaJetalAutomaticOntologUserProflingforSocialNetwoksfroURsSaredC]MadrdCofcefe Spanish Association for Artificial Intelligence，2013.   \n[5]HoppeA.AutomaticOntologBasedUserProfileLeaingFoHeterogeeousWebResoucesigDataContextCrentoProcnf the VLDB Endowment，2013.   \n[6PorcelC，era-VdaEDealingithIncompleteIfoationinFuzzyLingstRecoeerSseoDissematefoation University Digital Libraries [J]．Knowledge-Based Systems，2010，23（1)：32-39.   \n[7KimS，FoEereUsegebiiialial Collaboration and Cross-Fertilization，2004.   \n[8]Martiez-oeJusterngofUssofialaougFalyisvitaEpalatacCt, 40(3):181.   \n[9]KovachevicA.Using Data Miningto Improve DigitalLibraryServices[J].TheElectronic Library，2O10,28（6):829-843.   \n[10]HajekP，tejsalJLibraryUserBehaviorAalysisUseinEooicsandMaageentJ]WEATrasactiosoBusiessndEcooics， 2014，11（1):107 -116.   \n[11]Hajek P，StejskalJ.LibraryUsage MiningintheContextofAlternativeCosts[J].LibraryHiTech，2O17,35（4)：558-576.   \n[12]ParkW，KimW，Kang，alPersoalizedDigialEibraryServiceUsingUsersPileIforationCSpain:Researchnddancd Technology for Digital Libraries，2006.   \n[13]RohiniU，AmbatiV.AolaborativeFlteringBasedReraningStrategfoSearchinDialLrariesCBngkok:Digitalbi Implementing Strategies and Sharing Experiences，2005.   \n[14]LouW，WangH，HeJGOfthePeopleforthePeople:DigitalLiteratureResoureKnowledgeRecommendationBasedonUserCognitionJ]. Information Technology and Libraries，2018，37（3)：67-83.   \n[15]KaoSC，WuC:AersoalizedoatioandKnowledgItegationPlatfoforDLerviceJ]LibraryHTch，（3): 490 -512.   \n[16]PorcelC，ElertdsosiUeitial [J]．Expert Systems with Applications，2009，36（10):12520-12528.   \n[17]DhandaM，VeraVPersonalizedRecommendationAproachforAcademicLiteratureUsingHighUtityItemsetMiningTechnique[C]. Singapore:Progress in Intelligent Computing Techniques:Theory，Practice，and Applications，2018.   \n[18]KardaAA，EbraiM.ANovelAroachtHbridReomedatioSstesBsedossocatoulesiningfoContetRecoon in Asynchronous Discussion Groups [J]． Information Sciences，2013，219:93 -110.   \n[19]PhaMC，CYW，KlaR，etalCusterngAoachforlabativleringRecomedatioUsingSocialNetwoalys.",
+    "context2": "J.UCS，2011，17（4):583-604.[20]CheLC，KuoPJ，LiaIE.Ontology-basedLibraryRecommenderSystemUsingMapReduce[J]．ClusterComputing，2015，18（1)：113121.[21]Tejedaorente，orelC，eisEAQualityBsedecoenerStetDiseateIfoationinUnivesitigitalbayJ].Information Sciences，2014，261: 52-69.[2]Tejeda-Lorete，orcelC，eabeoroaJ，alFOE:AecoenerSystefoesearchrsBsedobetricsSoft Computing，2015（30)： 778-791.[23]KompanM，BielikovaM.GroupRecommendations:SurveyandPespectives[J]．ComputingandInfomatics，2O14，33（2)：446-476.[24]BaltruasL，akcissTiciFGroedatioikegtodClborativeleingC]SainAofcRecommender Systems，2010:119 -126.[25]Serao-uerero，ra-daE，OlisA，etl.Aooleve-BasedFuzzyRecoendeSttisseateIfoatioinUniversity Digital Libraries 2.0[J]． Information Sciences，2011，181（9):1503-1516.[26]PorcelC，ChigLopeA，LefranG，taSrngNotes:ncadeicSocialNtorkBsdooalidFuzLguistcdrSystem[J]．Engineering Applications of Artificial Intelligence，2018， $7 5 ( 1 0 ) : 1 - 1 0$ [27]KassakO，KompanM，ielikovM，taPersoazedHybridecommendationforGoupofUsers:Top-MultiediaRecoenderJ].Information Processing& Management，2016，52（3):459 -477.[28]CastroJ，LuJ，ZhangGQ.OpinionDynamics-BasedGroupRecommenderSystemsJ].IEEETransactionsonSystems，Man，andCybeetics:Systems，2018，48(12):2394-2406.29CorralDsignngLbaefRsehCollboatoinek or:aExpaoSdyJ]beQuartey，，4（：48.[30]Brown S，lveyE，DanilovaE，etalEoutonfReseahSupportServicesatacadeicLibrarySpealistKnowegeLinkedbyCoreInfrastructure [J]．New Review of Academic Librarianship，2018.[31]Reie，ufnJPYeVirgnWilSale:UsingatatersoalieHigVoeRefereInteracisJ]JoualfcdecLibrarianship，2016，42（1)：21-26.[32]Tsunekage，spC，ogCtalItegatingoatioLiteacyigItoIuBasedrouctoryologLoato]Journal of Biological Education，2019 $( 4 ) : 1 - 8$ [3]JaguszewskiJM.NewRoesforNewTimes:TransformingLiaisonRolesinResearchLibraries[EB/OL]．2019-04-20ttp://www.arl.org/component/content/article/6 /2893.[34]NCSU.Library Course Tools [EB/OL]．[2019 -O7-31]． https://www.lib.ncsu.edu/course/.[35]TheACRLResearchlaingandReviewCommite.26TopTrendsinAcademicLibraries:AReviewoftheTrendsandIsusffectingAcademicLibrariesinHigherEducationEB/OL]2019-04-19]hps://crlnacrl.org/idexph/crlnews/article/view/9505/10798.[36]TheACRLResearchPlanningandReviewCommite.2018TopTrendsinAcademicLibraries[EB/OL]．2019-04-19]https://crln.acrl.org/index.php/crlnews/article/view/17001/18750.[37]SimovicA.ABigDataSmartbraryRecommenderSystemforanEducatioalIstitutionJ].LibraryHTech，2O18，36（3)：498-523.[38]Ferreeo，edDongVztolBsdUrfldtaeEangcti].Soft Computing，2012，16（7)：1129-1141.[39]RenaudJ，ri，WangD，taigLbraandUniversiataUndersadLibraryUats[J]eEletroLb,33(3): 355 -372.[40]CapuanoN，GaetaM，RitrovatoElicitationofLatentLeaingNeedsTroughLeaingGoalsRecommendationJ]ComputersinuanBehavior，2014，30（1)：663-673.[41]Heidorm PB.Shedding Light onthe Dark DataintheLong Tail of Science[J].Library Trends，2008，57（2），280-299.[42]刘庆麟．基于小数据的图书馆精准服务研究[J]．图书馆工作与研究，2017（5)：45-50.[43]李立睿，邓仲华．“互联网 $^ +$ ”背景下科研用户的小数据融合研究[J]．图书情报工作，2016（6)：58-63.[44]杨晓刚，姜毅，张璠，王伟军．基于大数据技术的用户小数据管理[J]．情报理论与实践，2018（3)：29-33，15.[45]王欣，张冬梅，闫凤云，田文英．大数据环境下基于科研用户小数据的图书馆个性化科研服务研究[J]．情报理论与实践，2017（10)：85 -90,95.[46]李立睿，邓仲华．面向科研用户小数据的微知识服务研究（上）[J]．图书与情报，2016（3)：49-54.[47]李立睿，邓仲华．面向科研用户小数据微知识服务研究（下）——基于系统动力学的视角[J]．图书与情报，2016（5)：110-118.[48]库珀．交互设计之路[M]．北京：电子工业出版社，2006：118-122.[49]顾立平．基于Web2.0型人的数字图书馆交互界面设计[J]．图书情报工作，2008（9)：130-133.[50]陈添源．高校移动图书馆用户画像构建实证[J]．图书情报工作，2018（7)：38-46."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "original_filename": "full_415.md",
+  "iSchools 院校图书情报的信息聚合发展趋势分析\\*": {
+    "context1": "郭婷陈红蕾(国防科技大学图书馆长沙410003)",
+    "context2": "摘要[目的/意义]为了得到信息聚合发展现状和趋势,以iSchools院校图书情报的信息聚合发展趋势为对象进行分析。[方法/过程]利用RSS 在iSchools院校数据库中查询并获取信息聚合有关成果，构成与研究条件相符的对象集合,根据数据预处理法实现数据处理，其中包含将对象集合内各统计特征分布情况与关联性依据相应方式计算或者转换,获取相关研究的增长率、高频词汇分布情况和时间-关键词矩阵，并从相关成果增长率、主题分布和新兴主题检测等方面实现图书情报的信息聚合发展趋势分析。[结果/结论]分析结果表明:从论文发表数量层面看，年度论文的总发表量呈线性增长;热点分布趋势为文献关键词的整体规范性比较强，同义表述情况基本上不存在，高频关键词针对性不是很强;主题分布主要集中在信息聚合下应用实践、数据处理视角下知识管理、公共服务视角下信息数据聚合方面;新兴主题趋势为信息环境类主题、本体和语义网类主题、数据科学和机器学习及数据分析等主题。",
+    "context3": "关键词:iSchools 院校;图书情报;信息聚合;主题分布;高频关键词;统计特征中图分类号:G250 文献标识码:A 文章编号:1002-1965(2020)09-0195-05引用格式:郭婷,陈红蕾.iSchools院校图书情报的信息聚合发展趋势分析[J].情报杂志,2020,39(9)：195-199.DOI: 10.3969/j.issn.1002-1965.2020.09.031"
+  },
+  "Analysis on the Development Trend of Information Aggregation of Library and Information in iSchools": {
+    "context1": "Guo TingChen Honglei",
+    "context2": "(National University of Defense Technology Library，Changsha410003)",
+    "context3": "AbstractPurpse/ignianceIdertoainecurrnttatusandredsofiforatiaggegatiothevelopmetredofin formationaggregationoflibraryandinformationiniScholscollegesisanalyzd.Metod/ProcessThispaperusesRSStoquerynd obtaininforaoggegasultsinatabseofosclgstofctsettatetstheachodiiosd plementsdataprocessngcodingtedatapreprocessingeod,hchincudeslculatingovertigtedistrbutoofious statiticalfeauresdelevaceiectscodingteospoingetd,ttaintgrowthteofelevatsate distributionofigfreqencycabularyndthikyodatridalithoationgeationoflbardotio fromthegrowthrateofrelevantachievements,tedistributionoftopicsandthedetectionofmergngtopicsdevelopmenttrendanalysis. [Result/onclusion]Thenalysisresultsshowthat:fromtheperspectiveofthenumberofpaperspublished,tetotalnumberofaual paperspublisdncreaslearlytetrendoftspotdistrbutnisatthoveraltadardatioofliteratureeydsislatiely strong,andteoousepresiossicalldtexistefreuecyeyodsetpreiselyargeed；teocisttio mainlyfocusesoaicatipacticeriforatiogegatioodgeageentfroespectieofatapogd inforationdataaggregationfromteperspectieofpublicsvices；mergingtopictrendsareiformationenvionmentopicsotology， and semantic web topics,data science and machine learning and data analysis topics.",
+    "context4": "Keywords:iholscolges；libraryandinformation；informationagregation；temedistrbution；highfrequencykeyods；statistical",
+    "context5": "characteristics"
+  },
+  "0引言": {
+    "context1": "当前信息技术发展日新月异，在多学科交互融合发展和社会需求日益变化下，图书情报和档案管理也在与时俱进,顺应时代的发展而改变[1-2]。iSchools 联盟主张从跨学科的角度理解信息管理所带来的机遇和挑战，而普遍可用和以用户为中心的信息组织等概念是该联盟的核心承诺。与iSchools 联盟共同努力，将传统的图书馆学、情报学、档案学、信息科学和信息技术等教育项目提升为适合新时代的信息教育项目。这个联盟提倡各成员机构开展信息教育，其目标是利用信息和技术进行跨学科思考，发挥人类潜能最大化。iSchools联盟是致力于推动信息领域发展的一个国际信息学院联盟，研究其院校图书情报信息聚合情况，对我国相关领域发展有着非常重要的意义。",
+    "context2": "当前有关iSchools 院校图书情报的信息聚合发展趋势分析通常以个别国家和院校为对象进行研究，将iSchools联盟整体当作对象进行研究的成果较少。尽管个例分析可以为我国的图书情报学科建设提供一定意见和建议，然而无法反映出图书情报和档案管理整体的发展趋势，由此非常有必要扩大分析范围,全方位了解图书情报和档案管理的信息聚合发展趋势[3-4] 。与此同时，信息聚合学科建设在技术不断发展和社会需求下日益更新，iSchools院校图书情报的信息聚合相关调研也要与时俱进及时更新。现阶段,我国关于图书情报和档案管理的信息资源聚合整体特征和发展趋势研究成果不断出现，以下列成果为例进行分析。",
+    "context3": "张云中[5等人通过主题图对信息资源聚合有关研究成果进行剖析，并以此为基础设计构建数字档案，基于主题图的信息资源聚合模型,进而给出档案信息资源的主题类型和关联性及资源指引情况，实现数字档案信息资源聚合分析。田儒雅[等人构建一个知识合作超网络,将该网络模型应用在图书情报的具体实例中。实例结果显示,知识合作子网的特征分析能够描述出知识合作中作者合作和机构合作以及文献主题等一系列特征信息，且超网络中超边特征分析能够描述出作者偏好,构建作者标签模型,方便聚类分析，确定图书情报的知识合作与资源聚合情况。",
+    "context4": "综合上述成果分析,在图书情报领域,信息聚合的整体发展趋势有待进一步明确和预测，关于iSchools院校图书情报的信息聚合发展趋势分析，利用以下内容实现。"
+  },
+  "1iSchools院校图书情报的信息聚合发展趋势": "",
+  "1.1数据来源和研究框架信息聚合历经多年发": {
+    "context1": "展已经成为各大领域的热点课题，然而当前还没有给出清晰和规范的定义。综合国内外关于信息聚合的应用与分析,给出了图书情报领域中信息聚合的内涵和有关概念描述（见表1）。",
+    "context2": "表1图书情报领域中信息聚合的内涵和有关概念描述",
+    "context3": "<table><tr><td>领域</td><td>图书情报</td></tr><tr><td>相似概念</td><td>资源、数据、信息、知识资源聚合、知识资源整合、知识融 合、聚合检索等</td></tr><tr><td>概念描述</td><td>1.检索同时聚集网络上各种格式与粒度的信息资源块 2.基于用户复杂需求，针对来源比较分散的各种类型数据 资源进行爬取、筛选和整合，并最终呈现给用户 3.针对网络上数据资源进行聚集、挖掘及融合，目的为解 决分布式和异构式的数据资源共享与融合等问题，以此为 用户提供更加精准可靠且富有个性化的服务</td></tr><tr><td>应用范围</td><td>网络资源</td></tr><tr><td>技术方法</td><td>交叉垂直聚合检索、信息资源查询、自然语言生成等</td></tr></table>",
+    "context4": "在此,需要针对iSchools 院校图书情报的信息聚合发展趋势进行分析，因此数据来源为iSchools联盟院校。样本筛选规则为：学科发展水准优于我国，且与图书情报有关。该联盟有关信息聚合的课程分类见表2,其中大致包含了iSchools 院校图书情报和档案管理中信息研究相关课程。",
+    "context5": "表2iSchools院校图书情报和档案管理中信息相关课程",
+    "context6": "<table><tr><td>序号</td><td>课程</td><td>序号</td><td>课程</td></tr><tr><td>1</td><td>信息技术支持</td><td>5</td><td>信息资源和服务</td></tr><tr><td>2</td><td>信息组织</td><td>6</td><td>信息机构管理</td></tr><tr><td>3</td><td>信息检索和保存</td><td>7</td><td>信息学交叉学科</td></tr><tr><td>4</td><td>信息挖掘</td><td></td><td></td></tr></table>",
+    "context7": "在一个特定领域，某部分的成长性分析过程中，一般会重点关注两方面：其一为相关研究的增长性与积累性,其二为相关主题分布的整体继承性与动态发展趋势[7-8]。假设某研究领域在各时间窗口范围内,亦或是不同的研究区域范围内整体表现不一样，即相关研究增长趋势或者相关主题的分布特征存在差异，则认为该研究在异构环境下发展趋势存在差异性。",
+    "context8": "根据上述内容，设计的研究架构如图1所示。其中，在iSchools 院校数据库中查询并获取信息聚合研究的有关成果,构成与研究条件相符的对象集合，根据数据预处理法实现数据处理,其中包含将对象集合内各统计特征分布情况与关联性依据相应方式计算或者转换,获取相关研究的增长率、高频词汇分布情况和时间-关键词矩阵,并从相关成果增长率、主题分布以及新兴主题提取等方面实现图书情报的信息聚合发展趋势分析。",
+    "context9": "1.2研究方法由于信息聚合已经成为信息组织与社会资源共享的主要方法之一，分别在社会化推荐和文献资源聚合以及情报信息融合等方面均有着十分重要的应用。因此无论是国内还是国外，对该课题的研究从未间断。这在一定程度上说明了iSchools 院校中信息聚合有关内容也不少，为了高效采集iSchools院校数据库中的相关资源，引入RSS完成数据信息采集任务。其中，RSS 聚集了RSSFeed 收割器和信息服务平台以及RSS 信息推送等模块，RSS 是在线内容共享的简易方式，各种类别的信息通过RSS发送，可有效采集iSchools 院校数据库中与目标对象有关的信息。通过RSS 去采集 2015-2019 年的数据源为25个,其中采集成功的数据源为24个，通过去重处理,获得的数据源为21个。",
+    "context10": "当前，很多研究成果均是通过数据统计法针对不同阶段与类型的文献集合实行统计分析获取规律性结果[9。主题分布规律分析方面,比较常用的方法与模型包含多维尺度分析和社会网络分析等。基于上述分析,利用下述方法实现图书情报的信息聚合发展趋势分析。",
+    "context11": "式中， $N _ { 1 } \\setminus N _ { 2 }$ 分别代表 $t _ { 1 } \\setminus t _ { 2 }$ 顺序时间段内文献成果的总积累数。",
+    "context12": "$$\n\\mathrm { D } _ { t } = { \\frac { \\left( t _ { 2 } - t _ { 1 } \\right) \\ \\mathrm { I n } 2 } { \\left( \\mathrm { I n } N _ { 2 } - \\mathrm { I n } N _ { 1 } \\right) } }\n$$",
+    "context13": "1.2.2多维尺度分析此种分析方法为一种比较常用的热点分析法或者主题挖掘法，还是一种普遍的知识图谱构建工具，最根本的思想为利用维度归约法把高维空间对象转换或者映射至平面中，同时保留对象之间原始关系[10-]。平面区域范围内,对象间亲疏关系或者相似程度能够利用距离远近直观呈现出来,同时能够利用关键词所在位置识别对应主题在研究领域成熟情况。",
+    "context14": "倍增时间 $\\mathrm { D } _ { \\mathrm { t } }$ 为判断给定RGR的文献成果数量翻番需要的时长,该指标的计算表达式如下：",
+    "context15": "![](images/e990715cc0e5c049f9f6213202ee3fccd91f27c60d2a6b86889b106cb4757b5c.jpg)  \n图1研究架构",
+    "context16": "1.2.3新关键词权重值计算和新兴主题检测当前研究一般是将高频低频词分解计算式和词频h指数等统计法当作关键词频的显著变化衡量标准，同时将其当作某个领域研究主题整体变化的衡量依据[12-13]。但是,该类统计法只是将关键词出现频率当作权重度量的依据，很容易有同量不同质等问题，还无法很好地兼顾词频增长率与稳定程度，更无法精准对比相同关键词在各时间窗口范围内明显差异。根据上述分析，考虑到词频稳定程度与差异性，给出下列关键词权重计算与新兴主题检测法。",
+    "context17": "其中，关键词权重值的计算表达式为:",
+    "context18": "$$\nW _ { k _ { i , j } } = \\frac { f r e q ( k _ { i , j } ) } { \\displaystyle \\sum _ { i = 1 } ^ { m } f r e q ( k _ { i , j } ) } \\times \\log _ { 2 } \\left( \\frac { \\displaystyle \\sum _ { j = 1 } ^ { n } f r e q ( k _ { i , j } ) } { f r e q ( k _ { i , j } ) } \\right) \\times \\alpha\n$$",
+    "context19": "式(3)中， $m \\ 、 n$ 代表不同关键词数量与时间窗口数量， $f r e q ( k _ { i , j } )$ 代表第 $i$ 个窗口第 $j$ 个关键词词频, $\\alpha$ 代表第 $i$ 个窗口中发文量与总发文量之间比例。",
+    "context20": "1.2.1相对增长率和增倍时间有关文献增长趋势的量化方法为相对增长率RGR和倍增时间 $\\mathrm { D } _ { \\mathrm { t } }$ 。其中，RGR定义为与时间有关的文献增长率衡量标准,是一种指数型模型。该指标的计算表达式为：",
+    "context21": "$$\n\\mathrm { R G R } = { \\frac { ( \\mathrm { I n } N _ { 2 } - \\mathrm { I n } N _ { 1 } ) } { ( t _ { 2 } - t _ { 1 } ) } }\n$$",
+    "context22": "根据权重值计算表达式可知， $\\boldsymbol { W } _ { k _ { i , j } }$ 利用关键词词频可以高效缓解同量不同质等问题产生的不良影响，并且还能兼顾词频稳定性与差异性[14-15]。主要原因为： $\\alpha$ 能够考虑到发文量带来的影响，且$f r e q ( k _ { i , j } ) \\ / \\sum _ { i = 1 } ^ { m } f r e q ( k _ { i , j } )$ 描述了关键词 $k _ { i , j }$ 单位时间窗□中出现频率占据总频次的比例，也就是词频的增长率与词频的稳定程度具有相关性，另外,$\\log _ { 2 } \\Big ( \\sum _ { j = 1 } ^ { n } f r e q ( k _ { i , j } ) ~ / f r e q ( k _ { i , j } ) ~ \\Big )$ 描述了关键词 $k _ { i , j }$ 和单位时间窗口中关键词总数之间相关性,也就是考量到关键词在各个时间窗口内表现出的差异性，可以高效提升新兴关键词权重值。",
+    "context23": "基于 $\\boldsymbol { W } _ { k _ { i , j } }$ 计算,提出新兴主题识别法,详细过程为：先与高频词阈值识别法结合获取时间-关键词的二维矩阵，同时依据新关键词权重值计算法将二维矩阵转化为具有规范性的二维矩阵;假设某个关键词在某窗口中首次出现或者以比较大的权重值突发出现，同时在其后的多个窗口中均可以维持基本稳定或者增长,那么能够将其当成该时间窗口中一个新兴关键词。经多次测试探索了解到，假设某个关键词在两临近窗□中权重比值 $\\geqslant 2$ ,则能够判断该关键词是该窗口中新兴主题。"
+  },
+  "2结果与分析": {
+    "context1": "通过上述方式得到数据源，并且进行判重和去除不可利用文献后，根据相对增长率和增倍时间、多维尺度分析、新关键词权重值计算和新兴主题检测等步骤，得到的iSchools 院校图书情报的信息聚合发展趋势结果如图2所示。",
+    "context2": "2.1研究成果增长趋势基于相对增长率RGR以及倍增时间 $\\mathrm { D } _ { \\mathrm { \\Omega } _ { \\mathrm { f } } }$ 计算，计算结果如图2所示。分析研究成果增长趋势可知：从论文发表数量层面看，年度论文的总发表量呈线性增长。",
+    "context3": "![](images/1a7b06ea1887c534f8f72ade5d80a4128de4e8a81c1b7bdeccdbf304763943ab.jpg)  \n图2年度论文的总发表量增长趋势示意图"
+  },
+  "2.2研究热点分布趋势": {
+    "context1": "表3为部分关键词列表，排名不分先后。",
+    "context2": "表3部分关键词列表",
+    "context3": "<table><tr><td>序号</td><td>关键词</td><td>序号 关键词</td></tr><tr><td>1</td><td>知识管理</td><td>11 图书馆</td></tr><tr><td>2</td><td>集成</td><td>12 互联网</td></tr><tr><td>3</td><td>信息检索</td><td>13 知识整合</td></tr><tr><td>4</td><td>信息</td><td>14 管理</td></tr><tr><td>5</td><td>知识</td><td>15 性能</td></tr><tr><td>6</td><td>信息技术</td><td>16 协作</td></tr><tr><td>7</td><td>知识共享</td><td>17 互通性</td></tr><tr><td>8</td><td>创新</td><td>18 社交媒体</td></tr><tr><td>9</td><td>案例分析</td><td>19 信息系统</td></tr><tr><td>10</td><td>信息素养</td><td>20 地理信息系统</td></tr></table>",
+    "context4": "表3中，从关键词语义整体概率程度与分布角度观察，文献关键词的整体规范性比较强,同义表述基本上不存在,然而高频关键词针对性不是很强，例如整合、管理等词汇，重点关注点为知识信息管理中有关信息或者知识方面的聚合和协同等。总体而言，部分高频词汇表达出了技术或者实践色彩，但其中也不乏人文关怀。",
+    "context5": "2.3研究主题分布和变化趋势针对得到高词频关键词构建一个相异矩阵,将该矩阵导入SPSS 中实行多尺度分析，获取对应多维尺度知识图谱，详细如图3所示，其中包含部分研究主题分布。",
+    "context6": "![](images/87e32f22f1540f0b7d5d6d237225a6369e8b10067d1dd12b921f4812ef75a437.jpg)  \n图3部分研究主题分布图谱",
+    "context7": "2.4新兴主题趋势分析与传统图书情报比较，iSchools院校中出现的新兴信息主题非常多，部分内容如图4所示。",
+    "context8": "![](images/a6ffe217de54c2892eefb94fc129b8f53d8421a9b37f19b07ce8862a97df4417.jpg)  \n图4新兴主题趋势",
+    "context9": "由图4可知,新兴主题包含信息环境和理论下的信息环境类主题;信息组织下的本体和语义网类主题;信息检索和保存下的信息保存与人机交互类主题;信息伦理下的隐私和知识产权保护类主题;信息学交叉下的健康信息和社会信息类等主题;信息挖掘下的数据科学和机器学习及数据分析等主题。",
+    "context10": "除了包含上述主题,还有一些类似图书馆-供应链-数字图书馆-电子学习-电子政务-GIS-电子健康这样的路径，倾向于电子医疗和社交媒体等方面的信息聚合。"
+  },
+  "3结论": {
+    "context1": "信息聚合作为各领域关注的焦点，相关研究成果众多，针对iSchools院校图书情报的信息聚合发展趋势进行分析。研究过程中，首先对相关信息进行采集，然后分别通过不同方法对相关研究增长、热点分布、主题分布和变化趋势、新兴主题趋势等方面进行计算分析,获取最终结果。上述只是针对图书情报领域中的信息聚合发展趋势进行分析，接下来可将研究范围拓展到经济学和社会科学等方面，以进一步优化信息聚合技术。"
+  },
+  "参考文献": {
+    "context1": "[1］赵蓉英.近三年国际图书情报学研究热点比较分析[J].情报科学，2019,37(4):3-9.  \n[2] 王福.数字资源聚合误差控制视角下的个性化服务模型构建[J].图书馆杂志,2017,36(11):37-46.  \n[3]胡媛,胡昌平.基于知识聚合的数字图书馆社区推送服务组织——以武汉大学数字图书馆社区为例［J].国家图书馆学刊，2016,25(2):66-76.  \n[4] Nguyen TT,Pham XC,Liew WC,et al.Aggregation of classifi-ers:A justifiable information granularity approach［J].IEEETransactions on Cybernetics,2017(99) :1-10.  \n[5］张云中,冯双双.基于主题图的数字档案标注系统资源聚合研究［J].图书情报工作，2018,62(14):116-124.  \n[6] 田儒雅，孙巍，吴蕾，等.基于超网络的图书情报领域知识合作特征分析[J].情报理论与实践， $2 0 1 6 , 3 9 ( \\ 1 0 ) : 2 5 - 3 0$   \n[7] Qian J,Qiu F,WuF,et al.Privacy-preserving selective aggrega-tion of online user behavior data[J].IEEE Transactions on Com-puters, $2 0 1 6 , 6 6 ( 2 ) : 1$   \n[8] Mesiar R,Borkotokey S,Jin L S,et al.Aggregation under uncer-tainty[J].IEEE Transactions on Fuzzy Systems,2018,26(4):2475-2478.  \n[9] Gagolew ski M,Perez-Fernandez R,BaetsBD .An inherent diffi-culty in the aggregation of multidimensional data［J].IEEETransactions on Fuzzy Systems,2019,99:1.  \n[10]吕海华.图书情报界云计算研究对比分析[J].情报科学,2019,37(4) : 165-170.  \n[11]闫晶,毕强,李洁.数字图书馆资源聚合质量评价指标构建[J].图书情报工作,2017,61(24):5-12.  \n[12]郭得科,罗来龙，李妍,等.数据中心内Incast 流量的网内聚合研究[J].计算机研究与发展， $2 0 1 6 , 5 3 ( \\ 1 ) : 5 3 - 6 7 .$   \n[13］蒋婷,孙建军.基于 SVR 模型的中文领域术语自动抽取研究—面向图书情报领域[J].情报理论与实践,2016,39（1)：24-31.  \n[14］高俊峰.网络舆情事项中信息受众体的参与动机分析[J].图书情报工作， $. 2 0 1 6 , 6 0 ( 9 ) : 9 1 - 9 8 .$   \n[15]李晓瑛.复杂网络理论及其在图书情报领域的应用研究[J].情报科学，2016,34(10):95-98.",
+    "context2": "(责编/校对:刘影梅)"
+  },
+  "(上接第102页)": {
+    "context1": "laborative filtering［J].Technological Forecasting & Social Change,2017,118:170-183.   \n[6]李乾瑞,郭俊芳,朱东华.新兴技术创新机会识别方法研究[J]. 中国软科学,2018(11):138-147.   \n[7]Seo W,Yoon J,Park H,et al.Product opportunity identification based on internal capabilities using text mining and association rule mining［J].Technological Forecasting & Social Change, 2016,105:94-104.   \n[8] 王友发,张茗源,罗建强,等.专利视角下人工智能领域技术机 会分析[J].科技进步与对策，2020,37(4)：19-26.   \n[9] 黄鲁成,王静静,李欣,等.基于论文和专利的钙钛矿太阳能 电池的技术机会分析[J].情报学报，2016,35(7)：686-695.   \n[10]Kwon H,Kim J,Park Y.Applying LSA text mining technique in envisioning social impacts of emerging technologies:The case of drone technology[J].Technovation,2017,6O:15-28.   \n[11]吴菲菲,李睿毓,黄鲁成.基于多源数据的企业研发方向识别 与评估[J].情报杂志， $2 0 1 8 , 3 7 ( \\ 1 0 ) : 8 2 - 8 9 .$   \n[12]Orlov L M.Technology for Aging in Place:2018 Market Overview[R].The US:Aging in Place Technology Watch,2018.   \n[13]Ghosh R,Lindeman D,Ratan S,et al.The new era of connected aging:A framework for understanding technologies that support olderadults in aging in place[R].The US:University of California,Berkeley,2014.   \n[14]Shishehgar M,Kerr D,Blake J.A systematic review of research into how robotic technology can help older people［J].Smart Health,2018(7):1-18.   \n[15]黄鲁成,李晋,苗红,等.基于老年人科技产品需求的研发 [J].技术经济,2019,38(1):19-27.   \n[16]黄鲁成,薛爽.机器学习技术发展现状与国际竞争分析[J]. 现代情报， $2 0 1 9 , 3 9 ( \\ 1 0 ) : 1 6 5 - 1 7 6 .$   \n[17］张蕾,袁晓慧.基于定性比较分析的生育保护政策国际比较 [J].社会保障研究， $2 0 1 9 ( \\ 4 ) : 8 7 - 9 4$   \n[18］王旭东,潘东华.基于德温特手工代码的技术分析方法研究 [J].情报理论与实践,2017,40(10):96-99,105.   \n[19]黄鲁成,李晋,吴菲菲.老年科技重点创新领域的竞争态势 分析[J].情报杂志，2019,38(6):57-63,71.   \n[20]Harhoof D,Narin F,Scherer FM,et al.Citation frequency and the value of patented inventions[J].The Review of Economics and Statistics,1999,81(3) :511-515.",
+    "context2": "(责编/校对:王平军)"
+  }
+}

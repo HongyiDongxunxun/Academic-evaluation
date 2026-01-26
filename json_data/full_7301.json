@@ -1,0 +1,77 @@
+{
+  "original_filename": "full_7301.md",
+  "无线射频识别技术及其在图书馆的应用现状": "",
+  "辛苗": {
+    "context1": "（内江师范学院，内江 641112)",
+    "context2": "〔摘要]本文对无线射频识别技术（RFID）及其在图书馆中的应用现状进行了概述，并对RFID技术在图书馆应用的障碍因素进行了探讨。",
+    "context3": "[关键词]RFID；图书馆；自动识别",
+    "context4": "〔Abstract]This paper summarizes radio frequency identification（RFID）and itsapplication in the libraries，",
+    "context5": "[Key words]RFID；library；automatic identification [中图分类号]G250.7〔文献标识码]A〔文章编号〕1008－0821（2007）01—0161－03",
+    "context6": "无线射频识别技术，即 RFID（Radio Frequency Identification）最早是二战期间英国的飞机识别技术。经过了许多年的应用的演变和技术的发展，这项技术现在正在被广泛应用到物流、医疗、制造业等多个行业。在各个国家和行业的关注下RFID技术的应用正在迅猛发展。作为快速、实时、准确采集与处理信息的高新技术和信息标准化的基础，RFID 已经被世界公认为本世纪十大重要技术之一。美国兰德公司日前发表了题为《2020 年的全球技术革命》研究报告，RFID入选 2020 年全球最广泛应用技术。RFID是本世纪最有发展前途的高科技市场之一：业界预言，2006 年将是 RFID产业应用发展的一个里程碑，众多行业都将逐步采用这一革命性的技术。比如药物、医学、物流等领域都受益于RFID技术，而RFID在图书馆中的应用已经是得到事实证明。"
+  },
+  "1 RFID 技术概述": {
+    "context1": "RFID俗称电子标签，是一种非接触式的自动识别技术，它通过射频信号自动识别目标对象并获取相关数据，识别工作无须人工干预，可工作于各种恶劣环境。RFID 技术可识别高速运动物体并可同时识别多个标签，操作快捷方便。埃森哲实验室首席科学家弗格森认为RFID是一种突破性的技术：第一，可以识别单个的非常具体的物体，而不是像条形码那样只能识别一类物体；第二，其采用无线电射频，可以透过外部材料读取数据，而条形码必须靠激光来读取信息；第三，可以同时对多个物体进行识读，而条形码只能一个一个地读。",
+    "context2": "最基本的 RFID 系统由三部分组成： $\\textcircled{1}$ 标签(Tag)：由耦合元件及芯片组成，每个标签具有惟一的电子编码，附着在物体上标识目标对象； $\\textcircled{2}$ 阅读器（Reader)：读取（有时还可以写入）标签信息的设备，可设计为手持式或固定式； $\\textcircled{3}$ 天线（Antenna)：在标签和读取器间传递射频信号。",
+    "context3": "RFID技术是一项利用射频信号通过空间耦合（交变磁场或电磁场）实现的无接触式信息传递并通过所传递的信息达到识别目的的技术。其工作原理为：当带有电子标签的物品在读写器的可读范围时，读写器发出的查询信号将会激活标签，标签根据接收到的查询信号要求反射信号，读写器接收到标签反射回的信号后，经过内部电路的解码处理可无接触地读取并识别电子标签中所保存的电子数据，从而达到自动识别物体的目的。然后进一步通过计算机及计算机网络实现对物体识别信息的采集、处理及远程传送等管理功能。",
+    "context4": "RFID技术的典型应用领域包括：物流和供应管理，生产制造和装配，航空行李处理，邮件/快运包裹处理，文档追踪/图书馆管理，动物身份标识，运动计时，门禁控制/电子门票，道路自动收费等。根据ABI调查公司的报告，RFID 应用在物流和图书馆最为成功。"
+  },
+  "2RFID技术在图书馆的应用现状": {
+    "context1": "RFID被美国《商业周刊》等知名媒体列为21世纪将对世界产生重大影响的十大重要技术之一，不仅技术本身具有非常好的产业化发展前景，同时其应用也将对整个图书馆界产生重大影响。目前，该技术在欧美及亚洲发达国家的图书馆已经得到了重点开发和推广应用。"
+  },
+  "2.1 RFID技术在图书馆的应用": {
+    "context1": "作为RFID技术的典型应用领域，目前，图书馆应用RFID 技术能够实现如下功能：",
+    "context2": "2.1.1简化借还书作业：目前图书馆的纸本数据除用光学条形码作为每一本书的辨识码外，为安全理由，还需加贴磁条，以防图书未经许可被携出。应用RFID技术，以RFIDTAG取代条形码及磁条，借还书时可免除消磁及上磁的工作。",
+    "context3": "2.1.2加速盘点作业：由于条形码阅读机必须在近距离而且没有物体阻挡下，才可以辨读条形码，因此，盘点时须自书架上将每一本书取出。RFIDTAG以无线电波传递讯号，并可一次读取数个RFID TAG 数据，简化盘点工作。",
+    "context4": "2.1.3容易协寻不在架上或归错架位的图书：利用无线电波感应，使得图书协寻工作较为容易。",
+    "context5": "2.1.4读者自助借还书：搭配自助借书外围设备，读者可自行办理图书借阅；搭配自动还书外围设备，读者可自动办理还书处理。",
+    "context6": "2.1.5解决图书被毁被盗问题：由于每一本图书都有不同的物理特性，该系统是在图书借阅时将测量到每一本书的物理特性存储到具有感应读写功能的 RFID 电子芯片内，在图书归还时利用本系统再一次检测图书的物理变化，从而判断其是否被破坏，达到图书、档案防盗的目的。"
+  },
+  "2.2 RFID图书馆管理系统解决方案": {
+    "context1": "下面介绍清华同方推出的RFID图书档案管理系统解决方案："
+  },
+  "2.2.1系统结构": {
+    "context1": "清华同方RFID图书档案管理系统主要包括5个部分：",
+    "context2": "(1）数据中心：由中心数据服务器和管理终端组成。是系统的数据中心，对图书档案管理信息、借出和归还信息集中进行储存和处理。",
+    "context3": "(2）图书档案编目入库系统：由管理终端和标签发行/打印终端组成。完成图书档案信息RFID标签的统一制作、以及对新进图书或档案装入RFID 标签等工作。",
+    "context4": "(3）流通管理系统：管理员在用户借出时在标签内写入相关信息。管理员在用户归还时检验图书或档案是否被损或修改，并验证RFID 标签内信息。",
+    "context5": "（4）查询系统：使用管理终端和手持机可以方便地查询每一本图卡或档案的位置。",
+    "context6": "（5）系统管理：对系统功能及权限设置，账号管理等。"
+  },
+  "2.2.2系统功能": {
+    "context1": "清华同方RFID 图书档案管理系统主要实现以下功能：",
+    "context2": "(1）实现图书或档案信息的编目，综合统计与查询、借出归还管理功能。",
+    "context3": "（2）馆内所有图书上的RFID标签配合图书馆的保安系统可以防止有人未经许可就取走图书，避免图书丢失。",
+    "context4": "（3）图书上的RFID标签里写有图书的名称、种类、作者、备注和借书记录等，当用户或管理员在查询系统输入要查找书本或预定书本时，系统会打印输出所需书本及书架所在的方位。",
+    "context5": "(4）精确检测图书或档案是否损坏。即使一页纸的1/16被损坏系统也可准确识别出来。",
+    "context6": "清华同方运用RFID技术开发的图书档案管理系统，可以大大改进管理方式、提高工作效率。"
+  },
+  "2.3RFID技术在图书馆的应用现状": {
+    "context1": "目前，美国、欧洲以及亚洲越来越多的图书馆开始使用或者尝试使用RFID技术。亚洲国家中科技比较发达的新加坡，全部的图书馆系统已经应用RFID技术。中国的深圳图书馆，原有的管理系统将被RFID图书管理系统替换，于今年7月中旬正式投入使用。据统计，目前，美国已有约$2 \\%$ 的图书馆开始使用 RFID 技术；在全球范围内，约有$8 \\%$ 的图书馆使用 RFID 技术。而且，世界大型图书馆应用RFID 技术的速度正以每年 $30 \\%$ 的速率增长。下面是几个应用实例："
+  },
+  "2.3.1新加坡国家图书馆": {
+    "context1": "新加坡国家图书馆是世界上第一个实行RFID技术的图书馆。在新加坡国家图书馆，借书和还书都是自助的。借书时只要把身份证或借书卡插进读卡器里，再把要借的书在扫描器上放一下就可以了。还书过程更简单，只要把书投进还书口，传送设备就自动把书送到书库。同样通过扫描装置，工作人员也能迅速知道书的类别和位置以进行分拣。使用这种技术后，读者在高峰期的等待时间比以往使用传统的条码扫描技术节省了 $80 \\%$ 的时间，凭借这种技术，新加坡国家图书馆的借阅率增长了30倍，而工作人员却减少了2 000人。"
+  },
+  "2.3.2深圳图书馆新馆": {
+    "context1": "2006 年7月开馆的深圳图书馆新馆，在全国率先采用无线射频识别技术即用RFID系统替代传统的条码技术，这个完整的全自动RFID系统是世界上第二大RFID系统，仅次于TAGSYS为华盛顿州西雅图市的西雅图公共图书馆所建造的RFID系统。通过RFID系统，可以实现图书自助借还、图书自助分拣、自动整序排架、自助清点馆藏、智能图书车和射频防盗报警等一系列自动化管理。"
+  },
+  "2.3.3纽约皇后区公立图书馆": {
+    "context1": "全面采用世界上最先进的无线射频识别技术，63个分馆争取年内都将采用这一系统，以实现全馆的数字化接入。该系统将为皇后区的所有读者提供自助式借书程序，可不经过图书馆工作人员的协助完成借书，从而大大提高了书籍的流通量及借书效率，减少了读者借书等候的时间。自动还书箱可让读者在任何时间还书，甚至在图书馆非工作时间也可自动完成还书工作，图书馆工作人员为此免除了繁重的还书工作。同时，方便查找文献资料，系统投入使用后，读者只要手持解读器从书架前走过去，就可以从浩如烟海的图书和文件中，轻轻松松地找到所需要的资料。"
+  },
+  "3RFID技术在图书馆应用的障碍": {
+    "context1": "标准、成本和意识是RFID在中国应用的三大“拦路虎”，同样成为RFID技术在图书馆应用的障碍因素。",
+    "context2": "标准受制于应用缓慢、国家安全、利益纷争等问题而越来越复杂，在早期的RFID应用及研究方面，发达国家在一定程度上领先了一步，并在相关国际标准和知识产权方面具有一定优势。在国内，HF（高频）频段的 RFID产品不断做足、做细的同时，UHF（超高频）频段的RFID 标签和识读设备正在迎头赶上，RFID识读中间件也开始有厂家涉足，出现了一批具有自主知识产权的 RFID产品。但在庆幸于这种乐观景象的同时，我们却不得不为我国RFID 标准制定的严重滞后表示担忧。一位行业分析家断言，中国要想扩大市场，就必须规范其RFID 技术的使用。Research&Markets 分析公司发布了 $2 0 0 5 - 2 0 0 6$ 中国RFID 市场研究报告，警告中国没有确定的RFID 频率分配和技术标准，报告认为中国的RFID行业缺乏能够发言的基础，并且技术也需要改进。所幸的是，我国正在加紧标准的制定工作。",
+    "context3": "成本过高致使RFID 技术的大规模应用还处在“雷声大，雨点小”状态，标准是影响RFID应用普及的一个重要方面，但业内人士认为，随着中国标准和各个相关组织的协调，标准的解决并不是一件难事。因此，RFID的价值或投资回报才是政府、企业CIO 畴躇不前的关键。高成本无疑阻碍了RFID技术在图书馆的广泛应用，但随着技术和市场的发展，RFID的制造成本正在显著降低，随着导电油墨印刷低成本标签天线、低成本分装等技术的普及，成本将随制造规模增加而大幅度降低。因此制约RFID在图书馆应用的成本因素将逐渐减弱。",
+    "context4": "意识的转变需要一个过程，作为一项新技术，不少图书馆对RFID技术的认识还需要时间，因此，还需要相关部门、协会和馆际之间群策群力、联手互动、强力推进。",
+    "context5": "同时，安全问题值得关注，随着射频识别（RFID）技术研究的深入和不断走向实用，安全问题引起了人们的极大关注。由于RFID 标签的计算速度、通信能力和存储空间非常有限。这给RFID系统安全方案的设计提出了诸多挑战。",
+    "context6": "德国专家声称：至少还要15年RFID才能取代条形码。专家将RFID芯片的高价格和与一些产品的信号干扰看作是RFID 技术大规模普及需要解决的主要问题。"
+  },
+  "4结语": {
+    "context1": "随着应用的演变和技术的发展，RFID技术在图书馆的应用由理论探讨逐渐进入实践阶段，事实证明，RFID技术将给图书馆管理带来历史性的变革，它的应用不仅仅是解放馆员，节约人力，方便读者，提高效率，更重要的是图书馆服务理念的变革。在21世纪，图书馆需要在公众中树立这样一个形象：能够针对新信息新形式及时快速的做出反应并能提供最新的服务，这也将成为未来衡量一个图书馆好坏的标准。我们只有始终不断的学习新技术才能生存下去，新的技术在不断推进图书馆事业的发展，而促使新技术在图书馆应用的是不断创新的服务意识。"
+  },
+  "参考文献": {
+    "context1": "[1]李贻军．RFID技术及RFID标签浅析[J]．印刷技术,2006，(9)：41-43.  \n[2]RFID图书档案管理系统[EB]．http://www $\\cdot$ card · thtf .com·cn/Application/ $\\mathrm { a 1 1 . h m }$ ，2006—08—19.  \n[3]暴虐台风过后RFID助图书馆重建[EB]．http：//www $\\cdot$ rfidinfo $\\mathbf { c o m } \\cdot \\mathbf { c n } / \\mathbf { c a s e } / \\mathrm { P r i n t } \\cdot \\mathbf { a s p }$ ？ArticleID $= 4 0 3 1$ ， $2 0 0 6 -$ $0 6 - 2 9$   \n[4]新加坡：无线射频技术使图书借阅率增长30倍[EB].http: // www $^ { \\ast } \\cdot$ cctv $\\cdot$ com/program/jjxxlb/20060815/101288. $\\mathrm { s h m l }$ ，$2 0 0 6 - 0 8 - 1 5$   \n[5]陈欣，郎为民，王建秋，等．射频识别技术安全问题[J]．电子技术，2006，33(4)：37－40."
+  },
+  "（上接第160页）": {
+    "context1": "[7]朱爱红，李连．基于内容的音频检索综述[J]．微机 发展，2003，13（12)：58-60，64.   \n[8]Hauptmann，A·G·，and Smith，M.，Text，speech and vision for video segmentation：the informedia project [C]·AAAI Fall Symposium·Computational Models for Integrating Language and Vision，Boston，November $1 0 - 1 2$ ，1995．Postscript available   \n[9]M·Wechaler and P·Schauble Speech retrieval based on automatic indexing [C]．Proceedings of the MIRO workshop，Sep· 1995   \n[10]M·G·Brown，J·T·Foote，G·J·F·Jones，K·Sparck Jones and S J·Young·Video mail retrieval by voice：an oveiview of the Cambridge/Olivetti retrieval system [C]·2nd ACM International Conference on Multimedia Workshop on Multimedia Data Base Management，SanFrancisco·U·S.A·，47—55．November 1994 [11]L·Wilcox，F.Chen，and V.Balasubramanian·Segmentation of speech using speaker identification [C]·Proceedings of ICASSP 94．vol．Sl，April 1994   \n[12]D·Kimber and L.Wilcox·Acoustic segmentation for audio browsers [C]．Proceedingsof Inteiface conference，Sydney, Australia，July 1996   \n[13]McNab R·J.，Smith L·A·and Witen I·H· Signal process ing for melody transcription [C]·Australasian Computer Science Conference，pp3Ol － 3O7，Melbourne，Australia，January· 1996   \n[l4]柳群英．基于内容的音频信息检索技术[J]．现代情 报，2005，25 (6)：91-93.   \n[15]Usage of the MELDEX Digital Music Library [EB]·http :// citeseer:ist:psu:edu/cache/papers/cs/25295/http:zSzzSzis$\\mathrm { m i r 2 0 0 1 }$ .indiana· eduzSzposterszSzmcpherson pdf/ mcphersonOlusage ·pdf   \n[16] http: // alumni $\\cdot$ media · mit · edu/ $\\sim$ chaiwei/qbhweb/client . html [EB]   \n[17]T·Sonoda，Y·Muraoka·A WWW-based Melody-Retrieval System-An Indexing Method fora Large Melody Database Transactions of the Institute of Electronics，Information and Com munication Engineers $( \\mathrm { D ^ { - } H } )$ ，Vol. $\\mathbf { J } ^ { 8 2 } \\mathbf { - D } ^ { - } \\mathbf { I I }$ ，No．4，pp· 721—731，1999   \n[18] http://www·soundfisher·com [EB]   \n[19] http://www.lib situ:edu·cn/music·htm [EB]"
+  }
+}

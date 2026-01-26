@@ -1,0 +1,104 @@
+{
+  "original_filename": "full_3732.md",
+  "国外高校图书馆自动化系统现状研究夏林玉马蕾": {
+    "context1": "【摘要】随着电子资源数量的增多、用户需求的变化以及技术的发展，国内外高校图书馆自动化系统面临升级或者转型的问题。文章通过选取近年来国外高校图书馆使用较多的图书馆自动化系统为研究对象，即Alma，WorldShare Management Service，Sierra，Intota，BLUEcloud，从功能、资源、技术3个方面做了现状调查，旨在为完善国内高校图书馆自动化系统的研发与使用给出建议。"
+  },
+  "【关键词】国外高校图书馆自动化系统高校图书馆": {
+    "context1": "Abstract:With the dramatic growth of thee-resources，the changing of users’needsand the development of the technology，university librariesathomeandabroadare facing with thechallengeoftheupgadeand transformationof library automation system.This paper takes five widelyused libraryautomation systems in overseas recently，including Alma，WorldShare Management Service，Sierra，Intota and BLUEcloud asresearch objects.The fivesystems are compared in three aspects:functions，resources and technologies.The purpose of this paper is to give someadvice to perfect the design and usage of university library automation system in China.",
+    "context2": "Key words: foreign universitylibrary automation systemuniversity library DOI:10.15941/j.cnki.issn1001-0424.2017.12.017",
+    "context3": "图书馆自动化系统是图书馆使用的软件系统和硬件系统的集合。一个完整的图书馆自动化系统一般由3部分组成：一是图书馆业务自动化，二是图书馆办公自动化，三是数字图书馆。其不仅帮助馆员提高了工作效率，同时也为用户提供个性化服务。不同类型的图书馆面临的用户群体不一致，其需求也就有所不同。由于科技的发展、网络的普及、电子资源的丰富以及用户需求的改变，图书馆自动化系统面临着升级或者转型的挑战。高校图书馆作为教学和科研的重要场所，其用户群体主要是教师、学生和科研人员，因此对教学资源和科研文献需求较大。在此之前已有不少的研究者，比如李伟超、贾西兰、韩佳与汪莉莉等以高校图书馆为研究对象，从技术、功能与发展趋势等方面做了大量的理论与实践研究，在数据库、体系结构、支持标准、设计理念、创新服务等方面取得了成果国。本文主要是在前人的研究基础之上，以近几年国外高校图书馆广泛使用的图书馆自动化系统为研究对象，通过搜索网站内容或者阅读相关文献归纳总结出有用信息，对国内高校图书馆自动化系统的功能、管理资源以及技术等方面做了总结，旨在完善国内高校图书馆自动化系统的研发与使用。"
+  },
+  "1国外高校图书馆自动化系统调查": {
+    "context1": "国外高校图书馆自动化系统市场竞争十分激烈，在Marshall Breeding发表的 $\\langle \\langle 2 0 1 5 $ 年图书馆自动化系统调查》中，Alma，WorldShare Management Service，Sierra，Intota，BLUEcloud 被列入最具竞争者行列。而在 $\\langle \\langle 2 0 1 6$ 年的报告中》，Intota，BLUEcloud则处于劣势。为了分析其原因，仍将二者列入调查对象中，调查结果见表1。"
+  },
+  "1.1功能分析": {
+    "context1": "研发系统最终的目的是供用户使用，而用户对系统所拥有的功能是最关心的，因此系统在功能设计上应当尽可能地满足使用者的需求。本文也将从这几个系统的功能开始分析。"
+  },
+  "1.1.1传统功能分析": {
+    "context1": "从表1可以看出，除了Intota，其他几个系统都包括了流通、编目、采购、管理等传统工作流程。几个系统都朝着统一资源管理方向发展，尽可能在一个系统中完成图书馆的所有工作流程，这样既能方便工作人员操作，又能有效地管理整个系统的数据。Intota一开始是针对电子资源研发的，自2015年 $\\mathrm { P r o Q u e s t }$ 将 $\\mathrm { E x }$ Libris收购后,Intota的功能便融入了Alma，即使不用Alma，其互操作性也可与图书馆原有的系统结合，并不会带来太大的影响。",
+    "context2": "表1国外高校图书馆自动化系统调查结果",
+    "context3": "<table><tr><td rowspan=1 colspan=1>系统名称</td><td rowspan=1 colspan=1>Alma</td><td rowspan=1 colspan=1>WMS国</td><td rowspan=1 colspan=1>Sierra国</td><td rowspan=1 colspan=1>Intota [</td><td rowspan=1 colspan=1>BLUEcloud [</td></tr><tr><td rowspan=1 colspan=1>所属公司</td><td rowspan=1 colspan=1>Ex Libris(ProQuest)</td><td rowspan=1 colspan=1>OCLC</td><td rowspan=1 colspan=1>Innovative</td><td rowspan=1 colspan=1>ProQuest</td><td rowspan=1 colspan=1>SirsiDynix</td></tr><tr><td rowspan=1 colspan=1>传统功能</td><td rowspan=1 colspan=1>流通、编目、采访、用户管理</td><td rowspan=1 colspan=1>流通、编目、采访、维护、特色馆藏</td><td rowspan=1 colspan=1>流通、编目、采访、财务管理、用户管采访理</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>流通、编目、采访</td></tr><tr><td rowspan=1 colspan=1>特色功能</td><td rowspan=1 colspan=1>基于证据决策、端到端服务</td><td rowspan=1 colspan=1>数据驱动决策</td><td rowspan=1 colspan=1>虚拟学习空间、Web 导航、分面搜索</td><td rowspan=1 colspan=1>以需求为导向，基于证据的采访模式</td><td rowspan=1 colspan=1>自定义工作流程</td></tr><tr><td rowspan=1 colspan=1>资源管理</td><td rowspan=1 colspan=1>印刷、数字</td><td rowspan=1 colspan=1>印刷、数字</td><td rowspan=1 colspan=1>印刷、数字</td><td rowspan=1 colspan=1>电子资源</td><td rowspan=1 colspan=1>印刷、数字</td></tr><tr><td rowspan=1 colspan=1>技术支持</td><td rowspan=1 colspan=1>基于云的多租户架构、SaaS、MARC、BIBFRAME格式、APIs</td><td rowspan=1 colspan=1>MARC 格式、元数基于云的SaaS、关多租户架构</td><td rowspan=1 colspan=1>MARC 格式、元数基于云的SaaS、关APIs</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>基于云的多租户架构、MARC格式、弹性架构</td></tr></table>"
+  },
+  "1.1.2特色功能分析": {
+    "context1": "在特色功能上，几个自动化管理系统都有着自身的优势。其中Alma提供基于证据决策和端到端服务，WMS提供数据驱动决策，BLUEcloud可以自定义工作流程。特色功能成为选购图书馆自动化系统的一个重要指标，图书馆会选择一个既能有效管理本馆工作又能高效地服务本馆用户的系统。"
+  },
+  "1.2资源管理分析": {
+    "context1": "目前，高校图书馆的馆藏资源主要是印刷资源和数字资源。两种资源在载体形式上为互补关系，并拥有各自的优缺点（见表2)。由于计算机技术和储存技术的发展，数字资源因其易获得性、储存空间小以及可检索性而受到用户的青睐。高校图书馆的资源也由最开始的印刷资源扩展到数字资源。这就要求图书馆自动化系统增加处理数字资源的功能，而从表1可以看出，图书馆自动化系统已经在这方面取得进展。",
+    "context2": "表2印刷资源与数字资源对比分析",
+    "context3": "<table><tr><td rowspan=1 colspan=1>资源类型</td><td rowspan=1 colspan=1>印刷资源</td><td rowspan=1 colspan=1>数字资源</td></tr><tr><td rowspan=1 colspan=1>载体形式</td><td rowspan=1 colspan=1>图书、期刊、杂志、报纸等</td><td rowspan=1 colspan=1>数据库、电子期刊、电子图书、网页、多媒体资料等</td></tr><tr><td rowspan=1 colspan=1>优点</td><td rowspan=1 colspan=1>便于阅读、不受时间、地点、设备等条件的限制</td><td rowspan=1 colspan=1>易获得性、储存空间小、可自动检索性</td></tr><tr><td rowspan=1 colspan=1>缺点</td><td rowspan=1 colspan=1>体积笨重、容易破损、储存空间大，不能自动检索</td><td rowspan=1 colspan=1>受时间、地点、设备等条件的限制</td></tr></table>"
+  },
+  "1.3技术分析": {
+    "context1": "计算机技术日新月异，在Web3.0时代，图书馆自动化系统技术有两个突出特征：一是基于云计算，二是软件即服务（Software as a Service)。SaaS是一种基于互联网提供软件服务的应用模式。企业可以根据自己的需求，向 Saas供应商租赁软件服务。此外，为了能使系统具有扩展性，还可以采用统一开放API技术。"
+  },
+  "1.3.1云计算": {
+    "context1": "由表1可以看出有4个自动化系统采用了云计算。云计算通常与虚拟技术相结合，使得资源被虚拟化，从而构成资源池，实现信息资源的共享。随着时间的推移，高校图书馆馆藏资源越来越多，采用云计算可以减少信息累赘。此外，云计算可以让用户体验每秒10万亿次的运算能力，优化用户体验。因此采用云计算不仅能提高资源的利用率，也可以提高自身的运行速度。"
+  },
+  "1.3.2软件即服务 SaaS": {
+    "context1": "由表1可以看出，已经有图书馆系统开始使用SaaS模式。SaaS模式作为一种新的产物，其优点是经济实惠，对于开发商来说一个软件可以同时给多个租户使用，而对于租户来说，可以根据自己的需求购买相应的服务功能。结合多租户技术，把每个租户的数据隔离开来，避免混乱，但是每个租户的数据安全也因此相对较低。因此加强数据本身的安全性对研发者来说具有挑战性。"
+  },
+  "1.3.3应用程序编程接口API": {
+    "context1": "从表1可以看出，已有自动化系统开始采用API技术。APP Programming Intermet）是一些预先定义的函数，目的是提供应用程序与开发人员基于某软件或硬件得以访问一组例程的能力，而又无需访问源码，或理解内部工作机制的细节[。但是前提是这种技术需要使用统一的开放API，才能使应用相互整合，实现资源共享。"
+  },
+  "2对国内图书馆发展自动化系统的建议": {
+    "context1": "国外图书馆自动化系统的发展在功能以及技术上对国内图书馆自动化系统发展具有借鉴意义。通过上述分析：针对国内高校图书馆自动化系统的研发提出以下几条建议。"
+  },
+  "2.1功能建议": {
+    "context1": "功能模块是一个系统对外所展现出来的东西，与用户体验有着直接的联系，因此在功能上，高校图书馆自动化系统应当尽可能满足用户的需求。"
+  },
+  "2.1.1易操作的传统功能": {
+    "context1": "目前，无论是国外还是国内较成熟的高校图书馆自动化系统都包括了所有的传统功能，它们的区别在于界面和操作方式的不同。对于工作人员或者用户来说，传统功能应当简单易操作，这样才能提高工作效率，优化用户体验。例如在编目时可以对同类书籍采取批处理，提高效率；在检索信息时，页面的布局应当符合用户习惯，使用户快速找到信息。因此在研发系统前应对用户的习惯等做一个调查。"
+  },
+  "2.1.2强大的决策能力": {
+    "context1": "好的系统不仅可以帮助管理者管理好当前的工作，同时可以帮助决策者制定合理的规划。高校图书馆自动化系统应当根据系统内海量的数据对馆藏资源分布、采购比例、利用率等做出统计，为决策者提供决策支持。目前常用的决策方式包括两种：基于证据决策和基于数据决策。Alma采用了基于证据决策，WMS采用了数据驱动决策。国内高校图书馆自动化系统在研发时可以加强系统的决策功能，从而使系统更具市场竞争力。"
+  },
+  "2.2资源管理建议": {
+    "context1": "印刷资源和数字资源在高校图书馆中处于同样重要的地位，但是二者在管理方式上却存在差异。高校图书馆自动化系统应当可以同时处理印刷资源和数字资源，对二者实现统一管理，提高馆员的工作效率。"
+  },
+  "2.3技术建议": {
+    "context1": "通过前文的技术分析，归纳总结出几个高校图书馆自动化系统所运用到的比较具有发展前景的技术（见图1)。在Web3.0的环境中，信息的数量会越来越多，信息的传递会越来越快，用户的参与度会越来越高，因此需要相应的技术来支持。"
+  },
+  "2.3.1 基于云的 SaaS模式": {
+    "context1": "目前国内图书馆自动化系统大都采用的是C/S、B/S或者是二者结合的架构。比如江苏汇文软件有限公司最新研发的LibsysBS 图书馆集群管理系统采用了基于云的 B/S应用模式[。在云计算时代，新的软件服务模式 SaaS作为对B/S架构的延伸，不用在企业内部安装服务器，只要有网络和浏览器就可以随时随地使用已购买的服务（见表3)。从表3可以看出，在技术架构方面，SaaS模式和B/S模式并没有太大的差异，但是基于云的 SaaS服务模式，比传统的B/S架构运行更加灵活，花费的成本更低。大多数图书馆还是认可和接受 SaaS模式。不接受 SaaS模式的图书馆主要担心数据安全、网络速度、稳定性等问题[。但是，数据的安全性是相对的而不是绝对的，对于 SaaS模式，可以从签订数据保密协议、开后防火墙、开后入侵检测系统或者备份数据等方面保证数据的相对安全性。在中国，截至2016年12月，有 $9 2 . 4 \\%$ 的企业采取了基本的网络安全措施。调查显示，在杀毒软件、防火墙上付费的企业（包括仅使用付费和免费、付费都使用）比例达 $5 1 . 4 \\%$ ，相比2015年增加超过25个百分点。由此可见数据安全备受关注。图书馆自动化系统也应当高度重视数据的安全性，如能在基于云的SaaS模式下将数据的安全性提高到某一个多数用户可接受的范围内，该模式则会更受青睐。",
+    "context2": "![](images/483b6c73769433e489cffb7f720ef7b24d2e9b6e29d543fba5e9256d69511528.jpg)  \n图1图书馆自动化系统可采用的技术",
+    "context3": "表3 C/S、B/S和 SaaS比较",
+    "context4": "<table><tr><td rowspan=1 colspan=1>架构/模式</td><td rowspan=1 colspan=1>C/S</td><td rowspan=1 colspan=1>B/S</td><td rowspan=1 colspan=1>SaaS</td></tr><tr><td rowspan=1 colspan=1>名称</td><td rowspan=1 colspan=1>客户端/服务器</td><td rowspan=1 colspan=1>浏览器/服务器</td><td rowspan=1 colspan=1>软件即服务</td></tr><tr><td rowspan=1 colspan=1>响应速度</td><td rowspan=1 colspan=1>快</td><td rowspan=1 colspan=1>较快</td><td rowspan=1 colspan=1>快</td></tr><tr><td rowspan=1 colspan=1>成本</td><td rowspan=1 colspan=1>高</td><td rowspan=1 colspan=1>较高</td><td rowspan=1 colspan=1>较低</td></tr><tr><td rowspan=1 colspan=1>数据本身安全性</td><td rowspan=1 colspan=1>高</td><td rowspan=1 colspan=1>较高</td><td rowspan=1 colspan=1>较高</td></tr><tr><td rowspan=1 colspan=1>用户群体</td><td rowspan=1 colspan=1>固定</td><td rowspan=1 colspan=1>不固定</td><td rowspan=1 colspan=1>不固定</td></tr><tr><td rowspan=1 colspan=1>用户接口</td><td rowspan=1 colspan=1>受限</td><td rowspan=1 colspan=1>不受限</td><td rowspan=1 colspan=1>不受限</td></tr><tr><td rowspan=1 colspan=1>使用范围</td><td rowspan=1 colspan=1>受限</td><td rowspan=1 colspan=1>不受限</td><td rowspan=1 colspan=1>不受限</td></tr><tr><td rowspan=1 colspan=1>扩充功能</td><td rowspan=1 colspan=1>难</td><td rowspan=1 colspan=1>容易</td><td rowspan=1 colspan=1>容易</td></tr><tr><td rowspan=1 colspan=1>安装服务器</td><td rowspan=1 colspan=1>需要</td><td rowspan=1 colspan=1>需要</td><td rowspan=1 colspan=1>不需要</td></tr></table>"
+  },
+  "2.3.2开放统一的API设计风格": {
+    "context1": "开放统一的API应用程序编程接口，可以接入第三方应用，实现资源的共享。由于信息资源爆炸式的增长，高校图书馆的储存空间是十分有限的，而用户的需求则是无限的。研发者可以在不影响利益的情况下设计开放统一的API，使得第三方的应用得以与系统整合。高校图书馆技术人员也可以根据本馆情况研发第三方应用程序，使其与系统相整合，完善对本馆的管理。"
+  },
+  "2.3.3多租户架构": {
+    "context1": "多租户架构是基于云SaaS模式的一个重要性质，其功能是保证能将多个共同使用同一软件的用户的数据隔离储存起来，避免相互影响。多租户的硬件资源利用率高，应用程序易于管理，这对于开发商来说可以获得更大利润。对于用户来说，可以根据自己的需求花费较低的成本，获得软件的使用权。"
+  },
+  "2.3.4BIBFRAME 联盟": {
+    "context1": "目前大多数图书馆自动化系统使用MARC格式，但是在语义网时代，这种书目格式稍显滞后。BIBFRAME作为一种新的编目格式，打破图书馆与外界的藩篱，使书目资源以更加开放、更加共享的形式融入互联网，不再局限在图书馆自身的封闭系统内，书目资源的价值变“大”了，图书馆的利用率也提升了[（见表4)",
+    "context2": "BIBFRAME作为一种新的书目格式，在表达方式、类别、使用范围、规范检索点以及最小单位方面都与",
+    "context3": "MARC格式有所不同，但是它却可以与MARC格式相兼容。图书馆中储存的MARC数据是一笔宝贵的财富，因此不管是BIBFRAME格式也好，或者是某种新的格式，它必须与MARC数据兼容，这样才不会损失MARC格式数据这笔财富。BIBFRAME作为一种新的书目格式有以下优点：首先，BIBFRAME格式可与语义网结合，使用户通过浏览器就可以检索信息。其次，BIBFRAME基于关联数据，对于相同的信息可以使用同样的URI，从而降低信息的重复率，提高查准率。当然为了尊重知识产权，不可能将所有的资源都无偿地提供给用户，因此可以在保证知识产权与软件利益的前提下，建立起联盟，在联盟内实现数据的关联开放（见图2）。",
+    "context4": "表4MARC与BIBFRAME格式对比",
+    "context5": "<table><tr><td rowspan=1 colspan=1>格式</td><td rowspan=1 colspan=1>MARC</td><td rowspan=1 colspan=1>BIBFRAME</td></tr><tr><td rowspan=1 colspan=1>表达方式</td><td rowspan=1 colspan=1>代码</td><td rowspan=1 colspan=1>LD、RDF、URI (IRI)</td></tr><tr><td rowspan=1 colspan=1>类别</td><td rowspan=1 colspan=1>图书（专著)、连续出版物（或连续性资源)、地图、电子资源、乐谱、视觉资料和混合资料</td><td rowspan=1 colspan=1>作品Work、实例 Instance、单件Item</td></tr><tr><td rowspan=1 colspan=1>使用范围</td><td rowspan=1 colspan=1>OPAC系统</td><td rowspan=1 colspan=1>全网络</td></tr><tr><td rowspan=1 colspan=1>规范检索点</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>香</td></tr><tr><td rowspan=1 colspan=1>最小单位</td><td rowspan=1 colspan=1>一条记录</td><td rowspan=1 colspan=1>语义单元</td></tr></table>",
+    "context6": "![](images/1db3c8f90375594b41ff4e5207b4cb3d672a00dacb3c048e8eb4a31736179bfc.jpg)  \n图2基于BIBFRAME书目格式联盟",
+    "context7": "图2中，R表示一类资源集，采用RDF标准对其相关的信息资源R1，R2，R3等进行属性描述，采用关联数据将R1，R2，R3等连接起来，然后给予R一个URI，这样就可以扩大检索范围，为用户提供更多的相关资源。例如R表示许渊冲的翻译作品《诗经》。R1可以表示作品由“许渊冲”创造，R2可以表示作品的出版社“五洲传播出版社”，R3表示与作品相关的许渊冲翻译的《宋词》。然后给予R一个URI，当用户通过网络检索《诗经》时，就会检索出与其相关的信息，扩大检索范围。图中L1，L2，L3代表图书馆，由图书馆组建成联盟，每个成员图书馆拥有修改数据信息的权利，增加相关信息的链接。通过构建联盟使得数据库的资源数量增加，实现信息共享，提高资源的利用率。而当前大多数高校图书馆系统的数据格式为MARC格式，其封闭性无法适应Web3.0的发展，因此将MARC格式转换为BIBFRAME格式是一个亟待解决的问题。目前，有不少机构、专家与学者已经开始了不同的尝试。大英图书馆的 BNB项目就是对 MARC 转换成 BIBFRAME的研究[。",
+    "context8": "3总结",
+    "context9": "用户需求促使技术发展，技术同样反作用于用户，促使其需求发生改变，国外图书馆根据用户的需求，不断地改进与提升自动化系统，而国内图书馆目前虽然也在做着相应的改变，但仍面临着巨大的挑战。汉字与英语差别非常大，如何创建中文版的BIBFRAME就是一项挑战。因此国内图书馆自动化系统应当时刻关注国际上的变化，然后采用符合国情的战略，开发出更能满足国内高校图书馆需求的自动化系统。"
+  },
+  "注释": {
+    "context1": "1]翟喜奎．图书馆自动化系统介绍[EB/OL]．[2017-05-01].htps:：//wenku.baidu.com/view/65bef0aa52ea551811a68740.html.",
+    "context2": "[2]李伟超．国内外ILS的现状、功能及趋势——基于“211工程”高校ILS的调查[J]．图书馆学研究，2016（1)：13-18.",
+    "context3": "3]贾西兰，李书宁，吴英梅．“互联网 $^ +$ 图书馆”思维下的下一代图书馆服务平台[J]．图书馆与情报，2016（1)：44-48.",
+    "context4": "[4]韩佳佳，汪莉莉．图书馆管理服务创新与下一代图书馆管理系统——以Intota和Alma为例[J]．图书馆杂志，2015（11)：82-87.",
+    "context5": "[5]MarshallLbarySsepB2p:/alarsaga/5/5/ae-report/.",
+    "context6": "[6]MarshallrbaSssepoEB/p:/arsag//5/bae -report-2016/.",
+    "context7": "[7]Ex Bibris Alma [EB/OL]．[2017-03-16].http://www.exlibrisgroup.com/category/AlmaOverview.",
+    "context8": "[8]WorldShare Management ServiceEB/OL].2017-03-16].htp://ww.oclc.org/zh-Hans/worldshare-management-services.html.",
+    "context9": "]Sierra ILS [EB/OL]．[2017-03-16].https://www.ii.com/products /sierra-ils/.",
+    "context10": "[10]Intota[EB/OL]．[2017-03-16].htp://www.proquest.com/products-services /intota.html.",
+    "context11": "[1]BLUEcloud Campus [EB/OL]．[2017-03-16].htp://www.sirsidynix.com/campus.",
+    "context12": "[2]白英彩，蒋思杰，李家滨．英汉信息技术大词典[M]．上海．上海交通大学出版社，2011：1697.",
+    "context13": "[13]API [EB/OL]．[2017-03-17].http://baike.baidu.com/link?ur $=$ vCYu8WWofMvgOo1b-_DODn9KdVuCBAQ--NpoI1MjYn1F5VhmtETH _eJu3F9-VbeeKs2yZNq5MG4xnGaRc03gR_.",
+    "context14": "[14]LibsysBS 图书馆集群管理系统[EB/OL]．[2017-03-17].htp://www.libsys.com.cn/libsysBS.php.",
+    "context15": "[15]胡振宁，陈大庆，丁培．普通高校图书馆集成系统文件调查及启示[J]．大学图书馆学报，2013（3)：64-68",
+    "context16": "[16]CNNIC发布的第9次《中国互联网发展状况统计报告》[EB/OL]．[2017-03-17].tp://ww.cmnic.cn/gywm/xwzx/rdxw/20172017.201701/t20170122_ 66448. htm.",
+    "context17": "[17]宋丹辉．新型书目框架 BIBFRAME发展及演化研究—兼论 MARC及RDA的改进[J]．现代情报，2017（1)：51-56.  \n[18]王兴.BIBFRAME的理论及应用研究[J]．现代情报，2016（1)：90-95.",
+    "context18": "夏林玉四川大学公共管理学院图书馆学专业2015级硕士研究生。",
+    "context19": "马蕾四川大学公共管理学院副教授，硕士研究生导师。"
+  }
+}

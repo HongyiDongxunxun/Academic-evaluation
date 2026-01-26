@@ -1,0 +1,79 @@
+{
+  "original_filename": "full_8498.md",
+  "·信息分析与科学评价·": "",
+  "科学数据引用规范研究进展": {
+    "context1": "张静蓓1.²田野1.2吕俊生1",
+    "context2": "(1.中国科学院兰州文献情报中心 甘肃兰州 730000)",
+    "context3": "（2.中国科学院大学北京100049）",
+    "context4": "摘要：文章简述了数据引用的重要性和必要性,从引用对象界定、元数据构成(核心、完整以及可选元数据构成）、引用位置、关键问题(引用粒度、数据版本、唯一标识符)及解决方案等四个方面重点探讨了数据引用规范的研究现状，指出数据引用研究还处于起步阶段,还需要各方利益相关者共同努力,推动数据引用实践的发展。",
+    "context5": "关键词：科学数据数据引用引用规范元数据",
+    "context6": "中图分类号：G250.2文献标识码：A 文章编号:1003-6938(2014)05-0100-05"
+  },
+  "Research Progress in Data Citation Standards": {
+    "context1": "Abstract The importanceand necesityof data citation is briefly summarizedand theresearch progress in data citation standardsfrom whattocite,howtocite(thekey,completeandoptional metadatacombination),where tocite,keyissues (granularity,versioncontrolandidentifier)anditssolutionsarediscussed.Itisfoundthattheresearchindatacitation standards is inthe initial stageandthedevelopmentof datacitation practicecalsfor the joint effortsof allstakeholders. Key words scientific data ; data citation ; data citation standards ; metadata"
+  },
+  "1引言": {
+    "context1": "科学数据引用(DataCitation)[]是指类似于研究人员通常为印本资源提供书目参考的方式提供数据参考的做法。通过一定的标识技术和机制，对所使用的科学数据资源进行描述，标识数据的来源，从而在一定程度上促进数据的知识产权保护，便于进行数据引用情况的统计和分析。随着科研模式逐渐趋向于数据密集型，在期刊文章、书籍以及会议记录中增加所使用的科学数据的引用也变得更为重要。数据引用最早由科学计量学家HowardD.White[2在1982年指出：“社会科学学者们应该在他们的著作中,引用他们所使用的那些数据文件,并以区别于正文的规范参考格式列出，正如他们引用书籍、论文与报告一样。”与文献类似,科学数据的引用也存在大量的需求。",
+    "context2": "针对数据引用的需求，专门针对科学数据而提出的引用规范应运而生，自2007年开始，M.Altman[3]等发表论文，对数据引用包含的最小元素集、可选元素等进行了具体分析，该文是最早探索数据引用规范的论文之一。随着数据引用问题越来越受到学术界的重视，许多通用论文写作规范(APA[4]、MLA[5]等)、国际组织(DataCite[6]、OECD[7等)、数据仓储(PANGAEA[8]、ESIP[9等)、科研项目(SageCiteProject[10]等等都发布了自己的数据引用规范，数据引用规范的出现对于科学数据重用的标准化、规范化以及使得研究人员获得相应的学术认可，将科学数据纳入科研评价体系来说有着重要的意义。数据引用规范通常包含以下三个部分制定规范的目的及意义、引用对象的界定、具体的引用格式介绍。但纵观现有的引用规范，目前它们之间还存在着引用对象界定不一、引用格式互不兼容等诸多问题。因此，本文从数据引用规范的引用对象界定、元数据构成、引用位置以及关键问题等四个部分对现有的科学数据引用规范及研究进行了梳理，以便进行进一步研究与探索。"
+  },
+  "2数据引用规范研究": "",
+  "2.1引用对象界定": {
+    "context1": "致力于数据引用的国际组织、数据仓储/中心、期刊出版界等制定的数据引用规范以及通用的学术论文写作规范中，对数据引用对象的界定范围不尽相同。但无论是哪些引用规范，其中数据引用的对象大部分都是以数据集(data set)的形式出现,如DataCite[6]、OECD[7]、DCC[]等国际组织都将数据集作为主要引用对象。纵观这些数据引用规范，其中引用对象主要分为以下四种：",
+    "context2": "()数据库(data base)：人们为解决特定的任务，以一定的组织方式存储在一起的相关的数据的集；(②数据集(data se）油一个或者多个数据记录所组成的数据集合；(3数据产品(data produc）油原始数据为满足特定需要而加工的产品；(4 数据记录 (data record）科学数据组织的最小单元,通常以一条记录来描述事物的特征。",
+    "context3": "2.2引用规范元数据构成",
+    "context4": "元数据作为描述科学数据的信息，是数据引用规范的最主要的组成部分。许多数据引用规范中对于其中\"必要元数据”(Must or Required 和\"可选元数据”(Optional 组成都进行了探讨,这些机构包括DataCite[OECD[7、DCC[11]等国际组织以及地球科学(如PANGAEA[8]、ESIP[9等)、生命科学(如GBIF[12]、Dryad[13]等)以及社会科学(如 Data-verse[14]等等学科数据仓储。",
+    "context5": "构成一个完整的数据引用的元素组成仍然是一个有争议的问题[11]。考虑到引用规范元数据组成的通用性，笔者对致力于数据引用的国际组织DataCiteOECDDCC[11]IASSIST[15]、ESIP[9]以及我国基础科学数据共享网[16]所发布的数据引用规范 (目前我国唯一发布的正式数据引用规范的元数据组成进行解析，将在这些规范中至少出现两次的元数据列入表格中(见表1)，其中，代表强制性要求元素， $\\triangle$ 代表可选元素，得出目前数据引用规范的核心元数据构成、完整元数据构成及可选元数据构成。",
+    "context6": "2.2.1核心元数据构成(所有规范说明中都明确指出需要包含的元数据：",
+    "context7": "() Author/Creator数据集的创建者。②Publication date该数据集被提供的日期、所有质  \n量保证程序都已经完成的日期或可以开放获取的日期。  \n在一些其他的标准中，“Access Date”是用来记录能够成  \n功访问数据集的日期。(3Title所引用资源本身的名称，它也可能包括设  \n备名称、收集的最多的数据的标题或者数据集所属的父  \n集的名称。(4 Publisher/Archive/Distributor(出版机构/存储机构/  \n传播机构)承载数据或者进行质量保证的机构或仓储。(5 URL/Electronic Retrieval Location/External Links :  \n解析网址、检索地址或外部链接。6 Persistent Identifier 唯一标识符。"
+  },
+  "2.2.2完整元数据构成(在上述规范中至少出现两次的元数据：": {
+    "context1": "()Author/Creator 数据集的创建者。(Publication date:该数据集被提供的日期、所有质量保证程序都已经完成的日期或可以开放获取的日期。在一些其他的标准中，“Access Date”是用来记录能够成功访问数据集的日期。",
+    "context2": "表1国际组织及国内数据引用规范的元数据构成",
+    "context3": "<table><tr><td rowspan=1 colspan=1>元数据</td><td rowspan=1 colspan=1>DataCite</td><td rowspan=1 colspan=1>OECD</td><td rowspan=1 colspan=1>DCC</td><td rowspan=1 colspan=1>IASSIST</td><td rowspan=1 colspan=1>ESIP</td><td rowspan=1 colspan=1>基础科学数据共享网</td></tr><tr><td rowspan=1 colspan=1>Creator/Author</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td></tr><tr><td rowspan=1 colspan=1>Title/Main title</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td></tr><tr><td rowspan=1 colspan=1>Publisher/Distributor</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td></tr><tr><td rowspan=1 colspan=1>Publication Year/Publication date/Release data</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>A</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>A</td><td rowspan=1 colspan=1>A</td></tr><tr><td rowspan=1 colspan=1>Identifer</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>A</td></tr><tr><td rowspan=1 colspan=1>External links/Location/GeoLocation(with point and box sub-properties） /publication place</td><td rowspan=1 colspan=1>▲</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td></tr><tr><td rowspan=1 colspan=1>Accessed date</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td></tr><tr><td rowspan=1 colspan=1>Version</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td></tr><tr><td rowspan=1 colspan=1>ResourceType /Material Designator</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Universal numeric fingerprint</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>A</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Contributor /Editor or Other Important Role</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>parent/Data Within a Large Work</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>A</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Language</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Rights /Is copyrighted by</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Size</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+    "context4": "(3Title所引用资源本身的名称，它也可能包括设备名称、收集的最多的数据的标题或者数据集所属的父集的名称。",
+    "context5": "$\\textcircled { 4 }$ Publisher/Archive/Distributor (出版机构/存储机构/传播机构)承载数据或者进行质量保证的机构或仓储。",
+    "context6": "$\\Theta$ URL/Electronic Retrieval Location/External Links :解析网址、检索地址或外部链接。Persistent Identifier 唯一标识符。(Version如果数据发生变化,该数字就会增加,比如增加了更多的数据点或者重新运行了推导过程。",
+    "context7": "(8 Accessed date 获取日期。Resource type 如:database\"或\"dataset”。(10) Unique numeric fingerprint (UNF) 数字指纹。(11) Contributor /Editor or Other Important Role 相关  \n责任者。(12 parent/Data Withina Large Work 所属数据集/序  \n列。(13)Language数据主要内容的语言。(14) Rights/Is copyrighted by 版权归属。(15) Size 数据的大小。"
+  },
+  "2.2.3其他可选元数据构成 (在上述规范中只出现一次的元数据": {
+    "context1": "() Subject 学科  \n$\\circledcirc$ Date数据处理相关工作的不同日期  \n3Related Identifier相关资源(如子集)的标识符  \n(4 Description其他相关信息  \n$\\Theta$ GeoLocation数据被收集或集中的地理位置  \n(6Format该资源的文件格式",
+    "context2": "2.3数据位置及其引用方案"
+  },
+  "2.3.1 数据包含在文章中": {
+    "context1": "很多学术文章的正文中就包含着科学数据，比如文中展示的一些搜集数据的图表等。由于这类数据位置的特殊性，很难对它们进行定位或引用。",
+    "context2": "因此，目前对于此种类型的数据引用并没有统一的标准，美国国家信息标准组织[17](NISO)提供了以下建议(NISO业务工作组,2012）：任何整体内容的引用应该将文章整体作为引用对象，引用特定内容不是合适的做法，整体内容可能会被分配一个DOI来将该内容与文章进行链接。其中一个方法是创立一个父子型DOI结构,并在文章的 DOI后面添加一个后缀 DOI”。"
+  },
+  "2.3.2数据作为文章的补充材料": {
+    "context1": "很多期刊或出版商制定了针对补充材料(supple-mentarymaterials）的存缴和出版政策，比较有代表性的期刊有Nature[18]、Plos ONE[19]、Biology Lette[20]以及 Science[21]等。一般来说,期刊的补充材料中涵盖了科学数据，但是有时也包括其他材料，比如研究方法扩展说明等。总的来说，每个期刊投稿须知中的\"补充材料\"以及在文章参考文献后所包含的\"附录”(appendixes部分都可以视为“补充材料”,而科学数据则是补充材料的重要组成部分。补充材料的类型主要有文字信息、数值表格和图片、参考文献、数据集、数学公式、视频音频等。它的功能一般有以下四种形式[21]补充性介绍文字、研究方法说明、附加结果与数据集、补充性参考文献,其中附加结果和数据集中包含了科学数据的部分。",
+    "context2": "期刊的补充材料存缴政策的变化反映了期刊或出版商在出版过程中，对期刊的补充材料政策并没有统一的标准，即是否应该对这些数据或补充材料进行编辑、评阅、引用以及长期保存等。基于此，一些国际组织或联合会也在试图建立此类标准，如NISO[17和美国国家高级信息服务联合会(NFAIS[22]都在致力于建立期刊数据存缴政策指导标准。",
+    "context3": "其中NISO将作为补充材料的数据进行引用主要有以下两种方式[17] $\\textcircled{1}$ 该数据为文章必要内容时，在引用数据的同时需要将所属文章也作为引用对象； $\\textcircled{2}$ 该数据为文章的附加内容时则单独进行引用。而对于鉴定作者提交的补充材料属于必要内容还是附加内容,NISO提出了以下标准：必要内容指的是补充材料是完全理解文章内容的必要组成部分，但是却由于各种原因(比如技术、业务等原因被放置在了文章之外。必要内容可以是评估一个研究的描述性文字、综述或技术报告，又或为了能够验证研究而提供原始数据或信息的多媒体文件。一般情况下,出版商负责像对待文章本身一样来展示此部分内容；而附加内容则指那些提供额外的、相关的扩展性质的内容，可以是文字、表格、图片、多媒体或数据的形式。"
+  },
+  "2.3.3数据在数据中心/仓储中": {
+    "context1": "数据中心或仓储作为科学数据的存储及发布机构，承担着数据监护的重要责任，一些期刊出版商(如Nature[18]、Plos ONE[19]等)也规定作者需将论文中所涉及的科学数据提交到指定的数据仓储或中心。目前国内外许多数据仓储和中心都有着自己的数据引用要求或具体规范。因此，针对这类数据的引用，主要是参考数据所在中心或仓储的引用规范或者所属期刊的出版商的相关数据政策。"
+  },
+  "2.3.4私有数据": {
+    "context1": "这些未出版的数据很难被引用，目前很少受到关注。最主要的问题是缺少指向链接或提供访问这些数据的入口。目前来看，这个层面上进行数据引用更像是将“personalcommunication”[23]作为引用对象。因此,目前来讲对于此类数据的引用并没有合适的解决方案。"
+  },
+  "3关键问题及现有解决方案": "",
+  "3.1引用粒度(深层引用)": {
+    "context1": "数据引用规范的政策制定者还需要与相关科研人员就数据引用的粒度问题达成协议。粒度问题本质上讲也就是数据引用层次的问题。数据集往往属于某一个数据仓储或中心,可以被组合成复合数据集,也可以被分解为各个子集。所以在数据引用的过程中，可以引用一个完整的数据库、引用数据库中一个记录集以及引用一个特定的数据记录。",
+    "context2": "解决方案：目前,针对此问题,有两种解决方案,其一是诸如PANGAEA[8等设计了针对不同层次数据引用的引用格式;其二是Altman.M[34]等将粒度问题阐述为“深层引用\"并且建议在简单的水平上进行引用,即数据的子集的引用可以是引用数据集整体并且在引用具体内容中描述子集。"
+  },
+  "3.2数据版本": {
+    "context1": "当一篇文章中引用了数据，那么该数据应该可以被今后的研究中进行更新或验证。数据集可能因为多种原因而改变原始数据可能被新的技术或方法更新、整合。因此数据版本的问题就出现了。",
+    "context2": "解决方案：数据版本问题一般反应在引用大规模动态数据上，目前有两种解决方案。第一种是像英国大气数据中心(BADC[24]采用的那样，当一个数据集已经完整了并且不会变化了，就只给它指定一个标识符(使该数据集引用起来更便捷。在这种情况下，数据没有不同的版本，只有完整的产品。这可能会产生问题，即如果数据收集持续很长的周期，那么研究人员在数据收集的这段时间内便无法引用这些数据；第二种解决方案适用于数据集被定期更新[24]，保留“基础\"数据，后期特定时间段增加的数据被作为单独的可引用对象。在这种情况下，每一个数据记录将不会被更新并且数据的引用可以是基础数据和后",
+    "context3": "期变化数据的结合。",
+    "context4": "3.3唯一标识符分配",
+    "context5": "唯一标识符是简短的名字或字符串，在这些名字中保证是唯一的，独立于数据位置并永久标识了的数据集。数字对象唯一标识符起源于20世纪90年代初的URN，经过近二十年的发展，国外先后产生了多种数字对象唯一标识符。其中，比较有代表性的唯一标识符包括Handle system[25]、Digital Object Identifier (DOl) [26]、UniformResourceName[27等。在科学数据中，目前使用最广泛的标识系统是DOI。",
+    "context6": "针对唯一标识符分配的问题，国际上一些倡导数据引用的组织机构如DataCite[6]、DCC[1]等都在推出\"数据集注册”服务。在国内，中文DOI(http /www.chinadoi.cn/portal/index.htm)[28]是目前简体中文领域唯一一个DOI注册服务，由IDF正式授权的DOI注册机构中国科技信息研究所DOI注册与服务中心管理和运行。",
+    "context7": "然而，这些服务相对于海量的科学数据集，还是较为稀少且并没有广泛知晓。同时，目前就数据集的注册及唯一标识符,也还有诸多争议。Wynholds[29提出要为某个数据集赋予“唯一身份标识”,这个数据集需要满足以下四个要求：(1）数据集必须是一个语义层次上具体的对象;②数据集需要将这个“唯一身份标识\"植入或融合于数据集本身；(3数据集的所有权与所有者必须是稳定的；(4 数据集需要被转换成合适的格式,包括相关机制，以便于被检索与引用。由于以上所述的原因,唯一标识符分配机制目前还是比较缺乏的。"
+  },
+  "4结语": {
+    "context1": "科学数据引用规范是推动数据引用实践的核心组成部分。一方面，虽然目前针对科学数据的引用规范越来越丰富与细化，但还有很多诸如引用格式不兼容、引用对象界定模糊、数据集版本、粒度、唯一标识符分配等亟待解决的问题，而这些问题的解决不仅仅是作为数据引用规范制定者的国际组织、信息标准机构、数据仓储等的责任。推动科学数据引用的实践是多方利益相关者合作的结果，这些利益相关者包括国际组织、研究资助者、科研人员、科学共同体、数据存储机构、期刊出版商、研究机构、公众、图书馆等，只有各方利益相关者各司其职,共同努力，才能从根本上推动数据引用实践的发展；另一方面，科学数据引用规范的制定也会受到数据出版政策、数据共享政策等的政策性制约，只有数据出版和共享政策"
+  },
+  "的保证,数据引用规范才能发挥其应有的价值。": "",
+  "参兮又：": {
+    "context1": "[1]李丹丹,吴振新.研究数据引用研究[J].图书馆杂志， 2013,(5):65-71.   \n[2]White H.Citation analysis of data filesuse[J].LibraryTrends,1982,31(3): 467-477.   \n[3]Altman M,King G.A proposed standard for the scholarly citation of quantitative data[J].D-lib Magazine, 2007,13(3): 5.   \n[4]American Psychological Association (6th ed).APA style manual[EB/OL].[2014-06-15].http://www2.bgsu.edu/ downloads/lib/file40389.pdf.   \n[5]Cornell University.MLA citation style (3th ed)[EB/OL]. [2014-06-15].http://www.library.cornell.edu/resrch/citmanage/mla.   \n[6]DataCite International Data Citation Metadata Working Group.DataCite metadata schema for the publication and citation of research data version3.0[EB/OL].[2014-06- 15].http://schema.datacite.org/meta/kernel-2.1/doc/meta/ kernel-3/meta/kernel-3/meta/kernel-2.2/index.html.   \n[7]Green T.We need publishing standards for datasets and data tables[J].Learned Publishing,2009,22(4):325-327.   \n[8]PANGAEA[EB/OL].[2014-03-01].htp://www.pangaea.de/.   \n[9]ESIP[EB/OL].[2014-02-12].htp://www.esipfed.org/.   \n[10]SageCite[EB/OL].[2014-02-15].http:/logs.ukoln.ac. uk/sagecite/.   \n[11]Duke，M.and Ball，A.How to Cite Datasets and Link to Publications :A Report of the Digital Curation Centre [C].23rd International CODATA Conference :Taipei, 2012.   \n[12]GBIF[EB/OL].[2014-06-12].http://www.gbif.org/.   \n[13]Dryad[EB/OL].[2014-06-12].http:/datadryad.org/.   \n[14]Dataverse[EB/OL].[2014-06-12].http://thedata.org/.   \n[15]IASSIST[EB/OL].[2014-06-12].http://www.iassistdata.org/.   \n[16]基础科学数据共享网[EB/OL].[2014-06-09].http:// www.nsdc.cn/.   \n[17]NISOBusinessWorkingGroup2012.Recommended Practices for Online Supplemental Journal [EB/OL]. [2014-06 -12].http://www.niso.org/apps/group_public/ document.php?document_id=7964&wg_abbrev $\\mathop { : = } \\varepsilon$ Uppbu   \n[18]Data Deposition Policies[EB/OL].2014-06-07].http: //www.nature.com/scientificdata/for-authors/data -deposition-policies.   \n[19]PLOS Editorial and Publishing Policies[EB/OL].[2014 -06-07]. http://www.plosone.org/static/policies.action.   \n[20]Data and Material Sharing[EB/OL].[2014-06-05].ttp: //rsbl.royalsocietypublishing.org/site/misc/styleandpolicy. xhtml.   \n[21]Data and Materials Availability[EB/OL].[2014-06-06]. http ://www.sciencemag.org/site/feature/contribinfo/prep/ geninfo.xhtml#dataavail.   \n[22]NISO/NFAIS.Supplemental journal article materials project[EB/OL].[2014-06-07].htp://ww.niso.org/wor krooms/supplemental.   \n[23]Sinnott R,Macdonald A,Lord P,Ecklund D,Jones A. Large -scale data sharing in the life sciences:Data standards，incentives，barriersand funding models (The Joint Data Standards Study)[R/OL].[2014-06- 06].http://www.nesc.ac.uk/technical_papers/UKeS-2006 -02.pdf.   \n[24]British Atmospheric Data Centre[EB/OL].[2014-06-07]. https ://badc.nerc.ac.uk/home/index.html.   \n[25]Handle system[EB/OL].[2014-06-14].http://www.han dle.net/.   \n[26]吴立宗，王亮绪，南卓铜,等.DOI在数据引用中的应 用：问题与建议[J].遥感技术与应用,2013,28(3)： 377-382.   \n[27]Uniform Resource Name[EB/OL].[2014-06-14].http:// www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml.   \n[28]中文 DOI[EB/OL].[2014-06-14].http://www.chinadoi. cn/portal/index.htm.   \n[29]Wynholds L.Linking to scientific data :Identity problems of unruly and poorly bounded digital objects[J].International Journal of Digital Curation,2011,(6):38-41.",
+    "context2": "作者简介：张静蓓,女，中国科学院兰州文献情报中心、中国科学院大学硕士研究生细野，中国科学院中国科学院兰州文献情报中心、中国科学院大学硕士研究生；吕俊生，男，中国科学院兰州文献情报中心研究馆员。"
+  }
+}

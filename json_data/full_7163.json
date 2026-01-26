@@ -1,0 +1,84 @@
+{
+  "original_filename": "full_7163.md",
+  "新一代图书馆服务系统：功能评价与愿景展望": "",
+  "殷红刘炜": {
+    "context1": "摘要近年来国外崭露头角的“新一代图书馆服务系统\"是对现有的、以纸质文献为主要馆藏的图书馆业务和服务的一种升级，具有“全媒体\"资源管理能力、完整的业务流程管理能力和“全网域\"的资源发现能力。从技术上看“新一代图书馆服务系统\"的特点是采用SOA(即“面向服务的架构\")和云计算技术。本文结合信息技术的发展趋势，以及当前各类\"复合型\"图书馆所面临的管理和服务需求，指出未来图书馆系统应具备资源管理、流程管理和资源发现的功能，其中资源发现是其核心。图书馆员应充分参与到“新一代图书馆服务系统”的开发研制中，使图书馆成为一个知识发现和知识创造的平台。表1。参考文献7。",
+    "context2": "关键词图书馆服务平台数字图书馆新一代图书馆服务系统资源发现",
+    "context3": "分类号G250.71"
+  },
+  "On the New Generation of Library Service System: Functions , Visions and Prospects": {
+    "context1": "Yin Hong & Liu Wei",
+    "context2": "ABSTRACTTheemergingnewgenerationoflibraryservicesystemabroadinrecent yearsisanupgradeof the existing library operationsandserviceshavingpaperliteratureasitsleadingcolection.Thenewsystemhas theabilitytomanageresources inal media,theabilitytmanageoveralloeratioprocess,ndheabilitytofindesourcesinallomais.Fromtechnologicalper spective,thenew system hasthecharacteristics of usingthe SOA structureandthe technologyofcloud computing.Combined withthedeveloping trendsof information technologyandcurrentneedsof managementandservicesallcompoundlibrariesare faced with,itispointedoutthatfuture librarysysteshouldhavethefunctionsofmanagingresources,managing process，and finding resources，with thethirdfunctionasthecore.Librariansshouldbefullinvolved indevelopingandstudyingthenew system to make the libraries a platform of finding and creating knowledge.1 tab.7 refs.",
+    "context3": "KEY WORDSLibrary service platformDigital libraries.Library circuited management system.Resource discovery."
+  },
+  "1新问题新需求": {
+    "context1": "传统图书馆向数字图书馆过渡的一种中间形态,正借助于新一代图书馆管理系统的成型和应用,逐渐完成其历史使命，向以数字资源服务为基本方式的数字图书馆全面过渡。",
+    "context2": "图书馆行业正在进入计算机管理系统全面更新换代的升级和转型时期。作为知识的“海洋\"和“宝库”，其知识载体类型越来越丰富，数字资源在馆藏中占据越来越重要的比例,图书馆向读者提供的服务也越来越多种多样“复合型\"图书馆作为",
+    "context3": "当数字资源还被称为“电子资源”的时候，就已经给图书馆的资源管理和服务带来很大挑战。磁盘、光盘(包括随书光盘)等磁光介质媒体，还能以MARC编目，并被纳入图书馆集成管理系统进行管理和流通。而后来独立于介质的数字资源（如各类数据库、电子书、电子期刊、学术论文、开放存取资源等)进入馆藏,图书馆的整个业务流程就乱了，不论是数字资源的采订、编目、典藏还是流通，是856字段链接或是SFX全文获取,都只是权宜之计。",
+    "context4": "由于越来越多的数字资源并不需要图书馆将其物理载体收纳至本地即可提供服务，资源的“拥有\"和“存取\"对于读者并无区别,因此什么是馆藏，什么不算馆藏,边界已十分模糊。读者的需求和行为方式也发生了很大改变,远程访问、移动阅读已十分普遍，版权管理和用户的访问权限管理也变得复杂，图书馆的主要矛盾已不是信息资源的匮乏与读者日益增长的需求之间的矛盾，而是信息资源的泛滥、无序以及存取障碍与读者选择和获取之间的矛盾,图书馆必须提供更准确、更方便、更人性化的服务。",
+    "context5": "在这种形势下，原有的“图书馆集成管理系统\"(ILS)已完全丧失了“集成\"性。原有的被“集成管理系统\"固化的图书馆业务流程,即采访、编目、典藏、连续出版物管理、流通、馆际互借、OPAC等,在数字馆藏环境中,已失去了“规范性。“图书馆集成管理系统\"既无法管理全媒体时代图书馆所需面对的所有馆藏类型，也无法管理与数字资源相关的获取、揭示、入库、整合、利用等生命周期整个过程的业务流程。最根本的是,它无法为图书馆向读者提供必须的服务给予完善而有效的支撑,它缺乏统一用户认证、门户建设与管理、资源整合与发现、统计分析与反馈优化等必要的模块和功能。这些都导致传统的图书馆集成管理系统必须发生质的改变。"
+  },
+  "2新系统新特点": {
+    "context1": "业界的开发和应用现状表明‘新一代图书馆服务系统”正呼之欲出，有的称为“图书馆服务平台\"（LSP:Library Services Platform）,有的称为“全网域管理解决方案\"（WMS:Web Scale ManagementSolution§、“一体化管理系统\"（UMS:Uniform Man-agement System、‘统一资源管理\"（URM:UnifiedResourceManagement)系统等。虽名称各异,其实质还是一样的,就是对现有的、以纸质文献为主要馆藏的图书馆业务和服务的一种升级，本文统称为“新一代图书馆服务系统”。",
+    "context2": "“新一代图书馆服务系统”之新，主要体现在三个方面:",
+    "context3": "（1）“全媒体\"资源管理能力。传统ILS围绕印刷型馆藏而设计，而新系统除继续支持印刷型馆藏的管理之外,还纳入了数字馆藏生命周期管理和适应复合型图书馆管理而发展起来的“电子资源管理(ERM)系统”,进一步进化为统一的资源发现系统(参见下文)，真正成为适应数字图书馆需求而提供业务和服务支撑的资源管理平台。",
+    "context4": "(2)完整的、媒体无关的业务流程管理。传统ILS以MARC数据的处理为核心和工作流控制，MARC能够涵盖所有“传统的\"资源类型，但不适合描述数字资源,ERM可以管理“电子资源”,但不包括采订流程，而新系统必须支持完整流程和各类全新的开放元数据格式和数据交换协议，才能涵盖所有数字资源业务管理的需求。当然因为新媒体资源会不断发展而层出不穷，业务流程和模式也会千差万别，因而新系统在考虑工作流的统一性基础上，“灵活可定制\"的需求也是必须考虑的,面向服务的架构(SOA)正是最适合的方式。",
+    "context5": "（3“全网域\"的资源发现能力。传统ILS以图书馆的业务管理为出发点和着眼点，注重流程的规范化，书目检索系统(OPAC)是向读者提供的唯一工具。而新系统以读者的行为为中心进行设计，强调各类资源的统一揭示和“发现\"能力，不仅提供馆藏资源和订购的“可存取\"资源的发现，同时可提供开放存取以及互联网上未订购资源的发现(类似于学科搜索引擎，通过资源发现服务商提供的云服务实现)；在技术上提供更多的分面乃至可视化展现，具有类似于搜索引擎“一键直达\"的检索以及提供多种入口的“二次发现”工具，系统的体系结构更加灵活，模块化程度更高。可以说资源发现的界面就是新系统的OPAC。",
+    "context6": "目前被称为“新一代图书馆服务系统\"的主要"
+  },
+  "有以下六家公司的六种产品(见表1):": {
+    "context1": "表1当前六大“新一代图书馆服务系统\"比较①",
+    "context2": "<table><tr><td rowspan=1 colspan=1>公司和产品</td><td rowspan=1 colspan=1>类型</td><td rowspan=1 colspan=1>完成度</td><td rowspan=1 colspan=1>架构</td><td rowspan=1 colspan=1>本地安装</td><td rowspan=1 colspan=1>主要功能模块和特点</td><td rowspan=1 colspan=1>定位类型</td><td rowspan=1 colspan=1>应用案例</td></tr><tr><td rowspan=1 colspan=1>OCLC的WMS</td><td rowspan=1 colspan=1>换代产品全新开发</td><td rowspan=1 colspan=1>2009.4</td><td rowspan=1 colspan=1>云服务</td><td rowspan=1 colspan=1>不可</td><td rowspan=1 colspan=1>采订、流通、编目、互借、ERM、分析、报表、知识库、开放API、移动、多语种、RDA、电子书,资源发现可选,有限支持FRBR和关联数据，无保存功能，框检索开发中。全网域管理和发现</td><td rowspan=1 colspan=1>所有类型</td><td rowspan=1 colspan=1>Pepper-dine大学</td></tr><tr><td rowspan=1 colspan=1>Ex Libris的ALMA</td><td rowspan=1 colspan=1>换代产品全新开发</td><td rowspan=1 colspan=1>2011.1</td><td rowspan=1 colspan=1>云服务</td><td rowspan=1 colspan=1>不可(Primo可</td><td rowspan=1 colspan=1>采订、流通、编目、互借、ERM、分析、报表、知识库、开放API、移动、多语种、RDA、电子书、框检索、视频流、保存，资源发现可选，有限支持FRBR和关联数据,预约功能开发中。合并工作流</td><td rowspan=1 colspan=1>不适用公共馆</td><td rowspan=1 colspan=1>波士顿大学</td></tr><tr><td rowspan=1 colspan=1>ProQuest/Serial的 INTOTA</td><td rowspan=1 colspan=1>换代产品全新开发</td><td rowspan=1 colspan=1>2013</td><td rowspan=1 colspan=1>云服务</td><td rowspan=1 colspan=1>未知</td><td rowspan=1 colspan=1>采订、流通、编目、互借、ERM、分析、报表、知识库、开放API、移动、框检索，资源发现可选,支持RDA和 FRBR正在开发,无保存功能。知识库驱动的支持“多租客&quot;软件模式的SaaS服务</td><td rowspan=1 colspan=1>所有类型</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Kuali 的 OLE</td><td rowspan=1 colspan=1>开源系统</td><td rowspan=1 colspan=1>开发中</td><td rowspan=1 colspan=1>SaaS</td><td rowspan=1 colspan=1>可</td><td rowspan=1 colspan=1>采订、报表、开放API、知识库，流通、编目、ERM、框检索正在开发中,资源发现功能可选,支持关联数据。完全开放的架构,打破图书馆与其他信息系统的隔阂</td><td rowspan=1 colspan=1>仅适用学术馆</td><td rowspan=1 colspan=1>63个基金会成员图书馆</td></tr><tr><td rowspan=1 colspan=1>InnovativeInterfaces 的SIERRA</td><td rowspan=1 colspan=1>版本进化</td><td rowspan=1 colspan=1>2011.4</td><td rowspan=1 colspan=1>SaaS</td><td rowspan=1 colspan=1>可</td><td rowspan=1 colspan=1>采订、流通、编目、互借、预约、ERM、报表、知识库、开放 API、移动、多语种、RDA,资源发现可选，不支持关联数据和FRBR,无保存功能,框检索功能有限支持。用开源开发,SOA组件</td><td rowspan=1 colspan=1>所有类型</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>VTLS的OPEN SKIES</td><td rowspan=1 colspan=1>版本进化</td><td rowspan=1 colspan=1>2013</td><td rowspan=1 colspan=1>SaaS</td><td rowspan=1 colspan=1>可</td><td rowspan=1 colspan=1>采订、流通、编目、互借、ERM、报表、开放API、移动、多语种、RDA、FRBR、电子书、框检索、视频流、保存,有限支持关联数据和预约功能,资源发现功能未知（该公司有Chamo)</td><td rowspan=1 colspan=1>所有类型</td><td rowspan=1 colspan=1>香港公共图书馆</td></tr></table>",
+    "context3": "上述六大系统分为两类情况:一类(前四种)是完全从头全新开发的，采用了SOA和云计算等最新技术(参见下文);另一类(后两种)是通过对原有图书馆集成管理系统的重新设计和版本更新演进而来的，也支持云服务。从目前为数不多的应用来看还很难评判这两类孰优孰劣，并且除了OCLC的WMS和ExLibris的ALMA之外,其他的还处于边开发边应用的阶段，虽然号称已经有很多用户,但从介绍来看产品还没有完全成型。",
+    "context4": "从功能模块上看，这些系统呈现出明显的趋同性,但距离传统图书馆集成管理系统的标准化流程，还有不小的距离。很多公司的多个产品之间功能重叠、模块重复现象较为严重。一方面强调其开放性,某些模块可以采用其他公司的产品,另一方面又强调自己的独特性，显示出目前这些产品的不成熟。例如资源发现,有些公司由于有单独的产品，或能够支持其他资源发现产品，就成为可选模块。而且细究起来，一些功能的实现程度和方法还是有很大差别，因此在选择时从技术角度详细考察还是非常必要的。",
+    "context5": "但也存在边界不清、功能重叠的问题。ALMA系统号称不适合公共图书馆，其最早的一批用户包括波士顿大学、普林斯顿大学等知名的研究型图书馆，都是作为合作伙伴一边开发一边试用，至2013年4月30日，ALMA已经拥有了150家用户②。",
+    "context6": "Kuali 的 OLE（Open Library Environment)是由基金会支持的开源系统,其中应用了大量的新技术，例如关联数据技术，以及一个开放的数字资源登记注册的知识库GOKb（Global of Knowledge-base),这是其最有特色的地方。虽然还未开发完成,但加入该基金会的63个成员图书馆已经在使用了。",
+    "context7": "Innovative Interfaces 公司的 Sierra ServicesPlatform发布于2011年4月,源自其Millennium系统,但架构更开放,大量采用了开源工具,例如数据库采用了PostgreSQL,搜索引擎用的是Lucene,并全面开放各类API供应用混搭。号称已经有来自700多家图书馆的206个合约，使其成为目前用户最多的新一代系统。",
+    "context8": "OCLC的WMS由其全网域(Web Scale）书目系统WorldCat发展而来，增加了本地馆藏管理和流通等功能的业务流支持，功能模块较为简洁。它是最早(2009年4月)宣布支持“云服务\"的新一代图书馆服务系统,2013年3月已经支持了100家图书馆的日常运作①。",
+    "context9": "ExLibris的ALMA是抛开该公司非常成功的Aleph系统而另起炉灶开发的下一代系统，为落实“统一资源管理\"的理念，并充分利用该公司旗下的相关产品，例如负责资源发现的Primo和全网域发现的Primo Central服务、推荐排序服务bX、负责数字资源永久保存管理的Rosetta、负责ERM的Verde、负责数字内容管理的DigiTool,以及其业界领先的OpenURL链接技术和元搜索MetaLib等，在各类模块的相互协同整合方面应该具有一定优势，"
+  },
+  "3新技术的采用及升级策略": {
+    "context1": "图书馆行业一直是信息技术应用的先锋。早在上世纪70年代就发明了MARC数据标准的磁带格式,80年代应用了以UNIX为操作系统的主机一终端系统,作为书目数据电子化的基础。90年代是客户机/服务器模式 $^ +$ 关系型数据库的鼎盛时期,客户端普遍采用了Windows图形界面。90年代末互联网技术开始普及，图书馆的目录系统很快就应用了标准化的“瘦\"客户端模式,即Web 浏览器方式,提供OPAC书目检索功能。21世纪的第一个十年刚刚过去,图书馆又进入了移动计算 $^ +$ 云服务时代，无论是主动应对还是被“裹挟，‘新一代图书馆服务系统\"自然会充分利用新技术带来的优势,将以往的功能带入，并拓展新的功能。",
+    "context2": "从技术上看,新一代图书馆服务系统有两个主要特点:",
+    "context3": "（1)采用 SOA(即“面向服务的架构\"）。主要指一组松散耦合的(可以是分布式的)组件在完成各自功能的基础上,还能提供一些基于组件之间彼此通信的“额外”服务。这里的通信是指数据交换,并且彼此能协调合作。SOA通常是一种Web服务，多系统的互操作和共享数据普遍采用开放API方式,使得系统不依赖于软硬件,不依赖于特定开发商，系统的迁移升级能够逐步进行。",
+    "context4": "(2)采用云计算技术。由于图书馆行业的公益性、共建共享以及集约化要求,云计算技术能使图书馆行业的整体融合度和一体化程度大大增强。这并不是说个体图书馆就没有存在价值，而是作为整个服务体系末梢的个体图书馆，其背后更容易获得整个行业的支持。云计算技术能够在各个方面强化图书馆行业的整体性和服务的协作性,有利于实现信息资源的全域管理和发现、服务的全球化和SoLoMo(社会化、本地化和移动化应用)等,这些涉及图书馆业务和服务方式的根本性变化，都将体现在新一代图书馆服务系统中。",
+    "context5": "值得注意的是，IT技术的升级非常类似于地质岩层的累积，不同的岩石即代表了不同的年代，新地质年代并不是对过去的否定，而是一种延续和拓展。原有的技术成为底层技术，新的技术在其支撑下向着更高效、更能满足需求的方向发展，这常常是需求选择的结果。对于地质年代的更迭来说，计算机技术简直是以光速在发展，且有不断加速的趋势。C/S向B/S的过渡经历了十几年的时间，现在已开始向云计算的过渡。前述六大“新一代\"图书馆服务系统，全面采用了云计算，虽然对云计算的支持并不彻底，还十分强调对过去“遗留系统”的兼容，‘过渡\"形态还比较明显。",
+    "context6": "传统图书馆集成管理系统对行业的最大贡献是在统一数据格式MARC的基础上,为所有图书馆提供了一套标准化的工作流程,使图书馆行业很早就实现了全面的\"信息化”。企业界直到十多年前开始普及ERP和CRM时才赶上和超越。企业界采用信息化战略主要是迫于竞争压力，而图书馆作为一项公益性事业,其升级并非因为市场竞争，而是出于职业使命的驱使。当人类的文字记录和社会知识都是以数字形式存在时，当读者和用户都习惯于通过网络和移动设备获得信息进行学习时，图书馆如果不能实现数字化转型，它就无法在信息时代继续实践保存文化遗产、开展社会教育、传递科技情报和开发智力资源的历史使命，图书馆也就失去了存在的价值。",
+    "context7": "数字化对于当今图书馆,不仅具有工具的意义，同时也是图书馆的处理对象和服务内容。这就使其必须紧跟信息技术发展的潮流,并要力争成为弄潮儿。",
+    "context8": "传统图书馆面临解决数字资源的问题，一开始大多围绕ILS增补对于电子出版物和数字资源管理和服务的功能做起，例如采用856字段、OpenURL（SFX)链接原文方式提供数字资源的服务。随着全文资源越来越多，发展为采用单独ERM(电子资源管理)系统,同时外挂支持分面展示，以及包含封面、书评甚至目次的OPAC2.0。",
+    "context9": "新一代图书馆服务系统是以资源发现为中心，其他子系统(全媒体资源管理、业务流和保存)可以认为是为读者的资源发现服务的。传统ILS的印本管理流程被纳入其中作为业务流的一部分（也可能完全融入到新系统中），传统印本资源作为新业务流程中资源的一种。资源发现不仅是发现本馆订购的资源和本馆自建的特色资源,而且能从“全网域\"(Web Scale)发现本馆没有的资源,通过馆际互借或原文传递满足读者的进一步需求。",
+    "context10": "由此可见,过渡到“新一代图书馆服务系统”可以采取两种路径： $\\textcircled{1}$ 通过原有ILS逐步开发完善、版本进化,逐步到位; $\\textcircled{2}$ 通过购买和部署全新的系统而实现一步到位。如果把完全重新开发的新一代图书馆服务系统作为一种“革命\"的话,在对原有ILS修修补补的基础上结合资源发现系统的解决方案,就是一种渐进的“进化”模式。在现有面向服务的架构(SOA)下,只要系统的顶层设计合理科学，模块选用符合技术规范，这种模式就能很好地解决多系统之间的融合和互操作问题，这应该是信息技术在升级换代时期最为稳妥的解决方案。",
+    "context11": "如前所述,可以把新一代图书馆服务平台大致分为资源管理、流程管理和资源发现三大部件，其中与读者关系最大的是资源发现，图书馆服务系统向读者呈现的所有功能和服务，都是通过资源发现系统来实现的。资源发现目前是图书馆自动化领域最为活跃的热点领域，当前的趋势是仅仅提供资源发现的软件工具（例如ExLibris的Primo、Ser-ial Solutions 的 AquaBrowser、Innovative Interfaces 的Encore $\\textcircled{1}$ 和Endeca、VuFind等)已经远远不够了，必须结合“大数据”规模的元数据库的搜索服务，通常是通过SaaS的云服务方式实现(更准确地应该称之为DaaS:Dataasa Service）,可以称之为“资源发现服务”。目前市场上的资源发现服务主要有Serial Solutions 的 Summon、Ex Libris 的 Primo Cen-tral、EBSCO Discovery Services 和 OCLC 的 World-Share Management Services 四家公司的四个产品，竞争十分激烈。国内也有一些尚在开发中的类似系统,如超星发现、万方学术搜索、CALIS的e读以及国家图书馆自用的文津系统等，对于中文资源的发现有一定的优势。当然这些资源发现工具或服务的独立性都很强，大多数都能与各类图书馆系统很好地结合，其中支持云计算和SOA架构的系统通常能够与“新一代图书馆服务平台\"结合得更好。",
+    "context12": "同的共识。可以认为经过十多年的摸索,我们对数字时代图书馆的业务和服务模式已有了一定的认识，使我们能够通过系统软件的开发实现业务和服务流程的规范化和标准化。这让我们看到了行业走出低谷的曙光。",
+    "context13": "然而应该说这种尝试刚刚开始。我们要看到，数字时代各种类型图书馆之间的差异性更加明显:公共图书馆向社区文化中心发展，并更加依附于总分馆或联盟的互相帮携，电子书借阅成为其具有业务传承意义的新的增长点;大学图书馆一直朝着无纸化信息枢纽和学习中心的方向发展，然而近年来随着移动计算的普及，其设立的“学习共享空间”(LearningCommons)也出现了上座率不高的现象;研究型图书馆向来就是数字化服务的先锋，其“融入环境、嵌入过程\"正在取得成效,数据策管(Cura-tion)和大数据分析等新的要求给图书馆的服务深度带来严峻挑战;一些保存型图书馆正在将人文社会历史类的资源开发为网上公益性的学习交流资源（如新开放的美国公共数字图书馆DPLA）。这些需求差异巨大,很难通过一套产品化的“新一代图书馆服务平台\"得到完全的满足，这也是上述六大系统主要还是面向“学术图书馆”的需求、有的甚至公开强调不适宜公共图书馆使用的原因。当然,这些系统普遍采用SOA架构,外挂其他系统或模块，实现渐进式升级，也是一种稳妥的选择。"
+  },
+  "4评价与展望": {
+    "context1": "任何图书馆管理系统都必须以图书馆的核心价值为基础，以图书馆的愿景和使命为目标。新一代图书馆服务系统应能够帮助图书馆行业保持信息技术应用的领先优势，支持其各项职能的实现。",
+    "context2": "十多年来,图书馆行业一直处于应对挑战的迷茫期，其职能使命是否还能够继续达成，或者是否会有其他社会机构来进行分担，还存在很大的变数。新一代图书馆服务系统是这种背景下的产物，目前已经基本成型,说明业界对未来已形成一种趋",
+    "context3": "面对多样性越来越丰富的各类型图书馆,现有的“新一代图书馆服务系统\"还是一个非常初级的起步，尚有许多不足。我们相信，如果没有图书馆的直接参与,不在实践中进行尝试、检验和改进，是不可能得到业界的认可而普及的。目前图书馆界亟需对新模式带来的以下问题进行阐释:",
+    "context4": "·云服务带来的数据安全和系统安全问题，特别是与国情和习惯有关的困境。完全的云服务在国内得到完全的接受，特别是得到大型图书馆的接受，尚需时日。",
+    "context5": "·对数据服务(Data Services)的支持。目前的系统还基本以“类文本资源\"（Document like Re-sources)为主,但数据服务是未来研究型图书馆不得不面临的需求，其中包括数据的权利管理和保存等问题。",
+    "context6": "·嵌入用户知识环境的问题。目前各系统考虑了一些社会化网络的功能,但在融入用户环境方面的考虑还很薄弱，这对于发挥资源发现的作用是非常有效和关键的。",
+    "context7": "·对数字资源业务流程的管理。包括数字资源来源知识库、采访和整合支持、访问权限管理等，由于国内外情况很不同，因此大多数系统对国内的支持都附之阙如。",
+    "context8": "·对于电子书流通(E-lending)的支持。国外已有Overdrive(3M)这类服务提供,系统可直接挂接;国内还未形成模式,需要探讨。",
+    "context9": "·对于移动应用的支持。目前的系统功能远未做到与服务终端无关的“响应式设计\"和“无缝链接”，这方面考虑得还不够。",
+    "context10": "·对于新型“知识组织\"语言的支持。传统的分类编目技术在数字资源环境中变成的元数据和本体(包括SKOS、FRBR、关联数据等)等语义技术，是图书馆行业的核心能力之一，在新系统中尚未看到相关支持。",
+    "context11": "借用一个古老的比喻，图书馆是知识宝库,同时也应该是知识的喷泉。过去碍于载体的限制，图书馆员只能通过传递载体来传递知识，图书馆员的知识常常只局限于对于知识载体的认识，图书馆员的许多美好愿望只能停留于文学想像。而新一代图书馆服务系统能够让图书馆真正实现对于知识的整序而不是载体的整序，并通过提供知识发现工具把过去的想象带入现实。",
+    "context12": "然而没有图书馆员的充分参与，再先进的“新一代图书馆服务系统\"也不可能成功。图书馆要成为一个知识平台，不能只是知识发现平台,必须定位于知识创造平台，或至少是知识创造平台的一部分。在这个过程中，没有图书馆员作为知识工人的努力是不可能做到的。好的图书馆员要有足够的技术感悟力，同时敏锐感知用户的需求和体验，随用户而变，不被厂商绑架，不断优化系统，调整服务。",
+    "context13": "网络时代,每个用户都有自己的信息环境，用户的信息行为都是通过与环境中各类角色和资源的交互而完成,学习和研究的过程是动态的、上下文相关的,因此图书馆不可能只是静态地提供一个被动的知识空间，而必须充分利用技术，通过馆员的服务和用户的参与而实现服务“新一代图书馆服务系统\"只有通过这样的形式，才能体现图书馆的核心能力并实现其自身价值。"
+  },
+  "参考文献": {
+    "context1": "[1] Grant C.The future of library systems:Library services platforms $\\mathbb { f } / \\mathrm { o } \\mathbb { I }$ ．Information Standards Quarterly,2012,24 (4)．[2013-05-01]. htp://www. niso. org/apps/group_public/download.php/9926/isqv24no4. pdf.   \n[2] Breding M.Automation marketplace 2012:Agents of change[/O1].library journal,March 2012[2013-05-O1].http://lj. libraryjournal.com/2O12/03/industry-news/automation-marketplace-2012-agents-of-change/.   \n[3] Wang YM,Dawes TA.The next generation integrated library system:A promise fulfiled EB/OL]．[2013-05- O1].htp://ejournals.bc.edu/ojs/index. php/ital/article/download/1914/pdf.   \n[4] 姜爱蓉.图书馆系统的演变与发展 2012.12 [EB/OL]．[2013－05－01]．珠海(演示稿)．http:// cceu2012.uic.edu.hk/Resources/Report/11.8/图书馆系统的演变和发展-20121108-OK.pdf.（Jiang Airong.The evolution and development of the library system 2012.12EB/Ol]．[013-O5-O1]．Zhuhai（presentation)．http:// cceu2012.uic.edu.hk/Resources/Report/11.8/图书馆系统的演变和发展-20121108-OK.pdf.)   \n[5] 郑巧英图书馆集成管理系统应用现状与发展R.2011图书馆集成系统发展研讨会.（Zheng Qiaoying.The statusanddevelopment of theapplication of integrated library systemR.Seminar on Developmentof Integrated Library System in 2011.)",
+    "context2": "动态"
+  },
+  "德国启动‘数字信息优先倡议”,以提升数字科研能力": {
+    "context1": "德国科学组织联盟(Allianz der deutschen Wissenshaftsorganizationen)在2008至2012年第一阶段工作基础上,于2013年1月后动第二期“数字信息优先倡议”,旨在促进该国数字科研信息的开放共享与利用。倡议包括六方面内容:国家许可制度、国家典藏战略、科研数据管理、开放存取运动、法律法规政策和虚拟科研环境。",
+    "context2": "该倡议多管齐下，以优化科研数字环境,提升德国数字科研能力。通过将数字信息资源长期可持续保障机制,从当前的商业模式(vorherrschenden Geschaftsmodelle)转向“科研友好模式\"（wissenschaftsfreundli-chere Modelle）,广泛实现数字出版物的可用性。对德国科研成果,实行国家机构和科研机构同时进行数字出版物永久保存制度。改进数据互操作性和元数据交换方式,确保出于科研目的的科研数据访问不受限制。为数字科研环境去除财务、技术及法律方面的障碍，协同科学欧洲(Science Europe)和全球研究理事会（Global Research Council)共同促进开放出版和开放存取。对德国著作权法提出修改建议,确保开放存取的合法权益、努力争取降低对数字出版的税收等限制。提升现有虚拟科研环境平台的映射和分析能力,从临时搭建平台过渡到永久性操作平台(不采取许可证收费制度)。",
+    "context3": "德国科学组织联盟由包括DAAD、DFG、HRK、Fraunhofer在内的十家权威机构组成。参与“数字信息优先倡议\"政策制定的图书馆有:普鲁士文化遗产暨柏林州立图书馆、巴伐利亚州图书馆、萨克森州及哥廷根大学图书馆、联邦政府研究部门图书馆,以及来自法兰克福大学、海德堡大学、锡根大学、哈根大学、慕尼黑大学、多特蒙德技术大学等高校图书馆。"
+  },
+  "资料来源": {
+    "context1": "1Priority Initiative “Digital Information”by the Alliance of German Science Organisations.http://www.allianzinitiative. $\\mathrm { d e / e n / s t a r t } /$   \n2Schwerpunktinitiative “Digitale Information”der Alianz der deutschen Wissenschaftsorganisationen.http: // www.allianzinitiative.de/fileadmin/user_upload/Schwerpunktinitiative_2Ol3-2O17.pdf.",
+    "context2": "(顾立平整理)",
+    "context3": "[6]崔晓松云技术时代的图书馆集成系统．2011图书馆集成系统发展研讨会.（Cui Xiaosong，Integrated library system in the era of cloud technology R．Seminar on Development of Integrated Library System in 2011.)   \n[7]刘炜.建设2.0版的图书馆集成管理系统．数字图书馆论坛,2007(4)：1-7.(Liu Wei.Integrated library system for library 2.0．Digital Library Forum,2007(4):1-7.)"
+  }
+}

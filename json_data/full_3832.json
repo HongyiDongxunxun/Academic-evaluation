@@ -1,0 +1,79 @@
+{
+  "original_filename": "full_3832.md",
+  "国际电子文件管理系统需求研究进展及后示": "",
+  "·杨安莲": {
+    "context1": "内容摘要本文对美国和欧盟最具代表意义的、内容最新的两份电子文件管理系统需求报告进行分析，总结了电子文件管理系统需求研究的最新进展和特点，提出了系统需求的分析原则,以期对我国电子文件管理系统需求的研究和确定提供借鉴。"
+  },
+  "关键词电子文件系统需求比较研究": {
+    "context1": "Abstract: This essay analysis the two most representative and newest electronic document management system requirement report in the USA and EU.It summarized the recent advance and characteristic of the research on electronic document management system requirement,and also bring forward principle of system requirement analysis.We expected that this essay can give some help to the research and determination of the electronic document management system requirement.",
+    "context2": "Key words:Electronic document; System requirement; Comparison"
+  },
+  "一、美国国防部的《电子文件管理软件设计评价标准DOD 5015.2—S TD》": {
+    "context1": "美国国防部的《电子文件管理软件设计评价标准DOD 5015.2—STD》(以下简称《DOD 5015.2—STD》,第一版颁布于1997年,2002年6月进行了修订,2007年4月再次发布新版。",
+    "context2": "2002年版《DOD 5015.2—STD》主体内容为四章，将电子文件的功能需求分为三类强制功能需求、可选功能需求和密级文件管理需求。",
+    "context3": "2007年版《DOD 5015.2—STD》主体内容为六章，除了原有的三类功能需求描述外,增加了两项内容：一是对基于《隐私权法》和《信息自由法》的文件系统的功能需求描述；二是针对文件系统之间信息传输和互操作能力的功能需求描述。尤其值得注意的是，针对文件系统之间信息传输和互操作能力的功能需求描述部分，对电子邮件、扫描文件、PDF文件、照片文件、网页文件等多种类型的文件从文件级和案卷级的角度分别提出了需求。",
+    "context4": "2007年版《DOD 5015.2—STD》中，系统强制功能需求涉及12个方面内容，共152项,内容每一方面又划分为若干更加具体的分需求,标准对每一个分需求作出了详细说明。通过与2002年版对比(见下表，可以发现，2007年版《DOD 5015.2—STD》增加了移交美国国家档案与文件管理署(NARA)保存的归档文件和系统集成两项内容，从而使内容更为全面。",
+    "context5": "《DOD 5015.2—STD》自1997年首次公布后，几乎成为北美地区政府机构文档管理软件功能需求的事实标准，经过两次改版，其内容更为丰富和完善。通过比较分析，可见 2007版《DOD 5015.2—STD》主要有以下几个特点：",
+    "context6": "一是体现了对信息法律的遵从性。电子文件管理首先是对信息的管理，必须遵从国际和各国关于信息的法律法规规定。2007版《DOD 5015.2—STD》专门增加的对基于隐私权法和信息自由法的文件系统的功能需求描述，充分体现了这一原则，要求电子文件管理系统的功能设计必须保持与各国相关法规的相符性。",
+    "context7": "二是反映了文件管理需求类型的多样化趋势。2007版《DOD5015.2—STD》增加了对多种类型的文件的管理需求描述，这是新版的一个重大改动。这说明伴随人类电子文件管理实践的发展，电子文件管理内容不断丰富，管理领域不断扩大，从而导致了电子文件管理的需求不断扩展，这就要求电子文件管理系统的功能设计要保持动态更新，不断适应管理实践发展的需要。",
+    "context8": "表12002与 2007年版《D0D 5015.2—STD》系统强制功能需求对比图",
+    "context9": "<table><tr><td colspan=\"1\" rowspan=\"2\">需求项编号</td><td colspan=\"2\" rowspan=\"1\">2002年版</td><td colspan=\"2\" rowspan=\"1\">2007年版</td></tr><tr><td colspan=\"1\" rowspan=\"1\">强制功能需求</td><td colspan=\"1\" rowspan=\"1\">分需求项</td><td colspan=\"1\" rowspan=\"1\">强制功能需求</td><td colspan=\"1\" rowspan=\"1\">分需求项</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.1</td><td colspan=\"1\" rowspan=\"1\">执行文件计划</td><td colspan=\"1\" rowspan=\"1\">6</td><td colspan=\"1\" rowspan=\"1\">执行文件计划</td><td colspan=\"1\" rowspan=\"1\">10</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.2</td><td colspan=\"1\" rowspan=\"1\">确定文件保管期限</td><td colspan=\"1\" rowspan=\"1\">13</td><td colspan=\"1\" rowspan=\"1\">确定文件保管期限</td><td colspan=\"1\" rowspan=\"1\">15</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.3</td><td colspan=\"1\" rowspan=\"1\">文件的发布与归档</td><td colspan=\"1\" rowspan=\"1\">26</td><td colspan=\"1\" rowspan=\"1\">文件的发布与归档</td><td colspan=\"1\" rowspan=\"1\">26</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.4</td><td colspan=\"1\" rowspan=\"1\">电子邮件的归档</td><td colspan=\"1\" rowspan=\"1\">3</td><td colspan=\"1\" rowspan=\"1\">电子邮件的归档</td><td colspan=\"1\" rowspan=\"1\">7</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.5</td><td colspan=\"1\" rowspan=\"1\">文件的存储</td><td colspan=\"1\" rowspan=\"1\">4</td><td colspan=\"1\" rowspan=\"1\">移交NARA保存的归档文件</td><td colspan=\"1\" rowspan=\"1\">2</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.6</td><td colspan=\"1\" rowspan=\"1\">文件的保存及重要文件的管理</td><td colspan=\"1\" rowspan=\"1\">55</td><td colspan=\"1\" rowspan=\"1\">文件的存储</td><td colspan=\"1\" rowspan=\"1\">5</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.7</td><td colspan=\"1\" rowspan=\"1\">检索控制</td><td colspan=\"1\" rowspan=\"1\">8</td><td colspan=\"1\" rowspan=\"1\">文件的保存及重要文件的管理</td><td colspan=\"1\" rowspan=\"1\">42</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.8</td><td colspan=\"1\" rowspan=\"1\">系统审计</td><td colspan=\"1\" rowspan=\"1\">13</td><td colspan=\"1\" rowspan=\"1\">检索控制</td><td colspan=\"1\" rowspan=\"1\">9</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.9</td><td colspan=\"1\" rowspan=\"1\">系统管理需求</td><td colspan=\"1\" rowspan=\"1\">8</td><td colspan=\"1\" rowspan=\"1\">系统审计</td><td colspan=\"1\" rowspan=\"1\">11</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.10</td><td colspan=\"1\" rowspan=\"1\">附加基本要求</td><td colspan=\"1\" rowspan=\"1\">10</td><td colspan=\"1\" rowspan=\"1\">系统集成</td><td colspan=\"1\" rowspan=\"1\">9</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.11</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">系统管理需求</td><td colspan=\"1\" rowspan=\"1\">7</td></tr><tr><td colspan=\"1\" rowspan=\"1\">C2.2.12</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">附加基本要求</td><td colspan=\"1\" rowspan=\"1\">9</td></tr><tr><td colspan=\"1\" rowspan=\"1\">总计</td><td colspan=\"1\" rowspan=\"1\">10项</td><td colspan=\"1\" rowspan=\"1\">146</td><td colspan=\"1\" rowspan=\"1\">12项</td><td colspan=\"1\" rowspan=\"1\">152</td></tr></table>",
+    "context10": "三是保持了军事领域的专业性特点。《DOD5015.2—STD》关注的是军事机构这一特殊文件形成与利用群体的电子文件管理问题，其从设计之初就有明确的对象指向性。从其强制性需求的设计，到2002年关于秘级文件管理需求的增加，无不反映了军队这一特殊集团对电子文件管理问题的特殊要求，始终一致地保持了军事领域的专业性特点。"
+  },
+  "二、欧盟《电子文件管理通用需求》(MoReq2)": {
+    "context1": "1996年，欧盟执行委员会第一届DLM(DocumentLifecycleManagement)论坛上倡议制订电子文件管理功能需求标准。2001年，英国康维尔管理咨询集团负责起草的欧盟《电子文件管理通用需求》正式面世,2008年2月该《需求》出台了第二个版本(以下简称MoReq2）。",
+    "context2": "MoReq2整体内容包括13个章节和9个附录，其主体内容是从第三章到第十二章的电子文件管理系统需求部分，需求内容可划分为功能需求、其他功能需求、性能需求、元数据需求四个方面。报告描述系统的功能需求和性能需求时，不仅进行了总体概述，而且还对系统在完成该功能时应该满足的具体需求进行了详尽的说明。除此之外,MoReq2还对电子文件的管理元数据作了详细的规定，其中附录9一元数据模型独立发布。",
+    "context3": "MoReq2对系统功能需求的表述集中于第三章至第十章，主要包括八个方面,669项需求,与2001年版本对比如表2所示：",
+    "context4": "MoReq2对系统性能需求的表述集中于第十一章，共101项具体需求,与2001年版本对比如表3所示：",
+    "context5": "MoReq2中对元数据的总体需求描述集中于第十二章，并专门设置了附录9一元数据模型，来对元数据进行具体描述。附录9对元数据命名、获取、管理和维护等方面的原则和要求进行了介绍，并给出了通用元数据集。MoReq2的元数据项目达158项,元数据项目涉及多个层次。MoReq2对元数据需求的表述与2001年版本对比如表4所示：",
+    "context6": "通过对欧盟《电子文件管理通用需求》2001年版本和2008年版本的比较分析，我们可以发现MoReq2有以下一些鲜明的特点：",
+    "context7": "一是规范性。MoReq2中的术语概念的界定更加清晰，使用也更为严密和规范；其中的元数据需求架构基本上遵照了ISO23081的实体关系模型。这些变化都表明，MoReq2在内容上涵盖了近几年最新的理论和技术研究成果，吸纳了一些已经获得普遍共识的观点，尤其是ISO23081、ISO15489和ISO15836等国际标准的要求，从而在一定程度上反映了人类在电子文件管理领域的最佳实践成果，大大增强了自身的规范性。",
+    "context8": "二是全面性。MoReq2对电子文件管理的通用需求进行了全面论述和科学分类，利用十个章节的内容详细规定了电子文件管理的需求，并通过区分功能的性质、等级、分层次等方式，对电子文件管理系统的需求进行了全面细化和详尽论述，从而强化了MoReq2的可操作性，使得使用者能够直接将其用于软件产品的评测和认证。同时,将电子文件管理系统需求划分为功能需求、其他功能需求、性能需求和元数据需求四个方面，这种划分方法标准清晰，便于理解和把握，为我们研究和制定电子文件管理系统需求标准提供了借鉴。",
+    "context9": "表22001与2008年版《电子文件管理通用需求》强制功能需求对比图",
+    "context10": "<table><tr><td colspan=\"1\" rowspan=\"2\">章节</td><td colspan=\"2\" rowspan=\"1\">2001年版</td><td colspan=\"2\" rowspan=\"1\">2008年版</td></tr><tr><td colspan=\"1\" rowspan=\"1\">功能需求</td><td colspan=\"1\" rowspan=\"1\">需求项数</td><td colspan=\"1\" rowspan=\"1\">功能需求</td><td colspan=\"1\" rowspan=\"1\">需求项数</td></tr><tr><td colspan=\"1\" rowspan=\"1\">3.分类方案</td><td colspan=\"1\" rowspan=\"1\">3.1分类方案配置3.2类和案卷3.3子卷3.4分类方案维护</td><td colspan=\"1\" rowspan=\"1\">39</td><td colspan=\"1\" rowspan=\"1\">3.1分类方案配置3.2类和案卷3.3子卷和册3.4分类方案维护</td><td colspan=\"1\" rowspan=\"1\">91</td></tr><tr><td colspan=\"1\" rowspan=\"1\">4.安全控制</td><td colspan=\"1\" rowspan=\"1\">4.1存取控制4.2审计追踪4.3备份和恢复4.4文件运动追踪4.5真实性4.6密级</td><td colspan=\"1\" rowspan=\"1\">50</td><td colspan=\"1\" rowspan=\"1\">4.1存取控制4.2审计追踪4.3备份和恢复4.4重要文件</td><td colspan=\"1\" rowspan=\"1\">50</td></tr><tr><td colspan=\"1\" rowspan=\"1\">5.保存与处置</td><td colspan=\"1\" rowspan=\"1\">5.1保管期限表5.2复审5.3移交、输出、销毁</td><td colspan=\"1\" rowspan=\"1\">46</td><td colspan=\"1\" rowspan=\"1\">5.1保管期限表5.2复审5.3移交、输出、销毁</td><td colspan=\"1\" rowspan=\"1\">75</td></tr><tr><td colspan=\"1\" rowspan=\"1\">6.捕获文件</td><td colspan=\"1\" rowspan=\"1\">6.1捕获6.2批量输入6.3文档种类6.4电子邮件管理</td><td colspan=\"1\" rowspan=\"1\">27</td><td colspan=\"1\" rowspan=\"1\">6.1捕获6.2批量输入6.3电子邮件管理6.4文档种类6.5扫描成像</td><td colspan=\"1\" rowspan=\"1\">95</td></tr><tr><td colspan=\"1\" rowspan=\"1\">7.参见关系</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">7</td><td colspan=\"1\" rowspan=\"1\">7.1分类代码7.2系统标识符</td><td colspan=\"1\" rowspan=\"1\">16</td></tr><tr><td colspan=\"1\" rowspan=\"1\">8.查找、检索和输出</td><td colspan=\"1\" rowspan=\"1\">8.1查找和检索8.2输出显示文件8.3输出打印文件8.4输出其他形式</td><td colspan=\"1\" rowspan=\"1\">46</td><td colspan=\"1\" rowspan=\"1\">8.1查找和检索8.2输出显示文件8.3输出打印文件8.4输出其他形式</td><td colspan=\"1\" rowspan=\"1\">56</td></tr><tr><td colspan=\"1\" rowspan=\"1\">9.管理功能</td><td colspan=\"1\" rowspan=\"1\">9.1基本管理功能9.2报表9.3文件的修改、删除和编辑</td><td colspan=\"1\" rowspan=\"1\">30</td><td colspan=\"1\" rowspan=\"1\">9.1基本管理功能9.2报表9.3文件的修改、删除和编辑</td><td colspan=\"1\" rowspan=\"1\">59</td></tr><tr><td colspan=\"1\" rowspan=\"1\">10.其他功能需求</td><td colspan=\"1\" rowspan=\"1\">10.1非电子形式文件的管理10.2混合案卷的保存与处置10.3文档管理10.4工作流10.5电子签名10.6加密10.7电子水印等10.8互操作性和开放性</td><td colspan=\"1\" rowspan=\"1\">71</td><td colspan=\"1\" rowspan=\"1\">10.1非电子形式文件与案卷的管理10.2非电子形式文件的处置10.3文档管理10.4工作流10.5联合案卷管理10.6与内容管理系统的集成10.7电子签名10.8加密10.9数字版权管理10.10分布式系统10.11离线与远程处理10.12传真件管理10.13安全等级</td><td colspan=\"1\" rowspan=\"1\">227</td></tr></table>",
+    "context11": "三是电子文件管理元数据需求的完善性。元数据需求的完善是MoReq2的亮点之一,MoReq2专巾设置了附录9来对元数据进行具体描述，并且给出了元数据模型和元数据集。尤其是对作为档案保存的那部分文件的元数据，MoReq2给予了更多的关注。可以说,这是至今为止对电子文件管理元数据需求的最为完善的描述，具有很强的可操作性。同时在类、案卷、子卷和文件元数据的基础上增加了册元数据的需求表述，体现了元数据需求越来越趋于细化的趋势。"
+  },
+  "三、国际电子文件管理系统需求研究进展带给我们的后示": {
+    "context1": "表 $3 : 2 0 0 1$ 与2008年版《电子文件管理通用需求》性能需求对比图",
+    "context2": "<table><tr><td rowspan=2 colspan=1>章节</td><td rowspan=1 colspan=2>2001年版</td><td rowspan=1 colspan=2>2008年版</td></tr><tr><td rowspan=1 colspan=1>性能需求</td><td rowspan=1 colspan=1>需求项数</td><td rowspan=1 colspan=1>性能需求</td><td rowspan=1 colspan=1>需求项数</td></tr><tr><td rowspan=1 colspan=1>11.非功能需求</td><td rowspan=1 colspan=1>11.1系统的易用性11.2性能及可量测性11.3系统的可用性11.4技术标准11.5法律及制度要求11.6外包及第三方数据管理11.7长期保存和技术折旧</td><td rowspan=1 colspan=1>69</td><td rowspan=1 colspan=1>11.1系统的易用性11.2性能及可量测性11.3系统的可用性11.4技术标准11.5法律及制度要求11.6外包及第三方数据管理11.7长期保存和技术折旧11.8业务过程</td><td rowspan=1 colspan=1>101</td></tr></table>",
+    "context3": "表42001与2008年版《电子文件管理通用需求》元数据需求对比图",
+    "context4": "<table><tr><td colspan=\"2\">2001年版</td><td colspan=\"2\">2008年版</td></tr><tr><td>元数据项目 (相关章节：12.元数据需求) 12.1原则</td><td>需求项数</td><td>元数据项目 (相关章节附录9一元数据 模型,9.7元数据集) 9.7.1分类方案元数据 9.7.2类、案卷、子卷、册和文件元数 据 9.7.3内容组织方式元数据</td><td>需求项数 158</td></tr></table>",
+    "context5": "通过对以上两个代表性系统需求文件的分析，我们可以发现，国际电子文件管理系统需求的研究都遵循着并给予我们一定启示的基本原则,主要包括："
+  },
+  "1、法规/标准原则": {
+    "context1": "即电子文件管理的需求必须遵从国际、国家的相关法规/标准的要求。具体而言，我国的电子文件管理系统需求必须与中国信息管理、文件管理、档案管理等相关领域的法律法规和相关标准规范相一致，要能够使法律法规的基本要求在电子文件管理领域得以反映；同时，要积极吸收和采纳国际的成熟标准，保证我国电子文件需求的科学性和规范性。在这一点上，无论是《DOD5015.2—STD》还是Moreq2,都给我们提供了可资借鉴的经验。"
+  },
+  "2、动态性原则": {
+    "context1": "《DOD 5015.2—STD》和 Moreq2版本的多次更新，正是动态性原则的反映。这就要求我们在确定电子文件管理需求时，既要从我国电子文件管理实践出发，制定切实可行的电子文件管理需求，也要充分认识到电子文件管理实践发展的变化性和复杂性，及时对电子文件管理系统需求进行动态更新，保证管理系统能够实时满足我国电子文件管理实践的发展需要。"
+  },
+  "3、全面性原则": {
+    "context1": "Moreq2为我们提供了一个全面详尽的电子文件管理通用需求标准，全面性正是其在国际上深具影响力的法宝。全面性原则要求我国电子文件管理需求的确定要顾及国家不同机构产生的，不同类型、不同价值形态的"
+  },
+  "OAIS对数字档案馆系统技术路线和管理策略的后示": "",
+  "·钱毅": {
+    "context1": "内容摘要开放档案信息系统参考模型(OAIS,ISO14721）作为数字信息长期保存和利用的基本框架体系，在数字文件保存领域得到了广泛的研究和应用。OAIS模型的主要贡献在于它提出了功能模型、信息模型、互操作模型和长久保存的管理策略。这些对于数字档案馆系统技术路线的选择、总体管理策略的搭建都具有直接的指导作用。"
+  },
+  "关键词 数字档案馆OAIS 技术路线管理策略": {
+    "context1": "Abstract: As a main form of archives informatization construction,digital archives is in exploration of theoretical system and technical execution scheme.As a basic frame of digital information's long term preservation and utilization,open archives information system(OAIS,ISO 14721) is researched and used in digital files’preservation.OAIS model's main contribution lies in function model, information model, interoperation model,and management strategy of long term preservation that it bring up. These models have direct guidance function to the choice of technical routes and development of management strategy.",
+    "context2": "电子文件。从广度上说，需求类别划分要科学，能够囊括不同类别和等级的电子文件;从深度上说，需求描述要详尽具体，揭示出不同层次电子文件的管理要求，保证可操作性。"
+  },
+  "4、专业性原则": {
+    "context1": "《DOD 5015.2-STD》是美国研制的电子文件管理系统需求标准，它始终坚持专业领域原则，明确自身的服务对象，但是这也丝毫没有影响其适用面和社会影响力。从这个角度而言，在保证通用性的前提下，电子文件管理需求也要充分考虑到国家信息化建设的不同领域对电子文件管理的个性化要求，基本适应各个领域电子文件管理的特殊要求和特定职能。"
+  },
+  "参考文献": {
+    "context1": "1.Electronic R ecords Management Software Applications Design Criteria Standard,(April 25,2007 ,http:",
+    "context2": "Key words: Digital archives; OAIS; Technical routes; Management strategy"
+  },
+  "一、OAIS 模型综述": "",
+  "1、OAIS形成基本过程与作用简介": {
+    "context1": "1990年，美国国家航空和宇宙航行局(NASA)的空间数据系统咨询委员会（CCSDS应国际标准化组织(ISO)的要求，承担起了制订长期保存数字信息标准的任务。1995年5月，CCSDS推出了一种致力于数字信息长期保存和利用的基本框架体系一开放档案信息系统参考模型。随后，这一参考模型作为ISO的推荐草案得到了广泛的评阅，经过扩充修改后的新的OAIS参考模型于2001年7月正式发布。2002年又推出了OAIS的蓝皮书,2003年参考模型最终作为ISO的标准(ISO14721:2003)颁发。",
+    "context2": "OAIS中的Open (开放是指OAIS参考模型以及以后在其基础上发展出来的所有建议和标准都处于开放式发展的状态,但并不意味对OAIS的信息的使用不受限制;Archives Information也并非狭义的档案信息,而是泛指可保存的信息;LongTerm是指受技术变化影响足//cio.energy.gov/ records- management/ $8 7 2 . \\mathrm { h t m }$ ，检索时"
+  },
+  "间2007年11月2日": {
+    "context1": "2.Model Requirements for the Management of Electronic R ecords (20o8 ,www.cornwell.co.uk/moreq2/",
+    "context2": "MoReq2- typeset- version.pdf，检索时间 2008 年11月28日",
+    "context3": "3.Appendix 9 TO THE MoR eq2 Specification: Meta-data MODEL,2008,http:// www.cornwell.co.uk/ moreq2/MoReq2-appendix-9-v1- 04.doc,检索时间 2008 年11月28日",
+    "context4": "4.张宁：欧盟《电子文件管理通用需求第二版-Moreq2》解析.北京档案2008年第7期",
+    "context5": "(作者杨安莲，南京政治学院上海分院军事信息管理系，邮编200433)"
+  }
+}

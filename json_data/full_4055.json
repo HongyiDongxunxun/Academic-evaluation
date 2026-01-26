@@ -1,0 +1,68 @@
+{
+  "original_filename": "full_4055.md",
+  "图书馆数字信息资源动态链接整合技术研究现状分析": "",
+  "张敏": {
+    "context1": "(武汉大学信息管理学院，湖北 武汉 430000)",
+    "context2": "[摘要]本文首先分析了静态链接和动态链接各自的优缺点，重点探讨了OpenURL协议、SFX、WebBridge、CrosSef、LinkerFinder Plus、OL2等动态链接整合技术的研究现状、各自的优缺点及其未来发展趋势。",
+    "context3": "[关键词]图书馆；信息资源整合；动态链接技术",
+    "context4": "[中图分类号]G250.76〔文献标识码]A〔文章编号]1008－0821（2008）07－0012—03"
+  },
+  "The Analysis of Dynamic Connection Integration Technology in Libraries": {
+    "context1": "Zhang Min (School of Information Management，Wuhan University，Wuhan 43OOOO，China)",
+    "context2": "[Abstract）Thisarticle analyzed the merit and shortcoming of the static connectionand the dynamic connection firstly·It alsodiscussed the present situation，development trend，the merit and shortcoming of the OpenURL agree ment，SFX，WebBridge，CrossRef，LinkerFinder Plus，OL2 with emphasis·",
+    "context3": "〔Key words]library；information resource integration；dynamicconnection integrationtechnology",
+    "context4": "链接技术有动态和静态2种：前者的链接两端随着链接环境的改变而改变，不会导致死链问题；而后者的链接状态是固定的，容易产生死链。静态链接的基本特征是将链接属性直接写为某一固定URL，用户直接点击就可链接到对象。最常见的应用是图书馆内部OPAC书目数据库与其他类型数字资源的整合，在MARC记录里增加856字段（“电子资源地址与存取”)，用于记录被著录的数字资源的存取地址和存取方式。使用静态链接可以节省不少内存和磁盘空间。但是，它还是有些固有的缺点：一是静态库也需要定期维护和更新。如果静态库更新了，程序必须与新的库重链接1次；二是如果有几十上百个进程在运行，每个进程都调用相同的函数模块，这样每个进程都要有1份该模块的拷贝，无疑太浪费系统资源。",
+    "context5": "为了克服静态库先天上的不足，共享库出现了。共享库（动态链接文件）是一个目标模块，运行时，可以加载到任意存储器地址，并在存储器中和一个程序链接起来，这个过程叫动态链接，是由动态链接器完成的。当前已开发出了一些动态链接整合协议与技术，分析其各自的优缺点，有助于动态链接整合技术的进一步发展。"
+  },
+  "1OpenURL 协议研究现状分析": {
+    "context1": "OpenURL即开放链接，是美国国家信息标准组织标准委员会（NISO）2001年5月提出草案建议的一个正在讨论确定的标准，2003年3月11日，NISO委员会发表了OpenURL标准的第一部分，2003年3月18日又发表了OpenURL的第二部分。目前OpenURL正由NISO 进行标准化的工作，NISO 的这些工作为OpenURL 标准的更广泛的发展和应用创造了条件。OpenURL得到了世界范围的广泛响应和支持，如Web of Science，ProQuest 等）国外的一些科研机构和公司（如：ISI一Web of Science，OCLC一First Search）对OpenURL技术已进行了深入的研究和开发，使开放链接技术正在成为一项趋于成熟的技术。",
+    "context2": "OpenURL框架是一种开放的信息资源与查询服务之间的通信协议标准，是开放的、动态的上下文相关的链接框架[1]，它是在 URL（Unifom Resource Locators）基础之上发展起来的，与静态的URL相比，它克服了URL的诸多缺陷，它的发展为上下文敏感链接提供了条件。OpenURL 标准是一种传输信息物件的元数据或资源信息的语法[2]，通过这些语法的标准化，OpenURL生成传输元数据及访问元数据的可执行URL，将查询字符串利用URL的编码方式，直接传送给其他数据库系统[3]。",
+    "context3": "OpenURL的基本语法为OpenURL：: $=$ BASEURL“ ?\"QUERY，BASEURL[2]是相关服务程序组件的Web 地址，QUERY是内容，可能是特定对象的元数据或者是元数据对象的参考项目。",
+    "context4": "OpenURL链接系统解决了在传统的链接环境下所面对的问题，可以使数字图书馆控制链接系统内的数据库的内容，能就数字馆藏及其使用权状况链接到有订购或免费的平台，开放式链接系统还能够提供延伸服务。",
+    "context5": "OpenURL作为一种上下文敏感的资源开放链接技术，一经推出，就引起了有关研究机构、公司的关注，对其进行了深入的研究和开发，目前已推出了一些基于OpenURL的产品，这些产品都致力于资源之间的无缝、开放、动态链接。数字资源整合管理系统作为图书馆资源整合的综合解决方案，通常都具有支持OpenURL的资源链接模块，如",
+    "context6": "<table><tr><td>2008年7月</td><td>第7期</td></tr><tr><td>July 2008</td><td>No. 7</td></tr></table>",
+    "context7": "ExLibris 的 MetaLib with SFX，MAP 的 WebBridge，Encompass的 LinkFinderPlus，Fretwell一Downing 的 OpenLink，the SIRSIOpenURLResolve等。而国内目前还缺乏这方面的成熟产品，因此，有关研究机构、公司和图书情报机构需加强对OpenURL的研究，并将其运用于资源整合中，以解决不同资源间相关知识的动态链接问题，从而使用户获得全面的信息，帮助用户解决问题，同时也能充分发挥图书馆的作用并减轻图书馆的维护代价。"
+  },
+  "2SFX研究现状分析": {
+    "context1": "SFX(Special Effects 的缩写)，是ExLibris公司推出的新的网络电子资源无缝链接整合软件系统，也可以称为上下文敏感参考文献链接解决方案。SFX可以把不同来源和不同通信协议的信息完全融合，使不同类型、不同格式的数字资源实现无缝链接，其技术为机构提供特制的链接，实现在异构的分布式信息系统之间无阻碍导航[4]。",
+    "context2": "日前在国外SFX作为一种比较先进的图书馆资源整合技术被提出并开始应用。国内异构资源整合技术刚刚开始研究，出现了同方USP统一检索平台、CALIS 资源统一检索平台、天宇统一检索平台等技术。以上技术针对解决图书馆的数字资源整合而开发，并且依托于互联网，因此与以前采用的通用数据库访问技术和中间件技术等异构数据库集成方法相比，具有强大的跨平台检索能力、独立性以及分布能力，解决了以前集成方法存在的数据格式不同构造的数据源互访困难、不能跨平台操作等问题。",
+    "context3": "SFX作为一种比较成熟的整合技术，通过OpenURL框架把复杂的数据库之间的互连通过简单的链接完成。SFX的最大优势是实现检索数据“一步到位式”参考链接，从而在异构的分布式数据库系统之间实现无阻碍导航，不仅能实现二次文献到全文，还能实现文摘到文摘、引文到全文的整合，实现在数据库中点击一篇文章的记录后显示所有能够得到的与这篇文章相关的服务选项列表，实现了在知识整体层面对信息资源进行管理的整合，理论上使用户获得所有可获得的资源。其OpenURL也已经成为NISO（美国国家标准信息组织）标准。基于以上的优势，SFX技术已被嵌入国外著名数据库如ISI，CSA，OVID，UMI，BB-SCO，Elsevier，High一Wire中，很多国外大学也已采用SFX对图书馆数据库资源进行整合。",
+    "context4": "SFX 在实际的应用中还存在一些问题：它基于一定的OpenURL协议标准，对于发展比较规范的国外数据库资源比较适用，但是对于早期遗留的数据库和资源数据库构建技术不同、标准不统一的国内数据库存在着很大的难度。各个数据库根据OpenURL标准制定的接口依然有很大差异，若要根据自己的需求自行开发依然比较困难。此外SFX技术对检索数据需要在二次检索的扩展服务中完成“一步到位式”参考链接。另外也存在着扩展性差，二次开发困难的问题。"
+  },
+  "3WebBridge研究现状分析": {
+    "context1": "Web Bridge是Innovative公司推出的一款链接产品，WebBridge提供各类资源的动态链接，并可对各个资源进行注释，也提供到电子全文的直接链接。其同时支持OpenURL及CrossRef标准，只要对各个类型的资源进行相应的设置就可通过WebOPAC 检索各类资源。WebBridge 的智能链接功能，可以将多家图书馆的信息资源链接在一起，它可以从WebBridge驱动的图书馆馆藏的任何电子信息资源中建立相关信息资源列表，这些信息资源可以是图书馆的We-bOPAC，Millennium图书馆馆员模块，以及其他任何数字资源，如文摘和索引、全文数据库等。Web Bridge 根据记录中的这些信息，生成图书馆选定的信息资源链接清单，只有符合特定标准的信息资源才会列出。相关的链接可包含更多的内容，如书籍封面的图像和书评，以及期刊或全文电子图书[5]。",
+    "context2": "Web Bridge有2种使用方式，一种是接受来自集成管理系统（Mellenium）之外的请求并返回适当的匹配结果；另外一种方式是在Mellenium系统之内，根据实际情况和预先设定，将述评和图书的封面图片链接，还可以是链接到合适版本的全文电子论文或电子图书、书评、相似题名、其他图书馆的馆藏、全文以及封面图片等各种类型信息[6]。",
+    "context3": "WebBridge的主要优点：",
+    "context4": "$\\textcircled{1}$ 完全将WebOPAC、工作人员使用的 Mlliemlium 各模块以及外部的资料连结在一起，可以确保读者和图书馆工作人员充分使用信息资源。",
+    "context5": "$\\textcircled{2}$ OpenURL 解析服务器接收各种OPenURL，并将其分解为适当的信息资源，可提高各种信息资源之间的互通性。",
+    "context6": "$\\textcircled{3}$ 各链结是动态的、关联的，而且可由图书馆自定义。通过高级管理界面，图书馆可以定制链接信息，并且编辑所包含的信息。",
+    "context7": "$\\textcircled{4}$ WebBridge链接也与其他代理服务器和远程访问工具兼容。"
+  },
+  "4CrossRef研究现状分析": {
+    "context1": "\"CrossRef是由多个出版机构联合建立的开放式参考文献链接系统\"[7]。最早于1999 年11月由ACM、The AcademicPress、The American Association forthe Advancement of Science、American Institute of Physics、IEEE、Kluwer、Blackwell Science、Springer、Wiley、Elsevier Science 等12个国际知名出版商发起并宣布成立。“CrossRef的目的就是为了让一次文献的引文能链接到另一个出版商的站点，并使得二次文献能链接到全文”[8]。",
+    "context2": "CrossRef 的工作原理：“CrossRef 以Digital Object Identifier(DOI）为核心技术，借助该技术，用户通过电子杂志的引文，能够连接与该引文相符的电子论文的全文\"[9]。Cross\"Ref 是基于IDF（International DOIFoundation）、美国出版社协会未来技术委员会的 $\\mathrm { D O I } ^ { - } \\mathrm { X }$ 分委员会和CNRI（Corporationfor National Research Initiatives）开发的名为 $\\mathrm { D O I ^ { - } X }$ 样品的一个系统。在CrossRef系统中，所有成员出版商都用DOI作为连接对象的惟一标识符，并按照基于XML的元数据格式向中心链接系统提交所出版的链接对象的DOI、URL和简单元数据，DOI和URL存入地址数据库，DOI和元数据存入元数据库。“在进行链接时，用户检索CrossRef的元数据库和地址数据库，从而获得相应的DOI、URL和元数据，并根据元数据进行链接\"[10]。",
+    "context3": "CrossRef为用户实现引文到原文的链接提供了便利，为文献资源真正实现共享提供了有利途径。但我们也应看到它存在的问题：",
+    "context4": "(1）CrossRef 是基于元数据的查找。系统能否正常运行，取决于出版商提供元数据的准确性和及时性。",
+    "context5": "July 2008 No:7",
+    "context6": "(2）目前CrossRef提供的引文到原文的链接。仅局限于英文文献，从整个资源环境来说，范围不够大。",
+    "context7": "（3）虽然已有很多出版商和学会参与该系统，但对于海量的网络信息仍是杯水车薪。",
+    "context8": "(4）CrossRef会为每一个用户提供一个获得引文全文信息的“最恰当的网页”。但是对这个网页的访问仍需要使用国际代理，收取用户的网络流量费，这对于已经购买了该数据库使用权的很多中国高校用户造成了一定的费用负担。"
+  },
+  "5LinkerFinder Plus 研究现状分析": {
+    "context1": "LinkFinder Plus 是 Endeavour Information System 的开放式URL连接系统。Endeavour是美国的一家图书馆自动化系统的制造商，在 2OOO 年4月成为Elsevier Science 的子公司。Endeavor information system拥有2种链接产品LinkFinder和LinkFinder Plus[11]，LinkFinder 是 Endeavor's Citation Server 中使用的链接技术，链接原理是通过检索引文数据库，可以是本地的，也可以是通过 $Z 3 9 . 5 0$ 检索的远程的数据库，获得链接元数据，从而实现到电子全文的链接。而LinkFinderPlus 则是借助OpenURL实现了动态的开放式链接，它本身是该公司数字化资源整体解决方案 Encompass 的一个模块，也可以单独安装使用。它和SFX相比，原理与实现机制相似。引文数据库、数据库的引文、OPAC等凡是支持OpenURL的电子资源都可以成为链接源，而链接目标除了可以使电子期刊库外，还可以是文摘库、搜索引擎、网上书店等各种类型的可以生成链接地址的数字资源。同样，读者也是通过在链接源上点击LinkFinder Plus button按钮来启动链接服务，但不同的是，链接不再弹出服务菜单，而是根据图书馆的设置，链接到合适版本的电子全文或其它类型电子资源。LinkFinder Plus 也有和SFX知识库类似的预设数据库，方便读者对该系统的配置使用。",
+    "context2": "LinkFinderPlus是开放式连接系统，具有开放式URL开放连接系统所有的优点。除此之外，它还具有以下特点：",
+    "context3": "（1）另设有1个超过11000种电子刊物的定期更新的URL资料库，可以自由增加新的期刊，或者建立1个新的网址。",
+    "context4": "(2）拥有简单的管理窗口。在安装相关软件之后，只需逐一选择图书馆订购的电子期刊，就可以在短时间内开始使用 LinkFinder Plus。",
+    "context5": "（3）可适时检查各个连接的有效性，用户不必担心碰到无效链接。"
+  },
+  "6OL2研究现状分析": {
+    "context1": "OL2是来自于FDI的动态链接工具，FDI（Fretwell一DowningInformatiesLtd）公司有一系列信息管理产品，如图书馆集成管理系统OLIB、数据网关产品ZPORTAL、文献传递和馆际互借系统VDX、元数据服务器等，OL2是他们推出的链接产品。该公司在美、加地区有很大的市场，它的产品讲求开放性和兼容性，“Freedom By Design”是他们产品的设计理念。比如，它的OL2可以单独作为链接工具使用，也可以和ZPORTAL（该公司的网关产品）集成工作。",
+    "context2": "OL2也沿用了一种动态、开放的链接原理，OL2支持OpenURL协议，该协议原理上允许所有那些支持该协议的数据库都成为OL2的链接源。所以，OL2既可以由ZPOR-TAL的检索结果作为动态链接的起点，也可以在其他数据源之间实现链接，数据库、电子期刊或OPAC目录都可以成为它的链接源和链接目标。与SFX相比较，OL2的链接应用似乎不十分广泛，重要读者有EBSCO和CAS等。FDI作为CrossRef 的加入成员机构，也为CrossRef系统提供动态链接技术[12]。"
+  },
+  "7结语": {
+    "context1": "从以上分析可以看出，链接整合方式的优势是能从引文数据库、文摘库、OPAC等角度出发整合图书馆的信息资源，能有效地揭示某个主题研究的历史及现状；关于某个作者的学术研究内容和方向；各个学科在科学研究中的交叉与应用；过去、现在和将来的科学信息的内在联系等。但也存在读者利用链接进行资源检索时，由于链接层次的不断深入，容易迷失方向，浪费读者的时间；动态链接整合的设置不一致等缺点，如 SFX 链接是直接由数据库商插入其产品中，而每个数据库商应用 SFX 链接的位置是不一样的，有的在检索结果显示页面，有的在全文记录显示页面；使用的标记也不一样，这些差异给利用SFX链接服务带来一定的困难。为此动态链接整合技术还有待进一步发展，以克服现有技术的不足之处，多技术融合就是动态链接整合技术的重要发展趋势，如在SFX中，将CrossRef/DOI与 SFX 相结合，可以增强 SFX的连接功能。未来的动态链接整合技术链接的速度更快，连接的知识点更加全面、准确，系统操作更加智能化。"
+  },
+  "参考文献": {
+    "context1": "[1]ExLibris LTD．OpenURL Overview [EB/OL]．htp://www·exlibrisgroup $\\mathrm { c o m } / \\mathrm { s f x } \\cdot \\mathrm { h t m }$   \n[2]张陈基·整合式资讯检索界面的设计与实现［J]．大学图书馆，2002，6（3)：82-93.  \n[3]Miriam E Blake，Frances L Knudson．Metadata and referencelinking [J]·Library Collections，Acquisitions，&TechnicalServices，2002，（26)：219—230.  \n[4]李富玲，卢振波·SFX——信息资源整合新工具[J]·现代图书情报技术，2002，97（6)：69－71.  \n[5] http:// www·i·com/mill/digital·Shtml [EB].2OO7—12-15.  \n[6] http://www.ii:com/pdf/lit/eng-map·pdf [EB]. 2007—12$- 1 5$   \n[7］何立民，等．电子文献正文引文跨越学术领域的链接[J]．大学图书馆学报，2003，（2)：36－39.  \n[8]翟云仙，毛一国．电子期刊参考引文的链接与CrossRef[J]．图书情报工作，2002，（10)：79－83.  \n[9]闫敏，等．引文连接项目-CrossRef [J]．情报理论与实践，2002，（1)：71—72.  \n[10]何朝辉．DOI：数字资源的“条形码”[J]．图书馆工作与研究，2003，（5)：29-31.  \n[11] http:// www· stpi $\\cdot$ org:tw/fdb/tr/2002/C14-Elsevier-openurl $\\cdot ^ { * }$ doc．2007—12—18.  \n[12]陆永宾．高校图书馆信息资源整合研究[D]．东北师范大学学位论文，2006."
+  }
+}

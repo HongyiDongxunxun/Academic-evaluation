@@ -1,0 +1,84 @@
+{
+  "original_filename": "full_454.md",
+  "·新技术应用·": "",
+  "OpenURL技术的应用现状及趋势浅析": {
+    "context1": "邱玉婷²张建勇1",
+    "context2": "（1中国科学院国家科学图书馆北京100190）(2中国科学院研究生院北京100190)",
+    "context3": "文摘在简述OpenURL相关概念及其总体框架的基础上,对国内外主流的一些链接服务软件系统进行总结。然后,阐述利用OpenURL技术进行信息资源整合、提供上下文敏感的链接服务、以COinS及OpenURLReferrer的方式提供独特创新服务以及拓展应用。接着，针对OpenURL应用中出现的一些问题进行了分析，并介绍国内外的相关研究进展。最后,探讨OpenURL技术的应用和研究趋势。",
+    "context4": "关键词开放应用现状上下文敏感质量控制",
+    "context5": "The Application Status and Trends of OpenURL Qiu Yuting1,2， Zhang Jianyong1",
+    "context6": "(1 National Science Library， Chinese Academy of Sciences，Beijing，100190) (2 Graduate University of Chinese Academy of Sciences，Beijing，100190)",
+    "context7": "Abstract: After introducing the concepts and overallframework of OpenURL，some international link resolvers are summarized. Then,the paper expounds four kinds of OpenURLs application: the integration of information resources，the service of providing context - sensitive links，the unique and innovative services by COins or OpenURL Referrer and some expanding application. Three kinds of problem，which is appeared in the process of OpenURL application，are analyzed and related research processes are introduced.Finally,the paper discusses the application and research trends of OpenURL.",
+    "context8": "Key words: OpenURL，Application status， Context - sensitive，Quality control",
+    "context9": "随着计算机技术和网络技术的飞速发展，在全球范围内实现信息资源共建共享的理念不断深入。为避免数字资源成为“信息孤岛”,图书馆在追求合理化经营的驱动下，可将印刷型图书和连续出版物、电子期刊和古籍等多类型、多语种的信息资源集成;从而实现信息资源共建、共知、共享，以发挥最大的社会效益。而OpenURL技术在其中起到了关键支撑作用，它的建立和产生为图书馆员解决了很多问题,实现了不同类型与不同格式的分布式信息资源的无缝链接。",
+    "context10": "在众多的信息资源整合协议中,OpenURL 协议凭其特有的优势，在近年来得到了广泛应用。然而，伴随应用的深入，其使用中出现的问题也越发受到国内外的关注。本文在简述OpenURL相关概念及其总体框架的基础上，总结了国内外主流的一些链接服务软件系统;进而阐述利用OpenURL技术进行信息资源整合、提供上下文敏感的链接服务、以COinS及OpenURLReferrer的方式提供独特创新的服务以及拓展应用;接着,针对OpenURL应用中出现的一些问题进行了分析，并介绍国内外的相关研究进展;最后,探讨了OpenURL技术的应用和研究趋势。"
+  },
+  "1OpenURL概述": {
+    "context1": "OpenURL框架是一种开放的信息资源与查询服务之间的通讯协议标准,是开放的、上下文相关的链接框架。其最早产生于2000年,源于由比利时根特大学的 Herbert van de Sompel、Patrick Hochsten-bach 等人共同研发的SFX系统。随着OpenURL在信息资源整合和内容服务中的应用，美国国家信息标准组织在2005年批准了OpenURL标准版1.0为新的美国国家标准NISO Z39.88。",
+    "context2": "OpenURL能够在服务提供者之间传递对象元数据,可将从文摘和索引数据库中发现的引文传送到链接解析器中;它不是提供网络地址,而是提供一种直接的对象服务方式。OpenURL总体的框架结构如图1所示,数据源包含文摘和索引数据库、图书馆的网络环境、Google Scholar等。知识库用于支撑链接解析器，也是链接框架的重要组成部分；在传统概念里，知识库是存储所有学术内容的目录，包含给定题名的所有版本信息以及它们之间的链接。目前,很多商业链接解析器提供商从不同的信息提供商中收集在线期刊和图书内容的不同版本信息，以此来构建他们自己的专用知识库;而一些图书馆已经自建知识库作为“自产”的解析器应用的一部分。链接解析器利用其配置的知识库，为机构提供恰当的OpenURL链接给用户;同时,OpenURL也是一种实现技术，授予链接解析器关键的输入数据。一旦确定链接，相关的选项就会以服务菜单（servicemen-u)的形式展现给用户。用户选择目标后,解析器利用Link-To句法计算URL,将用户导向选择的目标资源。其中,所有服务菜单和目标链接的计算都是通过链接解析器系统动态、实时完成的。",
+    "context3": "![](images/509186fb9829a5cd2b96f4942b85b58c63f56db5e1b04e07aef027e0012e7351.jpg)  \n图1OpenURL链接框架图"
+  },
+  "2国内外链接服务软件系统": {
+    "context1": "链接解析器(a link resolver)是一个帮助用户链接到机构中电子资源的工具。OpenURL的应用推广离不开链接解析器的技术支持，目前,国外已有一些较为成熟的链接服务软件系统,如下表1所示。",
+    "context2": "表1国外主要的链接服务软件系统",
+    "context3": "<table><tr><td colspan=\"1\" rowspan=\"1\">序号</td><td colspan=\"1\" rowspan=\"1\">系统名称</td><td colspan=\"1\" rowspan=\"1\">所属机构</td><td colspan=\"1\" rowspan=\"1\">简介</td></tr><tr><td colspan=\"1\" rowspan=\"1\">1</td><td colspan=\"1\" rowspan=\"1\">SFX</td><td colspan=\"1\" rowspan=\"1\">Ex Libris, Inc.</td><td colspan=\"1\" rowspan=\"1\">SFX 是第一个OpenURL的链接解析器,也仍在图书馆和学术出版界中最广泛使用，已被超过1,500个图书馆使用。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">2</td><td colspan=\"1\" rowspan=\"1\">1Cate/WCLM,WordCatLink Manager</td><td colspan=\"1\" rowspan=\"1\">OCLCOpenlyInformatics,Inc.</td><td colspan=\"1\" rowspan=\"1\">One Click Access To Everything,一次点击获取所需全部信息,多语种支持,系统包括字母顺利期刊列表、Journal-Seek链接数据库、CrossRef链接模块、1Cate链接服务器。在2007年10月22日,1Cate正式更名为WCLM。而目前OCLC已退出了WCLM服务。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">3</td><td colspan=\"1\" rowspan=\"1\">LinkFinder-Plus</td><td colspan=\"1\" rowspan=\"1\">Endeavor Infor-mation Systems,Inc.</td><td colspan=\"1\" rowspan=\"1\">最初版本于2002年发布，可单独使用,亦可与Voyager和ENCompass整合使用。拥有150多个用户，预设18000多个学术资源，可分析引文信息。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">4</td><td colspan=\"1\" rowspan=\"1\">SirsiResolver</td><td colspan=\"1\" rowspan=\"1\">SIRSICorpora-tion</td><td colspan=\"1\" rowspan=\"1\">利用强大的OpenURL参考链接，图书馆可整合所有的信息资源，为用户提供服务。利用SirsiResolver,针对用户的查询，可获得从不同提供商处提供的相关信息，将结果无缝地集成在一起反馈给用户，并使引文信息的使用变得灵活。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">5</td><td colspan=\"1\" rowspan=\"1\">OpenResolv-erli</td><td colspan=\"1\" rowspan=\"1\">UKOLN</td><td colspan=\"1\" rowspan=\"1\">是一个用于解析OpenURL的开源CGI脚本程序,用Perl语言编写,主要功能是配置OpenURL解析服务器,对OpenURL进行解析。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">6</td><td colspan=\"1\" rowspan=\"1\">Article Linker</td><td colspan=\"1\" rowspan=\"1\">Serials SolutionsInc.</td><td colspan=\"1\" rowspan=\"1\">功能全面的OpenURL链接解析器，能够无缝链接图书馆的所有资源。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">7</td><td colspan=\"1\" rowspan=\"1\">EBSCO Custom-Linksand EB-SCO SmartLinks</td><td colspan=\"1\" rowspan=\"1\">EBSCO Publish-ing</td><td colspan=\"1\" rowspan=\"1\">EBSCO CustomLinks能够创建和管理多种定制的与Web资源相关的链接，这些资源可能包括图书馆的OPAC、ILL服务、图书供应商、链接服务器和搜索引擎。EBSCO SmartLinks能够自动添加链接到全文中。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">8</td><td colspan=\"1\" rowspan=\"1\">LinkSource [1]</td><td colspan=\"1\" rowspan=\"1\">EBSCO Publish-ing</td><td colspan=\"1\" rowspan=\"1\">针对研究导向机构的需求特别设计的,使用LinkSource简单菜单驱动的接口，图书馆员可增加特定条目链接到各式各样的在线信息资源。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">9</td><td colspan=\"1\" rowspan=\"1\">Journal Linker</td><td colspan=\"1\" rowspan=\"1\">Serials  Solu-tions, Inc.</td><td colspan=\"1\" rowspan=\"1\">提供了OpenURL服务器最重要的应用,即上下文相关链接，使图书馆和用户能够简单地随时随地从一个摘要或索引链接到被引期刊的全文。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">10</td><td colspan=\"1\" rowspan=\"1\">TOUR，TDNetOpenURL1Re-solver</td><td colspan=\"1\" rowspan=\"1\">TDNet</td><td colspan=\"1\" rowspan=\"1\">TDNet电子期刊管理系统的配套服务,用于期刊馆藏管理;TES－TDNet电子内容搜索的配套服务，用于对OpenURL数据库和非OpenURL数据库资源的联合检索，完成对OpenURL数据的链接解析。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">11</td><td colspan=\"1\" rowspan=\"1\">WebBridge</td><td colspan=\"1\" rowspan=\"1\">Innovative Inter-faces Inc.</td><td colspan=\"1\" rowspan=\"1\">与OPAC和工作人员模块整合，通过知识库,将许多资源链接提前设定，可以加载包含有关数据库列表的XML文件进入知识库。</td></tr></table>",
+    "context4": "这些软件在硬件方面大多需要基于UNIX的服务器[,虽然这类软件的运用日渐成熟,但是在国内还主要靠购买引进国外系统,只有少数机构自主研发，尚缺少形成规模应用的链接服务系统。中国科学院联合目录集成服务系统采用基于HTTP协议的OpenURL标准,将分散的各个数据库的全文虚拟地结合在一起,并根据各成员馆订购情况动态提示符合各馆权限的全文下载服务，进而实现了情景敏感的电子资源揭示功能。"
+  },
+  "3OpenURL技术的应用现状": {
+    "context1": "本章首先介绍了利用OpenURL进行信息资源整合和情景敏感链接服务的应用，然后阐述了OpenURL1.0的创新应用，最后讨论了利用OpenURL技术拓展延伸的应用功能。"
+  },
+  "3.1信息资源整合服务": {
+    "context1": "在内容上相关联的资料往往可能存在于不同类型的信息资源中，而不同类型资源的存贮方法以及供应商通常是不一样[。在图书馆的OPAC中可查询纸本图书,在数字图书馆中可能有相关的电子全文图书,在非书资料库中则可能有对应的非书资料。倘若所有资源的内容提供商均支持OpenURL框架，一旦经过合理配置，并由链接服务器实时动态计算其不同类型的目标链接;那么用户只需在同一检索界面中输入一次检索词，就可以获取各种不同类型的资源。",
+    "context2": "因而，链接解析器可用作信息资源整合的重要工具,以OpenURL为基础,将多种资源数据库,例如可将 ABC - CLIO、AMS MathSciNet、Elsevier Science-Direct等整合到OpenURL 框架中[4。",
+    "context3": "基于OpenURL,通过链接解析进行资源整合的服务在国内也得到了广泛的应用。同方知网提供的",
+    "context4": "TPI学位论文系统推出了基于OpenURL的资源整合版本,将符合CALIS学位论文元数据标准的高校本地学位数据库整合到OpenURL框架中的功能。中国科学院联合目录集成服务系统通过OpenURL与CSA,Web ofKnowledge,OVID等大型数据库实现了链接,并为用户提供利用GoogleScholar和百度获取联合目录数据库的服务。"
+  },
+  "3.2情景敏感链接服务": {
+    "context1": "OpenURL作为一种协议，规定了上下文对象元数据及其在网络中传输所采用的格式,形成了一种开放的、上下文相关的链接框架结构[。其不仅适用于信息源本身的整合，而且可克服传统链接框架的局限,为用户提供上下文相关(context－sensitive)的情景敏感链接传递服务。",
+    "context2": "通常同一个数据库对不同用户所开放的使用权限是不同的;此外,期刊数据库收录的范围常有重叠,对于同一篇文章在不同的数据库中的权限也不尽相同。OpenURL能直接将用户的要求传送到链接解析器，链接解析器根据用户的上下文环境动态计算目标链接,可返回与该链接源上下文相关的各种有效扩展服务链接。为准确定位全文链接信息，DOI也被嵌入到OpenURL中d。在基于OpenURL和DOI机制的情景敏感链接系统中，用户点击OpenURL后，请求被送到链接解析器中;而链接解析器收到请求后就会从OpenURL中提取DOI信息，并在数据库中找到与指定的DOI相匹配的链接。",
+    "context3": "中国科学院联合目录集成服务系统可根据用户登录的IP范围,自动地判断用户浏览电子资源的权限;利用OpenURL技术,当用户点击电子资源的链接请求服务时，系统通过知识库设置的链接解析规则,为有权限的用户提供电子资源列表,并显示电子资源基本信息以及从知识库中读取的电子资源开通年卷期;从而实现了情景敏感的电子资源服务。"
+  },
+  "3.3OpenURL1.O的创新应用": {
+    "context1": "OpenURLv.1.0较OpenURLv.0.1具有更大的灵活性,支持更多的文体,不仅包括期刊、文章和图书,还包括会议录、预印本、报告、文献、专利等。OpenURLv.1.0的正式标准化使许多开发者和图书馆员开始以独特创新的方式应用OpenURL[4,其中包括COinS 以及 OpenURL Referrer。",
+    "context2": "(1) COins （ContextObjects in Spans)是一种简单的HTML发布协定,描述如何在Web页面中标记出OpenURL链接,允许Web开发者以默认的方式把类似OpenURL的链接放入网页中。OpenURL提供了一种基于Web的机制来包装和传递引文元数据，使得图书馆用户能够简单获取到引文。然而,针对开放获取(Open Access）、公共领域以及 pay－per-use等这些没有“订阅者”的资源，就很难发现其与用户机构的联系,从而也就无法按照传统模式来构建OpenURL。",
+    "context3": "利用OpenURL技术在 $\\operatorname { h t m l }$ 的Web页面中嵌入引文元数据,可通过客户端软件添加与非订阅资源的链接，这种结合嵌入元数据和激活客户端来提供OpenURL 链接的方法也称为“潜在的OpenURL（la-tent OpenURL)”。在Web内容中嵌入的引文元数据也可在专业索引和检索系统中传递新类型的信息检索服务,可在语义网系统中从大量的文档集中抽取知识。COins也可应用到XHTML页面中,目前已有一些软件系统支持COins,如:维纳诺瓦大学的VuFind Open Source OPAC系统,帮助博客网利用Coins 的WordPress 插件等。",
+    "context4": "(2)OpenURL Referrer是Firefox、IE浏览器的一个插件,使用时与本地图书馆的OpenURL链接解析器协同工作,将从Web页面查询得到的引文结果转化为直接到本地图书馆资源库的链接，以便提供更便捷的资源服务。",
+    "context5": "OpenURLReferrer的使用要求本地图书馆有OpenURL链接解析器,能够为三种不同类型的引文产生链接。一是针对Google Scholar的查询结果,考虑到用户在使用Google Scholar时,不能有效查询到图书馆已购买或有权限使用的全文资源；利用OpenURLReferrer,若图书馆有所查文献全文的权限,则能直接链接到获取全文的页面，从而能够创建Google Scholar的查询结果与本地图书馆数据库的直接链接。二是针对Google News Archive，利用",
+    "context6": "OpenURLReferrer也能在查询结果中插入OpenURL,从而实现对新闻信息的便捷获取。三是针对任何包含COins的Web页面,进而可将应用扩展到博客、电子期刊等其他任何形式的在线资源。",
+    "context7": "随着OpenURLv.1.O的可扩展性不断提升,创新应用已经拓展到免费获取的搜索引擎及许多其它基于Web 的工具软件[,例如流行的LibX和 Zote-ro等。"
+  },
+  "3.4拓展应用": {
+    "context1": "基于OpenURL技术还可以进一步拓展,利用OpenURL结合元搜索技术,可以引领OPAC向下一代的资源发现和获取(discovery and delivery）服务的推进[。例如Ex Libris公司推出的 Primo集成了元搜索（MetaLib）和OpenURL链接（SFX），能够帮助图书馆为读者提供统一资源的发现与获取服务;可以“一站式\"涵盖图书馆自身的物理和数字馆藏，以及图书馆订购的各类远程数据库、电子资源。图书馆本地资源通过Primo的发布平台进行统一的规范化、去重、FRBR处理、建立全文索引等处理后收割进入Primo系统中;而远程资源可通过PrimoCentral提供的元数据集中检索、MetaLib提供的联邦检索、外部搜索引擎的API接口三种方式来进行检索发现。Primo为本地物理馆藏提供实时状态查询，允许登录读者直接预约、续借图书;对本地数字资源，依据不同的来源提供不同的在线查看链接;对远程电子资源,提供SFX菜单,引导读者进入全文下载或其他服务页面。",
+    "context2": "此外,当用户点击OpenURL的时候,不仅可以获取扩展链接，而且系统可以记录下用户的请求，这样就积累了跨资源请求的log。用户倾向于点击通往自己偏好网站的OpenURL,那么积累下的日志就可以反映出用户的喜好，可成为建立推荐服务的基础。"
+  },
+  "4OpenURL应用中的问题及相关进展": {
+    "context1": "随着OpenURL应用的不断推进,出现了一些共同问题：OpenURL的错误解析使其经常不能正常工作;对解析器进行更新后再设定的复杂程度；OpenURL供应链中数据缺乏统一的格式,使内容提供商和知识库开发商之间及时交流困难。另外,还有一些内容提供商还未引入OpenURL技术等这些问题阻碍了OpenURL的有效发展和应用，本章主要从三个方面讨论OpenURL应用中的问题并阐述现阶段的一些研究进展。",
+    "context2": "4.1OpenURL 错误解析",
+    "context3": "引发OpenURL错误解析的因素可能有:知识库源数据质量问题、OpenURL构建的不完全或不充分、错误的链接句法、知识库链接解析器的错误以及内容出版商之间的死链接等。国外已有一些机构开始研究分析OpenURL错误解析的原因,并试图制定出合理的解决方案。",
+    "context4": "UKSG在2007年发布了“链接解析器和连续性出版物供应链\"报告，从信息供应链的角度探讨了OpenURL框架中出现的相关问题,强调了缺少数据标准和数据质量控制。",
+    "context5": "NISO于2009年成立了IOTA（ImprovingOpenURLs ThroughAnalytics)研究项目,旨在通过收集数据和分析，挖掘出正常工作和非正常工作的OpenURLs,借由内容提供商测量OpenURLs的质量,试图寻找并发现OpenURL错误解析的原因。其结果建立在拥有更多的信息就能产生更好的OpenURLs这一假设基础上,赋予OpenURL元素权值。在最初的两年研究后，项目组已开发出定性报告来帮助OpenURL提供商与他们同行对比OpenURL质量,期望最终能够提高整个OpenURL行业的质量。截止到2012年4月20日,IOTAOpenURL报表系统已有23,216,076条OpenURL数据;报表展现了OpenURL元素(如文章标题、ISSN、DOI、作者姓名）,元素模式,源数据库或供应商中OpenURL特定元素出现的频率。",
+    "context6": "另一方面，康奈尔大学为了更好地理解OpenURL错误解析问题出现的原因并鼓励网络级的解决方案,开始从事OpenURL元数据质量的研究；他们认为对OpenURL元数据质量的进一步研究能够探测问题的本质和程度，也能找出一条实现更一致元数据的可能途径，从而实现更有预见性和更具满意度的用户体验。他们使用OpenURL的日志文件进行案例研究，主要关注死链接(其他类型的错误很难被跟踪)。目标是创建一个系统化的方法来评估和验证元数据质量，使图书馆员和内容提供商能够在元数据问题的解决方案中合作。",
+    "context7": "OpenURL质量问题的解决方案应是可实证的、能在网络环境中运行、被一些公认机构正式认可并可以为图书馆员和内容提供商提供价值的。开放语言典藏组织( The Open Language Archives Commu-nity)提出了一种对元数据内容的语义和句法定量评价的模型,兼得语境和参考依据,为存在的、正确的并由研究人员锁定的元数据记录中的核心元素设立权重，集中于测量元数据质量。"
+  },
+  "4.2解析器的更改与配置": {
+    "context1": "通过使用OpenURL链接需要配置每个机构与之对应的服务供应商两两之间的链接。每个机构必须为他们订阅的每个服务设置安排好链接，而一旦某个解析器发生改变，整个过程就必须再重复一遍。此外,若没有一种现存的机制能够识别用户或他们所属的机构，服务就无法正确判别链接的解析器。服务提供者就需执行如IP地址检查的系统来支持OpenURL,造成系统开销负荷,难以在实际中运用。",
+    "context2": "针对这些问题,由JISC发起并由EDINA联合UKON执行的OpenURL Router项目通过提供一个关于机构OpenURL解析器的中央登记系统,帮助机构从更广泛范围的服务中确定OpenURL链接。一旦解析器在openurl.ac.uk 中登记后,任何服务提供者都能够从该机构提供给用户链接到其解析器的OpenURL。并不需要机构在每个分散的服务中配置他们的解析器,服务提供者也不需要维护用户到解析器之间的表映射。"
+  },
+  "4.3传输过程中的数据格式": {
+    "context1": "知识库是OpenURL链接处理的关键,知识库的质量在很大程度上依赖于内容提供商传送给知识库开发者的数据;若这些数据中有错误就会传播到知识库中。另外,内容提供商提供的数据有各种不同的格式和各种不同的信息元素，而这些数据没有一个统一标准的格式。这样,知识库供应商就需要对他们接收到的信息进行手工调整为统一的标准格式,如此OpenURL才能成功地引导用户指向期望的全文内容中。但是,这种手工劳动工作是相当困难的，并将产生额外的错误并使错误检验更困难。",
+    "context2": "为此,NISO 和UKSG联合在2007年12月成立了KBART(Knowledge Bases And Related Tools,知识库和相关工具)工作组,利用OpenURL格式和教育各方的重要数据，集中于数据转换的创建指导，旨在为在线资源完善信息供应链。2010年初工作组已完成了第一阶段的工作,出版了推荐规范报告，为格式和分布式的题名列表提供了一些最好的推荐规范。推荐规范利用从数据到链接解析器以及知识库供应链的改善，提高了OpenURL链接的效率和有效性。这样，内容提供商对他们题名的列表格式进行小调整后，就能增加他们产品的可访问性。这些推荐规范被设计成直观、简单的形式，方便内容提供商的实现,也方便知识库开发人员的处理。在第二阶段,工作组的工作要扩展到电子书和开放获取的资"
+  },
+  "源，以及对特定联盟和机构的元数据转换。": "",
+  "5发展趋势": {
+    "context1": "有学者提出[,在未来图书馆界将开发实现一种URM(unified resource management）的概念;传统的ILS(Integrated Library System)将会让位给URM,而URM将会成为第三代图书馆管理系统的支配模型。随着需求的变化，数字图书馆的发展和图书馆员所应关注的热点值得探究。结合OpenURL的应用现状及进展,分析未来OpenURL的应用和研究趋势有：",
+    "context2": "（1)OpenURL技术在数字图书馆领域的应用普及。虽然在国内OpenURL的应用局面与美国相比有一定的差距,但不容置疑的是,在未来OpenURL技术将被越来越多的机构和单位采纳。此外,OCLC退出了WCLM 服务,通过 WorldShare License Manag-er以及将OpenURL 解析功能集成到WorldCat Local的方式来提供服务，更迅速、简便地实现情景敏感链接,有利于OpenURL的推广和应用。",
+    "context3": "(2)知识库数据链接质量控制将备受关注。知识库的数据质量直接关系到OpenURL能否正常工作,为了更好地创建OpenURL链接,方便内容提供商与知识库供应商之间的交流,有必要建立格式统一的元数据标准。另外,为了更好地发挥OpenURL的应用效果,OpenURL的链接质量也越发受到研究人员的注目，在未来有必要建立一套完善的OpenURL链接质量控制机制。"
+  },
+  "参考文献": {
+    "context1": "1段明莲.信息资源编目(第二版[M].北京:北京大学 出版社,2008.10   \n2 Glen Wiley,Wm．Joseph Thomas．Improving OpenURL Metadata.TheSerials Librarian [],2009,56:282-286   \n3Ex Libris Ltd.OpenURL Overview.[2006-O8-01] .http://www.exlibrisgroup.com/sfx.htm   \n4 Wikipedia.SFX.[012-03-06] .http://en.wikipedia. org/wiki/SFX_%28software% 29   \n5 Culling，J.Link Resolvers and the Serials Supply Chain [R]．Oxford:Scholarly Information Strategies,2007   \n6 NISO/UKSG KBART Working Group.KBART:Knowledge Bases and Related Tools R] .2010   \n7SFX.[2012-03-06].http://www.exlibrisgroup.com/ category/SFXOverview.   \n81cate OnClick Access To Everything.[2012 -03 -06]. http://openly.oclc.org/lcate/whatsnew.html.   \n9OpenURL Resolver Products & Vendors．[2O05-09- 21 .http: //www.loc.gov/catdir/lcpaig/openurl. html.   \n10Andy Powell. OpenResolver: A Simple OpenURL Resolver.[2001-06-22]．http://www.ariadne.ac.uk/issue28 /resolver.   \n11 LinkSource.[012-03-06] .htp://www2.ebsco.com/ en-us /ProductsServices /linksource/Pages /index.aspx.   \n12 殷菲菲,李亚子.开放链接解析器的实现研究.现代图 书情报技术 [],2009(6):19 -23   \n13 黄文,董秋生.OpenURL技术在数字图书馆中的应用 .现代情报,2009,29(11):72－75   \n14高旻,金玉玲.OpenURL技术发展及创新应用研究 [.现代图书情报技术,2008(2):87-90   \n15 沈艺.OpenURL及其应用[]．现代图书情报技术， 2004( 1) :30 -32   \n16 朱晶莹．OpenURL及其在参考文献链接中的应用[. 情报科学,2005,23(3):406-409   \n17 OCLC New Jersey.OpenURL COinS:A Convention to Embed Bibliographic Metadata in HTML．[O12 -03- 06] .http://ocoins.info/   \n18 OpenURL Referrer.[2012-03-06] .http: //www.0- penly.com/openurlref /   \n19 Michael Kaplan.Library automation M．Springer Handbook of Automation,Part G,2009:1285-1298   \n20 Ex Libris Ltd.Primo Empowering Libraries to Address User Needs.2012-03-06] .htp: //www.exlibrisgroup. com/category/PrimoOverview   \n21孙晶,王爱侠.OpenURL技术在校园信息系统中的运 用[.电脑知识与技术(学术交流).2007,11:1187, 1307   \n22 Sarah Glasser.NISO Webinar:It's Only as Good as the Metadata:Improving OpenURL and Knowledge Base Quality[．Blythe /Serials Review,2011(37):47 -60   \n23 NISO.what is iota.[2012-04- 20]．http:// openurlquality. niso.org/   \n24What does the OpenURL Router do．[012-O3-06] .http://openurl.ac.uk/doc /"
+  },
+  "邱玉婷 女1988－,中国科学院国家科学图书馆，硕士研究生。": {
+    "context1": "张建勇1965-，中国科学院国家科学图书馆,研究馆员。",
+    "context2": "(收稿日期:2012-04-29 编发:刘炜赵亮)"
+  }
+}

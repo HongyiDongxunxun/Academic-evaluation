@@ -1,0 +1,61 @@
+{
+  "original_filename": "full_2460.md",
+  "即时搜索引擎及其发展趋势探析": {
+    "context1": "余波,黎海波",
+    "context2": "(西南科技大学 经济管理学院,四川绵阳621010)",
+    "context3": "摘要:即时通信、文本碎片化、信息频繁更新、社区化、漂移化等是 $\\mathrm { \\sf W e b 2 . 0 }$ 时代信息的显著特点，这对传统搜索引擎的工作方式带来了前所未有的挑战。信息的动态聚合和即时搜索应是网络搜索引擎未来发展的重要方向。文章探讨了即时搜索的基本特点、工作原理、体系结构等,并展望了即时搜索对未来搜索引擎的影响。",
+    "context4": "关键词：搜索引擎;即时搜索引擎;简易信息聚合;发展趋势中图分类号：G350 文献标识码：A 文章编号:1007-7634(2012)04-633-04"
+  },
+  "Instant Search Engine and Developing Trend": {
+    "context1": "YU Bo,LI Hai-bo",
+    "context2": "(College of Economics and Management ,Southwest University of Science and Technology,Mianyang 621010,China)",
+    "context3": "Abstract：The instant messaging (IM),the text fragment，the information frequent renewal,the personalization,the community area,the mobile and soon is the information feature in Web2.O time,it has brought the unprecedented challenge to the traditional search engine.The dynamic polymerization to information and the instant search are the important direction of the search engine in the future.The article has studied the instant search engine (ISE）'s characteristic,the principle of work,the major technique,the ISE protocol,the limitation and soon based on the IM client side's,and has forecast the ISE's influence to the future search engine.",
+    "context4": "Keywords :search engine;instant search engine(ISE) ;really simple syndication(RSS);developing trend",
+    "context5": "传统搜索服务显然已不能有效适应这一信息快速传播和社会化需求高的新特点。在这种情况下，一种新的搜索引擎,即时搜索引擎(Instant SearchEngine,简称ISE)应运而生。即时搜索引擎利用最新的web2.0技术、RSS等技术来实现高速度、高效率地搜索,目前，Google发布的即时聚合协议-PubSubHubbub,正是这种即时搜索引擎的典型代表,它能够即时搜索动态聚合的目标,实现信息生产和信息收录的同步，即时呈现用户检索的最新竞争信息。"
+  },
+  "1即时搜索的基本特点": {
+    "context1": "即时搜索(Instant Search Engine,简称ISE）,又称当前事件搜索引擎(Current Event Search En-gine)。它是指以RSS/Atom、Tag等新兴技术为基础,专注于网络世界里信息频繁更新的博客网站、新闻网站、商贸网站或微博工具等,能够给用户提供接近实时效果的搜索结果[2]。与Baidu、Google、yahoo 等通用搜索引擎相比较,ISE具有以下几个基本特点：",
+    "context2": "(1)ISE的搜索和阅读具有即时性。ISE以RSS/Atom、Tag等主流新兴技术为依托,支持信息动态聚合、分类推送、即时更新,完全不同于通用搜索引擎对信息采集的不定期性或滞后性。",
+    "context3": "(2)ISE具有精确的判断力和高度的整合性。通过Spider的语义鉴定,ISE能够实现机器的快速识别和自然过滤，降低用户对信息判断和选择的难度，提高用户拥有信息的数量和质量。而通用搜索是一种全面性综合性的信息搜索，是不区分结果类别的。",
+    "context4": "(3)ISE关注网络社区。网络社区包括BBS/论坛、讨论组、聊天室、贴吧、博客等形式在内的网上交流空间。同一主题的网络社区集中了相同兴趣的访问群体，不仅具备交流和交际的功能,也成为一种商业营销场所。ISE的聚合内容更能满足特定圈子的需求。",
+    "context5": "(4)ISE需要安装客户端,而通用搜索则不需要安装,可以直接搜索。",
+    "context6": "总之，ISE有别于传统搜索。传统搜索是利用爬虫技术收集各个网页，更新数据库，内容的生产和被搜索引擎收录有一段时间,远远无法达到\"即时”,其作用更像静态的\"图书馆\"或\"资料库\"[3],而ISE则是指搜索引擎通过检索SNS网站公共信息或者微博网站用户生产的信息,频繁更新聚合返回,以满足用户最新最快的信息需求,用户使用该类搜索引擎,可以很轻易地找到更有价值的信息。"
+  },
+  "2 即时搜索引擎的工作原理": {
+    "context1": "即时搜索是\"发布引擎\"的一个高端增值服务项目,是专门提供给\"发布引擎\"用户使用的,是目前最高阶的商机搜索引擎服务。它以用户在各大网站注册的会员身份，登陆到各大网站采集最新信息,并与客户端形成互动。如图1所示[4]",
+    "context2": "![](images/2fcba3575de32752deb2a3f64c60d09555ab9d247e458721ba6501c957ef5134.jpg)  \n图1 即时搜索引擎的工作原理  \n图1体现了以客户端为中心、即时采集、动态交",
+    "context3": "互的ISE特点，没有传统搜索引擎建立索引数据库的中间环节，凸显信息精确性和实时性的最大优势。在这个系统中,用户利用ISE的各种指令，从客户端递交关键词到各大注册网站(如商贸网站),通过RSS/Atom、Tag(分类标签)等技术，即时抓取客户订阅的网页信息，并将这些信息内容排序后列表显示，最后将即时结果返回给用户阅读。",
+    "context4": "用户先在自己客户端下载安装RSS阅读器，通过ISE指令数据库发出各种指令，利用RSS的自动聚合接收来自各大注册网站的定制，可将这些频道列表和内容返还给用户并进行即时更新。也可以使用一些在线RSS订阅网站来管理这些信息,用户只需在各注册网站添加自己想要订阅的keyword,RSS就会从这些keyword形成的聚类库中直接提取出RSSFeed信息,包括标题、链接、发布时间、部分内文(XML格式)等，为用户自动聚合成一个页面。用户不用安装任何附加软件,只需通过任意上网电脑都可以找到自己订阅的东西或点击链接查看原始资源[5],而无需做任何的数据迁移工作。",
+    "context5": "可以看出，ISE有几个明显的功能：一是信息采集是一个及时过程;二是ISE具有明显的智能聚合的特性;三是用户友好,阅读方便,个性突出。与传统搜索引擎的抓取、入库、更新、排序、检索、呈现等工作原理明显不一样,突出了快、新、准、类的特点。"
+  },
+  "3即时搜索引擎的体系结构": {
+    "context1": "ISE具有搜索上的独特性和创新性。但它同传统搜索引擎一样，仍然必须要有相应的服务搜索协议(SDP)来保证分组传输的可靠性和各网站之间的互访问。这种ISE协议基于TCP/IP、WAP等应用层协议之上。如图2所示。",
+    "context2": "![](images/2aad81e4021c86375c34ac35df77274d7933bdb5dd7ebd736b4c3b32ec4d25c1.jpg)  \n图2ISE协议原理",
+    "context3": "即时搜索引擎在搜索时，只搜索以RSS或者ATOM格式发布的内容，能够排除网络信息中的冗余信息,并具有即时性的特点。即时搜索引擎的结构,如图3所示。",
+    "context4": "![](images/04dc2e35d444419e837cc9b2053367bb553640c3c251f8f9fcfcce302131ccff.jpg)  \n图3即时搜索引擎体系结构",
+    "context5": "即时搜索引擎主要由3个部分构成：",
+    "context6": "(1)信息发布者。信息发布者提供信息，这些信息可以是传统的以HTML形式发布的内容，也可以是符合RSS规范的内容。以RSS规范发布的内容对于搜索引擎来说最直观。如果是传统的以HTML形式发布的内容，则必须经过处理为符合RSS规范的信息。处理方式可以采用传统搜索引擎所使用的爬虫技术，先对页面进行搜索和解析,然后转化为RSS信息。以HTML形式发布的内容由于必须经过传统的搜索引擎处理，其即时性得不到保障，因此，最好采用RSS规范发布。",
+    "context7": "(2)即时搜索引擎。即时搜索引擎将获取的RSS信息进行处理，进行聚合分析，对相关信息进行聚类及结合，最终形成对用户有用的、个性化、社会化的信息，并以RSSFeed的方式进行发布。为了保证搜索引擎的效率，还必须对这些信息进行分类、排序以及建立索引。建立了索引后，即时搜索引擎就能够为用户提供搜索服务，也可以采用推技术向用户主动的提供即时和个性化的信息。",
+    "context8": "(3)最终用户。用户查询即时搜索引擎可以获得采用RSS规范发布的相关信息，也可以被动地接受用户订阅的信息，这些信息具有高度的即时性与社会性。如果用户想获得信息全文，也可以利用搜索引擎,查询到相关的Web信息发布页面获得更多的信息。"
+  },
+  "4即时搜索的发展以及对未来的影响": {
+    "context1": "谈到搜索引擎的未来，我们不得不回过头来认识搜索引擎的本质。搜索引擎无论怎样发展变化，其本质都是电脑功能应用的一种体现,而电脑的本质又在于模拟人的大脑意识。搜索引擎收集、分析、存储、利用信息的顺序与人脑思考问题的方式是基本相同的。尽管如此，目前搜索引擎要达到人脑的智能高度还受着太多的技术限制,但可以相信，未来搜索引擎技术将会成为电脑智能技术发展中最为核心的技术来源。作为搜索引擎中的创新者，即时搜索必将对未来搜索引擎产生重大的影响。",
+    "context2": "(1)以RSS等新兴技术为主流的即时搜索将成为未来搜索引擎发展的重要方向。随着 $\\mathbb { W } \\mathrm { e b } 2 . 0$ 、Web3.0技术的发展,信息更新速度也会更快。目前对信息查询的等待已使用户失去了太多的耐心，信息的滞后和杂乱将会变得毫无价值，信息变知识、知识速入库、知识少人库、知识不人库将成为桌面追求的目标。目前的RSS技术尚处在起步阶段,但随着RSS/Atom等主流技术的进一步发展，随着RSS网站数量的增加，信息共享将变得更为方便，用户可以随心所欲地阅读自己需要的信息内容。目前各大主流网站都对即时搜索引擎寄予了厚望。可以说，如果没有即时搜索，搜索引擎的发展将受到很大的限制。",
+    "context3": "(2)社交网络和手机可能将会成为未来ISE的关注焦点。目前全世界的许多资讯都是通过社交网络(Social Network Service,SNS)来传播的,如IM、Blog、RSS、Digg、Microblog等,特别是隐性知识的共享和沟通变得非常频繁，各种社交性元素渗透到了与人们打交道的每一样东西之中。若是要想突破电脑的虚拟网络世界,想让社交网络变得无处不在,手机就变得十分重要,借助随身携带的手机,用户可以非常方便地将身边的信息发送给任何其他的朋友，信息显现出漂移化的传播特点。据美国市场调研公司emarketer估计，2013年前将有超过6亿用户通过手机连接进人社交网络[]。移动应用的趋势将成为未来ISE关注的焦点，在时间维度上分散的信息可以被即时动态聚合。移动加即时搜索将会成为未来搜索巨头们新的利润增长点。",
+    "context4": "(3)用户将会在各大兴趣网站自主注册，以期获得更多更相关的信息。用户的自主(而非引诱或要挟)注册化对RSS的即时聚合意义重大，ISE才能及时将聚合到的分众信息内容返回给客户端。RSS聚类并非漫无目的,也非无所不能,而是有选择性的。获得用户注册无疑是各网站赢得\"眼球\"的法宝，用户也确实能获得\"仅对注册用户”服务的精彩内容。通过RSS对注册网站页面的动态聚合,ISE可以直接从聚合库中搜索出用户自己订阅的内容,比如,想看看某名人的Blog就先要用关键词在注册网站上订阅，若有满足的内容就直接从聚合库中提出，若没有就马上给系统添加一条RSS源,以备下次提取时再用。",
+    "context5": "(4)搜索内容和发布形式的多样化。传统的搜索结果与发布方式多是纯文体的,或是基于文本(或内容)的图像方式,形式比较单调,接受过程易于疲劳。未来ISE在满足即时聚合及时更新的同时，随着RSS等技术手段的强大，用户不仅能搜索到传统的网页，而且还可搜索到更多音频、视频等多媒体文件，充分展现信息的多样化、集成性和交互性，ISE将会带给人们更加真实的信息体验。",
+    "context6": "是未来搜索引擎要处理的重要信息来源,任何人都难以回避这一客观事实。可以预测，随着即时搜索技术的不断发展、用户搜索需求的强劲增长,即时搜索必将成为搜索引擎的一种引领趋势，开辟搜索服务的无限商机。"
+  },
+  "5结语": {
+    "context1": "即时搜索引擎能够满足互联网用户在海量信息中查询即时性消息的需求，具有高度的信息快速传播和社会化的新特点。相对于传统搜索引擎,在查询过程中能够提供更多和更专业的信息,并且使搜索出的内容具有网络社区性质，代表着未来搜索引擎的一种发展方向。即时搜索引擎的发展途径也将会与传统搜索引擎相区别,更多的与twitter、社交网络等新兴技术相融合，适应当前社会对信息的高速化和小众化的需要。",
+    "context2": "虽然即时搜索引擎技术尚不是很成熟，还存新旧信息判断不准确、搜索结果按重要程度排序不完善、赢利模式不成熟等诸多问题。但即时信息必然"
+  },
+  "参考文献": {
+    "context1": "1Greene,PG,Hart,MM,Gatewood,EJ,Brush,CG,and Carter,N M.Women entrepreneurs:Moving front and center: An overview of research and theory.Coleman White Paper Series [EB/OL].http://www.usasbe.org,2011-12-14",
+    "context2": "2 Anne De Bruin,Candida G Brush,Friederike Welter.Advancinga framework for coherent research on women's entrepreneurship[J]. Entrepreneurship Theory and Practice,2007,31 (3):323-339.   \n3Susan Coleman and Alicia Robb.A comparison of new firm financing by gender: evidence from the Kauffman Firm Survey data[J]. Small Business Economics,2009,33(4):397-411.   \n4 Tatiana S Manolova,Ivan M Manev,Nancy M Carter and Bojidar S Gyoshev.Breaking the family and friends’circle:Predictors of external financing usage among men and women entrepreneurs in a transitional economy[J]. Venture Capital, 2006,8(2):109-132.   \n5Anita Du Riet,Magnus Henrekson .Testing the female underperformance hypothesis[J]. Small Business Economics,2000, 14(1):1-10.   \n6Lerner M, Brush C and Hisrich R .Israeli women entrepreneurs:An examination of factors affecting performance[J]. Journal of Business Venturing,1997,12(4): 315339.   \n7 Miri Lerner,Tamar Almor.Relationships among strategic capabilities and the performance of women-owned small ventures [J].Journal of Small Business Management，2002,40(2): 109-125. (责任编辑：刘凤琴)"
+  },
+  "（上接第615页）": "",
+  "3结语": {
+    "context1": "综上所述，先前对女性创业的融资、网络和绩效等方面的研究取得了巨大的成果,但也存在很多不足。女性创业融资研究集中在个体层面，缺乏企业层面和整合层面的分析。在社会网络的性别组成上存在争议,对女性创业网络的研究主要被限定在一个特定的创业阶段的简单印象上，并没有考虑网络贯穿创业过程始终的动态本质。对绩效的测量标准上没有达成统一，而且大多数的测量标准集中在财务标准上，而忽略了诸如员工满意度、社会贡献、目标成就和有效性等指标。"
+  }
+}

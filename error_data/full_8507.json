@@ -1,0 +1,95 @@
+{
+  "original_filename": "full_8507.md",
+  "科学知识网络中的链路预测研究述评": "",
+  "张斌马费成": {
+    "context1": "摘要本文以“科学知识网络中的链路预测\"为主要对象,对链路预测的类型、研究思路和方法等相关理论进行了回顾，将知识网络划分为同质网络和异质网络两种类型，从合作网络、引证网络和二分网络三个方面对同质网络的研究进行梳理，并介绍了一些异质网络中的链路预测方法。认为：针对这方面的研究近年来有成为图书情报学领域研究热点的趋势；已有研究多是描述各种链路预测指标在不同类型知识网络中的预测效果，未来应当利用链路预测量化和评价演化模型，识别和分析异常链路，以发现知识热点和创新趋势，将知识网络的研究提升到应用层次。图5。表2。参考文献68。",
+    "context2": "关键词知识网络链路预测同质网络异质网络合作网络引证网络二分网络分类号G350"
+  },
+  "A Review on Link Prediction of Scientific Knowledge Netw ork": {
+    "context1": "ZHANG Bin & MA Feicheng"
+  },
+  "ABSTRACT": {
+    "context1": "Currently,the research about link prediction of knowledge network is scattered in the fields of Statistical Physics，Computer Science,Complex Networks and Library and Information Science.From the perspective of Library and Information Science，this paper mainly reviews researches on link prediction of knowledge network and systematically analyzes previous researches.",
+    "context2": "This paper used“link prediction”as topic to retrieve the literatures in WoS,and got 30O records.Using CitNetExplorer to analyze the direct citation relationships among the 30O records，we obtain the highly cited interrelated literatures to review on current link prediction types and research ideas.",
+    "context3": "Link prediction can be classified into two types:the static and the dynamic，and the corresponding dataset partition methods are different.The former uses random sampling，while the lattr needs to consider the temporal state.In the field of Library and Information Science，knowledge networks vary in size and scale. So the link prediction of such knowledge networks uses the similarity-based algorithms in order to reduce computing complexity，but also introduce certain semantic and atribute information to ensure the accuracy",
+    "context4": "of prediction.",
+    "context5": "This paper divides the knowledge network into homogeneous and heterogeneous networks.For the link prediction of homogeneous network，this paper reviews on the research progres from the aspects of co-authorship network，citation network and bipartite network.The co-authorship network can be viewed as an undirected network，and is the easiest way to describe the real network system. This paper summarizes the predictors and steps in link prediction of co-authorship network and examines its prediction efect from author,institution，and country level.The citation networkscan be viewed as a directed network,and is the first proposed knowledge network.Compared to the co-authorship network,the citation network not only has the structure information of basic data,but also involves the external information，such asauthors，journals and content of articles.Therefore，the citation network not only can be predicted based on the local structure information，but also by theexternal information，orby the integration of structural and external information to perform machine learning to improve the accuracy of link prediction. The bipartite network is a special kind of homogeneous network，which can be used to observe structural characteristics and evolution process between subject and object.Using link prediction in bipartite network can solve some problems of recommendation systems.For the link prediction of heterogeneous network,this paper reviews on some link prediction methods，such as forecasting model based on meta-path.",
+    "context6": "This paper finds out that link prediction of knowledge network in Library and Information Science has becomes a hot issue in recent years.Most of current studies are empirical studies describing the prediction effect in diffrent types of knowledge networks based on a variety of predictors in order to determine the application scope of link prediction.This paper proposes that in the future research，the link prediction should be used to quantify and evaluate theevolution models,to identify and analyze anomalous links，and to discover knowledge hot spots and innovation trends.Ten years of development shows that knowledge network can be used as an ideal carier for link prediction，and link prediction is a powerful tool for analyzing knowledge network.On this basis，carrying out applied research from link prediction perspective based on the structure and evolution of knowledge network willbe the future research direction of knowledge network in the field of Library and Information Science.5 figs.2 tabs.68 refs."
+  },
+  "KEY WORDS": {
+    "context1": "Knowledge network.Link prediction.Homogeneous network.Heterogeneous network.Co-authorship network.Citation network.Bipartite network.",
+    "context2": "长久以来,人们一直在研究文献单元、信息单元、知识单元之间的内在联系，从而可以更好地组织、导航、检索和利用文献信息资源。这一研究路线主要是对文献信息等显性知识进行组织、管理和优化，并形成了以文献计量学、科学计量学和信息计量学为核心的研究领域。近些年,科学知识网络(以下简称知识网络)逐渐成为计算机科学、管理学、教育学、心理学、图书情报学等诸多领域共同关注的热点问题。在具体研究中,以Price为代表的统计物理方法和以Brookes为代表的认知地图构想反映和奠定了当前的两种主流研究思路，并且在知识网络的结构和演化问题上取得了很多研究成果。",
+    "context3": "研究知识网络的结构和演化是厘清知识发展脉络，对知识的发展趋势和演化动态进行预测的基础。然而，刻画网络结构特征的统计量非常多，不同的演化机制和模型也很难判断孰优孰劣。最近几年，复杂网络中的链路预测方法受到越来越多的关注，链路预测在网络重构、网络演化模型评价、推荐系统等方面有着重要应用。知识网络是复杂网络的一种,本文在回顾链路预测相关理论的基础上，从图书情报学的角度梳理和总结知识网络中链路预测方面的研究成果，分析当前研究的不足，并提出未来的研究重点。"
+  },
+  "1理论回顾": {
+    "context1": "网络中的链路预测是指通过已知的网络节点和网络结构等信息来预测网络中尚未产生连边的两个节点之间产生连接的可能性b-1。在WoS中精确检索主题为“link prediction”的文献,得到300条记录（检索时间为2015年1月2日）。使用CitNetExplorer对这300 篇文献间的直接引证关系进行分析，其中被引得分前三的文献作者及内容是:Liben-Nowell和Klein-berg提出基于网络拓扑结构的相似性定义方法,将指标分为基于节点和基于路径两类,并分析了若干指标在社会合作网络链路预测中的效果;吕琳媛和周涛关于复杂网络中链路预测问题的综述;周涛等[分析10种基于节点局部信息的相似性指标在6个真实网络中进行链路预测的表现。本文以“知识网络中的链路预测”"
+  },
+  "为主要对象,基于链路预测的高被引文献回顾所涉及的预测类型和研究思路。": "",
+  "1.1链路预测的类型": {
+    "context1": "链路预测可以分为两类，未知链路预测和未来链路预测。未知链路(missing links）是指网络中实际存在但尚未被探测到的链路，这实际上是数据挖掘的过程，是静态的。未来链路(fu-ture links)是指网络中目前不存在,但应该存在或将来很可能存在的链路，这与网络演化密切相关，是动态的。两者对应的数据集划分方法也有所不同，前者多采用随机抽样，后者需要考虑时序状态。这两种类型的链路预测都很重要，可以补充或修正我们对事物的认知，并指导实践。",
+    "context2": "在图1展示的静态链路预测中，子图a表示研究使用的样本网络，或者称为观察网络，它经数据集划分后得到子图b,子图b称为测试网络，其中的实线表示训练集，虚线表示测试集。在图2展示的动态链路预测中，子图c表示在时间(段) $t$ 下的网络,可作为训练集使用,称为训练网络,子图d表示由链路预测算法得到的节点和连边组成的网络，称为预测网络，子图e表示在时间(段) $t$ 下的网络,可作为测试集使用，也称为测试网络。",
+    "context3": "![](images/94722d599d65b150565d180bd70895da3514d69af8ea1b63f13f63eb2cedd6bf.jpg)  \n图1静态链路预测(未知链路)",
+    "context4": "![](images/f5768649a8071d1d28a7443227f8f0746f80780eee19cbdcd9b5ba1cd738d00e.jpg)  \n图2动态链路预测(未来链路)"
+  },
+  "1.2研究思路和方法": {
+    "context1": "早期关于链路预测的研究思路和方法主要基于马尔可夫链和机器学习[1-1,这在计算机科学领域已有较深的研究。在吕琳媛和周涛5-关于复杂网络链路预测的综述中,总结了基于网络结构的链路预测的三种研究思路。",
+    "context2": "第一种研究思路是利用节点间的相似性进行链路预测。这种相似性表达的是一种接近程度（proximity）,研究的前提假设是两个节点之间的相似性越大，它们之间存在链路的可能性就越大。刻画相似性的方法有很多，其中最简单的是利用节点的属性。在社会网络中,如果两个人具有相同的年龄、性别、职业、兴趣、爱好等，就说明他们很相似;而在知识网络中，如果两篇论文具有相似的标题、关键词、主题词、摘要等，也可以说明它们很相似。基于节点自身属性来判断相似性的确可以得到很好的预测效果,比如论文相似性检测，但在很多情况下获取这些信息并不容易。因此,讨论更多的是基于网络结构信息的链路预测方法，其中最简单的相似性指标是共同邻居，即两个节点如果有更多的共同邻居就更可能产生连边。在社会网络中,如果两个人拥有很多相同的朋友，那么这两个人很可能也是认识的[；而在知识网络中,有更多共同合作者的两个科学家在未来合作的可能性较高[4。",
+    "context3": "第二种研究思路是基于最大似然估计进行链路预测。Clauset等[提出了一种利用网络的层次结构进行链路预测的方法，在具有明显层次结构的网络中，如恐怖袭击网络、草原食物链等,预测的精确度较高。Guimera和Sales-Par-do d 提出了一种基于随机分块模型(stochasticblock model）来预测网络缺失连边和识别错误链路的方法。随机分块模型是一种基于最大似然估计的方法，其基本思想是网络中的节点可以分为若干模块，而两个节点之间存在连边的概率只由它们所在的模块决定。",
+    "context4": "第三种研究思路是利用概率模型进行链路预测。其基本思路是建立一个含有一组可调参数的模型，之后使用优化策略寻找最优的参数值,使得所得到的模型能够更好地再现真实网络的结构和关系特征，网络中两个节点产生连边的概率就等于在该组最优参数下它们之间产生连边的条件概率。",
+    "context5": "上述三种研究思路的立足点和研究对象的不同,导致其研究方法和应用范围存在差异。目前，关于第一种研究思路的探讨最多，应用范围也最广，其相似性指标也有不同的划分标准，如： $\\textcircled{1}$ 基于邻居节点和基于路径的， $\\textcircled{2}$ 基于局部信息、基于路径和基于随机游走的， $\\textcircled{3}$ 局部、全局和类局部的。对于具体预测指标和方法可参考吕琳媛等的研究b-,在此不做详细展开。三种研究思路各有所长：基于结构相似性的链路预测只涉及网络的结构信息，相似性指标计算起来比较简单，但不同指标在不同网络中的预测能力却不一致,其预测的精确度取决于对网络结构特征刻画的好坏;基于最大似然估计的链路预测由于针对的是整个网络结构,计算复杂性较高,不太适合在规模较大的网络中应用;而基于概率模型的链路预测,不仅使用了网络结构信息,还会涉及节点属性信息，计算复杂度最高，且需要数据库的支持,但其优势在于具有较高的预测精确度。",
+    "context6": "图书情报学领域充满了各式各样的知识网络(见表1）。在知识网络中,知识节点是指知识单元的存储载体,也可以称为实体。文献计量学将论文作为基本实体使用已经很久了，可以用来测量期刊、作者、机构、国家/地区的学术影响,这些可以称为评价实体;而在科技论文中，知识实体是知识单元的微观载体，包括了关键词、主题、学科分类、数据集、关键方法、关键理论和领域实体(例如生物医学实体，包括基因、药物和疾病)[。知识实体可以直接用来挖掘和分析知识的使用和迁移，最终促进知识发现。这些知识网络规模不一,有的规模还极其庞大，因此，在链路预测问题上主要采用的是第一种思路以降低计算的复杂性，同时也会引入一定的语义和属性信息来保证预测的精度。",
+    "context7": "表1知识网络类型和典型代表",
+    "context8": "<table><tr><td rowspan=1 colspan=2>网络类型</td><td rowspan=1 colspan=1>典型代表</td></tr><tr><td rowspan=5 colspan=1>同质网络</td><td rowspan=1 colspan=1>无权有向网络</td><td rowspan=1 colspan=1>引证网络</td></tr><tr><td rowspan=1 colspan=1>无权无向网络</td><td rowspan=1 colspan=1>各种网络的二值特殊形态</td></tr><tr><td rowspan=1 colspan=1>加权有向网络</td><td rowspan=1 colspan=1>作者互引网络、期刊互引网络等</td></tr><tr><td rowspan=1 colspan=1>加权无向网络</td><td rowspan=1 colspan=1>合作网络、共词网络、耦合网络、共被引网络等</td></tr><tr><td rowspan=1 colspan=1>二分网络</td><td rowspan=1 colspan=1>科学家一论文二分网络</td></tr><tr><td rowspan=1 colspan=1>异质网络</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>作者多重交互网络</td></tr></table>"
+  },
+  "2同质网络中的链路预测": {
+    "context1": "如前所述，知识网络的类型多种多样。从知识节点上看，作者和论文是最常见的两种节点类型；从知识关联上看，共现关系和引证关系是最重要的两种关联关系，其他诸如耦合、共被引、互引网络等体现的依然是共现关系和引证关系,只是构建方式稍显特殊。目前，探讨较多的有合作网络、引证网络和二分网络,其链路预测主要是在同质网络中进行的,这里就其研究成果进行梳理。"
+  },
+  "2.1合作网络": {
+    "context1": "针对知识创造主体间的合作关系而构建的合作网络,可被视为无向网络,这是描述真实网络系统最简单的一种方式。合作关系隐含着知识在某种社会关系之间的交流、转移、共享，把知识研究的对象扩展到了拥有知识的人、项目和组织，基本可以列入共现关系网络的类别。科学合作可以分为作者、机构、国家/地区三个层面，由于作者从属于他所服务的机构，机构在地理上又位于其所处的国家/地区，因此,机构之间和国家/地区之间的合作网络,实质上都是作者之间的合作网络。在具体研究中,合作网络可以通过合著网络来直观呈现。"
+  },
+  "2.1.1预测指标与评价步骤": {
+    "context1": "学者们已经针对合作网络的结构问题取得了大量成果,接下来的问题就是：在时间 $t$ 下，一个给定合作网络在未来时间 $t$ 时会演化成什么样子？为了捕捉这种动态变化特征,学者们从宏观视角上对网络增长和合作行为[19-21 进行统计和建模分析，之后又聚焦到个人的合作行为[22-24研究上。利用链路预测可以进一步推断和分析合作网络的演化过程。Liben-Nowell和Kleinberg在arXiv上获取了物理学中五个领域的论文预印本，并从中抽取了作者合作信息。研究中，假定合作网络为 $G = \\left. V , E \\right.$ ，连边 $e$ $\\mathbf { \\Psi } = \\langle u , v \\rangle \\in E$ 表示节点作者 $u$ 和 $v$ 在某一特定的时间 $t { \\left( \\begin{array} { l } { e } \\end{array} \\right) }$ 时完成了一次合作。令1994—1996年间的子网络为训练集,1997—1999年间的子网络为测试集，将前者表示为 $G _ { c o l l a b } ~ = ~ \\langle A , E _ { o l d } ~ \\rangle$ ，$E _ { n e w }$ 则表示仅在测试集中存在，在训练集中不存在的连边 $\\langle u , v \\rangle$ 集合，即新产生的合作关系，其中 $u , v \\in A$ 。进一步，还将合作次数在3次及其以上的作者确定为核心作者。研究者以随机预测、图一距离预测、共同邻居预测为基准，对多种预测指标进行评估，发现在这些预测指标中，不存在单一明确的最优指标，但是大多数指标都显著优于随机预测，这表明网络拓扑结构中确实包含了非常有用的信息。",
+    "context2": "后续研究基本遵循上述研究思路2,主要包括两个步骤： $\\textcircled{1}$ 将一些预测指标应用在某一训练网络上，预测可能产生的新的连接; $\\textcircled{2}$ 通过和一个实际的后续快照,即测试网络,进行比较，来评价预测指标。需要注意的是，链路预测只能预测训练网络中节点对间产生连边的概率，而不能预测连接到新增节点的概率。",
+    "context3": "对链路预测进行评价可以被视为类信息检索评价,如表2所示。这就意味着，对每一种预测指标都可以计算准确率和召回率。在信息检索评价中，准确率和召回率会相互制约，因此,通常会根据需要为“检索策略\"选择一个合适的度，不能太紧也不能太松，寻求在准确率和召回率之间的一个平衡点。在链路预测中,同样如此。",
+    "context4": "表2预测网络和测试网络中连边之间可能存在的四种关系",
+    "context5": "<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=2>测试网络</td></tr><tr><td rowspan=1 colspan=1>相关的</td><td rowspan=1 colspan=1>不相关的</td></tr><tr><td rowspan=2 colspan=1>预测网络</td><td rowspan=1 colspan=1>预测到的</td><td rowspan=1 colspan=1>A=EpredE</td><td rowspan=1 colspan=1>B=EpredE</td></tr><tr><td rowspan=1 colspan=1>未预测到的</td><td rowspan=1 colspan=1>C=-EpradEe</td><td rowspan=1 colspan=1>D=-EpedEe</td></tr></table>",
+    "context6": "注：准确率 $= \\ A / { \\big ( } A + B { \\big ) }$ ,召回率 $= \\ A / { \\big ( } A + C { \\big ) }$",
+    "context7": "在表2中，情形 $A$ 是正常状态的链路预测，情形 $B$ 是异常间隙发现(Anomalous Gap Discov-ery, $\\mathrm { A G D } )$ ，情形 $C$ 是异常链路发现（AnomalousLink Discovery,ALD）。对于情形 $B$ 而言，异常间隙是指预测网络中那些出现连接的可能性高,但没有在测试网络中形成实际的连边的节点对。这意味着，该链路可能会在更远的未来的某个时间点出现，或者节点间形成了某种边界。针对合作网络而言，如果作者 $a$ 和作者 $b$ 之前合作过多次，那么在测试网络中再次合作的可能性也很高;但如果合作没有发生，则有可能是其中某个作者的研究课题发生了改变。对于情形 $C$ 而言，异常链路是指在测试网络中真实存在，但通过预测方法认为其存在可能性很低的连边。从另一个角度来看，这些异常链路可能是“不稳定的”或者在未来很可能消失。当然,我们有理由怀疑这些连边可能是虚假连接，但如果它们的确存在，那么势必在网络中具有特定功能和作用。实际上，异常间隙比异常链路具有更多的不确定性，而异常链路会对保持网络连通性有着特别重要的贡献，因此，链路预测的一个重要应用是对识别出的异常链路进行分析。"
+  },
+  "2.1.2不同层面的预测效果": {
+    "context1": "Liben-Nowell和 Kleinberg的研究针对单一学科领域的作者合作网络。其中,在基于路径的方法中,Katz指标及其变体和低秩逼近的预测效果很好;而在基于节点的方法中，仅考虑节点共同邻居的方法和Adamic/Adar指标2g的预测效果也非常好。而Guns 认为,链路预测中的训练网络并不一定是测试网络的一个旧的快照，也可以将两个或者多个网络一同训练。对此,Liben- Nowell 和 Kleinberg提出的一个思路是，可以将论文标题、作者所在机构和地理位置信息加入到计算中，对预测结果进行微调。Guns在具体实施时，以安特卫普大学为例,训练集由三个子网络组成：第一个网络是合作网络，由该校学者在2001—2003年间发表论文时形成的作者合作关系构成;第二个网络是部门网络，当作者归属于同一个部门时，由作者节点间形成连接关系构成;第三个网络是物理位置网络，当作者工作地点相互接近时，由作者节点间形成连接关系构成。需要说明的是，部门网络和物理位置网络的密度比测试网络(2004—2006)高得多。因此，作为单一训练网络来进行预测，其准确率非常低，而和合作网络(2001—2003)一起，则有助于提升准确率和召回率。",
+    "context2": "Guns 和 Rousseau b 对非洲、中东和南亚的城市间科研合作进行研究，构建了在三个连续时间段(1997—2001、2002—2006、2007—2011)内疟疾和肺结核研究领域中的合作网络，通过链路预测和机器学习发现潜在的富有成效的合作。在具体操作中，先构建加权合作网络，之后根据不同预测指标计算出节点对之间的相似性,这些数值表示给定节点对在未来产生连接的可能性。为了确定每个预测指标的相对价值,对旧的数据进行随机森林分类训练，而同样的分类器用在新的数据上可以产生预测结果，最终将排名前 $n$ 的预测结果作为科研合作建议进行推荐。",
+    "context3": "晏尔伽和Guns使用图书情报学于2001—2010年间发表在59种期刊上的论文数据集研究作者、机构、国家/地区层面的合作网络。数据集被分为两个时间段（2001一2005、2006—2010）。所构成的网络中，作者合作网络和机构合作网络都很稀疏，而国家/地区合作网络则很稠密。研究中使用了四种评价指标：准确率和召回率、ROC曲线、AUC、nDCG,对三个层面的合作网络在八种预测指标下的预测结果进行了评价。在基于邻居信息的预测指标中，择优连接(PreferentialAttachment,PA)相似性预测结果表现较好；而在基于拓扑结构的预测指标中，Katz指标预测结果表现较好。研究结果显示针对该特定的数据集，国家/地区合作网络的预测结果要优于作者合作网络和机构合作网络,同时还给出了所预测的三个层面下排名前十的合作组合。"
+  },
+  "2.2引证网络": {
+    "context1": "表现知识前后承接关系的引证网络，是最早被提出的一种知识网络形态，它的主要研究对象是学术论文。论文间的引证关系一经发表一般不会出现变动，绝大部分都会服从时间先后关系，且大部分论文都由相关主题的其他文章引用，很少出现相互引用，网络中没有环状结构。理论上讲，这种引证关系一定要满足时间先后关系，且不出现相互引用。但在实际情况中，由于存在优先出版等导致出版周期错乱的因素,使得引证网络中存在极少的不符合理论情形的连边。这些单向关系无法使用无向网络中的相互关系或共现关系进行刻画，因此需要借助有向网络的形式。"
+  },
+  "2.2.1网络结构的形成机制": {
+    "context1": "引证网络是一种无标度网络。Barabusi和",
+    "context2": "Albert于1999年提出了通过引入增长和择优连接机制构建增长网络模型，简称为BA模型，来解释真实网络无标度特性出现的内在机理。事实上,这一思想可以追溯到 Price[,33和 Si-mon 的研究,只不过当时使用的是累积优势和马太效应来描述这一过程。当然,还有其他因素影响引证网络的演化过程。比如：时间效应会在一定程度上平抑度择优所导致的马太效应的负面影响；知识学习和知识引证通常还是基于局部知识领域的[6-3]。因此,真实的引证网络往往是由多种机制混合作用而成。",
+    "context3": "同时，学术论文中的引证与被引证还体现了同质性（homophily），使得大量文献得以分群。在一些文献中，聚类效应被当作一种特殊的同质性，即拥有共同邻居的节点被看成拥有相似的网络环境。同质性体现了节点间的相似性及相容性，能对它们之间是否形成连边产生重要影响。显然,论文间的引证关系倾向于产生在具有相似内容的文献之间。在文献计量学中,通常会使用文献耦合和共被引两种方法来揭示论文的主题相似性，以及相互之间的作用和联系。文献耦合和共被引都建立在相似的假设基础之上，即具有耦合关系和共被引关系的论文可以认为它们在学科内容上存在某种相关性。",
+    "context4": "引证网络的形成机制非常复杂，而同质性的存在使得可以利用链路预测来探究网络结构的形成机制。无向网络中3个节点的相互关系非常简单，在已经拥有共同邻居的两个节点之间产生连边，只能形成一种新结构,称为三角形结构[4。而在有向网络中,同样考虑3个节点，情况就复杂得多[4]。在不考虑互惠连接机制和具体节点间连边的情况下,引证网络的三角形结构可分为前馈回路和反馈回路两种。Milo等[引入模体(motif)来描述网络中反复出现的相互作用基本模式。相比3节点结构而言，4节点结构更加复杂。Milo等发现在很多网络中,4节点的双风扇结构和双平行结构是非常显著的。实际上，可以将这些识别出来的模体看成网络生成和演化过程中在特定限制条件下形成的特殊局部结构。于是,在引证网络中3个节点和4个节点的情况下可得六种子图结构,如图3所示。",
+    "context5": "![](images/941a95cee86a720c48ff51290ba0de346505481bb516dc30b995ebc39abb729b.jpg)  \n图3六种含有回路的最小子图",
+    "context6": "张千明等提出的势理论(Potential Theory)为强化上述假设和描述引证网络演化提供了一种可能解释。按照势理论，只有双风扇结构和双平行结构是可定义势的。又根据同质性的理论,双风扇结构比双平行结构具有更强的同质性。不妨假设：如果一条边的添加能产生更多的双风扇结构，那么这条边存在的可能性就越大。这一假设得到了链路预测实验结果的强有力支持,即通过双风扇结构进行预测会得到准确的预测效果。需要说明的是,这一假设是一种局部驱动机制，它暗示着一个局部的层级结构,而节点会倾向于在局部以层次结构的方式进行自组织。",
+    "context7": "上述实验结果还表明，双风扇结构的一个显著优势在于它具有高度的预测稳定性，对网络结构不敏感。对双风扇结构进行分解，结果如图4所示。显然,不管以哪条虚线方式进行划分，都一定可以找到节点间的耦合关系或共被引关系。结合这两点，可以得到一条简单的推论：双风扇结构保证了对耦合关系和共被引关系分析的有效性。当然，这一推论还需要进一步验证。同时，通过双风扇结构对引证网络进行预测的效果还需要大量实证研究加以检验。",
+    "context8": "![](images/ca1bb1aab397646cae9ff2938d29aeef6accd563942d180a697ca988fb6d6324.jpg)  \n图4双风扇结构分解"
+  },
+  "2.2.2引入外部信息的预测": {
+    "context1": "相比合作网络，引证网络除了基础数据的结构信息，还会涉及作者、期刊以及文章内容等外部信息。因此,引证网络不仅可以基于局部结构进行预测,还可以巧妙地利用外部信息，以及将外部信息和结构信息融合起来进行机器学习,从而提高链路预测的精确性。Popescul和Ungar [44-4提出了一个统计关系学习模型并应用于引证网络，对科学文献的引证关系进行预测。O'Madadhain等[4d利用网络的拓扑结构信息以及节点的属性建立了一个局部的条件概率来进行预测。",
+    "context2": "Shibata等从引证网络的结构、语义、属性3个方面的11个特征入手,构建了一个监督机器学习模型，分别对5个大规模引证网络数据集(创新、纳米生物、有机LED、太阳能电池、二次电池)进行链路预测分析。结果表明:结构方面的“基于链路的Jaccard系数’、“中介中心性差异”,语义方面的“TF-IDF向量余弦相似性”这3个特征对引证网络链路预测有较强的影响。值得说明的是，不同类型的研究领域需要不同的模型来对应，很难建立一个通用的学习模型。研究中涉及的数据集可以大致划分为两种类型,即多问题研究领域(创新、纳米生物)和单问题研究领域(有机LED、太阳能电池、二次电池)。由于引证论文一般会有局域限制，因此多问题研究领域的链路预测会存在一定障碍。此外,Shibata等还指出这一研究存在两个局限性:一是由于引证了还未正式发表的论文，会使引证网络的拓扑特性发生改变；二是虽然链路预测可以帮助显示应该被引却被遗漏的文献，但真实的引证关系是由人的个体行为来决定的，如果将专家判断加入到学习模型中，预测结果的准确率有望得以提高。"
+  },
+  "2.3二分网络": {
+    "context1": "很多同质知识网络还可以以二分网络的形式呈现,比如:合作网络可以是以参与者和事件为两个分离集的二分网络4，人类疾病网络可以是以身心机能失调表现和致病基因为两个分离集的二分网络。二分网络形式众多,像科学家一论文二分网络,可以用科学家一术语、科学家一被引论文等进行替代。科学家代表了知识创造过程中的主体，论文、术语、被引论文等代表了知识创造过程中的客体。利用二分网络研究主客体间的结构特征和演化过程，有助于探讨知识创造活动的规律。在二分网络中应用链路预测,可以解决一些推荐系统的问题。",
+    "context2": "许多学者曾经考虑一个分离集为科学家的二分网络。Goldstein等较早地研究了在同一个群组中的成员更倾向于合作这一效应，并以科学家一论文二分网络为例，构建了演化模型。之后,Morris和Goldstein在此基础上又进行了改进。针对二分网络的链路预测问题,Chua和 $\\mathrm { L i m } ^ { \\tt G 2 }$ 对Clauset等[提出的层次结构模型进行了改造,应用于二分网络,并以ICDM会议的科学家—论文二分网络，以及SIGKDD、SDM、ICDM、WSDM四个会议所得到的科学家一论文二分网络为例，发现采用二分网络层次结构模型，不仅预测精度高于简单无向网络层次结构模型，而且能更好地再现真实网络的结构特征。Gunsb也针对科学家一论文二分网络、科学家一术语二分网络分别进行了研究。当然，对于使用二分网络能否真正提高预测效果还存在争议,因此需要大量实证研究来检验。"
+  },
+  "3异质网络中的链路预测": {
+    "context1": "当前大部分研究都聚焦于同质网络，即网络中只存在一种类型的连边。然而，现实中大部分的知识网络都是异质网络，即网络中有很多不同类型的连边。Bormer等提出过一个科学家一论文网络同步增长模型,其连边有三种类型,分别是论文间的引证关系、作者间的合作关系、作者和论文间的使用和生产关系。Borner等主要考虑的是这一异质网络的演化过程，并以1982—2001这20年间发表于PNAS上的论文数据进行验证，但并没有从链路预测的角度来考虑演化模型评价问题。",
+    "context2": "在异质网络中，节点和连边的异质特性使得链路预测变得更加困难。不同类型节点之间的连接具有不同的含义，可能具有不同的形成和演化机制，同时还会相互影响，也会导致各自在链路预测中的作用不同。因此,异质网络中的链路预测是一个新颖且富有挑战的问题。Sun 和 $\\mathrm { H a n } ^ { \\left[ 5 6 - 5 \\right] }$ 针对异质网络提出了基于元路径(meta-path)的链路预测模型。元路径是用来描述异质网络中两个节点对象之间的连接路径，用来研究两个节点对象在元层次上存在的关系。不同的元路径代表了两个节点对象之间可以通过不同类型的节点和连边建立不同的关系。显然，不同的元路径具有不同的语义来描述节点之间的接近程度。基于元路径的拓扑特征,设计监督学习模型学习不同元路径上节点对象之间的接近程度和每一条元路径的权重，来进行链路预测,这可以应用在作者合作和引证关系的预测上。目前,国内也有相关文献[50-61对此予以关注。",
+    "context3": "对于异质网络中的多重关系网络,比如：作者多重交互网络，通常是将节点对之间的多重关系经过加权处理,转换成单一关系,之后再进行后续研究。有关多重关系网络的链路预测方法可以参考Yang等的研究。此外,不同知识实体所构成的网络也是一种异质知识网络。在现代药物发现过程中，需要对化学基因组、化合物和药物以及身体里的多种蛋白靶标和基因之间的复杂相互作用进行理解。Chen等从众多数据库中获取公开数据，并对涉及药物靶标相互作用的数据进行整合和语义标注，知识实体关系包括了化合物一基因、药物一药物、蛋白质—蛋白质、药物副作用等，之后构建了一个异质网络。他们构建了一个统计模型,命名为语义链路关联预测（ Semantic Link Association Prediction,SLAP)，其中，关联分值的计算基于邻居节点的拓扑和语义信息。研究者利用SLAP预测该异质网络中的未知链路，以此来识别药物靶标对和确定间接的药物靶标关联。鉴于这属于医学信息学研究范畴，这里不再赘述。"
+  },
+  "4研究评论": {
+    "context1": "通过上述回顾和梳理可知，图书情报学领域对于知识网络中链路预测问题的专门研究在近年有成为热点的趋势，成果多刊发在Jour-nal ofInformetrics、Scientometrics、JASIST等权威期刊上。已有研究多是描述各种链路预测指标在不同类型知识网络中预测效果的实证性研究，以确定链路预测的应用范围。以合作关系研究为例,科研合作是一个很复杂的多层次社会现象，研究作者合作网络有助于理解个人的合作行为与动机,研究机构合作网络有助于审视科研机构的地位和规划学科未来，研究国家合作网络有助于确定影响科研合作的宏观性因素,比如语言、科技政策、文化等。随着时间的推移，合作关系也发生着变化。而链路预测有助于揭示这些网络的形成机制和演化过程,为合作预测提供新的思路。链路预测的结果可以为交叉学科合作趋势、研发群体科学（the Science of Team Science,SciTS)等提供推荐建议和决策依据，从而解决寻找合作者这一难题[。由此可见,链路预测可以在一定程度上将知识网络的结构和演化研究提升到应用层次，并最终运用到预测和决策中去，有着重大的实践价值。本文总结出研究框架（见图5），并从研究方法和研究内容两个方面指出研究中尚需要进一步深化之处。",
+    "context2": "![](images/348c42bc4b08263dade92d1913454f7eace682c3de2896b79f0244364f4fb081.jpg)  \n图5研究框架",
+    "context3": "在研究方法上,Liben-Nowell和Kleinberg在此方面做了开创性的论述,后续研究也基本遵循他们的研究思路展开。基于拓扑结构相似性进行链路预测的方法简单可靠,对于结构相似的网络具有一定的普适性。基于最大似然估计和概率模型的链路预测方法也取得了丰硕的成果，虽然它们的研究框架要远远复杂于基于结构相似性的研究框架，但它们除了能提供链路预测的结果之外，还能对网络结构进行深刻的揭示，比如层次组织形态、网络分块结构等。此外,还应重视对机器学习方法的吸收、改进与整合。"
+  }
+}

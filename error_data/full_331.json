@@ -1,0 +1,133 @@
+{
+  "original_filename": "full_331.md",
+  "BERT模型的主要优化改进方法研究综述\\*": {
+    "context1": "刘欢1,2,3 张智雄 1,2,3,4 王宇飞1,2,3  \n1（中国科学院文献情报中心北京100190)  \n2（中国科学院大学经济与管理学院图书情报与档案管理系北京100190)  \n3(科技大数据湖北省重点实验室 武汉430071)  \n4（中国科学院武汉文献情报中心 武汉430071)",
+    "context2": "摘要：【目的】对谷歌发布的BERT语言表示模型的主要优化改进方法进行梳理,为后续基于BERT的相关研究开发提供借鉴【文献范围】自BERT发布以来,到目前与BERT模型优化改进相关的41篇主要文献及相关模型【方法】根据模型优化改进的技术路线,从改进预训练目标、融合外部知识库、改进Transformer结构和预训练模型压缩4个方面,分别阐述优化改进的方式及产生的效果。【结果】预训练目标优化和Transformer结构改进最早受到研究者关注,并且成为BERT模型优化改进的主要方式,随后预训练模型压缩及外部知识库的融合也成为新的发展方向。【局限】BERT模型相关研究发展迅速,可能未覆盖一些相关研究工作。",
+    "context3": "【结论】研究者可重点关注预训练目标优化和Transformer结构改进方面的研究,同时考虑根据不同应用场景选择模型优化方向。",
+    "context4": "关键词：BERT模型预训练知识融合模型压缩 分类号：TP391 DOI: 10.11925/infotech.2096-3467.2020.0965",
+    "context5": "引用本文：刘欢，张智雄，王宇飞.BERT模型的主要优化改进方法研究综述[J].数据分析与知识发现，2021,5(1) : 3-15.(Liu Huan, Zhang Zhixiong, Wang Yufei. A Review on Main Optimization Methods of BERT[J].Data Analysis and Knowledge Discovery, 2021,5(1): 3-15.)"
+  },
+  "1引言": {
+    "context1": "BERT[1]（Bidirectional Encoder Representationfrom Transformers)是由谷歌AI于2018年10月提出的一种基于深度学习的语言表示模型。BERT发布时,在11种不同的自然语言处理(Natural LanguageProcessing,NLP)测试任务中取得最佳效果,是NLP领域近期重要的研究成果。",
+    "context2": "BERT主要的模型结构是Transformer编码器。Transformer[2于2017年提出,用于谷歌机器翻译,包含编码器(Encoder)和解码器(Decoder)两部分。其中,BERT-base与BERT-large模型分别采用12层与24层的Transformer编码器作为模型网络层。相比于传统用于NLP任务的循环神经网络(RecurrentNeural Network,RNN)和长短期记忆网络（LongShort-TermMemory,LSTM)等,Transformer拥有更强大的文本编码能力，也能更高效地利用图形处理器（Graphics Processing Unit,GPU)等高性能设备完成大规模训练工作。",
+    "context3": "基于BERT模型的自然语言处理任务通过两个过程来实现。在预训练过程中，首先利用大规模未标注过的文本语料,如百科知识、网页新闻等,通过充分的自监督训练,有效学习文本的语言特征,得到深层次的文本向量表示，形成相应文本的预训练模型。在微调过程中，直接将预训练过程中完成收敛的网络参数(即嵌入层和网络层)作为起始模型，根据具体的任务(如文本分类、序列标注等),输入人工标注好的数据集,完成模型的进一步拟合与收敛，得到一个可用的深度学习模型以实现特定的自然语言处理任务。自BERT发布以来,基于\"预训练-微调”的两阶段方法逐渐成为自然语言处理研究的主流。",
+    "context4": "当前,BERT模型已成为一个基础性工具,经过进一步的优化改造,即可广泛用于各种文本挖掘的应用场景。其发布以来,引起了大量研究者的关注,在BERT基础之上进一步开发,形成一系列基于BERT优化改进的模型。本文通过调研分析，针对BERT模型各种优化改进的方式进行总结归纳。通过对41个模型进行梳理,提出以下4个基于BERT的优化改进方向与技术路线。首先,大量研究者通过对改进BERT的两个预训练目标，提升了模型对文本特征的学习能力。其次,针对特定领域的显性知识,提出在预训练模型中融合外部知识的方法,进一步丰富了模型所学习的文本特征。这两种路线提升了模型的特征学习能力，但是并没有对预训练模型内部结构进行实质性的改进。部分研究者从Transformer神经网络出发,对其内部结构进行改进,从而扩展了模型的应用场景。最后，针对BERT模型参数量过大导致普通的硬件设备无法有效训练和加载的问题,大量研究提出模型压缩的方法，大大提升了BERT模型的易用性、可用性。基于此,本文希望疏理研究者对BERT优化改进的模式，为后续研究提供理论依据与思路。"
+  },
+  "2通过改进预训练目标提升模型的文本特征学习能力": {
+    "context1": "BERT模型使用两个预训练目标完成文本内容特征的学习。其中，掩藏语言模型（MaskedLanguageModel,MLM)通过将单词掩盖,从而学习其上下文内容特征来预测被掩盖的单词;相邻句预测(Next SentencePredication,NSP)通过学习句子间关系特征，预测两个句子的位置是否相邻。这两种训练目标分别针对词级别和句子级别两种文本特征完成对大规模无标注文本的自监督学习，自动学习自然语言的表达方式。然而，自然语言的特点在于丰富多变，很多研究针对更丰富多变的文本表达形式,在这两个训练目标的基础上进一步完善和改进,提升了模型的文本特征学习能力。"
+  },
+  "2.1改进掩藏语言模型(MLM)以提高词级别语言模型学习能力": {
+    "context1": "MLM通过预测被掩盖的单词来学习词级别的文本特征。研究者针对MLM中的一些不足之处进行改进，主要有以下几种方式：通过改进掩盖策略学习更完整的语义单元;通过引入降噪自编码器(DenoisedAuto Encoder,DAE)提升模型降噪能力；通过引人替代词检测（Replaced TokenDetection,RTD)任务提升模型收敛速度和应用效果。",
+    "context2": "（1）改进MLM掩盖策略学习完整语义单元",
+    "context3": "在BERT模型中，对文本的预处理都按照最小单位进行切分。例如，对于英文文本的预处理采用谷歌的WordPiece[3方法解决其未登录词的问题,在MLM中掩盖的对象多数情况下为词根（Subword），并不是完整的词;对于中文则按字切分，直接对单个字进行掩盖。这种掩盖策略导致了模型对于词语信息学习的不完整。",
+    "context4": "针对这一不足，大部分研究改进了MLM的掩盖策略。在谷歌随后发布的BERT-WWM模型中，提出了全词覆盖的方式。对于被拆分过的词根，如果其被掩盖，则与其组成完整词语的其他词根也同时被掩盖。BERT-Chinese-WWM模型[4]则对中文模型进行了改进,利用中文分词,将组成一个完整词语的所有单字同时掩盖。百度发布的ERNIE模型[5则进一步扩展了中文全词掩盖策略,扩展到对于中文分词、短语及命名实体的全词掩盖。SpanBERT将这一策略的改进进一步延伸，首先采用几何分布来随机采样被掩盖的短语片段,然后提出新的预训练目标——短语边界预测（Span Boundary Objective,"
+  },
+  "4 数据分析与知识发现": {
+    "context1": "SBO),通过Span边界词向量来预测掩盖词。通过 这两种方式,SpanBERT在BERT基础上取得了显著 的效果提升。",
+    "context2": "(2）引入降噪自编码器(DAE)提升模型降噪能力",
+    "context3": "MLM将原文中的词用[MASK]标记随机替换,这本身是对文本进行破坏，相当于在文本中添加噪声，然后通过训练语言模型来还原文本，消除噪声。Facebook提出的BART[通过引入降噪自编码器(DAE)[8丰富了文本的破坏方式。DAE是一种具有降噪功能的自编码器，旨在将含有噪声的输入数据还原为干净的原始数据。对于语言模型，即是在原始语言中加入噪声数据，再通过模型学习去除噪声以恢复原始文本。",
+    "context4": "BART首先将原始文档进行破坏，如随机掩盖(与MLM一致)某些词、随机删掉某些词或片段、打乱文档顺序等,将文本输入编码器中后，利用一个解码器生成破坏之前的原始文档。相比于MLM,DAE模型具有更强大的语言学习和生成能力，因而",
+    "context5": "BART在众多自然语言生成任务中也表现出不错的性能,这弥补了BERT无法用于语言生成任务的短板。另外,ERNIE(Tsinghua)[9同样借助了DAE模型的思想在上述两个预训练任务上直接增加了实体对齐任务，以增强语言模型训练中的知识融合能力。",
+    "context6": "(3）通过引入替代词检测(RTD)提升模型收敛 速度和应用效果",
+    "context7": "MLM对文本中[MASK]标记的词进行预测，试图恢复原始文本。其预测结果可能完全正确，也可能预测出一个不属于原文本的词。Facebook提出的ELECTRA模型[0]引入了替代词检测(RTD)任务，预测一个由语言模型生成的句子中哪些是原句子中的词,哪些是语言模型生成的且不属于原句子的词。",
+    "context8": "如图1所示，ELECTRA使用一个小型的MLM模型作为生成器(Generator），对包含［MASK]的句子进行预测,另外训练一个基于二分类的判别器(Discriminator)对生成器生成的句子进行判断。结果the artist sold the car中,car是不属于原句子的词,故被判断为replaced。",
+    "context9": "![](images/4ded11487c4a6d756cff2e6c150404ad91f3aeb909b639f74815a7938ae03261.jpg)  \n图1ELECTRA模型结构[10]  \nFig.1ELECTRA Model Structure[10]",
+    "context10": "ELECTRA的判别器承担了一个“测谎仪\"的功能,将一个句子中被错误生成的词识别出来,并且巧妙地运用MLM生成句子。此时MLM仅承担了一个语句生成的功能,因此仅使用一个小的模型即可，而判别器也只是一个简单的二分类模型。相比原始BERT模型，ELECTRA大大提高了计算效率，加快了模型的收敛速度。在相同的算力、数据和模型参数的情况下，其效果不仅明显优于BERT,且超越了进一步改进的RoBERTa[\"]和XLNet[12]等模型。"
+  },
+  "2.2改进相邻句预测(NSP)提高句子级别语言模型学习能力": {
+    "context1": "NSP通过预测两个句子的位置是否相邻来学习句子关系特征。针对句子级别的语言特征学习，有研究者提出舍弃NSP训练目标来提升单个句子特征的学习能力，同时也有研究者通过使用更复杂的句子关系学习更完整的句子间的语义特征。",
+    "context2": "（1）舍弃NSP训练目标提升单个句子特征学习能力",
+    "context3": "BERT的预训练任务中,NSP本来是针对一些下游任务中的句子关系建模提出的。而在大多数应用场景下,模型仅需要针对单个句子完成建模,因此一些研究者考虑舍弃NSP训练目标来优化模型对于单个句子的特征学习能力。在SpanBERT[中,当训练数据全部采用单个句子模式,同时舍弃NSP任务,模型在CoLA数据集(单句子分类任务)和MNLI数据集（自然语言推断任务)上取得了显著的效果提升。同样地,在XLNet中,开始并未使用NSP目标，而是在对比分析实验中加入NSP预训练目标，发现在RACE数据集(阅读理解任务)和SST-2数据集（文本相似度任务)上分别仅有 $0 . 1 \\%$ 和 $0 . 2 3 \\%$ 的效果提升，但是在其他任务中模型效果明显下降（在SQuAD2.0数据集上下降 $1 . 5 2 \\%$ )[12]。显然,NSP任务并不能在所有的下游任务中带来模型的效果提升,在使用预训练模型时可根据具体的应用场景完成预训练目标的选择。",
+    "context4": "（2）使用更复杂的句子关系学习更完整的句子间语义特征",
+    "context5": "NSP仅考虑了两个句子是否相邻，而没有兼顾到句子在整个段落、篇章中的位置信息。于是有研究者提出句子顺序预测（Sentence Order Prediction,SOP)任务，通过预测句子之间的顺序关系，从而学习其位置信息，这一方法在ALBERT[13]StructBERT[14]、ERNIE(Baidu)[5,15]等模型中均有体现。在ERNIE模型中,这种关系得到进一步拓展，通过将句子关系扩展到文档位置关系、修辞关系、检索相关性关系等,丰富了句子间关系的语义特征学习。"
+  },
+  "3通过融合外部知识库获取显性领域知识": {
+    "context1": "BERT本身所使用的预训练语料来自维基百科（Wikipedia)和通用书籍语料库(BookCorpus）,都是通用的大型文本语料库,通过大规模的预训练工作,模型可以学习到通用的语言表示，但很难捕获到一些显性的领域知识。当下知识图谱的相关研究已经取得了极大的进展,大量的外部知识库都可以应用到NLP的相关研究中。因此，很多研究者开始探究如何在BERT模型中融合外部知识。"
+  },
+  "3.1在输入层嵌入实体关系三元组获取结构化知识": {
+    "context1": "BERT模型包含多层Transformer神经网络，参数量巨大，因而对其输入层进行改造是最直接、简洁的方式。实体关系三元组是知识图谱最基本的结构,也是外部知识最直接和结构化的表达。K-BERT[1模型从BERT模型输入层入手，将实体关系的三元组显式地嵌入到输入层中，如原始的文本输入为\"Tim Cook is visiting Beijing now”,其被改造为“Tim Cook CEO Apple is visiting Beijing capitalChinaisaCitynow”,于是相关的知识便显式地嵌入输入的句子中。同时，研究者重新设计了Transformer模型的位置编码以引导模型识别正确的关系树，并在模型中增加了一个可视矩阵以防止三元组的嵌入改变原本的句义。通过显示嵌入外部知识的方法，模型在通用领域和特定学科领域的相关下游任务中的表现均优于原始BERT。"
+  },
+  "3.2通过特征向量拼接获取语言表示及语法知识": {
+    "context1": "BERT模型本质上是一个语言表示模型，即可以将任意文本表示为特征向量的形式，而很多外部知识(如语言表示、语法特征等)也都可表示为向量的形式。因此,很多研究者考虑采用向量拼接的方式在BERT模型中融合外部知识。",
+    "context2": "KT-NET[17]引入WordNet[18]、NELL[19]等知识库,识别文本中的相关实体，并借助自注意力机制（Self-Attention)等对实体表示进行加权求和以得到文本的知识表示向量,将该向量与BERT模型原始的文本表示向量进行拼接得到融合的向量表示,利用该融合的向量表示,结合BERTFine-Tuning方式,在阅读理解等下游任务中取得了显著的效果提升。类似地,SemBERT[20]利用语义角色标注（Semantic RoleLabeling)工具,获取文本中的语义角色向量表示，与原始BERT文本表示融合。研究者还设计了卷积神经网络（Convolutional Neural Networks,CNN)[21]将两种向量映射到同一维度。在Syntax-InfusedBERT[22]中,研究者利用词性标注(POS Tagging)工具[23],获取文本的词性(Part-of-Speech,POS)向量表示，并与原始的BERT文本向量融合，将词性知识融入到BERT模型中。"
+  },
+  "3.3通过训练目标融合更多类型的外部知识": {
+    "context1": "上面两种融合的路线对于外部知识的类型有一定限制,需要将其表示为三元组或特征向量的形式。在知识图谱技术中，大量丰富的外部知识被用来直接进行模型训练,形成了多种训练任务。大量研究者从预训练目标入手,将知识图谱技术中的一些模型训练任务，如知识表示、实体对齐等，与BERT的原始预训练目标相结合，从而在预训练的过程中融入相关知识。"
+  },
+  "6 数据分析与知识发现": {
+    "context1": "ERNIE（Tsinghua)[9]以DAE的方式在BERT中引入了实体对齐训练目标。首先利用外部知识库对文本中的实体进行识别，然后利用知识嵌入技术TransE[24]方法对实体进行知识表示。类似于BERT模型的MLM,通过对文本中的实体进行掩盖、替换等方式训练模型对于实体对齐的预测能力。通过引人实体对齐这一新的预训练目标，在BERT-base模型的基础上继续预训练,有效提升了模型的知识表示能力。类似地， $\\mathsf { W K L M } ^ { [ 2 5 ] }$ 引入了实体替换预测，通过随机替换维基百科文本中的实体，让模型预测正误，从而在预训练过程中嵌入知识。KEPLER[26]引入知识表示训练目标,利用负采样[3技术,构建文本中的实体关系三元组,让模型判断正误以在预训练的过程中融合知识。在KnowBERT[27]中，同样引入了额外的实体训练目标,并进一步将引入单个知识库扩充至同时引入多个知识库。",
+    "context2": "K-Adapter[28]则将这种方法进一步集成,将外部知识的引入构建为一个适配器(Adapter)，可以灵活、简便地不断将外部知识库的相关信息融入预训练模型。同时,开始区分事实知识(主要包含实体及关系等)语言知识(主要包含语法规则等),除实体关系分类外，它还引入了依存关系分类作为预训练目标。类似地，LIBERT[29]引入语法关系分类训练目标,专门针对文本中单词之间的语法关系（如同义词、上下文词等),增强模型的语言知识表示能力。",
+    "context3": "更多的知识类型见于SenseBERT[30],引入词义预测（Supersense Prediction)训练目标,在预训练的过程中不仅预测单词形态，同时预测其WordNet词义（Supersense）。又如SentiLR[31]引入情感词预测，将词的情感极性等知识引人预训练过程。"
+  },
+  "4改进Transformer结构以适应更多应用场景": {
+    "context1": "BERT所使用的Transformer[2]由谷歌提出,一开始用于谷歌机器翻译，主要包含一个编码器(Encoder)和一个解码器(Decoder）。BERT主要用到Transformer的编码器部分，采用双向编码的形式，形成了强大的语言表示模型。大多数以BERT为基础的模型（如ERNIE（Tsinghua)[9]、RoBERTa[]、SpanBERT[6] $\\mathrm { X L M } ^ { [ 3 2 ] }$ 等)均沿用了这一结构。但是上述模型都有一个局限一一无法用于自然语言生成任务。另外，由于Transformer结构自身的限制，BERT等一系列采用Transformer的模型所能处理的最大文本长度为512个词根(Token）。针对以上局限,本文总结了Transformer结构优化改进的三条技术路线。"
+  },
+  "4.1改进Transformer-EncoderMASK矩阵以用于语言生成任务": {
+    "context1": "BERT作为一种双向编码的语言模型,其\"双向”主要体现在Transformer 结构的MASK矩阵中。Transformer基于自注意力机制,利用MASK矩阵提供一种\"注意\"机制,即MASK矩阵决定了文本中哪些词可以互相\"看见”。在BERT中,输入的句子里任何两个词之间都可以互相\"看见”，每个词都能重复\"注意\"到其\"上文\"和\"下文\"的全部信息，因而BERT是一种完全的双向模型。对于语言生成任务，模型需要通过学习来预测其\"下文\"信息,如果在模型结构上已经能够\"注意\"到\"下文\"信息，便无法完成生成任务的学习，这也是BERT模型不能用于语言生成任务的原因。",
+    "context2": "UniLM[33]通过对输入数据中的两个句子设计不同的MASK矩阵完成生成模型的学习。对于第一个句子,采用与BERT中的Transformer-Encoder一致的结构,每个词都能够\"注意\"到其\"上文\"和\"下文”信息。对于第二个句子,其中的每个词只能\"注意”到第一个句子中的所有词和当前句子的\"上文\"信息。利用这种巧妙的设计,模型输入的第一和第二个句子形成了经典的Seq2Seq模式,从而将BERT成功用于语言生成任务。"
+  },
+  "4.2引入Transformer-Encoder $^ +$ Decoder以用于语言生成任务": {
+    "context1": "同样使用Transformer结构的GPT[34]和GPT $\\cdot 2 ^ { \\left[ 3 5 \\right] }$ ，在语言生成任务中都取得了很好效果。与BERT不同的是，GPT采用的是Transformer-Decoder结构。Decoder与Encoder结构大致相似,其主要的不同在于将多头自注意力层(Multi-HeadAttention)改为掩盖的多头自注意力层（MaskedMulti-HeadAttention）,在这种自注意力机制下，文本中的词将只能\"注意\"到其\"上文\"信息，从而预测\"下文\"信息以完成生成模型的学习。一些研究充分结合BERT和GPT模型的特点，在此基础上提出了将Transformer编码器和解码器相结合的模型结构。",
+    "context2": "MASS[36]率先在预训练模型中采用这种结构，将GPT和BERT两种预训练模型的结构结合起来，提出了 $\\mathtt { S e q 2 S e q }$ 的预训练模型。在编码器中,MASS同样采用MASK机制。与BERT不同的是,MASS不再掩盖单个词(Token),而是掩盖整个序列（长度为 $k$ )。在解码器中，输入为被掩盖的序列前k-1个词,完整的被掩盖的序列作为模型预测输出。可以发现，当 $k { = } 1$ 时,该模型与BERT一致, $k { = } M ( M$ 为输入句子的长度)时，模型与GPT一致。这种基于编码器和解码器相结合的模型不仅具有强大的语言学习和表示的能力，同时也在文本生成任务上取得很好的效果。",
+    "context3": "BART模型[7]同样采用Transformer-Encoder+Decoder的结构,借助DAE语言模型的训练方式，能够很好地预测和生成被噪声破坏的文本，从而也得到具有文本生成能力的预训练语言模型。谷歌提出的 $\\mathrm { T } 5 ^ { [ 3 7 ] }$ 模型借助更大规模的计算能力和训练语料发掘了这一模型结构的巨大优势，在17个NLP任务中达到最好效果。其他同样采用完整Transformer结构的研究工作还有XNLG[38]、mBART[39]等。"
+  },
+  "4.3引入Transformer-XL以用于长文本任务": {
+    "context1": "首先，针对Transformer定长输入的缺点（如BERT最大输入长度为512),Transformer-XL[40]引入了分段RNN机制,将递归概念引入深度自注意力网络,通过缓存使定长的文本片段的信息能够在模型中重复使用,实现了模型中信息的超长期依赖性，从而解决了文本最长大度的限制问题。另外，Transformer-XL引入了相对位置编码。在普通的Transformer中，位置编码都是从0开始的绝对编码。而在Transformer-XL中,模型采用相对编码,更好地适应长文本的语言建模。XLNet[]采用了Transformer-XL结构。研究者对比分析了以BERT为代表的自编码语言模型和以ELMo[4I]、GPT等为代表的自回归语言模型的优缺点，设计了自编码和自回归相结合的排列语言模型（PermutationLanguageModeling,PLM）,借助Transformer-XL,获得了很好的效果，在20个NLP任务中全面超越了BERT模型。"
+  },
+  "5利用预训练模型压缩提升应用效率": {
+    "context1": "在BERT和基于BERT改进的模型中，通常含有数亿个参数。如此庞大的参数量不仅会导致模型预测时间过长，不能很好地应用于对实时性有要求的任务中，而且其庞大的内存需求很难在资源受限的设备上使用，这大大阻碍了BERT的广泛应用。所以需要更轻量级的BERT,在保持模型性能的同时，加快预测速度,减小参数规模。目前常用的模型压缩方法有知识蒸馏、量化、剪枝以及因式分解。"
+  },
+  "5.1通过训练学生模型实现知识蒸馏": {
+    "context1": "知识蒸馏(Knowledge Distillation)[42]旨在将一个大模型学到的知识迁移到一个轻量级的模型上。知识蒸馏的大致流程如图2所示，即利用新的小模型(学生模型)去学习模仿以重现大模型(教师模型)的预测结果。在基本的蒸馏任务中,学生模型使用两个损失函数的加权组合，一个是正常的损失函数，即学生模型的概率分布(Logit)与正确类的独热编码之间的交叉熵，通过正常的损失函数,学生模型可以通过拟合训练数据,学习到正确的答案;另一个损失函数将教师的概率分布(Logit)传递给学生，如公式（1)[42]所示。",
+    "context2": "$$\nL = - \\sum _ { i } t _ { i } \\log \\left( s _ { i } \\right)\n$$",
+    "context3": "其中， $t$ 为来自教师的概率分布； $s$ 为学生的概率分布。由于教师模型已经过了大规模的预训练,其经过Softmax[43]得到的概率往往会比较集中，即除了预测值之外，其他值都接近0,为了让学生模型学习到教师模型的泛化能力，一般会在Softmax中引入超参数 $T .$ ,来控制输出分布的平滑程度，如公式(2)所示。",
+    "context4": "$$\np _ { i } = { \\frac { \\exp \\left( z _ { i } / T \\right) } { \\sum _ { j } \\exp \\left( z _ { j } / T \\right) } }\n$$",
+    "context5": "其中， $p _ { i }$ 为模型输出的概率分布， $z$ 为教师模型的预测输出。在训练时，对学生模型和教师模型施加相同的 $T .$ ,在预测时，将 $T$ 设置为1,恢复标准的Softmax。",
+    "context6": "对BERT蒸馏的研究主要存在于以下几个方面：在预训练阶段还是微调阶段使用蒸馏;学生模型的选择;蒸馏的位置。",
+    "context7": "Tang等[44]在句子分类和句子配对两个任务上将"
+  },
+  "8 数据分析与知识发现": {
+    "context1": "![](images/6cc1dba77d9d3af51efa4dcfb418ac37cb68deb97fae3cb65485ab70c626ecac.jpg)  \n图2知识蒸馏流程图[42]   \nFig2Knowledge Distillation Flow Chart[42]",
+    "context2": "BERT蒸馏到单层BiLSTM[45]中，使参数减少到96万,但只取得了与ELMo可比的结果。DistilBERT[46]在预训练阶段蒸馏，其学生模型具有与BERT一样的体系结构,但层数减半。DistilBERT使用6600万个参数,在GLUE基准测评[47]上实现了BERT-base$9 7 \\%$ 的性能,速度提升了 $60 \\%$ 。",
+    "context3": "上述两种研究使用BERT最后一层的输出结果进行蒸馏，虽然取得了不错的效果，却无法学到Transformer中间层的信息。BERT-PKD[48]在一般蒸馏模型的两个损失函数以外,提出一种新的损失函数,通过计算学生和教师模型[CLS]符的均方误差，使模型同时学到[CLS]的特征表示。实验表明，学习了隐藏层表示的学生模型优于只学习预测概率的学生模型。",
+    "context4": "Zhao等[49]采用双重训练机制,以训练词汇量较小、嵌入层和隐藏层维数较低的学生模型。该研究在蒸馏过程中混合使用教师模型和学生模型的词汇表,来鼓励教师模型和学生模型对齐同一单词的不同表示形式;并使用共享变量投影，将教师模型和学生模型隐藏层的参数投影到相同的空间中，再计算两者之间的损失。该方法能够将BERT-base模型压缩60倍以上,但在下游任务上的性能有一些下降。",
+    "context5": "TinyBERT[50为BERT的嵌入层、输出层、Transformer中的隐藏层、注意力矩阵都设计了损失函数，学习BERT中大量的语言知识，并使用两段式学习框架,分别对BERT预训练阶段和微调阶段进行蒸馏。TinyBERT在GLUE测评基准上可以达到",
+    "context6": "BERT-base $9 6 \\%$ 以上的效果，模型预测速度则是BERT-base的9.4倍。"
+  },
+  "5.2利用量化技术缩减模型参数精度": {
+    "context1": "量化技术(Quantization)通过减少权重值的精度来压缩模型。BERT模型使用32位浮点数表示每个权重值,若简单地将每个32位的权重截断为目标位宽，通常会导致精度大大下降，所以需要探索合适的量化方法。",
+    "context2": "Q8BERT[51在BERT的微调阶段应用了量化意识训练（Quantization-Aware Training）,即在训练过程中将量化误差引入模型，以使模型学会弥合量化误差的差距。Q8BERT将BERT的全连接层和嵌入层的所有权重以及通用矩阵乘法操作(GeneralMatrix-Matrix Multiplication,GEMM）量化为 $\\mathrm { I n t } 8$ 在8个不同任务上,与32位的BERT相比,Q8BERT保持了 $9 9 \\%$ 的准确性。由于Q8BERT将所有全连接层和嵌入层的权重（占模型权重的 $9 9 \\%$ 以上)量化为8位,其内存占用空间为原始BERT模型的1/4。",
+    "context3": "Q-BERT[52提出了两种量化方法。第一种为混合精度量化，通过二阶海森矩阵信息(HessianInformation）计算每一层编码器的Hessian频谱，为不同编码器分配不同的精度。第二种为逐组量化,将每个自注意力头对应的4个矩阵分为一组,在每个组中再将每6个输出神经元作为一个子组,每个子组独立地拥有自己的量化范围。这两种方法可以缓解精度下降，而不会显著增加复杂度。该研究在 ${ \\mathrm { S S T } } { - } 2 ^ { [ 5 3 ] }$ 、 $\\mathrm { M N L I } ^ { [ 5 4 ] }$ 、CoNLL-2003[55]和$\\operatorname { S Q u A D } ^ { [ 5 6 - 5 7 ] }$ 这4个数据集上进行了评估，性能下降最多为 $2 . 3 \\%$ ,而模型参数量被压缩为原始的1/13。"
+  },
+  "5.3通过剪枝压缩模型结构": {
+    "context1": "剪枝(Pruning)是指去掉模型中不太重要的权重或组件,以提升推理速度。用于BERT的剪枝方法主要有权重修剪（WeightPruning)和结构修剪（Structured Pruning）。",
+    "context2": "在权重剪枝方面,CompressingBERT按照权重大小对BERT进行了剪枝。BERT除词嵌入矩阵外，每一层Transformer中都有6个可以修剪的矩阵：4个用于多头注意力机制，2个用于前馈神经网络。CompressingBERT[58]分别为每个矩阵按照修剪水平计算了权重的阈值,对低于该阈值的权重进行了修剪。Guo 等[59]提出了Reweighted Proximal Pruning(RPP)算法，该方法将重新加权的L1最小化(Reweighted L1 Minimization)[60]与 近 端算法(ProximalAlgorithm）[61]集成在一起,以获得更准确的通用稀疏模式（Universal Sparse Pattern）。重新加权的L1最小化在深度神经网络模型中根据稀疏度对权重进行修剪，而近端操作可以使稀疏模式搜索与计算训练损失的梯度分离。",
+    "context3": "在结构修剪方面,Fan等[62]提出了LayerDrop,即通过在预训练阶段随机丢弃(Drop)编码单元,使模型对修剪具有鲁棒性,然后在推理时直接提取任何所需深度的较小模型而不必再去微调。Michel等[63]通过剪去对模型贡献较小的注意力头进行剪枝。McCarley[64]在特定任务上，将结构修剪技术应用于Transformer的前馈层和注意力头，并且尝试将蒸馏和剪枝相结合，在训练的最后阶段(模型被修剪后),用蒸馏的目标函数代替交叉熵，使用未修剪的模型作为教师模型，修剪后的模型作为学生模型。"
+  },
+  "5.4利用矩阵分解减少模型参数量": {
+    "context1": "矩阵分解是一个巧妙的模型压缩方法，ALBERT[13]使用该方法完成BERT模型的压缩。在原始BERT中，词嵌入向量 $E$ （Embedding Size）和Transformer的隐藏层向量 $\\pmb { H }$ （HiddenSize）位于相同的空间,它们大小也保持一致,即 $| E | { = } | H |$ ,在这种情况下模型的参数量计算方式为 $O ( | V | \\times | H | )$ ,其中|M代表BERT词表的大小。而ALBERT将词嵌入向量的维度降低，即 $| E | < < | H |$ ,通过在词嵌入层和隐藏层之间增加一个投影(Project)层,将低维空间的词嵌入向量通过投影层矩阵完成维度转换，连接到隐藏层。通过这种分解，使模型的网络参数量计算方式变成 $O ( | V | \\times | E | + | E | \\times | H | )$ 。而BERT词表的大小 $| V |$ 通常很大,在 $| E | { < } { < } | H |$ 的情况下， $O ( | V | \\times | E | + | E | \\times | H | )$ $< < O \\left( | V | \\times | H | \\right)$ 。由此,模型的网络参数量得到很大程度的缩减。从下游任务的测评结果来看，ALBERT能够在不损失模型性能的情况下，显著地减少了模型参数量。"
+  },
+  "6BERT模型优化改进路线总结分析": {
+    "context1": "本文针对以上4种BERT模型优化改进的路线,按照模型发布时间排序，进行了归纳总结，如表1所示。从时间上看，大致可以分为三个阶段。第一阶段（2019.01-2019.08），由于预训练目标是BERT模型最直接的学习方式,更多的研究者考虑在预训练目标上针对BERT进行模型优化，同时也有部分研究者针对Transformer的结构进行了深入研究。第二阶段（2019.09-2019.10），研究者开始关注到模型的体积过大、利用效率低下的问题,开始研究模型压缩的方法。第三阶段（2019.11-2020.03），大量研究者针对BERT模型融合外部知识开展了研究。经过总结分析,对于预训练目标的优化改进是最常见同时也是效果最好的改造方式，如百度发布的ERNIE模型和ERNIE2.0模型,主要通过改造MLM和NSP两个预训练目标,在中文的各种下游任务上的表现全面超越了BERT模型。ELECTRA模型也是针对MLM预训练目标进行了拓展,在提高了模型计算效率的同时，效果也全面超越了BERT、RoBERTa和XLNet等模型。"
+  },
+  "7未来研究方向": {
+    "context1": "BERT作为一个实用有效的自然语言处理通用框架式模型,在后续研究中也必然受到更多研究者的青睐，未来也可能产生在各种场景下的应用尝试。在以上4种优化改进路线中，预训练目标的优化和Transformer结构的改进分别从语言模型的结构和神经网络的结构进行深入探究，对BERT模型进行了实质性的改进,对于预训练模型在下游任务中的应用有普遍的效果提升，同时也能一定程度上扩展其应用场景。外部知识融合更多是针对特定领域的特定任务,通过外部知识库的辅助作用提升模型效果。模型压缩的优化改进路线则更多地是针对硬件设备性能不足的情况，通过压缩模型结构降低其算力要求来提升模型的易用性、可用性。本文针对当前几种优化改进路线的特点，提出以下未来研究方向。"
+  },
+  "（1）预训练目标的优化改进": {
+    "context1": "预训练目标的优化和改进是当前对BERT模型最直接和有效的改进路线。预训练目标明确了语言模型训练和学习的方式，直接决定了模型可以从文本中学习到哪些特征和模式。预训练目标的设计和优化对于语言模型的训练至关重要。除了对BERT本身两个预训练目标的优化改进,也有部分研究者"
+  },
+  "10 数据分析与知识发现": {
+    "context1": "表1BERT模型优化改进路线总结  \nTable 1 BERT Model Improvement Routes",
+    "context2": "<table><tr><td>模型</td><td>时间</td><td>优化预训练目标 优化MLM 优化NSP 输入层嵌入 向量拼接 训练目标融合</td><td></td><td>融合外部知识</td><td>改进Trans-</td><td>模型压缩</td></tr><tr><td>XLM[32]</td><td>2019.01</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>XNLG[38]</td><td>2019.02</td><td></td><td></td><td></td><td>√</td><td></td></tr><tr><td>Tang等[44]</td><td>2019.03</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ERNIE （Baidu)[5]</td><td>2019.04</td><td>√</td><td></td><td></td><td></td><td></td></tr><tr><td>ERNIE （Tsinghua)[9]</td><td>2019.05</td><td></td><td></td><td>√</td><td></td><td></td></tr><tr><td>MASS[36]</td><td>2019.05</td><td></td><td></td><td></td><td>√</td><td></td></tr><tr><td>UniLM[33]</td><td>2019.05</td><td></td><td></td><td></td><td>√</td><td></td></tr><tr><td>BERT-Chinese-WWM[4]</td><td>2019.06</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>XLNet[12]</td><td>2019.06</td><td></td><td></td><td></td><td>√</td><td></td></tr><tr><td>RoBERTa[1]</td><td>2019.07</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ERNIE-2.0-Baidu[15]</td><td>2019.07</td><td>√</td><td></td><td></td><td></td><td></td></tr><tr><td>SpanBERT[6]</td><td>2019.07</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>KT-NET[17]</td><td>2019.07</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>StructBERT[14]</td><td>2019.08</td><td>√</td><td></td><td></td><td></td><td></td></tr><tr><td>SenseBERT[30]</td><td>2019.08</td><td></td><td></td><td>√</td><td></td><td></td></tr><tr><td>BERT-PKD[48]</td><td>2019.08</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Zhao等[49]</td><td>2019.09</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>TinyBERT[50]</td><td>2019.09</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Q-BERT[52]</td><td>2019.09</td><td></td><td></td><td></td><td></td><td>√</td></tr><tr><td>Fan等[62]</td><td>2019.09</td><td></td><td></td><td></td><td></td><td>√</td></tr><tr><td>Guo等[59]</td><td>2019.09</td><td></td><td></td><td></td><td></td><td>√</td></tr><tr><td>LIBERT[29]</td><td>2019.09</td><td></td><td></td><td>√</td><td></td><td></td></tr><tr><td>ALBERT[13]</td><td>2019.09</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>K-BERT[16]</td><td>2019.09</td><td></td><td></td><td></td><td>√</td><td></td></tr><tr><td>SemBERT[20]</td><td>2019.09</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>KnowBERT[27]</td><td>2019.09</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>DistilBERT[42]</td><td>2019.10</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Q8BERT[51]</td><td>2019.10</td><td></td><td></td><td></td><td></td><td>√</td></tr><tr><td>McCarley[64]</td><td>2019.10</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>BART[7]</td><td>2019.10</td><td></td><td></td><td></td><td>√</td><td></td></tr><tr><td>T5[37]</td><td>2019.10</td><td></td><td></td><td></td><td>√</td><td></td></tr><tr><td>KEPLER[26]</td><td>2019.11</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Syntax-Infused BERT[2]</td><td>2019.11</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>SentiLR[31]</td><td>2019.11</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Michel等[63]</td><td>2019.11</td><td></td><td></td><td></td><td></td><td>√</td></tr><tr><td>WKLM[25]</td><td>2019.12</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>K-Adapter[28]</td><td>2020.02</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Compressing BERT[58]</td><td>2020.02</td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+    "context3": "（注：表格中‘√'表示该模型使用了对应的改进方式，‘-'仅用于优化NSP目标一栏,空白表示舍弃NSP目标。）",
+    "context4": "结合多任务学习的方法，对预训练目标进行进一步的扩展和优化。例如微软发布的MT-DNN[65]在预训练模型的基础上，利用多任务学习的方法，使用所有的下游任务训练集对预训练模型进行微调,最终证明在一定规模的有监督语料上,用多任务学习 $^ +$ 预训练模型会带来更好的表现。利用BERT模型“预训练-微调\"的学习模式,结合特定的数据集,对训练目标进行组合和优化,将是预训练模型进一步的发展趋势之一。"
+  },
+  "（2）Transformer模型结构优化": {
+    "context1": "根据本文第4部分的分析总结，可以发现除XLNet之外,当前BERT的相关研究工作基本采用了原始的Transformer结构或其部分结构，没有对Transformer进行深层次的优化工作。笔者同时关注到一些Transformer优化方面的工作,如Kitaev等[66]提出使用局部敏感哈希（Locality-SensetiveHashing，LSH)和可逆网络加速Transformer训练，节省内存以处理更长序列。又如Weng等[提出了一种新型的全局表示增强型Transformer-GRET,对文档中句子级别的信息进行挖掘，以明确地对Transformer网络中的全局表示进行建模。类似的研究工作让Transformer模型得到更好地优化应用，但都还未成功用在预训练模型中，未来在预训练模型中优化Transformer结构或是一个重要趋势。",
+    "context2": "（3）根据不同应用场景选择模型优化方向",
+    "context3": "BERT模型作为一个基础性的工具,通过下游任务“微调\"的方式可以将预训练模型用于多种场景。但是对于特定的领域或行业,其应用场景往往在限定的范围之内，因此模型可以少一些通用性而多一些领域特点。目前,有一些研究者进行了相关的尝试,如用于科技文献的预训练模型 SciBERT[68]、用于生物医学文本的BioBERT[69]、用于电子病历文本的ClinicalBERT[70-72]、用于医学问答场景的PubMedQA[73-74]、用于专利文本的PatentBERT[75]、用于社交网络文本的BERTweet[7等。目前这些领域化、场景化的应用里，基本都是在原有BERT的基础上简单地通过加入领域化、场景化的语料完成进一步的预训练及微调等,并没有根据具体领域及场景的特点，对模型进行优化及改造。针对领域化、场景化的应用,可以根据其特点有选择性的设计模型优化的方向，如词级别的应用(关键词识别、命名实体识别等)需求较高的模型,可以考虑舍弃NSP等句子级别的训练目标，进一步强化词级别的MLM训练目标。对于领域性较强的文本(如科技文献等），可以考虑强化领域知识的学习等来提升特定领域下的应用效果。"
+  },
+  "参考文献：": {
+    "context1": "[1] Devlin J, Chang M W, Lee K,et al. BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding[OL]. arXiv Preprint,arXiv:1810.04805.   \n[2] VaswaniA, ShazeerN,ParmarN,et al.Attention is All You Need [OL].arXivPreprint,arXiv:1706.03762.   \n[3] MikolovT,SutskeverI,ChenK， etal．Distributed Representations of Words and Phrases and Their Compositionality [C]/Proceedings of the 26th International Conference on Neural Information Processing Systems.2013: 3111-3119.   \n[4] Cui YM, Che WX,Liu T,et al.Pre-Training with Whole Word Masking forChinese BERT[OL].arXiv Preprint,arXiv: 1906.08101.   \n[5] Sun Y,Wang S H,LiYK, et al.ERNIE: Enhanced Representation Through Knowledge Integration[OL].arXiv Preprint,arXiv: 1904.09223.   \n[6] Joshi M, Chen D Q,Liu YH,et al. SpanBERT: Improving PreTraining by Representing and Predicting Spans[J].Transactions of the Association for Computational Lingus,2020,8:64-77.   \n[7] Lewis M, Liu YH, Goyal N,et al.BART: Denoising Sequence-toSequence Pre-Training forNatural Language Generation, Translation,and Comprehension [OL].arXiv Preprint,arXiv: 1910.13461.   \n[8] Vincent P, Larochele H,LajoieI,etal.Stacked Denoising Autoencoders:Learning Useful Representations in a Deep Network with a Local Denoising Criterion[J].Journal of Machine Learning Research,2010,11(12): 3371-3408.   \n[9] Zhang Z Y, Han X, Liu Z Y, et al. ERNIE: Enhanced Language Representation with Informative Entities[C]//Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. 2019: 1441-1451.   \n[10] Clark K,Luong M T,Le Q V,et al.ELECTRA: Pre-Training Text Encoders as Discriminators Rather than Generators [OL].arXiv Preprint,arXiv: 2003.10555.   \n[11]Liu YH,Ott M, Goyal N, et al.RoBERTa: A Robustly Optimized BERT Pretraining Approach[OL]. arXiv Preprint,arXiv:1907. 11692.   \n[12]Yang Z L,Dai Z H,Yang Y M,et al.XLNet: Generalized Autoregressive Pretraining for Language Understanding [OL]."
+  }
+}

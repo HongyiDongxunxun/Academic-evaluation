@@ -1,0 +1,50 @@
+{
+  "original_filename": "full_2202.md",
+  "关联科学核心词汇规范：提出、优化及展望": {
+    "context1": "唐义",
+    "context2": "摘要关联数据等技术的发展以及科学数据等科学资源共享制度的初步建立催生了关联科学这种全新的科学研究支撑方式。关联科学核心词汇规范 (Linked Science Core Vocabulary Specification, LSC)为关联科学的实现提供了技术路径，但该规范还需要优化和扩展。为了实现关联科学核心词汇规范的功能，还需要解决开放科学数据、科学资源版权保护以及用LSC将科学研究模型化的主体等问题。",
+    "context3": "关键词关联科学科学资源关联科学核心词汇规范"
+  },
+  "Linked Science Core Vocabulary Specification: Proposal, Optimization and Prospect": "",
+  "Tang Yi": {
+    "context1": "AbstractLinked science,anew scientific research, is the result of the development of technologies (for example,linked data)and the initial establishment of scientific resources (for example,scientific data) sharing system.Linked science core vocabulary specification (LSC),which needs tobeoptimizedand extended,provides technical supports for the realization of linked science. In order to achieve the function ofLSC,many problems must be solved,such as open scientific data,copyright protection of scientific resources,and modeling researches by means of LSC.",
+    "context2": "Key wordsLinked science, Scientific resources, Linked science core vocabulary specification"
+  },
+  "1引言": {
+    "context1": "随着语义网、本体、云计算、关联数据等技术的发展，科学研究环境也从电子科研（e-Science）逐渐向关联科学（LinkedScience）转变。关联科学是由德国明斯特大学(Universityof Muenster）地理信息科学研究所(Institute for Geoinformatics）的 Tomi Kauppinen和巴西国家空间研究所（National Institute forSpace Research）的 Giovana Mira de Espindola于2011年提出的。他们在一篇名为《关联开放科研：交流、共享与评估可执行文件的数据、方法和结果》[1的论文里面指出，“LinkedScience”是“Linked Open Science”的简称，也就是说关联科学这种科学研究支撑方式关联的是开放的科学资源。关联科学是一种实现科学资产（scientificassets）互联的方法，推动透明的、可重复的和跨学科的研究。[2要实现科学资产的互联，必须设计出一套关于科学资源的本体，用概念及概念之间的关系来描述和关联科学资源。本文介绍了关联科学核心词汇规范(Linked Science Core VocabularySpecification,LSC）这一关于科学资源本体的概况，提出了可以优化的地方，探讨了存在的问题并进行了展望。"
+  },
+  "2关联科学核心词汇规范概述": "",
+  "2.1LSC简介": {
+    "context1": "为了描述和关联科学资源，2011年5月，德国明斯特大学地理信息科学研究所的AlkyoniBaglatzi和TomiKauppinen设计出了关联科学核心词汇规范(Linked Science Core VocabularySpecification,LSC）[3这一本体。同年11月，他们同该所的Carsten Keβler一起对之前的 LSC进行了优化[4]，这也就是最新版本的LSC。关联科学核心词汇规范依赖W3C的RDF技术，该规范的可视化布局和结构借鉴了Open Prov-enance Model Vocabulary Specification[5]、SIOCCore Ontology Specification[6、Provenance Vo-cabulary Core Ontology Specification[7。关联科学核心词汇规范是一个轻量级词汇，它提供概念使出版商和研究人员将科学中的东西 (things)与时间(time)、空间(space)、数据集(data-sets）以及出版物、研究、发现和发现成分的主题（themes）联系起来。LSC是为关联科学构建模块（building blocks）的一个实例，以便以机器可以理解的方式进行科学资源之间的链接通信(communicate)。",
+    "context2": "LSC是基于以关联数据的形式进行科学资源描述的实际需求而设计出来的，它将机器可读的以RDF/XML形式表达的关联科学核心词汇命名空间 (Linked Science Core VocabularyNamespace）同规范模板 (specification template)和一套术语文档结合了起来。在linkedscience.org 的网站上，实现该规范的XML命名空间URI是“http://inkedscience.org/lsc/ns#”。通过该命名空间URI就可以给该规范的每一个类和属性赋予一个网址，通过该网址就可以链接到该资源，如“Publication”类的URl是“http://linkedscience.org/lsc/ns#Publication\"。该规范设计者他们指出，“ Linked Science Core VocabularySpecification”这一名称中的“Core”说明LSC仅仅是为科学定义了基本的概念或类。他们认为，关联科学或通常所说的关联数据的成功依赖于互联的尚未发布的最大限度地减少本体承诺的词汇表 (vocabularies)。因此，可以在LSC基础上进行扩展，以满足不同的科学共同体需要的更为具体的概念或类。"
+  },
+  "2.2LSC可视化": {
+    "context1": "Alkyoni Baglatzi、 Tomi Kauppinen、Carsten KeBler等三人在linkedscience.org的网站上对LSC 进行了可视化展示，如图1所示[4]。",
+    "context2": "LSC 的主要设计原则是轻量级(light-weight-iness)、简单和直观[8，主要的类（classes）包括：研究者(Researcher)、研究(Research)、数据(Data)、假设(Hypothesis)、预测 (Predic-tion)、出版物（Publication）以及结论（Conclu-sion)。LSC的概念和属性之间的关系是：研究者(Researcher）参与（<participatesln>）研究（Re-search）；研究(Research）产生(dataProduced)数据（Data)，利用(<dataUsed>）数据(Data),测验（<tests>)、证实(<confirms>)、证伪（<fal-sifies>）假设(Hypothesis)，被假设(Hypothesis)所支持(<isSupportedBy>)，报道于（ $\\cdot <$ report-edln>）出版物 (Publication)，产生(<produces>)结论（Conclusion)，运用（<methodUsed>）方法(Method）；假设（Hypothesis）产生（ $\\cdot <$ makes>)预测（Prediction）；出版物（Publication）有 $<$ timeSubmitted>提交、修订 $<$ timeRevised>、接受$<$ timeAccepted>时间（Time)，出版物(Publica-tion）报道（ $\\cdot <$ reports>）研究(Research)。此外,LSC 还通过属性<isAboutRegion> 和<isAbout-Time>将研究（Research）与涉及的地区（Re-gion）和时间（Time）进行关联。",
+    "context3": "![](images/dfc9ad3898b33584d81e75ef13918003897eb0ea575b0f0d4cea01e70561c29d.jpg)  \n图1LSC概念及关系模型",
+    "context4": "需要强调的是，一个出版物的空间位置包括两个方面，一方面是指出版物存放的空间信息，即该出版物存放的地点，比如一所大学图书馆或研究机构；另一方面是指某一研究描述到的空间范围，比如中国西部地区。同样的原则也适用于出版物时间信息的两个方面，一方面是指出版物产生的时间，比如2012年12月12日；另一方面是指某一研究涉及的时间范围，比如从1949年到2012年。在组织和互联异构异质信息资源的时候，区分这些空间和时间信息的不同是非常重要的。对时间和空间信息的可视化可以揭示时间和空间的空白和重叠之处，不但能够更好地管理和组织知识，而且还有助于研究人员找到新的研究内容。因此，LSC提供了类来表示出版物内容涉及的空间和时间信息，其目的是为科学数据按照关联数据原则发布提供一种可能。属性<isAboutTime>和<isAboutRegion>将一项研究中涉及的空间和时间进行了关联。",
+    "context5": "![](images/e1149e8b63408022353e39a0ff03d322ad7360065f2e7e6681ccde8f07c671e4.jpg)  \n图2LSC优化后概念及关系模型"
+  },
+  "3 LSC优化": "",
+  "3.1LSC优化必要性": {
+    "context1": "LSC 旨在将研究要素中的研究人员、研究、数据、方法、假设、出版物等互联起来，以让出版商和研究人员将科学里面的事物同时间、空间以及主题联系起来，最终实现关联科学的愿景。但是，在LSC并没有包括关键词(Keywords）这一个类，而关键词(Keywords)是一篇科学论文主题概念的集中反映，能够鲜明而直观地表述文献论述或表达的主题，使读者在未看学术论文的文摘和正文之前便能一目了然地了解到论文的主题。目前，众多科学研究论文都包含有关键词，关键词一般都会作为文献的检索入口，使研究人员能很快查到符合要求的文献。在LSC中添加关键词(Key-words）这一个类不但能够对文献的主题内容进行揭示，而且还可以通过这一个类将其他具有相同关键词的文献链接起来，而关联数据的四原则之一就是“尽可能提供相关的URI，以使人们可以发现更多的事物\"。在LSC中添加关键词（Keywords）这一个类，可以为科研人员提供更多相关的URI，让科学资源网络链接更加丰富，有助于实现关联科学的愿景。此外,前文指出，LSC的作者也对LSC进行过优化，这说明LSC还没有达到完美程度，需要不断进行优化。优化后的LSC 图形如图2。",
+    "context2": "![](images/71180dbbc7dd37b03a402a1cf0525ba99310bc6d2fc74bbb9ff0eb06b65a2ffc.jpg)  \n图3用优化后的LSC描述和关联一项研究实例"
+  },
+  "3.2LSC优化后的应用实例": {
+    "context1": "为了更好的说明LSC的功用，笔者采用LSC描述和关联了一篇2012年发表于《遗传杂志》（Journal of Heredity）名为“GenomeSequence and Assembly of Bos indicus ”文章[10],如图3所示。",
+    "context2": "在图3中，笔者采用了不同的LSC属性将该研究模型化，比如他们采用的研究方法，使用的数据，产生的数据，得出的结论等。需要说明的是由于图表内容本身已经比较庞大，因此，笔者在图表中未将他们公开的数据全部表示出来 (笔者也无法排除他们并未将所有数据公开的可能)。这是以机器可读的RDF三元组表示的，只要将图中的每一个实例和属性赋予一个URI，其就可以通过成为语义网中的“资源”，其他研究人员就可以通过链接很方便地找到自己所需要的科学资源。",
+    "context3": "于将已经开放的分散于网络上的科学数据互联起来，从而为科研人员发现并获得科学数据提供捷径。但目前存在的问题是，虽然国际上已经存在一些推动科学数据共享的政策法规（如《OECD公共资助科学数据存取的原则和指南》[12]、全球超过90多个国际制定的信息自由/权利法[13]、美国国家科学基金会理事会数字化研究数据的共享与管理[14]、《自然》[15]、《科学》[16]等杂志制定的科学数据共享政策)，这些政策也在一定程度上促进了科学数据的开放和共享，但由于个人或机构利益等方面的原因，众多的科学数据仍然无法开放获取，这也是科学研究的可验证性和可重复性仍然没有得到有效解决的重要原因之一。只有最大限度地促进科学数据公开获取才能保证LSC的功能得到有效发挥。"
+  },
+  "4问题和展望": {
+    "context1": "正如LSC的设计者指出的，LSC仅仅是为科学定义了基本的概念或类。由于每个学科有各自的不同特征，所以需要在LSC基础上进行扩展，以满足不同的科学共同体需要的更为具体的概念或类。为了满足诸如计算科学等模型科学(model-based sciences）之需要，BernardoGoncalves等人已经对LSC的“假设”(Hypothesis）类进行了扩展。通过扩展LSC,他们将假设工程以关联数据的形式进行处理。然后，他们通过引出和关联来自于计算血液动力学（Computational Hemodynamics）领域已经发表的研究成果的假设，将扩展的关联科研核心词汇进行了例示。[ 除了LSC本身需要结合学科特点不断扩展之外，要充分发挥LSC的作用还存在以下问题：",
+    "context2": "(1）众多科学数据无法开放获取。用LSC实现关联科学极其重要的价值之一在于它有助",
+    "context3": "(2）科学资源著作权（版权）问题还有待于进一步解决。除了出版物之外，科学资源还包括工作流程、过程、模型、数据、研究方法、软件、评价指标等。传统上的著作权（版权）关注的是科学资源中的出版物以及软件等的知识产权问题，而对其他科学资源的知识产权问题涉及较少。Tomi Kauppinen 等提出的采用知识共享许可协议（CC协议）来解决相关资源的知识产权问题。[目前看来，由于CC协议更具操作性等原因在全球范围内发展较快，截止到2012年9月，CC联盟网络已经在全球70多个司法管辖区成立了100多个分支机构，来支持和促进世界各地的知识共享活动，我国也位列其中。[17]但科学资源知识产权问题的解决是多方（作者、出版商、数据库商等）博弈的结果，CC协议也不可能完全解决传统著作权无法解决的知识产权问题。即使CC协议能够解决的问题，在实践过程中还有很多需要解决的具体问题 (如著作权被侵犯之后，权利人如何维权)。",
+    "context4": "(3）将科学资源采用LSC模型化的实施主体尚未明确。随着互联网、云计算、物联网技术的迅猛发展，无所不在的移动设备、RFID、无线传感器每分每秒都在产生数据，数以亿计用户的互联网服务时时刻刻在产生巨量的交互2012年的每天都有 $2 . 5 \\times 1 0 ^ { 1 8 }$ 字节的数据产生，世界上 $9 0 \\%$ 的数据都产生于过去的两年时间[18]，人类已经步入了大数据时代。在大数据环境下，科学家在研究过程中也产生了大量的数据，全世界每年都产生数百万计的出版物，仅仅是PubMed数据库每分钟就增加一篇文章[19]，相关的科研资源数量也必定是极其庞大的，用LSC将所有的科研资源进行模型化的工程也必定是非常浩大的。为了完成关联科学这项人类科学史上的伟大工程，在解决了科学资源的知识产权问题之后，就必须明确采用LSC将科学资源模型化的行为主体。但目前并没有机构和组织承担起这一重担。如果这一主体得不到明确，关联科研也很难真正得到实现。",
+    "context5": "LSC 的提出为关联科学的实现提供了一种技术路径，但目前还存在着以上的诸多问题。如果这些问题都能够得到有效解决，将所有的存在于网络上的科学资源都采用LSC来描述和表示，那么关联科学也就能够得以实现。"
+  },
+  "参考文献": {
+    "context1": "[1]Linked Open Science—Communicating, Sharing and Evaluating Data,Methods and Results for Executable Papers[EB/OL].[2012-11-11]. htp://kauppinen.net/tomi/ linked-open-science-camera-ready-20i1-03-28.pdf.   \n[2]About.[2012-11-13].htp://linkedscience.org/ about/.   \n[3] Linked Science Core Vocabulary Specification[EB/ OL].[2012-11-13]. http:/linkedscience.org/sc/ns20110526/.   \n[4] Linked Science Core Vocabulary Specification [EB/ OL].[2012-11-13].htp:/inkedscience.org/lsc/ns/.   \n[5] Open Provenance Model Vocabulary Specification[EB/ OL]. [2012-11-15]. htp://open-biomed.sourceforge. net/opmv/ns.html.   \n[6] SIOC Core Ontology Specification[EB/OL].[2012- 11-15]. htp://rdfs.org/sioc/spec/.   \n[7] Provenance Vocabulary Core Ontology Specification[EB/ OL]. [2012-11-15]. http://trdf.sourceforge.net/provenance/ns.html.   \n[8] Tomi Kauppinen,Alkyoni Baglatzi, Carsten KeBler.Linked Science: Interconnecting Scientific Assets[EB/OL].[2012-11-17]. http://linkedscience. org/wp-content/uploads/2012/02/linked-sciencebookchapter-revised-20ll-1l-16.pdf.   \n[9] Linked Data[EB/OL].[2012-11-16]. http://www. w3.org/Designlssues/LinkedData.html.   \n[10] Flavio C.Canavez et al. Genome Sequence and Assembly of Bos indicus[EB/OL].[2012-11-26].http:// jhered.oxfordjournals.org/content/early/20l2/02/06/ jhered.esr153.full.   \n[11] Bernardo G,et al.On the semantic engineering of scientific hypotheses as linked data[EB/OL].[2012- 11-15]. http://inkedscience.org/wp-content/ uploads/2012/05/lisc2012_submission_3.pdf.   \n[12] OECD Principles and Guidelines for Access to Research Data from Public Funding[EB/OL].[2012- 2-02].htp://www.oecd.org/science/scienceandtechn ologypolicy/38500813.pdf.   \n[13] Access to Information Laws: Overview and Statutory Goals[EB/OL].[2012-12-02].htp://ight2info.org/ access-to-information-laws/access-to-information-laws-overview-and-statutory#_tnref7.   \n[14] Digital Research Data Sharing and Management [EB/OL].[2012-12-11]. http://www.nsf.gov/nsb/ publications/2011/nsb1124.pdf.   \n[15] Nature.Availability of data& materials[EB/OL]. [2012-12-13]. http://www.nature.com/authors/policies/availability.html.   \n[16] Science.General Information for Authors[EB/OL]. [2012-12-13].http://www.sciencemag.org/site/feature/contribinfo/prep/gen_info.xhtml#dataavail.   \n[17] CC Affiliate Network[EB/OL].[2012-11-14]. http://wiki.creativecommons.org/CC_Affiliate_ Network#The_Licensing_Suite.   \n[18] What is big data?[EB/OL].[2012-12-11].http:// www-01.ibm.com/software/data/bigdata/.   \n[19] LinkedScience.0rg[EB/OL].[2012-11-11].http:// linkedscience.org/events/lisc2011/.",
+    "context2": "唐义武汉大学信息管理学院，博士研究生。武汉430072",
+    "context3": "(收稿日期:2013-01-04 编发:刘炜赵亮)"
+  }
+}

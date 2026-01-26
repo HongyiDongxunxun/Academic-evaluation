@@ -1,0 +1,90 @@
+{
+  "original_filename": "full_8994.md",
+  "网络计量学的发展动态及最新进展": "",
+  "杨 波闫素兰屈卫群": {
+    "context1": "摘要介绍了目前网络计量学研究的新方向，从其研究工具、方法、已有结论、发展前景等方面作了概述。",
+    "context2": "关键词网络计量学链接分析网络影响因子外部链接内部链接目的链接",
+    "context3": "传统的文献计量学(Bibliometrics)是以科学文献及其数量为研究对象的，运用统计、分析、数学模型等方法，深人研究科学文献的内在规律,从而进-一步揭示文献情报体系的结构和其中存在的数学规律,使图书馆学情报学的理论更加完备、科学，也为图书情报部门各项工作提供可资参考的数量依据，以便使文献资源的利用处于最佳状态。随着信息技术的飞速发展，尤其从20世纪90年代，互联网不断成熟并开始在全球普及，大量信息充斥于网络之上，如何有效地利用这些网络信息资源给我们带来了新的研究课题——网络计量学。",
+    "context4": "最早对网络计量学的研究是加州大学伯克利分校的Woodruff、Aoki等人对网络文献特征的测度[2。随后1997年的“Jourmal of Documentation”上Almind和Ingwersen等人发表了题为《万维网上的情报计量分析：网络计量学的解决方法》的文章，该文首次提出了“网络计量学\"（Webometrics）一词，认为网络计量学包括了所有使用信息计量学方法和定量方法以及对网络信息有关问题的研究3。下面本文从网络计量学的研究工具、研究方法、已有成果、存在问题、解决方法和发展前景等多方面作一概述。"
+  },
+  "1主要工具": {
+    "context1": "网络计量学的研究数据的可靠与否取决于采集工具4I]。所以对网络计量学的数据采集工具的研究和选择是至关重要的。",
+    "context2": "就目前所有可用的网络检索工具而言，比较常用的搜索引擎有AltaVista、AllTheWeb、Google、Excite和ISI数据库等，尤其是AltaVista和AlITheWeb。其原因是它们的数据库所覆盖的范围都很广，AlITheWeb大约包含有21亿个网页之多，Google也有20.7亿,对于网络计量学的数据采集来说已经足够了。另外，AltaVista是情报学家们普遍青睐的搜索引擎，一是因为它覆盖范围广，二是因为它的功能强大，能很好地区分外部链接(external link,来自外网的链接）和内部链接(intermerlink，来自内网的链接)，这一点对于网络计量学非常重要。AltaVista还可以进行域名部分匹配和元数据搜索7。",
+    "context3": "网络计量学的数据采集需要借助一定的软件，比如 CheckWeb， CiteSeer 和 Link -Agent 等。CheckWeb是一个HTML链接的分析器，用来扫描HTML页面，从而找出该域名下的所有网页，测试出各种链接错误，并且以日志文件方式保存；CiteSeer是由NEC研究所的Lawrence，Bollacker和Giles开发的自动引文分析软件，它可以识别各种格式的文档和文章不同位置的引文，包括中文部分，同时保留了传统的引文分析工具（如ISI的 SCI）的优点；Link-Agent 是丹麦技术知识中心程序员Lars KampMortensen开发的，用于在使用网络搜索引擎的基础上发现并剔除网页之间的交互链接，如导航条、站点地图等[o]。另外Scholtz开发的WebSAT、WebCAT、WebVIP等工具也具有类似的功能[]。"
+  },
+  "2研究方法": {
+    "context1": "Internet主要是由数以亿计相互连接的网页构成的，而站点和网页之间的链接关系和文献计量学中的引用关系非常相似。于是,Mckernan 于1996年发明了“sitation\"这个词，用来形容网络上的相互引用关系[2。要研究网络上的信息组织规律和传播方式，超级链接是最宝贵的资源之-[3],通过网络文献的引用相似度分析，可以反映出网页之间的链接关系[4]。就目前的研究方法而言,链接分析法是使用最多的方法。通过网页上的链接可以定量分析网站、学科、机构或者地区之间的相互引用关系—网络影响因子（WIF,Web Impact Factors）。PeterIngwersen 于1998 年提出了外部网络影响因子的概念，用来计算网站的WIF,其计算方法是用网站的外部链接数除以该网站下的全部网页数[]。"
+  },
+  "2.1链接分析法[13]": {
+    "context1": "RongTang和MikeThelwall对89所美国研究机构各学院的外部链接分布作了卓有成效的研究。在他们的研究中，把外部链接从地区上分为国外和国内两部分，从顶级域名( $\\bf \\delta g m L D s ,$ 上分为.edu、.com、.org、.net、.gov、.mil、.int 等类型。他们以AltaVista和ISI数据库为工具，通过以上两个途径对连接到美国大学各学院有关化学、心理学和历史学等三个学科的链接进行了归类分析，并且比较一个机构的外部链接数和该机构出版物被引情况。内部链接对于评测网站的WIF来说是没有意义的，所以，为了去掉内部链接，他们构造的检索式如下：",
+    "context2": "LINK: chem.Arizona.edu AND NOTHOST:Arizona.edu （AltaVista）",
+    "context3": "然后，他们通过ISI的数据库对89个机构中前30个在2000年发表的有关化学、心理学和历史学这三个学科文献的被引情况做了搜集，检索式如下：",
+    "context4": "S SC=chemistry[SO $\\lneq$ psychology,SC=history] S CS=(dept?(3N)chem?)[CS=(dept?(3N)psychol?), CS=(dept?(3N)hist?)] SPY $= 2 0 0 0$ and GL=USA S S1 AND S2 AND S3",
+    "context5": "其中：S1代表检索式1,SC代表学科，CS代表作者机构前缀代码,PY代表出版年，GL代表地区，通过上述检索式就可以检索出同时引用这三个学科文献的相关文献。",
+    "context6": "AlastairGSmith在他的文章中提出了实质网络影响因子(sWIF,substantiveWebImpactFactors）的概念，即只有真正直接指向信息资源的链接才能用来计算sWIF,例如指向具体文献或书目信息的链接才能计算sWIF，而指向本网站首页的就不能算。按照内容和链接目的对网页的分类如表1、表 $2 ^ { [ \\mathrm { i } 6 ] }$ ：",
+    "context7": "所大学网站的链接数和WIF做了统计分析。他们通过AltaVista和AllTheWeb对现有的三种计算WIF的方法分别做了测试，计算公式如下[12]：",
+    "context8": "表1网页分类表(按内容)",
+    "context9": "<table><tr><td rowspan=1 colspan=1>代码</td><td rowspan=1 colspan=1>原因</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>一般信息</td></tr><tr><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=1>·教/学</td></tr><tr><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1>·管理</td></tr><tr><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1>·合作研究</td></tr><tr><td rowspan=1 colspan=1>1.4</td><td rowspan=1 colspan=1>·研究发布</td></tr><tr><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1>·招聘</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>正式引用</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>赞助或感谢</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>返回</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>相关页</td></tr><tr><td rowspan=1 colspan=1>6.1</td><td rowspan=1 colspan=1>·相关个体</td></tr><tr><td rowspan=1 colspan=1>6.2</td><td rowspan=1 colspan=1>·相关组织</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>地理区域信息</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>广告</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>软件下载</td></tr></table>",
+    "context10": "基于网页数的网络影响因子： $\\scriptstyle \\mathbf { W I F p = E } /$ P( $\\mathbf { E } { = }$ 连接到该网站的外部链接数， $\\mathbf { P } { = }$ 该网站的网页总数）"
+  },
+  "2.2网络影响因子": {
+    "context1": "基于教师数的网络影响因子：WIFs=E/S（该公式是对Ingwersen的公式的改进， $\\mathbf { E } { = }$ 连接到该网站的外部链接数， $\\mathsf { S } \\mathrm { = }$ 该大学的专职教师数）",
+    "context2": "表2网页分类表(按链接目的）",
+    "context3": "<table><tr><td rowspan=1 colspan=1>代码</td><td rowspan=1 colspan=1>类型</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>不能细分的一般信息</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>研究型信息</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>教育资源</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>管理信息</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>学生作业</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>链接列表</td></tr><tr><td rowspan=1 colspan=1>6.1</td><td rowspan=1 colspan=1>·书目或出版物列表</td></tr><tr><td rowspan=1 colspan=1>6.2</td><td rowspan=1 colspan=1>·路径或主题目录</td></tr><tr><td rowspan=1 colspan=1>6.3</td><td rowspan=1 colspan=1>·相关链接</td></tr><tr><td rowspan=1 colspan=1>6.4</td><td rowspan=1 colspan=1>·事件列表</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>讨论帖</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>正式出版物</td></tr><tr><td rowspan=1 colspan=1>8.1</td><td rowspan=1 colspan=1>·技术报告、论文</td></tr><tr><td rowspan=1 colspan=1>8.2</td><td rowspan=1 colspan=1>·电子期刊的文章</td></tr><tr><td rowspan=1 colspan=1>8.3</td><td rowspan=1 colspan=1>·会议论文</td></tr><tr><td rowspan=1 colspan=1>8.4</td><td rowspan=1 colspan=1>·新闻组</td></tr><tr><td rowspan=1 colspan=1>8.5</td><td rowspan=1 colspan=1>·电子期刊</td></tr><tr><td rowspan=1 colspan=1>8.6</td><td rowspan=1 colspan=1>·会议</td></tr><tr><td rowspan=1 colspan=1>8.7</td><td rowspan=1 colspan=1>·新闻资源</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>个人主页</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>组织首页</td></tr><tr><td rowspan=1 colspan=1>10.1</td><td rowspan=1 colspan=1>·主/分机构</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>软件资源</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>“关于&quot;页</td></tr></table>",
+    "context4": "基于院系数的网络影响因子： $\\scriptstyle \\mathbb { W } _ { \\mathbf { I } \\mathbf { F _ { c } } = \\mathbf { E } } /$ C( ${ \\bf E } =$ 连接到该网站的外部链接数， $\\mathrm { C } =$ 该大学的院系数）",
+    "context5": "利用上述公式，他们通过计算得到了Kendall等级相关系数，以对比分析各个公式的合理性。",
+    "context6": "前面提到的都是对学术机构的链接分析，而Liwen Vaughan等人对连接到商务网"
+  },
+  "2.3国内的WIF测试": {
+    "context1": "站的分布情况做了统计分析，其统计样本是中国IT业前100强企业和前100强私营企业，旨在揭示网站的被链接情况和企业的经营、赢利和信息量等之间的内在联系[7]。",
+    "context2": "国内对网络计量学的研究起步比较晚，其中邱均平等学者的研究令人瞩目。邱均平等人根据广东管理科学研究院2002年的大学排名对大陆前100"
+  },
+  "3已有成果": "",
+  "3.1外部链接分析": {
+    "context1": "在Rong Tang和Mike Thelwall的研究中通过对89所美国研究机构外部链接的域名分布和地区分布分析后得出以下结论[3]：",
+    "context2": "(1)地区分布。",
+    "context3": "通过对89所美国研究机构外部链接的域名分布和地区分布的分析，结论如下：",
+    "context4": "·这些链接主要是分布在欧洲地区，而对于墨西哥和中美、南美地区链接数之低则有些出乎意料。这些数据为研究对学术网站链接的地区分布提供了佐证。",
+    "context5": "$\\bullet$ 历史学只有非常少的国外链接，说明对于美国历史的研究仅限于美国国内，这和以前所说的美国研究成果的国际化扩散使美国历史的影响力更胜于其他国家的说法截然相反。",
+    "context6": "(2)对顶级域名的分析。",
+    "context7": "对顶级域名的分析可以得出以下结论：",
+    "context8": "·edu 是对这三个学科链接最多的域名。",
+    "context9": "$\\bullet$ 就所选的学科而言，不同的顶级域名之间并没有太明显的链接规律。"
+  },
+  "3.2成因分析": {
+    "context1": "AlastairGSmith通过对目标链接和链接原因的分析得出以下结论[1]:",
+    "context2": "$\\bullet$ 属于目录的链接占很大一部分。",
+    "context3": "·正式出版物(如科技报告、电子期刊论文、会议论文等)是主要的目标链接。",
+    "context4": "·正式的研究引用也很可观，大约占总数的$10 \\%$ 左右。",
+    "context5": "$\\bullet$ 更多的链接是指向整个电子期刊,而不是具体的文章。",
+    "context6": "在邱均平等人对中国大陆100所大学网站的研究中得到以下结果[2]：",
+    "context7": "·大学网站的总被链接数和WIFc与该大学的排名有很大关系，而WIFp和大学排名之间相关性不大。",
+    "context8": "$\\bullet$ 外部链接数和大学排名之间有很大相关性。",
+    "context9": "$\\bullet$ 根据AIITheWeb 的数据显示，院系数的差别系数为34.53,而总网页数的差别系数为126.47（与学校排名比较),这说明了WIFc 比WIFp更有效。",
+    "context10": "用外部链接的方法评价高等学校的学术交流和科研水平是可以的，但是这种方法不适用于评价个人成果,因为在没有规则限制的情况下,个人很容易增加网络被引量[8。此外,由于学科或者个人原因导致一些小型组织和团体的网络文献分布情况有很大的不同，比如科学家更愿意把自己的文章发布在网上，从而产生了更多的网页和链接1]。"
+  },
+  "4存在问题和解决方法": {
+    "context1": "Ronald Rousseau 对 AltaVista、AllTheWeb、Google、Excite等搜索引擎进行了一年多的监控发现，现有的搜索引擎的性能可靠性极低[2，一致性也很低，对同一主题词的搜索结果，Google竟然是Excite的十倍，其他搜索引擎也是类似。对此，RonaldRousseau提出两个解决方案：一是可以进行多轮搜索和分时段搜索以及综合利用多个搜索引擎的结果，以减少偶然性;二是建立用于网络计量学和科学计量学研究的专用搜索引擎[2,也有一些人主张设计研究专用数据采集支持系统，这一系统包括识别、提取、过滤和分析四个子系统。",
+    "context2": "现有搜索引擎的网络爬虫(spider)无法保证能识别它所抓取到的网页上的所有链接，特别是一些由脚本语言、服务器端映像图和网页中嵌入的程序等生成的链接,还有网页中的一些PDF文档和图片链接更是无法处理，而这些都是非常有用的资源[23]。针对以上种种问题,在研究中必须注意到这几个方面：(1)被分析的网站的覆盖面要广；(2)为了保证搜索结果的可靠性，必须进行多次轮番查询；(3)必须考虑到标引的方法、网络的覆盖率和无法标引的网页的类型，以及为什么等问题；(4)运用多种检索策略，使用高级检索功能，以便能识别出相互引用的页面[23。另外，在分析两种不同域名之间的链接关系时，选择高质量的链接起点和链接终点也是至关重要的[24,而且这种引用关系只能用来作为定性分析的参考[25]。"
+  },
+  "5发展前景": {
+    "context1": "网络计量学的研究涉及到多学科的知识，同时它会对学科的发展产生深远的影响，尤其是科学计量学和信息管理学方面。所以在网络计量学的研究方法、内容及其应用方面有着长远的研究价值。",
+    "context2": "其以后可预见的发展方向包括：",
+    "context3": "在研究方法方面，深入分析网络拓扑结构，以揭示网络的复杂性和发现网络资源的潜在价值2；在数据格式方面与统计方法方面，引入XML和元数据，引人引文分析中的引文类型、引文动机和区分网页的权重2;在应用方面，对于医药卫生等专业的信息资源，应寻求和建立统一的标准指标体系进行研究和评价2;在功能方面，建立超链接分析数据库，为网络的知识管理、情报分析和社会评价提供素材[3;在作用方面,对制订有关网络资源管理的政策法规、提高信息检索效率等有一定指导意义[32]"
+  },
+  "参考文献": {
+    "context1": "1董慧，安璐.数字图书馆关键技术的分析与启示.情报学报,2002(6):700\\~707  \n2G.Story，L.O'Gorman，D. Fox,L.Shaper,H.Jagadish.TheRightPagesimage -based electronic library for alertingandbrowsing.IEEE Computer，1992.25(9):17\\~26  \n3I.H.Witten，A.Moffat，T.C.Bell.Managing Gigabytes:Compressing and Indexing Documents and Images. Van NostrandReinhold,New York,1994.  \n4http://www.jpeg.org/  \n5http://www.chinapdf.com/pdfintro.htm  \n6 http://www.djvuzone.org/djvu/djvu/djvuspec/001.djvu  \n7 http://www.cadal.net/cn/djvutext.jsp  \n8 http://www.djvu.com/download/  \n9http://www.21dmedia.com/  \n10http://www.apabi.com/project/pro_1/pro_a.htm  \n作者单位：黄晨，浙江大学图书馆，杭州，310027；龚景兴，湖州师范学院图书馆，湖州，313000  \n收稿日期：2004年3月5日"
+  },
+  "4结论与展望": {
+    "context1": "国内一夜之间涌现了很多数字图书馆系统厂商，其实大多只是数字对象制作系统和搜索引擎的简单组合(以前的主业是开发搜索引擎),而其制作的资源格式往往没有经过仔细论证。简单地以HTML、PDF或者专有的加密格式来建设资源,最终必然造成资源共享的困难和资源建设的难以为继。",
+    "context2": "资源格式的选择是资源建设和利用的基础，扫描格式向混合格式转变是发展的方向。受限于制作成本，采用双层技术的PDF或者 $\\mathrm { D j V } \\mathbf { u }$ 可能是很长一段时期内的选择。而“文图混排\"格式如果能取得与国际标准的资源格式的技术融合,将成为最具潜力的选择。"
+  },
+  "A Comparative Study on the Digital Resource Format Huang Chen, Gong Jingxing": {
+    "context1": "Abstract:There are a great deal of digital resource formats，each associated with diffrent technologies and standards.The articlecompares several widely used resource formats and gives helpful suggestions in terms of the format selection in the digital library development.",
+    "context2": "Keywords:Digital Libraries,Resource Format",
+    "context3": "（上接第19页）",
+    "context4": "On the Development of Web Metrics or Cyber Metrics Yang Bo, Yan Sulan, Qu Weiqun",
+    "context5": "Abstract:Since the biblio-metrics had become a branch of information management,its primary principles had already been widely applied.Along with the development of the Internet,web pages analysis had grown rapidly and gotten a lots attention.This review introduced the newly emerged disiplinary called web metrics or cyber metrics from several aspects such as its major tools，methods， shortcomings and its future development trends.",
+    "context6": "Keywords: Web Metrics,Web Impact Factor, Extermal Link,Link Analysis"
+  }
+}

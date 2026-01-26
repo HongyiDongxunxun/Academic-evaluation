@@ -1,0 +1,125 @@
+{
+  "original_filename": "full_4283.md",
+  "基于CiteSpace的知识图谱国内外研究热点分析与趋势展望": {
+    "context1": "张妮 (中国人民大学书报资料中心北京100086)王婧媛 (北京大学首都发展研究院北京 100871)",
+    "context2": "摘要文章基于CiteSpace知识图谱视角,以国外WebofScience和国内CSSCI这两个代表性数据库所收录的知识图谱理论研究和应用领域的文献为研究对象,在分别分析国内外知识图谱研究热点聚类的基础上,总结出当前知识图谱研究领域热点，并对所面临的发展趋势做出几点判断。  \n关键词知识图谱信息技术非结构化数据多学科应用"
+  },
+  "Knowledge Mapping Based on CiteSpace: Research Hotspots Analysis at Home and Abroad and Situation Prospects": {
+    "context1": "Zhang Ni(Information Center for Social Sciences,RUC,Beijing,100086) Wang Jingyuan(Beijing Development Institute,Peking University,Beijing,100871)",
+    "context2": "AbstractBased on the perspective of CiteSpace knowledge mapping,this paper uses the literature of knowledge mapping theory research and application in Web of Science and CSSCI as the research object,summarizes the current knowledge of hotresearch field basedontherespectiveanalysisof the domesticand foreign knowledge of hot clustering,and makes some judgment on the trend of future development.",
+    "context3": "Keywordsknowledge mapping，information technology， unstructured data,multi-subject application",
+    "context4": "2016年5月19日，国务院发布《国家创新驱动发展战略纲要》,明确科技创新是提高社会生产力和综合国力的战略支撑,提出\"科学发现对技术进步有决定性的引领作用\"\"大力支持自由探索的基础研究加强学科交叉与融合\"\"建立国家重大科研基础设施和科技基础条件平台开放共享制度,推动科技资源向各类创新主体开放”。科研发展作为我国创新驱动发展战略的重要内容,正在进入由量变向质变提升的跃升期,知识图谱作为主要的科研学术工具之一，在科技信息资源利用和创新网络构建的过程中,具有重要作用和广阔的应用空间。知识图谱能够形象、定量、客观、真实地显示学科结构、热点、演化与趋势;在科学知识的动态变化系统内，可视化知识进程与知识之间的联系，展示科学的进化与认知结构,完成知识发现的全过程。此外,知识图谱还可描述、解释、预测和评价科学知识，可视化科学文献和其中的知识单元,使得科学知识关系能够通过空间布局更为形象地展示。因此,对于这一重要科研工具，总结和分析其国内外研究热点和发展趋势,对未来推进科研信息资源利用、开放创新和跨界研发合作等都具有积极意义。"
+  },
+  "1国内外知识图谱研究发展概况": {
+    "context1": "知识图谱最早来源于\"mapping knowledge domain\"一词,而“bibliometric map、literature map、knowledgegraph\"等也越来越多地被认为属于知识图谱研究范畴。知识图谱的本质是对知识进行可视化展示和分析,是实现知识可视化分析(knowledgevisualizationanalysis)的\"阶段性产物\"2],并且已经被越来越广泛地应用到各个学科研究中。"
+  },
+  "1.1知识图谱相关概念": {
+    "context1": "目前,知识地图以已有较多的理论定义。Brooks最早提出了知识地图的概念,他从情报学视角出发，认为知识地图的概念主要是指人类的客观知识,人类的知识结构可以绘制成以各个单元概念为节点的学科认识图3,而在这样的地图中包括的知识项目有文本、图表、模型和数字[4,知识地图具有概念图的优点，是知识库的一种。但是， $\\mathrm { Z i n s ^ { [ 6 ] } }$ 则否认了知识地图是知识库的内容,他认为知识地图是一种知识的指南，显示哪些资源可以为人所用。从实际应用的角度来看，为企业提供知识地图解决方案的机构萨拉蒙德(Salamander)则将知识地图定义为\"对企业的积极的可视化的描述”7]。总的来看，无论从理论或是实践角度,知识地图主要能够用来形象地描绘信息及其相互关系。",
+    "context2": "通过借助对知识地图概念的认知,知识图谱可以被认为是可视化的描述人类随时间拥有的知识资源及其载体,绘制、挖掘、分析和显示科学技术知识及其之间的相互联系,在组织内创造知识共享的环境以促进科学技术研究的合作和深人,甚至是多学科知识融合在研究方法上的一种体现,知识图谱的绘制是将数学、图形学、信息科学等学科方法与引文分析、共线分析等结合，可以看作知识发展进程与结构关系的一系列图形9。"
+  },
+  "1.2知识图谱研究现状分析": {
+    "context1": "为了客观而清晰地分析知识图谱发展历程及研究现状,笔者选择Web of Science 和CSSCI作为基础数据库,对国外和国内知识图谱的研究进行定量分析。"
+  },
+  "1.2.1数据检索": {
+    "context1": "(1)对WoS进行信息检索,采用的检索式是： $\\mathrm { T I } =$ (\"MAP\"OR\"MAPS\"OR\"MAPPING\"OR\"VISUALIZATIO N\"OR\"VISUALIZING\");",
+    "context2": "精炼依据:[排除]Web of Science 类别:（GEOCHEMISTRY GEOPHYSICS）AND Web of Science 类 别:（INFORMATION SCIENCE LIBRARY SCIENCE） AND[排除]Web of Science 类别:（GEOGRAPHY OR GEOGRAPHY PHYSICAL）AND 文献类型:（ARTICLE OR PROCEEDINGS PAPER);",
+    "context3": "时间跨度: $1 9 8 0 \\sim 2 0 1 6$ 索引:SCI-EXPANDED、SSCI、A&HCI、CPCI-S、CPCI-SSH、CCR-EXPAND-",
+    "context4": "ED、IC。",
+    "context5": "(2)对CSSCI进行信息检索，检索式是：篇名 $\\mathbf { \\equiv }$ 知识地图or知识图谱or可视化;文献类型 $\\stackrel { \\left[ - \\right. } { }$ 论文or综述or评论or报告；发文年代 $: =$ 1998\\~2015年。"
+  },
+  "1.2.2数据清洗": {
+    "context1": "WoS得到1151篇文献，图1所示1980年到2016年Web ofScience检索到的知识图谱相关研究的发文量分布。CSSCI得到1106篇相关文献。笔者对下载的文献数据进行清洗：",
+    "context2": "在CSSCI的被引文献原始数据中，发现书籍类被引文献出版年代为2020年,将其逐一修改为正确的出版年代。",
+    "context3": "在 CSSCI中合并了 Chen Chaomei、Chen,C.M.、Chen-Chao-Mei等同一作者,将其姓名在CSSCI中统一为CHENC。",
+    "context4": "![](images/3f19270eadd99a3124cf9e52bd645601f18eae23e36467fc9e015ea2d407a6b8.jpg)  \n图1 $1 9 8 0 \\sim 2 0 1 6$ 年国外知识图谱相关研究发文量分布",
+    "context5": "在WoS的关键词中避免重复出现\"Knowl-edge mapping\"、“Knowledge\"等词汇,以确保知识图谱研究热点的准确。"
+  },
+  "1.2.3参数设置": {
+    "context1": "在对Webof Science的数据进行处理时,时区选择(Time Slicing)中将时间选择为 $1 9 8 0 \\sim$ 2016年，时间切片选择为1年;对CSSCI的时区选择为 $1 9 9 8 \\sim 2 0 1 5$ 年,时间切片为1年。",
+    "context2": "在阈值选择（Threshold Interpolation）中(c,cc,ccv)设为 $2 , 2 , 2 0 \\ ; \\ 4 , 3 , 2 0 \\ ; \\ 4 , 3 , 2 0$ ，分别在前、中、后3个时间分区中设定引文数量、共引频次和共引系数3个层次的阈值。"
+  },
+  "1.3国内外知识图谱研究现状分析": "",
+  "1.3.1国内外共被引文献分析": {
+    "context1": "首先对国外知识图谱研究文献进行引文分析，通过CiteSpace的引文分析选项，在节点类型（NodeTypes)中选择CitedReference进行共被引网络绘制，选择被引用频次最高的50篇文章( $\\mathrm { \\Delta T o p ~ N = 5 0 }$ )进行分析，使用\"最小生成树\"(Minimum Spanning Tree)算法对数据进行修剪,从而达到简化网络的目的。最后,采用时间线图(TimeLine)生成的引文网络如图2所示。",
+    "context2": "文献共被引的次数越多，说明这些文献的关系越紧密,研究的问题越具有内在的一致性,并且节点的大小反映被引用次数多少，节点越大表明其学术影响力越大。因此,从共被引最高的文献中可以看出(如图2所示)，文献[11]从1973年发表至今已经被引用了859次，对于文献计量领域研究的深化起到了承前启后的推动作用,属于该领域的经典性研究。从图2被引频次的结果中还可知，国外知识图谱的研究主要集中在理论、工具和应用三个领域。",
+    "context3": "(1)知识图谱相关理论研究。被引用频次最多的前4篇文献分别是文献[12]被引用439次，文献[13]被引用289次，文献[14]被引频次达到251次，文献[15]被引193次。",
+    "context4": "(2)知识图谱的绘制工具和算法。文献[16]被引用286次;文献[17]被引达到287次，VanEck等[8介绍VOSviewer的使用方式，被引次数为147次。",
+    "context5": "(3)基于知识图谱的学科划分。如Leydes-dorff等对科技文献进行多学科分解的论文被引用192次。再对国内知识图谱研究文献进行引文分析，基于CSSCI数据库对 $1 9 9 8 \\sim 2 0 1 5$ 年国内知识图谱进行共被引文献情况分析，如图3所示。",
+    "context6": "![](images/0a9979f07fe3b5470f3c0975d0af95d71854aace14adda11a5a210249e7ef1bd.jpg)  \n图2国外共被引论文网络图",
+    "context7": "(1)目前知识图谱绘制工具研究是国内较为关注的研究领域,被引也最集中。其中被引频次最高的作者是 $\\mathrm { C h e n \\ C \\ M ^ { [ 1 7 ] } } 2 0 0 6$ 年发表的关于CiteSpace II的论文,被引量达到189次，而他与陈悦等 $^ { [ 2 0 ] } 2 0 0 9$ 年发表在《情报学报》上的此篇论文的中文版本被引也达140次。",
+    "context8": "(2)知识图谱理论、实践研究与绘制工具研究在国内同时兴起。从图3可以看出，刘则渊等2008年出版的《科学知识图谱方法与应用》成为知识图谱理论和实际操作中的重要工具书,被引频次达到78次；陈悦、刘则渊2005年发表的关于科学知识图谱的概念、研究领域的进展以及应用前景的文章被引频次达到54次;侯海燕等发表的《当代国际科学学研究热点演进趋势知识图谱》,通过应用知识图谱工具,绘制了六个科学学发展的发展态势和趋势热点2,被引量达到31次，是国内被引频次最高的知识图谱应用领域论文。",
+    "context9": "![](images/970aa055d9161367b530799d16fe9fd0d621b6be4609202152d5ec382a0634b8.jpg)  \n图3国内高被引论文网络图"
+  },
+  "1.3.2国内外核心作者被引和研究团队分析": {
+    "context1": "从表1中可以看出，被引用最多的是SmallH、LeydesdorffL和GarfieldE,他们分别被引用了166次、152次和118次。",
+    "context2": "表1高被引频次作者",
+    "context3": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>被引频次</td><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>作者</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>166</td><td rowspan=1 colspan=1>1981</td><td rowspan=1 colspan=1>Small H</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>152</td><td rowspan=1 colspan=1>1994</td><td rowspan=1 colspan=1>Leydesdorff L</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>118</td><td rowspan=1 colspan=1>1981</td><td rowspan=1 colspan=1>Garfield E</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>117</td><td rowspan=1 colspan=1>1983</td><td rowspan=1 colspan=1>White HD</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>91</td><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>Chen C M</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>85</td><td rowspan=1 colspan=1>1984</td><td rowspan=1 colspan=1>Callon M</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>83</td><td rowspan=1 colspan=1>1985</td><td rowspan=1 colspan=1>Salton G</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>78</td><td rowspan=1 colspan=1>2002</td><td rowspan=1 colspan=1>Borner K</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>73</td><td rowspan=1 colspan=1>1984</td><td rowspan=1 colspan=1>Mccain KW</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>73</td><td rowspan=1 colspan=1>2002</td><td rowspan=1 colspan=1>Boyack K W</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>1993</td><td rowspan=1 colspan=1>KohonenT</td></tr></table>",
+    "context4": "从发文量和被引量作者的聚类结果可知,频次最高的两个聚类主要集中在 $1 9 8 1 \\sim 1 9 8 5$ 年间和2000年前后。这两大聚类分别对应了知识图谱的理论应用、研究工具构建的兴起,反映了目前知识图谱研究者主要的研究领域。",
+    "context5": "对 $1 9 9 8 \\sim 2 0 1 5$ 年间国内发表的研究成果通过选择核心作者进行分析，能够较直观地看出国内图谱领域的核心作者和主要团队以及他们各自从事的研究领域,如图4所示。",
+    "context6": "按照发文量大于7篇来排序,如表2所示。发现目前国内知识图谱研究主要集中在以下几个团队：",
+    "context7": "(1)以周宁为代表的研究团队,包括张会平、杨峰、吴佳鑫、陈勇跃等成员，他们来自武汉大学信息资源研究中心，主要从事信息资源、信息检索、信息存储等可视化研究。",
+    "context8": "(2)以刘则渊为代表的研究团队，由许振亮、姜春林、侯剑华、侯海燕、陈悦等成员组成,他们来自大连理工大学,主要从事科技知识图谱研究,利用知识图谱进行科技创新、科学学、教育学等的探索。",
+    "context9": "![](images/3d591cef2388c242a7e36d17f4d31a195788cc56040f87b0a4e5720dbbc87d32.jpg)  \n图4国内核心作者团队分布",
+    "context10": "(3)以赵蓉英为代表的研究团队，成员主要有邱均平、吕红、李小涛、徐厚强、楼雯等,他们也来自武汉大学信息资源研究中心,多年来主要从事信息计量学、可视化研究、学科评价等。",
+    "context11": "(4)以宗乾进为代表的研究团队，成员包括袁勤俭、沈洪洲、舒小昀,来自南京大学信息管理学院、历史系，他们依托CSSCI数据库开展了微博、媒体、社交网络、档案学、情报学等多个领域、多学科的热点分析。",
+    "context12": "(5)肖明、李国俊、邱小花组成的研究团队,他们都来自北京的高校——北京师范大学、北京科技大学和中央财经大学,主要从事图书馆、情报学学科内的引文耦合分析等。",
+    "context13": "表2国内核心作者发文和被引情况",
+    "context14": "<table><tr><td rowspan=1 colspan=1>作者</td><td rowspan=1 colspan=1>发文量</td><td rowspan=1 colspan=1>被引频次</td><td rowspan=1 colspan=1>作者</td><td rowspan=1 colspan=1>发文量</td><td rowspan=1 colspan=1>被引频次</td></tr><tr><td rowspan=1 colspan=1>周宁</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>95</td><td rowspan=1 colspan=1>侯海燕</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>62</td></tr><tr><td rowspan=1 colspan=1>刘则渊</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>120</td><td rowspan=1 colspan=1>宗乾进</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>33</td></tr><tr><td rowspan=1 colspan=1>赵蓉英</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>83</td><td rowspan=1 colspan=1>康宇航</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>27</td></tr><tr><td rowspan=1 colspan=1>邱均平</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>97</td><td rowspan=1 colspan=1>汤建民</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>26</td></tr><tr><td rowspan=1 colspan=1>许振亮</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>81</td><td rowspan=1 colspan=1>侯剑华</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>57</td></tr><tr><td rowspan=1 colspan=1>张会平</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>袁勤俭</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>61</td></tr><tr><td rowspan=1 colspan=1>姜春林</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>侯汉清</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>肖明</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>吕红</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>杨峰</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>陈悦</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>90</td></tr><tr><td rowspan=1 colspan=1>李国俊</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>杨思洛</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>26</td></tr></table>"
+  },
+  "2国内外知识图谱研究热点分析": {
+    "context1": "由于关键词不仅能够较好凝练论文主要内容，而且能够反映研究内容间的内在联系、研究发展方向、研究的重点和热点[22,因此笔者从WoS和CSSCI数据库中",
+    "context2": "选择关键词做知识图谱相关领域的爆发词探测（BurstDetection），将国内外研究热点相结合总结知识图谱研究热点。"
+  },
+  "2.1国外知识图谱研究热点聚类": {
+    "context1": "基于Webof Science数据库的关键词频次设定为大于等于8次，首先,剔除11个没有实际意义的关键词:model、system、technology、infor-mation、pattern、impact、field、search、text、docu-ment、trend。由于做关于知识图谱的热点分析，在结果中不能出现相同研究对象,因此又剔除了\"map\"和\"visualization”。在生成可视化视图后,发现\"Science”,“Network\"的频次和中心性远高于其他节点，这会遮盖部分重要节点，因此在视图中剔除。最后形成图5关键词共现网络。",
+    "context2": "表3国外知识图谱研究热点聚类",
+    "context3": "<table><tr><td rowspan=1 colspan=1>聚类号</td><td rowspan=1 colspan=1>包含节点数</td><td rowspan=1 colspan=1>出现年份</td><td rowspan=1 colspan=1>终止年份</td><td rowspan=1 colspan=1>聚类名称</td></tr><tr><td rowspan=1 colspan=1>#0</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>1992</td><td rowspan=1 colspan=1>2016</td><td rowspan=1 colspan=1>health education(健康教育类应用)</td></tr><tr><td rowspan=1 colspan=1>#1</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>1992</td><td rowspan=1 colspan=1>2016</td><td rowspan=1 colspan=1>Sensitivity analysis (敏感度分析)</td></tr><tr><td rowspan=1 colspan=1>#2</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>1991</td><td rowspan=1 colspan=1>2016</td><td rowspan=1 colspan=1>curriculum reform(课程改革)</td></tr><tr><td rowspan=1 colspan=1>#3</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>1995</td><td rowspan=1 colspan=1>2014</td><td rowspan=1 colspan=1>mapping（绘图）</td></tr><tr><td rowspan=1 colspan=1>#4</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>1991</td><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=1>information retrieval(信息检索类应用)</td></tr><tr><td rowspan=1 colspan=1>#5</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>1997</td><td rowspan=1 colspan=1>2016</td><td rowspan=1 colspan=1>information technology project(信息技术项目)</td></tr><tr><td rowspan=1 colspan=1>#6</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>1991</td><td rowspan=1 colspan=1>2015</td><td rowspan=1 colspan=1>facets/project(项目构面)</td></tr><tr><td rowspan=1 colspan=1>#7</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>1993</td><td rowspan=1 colspan=1>2002</td><td rowspan=1 colspan=1>knowledge engineering(知识工程)</td></tr><tr><td rowspan=1 colspan=1>#8</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>1994</td><td rowspan=1 colspan=1>2011</td><td rowspan=1 colspan=1>controls/ visualizing research group(控制/可视化研究小组)</td></tr><tr><td rowspan=1 colspan=1>#9</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>1991</td><td rowspan=1 colspan=1>2015</td><td rowspan=1 colspan=1>corpus-based approach(基于语料库的方法)</td></tr><tr><td rowspan=1 colspan=1>#10</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>2000</td><td rowspan=1 colspan=1>2016</td><td rowspan=1 colspan=1>library science research(图书馆科学研究)</td></tr><tr><td rowspan=1 colspan=1>#11</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>1993</td><td rowspan=1 colspan=1>2014</td><td rowspan=1 colspan=1>data limitations/link-based knowledge map(数据限制/基于链路的知识地图）</td></tr><tr><td rowspan=1 colspan=1>#12</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>1998</td><td rowspan=1 colspan=1>2016</td><td rowspan=1 colspan=1>social science analysis (社会科学分析应用)</td></tr><tr><td rowspan=1 colspan=1>#13</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>1995</td><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=1>mapping visualization(图谱可视化)</td></tr><tr><td rowspan=1 colspan=1>#15</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=1>visualization/efficiency(可视化/效率)</td></tr></table>"
+  },
+  "2.2国内知识图谱研究热点聚类": {
+    "context1": "经过可视化后，共产生了18个聚类,选择其中节点数量多于5的聚类进行进一步分析，如表3所示共有14个主要的聚类。",
+    "context2": "结合软件中所给的关键词列表,由于受到国内数据库年限限制，数据资料相对国外数据库资料较少，较多关键词出现的频率相对较小,因此基于CSSCI数据库选择出现频次大于等于3的关键词进行分析。",
+    "context3": "![](images/c6565dc7949fe96303db5dc72df9b4608d3f920ad64c7e82fe9125dee2356387.jpg)  \n图5国外知识图谱关键词共现网络",
+    "context4": "首先,剔除没有实际意义的关键词：研究热点、研究前沿。再剔除6个与知识图谱有相同意义的关键词：知识图谱、可视化、信息可视化、知识地图、可视化分析、科学知识图谱。",
+    "context5": "如图6所示，国内知识图谱研究热点主要被分为11个聚类,涵括了知识可视化、图情档领域相关研究、数据挖掘、知识管理、社会网络分析、信息资源管理及信息检索相关领域研究、科学计量、知识图谱应用分析、数据科学等研究领域。"
+  },
+  "2.3知识图谱研究热点分析": {
+    "context1": "从国内外知识图谱研究热点的聚类情况来看，近30年来知识图谱研究领域热点主要集中在以下几个方面：",
+    "context2": "(1)知识图谱理论研究。主要涉及知识可视化、隐性知识、概念图、知识管理、数字图书馆等内容。按照关键词追溯相关研究后发现,比较有代表性的研究有，秦铁辉等[23通过斯博瑞和微软的案例展开组织构建知识地图的关键因素分析，按照知识地图构建原则、隐性知识的获取和挖掘、标引及关联进行构建,并探讨了企业文化等因素在知识地图构建中起到的重要作用。吴才唤24较有创造性地提出了\"显性知识地图\"和\"隐性知识地图”,并构建了知识创新循环中的知识地图,在此基础上对知识地图构建的关键因素(寻找联系）、隐性知识主体之间联系的载体(合著、引用认同、学术博客)和隐性知识地图实现的技术和方法(社会网络分析)进行了综述和深入探讨。",
+    "context3": "![](images/c811b68b168c358251def414134800a591fc7bbee0ed9fd2514b93303da84c69.jpg)  \n图6国内知识图谱关键词共现网络",
+    "context4": "(2)知识图谱研究方法。通过关键词涌现以及追溯相对应的研究后发现,知识图谱相关研究方法可分为以引文分析、共词分析、社会网络分析、多元统计等为代表的定量分析法和以德尔菲法为方法的定性分析法。定量分析方法是目前绘制图谱的主要方法，并衍生出了Pajek、CiteSpace、UCINET、VOSviewer等多种绘制工具。而知识图谱的定性分析法是以以色列学者ChaimZins采用德尔菲法为代表,Zinsl2通过情报学的知识地图入手进行研究,在16个国家邀请57名情报学知名专家学开展调研,最终确定了包含基础、来源、知识工作者、内容、应用、操作处理、技术、环境、组织和用户的10大类的知识地图,为读者能够更好地理解学科问题,从而建立一个立体的、系统而完整的概念体系和本领域的知识地图。",
+    "context5": "(3)数据处理和数据挖掘。从热点聚类中可以看出，网络计量、大数据、云计算等都是近年来开始涌现的关注重点。随着互联网技术的发展,国外的Webo-metrices(网络计量)与知识图谱的结合，拓展了网络计量的研究方法，而且从2013年、2014年开始涌现TripleHelix(三螺旋)图谱研究[26-29]。Smith $\\mathrm { A } ^ { [ 3 0 ] }$ 探讨了开放式数据与在线图谱软件为交互式地图绘制方法带来的新机遇,在大数据和开放式地理信息系统研究领域的创新应用。对于大数据、云计算等新一代信息技术与知识图谱结合的研究，国内主要还是以知识图谱作为工具分析概念的形成、应用[31-33等,但也出现了如胡芳槐3通过各种开放链接数据、在线百科、行业网站等提供的结构化或半结构化数据，探索不同数据源的知识图谱建立方法。",
+    "context6": "(4)知识图谱在教育等不同学科中的应用。知识图谱在不同学科中得到应用,它可以清晰梳理学科脉络,探究学科发展方向，被较多应用于教育、社会学等学科,以及化学、医疗、航天等专业性很强的领域。丁长康等[35利用知识图谱分析我国课程发展十年的历程，明确了强化研究的问题意识和系统意识,课程理论研究与学科课程应用研究之间的良性互动是未来教改的重要方向;Andreasen和Buhll通过英国MOOC知识图谱,探讨了其出现后对于教学法带来的谁来学、怎样学、学什么等问题,基于在线学习环境探讨了这些问题的解决方法，国内也有利用知识图谱关注在线学习的研究,如石小岑等37利用绘制了国际M00C在2013年到2015年间的热点和发展方向。",
+    "context7": "(5)知识图谱在经济社会中的应用。知识图谱除了在学术研究得到越来越广泛的拓展和应用外,还被制造业、电气电子、环境、机械和石油工业等部门开展了边缘应用,企业、政府等也将其应用在商业、管理等分析中。知识图谱作为研究工具在2012年后开始较多应用在社会管理领域，我国网络舆情知识图谱分析[38以及国际舆情分析比较3是热门的研究方向。"
+  },
+  "3科技进步与创新发展下知识图谱研究的展望": {
+    "context1": "长期以来,知识图谱在理论研究、绘制流程、研究方法和技术手段上形成了较为固定的体系,近年来较多的做法是将其作为各种专业研究领域的分析工具来使用。但随着全球网络空间快速发展,信息资源爆炸式增长,数据产业不断发展壮大,科研和科学知识数据库在种类、规模和质量等方面都实现了跨越式发展，与之前科学知识库较为集中、科研主体明确专一、科研数据量稳定、数据结构化和同质化的情况正在发生巨大改变。因此,未来知识图谱研究在理论框架、发展路径、技术手段和应用领域等方面都将展现出新的发展空间。"
+  },
+  "3.1在开放环境下知识图谱的应用存在较大发展空间": {
+    "context1": "互联网的发展极大地拓展了知识图谱的构建载体。近年来,网络科学知识库在开放共享的网络环境中快速成长,国外的Web of Science、Science Direct、FOAS、INFOMINE、OAIster、Base-Search、Intute、Infor-mationBridge等，国内的知网、万方等都已经是成熟的专业性科学数据库平台，此外,许多搜索引擎也正在建设和完善学术搜索服务。随着社会信息化程度的普遍提升、互联网的普及应用，以及这些网络科学知识库的飞速发展,以Web站点、Web页面、万维网为载体的网络知识已经改变了原有科学知识图谱研究的对象范围,以网络为基础研究网络信息、网络信息载体的结构以及相互关系正在成为知识图谱研究的新趋势。网络空间的发展推动网络计量学的研究从封闭环境走向开放环境,在这一趋势下,知识图谱在网络计量学用于构建科学知识结构、发现研究主题和科学家群体等方面正在酝酿突破。相比传统封闭的、相互隔离的数据环境下进行的科学结构、主题探测等研究,面向开放式新环境的知识图谱研究将更加丰富、全面和智能。"
+  },
+  "3.2知识图谱的智能处理能力和商业价值将大幅提升": {
+    "context1": "以大数据和云计算为代表的新一代信息技术的跨越式发展,将极大地提升知识图谱的智能水平，并能将知识图谱的商业价值前所未有地发挥出来。从技术上来说,利用大数据可以完成对海量科研数据的高效处理,云计算则在技术手段上承担对硬件资源的虚拟化，保障大数据在数据采集与处理、平台基础设施运营以及数据分析服务各层次的稳定运营4。大数据与云计算的结合使用,通过对科研相关数据存储、数据处理和数据分析整体能力的提升,达成对类型复杂且海量科研数据进行分析，并实现实时交互式知识管理的远期目的,它使得知识图谱的构建基于更大量、更全面、更准确的科学知识库，并能将更多的隐性知识转变为显性知识用于知识图谱的构建。从商业化角度来说,在知识搜索和自然语义理解的技术领域中，已经有一批优秀的互联网企业走在最前沿，他们推动知识图谱广泛应用于智能万维网搜索、查询理解、商业广告、社交媒体等领域,如Wikipedia、Google、微软、百度、搜狗等搜索引擎公司。这些公司在实体链接(entitylinking）、关系抽取(relation extraction）、知识推理(knowledge rea-soning）知识表示(knowledge representation)等理论与技术方面投入了大量的智力与资本投入，且已经处于领先水平，但这些领域目前还处于发展初期，在构建知识图谱的过程中不得不采用较多的人工干预,这些关键技术目前还有待突破,这将引领知识图谱走上未来新的台阶。"
+  },
+  "3.3知识图谱将面临解决异构知识来源、多模数据形态、复杂知识结构等挑战": {
+    "context1": "目前，非结构化数据占全球信息 $8 5 \\%$ 以上,并呈海量增长态势，这些科学知识信息的形式包括视频和音频文件、图片等,是知识图谱正着力开发、未来发展空间最大的资源。目前,已经有一些开放、共享、面向异构科学知识来源的数据库正在尝试构建。如新近设立的线上科研成果发布平台Figshare,已出版250万份学术研究成果,包括论文、数据集和视频,并为英国谢菲尔德大学、英国皇家学会、全球最知名学术出版商之一的约翰·威利父子出版公司(JohnWiley&Sons,Inc.)和奥克兰大学等机构提供云服务[4I]。下一阶段的知识图谱构建将是面向网络环境下大规模知识库的,知识图谱已经演化为\"实体及其关系之间的关系图”,这将改变原有知识图谱构建方式,形成以\"实体\"为基础的复杂化知识结构[42]。围绕本体作为知识图谱表示的概念模型和逻辑基础,针对多样化的知识来源,开展语义资源的理解和知识总结，从海量异构数据所含有的丰富知识中完成知识图谱将是目前以及未来的发展方向[43]。"
+  },
+  "3.4知识图谱的构建将越来越广泛地应用于各研究领域中,且呈现交叉发散趋势": {
+    "context1": "目前,知识图谱作为重要科研工具,在科学学、教育学、生物医学、信息技术学、管理学、金融学等诸多领域被大量使用。此外,由于知识图谱工具能够突破单一学科与研究领域的限制,直观揭示高被引知识源流与共现关系,因此近年来越来越多的被应用于学科交叉的研究中。随着语义理解、智慧搜索和机器智脑的飞速发展,未来将会涌现出更多大规模、高质量的科学知识图谱，这些知识图谱将会交叉融合，构建出关系更为复杂、智能程度更高、覆盖更为广泛、信息更新、更加实时的超大型知识图谱。"
+  },
+  "4结语": {
+    "context1": "近五年来,科技迅猛发展,尤其是信息技术与互联网的跨越式发展,使科学信息资源利用不断涌现出新的方法和技术,科学信息资源利用模式也在不断变革创新。相较而言，传统的知识图谱理论研究近年来面临亟待突破的状况。本文的研究结果显示,数据处理和数据挖掘以及知识图谱在各学科研究领域、在社会经济政治等领域中的应用是知识图谱研究近年来的热点。这些热点也都符合未来知识图谱的发展趋势，面向开放共享的网络发展环境，大数据和云计算等推动的科学信息资源利用模式变革，可利用的科研数据海量增长,以及知识图谱在各科学领域的广泛交叉应用,知识图谱将会迎来一个智能化程度越来越高，商业价值越来越得到彰显的黄金时期。"
+  },
+  "参考文献": {
+    "context1": "[1]杨思洛.中外图书情报学科知识图谱比较研究[M].北京：科学出版社,2015.",
+    "context2": "[2]赵蓉英,陈必坤.知识地图与知识图谱研究进展[M].情报学",
+    "context3": "进展.第10卷.北京：国防工业出版社，2014:350.   \n[3] Bertram C Brookes.The foundations of information science: Part III. quantitative aspects: objective maps and subjective landscapes [J]. Journal of Information Science,1980,2(6):269- 275.   \n[4]Vail E F.What Is a Knowledge Map?[EB/OL].[2016-09-20]. http://www.kmreview.com.   \n[5]陈强,孟月萍,周如旗,等.知识管理中知识地图及其应用 研究[C].全国计算机新科技与计算机教育论文集第13卷. 成都：西南交通大学出版社,2005.   \n[6] Zins C. Conception of information science [J].Journal of the American Societyfor Information Scienceand Technology, 2007,58(3):335-350.   \n[7] The Salamander Organization [EB/OL].[2016-11-21].http:/ www.tsorg.com/salamander/SalamanderAbout.htm.   \n[8]陈悦,刘则渊.悄然兴起的科学知识图谱[J].科学学研究, 2005,23(2):149-154.   \n[9]李运景.基于引文分析可视化的知识图谱构建研究[M].南京: 东南大学出版社,2010:1-11.   \n[10]田文霞,姜春林.基于信息可视化方法的社科期刊计量分析 [J].高教探索,2011(6):11-20.   \n[11] Small H. Co-citation in scientific literature-new measure of relationship between two documents[J]. Journal of the American Society for Information Science,1973,24(4): 265-269.   \n[12] Whit HD,McCain W.Visualizing a discipline: an author co-citation analysis of information science,1972-1995[J]. Journal of the American Society for Information Science,1998,49(4): 327-355.   \n[13] Borner K.Visualizing knowledge domains[J].Annual Review of Information Science and Technology,2003,(37): 179-255.   \n[14] Small H.Visualizing science by citation mapping[J]. Journal of theAmerican Society for Information Science,1999,50(9): 799-813.   \n[15] Ahlgren P. Requirements for a co-citation similarity measure, with special reference to pearson's correlation coefficient[J]. Journal of the American Society for Information Science and Technology,2003,54(6): 550-560.   \n[16] Boyack K W,Klavans R,Borner K.Mapping the backbone of science[J]. Scientometrics,2005,64(3): 351-374.   \n[17] Chen C M. CiteSpace II: detecting and visualizing emerging trends and transient patterns in scientific literature[J]. Journal of the American Society for Information Science and Technology,2006,57(3):359-377.   \n[18] van Eck NJ,Ludo W.Software survey: VOSviewer,a computer program for bibliometric mapping[J]. Scientometrics,2010,84 (2): 523-538.   \n[19] Leydesdorff L,Rafols I.A global map of science based on the ISI subject categories[J]. Journal of the American Society for Information Science and Technology,2009,60(2): 348-362.   \n[20]陈超美,陈悦,侯剑华,等.CiteSpace II:科学文献中新趋势 与新动态的识别与可视化[J].情报学报,2009,28(3):401-421.   \n[21]侯海燕,刘则渊,陈悦,等.当代国际科学学研究热点演进 趋势知识图谱[J].科研管理,2006,27(3):90-96.   \n[22]马费成,张勤.国内外知识管理研究热点—基于词频的 统计分析[J].情报学报,2006(2):163-171.   \n[23]秦铁辉,汪琼.试论专家型隐性知识地图的构建[J].国家图 书馆学刊,2007,(2):58-62.   \n[24]吴才唤.知识地图研究进展：从显性知识地图到隐性知识地 图[J].图书情报知识,2012.6(5):94-100.   \n[25] Zins C.Knowledge map of information science[J]. Journal of the American Society for Information Science and Technology, 2007,58(4): 526-535.   \n[26] Leydesdorff L,Wagner S,Park W.International collaboration in science: the global map and the network[J].Profesional De La Informacion,2013,22(1): 87-94.   \n[27] Meyer M,Grant K,Morlacchi P.Triple helix indicators as an emergent area of enquiry:a bibliometric perspective[J]. Scientometrics,2014,99(1): 1-4.   \n[28] Chung J,Park W.Mapping triple helix innovation in developing and transitional economies: webometrics,scientometrics, and informetrics[J]. Scientometrics,2014,99(1):151-174.   \n[29] Swar B,Khan F.Mapping ICT knowledge infrastructure in south asia[J]. Scientometrics,2014,99(1): 117-137.   \n[30] Smith A.Online interactive thematic mapping:applications and techniques for socio-economic research[J]. Computers Environment and Urban Systems,2016(57): 106-117.",
+    "context4": "[31]王新才,丁家友.大数据知识图谱:概念、特征、应用与影响[J].",
+    "context5": "情报科学,2013,31(9):10-14.  \n[32]邵慧丽,张帆,郝哲.基于知识图谱国际视野下大数据研究可视化分析[J].图书馆杂志,2016,35(5):13-19,31.  \n[33]詹川.大数据研究的知识图谱分析[J].图书馆论坛,2015(4):84-91.  \n[34]胡芳槐.基于多种数据源的中文知识图谱构建方法研究[D].上海：华东理工大学,2015.  \n[35]丁长康,钟勇为.我国近十年课程研究热点与反思一—基于CiteSpace的分析[J].现代教育管理,2015(3):89-93.  \n[36]Andreasen L B,Buhl M.Understanding MOOCs through con-nectivist and social constructivist approaches[C].Proceedingsof the 14th European Conference on E-learning.Hatfield,2015:34-40.  \n[37]石小岑,李曼丽.国际MOOC 研究热点与趋势——基于2013—2015 年文献的Citespace 可视化分析[J].开放教育研究,2016,22(1):90-99.  \n[38]苏楠,张 璇,杨红岗,等.基于知识图谱的国内网络舆情研究可视化分析[J].情报杂志,2012,31(10):42-46,58.  \n[39]孙宁,陈雅.WoS视域下国际网络舆情研究知识图谱分析[J].情报资料工作,2014(4):21-24.  \n[40]陆静.我国图书馆界大数据研究评述与展望[J].图书馆杂志,2014(1):20-25.  \n[41]Figshare:呈现学术出版的另一种打开方式[EB/OL].[2016-11-12].http://toutiao.com/i6298457945214566913/.  \n[42]刘知远.知识图谱——机器大脑中的知识库[EB/OL].[2016-10-14].http://www.36dsj.com/archives/31317.  \n[43]李涓子.知识图谱：大数据语义链接的基石[EB/OL].[2016-10-08].http://www.36dsj.com/archives/14961,",
+    "context6": "[作者简介]张妮,女,1983年生，中国人民大学书报资料中心编辑。王婧媛，女，1985年生，北京大学首都发展研究院助理研究员。收稿日期:2016-12-16"
+  },
+  "欢迎订阅人大复印报刊资料《图书馆学情报学》全文数据库": {
+    "context1": "中国人民大学书报资料中心隆重推出复印报刊资料《图书馆学情报学》(G9)回溯数据库。数据库以一张光盘形式提供。1982年—1994年数据库报价为1100元。1995年以后每季度更新数据,全年更新费为200元。该数据库可以全文检索,检索结果可以复制、拷贝、打印或者根据用户的需求进行再编辑。",
+    "context2": "联系单位：中国人民大学书报资料中心联系电话:010-82503412/38/40 62512171户名：中国人民大学书报资料中心网址:www.zlzx.org",
+    "context3": "地址：北京9666信箱市场部  \n邮政编码：100086  \n账号:344156031742  \n开户银行：中国银行北京人大支行"
+  }
+}

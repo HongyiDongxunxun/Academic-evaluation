@@ -1,0 +1,80 @@
+{
+  "original_filename": "full_7115.md",
+  "文本趋势挖掘综述": "",
+  "谌志群": {
+    "context1": "（杭州电子科技大学计算机应用技术研究所，浙江杭州310018）",
+    "context2": "摘要：文本趋势挖掘是文本挖掘新的研究热点,具有广阔应用前景。本文首先对文本趋势挖掘进行了概述，讨论了文本趋势挖掘的应用领域。然后综述了文本趋势挖掘的国内外研究现状，详细介绍了文本趋势挖掘的主流方法与技术，并分析了现有方法存在的主要问题。最后指出了文本趋势挖掘未来的发展方向。",
+    "context3": "关键词：文本挖掘；文本主题；自然语言处理；趋势挖掘中图分类号:TP391;G250文献标识码：A 文章阿编号:1007-7634(2010)02-0316-05"
+  },
+  "A Survey of Trend Mining for Texts": {
+    "context1": "CHEN Zhi-qun",
+    "context2": "(Institute of Computer Application Technology， Hangzhou University of Electron Science &",
+    "context3": "Technology, Hangzhou 310018, China)",
+    "context4": "Abstract:Trend mining for texts is becoming a new research focus of text mining and has a wide range of application prospects.Firstly,trend mining for texts is introduced and application fieldsof trend mining for texts are discussed. Then,the internal and overseas research status are presented,and primary methods and technologies are summarized detailedly.Some problems and limits of present methods are also analyzed in detail.Finally,future development direction of trend mining for texts are proposed.",
+    "context5": "Key words:text mining;text topic; natural language processing;trend mining",
+    "context6": "文本挖掘的概念是Feldman在1995年提出的[1],可定义为：为了发现知识，从大规模文本数据中抽取隐含的、以前未知的、潜在有用的模式的过程。文本挖掘可以看作是数据挖掘技术与文本处理技术的结合，是数据挖掘从处理结构化数据到处理无结构数据的一次飞跃，已成为当前知识发现领域的主流研究方向之一。目前，文本挖掘研究主要围绕文本挖掘模型；文本特征抽取与文本中间表示；模式挖掘算法等方面展开，挖掘的知识种类包括关联规则、语义关系、聚类与主题等[2]。近年来趋势知识挖掘成为了文",
+    "context7": "本挖掘的新的研究热点。"
+  },
+  "1文本趋势挖掘及其应用领域": {
+    "context1": "如果考虑文本数据的时间维度，那么文本数据可以看作是一类特殊的时序数据。这种时序性文本数据反映了一段时间内文本主题的变化情况，一般来说还同时蕴涵着与某些事物的发展趋势相关的知识，可用来预测下一时间段文本主题的发展变化方向，或结合相关领域知识预测其它事物的发展趋势。",
+    "context2": "(1)每天的网上新闻有很多主题，反映了当前社会的关注热点。通常情况下，与每个主题相关的新闻报道数量反映了该主题的受关注程度。一段时间内网上各主题相关新闻报道数量的变化情况也就反映了这段时间社会热点的变化情况，也蕴涵着下一时间段社会热点的发展趋势。对社会热点演化过程与发展趋势的挖掘，可帮助政府部门更好地掌握民情，并为正确引导社会舆论提供决策依据；也可为传统媒体充分利用有限的版面，选编最吸引眼球、最有新闻价值的新闻报道提供重要的参考信息。",
+    "context3": "(2)科技文献是科研人员进行科研活动的必要资源。一个科研人员进入一个新的研究领域时，第一件事情就是通过查阅科技文献掌握该研究领域的发展历程与研究前沿。然而科技文献浩如烟海，即使通过文献检索工具有针对性地获取文献资料也需要耗费大量时间去研读、归纳、整理与总结。通过文本趋势挖掘技术从大量科技文献中自动发现某特定研究领域主流理论与技术的演化情况，探测目前的研究热点与发展趋势，将对科研人员提供很大的帮助。",
+    "context4": "(3)股票价格的变化与股民的买卖行为是密切相关的，而股民的买卖行为又是受与上市公司有关的新闻报道和国家的政策公告影响的，而且这种影响是有规律可循的。新的财经报道或政策公告的发布如何影响股票价格的走势，应能根据报道或公告的内容，并结合历史数据进行预测。如何对财经报道和政策公告进行内容分析，进而正确预测股价走势对于投资者来说具有重要价值。",
+    "context5": "(4)一些大的产品生产与销售企业都建有呼叫中心，每天处理大量的客户咨询与投诉，并主要以文本的形式记录下来。这些文本数据包含与企业产品质量与服务质量相关的大量信息。通过对这些文本数据进行趋势分析，可以为企业改进产品、完善管理、提升市场竞争力提供决策依据。"
+  },
+  "2国内外研究现状": {
+    "context1": "在国外，目前文本趋势挖掘研究主要针对时事新闻、财经报道、科技文献、商业报告等时序性文本数据。文献[3-4]对一段时间内的新闻报道进行分析来发现当前的社会热点、多个社会热点之间的关联关系以及社会热点的变化趋势。文献[5]提出了主题进化图与主题生命周期的概念，首先抽取新闻报道的潜在主题，然后构建主题进化图来反映多个子主题的下一步演化。文献[6-7]通过分析美国专利数据库发现历年来各类专利的变化情况与发展趋势，供产品研发人员参考。文献[8]通过科技文献之间的引用链分析、文献[9]通过期刊论文中的高频词提取,从多维度来挖掘科研热点与科研发展趋势。文献【10-11]对客户服务记录进行趋势分析与挖掘，以提高客户满意度。文献[12-16]通过分析最新发布的财经报道来实时预测股票价格的走势。",
+    "context2": "在国内，有关中文文本趋势挖掘的研究还未见相关文献,只在主题检测与跟踪方面有一些研究[17-18]。但TDT的主要目标是在动态文本流中自动发现主题,并根据后续文本的内容自动判别文本的归属。这与文本趋势挖掘以发现趋势知识、预测事物未来发展方向为目标有所不同。"
+  },
+  "3主流方法与技术": {
+    "context1": "一般来说，文本数据的趋势挖掘主要由文本特征提取、文本主题表示、趋势知识挖掘、趋势知识表达等环节组成。对自然语言文本进行词法、语法、语义分析，提取文本特征是文本挖掘的第一步。获取文本集合的主题是后续趋势知识挖掘的基础。这里的主题可以定义为是对讨论同一个事件或同一类问题的文本集合的一个摘要。挖掘算法的设计是文本趋势挖掘的关键问题。趋势知识表达是指选择对用户友好的方式将挖掘出的知识展示给用户，帮助用户更直观、更容易地理解知识。"
+  },
+  "3.1关键词分布距离法": {
+    "context1": "文献【1,4-5,19】均使用关键词分布(KeywordDistribution)来描述文本主题,并通过计算不同时间段关键词分布之间的距离来发现文本主题的变化趋势。假设有两个时间段i和j,K为关键词集合，时间段i的关键词分布记为 $\\mathrm { P _ { K } ( x ) }$ ，时间段 $\\mathrm { j }$ 的关键词分布记为 $\\operatorname { Q } _ { \\mathrm { K } } ( \\mathbf { x } )$ ,其中 $\\mathbf { x } \\in \\mathbf { K }$ 。文献[1]中用相对熵来度量两个概率分布之间的距离，计算公式为：",
+    "context2": "$$\n\\mathrm { D ( P \\backslash \\backslash Q ) } { = } \\sum _ { \\mathrm { x } } \\mathrm { P ( x ) } \\log { \\frac { P ( \\mathrm { x } ) } { Q ( \\mathrm { x } ) } } = \\mathrm { E } _ { \\mathrm { p } } \\log { \\frac { \\mathrm { P ( \\mathrm { x } ) } } { \\mathrm { Q ( \\mathrm { x } ) } } }\n$$",
+    "context3": "考虑到相对熵的不对称性,文献[4]提出了一种改进的对称性方法，计算公式为：",
+    "context4": "$$\n\\mathrm { C _ { \\mathrm { c } } = \\frac { A _ { \\mathrm { c } } } { A _ { \\mathrm { m } } } }\n$$",
+    "context5": "$\\mathrm { A } _ { \\mathrm { c } } { = } \\sum$ $\\begin{array} { r } { \\mathrm { { A } } _ { \\mathrm { { m } } } \\mathrm { { = } } \\sum \\operatorname* { m a x } ( \\mathrm { P ( x ) , Q ( x ) ) } } \\end{array}$",
+    "context6": "而文献[5】和[19]则分别用Kullback-Leibler距离与差的平方和来度量两个概率分布之间的距离。"
+  },
+  "3.2频繁项集挖掘法": {
+    "context1": "序列模式挖掘是传统结构化数据挖掘的常用技术,文献[6]将此技术引入到文本数据趋势挖掘中。首先对多个连续时间窗口的专利描述文本进行分析，将词看作项,引入序列模式挖掘中的频繁项集挖掘算法[20],发现文本中的频繁项集（即高频词组)以及频繁项集的支持度。设论域为三元组 $\\mathrm { T C } { = } ( \\mathrm { D } , \\mathrm { T }$ ，R),其中 $\\mathrm { D } { = } \\{ \\mathrm { D } _ { 1 } , \\mathrm { D } _ { 2 } , \\cdots , \\mathrm { D } _ { \\mathrm { m } } \\}$ 是文本的有限集合。 $\\mathrm { T } =$ $\\{ \\mathrm { C } _ { 1 } , \\mathrm { C } _ { 2 } , \\cdots , \\mathrm { C } _ { \\mathrm { n } } \\}$ 是由词组成的“项”(item)的有限集合。R是个二元关系， $\\mathrm { R } \\in \\mathrm { D } { \\times } \\mathrm { T }$ ，每个序偶 $( \\mathrm { D } _ { \\mathrm { i } } , \\mathrm { C } _ { \\mathrm { j } } ) \\in \\mathrm { R }$ 表示文档 $\\mathrm { D } _ { \\mathrm { i } } \\in \\mathrm { D }$ 包含项 $\\mathrm { C _ { j } }$ 。令 $\\mathrm { L } _ { \\mathrm { k } } \\in \\mathrm { T }$ 是一个包含 $\\mathrm { k }$ 个项的有序集合(itemset）, $\\mathrm { L } _ { \\mathrm { k } }$ 的支持度(support）定义为D中包含 $\\mathrm { L } _ { \\mathrm { k } }$ 中所有项的文本的百分比。项集Lk被称为\"频繁的”(frequent）,如果它的支持度大于或等于最小支持阈值missupp。最小支持阈值可以根据需要由用户自定义。发现的频繁项集(高频词组)及其支持度作为文本集合D的主题表达。连续时间窗口内文本集合高频词组支持度的差体现了文本主题的连续变化，可以通过折线图等形象化的手段表征文本主题发展趋势。"
+  },
+  "3.3 RFM分析法": {
+    "context1": "文献[9]用一个名词集合表示文本主题，用主题词语在文本中的出现频率作为主题的活跃程度。首先采用信息检索领域常用的TF-IDF方法来索引文本，获取连续时间窗口文本集合的LA、DF、TF等几个参数。然后引入针对结构化数据的RFM分析方法[21]。最初该方法是为了解决商业领域的优质客户识别与客户关系处理问题的,3个参数R（Recency）、F（Frequency）、M（Monetary）分别表示客户最近消费的时间、消费的次数、消费的金额,通过将以上3个参数两两配对进行交叉表分析，可以实现优质客户的识别和客户消费趋势的分析与预测。文献【9]将LA、DF、TF这3个参数与R、F、M这3个参数对应,应用RFM分析方法来识别科技文献中的主题及主题的发展趋势。"
+  },
+  "3.4语言模型法": {
+    "context1": "文献[12]提出采用语言模型法来预测最新发布的财经报道对股票价格走势的影响。首先采用分段",
+    "context2": "线性回归法Qiecehiseneaderegression对样本股票Publishing综上所述，1目前的文本趋势挖掘方法基本都是et",
+    "context3": "价格的历史走势图进行处理，解析出股价涨、跌、持平等时段。然后分析与不同时段同步的财经报道，并引入机器学习方法分别为股价的涨、跌、持平建立语言模型（关键词集合)。当有新的财经报道（设为{$\\mathrm { D } _ { 1 } , \\mathrm { D } _ { 2 } , \\cdots , \\mathrm { D } _ { \\mathrm { m } } \\ \\} _ { \\mathrm { ~ , ~ } }$ )发布时，可以通过式(3)计算出接下来何种股价走势最可能出现，以及出现的概率。",
+    "context4": "$$\n\\mathrm { M _ { \\mathrm { b e s t } } \\mathrm { = a r g m a x _ { \\mathrm { t e t r e n d s } } P ( M _ { t } \\backslash \\{ \\ D _ { 1 } , D _ { 2 } , \\cdots , D _ { m } \\} ) } }\n$$",
+    "context5": "其中， $\\mathrm { \\Delta t }$ 取值为涨、跌、持平3种股价走势之一，$\\mathrm { M } _ { \\mathrm { t } }$ 表示第t种股价走势的语言模型。 $\\mathrm  P ( M , \\mid \\{ \\ D _ { 1 } , D _ { 2 }$ ，$\\cdots , \\mathrm { D } _ { \\mathrm { m } } \\} )$ 计算的是对于给定的文本集合 $\\{ \\mathrm { ~ D _ { 1 } , D _ { 2 } , \\cdots } $ ，$\\mathrm { D } _ { \\mathrm { m } }$ },能产生语言模型 $\\mathbf { M } _ { \\mathrm { t } }$ 的条件概率。为了方便计算,可根据贝叶斯公式将式(3)转化为式(4)：",
+    "context6": "$$\n\\mathrm { M _ { \\mathrm { { b e s t } } } \\mathrm { = a r g m a x _ { \\mathrm { { t e t r e n d s } } } \\mathrm { { P ( \\{ \\ D _ { 1 } , D _ { 2 } , \\cdots , D _ { m } \\} \\backslash M _ { t } ) P ( M _ { t } ) } } } }\n$$",
+    "context7": "与上述方法类似,文献[14]首先采用基于支持向量机的文本分类技术将财经报道分为“好”（发布后相关股票价格60分钟内上涨 $3 \\%$ 以上）“坏”（发布后相关股票价格60分钟内下跌 $3 \\%$ 以上）“无关\"3类。当有新的财经报道发布时，应用同样的文本分类方法对它进行归类，以此确定未来股价的走势。同样在处理财经报道时,文献[16]采用了3种文本主题表示法：词袋法、名词短语法、命名实体法，并比较了上述方法在股价预测中的性能差异，实验结果表明命名实体法优于其它方法。"
+  },
+  "3.5其它方法": {
+    "context1": "文献[10]提出一种概率模型即有限混合模型来追踪文本主题变化趋势。采用基于折扣学习的时间印戳算法在文本流中识别主题结构。该算法通过逐步“遗忘\"过时数据估算模型中的统计参数，适合动态文本流。然后通过应用动态模型选择理论检测模型中主要成分的变化情况，并基于此识别文本流中出现的新主题。文献【7】通过构建技术路线图（technologyroadmap,TRM）来表征产品研发热点的发展变化。TRM主要有3种：关键词图、关键词关系图、关键词进化图，采用的主要技术是同现词分析技术。文献[13]提出了一种基于决策树的方法。在经过Web上财经报道的采集、特征抽取、权重计算、数据集重建等步骤后，在趋势挖掘阶段采用C4.5决策树模型来预测股价走势。"
+  },
+  "4现有方法存在的主要问题": {
+    "context1": "以关键词、关键词组或者命名实体提取及其权重计算为基础，文本主题表示主要还是在词或词组层面进行，趋势知识挖掘主要是借鉴结构化数据挖掘中的成熟技术。在词或词组一级表示文本不能反映文本的深层语义信息。虽然这种表示容易获取，易于分析，但另一方面，会影响知识挖掘结果的可信度。现有的数据挖掘算法主要面向一致、完整、无噪声的结构化数据，如关系数据库中的数据。而文本数据具有不一致、不完整、有噪声、特征维数过高、数据稀疏等问题，简单引入现有的数据挖掘算法处理文本数据通常不能取得理想的效果。在趋势知识表达方面，现有方法有的只是给出简单的数值结果或将数值结果用表格简单组织一下展现给用户[1.3,7.9,12-13,16],没有更直观、更易于理解的趋势知识展示，理解知识需要用户自身的参与；有的将趋势知识用图形化方式，如折线图、柱状图等进行了可视化处理[4-6.8,10-11,14-15,19],但又缺少自然语言形式的知识描述。",
+    "context2": "现有方法的主要问题。",
+    "context3": "(1)没有充分认识自然语言的特点，在词或词组一级来表征文本显得过于粗糙。自然语言具有不确定性，主要表现为模糊性与随机性[22]。用一个确定的、正交的与无序的实词或词组集合来表示文本不能体现自然语言文本的不确定性，也无法充分反映自然语言文本的语义信息，也就不能为后续挖掘操作提供坚实基础。",
+    "context4": "(2)没有考虑自然语言与人的思维的关系，没有采用合适的计算范式对趋势知识挖掘这样一种带有明显人类思维特点的过程进行模拟。自然语言是人类思维的外在表现，是人类进行思维的工具。处理自然语言文本的最经济有效的方法应是通过模拟人的思维过程来模拟人对文本数据的理解与处理机制。",
+    "context5": "(3)没有为知识挖掘过程设计更自然、更人性化的接口，如没有提供用户友好的类自然语言知识查询语言，没有提供趋势知识的自然语言描述方法等。"
+  },
+  "5未来发展方向": {
+    "context1": "要解决上述问题，必须引入新的能体现自然语言不确定性的文本分析与语义表示方法，引入新的能更好地模拟人类思维的计算理论（如粒计算理论）,引入新的更具柔性、更加人性化的自然语言接口技术。今后文本趋势挖掘研究将围绕上述几方面展开。另外文本趋势挖掘研究应与具体应用更紧密"
+  },
+  "问题。技术与应用两方面的进步将推动文本趋势挖掘更快、更好地向前发展。": {
+    "context1": "参考文献   \n1Feldman R,Dagan I. Knowledge discovery in textual databases(KDT)[C].Proceedings of the First International Conference on Knowledge Discoveryand Data Mining (KDD-95).Montreal, Canada.20-21 August,1995: 112-117.   \n2 谌志群，张国煊.文本挖掘研究进展[J].模式识别与人工智 能,2005,18(1):65-74.   \n3 Montes-y-G6mez, A. Gelbukh, A.Lopez-López. Text mining asa social thermometer[C]./Proceedings of Text Mining workshop at 16th International Joint Conference on Artificial Intelligence (IJCAI99). Stockholm, Sweden. July 31- August 6,1999: 103-107.   \n4 Montes-y-G6mez, A. Gelbukh,A. Lopez-López. Mining the news: Trends,Assciations,and Deviations[J]. Computaci6n y Sistemas,2001,5(1):14-24.   \n5Qiaozhu Mei, ChengXiang Zhai. Discovering evolutionary theme patterns from text - An exploration of Temporal Text Mining [C].Proceedings of the eleventh ACM SIGKDD international conference on Knowledge discovery in data mining. USA:Chicago,Illinois, 2005:198-207.   \n6Brian Lent, Rakesh Agrawal, Ramakrishnan Srikant. Discovering trends in text databases[C].Proceedings of the Third International Conference on Knowledge Discovery and Data Mining.USA:Newport Beach, California,1997:227-230.   \n7Sungjoo Lee, Seongryong Kang. Using Patent Information for NewProductDevelopment:Keyword-BasedTechnology Roadmapping Approach [J]. Technology Management for the Global Future,2006,(3):1496-1502   \n8S Roy,D Gevry,W M Pottenger. Methodologies for trend detection in textual data mining [C].In the Textmine $^ { \\prime 0 2 }$ Workshop,Second SIAM International Conference on Data Mining. USA:Arlington, VA, 2002:56-76.   \n9Masahiro Terachi，Ryosuke Saga,Hiroshi Tsuji.Trends Recognition in Journal Papers by Text Mining[C].IEEE International Conference on Systems，Man，and Cybernetics, Taipei, Taiwan, 2006: 4784-4789.   \n10 Satoshi M, Kenji Y. Tracking dynamics of topic trends using a finite mixture model [C].Proceedings of the tenth ACM SIGKDD international conferenceon knowledge discovery and data mining(KDD'04). Seattle,Washington, USA. August 22 - 25,2004: 811-816.   \n11 Shona D, Deepak A, Tirso A. Mining Customer Care Dialogs for“Daily News\"[J]. IEEE Transactions on Speech and Audio Processing, 2005,13(5) : 652-660. Text and Time Series [C].Proceedings of KDD 200O Conference Text Mining Workshop.USA:Boston,MA,200O:37-44.   \n13Rachlin G,Alberg D,Kandel A.ADMIRAL-A Data Mining Based Financial Trading System [C].Proceedings of the 2007 IEEE Symposium on Computational Intelligence and Data Mining(CIDM 2007).USA:Honolulu,Hawaii,2007: 720-725.   \n14Marc-André Mittermayer.Forecasting Intraday Stock Price Trends with Text Mining Techniques [C].Proceedings of the 37th Hawaii International Conference on System Sciences. Big Island, Hawaii, USA: 5-8 January,20O4:1-10.   \n15Gabriel P, Jeffrey X,Wai L. Stock prediction- Integrating text mining approach using real-time news[C].Proceedings of International Conference on Computational Intelligence for Financial Engineering.Hong Kong: Shatin, China.20-23 March,2003:395-402.   \n16Robert P,Hsinchun C. Textual Analysis of Stock Market Prediction Using Financial News Articles [C],Proceedings of the 12th Americas Conference on Information Systems.Acapulco,Mexico,2006:1-20.   \n17莫倩,刘书家,等.主题追踪系统的研究与实现[J].计算 机工程与应用,2006,(2):179-181.   \n18 王科,刘渊,等.基于中文文本主题跟踪的网络信息 分析[J].四川大学学报(工程科学版),2004,36(1):114- 118.   \n19Feldman R, Dagan I.Ronen Feldman, Haym Hirsh,Ido Dagan.Mining text using keyword distributions [J].Intelligent Information Systems, June 1998,10(3):281-300.   \n20Srikant R,Agrawal R. Mining sequential patterns:generalizations and performance improvements[C].Fifth Int Conferenceon Extending Database Technology，Heidelberg: Springer, 1996:3-17.   \n21Vasilis A,Dimitris C. Customer clustering using RFM analysis[C].Proceedings of the 9th WSEAS International Conference on Computers.Athens,Greece.July 14-16,2005:8- 15."
+  },
+  "22 李德毅,杜.不确定性人工智能[M].北京：国防工业出版社,2005.10:68-72.": {
+    "context1": "（责任编辑：刘凤勤）"
+  },
+  "(上接第264页)": {
+    "context1": "Concept and Measure of Service Quality in Academic Libraries [J]. The Journal of Academic Librarianship,1996,(5): 181-190."
+  },
+  "2于良芝,谷松，赵峥.SERVQUAL在图书馆服务质量评估：十年研究述评[J].大学图书馆学报,2005,(1):51-57.": {
+    "context1": "3Parasuraman, Zeithaml, Berry.SERVQUAL:A Multiple-Item Scale for Measuring Consumer Perceptions of Service Quality [J].Journal of Retailing,1988,(3):12-40.   \n4Steven Seckho Chweh.User Criteria for Evaluation of Library Service[J]. Journal of Library Administration,1982,2(1):35- 46.   \n5Maurice B.Line.Measuring the Performance of Document Supply Systems[J]. Interlending and Document Supply 16,1988,(7):81-88.   \n6R.Tagliacozzo.Estimating the Satisfaction of Information Users [J].Bulletin of the Medical Library Association,1977, 65 (2):243-249.   \n7Leland F.Pitt, Richard T.Waston, C.Bruce Kavan. Service Quality :A Measure of Information Systems Effectiveness[J]. Journal of Management Information Systems Quarterly,1995, (6):173-187.   \n8Hollis Landrum,Victor R.Prybutok.A Service quality and success model for the information service industry [J].European Journal of Operationsl Research,2004,(156):628-642. England: MCB Books,1977: 43.   \n10T.Bicknell.Focusing on Quality Reference Service[J].The Journal of Academic Librarianship 20,1994,(5):77-81.   \n11 Gwenda M.E.Dalton.Quantitative Approach to User Satisfaction in Reference Service Evaluation [J].South African Journal of Library and Information Science 60 (2),1992,(6):89-   \n103.   \n12Hoffman,K.D.等,著.服务营销精要：概念、策略与案例[M]. 胡介损译.大连：东北财经大学出版社,2004:254-260.   \n13Davis.Perceived Usefulness,Perceived Ease of Use,and User Acceptance of Information Techology[J].MIS Quartely,1989, (9): 319-339.   \n14Seddon,P., Kiew,M.,1996.A partial test and development ofDeLone and McLean's model of IS success[J].Australian Journal of Information Systems 4,1996,(1): 90-109.   \n15Franz,C.R.,Robey,D..Organizational Context, User Involvement,and the Usefulness of Information Systems [J]. Decision Sciences,1986,17(3) :329 - 356.   \n16Hoops,J.E. Information center evaluation [J].Proceedings of the 23rd Annual Hawaii International Conference on Systems Sciences,1990,(1):210-217.   \n17SIMHA R.MAGAL.A Model for Evaluating Information Centre Success [J]. Journal of Management Information Systems,1991,(8):91-106.   \n18卢纹岱.SPSS forWindows统计分析[M].北京：电子工业出"
+  }
+}

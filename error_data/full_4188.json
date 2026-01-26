@@ -1,0 +1,118 @@
+{
+  "original_filename": "full_4188.md",
+  "图情领域虚拟现实研究热点主题和发展趋势分析 \\*": {
+    "context1": "李俊炀彭国超　张宁",
+    "context2": "[摘要］选择Webof Science核心数据库中的图情领域近30年关于虚拟现实技术的期刊论文和会议论文，基于LDA模型对文献摘要进行主题分析，并对各个主题的热点及趋势做出分析发现，图情领域中与虚拟现实相关的论文主要分为5个主题：数字文化遗产、图书馆服务、信息资源、用户体验、信息系统管理。基于各个主题当前的研究现状，图情领域VR研究的未来发展应持续探索文化遗产的数字保护和传承研究，促进VR技术与图书馆服务深度融合研究，加强VR信息资源及应用场景建设研究，推动以用户为中心的VR 技术影响研究。",
+    "context3": "[关键词］ 虚拟现实LDA模型主题识别趋势分析[中图分类号]G250.7[文献标志码］A[DOI]10.19764/j.cnki.tsgjs.20222098[本文引用格式]李俊炀，彭国超，张宁.图情领域虚拟现实研究热点主题和发展趋势分析[J.图书馆建设,2023(4):88-99."
+  },
+  "ThemeDiscoveryand Development TrendAnalysisofVirtual Reality ResearchinLibrary and Information Science": {
+    "context1": "Li Junyang, Peng Guochao, Zhang Ning",
+    "context2": "[Abstract]Thispaperselectsthejuralpapersandconferencepapersonvirtualrealitytechologyinthefieldoflibraryandinfomation scienceinthecoredatabaseofWebofScienceinthepast3Oyears,cnductsthematicanalysisontheliteratureabstractsbasedontheLDA model,andanalytheotspotsandtrendsofchtme.Tepapersrelatedtinthfieldoflbarndiformatioenceaeinly dividedintofets:diialuiaaryfoatiosouesseexpecedfoatiost Basedonthecurrentresearchstatusofarousthemes,thefuturedevelopmentofRresearchinthefeldoflibraryandinformationscince shouldontietexlethedigitalpotectondihritaeofturalritagepromoteteeintegratiooftecoldiba services,strengthenresearchontheonstructionofVRinformationresourcesandapicationsenariosandpromoteuserenteredresarch on the impact of VR technology.",
+    "context3": "[Keywords]Virtual reality; LDA model; Theme identification; Trend analysis"
+  },
+  "0引言": {
+    "context1": "近年来我国推出了多项政策并持续支持和鼓励虚拟现实（VirtualReality,简称VR）、增强现实（Augmented Reality，简称AR）、5G、人工智能、物联网等技术应用在各级公共文化服务机构，为图情领域在文化数字化、提升服务水平和数字资源建设的发展上指引了方向。2018年，工业和信息化部提出了“VR+”发展策略，提倡在多个学科领域培育新模式，拓展虚拟现实应用空间，为用户提供多感官体验模式[1。2019年，国家发展改革委员会、教育部、民政部、商务部等7部委联合印发的《关于促进“互联网 $^ +$ 社会服务”发展的意见》指出，要鼓励发展数字图书馆、数字文化馆、虚拟博物馆等，推动社会服务领域优质资源放大利用，深度推进“互联网 $^ +$ 中华文明”行动计划[2]。2022年5月，中共中央办公厅、国务院办公室印发了《关于推进实施国家文化数字化战略的意见》[3],明确了八个重点任务，要求利用数字化赋能文化保护、传播、共享和发展。",
+    "context2": "VR 技术是一种基于计算机的三维图形技术，它可以通过构建和展示虚拟场景，带给人们具有沉浸性、交互性、想象性的身体感官体验[4。当前，VR技术逐渐深入地应用在图书馆、博物馆、文化馆等公共文化机构当中，图情领域也有越来越多的学者开始探究VR技术是如何影响用户行为、用户体验、用户需求等方面的问题，并持续不断地丰富着相关的理论与实践研究方法。"
+  },
+  "1相关研究现状": {
+    "context1": "经过对图情领域的虚拟现实相关文献调研发现，从用户的视角来看，研究重点主要体现在三个方面：第一个方面是VR技术对用户行为产生的影响。王铎等[5通过问卷调查探究了VR图书馆服务用户的持续使用行为影响因素模型。Lin等[通过在大学图书馆中开展VR向导和平板地图的对比实验，研究了VR技术对学习方式、学习动机和学习兴趣方面的影响。Michalik等[在智慧城市的场景下，对利用VR 技术解决用户创新障碍的可行性进行了研究。第二个方面是VR环境下的用户体验研究。作为一种新兴可用于信息传递的技术，VR技术能为用户构建出真实的学习场景，强化他们的空间感知体验，从而提升沉浸感[8。Lee等[基于教育体验和娱乐体验探究了两者对用户使用VR博物馆体验的影响。游开锂[10]从提升用户学习体验的角度，为高校图书馆学习空间建设提出了建议。Hargrove等[]对VR 技术激发用户情感体验的有效性进行了研究。第三个方面是基于用户需求的VR 系统模型构建研究。傅宝珍[12]通过分析用户阅读古籍时的困难，提出了VR古籍阅读系统的构建方法和服务实施路径。张宁等[13]根据用户的古籍阅读需求，设计、开发和评估了VR古籍系统。Hu等[14]提出了一种基于VR 技术的大型虚拟空间博物馆建筑设计和应用实例。",
+    "context2": "LDA主题模型在主题识别和演化分析研究中受到了广泛的使用和扩展[15]。邱均平等[16]利用LDA模型对大数据话题的研究热点进行主题分析，识别了不同时间窗口的主题变化趋势。周国韬等[17对知乎社交平台问答中关于养生健康信息需求话题进行了采集，并对热点话题进行了详细的主题分析。杨九龙等[18]利用LDA主题分析提取出了用户对省级公共图书馆的网络评论，对高频词进行了情感倾向分析。李美凝等[19]提出将LDA模型应用在高校科技查新服务上，帮助科技查新工作人员获取热点主题的分布与演化规律。",
+    "context3": "随着VR技术的迭代创新速度不断增加，研究相关文献的数量也同步快速增长。为了紧跟国家文化数字化战略的发展方向，帮助学者们更全面地了解VR研究在图情领域主题发展的演化趋势，本文对图情领域中VR 技术的相关文献进行了收集，探索和分析图情领域VR研究现状，挖掘热点主题及其演化过程，并尝试预测了未来的发展趋势。"
+  },
+  "2研究设计和方法": {
+    "context1": "LDA（LatentDirichletAllocation）是一种非监督机器学习的文本挖掘方法，不需要人为标注即可分类出文本中潜在的主题，主要用来生成文档主题并推测文档主题分布的模型[20]。在一个文档集中，训练出多个主题的模型，将每个文档以概率分布的形式从主题集中抽取出一个或多个主题，以此来判断文档的主题归属。",
+    "context2": "本文采用LDA主题模型，对所收集文献的摘要进行主题提取，并将研究结果进行可视化分析，研究设计思路如图1所示。"
+  },
+  "3.1数据收集": {
+    "context1": "本研究以WebofScience为文献的数据来源，所选数据库为“Web of Science 核心合集”，引文索引为“全部”，搜索关键词“VR”“virtual",
+    "context2": "![](images/52bf1613ba09b39dd68dcf83a4fe10fd3579f7c760091a1aab97a480845f2757.jpg)  \n图1研究设计思路",
+    "context3": "量依次计算。按照困惑度越低，一致性评分越高，主题越容易理解的原则，最终综合判定最优主题数量$k = 5$ 个。同时设置参数 $\\propto = 0 . 0 2$ ， $\\beta = 0 . 0 2$ ，迭代次数iteration $= 1$ 000， $p a s s { = } 2 0$ ，以此参数训练LDA模型，并在结果中使用LDAvis工具对主题分",
+    "context4": "reality”“metaverse”，检索式为“( $\\scriptstyle ( ( \\mathsf { T S } = ( \\mathsf { V R } ) )$ OR( ${ \\sf T S } =$ (virtual reality)) ORTS $_ { 1 } = 1$ (metaverse)))”,学科类别限定在“information science and libraryScience”，文献类型限定为期刊论文和会议论文，时间为近30年（1992一2021年）。结果共检索到相关文献490篇，涉及计算机科学、管理学、教育学、传播学等交叉领域。经人工筛选，去除不相关的无用文献35 篇，最终得到文献455篇。从WOS中下载文献并提取出标题、关键词、摘要、地址、年份等信息，将数据导入MongoDB 数据库。"
+  },
+  "2.2数据预处理": {
+    "context1": "文本的数据预处理中，去除了无意义的单词、字母、数字和特殊符号，并在停用词表中加入数据收集时使用的搜索关键词；分词过程中，对英文单词进行了词形还原和统一单复数的处理，分词仅保留名词；利用Gensim工具构建词频矩阵，并生成语料库。"
+  },
+  "2.3主题提取": {
+    "context1": "在使用LDA模型对文本进行主题分析时，往往需要人工设定主题数量。主题数量过少，则无法体现出主题内容的细节；主题数量过多，则主题内容过于分散，难以归纳。因此，为判断最佳主题数量k，本文将主题数量区间限定为[0,40]，通过调用gensim库中困惑度和一致性评分函数，根据主题数",
+    "context2": "布进行可视化。"
+  },
+  "3研究结果与分析": "",
+  "3.1VR 相关文献整体分析": {
+    "context1": "本文通过统计WOS核心数据库中1992一2021年图情领域VR相关研究每年的发文情况，列出了图情领域中与VR技术相关的文献数量最高的10个国家，如图2所示。排名前10的国家文献数量占文献总量的 $7 6 . 7 \\%$ ，说明文献发表情况集中于少数国家。同时，美国的文献数量显著多于其他国家，1992一2021年美国的发文总量为127篇，比排名第二的中国54篇多一倍有余。中国和美国两国一共贡献了文献总量的 $3 9 . 8 \\%$ 。除美国、中国、意大利发文总量超过30 篇以外，其他国家在近30 年的平均发文量都不足1篇。由此可见，美国和中国的学者或机构对VR话题的研究比其他国家更加积极。",
+    "context2": "根据《期刊引证报告》（Journal CitationReports,简称JCR）最新的截止日期，至2021年10月25日为止，已收录图书情报领域（InformationScience&Library Science）专业期刊共86种。本文选取了发表VR相关文献数量最多的12种期刊，根据影响因子由高到低排序，并列出相应期刊的名称、影响因子、分区及文章数量，详情见表1。可以看出，发表与VR话题相关的期刊多数为Q1、Q2区的期刊，说明学科中高水平期刊对于VR话题的研究更感兴趣。",
+    "context3": "![](images/a9b92c8c4623519f2a71be7aa59f9afd5293544daa830996578238d1c2aafb71.jpg)  \n图2Web of Science上图情领域发表VR 相关文献数量排名前10的国家"
+  },
+  "3.2发展趋势阶段划分": {
+    "context1": "VR话题的增长趋势与VR软件和硬件设备的标志性发展有着高度的相关性。从VR话题文献数量上看，1997年、2007年、2014年、2017年这四个时间节点有着明显的增长。1995年，任天堂发布了首款能显示3D图像的便携式头戴式VR设备VirtualBoy，VR研究开始逐渐探寻落地应用场景；2007年，谷歌地图首次推出了“谷歌街景（Google StreetView）\"功能，提供 $3 6 0 ^ { \\circ }$ 沉浸式的街道全景观看体验，为公众普及了“虚拟场景”的概念；2014年，Facebook收购了VR设备商OculusVR，正式进入VR领域，极大推动了VR技术研发的积极性；2015年一2016年，HTCVIVE、Oculus Rift、PSVR三种当前全球主流的VR设备开始发售，更高画质和更轻的设备，为VR话题的研究提供了充分的硬件基础。",
+    "context2": "1992一2021年文献发表数量趋势图如图3所示，可以看到1992一2006 年以前的文献数量较少，整体较为平稳，期间出现过一次短暂的增长后，由于VR软硬件技术发展不足导致VR设备发售的失败，研究数量重新回落到早期水平；2006一2016年文献数量趋势波动频繁，出现3个小高峰，在短暂增加后又快速回落；2016年以后，文献数量急剧上升，2016一2018年连续实现了翻倍增长，之后虽然有部分回落，但是又快速地回到了较高水平。本文根据技术生命周期理论，结合VR技术的发展史和文献数量，将VR技术在图情领域的发展趋势划分为三个阶段：萌芽阶段（1992—2006），探索阶段（2007—2016），成长阶段（2017—2021）。",
+    "context3": "表1图情领域发表VR相关文献最多的期刊影响力列表",
+    "context4": "<table><tr><td rowspan=1 colspan=1>排名</td><td rowspan=1 colspan=1>期刊名称</td><td rowspan=1 colspan=1>数量</td><td rowspan=1 colspan=1>影响因子</td><td rowspan=1 colspan=1>分区</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>Telematics and Informatics</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>6.182</td><td rowspan=1 colspan=1>Q1</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>International Journal of Geographical Information Science</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>4.186</td><td rowspan=1 colspan=1>Q2</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Journal of the American Medical Informatics Association</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>4.497</td><td rowspan=1 colspan=1>Q1</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>Ethics and Information Technology</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>4.449</td><td rowspan=1 colspan=1>Q2</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Library HI Tech</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2.357</td><td rowspan=1 colspan=1>Q2</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1> International Journal of Information Management</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>14.098</td><td rowspan=1 colspan=1>Q1</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>Electronic Library</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>1.453</td><td rowspan=1 colspan=1>Q3</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Information&amp; Management</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>7.555</td><td rowspan=1 colspan=1>Q1</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1> MIS Quarterly</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>7.198</td><td rowspan=1 colspan=1>Q1</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Journal of the Association for Information Systems</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>5.149</td><td rowspan=1 colspan=1>Q1</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Information Technology &amp; People</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>3.879</td><td rowspan=1 colspan=1>Q2</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Information Technology and Libraries</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>1.160</td><td rowspan=1 colspan=1>Q3</td></tr></table>",
+    "context5": "![](images/0c47bf89d1381e7d3f68c9d130a5885aad933e0f26c55a4742c7733a516e89e6.jpg)  \n图31992—2021年文献年度总量变化趋势图"
+  },
+  "3.3关键词聚类分析": {
+    "context1": "本文利用CiteSpace中的LLR算法进行了关键词聚类分析，聚类指标模块值（Modularity）$\\scriptstyle { \\mathrm { Q = 0 } } . 6 4 5 \\ 1$ ， $\\mathsf { Q } { \\mathsf { > } } 0 . 3$ ，说明聚类结构显著；平均轮廓值（Mean Silhouette） $\\mathrm { S } { = } 0 . 8 7 7 \\ 5$ ； $\\mathrm { S } { > } 0 . 5$ ，说明聚类结构合理，因此聚类结果是令人信服的。关键词聚类形成了12个聚类簇，如图4所示，并且根据聚类结果，分析了每个聚类簇的文献起始年份和代表性关键词（见表2）。最终，结合聚类结果和关键词，分析得出两种研究类别。",
+    "context2": "第一类是技术影响研究，聚类包括虚拟世界（#0 virtual worlds）、技术采纳（#1 technologyadoption）、虚拟现实（#2virtual reality）、增强现实（#4augment reality）、混合现实（#5mixedreality）、云计算（#7cloud computing）、纠缠（#9 entanglement）。关键词聚焦于环境素养（environment literacy）、影响（impact）、认知有用性（cognitive usefulness）、系统质量（systemquality）、具身学习（embodied learning）、活体与虚拟身体（livingand virtual bodies）等。体现出该主题是以“技术”为核心，主要研究内容是技术对人的认知与行为产生的影响。",
+    "context3": "第二类是应用场景研究，聚类包括沉浸式新闻（#3immersivejournalism）、学术图书馆（#6academic libraries）、可避免的（#8avoidable）、开发模型（#10 developmentmodel）、疾病（#11illness）。关键词聚焦于数字新闻（digital journalism）、数字叙事（digitalstorytelling）、高等教育（highereducation）、求职评估（job-application assessment）、自动面试（auto interviewing）、检索（retrieval）、健康（health）等。主要研究内容是面向具体场景时应当如何使用虚拟现实技术。",
+    "context4": "![](images/fdd92dc36d52cd0d07487f87db3cd0b6775547ea427390a1f1adb0304457943c.jpg)  \n图4图情领域VR话题关键词聚类可视化视图",
+    "context5": "以上通过关键词聚类得出的结果表明学者们主要从技术影响和应用场景两个研究方向开展VR话题的研究。其中聚类结果0、2、4、5、7都是较为泛用的专业技术名词，主题差异性不够突出，难以体现清晰的研究主题。为了更细致地了解近30年来图情领域在VR 话题中的研究主题，本文进一步使用LDA模型对所有文献的摘要进行了主题分析与识别。"
+  },
+  "3.4主题分类结果及主题识别": {
+    "context1": "为了降低 virtual reality、augment reality、mixedreality等名词对LDA模型训练结果的影响，本研究将这些技术名词添加进了停用词表。最后，基于LDA模型训练结果，使用LDAvis工具包将模型结果可视化，得到了主题可视化视图，如图5所示。左侧显示的是主题的全局分布图，训练出的5个主题分布较为分散，重合度低，说明每个主题相对比较独立。右侧显示的是与主题最相关的30个词，这些词可以用来解释当前左边选取的主题内容。根据每个主题最相关词的统计，得到主题一词频概率分布表，详情结果见表3。",
+    "context2": "表2图情领域VR研究关键词聚类",
+    "context3": "<table><tr><td rowspan=1 colspan=1>聚类标签</td><td rowspan=1 colspan=1>聚类大小</td><td rowspan=1 colspan=1>S值</td><td rowspan=1 colspan=1>文献起始年份</td><td rowspan=1 colspan=1>代表性关键词</td></tr><tr><td rowspan=1 colspan=1>#0 virtual worlds</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>0.939</td><td rowspan=1 colspan=1>1999-2021</td><td rowspan=1 colspan=1>virtual worlds; information technology;databases; environmental literacy</td></tr><tr><td rowspan=1 colspan=1>#1 technology adoption</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>0.749</td><td rowspan=1 colspan=1>2003-2022</td><td rowspan=1 colspan=1>technology adoption; impact; cognitiveusefulness; trust</td></tr><tr><td rowspan=1 colspan=1>#2 virtual reality</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>0.831</td><td rowspan=1 colspan=1>2000—2020</td><td rowspan=1 colspan=1> virtual reality; complex adaptive systems; simulated space(s); avatars</td></tr><tr><td rowspan=1 colspan=1>#3 immersive journalism</td><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>0.862</td><td rowspan=1 colspan=1>2005-2021</td><td rowspan=1 colspan=1>immersive journalism; 360 degrees; digital journalism; digital storytelling</td></tr><tr><td rowspan=1 colspan=1>#4 augment reality</td><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>0.860</td><td rowspan=1 colspan=1>2005-2022</td><td rowspan=1 colspan=1> augmented reality; video surveillance; geographic information system; fit; systemquality</td></tr><tr><td rowspan=1 colspan=1>#5 mixed reality</td><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>0.938</td><td rowspan=1 colspan=1>2000-2021</td><td rowspan=1 colspan=1>mixed reality;embodied learning; scienceeducation; virtual learning environments</td></tr><tr><td rowspan=1 colspan=1>#6 academic library</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>0.927</td><td rowspan=1 colspan=1>2003-2021</td><td rowspan=1 colspan=1>academic libraries； noise levels; electronicmedia； human capacity building; highereducation</td></tr><tr><td rowspan=1 colspan=1>#7 cloud computing</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>0.837</td><td rowspan=1 colspan=1>2007-2021</td><td rowspan=1 colspan=1>cloud computing; internet of things; artificial intelligence; big data; robots</td></tr><tr><td rowspan=1 colspan=1>#8 avoidable</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>0.893</td><td rowspan=1 colspan=1>2002-2020</td><td rowspan=1 colspan=1>avoidable; job-application assessment;electronic health records;automatedinterviewing; human-computer interfaces</td></tr><tr><td rowspan=1 colspan=1>#9 entanglement</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>0.917</td><td rowspan=1 colspan=1>2000-2016</td><td rowspan=1 colspan=1>entanglement; grounded theory; living andvirtual bodies; crowdfunding; internet research</td></tr><tr><td rowspan=1 colspan=1>#10 development model</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>0.927</td><td rowspan=1 colspan=1>1999-2006</td><td rowspan=1 colspan=1>development model; retrieval; internet GlS;GML; information</td></tr><tr><td rowspan=1 colspan=1>#11 ilness</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>0.975</td><td rowspan=1 colspan=1>2002-2019</td><td rowspan=1 colspan=1> illness; health; body; product returns; customersatisfaction</td></tr></table>",
+    "context4": "主题是由多个主题词组成的，每个主题词在主题中有着不同的相关权重。不同主题之间有可能出现同样的词，不同的词之间组合有着不同的语境。表3显示了从文献摘要提取出来的5个主题以及与各自主题最相关的10个主题词。",
+    "context5": "本研究根据LDA模型训练结果，将VR 技术在图情领域中的研究热点识别为以下5个主题：数字文化遗产、图书馆服务、信息资源、用户体验、信息系统管理。通过比较CiteSpace 聚类与LDA主题的关键词，得到两者的关系：技术影响主题的关键词与用户体验、信息系统管理、图书馆服务主题的关键词重合度较高，而应用场景主题的关键词与图书馆服务、信息资源、数字文化遗产主题的关键词重合度较高。"
+  },
+  "3.4.1主题一：数字文化遗产": {
+    "context1": "![](images/fac177ac0b93537053b68966efeb5141d888a37f8cfca078babe4f52fb879d25.jpg)  \n图5LDAvis主题可视化视图",
+    "context2": "数字文化遗产主题的研究主要围绕在文化遗产数字化、数字修复、虚拟重建等研究方向。主要目标是提升数字文化遗产的用户体验感和参与感[21]。研究者通过收集文化遗产相关知识，采用直接展示或叙事型的讲述方式将内容呈现给用户，并利用VR或其他数字技术，模拟文化遗产环境和场景的变化，给予用户“穿越时空”的感觉[22]。虚拟环境的高自由探索模式，有助于用户深入情境学习文化遗产知识[23]。"
+  },
+  "3.4.2主题二：图书馆服务": {
+    "context1": "图书馆服务主题研究聚焦在如何将VR技术融入到图书馆服务中使用。有关研究明确了用户对于在图书馆内使用VR 服务有着较高的需求[24]，并且北美已有近半数的研究型图书馆对用户提供了VR服务[25]。VR空间服务是该主题的主要研究话题，包括VR学习空间的规划和作用[26]，以及将图书馆设为教学场所，通过在图书馆内开设VR课程，普及VR技术，提升学习者的VR 素养等[27-28]。用户可以使用VR 场地预约系统，随时预约使用图书馆内的VR空间，以满足用户的学习和使用需求[29]。",
+    "context2": "表3VR相关主题词分布表",
+    "context3": "<table><tr><td rowspan=1 colspan=1>Topic1</td><td rowspan=1 colspan=1>Topic2</td><td rowspan=1 colspan=1>Topic3</td><td rowspan=1 colspan=1>Topic4</td><td rowspan=1 colspan=1>Topic5</td></tr><tr><td rowspan=1 colspan=1>0.019*information</td><td rowspan=1 colspan=1>0.025*technology</td><td rowspan=1 colspan=1>0.015*environment</td><td rowspan=1 colspan=1>0.018*experience</td><td rowspan=1 colspan=1>0.016*system</td></tr><tr><td rowspan=1 colspan=1>0.019*model</td><td rowspan=1 colspan=1>0.021*research</td><td rowspan=1 colspan=1>0.015*world</td><td rowspan=1 colspan=1>0.014*information</td><td rowspan=1 colspan=1>0.016*technology</td></tr><tr><td rowspan=1 colspan=1>0.010*data</td><td rowspan=1 colspan=1>0.015*study</td><td rowspan=1 colspan=1>0.014*user</td><td rowspan=1 colspan=1>0.013*study</td><td rowspan=1 colspan=1>0.011*information</td></tr><tr><td rowspan=1 colspan=1>0.010*heritage</td><td rowspan=1 colspan=1>0.014*library</td><td rowspan=1 colspan=1>0.012*model</td><td rowspan=1 colspan=1>0.013*system</td><td rowspan=1 colspan=1>0.011*study</td></tr><tr><td rowspan=1 colspan=1>0.010*environment</td><td rowspan=1 colspan=1>0.010*paper</td><td rowspan=1 colspan=1>0.010*communication</td><td rowspan=1 colspan=1>0.012*paper</td><td rowspan=1 colspan=1>0.011*environment</td></tr><tr><td rowspan=1 colspan=1>0.010*paper</td><td rowspan=1 colspan=1>0.010*student</td><td rowspan=1 colspan=1>0.010*system</td><td rowspan=1 colspan=1>0.011*user</td><td rowspan=1 colspan=1>0.010*world</td></tr><tr><td rowspan=1 colspan=1>0.009*content</td><td rowspan=1 colspan=1>0.009*information</td><td rowspan=1 colspan=1>0.009*study</td><td rowspan=1 colspan=1>0.011*world</td><td rowspan=1 colspan=1>0.010*paper</td></tr><tr><td rowspan=1 colspan=1>0.008*technology</td><td rowspan=1 colspan=1>0.009*environment</td><td rowspan=1 colspan=1>0.008*interaction</td><td rowspan=1 colspan=1>0.011*service</td><td rowspan=1 colspan=1>0.010*user</td></tr><tr><td rowspan=1 colspan=1>0.008*museum</td><td rowspan=1 colspan=1>0.009*product</td><td rowspan=1 colspan=1>0.007*device</td><td rowspan=1 colspan=1>0.009*data</td><td rowspan=1 colspan=1>0.009*model</td></tr><tr><td rowspan=1 colspan=1>0.008*application</td><td rowspan=1 colspan=1>0.008*result</td><td rowspan=1 colspan=1>0.007*life</td><td rowspan=1 colspan=1>0.009*project</td><td rowspan=1 colspan=1>0.008*medium</td></tr></table>"
+  },
+  "3.4.3主题三：信息资源": {
+    "context1": "VR信息资源中3D模型和3D场景的数量远多于传统的数字信息资源，因此VR信息资源的建设和传播方式需要新的理论和实践指导，包括VR环境下知识元的构建方式[13]、信息资源的展示方法[30]，信息资源的传播模式[31等都是研究该主题的学者关注的研究方向。"
+  },
+  "3.4.4主题四：用户体验": {
+    "context1": "VR技术带来了新的信息获取和人机交互方式，对于VR环境下用户体验的研究由此得到拓展。在VR 环境中，用户的具身认知、情感认知、学习认知能力都与其他数字技术不同，因此评估用户体验对改进和提升VR技术和VR应用都具有积极指导作用。VR 技术可以提升用户的信息获取效果，相比传统媒介，用户从VR环境中可以获取更多维度的信息[32]。在用户满意度方面，沉浸体验、信息质量和应用质量是影响用户评判的主要影响因素[33]。因此，在设计VR 内容、场景和功能时，以用户为中心的设计思想和理论非常重要[34]。"
+  },
+  "3.4.5主题五：信息系统管理": {
+    "context1": "信息系统管理是将用户的需求转换为可供具体实施的功能，目的是为了分析和设计一个满足用户需求的系统模型。用户感知模型验证了用户在虚拟环境中拥有注意力需求、即时乐趣需求和探索需求[35]。通过全面分析用户需求，提前识别用户特征，基于VR技术特点，设计解决方案。例如，VR场景中的叙事策略设计能加强用户注意力，并为用户带来更好的沉浸感。利用VR技术模拟现实，可以让用户获取相关经验，使得用户将虚拟环境中的经验运用在现实环境[36。用户对VR技术的信息需求与服务需求，为信息系统的设计、实施和评估提供了新的方向。"
+  },
+  "3.5主题分布": {
+    "context1": "基于LDA 模型识别文献主题，计算得出与VR相关主题的总体分布：“图书馆服务”主题是图情领域主要的研究方向，相关的文献数量接近文献总量的1/3，达 $32 \\%$ 。其次是“用户体验”和“信息系统管理”主题，占比分别在 $2 6 \\%$ 和 $2 1 \\%$ ，较大的比例数据表明这三个主题是当前的研究热点。“数字文化遗产”和“信息资源”两个主题的数量明显少于其他主题，分别占比 $10 \\%$ 和 $7 \\%$ 。",
+    "context2": "不同国家对于主题的关注度如图6所示，横轴对应的是发文量最多的10个国家，纵轴为发文数量，柱形对应的是5个主题在国家中的文献数量。从整体上可见，中国，美国，意大利在主题分布的结构上较为相近；“数字文化遗产”的关注度仅在排名靠前的国家中有较多的关注；“图书馆服务”在大多数国家中发文量都较多，在美国和中国都明显多于其他主题；",
+    "context3": "![](images/a59f15790d3885ba3eb6a1dd4f1a8af68041259602f7f66ee4150f57590df3a1.jpg)  \n图6主题一国家热点分布图",
+    "context4": "“信息资源”相比其他主题受到的关注比较低；“用户体验”在各个国家中都有着较多的发文数量；“信息系统管理”在各个国家都有着较高的关注，并且在韩国、德国及日本是发文量最多的主题。"
+  },
+  "3.6主题热度演化趋势": {
+    "context1": "如图8所示，在主题演化热力图中，颜色越深说明文献数量越多，学者的关注度越高。整体上看图情领域VR主题的热度越来越高。“数字文化遗产”早期稳定在较小的热度上，而后关注度逐渐升高，在2018年到达顶峰后有所下降；“图书馆服务”在较长时间内都受到学者的较高关注，从2018年开始热度逐渐快速提升，2019一2021年“图书馆服务”的文献数量连续两年增长超过 $30 \\%$ ，并在2021年达到近30年来最高值；“信息资源”的热度长期以来维持在较低的水平；“用户体验”的研究一直比较多，期间在2018年达到峰值后有较大回落，随后又渐渐增多；“信息系统管理”1997一1999年文献数量较多，此后下降并经历了长期的较低热度，自2015年短暂的提升又下降后，随着时间推移文献数量逐渐增多，在2021年到达了近30 年的峰值。"
+  },
+  "4未来发展建议": {
+    "context1": "本文根据图情领域VR话题相关研究的主题分布现状，对各主题的趋势进行分析，并对图情领域开展",
+    "context2": "基于VR技术的研究及其发展方向提出以下四点建议。"
+  },
+  "4.1持续探索文化遗产的数字保护和传承研究": {
+    "context1": "应当借助VR、大数据、人工智能等新兴技术，促进文化遗产智慧化，为用户提供文化遗产智慧服务[37]。持续推动文化遗产VR化的制作和管理研究，将文化遗产以虚拟重现的方式保存和保护起来。要加强VR环境下文化遗产的知识组织和传播研究，利用VR技术沉浸性、想象性、交互性的特征，让用户能更深刻地感知文化遗产中所表达的历史信息。随着元宇宙的兴起，NFT（Non-FungibleToken，非同质化通证）技术的唯一性、可验真、可转让、可拥有等特性受到人们的关注，可利用NFT技术推动VR文化数字资源的知识产权保护、数字文化消费方面的研究。"
+  },
+  "4.2促进VR技术与图书馆服务深度融合研究": {
+    "context1": "要将VR技术更好地服务于公共文化服务，促进VR技术和图书馆服务的融合发展。加强在服务空间、服务场所、服务手段、服务方式、服务内容和服务体验等方面的研究[3。VR图书馆服务应当注重提升用户VR信息素养研究，同时也要研究如何培养出能熟练使用VR 等数字技术的复合型图书馆专业人才。应推动构建VR图书馆，并注重对特殊人群的推广研究，探索用户在VR图书馆个性化服务方面的需求。除了公共图书馆，还要在高校图书馆中开展VR技术与学科教学服务融合研究，在VR环境中创建多元的教学空间并提供多样的教学资源，为有需求的用户提供教学服务[39]。",
+    "context2": "![](images/18ce8757c36026f0363796f2fce5b3c4b57f1c170729e1b46a81669c665341f2.jpg)  \n图7主题一国家热点分布图"
+  },
+  "4.3加强VR信息资源及应用场景建设研究": {
+    "context1": "应当加快VR信息资源标准体系建设研究，为VR研究建立起强大的数据资源支撑体系。通过构建VR信息资源元数据、本体以及关联数据模型，为VR信息资源的存储、应用、服务和管理提供理论基础。同时，要研究如何高效和安全地将文本、图片、音频、视频等数字资源迁移至VR环境。利用VR技术构建图书馆、博物馆、历史遗迹等VR场景，结合人工智能技术，对场景进行智能建模和智能展示，以满足用户的多样化场景需求，为用户提供沉浸式的信息接收环境。要推进VR信息资源与现有数字信息资源整合，在信息系统的理论框架下，构建一个互联互通、统一共享的VR信息资源分享平台，提高VR信息资源的利用效率，满足不同用户群体对VR信息资源的需求。"
+  },
+  "4.4推动以用户为中心的VR技术影响研究": {
+    "context1": "2021年6月，文化和旅游部《“十四五”公共文化服务体系建设规划》确立了“以人为中心”的公共图书馆事业发展方向，让公共图书馆环境和功能融入到人民群众的文化生活中[40]。以人为中心的VR研究主要从用户需求、用户体验、用户行为等角度开展。一方面用户有着不同的需求层次，包括VR信息需求、VR 功能需求、VR 空间需求、VR 环境需求等。另一方面，要从多维度开展用户在VR环境下的感知体验研究[41]，如感官体验、认知体验、技术体验、服务体验、情感体验等能影响用户对VR环境评价的研究。同时，要在用户对VR技术的接受度，VR信息获取的满意度，VR 信息资源的可用性、使用意愿等研究上充分挖掘出用户的需求特征，从而为用户提供更加个性化的服务。"
+  },
+  "5结论与展望": {
+    "context1": "本文从WOS核心数据库抽取了图情领域中关于VR 技术的文献，利用CiteSpace关键词聚类和LDA模型主题分析，对图情领域在VR话题研究中进行了主题识别，根据主题识别结果进行了主题的热点和演化分析，为未来的研究提出了发展建议。",
+    "context2": "近5年是VR技术高速发展、快速普及的阶段，对比学者张媛[42]的研究，图情领域VR文献数量出现了巨大增长，研究主题和热点也有了新的变化。本文研究结果发现，每个主题呈现不同的演化趋势，研究主题更加的多样化，研究内容更加的具体化。当前研究热点主要集中在与图书馆服务相关的研究。当前的重点研究方向是图书馆服务，本文认为在未来一段时间仍具有极大的研究价值。未来关于VR环境下的用户研究、VR文化遗产等研究主题短期内也有着爆发的可能。以用户为中心的信息系统管理相关研究数量也呈快速增长趋势，尤其是用户对信息资源的需求、叙事化内容的需求、感知体验需求等。本文通过研究和分析近30年来国外图情领域对VR研究的热点，旨在为后来的学者提供研究思路，对今后国内学者的研究具有一定的借鉴意义。",
+    "context3": "本研究还存在以下几点不足和局限： $\\textcircled{1}$ 文献仅选取了Web of Science 核心数据库，未来研究可以扩大样本来源； $\\textcircled{2}$ 仅针对文献的摘要进行了主题分析，未来可以进行全文分析，以提升准确率； $\\textcircled{3}$ 在主题识别中，仅参考模型分析得出的关键词，最终识别结果与实际情况可能会有偏差，未来可结合专家咨询，以便更准确地判断主题。"
+  },
+  "参考文献：": {
+    "context1": "[1]工业和信息化部关于加快推进虚拟现实产业发展的指导 意见[EB/OL].[2022-08-10]. https://www.miit.gov.cn/ igsj/dzs/wjfb/art/2020/art_1a514e4bb2e14b018802293 d5b73de4b.html.   \n[2] 七部门印发《关于促进\"互联网 $^ +$ 社会服务\"发展的意 见》[EB/OL].[2022-08-10]. https://www.gov.cn/ xinwen/2019-12/12/content_5460638.htm.   \n[3] 国务院办公厅印发《关于推进实施国家文化数字化战略 的意见》[EB/OL].[2022-10-26].http://wwW.gov.cn/ xinwen/2022-05/22/content_5691759.html.   \n[4] BURDEA G C,COIFFET P.Virtual reality technology[M]. New York: John Wiley & Sons,2003:3-4.   \n[5] 王铎，陶冰心，郑国梦.基于期望与确认理论的VR 图 书馆服务用户持续使用行为影响因素研究[J.现代情 报,2020,40(8):111-120.   \n[6] LIN H C S,YU S J,SUNJ CY,et al. Engaging university students in a library guide through wearable spherical video-based virtual reality:Effects on situational interest and cognitive load[J]. Interactive Learning Environments,2021,29(8):1272-1287.   \n[7] MICHALIK D,KOHL P,KUMMERT A. Smart cities and innovations:Addressing user acceptance with virtual"
+  }
+}

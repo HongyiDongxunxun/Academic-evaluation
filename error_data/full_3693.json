@@ -1,0 +1,87 @@
+{
+  "original_filename": "full_3693.md",
+  "国外视音频信息元数据元素集研究综述": {
+    "context1": "张久珍1，段明莲，沈正华²",
+    "context2": "(1.北京大学信息管理系，北京100871；2.北京大学 图书馆，北京100871)",
+    "context3": "摘要：本文主要介绍国外视音頻元数据元素集的分布情况和主要视音频元数据元素集的构成情况，分析归纳出国外主要视音频元数据元素集的研究现状和特点。",
+    "context4": "关键词：视音频信息；视音頻元数据；视频元数据；音频元数据；数据元素；元素集；国外",
+    "context5": "中图分类号：TP391 文献标识码：A 文章编号：1007-7634（2005）11-1750-07"
+  },
+  "Review on Audiovisual Metadata Elements Abroad": {
+    "context1": "ZHANG Jiu- zhen’，DUAN Ming- lian’，SHEN Zheng - hua²",
+    "context2": "(1. Department of Information Management， Beijing University， Beijing 1O0871，China; 2.Bejing University Library，Beijing 100871，China）",
+    "context3": "Abstract：Thearticlereviews on audiovisual metadata elementsresearch in foreign countries．Thearchitecture of some important AV metadata elements set is introduced．The current conditions and characteristics of AV metadata elements research abroad are analyzed.",
+    "context4": "Key words:audiovisual information；audiovisual metadata；audio metadata；video metadata；metadata elements；abroad； foreign"
+  },
+  "1国外视音频信息元数据元素集的分布情况": {
+    "context1": "随着视音频信息资源的组织和描述问题日显重要，视音频信息元数据研究文献和研究项目逐渐增多，很多机构、研究小组纷纷立项研制各种元数据计划和方案，使得视音频元数据元素集的研究与设计呈现出多元化的局面，国外视音频元数据元素集的分布情况如表1所示。",
+    "context2": "国外视音频元数据元素集的分布非常广泛，从地区范围看，美国、澳大利亚以及欧洲各国都已经研制出视音频元数据元素集；从研究机构看，图书馆、信息中心、专业学术研究组织等都积极参与，研究人员分别来自图书馆、博物馆和广播电视领域。视音频元数据元素集的种类分布广泛，包括视频、音频、静态图像元数据，具体对象有数字图像、数字动态图像、广播电影电视作品、可视资源、博物馆藏品等。"
+  },
+  "2国外主要视音频信息元数据元素集的构成与特点": "",
+  "2.1MOA2数字图像元数据元素集的构成与特点": {
+    "context1": "MOA2（MakingofAmerica）是数字图书馆联盟（DigitalLibraryFederation）主持的项目。MOA2将数字图像的元数据分为描述性元数据、结构性元数据和管理型元数据。其描述性元数据采纳已有的描述性元数据标准，在结构性元数据和管理型元数据方面创立了新的体系。MOA2定义的对象层结构性元数据有3个元素，子对象层结构元数据有11个元素，管理型元数据包括数字原版图像元数据、识别数字图像的元数据、联接数字对象以及各个实例的元数据、版权提供及归属和复制信息的元数据[1]。具体的元素构成情况见表2。",
+    "context2": "表1国外视音频信息元数据元素集的分布",
+    "context3": "<table><tr><td></td><td>元素集及相关规范</td><td>研究机构</td></tr><tr><td>图像</td><td>MOA2数字图像元数据 数字静态图像技术元数据数据词典</td><td>数字图书馆联盟 NISO/CLIR/RLG</td></tr><tr><td></td><td>数字对象标准：元数据、内容与编码 数字图像编目与元数据标准 数字图像描述元数据使用指南</td><td>加州数字图书馆 澳大利亚 昆士兰州图书馆</td></tr><tr><td>音顿</td><td>数字图像元数据规范 广播文档核心元数据集 元数据交换方案，元数据交换标准 元数据元素数据词典</td><td>数字图像集团 欧洲广播联盟 印第安纳大学</td></tr><tr><td>视</td><td>开放式数字视頻库元数据元素表 数字动态图像元数据指南 艺术作品描述类目CDWA AMICO数据规范 ViDe用户指南：应用都柏林核心于数视频开发计划</td><td>北卡罗林纳大学 美国视频资源信息中心 盖特信息研究所 艺术博物馆图像集团</td></tr></table>",
+    "context4": "表2MOA2数字图像元数据元素构成",
+    "context5": "<table><tr><td>名称</td><td>类型</td><td>元素</td></tr><tr><td>MOA2 结构 性元</td><td>2描述对象的结构性元数据唯一标识符、内容类型、范围 描述子对象的结构性 元数据</td><td>数据文件长度、结构分割、子对象 关系、子对象类型、子对象值、子 对象顺序、子对象格式、子对象维</td></tr><tr><td>数据</td><td>数字原版图像元数据</td><td>数、子对象尺寸、子对象参照 来源资料类型、来源资料物理尺 度、来源资料特征、来源资料ID、 扫描日期、扫描仪规格、照明源、</td></tr><tr><td></td><td>识别数字图像元数据</td><td>分辨率 图像类型、文件格式、压缩格式、 尺寸、象素深度、色彩对照表、色 彩空间</td></tr><tr><td></td><td>联接数字对象的元数据</td><td>全景图像、顺序号、顺序总长、版 本、版本日期</td></tr><tr><td></td><td>版权信息元数据</td><td>拥有者、拥有者编号、版权日期、 贡献者说明、复制与发行限制、展 示与传递限制、许可证条款、许可 证起始日期、许可证终止日期</td></tr></table>",
+    "context6": "MOA2的元数据方案把结构性元数据按对象和",
+    "context7": "子对象分列，管理型元数据分为4种，原版图像和数字图像分列，来源资料类型包括图片、幻灯、手稿等，不同的来源类型及其相应的数字化版分别得到揭示。方案对每一个元素的内涵都做了一一界定。MOA2是多个机构合作的产物，所以该项目比较注重元数据的互操作性，已经开发出关系数据库来实现无数据的抓取。"
+  },
+  "2.2NISO/CLIR/RLG图像技术元数据元素集的构成与特点": {
+    "context1": "美国国家信息标准局（National InformationStandards Organization，NISO）、图书情报资源委员会（Council on Library and Information Resources,CLIR）及研究图书馆集团（ResearchLibrariesGroup）联合研制出图像技术元数据（TechnicalMetadata forImages，TMI)，并发布长达61页的《数字静态图像技术元数据数据词典》草案（ $( { \\bf z } 3 9 . 8 7 )$ ，2002年6月1日至2003年12月31日为评议期，经评议修订后将报送美国国家标准局（American Na-tional Standards Institute，ANSI）批准[2]。该草案的内容包括目的与范围、设计目标、实施原则、元数据定义、图像基本属性、图像创建、图像性能评估、图像处理历史以及Z39.87的 XML实现方案，TMI数据集的构成情况如表3。",
+    "context2": "NISO/CLIR/RLG元数据方案的特征把元数据元素与数字图像在复制、描述、组织、长期保存方面的特性紧密结合，分别从图像特征、图像制作和复制、图像确认与完整性三个方面提出元数据元素，对于数字图像的复制和长期保存有特别意义。TMI数据词典对每一个元素都提供定义、是否必备、是否可重复、修饰词、使用说明和示例。元素的属性共有四种，分别是必备型、推荐型、有则必备型和可选择型。例如文件格式就是必备型，分类标识是推荐型，水印是有则必备型，文件大小是可选择型。TMI数据集的研究自成体系，数据元素的构成经多次研讨会讨论，广泛吸取了多方建议，相对来说比较成熟，层次比较清楚，便于操作和实现。该标准的制定经历了一个比较完整的过程，其研究队伍在图像无数据方面比较有实力，集合了多国的研究力量，来自美国OCLC、康奈尔大学图书馆、研究图书馆集团、哥伦比亚大学图书馆、英国利兹大学以及德国、澳大利亚的专家一起制定了该草案。由于有美国国家信息标准局的参与，其元数据标准草案成为正式标准的可能性很大。",
+    "context3": "表3TMI数据元素构成",
+    "context4": "<table><tr><td>四大部分</td><td>构成元素</td></tr><tr><td>图像制作责任和标识元数据</td><td>责任者名称、责任者角色、对象存放时间、对象最近修改时间、对象组件元素存放时间、 对象组件最近修改时间、对象存放系统、对象存放系统版本</td></tr><tr><td>知识产权元数据</td><td>对象名称、源对象制作者、对象全部复制标识符、对象外部复制程序、对象描述</td></tr><tr><td>结构元数据</td><td>对象结构类型、对象内容组件数量、对象元数据组件数量、对象组件大小、对象组件 MIME类型、对象组件水平象素值、对象组件垂直象素值、对象组件图像取向、对象组件 图像空间分辨率、对象组件持续时间、对象组件数据流压缩方式、对象组件支持的浏览</td></tr><tr><td>支持登录存放的管理元数据 1 支持对象长期保存的管理元数据 支持长期保护管理的管理元数据</td><td>器、对象组件关系、对象组件用途、对象组件特定页数据类型、对象组件隶属部件 对象登录类型、对象登录时显示信息、对象登录信息、登录代码失效期 对象组件MD5检验和、对象组件校验和创建时间、对象外部迁移组件、对象备份标识 符、对象备份时间、对象存档标识符、对象存档时间 长期保护意图、源对象保存情况、对象重组指南、对象重组方法、对象组件色彩分辨率、 对象组件图像特征、对象组件重组批次、对象保护注释、对象组件保护注释</td></tr></table>"
+  },
+  "2.3加州数字图书馆数字对象元数据元素集的构成与特点": {
+    "context1": "加州数字图书馆，即CDL（Califormia Digital Li-brary）研究数字图像元数据的必备元素及其编码规则。参与研究机构包括康奈尔大学、纽约公共图书馆、宾州大学、斯坦福大学及加州大学伯克利分校。早在1999年就制定了《数字图像馆藏标准》，在此基础上发展成为数字对象标准。2001年发布长达66页的《数字对象标准：元数据、内容与编码》，该标准包括数字对象的定义、元数据与数字对象编码标准、描述性元数据、简单数字对象元数据元素、复杂对象元数据元素、范例、标准开发进度、各类元数据表等内容[3]。",
+    "context2": "与该标准同年制定的标准还有《数字图像格式标准》。CDL数字图像元数据方案基本采用了MOA2的元数据定义，也分列描述性、结构性、管理型元数据。对于简单对象共定义了13个描述性元数据必备元素。其复杂对象无数据分为多个类别，每个类别包含若干元素，采用XML语言作为其元数据编码语言。CDL数字图像无数据的元素构成如表4。",
+    "context3": "CDL元数据标准界定了每一个元素的名称、解释、是否必备、是否可重复、示例、来源、修饰词等内容。元数据产生的来源分为自动生成、数据抓取时手工提供、手工提供等类型。例如唯一标识符是自动生成，描述性元数据参照是数据抓取时手工提供，日期是手工提供。对于来源的界定清楚地显示出相应数据元素是如何产生的，能够为系统实现、软件设计提供参考。",
+    "context4": "表4CDL数字图像元数据元素表",
+    "context5": "<table><tr><td>元数据类型</td><td>元素设置</td></tr><tr><td>简单对象描 述性元数据</td><td>唯一标识符、描述性元数据标识符、描述性元数据类型、文件标识、文件类型、文件日期、文件用途、文件位置符、 压缩格式、色度空间、来源标识、来源类型、来源物理维度 内容文件目录 文件组、文件元素、文件位置符</td></tr><tr><td>复杂对象元数据</td><td>结构性元数据 结构图元素、结构分支元素、文件指针元素 普通管理元数据 管理元数据标识符 技术管理元数据 压缩格式、象素深度、色度空间、色彩转换表、扫描仪规格、照明源、编码、描述者 权利管理元数据 所有者、版权声明、复制限制、显示和传递限制、许可证、许可证起始日期、许可证终止日期 来源管理元数据 类型、细节、尺寸、扫描区域尺寸</td></tr></table>"
+  },
+  "2.4昆士兰州图书馆视音频元数据元素集的构成与特点": {
+    "context1": "澳大利亚昆士兰州图书馆“图解昆士兰”编目/元数据工作组（Picture Queensland Cataloguing/MetadataWorkingGroup）于2002年5月制定《数字图像编目与元数据标准》，该标准由概述、元数据方案、标引层次、元数据元素表、主题标目、评估程序、参考资料等内容构成[4。2002年9月发布了《数字图像描述元数据使用指南》，界定了利用元数据标准进行描述图像资源时所必须遵守的规则，包括大小写、地名、标点符号、日期等数据录人规范，提供每一个元素的定义、目的、是否必备、修饰词等，列出很多范例加以说明。目前该工作组主要解决对图像资源的描述问题，并计划扩展到音频、电影、全文手稿等资料的描述。昆士兰大学的JaneHunter等人为昆士兰州图书馆视听部开发出视频元数据生成器（Video Metadata Generator）能够把MARC记录转化成DublinCore格式的元数据记录[5]。",
+    "context2": "例如，对一段视频的MARC记录包括082字段（杜威分类号）、245字段（题名）等内容，元数据生成器自动把082字段对应到元数据记录系统中的元素“标识符”（ldentifie)，把245字段对应到元素“Title”，260字段出版项对应到元素“Publisher”，把300字段物理描述对应到元素“Format”，650字段主题词对应到元素“Subject”，522字段制作人对应到元素“Creator”，545字段摘要对应到元素“Description”。",
+    "context3": "昆士兰州图书馆视音频元数据标准是以都柏林核心集为基础的，层次清楚、概念界定明确、规则细致深人，具有可操作性。例如，缩略语要使用句号（如Qld.代表昆士兰)，大致日期表示为ca.1868，人名、地名和机构名称的写法等等。元素的来源界定为自动生成和标引员提供两种。该标准要求尽可能为各个元素提供详细的信息，以便用户检索资料。由于和“图解澳大利亚”（PictureAus-tralia）项目有密切联系，在元素表上注明哪些是“图解澳大利亚”元数据标准规定的必备元素。元素表还提供与OPAC对应的标签，例如元数据元素创建者对应于OPAC的摄影师，时间覆盖范围对应于OPAC的时期，空间覆盖范围对应于OPAC的位置，标识符对应于OPAC的控制号等。该标准还要求选取主题标目应参照的现有词表，例如：澳大利亚图片叙词表（Australian Pictorial Thesaurus，APT）、国会图书馆名称规范档（Library of Congress NameAuthorities，LCNA）、澳大利亚地名词典（Gazetteerof Australia）等。"
+  },
+  "2.5开放式数字视频库元数据元素集的构成与特点": {
+    "context1": "美国北卡罗林纳大学（University of North Caro-lina）信息与图书馆学院创建了“开放式数字视频库”项目（Open Video Project)。该项目采用的元数据方案是MPEG-7，描述视音频对象的方法是从描述内容上分出高层书目信息和低层视音频特征信息，并且分别按文本、视频、音频来描述。其中高层书目信息主要面向视频、视频片段、镜头，低层视音频特征信息主要面向分镜头和帧。根据视频内容对视频进行分层，为了满足用户检索的特殊需要，不同的层创建不同的元数据。描述高层书目信息的元数据吸收了都柏林核心的主要元素，为描述低层视音频特征信息而设计了新的元素，如字幕、色彩、形状、动作等[6。不同层次的元数据元素对象有不同的适用对象，这样就使视音频元数据结构化和立体化，便于理解，也便于应用。",
+    "context2": "表5北卡开放式数字视频库元数据元素表",
+    "context3": "<table><tr><td colspan=\"2\">描述对象</td><td>元数据元素</td><td>适用对象</td></tr><tr><td rowspan=\"5\">高层书 目信息</td><td>文本</td><td>结构性格式、标识符、来源、语言、关联、覆盖、文件大小、日期、类型、权利 概念性题名、创建者、主题、描述、出版者、贡献者、时长、文稿、对象、事件</td><td>视频 视频、片段、镜头、分镜头、帧、区域</td></tr><tr><td>视频</td><td>其它用户历史、内容管理 静态图像：关键帧、故事板、幻灯</td><td>视频、片段、镜头、分镜头</td></tr><tr><td></td><td>动态图像：快进、视频浏览</td><td>视频、片段</td></tr><tr><td>音频 文本 视频</td><td>声音、音乐、语言、解说、声音签名、曲调 背景声音，如动物、马达、游乐场、城市生活、卡通</td><td>视频、片段 视频、片段</td></tr><tr><td>低层视 音频特 征信息 效果，包括淡入、淡出、配衬边、渐隐 位置，包括区域位置、空间位置 其它，如面孔识别 音频 音频格式、音量、频谱、信号参数、音色</td><td>叠印、字幕 色彩，包括色彩空间、主色、色彩布局 形状,包括轮廓、3D现状 纹理 动作，包括摄影机运动(摇、仰角、推、拉、移、来回移动),轨道</td><td>镜头、分镜头 锁 帧 顿</td></tr></table>",
+    "context4": "Open Video的元数据方案已经应用到视频库的组织和检索，面向用户的检索结果提供视频片段的",
+    "context5": "标题、创作年代、关键词、时长、颜色、声音、语言、资助单位、贡献单位、数字化时间、数字化机构等信息。目前该项目的网站提供多人口的检索功能，并可免费下载。"
+  },
+  "2.6国防虚拟图书馆元数据元素集的构成与特点": {
+    "context1": "美国国防科技信息中心创建的“国防虚拟图书馆”（Defense Virtual Library）项目2000年10月制定发布《数字动态图像元数据指南》，2001年发布了修订版。该指南的内容包括MARC宇段指南、示例记录、必备与可选择数据元素表、保存和管理数字资源的技术元数据表、字段结束符等。其元数据方案根据MARC格式和AACR2规则创建，从001到985字段逐一界定，描述对象主要是数字化转换后的录像带。DVL项目描述数字动态图像资源元数据方案的特色在于它是基于MARC格式的视音频资源描述体系。",
+    "context2": "元数据元素以字段和子字段的形式出现，提供MARC标签、字段名称、子字段名称、示例和代码、对应的国会图书馆元数据元素和序号等信息。针对录像带、电影等不同类型的视频资料，该元数据指南都有详细的描述，例如007字段针对录像带的物理描述项细分为9个子字段，分别定义为材料类型、特殊材料、色彩、录像带格式、声音、声音介质、尺寸、声道等。对每一项的内容又界定了很多代码，如材料类型字段包括 $\\pmb { \\ v }$ 和 $\\mathbf { d }$ 两个代码，分别表示录像带和视盘，声道字段包括 $\\mathbf { m }$ q、s三个代码，分别表示单声道、四声道、立体声，录像带格式字段包括 $b , \\beta , k , p$ ，分别代表VHS、激光视盘、超级VHS和 ${ \\tt 8 m m _ { C } }$ ，针对电影的特殊细节，该指南也有特殊的界定，如“电影格式”子字段设定了a、b、d三个代码，分别表示标准声轨、保真宽银幕、失真宽银幕。",
+    "context3": "VDL项目规定了用于保存和管理数字视频资源的技术元数据元素。不足的是VDL元数据方案按照原有MARC的模式设计，不能简明地描述视音频资源，沿袭了旧的记录手段，仍然面临字段繁琐和代码繁多的问题。"
+  },
+  "2.7视频资源协会核心类目元素集的构成与特点": {
+    "context1": "美国视频资源协会的数据标准委员会开发出VRA视频资源核心类目（Core Categories for VisualResources)，简称VRACore。为了满足管理网络环境下视频资料收藏的需要，并在1996年推出了VRA的1.0版，起初设计了21个元素。2000年6月发布3.0版。第3版定义了17个元素，有的元素下设有子元素，每个元素都有明确的定义和数据值[8]。具体情况如表6。",
+    "context2": "表6视频资源协会核心元数据3.0版元素",
+    "context3": "<table><tr><td>类目名称</td><td>定义及子元素</td></tr><tr><td>Record Type</td><td>记录类型，区分作品（work）和图像（image)</td></tr><tr><td>Type</td><td>作品类型，要求用艺术与建筑叙词表</td></tr><tr><td>Title</td><td>题名，4个子元素：其它名称、译名、系列名称、更大实体名称</td></tr><tr><td>Measurements</td><td>量度，3个子元素：大小、格式、分辨率</td></tr><tr><td>Material</td><td>材料，2个子元素：介质、载体</td></tr><tr><td>Technique</td><td>技巧，制作、修改作品的生产流程、技艺、方法</td></tr><tr><td>Creator</td><td>创作者，4个子元素：作用、属性、个人名称、组织名称</td></tr><tr><td>Date</td><td>日期，6个子元素；创作、设计、开始、完成、修改、修复日期</td></tr><tr><td>Location</td><td>位置，6个子元素：当前位置、先前位置、创作位置、发现位置、当前存贮位置、先前存贮位置</td></tr><tr><td>ID Number</td><td>标识符，4个子元素：当前存贮地代码、先前存贮地代码、当前入口代码、先前入口代码</td></tr><tr><td>Style/Period</td><td>风格/日期，6个子元素：风格、时期、团体、流派、朝代、运动</td></tr><tr><td>Culture</td><td>文化，相关的文化、种类、民族、国家名称</td></tr><tr><td>Subject</td><td>主题，建议用AAT、ICONCLASS、TGM、西尔斯主题词表</td></tr><tr><td>Relation</td><td>关联，作品间的关系，如部分、草稿、漫画、模型、原型、传真、复本</td></tr><tr><td>Description</td><td>描述，对作品的解释、评价</td></tr><tr><td>Source</td><td>来源</td></tr><tr><td>Rights</td><td>权利，版权管理信息</td></tr></table>",
+    "context4": "我们通过下面这个示例可以清楚地了解VRA $\\mathrm { C o r e } 3 . 0 $ 是如何描述数字图像的，如表7。",
+    "context5": "表7VRA Core3.0示例",
+    "context6": "<table><tr><td>中 文</td><td>英文</td></tr><tr><td>记录类型：图片</td><td>Record Type = image</td></tr><tr><td>类型：数字式</td><td>Type = digital</td></tr><tr><td>题名：</td><td>Title = general view</td></tr><tr><td>测量维数：72dpi</td><td>Measurements.Dimensions = 72dpi</td></tr><tr><td>测量格式：jpeg</td><td>Measurements.Format = jpeg</td></tr><tr><td>技术：扫描</td><td>Technique = scanning</td></tr><tr><td>创建者：Fred技术员</td><td>Creator = Fred Technician</td></tr><tr><td>创建日期：1999</td><td>Date.Creation = 1999</td></tr><tr><td>位置：美国密歇根大学艺术博物馆</td><td>Location.Currnt Repository = Ann Arbor(MI, USA), University of Michigan Museum of Art</td></tr><tr><td>ID号：PCD5010-1611-1037-27</td><td></td></tr><tr><td>ID号:1977_2.15.jpeg</td><td>ID Nurmber.Curent Repository = PCD5010 - 1611 - 1037 -27</td></tr><tr><td>描述：详细信息见...(网址)</td><td>ID Number. Current Repository = 1977_2.15. jpeg</td></tr><tr><td>来源：密歇根大学艺术博物馆</td><td>Description = For more information, see</td></tr><tr><td>权属：密歇根大学艺术博物馆</td><td>Source = University of Michigan Museum of Art Rights=University of Michigan Museum of Art</td></tr></table>",
+    "context7": "说明、相关关系、使用规则、存取、术语和格式等内容[10]。",
+    "context8": "该元数据方案提供VRACore3.0与MARC字段对照表，例如元素 Title.Larger Entity相当于 MARC的773t字段，元素Location相当于MARC的651字段，元素 Source 相当于MARC的541字段，元素Relation相当于MARC的76X-78X字段，元素Ma-terial相当于MARC的340字段，元素Technique相当于MARC的655字段。这样对于熟悉MARC系统的工作人员比较容易学会运用VRA核心元数据方案来揭示和描述视频资料。",
+    "context9": "美国自然历史博物馆、芝加哥艺术学院、麦卡伦虚拟资源中心、加州州立大学、哈佛大学、Ohi-oLink等机构已经开始应用VRACore对照片编目，有的用于在线图像交换，有的用于视频资料数据库的扫描和检索，有的将其作为网络图像资源编目的标准[9]。VRA非常重视不同信息资源描述标准之间的融合，建立了与MARC、CDWA、都柏林核心、研究图书馆集团的REACH元素集（Record Export forArtand Cultural Heritage）等之间的映射，例如VRACore 的工艺（Technique）相当于都柏林核心的格式(Format)，也相当于CDWA的材料与工艺（Materialsand Techniques)，这样有利于不同标准之间的参照。VRACore元数据方案简单明了，元素名称及其定义清楚，行文流畅，易于理解和掌握。"
+  },
+  "2.8CDWA元数据集的构成与特点": {
+    "context1": "盖特信息研究所（Getty Information Institute）推出的艺术作品描述类目（Categories for the Descriptionof WorksofArt，CDWA)，是艺术作品及其可视资源和文献资源的描述标准，包括27个类目，每个类目下有若干子类目，对每一个类目提供类目名称、定义、子类目和说明，对子类目提供定义、示例、",
+    "context2": "表8CDWA数据元素",
+    "context3": "<table><tr><td>核心类目</td><td>可选择类目</td></tr><tr><td>对象/作品、分类、标 题或名称、量度、材</td><td>方向/安排、状况、版本、制作方法、 物理描述、题记、检查历史、处理历</td></tr><tr><td>料工艺、创建、主题、 当前位置</td><td>史、拥有、版权、风格、环境、展览</td></tr><tr><td></td><td>历史、相关作品、相关视频文档、相 关文本参照、评论、编目历史、注释</td></tr></table>",
+    "context4": "CDWA中的特色元素有：作品项的备注和引文，版本项的指定印数，题字和标记项的题字类型、字体和字型；考证项的考证人、考证地点、日期；保护历史项的行为者、处理时间；背景项的历史文化事件类型、事件发生时间地点、建筑物类型、发掘地、发掘者、发掘日期；展出历史项的展览名称、保管者、组织者、赞助人、展览地、展览时间；评论项的评论类型、评论者、评论时间、评论背景等。CDWA是针对博物馆资源建立的描述规范，类目设置有针对性，类目与子类目名称定义明确，层次清晰，在描述和组织数字化艺术作品方面获得了广泛应用。"
+  },
+  "2.9AMICO元数据集的构成与特点": {
+    "context1": "艺术博物馆图像集团（Art Museum Image Con-sortium，AMICO）开发的多媒体资源库收录的艺术作品达10万件以上，包括油画、雕塑、照片、珠宝、装饰艺术作品和手稿等。为了详细描述和揭示这些数字化资源，AMICO制定了《AMICO数据规范》，由文本记录规范、图像和多媒体文件规范及数据词典三部分组成[]。AMICO编目记录（catalogrecord）是在CDWA的基础上制定的，其元数据记录（metadatarecord）是在都柏林核心的基础上完成的。AMICO图书馆对每一个作品都提供这两种记录，并分别提供数据词典格式（datadictionary for-mat）和输出格式（output format）的记录内容。数据元素包括标识符、对象类型、对象组成部分、分类、分类方案、对象标题/名称、状态、版本、物理描述、量度、材料与工艺、题记、修复历史、保存历史、创建者、主题、评论、展览历史、拥有者、权利/版权、相关作品、编目历史等。AMICO数据规范还特别增加了版本控制元素，包括AMICO元数据有效时间、AMICO数据词典版本、元数据数据处理注释、元数据删除标签、元数据记录创建时间等。AMICO数据词典制定的元数据记录对每一个元素界定了标签、元素名称、是否核心、是否可重复、定义和指南、数据处理要求、示范和版本等信息。AMICO已经把其元数据研究的成果应用于多媒体资源的组织、检索和利用环节，在它的网站上就可以把作者名称、作者国籍、作品类型、创建日期、关键词、元数据记录创建时间等作为人口来检索多媒体资源库的内容。"
+  },
+  "3对国外视音频元数据元素集研究状况的分析和总结": {
+    "context1": "视音频信息资源本身的类型很多，制作方式、材质、获取手段等方面差异很大，统一的视音频元数据方案很难制定，现有的视音频元数据数据集达十多种，大部分都是基于都柏林核心设计的，但调整的幅度大小不一。其数据元素的数量多少也不统一，从十几个元素到几十个元素不等。呈现这种多元化局面的原因是：面向的用户群不同，方案的设计思想不同，因此产生的数据元素也就不同。为了满足不同的需求，有些方案注重面向终端用户，有些注重机构内部工作流程的安排。视音频元数据服务的对象包括图书馆读者、博物馆、档案馆、教育科研部门、媒体资产管理机构、广播电视工作者、数据库提供商和视音频设备生产部门。大部分研究机构制定了与数据元素相配合的使用指南、数据词典或使用说明、范例以及附录，对于元素的属性一般都界定是否必备、可重复，使得元数据方案具有可操作性。其中使用说明和附录部分的内容往往比视音频元数据标准规范本身要占据多得多的篇幅，而这部分内容很有实际参考价值，信息量也很大。由于视音频元数据方案出台的时间还比较短，元数据元素构成、定义、描述规则等内容都处于动态更新的阶段，研究机构不断根据用户反馈和视音频元数据发展的趋势进行修订，新的版本很快出现，所以，当前视音频元数据方案仍缺乏一定的稳定性。视音频元数据标准的研究有一个突出特点是其开放性，研究进程、研究成果随时在网上发布，并且免费提供，全球范围内的专家学者都可学习、利用、研究这些资源。"
+  },
+  "参考文献": {
+    "context1": "1张晓林.元数据研究与应用[M].北京：北京图书馆出版 社,2002.88.   \n2 NISO Z39.87-2002/AIIM 20-2002 Data Dictionary- Technical Metadata for Digital Still Images[EB/OL].http://www.niso. org/standards/standard_detail.cfm？std_id $\\approx$ 731,2004 - 05-   \n12.   \n3 California Digital Library.Digital Object Standard:Metadata,Content and Encoding[EB/QL].http://www.cdlib.org/news/reports - guidelines.html,2004- 02-19.   \n4State Library of Queensland Digital Standard 1- Cataloguing and metadata for digital images[EB/OL].http://www.slq. qld.gov. au/pub/digital/sd1_meta.htm,2004-12-16.   \n5 Jane Hunter,Jan Newmarch.An Indexing,Browsing,Search snd Retrieval System for Audiovisual Libraries[EB/OL].htp://archive.dstc.edu.au/RDU/staff/jane-hunter/ECDL3/paper.html,   \n2004 -11 - 08.   \n6 Open Video Project.School of Information and Library Science, Univeraity of North Carolina at Chapel Hill[EB/OL].htp:// www.open- video.org,2004-01-02.   \n7 Defense Technical Information Center,Defense Virtual Library Metadata Guidelineg for Digital Moving Images,I1 October 2000, revised 19 June 2001[EB/OL].http://dvl.dtic.mil/metadata_ guidelines/dvi_videl_guidelines 19 Jun O1.pdf,2004-02-   \n02.   \n8 VRA Core Categories,Version 3.0[EB/OL].http:/www. vraweb.org/vracore 3.htm,2003-09-01.   \n9袁莉，张晓林.数字图像的元数据格式[J].大学图书馆 学报,2001,(2):27-30.   \n10Categories for the Deacription of Works of Art[EB/OL].http:// www.getty.eud/research/conducting_research/standards/cdwa/,2003-05-11.   \n11AMICO Data Specification[EB/OL].http://www.aico.org/ AMICO library/dataspec.htm,2003-08-05.",
+    "context2": "（责任编辑：滕代娣）"
+  }
+}

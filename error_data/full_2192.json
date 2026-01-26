@@ -1,0 +1,148 @@
+{
+  "original_filename": "full_2192.md",
+  "关联数据互联技术研究综述：应用、方法与框架 \\*": {
+    "context1": "■沈志宏黎建辉张晓林",
+    "context2": "[摘要]以关联数据互联技术为研究对象，分别从应用实例、方法和算法、框架三个方面闸述其研究现状。指出关联数据的互联技术还需要进一步的深入，主要包括：关联数据互联应用领域需要进一步拓展，关联算法需要考虑来自大关联数据的需求，关联发现框架需要面向任务支持更丰富的任务类型，并提供流水线机制和全局的规划以及流程控制能力。",
+    "context3": "[关键词］关联数据互联关联发现框架 [分类号]TP393G350 DOI:10.7536/j.issn.0252-3116.2013.14.021"
+  },
+  "1关联数据的概念与应用": "",
+  "1.1关联数据的概念": {
+    "context1": "T.Berners-Lee 在2006年提出了“关联数据（linkeddata)\"的概念[],并制订了关联数据关于内容描述的“四大基本原则”： $\\textcircled{1}$ 使用URI来标识事物（useURIsasnames for things）; $\\textcircled{2}$ 使用HTTPURI使人们可以访问到这些标识（use HTTP URIs so that people can look upthose names）; $\\textcircled{3}$ 当有人访问到标识时，提供有用的信息（when someone looks up a name，provide usefulinformation）; $\\textcircled{4}$ 尽可能提供关联的URI,以使人们可以发现更多的事物(include links to other URIs so that theycan discover more things）。",
+    "context2": "从技术角度来讲，关联数据可以理解成一组最佳实践的集合[2]，它采用RDF（resourcedescriptionframework)数据模型,利用URI(统一资源标识符)命名数据实体，来发布和部署实例数据和类数据，从而可以通过HTTP协议揭示并获取这些数据，同时强调数据的相互关联、相互联系以及有益于人机理解的语境信息。Wikipedia认为，关联数据用来指代一组采用URI和RDF来实现语义网上的数据、信息及知识的公开、共享与联结的最佳实践。",
+    "context3": "2007年5月，W3C的关联开放数据（linkingopendata,LOD)运动正式启动[3],该运动提倡将Web上的开放数据源以RDF的方式发布出来，同时生成数据源之间的RDF链接，以供关联数据浏览器、搜索引擎以及更高级的应用程序使用。很快关联数据概念就流传开来，现在已成为互联网的热门研究领域，从2008 年起在年度互联网大会（WWWConference）上都举行关于LinkedData ontheWeb(LDOW)的专门会议。另外在ISWC（International Semantic web Conference）、DIST（Data Integration through Semantic Technology）大会上也经常召开专门的会议。2012年4月在法国里昂召开的WWW2012大会上，就包含了LD0W2012工作组会议，讨论的话题涉及关联数据的自动关联、分布式异构性以及互操作。",
+    "context4": "在LOD项目启动后短短的三年中，越来越多的数据拥有者将他们的数据以关联数据的形式发布到Web上。截至2011年9月，L0D已收录295个数据集（见图1)。按数据涉及的主题领域[4]可分为：多媒体（如 BBC、CNET、ThomsonReuters）；文献出版物（如DBLP、CiteSeer、EPrints、SWC）；生命科学（如UniPort、PubMed、CAS、Bio2RDF）;地理数据（如GeoNames、LinkedGeoData）；社交网络（如Flickr、FaceBook）以及跨领域的数据（如DBPedia、Freebase、YAGO、UMBEL、OpenCyc）。"
+  },
+  "1.2关联数据的互联成为首要问题": {
+    "context1": "从关联数据“四项基本原则”可以看出，关联数据的四大基本要素为：URI、HTTPURI、RDF以及RDF链",
+    "context2": "沈志宏黎建辉张晓林",
+    "context3": "![](images/59af0d696a95748e46e78fde867968ed7aa6189b762c166003dc363414fa03f5.jpg)  \n图1LOD数据云图[5]",
+    "context4": "接（RDFlink）。RDF链接在Web数据的发现中发挥了重要的作用。根据梅特卡夫定律（Metcalfe’slaw）6：网络结点之间的连接越多，网络的价值则会越大，因此这些关联本身就能产生价值。作为关联数据的实践项目，W3C的关联开放数据运动也强调了RDF链接的重要作用：RDF链接可以让用户通过语义网浏览器（semanticWebbrowser）从一个数据源中的某个数据项导航到另外一个数据源中相关的数据项中。RDF链接同时也可以为语义网搜索引擎所使用，从而为抓取到的数据提供完善的检索和查询功能。另外，由于查询结果是结构化的数据而非指向HTML页面的链接，它们能够被其他的应用程序使用。",
+    "context5": "然而，从2011年9月L0D收录的情况来看7]，295个数据集中包含了310亿条RDF三元组（RDFtriples），其中包含有5亿条RDF链接（一个RDF链接本身就是一个RDF三元组）。表1显示出LOD数据集在不同领域中的分布情况。从表1中可以看出，RDF链接在RDF三元组中所占的比重还不到 $1 . 6 \\%$ ，这种弱关联性远远不足以支持高级的知识关联发现。",
+    "context6": "在以上背景下，关联数据的互联（interlinking），即建立跨数据集的数据关联，其方法和技术的研究成为近年来热点话题。在LDOW2010（WWW2010WorkshoponLinkedDataontheWeb）会上，数据互联成为会议的一大专题（其他的专题包括关联数据发布、基础设施与架构、关联数据应用等）。另外，由COLD2010(International Workshop on ConsumingLinked Data）发布的几大开放问题中[8]，居于首位的就是关联数据的互联算法（interlinkingalgorithm），其次是溯源与信任、数据集动力学、用户界面、分布式查询、评估（见图2）。",
+    "context7": "表1LOD数据集在不同领域中的分布情况",
+    "context8": "<table><tr><td rowspan=1 colspan=1>领域</td><td rowspan=1 colspan=1>数据集</td><td rowspan=1 colspan=1>三元组</td><td rowspan=1 colspan=1>外向链接</td><td rowspan=1 colspan=1>链接%</td></tr><tr><td rowspan=1 colspan=1>媒体</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>1,841,852,061</td><td rowspan=1 colspan=1>50,440,705</td><td rowspan=1 colspan=1>2.74</td></tr><tr><td rowspan=1 colspan=1>地学</td><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>6,145,532,484</td><td rowspan=1 colspan=1>35,812,328</td><td rowspan=1 colspan=1>0.58</td></tr><tr><td rowspan=1 colspan=1>政府</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>13,315,009,400</td><td rowspan=1 colspan=1>19,343,519</td><td rowspan=1 colspan=1>0.15</td></tr><tr><td rowspan=1 colspan=1>出版</td><td rowspan=1 colspan=1>87</td><td rowspan=1 colspan=1>2,950,720,693</td><td rowspan=1 colspan=1>139,925,218</td><td rowspan=1 colspan=1>4.74</td></tr><tr><td rowspan=1 colspan=1>跨领域</td><td rowspan=1 colspan=1>41</td><td rowspan=1 colspan=1>4,184,635,715</td><td rowspan=1 colspan=1>63,183,065</td><td rowspan=1 colspan=1>1.51</td></tr><tr><td rowspan=1 colspan=1>生命科学</td><td rowspan=1 colspan=1>41</td><td rowspan=1 colspan=1>3,036,336,004</td><td rowspan=1 colspan=1>191,844,090</td><td rowspan=1 colspan=1>6.32</td></tr><tr><td rowspan=1 colspan=1>用户应用</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>134,127,413</td><td rowspan=1 colspan=1>3,449,143</td><td rowspan=1 colspan=1>2.57</td></tr><tr><td rowspan=1 colspan=1>合计</td><td rowspan=1 colspan=1>295</td><td rowspan=1 colspan=1>31,634,213,770</td><td rowspan=1 colspan=1>503,998,829</td><td rowspan=1 colspan=1>1.59</td></tr></table>",
+    "context9": "此外，在LD0W2012会议的16个报告中，有三篇文献都涉及到关联发现的话题，分别介绍有声电台档案的自动互联、智能城市数据的互联、基于互联视角的数据网络的交互技术、基于VOID对互联数据集的查询等。在COLD2011会议中，A.Schultz等推出了一款集成化关联发现与集成框架LDIF（LinkedDataIntegration Framework）[9]。在 WWW 2012 会议上,A.Schultz又介绍了LDIF的新版本[0]。",
+    "context10": "![](images/3b17c9dfbff89f28d877dff8f49db238f3037aa2d55f0bec005819f46158a46a.jpg)  \n图2COLD2010发布的关联数据热点话题",
+    "context11": "与国际上关联数据的研究进展相比，从见诸专业刊物的文章来看，关联数据在国内的研究尚不普及[],并且仅局限于图书馆情报领域,还未引起计算机领域、数据库领域的广泛重视。基于此背景，本文以关联数据互联技术为研究对象，分别从应用实例、方法、框架三个方面阐述其研究现状。"
+  },
+  "2关联数据互联的应用实例": {
+    "context1": "作为全球第一个关联数据化的联合目录，瑞典联合目录（LIBRIS,http://libris.kb.se）可以作为图书馆届关联数据互联的示范应用。LIBRIS自2008年起，发布了来自于170余个成员馆的600万条以上书目记录与25万条规范文档记录的RDF记录，此外还发布了规范记录与书目记录以及规范记录之间的关联[2]，甚至包含国会图书馆主题词表数据的关联，见图3（图片来源：http://blog.libris.kb.se/semweb/）。",
+    "context2": "此前,在 DC -2008 年会上,P.Miller 的Keynotes[13]探讨了图书馆界在语义Web中可以承担的角色，并专门介绍了美国国会图书馆将其主题表(LCSH)以SKOS编码的项目（http://lcsh.info）。从LIBRIS到LCSH.info,是一-个典型的跨数据集的数据互联应用。",
+    "context3": "在媒体领域,LinkedMDB[14]是一个比较实际的跨数据集数据互联的应用实例,LinkedMDB实现了与其他LOD数据集的互联，包括DBpedia/YAGO、Geonames、FlickrWrapper、RDF Book Mashup、Musicbrainz、Revyu.com等。这种关联效果见图4。",
+    "context4": "LinkedMDB包含实体233103项，指向其他LOD数据的关联数为162199项，关联数目统计见表2。",
+    "context5": "![](images/1dbb07f9f89e8e7297ae83927fc7b57e9b1e703d472b0e4bb6a4be81e29989bf.jpg)  \n图3瑞典联合目录联与国会图书馆主题词表的关联",
+    "context6": "![](images/b1e5478de0679ba9d8ad263748f23c9acd949d0264b5df9e4cfef9e4a3b21917.jpg)  \n图4LinkedMDB与其他LOD数据集之间的关联[12]",
+    "context7": "表2LinkedMDB自动发现的关联数目",
+    "context8": "<table><tr><td rowspan=1 colspan=1>目标</td><td rowspan=1 colspan=1>类型</td><td rowspan=1 colspan=1>数目（条）</td></tr><tr><td rowspan=1 colspan=1>DBpedia</td><td rowspan=1 colspan=1>owl: sameAs</td><td rowspan=1 colspan=1>30354</td></tr><tr><td rowspan=1 colspan=1>YAGO</td><td rowspan=1 colspan=1>owl:sameAs</td><td rowspan=1 colspan=1>30 354</td></tr><tr><td rowspan=1 colspan=1>flickr wrappr</td><td rowspan=1 colspan=1>DBpedia:hasPhotoCollection</td><td rowspan=1 colspan=1>30354</td></tr><tr><td rowspan=1 colspan=1>RDF Book Mashup（Books）</td><td rowspan=1 colspan=1>movie:relatedBook</td><td rowspan=1 colspan=1>700</td></tr><tr><td rowspan=1 colspan=1>RDF Book Mashup（Authors）</td><td rowspan=1 colspan=1>rdfs :seeAlso</td><td rowspan=1 colspan=1>12 990</td></tr><tr><td rowspan=1 colspan=1>MusicBrainz</td><td rowspan=1 colspan=1>owl:sameAs</td><td rowspan=1 colspan=1>2207</td></tr><tr><td rowspan=1 colspan=1>GeoNames</td><td rowspan=1 colspan=1>foaf:based near</td><td rowspan=1 colspan=1>27 272</td></tr><tr><td rowspan=1 colspan=1>GeoNames</td><td rowspan=1 colspan=1>owl: sameAs</td><td rowspan=1 colspan=1>272</td></tr><tr><td rowspan=1 colspan=1>Lingvoj</td><td rowspan=1 colspan=1>movie:language</td><td rowspan=1 colspan=1>28 253</td></tr><tr><td rowspan=1 colspan=1>IMDb</td><td rowspan=1 colspan=1>foaf :page</td><td rowspan=1 colspan=1>271 671</td></tr></table>",
+    "context9": "在生命科学领域,数据互联的应用较多。如：Diseasome $\\mathbf { M a p } ^ { [ 1 5 ] }$ 应用整合了不同生命科学的数据源，"
+  },
+  "沈志宏黎建辉张晓林": {
+    "context1": "$[ 2 0 1 1 - 0 9 - 1 0 ]$ .http://citeseerx.ist.psu.edu/viewdoc/ download? doi=10.1.1.181.860 $\\mathbf { \\& } \\mathbf { e } \\mathbf { p } = \\mathbf { r } \\mathbf { e }$ p1&type $=$ pdf.",
+    "context2": "[13]Miller P.Why the Semantic Web matters[EB/OL]．[2011-09 -10]．http://dc2008．de/wp- content/uploads/2008/09/ dcmi20080925-miller.pdf.",
+    "context3": "[14］Hassanzadeh O,Consens M.Linked movie data base [EB/OL]. [2013-06-13].http://ceur- ws.org/Vol-538/ldow2009_ paperl2.pdf?.",
+    "context4": "{15]GohKI,Cusick ME,Valle D,et al．The human disease network [J]．Proceedings of the National Academy of Sciences,2O07,104 (21):8685-8690.",
+    "context5": "[16]Momtchev V,Peychev D,Primov T,et al.Expanding the pathway and interaction knowledge in linked life data[EB/OL].[2013-06 -13].http://www.ontotext.com/sites/default/files/publications/ LLD_semantic_web_challenge_2009.pdf.",
+    "context6": "[17］Dong Xiao，Ding Ying，Wang Huijun，et al．Chem2Bio2RDF Dashboard：Ranking semantic associations in systems chemical biology space[EB/OL]．[2013-06-13]．http://delos.zoo.ox. ac.uk/pub/2010/Proceedings/FWCS2010/03/Paper3.pdf.",
+    "context7": "[18]Vidal ME,Raschid L，Marquez N,et al.BioNav：An ontologybased framework to discover semantic links in the cloud of linked data[J]．The Semantic Web：Research and Applications Lecture Notes in Computer Science，2010(6089）:441-445.",
+    "context8": "[19］白海燕，朱礼军.关联数据的自动关联构建研究[J]．现代图书情报技术，2010（2)：44-49.",
+    "context9": "[20]Bizer C,Cyganiak R,Heath T.How to Publish Linked Data on the Web［EB/OL]．[2012-03-08]．http://www4.wiwiss.fuberlin.de/bizer/pub/LinkedDataTutorial/.",
+    "context10": "[21]Bizer C,Cyganiak R,Gau?T.The RDF book mashup:from web APIs to a web of data[EB/OL]．[2013-06-13]．http://ceur - ws.org/Vol-248/paper4.pdf.",
+    "context11": "[22]Raimond Y,Sutton C,Sandler M.Automatic interlinking of music datasets on the semantic web ［EB/OL]. $[ 2 0 1 3 - 0 6 - 1 3 ]$ · http://ceur-ws.org/Vol-369/paperl8.pdf.",
+    "context12": "[23]邓兰兰，李春旺．Web数据关联创建策略研究[J]．现代图书情报技术，2011(5)：1-6.",
+    "context13": "[24] Shvaiko P,Euzenat J.A survey of schema - based matching approaches[J]. Journal on Data Semantics IV,2005(3730）:146- 171.",
+    "context14": "[25]Rahm E，Bernstein P A.A survey of approaches to automatic schema matching[J].VLDB Journal,2001，10(4）:334-350.",
+    "context15": "[26]Nikolov A,Uren V,Motta E.Data linking:Capturing and utilising implicit schema-level relations [EB/OL]．[2013\\~O6-13]. http://ceur-ws.org/Vol-628/ldow2010_paper07.pdf.",
+    "context16": "[27]Rowe M. Interlinking distributed social graphs[EB/OL]．[2013 - 06- 13]. http://ceur - ws.org/Vol - 538/ldow2009_ paper5. pdf.",
+    "context17": "[28] Volz J， Bizer C,Gaedke M,et al.: SILK - A link discovery framework for the web of data[EB/OL]．[2013-O6-13].",
+    "context18": "http://ceur-ws.org/Vol-538/ldow2009_paperl3.pdf.   \n[29] Isele R,Jentzsch A, Bizer C. SILK server- Adding missing links while consuming linked data[EB/OL]. $[ 2 0 1 3 - 0 6 - 1 3 ]$ http://ceur- ws.org/Vol-665/IseleEtAl_COLD2010.pdf.   \n[30]Hassanzadeh O,Lim L,Kementsietsidis A，et al．A declarative framework for semantic link discovery over relational data $[ \\mathrm { ~ C ~ } ] / \\AA$ Proceedings of the 18th International Conference on World Wide Web.New York :ACM,2009:1101-1102.   \n[31]Ngomo A C N,Auer S.LIMES：A time －efficient approach for large\\~scale link discovery on the web of data[C]//Proceedings of the Twenty- Second international joint conference on Artificial Intelligence - Volume Volume Three．Barcelona:AAAI Press, 2011: 2312 -2317.   \n[32]Scharfe F,Liu Yanbin，Zhou Chunguang.RDF-AI：An architecture for RDF datasets matching，fusion and interlink．[EB/ OL].[2013-06-13]．https://www.sti2.at/public_html/pub/ RDF-AI - an- Architecture-for- RDF- Datasets - Matching - Fusion- and- Interlink - IR- KR - IJCAI-2009.pdf.   \n[33]Nikolov A，Uren V，Motta E,et al．Integrationof semantically annotated data bythe KnoFussarchitecture[M]//Knowledge Engineering:Practice and Patterns．Berlin；Springer,2O08:265- 274.   \n[34]Bizer C，Schultz A．The R2R framework：Publishing and discovering mappings on the Web[EB/OL].[2013-06-13]. http://ceur-ws.org/Vol-665/BizerEtAl_COLD2010.pdf.   \n[35]Mendes P N，Muhleisen H,Bizer C. Sieve： linked data quality assessment and fusion[C]//Proceedings of the 2012 Joint EDBT/ ICDT Workshops.ACM,Lyon,2012：116-123.   \n[36]陶俊，孙坦，刘峥．关联数据映射语言：R2R[J]．中国图书馆 学报,2012,38(3):100-109.   \n[37]Woelger S，Siorpaes K，Buerger T，et al.A survey on data interlinking methods[EB/OL].[2013-06-13].htp://www. insemtives.org/publications/A_Survey_on_Data_Interlinking_ Methods. pdf.   \n[38]Markotschi T,V? lker J.Guess what?！- Human intelligence for mining linked data $[ \\mathrm { ~ C ~ } ] / /$ Proceedingsof the Workshop on Knowledge Injection into and Extraction from Linked Data（KIELD） at the International Conference on Knowledge Engineering and Knowledge Management（EKAW），Lisbon，2010.   \n[39] Schandl T，Blumauer A. PoolParty: SKOS thesaurus management utilizing linked data[J]． The Semantic Web：Research and Applications,2010(6089）:421-425.   \n[40] Leonardi E,Abel F,Heckmann D,et al.A flexible rule-based method for interlinking，integrating，and enriching user data[J]. Web Engineering，2010(6189）:322-336.   \n[41]Entrez cross- database search．[EB/OL]．[2010 -O9 -10]. http://www.ncbi.nlm.nih.gov/Entrez.   \n[42] ICPSR，Find& Analyze Data.［EB/OL]．[2011-09-08]. http://ww.icpsr.umich. edu/icpsrweb/ICPSR/index. jsp.   \n[43]Tansley S，Tolle K M.The fourth paradigm：data-intensive scientific discovery[R]．Microsoft Research,2009.   \n[44]Hu Bo,Carvalho N,LaeraL,et al．Towards big linked data：A large-scale，distributed semantic data storage[C]//Proceedings of",
+    "context19": "the 14th International Conference on Information Integration and Web-based Applications & Services．New York :ACM,2012：167 -176."
+  },
+  "3关联数据互联方法研究": {
+    "context1": "在关联数据互联方法和算法方面，有一部分研究关注于如何在关联开放数据环境下通过一些自动和半自动的方法来创建数据之间的关联。白海燕等[19将关联数据之间的关联构建概括为映射关联（owl：sameAs)和非映射关联,并以书目数据关系为例介绍基于规则的关联构建方法。",
+    "context2": "作为关联数据发布的权威教程，C.Bizer等[20]提出，关联的创建可以采用两种算法：基于模式（pattern）的算法以及基于属性的复杂算法。"
+  },
+  "3.1基于模式的算法": {
+    "context1": "该算法比较简单，适用于拥有唯一标识符的资源对象，如DBPedia包含有《哈利·波特与混血王子》图书的RDF描述，并记录该图书的ISBN编号为0747581088，同时由于RDFBookMashup[2]采用了形如http://www4．wiwiss．fu -berlin.de/bookmashup/books/{ISBNnumber}的URI模式,那么就可以创建DBPedia与RDFBookMashup之间的关联,如：",
+    "context2": "$<$ http://dbpedia.org/resource/Harry_Potter_and_ the_Half-Blood_Prince >",
+    "context3": "owl : sameAs",
+    "context4": "$<$ http://www4.wiwiss.fu -berlin.de/bookmashup/ books/0747581088 >"
+  },
+  "3.2基于属性的算法": {
+    "context1": "该算法适用于没有唯一标识符的资源对象，如针对某个地理位置，可以采取涉及该位置的文章标题、经纬度、国家、行政区划、人口等属性信息，建立Dbpedia与Geonames之间的地理位置的映射。",
+    "context2": "Y.Raimond等[22]结合音乐数据集，介绍了自动创建关联的两种途径：基于实体的文本映射（又分为简单文本查找、扩展文本查找)及基于RDF 图形相似度计算的映射。",
+    "context3": "3.2.1基于实体的文本映射该方法又分成简单文本查找和扩展文本查找方法。简单文本查找可通过遍历式匹配或者SPARQLWHERE语句来实现，扩展文本查找则借用分类、分面、类型特征、属性特征等进一步对资源进行限定。",
+    "context4": "作为例子，以下代码表示通过SPARQL语句查询LIBRIS的规范文档数据集，来获取关于WilliamGibson的规范记录[17]：",
+    "context5": "DESCRIBE？sWHERE   \n！   \n？sa foaf:Person.   \n？s foaf:name William Gibson: 一",
+    "context6": "3.2.2基于RDF图形相似度计算的映射RDF图形相似度计算相对比较复杂，以图5为例，计算RDF图形的相似度可以分解成如下三个步骤：",
+    "context7": "![](images/7d6a618728f7e40491bcb664724e3e90506c9f5def4207df061ce5a04b6ac126.jpg)  \n图5三个待比对的RDF图形[20]",
+    "context8": "·标注RDF图形中所有的结点，如表3所示：",
+    "context9": "表3标注RDF图形中所有的结点",
+    "context10": "<table><tr><td rowspan=1 colspan=1>图</td><td rowspan=1 colspan=1>主语(S)</td><td rowspan=1 colspan=1>谓词(P)</td><td rowspan=1 colspan=1>对象（0)</td></tr><tr><td rowspan=2 colspan=1>G1</td><td rowspan=1 colspan=1>1:Last Supper</td><td rowspan=1 colspan=1>dc :creator</td><td rowspan=1 colspan=1>2:Leonardo da Vinci</td></tr><tr><td rowspan=1 colspan=1>1:Last Supper</td><td rowspan=1 colspan=1>dc :date</td><td rowspan=1 colspan=1>3:1495-1498</td></tr><tr><td rowspan=2 colspan=1>G2</td><td rowspan=1 colspan=1>4:Last Supper</td><td rowspan=1 colspan=1>dc:creator</td><td rowspan=1 colspan=1>5:Leonardo Da Vinci</td></tr><tr><td rowspan=1 colspan=1>4:Last Supper</td><td rowspan=1 colspan=1>dc :date</td><td rowspan=1 colspan=1>6:1498</td></tr><tr><td rowspan=2 colspan=1>G3</td><td rowspan=1 colspan=1>7:Last Supper</td><td rowspan=1 colspan=1>dc:creator</td><td rowspan=1 colspan=1>8:Tintoretto</td></tr><tr><td rowspan=1 colspan=1>7:Last Supper</td><td rowspan=1 colspan=1>de:date</td><td rowspan=1 colspan=1>9:1592-1594</td></tr></table>",
+    "context11": "·计算每个结点的相似度，计算结果如表4所示：",
+    "context12": "表4RDF结点的相似度",
+    "context13": "<table><tr><td rowspan=1 colspan=1>结点1</td><td rowspan=1 colspan=1>结点2</td><td rowspan=1 colspan=1>结点相似度</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>0.94</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>0.44</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>0.11</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>0.56</td></tr></table>",
+    "context14": "·根据结点的相似度，计算图的相似度，如表5所示：",
+    "context15": "表5RDF图形的相似度",
+    "context16": "<table><tr><td rowspan=1 colspan=2>图</td><td rowspan=1 colspan=1>映射</td><td rowspan=1 colspan=1>图相似度</td></tr><tr><td rowspan=1 colspan=1>C1G2</td><td rowspan=1 colspan=1>G2</td><td rowspan=1 colspan=1>Mgl:Mg2=1(1,4),(2,5),(3,6)|</td><td rowspan=1 colspan=1>0.79</td></tr><tr><td rowspan=1 colspan=1>G</td><td rowspan=1 colspan=1>G3</td><td rowspan=1 colspan=1>Mgl:Mg3=1(1,7),(2,8),(3,9)}</td><td rowspan=1 colspan=1>0.56</td></tr></table>",
+    "context17": "邓兰兰等[23]针对同构和异构模式下的关联关系创建技术作了详细的综述。同构模式下的关联创建方法包括单一方法(属性值相似度算法、图形相似度算法等）、组合方法(基本算法聚合、分类模型等），异构模式下的关联创建的主要策略则是先建立异构数据之间的模式映射[24-25],然后再运用同构方法来创建实例之间的关联。此外,A.Nikolov 等人介绍了一种通过聚类算法推导出模式级别关联的方法[26]。M.Rowe介绍了如何生成Facebook与Twitter和Myspace.com之间的链接[27]",
+    "context18": "可以看出，以上方法最终会涉及到属性文本的相似度算法。目前针对属性相似度计算的研究比较成熟：字符串相似度如 jaro、jaroWinkler、qGram、概念距离、levenshtein 距离、Jaccard、Dice 等算法。此外，还有基于TF-IDF及向量空间模型的文档相似度算法、字符串集合相似度算法等。"
+  },
+  "4关联发现框架研究": "",
+  "4.1关联发现框架": {
+    "context1": "由于数据集互联的过程极其复杂，人们开始研究适用于关联数据互联的框架,从而实现关联发现、关联集成任务的自动化和流程化。",
+    "context2": "首先值得一提的是基于规则的关联发现框架SILK[28-29],SILK允许用户制定 SILK -LSL（SILK LinkSpecificationLanguage）规则文件,并藉此自动生成出不同数据集之间的实例级的链接。SILK不仅能够生成数据之间的owl:sameAs关联，也可以生成其他类型的关联，如：DBPedia电影与LinkedMDB导演之间的dbpedia:director关联。原理上，SILK主要通过给定的两个数据集中数据的属性相似度来计算它们之间的关联关系。SILK-LSL支持的相似度算法包括Jaro 距离、Jaro-Winkler、Levenshtein 算法、q-grams 文本相似性计算、文本等价性、数值距离、日期距离等算法。最新版本的SILK推出了SILKworkbench,允许用户通过图形化的界面在线完成SILK-LSL配置的定义，并启动关联发现的任务。SILKworkbench中的Linkage Rule Editor（关联规则编辑器)如图6所示：",
+    "context3": "![](images/33bf4780be37009a04ebd355cd93c1e3e056fe41123137ce2a6d590a05281046.jpg)  \n图6SILK的关联规则编辑器",
+    "context4": "类似地,O.Hassanzadeh 等提出了一款完全针对关系型数据的语义连接发现框架LinQuer(Linkage QueryWriter)[30],并且同时提出了一套声明式语言 $\\mathrm { L i n Q L }$ 。",
+    "context5": "A.C.N.Ngomo 等[31]根据三角形不等式,提出了两种高效的近似距离计算方法,并集成多种比对算法构建了关联框架LIMES（Link Discovery Framework forMetric Spaces）。",
+    "context6": "RDF-AI[32]是另外一款基于用户配置的RDF 数据集的融合和互联框架。RDF-AI接受两个RDF数据集作为输入，产生由两个数据集融合形成的新数据集，或者产生它们比对的结果数据集。如图7所示，RDF-AI的架构包括5个相对独立的模块：预处理、匹配、融合、互联、后处理。RDF-AI提供了灵活的配置接口，允许用户定义融合任务的输人和输出。通过对AKTEprints 数据集中的314条记录和Rexa数据集中的2103条记录进行关联，证明通过采取合适的预处理，RDF-AI关联的正确率高达 $9 5 . 9 \\%$ ,这比KnoFuss 33]针对同样的数据集得到的正确率( $9 2 \\%$ 还要理想。",
+    "context7": "![](images/1e9e1e4e42b913217bee99f2435d872c33ab141b481e586fbafee91f252a6a82.jpg)  \n图7RDF-AI系统架构",
+    "context8": "数据互联往往不是一个孤立的过程，它通常会伴随着数据转换、数据融合等任务。基于该思路， $\\mathrm { L D I F } ^ { { \\left[ 9 \\right] } }$ 为用户提供了一个关联数据集成处理框架，该框架有效集成了如LDSpider $\\mathrm { R } 2 \\mathrm { R } ^ { \\mathrm { i } 3 4 ] }$ 、SILK、Sieve[35等关联数据的应用工具，可以帮助用户构建完整的流水线，包括数据采"
+  },
+  "关联数据互联技术研究综述：应用、方法与框架": "",
+  "4.2关联发现框架比较": {
+    "context1": "值得一提的是,S.Wolger等[37]针对目前流行的一些关联发现工具和框架进行了综述与对比，调研对象涉及RDF-AI、SILK、Knofuss、LinQuer、InterlinkingDistributedSocialGraphs[27]、Guess What[38]PoolParty[39]、GrappleUserModelingFramework（GUMPF）{40]、CaMiCatzee、ExpLOD、GNAT 这11 个工具或系统,重点针对自动化程度、人工参与、适用领域、匹配方法、采用本体、输入形式、输出形式、后处理、数据访问方式这9个方面进行了比较，本文予以摘录并整理,形成表6。",
+    "context2": "可以看出，各种关联发现框架都实现了自动、半自动的发现方式，在进行RDF资源匹配的时候也分别采取了不同的匹配方法。作为补充，本文从支持理论、任务覆盖面、可配置性以及任务流水线这4个方面针对SILK、RDF-AI、LinQuer、LIMES、LDIF等5类流行的框架做出了二次比较(见表7）。",
+    "context3": "表6常见互联工具与框架比较(1)",
+    "context4": "<table><tr><td rowspan=1 colspan=1>工具</td><td rowspan=1 colspan=1>自动化程度</td><td rowspan=1 colspan=1>匹配方法</td><td rowspan=1 colspan=1>输人</td><td rowspan=1 colspan=1>输出</td><td rowspan=1 colspan=1>数据访问</td></tr><tr><td rowspan=1 colspan=1>SILK</td><td rowspan=1 colspan=1>半自动</td><td rowspan=1 colspan=1>字符串匹配,相似度算法</td><td rowspan=1 colspan=1>SILK-LSL配置文件</td><td rowspan=1 colspan=1>linkset</td><td rowspan=1 colspan=1>SPARQL</td></tr><tr><td rowspan=1 colspan=1>RDF-AI</td><td rowspan=1 colspan=1>半自动</td><td rowspan=1 colspan=1>字符串匹配，词关系匹配</td><td rowspan=1 colspan=1>两个数据集和参数</td><td rowspan=1 colspan=1>合并得到的数据集或者包含 sameAs关系的实体对应表</td><td rowspan=1 colspan=1>Jena API</td></tr><tr><td rowspan=1 colspan=1>LinQuer</td><td rowspan=1 colspan=1>半自动</td><td rowspan=1 colspan=1>同义词,下位词,字符串匹配,关联表达式</td><td rowspan=1 colspan=1>SQL数据库</td><td rowspan=1 colspan=1>SQL数据库</td><td rowspan=1 colspan=1>SQL查询</td></tr><tr><td rowspan=1 colspan=1>Knofuss</td><td rowspan=1 colspan=1>自动</td><td rowspan=1 colspan=1>字符串匹配，自适应学习</td><td rowspan=1 colspan=1>源、目标知识库,融合本体</td><td rowspan=1 colspan=1>RDF 陈述,合并得到的集合</td><td rowspan=1 colspan=1>本地拷贝</td></tr><tr><td rowspan=1 colspan=1>PoolParty</td><td rowspan=1 colspan=1>半自动</td><td rowspan=1 colspan=1>概率字符串匹配</td><td rowspan=1 colspan=1>RDF三元组,Web 界面</td><td rowspan=1 colspan=1>包含 sameAs关系的RDF三元组，包含RDFa的HTML页面</td><td rowspan=1 colspan=1>Web界面</td></tr></table>",
+    "context5": "表7常见互联工具与框架比较(2)",
+    "context6": "<table><tr><td rowspan=1 colspan=1>工具</td><td rowspan=1 colspan=1>支持理论</td><td rowspan=1 colspan=1>任务覆盖面</td><td rowspan=1 colspan=1>可配置性</td><td rowspan=1 colspan=1>任务流水线</td></tr><tr><td rowspan=1 colspan=1>SILK</td><td rowspan=1 colspan=1>针对比对任务给出了概念体系：数据源、关联规则语言、黄金集合（gloden set）</td><td rowspan=1 colspan=1>仅提供了比对任务,SILK-LSL仅提供了Compare和Agregate配置</td><td rowspan=1 colspan=1>SILK-LSL 文件</td><td rowspan=1 colspan=1>单一任务、固定流程:数据源、分块、关联生成、过滤、输出</td></tr><tr><td rowspan=1 colspan=1>RDF-AI</td><td rowspan=1 colspan=1>比对任务包括5个步骤：预处理、匹配、融合、互联、后处理。RDF-AI以数学形式描述了每个步骤</td><td rowspan=1 colspan=1>仅提供了比对任务</td><td rowspan=1 colspan=1>无配置语言</td><td rowspan=1 colspan=1>固定流程：预处理、匹配、融合、互联、后处理</td></tr><tr><td rowspan=1 colspan=1>LinQuer</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>互联</td><td rowspan=1 colspan=1>通过程序提交LinQL查询</td><td rowspan=1 colspan=1>固定流程</td></tr><tr><td rowspan=1 colspan=1>LIMES</td><td rowspan=1 colspan=1>三角形不等式,计量空间(metric space)</td><td rowspan=1 colspan=1>仅提供了比对任务</td><td rowspan=1 colspan=1>无配置语言</td><td rowspan=1 colspan=1>固定流程：样本计算、过滤、相似度计算、序列化</td></tr><tr><td rowspan=1 colspan=1>LDIF</td><td rowspan=1 colspan=1>数据互联往往不是一个孤立的过程,它通常会伴随着数据转换、数据融合等任务</td><td rowspan=1 colspan=1>包括数据采集、Schema映射、标识识别（identity resolution）、质量评估与数据融合、输出</td><td rowspan=1 colspan=1>需要单独配置LDSpider、R2R、SILK、Sieve的配置文件，并给出集成任务的配置文件</td><td rowspan=1 colspan=1>目前是固定流程,以后会考虑工作流</td></tr></table>",
+    "context7": "基于以上对比，本文认为，目前流行的这些框架尚存在着如下不足：",
+    "context8": "·支持的任务类型单一。就目前的调研情况来看,大部分关联发现框架仅关注其中某些任务，如：",
+    "context9": "SILK、RDF-AI以及LIMES,都只是关注于如何实现资源比对（matching），关注于其中的比对规则的表达以及比对算法的优化策略。",
+    "context10": "·缺乏流水线机制,不支持多次、多路关联发现过程的串接。以根据科研人员发现科学数据和科技文献的关联路径为例，它需要分解成建立“人员—一机构”、“文献——人员”、“数据—人员”等多个任务，这些任务之间如何衔接？关联数据集成框架LDIF显然注意到了这一点，将LDSpider、R2R、SILK、Sieve等多个工具引入框架，但由于它没有采用统一的描述理论和配置语言，多个过程之间还存在着明显的隔断，用户仍需要熟悉不同的软件工具，并分别编写遵循不同语法的任务脚本。",
+    "context11": "$\\bullet$ 缺乏全局的规划和控制能力。在一个完整的关联数据网络中，发现两个资源之间的关联，从时间上往往需要历经很长的计算过程，从空间上往往需要涉及到多类资源结点，甚至覆盖至整个关联数据网络。因此，关联发现往往需要提前进行多步、多路发现路径的规划，而目前的框架明显缺乏全局规划(手动或者自动的)的能力。另外对运行过程中发生的耗时、失败等情况，目前的框架也缺乏有效的控制能力。"
+  },
+  "5结语": {
+    "context1": "综上所述，关联数据的互联无论在应用、方法，还是在关联发现框架研究上，都得到了较为充分的发展，应用丰富、方法多样，而且各框架稳定可靠。",
+    "context2": "然而,本文认为,在应用、方法以及框架方面,关联数据的互联还存在着如下一些问题与不足：",
+    "context3": "$\\bullet$ 关联数据的互联应用目前主要局限在媒体、出版与生命科学领域，尚缺乏在其他领域中的成熟范例。以中国科学院科学数据库项目（http://www.csdb.cn）中的青海湖数据库（http://www.qinghailake.csdb.cn）为例,其数据内容涉及地学、生态学、生物学等多种数据，一旦围绕该专题建立起完整的、跨学科的关联数据网络，对高级e-Science应用的开发就很有意义。另外，国内外目前有很多研究关注于科学数据与科技文献的集成与关联服务[41-42],根据《第四范式：数据密集型科学发现》的观点，科学数据与科技文献的互操作具有较大的意义[43]。但根据目前调研的情况来看,还没有在关联数据环境（linkeddatacontext）下实现二者关联服务的先例。",
+    "context4": "$\\bullet$ 关联数据的互联方法与算法方面，由于关联数据的技术基石是HTTP和RDF，因此现有的方法更多地关注SPARQL的自动构造和查询优化以及基于RDF图的高效路径匹配。随着大数据（bigdata）的提出，现在已有学者在提“大关联数据”（big linked data）[44]。对应于大数据的3V特征（volume,variety,velocity）,大关联数据的互联算法同样需要应对来自于大数据量、语义异构、需要在线快速响应的需求。",
+    "context5": "·如4.2部分所述，目前的关联发现框架支持的任务类型单一，缺乏流水线机制,而且缺乏全局的规划和控制能力。这种缺陷造成这些关联发现框架只适用于发现路径简单、待关联资源的种类少、关联网络不够复杂的场合，并且需要较多的人工数据整理和任务衔接工作。另外,在规则语言、比对算法模型、鉴别机制、中文信息处理等方面，目前的关联发现框架也存在着改进空间。",
+    "context6": "综上所述,关联数据的互联应用应进一步扩展至其他领域,构建跨学科领域的关联应用则具有更大的意义。关联数据的互联方法与算法应结合大关联数据的需求,增强对大数据量、语义异构、在线快速响应的支持。新的关联发现框架需要面向任务支持更丰富的任务类型,并提供流水线机制和全局的规划以及流程控制能力。"
+  },
+  "参考文献：": {
+    "context1": "[1]Berners -Lee T. Design issues:Linked data [EB/OL]． [2013- 04-10].http://www.w3.org/DesignIssues/LinkedData.html.   \n[2]Linked Data FAQ[EB/OL]．[2013- O4 - 10]．http:// structureddynamics.com/linked_data.html.   \n[3]W3C community projects:Linking open data [EB/OL].[2010 -07 -07].http://esw.w3.org/topic/SweoIG/TaskForces/ CommunityProjects/LinkingOpenData.   \n[4］黄永文．关联数据在图书馆中的应用研究综述[J]．现代图书 情报技术，2010(5):1-7.   \n[5]Cyganiak R,Jentzsch A.Linking open data cloud diagram [EB/ OL].[2012-10-01]. http://lod-cloud.net/.   \n[6]HendlerJ,Golbeck J.Metcalfes law，Web 2.O,and the Semantic Web[J].Web Semantics：Science，Services and Agents on the World Wide Web,2008,6(1):14-20.   \n[7] State of the LOD cloud[EB/OL]．[2011-O9-10]．http:// www4.wiwiss.fu-berlin.de/lodcloud/state/.   \n[8]Linked data ：Open research problems.Consuming Linked Data Tutorial[EB/OL]．[2012-10-01]．http://www.slideshare. net/juansequeda/O7-openresearchproblems.   \n[9] Schultz A，Matteini A，Isele R，et al．LDIF- Linked data integration framework[EB/OL].[2013-06-13]． http://ceurws.org/Vol-782/SchultzEtAl_COLD2011.pdf.   \n[10]Schultz A，MatteiniA，Isele R,et al.LDIF-A Framework for Large -Scale Linked Data Integration[ C]//21st International World Wide Web Conference.Lyon：Developers Track,2012.   \n[11］刘炜.关联数据：概念、技术及应用展望[J].大学图书馆学报, 2011(2) :5-12.   \n[12]Malmsten M.Exposing library data as linked data [EB/OL]."
+  },
+  "Research Review on the Interlinking Technology of Linked Data：Applications，Methods and Frameworks": {
+    "context1": "Shen Zhihong'Li Jianhui'Zhang Xiaolin²",
+    "context2": "Computer Network Information Center， Chinese Academy of Sciences，Beijing 100190",
+    "context3": "²National Science Library，Chinese Academy of Sciences，Beijing 100190",
+    "context4": "[Abstract]This paper investigates theresearch status of the interlinking technology of linked data，from three perspectives of its application examples，the popular methodsand algorithms，andthe linked discovery frameworks.It is concludedthat：interlinking appicationsof linkeddata require further development；the interlinking algorithms need to meet therequirements of the“Big Linked Data”；the linked discovery frameworks need to support richer types of tasks, and provide functionalities of pipelining，overall planning and process control.",
+    "context5": "[Keywords］linked datainterlinkinglinked discovery framework",
+    "context6": "（上接第55页）"
+  },
+  "Analysis on Disimilarities Among the Evaluation Models of Library Readers Satisfaction Degree": {
+    "context1": "Li ZhifangDeng Zhonghua",
+    "context2": "School of Information Management，Wuhan University，Wuhan 430072",
+    "context3": "[Abstract]Through literatures surveying，we found that thecurent evaluation models of library readers satisfaction are mainly built based on SERVQUAL、LibQUAL + TM、Rodski Group、AHP and ACSI. This paper makesa comprehensive comparison among these models from their backgrounds，scale set，weight set，aplicability as well as advantages and disadvantages.Then wecan getthe disimilarities among these evaluation models.In theresearch，we find that the most obviousdissmilaritiesare theirscalesandapplicability；Diffrent evaluation modelshave diferent focuses in the measurement process and results.",
+    "context4": "[Keywords]readers satisfaction degreeevaluation modelevaluation scaledissimilarities",
+    "context5": "（上接第86页）"
+  },
+  "Study on Library Deprofessionalization Based on Recruitment Data": {
+    "context1": "Huang Yongqin’Yao Xinlin²",
+    "context2": "Department of Information Management，Shanghai Campus of Nanjing Political College,Shanghai 200433",
+    "context3": "²School of Management,Fudan University,Shanghai 200433",
+    "context4": "[Abstract]This paper studies the library job ads in the recent five years by using content analysis method.By analyzing thecontent of jobs，professional thresholdandcapacityrequirements，wesummarized six problemsof library deprofessionalizationproblems.Based on aboveanalysis，thispapergivessome suggestions，includingestablishing qualificationof professional librarians，ransforming theprofesional educationofLIS，and changing theconceptof library services.",
+    "context5": "[Keywords]librarianshipdeprofessionalization job adscontent analysis"
+  }
+}

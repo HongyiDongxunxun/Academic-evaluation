@@ -1,0 +1,110 @@
+{
+  "original_filename": "full_325.md",
+  "·用户服务与研究·": "",
+  "Altmetrics研究综述": {
+    "context1": "毛鸿鹏12张志强1",
+    "context2": "（1.中国科学院兰州文献情报中心 甘肃兰州 730000）",
+    "context3": "（2.中国科学院大学北京100049）",
+    "context4": "摘要：文章以国外Altmetrics相关研究为基础,从Altmetrics的产生背景、Altmetrics 的数据有关问题、Altmetircs与引用的关系、Altmetrics数据跟踪工具等方面对前人的研究成果进行了梳理总结，概述了Altmetrics的研究在数据使用的技术障碍、数据有效性、数据跟踪、论文标识符唯一性等方面面临的问题。",
+    "context5": "关键词：Altmetrics；科研评价；社交媒体；综述",
+    "context6": "中图分类号：G250.252文献标识码：A DOI :10.11968/tsygb.1003-6938.2015074"
+  },
+  "Review on Altmetrics Research": {
+    "context1": "Abstract In this paper,based on the curent studies on Altmetrics,we summarize previous studies mainly from thedata problems,the relationship between Altmetrics and citations，and the data tracking tools.We hope it could developnew thoughtsabout the evaluation and providemore meaningful reference for domestic research evaluation system.",
+    "context2": "Key words Altmetrics； research evaluation; social media； review",
+    "context3": "Altmetrics自诞生之日起就激起了学术界的研究兴趣，尤其在科技评价领域引起了广泛讨论，不少Altmetrics支持者认为其将来能够取代目前的基于引用的传统科技评价方法，2012年诞生的《关于研究评价的旧金山宣言(The San Francisco Declarationon Research Assessment,DORA)》的目标就是取消现有的利用期刊影响因子作为个人科研评价指标的方法。",
+    "context4": "本文对国外已有的关于Altmetrics研究进行系统梳理与总结，阐明Altmetrics的产生背景、概念及作用,概述了Altmetrics研究面临的问题。"
+  },
+  "1 Altmetrics 产生背景": "",
+  "1.1传统评价方法的不足": {
+    "context1": "任何一种新事物的产生都有其独特的背景，Altmetrics的产生也不例外,主要包括：",
+    "context2": "（1)传统的评价方法主要是基于引用的评价方法,在用于科技评价过程中主要具有局限性。一是延时性。评价方法的引用次数需要至少两年以上时间的积累，计算结果并不能反映出研究人员当年的影响力。这种局限性体现在对年轻学者或者数字文献的学术评价上更加明显[1；二是片面性。随着科学技术的发展，科研成果已经不光是期刊论文，还有软件、数据、音频、视频等多种形式，显然通过基于引用的评价方法只对期刊论文作出评价无法衡量出研究人员的真正的全面的影响力；三是欺骗性。很多期刊为了提高期刊的引用频次，会使用一些“卑鄙\"的手段，“鼓励\"投稿人尽量引用自己期刊上的论文，作者也为了提高自身影响力而进行“自引”。",
+    "context3": "(2)消极引用[2的问题。因为仅从引用频次上是无法区别引用是积极的还是消极的，对评价结果产生误差。"
+  },
+  "1.2信息技术带来的科研环境的改变": {
+    "context1": "在Internet上,开放的科学共同体产生了新的学术出版形式[3],知识传播并不只依靠期刊，新型的知识传播载体不断涌现，越来越多的学术成果最先是发表在互联网上，传统的基于引用的评价方法并不能获取论文的在线引用情况，随着科技的发展和出版形式的增加，为适应新的出版形式的出现，对新的科研评价方法的需求也应运而生。",
+    "context2": "2010年,University of North Carolina 资讯与图书馆学系的博士候选人Jason Priem 创建了“Altmetrics”一词，指出其性质是对已建立的文献计量方法的补充[4]。方法提出的目的是为影响力评价提供一个补充的、多维的视角，使其与传统的评价方法一起为科研影响力展现更加广泛的观点[5]。Altmetrics与开放的科研活动紧密相关，除了包括文章下载量和浏览量以外，更多的如文章书签、博客文章、维基引用等,都可被看做是Altmetrics。",
+    "context3": "鉴于以期刊影响因子为代表的传统方法的局限性,2012年12月,包括美国科学促进会(AAAS)来自全球的75家机构和150多位知名科学家在美国细胞生物学会会议上签署了《关于研究评价的旧金山宣言（The San Francisco Declaration on Research As-sessment,DORA)》[（下文简称《宣言》)。《宣言》的目标正是停止使用期刊影响因子来评价单个科学家的工作，纠正科研评价方法的扭曲。《宣言》声明期刊影响因子必须禁止在个人研究成果、学术贡献、雇佣提升、基金支持等方面作为评价指标。"
+  },
+  "2Altmetrics 定义": {
+    "context1": "自Jason Priem创建了 Altmetrics一词以来,许多学者对其进行了定义。",
+    "context2": "JasonPriem[4]把对社交媒体上发表的学术成果的跟踪要素叫做Altmetrics,强调的是对一切形式的成果的跟踪活动(包括引用、转载、评论、推荐等）,认为 Altmetrics不仅拓展了对影响力概念的理解，而且拓展了对影响力构成的理解。",
+    "context3": "Howard[7认为Altmetrics是为了测量由Web驱动的学术的相互作用，比如经过多久科研成果被推荐(tweeted）,多久被博客引用(blogged)或被标记书签（bookmarked）。",
+    "context4": "Galligan[8]认为Altmetrics是基于社交媒体衡量学术内容影响力的工具,Altmetrics的目标是提供一个期刊影响因子的替代工具来更加全面客观地进行科研评价。",
+    "context5": "Pardeen Sud 和 Mike Thelwall[1]认为 Altmetrics测度的是一种基于引用的传统计量方法忽视的影响力，它对那些探寻评价科研的质量和效用的人更有意义。",
+    "context6": "针对国外学者提出的新概念，国内学者也快速地进行了引入，同时对其进行了翻译。武汉大学邱均平等[9根据Priem提出的Altmetrics是为传统的计量评价提供替代性方案，又因其属于计量学范畴，所以将其翻译为“替代计量学”。",
+    "context7": "中国国防科技信息中心由庆斌等[10]认为Altmet-rics并不是去替代传统科学计量学，而是结合原有的评价体系再添加一些补充性指标去评价论文的影响力，是对传统科学计量学的继承和补充，所以将其翻译为“补充计量学”。",
+    "context8": "中国医科大学的刘春丽[1]将其翻译为“选择性计量学”，认为它是 $\\mathrm { \\ W e b } 2 . 0$ 环境中的科学计量学研究，是建立在社交网络工具与开放存取分别在科学交流活动与科学成果出版平台中广泛应用的基础上而产生的。",
+    "context9": "中国科学院国家科学图书馆的顾立平[12]根据Alt-metrics 的两个词根alternative和metrics将其翻译为“另类计量\"或者“替代计量”。",
+    "context10": "南京大学的陈铭[13]结合 $\\mathrm { \\ W e b } 2 . 0$ 的背景和词根的含义,将其翻译为“网络补充计量学”。",
+    "context11": "笔者认为，Altmetrics最先提出是因为传统的科技评价方法存在局限性，因此，国内在翻译的时候应该凸显其与传统方法的区别，而非替代，目前传统方法仍是主流，是否能够被Altmetrics替代无法预测，因此笔者认为国内的翻译应该反映出Altmetrics的非传统性和补充性的特点，翻译为“补充计量学”更符合Altmetrics的本义。正如德国斯普林格《神经系统科学》期刊出版编辑Martijn Roelandse所说的，Altmetrics不是要取代传统指标，而是附加于上，因为它将传统指标专注于引用而漏掉的其他影响力指标都考虑进去了[14]。"
+  },
+  "3Altmetrics特点和作用": "",
+  "3.1特点": {
+    "context1": "Altmetrics最显著的特点是及时性和多样性。及时性主要表现在数据的积累方面，Altmetrics数据源的数据积累只需几天或者几周，不像引用频次的积累需要几年的时间。而Altmetrics多样性[15]的特点主要表现在：(1)成果多样性。基于引用的传统评价方法主要针对的科研成果是论文,而Altmetrics跟踪的除了学术论文以外还包括数据集、软件和博客论文等；(2)载体多样性。随着互联网和信息技术的发展，科研成果的载体不光为学术期刊，还包括机构知识库、网络社区等；(3)受众多样性。Altmetrics的受众除了学者以外,还包括从业人员、临床医生和一般公众。",
+    "context2": "Altmetrics的特点正是与其相比较的基于引用的评价方法的优势,HeatherPiwowar[17]总结了Alt-metrics的4大潜在优势：(1)提供对影响力更细微的理解，展现哪些学术产品被阅读、讨论、保存和推荐，以及被引用；(2)提供影响力评价可以以天而非年的计算依据，数据信息更加及时；(3)提供网络上的学术成果影响力的窗口，如数据集、软件、博客、视频等；(4)对不同受众产生影响，包括学者、从业人员、临床医生、教育家和一般大众。"
+  },
+  "3.2作用": {
+    "context1": "Pardeep Sud等[1]认为Atmetrics在对出版物进行早期评价或者对影响力的非传统指标进行评价过程中具有重要意义，同时可以作为一种信息检索的辅助手段来吸取数字图书馆用户对那些引起社交网站关注的文章的注意。对于缺少时间不能阅读所有相关文章的学者和在对研究人员的任命、提升、基金资助等方面作出判断的非领域专家而言，在对论文重要性作出判断时具有重要参考价值。",
+    "context2": "Stacy Konkiel 和 Dave Scherer[17]讨论了 Altmet-rics 对于作者、知识库、大学管理者的价值所在。White等[18]对Altmetrics对大学管理者的价值进行了补充概括(见表1)。",
+    "context3": "表1 Altmetrics对作者、知识库和大学管理者的价值",
+    "context4": "<table><tr><td rowspan=1 colspan=1>对象</td><td rowspan=1 colspan=1>价值</td></tr><tr><td rowspan=2 colspan=1>对作者的价值</td><td rowspan=1 colspan=1>帮助作者更好地了解他们开放存取内容的读者</td></tr><tr><td rowspan=1 colspan=1>帮助研究人员在编制任期和晋升档案时候为科研影响力提供证明,作为期刊影响因子的补充</td></tr><tr><td rowspan=3 colspan=1>对知识库的价值</td><td rowspan=1 colspan=1>知识库管理人员可以使用Altmetrics来劝说有潜力的寄存人开放他们的内容存取</td></tr><tr><td rowspan=1 colspan=1>知识库管理人员可以更好地与大学管理层沟通诠释知识库作为开放存取内容的平台的价值所在</td></tr><tr><td rowspan=1 colspan=1>Altmetrics作为目前数据使用情况的补充，来帮助规划馆藏发展、资源收集和图书馆营销</td></tr><tr><td rowspan=2 colspan=1>对大学管理者的价值</td><td rowspan=1 colspan=1>大学管理者在申请预算和招聘教师时候，可以将altmetrics作为影响力指标的补充</td></tr><tr><td rowspan=1 colspan=1>大学管理者在申请预算和招聘教师时候，可以将Altmetrics作为影响力指标的补充</td></tr></table>",
+    "context5": "另外,Piwowar等[19]讨论了Altmetrics被应用到“个人履历”中后给学术和学者带来的10个好处：(1)提供传统个人履历额外的信息；(2)使不恰当的度量指标变得不重要；(3)揭示了刚发表的成果的影响力；(4)使所有类型学术产品合法化；(5)认识了多种形式的影响力特点；(6)奖励有效地付出便于再利用；(7)促进公共参与；(8)便于高质量探索；(9)健全成果发布平台多样性；(10)激励科研评价的创新。",
+    "context6": "由此可看出，Altmetrics的价值在宏观(大学决策）、中观(图书馆管理)和微观(个人学术影响力评价)层面均有积极作用和表现。"
+  },
+  "4当前研究热点": {
+    "context1": "Jason Priem在 2012 年将 Altmetrics一词放上Twitter后，支持Altmetrics的学者纷纷发表自己的观点和研究成果。2013年,针对什么是Altmetrics,其在科技发现和评价中的意义和风险等问题,ASIS&T在其《通告》中进行了聚焦，从7个不同的角度对其进行解读。PLOS 和 Scientometrics等知名期刊也是Altmetrics研究的主要发表平台。"
+  },
+  "4.1Altmetrics数据来源与研究对象研究": {
+    "context1": "Altmetrics数据来源于不同的社交媒体和数据平台：推文来自Twitter,引用来自Webof Science或者Scopus,书签来自CiteULike等,Altmetircs数据与跟踪的研究对象来源有关。之所以关心数据来源主要原因是任何一个科学领域都需要对实验结果进行验证，而验证需要基础数据，另外,Altmetrics数据几乎都是电子数据，可以较容易地获得基于Altmetrics作出的决定或得到的结论的原始作品。",
+    "context2": "根据 Scot Chamberlain[20]的研究，目前有URL和标识符两种跟踪数据源方式。ImpactStory为每一个数据源提供了一个叫做 provenance_url的字段,例如,Piwowar曾发表的一篇论文的DOI标识符是10.1371/journal.pone.0000308[21],通过 GET请求能够获得Delicious（美味书签）上的书签信息和provenance_url字段信息，然后可以直接访问到Delicious上的可读页面，这对于研究人员复印和核实结论具有重要意义。",
+    "context3": "PLOS ALM应用程序接口则提供了一个叫做events_url的字段，针对Piwowar的同一篇论文可反",
+    "context4": "馈 CiteULike的书签和可读链接(http://www.citeulike.  \norg/doi/10.1371/journal.pone.0000308）。",
+    "context5": "Plum Analytics针对数据来源问题做了进一步的工作。除了URL以外，它还收集了同一研究对象的其它 URL，例如，针对 DOI:10.1371/journal.pone.0018657[22]的文章，还收集了指向这篇文章的其它URL，这对Altmetrics数据研究非常有意义。ImpactStory和 Altmetric 也有类似做法（MendeleyURL 除外）。除了URL,ImpactStory、PLOS ALM、Altmetric 和 Plum Analytics 还 收 集 DOI、PMID、PMCID和MendeleyUUID等标识符，同样可以在各自创建标识符的数据库中跟踪研究对象。",
+    "context6": "另外，并不是所有的数据源都提供URL，CrossRef和Facebook就不提供URL，因此没有办法通过CrossRef 和Facebook 去获得URL验证数据。"
+  },
+  "4.2Altmetrics与引用关系研究": {
+    "context1": "Jason Priem等[5]选取了PLOS出版的24331篇论文作为样本数据进行Altmetrics和引用的研究，发现大约 $5 \\%$ 的样本文章被wikipedia引用；将近 $80 \\%$ 的文章被包含在至少1个Mendeley library中。相关性的实验研究表明Altmetrics指标与引用存在相关性但影响力不同，二者单独使用都不能描述完整的科研学术影响力。PLOS的样本数据相关性分析发现虽然Mendeley与Webof science引用存在中度相关性，但其他许多指标与引用似乎并不相关。",
+    "context2": "Mike Thelwall,Stefanie Haustein等[23]利用PubMed数据库收集了至少拥有一个Altmetrics数据的208739篇论文对11个Altmetircs指标与引用进行研究，作者通过“符号检测\"方法来整理数据以消除引用的延时产生的“偏见”。研究结果发现在医学和生物科学方面，除了Google $^ { \\ast + }$ 的文章以外,推文(Twit-ter）、Facebook文章（Facebook wall posts）、科研亮点（researchhighlight）、博客文章（blogs）、主流媒体(mainstream media)和论坛文章(forums)6个Altmet-rics指标与高被引频次具有明显相关性，而研究并没有得出LinkedIn、Pinners、Q&A和 reddits 与引用具有关联性。",
+    "context3": "Xin Shuai等[24]收集了2010年10月至2011年5月间向预印本数据库arXiv.org投稿的4606篇科研论文,对arXiv.org 网站上的文章下载量、Twitter的提及数和早期的引用情况进行了相关性试验。研究发现Twitter的提及数与arXiv下载量以及发表后的最近几个月的引用频次存在相关性。",
+    "context4": "Altmetrics与引用的相关性问题并不能简单地通过实验来确定，因为不同的数据库、不同的实验时间等条件下，即使使用的是同一数据源最终的结论也可能是不同的，因此研究人员在利用Altmetrics数据进行相关研究时，还要考虑数据的一致性问题、数据出处问题和上下文语境，因为不同的数据跟踪工具在采集数据的时间也不尽相同。"
+  },
+  "4.3Altmetrics工具的研究": {
+    "context1": "目前有一些出版商开始在其网站上提供论文层面的指标数据，如 Nature、PLOS、Biomed Central 等。除了PLOS以外，他们大部分并不提供数据的应用程序接口（API)，而是使用聚合器来提供论文的Altmetrics数据。PLOS收集自己文章层面的指标数据并提供开放的API来使用这些数据。",
+    "context2": "虽然CiteIn和 ScienceCard 也提供Altmetrics数据,但其应用的范围和广度相对较小[20],主要是PLOS、ImpactStory、Altmetric 和Plum Analytics 四大数据提供商，他们在数据提供服务方面既有相似点又有不同，用户可根据自己的研究目的而选择不同的工具。需要指出的是他们提供的数据并非其所创建的，而是通过数据授权从其他数据源获取，事实上，ImpactStory从 Topsy 收集推文,PLOS从 firehose收集推文，而Altmetric是使用Twitter的检索服务和流式API来收集推文（主要Altmetrics数据提供商部分信息见表2)。"
+  },
+  "5Altmetrics存在的相关问题": {
+    "context1": "Altmetrics作为新生事物，从认识到接受再到广泛应用需要过程和时间，同时会面临诸多挑战。"
+  },
+  "5.1数据使用的技术障碍问题": {
+    "context1": "一些用户可能只需要对Altmetrics数据进行基本的使用，例如在他们的个人履历中加入Altmetrics数据来展示不同研究成果的影响力[19]，而有的用户希望进行更深的探索，获取更加详细的数据，然而对深层次数据的探索并非易事。Scott Chamberlain[20]总结了三方面障碍，包括数据可获取性、机器可读性和数据易用性。虽然有的数据提供商已经完全公开或者部分公开了API,使Altmetrics数据可获取，但也有的数据不可轻易获取。例如用户只可以从Twitter获取近30天的推文，如想获得更早的数据则需要付费。虽然Altmetrics数据是通过API提供，但有的指标只保存在PDF文件、电子表格中，并不容易被计算机识别使用。目前许多在线工具的\"图书馆\"使用一些编程语言（Python $\\mathrm { \\Omega } , \\mathrm { R \\Omega }$ 语言）用于处理Altmetrics数据（如Figshare API libraries,Twitter API libraries等）,转化为用户使用对象进行科研工作，但仍有一些数据源不具备这项功能。",
+    "context2": "表2四大Altmetrics数据提供商部分信息[20]",
+    "context3": "<table><tr><td rowspan=1 colspan=1>类别</td><td rowspan=1 colspan=1>PLOS</td><td rowspan=1 colspan=1>ImpactStory</td><td rowspan=1 colspan=1>Altmetric</td><td rowspan=1 colspan=1>Plum Analytics</td></tr><tr><td rowspan=1 colspan=1>开放 API？</td><td rowspan=1 colspan=1>有</td><td rowspan=1 colspan=1>有</td><td rowspan=1 colspan=1>限制</td><td rowspan=1 colspan=1>无</td></tr><tr><td rowspan=1 colspan=1>数据格式</td><td rowspan=1 colspan=1>JSON、JSONP、XML</td><td rowspan=1 colspan=1>JSON</td><td rowspan=1 colspan=1>JSON、JSONP</td><td rowspan=1 colspan=1>JSON</td></tr><tr><td rowspan=1 colspan=1>API授权</td><td rowspan=1 colspan=1>API key</td><td rowspan=1 colspan=1>API key</td><td rowspan=1 colspan=1>API key</td><td rowspan=1 colspan=1>API key</td></tr><tr><td rowspan=1 colspan=1>商业模式</td><td rowspan=1 colspan=1>出版商</td><td rowspan=1 colspan=1>数据提供商</td><td rowspan=1 colspan=1>数据提供商</td><td rowspan=1 colspan=1>数据提供商</td></tr><tr><td rowspan=1 colspan=1>盈利性</td><td rowspan=1 colspan=1>否</td><td rowspan=1 colspan=1>否</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>是</td></tr><tr><td rowspan=1 colspan=1>收入来源</td><td rowspan=1 colspan=1>版面费</td><td rowspan=1 colspan=1>出版商/拨款</td><td rowspan=1 colspan=1>出版商</td><td rowspan=1 colspan=1>机构</td></tr><tr><td rowspan=1 colspan=1>访问频次权限</td><td rowspan=1 colspan=1>非强制</td><td rowspan=1 colspan=1>非强制（建议在请求过程中间隔数秒钟)</td><td rowspan=1 colspan=1>1个请求/秒(也有每小时或每天限制执行的情况,使用API密钥能够增加限制)</td><td rowspan=1 colspan=1>未知</td></tr><tr><td rowspan=1 colspan=1>产品形式</td><td rowspan=1 colspan=1>论文</td><td rowspan=1 colspan=1>论文、代码、软件、报告、数据集</td><td rowspan=1 colspan=1>论文、数据集、书</td><td rowspan=1 colspan=1>论文、代码、软件、报告、数据集、书、毕业论文等</td></tr><tr><td rowspan=1 colspan=1>软件客户端</td><td rowspan=1 colspan=1>R语言</td><td rowspan=1 colspan=1>R、Javascript</td><td rowspan=1 colspan=1>R、Python、Ruby、iOS</td><td rowspan=1 colspan=1>未知</td></tr></table>"
+  },
+  "5.2数据有效性问题": {
+    "context1": "由于社交媒体网站很难准确地计算引用次数，所以Altmetrics数据的计算不够准确，例如有人拥有多个某社交网站的书签账号，并将其分享给别人使用，这样就无法准确地计算出标记文章的准确人数。Altmetrics数据还存在系统自动引用的情况，例如出版商会自动Tweet其出版的全部文章，这样产生的数据也会被扭曲。社交媒体网站的Altmetrics指标也可能是由负面因素导致的，有些指标的产生是由于对文章进行批评[25]、谴责作者学术造假、讨论撤销论文事宜等[26]。Meredith Brown[27]也指出了Altmetrics存在的问题。以“喜欢\"这一指标为例,当比较不同的数据集的时候，因为每一个“喜欢”标记所处的语境不同，所以比较没有意义。"
+  },
+  "5.3多媒体数据源的数据跟踪问题": {
+    "context1": "一些数据跟踪工具主要是通过文章、软件数据集、演示文档幻灯片链接来跟踪数据，将链接赋予唯一标识符,如DOI、PubMedID等。虽然大部分推文、博客、本地数字媒体包含所讨论的论文的链接，但是传统新闻媒体却没有此项功能,导致大量的科学、卫生、技术的新闻报道无法包含链接。文本挖掘技术虽然可能能够解决部分新闻跟踪问题，但是对于在线多媒体资源对研究成果的\"提及\"却很难确定。在视频中，研究成果的直接链接仅仅偶尔会包含在一个条目的元数据中，但是由于缺乏分析视频和音频内容的能力，仍然很难确定被提及的内容[28]。"
+  },
+  "5.4论文标识符唯一性问题": {
+    "context1": "由于目前论文发表的平台繁多，同一篇论文的不同版本可能在多个网站上发表并具有不同的标识符。例如一篇PubMedCentral版本的论文具有一个PubMedID,而其最原始的文章可能发表在作者的个人网站上，也拥有一个DOI，这样最终得到的Altmetrics数据结果就会被稀释，不能真实地反映出该篇文章的影响力。Altmetrics数据跟踪工具有必要在不同标识符之间进行测绘以使论文的标识符具有唯一性，使数据计量更加准确[28]。"
+  },
+  "6启示与思考": {
+    "context1": "基于引用的传统科技评价方法自诞生之日起就饱受争议，甚至连引文索引创始人E.Garfield也告诫人们在利用引文进行科技评价时要谨慎。可见传统的评价方法自身存在严重的局限性。随着社会进步和互联网科技迅猛发展，人们更加感到传统的方法不能客观、全面、有效地评价学术成果、学术个人的影响力，长此以往必然会严重扭曲科技评价结果，误导科技政策制定，对科技进步造成严重阻碍。",
+    "context2": "在我国，几乎所有高校都将期刊影响因子作为个人学术影响力评价的主要指标，只要涉及到研究人员的奖惩和晋升，都与其挂钩，导致很多教师将精力都花在了搞科研发核心上,忽视教学,这也违背了教师“教书育人\"的初衷,长远来看不利于我国教育和科研的发展。",
+    "context3": "Altmetrics的出现为科技评价方法研究提供了新的视角,同时,作为新兴事物,围绕Altmetrics存在很多争议和不确定性，但是争议是进步的必然，这恰恰说明了科技评价方法正在取得进步。目前我国正在进行全面深化改革，科研管理部门应该深入研究，完善Altmetrics的评价理论和方法，建立更加客观、全面、公平的科技评价体系，促进科技的发展。"
+  },
+  "参考文献：": {
+    "context1": "[1]Pardeen Sud, Mike Thelwall. Evaluating altmetrics[J]. Scientometrics,2014,(98):1131-1143.   \n[2] Mike Buschman,Andrea Michalek.Are Alterative Metrics StillAlternative?[J].BuletinoftheAssociationforInformation Science and Technology,2013,39(4):35-39.   \n[3] PERNILLE G.Rasmussen,Jens Peter Andersen.Altmetrics: an Alternative Perspective on Research Evaluation [J]. Sciecom Info,2013, 9(2):5-9.   \n[4] PRIEM J.,TARABORELLI D., GROTHP.,NEYLONC. Altmetrics:A Manifesto[EB/OL].[2014-12-24].htp:/altmetrics. org/manifesto/.   \n[5] PRIEMJ.,PIWOWAR H.A.,，HEMMINGER B. M.Altmetrics in the Wild: Using Social Media to Explore Scholarly Iimpact[J/OL][2015-02-20].http://arxiv.org/1203.147451V1.   \n[6] HOPPELER H.The San Francisco Declarationon Research Asessment[J].Journal of Experimental Biology,2013,216 (12):2163-2164.   \n[7] HOWARD J.Scholars Seek Better Ways to Track Impact OnlineEB/OL].[2014-12-24].http://hronicle.com/article/AsScholarship-Goes-Digital/130482/?sid=wc&utm_source=wc&utm_medium=en.   \n[8] GALLIGANF.Altmetrics forLibrariansand Institutions:Part1[EB/OL].2014-12-24].htp://ww.swets.com/blog/altmetrics -for-librarians-andinstitutions-part-i#.UJAm-nVmhkyI.   \n[9] 邱均平,余厚强.替代计量学的提出过程与研究进展[J].图书情报工作,2013,57(19):5-12.   \n[10] 由庆斌，汤珊红.补充计量学及应用前景[J].情报理论与实践,2013,36(12):6-10.   \n[11] 刘春丽.Web 2.0环境下的科学计量学:选择性计量学[J].图书情报工作,2012(14):52-56.   \n[12] 顾丽平.开放数据计量研究综述：计算机网络用户行为和科学社群影响力的Altmetrics计量[J].现代图书情报技术， 2013(6):1-8.   \n[13] 陈铭.期刊利用统计与Altmetrics 的兴起[J].图书与情报,2014(1):12-17.   \n[14] Editage.衡量研究影响力的新指标,它能取代影响因子吗?[EB/OL].[2014-12-24].htp://log.sciencenet.cn/blog-769 813-716111.html.   \n[15] Scott Lapinski, Heather Piwowar,Jason Priem,Riding the Crest of the Altmetrics Wave?How librarians Can Help Prepare Faculty for the Next Generation of Research Impact metrics[J].Colege &Research Libraries News,2O13,74(6): 292-300.   \n[16] HeatherPiwowar.Altmetrics:What，Whyand Where?[J].Buletin of the Asociation for Information Scienceand Technology,2013,39(4):8-9.   \n[17] StacyKonkiel,Dave Scherer.New Opportunities for Repositories in theAgeofAltmetrics[J].Bulletinof theAssociation for Information Science and Technology,2013,39(4):22-26.   \n[18] CARR L.,WEAL M., WHITE W.Research Assessment and a Diverse Role for Repositories[EB/OL].[2014-12-28].ttp: //eprints.soton.ac.uk/270842/7/or2010Diverse.pdf.   \n[19]Heather Piwowar,Jason Priem.ThePowerof Altmetricsona CV[J].Buletinof the Assciation forInformation Science and Technology,2013,39(4):10-13.   \n[20] Scot Chamberlain.Consuming Article-level Metrics: ObservationsandLesons from Comparing Aggregator Provider Data [J].Information Standards Quarterly,2013,25(2):5-13.   \n[21] Piwowar,HEATHER A.,ROGER S.Day,DOUGLAS B.Fridsma.Sharing Detailed Research Data is Associated with Increased Citation Rate [J].PLoS ONE,2007,2(3):e308.   \n[22] Piwowar,HEATHER A. Who Shares? Who Doesn't? Factors Associated with Openly Archiving Raw Research Data[J]. PLoS ONE, 2011,6(7): e18657.   \n[23] Mike Thelwall,Stefanie Haustein,VincentLariviere,CassidyR.Sugimoto.DoAltmetrics Work?TwiterandTenOther Social Web Services[J].PLoS ONE,2013,8(5):e64841.   \n[24] XinShuai,Alberto Pepe,Johan Bollen.Howthe Scientific Community Reacts to Newly Submited Preprints:Article Downloads,Twitter Mentions,and Citations[J].PLoS ONE,2012,7(11):e47523.   \n[25] SHEMA H.,BAR-ILAN J.,ThelwallM.Research Blogs and the Discussionof Scholarly Information[J].PLoS ONE,2012, 7(5):e35869.   \n[26] MARCUS A., ORANSKY I. Science Publishing: The Paper Is Not Sacred[J]. Nature,2011:480, 449-450.   \n[27] Meredith Brown.Is Altmetrics an Acceptable Replacement for Citation Countsand the Impact Factor?[J].The Serials Librarian,2014:67,27-30.   \n[28] LIUJ,ADIE E.Five Challnges in Altmetrics:A Toolmaker's Perspective[J].Buletinof the American Society for Information Science and Technology,2013,9(4):31-34.",
+    "context2": "作者简介：毛鸿鹏(1980-),男,中国科学院大学博士研究生,研究方向情报分析方法与技术张志强(1964-）,男,博士,中国科学院兰州文献情报中心研究员，博士生导师，研究方向科技情报与科技政策研究、资源环境科学发展战略研究、生态经济学与可持续发展研究。"
+  },
+  "(上接第55页": {
+    "context1": "[10]Gorman M.TheValueand ValuesofLibraries[EB/OL].[2014-02-10].htp://mg.csufresno.edu/papers/Value_and_Values _of_Libraries.pdf.",
+    "context2": "[11]Rubin R.Foundations of Library and Information Science[M].New York: Neal-Schuman Publishers,2004.",
+    "context3": "[12]李超平.公共图书馆宣传推广与阅读促进[J].图书馆建设,2013(10):91-93.",
+    "context4": "13]ALSC.ALSC Strategic Plan,2012-2017[EB/OL].2015-05-10].htp://www.ala.org/alsc/aboutalsc/contact.",
+    "context5": "[14]IFLA StrategicPlan201-2015[EB/OL].015--20].p://ww.ifla.org/files/assets/hq/gb/strategic-plan/2010-2015pdf.",
+    "context6": "[15]蒋永福.欣喜·遗憾·期待——捧读《图书馆服务宣言》有感[J].图书馆建设,2008(10):14-15."
+  }
+}

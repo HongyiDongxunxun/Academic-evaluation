@@ -1,0 +1,122 @@
+{
+  "original_filename": "full_6704.md",
+  "·研究综述与前沿进展·": "",
+  "技术生命周期判断方法研究综述": {
+    "context1": "王山1,2,3 谭宗颖1",
+    "context2": "（1．中国科学院文献情报中心，北京100190;",
+    "context3": "2．中国科学院大学经济与管理学院图书情报与档案管理系，北京100049;",
+    "context4": "3．中国社会科学院经济研究所，北京100836)",
+    "context5": "摘要：旧的/意义]技术生命周期的精确判断有助于国家和企业对技术进行前瞻性管理，及时解决发展过程中的技术规划问题，帮助决策者及时了解技术发展动态，决定资本投资方向。方法/过程文章基于文献综述法回顾了技术生命周期的发展历程、概括了当前技术生命周期阶段划分的主流观点，梳理了国内外技术生命周期判断方法相关研究成果，根据不同判断方法的技术特点与分析结果的特点将其划分为模型法、计量法与描述法3类。结果/结论未来预测技术生命周期的判断继续以定量分析为主，将更加注重深层次的内容挖掘，尤其是深入文献内部所提取的一些能够体现技术生命周期阶段变化的指标信息可能会有更广阔的研究空间。",
+    "context6": "关键词：技术生命周期；阶段划分；判断方法；多指标测量；内容挖掘；综述",
+    "context7": "DOI: 10.3969/j.issn.1008-0821.2020.11.015 （中图分类号）F273.1（文献标识码）A（文章编号）1008-0821（2020）11-0144-10"
+  },
+  "Review of Technology Life Cycle Analysis Methods": {
+    "context1": "Wang Shan1,2,3 Tan Zongying1",
+    "context2": "(1. National Science Library， Chinese Academy of Sciences， Beijing 100190， China;",
+    "context3": "University of Chinese Academy of Sciences， Beijing 100049，China;",
+    "context4": "3.Institute of Economics，Chinese Academy of Social Sciences，Beijing 100836，China)",
+    "context5": "AbstractPurpose/SignificancelAccurate analysis of technology lifecycle areconduciveto countries and enterprises carying out prospective management、timely solving technical planning matters in the process of development、helping decision makers understand curent technical stateand determining the directionof capital investment.Method/Process] The paper systematically retrospected the development history of technology life cycle，summed up mainstream views of technology lifecycle phasesdivisionandcombedrelatedresearchresultsof technology lifecyclejudgement methods athome andabroad.According tothetechnical characteristicsofdifferent judgmentmethodsandanalysisresults，thepaperdivided them into threecategories:model method，metric method and descriptive method.[Result/Conclusion] Judgementof technologylifecycle would stilltakequantitative analysis as main element probablyin thefuture，andpaymoreattention to thedepth ofcontent mining.There wouldbeabroaderresearch space especiallfor indicator information that can deep into the inside of literature and reveal the changes of these indicators.",
+    "context6": "Key words: technology life cycle； phase division； judgement method;multi-index measurement; content mining;review",
+    "context7": "随着世界知识产权竞争的日益激烈，企业不仅面临着资本方面的挑战，更有来自技术方面的竞争压力，而技术战略往往是企业长期发展的生命线，时常需要根据技术的发展趋势制定相应的战略以便合理分配有限的资源从而增强其核心竞争力。技术生命周期恰恰是反映技术发展状态与未来发展趋势的重要指标。技术生命周期科学性、有效性、准确性的判断不仅有助于国家确定重点技术研究领域、扶持新兴技术、完善成熟技术、淘汰落后技术而且还有助于企业定位技术发展状态、调整技术战略、抢占技术先机、降低投资风险、避免投资雷区误区等等。因此，技术生命周期的准确判断对于企业，乃至国家进行技术战略部署而言起着至关重要的作用。"
+  },
+  "1技术生命周期发展历程": {
+    "context1": "生命周期的概念起源于自然生态系统，泛指事物从萌芽、成长、成熟至消亡的一个周期过程。生命周期因在诸多领域（经济、技术、社会等）均有涉及而得到了广泛的应用。技术生命周期理论源于 1966 年哈佛教授 Raymond ${ \\mathrm { ~ V ~ } } ^ { \\sharp }$ 首次提出的产品生命周期理论，技术生命周期与产品生命周期既有共同点又有区别。两者均以“生命周期变化”为特征，经历类似出生、成长、发展、成熟再到衰退的过程，技术生命周期一般指特定技术的整个发展历程，而产品生命周期则因国家技术水平不同而产生较大的过程差异。另外从周期理论侧重视角来看，技术生命周期理论主要集中在产品的技术方面而产品生命周期理论则侧重于产品市场。对于技术性企业而言，产品的生命周期多数受制于产品技术的发展水平；对于研发型企业来说，除了对产品生命周期有所了解以外仍需掌握该技术当前所处发展阶段以便制定出科学、有效、准确的技术研发战略。"
+  },
+  "2技术生命周期阶段划分": {
+    "context1": "技术在不同的生命周期阶段呈现出多样性的发展特征，从而展现出不同的技术生命周期。针对技术生命周期阶段的划分，国内外相关研究人员提出了不同的观点，概括起来主要有四阶段论、五阶段论与六阶段论，但多数学者认同四阶段论，即技术生命周期由导入期、成长期、成熟期与衰退期组成4-习，也有学者以不同的表达方式阐述四阶段论。如王新等学者认为技术具备社会与自然双重属性，并相应地将四阶段论分为社会四阶段论与自然四阶段论。其中社会四阶段论将技术生命周期划分为技术非连续状态、激烈竞争阶段、主导范式阶段和增值变革阶段，自然四阶段论则将其划分为萌芽期、成长期、成熟期与衰退期。RavikKJ等将技术生命周期分为一般性研究发展阶段、应用研发阶段、大量制造生产阶段及市场扩张阶段4个阶段。不少文献对五阶段论展开了深入研究。郭银鑫基于四阶段论的扩充法将技术生命周期划分为萌芽期、平稳增长期、成长期、成熟期与衰退期。五阶段论中较有代表性的是1995年Gartner公司所公布的技术曲线成熟度（见图1）报告，将技术生命周期分割为5个阶段，分别为：1）科技诞生的促动期；技术未成熟之前因媒体的大规模报道等因素而被大肆渲染。2）过高期望的峰值；过度渲染的技术因技术知名度的提升迅速得到公众的高度关注，大量资金涌入。3）泡沫化的低谷期;因技术的不完善、市场需求变化等因素使得新技术受到的关注度逐渐下降，渐变为泡沫。4）稳步爬升的光明期；随着技术各方面性能的提升与瓶颈的克服，新技术又“重拾光明”，逐渐得到公众的认可，并获得二轮、三轮的融资。5）实质生产的高峰期。技术逐渐步入“正轨”，逐步为企事业带来可观的收益，同时吸引更多的企事业单位加入，技术市场前景越来越广阔。另外，也不少文献将技术生命周期分割为6个阶段。RyanD等、Harvey$\\mathrm { ~ M ~ } ^ { \\mathrm { { f i d } } }$ 与 Khalil T $\\mathbf { M } ^ { \\left[ 1 \\right] }$ 分别以不同的衡量指标为分析依据将技术生命周期划分为技术发展期、技术应用期、应用萌芽期、应用成长期、技术成熟期与技术衰退期。",
+    "context2": "技术生命周期阶段的划分并没有严格、统一、明确的标准，学者们可根据不同的衡量指标、分析依据与研究需求将技术生命周期分割为不同的阶段以便行业相关人员了解目标研究领域技术发展动态。"
+  },
+  "3技术生命周期判断方法": {
+    "context1": "目前学术界并没有一个权威的技术生命周期判断方法分类，本文根据技术生命周期判断方法的技术特点及判断结果特点将其划分为模型化方法、计量法与描述型方法3类。S曲线、技术生命周期图法、Fisher-pry 模型法、基于TRIZ 理论与基于系统动力学的技术生命周期判断方法使用曲线或构建模型对技术生命周期进行判别，故将其划分为模型化方法之中。专利指标分析法、相对增长率法、TCT计算法、会议与期刊论文比例法、文献类型变化法与多指标测量法较多采用文献计量、科学计量及数据挖掘等分析方法，因而将其划分为计量法。基于TRL的技术成熟度分析方法与德尔菲法较多进行主观评估度量，因而将其归纳为描述型方法。",
+    "context2": "![](images/10eb49bce59b4d9323aaf980f3322d99c93c541910d56829f8c08a3b3b13e7f2.jpg)  \n图1Hype Cycle曲线"
+  },
+  "3.1模型化方法": "",
+  "3.1.1S型曲线": {
+    "context1": "识别技术所处技术生命周期阶段的经典方法为观察相关专利技术申请与授权的定量增长率。经验研究表明识别技术生命周期阶段的常用经典模型为S型曲线（也称作S型演化路径）[i2-1]，其来源于美国FosterRN学者的研究[4。S曲线包括对称型Logistic 曲线与非对称型Gompertz曲线两种，其中Logistic曲线应用较为广泛[i5-1d，适合于快速、明显增长的技术生命周期预测，而Gompertz曲线则用于技术成熟老化模式的预测。",
+    "context2": "国内外较多研究学者基于技术生命周期理论，采用Logistic模型对不同行业技术发展状态进行了分析。赵莉晓、周曼等、MahdisYJ等分别运用Logistic模型对射频识别技术、植物防霜专利技术、光伏技术生命周期进行了研究。葛亮[2以专利分析为手段，结合技术生命周期理论与Lo-gistic模型综合分析了国内石墨烯技术所处的发展阶段，揭示了石墨烯技术发展现状及未来的发展趋势。也有一些研究人员提出将Logistic模型与相关定量指标结合来判断技术生命周期。Chang S H等[21-2学者将Logistic曲线与专利指标、专利数据相结合对车联网产业技术、电信技术生命周期进行了判别。Mohammad D M等、Intepe G等均基于专利文本数据，运用Logistic模型分别识别了石油产业二氧化碳注入技术、3D电视技术的生命周期阶段。",
+    "context3": "虽然现有专利数据库数据完整度较高，收录较齐全，但在获取目标技术研究领域所有相关专利数据方面仍然面临着一些困难和挑战。即便S型曲线在识别技术生命周期阶段时是可行的，但仅仅采用单一S型曲线对技术生命周期进行判别可能带有一定的片面性。"
+  },
+  "3.1.2技术生命周期图法": {
+    "context1": "技术生命周期图法又可称之为反向S曲线，分别以专利申请或授权量、专利申请人数为坐标轴，考察专利申请（或授权量）与专利申请人数随时间变化的趋势来判断技术生命周期。此方法可将技术生命周期划分为5个阶段，萌芽期、成长期、成熟期、淘汰期与复苏期（见图2）。",
+    "context2": "使用技术生命周期图法判断技术生命周期的研究成果较多。王云飞等、李进进等均采用该曲线分别对锂离子电池技术、体外诊断试剂行业生命周期进行了判断。也有学者将技术生命周期图法与其他分析法结合实现对技术生命周期阶段的判断。张诚等同时运用技术生命周期图法与指标组合法分析了集成电路封装技术所处生命周期阶段。",
+    "context3": "![](images/c169d44396641c291001851cbdfcfb94f5cb55fbd7f8443a6fd590c95437f668.jpg)  \n图2技术生命周期图法"
+  },
+  "3.1.3Fisher-pry模型法": {
+    "context1": "Fisher-pry模型法最早来源于Fisher JC与PryR H合作的一篇论文，是目前评估技术成熟度相对准确率较高的方法之一b。之后较多研究利用该模型对技术发展阶段与未来发展趋势进行了分析。靳军宝等b基于Fisher-pry 模型采用 SCI、EI、专利与商业报道等多种数据对纤维素主要预处理技术（蒸汽爆破法、酸处理法、碱处理法和生物法）成熟度进行了分析，得出除生物法正处于生长阶段以外，其它3种方法自2005年就已进入成熟期的结论。李欣等以WOS为数据源，通过Fisher-pry模型揭示了燃料敏化太阳能光伏电池技术的发展现状与未来发展趋势，得出该技术目前正处在技术成长期。此外，也有文献考察了Fisher-pry模型法与文献计量法结合使用的情况。代表性文献有Daim TU等、娄岩等。"
+  },
+  "3.1.4基于TRIZ 理论的技术生命周期判断方法": {
+    "context1": "TRIZ（Theory of Inventive Problem Solving）即发明问题解决理论，前苏联AltshulerGS教授通过对世界超过250万件专利进行分析总结，发现专利发明数量、专利级别、利润及性能4条特性曲线（见图3）与表征技术生命周期阶段的S曲线具有较强的对应关系。目前，基于TRIZ理论的技术生命周期判断方法已较为成熟。多数研究学者基于专利分析数据拟合目标技术领域4个尺度变量数据变化曲线（专利量、专利级别、利润与性能曲线），将其与标准特性曲线进行比对从而确定该技术所处技术生命周期阶段。高常青等运用TRIZ法预测离心冲击打夯机技术已度过成长期进入成熟期。王秀红等[37-39应用TRIZ原理分别对电动剃须刀产品、电动自行车技术进化过程进行了预测。",
+    "context2": "![](images/e242af87e796383333f90b1532b48d2e1d8f5b3c79720df4f760b54bc1b534ca.jpg)  \n图3TRIZ技术生命周期预测曲线",
+    "context3": "TRIZ理论虽可通过绘制技术成熟度预测曲线判定技术成熟度为目标领域发展提供技术支持与帮助，但其也存在一定的弊端，专利级别与性能数据较难度量，利润数据较难获取。3.1.5基于系统动力学的技术生命周期判断方法系统动力学最初由美国MIT的Forrester教授为分析企业生产管理及库存管理等问题而提出的一种系统仿真方法，后因应用及影响范围的扩大而逐渐发展成为一门新学科。该方法认为技术的发展具有系统性，在研究技术生命周期规律时，除了考虑技术本身发展情况之外，还应考察经济、社会等环境因素给技术发展所带来的影响，因而能够全面评估技术所处生命周期阶段。但是该方法模型也存在一定的缺陷，参数估计是建立系统动力学模型不可缺少的一环，参数的选取及参数值的微小变化可能会引起所构建系统动力学模型的巨大震动，导致所构建模型预测结果与实际结果存在较大偏差。由于影响因素众多、模型构建复杂等原因目前运用系统动力学方法判断技术生命周期的研究成果较少。王丽芳等曾将技术、社会、环境等多种影响因素纳入模型中运用VensimPLE软件对近20年来燃料电池技术生命周期进行了预测分析 。"
+  },
+  "3.2计量法": "",
+  "3.2.1专利指标分析法": {
+    "context1": "专利指标分析法主要计算不同阶段4个指标（技术生长系数、技术成熟系数、技术衰老系数与新技术特征系数）的数值，依据指标数值变化趋势综合评估技术所处的生命周期阶段。4个指标详细计算方法与定义见表1。",
+    "context2": "表1专利指标计算公式及意义",
+    "context3": "<table><tr><td>专利指标</td><td>公式</td><td>定 义</td></tr><tr><td>技术生长系数（V)</td><td>V=a/A</td><td>a代表某研究领域当年专利申请或授权数量；A代表过去5年中某技术 领域总的专利申请或授权数</td></tr><tr><td>技术成熟系数（α)</td><td>α=a/(a+b)</td><td>b代表当年某研究领域技术实用新型专利数</td></tr><tr><td>技术衰老系数（β)</td><td>β=(a+b) /a+b+c)</td><td>c代表当年某研究领域技术外观设计申请或授权数</td></tr><tr><td>新技术特征系数（N)</td><td>N=( V²+a²） 1/2</td><td>N由技术生产率与技术成熟系数计算得出</td></tr></table>",
+    "context4": "不少研究使用专利指标分析法对技术生命周期进行判别。余致力[4采用专利指标分析法对药物紫杉醇技术生命周期及发展趋势进行了分析，得出该技术已进入成熟期的结论。黄鲁成等以燃料电池为技术案例,应用专利指标分析法分析了燃料电池技术当前所处生命周期阶段。由于各国专利制度不同，该方法仅适用于同时包含以上3种专利类型数据的国家,如中、日、德,因而专利指标分析法在普适性方面容易受到专利类型的制约。"
+  },
+  "3.2.2相对增长率法": {
+    "context1": "相对增长率法是通过分析以相对增长率(Rela-tive GrowthRate,RGR)为纵坐标与相对增长潜力率(（Relative Development Growth Rate,RDGR)为横坐标所构成的二维平面来判断技术所处发展阶段[4]（见图4）。相对增长率指的是某技术领域专利申请数的平均增长率与所有领域专利申请数的平均增长率的比值。相对增长潜力率可由增长潜力率计算得出，增长潜力率代表某技术领域后 $N$ 年专利申请数的平均增长率与前 $N$ 年专利申请数的平均增长率",
+    "context2": "的比值。",
+    "context3": "![](images/90de179739a5a73e40ac6655f2c1a986feaa84a7dc585f8a95b96b7b0e463136.jpg)  \n图4相对增长率法",
+    "context4": "二维矩阵图与战略坐标图类似,将技术生命周期划分为4个象限。第Ⅰ象限代表萌芽期，象征着新技术自发明之日起由于市场的不确定性及较高的研发风险使得新技术具有较高的相对增长潜力率，此时因市场占有率不足而相对增长率较低。第Ⅱ象限代表增长期，此阶段随着新技术的不断完善及消费者的认同，新技术迎来了快速发展时期,相对增长潜力率与相对增长率均较高。第Ⅲ象限，技术已然获得较高的市场份额,逐步进入标准化时期，此时相对增长率维持在相对较高且稳定的状态，技术发展进入理论或应用极限时期,相对增长潜力率值逐渐降低。第IV象限随着技术理论或应用瓶颈问题的无法克服,再加上新技术的出现导致原有技术很快被取代而进入衰退期，逐渐被市场淘汰,相对增长潜力率与相对增长率值均较低。目前采用相对增长率法进行技术生命周期判定的研究成果较少。曹雷[曾构建特定技术领域的RGR与RDGR判断技术生命周期。此方法虽可以根据相对增长率与相对增长潜力率的数值快速判断技术生命周期阶段，但各象限边界区分比较模糊。"
+  },
+  "3.2.3TCT计算法": {
+    "context1": "TCT计算法主要用于计算单件专利技术生命周期,可以用该专利在申请文件扉页中所有引证文献技术年龄的中间数来表示2。某技术领域的技术生命周期则为该领域所有单件专利TCT加和的平均值，因计算比较繁琐而较少应用于技术生命周期的计算。从其概念上可以得知,TCT 法可以追踪正在进行创新的信息,TCT越短，说明该技术领域变化越快,技术越活跃,相反,TCT越长,该领域技术变化越缓慢。"
+  },
+  "3.2.4会议论文与期刊论文比例法": {
+    "context1": "论文作为科学研究最重要的产出成果之一,其相关数据在对技术生命阶段进行判断时也表现出良好的优越性。基于论文数据的技术生命周期判断方法主要有会议论文与期刊论文比例法,EI论文与SCI论文比例法与其类似,不再多述。当会议论文与期刊论文的比例越来越大时，说明会议论文越来越少，期刊论文越来越多，技术受到争议的程度逐渐降低并逐步接近成熟。RoperAT等、陈燕认为会议论文与期刊论文比例变化可用于分析技术成熟度。姬俊昌曾在构建新能源汽车技术多维度评价体系时采用了EI论文与SCI论文之比、会议论文与期刊论文之比在内的多个指标预测新能源汽车产业的技术生命周期。一般来说，在运用论文相关数据对技术生命周期进行判断时往往需要结合其他指标以提高生命周期判别的准确性。"
+  },
+  "3.2.5文献类型变换法": {
+    "context1": "文献类型变换法涉及技术相关的多种类型数据,该方法将技术生命周期划分为基础研究、应用研究、试验开发、应用阶段与社会效应5个阶段。基础研究阶段，SCI论文数量呈现由少至多，然后逐渐下降的特征;应用研究阶段,EI论文数量呈现出与SCI论文类似的发展走势；试验开发阶段主要考察专利文献数量，应用阶段与社会效应阶段则以商业报道相关信息为主，专利数量与商业报道相关数据信息仍表现出与以上两个阶段类似的发展规律[4]。",
+    "context2": "目前鲜有文献仅利用文献类型变换法对技术生命周期进行判断，有学者同时采用文献类型变化法、期刊与会议论文比例法与Fisher-pry模型法对智能控制技术成熟度进行了判定[4 。"
+  },
+  "3.2.6多指标测量法": {
+    "context1": "鉴于单一指标或模型在评估技术生命周期时所存在的局限性，越来越多的学者开始关注不同类型数据或不同指标的排列组合以实现技术所处生命周期阶段的判定。GaoLD等基于专利相关的13种指标构建了一种可以预测目标技术生命周期阶段的模型。RobertJW等4引入9种不同类型的文本指标用于技术发展状态的判断。HauptR等使用了与专利相关的7种指标判断技术生命周期阶段变化。张海峰等b提炼了8个特征指标用于构建技术生命周期判定方法,通过人工智能技术验证了该判定方法的准确性。侯元元绘制了以年份、专利申请人数与专利申请量分别为 $X , Y , Z$ 轴的三维专利生命周期曲线，综合集成3个投影平面的数据得出燃料电池技术已进入成熟期的结论。",
+    "context2": "上述研究虽然在一定程度上解决了单一指标法或模型曲线在识别技术生命周期阶段时的片面性，但在指标合理性、研究数据及研究结论的准确性等方面仍然需要通过大量的文献调研或者多位专家探讨决定，因此该方法主观性较强。另外,对于发展模式相近的技术而言，其生命周期阶段较容易识别,对于发展模式弱相关或非相关技术而言，多指标的通用性仍需要进一步考证。"
+  },
+  "3.3描述型方法": "",
+  "3.3.1基于TRL的技术成熟度分析方法": {
+    "context1": "TRL(Technology Readiness Level）,即技术完备等级,由20世纪70年代美国NASA首次提出，用于评估新技术是否达到成熟期的方法之一。技术成熟度后被细分为9个标准等级，不同等级对应着技"
+  },
+  "术的不同发展阶段（见表2）。": {
+    "context1": "表2NASA对TRL不同等级的描述",
+    "context2": "<table><tr><td>TRL技术等级</td><td>描 述</td></tr><tr><td>TRL1</td><td>提出基本原理</td></tr><tr><td>TRL2</td><td>技术概念及(或)应用设想</td></tr><tr><td>TRL3</td><td>关键功能的实验与分析</td></tr><tr><td>TRL4</td><td>实验室环境下成分及(或)试验板的验证</td></tr><tr><td>TRL5</td><td>相关环境下成分及(或)试验板的验证</td></tr><tr><td>TRL6</td><td>相关(地面或空中)环境下系统/子系统或 原型的展示</td></tr><tr><td>TRL7</td><td>实际空间环境下系统原型的展示</td></tr></table>",
+    "context3": "1976 年与1977年，NASA分别将TRL应用于木星探测与太阳帆项目。90年代TRL被美国国防部应用于重大国防采办项目中。有些研究直接将TRL体系用于技术成熟度的评估。赵慧斌等借鉴美军方TRL评估方法提出了电子对抗装备技术的9级TRL体系框架，并将其应用到电子对抗装备系统的技术生命周期判断中。AsaFB等b在其论文中介绍了如何使用TRL方法指导、设计、评估信息与通信技术。除了直接应用以外，通过TRL评估方法和其他度量指标分析技术发展趋势，从而帮助相关决策人员制定技术发展战略也是目前研究的一大发展趋势。RenéLN等将技术生命周期各阶段与科技研究成果类型（研究论文、专利、市场信息）相对应，TRL1\\~5级对应理论研究（研究论文为主要表现形式）阶段，TRL6～7级对应应用研究（专利为主要表现形式）阶段，TRL8\\~9级对应技术市场应用 (信息报道为主要表现形式)阶段。SauserB等提出一种新的系统成熟度（SRL）体系用于管理系统研发与国防采购项目，该体系融和了TRL体系与集成成熟度（IRL）的概念。一般而言，基于TRL的技术成熟度分析方法多应用于军事、国防领域中，不太适合一般性技术成熟度分析。虽然TRL被视为判断技术成熟度最有前途的方法之一，但其易受专家主观意见的影响，且仅能度量技术的一个维度。"
+  },
+  "3.3.2德尔菲法": {
+    "context1": "德尔菲法又可称为专家调查法，是技术生命周期判断方法中较常采用的方法之一，源于该方法采用专家丰富的学识或经验对某一研究领域或行业所进行的较为细致、科学、准确的判别，尽管该方法存在耗时长、主观性强等局限，但在进行国家或整个产业大范围预测或者判断时，德尔菲法很可能是唯一可行且较为准确的方法。",
+    "context2": "表3技术生命周期不同判断方法的优势与局陷",
+    "context3": "<table><tr><td>技术生命周期 判断方法分类</td><td>技术生命周期判断方法</td><td>优势</td><td>局限</td></tr><tr><td rowspan=\"5\">模型法</td><td>S曲线</td><td>常用经典模型；曲线直观明确</td><td>参数选取、测量比较困难</td></tr><tr><td>技术生命周期图法</td><td>根据趋势判别生命周期阶段</td><td>主观性较强</td></tr><tr><td>Fisher-pry模型法</td><td>综合考虑多种数据类型</td><td>需要大量收集各类型数据</td></tr><tr><td>基于 TRIZ理论的方法</td><td>与4条标准特性曲线作比对</td><td>专利等级与性能指标不易度量; 利润数据获取困难</td></tr><tr><td>基于系统动力学的方法</td><td>综合考虑技术内外部因素</td><td>参数选取与估计与实际有较大偏差</td></tr><tr><td rowspan=\"5\">计量法</td><td>专利指标分析法</td><td>4个专利指标数据易采集； 定性定量相结合</td><td>需要发明、实用新型、外观专利 3种专利类型的数据</td></tr><tr><td>相对增长率法</td><td>定性定量相结合</td><td>阶段界限划分模糊</td></tr><tr><td>TCT计算法</td><td>单件专利文献容易计算</td><td>具有产业依附性；计算过程繁琐</td></tr><tr><td>会议论文与期刊论文比例法; EI论文与 SCI论文比例法</td><td>指标数据易采集</td><td>需要采集相关论文的完整数据;</td></tr><tr><td>多指标测量法</td><td>综合考虑多种指标来衡量</td><td>忽略其它类型数据变化 选取的指标合理性不够</td></tr><tr><td rowspan=\"2\">描述型</td><td>TRL法</td><td>标准等级表述清晰</td><td>仅度量技术的1个维度; 不适合一般性技术的分析</td></tr><tr><td>德尔菲法</td><td>常用方法之一；结果比较权威</td><td colspan=\"1\">主观性强</td></tr></table>"
+  },
+  "4不同判断方法之间比较研究": {
+    "context1": "表3对当前技术生命周期判断方法进行了简要总结分析，通过研读相关研究成果可知目前技术生命周期判断方法定量分析中较常采用的有模型法中的S曲线、计量法中的专利指标分析法与多指标测量法。模型法中尤其S曲线的绘制比较适用于以 S曲线模式发展的技术，然而现实中并非所有技术均出现S曲线型的发展路线，模型参数的选择、测量比较困难，且不同的模型得到的分析结果相差很大，单一指标或模型在技术生命周期科学、准确判断分析方面稍显不足。文献计量、科学计量方法在进行技术生命周期判断时提供了诸多便宜，不仅指标数据易于采集，而且摆脱了专家咨询所带来的一些系统性主观偏见，便于研究学者探索出由于知识局限或视角偏颇而难以发现的客观规律，但该方法分析结果较多受到分析者对数据库的掌握程度及对数据的完整采集程度，另外对技术生命周期各阶段关键时间节点的划分仍然需要主观判断，因而在采用计量方法进行技术生命周期判断通常离不开专家咨询法等定性方法的从旁协助。"
+  },
+  "5总结与展望": {
+    "context1": "文章根据不同技术生命周期判断方法的技术特点与分析结果的特点将技术生命周期主流判断方法划分为模型法、计量法与描述型3类。目前国内更多的研究集中在技术生命周期判断方法在各技术领域中的应用尚，少数学者提出了新的技术生命周期判断方法。国外与技术生命周期相关的大部分研究采用S曲线或反S曲线法，并基于专利数据探测技术所处发展阶段，除此之外，部分研究尝试多指标体系判断技术发展趋势。鉴于单一指标或模型在判断技术生命周期中所存在的不足，目前亟需构建一种综合、科学、客观的多指标体系为决策者提供更为可靠的情报支持，更好地了解技术发展轨迹与发展规律。未来在技术生命周期判断方面可能继续倾向于以定量分析为主，定性协助的发展趋势，定量分析法将更加关注深层次的数据挖掘、文本挖掘，尤其是深入文献内部所提取的一些能够体现技术生命周期阶段发展变化的指标数值信息，同时结合机器学习、统计分析、数据建模等提高技术生命周期判定准确性的方法将有更广阔的研究空间。"
+  },
+  "参考文献": {
+    "context1": "[傅瑶，孙玉涛，刘凤朝．美国主要技术领域发展轨迹及生命周期研究—基于S曲线的分析．科学学研究，2013，31(2):209-216.  \n[]Raymond V. International Investment and International Trade in theProduct Cycle[J]．Quarterly Journal of Economics，1966，5(80):190-207.  \n刘斌强，江玉得．基于专利信息分析的技术生命周期判断与应用．唯实，2011，（1)：77-79.  \n方曦，吴冰倩，熊焰．基于专利指标法和S曲线的内禁系统安全技术生命周期研究[．科技管理研究，2019，15:130-136.  \n刘东霞，陈红．煤炭液化技术研发趋势、生命周期、前沿技术与影响因素—基于专利的视角．情报杂志，2017，36(7):52-58.  \n王新，乔晓东，徐硕，等．基于事实型数据的技术生命周期判断方法综述[．数字图书馆论坛，2013，（12)：35-43.  \nRavi K J，Andrew $_ { \\mathrm { ~ O ~ M ~ } }$ ，Melinda M，et al. Evaluating the Com-mercial Potential of Emerging Technologies[J]．InternationalJournal of Technology Transfer and Commercialization，2003，2(1):32-50."
+  },
+  "郭银鑫．基于熵的技术生命周期判断方法研究[D]．大连:大连理工大学，2018.": {
+    "context1": "Ford D，Ryan C.Taking Technology to Market[]．HarvardBusiness Review，1981，59(2)：117-126.  \n[i0]Harvey M.Application of Technology Life Cycles to TechnologyTransfers[．The Journal of Business Strategy，1984，5（2):51-58.  \n[11]Khalil TM. Management of Technology:The Key to Competitive-ness and Wealth Creation[M]．New York:The McGraw-Hill,2000:273-274.  \n[12]Andersen B.The Hunt for S-shaped Growth Paths in Technologi-cal Innovation:A Patent Study[．Journal of Evolutionary Eco-nomics，1999，9(4):487-526.  \n[13]Chiu YJ，Ying TM.A Novel Method for Technology Forecastingand Developing R&D Strategy of Building Integrated PhotovoltaicTechnology Industry[．Mathematical Problems in Enginering,2012:1-24.  \n[14]Foster R N. Working the S-curve: Assessing TechnologicalThreats[．Research Management，1986，29（4)：17-20.  \n[5]潘颖，卢章平．国内氢能源专利技术发展战略研究[]．情报杂志，2012，31（6)：30-34.  \n[6李春燕，黄斌．利用S曲线法判断3D打印工艺技术生命周期[．科技与经济，2017，30（2)：91-95.  \n[7]赵莉晓.基于专利分析的RFID技术预测和专利战略研究—从技术生命周期角度[．科学学与科学技术管理，2012，3(11):24-30.  \n[8]周曼，王秀红．基于技术生命周期理论的植物防霜专利技术分析．图书情报工作，2017，（3)：90-97.  \n[19]Mahdis YJ，Alireza A，Babak FM，et al．Analysis of Photovol-taic Technology Development Based on Technology Life Cycle Ap-proach [．2016,8（3)：1-11."
+  },
+  "[20]葛亮.基于专利信息分析的技术生命周期研究——以我国石墨烯制备技术为例．情报工程，2015，1（4)：58-64.": {
+    "context1": "[1]Chang S H，Fan C Y.Identification of the Technology Life Cycleof Telematics a Patent-based Analytical Perspective[]．Techno-logical Forecasting and Social Change，2016，105（4)：1-10.  \n[2]Chang S H，Fan C Y. Telematics Technology Development Fore-casting:The Patent Analysis and Technology Life Cycle Perspective[]．Industrial Enginering，Management Science and Applica-tions，2015，349(5):149-158.  \n[23]Mohammad D M，Hossein K，Abdollah K，et al.Patent-basedTechnology Life Cycle Analysis: The Case of the Petroleum Indus-try[．Foresight and Sti Governance，2016，10(4)：72-79.  \n[4]Intepe G，Koc T.The Use of S Curves in Technology Forecastingand its Application on 3D TV Technology[l．International Jour-nal of Mechanical，Aerospace，Industrial，Mechatronic and Man-ufacturing Engineering，2012，11(6)：2491-2495.  \n[25]陈燕，黄迎燕，万建国．专利信息采集与分析[M]．北京:清华大学出版社，2006:244-248.  \n[6]王云飞，初志勇，管泉，等．基于专利分析的动力型锂离子电池发展态势分析[]．现代情报，2015，35（6)：102-106.  \n[27]李进进，刘迎鸣，王在竹，等.广东省体外诊断试剂（生物类）专利申请分析[．中国科技信息，2018，（1)：31-32,— 152—",
+    "context2": "34.",
+    "context3": "[28]张诚，朱东华，汪雪峰．集成电路封装技术中国专利数据分析研究[．现代情报，2006，（9)：160-166.  \n[29]Fisher JC，Pry RH.A Simple Substitution Model of Technologi-cal Change[]．Technological Forecasting and Social Change,1971，(3):75-88.  \nB0Intepe G，Bozdag E，Koc T. The Selection of Technology Fore-casting Method Using a Multi-criteria Interval-valued IntuitionisticFuzzy Group Decision Making Approach[].Computers and In-dustrial Engineering，2013，65(2)：277-285.  \n[1]靳军宝，郑玉荣，白光祖．基于Fisher-Pry模型的纤维素预处理技术成熟度分析[．中国生物工程杂志，2018，38(6):103-108.  \n[2]李欣，黄鲁成．基于文献计量的染料敏化太阳能光伏技术可视化分析[．情报杂志，2013，32（12)：98-103，122.  \nβ3]Daim TU，Rueda G，Martin H，et al.Forecasting EmergingTechnologies:Use of Bibliometricsand Patent Analysis[J].Technological Forecasting and Social Change，2006，73（8):981-1012.  \n[4娄岩，傅晓阳，黄鲁成．基于文献计量学的技术成熟度研究及实证分析[．统计与决策，2019，19:99-101.  \nB5]Altshuler G S.Social Indicators for Sustainable Project and Tech-nology Life Cycle Management in the Process Industry[]．TheInternational Journal of Life Cycle Assessment.2006，11（1)：3-15.  \n[]高常青，陈伟，密善民，等．基于TRIZ的技术预测方法研究与应用[．机械设计，2014，31（8)：1-4.  \n[7]王秀红，李冰，周九常．TRIZ 原理在电动剃须刀技术成熟度预测中的应用[．科技管理研究，2008，（6)：300-301,292.  \n[8]王秀红，周九常．TRIZ原理在产品技术成熟度预测中的应用[．科技进步与决策，2008，25（3)：15-17.  \nb9]王丽芳，蒋国瑞，黄梯云．基于系统动力学的技术生命周期预测[．预测与分析，2009，(9)：92-94.  \n40]陈燕．运用专利情报研究专利技术发展动态]．安徽科技，2003， (9):30-31.  \n[41]余致力.基于专利信息分析的紫杉醇技术生命周期[．医学信息杂志，2010，31（11)：46-49.  \n[42]黄鲁成，韩佳.基于专利信息分析的燃料电池技术生命周期研究[．制造业自动化，2008，30（6)：25-27.  \n[43]李春燕．基于专利信息分析的技术生命周期判断方法[]．现代情报，2012，32（2)：98-101.  \n[44]曹雷．面向专利战略的专利信息分析研究[．科技管理研究，2005，25（3):97-100.  \n[45]Roper A T,Cunningham S W，Banks J，et al.Forecasting andManagement of TechnologyM]．New York:Wiley，1991:108",
+    "context4": "-110."
+  },
+  "46姬俊昌．新能源汽车产业技术成熟度研究[]．郑州：郑州大学，2015.": {
+    "context1": "[47]Martino JP.A Review of Selected Recent Advances in Technolog-ical Forecasting[.Technological Forecasting and Social Chan-ges，2003，70(8):719-733.  \n[48]Gao L D,Porter AL，Wang J，et al.Technology Life Cycle A-nalysis Method Based on Patent Documents[J]．TechnologicalForecasting and Social Change，2013，80:398-407.  \n[49]Robert JW，Porter AL.Innovation Forecasting [．Technolog-ical Forecasting and Social Change，1997，56(1)：25-47.  \n50]Haupt R，Kloyer M，Lange M. Patent Indicators for the Technol-ogy Life Cycle Development[]．Research．Policy，2007，36(3):387-398.  \n[1]张海峰，张卓．技术生命周期阶段特征指标构建及判定[．技术经济，2018，37（2)：108-112.  \n[2]侯元元.三维专利技术生命周期模型构建与实证研究[.情报杂志，2013，32（3)：51-54.  \n53]Mankins JC.Technology Readiness Levels:A Retrospective"
+  },
+  "(上接第135页)": {
+    "context1": "封铁英．科技人才评价现状与评价方法的选择和创新[．科研管理，2007，（S1)：30-34.  \nBFranceschet M. The Diference Between Popularity and Prestige inthe Sciences and in the Social Sciences:A Bibliometric Analysis[.Journal of Informetrics，2010，4(1)：55-63.  \nShotton D.The Five Stars of Online Journal Article.A Frameworkfor Article Evaluation．D-Lib magazine，2012，18（1-2):1-16.  \n5] Sombatsompop N，Kositchaiyong A，Markpin T，et al.ScientificEvaluations of Citation Quality of International Research Articles inthe SCI Database:Thailand Case Study[J]．Scientomtrics,2006，66 (3):521-535.  \n[Philipp M. Constructing Experimental Indicators for Open AccessDocuments[]．Research Evaluation，2006，15（2)：127-132.  \nMark JM，Christopher M S.A Model of Academic Journal QualityWith Applications to Open access journalsEB/O1].http: //cite-seerx.ist.psu.edu/viewdoc/download? $\\mathrm { d o i } = 1 0 . 1 . 1 . 1 1 6 . 7 5 6 2 \\& r e p =$ repl&type $=$ pdf，2011-06-11.  \n赵洁．科技期刊引文的分布与评价效用的分析与思考[．农业图书情报，2019，31（9)：69-74.  \n回俞立平．基于聚类分析的期刊多属性评价方法选择研究——聚类结果一致度筛选法[．图书情报工作，2018，62（21)：[．Acta Astronautica，2009，65 (9-10)：1216-1223.  \n54赵慧斌，黄敏．技术就绪水平在电子对抗装备研发上的应用[．电子信息对抗技术，2008，23（6)：55-59.  \n[55]Asa FB，Lars OB，Magnus A，et al. Using the TRL-methodol-ogy to Design Supporting ICT-tools for Production Operators[.Procedia CIRP，2014，17(1)：726-731.  \n[56]René LN，Marisela RS,Rosa RB，et al.Abibliometric Meth-od for Assessing Technological Maturity: The Case of AdditiveManufacturing[J]．Scientometrics，2018，117（3)：1425-1452.  \n57]Sauser B，Ramirez-Marquez JE，Magnaye R，et al.A SystemsApproach to Expanding the Technology Readiness Level Within De-fense Acquisition [.International Journal of Defense AcquisitionManagement，2008，1(2)：39-58.  \n[58]Bhargava S C，Kuman A，Mukerjee A.A Stochastic Cellular Au-tomata Model of Innovation Diffusion[．Technological Forecas-ting and Social Change，1993，4(4)：87-97.",
+    "context2": "(责任编辑：陈媛)"
+  },
+  "": {
+    "context1": "80-86.  \n[i0]俞立平，伍蓓，袁永仪，等．科技评价中非线性评价方法筛选的检验研究—因子回归检验法[．情报杂志，2018，37(9):64-70.  \n[1]俞立平．期刊多属性评价方法筛选研究—指标数据综合拟合法．情报学报，2014，33（3)：296-304.  \n[2]俞立平，宋夏云．期刊评价中非线性评价方法选取的检验研究[．中国科技期刊研究，2014，25（8)：1063-1067.  \n[13]苏为华.多指标综合评价理论与方法研究M]．北京：中国物价出版社，2001.  \n[4段晓君，王正明.基于选择准则的参数模型评价方法[．国防科技大学学报，2003，（3)：62-65.  \n[5]陈述云，张崇甫．多指标综合评价方法及其优化选择研究．数理统计与管理，1994，（5)：18-21.  \n[6盛明科．政府绩效评估的主观评议与多指标综合评价的比较———兼论服务型政府绩效评估方法的科学选择[．湘潭大学学报：哲学社会科学版，2009，33（1)：14-18.  \n[7]邱均平，任全娥．我国人文社会科学研究成果评价研究进展．情报资料工作，2006，（4)：10-15.  \n[18]Rumelhart D E，Hinton G E，Williams R J. Learning Represen-tations By Back-propagation Error[J]．Nature，1998，323(9): 533-536.",
+    "context2": "(责任编辑：陈媛)"
+  }
+}

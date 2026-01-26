@@ -1,0 +1,70 @@
+{
+  "original_filename": "full_7309.md",
+  "日本、韩国大学图书馆联机编目系统现状及其后示": "",
+  "□喻爽爽": {
+    "context1": "摘要通过对日本及韩国大学图书馆联机编目系统的组织体系、数据库建设、服务政策和方式的对比研究及分析，旨在对我国的联机编目工作提供启示。",
+    "context2": "关键词联机编目系统 书目数据库建设 信息资源共享 CALIS KERIS NACSIS NII"
+  },
+  "1引言": {
+    "context1": "计算机联合编目出现于20世纪七、八十年代，至今已形成较大规模，其技术日趋成熟，管理更加科学规范。它具有编目成果高度共享，数据质量能够保障，大量节省人力、物力等优点。在信息资源共享日益扩大的今天，其作用日显重要。目前我国联机编目尚处于初步发展阶段，了解和借鉴发达国家联合编目系统十分必要。尤其是东邻的日本、韩国与我国有较多的相同之处：洞处亚洲的东部;使用着与其他发达国家不同的语言文字;稍有别于其他发达国家的学科体系 特别是人文科学体系)等等，对这两个东亚邻国实践经验的借鉴将更具现实意义。",
+    "context2": "目前我国图书馆自动化水平及编目人员素质参差不齐，难以在较短的时间内实现全国性图书馆的联机编目，但是以某系统或某地区为中心，特别是以大学图书馆系统为中心，首先实现联机编目，再以此为基础实现全国性联机编目系统是较为现实的。目前，由国家发展计划委员会批准实施的中国高等教育文献保障体系 China Academic Libraryand Information System,CALIS),其主要建设任务之一就是实现联机编目，构建网络环境下大规模的联合目录数据库。鉴此，本文谨对日本及韩国现有的与之相类似的大学图书馆联合编目系统进行对比研究和分析，期望能够对国内同行有所启迪。"
+  },
+  "2日本、韩国大学图书馆联合编目系统发展概况": {
+    "context1": "日本大学图书馆联合编目系统原由‘国立学术情报中心 ”National Center for Science InformationSystems,NACSIS)主持。2000年4月1日起,机构改称为‘国立情报学研究所”NationalInstituteofInformation,NII)。NACSIS 始于1983年，当时日本国内图书馆自动化尚未实现,各大学图书馆切感中国知网https://www.cnki.net",
+    "context2": "联合编目系统构筑的必要，就在东京大学成立了“文献情报中心”开始建立联合书目数据库，并提供馆藏目录信息服务。1986年‘文献情报中心改组为‘学术情报中心”隶属文部省，成为日本高等文献保障体系的管理机构。在收集各大学图书馆书目数据之前,NACSIS一方面以日本国会图书馆、美国国会图书馆、大英图书馆等机构的书目数据为基础,构筑出各种书目数据库以供参考，另一方面，公开其编目协议CATPCataloging Protocol）以供遵循。各图书馆在引进自动化系统及进行程序开发时，皆可以此为标准,构筑内置式可运行联机编目软件的模块。而已经实施自动化的少数几家大学图书馆，也可藉此实现书目数据的标准化。",
+    "context3": "随着NII的逐渐发展，它已不局限于大学图书馆系统，其他公共图书馆也陆续加入。到2002年9月,NII共有995个图书馆作为其成员馆。其中各类正规大学图书馆631个，两年制大学图书馆176个，其他公共图书馆及相关机构188个。截止到2002年4月共收集书目数据5737,355条其中图书5493,285条，期刊244,070条),馆藏数据63,285,378条其中图书 59,604,771条，期刊3680,607条）。",
+    "context4": "韩国大学图书馆联合编目系统由‘韩国教育及研究情报服务系统”Korea Education and ResearchInformation Service,KERIS)主持。作为韩国高等教育文献保障体系管理机构的KERIS开始于1997年，主要负责协调和管理各大学图书馆书目数据资源。当时韩国各大学图书馆几乎都实现了自动化，KERIS汇集了152个大学图书馆提交的书目数据，利用其KELIS系统进行判重后，形成了拥有700余万条书目数据及1900余万条馆藏数据之规模的韩国大学图书馆联合编目数据库。由于韩国国内各图书馆在实现自动化过程中采用的系统不同，书目数据的标准化程度不十分理想,制定一个可供KERIS各成员馆共同遵守的编目协议也有很大难度，因而KERIS的工作重点主要集中在数据整合过程中记录的判重及数据质量的控制等方面。KERIS制定并修改了韩国大学图书馆的编目规则及相关条例，用以指导和规范各大学图书馆的文献工作。",
+    "context5": "到2002年9月，共有221个四年制大学图书馆、119个两年制大学图书馆和12个公共图书馆及其他相关机构参加KERIS的联合编目系统,KERIS共收集书目数据6,001,396条，馆藏数据25,708,316条。"
+  },
+  "3编目协议及数据处理过程": "",
+  "3.1编目协议 CAT Protocol)": {
+    "context1": "通过NACSIS联合编目系统的数据传输协议服务器CATPServer),其成员馆可进行联合编目的书目检索及上载、下载书目数据。数据传输协议服务器的轮廓文件CATP ServerProfile)是公开的,这样为采用各种通用的图书管理系统的各成员将其嵌入在本馆系统中提供了方便和可能。因此,在作为ISO 检索标准的Z协议 $\\pmb { \\mathcal { L } }$ Protocol)开发之前，各馆不必依靠专门的联合目录专用程序，就能在本馆编目系统中实现联机合作编目的功能。同样，在国际标准化组织颁布馆际互借标准ISOILLProtocol)之前，NACSIS开发的接收和发送信息的程序就已经被应用到馆际互借子系统中。",
+    "context2": "KERIS的联合编目依托Z39.50服务器和自行开发的UNICAT系统来实现。 $Z 3 9 . 5 0 $ 服务器协议的公开使得通用的图书馆管理系统可以将UNICAT软件包嵌入自身，从而使这批用户成员馆)可以利用在本馆系统中包含的UNICAT参与联合编目的工作,实现下载及上载书目数据等基本功能。另外，在UNICAT中，联合目录系统可以区分不同性质的作业，因此根据每笔作业包括对馆藏数据的追加、修订、删除等)的具体情况，对数据库中的相关记录进行不同级别的更新。在联合目录服务器上通过专门设置的判重程序对上载的数据进行判重并加以修订。"
+  },
+  "3.2数据处理过程": "",
+  "3.2.1上载数据处理过程": {
+    "context1": "NACSIS的大部分书目数据中含有正确的ISBN、ISSN。当编目员上载新创建的书目数据时，系统可由CATP程序根据ISBN、ISSN及题名加以判重。编目员利用本馆编目系统检索联合目录后，套录联合目录的数据并追加馆藏信息，使之构筑成为本馆书目数据。NACSIS为控制联合目录的数据质量，向用户提供联合目录以外的参考数据源以资借鉴，例如泡括东京大学图书馆在内的许多重要的具有权威性的大学图书馆的全体书目数据。这些大学图书馆的自动化技术和编目水平较高，书目数据的标准化程度也相应较高。",
+    "context2": "KERIS允许成员馆通过网络将未经判重的所有数据上载到临时库，先将这些数据进行人工检验，然后再利用系统中的判重设置进行自动判重。这种质量控制的方法与首先进行判重处理的NACSIS是不同的。KERIS还允许成员馆对所提交的所有书目数据在判重处理后重新上载，并提供将书目记录和馆藏信息进行分离处理的功能。由于KERIS各成员馆的书目数据标准化程度参差不齐，加之韩国出版业不够规范，导致书目数据中的ISBN、ISSN等信息常有遗漏或错误,这样判重工作就显得更为重要，人工干预也成为必不可少的补充措施。"
+  },
+  "3.2.2下载数据处理过程": {
+    "context1": "NACSIS的情况如前所述，编目员检索联合目录后，如果有命中记录，可直接在系统中增加本馆的馆藏信息并生成馆藏标识。CATP程序可以在各成员馆对联合目录追加馆藏信息的同时，支持其在联合目录书目记录的基础上构筑本馆的数据库。",
+    "context2": "KERIS系统在成员馆通过网络提交书目或馆藏记录时，可以自动地从书目数据中抽出馆藏信息，自动转换到USMARC格式规定的字段和子字段中。因此，在下载套录过程中馆藏项也需要经过一个信息的抽取过程。"
+  },
+  "4用户服务": "",
+  "4.1服务政策": {
+    "context1": "NACSIS与 1971 年创建的 OCLC OnlineComputerLibraryCenter,美国联机计算机图书馆中心)及 ABN Australia Bibliographic Network,澳大利亚书目网络中心)一样,采取没有作业权限区别的会员制度以及由此而形成的有差别的费用体系。联合目录免费提供各项服务。",
+    "context2": "作为韩国教育部下属机构，KERIS也提供免费服务，但为了保持联合目录数据库的质量,KERIS认为有必要根据作业权限区分成员馆。从2000年5月以后，分为‘编制原始记录图书馆‘添加馆藏记录图书馆\"‘检索及下载记录图书馆”并采用会员制来运营。"
+  },
+  "4.2服务内容": "",
+  "4.2.1联合目录服务": {
+    "context1": "NACSIS联机联合目录系统包括目录系统NACSIS-CAT)和馆际互借系统 NACSIS-ILL)。目前有990多个日本图书馆及6个英国及亚洲圈图书馆参与。各成员馆在本馆目录系统中嵌入NACSIS-CATP,并配置联合编目的功能，仅用本馆系统就可以联接并检索联合目录，套录数据或上载新的书目记录。NACSIS还实现了与LCMARC美国国会图书馆机读格式)、JPMARC白本国会图书馆机读格式)、UKMARC女英图书馆机读格式)等各种MARC的数据转换，并可以下载这些图书馆编制的书目记录。需要特别指出的是，由于日本国内中文文献资源极为丰富，为了充分共享这部分资源,NACSIS于2000年初开始引进CNMARC,并开始中文文献数据库的建设。",
+    "context2": "目前,KERIS联合目录系统的UNICAT编目软件被350多个图书馆所使用。这些图书馆分为两种类型：一部分图书馆与NACSIS一样，以公开的Z服务器协议为基础，通过本馆目录系统实现联机编目另一部分图书馆在本馆系统中没有乙服务器的接口，则编目员需要通过网络利用联机编目的UNICAT程序检索记录，下载书目记录，上载时随着作业内容的不同可以提交馆藏、书目等各种不同层次的信息。"
+  },
+  "4.2.2信息检索服务": {
+    "context1": "为了更好地满足广大用户的需求,NACSIS于1997年4月开始提供基于万维网的检索服务。联合目录检索系统的 WEB-CAT Kttp://webcat.nacsis.ac.jp)可以免费不加认证地利用,其书目著录既包含日文的罗马化形式，又提供日文原文，大大方便了使用不同网络平台和字符集的用户借鉴书目信息。NACSIS数据库中除了自建数据外，还包括美国国会图书馆、日本国立国会图书馆、大英图书馆、德国国立图书馆、中国国家图书馆以及TRC白本商业书目)的书目数据。多数外来数据以年度为单位购",
+    "context2": "入并更新。",
+    "context3": "在 KERIS 基于 Web 的检索系统 tp://www.riss4u.net/new-riss/total-booklist/unionstat-fr.html）中提供书目数据下载功能及对LC数据库的检索，但WEB-CAT只支持书目数据信息的显示，规范数据库的检索则需通过联合目录系统。KERIS系统对美国国会图书馆的书目数据给予高度重视，每天采用FTP方式接收它们的新数据，并即刻更新本地数据库。若用户检索美国国会图书馆目录数据库后未发现想要查找的记录,KERIS可以自动代行申请OCLC(nline Computer Library Center)联机数据库的检索。"
+  },
+  "5NACSIS与KERIS的比较分析及后示": "",
+  "5.1比较分析": {
+    "context1": "联合目录的构筑方式通常有两种：一是将成员馆所有书目数据收集起来并进行物理整合的中央化管理方式;另一种是支持通过网络进行分散检索的逻辑整合的分散化管理方式。NACSIS与KERIS联合编目系统都属于中央化方式，但是，因系统建立之前各国国内图书馆自动化发展的程度不一样，它们之间仍存在较大差昇。",
+    "context2": "NACSIS联合目录系统是在图书馆自动化启动前的20世纪80年代初期开始建立的，先期推出的各项标准使得各成员馆在数据库建设的初期阶段就可以贯彻执行，由此大大促进了数据的标准化。而KERIS联合目录建立之前，韩国各大学图书馆已基本实现了自动化。在建库过程中，由于没有统一的标准，也没有相关的机构来组织和协调各馆进行联机编目工作，各图书馆采用不同的自动化系统建立各自的书目数据库。虽然当时韩国国内的目录数据格式已经几乎由KORMARC统一起来，但因各馆编目员对KORMARC使用规则以及KCRKorean CatalogingRule,韩国编目规则)的理解和处理方法互有偏差，从而导致某些图书馆在机读目录格式的使用和标目形式选取方面不完全一致。这些不一致影响了书目数据的标准化和资源共享，为联合编目系统的发展设置了障碍。",
+    "context3": "对比NACSIS及KERIS联合编目系统我们发现,KERIS为了确认非标准化以及重复提交的书目数据，在服务器的处理中设计了判重程序，并辅以人工干预手段，对维护数据的标准化起了很大作用。NACSIS系统在数据库建设中一贯注重数据标准化，同时提供上载数据时的CATP程序自动判重，其实际效果优于KERIS，操作起来也更为简洁。",
+    "context4": "再比较一下NACSIS和KERIS的成员馆数量及书目数据和馆藏数据数量便会发现，按参加机构平均计算,KERIS的书目数据为NACSIS的3.7倍，馆藏数据为1.8倍。之所以出现这种比例上的巨大差别,并非由于彼此馆藏量的悬殊差异，而是因为即使设置了层层判重程序，KERIS系统中仍存在着大量的重复及误谬数据，这种状况对于数据库的维护和用户使用显然十分不利。为此,KERIS在1999年3月到12月之间,曾通过‘99情报化勤劳事业”开展了将联合目录上存在的重复及误谬数据剔除的工作，对系统中的700余万条书目数据进行核查，共删除约200万条书目数据。通过清除冗余和垃圾数据，使数据库质量得以提高。"
+  },
+  "5.2启示": {
+    "context1": "通过对NACSIS及KERIS的介绍和分析我们可以看到,任何一个联合编目系统的建立,都应以当地的图书馆特别是图书馆自动化的发展背景为前提。NACSIS的发展也许更理想,更科学，但对于中国来说,KERIS的情形有许多相似之处，其经验和教训都更具借鉴意义。",
+    "context2": "目前中国图书馆界的自动化发展十分迅猛，但与此同时，各图书馆应尽量在自动化系统及编目条例上与已形成规模的联合编目系统保持一致。否则，其自动化程度发展得越快，为以后编目工作及其他业务规范化设置的隐患和障碍就越大。目前，我国除了正在实施运营的中国高等教育文献保障体系CALIS)外,公共图书馆系统和科学院图书馆系统以及其他信息中心或编目中心都在建立本系统的联合目录数据库，主要有：国家图书馆联机编目中心、中科院系统书目数据库、北京图联书目数据库、上海申联公司和上海翔华公司的书目数据库，以及深圳图联书目数据库等。各系统间应加强交流和协作，避免不必要的重复劳动和重复投资，扩大信息资源共享体系，使我国的文献信息服务系统最大限度地在高效、快捷的环境中运行。",
+    "context3": "日本、韩国的经验告诉我们，实现联机编目的前提是联合目录数据库的建设，而书目数据的规范化、标准化是联合目录数据库建设的关键。文献著录条例和机读目录格式则是编制规范化书目数据的依据。虽然中国机读目录格式》、中国文献编目规则》、仲国图书馆分类法》、双语主题词表》等一系列国家编目标准的陆续颁布、实施和修订对我国机读数据的编目标准化起了十分重要的指导作用，但由于各图书馆对于MARC格式各个著录单元以及各项著录规则的理解存在差异，加之一些新学科、交叉学科的不断产生和发展，现有的主题词表或分类体系无法与之匹配，影响了文献标引的专指度等，以上诸多因素导致了书目数据质量参差不齐，最终势必影响书目资源和文献资源的共享。为此，需要加快上述编目规则和条例的更新修订力度，编制与之配套的实施细则、使用手册等说明性文件供编目员使用，以确保书目数据的标准化和规范化，为实现全球范围的信息资源共享奠定基础。"
+  },
+  "参考文献": {
+    "context1": "1NACSIS综合目录一夕一现.2002.4.13  \n2NACSIS 1999．User's Guide to the Cataloging System IntroductionTokyo: Nacsis  \n3NACSIS.1999.National Center for Science information Systems  \n4尖端学术情报中心.1998关于国内单行本录入方案的研究.[韩]汉城端学术情报中心  \n5http://www.nii.ac.jp/CAT-ILL/INFO/cat-user.html  \n6http://www.keris.or.kr",
+    "context2": "作者单位北京大学图书馆编目部,北京,100871收稿日期：2002年5月23日"
+  },
+  "华北地区高校图协召开第16届学术年会": {
+    "context1": "华北地区高等学校图书馆协作委员会于2002年9月16\\~18日在内蒙古大学图书馆召开第16届学术年会。本届年会由内蒙古自治区高校图工委主办。与会代表112人，提交论文84篇。代表们围绕“高等学校图书馆的网络化、数字化建设与资源共享的会议主题，进行了热烈的学术交流。大家认为：高等学校图书馆的网络化、数字化建设是高校图书馆近期工作的重点，也是高校图书馆现代化进程中的必然过程。加强这方面的学术理论研究，能够很好地总结我们实践中的经验教训，探讨图书馆现代化过程中的一些规律，给今后的工作以指导和后发。在地区文献信息保障体系的建设过程中，各省、市、自治区高校图工委的核心组织作用非常重要。要很好地发挥高校图工委的作用，使高校图书馆联合成一个整体,争取社会和领导的重视和投入，使文献信息保障系统不断发展和壮大。 刘羚)",
+    "context2": "User Study and User Service The Statusquoof Document Delivery Service in Chinaand itsProblemsand Corelative Strategy，Chen Yijun，Xie Min44)",
+    "context3": "Abstract：Basedoanvervieofdferentindsofdcuentdeliveyserviceodelininseacademiclibraries，thisapersuarzesthe characterisicsofthedocumentdeliveryservicesinChineselibraries.Ialsopointsouttheproblemsandmakessugestionstoimprovethe document delivery services.",
+    "context4": "Keywords:Document Delivery Service，Service Price，Intellctual Property Protection   \nStudy on the Real-Time Reference Service Based on the Chat Software，Guo Jing，Lin Haoming49)   \nAbstract：Teaperitroduesthepracticofeal-tiefereceserviceasedotehatsoftaeinlibrarsoldwide.Itdsueis suchasthedevelopenthistory，presentcondionanddevelopentIalsosugeststheposibledevelopentalmetodsofteal-ie reference service in Chinese libraries.   \nKeywords :Real-Time Reference Service，Chat Software VRDVirtual Reference Desk)，Reference Consultation   \nThe Circulation of Borrowing Privileges—A Way to Eficient Utilization of Library Resources，Zhou Guangxue\\$3)   \nAbstract:Teistooigpriispoastoesooiselauili andimprovelibraryservicesTherearenoticeableinadequaciesintheurentdistributionsystem，whichresultinthewasteofoowing opportunitiesandlibraryresources.Thecirculationofborrowingprivilegeshasfourmajorforms，whichareworthcloseatention.   \nKeywords:Borrowing Privileges，Borrowing System，Circulation   \nResearch on University Library Service Ability Outspreading，Fan Xing/am{6)   \nAbstractEnlarduitsudentsfivesitusdompressvetrstlbarouetcqsiduseervicendolad adjusttheiroespodingokpassvelLibasustoleostpofunddnitraieustiosfaagenttkeeontiuablevet and keep outspreading knight service ability synchronously.   \nKeywords : University Library，Service Ability，Outspreading，Enlarged Recruit Students   \nCooperation and Resource Sharing   \nThe Working Flow of CALIS ILL System，Yao Xiaoxia，Chen Ling，Zeng Lijun61)   \nAbstract：ISOInterLibraryLoanprotocolisintroducedThentheworkingflowofCALISLLsystemwhichisdevelopedbasedonISOLL protocol is analyzed in detail. The application situation of this system isgiven at last.   \nKeywords:CALIS，ISO，InterLibrary Loan，ILL Transaction，Requester，Responder   \nInformation Retrieval Course   \nOn Teaching and Innovative Ability Training in an Information Retrieval Course，Ge Qiaozhen，Wang Renshan65)   \nAbstract：Basedonterteachingexperience，theauthorsdiscussthereforofteiteraturesearchcourse，emphasizingsudentsconscious utilizationofifoationdowldgeienviroentofifoationetwokingeroposdefolacesaniportantoletotraining students'innovative abilities.   \nKeywords $\\bar { \\cdot }$ Literature Search，Innovative Ability，Educationof The Information，Course Of Reforming   \nLibrarian   \nOn The Literacy Structure of Information Professionals，Wang Jingui67)   \nAbstract：Theuthoisusesthharacteristicsanddmandsoftcenturyndidicatestatiforationprofessoalsouldpoe theirnaturalsienceiteracy，socialsienceliteracyandiforationlieracybyhavingcontiuingeducationselfstudyndlaalbo reading.   \nKeywords :Natural Science Literacy，Social Science Literacy，Information Literacy，Literacy Structure   \nIn memory of Comrade Guanguo，Jiang Naiwu69)   \nThe Organization and Usage of Document and Information   \nASurveyontheSubjectExpresionFunctionofIndexingSourcesofChinese WebPages，Ding Xuan，HouHanging，ZhangChengzhito) Abstract:Thispaperintroducesasurveycariedouton3OOwebpagesofeconomyscience.Thepagesweresampledrandomlyinordertoshow thereltionshioeideigsousIslegeofsubetexpessoofditprtsofebgestott orderofthe12indexingsousintersofthdegrofsubjectexpressoandtheproperweightingvaluesaplyingtoautomaticindexing. Keywords：Web Pages，Automatic Indexing，Weighting Indexing，Economy Science   \nThe Multi-linguistic Scripts Records in MARC 21，Wang Songlin3)   \nAbstract:AccordingtoMARCForatforBbliographicData，tepaperintroducesandanalysesthemodels，tructures，andontentsofarc records of multi-linguistic scripts.   \nKeywords:MARC 21，Multi-Linguistic Script Records.   \nLibrary Architecture   \nStudy on the Target of Building Area for University Library，Fan Yujing，Tang Kai,Tian Aoran7)   \nAbstract:Basednnoverviewonecurrentsatusofthcoegesanduniversieslibrariesbling，thispaperaalysestheieasing demandsofhigreducationtolibarybuiling.Itsugeststheproprproportionoflibrarybuilingofcolegesnduniversitesadive amendments to the guideline of library building in the colleges and universities.   \nKeywords : Coleges AndUniversities Libraries，LibraryBuilding   \nOverseas Experience   \nOnthe CooperativeDevelopmentof Library Union Catalog in Japan:itsHistory，Curent StatusandRevelation，Goo Bo&O)   \nAbstractTheartceitrodcesthtofbayiocatalogevelopntinapaeivesityresdpubliclbrariesItisuss thecurentsatusofiforationsharinginJapaneselibarisandgivessugestiosbsedonJapaneselibrariespricstoChineselibari. Keywords:Japanese Libraries，Library Union Catalog，Resources Sharing   \nAcademic Library Online Cataloging Systems in Japanand Korea TheCurent StatusandtheRevelation，YuShuangshuang $\\$ 3$ ）   \nAbstract:ThisarticleisomparativestudyonteacademcolinecatalogingsystemsinJapanandKorea.Itfocusesespeiallontheste structuresdatabasemainteancendsevicepolicyindertogivoeelpfulsugestiosforoiecatalogingssteevelopentiCha. Keywords: Online Cataloging System，Bibliographical Database Maintenance，CALIS，KERIS，NACSIS，Nil   \n中国知网 https://www.cnki.net"
+  }
+}

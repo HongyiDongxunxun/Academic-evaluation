@@ -1,0 +1,95 @@
+{
+  "original_filename": "full_5453.md",
+  "情报学界对“知识管理”的研究现状分析": "",
+  "基于关键词的关联规则挖掘": {
+    "context1": "赵艳枝",
+    "context2": "中山大学资讯管理系广州 510275",
+    "context3": "[摘要]基于对情报学核心期刊中研究知识管理的文献进行关键词关联规则挖掘，并依据规则进行文献内容分析，得出情报学界对知识管理研究的现状与总体特征；通过与学术界知识管理研究热点内容进行对比，发现情报学界对知识管理研究的特色在于知识服务和人文特性，并对其研究价值进行分析，以期为情报学界对知识管理的研究提供帮助。",
+    "context4": "[关键词]情报学知识管理研究现状分析关联规则挖掘[分类号]G350"
+  },
+  "Analysis of Current Situationof“Knowledge Management”Researched by Information Science Researchers": {
+    "context1": "the Application of Association Rule Mining in Bibliometrics",
+    "context2": "Zhao Yanzhi",
+    "context3": "Department of Information Management of Sun Yat-Sen University,Guangzhou 510275 [Abstract]Basedosciatiouledotetalisteiteratureubshdiejoualsoffoatonssa discussesefeaturesofliearebotoegeageentesidestseofmpaatiealysisofiteratureinfoaiece andotheroeortilaettidea contribuing to the development of information science in researching“knowledge management\". [Keywords]information scienceknowledge management currnt situation analysisassociation rule mining"
+  },
+  "1引言": {
+    "context1": "随着知识经济的出现和发展，知识管理吸引了不同学科领域研究人员的关注。情报学和知识管理有着密切的联系，近年来，情报学界研究人员从不同角度对知识管理进行了研究，这些研究具有情报学科的特色，对其特色内容及研究价值的探究直接影响着情报学界对知识管理研究的未来发展。"
+  },
+  "2关联规则挖掘的内涵与应用意义": {
+    "context1": "关联规则挖掘是数据挖掘的一种方式，是知识发现的一个环节，用于从海量数据中提取隐含的、先前未知的、对决策者有潜在价值的知识和规则。它主要是利用数据库中的大量数据，通过关联算法寻找属性间的相关性[1]。关联规则挖掘的思想可以应用于文献计量学，例如对关键词之间的关联程度进行分析，如果某两个或多个关键词频繁地出现在同一篇文献的关键词集中，则说明这两个或多个关键词具有一定的关联。本研究意在通过找出情报学界所发表的文章中和术语“知识管理”同时出现在一篇文献关键词集中的高频词，应用关联规则挖掘的方法判断这些高频词与知识管理的关联大小，从而分析情报学界对知识管理的研究现状。",
+    "context2": "关联算法主要通过支持度和置信度两个指标来实现。",
+    "context3": "·支持度(support)：反映了关联是否是普遍存在的规律，即满足某个条件的元组在整个数据库中出现的频率[2。本研究中，支持度指同时包含关键词“知识管理”和某一个（多个）关键词的文献数占研究所用文献总数的比例，反映了情报学界研究人员对知识管理各方面内容研究的普遍性。",
+    "context4": "·置信度（confidence）：反映了关联规则的预测强度，是指在规则成立的条件下结果成立的概率2]，即满足某个条件的元组在对应对象群体中出现的频率。本研究中置信度指同时包含关键词“知识管理”和另外某一个（多个）关键词的文献数占关键词集中包含“知识管理”的文献数的比例，反映了情报学界研究“知识管理”的人员研究该问题（一个或多",
+    "context5": "个）的概率。",
+    "context6": "例如，关联规则为 $\\mathrm { A } \\to \\mathrm { B }$ ，则有：",
+    "context7": "置信度：Confidence $\\mathrm { ( A \\longrightarrow B ) } = \\mathrm { P r o b a b i l i t y } \\ \\mathrm { ( B / A ) } = \\mathrm { P r o b } -$ ability(AUB)/Probability(A)]",
+    "context8": "从定义可以看出，任何给定的两个关键词之间都有关联，只不过属性值不同。如果不考虑支持度和置信度，就会发现无穷多条规则。事实上，人们通常只对满足一定支持度和置信度的规则感兴趣，因此需要给定阈值：最小支持度和最小置信度。"
+  },
+  "3情报学与知识管理的内在联系": "",
+  "3.1从情报学的内涵来看": {
+    "context1": "英国情报学家布鲁克斯认为，情报是使人们原有知识结构发生变化的那部分知识[3]。情报从被定义开始就与知识有着密不可分的联系。情报的知识性体现在情报学和知识管理的密切关系上。中国人民大学周晓英教授提出：情报学是寻求解决人类知识困境问题的学科。知识管理致力于解决大量知识（资讯、信息）的创新、组织与扩散问题，其主要内容涉及到知识创新的处理技术、知识组织的管理方法和知识扩散的路线与途径[3]，是情报学用于解决人类知识困境的有效方式。因此，对知识管理的深入研究是情报学完成其学科使命的核心研究内容之一。",
+    "context2": "表1情报学核心期刊中历年刊载关于“知识管理”的文献数量统计",
+    "context3": "<table><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>2000</td><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>2002</td><td rowspan=1 colspan=1>2003</td><td rowspan=1 colspan=1>2004</td><td rowspan=1 colspan=1>2005</td><td rowspan=1 colspan=1>2006</td></tr><tr><td rowspan=1 colspan=1>文献总数（篇）</td><td rowspan=1 colspan=1>1063</td><td rowspan=1 colspan=1>1257</td><td rowspan=1 colspan=1>1257</td><td rowspan=1 colspan=1>1197</td><td rowspan=1 colspan=1>1257</td><td rowspan=1 colspan=1>1296</td><td rowspan=1 colspan=1>1370</td></tr><tr><td rowspan=1 colspan=1>知识管理方面的文献数（篇）</td><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>90</td><td rowspan=1 colspan=1>85</td><td rowspan=1 colspan=1>115</td><td rowspan=1 colspan=1>120</td><td rowspan=1 colspan=1>140</td></tr><tr><td rowspan=1 colspan=1>比例(%)</td><td rowspan=1 colspan=1>3.95</td><td rowspan=1 colspan=1>5.09</td><td rowspan=1 colspan=1>7.16</td><td rowspan=1 colspan=1>7.10</td><td rowspan=1 colspan=1>9.15</td><td rowspan=1 colspan=1>9.26</td><td rowspan=1 colspan=1>10.1</td></tr></table>"
+  },
+  "3.2从情报学的发展历程来看": {
+    "context1": "早期的情报学定位于军事领域，意为“战时关于军情之报”。二战之后，随着大量科技文献的解密，情报学的研究转向科技领域[4]。20世纪90年代以来，随着经济全球化的发展和市场竞争的加剧，情报学研究的主题从“科技情报”转向“经济情报”，并与企业的可持续竞争优势相结合，产生了“竞争情报”。随着企业可持续竞争优势理论由环境决定论、资源决定论发展到以知识资产为基础的知识决定论，知识及知识管理便成为情报学界的主要研究内容之一。"
+  },
+  "4情报学界对知识管理的研究内容分析": "",
+  "4.1研究概述": {
+    "context1": "通过对5种情报学核心期刊《情报学报》、《图书情报工作》、《情报科学》、《情报理论与实践》、《图书情报知识》近7年（2000-2006年）所载文献进行统计，发现其中关于知识管理（以术语“知识管理”作为文献关键词）的研究文献数量逐年攀升，从2000年的 $3 . 9 5 \\%$ 增加到2006年的 $1 0 . 1 \\%$ （详见表1)。可见，知识管理作为情报学界的重要研究内容已经被大体明确，情报的知识性也已经逐渐被广大研究人员所认同。"
+  },
+  "4.2基于关键词的关联规则挖掘": {
+    "context1": "4.2.1数据来源以2006年情报学界研究人员在以上5类核心期刊发表的1370篇文献为研究对象，其中以术语“知识管理”作为关键词的文献有140篇。由于在这些文献中一部分是会议文献等，这140篇文献并非都对选取高频关键词有意义。因此，首先要选取关键词来源文献。选取条件[5如下： $\\textcircled{1}$ 只选有关键词的文献； $\\textcircled{2}$ 严格要求术语“知识管理”出现在文章的关键词集中； $\\textcircled{3}$ 只选学术性很强的论文。根据上述三个条件，选出96篇文献作为关键词的词频统计来源文献。",
+    "context2": "通过对96篇文献的关键词进行统计，得到高频关键词集：{知识管理，企业}、{知识管理，知识共享}、{知识管理，图书馆}、{知识管理，隐性知识}、{知识管理，知识服务}、{知识管理，竞争情报}、{知识管理，本体}、{知识管理，创新}、{知识管理，信息技术}、{知识管理，知识供应链}、{知识管理，信息资源}、{知识管理，图书情报学}、{知识管理，流程}、{知识管理，知识发现}、{知识管理，政府}、{知识管理，信息管理}（见表2)，选前10个作为关联候选集。",
+    "context3": "表2高频词集统计",
+    "context4": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词集</td><td rowspan=1 colspan=1>词频</td><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词集</td><td rowspan=1 colspan=1>词频</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>知识管理、企业</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>知识管理、信息技术</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>知识管理、知识共享</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>知识管理、知识供应链</td><td rowspan=1 colspan=1>8</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>知识管理、图书馆</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>知识管理、信息资源</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>知识管理、隐性知识</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>知识管理、图书情报学</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>知识管理、知识服务</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>知识管理、流程</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>知识管理、竞争情报</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>知识管理、知识发现</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>知识管理、本体</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>知识管理、政府</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>知识管理、创新</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>知识管理、信息管理</td><td rowspan=1 colspan=1>4</td></tr></table>",
+    "context5": "4.2.2关联规则挖掘从表1可以得知，情报学界对知识管理的研究于2006年达到最高峰，但也只有 $10 \\%$ 左右，所以根据需要，定义较低的阈值即可。本研究给定的最小置信度为$10 \\%$ ，最小支持度为 $1 \\%$ ，通过对关联候选关键词集的置信度和支持度进行计算，得出满足条件的规则，即表3。",
+    "context6": "由于本文主要是对情报学界对“知识管理”的研究现状进行分析，所以就不对{企业，知识共享) 知识管理、{竞争情报，企业 知识管理、{图书馆，知识服务} 知识管理的关联程度进行考查。此外，由于知识管理一{企业，知识共享}就相当于（知识管理 企业） $\\Lambda$ （知识管理→知识共享)，前文已经考查过了，所以也不再对知识管理→{图书馆，知识服务}、知识管理 {竞争情报，企业}及知识管理→{企业，知识共享}的关联程度进行考查。",
+    "context7": "根据表3的计算结果，可以得到如下几条规则：知识管理 $^ \\star$ 企业、知识管理 $^ *$ 知识共享、知识管理 图书馆、知识管理一隐性知识、知识管理一知识服务、知识管理→竞争情报。",
+    "context8": "表3关联规则计算",
+    "context9": "<table><tr><td rowspan=1 colspan=1>关键词集</td><td rowspan=1 colspan=1>候选关联规则集合</td><td rowspan=1 colspan=3>词频</td><td rowspan=1 colspan=1>置信度(%)</td><td rowspan=1 colspan=1>支持度（%）</td></tr><tr><td rowspan=1 colspan=1>知识管理、企业</td><td rowspan=1 colspan=1>知识管理一企业</td><td rowspan=1 colspan=3>18</td><td rowspan=1 colspan=1>18.8</td><td rowspan=1 colspan=1>1.31</td></tr><tr><td rowspan=1 colspan=1>知识管理、知识共享</td><td rowspan=1 colspan=1>知识管理→知识共享</td><td rowspan=1 colspan=3>17</td><td rowspan=1 colspan=1>17.7</td><td rowspan=1 colspan=1>1.24</td></tr><tr><td rowspan=1 colspan=1>知识管理、图书馆</td><td rowspan=1 colspan=1>知识管理→图书馆</td><td rowspan=1 colspan=3>17</td><td rowspan=1 colspan=1>17.7</td><td rowspan=1 colspan=1>1. 24</td></tr><tr><td rowspan=1 colspan=1>知识管理、隐性知识</td><td rowspan=1 colspan=1>知识管理→隐性知识</td><td rowspan=1 colspan=3>15</td><td rowspan=1 colspan=1>15.6</td><td rowspan=1 colspan=1>1.09</td></tr><tr><td rowspan=1 colspan=1>知识管理、知识服务</td><td rowspan=1 colspan=1>知识管理知识服务</td><td rowspan=1 colspan=3>14</td><td rowspan=1 colspan=1>14.6</td><td rowspan=1 colspan=1>1.02</td></tr><tr><td rowspan=1 colspan=1>知识管理、竞争情报</td><td rowspan=1 colspan=1>知识管理→竞争情报</td><td rowspan=1 colspan=3>14</td><td rowspan=1 colspan=1>14.6</td><td rowspan=1 colspan=1>1.02</td></tr><tr><td rowspan=1 colspan=1>知识管理、本体</td><td rowspan=1 colspan=1>知识管理→本体</td><td rowspan=1 colspan=3>11</td><td rowspan=1 colspan=1>11.5</td><td rowspan=1 colspan=1>0.80</td></tr><tr><td rowspan=1 colspan=1>知识管理、创新</td><td rowspan=1 colspan=1>知识管理→创新</td><td rowspan=1 colspan=3>11</td><td rowspan=1 colspan=1>11.5</td><td rowspan=1 colspan=1>0.80</td></tr><tr><td rowspan=1 colspan=1>知识管理、信息技术</td><td rowspan=1 colspan=1>知识管理→信息技术</td><td rowspan=1 colspan=3>10</td><td rowspan=1 colspan=1>10.4</td><td rowspan=1 colspan=1>0.73</td></tr><tr><td rowspan=1 colspan=1>知识管理、知识供应链</td><td rowspan=1 colspan=1>知识管理→知识供应链</td><td rowspan=1 colspan=3>8</td><td rowspan=1 colspan=1>8.33</td><td rowspan=1 colspan=1>0.58</td></tr><tr><td rowspan=2 colspan=1>知识管理、企业、竞争情报</td><td rowspan=1 colspan=1>知识管理、企业→竞争情报</td><td rowspan=1 colspan=3>6</td><td rowspan=1 colspan=1>33.3</td><td rowspan=2 colspan=1>0.44</td></tr><tr><td rowspan=1 colspan=1>知识管理、竞争情报→企业</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>42.3</td></tr><tr><td rowspan=2 colspan=1>知识管理、企业、知识共享</td><td rowspan=1 colspan=1>知识管理、企业→知识共享</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>38.9</td></tr><tr><td rowspan=1 colspan=1>知识管理、知识共享→企业</td><td rowspan=1 colspan=3>7</td><td rowspan=1 colspan=1>50.0</td><td></td></tr><tr><td rowspan=2 colspan=1>知识管理、图书馆、知识服务</td><td rowspan=1 colspan=1>知识管理、图书馆→知识服务</td><td rowspan=1 colspan=3>9</td><td rowspan=1 colspan=1>52.9</td><td rowspan=2 colspan=1>0.66</td></tr><tr><td rowspan=1 colspan=1>知识管理、知识服务→图书馆</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>64.3</td></tr></table>"
+  },
+  "4.3规则剖析": {
+    "context1": "通过对符合规则的文献的摘要进行内容分析，得出每条规则的具体内容。",
+    "context2": "4.3.1规则“知识管理→企业”文献[6]认为知识管理是企业利用知识创造价值的保障机制。用知识的观点重新解释和观察企业的结构与行为，对企业知识管理战略及资源管理模式进行探讨，目的在于知识创新。大量文献就企业知识创新模式和创新文化进行了研究，指出信任是企业知识管理的灵魂。此外，也从技术层面进行了初步探索，如博客技术对知识积累、共享、服务，创新及建立战略联盟的支持；虚拟现实技术和知识地图技术在隐性知识发现中的应用；等等。",
+    "context3": "4.3.2规则“知识管理→知识共享”对知识共享（转移）的实现方法、策略进行研究，提出知识共享是知识创新的重点和难点；从共享客体、共享主体两个方面来分析知识共享的障碍；对共享中的信任机制、激励机制及组织文化的重要作用进行了探讨，并提出在组织内部建立互惠信任及有效的激励机制。",
+    "context4": "4.3.3规则“知识管理→图书馆”图书馆作为知识的宝库，对其知识管理的研究集中在资源整合、知识的生命周期、知识供应链及知识服务、图书馆员的知识理念等内容上。例如：提出要在知识管理理念下对数字资源进行整合；指出人是图书馆知识管理的核心，要通过利益导向机制、知识激励机制、知识管理服务效益评价机制等来加强对图书馆员的管理。",
+    "context5": "4.3.4规则“知识管理→隐性知识”从人文和技术两个层面对隐性知识的挖掘与共享策略进行了探讨，以前者居多，主要是从组织结构、激励制度、加强学习交流等方面来促进隐性知识发现与共享。技术方面则提出了人工智能、神经网络、知识地图等的使用。",
+    "context6": "4.3.5规则“知识管理→知识服务”知识服务发源于传统的信息服务，情报学界研究人员以图书馆资源共建共享为基础，进行知识服务的研究。文献[7]、文献[8]、文献[9]认为知识服务是图书馆的核心能力，提出图书馆知识服务面向社会的发展思路，将图书馆的服务由信息理念上升到知识范畴，并将知识的内部共享推广到社会层面。充分发挥图书馆知识的宝库效应，使全社会受益。",
+    "context7": "4.3.6规则“知识管理→竞争情报”对知识管理和竞争情报的研究主要是探讨二者的关系，并就如何实现知识管理和竞争情报互动双赢的策略进行研究。例如文献[10]、文献[11]认为知识管理和竞争情报是组织创新与提升竞争力的两大战略武器，强调将知识管理的思想和方法融入组织竞争情报工作中，并在竞争情报工作中实现知识的共享和有效运用。"
+  },
+  "5思考与推论": "",
+  "5.1情报学界对知识管理的研究的总体特征": {
+    "context1": "知识管理从出现开始就受到社会各界的广泛关注，近些年知识管理开始拓展到图书情报学领域，也为情报学创新研究提供了新的思路和视角2]。统计结果表明，情报学界对知识管理的研究呈逐年攀升的趋势，但研究内容规则置信度和支持度不高，说明研究内容离散程度比较高，不集中。情报学界对知识管理的研究内容几乎涉及到现阶段学术界对知识管理的研究的各个方面，但就某个方面的问题研究不够深入，呈现“广而不深”的特点。"
+  },
+  "5.2情报学界与学术界关于知识管理研究的热点的对比分析": {
+    "context1": "根据综述文献[5]、文献[13]、文献[14]、文献[15]，国内对知识管理的研究可概括为三个方面： $\\textcircled{1}$ 对知识管理的基本概念、原理的探讨； $\\textcircled{2}$ 从管理学的角度对知识管理进行研究，包括知识管理评测、组织知识结构及知识战略等； $\\textcircled{3}$ 从技术层面对知识管理进行研究，包括知识地图、组织门户、知识管理模型及系统的构建等。国内情报学界对知识管理的研究包括管理和技术层面，以管理层面为主，如知识创新、隐性知识、知识共享、知识服务、竞争情报等，对知识管理的基本概念、原理及实现技术的研究较少，例如数据挖掘、知识地图、资源整合技术等。此外，近年来，国内学术界对企业、制造业、高校、图书馆、高校图书馆、知识型企业、组织等的知识管理都进行了相当程度的研究，本研究表明，情报学界对知识管理的研究局限于图书馆和企业范围内，以企业偏多。"
+  },
+  "5.3情报学界对知识管理研究的特色及其价值": {
+    "context1": "综合上述分析，情报学界对知识管理的研究特色在于知识服务和知识管理中人文因素的研究。",
+    "context2": "第52卷第7期2008年7月",
+    "context3": "对知识服务的研究是以图书馆为基地进行的，图书馆从通过资源整合实现信息服务上升到通过数据挖掘来提供知识服务，是一个伟大的进步。图书馆知识服务注重知识的增值与创新，以提高用户满意度为宗旨，通过对文献内容进行深层次挖掘，为用户提供专业、个性化的知识。知识服务的研究将服务的观念引入到图书情报机构的运作中，这对更新工作人员的观念，激发其工作热情，促进图书情报界与社会的接轨，进而明确其在知识经济时代的社会使命具有重要意义。",
+    "context4": "情报学界对知识管理中人文因素的研究也是其特色之一。相关实证研究表明，人文战略倾向度高的企业，其知识创新水平也高[6]。强调知识管理中知识活动主体——人的作用，通过对人的知识活动进行分析，建立合适的组织文化，利用各种激励措施提高人在知识共享、知识创新等活动中的积极性。对人的研究是知识管理研究的出发点，也是研究的最终归宿，可以为知识共享问题提供解决方案，为知识创新提供主体支持。"
+  },
+  "6结语": {
+    "context1": "知识与情报的内在关联源远流长，知识管理作为解决人类知识困境的主要方法，已经在情报学界得到了广泛的研究，涉及企业和图书馆等的知识活动的各个方面。这些研究的内容呈现出泛化现象，虽然体现了情报学的自身特色，但特色内容研究不够深入。本文的创新点在于将关联规则挖掘的方法引入学科研究热点分析中来，但由于时间和能力所限，仅用情报学5种核心期刊2006年登载的文献作为研究对象，所得结论有一定的局限。关于特色内容和价值的研究以及研究方法的改进有待于今后进一步加强。"
+  },
+  "参考文献：": {
+    "context1": "[1]刘星沙,谭利球,熊拥军.关联规则挖掘算法及其应用研究.计算[作者简介]赵艳枝，女，1984年生，硕士研究生。",
+    "context2": "机工程与科学，2007，29(1):83-85.  \n[2]魏晓云.关联规则挖掘方法的应用研究.电脑与信息技术,2007，15(3):17-20.  \n[3]胡一俊，殷之明.知识管理：情报学研究领域的回归和变革.图书情报知识，2004(1):15-18.  \n[4]杨庆芝.论知识管理及其与情报学的关系.情报科学，2002,20(7):673-676.  \n[5]马费成,张勤.国内外知识管理研究热点——基于词频的统计分析.情报学报，2006,25(2):163-171.  \n[6]唐晓波，樊锐兰.企业知识管理成功策略研究.情报杂志,2006(3):82-84.  \n[7]党跃武.将知识服务进行到底—基于知识交流的知识服务.图书情报工作，2006,50(4）:19-22.  \n[8]沈黎萍，唐志豪.面向知识服务的高校图书馆知识管理机制研究，情报杂志，2006(8):130-132.  \n[9]黄连庆.知识服务是否是“操作陷阱？—一关于知识服务能否作为图书馆核心能力的讨论”图书情报工作，2006,50(9)：140-142.  \n[10]鲍杰，孙培山，樊治平.一种基于知识管理的企业竞争情报过程模型.情报理论与实践，2006(3):304-307.  \n[11]秦铁辉,汪琼.创立竞争情报与知识管理互动双赢的和谐机制.图书情报工作，2006(10):63-67.  \n[12]秦铁辉,马德辉，孙琳.知识管理理念下情报学研究路径探析.图书情报工作，2004,48(12):68-72.  \n[13]周竺,孙爱英.知识管理研究综述.中南财经政法大学学报，2005(6):27-33.  \n[14]李莉，杨亚晶.国内知识管理研究综述，现代情报,2005,25(10):9-11.  \n[15]朱晓峰.知识管理研究综述.情报理论与实践,2003,26(5):406-408.  \n[16]张向先，田爱玲.企业知识管理战略选择和知识创新的实现.情报科学，2006，24(11):38-41."
+  },
+  "下期要目": {
+    "context1": "天津滨海新区服务型电子政务评价研究",
+    "context2": "□基于共链分析图形化描述纸业企业竞争地位",
+    "context3": "（王芳副教授组织）",
+    "context4": "（周秋菊周在峰）",
+    "context5": "□我国政府信息公开工作中的技术问题探析 □博客计量学的“独立资格”分析 （李江）",
+    "context6": "（张新民罗卫东）口信息可视化的发展趋势研究 （周宁程红莉）",
+    "context7": "□核心价值的特征：图书馆核心价值筛选和确定的切入点口电子资源许可协议模型研究",
+    "context8": "论图书馆核心价值和核心职能 （朱国萍） （程文艳孙坦黄国彬）",
+    "context9": "图书馆学本土化基本理论管窥 （白君礼）口IT项目知识管理模型与支持系统研究",
+    "context10": "基于长尾理论的数字图书馆用户保障",
+    "context11": "（于本海张金隆刘玉青等）",
+    "context12": "（程娟肖雪）"
+  }
+}

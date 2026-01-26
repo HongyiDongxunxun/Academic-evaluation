@@ -1,0 +1,128 @@
+{
+  "original_filename": "full_8203.md",
+  "知行合一创新创意 关联无限 开拓未来": {
+    "context1": "第12届数字图书馆前沿问题高级研讨班暨Lib2.15会议综述\\*"
+  },
+  "杨薇陈晓亮黄国凡": {
+    "context1": "摘要2015年7月6日至8日，第12届数字图书馆前沿问题高级研讨班暨Lib2.15会议在厦门大学图书馆举行。三天的议程涵盖数据服务、关联数据、数字人文、图书馆合作及行业未来等五项分主题内容。通过对会议报告和分享案例的梳理,提出图书馆的未来发展取决于树立终身学习的思想，寻求更大范围的合作，项目实施体现人的价值以及无边界创新创意。",
+    "context2": "关键词数据服务关联数据 数字人文图书馆合作创新行业未来"
+  },
+  "1引言": {
+    "context1": "第12届数字图书馆前沿问题高级研讨班（以下简称研讨班)暨Lib2.15会议于2015年7月6日至8日在厦门大学图书馆举行[]。会议主题为：知行合一，创新创意；关联无限，开拓未来！会议内容分为三部分：(1)专家报告。研讨班创始人和资深教师张甲、秦健、林夏、曾蕾、林海青，Lib2.0会议发起人、上海图书馆副馆长刘炜，康奈尔大学图书馆副馆长李欣和台湾中山大学图书馆馆长李锡智等专家学者分别做了主题报告；(2)上机培训。共两场，一场与数据服务有关，研讨班教师介绍如何利用图数据库存储并发布关联数据集；另一场与数据的采集和可视化有关，学员们在现场动手体验数据获取、数据处理、数据可视化的系统与工具；(3)案例分享。学员们带来26个研究项目，在会议期间切磋技艺、交流经验，经大会评选出最佳实践案例。",
+    "context2": "这是研讨班和Lib2.0会议的首次合体。研讨班的\"高端大气”与Lib2.0的\"草根\"无拘，学界专家的深谋远虑与技术馆员的创新创意如何有机地结合在一起？通过梳理报告与案例，笔者总结出五大前沿问题及行业实践现状，并尝试勾勒出新技术背景下图书馆的未来发展路径。"
+  },
+  "2数据服务": {
+    "context1": "秦健的\"数据服务的概念和类型”和林夏的“数据服务的技术基础设施及发展方向”，这两个报告紧紧围绕数据服务的概念、基础设施建设及面临的挑战这三个方面展开。"
+  },
+  "2.1数据服务的概念": {
+    "context1": "数据服务有五个关键概念：研究数据管理、数据监管、数据存档、数据基础设施和数据即服务。",
+    "context2": "研究数据管理侧重于数据管理的整个生命周期，包括数据存储、数据组织、数据文件、数据存档、数据发现以及数据的共享和重用。数据文件是用来描述一个数据集中包含的数据文档的格式、类型及软件等，便于将来的数据重用。数据文件是社会科学和大型科研数据集的重要组成部分，例如某些科研机构发布大型数据时往往附带用户指南或用户菜单，这些都可视为数据文件。",
+    "context3": "数据监管和数据存档这两个概念重合度较高。数据监管源于英国，英国的数据监管中心发布了著名的数据监管生命周期模型[2]；数据存档常用于美国。两者都强调长期保存、长期访问和重用。由数据基础设施支持的数据管理贯穿整个数据生命周期，上述几个关键概念分别处于该周期的不同阶段（图1）。",
+    "context4": "![](images/1b2bc444108bfb3c5e7da1013264812745b8dd00ddb7525435a9b503d8051e90.jpg)  \n图1由数据基础设施支持的数据管理[3]"
+  },
+  "2.2数据服务的基础设施": {
+    "context1": "数据基础设施建设是数据服务的重要任务。2011年，美国国家科学基金会的一纸公文将研究数据管理变成了刚性需求，图书馆员凭借其天然的职业优势，迅速将服务阵地拓展到传统学术交流的上游。美国一些大型图书馆纷纷成立了研究数据管理服务组来支持研究者撰写数据管理计划。杜克大学向本校师生提供统计软件、地图软件、可视化软件和数据清洗软件，馆员提供咨询和培训，甚至可以帮助研究者实施可视化[4]。马里兰大学图书馆帮助研究者创建和发布公开数据、制定数据管理计划、进行数据存档等工作，目前已有六个数据馆员分管不同学科[5]。DMPTool被纳人美国国家科学基金会和美国国家卫生研究所的标准，已成为165家机构会员撰写数据管理计划不可或缺的工具[6]。",
+    "context2": "著名的研究数据仓储有美德合作项目Re3data.org[]和DataCite[8]。国家级数据服务有澳大利亚国家数据服务[9]、英国数据服务[10]和近几个月刚起步的美国国家数据服务[11]。主题级别的数据服务也有很多，自然出版集团旗下的出版物《科学数据》要求投稿者在文稿提交送审之前，必须先将科学数据存储于相应主题领域的数据仓储中[12]。",
+    "context3": "数据清理工具中有不少开源软件，如数据整理软件OpenRefine[13],可将PDF的表格数据抽取转换成CSV或Excel表格的Tabula[14],将Excel数据转换成 HTML、JSON 或 XML 的 Mr.Data Con-verter。还有诸如用于统计分析、绘图和数据挖掘的R语言和Python 的结构化数据分析工具 Pan-das[15],这两个工具要求使用者略懂编程,但其本身已有强大的工具包用于可视化和转换数据。此外，华盛顿大学互动数据实验室发布了许多关于数据处理和可视化的文章[16]。",
+    "context4": "林夏简要介绍了词汇表仓储CKAN[17]、巴西政府做的DataViva[18]和用于跨院系、跨学校和跨国基金申请的数字合作工具VIVO[9]、LD4L[20]、SHARE[21]和 Alfresco Community[22]。秦健则强调，数据基础设施服务不仅仅是技术问题，还和国家的宏观政策、机构的愿景和规划、数据访问机制等方面有很大关系。在建立数据基础设施服务时，特别需要考量项目的可重复性，以及财政和技术上的可持续性。"
+  },
+  "2.3研究数据管理面临的挑战": {
+    "context1": "美国研究图书馆协会在2010年和2013年对数据服务的调查显示，短短三年时间数据服务的领域就发生了很大变化[23][24]。研究数据管理所面临的关键问题有：(1)人才缺口大;(2)资金不足，很多图书馆是从原有预算中另行划拨一部分用于数据服务；(3)需要培训，2013年研究数据管理最需要培训的内容是学科专业知识、数据监管、信息技术或服务经验，以及图书情报学位培训；(4)需要数据政策的支持，包括数据获取政策、元数据政策、数据管理政策和长期保存政策等。",
+    "context2": "北京大学图书馆副馆长肖珑谈到，目前国内尚未明确提到国家级数据服务，但有些机构已着手相关事宜。比如中国科学院图书馆的科研数据保存管理、机构库建设和ORCID推广等，北京大学和复旦大学也已经开始实施科研数据管理项目。此次研讨班，北京大学图书馆带来的三个案例都与数据服务有关，其一是基于Dataverse4.O上开发的北京大学开放数据平台，目前已经实现了统一认证、中英双语界面和DataCiteDOI注册功能；其二是聂华团队为国家自然科学基金委建设的开放知识库，基于CA-LIS 机构仓储高校联盟[25]的建设经验，应用DSpace平台展示我国自然科学项目成果[26]；其三是通过分析CASHL服务十年来的文献提供量、使用人数、使用馆次以及使用期刊的分布情况等，挖掘读者行为模式和资源利用情况。会议中有关数据服务的其他案例还有：暨南大学图书馆在国内首次引人VuFind建立开放获取资源及馆藏自建资源发现系统，目前已经导人馆藏图书元数据、DOAJ论文元数据、中科院机构库数据及厦门大学机构知识库数据近300万条；武汉大学图书馆对中国典型培养物保藏中心的所有典藏物进行数据整理、挖掘和评估，以便于他们在申请国家纵向项目上更具优势；大连医科大学利用TIS软件建设本校的中文学术期刊论文库、SCI期刊论文库和著作教材文库，并对其进行深度标引。这些案例都是国内高校图书馆在数据服务方面的初步尝试。"
+  },
+  "3关联数据": {
+    "context1": "关联数据是发布结构化数据的最佳实践方式，也是语义网的一种简单实现方式，但涉及的概念、标准、技术纷繁复杂，让人望而却步。如何使用、存储、发布与管理关联数据，其具体实现过程值得探讨交流。"
+  },
+  "3.1关联数据系统建设实践": {
+    "context1": "上海图书馆在家谱知识库系统的建设过程中，突破原有系统中基于文献描述方式的局限，深入分析家谱文献中包含的人物、地点、时间、事件、机构及相互关系，创建基于BibFrame的家谱本体，从而实现了基于实体语义关联关系的检索和浏览，并提供可视化的展示工具[27]。以该系统为例，夏翠娟介绍了构建关联数据应用系统的详细过程一—从需求分析、本体设计、数据清洗、RDF数据转换到数据发布[28]。陈涛和张永娟则分别从关联数据应用系统的技术细节和建设成果两个方面介绍中国科学院上海生命科学信息中心的BIO-LSD科学家学术在线系统。他们将上海生命科学研究院科学家的论文刊发信息转化为结构化的RDF数据，并与PubMed、DC、FOAF、BIBO等外部数据源关联，存储在图数据库OpenLinkVirtuoso[29]中，从而对科学家之间隐含的关系进行挖掘与可视化分析[30]。陈涛着重介绍了建设该系统时涉及的技术细节：语义网的开发框架ApacheJena、RDF数据的转换、RDF数据的存储、语义检索和数据可视化[31]。"
+  },
+  "3.2NoSQL与关联数据的存储": {
+    "context1": "科研机构通过网络发布的数据集往往非常庞大，少则数十万条，多则上亿，这对应用程序、存储设备和计算机性能提出了更高的要求。秦健、陈涛建议使用NoSQL尤其是图数据库来存储关联数据，以突破关系型数据库不方便扩展、无法负荷大规模数据间复杂关系运算的窘境。NoSQL意指NotOnlySQL，即无需预先定义数据模型便可存储数据，并可分布式地存放数据，在进行大规模数据查询时效率极高。NoSQL按数据的存储方式大致可分为文档、键值、图或列族等数据库。Neo4J[32]是一种通用的使用图结构的数据库，它使用节点、边与属性这三种构造单元组成的属性图结构来表达并储存数据。秦健将生物信息数据库GenBank中描述DNA序列的数据下载后从MySQL数据库转换存储到Neo4J数据库中，涉及136万篇出版物，53万个作者，而作者间及作者与出版物间的关系则有1214万条。通过Neo4J，数据分析的速度显著提升，也能以可视化的形式直接展示查询结果。陈涛则将RDF三元组数据存储于OpenLinkVirtuoso中，Virtuoso的好处之一是自带有 SPARQL查询端点。",
+    "context2": "夏翠娟、陈涛、秦健重点介绍了在数据存人No-SQL数据库前将不同来源的现有数据集转换为RDF数据的方式。首先需要拟定数据模型或设计本体，明确数据中涉及的实体、关系和属性，而后将不同来源、不同结构的数据集转换为RDF。不同来源的数据集，其结构也不尽相同，包括非结构化的文本、CSV文本文件、Excel电子表格、关系数据库、XML文件、网络应用程序接口等。对于结构化或半结构化数据，陈涛介绍了诸如Bibtext2RDF（Bib-text）、D2RQ（SQL）、Excel2rdf（Excel）、easyM2R(MARC)、GRDDL(XML)等现成的转换工具。但若数据量过大或来自非结构化数据源时，则需要借助现有工具或自行开发以完成转换，如秦健通过关系数据库的E-R模型确定数据模型后将数据转换为CSV导人到Neo4J。夏翠娟则从MARC中提取家谱的实体及关系后再置入谷歌的数据清理工具OpenRefine,最终转换成RDF格式。"
+  },
+  "3.3关联数据平台": {
+    "context1": "林海青着重介绍了关联数据平台的建设原则[33]。2015年2月26日，关联数据平台工作组提交的《关联数据平台1.0》（Linked Data Platform1.$0 , \\mathrm { L D P } \\ 1 . \\ 0 ) ^ { [ 3 4 ] }$ 成为互联网协会的正式推荐标准[35]。与陈涛、夏翠娟两位所介绍的关联数据系统实践方式稍有不同的是，这个标准所定义的“关联数据平台\"其实是指一个读/写关联数据的RESTfulHTTP服务模式，是在关联数据四原则之上，更明确、详细地说明如何通过HTTP协议的GET、POST、PUT、DELETE等操作方法去实现关联数据的访问、创建、修改、删除。LDP1.0将可供HTTP方法操作的资源分为两种：RDF资源和非RDF资源，前者便是我们向Web发布的结构化数据，后者指传统Web网络上的二进制文件或非结构化的文本资源。有时候RDF资源同时正是与某个非RDF资源有关系的元数据。另外，LDP1.0中还引人了“容器\"的结构。它是一种特殊的RDF资源，包括基本容器、直接容器、间接容器。基本容器可视为RDF集合的最简单形式，向一个基本容器的HTTPGET请求，相当于请求列出一个RDF资源集的成员清单。但在基本容器中，无法说明容器与它的成员之间究竟为何种从属关系。而在直接容器和间接容器中，则可以使用领域词汇来指明容器与成员的关系。在遵循关联数据平台开发的关联数据服务系统中，不再只是单向发布只读数据访问接口，双向互操作成为可能；另一方面，系统建立在程序员们熟悉的RESTfulHTTP操作基础之上，方便他们基于关联数据服务系统开发前端应用。具体实践中，可以使用PHP开源工具 $\\mathrm { A R C } 2 ^ { [ 3 6 ] }$ 构建关联数据平台；或者使用ApacheMarmotta[37]搭建关联数据平台，这是LDP1.0所推荐的标准的JAVA语言实现方案之一。"
+  },
+  "4数字人文": {
+    "context1": "将数字技术与人文学科研究相结合的“数字人文\"是近年来的热点话题。曾蕾的报告“数字人文见闻”从图书馆员的专业视角出发，探讨了人文数据的“大\"与\"智慧”,并详细阐述了图书馆的结构化数据、半结构化数据和非结构化数据如何用于人文研究领域。"
+  },
+  "4.1大数据与智慧数据的关系": {
+    "context1": "人文数据有两个方面的内容：大数据和智慧数据。它们之间的关系犹如原油与精炼油。大数据就像原油，必须经过加工提炼才能带来更大的价值，智慧数据就是精炼油。大数据无结构、无明确范围、类型各异，且即时产生即时分析。智慧数据是半结构或结构化的、有明确范围、类型有限、经过加值处理，可根据数据结构进行分析。做好数字人文研究，需要把大数据变得更智慧，把智慧数据变得更大[38]。"
+  },
+  "4.2结构化的人文数据": {
+    "context1": "图书馆数据经质量控制，属于智慧数据，可直接被利用。如图书馆目录、专题文献库、档案查找工具、导航式指南等。研究人员利用Freebase、世界艺术家传记和艺术家人名规范档采集了世界三千年来最著名的艺术家、思想家的出生时间、地点和死亡时间、地点，可视化展现在地图上，以表现三千年来文化中心形成的过程，这篇本属人文历史研究领域的文章最终发表于《科学》期刊[39]，录像发布于NatureVideo[40]，足以说明数字人文的发展趋势和地位。"
+  },
+  "4.3图书馆的半结构化数据": {
+    "context1": "图书馆收集了许多半结构化数据，如档案、联合国的口述历史文档和MARC记录。曾蕾现场演示在加州州立大学北岭校区奥维亚特图书馆的档案检索工具数据库FindingAidsDatabase中查找上海特藏，检索页面仅提供管理元数据，无法检索到档案中隐藏的丰富的人、地、时、事等内容[41]。联合国口述历史文档中采访录音的文字实录已转为数字化的PDF文件，有详细的书后索引，但内容并未关联其他信息，索引无法用于检索，用户只能下载PDF后查看[42]。MARC记录中的大量信息不是检索点，不能被发现。由此可见，大多数图书馆的馆藏数据不是大数据，只能称之为大文本或文本版大数据。目前对此类半结构或无结构数据的处理方法有文本挖掘、自动抽取、情感分析、用本体的方法进行自动聚类等，常用的语义分析工具有Open Calais[43]、COGITO[44]和 BOSON[45]。"
+  },
+  "4.4非结构化数据": {
+    "context1": "非文字文献就是典型的非结构化数据，比如手稿、乐谱、地图和名家字画等，其中相当部分已扫描为图像，但难以被发现、再利用、引用、交换和比较。曾蕾介绍了国际图像互操作框架（InternationalIm-age Interoperability Framework,IIIF)[46]。 IIF 采用两项标准化API:ImageAPI定义图像，Presenta-tionAPI定义表现；后者可按照使用者的要求输出URI,从而实现多个图像对比、深度图像标引等功能。",
+    "context2": "有人质疑过多的技术和方法用于人文领域可能会造成研究的同质化。曾蕾认为，数字人文只是客观地展示史实，研究者可以有不同的解读。再者，利用技术将这些隐藏在文本中的内容揭示出来，会帮助人文学者发现他们所不知道的、业已存在的内容。",
+    "context3": "广西民族大学图书馆的大规模古籍文献可视化分析与挖掘项目采集网络和专业数据库的文本，结合文本挖掘与可视化技术，为语言学、历史文献学及历史地理学等人文学科的研究者提供大规模古籍语料库；台湾中山大学的李锡智运用模糊集合来体现人们在思维和表达中的模糊概念，并将其嵌入数据挖掘技术中，寻找大数据中隐藏的关联性知识；上海财经大学图书馆为解决中国老电影研究资料的空缺、异构和分散等缺点，通过文献聚合、数据挖掘和可视化等技术为国产老电影的通识课程教学提供数字人文知识发现平台。数字人文技术将为大学图书馆的人文社科类学科服务提供全新的工具、平台和视角。"
+  },
+  "5图书馆合作": {
+    "context1": "美国大学图书馆协会分析其63家成员馆的战略规划，总结出最值得关注的五个方面：馆藏、物理空间、合作、职业发展和评估[47],将合作提至前所未有的高度。李欣介绍的几个项目全都与图书馆合作有关。"
+  },
+  "5.1从 Borrow Direct 到 Ivy Plus": {
+    "context1": "BorrowDirect在1999年由哥伦比亚大学、宾夕法尼亚大学和耶鲁大学创建，后来扩展到常青藤八校联盟，在长达十五年的历史中，共馆际互借了180万册图书，获取时间为2至4天。从2014年开始，BorrowDirect又增加了四个学校：霍普金斯大学、麻省理工大学、芝加哥大学和杜克大学，形成IvyPlus联盟[48]。从2015年开始,Ivy Plus联盟不仅提供馆际互借服务，而且实现了成员馆之间开放借阅，通过分享馆藏来提高馆藏利用率、降低纸本重复、腾出书库容量、购买更多不重复的纸本。除此之外，IvyPlus联合聘用馆藏建设协调主管、网页收集馆员及元数据助理，平摊网页存档服务Archive-It的年费，有效降低了成员馆的人力物力成本。"
+  },
+  "5.2纸本期刊删重项目": {
+    "context1": "美国东南部研究图书馆协会和华盛顿地区研究型图书馆联盟于2013年创立了北美最大的纸本期刊删重项目Scholars Trust[49]。该项目有秩序地登记馆藏情况及需要删除或永久保存的内容，并优先向联盟成员馆提供文献传递服务。2014年，布朗大学和达特茅斯大学也开始了纸本期刊删重计划[50]。"
+  },
+  "5.3低障碍非西文馆藏描述项目": {
+    "context1": "2013年，康奈尔、哥伦比亚、哈佛等十所大学图书馆合作开展低障碍非西文馆藏描述项目（LowBarrierMetadata Creation,LBMC),用来加速非西文馆藏的描述和发现。该项目使用OCLC西文模板1.0,使不具备编目知识的人在没有任何演示和训练的情况下，只要懂得文献语种，即可根据模板的提示问题和图书的一部分内容填写书目信息，在后台生成MARC数据。该项目的愿景是希望将来把元数据书目推到图书馆的上游，如出版商、书商、作者，或以众包的形式运作。"
+  },
+  "5.4北美南亚语种文献收藏馆合作项目": {
+    "context1": "过去十年里，美国十几个有经济实力的大学联盟一直致力于收集南亚国家出版的文献。南亚文字很难扫描识别，针对其内容的检索技术亦久无进展。为了揭示各馆的南亚文献以供美国学者所用，美国研究图书馆中心、哥伦比亚大学、康奈尔大学、哈佛大学、国会图书馆伊斯兰堡办事处、普林斯顿大学、加州伯克利大学、芝加哥大学、宾夕法尼亚大学、华盛顿大学、耶鲁大学等十余家图书馆开展了南亚语种期刊目次页合作项目（SouthAsianLanguageJournals Cooperative Table of Contents Project,SALToC)[51],将期刊目次页扫描成PDF格式，赋予URI,然后链接到OCLC的WorldCat中，研究者遂能据此申请文献传递。"
+  },
+  "5.5关联数据合作项目": {
+    "context1": "2014至2015年，斯坦福大学、哈佛大学和康奈尔大学的IT和元数据编目人员合作开展LD4L(LinkedDataforLibrary)项目，利用哈佛大学在跨馆、跨数据源和跨数据类型方面的经验，把三个图书馆的书目数据相关联，其目的是开发元数据本体及工具，创建学术资源语义信息仓储模型。该项目将于今年12月结束，继之以LD4P（LinkedData forProduction)项目[52]，主要关注的是标准、工作流程、技术流程、系统和馆员技能，以期能够将关联数据切实用于图书馆每日的运作中。"
+  },
+  "5.6数据服务合作项目": {
+    "context1": "康奈尔大学和哥伦比亚大学的2CUL联盟合聘学科馆员支持两校的地区研究，共同订购Callisto软件模拟学校IP访问最常用的300个出版商网站，先于读者发现网站的运行问题。此外，大西部美国图书馆联盟的DataQ项目[53]亦卓有成效，该项目用于跨地域的数据服务联合咨询，以大型图书馆数据馆员的专业力量带动暂无能力支撑研究数据管理的图书馆。"
+  },
+  "6行业未来": {
+    "context1": "刘炜的报告\"技术的繁殖与行业未来”成为本次会议的压轴大戏，其演示文稿的背景如同深邃的夜幕星空。刘炜将技术对于人类文明的深远影响娓娓道来，学员们仿佛搭上时光机在历史与未来中穿梭：一会儿探究生命起源的奥秘，一会儿回到泥板文书和结绳记事的时代，一会儿又置身于雷蒙德·库兹韦尔预言的2045年：机器智能将超过人脑，人类文明将发生颠覆性的改变。谈到图书馆在几千年历史和未来中所扮演的角色时，刘炜深情地回忆起宓浩和黄纯元创立的“社会知识交流论”，该学说早在20世纪80年代就已预测到图书馆在知识脱离载体的时代将如何发展。数字技术正在使知识游离于载体之上，刘炜认为图书馆职业的未来取决于对技术的认知和掌控，最终落实到四个方面：空间再造、阅读推广、数据皮藏和智慧服务。图书馆应成为时空虚拟的交流空间，强调透明、开放、亲和力、无障碍、鼓励探索，且实现更多元化的社会功能。图书馆的收藏和服务要向数据的方向发展，能够提供个性化的智慧服务，如利用大数据进行用户行为分析、挖掘、预警、预测和知识发现等。最后，刘炜谈到图书馆和图书馆员的数字化生存，一下把听众引入莎士比亚戏剧的语境中扪心叩问：“生存？抑或死亡”—危机感悄然而至，如何在诡诵多变的环境下不断创造新的生存机会是每一位图书馆从业人员都应该考虑的问题。"
+  },
+  "7启示与思考": {
+    "context1": "本次会议的主题报告看似各不相同，案例分享也包罗万象，但几位专家口中出现的高频词惊人地",
+    "context2": "相似：树立终身学习的思想、寻求更大范围的合作、项目实施中体现人的价值，以及无边界创新创意。"
+  },
+  "7.1终身学习": {
+    "context1": "数据管理服务的学习和培训向来被相关学者归入信息素养教育。秦健提及“数据素养培训”一词时说，美国不少馆员的专业文凭是在至少五年前拿到的，彼时的专业课程中尚未论及数据管理，而刚出校门的毕业生在图书馆领域的工作经验又过于薄弱；此外，由于科研活动信息化、开放科学以及数据驱动科学的发展，研究数据管理专业人员也奇缺。因此，数据素养培训的重要性与信息素养几可相提并论。图书馆员过往充当了重要的培训角色，在新的服务阶段和科研发展情形下，不仅要主动学习，还要培训和帮助在校师生。天津农学院的潘宏将文本挖掘技术应用到学科服务中，帮助研究者寻找科研中的跨学科知识点，从新的角度设计实验。她结合自己的学科服务经验谈到，馆员需要阅读行业最新文献，了解行业动态和技术工具，同时也需要了解科研人员的需求。在知识游离于载体之上的时代，图书馆不能依靠馆藏量证明其内涵和水准，必须利用服务证明其价值[54]，而服务的基础便是建立馆员的终身学习观。"
+  },
+  "7.2合作是生存之本": {
+    "context1": "从李欣谈到的几个项目可以看到，图书馆大小和资源多寡的比较已没有太大意义，共享馆藏和服务、共享馆员和专业技能、通过合作进行规模化建设才是行业大势所趋。最近十几年，我国已建成各级各类型的文献保障体系，在共享馆藏和服务方面已具备一定规模，但共享馆员和专业技能方面仍有待加强。会议的\"草根\"案例中鲜有涉及馆际合作，但馆员与读者、研究者之间的合作项目较多。淮海工学院图书馆王启云创建的“圖人堂\"QQ群成为专业讨论、行业交流、信息共享的平台，是馆员之间合作互助的范例。在瞬息万变的数字时代，图书馆之间、馆员之间以及馆员和研究者之间的密切合作将不断推动行业发展。"
+  },
+  "7.3以读者需求为中心": {
+    "context1": "层出不穷的技术、工具和服务让人耳目一新，继而眼花缭乱。在纷繁的技术解决方案中，各位专家不约而同地强调了以读者需求为中心的理念，也就是在项目中体现出人的价值。张甲谈到技术解决方案最重要的是体现人的价值；李欣提醒大家，不要因为热衷于追赶新技术而忽略了读者的真正需要，即使是技术含量不高的项目如SALToC、LBMC、DataQ等，只要对读者有价值就应当做好；秦健和林夏提及，在开展数据管理服务和规划数据图书馆的过程中，应当更多地考虑用户的价值。中国矿业大学图书馆派专人录制各学院的学术讲座，建立学术视频点播平台；重庆大学图书馆\"我的书斋”任务系统和中国矿业大学图书馆无人值守自助学习平台以游戏通关的方式引导新生自助学习，一反传统枯燥乏味的新生人馆培训，提高了新生使用图书馆的积极性和趣味性；武汉大学图书馆对高影响力国际学术期刊进行综合导航，师生不仅可以根据期刊的详细信息快速投稿，还能掌握各学科类别所含全部期刊的影响力排序情况以及学科分类与分区情况这些项目的技术含量不大，但因针对性地解决了读者需求而广受欢迎。"
+  },
+  "7.4颠覆自己，创新创意": {
+    "context1": "张甲以谷歌从搜索引擎公司发家，逐渐涉足可穿戴电脑(隐形眼镜)和公共卫生领域(调羹、智能手环等)为例，谈到图书馆可以在跨学科空间布局、参与创新创意设计和思维教育改革方面寻求新机遇。秦健强调建设数据基础设施服务最重要的是转变观念，深刻理解我们是什么，读者怎么看我们，以及我们如何做。刘炜在谈到图书馆员的数字化生存时指出，要积极尝试一切，不断颠覆自己。上海交通大学图书馆敏锐地体察毕业生微妙的心理，整合图书馆业务数据(进馆、预约、借阅、场地使用等)和其他外部数据(书封、天气等)，打造《印·迹》纪念册，给毕业生满满的感动和意外的惊喜，网站访问量高达3万多次；东莞职业技术学院图书馆通过弹性网格布局、自适应图片和CSS媒体查询等技术对网站升级改造，使之根据访问终端自适应显示和交互；复旦大学图书馆基于QlikView建设学术监控显示平台，供学校决策层对比各高校的发文量、被引频次、发文质量和国际合作情况，了解复旦各院系科研人员的学术产出情况，创造性地解决了目前学科分析服务普遍存在的繁琐、重复等缺点，同时提高了图书馆在学校决策层面的地位—奇思妙想、创新创意使图书馆的服务突破樊篱，充满活力。"
+  },
+  "8结语": {
+    "context1": "此次大会设立创新奖、创意奖和Web2.0/Lib2.",
+    "context2": "0最佳实践奖。经微信三轮投票及专家激烈讨论，广西民族大学图书馆的大规模古籍文献可视化分析与挖掘项目摘得创新奖，上海交通大学图书馆的移动视觉搜索服务和上海图书馆的家谱知识库项目双双荣获创意奖，Web2.0/Lib2.0最佳实践奖由北京、上海、两广和厦门五地的馆员分获。",
+    "context3": "研讨班已经举办了十二年，它像一位长者，从宏大的视角出发，通过国家战略、机构愿景，以及国外的前沿实践来观照国内图书馆的发展方向。Lib2.15 则源于“草根”，拥有顽强生命力和锐意创新、不怕失败的精神。《大学图书馆学报》副主编王波的闭幕发言激情洋溢，他说：“戴着谷歌眼镜的主题报告人，从外形看就像是一名海盗。每一位图书馆从业者都应当像加勒比海盗，在杰克船长的带领下，不满足于风平浪静、固步自封，要不时掀起惊涛骇浪，推动事业的跨越式、颠覆式发展。”令笔者最为感动的是大会第一天的主题沙龙活动，几十位“草根”和研讨班教师一起，热烈讨论到图书馆熄灯，周遭一片漆黑，只见闪烁的电脑荧幕和一双双热切、晶亮的眼眸。刘炜说，“在技术、管理和其他所有要素之上，最重要的是一颗对图书馆的爱心”，笔者坚信，这爱心将成为照亮图书馆未来之路的明灯。"
+  },
+  "参考文献": {
+    "context1": "1第12届数字图书馆前沿问题研讨班暨Lib2.15会议[EB/OL]. [2015-07-21].http://adls2015.xmulib.org/   \n2 DCC Curation Lifecycle Model[EB/OL].[2015-07-21]．http://www.dcc.ac.uk/resources/curation-lifecycle-model/   \n3 Jian Qin.The Concept and Types of Data Services[EB/OL]. [2015-07-21].http://dspace.xmu.edu.cn/dspace/handle/ 2288/85026   \n4 The brandaleone lab for data and visuralization service[EB/OL]. [2015-07-21].http://library.duke.edu/data/about/lab   \n5 Research Data Services[EB/OL]. $[ 2 0 1 5 - 0 7 - 2 1 ]$ http:// www.lib.umd.edu/data   \n6 Data Management Planning Tool[EB/OL].[2015-O7-21]. https://dmptool.org/   \n7Re3data.org Registry of Research Data Repositories[EB/OL]. [2015-07-21].http://www.re3data.org   \n8 DataCite[EB/OL].[2015－ 07－ 21].https://www. datacite.org/   \n9 Australian National Data Service[EB/OL]. [2015-07-21].http://www.ands.org.au/   \n10UK Data Service[EB/OL].[2015-07-21].http://ukdata service.ac.uk/   \n11 National Data Service[EB/OL]．[2015-07－21].http:// www.nationaldataservice.org/   \n12Recommended Data Repositories [EB/OL]. [2015-07-21]. http://www.nature.com/sdata/data-policies/repositories   \n13OpenRefine[EB/OL].[2015-07-21]. htp://openrefine.org/   \n14Tabula[EB/OL].[2015-07-21].http://tabula.technology/   \n15Pandas.Python Data Analysis Library[EB/OL].[2015-07- 21].http://pandas.pydata.org/   \n16UW Interactive Data Lab[EB/OL].[2015-07-21].http:// idl.cs. washington. edu/   \n17 CKAN. The open source data portal software[EB/OL].[2015 $- 0 7 - 2 1 ]$ http://ckan.org/   \n18DataViva[EB/OL].[2015-07-21]． http://en.dataviva.info/   \n19VIVO[EB/OL]. $[ 2 0 1 5 - 0 7 - 2 1 ]$ .http://www.vivoweb.org/   \n20Linked Data for Libraries[EB/OL].[2015-07-21].https:// www.ld4l.org/   \n21 SHARE[EB/OL]. [2015-07-21].http://www.share一research. org/   \n22 Alfresco Community[EB/OL].[2015－07－21]. http:// www.alfresco.com/community/   \n23Catherine Soehner，Catherine Steeves，Catherine Steeves.E一 Science and data support services: a survey of ARL members. International Association of Scientific and Technological University Libraries,3lst Annual Conference[EB/OL]. $[ 2 0 1 5 - 0 7 -$ 21]. http://docs.lib. purdue.edu/cgi/viewcontent.cgi? article $= 1 0 1 5 8 .$ contex $\\chi = \\mathrm { i } a$ tul2010   \n24Fearon David Jr,Gunia Betsy，Lake Sherry，et al. SPEC Kit 334：Research Data Management Services （July 20l3）.[EB/ OL]. [2015-7-21]. http://publications.arl.org/ResearchData-Management-Services-SPEC-Kit-334/   \n25 CALIS机构知识库[EB/OL].[2015-7-21].http://ir.calis. edu. cn/   \n26国家自然科学基金基础研究知识库[EB/OL].[2015－7-21]. http://or.nsfc.gov.cn/   \n27夏翠娟．藏以致用，以技证道—基于关联数据的家谱知识库 [EB/OL].[2015 -7-21]． http://dspace.xmu.edu. cn/ dspace/handle/2288/85045   \n28夏翠娟．构建关联数据应用系统—以上图家谱知识库系统为 例[EB/OL].[2015-7-21].http://dspace.xmu.edu.cn/ dspace/handle/2288/85047   \n29 virtuoso-opensource[EB/OL]. [2015-7-21]. http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/   \n30张永娟．BIO－LSD科学家学术在线［EB/OL]．[2015－7- 21].http://tu.amoyu.org/adls2015/posters/93-118   \n31 陈涛．关联数据系统开发实例与平台详解[EB/OL].[2015一7 -21].http://dspace.xmu.edu.cn/dspace/handle/2288/85046   \n32Neo4j[EB/OL].[2015-7-21]. http://ne04j.com/   \n33 林海青．关联数据平台介绍[EB/OL]．[2015－7－21]．http://v.qq.com/page/s/m/q/s01599shyqm.html   \n34 Linked Data Platform 1.0[EB/OL].[2015－7-21]．http:// www.w3.org/TR/2015/REC-ldp-20150226/   \n35 LINKED DATA PLATFORM 1.0 IS A W3C RECOMMENDATION[EB/OL]. [2015-7-21]．http://www.w3.org/ blog/news/archives/4438   \n36ARC RDF Classes for PHP[EB/OL].[2015-7- 21]． https://github.com/semsol/arc2   \n37Apache Marmotta[EB/OL].[2015-7-21]. http://marmotta.apache.org/   \n38Christof Sch? ch. Big? Smart? Clean? Messy? Data in the Humanities[EB/OL].[2015-7-21].http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the -humanities/   \n39Maximilian Schich,Chaoming Song，Yong-Yeol Ahn，et al.A network framework of cultural history[J].Science，2014，345 (6196)：558-562   \n40Charting-culture[EB/OL].[2015-7-23].htp://www.nature.com/nature/videoarchive/charting-culture/index. html   \n41Finding Aid Database，Special Collections $\\&$ Archives[EB/ OL].[2015-7-23].http://findingaids.csun.edu/archon/   \n42United Nations Oral History[EB/OL].[2015-7-23]．http://www.unmultimedia.org/oralhistory/   \n43 CALAIS[EB/OL]. [2015 ～ 7- 21]. http://viewer. opencalais.com/   \n44COGITO Intelligence API[EB/OL]. [2015－7－23].http:// www.intelligenceapi.com/   \n45BOSON[EB/OL]. $[ 2 0 1 5 - 7 - 2 1 ]$ .http://bosonnlp.com/   \n46 International Image Interoperability Framework [EB/OL]. [2015-7-23]. http://if.io/   \n47Laura Saunders. Academic Libraries’ Strategic Plans: Top Trends and Under-Recognized Areas[J]. The Journal of Academic Librarianship，2015，41(3)：285-291   \n48Ivy Plus Sustainability Working Group[EB/OL]. $[ 2 0 1 5 - 7 -$ 23].http://www. sustainablecampus.cornell.edu/initiatives/ ivy- plus一sustainability-working-group   \n49Scholars Trust[EB/OL].[2015-7-23]. http://www.scholarstrust.org/   \n50Strategic Thinking 2015-2020－ Dartmouth College[EB/OL]. $[ 2 0 1 5 - 7 - 2 3 ]$ .http://www.dartmouth.edu/\\~ library/admin/docs/Library2020.pdf? mswitch-redir $=$ classic   \n51 SALToC：South asian language journals cooperative table of contents project[EB/OL].[2015-7-23].https://archive. nyu.edu/handle/2451/33560   \n52LD4P at Harvard[EB/OL]. $[ 2 0 1 5 - 7 - 2 3 ]$ https://wiki, harvard.edu/confluence/display/LibraryStaffDoc/LD4P $^ +$ at+Harvard   \n53CU-Boulder，GWLA，and GPN awarded funding from IMLS to develop DataQ，A collaborative platform for sharing knowledge to support research data in libraries[EB/OL]. $[ 2 0 1 5 - 7 -$ 23].http://www.gwla.org/Home/Announcements/cu-bouldergwlaandgpnawardedfundingfromimlstodevelopdataqacollaborativeplatformforsharingknowledgetosupportresearchdatainlibraries   \n54张晓林．颠覆数字图书馆的大趋势[J].中国图书馆学报， 2012,37(195):4-12",
+    "context2": "作者单位：厦门大学图书馆，厦门，361005收稿日期：2015年8月25日",
+    "context3": "23DOAB元数据OAI接口[EB/OL].[2015－4－14].http:// www.doabooks.org/oai   \n24搜索 DOAB[EB/OL].[2015-4-14].http://www.doabooks.org/doab?func $=$ loadTemplate&template $=$ faq&uiLanguage $=$ en # searchingDOAB   \n25搜索 DOAB[EB/OL]. $[ 2 0 1 5 - 4 - 1 4 ]$ .http://www.doabooks. org/doab? func $=$ search   \n26 Butler D.. Investigating journals：the dark side of publishing [J].Nature,2013,495(7442):433-435   \n27 DOAB Directory of Open Access Books[EB/OL]. $[ 2 0 1 5 - 4 -$ 14].http://www.doabooks.org/doab?func $=$ publisher&uiLanguag $\\mathbf { \\eta } _ { : } = \\mathbf { e n }$   \n28 New public access legislation introduced in U.S. House of Representatives[EB/OL]. $[ 2 0 1 5 - 4 - 1 4 ]$ .http://sensenbrenner. house.gov/news/documentsingle.aspx? DocumentID $\\mathop { \\phantom { \\sum } } \\mathop { \\left| \\mathop { = } 3 5 0 4 0 0 \\right.} $",
+    "context4": "29陆彩女.2013年国际开放获取实践进展.图书情报工作[J]，2014(8):111—121",
+    "context5": "30Principles of transparency and best practice in scholarly publishing[EB/OL].[2015-4-14].http://oaspa.org/principles一of -transparency-and-best-practice-in-scholarly-publishing",
+    "context6": "31中国科学院、国家自然科学基金委员会关于实施开放获取政策的声明[EB/OL].[2015-4-14].http://www.nsfc.gov.cn/publish/portal0/tab38/info44471.htm",
+    "context7": "作者单位：北京大学图书馆，100871；北京师范大学图书馆，100875收稿日期：2015年7月8日"
+  },
+  "Modes and Integrated Utilizing of Open Access Books": {
+    "context1": "Zhu Benjun Long Shitong Xiao Long Huang Yanyun",
+    "context2": "Abstract:Open access book(OAB)is becoming a next focal point of open access movement. This paper discusses several OAB modes,including“traditional publishing-digitization-open access mode”,“online OA publishing-open access mode” and “self-archiving-open access mode”,analyzes principle of OAB through case studies，and also discusses the bright future of OAB as awareness and action changing from publishers，researchers,end-users to other stakeholders involved.Finally,the paper suggests libraries and institutes all over China should do some prospective researches and practices on making mandatory policies on OAB,establishing online OAB publishing platform，establishing a nationwide OAB directory，and utilizing the existing OAB directory of other countries.",
+    "context3": "Keywords:Open Access；Open Access Book",
+    "context4": "（接第19页）"
+  },
+  "Best Practices， Creative Ideas，Linking all data， Exploring the Future: The Summary of the 12th Advanced Digital Library Seminar $\\pmb { \\& }$ Lib 2.15 Conference": {
+    "context1": "Yang Wei Chen Xiaoliang Huang Guofan",
+    "context2": "Abstract：The 12th Advanced Digital Library Seminar $\\&$ Lib 2.15 Conference were held in Xiamen University Libraries on July 6-8th，20l5.The Keynotes are composed of five modules as data service,linked data,digital humanities，library cooperation and industry future.After carding allthe keynotes and lectures contributed by common library practitioners，it was implied that the future of library depends on establishing idea of lifelong education，searching larger scope cooperation，achieving human value in project implementation and boundless creative originality.",
+    "context3": "Keywords:Data Service； Linked Data; Digital Humanities; Library Cooperation; Innovation; Industry Future"
+  }
+}

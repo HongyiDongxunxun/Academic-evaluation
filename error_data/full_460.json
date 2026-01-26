@@ -1,0 +1,85 @@
+{
+  "original_filename": "full_460.md",
+  "ResearcherID现状分析及应用后发": "",
+  "■窦天芳张成昱张蓓邹志华": {
+    "context1": "滴要指出建立“学者唯一标识”对消除文献中作者姓名拼写歧义意义重大。认为ResearcherID 提供了一种通过学者自动注册消除作者姓名拼写歧义的解决方案，对其产生背景、注册机制及衍生服务进行详细调研,分析ResearcherID注册学者的分布及发展现状,阐述 ResearcheID 的相关产品ORCID与ReseacherID 的渊源及关系。最后讨论ResearchrID的应用前景及对当前图书馆服务的启发。",
+    "context2": "送键词 作者误认 学者标识 姓名歧义 知识关联网络 ReseacherID ORCID",
+    "context3": "份类号G25",
+    "context4": "DOI: 10. 13266/j. issn. 0252 - 3116. 2014. 04. 007"
+  },
+  "1引言": {
+    "context1": "作者误认是文献追踪过程中的常见问题。在数字知识服务的大背景下，消除文献中作者姓名拼写歧义(姓名消歧）、准确定位目标学者及其研究成果、解决学术界的“Whois Who”问题变得迫切且必要，一切与“人”有关的知识服务都无法回避学术界的“WhoisWho”问题。近年来,全球范围有影响力的资源出版商、平台服务商、公益组织及联盟机构、研究机构都着手解决这一问题,并推出不同的解决方案。目前，典型的解决方案有： $\\textcircled{1}$ 利用智能算法进行姓名消歧,建立目标学者与文献之间的关联。 $\\textcircled{2}$ 注册机制,即鼓励学者本人通过注册建立个人姓名与文献之间的关联。汤森路透（ThomsonReuters)作为全球久负盛名的文献服务机构试图通过注册机制来解决这一问题。",
+    "context2": "汤森路透很早就关注研究成果的精确归属问题,并于 20O9 年推出 ResearcherID(researcher identi-ty)注册服务，意在为注册的学者分配唯一标识符。其工作原理非常简单,就是学者在ResearcherID 中注册个人信息并提交个人著作,ResearcherID在为注册的学者分配学者唯一标识的同时建立学者唯一标识与学者出版物之间的稳定关联。这种关联解决了学术出版物的精确归属问题,从而成为一切以“人”为核心的学术分析及知识服务的基础。“醉翁之意不在酒”,汤森路透也并不止步于提供ResearcherID,而是积极探索建立在ResearcherID之上的富知识含量"
+  },
+  "的衍生服务。": "",
+  "2ResearcherID注册与衍生服务": "",
+  "2.1注册流程及个人文献管理": {
+    "context1": "汤姆森路透依托WOK(Web of Knowledge）平台的用户基础及在科研评价领域的影响力，为学者提供免费的ResearcherID注册服务。用户可访问Re-searcherID页面注册,也可以在WOK平台集成的Re-searcherID模块处提交注册请求，注册需提供姓名、地址、邮箱等个人详细信息,注册之后,用户将获得一个唯一标识。",
+    "context2": "注册过程完成后，学者可自行选择是否上传自己的学术出版物到ResearcherID的“我的著作”（mypublication)列表中。用户可通过两种渠道上传出版物: $\\textcircled{1}$ 使用在WOK平台检索得到的结果，发送到Re-searcherID @ ; $\\textcircled{2}$ 使用文献管理工具EndNote Web上传出版物列表。换句话说,用户所有被 SCI收录的文章都可以通过WOK平台直接导入ResearcherID管理,其他来源的出版物则可以通过EndNote Web(RIS)等文献管理工具导入到ResearcherID,这样的设计方式方便了用户尽可能多地将个人著作汇集到ResearcherID中。"
+  },
+  "2.2　学者唯一标识实验室": {
+    "context1": "学者是学术研究的主体,探讨以学者为中心的知识组织模式正在成为新的研究热点。美国康奈尔（Cormell)大学的的 VIVO以Cornell多个知识资产管理系统中的数据为基础,建立学者与机构、课程、出版物、基金等之间的关联关系，以此揭示学者的研究兴趣。微软学术以学者公开发表的学术出版物数据为基础,建立学者与学术出版物、期刊、会议、合作者之间的关联关系，以此揭示学者的学术产出和学术影响力。这些关联关系以人物索引为基础，构成了以学者为中心的知识关联网络,对研究者追踪某研究领域及其邻近领域的研究进展、了解某专业方向的研究脉络具有很大的实用价值。",
+    "context2": "ResearcherID以学者自发提交的“我的著作”中的数据为基础，建立“学者唯一标识实验室”（Re-searcherIDLabs）。学者唯一标识实验室包括作者的合作网络(collaboration network）、引文网络(citing articlesnetwork）两大模块。",
+    "context3": "“合作网络\"模块以柱形图的方式展示与学者关系密切的(按合作发表文章的统计频次)合作者(authors），合作者所属的研究领域(researcharea）、国家或地区（countries/territories）研究机构(institutions）,目的是建立学者唯一标识与合作者、研究领域、合作机构之间的关联关系,揭示以学者为中心的科研合作网络‘引文网络\"则是基于“我的著作\"中被WOK收录的文章被引数据,以柱形图的方式展示引用该学者文章的作者，引用作者所属的研究领域、国家或地区、研究机构等信息;此外，‘引文网络\"还提供被引量的时间分布曲线，目的是建立学者唯一标识与被引文章相关信息之间的关联关系,追踪该学者的学术影响力。",
+    "context4": "“学者唯一标识实验室”之所以称为“实验室”是因为该模块并不成熟，原因有二。",
+    "context5": "其一是“学者唯一标识实验室”的数据并不完备。首先，“合作网络”用于统计的数据并不是“我的著作”中的所有文章，而是“我的著作”中被WOK平台中的数据库收录的文章。“引文网络”中的引用文章量则是在上面的数据基础上,考察引用文章中被WOK收录的统计情况;此外,被WOK收录的文章信息并不完整，WOK收录的20世纪80年代以前发表的文章普遍缺乏国家或地区、机构等信息。以这些数据为基础呈现的统计关系无疑与实际情况之间存在较大偏差。",
+    "context6": "其二是“学者唯一标识实验室”的可视化呈现形式单一,互动性差。一方面，“学者唯一标识实验室”中所有的可视化视图均以横向柱形图的形式表示。图1表现了“合作网络\"模块合作者合作频次图。在这个横向的柱形图中,纵坐标为合作者姓名，横坐标表示合作的文章数量。众所周知，在科研合作网络中，合作者的关系及由合作者产生的国家合作、机构合作并不是简单的双向关系,而往往是多向的交叉关系,如甲与乙、丙、丁合作完成了文章1,而甲与乙、丙合作完成了文章2,甲与丙、丁合作完成了文章3。这时候,二维的柱形图则不能完美地体现这种多向的交叉合作关系。在这一点上,康奈尔大学的VIVO采用星型图,清华的ThuRID[采用圆形、矩阵、散射(星型)图,则能很好地完成交叉合作关系的呈现，比柱形图的展现内容更加丰富。另一方面，“学者唯一标识实验室”的视图缺乏与用户的互动，用户看到的所有柱形图全部是静态图示。图2表现了“引文网络\"模块引文按年分布图，在这张图中,纵坐标是年份，横坐标是该年度被WOK引用文章的次数。如果用户希望进一步探究2014年哪些文章被引,被引频次分别是什么，则无法通过点选柱形图获得相应信息。随着可视化技术的不断演进，可视化视图的表现形式、表达信息的丰富程度、互动性等方面都有了长足进展，ResearcherID在应用可视化技术、探索更丰富友善的可视化展现内容及形式上还有相当大的提升空间。",
+    "context7": "![](images/a3eb3d604722f5450e4f3c537573a75499b12880d99d4edd1c0a074b260343b9.jpg)  \n图1 “合作网络\"模块合作者合作频次",
+    "context8": "![](images/f3603b784b0543edc16455215a466c5becaeebeae862c0ff6d909fb8ac8949ae.jpg)  \nTop:Authors|Research Areas|Countries/Territories Institutions $\\mid \\mathbf { M a p } \\mid \\mathbf { Y e a r s } \\mid$   \n图2“引文网络\"模块引文的年代分布",
+    "context9": "虽然这个“学者唯一标识实验室”并不完善，但是该实验室为以文献为基础、以人物为索引的新型知识组织方式给出了方向性示范，建立以学者为核心的知识关联网络是未来文献支撑科研服务及学术生产力分析的重要方向。香港科技大学的HUB[已将ResearcerID 和基于ResearcherID的“合作网络\"作为学者文献计量分析的重要指标之一，台湾师范大学也以“合作网络”作为学术生产力分析的重要参考。当然,建立学者唯一标识及其以学者为核心的知识关联网络并非朝夕之功。在ResearcherID的数据基础之上,机构名称的规范、国别规范、合作者相关信息的著录规范都是影响与人密切相关的知识服务的重要因素。探讨并规范文献层面各种基础数据的方式方法将成为未来开展一切与人相关的知识服务的重要环节。"
+  },
+  "3 ResearcherID注册学者分布及现存问题": {
+    "context1": "ResearcherID的注册学者数量可观,截至2014年1月底，已有38.8万注册学者。持续追踪2013年4月以来ResearcherID 注册学者的增长变化,可以发现 Re-searcherID注册学者以 $5 1 . 9 9 \\%$ 的速度增长，在全球科技界呈现出迅猛发展的势头。本节从ResearcherID注册学者的国别分布和学科特点等数据来揭示 Re-searcherID当前的发展状况,并讨论影响ResearcherID发展的可能因素。"
+  },
+  "3.1ResearcherID 注册学者的国别分布": {
+    "context1": "ResearcherID注册学者的国别分布很不均衡。表1对388 765个ResearcherID 进行国别分布统计，其中前20个国家的数量占全部注册人数的 $8 1 . 3 6 \\%$ ,前10个国家的数量占全部注册人数的 $6 1 . 7 4 \\%$ 。其中,注册学者数最多的前5个国家为：美国、巴西、中国、英国、俄罗斯(占全部注册学者数量的 $4 3 . 7 \\%$ ）。",
+    "context2": "表1ResearcherID 注册用户最多的20 个国家  \n(数据采集时间:2014－02-09)",
+    "context3": "<table><tr><td>国家</td><td>数量(人)</td><td>国家</td><td>数量(人)</td></tr><tr><td>美国</td><td>575 52</td><td>日本</td><td>109 89</td></tr><tr><td>巴西</td><td>381 44</td><td>法国</td><td>101 49</td></tr><tr><td>中国</td><td>351 93</td><td>葡萄牙</td><td>9701</td></tr><tr><td>英国</td><td>204 54</td><td>马来西亚</td><td>8580</td></tr><tr><td>俄罗斯</td><td>184 78</td><td>土耳其</td><td>8364</td></tr><tr><td>澳大利亚</td><td>176 98</td><td>韩国</td><td>6462</td></tr><tr><td>西班牙</td><td>158 38</td><td>加拿大</td><td>644 4</td></tr><tr><td>德国</td><td>124 74</td><td>芬兰</td><td>644 4</td></tr><tr><td>印度</td><td>123 51</td><td>波兰</td><td>4604</td></tr><tr><td>意大利</td><td>118 28</td><td>罗马尼亚</td><td>4545</td></tr></table>",
+    "context4": "ResearcherID注册学者分布的国别差异受很多因素影响，其中科技论文的产出量、科研队伍的基数及国际化视野、科研管理的规范程度等因素都会影响学者对ResearcherID的认识和认同。",
+    "context5": "ResearcherID注册学者数量排在前10位的国家中,其科技论文的产出量(据2003-2013被SCI收录的科技论文量统计)均排在全球前20位,其(研发人员数量的世界排名均在前15位。",
+    "context6": "巴西的情况非常值得关注。巴西的科技论文产出居世界第15位，其研发人员占全球研发人员的$2 , 3 \\%$ ,居全球第10位,但是巴西学者ResearcherID的注册数量占全球注册数量的 $9 , 8 \\%$ ,仅低于美国位居世界第2位。笔者认为巴西对科研的规范化管理是促使巴西学者在ResearcherID 注册比例高的重要原因。巴西科技基金委与巴西高教基金委等联邦政府机构协调合作,共同开发巴西科技人才电子履历表和数据库(Lattes Platform），对巴西科技人才的科研成果进行规范化管理,并在Lattes平台中开放共享科技人才履历，巴西学者的基金申请及评审都基于Lattes平台的数据进行。巴西学者的著作列表（publications)是其电子履历的一部分，规范整理、公开著作列表已经成为巴西学者寻求科研资助的规定动作，这种科研管理的要求及氛围，促使巴西学者愿意在国际化的ResearcherID平台上注册，并公开发布自己的学者著作列表。",
+    "context7": "我国科技论文的产出量已居世界第二，科研人员的数量已居世界首位，但我国对学者学术论文的管理普遍松散，学者本人、科研信息管理部门、基金资助机构3种角色对学术论文规范管理的要求和诉求并不一致,学者本人对规范管理及开放共享自己的学术论文列表的需求并不强烈。在我国推广包括ResearcherID在内的“学者唯一标识”的工作也必将促进我国科研管理整体水平的提高，提升我国学术生产力的分析能力,对整合科研资助、学术生产力分析、学术评价、科研合作等多角度的需求及统筹管理起到重要的作用。"
+  },
+  "3.2ResearcherID 注册学者的学科分布": {
+    "context1": "用户在注册ResearcherID时可自行选择是否提交学科关键词,按照用户自行提交的关键词词频统计，排在前10位的关键词集中在生物、医学、材料、生态等领域,它们分别是:癌症、生物信息、纳米科技、气候改变、流行病学、生态学、催化、纳米材料、生物材料、石墨烯。详情如表2所示：",
+    "context2": "表2ResearcherID 中的关键词分布(数据采集时间:2013-11-02)",
+    "context3": "<table><tr><td>关键词</td><td>数量(个)</td></tr><tr><td>癌症</td><td>907</td></tr><tr><td>生物信息</td><td>836</td></tr><tr><td>纳米科技</td><td>744</td></tr><tr><td>气候改变</td><td>718</td></tr><tr><td>流行病学</td><td>636</td></tr><tr><td>生态学</td><td>617</td></tr><tr><td>催化</td><td>609</td></tr><tr><td>纳米材料</td><td>548</td></tr><tr><td>生物材料</td><td>545</td></tr><tr><td>石墨烯</td><td>447</td></tr></table>",
+    "context4": "学者自发注册ResearcherID,这表达了学者有在国际化的平台上明确并开放其科研产出等相关信息的愿望。这种愿望反映出科学研究过程中“科研合作”的深层需求。当前，科学的综合性和复杂性迫使科学家逐渐放弃了原有的单兵作战模式,合作趋势日渐明朗化,并迅速成为科研活动的主流。“科研合作\"的基础是力量交叉、优势互补,学者在国际化的大平台上确立自己的学术身份，是寻求更广泛的科研合作及提高科研效率的有效手段。而在这种“科研合作”的大背景下,医学、生物、材料、生态等领域的学者需求较其他领域的学者需求更为迫切。图书馆可以寻找本机构的优势学科和这些领域之间的交集，着力吸纳合适的目标群体,推广ResearcherID及相关学术唯一标识的建设。"
+  },
+  "3.3ResearcherID 存在的问题": {
+    "context1": "ResearcherID的发展速度惊人,但也存在不少问题，主要表现在以下两个方面：个人信息描述失范，“我的著作\"列表数据残缺严重。",
+    "context2": "RsearcherID依靠学者自发注册,注册时学者可自由填写个人信息，如机构名称（institution）、系别（sub-org/dept）、关键词(keywords）、地址(address)等。由于学者在用词上具有随机性,ResearcherID中重要的个人信息描述失范。这直接增加了RsearcherID数据汇总和分析的难度，也间接增加了ResearcherID数据重用的成本,限制了ReseacherID价值的发挥。",
+    "context3": "有些用户盲目注册ResearcherID,并没有认真维护“我的著作\"列表。分析注册机构为“Tsinghua Uni-versity\"的所有用户数据，其中仅 $3 0 . 1 \\%$ 的用户在“我的著作”中有文章数据， $6 9 . 9 \\%$ 的用户仅仅是注册了个人信息。追踪分析这 $3 0 . 1 \\%$ 的用户的“我的著作”列表的添加时间（addeddata），有 $2 0 . 7 \\%$ 的用户一次性提交了“我的著作”，仅有 $7 , 5 \\%$ 的用户持续维护“我的著作”。学者的著作列表数据不全、维护不可持续也是当前ResearcherID存在的最严重的问题。"
+  },
+  "4ResearcherID 与ORCID": {
+    "context1": "讨论ResearcherID一定离不开讨论另一个学者唯一标识的产品 ORCID( Open Researcher and ContributorID）。ResearcherID依靠平台优势吸引学者自发注册学者唯一标识,来明确学术论文的精准归属。与此同时，作为学术出版源头的出版商也非常重视学术领域的“Who is Who\"问题。一些出版商在接受用户投稿的同时要求用户提交个人信息并建立“学者唯一标识“如Elsevier的 Scopus ID、ACM的 author ID 都是出版商从源头规范“学者唯一标识”的有益尝试。还有一些组织机构试图通过联盟的形式吸收出版商、平台商及科研机构的已有成果,推动学者唯一标识的共享、开放及关联。",
+    "context2": "ORCID 就是这样一个联盟组织,其于2010年8月在美国宣布成立,通过创建学者唯一标识的中心注册处以及与现存的学者唯一标识框架建立开放透明的链接机制来解决学术交流中学者姓名混淆问题。这些学者唯一标识和建立在唯一标识之上的学者关系与学者的科研产出相连接，旨在加速科学发现的进程，提高研究社区中科研资助及科研合作的效率。",
+    "context3": "ORCID拥有非常广泛的联盟基础。目前的会员涉及：以Elsevier、ACM为代表的出版商，以汤森路透、PubMed为代表的平台商,以康奈尔大学图书馆、麻省理工大学图书馆为代表的大学图书馆,以Nature为代表的期刊等200多个机构。ORCID通过在会员中选举产生董事会，负责制定ORCID的管理政策。其中汤森路透的D.Kochalko作为OCRID的首届董事会成员参与ORCID 的决策。",
+    "context4": "ORCID从成立起就积极推动与ResearcherID的合作链接机制。2012年11月,ResearcherID与OR-CID完成深度整合,建立了两个系统之间学者唯一标识及科研产出数据的实质性关联和共享。目前，凡是在ResearcherID注册的用户都会收到是否同时注册ORCID的提示,学者注册及维护ResearcerhID的同时也拥有了ORCID的标识。在ORCID中注册的学者,如果同时拥有ResearcherID或者其他联盟机构的ID,ORCID会自动为用户建立关联，充分体现ORCID的联盟效应。截至2014年2月10日，ORCID拥有52.7万个活跃ID,其中有11.8万个ID 拥有文章数据，文章数据总量达到332.98万篇。其中ORCID有超过 $50 \\%$ 的用户同时是ResearcherID的用户。",
+    "context5": "与ResearcherID 相比,ORCID 具有如下特点： $\\textcircled{1}$ 可有效吸收来自出版机构的数据。ORCID联盟机构中广泛吸收了世界顶尖出版集团、学术机构、信息服务平台商,ORCID 除接受学者自己注册外,还可以吸收这些联盟组织中学者唯一标识及其背后的文章数据。此外,ORCID因可与多家学者唯一标识之间建立关联，将成为未来追踪管理学者科研产出的中枢机构。 $\\textcircled{2}$ 互操作性强。ORCID提供批量下载和上传学者ID及其著作列表的功能,为以机构为单位组织并维护ORCID数据提供可能。同时,ORCID提供API可与第三方系统交互，更利于学者唯一标识背后的数据与其他科研信息系统的信息集成应用，从而产生全新的服务。可以说，ORCID较ResearcherID更适合数据的重用和共享。但ReseacherID有汤森路透强大的平台优势和稳定的用户群，其发展态势值得密切关注。",
+    "context6": "无论是ResearcherID,还是ORCID,目前的版本提供的学术出版物主要是文章,基金、专利等更多学者的科研信息尚未被包含在其中。"
+  },
+  "ResearcherID及学者唯一标识的应用前景": {
+    "context1": "ResearcherID为每个学者赋予一个唯一标识,就像为每篇学术文章赋予一个DOI一样意义深远。ResearcherID及学者唯一标识可以解决学术文章中姓名拼写歧义的问题,明确学术文章的精准归属,这将对基于学者本人及合作者的学术生产力分析、学者本人科研成果的规范化管理、科研合作几率和合作效率的提高产生重大影响，是各种以人为核心的数据分析及创新服务的基础。以ResearcherID为代表的“学者唯一标识\"在未来的学术活动中有非常广阔的应用前景。"
+  },
+  "5.1利用ResearcherID的数据优势，最大化挖掘学术论文的价值": {
+    "context1": "ResearcherID依靠WOK平台的优势赢得了全球学者的信赖,也是到目前为止解决学术领域“Who isWho\"问题最有影响力的服务之一。鼓励学者积极参加ResearcherID,在学术界创建自己的学术标识,同时汇集个人学术文章，这本身就是一个规范科研数据并积累数据的基础性工作。其直接的应用场景是将 Re-searcherID的链接嵌入学者个人主页,充分展示学者本人的学术实力。学者个人主页集中反映学者的学术经历、工作状况、科研兴趣及学术成果,学者学术水平的高低可直接由其发表的学术论著来体现。国内外很多学者已经开始在个人主页上嵌入ResearcherID,并籍此链接中的“学者唯一标识实验室”中的“合作网络、“引文网络”充分展示自己的合作团队及学术影响力。",
+    "context2": "此外,ResearcherID 汇集了大量学者的学术文章，这些数据可与已有的机构仓储、科研信息管理系统集成应用，充分挖掘学术论文中多指标之间的关系及价值。学者的学术产出是所在科研机构的重要知识资产。一直以来,学者所在科研机构都非常注重这些知识资产的管理、追踪与分析,并希望以此为基础对机构整体的学术生产力进行深入的评估，但都因无法高效解决科研成果精准归属的问题而收效甚微。可以说，各科研机构对建立学者唯一标识有强大的内在驱动力,有些先行的科研机构已经在讨论如何将Re-searcherID和本校机构仓储[、科研信息管理系统、学术生产力分析产品Incites进行有效整合。一旦科研机构可在统一的规范下共享学者唯一标识背后的数据,那么一个基于学者学术产出保存、管理与分析的全新世界必将来临。"
+  },
+  "5.2借鉴ResearcherID 理念，打造适合本地特色的科研支撑服务": {
+    "context1": "为学者赋予“学者唯一标识”的理念像一缕清风,为图书馆挖掘学术文献价值、探索个性化科研支撑服务的新路带来全新后示。大数据时代已来临，基于海量数据及其分析的需求日渐旺盛。对图书馆而言，学术文献是图书馆服务的数据基础,挖掘学术文献的数据优势与“学者唯一标识\"建设结合将进发新的活力。",
+    "context2": "清华大学借鉴ResearcherID的理念，采用数据挖掘的理念和方法从清华大学购买的多来源数据中挖掘学者的文章数据,为清华大学学者建立唯一标识（ThuRID:Tsinghua University Researcher ID)。以 Thu-RID 为基础,清华大学还面向学者本人汇集其在校及来校前的学术文章，展示其完整的学术历程，提供学术论文被收被引情况的自动追踪;面向同行提供学者的科研合作网络，方便同行追踪及拓展相关研究领域;面向科研管理部门提供指定专家学者的数据跟踪及分析。ThuRID一经上线就得到清华大学广大学者的热烈响应，很多国际知名学者直接将ThuRID嵌入个人主页，学校及一些院系科研主管则请求扩大ThuRID的建设范围，让更多的清华大学学者享用",
+    "context3": "ThuRID带来的服务。在ThuRID 建设过程中,清华大学图书馆也积极推广ResearcherID的建设,鼓励学者积极注册ResearcherID,并将 ThuRID与ResearcherID建立链接,以便数据共享,创造图书馆、汤森路透、学者、数据挖掘商等多角色共赢的局面，并惠及多角色的需求。"
+  },
+  "6结语": {
+    "context1": "在数字信息环境中，图书馆已不满足仅担当“资源搬运工”的角色，而是积极探索更适合学者口味的个性化的知识服务，而所有与“人”有关的知识服务都必须以学者唯一标识的成果及数据为基础。Re-searcherID的发展速度及发展规模再次印证了赋予数字信息环境中学者唯一标识的迫切性。学者唯一标识在追踪学者学术产出、寻求科研合作、建立以学者为中心的知识关联网络等方面都有非常良好的应用前景。图书馆应认识到建立学者唯一标识问题的本质和重要性,积极推广学者唯一标识的建设，这将是图书馆面向科研前沿提供知识服务的重要契机。"
+  },
+  "参考文献：": {
+    "context1": "[1]Making a match [OL]．[2013-10 -05] .http://himmelfarbli-brary.wordpress.com/2012/10/18/matching-who-is-who - in-research/.  \n[2] ORCID community [O1]．[013-10-05] .http://orcid.org/a-bout/community.  \n[3]Why ProQuest Scholar Universe?[OL]．[2013-10 -05] .ht-tp://www.refworks-cos.com/cosscholaruniverse/.  \n[4] 杨欣欣,李培峰,朱巧明,等.一种基于改进的K-means 算法的人名消歧系统的设计与实现[.计算机与数字工程 $, 2 0 1 0 , 3 8$ (8):10-17.  \n[5]Lin Quan，Wang Bo,Du Yuan,et al. Disambiguating authors bypairwise classification [].Tsinghua Science & Technology,2010,15(6):668 -677.  \n[6]如何从ISI Web of Knowledge平台向 ResearcherID 添加我的著作列表？[o1]．[013-10-27] .http://ip－science.thomson-reuters.com.cn/media/wok511.pdf.  \n[7]如何从 Endnote Web 向 ResearcherID中添加我的著作列表[OI]．[2013-10 -27].htp://ip - science.thomsonreuters.com.cn/media/wok512.pdf.  \n[8]About VIVO [o1]．[014-02-09].htp://vivo.cornell.edu/.  \n[9]Overview [O1]．014-02-09] .htp://academic.research.mi-crosoft.com/SilverlightInstall.  \n[i0] ThuRID 服务目标 [01]．[014-02-09].htp://rid.lib.tsing-hua.edu.cn/.  \n[1] About the Hub O1]．[014 -O2 -O9] .htp://hub.hku.hk/.  \n[2]李伟钢.巴西人计划与科研管理的技术支持[OL]．[2014-01-12] .http://blog.sciencenet.cn/blog-652078-655383.ht-ml.  \n[3]赵君，廖建桥.科研合作研究综述[]，科学管理研究2013,31(2):117 -120.  \n[4] ORCID [01]．[2014-02-09] .htp: //orcid.org.  \n[5]全部论文目录和引用情况 [0L]．[2014-02-09].http://www.tsinghua.edu.cn/publish/phy/6032/2011/20110119133423350428886/20110119133423350428886_.html."
+  },
+  "The Inspiration and the Status Analysis on ResearcherID": {
+    "context1": "Dou Tianfang1Zhang Chengyu1Zhang Bei'Zou Zhihua² 1Library of Tsinghua University，Beijing 100084 ²Beijing Aegeansoft Technology Co.,Ltd.,Being 100081",
+    "context2": "[Abstract] Constructing the Author ID is particularly important in fields of name disambiguation. ResearcherID providesasolution to the author ambiguity problem through author registration.The background,registration mechanismand value-added services basedon ResearcherID are surveyed.Theuser distribution isanalyzed and thesome current isues are poinedout.ORCIDare introduced as the cooperative product.Finally,the aplication prospects of ResearcherlD are discussed.",
+    "context3": "[Keywordsl author misidentificationresearcher identityname ambiguityknowledge associated network ResearcherID ORCID"
+  }
+}

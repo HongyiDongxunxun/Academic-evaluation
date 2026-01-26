@@ -1,0 +1,88 @@
+{
+  "original_filename": "full_6696.md",
+  "技术接受模型研究综述边鹏": {
+    "context1": "【摘要】技术接受模型已成为国内外学者研究的热点理论之一，文章以不同时期学者的研究重点为依据，概括总结了技术接受模型的演化过程，将技术接受模型研究划分为三个阶段：以模型框架为研究重点和以模型内部因素为研究重点、以向模型中引入新理论为研究重点，并对典型研究进行了综述，分析了这种演化的原因。最后，对技术接受模型研究的趋势进行了探讨，提出了技术接受模型跨学科、聚焦特殊人群、结合新理论和重点转移的发展趋势。",
+    "context2": "【关键词】信息系统技术接受模型理性行为理论计划行为理论创新扩散理论用户满意理论任务技术适配模型",
+    "context3": "Abstract：The Technology Acceptance Model（TAM） has become one of the hot topics among the scholars at home and abroad. According to the areas of the researches at diferent periods，the paper summarizes the development of TAM and divides the researches into thre phases:focusing on model framework,focusing on the internal variables of TAM,and inducing new theories into TAM. The typical cases and reasons for the evaluation are analyzed Finally the study trends of TAM are discussed，including crossing disciplinary，paying close atention to special groups, applying new theories，and shifting the research emphasis",
+    "context4": "Key words:Information System TAM TRA TPB IDT U&G TTF"
+  },
+  "1引言": {
+    "context1": "21世纪以来的头十年，是信息技术迅速发展的十年，也是信息技术发展遇到越来越多挑战的十年，其中之一就是信息技术必须首先被信息系统的使用者所接受、理解和创造条件来使信息系统能够适应各种人类群体，这是信息技术领域一个高优先级的研究课题[1]。并且，研究用户对技术的接受行为成为当代信息系统中最成熟的研究领域之一[2]。其中，技术接受模型是该研究领域比较活跃的一类课题。",
+    "context2": "技术接受模型（Technology Acceptance Model，简称 TAM）是由Davis教授在1989年率先提出的，用来解释信息系统低使用率（LoWusage）问题的理论模型。随着信息技术的不断进步，多个学科学者在20年间先后将理性行为理论（TRA）、计划行为理论（TPB)、创新扩散理论（IDT）、用户满意理论（ $\\mathrm { U } ^ { \\& , G }$ ）等理论与TAM相结合，不断完善了TAM的理论模型；同时，TAM的研究对象也从大众人群逐渐聚焦在特定人群，研究方向也由初期的模型框架转向了外部变量的研究，从而使模型的解释能力不断提高，从最初的 $10 \\%$ 提升至目前的 $40 \\% \\sim$ $60 \\%$ 。",
+    "context3": "目前，TAM已经成为信息系统、信息管理、经济管理等领域的前沿学科。汤姆森科技信息集团用来发布科学发现领域重大新闻的网站——ScienceWatch com，在2009年8月将TAM作为头条科学研究前沿和热点[3]。"
+  },
+  "2技术接受模型的研究演化": {
+    "context1": "技术接受模型的研究历史是一个连续的过程，然而，不同时期学者们关心解决的问题有着鲜明的变化，按照研究方向的不同，技术接受模型的研究演化大致可以分成三个阶段：以模型框架为研究重点和以模型内部因素为研究重点、以向模型中引入新理论为研究重点。"
+  },
+  "2.1以模型框架为研究重点（1986—1989年)": {
+    "context1": "谈到TAM的创立，不能不提到 TAM的两大理论基础——理性行为理论（Theory of Reasoned Action，简称TRA）和计划行为理论（The Theory of Planned Behavior，简称 TPB）。",
+    "context2": "1975—1980年，Ajzen和Fishbein[4][5]研究了人们的两类信任，包括行为性信任（Behavioral Beliefs）和规范性信任（Normative Beliefs））与实际行为（Actual Behavior）之间的关系，并总结了TRA模型（见图1）。他们认为，行为性信任决定了人们的态度，规范性信任决定了主观规范，而态度和主观规范共同决定了行为意图（Behavioral Intention），该意图又最终影响了实际行为。但该模型过于简单地说明了人们的行为决策过程，认为是两类信任决定了最终的实际行为。",
+    "context3": "![](images/2cefe4911eaea8d0de3955e3ced76cc4fddbfa7e9042d63b39098a3fcbd9b6f4.jpg)  \n图1理性行为理论（Theory of Reasoned Action，简称 TRA）模型",
+    "context4": "1985—1991年，Ajzen[6][7]研究发现人们在行为决策过程中存在控制信任（Control Beliefs），他通过增加了感知行为控制（Perceived Behavioral Control）要素完善了TRA的理论，提出了TPB（见图2）。他认为，人们决策行为中包含着对行为风险的考虑，并以个人感知风险是否受控作为影响行为意图和实际行为的重要因素。在TPB中，他引入了感知（Perceived）的概念，指出了人们决策行为时的主观性，这一概念后来被TAM所广泛应用。",
+    "context5": "![](images/a15b37ccc44ccfe5ea7654ac3b8f6834ae6a19c48054591c5154140d5fb8c08a.jpg)  \n图2计划行为理论（The Theory of Planned Behavior，简称 TPB）模型",
+    "context6": "1989年，Davis[8将TRA和TPB应用到信息系统领域，用以解释用户对信息技术的接受行为，提出了技术接受模型（TAM，见图3）。在TAM中，他以系统设计特征变量为外部变量（ExternalVariables）作为人们决定是否使用信息系统的初始因素，并直接决定了感知易用性（Perceived Easeof Use），其后又和感知易用性共同决定了感知有用性（PerceivedUsefulness），而感知有用性和感知易用性又共同决定了人们使用信息系统的态度（Attitude TowardUsing），这个态度又和感知有用性一同影响了人们使用信息系统的行为意愿（BehavioralIntentiontoUse），行为意愿最终决定了实际系统的使用。",
+    "context7": "在TAM的研究初期，研究的重点主要集中在模型主体框架方面，由于这个时期信息技术的发展水平所限，研究者主要面对的信息系统是企业软件，测试对象多是企业员工，测试方法也较单一，几乎都是问卷调查。"
+  },
+  "2.2以模型内部因素为研究重点（1993－2000 年)": {
+    "context1": "上个世纪90年代，西方国家的信息技术获得较快发展，供家庭使用的个人软件开始普及，各个单位开始推广基于局域网的信息系统。TAM的研究人员面对单机或者局域网系统，开始对更为广泛的大众人群开展测试，测试方法仍是问卷调查。这个时期的研究重点是TAM模型内部主要因素。",
+    "context2": "2000年，Venkatesh和Davis[9选取了156名来自4家实际使用了车间任务日记系统的工厂雇员的开展问卷调查，较为详细地研究了感知有用性的影响因子。他们向经典的TAM引入一系列社会影响变量（Social Influence)：主观规范（Subjective Norm）、自愿性（Voluntariness）、印象（Image）、经验（Experience），并删减了态度对意愿的影响，提出了TAM2。TAM2的感知有用性受到主观规范、印象、工作相关（Job Relevance）、输出质量（Output Quality）和结果展示（Result Demonstrability）的共同影响。在TAM2中，来源于计划行为理论（TPB)的主观规范是一个重要影响因子，它同时影响着用户的印象、感知有用性和使用意愿，而经验对后两种影响有显著的调节作用，自愿性仅对最后一种影响有调节作用。在面对相同的用户群体（工厂雇员）和信息系统（车间任务日记系统）的情况下，经典的TAM仅能够解释 $40 \\%$ 的变化，但通过Venkatesh和Davis的努力，TAM2能够解释 $40 - 6 0 \\%$ 的变化。",
+    "context3": "![](images/f3476421c6d2f567d92e666d35c576d6b29de442ccc859beda7396d98c0209f9.jpg)  \n图3技术接受模型 (Technology Acceptance Model，简称 TAM)"
+  },
+  "2.3以向模型中引入新理论为重点（2000 年至今）": {
+    "context1": "近十年来，因特网技术获得长足发展，TAM被越来越多的学者所接受，关于它的研究也呈现出欣欣向荣的景象。研究人员纷纷将目光转向不同对象人群面对各种网络信息系统时的技术接受研究，但人们很快发现原来的TAM难以解释不同对象人群面对各种网络信息系统时的复杂情况。因此，研究人员除了继续吸收TRA和 TPB的既有成果，还向TAM中引入了其他学科的理论模型，不断修正TAM，取得了一系列成果。比较著名的TAM修正包括三种理论模型，即创新扩散理论（Innovation Diffusion Theory，简称IDT）、使用和满意理论（Uses andGratification，简称U&G)、可用性理论（Usability）。"
+  },
+  "2.3.1基于IDT对 TAM的修正": {
+    "context1": "创新扩散理论揭示了新的技术在社会中传播的过程，关注的是新技术与社会行为，而TAM更多关注的是技术与用户行为。于是，研究人员[10][1][12[13]将IDT理论引入到 Venkatesh的 TAM[14]中，其中比较典型的是 2005年 Hemil的研究[15]。他根据IDT新增了感知风险（Perceived Risk）和信任（Trust）两个关键因素，对Venkatesh的模型进行了扩展，提出了安全至上（Safety-critical）信息系统的TAM。在该模型中，系统设计特征显著影响了感知风险和信任，而感知风险又显著影响了感知有用性。他基于艇长、瞭望员及操作员使用海岸交通管理系统中的自动身份识别子系统展开测试，分别对使用前的21个人和使用后的27个人进行了问卷调查，研究了安全至上的信息系统用户表现、用户对系统好处的感知和使用这些技术的意愿，揭示了对安全极为敏感的用户对于信息系统的接受情况。"
+  },
+  "2.3.2基于U&G对TAM的修正": {
+    "context1": "使用和满意理论揭示了用户使用和用户感知自身需求被满足的程度之间的关系，Mei-LingLuo[16]根据该理论向Venkatesh的TAM[]引入了U&G理论的两个因素：动机（Motivation）和满意程度（Gratification），提出了因特网信息服务接受模型。其中，动机区别于行为意图（Behavioral Intention），它不受感知有用性和感知易用性的影响，直接由用户自身产生，并对行为性使用（Behavioral Usage）产生影响；而满意与否（Gratifications/NonGratifications）是行为性使用的最终影响结果。Mei-LingLuo使用这个模型，分别对人数为161和242的两组在校大学生访问新闻网站开展问卷调查，研究哪些因素会影响用户使用因特网信息服务，并且将动机具体化为娱乐（Entertainment）。"
+  },
+  "2.3.3基于可用性对TAM的修正": {
+    "context1": "可用性的定义存在较多版本，最有影响的有两种。1993年，Jakob Nielsen[18]给出了决定一个可用性的五点具体定义：易学性、交互效率、易记性、出错频率和严重性、用户满意度。国际标准组织也于1994年10月提出了可用性的定义[19]：产品在特定使用环境下为特定用户用于特定用途时所具有的有效性（Effectiveness）、效率（Efficiency）和用户主观满意度（Satisfaction）。20O0年，Lei-da Chen[20]将可用性作为感知易用性的前驱变量首次引入到Davis 的 $\\mathrm { T A M ^ { [ 2 1 ] } }$ ，但测试方法仅是网上调查。2O07年，TerryJ.Smith[22]将可用性概念再次引入到Davis的 $\\mathrm { T A M } ^ { \\left[ 2 3 \\right] }$ 中，将影响感知易用性的外部变量归纳为网站可用性（Web Site Usability）和上网可用性（InternetUsability），首次将系统设计特征变量纳入可用性范畴，提出了老年人使用电子商务系统的TAM。他对美国佛罗里达老年学校里的21名学员操作网上书店和旅行在线预定开展研究，解释了老年人群TAM中感知易用性的外部变量。难能可贵的是，他在研究中不仅使用了传统的问卷调查，还使用了可用性测试，与以往TAM的研究人员只注重研究用户使用过信息系统与否这个事实，并依据该事实分成使用组与未使用组进行对比更具有实践意义，但对使用的情况（成功率/满意度）等数据缺乏客观的数据研究。Terry运用可用性测试方法按时间顺序跟踪每一位用户使用信息系统的情况，获得了较为客观的用户使用数据，为TAM修正的效果提供了更为有效的证明依据。2.3.4将TAM与TTF、TPB相结合",
+    "context2": "任务技术适配模型（Task-Technology Fit，简称TTF）来源于感知合适理论，由Good Hue和 Thompson[24]于1995年提出，通过描述认知心理和认知行为来揭示信息技术如何作用于个人的任务绩效，揭示了信息技术与用户任务的适配程度对个人取得任务绩效的重要性。2010年，孙建军等人[25]在模型分析和比较的基础上，总结了电子商务环境下的任务、技术、用户三者所表现出的特征，将TAM、TPB和TTF相结合，根据CNNIC和开放式问卷调查的数据统计结果，构建出了电子商务用户接受理论模型。"
+  },
+  "2.4TAM研究的演化原因分析": {
+    "context1": "笔者对TAM的主要研究按照上述三个阶段进行了概括（见表1），并简要分析了演化的原因。由于人们不断提出新的问题，为了能够使用TAM解决这些问题，研究人员就向TAM不断引入新的理论。从TRA和TPB发展到IDT、U&.G、可用性理论，随着众多学者的验证性研究，TAM在学术界的可信性也不断得到加强，模型日渐成熟，从最初对模型框架和内部要素的讨论，逐渐转移到模型外部影响变量的研究。同时，推动TAM研究的另一个重要动力就是信息技术的发展，早期能够使用信息系统的仅是大企业的员工，他们面对的多是企业化的软件，后来信息系统已经不局限于专业人员，而逐渐走入千家万户，TAM关注的人群也从企业员工转向了大众人群；并随着人们日益对数字鸿沟（DigitalDivide）问题和数字公平（Digital Equity）的关注，TAM的研究人员又转向了特殊群体使用个性化系统问题的研究。",
+    "context2": "表1TAM研究的演化",
+    "context3": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>以模型框架为研究重点(1986-1989年)</td><td rowspan=1 colspan=1>以模型内部因素为研究重点(1993-2000年)</td><td rowspan=1 colspan=1>以向模型中引入新理论为研究重点（2000年至今）</td><td rowspan=1 colspan=1>演化的原因分析</td></tr><tr><td rowspan=1 colspan=1>测试的对象人群</td><td rowspan=1 colspan=1>企业员工</td><td rowspan=1 colspan=1>大众人群</td><td rowspan=1 colspan=1>特殊人群</td><td rowspan=1 colspan=1>TAM模型的解释能力增强</td></tr><tr><td rowspan=1 colspan=1>研究系统</td><td rowspan=1 colspan=1>企业软件</td><td rowspan=1 colspan=1>封闭系统（单机或者局域网系统）</td><td rowspan=1 colspan=1>开放系统（因特网系统）</td><td rowspan=1 colspan=1>信息技术的发展</td></tr><tr><td rowspan=1 colspan=1>理论基础</td><td rowspan=1 colspan=1>基础心理学理论(TRA、TPB)</td><td rowspan=1 colspan=1>基础心理学理论(TRA、TPB)</td><td rowspan=1 colspan=1>社会学、管理学理论（IDT、U&amp;G)、可用性理论</td><td rowspan=1 colspan=1>TAM解决的问题范畴在不断扩大</td></tr><tr><td rowspan=1 colspan=1>研究方向</td><td rowspan=1 colspan=1>模型框架</td><td rowspan=1 colspan=1>模型内部主要因素</td><td rowspan=1 colspan=1>模型外部影响变量</td><td rowspan=1 colspan=1>TAM模型日渐成熟</td></tr></table>"
+  },
+  "3技术接受模型研究的趋势": "",
+  "3.1跨学科趋势": {
+    "context1": "笔者对国内外以TAM为主题的重要论文进行了总结。目前，研究TAM的人员来自各种不同领域，从最初的商学[26]（Business）、经济管理[2]（Business Administration）、决策[28]（Decision），到近年来的信息系统[29][30](Information Systems）、信息学[31]（information sciences）、信息技术管理[32]（Information TechnologyManagement)）、信息技术[33]（Information Technologies）等多学科。整个 TAM的研究越来越呈现出多学科交叉、不断与新的理论相结合的趋势，但同时也出现了问卷越来越趋同的现象。"
+  },
+  "3.2结合新理论修正TAM的趋势": {
+    "context1": "1989年，Davis[34]将TRA、TPB的理论模型运用到信息系统研究领域，研究了信息系统使用率低（LoWusage）问题，构建了面向信息系统使用的用户模型——TAM；2000年，Lei-da Chen[35向TAM引入了IDT，研究了哪些关键成功要素影响消费者对虚拟商店的接受和使用，新增了产品供应（product offerings）、信息丰富性(information richness）、虚拟商店前台可用性（usability of storefront）、感知信任（perceived trust）和感知服务质量（perceived service quality）等影响变量；2005年，Mei-LingLuo[3]将U&.G与TAM相结合，研究了哪些因素会影响用户使用因特网信息服务，新增了影响用户使用的影响因子娱乐性（Entertainment）和用户使用后是否满意（Gratification）等变量；2007年，TerryJ.Smith以可用性作为关键概念与TAM结合，解释了老年人群TAM的外部变量，新增了网站可用性和上网可用性作为PEOU的影响因子。综上不难看出，TAM的每一次重大修正，几乎都伴随着新理论的引入或者对原有理论的再认识。同时，其他一些学者[37][8][39][0][41][2][43][44]将TAM作为研究背景引入到其经济管理学模型中，也取得了实际的效果。"
+  },
+  "3.3聚焦特殊人群的趋势": {
+    "context1": "受早期信息技术发展所限，TAM在第一阶段主要还是针对少数应用信息系统的先进企业员工使用本单位办公（或生产）软件；后来，随着信息技术的普及，越来越多的研究开始关注个人使用的家庭软件；近年来，学者们发现对某些特殊人群，以前适用的TAM解释起来出现困难，如文献[45]关注了夜班成年工人在多元文化下使用信息技术的问题，文献[46]关注了老年人使用电子商务系统的问题，文献[47]关注了针对教授人群使用课程管理系统（CMS）的问题，关注特殊人群使用信息系统成为近年来研究的热点。"
+  },
+  "3.4研究重点转移的趋势": {
+    "context1": "在第一阶段，学者们重点研究TAM模型主体框架[48][49]，这个阶段的学者着重检验整个技术接受模型的整体有效性，不断调整两个感知因素（PU和PEOU）到用户最终实际系统使用（ASU）之间的主体结构（模型的整体框架）；在第二阶段，学者们着重讨论了TAM模型内部主要因素[50][51[5][53]，在这个阶段，学者们已经基本接受Davis或Venkatesh的模型，更多的是在已有经典模型的基础上，增加或减少部分因素；近年来，模型外部变量的研究得到了人们的关注[54[55]，反映了TAM模型日渐成熟，但关于TAM的一部分研究缺乏系统性[56][57][8][59][60]，另一部分则对于模型外部变量的概念尚存在一些争议[61][62][63][64]。"
+  },
+  "": {
+    "context1": "注释  \n[1]9][14]733]57]59VenkateshVandDavisFDATeoreticalExtensionftheechologAeptancedel：FourLogiialField Studies.Management Science（45：2)，200o，PP.186-204  \n[2]鲁耀斌，徐红梅.技术接受模型及其相关理论的比较研究．科技进步与对策，2005（10)：176—178  \n[3]Research Front Map-TECHNOLOGYACCEPTANCE MODEL，Science Watchhttp:/sciencewatchcom/dr/t/2009/09-augttECO，Aug 2009， $2 0 1 1 - 0 5 - 0 6$   \n[4]Fishbein&Ajzen，Belief，atitude，intention，ndbehavior：Anintroductiontotheoryandresearch，Adison-Wesley，Reading，MA,1975  \n[5]Ajzen&Fishbein Understanding Atitudes and Predicting Social Behavior.Prentice-Hall，EnglewoodClifs，NJ，1980  \n[6]AjzenI.（1985）.Fromintentiontoactions：atheoryofplannedbehaviorIn：JKuhl&JBeckmann（Eds），Actioncontrol：fromcognitive to behavior（11-39）.Heidelberg：Spring  \n[7]Ajze，The theoryof planned behavior.Organizational Behavior and Human Decision Processes，1991，5O，179－211  \n[8][21]23]2634]58]6DavisFPerceivedUsefulness，PerceivedEaseofUseandUserAcceptanceofInformationTechologQuarterly，September 1989  \n[10][5]8]emileoleoftrustanderevediskiuseeptaeoftecholoioationinsfetyrialsteUNY：Rensselaer Polytechnic Institute，2005  \n[11][20][27][35][49][61]Lei—da Chen，Consumer acceptance of virtual stores $=$ A theoretical model and critical success factors for virtualstores.USMI：TheUniversity of Memphis，2000  \n[12][32][53]郭峻峰．移动增值彩铃业务消费者使用行为实证研究．浙江大学博士学位论文，2007：75—93  \n[13]张楠，郭迅华，陈国青．信息技术初期接受扩展模型及其实证研究.系统工程理论与实践，2007（9）：123—130  \n[16][31][36]［5o]Mei-Ling Luo，Technology aceptance of informationservices.US：The Universityof Hawaii，2005  \n[18]JakobNielsen.Web可用性．北京：人民邮电出版社，2000  \n[19]JENGJWhatisUsablityintheContextoftheDigitalLibraryandHowcanitbeMeasure?InformationTechnologandLibraries，05(6):47-56  \n[22]29]54errJSmithSeniosGOneAnAsesmentofthValueofUsabilityIitPerceivedUsefulnessoPerceivedEaseof use?，US：Nova Southeastern University，2007",
+    "context2": "如何分析和选择软件供应商等。最终由教师总结归纳MIS成功的关键因素。这种教学方法注重营造开放、互动的课堂气氛，引导和鼓励学生主动思考；激发学生学习的积极性和能动性，培养信息化环境下自主学习的能力，有助于提高学生的综合素质，培养团结协作精神。"
+  },
+  "4结论": {
+    "context1": "从教学内容入手进行经管类专业MIS课程教学改革，使MIS课程的主体教学内容从以MIS开发方法和开发过程为主转变为MIS管理和经管MIS应用，有助于解决教师和学生两方面的困惑。对教师而言，可以更好地掌控教学内容，提高教学效果（知识结构不合理的教师需及时补充和完善)；对学生而言，学习内容不再枯燥，学习兴趣和积极性提升，课程内容满足了其专业和未来职业需求，学习变得更有价值。",
+    "context2": "[5]唐文源，张珺，李频宇．管理信息系统课程中“任务驱动教学法”的探讨．中国管理信息化，2006（12)：80－83  \n[6]吕新民，张金诚．经济管理类专业《管理信息系统》教学研究.中国管理信息化，2010（2)：88-90  \n[7]邱泽国.经管类管理信息系统课程实验教学研究.实验室研究与探索，2010（7)：325－327  \n[8]蔡淑琴，石双元，汤云飞．“管理信息系统”课程的实验教学研究．高等教育工程研究，2003（4)：84—86  \n[9]毛基业，郭迅华，朱岩．管理信息系统一基础、应用与方法．北京：清华大学出版社，2011  \n[10]徐升华，沈波，舒蔚．财经管理信息系统．北京：高等教育出版社，2011  \n[11]斯蒂芬·哈格，梅芙·卡明斯.管理信息系统（第2版）.北京：中国人民大学出版社，2009  \n[12]薛华成．管理信息系统（第五版）．北京：清华大学出版社，2007  \n[13]王建华.面向应用型人才培养的管理信息系统教学改革.计算机教育，2011（13)：5-7  \n[14]孔德汉.工商管理类本科专业《管理信息系统课程》教学改革研究．现代计算机，2011（3)：65－67"
+  },
+  "注释": {
+    "context1": "[1]梁妍，王知强．管理信息系统课程教学改革研究与实践．图书馆学研究，2010（4)：19－21",
+    "context2": "[2]贾厚光．管理信息系统中自主实验的教学模式.实验室研究与探索，2010（8)：116-118",
+    "context3": "[3]郭捷，张秀萍.管理类专业的《管理信息系统》课程建设与教学方法探讨．实验技术与管理，2010（1）：122—125",
+    "context4": "[4]王锐，徐建平．校企合作建设“管理信息系统”课程实验的探索与实践.实验室研究与探索，2011（2)：104－106",
+    "context5": "徐生菊青海大学财经学院副教授，江西财经大学信息管理学院博士生。",
+    "context6": "徐升华江西财经大学信息管理学院教授，博士生导师。"
+  },
+  "（上接第6页）": {
+    "context1": "[24]GoodhueDL，ThompsonRL，Task-technology fit and individual performance，MISQuarterly，1995，19（O2)：213－23"
+  },
+  "[25]孙建军，李君君.基于TAM/TTF整合的电子商务用户接受模型.图书情报工作，2010（20）：119—123": {
+    "context1": "30][47][48]55AicenBethFlosi，Course Management Software：ApplyingtheTechnologyAceptanceModeltoStudyUsebyPost Secondary Faculty，US：Nova Southeastern University，2008",
+    "context2": "[37]王海萍．在线消费者粘性研究．山东大学博士学位论文，2009：130—148",
+    "context3": "3]徐伟青．基于感知转回价值的流失顾客赢回机制研究．浙江大学博士学位论文，2008：124—152[39]沈祥．国内用户使用移动广告行为意向的实证研究．中国科学技术大学博士学位论文，2008：63—87[41]范晓屏．基于虚拟社区的网络互动对网络购买行为的影响研究．浙江大学博士学位论文，2007：158—176[42]周涛．面向交易全过程的电子商务信任研究．华中科技大学博士学位论文，2007：68一95[43]唐嘉庚．互动性对B2C环境下信任及购买行为倾向影响研究．复旦大学博士学位论文，2006：78－96",
+    "context4": "44]程华．个体差异与消费者接受网上购物——基于杭州样本的实证研究．浙江大学博士学位论文，2003：82—131",
+    "context5": "[45]51KenyTheolefage，genderadselfefcacinteholgaceptanceintestofulturalrousts，US:NovaSoutasten University，2005   \n[52]Venkatesh，DeterminantsofPerceivedEaseofUse：IntegratingControl，IntrinsicMotivation，andEmotionintotheTechology Acceptance Model，Information Systems Research，Vol 11，No. 4，2000 (12)：342－365"
+  }
+}

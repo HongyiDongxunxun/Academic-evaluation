@@ -1,0 +1,81 @@
+{
+  "original_filename": "full_5582.md",
+  "我国互联网信息挖掘研究现状": {
+    "context1": "柳胜国",
+    "context2": "(宝鸡文理学院图书馆宝鸡721007)",
+    "context3": "[摘要]在对信息挖掘与数据挖掘、信息挖掘与搜索引擎、信息挖掘技术总结的基础上,对作者群和近几年发表论文的质量进行分析。",
+    "context4": "[关键词]互联网信息挖掘数据挖掘WWW",
+    "context5": "[分类号]G354"
+  },
+  "The Studies of Information Mining on Internet in China": {
+    "context1": "Liu Shengguo",
+    "context2": "(Library of Baoji Arts & Science College，Baoji)",
+    "context3": "[Abstract]Analyzes the quality of papers published in recent years as well as the author group on the basis of the studies of information mining，data mining and search engines.",
+    "context4": "[Keywords]Intermetinformation miningdata mining Web search engines",
+    "context5": "互联网上的信息挖掘是互联网信息检索的最高层次。尽管搜索引擎为人们搜集网上信息提供了便利,但是,其覆盖率有限,查全率低,不能针对特定的用户特殊服务，即不具有个性化。而信息挖掘就是从互联网上相关的资源和行为中抽取感兴趣的、有用的模式和隐含的信息，实现搜索引擎所不具备的功能。互联网作为一个大的、分布广泛的、全球性的信息服务中心，为信息挖掘提供了丰富的资源。基于此,近几年我国计算机、图书情报界研究人员开始对信息挖掘理论和技术进行研究与探讨，通过研究人员的不懈努力，取得了一些进展，现笔者对我国信息挖掘研究的现状作一概述。"
+  },
+  "1信息挖掘与数据挖掘": {
+    "context1": "数据挖掘概念源于知识发现。对于知识发现，人们有两种看法：一种看法认为，知识发现包括6方面的内容[1-2]：",
+    "context2": ". 首先熟悉应用领域的数据和背景知识，了解所要完成的知识发现的任务性质。",
+    "context3": ". 数据选择。根据用户要求，从数据库中提取与知识发现相关的数据，知识发现将主要从这些数据中进行提取。",
+    "context4": "$\\bullet$ 数据预处理与交换。从与知识发现相关的数据集合中除去明显错误的数据和冗余的数据，进一步精减所选数据中的有用部分，并将数据转换成有效形式，以便更多、更有效地开采数据；",
+    "context5": ". 数据挖掘。根据知识发现任务的要求，选择合适的数据开采算法(包括选取合适的模型和参数),在数据库中寻求感兴趣的模型，并用一定的方法转换成某种易于理解的形式。",
+    "context6": ". 模式解释。对发现的模式进行解释和评估，必要时需要重复前面处理中的某些步骤以反复提取。",
+    "context7": "·知识评价。将发现的知识以用户能理解的方式提供给用户，并试用之。",
+    "context8": "第二种看法认为有9方面的内容[3]：",
+    "context9": "·熟悉应用领域的背景知识及了解用户知识发现任务的性质。",
+    "context10": "$\\bullet$ 确定和搜寻与任务有关的数据集合。",
+    "context11": "$\\bullet$ 数据清理和预处理，包括除去错误和冗余数据，处理丢失数据，更新数据和时序信息并将其转换成数据采掘工具所需的表达式。",
+    "context12": "数据缩减转换，通过降低维数和进行数据转换减少数据量，降低数据的复杂程度。",
+    "context13": "确定数据采掘任务，如聚集、分类、线性回归等。",
+    "context14": "·选择数据采掘算法和适当的模型与参数。",
+    "context15": "$\\bullet$ 执行数据采掘过程，发现模式并转换成易理解的形式(如分类规则和树等）。",
+    "context16": "评价和解释发现的模式，必要时反复执行前7个步骤。",
+    "context17": "$\\bullet$ 将模式提交给用户或应用到系统中，整个过程是一个以知识使用者为中心，人机交换的探索过程",
+    "context18": "虽然划分的粗细程度不一样，但有一点是共同的，即数据挖掘是知识发现的一个重要而关键的步骤，数据挖掘是知识发现的核心。目前对知识发现研究的难点也都集中在数据挖掘上。",
+    "context19": "信息挖掘的概念源于数据挖掘。尽管两者之间有诸多不同，如挖掘的内容和发现数据间的相互关系不同[4，但两者之间也有很大的相似点：数据挖掘是发现结构化形式，而信息挖掘发现的对象主要是大量无结构化的信息。从宏观上讲，任何有价值的知识单元都应该叫信息。信息包含了任何数据，只不过数据是结构化了的信息而已。",
+    "context20": "·特征提取。目标表示中的词条及其权值的选取称为特征提取。特征提取是挖掘目标共性与规则的提取过程，其采用策略的优劣将直接影响到挖掘工具的效果。",
+    "context21": "文本信息的预处理。在对文档进行特征提取前，需要先进行文本信息的预处理，主要包括英文文档的stemming处理和中文文档的词条切分。",
+    "context22": "$\\bullet$ 信息采集。WWW是以超文本的形式储存信息并提供信息服务的，在WWW上进行源信息采集，需要通过Robot程序来实现。Robot是一个能沿着Web页面中的超链接进行自动漫遊的程序，并且能够通过HTTP等标准协议下截所漫遊到的页面。WWW是一个网状结构的信息空间，我们可以将其作为一个有向图处理：将页面作为图中的节点，页面中的超链接作为图中的有向边，然后使用有向图遍历算法对其进行遍历。",
+    "context23": ". 非文本信息处理。WWW中的非文本信息一般都是采用\"链接－文件\"对的形式呈现给用户的，每个文件都有一段链接文本与其对应，而这些链接文本往往都是对所链接的非文本对象的高度概括描述，因此，可以采用非文本文件的链接文本对其进行特征提取，从而将非文本信息转化为文本信息进行处理。",
+    "context24": "评价指标。挖掘系统的验证一般采用测试集和交叉验证的方法，并用查全率和查准率来衡量信息挖掘系统的效果。查全率是挖掘到的文档数与实际相关文档数之比，查准率则为结果集中的相关文档数与结果集文档数之比。一个优秀的信息挖掘系统应同时具有较高的查全率和查准率。"
+  },
+  "2信息挖掘技术": {
+    "context1": "信息挖掘技术是实现网络信息挖掘的必要工具。邹涛等研究人员认为，目前信息挖掘技术研究主要集中在以下几个方面：",
+    "context2": ". 目标表示与特征匹配。目标表示是指用一定的特征项(如词条或描述)来代表目标信息，在信息挖掘时用这些特征项评价未知文档与用户目标的相关程度，目标表示的构造过程就是挖掘模型的构造过程。目标表示模型有多种，常用的有布尔逻辑、向量空间型、概率型等。目标表示法中应用较多和效果较好的是向量空间模型。"
+  },
+  "3信息挖掘与搜索引擎": {
+    "context1": "信息挖掘有人称之为挖掘引擎，目的是区别于搜索引擎。搜索引擎与信息搜索相对应，挖掘引擎与信息挖掘相对应。现从这方面的研究中，选两个有代表性的进行讨论。",
+    "context2": "邹涛、王继成认为：信息挖掘与信息搜索既有相同之处,又有本质的不同[5]。网络检索工具由 Ro-bot、索引数据库、查询服务组成，Robot在WWW上的漫遊是无目的的，其功能就是尽可能多地发现新内容,不加区分地全部建立索引并存入检索数据库，其查询服务只是负责接收、解释用户的查询，然后根据简单的匹配策略(使用较多的是布尔模型和模糊布尔模型)在索引库中进行查找,将结果地址集反馈给用户。网络信息检索系统只能处理以关键词形式表示的简单目标，无法处理用户给出的样本形式的复杂模糊目标，而信息挖掘系统则能够从样本中提取目标信息特征，然后根据目标特征在网络中进行有目的的搜索，将搜索的文档提交给用户[6]。",
+    "context3": "韩客松与王永成通过对搜索引擎和挖掘引擎进行比较后，认为搜索引擎和挖掘引擎是互补的、有--定的相同之处，但是挖掘引擎超越了搜索引擎，并将搜索引擎技术推向一个新的层次。尽管搜索引擎和挖掘引擎处理的都是字串和文本(在这一点上它们是相同的)，但是，搜索引擎提供的功能是单一的，主要是查找符合用户查询需要的文献的位置，尤其是在网络上的位置，因此，它需要用户提供由一个或者若干个关键字串组成的查询表达式。它开始于用户的查询表达式，结束于一个按照某种方式排序的文献以及文献位置的列表,基本上是一个简单的顺序过程。挖掘引擎确实也具有提供文献位置的功能，但这不是其主要功能。挖掘引擎能自动地提取相关文献之间的有价值的关系知识，并且将这些知识以可视的、动态改变的方式反馈给用户。可视方式为用户提供了以直观的易于快速理解的知识掌握途径，而动态改变的方式则满足了用户的及时性要求。因此,挖掘引擎开始于一些文本，结束于文本之间的潜在关系知识，而这个过程一般是一个需要不断反馈和调整的复杂过程。",
+    "context4": "通过以上的研究，我们可以认为：搜索引擎的结果可以作为挖掘引擎的输入，也就是说，搜索引擎在一定程度上被认为是挖掘引擎的前处理。",
+    "context5": "挖掘引擎对Web的挖掘[7]步骤：",
+    "context6": "·对 Web 内容的挖掘：直接挖掘文档的内容，或在其它工具搜索的基础上进行改进。如针对Web的查询语言WebLog，WebSQL等,利用启发式规则寻找个人主页的Ahoy等;对搜索引擎的查询结果进一步进行处理，得到更为精确和有用的信息。如WebSQL就是一种能及对对搜索引擎的返回结果进行聚类的技术。",
+    "context7": "对Web的结构挖掘：Web结构挖掘就是从WWW的组织结构和链接关系中推导知识。由于文档之间的互连，WWW能够提供除文档之外的其它有用信息，利用这些信息，可以对页面进行排序和发现重要的页面。此外，在多层次Web数据仓库中也利用了页面的链接结构。",
+    "context8": ". 对Web使用记录的挖掘：Web使用记录挖掘的主要目标是从Web的访问记录中抽取感兴趣的模式。分析这些信息可以帮助理解用户的行为，从而改进站点的结构，或为用户提供个性化的服务。"
+  },
+  "4信息挖掘研究的作者及其文献发表情况": {
+    "context1": "为了了解信息挖掘的研究现状，笔者翻阅和查询了大量的资料，检索了重庆维普兰讯公司发行的《中文科技期刊数据库》（1998－2001第一季度）、清华大学发行的《中国学术期刊(光盘)》。基本上将有关\"信息挖掘\"主题所能覆盖的文献都检索到了。为了提高查全率，在使用搜索词时，还用\"智能搜索”、“智能检索”、“文本挖掘\"和概念组配形式：“数据库挖掘AND互联网”、“知识挖掘AND互联网”、“机器人搜索AND互联网”、“检索(搜索、挖掘)AND网页(Web)\"等进行了检索，最后经过筛选，选出命中主题的文献。笔者发现,对\"互联网上信息挖掘\"这样--个前沿研究领域，我国进行研究的人员甚少，发表的论文更是寥寥无几，表1、表2列出了代表性的作者情况和重要论文。",
+    "context2": "表1发表论文有代表性的作者情况",
+    "context3": "<table><tr><td rowspan=1 colspan=1>姓名</td><td rowspan=1 colspan=1>学历或职称</td><td rowspan=1 colspan=1>主要研究方向</td></tr><tr><td rowspan=1 colspan=1>蔡庆生</td><td rowspan=1 colspan=1>教授、博士生导师</td><td rowspan=1 colspan=1>人工智能、机器学习、数据挖掘</td></tr><tr><td rowspan=1 colspan=1>王俊普</td><td rowspan=1 colspan=1>教授</td><td rowspan=1 colspan=1>人工智能、智能系统与控制</td></tr><tr><td rowspan=1 colspan=1>王永成</td><td rowspan=1 colspan=1>教授、博士生导师</td><td rowspan=1 colspan=1>网络信息智能处理</td></tr><tr><td rowspan=1 colspan=1>方平</td><td rowspan=1 colspan=1>教授</td><td rowspan=1 colspan=1>情报检索与情报检索语言</td></tr><tr><td rowspan=1 colspan=1>张福炎</td><td rowspan=1 colspan=1>教授、博士生导师</td><td rowspan=1 colspan=1>数据挖掘、中文信息处理</td></tr><tr><td rowspan=1 colspan=1>朱明</td><td rowspan=1 colspan=1>副教授</td><td rowspan=1 colspan=1>智能系统、机器学习与数据挖掘</td></tr><tr><td rowspan=1 colspan=1>王继成</td><td rowspan=1 colspan=1>博士研究生</td><td rowspan=1 colspan=1>计算机网络、信息处理</td></tr><tr><td rowspan=1 colspan=1>邹涛</td><td rowspan=1 colspan=1>博士研究生</td><td rowspan=1 colspan=1>计算机网络、信息处理</td></tr><tr><td rowspan=1 colspan=1>杨小江</td><td rowspan=1 colspan=1>博士研究生</td><td rowspan=1 colspan=1>超媒体、信息处理</td></tr><tr><td rowspan=1 colspan=1>韩客松</td><td rowspan=1 colspan=1>博士研究生</td><td rowspan=1 colspan=1>中文信息处理</td></tr><tr><td rowspan=1 colspan=1>黄源</td><td rowspan=1 colspan=1>博士研究生</td><td rowspan=1 colspan=1>数据挖掘、中文信息处理</td></tr><tr><td rowspan=1 colspan=1>谢晓东</td><td rowspan=1 colspan=1>博士研究生</td><td rowspan=1 colspan=1>计算机与通信</td></tr><tr><td rowspan=1 colspan=1>王勇</td><td rowspan=1 colspan=1>讲师</td><td rowspan=1 colspan=1>生物信息学</td></tr><tr><td rowspan=1 colspan=1>甘霖</td><td rowspan=1 colspan=1>馆员</td><td rowspan=1 colspan=1>医学信息资源开发与利用</td></tr><tr><td rowspan=1 colspan=1>朱华宇</td><td rowspan=1 colspan=1>硕士研究生</td><td rowspan=1 colspan=1>网络信息发现</td></tr><tr><td rowspan=1 colspan=1>谢丹夏</td><td rowspan=1 colspan=1>硕士研究生</td><td rowspan=1 colspan=1>计算机结构、网络通信</td></tr></table>",
+    "context4": "表2研究信息挖掘主题的主要论文",
+    "context5": "<table><tr><td rowspan=1 colspan=1>作者姓名</td><td rowspan=1 colspan=1>论文名称</td><td rowspan=1 colspan=1>科研项目</td><td rowspan=1 colspan=1>期刊名称</td><td rowspan=1 colspan=1>发表时间</td></tr><tr><td rowspan=1 colspan=1>朱明王俊普蔡庆生</td><td rowspan=1 colspan=1>一种互联网信息智能搜索新方法</td><td rowspan=1 colspan=1>安徽省自然科学基金资助</td><td rowspan=1 colspan=1>计算机研究与进展</td><td rowspan=1 colspan=1>2001.1</td></tr><tr><td rowspan=1 colspan=1>王继成邹涛杨小江</td><td rowspan=1 colspan=1>基于INTERNET的信息资源发现技术与实现</td><td rowspan=1 colspan=1>江苏省“九五”科技攻关项目</td><td rowspan=1 colspan=1>计算机研究与进展</td><td rowspan=1 colspan=1>1999.11</td></tr><tr><td rowspan=1 colspan=1>邹涛王继成朱明华</td><td rowspan=1 colspan=1>wWW上的信息挖掘技术及实现</td><td rowspan=1 colspan=1>江苏省&quot;九五”科技攻关项目</td><td rowspan=1 colspan=1>计算机研究与进展</td><td rowspan=1 colspan=1>1999.8</td></tr><tr><td rowspan=1 colspan=1>韩客松王永成</td><td rowspan=1 colspan=1>文本挖掘、数据挖掘和知识管理</td><td rowspan=1 colspan=1>国家863计划资助项目</td><td rowspan=1 colspan=1>情报学报</td><td rowspan=1 colspan=1>2001.1</td></tr><tr><td rowspan=1 colspan=1>邹涛黄源张福炎</td><td rowspan=1 colspan=1>基于wWW的文本住处挖</td><td rowspan=1 colspan=1>江苏省“九五”科技攻关项目</td><td rowspan=1 colspan=1>情报学报</td><td rowspan=1 colspan=1>1999.4</td></tr><tr><td rowspan=1 colspan=1>男   勇</td><td rowspan=1 colspan=1>关于Web网上智能检索系统的开发利用</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>情报学报</td><td rowspan=1 colspan=1>1999.2</td></tr><tr><td rowspan=1 colspan=1>陈敏</td><td rowspan=1 colspan=1>数据采集与信息资源的开发利角</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>现代图书馆技术</td><td rowspan=1 colspan=1>2001.2</td></tr><tr><td rowspan=1 colspan=1>谢丹夏李晓东</td><td rowspan=1 colspan=1>数据挖掘技术在Web上的应用及其工具设计</td><td rowspan=1 colspan=1>国家863计划资助项目</td><td rowspan=1 colspan=1>计算机应用</td><td rowspan=1 colspan=1>2001.2</td></tr><tr><td rowspan=1 colspan=1>沈达阳孙茂松</td><td rowspan=1 colspan=1>万维网知识挖掘方法的研究</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>计算机科</td><td rowspan=1 colspan=1>2001.2</td></tr><tr><td rowspan=1 colspan=1>邹涛威广智蔡丽娟</td><td rowspan=1 colspan=1>网络信息挖掘系统IDGS的实现</td><td rowspan=1 colspan=1>江苏省&quot;九五”科技攻关项目</td><td rowspan=1 colspan=1>南京大学学报</td><td rowspan=1 colspan=1>2000.2</td></tr><tr><td rowspan=1 colspan=1>叶红云曹佳冬</td><td rowspan=1 colspan=1>电子商务环境下网络信息挖掘技术</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>中国金融电脑</td><td rowspan=1 colspan=1>2000.11</td></tr><tr><td rowspan=1 colspan=1>殷燕白庆华</td><td rowspan=1 colspan=1>基于MULTIAGENT技术的信息挖掘系统研究</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>计算机应用研究</td><td rowspan=1 colspan=1>1999.12</td></tr></table>",
+    "context6": "从表1中可以看出：",
+    "context7": ". 我国目前还没有形成一个研究信息挖掘的科研群体,说明信息挖掘还没有被广大研究工作者所重视。",
+    "context8": "在目前的研究者中，以研究计算机科学的专家居多，占人数的 $81 \\%$ ，而图书情报学的专家只占 $19 \\%$ 。说明对于互联网这个巨大的、崭新的信息源的研究，图书情报工作者正处在消化、吸收阶段。",
+    "context9": "·列出的研究人数虽少，但研究者的学术地位却比较高。教授、副教授、博士生导师有6名，占总人数的 $37 \\%$ ;博士研究生5名，占总人数的 $31 \\%$ ，硕士研究生2名，占总人数的 $13 \\%$ 。说明在信息挖掘的研究方面已拥有一批高素质的人材。",
+    "context10": "表2列出了专门研究信息挖掘主题的论文，而那些只是在论文中涉及到信息挖掘的则未列出。从表2中可以发现：",
+    "context11": "·信息挖掘是一门综合性的学科，难度较大，所以作者以合作者居多。",
+    "context12": "·发表的刊物以计算机学科类刊物为主，其次是图书情报学类，最后是大学学报类。，一部分研究计算机科学的专家，除了在计算机刊物上发表论文外,也在图书情报学刊物上发表论文。这也符合表1中作者的情况,说明信息挖掘是计算机科学和信息学紧密相连的科学。",
+    "context13": "· 论文质量比较高，有5篇是省级科研资助项目，2篇是国家级资助项目。",
+    "context14": "$\\bullet$ 发表论文的时间是从1999年起。说明人们开始对信息挖掘进行研究是从1998年起，成果则出现在1999年。"
+  },
+  "参考文献：": {
+    "context1": "1朱廷劭等.KDD:数据库中的知识发现.计算机科学,1997,(6) :55 - 59  \n2卢美律.数据库里的知识发现.人大复印报刊资料，1998,(2):127-130  \n3-4陈敏.数据采掘与信息资源的开发利用.现代图书情报技术,2001,(2)27-29  \n5-6邹涛,王继成,朱华宇等.WWW上的信息挖掘技术及实现.计算机研究与进展,1999(8)：1019－1024  \n7韩家炜，孟小峰等.Web挖掘研究.计算机研究与发展，2001(4):405- 409",
+    "context2": "[作者简介]柳胜国，男,1958年生，副研究馆员，发表论文20余篇，参编著作2部。"
+  },
+  "迁址通告": {
+    "context1": "图书情报工作杂志社已迁至新近落成的中国科学院文献情报中心（中国科学院图书馆)新馆办公，请广大作者、读者及各界人士依新址与本刊编辑部联系。",
+    "context2": "地址：北京中关村北四环西路33号614房间 邮政编码：100080  \n电话：010-82623933010-82626611-6614 传真：010-82621460"
+  }
+}

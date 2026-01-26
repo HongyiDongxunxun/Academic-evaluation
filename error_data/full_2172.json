@@ -1,0 +1,59 @@
+{
+  "original_filename": "full_2172.md",
+  "关于本体映射模型和方法进展的研究": {
+    "context1": "The Research of Ontology Mapping Models and Methods"
+  },
+  "姜晓曦 (中国科学院国家科学图书馆中国科学院研究生院北京100190)": {
+    "context1": "[摘要]由于目前没有共享本体来描述语义网中数据的语义，因此需要对不同系统之间的本体进行调和，构建本体映射模型。近两年来,研究人员在原有成果的基础上对本体映射进行了更加深入的研究，提出许多新的映射方法，如元模型、语义富集模型、自动映射模型、大规模本体映射模型、快速映射模型与语义资源协同和连接系统。探究这些映射方式和模型的优势与不足的目的在于为今后本体映射方法的研究提供借鉴。"
+  },
+  "[关键词]本体映射映射方法映射模型": {
+    "context1": "[中图分类号]G250;TP391 [文献标识码]A",
+    "context2": "[Abstract] Because there is no shared ontology to describe the semantics of the data in the Semantic Web,we need to reconcile different systems of ontology and build ontology mapping model. Over the past two years,researchers did more in-depth study of the ontology mapping on the basis of the original study, and put forward many new mapping methods,such as OWL,semantic model,automatic mapping model, large-scale ontology mapping model, rapid mapping model,and SRILS.The purpose of studying the advantages and disadvantages of these mapping methods and models is to promote the research of ontology mapping method in future.",
+    "context3": "[Key words] Ontology mapping; Mapping method; Mapping model"
+  },
+  "1导语": {
+    "context1": "随着网络信息资源数量的激增和分布的分散，人们对信息协同的需求日益增加。为了使软件代理更加容易地理解和处理信息，研究者们开发出了语义网来增强语义之间的通信，其中采用本体来描述语义网中数据的语义。由于目前还没有单一、通用的共享本体，因此需要对不同系统之间的本体进行调和，于是以解决本体互操作为目的的本体映射就随之产生了。本体映射是通过定义概念、关系、函数、公理、实例以及类的集合来实现不同本体间的映射，也就是指两个本体存在语义级的概念关联，通过语义关联将源本体的实例映射到目标本体的过程。本体映射产生之初，本体之间的匹配很大程度上都是依靠手工，劳动强度大并且容易出错。但是随着近两年有关研究的发展，研究者们开发出了半自动化或自动化的本体匹配的方法，可以更好地解决本体间的互操作问题。在这些本体匹配的方法中,本文将着重介绍与分析关于本体映射的元模型、语义模型、复合模型等映射模型与方法。"
+  },
+  "2元模型": {
+    "context1": "最近，本体映射元模型的先进性已经被语义网研究协会所验证，这导致了一系列基于MOF(Meta-Object Facility)和UML（Unified ModelingLanguage)网络本体语言的映射模型方法的研究活动的开展。目前本体映射没有解决的问题之一是异构本体间指定映射的需求。基于这个问题，德国学者提出了一个以MOF为基础的元模型,用它来在OWLDL本体中进行映射[1]。要理解这个映射元模型，必须明确映射的基本构成。一个映射通常是在两个本体中定义，一个本体是由OWL DL(Web Ontology Language Description Logic）的类本体来描述的；从本体到映射有两个结交点一一源本体和目标本体，要分别指定映射本体的来源和目标；一个映射包含一系列映射声明，是由映射和映射声明两个类之间的MOF的聚合关系指定的；一个映射声明是由一个语义关系，一个源可映射元素和一个目标可映射元素来详细说明的。在懂得这些映射结构的基础上，笔者分析出该元模型一共定义了4种语义关系和它们的逻辑否定关系。其中两种关系类型通过语义关系类的子类一一同等和交迭，直接包含在元模型中；另外两个关系类型是通过子类一一制约和它的附加属性说明来实现的，所有语义关系的否定表示都是通过语义关系类的布尔属性否定来定义。此外，该元模型支持所有可映射元素（包据独立元素）之间的各种语义关系。一个映射声明可以连接两个可映射的元素，这两个元素可能是本体元素或者是查询。为了支持这一功能，可映射的元素包括两个子类，本体元素和查询，前者原来已经在OWLDL元模型中定义了，后者重新使用SWRL(SemanticWeb Rule Language，语义网规则语言)元模型的构造[2]。一个规则包括规则标头和规则主体，它们都是逻辑相关的；一个查询被认为是特殊的没有标头的规则，显著的变量是由查询返回的变量指定的。整个元模型的结构如图1所示：",
+    "context2": "![](images/6214f77d2cbbcf8cfa7cbf6ebc1dd752c004a9f0dd1d0e7c9a5ebc76960d4479.jpg)  \n图1本体映射的元模型[1]",
+    "context3": "学者还提出了一个UML框架来支持OWL本体之间形式独立的映射模型。实现该模型有3个附加的步骤要执行。第1步，要把文中出现的抽象的元模型与具体的映射形式相连接；第2步，要研究出一种方法来检验一个给定的绘图模型的兼容性与一个元模型的专门化是否符合；最后，要把给定的绘图模型转化为适当的映射形式。",
+    "context4": "总的说来，上述提到的元模型方法只是构造和实现本体映射的基于模型方法的第一步，与其他许多现有的提议相比，这种方法在映射建模上采用了知识层面的观点，支持反复发展的过程，在这个过程中，映射模型逐步精炼，并且在该过程后将实现更加精确的执行方式。"
+  },
+  "3语义富集模型": {
+    "context1": "为了在不同种类的本体中提高语义的互用性，挪威科技大学的研究者们在语义富集的基础上提出了一种启发式映射方法和原型映射系统，来支持半自动本体映射的处理过程3。该系统包括两个阶段：扩充阶段和映射阶段。扩充阶段依靠对本体外延信息的分析，为两个需要进行对比的本体中的每个概念构造有代表性的向量，扩充阶段的输出是带有特性向量的本体，它们被看成是扩充结构；映射阶段获得强化的本体，为不同本体的元素计算提供相似的方法。计算是基于特性向量的距离，运算法则共有5个组成部分：根据富集结构的相似性，映射者对一对儿需要比较的本体元素进行相关值的计算；加强者利用电子词典来调整映射者计算出来的相似值，目的是在结果表中进行再排序；推荐者决定给用户提供哪种建议，负责基于相关度的部分排序和当前的构造模型；输出者将映射结果翻译并且输出成想得到的格式，使得接下来的应用可以以一个连接松散的方式输入和使用结果；构造模型是一个用户框架将个体变量值赋予不同的调整参数，为低相似度映射的排除者赋予阈值。映射过程中的主要步骤如图2所示：",
+    "context2": "![](images/96ce41fba62e52dc55c4bbb46d99e8cd88a1de234c72260cec7684504bdaba13.jpg)  \n图2映射过程的主要步骤[3]",
+    "context3": "这个方法是以语义强化的思想为基础的，提出的功能性促使语义异质和不规则的风险降低了，此外，用户的认知超载在映射过程的手工处理部分被减少了。由于方法（指语义富集模型）中域指的是一个通过关联和继承层次而互相连接对象的层次结构，可以说是对象集合，也可以说是一种模型的独立特性，这种方法可以被用在一些其它不同的语境中。"
+  },
+  "4自动映射模型": {
+    "context1": "随着可移动的和无处不在的计算处理环境的出现，在不同环境之间能够进行合作应用成为一种需要。由于在元数据中描述共享数据的语义和本体的不同，许多独立运作的应用软件共同合作变得十分复杂。为了克服本体的差异性，专家们提出了自动本体映射的方法，该方法适合于包含一类协作应用程序的自治、相互作用的系统，它可以促进应用层面的数据汇集，通过识别本体冲突的范围和使用与那些收集数据有关的元数据值来建立共同特性。自动本体映射包含很多的领域，从机器学习和正式理论到数据库计划和语言学，应用范围也很广泛，从理论模型到工业应用。大多数的系统都非常复杂，资源深度创造和普遍的计算环境在资源有限的情况下是无法展开的。",
+    "context2": "目前，一种音乐共享应用程序已经采取这种自动映射机制来促进人们之间的音乐共享[4。实验者们为了确定本体映射在音乐作品中的需求，分析了从17个用户那里收集的64704首歌曲，包含了6040个作曲家和462种不同的音乐类型。这462种类型音乐的存在直接地显示了在这仅有的17个用户之间存在的大量的本体差异。该实验先根据用户的音乐收藏建立了一个“HOME\"集，这个集的列表中分别显示了用户收藏音乐的所有信息，如曲名、演唱者、作曲者等。用户对这个“HOME”集可以进行自由的检索，为了有效地在“HOME\"集以外的“FOREIGN\"集内获取对象，实验者利用两个集中对元素属性矩阵加权的方式，最终将“FOREIGN\"集里的对象映射到\"HOME\"集里。SMC(Self-ManagedCell)体系结构目前已经应用了上述映射方法，音乐播放器使得用户通过无线局域网可以搜索其他播放器上发现的音乐文件和音乐流，目前这种播放器已经测试成功并运行顺利。"
+  },
+  "5大规模本体映射方法": {
+    "context1": "目前研究的本体映射方法如Cupid，COMA，Glue,Rondo，S-Match等，都是针对小规模本体的，用现有的方法来进行大规模的本体映射，有效性会大大降低，因为大的本体增加了错误匹配的可能性。因此，构建大规模本体映射模型成为一种需要。"
+  },
+  "5.1 OWL-CM模型": {
+    "context1": "OWL- CM(Web Ontology Language - CombiningMatcher，网络本体语言综合匹配器)是一种新的映射模型，用它来解决本体映射过程中处理的不确定性问题[5]。一方面该模型利用相似性技术来评估本体实体之间的等价关系，另一方面它把信任函数应用到映射过程中，用来改善不同匹配器计算出结果的效力，以便给综合这些结果提供统一的框架。",
+    "context2": "列表并决定映射结果，另一个任务是基于简单和复杂的匹配器来评估概念间的相似性。实验表明，该模型可以提高本体映射的准确度，减少映射过程中的不确定性。"
+  },
+  "5.2复合映射方法": {
+    "context1": "现有的映射方式主要集中在处理两个本体之间的直接匹配上，但是我们同样要计算间接匹配，因此一种将直接匹配和间接匹配融合在一起的复合映射法产生了[6]。复合方法融合了3种基本的匹配技术：术语关联、价值特性和预期数据值。前两种技术将机器学习应用到获取的特征向量中，为每个决策产生一个决策规则和信任度。利用第3种技术来分析基于领域本体的数据值并计算信任度，最终发现直接或间接的匹配。一对本体元素被分配的信任度越高，两者匹配的可能性就越大。这3种技术可以实现目标集的匹配，而结构匹配方法用来解决两个本体间的关系集匹配，结构匹配使查询结果准确的可能性增大了。这种复合映射方法与原有的方法相比有很多优势：Cupid模型中应用了辅助信息如同义字字典、叙词表和术语表等，但这些辅助信息并不包含数据实例[，而复合性的方法包含数据实例和领域本体，可以为元素的真实内容提供更准确的描述;Glue将匹配过程分为Training和Testing两个部分，在大量的本体中抽取样本和进行标签都是很难实现的[8]，复合方法利用结构特性对多种独立匹配的结果进行配对计算，在遇到新的可用的本体时，该方法可以增加领域本体来提高映射性能；COMA是用来评价不同的单个匹配器和他们结合起来时性能的框架，从COMA反馈的结果可以看出，联合匹配器要比单个的匹配器好[9]，复合映射同样证明了该原理。",
+    "context2": "![](images/57afc2d8b8f18449ab294bd3b2290a9f881c9bdcab3c4295fd62ce57a21ea6b2.jpg)  \n图3OWL一CM框架[5]",
+    "context3": "图3是OWL－CM框架图，它包括4个组成部分：转换器(Transformer），接受输入的两个本体O1和O2，并为它们每个本体分别建立数据库DB1和DB2;过滤器(Filters),负责对映射的结果做出决定；复杂匹配(Complex Matchers)和简单匹配(SimpleMatchers），对本体之间的等价关系进行评定。本体映射的运算法则包括5个步骤，预映射 概念映射 对象属性映射 数据结构属性映射 个体映射。以前面两个环节为例， $\\mathsf { O W L - C M }$ 模型通过转换器把每个本体转换到数据库中，映射的第一次反复是在两个任务作业中交替执行，第一个任务是利用过滤器来筛选候选映射"
+  },
+  "6快速映射模型": {
+    "context1": "在Peer-to-Peer对等系统中，我们经常遇到大规模本体要在几秒钟，甚至更少的时间内完成彼此间映射的情况,而现有的研究多数集中在如何提高映射的质量，较少地关注映射的效率。QOM(Quick Ontology Mapping，快速本体映射)模型与现存的方法相比降低了运行的复杂性，提高了运行的效率[10]。西蒙曾提出描述人类决策过程的“satisficing=(satisfying $^ +$ sufficient）”一词，意思是将映射过程的目标定在利用有限的关注、时间、努力等资源来产生足够好的解决方案，而不是定位在结果的最优性[11]。QOM模型将西蒙原理应用在本体映射过程中，降低映射复杂性的同时也考虑到了反馈结果的质量。影响运行复杂性的主要因素是需要找到最好匹配的候选映射对儿，因此降低映射对儿的数量是解决该问题的关键。QOM模型利用本体结构将候选映射对儿分成匹配几率较大和较小的两部分，此外还采用了动态程序设计方法，该方法有两个主要的数据结构，首先应该找到需要进行研究的候选对儿，其次给这些候选对儿进行排序，丢弃一些不符合要求的候选对儿来保证映射的效率。在完成相似性分析和通译之后，系统需要决定哪些候选映射应该加入到议程中，进入下一轮反复。在QOM模型中，系统采用将不同最优化策略结合的方法来选择映射对儿，第一次反复时采用标签法，接着采用映射传递法，该方法的原理是每次发现新的映射时，该映射两边一些邻近的映射就会发现相似的实体，最后如果其它策略没有完全地识别出正确的候选映射，则转向随机法(该方法是从所有可能的映射中选择一个固定的数目或百分比来限定候选映射数量)。实验结果表明，QOM方法要比其它标准方法快10-100倍。"
+  },
+  "7SRILS系统": {
+    "context1": "SRILS( Semantic Resources “ Interoperabilisation ”andLinkingSystem，语义资源协同和连接系统)是由法国科技中心构建并发展起来的工业系统，它包含不同的领域本体，并且能较好地实现本体自动映射[12]。该系统由4个模块和不同类型的资源组成，外部界面是由查询处理模块提供，并在以服务为导向的结构中进行综合；转换模块用来管理反馈的异构语义资源；队列模块来执行映射搜索；内容排序模块负责将映射按相关度进行排列。在队列模块中，一次搜索同时在两个本体中进行，得到的反馈是等价关系或者是语义相近的关系。当处理较大的本体时，推理是一个很费时间的过程，而映射搜索会执行一个“优先权”来节省处理时间。在领域专家确认映射结果之后，映射会建立一个“清晰本体”，该本体可以被查询处理模块进行提问，并且不会改变。当用户提交一个以产品为主题的查询，希望得到与之相关的文件时，“清晰本体”由于存储了反馈的、可靠的映射，可以接受系统的询问。该系统可以从句法、结构和语义3个层面对本体进行映射，将分类法、图表和本体转换成OWLDL格式，同时保持原有编码语言的语义和表现力，利用推理引擎和描述逻辑技术该系统可以在本体实体间的检索映射来实现语义资源的协同。专家们利用该系统在建筑领域进行实验，发现得到包含映射比等价映射的数量多很多，这说明包含映射的结果是由本体计算时候的次序决定的，也就是说这个差别来自于两个本体间包含关系的不对称性。"
+  },
+  "8结语": {
+    "context1": "近两年来，研究人员在原有成果的基础上对本体映射进行了更加深入的研究，提出了许多新的映射方法，同时开展了大量的实验和项目，每种方法都有各自的优点。复杂本体映射可以更加精确地匹配语义相似概念，可以通过解决语义缺乏的问题来减少语义矛盾，可以通过在包容和复合(分解)映射中找到更多的语义匹配来减少全部本体的冗余；自动本体映射是目前研究兴趣的热点，自动产生本体映射的软件系统有ONION，MAFRA，IFF，文中提到的音乐软件映射机制使用的下限只需要一个通用软件插件和连接到网络，在PDA和移动电话上都可以应用；语义本体映射可以采用绘画符号来表示本体和映射结果，这使得用户能更容易地理解模型并了解大概情况。当然这些本体映射的方法也存在很多不足，如有些映射机制并不适合于普遍的系统环境，这些映射机制在未被定义的不受控制的环境中不容易实现，同时在有限的资源装置中也不容易展开。正是由于这些问题的存在，才给将来的研究提供了方向和挑战。如何增强映射机制的质量，如何根据用户喜欢的可能性对结果进行排序，如何定义随着时间推移映射元素的更新，怎样重用语义适配器的语义映射表，怎样减少映射表的冗余？这些问题都需继续研究。"
+  },
+  "参考文献：": {
+    "context1": "[1]Brockmans S, Haase P, Stuckenschmidt H.Formalism-Independent Specification of Ontology Mappings一一A Metamodeling Approach [J].Springer-Verlag，2006:901-908.   \n[2] Brockmans S, Haase P.A Metamodel and UML Profile for Networked Ontologies一-A Complete Reference[J/OL].Technical report,2006 (4)[2008-04-22].htp://www.aifb.uni-karlsruhe.de/WBS/sbr/ publications/ontologymetamodeling.pdf.   \n[3]Su Xiaomeng，Gulla JA.An Information Retrieval Approach to Ontology Mapping[J].Data& Knowledge Engineering，2006（58): 47-69.   \n[4] Heeps S,Sventek J, DulayN,et al. Dynamic Ontology Mapping for Interacting Autonomous Systems[M]. Heidelberg:Springer Berlin, 2007:255-263.   \n[5]Laamari N,Yaghlane B B. Uncertainty in Semantic Ontology Mapping:An Evidential Approach[M].Heidelberg:Springer Berlin, 2007:418-429.   \n[6] Li Xu, Embley D W.A Composite Approach to Automating Direct and Indirect Schema Mappings[J]. Information Systems，2006(31): 697-732.   \n[7]Madhavan J， Bernstein PA，Rahm E. Generic Schema Matching with Cupid[C]//Proceedings of the 27th International Conference on Very Large Data Bases (VLDB'O1).Rome: Italy，2001:49-58.   \n[8] Doan A，Madhavan J，Dhamankar R，et al.Learning to Match Ontologieson the Semantic Web[J].The International Journalon Very Large Data Bases,2003(12):303-319.   \n[9] Do H，RahmE.COMA--A System for Flexible Combination of Schema Matching Approaches[C]//Proceedings of the $2 8 ^ { \\mathrm { t h } }$ International Conference on Very Large Databases (VLDB2002). China: Hong Kong,2002:610-621.   \n[10] Ehrig M, Staab S.Satisficing Ontology Mapping[M/OL]//Semantic Web and Peer-to-Peer.Heidelberg:Springer Berlin，2006:217-233 [2008-05-05].http://www.springerlink.com/content/r837 p550264v2167/fulltext.pdf.   \n[11] Bendor J,Herbert A.Simon:politicd Scientist[J].Annual Review of Political Science,2003(6).433-471.   \n[12] SilvaFD,Ghafour SA,Hoffmann P,etal.Semantic Interoperability of Heterogeneous Semantic Resources[J].Electronic Notes in Theoretical Computer Science,2006(150):71-85."
+  },
+  "[作者简介]": {
+    "context1": "姜晓曦女，1984年生，中国科学院国家科学图书馆硕士生，发表论文3篇。 [收稿日期:2008-05-26]"
+  }
+}

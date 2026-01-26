@@ -1,0 +1,106 @@
+{
+  "original_filename": "full_8916.md",
+  "网络检索工具 搜索引擎发展趋势之探讨": {
+    "context1": "冯峰",
+    "context2": "（黑龙江科技学院，哈尔滨150027)",
+    "context3": "[摘要]本文介绍了获取网上资源的途径是充分的利用搜索引擎，在此列举了三种搜索引擎，分析了它们在检索效果上的优点和所存在的问题。在利用搜索引擎时应根据它们的特点，结合检索的需求，有效地使用它们。并对未来的搜索引擎提出了展望。",
+    "context4": "[关键词]搜索引擎；检索功能；发展趋势",
+    "context5": "[Abstract）This paper introduces thatthe utilization of searching engine is an efciency wayto get online infor mation·3 kinds of engines，aswellastheiradvantagesanddisadvantages，are introduced·Utilizationof engines shall regard their features soas to makefulluse of them·Finally，prospect of futuresearching engines are put forward.",
+    "context6": "[Key words]searching engine；retrieval function；development trend",
+    "context7": "[中图分类号〕G252.7〔文献标识码]A〔文章编号〕1008－0821（2006）08－0093－02"
+  },
+  "1搜索引擎的分类及其工作原理": {
+    "context1": "1.1目录式搜索引擎",
+    "context2": "工作原理：有搜索功能以人工方式或半自动方式搜集信息，由编辑员查看信息之后，人工形成信息摘要，并将信息置于事先确定的分类框架中。"
+  },
+  "1.2全文搜索引擎": {
+    "context1": "工作原理：通过从互联网上提取的各个网站的信息（以网页文字为主）而建立的数据库中，检索与用户查询条件匹配的相关记录，然后按一定的排列顺序将结果返回给用户。"
+  },
+  "1.3元搜索引擎": {
+    "context1": "工作原理：元搜索引擎由三部分组成，即：检索请求提交机制、检索接口代理机制、检索结果显示机制。“请求提交”负责实现用户“个性化”的检索设置要求，包括调用哪些搜索引擎、检索时间限制、结果数量限制等。“接口代理”负责将用户的检索请求“翻译”成满足不同搜索引擎“本地化”要求的格式。“结果显示”负责所有源搜索引擎检索结果的去重、合并、输出处理等。"
+  },
+  "2三类搜索引擎检索效果的比较": "",
+  "2.1目录式搜索引擎": {
+    "context1": "2.1.1用户进行笼统或较笼统的主题浏览和检索。它允许用户从等级类目中任意选择检索范围，以对这些不同深度的主题类目进行浏览或检索；",
+    "context2": "2.1.2当用户尚未形成很精确的检索概念时，采用目录式搜索引擎作为检索起始点非常有效。"
+  },
+  "2.2全文搜索引擎": {
+    "context1": "具有检索面广、信息量大、信息更新速度快等优点，非常适用于特定主题词的检索。但因其没有目录式搜索引擎那样清晰的层次结构，检索噪音较大，为检索带来负面影响。Yahoo！是Web上最流行的目录式搜索引擎之一，但Yahoo!倾向于索引较大网站的网页，因此，任何重要的较小网站的网页也许会消失在Yahoo!上。当使用Yahoo！检索时，检索到的仅是标题和简短的描述语；相反，全文搜索引擎通常为用户作全文检索。"
+  },
+  "2.3元搜索引擎": "",
+  "2.3.1检索性能的局限性": {
+    "context1": "元搜索引擎实现检索语法转换的能力是有限的，而且高级检索模式常常只是注册或定制检索中的一部分，更适用于单用户计算机环境。另外，由于元搜索引擎不支持指定字段检索等特殊检索特性，不能发挥各个独立搜索引擎的高级检索特色，影响了检索效果和质量。"
+  },
+  "2.3.2调用搜索引擎的局限性": {
+    "context1": "大部分元搜索引擎只支持调用AltaVista、Excite、GoTo·com、Yahoo!、Infoseek、Lycos 等主要的搜索引擎，有许多大型搜索引擎被排除在外。如大部分元搜索引擎不包括NorthernLight、HotBot 等，影响了信息搜索的覆盖面。"
+  },
+  "2.3.3检索结果在数量上的局限性": {
+    "context1": "检索速度的限制从一个侧面反映出了元搜索引擎在检索结果的数量上的局限性，也就是意味着只能从各个独立的搜索引擎中检索少量的最符合要求的命中记录，一般限定在 $1 0 \\sim 5 0$ 个之间，因此必然影响了检索结果的全面性。"
+  },
+  "3目前存在的主要问题与发展趋势": "",
+  "3.1规范化问题": {
+    "context1": "3.1.1关键词难以反映词间的相关关系",
+    "context2": "关键词之间存在着大量的同义现象、近义现象、一词多义和同形异义现象，而搜索引擎极少进行规范化处理，致使文献和检索提问中隐含的概念或需求往往难以表达出来，漏检率较高，甚至有时影响到检准率。"
+  },
+  "3.1.2汉字的切分问题": {
+    "context1": "对汉字的切分目前有两种处理方法，一种是按单汉字检索，这虽然能够保证很高的检全率，但误检率相当高。于是又提出了对字与字之间的位置限定。位置的限定可以减少一些虚假组配，但基于单汉字的检索仍然会带来很多的垃圾信息。"
+  },
+  "3.1.3同一结果重复出现": {
+    "context1": "由于一篇文章可以方便在多个地方发表，而有些搜索",
+    "context2": "August . 2006 No:8",
+    "context3": "引擎又不加以处理，所以常常可以在检索结果中发现大量重复信息，它们的网址虽不同，但是却链接在同一个页面上，用户费时费力打开后却发现是同样的内容，这给用户检索带来很大不便。"
+  },
+  "3.1.4死链": {
+    "context1": "有些搜索引擎提供的检索结果中有许多的链接不可用。这些不可用的链接一般被人称为死链、断链。"
+  },
+  "3.1.5不能自动识别错别字": {
+    "context1": "由于用户对某一概念、名人的名字的正确书写不了解，出现笔误等情况时有发生，如果用户误输入错别字，而搜索引擎不能自动给出正确关键词提示，就可能在检索结果中找不到所需信息。"
+  },
+  "3.1.6覆盖面有限": {
+    "context1": "《科学杂志》最近一份研究报告表明，即使功能最完善的搜索引擎，也只能找到Web上大约2/3的网页。"
+  },
+  "3.2发展趋势": "",
+  "3.2.1 本地化服务": {
+    "context1": "只有在不同地区采用不同语言，完全按照不同国家的文化传统、思维语文式、语言特点检索信息，实现检索服务本地化，增加服务器，分流用户，提高上网查询速度，才会满足不同区域用户的需求，检索结果才会符合用户要求，进而搜索引擎才会发展。"
+  },
+  "3.2.2商业化": {
+    "context1": "网络检索系统拥有世界数量众多的用户，吸引了大量的广告，为电子信息的增值服务提供了广阔的空间。在这里汇集了最新的思想、最先进的技术和最大的潜在市场。网络检索系统已成为新的投资热点。"
+  },
+  "3.2.3智能化": {
+    "context1": "一是搜索引擎检索技术的智能化；二是指搜索引擎面向检索者的智能化。"
+  },
+  "3.2.4功能多样化，服务个性化": {
+    "context1": "多样化首先表现在可以检索的信息形态多样化，如文本、声音、图像、动画。而且搜索引擎已不仅仅是单纯的检索工具，正在向其他服务范畴扩展，提供站点评论、天"
+  },
+  "（上接第92页）": {
+    "context1": "[16]Brynjolfsson E．the productivity paradox of information tech-nology [J]·communications of the ACM，1993，35（l2）：66$- 7 7$",
+    "context2": "[17] Tallon $_ { \\textrm { p p } }$ ，Kraemer $\\textrm { k l }$ .the development and application of a process-oriented thermometer of IT business value [N]·Working paper，center for research on information technology and orgaizations，University of California，Irvine，CA，2O04.",
+    "context3": "[18]卢向华．企业信息系统项目的评价研究[J]．科学学与科学技术管理，2003，2：28—32.",
+    "context4": "[19]A Rai R，Patnayakuni N．Refocusing where and how IT value is realized：an empirical investigation [J]·Mgmt Sci· 1996，24(4)：399-412.",
+    "context5": "[2O]Wim Van Grembergen，Ronale Saull etc．Linking the IT balanced scorecard to the business objectives at a major Canadian financial group [J]·Journal of information technology cases and ap\" plications．2003，5：23—45.",
+    "context6": "[21］曲波，田传浩．基于平衡记分卡的战略联盟绩效评价框架[J]．技术经济与管理研究，2005，1：56—57.",
+    "context7": "[22]郝晓玲．基于平衡记分卡的企业信息系统全过程评价气预报、新闻报道、股票点评、各种黄页（如电话号码、航班和列车时刻表、地图等)、免费电子信箱，以多种形式满足读者的需要。"
+  },
+  "3.2.5数据库的专业化、时效性": {
+    "context1": "数据库的专业化、时效性的发展趋势能针对用户的特定需求来提供信息，特定用户只要利用专业搜索引擎就可在迅速、准确地获取所需的信息。"
+  },
+  "3.2.6最新网络检索技术的应用": {
+    "context1": "未来的搜索引擎应以用户导向为依据，开发并应用各种新的检索技术，用户可以用自然语句提问，强化全文搜索（FullText Search）功能，采用对网站信息内容进行全面检索的技术，直接根据网络信息内容进行检索，通过交互式提问帮助用户选择检索表达式，对检索结果作进一步的综合处理，同时采用多种方法对检索结果进行相关性排序，对信息内容的过滤、筛选；集多种搜索引擎体的集成搜索引擎的研制与应用。"
+  },
+  "4结论": {
+    "context1": "对搜索引擎来说，它们都有各自的优缺点，在检索功能的设置、检索结果的排序以及显示、检索效果等方面各有所长，而最好的办法是根据它们的特点，结合检索的需求，学会以有效地使用它们。不同的搜索引擎指令可能是不同的，只有熟悉了它的机理才可以起到事半功倍的效果。而同时搜索引擎只有根据目前的发展趋势，满足用户的检索需求，不断的改进，弥补自身的不足，才会发展。"
+  },
+  "参考文献": {
+    "context1": "[l］张秋霞，刘壮生．试论网络检索工具检索性能的置信区间[J]．现代图书情报技术，2005，（6).",
+    "context2": "[2]谢琳惠．网络信息检索的效率研究[J]．现代图书情报技术，2004，（年刊).",
+    "context3": "[3]唐艺．网络信息检索工具的类型及发展趋势[J]．理论新探，2005，（11).",
+    "context4": "[4]丁明，祝博，李龙森．网络信息检索发展趋势展望[J]．科技资讯，2006，（4).",
+    "context5": "体系研究[D]．上海：同济大学，2004.",
+    "context6": "[23]Willcocks L，Lester S．Evaluating the feasibility of information systems investments recent UK evidence and new approaches [A]．In information management．The evaluation of information systems investment [C]．Chapmen&Hall，London，1994： $4 9 -$ 75.",
+    "context7": "[24]Willcocks L，Lester S． Investing in information systems ：Evaluation and management [M]．Chapman&Hall．London，1997.",
+    "context8": "[25]Farbey B，Land F，etc．Maching an IT project with an ap propriate method of evaluation a research note on Evaluating investments in IT [J]·Journal of information technology．1994，9.",
+    "context9": "[26]陈衍泰，陈国宏，等．综合评价方法分类及研究进展[J]．管理科学学报，2004，7（2)：69－79.",
+    "context10": "[27]Hannu Kivijarvi，Timo Saarinen·Investment in informationsystemsandthefinancialpeiformance[J]·information&management，1995，28：143-163.",
+    "context11": "[28]徐维祥，张全寿．基于WSR方法论的信息系统项目评价研究[J]．系统工程与电子技术，2000，22（10)：4一7."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "original_filename": "full_8514.md",
+  "nothing": {
+    "context1": "·信息工作·"
+  },
+  "科学结构及演化分析方法研究综述": {
+    "context1": "卫军朝 (中国科学院国家科学图书馆北京100190)蔚海燕 (华东师范大学商学院信息学系上海200241)",
+    "context2": "摘要：文章从文献计量学分析方法、文献计量学与网络分析相结合的分析方法、时序分析法三个角度探讨如何分析和揭示科学的知识结构及发展演化，并阐述了各种方法的原理和应用环境。",
+    "context3": "关键词：科学结构演化文献计量学网络分析时序分析",
+    "context4": "中图分类号：G302 文献标识码：A 文章编号:1003-6938(2011)04-0048-05",
+    "context5": "Review on Analysis Methods of Science Structure and Evolution",
+    "context6": "Wei Junchao (National Science Library, Chinese Academy of Science, Beijing,100190)",
+    "context7": "Wei Junchao (Department of Information Sciene,Business chool,East China Normal University,Shanghai,200241",
+    "context8": "Abstract:Thispaper introduces theanalysismethodsof sciencestructureandevolution from three perspectivessuchas bibliometricsanalysis,combinationwiththebibliometricsandcomplexnetworkanalysis,andtimeseriesanalysis.Theprinciplesnd application environment of various methods are also presented in this paper.",
+    "context9": "Key Words 'science structure; evolution bibliometrics; network analysis; time series analysis",
+    "context10": "CLC number: G302 Document code：A",
+    "context11": "Article ID:1003-6938 (2011) 04-0048-05"
+  },
+  "1引言": {
+    "context1": "科学结构是科学知识长期形成的、固有的、不以人们的意志为转移的客观存在，是科学内在逻辑结构的集中体现，既可以反映整体科学的逻辑关系，也可以针对某一研究领域而形成的知识结构。同时科学知识是在不断发展变化的，因此科学结构也在不断发展变化，这样的不断发展演变形成科学结构的演化。通过分析科学结构及其发展演化可以更好的把握科学的发展历程，帮助科学家更快的获得学科发展前沿和研究热点，因此，研究如何科学、准确地揭示科学的知识结构及发展演化具有重要意义。",
+    "context2": "科学结构大致分为宏观和微观两种，宏观上可以分析整个科学的科学结构及演化，分析不同学科之间的位置和交叉关系、不同时间段的演化情况等微观上可以分析某一研究领域的知识结构和发展演变过程，比如分析不同时间段文献聚类的演变情况，分析新的研究主题在什么时候出现,如何出现，旧的研究主题什么时间消亡，如何消亡，不同的研究主题之间是如何相互交叉、相互影响等。",
+    "context3": "目前对整体科学领域或某个研究领域的科学结构的揭示已经成为人们的研究热点，研究人员提出了各种方法与技术来揭示它。文献计量的方法是目前最常用的方法，其主要思路是：以文献及文献之间的关系为计量对象,通过某种聚类和可视化方法来表现科学结构，以不同时间窗之间科学结构的变化来表现科学结构的演化。随着复杂网络研究的异军突起，Watts、Barabasi等的研究表明很多现实的社会网络(包括引文网络和合著网络 都具有小世界和无尺度特征，[][2]因此把复杂网络的理论和方法引入到文献计量学中来分析科学结构及演化也成为人们研究的热点。"
+  },
+  "2文献计量学分析方法": {
+    "context1": "基于文献计量的方法是目前分析科学结构及演化的主要方法，基本原理是利用文献及文献之间的关系，通过对这些关系的计量来构建科学的内在逻辑结构。目前主要有基于同被引分析方法、基于文献耦合分析方法、基于共词的分析方法。主要分析步骤是 $\\textcircled{1}$ 选取全面、权威的数据源，合适的数据源才能代表本领域的科学结构，目前国内外的研究大多选择WebofScience为研究数据源 $\\textcircled{2}$ 根据研究需求设定合适的时间窗，可以选择重叠时间窗或离散的时间窗； $\\textcircled{3}$ 对每个时间窗的数据进行文献计量分析，比如根据同被引关系构建同被引矩阵，根据耦合关系构建耦合矩阵、根据共现关系构建共现矩阵等，这是构建科学结构的理论基础，利用文献及文献之间的关系，来构建科学的内在逻辑结构； $\\textcircled{4}$ 利用聚类方法和统计分析方法进行聚类处理，选择合适的可视化技术对每个时间窗的聚类进行可视化显示； $\\textcircled{5}$ 通过对不同时间窗之间聚类的比较和分析,分析科学结构的演化。"
+  },
+  "2.1基于同被引的分析方法": {
+    "context1": "同被引的概念最早由Henry Small提出[3],指两篇不同文献被别的文献同时引用，那么就称这两篇文献存在同被引关系。一般认为同时被引用的文献在主题上具有或多或少的相似性，因此同被引次数 (即同被引强度)可以测度文献在内容方面的相关度，同被引强度越高，文献之间的相关度越高。基于同被引的分析方法基于这样的理论基础，根据同被引强度两两聚类，同被引强度高的文献聚合在一起，同被引强度低的文献分离开来，再通过可视化的方式表示,形成某研究领域的科学结构。",
+    "context2": "1973年,Small首先探索性的利用同被引分析方法研究了粒子物理学领域高被引文献的引文网络关系，从而开创了同被引分析研究特定领域科学结构的先河。[4]此后,Small陆续进行了一系列的研究,利用同被引分析来分析不同研究领域的知识结构及演化,2006年，以ESI高被引文献为研究数据源,利用同被引分析进行聚类，分析了全科学领域的科学结构；后来又以同被引分析法分析了organic thin film transistors领域的知识结构及演化发展。[5]",
+    "context3": "日本文部省科学技术政策研究所IGAMIMasatsura等以ESI(1999-2004,2001-2006两个重叠的时间窗的高被引文献为研究数据源，通过同被引分析方法生成全科学领域的科学结构地图 Science Map 2004 和 Science Map2006,探究科学领域结构，分析不同学科在科学地图中的位置和在整个科学研究中所起的作用。同时经过对ScienceMap 2004和 Science Map 2006的比较以及对专家的访谈调查,分析科学结构在2年期间的演化发展。[中国科学院国家科学图书馆也以ESI(2002-2008年的高被引文献为数据源，经过对高被引文献的多次同被引聚类，利用重力模型可视化方法绘制科学活动全景图，产生了当前科学研究的121个热点研究领域，同时利用科学活动全景图分析121个研究领域和ESI的22个学科的交叉关系，并通过专家调研对研究热点进行内容分析。[7]"
+  },
+  "2.2基于文献耦合的分析方法": {
+    "context1": "基于文献耦合的分析方法是通过两篇论文共同引用参考文献的数量多少来度量论文的相似性,[当它们都引用多条相同的参考文献时，它们之间就具有某种有意义的关联，通过耦合强度两两聚类，相关度高的文献聚合在一起，对某一时间窗的聚类就反映了当前时间窗的科学结构，不同时间窗之间聚类的变化形成科学结构的演变。Morris利用文献耦合方法对文献进行聚类分析，并根据生成的文献簇在时间线视图上的分布以及文献簇之间的引用关系，揭示了不同时间窗anthrax领域研究主题的聚类情况，分析了哪些聚类在发展，哪些聚类在消亡，以此来表示anthrax领域的科学结构和演化发展。[9]",
+    "context2": "耦合分析反映的是施引文献之间的关系，在统计分析的时候，耦合强度是固定不变的，因此基于文献耦合的分析方法揭示了稳定的科学结构关系，揭示的科学结构是不会变的。同被引分析反映被引文献之间的关系，同被引强度随着文献的不断增加不断变化，揭示了被引文献之间变化的暂时关系，因此基于同被引的分析方法揭示了动态的科学结构，其科学结构可能随着时间的推移、文献的增多而产生变化，从一定程度能够更准确的反映随着时间的变化而引起的科学结构的变化。"
+  },
+  "2.3基于共词的分析方法": {
+    "context1": "共词分析方法[10]属于内容分析方法的一种，它的原理主要是对一组词两两统计它们在同一篇文献中出现的次数，一般认为如果两个词在同一篇文章中出现的次数越多，则代表这两个词具有更加紧密的主题关系，以此为基础对这些词进行聚类分析，从而反映出这些词之间的亲疏关系，进而分析这些词所代表的学科和主题的结构变化,反映本学科领域的科学结构。",
+    "context2": "基于共词的分析方法分析科学结构及演化非常广泛,Hsin-Ning Su等以技术预测领域的核心关键词构建关键词共现网络，结合社会网络分析技术，以核心关键词为节点，以共现关系为边，根据共现强度来确定节点的位置，根据关键词和其他关键词之间的关系和位置，来确定节点的密度，以可视化的形式揭示了技术预测领域的知识结构。[]蒋颖利用LISA数据库,对1995-2004年间全世界文献计量学领域发表的期刊论文进行共词分析，绘制了1995－1999和2000-2004两个时间窗的类团关系图和战略坐标图，揭示了文献计量学领域的科学结构，研究结果表明文献计量学的学科内部结构正在发生变化，研究范围进一步拓展,研究对象出现多样化趋势。[12]"
+  },
+  "2.4引文分析和共词分析相结合的方法": {
+    "context1": "直接引文分析、同被引分析、文献耦合分析都属于引文分析的方法。引文分析方法通过对以往发表的论文的引用情况来分析科学结构，始终是一种间接的途径，而共词分析则是对当前发表文献主题的直接计量，反映的是目前已有论文所集中关心的主题。将引文分析和共词分析相结合来揭示科学结构已经获得更普遍的认可。",
+    "context2": "Braam等人结合使用了同被引分析和共词分析，在研究领域的层面上来识别科学研究的结构和研究焦点，并借助共词分析 (索引词、标题和摘要中的词)检验了引用同被引文献簇的论文的主题与所研究主题的相关性。[13]Braam认为，同被引分析和词语分析的结合是研究科学研究动态的一种有效方法，能获得比单纯同被引分析更加全面的景象。Besselaar等人在2006年尝试了一种新方法：词语—参考文献\"的共现。[14]他们将一个科学领域看作一个交流网络,选择能界定一个研究领域的一组期刊，将这些期刊上发表的论文作为分析单元，以论文的参考文献做语境来考察从标题中抽取的词语，因此这些最后被选定的词语就可以更恰当描述当前的研究进展，这种“词语一参考文献\"共现的方法,结合了文档的两种相关的属性，能够更容易地确定研究专业的精细结构。"
+  },
+  "3文献计量学和网络分析相结合的分析方法": {
+    "context1": "文献计量学的分析方法主要通过对文献及文献之间的关系的计量来揭示科学结构，随着复杂网络研究的不断发展,研究人员发现,同被引网络、共词网络、引文网络、耦合网络、合著网络等都是在科学交流过程中自组织形成的复杂网络，可以在文献计量学的基础上应用复杂网络的方法来揭示科学结构。"
+  },
+  "3.1在文献计量学的分析方法中采用网络聚类方法": {
+    "context1": "在基于文献计量学探测科学结构及演化发展的过程中，研究人员已经用到网络分析的方法来对研究结果进行优化，其中最广泛的是在聚类过程中使用网络聚类方法来使聚类更加科学、准确。陈超美在CitespaceII中使用谱聚类的方法对同被引网络进行聚类处理，谱聚类算法建立在谱图理论基础上，与传统的聚类算法相比，它具有能在任意形状的样本空间上聚类且收敛于全局最优解的优点。陈超美认为使用谱聚类能更加科学、准确的进行聚类。[15]",
+    "context2": "NaokiShibata通过文献之间的互相引用关系(Intercitation）构建引文网络,利用Newman提出的社团结构探测算法 (也称为拓扑聚类算法) 对引文网络进行聚类,采用拓扑聚类的with-clusterdegreez和系数P方法分别分析了galliumnitride领域和复杂网络领域知识结构的发展演变。[16]陈仕吉利用改进的BGLL社团结构探测算法，探测了科学结构中的重叠结构现象，提出了一种基于重叠结构的知识演化分析方法。[17]"
+  },
+  "3.2通过分析网络拓扑特征分析科学结构": {
+    "context1": "同被引网络、共词网络、合著网络等都属于网络的范畴，可以通过分析网络的拓扑特征来分析其所代表的科学结构的演变特征。Ronda-Pupo等以1980 年到2009 年的Strategic Management Journal期刊文章的出版国为研究对象,构建以节点表示国家，连线表示国家的共作者关系的网络。通过每个节点的位置的变化来跟踪节点的演化，通过网络的 density、connectedness、centralization、emission、reception rates等特征来跟踪整个网络的演化，以index ofdissimilarity来计量每个阶段网络演化的程度。[18]",
+    "context2": "Bettencourt等根据合著网络拓扑结构的变化来发现新兴研究领域，在科学革命的范式转移中，新概念的出现不仅会引起研究人员和研究文献的快速增长，同时也会出现更紧密的合作关系，在网络拓扑结构中表现为节点和平均边的数量的突然增长，可以通过密度和平均路径长度来度量合著网络拓扑结构的变化。[19]陈超美在CitespaceII中使用中介中心度 (Betweenness centrality 来计算每个节点的中心度，标识在科学演变中起到重要作用的关键节点。[20]此外,KissIZ等尝试把流行病模型和文献计量学结合起来解释研究主题的传播模式，通过两个流行病传播模式SEI模式和SI模式对某个时间窗的网络状态进行度量，通过基于引文的contactnetwork来表示知识的流动,分析学科网络中,研究主题是如何传播的。[21"
+  },
+  "4时序分析": {
+    "context1": "科学结构演化时间序列分析是指通过对科学研究的载体一文献的各种关系特征的时序分析，例如文献的共被引关系、耦合关系、共现关系等进行分析，来揭示科学结构的演化发展。在当前科学结构演化分析的研究中，主要有重叠时间序列分析和离散时间序列分析两种。"
+  },
+  "4.1重叠时间序列分析": {
+    "context1": "重叠时间序列分析是指在分析科学结构及演化的过程中，选取时间相互重叠的数据，以相互重叠的数据构建不同的时间窗，根据不同时间窗数据的同被引关系、耦合关系、共词关系等进行分别聚类，对科学结构及演化进行分析的方法。具体说就是选择相互重叠的出版时间作为研究时间窗，例如Henry Small以ESI高被引论文为研究数据源，根据文献的出版时间，设定三个相互重叠的时间窗(1996-2001,1997-2002,1998-2003),通过单链接聚类分别对每个时间窗中的高被引论文进行同被引聚类，通过Simple Strings和Complex String的分化和融合来跟踪聚类在不同时间窗的发展变化，以此来表征科学结构的演化。[22]",
+    "context2": "在目前关于科学结构及其演化的研究中，重叠时间序列分析多应用于同被引分析中，以重叠时间窗的施引文献或被引文献为研究对象，根据同被引强度对每个时间窗的文献进行聚类分析，以每个时间窗的聚类中文献的变化来跟踪研究主题的发展演化，同时可以根据重叠的特点设计一些相应的指标来表征研究主题的演化。例如通过不同时间窗之间聚类内文献或重复文献的数量变化来分析可能出现的研究主题的突现、发展、消亡情况。",
+    "context3": "HenrySmall最早利用重叠时间窗来分析研究主题的演化情况,1977年,Small以相互重叠的时间窗(1970 年以前、1971年以前、1972年以前、1973年以前、1974年以前的WebofScience数据为研究对象,构建同被引网络,然后对这5个时间窗的文献分别进行单连接聚类，设计了 SI(StabilityIndex参数用来反映聚类的连续性，从一个聚类到下一年的聚类中，其中有多少重复文章仍然存在，这样通过两个时间窗聚类中重复文章数来进行衡量聚类的连续性。[23]2009年 Small又以相互重叠的6年为时间窗,以ESI高被引文献为数据源，通过构建重叠时间窗中高被引文献共被引聚类的方法,分析了organic thin film transistors领域的演化情况。[24]",
+    "context4": "Henry Small提出了簇演变链(Cluster String 的概念来跟踪研究领域的发展演化，簇演变链根据重叠时间窗之间文献具有重复的特征，跟踪不同时间窗之间的重复文献来跟踪聚类所代表的研究主题的演变线路，同时可以分析重复文献所在聚类包含的其他文献的增加、减少来判断该研究领域属于新兴期、发展期或是消亡期。",
+    "context5": "重叠时间序列分析可以根据重叠的特点来跟踪研究领域的发展演变，方便了研究人员快速判断和分析研究领域的发展演变情况。然而，也可能由于时间窗中重叠数据过多，冲淡了该时间窗中新数据的比重，掩盖了某些新兴研究领域的出现，从而不能真正发现时间窗所代表的研究领域的发展演变。"
+  },
+  "4.2离散时间序列分析": {
+    "context1": "离散时间序列分析是指在科学结构及演化分析中选取时间相互离散、不重叠的数据作为研究数据源，在目前关于科学结构及其演化的研究中，这种方法使用最广泛。比如对离散时间序列科技文献数量的变化分析，对离散时间序列文献的同被引关系、耦合关系、共现关系的时序分析等，都可以从一定程度揭示科学结构及演化的特点。",
+    "context2": "陈超美及其开发的CiteSpaceII软件以离散时间序列的被引文献为研究数据源，时间窗为相互不重叠的1年、2年等，他提出了渐进式知识领域可视化 (ProgressiveKnowledgeDomainVisualization）的方法，这种方法的关键是采用分而治之(divide-and-conquer)的策略,把时间划分成一系列离散时间窗，对每个时间窗的被引文献进行共被引聚类，形成一系列离散的聚类，通过分析不同时间聚类的变化来分析研究主题的演化。[25] CiteSpaceII因为采用了离散时间序列数据为研究数据源，每个时间窗的数据代表本段时间的发展演化情况，可以更清楚的反映研究主题最早在什么时间出现,然后又在什么时间消亡，不同时间窗之间的聚类有什么相互交叉和影响。",
+    "context3": "Garfield利用文献之间的引用关系，以离散时间窗的文献为研究数据源，使用HistCite对文献进行分析和组构，生成引文编年图。显示了某个专业领域内的关键事件,以及它们之间的年代顺序及相互影响。通过引文编年图，可以观察到某研究领域发展的沿革和继承关系，还有可能发现研究领域在某个时区的发展程度。[26]Morris也以离散的时间序列为研究时间窗，以SCI中anthrax领域的文献为研究对象，对离散时间窗的文献进行耦合聚类，每个时间窗的聚类代表了这个时间段anthrax领域的科学结构，以不同聚类之间的引用关系，来跟踪聚类之间的演变关系和知识流动，以此来分析anthrax研究领域的发展演化。[27]",
+    "context4": "离散时间序列分析在科学结构及演化分析中应用广泛,可以根据文献的外部特征来做简单的时序分析，比如对文献数量的时序分析、对被引频次的时序分析，对机构、作者产出的时序分析等。同时可以通过文献之间的同被引关系、耦合关系、共现关系等的时序分析来分析科学结构及演化特征。根据研究需要，离散时间序列分析可以选择连续的离散时间序列，也可以选择断续的时间序列，通过不同时间窗之间科学特征的比较和变化来分析科学结构的演化。",
+    "context5": "离散时间序列分析选择离散时间序列的数据为研究数据源,数据之间不存在重叠，每个离散时间窗的数据代表了本段时间的科学结构的特征，通过对时间窗的数据的分析可以比较准确地把握科学结构的特征。然而不足之处是每个时间窗之间科学结构的关系需要其他手段来揭示，比如通过不同时间窗聚类之间的引用关系来分析科学结构的演化方向，通过不同时间窗聚类之间共现强度来分析他们之间的亲疏关系等。"
+  },
+  "5结语": {
+    "context1": "如何科学、准确的揭示科学的知识结构及发展演化已经成为人们的研究热点，研究人员提出了各种方法与技术来揭示它，基于文献计量的方法是目前的主要方法，其理论和技术已经发展得比较成熟，已经有研究人员开发相应的软件来实现。同时也有很多人在文献计量学的方法上进行改进，利用复杂网络中的聚类方法来对科学网络进行聚类，借用网络拓扑结构特征来度量科学结构的演化，可以更加准确地揭示科学的结构及演化发展。从目前的研究来看，把文献计量学和网络分析结合起来能够更科学、准确的揭示科学结构，然而在这方面的研究尚且不多，随着复杂网络理论的发展，会有更多的方法借用到文献计量学，来探测和分析科学的结构及演化。",
+    "context2": "时序分析方法在科学结构演化分析中有着重要作用,通过时序分析，可以对整个科学结构、单一科学研究领域、某一研究专题进行历史性的回溯,对以往的科学研究历程进行梳理；可以进行研究热点和研究前沿的演化分析，对未来研究趋势作出预测，为科学的发展提供战略性的决策支持。在当前科学结构演化分析的研究中，主要有重叠时间序列分析和离散时间序列分析两种。两种时序分析方法各有特点，重叠时间序列分析可以利用重叠的特点设定一些相应的指标来跟踪科学的发展演变，离散时间序列分析可以更准确的反映当前时间窗的科学结构。在研究中，可以根据不同的需要使用不同的时序分析方法。"
+  },
+  "参考文献：": {
+    "context1": "[1] Watts D J, Strogatz S H. Collective dynamics of‘smallworld'networks [I]l .Nature,1998,393 (6684) 440-442.   \n[2] Barabdsi AL，Ravasz E,Vicsek T. Deterministic scale— free neworks [].Physical A,2001,229 559-564.   \n[3] [4] SMALL HENRY. Co-citation in the Scientific Literature A New Measure of the Relationship Between Two Documents [].Journal of American Society for Information Science,1973,24() 256-269.   \n[5] [22] HENRY SMALL. Tracking and predicting growth areas in science [I] . Scientometrics， 2006,68 (3) :595- 610.   \n[6 IGAMI Masatsura,SAKA Ayaka. Observation of the evolution of science via the Science Map []. Journal of information processing and management,2009,52 (5) 255- 266.   \n[]潘教峰等.科学结构地图2009 [M].北京科学出版社， 2009.   \n[8] WENBERG B H. Bibliographic coupling :a review []. Information Storage and Retrieval，1974，10(5-6： 189-196.   \n[][27] Morris SA,Yen G,Wu Z. Time Line Visualization of Research Fronts []. Journal of American Society for Information Science,2003,54 (5) 413-422.   \n[10] Callon M, Law J,Rip A,Mapping the Dynamics of Science and Technology Sociology of Science in the Real World [M] .Macmillan,1986.   \n[11] Hsin-Ning Su，Pei -Chun Lee. Mapping knowledge structure by keyword co-occurrence:a first look at journal papers in Technology Foresight [Il.scientometrics, 2010, 85 :65-79.   \n[12]蒋颖.1995－2004年文献计量学研究的共词分析[]. 情报学报，2006，25(4 :503-512.   \n[13] BHATTACHARYA S，BASU P.Mapping a research area at the micro level using co-word analysis [].scientometrics，1998，43(3 :359-372.   \n[14] VAN DEN BESSELAAR P,HEIMER IKS G.Mapping research topics using word-reference co-occurrences'ä method and an exploratory case study [l .scientometrics2006,68 (3) 377-393.   \n[15] Chen c.The structure and dynamics of co-citation clusters :A multiple-perspective co-citation analysis[]. Journal of American Society for Information Science and technology,2010,61( :1386-1409.   \n[16] Naoki Shibata，Yuya Kajikawa. Detecting emerging research fronts based on topological measures in citation networks of scientific publications[].Technovation, 2008,28 (11) :758-775.   \n[17]陈仕吉.基于重叠结构的知识演化分析方法研究[D]. 北京.中国科学院研究生院国家科学图书馆,2010.   \n[18] Ronda-Pupo GA，Guerras-Martin LA. Dynamics of the scientific community network within the strategic management field through the Strategic Management Journal 1980-2009:the role of cooperation [I] .SCIENTOMETRICS,2010,85 (3 :821-848.   \n[19] Bettencourt LMA,Kaur J Kaiser DI. Scientific discovery and topological transitions in collaboration networks [] .JOURNAL OF INFORMETRICS,2009,3 (3 210- 221.   \n[20] [25]陈超美.陈悦等译.CiteSpace II科学文献中新趋 势与新动态的识别与可视化[].情报学报,2009,28 (3 401-421.   \n[21] Kiss IZ,Broom M,et al.Craze PG.Can epidemic models describe the diffusion of topics across disciplines []. JOURNAL OF INFORMETRICS,2010,4 () :74-82.   \n[23] Henry Small. A co-citation model of a scientific specialty :A Longitudinal Study of collagen research []. Social studies of Science，1977,() :139-166.   \n[24] HENRY SMALL. Citation structure of an emerging research area on the verge of application [] .scientometrics,2009,79 (② :365-375.   \n[26] Eugene Garfield. From the science of science to Scientometrics visualizing the history of science with HistCite software []. Journal of Informetrics，2009,(③) :173- 179."
+  }
+}

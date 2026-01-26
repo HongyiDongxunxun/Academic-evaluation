@@ -1,0 +1,114 @@
+{
+  "original_filename": "full_8623.md",
+  "移动社交网络信息传播研究述评与展望": {
+    "context1": "张鹏,赵动员,梅蕾(内蒙古科技大学 经济与管理学院，内蒙古 包头014010)",
+    "context2": "摘要：【目的/意义】随着信息时代的到来,移动社交网络成为人们进行信息传播和交流的主要平台,因此对信息传播机制的研究具有十分重要的意义。方法/过程本文从复杂网络和用户属性的角度,对强弱关系连接的信息传播模式以及影响信息传播的影响因素(时间、网络结构属性、用户异质性、用户影响力等)进行了梳理,同时对信息传播模型进行了功能及演化分析，总结现有研究的理论贡献以及不足之处【结果/结论】在此基础上,对移动社交网络信息传播机制未来的研究提出了四个主要方向：研究强弱关系共存网络结构的信息传播机制;关注互动内容对信息传播的影响;借鉴现代社会物理学理论完善移动社交网络信息传播理论，以及运用大数据分析技术提高理论坚韧度。",
+    "context3": "关键词：移动社交网络;网络结构;信息传播机制 中图分类号：G206.3 DOI: 10.13833/j.issn.1007-7634.2020.02.025"
+  },
+  "Review and Prospect of Information Dissemination Research on Mobile Social Network": {
+    "context1": "ZHANG Peng ,ZHAO Dong-yuan,MEI Lei (School of Economic Management, Inner Mongolia University of Science and Technology,Baotou O14010, China)",
+    "context2": "Abstract:【Purpose/significance】Withtheadventof the informationage,mobile social network has becomean important platformto spreadandcommunicate informationforindividuals.Therefore,itissignificant toexploreinformationdisemination mechanism.【Method/processBasedonsystematicreview ofrecent literatures,this paperanalyzes the model and influencing factors on information dissemination.Studies have shown that scholars have focused notonlyon strong &weak tiesstructure,heterogeneityofusers,users influence,butonfunctionand evolutionof informationdissemination modelas well[Result/onclusion】Finally,considering theinsufficiencies oftheexisting research,we propose majorresearching directions in the future: researching the dissemination mechanism in the strong $\\&$ weak ties coexisting structure; Focusing on theimpactof interactivecontenton information dissemination;introducing social physicstheory to improvetheresearch and applying big data analysis technology to improve theoretical tenacity.",
+    "context3": "Keywords: mobile social network; network structure; information dissemination mechanism"
+  },
+  "1引言": {
+    "context1": "近年来，由使用移动终端设备的用户构成的社会型网络-移动社交网络的快速发展深刻地改变了人们沟通交流、  \n分享信息的渠道与方式。越来越多的网络用户通过移动社  \n交网络如微信、微博来发布信息、分享见闻、展示兴趣爱好  \n等[]。移动社交网络具有便捷性、瞬时性等特征,使得诸如",
+    "context2": "舆论信息、产品信息等得以在网上迅速传播[2-3]。不仅如此，移动社交网络领域的信息传播问题,还能在一定程度上反映其他领域的情况，如计算机领域病毒扩散问题[4、传染病在人群中的传播问题[5-、股市价格波动问题等。种类繁多的信息之所以能够在移动社交网络中迅速的传播，一是因为用户对信息本身感兴趣;二是信息本身内容的价值;三是环境层面，信息的来源渠道,出现的次数、时间都会影响信息的传播[8]。而信息的繁多,属性的不可控性,必然会导致诸多",
+    "context3": "收稿日期:2019-05-07",
+    "context4": "不良信息、虚假信息的传播。因此，如何提高真实信息的传播效率，控制不良信息传播范围，对移动社交网络的健康发展具有重要意义[]。",
+    "context5": "国际上关于移动社交网络信息传播的探索，大多基于Twitter平台。在信息传播机理、模型构建、网络结构分析方面取得了一定的研究成果。国内对移动社交网络信息传播的探索较晚，研究对象多是集中于新浪微博，具体研究主题可归纳为三个方面:信息传播特征与行为研究[0-I)、信息传播预测研究[12-14]、信息传播网络结构研究[15-16]。专家学者们的研究侧重点各不相同，丰富和拓展了信息传播的研究领域。在此,通过Web of Science、EBSCO、知网、万方等数据库进行检索,检索主题包括\"移动社交网络、复杂网络、信息传播、用户属性\"等关键词,同时参考检索文章的参考文献,经过对比分析，最终筛选出61篇中英文文献。在仔细阅读这些文献的基础上,本文从复杂网络、用户属性两个角度总结移动社交网络信息传播模型研究问题(根据众多专家学者的研究,信息传播结构包括网络结构以及用户[17-9])。针对复杂网络提出了强弱关系连接的信息传播模式,以及演化时间、网络结构等影响因素，推导出信息传播模型SIR、SEIR、SIRS、SEIRC等模型的演化。针对用户属性提出了用户异质性，用户影响力等影响因素,推导出信息传播模型的演化,综述结构图如图1所示。基于此,对未来移动社交网络信息传播模型的发展进行预测与展望。",
+    "context6": "![](images/3e0fb30713f85daa1140b14d9331adb234af00606b2ebccb739fdf6bea8dea3a.jpg)  \n图1综述结构图"
+  },
+  "2 基于复杂网络的移动社交网络信息传播系统动力学模型及其演化": "",
+  "2.1基于复杂网络的移动社交网络信息传播模式分析": {
+    "context1": "复杂网络理论自出现以来,被有效运用于认识和解析复杂的大型社会系统,用来分析复杂系统和动力学问题。伴随着复杂网络理论的逐渐成熟，学者们开始深入探讨基于复杂网络的移动社交网络信息传播系统动力学模型网络拓扑结构以及特性[20],发现并总结了四种复杂网络结构模型：规则网络、随机网络[21]、小世界网络[22]、无标度网络[23]。相应的出现了各种网络结构算法，如PageRank算法、临近性网络算法[24]、转移网络算法[25]。由于复杂网络的特性,学者们将复杂网络广泛应用于病毒扩散、信息传播领域,使其成为传播动力学的一个新方向[26]。",
+    "context2": "基于复杂网络的移动社交网络信息传播系统动力学模型研究是当前的研究热点。以弱关系网络连接为主的微博以及以强关系网络连接为主的微信，更是当前研究移动社交网络信息传播的热门。弱关系网络连接的优点是用户之间信息传播可以是单向的,单向传播速度更快、效率更高，具有小世界、无标度特性,与六度分隔理论契合[27]。以此为基础,专家学者将信息传播分成三种模式：链式型、单关键点型、中心式型。链式型信息传播范围较小,单关键点型信息传播以速度占优,中心式型影响力大的用户较多，传播范围较广、影响力较大。强关系网络连接的优势在于用户之间彼此熟悉，相互信任，信息传播效率较高。主要的传播模式有以下几种：朋友圈式传播、微信公众号推送式一对多传播、点对点传播。传播方式的多样性、即时性，用户关系的密切性使得传播效果更为突出。"
+  },
+  "2.2基于复杂网络的信息传播影响因素分析": {
+    "context1": "网络结构、信息内容[28]、时间点[29]等因素都可能导致移动社交网络信息传播网络结构的变化,从而对信息传播造成重大影响。在此本文从演化时间,以及网络结构属性两个层面研究基于复杂网络的信息传播影响因素。"
+  },
+  "2.2.1 演化时间影响因素": {
+    "context1": "信息传播网络结构的变化不是静态的，而是动态的。诸如用户的在线活跃时间、突发事件的不期而遇都会对信息传播网络结构造成一些不确定的影响。据统计分析，用户周活跃期一般在周五、周六以及周日，日活跃期在午饭、晚饭以及睡觉前夕。根据此统计分析可以发现，用户活跃高峰期集中在休息阶段,而在高峰期,信息传播网络结构演化速度相对较快。而作为影响信息传播网络结构变化的突发事件，从出现到结束一般经历三个阶段：起始期、高峰期、衰退期。根据以往数据分析可知，突发事件发生后不久，用户对信息的关注度就会短时间内暴增,信息传播网络结构演化速度加快,信息传播效率提高。"
+  },
+  "2.2.2网络结构属性影响因素": {
+    "context1": "从复杂网络整体上来看，无标度、小世界特性在移动社交网络信息传播网络结构演化中存在择优连接的特性,即网络节点用户好友、粉丝数量与新节点用户连接概率呈现正比关系[30-31]。连接概率 $\\mathrm { { P } ( \\mathrm { { k } _ { i } ) } }$ 如下：",
+    "context2": "$$\n{ \\mathrm { P } } ( { \\mathrm { k } } _ { \\mathrm { i } } ) = { \\frac { k _ { i } } { \\sum _ { j = 1 } ^ { n } k _ { i } } }\n$$",
+    "context3": "$\\mathrm { k _ { i } }$ 表示用户节点i的度值，除了择优连接之外，网络结构中还存在随机连接,将择优连接与随机连接相融合，新节点用户与节点用户连接概率 $\\mathrm { { P } ( \\mathrm { { k } _ { i } ) } }$ 如下：",
+    "context4": "$$\n\\operatorname { P } ( { \\mathrm { k } } _ { \\mathrm { i } } ) = { \\frac { ( 1 - b ) ( k _ { j } + a _ { i } ) + b } { \\sum _ { j = 1 } ^ { n } [ ( 1 - b ) ( k _ { j } + a _ { i } ) + b ] } } \\quad b \\in [ 0 , 1 ]\n$$",
+    "context5": "公式(2)中 $\\mathrm { a } _ { \\mathrm { i } }$ 表示为吸引力影响因子，b表示可控参数，取值大小取决于择优连接以及随机连接的比重，根据公式(2)可知,新节点用户与节点用户连接概率 $\\mathrm { { P } ( \\mathbf { k } _ { i } ) }$ 的大小受到吸引力影响因子 $\\mathrm { a } _ { \\mathrm { i } \\setminus }$ 可控参数b、用户节点i的度值等因素的影响。",
+    "context6": "从复杂网络局部来看，受到共同相邻节点用户、节点共同属性以及镀金效应的影响。",
+    "context7": "(1)共同相邻节点用户的影响。据实际调查分析可知,陌生节点用户之间能否建立有效的联系,很大成分上取决于他们之间共同相邻节点用户，共同相邻节点用户越多,越容易建立联系;共同相邻节点用户越少，则越不易建立联系[32]。在移动社交网络中,节点用户与共同相邻节点用户之间相当于一个子网络，子网络数量与信息传播效率成正比关系。",
+    "context8": "(2)节点共同属性的影响。在移动社交网络中，拥有相同属性(如共同的行为习惯、爱好、理想等)的陌生节点用户容易形成一种网络关系。而这种网络关系能够促进陌生节点用户之间的连接，使信息能够有效传播。",
+    "context9": "(3)镀金效应的影响。镀金效应指利用移动社交网络结构中关键节点用户的力量，以此增加自身影响力，进而增加与陌生用户节点链接的概率。节点用户越活跃、信息价值越高，镀金效应发生的概率越大，即镀金效应与节点用户活跃度、信息价值呈现正比关系。同时，信息传播效率也与镀金效应成正比关系。"
+  },
+  "2.3基于复杂网络的移动社交网络信息传播系统动力学模型及其演化": "",
+  "2.3.1 SIR模型": {
+    "context1": "基于系统动力学构建的SIR模型是病毒传染模型中较为典型的一个模型。早期,此模型主要用于研究传染病的传播机理，后期，此模型则用来研究信息传播[33],为复杂网络信息传播提供了研究基础。SIR模型中，S节点代表易传播者用户，I节点代表传播者用户，R节点表示免疫者节点用户，S(t)代表t时刻的易传播者数目，I(t)代表t时刻的传播者数目，R(t)代表t时刻的免疫者数目，a代表在单位时间内易传播者转化为传播者的概率，b代表单位时间内传播者个体成为免疫者的概率。其具体的理论模型如图2所示。",
+    "context2": "![](images/fa47fed2f493d178ccca5aba0d059bf4b4f5aad8b89c5f77ecb21dbe7554583c.jpg)  \n图2 SIR模型",
+    "context3": "此模型在研究信息传播时具有明显的局限性，只考虑到了时间因素，忽略了诸多的其他因素，诸如移动社交网络用户的互动影响、影响力等。因此，出现了改进模型SEIR、SIRS、SEIRC模型。"
+  },
+  "2.3.2 SIR模型的演化": {
+    "context1": "SEIR、SIRS、SEIRC等模型是在SIR模型基础上进行改进的模型，它们依据SIR模型，从不同的角度来探究移动社交网络传播机理,探索如何提高信息的传播效率。为了探究信息反馈对节点用户的影响,建立了SIRS模型[34]；为了探索易传播者进入潜伏期是否会影响信息传播效率,研究者建立了SEIR模型[35];在充分考虑用户之间的互动、影响力、用户评论等因素对信息传播的影响,建立了SIREIE[3、SEIRC模型[20]。每种模型都有自己的优点以及不足之处,SIR、SEIR、SIRS等模型研究的都是弱关系连接，没有考虑到用户之间的互动、影响力等用户强关系连接因素对信息传播的影响。相较于SIR、SEIR、SIRS等模型,无疑SIREIE、SEIRC模型更加贴近现实中的移动社交网络传播过程。SIREIE、SEIRC模型充分考虑到了不同用户节点之间的强弱关系连接，充分考虑到了信息在不同节点用户之间的动态传播过程。SEIRC具体理论模型见图3。",
+    "context2": "![](images/54c1e2a716284ced6f128cd217e074a11e31a1c665b87196cb638f6883cb023c.jpg)  \n图3 SEIRC模型",
+    "context3": "根据SEIRC理论模型构建动力学微分方程：",
+    "context4": "$$\n\\frac { d S ( g ) } { d ( t ) } = - \\mathrm { \\ m _ { 1 } S ( t ) I ( t ) - m _ { 2 } S ( t ) I ( t ) - m _ { 3 } S ( t ) I ( t ) }\n$$",
+    "context5": "$$\n\\frac { d E ( g ) } { d ( t ) } = \\mathrm { m } _ { 1 } \\mathrm { S } ( t ) \\mathrm { I } ( \\mathrm { t } ) - ( \\mathrm { n } _ { 1 } + \\mathrm { n } _ { 2 } + \\mathrm { n } _ { 3 } ) \\mathrm { E } ( \\mathrm { t } )\n$$",
+    "context6": "$$\n\\frac { d I ( g ) } { d ( t ) } = \\mathrm { n _ { 2 } E ( t ) + l _ { 1 } C ( t ) + l _ { 2 } R ( t ) - l _ { 3 } I ( t ) }\n$$",
+    "context7": "$$\n\\frac { d R ( g ) } { d ( t ) } = \\mathrm { { m } _ { 2 } \\mathrm { { S } ( t ) I ( t ) + \\mathrm { { n } _ { 3 } \\mathrm { { E } ( t ) + l _ { 3 } I ( t ) - l _ { 2 } R ( t ) - p R ( t ) } } } }\n$$",
+    "context8": "$$\n\\frac { d C ( g ) } { d ( t ) } = \\mathrm { p R ( t ) + m _ { 3 } S ( t ) I ( t ) + n _ { 1 } E ( t ) - l _ { 1 } C ( t ) }\n$$",
+    "context9": "对SIR、SEIR、SIRS以及SEIRC等模型的特征进行归纳总结,如表1所示。",
+    "context10": "在移动社交网络信息传播过程中，信息传播主体主要是由信息发送者以及接收者两部分构成,作为接收者，是传播信息，免疫信息亦或评论信息，对信息的整个传播流程会产生重大影响。SIR演化模型在移动社交网络信息传播机理研究中获得了阶段性成果。"
+  },
+  "3基于用户属性的移动社交网络信息传播模型及其演化": "",
+  "3.1基于用户属性的信息传播影响因素分析": "",
+  "3.1.1用户异质性的影响": {
+    "context1": "用户之间所受教育程度、性格、性别、年龄、人际关系、地域、爱好、粉丝数等方面存在差异,即说明用户之间存在异质性。用户异质性在移动社交网络信息传播方面产生重大影响,比如：不良疾病信息的传播[46]、路由[47]、安全部署[48]等。同时，用户异质性会直接影响他们在移动社交网络中的行为，用户在判别是否传播信息时，会重点考虑其他用户与自身有无相同的兴趣爱好、职业、性别等等[49]。根据用户的差异,将用户能力属性分成两大类：第一类重要属性，如身份（明星，作家，CEO）、在移动社交网络信息传播过程中担任重要的角色(专家,销售，中间人）兴趣爱好(踢足球,音乐，名著)等。第二类一般属性,如用户的年龄、性别、身高、地理位置等，见表2。",
+    "context2": "表1基于复杂网络的模型特征",
+    "context3": "<table><tr><td>模型</td><td>特征</td><td>文献来源</td></tr><tr><td>SIR</td><td>基于年龄结构、系统饱和度以及情绪偏差等视角 此模型根据已有数据比较准确的拟合曲线;并利用相轨线分析得出使信息传播的措施;对节点用 户分类不够细致</td><td>Angstmann[37] Chen[38] 田世海[39]</td></tr><tr><td>SIRS</td><td>基于拓扑结构、节点用户传播比例以及节点用户演化博弈等视角 此模型考虑反馈机制对信息传播的影响;对无标度网络,考虑了节点度的不均匀性,理论值和模 拟值更好的拟合;对小世界网络,在阈值附近的理论值与模拟值之间存在一定的差距</td><td>Sun[40] Li[41 魏德志[42]</td></tr><tr><td>SEIR</td><td>基于用户总数、初始节点影响力以及主页效应等视角 该模型通过微观层面的个人接触实现;建立在均匀混合假设之上;没有考虑复杂网络对信息传播 的影响</td><td>董苏雅拉图[43] 张伟4 Zhao[45]</td></tr><tr><td>SEIRC</td><td>基于用户特征、强关系的移动社交网络等视角 此模型主要研究强关系网络结构(以微信为例);未考虑到用户价值的异质性</td><td>王宏波[36] 张鹏[20]</td></tr></table>",
+    "context4": "表2用户能力属性划分",
+    "context5": "<table><tr><td>用户能力属性</td><td>具体内容</td></tr><tr><td>重要属性</td><td>身份(明星，作家，CEO) 角色(专家,销售，中间人) 兴趣爱好(踢足球,音乐,名著)</td></tr><tr><td>一般属性</td><td>年龄、性别、身高、地理位置</td></tr></table>",
+    "context6": "因用户能力属性重要程度不一，引进系数ai来调整不同属性bi之间的重要程度,同时，定义两条规则。第一，如果 $\\mathbf { b } _ { \\mathrm { i } } .$ ai属于重要属性，而b属于一般属性,则 $\\mathbf { a } _ { \\mathrm { i } } > \\mathbf { a } _ { \\mathrm { j } }$ 。第二，用户重要程度一致的属性,其系数相同,同时,因系数之和为1, $\\scriptstyle \\sum$ $\\mathrm { a } _ { \\mathrm { i } } { = } 1$ 。",
+    "context7": "![](images/77e27c188343181c98f05eb0beade19eb86af5ae783398d33bc285d9bb327be5.jpg)  \n图4用户能力属性计算",
+    "context8": "各类网络结构天生可以通过带属性的图示，其中节点表示用户，边表示用户之间的联系，用户能力属性能够反映移动社交网络用户在网络结构中的反映程度,影响信息在网络结构中的传播，见图4。"
+  },
+  "3.1.2初始节点用户影响力": {
+    "context1": "在移动社交网络信息传播网络结构中，有一类人,处于网络节点的核心位置，具有导向作用且影响力巨大的权威用户,被称之为\"意见领袖\"50]。在\"意见领袖\"的影响下，会形成各种各样的情感倾向。如何挖掘意见领袖的影响机制，对信息传播的广度和深度有重大影响。",
+    "context2": "目前，国内外已有许多研究初始节点用户影响力如何对信息传播产生作用的成果。Tarokh通过分析用户的两大属性：行为特征属性、综合评价特征属性，来获取用户属性的特征值，继而计算初始节点用户的影响力与信息传播的关系[5]。杨长春指出,在移动社交网络中,具有重要地位的用户更有可能增加信息的传播效率。根据统计分析,初始节点用户影响力与信息传播之间存在一定的相关度，其相关度用Spearman相关系数表示。",
+    "context3": "$$\n\\mathrm { P } { = } 1 { - } \\frac { 6 { \\sum } d _ { i } ^ { 2 } } { N ^ { 3 } - N }\n$$",
+    "context4": "N表示数据总量，d表示第i对数据的等级差。等级差与相关系数呈现反比关系，等级差越小,说明用户影响力与信息传播的关系越密切。"
+  },
+  "3.2基于用户属性的移动社交网络信息传播模型及其演化": {
+    "context1": "用户属性是识别信息传播网络结构核心节点的关键因素，研究用户属性有助于探索移动社交网络信息传播机理，提升信息传播效率。考虑到用户行为会受到相邻节点的影响,研究者基于用户影响力构建信息传播模型：线性阈值模型(LT)[52]、独立级联模型(IC)[53]。LT、IC模型均定义值P(U,$\\mathrm { V } ) \\in [ 0 , 1 ] _ { \\circ }$ (U,V)表示模型的边,P(U,V)表示边的概率。但是,LT、IC模型存在明显的缺陷：模型成立的条件是,随机两个用户之间信息传播的时间具有一致性,同时，信息传播过程趋于离散化、同步化。然而，现实中的移动社交网络信息传播是不同步、连续化传播。在综合考虑LT、IC模型的不足之后。学者们构建了递减级联、DRUC等更为优异的信息传播模型。递减级联模型指出，伴随着时间的变化,用户传播信息的概率会逐渐下降。DRUC模型结合了线性阈值模型(LT)的优点，摒弃了其不足，充分考虑了用户兴趣度等影响因素的反作用。移动社交网络给用户们提供了表达自我，展现自我兴趣爱好、见闻的平台，这个平台同时吸引了机器学习、数据挖掘领域的专家学者，基于用户兴趣爱好相似度等因素,学者们构建了PCA、SVM、ELM和人工神经网络等机器学习算法。研究表明：在移动社交网络中，两个彼此关注的用户拥有类似的兴趣爱好[54I以及粉丝群体[55],对信息传播速度的提升有着促进作用。针对用户兴趣研究的模型还有很多种，如:亲和力模型[5]矩阵分解模型[7]、主题概率模型[58]以及信息骨架模型[59]等。此外,研究者还根据用户间的网络关系,构建了信息传播模型TPM、LR、场强模型[60-61];根据非相邻用户节点状况以及信息延迟，构建了中间关系算法来甄别关键用户节点;根据节点用户在移动社交网络结构中的关键地位，以及节点用户信息的普及程度,构建了移动社交网络影响最大化模型。研究者们从用户属性的不同角度,构建不同的信息传播模型，来阐释移动社交网络信息传播机理，基于用户属性的移动社交网络信息传播模型取得了突破性的进展，见表3。",
+    "context2": "表3基于用户属性的模型分类",
+    "context3": "<table><tr><td>用户属性</td><td>模型</td></tr><tr><td>用户影响力</td><td>LT、IC、影响最大化模型</td></tr><tr><td>用户兴趣相似度</td><td>DRUC、PCA、SVM、ELM、亲和力模型、矩阵分解模型、主题概率模型、信息骨架模型</td></tr><tr><td>用户网络关系</td><td>TPM、LR、场强模型</td></tr></table>"
+  },
+  "4总结与展望": {
+    "context1": "本文首先从复杂网络的角度，提出了强弱关系连接的信息传播模式，以及演化时间、网络结构属性等影响因素，推导出信息传播模型 SIR、SEIR、SIRS、SEIRC 等模型的演化。接着从用户属性的角度,分析了用户异质性、用户影响力对信息传播的影响，并梳理了诸如LT、IC、递减级联、DRUC、PCA、SVM、ELM等模型在信息传播领域的贡献。综合前文的综述提出移动社交网络信息传播模型研究未来的演化方向。",
+    "context2": "第一,进一步探索强弱关系连接共存情况下的移动社交网络传播机制。现有文献主要是基于单一的网络关系结构来研究移动社交网络信息传播机制,如：基于强关系连接的微信、基于弱关系连接的微博。然而,本文通过研究发现,现实中的移动社交网络实际上是同时包含强弱连接两种关系结构的,只是在表现强度上有所不同。如：微信主要是以强关系连接为主，弱关系连接为辅;而微博主要是以弱关系连接为主,强关系连接为辅。两种属性截然不同的关系结构以不同的表现强度并存于同一网络中,势必会共同或交叉作用于该网络的信息传播机制。因此,进一步探索强弱关系共存情况下的移动社交网络传播机制,将有助于研究结论更加贴近现实网络的实际情况，从而能够更加准确地解释和把握移动社交网络的信息传播规律，提高理论的实践价值。",
+    "context3": "第二,将\"互动内容\"纳入到信息传播机制的研究中。现有文献主要是基于网络关系结构和传播节点的属性来开展研究,却忽略了信息传播的关键主体一—互动内容。随着社交内容平台的快速崛起(如抖音等),不同的互动内容对用户的传播行为产生了重要的影响。因此,将互动内容分类，并构建指标体系来评估互动内容属性的区别以及其在传播过程所产生的影响作用，不仅可以深化传播机制的研究，而且可为制定信息传播策略和信息传播管理政策提供更可靠的依据。",
+    "context4": "第三,借鉴社会物理学相关理论,从微观动态层面对移动社交网络信息传播机制进行量化分析。当前有关移动社交网络信息传播领域的探索大多基于传染病模型，如 SIR、",
+    "context5": "SEIR、SIRS等。尽管病毒传播与信息传播具有相似之处，但信息传播本质的主导因素是人的行为，具有不同偏好和行为习惯的用户依据自身所感知的实时环境信息确定其行为，增加了信息传播的动态复杂性。然而，传染病模型往往仅仅关注系统宏观层面的整体特性，在研究个体属性、个体相关性和局部动态变化等影响因素方面具有局限性。鉴于网络信息传播所特有的微观动态复杂性，可以借鉴近年来兴起的现代社会物理学理论,将网站节点和用户节点看作是具有不同物理属性的两类\"粒子”,考察具有不同属性的微观实体是如何动态交互、如何相互作用的，从而进一步完善移动社交网络信息传播理论。",
+    "context6": "第四,运用大数据分析技术，为理论研究提供准确度更高的实践依据。大数据分析技术的飞速发展，为移动社交网络信息传播提供了新的研究工具，是对该领域以仿真实验为主要研究方法的有益补充。利用大数据技术，可以细致总结移动社交网络信息传播影响因子、传播路径等,还可以有效分析网络结构的属性特征,以此为基础将有效识别用户性质，分析动态的用户网络结构等，将极大地提高移动社交网络信息传播理论与现实情境的契合性，从而确实保证研究结论的理论坚韧度。"
+  },
+  "参考文献": {
+    "context1": "1 Yu X,Miao S,Liu H,et al. Association rule mining of personal hobbies in social networks[J].International Journal of Web Services Research,2017,14(1): 13-28.   \n2 Lin L M,Xu L,Huang Y Z,et al. On exploiting priority relation graph for reliable multi-path communication in mobile social networks[J].Information Sciences,2019,(477):490-507.   \n3 Ryu J,Park J,Lee J,et al. Community-based diffusion scheme using markov chain and spectral clustering for mobile social networks[J].Wireless Networks, 2019,25(2):875-887.   \n4 Yang L X,Yang X,Liu J,et al. Epidemics of computer viruses:a complex-network approach[J].Applied Mathematics and Computation,2013,219(16):8705-8717.   \n5LuYL, Jiang G P, SongY R.Epidemic spreading on a scale-free network with awareness[J].Chinese Physics B,2012,21(10):44-48.   \n6Yuan XP,Xue YK,Liu MX.Dynamic analysis of a sexually transmitted disease model on complex networks[J].Chinese Physics B,2013,22(3):85-91. CII iI,D1,iIu 1, aI.w isuUI Ui iUwus.tI va1- ue of stock opinions transmitted through social media [J].Review of Financial Studies,2013,27(5):1367-1403.   \n8 方婧，陆伟.微信公众号信息传播热度的影响因素 实证研究[J].情报杂志,2016,35(2):157-162.   \n9 崔金栋,郑鹊,孙硕.微博信息传播模型及其演化研 究综述[J].图书馆论坛,2018,(1):68-77.   \n10Stefan S,Linh D X.Emotions and information diffusion in social media-sentiment of microblogs and sharing behavior Jl.Journal of Management Information Systems,2O13,29 (4):217-248.   \n11TaxidouI,Fischer P M,Nies TD,etal. Information diffusion and provenance of interactions in twitter: is it only about retweets?[C]//US:International Conference Companion on World Wide Web.International World Wide Web Conferences Steering Committee,2016:113-114.   \n12 Bollen J,Mao H, Zeng X. Twitter mood predicts the stock market[J]l:Journal of Computational Science,2011,2(1): 1-8.   \n13 Liu T, Ding X, Chen Y,et al. Predicting movie box-office revenues by exploiting large-scale social media content[J]. Multimedia Tools & Applications,2016,75(3):1509-1528.   \n14Pagolu V S,Reddy K N, Panda G,et al. Sentiment analysis of twitter data for predicting stock market movements[C]// US:International Conference on Signal Processing, Communication,PowerandEmbeddedSystem.IEEE,2017: 1345-1350.   \n15 Zhang Y, Wu Y, Yang Q. Community discovery in twitter based on user interests[J].Journal of Computational Information Systems,2012,8(3): 991-1000.   \n16 Tang L, Liu H, Zhang J. Identifying evolving groups in dynamic multimode networks[J].Microcomputer & Its Applications,2011,24(1):72-85.   \n17 李凯,安实,孟建芳.基于社团结构的多层复杂网 络中信息传播机制研究[.情报理论与实践,2018,(3): 1-8.   \n18 杨李,宋玉蓉,李因伟.考虑边聚类与扩散特性的信息 传播网络结构优化算法.物理学报,2018,67(19): 92-102.   \n19 王林,潘陈益,朱文静,邓胜利.机构微博传播力影响 因素研究[].现代情报,2018,38(4):35-41.   \n20 张鹏,赵动员,谢毛迪,梅蕾.基于强关系的移动社 交网络信息传播机理建模与仿真研究.情报科学, 2019, 37(3):105-111.   \n21 Erdos P,Renyi A. On the evolution of random graphs[]. Transactions of the American Mathematical Society,2011, 286(1):257-274.   \n22 Lizier J T,Pritam S, Prokopenko M. Information dynamics in small-world boolean networks[J].Artificial Life,2011,17 (4):293-314.   \n23 Agiza H N, Elgazzar A S, Youssef S A. Phase transitions in some epidemic models defined on small-world networks[]. International Journal of Modern Physics C,20O3,14(6): 825-833.   \n24 Gao Z K, Yang Y X,Fang P C,et al. Multiscale complex network for analyzing experimental multivariate time series J].Europhysics letters,2015,109(3):1-5.   \n25Huang X,An H, Gao X,et al. Multiresolution transmission of the correlation modes between bivariate time series based on complex network theory[J].Physica A Statistical Mechanics & Its Applications,2015,428(2):493-506.   \n26Pastorsatorras R,Castellano C,Mieghem P V,et al. Epidemic processes in complex networks[J].Review of Modern Physics,2015,87(3):120-131.   \n27 易成岐,鲍媛媛，薛一波,等.新浪微博的大规模信息传播 规律研究[].计算机科学与探索,2013,7(6):551-561.   \n28 Yang J, Counts S. Predicting the speed, scale,and range of information diffusion in twitter[J].Icwsm,2010,(10):355-358.   \n29Litou I,Boutsis I,Kalogeraki V.Efficient techniques for time-constrained information dissemination using location-based social networks[J].Information Systems,2O17,64 (2):321-349.   \n30Kim B J,Trusina A,Minnhagen P,et al. Self organized scale-free networks from merging and regeneration[J].The European Physical Journal B-Condensed Matter and Complex Systems,2005,43(3):369-372.   \n31 崔金栋,郑鹊,孙硕.微博信息传播模型及其演化 研究综述[J].图书馆论坛,2018,38(1):68-77.   \n32Kossinets G, Watts DJ. Empirical analysis of an evolving social network[J].Science,2006,311(5757):88-90.   \n33 Kuperman M, Abramson G. Small world effect in an epidemiological model[J].Physical Review Letters,20O1, 86(13): 2909.   \n34 李鑫,张军.基于系统动力学的SIRS信息传播模型 研究[D].情报科学,2017,(11):17-22.   \n35 崔金栋,郑鹊,孙硕.基于改良 SEIR模型的微博话 题式信息传播研究[].情报科学,2017,35(12):22-27.   \n36 王宏波.微信朋友圈信息传播:演化模型构建与仿真]. 现代情报,2017,37(9):81-85.   \n37Angstmann C N, Henry B I. A fractional-order infectivity SIR model[J].Physica A,2016, (452):86-93.   \n38 Chen Y M, Zou S F, Yang JY. Global analysis of an SIR epidemic model with infection ageand saturated incidence J].Nonlinear Analysis:Real World Applications,2016,(30): 16-31.   \n20 田世海 孙美琪 张家毓其干改讲CID 模刑的网纹蜘情",
+    "context2": "情绪演变研究[].情报科学,2019,37(2):52-57,64.",
+    "context3": "40Sun M,Liu Q,Li B.Global dynamics of an SIRS epidemic model with distributed delay on heterogeneous network[J]. Mathematical Problems in Engineering,2017,2017,(3):1-9.",
+    "context4": "41Li CH, Tsai C C,Yang S Y.Analysis of epidemic spreading of an SIRS model in complex heterogeneous networks [].Communications in Nonlinear Science and Numerical Simulation,2014,19(4):1042-1054.",
+    "context5": "42 魏德志,陈福集,林丽娜.基于博弈论和SIRS的热点事件传播仿真研究[].系统仿真学报,2018,30(6):59-66.",
+    "context6": "43Dong SYL T,DengY B,HuangY C.SEIR model of rumor spreading in online social network with varying total population size[J].Communications in Theoretical Physics, 2017,68(10):545-552.",
+    "context7": "44 张伟.基于近邻响应的SEIR网络舆情信息扩散模型研究[].信息资源管理学报,2018,8(4):67-77.",
+    "context8": "45Zhao DL, Sun JB,Tan YJ,et al.An extended SEIR model considering homepage effect for the information propagation of online social networks[J].Physica A: Statistical Mechanics And Its Applications,2018,(512):1019-1031.",
+    "context9": "46 Zhu Z Q,Liu C J,Wu JL,et al. The influence of human heterogeneity to information spreadingUl:Journal of Statistical Physics,2014,154(6):1569-1577.",
+    "context10": "47Liang N C,Chen P C, Sun T,et al. Impact of node heterogeneity in zigbee mesh network routing[]. IEEE,2006,(1): 187-191.",
+    "context11": "48 Yang Z,Lui J C S. Investigating the effect of node heterogeneity and network externality on security adoption[J]. Acm Sigmetrics Performance Evaluation Review,2O11,39 (3):52-54.",
+    "context12": "49 赵佳.复杂网络中异质性信息传播模型研究[D].武汉：华中科技大学,2016.",
+    "context13": "50 张继东,杨杨.基于交互行为和情感倾向的移动社交网络用户影响力度量模型研究[.情报理论与实践,2019,",
+    "context14": "42(1):112-117.",
+    "context15": "51 Tarokh MJ,Arian H S,Speily ORB.Discovering influential users in social media to enhance effective advertisement J].Advances in Computer Science:An International Journal,2015,4(5): 23-28.   \n52 Granovetter M. Threshold models of collective behavior[J]. American Journal of Sociology,1978, 83(6):1420-1443.   \n53Goldenberg J，Libai B,Muller E. Talk of the network: acomplex systems look at the underlying processof word-of-mouth[J].Marketing Letters,2001,12(3):211-223.   \n54 Weng J, Lim E P,Jiang J, et al. Twitter rank:finding topic-sensitive influential twitterers[J].ACM press,2010,(34):   \n261-270.   \n55 Kwak H, Lee C,Park H,et al. What is twitter,a social network or news media?[C]//New York:International Conference on World Wide Web,2010:591-600.   \n56Agarwal D, Chen B C,He Q,et al. Personalizing linkedin feed[J].ACM press,2015,(34):1651-1660.   \n57 Hong L J,Doumith,et al. Co-factorization machines: modeling user interests and predicting individual decisions in twitter[J].ACM press,2013,(4):557-566.   \n58 Sang J, Lu D, Xu C. A probabilistic framework for temporal user modeling on microblogs[C]//ACM International on Conference on Information and Knowledge Management,Melbourne: ACM,2015:961-970.   \n59 Olson R S, Neal Z P. Navigating the massive world of reddit: using backbone networks to map user interests in social media[J].Computer science,2013,1(1):317-320.   \n60 韩新明.基于行为分析的微信朋友圈信息传播模型.现 代情报,2018,38(07):62-66.   \n61 Li Z, Rui X Y, Xiao H G, et al. Bursty propagation model for incidental events in blog networks[J].Journal of Software,2009,20(5):1384-1392.",
+    "context16": "(责任编辑：张连峰)"
+  },
+  "（上接第150页）": {
+    "context1": "automated ranking system[J].Data & Knowledge Engineer-ing,2018,(115):32-47.  \n47Wang C，Gao M，He X ,et al.Challenges in Chineseknowledge graph construction[C]//2015 31st IEEE Interna-tional Conference on Data Engineering Workshops.IEEE,2015:59-61.  \n48 黎韶光,杨帆,武建飞,等.从网络理论认识自然资源的知识工程[].国土资源信息化,2018,(4):38-42.  \n49 李光俊.基于知识工程的导管智能工艺设计系统开发[C]//中国机械工程学会.创新塑性加工技术,推动智能制造发展—第十五届全国塑性工程学会年会暨第七届全球华人塑性加工技术交流会学术会议论文集,2017:  \n838-842.  \n50 张育斌,魏正英,张帅,等.基于知识工程的智能灌溉决策支持技术研究[].中国农业科技导报,2017,19(8):47-54.  \n51夏凯.舰船总体设计单位知识工程应用技术研究[C]//中国造船工程学会.2018年数字化造船学术交流会议论文集,2018:311-314.  \n52 蒋秉川,万刚,许剑,等.多源异构数据的大规模地理知识图谱构建[].测绘学报,2018,47(8):1051-106.",
+    "context2": "（责任编辑：毛秀梅）"
+  }
+}

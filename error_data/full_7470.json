@@ -1,0 +1,115 @@
+{
+  "original_filename": "full_7470.md",
+  "机器学习在档案管理中的应用：进展与挑战": {
+    "context1": "杨建梁刘越男",
+    "context2": "（中国人民大学信息资源管理学院，数据工程与知识工程教育部重点实验室，中国人民大学电子文件管理研究中心，北京100872)",
+    "context3": "摘要：自2013年起，陆续有学者和档案馆开展了机器学习在档案管理中的应用研究，涉及手写档案识别、档案分类、档案鉴定、利用控制和利用服务等诸多业务。本文基于机器学习的技术逻辑和应用逻辑，结合档案及其管理工作的特点，分析得出机器学习在档案管理领域的应用逻辑框架，结合现有的应用案例，总结了机器学习在档案管理领域的应用进展，并分析了深化应用面临的挑战。研究发现，现阶段机器学习在档案管理领域的应用以实验性研究为主，在部分重要、棘手的档案管理业务展开初步探索，主要以文本数据和图片数据为训练数据集，以有监督的分类任务作为主要的任务形式。机器学习在档案管理领域中深化应用可能面临来自档案管理、档案数据、机器信任、法律环境和专业能力的挑战。",
+    "context4": "关键词：档案管理；档案信息资源；机器学习；人工智能中图分类号：G270.7 收稿日期：2019-03-28",
+    "context5": "作者简介：杨建梁，博士研究生，研究方向为信息资源管理、文本挖掘；刘越男，博士，教授，研究方向为电子文件管理、数字档案馆、政府信息资源管理，本文通讯作者，E-mail：liuyuenan@ruc edu cn。",
+    "context6": "基金项目：国家社科基金重点项目“我国数字档案馆建设战略研究——基于生态系统的视角”（16AZD054)。",
+    "context7": "DOI:10.16113/j.cnki.daxtx.2019.06.008"
+  },
+  "1研究背景": {
+    "context1": "能够让机器“学习”一直是许多计算机科学家的梦想，当机器能够实施学习行为时，意味着它能够自己获取信息并形成知识，也就具有了一定程度的智能。1]自计算机科学家ARTHURSAMUEL[2在1954年首次将“机器”和“学习”组合以来，经过若干年的发展，机器学习的应用场景获得了极大的丰富。如今，在计算机视觉、自然语言处理、信息检索甚至在医学、化学工程、材料学等领域都能够看到机器学习的身影。机器学习已经作为一个令人熟知的名词出现在各类媒体、政府报告、行业研究及学术论文中。",
+    "context2": "近年来国际档案界也开始研究机器学习在档案管理中的应用，相关研究主要涉及基于机器学习的手写档案识别、档案分类、档案鉴定、利用控制和利用服务等。RICHARZ[3]通过半监督机器学习技术尝试对历史档案文献进行字符识别。LIU等[4]研究讨论了如何基于朴素贝叶斯模型对档案进行主题分类。PAYNE[5介绍了针对档案材料的基于机器学习的各类自动分类方法，并探讨了各类方法的弱点及档案材料分类的难点。HUTCHINSON[探讨了如何借助有监督学习解决原生电子文件归档后的隐私保护问题。ESTEVA等基于支持向量机对档案进行了密级鉴定的研究。 $\\mathrm { L E E ^ { [ 8 ] } }$ 介绍了未来有可能用于计算机辅助档案鉴定与选取的技术及已有的成果，这些技术包括数字取证、自然语言处理和机器学习。ANDER-SON等[9通过机器学习技术挖掘了有关控制论发展的历史档案材料，以帮助学者更好地理解控制论思想的发展历程，并使得科学家和工程师们可以重用和获",
+    "context3": "取相关数据。",
+    "context4": "上述研究大都是任务导向的，即着眼于一个具体的档案管理任务，通过实证方法探讨如何通过应用机器学习技术来完成该项任务。缺乏从总体上阐述机器学习之于档案管理工作的适用性及其可能影响，也未有对现有研究的归纳和总结。本文在梳理机器学习的技术逻辑和应用逻辑之后，结合档案及其管理工作的特点，分析得出机器学习技术在档案管理中的应用框架；在此基础上，笔者通过案例分析归纳机器学习在档案管理中的应用进展，总结机器学习在档案管理中应用的技术路径，并探讨深化机器学习应用所面临的挑战。"
+  },
+  "2机器学习的技术逻辑及其在档案管理领域的应用逻辑": {
+    "context1": "模型的能力已经有了许多通用的指标，如F1、ROC、AUC、 $\\mathrm { R ^ { 2 } }$ 等。此外，机器学习经训练后发现的规则应该是客观存在且有意义的，比如人们不可能通过机器学习去预测下一期彩票的号码，因为合法的彩票项目的每一期号码是独立的随机事件，具有不可预测性。",
+    "context2": "![](images/c6c38434492f1a6a84ada65bd1da97bd24bf81023c0a86456bf07f8f23af743f.jpg)  \n图1机器学习的技术逻辑"
+  },
+  "2.1机器学习的技术逻辑": {
+    "context1": "机器学习是一门研究从“数据”中产生“模型”的算法（即学习算法）的学科[10]机器与人类学习的过程有相似的部分。人类学习需要素材并辅以练习，机器学习同样需要学习材料和训练，学习材料被称作训练集，学习的过程被称为训练。机器通过学习已有数据特征，构建隐藏在特征和标签之间的函数，并作为判断新数据的标准。这个函数就像是人类大脑中“知识”或者“经验”，可以成为对新样本的判断工具。",
+    "context2": "机器学习可分为有监督学习、无监督学习、半监督学习和强化学习[无论具体采用哪种学习方式，机器学习的核心能力是发现隐藏在数据中的潜在规则，并根据所发现的规则对新的样本进行判断。这有点像人类学习知识并运用知识做出决策的过程，其技术逻辑如图1所示。机器学习的关键要素包括数据集的规模、质量和特征，以及机器学习模型自身的学习能力。理论上说，数据集中数据量越大，机器学习的材料越丰富，所训练出的模型也就越逼近真实情况。数据集的质量越好，噪音越小，所训练出的模型准确率越高。这也是为何随着人类对数据的收集和处理能力大大提高，机器学习被广泛应用的原因。特征选取的过程也被称为特征工程，特征是人们通过现有知识对所学习规则的初步判断的结果，决定了让机器从哪些信息中学习规则。随着深度学习技术逐渐成熟，特征对于机器学习效果的作用有所减弱，而数据集的规模和质量愈发重要。深度学习是一种更接近人工智能的机器学习技术，这种技术可以不需要人为选取特征，通过更为丰富的数据让机器自己判断哪些特征与目标结果有关并进行训练。学习模型自身的学习能力取决于人们如何设计学习模型和相关算法，目前评价"
+  },
+  "2.2机器学习在档案管理领域的应用逻辑": {
+    "context1": "机器学习技术可以发掘隐藏在数据中的潜在规则，这些规则中有些是人类已经发现的，通过机器学习，可以借机器之手帮助人类提高工作效率；也有一些规则是尚未发现的，通过机器学习发现这些规则，可以让人类更加全面地认识世界。目前学界与业界已经尝试过很多机器学习的应用，如人脸识别、智能翻译、智能问答、自动驾驶和智能诊断等。",
+    "context2": "机器学习需要从实际需求出发，需要有丰富的数据支持，需要根据数据特征构建合适的模型（即上文中所指函数关系)，并且经过训练后可以通过不断完善模型取得预期的学习效果。结合档案管理的特点，笔者提出了机器学习在档案管理领域的应用逻辑框架，如图2所示。笔者认为机器学习与档案管理的结合应当是需求导向的。这些需求可能分布在档案管理全过程中，任何需要投入大量人工劳动开展的档案管理业务，都存在利用机器学习来实现自动处理，从而提升效率的可能，如归档文件质量自动检测、自动识别数字化版本、自动分类、自动鉴定、提升权限控制水平、提高利用效果等。对于数字世界中出现的一些新问题，即规则尚未为人们完全掌握的领域，比如数字档案的长期保存，机器学习也有应用的空间。档案管理的需求最终能否真正通过机器学习技术的应用来解决，主要看机器学习技术的能力、训练数据集和需求之间的匹配程度，体现在具体的后端应用的开发上，这些应用点需要界定得特别清晰，比如提升利用控制水平需求的引导下，可能存在密级划分、隐私识别、商业秘密信息识别、敏感信息识别等具体的应用。就数据源而言，文本和非文本的档案数据及其元数据都可能作为机器学习的训练集。",
+    "context3": "![](images/7ab62fc769df689070cc5ece0fd62be86511fb04aa4beb5905b169e137c554cd.jpg)  \n图2机器学习在档案管理领域的应用逻辑框架"
+  },
+  "3机器学习在档案管理领域的应用进展": {
+    "context1": "笔者通过 Web of Science、ProQuest、EBSCO、IEEE 会议论文集、arXiv预印本论文数据库、中国知网期刊全文数据库等学术数据库检索，发现了如表1所示的在档案管理中应用机器学习的7个具有代表性的研究项目与研究性实践，并按案例的管理需求（机器学习所要解决的档案管理问题)、数据源（机器学习的训练集与测试集所用数据)、数据格式（按文字、图片、音频、视频划分的数据类型）、基本任务（所解决问题在机器学习中的任务形态，如回归、分类、决策等)、学习模型（机器学习所应用的学习模型，如支持向量机、贝叶斯分类器、神经网络等）等进行了整理。此外，笔者也了解到科大讯飞[12]、华为[13]等商业公司也开展了一些机器学习技术在档案管理中的应用研究，但是因为没有掌握具体的资料，故未纳入案例分析的范围。",
+    "context2": "研究发现，这些项目起于2013年，主要由高校、档案馆和商业机构的研究部门主导来开展，这些初步的应用具备如下一些特点：",
+    "context3": "表1机器学习在档案管理中的代表性应用项目",
+    "context4": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>罗马教廷秘密档案的自动转录项目[14]</td><td rowspan=1 colspan=1>ARCHANGEL：可信的公共文件档案框架[15]</td></tr><tr><td rowspan=1 colspan=1>承担机构</td><td rowspan=1 colspan=1>罗马教廷秘密档案馆与罗马第三大学</td><td rowspan=1 colspan=1>英国萨利大学、英国国家档案馆与英国开放数据研究所</td></tr><tr><td rowspan=1 colspan=1>问题需求</td><td rowspan=1 colspan=1>手写档案识别</td><td rowspan=1 colspan=1>特征提取 (作为区块链中的内容特征码)</td></tr><tr><td rowspan=1 colspan=1>数据源</td><td rowspan=1 colspan=1>罗马教廷秘密档案</td><td rowspan=1 colspan=1>公共档案</td></tr><tr><td rowspan=1 colspan=1>数据类型</td><td rowspan=1 colspan=1>档案扫描件 (图片格式)</td><td rowspan=1 colspan=1>档案扫描件、档案图片资源 (图片格式)</td></tr><tr><td rowspan=1 colspan=1>基本任务</td><td rowspan=1 colspan=1>分类：通过拼图分割识别手写文字</td><td rowspan=1 colspan=1>降维：通过深度神经网络形成特征码</td></tr><tr><td rowspan=1 colspan=1>学习模型</td><td rowspan=1 colspan=1>深度卷积神经网络等</td><td rowspan=1 colspan=1>深度神经网络</td></tr><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>2018</td><td rowspan=1 colspan=1>2018</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>美国自然历史博物馆标本记录分类项目[16]</td><td rowspan=1 colspan=1>历史气候报告档案文本识别[3]</td></tr><tr><td rowspan=1 colspan=1>承担机构</td><td rowspan=1 colspan=1>史密森学会、英伟达公司</td><td rowspan=1 colspan=1>德国多特蒙德工业大学</td></tr><tr><td rowspan=1 colspan=1>问题需求</td><td rowspan=1 colspan=1>档案照片分类</td><td rowspan=1 colspan=1>手写档案识别</td></tr><tr><td rowspan=1 colspan=1>数据源</td><td rowspan=1 colspan=1>美国自然历史博物馆标本档案</td><td rowspan=1 colspan=1>德国气象局提供的历史气候报告</td></tr><tr><td rowspan=1 colspan=1>数据类型</td><td rowspan=1 colspan=1>标本照片 (图片格式)</td><td rowspan=1 colspan=1>档案扫描件（图片格式）档案原件为表格</td></tr><tr><td rowspan=1 colspan=1>基本任务</td><td rowspan=1 colspan=1>对汞染色分类：标本石松科或卷柏科分类</td><td rowspan=1 colspan=1>分类：识别手写文字，仅使用少量人工标注</td></tr><tr><td rowspan=1 colspan=1>学习模型</td><td rowspan=1 colspan=1>卷积神经网络</td><td rowspan=1 colspan=1>基于聚类标注和检索标注的多种学习模型</td></tr><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1>2014</td></tr></table>",
+    "context5": "续前表",
+    "context6": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>文本内容分类[4]</td><td rowspan=1 colspan=1>涉及隐私的档案分类[6]</td></tr><tr><td rowspan=1 colspan=1>承担机构</td><td rowspan=1 colspan=1>西北民族大学</td><td rowspan=1 colspan=1>加拿大萨斯喀彻温大学图书馆</td></tr><tr><td rowspan=1 colspan=1>问题需求</td><td rowspan=1 colspan=1>档案文本内容分类</td><td rowspan=1 colspan=1>档案文本内容分类</td></tr><tr><td rowspan=1 colspan=1>数据源</td><td rowspan=1 colspan=1>甘肃省档案馆提供的数据资源</td><td rowspan=1 colspan=1>萨斯喀彻温大学提供的人力资源档案</td></tr><tr><td rowspan=1 colspan=1>数据类型</td><td rowspan=1 colspan=1>档案文本 (文本格式)</td><td rowspan=1 colspan=1>档案文本 (文本格式)</td></tr><tr><td rowspan=1 colspan=1>基本任务</td><td rowspan=1 colspan=1>分类，类别包括：交通管理、城市规划、旅游管理、环境政策、机构沿革、医疗卫生</td><td rowspan=1 colspan=1>分类，类别包括：涉及个人信息的人力资源档案、一般性人力资源档案和非人力资源档案</td></tr><tr><td rowspan=1 colspan=1>学习模型</td><td rowspan=1 colspan=1>朴素贝叶斯分类器</td><td rowspan=1 colspan=1>朴素贝叶斯分类器</td></tr><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=1>2018</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>美国国务院电报档案密级分类[7]</td></tr><tr><td rowspan=1 colspan=1>承担机构</td><td rowspan=1 colspan=2>美国德克萨斯大学奥斯汀分校</td></tr><tr><td rowspan=1 colspan=1>问题需求</td><td rowspan=1 colspan=2>档案密级鉴定</td></tr><tr><td rowspan=1 colspan=1>数据源</td><td rowspan=1 colspan=2>1973—1976年间美国国务院的45万份已解密的电报</td></tr><tr><td rowspan=1 colspan=1>数据类型</td><td rowspan=1 colspan=2>部分编码过的档案元数据和主题关键词 (文本格式)</td></tr><tr><td rowspan=1 colspan=1>基本任务</td><td rowspan=1 colspan=2>分类：对涉密级别进行分类，类别包括：不涉密、秘密、机密和限制利用</td></tr><tr><td rowspan=1 colspan=1>学习模型</td><td rowspan=1 colspan=2>支持向量机</td></tr><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=2>2013</td></tr></table>"
+  },
+  "3.1实验性研究为主": {
+    "context1": "上述案例主要是一些探索性、实验性研究。从技术的视角来看，机器学习在档案管理领域的应用尚未形成成熟的信息产品或应用广泛的技术体系，即便是应用到图像识别、自动翻译这样的既有信息产品，其目的也是要开发更符合档案数据特点的新产品。现有案例主要针对某类具体问题，如手写档案识别、档案照片分类、档案文本内容分类、档案密级鉴定等，通过引入机器学习技术解决具体问题，进而探讨机器学习技术在具体档案问题上的应用能力与前景。从管理的视角来看，现有案例没有充分探讨与之相关的法律法规、管理流程、管理制度及伦理道德问题等，尚未形成系统性的解决方案。总的来说，目前机器学习在档案管理中的应用处于起步阶段。"
+  },
+  "3.2在部分重要、棘手的利用导向型档案管理业务展开初步探索": {
+    "context1": "从现阶段的应用案例来看，业界和学界已经开始在手写档案识别、隐私档案识别、档案密级划分、主题分类等方面展开初步探索。这些都是重要、棘手的档案管理业务领域。以手写档案识别为例，档案扫描件是一类具有特色的数据。从计算机存储的视角来看，扫描件以图片的形式承载了文本内容信息。计算机可以编码文字，也可以编码图片，但是现阶段让计算机理解图片格式的文字仍是一项挑战。罗马教廷秘密档案自动转录项目和德国历史气候报告档案文本识别项目将图像识别技术在档案扫描件进行应用，研究如何将档案扫描件转化为计算机编码的文本内容。其中，罗马教廷秘密档案（Vatican Secret Archives）是世界上最大的历史档案集之一，排架长度超过85 公里，但是只有极小部分在扫描为图片后，其中的文字被识别为方便检索、可直接处理的数据，这些优质的档案资源也就难以被当代学者们利用。17]来自罗马第三大学的学者们与梵蒂冈秘密档案馆的研究人员共同发起了名为“自动转录项目（InCodiceRatio）”的项目，通过将机器学习技术中的深度卷积神经网络和统计自然语言模型相结合，逐步将档案内容自动转录为计算机内存储的文字。[18]",
+    "context2": "上述案例解决的都是利用导向的问题，最终目的都是提高利用控制和服务的水平。一方面，目前机器学习在利用控制与服务方面的结合与应用仍比较简单，主要集中在对文本或图片格式档案资源在内容上的识别和分类，在帮助发挥档案资源的内容价值方面则鲜有探索；另一方面，档案管理中重要而棘手的业务问题很多，除了利用导向的问题，还有管理导向的问题，比如归档文件质量监测、档案价值鉴定、元数据著录与管理等，这些问题也存在利用机器学习提升管控效率的需求。"
+  },
+  "3.3主要以文本数据和图片数据为训练数据集": {
+    "context1": "上述案例都有丰富的数据基础，都使用文本或照片数据为训练数据集，尚未对其他格式的档案数据进行机器学习技术应用。罗马教廷秘密档案的自动转录项目中，训练集来自扫描图片。美国自然历史博物馆的标本记录自动分类项目中，研究人员手工集成了7777个未被氯化汞侵染的样本和7777个被氯化汞侵染的样本的图片集作为汞侵染识别的数据集；研究人员使用9276个石松科植物和9113卷柏科植物的样本图片构成了植物科目识别的数据集。在历史气候报告档案文本识别研究中，研究人员使用的是德国气象局（German Weather Service）提供的1877—1999 年间10000余页的历史气候报告。在档案文本内容主题分类研究中，研究人员使用了甘肃省档案馆提供的900份档案文本数据。在涉及隐私的档案分类研究中，研究人员使用了萨斯喀彻温大学提供的1784 份部分涉及个人隐私的文本档案。美国国务院电报档案密级划分研究中，研究人员以1973—1976年间美国国务院的 45万份已解密的电报档案为基础，在其中随机选择数据子集进行训练。",
+    "context2": "对于文本格式的档案资源，文本内容可以通过自然语言处理的相关方法将文字内容映射到向量空间中（如 one-hot 编码、ngram、神经语言模型等)，从而转变为计算机可以直接计算的向量。理论上来说，目前已经有的针对文本内容的自然语言处理和机器学习方法都可以在档案资源中尝试应用，比如基于档案文本内容通过支持向量机来判断哪些档案涉及个人隐私信息或是对基于文本内容通过贝叶斯分类器对档案主题进行分类等。而对于某些特殊需求下的问题，需要研究新的方法来应对。",
+    "context3": "在现阶段机器学习的各类应用场景中，机器学习在图像处理领域取得了引人注目的成就。深度卷积神经网络能够让机器实现人脸识别、障碍物判断等任务，其识别效果甚至比人类的更加优秀。19]在上述应用中，美国自然历史博物馆的标本记录自动分类项目对标本照片进行了分类和判断，取得了不错的效果。英国国家档案馆的“ARCHANGEL”项目也以图片等非文本格式的电子文件为对象开展探索。"
+  },
+  "3.4以有监督的分类任务作为主要的任务形式": {
+    "context1": "从上述案例来看，目前机器学习在档案领域的实践以分类为主要的任务形式。在机器学习的各类基本任务形式中，回归和降维大多应用于自然科学和工程领域，用于对实验或测量数据进行相关处理；分类的应用场景则更广泛，尤其适用社会科学和管理学领域，具体应用如用户分类、在线评论分类等。在档案管理领域，许多问题可以被转化为分类问题或者部分转化为分类问题，比如档案主题分类、隐私档案分类、档案照片分类、档案密级划分等。以档案密级划分为例，档案密级划分是一项具有高度敏感性的工作，判断档案的密级归类需要以人类对法律法规、档案内容的认知为基础，并通过人类智慧进行判断。从划分过程来看，档案划分是将档案分为不同的密级，且一份档案不能有多种密级，这与机器学习中的多分类模型有着很高的符合度。在美国国务院电报档案密级分类的研究中，机器就初步实现了基于档案内容和已知档案的划分结果，将档案密级划分问题转化为机器学习中的分类问题，并通过机器学习来进行判断。",
+    "context2": "此外，上述案例中大多学习任务是有监督的。一般来说，有监督学习的效果要比无监督学习好，因为有监督学习能够通过训练集训练模型，而无监督学习则需要提前事先建模和定义函数。对于复杂的档案管理任务而言，由于很难对判断逻辑进行建模，笔者认为有监督学习应该更符合实际的档案管理需求。对于数据规模较大，任务更为复杂的需求，甚至应该考虑深度学习的相关方法。"
+  },
+  "4机器学习在档案管理中应用的技术路径": {
+    "context1": "目前机器学习在档案管理中的应用大多集中在学习模型的构建。虽然模型构建的过程因学习任务不同而存在一定的差别，但是在技术路径上有较高的相似性，在整体上分为四个部分，分别是任务分析、准备训练数据、算法设计和模型训练和优化。这些部分的内容相互衔接，有些步骤可能并行交叉展开，如准备训练数据和算法设计。笔者以本文第3节所介绍案例中的手写档案识别问题为例，对其技术路径加以详细说明，如图3所示。",
+    "context2": "![](images/84599bca91df8618afde7e6f05b05cd966b5886d2a731b3409abdac2cf7f58f5.jpg)  \n图3档案扫描件识别学习模型构建的技术路径"
+  },
+  "4.1任务分析": {
+    "context1": "任务分析是机器学习应用的起点，旨在明确任务的目的和所需的训练数据。手写档案识别任务的目的是从档案扫描件中抽取出计算机可识别的结构化文字信息，完成从图像到文字的转变；其训练输入数据是档案扫描件，训练输出数据是档案扫描件的文字内容。"
+  },
+  "4.2准备训练数据": {
+    "context1": "在对任务进行分析后，档案专家和研究人员要开始准备训练数据，并根据任务的目的设计学习算法，收集档案扫描件。即在现有档案集合中抽样一定规模（比如数千份）的扫描件，然后根据学习算法的输入要求清洗数据，比如调整扫描件的分辨率，使之可以被模型接收，最后构造训练集和测试集。值得一提的是，无论是在训练集还是测试集中，都需要扫描件（输入）和扫描件中文字图像对应的文字内容（输出)，而后者往往需要人来阅读并转录成文字，因此构造训练集可能会花费大量时间，在具体方法上可以采取人工和OCR结合的方式节省资源，或者参考梵蒂冈秘密档案识别项目，采用公众科学（Citizen Sci-ence）的方式，通过公众参与构建训练集。"
+  },
+  "4.3算法设计": {
+    "context1": "在得到测试结果之前，人们能够根据经验来判断哪种即有模型更合适此类问题，并根据该任务和任务所采用数据的性质设计有可能表现更好的算法。因此档案专家和研究人员一般会设计多个学习算法，以供在后面比较和测试。在扫描件识别任务中，现有经验表明深度卷积神经网络比较适合解决图片识别问题，可以用卷积神经网络识别图片；而文字内容的序列特性，允许学者们通过采用长短期记忆网络构建语言模型来判断所识别的文字出现概率，因此在算法设计上可采用将两者结合的思路。此外，还需要根据数据规模配置相应的计算资源。"
+  },
+  "4.4模型训练和优化": {
+    "context1": "在准备好训练数据并完成算法设计后，就开始了模型训练的过程。模型训练是一个需要反复调整算法和参数的过程，比如调整损失函数、激活函数、梯度下降优化算法、学习率等参数。还需面对可能出现的梯度消失或梯度爆炸的情况，并针对不同情况采用不同的标准化方法对输入数据进行处理。模型的训练水平可以用一些指标来评估，常用的指标包括F1得分、准确率、召回率、AUC、ROC等。通过评估指标的反馈，档案专家和研究人员可以对模型进行持续调整和优化，直到得到理想的模型。在完成了比较、评估和优化等过程后，将评估结果可以接受的模型保存下来，这个过程被称为持久化模型。",
+    "context2": "对于机器学习技术的应用来说，从模型构建到应用部署依然有一段距离。一般来说，机器学习应用的过程包括：模型构建、模型测试、模型部署、反馈与持续优化四个部分，如图4所示。训练过程即通过已有的数据集构建学习模型，也是目前大多研究和实践聚焦的部分；测试过程是对已经构建的学习模型进行测试，测试其预测性能和鲁棒性；部署过程是将模型部署并集成到已有的文件档案管理系统中；反馈与持续优化的过程是根据模型在真实应用场景中的表现，以及用户反馈的结果对模型进行持续优化。",
+    "context3": "![](images/185e4d150bc0f3c2c6aff28d166cd9f37dc1de639381df6ca169a46872868422.jpg)  \n图4机器学习的应用过程"
+  },
+  "5机器学习在档案管理中深化应用面临的挑战": "",
+  "5.1档案管理的挑战": {
+    "context1": "档案管理是否适合采用机器学习技术？是否需要采用机器学习技术？虽然笔者可以从理想角度轻易地得出肯定的答案。但细究起来，却会发现档案管理部分业务的复杂性和档案管理自动化需求不足都对机器学习的深化应用提出了挑战。",
+    "context2": "档案管理自身具有较强的复杂性。有些环节规则复杂，带有一定的模糊性，在执行时有一定的主观性，比如价值鉴定中，有些文件和档案由特定人群阅读内容后去判断其重要性；有些环节则具有一定的不确定性，比如分类中，存在一份档案隶属于分类方案中多个类目的可能性。机器学习能够通过对大规模数据的学习发现潜在规则，但是当规则本身十分复杂的时候，机器的学习过程变得复杂且低效，学习结果也非常不准确。比如档案销毁鉴定问题，理想情况下，机器通过学习可以判断哪些档案应该被销毁，哪些档案应该被续存，以及被续存的档案应设多久的保管期限。然而机器应该通过什么样的数据集学习鉴定的规则并做出判断呢？或许可以借鉴美国自然历史博物馆的标本记录自动分类项目，请专家帮助鉴定一定数量规模的档案，以此做训练集，让机器学习在已经鉴定好的档案中学习规则，从而为剩余的档案进行鉴定。但是，档案鉴定背后隐藏的规则比标本分类的规则要复杂得多，专家可能要考虑档案内容的背景、干系人、涉及事件、历史价值等，该过程所蕴含的信息量可能远超档案自身所承载的，机器有可能难以在档案中发现规则。潜在规则本身的复杂性和不确定性，会阻碍机器学习在相应问题上的应用。",
+    "context3": "机器学习的结果意味着高度的自动化。从利用角度来说，档案馆的开放程度普遍不高，线下用户门可罗雀，线上资源普遍匮乏，难以形成大规模机器学习的需求；从管理角度来看，海量电子文件的归档移交和长期保存尚未真正到来，尚未产生应用机器学习技术的迫切压力。意图不明确、不强烈都是机器学习在档案管理中应用的挑战。"
+  },
+  "5.2档案数据的挑战": {
+    "context1": "档案资源的复杂性、数据化程度低、元数据不丰富等也对机器学习应用提出挑战。就复杂性而言，一份档案材料可能不是单纯的文字、图片、音频或视频，而是包含文字、图片、表格、音频、视频及其元数据等多种类型的复杂信息。对于机器而言，机器不能直接理解文字、图片、音频、视频中的内容，而是通过转化为表示其特征的向量或矩阵来理解。以文字为例，机器不能理解文字的含义，但是可以以数字的形式表达文字，比如可以通过构造词嵌入作为文字在计算空间内的表达，通过长短期记忆网络来处理上下文的关联。而对于图片，机器同样不能直接理解图片的内容，但是可以通过图片的像素矩阵来表达图片，再通过卷积神经网络的卷积核来提取图片特征。对于不同类型的数据，机器的处理方式相差甚远。机器可以在一份档案中分别地处理文字、图片、音频或视频，但是分别地处理不同类型的信息会丢失不同类型信息之间的关联，损失信息量。对于一份档案，无论是将不同类型的信息整合进入同一个计算空间，还是分别处理再进行关联都是十分复杂的问题。",
+    "context2": "此外，历史档案数据化程度较低，元数据不够丰富，也会造成机器学习应用的障碍。在上述应用进展中，几乎所有应用都或多或少的涉及了档案元数据。有些元数据本身可以作为数据标签作为训练结果的标识，[16也有些元数据本身就是重要的数据特征，作为训练的数据输入[]。要以这些历史档案数据为基础开展机器学习的相关应用，有可能需要耗费较多资源对其进行预处理，包括补充元数据、转录其内容信息等。一般来说，数据规模越大，学习效果越好，准备机器学习的大规模档案数据需要相当的资源投入。"
+  },
+  "5.3机器信任的挑战": {
+    "context1": "机器、机器学习算法、机器学习的技术能力可以被信任吗？这个问题在学界与业界已经受到了广泛的关注，比如据美国福布斯报道，谷歌的图片识别系统曾将黑人错误地识别为黑猩猩，[20]研究人员还发现在商业人工智能系统中存在性别和肤色的偏见。[21]不完善的数据集、粗糙的学习模型都可能让机器学习产生意想不到的错误。而对于档案管理，尤其是涉及档案价值鉴定、利用控制等决定档案命运的管理环节，或许在技术上可以实现非常准确的判断结果，但是人类能否信任机器所做出的判断呢？如果一份超过保管期限的档案，计算机鉴定的结果是可以销毁，那么档案管理人员应该听从机器的判断其进行销毁吗？更进一步的，如果机器判断有误，那么责任又该谁来承担呢？是档案主管部门的领导？是机器学习模型的设计者？还是干脆把这些服务器关进监狱，让它们反省自己的过错？笔者认为，若未来机器学习或人工智能技术在档案领域的应用不断深化，这些问题都是不可避免要解决的；而要解决这些问题，离不开档案学者们的共同努力及相应法律法规的支撑。"
+  },
+  "5.4法律环境的挑战": {
+    "context1": "档案是一种特殊的、受到国家《档案法》明确保护的信息资源，其管理与利用遵循一套较为严格的规定。机器学习的应用，意味着在机构和个人之外，机器也作为档案管理主体参与其中，同时也会带动其他管理主体的参与与合作，必然产生新型权利义务关系。此外，部分档案带有保密性，档案开放程度低，外界参与困难，不易实现跨界资源的整合，如何在大型合作项目中既保护档案资源的安全，又充分地挖掘其价值，需要建立明确的涉密档案数据脱敏标准，明确大规模档案信息利用规范。数据确权已经成为数字时代的法律问题得到普遍重视，而机器对档案管理的介入、档案数据本身的复杂特性将增加这个问题的复杂性。而法律法规的建立健全一般都要以普遍存在的社会事实为约束对象，对这些潜在的风险尚无力应对。而这些风险一旦发生，又会因法律法规的不完善导致机构和个人蒙受不应当承受的损失。法律法规应起作用和实起作用之间的差距，会进一步增加档案部门应用机器学习的犹豫和迟疑。"
+  },
+  "5.5专业能力的挑战": {
+    "context1": "上述挑战最终给档案部门提出了更高的专业能力的挑战，能否克服管理业务、数据、机器信任和外部环境的挑战，最终取决于档案部门自身具备及能够调动怎样的专业能力。一方面，在自身技术力量相对薄弱的情况下，档案部门应该加强与研究机构、社会企业的合作，开展机器学习在档案管理领域的实验甚至更为广泛的应用。另一方面，档案部门要加强自身的能力建设，在这个方面，英国国家档案馆的同行已经做出了很好的示范，2017年该馆进行了一场机器学习的编程马拉松（编程马拉松是指在一段时间内，程序开发者聚集在一起进行合作开发、激发创意的活动)，旨在培养其数字化团队的机器学习能力，鼓励团队发现机器学习与档案管理的结合点。英国国家档案馆认为，在20世纪90年代之前，纸质文件是主要的文件形式，手工对其进行鉴定、筛选和敏感性检查是可行的。而此后电子计算机与信息系统的广泛应用使得文件的形式从纸质转为数字，所保管的档案也从纸质转为电子形式。更重要的是，受技术变革的影响，文件的数量在显著的增加。对于每一份文件，都需要进行鉴定、筛选和敏感性检查。面对巨大的工作量，英国国家档案馆认为人类审阅者需要机器的支持和辅助，这将对他们的工作方式带来一次巨大的转变，为了适应变化，该馆开始培养其团队的与机器学习有关的数字技术能力。[22]"
+  },
+  "6机器学习在档案管理领域中的应用展望": {
+    "context1": "2016 年来，美国电机及电子工程师学会（IEEE）的大数据大会每年都设有“计算档案学（ComputationalArchival Science，CAS）”的研讨会，探讨如何通过计算方法 和资源（Computational methods and re-sources）应对大规模文件/档案的处理、分析、存储、长期保管及获取。2018年该会议专门将“机器学习对档案功能的支撑”作为独立的研讨会，讨论如何通过机器学习辅助解决档案管理中的问题。23]此外，国际档案理事会（ICA）专门在2018 年举办了人工智能与档案（AIandArchives）为主题的论坛，探讨 AI在档案管理中的潜在应用等问题。[24]",
+    "context2": "作为近年来发展最快的信息技术之一，无论是ICA、IEEE会议中关于机器学习与档案的讨论，“计算档案学”这一新学科领域的提出和探索，还是英国国家档案馆为机器学习进行的编程马拉松项目，都可以看出国外档案界正在接纳机器学习，尝试将机器学习与档案管理进行结合。笔者不敢轻易断言未来它会与档案管理有哪些形式的结合，不管怎样，机器学习是一种强大的技术工具，有进一步释放档案资源价值的潜力，也有进一步激发档案管理能力的潜力。如果档案价值得到进一步释放，档案管理能力得以提升，组织机构内的档案部门将有更多机会深入地参与到机构业务中来，有更多机会成为决策制定的参与者，有更多机会成为机构的核心智囊；各级档案馆也将有机会进一步充分发挥档案资源的历史文化价值，为社会各界提供更为丰富的服务。而要借助于新技术实现这样的愿景，档案部门需要实施人才培养、法律法规建设、系统建设等多个方面的配套举措。"
+  },
+  "注释与参考文献": {
+    "context1": "[1]KONONENKO I. Machine learning for medical diagnosis;History,stateof the artand perspective[J].Artificial   \nIntelligence in Medicine,2001,23(1):89-109. [2]JEBARA T. Machine Learning[R/OL]. [2018-08-30 ]. http://www.cs.columbia.edu/ $\\sim$ jebara/4771/notes/   \nclass1x. pdf. [3]RICHARZ J,VAJDA S,GRZESZICK R,et al.Semi-supervised learning for character recognition in historical archive   \ndocuments[J].Pattern Recognition,20l4,47(3):1011-1020. [4]LIU P,YU H,XU T,et al. Research onarchives text classfication basedon Naive bayes [C]//Technology,   \nNetworking,Electronic and Automation Control Conference (ITNEC),2017 IEEE 2nd Information.IEEE,2017;187-190. [5]PAYNE N,BARONJR .Auto-categorization methods fordigital archives[C]// 2017 IEEE International Conference   \non Big Data(Big Data).IEEE,2017:2288-2298. [6]HUTCHINSON T.A protecting privacy in the archives:supervised machine learning and born-digital records[C]//   \n2018 IEEE International Conference on Big Data (Big Data).IEEE,2O18;2696-2701. [7]ESTEVA M,TANG JF,XU W,et al. Data mining for\"big archives\"analysis: A case study[C]// Asis&t Meetig:   \nBeyond the Cloud:Rethinking Information Boundaries.American Society for Information Science,2013:1-10. [8]LEEC.Computer-assisted appraisaland selectionof archival materials[C]//20l8 IEEE International Conferenceon   \nBig Data(Big Data).IEEE,2018:2721-2724. [9]ANDERSON B,PROM C,HAMILTON K,et al. The cybernetics thought colective project: Using computational   \nmethods torevealintelectualcontext inarchival material[C]//2017 IEE International ConferenceonBig Data(Big Data).   \nIEEE,2017：2213-2218. [10]周志华.机器学习[M].北京：清华大学出版社,2016：1-2. [11]ALPAYDIN E.Introduction to machine learning（Third Edition ）MIT press,2014;4-18. [12]肖延华.华为EI创新实践及其在电子文档管理应用探讨[C/OL].（2018-01-12)[2019-07-05].http://erm.ruc.edu.   \ncn/filespath/1513828546.pdf. [13]2018中国知识管理论坛成功举办[EB/OL].（2018-12-28)[2019-07-05].http://irm.ruc.edu.cn/displaynews.php?   \n$\\mathrm { i d } = 6 0 2 4$ [14]In Codice Ratio[EB/OL].[2018-12-12].http://www.inf.uniroma3.it/db/icr/index.html. [15]COLLOMOSSE J,BUI T,BROWN A,et al. ARCHANGEL :trusted archives of digital public document[J/OL].",
+    "context2": "(2018-04-23)[2019-07-05].https://arxiv.org/abs/1804.08342.",
+    "context3": "[16]SCHUETTPELZ E,FRANDSEN P B,DIKOW R B,et al.Applications of deep convolutional neural networks to digitized natural history collections[J].Biodiversity Data Journal,2ol7,5(5):e21139.",
+    "context4": "[17]KEAN S.Artificial Intelligence Is Cracking Open the Vatican's Secret Archives[EB/OL].(2018-08-30)[2018-1-20]. https://www.theatlantic.com/technology/archive/2018/04/vatican-secret-archives-artificialinteligence/559205/.",
+    "context5": "[18]FIRMANI D,MAIORINO M,MERIALDO P,et al.Towards Knowledge Discovery from the Vatican Secret Archives. In CodiceRatio--Episode1:Machine Transcriptioof the ManuscriptsJ/OL].(2018-09-12)2019-07-05].htps://arxivorg/ abs/1803.03200.",
+    "context6": "[19 ]HE K,ZHANG X,REN S,et al.Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification[C]//2015 IEEE International Conference on Computer Vision （ICCV).IEEE Computer Society，2015： 1026-1034.",
+    "context7": "[20]ZHANG M.Google Photos Tags Two African-Americans As Gorillas Through Facial Recognition Software[EB/OL] (2015-07-01)2018-12-14].htps://www.forbes.com/sites/mzhang/215/07/01/google-photos-tags-two-africanamericans as-gorillas-through-facial-recognition-software/# 7596855a713d.",
+    "context8": "[21]HARDESTYL.Study finds genderand skin-type biasin commercial artificiaFintellgence systems[EB/OL].(2018- 02-11)2018-12-14].htp://news.mit.edu/2018/study-finds-genderskintype-bias-artificiainteligencesystems-0212.",
+    "context9": "[22]BEL M.Machine learning in the archives[EB/OL].(2018-06-07)[2018-12-09].htps://blog.nationalarchives.gov. uk/blog/machine-learning-archives/.",
+    "context10": "[23]IEEE Big Data 2018:3rd CAS workshop[EB/OL].(2018-12-12)[2018-12-20].htps://dcicblog.umd.edu/cas/ieee big-data-2018-3rd-cas-workshop/.",
+    "context11": "[24]AI andArchives[EB/OL].[2018-12-20].htps://www.ica.org/en/ai-and-archives-register-your-expresionofinterest-by-31-july-2018."
+  },
+  "The Application of Machine Learning in Archives Management : Progress and Challenges": {
+    "context1": "YANG Jianliang,LIU Yuenan",
+    "context2": "(School of Information Resource Management in Renmin University of China;Key Laboratory of Data Engineering and Knowledge Engineering of the Ministry of Education;Electronic Records Management Research Center of Renmin University of China,Beijing 10o872,China)",
+    "context3": "Abstract:In the field of archial science,researchers and archives have already put machine learning into application and practice since 2Ol3 mainly including handwriting archives recognizing,archives clasifying,archives appraisal,using control and using service.We put forward the framework of how machine learning applies in archives management from the technical logic and applied logic of machine learning,and analyze the progress of the machine learning application in archives management based on some representative cases.From these cases,we find 4 characteristics at present stage:nearly all experimental research;tentative exploration in some importance or intractable problem;most of the datasets are text or images;supervised classfication is the major form of these applications.Furthermore,based on the analyzation we put forward 5 chalenges that may arise with the deepening of machine learning application in archives management including:the challenge of archive management,the challenge of archives data,thechallenge of machine trust,the challengeof legal environment and the challenge of professional ability.",
+    "context4": "Keywords :Archives management; Archival information resource;Machine learning; Artificial inteligence"
+  }
+}

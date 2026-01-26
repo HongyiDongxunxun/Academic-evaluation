@@ -1,0 +1,53 @@
+{
+  "original_filename": "full_1751.md",
+  "信息可视化的发展趋势研究": "",
+  "周宁程红莉吴佳鑫": {
+    "context1": "武汉大学信息资源研究中心 武汉 430072",
+    "context2": "(摘要）在分析近年来信息可视化国际会议的主题以及当前的研究成果基础上，总结出信息可视化的4个发展趋势，即以结构为中心的可视化研究范式向潜在现象的动态属性可视化研究转移、信息可视化技术与分析科学相结合、以用户为中心、可视化技术产品化与商品化。",
+    "context3": "[关键词]信息可视化发展趋势可视分析[分类号]G202",
+    "context4": "Study on the Developing Trends of Information Visualization Zhou Ning Cheng Hongli Wu Jiaxin",
+    "context5": "Research Center of Information Resources, WuHan University, WuHan 430072",
+    "context6": "(Abstract)InformationvisualizationbecomesahottopicinthefieldofinforationmanagementandinformationsystemBasedonthetopics ofrecentteatialifatialatiooerecdseaevetsfoueodreodedt paradigmshiftfromstructure-entricvisualizationtothevisualizationofdyamicpropertiesofunderlyingphenomena,thetrendofinfoation visualization combining with analytic science,user-centric research trends and commercialization trend.   \n(Keywords]information visualizationdeveloping trendsvisual analyze",
+    "context7": "信息可视化是“利用计算机支撑的、交互的、对抽象数据的可视表示，来增强人们对这些抽象信息的认知\"1的方法与技术，在这个信息数量呈几何级增长的信息时代里，信息可视化对于信息资源的开发利用具有重要的意义。近年来，信息可视化作为一个热点研究课题，吸引着世界各地研究者的关注,尤其是20世纪中期开始召开的IEEEInfoVis和IEEEIV两大国际会议推动了信息可视化的迅速发展。在浏览近年来信息可视化国际会议的主题以及当前的研究成果基础上，笔者发现信息可视化呈现出4个趋势，即以结构为中心的可视化研究范式向潜在现象的动态属性可视化研究转移；信息可视化技术与分析科学相结合；以用户为中心；可视化技术产品化、商品化。"
+  },
+  "1以结构为中心的可视化研究范式向潜在现象的动态属性可视化研究转移的趋势": {
+    "context1": "抽象信息的结构是20世纪90年代第一代信息可视化研究的中心[2]，锥形树(cone tree)、树图(treemap)、双曲树(hyperbolictree)是处理信息结构的经典例子。目前,正在出现一种趋势，那就是以结构为中心的研究范式正在向潜在现象的动态属性可视化研究范式转移，文献[3]对这种范式的转移进行了讨论，认为潜在现象的动态属性可视化还没成为主流。对潜在现象的动态属性进行可视化不是一件容易的事，虽然在数据集中往往记录了某种趋势或深刻的变化，但是可视化刻画出来的趋势与变化往往并不足以引起用户的注意。因此，有必要在可视化过程中嵌入趋势探测机制，这需要超越第一代以结构为中心的可视化研究范式。目前，对动态属性的可视化研究已吸引着信息可视化领域的研究者，ThemeRiver(主题河)[4]、TimeTube(时间管道)[5]、累进知识域可视化[6]就是基于动态属性可视化的研究成果。",
+    "context2": "ThemeRiver是一个可视化系统，用来帮助用户识别文档集中与时间有关的模式以及变化趋势，这种可视化技术把从左向右流动的河流比作文档集中随时间变化的主题流，河流下面对应着一条时间线。河流由不同颜色的水流组成，每种颜色代表一个主题，该水流的宽度代表该主题的强度，宽度的变化指示着事件的变化。整条河流的宽度变化代表着全局的强度变化 (见图1)。"
+  },
+  "2信息可视化技术与分析科学相结合的趋势": {
+    "context1": "从2006年开始,IEEE增开了IEEE VAST(Visual AnalyticsScienceand Technology)会议,即可视化分析科学与技术会议。",
+    "context2": "![](images/d52b7551547458ec692a7905418517bb5a4b72da6e530a81cec5e45bfbb8539a.jpg)  \n图1一个公司的专利活动",
+    "context3": "这个会议的议题范围建立在Illuminatingthe Path:The Researchand Development Agenda for Visual Analytics(J.J.Thomas and K.A．Cook,2005）一书的基础上。可视化分析是数据分析与信息可视化技术相结合的产物，目的是帮助人们从大量的、动态的并且经常自相矛盾的数据中发现具有预见性的以及不可预知的现象与知识，并提供实时的、可防御的并且可理解的判断。可视化分析技术来源于科学分析以及信息可视化领域，并由生物以及国家安全研究的需要来驱动和发展，目前已应用于各个领域，并不断融合了来自知识管理、统计分析、认知科学、决策科学以及其他领域的技术。",
+    "context4": "分析推理是运用人类的思维能力，根据事实材料和假设来作出某种判断的过程，可视分析是在分析推理的过程中，通过运用软件来放大人类对复杂动态的数据和环境的感知、理解和推理能力，从而促进分析推理的进行，因此，发展可视分析技术，必须要懂得分析推理过程，了解人类感知与认知的潜在规律，通过合适的可视化形式让用户在与信息的不断交互变换中获得新知或某种判断结论。",
+    "context5": "例如，可视化的异常情况检测是可视分析的一个重要应用，主要是从过去的事件发现事物之间的联系或某种趋势，以便为将来的危险做好准备，这在国家安全、应急事件的处理中非常重要。Tomoharu iwata和Kazumi saito提出了一种可视化的探测异常的方法，他们将多维的数据采用基于概率的方法在二维或三维空间中进行可视化，不仅可以帮助人们看出异常现象的数量，而且可以理解异常的与标准的样本之间的关系。并分别通过假想的数据以及经济时序数据进行测试，证实了该方法的有效性[7]。",
+    "context6": "可视分析不太可能成为一个独立的研究领域，但会看到它在很多现有的领域、会议以及出版物中的增长和影响力[8]。不过，成功的关键是科学小组的高度跨学科工作。2004年以来，美国国土安全部成立了由太平洋西北国家实验室负责的全国可视分析中心(National Visualization and Analytics Center,NVAC)，目的是防御美国以及全球的恐怖主义者的袭击，并为可视分析制定5年的研究与开发日程计划,有关这方面的信息可访问http://nvac.pnl.gov。"
+  },
+  "3以用户为中心的研究趋势": {
+    "context1": "以用户为中心是近几年软件设计中兴起的一个重要原则，强调从用户的理解、用户的兴趣、用户的习惯、用户的期望、用户的评价方面开始设计和运作。信息可视化作为人机交互的界面技术，是为了通过可视化的方式促进用户对信息的感知、认知以及分析利用，因此更应该强调以用户为中心。但一直以来，以信息的结构以及任务为中心的信息可视化研究居于主导地位，虽然也强调以用户为中心，但常局限于最终的信息呈现形式以及界面设计上，缺少以用户体验为中心的用户需求、用户兴趣、用户认知能力的分析挖掘以及用户使用效果和评价等研究。ChrisAhlberg认为将信息可视化定制式地融合到用户的日常任务中，设计信息可视化环境，促进用户的合作和共享是信息可视化的发展趋势[9],这其实就是强调技术的发展要以用户为中心。",
+    "context2": "ZhangJiajie等对以人为中心的可视化进行了研究,他们认为，在设计以人为本的计算机系统中，不仅需要考虑表层的用户界面，更需要考虑深层次的用户、任务以及功能，并建立以人为中心的信息可视化理论框架[10](见图2)。",
+    "context3": "![](images/9826bdeb6c37db87989c02c343997352631202b84cf15a4035baedf56771daed.jpg)  \n图2以人为中心的可视化系统层次框架",
+    "context4": "在设计可视化系统时，如果不考虑该框架图中的4个层次，设计出来的可视化可能只是具有良好的展示功能，在完成特定用户的特定任务时则可能不是一个好系统。对一个用户来说是好的可视化可能对另一个用户来说并不一定就好，该可视化系统层次框架为以用户为中心的可视化系统提供了",
+    "context5": "一个系统的概念上的指导。",
+    "context6": "2006年3月，在德国召开了题为“以人为中心的可视化环境”的国际研讨会，会议主题包括人机接口、可视化技术和模型，信息可视化的美学、用户交互、多种模型的可视化、可用性、可测量性、质量衡量、感觉和认知 (心理学背景)、用户的先验知识、教育和培训、实证研究和评价等。2007年5月28日到6月1日，在德国召开了以“信息可视化一一以人为中心的可视化展示、交互以及评价”为主题的会议，这些会议的召开表明以人文本、以用户为中心的可视化技术及其评价得到了广大业内人士的关注。"
+  },
+  "4 可视化技术产品化、商品化趋势": {
+    "context1": "近十年来，信息可视化作为一门新的研究领域获得了较大的进展，取得了很多的研究成果，然而任何一项技术只有产品化、商业化才能显示其价值和生命力。Geoffrey Moore在《跨越鸿沟》一书中描述了技术首次渗透主流市场的过渡阶段，即技术采纳生命周期。信息可视化作为一种信息展示技术，具有开发人类感知能力、辅助分析的功能，也有着广泛的商业潜能，然而这种潜能并不能在短时间内被大多数人所认识和接受，也必然有个技术采纳生命周期，在从实验室走向产品、走向市场的过程中要经历被多数人质疑、拒绝到被多数人认可和喜欢的过程[11]。",
+    "context2": "目前，信息可视化技术的产品化、商品化趋势已经显露出来，例如在电子商务的网站设计中、在数字图书馆以及商务智能中。总的来说，信息可视化技术商品化有两种模式，一种是将信息可视化技术转化为信息可视化产品，如treemap、theBrain、IN-SPIRET等;另一种是信息可视化技术与现有软件结合，即信息可视化技术被其他软件采纳，作为其他软件的构件而存在，可视化技术在商务智能中的应用就属于这种模式。",
+    "context3": "Treemap最初是由Ben Shneiderman在20世纪90年代初设计的，是对层次结构的信息进行空间填充式的可视化技术，主要思想是利用颜色和大小展示信息的不同的属性，并且可以交互式的对不同层次的信息进行属性展示。最初，这种创新的可视化展示的思想只被少数喜欢创新的人欣赏，现在正在被越来越多保守主义者和怀疑者所接受，其技术也得到研究者的不断改进和完善。1998年Martin Wattenberg利用treemap对SMARTMONEY杂志提供的数据和信息制作了市场图，得到很多人的追随。后来,HiveGroup致力于为treemaps寻找更广阔的市场，并在供应链管理、市场分析、投资管理等许多领域中创造了商业应用的成功例子。Hive Group开发的Honey-comb就是利用了treemap技术的软件套件，该软件套件使treemaps开发、配置以及管理的过程自动化,其客户包括Intel,Sun Microsystems，Merck以及美国海军部队。海军部队装备准备信息工具(Marine Corps Equipment Readiness InformationTool(MERIT)）每天被3000多人用于物资准备的后勤管理工作[12]。",
+    "context4": "信息可视化技术在商务智能中的应用是信息可视化技术产品化、商品化的后一种模式的典型代表，也是可视化技术与分析技术相结合的典型代表。信息可视化主要用于支持“开发和分析特定领域中的信息以鉴别趋势和模式”，这一过程和目的与商务智能不谋而合，只是商务智能的“特定领域”限定在商业领域，因此信息可视化是实现商务智能的有效手段，就像可视化专家Stephen Few一一知觉优势(Perceptual Edge)的创始人所说的，“信息可视化软件能使传统的商务智能扩展到一个新的理解的王国，信息可视化技术将会推动下一代商务智能的成长[13]。其实，在传统的商务智能产品中已经或多或少地使用了信息可视化技术，如统计图、统计表、聚类分析图等，但这些多为静态的可视化技术，并且传统的商务智能产品多以结构化的数据为处理对象，使用的是结构化的数据库技术，例如Sybase、0racle。新一代的商务智能将不仅能处理结构化的数据，而且能处理半结构化、非结构化的数据，使用的信息可视化技术则是动态的、交互式的。例如，2007年SAS发布了最新商务智能软件SASRVisualBI,该软件就用了大量动态交互式的可视化技术，运用该软件可以通过易于操作的、动作激活的、图形式的环境创造交互式的“数据电影”，通过这种统计分析技术以及动态交互式的可视化查询技术的结合，可以帮助公司从大量的事实中发现新知以及隐藏的模式或趋势[14]。此外，还有致力于文本挖掘的商务智能软件Inxight、ClearForest文本分析套件等也大量使用了信息可视化技术，也是信息可视化技术通过与商务智能软件结合来走向商业应用的成功典范。"
+  },
+  "5结语": {
+    "context1": "现在已经进入“读图时代”信息可视化作为一种信息展示、交互以及分析的技术，在涉及到信息展示、交互或信息分析的领域里都将大展身手，对信息可视化的研究与应用也不断深入，并表现出以上4个趋势。这4个发展趋势也体现了信息可视化系统的发展趋势，即在构建信息可视化系统时，考虑信息的动态属性、信息分析的过程、用户背景，并与各领域的应用相结合，实现信息可视化技术的产品化、商品化。参考文献：",
+    "context2": "[1]周宁，张玉峰，张李义．信息可视化与知识检索．北京：科学 出版社，2005:1.   \n[2] Chen Chaomei.Top 1O unsolved information visualization problems.IEEE Computer Graphics and Applications.2005, 25(4):12-16.   \n[3] Chen Chaomei.Information visualization: Beyond the horizon.",
+    "context3": "New York:Springer,2004:274.   \n[4]Havre S, Hetzler E, Whitney P,etal.ThemeRiver:visualizing thematic changes in large document collections.IEEE Transactions on Visualization and Computer Graphics.2002,8 (1):9-20.   \n[5] Chi E H.Improving Web usability through visualization.Internet Computing.2002,6(2):64-71.   \n[6] Chen Chaomei. Searching for intellectual turning points: Progressive knowledge domain visualization.[2008-01-30]. www.pnas.org_cgi_doi_10.1073_pnas.0307513100.   \n[7]Iwata T, Saito K.Visualization of anomalies using mixture models. Journal of Intelligent Manufacturing,2005,16(6):635-643.   \n[8] Wong C,Thomas J.Visual analytics.IEEE Computer Graphics and Applications,2004.[2007-10-21].http://infoviz.pnl.gov/ pdf/visualAnalytics.pdf.   \n[9]Hascoet-Zizi M,Ahlberg C,Korfhage R,et al.Where is Information Visualization Technology going? // ACM. Proceedings of the 9th annual ACM symposium on User interface software and technology. Seattle: ACM press,1996:75-77.   \n[10] Zhang Jiajie,Johnson KA,Malin J,et al.Human-centered information visualization (2002).[2007-12-28].http://acad88. sahs.uth.tmc.edu/research/publications/zhang%20dynamic %20visualization%20paper.pdf.   \n[11] Shneiderman B,Rao R,Andrews K.Turning information visualization innovations into commercial products--lessons to guide the next success//Proceedings of the 11th IEEE Symposium on Information Visualization (InfoVis'O5),2005: 241-244.[2007-12-23].http://ieeexplore.ieee.org/xpls/abs_all. jsp?arnumber=1532153.   \n[12][2007-12-23].http://www.cs.umd.edu/hcil/treemap-history.   \n[13] Stephen Few .BizViz: The power of visual business intelligence. [2007-12-23].http://www.b-eye-network.com/view/2470.   \n[14][2007-12-24].http://www.sas.com/news/preleases/041707/ news1SASViz.html.",
+    "context4": "[作者简介〕周宁，男，1943年生，教授，博士生导师，发表论文100余篇。程红莉，女，1977年生，博士研究生，发表论文10余篇。吴佳鑫，男，1982年生，博士研究生，发表论文10余篇。"
+  },
+  "(上接第30页)": {
+    "context1": "心价值的全部特征，例如都在知识与信息自由这一核心价值的统摄之下，也难以与理想性这一特征相联系，因而不可称为核心价值。事实上，除尊重读者个性与隐私外，上述“价值”并不具备我们认定的图书馆核心价值的价值观属性，应归属社会职能范畴。考虑到国际上的普遍认同，可以将其定义为普世性的图书馆核心职能。此外，图书馆还承担着一些具体的社会职能，例如，部分信息娱乐提供、公共决策支持、技术支持等。这些职能可能在某个地区、某种类型的图书馆或某个时期得到强化，亦即不同地区、不同类型的图书馆可以有不同的核心职能，同一地区、同一类型的图书馆在不同的发展阶段其核心职能也可能不同。在相同的图书馆职业核心价值下，应鼓励各图书馆提出自己的核心职能或核心理念，兼顾统一性和差异性。",
+    "context2": "·在图书馆面临信息中心地位动摇和日益边缘化的今天，中国图书馆界不允许再像美国人那样用10年的时间建立自己的核心价值，尽管我们面临社会核心价值体系的长期缺失、国内图书馆核心价值基础薄弱以及价值问题的特殊性等诸多困难。“图书馆核心价值不是随意可产生、可指定的，而是客观存在的。我们研究的目的就是揭示它，反映它的本质12]。若以本文提出的图书馆核心价值特征作为切入点或标准，则建立图书馆核心价值的周期将会大大缩短。这些“特征”是否客观以及“标准”是否存在有待研究者去评判。",
+    "context3": "[作者简介]朱国萍,女，1966年生，副教授，发表论文19篇。"
+  },
+  "参考文献：": {
+    "context1": "[1]肖珊，范并思.图书馆核心价值的调查与分析.图书与情报,2007(3):15-21.  \n[2]GormanM．数位时代的图书馆价值．中华图书馆学会会讯,2006,14(1-2):3-7.  \n[3]黄晓曼．图书馆核心价值的探索和意义.图书与情报，2007(3):6-9,14.  \n[4]李青．现代图书馆核心价值的定位及其实现．图书馆论坛,2006(4):46-48,15.  \n[5]王知津，樊振佳．当代中国语境下的图书馆核心价值．中国图书馆学报,2007(5):53-58.  \n[6] 马恒通。传播知识造福人类：图书馆的核心价值.图书馆论坛，2007(6):74-78.  \n[7]范并思，周吉．推动图书馆核心价值研究的《中国图书馆学报》．中国图书馆学报，2007(5):30-34.  \n[8]蒋永福。维护知识自由一一图书馆的核心价值．图书馆，2003(6):1-4.  \n[9]于良芝．未完成的现代性:谈信息时代的图书馆职业精神．图书馆杂志,2005(4):3-7,20.  \n[10]范并思．公共图书馆精神的时代辩护．中国图书馆学报，2004(2):5-11.  \n[11]蒋永福．知识秩序知识共享知识自由一一关于图书馆精神的制度维度思考，中国图书馆学报，2004(4):10-13.  \n[12]黄宗忠.论图书馆核心价值(上).图书馆论坛，2007(6):3-8."
+  }
+}

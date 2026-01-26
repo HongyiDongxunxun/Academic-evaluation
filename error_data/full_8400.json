@@ -1,0 +1,74 @@
+{
+  "original_filename": "full_8400.md",
+  "社会化推荐服务研究述评": "",
+  "胡吉明": {
+    "context1": "（武汉大学 信息资源研究中心，湖北武汉430072）",
+    "context2": "摘要： $\\mathrm { \\sf W e b 2 . 0 }$ 的广泛应用和用户需求的变革催生出了新的推荐服务理念--社会化推荐。以信息推荐研究演进为主线,学者沿着从内容推荐、协同推荐到混合推荐的技术路线，从用户模式推荐、信息组织推荐和关联关系推荐三个视角对信息推荐展开了研究；网络的社会化促进了研究的拓展，目前主要从社会化行为、关系网络和服务应用三个方面进行了社会化推荐研究，取得了一系列成果；但其推荐方式存在着固有的缺陷，应将研究重点转向基于用户关系的社会化推荐上。",
+    "context3": "关键词：信息推荐；社会化推荐；研究述评",
+    "context4": "中图分类号：G350 文献标识码：A 文章编号：1007-7634(2011)02-0308-04"
+  },
+  "Research Review of Social Recommendation Service": {
+    "context1": "HU Ji-ming",
+    "context2": "(Center for Studies of Information Resources of Wuhan University ,Wuhan 430072,China)",
+    "context3": "Abstract:Widely applications of Web2.O and the innovation of user needs promote a new idea of recommendation service-Social Recommendation.Taking the evolution of information recommendation study as the main line,scholars have been following the technical route from recommendation based on content,collaborative recommendation to hybrid recommendation,and carrying out the study from three perspectives: the user mode,information organization and correlative relationship.The socialization of Internet promotes the development of information recommendation; currently the social recommendation has been mainly studied from three aspects: the social behavior,relationship network and service applications,and obtained a series of achievements.But because of the inherent defects of the current social recommendation,research should focus on the recommendation based on the relationship between users.",
+    "context4": "Key words:information recommendation; social recommendation; research review"
+  },
+  "1引言": {
+    "context1": "信息爆炸环境下，信息推荐服务根据用户的信息需求、兴趣或行为模式特别是用户之间的相关性，将用户感兴趣的信息、产品和服务推荐给用户，有效地解决了信息过载问题，具有更高的服务质量，已经成为各类信息系统的一项基本功能[1]。尼尔森最新发布的全球广告信任度调查也显示，高达 $91 \\%$ 的中国在线消费者不同程度地信任他人(尤其是熟人）所推荐的商品[2]。兴趣相投的用户之间的基于社会化行为的推荐和基于信任的推荐往往更能有效地筛选出准确、有价值的信息，如社会化音乐推荐、社会化智能新闻推介、社会化媒体聚合推荐等。",
+    "context2": "SCI的研究论文检索结果3显示，信息推荐自2000 年以来逐渐成为研究的热点。2004年达到一个小高峰，以此为界分为两个阶段;2005年有明显的回落，然后又逐年上升，直到2009年再次顶峰。根据研究内容得知，2004年以前的研究主要是单纯的用户需求分析和信息内容组织基础上的推荐，即用户需求与信息内容的匹配；从2005起，研究逐渐转向通过挖掘信息之间的关系、用户之间的关系甚至用户和信息的关系，进一步提高推荐的效率和效果。根据CNKI的趋势分析[4]和万方的知识脉络分析[5]，国内有关信息推荐的研究明显滞后于国外；自2002年才开始逐年升高,2006年达到小高峰，为分界点；2007年回落后又开始上升。2008年以来，国内外有关社会化推荐的研究越来越多，成为当前研究的主流。",
+    "context3": "综上，信息推荐研究在技术上大致遵循从基于内容的信息推荐、基于协同的信息推荐到混合式推荐[,而内容上则包括三种视角：用户模式视角、信息组织视角和关联关系视角，如图1所示。",
+    "context4": "![](images/d2877967585689a5e4a84fb19df4a83e56d48252c8c9af1e62d71b61d36d50a2.jpg)  \n图1信息推荐服务研究的演化过程"
+  },
+  "2信息推荐服务研究的演进": {
+    "context1": "传统信息推荐研究按照从内容推荐到协同推荐的技术路线，主要包括以下三种视角。"
+  },
+  "2.1用户模式视角": {
+    "context1": "主要依赖于用户需求或兴趣以及其信息行为等资料的挖掘建立用户的个性化模式，根据用户类型的不同调整推荐策略，以达到个性化推荐的目的。如通过收集用户阅读行为数据[7]Proxy日志[8]甚至聚类用户的浏览路径[9],计算挖掘用户的兴趣，生成兴趣特征；或将用户根据偏好[10]分为不同的群体，生成相应的模糊关联规则,对用户兴趣进行预则，据此进行信息推荐。通过综合分析用户的个人信息、浏览对象时间等动态学习和跟踪用户的兴趣[11],或者将智能代理引入用户兴趣模型，通过其自我演化逼近真实的用户兴趣[12],实现与用户兴趣相关度较高的、较准确的信息推荐。还如，将用户关注的主题特征与情感倾向相结合，扩展用户需求，使推荐变得更有针对性[13]"
+  },
+  "2.2信息组织视角": {
+    "context1": "此视角主要是在用户需求或兴趣模式建立的基础上，将信息进行整理和重新组织，如信息的聚合和重新排序等，将符合要求的同类信息推荐给用户；此视角已成为目前应用最多的信息推荐。如将信息重新组织、排序和集成[14],抽取信息项的特征[15],调整和重新评估不同信息的权重和价值，达到与用户需求的最优化匹配。在应用上，如数字图书馆中结合用户浏览网页信息和论文内容的文献推荐[16];将符合用户指定主题(一组关键词)的在线新闻通过电子邮件发送的Google快讯[17]和百度新闻订阅[18]等。",
+    "context2": "用户模式视角和信息组织视角的信息推荐可以概括为传统的基于内容的信息推荐服务[19],与经典的信息检索原理相似，自动将用户爱好和信息内容进行匹配来提供推荐。基于内容的信息推荐必须首先分析信息的内容，因此对音乐、图像、视频等信息无能为力，而且无法有效地判定信息的质量，无法很好地适应用户兴趣和需求的变化来提供新颖的推荐。"
+  },
+  "2.3关联关系视角": {
+    "context1": "关系关联视角的信息推荐旨在建立用户和信息源以及用户和用户的对应关系，基于协同过滤机理，通过分析用户的兴趣寻找特定用户的相似用户，在信息关联的基础上将用户关联起来，建立相似用户群或兴趣共同体。当兴趣共同体的某个用户或某几个用户对某信息(或商品)很感兴趣时，可以预测共同体的其他成员也感兴趣，从而将该信息（或商品）推荐给其他成员。",
+    "context2": "关联关系分为信息关联、信息-用户关系和用户关联；通过有效地建立起信息之间的关联，能够用户提供更多有价值的关联信息[20]。如利用已有用户数据和领域知识等背景信息[21和综合考虑用户自身和其邻居用户对推荐的影响，生成“用户-项目\"矩阵，分析计算用户之间的相似度，得到目标用户的邻居用户，产生推荐给目标用户[221；在分析合著者关系网络的基础上，得出合著者之间的相似程度，以此进行文献推荐[23]。研究者还将社会网的理论和方法引入信息推荐中[24],提出了基于社会网实现信息推荐的方法和原理；通过社会化标注研究用户与资源所形成的关系网络，探讨了将利用关系网络进行信息检索和推荐的新思路和主要应用[25]。",
+    "context3": "基于相似关系的信息推荐作为社会化推荐服务的雏形，给信息推荐提供一种新的研究思路；在充分利用用户个体以及个体属性的基础上，通过用户之间的交互分析用户个体的关系属性，使更多的用户参与到推荐中，发挥用户关系的作用，实现更高效且更具人性化的推荐。"
+  },
+  "3社会化推荐服务研究与应用": {
+    "context1": "Web2.0被提出以后，很明显的整个网络开始进入了社会化进程[26]；用户在信息活动中越来越成为一个社会化的媒体角色，其需求也从低层次的信息需求向高层次的社交和情感需求过渡。用户之间的交互变得越来越频繁，通过所用户关系所凝聚的“智慧\"使得信息推荐更具智能化和人性化，所催生出的服务推荐理念即社会化推荐。",
+    "context2": "社会化推荐(Social Recommendation,SR)是指：人们在各种社会化媒体上通过社会化的群体行为对信息内容进行推荐或分享，其具体形式包括有群体发掘（digging）、社会化书签（socialbookmarking）和社会化标签（social tagging)等；推荐得越多，相对价值越大；聚合这些推荐，将给用户带来质量最高、最稳定、新颖的文章和资讯。其中，“社会化\"包括两个维度，推荐来源是各种社会化媒体服务，推荐者是社会化网络中的人。由于其操作简易且具有交流互动性，广大用户从这种社会化互动中既体验到了互动的乐趣，同时为自己的信息查寻提供了一种全新的渠道。"
+  },
+  "3.1社会化推荐服务的理论与实证研究": {
+    "context1": "社会化网络服务中，用户通过各种社会化行为建立起各种关系网络，将用户以及用户的信息活动纳入到统一的关系链条中，产生了强大的社会化推荐作用。因此，在研究层次上,可将社会化推荐的研究分为基于社会化行为的推荐和基于用户关系网络的推荐。",
+    "context2": "（1）基于社会化行为的推荐。用户的社会化行为是社会化服务开展的基础，只有用户交互产生关系，并形成集体智慧，才能更好地发挥用户推荐的作用，国内外学者在在这一方面做了大量研究。标签、书签、评注等用户主动标识信息资源的社会化行为方式，能够更好地反映用户的兴趣，通过相似标签的聚类[27]、相似用户所标注的资源分析[28]等进行个性化推荐。如,通过音乐标签构建基于用户一标签一音乐之间的三维立体关系推荐模型，能够及时修订用户的喜好，有助于提高音乐推荐的准确度[291；从语义的角度组织社会化评注能够更有效地发现知识和进行推荐[30]等。",
+    "context3": "（2）基于用户关系网络的推荐。用户的社会化交互行为，不仅能够建立资源之间的联系，而且能够将资源背后的用户关联起来，形成了关系网络乃至相互之间的信任[31],使用户聚合为群体，产生社会化的群体影响[32]，能够有效地提高信息过滤和推荐的效率与效果，改善服务的体验和质量。台湾交通大学的李永铭以台湾著名的在线博客系统Wretch为例，从社会关系和语义分析的角度提出了基于信任模型的博客推荐机制[331;韩国Yeungnam大学的Jung提出了通过建立与专家互动的关系网络来改善信息推荐服务[34];英国Glasgow大学的Konstas分析了社会标注中用户兴趣的激发、关系的建立机制，构建了有效适应用户信息需求变化的协同推荐系统，并将其运用到社会化音乐网站last.fm中，证明此系统推荐更加有效和快捷[35]。等等。"
+  },
+  "3.2网络服务环境下的社会化推荐应用": {
+    "context1": "互联网上社会化推荐已经得到了广泛应用，主要是将有价值的信息聚合后再做推荐，大大提高了推荐的效果，因此也称为“聚合推荐”对互联网上具有社会化推荐功能的产品和服务的回溯，可将其服务模式归纳为以下类型： $\\textcircled{1}$ 基于社会化标引的推荐：如日志、电影、书籍、音乐等的相似 $\\mathrm { t a g }$ 推荐； $\\textcircled{2}$ 基于社会化评价的推荐：按用户的评价统计值（累计的 dig/bury、thumb up/down、被书签(bookmarked）和评论频次、等级值等)推荐或过滤—例如各类掘客网站、豆瓣等社会化媒体； $\\textcircled{3}$ 基于用户关系的推荐：好友的推荐—例如社会化书签服务Delicious、微博 Twitter、社交网Facebook 等; $\\textcircled{4}$ 综合推荐：将分类、历史数据、社会化标引、社会化评价、关系网络等综合起来的推荐—例如玩聚、鲜果等社会化推荐服务。",
+    "context2": "目前，很多网站正在积极的探索社会化推荐服务，从单纯的内容推荐，到与各大社交网站Face-book、MySpace等合作，利用用户的关系扩大推荐的范围和提高推荐的效果，比较典型的如社会化分享社区Mylikes,已成为当前社会化推荐应用的主流。"
+  },
+  "4研究不足与推进": {
+    "context1": "目前的社会化推荐服务大多还是纯粹的机器聚合推荐，基于对用户社会化行为的挖掘来体现用户的兴趣，以此作为推荐的基准；其存在固有的缺陷：$\\textcircled{1}$ 不能有效进行内容的质量控制。如聚合自己以及好友各种社会化服务的Friendfeed虽然能够在第一时间提高用户的信息获取效率，但当订阅源到达一定基数时，其机器聚合推荐方法无法对内容进行有效处理和筛选，再次出现信息爆炸，加重用户的负担。 $\\textcircled{2}$ “大众化”与“个性化”难以平衡。利用社会化的机制能够很到地帮助用户筛选信息，但是很难保证推荐最多的内容就一定是用户感兴趣的，理论上的算法无法达到两者之间的协调。",
+    "context2": "网络社会化的出现，充分说明了用户需求的升级，即越来越注重由社交所带来的情感需求的满足，相互之间的推荐和分享对信息的传播产生了重要的影响，如越来越多的用户在使用Twitter、Facebook、FriendFeed等基于用户关系的社会化机制来过滤推荐信息。因此，人们已经越来越意识到单纯的机器语义根本无法彻底解决用户的精准需求，比较好的办法则是人的参与；尤其是在以“用户关系”为核心的社会化网络服务时代，以下两个方面的研究显得尤为重要： $\\textcircled{1}$ 把信息流的控制权最大化地交给用户，刺激更多的用户交互行为，提升用户的服务应用体验；$\\textcircled{2}$ 从信息聚合转向用户聚合，通过信息的分享和传播来产生用户信任，从而逐步建立起用户之间的关系网，基于用户的社会化关系进行推荐。"
+  },
+  "参考文献": {
+    "context1": "1 CHEN X Z, ZHENG Q H, GUAN X H, et al.Multiple be",
+    "context2": "havior information fusion based quantitative threat evaluation[J]. Computer & Security,2008,24(3): 218-231.  \n2NING P,CUI Y,REEVES D S,et al. Techniques and toolsfor analyzing intrusion alerts [J].ACM Transaction on Infor-mation and System Security,2009,7(2): 274-318.  \n3MATHEW S,SHAH C,UPADHYAYA S.An alert fusionframework for situation awareness of coordinated multistageattacks [C]//Proceedings of Third IEEE International Work-shop on Information Assurance.College Park,Maryland:IEEEPress,2007:95-104.  \n4张德祥，牟建波，王晓燕.基于虚拟技术的图书馆网络安全体系的设计与实现[J].现代图书情报技术,2009，(6)：73-76.  \n5邢后江,刘慧.信息时代网络安全体系的建设与管理[J].计算机安全,2008,（10):41-43.  \n6李媛.近五年来数字图书馆信息安全问题研究综述[J].图书馆学研究,2008,(12)：10－12.  \n7曾星媛.高校图书馆数字信息资源系统的安全及解决策略[J].现代情报,2007，(2)：90－91,94.  \n8 杨向明.论数字信息资源的网络安全[J].中国图书馆学报,2004,(2): 66 - 68.",
+    "context3": "(责任编辑：刘凤琴)"
+  },
+  "8 李鹏,汪东升，等.一个基于VSM的个性化信息推荐系统[J].计算机工程与设计,2003,(10):19-22.": {
+    "context1": "9Yu Y.J.,et al. Personalized Web Recommendation Based on Path Clustering [A]. Flexible Query Answering Systems, Proceedings[C]. Heidelberg: Springer Berlin, 2006: 368-377.   \n10 Chen C.T.,et al.A user preference classification method in information recommendation system [C].4th International Conference on Electronic Business.Beijing: International Academic Publishers Ltd,2004:1091-1096.   \n11 安芳.电子商务个性化信息推荐服务的研究[D].北京: 对外经济贸易大学,2006.   \n12 唐灿,朱征宇.基于模糊兴趣模型的个性化推荐算法[J]. 计算机工程与应用,2006,(9):166-168.   \n13 肖东辉.基于主题与情感倾向的信息推荐算法研究[D]. 北京：北京邮电大学,2008.   \n14Su J.H.,et al. Personalized rough-set-based recommendation by integrating multiple contents and collaborative information [J].Information Sciences,2010,180(1):113-131.   \n15Basile P.,et al. Semantic Bayesian profiling services for information recommendation [C].Berlin: Springer -Verlag, 2007: 711-719.   \n16Hwang S.Y.,et al. Combining article content and Web usage for literaturerecommendation in digital libraries[J]. Online Information Review,2004,28(4): 260-272.   \n17Google 快讯[EB/OL]. http://www.google.com.hk/alerts,2010- 08-04.   \n18百度新闻订阅 [EB/OL]. http://newsalert.baidu.com/,2010- 08-04.   \n19Resnick P.,Varian H.R.Recommender Systems[J]. Communications of the ACM,1997,40(3), 56-58.   \n20 许鹏,刘渊.建立信息关联方法的研究和应用[J].微 计算机信息,2010,(9):120-122.   \n21吴一帆,王浩然.结合用户背景信息的协同过滤推荐算法 [J].计算机应用,2008,(11):2971-2974,2979.   \n22潘红艳,陶剑文,等.基于信息项和用户群的信息推荐机制 [J].情报学报,2006,(5): 601-605.   \n23 Hwang S.Y.,et al. Coauthorship networks and academic",
+    "context2": "执行看，个别人员存在为应付检查而注重各种值班记录及设备保养的文本登记，未将工作真正落实。因此,将数字图书馆从业人员资格及人员培训制度化，将各种规章制度落实到工作方方面面，才能真正做到校园数字图书馆网络安全制度化保障[8]。"
+  },
+  "4结语": {
+    "context1": "数字图书馆网络安全建设是一项包含着人才培养、软硬件环境建设、规章制度制定执行、用户服务满意度保障的系统工程。只有不断增强广大数字图书馆联网单位和计算机用户安全防范意识，结合自身实际特点，有针对性加强安全建设。提高主动发现安全事件的网络监测技术水平，规范内部管理,才能确保高校数字图书馆科学、安全、可靠、高效地为用户服务。"
+  },
+  "（上接第311页）": {
+    "context1": "literature recommendation [J]. Electronic Commerce Research and Applications,2010,9(4):323-334.   \n24 陈定权,武立斌.社会网络视角下的信息推荐[J].情报杂 志,2007,(11):37-39,42.   \n25魏建良,朱庆华.社会化标注理论研究综述[J].中国图书 馆学报,2009,(6):88-96.   \n26Zhao Kelvin.互联网发展方向:社会化[EB/OL].http://www. wappblog.com/50226711/aeec_cae_108068.php,2007 -07 -   \n07.   \n27黄晓斌.社会书签与网络信息推荐服务[J].情报理论与实 践,2006,(1): 121-124.   \n28 田莹颖.基于社会化标签系统的个性化信息推荐探讨[J]. 图书情报工作,2010,(1):50-53,120.   \n29Nanopoulos A. MusicBox:Personalized Music Recommendation Based on Cubic Analysis of Social Tags[J].Ieee Transactions on Audio Speech and Language Processing,   \n2010,18(2): 407-412.   \n30Li H. Q.Exploring Social Annotations with the Application to Web Page Recommendation [J]. Journal of Computer Sci",
+    "context2": "ence and Technology,2009,24(6): 1028-1034. 31Walter F.E.A model of a trust-based recommendation system on a social network [J].Autonomous Agents and MultiAgent Systems,2008,16(1):57-74."
+  },
+  "32胡昌平,胡吉明，等.基于社会化群体作用的信息聚合服务[J].中国图书馆学报,2010,(3):51-56.": {
+    "context1": "33Li Y.M.,et al.A synthetical approach for blog recommendation: Combining trust, social relation,and semantic analysis[J].Expert Systems with Applications,2009,36(3):6536- 6547.   \n34Jung J.J.Contextualized mobile recommendation service based on interactive social network discovered from mobile users[J]. Expert Systems with Applications,2009,36 (9): 11950-11956.   \n35Konstas I.et al. On Social Networks and Collaborative Recommendation [C]. SIGIR O9 Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval. New York:ACM,20o9:195- 202.",
+    "context2": "(责任编辑：刘凤琴)"
+  }
+}

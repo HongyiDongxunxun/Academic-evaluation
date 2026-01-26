@@ -1,0 +1,83 @@
+{
+  "original_filename": "full_4275.md",
+  "基于Agent的智能检索综述": {
+    "context1": "李志义，池爽",
+    "context2": "（华南师范大学经济与管理学院，广东广州 510631）",
+    "context3": "摘要：将Agent技术应用到智能检索领域是智能检索发展的新方向。本文主要从Agent系统基础理论、模型构建、及系统应用研究三个方面对国内外基于Agent的智能检索研究进行了综述，并预测其发展趋势。",
+    "context4": "关键词：Agent；multi-Agent；智能检索；ontology",
+    "context5": "中图分类号：G354 文献标识码：A 文章编号:1007-7634(2009)07-1035-05"
+  },
+  "Agent-based Intelligent Search Review": {
+    "context1": "LI Zhi-yi, CHI Shuang",
+    "context2": "(Economic and Management School, South China Normal University， Guangzhou 510631,China)",
+    "context3": "Abstract：Agent technology will be applied to the field of Intelligent Search,which is the new direction of development.This article from the Agent system based on theory,modeling,and system application of the three aspects of domestic and foreign Agent-based Intelligent Search study are reviewed, and forecast its development trend.",
+    "context4": "Keyword: agent； multi-agent; intellgent search ； ontology"
+  },
+  "1引言": {
+    "context1": "智能检索是由抽词检索与全文检索发展而来，它以检索词的相关度为基础，是对检索词具有较高的判断能力、理解能力和处理能力的人工智能型的检索系统。利用分词词典、同义词典,同音词典等来改善用户的输入，此种系统还能对文本资料进行语言学意义的理解，当用户查询时，对查询语句进行理解，然后再对文本进行语义上的概念匹配。",
+    "context2": "Agent理论技术研究始于20世纪80年代末，它从分布式人工智能领域拓展开来并与许多其他领域相互借鉴与融合。根据IBM\"智能Agent策略白皮书”对Agent的定义：Agent是一个具有适应性和智能性的软件实体，能代表用户或其他程序以主动服务方式完成一项工作。它封装了有独立功能的模块，包括自己的数据和能对这些数据惊醒操作的算法，能接受和处理其他Agent发送来的消息，也能向其他Agent发送消息。是一个有独立解决问题能力，并随环境变化而变化的实体。它具有： $\\textcircled{1}$ 自主性、 $\\textcircled{2}$ 反应性、 $\\textcircled{3}$ 交互性、 $\\textcircled{4}$ 主动性、 $\\textcircled{5}$ 推理和规划能力[1]。",
+    "context3": "近几年智能信息检索作为人工智能的一个独立研究分支得到了迅速发展，而面对Internet技术的快速发展和网络信息的骤增，如何获取有效信息成为检索研究领域的主流课题。Agent技术正是在这一背景下应运而生，它与智能检索相结合提高了检索技术的智能化，促进人机交互，使信息的收集、过滤、聚类和信息融合更有效率。同时通过跟踪用户在信息查询的活动，自主的捕捉用户兴趣爱好，搜索可能引起用户兴趣的信息并提供给用户。其主要功能有： $\\textcircled{1}$ 个性化信息管理代理。管理用户个人资料，尤其是个人目标下的信息。包括用户偏好，检索习惯等。 $\\textcircled{2}$ 信息自动通知。自动探测信息变化和信息更新；自动存储数据并提示用户。 $\\textcircled{3}$ 浏览导航。通过分析用户兴趣，提供建议性的链接。 $\\textcircled{4}$ 智能搜索。进行信息过滤，为用户提供准确信息。 $\\textcircled{5}$ 动态个性化页面。提供友好界面，便于用户操作。",
+    "context4": "目前学者对基于Agent的智能检索的研究主要集中在三个层次：Agent系统基础理论,Agent模型研究与构建,Agent系统应用。其中文献最多的是Agent模型研究与构建,是研究的主要领域,而关于Agent系统基础理论的文献相对较少。因此,本文主要从以上三个方面对国内外基于Agent的智能检索研究进行综述，并预测其发展趋势。"
+  },
+  "2国内外研究现状及进展": "",
+  "2.1 Agent系统基础理论": {
+    "context1": "这部分研究主要集中在Agent智能检索系统的理论基础。一方面从系统的结构、特征、功能等方面对智能检索系统进行研究，另一方面探讨对于某特定领域的Agent智能检索研究的基础理论。",
+    "context2": "《智能检索Agent系统研究》指出分布式智能检索 Agent系统的体系结构的第一层是用户接口A-gent，学习和表示用户个性化模型；第二层是控制Agent,处理各种调控任务；第三层是检索Agent,集成各类智能和非智能技术，构建多种检索模式与策略。目前创建检索Agent系统主要有3种途径：集成方法、基于知识的方法、学习的方法，并指出了智能检索Agent系统的主要功用：智能导航、知识检索、用户知识的动态学习与管理[2]。",
+    "context3": "Hsieh-Chang Tu，Jieh Hsiang把网络智能信息检索Agent的特性归纳为： $\\textcircled{1}$ 智能互动性， $\\textcircled{2}$ 导航性, $\\textcircled{3}$ 信息自动告知性， $\\textcircled{4}$ 信息个性化处理， $\\textcircled{5}$ 页面的个性化, $\\textcircled{6}$ 辅助阅读。其结构分为三层次： $\\textcircled{1}$ Agent群。定义成为多个用户提供服务的一起工作的一组Agent $\\textcircled{2}$ subagent。群里面起一定作用的单个Agent。包括交流 Agent、proxy（代理)Agent、搜索 Agent、Navigation（导航)subagent、Notification （通知)sub-agent、Monitor（监察）subagent、网络蜘蛛等。 $\\textcircled{3}$ sub-agent 之间的协作[3]。",
+    "context4": "盛秋雁提出了基于Agent的个性化信息检索技术。她阐述了一个由三个Agent模块协同工作的系统模型。用户Agent是根据用户兴趣的偏好和信息的反馈训练出来的，实现了个性化服务；信息搜索Agent自主运行，及时获取用户喜欢的最新信息，实现了主动信息服务；信息过滤Agent实现网上信息资源和用户个性化需求模式的匹配，体现了信息服务个性化的特点。她通过相应的公式来对用户模型重整并量化确定用户喜好偏向；有限深度--广度优先的搜索算法，沿着与用户所要求的内容接近的文档中的链接搜索来确定搜索Agent搜索原理；并采用向量空间法进行个性化信息过滤，最后达到满意检索的效果[4]。",
+    "context5": "Roy M.Turner,Elise H.Turner等五人提出基于知识背景的网络智能检索Agent。并用FERRET(FacilitatedElaborationandRetrievalforRe-searchers'andExperts’Tasks）对关于音乐的学术信息进行检索，来评价运用知识背景后网络智能检索Agent后的检索效果。“从总的结果来看，检索效果可以从背景知识的运用中获益。它可以帮助它选择返回给用户和语言使用的详细程度[5]。”"
+  },
+  "2.2模型研究与构建": {
+    "context1": "模型研究与构建是智能检索与Agent相结合的主要研究领域。而且框架的构建对于Agent在实际的运用方面给予指导。从搜索到的文献来看，国内的研究成果主要有张永、侯莉莉、周振龙的《基于多Agent的智能信息检索框架》,他们提出了IIRM.A-gent的二层结构，即将IIRM.Agent分为两层，分别是保存用户个人兴趣配置的个人代理 (personal a-gent,PA)和保存用户组共同兴趣的组代理(group a-gent,GA)，一个PA从用户那里学习用户的浏览爱好，而GA首先从PA那里获得每个用户的个人兴趣，然后通过计算获得该用户组的共同兴趣，从而找到反映该用户组共同兴趣的页面，并对这些页面长期监控以适应用户组不断变化的需求；[6]赵伟，孙万东认为基于Ontology的检索系统提高了检索性能，但智能化和个性化程度并没有得到更好的改善，由此提出了基于本体的多Agent智能检索模型;[7]王磊,王立胜，顾训镶提出的《基于多Agent的中文智能检索模型》；彭波等三人提出的《语义万维网中基于Agent的智能检索框架》;陶兰，杨睿，陈冲的《基于Ontology的智能检索系统框架研究与实现》。",
+    "context2": "针对当前搜索引擎存在中文信息搜索不准确、相关性低、时效性差、覆盖不全、没有提供用户个性搜索等问题，王磊等人提出了基于多Agent中文智能搜索模型，如图1所示。",
+    "context3": "![](images/1dd5c5552f9ed7d2d4c2be55529667081ce07935a64a760804ff4ed778510104.jpg)  \n图1基于多Agent中文智能搜索模型",
+    "context4": "该模型使用4个Agent协同完成中文搜索。交互Agent是链接用户和系统的中间构件。提供个性化的用户界面;给出用户最长使用和最近使用信息；结果不适则给出警告并提出建议；更新资料及信息反馈等功能。查询Agent是将自然语言转化为关键词集合，并在允许范围内对用户所要查询的关键词进行智能扩展，以便扩大信息有效搜索范围。主要功能包括接受查询语句；分解关键词并建立and关系；智能过滤和智能扩展；生成关键词列表。搜索Agent主要功能是进行数据搜索工作，发送搜索请求至多个搜索引擎和动态数据源；接收来自多个搜索引擎和动态数据源的查询结果，并将结果交由分析A-gent进行处理。分析Agent主要功能是根据用户输入的资料对接收到的搜索结果进行再次搜索，以词为单位进行信息匹配，通过个人资料中的数据运用模糊算法计算信息相关性，进行排序[8]。",
+    "context5": "由于互联网信息量巨大，Web又缺乏足够的语义信息，使得它很难被机器理解，从而造成web信息获取的困难。语义万维网就是人工智能和web技术相结合的产物。利用Agent和Ontology技术将语义web 的各部分相结合可以有效提高基于语义的web信息检索的服务质量，这也是今后智能检索发展方向。彭波、王一鸣、徐林等三人构造了语义网中智能检索框架[9]，如下图2所示。",
+    "context6": "其主要通过信息搜集Agent、推理Agent、存储Agent和查询Agent的相互协同将检索结果返回给用户。首先由信息搜集Agent对万维网描述页面中元数据进行提取过滤，交给存储Agent，由存储A-gent保存到合适的数据库中。建立描述领域知识的Ontology，由推理Agent对用户查询关键词进行语义匹配和语义相关性扩展,将得到的基于Ontology的查询要求交由查询Agent执行，最后返回结果。陶兰在此基础上还做了进一步阐述。论文中以“Wine\"领域进行智能查询为例，重点介绍推理Agent的知识推理引擎。她认为“推理Agent的推理引擎应该能根据领域Ontology中对各概念的定义推断出这个关键词在查询中的精确语义及与此关键词语义相关的词语和概念。\"并将推理分为两种：关键词语义匹配和相关性扩展。",
+    "context7": "![](images/7076e7a67e28bc77c06d876a934becd79ac4264acdd7e033eb2008b613260bc3.jpg)  \n图2语义网中智能检索框架",
+    "context8": "最后选择 JADE(Java Agent Development Frame-work)作为Agent平台和开发工具,用Omnihttpd软件作为Web服务器构建了一个虚拟的语义Web 环境,构架检索系统并进行了测评[10]。",
+    "context9": "此外 Wooju Kim ,Dae Woo Choi ,Sangun Park等提出了基于Agent的用本体映射为技术手段的产品信息智能检索框架。模型分三个部分： $\\textcircled{1}$ Productsearch intentionelicitor(产品检索意图)用户对所需要产品进行描述。 $\\textcircled{2}$ Product search broker(产品检索)包括三个模块:Ontology Mediator（本体调节器）,Query Generator（质疑发生器）,和Product Informa-tionTranslator（产品信息转换器）。将用户的产品需求发送给处理程序并通过本体映射方式转换成一系列的疑问，与每个商店节点匹配。 $\\textcircled{3}$ Product evalu-ationagent（产品评价代理）根据用户意图对检索结果进行评价比较，返回给用户最终检索结果[11]。",
+    "context10": "在信息检索系统中，大多数的Agent是独立或是依靠某个平台，在分布式环境下缺少沟通和交流，因此可能得到不可靠的信息。韩国学者JaeseonKo，BobbyD.Gerardo五人针对以上问题提出基于移动Agent运用神经网络和聚类方法的信息检索系统框架。在 Management Agent 中加入了 Neural-",
+    "context11": "Fuzzy Cluster和基于本体文档的移动Agent。最后证实该模型在信息检索中间少了数据重复，也提高了检准率[12]。",
+    "context12": "针对网络信息过量，网页增长速度快,Christo-pher C.Yang，Jerome Yen，Hsinchun Chen 建立了互联网文本自动分析和 hybrid simulated annealing的智能网络检索Agent。其智能Agent包括两部分：$\\textcircled{1}$ automatic indexing（自动标引）首先进行文字识别，再利用禁用词表剔除无用的词，并保存到文档，形成网络文档的关键词。 $\\textcircled{2}$ hybrid simulated annealing。搜索引擎采用两种方式算法：Bestfirstsearch（最好优先搜索)和hybrid simulated annealing。先初始化,由所搜引擎对一系列主页进行标记，取有关联的主页，并对所取主页和相关主页进行比较，对由最高浏览人数的网页赋值，最后利用公式获得网页权重。通过比较hybrid simulated annealing 算法比 Best firstsearch有较高的检准率和返回率[13]。",
+    "context13": "M.F.Jiang，S.S.Tseng，C.J.Tsai针对数字图书管检索问题提出并建立了以 Structural Documents为基础的用于文件数据库系统的智能查询Agent模型[14]。这个模型可以把用户的检索需求转换成为机器可理解的查询格式，并配合需求，实现双向的插入和修改。",
+    "context14": "F.Bergadano，A.Puliafito，S.Riccobene,G.Ruffo，L.Vita建立了在分布式信息检索中利用软件代理技术和运用java语言的系统模型[15]。"
+  },
+  "3Agent系统应用": "",
+  "3.1成为智能检索研究领域的主流": {
+    "context1": "基于Agent的智能检索系统在各方面的应用已经成为智能检索研究领域的主流，研究领域也比较广泛。如杨鹤标，陈华，徐向英通过分析Agent的特征及其模块研究，运用先行匹配算法将基于Agent的智能检索利用到类库管理中,并得出“基于Agent的智能检索思想表现出极强的灵活性和潜力，很好地解决了CLMS中类部件检索的快捷准确性问题，减少了人工干预，有效地提高了CLMS的智能化水平，增加了类库间协作能力并且提高了复用率[10]。”；Agent的智能检索还被运用到留言板的智能管理方面。彭泽华的《数字图书馆网上参考咨询留言板的之恩那个管理模式》,提出了全智能的管理模式，此种管理模式面临的技术难题和对应的解决方法[17];鲁芹和曹小东的《基于网络教育的留言板管理技术研究》[18];及Agent的智能检索在信息平台建设，提供个性化信息检索服务方面的应用。安徽省科技文献共建共享平台就用了智能Agent提供个性化的智能化的信息检索服务[19]。夏小玲、乐嘉锦介绍了一个基于Internet的商品信息采集Agent系统，系统采用分布式智能体Agent技术，适用于Internet上文档的并行查询与检索，采用相关反馈学习算法、用户与用户Agent以及用户Agent与信息Agent的交互机制等技术，使用户能够获得同一商品的不同价格信息[20]。"
+  },
+  "3.2广泛应用于中文检索中的信息过滤": {
+    "context1": "在中文检索方面，朱艳辉、阳爱民、王平提出了《基于Agent的中文信息智能检索系统》，为避免搜索Agent重复获取网页，他们提出了MD5算法：将任意给定的消息通过一定运算规则，将之快速映射一定长度的值，不同消息有不同的值,因此具有唯一性。信息过滤Agent首先是预处理及特征抽取，再统计词频和设计词典,最后用基于 svm(Support VectorMachine)过滤器进行信息过滤[21]。",
+    "context2": "针对网络商店和网上产品目录的增加，检索产品和信息过滤变得困难。Christos Makris、Athanas-sios Tsakalidis、Bill Vassiliadis 研究了多 Agent智能信息检索引擎并将其应用到网络商店及产品目录查询领域。同时提出新的方法实现过滤、检索、排序这三方面同结构调整之间的平衡。其检索引擎分六种Agent:SearchAgent;RetrieveAgent; UserAgent;Ranking Agent ; Catalogue Agent ; Marketing Agent[22]"
+  },
+  "3.3应用于留言板管理等在线交互系统中": {
+    "context1": "在《基于网络留言板管理技术研究》中，作者针对在传统教学中的答疑解惑及网络教育中留言板的管理技术出现的问题，提出了两种解决方案： $\\textcircled{1}$ 半自动管理模式。建立专家库，主要保存教师的基本资料。首先进行课程名匹配，联系专家，若不在线通过Email留言，并规定回答期限。而专家只需发送答案到留言板即可。最后系统负责记录。 $\\textcircled{2}$ 全自动管理模式。答疑留言板管理过程全由Agent来完成。",
+    "context2": "此外，由于Agent的多样功能,它还可以针对其他类型的信息检索系统提供适合本领域信息特点的检索方式,并获得最佳的检索效果。如：Vasilios S.等把Agent技术应用到超媒体信息检索;SocratesDimitriadis等将多Agent应用到以内容为基础的图像检索领域，以实现图像的智能检索。系统建设理论背景主要依靠三方面： $\\textcircled{1}$ Biological vision（生理视觉）， $\\textcircled{2}$ Agents, $\\textcircled{3}$ Voting theory（投票理论）；以及六个 Agent : $\\textcircled{1}$ Agent colorRGB, $\\textcircled{2}$ Agent colorHSVV, $\\textcircled{3}$ Agent colorLAB, $\\textcircled{4}$ Agent textureHistogram, $\\textcircled{5}$ AgenttextureGabor , $\\textcircled{6}$ Agent shape。增加了图像检索系统的灵活性和效率性[23]。"
+  },
+  "4结语": {
+    "context1": "通过DOAJ和OpenJ-Gate两大OAJ数据库统计资料分析可以看出，目前发达国家，如北美、西欧等国，开放存取发展较快,OAJ的出版量相应也较大；而一些发展中国家，开放存取也渐入轨道,象巴西、印度等国家发展非常迅速,OAJ的出版量名例发展中国家前列，其活跃程度甚至超越一些发达国家。虽然中国的OAJ的开放度和出版量相对滞后，但近年OAJ数量有了明显的增长，已开始形成一定的数量规模。相信中国能和巴西、印度一样共同领导发展中国家的开放存取运动，让发达国家认识到来自发展中国家的高质量的学术研究的价值，为全球无障碍学术交流与共享做出应有的贡献。"
+  },
+  "参考文献": {
+    "context1": "1American Mathematical Society.Developing Countries List [EB/OL]. http://www.ams.org/membership/develop.html, 2008-07-28.",
+    "context2": "2UNDP.List of industrialized and developed countries (Source：UNDP list)[EB/OL].http:/www.upu.int/faqs/en/ list_of_countries_and_territories_en.pdf,2Oo8-07-28.",
+    "context3": "3Lund University Libraries.Directory of Open Access Journals [EB/OL]. http://www.doaj.org/.2008-07-28.",
+    "context4": "4崔新琴.开放存取期刊地理分布状况分析［J].图书馆建设,2008,(7):52.",
+    "context5": "5Informatics(India) Ltd. Open J-Gate [EB/OL]. htp://www. openj-gate.com/,2008-08-26."
+  },
+  "6赵辉.印度推动开放存取的进展一第三世界的超级大国还是边缘小国[J].数字图书馆论坛,2005,(12)：41.": {
+    "context1": "7FAPESP/BIREME/CNPq.SciELO Brazil[EB/OL].http:// www.scielo.br/,2008-08-08.",
+    "context2": "8D.K.Sahu,Ramesh C. Parmar. Chapter 19： Open Access in India[EB/OL]. http://openmed. nic.in/1599/01/Open_Access _in_India.Pdf,2008-08-08.",
+    "context3": "9FAPESP/BIREME/CNPq. SciELO[EB/OL]. http://www. scielo.org/,2008-08-08.",
+    "context4": "10CRIA in brazil,Universityof Toronto at Scarborough. Bioline International [EB/OL]. http://www.bioline.org.br/, 2008-08-08.",
+    "context5": "11B Kirso,S Arunachalam,L Chan.Access to Scientific KnowledgeforSustainableDevelopment:Optionsfor Developing Countries[EB/OL].http://www.ariadne.ac.uk/ issue52/kirsop -et-al/,2008-08-08.",
+    "context6": "(责任编辑：孙晓明)"
+  },
+  "（上接第1039页）": {
+    "context1": "20夏小玲，乐嘉锦.基于Agent的个性化智能信息检索系统[J].计算机应用与软件,2003,（8）：55-56.",
+    "context2": "21朱艳辉.基于Agent的中文信息智能检索系统［J].计算机应用与软件,2007，(5):42-44.",
+    "context3": "22ChristosMakris,Athanassios Tsakalidis,Bill Vassiliadis。",
+    "context4": "Towards Intelligent Information Retrieval Engines:A Multiagent Approach[C]. Springer-Verlag,2000:157-170. 23Socrates Dimitriadis &,Kostas Marias,Stelios C.Orphanoudakis.A multi-agent platform for content-based image retrieval[J].Multimed Tools Appl,2007,(33):57-72.",
+    "context5": "(责任编辑：孙晓明)"
+  }
+}

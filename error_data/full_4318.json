@@ -1,0 +1,120 @@
+{
+  "original_filename": "full_4318.md",
+  "nothing": {
+    "context1": "$\\bullet$ 冯勇，吕红旭，徐红艳'，王嵘冰'，张永刚²",
+    "context2": "（1．辽宁大学信息学院，辽宁沈阳110036；2.吉林大学符号计算与知识工程教育部重点实验室，吉林 长春 130012)"
+  },
+  "基于SDZ-LSTM的舆情事件网络趋势预测模型": {
+    "context1": "摘要：目的/意义舆情趋势预测是信息安全领域的重点研究方向，网络舆情事件的早发现、早干预是对网络环境得以安全稳定的一种保障。但网络环境错综复杂，具有高突发性，现有研究多以线性预测为基础，对舆情突发事件预测效果欠佳。仿法/过程为提升预测准确度，文章通过引入SDZ（Suprisal-Driven Zoneout）方法改进长短期记忆网络（Long-short Term Memory，LSTM）用固定概率更新神经元的不足，提出了基于SDZ-LSTM的舆情事件网络趋势预测模型。模型分为三个层次，首尾两个层次用LSTM网络来实现对舆情的精确预测，中间层SDZ-LSTM结构利用 SDZ在LSTM原有结构基础上增加一个参数 $Z _ { t }$ ，来对LSTM记忆单元 $C _ { t }$ 进行概率化的更新，该结构使模型在预测精度提高的同时，缩短了模型训练时长。结果/结论实验证明，文章所提模型在预测准确度和时效性上均优于当前基于神经网络的预测模型，有更好的舆情预测效果。",
+    "context2": "关键词：舆情预测；长短期记忆网络；趋势预测；突发事件",
+    "context3": "DOI:10.16353/j.cnki.1000-7490.2021.06.023",
+    "context4": "引用格式：冯勇，吕红旭，徐红艳，王嵘冰，张永刚．基于SDZ-LSTM的舆情事件网络趋势预测模型．情报理论与实践，2021，44（6)：158-163."
+  },
+  "The Network Trend Prediction Model of Public Opinion Events Based on SDZ -LSTM": {
+    "context1": "AbstractPurpose/significancelPredictionof network publicopinionisakeyresearchdirection in thefieldof information security.Earlydetectionandearlyinterventionofnetworkpublicopinioneventsareof greatsignificancetothemaintenanceofsocial securityandstability.Howeve，thenetworkenvironmentiscomplexandhashighsuddennessMostof theexistingstudiesarebased onlinearprediction，sothepredictionefectofpublicopinionemergencies ispoor.Method/processInorder toimprovethepredictionaccuracy，thispaper introduced Suprisal-driven Zneout（SDZ)methodtoimprovethedficiencyofLong-shortTerm Memory（LSTM）updating neurons withfixed probability，and proposedanetwork trend prediction model ofpublicopinionevents based on SDZ-LSTM.Model isdivided intothreelevels，andLSTMnetwork isused torealizeaccurate predictionofpublicopinionatthe beginningandendof thetwo levels，themidle tier SDZ-LSTMstructureusing SDZ inLSTMoriginal structureonthebasisof adding a parameter $Z t$ ，probability of LSTM memory unit $C t$ for updates，the structure model in the prediction accuracy increase at thesam time，shortenthetraining model time.Result/conclusion]Theexperimentalresultsshowthatthe modelproposed in this paperissuperiortothecurrent predictionmodelbasedonneuralnetwork intermsof predictionaccuracyandtimeliness，and has better prediction effect of public opinion.",
+    "context2": "Keywords:prediction of network public opinion; Long Short-Term Memory； trend prediction； emergency",
+    "context3": "网络技术的普及促进了世界各国政治、经济、文化的发展与交流，其中蕴含的矛盾与冲突也导致网络舆情事件频发，给国家社会的安全稳定带来巨大的影响。所谓网络舆情就是以互联网为平台，通过各个媒体平台为载体，表现出网民对现实生活中某些热点问题所持有的观点。网络舆情反映出民情民意，因此对网络舆情事件开展预测",
+    "context4": "研究意义重大。",
+    "context5": "网络舆情事件往往是突发的、难以预测的，反映出人们对热点事件的关注程度，对于舆情趋势的预测是舆情研究的一种重要分析手段，目前已取得一定的研究成果。其中史蕊等利用粒子群算法优化GM（1,1）幂模型的参数，同时结合GM(1,N）模型构建组合灰色模型，用于预测网络舆情热度发展趋势。郑步青利用“拐点”问题对舆情发展的影响，通过对舆情拐点的判断研究，在灰色预测的基础上建立了镜像处理和分段预测模型来对舆情进行预测。王亚民等以马尔科夫模型为基础，利用遗传与二次规划的组合模型对状态转移矩阵求解，同时使用动态误差补偿公式修正实验结果从而提高预测精度。黄亚驹，陈福集等先后构建了关于模糊逻辑事件的序列预测模型和反向传播（Back Propagation，BP）神经网络预测模型，最后以组合的方式来提高事件预测的整体准确度，完成了对舆情事件的尽早预测。李倩倩等通过提取政务微博的特征体系，构建政务微博信息转发规模预测模型，用来刻画政务微博转发规模的影响因素，同时通过比较多种机器学习算法测算政务微博转发规模分类预测的性能。王宁等在灰色系统的基础上，对不同媒体平台的舆情事件的热点指数进行预测，提出了舆情预测和网络事件分级管理系统[。",
+    "context6": "综上所述，目前舆情预测方面的研究多以线性模型为主，其预测准确度偏低。而使用非线性模型进行预测，由于网络舆情事件存在众多不确定因素，会导致高计算复杂度。为提升网络舆情事件预测的准确性和时效性，本文提出了在长短期记忆网络中（Long-Short Term Memory,LSTM）中融合 SDZ（Suprisal-Driven Zoneout）方法，即基于SDZ-LSTM的舆情事件网络趋势预测模型，该模型分成三个网络层次：第一层利用LSTM结构中记忆门限的功能来对输入序列的特点进行记忆及预测，同时LSTM网络结构也有助于突发事件的提前预测；在第二层SDZ-LSTM层次结构中，由于SDZ方法的融入可以对前一时间步的激活进行概率化替换，因此在LSTM结构的基础上增加了一个 $Z _ { t }$ 使得LSTM的记忆单元 $C _ { t }$ 的取值更准确，保持了序列在网络中的前后流动，由于不用指定门限的输入概率值，在一定程度上也缩短了模型的训练时间；最后在第三层利用LSTM层次结构对上一层的输出数据做进一步预测以提高准确率。通过对比实验表明，本文所提模型与循环神经网络（Recurrent Neural Network，RNN）预测模型和BP（Back Propagation）神经网络相比在预测准确度上有较大提高，同时缩短了预测用时。"
+  },
+  "1相关理论": "",
+  "1.1 LSTM": {
+    "context1": "近几年，LSTM成为在实际应用中比较有效的序列模型，LSTM的工作方式与RNN基本相同，区别在于LSTM实现了一个更加细化的内部处理单元，来实现上下文信息的有效存储和更新。LSTM引入了记忆单元和门控记忆单元保存历史信息、长期状态，门控并不会提供额外的信息[1-。内控的表示形式如公式（1）所示：",
+    "context2": "$$\n\\begin{array} { r l } { g ( \\mathbf { \\theta } _ { x } ) } & { { } = \\sigma ( \\mathbf { \\theta } W x \\mathbf { \\theta } + b ) } \\end{array}\n$$",
+    "context3": "其中 $\\begin{array} { r l } { \\sigma ( \\mathbf { \\Phi } x ) } & { { } = ~ 1 / \\bigl ( \\mathrm {  ~ 1 ~ } + \\exp \\bigl ( \\mathbf { \\Phi } - x \\bigr ) \\bigr ) } \\end{array}$ ），称为Sigmoid函数，是机器学习领域的一种非线性激活函数。LSTM分别由输入门、遗忘门、输出门三种类型的门控机制组成，其输出值计算公式分别为公式（2）～公式（4）所示。LSTM的隐藏层的输入和输出向量分别为 $x _ { t }$ 和 $h _ { t }$ ，记忆单元 $c _ { t }$ 的计算公式如公式（5）所示，LSTM单元在 $t$ 时刻的输出 $h _ { t }$ 可以通过公式（6）得到:",
+    "context4": "$$\n\\boldsymbol { i } _ { t } \\ = \\ \\sigma \\big ( \\ W _ { x i } \\boldsymbol { x } _ { t } \\ + \\ W _ { h i } \\boldsymbol { h } _ { t - 1 } \\ + \\ : \\boldsymbol { b } _ { i } \\big )\n$$",
+    "context5": "$$\nf _ { t } = \\sigma ( \\ W _ { x f } x _ { t } \\ + \\ W _ { h f } h _ { t - 1 } \\ + \\ b _ { f } )\n$$",
+    "context6": "$$\no _ { t } \\ = \\ \\sigma \\big ( \\ W _ { x o } x _ { t } \\ + \\ W _ { h } o h _ { t - 1 } \\ + \\ b _ { o } \\big )\n$$",
+    "context7": "$$\nc _ { t } \\ = f _ { t } \\odot c _ { t - 1 } \\ + \\ i _ { t } \\odot \\operatorname { t a n h } ( \\ W _ { x c } \\ + \\ W _ { h c } h _ { t - 1 } \\ + \\ b _ { c } )\n$$",
+    "context8": "$$\nh _ { t } \\ = \\ o _ { t } \\odot \\operatorname { t a n h } ( \\ c _ { t } )\n$$",
+    "context9": "式中， $i _ { t } , f _ { t } , c _ { t } , o _ { t } , h _ { t }$ 分别表示输入门，遗忘门、记忆单元、输出门、隐藏层的输出值。由于LSTM结构对突发事件有着较好的捕捉效果，因此模型中以LSTM结构为基础对舆情事件进行预测。"
+  },
+  "1.2 SDZ方法": {
+    "context1": "SDZ是2016年由Rocki提出的一种新的正则化方法[13-4。SDZ通过 $z _ { t }$ 来控制状态的传输，概率化的舍弃或保留前一次迭代所产生的输出状态，解决了Zoneout在使用时需要指定一个固定概率的问题[。本文以LSTM为基础结合 SDZ方法构建出 SDZ-LSTM网络结构来处理数据。在SDZ中，首先定义一个参数 $s _ { t }$ ，如公式（7）所示：",
+    "context2": "$$\ns _ { t } \\ = \\log p _ { t - 1 } x _ { t } ^ { T }\n$$",
+    "context3": "式中， $\\boldsymbol { x } _ { t } ^ { T }$ 代表在 $T$ 时刻该神经元的输入数据； $p _ { t - 1 }$ 代表在$t - 1$ 时刻输出层的输出。接下来，在计算LSTM各门限激活的问题时就需要加入参数 $s _ { t }$ ，即通过遗忘门限、输入门限、输出门限后的值分别如公式（8）～公式（10）所示， $\\boldsymbol { u } _ { t }$ 代表在激活函数tanh的作用下处理输入数据和隐藏层状态形成的值，如公式（11）所示：",
+    "context4": "$$\nf _ { t } \\ = \\ \\sigma \\big ( \\ W _ { f } x _ { t } \\ + \\ U _ { f } h _ { t - 1 } \\ + \\ V _ { f } s _ { t } \\ + \\ b _ { f } \\big )\n$$",
+    "context5": "$$\ni _ { t } \\ = \\sigma ( \\ W _ { i } x _ { t } \\ + \\ U _ { i } h _ { t - 1 } \\ + \\ V _ { i } s _ { t } \\ + \\ b _ { i } )\n$$",
+    "context6": "$$\no _ { t } \\ = \\ \\sigma \\big ( \\ W _ { o } x _ { t } \\ + \\ U _ { o } h _ { t - 1 } \\ + \\ V _ { o } s _ { t } \\ + \\ b _ { o } \\big )\n$$",
+    "context7": "$$\nu _ { t } \\ = \\ \\mathrm { t a n h } \\big ( \\ W _ { u } x _ { t } \\ + \\ U _ { u } h _ { t - 1 } \\ + \\ V _ { u } s _ { t } \\ + \\ b _ { u } \\big )\n$$",
+    "context8": "式中， $W , \\ U , \\ V$ 代表各个分支的权重； $h _ { t - 1 }$ 代表在 $t - 1$ 时刻隐藏层的状态； $b$ 代表各个门限的偏移量。",
+    "context9": "SDZ设置了自适应的概率值 $z _ { t }$ ，如公式（12）所示，它是一个关于 $s _ { t }$ 的函数，之后SDZ将 $z _ { t }$ 生成一个二进制掩码 $Z _ { t }$ ，如公式（13）所示，根据 $z _ { t }$ 来对 $Z _ { t }$ 进行取值，用于决定候选神经元状态的替换情况。",
+    "context10": "$$\nz _ { t } \\ = \\ \\mathrm { m i n } \\{ \\tau + \\mid \\ S _ { t } W _ { y } ^ { T } \\mid \\mathbf { , } 1 \\}\n$$",
+    "context11": "$$\nZ _ { \\mathrm { ~ \\scriptsize ~ \\sim ~ } } z _ { \\mathrm { ~ \\scriptsize ~ t ~ } }\n$$",
+    "context12": "式中， $\\tau$ 是用来保证最小概率的一个阈值参数； $\\boldsymbol { W } _ { y } ^ { T }$ 是一个输出值的权重矩阵。SDZ的单元结构中 $Z _ { t }$ 决定了LSTM神经单元的记忆状态 $c _ { t }$ ，如公式（14）所示。公式（15）表明激活函数 $\\operatorname { t a n h }$ 作用于 $c _ { t }$ ，作用后的 $c _ { t }$ 点乘输出门限控制后的输出状态 $o _ { t }$ ，从而得到在 $t$ 时刻隐藏层状态 $h _ { t }$ ，由公式（16）可以看出当前时刻的输出状态 $h _ { t }$ 是依赖于$Z _ { t }$ 的：",
+    "context13": "$$\nc _ { t } \\ = \\ \\big ( \\ 1 \\ - f _ { t } \\odot Z _ { t } \\big ) \\ \\odot c _ { t - 1 } \\ + Z _ { t } \\odot i _ { t } \\odot u _ { t }\n$$",
+    "context14": "$$\n\\hat { c } _ { t } \\ = \\ \\operatorname { t a n h } \\ ( c _ { t } )\n$$",
+    "context15": "$$\nh _ { t } ~ = ~ o _ { t } \\odot c _ { t }\n$$",
+    "context16": "本文所提模型中主要利用了 SDZ方法可对前一个时间步的传输进行概率化的激活，既保证了正确成分的传输，同时缩短了模型的训练时间。"
+  },
+  "2预测模型的构建": {
+    "context1": "网络舆情发展过程错综复杂，尤其是突发舆情事件，在传播过程中受各种随机因素的影响，具有诸多的不确定性，突发舆情事件的扩散速度快，演变复杂度高，以及情绪易极端化是导致其高度非线性的成因，因此突发舆情事件的舆情风险相对来说也就更大。",
+    "context2": "针对传统线性预测模型对突发热点事件的预测准确度低，而采用机器学习方法易出现过拟合现象等问题，"
+  },
+  "2.1模型框架": {
+    "context1": "为提高预测效果模型共设置了三层，分别是：LSTM层、SDZ-LSTM层、LSTM层，主要以LSTM网络为基础，通过SDZ方法对原结构的改进，使序列在通过记忆单元时不再是固定的输出，而是通过SDZ来对结果进行有选择的输出，以此来提高预测精度。本文所提模型的结构见图1。模型各层次的工作机理如下:",
+    "context2": "1）第一层LSTM层。将一天内不同时间段热点事件的相关博文数量作为输入序列 $x _ { t }$ 的相关取值。使用模型时，会提前设置初始输入值。第一层设置为LSTM层，是利用了LSTM层对舆情热点事件尤其是突发事件的发现有着较大的优势，这样便可以在序列初始输入的过程中提高预测精度。第一层运行过后，会将结果逐一返回到下一层本文采用长短期记忆网络对网络舆情事件进行预测，并通过引入SDZ方法改进LSTM网络用固定概率更新神经元的不足，提出了基于SDZ-LSTM的舆情事件网络趋势预测模型。由于SDZ对记忆单元的内容概率化的传输而不是传输所有数据，因此一定程度缩短了模型的训练时间，利用SDZ方法在原有LSTM结构的基础上增加一个参数 $Z _ { t }$ 来使得记忆单元的取值更加精准，将SDZ与LSTM结合形成新的网络单元加入到模型中，在缩短训练时间、有效防止神经网络易出现过拟合的同时，在预测准确度上也有所提升。下面对模型的框架及模型的具体实现流程作以介绍。",
+    "context3": "![](images/554cd542b93c1803cbb3401d354da266fd65a6c1b28765921ce0fdd7091b4f07.jpg)  \n图1基于LSTM-SDZ 的舆情预测模型结构",
+    "context4": "的初始单元层以及本层中的下一个神经元。这样就可以把每次的输出信息输入到下一层，作为下一层的训练数据。",
+    "context5": "2）第二层SDZ-LSTM层。该层输入序列 $x _ { t }$ 即为上一层的输出序列 $h _ { t }$ ，在LSTM结构的基础上结合了SDZ方法的新单元层次SDZ-LSTM层，LSTM结构一般只考虑历史信息，同时会将记忆状态的数据作为输出的重要依据，但模型训练中的一个重要部分是尽可能地找出数据的一般依赖关系。",
+    "context6": "那么就需要SDZ结构来对记忆单元的结果进行修正，SDZ 通过在LSTM结构中原有记忆单元基础上增加一个参数 $Z _ { t }$ 来改变记忆内限 $C _ { t }$ 的取值（也可以说是利用 $Z _ { t }$ 来过滤 $C _ { t }$ ），这样本层次就可以使得模型在概率化的舍弃或保留前一次迭代所产生的输出状态的同时，一定程度缩短了运行时间。通过 SDZ的加入，那么就可以在公式（14)和公式（16）的基础上得到SDZ-LSTM层的输出 $\\boldsymbol { y } _ { t }$ ，如公式（17）所示：",
+    "context7": "$$\ny _ { t } ~ = ~ W _ { y } h _ { t } + b _ { y }\n$$",
+    "context8": "3）第三层LSTM层。该层的输入就是SDZ-LSTM层的输出 $y _ { t }$ ，本层接收到的数据序列 $\\boldsymbol { y } _ { t }$ 是经过上一层精确后的输出值，选用LSTM结构作为模型的第三层可以在第二层的基础上进一步提高预测精度。最后输出采用Keras模块的Dense层，并在该层在对结果与真实值进行误差比较及优化。"
+  },
+  "2.2模型实现": {
+    "context1": "本文所提出的基于 SDZ-LSTM的舆情事件网络趋势预测模型的实现流程见图2。",
+    "context2": "![](images/d9876a8ca1db9e2bb615647c0c58931f68d4bd6257683ef7dfb67c98709c5b60.jpg)  \n图2基于SDZ-LSTM的舆情事件网络趋势预测模型实现流程"
+  },
+  "模型实现的关键步骤如下：": {
+    "context1": "1）数据采集和预处理。利用网络爬虫技术对网络舆情事件的博文总数进行爬取，本文使用Python的爬虫方法对数据进行爬取。",
+    "context2": "2）数据标准化。采用 $\\operatorname { M i n - M a x }$ 离差标准化方法 $\\begin{array} { r l } { x _ { k } } & { { } = } \\end{array}$ $\\frac { x _ { k } - x _ { \\operatorname* { m i n } } } { x _ { \\operatorname* { m a x } } - x _ { \\operatorname* { m i n } } }$ 对数据进行归一处理，使得数据格式符合模型输入格式。",
+    "context3": "3）确定训练集和预测集。给定模型的训练数据集，包含输入和输出样本集。将经过处理后的数据序列输入模型，其中训练集的规格train_size $= \\mathrm { l e n } ( $ dataset) $\\times 0 . 6 7$ 。",
+    "context4": "4）训练模型。设定模型中每个神经网络层次的输入数据格式为input_size，神经网络层级的输入格式为矩阵，矩阵内容[amples,time steps,features]，输出格式仍为[amples,time steps,features]。其中，samples 是观测值,time steps是关于观测值的时间窗口，得到samples后，用features表示观测到的单独的measures也就是列数（即属性个数)。使用模型时，会提前设置初始输入值。",
+    "context5": "训练模型过程中，首尾的LSTM网络结构经过多次试验得到隐藏层 $h _ { t }$ 的个数units $= 4$ ，而 SDZ-LSTM层级在运行过程中，由于参数 $Z _ { t }$ 的增加对神经元的正确传输提供了帮助，记忆单元 $C _ { t }$ 的取值经过 $Z _ { t }$ 的过滤后更加细化，这样经过记忆单元 $c _ { t } = \\big ( 1 - f _ { t } \\odot Z _ { t } \\big ) \\odot c _ { t - 1 } + Z _ { t } \\odot i _ { t } \\odot u _ { t }$ 的输出后，SDZ-LSTM层是预测精度进一步提高，同时缩短了模型训练时间。最后模型的序列输出利用Python中Keras模块的Dense层也就是全连接层将每层的输出数据进行连接，然后输出所需数据。",
+    "context6": "5）反标准化数据。为保证后续模型评估的准确性，对训练集和预测集的数据进行反标准化处理。",
+    "context7": "6）模型评估。以均方误差MSE，均方根误差RMSE平均绝对误差MAE为模型性能的评估标准，选取$\\%$ .2fMSE, $\\%$ .2fRMSE, $\\%$ .2fMAE作为评估结果输出。选择循环神经网络（RNN）和BP神经网络预测模型为对照实验组，使其与之进行对比。",
+    "context8": "7）图表显示。构建通过训练集进行预测的图表数据，运用Python中的绘图模块matplotlib 进行图表绘制。"
+  },
+  "3实验分析": "",
+  "3.1实验环境与数据集": {
+    "context1": "本文实验环境采用64位的Win7操作系统，处理器型号为Inter（R）Core（TM）i5-446O，实验模型使用Python3.7进行构建，其中神经网络部分采用了Python中的Kears 模块进行搭建，Kears是一个由Python编写的开源人工神经网络库，本文主要利用了Kears中序列化的结构来对模型的不同层次进行连接。实验中的一些参数设置见表1。",
+    "context2": "表1参数设置",
+    "context3": "<table><tr><td rowspan=1 colspan=1>参数名称</td><td rowspan=1 colspan=1>说明</td><td rowspan=1 colspan=1>取值</td></tr><tr><td rowspan=1 colspan=1>Seed</td><td rowspan=1 colspan=1>随机种子，使得神经网络训练结果可以复现</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>Batch_size</td><td rowspan=1 colspan=1>每批过神经网络的大小</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>Epochs</td><td rowspan=1 colspan=1>神经网络训练的轮次</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>Optimizer</td><td rowspan=1 colspan=1>优化器，用于计算更新模型参数</td><td rowspan=1 colspan=1>Adam</td></tr><tr><td rowspan=1 colspan=1>Look_back</td><td rowspan=1 colspan=1>时间窗口</td><td rowspan=1 colspan=1>6</td></tr></table>",
+    "context4": "本文实验数据的采集是利用Python 的爬虫技术，以“普吉岛游船倾覆事故”为搜索关键词，来对新浪微博上针对该事件进行讨论的博文数进行爬取。2018年7月5日17时45分左右两艘载有127名中国游客的船只在泰国普吉岛海域遭遇特大暴风雨，最终在珊瑚岛和梅通岛附近被海水淹没，消息一出，便在微博上引起国民广泛关注，随着事件的逐步发展，舆情也在不断变化着。本文根据该事件发展时段，实验过程中将2018年7月5日17时30分作为采样开始时间，2018年7月25日24时作为采样截止时间，同时每隔6小时对发帖量数据进行一次统计，以此来密切关注该舆情事件的发展走势。选择该案例的主要原因是它较高的关注度以及它属于突发事件，符合绝大多数突发事件规律，代表性较强。实验共爬取相关博文180342条，经过数据预处理得到177342条有效博文。选取了 $67 \\%$ 的原始数据作为训练模型的训练集训练集，用余下的 $33 \\%$ 数据作为测试集来对模型预测结果进行比较。"
+  },
+  "3.2对比模型与指标": {
+    "context1": "基于舆情事件的突发性及非线性特征，及时掌握舆情事件的信息增量对衡量舆情的演化过程具有关键作用，因此本文以该事件每日博文的不同增长量作为实验数据进行模型的训练和预测，以期更直观地发现舆情事件的趋势变化情况。使用基于循环神经网络的预测模型[和基于 BP神经网络舆情预测模型[作为对比实验，两种对比模型都是在处理多变量因素问过程中常用的预测方法，且两种对比模型也应用了神经网络的相关思想，对处理非线性数据的预测问题时具有一定代表性。为了进一步验证本文所提模型在预测准确性上的优势，将本文所提模型与对比模型在均方误差MSE、均方根误差RMSE以及平均绝对误差MAE三个指标上进行比较，指标的计算如公式（18）～公式（20）所示：",
+    "context2": "均方差：",
+    "context3": "$$\n\\mathrm { M S E } \\ = \\ \\frac { 1 } { N } \\sum _ { i = 1 } ^ { N } \\big ( \\hat { y } _ { i } \\ - y _ { i } \\big ) \\ ^ { 2 }\n$$",
+    "context4": "均方根误差：",
+    "context5": "$$\n\\mathrm { R M S } \\ = \\ { \\sqrt { { \\frac { 1 } { N } } \\sum _ { i = 1 } ^ { N } \\left( { \\hat { y } } _ { i } \\ - \\ y _ { i } \\right) { } ^ { 2 } } }\n$$",
+    "context6": "平均绝对误差：",
+    "context7": "$$\n\\mathrm { M A E } \\ = \\ \\frac { 1 } { N } \\sum _ { i = 1 } ^ { N } \\mid \\ \\big ( \\hat { y } _ { i } \\ - y _ { i } \\big ) \\ \\mid\n$$",
+    "context8": "式中， $\\hat { y } _ { i }$ 表示预测值； $y _ { i }$ 表示真实值。"
+  },
+  "3.3实验结果分析": {
+    "context1": "为验证本文所提模型的有效性，选取基于循环神经网络（RNN）的预测模型[和基于BP神经网络舆情预测模型[作为对比模型进行实验。不同模型的预测结果和真实值的拟合曲线见图3，图中TRUE表示真实数据值，横轴表示时间序号，纵轴表示发帖量。",
+    "context2": "从图3可知，在预测精度上本文所提预测模型比基于循环神经网络（RNN）和基于BP神经网络的预测模型更贴近真实值，主要原因在于，首先本文的LSTM层次结构解决了原始RNN网络容易出现“梯度爆炸”的问题；其次 SDZ结构的加入使LSTM的记忆门可以更好地选择出要留下的数据，因此预测结果也好于易陷入局部极小问题的BP神经网络，解决了神经网络中易出现过拟合的问题，从而使基于 SDZ-LSTM的预测模型精确程度大大",
+    "context3": "![](images/03b3cfdd0ed0c460ab681e200369c73b429d31a46de6de0f80a47efd60b3f5af.jpg)  \n图3不同模型预测结果对比图",
+    "context4": "提高。",
+    "context5": "不同模型的误差对比情况见表2。  \n表2误差对比",
+    "context6": "<table><tr><td rowspan=1 colspan=1>模型</td><td rowspan=1 colspan=1>MSE</td><td rowspan=1 colspan=1>RMSE</td><td rowspan=1 colspan=1>MAE</td></tr><tr><td rowspan=1 colspan=1>SDZ-LSTM</td><td rowspan=1 colspan=1>852.40</td><td rowspan=1 colspan=1>29.19</td><td rowspan=1 colspan=1>21.52</td></tr><tr><td rowspan=1 colspan=1>RNN</td><td rowspan=1 colspan=1>1127.97</td><td rowspan=1 colspan=1>33.59</td><td rowspan=1 colspan=1>64.07</td></tr><tr><td rowspan=1 colspan=1>BP</td><td rowspan=1 colspan=1>1684.32</td><td rowspan=1 colspan=1>41. 04</td><td rowspan=1 colspan=1>152.50</td></tr></table>",
+    "context7": "从图3可以看出基于RNN的预测模型在预测初期的拟合程度良好，但是随着数据的不断输入，RNN的预测精度较SDZ-LSTM模型逐渐落后，这是因为本文提出的模型由于SDZ方法的加入不仅解决了RNN模型容易出现的梯度爆炸问题，同时SDZ与LSTM结构的结合使用，使得数据在循环训练过程中防止了不必要记忆的激活，SDZ方法可以使输入数据的复杂程度降低。另外图3中由于BP神经网络预测模型易陷入局部最小值的问题，使得预测结果的浮动较大，而本文所提模型由于SDZ方法的引入可以概率化地对记忆单元进行更新，容错能力高于BP预测模型，因此本文所提出的基于 SDZ-LSTM的预测模型的预测结果更接近真实值。",
+    "context8": "综合图3和表2可以很明显地看出，本文所提模型相较于基于循环神经网络的预测模型以及基于BP神经网络的预测模型，其中均方差分别提高了275.57，831.92；均方根误差分别提高了4.4，11.85；平均绝对误差分别提高了42.55，130.98。用本文所提模型对舆情事件网络趋势进行预测的实验过程中，网络结构的训练轮次为100，在神经网络不同轮次的循环过程中，误差逐渐降低，最终得到模型的平均误差21.52。模型误差的降低主要是解决了以往神经网络预测过程中数据易发生过拟合产生震荡的问题。同时，在训练轮次相同的情况下，本文所提模型的训练时长较对比模型也分别缩短了 $1 2 . 5 \\%$ ， $5 . 6 \\%$ ，使得模型的时效性有所提升。"
+  },
+  "4结束语": {
+    "context1": "本文在长短期记忆网络（LSTM）的基础上，融合SDZ方法对神经元概率化更新的优势，提出了基于 SDZ-",
+    "context2": "LSTM的舆情事件网络趋势预测模型，模型分三个层级结构来进行预测，首尾两层采用LSTM结构进行预测，中间层通过在原有LSTM结构上加入一个参数 $Z _ { t }$ 来改善原有记忆单元的取值，形成新的 SDZ-LSTM网络结构加入到模型。实验结果表明本文所提模型在预测精度和误差方面有着较好的表现，同时由于SDZ方法的融入使模型的训练时间得以缩短。",
+    "context3": "目前本文仍存在一些不足，研究针对微博热门话题进行预测，没有对不同话题进行产开讨论，因此，在本文的基础上，下一步的工作重点将根据不同类型的舆情事件发展趋势的差异，进行分类预测，以此使舆情监管部內可以更方便、更具针对性地进行舆情管理。□"
+  },
+  "参考文献": {
+    "context1": "[1]刘勘，李晶，刘萍．基于马尔可夫链的舆情热度趋势分析[．计算机工程与应用，2011，47（36)：170-173.  \n[2] 马宁，刘怡君，廉莹．突发事件舆情风险研究文献综述．情报杂志，2019，38(6)：88-94.  \n[3] 郭韧，李红，陈福集．基于可拓聚类的网络舆情演化预测研究[．情报理论与实践，2017（1)：83-87.  \n[4] 史蕊，陈福集，张金华．基于组合灰色模型的网络舆情预测研究[．情报杂志，2018，37（7)：101-106.  \n[5] 郑步青，邹红霞，胡欣杰．基于拐点的网络舆情预测研究．计算机科学，2018，45（S2)：539-541，575.  \n[6] 王亚民，宁静，马续补．基于社会化媒体的公共政策舆情预测研究[1．情报理论与实践，2019，42（1)：87-93.  \n[7] 黄亚驹，陈福集，游丹丹．基于混合算法和BP神经网络的网络舆情预测研究[．情报科学，2018（2)：24-29.  \n[8] 黄亚驹，陈福集．基于熵值法的网络舆情组合预测研究．情报科学，2018（3)：70-74.  \n[9] 李倩倩，姜景，李瑛，等．我国政务微博转发规模分类预测．情报杂志，2018，37（1)：95-99.  \n[0]王宁，赵胜洋，单晓红．基于灰色系统理论的网络舆情预测与分级方法研究[]．情报理论与实践，2019，42(2):124-130.  \n[1] PALANGI H，DENG L，SHEN Y，et al. Deep sentence em-bedding using long short-term memory networks: analysis andapplication to information retrieval [．IEEE Transactions onAudio，Speech，and Language Processing，2016，24（4):694-707.  \n[2] HOCHREITER S，SCHMIDHUBER J. Long short-term memory[．Neural Computation，1997，9（8)：1735-780.  \n[13] ROCKI K，KORNUTA T，MAHARAJ T，et al.Surprisal-Driven Zoneout[J]．arXiv Preprint arXiv:1610.07675,2016.  \n[4] ROCKI K.Surprisal-driven feedback in recurrent networks[．arXiv Preprint arXiv:1608.06027，2017.  \n[15] KRUEGER D，MAHARAJ T，KRAMAR J，et al. Zoneout:regularizing RNNs by randomly preserving hidden activations[]．arXiv:Neural and Evolutionary Computing，arXiv:1606.01305，2017.  \n[6]孙靖超，周睿，李培岳，芦天亮．基于循环神经网络的网络舆情趋势预测研究[．情报科学，2018，36（8)：118-22，127.  \n[7]游丹丹，陈福集．基于改进粒子群和 BP神经网络的网络舆情预测研究[．情报杂志，2016，35（8)：156-61.  \n作者简介：冯勇，男，1973年生，博士，教授。研究方  \n向：个性化推荐。吕红旭，女，1995年生，硕士生。研  \n究方向：舆情分析。徐红艳，女，1972年生，硕士，副  \n教授。研究方向：数据分析。王嵘冰（通信作者），男，  \n1979 年生，博士，副教授。研究方向：智慧城市。张永刚，  \n男，1975年生，博士，教授。研究方向：大数据分析  \n技术。",
+    "context2": "录用日期：2020-12-02"
+  },
+  "(上接第117页)": {
+    "context1": "[17] HAN H,LI Y，ZHU X. Convolutional neural network learning for generic data classification[J]． Information Sciences, 2019，477:448-465.   \n[18] ALZAIDYRA，CARAGEAC，GILESCL，et al.Bi-LSTMCRF sequence labeling for keyphrase extraction from scholarly documents [．The Web Conference，2019:2551-2557.   \n[9] 吴文涛，李培峰，朱巧明．基于混合神经网络的实体和事 件联合抽取方法．中文信息学报，2019，33（8）.   \n[20] 赵洪，王芳．理论术语抽取的深度学习模型及自训练算法 研究[．情报学报，2018，37（9)：923-938.   \n[21] ROSSI RG，LOPES AA，REZENDE S O. Using bipartite heterogeneous networks to speed up inductive semi-supervised learning and improve automatic text categorization [．Knowl",
+    "context2": "edge-based Systems，2017，132(15):94-118. [22] SHEN Y Y，YUN H，LIPTON ZC，et al. Deep active learning for named entity recognition[C//Proceedings of the 2nd Workshop on Representation Learning for NLP.Stroudsburg: Association for Computational Linguistics，2017:252-256.",
+    "context3": "作者简介：林鑫（ORCID：0000-0003-0318-8160），男，博士，副教授。龙存钰（ORCID：0000-0001-5096-7461，通信作者，Email:longcunyu $@$ mails.ccnu.edu.cn），女,硕士生。杜莹（ORCID:0000-0002-8441-5160），女，本科生。  \n作者贡献声明：林鑫，论文选题，论文撰写与修订。龙存钰，实验实施，初稿撰写。杜莹，参与实验实施和文献资料搜集。  \n录用日期：2020－11-20"
+  }
+}

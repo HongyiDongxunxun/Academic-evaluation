@@ -1,0 +1,105 @@
+{
+  "original_filename": "full_482.md",
+  "专 论·": "",
+  "TAM模型研究进展 模型演化": {
+    "context1": "孙建军，成颖，柯青",
+    "context2": "(南京大学 信息管理系，江苏 南京 210093)",
+    "context3": "摘要：TAM模型由Davis提出之后，针对该模型出现了大量的理论及实证研究，研究中发现原始TAM模型存在的一些不足之处。为了增加TAM模型的解释能力，Davis及其合作者提出了诸如TAM2以及UTAUT等一系列改进模型，本文对TAM模型的演化进行了系统的叙述。",
+    "context4": "关键词：TAM；TAM2；UTAUT",
+    "context5": "中图分类号：G350 文献标识码：A 文章编号：1007—7634(2007)08—1121—07"
+  },
+  "Advances of Research on Technology Acceptance Model": {
+    "context1": "SUN Jianjun， CHENG Ying， KE Qing (Department of Irformation Management，Nanjing University，Nanjing 21OO93， China)",
+    "context2": "Abstract：Technology acceptance model is put forward by Davis in his disertation，Now there are many theoretical and empirical studies on TAM.Follwing the suggestions of these studies，some revised models including TAM2 and UTAUT are evolved·In this paper，the evolution of TAM is reviewed ·",
+    "context3": "Key words:TAM；TAM2；UTAUT",
+    "context4": "信息技术的不断进步与普及为企事业单位生产率的提高带来了希望，很多企业不惜重金自己研发或者引进MIS、ERP以及CIMS 等系统，但是与人们良好愿望相悖的是，很多企业在信息技术方面的巨额投入并没有带来预期的回报，这就是学术界着力探讨的“信息技术悖论”问题。对于悖论的出现，学者们从不同的视角提出了各不相同的看法与观点，比如从经济学角度有学者认为悖论是由于统计口径不一致而导致的，也有观点认为是采用了新技术之后由于用户需要学习而导致的滞后效应，其他观点还包括替代效应、效益扩散、管理不当以及资本存量假说等[-3】；另一部分学者从心理、行为等角度对悖论展开了深入的探讨，提出了众多的理论与模型，比如技术采纳模型（Technology acceptance model， TAM) $\\boldsymbol { \\mathsf { I 4 } } ^ { - 6 }$ 、技术任务适配模型（Task-technology fit，TTF ) $\\pmb { \\tau } - 8 \\pmb { \\tau }$ 以及理性行为理论（The-ory of reasoned action，TRA）等。不同理论在信息技术与信息系统的采纳行为方面的研究可以通过ScienceDirect数据库的检索而得以管窥（见表1）。从表1可以发现与其他模型相比，TAM模型的研究数量远超其他模型，这也是众多学者认为TAM模型影响最大的重要依据。",
+    "context5": "TAM 模型由Davis 于1986 年在其博士论文中首次提出【4】，学者们广泛引用的则是文献【5一6】，此后Davis及其合作者对该模型进行了多次不同程度的改进，以提高其解释能力。目前，国内尤其是大陆对TAM模型的研究还非常少，主要见之于高平[]、鲁耀斌[、李霆[等学者的研究，对TAM模型系统的研究与阐述在国内尚未出现，据此本文拟对TAM模型的理论基础、产生以及发展进行系统的论述与研讨。",
+    "context6": "表1TAM、TTF 以及 TRA 模型在 ScienceDirect 中的检索结果",
+    "context7": "<table><tr><td>检索词</td><td>检索项</td><td>结果 (篇数)</td></tr><tr><td>Technology acceptance model</td><td>TITLE—ABSTR-KEY</td><td>256</td></tr><tr><td>Theory of reasoned action</td><td>TITLE—ABSTR-KEY</td><td>134</td></tr><tr><td>Task technology fit</td><td>TITLE—ABSTR-KEY</td><td>52</td></tr></table>"
+  },
+  "1 TAM模型的理论源泉 TRA理论": {
+    "context1": "TAM模型主要根植于理性行为理论，同时也从期望理论模型、自我效能理论、投入产出理论以及变革采纳理论等理论中吸收了丰富的营养，下面主要阐释TRA对TAM 的影响。",
+    "context2": "TAM理论主要来源于TRA。TRA理论有三个基本假设：其一，通常人类是理性的，并基于整体观以及系统观处理、应用其所获得的信息；其二，TRA认为人类的社会行为不会受到无意识的诱因或力量的影响；第三，人类的行为是完全可以自我控制的。依据这三个假设，1967年Fishbein 和 Ajzen提出了TRA理论，其初衷是整合先前有关态度影响行为的不同理论 (见图1)。",
+    "context3": "![](images/0b47729ffc6cba1c8699e47569c715a750b76f81dba8ac0cfe9f07ff396df5e0.jpg)  \n图1理性行为理论框架",
+    "context4": "由图1可见，TRA认为：",
+    "context5": "（1）行为主体的“实际行为（actualbehavior）”受其“行为意图（behavioral intention，BI)”影响。",
+    "context6": "(2）行为主体的行为意图则由“行为态度 (attitude toward behavior，AT)”和“主观规范（subjective nom，SN)”共同决定;",
+    "context7": "(3）行为主体通过对其行为结果的“信念(beliefr9d)20以及hi评估adevaluationnafEie实现对“行为态度”的影响，具体的影响程度可以通过公式（1）计算：",
+    "context8": "$$\n\\mathrm { { A T } = \\sum _ { i = 1 } ^ { n } \\times \\mathbf { e } _ { i } }\n$$",
+    "context9": "其中， $\\mathbf { b } _ { \\mathrm { i } }$ 是行为主体对从事特定行为后所产生的第i个结果的信念， $\\mathbf { e _ { i } }$ 是行为主体对特定行为所产生的第i个结果的评价。",
+    "context10": "（4）主观规范（subjective norm，SN）的评估可以通过“规范信念（normative belief， $\\mathrm { n b }$ )”和“依从动机（motivation to comply，mc)”的乘积和实现，具体计算见公式（2)：",
+    "context11": "$$\n\\mathrm { { S N } = \\sum _ { i = 1 } ^ { n } \\mathbf { n } \\mathbf { b } _ { i } \\ \\times \\mathbf { m c } _ { i } }\n$$",
+    "context12": "其中， $\\mathrm { \\mathbf { n } \\mathbf { b } _ { i } }$ 是对行为主体有重要影响的第 $\\mathrm { i }$ 个人对其从事特定行为的期望， $\\mathrm { m c } _ { \\mathrm { i } }$ 是行为主体依从于这种期望的动机。"
+  },
+  "2TAM": "",
+  "2.1理论原型": {
+    "context1": "使用者对信息技术的接受与否一直是信息技术应用成败的关键。过去的研究主要集中于组织、技术和系统开发等层面，形成了众多的理论与方法。例如，1971年 $\\operatorname { K i n g } ^ { \\mathrm { ~ \\& ~ } }$ Cleland提出了在系统分析与设计过程中组建“分析员与用户团队”的思想以解决用户对系统的接受问题[。在技术层面，比如在信息系统开发中，提出了系统开发生命周期以及两个派生模型：瀑布模型和螺旋模型；具体开发方法的进步，则体现于在上个世纪70 年代提出的结构化方法的基础上，提出了面向对象方法、原型化方法以及信息工程方法等。显而易见的是，技术层面的进步对于提高系统开发效率、软件质量以及人机友好等方面都具有积极的意义。不过，系统本身的质量与用户是否接受是两个截然不同的问题，后者更多的与用户的个人特征、认知以及情感等因素相关。",
+    "context2": "为了深入探讨信息技术的接受问题，Davis以TRA 为理论基础，吸收了期望理论模型、自我效能理论等相关理论中的合理内核，提出了技术采纳模型（technology acceptance model，TAM）。与 TRA 不同的是，TAM舍弃了TRA中的主观规范、规范信念以及依从动机等三个构念（construct）。基于此，TRA模型中对BI起决定作用的就是AT，而AT又",
+    "context3": "是信念的因变量。",
+    "context4": "Davis 对TRA模型的改进主要包括：他分别从Schultz $\\&$ Slevin 的期望理论模型中的构念一—使用绩效认知（Perceived use－performance）提炼出了有用认知（Perceived usefulness，PU)[】，又从Bandura的自我效能理论中的构念一—自我效能得到启发，衍生出了易用认知（Perceived ease of use，PEOU），并将TRA中抽象的构念 ——“信念”具体化为PU与PEOU，其理由是认为PU 和PEOU可以取代主观规范，这样 TRA 模型就演化为TAM模型（见图$2 ) ^ { \\mathbf { t } ^ { \\mathrm { 1 4 } } \\mathbf { l } }$ 。其中有用认知是指使用者主观认为在某一特定组织环境中使用某一特定系统能够提高其工作绩效的程度；易用认知是指使用者所认识到的信息技术易用的程度。",
+    "context5": "![](images/9079b70692370d59ced25270ce85cc9b35d1d4115850446f0eb67f2bcf34c886.jpg)  \n图2技术采纳模型 (TAM)",
+    "context6": "TAM模型认为：“系统实际使用（U)”由“行为意图（BI)”直接决定，“行为意图”则受“对技术的态度（AT)”与“有用认知”共同影响,而“对技术的态度”则决定于“有用认知”与“易用认知”，模型中还包含外部变量（External Vari-ables)，它会间接地影响使用者的使用意图与行为。一般而言，外部变量包括：系统特性、训练、系统设计阶段的使用者介入、系统设置过程的性质等，这些外部变量都会通过PU以及PEOU间接地影响使用者的使用意图与实际使用。",
+    "context7": "Davis以107名计算机用户为研究对象，以PEOU和PU为自变量，以系统利用为因变量对TAM进行了实证研究。研究中数据的采集方式是用户的自我报告，整个研究分为两个阶段：",
+    "context8": "（1）对用户进行一小时的培训后进行第一次数据采集，分析结果显示PU 对BI的影响因子 $\\beta =$ 0.62；PEOU 对BI的影响因子 $\\beta { = } 0 . 2 0$ ；TAM模型能够解释 $45 \\%$ 的使用行为。",
+    "context9": "（2）用户使用系统14周之后进行第二次数据采集，结果显示PU 对BI的影响上升为 $\\beta { = } 0 . 7 9$ ；PEOU对BI的影响不再是直接的，而间接地通过PU 实现，其值为 $\\beta { = } 0 . 2 4$ ；TAM模型对使用行为的解释力上升为 $57 \\%$ 。",
+    "context10": "（1）行为意图可以有效地预测用户的计算机使用行为;",
+    "context11": "（2）PU是行为意图的主要决定变量；",
+    "context12": "(3)PEOU 对意图的影响，相较于PU,是第二位的，即PEOU 与系统使用的相关度要显著低于PU。",
+    "context13": "Davis 构建TAM模型的目的是希望其可作为解释或预测信息技术使用的普适模型。也就是说，TAM提供了一个理论基础，据此可了解外部变量对使用者内部信念（Beliefs）、态度（Attitude）与意图（Intention）的影响，以及对信息技术使用的影响。"
+  },
+  "2.2不同声音": {
+    "context1": "从表1可以发现，仅仅在ScienceDirect数据库中有关TAM模型的研究就有两百多项，多数学者的研究认为TAM模型是可靠的，能够通过PU以及PEOU 解释外部变量对BI的影响。目前，TAM已经被有效地应用于分析和预测信息技术的用户采纳与接受的研究与实践中。不过，虽然TAM模型已经获得了学术界的广泛认同，但是，也有研究提出了一些不同的见解。",
+    "context2": "Dishaw的研究认为TAM模型舍弃主观规范是值得商榷的，主要原因在于：在组织环境中，信息系统的使用者会感受到很多社会压力，如来自主管和同事的压力等，因此主观规范是应该要考虑的。Legris[1也持相似的观点。TAM 的实证研究中，多数学者将信息系统作为动态组织中的独立元素，而创新扩散理论（Innovation diffusion theory）等研究则普遍认为技术实施与组织动态性是紧密关联的，组织动态性对技术实施结果存在显著的影响，因而Legris的研究认为TAM只有在模型中引入组织以及社会方面的因素才能提高其对技术采纳行为的解释能力。",
+    "context3": "除此之外，Legris和Dishaw的研究认为TAM还存在着其它方面的不足：",
+    "context4": "（1）实验对象主要是学生。尽管以学生为实验对象具有比较容易取得学生的合作、样本容易获取，同时也可以在很大程度上节省开销等优势。不过，问题在于以学生为实验对象并不等同于真实的情境，这有点类似于医学实验中常用小白鼠代替人进行实验。如果要将从小白鼠身上得到的结论应用于人类，还必须以人为样本进行验证，否则是难以想象的。与医学研究相比，TAM的研究还是比较",
+    "context5": "(C无卷hina Academic Journal ElectronicPublis盆象琼出带的ed因tp:相天的",
+    "context6": "究如果能够在真实的环境中进行，应该可以得到更精确的结论。",
+    "context7": "（2）大部分研究所采用的软件都是一些办公自动化软件或系统开发软件，Legris认为如果能将研究置于真实的事务处理应用中，得到的结论应该更可靠。",
+    "context8": "(3）研究手段基本上都采用自我报告的形式，而对该数据采集方式的准确性学者们持有异议。LaPresse Montreal 的报告[提供了一个典型例子：实际观察表明，在使用完洗手间之后仅 $67 \\%$ 的人洗手，但是随后通过电话访谈得到的结果则被提升到$9 7 \\%$ 。显然，自我报告的数据收集方式是不精确的，它不仅难以科学地进行评估，而且还可能存在比较大的偏差，因此，研究中自我报告这种方式最好作为一种相对指标。",
+    "context9": "(4）TAM 模型对外部变量的阐述不够清晰。尽管Davis也指出外部变量包括：系统特性、训练、系统设计阶段的使用者介入、系统设置过程的性质等不过还是笼统了一些，因为有些外部变量影响PU的评估，有些则影响PEOU的评估，因此无法从TAM 模型中找出稳固的外部变量[5]。"
+  },
+  "3模型改进": {
+    "context1": "Davis及其合作者也意识到学者们所提出的这些问题，因此在后继的研究中，他们对原始模型进行了改进，吸收和融入学者们所提出的建议，增强了TAM模型的解释能力。"
+  },
+  "3.1 Davis (1993)": {
+    "context1": "在Davis（1993)[中，研究模型舍弃了图2中的行为意图BI（见图3)，该研究认同为使用态度可以决定系统实际使用，而其本身又受到有用认知和易用认知的影响，时系统的设计特征又是PU 和PEOU的自变量[]",
+    "context2": "![](images/b92ef252c49aa7f85d857229f54fa6e548f7195888980edd68c25d878b05563c.jpg)  \n图3修正的技术采纳模型",
+    "context3": "为的影响;",
+    "context4": "（2）与PEOU 相比，PU对使用的影响远超过$50 \\%$ ，其中AT 对“系统实际使用”的影响是PU的一半；同时PU 与PEOU 的综合影响相比于 AT，前者超过后者的四倍，Bagozzi的研究表明信念可以直接影响使用也可以通过态度间接地影响使用，从而证实了Davis的这项研究。",
+    "context5": "PEOU对使用的影响通过PU和AT来实现，相比于PU,通过AT 实现的非常有限，二者的比值是18.1。基于该结论, $\\mathrm { { M a } } ^ { \\tt t ^ { 2 1 1 } }$ 将 TAM 模型重构（如图4)。",
+    "context6": "![](images/4da3b81defa1cc6cab4aa138a8646ea3a8663699dbce60eebd420be410ef1486.jpg)  \n图4修正的技术采纳模型",
+    "context7": "研究结果显示：",
+    "context8": "（1）系统特征可以通过态度间接地影响使用，提示除了PU、PEOU之外，应该还存在着其他影响外部变量的构念;",
+    "context9": "(2）TAM是非常重要的用于技术采纳的早期评估工具，对于提高系统接受度有着积极的意义，可用于规避系统失败带来的巨大风险。该研究结论导致了Venkatesh $\\&$ Davis 后继研究[19-20】的出现。"
+  },
+  "3.2Davis (1996)": {
+    "context1": "自从Davis $( 1 9 8 9 ) ^ { \\mathbf { t } 5 \\mathbf { l } }$ 以来，学者们对有用认知、易用认知、使用意图以及对系统的态度之间的关系一直存在着不同的见解。Davis 等认为态度只是使用者情绪上所反映出来的对信息技术的喜好，不能完整的传递有用认知和易用认知对行为意图的影响。比如在工作场所使用者由于受到主管的压力而使用某项技术，而其本身对该项技术可能是深恶痛绝的，因此，使用者在工作场所的行为，并不表示他对该行为持有正性的态度。基于此，在Davis(1996)[22中，又做出了有别于Davis（1993)[的修正，将原始模型中对系统的态度舍弃，模型被重构为图5[22】",
+    "context2": "![](images/9a94128a53dbff80bd4568c6995446392882e14b7c48245c13fb3d9a735fb085.jpg)  \n图5TAM修正模型",
+    "context3": "研究结果显示：",
+    "context4": "CTAM可以完整地表征系统特对使用ublishingHouse.Allrghtsreserved.htp://ww.cnki.net"
+  },
+  "3.3TAM2": {
+    "context1": "根据Davis(1993)[以及其他学者的研究结论，Venkatesh $\\&$ Davis对 TAM 模型做了大规模的修正,在模型中引入了社会影响过程（social influenceprocess）以及认知工具性过程（cognitive instrumentalprocess),并将其作为有用认知的决定变量，从而改变了先前模型中有用认知仅仅决定于外部变量和易用认知的格局。在社会影响过程中，有主观规范(subjectivenom）、映象（image）等构念以及自愿性(voluntariness)和经验等调节变量;认知工具性过程包括：工作相关性（jobrelevance）、产出质量（outputquality）、结果展示性(resultdemonstrability）以及先前理论中已经存在的易用认知。经过这些构念扩展之后的模型与先前的模型已经存在很大的不同， $\\mathrm { V e n ^ { - } }$ katesh&Davis 将其命名为TAM2(见图6)。",
+    "context2": "![](images/6df2b78db1b26d4f217bc348943e414181613082908d10997d18b17c5d745067.jpg)  \n图6扩展技术采纳模型(TAM2)",
+    "context3": "在TAM2中，社会影响过程诸因素的作用方式有所不同。主观规范通过内化（internalization）以及认同（identification）两种方式实现对PU的直接影响，从而间接地作用于BI，通过这两种作用，使用者会将自己认为非常重要的人的信念内化为自己的信念，从而显著提高对PU 的认同。主观规范也会通过映象间接地作用于PU，同时主观规范也可以直接作用于BI，研究表明在非自愿使用的环境中主观规范对BI的影响比较大。主观规范对BI的作用还会受到自愿性的影响，所谓的自愿性是指“一个潜在的使用者认为使用某项技术不是被强迫接受的程度”。当使用一个系统是组织行为时，使用意图会根据使用者是否愿意的程度而改变。此外，主观规范还会受到经验的影响，Hartwick[2的研究表明，使用者对系统比较陌生的时候，主观规范对使用者的影响明显，但是随着经验的增加，对他人意见的依赖程度就会显著降低。",
+    "context4": "断，部分地是来自于该技术是否足以完成其任务需求的认知”。其中，工作相关性是“个人认为技术可以应用在其工作中的程度”，TAM2认为工作相关性是一种认知判断，而非源于主观规范，将直接对PU 产生影响。TAM2引入的工作相关性，让我们看到了TTF的影子，因此有理由认为Venkatesh$\\&$ Davis 已将TAM模型与TTF 模型进行了整合。当使用者认为系统基本满足任务需求之后，接着要关心的就是该系统能够将工作做到更好的程度，Ven-katesh&Davis用产出质量描述了这种程度。在许多与自身工作紧密相关的系统中，使用者会倾向于选择技术最优的系统。不过，如果系统很内秀、界面不够友好的话，那么尽管内在技术的实现非常优秀、与工作的适配程度也很高，使用者也依然无法了解该项技术究竟有多大程度的可用性，据此Venkatesh&Davis将结果展示性—“使用该项创新所得结果的可接触性”引进了TAM2。",
+    "context5": "通过图2与图6的简单比较，可以清晰地发现TAM与TAM2的差异，择其要者有：态度已经被TAM2摒弃；TAM2中扩展了相关的社会影响因素，包括主观规范以及映象等构念；认知工具过程被纳入TAM2中。TAM模型将对系统使用的信念限定在PU 和PEOU上，排除了TRA中社会因素的影响，优点是易于操作，但是收集到的信息非常有限。TAM2则深入分析了系统使用中PU形成的两大过程——社会影响过程与认知工具性过程所带来的影响，因而理论上TAM2更完善，解释能力也更强。"
+  },
+  "3.3UTAUT": {
+    "context1": "TAM模型为解释外部变量对行为意图的影响提供了一个基本框架，随着该领域相关研究的蓬勃发展，针对不同领域所提出来的变量也越来越多。Venkatesh $\\&$ Davis通过系统的描述，发现技术任务适配模型（Task—technology fit，TTF）、创新扩散理论（Innovation diffusion theory，IDT）、理性行为理论（Theoryof reasoned action，TRA）、规划行为理论(Theory of plannedbehavior，TPB）、动机模型（Moti-vational model，MM）、复合的TAM与TPB模型（Combined TAMand TPB，C—TAM—TPB）、PC利用模型（Modelof PCutilization，MPCU）以及社会认知理论（Social cognitive theory，SCT）等理论在不同范畴中也具有相应的解释能力。基于此，Venkatesh& Davis 将这些模型进行整合，提出了“技术采纳",
+    "context2": "（C知工具性过程是指d们对有用认和的判ublis利用整理论ighUifiedTheorfAcceptance.and",
+    "context3": "Use of Technology，UTAUT）（见图7）。",
+    "context4": "UTAUT把八个模型中的论点整合为四个核心构念（Core Determinant）：“绩效期望”（PeiformanceExpectancy，PE）、“努力期望”（Effort Expectancy，EE)、“社会影响”（Social Influence，SI）和“促成因素”（Facilitating Conditions，FC），以及四个调节变量：性别（Gender）、年龄（Age）、经验（Experi-ence）和自愿性（Voluntariness of Use），相关的构念以及解释（见表2)。实证结果显示，UTAUT对使用行为的解释力高达 $70 \\%$ ，比过去所知的任何一个模型都更加有效。",
+    "context5": "Venkatesh&Davis 认为UTAUT模型的目的在于为管理者提供一套完整的评估工具，管理者可以使用UTAUT来衡量新IT的引入，并预测与解释使用者接受IT 的行为。",
+    "context6": "![](images/0f0d1d2c38f426fdcf6f6ad5c7ede3be2dc2815509a7af75dd8344706503659a.jpg)  \n图7技术采纳与利用整合理论 (UTAUT)",
+    "context7": "表2UTAUT的构念、来源以及定义",
+    "context8": "<table><tr><td>构念：定义</td><td>来源</td><td>定义</td></tr><tr><td rowspan=\"4\">绩效期望：个人相信IT 的使用 可以帮助其在工作上获得更好 表现的程度</td><td>有用认知 (TAM)</td><td>使用者认为系统的使用可以改善工作绩效的程度 使用者对诸如可能获得提升工作绩效、提高工资或者提升的期望，而实</td></tr><tr><td>外在动机 (TAM)</td><td>施某一行为的认知</td></tr><tr><td>工作适配（MPCU）</td><td>系统加强个人工作绩效的程度</td></tr><tr><td>相对优势(IDT)</td><td>使用创新的技术能够工作得更好的程度</td></tr><tr><td rowspan=\"5\">努力期望：个人认为系统是否 易用 社会影响：个人意识到他人认</td><td>成果期望 (SCT)</td><td>与行为的结果有关，可以分为绩效期望和个人期望</td></tr><tr><td>易用认知 (TAM)</td><td>使用者感觉系统易用的程度</td></tr><tr><td>复杂性（MPCU）</td><td>系统难以理解与使用的程度</td></tr><tr><td>易用(IDT)</td><td>使用者在使用创新技术时，感觉难以使用的程度</td></tr><tr><td>主观规范(TRA)</td><td>对于自己比较重要的人认为其是否应该进行某一行为的认知 在特定的社会语境中，个体内化群体的主观文化并形成特定的社会认同</td></tr><tr><td rowspan=\"4\">为其是否应该使用新型信息技 术的程度 促成因素：个人相信现有组织</td><td>社会因素（MPCU)</td><td>的程度</td></tr><tr><td>映象 (IDT)</td><td>使用新的变革可以提升个体在社会系统中的形象与地位的程度</td></tr><tr><td>行为控制认知 (TRA)</td><td>个人所感受到的内外部情境对自身行为的约束</td></tr><tr><td>促成条件（MPCU）</td><td>让使用者认为某些情境是促成IT使用的客观因素</td></tr><tr><td>与技术结构能够支持IT使用的 程度</td><td>兼容性 (IDT)</td><td>使用者所感受到的创新技术与自身的价值观、需求以及经验一致性的程度</td></tr></table>"
+  },
+  "4结 论": {
+    "context1": "TAM及其改进模型中，就理论角度而言，Davis（1993）以及Davis（1996）与原始模型相差甚微，可以认为二者与原始TAM模型在理论上没有更多的进步；TAM2 由于在模型中考虑了社会以及认知两方面的影响，因而对于使用意图的影响因素的考虑显然更为全面，Schepers的研究也证实这两方面确实对行为意图存在正性的影响；UTAUT在理论上吸收了IDT、TRA、SCT以及MPCU众多理论的合理内核，理论上比原始TAM更为完善是显然的。实证研究中，由于原始TAM模型提出的时间比较早，因而大部分研究都基于该模型展开，研究中涉及社会以及认知因素时，则会将TAM2引入，因而将基于TAM2的研究与基于原始TAM的研究分开是非常困难的。UTAUT由于提出的比较晚，尽管理论上更为完善，Venkatesh的实证研究也证实其解释能力高达 $70 \\%$ ，不过通过 ScienceDi-rect 的检索发现基于UTAUT的研究目前还比较少，仅有Chang等为数不多的几篇，因而还需要更多的独立研究以证实该模型的理论与实际应用价值。"
+  },
+  "参考文献": {
+    "context1": "1Robert J. Gordon $, ^ { * }$ U. S. Ecomomic growth since 187O:one big wave?[J].American Economic Review,1999,89（2）： $1 2 3 -$ 128. 2Jorgenson,D·and Sitroh,K·Raising the Speed Limit :U·S· Ecoubsi",
+    "context2": "aiu, Gtuiye L·1 eiy eu DIOUKIys 1 apeIs OI ECUIUIIC ACuv Iy 1,2000,2000,125—236.   \n3 宋玉华，王莉·关于新经济条件下美国生产率问题的思 考[J]·世界经济,2001(6):54-60.   \n4 Davis,F·D·A technology acceptance model for empirically testing new end user infomation systems :theory and results[Z]. Ph.D·dissertation，MIT Sloan School of Management，Cambridge,MA,1986.   \n5 Davis,F·D.Perceived usefulness,perceived ease of use,and user acceptance of information technology[J]·MIS Quarterly, 1989,(13):319-340.   \n6 Davis,F. D., Bagozzi, RP. $\\&$ Warshaw, P. R. User acceptance of computer technology :acomparison of two theoretical models [J].Management Science,1989,（35):982—1003.   \n7 Goodhue,D.L. Understanding User Evaluations of Infomation Systems[J] $\\cdot$ Management Science,1995,41(12):1827—1844.   \n8 Goodhue,D·L·,and Thompson,R·L.Task-Technology Fit and Individual Perfommance[J].MIS Quarterly,1995,19（2):213- 236.   \n9 Ajzen,I.&Fishbein,M.. Understanding AtiudesandPredictin Social Behaviour[M]. Englewood Clif fs,NJ:Prentice-Hall, 1980.20-35.   \n10 高平,等·基于TAM/TTF 整合模型的企业实施 ERP 研 究[J]·系统工程理论与实践,2004,(10).74—79.   \n11 鲁耀斌,徐红梅.技术接受模型及其相关理论的比较研 究[J]·科技进步与对策,2005,（10)：176—178.   \n12 李霆,等·影响用户接受信息技术的关键因素分析 [J]·预测,2005,(4):38-43.   \n13 W. R· King, D. I· Cleland $\\cdot$ Manager analyst teamwork in management information systems[J].Business Horizons,1971,14 (2).59-68.   \n14Bandura,A·Social Foundations of Thought and Action :A Social Cognitive Theory[M]. Prentice Hall,Englewood Cliffs，NJ, 1986.1-12.   \n15M·T·Dishaw,D.M· Strong· Extending the technology accep\" tance model with tasktechnology tit constructs，[J」·Intoma\" tion & Management,1999,36(1):9-21.   \n16P.Legris,J·Ingham,P.Colerete $\\cdot$ Why do people use infomation technology?A critical review of the technology acceptance model[J]· Infomation& Management,2003,40（3):191-   \n204.   \n17 Davis,F· D. User Acceptance of Infomation Technology : System Characteristics,User Perceptions and Behavioral Impacts [J]·International Journal of Man $-$ Machine Studies，1993,38 (3):475-487.   \n18 Bagozi,R·P.A field investigation of Causal relationsamong cognitions，affect,intentionsand behavior[J]·Journal marketing research,1982,（19):562-584.   \n19 Venkatesh,V.,and Davis,F.D.A Theoretical Extension of the Technology Acceptance Model;Four Longitudinal Field Studies [J].Management Science,2000,45(2):186—204.   \n20V.Venkatesh,M·G. Morris,G.B. Davis,F.D. Davis $\\cdot$ User acceptance of information technology :toward a unified view [J]. MIS Quarterly,2003,27(3):425-478.   \n21 Q· Ma,L·Liu.The technology acceptance model:a meta analysis of empirical findings[J]· Journal of Organizational and End User Computing,2004,16(1):59—72.   \n22 Davis,F. D.& Venkatesh,V.A Critical Assessment of Potential Measurement Biases in the Technology Acceptance Model: Three Experiments[J]·International Journal of Human一Computer Studies,1996,45(1):19-45.   \n23 Hartwick,JExplaining therole of user participation in informa\" tion system use[J]. Management science,1994,40（4): $4 4 0 -$   \n465.   \n24J.Schepers,M. Wetzels·A meta analysis of the technology acceptance model:Investigating subjective nom and moderation effects[J]·Infomation & Management,2OO6,（2):1-14.   \n25Chang,I-Chiu·et al $\\cdot$ Physicians’acceptance of phamacokineticsbased clinical decision support systems[J] $\\cdot$ Expert Systems with Applications,2007,33(2):296—303."
+  }
+}

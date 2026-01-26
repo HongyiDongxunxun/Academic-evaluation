@@ -1,0 +1,120 @@
+{
+  "original_filename": "full_4615.md",
+  "基于深度学习的图像检索研究进展": {
+    "context1": "魏明珠1,郑荣1²,杨竞雄1",
+    "context2": "(1.吉林大学管理学院,吉林 长春 130022；2.吉林大学 信息资源研究中心,吉林 长春130022)",
+    "context3": "摘要：【目的/意义】分析提炼国内外基于深度学习的图像检索的最新研究热点及研究方法,揭示该领域未来研究趋势【方法/过程]文章以国际顶级人工智能会议集(CVPR/AAAI/IJCAI/NIPS/SIGIR)、中国知网(CNKI)数据库、Web of Science核心合集及作为数据来源,对相关文献进行词频统计,生成词云图对该领域研究热点进行分析；利用Citespace可视化工具对研究主题演化进行定量分析，并从研究主题、算法、模型及应用实践四个维度进行详细评述。【结果/结论】现有的图像检索主要集中于卷积神经网络在图像表示和分类方面的应用，未来需要在图像分类的实时性、深度哈希算法的特征融合、图像检索的智能应用等方面进一步研究。【创新/局限】本文的创新性在于系统的总结了基于深度学习的图像检索的应用现状及未来发展趋势。此外,在未来研究中还应进一步扩展和丰富研究资料，从而更加全面准确的对本研究主题进行深入论述与分析。",
+    "context4": "关键词：图像检索;深度学习；图像分类;卷积神经网络;信息检索 中图分类号：G254 DOI:10.13833/j.issn.1007-7634.2021.05.025"
+  },
+  "1引言": {
+    "context1": "深度学习是机器学习中一种对数据进行表征学习的方法，是机器学习的子集，相对于浅层学习具有更多的非线性操作的层级数，旨在利用多个变换阶段分层，组合低层特征形成更加抽象的高层表示，由此将图像像素级信息逐层提取为抽象的语义概念,加速图像内容理解。基于内容的图像检索系统利用深度学习，通过底层识别图像边缘，多层网络识别特定形状,最终得到层次化的特征表示，从而使图像分类、识别和检索的性能显著提升。由于这种深层体系结构自动地从数据的多层抽象中学习特征，尤其是作为计算机视觉领域最成功的一种深度学习模型一卷积神经网络(CNN)提取的特征表示具有一定的通用性,因此基于卷积神经网络的图像分类、图像表示等已广泛应用在语音识别、自然语言处理等诸多领域。特别地,基于深度学习的图像检索在物体识别、医学图像、遥感图像等领域获得了更大关注，深度学习算法在图像检索领域中逐步成为新兴分支。",
+    "context2": "另一方面,网络内容、移动通讯等可视化数据中，图像数量爆发式增长，其可用性、复杂性、多样性日益突出，对图像服务的需求更加迫切。基于内容的图像检索逐步成为图像检索的主流方法,研究主要集中在减少机器学习提取的低级图像特征与丰富的高级人类图像感知之间的语义差距，由此图像检索对机器学习的特征表示的精准程度提出更高要求。",
+    "context3": "在持续提升用户体验的需求驱动下,未来研究的趋势将结合卷积神经网络、深度置信网络、自动编码器等深度学习算法，提取更明确的图像特征，并构建基于深度学习的图像检索模型,满足用户以图搜图、以图搜义、以图搜文等更细粒度的图像检索需求。"
+  },
+  "2研究方法和数据来源": "",
+  "2.1研究方法": {
+    "context1": "本文主要采用定量和定性相结合的分析方法对基于深度学习的图像检索理论及应用研究进展进行分析。从论文发文量及年份分布进行定量分析;利用Python进行词频统计，生成词云图探究研究热点；利用可视化分析软件Citespace对研究主题演化分析,并依此进一步梳理深度学习技术在图像检索领域的发展历程，以直观、全面、准确的揭示该领域图像检索的研究进展;从基于深度学习的图像检索的研究主题、算法、模型及应用实践四个维度进行定性分析，深度剖析该领域的发展态势。"
+  },
+  "2.2数据来源": {
+    "context1": "本文数据主要来源两个方面： $\\textcircled{1}$ 相关国际会议。主要包括国际计算机视觉与模式识别会议(CVPR）、国际人工智能协会（AAAI)、国际人工智能联合会议(IJCAI）、神经网络处理系统大会(NIPS）、国际计算机协会信息检索大会(SIGIR)等5个深度学习的图像检索相关的国际会议2013—2018年收录的论文。 $\\textcircled{2}$ 数据库。web of science及中国知网等数据库检索有关文献。",
+    "context2": "![](images/5280e4efd969a9c2c92f343b216acf1fdee62b8c53afa3f2743d79155595a77f.jpg)  \n图1各年度会议论文数量变化趋势  \nFigure 1 Trends in the number of conference papers in each year",
+    "context3": "采用网络调查法从5个相关国际会议官网获取基于深度学习的图像检索有关的论文，探索更多前沿研究及重要突破;同时在知乎、今日头条、豆瓣等学术社区及自媒体平台中检索相关热评文章并发现其可参考之处，使本文更加全面且具有说服力。采用文献研究法对webof science及中国知网等数据库中检索的有关文献定量分析。检索时间均截止到2018年11月17日。在webof science核心文集中采取高级检索形式，检索式为 $\\mathrm { T S } =$ (\"image retrieval\"AND\"deep learn-ing\")OR TS=(\"image search\"AND\"deep learning\"),并对其中的高被引论文进行引文检索和施引文献检索，剔除无效数据，最终确定与本文主题相关文献为216篇。在中国知网上采取高级检索形式（主题 $\\mathop { \\bf { \\phi } } =$ 图像检索)并含（主题 $=$ 深度学习）,检索出文献数目278篇，剔除无效数据，与本文主题的相关文献数目为226篇。"
+  },
+  "3基于深度学习的图像检索定量分析": {
+    "context1": "本文从发文量及年份分布、研究热点和研究主题演化等三方面进行定量分析，为后文的定性分析及未来研究展望奠定基础。"
+  },
+  "3.1基于深度学习的图像检索发文量及年份分布": {
+    "context1": "学术会议是学术领域对研究成果进行分享、交流的盛会，具有主题明确、前瞻性高等特点,因此本文梳理和统计国际顶级人工智能会议(CVPR/AAAI/IJCAI/NIPS/SIGIR)的论文数量变化趋势，探究该领域的整体发展态势，使基于深度学习的图像检索的研究更有理论基础和实践价值。各年度会议论文数量的变化趋势如图1所示，总体来看,5个会议在",
+    "context2": "2012年-2018年收录的论文数都呈上升的趋势(IJCAI会议自2015年起由单数年份召开改为每年召开),大数据时代下计算机相关的研究和应用不断丰富,推动着相关会议论文数的持续增长。",
+    "context3": "人工智能、神经网络及计算机视觉与模式识别等相关技术带动且引领基于深度学习的图像检索的发展,因此对基于深度学习的图像检索相关文献进行梳理和统计。可以发现，国内和国外对该领域的研究几乎同时起步，与会议论文变化趋势均呈上升态势。2006年Hinton首次提出深度学习，但由于缺乏大数据及高性能计算平台的支持,深度学习算法并未在图像检索领域有所突破。2012年Hinton的研究小组利用多层卷积神经网络显著提高图像分类的成功率,深度学习算法由此呈爆发式发展。因此2013年开始陆续发表基于深度学习的图像检索的研究成果。从2013年到2014年，国内与国外的发文量较少，据此可初步判断此阶段国内外对该领域的研究处于初级探索阶段。2015年到2018年，相关发文量增加，文献增长量较快,据此可初步判断国内外对该领域的图像检索研究进入了快速发展阶段，学者利用计算机强大的计算能力训练大量数据,构建深度学习优化模型提高图像检索性能[2],并依托强大的人工智能及其他计算机视觉与模式识别等算法不断提高图像检索的准确性。"
+  },
+  "3.2基于深度学习的图像检索研究热点分析": {
+    "context1": "依托Python计算生态环境语言编程，对2012-2018年收录的重要会议论文(会议官方划分的 $\\mathrm { O r a l }$ 演示论文)的摘要、web of science及中国知网等数据库中的相关文献进行词频统计，并生成词云图以过滤文本信息，集中反应在该领域中近年的研究热点，如图2和图3所示。",
+    "context2": "词云中关键字的大小代表该关键词出现频率的高低。本文选取Top15高频词在词云中展示，需要说明的是，“图像\"\"检索\"\"深度学习\"等词为文献检索词,故作为停用词省略。从图2可以观察到，“特征\"\"算法\"\"识别\"“标注\"\"哈希算法\"\"标注\"\"模型\"\"卷积神经网络\"\"目标检测\"\"遥感图像”等在国内文献中出现频率较高，是该领域的研究热点，可进一步推断国内主要利用深度学习算法构建模型,对图像进行特征提取、图像标注、识别,主要在应用于目标检测、遥感图像等领域。",
+    "context3": "![](images/9a37eeb39f8f9bbc02ad43e1c4a150a481f01526e5e2b649108be35ae78ebcd8.jpg)  \n图2国内基于深度学习的图像检索研究热点",
+    "context4": "从图3可以观察到,“features”“hashing algorithm\"“medi-cal dataset”\"classification”、“model\"\"computer visual\"\"AI\"等出现频率较高，可推断国外更注重数医学图像数据集、人工智能、计算机视觉等应用领域。对比图2和图3,国内和国外在该领域的研究侧重点虽然有所不同，但研究主题依旧集中在图像特征提取、分类，深度学习算法及模型等更细粒度的研究，致力于计算机视觉领域及人工智能领域的突破。",
+    "context5": "![](images/0638c1c07739dfed4aa2b2f511c6857a6dbf83d83ca23efeef9da58f36451907.jpg)  \n图3国外基于深度学习的图像检索研究热点",
+    "context6": "![](images/61f45db1e4291145e29a6cb0e9c68200a47278bfebd5ce853999737cf05431a7.jpg)  \nFigure 2 Research hotspots of image retrieval based on deep learning in China   \nFigure 3 Research hotspots of image retrieval based in deep learning abroad   \n图4国内基于深度学习的图像检索研究主题时间线视图",
+    "context7": "![](images/71b7fee287138cbf1292a52325b4083baf961cb3301a7bbd640eb6573a241c1d.jpg)  \nFigure 4 Timeline of domestic research topics   \n图5国外基于深度学习的图像检索研究主题时间线视图  \nFigure 5 Timeline of foreign research topics",
+    "context8": "![](images/1aab5d77252315f8e057ee1cb397a9113dbc84585c91cf12abf65f1d79cbc43e.jpg)  \n图6深度学习在图像检索领域的发展历程  \nFigure 9 The development history of deep learning in the field of image retrieval"
+  },
+  "3.3基于深度学习的图像检索研究主题演化分析": {
+    "context1": "主题的年代演变路径可以追踪该领域研究热点的动态发展轨迹。利用Citespace时间线视图勾画聚类之间的关系及聚类中文献的历史跨度，展示该领域中不同聚类的历史成果，如图4和图5所示。",
+    "context2": "结合上文对研究热点的分析，对国内在该领域的研究主题演化路径进一步阐释。对国内相关文献进行基于关键词的聚类,在图像描述这一聚类中，卷积神经网络在2015年成为研究热点，且相关研究一直持续至今,在图像描述、特征提取及图像处理等方面取得进展。深度卷积神经网络聚类中，2013年深度学习呈爆发式发展，相继与基于内容的图像检索、哈希算法结合，应用范围十分广泛。特征提取聚类的研究热点逐渐由图像识别,转换为特征融合，再到目前的场景识别,根据用户实际需求不断发生变化，迎合人工智能的发展。相似性检索目前主要集中于有监督哈希的研究。哈希算法与深度学习算法结合,在跨媒体检索以及基于内容的图像检索中起到了重要作用。",
+    "context3": "国外基于深度学习的图像检索共6个聚类，与国内相比,虽然在聚类的种类和数量上有所不同,但主体方向一致：国内的深度卷积神经网络、特征提取、相似性检索及哈希聚类分别与 deep video、features conduction、efficient hashingcode及supervised hashingcode聚类相对应。但从图像整体来看，国外在该领域的研究关联性更强，在应用实践方面更为广泛。large-scale multimodal medical dataset 聚类体现了医学图像检索中深度学习算法的优越性,深度学习算法将计算机视觉可视化渗入到医学图像检索领域中。efficienthashing code及 supervised hash coding两个聚类中同时关于哈希算法，研究主题同时包括基于内容的图像检索，图像的特征提取、图像分类、图像二值性表示等,这进一步说明哈希算法的紧致二值性和距离计算在深度学习算法的渗透下发挥更明显的优势。",
+    "context4": "本文依据研究主题演化过程,进一步梳理深度学习技术在图像检索领域的发展历程,以期更全面的叙述深度学习技术对图像检索的影响，参见图6。"
+  },
+  "4基于深度学习的图像检索研究现状分析": {
+    "context1": "依据词云图展示的研究热点对该领域中算法及模型进行定性分析;根据上文主题演化分析及信息检索过程确定研究主题包括图像的特征提取、分类、识别及标注;理论应用于实践,对该领域应用实践综述分析。因此,将从研究主题、算法、检索模型及应用实践四个维度进行详细述评,掌握该领域的研究现状,并在此基础上展望未来发展趋势。"
+  },
+  "4.1基于深度学习的图像检索研究主题": {
+    "context1": "图像检索是信息检索领域的一个分支，利用深度神经网络等算法对图像进行特征提取，构建检索模型，实现快速准确的图像检索。根据研究主题演化分析及信息检索过程确定研究主题分为图像特征表示、图像分类、图像识别、图像标注四个部分。",
+    "context2": "(1)基于深度学习的图像特征表示",
+    "context3": "图像的特征表示是图像识别的开始，决定着图像检索的准确性。Xiang S.Z[3]最早指出基于内容的图像检索(CBIR)性能受到图像表示数据库的约束，最常用的视觉内容特征颜色、纹理、形状不能满足实际应用需求。与浅层特征学习相比,深度学习技术利用多层非线性映射将图片内容中各种要素区别分开,特征表达更为准确[4-5]。Razavian[4]是国外较早研究卷积神经网络的学者，他使用从OverFeat网络中提取的图像特征作为通用的图像表示,处理图像分类、细粒度识别等各种任务，确定卷积神经网络在深度学习中的重要地位。$\\mathrm { R e n } Z . Z ^ { [ 6 ] }$ 最新提出利用深度网络学习高级视觉特征表示，利用合成图片训练神经网络。Y.S.Li[利用深度神经网络和哈希映射提取到背景复杂的遥感图像特征。由于分类网络直接输出的特征维度较高，占用存储空间导致效率降低，因此精简分类网络输出特征是提高检索效率的关键。这些整合研究不仅冲破了传统图像表示的约束，而且缩小了图像的概念表示与高级语义感知之间的距离,有效的改善用户体验，具有重要的理论应用价值。"
+  },
+  "(2)基于深度学习的图像分类": {
+    "context1": "图像分类是CBIR预处理至关重要的一部分，传统方法是特征描述及检测。2009年Caicedo[8利用特征包对图像分类，为深度学习与支持向量机分类器的结合奠定深厚基础。2012年Krizhevsky[2训练高度优化的卷积神经网络模型，大幅度提高图像分类精准度。为了达到更好的准确性，众多学者对Krizhevsky最初的架构进行改进。Zeiler9通过新型可视化技术对Krizhevsky的模型改进。Szegedy[o]在同等计算负担下，从网络结构入手增加神经网络的深度和宽度以避免过拟合现象和计算量徒增的缺陷。Simonyan[则对ConvNet架构的参数进行修正，添加卷积层深度，并使用较小的卷积滤波器,不仅在图像分类和识别任务上具有准确性，而且还适用于其它的图像识别数据集。基于深度学习是图像分类技术自2013年开始革新，信息时代所产生的巨大的图像数据势必对图像分类的精准度要求日益提高。"
+  },
+  "(3)基于深度学习的图像识别": {
+    "context1": "基于深度学习的图像识别与图像分类含义不同但密切相关。图像分类将图像作为系统的一个整体输入,而图像识别除了给定类的信息外，还需识别判断图像中的实例位置、形状等。深度卷积神经网络在图像识别领域已取得巨大成功，但目前为止面临的两大挑战仍然是类内多样性和类间相似性。Kaiming $\\mathrm { H e } ^ { [ 1 2 ] }$ 解决了深度神经网络中产生的退化问题，能够做到网络越深,准确率越高。其提出的ResNet为后续分类网络及图像识别奠定了基础。图像分割是图像识别的一大任务，图像分割需要对每个像素进行分类。Jonathan[3构建完全卷积网络，将深层粗糙层的语义信息与浅层精细层的外观信息结合，生成准确详细的分割集。同时,对象识别是图像识别的重要内容之一,对象识别的数量会根据图像的不同而发生变化,例如人脸识别[14]、视觉搜索引擎[5]等。"
+  },
+  "(4)基于深度学习的图像标注": {
+    "context1": "基于深度学习的图像标注是图像检索的核心技术,其本质是利用图像集自动学习语义概念空间和视觉特征空间的映射模型。最早的图像标注采用文本标注方式，随后CBIR克服\"以字找图\"的不足，目前能够实现图像自动标注[]。在标注数据较少的情况下，M.Kolar通过半监督的自我训练引导程序,利用附加图像深入学习小数据集。Martin[18]提出最新的图像标注方法，利用增强编码器构建模型,建立隐式虚拟的物体位姿表征，从而达到真实的图像标注的水平。"
+  },
+  "4.2基于深度学习的图像检索算法": {
+    "context1": "根据研究主题演化节点，概括基于深度学习的图像检索算法主要包括两种类型,第一类为深度学习优化算法，主要指深度卷积神经网络,第二类结合哈希算法与深度学习算法，二者优势互补,将学习效果达到最佳状态,是深度学习在图像检索领域中的另一种形式的发展。",
+    "context2": "(1)深度学习优化算法",
+    "context3": "深度神经网络在图像特征提取、分类、识别及标注等方面具有巨大潜力，从图像分析到自然语言处理,被广泛应用于学术界和工业界。Hinton于2006年提出深度学习算法，发展到现在主要分为四种，分别是卷积神经网络,受限玻尔兹曼机器，自动编码和稀疏编码[19]。其中卷积神经网络对图像检索领域做出了巨大贡献，其权值共享结构大幅减少了参数量，防止过拟合的同时又降低模型的复杂度。虽然卷积神经网络在语义层面的全局特征表达方面性能优异，但忽略了局部区域的细节表达,影响检索准确性。因此对其优化研究集中在卷积层、池化层和全连接层。He kaiming[20通过卷积神经网络输入低分辨率图像，输出高分辨率图像。Andreas[2I]构建具有自适应推理图(ConvNet-AIG)的卷积网络,根据输入图像自适应地定义卷积网络拓扑，提高了效率和整体分类质量。R.M.Anwer22首次提出将二进制编码模式的卷积神经网络和不同的深度网络架构融合，对映射的编码图像进行训练用于纹理识别和遥感场景分类。这些对卷积神经网络算法的不断优化，提供了更丰富的图像特征表达方式，满足各个层次的图像检索需求，真正实现图像检索的专业化和精准化。"
+  },
+  "(2)深度哈希算法": {
+    "context1": "哈希算法由于紧致二值性和距离计算的优势,被广泛应用于大规模图像检索。Venice[23揭示了哈希算法与深度学习相结合的发展趋势。使用深度哈希算法前主要通过手工方式提取特征，无法保证语义的相关性，而深度哈希算法则利用卷积层获取图像特征，从全连接层得到哈希编码，并针对目标函数求导迭代[24]。Fang $Z ^ { [ 2 5 ] }$ 利用深度哈希算法研究多层语义问题，通过CNN得到紧凑哈希码，以此确保语义的敏感性。KevinL[2加入全连接隐层连接中层特征与高层特征,紧密结合深度哈希算法。深度哈希算法的发展进一步增强了哈希算法在图像检索的优势，有效提高图像检索的精准度和效率。"
+  },
+  "4.3基于深度学习的图像检索模型": {
+    "context1": "图像检索模型能够解释开放、动态的图像检索过程，随着深度学习研究的不断深入，出现了“基于内容的图像检索模型”-“基于深度学习的图像检索模型”-“基于深度学习的哈希图像检索模型\"范式的演进，图像检索模型的特征表示方法由文本标注、演变到SIFT局部描述特征、再到卷积神经网络的全局特征表示[27]。基于深度学习的图像检索模型的特点主要体现在特征提取中。",
+    "context2": "(1)基于内容的图像检索模型",
+    "context3": "图像检索按照描述图像内容方式的不同，可以分为基于文本和基于内容的图像检索。基于文本的图像检索采用文本标注方式形成图像内容的关键词,但大规模的图像数据采用这种方式会耗费大量资源。基于内容的图像检索分析图像内容找到相似的图像，A.Alzu'bi[28对基于内容的图像检索进行了全面的总结。张需[29]等人在此基础上研究基于内容的图像检索在购物网站上的模型演变。",
+    "context4": "(2)基于深度学习的图像检索模型",
+    "context5": "在大数据时代,基于内容的图像检索与深度学习算法相结合逐渐成为主流。从海量图片资源中自动学习图像特征，利用多层次性将图像中的多种隐含因素以非线性方式关联，将图像中复杂元素分开完成图像分类。AlexNet模型2使用非线性激活函数，提升特征的丰富性。VGG模型[30通过加深网络结构提升性能，其不足是必须有足够的数据才能更好地刻画出模型在空间上的分布。ResNet模型[31]与Inception系列模型共同展示了神经网络的新范式。Incepetion $\\mathrm { V } 1 ^ { [ 1 0 ] }$ 模型将稀疏矩阵聚类为密集的子矩阵。Incepetion V2 模型[32]借鉴VGG模型架构，降低参数的同时建立了更多的非线性变换。IncepetionV3模型[33拆分二维卷积，节约参数的同时增加非线性扩展模型表达能力。Incepetion V4 模型[34相比V3模型性能更深更优化。DenseNet模型[35实现特征的重复利用，通过降低网络宽度来降低冗余。SENet模型[3通过控制范围把握特征的强弱，以此增强特征的指向性。基于深度学习的图像检索模型作为图像检索系统强有力的支撑，由于具备多种模型备选方案，而且根据图像检索系统不同的任务需求自适应地提供检索服务，并且保证图像检索准确度，极大地推动了图像检索领域的纵深发展，在大数据爆发和用户需求多样化的信息时代，更加突出了其重要作用。"
+  },
+  "(3)基于深度学习的哈希图像检索模型": {
+    "context1": "图像检索系统中各种算法通过联合学习,整体优化，使检索系统性能大幅提升。同时其他算法也推动深度学习在网络结构、层的设计和训练方法等方面快速发展。哈希算法具有计算效率高、搜索速度快等优点，深度学习架构具有有效的图像表示特征，因此构建基于深度学习的哈希图像检索模型可以实现更好的性能。Konstantinos[37]在当前神经网络架构基础上引入新层，充分考虑图像中的对象类型,基于图像语义分割信息。刘玉莹[38认为将图像编码成有利于哈希函数学习的图像特征是深度哈希算法要学习的重要问题。基于深度学习的哈希图像检索模型充分展示了传统哈希技术在新型深度学习算法的浪潮中如何保持优势,并在相互融合的动态平衡中构建更符合用户需求的图像检索系统。"
+  },
+  "4.4基于深度学习的图像检索应用实践": {
+    "context1": "根据研究主题的时间线视图的聚类及学科领域分布，基于内容的图像检索深入渗透在通信工程、医疗诊断、人像识别、智能场景分类等领域中，深度学习算法的应用使图像检索如虎添翼,将其推向新的高度，在社会各个领域都具有广阔的应用前景。"
+  },
+  "(1)医学图像检索": {
+    "context1": "医学图像中的病变和器官太复杂，无法通过简单的方程或模型准确地表示，因此机器学习在医学成像领域的作用逐渐增大。卷积神经网络凭借其强大的拟合能力，充分表征医学图像检索的高层语义特征信息。Geert[39总结了卷积神经网络在视网膜、心脏等医学领域的应用技术。Andrew团队近3年利用深度学习算法相继在胸部X光片[40]、膝关节磁共振成像等方向取得成果。深度学习在医学图像检索领域中的应用还在不断被创新，预计深度学习将成为未来几十年医学成像的主流技术。"
+  },
+  "(2)智能系统图像检索": {
+    "context1": "计算机视觉领域是人工智能发展的战略要点，而图像检索是计算机视觉领域的关键研究问题。LiPeiliang[4I]利用立体图像的语义和几何信息，扩展R-CNN，同时检测和关联左右图像中的对象。 $\\mathrm { C . G . Y a n ^ { [ 4 2 ] } }$ 将阶段性监督深度哈希框架应用于智能车辆的环绕感知中，提高二进制码的判别能力。大数据与智能革命重新定义了移动互联网,使移动图像检索的智能应用更为普遍,例如手机淘宝、美团App的智能推荐，以图搜图等功能。深度学习算法的应用使检索过程更加智能化,具备理解,学习,推理认知能力,实现更智能的人机互动,帮助人们做出更佳的辅助决策。"
+  },
+  "(3)遥感图像检索": {
+    "context1": "遥感图像凸显的特殊性、复杂性及多样性，对特征表示要求更高。深度学习凭借其强大的图像表示能力在遥感图像检索中得到了广泛的应用。由于需要大量的训练数据,因此需要创建专门收集遥感数据的大规模遥感数据集[43]。Raffaele[44]使用局部聚合描述符向量(VLAD)提高遥感图像检索效率。张洪群[45]利用稀疏自动编码方法在没有标注的遥感图像中进行特征提取。随着高分辨率卫星图像的普遍使用，遥感图像场景分类的相关研究日益趋多。Armand[46]区别于已有的关键点匹配方法，通过非线性配准提高遥感图像检索精度。利用深度学习算法对遥感图像进行特征提取、分类及识别，不仅有效解决了遥感研究领域中一个开放而棘手的计算机视觉问题，同时扩充了深度学习在计算机视觉领域的纵深发展。"
+  },
+  "(4)电子商务图像检索": {
+    "context1": "电子商务的蓬勃发展对相关图像检索的准确性和时效性提出更高要求,不仅包括输入图像和库中图像的特征提取、匹配,甚至用户快速在线检索需求、快速响应及处理需求。阿里巴巴拥有大规模视觉搜索算法和系统基础设施，利用深度卷积神经网络用于联合检测和特征学习，弥合用户查询的实景图像与在线图像之间的差距。同时训练深度模型以进行有效的特征表示,改善用户参与度。 $\\mathrm { K . L i n } ^ { [ 4 7 ] }$ 利用分层深度搜索框架解决推荐系统中服装检索问题。 $\\mathrm { X . W a n g ^ { [ 4 8 ] } }$ 采用深层网络架构及多任务微调方式学习优化特征表示，弥合用户图像与在线产品之间的领域差距。将深度学习算法应用于电子商务图像检索中,改善传统用户实景图像与产品图像差距大的弊端，进一步推动电子商务的蓬勃发展。"
+  },
+  "5未来研究展望": {
+    "context1": "基于深度学习的图像检索的研究方兴未艾，极大地提高用户图像检索体验。本文在定量分析的基础上，详细介绍了",
+    "context2": "基于深度学习的图像检索的研究主题、算法、模型及应用实践。基于深度学习算法，图像检索在各领域取得较大进展，但在以下几个方面还有待进一步研究。"
+  },
+  "5.1基于深度学习的图像分类实时性": {
+    "context1": "依据词云图展示的高频词，可以观察到图像分类仍然是当前的研究热点。基于深度学习的图像分类主要使用深度神经网络模型作为基础,利用分类器进行图像分类,在分类准确程度上已大有起色。但信息时代所产生的巨大的图像数据势必对图像分类的实时性要求日益提高。未来无人驾驶、交通检测、环境感知对图像分类的实时性同样提出了挑战。如何保持图像分类精准度的同时，降低特征维度，保证图像分类的实时性，具有广阔的发展空间。"
+  },
+  "5.2基于深度哈希算法的特征融合": {
+    "context1": "卷积神经网络更擅长提取图像全局特征，哈希算法凭借其紧致二值性更擅长提取图像局部特征,而采用单一的图像表示方法不能满足用户多元化的需求，例如用户对图像中的某一部分感兴趣。目前基于深度哈希算法的特征表示多数采用局部二值式进行编码表示局部特征，没有充分利用深度学习网络的多层结构及多层次性的特征信息进行补充，因此全面深入的研究基于深度哈希算法的特征融合，具体而言，如何将卷积神经网络的多层结构及其多层次的特征信息融入进哈希编码的局部特征中？既然图像特征构成维度是多层的,那么深度哈希算法在多层特征融合过程中，如何依据不同图片特点保证特征融合比例平衡？这一系列的问题都是以往研究没有深入解决的问题。"
+  },
+  "5.3基于深度学习的图像检索智能应用": {
+    "context1": "根据上文定量分析中研究主题演化分析时间线视图，在2018年国内和国外关注焦点在\"行人识别\"\"场景识别\"\"目标检测”，同时，在词云图中国内国外共同展示出\"相似性”“语义\"等词,这些词汇共同映射出基于深度学习的图像检索未来的一个研究热点：智能应用。无论是在行人或是实体场景的识别,或实物目标检测,都需要推动计算机技术的智能化，提高计算机语义理解能力，未来的图像检索会在智能应用中发挥更强大的作用，在无人驾驶、犯罪刑侦、电子商务、交通检测等各个领域中都具有深远的实践意义，使检索过程更加智能化，具备理解,学习,推理认知能力，实现更智能的人机互动。"
+  },
+  "参考文献": {
+    "context1": "1张皓,吴建鑫.基于深度特征的无监督图像检索研究综述 [J].计算机研究与发展.2018,55(9):1829-1842.   \n2 Krizhevsky A,Sutskever I,Hinton G E.ImageNet Classification with Deep Convolutional Neural Networks [J].COMMUNICATIONS OF THE ACM,2017,60 (6):84-90. - 190 -   \n3 Xiang Sean Zhou, Huang, T.S.. Image retrieval: feature primitives, feature representation,and relevance feedback[P].Content-based Access of Image and Video Libraries,2Ooo.Proceedings.IEEE Workshop on, 2000.   \n4 Razavian A S,Azizpour H,Sullivan J,et al.CNN Features Off-the-Shelf: An Astounding Baseline for Recognition[C]//2014 IEEE Conference on Computer Vision and Pattern Recognition Workshops. Columbus,2014:512-519.   \n5Babenko A,Slesarev A,Chigorin A,et al.Neural Codes for Image Retrieval[C]//13th European Conference on Computer Vision.SWITZERLAND,2014:584-599.   \n6 Zhongzheng Ren, Yong Jae Lee.Cross-Domain Selfsupervised Multi-task Feature Learning using Synthetic Imagery[C]// The IEEE Conference on Computer Vision and Pattern Recognition (CVPR). Salt Lake City,2018:762-771.   \n7 Li Y S,Zhang Y J,Huang X,et al.Large-Scale Remote Sensing Image Retrieval by Deep Hashing Neural Networks[J].IEEE Transactions on Geoscience and Remote Sensing,2018,56(2):950-965.   \n8 Caicedo JC,Cruz A,Gonzalez F A.Histopathology Image Classification Using Bag of Features and Kernel Functions[C]// 12th Conference on Artificial Intelligence in Medicine,2009:126-135.   \n9 Zeiler M.D., Fergus R. Visualizing and Understanding Convolutional Networks[C]// European Conference on Computer Vision(ECCV).Zurich,2014:8689.   \n10 Szegedy C, Wei Liu, Jia Yangqing,et al.Going deeper with convolutions[C]// The IEEE Conference on Computer Vision and Pattern Recognition (CVPR),Boston,2015:1-9.   \n11Simonyan K,Zisserman A.Very deep convolutional networks for largescale image recognition[C]//Conference on Computer Vision and Pattern Recognition(CVPR).Boston , 2015.   \n12 He Kaiming,Zhang Xiangyu,Ren Shaoqing,et al.Deep residual learning for image recognition[C]//The IEEE Conference on computer vision and pattern recognition(CVPR).Las Vegas,2016:770-778.   \n13 Jonathan L,Shelhamer E,Darrell T.Fully Convolutional Networks for Semantic Segmentation [C]//The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).Boston,2015:3431-3440.   \n14 Chan T H,Jia K,Gao S H,et al.PCANet: A Simple Deep Learning Baseline for Image Classification? U]. IEEE TRANSACTIONS ON IMAGE PROCESSING,2015,24 (12):5017-5032.   \n15Zhang Y H,Pan P,Zheng Y,et al.Visual Search at Alibaba [C]// 24th ACM SIGKDD Conference on Knowledge Discovery and Data Mining,London,2018:993-1001.   \n16 Bhagat P K,Choudhary P.Image annotation: Then and now J].IMAGE AND VISION COMPUTING,2018,(80):1-23.   \n17Kolar M,Hradis M,Zemcik P.Deep Learning on Small Datasets using OnlineImageSearch[C]//32nd Spring Conference on Computer Graphics.SLOVAKIA,2016:87-93.   \n18Sundermeyer M, Zoltan-Csaba M,Durner M,et al. Implicit 3D Orientation Learning for 6D Object Detection from RGB Images[C]//The European Conference on Computer Vision (ECCV).Miinchen,2018:699-715.   \n19Guo Y M,Liu Y,Oerlemans A,et al.Deep learning for visual understanding:A Review[J].Neurocomputing,2016,(187):27- 48.   \n20 Dong C, Loy C.C,He K,et al.Learning a Deep Convolutional Network for Image Super-Resolution.[C]// The European Conference on Computer Vision (ECCV).Zurich, 2014:8692.   \n21 Veit a,Belongie S.Convolutional Networks with Adaptive Inference Graphs[C]// The European Conference on Computer Vision (ECCV).Minchen ,2018:3-18.   \n22 Anwer R M, Khan F S,van de Weijer J,et al.Binary patterns encoded convolutional neural networks for texture recognition and remote sensing scene classification [J].ISPRS Journal of Photogrammetry and Remote Sensing,2018,(138): 74-85.   \n23Erin Liong V,Lu Jiwen,Gang W,et al.aDeep Hashing for Compact Binary Codes Learning[C]// The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).Boston,2015:2475-2483.   \n24Lai Hanjiang,Pan Yan,Liu Ye,et al.Simultaneous Feature Learning and Hash Coding with Deep Neural Networks [C]//The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).Boston,2015:3270-3278.   \n25 Zhao Fang,Huang Yongzhen,Wang Liang,et al.Deep Semantic Ranking Based Hashing for MultiLabel Image Retrieval [C]//The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).Boston,2015:1556-1564.   \n26Lin Kevin,Huei-Fang Yang,Jen-Hao Hsiao,et al. Deep Learning of Binary Hash Codes for Fast Image Retrieval [C]//The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops. Boston,2015:27-35.   \n27 Zheng L,Yang Y,Tian Q.SIFT Meets CNN: A Decade Survey of Instance Retrieval[J].IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,2018,40(5):1224-1244.   \n28 Alzu'bi A.Amira A.Ramzan N.Semantic content-based image retrieval: A comprehensive studyU].Journal of Visual Communication and Image Representation,2015,(32):20-54.   \n29 张薷,李玉海.基于内容的图像检索技术在购物网站中的 应用研究[].情报科学,2012,30(6):811-814,824.   \n30Simonyan K, Zisserman A. Very deep convolutional networks for large-scale image recognition[C]// The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).Boston,2015.   \n31 He Kaiming,Zhang Xiangyu,Ren Shaoqing,et al.Deep residual learning for image recognition [C]//The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).Las Vegas,2016:770-778.   \n32 Loffe S,Szegedy C.Batch Normalization : Accelerating Deep Network Training by Reducing Internal Covariate Shift [C]//The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).Boston,2015.   \n33 Szegedy C,Vanhoucke V,Iofe S,et al.Rethinking the Inception Architecture for Computer Vision [C]//The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).Las Vegas,2016:2818-2826.   \n34 Szegedy C,Ioffe S,Vanhoucke V,et al.Inception v4-Inception-ResNet and the Impact of Residual Connections on Learning[C]// Thirty-First AAAI Conference on Artificial Intelligence(AAAI).San Francisco,2017.   \n35Gao Huang,Zhuang Liu,Maaten L,et al.Densely Connected Convolutional Networks [C]//The IEEE Conference on Computer Vision and Pattern Recognition(CVPR).Hawai;,   \n2017:4700-4708.   \n36Hu Jie,Shen Li,Sun Gang.Squeeze-and-Excitation Networks [C]//The IEEE Conference on Computer Vision and Pattern Recognition(CVPR).Salt Lake City,2018:7132-7141.   \n37 Gkountakos K,Semertzidis T,Papadopoulos G.T.A Reliability Object Layer for Deep Hashing-Based Visual Indexing [C]/International Conference on MultiMedia Modeling. MMM.Thessaloniki,2019:132-143.   \n38 刘玉莹.深度哈希在大规模图像处理中的应用[A].中国 计算机用户协会网络应用分会.中国计算机用户协会网 络应用分会2017年第二十一届网络新技术与应用年会 论文集[C]//中国计算机用户协会网络应用分会:北京联 合大学北京市信息服务工程重点实验室,2017:4.   \n39 Litjens G,Kooi T,Babak E B,et al.A survey on deep leaning in medical image analysis[J].Medical Image Analysis,2017, (42):60-88.   \n40 Irvin J,Rajpurkar P,Ko M,et al.Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison[C]//Thirty-Third AAAI Conference on Artificial Intelligence.Hawaii,2019.   \n41Ii Peiliano Chen Xian7hi Shen Shaniie Steren R-CNN based 3D Object Detection for Autonomous Driving[C]// In Proc.of the IEEE Conference on Computer Vision andPattern Recognition(CVPR),Long Beach,2019.   \n42Yan C G,Xie H T,Yang D B,et al.Supervised Hash Coding With Deep Neural Network for Environment Perception of Intelligent Vehicles[J].IEEE Transactions on Intelligent Transportation Systems.2018,19(1):284-295.   \n43Zhou W X,Newsam S,Li C M,et al.PatternNet:A benchmark dataset for performance evaluation of remote sensing image retrieval[J]. ISPRS Journal of Photogrammetry and Remote Sensing,2018,(145):197-209.   \n44Imbriaco R，Sebastian C,Bondarev E,et al．Aggregated Deep Local Features for Remote Sensing Image Retrieval J].Remote Sensing.2019,11(5):493.   \n45 张洪群,刘雪莹,杨森,李宇.深度学习的半监督遥感图像 检索[].遥感学报,2017,21(3):406-414.   \n46Zampieri A,Charpiat G,Girard N,et al.Multimodal image alignment through a multiscale chain of neural networks with application to remote sensing[C]//The European Conference on Computer Vision(ECCV).Miinchen,2018:657-   \n673.   \n47Lin K,Yang HF,Liu K H,et al.Rapid Clothing Retrieval via Deep Learning of Binary Codes and Hierarchical Search [C]//Proceedings of the 5th ACM on International Conference on MultimediaRetrieval,New York,2015:499-502.   \n48Wang X,Sun ZF,Zhang WQ,et al.Matching User Photos to Online Products with Robust Deep Features[C]//Proceedings of the 2O16 ACM on International Conference on MultimediaRetrieval,New York,2016:7-14.",
+    "context2": "（责任编辑：张连峰）"
+  },
+  "Advances on Image Retrieval Based on Deep Learning": {
+    "context1": "WEI Ming-zhu’,ZHENG Rong $^ { 1 , 2 }$ ,YANG Jing-xiong1 (1.School of Management,Jilin University,Changchun 130022,China;",
+    "context2": ".Information Resource Research Center,Jilin University,Changchun 130o22,China)",
+    "context3": "Abstract:【Purpose/significance】Analyze andrefinethelatestresearch hotspotsandresearch methodsbasedondeeplearning image retrievallocallyndteatalldrevealfutureesechtredsintfeld.Method/procsepaprussIteatioltop levelartificialintellgenceconferenceset (CVPR/AAAI/JCAI/NI/IGR),CNKIandWbofiencecoecollctn,odctsd frequencystatisticsonrelateddocuments,andgenerates wordcloud maps toanalyzetheresearchhotspotsinthefield;uses the Citespacevisualizationtoltoquantifytheevolutionofresearchopics.Itiseviewedindetailfromfourdimensios:reseachtopic,algorithm,modelandapplicationpractice.【Result/conclusion】Theexistigimageretrievalmainlyfocusesontheapplicatioofconvo lutionalneuralnetworksinimagerepresentationandclaificationIhefuture,furtheesearchisnededontheeal-teofage clssifcation,eaturefusioofepashgori,ndellgentplicaioofageetreval.ovatliationeiotionofthis articleis tosystematcallysummarizeteapplicationsatusndfuturedevelopment tendsofimageretrevalbseddep learningInadition,infuturereseach,threseachdatasouldbefurtherexpandedandenriched,sostoconductindepthdiscussion and analysis of this research topic more comprehensively and accurately.",
+    "context4": "Keywords: image retrieval; deep learning; image classification; convolutional neural network"
+  }
+}

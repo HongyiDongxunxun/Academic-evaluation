@@ -1,0 +1,83 @@
+{
+  "original_filename": "full_9743.md",
+  "近3年基于本体的国外知识管理研究综述肖明王珊珊": {
+    "context1": "【摘要】国外学者在研究过程中经常将本体与知识管理联系起来，将本体应用到知识管理领域已引起诸多研究领域学者的关注，并取得不少研究成果。文章选取Scopus数据库为数据源，采用词频统计法对检索得到的文献关键词进行统计，从基于本体的知识表示、基于本体的知识管理系统构建、基于本体的数据挖掘3个方面系统研究了国外近3年本体在知识管理研究中的应用情况。"
+  },
+  "【关键词】知识表示知识管理知识管理系统本体": {
+    "context1": "Abstract：In the process of ontology research，foreign scholars can not help but combine with knowledge management. The application of ontology to the field of knowledge management has aroused the concern of many researchers，and has made a lotof research results. The paper selects the Scopus database as the data source，and uses word frequency statistics method to analyze the keywords obtained from the search.This paper also studies the application of ontology in knowledge management in the past three years from the follwing aspects:ontology based on knowledge representation，ontology based on knowledge management system construction and ontology based on data mining.",
+    "context2": "Key words: knowledge representation knowledge management knowledge management system ontology DOI:10.15941/j.cnki.issn1001-0424.2017.08.002",
+    "context3": "0引言",
+    "context4": "知识管理的最初增长是由商业利益驱动的。供应商试图开发新的具有潜在利润的市场进行知识管理，企业为了使自己更具有竞争力，将知识管理应用到企业管理中，并对相关理论和技术进行深入探索[1]。",
+    "context5": "本体在知识管理中的应用可以对知识管理过程中的知识获取、知识流动、知识共享3个阶段进行改进：（1)知识获取。可以将知识以机器可读的模式组织，并进行结构化存储，从而确切地反映知识的语义。（2）知识流动。本体的概念之间的层次关系可以帮助知识进行有效存取；本体在知识管理中的应用可以对知识流动过程中存在的信息失真问题进行改善；通过本体进化来应对知识变化累积，及时对知识进行组织存取。（3）知识共享。用户可以根据元知识获取所需的知识[2]。在知识管理领域应用本体，可以将知识表示延伸至语义的层面，这是一种完整而清晰的知识表示方式，与此同时，本体也是知识组织与检索工具的理想选择。"
+  },
+  "1数据源与研究方法": "",
+  "1.1数据源": {
+    "context1": "本文选取 Scopus数据库为数据源，对国外基于本体的知识管理研究现状进行统计分析。检索策略选择标题、摘要、关键词 $=$ 本体and知识服务，检索范围选取 $2 0 1 4 { \\sim } 2 0 1 6$ 年，检索式即：（TITLE－ABS-KEY(ontology)AND TITLE-ABS-KEY (knowledge management)） AND PUBYEAR $> 2 0 1 3$ AND PUBYEAR $< 2 0 1 7$ ，检索时间为2017年1月1日，检索得到相关文献数量为1569篇。"
+  },
+  "1.2研究方法": {
+    "context1": "本文采取词频统计的方法，对检索得到的1569篇文献的关键词进行统计，关键词是论文的核心内容的浓缩和精炼，通过对论文中的关键词进行分析，可以发现该领域的研究热点和发展动向。"
+  },
+  "2国外基于本体的知识管理研究热点分析": {
+    "context1": "越来越多的研究者将本体与知识管理联系起来，综观国外基于本体的知识管理的研究成果，我们不难发现，国外的研究更注重实践，诸多研究领域已经开始引入本体构建基于知识的系统。国外将本体应用于知识管理的研究主要集中在“Computer Science\"、“Enginering\"、“Mathematics”、“Decision Sciences”、“Business Managementand Accounting”等领域。图1中记录了国外基于本体的知识管理研究排名前10的研究领域，从中我们还可以看出，国外的研究很多都是应用的研究，主要应用领域集中在决策科学、商业管理、医学、生物遗传学等方面。可以看出，国外的研究已与具体应用领域相结合。",
+    "context2": "![](images/93ca9a5d3ecb496520219d6e3bfddc2c5e9818a9231253861d402dc7cae4aed4.jpg)  \n图1国外基于本体的知识管理的主要研究领域对研究论文中关键词进行统计和数据清洗，获得排名前15的高频关键词，如表1所示。",
+    "context3": "表1国外基于本体的知识管理关键词统计",
+    "context4": "<table><tr><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td></tr><tr><td rowspan=1 colspan=1>语义网</td><td rowspan=1 colspan=1>294</td><td rowspan=1 colspan=1>人工智能</td><td rowspan=1 colspan=1>117</td><td rowspan=1 colspan=1>决策支持系统</td><td rowspan=1 colspan=1>74</td></tr><tr><td rowspan=1 colspan=1>信息管理</td><td rowspan=1 colspan=1>243</td><td rowspan=1 colspan=1>数据挖掘</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>信息检索</td><td rowspan=1 colspan=1>73</td></tr><tr><td rowspan=1 colspan=1>基于知识的系统</td><td rowspan=1 colspan=1>241</td><td rowspan=1 colspan=1>决策</td><td rowspan=1 colspan=1>98</td><td rowspan=1 colspan=1>领域本体</td><td rowspan=1 colspan=1>72</td></tr><tr><td rowspan=1 colspan=1>知识工程</td><td rowspan=1 colspan=1>187</td><td rowspan=1 colspan=1>信息系统</td><td rowspan=1 colspan=1>81</td><td rowspan=1 colspan=1>互操作性</td><td rowspan=1 colspan=1>65</td></tr><tr><td rowspan=1 colspan=1>知识表示</td><td rowspan=1 colspan=1>137</td><td rowspan=1 colspan=1>社交网络</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>生命周期</td><td rowspan=1 colspan=1>61</td></tr></table>",
+    "context5": "不难发现，对于信息管理、知识工程、知识表示与数据挖掘的研究成为了近年来国外基于本体的知识管理研究的主要方面，同时对基于本体的知识管理系统、信息系统、决策支持系统的构建，反映了国外对基于本体的知识管理的研究更倾向于应用研究，从多角度多领域进行基于知识的系统构建。"
+  },
+  "2.1基于本体的知识表示": {
+    "context1": "近年来，随着本体热的推进，基于本体的知识表示应用于越来越多的领域，如医学、电子政务、安全防范等。"
+  },
+  "2.1.1医学领域的知识表示": {
+    "context1": "随着本体应用的广泛，本体在医学领域中的应用越来越多。本体提供了一种紧凑、形式化和计算机可读形式的知识组织方式，整合和标准化医学领域知识。为了更好地通过药物基因组学测试来预防治疗失败或不良药物反应（ADR)，MSamwald[3]等人开发了Web本体语言（OWL）本体和自动推理方法，以满足以下目标：（1）提供简单和简明的形式主义，用于表示药物基因组知识；（2）发现药物基因组知识库中的错误和定义不足；（3）自动向患者分配等位基因和表型；（4）将患者与临床上适当药物基因组学的指导方针和临床决策支持信息进行匹配；（5）便于检测不同来源的药物基因组治疗指南之间的不一致和重叠。其开发的基于本体的框架可以用于表示，组织和推理越来越丰富的药物基因组学知识，以及识别源数据集或个体患者数据中的错误，不一致和定义得不充分。A.Rumkhani[4]等人构建了一个领域特定的本体（TibbAl一Nabawi本体)，以一种语义本体表现来呈现先知医学。其知识来源是基于真正的Tibb Al—Nabawi圣训并确定了主要类和它们之间的关系。P.J.Gon？停alves[5]等人构建机器人骨科手术（OROSU）的本体概念模型呈现生物医学领域的知识，并从已经存在的生物医学本体，定义OROSU的概念模型，并应用于髋关节外科手术程序。"
+  },
+  "2.1.2电子政务领域的知识表示": {
+    "context1": "为公民和企业提供高效的信息服务和电子服务（E-services）是许多国家政府发展的主要目标。然而，公共管理（PA）异构和分散的环境使得合作和整合变得困难。因此，如何更好地发展电子政务是政府战略的主要挑战。",
+    "context2": "H.Lamharhar[6]等人提出了一种用于电子政务领域的知识库建模方法，特别使用诸如本体、语义网和语义网络服务之类的语义技术利用附加的语义信息来改进对数据和服务的描述，支持在相关的公共管理之间自动处理信息和服务。这个知识库（KB）能够很好地定义和描述信息和服务，使得公共管理可以使用该知识库来描述其适当的概念、组织、法律结构、活动和业务流程。P.M Santos[等人构建了电子民主领域的本体，并在该领域实现了独特和新颖的知识获取和表示，这种知识表示方法除了可以指出关键领域元素，还有助于发展电子民主倡议和改进网络门户。"
+  },
+  "2.1.3安全领域的知识表示": {
+    "context1": "在安全系统中引入领域知识的标准化，可有效地对安全问题进行补救，基于本体的知识表示和复用，对于如何实现安全管理的最终目标提出了一种解决方案。",
+    "context2": "J $\\mathrm { X u } ^ { [ 8 ] }$ 等人提出了地震灾害应急响应（EDER）知识的概念模型，在体系结构中引入EDER 知识的组成，使用包括地理本体的建模方法来建立基本建模原语，地理本体用于表示EDER知识的地理空间特性，并且解决在建模过程中对语义互操作性的需要。EDER知识模型为智能应急响应提供了基础，提高了地震灾害响应能力。S.A.Elnagdy[9]等人为网络安全保险提出了一种基于本体的知识表示方法，该方法被命名为语义网络事件分类(SCIC）模型，其使用了语义技术的知识表示，该方法是专门针对网络安全保险领域，并且通过实验进行了评估。"
+  },
+  "2.2基于本体的知识管理系统构建": {
+    "context1": "国外学者对于知识管理的研究侧重于实践，多为应用研究，研究者更关注于知识管理的技术、系统构建等问题。国外对于知识管理的探索以企业为核心，政府参与，将知识管理产业化，以高新技术产业为重点服务对象进行基于本体的知识管理系统构建研究。基于本体的知识管理系统可以提供决策支持、提供个性化新思路、克服传统知识管理系统存在的缺陷。"
+  },
+  "2.2.1提供个性化新思路": {
+    "context1": "生物医学研究和医疗保健系统中的数据爆炸需要紧急的解决方案，医疗保健总是要求与生物医学数据更紧密地整合，以促进个性化医疗和提供更好的治疗。",
+    "context2": "T.C.Chiang[10]等人提出了情景感知智能家庭护理系统。系统将所需的上下文作为决策数据库存储在知识本体中，包括被护理者的生理信息和环境信息。运动感测装置使得被护理者能够通过手势与系统交互，通过模糊理论的推理机制，系统可以提供建议和快速执行服务。此外，该系统与智能手机，平板PC和PC的功能集成，以便用户能够实现远程操作并共享被护理人的信息。该研究中构建的保健系统使决策系统能够探究每个受照护者的健康风险；从预防医学的角度，通过组合系统和模拟实验，跟踪被护理人的生理趋势，提供预警服务，从而促进智能家居护理。",
+    "context3": "K．Blagec[]等人开发了药物安全代码（MSC）系统，一种新的药物基因组学决策支持系统，为医生和患者提供以可计算的形式来表示药物基因组数据的能力，并提供药物基因组学指导。个体患者的药物基因组数据被编码为快速响应（QR）码，并且可以使用普通移动设备来解码和解释，而不需要用于存储遗传患者数据的集中式存储库。（药物基因组学，其中遗传谱用于预测个体患者的最合适的药物和药物剂量，该方法旨在确保适当的医学治疗并避免相应的副作用。）他们提出了这个系统的第一个完全功能版本，并描述其体系结构，利用本体来形式化药物基因组知识并提供临床决策支持功能。MSC系统提供了一种在临床常规中实现个性化医疗的新方法。"
+  },
+  "2.2.2提供决策支持": {
+    "context1": "Y. $\\mathrm { W a n g ^ { [ 1 2 ] } }$ 等人提出了一种将语义技术应用在柑橘生产管理中的方法。（1）将技术报告和书籍中存在的专家知识转移到可以被计算机系统理解和直接计算的柑橘受精和灌溉本体中，通过开发基于语义技术的本体，将异构和多源信息集成到可计算的本地化资源中，并描述了如何将文本、图片和表格形式的知识分别编码为资源描述框架三元组。（2）基于本体开发了一个针对柑橘受精和灌溉管理的个性化决策支持系统。该系统可以通过多种终端设备（包括手机和Web浏览器）为个体农民积极提供个性化的生产管理指令。该决策支持系统有3个主要功能：施肥管理、生理疾病控制和灌溉管理：施肥管理功能帮助农民在柑橘的4个主要生命周期中对柑橘果园施肥；生理疾病控制功能帮助农民应对营养缺乏或过度反应；灌溉管理功能提供果园浇水和排水的实时监测和说明。这项研究为精确农业的问题提供了一个可行的解决方案。具体方案及技术工具，如图2所示。",
+    "context2": "![](images/4085745a335cf1c69bf5029d027814db63597cc8078cfe7107245659fb68c43c.jpg)  \n图2柑橘受精和灌溉管理的个性化决策支持系统方案图",
+    "context3": "N.Panawong[13]等人构建了基于本体的决策支持系统，用于 Android上的作物种植（ODESSA)，帮助用户根据传统风水规则有效地做出种植作物的决策。知识由OWL本体表示。ODESSA表示植物的基本信息，例如种植过程、适当的护理和关于树的常规信息。该系统包括两个主要部分：（1）用于在吉祥的地点和时代种植特定作物的推荐组件，其中ODESSA应用在 SWRL中创建的39条规则，以找到帮助用户正确种植作物的信息；（2）特定作物的种植，用户向系统提供特定要求，以便ODESSA中的 SPARQL组件可以生成适当的结果。此外，系统可以查询有用的网站以充分照顾树木或花，位置感知服务可以基于用户的当前位置显示用于最近的花园供应商店的地图和路线。"
+  },
+  "2.2.3克服传统知识管理系统存在的缺陷": {
+    "context1": "目前，医疗数据流向利益相关者进行动态数据传递效率很低，而多种医疗护理源于其多样性和自主性。在这样的环境中，S.C.Christopoulou[14]等人提出了基于实体本体模式的vhMentor的实现。提出系统的目的是提出一种基于代理的解决方案以克服医疗数据监控的自动化缺陷。为了实现这一目标，他们研究移动代理技术在医疗领域的适用性和有用性，并且在一个本体支持的医疗保健信息系统中实现了遥感和医疗设备信号的封装。所得到的系统通过自主智能代理和推理引擎支持在未来实现下一代服务（例如决策和推理）。"
+  },
+  "2.3基于本体的数据挖掘": {
+    "context1": "数据挖掘是从大量不完全的模糊信息中提取出具有价值的潜在信息的过程，提取的知识是人们未知的，隐藏在信息背后的知识[15]。它可以揭示单个或多个数据集中大量数据之间的模式和关系。数据挖掘用于各种应用，如犯罪检测、风险评估、市场分析等，银行、保险和营销等几个行业使用数据挖掘来降低成本，增加利润。",
+    "context2": "本体可以以机器可读的方式组织数据，换而言之，本体将获取的知识以挖掘算法可以识别的方式去组织，成为知识语义化、数据挖掘智能化研究的核心技术。"
+  },
+  "2.3.1利用本体提高数据挖掘性能": {
+    "context1": "日益增长的信息产生和利用都需要我们在信息表示、组织和检索上的研究有所创新。组织数据库中所存储的数据量已经超过了人类的分析能力，因此，需要采用能够分析大量数据的方法提高决策水平，通常情况下使用的方法称为数据库中知识发现（KDD）。",
+    "context2": "在许多文献中已经提到了利用本体和语义描述，基于关联规则来提高数据挖掘性能。R.A Baracho[16]等人通过在预处理阶段引入领域知识来改进KDD过程。在从诊断医学公司获取的数据集中应用本体，专注于诊断识别人类病毒性肝炎，目的是获得由医师规定的实验室测试与疾病的真实发生之间的最佳相关性。初步研究结果表明，本体的使用减少了预处理阶段的属性数量，从而提高了整个数据挖掘过程的性能。",
+    "context3": "L Zhang[17]等人提出一个基于本体的Web开发框架，由领域本体支撑，捕获失业相关概念及其语义关系，以便于从相关搜索引擎查询中提取有用的预测特征，利用搜索引擎查询来提高失业率预测的准确性。此外，利用最先进的特征选择方法和数据挖掘模型（例如神经网络和支持向量回归）来提高失业率预测的有效性。实验结果表明，提出的框架优于其他基准预测方法，已被广泛应用于失业率预测。提出的框架的独特优势是它不仅提高预测性能，而且为失业率的变化提供人类可理解的解释。",
+    "context4": "研究人员利用数据挖掘技术来分析学生学习，目的是更深入地了解学生学习情况，提高教育程序的质量。F.Grivokostopoulo[18]等人提出一种方法来分析学生学习和提取语义规则，可用于预测学生在课程上的最终表现。具体来说，分析学生在本学期的临时测试的表现，并且该方法利用决策树提取规则以对学生在课程中的最终表现做出预测。该方法已被整合在一个教育系统中，用于帮助学生学习帕特雷大学工程学院的人工智能课程，教育系统使用诸如本体和语义规则的语义网络技术来提高教育内容质量，该方法可以帮助系统和教师更深入地了解学生的表现。"
+  },
+  "2.3.2本体辅助的数据挖掘算法": {
+    "context1": "关联规则挖掘是数据挖掘的一个活跃的研究领域。提出并开发新的关联规则方法，以提高经典关联规则挖掘问题的效率，提供处理领域本体之间关系的能力。将本体与规则挖掘相结合可以有效改进算法的性能，其功效不在于对挖掘算法效率的提升，而是使规则语义化，更能满足操作者需求。",
+    "context2": "S.A.Mahmoodi[19]等人引入了一种基于本体的提取胃癌数据隐藏规则的新方法。通过本体改进Apriori算法。Apriori算法的主要缺点是产生大量的规则，因此，难以从广泛的规则中提取有用的信息，Mahmoodi的主要目标之一是通过不生产无意义和无用的规则来减少生成规则的数量。Mahmoodi报告了一个医疗数据库的基于本体的数据挖掘，使用的数据集是从Tabriz的ImamReza医院收集，随机访问490位被怀疑患有胃癌的患者。实验结果表明，基于本体所提出的数据挖掘算法使规则更直观，更吸引人且更容易理解，消除浪费和无用的规则，比使用传统数据挖掘技术获得的结果更简洁和精确，并且作为次要结果，显著减少了Apriori算法运行时间。实验结果证实了该算法的效率和优势。",
+    "context3": "大多数现有算法挖掘规则通常产生大量的规则，其遭受阈值化、冗余和重叠的问题，有可能这些规则中的一些是已知的，因此是微不足道的，并且一些可能完全无意义。为了解决这些问题，M.Mohammed[20]等人提出了一种通过修剪和过滤它们来发现有趣规则的方法。该方法引入基于语义的方法和技术、规则和用户偏好，并使用真实数据库进行算法评估，比较实验结果。"
+  },
+  "3结语": {
+    "context1": "本体具有的特殊属性以及其对知识组织和查询的关键作用，使其逐渐成为知识管理领域的核心技术，并在图书馆发展转型的特殊时期发挥着日益关键的作用。本文系统研究了国外近3年本体在知识管理研究中的应用情况，通过分析归纳，总结研究热点，以期为国内基于本体的知识管理发展提供新的思路。"
+  },
+  "注释": {
+    "context1": "[1]冯向梅．基于关键词词频统计的我国图书馆隐性知识研究综述[J].图书馆学刊，2012（10)：126－130.",
+    "context2": "[2]梁启华，LiangQihua.本体论概念、方法及其在知识管理中的应用[J].科学管理研究，2006（4)：61－64.",
+    "context3": "[3]SamwaldM，BoyceRD，FreimuthRR，etalPharmacogenomic KnowledgeRepresentation，ReasoningandGenome-BasedClinical Decision Support Based on OWL2 DL Ontologies[J].BMC Medical Informatics and Decision Making，2015（1)：1－10.",
+    "context4": "[4]RumkhaniA，RazganM，FarisA.TibbOnto：KnowedgeRepresentationofProphetMedicineJ].ProcediaComputercience，2016，82138-142.",
+    "context5": "[5]Goncalves PJS，Tores PMKnowledgeRepresentation Apled toRoboticOrthopedicSurgeryJ]RobotisandComputer-Integrated Manufacturing，2014，33（C)： $9 0 - 9 9$   \n[6]Lamharhar H，Chiadmi D，Benhlima L. Ontology-Based Knowledge Representation for $\\mathrm { E - }$ Government Domain [C]. Iiwas，2015：51.   \n[7]SantosPM，RoverAJ，antosPM，etalKnowledgeRepresentationthroughOntolgies:An AplicationintheElectronicDemocracy Field[J]. Perspect cienc inf，2016 （3)： $2 2 - 4 9$   \n[8]XuJ，NyergesTL，NieG.ModelingandRepresentationforEarthquakeEmergencyResponseKnowedge：PerspectiveforWorking with Geo一ontology[J]. International Journal of Geographical Information Science，2014（1)：185－205.   \n[9]ElnagdySA，QiuM，GaiK.CyberIncidentClasicationsUsingOntologBasedKnowledgeRepresentationforCybersecurityInsurance in Financial Industry[C].IEEE，International Conferenceon Cyber Security and Cloud Computing IEEE，2016：301-306.   \n[10]ChiangTC，LiangWHAContext-Aware InteractiveHealthCare SystemBasedonOntologyandFuzzyInference[J].Journalof Medical Systems，2015(9)：1-25.   \n[11]BlagecK，BoyceRD，AdlassgKP，etalAnOntogBased，obilOptiizedSysteforPharacoenoiecisinSuptte Point-of-Care[J].PloS One，2014（5)：e93769.   \n[12]Wang Y，WangY，YuanY，etalA Decision SupportSystemforFertiliztionandIrrgation ManagementofCitrus BasedonSemantic Ontology[J].Nongye Gongcheng Xuebao/transactionsof the Chinese Societyof Agricultural Enginering，2014（9)：93－101.   \n[13]PanawongN，NamaotCS，BruecknerMOntology-Based DecisionSupport System forCropSelectionon Android[J].Information, 2016 (78)，2995-3001.   \n[14]ChristopoulouSC.，KotsilierisT，AnagnostopoulosLAHealthCareMnitoringSystemthatUsesOntologyAgents[J]Inteatioal Workshop on Semantic and Social Media Adaptation and Personalization，2O16（11)： $4 1 - 4 5$   \n[15]闻中慧．数据挖掘中的本体应用研究综述[J].软件导刊，2012（7)：104—107.   \n[16]BarachoRA，BranquinhoL，Almeida MB，etalUsingOntologiesand InferenceEngineinAsociationRuleofData Mining: AplicationinSalesStrategiesinMedicalLaboratoryDiagnosticMarketC].WorldMulticonferenceon Systemics，Cyberneticsand Informatics，2015.   \n[17]ZiangLi，WeiXu，Likuan Zhang，etalAnOntology-BasedWeb Mining Methodfor UnemploymentRate Prediction[J].Decision Support Systems，2014，66：114-122.   \n[18]GrivoostooulouF，PerikosI，HatlygeroudisIUtilingSemanticWebTechologiesandDataMningTeiquestAalyStdents LearningandPredictFinalPerformanceCIEEEInternational Conferenceon Teaching，AsessmentandLearning IEE，2014：488一 494.   \n[19]Mahmoodi SA，MirzaieK，Mahmoudi SMANewAlgorithm toExtract HiddenRulesof GastricCancerData BasedonOntology[J] .SpringerPlus，2015（1)：1-21.   \n[20]MohammedM，AzedineD，Yousef B，etal SEMMDPREF：Algorithm toFilterand SortRules Usinga SemanticallyBased OntologyTechnique[C].InternationalConferenceonManagementofComputationalandColletiveIntellgenceinDigital Ecosystems. ACM，2015： $2 9 - 3 4$"
+  },
+  "肖明北京师范大学政府管理学院教授。研究方向：语义网与引文分析。": ""
+}

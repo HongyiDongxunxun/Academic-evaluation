@@ -1,0 +1,77 @@
+{
+  "original_filename": "full_384.md",
+  "Folksonomy及其国外研究进展": "",
+  "余金香": {
+    "context1": "华南师范大学经济管理学院广州 510006",
+    "context2": "[摘要]阐述了folksonomy的概念与分类原理,指出了其与传统分类法的不同。分析了folksonomy在类目结构、信息组织、信息资源揭示等方面的优势以及在语义表达、语法控制、语义普遍认知方面的劣势。从存在价值、基于tag的定量分析、用户定量分析、系统设计与应用、缺陷解决措施以及检索等六个方面系统介绍了folksonomy的国外研究进展。",
+    "context3": "[关键词] folksonomy网络信息分类法tag [分类号]G254.11 TP393"
+  },
+  "Folksonomy and Related Research Progress in Some Advanced Countries Yu Jinxiang": {
+    "context1": "School of Economics and Management, South China Normal University,Guangzhou 510006 (AbstractTispapfirstlyexpoudstheocptioadteasifcatioprciplesoffosoyndpoitsoutdiresteen folksonomyandtetradiioalclasscationmetods.Then,analyesfoksonoy'sadvantagesoitscategorystructure,ifotion organizationfoatiousosedsgtirsrtrlidmt thepaperntroducesfrgrsearchrogesksooysystematicallfrotespectsoftevaueofistingteantitatieais basedontag,user quantitative analysis,systemdesignand application,flaw solution measures andretrieval technologies.",
+    "context2": "[Keywords] folksonomyinternet information classification tag"
+  },
+  "1引 言": {
+    "context1": "Folksonomy是由folks和taxonomy组合而来,folks在英文中是比较口语化的词,表示一群人、一伙人的意思,taxonomy是指分类法，它是信息架构中的重要部分。Folksonomy是指一种社群参与人运用自由定义tag(标签)的方式进行协作分类的活动，主要机制是基于开放性元数据标准和自然语言的社群聚类，现有“分众分类法\"“通俗分类法\"“大众分类法”“民众分类法等不同翻译。分类的原理为向社群参与者提供一种协同构建与共享各自网络资源标签的开放式平台，用户通过自己制定的分类标准来提交tag，由用户群体定义tag的频率来决定信息的组织方式。这种标签包括网络内容的分类、大意与链接地址等，tag对每个人都是完全开放的，用户可以自由查看并修改自己提交的标签。",
+    "context2": "Folksonomy与传统网络信息分类法最大的不同在于它并不采用严格的分类标准，其分类全部由用户直接提交，分类的形成过程完全是自发的。这种分类是平面化的，没有等级层次的划分，虽然它相对不够严谨，缺乏准确度，但是在社会性软件中，这种平面延伸的分类方法却在无形之中成为了方便、灵活、不受条件限制地沟通渠道。所以以自定义标签形式的大众分类在现下流行的社会性网络服务中得到了广泛的应用，如:Flickr、Furl、Del.icio.us、Frassle、Simpy、Spurl、Technorati、FotoFlix、Simpy、OpenBM等。应该说，国内对于folksonomy的研究还处于初步阶段，因此，了解国外的研究对于国内的研究和实践具有非常重要的意义。"
+  },
+  "2Folksonomy的优劣势分析": "",
+  "2.1Folksonomy的优势": {
+    "context1": "2.1.1平面化、非等级结构的类目结构传统分类法具有严密的等级结构和逻辑体系，folksonomy则是平面的、非等级的。一些门户网站和搜索引擎对信息的组织一般采用类目细分的方式来进行分类，如果分类体系过多，会增加网民的认识负担、影响检索效率;如果分类体系过少，则会影响分类体系的清晰度,增加网民浏览选择的负担[1]。而folksonomy通过tag的字号大小以及颜色的不同来表示其“受欢迎”的程度，能够实现快速而自动的信息聚类，生成系列加权列表和标签总图(TagCloud),具有较强的大众趋同性,直观性和易用性强。2.1.2低成本的信息组织方式Adam提出网络信息资源的组织有三种方式：由图书馆ICP服务商和其他信息机构提供的检索目录、作者创建元数据、用户交流和共享产生的信息描述。folksonomy通过用户共享元数据来实现合作分类和交流，相对于前两种信息组织方式而言，无需预先编制、维护和学习庞大的分类体系表，也无需掌握专门的图书馆领域专业技术方法和专业培训,能够节省用户的时间和精力[2]。",
+    "context2": "2.1.3多维度揭示信息资源作为folksonomy类目的tag,它既不同于关键词、也不同于目录和主题词。Tag是对文章概括和理解基础上产生的,是对内容的个人理解上的私人标注，未必针对主题，可能是时间、内容或与文章主题无关的词汇，因此标签的设定要比关键词自由和方便，它可以从多个维度来揭示信息内容。在以目录为基础的存储体系中，目录结构必须要事前规划,而tag可以不考虑目录结构并以较少的代价细化分类。folksonomy的类目是由用户定义一个或几个tag组成,没有明确定义tag之间的关系，各个tag之间的关系是平等的，但是又可以根据相关性分析，将经常一起出现的tag关联起来，而产生一种相关性的分类，它不像传统分类法和分类表，有多重明确的关系。此外，它还能解决传统分类法更新慢，不能及时面对新出现的学科和专业术语的问题。"
+  },
+  "2.2Folksonomy的劣势研究": {
+    "context1": "狭义的分类是以严谨的学术逻辑为线索，以学术信息的汇集、树立和查询为目的，以学术为轴心,而tag是以个人的感性逻辑即个人的知识、情感、意志、记忆、素养等综合素质的反应为线索，以个人所需信息的汇集、梳理和查询为目的,以个人的经验为基础[3]。但是,对于他人或是整个分类体系而言，folksonomy是模糊的，不精确的，随意的。此外,同名异义的问题也导致了它的模糊性： $\\textcircled{1}$ 一词多义产生的意义分歧。 $\\textcircled{2}$ 缩略词产生的问题：例如在一些社会性书签网站中，“ANT”是社会学领域“ActorNetwork Theory”的缩写，但是在del.icio.us中，它却是Java编程语言中的一种工具。",
+    "context2": "Folksonomy缺乏同义词、英文单复数控制以及标题、词语顺序等语法控制。同时，folksonomy的中文运用问题上还存在着分词结构模糊;在不同的语言环境下,对语义的普遍认知存在明显差异的问题;垃圾标签的出现使宏观标签总图的准确性下降，对垃圾信息和标签的合理使用还没有行之有效的解决方法[4]。",
+    "context3": "目前，folksonomy的使用范围有限,这种分类法的组织对象基本上是非学术的、面向生活的、公众的，目前仅限于blog等社会性网站的组织和管理,而这部分信息在网络信息空间中仅是微量部分。由于受语言、风俗习惯、文化背景等的影响，在跨国界、跨时空、跨文化的信息组织和交流中仍然存在很多障碍,作为一种基于自然语言产生的新的网络信息组织方式,folksonomy仍然存在许多的问题。"
+  },
+  "3 国外folksonomy研究进展": {
+    "context1": "国外对folksonomy理论方面的研究始于2005年,通过对",
+    "context2": "国外文献的阅读和分析,笔者认为国外对folksonomy的研究主要集中在以下6个方面："
+  },
+  "3.1Folksonomy存在价值的研究": {
+    "context1": "自由分类法这一概念的产生晚于它的应用,最初的讨论集中在其存在价值的研究:Admam认为folksonomy将取代以往由专家控制的元数据编辑管理;Clay认为folksonomy是有胜于无的方案;Shelly认为传统分类法过于复杂,维护成本高;Louis认为folksonomy缺乏检索功能、精确性不强。"
+  },
+  "3.2基于tag的定量分析": {
+    "context1": "Lambiotte采用了概率论和数学建模的方法对专业音乐网站数据进行分析，发现使用tag描述在线合作性分类产成了由不同结点即用户、款目和标签构成的三重网络。其次，通过分析用户使用款目和tag之间的关系分析了这三个要素构成的无序网络。再次,采用过滤技术来分析用户的合作性行为，认为网络的等级结构产生了对用户类型的统计定义，提取了合作性过滤和分类之间的直接连接关系并提出了合作性社群中测量用户多样性的方法[5]。",
+    "context2": "Christopher通过对Technorati中排名前350的tag以及分享同一tag文章的相似性进行定量研究,分析了blog标签分类的有效性。发现tag在粗略的分类体系中是有效的，但是在表明特殊的文章内容时是无效的,tag与自动抽词高度相关，可以高度聚焦分类文章。讨论了未来tag成为信息组织和检索工具更加有效的方法：更具表达力和简洁性、易用tag的形成;用户对tag分群，tag间特定关系的阐释,tag与特定的人或物相关；产生帮助用户自动形成文章tag的工具;标签发展为社会现象的兴趣研究等[6]。"
+  },
+  "3.3基于用户的定量分析": {
+    "context1": "Ciro采用统计学和概率论的方法对del.icio.us和Connotea中的tag进行了统计分析,构架了用户使用合作性标签的随机模型,该模型包含两个要素:对于他人标记活动感知的用户偏好机制以及系统中tag的时效性。尽管用户个体的认知过程是复杂的，个体的分类、标记标签的行为是错综复杂的，但是在合作性标签系统内，用户普遍的标记行为却遵循着简单的活动模式[7]。",
+    "context2": "Scot采用模型和图表研究了用户使用合作性标签系统的规律以及合作性标签系统的结构、使用标签的频率、各种标签的应用、相关标签使用的稳定性的分析，认为tag反映了用户兴趣的发展变化[8]。"
+  },
+  "3.4系统的设计及应用研究": {
+    "context1": "Cameron建立了基于资源、用户和标签的网络标签模型，然后以12个标签系统为例,设计了标签系统的模块和系统属性,这些模块为：使用标签的权限、标签的聚集、标签支持/供给、资源的类型、来源、资源的链接、群体在系统中的连通性。分析了用户添加tag时的7种动机即未来检索、贡献和分享、注意力的吸引、竞争、自我表现、观点表达等以及这7种动机对标签系统的不同影响，并在flicker中进行了实验。该标签系统为开发者和设计者提供了基于tag的模型设计和基本思路[9]。",
+    "context2": "SatoshiNiwa认为，由于难以收集用户偏爱网页的数据、因特网上的网页数量庞大，通过协作性过滤来构建网页评价体系的尝试存在一定困难，提出了通过正在流行的folksonomy和社会性书签工具来构建覆盖整个网络网页评价系统的方法[10]。",
+    "context3": "多伦多大学Jennifer和美国丹佛艺术博物馆Bruce提出博物馆的收藏支持社会性书签，并且提供基于folksonomy的检索,这给开放的博物馆一种新的阐释[11]。",
+    "context4": "Darlene指出对于内部网而言,通过标签可以自由分享未曾发现的数字资源。通过宾夕法尼亚大学图书馆的Penn Tags的社会性书签服务项目和哈佛大学Berkman互联网社会研究中心的H20 Playlist项目以及IBM引入folksonomy理念开发的企业社会性书签工具dogear来说明站点管理员可以试着使用多种社会性软件来支持标签活动并指出标签活动可以消除信息分类者和员工对信息理解的分歧[12]。"
+  },
+  "3.5Folksonomy缺陷解决措施研究": {
+    "context1": "日本学者从认知学双循环满意原则即及时满意和延时满意的角度来解决folksonomy信息质量、信息分享问题，并且针对分类法的非连续性和同名义意的问题提出了解决办法，并且提出了基于元数据的个人本体框架[13]。",
+    "context2": "Louis提出元数据生态学的概念,基本思想为：设计合理的元数据，建立可控的、动态发展的元数据词汇表，同时鼓励作者和用户创造folksonomy词汇，并作为受控词表收词的备选,与受控词表一起构建和谐的网络信息组织环境[14]。"
+  },
+  "3.6Folksonomy的检索问题": {
+    "context1": "Benjamin构建了UserRank、PageRank和TagRank的模型，并在美味书签中进行试验,同时,也在Gourmetvillage.org网站和美味书签中进行了URLCount和URLRank、TagCount以及TagRank和UserRank检索结果的比较和分析[15]。",
+    "context2": "Andreas研究了folksonomy的信息检索问题，构建了folksonomy的模型和FolkRank检索机制,并采用这种新的检索运算法则来研究folksonomy的结构。采用FolkRank运算法则计算了特定主题的排序,并且比较了FolkRank和PageRank间的不同[16]。",
+    "context3": "Al-KhalifaScott通过测量folksonomy和yahoo关键词设置的重叠率以及索引者主观评价两种系统产生的关键词的质量，来对基于相同网站的yahoo API文本语词抽取技术和folkson-omy进行评价[17]。"
+  },
+  "4结语": "",
+  "Folksonomy作为一种出现不久的网络信息组织方法,缺": {
+    "context1": "乏重量级的应用，对其研究还需进一步加强。了解国外folksonomy的最新研究概况，汲取国外构建各种模型、tag系统时的经验和研究方法，对促进我国folksonomy的研究将有积极的促进意义。",
+    "context2": "2005年5月10日国内博客网站blogbus首次推出tag功能并与专业搜索引擎Technorati整合,标志着folksonomy理念进入中国并逐步被采用。虽然目前使用或知道tag的网民还主要限于网上博客,标签软件的应用标准等尚待完善,folksonomy尚需后受控手段与受控语言的融合，但网民却接受了这种“有胜于无”的方案。在Web2.0时代，每个人都有权自由获取、组织和使用信息，而folksonomy作为反映草根文化和民间力量的信息组织方式,为用户提供了一个契机,它将促进全球信息的分享、交流乃至文化融合、世界大同的共有理念的形成。"
+  },
+  "参考文献:": {
+    "context1": "[1]UDDlversion3.0.2.[2006-12-05].http://uddi.org/pubs/uddi_v3. htm.   \n[2] DCMIcollectiondescription workinggroup.[2006-12-05].http:/ /dublincore.org/groups/collections.   \n[3] RSLPcollectiondescription.[2006-12-05].http://www.ukoln.ac. uk/metadata/rslp/schema.   \n[4]Amachine readable registry of electronic resources.[2006-12- 05].http://www.iesr.ac.uk.   \n[5] MARC 21 concise format for bibliographic data.[2006-12-05]. http://www.loc.gov/marc/bibliographic/ecbdhome.html.   \n[6] UNIMARC manual: bibliographic format 1994.[2006-12-05]. http://www.ifla.org/Vl/3/p1996-1/sec-uni.htm.   \n[7]DCMI type vocabulary.[2006-12-05].http://dublincore.org/ documents/dcmi-type-vocabulary.",
+    "context2": "〔作者简介〕宋文,女,1961年生,研究馆员,发表论文17篇;孙坦,男,1970年生,研究馆员,博士,发表论文30余篇;周静怡,女，1981年生,馆员,发表论文10篇;张智雄,男,1971年生,研究馆员,博士,发表论文50余篇;徐坦,男,1982年生,硕士研究生,发表论文数篇。"
+  },
+  "5结语": {
+    "context1": "本文描述的资源和服务分类体系已经应用在科技信息资源与服务集成揭示系统中,访问地址是htp://168.160.1.10/nstldis。通过这一项目的实践,我们认为对资源的描述是可以转换为分类体系进行揭示的，这也为数字图书馆的资源和服务的集成采用W3C的WebService技术奠定了基础。随着开放登记系统中注册服务的增加和对系统、服务的更加深入理解，我们也发现了分类体系中许多不完善的地方和许多值得进一步深入研究的问题，我们将在系统的下一阶段建设中对这些问题进行深入探讨，完善分类体系。"
+  },
+  "(上接第40页)": {
+    "context1": "/torrez.us/.",
+    "context2": "[16] HothoA, Jaschke R, Schmitz C,etal.Information retrieval in folksonomies:searchandranking.[2006-08-15].http://www.kde."
+  },
+  "$\\pmb { \\csc } .$": {
+    "context1": "[17] Al-Khalifa H S, Davis H C.Folksonomy versus autionmatic keywaord extraction: an empirical study.[20o6-08-15].http:// eprints.ecs.soton.ac.uk/.",
+    "context2": "[作者简介]余金香,女,1983年生,硕士研究生。"
+  }
+}

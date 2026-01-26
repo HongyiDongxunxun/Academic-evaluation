@@ -1,0 +1,143 @@
+{
+  "original_filename": "full_318.md",
+  "AI在智慧图书馆应用趋势：机遇与挑战": {
+    "context1": "王晰巍12,罗然¹,刘宇桐1",
+    "context2": "(1.吉林大学管理学院,吉林 长春130022；2.吉林大学东北振兴发展研究院,吉林 长春130022)",
+    "context3": "摘要：【目的/意义】人工智能的融入将推动图书馆在公共服务领域的业态革新,提升图书馆公共文化服务效能，促进智慧图书馆建设过程中各领域的服务创新。【方法/过程】本文以SCI、SSCI、Scopus数据库为来源,通过对文献进行内容分析和主题挖掘，呈现智慧图书馆研究的热点主题内容和热点应用场景、AI在智慧图书馆中的未来研究趋势以及AI为智慧图书馆建设带来的机遇和挑战【结果/结论】从热点主题内容上看，本文梳理了学者们的主要研究兴趣;根据AI的技术优势以及智慧图书馆的业务需求,梳理出AI在智慧图书馆中的五大应用场景,并提出该领域未来四个研究趋势;最后，结合AI技术未来最新的发展趋势,分析了AI为智慧图书馆带来的发展机遇，并提出AI技术落地所面临的挑战。【创新/局限]本文分析了AI在智慧图书馆建设中的落地场景、未来研究趋势以及图书馆可能面临的机遇与挑战;但研究的样本文献主要基于国外主流数据集,在未来研究中将进一步扩大样本文献。",
+    "context4": "关键词：AI;智慧图书馆;应用趋势;机遇;挑战 中图分类号：G250.7 DOI:10.13833/j.issn.1007-7634.2021.09.001"
+  },
+  "1引言": {
+    "context1": "当前全球新一轮科技革命和产业革命方兴未衰。以人工智能、大数据等为代表的新技术对智慧图书馆的发展和建设正在产生深刻而深远的影响[。国家对人工智能的战略部署也为社会公共服务数字化和智能化发展指明了方向。图书馆作为公共文化机构，承担着重要的公共文化服务责任。以人工智能为重点建设和应用的\"新基建\"提出为图书馆智慧化转型提供了技术支撑和建设方向。人工智能的融入将推动图书馆在公共服务领域的业态革新，提升图书馆公共文化服务效能,促进智慧图书馆建设过程中更好地促进图书馆各领域的服务创新。人工智能在智慧图书馆建设中的相关讨论和研究也越来越成为图书情报学界和图书馆业界密切关注的热点，成为新文科建设背景下图情档学科交叉融合的重要研究问题[2]。",
+    "context2": "人工智能AI技术在发展过程中不断与图书馆结合创新了传统图书馆服务模式并不断推动了智慧图书馆升级。目前,国外学者通过梳理现有研究从两方面讨论了图书馆智慧化转型中的AI应用：一是从伦理层面,通过对AI技术带来的负面影响进行深入分析，为智慧图书馆应用AI技术的实践中遇到的伦理挑战提供建议,实现智能化、均等化、绿色化的图书馆管理和服务[3;二是从技术的角度,从用户行为、图书馆服务、馆藏资源、智能机器人[4等方面梳理人工智能技术在智慧图书馆中的研究[5],指出AI技术为更好地实现智慧图书馆转型提供了技术前提。国内图书馆关于人工智能的应用综述主要通过文献和研究回顾,分析人工智能引入图书馆带来的服务升级和现实困境[8],进一步为AI技术在智慧图书馆的落地提供理论支撑[9-10]。通过梳理国内外图书馆中关于AI的综述性研究,可见当前相关研究大多围绕AI技术在图书馆的应用现状展开,但从梳理国外相关研究成果基础上站在机遇和挑战视角，讨论AI在智慧图书馆的未来研究趋势的成果相对较少。",
+    "context3": "本文在研究中试图解决以下三个方面的研究问题： $\\textcircled{1}$ 通过对文献的收集、梳理、内容分析和主题挖掘,提出AI在智慧图书馆研究的热点主题内容以及热点应用场景； $\\textcircled{2}$ 结合最近国外研究进展分析AI在智慧图书馆的未来研究趋势; $\\textcircled{3}$ 根据AI目前的前沿技术，讨论AI为智慧图书馆建设带来的机遇和挑战。本文研究目的是呈现国外AI智慧图书馆研究发展的最新态势，从学术层面为新文科背景下图情、计算机和人工智能领域不同学者在智慧图书馆方面的学科交叉研究提供可参考借鉴的研究思路，从实践层面为智慧图书馆利用AI技术更好地实现服务模式创新和智慧化升级提供一定的参考和借鉴。",
+    "context4": "![](images/797a5ee47baa24905ed8a155cdb0289031c1d9864fe2b0e9054ec2308e814b19.jpg)  \n图1文献审查流程图  \nFigure 1 Flow chart of literature review   \n表1研究主题内容分类及其相关研究文献",
+    "context5": "Table 1 Classification of research topics and related research literature",
+    "context6": "<table><tr><td>人工智能主题</td><td>主题描述</td><td>相关关键词</td><td>相关研究</td></tr><tr><td>图书馆智能客服</td><td>能够进行文本交互、语音交互的自动实时响应的 参考咨询服务</td><td>智能代理、自然语言处理、机器 学习、语义分析、语音识别等</td><td>Yao等[13];Taley等[4;Bohle 等；Griol等Tesendi 等[17]; Potnis等[18]</td></tr><tr><td>基于数据分析与可 视化的知识服务</td><td>资源发现和访问向着数据可视化服务领域发展， 为学术研究提供信息可视化技术</td><td>知识管理、信息检索、数据可视 化、语义、本体、数据挖掘等</td><td>Cox 等[19]；，Gillitzer等[20] Shen[2];Wu等2；Ce</td></tr><tr><td>高校图书馆 智慧教育</td><td>高校图书馆主要服务于科研人员及学生,是科研 活动的主要平台,利用人工智能进行校园管理、 教育和科研</td><td>高校图书馆、卷积神经网络、遗 传算法等</td><td>Deng[24];Lodh等2Rao等26]</td></tr></table>"
+  },
+  "2研究方法及研究热点分析": "",
+  "2.1研究方法": {
+    "context1": "本文选取了Web of Science 核心集中的SCI和SSCI,以及 Scopus数据库，文献发表时间限定为2000年1月1日到2020年12月31日，对所有研究类型的图书馆中的人工智能相关研究进行搜索。在确定检索词时,根据国内和国外相关领域的AI研究报告及文献[II-12]创建了关键词列表,通过与4位AI和图情领域专家的访谈确定检索式，在多次试检索和专家的复查和审核后，最终确定检索主题范围。",
+    "context2": "最初从Web of Science 中共检索到相关文献2882篇，Scopus共检索到15135篇文献。排除与图书情报领域不相关的文献,对数据进行预处理与去重，排除书评、社论资料和新闻等文献最后得到期刊文献433篇。通过对每篇文献的相关性和质量审查，得到72篇符合本研究要求的文献,根据发表期刊的情况及研究主题内容，最终确定有45篇文献进入本文的内容分析。本文提取了每一篇文献的关键点、研究结论及研究贡献,基于所选文献的内容和共性分析,形成研究领域的热点主题和热点应用场景。本文进行的系统性审查工作流程如图1所示。"
+  },
+  "2.2AI在智慧图书馆研究的热点主题内容": {
+    "context1": "通过梳理国外图书馆人工智能研究的相关文献,得到研究热点主题的列表，如表1所示。下文将从三个主题展开并进行详细分析。"
+  },
+  "2.2.1 图书馆智能客服": {
+    "context1": "图书馆智能客服能够识别读者的文本或者语音指令，并对读者的咨询进行实时响应，主要从文本交互和语音交互两个方面展开。基于文本交互的图书馆智能客服,目前多以线上虚拟形态居多，能够为读者提供图书检索等实时问答服务，从而减轻图书馆员的工作负荷[3-14]。具有语音交互的图书馆智能客服则更倾向于作为图书馆虚拟助理角色，除了基本的实时问答,还具备教学、授课和答疑等功能[15-16],也能够为特定人群读者(例如视障人群或儿童)提供相应的辅助文献阅读服务[17-18]。"
+  },
+  "2.2.2 基于数据分析与可视化的知识服务": {
+    "context1": "图书馆人工智能的应用推动了图书馆知识服务向数据分析和可视化进行拓展[19]。图书馆利用语义分析和支持向量机等技术，能够实现文献资料元数据提取和特征提取，从而提供多种媒介资料的检索服务，有针对性地从纸质文献中自动提取图表，将图书馆馆藏转化为可视化的图形和图表，动态展示数据分析和解释的过程，以帮助图书馆用户采集知"
+  },
+  "表2人工智能在智慧图书馆中的应用场景": {
+    "context1": "Table 2 Application scenarios of artificial intelligence in smart library",
+    "context2": "<table><tr><td></td><td>场景</td><td>说明</td><td>功能</td><td>人工智能技术</td><td>其他技术</td></tr><tr><td>1</td><td>图书馆中 智慧书房</td><td>间</td><td>服务</td><td>自助实体图书馆,传统图书 无感认证、自助智能阅读服人脸识别、深度学习、计算机视物联网、5G、人物画像、 馆的现代延伸，智慧阅读空务、智能物联空间、个性化 觉、预测分析、机器学习、数据 大数据分析、VR、AR、 挖掘</td><td>MR、RFID</td></tr><tr><td></td><td>不同书目 2及服务 精准推送</td><td>图书馆内容与服务与读者需 求的点对点精准对接</td><td>略、内容和服务推广</td><td>需个性化服务、制定采购策语义网、机器学习、知识图谱、 文本挖掘、数据挖掘、聚类算法</td><td>大数据分析、用户画 像、云计算、可穿戴设 备、RDIF、传感器</td></tr><tr><td>3</td><td>读者智能检索知 识发现服务</td><td>图书馆检索系统返回结果优 化，检索结果排序考虑读者 兴趣、相关度和重要性</td><td>主动知识发现、内容语义理 解、智能信息过滤</td><td>自然语言处理、数据挖掘、神经 网络、语音识别、语义检索、协 同过滤、知识图谱</td><td>元数据、关联数据、 Agent技术</td></tr><tr><td>4</td><td>图书馆智慧机器 人服务</td><td>参考咨询虚拟机器人和图书资源查询、聊天应答、导览 管理实体机器人,提供知识 咨询服务和知识发现服务</td><td>导航、辅助阅读、教育教学、 决策预测</td><td>自然语言处理、语音识别、机器 学习、语义分析、智能系统</td><td>机器人技术、专家系 统、大数据分析、物联 网</td></tr><tr><td>5</td><td>智慧图书馆多媒 体数字资源聚合</td><td>多媒体信息资源一体化建设</td><td>可视化</td><td>资源分类、图像识别、信息深度学习、语义网、语义分析、 聚类分析方法、支持向量机</td><td>关联数据、元数据、云 技术、5G、爬虫</td></tr></table>",
+    "context3": "识和实现有价值的信息、知识咨询服务[20-23]。"
+  },
+  "2.2.3 高校图书馆智慧教育": {
+    "context1": "高校图书馆人工智能技术在智慧教育中应用也成为国外学者此领域关注的兴趣，主要从图书馆智慧教育和图书馆智能学生管理两个方面展开。在高校图书馆智慧教育方面，能够利用知识图谱厘清课程的逻辑关系，在学生检索书目时图书馆将根据教学大纲返回相关参考书目和慕课推荐，从而为学生提供个性化的课程方案[24]。在高校图书馆智能学生管理方面，图书馆能够通过智能设备，记录和分析学生的学习行为和阅读行为[2],通过人脸识别算法建立身份识别系统和自动借阅归还系统，很好地推进了高校图书馆管理向智慧化和无人化发展[26]。"
+  },
+  "2.3AI在智慧图书馆研究的热点应用场景": {
+    "context1": "人工智能具有技术融合和学科交叉的特性，它能够融合5G、云计算、大数据、物联网以及VR、AR等技术，通过强大的算法和新一代信息通讯技术带动图书馆的智慧化升级,梳理的AI在智慧图书馆中的应用场景如表2所示。"
+  },
+  "2.3.1 图书馆中的智慧书房": {
+    "context1": "智慧书房是图书馆公共文化服务建设的最后一公里重要节点，可为读者提供自助式、便捷化、个性化和智慧化的一站式智慧服务。读者可以通过人脸识别系统\"刷脸\"进入智慧书房,享受应用深度学习算法的图书分拣系统、图书识别系统和图书分类系统的图书自助借还服务。同时智慧书房更注重满足读者的个性化和多元阅读需求[27]。将关联规则预测算法与人工蜂群算法进行结合，通过收集、处理、分析并可视化读者借阅记录中的读者偏好行为数据，能够找出读者的借阅规律并预测读者的阅读喜好，预测和制定智慧书房阅读资源的采购策略。"
+  },
+  "2.3.2不同书目及服务精准推送": {
+    "context1": "图书馆可以通过AI算法为读者提供不同书目内容和个性化的推送服务。机器学习可以赋予智慧图书馆人性化特征,能够通过读者的借阅记录和检索历史，发掘读者兴趣和偏好,预测读者需求趋势,并将知识库与机器学习相结合实现馆藏资源与读者需求的点对点精准对接[24]。通过射频识别设备、可穿戴设备、传感器等智能终端设备感知、收集读者的情境、状态和阅读行为等数据，再通过云技术和5G进行数据传递,对读者数据进行清洗并进行规范化整合,为算法提供训练数据，从而挖掘读者的需求特征实现内容及服务的精准推送。"
+  },
+  "2.3.3 读者智能检索知识发现服务": {
+    "context1": "智能检索服务是指在读者进行检索时，将检索结果按照读者的阅读兴趣进行排列,将被动的信息检索服务转变为主动的知识发现服务[28]。主动的知识发现服务能够帮助读者提升检索满意度，并通过寻找术语之间的关系和语义来增强搜索方法，计算短语之间的语义相关性，从而建立本体之间的关联关系，消除术语之间的歧义，提升对模糊概念和未知概念检索结果的准确性。还可以将已经存在或隐式的语义描述合并到它们的描述性元数据中，在保持检索结果质量的情况下降低检索对读者的技术门槛。"
+  },
+  "2.3.4图书馆智慧机器人服务": {
+    "context1": "图书馆智慧机器人分为参考咨询服务的虚拟机器人和具有自动盘点、借还书、分拣功能的实体机器人。前者的参考咨询服务机器人可以利用人工智能技术构建专家系统，从而模拟专家的行为来支持决策和管理，并将智库服务与图书馆服务进行结合，从而为相关机构提供建言资政和决策咨询[。还可以利用数据挖掘支持大数据分析与处理,过滤数据中的噪音生成有价值的\"智能数据\"为读者提供知识咨询服务，并根据读者个人兴趣进行知识发现、组合和推荐。"
+  },
+  "2.3.5智慧图书馆多媒体数字资源聚合": {
+    "context1": "利用关联数据和语义网能够实现图书馆异构数字资源的聚合，构建图书馆馆藏资源之间、馆内资源与馆外资源之间的关联关系，从而增强馆藏资源的可见性，提高图书馆资源的可获取性，构建图书馆馆藏数字资源网络，提升图书馆检索信息的查全率和查准率，更好地实现图书馆资源的高度利用[29-30]。同时,利用云技术和5G将图书馆本地资源与云端资源进行整合，并将本馆数据上传至云端从而实现大规模数据的高速统一和调度,保证文本、图像、视频、音频和动画等数字资源访问的流畅性和全面性。随着短视频APP以及微博、微信等社交平台的兴起,短视频、直播等形式的新媒体渠道和帖子、微博等自媒体数据也将成为图书馆亟待整合的重要数字资源。"
+  },
+  "3 Al在智慧图书馆的未来研究趋势": "",
+  "3.1多模态人机交互的图书馆智慧聊天机器人": "",
+  "3.1.1 虚拟形态聊天机器人": {
+    "context1": "虚拟形态的多模态交互聊天机器人主要以网页版和基于微信等在线社交平台的形式为主，为读者提供实时的参考咨询服务能够模仿读者所拥有的听、说、读、写、视等感官的互动能力，通过传感器和探测器输入到系统中完成与机器的自然交互[31],实现线上与线下的图书馆聊天机器人联通，从而为读者提供一站式和一揽子的智慧服务代理[32]。"
+  },
+  "3.1.2 实体形态聊天机器人": {
+    "context1": "实体形态聊天机器人主要通过线下交互为读者提供知识库问答和图书检索等服务。面对线上与线下的参考咨询服务割裂的现状,未来可以通过3DAvatar或者数字人技术,将聊天机器人的形象具体化和统一化,提升读者对聊天机器人的兴趣和认同感，实现数字资源本地访问和远程访问的无缝连接,将线上服务与线下服务实现优势互补和虚实结合，为读者提供图书的自动借阅、个性化推荐、文献资源定位导览导航、座位预定等整合服务。"
+  },
+  "3.1.3为弱势群体提供服务的聊天机器人": {
+    "context1": "为图书馆的数字弱势群体提供辅助学习服务，促进数字包容和消除数字鸿沟[33]。利用多模态聊天机器人提供多维度的信息感知和输出，通过自然语言处理和计算机视觉等人工智能算法，降低馆藏资源访问的门槛，调动数字弱势群体学习和阅读的能动性，提升其学习和获取信息的能力，为数字弱势群体提供多媒体资源整合、语音播报[34]、图书馆导览和智能讲解等服务。"
+  },
+  "3.2基于AI的图书馆读者画像深度服务": "",
+  "3.2.1构建图书馆智能阅读推荐系统": {
+    "context1": "随着国内外学者对读者行为特征研究的逐渐深入，利用人工智能算法构建图书馆读者画像并提供深度服务，成为国外学者关注的未来重要研究方向[3s]。收集读者行为数据，呈现读者行为特征并进行聚类和标签化，然后通过对读者行为进行可视化呈现，可以对读者的基本信息、态度偏好和行为习惯进行更好地分析，从而感知并满足读者的动态信息需求，帮助实现图书馆数字资源的精准推送。未来也可以将增强智能融入基于用户画像的推荐系统，使其既能精准识别读者需求，又能通过数据可视化交互吸引读者阅读[3],从而提高图书馆图书借阅率,提升读者对图书馆的粘性。"
+  },
+  "3.2.2构建图书馆知识社交社区": {
+    "context1": "图书馆来访群体具有多元化的特点，来访人员的年龄、职业和受教育程度各异,群体之间行为特征存在较大差异，但群体内行为特征具有一定的共性。因此，可以通过对图书馆读者行为的关联数据挖掘，采用机器学习和知识图谱等人工智能技术处理和分析图书馆读者的行为数据,构建图书馆读者画像[37]。同时,相同的读者群体间具有一定的共性,未来可以通过读者画像发现兴趣相似的读者，拓展图书馆知识社区建设,促进读者之间的交流、合作和知识共享[38],鼓励读者创造知识和发现知识,重塑图书馆公共文化机构和智库咨询的角色[39]。"
+  },
+  "3.2.3制定精准灵活的图书馆采购策略": {
+    "context1": "未来可以考虑将读者画像与读者主导采购模式(PatronDriven Acquisition,PDA 或 Demand-Driven Acquisition,DDA)相结合。读者画像可以帮助图书馆清晰掌握读者的阅读兴趣,未来可以考虑将读者画像与基于历史数据开发的机器学习预测模型相结合，降低专家评判法、出版社推荐法和读者点选带来的主观意识影响，最大程度的照顾每一群体的阅读需求，帮助图书馆的管理者合理规划采购预算，优化馆藏资源配置[40]。"
+  },
+  "3.3智慧图书馆人工智能技术集成平台": "",
+  "3.3.1 构建基础设施感知层": {
+    "context1": "目前,监控设备、传感设备、智能感知设备和交互设备等信息技术基础设施在图书馆的管理与服务环境中逐渐普及，但彼此之间相互独立，需要通过构建基础设施感知层，并通过AR和VR等人机交互设备、可穿戴设备、传感器、摄像头、RFID、智能移动终端等信息采集执行设备，识别图书馆中的信息和知识,感知读者的行为和状态，全方位、无死角地采集图书馆中的数据,并激活孤岛数据[41]。"
+  },
+  "3.3.2搭建数据通信和计算层": {
+    "context1": "关于人工智能应用的研究与实践也散落在智能身份认证、刷脸借阅、书目分类和智能机器人等孤立的场景中，亟需通过一个智能集成框架将图书馆数字资源和智能设备整合起来，实现基于人工智能的图书馆技术集成框架。通过创建多通道传输并共享信息,将感知层、计算层与读者连接起来，起到上传下达的作用[4。将包括以人工智能为核心的机器学习、神经网络、知识图谱和深度学习等技术进行集成,实现对馆藏资源的文本挖掘和对读者行为的数据挖掘，从而预测读者需求，为读者提供个性化服务，其中以AI算法为主导的计算层是技术集成平台的核心。"
+  },
+  "3.3.3围绕图书馆智慧大脑展开研究": {
+    "context1": "打造智慧图书馆的神经系统，成为图书馆借阅业务、文化服务、读者数据、馆藏信息和管理系统等交互融合的总中枢[42]。智慧图书馆智能技术集成平台的服务整合作用也能够为读者提供全新的泛在智能服务体验[43]。利用5G精准定位和高宽带通信，与云计算、物联网、AR和VR等技术进行深度融合，为读者提供图书馆内资源物理导航和导览服务[27]、定制化知识服务[44]、知识创造和发现服务[45]等,使读者能够感受到图书馆的跨设备和跨平台的环绕式服务。"
+  },
+  "3.4采用AI技术的图书馆安全预警系统": "",
+  "3.4.1基于人工智能和物联网的智能消防系统": {
+    "context1": "公共图书馆作为大型公共场所，内部环境复杂和人员密集,因而图书馆的公共服务也面临一定的安全管理问题,但我国公共图书馆在面对各类灾害、事故、社会安全等危机事件中的安全预警能力仍存在较大短板。未来可以利用计算机视觉和智能语音等技术,对图书馆进行温度监测、人流监测和进行馆藏监控,尽可能降低火灾发生的风险[46]。同时，利用室内定位和蚁群算法，在发生火情时分析最佳消防逃生路线，并利用图书馆的语音系统和显示器引导读者进行逃生。"
+  },
+  "3.4.2图书馆身份认证及用户行为的预警": {
+    "context1": "可以借助传感器和探测器等智能设备，结合人脸识别算法、关联数据挖掘和聚类分析等,检测读者的异常行为和分析可疑行为，识别可疑危险信号，从而对图书馆的盗窃和治安等事件第一时间通过图书馆智慧楼宇系统及时做出响应[47],并调动图书馆工作人员和安保进行处理[48]。同时在追踪和分析读者的行为时，需要注意图书馆用户的个人行为数据隐私问题的保护。"
+  },
+  "3.4.3构建图书馆智能巡检系统": {
+    "context1": "未来通过采用人工智能技术的图书馆安全预警系统可以更好地提高图书馆的公共服务的安全预警能力。随着5G技术的落地，未来可以利用人工智能与AR等技术相结合构建智能巡检系统[44],帮助图书馆工作人员发现并消除安全隐患，展开紧急情况演练，提升图书馆突发事件应急处理能力。"
+  },
+  "4 AI为智慧图书馆建设带来的机遇与挑战": "",
+  "4.1人工智能发展的前沿技术趋势": {
+    "context1": "斯坦福大学HAI学院在发布的《人工智能指数2021年年度报告》中特别强调了人AI在计算机视觉、语言、语音、概念学习和定理证明等子领域中的技术进步[49]。随着人工智能算法的不断改进以及创新，尤其是基于图的算法和应用，越来越多的人工智能技术开始应用于日常生活、商业活动以及工业生产等。例如面向电商的\"刷单\"行为,可以通过大规模图神经网络，在线上自动识别网络虚假交易行为，能够为消费者营造良好的网购体验、为平台商家提供公平的网络营业环境,帮助政府部门治理电商生态。还有基于生成对抗网络和卷积神经网络的合成技术\"Deep Fakes\",能够通过语音合成让计算机用人类的声音说出上百种语言，影像合成能够应用于博物馆还原历史人物、修复历史影像,在商业营销中可以应用于顾客虚拟试穿。AI生成内容可以广泛应用于为消费者提供个性化服务定制、与增强智能相结合帮助残障人士解决视觉或者语音障碍、为学生开发更具吸引力和互动性的学习工具、图像修复和还原等领域,但同时也可能带来欺诈、捏造证据、扰乱互联网秩序等伦理挑战。因此,如何平衡人工智能带来的机遇和风险，是亟待人们讨论和深思的议题。"
+  },
+  "4.2人工智能为智慧图书馆建设带来的机遇": "",
+  "4.2.1智慧图书馆知识发现服务": {
+    "context1": "人工智能算法的更新与进步可以帮助图书馆完善知识发现服务，主要包括知识搜索服务、知识索引和参考咨询服务等。智慧的搜索系统应具备预测需求的功能，可在一定程度上取代用户的主动搜索行为,使用户的个性化需求被捕捉被开发[50。同时,人工智能还可用于生成元数据,实现资料的自动化索引,改变知识索引方式，使知识被关联被发现[]。"
+  },
+  "4.2.2智慧读者和智慧馆员学习与教育": {
+    "context1": "人工智能为智慧读者和智慧馆员的培养带来机遇[24],提升全民信息素养[52]。图书馆为人工智能落地和普及提供了一个公平、公益、易获取的公共场景,为不同年龄、知识背景的读者提供个性化且平等的服务，有利于吸引读者了解人工智能的相关知识和使用方法，提升读者的整体信息素养。图书馆员也可以从重复繁重的图书管理工作中解脱出来,将精力转移到元数据和数据库管理，提升技术技能，更好地支持读者访问和搜寻。"
+  },
+  "4.2.3机器可读智慧图书馆馆藏资源": {
+    "context1": "人工智能技术为馆藏资源的阅读提供了一种新思路，即馆藏资源的直接读者不一定是\"人”,还有可能是机器[3]。自然语言处理、文本挖掘和机器学习是实现机器可读资源的重要方面。面对海量的馆内和馆外资源,读者作为独立的个体想要获取到全部资源的访问权限和服务权限比较困难，但是如果将权限授权给人工智能工具，资料可访问的广度将大大增加。同时,人工智能工具也可以将资料以浓缩的方式带回,帮助读者在海量发布信息中来浏览、搜集和筛选出读者所需的资料[53]。"
+  },
+  "4.3人工智能为智慧图书馆建设带来的挑战": "",
+  "4.3.1 对读者和图书馆员的技能和素养的挑战": {
+    "context1": "在享受人工智能的智慧服务时，人工智能也对读者和图书馆员的技能水平和知识素养提出了要求[33]。人工智能技术依托于智能设备，通常操作步骤和使用原理不易理解，因此对学习能力和接受能力相对较弱的数字移民和数字难民来说使用难度较高。尽管开发者在设计算法和功能时尽可能提升用户的易用性和接受度,但是出于对人工智能风险的抗拒和新技术的排斥心理，基于人工智能的智慧服务只能是针对\"小部分人\"的便利,无法真正走进读者、充分体现AI的效用,甚至可能为智慧图书馆的推广起到阻碍作用。同时，人工智能生成内容对读者的信息甄别能力提出了考验。随着人工智能生成文本、音频、影像技术的精进,需要读者具备评估内容的质量以及真实性的知识素养。",
+    "context2": "![](images/54649b25f7a52bb8ad089245816c84edc5a5c62be88dd6902e6b66973919f3af.jpg)  \n图2研究结论总结  \nFigure 2 Summary of research conclusions"
+  },
+  "4.3.2读者数据的处理和保护问题": {
+    "context1": "由于人工智能算法需要基于大规模、长时期、多类型的用户数据,用户的隐私安全可能在其不知情的情况下遭受持续的威胁,这是人工智能的痛点和困境,在图书馆应用中也不例外[54]。在当前的弱人工智能技术对读者数据安全本身并无威胁性,但是如果读者的数据被非法获取并利用，可能会产生非法数据交易、欺诈、诈骗的问题。图书馆是读者数据的控制者，有权利利用大数据，但是也有义务自觉遵守隐私保护的规则规范，有义务管理和保护读者私人数据。"
+  },
+  "4.3.3 潜在的读者歧视和偏见问题": {
+    "context1": "基于人工智能的智慧图书馆应当平等地服务于社会全体。除了人工智能的技术门槛可能加剧的社会数字鸿沟现象,人工智能带来的技术偏见、算法偏见等问题是图书馆知识服务中的重要问题。首先，人工智能的黑箱原理可能会让知识推荐算法以及辅助决策的透明度和可理解性大大降低，从而难以确保智能检索结果或者参考咨询服务的公平性和公正性。此外，有一些问题出现的根源是社会偏见，比如由于程序员和设计师的性别、年龄、经历等无法感知并照顾某一群体的需求，在设计算法和功能时无意间将某一部分人排除在智慧图书馆服务对象之外[55]。"
+  },
+  "5研究结论": {
+    "context1": "人工智能作为第四次科技革命和新技术发展的核心，是未来我国科技创新的重要方向，在发展的过程对推动图情学科的发展具有重要作用。本文整体研究结论归纳为图2,通过对国外AI在此领域前沿技术和方法的分析，可以为图书馆业界学者、工作人员和管理者推动人工智能在智慧图书馆的深度应用提供一定参考，并为新文科背景下图情学科和计算机、人工智能领域的跨学科协同研究提供一定的指导。同时,通过与国外此领域的研究成果进展情况进行对比，可以评估我国图书馆领域人工智能技术研究和应用的发展水平，为图书馆实践中采用人工智能技术提供更好的理论、技术和方法的指导和借鉴。",
+    "context2": "本文在研究中也存在一定的局限性。本文的样本文献是基于SCI、SSCI和 Scopus 的数据集，由于数据库对出版物来源的限制，研究结果不能完全反映图书馆中人工智能的全部研究。未来研究可以通过利用不同来源的数据，尽可能全面地包含领域内的相关研究，并选用除了引用情况之外更科学全面的指标和方法，系统地、客观地评估文献的影响力、质量以及相互之间的关联,从而进一步深度挖掘和利用人工智能技术推进智慧图书馆建设。"
+  },
+  "参考文献": {
+    "context1": "1马费成,李志元.新文科背景下我国图书情报学科的发展 前景[J].中国图书馆学报,2020,46(6):4-15.   \n2 闫慧,韩艳芳,张钰浩,等.图书馆信息学与新文科交叉领域 的关系预测研究[J].情报资料工作,2021,42(1):21-27.   \n3 Cox A M,Pinfield S,Rutter S.The intelligent library Thought leaders‘views on the likely impact of artificial intelligence on academic libraries[J].Library Hi Tech,2019,37(3):418-435.   \n4 Gul S,Bano S.Smart libraries:an emerging and innovative technological habitat of 21st century[J].Electronic Library,2019,37(5):764-783.   \n5 Cao G,Liang M,Li X. How to make the library smart? The conceptualization of the smart library[J].Electronic Library,2018,36(5):811-825.   \n6 Asemi A,Ko A,Nowkarizi M. Intelligent libraries:a review on expert systems,artificial intelligence,and robot[J].Library Hi Tech,2020,39(2):412-434.   \n7布和宝力德.人工智能技术在图书馆的应用、挑战及发展 趋势[J].图书与情报,2017,(6):48-54.   \n8 孔繁超,刘慧.智慧图书馆环境下的个性化适应性服务研究 [J].情报理论与实践,2021,44(3):109-114.   \n9 王世伟.信息文明与图书馆发展趋势研究[J].中国图书馆 学报,2017,43(5):4-20.   \n10 王辉.基于人工智能技术的公共图书馆空间再造策略研 究[].图书馆工作与研究,2020,(S1):9-12,22.   \n11 清华—中国工程院知识智能联合研究中心.人工智能发 展报告 2011-2020[EB/OL].https://static.aminer.cn/misc/ pdf/zpAIreport2020.pdf,2021-04-17.   \n12Darko A,Chan A P C,Adabre M A,et al. Artificial intelligence in the AEC industry:scientometric analysis and visualization of research activities[J].Automation in Construction,   \n2020,112(4):103081.   \n13Yao F,Zhang C,Chen W. Smart talking robot Xiaotu:participatory library service based on artificial intelligence[J].Library Hi Tech,2015,33(2):245-260.   \n14 Talley N B.Imagining the use of intelligent agents and artificial intelligence in academic law libraries[J].Law Library Journal,2016,108(3):383-401.   \n15Bohle S. \"Plutchik\":artificial intelligence chatbot for searching NCBI databases[J].Journal of the Medical Library Association,2018,106(4):501-503.   \n16Griol D,Manuel Molina J,Calejas Z. Incorporating android conversational agents in m-learning apps[J].Expert Systems,   \n2017,34(4):1-17.   \n17 Tesendic D,Boberic-Krsticev D. Web service for connecting visually impaired people with libraries[J].Aslib Journal of Information Management,2015,67(2):230-243.   \n18 Potnis D D,Winberry J,Finn B,et al. What is innovative to public libraries in the United States?A perspective of library administrators for classifying innovations[J].Journal of Librarianship and Information Science,2020,52(3):792-805.   \n19 Cox A M,Kennan M A,Lyon L,et al. Maturing research data services and the transformation of academic libraries[]. Journal of Documentation,2019,75(6):1432-1462.   \n20 Gilitzer B.From the search system to the inferential service - a paradigm shift? Yewno,a semantic discovery service in a pilot experiment at the Bavarian State Library[]. Zeitschrift Fur Bibliothekswesen Und Bibliographie,2017,64 (2):71-78.   \n21 Shen Y. Emerging scenarios of data infrastructure and novel concepts of digital libraries in intelligent infrastructure for human-centred communities:a qualitative research[J].Journal of Information Science,2019,45(5):691-704.   \n22Wu J,William K,Chen HH,et al. CiteSeerX:AI in a digital library search engine[J].AI Magazine,2015,36(3):35-48.   \n23 Chen H M. Information visualization skills for academic librarians:a content analysis of publications and online LibGuides in the digital humanities[J].Library Hi Tech,2019,37 (3):591-603.   \n24 Deng Y. Construction of higher education knowledge map in university libraries based on MOOC[J].Electronic Library,2019,37(5):811-829.   \n25Lodhi P,Mishra O,Jain S,et al. StuA:an Intelligent Student Assistant[J].International Journal of Interactive Multimedia and Artificial Intelligence,2018,5(2):17-25.   \n26Rao V R P,Puwakpitiyage C A H,Shafiq A K,et al. Design and development of facial recognition - based library management system (FRLMS)[C]//Proceedings of the 4th International Conference on Computing,Engineering,and Design.New York,USA:IEEE,2018:119-124.   \n27 刘炜,陈晨,张磊.5G与智慧图书馆建设[.中国图书馆学 报,2019,45(5):42-50.   \n28 Simovic A. A big data smart library recommender system for an educational institution[J].Library Hi Tech,2O18,36(3): 498-523.   \n29Solomou G,Koutsomitropoulos D. Towards an evaluation ofsemantic searching in digital repositories:a DSpace case-study[J].Program-Electronic Library and Information Systems,2015,49(1):63-90.   \n30Giannopoulou E,Mitrou N,Chimos K,et al.A semantic web approach in the implementation of a linked data portal using a CMS[C]//Proceedings of the 1Oth International Conference on Signal-Image Technology and Internet-Based Systems.New York,USA:IEEE,2014:164-171.   \n31 Karpov A A,Yusupov R M. Multimodal interfaces of human-computer interaction[J].Herald of the Russian Academy of Sciences,2018,88(1):67-74.   \n32 邵波,单轸,王怡.新一代服务平台环境下的智慧图书馆建 设:业务重组与数据管理[].中国图书馆学报,2020,46(2): 27-37.   \n33Wojcik M. Augmented intelligence technology. the ethical and practical problems of its implementation in libraries[]. Library Hi Tech,2020,(5):435-447.   \n34Battad Z,White A,Si M.Facilitating information exploration of archival library materials through multi-modal storytelling[C]//Proceedings of the 12th International Conference on Interactive Dioital Storvtelling Cham Switzerland· Spger Ieauoiai puvlsig ag,zU1y:1zU-1/.   \n35Hu J,Shao H,Tang J,et al. Research on reading subject recommendation of library based on data analysis J].Journal of Physics:Conference Series,2020,1607(1):012022.   \n36Lu J.Mobile augmented reality technology for design and implementation of library document push system[J].Journal of Real-Time Image Processing,2020,(1O):1-11.   \n37 曹树金,刘慧云.以读者为中心的智慧图书馆研究[.图书 情报工作,2019,63(1):23-29.   \n38 杨敏.智慧图书馆环境下学习共享空间的设计与布局 -以泰州职业技术学院为例.农业图书情报学报, 2020,32(3):75-81.   \n39 Xu B,Zhao Y,Feng H,et al. Research on library knowledge recommendation based on intelligent discovery system[C]// Proceedings of the 2020 2nd International Conference on Robotics,Intelligent Control and Artificial Intelligence. New York,USA:ACM,2020:170-174.   \n40 Walker K W,Jiang Z. Application of adaptive boosting (AdaBoost) in demand-driven acquisition (DDA) prediction:a machine-learning approach[J].Journal of Academic Librarianship,2019,45(3):203-212.   \n41 Bai R,Zhao J,Li D,et al. RNN-based demand awareness in smart library using CRFID[J].China Communications,2020, 17(5):284-294.   \n42 王世伟.深化人工智能与图书馆更新的若干问题——再 论人工智能与图书馆更新.图书与情报,2020,(3): 93-103.   \n43Garcia M B.Human-library interaction:a self-service library management system using sequential multimodal interface[C]//Proceedings of 2019 IEEE 11th International Conference on Humanoid,Nanotechnology,Information Technology,CommunicationandControl,Environment,and Management,New York:IEEE,2019.   \n44 张凯,赵国甫,陈沅.5G雾计算环境下图书馆\"个性环绕贴 身式”服务技术方案.中国图书馆学报,2020,46(6): 91-105.   \n45 张兴旺,王璐.数字孪生技术及其在图书馆中的应用研究 -以雄安新区图书馆建设为例.图书情报工作,2020, 64(17):64-73.   \n46 Xie K,Liu Z,FuL,et al. Internet of Things-based intelligent evacuation protocol in libraries[J].Library Hi Tech, 2019,38(1):145-163.   \n47 任萍萍.5G技术驱动下的智慧图书馆应用场景与智慧平 台模型构建[].情报理论与实践,2020,43(7):95-102.   \n48 石婷婷,徐建华,张雨浓.数字孪生技术驱动下的智慧图书 馆应用场景与体系架构设计[].情报理论与实践,2021,44 (3):149-156.   \n49Zhang D,Mishra S,Brynjolfsson E,et al.The AI Index 2021 Annual Report[EB/OL].https://aiindex.stanford.edu/ wp-content/uploads/2021/03/2021-AI-Index-Report_ Master.pdf,2021-04-20.   \n50 Shi Y , Zhu Y .Research on Aided Reading System of Digital Library Based on Text Image Features and Edge Computing[J].IEEE Access,2020,(8):205980-205988.   \n51 Intarapaiboon P,Kesamoon C. Applying domain knowledge and academic information to enhance unknown-item search in OPAC[J].Malaysian Journal of Library & Information Science,2019,24(1):45-58.   \n52Humrickhouse E. Flipped classroom pedagogy in an online learning environment:A self-regulated introduction to information literacy threshold concepts[J].Journal of Academic Librarianship,2021,47(2):102327.   \n53 Zhou S,Li X. Feature engineering vs. deep learning for paper section identification:Toward applications in Chinese medical literature[J].Information Processing & Management, 2020,57(3):102206.   \n54 Mazurek G，Malagocka K.Are we down to zero-one code? Perception of privacy and data protection in the context of the development of artificial intelligence[J].Journal of Management Analytics,2019,6(4):344-364.   \n55Frohmann B .Subjectivity and information ethics[J].Journal of the American Society for Information Science & Technology,2010,59(2):267-277.",
+    "context2": "(责任编辑：赵红颖)"
+  },
+  "References to International Publications in Chinese Academic Articles": {
+    "context1": "YANG Bo, LI Zhong-qian",
+    "context2": "(School of Information Management, Nanjing Agricultural University, Nanjing21oo95, China)",
+    "context3": "Abstract:【Purpose/significanceMiningthecitingbehaviorsof intermationalpublicationsfrom Chinesepapers isanefectivetechniquetoanalyetheusageofinteratioalpublicationsofCinesescholars,soastoimprovetheutilizatioofinteratioalpublica tionsandtheevaluationsysteoacademicpublications,andtodevelopproperliterature guaranteestrategyofforacademicresarch. 【Method/procssInthispaper,themotivationofitinginterationalpublications,thecorrelationbetweenreferenceratioofintea tionalublicationsandjoualqualityanddistributionofesearchtopicsarivestigatedintersofiudefromrevewrsadbib liometric indicators.【Result/onclusionTheresultsofcasestudyshowthat,mostreviewers maintainapositiveatitudeoncitinginter nationalpublicatiosesides,tefereneratioofinteratioalpubicationsissignificantlyelatedwithjoualipactfacto, whileitisvarngtweendirentresachtopicsecauseofdistinctdgeofinteratioaltio.ovatioliatioeciing paterns of internationalpublications in Chineseacademicarticleshavebeendetectedand explainedthroughquantitativeanalysis.",
+    "context4": "Keywords:refereceratioofteratialpublicatios;characteristicsofiting;joualevaluatio;eferecelist;ciatoninteatioalization"
+  },
+  "Application Trend of AI in Smart Library: Opportunities and Challnges": {
+    "context1": "WANG Xi-wei’²,LUO Ran', LIU Yu-tong1 (1. School of Management, Jilin University,Changchun 130022, China;",
+    "context2": "2.Northeast Revitalization Research Institute, Jilin University, Changchun 130022, China,",
+    "context3": "Abstract:Purpoe/signifianc】Teiegratioofartialitellgencewillpromotetelibrarysbusinessinovationifeldof publicservices,ehancetheeficiencyoflbraryspubliculturalservices,ndpromoteserviceinnovationinariousfieldsinepro cessof buildingasmartlibrary【Method/process】BasedonSC,SCIadScopusdatabases,thispaperpresentsthehotopicsand hotapplicatiosenariosofsartlrarysearch,tefutureresearchrendofinsartlraryndtepporuitisdlg esthatAIbringstotheconstructionofsmartlibrary.Resulconlusion】Fromthecontentofhotopics,themainresearchinterestsf scholarsaresortedoutAccording totetechnicaladvantagesofAandtheusinessndsofsmartlrarytispapesortsoutfiveapplicationscenariosofAisartraryndutsfrardfourfutureseachtredsinhisfeld;allombindwitateste velopmenttrendofIechologyinthefuture,thispapranalyzsthedevelopmentopportuitistatAIringstosmartlibarsnd putsforwardthechallenges thatAItechnologyfaces.nnovation/limitationThispaperanalyes thelandingsceneofAintheconstructionofsmartlibrary,thfutureresearchtrendandtheoportunitisndchallengesthatlibrariesayface;However,theample literature is mainly based on foreign mainstream data sets,and willbe further expanded in future research.",
+    "context4": "Keywords: AI; smart library; application trend; opportunity; challenge"
+  }
+}

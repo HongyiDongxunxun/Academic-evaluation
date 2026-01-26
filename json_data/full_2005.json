@@ -1,0 +1,95 @@
+{
+  "original_filename": "full_2005.md",
+  "全球图书馆自动化系统发展综述": {
+    "context1": "Review of the Development of Global Library Automation System 王志庚肖红 (国家图书馆北京 100081)",
+    "context2": "[摘要]近几年，国内外图书馆自动化系统市场发生了剧烈的变化。在技术方面，全新概念的自动化产品进入市场，新一代图书馆接口飞速发展，开源软件成为主流，发现服务产品占据大量市场份额，数字资源长期保存活动应运而生；在功能方面，电子资源管理备受关注，知识管理脱颖而出；在服务方面，SaaS模式备受青睐，联合采购模式逐渐兴起，自助图书馆诞生。",
+    "context3": "[关键词]图书馆自动化系统发现服务开源软件[中图分类号]G251.3 [文献标识码]B",
+    "context4": "[Abstract] In recent years,the library automation market has undergone dramatic changes at home and abroad.In terms of technology,automation products of new concept have entered the market, nextgeneration library interfaces have developed rapidly,the open source software has become the mainstream, discovery service products occupy a suficiently large portion of the market,and the long-term preservation of digitalresources has emerged at the historic moment.In terms of functionality,the electronic resource management is concerned,and the knowledge management comes to the fore.In terms of services,the SaaS model has been widely accepted,the joint purchasing model has risen gradually,and self-service libraries come into being.",
+    "context5": "[Key words] Llibrary automation system; Discovery service; Open source software",
+    "context6": "近几年，图书馆自动化系统市场发生了剧烈的变化。业内大量公司的合并与收购、私有股权公司的介入、老化系统亟需更新换代、开源系统从崭露头角到成为主流、电子资源管理系统备受青睐、2008年全球经济危机环境下行业发展举步维艰、用户对融合新技术的新一代自动化接口日益增长的期待、发现服务的出现与不断完善、自助图书馆的诞生都是推动图书馆自动化系统发展的重要因素。各图书馆自动化公司力图抓住行业中每次变化所带来的机遇，希望在激烈的市场竞争中创造出自己的一片天地。",
+    "context7": "2005年，图书馆自动化行业新厂商的加入引起了市场剧烈的变化。2006年，图书馆自动化行业稳步健康发展，总收入约为5.7亿美元，其中来自ILS(Integrate LibrarySystem，集成图书馆系统)的收入减少，基于网络的电子资源管理接口和工具的利润持续增加，开源图书馆自动化系统实现突破性的进展，打破了原有的工业模式。2008年，全球经济危机给很多行业带来了灾难性的影响，图书馆自动化行业虽然受到一定的影响，但依旧表现出生机勃勃的景象。受2008年经济危机的影响，2009年各公司重新制定了"
+  },
+  "市场战略，提出大量关于图书馆自动化系统的新概念。此后，新技术、新产品的竞争更加激烈。": "",
+  "1技术趋势": "",
+  "1.1全新概念的自动化产品": {
+    "context1": "2010年，图书馆自动化市场通过引入网络分层服务创造出在概念和架构上与ILS完全不同的新产品。",
+    "context2": "OCLC（Online Computer Library Center，联机计算机图书馆中心）开始开展网络级管理服务（Web-ScaleManagement Services,简称WMS)的市场营销和部署。WMS是基于WorldCat平台的图书馆自动化框架，整合了WorldCat已有的编目、资源共享和流通层面的发现服务、采集和认证管理功能。辛普森大学图书馆等部分高校图书馆已经引进了WMS，不再继续使用ILS。",
+    "context3": "ExLibris（艾利贝斯公司）继续开发新的联合资源管理框架，其近期开发的产品Alma部署在基于云的计算框架上，主要通过SaaS (Software-as-a-service，软件即服务)模式提供服务，具有高度共享的数据模型和管理图书馆所有类型资源的能力。波士顿大学、普林斯顿大学等高校参加了该产品的研发，另有一些学术和研究型图书馆已经签订协议，准备首批使用Almao",
+    "context4": "Kuali OLE(Open Library Environment,开放图书馆环境）项目通过对开源系统的不断研究，开发出了新一代图书馆管理平台。KualiOLE项目在原有ILS的架构和设计的基础上，提供面向企业的框架来支持图书馆服务。"
+  },
+  "1.2新一代图书馆接口": {
+    "context1": "图书馆通过网络对外提供服务的趋势日益明显，图书馆自动化厂商将产品研发的大部分力量投入到新网络接口的开发与营销中，目的是为了开发出具有面浏览（facetedbrowsing）、相关度排序、用户评论或标记（ratingortagging)、可视化导航等功能的图书馆网络接口。",
+    "context2": "北卡罗莱纳州立大学为Unicorn（图书馆自动化管理系统）开发了基于Endeca'sProFind平台的新编目系统，为新接口研发拉开序幕[1]。随着网络技术的发展，旧的编目模式已经不能满足用户的需求，2008年新的图书馆接口整合了Web2.0应用（如RSS订阅、用户标记和评论等)，通过集成的联邦检索工具或通过对本地索引的元数据收割提供统一入口访问图书馆所有内容，包括已订阅的电子资源。此图书馆接口打破以往仅对图书馆内部提供服务的固有模式，向网络的其他终端交付图书馆资源和服务，如相关度排序、面导航[2]。AquaBrowser、Encore、Primo和WorldCat Local这些在2008年有很好的销售业绩的产品在2009年均成为各公司的战略型产品。同时期，还有一些其他的新一代图书馆接口 (见表1)[3]。"
+  },
+  "1.3开源软件": {
+    "context1": "开源软件很早就在图书馆中得到应用。2006年以前，与其他领域的自动化产品相比，美国使用开源自动化系统的图书馆数量很少。而2006年集中发生的一些大事确立了开源ILS的重要地位：",
+    "context2": "2006年9月，美国佐治亚州图书馆电子服务公共信息网络联盟所属的252家公共图书馆从Unicorn迁移至开源ILS系统Evergreen。开源图书馆自动化系统需要商业化的服务支持，2005年1月新成立的LibLime公司提供对开源ILS产品Koha的支持和其他面向图书馆开源软件的各种服务。同年12月，LibLime与IndexData（丹麦的开源软件开发公司）合作，将Zebra数据库搜索引擎集成到Koha，并重新命名为KohaZOOM，服务于更大、更复杂的图书馆。截至2006年底，世界范围内有311个图书馆使用Koha[1]。美国和加拿大对开源图书馆自动化产品的兴趣持续高涨，广泛使用的产品有Evergreen、Koha和OPALS[4]。此后，一些规模很大的图书馆开始放弃专业ILS产品而选用开源软件，如东俄勒冈的Sage图书馆系统和英国的Pioneer图书馆系统[5]。",
+    "context3": "2007年，图书馆对开源软件更强烈的需求成为图书馆自动化系统行业最大的机遇。这种需求表现在两个方面：开源ILS产品通过APIs （Application Program Interfaces,应用程序接口）为图书馆提供数据访问和系统交付以外的功能，实现专业系统的扩展。",
+    "context4": "开源产品受到众多图书馆的关注，自2006年起，开源系统（如Koha和Evergreen）已成为图书馆自动化市场中的主流产品。为了应对开源ILS产品的竞争威胁，很多专业产品厂商提供了APIs，允许图书馆自己通过APIs提取数据或扩展系统功能。",
+    "context5": "表1 $2 0 0 6 - 2 0 0 9$ 年具有代表性的图书馆接口",
+    "context6": "<table><tr><td rowspan=1 colspan=1>开发商</td><td rowspan=1 colspan=1>图书馆接口</td><td rowspan=1 colspan=1>主要特点</td></tr><tr><td rowspan=1 colspan=3>2006-2007年</td></tr><tr><td rowspan=1 colspan=1>Medialab Solutions</td><td rowspan=1 colspan=1>AquaBrowser</td><td rowspan=1 colspan=1>可视“云”和面精炼检索结果的搜索工具，2006年被皇后图书馆选用。2007年在美国、加拿大、澳大利亚、新西兰、新加坡和菲律宾等国家均有使用。</td></tr><tr><td rowspan=1 colspan=1>Ex Libris</td><td rowspan=1 colspan=1>Primo</td><td rowspan=1 colspan=1>提供面导航和基于相关度排序的检索结果。</td></tr><tr><td rowspan=1 colspan=1>Innovative Interfaces</td><td rowspan=1 colspan=1>Encore</td><td rowspan=1 colspan=1>提供动态生成热门选项、基于主题标题的标签云和面导航功能。</td></tr><tr><td rowspan=1 colspan=3>2008年</td></tr><tr><td rowspan=1 colspan=1>EX Libris</td><td rowspan=1 colspan=1>Primo</td><td rowspan=1 colspan=1>完成初次改进，目标是发现和交付；专为大型学术图书馆设计的，体系结构包括：集成链接解析器、联邦检索和许多与电子资源传送相关的特性。产品发布的第一年，便拥有12个用户，累计77个图书馆。</td></tr><tr><td rowspan=1 colspan=1>VTLS</td><td rowspan=1 colspan=1>Visualizer</td><td rowspan=1 colspan=1>强调“完全暴露”，用于访问所有馆藏资源，如馆藏目录、机构仓储、本地数字资源等。</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>2009年</td></tr><tr><td rowspan=1 colspan=1>Auto-Graphics</td><td rowspan=1 colspan=1>AGent Illuminar</td><td rowspan=1 colspan=1>第一个基于AdobeFlex框架的图形化桌面环境。</td></tr><tr><td rowspan=1 colspan=1>The Library Corporation</td><td rowspan=1 colspan=1>LS2 PAC</td><td rowspan=1 colspan=1>第一个LS2模式接口，可用于TLC现有的ILS产品。通过可视化前端来实现相关度排序、用户加标签和标记、发表评论、缩小结果范围的面和馆内资源位置的地图显示。</td></tr><tr><td rowspan=1 colspan=1>Serials Solutions</td><td rowspan=1 colspan=1>Summon</td><td rowspan=1 colspan=1>实现对图书馆所有资源的访问，包括图书、文章层面的电子出版物、任意本地管理的仓储或数字馆藏，提供对纸质和电子内容的访问和对电子期刊的全文检索。</td></tr><tr><td rowspan=1 colspan=1>SirsiDynix</td><td rowspan=1 colspan=1>Enterprise</td><td rowspan=1 colspan=1>新一代面搜索产品，执行模糊匹配搜索逻辑、相关度排序结果。所有SirsiDynix的ILS产品都可以使用该接口，包括Symphony、Horizon或Dynix Classic。</td></tr></table>",
+    "context7": "ExLibris公司启动了开放平台计划，为本公司所有产品增加APIs，并向图书馆客户提供相应的开发文档。为了提高图书馆以自己的方式集成和运用各种业务的能力，Innovative Interfaces公司开发了Encore xQuery API(Encore查询接口)，可对Encore发现平台管理的所有内容提供程序化的搜索和检索。Encore Harvesting Services产品通过OAI-PMH (Open Archives Initiative Protocol for MetadataHarvesting，基于开放文献预研的元数据互操作协议）允许图书馆建立基于多仓储的统一搜索环境，为其提供便利的整合机构仓储、数字馆藏或其他Encore资源的方法。",
+    "context8": "2010年，专业ILS厂商采用分层网络服务为其产品添加了更多的开放性接口和扩展APIs，力争提供对数据和系统功能的编程式访问，以增强其产品的互操作性并允许图书馆抽取数据、自定义特征或创建新的功能。"
+  },
+  "1.4发现服务": {
+    "context1": "2008年虽然经济萧条，但图书馆自动化公司仍继续提升其研发和支持能力，开发新的图书馆自动化产品。发现服务产品开始成为自动化行业的一部分，主流产品见表2。",
+    "context2": "表2发现服务主流产品表",
+    "context3": "<table><tr><td rowspan=1 colspan=1>开发商名称</td><td rowspan=1 colspan=1>发现服务产品名称</td></tr><tr><td rowspan=1 colspan=1>Medialab Solutions</td><td rowspan=1 colspan=1>AquaBrowser</td></tr><tr><td rowspan=1 colspan=1>Innovative Interfaces</td><td rowspan=1 colspan=1>Encore</td></tr><tr><td rowspan=1 colspan=1>SirsiDynix</td><td rowspan=1 colspan=1>Enterprise</td></tr><tr><td rowspan=1 colspan=1>The Library Corporation</td><td rowspan=1 colspan=1>LS2 PAC</td></tr><tr><td rowspan=1 colspan=1>Ex Libris</td><td rowspan=1 colspan=1>Primo</td></tr><tr><td rowspan=1 colspan=1>VTLS</td><td rowspan=1 colspan=1>Visualizer</td></tr></table>",
+    "context4": "早期的发现服务产品将传统基于网页的在线编目转变为现代接口，提供按相关度排序检索结果、单独搜索框、面导航和除MARC(Machine-ReadableCataloging，机器可读目录）以外的其他资源。早期的发现接口通过联邦检索插件（federated search add-ins）访问数据库，这种方式执行速度慢而且检索结果不够准确，常常需要读者进行二次检索来挖掘目标内容。基于网络的新版发现服务产品可以在瞬间完成所需内容的搜索，并按相关度排序。",
+    "context5": "大多数的网络发现服务产品从不同的出版商和电子出版物提供商那里收割内容，生成庞大的中心索引(包括全文数据和引文数据)，用户可通过这些索引访问资源内容。Serials Solutions公司的Summon于2009年6月发布，是首个此类型的发现服务产品。ExLibris公司将文章内容的集中索引Primo Central集成至旗舰发现产品，并于2010年1月发布了测试版。",
+    "context6": "OCLC改进了WorldCatLocal发现服务，除涉及图书和杂志等传统内容的WorldCat.org外,OCLC还计划增加全文文献的资源量。",
+    "context7": "Innovative Interfaces公司改进了Encore发现服务产品，以处理各种形式的图书馆馆藏，包括文献资源。2010年1月，该公司发布了集成了Article Integration功能的Encore,对文献资源内容提供商进行网络服务，而非提前对内容进行收割和索引。同年，与终端用户界面和发现服务相关的产品在自动化市场上占据了很大比例。ExLibris公司的Primo Central和EB SCO Discovery Service、OCLC的WorldCatLocal和 Serials Solutions的 Summon Partner与文献出版商和内容提供商共同合作，获取全面的文献数据资源以期丰富各自的索引。然而，存在竞争的公司间会彼此限制或不向对方提供索引数据，阻碍了全面的综合性索引厂商的形成。尽管如此，建立更加综合的发现索引仍具有极大的动力。"
+  },
+  "1.5数字资源长期保存": {
+    "context1": "目前，图书馆拥有大量的数字馆藏资源，包括数字出版资源、电子文献、音视频资料等。数字资源保存正面临着三大挑战：数量增长速度快、生命周期缩短、格式变化快。2009年1月，ExLibris公司发布了Rosetta数字图书馆管理系统，为图书馆、档案馆等机构提供长期保存数字资源需要的基础设施和相关技术，为将来获取和理解这些保存内容提供保证，从而实现了数字集合的永久性利用。",
+    "context2": "Rosetta支持不同类型数字对象的采集、确认、接收、存储、管理、保存和发布，对于第一次被装载到保存系统的各类数字对象，要确认其有效性和来源，然后记录下该数字对象项目的标记时间、操作人和操作方式；这些数字资产的描述元数据还将被进一步充实，包括描述性元数据和技术性元数据。最后，数字资源将会被保存为长期可用的格式，之后还需不断对保存格式进行评估，以确保其持续的可用性。"
+  },
+  "2功能趋势": "",
+  "2.1电子资源管理备受关注": {
+    "context1": "从2006年开始，电子资源管理(Electronic ResourceManagement，简称ERM）逐渐引起图书馆界的关注，自动化厂商不断改进针对学术图书馆的自动化产品，协助管理和访问两种形式（订阅和本地自建）的电子资源。图书馆在电子资源上的投资正接近或超过在纸本资源上的花费，许多图书馆亟需与之适应的自动化工具。2008年，链接解析器和联邦检索平台已成为所有图书馆必不可少的工具。随着电子资源馆藏的增加，ERM系统逐步实现了图书馆内部业务自动化，如图书的采集、登记和购买等。"
+  },
+  "(1）链接解析器": {
+    "context1": "基于OpenURL的链接解析器已成为学术图书馆的标准工具。ExLibris公司继续引领市场，迄今为止已有1496个链接解析器的安装实例[1]。Serials Solutions ArticleLinker也成为解析器领域很受欢迎的产品，2006年销售量为183个[1]。Serials Solutions链接解析器的地位因与SirsiDynix合作提供",
+    "context2": "ArticleLinker而得到加强。备受欢迎的链接解析器还有ExLibris公司的 SFX、Serials Solution公司的36O、InnovativeInterfaces 公司的 WebBridgeo"
+  },
+  "(2）联邦检索产品": {
+    "context1": "当学术图书馆成为OpenURLlinking产品的主要客户时，其他类型的图书馆更需要联邦检索产品。ExLibris公司的MetaLib产品是为数不多的联邦检索产品之一。2006年6月,Ex Libris公司与Vivisimo合作将Velocity ClusteringEngine集成到MetaLib4，使MetaLib4可根据检索结果的概念自动对结果进行分组。",
+    "context2": "许多ILS公司提供的联邦检索产品都是基于MuseGlobal和WebFeat公司的技术。WebFeat直接向图书馆提供其联邦检索服务，或通过与ILS公司（如TLC、SirsiDynix和VTLS)、非ILS公司(如Serials Solutions和EBSCO）的合作关系提供服务。2006年，WebFeat发布其产品家族的新版本来扩大其影响力，超过5000家图书馆在使用其产品[1]，WebFeat成为联邦检索领域中的领导者。",
+    "context3": "2009年以后，联邦检索产品在图书馆自动化市场中仍占有一定的份额，但越来越多的作为发现平台的组件而不是独立的产品。例如，ExLibris公司使用MetaLib作为Primo的一部分，Innovative Interfaces 公司在Encore 中使用Reseach Pro。"
+  },
+  "(3）电子资源管理系统": {
+    "context1": "早在2007年以前，ERM产品已经非常成熟并且具有很好的销量。InnovativeInterfaces公司以201个安装实例和2006年签约的35个合同成为ERM销售量最大的公司。Serials Solutions公司以图书馆自动化产品最大的提供商自居，通过SaaS模式提供其服务，协助图书馆管理电子资源。"
+  },
+  "2.2知识管理脱颖而出": {
+    "context1": "专业图书馆在传统ILS系统功能的基础上,开始向知识管理领域进军。对于一些长期保持入藏纸质图书资源的机构，从纸本向电子资源的过渡成为其当前最重要的任务。",
+    "context2": "从事知识管理领域开发的公司包括EOSInternational、SydneyPLUS、Inmagic、CyberTools和Softlink等.CyberTools起初专注于医学图书馆的产品研发，近期将目标转向其他类型学术图书馆的ILS系统。SydneyPLUS发布了其专为医学图书馆设计的新的医学图书馆管理产品。"
+  },
+  "3服务模式": "",
+  "3.1SaaS模式": {
+    "context1": "SaaS之前被称作ASP(Application Service Provider,应用服务提供商)，是随着互联网技术的发展和应用软件的成熟，在21世纪开始兴起的一种完全创新的软件应用模式。在这种模式下，客户不再像采用传统模式那样大量投资于硬件、软件和人员，而只需支出一定的租赁服务费用，通过互联网便可以享受到相应的硬件、软件和维护服务，是网络应用最具效益的营运模式。",
+    "context2": "许多图书馆自动化产品通过SaaS模式提供服务，其安装在卖方硬件中的软件由卖方封装和维护，不需要图书馆安装和管理本地软硬件。图书馆只需花费少量成本，便可以从管理复杂的图书馆自动化系统中解放出来。",
+    "context3": "2010年，特色托管服务受到越来越多图书馆的青睐，除SaaS外，在基础设施上通过云服务进行交付成为新的托管服务方式，近几年上市的新产品几乎都被设计成SaaS模式。"
+  },
+  "3.2联合采购模式": {
+    "context1": "区域图书馆群的联合协调采购，能够在文献资源采购时进行合理配置，避免了单独图书馆的信息孤岛现象，强调图书馆之间的资源共建共享。在区域内，整合图书馆群文献、数字化资源信息，进行集中管理，能够最大程度地满足读者的要求，如我国北京邮电大学图书馆的现代电子化图书馆信息网络系统实现了国内各地区高校文献资源的联合采购。",
+    "context2": "联合图书馆自动化系统有以下几种采购方式： $\\textcircled{1}$ 联合采购：各分馆分别建立自己的订单，由中心采访部门统一管理，发订单订购； $\\textcircled{2}$ 独立采购：各分馆分别建立自己的订单，由各分馆自己发订单，独立完成采访过程； $\\textcircled{3}$ 中心采购：由中心馆建立总订单并完成采访，图书到馆后分发给各分馆。"
+  },
+  "3.3自助图书馆诞生": {
+    "context1": "2008年4月，全球首台24小时自助图书馆系统在我国深圳研制完成，并在深圳市街头投入使用。自助图书馆服务系统是以自动化控制技术、RFID（Radio FrequencyIdentification，无线身频识别）技术、网络通信技术和计算机技术为支撑，以集成化软件、图书馆资源为后盾，具备数字化、智能化和人性化的服务体系，包括自助办证、借书、还书、分拣、网上预借、取预约书、自助查询、补书和主动下架等核心功能；并有LED广告显示、视觉浏览窗口转换、查询机快速浏览等辅助功能；同时具备数字资源发布的能力，如电子报纸浏览、音视频点播、电子图书推送和滚动新闻发布等。",
+    "context2": "被称为“第三代图书馆”的24小时自助图书馆不仅实现了传统文献资源向社区的推送，也实现了图书馆数字资源向读者的推送，极大地满足了读者对知识的渴求。"
+  },
+  "4结语": {
+    "context1": "科技的进步永无止境，在信息技术不断发展的同时，国外自动化系统厂商紧跟时代步伐，引领科技浪潮，积极主动地将这些相关技术应用到其产品体系，为图书馆自动化系统创造出许多革命性的新功能和新方向。随着读者需求的不断增加，会有层出不穷的优质产品诞生。与国外先进的图书馆自动化系统相比，国内图书馆自动化系统的发展仍然任重道远[6]。 (下转第91页)",
+    "context2": "(3）各级教育部门应该从建设全民学习型社会的大局出发，认识高校向社会开放教育资源的意义，重视高校图书馆对社会开放工作，积极承担领导责任，指导高校图书馆转变观念。北京市教委明确表示，作为教育行政部门，将在今后的工作中更加积极地推进图书馆资源共享，促进高校图书馆面向社会开放，后动北京地区高校图书馆评估工作，设立北京市高校图书馆科研和优秀服务奖，并努力拓宽高校图书馆与社会的联系渠道[14]。",
+    "context3": "(4）宁波市数字图书馆社会化服务的经验值得推广[15]。2008年下半年以来，宁波市数字图书馆以跨系统的联席会议形式组织协调区域数字图书馆建设，并向市域范围内的企事业单位和城乡居民提供信息服务，取得了显著的成效。这一成效首先得益于跨若干个政府部门的领导小组的建立。领导小组由宁波市教育局、发改委、科技局、财政局、文广局等政府部门领导组成，由市教育局牵头，负责建设与服务项目的决策管理，统筹规划数字图书馆项目建设与服务，确定资金使用分配原则及其他重大事项。其次得益于公共财政支持。宁波市财政局拨出专项经费，明确目标任务和实施进程，激励成员单位按进度完成推广服务任务。",
+    "context4": "可见，要实现各系统图书馆资源共享、协同开展社会化服务，必须成立由政府主导的跨系统的区域图书馆联盟，由政府部门提供资金支持，对各类图书馆和信息机构实行统一领导与协调。只有政府主导、公共财政支持，才能使图书馆联盟具有权威性和资源调配能力，形成社会化服务的长效工作机制，进而取得良好的社会效益，实现可持续发展。"
+  },
+  "参考文献：": {
+    "context1": "[1]Private Equity Moves into the ILS,and Open Source Support Emerges [EB/OL].[2012-02-20].http://www.libraryjournal.com/lj/ ljinprintcurrentissue/850616-403/automation_sy stem_ marketplace_2007_an.html.csp.   \n[2] Asthe Industry Consolidates,Competition Heats up to Provide NextGeneration Catalogs,and Open Source Enters the Mainstream[EB/ OL].[2012-02-20].http://www.libraryjournal.com/lj/ ljinprintcurrentissue/860917-403/automation_ system_ marketplace_20o8_opportunity.html.csp.   \n[3] Pressing Onward in an Uncertain Economy,Many Industry Players are Adding Staff and Expanding Development[EB/OL].[2012-02- 20].http://www.libraryjournal.com/lj/ljinprintcurrentissue/854515- 403/story.csp.   \n[4] Discovery Interfaces Add a New Facet to the Marketplace[EB/OL]. [2012-02-2O].http://www.libraryjournal.com/lj/ljinprintcurrentissue/ 884375-403/automation_marketplace_2010_new_models.html.csp.   \n[5]The Batle Intensifies to WinHearts,Minds,and Tech Dollars[EB/OL].[2012- 02-20].http://www.libraryjournal.com/lj/home/889533-264/ automation_marketplace_2011_the_new.html.csp.   \n[6]迟燕.论国内图书馆自动化系统现状及趋势[J].经营管理者,2010 (7):107."
+  },
+  "[作者简介]": {
+    "context1": "王志庚男，1973年生，国家图书馆数字资源部（中文互联网信息资源保存保护中心）主任，副研究馆员，研究方向为学术出版与传播、数字出版与数字资源管理、图书馆自动化和信息服务，已出版专著2部，发表论文20篇。肖红女，1982年生，硕士，现工作于国家图书馆数字资源部，馆员，研究方向为数字资源服务与文献数字化，已发表论文7篇。",
+    "context2": "[收稿日期：2012-03-02]"
+  },
+  "(上接第87页)": ""
+}

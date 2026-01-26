@@ -1,0 +1,119 @@
+{
+  "original_filename": "full_3314.md",
+  "国外下一代图书馆自动化系统的实践与发展趋势研究": {
+    "context1": "包凌赵以安",
+    "context2": "【摘要】介绍下一代图书馆自动化系统产生的背景及其在国外的实践情况，主要包括AIma、Sierra、Kuali-OLE、WMS、Intota 和Open Skies等系统的研发现状、开发方式、部署方式、功能及其他特点，最后指出下一代图书馆自动化系统的发展趋势。"
+  },
+  "【关键词】下一代图书馆自动化系统图书馆服务平台统一资源管理系统": {
+    "context1": "Abstract:This article introduces the origin and the practice of the next generation integrated library system abroad，including the systems named Alma， Sierr，Kuali-OLE，WMS，Intota and Open Skies.Several aspects of these systems are analyzed: the development stages，the development and deployment methods，the functions and the characteristics of the systems，etc.Finally，this article discusses the trends of the next generation integrated library systems.",
+    "context2": "Key words: next generation ILSlibrary services platformsuniformed resources management systems"
+  },
+  "1背景": {
+    "context1": "之所以称新的图书馆自动化系统为“下一代”（next generation）系统，是因为他们的研发不单纯是传统系统的“进化”，而是一种“变革”。新一代的系统与时俱进地采用新技术，采用面向服务的体系框架（ServiceOriented－Architecture，简称SOA），对原系统进行重新设计，重构并统一了图书馆对各类资源管理的工作流程，以全球知识库代替分散的本地资源库，以软件即服务（Softwareasa Service，简称SaaS）或云计算方式进行系统部署，通过整套AP|接口，整合和扩展多种服务，最后经由前端系统为用户提供简单直观的搜索界面，引导其快速发现所需资源，下一代图书馆自动化系统将更好地适应图书馆的资源发展和服务进程。"
+  },
+  "2主要系统产品的实践情况": {
+    "context1": "目前国外系统开发商和图书馆界积极合作，已经或正在研发的新一代图书馆自动化系统产品主要有6款，分别是 $\\mathsf { E x }$ Libris 公司的 Alma、Innovative Interface 公司的 Sierra、开源计划 Kuali OLE、OCLC 的WorldShareManagement Services（简称WMS)、Serials Solutions 公司的 Intota 以及VTLS 公司的 Open Skies。"
+  },
+  "2.1研发情况": {
+    "context1": "（1）AIma",
+    "context2": "2009 年，波士顿大学（Boston University）、普林斯顿大学（Princeton University）等与 $\\mathsf { E x }$ Libris 公司合作，提出统一资源管理的理念。2011年1月公司对外宣布开始研发基于云的下一代图书馆自动化系统Alma，2012年初完成开发，2012年7月开始正式应用。波士顿大学、富特海斯州立大学（Fort Hays State University）和弗吉尼亚联邦大学（Virginia Commonwealth University）是最早的一批应用者。目前除合作伙伴外，Ex Libris 已经有来自55个机构的24份Alma合约。",
+    "context3": "（2） Sierra",
+    "context4": "Innovative Interface 公司2011年4月宣布研发新一代自动化系统 Sierra Services Platform，2011年末完成了第一阶段的研发和测试，并于2012年推出第一版产品。2012年初，Sierra进入第二阶段的研发，主要任务是开发基于互联网的流通功能、电子资源管理功能，以及支持第三方系统的API接口。目前已经有代表700个图书馆共",
+    "context5": "206个组织与公司签订合约，涉及1615个分馆，其中俄亥俄州维斯特市公共图书馆（Westervile Public Library)是第一家应用该系统的图书馆。",
+    "context6": "（3）Kuali- OLE",
+    "context7": "Kuali OLE项目的前身是开放图书馆环境项目（Open Library Environment Project，OLE），2009年7月OLE项目与Kuali基金下的“管理员社区源码软件（Administrator Community Source Software)”结合，更名为 Kuali-OLE项目，并由印地安那大学伯明顿分校（Indiana University－Bloomington）主导，17个图书馆参与，研发一款面向研究型图书馆的技术平台。该项目已于2011年11月推出0.3版本，2012年5月推出0.6版本，2013年春季将推出1.0版本。",
+    "context8": "（4）OCLC WMS",
+    "context9": "OCLC于2009年4月提出“图书馆管理服务“(WorldCat Management System）的概念，通过与32家图书馆合作研发，于2011年7月发布了通用版，即网络级的图书馆管理系统（Web-Scale Management Service）。2011年12月，OCLC将系统更名为全球共享管理服务（WorldShare Management Service，简称WMS），2012年初提供电子资源许可证服务功能（WorldShare License Manager）。目前，已有184家图书馆承诺将使用WMS。",
+    "context10": "（5）Intota",
+    "context11": "Serials Solutions公司于2011年中提出开发下一代图书馆自动化系统，并于2012年1月将系统命名为Intota，4月发布合作伙伴名单，7月开始测试系统。Intota系统第一阶段的开发重点是资源管理与采集，其次是资源流通及资产整合。2012年10月公司部署了第二阶段的开发任务。公司预计Intota将于2014年投入市场提供用户使用。",
+    "context12": "(6） Open Skies",
+    "context13": "VTLS公司开发的Open Skies是最新进入市场的一款图书馆自动化系统，VTLS公司称将在现有自动化系统Virtua 的基础上整合最新的技术，开发新的功能，并计划在2013年西雅图ALA仲冬会议上发布Open Skies。"
+  },
+  "2.2开发方式": {
+    "context1": "(1）重新打包（re-package)",
+    "context2": "Sierra 和Open Skies在不改变原有系统架构和主要功能的基础上，采用重新打包的方式，保留了原有自动化系统的基本功能，实现新功能的扩充，提高了系统开放度，并进行了系统优化。VTLS公司将原有的自动化系统Virtua、探索工具Chamo、数字图像处理和机构仓储系统Vital及一站式本地和远程资源传递解决方案Visualizer等产品进行整合，向用户提供一个完整的图书馆自动化解决方案Open Skies。新的 Sierra Services Platform系统，其功能主要取自原有的Milenium系统，同时采用新的技术对系统进行了改造。首先是使用开放接口，进行功能扩展；其次是采用统一路径，经单一客户端完成所有工作，这种工作方式不同于原Milenium系统，每个模块对应一种功能；三是 Sierra使用了开放资源组件，PostgreSQL进行资源存储与交换，Apache Lucene 用于检索。采用重新打包的方式推出的产品，系统部署用时短，用户培训成本低。但其缺陷是不能按照工作需求灵活配置工作流。",
+    "context3": "(2）再工程（re-engineering)",
+    "context4": "系统再工程是对现有软件系统调查后进行重新开发，其目的是重新审视现有系统以便进一步利用新技术进行系统改造。AIma、WMS和Intota采用再工程的开发方法，将系统构建在SOA系统框架之上，采用自下而上的设计方式，根据用户需求，把工作任务细分为基本的独立功能单元，然后把这些功能单元按照工作流程进行组合，形成若干“组件”，最后构建出可以任意组合、拆分，松耦合的系统。在这种方式下，图书馆可以根据具体的个性化服务流程和业务逻辑将信息资源或服务灵活组织起来，实现工作流程的自我配置，同时可以根据需要灵活调整或扩展新功能，而不是将固定的工作流强加给图书馆员。",
+    "context5": "(3）敏捷开发技术（agile development techniques)",
+    "context6": "敏捷开发技术是一种迭代的、循序渐进的开发方法。在敏捷开发中，一个大的软件项目被切分成多个互相联系并可独立运行的子项目，各子项目分别完成，通过测试后进行集成。在子项目分别完成过程中，软件一直处于可使用状态。敏捷开发技术适应了新一代图书馆自动化系统的开发需求，因为新一代图书馆自动化系统的概念提出后，无论是厂商还是图书馆对需求都不够明确，需要不断地摸索和实践，敏捷开发方式可以较快地帮助用户明确需求，同时强调不能将需求定义一次做到位，需通过不断的使用新产品，逐渐明确需求，然后逐步满足。最后，敏捷软件开发能够实现持续交付，即便在开发过程中，软件系统仍处于运行状态。特别是在多租户SaaS模式和云计算模式下，软件能够快速上线、缺陷能被快速修复，提高了人们对缺陷的容忍度，且成本大大降低。敏捷开发使软件的持续交付成为可能，通过这一技术，Sierra实现了2个月发布一次更新，WMS和Intota3个月发布一次更新，Alma4个月发布一次更新。"
+  },
+  "2.3统一工作流程": {
+    "context1": "以往图书馆工作状态是不同类型的资料对应着不同的管理平台，一方面，图书馆员采用传统ILS进行印本书刊的管理，完成采购、编目、典藏、流通等工作流程；另一方面又使用电子资源管理系统（E－ResOurceSManagement System，简称 ERMS)，完成电子资源的评估、选择、订购、访问权限控制、激活等工作，两类系统采用两种完全不同的工作流程。而新一代的图书馆自动化系统将对各类资源进行工作流程的重新定义、设计、分析、合并和重组，统一各种类型资源的管理流程。在采购环节，支持各种模式的资源选择与采购，特别是支持电子资源的用户驱动采购（Patron－Driven Acquisition，简称PDA）模式；资源描述环节，可在同一界面完成对各类型资源的数据加工和转入，支持多种数据格式；流通环节，直接提供全文链接、查看排架状态等；报表环节，完成可定制的成本管理报表、使用统计报表功能等。总而言之，是将各种类型资源的工作流程合为一体。下一代图书馆自动化系统所提出的统一工作流，能在提高资源管理效率上产生多大的效果目前还没办法进行评估，但是它为未来图书馆进行资源统一管理、统一工作流程提供了一种思路。"
+  },
+  "2.4部署方式": "",
+  "（1）软件即服务（SaaS）模式": {
+    "context1": "早期的 SaaS模式理念，只是纯粹将C/S工作模式下的客户端软件在线化，图书馆不需要安装任何软件或配置复杂的安装环境，将主机托管给系统服务商即可。Sierra和OLE使用这种模式，虽然减轻了图书馆在软硬件方面的工作，但它还不是“单一配置结构适合所有客户（Single Configuration for AllCustoms）”的“多承租人架构（Multi-tenant Architecture）”，仍需要服务商专门为图书馆搭建系统所需要的所有网络基础设施及软硬件运行平台，其本质并没有实现软硬件资源的最大化使用，在节约成本方面效果不佳，也不能解决系统多个版本、更新不及时等问题。Open Skies 则准备使用“单一配置结构适合所有客户的多承租人架构”SaaS模式。"
+  },
+  "（2）云计算模式": {
+    "context1": "WSM、Alma、Intota等系统的提供商把“单一配置结构适合所有客户”的 SaaS系统架构到云环境中，向图书馆提供按需配置的IT资源和服务，这样，图书馆之间可以分担成本、共享资源，并能以各种方式互相协作。以往系统迁移或升级换代，都需要投入大量的资源，耗时长、过程复杂，而基于云计算的系统，所有功能和服务的推出与变化都发生在云端服务器，可在短时间内完成系统部署（少则1个月，多则3个月），并可根据用户的需求快速做出回应，所有用户的系统更新和升级可一次完成，避免了版本不一致的问题，并且这些活动对图书馆而言几乎是透明的。同时，系统的订购模式也相应转变为年度订阅的方式。"
+  },
+  "（3）本地模式": {
+    "context1": "本地模式是在本地安装系统，进行全部纸本资源、数字资源的管理和使用，Open Skies、Sierra和OLE除了可以采用SaaS模式外，也可使用本地安装方式。表1详细列出了各系统的部署方式和部署用时。",
+    "context2": "表16大系统的部署方式及部署用时",
+    "context3": "<table><tr><td colspan=\"1\" rowspan=\"1\">产品名部署方式</td><td colspan=\"1\" rowspan=\"1\">Open Skies</td><td colspan=\"1\" rowspan=\"1\">Intota</td><td colspan=\"1\" rowspan=\"1\">Alma</td><td colspan=\"1\" rowspan=\"1\">WMS</td><td colspan=\"1\" rowspan=\"1\">Sierra</td><td colspan=\"1\" rowspan=\"1\">Kuali - OLE</td></tr><tr><td colspan=\"1\" rowspan=\"1\">多租户</td><td colspan=\"1\" rowspan=\"1\">是</td><td colspan=\"1\" rowspan=\"1\">是</td><td colspan=\"1\" rowspan=\"1\">是</td><td colspan=\"1\" rowspan=\"1\">是</td><td colspan=\"1\" rowspan=\"1\">非</td><td colspan=\"1\" rowspan=\"1\">非</td></tr><tr><td colspan=\"1\" rowspan=\"1\">SaaS/云计算</td><td colspan=\"1\" rowspan=\"1\">SaaS</td><td colspan=\"1\" rowspan=\"1\">云</td><td colspan=\"1\" rowspan=\"1\">云</td><td colspan=\"1\" rowspan=\"1\">云</td><td colspan=\"1\" rowspan=\"1\">SaaS</td><td colspan=\"1\" rowspan=\"1\">SaaS</td></tr><tr><td colspan=\"1\" rowspan=\"1\">可否本地安装</td><td colspan=\"1\" rowspan=\"1\">是</td><td colspan=\"1\" rowspan=\"1\">未知</td><td colspan=\"1\" rowspan=\"1\">否</td><td colspan=\"1\" rowspan=\"1\">否</td><td colspan=\"1\" rowspan=\"1\">是</td><td colspan=\"1\" rowspan=\"1\">是</td></tr><tr><td colspan=\"1\" rowspan=\"1\">是否有数据中心</td><td colspan=\"1\" rowspan=\"1\">无</td><td colspan=\"1\" rowspan=\"1\">未知</td><td colspan=\"1\" rowspan=\"1\">有</td><td colspan=\"1\" rowspan=\"1\">有</td><td colspan=\"1\" rowspan=\"1\">无</td><td colspan=\"1\" rowspan=\"1\">无</td></tr><tr><td colspan=\"1\" rowspan=\"1\">DaaS (共享数据服务)</td><td colspan=\"1\" rowspan=\"1\">无</td><td colspan=\"1\" rowspan=\"1\">计划</td><td colspan=\"1\" rowspan=\"1\">有</td><td colspan=\"1\" rowspan=\"1\">有</td><td colspan=\"1\" rowspan=\"1\">无</td><td colspan=\"1\" rowspan=\"1\">提供有限的服务</td></tr><tr><td colspan=\"1\" rowspan=\"1\">部署用时</td><td colspan=\"1\" rowspan=\"1\">未知</td><td colspan=\"1\" rowspan=\"1\">未知</td><td colspan=\"1\" rowspan=\"1\">取决于机构规模，最快3个月。</td><td colspan=\"1\" rowspan=\"1\">不超过1个月。</td><td colspan=\"1\" rowspan=\"1\">新用户需6~9个月，原Millenium用户需2周。</td><td colspan=\"1\" rowspan=\"1\">合作图书馆用时6～12个月。</td></tr></table>"
+  },
+  "2.5主要功能": {
+    "context1": "由于各系统所处的开发阶段和所使用的开发方式、部署方式不同，所以能够提供的功能存在较大差异。",
+    "context2": "Sierra 和Open Skies保留了原系统的主要功能，并进行了功能扩充。Sierra增加了电子书借阅、信用卡支付及移动服务（airpac）功能，提供了报表工具“reporter”和馆藏管理分析工具“Decision Center”。Open Skies增加了对多媒体和流媒体的支持，提供移动服务功能，增强了FRBR 功能，以及对 RDA的支持和基本关联数据支持。",
+    "context3": "lntota的研发起步较晚，目前能提供的功能有限。但Intota更加强调系统的整合能力，致力于为图书馆提供一个企业级的可定制的管理流程，以提高工作效率和效果。此外，Intota强调提高对多元数据的处理能力，以及馆藏评估与分析能力，方便图书馆员以较高的精确度了解用户需求，提供更加符合用户需求的资源和服务。",
+    "context4": "Alma和WMS较早提出开发计划，目前已经基本实现了原自动化系统的大部分功能，并不断地进行功能扩充。Alma系统目前能够提供手机访问、数字资源长期保存、馆藏分析与评估等新功能。WMS增加了流媒体、长期保存服务、电子书馆藏管理以及移动服务等功能，数据驱动的馆藏分析功能是特色之一。",
+    "context5": "Kuali-OLE采用开源社区的技术支持模式，目前仅完成第一阶段的研发，所提供的功能有限，流通、编目、预算处理以及电子资源管理等功能都尚在计划中，暂不提供。表2详细列出了各系统目前所能提供的各项功能。",
+    "context6": "表26大系统目前提供的主要功能",
+    "context7": "<table><tr><td rowspan=1 colspan=1>产品名功能</td><td rowspan=1 colspan=1>Sierra</td><td rowspan=1 colspan=1>Open Skies</td><td rowspan=1 colspan=1>Alma</td><td rowspan=1 colspan=1>WMS</td><td rowspan=1 colspan=1>Intota</td><td rowspan=1 colspan=1>Kuali - OLE</td></tr><tr><td rowspan=1 colspan=1>采选</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td></tr><tr><td rowspan=1 colspan=1>流通</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>资源描述、编目</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>资源发现</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>U</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>ERM</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>P</td></tr><tr><td rowspan=1 colspan=1>馆际互借ILL</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>U</td></tr><tr><td rowspan=1 colspan=1>分析</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N</td></tr><tr><td rowspan=1 colspan=1>报表</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td></tr><tr><td rowspan=1 colspan=1>知识库</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N</td></tr><tr><td rowspan=1 colspan=1>关联数据支持</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>L</td><td rowspan=1 colspan=1>L</td><td rowspan=1 colspan=1>L</td><td rowspan=1 colspan=1>U</td><td rowspan=1 colspan=1>N</td></tr><tr><td rowspan=1 colspan=1>移动服务</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>U</td><td rowspan=1 colspan=1>N</td></tr><tr><td rowspan=1 colspan=1>FRBR</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>L</td><td rowspan=1 colspan=1>L</td><td rowspan=1 colspan=1>P</td><td rowspan=1 colspan=1>N</td></tr><tr><td rowspan=1 colspan=1>长期保存</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>N</td></tr><tr><td rowspan=1 colspan=1>电子书</td><td rowspan=1 colspan=1>U</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>U</td><td rowspan=1 colspan=1>U</td></tr></table>",
+    "context8": "注释：Y：有或支持；N：没有或不支持；P：有规划；O：可选择；L：功能有限；U：未知。"
+  },
+  "2.6强调开放性": {
+    "context1": "提供开放存取、强化开放接口是下一代图书馆自动化系统的主要特点和趋势，也是当前系统研发工作的重点。",
+    "context2": "国外厂商已经意识到系统开放性的重要性，纷纷公开其API接口或函数，提供第三方使用，以增强系统功能，满足图书馆个性化需求，实现系统之间的相互整合。其中，Innovative 公司建立了一个开发者社区（DevelopersCommunity)，通过开发者沙盒技术（Developers Sandbox）开放APl。Kuali－OLE项目提供了 Kuali ServiceBus，为Kuali Rice软件提供重要参数，实现各种应用的整合。E× Libris 公司提供各种级别的OpenAPI（包括支持Widget的和支持APP 网络应用的)、Web Services、X Services等，并于2008 年提出了开放平台战略（OpenPlatform Strategy)，提供 EL Commons Code Share，支持和鼓励用户和第三方开发者扩展 E× Libris产品功能[。OCLC通过开放平台（WorldShare Platform），提供了有关采购、流通、馆藏管理等17项应用服务的 APl接口，同时，OCLC 通过App Galery集中了图书馆自己创建的应用程序。Intota 和Open Skies 也分别把加强系统开放性、开发各种开放接口作为研发的主要工作内容。"
+  },
+  "2.7支持相关的标准和规范[]": {
+    "context1": "系统对相关标准规范的支持将影响系统的运行效果以及系统间的互操作性和集成性。下一代图书馆自动化系统将重点强调能够支持包括电子资源著录、工作流程、电子资源交互与传递、使用统计、许可协议等在内的多种标准规范，表3详细列出各系统所支持的标准规范。",
+    "context2": "资源描述方面的标准规范有DC元数据、RDA和传统的MARC格式。",
+    "context3": "使用统计方面的标准规范有 COUNTER（Counting Online Usage of Networked Electronic）和 SUSHl(Standard Usage Statistics Harvesting Initiative)。COUNTER一般用以管理不同类型电子资源的使用数据，规范记录和交换这些数据的指标和途径，而 SUSHI是用于请求及接受来自出版商的基于COUNTER 格式的使用统计的协议，二者通常配套使用。",
+    "context4": "成本方面的标准规范有CORE（Cost of Resource Exchange），用于图书馆管理系统内资源成本及相关财务信息的管理和交换。",
+    "context5": "电子资源供应链方面的标准规范包括ONIXfor Serials系列标准，该标准是关于图书、连续出版物和其他出版物的×ML格式的元数据交换所采用的规范。",
+    "context6": "知识库方面的标准规范主要是 KBART（Knowledge Bases and Related Tools），它是 UKSG与 NISO 共同发布的提供链接解析器及知识库数据传输的最佳方案。",
+    "context7": "许可协议及条款方面的标准规范有ONIX PL（ONIX for Publication License）、ERMI认证条款、SERU（Sharede－Resources Understanding），这些标准规范有助于通过图书馆管理系统，挑选出与许可相关的字段展示许可协议信息，使电子资源的相关条款在系统的管理界面及用户的使用界面上一目了然。",
+    "context8": "表36大系统目前支持的标准规范[]",
+    "context9": "<table><tr><td rowspan=1 colspan=1>产品名</td><td rowspan=1 colspan=1>支持的标准</td></tr><tr><td rowspan=1 colspan=1>Alma</td><td rowspan=1 colspan=1>MARC，RDA；COUNTER，SUSHI； KBART；DLF ERMI，以后会支持 ONIX - PL。</td></tr><tr><td rowspan=1 colspan=1>Sierra Services Platform</td><td rowspan=1 colspan=1>MARC，RDA；COUNTER，SUSHI；NISO CORE；KBART；准备应用 DLF ERMI,以后会支持ONIX-PL。</td></tr><tr><td rowspan=1 colspan=1>Kuali - OLE</td><td rowspan=1 colspan=1>MARC，DC和 RDA；SUSHI，COUNTER；ONIX for Serials；KBART；将来会支持ONIX PL标准。</td></tr><tr><td rowspan=1 colspan=1>OCLC WorldShare ManagementServices</td><td rowspan=1 colspan=1>MARC，DC 和 RDA； COUNTER； KBART；支持 ONIX - PL。</td></tr><tr><td rowspan=1 colspan=1>Intota</td><td rowspan=1 colspan=1>XML，MARC，RDA； COUNTER，SUSHI； KBART；ONIX -P，ONIX - PL。</td></tr><tr><td rowspan=1 colspan=1>Open Skies</td><td rowspan=1 colspan=1>MARC，RDA；DLF ERMI；其他未知。</td></tr></table>"
+  },
+  "2.8基于统一的中心知识库": {
+    "context1": "中心知识库的建设是下一代图书馆自动化系统的核心。以中心知识库为核心的数据模块，可以支持数据复用、数据套录以及建立数据之间的层级递归和关联关系，从而支持多层面的导航服务和发现服务，对图书馆管理、利用已有资源和发现新资源具有积极意义。中心知识库的信息来源于各数据库商、出版商、代理商、图书馆的授权数据或其他途径的免费资源，涵盖了全球范围内绝大多数可获得的资源信息，并随着资源的变化保持动态更新。目前，Alma、Sierra、WSM、Intota 已经在原数字资源产品的基础上建成了各自的知识库，Kuali-OLE于2012年4月起与JISC 合作，建设全球开放知识库（Global Open Knowledgebase，GOKB)，知识库的内容将涵盖传统自动化系统知识库（ILS KB)、发现系统知识库（DisCOVery KB)、电子资源管理知识库（ERM KB）、订购代理知识库（Subscription Agent KB）等，Kuali-OLE系统将以统一的中心知识库为核心，实现统一的数据管理和整合服务。"
+  },
+  "3下一代图书馆自动化系统的发展趋势": "",
+  "3.1多种复合资源管理系统的高度集成": {
+    "context1": "在当前数字资源不断丰富的时代，越来越多的图书馆将数字资源的管理纳入自动化管理的范畴，但是数字资源与生俱来的特点，如异构性、分布性、资源描述的多样性等，使它的管理、揭示和使用要复杂得多。同时，原本用于管理、存储和使用数字资源的系统多样且分散，主要包括各种电子资源管理系统（如Verde、ERM和Serials Solutions360 Resource Manager）、数字资产管理系统（如 DigiTool、Content Pro、CONTENTdm、VITAL)、数字资源保存系统（如 Rosetta）、原文链接系统（如SFX、WebBrige LR、Serials Solutions 360 Link）、联邦检索产品及资源发现系统，以及存在于各机构内用于资源建设和管理的系统（如 Eprints、Ditital Commons、Dspace、Fedora、LibraryFind）等等。美国自动化系统专家Marshal Breeding[指出“当前，对来自不同系统、不同格式的多类型资源的揭示、集成和整合成为图书馆核心任务之一，这也是未来图书馆自动化系统要重点考虑的问题。”下一代图书馆自动化系统将实现这一目标，整合图书馆用于管理纸本、电子和数字资源的各种系统，实现资源的统一管理，并将功能扩展至保存、传播和服务，形成一套资源整体解决方案。以 $\\mathsf { E x }$ Libris 公司的Alma系统为例，它将完成原自动化系统Aleph、电子资源管理系统Verde、资源链接系统 SFX、跨库检索系统Metalib、数字资源管理系统Digitool、数字保存系统Rosetta的全部功能，并在系统前端利用资源发现系统Primo为用户提供发现和传递服务。"
+  },
+  "3.2支持新的资源描述标准RDA": {
+    "context1": "MARC格式是传统ILS采用的用于描述印本资源的标准格式。随着图书馆资源类型、格式、载体种类的增加，MARC格式已经无法有效处理。2010年6月以工具套件形式发布的新标准 RDA（Resources Description andAccess）提供了对各种数字资源进行著录和检索的详细指南，该标准充分重视用户查找、标识、选择、获取、验证以及参考引用等功能。RDA发布后，英、美、加、澳等国相继实施，OCLC也进行了大量的工作，研究如何把RDA实践到Worldcat中。自动化系统厂商纷纷开始研发并支持新的 RDA标准，在2012年ALA年会“RDA对集成图书馆系统的影响”分组会议上，Innovative Interfaces、Sirsi-Dynix、Ex Libris、SkyRiver等7家厂商分别对各自自动化系统产品应用RDA的现状和计划进行了交流。目前已有包括LC、OCLC和 Sirsi在内的5个机构使用了“链接并即时显示RDA条款”的服务功能。未来RDA将会成为图书馆自动化系统的标准配置。"
+  },
+  "3.3支持关联数据": {
+    "context1": "关联数据（LinkedData）是互联网发展到语义网时代、对网上资源进行编目和规范控制的基础技术，下一代图书馆自动化系统的另一趋势将是对关联数据的支持。关联数据的概念最早由Tim Berners－Lee提出，其本质是通过网络把以前没有关联的相关数据连接起来。W3C图书馆关联数据孵化小组已经收集了51个图书馆及相关领域关联数据应用系统的用例（usecase），这些用例从最初的关联数据发布\\浏览，到近期越来越多地转向应用研究，其中用例“关联数据与图书馆遗留系统”探讨了如何将关联数据示范应用系统迁移到图书馆自动化集成系统，使后者成为支持关联数据的新一代系统。该用例还指出，图书馆若想大规模地应用关联数据技术，需要依靠图书馆系统供应商做出相应的规划[。当前关联数据技术已经为系统供应商提供了统一的数据模型（RDF）、可扩展的数据整合和混搭平台、统一的存取API（RDF/SPARQL），为图书馆自动化系统支持关联数据应用提供了基础准备。支持关联数据的图书馆自动化系统将帮助图书馆进一步实现资源发现服务，实现数据融合与语义检索服务，实现跨机构的关联数据开放与复用，以及分布异构系统的关联访问。"
+  },
+  "3.4实现与多种前端资源发现系统的互操作": {
+    "context1": "在过去的几年里，资源发现系统作为图书馆面向用户的前端产品，发展迅速，据不完全统计，全球使用资源发现系统的图书馆已有4000多家，主要的系统产品包括OCLC的Worldcat Local、Ex Libris的Primo、SerialsSolution的 Summon、EBSCO的 EDS以及Synergy的 Encore等等。这些前端工具独立于自动化系统，通过开放接口和标准协议，实现对纸本和电子资源的统一检索，提供了优于传统OPAC的发现功能（如检索结果分面浏览、相关度排序等），并充分整合Web2.0应用（如书封、用户评论或标记、可视化导航、RSS订阅等），提升了用户的使用体验。下一代图书馆自动化系统将从职能上分化成前端资源发现系统和后端资源管理系统两部分，在结构上进一步减弱或解除这两部分的耦合，通过开放接口实现二者互操作，实现前后端不同产品的任意组合。"
+  },
+  "3.5图书馆自动化厂商与数据库商逐渐融合": {
+    "context1": "随着数字资源的不断增长，图书馆管理与服务也不断地扩展和延伸，传统的ILS产品或数据库产品很难全面满足图书馆不断变化的需求，图书馆自动化厂商和数据库供应商的界限日渐模糊，呈现相互融合的趋势。",
+    "context2": "一方面，资源提供商开始提供更多围绕数字资源的自动化产品。例如OCLC于2011年4月并购 BOND 公司后，购入了多个欧洲自动化系统产品，并将其应用到WMS中，预计 BOND 目前为4000 家图书馆提供的Bibliotheca系统将转向WMS系统。EBSCO已经为图书馆用户提供了一整套与自动化系统有关的技术产品，包括电子期刊管理系统 EJS、跨库检索系统、电子资源管理系统 ERM Essentials、馆藏管理系统CollectionManager等。ProQuest旗下的 Serials Solutions公司也推出了一整套数字资源管理方案，并提出开发统一资源管理系统 Intota。",
+    "context3": "另一方面，图书馆自动化厂商也迫切希望将数字资源的管理纳入其集成管理与服务的范围，以增强其市场竞争力。例如E× Libris 公司与内容提供商合作，获取大量的电子资源信息，建设庞大的数字资源知识库和元数据仓储，为图书馆提供电子资源管理、数字资源资产管理，以及基于PrimoCentral的元数据仓储服务。"
+  },
+  "3.6系统将逐渐迁移到云计算环境之上": {
+    "context1": "下一代图书馆自动化系统将尽可能把自己的核心能力定义为“云”的能力，逐渐将业务平台构架于云计算环境上。OCLC和 $\\mathsf { E x }$ Libris 公司等为图书馆提供的不再是一个简单的服务器托管场所，而是通过建设数据中心，为用户提供一个集大数据量运算和存储为一体的高性能计算机的集中地。Serials Solutions 公司也正在筹建这样的数据中心，Alma、WMS、Intota等系统已经占领云计算的制高点，开始掌控图书馆云服务的发展脉络，他们代表着下一代图书馆自动化系统的发展方向。",
+    "context2": "在云环境下，厂商为用户提供的基础设施及服务解除了图书馆系统运行的硬件成本和相关运行成本，有望为图书馆解决数字资源长期保存问题；系统商帮助用户进行相关信息的处理、存储、备份，而图书馆则集中主要精力投入到用户服务等核心业务上；云计算的运用为图书馆之间的合作提供了机会，可以实现图书馆之间的资源共享，由“云”统一调度和组织图书馆上传的数据，并在统一标准模式下进行互补链接和整合；图书馆一方面可以积极利用外界的云服务作为本馆的补充，另一方面也可以通过“云”提供各类软件应用服务；在应用方面，图书馆可以开展基于海量数据的用户行为分析和馆藏分析，以提高用户服务质量和馆藏质量。典型案例如 $\\mathsf { E x }$ Libris 公司的学术推荐服务（b×）及OCLC的馆藏分析服务。"
+  },
+  "3.7走向移动互联": {
+    "context1": "智能手机、平板电脑等移动设备快速普及，移动互联网以远超传统互联网的速度被大众接受。根据国际电信联盟（ITU）2012年6月公布的数据，截至2011年底，全球已有超过10亿的移动宽带使用者，移动互联已经深刻地影响着人们查询信息、分享信息和交流信息的方式。目前已有多个厂商开发出图书馆移动应用，如 SirsiDynix推出的BookMyne、Innovative Interface 公司推出的 Encore Mobile和 Air PAC、Auto- Graphics 公司推出的lli2Go、Librarything 公司推出的Library Anywhere 以及 $\\mathsf { E x }$ Libris公司的Primo手机访问等。当前图书馆的移动应用主要是馆藏和电子资源的查询和下载，个人信息查询及图书的预约续借（包括电子书)，也有部分实现了手机拍照、二维码识别、手机支付和短信通知功能。未来图书馆自动化系统将整合更多的移动服务，以不断更新的第三方应用和定位敏感技术帮助图书馆开展更为积极的“用户主导型”服务，提供基于移动互联的用户交互方式，如维基、博客、微博、点评和推荐；开展基于RFID、GPS等技术的移动用户位置敏感服务；采用数据挖掘技术分析用户信息行为，挖掘用户的兴趣点，开展动态推送服务，实现更加细致和个性化的服务。"
+  },
+  "3.8支持图书馆开放共享及用户参与": {
+    "context1": "开放、共享、合作是当前图书馆应对自身危机的有效途径，Web2.0的应用，如博客、标签、维基、RSS订阅等已经成为网络应用的主流，特别是社交网络已成为当前互联网服务发展的趋势。在这一背景下，用户参与的兴趣与愿望不断增强，用户驱动采访、用户参与资源编目或描述、用户生成内容（User-Generated Content，UGC）已经引起了图书馆的重视。OCLC、EBL、Ebrary、OverDrive、Intota等提供了基于用户驱动的采购方式，构建新的馆藏资源建设模式。OCLC将联合目录的参与者扩大到整个Web 用户，用户对书目添加的目次、注释与评论信息均被用于检索。Alma的Community Zone 也是一个开放型书目数据库，任何人都可以进行上传\\下载共享文件。下一代图书馆自动化系统将采用更加开放的方式，将面向用户的社会网络功能组件嵌入到图书馆自动化系统中，提供用户参与的图书馆资源建设与管理机制。这种把图书馆服务和资源融入到用户的社会网络中的方式，将对图书馆与用户互动的方式以及图书馆资源产生重大的影响，成为增强图书馆服务能力的核心基础设施的一部分。"
+  },
+  "4结语": {
+    "context1": "以Alma、WMS为代表的下一代图书馆自动化系统，为图书馆整合资源、改善工作、提高服务质量提供了有效的工具和平台，为用户使用和参与图书馆建设提供了极大的方便，同时为图书馆的技术进步提供了契机。但是由于下一代图书馆自动化系统目前尚处于早期开发应用阶段，因此还面临着许多技术方面的挑战，比如安全性、兼容性、标准化等。另外，当前主要的几款自动化系统产品，从开发方式、部署方式、开放性到功能特色、未来发展规划也不尽相同，到底哪个产品更符合未来图书馆发展的需要，更具可持续发展的潜力，还有待进一步验证。",
+    "context2": "关注国外新一代图书馆自动化系统的发展动态和发展趋势，有助于我国图书馆工作人员对现有系统进行重新审视。就目前的情况来看，无论是已经受业界认可的元数据仓储服务、Web2.0应用，还是未来需要进一步探索的关联数据、移动服务，图书馆都需要与系统厂商紧密联系，在能力范围内，积极地参与系统开发、主导系统发展方向，这样才能更快地推进我国图书馆新技术的变革，更好地适应当前新技术环境下的用户需求，提升图书馆的核心服务能力。"
+  },
+  "注释": {
+    "context1": "[1]MarshallBreeding.NewLibraryColections，NewTechnologies:NewWorkflows［J].ComputersInLibraries，2012（6)：23-25 [2]32Libraries Leadthe Wayto Web-scale Innovation—OCLCWeb-Scale Management ServicesonTargetforJuly1Genera",
+    "context2": "Release [EB/OL].[2013-1-9].http://www.oclc.org/us/en/news/releases/2011/201128.htm[3][21]李欣．图书馆自动化集成系统的新变化[J]．情报资料工作，2011（4)：61-63[4]Marshall Breeding.Tech Review and Forecast for 2013[J].Computers in Libraries，2012（10)：19-22[5]朱本军，聂华．下一代图书馆系统与服务研究[M]．北京：北京大学出版社，2012：34-36[6][13]Kristen Wilson.Introducingthe Next Generationof Library Management Systems.Serials Review，2012（2)：10-113[7]YongmingWang，TrevorADawes.TheNextGenerationIntegratedlibrarySystem:APromiseFufiledJ].InformationTechnologyand Libraries，2012(9)：76-84[8]CarlGrant’sBlog.ThoughtsfromCarlGrant．[EB/OL]．[2013-01-09].http://thoughts.care-afliates.com/2012/11/impressions-of -new-library-services_26. html[9]CarlGrantAnalysisofTheLibraryServices Patforms:LibraryServices Platforms[J].InformationStandards Quarterly，2012（4)[10]姜波．开放平台——图书馆集成系统发展的战略选择[J]．现代情报，2012（3)：79-82[11]OCLC WorldShare平台．[EB/OL].[2013-01-09].htp://www.oclc.org/asiapacific/zhcn/worldshare-platform[12]叶兰，李洪，粮丽萍．电子资源管理系统相关工作规范研究[J]．图书馆学刊，2012（4)：32-36[14]叶兰．电子资源管理系统实施与应用研究[J]．图书情报工作，2012（13)：89-94[15]MarshallBreeding.TheFutureof IntegratedLibrarySystems.[EB/OL]．[2013-01-20].http://ww.orbiscascade.org/council/c0601/breedig.ppt[16]HowWillRDAImpactYour System?：AForumof Vendors Discussing Implementation Plans.[EB/OL]．2013-01-09].http://ala12.scheduler.ala.org/node/1299[17]rdatoolkit linkingpartners.[EB/OL]．[2013-01-20].htp://www.rdatoolkit.org/linkingpartners[18]UseCaseLinkedDataandlegacylibraryaplications.EB/L]．2013-01-09].http:/www.3.og/00/Incubator/ld/wiki/Use_Case_Linked_Data_and_ legacy_library_applications[19]范炜．走向开放关联的图书馆数据[J]．图书情报知识，2012（3)：94-102[20]Breeding Marshall.Automation Marketplace 2012:Agents of Change [J].Library Journal （6)：30-42[22]李书宁，王涛．图书馆自动化系统发展热点与趋势研究[J]．图书与情报，2011（6)：66-75"
+  }
+}

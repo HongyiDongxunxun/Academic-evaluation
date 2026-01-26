@@ -1,0 +1,61 @@
+{
+  "original_filename": "full_332.md",
+  "C2C电子商务中卖方信誉评价研究述评": {
+    "context1": "吴克文赵宇翔朱庆华南京大学信息管理系南京 210093",
+    "context2": "[摘要]通过回顾C2C电子商务中卖方信誉评价机制的应用和研究现状，重点就如下几个方面对该领域的相关研究进行总结和评述，包括卖方信誉评价研究动因、现有卖方信誉评价机制及其不足，卖方信誉评价系统的实证分析和卖方信誉评价系统的改进研究。研究认为，指标体系、用户的信誉认知和欺诈用户识别有望在未来研究中进一步展开。",
+    "context3": "[关键词]C2C电子商务信誉评价信誉反馈 [分类号]F713",
+    "context4": "Review on Evaluation of Seller’sReputation in C2C OnlineMarket",
+    "context5": "Wu Kewen Zhao Yuxiang Zhu Qinghua",
+    "context6": "Deparment of InfomationManagement Nanjing Universitys Nanjing 200093 [Abstract]Byreviewingtheapplicationandresearch statusoftheselefsreputation evalationmechanism in C2Conlinemarkethis paperanalyzes and summarizes relevantresearchn te fllwing aspectsevaluationindexesexistingreputation evauationmechanim andits shortagempiricalanalysisofselefsreputationandthe improvementfor teevalationsystem.Thestudysuggests thathe $\\mathrm { e ^ { - } }$ valuation idexestheusefscognitionofreputationandhedetectionoffrauduserareexpectedtobefurterdiscussedinfuturere search",
+    "context7": "[K eywords] C2Celectronic commerceevaluation of reputationreputation feedback",
+    "context8": "C2C电子商务作为电子商务中的新兴模式，近年来发展迅速。在中国，2008年C2C网上零售交易额达到1121亿元,较 2007年增长 $1 3 9 . ~ 5 \\% ^ { [ 1 ] }$ 。但在这惊人的交易额和增长速度背后，C2C却也日渐成为网络交易欺骗的主要来源，严重影响用户对网上交易的信任。C2C网站中的商户信誉作为直接影响C2C用户购物的因素，近年来得到了学术界的普遍关注。"
+  },
+  "1卖方信誉评价研究的动因": {
+    "context1": "C2C电子商务交易火爆的原因之一就是商户的进入成本较低，并且市场机会大，使得C2C平台成为网络欺诈的温床。以美国为例，IC3（IntemetCrmeCom-plaint Center)发表的 2OO9 Intemet Crime Report显示,在 2009年的投诉案件有 336 655件，被判定为欺诈的有 146 663件，总损失额高达 55 970万美元[2]。",
+    "context2": "欺诈的成因是由于双方沟通的编码与解码当中的误差干扰，而欺诈行为是指意图蒙骗或隐藏事实来产生利益，这些利益并不是在一般市场交易中所认可的利益来源[3]。可见，信息的不对称是欺骗得以形成的主要原因。Akerloff早在1970年就描述了信息不对称如何导致市场失灵，并认为除非卖方能够提供准确可信的产品质量信号，否则买方只愿意支付该商品在市场平均水平上的价格，从而导致高品质商品的卖方不愿意以低价格销售商品，造成“劣币驱逐良币\"的柠檬市场（Lemon Market)[4]。",
+    "context3": "在线交易尤其容易受到信息不对称问题的困扰，因为在线交易的买方无法实际看见在售商品，而卖方对于待售商品相较买方掌握绝对优势的信息[4],买方只有从卖方处得到关于该在售商品的一切信息。因此,如果卖家有意歪曲商品的描述信息，买家很容易信以为真，这显著提升了欺诈的风险。",
+    "context4": "在线交易中，信息不对称现象不仅存在于在售商品本身，也存在于交易过程中，如交易的地点、方式和品质,因此，在交易的各个环节都可能出现欺诈行为，典型的卖方欺诈行为见表1。",
+    "context5": "信誉机制被普遍认为是降低信息不对称程度的手段。诸多前期研究成果已经表明,在C2C市场下信誉的高低会正向影响卖方拍卖商品价格的高低，或是其销售状况的好坏[12-14]。也有许多案例指出,卖方在实施欺诈行为时会试图操纵自己的信誉记录[7],或者先靠销售小额物品建立起良好信用，然后再销售大额商品并实施欺诈[15]。就算欺诈失败,卖方也可以很轻易地另外建立一个账户，从而改变自己的身份，尽管有Emai地址验证，但是也很容易通过免费电子邮箱网站重新申请[7,15]。因此，研究卖方信誉评价机制对于遏制在线交易欺诈行为，提供买方真实准确的信息，维护在线交易可信性和安全性具有重要作用。",
+    "context6": "表1典型的卖方欺诈行为及相关文献",
+    "context7": "<table><tr><td rowspan=1 colspan=1>欺骗类型</td><td rowspan=1 colspan=1>描述</td><td rowspan=1 colspan=1>相关文献</td></tr><tr><td rowspan=1 colspan=1>诱标</td><td rowspan=1 colspan=1>卖方使用虚假账户或者利用共谋者的账户对在拍商品下标以增加商品目前的标金</td><td rowspan=1 colspan=1>[5]</td></tr><tr><td rowspan=1 colspan=1>不实描述</td><td rowspan=1 colspan=1>卖方在描述待卖商品时故意填写不正确的商品描述信息，达到欺骗买方的目的。</td><td rowspan=1 colspan=1>[6],[7],[8]</td></tr><tr><td rowspan=1 colspan=1>额外索取</td><td rowspan=1 colspan=1>卖方在拍卖之后故意加入额外的手续费用</td><td rowspan=1 colspan=1>[9]</td></tr><tr><td rowspan=1 colspan=1>运送失败</td><td rowspan=1 colspan=1>卖方在收到货款之后不送出商品</td><td rowspan=1 colspan=1>[6].[7].[8]</td></tr><tr><td rowspan=1 colspan=1>水货、假货、销赃</td><td rowspan=1 colspan=1>卖方销售水货商品、假冒伪劣商品和非法所得物品</td><td rowspan=1 colspan=1>[10]</td></tr><tr><td rowspan=1 colspan=1>空壳交易</td><td rowspan=1 colspan=1>卖方设立虚假的标的，目的是为了获取买方的基本资料和卡号</td><td rowspan=1 colspan=1>[11]</td></tr></table>"
+  },
+  "2目前C2C平台的卖方信誉评价机制": {
+    "context1": "为了降低网络欺诈的风险，使C2C交易更加安全健康,各种C2C平台都推出了各种保障机制，如消费者保障、商盟、第三方支付、黑名单和信誉评价机制等。消费者保障是一种基于制度的信任，指的是C2C平台推出的旨在保障网络交易中消费者合法权益的服务机制[16],如淘宝的“先行赔付”“假一赔三”“7天无理由退换\"等。商盟是基于集体声誉的信任，商盟有严格的入盟程序和规章制度，经过C2C平台审查通过之后成立，并有商盟标记，以向消费者承诺不会有欺骗行为[1],如淘宝的区域商盟“徽商商盟”。第三方支付从流程上降低了网络欺诈的风险，在可信第三方未收到货款之前，卖方不会交付商品，在买方收货满意前，不会通知第三方划转货款至卖方，目前几乎所有的C2C平台都要求交易使用第三方支付。黑名单由C2C平台的专门机构负责鉴定，黑名单成员通常是不守信商家或是恶意拍卖的买家，各个C2C平台都会公布具体判断标准，用户一旦被列入黑名单，将会被公示、封号等处理,淘宝、百度有啊等平台均定期公布黑名单。",
+    "context2": "在上述各种保障机制中，信誉评价是存在时间最长，使用最广泛的方式之一，也是争议最多的评价方式之一。信誉评价机制也称信誉反馈机制（reputationfeedbackmechanism),交易双方使用C2C平台的信用反馈系统对交易满意程度进行打分，满意则加分，不满意则扣分，其总分代表所有有过交易历史的用户对该卖(买)家信用、服务质量等方面的评价，一般来说总分越高代表该卖 (买)家信誉越好，在网络交易这种信息不对称的环境下，信用评分成为潜在交易用户衡量对方的主要手段。",
+    "context3": "但是，现行的信用评价标准仍然存在许多不足，典型的缺陷如： $\\textcircled{1}$ 评价缺乏激励机制。评价的缺失直接导致信誉系统的可靠性和可用性的降低，Miller等据此提出用金钱奖励的激励机制[1]。 $\\textcircled{2}$ 评价正向偏移。在线交易只有 $0 . 6 \\%$ 的买家给出的评价是负面的[8],会导致信誉值持续膨胀，并且越来越不能体现真实信誉情况。 $\\textcircled{3}$ 虚假评价。为了达到信誉抵毁等不正常目的，评价方作出与事实不相符的评价。王俊程等认为可以利用社会网络分析SNA的方法检测虚假评价的账号[18]。 $\\textcircled{4}$ 身份变换。过低的声誉值会导致卖方放弃现有信誉资料而转换身份。Zacharia等认为当只有正面评价机制存在时，卖方将无法依靠身边份变换改善信誉[9]。 $\\textcircled{5}$ 信息含量不高。简单的加减1分无法区分是商品本身的质量问题还是服务传递过程的问题。",
+    "context4": "值得庆幸的是，C2C平台运营商已经注意到了现行信用评价标注中的不足，并采用了一系列措施进行补救，如表2所示：",
+    "context5": "表2C2C平台初期评价规则与后期改善措施",
+    "context6": "<table><tr><td rowspan=1 colspan=1>初期规则</td><td rowspan=1 colspan=1>漏洞缺陷</td><td rowspan=1 colspan=1>C2C平台应对措施</td></tr><tr><td rowspan=9 colspan=1>好评加1分，中评零分，差评扣1分</td><td rowspan=1 colspan=1>随意注册虚假账户刷好评</td><td rowspan=1 colspan=1>只有实名认证的买方的评价才计数</td></tr><tr><td rowspan=1 colspan=1>虚拟商品快速累积刷好评</td><td rowspan=1 colspan=1>商户注册时限定经营范围;信用展示时区别显示虚拟商品和实物商品的评价</td></tr><tr><td rowspan=1 colspan=1>加减均为1分无法区分大小额交易</td><td rowspan=1 colspan=1>按照交易价格区分加减分数目</td></tr><tr><td rowspan=1 colspan=1>买卖双方就多个商品多次交易</td><td rowspan=1 colspan=1>同一买卖方自然月内重复评价最多记+/-6分</td></tr><tr><td rowspan=1 colspan=1>买卖双方就同一商品多次交易</td><td rowspan=1 colspan=1>14天内买卖双方就同一商品重复交易只计+/-1分</td></tr><tr><td rowspan=1 colspan=1>评价无法区分是商品本身的质量和交易过程质量</td><td rowspan=1 colspan=1>增加“宝贝与描述相符”“卖家的服务态度”“卖家发货的速度&quot;等附属评价项</td></tr><tr><td rowspan=1 colspan=1>评价过后出现的问题无法反映</td><td rowspan=1 colspan=1>允许更改评价(有条件限制);增加“购买后评论&quot;附属评价项</td></tr><tr><td rowspan=1 colspan=1>评价总分无法反映用户购买和销售两个方向的信誉</td><td rowspan=1 colspan=1>将购买和销售两个方向分开计数</td></tr><tr><td rowspan=1 colspan=1>评价“冷启动&quot;问题</td><td rowspan=1 colspan=1>用“好(差)评率&quot;反映评分次数和总评分的关系</td></tr></table>"
+  },
+  "3卖方信誉评价系统的实证研究": {
+    "context1": "经济学、市场营销、信息系统等领域已经对信誉评价系统的功能和影响进行了广泛研究，并且都是针对卖方信誉。Resnick等指出，一个好的信誉评价系统必须满足三个基本条件： $\\textcircled{1}$ 为买方提供信息以区分诚信和不诚信的卖方; $\\textcircled{2}$ 激励卖方成为诚信卖家; $\\textcircled{3}$ 惩罚不诚信卖家的行为[19]。尤其在信息不对称的环境下，后两个条件要求信誉反馈系统必须阻止卖方的道德风险和逆向选择行为。Dholaka在总结前人观点后也认为，信誉反馈系统的评分具有至少两个作用： $\\textcircled{1}$ 区分作用，可以帮助买家认识到不同卖家之间的不同并做出选择； $\\textcircled{2}$ 预测作用，历史交易过程中得到的信誉评分是判断未来交易是否成功的依据[20]。",
+    "context2": "学术界对卖方信誉评价研究后普遍认为其会促进C2C在线交易，并且在收藏品、电子产品和玩具等多类别商品上进行了验证，其中部分研究结论如表3所示所示：",
+    "context3": "表3卖方信誉评价的实证研究结论",
+    "context4": "<table><tr><td rowspan=1 colspan=1>文献</td><td rowspan=1 colspan=1>研究对象</td><td rowspan=1 colspan=1>结论</td></tr><tr><td rowspan=1 colspan=1>[6]</td><td rowspan=1 colspan=1>CD, Modem, DV</td><td rowspan=1 colspan=1>卖家信誉每多1%，买方愿意多支付0.36%</td></tr><tr><td rowspan=1 colspan=1>[12]</td><td rowspan=1 colspan=1>所有类型</td><td rowspan=1 colspan=1>卖方信誉度影响拍卖成交价格，但程度有限，此外还影响拍卖成功率</td></tr><tr><td rowspan=1 colspan=1>[13]</td><td rowspan=1 colspan=1>网游点卡</td><td rowspan=1 colspan=1>卖方信誉度正面影响每天销售量，但有临界点，卖方信用度低于临界点时，买家不关注卖家的信用度;高过临界点,信誉度的增加不会增加买家从其手中购买商品的数量</td></tr><tr><td rowspan=1 colspan=1>[21]</td><td rowspan=1 colspan=1>运动卡片</td><td rowspan=1 colspan=1>正面信誉值提升交易成功率</td></tr><tr><td rowspan=1 colspan=1>[22]</td><td rowspan=1 colspan=1>高尔夫球杆</td><td rowspan=1 colspan=1>具有1～25条正面评价的卖家的商品较无评价历史的商家的商品溢价 21美元。具有675条正面评价的卖家更可以溢价 46美元。头11条好评增加 14%收到竞标概率</td></tr></table>",
+    "context5": "但同时，也有不少学者提出相异的观点。例如Wan等研究发现，在某些情况下，信誉评价值的增加会引起销售收入的降低[23]。Jin则发现差评与成交价格之间没有显著的负相关关系[21]。",
+    "context6": "Snijders等认为，出现这种结论不一致的原因主要有4个方面： $\\textcircled{1}$ 拍卖商品的价格水平、种类、新旧程度和复杂程度的不同可能会影响到信用评价与拍卖结果之间的关系。例如商品的价格不同，给买家带来的风险感知不同。 $\\textcircled{2}$ 信用评价的自变量的计算方法(如是否取对数)的不同也会引起研究结果的不同。 $\\textcircled{3}$ 付款方式、运费等其他因素的不同也会影响研究结果。 $\\textcircled{4}$ 统计方法的不同也会影响研究结果[14]。刘跃文等进一步对现有文献进行荟萃分析后认为，信誉评价系统对网上拍卖有显著对用，好评对拍卖结果有普遍的正面影响，中评没有显著的正面或负面影响，而差评有显著的负面影响。交易的其他因素，包括起拍价格、指导价格、商品信息纰漏程度等因素也会对拍卖结果有显著影响[24]"
+  },
+  "4卖方信誉评价的改进研究": {
+    "context1": "由于现行的信誉评价系统具有很多缺陷，已经有学者尝试对信誉评价系统进行改进,改进策略主要有信誉计算方式的改进和信誉评价指标的改进。",
+    "context2": "计算机领域对于信誉计算的研究较为广泛和成熟，涉及电子商务、P2P等多领域。较为著名的是Josang基于贝叶斯理论提出的Beta信誉评价系统，该方法基于统计原理,使用Beta概率密度分布函数去计算信誉反馈，并利用指数削减增加最近交易评价的权重[25],符合人的记忆削减的特性，该计算模型受到了后继研究的广泛采用。其他的计算模型，如基于信任链的PageRank算法，考虑了信誉的传递问题;基于模糊逻辑（Fuzzy Logic)的计算模型，考虑了信誉的个体尺度和社会尺度，可以计算个体的局部信誉。",
+    "context3": "在信誉评价指标的改进方面，Dholakia综合了历史交易记录,将交易密度、平均购买价格、竞标密度等指标引入信誉评价，以增强信誉评价的效果[20]。鲁耀斌等列出了目前计算信誉值的两种模型：累加信任模型和均值信任模型[26]。杨震提出了基于协同过滤的信誉评价模型，该模型的优点是引入了交易价值、短期信誉、时间权重等因素，丰富了现有评价模型的指标，通过仿真后发现，当交易平台内部存在共谋稳定性欺诈用户或共谋波动性欺诈用户时，协同过滤的评价模型能更好发挥作用，反之，基于评分的用户信誉度评价模型更能发挥作用[27]。但是该模型尚没有对其他信誉欺诈情况(如先小额交易累计，然后从事大宗交易）进行分析。张海燕等人引入了商品表现、服务表现、配送表现、安全表现等 4个一级指标 11个二级指标，利用层次分析法(AHP)进行专家打分确定每个指标权重,力图使信用评价综合反映交易质量[28]。郭洪海等在 Sporas模型的基础上增加了交易量、交易次数、惩罚因子等因素，提出了改进的信誉计算模型，并对信誉诋毁和信誉共谋这两种信誉造假行为进行仿真，得到了较好效果[29]。江文钰等引入了多维信誉评分体系，能够根据用户的不同偏好动态调整各维信誉的权重，解决了传统信誉评价系统中不考虑交易者兴趣偏好的缺陷[30]。陈鑫铭等人将银行信贷使用的信誉引入在线信誉评价体系中[31],虽然更为准确严谨,但是可行性不高，因为在线交易平台不能也无法获取用户的隐私数据，包括收入、婚姻状况、工作年限等情况。"
+  },
+  "5结语": {
+    "context1": "泛在环境是一种普遍的、无所不在的、全面的数字环境，能够为用户、信息、设备提供交互功能完备的信息共享空间。泛在环境下知识的传播与利用方式发生了根本性的改变，更加强调用户的参与和人机互动，充分体现了“以用户为中心\"的核心理念。技术环境与服务理念的转变，使得泛在环境下信息资源的组织呈现出了新的特点，也为用户之间协作性关系的建立提供了动态而丰富的环境。在该环境下，用户间通过协作行为可以对信息资源进行重组，提高资源的价值。本文从三个方面分析了泛在环境下基于用户协作的信息组织机理，并探索性地设计了泛在环境下基于用户间协作的信息组织模式。希望通过这些研究，能够对提高泛在环境下的信息检索效率和服务质量起到一定的启示作用。"
+  },
+  "参考文献：": {
+    "context1": "[1]聂延波·环境感知泛在网络·华为技术，2006(5).59－61   \n[2] Chatham M A.Know ledge lost in infomation Report of the NSFW orkshop on Research Directions for Digital Libraries 2OO3,15—17.   \n[3]张文秀，朱庆华·泛在网络下的信息服务·新世纪图书馆，2008 (3).23-26.   \n[4] Norris D M. A revolution in knowledge sharing [2OO9—12—O8].ht tp://www educause edu/ir/library/pdf/ERMO35Q pdf# search $= \\%$ $2 2 \\mathbf { A } ^ { \\mathcal { V } _ { 0 } } 2 0 \\mathbf { R e v o l u t i o n } \\% 2 0 \\mathbf { i n } \\% 2 0 \\mathbf { K n o w l e d g e } \\% 2 0 \\mathbf { S h a r i n g } \\% 2 2$   \n[5]Regazzi J The battle form indshar, A battle beyond access and re\" trieval $[ 2 0 0 9 - 1 2 - 1 0 ]$ ．http://www.nfaisorg/publicaitons/mc _lecture_2004.hml",
+    "context2": "[6]胡昌平·信息服务与用户研究·武汉：武汉大学出版社，2008151",
+    "context3": "[7]燕辉·信息反馈意识及其在信息服务系统中的应用·图书馆学研究，2003(7):73-75.  \n[8]Iskold A. The art science and business of recomm endation engines[2009—12—16].htp://www·readw riteweb com/arch ives/recom-m endation_ engines php",
+    "context4": "[作者简介]王娜，女，1979年生，讲师，博士，发表论文16篇,参编著作3部。"
+  },
+  "（上接第44页）": {
+    "context1": "[23] Prahalad C K,HamelG.The core campetence of the coiporation·",
+    "context2": "Harvard Business Review,1990(5/6)：79-91.",
+    "context3": "[24]Laperche B.\"Know ledge capital\" and innovation in global coipora\" tionsIn temational Joumal of Technology and G lobalisation，2007, 3(1):24-41.",
+    "context4": "[25] Petrash G.Dow’s joumey to a know ledge value management culture European Management Joumal 1996,l4(4)：365-373.",
+    "context5": "[26] Nahapiet J Ghoshal S Social capital intellectual capital and the organ izational advan tage Academy of Mnagement Review，1998, 23(2):242-258.   \n[27] Pu tnam R.The prospeious commun ity:Social capability and pub lic life American Prospect 1993,4(13):35-42.   \n[28] Coleman JFoundations of social theory Cambridge, Belknap Press ofHarvard University Press 1990.",
+    "context6": "[作者简介]晏双生，男，1967年生，副教授，博士，发表论文近 30篇；李亚光，男，1980年生，讲师，博士研究生，发表论文10余篇。",
+    "context7": "（上接第139页）  \n[26]鲁耀斌，周涛·电子商务信任·武汉：华中科技大学出版社，2007.217—218.  \n[27]杨震·网络拍卖信誉反馈系统的优化研究[学位论文].济南：中国海洋大学，2009.  \n[28]张海燕，杨鹏起·卖方网上交易信用等级评价研究·河北科技大学学报(社会科学版），2008(3)：32-35.  \n[29]郭洪海，姜锦虎，蔡涵·C2C电子社区成员信誉值的计算模型研究·管理学报，2009(8).1056—1060.  \n[30]江文钰，糜仲春·电子商务信誉管理系统的多维评分模型·管理学报，2007(3):302—305.  \n[31]陈鑫铭，冯艳·C2C电子商务信用评估体系研究·图书情报工作，2009,53(7)：134—137."
+  }
+}

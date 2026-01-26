@@ -1,0 +1,150 @@
+{
+  "original_filename": "full_4488.md",
+  "基于引文的科学文献定量评价：引文影响力指标评述": {
+    "context1": "Citation-based Quantitative Evaluationson Scientific Publications:A Literature Review on Citation-based Impact Indicators",
+    "context2": "步一 许家伟黄文彬(北京大学信息管理系，北京，100871)",
+    "context3": "[摘要][目的/意义]基于引文的科学文献定量评价是图书情报学和科研管理领域的重要研究内容。然而目前存在的诸多引文影响力评估指标，其提出背景、应用范围、优势与局限等问题并未被清晰梳理，有必要对国内外引文影响力指标进行评述。[研究设计/方法]主要使用文献调研法，先阐释引文影响力指标的理论基础与实践基础，再从基本引文影响力指标、基于计数的指标和基于网络的指标三方面评述已有的引文影响力指标。[结论/发现]已有指标有诸多理论与实践基础，且主要基于计数或网络进行计算，其中基于网络的指标正在向测度科学文献的创新性方向演进。然而，目前的相关研究存在缺乏指标评估、忽视指标计算的复杂度与数据可获取性、使用数据较为局限等问题。[创新/价值]本文认为，基于引文的科学文献定量评价需要向精确性、易计算性和指标的可解释性等方面努力。",
+    "context4": "[关键词]学术影响力被引量文献计量学科学计量学科研评价综述 [中图分类号]G250[文献标识码]A[文章编号]1003-2797(2021)06-0047-13 DOI:10.13366/j.dik.2021.06.047 引用本文：步一,许家伟,黄文彬．基于引文的科学文献定量评价：引文影响力指标评述[J].图书情报知识,2021,38 (6):47-59,46.（BuYi,XuJiawei，Huang Wenbin.Citation-basedQuantitativeEvaluationson ScientificPublications：ALiterature Reviewon Citation-based Impact Indicators[J].Documentation,Information& Knowledge,2021,38(6):47-59,46.)",
+    "context5": "[Abstract][Purpose/Significance]Citation-based quantitative evaluations on scientific publicationsare significant research Contents in thefieldsof ibraryand information science aswellasscientific research management.Previous studieshave proposed manycitation-based impact indicators，butthereis no clearilustrationoftheir backgrounds，applicable scope，advantagesandlimitations.Soit isnecessrytoreviewtheexisting citation-based impact indicatorsboth in Chinaand abroad. [Design/Methodology]Throughliteratureresearchmethod,thispaper explainedthe theoreticalandpracticalfoundationsof citation-based impactindicators.Then itmadecommentsontheexisting citation-basedimpact indicators fromthreeaspects， whichare basic citation-based impact indicators，count-based indicators，and network-based indicators.[Findings/Conclusion]Therearealotof theoreticalandpracticalfoundationsforexisting indicators，whichareeithercount-basedornetworkbased.Network-based indicatorsareevolving into the innovative directionof scientificliterature measurement.However， thereareseveral problemsexisting incurrent studies，including lackof indicator evaluation，neglectof computational complexityanddata acceibility，andlimitations of theused datasets.Originality/Value]Future citation-basedquantitative evaluationson scientific publications need improvement in accuracy，computability，and interpretabilityof indicators. [Keywords]Academic impact； Citations；Bibliometrics； Scientometrics； Scientific research evaluation；Review"
+  },
+  "1引言": {
+    "context1": "评价学术论文、科研人员和研究机构的学术影响力是图书情报学和科研管理等领域的重要研究内容[1]。学术影响力的评价往往依赖于定性和定量手段的结合。其中：定性手段主要指专家和同行评审[2]，目前的研究从评审实践[3]、政策制定[4]和理论支撑[5等角度展开；定量手段是依据一定的科学计量指标进行数值化评价。通过定量的指标对定性的评审进行补充是当前的重要评价策略。因此，设计科学、精确、多维度的指标对于评价学术影响力具有重要意义。",
+    "context2": "自上个世纪六七十年代起，文献计量学中通过科学文献的引文（Citation）来量化其学术影响力的方法逐渐开始流行，目前在科研评价中已占据主导地位[6-8]。使用这种方法产生的指标被称为科学引文影响力指标（Citation Impact Indicators 或 Citation-based Impact Indicators）[9]。最基本的科学引文影响力指标当属原始被引量（Raw Citation Count，也称为绝对被引量），即直接对某科学计量实体（如一篇学术论文、一位科研人员、一所研究机构、一个国家和地区等，下同）在一段时间内获得的被引数量进行简单相加求和。原始被引量计算简单、直接，便于理解，但已有理论和实证研究显示其存在诸多问题[10-12]。为此，一些用于改进原始被引量的指标被相继提出，如对原始被引量进行不同角度的归一化[13]、使用全文本引文分析的方法[14]等。除了这些计数类的引文影响力指标外，科学计量学家还提出了多种基于引文网络（CitationNetworks）的指标，如PageRank[15-16]、特征因子（Eigen Factor）[17]等。从基于计数的指标到基于网络的指标的演化过程是科学计量学发展的一次里程碑。",
+    "context3": "本文将对目前已有的引文影响力指标进行评述。在第二部分，本文将从四个不同的角度分别阐释其理论基础，接着在第三部分探讨相关的实践基础。随后，在第四部分，本文将从基本引文影响力指标、基于计数的指标和基于网络的指标三方面评述已有的引文影响力指标。最后在第五部分针对现有研究进行了反思，在第六部分进行了未来展望。"
+  },
+  "2理论基础": {
+    "context1": "尽管引用这一行为在学术界已存在了几个世纪，人们使用引用关系来进行信息资源评价却始于上世纪20年代。然而，近百年来，以分析引用关系为核心的引文分析具有强烈的实践导向性，因此长久以来一直鲜有学者探索相关的理论。20 世纪七八十年代，国外图书馆学家和情报学家在国际主流期刊上呼吁，本学科需要探索系统化的引文理论（Theoriesof Citations）。比如，伊利诺伊大学的情报学家Smith于1981年指出，目前人们对于引用行为还知之甚少，而系统化的引文理论可以帮助人们更好地理解引文行为及其影响因素[18]。几乎同时，印第安纳大学科学计量学家、普赖斯奖获得者Cronin从信息检索的角度呼吁引文理论的相关探索[19]。1998年，国际信息计量学的重要阵地Scientometrics 期刊用一整期来讨论是否需要引文理论、需要什么样的理论。其中最为重要的一篇经典论文由荷兰情报学家、普赖斯奖获得者Leydesdorff撰文[20]。该文区分了多个重要的概念，如引文可同时作为解释项（Explanans，即用于解释其他事物的概念，也被称为“解释子”）和被解释项（Explanandum），等等。",
+    "context2": "目前引文理论可分为四个流派，包括规范性理论流派（NormativeTheory）、社会建构主义理论流派（Social Constructivism Theory）、符号学理论流派（SemiologicalTheory）和引文动机理论流派（Cita-tionMotivesTheory）。这些不同的流派为引文影响力指标的创制提供了重要的理论基础。"
+  },
+  "2.1规范性理论流派": {
+    "context1": "规范性流派认为，科学系统具有一定的规范性，这一规范性由系统内部的“奖励”（Internal Rewards）和约束（Sanctions）机制所维持[21]。规范性流派明确指出，引用行为本质上是一个信息传递的过程，在这个过程中，被引用的作者得到了引用，也得到了相应的认可和“奖励”。比如，Smith指出，引文分析的潜在假设就是，文章（或作者、期刊）被引反映出其有用性和影响力[18]。因此，在规范性理论流派看来，引用行为建立在科学行为准则之下，是对已有科学行为准则的“重申”（Reaffirmation）[22]。",
+    "context2": "![](images/42738d45d4f0333cf5de6f155631270b48ede625b5bb83a53e8e20c31a6b7615.jpg)",
+    "context3": "科学社会学家Merton提出了四种“科学精神的基本规范”（Basic Norms for the Ethos of Science，科学社会学领域也常译为“科学精神气质的基本规范”），包括公有性（Communism）、普遍性（Universalism）、无私性（Disinterestedness）和怀疑主义（OrganizedSkepticism）[23]，这一规范准则被简写为CUDOS准则①。CUDOS准则对于引用关系和引用行为有着一定的理论指导意义。比如，根据普遍性的要求，在引用过程中，施引者不应当考虑待选被引者的国籍、种族和个人特性，而应当仅根据非个人因素（Imper-sonalFactors）进行选择。而无私性则要求施引者在施引过程中不掺杂任何学术以外的成分[24]。",
+    "context4": "不过，一些从实证角度验证规范性流派的研究却对规范性流派理论本身提出了一些挑战[25-29]。比如，MacRoberts等人[27]随机选择了15篇遗传学史领域的文献，经过人工归纳，发现要想满足规范性理论的要求，这些文献本应该引用719 篇高度相关的文献。然而，实际上这15篇文献只包括了216 篇参考文献。这一实证研究表明，实际的引用行为可能和规范性理论所认为的情境相差甚远。因此，规范性理论是否符合现实情况仍存疑。"
+  },
+  "2.2社会建构主义理论流派": {
+    "context1": "社会建构主义理论流派认为，施引者通过引用这一行为来试图说服他人并使他人对自己的说法信服[30-33]。“成功”的施引者往往可以“有技巧地”（Skillfully）说服他人，并且让他人感受不到客观事实和施引者自述内容的差别[33]。在引文理论的社会建构主义流派，主要存在两种假设一一“通过一定的说法‘变更’引用来说服他人”（Persuasion by Distortion）和“通过引用名人以引起读者的注意”（Persua-sion byNameDropping）。前者表明，施引者往往会对实际引用内容的说法稍作细微变更，使其符合自己的施引目的[32]；后者则表明，施引者对于名人的引用可能超过了应该引用名人的比例，这在某种程度上是为了和名人“绑定”从而显得自己更为“可信”（Credible）[32]。",
+    "context2": "然而，不少图书情报学家都对上述理论持怀疑甚至批评的态度[34-36]。比如，Zuckerman 使用 1975-1979年《科学引文索引》收录的文献，发现在全部的引用关系中，只有 $6 . 3 \\%$ 的被引关系指向了被引10次及以上的文献[36]。换句话说，被引10次及以上文献的被引用比例在全部引用关系中不足一成。这与上段“通过引用名人以引起读者的注意”的理论假设不符。然而，一项使用1900-2016 年Web of Science 数据库收录的全部文献及其引用关系的探索性研究则显示，这一比例高达 $9 1 . 4 \\%$ ；即使将被引阈值由10 次提高为 50 次，这一比例也高达 $5 7 . 6 \\% ^ { [ 3 7 ] }$ 。这在一定程度上又支持了社会建构主义理论流派的内容。两项实证研究结果的相异性可能是由于数据的收录范围[38]和引文的“通货膨胀”[39-40]（例如1950 年被引10次和2020 年同样被引10次的“价值”“效能”或“影响力”是不同的）等因素导致的。"
+  },
+  "2.3符号学理论流派": {
+    "context1": "美国图书情报学家SmalI提出的“开拓者理论”（PioneeringTheory）属于符号学理论流派中较早的一种理论[41]。开拓者理论将高被引科学文献视作一种“概念符号”（Concept Symbol）。以开拓者理论为典型的符号学理论流派不关注人们为什么施引，而着重观察引文如何反映科学的发展[42]。",
+    "context2": "荷兰情报学家、科学计量学家Wouters则对符号学理论流派做出了巨大的推动和发展[43-45]。Wouters特别从符号学的角度厘清“引文”（Citations）和“参考文献”（References）两个概念。Wouters 认为，参考文献完全是由施引文献的语境（上下文）和其指向的被引文献语境（上下文）定义的；从符号学的角度看，参考文献本质上是“以被引文本为参照物的表征系统的基本单位”[21,43]。相对应地，引文是参考文献的镜像。引文指向被引文献的语境；通过引用关系，引文成为被引文献的属性。因此，从符号学的角度看，施引文献的语境本质上是引文的参照物[21,43]。在Wouters 的理论中，引文是无量纲（Dimensionless）的，其本身并无意义；它实际的含义往往依赖于引文分析的操作人员[21,45]。然而，符号学理论学派过于强调引文和参考文献的区别，忽视了施引者本身的引用动机。"
+  },
+  "2.4引文动机理论流派": {
+    "context1": "自上世纪60年代起，有一批图书馆学家和情报学家开始从施引者的引文动机的角度理解引用行为[46,47]。例如，Garfield通过分析引用位置，总结出15 种引用动机，如提供背景知识、批评他人的工作[48]等。Brooks又从其他角度总结出7种引用动机，如负面引用、说服式引用、警示读者等[26]。近年来，Wang等人将此问题进一步扩展，总结出5种影响引用行为的因素：研究话题相关因素[49]（与规范性理论流派相统一）、科学文献的可获取性[50]、期刊/作者的声望[51]、社会因素（如文化背景[52]、意识形态[53]等）、施引者的个人因素[54-56]（如研究观点、引用偏好和习惯等[57]）。",
+    "context2": "以上研究大多从引用内容和位置等角度进行探索。尽管引文动机十分复杂，但对引文进行人工分析并不能真正准确分析引文动机[58]。为此，已有研究从定性和定量两个角度进行深入剖析。在定性方面，情报学家使用问卷、访谈等方式询问科学文献的原作者，了解他们在写论文时的动机[59]；定量角度，研究人员使用回归等模型，从被引文献角度进行建模分析[60]。",
+    "context3": "不过，Cronin在其专著中强调，我们对于引用行为的理解和解释能力仍然很低[61]。因此，未来仍然需要进一步针对引用行为和引文理论的积极探索。"
+  },
+  "3实践基础": {
+    "context1": "引文影响力指标的实践基础主要包括对于被引量分布的探索。这些工作主要由统计物理领域中以复杂网络与系统（Complex Networks and Systems）为背景的学者完成的。我们知道，被引量服从长尾分布，也即少量文献占有大部分引文。然而，在更为精确地分析被引量分布时，物理学家们产生了分歧。一部分物理学家发现，在双对数坐标系下，被引量的分布往往趋向于一条倾斜向下的直线[62]，这说明被引量服从幂律分布（Power-law Distribution）[63]。在幂律分布中，指数 $\\propto$ 的值很重要，因为它具有一定的物理学意义[64]。比如，物理学家 Clauset等人发现 $\\propto$ 的值介于2.50 和3.16 之间[6]，也有一些基于不同数据集的实证研究得到该值在3和4之间[63,65]。对于被引量服从幂律分布的现象，物理学家使用“偏好连接性”（PreferentialAttachment）作为可能的机制来解释这一现象[66]。这一机制认为，对于一个新的节点（如一篇待施引的新论文）来说，它连接到引文网络中已有节点（即引用已有论文）的概率与节点的度数（即论文当前的被引次数）成正比。",
+    "context2": "还有一部分物理学家表示，被引量并不是服从幂律分布，而是服从对数正态分布（Log-normal Distribu-tion）[62]。实证研究显示，被引量在对数正态分布中的指数σ（即标准差）介于1.0到1.2之间[67-69]。目前，两个学派的物理学家仍未达成共识。",
+    "context3": "以上对于分布的探讨均属于静态方面的探索。在时序动态的角度，Wang等人提出了包含偏好连接性、文献老化和拟合程度（Fitness）的模型，该模型可以较为准确地预测长期被引量[70]。此外，还有一些实证研究探索了零被引[71]、被引生命周期[72-73]等问题，这些问题对于科研政策和科学评价等都有一定的启示意义。"
+  },
+  "4引文影响力指标评述": {
+    "context1": "基于上述理论（本文第二部分）和实践（本文第三部分）基础，下文将开始综述已有的引文影响力评估指标。首先，在4.1部分，本文先讨论几个基本引文影响力指标。在4.2和第4.3部分，本文将分别讨论基于计数和基于网络的指标。"
+  },
+  "4.1基本引文影响力指标": {
+    "context1": "Waltman在2016 年的综述[9]中总结出五种引文影响力指标，称其为“基本引文影响力指标”（BasicCitation ImpactIndicators）。之所以“基本”，是因为许多引文影响力指标都是由这些基本指标演化和发展而来的。这五个基本引文影响力指标是总被引量、篇均被引量、高被引论文数量、高被引论文所占比例和h指数（h-index）。由于计算简便，总被引量经常被应用于学者、机构和国家等层面的科研评价；然而，这一指标没有对发文数量进行标准化，即发文多的学者、机构、国家更可能拥有更多的总被引量。",
+    "context2": "某一科学计量实体的篇均被引量等于其总被引量除以发文量。比如，期刊影响因子（Journal ImpactFactor）就是篇均被引量的变体之一。其优点是它同时考虑了被引量和发文量两个维度的信息，但缺点是使用平均值作为分母在统计学上并不完全合理，这是因为被引量不服从正态分布[65.74-75]，而平均值对于非正态分布的变量不具有代表性。值得注意的是，近年来有多项研究明确指出，使用期刊影响因子来衡量单篇论文的影响力不具有效力[7]。",
+    "context3": "为了解决平均值作为分母带来的问题，科学计量学界还提出了高被引论文数量和高被引论文所占比例这两个指标。比如，谷歌学术搜索（GoogleScholar）采用的i10指数就分属此类。该指标等于某一科学计量实体拥有的大于或等于10 次被引的学术论文数量。此外，代表作制度在某种程度上也借鉴了这两个指标的思想。不过，如何定义高被引论文，特别是在不同学科、不同领域如何定义高被引论文仍然没有一个通行的策略。",
+    "context4": "h指数是美国物理学家Hirsch在2005年提出的[7]。h指数同时考虑了科学计量实体的发文量和被引量两个维度，一经提出就被广为采用。h指数有诸多优点，如易于计算[78]、较为客观[79]、鲁棒性较强[8]等；但其缺点也较为明显，如不易进行跨学科比较[7]、同一实体的h指数只增不减[1]等。为此，科学计量学家对h指数进行了一系列的讨论（如进行学科标准化[82]、考虑自引[83]）和改进（如g指数[84-85]、h型指数[86-87]等）。",
+    "context5": "以上的五个基本引文影响力指标可以根据其是否随发文量增加而增加分为两类，称为尺度依赖型指标（Size-dependent Indicators）和尺度独立型指标（Size-independent Indicators）。其中，总被引量、高被引论文总量和h指数均属于尺度依赖型指标，而篇均被引量和高被引论文所占比例则属于尺度独立型指标。在某些科研评价的情景下，人们更倾向于使用尺度独立型指标[7.88]。不过，需要指出的是，目前国际科学计量学界还没有一种定量的、精确定义尺度依赖型和尺度独立型指标的方法，大多数还停留在使用肉眼观察变量散点图的方法进行粗略分析的层面。这些内容都值得未来研究人员进一步探索。"
+  },
+  "4.2基于计数的指标": {
+    "context1": "不少科学计量相关文献已经指出，基本引文影响力指标很难直接用于不同学科（如数学和生物医学论文）、不同年份（如上世纪40年代的论文和2020年的论文）和不同类型论文（如普通研究论文和综述论文）之间的比较。为此，科学计量学家提出了许多方式对基本引文影响力指标进行标准化，从而允许上述比较。根据标准化方法的不同，本文将这些指标分为基于平均值标准化、基于高被引文献标准化和基于其他方式标准化三类。需要指出的是，本部分展示的均为计数指标（Count-based Indicators）。"
+  },
+  "4.2.1基于平均值标准化的计数指标": {
+    "context1": "在讨论作者、期刊、国家等层面的指标前，本文先讨论科学文献层面的指标。简而言之，针对科学文献基于平均值标准化的指标就等于其原始被引量除以其被引量的“期望”（Expectations）。这一“期望”的计算往往根据不同的研究情景而略有不同。比如，在比较不同学科的论文时，“期望”可以操作化为论文所在学科的平均被引量[89]。在比较不同年份的论文时，“期望”则可以操作化为论文发表当年的全部论文到某一时刻为止的平均被引量[9]。之所以将这类方法划归为基于平均值标准化的计数指标，是因为这些“期望”是以平均值为基础计算的。从本文对这一类方法的描述上可以看出，这类方法的计算经常依赖于已有的学科分类系统。目前常用的学科分类系统主要有Web of Science[37]、Scopus[90]、莱顿分类系统[91]和鲁汶-布达佩斯分类系统[92]等。然而，使用这些分类系统并不能很好地处理综合性期刊（如Nature、Science、PNAS、PLoSOne等），因为这些期刊并不能被归为某一个学科中；Rons[93]随后对这一问题进行了深入探讨。",
+    "context2": "而对于作者、期刊、国家等层面计量实体的评价，则是以科学文献层面的标准化为基础的。总体来看，作者、期刊、国家等层面的指标有两类计算方式。以下为了简便，我们以作者为例进行阐述：",
+    "context3": "方法1：对于某作者的全部科学文献，用上述方式计算每篇文献标准化后的被引量，然后将这些值求平均，这个平均值作为该作者的标准化被引量。",
+    "context4": "方法2：首先计算得到某作者的总被引量（记为a），然后设法获得同类型（如同学科、同年份等）作者总被引量的平均值（记为b），用a与b相除得到的商值作为该作者、期刊、国家的标准化被引量。",
+    "context5": "从上可以看出，方法1的本质是“先标准化后聚合”，方法2的本质则是“先聚合后标准化”。1995年，荷兰莱顿大学（Leiden University）的科学技术研究中心（Center for Science and Technology Studies,CWTS）提出的Crown 指数[94]属于上述的方法2。这一指标的计算包含一个分数值。其中，分子等于某科学计量实体的平均被引次数，分母等于同年度、同领域内的期刊、同类型的科学文献的平均被引次数。",
+    "context6": "科学计量学有很多论文针对方法1和方法2的优劣展开探讨。例如，Lundberg[95]、Opthof 和Leydesdorf[96]、Van Raan等人[97]使用了不同的数据集和不同层面的文献计量实体，从实证研究的角度认为方法1优于方法2，但Lariviére和Gingras[98]则认为两者差别并不显著。不过，这些实证角度的探索往往缺乏结果稳定性[99-10]。",
+    "context7": "基于平均值标准化的计数指标是否在统计学上正确还有待进一步讨论。比如，多项研究显示，被引量这一指标是高度偏态分布的[74.101]，意即大多数论文的被引次数非常有限，只有少数论文高被引。因此，使用平均被引量作为分母进行标准化这一策略也许不能代表全部论文的总体被引形态[5]。",
+    "context8": "与此同时，在计算方法2的分母时，需要获得同年度、同领域内的期刊、同类型的科学文献的平均被引次数。这对于数据集的要求较高，因此此种方法可能难以广泛推广。"
+  },
+  "4.2.2基于高被引文献标准化的计数指标": {
+    "context1": "基于平均值标准化方法的问题衍生了其他类型的标准化方法。基于高被引文献进行标准化就是一种重要的衍生策略，也即使用高被引文献的被引次数作为分母对某一科学计量实体的总被引次数进行标准化[51,102]。对于如何遴选高被引文献，科学计量学家提出了三类方法：",
+    "context2": "方法1：将全部文献分成若干组，使得每组文献的总被引量大致相同[103]，然后选择排名最靠前的一组作为高被引文献。",
+    "context3": "方法2：人工指定被引量阈值，将文献按照被引量进行分组[51,104-105]。例如：Lu等人将被引量排名前 $1 \\%$ 的文献定义为高被引文献[89]；Aversa[106]认为，被引量为30次及以上的为高被引文献；Ak-snes[107]在其研究中将高被引文献定义为获得领域论文平均被引量的17倍及以上的论文；等等。这类方法在定义阈值上显得较为主观。",
+    "context4": "方法3：首先绘制被引次数这一变量的概率密度分布图，然后选取曲线“弯折”的点作为高被引文献的最低阈值[101]。这一方法本质上考察了被引次数分布与幂律分布之间的差异。"
+  },
+  "4.2.3基于其他方式标准化的计数指标": {
+    "context1": "除了基于平均值和高被引文献进行标准化的方法之外，还有根据其他规则进行标准化的引文影响力指标。比如，Abramo 等人在基于平均值标准化的方法之上，剔除了全部的零被引论文，并发现这一策略优于不剔除零被引论文的平均值标准化法[108-109]。此外，其他的标准化做法还考虑了领域论文被引量的标准差[110-11]、施引文献的参考文献数量[112-114]和全文本相关特征[14.15-119]等要素。"
+  },
+  "4.3基于网络的指标": {
+    "context1": "在4.2部分提到的所有指标都是计数类指标，意即没有考虑引文网络的结构信息。本部分综述考虑引文网络结构信息的引文影响力指标。",
+    "context2": "根据Yan 和Ding的归纳[120]，对于引文网络特征的描述可以分为三个层面：宏观、中观和微观。宏观层面特征主要描述整个网络[121]，如网络直径、平均距离、度分布等；中观层面特征主要描述网络的聚类特征，如各种聚类技术及其结果；微观层面特征主要描述节点层面的特征，如节点的中心度值等。已有基于网络的引文影响力指标主要包含了上述三个层面中的微观层面。"
+  },
+  "4.3.1早期探索": {
+    "context1": "从计数到网络指标的演进并非一蹴而就。科学计量学界对此的尝试是逐步开展、由浅入深的。最初，科学计量学家开始对某文献的不同引文进行区分[12-125]。例如，Ding 和 Cronin 考察某文献的多个施引文献是高被引还是非高被引，这相当于考虑了以某文献为中心的两层引文网络（在Min等人的研究[126]中也称为“引文级联”［Citation Cascade]）。一次高被引论文施加的引用应当比一次低被引论文施加的引用拥有更大的权重。不过，限于计算复杂度，这些早期的尝试只考虑了两层引文网络，并没有将更大范围的引文网络纳入考量。此外，Leydesdorf 则进行了另外一类早期的探索[127-128]。他将文献的经过标准化处理的中介中心性（Betweenness Centrality）作为期刊引文影响力的指标之一，并发现这一指标在小型引文网络视域下还可以很好地度量期刊的跨学科性（Interdisciplinarity）[127]。然而，这些尝试还只是静态地定义引文影响力，未能描绘引文影响力的动态变化。",
+    "context2": "![](images/eb32f5aec8a94ac505077ddbf7abd31b30ee93d80ea7fe57c7a5bbf7b74a6704.jpg)"
+  },
+  "4.3.2PageRank 相关的递归型指标": {
+    "context1": "受到谷歌 PageRank 算法[129]的启发，科学计量学界将这种递归计算的方式引入了引文影响力评估的领域。在这类算法下，一篇文献的引文影响力和引文网络中其他每一篇文献的引文影响力都有所关联[15-16]。与此同时，改进的 PageRank 引文影响力评估指标也层出不穷[130-131]，如考虑发文年份[132]和文献的研究话题[13-135]、调整计算参数[136-137]、使用不同标准化手段[138]等。",
+    "context2": "除了PageRank 算法本身，科学计量学家还研制出多种相似的指标[139-143]。比如，Bergstrom[17]开发出的特征因子可用于度量期刊的引文影响力大小。在计算时首先随机选取一篇文献，然后依据期刊引文网络游走到文献的施引文献所在期刊，以此类推。这样的方式使得高影响力期刊能够有更大的概率被经过。某期刊被经过的概率被定义为该期刊的特征因子。此外，还有欧洲学者经常使用的 SCImago 期刊排名指标[144]。",
+    "context3": "不过，需要指出的是，PageRank及其相关的递归性指标往往具有较高的计算复杂度。因此大多数研究人员可能很难复现评估过程。"
+  },
+  "4.3.3引文影响力指标的新里程碑：科学文献的创新性测度": {
+    "context1": "近十年内，一些学者在引文影响力评估指标领域开始探索科学文献的创新性测度，即如何使用引文关系度量一篇科学文献有多创新。比如，Uzzi提出，一篇科学文献的创新程度可以由其引用的参考文献来决定；具体地，如果一篇文献同时引用了两篇从未被共同引用过的参考文献，那么这篇文献更“创新”[145]。换句话说，“不典型地结合”（AtypicalCombination）两篇已有的参考文献被认为是创新的重要指征。Uzzi的研究打开了使用引文关系测度文献创新性的先河。",
+    "context2": "Funk 和 Owen-Smith[146]提出了一种度量专利颠覆性（Disruptiveness）的指标，这一指标后来被Wu等人用于评价科学文献的颠覆性程度；学术文献的颠覆性在很大程度上补充、改进了其引文影响力指标。对于某一学术文献 $\\pmb { \\times }$ ，这一指标首先定义了三种不同的学术文献：类i表示只引用 $\\pmb { \\times }$ 且不引用 $\\pmb { \\times }$ 的参考文献的学术文献，类j表示既引用 $\\pmb { \\times }$ 又引用 $\\pmb { \\times }$ 的参考文献的学术文献，类 $\\mathsf { k }$ 则表示（发表晚于 $\\pmb { \\times }$ )未引用 $\\pmb { \\times }$ 但引用了 $\\pmb { \\times }$ 的参考文献的学术文献。该颠覆性指标 $D = \\frac { n _ { i } - n _ { j } } { n _ { i } + n _ { j } + n _ { k } }$ ，其中 $n _ { i } \\setminus n _ { j }$ 、 $n _ { k }$ 分别表示类i、j $\\mathsf { k }$ 的文献数量。类似地，Mohapatra等人[147]也只考虑了局部引文网络，定义了某文献引文网络的“宽度”和“深度”，并认为当“宽度”和“深度”相当时，该文献的引文影响力最大。不过这一假设还有待理论和实践层面的进一步验证和探讨。Bu等人定义了一个多维度的引文影响力评估框架[37,148]，这一框架使用了一篇科学文献自我中心式引文网络（Ego-centered Citation Networks）[149]，并定义了数个指标衡量引文影响力的水平（Level）、深度/广度（Depth/Breadth）和依赖性/独立性（Depend-ence/Independence）。",
+    "context3": "需要特别指出和强调的是，在4.3.2部分综述的PageRank相关指标均为考虑全局的指标，意即在计算过程中整个引文网络都被考虑在内。本部分中所综述的创新性测度则只考虑了局部特征[150]，即要评价的学术文献“周围”的文献（在引文网络中与它距离较近的其他文献）。"
+  },
+  "5反思": "",
+  "5.1指标的评估": {
+    "context1": "目前科学计量学界缺乏对于新指标的评估步骤。大多数研究仅将新指标与已有指标进行对比（如排名对比、相关分析）或进行一定量的个案分析[151]。实际上，引文影响力指标应当从理论和实践两方面进行深入评估。"
+  },
+  "5.1.1理论层面的评估": {
+    "context1": "在理论层面上，可从指标的物理意义入手，并深入探讨指标的数学性质。尤其是以下维度，需要进行重点探讨：",
+    "context2": "(1)该指标是否具有含时性（即是否随时间变化)？例如，虽然大部分指标均随时间变化，但Sinatra等人提出的Q指数[152]则应用在科学家层面，不随时间而变化，类似于“研商”。如果含时，该指标随时间变化的曲线有何特点？这一特点是否与科学文献所在的学科、发表的年份和文献类型（如研究论文、综述等）有关？如果有关，如何相关？",
+    "context3": "（2）该指标是否单调变化？例如，原始被引量和h指数都是单调不减的，意即这两个指标随着时间推移不会减小；而某科学文献的PageRank 值则不是。",
+    "context4": "（3）该指标是否尺度独立？在很多情景下，科研评价都偏向于使用尺度独立型指标，总被引量和高被引论文总量这类尺度依赖型指标的使用情景受到限制。"
+  },
+  "5.1.2实践层面的评估": {
+    "context1": "在实践层面上，可以考虑两种评估方式：",
+    "context2": "一方面，可以比较新指标与已有指标的相关情况，如绘制散点图、计算相关系数、比较高排名科学文献的差异等。然而，这种方式的问题是，新指标与老指标太相关或太不相关均不好。因为当相关系数太高时，由于新指标与老指标太相像，其存在的意义较小；当相关系数太低时，人们可能不相信新指标作为科学文献排名结果的正确性。因此，观测新指标与已有指标的相关情况可能较为主观，科学性相对较低。",
+    "context3": "另一方面，可以考察指标的预测性。例如，Mo-hapatra等人在评估其指标时，使用国际学术会议最佳论文和学科大奖等作为预测性能的考察方式[147]。如果在新指标下排名较高的科学文献是学术会议的最佳论文或由获奖人员撰写，那就说明新指标具有一定的预测性。Bornmann 等人使用了F1000Prime数据库中的论文来比较和评估几个相似指标[153]。这一数据库中收录的论文大多基于出版后同行评议（Post-publicationPeerReview），并由领域专家遴选生物和医学领域的高质量论文。"
+  },
+  "5.2指标计算复杂度与数据的可获取性": {
+    "context1": "一些引文影响力指标虽然具有明显的实际意义，但其计算复杂程度相当高，这在一定程度上阻碍了其应用。例如，Mohapatra等人提出的指标[147]首先需要将焦点文献和其全部引文，以及引文间的引用关系全部提取并建构一个引文网络。随后，如果某引文到焦点文献之间存在一条更长路径，那么需要将其余较短路径剔除。这一步骤极大地增加了指标的运算时间。再比如，Uzzi等人提出的创新性测度[145]需要计算参考文献中两两之间之前是否出现在同一文献中，这也使得指标大范围推广和复现极为困难。",
+    "context2": "此外，某些指标的计算对研究人员拥有数据集的范围、精度和质量要求很高。比如，Funk 和Ow-en-Smith[146]提出的“颠覆性”指标需要计算类k文献的数量（即不引用中心文献但引用中心文献的参考文献的文献）。类k文献的获取需要首先得到中心文献和中心文献所有参考文献的全部引文，然后再进行差集运算。很多研究人员可能无法获取这样的数据。因此，未来在提出新的引文影响力指标时，除了探讨指标本身之外，还应注意分析其算法复杂度[154]与相关数据的可获取性。"
+  },
+  "5.3计算指标的数据来源": {
+    "context1": "当前大部分科学文献引文影响力评估指标主要基于文献和文献之间的引用关系，几乎不使用全文本科学文献数据。这主要是由于过去文献计量学中自然语言处理技术较为落后，以及大规模全文本数据相对缺乏。目前，得益于数据爬取能力的提高、自然语言处理技术的进步，以及越来越多的全文本数据可获取，相关研究可以使用结构、内容层面的特征更为精确地定义引用关系，研制新指标。例如，在结构层面，可以使用引文句（Citances，即 CitingSentences）出现的位置、段落关系（如共现）等信息；在内容层面，可以聚焦于引文句，抽取RDF三元组关系，生成知识图谱，从而可以更加科学准确地定义新的基于引文关系的指标。"
+  },
+  "6未来展望": {
+    "context1": "本文主要基于文献调研，从理论与实践的角度探讨研究基础，然后从基本引文影响力指标、基于计数的指标和基于网络的指标三个角度对目前国内外提出的科学文献引文影响力评估指标进行了说明、分析和评述。随后，本文从三个不同的角度对已有研究进行了深入的反思和讨论。在本文结尾，简要列举未来值得关注的研究课题，以期更多引起科学计量学界和相关学科的深入探讨：",
+    "context2": "（1）对于已有引文影响力评估指标，如何通过其随时间变化的曲线对不同科学文献进行聚类，从而促进更为精确和客观的科学评价，并提高科学文献推荐的性能？这需要引入其他学科（如经济学）的一些时间序列分析模型进行定量建模。",
+    "context3": "![](images/f00ae072b979cde5b120ccbafa9df45bfd092512dcd64071c58798af716791eb.jpg)",
+    "context4": "（2）如何能够提高引文影响力指标的理论基础，以提高新指标的可解释性？例如，测度颠覆性的指标目前并未对应已有的任何一种引文理论，是否可以找到合适的理论支撑，以更好地解释指标公式中每个因子的实际意义？",
+    "context5": "（3）如何将引用关系和科学合著关系相结合，创制更为精确、易计算的创新性测度？如何让这一测度可以区分“好的创新”和“不好的创新”（如“结合”了不太相关的概念，但这种结合实际意义很低)？这样的区分可以帮助我们更为有效地完成科研评价任务。"
+  },
+  "作者贡献说明": {
+    "context1": "步一：提出研究思路，设计研究方案，论文撰写与最终版本修订；  \n许家伟：设计研究方案，论文撰写；  \n黄文彬：设计研究方案，论文最终版本修订。"
+  },
+  "参考文献": {
+    "context1": "[1]Leydesdorff L,Rä fols I,Milojevic S.Bridging the Divide between Qualitative and Quantitative Science Studies[J].Quantitative Science Studies,2020,1(3):918-926.",
+    "context2": "[2]付伟棠.我国学术期刊同行评议研究综述[J].中国科技期刊研究,2019,30（8）:819-826.（Fu Weitang.Overview ofPeer Review of Chinese Academic Journals[J].Chinese Jour-nal of Scientific and Technical Periodicals,2019,30(8):819-826.）",
+    "context3": "[3]常唯，曹金，刘团结，等.科技期刊同行评议可检验规范最佳 实践[J].中国科技期刊研究,2016,27(1):25-32.(Chang Wei,Cao Jin,Liu Tuanjie,etal.The BestPractice of Peer Reviewof Scientific Journals[J].Chinese Journal of Scientific and Technical Periodicals,2016,27(1) :25-32.)",
+    "context4": "[4]姜春林，赵宇航.代表作评价：探索之路与完善之策[J].甘 肃社会科学,2016(3）：143-148.（Jiang Chunlin,Zhao Yuhang.Evaluation of Representative Works:The Road of Exploration and the Strategy of Improvement[J].Gansu Social Sciences,2016(3):143-148.)",
+    "context5": "[5]叶继元.学术“全评价”体系与中国特色哲学社会科学学 术评价体系的构建与完善[J].情报资料工作，2021,42(3)： 15-22.(Ye Jiyuan.The Construction and Improvement of the Academic All-round Evaluation System and the Academic Evaluation System of Philosophy and Social Sciences with Chinese Characteristics[J].Information and Documentation Services,2021,42(3):15-22.)   \n[6]Garfield E.Citation Analysis as a Tool in Journal Evaluation",
+    "context6": "[J].Science,1972,178(4060):471-479.",
+    "context7": "[7]Egghe L.The Hirsch Index and Related Impact Measures[J]. Annual Review of Information Science and Technology,2010, 44(1):65-114.",
+    "context8": "[8]Bellis N D.Bibliometrics and Citation Analysis:From the Science Citation Index to Cybermetrics[M].Lanham:Scarecrow Press,2009:9.",
+    "context9": "[9]Waltman L.A Review of the Literature on Citation Impact Indicators[J].Journal of Informetrics,2016,10(2):365-391.",
+    "context10": "[10] Costas R,Leeuwen T N,Bordons M.Self-citations at the Meso and Individual Levels:Effects of Different Calculation Methods [J].Scientometrics,2010,82(3):517-537.",
+    "context11": "[11]杨思洛.引文分析存在的问题及其原因探究[J].中国图书馆 学报,2011,37(3):108-117.(Yang Siluo.The Problems of Citation Analysis and Their Causes[J].Journal of Library Science in China,2011,37(3):108-117.)",
+    "context12": "[12]叶鹰.国际学术评价指标研究现状及发展综述[J].情报学 报,2014,33(2):215-224.(Ye Ying.The Research Progress and Developing Perspective of Assessment Indicators[J]. Journal of the China Society for Scientific and Technical Information,2014,33(2):215-224.)",
+    "context13": "[13]Radicchi F,Fortunato S,Castellano C.Universality of Citation Distributions:Toward an Objective Measure of Scientific Impact[J].Proceedings of the National Academy of Sciences, 2008,105(45):17268-17272.",
+    "context14": "[14]Ding Y,Liu X,Guo C,et al.The Distribution of References Across Texts:Some Implications for Citation Analysis[J]. Journal of Informetrics,2013,7(3):583-592.",
+    "context15": "[15] Chen P,Xie H,Maslov S,et al.Finding Scientific Gems with Google's PageRank Algorithm[J].Journal of Informetrics, 2007,1(1):8-15.",
+    "context16": "[16]Waltman L,Yan E.PageRank-related Methods for Analyzing Citation Networks[M]//Ding Y，Rousseau R，Wolfram D. Measuring Scholarly Impact:Methods and Practice.Switzerland:Springer,Cham,2014:83-100.",
+    "context17": "[17] Bergstrom C.Eigenfactor:Measuring the Value and Prestige of Scholarly Journals[J].College & Research Libraries News, 2007,68(5):314-316.",
+    "context18": "[18]Smith L C.Citation Analysis[J].Library Trends,1981,30(1): 83-106.",
+    "context19": "[19] Cronin B.The Need for a Theory of Citing[J].Journal of Documentation,1981,37(1):16-24.",
+    "context20": "[20]Leydesdorff L.Theories of Citation?[J].Scientometrics, 1998,43(1):5-25.",
+    "context21": "[21] Nicolaisen J.Citation Analysis[J].Annual Review of Information Science and Technology,2007,41(1):609-641.",
+    "context22": "[22] Kaplan N.The Norms of Citation Behavior:Prolegomena to theFootnote[J].American Documentation，1965，16（3）：179-",
+    "context23": "184.   \n[23]Merton R.The Normative Structure of Science[M]//Merton R.The Sociology of Science:Theoretical and Empirical Investigations.Chicago and London:The University of Chicago Press,1973:223-280.   \n[24]Erng-Kjolhede E.Scientific Norms as(dis)Integrators of Scientists?[J/OL].MPP Working Paper(2000-03-15)[2021- 10-10].https://research-api.cbs.dk/ws/portalfiles/portal/ 58907335/6394.pdf.   \n[25]Brooks T A.Private Acts and Public Objects:An Investigation of Citer Motivations[J].Journal of the American Society for Information Science,1985,36(4):223-229.   \n[26]Brooks T A.Evidence of Complex Citer Motivations[J].Journal of the American Society for Information Science,1986,37 (1):34-36.   \n[27]MacRoberts M H,MacRoberts B R.Quantitative Measures of Communication in Science:A Study of the Formal Level[J]. Social Studies of Science,1986,16(1):151-172.   \n[28]MacRoberts MH,MacRoberts BR.Another Test of the Normative Theory of Citing[J].Journal of the American Society for Information Science,1987,38(4):305-306.   \n[29]MacRoberts M H,MacRoberts B R.Problems of Citation Analysis:A Critical Review[J].Journal of the American Society for Information Science,1989,40(5):342-349.   \n[30]Baldi S.A Network Approach to the Analysis of Citation Flows:A Comparative Study of Two Research Areas in the Natural and the Social Sciences[D].Columbus:The Ohio State University,1997.   \n[31] Small H.Citations and Consilience in Science[J].Scientometrics,1998,43(1):143-148.   \n[32] White H.Reward,Persuasion,and the Sokal Hoax:A Study in Citation Identities[J].Scientometrics,2004,60(1):93-120.   \n[33] Latour B,Woolgar S.Laboratory of Life:The Construction of Scientific Facts[M].2nd ed. New Jersey:Princenton University，1986.   \n[34] MacRoberts M H,MacRoberts B R.Problems of Citation Analysis[J].Scientometrics,1996,36(3):435-444.   \n[35]Moed HF,Garfield E.In Basic Science the Percentage of \"Authoritative\" References Decreases as Bibliographies Become Shorter[J].Scientometrics,2004,60(3):295-303.   \n[36］Zuckerman H.Citation Analysis and the Complex Problem of Intellectual Influence[J].Scientometrics,1987,12(5-6):329-338.   \n[37]Bu Y.Understanding the Citation-based Impact of Scientific Publications Through Ego-centered Citation Networks[D]. Bloomington:Indiana University,2020.   \n[38] Bu Y,Ding Y,Xu J,et al. Understanding Success through the Diversity of Collaborators and the Milestone of Career[J]. Journal of the Association for Information Science and Technology,2018,69(1):87-97.   \n[39]Petersen A M,Pan R K,PammolliF,et al.Methods to Account for Citation Inflation in Research Evaluation[J].Research Policy,2019,48(7):1855-1865.   \n[40]Pan R K,Petersen A M,Pammolli F,et al.The Memory of Science:Inflation,Myopia,and the Knowledge Network[J]. Journal of Informetrics,2018,12(3):656-678.   \n[41] Small H G.Cited Documents as Concept Symbols[J].Social Studies of Science,1978,8(3):327-340.   \n[42]Cronin B.Semiotics and Evaluative Bibliometrics[J]. Journal of Documentation,2000,56(4):440-53.   \n[43]Wouters P.The Signs of Science[J].Scientometrics,1998,41 (1-2):225-241.   \n[44]Wouters P.Beyond the Holy Grail:From Citation Theory to Indicator Theories[J].Scientometrics,1999,44(3):561-580.   \n[45]Wouters PF.The Citation Culture[D].Amsterdam:Universiteit van Amsterdam,1999.   \n[46]Cronin B.The Citation Process:The Role and Significance of Citations in Scientific Communication[M].London：Taylor Graham,1984.   \n[47]Merton R K.The Matthew Effect in Science:The Reward and Communication Systems of Science are Considered[J].Science,1968,159(3810):56-63.   \n[48] Garfield E.Can Citation Indexing Be Automated[C]//Stevens M E,Giuliano V E,Heilprin L B.Symposium Proceedings of Statistical Association Methods for Mechanized Documentation.Washington D C:National Bureau of Standards Miscellaneous Publication,1965:189-192.   \n[49] Case D O,Higgins G M. How Can We Investigate Citation Behavior?A Study of Reasons for Citing Literature in Communication[J].Journal of the American Society for Information Science,2000,51(7):635-645.   \n[50]Soper M E.Characteristics and Use of Personal Collections [J].The Library Quarterly,1976,46(4):397-415   \n[51]Raan VAF J,Visser M S,Leeuwen VTN,et al.Bibliometric Analysis of Psychotherapy Research:Performance Assessment and Position in the Journal Landscape[J]. Psychotherapy Research,2003,13(4):511-528.   \n[52] Carpenter M P,Narin F.The Adequacy of the Science Citation Index(SCl）as an Indicator of International Scientific Activity [J].Journal of the American Society for Information Science, 1981,32(6):430-439.   \n[53] Erikson M G,Erlandson P.A Taxonomy of Motives to Cite[J]. Social Studies of Science,2014,44(4):625-637   \n[54]Baldi S.Normative Versus Social Constructivist Processes in the Allocation of Citations:A Network-analytic Model[J]. American Sociological Review,1998,63(6) :829.   \n「55] Cole JR.Sinaer B.A Theorv of Limited Differences:Exnlainina"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "original_filename": "full_2328.md",
+  "nothing": {
+    "context1": "·研究综述与前沿进展·"
+  },
+  "动态本体构建的国内外研究现状综述": "",
+  "王娜蒋智慧": {
+    "context1": "(郑州大学信息管理学院，河南郑州450001)",
+    "context2": "摘要：回的/意义]梳理与归纳国内外动态本体构建的相关文献，旨在能对动态本体构建的研究与发展提供一定的参考。仿法/过程采用综合、归纳、比较等方法，从动态本体定义、知识建模、构建流程、构建标准等方面阐述了国内外研究现状。结果/结论结果表明，动态本体相关领域取得了一定的研究成果，但也存在一些不足，基于此，提出了未来研究趋势：应着重关注基于文本的动态本体构建方法；开发扩展功能，注重动态本体的共享性；根据用户发布内容与行为来完成动态本体的进化；针对性地对动态本体构建标准进行研究等。",
+    "context3": "关键词：动态本体；构建流程；知识建模；本体映射；构建标准；综述 DOI: 10.3969/j.issn.1008-0821.2020.04.018 （中图分类号）G254（文献标识码）A（文章编号）1008-0821（2020）04-0159-08"
+  },
+  "Research Overview on Dynamic Ontology Construction at Home and Abroad": {
+    "context1": "Wang NaJiang Zhihui (School of Information Management， Zhengzhou University， Zhengzhou 450o01，China)",
+    "context2": "Abstract[Purpose/Significance]This article systematically reviewed the research literature on dynamic ontology construction at homeand abroad，which aimed to providereferencefor further studyand developmentof dynamicontology. Method/ProcessThis articleadopted methods such as synthesis，induction，and comparison.It included four parts: thedefinition of dynamicontology，knowledge modeling，construction processand evaluation standard.Result/ConclusionlTheresults showed thatrelated areas made a lot of achievements，but there were some problems.The next step in domesticresearchin thisarea can be:focus on text-orienteddynamicontology construction method，develop extended functionsand payatention tothesharing ofdynamicontology，complete theevolutionof dynamicontology bypublishing content and behavior according to users，target research on dynamic ontology construction standard.",
+    "context3": "Key words:dynamic ontology； construction process knowledge modeling；ontology mapping; construction standard；overview",
+    "context4": "随着网络信息技术的快速发展，用户接受和获取信息的方法、途径也在发生着改变。面对丰富的网络信息资源，信息的组织方式会直接影响到用户的认知、判断，从而导致不同的用户行为。本体（Ontology）是共享概念模型的明确的形式化规范说明。在20世纪90年代，本体概念被引入人工智能、图书情报和知识工程等领域，一度成为这些领域的热门研究课题。通过本体构建，可以更有效地组织信息，进而更精准地给用户提供所需信息。传统的本体构建以手工或半自动化为主，费时费力且不能适应当前的大数据时代。现如今，越来越多的学者都开始研究动态本体（Dynamic Ontolo-gy）的构建问题。动态本体以自动构建为主，节约时间成本，允许对任何不再使用的对象、属性和关系进行移除，并且可以根据需求添加新的对象、属性和关系，所以本体是时刻处于动态更新的状态，成为当前信息领域的一个研究热点。",
+    "context5": "近年来有关动态本体构建的相关研究逐渐增多，并且受到了越来越多的关注，但却还没有对动态本体构建进行综述的文献，这不利于从整体上把握动态本体构建的研究现状与趋势，从而不利于把握目前研究中的薄弱环节。针对目前研究的不足，本文通过梳理相关文献，对动态本体的定义、知识建模、构建流程、构建标准等进行归纳梳理，探究未来研究趋势，以期能对动态本体构建的研究提供一定的参考。"
+  },
+  "1动态本体的定义和动态本体构建研究的发展脉络": "",
+  "1.1动态本体的定义": {
+    "context1": "动态本体的定义从本体的定义延伸而来，由于动态本体构建研究的开展时间较短，目前国内外学者还未形成统一的认识，比较具有代表性的观点包括以下几个：",
+    "context2": "陆汝铃在2000年提出可以把本体分为动态本体和静态本体，静态本体是指描述事物或概念的各个组成部分及这些组成部分之间的静态联系。动态本体描述事物或概念的运动和变化。Dahab MY等人认为动态本体是指可以自动抽取所需信息来辅助本体构建的一种本体。LiuJH等提出：动态本体是指在多个领域本体的基础上构建的临时本体，用于简洁知识需求，形成目标知识资源。罗钧旻等将动态本体形式化描述为：本体 $\\mathrm { O } =$ ( Agents，Ob-jects，Relationships，Evolution-mechanism），其中Agents是主体的集合，Objects是客体的集合，Re-lationships是关系的集合，Evolution-mechanism是演化机制。"
+  },
+  "1.2动态本体构建研究的发展脉络": {
+    "context1": "本文以“Dynamic Ontology”、‘Dynamic Ontolo-gy Construction”等检索词在Web of Science（WoS）、Emerald、Elsevier等数据库中检索，获取文献110余篇，然后对检索结果逐一阅读及筛选，一共筛选出72篇相关文献，整理发现国外关于动态本体的研究开始于1990年前后，以动态本体的构建方法为主，主要研究动态本体构建工具及基于文本的动态本体构建方法，从2010年后还侧重于动态本体的应用研究，特别是动态本体在医学领域中的应用研究。以“动态本体”、“动态本体构建”等为关键词在中国知网、维普、万方等数据库进行检索，共检索出40余篇相关文献，整理归纳后发现国内相关研究起步相对较晚，始于2000年左右，初期研究涉及动态本体的概念，后期主要侧重于动态本体的构建方法对比、本体评价标准等。相关的主要研究项目如表1所示。",
+    "context2": "表1相关研究项目",
+    "context3": "<table><tr><td>时间</td><td>主持人</td><td>项目类型</td><td>课题名称</td></tr><tr><td>2008</td><td>刘柏嵩</td><td>国家社会科学基金</td><td>领域本体的自动构建和应用研究</td></tr><tr><td>2009</td><td>李涓子</td><td>国家自然科学基金</td><td>大规模动态本体映射模型研究</td></tr><tr><td>2010</td><td>郑海涛</td><td>国家自然科学基金</td><td>面向网络舆论的动态本体学习模型研究</td></tr><tr><td>2011</td><td>冯兰萍</td><td>教育部项目</td><td>基于知识生态的本体动态构建研究</td></tr><tr><td>2012</td><td>于海燕</td><td>国家社会科学基金</td><td>基于叙词表自动集成的领域本体构建方法研究</td></tr></table>",
+    "context4": "科学文献是衡量科学知识量的重要尺度之一，学术论文及相关项目是反映科学发展规律的重要指标。通过统计国内外“动态本体构建”这一专题相关文献及项目，可以了解到该研究主题的发展程度。利用Citespace这一知识图谱软件，可以以可视化的方式了解目前国内关于动态本体构建的研究热点。",
+    "context5": "根据聚类图，本文得出排名前10的高频关键词，如表2所示，除去本体、动态本体这两个核心概念，可得到Web 服务、服务组合、语义、知识建模、本体映射等关键词。下面本文结合高频关键词对动态本体构建的相关研究进行了归纳和梳理，发现目前的研究主要集中在知识建模、动态本体构建流程、动态本体构建标准等方面。",
+    "context6": "![](images/78742231c65985a5f0b58725de860c1c25ab86c0d3ab5838dbcfcdc75a7eb2b3.jpg)",
+    "context7": "![](images/26f9b0ec2ac3f58d92aabc63c93c5474d74e2614def85d8f73463ec5624e7e62.jpg)  \n图1国内动态本体构建研究热点知识图谱",
+    "context8": "表2国内动态本体构建高频关键词",
+    "context9": "<table><tr><td>排名</td><td>高频关键词</td><td>词频</td><td>排名</td><td>高频关键词</td><td>词频</td></tr><tr><td>1</td><td>本体</td><td>95</td><td>6</td><td>领域建模</td><td>6</td></tr><tr><td>2</td><td>Web服务</td><td>13</td><td>7</td><td>知识建模</td><td>5</td></tr><tr><td>3</td><td>服务组合</td><td>10</td><td>7</td><td>领域本体</td><td>5</td></tr><tr><td>4</td><td>仿真</td><td>9</td><td>8</td><td>虚拟企业</td><td>4</td></tr><tr><td>5</td><td>服务发现</td><td>8</td><td>8</td><td>知识管理</td><td>4</td></tr><tr><td>5</td><td>语 义</td><td>8</td><td>9</td><td>本体映射</td><td>3</td></tr><tr><td>5</td><td>动态本体</td><td>8</td><td>10</td><td>描述逻辑</td><td>2</td></tr></table>"
+  },
+  "2动态本体构建的知识建模": {
+    "context1": "知识建模是指对知识获取与组织的过程，其关键在于对知识的有效组织与表示，本体构建是建立一种关于知识描述的过程，因此在动态本体构建的研究中，知识建模主要指本体中概念与关系的抽取与更新、形式化描述等。"
+  },
+  "2.1基于文本的知识建模": {
+    "context1": "基于文本的概念与关系的提取与更新以文本语义为基础[，通过识别提取文本中的语义以补充动态本体的知识源，所以语义一直是专家们在获取概念和关系时所考虑的重点[。王茜提出了基于文本挖掘的概念与关系的获取方法，该方法将叙词表的描述形式转换为本体的概念模型，同时利用叙词标引的主题文献进行文本挖掘以抽取动态本体的概念和关系。LakelK等使用术语Wordnet1.2从文本中识别概念、关系，并通过合作学习修改与更正这些概念与关系[。MartaM等提出基于文本挖掘的概念抽取方法，该方法利用一种半自动本体构建工具（OntoGen）定义自闭症趋势分析领域内的主题及其名称，然后将文档自动分配给主题来支持动态本体构建所需要的概念和关系[4。Kafkas S等开发了一种从文献中挖掘信息以构建基因表型本体的方法，该方法利用文献中的术语与短语之间的共现关系进行动态本体的构建[。LeeJH等利用文本挖掘技术识别电子学习领域的概念与关系，通过实现知识的自动聚合来完成动态本体的概念与关系的构建[d。李志义等使用基于语言学、聚类的方法提取文本中的概念与概念之间存在的分类关系，使用基于关联规则挖掘的方法抽取其本体概念与概念之间存在的非分类关系，以自动构建电子商务领域本体。桂冬冬等以煤矿事故案例文本作为数据源，采用BP神经网络自动提取本体概念。然后，通过层次聚类法和关联规则法分别自动提取本体概念间层次关系、非层次关系。最后，利用",
+    "context2": "Protége本体编辑器对煤矿事故本体概念、概念间关系和实例进行可视化表达，得到煤矿事故动态本体 。"
+  },
+  "2.2基于叙词表的知识建模": {
+    "context1": "叙词表能反映某学科领域的语义相关概念，是由术语及术语之间的各种关系组成[。叙词表在表达知识结构上与本体有着天然联系2，因此，很多学者在构建动态本体时常在叙词表的基础上引入本体自动构建工具以抽取所需的概念和关系。如吕爽利用《医学主题词表》对构建医学领域内心律失常疾病动态本体时所需要的概念和关系进行抽取。鲜国建使用网络本体语言（Web OntologyLanguage，简称OWL）将《农业科学叙词表》中的叙词（包括正式叙词及非正式叙词）及词间关系进行了表示和描述。在此基础上，设计和实现了一个转化系统，能够自动批量地将词表中的知识结构和语义关系转化到农业本体中，以构建农业领域的动态本体。GaoQ等提出了一种基于叙词表的动态多智能体上下文感知用户模型的构建方法，将概念和属性结合起来对用户模型进行建模，采用动态更新策略，不断考虑用户兴趣的变化。PisarevⅠA在叙词表的基础上，开发了本体自动构建工具，自动添加新的术语和分类用以构建教育领域的动态本体2。李晓瑛等以《医学主题词表》为例，研究了基于叙词表等级结构及其语义关系的动态本体构建方法，构建了医学领域的动态本体，以期实现不同类型知识组织系统之间的语义共享。"
+  },
+  "2.3基于用户生成内容的知识建模": {
+    "context1": "用户主导的互联网服务模式产生了大量的用户生成内容，这一类特殊的组织形式成为很多学者、企业研究利用的重要资源2，对用户生成内容中的概念与关系进行提取，可用于本体的构建及本体的动态更新，如RianoD等以患者对自身疾病反馈的特殊情况为知识源，通过来自5个不同国家的专业人士对这些知识源进行定义、分类，构建动态本体以自动为医疗专业人员提供该患者相关的临床信息，郑姝雅等综合运用机器学习、自然语言处理等技术，从用户生成内容中抽取本体概念、同义关系及分类关系，通过自动化本体构建将非结构化的用户生成内容组织成为语义丰富的动态本体。"
+  },
+  "2.4基于网络资源的知识建模": {
+    "context1": "基于网络资源的知识建模，以网络上的信息源为动态本体构建的知识源基础，随着互联网技术的迅猛发展，网络上的信息呈现爆炸式增长，海量的信息资源可以为动态本体的构建提供丰富的数据。吴江从网站标签中筛选出概念，根据标签与资源的关系，构建概念级系，根据概念匹配原则，自动套用权威词典解释，套入本体术语解释数据库。马莉从Internet上获取知识存储于数据库中，然后利用形式概念分析技术来完成本体的自动更新。LianL等以文本处理技术为基础，对百度百科条目的名称和描述信息进行分割和抽取特征文本（Feature Text），从而搜索领域的概念与关系，构建动态本体 。"
+  },
+  "3动态本体构建流程": {
+    "context1": "自20世纪90年代初以来，研究人员提出了多种动态本体构建流程，主要包括知识工程法、本体映射等。"
+  },
+  "3.1知识工程方法": {
+    "context1": "该方法强调按照一定的标准和规范进行本体的构建，构建的本体强调共享和重用。1993年，LenatDB等提出构建一个基于知识工程的本体，该本体提供了一个知识被放置和维持的框架系统。Gao HY等研究了基于知识工程和基于案例（CBR，Case-based Reasoning）的动态本体构建方法，该方法提供了一个集成的框架以实现知识库的动态构建。英国标准协会在2015年发布了一个ISO标准来开发本体，该标准规定了在Web本体语言（WOL）中开发本体的框架和规则。密阮建驰等以企业本体为基础框架，通过业务活动的“六何”分析，以细化业务活动的情景表达为方法，构建动态本体。刘婷分析了本体的相关理论知识、工具与方法，选择适用于煤矿领域的七步法与骨架法相结合的本体构建方法，提出了一种将形式概念分析理论（FCA，Formal Concept Anal-ysis）技术应用于采煤工作面动态本体构建的方法。付苓从已有的知识组织中获取本体的基本框架和各个概念的等级结构，提出了基于大数据的动态本体构建方法。"
+  },
+  "3.2本体映射": {
+    "context1": "本体映射是指重用已存在的本体，通过一定的方法对它们进行扩展，形成新的动态本体以实现信息、知识的交流和使用4。本体映射是实现目前本体词表间语义桥梁搭建的最为广泛和有效的技术。ShvaikoP等将本体映射分为元素级和结构级的本体映射方法。其中元素级的本体映射方法包含基于概念、关系的映射，而结构级的本体映射方法则包含基于图、类别的映射[43 。"
+  },
+  "3.2.1元素级本体映射": {
+    "context1": "在动态本体构建中，元素级的本体映射可以获得领域知识和概念关系，这使得动态本体的构建有一个良好的基础。目前该方面的研究，主要包括唐旭丽等采用信息抽取技术，将已有的金融本体作为语义标注数据，抽取相应的金融概念及其等级关系构建了金融知识动态本体。贾君枝等采用字符串相似度算法进行基于属性的名称、定义域、值域、上位属性相似度计算，同时对具有映射关系的本体词表属性进行总结归纳以构建动态本体[4。周建慧等采用本体映射方法对领域本体子集中的概念、关系、公理分别计算字符相似度、结构相似度和语义相似度，通过相似度加权融合建立领域本体节点之间的映射关系，以实现领域本体子集的本体映射，构建复杂产品工程知识管理的动态本体 [47] 。"
+  },
+  "3.2.2结构级本体映射": {
+    "context1": "本体映射是解决本体异构的最有效方法，是知识共享和重用的基础。在动态本体构建中，结构级本体映射主要指重用现有的本体以构建新的动态本体。如王汀等对主题词表至本体进行粗映射，形成领域粗糙本体，然后采用改进的同义词词林与编辑距离相似度相结合的方式对百科知识与粗糙本体进行自动融合、自适应调整和扩充，形成含有丰富语义信息的、良构的动态本体4。张辉对现有本体进行修正，在分析企业活动之后构建了企业动态本体。FudholiD H等设计了一种数据驱动的动态本体模型，该模型在现有本体的基础上，新增了一种增量脚本，用来共享知识和概念化术语。KethavarapuUPK等在原有求职网站的本体基础上，通过动态地抽取不同的网页数据构建了一个基于动态本体的工作推荐系统。方芳等复用现有",
+    "context2": "的西医医案本体，定义糖尿病医案的类、属性及其  \n关系，建立糖尿病医案动态本体 53。"
+  },
+  "4动态本体构建标准的相关研究": {
+    "context1": "随着动态本体构建方法的不断发展，各个领域的动态本体模型数量也在不断增加。这些动态本体在构建方法的简洁性、完整性、准确性等方面均存在差异。因此，关于动态本体的构建标准显得尤为重要。由于动态本体发展时间相对较短，目前还没有专门针对动态本体的构建标准，而用于评估本体的很多方法现在也被用于评估动态本体。通过整理与归纳相关研究文献发现，目前主要有以下几种动态本体的构建标准。"
+  },
+  "4.1基于用户的构建标准": {
+    "context1": "Lozano-TelloA等提出基于用户的本体构建标准，该标准允许用户根据系统的需求来度量现有本体的适用性，具有较大的灵活性，但因为较大程度取决于用户的主观意识，具有客观性低的缺点，所以较少有学者采用该方法进行动态本体评价。"
+  },
+  "4.2基于任务的构建标准": {
+    "context1": "基于任务的构建标准是将构建好的动态本体应用到某个具体应用或实际任务中，通过应用后得到的结果来评价所构建的动态本体质量的优劣。YuJ等提出了基于任务的本体评估方法—ROMEO（Re-quirements-oriented Methodology for Evaluating Ontol-ogies），并将其应用于评估一些通用本体（Wikipe-dia类别结构子域的变体）是否适合在Wikipedia中支持浏览。ROMEO方法确定本体必须满足的需求，并将这些需求映射到评估度量中5。周建慧等从动态本体模型中概念的数量和质量2个方面对动态本体进行评价，在设定的任务需求条件下，对3种应用方式下动态本体与任务需求的相关程度做出评价[4。刘婷通过实例验证了动态本体构建的有效性。ChiNW等构建一个建筑安全领域的动态本体，最后讨论了一个用户场景，以演示动态本体如何在实践中支持职业危害分析。黄奇等通过设计相应的查询实验，验证了提出的动态本体构建方法的有效性和科学性[。"
+  },
+  "4.3黄金标准法": {
+    "context1": "DellschaftK等提出另一种本体评价方法一黄金标准法，该方法事先假设存在一个黄金本体标准，然后将需要评估的本体与该黄金本体进行对比。GordonC L等将医学专家的临床实践、诊断案例和电子病历等融合构造“黄金标准”来评估并改进其构建的动态本体bd。Xing XJ等采用基于准则和应用的“黄金标准”，从理论和实践两方面对构建的动态本体进行评价。"
+  },
+  "4.4复合指标评价法": {
+    "context1": "Gomez-Perez A较早提出基于复合指标的本体评价法，并确定了本体评价的基本标准，该标准包括本体的一致性、完整性、简洁性、可扩展性和灵敏性。Rico M等构建了一个本体评价指标体系，该体系包括可操作性、覆盖率、简洁性、正确性、有用率等指标，并将其用于动态本体的评价。$\\operatorname { K i m } \\mathrm { ~ S ~ }$ 等采用以往研究的评价类别，同时从专家小组中收集具体的评价标准，对得到的53个评价标准的可靠性进行验证，这是首次发表的从句法、语义和语用3个方面提取本体评价标准的研究，其研究结果可作为动态本体构建后的评价指标4。",
+    "context2": "整体来说，这4种本体构建标准都有其可行性和适用性，应根据动态本体的不同选取某个或结合使用。目前，大多数学者采用基于指标体系的评价标准，因此在动态本体评价中，可以根据动态本体的动态性的特征，将动态性纳入评价指标体系，对动态本体质量进行量化评价，再根据所构建的动态本体的不同选取其他方法加以辅助，从而完善动态本体构建的评价标准。"
+  },
+  "5结语": "",
+  "5.1动态本体构建的研究总结": {
+    "context1": "通过上文分析可以看出动态本体构建已成为目前本体研究的热点课题，学者们对动态本体的知识建模、构建流程、本体构建标准等进行了较为深入的研究，通过对动态本体构建相关文献内容进行整理和归纳，发现研究内容主要包括：1）在动态本体定义方面，目前国内外学者尚未形成统一认识。2）在动态本体构建的知识建模方面，国内外学者多关注利用已有资源实现对概念和关系的抽取及更新，如基于叙词表、文本等知识源；3）在动态本体构建流程上，本体映射技术受到越来越多的关注；4）在动态本体构建标准方面，目前尚无专门针对动态本体的构建标准，因此多沿用本体构建标准对动态本体进行评价。"
+  },
+  "5.2研究展望": {
+    "context1": "通过对动态本体构建目前研究内容的梳理，笔者认为未来研究应关注以下几个方面：",
+    "context2": "1）在动态本体构建的知识建模方面，应着重关注基于文本的概念抽取与更新。大数据环境下，信息增速快、新概念诞生快、概念间关系变化快，文本具有较大的灵活性且表达结构较为复杂，知识抽取、概念匹配等难度加大，所以基于文本的概念抽取与更新有待深入研究。",
+    "context3": "2）目前，我国对动态本体构建的研究多是基于特定领域的本体构建，如针对某个学科领域或特定的项目工程，对通用动态本体构建方法方面的研究较少，在通用动态本体缺乏的情况下，已构建本体的重用性非常重要，因此，利用机器学习、自然语言处理等技术，识别语义，开发扩展功能，注重动态本体的共享性也是今后动态本体构建研究值得关注的方向。",
+    "context4": "3）应完善本体映射系统，动态本体构建流程与标准的不同导致了动态本体的异构性，完善本体映射系统可以促进复杂的Web环境下不同动态本体间的知识共享和互操作性，是突破本体异构障碍的重要手段。",
+    "context5": "4）社交媒体环境下，用户规模日益剧增，用户特征及发布内容呈异质性，如何根据用户的发布内容、用户行为间的关系对信息资源进行有序化整合来实现本体的进化，从而完成动态本体的构建，也是需要关注的问题。",
+    "context6": "5）在动态本体构建标准方面，目前关于动态本体的构建标准大多沿用本体评估方法，但随着动态本体的不断发展，应有针对性地对动态本体的构建标准进行研究，动态本体随着信息环境的发展不断进行变化，具有很强的动态性，所以在关注动态本体的完整性、简洁性的同时，动态本体的动态性也应纳入考量范围。"
+  },
+  "参考文献": {
+    "context1": "[]Studer R，Benjamins V R，Fensel D.Knowledge Enginering: Principles and Methods[].Dataand Knowledge Engineering,",
+    "context2": "1998，25(1-2):161-197.  \n王向前，张宝隆，李慧宗．本体研究综述[．情报杂志，2016，35 (6):163-170.  \n[]高桓，漆桂林．动态本体（Dynamic Ontology）[EB/OL]．ht-tps://zhuanlan.zhihu.com/p/30799669，2019-05-03.  \n陆汝铃．面向Agent 的常识知识库[]．中国科学（E辑），2000，30(5):454-463.  \nβDahab MY，Hassan H A，Rafea A. TextOntoEx:Automatic On-tology Construction from Natural English Text[l．Expert Systemswith Applications，2008，34(2)：1474-1480.  \nLiu JH，Xu W T，Jiang H. Research on Dynamic Ontology Con-struction Method for Knowledge Fusion in Group Corporation[.Advances in Intelligent Systems and Computing，2014，278:289-298.  \n罗钧旻，王蕾．基于互表性的动态本体体系结构研究[．微电子学与计算机，2013，30（2)：124-128.  \n邱均平．信息计量学[M]．武汉：武汉大学出版社，2007:105-106.  \nZeshan F，Mohamad R. Medical Ontology in the Dynamic Health-care Environment[J]．Procedia Computer Science，2012,(10):340-348.  \n[10Chen R C，Liang JY，Pan RH. Using Recursive ART Networkto Construction Domain Ontology Based on Term Frequency and In-verse Document Frequency[J].Expert Systemswith Applica-tions，2008，34(1):488-501.  \n[1]Xu J，Li W.Using Relational Database to Build OWL Ontologyfrom XML Data Sources[C]//International Conference on Com-putational Intelligence and Security Workshops.IEEE，2O07:124-127."
+  },
+  "[2]王茜.基于文本挖掘的动态本体构建方法研究[]．北京:中国农业大学，2007.": {
+    "context1": "[13]Lakel K，Bendella F.Dynamic Evaluation of Ontologies[//International Conference on Advanced Wireless Information andCommunication Technologies（AWICT).Tunisia:Procedia Com-puter Science，2015，73:16-23.  \n[14]Marta M，Tanja U，Ingrid P，et al．Autism Research DynamicThrough Ontology-based Text Mining[]．Advances in Autism,2016，2(3):131-139.  \n[15]Kafkas S，Hoehndorf R. Ontology Based Text Mining of Gene-phenotype Associations:Application to Candidate Gene Prediction[．The Journal of Biological Databases and Curation，2019:1-9.  \n[]Lee JH，Segev A.Knowledge Maps for E-learning []．Com-puters&Education，2012，59（2)：353-364.  \n[7]李志义，李德惠，赵鹏武．电子商务领域本体概念及概念间关系的自动抽取研究[]．情报科学，2018，36（7)：85-yU.  \n[8]桂冬冬，王向前，李慧宗．煤矿事故本体自动构建[]．工矿自动化，2019，45（9)：75-79.  \n[9]樊小辉，石晨光．本体构建研究综述[．舰船电子工程,2011，31(6):15-18，53.  \n[0]Shvaiko P，Euzenat J.Ontology Matching:State of the Art andFuture Challenges[]．Knowledge and Data Engineering，IEEETransactions on，2013，25(1)：158-176.  \n[1]吕爽．基于叙词表的医学领域本体的构建研究[]．长春:吉林大学，2011.  \n[2鲜国建．农业科学叙词表向农业本体转化系统的研究与实现]．北京：中国农业科学院，2008.  \n[23]Gao Q，Im C Y. A Dynamic Ontology-based Multi-Agent Con-text-Awareness User Profile Construction Method for PersonalizedInformation Retrieval[．International Journal of Fuzzy Logic andIntelligent Systems，2012，12(4):270-276.  \n[4]Pisarev IA.Development of Information Thesauri and Ontologiesfor Professional Communication in Subject Domains[C]//IEEECommunication Strategies in Digital Society Seminar（ComSDS).Russia:IEEE，2019:43-46."
+  },
+  "[25]李晓瑛，李军莲，冀玉静，等．基于叙词表及其语义关系的本体构建研究[．情报科学，2018，36（11)：83-87.": {
+    "context1": "[26]Zeshan F，Mohamad R. Medical Ontology in the Dynamic Health-care Environment[J]．Procedia Computer Science，2012,(10):340-348.  \n[7]Riano D，Real F，Lopez-Vallverdu JA，et al．An Ontology-based Personalization of Health-care Knowledge to Support ClinicalDecisions for Chronically Ill Patients[]．Journal of BiomedicalInformatics，2012，45(3)：429-446.  \n[8]郑姝雅，黄奇，张戈，等．面向用户生成内容的本体构建方法[．情报科学，2019，37（11)：43-47.  \n[29]Ll Y，Medo M，Yeung C H，et al. Recommender Systems.Physics Reports，2012，519(1)：1-49.  \nB0]Zhou P，Nora E.Ontology-based Automated Information Extrac-tion from Building Energy Conservation Codes[．Automation inConstruction，2017，74（1)：103-117.  \n[1]吴江.互联网资源知识本体自动构建实证研究[．图书情报工作，2011，55（11)：116-120，94.  \nβ2]马莉．基于动态本体知识库的问答系统的研究与实现[D]．桂林：广西师范大学，2009.  \nB3]Lian L，Ma J,Lei JS，et al．Automated Construction ChineseDomain Ontology from Wikipedia[Cl//In Proceedings of the 4thInternational Conference on Natural Computation，2Oo8:670-674.  \nb4]Lauruhn M，Groth P.Sources of Change for Modern KnowledgeOrganizationSystems[J]．KnowledgeOrganization，2016,(43):641-654.  \nB5]Lenat D B，Guha R V. Building Large Knowledge-Based Sys-tems:Representation and Inference in the Cyc Project[．Arti-ficial Intelligence，1993，61:95-104.  \nB6 Gao HY，Chen X X. Ontology and CBR-based Dynamic Enter-prise Knowledge Repository Construction.Journal of Software,2012,7 (6):1211-1218.  \nB7]The Enterprise OntologyEB/Ol].http: //www.aiai.ed.ac.uk/project/ enterprise/，2019-04-25.  \nB8]密阮建驰，战洪飞，余军合．面向企业知识推荐的知识情景建模方法研究[]．情报理论与实践，2016，39（4)：78-83,59.  \nβ9]刘婷．采煤工作面动态本体构建及推理规则研究[]．太原：太原科技大学，2017.  \n40]付苓．基于大数据的领域本体动态构建方法研究——以养生领域本体构建为例[．情报理论与实践，2018，41（1)：135-138.  \n[1]潘有能，刘朝霞．本体映射技术在关联数据中的应用研究[．情报科学，2015，33（1)：54-56，62.  \n[42]张云中，李佳佳：基于社会化标签的电影资源本体构建研究[．图书情报工作，2016，60（12)：130-138.  \n[43]Shvaiko P，Euzenat J. A Survey of Schema-Based Matching Ap-proaches[]．Lecture Notes in Computer Science，2005，4(1):146-171.  \n[4Ochieng P，Kyanda S. Ontologies‘Mappings Validation and An-notation Enrichment Through Tagging[]．Artificial IntelligenceReview，2019，52（4):2623-2650.  \n[5]唐旭丽，马费成，傅维刚，等．知识关联视角下的金融知识表示及风险识别．情报学报，2019，38（3)：286-298.  \n[6贾君枝，崔西燕．人物本体词表之间的互操作及分类体系构建[．情报学报，2019，38（7)：731-741.  \n[7]周建慧，刘继红，杨海成．面向复杂产品工程知识管理的动态本体[]．计算机辅助设计与图形学学报，2016，28(11):1957-1964.  \n[48]王茹娟．本体映射的若干方法研究[]．长春：吉林大学，2012.  \n[49] 王汀，冀付军．基于主题词表与百科知识相融合的领域本体自动构建研究[．情报学报，2017，36（7)：723-733.  \n[0]张辉．企业自演化动态本体表示策略的研究[．计算机工程与科学，2010，32（11)：100-103，106.  \n[1Fudholi D H，Rahayu W，Pardede E，et.al.A Data-drivenApproach Toward Building Dynamic Ontology[C]//Informationand Communication Technology.International Conference，ICT-EurAsia.Indonesia: Information and Communication Technology ,2013: 223-332.  \n52]Kethavarapu UPK，Saraswathi S. Concept Based Dynamic Ontolo-gy Creation for Job Recommendation System [l.Procedia Com-puter Science，2016，(85)：915-921.  \n[3]方芳，徐天馥，沈同平．糖尿病医案本体库的构建及应用研究．中医学报，2016，31（11)：1680-1683.  \nb4Wang JY，Mendori T，Xiong J.A Language Learning SupportSystem Using Course-centered Ontology and Its Evaluation[.Computers & Education，2014，78:278-293.  \n55]Lozano-Tello A，Gomez-Perez A.Ontometric:A Method toChoose the Appropriate Ontology[]．Journal of Database Man-agement，2004，15(2)：1-18.  \nb6Yu J，Thom JA，Tam A．Requirements-oriented Methodologyfor Evaluating Ontologies[]．Information Systems，2009，34(8): 766-791.  \n[57]Chi N W，Lin K Y，Hsieh S H. Using Ontology-based TextClassification to Assist Job Hazard Analysis[．Advanced Engi-neering Informatics，2014: 28(4)：381-394."
+  },
+  "[8]黄奇，钱韵洁，袁勤俭，等．基于图形数据库的产品分类本体存储研究[．情报学报，2019，38（8)：849-859.": {
+    "context1": "[59]Dellschaft K，Staab S.On How to Perform a Gold Standard Based Evaluation of Ontology Learning[C//The Sematic Web-ISWC 2006，Athens:Lecture Notes in Computer Science.2006，4273: 228-241.   \n[0]Gordon C L，Weng C.Combining Expert Knowledge and Knowledge Automatically Acquired from Electronic Data Sources for Continued Ontology Evaluation and Improvement[．Journal of Biomedical Informatics，2015，(57)：42-52.   \n[1]Xing XJ，Zhong B T,Luo HB，et al.Ontology for Safety Risk Identification in Metro Construction[.Computers in Industry, 2019，109:14-30.   \n62]Gomez-Perez A．Evaluation of Ontologies[J]．International Journal of Intelligent Systems，2001，16(3)：391-409.   \n[3]Rico M，Caliusco M L，Chiotti O，et al．OntoQualitas:A Framework for Ontology Quality Assessment in Information Interchanges Between Heterogeneous Systems[].Computers in Industry，2014，65(9)：1291-1300.   \n[4Kim S，Oh S G.Extracting and Applying Evaluation Criteria for Ontology Quality Assessment[]．Library Hi Tech，2019，37 (3):338-354.",
+    "context2": "(责任编辑：陈媛)"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "original_filename": "full_8097.md",
+  "电子商务中信息可视化应用现状分析": {
+    "context1": "摘要：信息可视化自20世纪90年代中期提出以来，出现了各种不同形式的技术。这些技术各自用在不同的领域，形成众多的具体形式。电子商务系统中有众多种类的信息，信息可视化用在电子商务系统中是必然的。本文分析了电子商务中的信息种类，指出信息可视化主要可以运用在哪些信息的管理上，现有的电子商务系统已经出现的一些信息可视化的简单应用，并对应用现状进行了分析。",
+    "context2": "关键词：信息可视化；电子商务；信息管理",
+    "context3": "AbstractDiferent kindsof technologies have emerged since infomationvisualization wasput forward in the middle temof199OsThese technologies are used in diferent domains and have various specific fomsThere are many kindsof infomation in eCommercesystemsThe application of infomation visualization ineCommerce systemsis inevitableThis paperanalyzes the typesof infomationineCommerce systemspointsoutwhere infomation visualization can beused formanagementgivessomeexamplesand discusses how infomation visualization is used in e Comm erce",
+    "context4": "K eyw ordsinfom ation visualization;e Comm erce;infomation managem ent"
+  },
+  "1引言": {
+    "context1": "随着电子技术和因特网的发展，信息技术作为工具被引入到商贸活动中，产生了电子商务（ElectronicCom\"merce EC;或Electronic Business EB)。电子商务是在计算机网络（主要是因特网）的平台上，按照一定的标准开展的商务活动。当企业将它的主要业务通过内联网（Intranet)、外联网（Extranet）以及因特网与企业的职员、客户、供销商以及合作伙伴直接相连时，其中发生的各种活动就是电子商务。电子商务是以信息网络为媒介进行的商务活动，涵盖了一个较大的范围，几乎所有与商务有关的学科都涉及其中。从信息管理和信息系统的角度来看，几乎每一种新思想、新技术、新方法都会很快地应用在其中，用来提高电子商务系统的功能[1]。",
+    "context2": "信息可视化作为一种新的信息管理手段必将被电子商务系统所使用。信息可视化就是利用图形、图像、动画等视觉形式来表示大量信息和信息之间的复杂关系的一种技术[3]。有效的可视化界面使得我们能够迅速高效地与大型数据集进行交互，从而发现隐藏在信息内部的关系、特征和规律，使人们获取信息变得快速而准确。该技术处理非物理空间的、非数值型的高维信息，发现大量金融、通信和商业数据中隐含的规律，从而为决策提供依据，成为可视化技术中的新热点。信息可视化技术是在现代信息处理平台的基础上，根据用户对信息的需要，利用适当的可视化符号表示各种信息和信息内外部的关系，使人们更方便、迅速地与信息源进行交互，发现隐藏在信息中的各类知识。信息的种类不同、信息应用领域的复杂性以及用户的不同需求的多样性，导致人们研究开发了大量形式各异的可视化技术。电子商务系统中有众多种类的信息，同一类信息可使用不同的可视化形式，也可将某一种形式用于各种信息或它们的组合。本文首先分析电子商务涉及的信息种类，指出信息可视化主要可以运用在哪些信息的管理上，现有的电子商务系统已经出现的一些信息可视化的简单应用，然后对应用现状进行了分析。"
+  },
+  "2电子商务中的可视化对象": "",
+  "2.1电子商务系统中的信息": {
+    "context1": "从信息管理和信息系统的角度来看，一个成功的电子商务系统的运行，必定有一个完善的信息系统作为平台。信息以数据的形式存储在信息系统中。技术层面的信息管理最终体现为对数字化数据的有效管理。而信息管理包括对信息的收集、组织、检索、交流和利用等若干个方面。其中信息组织是信息资源管理的基础[4]，一个良好的信息处理手段是信息管理的关键环节。",
+    "context2": "![](images/4a6b29cb2c4b88c146cc129cded65253c73e4ee6174708dc10982fd8c49b2fb3.jpg)  \n图1电子商务系统中的数据种类及其关系",
+    "context3": "实现上述目标必须有一个共同的基础，即信息。电子商务系统中涉及的信息主要有两类共5种（也可以有其他的分类角度)。如图1，一类是实体信息，有“商品”信息、“顾客”信息、“商家”信息；另一类是它们之间的联系信息，有“购买”记录（反映了顾客的购物行为、商品的热销度等）、商品“供货”信息（反映商家的供货能力等）。一般来说顾客与商家之间没有直接的关系。",
+    "context4": "一些信息管理、处理的新技术都是针对上述数据中的某一类或几类而进行的。如网络导航技术以组织“商品”信息为主、信息推荐技术以“顾客”和“购买”为主将顾客分类。信息可视化技术作为信息管理的新技术，在电子商务中被逐步推广是必然的。信息可视化技术的使用主要可以围绕上述几类信息为基础展开。"
+  },
+  "2.2信息可视化的对象和形式": {
+    "context1": "信息可视化首先要明确对谁可视化，即可视化的对象问题；然后要确定对可视化对象的哪些方面进行可视化;最后要选取合适的可视化符号和算法完成该过程[5]。本文讨论电子商务中信息可视化的前两个问题。",
+    "context2": "信息可视化是用视觉符号来表示大量信息及信息之间的复杂关系的技术。按照图1的分析，需要可视化的“信息”有3类，反映“信息间关系”的有两类。目前电子商务系统的信息可视化功能主要是基于“商品”、“商家”、“供货”信息的，针对其他信息的可视化应用还不多见。信息可视化的目的是要通过可视化界面的交互发现隐藏在信息内部的特征、规律，使人们对信息快速、准确地理解。这种针对特征、规律的可视化是有层次的，可以反映抽象的、本质的特征，对应实现起来也较困难；也可以实现对简单的特征、规律的可视化。",
+    "context3": "隐藏在数据深层次中的结构、规律实际上是一些知识。通过人工智能、信息管理、知识发现等技术，人们已经能够表达、处理显性知识，它们通常表现为一些模式(Pattem)，如概念、分类、关联规则、趋势、聚类和孤立点、偏差以及类似性等[6]。描述事物的特征、规律有多个不同的层次，可以针对一个数据，如概念的可视化；也可以对一组数据，如分类、规则的可视化。",
+    "context4": "分析电子商务系统的信息可视化功能，大部分基于概念的信息可视化，有一些是基于分类的信息；而针对其他知识形式的信息可视化还不多见。"
+  },
+  "3电子商务中信息可视化的典型应用": "",
+  "3.1 基于概念的信息可视化": {
+    "context1": "这是目前最多的信息可视化形式。其可视化对象以“商品”信息为最多，同时也涉及其他一些信息。",
+    "context2": "1）事物特征的准可视化。一般地，我们用数值型或非数值型数据刻画事物的各个特征，例如对每一件商品存储其出厂日期，一旦定义了新旧商品的界定日期，则对每件商品来说就有一个“新旧”特征。而新旧的度量标准是一定应用范围内人们普遍认同的综合结果，它是一个规律性的东西。",
+    "context3": "![](images/26367b59f438c9cb82cddbbcfcdff12a4471fc14bc92f6f06886592467be93a2.jpg)  \n图2“中国制造网”商品分类",
+    "context4": "目前的电子商务系统界面上几乎都给出一个商品分类结构，帮助人们寻找商品，实现导航功能。“中国制造网”也不例外[7]（见图 2)。但它在每一小类的文字后面多了一项一一有一个红颜色的“新”字表明该类商品的\"新旧”程度。该例至少有两个地方还未达到信息可视化的标准，一是没有用图形符号表示事物特征。如果我们将这个红色的“新”字理解为一个特殊图符，或用适当的图形符号代替，则上述事例好像已经有信息可视化的功能。二是信息可视化是揭示事物的本质特征，不是代替用户定义概念。不同用户群体、不同的使用时期对新旧的标准是不同的。信息可视化是要给出一个友好的图形界面，尽量使各种用户都能直观地理解事物的特征，并便于用户结合各自需求界定他们的标准。所以上述例子只是在某种程度上与信息可视化有类似之处。",
+    "context5": "2）事物特征的可视化。在“中国电子商务信息网”上对“商家”有关特征的描述则实现了信息可视化功能[8]（见图3)。在其主页上选中“商家”，再点击“办公、文教”，出现对商家信息的描述。点击“打印机”得到图3所示的信息。它对每一个加入的商家的级别进行可视化描述，分为4个级别，红色的“星”越多，表明级别越高。",
+    "context6": "同样的思想也出现在 Yahoo中，在 Yahoo的 Shopping中对“商品”进行了星级描述[9] (见图 4)。而且更加精细，它对每件商品都标出5颗星，分红色和灰色两种。总数表明了级别的最大可能，红色星是本商品的级别。这样，既描述该商品的绝对特性，也刻画了其相对特性。",
+    "context7": "![](images/da75bdb959ee388d9e61f575c89d654d84cb562a34e42ae319cb20909a25ca5b.jpg)  \n图3“中国电子商务信息网”商家描述",
+    "context8": "![](images/86a5deb02ffe7b984417c596a620f9d30f2bcc6764f34d1f960c9f1f627b79e9.jpg)  \n图4Yahoo Shopp ing中的商品特征描述",
+    "context9": "3）总体特征的可视化。在商品的分类结构中，最后一级当然是具体的商品。对它的特征，如数量、新旧程度等可以可视化处理。而对于中间各个节点，它们代表的是一类商品，除上述的类似问题外，往往要对它们的总体特征进行可视化，最典型的就是对每一分类给一个分类标志[10]。图5是8848网站中使用的商品分类标志符号[11],图6是Yahoo Shopping中所采用的[12]。其他还有很多商务网站都采用了该方法。",
+    "context10": "![](images/abef269df0b588cd2f4483850edcfc6af1de5f6f18ef56dcd79ffb240a76a1b8.jpg)  \n图58848中商品",
+    "context11": "![](images/260ca56da9c42bd015e3c5a6e720f0e4197c0f8b96baed3ec65120bc64863291.jpg)  \n图6Yahoo Shopping中商品类的特征描述"
+  },
+  "3.2 基于层次结构的信息可视化": {
+    "context1": "更有意义的可视化是对信息间各种结构关系的可视化。当人们同时了解信息的全局结构和局部特征时，才能更好地接受系统。信息可视化总是想方设法地使人们对信息能在全局和细节上同时把握。这些关于信息间结构关系的形式主要有分类树、关联规则、趋势、聚类、偏差等。针对它们的可视化技术和方案已有很多[14-16]。但目前在电子商务系统只有很少的应用。",
+    "context2": "“慧聪网”中，对商品信息组织采取了树状可视化技术[13]（见图7)。该系统使用了轮廓图（OutlineView）可视化方法，轮廓图是最早出现的树状可视化技术[17]，用来可视化磁盘的文件结构，在UNIX的“du”命令中也使用。Windows操作系统使它变得更加完美。",
+    "context3": "![](images/b7d65b50832cb2b4feed35a6e083ee42aa2729a26c8d5b9363f53d3badf72469.jpg)  \n图7“慧聪网”的商品信息树状组织"
+  },
+  "4应用现状分析": {
+    "context1": "上面几个典型例子基本上涵盖了目前电子商务系统中信息可视化技术的应用情况。从信息可视化现有技术的发展情况来看，较之与其他信息系统，如统计分析工具SPSS、数据挖掘工具DBMiner以及数据库管理系统Oracle等，电子商务系统中信息可视化的应用是比较落后的。"
+  },
+  "4.1信息覆盖范围窄": {
+    "context1": "一些常用的可能进行可视化的特征有： $\\textcircled{1}$ 客户信息的年龄分段、收入状况、地域分布等。 $\\textcircled{2}$ 商品信息的数量、库存数量、新旧程度、价格等级等。 $\\textcircled{3}$ 商家信息的地域分布、规模、品牌档次、社会声誉等。 $\\textcircled{4}$ 根据购物记录分析出来的用户兴趣度[18]、客户诚信度、客户星级、商家诚信度、商品销售速度等。 $\\textcircled{5}$ 根据供货情况分析出来的商家星级、诚信等级等。"
+  },
+  "4.2可视化形式单调": {
+    "context1": "1)树型结构。信息可视化有众多的技术方法，其中较为常用的也有多种[19]。以树型结构关系为可视化框架的技术中，轮廓图（OutlineView）最简单和表现力最弱，但是最常用的。为了更好地利用有限空间最大限度地展示信息集合及其结构关系，人们陆续研制了其他一些基于树状结构的可视化技术，这些技术可以分为两大类：一类是节点连线式的树状可视化技术，主要有H树（ $\\mathbf { H } \\mathbf { \\Sigma } ^ { - } \\mathbf { t r e } \\mathbf { e } \\mathbf { \\Sigma } )$ ，射线图（RadialView)，气球图（BalloonView），双曲树（Hyperbolic-tree)，锥形树（Cone-tree）等[20-21]。再一类是基于空间填充式的树状可视化技术，主要有树图（Treemap）、柱图（Icicleplot)、圆环图 $\\mathrm { ( T r e e ^ { - } r i n g ) } ^ { [ 2 2 ] }$ 以及基奥普斯图（Cheops）[23]。这些技术在其他信息系统中已经开始使用，但在电子商务系统中还难见踪影。",
+    "context2": "2)图符选择。当表达树型结构的关系时，可视化重在表示节点的关系，对节点（各个层次的分类）的特征表达是次要的。节点的特征可以看成是分类中事物的总体特征，它的可视化与事物个体特征的表达不同。一种主要的方法是设计一个好的图符。可视化要注意以下几方面：",
+    "context3": "·图符的直观表意性。可视化的目的是增强人们的认知能力，提高理解效率，减少利用信息复杂度。如果表意选取不当，反而会增加系统负担。如图5中所用的图符，如果没有文字说明，恐怕很难理解图符的意义。",
+    "context4": "·图符超越语言性。可视化增强人们的认知能力还表现在语言文字表达十分清楚的情况下。由于不同文化背景的语言是不同的，人们一般不能同时阅读多种文字。而可视化将解决该问题，易于电子商务的全球化。图6中由于图符的合理性，用户不需要文字也可理解商品的类型。",
+    "context5": "·标准化图符。最终解决问题的应该是图符的标准化问题。图符应该是直观表意的、通用的，更应是标准的。标准化图符库的建设将是重要环节，没有标准化，就没有现代化[24]。标准图符的选择必须符合行业、领域的习惯，直观表意的图符将最容易被广泛地接受。"
+  },
+  "4.3可视化层次不高": {
+    "context1": "信息是对事物外部特征与内部特征进行的描述，能够符号化并能被处理的信息称为数据。描述事物的信息从简到繁、由表及里可有多个不同的层次，因此描述事物仅仅用一个数据是不够的。当多个数据项描述一个事物时，我们称这些数据为事物的属性。为了描述事物某一属性的数据可以用一个简单数据，如数值、字符、一副图像、一段声音等。描述一个完整事物则需要用多个简单数据构成一个复合数据，例如数据库技术中的记录。",
+    "context2": "因此可视化技术就是要对上述不同层次的信息进行可视化处理。相应地，一个具体的可视化技术必然是对上述某一方面进行可视化处理，或者是将两种以上的技术集成到一起，形成更方便、更高效的可视化系统。从上述电子商务的信息可视化应用情况来看，目前还处于较低的层次，仅仅是对信息的某些特征进行可视化处理，对信息的结构关系进行可视化只有少量的涉及。□"
+  },
+  "参考文献": {
+    "context1": "[1］杨峰，周宁．基于数据库技术实现的电子商务中的个性化服务［J]．图书情报知识，2004（4)：74-75  \n[2]Zhou Ning Wen Yanping LiuWei On the methods of inform ation resources visualization ［C]//The Proceed ings of D ig-italLibrary-IT Opportun ities and Challenges in the New M illen-nium. Beijing: Beijing Library Press 2002:101-106  \n［3］文燕平，周宁，杨峰．浏览界面可视化研究［C］/信息可视化与知识管理——2003信息化与信息资源管理学术研讨会论文选，2003（11)：62-69中国知网..https://www.cnki.net"
+  },
+  "·情报理论与实践·": {
+    "context1": "［4］周宁．信息组织［M]．武汉：武汉大学出版社，2001   \n［5］张进．“信息可视化”专辑简介［J]．现代图书情报技术， 2004 (10):1-2   \n[6]Jiawei H，Kamber M.Data m ining concepts and techniques [M].[S1]:Morgan Kaufnan PublishersInc2001: 230-300   \n[7] [2006-06-26].htp:/nmadein-chnacom/produets/ catlist/listsubcat/lO5/0O /m ic/made-in-chinahtml   \n[8] [2006-06-26].htp://www.cnebnet   \n[9] [2006-06-26].http:/shoppingyahoocom   \n[10］周宁．信息资源描述与存储的可视化研究［J]．情报科 学，2004，22(1)：10-12   \n[11] [2006-06-06].http://www.8848.com   \n[12] [2006-06-06].htp:/shoppingyahoocom   \n[13] [2006-06-26].htp:/mmtmachine $\\mathbf { h c 3 6 0 }$ com /mer chant/sale 003006003 /.hm   \n[14] Jing Y，Ward M O，Rundensteiner E A.Interactive h ierarchi cal displaysa general fram ework for visualization and explora\" tionof large multivariate data sets[J].Com puters& G raph ics 2003，27:265-283   \n[15] Chaomei CEmpirical evaluation of infom ation visualizations an introduction[J]．IntJHuman Com puter Studies2000, 53:631-635   \n[16] Hujun Y.Nonlinear multid im en sional data projec tion and visu\" alization ［C」//Intelligent Data Engineering and Automated Leaming 2003SpringerVerlag Berlin Heidelberg 2003，ISBN 0302-9743: 377-388   \n[17] Johnson B,Shneideman BTree Map:aspace filling approach to thevisualization ofhierarchical infomation structures [C]//IEEEVisualization 91,1991:284-291   \n[18] Comm odity in te resting visual tree:a visualized m odel of custom \" er in terests based on comm od ity h ierarch ical struc ture in E-com - merce site ［C]//The fourth Wuhan in temational conference on E business June 2005: 689 -694   \n[19] LeB lanc JWard M O，W itels N.Exploring n-dim ensional database[C]//Proceeding of V isulization 90,1990:230-237   \n[20] Melan on HG，MarshallM SGraph visualization in infom a tion visualization:a survey[C］//IEEE Transactions on Vi sualization and Com puterG raphics 2Ooo: 24-43   \n[21] N guyen Q V，Huang M L A space-optin ized tree visualization [C]//Proceedings of the IEEE Sym posium on Infom ation Vi sualization 2002（InfoV is02)，2002：85-92   \n[22] Barlow T,Neville PA com parison of2-D visualizations of hier archies[C]//Proceedings of the IEEE Sym posium on Infor mation V isualization 2001（InfoV is’O1)，2001:131-138   \n[23] Beaudoin LParent M A，Vroomen L C Cheopsa compact explorer for complex h ierarch ies［C]//ProcV isualization’ 96,1996:87-92   \n[24］周宁．信息资源数据库［M]．武汉：武汉大学出版社， 2001:150",
+    "context2": "作者简介：杨峰，1968年生，博士，副教授。收稿日期：2006－12-08"
+  }
+}

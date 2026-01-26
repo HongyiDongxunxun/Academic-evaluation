@@ -1,0 +1,104 @@
+{
+  "original_filename": "full_1436.md",
+  "人文社会科学研究中文本挖掘技术应用进展": {
+    "context1": "郭金龙 许鑫陆宇杰",
+    "context2": "华东师范大学商学院信息学系上海200241",
+    "context3": "（摘要）指出作为处理海量数据的有效工具，文本挖掘技术近年来在人文社科领域得到广泛重视。概述文本挖掘的相关技术和研究现状,介绍信息抽取、文本分类、文本聚类、关联规则与模式发现等常用的文本挖掘方法在人文社科研究中的具体应用，以拓展文本挖掘的应用领域，并为人文社科研究的方法创新提供新的思路。"
+  },
+  "（关键词）文本挖掘人文社科技术应用": {
+    "context1": "（分类号）TP391"
+  },
+  "Progress of Text Mining Applications in Humanities and Social Science": {
+    "context1": "Guo JinlingXu XinLu Yujie Department of Informatics，Business School，East China Normal University，Shanghai 200241 (Abstract）Asanefective methodtohandledatadeluge,textmining hasearnedwidespreadrespetinhumanitiesandsocial science inrecentyears.Tispperfirstlysummarzes therelevanttechniquesoftextminingandcurentsituatioofstudy，thenintroducesspe cificapplicatiosoffrequentlyusedtextmningtechqeslikeifoationxtraction，textclasiicationtextlusteingociatio rulesand paterndiscoveryinthedomainofhumanitiesandsocial science，soastoexpandthedomainof textminingaplicationas well as providing new ideas for humanities and social science research.",
+    "context2": "(Keywords）text mining humanities and social sciencetechnology application"
+  },
+  "1 文本挖掘概述": {
+    "context1": "文本挖掘(textmining）是一个跨学科的交叉研究领域,涉及到数据挖掘、机器学习、统计学、自然语言处理、可视化技术、数据库技术等多个学科领域的知识和技术。目前关于文本挖掘并没有统一的定义，关于文本挖掘的名称亦有“文本数据挖掘（textdatamining）”或“文本知识发现(knowledge discovery in text）”等不同说法。一个比较广泛使用的定义是：文本挖掘是指为了发现知识,从文本数据中抽取隐含的、以前未知的、潜在有用的模式的过程。它是一个分析文本数据，抽取文本信息，进而发现文本知识的过程。",
+    "context2": "一个完整的文本挖掘过程一般包括预处理、模式挖掘、模式评价等多个步骤，其中包含了多种文本处理与挖掘技术,如数据预处理技术中的分词、特征表示、特征提取技术,挖掘分析技术中的文本结构分析、文本摘要、文本分类、文本聚类、关联规则、分布分析与趋势预测等技术以及信息展示中的可视化技术等。",
+    "context3": "文本挖掘技术拓展了现有的数据挖掘技术，把挖掘的对象从结构化的数值数据扩展到非结构化的文本数据，因此可以帮助我们从海量的文本数据中发现新的模式、模型、规则、趋势等知识,目前在很多领域得到了广泛应用。文献计量的结果表明，近年来国际上文本挖掘的研究论文呈迅猛上升势头。以“textmining”为主题词在WebofKnowledge(WoK)中检索可得与文本挖掘相关的论文3049篇(截至2010年），且呈逐年上升的趋势(见图1）。从WoK学科统计来看,目前文本挖掘技术的研究主要集中于计算机科学、计算生物学、数学、医药信息学、生物化学与分子化学、信息科学、医学等自然科学领域，论文总数占文献总量的$82 \\%$ 。相比而言,人文社会科学领域的论文则较少,两者之和为 $18 \\%$ ,其中人文科学仅为 $1 \\%$ （见图2）。",
+    "context4": "由于互联网时代学术资源生产与传递方式的变化，以新的方法和技术从海量文本中发现隐含的知识和模式,成为情报学中最有前景的领域之一。由于人文社科文献的非结构化特征更加明显，文献中包含的隐性内容更多，能否在人文社科领域成功运用文本挖掘就成为了检验文本挖掘的方法论优势的试金石。本文以文本挖掘的几个关键技术一信息抽取、文本分类、文本聚类、关联规则、模式发现与可视化技术为主要线索，分析发现文本挖掘技术在人文社科研究中的应用特点,以便为人文社科研究中更加自觉地应用文本挖掘方法提供新的思路。",
+    "context5": "![](images/63804e95ccc2da76ecf04b19bf11ba98203dbb959ca13c306e78de8dac09763b.jpg)  \n图1WoK文本挖掘文献统计(时间分布)",
+    "context6": "![](images/1cf284f8a66e4efe98f271b15795ab98b91af47176061f8663a120a435a6f0d5.jpg)  \n图2WoK文本挖掘文献统计(学科分布)"
+  },
+  "2信息抽取应用": {
+    "context1": "信息抽取（information extraction）是文本挖掘的前端技术,它从文本对象中抽取预先指定的实体、关系、事件等信息,形成结构化的数据并输入数据库。信息抽取所获得的结构化信息片段从一个角度反映了文本内容的内在特征，因此通过机器学习等方法可以从中发现知识、挖掘知识,为科学研究提供有力的支持。",
+    "context2": "信息抽取作为一门独立的内容处理技术,其本身在商业、情报分析、数字图书馆等领域有着广泛的应用,已有较多专门的信息抽取系统投入商用。在人文社科研究中，信息抽取常常作为文本挖掘的一个重要步骤,作为知识发现技术的前端和基础。文献[-3]构建了基于信息抽取的文本挖掘模型,均把信息抽取作为文本挖掘的一个重要组成部分，是提高文本挖掘效率的一个手段。文献不仅讨论了信息抽取对文本挖掘的作用，而且证实了通过文本挖掘得出的规则对信息抽取系统具有指导作用。除了作为文本挖掘的前端技术,信息抽取技术在改善信息检索、辅助知识发现方面在人文社科研究中有着较多的应用。"
+  },
+  "2.1改善信息检索": {
+    "context1": "传统的信息检索只能通过关键词与文档的匹配返回与用户需求相关的文档,而信息抽取则可以帮助用户直接定位所需的信息，无需阅读文档的全部内容。由于在处理海量数据时具有出色表现,信息抽取在多个人文社科领域得到了应用。在古典文学研究领域，德国莱比锡大学承担的eAQUA项目从古典文献资料（公元前3000年－公元600年）中抽取特定领域的知识,并通过eAQUA门户免费提供这些知识。在文献]中,英国伦敦国王学院的Matteo(2010)介绍了一个信息抽取在古典文学中的应用研究项目，该项目旨在对当代关于古希腊和拉丁文学作品进行研究的二手文献进行实体抽取,并提供与原始文献之间的关联，从而提供更高级的信息展示和检索功能。在社会学领域，英国联合信息系统委员会(JISC)资助的ASSERT项目综合利用信息抽取、文本聚类等技术提供了一个自动生成文献综述的系统。信息抽取技术与信息检索技术互相融合渗透，为人文社科领域海量信息资源的获取提供了极大的便利。"
+  },
+  "2.2辅助知识发现": {
+    "context1": "除了在精确信息检索中的应用，信息抽取在辅助知识发现中同样有着广泛的应用。在文学研究中，信息抽取技术与社会网络分析相结合被用来对文学作品中人物的社会网络关系进行自动分析。Elson等(2010年）对60部19世纪的英国小说和期刊进行了社会网络关系挖掘。通过识别由引号标记的人物对话，然后指派给特定角色，构建了小说中人物的社会网络关系，并研究了抽取的人物的社会网络特点、社会网络之间的关系以及社会网络与小说背景和特征的关系。文献－10]则研究了如何从文学作品中自动抽取人物社会网络关系的方法。在历史学研究中，信息抽取可以抽取相应的历史文本中的地名、人名等特定信息，通过信息可视化发现历史事件随时间和空间的演变规律。相关项目有英国艺术与人文研究委员会(AHRC)资助的Hestia项目[、美国国家人文基金(NEH)资助的北德州大学的历史领域文本挖掘与可视化应用项目[等。在经济学研究中,信息抽取可以用来自动抽取相关经济体的属性数据和关系数据。丁堃[以我国31个省、市、自治区的区域经济发展为研究对象，以各区域《政府工作报告》为数据源，通过抽取各区域经济的属性数据和区域经济间相互引用的数据，对区域经济的聚合状况和相互关系进行了研究。在法学研究中,信息抽取帮助对法律案件进行论据的抽取以辅助案情的分析,用于识别犯罪网络。在政治人物研究中,利用词汇集中度等信息抽取方法可以识别哪些是参议院的重要成员[。在社会学研究中，信息抽取可以分析会议记录并抽取关键决策要素[1]。",
+    "context2": "可以看出，作为文本挖掘技术中关键性的基础技术之一，信息抽取在人文社科研究中已经发挥了巨大的作用。在知识发现中,信息抽取主要是作为一种辅助技术,通常需与社会网络分析、聚类分析、可视化等方法相结合，以发现文本中隐含的深层知识。从这一点来看，文本挖掘的精度很大程度上取决于信息抽取技术的发展。"
+  },
+  "3文本分类应用": {
+    "context1": "文本分类是指利用计算机自动将一篇文档归入预先定义的几个类别中的一个或几个的过程。文本分类一般包括了文本的表达、特征选择、分类器的选择与训练、分类结果的评价与反馈等过程。由于分类模型的训练需要通过人工标注等方式给出类标签，因此文本分类是典型的有监督（supervised）机器学习应用。在涉及海量数据处理的领域如搜索引擎、数字图书馆、档案管理等，文本分类有着广泛的应用。在人文社科研究中,文本分类除了基本的应用(如按主题对文档进行分类外）,还有着更广阔的应用前景。这是因为很多问题如作者归属、文本过滤、情感判断、话题跟踪等都可以转化为基本的分类问题。根据文档的不同特征，文本可以按照基于主题、情感、风格等多种方式进行分类,这些分类任务各自都有着不同的用途。"
+  },
+  "3.1基于主题的分类": {
+    "context1": "基于主题的分类又叫基于内容的分类,可以对文档按主题进行自动归类，是研究较多的一类分类问题。在文学研究中,通过对图书、音乐和电影的评论进行分类可以探究相关作品对读者的影响,通过反馈进一步促进文学创作和研究的发展。Hu Xiao等（2006年）构建了一个评论挖掘系统,对图书、音乐和电影的评论进行了类别的自动分类和自动评级，并探究了书评和影评以及虚构与非虚构类书籍评论的区别。在教育学研究中，基于主题的文本分类被用来对英语阅读选篇进行自动选择[。在法学研究中,通过文本分类可以对法律案情文本进行自动分流,减轻工作人员的负担 。"
+  },
+  "3.2基于情感的分类": {
+    "context1": "基于情感的分类,又叫情感计算、情感分析、观点挖掘或文本意见挖掘等。情感的分类可分为两个层次：一个层次主要提供关于一个对象、一个话题或事件的看法的总体概况,不能发现观点的具体细节;另一个层次是基于特征的观点挖掘和比较语句与关系挖掘，它深入到语句层次，识别特定观点针对的对象和属性。",
+    "context2": "自动的情感分析在人文社会科学研究中应用非常广泛。通过对大规模的文本进行情感分析，可以发现隐含在其中的观点，而无需阅读全文。目前情感分析在社会调查、政党立场评价、网络舆情分析等领域得到了广泛的应用。Pieri(2008年）主持了一个由 JISC资助的社会科学项目。该项目旨在调查国家报纸上人们关于议会提出的 National Identity Scheme 计划的争论,通过挖掘报纸上人们对引进这一项目的反对或肯定评论,得出民众对于该项目的主要态度，以辅助决策。Benoit(2009年）、Konig（2010年）等则探究了观点挖掘方法在政党立场、意识形态分析中的应用。"
+  },
+  "3.3基于风格的分类": {
+    "context1": "基于风格的分类不同于基于主题和情感的分类。基于主题的分类实质上是在内容上的分类，也就是在词汇、句子乃至整个篇章所传达的主要思想上的分类。而基于风格的分类是在形式上的分类，也就是文章的语言特色上的分类。文章风格分析主要是利用计算机辅助的技术对作者在用词、句式等方面的特点进行定量统计分析。",
+    "context2": "文章风格的分析有多种用途,最重要的一类应用是对作者归属（authorship attribution）的研究。作者归属指通过对文章风格特征的分析确定身份不明的作品的作者。通过文章风格的统计分析进行作者归属的研究是基于这样的假设，即每个作者的风格都有某些无法被有意篡改的独特特征,风格分析的目的正是识别一个作者区别于另一个作者的特征2。作者归属在确定年代久远的古典文学作品的作者、判定匿名邮件的作者身份以辅助案件的破获方面很有价值。张运良等(2009年）利用分类器研究了红楼梦的作者问题。年洪东等（2010年）对现当代文学作品的作者身份识别进行了研究。日本同志社大学的金明哲利用文本作者身份识别方法帮助日本警视厅侦破了一起故意杀人案件。金明哲通过文章作者身份识别的方法判定作为线索的信件均为嫌疑人伪造，最终破获了这起悬而未决的案件。",
+    "context3": "除了对作者的身份进行识别外,基于风格的分类可以对文学作品等进行风格流派的自动分类。国内在对唐诗宋词的计算机辅助研究中取得了一系列成果7-28,对唐诗宋词的风格分类(如分成豪放和婉约)取得了较高的准确率和召回率。"
+  },
+  "3.4基于其他特征的分类": {
+    "context1": "除了以上三类常见的文本分类应用外,还可以根据文章的其他属性特征进行不同的分类研究，如在文学作品中可按照文章的体裁、语体、感情色彩等进行分类。这些分类研究的意义主要在于探究相关文学作品的思想特征是如何表达的,以辅助人文研究者对相关作品进行批判性分析。Horton等(2006年）对19世纪美国的情感小说进行了基于机器学习的情感分类研究,探究了小说情感（sentimentalism）的表现形式。Plaisant等（2005年）对美国19世纪著名女诗人艾米丽·迪金森的书信进行了挖掘,通过把作品分成“hot\"和“nothot”,然后让机器进行学习,进而分析对分类贡献较大的特征词汇（predictor）得出了其诗歌中色情(erotic)特征的表现方式。",
+    "context2": "不同分类任务最本质的差异在于文本特征选择的不同。一个领域的“停用词”(stop words)表也许对另一个领域的分类任务具有重要意义。如在文学作品的分类问题中，通常作为“停用词”的虚词、助词等就是表征作品的重要特征词。有些领域需要一些专门的“停用词”,如对法律案情文本进行分类时，‘犯罪嫌疑人”、“受害人”、“报案”等就可作为专用的“停用词”。在对一些特殊文本进行分类时,应该充分利用文档的特征。如对专利文档进行分类时，特征提取过程中应该充分利用专利文本区别于一般文本的特征如用单独行标出的技术领域、技术背景、技术问题、实现本发明的最佳方式等。",
+    "context3": "用于文本分类的算法有很多，常见的有决策树、朴素贝叶斯(NB)、支持向量机(SVM）、K-近邻等。在很多领域,支持向量机表现出比较出众的性能。然而Yu Bei(2008年）的实验表明,文学领域的文本分类,SVM并不总是最优的,朴素贝叶斯在某些方面表现更出色。另外,不同的预处理手段,如去“停用词”和取词干(stemming)等对分类算法也有较大影响。",
+    "context4": "表示等过程，然而文本聚类无需进行复杂的训练，文本处理的自动化程度更高。用于文本聚类的算法有很多,大致可以分为两种类型:以G-HAC等算法为代表的层次凝聚法和以K－means等算法为代表的平面划分法。与文本分类类似,文本聚类在人文社科研究中也有着许多独特的应用。"
+  },
+  "4.1热点发现": {
+    "context1": "文本聚类由于可以自动聚合文本,因此被广泛应用于热点发现。在管理学研究中，通过文本聚类方法可以分析学科热点，进而对学科趋势进行预测。丁堃等（2007年）以中国期刊全文数据中与“知识管理”相关的5102篇文章为数据源，利用有序聚类的方法把我国知识管理学科的发展分为三个阶段并进行了分析。在另一篇文章中，则利用文本聚类方法对我国科技管理研究领域的热点问题进行了自动识别。吴星玮等(2007年）利用自组织特征映射算法对中国人类工效学的文档进行聚类分析，得到领域里的主要研究类别、趋势。宣照国对科研项目申请书进行聚类分析，形成了项目类,并对项目类和学科代码之间的关系进行了分析。在传播学研究中，文本聚类可以用于主题事件检测、热点话题发现、舆情焦点跟踪等。王伟等(2009年）通过二次聚类的方法进行了网络舆情热点发现的研究与实验。黄宇栋等（2009年）构造了大规模中文信息聚类模型,应用于互联网媒体信息热点主动发现。唐果等（2010年）将改进的聚类方法用于BBS热点主题的发现。"
+  },
+  "4.2信息组织与检索": {
+    "context1": "作为对大规模文本自动处理的预处理步骤，文本聚类在信息组织与检索中也有着广泛的应用。通过文本聚类可以自动组织某一主题的文献，并为检索和浏览提供便利。在新闻传播领域,英国的BBCPilot Pro-ject项目利用话题可视化和聚类技术进行了新闻内容的聚合与展示。在公安信息领域，文本聚类可以实现数据库中案件相似性检索，为公安业务人员案件串并提供辅助手段[。在科研领域,通过对科研项目进行聚类,从中发现相同、相似和创新性项目，以提高科研管理与决策水平 。"
+  },
+  "4.3其他应用": "",
+  "4 文本聚类应用": {
+    "context1": "文本聚类没有人工预设好的类标签，是典型的无监督（unsupervised）机器学习应用。文本聚类的预处理步骤与文本分类类似,都需要分词、特征选取和文本",
+    "context2": "除了用于热点发现和相似性检索外,针对不同学科领域的需求,文本聚类在多个人文社会学科中产生了一些探索性的应用。在教育学中,文本聚类被应用于大学生英语作文自动评分的研究中。在经济、金融领域,文本聚类被用于对股票、区域经济的聚类[,拓展了传统的经济学研究方法。在文学领域，文本聚类可以对作品中重复出现的频繁模式进行聚类,以发现独特的文学手法。",
+    "context3": "由以上分析可知，文本聚类的用途非常广泛。简单的文本聚类,用关键词代表一篇文档，然后对关键词进行聚类，这与传统的数据挖掘中的聚类方法类似。复杂的文本聚类，则涉及到相对复杂的文档表示方法。同文本分类类似，特征选取对于聚类效果具有关键性的影响。以新闻事件检测为例,仅考虑传统的文档向量之间的相似度计算精度是不够的。时间是新闻文档中最重要的要素,因此,事件检测中考虑时间因素这个特征将会提高分类精度，改善聚类效果。同样地，将从其他领域借鉴的聚类算法应用到人文社科领域时需考虑其适用性，应根据不同的场景，选择合适的特征选择方法和聚类算法。"
+  },
+  "5关联规则挖掘": {
+    "context1": "关联规则理论，最初用于挖掘大型事务数据库中项与项之间的关系,近年来已经被广泛应用于文本信息处理。关联规则是描述一个事物中某些属性同时出现的规律和模式的分析方法。在关联规则的挖掘中，支持度表征的是规则的频度，置信度表征的是规则的强度。支持度越高，说明规则在文本集中越是经常出现;置信度越高，说明该规则的内容越可靠。关联规则的经典算法是Apriori算法,很多研究者对其进行了改进并在多个领域予以广泛运用。",
+    "context2": "在教育学研究中，关联规则既可以挖掘教育信息数据库，为学校的教育决策和教学管理提供指导信息，也可以挖掘在线学习的记录并进行个性化推荐。曲春锦(2005年）利用改进的关联规则算法对上海海事大学的教育信息数据库进行了关联规则挖掘，发现了一些对教学管理有指导意义的规则。易明等（2009年）利用关联规则算法挖掘用户浏览的Web文本中频繁特征词条集，基于频繁特征词条图生成Web用户兴趣视图以提供个性化信息推荐服务。",
+    "context3": "在政治学研究中，关联规则用来对政治导向的文本进行分析以发现隐藏的相关信息。Fatudimu等（2008年）对《尼日尼亚卫报》中关于2007总统竞选前后一段时间的报道进行关联规则挖掘，得出了竞选中的重要事件特征与关注焦点，并发现竞选前后利益相关者的观点具有较强的关联性。",
+    "context4": "在网络安全研究领域，关联规则可以用来识别有害词串,过滤不良信息。李钝等(2006年）提出一种关联规则新算法,用以识别变形的主题词,对关键字和主题过滤提供了补充,可以有效识别出没有词义但频繁出现的有害词串，提高了基于内容的安全过滤的效率。",
+    "context5": "由于非结构化文本的快速增长，关联规则在文本挖掘中的应用越来越普遍。但是与其他文本挖掘技术如文本分类、聚类等相比，其应用还相对较少。现有的关联规则方法在检索扩展、文本聚类[51-5和文本分类53-54中的应用较多,而直接用于知识发现的研究则相对缺乏。对知识发现的应用而言，关联规则的发现具有重要意义。因此，关联规则挖掘的方法在人文社科研究中的应用还有待进一步增强。"
+  },
+  "6模式发现与可视化技术": {
+    "context1": "文本挖掘与可视化技术有着密不可分的联系。一方面，现有的很多文本挖掘工具提供了可视化的操作界面,另一方面,文本挖掘的结果,即从文本中挖掘出的模式、规则和知识通过可视化的方式才能更好地展现和被理解。在对海量文本进行分析和处理时,可视化的作用更加明显。前面所述的几类文本挖掘应用中,已经或多或少运用了可视化技术。总体而言,在人文社科研究中,可视化技术在文学作品的模式发现、历史地理可视化方面的应用较为典型。"
+  },
+  "6.1文学作品中的模式发现": {
+    "context1": "在国外近年来兴起的数字人文研究热潮中，对文学作品中的模式进行挖掘和展示成为了一个研究热点。如在对格特鲁德·斯坦因的TheMakingof Ameri-cans(以下简称Making）这部作品的挖掘中,用到了多种文本挖掘与可视化技术。",
+    "context2": "Don等（2007年）b开发了一个名为FeatureLens的可视化工具，可以按照不同层次的粒度对文本集合进行可视化，通过捕获重复或相似的表达来发现文中n-grams的频繁项集。用户通过该工具可以发现有意义的文本共现模式，并且能够发现文本模式随时间的变化。Clement等(2007、2008 年）[45-5d@利用该工具对Making进行了深入挖掘,对文本中每一个重复模式从三个维度一一长度、频率、位置进行了详细分析,并结合对文本上下文的理解对该作品进行了“远距离阅读\"（distant-reading）。",
+    "context3": "Vuillemot等(2009年）开发了POSvis可视化工具,用以对作品中一个或多个人物附近的话题或用词进行可视化，并在指定的分析窗口中进行比较。Clem-ent等(2009年）b利用Wordle（一种对词语进行可视化的工具)对Making的文本进行了可视化,发现“one”这个单词在Making中出现的频率均高于其他参照小说。因此,他们利用POSvis工具研究了“one”在小说中的不同阶段使用情况的变化,证实了相关研究假设。"
+  },
+  "6.2历史地理可视化": {
+    "context1": "在历史学研究方面，越来越多的研究者开始借助GIS 技术进行历史知识和历史事件的静态和动态的可视化展示研究。历史领域的可视化一直是史学界的研究热点，通过与文本挖掘技术相结合，可以给历史研究者带来更大的便利。文本挖掘可以抽取相应的历史文本中的地名、人名等特定信息,然后通过GIS技术进行可视化，以发现历史事件随时间和空间的演变规律。",
+    "context2": "相关研究项目得到了国家基金的资助。美国国家人文基金(National Endowment for Humanities，NEH)资助了北德州大学的一个历史领域文本挖掘与可视化应用的项目。该项目将结合文本挖掘技术和GIS可视化技术对历史报纸进行挖掘和可视化展示。文本挖掘的作用在于从海量的数字化的历史报纸中发现散布在文本中的语言模式,可视化技术可以把这种语言模式按照时间和空间的转变进行可视化展示。",
+    "context3": "另一个较有影响力的项目是由英国艺术与人文研究委员会(AHRC)资助的Hestia项目。该项目提供了研究古代世界空间概念的新方法，通过对希罗多德(希腊的历史学家)历史作品中提到的地点及其地理特征的描述进行信息抽取和可视化，提供了可以深入挖掘文本拓扑结构的可视化工具。",
+    "context4": "可视化技术与其他文本挖掘方法的结合为探究文本中复杂的模式和发现新知识提供了一种有效的方法。事实上,在社会科学研究中,信息可视化一直是一个较热的领域。如,在情报学领域,利用信息可视化方法可以展示科研领域的热点、交叉和衍化趋势 b59-d并对科技文献进行深度挖掘等。在法学研究中，信息可视化与社会网络分析相结合被用于犯罪网络的发现、鉴别与分析2-6。可视化方法在人文社科研究中的应用虽然刚刚起步，但已显示出广阔的应用前景。"
+  },
+  "7结语": {
+    "context1": "文本挖掘在人文社科研究中的应用范围非常广泛,同时,其在人文社科研究中的应用有一些不同于自然科学的特点。一方面,在挖掘目标上,人文社科研究往往不以直接的科学发现为目标，而是运用文本挖掘方法来进行一些辅助的研究和发现。以文学领域的文本分类应用为例,分类的准确度并不是其目标，而构成不同类别的指示词(predictor)才是探究文学语言模式的关键;另一方面,在算法的选择和使用上,人文社科领域的文本有其独特的特征,因此,计算机科学中的相关算法应用到该领域时需进行适当的调整。如在文学研究中,有些停用词、词语的不同形态等是作品特点的重要表征，因此特征提取需根据不同需要谨慎选择。",
+    "context2": "文本挖掘方法本身还在不断的发展完善之中,文本挖掘效果的提升有赖于自然语言处理、机器学习等领域的研究成果。近年来各种语义技术如领域本体等也开始应用到文本挖掘中,使得文本挖掘向更加智能化的方向发展。高性能计算的进一步普及、分布式文本挖掘的深入应用等为人文社会科学处理海量文本提供了更加坚实的基础。可以相信，文本挖掘的方法在人文社会科学研究中必将发挥更大的作用。"
+  },
+  "参考文献:": {
+    "context1": "[1]AguilarF J. Scanning the business environment [M] .New York: Macmillan,1967.   \n[2]Hambrick D C.Environmental scanning and organizational strategy [.Strategic Management Journal,1982,3(2):159 -174.   \n[3]Choo C W.The knowing organization:How organizations use information to construct meaning，create knowledge，and make decisions M．2nd ed.New York:Oxford University Press,2006.   \n[4] Choo C W.The art of scanning the environment []．Bulletin of the American Society for Information Science,1999,25(3):13- 19.   \n[5]简兆权,毛蕴诗.环境扫描在战略转换中的作用分析[].科研 管理 $, 2 0 0 3 , 2 4 ( 5 ) : 8 4 - 8 7 .$   \n[6]万迪防,瞿蕴理,宋合义.我国企业管理者的环境扫描模式和技 术的研究[.管理工程学报,1995,9(增刊):9-14.   \n[7]DEFRA．About horizon scanning & future EB/OL]．[011 -06 - 09] .http://horizonscanning.defra. gov.uk/default.aspx？ men$\\mathbf { u } =$ menu&module $=$ About.   \n[8] Sutherland WJ,Bailey $\\textrm { M J }$ ,Bainbridge L P,et al．Future novel threats and opportunities facing UK biodiversity identified by horizon scanning [．Journal of Applied Ecology，2008,43(3):821 -833.   \n[9]William J.The need for environmental horizon scanning [J]. Trends in Ecology and Evolution．2009,24(10):523-527.   \n[i0]Habegger B. Horizon scanning in government [Rl．Zurich: Center for Security Studies,2009.   \n[]张丽华,曲建升,李延梅．国外环境扫描理论与应用研究综述 [.图书情报工作,2011,55(18):49 -52.   \n[12] Schultz W L. The cultural contradictions of managing change: Using horizon scanning in an evidence -based policy context [. Foresight,2006,8 (4):3-12   \n[i3] Stonebridge C.Horizon scanning gathering research evidence to inform decision making Rl．Ottwa: The Conference Board of Canada,2008.   \n[14]National Security Coordination Secretariat of Singapore Government.About the RAHS Program [EB/OL]．[2011-O4-21] http://app.hsc.gov.sg/public/www/content.aspx? sid=4.   \n[i5] COS.Horizon scan report 2007: Towards a future oriented policy and Knowledge agenda [R]．Hague:Consultative Committee of Sector Councils for Research and Development,2008."
+  },
+  "[3]丁堃,刘盛博,许侃．基于文本挖掘机制的区域经济关系分析．情报学报,2008,27(3):418-424.": {
+    "context1": "[14] Wyner A，Mochales-Palau R，Moens M，et al．Approaches to text mining arguments from legal cases [] $/ /$ Montemagni S, Tiscornia D，Francesconi.Semantic Processing of Legal Texts，Lecture Notes in Computer Science.Borlin:Springer,2009.   \n[i5] Xu J,Che H. Crime net explorer: A framework for criminal network knowledge discovery []．ACM Transactions on Information Systems, $2 0 0 5 , 2 3 \\bigl ( 2 \\bigr ) : 2 0 1 - 2 2 6 .$   \n[6]Fader A，Radev D,Crespin M H,et al. Identifying influential members of the US Senate using lexical centrality [C]//Proceedings of the 2OO7 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning. Prague: Association for Computational Linquistics,2Oo7:658 -666.   \n[7] Chibelushi C,Thelwall M. Text mining for meeting transcript analysis to extract key decision elements [//Proceedings of the International MultiConference of Engineers and Computer Scientists. Hong Kong:Newswood Limited,2009.   \n[8]Hu Xiao,Downie JS,Jones MC.Criticism mining: Text mining experiments on book，movie and music reviews [C// Proceedings of the Joint Conference of the Association for Literary and Linguistic Computing and the Association for Computers and the Humanities. Paris- Sorbonne: Newswood Limited,2006."
+  },
+  "[9]吴昊.一种Web信息挖掘的英语阅读选篇分类研究[].现代教育技术,2009,19(2):67 -70.": "",
+  "[2o] 熊小梅,刘永浪．基于LSA的二次降维法在中文法律案情文本分类中的应用[．电子测量技术,2007(10)：111-114.": {
+    "context1": "[1]NCeSS.ID cards [EB/OL]．[2011 -03- 29] .htp://www.ncess.ac.uk/research/hub_research/idcards/.  \n[2]Benoit K,Laver M,Mikhaylov S. Treating words as data with er-ror:Uncertainty in text statements of policy positions []．Ameri-can Journal of Political Science,2009,53(2) :495-513.  \n[3]Konig T,Luig B. Measuring policy positions of veto players in par-liamentary democracies [M]//Konig T，Tsebelis G，Debus M.Reform Processes and Policy Change:Veto Players and Decision -Making in Modern Democracies.New York:201O:69-95.  \n[4]Diederich J,Kindermann J,Leopold E,et al.Authorship atribu-tion with support vector machines $\\mathbb { I }$ ．Applied Intelligence,2003,19(1):109 -123.  \n[5]张运良,张全．基于句类向量空间模型的自动文本分类研究[.计算机工程,2007，(22):45-47.  \n[26] 年洪东,陈小荷,王东波．现当代文学作品的作者身份识别研究[.计算机工程与应用,2010(4):226-229.  \n[7]苏劲松.全宋词语料库建设及其风格与情感分析的计算方法研究[].厦门:厦门大学,2007.  \n[8]吴春龙.宋词风格的计算机辅助分析研究[D].厦门:厦门大学,2008.  \n[9]Horton T,Taylor K,Yu Bei,et al. Quite right,dear and interest-ing： Seeking the sentimental in nineteenth century american fiction[C]//Digital Humanities Conference 2Oo6．Paris- Sorbonne,2006:81 -82.  \nB0]Plaisant C，Rose J,Yu Bei，et al.Exploring Erotics in EmilyDickinson's correspondence with text mining and visual interfaces[]//Proceedings of the 6th ACM/IEEE-CS Joint Conferenceon Digital Libraries.New York:ACM Press,2006:141-150.  \nβ1]程春惠,何钦铭.面向不均衡类别朴素贝叶斯犯罪案件文本分类[.计算机工程与应用,2009,45(35):126-128,131.  \nB2] Yu Bei.An Evaluation of text classification methods for literary study.Literaryand Linguistic Computing,2008,23(3):327 -343.  \n[3] 丁堃,李鑫．基于有序聚类方法的我国知识管理学科的发展历程研究[//辽宁省哲学社会科学首届学术年会获奖成果文集.沈阳:东北大学出版社，2007:687-692.  \n[4]丁堃,许侃．基于文本聚类方法的我国科技管理研究领域的计量研究[．科学学研究,2007(S1):10-14.  \n[5]吴星玮,饶培伦.文本挖掘中运用自组织特征映射算法分析中国人类工效学研究状况[．人类工效学，2007(1)：17－20.  \n[6]宣照国.文本挖掘算法及其在知识管理中的应用[D].大连:大连理工大学,2008.  \nβ7] 王伟,许鑫．基于聚类的网络舆情热点发现及分析[．现代图书情报技术,2009(3)：74-79.  \nB8]黄宇栋,李翔，林祥．互联网媒体信息热点主动发现技术研究与应用[．计算机技术与发展,2009(5):1-4,187.  \nB9]唐果,陈宏刚．基于BBS 热点主题发现的文本聚类方法[.计算机工程,2010(7):79 -81.  \n[40] NaCTeM.BBC news browser pilot project EB/O1].011-12-25].http: //www.nactem.ac.uk /bbc/.  \n[1] 徐亚娟．基于公安业务信息的文本挖掘技术研究与实现[].杭州：浙江大学，2008.  \n[2]林明才,康耀红,钟声,等.文本聚类技术在科研立项管理中的应用[.科技管理研究,2009(10):95-96.  \n[3] 葛诗利,陈潇潇.文本聚类在大学英语作文自动评分中应用.计算机工程与应用 $, 2 0 0 9 , 5 4 ( 6 ) : 1 4 5 - 1 4 8 .$   \n[4]韩春,田大钢．对股票市场信息的文本挖掘[]．中国高新技术企业,2008(23):6-8.  \n[45] ClementT,DonA,Plaisant C,etal.Something that is interestingthem:Using text mining and visualizations to aid interpreting repe-tition in Gertrude Stein’s the Making of Americans [] $/ /$ DigitalHumanities Conference 2Oo7. Urbana-Champaign: University of Il-linois,2007:40 -44.  \n[6]曲春锦．改进的关联规则挖掘算法及其在教育信息挖掘中的应用[．交通与计算机,2005(4):68-71.  \n[7]易明,肖景,操玉杰．基于Web文本关联规则挖掘的个性化信息推荐研究[．情报科学,2009(12)：1876-1879.  \n[48]Fatudimu IT, Musa A G,Ayo C K,et al.Knowledge discovery inonline repositories:A text mining approach [] .European Journalof Scientific Research,2008,22(2) :241 -250.  \n[49]李钝,曹元大,万月亮．基于关联规则的安全特色关键词提取研究[．计算机工程与应用，2006(S1)：105-107，116.  \n[0] 刘菲,黄萱菁,吴立德．利用关联规则挖掘文本主题词的方法．计算机工程,2008(7):81-83.  \n[1]龙昊,冯剑琳,李曲．R-means:以关联规则为簇中心的文本聚类[．计算机科学,2005(9)：156-159.  \n[2]曲守宁,王钦,邹燕,等．基于关联规则的文本聚类算法的研究[．计算机应用研究,2008(4):986-988.  \n[3]何玉,冯剑琳,王元珍．基于最大关联规则的文本分类[．计算机科学,2006(11):143-145.  \n[4]张玉芳,杨柯，熊忠阳．基于关联规则的中文文本分类算法的改进．郑州大学学报(理学版),2007(2)：114－117.  \nβ5]Don A,Zheleva E,Gregory M,et al.Discovering interesting usagepatterns in text collections: Integrating text mining with visualization[//Proceedings of the Sixteenth ACM Conference on Informa-tion and Knowledge Management.Lisbon: ACM,2007:213-222.distant-read Gertrude Stein’s the Making of Americans [l.Liter-ary and Linguistic Computing,2008,23(3):361-382.  \n[7]Vuillemot R,Clement T,Plaisant C,et al.What’s being said near“Martha\"? Exploring name entities in literary text collctions $\\mathbb { H }$ $/ /$ Proceedings of the IEEE Symposium on Visual Analytics Science andTechnology．Atlantic City:IEEE Press,2009:107-114.  \nb8] Clement T,Plaisant C，Vuillemot R.The story of one:Humanityscholarship with visualization and text analysis [C]//Proceedingsof the 2OO9 Digital Humanities Conference 2O09.College Park Uni-versity of Maryland,2009:55-58.  \n[9]于江,党延忠．用信息可视化方法分析科研领域发展状况[．科学学与科学技术管理,2009(6):10-14.  \nb0]吴鸣．学科领域信息可视化分析——以纳米生物技术领域为例.图书情报工作 $, 2 0 1 0 , 5 4 ( 6 ) : 4 4 - 4 7 .$   \n1]张兆锋,张志平,乔晓东,等．信息可视化在科技文献深度挖掘中的应用．情报学报，2007(3)：408-414.  \nB2] Krebs VE.Mapping networks of terrorist cells [].Connections,2002,24(3):43-52.  \n[3]Dombroski MJ,Carley K M.NETEST:Estimating a terrorist net-work's structure [i .Computational and Mathematical OrganizationTheory，2002,8(3):235-241."
+  },
+  "（作者简介）郭金龙,男,1988年生,硕士研究生,发表论文2篇;许鑫,男，1976年生,副教授,博士,发表论文60 余篇，出版专著2部;陆宇杰,男,1988年生,硕士研究生,发表论文2篇。": "",
+  "（上接第68页）": ""
+}

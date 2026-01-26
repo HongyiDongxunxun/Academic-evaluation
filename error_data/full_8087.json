@@ -1,0 +1,73 @@
+{
+  "original_filename": "full_8087.md",
+  "电子书数字版权管理技术应用进展研究": "",
+  "殷沈琴张计龙郝群": {
+    "context1": "（复旦大学图书馆上海200433)",
+    "context2": "文摘阐述了数字版权管理(DRM)的系统体系架构和安全管理机制，主要围绕三种主流的电子书DRM系统,探讨权利描述语言、通用技术标准、使用控制、移动阅读、权利转移等关键问题的进展和应用,并指出DRM现存不足及未来发展方向。"
+  },
+  "关键词 电子书 DRM 权利描述语言 通用技术标准 权利转移": {
+    "context1": "The Research on the Application of e- Book DRM Techniques Yin Shenqin,Zhang Jilong,Hao Qun",
+    "context2": "(Fudan University library，Shanghai 200433)",
+    "context3": "Abstract: This paper expounds on system architectures & security management mechanism of Digital Rights Management (DRM) ，and discusses progress and application of key questions on three mainstream e - Book DRM system， such as rights expression language，universal technique standard，usage control and mobile reading etc.Thus points out the shortness and the trend of DRM.",
+    "context4": "Key words: e- Book，DRM，Rights expression language，Universal technique standard，Rights transfer"
+  },
+  "1引言": {
+    "context1": "电子书是重要的数字资源，其生命周期包括制作、出版、发行、销售、使用等诸多流程,牵涉作者、出版商、发行商、销售商、用户等相关人群的利益。如何保护电子书生命周期中相关者的合法权益，已经成为法律和信息产业界研究的重点和难点课题。为适应这种需要,1999年出现了以数字版权管理(Dig-ital RightsManagement，DRM）为核心的电子书技术,得益于这种技术,2000 年美国小说家 StephenKing 出版了第一本只有电子本没有印刷本的书《Riding theBullet》[,至今已有十余年的历史,DRM技术极大促进了电子书的发展。",
+    "context2": "根据W3C的定义，DRM是用来保护数字产品版权的一种技术手段，通过安全和数字加密锁定来限制数字内容及其分发途径，从而防范对数字产品无授权的复制,确保数字产品的合法使用和传播。美国计算机协会从2001年开始，每年举办一次“ACMWork-shop forDigital Rights Management”,研究内容从早期的技术层面逐渐推至法律、技术、管理、商业模式多个领域,2011年的议题包括:数字水印和指纹识别的内容技术，包括缺陷者追踪和风暴加密在内的加密技术,DRM系统的体系架构、可用性、攻击、web 服务、应用实施、互操作性;在线内容分发的商业模式,风险管理;包括合理使用在内的版权法相关研究等。",
+    "context3": "电子书上的DRM应用主要包括两方面:一方面是在线电子书的销售，如Amazon、当当、京东、博客来网路书店、新丝路网路书店、华文电子书等网络书店;另一方面，数字图书馆在图书馆的应用,如方正apabi、超星、netlibrary等提供电子书借阅。",
+    "context4": "技术和法律是影响电子书飞速发展的两大瓶颈。保护电子书的版权是一个系统工程，需要法律法规和技术手段两方面配合，本文将分析DRM技术的最新研究和应用进展，探讨体系架构、安全机制与管理等问题,着重针对 Microsoft DAS、Adobe ContentServer、方正Apabi三大常见DRM系统的权利描述、使用控制、权利转移、移动阅读等关键问题，论述技术的应用，指明已有解决方案的优势和不足。"
+  },
+  "2电子书DRM系统体系架构": {
+    "context1": "DRM的重要功能是实现数字权益对象的安全与管理。对现有的几类商业系统进行研究发现，虽然各类系统采用的技术手段不尽相同，但系统架构大致相同,如图1所示。数字内容经由不同的DRM系统软件制作成电子格式并加密分装,加密的数字内容存放在内容服务器上，而权限管理和密钥管理组件存放在许可证服务器上，客户端只有同时获得内容和密钥才能查看电子书的内容。通过电子商务系统中的追踪服务器对用户的下载行为进行计数，从而计算用户应付的费用。",
+    "context2": "![](images/924848427ad7badab6f0da8ddf6426d326c103a0570b2e4a06c6d01b18da671b.jpg)  \n图1电子书DRM系统体系架构图",
+    "context3": "制作封装工具：将各种格式的数字内容制作成DRM系统所需要的格式。然后采用一定的技术手段如数字水印、数字指纹、加密等进行打包封装成电子书,制定相应的版权授权信息和使用权利。将内容和许可证分别存放。如Adobe采用AdobeInDe-sign CSS软件将其他格式的电子图书,导出为Adobe支持的ePUB或PDF格式,Adobe Content Server 4能加密PDF和ePUB文件并管理版权。",
+    "context4": "·内容服务器：包含存储电子书的内容仓库、存储产品信息的产品信息库。",
+    "context5": "·许可证服务器：向用户发送许可证和内容密钥,通知访问追踪服务器用户的使用过程。",
+    "context6": "·访问追踪服务器：记录用户的使用过程和次数，并通知计费处理器计费",
+    "context7": "·客户端：通过授权许可和获取数字内容之后，采用系统提供的客户端工具如 Apabi Reader、SS-reader等使用数字资源,根据权限向外分发。",
+    "context8": "主流的DRM系统均有一整套的软件和相应技术-@,对电子书产业链上各个环节均有支持,如表1所示：",
+    "context9": "表1DRM系统软件和技术列表",
+    "context10": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>微软</td><td rowspan=1 colspan=1>Adobe</td><td rowspan=1 colspan=1>方正</td></tr><tr><td rowspan=1 colspan=1>制作封装</td><td rowspan=1 colspan=1>Microsoft DAS Package组件</td><td rowspan=1 colspan=1>Adobe InDesign CSS</td><td rowspan=1 colspan=1>Apabi Maker</td></tr><tr><td rowspan=1 colspan=1>服务器端</td><td rowspan=1 colspan=1>Microsoft DAS</td><td rowspan=1 colspan=1>Adobe Content Server</td><td rowspan=1 colspan=1>Apabi Rights Server</td></tr><tr><td rowspan=1 colspan=1>电子商务</td><td rowspan=1 colspan=1>集成到零售商的电子商务网站</td><td rowspan=1 colspan=1>GBLink</td><td rowspan=1 colspan=1>Apabi Retail Server</td></tr><tr><td rowspan=1 colspan=1>客户端软件</td><td rowspan=1 colspan=1>Microsoft Reader</td><td rowspan=1 colspan=1>Adobe eBook Reader</td><td rowspan=1 colspan=1>Apabi Reader</td></tr><tr><td rowspan=1 colspan=1>电子书格式</td><td rowspan=1 colspan=1>LIT</td><td rowspan=1 colspan=1>PDF或ePUB</td><td rowspan=1 colspan=1>CEBX</td></tr><tr><td rowspan=1 colspan=1>显示技术</td><td rowspan=1 colspan=1>Clear Type</td><td rowspan=1 colspan=1>Cool Type</td><td rowspan=1 colspan=1>类似 Clear Type技术</td></tr><tr><td rowspan=1 colspan=1>其他</td><td rowspan=1 colspan=1>限定用户采用微软Passport用户标识和注册系统</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+    "context11": "的犹如阅读实体书的感觉。",
+    "context12": "三个DRM系统均采用了加密技术,如方正的加密算法核心为3DES,Adobe采用了业界先进的RSA实验室授权的加密技术，这些加密技术能防止非法复制和传播。采用ClearType、CoolType等显示技术，通过将单个像素能量扩充到邻近像素的方法来提高图像的清晰度，给读者在显示器上的阅读带来舒适"
+  },
+  "3电子图书DRM的安全与管理": "",
+  "3.1电子图书DRM的安全机制": {
+    "context1": "Microsoft、Adobe、方正Apabi公司的安全认证均是采用许可证(电子证书)的方式来保护电子书的安全。通过许可证把电子书和用户身份信息及用户权益相绑定。",
+    "context2": "(1)由图1可知,电子图书的加密内容和许可证分别存放在不同的服务器上,电子图书的加密内容存放在内容服务器上，解密密钥和权限管理存放在许可证服务器上。解密密钥放在许可证(license)之中。用户在未授权的情况下，难以解密电子图书的内容。电子图书不能被复制,电子图书和计算机是绑定的，拷贝到其他机器上无效。",
+    "context3": "(2)许可证与用户标识关联，用户标识包括其使用设备的硬件标识和身份认证ID，包括客户机的CPU序列号、主板信息、硬盘序列号、网卡序列号等。许可证转发到其他终端无效。微软和方正的DRM系统采用混合标识以增强权限的可移植性。",
+    "context4": "授权用户使用身份认证ID可以激活多个客户端,为一个用户使用多个客户端带来便利;同时，多个用户公用一个终端时也可以利用各自不同的身份认证ID保持数字内容和权限的相互独立。"
+  },
+  "3.2权利描述语言": {
+    "context1": "权利描述语言(REL)是用来描述参与者对资源拥有的使用权利,权利是关于资产的使用或访问许可,包括权限、前提条件和限制条件等。主流的权利描述语言标准包括ODRL和 $\\mathrm { X r M L }$ ,均从1.0版本发展到2.0版本,两者在所表达的核心语义、技术基础、采用现有标准、可扩展性等方面具有相似性，但在组织方法上有显著不同,ODRL只定义了一些关键词汇，而 $\\mathrm { X r M L }$ 则以层次化的形式进行了十分详细的词汇语法定义,可操作性较强。微软和方正的DRM方案均采用了XrML,Adobe采用了自定义的方案。它们与以前相比,具有更加丰富的权利描述,如阅读、打印、编辑、导出、组装、批注、签名等权利，为用户提供了更多的内容使用选择权。"
+  },
+  "3.3使用控制": {
+    "context1": "同一份数字内容可以根据用户身份的不同设定不同的使用权利，且权利控制范围更加精细，能适应更多的业务模式。支持一个用户在多台设备上共享自己的数字内容。如方正DRMV2.0允许不同的业务系统根据自身需求扩展其特有的权利项，以及设定满足自身需求的权利控制粒度。Adobe具有灵活的权限,可以自定义打印、复制和到期权限。而书生公司正在进行在线阅览版权保护技术研发，主要通过研发在线阅览数字版权保护系统,实现安全、可靠、便捷地在线阅览。"
+  },
+  "3.4通用技术标准": {
+    "context1": "DRM管理系统目前遇到的最大问题是通用的技术标准,因为涉及不同的利益，设备生产商、出版商等出于自身利益的考虑，一般会对产品使用进行限制,比如APPLE的在线书店只能通过APPLE的设备下载,AmazonKindle不能从网络下载ePUB格式的电子书,而国内的电子书厂商基本上开发了自己的电子阅读器,将电子书和专属阅读器捆绑，这些限制妨碍了电子书的进一步发展,建立通用的标准势在必行,不同生产商的电子书格式能够兼容和互操作,让用户能够在一台设备上阅读不同公司的产品。",
+    "context2": "国内现有的标准有两个：一个是2002年发布的GB/T18787－2002《电子图书阅读器通用规范》,另一个是GB/Z189062002《开放式电子图书出版物结构》。2002年发布的标准已经与现有的市场不匹配，国内的产业链在逐步形成，内容提供、设备制造、服务平台、电信运营都是电子书不可或缺的环节，亟需新的标准来定义诸如:技术标准、中文化标准、文档格式标准、版权保护与管理类标准、人机交互标准等。",
+    "context3": "目前，国际数字出版论坛(IDPF,前身为OeBF)的ePUB格式是业内最受认同的电子图书标准，得到包括Adobe、IBM、Microsoft、方正、McGraw Hill、IDG在内的近百家软硬件厂家、出版社的支持，该标准已发展到3.0。ePUB是一个完全开放和免费的电子书标准,能够重新自动编排内容，以适应不同的屏幕尺寸和平台，而有最佳的展示效果。ePUB遵循IDPF的OCF规范,OCF遵循 Zip规范,ePUB本身即是一个压缩文件。Epub 内部使用XHTML（或者DTBook)来展现文件的内容;用一系列css来定义格式和版面设计；然后把所有的文件压缩成zip包。",
+    "context4": "方正、微软、Adobe等DRM系统和阅读软件均直接支持ePUB 格式。其中Adobe以PDF和ePUB标准分发，与绝大多数设备兼容，有150家合作伙伴。"
+  },
+  "3.5移动阅读与移动图书馆标准": {
+    "context1": "移动设备和手持阅读器的飞速发展，大量读者要求在移动设备上阅读购买或者借阅的图书,目前方正、微软、Adobe的DRM系统均支持移动阅读,如AdobeReaderModel支持50多款移动设备。在国内,书生公司的UOML标准已经成为主流的电子文档标准[,能将很多公司的电子书格式如超星、方正以及PDF格式的图像和文字转换为浏览器识别的 HTML格式,在不同设备上能够无需专门的阅读",
+    "context2": "器即可浏览。"
+  },
+  "3.6权利转移": {
+    "context1": "根据BISG的2011年针对消费者对电子书阅读的态度调研显示，与朋友分享图书是排在第三的重要问题[。权利转移能够提升电子书的利用率、用户的可用性以及增强对产品的接受度。权利转移（transfer)包括两种情况:（1）单个用户在不同设备间的权利迁徙(migration);(2)不同用户不同设备的权限的二次分发（redistribution）和超级分发（superdistribution)。",
+    "context2": "权利迁徙包括基于移动硬件设备、在线注册申请许可证、设备共享、备份/还原四种方式。二次分发涉及不同用户和不同设备,包括基于本地DRM服务中心、基于数字水印证书的两种方式,比较复杂，目前大多数DRM系统禁止二次分发[。",
+    "context3": "目前的商用DRM系统对于权利迁徙的次数有所限定,如方正DRM系统,可以下载到三台不同的电脑或手持阅读器上阅读,同一台电脑/手持阅读器使用不同的Reader注册用户名也算不同的电脑/手持阅读器。方正DRM系统有一“送书\"功能：想把购买的电子图书与人分享时,登陆网站,发送到对方邮箱，对方打开其中的链接便可下载阅读。计入三本之内。微软DAS支持最多四台设备的使用。一些电子商务网站如京东网亦支持在其网站上购买电子书在四台设备上使用。"
+  },
+  "3.7现存问题及未来电子书DRM的发展": {
+    "context1": "通过对电子书DRM研究进展的梳理,目前主要存在以下问题:(1)互操性和兼容性不够:不同厂家的电子书格式均有自己的标准,还不能直接支持其他厂家的产品,需要转换成一个通用的格式后才能支持,给用户带来诸多不便。（2)用户体验待提升，目前用户如果将电子书从一台设备转移到另一台设备进行权限转移，不同厂家均有繁琐的操作步骤，重新下载、下载离线证书或获取步骤等。",
+    "context2": "从中也可以看出未来发展方向:（1）DRM需要适应多业务融合环境，需要一个标准体系才能支撑整个产业的顺利发展。(2)提升设备的兼容性，使用一台设备即可阅读多来源的电子书书籍。直接支持不同生产商的电子书格式。（3)增强用户的阅读体验,将繁琐的操作便捷化，同时保障用户的权利，提升用户的满意度。"
+  },
+  "4结语": {
+    "context1": "综上所述,电子书的DRM技术经过十余年的发展,已经在权利描述语言、使用控制、合理使用、权限转移、移动阅读方面，有了长足的进步。现有的DRM系统还在保护生产商、发行商的权益和用户的便利性之间博弈,对于生产商、出版发行商处于过度保护的状态,在用户的易用性和设备的互操作性方面亟待提高。电子书的ePUB技术标准仍需大力推广,争取被更多的出版商、软硬件生产商采纳和支持,真正成为业界的统一标准。这些问题表面看是技术问题,深层次却折射出DRM需要管理、技术、法律等多个环节的配合以及各方利益的平衡。"
+  },
+  "参考文献": {
+    "context1": "1Riding the Bullet.htp://en.wikipedia.org/wiki/Riding_ the_Bullet．[011 -10 -11]   \n2 W3C.Workshop on Digital rights Management [EB/OL]. [012-03-02]．http://www.w3.org/2000/12/drmws/   \n3 ACM Workshop on Digital Rights Management.http: // drm11.cased.de/index.html． [o12-02-02]   \n4 Adobe Products.http://www.adobe.com/cn/products/ contentserver/． [2012-01-05]   \n5 For developers.http://www.microsoft.com/reader/developers/．[012-01-05]   \n6 数字资源产品.http://www.apabi.cn/product.shtml. [012 -01 -05]   \n7 张茹，杨榆等．数字版权管理M].北京:北京邮电大学 出版社,2008:226 -227   \n8 冯明,唐宏等.数字版权管理技术原理与应用[M].北 京：人民邮电出版社,2009:48－49   \n9 电子书国家标准难产:背后博弈激烈．http://tech.sina. com.cn/it/2010 - 05 - 24/15584225225_2．shtml. [012 -01 -04]   \n10Epub.http://idpf.org/epub.[012-01-06]   \n11 SEP 文档库技术．http://www.uoml.org/uoml/aboutSEP.htm．[2012-01 -06]   \n12 Consumer Attitudes Towards E-Book Reading.http: // www.bisg.org/publications /product.php? $\\mathrm { ~ p ~ } = 1 9 \\& \\mathrm { ~ c ~ } =$ 437#description． [012 -01 -05]   \n13俞银燕,汤帜．数字版权保护技术综述[．计算机学 报,2005(12):1957 -1968",
+    "context2": "殷沈琴复旦大学图书馆，馆员。张计龙复旦大学图书馆,副研究馆员。郝群复旦大学图书馆，副研究馆员。(收稿日期:2011-03-08编发:刘炜 赵亮)"
+  }
+}

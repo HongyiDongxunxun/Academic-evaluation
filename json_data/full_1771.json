@@ -1,0 +1,89 @@
+{
+  "original_filename": "full_1771.md",
+  "nothing": {
+    "context1": "·综述与评论·"
+  },
+  "信息技术/系统（IT/IS）应用效果评估方法综述": {
+    "context1": "冯其友，姜锦虎",
+    "context2": "（西安交通大学 管理学院，陕西 西安710049)",
+    "context3": "摘要：随着信息系统在企业的广泛应用与IT投资额的迅速增长，IT/IS应用效果的评估日益成为学术界和企业界的热门话题和关键的管理问题。本文综述了国外在该方面的研究结果，对信息系统评估内涵与系统有效性的概念进行了归纳概括，并对其评估方法进行了总结。",
+    "context4": "关键词：信息技术；信息系统；系统有效性；系统评估",
+    "context5": "中图分类号： $\\mathrm { T P 3 1 1 }$ ； F270.7 文献标识码：A文章编号：1007-7634（2005）03-0467-06"
+  },
+  "The Evaluation Methodology Summarize of IT/IS Application Effectiveness": {
+    "context1": "FENG Qi—you， JIANG Jin-hu(School of Management， Xi'an Jiaotong University， Xi'an 71O049， China)",
+    "context2": "Abstract：With the wide use of IS and the rapid increase of IT investment in Enterprise，the evaluation of IT/IS application efectiveness is increasingly becoming a hot topic and key management issues in academe and enterprise·The article summarizes the research method，the meaning of IS evaluation and the conception of the IS effectiveness in this field.",
+    "context3": "Key words:information technology (IT）； information system (IS）； IS effectiveness ；IS evaluation"
+  },
+  "1引 言": {
+    "context1": "伴随着目前组织面临的经济全球化和竞争环境，日益增加的信息技术投资使得对IT/IS 应用效果的测量受到越来越多的关注[1-6]。美国公司有超过 $50 \\%$ 的资金预算花费在建立和更新信息技术基础设施上（Weill and Broadbent，1998）。在1980 到1992 年期间，在IT 中的投资从600 亿美元增长到1600 亿美元[7]；从1991到1996 年，在计算机相关的产品与服务中的花费增长超过 $70 \\% [ 8 ]$ 。信息技术投资成为20 世纪90 年代企业界和学术界最热门的话题之一。许多大型跨国公司都把信息技术的投资放在公司重要的战略位置上，福特汽车公司董事会主席小威廉姆克雷福特说；“显而易见，在21世纪取得成功的公司和个人，必然是互联网和相关技术使用上的领先者\"[9]。无数的企业在信息技术投资的浪潮中倾注了大量的资金和时间，以期能够增强企业的竞争力，提高企业的管理与生产运作效率。大量管理信息系统（MIS）、决策支持系统(DSS）、办公自动化系统（OAS）、人工智能（AI）等系统在企业中得以推广与运用。但有很多公司的IT/IS 投资失败了，这些投资给企业带来了巨大的投资损失而不是竞争优势，甚至将公司带到了破产的边缘[10]。据报道，在美国，每年在信息系统中的投资平均达970亿美元，但自1973年以来，总体生产率并无明显提高。1987年时，诺贝尔经济学奖得主罗伯特·索洛发表了如下的言论：“你可以在世界任何角落和生活的各个领域看到“计算机时代”的影子，但是在经济统计年鉴上除外\"[9]。对信息技术的大规模投资没能提升生产力水平，IT的应用产生了“生产率悖论”现象。",
+    "context2": "在我国，随着经济的快速发展，企业为解决高速的扩大规模与低水平的管理之间的矛盾，提高自身的竞争力，大量的资金投入到企业信息系统建设之中。据2003年中国企业信息化500 强调查显示，中国企业信息化建设取得显著成效，企业信息化正越来越成为企业增强活力与竞争力的带动力量，成为中国企业，尤其是大中型企业发展前进的新的驱动力。销售收入相当于中国 $\\mathrm { G D P 1 / 4 }$ 的企业进入了信息化的深水区，中国的企业信息化建设已经从简单应用发展到复杂应用，从战术层面发展到战略层面[1]。但在很多企业中，这些信息技术虽然在某些局部环节的处理上提高了效率，但对整个企业的经营绩效并无很大的影响；相反，由于添置设备、支付开发费用和日常运行维护费用，信息技术投资反而增加了企业的负担[12] 。",
+    "context3": "为维持企业竞争力，各公司的信息系统必须以更加有效的方式来支持企业的商业目标，同时他们不得不使他们的信息系统有足够的柔性来应对未来不可预知的商业需求（Weill and Broadbent，1998;Chan et al，1997；Aggarwal，1997；Porter，1996;Brancheauetal，1994)。因此，对企业目前的信息系统进行恰当的评估，了解其对企业的贡献与整合程度，并进行改进以使其更能满足企业的商业目标也就变得更加重要。对实践者和研究者来说，信息技术投资的评估与信息系统有效性的评价正日益成为一个重要的问题（Belcher andWatson，1993）。信息系统管理者与咨询者均认为评估和理解信息系统效率是一个关键的管理问题（Dan N·Stone，2001)。信息系统可以提高组织的效果与效率，并提供竞争优势，但很多文献提出信息系统的评估却面临着一系列的困难，很多公司发现他们甚至不能评估他们信息系统基础设施的完全潜力[13]。尽管准确评估信息系统的有效性非常重要且在该方面已进行了大量的indch1978;Hamilton and Chervancy，198l; Chandler，1982;",
+    "context4": "Klein and Beck,1987 ; Hawgoog and Land,1988 ;Parker etal,1989),但仍没有很好的解决方案来进行信息系统的全面评估[14]，例如，在试图识别影响信息系统有效性的因素方面仍然很不成功。"
+  },
+  "2信息系统评估的内涵与信息系统有效性的概念": {
+    "context1": "在过去4O年里，信息技术（IT）得到了迅速的发展。6O 年代，IT应用主要集中于数据处理，为大量的重复性的、高容量的事务处理提供自动化操作；70 年代，重心转移到管理信息系统，提供基本的信息以满足管理者的需求：80 年代，则主要侧重于组织创新和服务客户；90年代，随着IT 在企业的广泛运用，信息技术成为发展和获得企业竞争优势的重要战略工具。随着IT/IS在组织内部进化性地运用被证明，信息系统的使用已经从自动化到信息化(Zuboff,1988)，再到最近促进组织的转变[15]。伴随着这种变化,信息系统的评估也从测量获得的效率到效率的提高，再到评估信息系统对组织商业活动的贡献。因此，随着信息系统从支持作用到战略作用的改变，评估过程也变得日益复杂。",
+    "context2": "文献[16]中将信息系统的评估定义为“确定信息系统是否、如何和为什么促进组织生产力发展的过程”。这个定义的一个含义就是评估是系统实施后的行为，因此它必须与系统的可行性分析(Caddell，1985）和系统的预先判断（Bozcany，1983；Gremillion and Pyburn，1985）区别开来：第二个含义就是信息系统的评估必须与生产率相关。",
+    "context3": "文献[17—18]对于信息系统有效性的定义有两种观点：以目标为中心的观点和系统资源的观点。以目标为中心的观点认为，评估系统的有效性首先要确定系统的任务目标或者组织使用该系统的目标，然后确定标准方法来评估目标实现的程度。有效性要通过对比目标的实现程度来进行确定。而系统资源的观点认为系统有效性要根据一个标准状态（如一个“好的表现”的标准）的达到程度来进行确定。有效性是根据资源在企业中的生存能力而不是具体任务的目标进行确定。",
+    "context4": "信息系统的有效性已经成为一些被经常提及的贡献的代名词，并已经在信息系统的研究中成为不可缺少的变量[19]。有效性是企业信息系统为企业带来的各方面利益的数值表现，它客观地反映出信息系统预期与实际运行后的差别，研究这些数据，有助于对企业信息系统进行改进。IS的有效性一般利用三个常用的度量标准来进行衡量：决策性能、系统利用率和用户满意度（Srinivasan1985;Zmud 1979)，而决策性能——系统支持管理者进行决策的能力，是三个标准中最相关的一个。但由于在实践和研究中，决策性能一般很难进行衡量，所以系统的利用率与用户满意度经常被用作替代方法(Doll and Torkzadeh 1988；Ives etal，1983)。但文献[20]通过实验研究，探讨了信息系统有效性的最常用的三个指标之间关系的研究，研究结果则认为：在测量信息系统的有效性时，实用客户满意度和系统利用率来代替决策性能是不适合的。其他一些人认为信息系统的有效性是多维的，决策性能、系统利用率利用户满意度是相关的但属于不同的概念，应该相应地分别进行测量（Cale and Curley 1987;Chandler 1982；DeLone and McLean 1992； $\\mathrm { E i n } ^ { - } \\mathrm { D o r }$ and Segev 1978；King and Rodriguez 1978)。虽然用户满意度与系统的利用率的适用性一直被争论不休，但大量的研究一直使用它们作为决策性能的替代标准。",
+    "context5": "决策性能一—信息系统有效性的最基本的指标，它反映出信息系统在支持管理者进行决策方面实现预期目标的程度。目前，决策性能已经可利用一系列的方法来进行度量。这些测量方法基本可分为两类：效果和效率[21]。作为一个成功的信息系统，它必须可以提高管理的生产率和帮助管理者进行高质量的决策。决策的效果通过客观上的准确性与主观上的质量来进行测定；决策过程的效率通过决策过程的速度来进行测定。",
+    "context6": "用户满意度一一使用者（包括公司各部门、员工、外来访问客户等）在应用信息系统时从方便性、操作性、实用性、界面友好性等方面获得的满意程度。现已有多种方法可用来进行用户满意度的测量，但还没有一种完全标准的方法可对其进行准确的测量[22] 。",
+    "context7": "系统利用率一一这是考察信息系统在运行时系统工作状态的指标。系统利用率高，说明该系统信息流动速度快，信息流动越规范，对企业的整合作用越大。这个数据从侧面反映出系统与企业之间的结合程度。"
+  },
+  "3信息系统评估方法的研究": {
+    "context1": "中国知网https://www.cnki.net关于信息系统的大多数研究可分为两大类： $\\textcircled{1}$ 信息系统评估方法的研究； $\\textcircled{2}$ 信息系统评估实践中的描述性研究[23] 。",
+    "context2": "方法的研究则主要侧重于提出信息系统评估的定量方法。",
+    "context3": "在信息系统评估中，方法性的研究主要在以下几个领域： $\\textcircled{1}$ 用户满意度评估； $\\textcircled{2}$ 成本收益分析;$\\textcircled{3}$ 实验评估； $\\textcircled{4}$ 评估方法选择的框架。这些研究的一个共同目标就是建立模型以识别和测量从信息系统中所获得的生产率。",
+    "context4": "过去对信息系统评估的研究主要集中于发展测量用户满意度的调查手段[13]。Kim（1989）认为用户满意度的研究主要倾向于测量三种不同概念的用户满意度： $\\textcircled{1}$ 用户对于MIS本身的态度（如，系统的输入过程、MIS 职员）； $\\textcircled{2}$ 用户对于MIS 所提供的信息质量的态度； $\\textcircled{3}$ 用户对于系统在完成组织目标中的有效性的态度。在这众多的测量方法中，Jenkins和Ricketts的管理信息系统满意度调查问卷（1955）被广泛应用于以前的信息系统评估的研究中，这种方法为以后的理论研究奠定了良好的基础并已得到准确的验证[24] 。",
+    "context5": "成本收益方法是所提出的第二大类系统评估方法。它们试图利用财务分析模型来量化信息系统的成本与收益（Alpar and $\\mathrm { K i m } \\ 1 9 8 9$ ； Emery 1982； Kingand Schrems1978；Kleijnen1980)。多种模型已经被提出来进行成本收益分析，其中一些方法利用非正式的、定性的测量方法来衡量隐性的成本与收益(Keen，1975，1981)；另一些方法则扩展了定性变量的使用，包括非货币的测量方法。",
+    "context6": "SpragueandCarlson（1982）认为信息系统评估应该是通过实验设计来检验给定的假设。他们提出了一种实验设计方法来评估信息系统，包括目标的声明、实验处理方法的选择、分析的标准以及技术的选择。信息系统的服务追踪成为信息系统评估的实验方法的一个尤其重要的数据来源（Ferrari,1978)。",
+    "context7": "几种框架已经被提出来进行评估方法的选择。HamiltonandChervany（198l）对比了可相互替换的评估方法并给出了一系列关于方法选择的建议。这包括确定适当的目标和测量方法；考虑IS 的定性结果；考虑和整合不同的评估观点[17]。",
+    "context8": "文献[25]利用平衡积分卡方法（theBalancedScorecard，BSC）对企业的IT/IS应用效果进行了评价，这种方法包含了传统的财务测量方法如投资回报率 (ROI)，附加值测量方法如企业创新测量和顾客满意度测量方法等。它主要从四个角度来确定目标和测量方法：财务角度（利润、收入、销售额的传统方法)，顾客角度（顾客保持度、顾客满意度和市场调查)，内部业务流程角度和学习与创新角度。由于方法的复杂性，文献从七个角度指出企业是否适合采用该方法对其IT/IS的应用效果进行评价。他们认为IT/IS 的投资主要有两种类型：面向效率和面向顾客，对企业的IT/IS 的应用效果进行评价，管理者需要确定投资的类型。",
+    "context9": "文献[26]利用数据包括分析（Data EnvelopmentAnalysis，DEA）对2OO多家大型企业的数据进行了分析，提出了评估IT/IS 投资有效性与效率的一个框架。",
+    "context10": "文献[27]通过对ICL 公司（ICL 为欧洲一家主要的IT 公司）的案例研究，从战略、无形收益、相关成本、战术、运营五个角度对从公司总部所收集的数据进行了分析，结果认为对IT/IS投资效果进行评价，单纯的会计评估如ROI是不够的，IT/IS 可以提供很多的无形收益，它们具有难以量化的特性，但对公司的持续发展却非常重要。",
+    "context11": "文献[28]建立了一个动态模型对银行业IT/IS的战略应用进行了评估，但作者认为通过对模型进行适当的修改，同样可以适用于其他的行业。模型的一个创新性贡献就是精通于评估IT 对顾客和企业的战略影响。作者同样认为企业单纯的运用成本收益分析对IT/IS 对企业的影响是不够的。",
+    "context12": "文献[29]建立了一个评估模型，从战略、战术、运营和财务四个层次对企业的IT/IS 投资与效用进行评价。",
+    "context13": "IT 的投资意图对于确定评价信息系统及测定系统绩效的方法是最为关键的[30]。用于改进效率的IT投资要求效率测定方面的技术如工作研究或成本收益分析；用于提高管理有效性的IT投资需要附加值分析、价值链评价等技术；用于业务优势或业务转变的IT投资则要求如战略分析、相对竞争绩效等测量技术。总体上，IT 投资具有三种不同的用途：战略（即IT 投资的目的是进一步提高企业竞争优势，其影响反映在市场份额增长、销售额增长等)、事务处理（即IT投资使原先劳动密集生产过程自动化，如工资计算、订单录入等）和信息化(IT投资增加信息有效扩散并利用数据进行决策，如支持预算与计划的 DSS)[3]。归纳一下,I故菌的主要包括：提高产品与服务质量、提高效率与有效性、外部环境驱使、提高竞争优势和加强与其他企业的联系。衡量信息系统的有效性的一般方法是比较系统的预期目标与实际绩效。为此，系统的目标必须事先被清楚地定义[31]，如用关键绩效指标（Key Peifomance Indicator，KPI）来表达。随着IT投资的高速增长，组织也愈来愈意识到测量信息系统收益的重要性，因此也出现了愈来愈多的测量技术。",
+    "context14": "通过大量的文献，对企业IT/IS 应用效果的评价方法可归结为以下一些类型。",
+    "context15": "（1）战略匹配分析与评价[32]。",
+    "context16": "这是一种排序或打分技术，即根据是否支持企业的一般整体战略来评价所有主要的信息系统。如果一个系统有助于改进客户服务，那么该系统通常有助于企业在市场中形成自己差异化的特性；而如果一个系统有助于降低成本，则该系统通常支持企业的成本降低战略。对于较重要的系统可赋予较大的权重，并根据系统实现与达到目标的程度分配一个分值。",
+    "context17": "（2）价值链评价[33]。",
+    "context18": "这是另一种打分或排序系统。在此方法中，利用MichaelPorter 的增值链作为企业信息系统的基本比较简单，这种评价过程可以依据企业内部价值活动以及产业价值活动进行，但全面的分析应当同时使用企业和产业特性。类似于战略匹配分析，较重要的系统赋予较大的权重，并根据系统实现与达到目标的程度分配特定的分值。",
+    "context19": "（3）相对竞争绩效[26]。",
+    "context20": "某些企业通过与竞争者进行比较来评估自己的绩效。这要求监控竞争者的IT目标、他们实现整体战略的方式以及如何估计成本。这些过程是相当困难的，往往依赖于涉及排序与打分的主观评价。",
+    "context21": "（4）达到的管理视角的程度[29]。",
+    "context22": "这也是一种排序打分技术，管理者根据初始计划评估当前的系统。当涉及大量的管理者时，可采用问卷或调查方法。尽管这是一高度主观的方法，但可以以一种相对客观的方式来进行应用。"
+  },
+  "（5）工作研究评价[34]。": {
+    "context1": "IT 收益评估的工作研究方法需要使部门工作中工作如何完成的评审制度化。评审期间，要仔细记录工作量以及完成所有必要任务所需要的时间。这种方法是相对客观的，尤其是在由工作研究专业人员来进行评价的情况下。工作研究评价的结果可用于后续成本收益分析的输入。",
+    "context2": "（6）经济评价——投入产出分析[35]。",
+    "context3": "经济评价是IT 收益评估的一种理论方法。它要求建立一个数学模型来表达投入产出的关系。尽管这是一种看来精确的数学表达，但这种方法也依赖于收入与产出变数之间关系性质的非常主观的认识。",
+    "context4": "（7）财务成本收益分析[15][22]。",
+    "context5": "关于财务成本收益分析，包括许多相当不同的方法，如回收期、利润指数、投资回报率等。",
+    "context6": "（8）用户态度[13]。",
+    "context7": "用户态度被用来评价信息系统在企业中的运行情况。通过调查方法，提取个体用户及信息系统部门对于IT 的态度、重要程度、贡献等，以此分析IT 的收益。",
+    "context8": "（9）用户效用评估[37]。",
+    "context9": "可以认为大量或频繁使用的系统更为重要或有用，因此，通过掌握一个系统的使用频率就可能评价该系统对企业的价值。这种技术包含了信息系统承担的活动量的计算，测量依据系统的输入、处理与输出。",
+    "context10": "（10）附加值分析[38]。",
+    "context11": "该技术着眼于系统的价值而不是其成本，一旦承认了IT系统的价值或收益才计算成本。因此信息系统在一个原型化的基础上以一个相对低的成本被建立，这项工作完成以后再进行评价从而决定产生的收益是否合算。如果投资是合理而有效的，那么企业就进行IT 应用开发的下一阶段。"
+  },
+  "（11）管理回报[25]。": {
+    "context1": "管理回报是由Paul Strassman 首先提出的概念(Strassman 1985）。ROM（Return on Management）方法是一种附加值分析方法，它通过管理成本分离出管理的价值。",
+    "context2": "用公式来表达管理回报。即为：",
+    "context3": "$$\n\\mathrm { R O M } { = } \\frac { \\mathrm { M V D } } { \\mathrm { M C } }\n$$",
+    "context4": "其中MVD一管理增值",
+    "context5": "MC一管理成本",
+    "context6": "管理增值是企业支付成本输入后的剩余。如果MVD>MC，则说明管理是有效果的，在某种意义上产出超过成本。"
+  },
+  "（12）多目标、多指标方法[22][28]。": {
+    "context1": "多目标、多指标方法是一种根据决策者的偏好评价不同结果价值的主观方法。它认为一个项目或一项帮资的价值可以电关系或认识而不是由货币来确定或测量。因此，该方法使用偏好概念代替",
+    "context2": "ROI等。"
+  },
+  "4结 语": {
+    "context1": "关于IT/IS 应用效果的评价在国外是比较热门的研究方向，但在国内相关方面的研究和文献并不多。随着我国企业信息化的进一步深化，相信这方面的研究必将成为我国学术界和企业界的一个热门领域。在国外，对信息系统的各个方面进行的大量的研究，也针对其应用效果发展的众多的评估方法，但每一种方法都有各自的优缺点。由于IT/IS运用的广泛性，可以说没有一种标准的方法可进行全面的评估。且目前的大多数研究是针对某一具体的企业或者行业，很多方法并没有普遍性，所以在应用这些方法进行评估时，要针对企业的具体情况，如经济状况、市场环境、行业特点、投资目的、企业文化等选择适合的方法。也希望该文在国内IT/IS 应用效果评估方法的研究方面能起到一个抛砖引玉的作用。"
+  },
+  "参考文献": {
+    "context1": "[1]Kristi Yuthas and Martha M·Eining,An experimental evaluation of measurements of information system effectiveness[J]· Journal of infomation system,1995,9(2):88-100.   \n[2]Laurie Mcaulay,Nell Doherty and Natasha Keval,The stakeholder dimension in information systems evaluation[J] $\\cdot$ Journal of Information Technology,20O2,17:34—53.   \n[3]Vicky Arnold,Discussion of an experimental evaluation of measurements of information system efectiveness[J]· Journal of Infomation System,Fall 1999,9(2):77—89.   \n[4]Eric T·G.Wang and Jeffrey C·F.Tai,Factors affecting information systems planning effectiveness-organizational contexts and planning systems dimensions[J]· Information &Management, 2003,40.91—102.   \n[5]F·Gremy,J. M.Fessler and M· Bonnin, Information systems e\" valuation and subjectivity[J]· International Journal of Medical Infomation,1999,56,13—23.   \n[6]VASILIS SERAFEIMIDIS and STEVE SMITHSON,Information systems evaluation in practice-a case study of organizational change[J]· Journal of Information Technology,2OOO,15 93一 105.   \n[7]Farbey B.,Land F·and Targett D.,Evaluating investments in IT.[J]·Journal of Information Technology,1992,（7):65—78.   \n[8]The most innovative IT users $. ~ \\cdot$ InformationWeek[J]. September , 1997,(22):45-51   \n[9]Sarv Devaraj and Rajiv Kohli著·IT 投资回报——衡量信息   \n[IU JFarbey B.,Land F·and Targett D.,Moving IS evaluation forward :learning themes and research issues[J]·Journal of Strate\" gic Information Systems,1999,(8):189-207.   \n[11]2003 年度中国企业信息化 500 强调查报告[R]:http:// WWW $\\cdot$ niec·org·cn/ipower/yjbgO31110.htm·   \n[12]王兴元,程涛·名牌企业管理信息系统发展现状与评 价指标体系[J].工业技术经济,2002,（7):256－259.   \n[13]Zahir Irani,Information systems evaluationnavigating through the problem domain[J]·Information & Management,2002,40: 11-24.   \n[14]Informationsystems technologyevalation practicesevidence from UK organizations $\\cdot ^ { \\ast }$ Ballantine, Galliers and Stray [J] $\\cdot$ Jour nal of Information Technology,1996,（1l):l29-141.   \n[15]Farbey,B.,Land,F·and Targett,D.,Moving IS evaluation for ward :learning themes and research issues[J]· Journal of Strategic Information Systems,1999,(8):189-207.   \n[16]Dan N. stone,Assumptions and values in the practice of information systemsevaluation[J]· Journal of Information System, fall 1990.45-64.   \n[17]Scott Hamilton and Norman L·Chervany,Evaluating Information System EffectivenessPart II $-$ Comparing Evaluator Viewpoints[J]. MIS Quarterly,1981,(1l):31-45.   \n[18]Scot Hamilton and Norman L.Chervany,Evaluating Information System EfectivenessPart I- Comparing Evaluation Approaches[J] $\\cdot$ MIS Quarterly,1981,(9):36-54.   \n[19]Francois Bergeron and Clermont Begin,The Use of Critical Success Factors in Evaluation of Information Systems -A Case Study[J]· Journal of Management Information System $, ~ \\rangle$ Spring 1989,5(4);43-56.   \n[2O]Kristi Yutha,Martha M. Eining,An Experimental Evaluation of Measurements of Information System Effectiveness[J]· Journal of Information System,1995,19(2):23—41.   \n[21]VERONICA SYMONS,Evaluation of infomation systems一IS development in the Processing Company[J]· Journal of Information Technology,1990,（5):194—204.   \n[22]Lederer,A·L·and Mirani,R·Anticiparting the Benefits of Pro\" posed Information Systems[J] $\\cdot$ Journal of Information Technology,1994,(10):59-69.   \n[23]Stanley Baiman,The efects of infomation systems integration and organization culture on a fim's effectiveness [M]· Journal of Accounting Research, spring 1975.43-65.   \n[24]J·Ballatine and S·Stray,Information systems and other capital investments: evaluation practice compared[J]· Logistics Information Management,1999,（12).34－43.",
+    "context2": "Evauauon Meuou [J」’IoauoI IeCIuIogyEvauauoI Methods and Management,20Ol,（9):45-56.   \n[26]Scott M.Shafer,Terry A· Byrd,A framework for measuring the effciency of organizational investments in information technology using data envelopment analysis[J] $\\cdot$ The Internation Journal of Management Science,2000,(8):55—71.   \n[27]A·Gunasekaran,Peter E.D.Love,A model for investment justification in information technologyprojects[J]. International Journal of Infomation Management,2OOo,2O:349—364.   \n[28]Gerald·Post,Albert Kagan and Kinnam Lau，A Modeling Approach to Evaluating Strategic Uses of Information Technolo\" gy[J]· Journal of Management Infomation System,1995,12 (2).23-43.   \n[29]Zahir Irania,Amir Sharif $,$ Peter E. D. Love,Applying concepts of fuzzy cognitive mapping to model;The IT/IS investment evaluation process， International[J]· Journal of Production Econonics,2002,75,199—211.   \n[30]Kar Yan Tam $, \\prime$ The Impact of Information Technology Invest ments on Fim Peiformance and Evaluation-Evidence from Newly Industrialized Economies [J]. Information System Re search,1998,9(1):55-65.   \n[31]Gerald V.Post，Albert Kagan and Kin-Nam Lau,A modeling approachtoevaluating strategicuses of informationtechnolgy [J]. Journal of Management Infomation System $,$ Fall 1995,12 (2):65-73.   \n[32]E·Huerta Arribas and P. J. SaAnchez Inchusta,Evaluation models of information technologyin Spanish companiesa cluster analysis[J]·Infomation $\\&$ Management,1999, 36.33一 47.   \n[33]T $^ { \\mathrm { ~ \\tiny ~ 1 ~ } } \\cdot$ Rapcsak,Z ·Sagi,T.Toth and L. Ketszeri, Evaluation of tenders in information technology[J].Decision Support Systems, 2000,30.44—56.   \n[34]Blackler,F·and Brown,C·Evaluation and the impact of infor mation technologies on people in organizations[J]· Human Relations,1985,38(3):56-73.   \n[35]Brynjolfsson,E.,The productivity paradox of information tech nology[J].Communications of the ACM,1993,36(12):42- 57.   \n[36]Smithson,S·and Hirschheim,R·Analyzing infomation systems evaluation:another look at an old problem[J]·European Jour nal of Information Systems,1998,(7):89-102.   \n[37]Baker,B.The role of feedback in assessing information systems planning effectiveness，[J]·Journal of Strategic Information Systems,1995,4(1):61-80.   \n[38]Clemons，Evaluationofstrategicinvestmentsininfoion technology[J] $\\cdot$ Communications of the ACM,1991,34(1): 23 $- 3 6$"
+  }
+}

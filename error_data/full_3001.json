@@ -1,0 +1,142 @@
+{
+  "original_filename": "full_3001.md",
+  "国内外数据要素市场研究进展：系统性文献综述": "",
+  "Research Progress in Data Element Markets at Home and Abroad: A Systematic Literature Review": {
+    "context1": "王雪¹夏义堃¹裴雷² WANG Xue XIA Yikun PEI Lei",
+    "context2": "(1.南京大学数据管研中心苏州501；南京信院，京,eResearchstuteforataanageentoatiosfnjing JniversitySuzhou,215011;2.Schoolof Information Management,Nanjing University, Nanjing,210023)",
+    "context3": "888888888888摘要:[目的/意义]国内外数据要素市场文献研究的系统梳理有助于深入理解数据要素市场的结构组成与运行框架,把握其关键问题与主要观点，并揭示当前研究进展与薄弱环节，为加强我国数据要素市场建设提供理论和实践指导。[研究设计/方法]采用文献计量分析方法,以Webof Science和中国知网中数据要素市场主题相关文献为分析对象,基于关键词共现及其时间聚类,结合文本内容分析国内外数据要素市场建设的基本理论、运行机制和数据交易机构发展的主要观点。[结论/发现]“数据要素市场”是国内外学术研究关注的热点问题，主要聚焦于数据要素概念体系、数据要素市场运行以及数据交易平台等核心问题，总体上仍处于研究的起步探索阶段,围绕数据产权、定价与监管等研究共识尚未形成，我国数据要素市场研究的系统性与深度均有待提升。[创新/价值]对国内外数据要素市场研究进展进行系统性梳理,总结研究特征和发展方向,为进一步开展数据要素市场研究提供参考。",
+    "context4": "关键词：数据要素；数据市场；数据交易机构；数据要素市场运行；研究进展中图分类号:F49;G25 DOI:10.13366/j.dik.2023.06.117",
+    "context5": "引用本文:王雪,夏义堃，裴雷.国内外数据要素市场研究进展：系统性文献综述[J].图书情报知识,2023,40(6):117-128.(Wang Xue,Xia Yikun,PeiLei.Research ProgressinDataElementMarketsatHomeandAbroad:ASystematicLiteratureReview[J].Documentation Information & Knowledge,2023,40(6):117-128.)",
+    "context6": "Abstract:Purpose/Significance]Asystematicreviewofdataelementmarketliteratureathomeandabroadhelps todeeplyunderstand thestructuralcompositionandoperatioalframeworkofdataelementmarket,raspitseyssuesandmainideasndrevealtherent researchprogressandweaknesses,sstoprovidetheoreticalandpracticalguidancfortrengtheningtheconstructioofdataement marketinChina.[Design/MethodologylAdoptingthebbliometricanalysismethodandtakingtheliteraturerelatedtothetopicofdata elementmarketinWebfScienceandClasteaalysisbectbsedonkeyrdcoccurenceanditstmpralcusterigtispaper analyzesthebasictheoryofdataelementmarketconstructionoperationmechanismandmainviewpointsonthedevelopmentofdata tradinginstitutionsathomeandabroadinconjunctionwiththetextcontent.Findings/ConclusionResearchshowsthatdataelement market\"isahotisseofacademicresearchatomeandabroad,mainlyfocusingontheconceptsystemofdataeements,thecoeissues suchasoperatioofthdataemetarketanddatatradingplatfos.Overall,seachisillinteexploatorafa andthereisnoconsensusoresearchinvolvingdatapropertyrights,pricingndregulation.esystematiandin-depthstdyfina's dataelementmarketstilnedstobeimproved.[riginalityValue]Thispapersystematicalysortsouttheresearchprogressofdata elementmarketatomeandabroadsummarizestheresearchcharacteristicsnddevelopmentdirectionhichprovidesfercefor further research.",
+    "context7": "Keywords: Data elements; Data market; Data trading institutions; Data element market operation; Research progress",
+    "context8": "大数据时代的到来催生数字经济蓬勃发展，数据已成为世界各国高度重视和争相获取的重要战略性资产。近五年来，英国发布《国家数据战略》、德国出台《联邦政府数据战略》、日本制定《创建最尖端数字化国家宣言·官民数据活用推进基本计划》、美国颁发《数据经纪商法案》激活数据要素价值、培育数据中介与数据信托等市场主体、发展数据要素市场、赋能科技进步与产业发展已成为各国政策框架的核心内容，并形成各具特色的数据要素市场治理体系与实践探索，推动全球数据要素市场呈现出快速发展的积极态势。",
+    "context9": "党的十九届四中全会首次将数据纳入生产要素，十九届五中全会提出推进数据要素市场化改革，为加强数据要素市场建设，国家先后颁布《关于构建数据基础制度更好发挥数据要素作用的意见》等重大政策，多次部署加快培育我国数据要素市场的重要任务，表明我国的发展重心逐步由单点大数据能力建设向数据要素市场全局优化配置转化。在此背景下，系统梳理国内外数据要素市场建设的研究文献，探索其基本理论，分析其运行中存在的现实问题，不仅有助于发现数据要素市场运行规律，还能够为我国数据要素市场的高质量发展提供有益参考。",
+    "context10": "数据要素市场相关主题是近几年国内外研究热点，已有部分综述性文章对其予以分析。其中，国内学者多从经济学和信息学角度对数据要素流通的权属、交易、定价等市场行为进行研究。例如，付熙雯等[1对国内数据交易研究进展进行回顾；熊巧琴等[2对国内外数据要素确权、交易和定价研究展开综述；荣建欣等[3从经济学角度，着眼于数据要素特性，对数据要素市场化机制和经济价值研究进行总结。相比较而言，国外学者更加关注数据市场建设的技术问题和场景应用，如Driessend等[4]阐述数据市场的主要应用领域,结合数字技术发展,为数据市场的运行提供设计方案;Gonzal等[5]对物联网领域的数据隐私技术及其产业进行概述；Andrej等论述大数据技术和机器学习技术对营销行业数字化转型的影响。上述综述性文章为当前数据要素市场研究提供了有益参考，但多从单一学科或较为微观视角切入，缺乏对国内外数据要素市场研究现状的整体性评述，且多采用归纳与概括的定性研究方法，缺少对文献特征和关键词等客观数据的定量描述和分析。基于此，本文结合文献计量分析结果，基于文本内容从数据要素基本理论、数据要素市场运行机制、数据交易机构三个方面对国内外数据要素市场研究进展进行系统性总结和回顾。"
+  },
+  "1数据要素基本理论研究": {
+    "context1": "88888888888888888888888888888888888888888888888"
+  },
+  "1.1数据要素概念辨析": {
+    "context1": "现有研究多集中在数据资源、数据资产、数据资本等概念解析基础上，进而分析“数据”作为“生产要素”所具有的属性特征。一般认为，数据资源、数据资产、数据资本、数据产品均为数据价值实现过程中的不同表现形态，数据要素更侧重于从生产力角度对数据生产价值的强调[7。信通院的《数据要素白皮书》[8指出“数据要素”一词面向数字经济，指根据特定生产需求汇聚、整理、加工而成的计算机数据及其衍生形态。大量研究文献基于经济学、法学、信息管理等学科视角展开数据要素属性探讨，认为非竞争性、非排他性是其核心特征[9。同时，具有可再生性、非稀缺性、非均质性、无形性、集合使用价值更高等经济属性[10]，还因包含个人信息与成本投入而具有人格权与财产权等法律属性[]。此外，数据共享的不透明使得数据拥有者将数据视为核心竞争优势来加以开发，以获得超额收益和垄断地位，数据要素由此具有资源属性特征[12]。"
+  },
+  "1.2数据要素的价值实现机理": {
+    "context1": "数据要素的价值创造与实现过程被视为从原始数据到数据产品的整体耦合过程，也称数据价值链。国内外学者大都从数据生命周期角度来分析数据价值链，具体可分为数据获取、数据存储、数据分析及数据应用等基本阶段，相关研究如Faroukhi[13]提出的数据生成、数据采集、数据分析、数据交换四环节模型以及Curry[14提出的数据采集、数据分析、数据管理、数据存储、数据利用五环节模型。基于对数据要素价值周期的解构，研究者还从价值形态角度探究数据要素的价值实现机理。例如，李海舰等7认为“数据资源一数据资产（产品）一数据商品一数据资本”的数据形态演进带动了价值形态的演进，本质上完成了“潜在价值一价值创造一价值实现一价值增值”过程。总体而言，目前研究大多局限于对数据资源、数据资产等概念的辨析，缺乏对全要素生命周期、多主体互动协同机制的探讨，难以揭示数据要素价值创造的深层机理。",
+    "context2": "在价值实现方式上，现有研究十分重视数据要素与传统生产要素的有机结合，普遍认为数据要素市场与传统要素市场的内在联动是数据作为要素属性价值实现的重要体现。有别于传统生产要素，数据要素具有强协同性，能够赋能其他生产要素，提高企业生产与管理效率。企业通过大数据分析手段提高信息处理能力，可减少现金、库存和过剩产能，降低不确定性和风险[15]。此外，数据也能够在生产过程中与土地、资本等传统生产要素形成新的组合方式，改变生产函数属性，进而提升生产效率[16]。随着数据要素市场化配置进入政策议程，相关研究已从单一的场景刻画逐渐转向系统设计数据要素和传统生产要素的联动模型。代表性成果有：“数字产业化、产业数字化和全要素数据化”的三层次模型[16]、“两要素互补、多要素协同、全要素耦合”三层作用机理模型[17]等。"
+  },
+  "2文献计量分析": {
+    "context1": "88888888888888888888888888888888888888888888888"
+  },
+  "2.1 检索策略": {
+    "context1": "为全面把握国内外数据要素市场研究的总体态势与主题焦点，本文将CNKl和Web of Science分别作为中外文献数据源进行检索，利用Citespace构建文献关键词共现及其时序聚类图谱。考虑到国内外学术话语表达的差异，采用差异化的检索策略，如表1所示。",
+    "context2": "文献检索时间为2023年2月26日，鉴于文献研究的准确性和连续性以及国内外研究的差异对比，本文将时间节点定在2015年，试图运用同一时间段国内外相关主题研究内容的共性分析、差异比较为我国数据要素市场的健康发展提供借鉴指导。主要原因如下：（1）2015年我国发布《促进大数据发展行动纲要》，标志着数据成为国家基础性战略资源，自此以后，我国学界对大数据及其市场化的研究呈井喷式发展，主题也更为聚焦。（2）尽管国外“数据市场”研究起步较早，可追溯至20世纪90年代公共部门信息市场化研究，但随着大数据、开放数据等新热点的出现，相关研究进入低沉期。同样是在2015年，美国宣布成立数字经济咨询委员会（DEBA)，商务部发布《数字经济议程》，把发展数字经济作为实现繁荣和保持竞争力的关键，数据要素的资产价值以及数据驱动型经济成为新的聚焦点。同年，英国发布《2015-2018数字经济发展战略》，欧盟公布“欧洲数字一体化市场”战略，数据要素市场相关主题研究文献呈现出增长态势。"
+  },
+  "2.2结果分析": "",
+  "2.2.1发文期刊及所属学科分析": {
+    "context1": "表1文献检索策略Table 1 Literature Search Strategy",
+    "context2": "<table><tr><td rowspan=1 colspan=1>数据库</td><td rowspan=1 colspan=1>检索表达式</td><td rowspan=1 colspan=1>时间</td><td rowspan=1 colspan=1>期刊来源</td><td rowspan=1 colspan=1>文献类型</td><td rowspan=1 colspan=1>结果 (篇)</td></tr><tr><td rowspan=1 colspan=1>CNKI</td><td rowspan=1 colspan=1>主题=数据要素OR数据交易OR数据市场</td><td rowspan=1 colspan=1>2015-2023</td><td rowspan=1 colspan=1>CSSCI</td><td rowspan=1 colspan=1>期刊论文</td><td rowspan=1 colspan=1>1,089</td></tr><tr><td rowspan=1 colspan=1>Web of Science</td><td rowspan=1 colspan=1>标题= data market* OR data tradingOR data broker</td><td rowspan=1 colspan=1>2015-2023</td><td rowspan=1 colspan=1>“WOS 核心合集”中的 SCI和SSCI</td><td rowspan=1 colspan=1>Article</td><td rowspan=1 colspan=1>1,689</td></tr></table>",
+    "context3": "作为跨学科、跨领域的研究主题，国内外数据要素市场相关研究成果颇丰，散见于经济管理、计算机等多学科领域。从CNKI的统计数据发现（见表2），国内数据要素市场相关研究发文量排名前三的期刊分别为《经济问题探索》《科技管理研究》和《数字图书馆论坛》，很多研究成果刊发在经济学、法学、管理学、政治学等人文社会科学类学术期刊。",
+    "context4": "在WoS数据库中（见表3），国外数据要素市场研究较国内学科分布更为广泛，散见于环境科学、计算机科学、经济学、物理学、信息学与图书馆学、商业、工程学等领域。其中，计算机科学领域发文量最高，这与国"
+  },
+  "表2国内“数据要素市场”2015-2023年发文期刊及学科统计": {
+    "context1": "Table 2Statisticson Domestic Journalsand Disciplines Published the \"Data Elements Market\" During 2015-2023",
+    "context2": "<table><tr><td rowspan=1 colspan=1>期刊</td><td rowspan=1 colspan=1>发文数 (篇)</td><td rowspan=1 colspan=1>所属学科①</td></tr><tr><td rowspan=1 colspan=1>经济问题探索</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>经济与管理科学-经济与管理综合</td></tr><tr><td rowspan=1 colspan=1>科技管理研究</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>经济与管理科学-基础科学综合基础科学-管理学</td></tr><tr><td rowspan=1 colspan=1>数字图书馆论坛</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>信息科技-图书情报与数字图书馆</td></tr><tr><td rowspan=1 colspan=1>经济学家</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>经济与管理科学-经济与管理综合</td></tr><tr><td rowspan=1 colspan=1>宏观经济管理</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>经济与管理科学-宏观经济管理与可持续发展</td></tr><tr><td rowspan=1 colspan=1>科技与法律</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>社会科学丨-政治军事法律综合</td></tr><tr><td rowspan=1 colspan=1>商业研究</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>经济与管理科学-贸易经济</td></tr><tr><td rowspan=1 colspan=1>人民论坛·学术前沿</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>社会科学丨-中国政治与国际政治</td></tr><tr><td rowspan=1 colspan=1>湖南农业大学学报(社会科学版)</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>社会科学Ⅱ-教育综合</td></tr></table>"
+  },
+  "表3国外“数据要素市场”2015-2023年发文期刊及学科统计": {
+    "context1": "Table 3 Statistics on Foreign Journalsand Disciplines Published \"Data Elements Market\" During 2015-2023",
+    "context2": "<table><tr><td rowspan=1 colspan=1>期刊</td><td rowspan=1 colspan=1>发文数 (篇)</td><td rowspan=1 colspan=1>所属学科②</td></tr><tr><td rowspan=1 colspan=1>SUSTAINABILITY</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>环境科学/绿色可持续科学与技术</td></tr><tr><td rowspan=1 colspan=1>IEEE ACCESS</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>电信科学/计算机科学&amp;信息系统/电机与电子工程</td></tr><tr><td rowspan=1 colspan=1>PLOS ONE</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>多学科</td></tr><tr><td rowspan=1 colspan=1>PHYSICA A STATISTICAL MECHANI- CSANDITS APPLICATIONS</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>物理学&amp;多学科</td></tr><tr><td rowspan=1 colspan=1>APPLIED ECONOMICS</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>经济学</td></tr><tr><td rowspan=1 colspan=1>ENERGY ECONOMICS</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>经济学</td></tr><tr><td rowspan=1 colspan=1>EXPERT SYSTEMS WITH APPLICATIONS</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>运筹学&amp;管理科学/计算科学&amp;人工智能科学/工程、电气和电子科学</td></tr><tr><td rowspan=1 colspan=1>JOURNAL OF BUSINESS RESEARCH</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>商业</td></tr><tr><td rowspan=1 colspan=1>IEEE INTERNET OF THINGS JOURNAL</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>电信科学/计算机科学&amp;信息系统/电机与电子工程</td></tr><tr><td rowspan=1 colspan=1>IEEE TRANSACTIONS ON SMART GRID</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>工程、电气与电子科学</td></tr></table>",
+    "context3": "外重视人工智能、区块链等数字技术在数据要素市场的应用和场景化研究有关。此外，也有部分研究分布在跨学科领域的综合性期刊。"
+  },
+  "2.2.2关键词共现与时序变化分析": {
+    "context1": "（1）国内研究关键词共现与时序变化分析",
+    "context2": "根据关键词共现图谱(见图1），国内研究主要集中于“数据要素”“数字经济”“大数据”“数据交易”“数据治理”“生产要素”等主题，主要聚焦点包括以下内容： $\\textcircled{1}$ 数据要素基本理论研究，如数据作为生产要素的演进历程、数据要素市场培育与数字经济发展的内在联系、数据要素相关概念及特征辨析、数据要素价值等； $\\textcircled{2}$ 数据要素市场运行机制及其体系构建研究，该主题是研究者们关注的重点，主要研究内容涉及数据流通、数据供给、数据定价、数据产权、隐私保护和市场反垄断等； $\\textcircled{3}$ 数据交易平台建设研究，包括交易平台、数字平台、平台型企业及其数据获取与交易规制等主题。本文的研究框架主要基于这三方面的内容展开。",
+    "context3": "从国内数据要素市场研究的主题演进来看（见图2）,2015年至2018年，国家发布《促进大数据发展行动纲要》，数据成为国家基础性战略资源，贵阳大数据交易所等一批数据交易机构相继成立，激活了我国数据市场的流通与交易，“数据资产”“数据交易”“交易平台”与“数据流通”“数据治理”成为这一阶段的研究重点。随着个人数据意识的觉醒，数据交易流通中的个人数据、个人信息保护等问题也开始受到学界关注。2019年，十九届四中全会把数据列为新的生产",
+    "context4": "![](images/d9119e8dd306dfefe01e68b2bed50754c374d505819f2e84cdb4080ac79c0626.jpg)  \n图1国内“数据要素市场”2015-2023年关键词共现图（局部图)Fig.1 Domestic \"Data Element Market\" Keywords Co-occurrence ChartDuring 2015-2023(Partial View)",
+    "context5": "![](images/6468e4cb3c5fd16ba238b2a059897d85384a06d735b40d8aae3efafe9654c454.jpg)  \n图2国内“数据要素市场”2015-2023年关键词时序聚类图 (局部图)",
+    "context6": "Fig.2 Keywords Time Series Clustering Plot in the Domestic \"Data Element Market\" During 2015-2023(Partial View)",
+    "context7": "要素，数据要素市场相关研究密集性增长，“数据要素”“数据产权”“数字经济”“数据市场”等成为高频热词。立足数字经济的时代背景，我国学者的研究主要集中在：一是数据要素与数据资产、数据资源等概念辨析，探究数字技术环境下数据成为生产要素的基本条件与属性特征。二是高度关注数据权利，数据产权、数据权属、数据权益以及数据交易中的利益平衡等问题。三是重视数据产品及其流通中的数据定价、平台经济与反垄断、数据安全与隐私保护等数据要素市场关键问题研究。"
+  },
+  "（2）国外研究关键词共现与时序变化分析": {
+    "context1": "由于国外数据要素市场研究起步较早，伴随欧盟公共部门信息市场化再利用步伐，国外一直关注数据质量、数据市场供需与价格、市场竞争、收益测度等基本问题，并延续至今。相比我国学者更加关注数据要素市场基本理论、市场运行机制等重大问题。2015年以后国外更关注“大数据”引发的“技术”如“机器学习”“系统”“算法”对于数据要素市场运行所发挥的作用。整体分布较国内研究更为深入（见图3），主要聚焦以下主题的研究： $\\textcircled{1}$ 数据要素市场运行基本问题，“质量”“竞争”“定价”“风险”“需求”“效率”等成",
+    "context2": "![](images/186ec6a2d638b14274edb5bb42a72fef9440cebbd9c14cb16f5122a8712b8108.jpg)  \n图3国外“数据要素市场”2015-2023年关键词共现图 (局部图)Fig.3 Foreign \"Data Element Market\"Keywords Co-occurrence ChartDuring 2015-2023(Partial View)",
+    "context3": "![](images/7bea8063bf76f4499135080e16d4ea5c7cb8b8cf55b6f7733302344254da32ca.jpg)  \n图4国外“数据要素市场\"2015-2023年关键词时序聚类 (局部图)",
+    "context4": "Fig.4 Keywords Time Series Clustering Plot in the Domestic \"Data Element Market\" During 2015-2023(Partial View)",
+    "context5": "为关注重点; $\\textcircled{2}$ 以“大数据”“模型”“数据分析”“数据挖掘”“机器学习”等数字技术与方法在平台经济中的广泛应用为研究对象，分析其应用场景、网络效应与效率影响。",
+    "context6": "从主题发展的动态演进来看（见图4），随着数字经济研究的深入以及人工智能技术的应用，国外数据要素市场研究呈现出“具象化”“场景化”的趋势。2015-2018年间，数字经济发展的技术应用、算法、网络在数据市场竞争中的作用受到关注，涉及数据挖掘、数据分析以及算法应用等不同场景下数据要素价值实现的技术要求、市场风险与数据需求、定价收益、市场波动性等问题。同时，数据要素市场的隐私风险、个人数据保护、数据政策以及股票市场、金融市场等对于数据要素市场的影响也成为学界研究的重要问题。2018年以后，数据流通与价值释放的技术路径依赖更为明显，“大数据”“人工智能”“机器学习”“深度学习”等技术应用成为数据要素市场研究的聚焦点，既有学者专注于数字技术创新引发的数据要素价值实现的不确定性，如数据市场信任机制、经济增长的波动性等，也有学者将数据要素市场与智慧城市、医疗健康、新能源等具象化场景需求相结合，还有学者关注到高频数据、平台型企业数据获取、数据开发利用能力等问题。",
+    "context7": "在定量分析的基础上，通过参考高被引论文和人工筛选主题高相关度的文献，进行深入分析和系统梳理。具体筛选标准包括：主题相关性排名前 $1 0 \\%$ 的文章，排除其中“基于面板数据的其他要素市场”研究等相关度不高的文章以及报道性或评论性等价值含量较低的文章，共筛选出36篇中文文章和35篇英文文章。依据上述文献计量分析结果，进一步从数据要素市场运行机制和数据交易机构两个方面深入分析其具体研究内容。"
+  },
+  "3数据要素市场运行机制研究": {
+    "context1": "目前，学界关于数据要素市场的内涵有多种解释。有学者从市场调节机制出发，基于数据要素在市场流通中产生与实现的价值，认为数据要素市场是数据要素实现市场化配置的过程[18]。也有学者从实际运行状况出发指出，目前业界有将数据要素市场等同于数据交易平台、数据中介、数据交易所等具体实践空间场所的倾向[19]。从广义层面理解，数据要素市场可反映数据要素流通过程中所表现出的各种经济关系，是涉及多主体、多环节、多领域、多层级的复杂系统工程[20]。基于文献计量分析发现，数据要素市场运行机制研究始终是国内外关注的重点，也是数据要素市场研究的基础，主要聚焦数据供给、数据需求、数据定价、数据产权、市场竞争、反垄断、隐私保护、运行效率、数据治理等主题。"
+  },
+  "3.1数据要素市场运行特征": {
+    "context1": "与传统要素市场一样，数据要素市场的运行同样需要供需、定价、产权、监管等组成市场的各要件以准确反映数据市场价值规律，并促使各要件之间保持有序的内在联动。总体而言，现有研究多从供给机制、定价机制、产权机制、安全与监管机制等方面着手分析数据要素市场运行机制的建构。"
+  },
+  "3.1.1供求机制": {
+    "context1": "数字经济条件下，数据要素的供求是社会总供求的一部分。数据要素的市场供求状况影响数据价格波动和定价，同时也会引发新一轮数据产品竞争。目前国内数据要素市场供给重在解决数据采集方、数据提供方、数据生产方等不同主体数据供给质量良莠不齐的问题，要求建立统一的数据生产与操作标准[21]。也有学者提出在数据采集、存储、管理、分析和应用等数据价值链中的各环节，可以借助集约整合、协同开发和网络共享，增加高质量数据产品服务供给[22]。此外，数据交易平台在数据供需之间起到中介作用，是实现数据流通的核心枢纽,也是学界关注重点,如任保平等[23]指出应通过深化供给侧结构性改革畅通供给渠道，加强数据共享和交易平台建设，促进高质量数据要素供给和经济发展实际需求的衔接匹配。",
+    "context2": "国外研究主要关注数据市场运营商和第三方服务提供商所提供的数据产品或服务如何满足数据市场参与者需求的问题。在数据供给方面，将数据属性作为一个分析单元进行研究，如作为经济商品的数据特性[24];确定数据质量问题的方法[25]；讨论数据提供商通过数据市场共享数据的意愿，并考虑到匿名供给效果和数据所有权问题[26]。在数据需求方面，重点讨论数据市场中的供需匹配服务，通过数据生态系统或数据价值网络分析数据市场行为，以便数据提供商推介其数据产品，满足数据买家需求[27]。此外，也有研究探索“被盗数据市场”，即讨论非法交易的数据市场提供的服务，如个人信用卡的信息市场[28]。相比较而言，国外对于数据市场供求问题的研究内容更为深入和宽泛，国内对于数据供给方和需求方的严格界定以及数据市场供需匹配研究相对有限。"
+  },
+  "3.1.2定价机制": {
+    "context1": "国外学界长期关注数据产品的定价收费问题，并在公共部门信息市场化再利用中形成了欧盟的成本回收定价、边际成本定价与美国的边际成本定价和免费等不同定价策略。目前，国外学者侧重从技术层面研究数据市场的定价问题，强调把算法模型作为价格计算手段，如基于机器学习算法来定价训练数据或预测数据模型[29],将基于博弈论的智能定价算法应用于区块链数据市场[30]。总体而言，国外学界集中于对数据要素定价方法、模型和策略的探索，尚未形成统一的定价模式。目前的定价方法可大致分为三类：基于任务的定价，即依据数据产品对于数据消费者执行某项任务所能产生的价值来确定价格[31；基于数据品质的定价，依据内在价值如隐私包含程度[32]、数据质量优劣[27]来确定数据价格；基于市场的定价，在确定基础价值前提下，依靠市场如供需关系[33]等经济学方法来确定。",
+    "context2": "相比国外，国内数据要素市场研究侧重于对定价方法的探索，如基于价值和市场评价贡献的数据要素定价，具体包括数据要素价值的形成机制、发现机制和竞价机制[34]。同时，也有学者关注数据资产估值定价管理系统建设，将其纳入多主体和新兴数字化技术统筹设计，致力于打造集约高效和开放共享的数据资产估值定价系统[35。此外，机器学习、人工智能、区块链、智能合约等数字技术在数据要素定价中的应用也逐步受到国内学者的重视[36]。"
+  },
+  "3.1.3产权机制": {
+    "context1": "基于国内外研究梳理发现，人们对数据权属的认知在不断深化，普遍认为数据具有人格属性应赋予其人格权，具有一定独创性应赋予其知识产权，具有财产属性赋予其新型财产权，具有多重属性应赋予其新型的权利体系。同时，不同逻辑主导下的数据产权归属会存在较大差异，如在效率优先原则主导下，数据的产权归属倾向于能够带来福利最大化的主体[7，而以数据应用为先的逻辑下则会弱化数据产权归属[38]。",
+    "context2": "目前，数据产权是国内数据要素市场研究的重点问题，主要探索数据产权结构性分置的制度框架，以推进数据分类分级授权机制。如国家享有所有权、信息主体享有资格权、数据从业者享有经营权的“三权分置”运行机制[39;基于“个人数据人格权、企业财产权、国家数据主权”的数据产权制度体系“三边框架”[40]。同时也可利用现代技术手段，如区块链、数字签名、隐私计算等推进数据确权[41]。",
+    "context3": "国外研究更关注个人数据的权属问题。相关研究表明，大型科技公司存在通过用户指标(用户数量、用户参与度等)实现对个人数据的核算、管理和估值，但对个人数据本身的所有权和控制权缺乏界定和扩展[42]。针对个人数据权的界定，有学者创建了促进个人数据所有权、鼓励公平访问并允许用户从数据中获得经济利益的框架，在此框架中，个人可以直接与数据消费者交易数据，而不需要第三方中介，同时保持其数据的所有权[43]。"
+  },
+  "3.1.4监管机制": {
+    "context1": "国内研究聚焦于数据交易平台的监管问题（包括政府规制、法律监管和自律监管)和数据竞争中的反垄断问题。既要规范数据垄断行为的界定标准，不断完善数据反垄断监管机制，也要增强数据主体对个人数据的控制力，提升数据流通渠道的分散度与灵活性[44]。此外，也有学者针对数据安全监管机制展开研究。如建议对数据要素市场的登记备案、流通安全与秩序和信用体系等进行监督管理[45]；通过健全数据安全管理法律、完善分级分类管理制度、建设数据泄露通知制度、创新数据安全监管手段来完善数据安全管理制度[43]。",
+    "context2": "国外研究更为关注数据泛滥导致的数据控制、数据权利、安全、用户隐私、数据跨境流通、数据保护法等问题。大型科技公司成为美国反垄断改革的焦点，相关研究从数据保护和反垄断立场着手。如美国众议院《数字市场竞争状况调查报告》对四大科技巨头（脸书、谷歌、亚马逊、苹果)滥用市场力量、阻碍竞争的问题进行分析[46]。同时，侧重利用数字技术提升数据安全性，其中区块链技术是处理个人隐私和信息安全的较好解决方法，不可更改性是其关键特征，适合敏感数据的存储，可有效防止黑客攻击[47]。针对条块分割的行业和部门监管疲于应对数据领域反垄断等问题，有学者提出需统筹数据跨境流动、隐私、个人数据治理、数据与网络安全领域，综合技术、标准、法律等手段，设计一个跨国和多学科的监管框架[48]。"
+  },
+  "3.2数据要素市场运行模式": {
+    "context1": "通过文献分析发现，国内外数据要素市场运行模式涉及两个方面：一是政府主导的公共数据再利用，即公共数据的授权运营；二是多方主体参与市场驱动的数据运营。对于公共数据的市场化运营，欧美国家通过颁布开放数据和公共部门信息再利用法案、开放高价值数据集、制定授权许可规则等手段，为中小企业、创新型机构创造机遇。如欧盟在现有法律框架基础上设立数据空间，按照行业领域创设了9个数据空间，许多研究围绕数据空间展开，旨在创新数据共享交流模式，提高数据共享在刺激跨部门创新和新商业模式发展方面的影响[49]。同时，市场化开发利用被视为实现政府数据资产经济价值、拉动数字经济发展的关键，欧美逐渐形成了数据信托、数据中介、数据经纪人等为代表的市场化运营模式。其中，数据信托模式基于法律框架在数据信托人和受托人之间构建平衡数据权利的的信托机制[50；数据经纪商上通数据源头，下达数据消费者，与大型科技公司关系错综复杂，有加剧上下游兼并的垄断风险[51]。数据中介承担流通主体在交易撮合之外的权益制衡和监管职责，以中间人身份促成数据在供需方之间的流动[52]。",
+    "context2": "目前，我国已形成了政府主导、社会参与和市场化运作相结合的数据交易所运营模式，如贵阳大数据交易所、上海数据交易中心等机构均由地方政府和相关主管部门批准，由国有企业和其他市场投资者出资设立而成，在股权结构上为国有控股为主[53]。此外，数据市场中也存在一些由企业主导的数据服务商(数据堂等)和大型互联网公司数据交易平台(腾讯、阿里巴巴等），这些机构以企业为主导，采取完全市场化运营[54]。"
+  },
+  "3.3数据要素市场治理体系": {
+    "context1": "数据要素市场治理体系的研究涵盖数据层、技术层以及政策层的数据要素市场体系总体架构。有研究从技术层面出发，提出融合数据标识、区块链、隐私计算的“数联网”根服务体系[55]，有学者认为工业4.0背景下的数据要素市场治理内容应涵盖大数据、云计算、人工智能以及现行法规等[56。也有研究基于政府层面提出构建前端控制流程、关键管理活动、价值实现路径和可信数据生态体系四位一体的政府数据资产管理体系[57]。而基于企业层面的研究则认为数据要素治理需要从数据价值链解构与重构的角度分析企业数据管理体系[58]。此外，也有学者从数据要素市场与传统要素市场一体化联动[17]、数据生命周期一体化管理[59]、多层次数据要素交易体系协同[22]、基于信任原则的可信数据治理[6]等方面探索数据要素市场治理的框架建构。",
+    "context2": "整体而言，数据要素市场在统一大市场建设中的战略地位还需进一步厘清，现有数据要素市场治理体系研究较为分散，尚未形成系统化的治理体系，关于数据要素市场治理的总体架构与布局方案仍缺乏综合性研究。"
+  },
+  "4数据交易机构研究": {
+    "context1": "明确市场参与主体及其角色定位是推进数据要素市场化配置的重要保障。当前研究主要从生态视角展开，有学者提出数据供需方、数据交易机构、交易服务机构、数据监管机构等共同构成数据要素市场主体生态[61]。其中，数据交易机构作为数据要素市场的主要参与者，在数据要素市场中发挥了关键作用，是学者们研究的重点。",
+    "context2": "数据交易机构也称为数据经纪商、数据中介、经纪人、数据平台等，负有对收集到的数据进行集成整合、确定收购价格以补偿数据拥有者、设定数据出售价格并为数据消费者提供查询接口或购买服务等相应职责。目前产业界有将数据要素市场等同于数据交易机构的倾向[21]。基于前述文献计量分析结果，数据交易平台建设研究是国内外学者共同关注的重点，国内研究聚焦于交易平台、数字平台、平台型企业及其交易规制等主题国外侧重大数据分析“模型”“数据挖掘”“机器学习”等数字技术在数据交易平台中的广泛应用，并分析其应用场景与效率影响。因此，本文着重对数据交易机构相关研究进行梳理。"
+  },
+  "4.1数据交易机构类型及职责定位": {
+    "context1": "数据交易机构的建立是市场需求、头部企业引领与垄断以及数据开发利用能力提升的共同需求。相关研究表明，现有数据交易机构可分为：政府主导的大数据交易所和交易中心、企业主导型数据服务商、产业联盟数据交易平台、大型互联网公司数据交易平台[2];也可分为：数据生产或服务类企业为主导、商业职能为主的数据交易平台和地方政府联合其他主体投资、第三方撮合性的数据交易平台[63]。许多学者针对国内外不同类型数据交易机构进行对比研究，王卫等[64]指出我国综合性交易平台居多，数据来源渠道较广，而国外重视发挥数据社区的价值，有更多针对具体领域的交易平台。李振华[5则介绍了多种类型的数据中介及其侧重点，如数据交易平台着重解决供需双方的信息不对称问题,Plaid等开放银行服务商着重解决数据标准和数据接口的统一转换问题，数据信托可以优化“授权同意”这一个人信息分享路径。",
+    "context2": "综合已有文献，数据交易机构的职责定位可分为三类：一是作为交易活动的参与者，运用市场竞争、供求等机制引导数据资源合理配置[66；二是作为数据中介的组织者，提高交易行为透明度与可信度[67]；三是作为监督者，可通过监督机制和问责机制，约束市场交易行为，防止数据侵权[55]。"
+  },
+  "4.2数据交易机构运营管理": {
+    "context1": "在交易管理方面。Azcoitia[10]以数据交易实体角色为依据，将数据交易形式分为单边数据提供、数据交易平台和数据系统管理三种类型。陈舟等[68指出国内数据交易平台的交易形式可分为交易中介、大数据分析结果交易、数据产品交易三种。并且一个数据交易平台通常不只采用一种交易形式。目前国内外较为知名的数据交易机构如贵阳大数据交易所、azure在线数据市场皆是通过权威的中心化机构作为信用背书进行交易[69]。",
+    "context2": "在盈利方式方面。大多交易机构通过数据增值服务、中介服务(包括数据交易抽成收入和会员费收入）或打造完善的数据交易产业生态模式盈利[70]。国内学者指出大数据交易盈利模式包括数据交易平台盈利模式、数据交易卖方盈利模式、数据持有型大数据交易平台盈利模式、技术服务型大数据平台盈利模式四种，根据不同交易客体可细分为交易分成模式、保留数据增值收益权模式、一次性交易数据所有权模式和多次交易数据使用权模式[56]。",
+    "context3": "在运行机制方面。目前国内的数据交易所多以“国有控股、政府指导、企业参与、市场运营”为原则，采用国资控股、管理层持股、主要数据提供方参股的混合所有制模式，交易平台一般采用会员制，通过制定一系列涉及数据交易和会员管理的规则，组织数据交易并提供数据储存、分析等相关服务[55],也有学者认为要注重发挥数据社区的作用[]。国外研究大多把数据交易机构(数据经纪人)理解为对个人数据进行交易的机构，主要运行方式包括自由放任、数据共享、数据信托和数据合作社等，并以自由放任为主，逐步向数据信托或数据合作社模式转变[50]。"
+  },
+  "4.3数据交易机构监管机制": {
+    "context1": "目前，数据交易平台多以自律监管方式运行，采用会员制方式，数据供应方和数据需求方注册成为平台的会员，并遵守平台交易规则[71。针对数据交易机构政府监管体系不完备，自律监管体系缺失、设立方式不统一等问题，很多学者认为应从制度规范、组织保障、技术支撑等多元管理角度进行必要监管。",
+    "context2": "在制度规范层面，王[55认为数据交易机构监管机制应包含信息披露制度、数据按月交付和合规使用监督制度、数据风险控制和合规制度。国外学者集中于对现有数据交易平台监管制度的研究，美国联邦委员会发布关于数据经纪商的实践和操作报告，并强烈建议国会出台立法，限制数据经纪商的数据覆盖范围[22。欧盟的GDPR框架为消费者提供了新的权利，但并没有解决数据经纪商在监控资本主义中发挥的潜在作用，倾向于关注基于浏览器的技术，而不是应用程序的技术，因此要制定更为严格的政策解决方案，并推行一套国际通用的数据经纪商管理制度[73]。",
+    "context3": "在组织机构层面，查洪旺[74认为要加快建立政府层面的数据交易监管职能部门，同时发挥社会组织的作用,并引入第三方监管。Reviglio[50指出需要建立一个新的、独立的、跨国的监管机构，该机构能够实施数据开放的统一标准，强制要求数据的可移植性和可访问性，并监管数据交易平台和数据市场中的其他参与者。此外，在技术支撑层面，区块链等技术手段也有助于解决数据交易机构的信任以及安全问题[49]。",
+    "context4": "地方[75]。总体而言，我国“数据要素市场”研究仍处于探索发展阶段，理论与方法的系统性、综合性、协同性与规范性还处于探索之中，需要与数字经济建设与数据治理实践紧密结合，聚焦关键问题，培育应用场景，以实现理论研究与实践指导的同步发展。"
+  },
+  "5.1拓展传统要素与数据要素联动机制研究": {
+    "context1": "尽管当前在探索数据要素推动土地、劳动力、技术、资本等传统要素方面已取得部分研究成果，但鲜有研究探索数据要素市场与传统要素市场之间在要素/主体关联、体系结构、运行机制、演进路径等方面的系统耦合、渗透机理和扩散效应。因此，应突破只关注数据要素单向赋能的视野局限，进一步深入到生产要素之间、生产要素市场之间的多重耦合性、相互渗透和双向赋能效应的研究。"
+  },
+  "5.2深化数据要素市场化配置模式研究": {
+    "context1": "现有研究对于数据要素市场的总体架构与布局方案缺乏系统性分析，应加强数据要素市场顶层设计研究,从多层次、跨区域、多主体协同共创视角出发，不断强化问题导向，深化数据要素市场化运营机制和数据治理体系建设研究，总结具有中国特色、世界领先的数据要素市场化发展的理论体系与话语体系。"
+  },
+  "5.3开展多层次数据交易机构体系建设研究": {
+    "context1": "虽然部分学者提出要建立多层次数据交易市场，但系统化解决方案设计与研究相对不足。此外，理论探索方面，有关数据交易所、数据经纪人、数据服务商等数据交易体系的实证分析与效果评价较为薄弱，不同类型数据交易机构的适用空间与运行方式分析有限，应结合实践创新数据交易理论与方法研究。"
+  },
+  "5.4深化国外数据要素市场建设的比较研究": "",
+  "5展望与建议": {
+    "context1": "&XXXXXXXXXX&XXXXX&XXXXXXXXXXXXXXXXXXXXXXXXXX&XXXX",
+    "context2": "有学者指出数据要素市场是数据提供者和用户交汇的地方，不仅是买卖数据的场所，也是利益相关者在数据加工利用的知识创造过程中彼此交互与合作的",
+    "context3": "作为新生事物，尽管数据要素市场建设并没有直接可资借鉴的成熟做法，但国外信息市场建设，尤其是发达国家公共部门信息再利用实践中的产权、许可、定价、竞争的实践探索以及数据经纪人、数据信托、数据空间等创新性做法对于丰富和发展我国数据要素市场建设具有重要的经验参考与理论意义。"
+  },
+  "作者贡献说明": {
+    "context1": "王雪：提出论文基本思路,采集和分析数据,撰写论文;  \n夏义堃:制定论文框架，撰写部分论文，修改论文与最终定稿;  \n裴雷：参与框架制定，修改论文。"
+  },
+  "支撑数据": {
+    "context1": "支撑数据由作者自存储,E-mail:wx@smail.nju.edu.cn。",
+    "context2": "1.王雪.download_wos/cnki.txt.文献检索数据.   \n2.王雪.国内/外“数据要素市场”发文期刊及学科统计.xlsx.   \n3.王雪.国内/外“数据要素市场”关键词共现图.png.   \n4.王雪.国内/外“数据要素市场”关键词时序聚类图.png."
+  },
+  "参考文献": {
+    "context1": "[1] 付熙要，王新泽.我国数据交易研究进展：系统性文献综述[J].情报杂志，2241(1):137-143.(FuXiwen,Wang Xinze.ProgressofDataTrading Research in China: ASystematic Literature Review[J].Journal of Intelligence,2022,41(11):137-143.)   \n[2] 熊巧琴,汤珂.数据要素的界权、交易和定价研究进展[J].经济学动态,2021(2):143-158.(Xiong Qiaoqin,TangKe.Research Progress on the Right Delimitation,Exchange and Pricing of Data[J].Economic Perspectives,2021(2):143-158.)   \n[3] 荣健欣,王大中.前沿经济理论视野下的数据要素研究进展[J].南方经济,2021(11):18-43.(Rong Jianxin,Wang Dazhong.Overviewof Current Studies on Data Factor[J].South China Journal of Economics,2021(11):18-43.)   \n[4] DrieenSWsurGVanDnueatarketinAstemticratureReveJ]ess2:5.   \n[5] GaridoGMSedmeirJUudaOetalRevealingtheLandscapeofPrivacy-EnhancingTechnologiesintheContextofDataMarketsforthe loT:A Systematic Literature Review[J].Journalof Network and Computer Applications,2022,207:103465.   \n[6] MiklosikA,EvansN.ImpactofBigDataandMachineLearningonDigitalTransformationinMarketing:ALiteratureReviewJEEE Access,2020,8:101284-101292.   \n[7] 李海舰，赵丽.数据成为生产要素：特征、机制与价值形态演进[J].上海经济研究,2021(8):48-59.(LiHaijian,ZhaoLi.Data Becomesa Factor of Production:CharacteristicsMechansms,andtheEvolutionofValueForm[J].ShanghaiJournalofEconomics,2021(8):48-59.)   \n[8] 中国信息通信研究院.数据要素白皮书(20)[R/L].2023-03-20].w.caict.ac.cn/kxyj/wfb/bps/202301/t20230107_43788.htm.(China AcademyofInformatioandCommunicatioTechnologyDataElemntsWhitePaper(022)/]23-3-.wcaictac.cn/b/ bps/202301/t20230107_413788.htm.)   \n[9] MahantiRDataovanceandataanagementCntetalngDataoveanceriershologiesndols.gaporg Singapore,2021:12.   \n[10]AzcoitiaSALoutarisN.AurveyofDataarketplacesandTeirBusinessModels[J].CDRecord251(3)-9.   \n[1]王利明.论数据权益：以“权利束”为视角[J].政治与法律,2022(7):9-113.(WangLiming.OnDataRightsandInterests:FromthePerspective of Bundle of Rights[J]. Political Science and Law,2022(7):99-113.)   \n[12]BirchKCochraneDWardCDataasAsset?theMeasurementGovernancendValuationofDigitalPersonalDatabyigech]Big Data&Society,2021,8(1):135-150.   \n[13]FaroukhiAZEllaouiGahiYetal.BigDataMonetizatiooughoutBgDataVaueChainACompreenieRevieJ].Jouaofig Data,2020.7(1) :3.   \n[14]CurryEgDtaVaueCainDiitiosCcptsdeeticalAoacs[JSgerteatioalubising).   \n[15]ChenDQPrestonDSSwink M.HowtheUseofBigDataAnalyticsAfectsValueCreationinSupplyChainManagementJ]Jouralf Management Information Systems,2015,32(4):4-39.   \n[16]张昕蔚，蒋长流.数据的要素化过程及其与传统产业数字化的融合机制研究[J].上海经济研究,2021.3):60-69.(Zhang Xine,Jing Changliu. ResearchontheProcessofDataElementalizationandItsIntegrationwithTraditionalIndustryDigitization[J].ShanghaiJournalof Economics,2021,33(3):60-69.)   \n[17]白永秀，李嘉雯，王泽润.数据要素：特征、作用机理与高质量发展[J].电子政务,202(6):23-36.(Bai Yongxiu,LiJiawen,Wang Zerun.Data Elements:Characteristics,Role Mechanismsand High Quality Development[J].E-Government,2022(6):23-36.)   \n[18]国家工业信息安全发展研究中心.中国数据要素市场发展报告(2020-2021)[R/OL23-03-20].htps://ww.vzkoo.com/documet/221 128df0260f8b776637d.html.(NationalIdustrialInformationSecurityDevelopmentResearchCenter.ChinaDataElementsMarket DevelopmentReport(2-/--.htps://o/dumt/8df6fbd700dtm)   \n[19]高富平，冉高再.数据要素市场形成论一一种数据要素治理的机制框架[J].上海经济研究,202(9):70-86.(Gao Fuping,Ran Gaoran.Data ElementMarketFormationTheory-AMechanismFrameworforDataElementGovernance[J].ShanghaiJournalofEconomics2(9):70- 86.）   \n[20]欧阳日辉．我国多层次数据要素交易市场体系建设机制与路径[J].江西社会科学,2022,42(3):64-75,206-207.(Ouyang Rihui.Mechanismand PathofConstructionofulti-evelDataactoradingarkeSystemiina[JJiangiSocialSciencs24(3):64-5-.)   \n[21]何玉长,王伟.数据要素市场化的理论阐释[J].当代经济研究,2021(4):3-4.(HeYuchangWangWei.TheoreticalExplanationofDataFactor Marketization[J].Contemporary Economic Research,2021(4):33-44.)   \n[22] 谢康，夏正豪，肖静华.大数据成为现实生产要素的企业实现机制：产品创新视角[J].中国工业经济,2020(5):42-60.(Xie Kang.Xia"
+  }
+}

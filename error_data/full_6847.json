@@ -1,0 +1,134 @@
+{
+  "original_filename": "full_6847.md",
+  "·研究论文·": "",
+  "数字产品适老化研究综述：需求挖掘、障碍分析与优化设计": {
+    "context1": "林玉琴　赵　杨 刘婉婷　王林(武汉大学信息管理学院，武汉，430072)",
+    "context2": "[摘要］人口老龄化与社会数字化的同步发展导致“数字鸿沟\"问题日益严峻，加快数字产品的适老化研究与设计已成为业界和学界共同关注的焦点。本文基于国内外数字产品适老化领域近10年(2014一2023年)发表的348篇研究文献，采用系统性综述方法，深入分析了老年用户数字产品需求挖掘、使用障碍与优化设计方面的研究进展及发展趋势。研究发现，目前对老年用户的数字产品需求挖掘主要集中在物质需求、情感需求和精神需求三个层面，着重关注产品使用中存在的感官障碍、认知障碍、行为障碍和心理障碍，并从设计标准、优化对策和可用性测试多个维度开展适老化设计研究与实践。未来应针对数字产品的演进迭代和人口老龄化发展趋势，在研究样本采集、研究方法创新和研究内容拓展等方面作进一步思考。研究结论可为把握数字产品适老化研究热点、聚焦领域前沿和推动理论发展提供有益参考，也可为积极建设老年友好型数字社会提供实践启示。",
+    "context3": "[关键词]数字产品适老化智慧养老需求挖掘障碍分析优化设计[中图分类号］D669.6；TP311[文献标识码］A［文章编号］2095-2171(2024)04-0146-16DOI:10.13365/j.jirm.2024.04.146"
+  },
+  "A Review of Research on Elderly-oriented Digital Products: Demand Mining, Obstacle Analysis and Optimal Design": {
+    "context1": "Lin Yuqin Zhao YangLiu WantingWang Lin （School of Information Management，Wuhan University，Wuhan 430072)",
+    "context2": "[Abstract]The \"digital divide\" exacerbated by the simultaneous development of population aging and social digitization has become increasingly severe，prompting a focus on the research and design of elderly-oriented digital products within both industry and academia.Using a systematic review approach,this study analyzes 348 research articles on elderly-oriented digital product design indexed in CNKland Web of Science from 2014 to 2023．It explores the research progress and developing trend of the demand mining，usage obstacles，and optimal design of digital products for elderly users.The findings reveal that research on elderly users' needs mainly focuses onthe three levels of material，emotionaland spiritual needs，with significant focus on sensory barriers，cognitive barriers，behavior bariers and psychological barriers in product usage. The study investigates elderly-oriented design through various lenses，including design standards，optimization countermeasures，and usability testing.Future research should further consider the evolving nature of digital products and demographic trends by enhancing the methods for sample collction，innovating research methodologies，and expanding the content of studies.The findings of this study provide valuable references foridentifying research priorities in elderly-oriented digital product adaptation，spotlighting emerging areas， advancing theoretical frameworks，and also ofer practical insights for the proactive development of an agefriendly digital society.",
+    "context3": "[Keywords]Digital products；Elderly-oriented； Smart senior care；Demand mining；Obstacle analysis;Optimal design"
+  },
+  "1引言": {
+    "context1": "根据我国《第七次全国人口普查公报》数据显示，与2010年相比，我国60岁及以上人口的比重增加了 $5 . 4 4 \\%$ ，老龄化程度日益严峻[1]。与此同时，我国数字化建设进程正快速推进，并逐步向老年群体渗透。根据中国互联网络信息中心（CNNIC）第51次《中国互联网络发展状况统计报告》显示，截至2022年12月，我国50岁及以上的网民人数已达到3亿[2]。老年群体普遍认为数字产品能够提升生活质量、增强与社会的紧密连接，但也表达出强烈的技术焦虑感，以及在信息浏览、交互操作、内容理解等方面的诸多不适应性[3]。特别是近年来老年群体的数字化生活需求不断增长，使得这些“数字鸿沟”进一步扩大，成为社会各界共同关注的焦点。",
+    "context2": "为了让老年群体更好地适应数字社会环境，国内外政府部门、研究机构和广大学者围绕数字产品适老化研究展开了广泛探索并取得了丰硕成果。本文通过对近10 年数字产品适老化研究文献进行系统梳理、总结与分析，深入探讨了适老化研究的进展、热点及趋势，以期为后续相关研究与实践工作的高效开展提供坚实基础，同时有助于进一步弥合老年群体的“数字鸿沟”，推动数字包容型社会发展，更好地服务于国家数字经济战略与数字中国建设。"
+  },
+  "2概念定义与文献收集": "",
+  "2.1相关概念定义": {
+    "context1": "由于数字产品适老化研究的概念范畴较为宽泛，因此有必要对文献综述的主题范围进行说明，从而更好地对文献进行筛选和梳理。",
+    "context2": "（1）老年群体范围界定。在学术研究领域，国际上普遍以60岁或65岁作为老年人口的年龄起点，我国在《老年人权益保障法》中对老年人的定义也以60岁作为划分标准[4]。为了更全面地涵盖不同国家地区的数字产品适老化研究成果，本文将研究对象界定成年龄为60 岁（含）以上的老年用户群体。",
+    "context3": "（2）数字产品界定。不同机构、学者对数字产品内涵和外延的界定存在一定差异，目前尚未形成具有普适性的统一概念。例如经济合作与发展组织（OECD）将数字产品定义为通过数字订购或交付的数字服务、数字货物、数据和信息[5]。而学术界则认为数字产品是指包含有数字格式、可编码为二进制流的交换物[6-7]。本文结合官方定义和代表性研究成果，将数字产品界定为基于数字技术开发、提供数字服务的各类硬件产品和软件产品，具体类型如表1所示。",
+    "context4": "表1数字产品类型Table 1 Digital Product Types",
+    "context5": "<table><tr><td rowspan=1 colspan=1>类型</td><td rowspan=1 colspan=1>具体产品</td></tr><tr><td rowspan=1 colspan=1>硬件产品</td><td rowspan=1 colspan=1>笔记本电脑、平板电脑、智能手机、数字电视、聊天机器人、可穿戴设备</td></tr><tr><td rowspan=1 colspan=1>软件产品</td><td rowspan=1 colspan=1>互联网网站、移动应用程序（APP）、WAP 网页、移动端小程序.…</td></tr></table>",
+    "context6": "（3）适老化概念界定。从已有研究来看，“适老化”与“老年友好”的内涵和目标基本一致，通常以“适老化设计”“适老化改造”等术语形式出现，并且与“信息无障碍”",
+    "context7": "“数字包容”“数字鸿沟”等概念密切相关[8]。本文在已有文献的基础上，将适老化定义为：从老年人视角出发，结合老年人的生理、心理以及行为等特征对产品进行设计与优化，从而提升老年人的使用体验[9-10]。",
+    "context8": "综上所述，本文对数字产品适老化研究文献主题的调研范围包括：以60岁（含）以上的老年用户为研究对象，以数字化硬件产品和软件产品的分析、设计、优化为研究内容，以满足老年人的数字产品使用需求、提升老年人的数字产品使用体验为目标的一系列研究文献。"
+  },
+  "2.2文献来源与分析": {
+    "context1": "随着社会数字化发展和老龄化程度加剧之间的矛盾日益严峻，越来越多的学者开始关注数字产品的适老化问题并展开广泛的探索与实践，取得了丰富的研究成果。为了对已有成果进行系统梳理与深入分析，本文采用系统性综述方法，首先在CNKI和Web of Sci-ence（WOS）两个数据库中分别对国内外近10年（2014一2023年）的相关文献进行主题检索，检索词主要包括“老年（olderadult）”“适老化（elderlyoriented）”“数字产品（digitalproduct）”“数字设备（digital device）”等，同时在Google Scholar 和 ResearchGate 中进行文献补充搜索，并采用珠型增长策略进一步获取与这些文献具有共被引关系的其他研究成果，经过去重后初步得到1，444篇相关文献，包括中文文献 430 篇、外文文献1,014 篇。",
+    "context2": "在对研究成果的时间分布进行统计分析后发现（如图1所示），关于数字产品适老化研究的文献数量随着时间推移而不断增长，反映出国内外学者对该领域的关注度持续提升。特别是在2020 年之后，文献数量出现大幅增长，说明在新冠肺炎疫情的影响下，老年群体的数字生活需求及随之产生的数字产品融入障碍被进一步放大，成为学界关注焦点。",
+    "context3": "本文进一步对检索得到的研究文献按照相关度和质量水平进行筛选。通过阅读摘要、关键词和正文，排除掉与数字产品适老化主题关联度不高的文献，如老年人疾病防治、养老社区建设、老年居住空间设计等。",
+    "context4": "![](images/016785dc50a748a949778409f6fbc52ac9c66136424772d9a6e60c9fac228c09.jpg)  \n图1研究文献时间分布(截至 2023年7月)Fig.1Time Distribution of ResearchDocuments(as of July 2023)",
+    "context5": "同时，对每篇文章进行质量评估，具体标准为： $\\textcircled{1}$ 研究目的与背景是否阐述清晰； $\\textcircled{2}$ 研究假设的提出及理论模型的构建是否具有充分依据； $\\textcircled{3}$ 数据收集和分析方法是否适用且符合研究规范； $\\textcircled{4}$ 研究结论是否明确、可信； $\\textcircled{5}$ 适老化设计方案（建议）是否具备可用性。经过评估筛选，最终获得348 篇高质量研究成果，包含中文文献82篇、外文文献266篇。",
+    "context6": "通过对以上文献进行编码整理和内容分析可以发现，近10年来数字产品适老化研究的焦点主要集中在老年用户的数字产品需求分析、使用障碍和优化设计三个方面。学者们从信息科学、计算机科学、心理学、行为学、社会学等多学科视角出发，为数字产品的适老化问题研究提供了较为丰富的理论框架与实证成果。在此基础上，本文着重从老年用户的数字产品需求挖掘、使用障碍和优化设计三个维度，对已有成果进行系统梳理与评述。"
+  },
+  "3老年用户数字产品需求挖掘研究进展": {
+    "context1": "明确老年用户的数字产品使用需求是进行适老化设计的必要基础。国内外学者基于相关理论，采用多学科研究方法，对老年用户的需求特点、需求内容、需求层次等问题展开了广泛探索。"
+  },
+  "3.1研究理论与方法": {
+    "context1": "需求是源自个体内部的一种身心冲动，表达了人们的渴望或者需要，与个体的心理、动机和行为相关[1]。对需求的研究往往涉及心理学、社会学、行为学和管理学等多学科领域，通过综合运用多学科理论与方法，以深入了解老年用户的使用习惯和真实想法，从而为数字产品的适老化提供有力支撑。"
+  },
+  "（1）理论基础": {
+    "context1": "在老年用户数字产品需求挖掘研究中，应用较成熟的基础理论主要包括马斯洛需求层次理论[12]、BPNT基本心理需求理论[13]、ERG新人本主义需求理论[14]、KANO 需求模型[15]、FBM福格行为模型[16]等，学者们结合实际问题提出具体研究假设和理论分析框架，进而探寻老年用户的数字产品需求维度与层次结构，从心理层面剖析用户采纳和使用数字产品的动机意图及影响因素，为揭示用户需求与使用行为之间的转化机理提供重要依据。近年来，随着研究情境不断变化，学者们也在积极探索理论创新，不断提出新的理论框架，例如Jovanovic 等[17]结合 IBM模型和活动欲望模型，提出了以老年用户为中心的技术包容需求模型，为老年用户需求挖掘奠定了更坚实的理论基础；徐孝婷等[18]则构建了老年用户健康信息需求模型，并利用马斯洛需求层次理论解释模型内涵，同时提出了服务老年健康信息需求的对策和建议。"
+  },
+  "（2）研究方法": {
+    "context1": "在研究方法上，可以分为定性挖掘、定量挖掘和综合挖掘三种。对于老年用户需求的定性挖掘，学者们主要采用实地观察、用户访谈、焦点小组、研讨会等方式获取用户行为表现与自述报告，再通过扎根理论等方法归纳和提取数字产品需求。定量挖掘则主要利用问卷调查、数据爬取、文本挖掘等方法获取大规模样本数据，再通过多元统计、词频计算、关键词抽取和社会网络分析，挖掘老年用户的数字产品使用需求。综合挖掘则结合了定性与定量研究方法，通过多元化手段对老年用户需求进行多维度分析。本文对相关研究成果的梳理详见表2。",
+    "context2": "表2老年用户数字产品需求挖掘理论与方法  \nTable 2Overview of Theories and Methods of Digital Product Demand Mining for Elderly Users",
+    "context3": "<table><tr><td rowspan=1 colspan=1>研究理论/模型</td><td rowspan=1 colspan=1>研究方法</td><td rowspan=1 colspan=1>数字产品需求</td><td rowspan=1 colspan=1>来源</td></tr><tr><td rowspan=1 colspan=1>BPNT基本心理需求理论</td><td rowspan=1 colspan=1>用户访谈</td><td rowspan=1 colspan=1>安全感、控制感、日常事务处理、与亲人保持联系</td><td rowspan=1 colspan=1>[13]</td></tr><tr><td rowspan=2 colspan=1>KANO 需求模型</td><td rowspan=1 colspan=1>文本挖掘</td><td rowspan=1 colspan=1>监测身体状态、缓解子女养老压力、节约社会医疗资源</td><td rowspan=1 colspan=1>[19]</td></tr><tr><td rowspan=1 colspan=1>问卷调查</td><td rowspan=1 colspan=1>简单可用（字体样式、导航等）、易于理解（信息图表、分类等）</td><td rowspan=1 colspan=1>[15]</td></tr><tr><td rowspan=1 colspan=1>FBM福格行为模型</td><td rowspan=1 colspan=1>用户访谈行为观察</td><td rowspan=1 colspan=1>简化步骤、扫码辅助、归属感、安全感、信任感等</td><td rowspan=1 colspan=1>[16]</td></tr><tr><td rowspan=1 colspan=1>马斯洛需求层次理论</td><td rowspan=1 colspan=1>问卷调查用户访谈</td><td rowspan=1 colspan=1>使用操作、信息搜寻行为、隐私与安全、诊疗行为、交互与反馈、自我实现</td><td rowspan=1 colspan=1>[18]</td></tr><tr><td rowspan=1 colspan=1>ERG新人本主义需求理论</td><td rowspan=1 colspan=1>用户访谈行为观察</td><td rowspan=1 colspan=1>生理需求、安全需求、社交需求、娱乐需求、尊重需求、求知需求</td><td rowspan=1 colspan=1>[14]</td></tr><tr><td rowspan=1 colspan=1>活动理论</td><td rowspan=1 colspan=1>问卷调查用户访谈</td><td rowspan=1 colspan=1>基本需求、社交需求、社区服务与环境需求</td><td rowspan=1 colspan=1>[20]</td></tr><tr><td rowspan=1 colspan=1>可供性理论</td><td rowspan=1 colspan=1>问卷调查</td><td rowspan=1 colspan=1>功能需求、性能需求、外观造型需求、交互方式需求</td><td rowspan=1 colspan=1>[21]</td></tr><tr><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>用户访谈扎根理论</td><td rowspan=1 colspan=1>实用需求、享受需求、自我价值需求、社会联系需求</td><td rowspan=1 colspan=1>[22]</td></tr><tr><td rowspan=1 colspan=1>普及型健康信息需求、治疗型健康信息需求、心理型健康信息需求、技术设备型健康信息需求</td><td rowspan=1 colspan=1>[23]</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>文本挖掘内容编码</td><td rowspan=1 colspan=1>系统易用性、内容存储与迁移、功能改进、内容创新、内容治理</td><td rowspan=1 colspan=1>[24]</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>焦点小组问卷调查</td><td rowspan=1 colspan=1>检测和处理紧急情况、定位物体、协助行动、帮助记忆和回忆，协助处理日常事务</td><td rowspan=1 colspan=1>[25]</td></tr></table>"
+  },
+  "3.2研究结果分析": {
+    "context1": "从已有成果的需求挖掘结论来看，老年用户对数字产品的使用需求既存在一定共性，也",
+    "context2": "存在个性化差异，但总体上呈现出从功能性需求到深层次情感需求和精神需求的演进特征[22]。鉴于此，本文将老年用户的数字产品",
+    "context3": "需求挖掘研究结论划分为物质需求、情感需求和精神需求三个层次，需求层次越高，满足程度越弱，如图2所示。"
+  },
+  "（1）物质需求": {
+    "context1": "物质需求是指数字产品满足老年用户最基本的功能需求，主要包括实用性需求和操作性需求。实用性需求覆盖衣食住行等方面，能够满足老年用户获取信息服务和生活便利的需要，如通过图书资讯类APP 浏览时事新闻，通过医疗信息类APP查询医疗保健内容，通过在线购物平台解决日常生活所需等[14,26]；操作性需求则主要是为了适应老年用户的认知与行为能力下降，为其提供易理解、易操作、易学习的产品功能，比如清晰可见的界面布局、简单直观的操作按钮、便捷智能的交互方式等，从而减轻老年用户对数字产品知识掌握不充分、操作方式不熟悉和人机交互结果不确定的担忧焦虑[15,27]。",
+    "context2": "![](images/22bd2c011fcfe7036abd8a17ab30d635a65cb8b529dc6f1f38e59d6ae6088232.jpg)  \n图2老年用户数字产品需求层次  \nFig.2Digital Product Demand Hierarchy of Elderly Users"
+  },
+  "（2）情感需求": {
+    "context1": "情感需求是指数字产品满足老年用户对于维护、增强、改善亲密关系以及心理感知的需要，主要包括社会联系需求以及心理需求。其中，社会联系需求在社交媒体类和新闻资讯类的数字产品中有明显的体现，老年用户同样希望积极利用当今社会发展的先进成果建立良好的社交网络，从数字化交往方式里获得存在感、归属感和温暖感，从而健康有活力地度过老年时期[228-29]。此外，老年用户也希望数字产品能够满足其心理需求，包括安全感（如紧急情况下的联系服务、医疗信息服务等）[13]、控制感（如了解生活周边情况，掌管生活事务等）[13]、享乐感（如获得休闲、愉悦、放松的体验等）[22]等心理感知层面的需要。"
+  },
+  "（3）精神需求": {
+    "context1": "精神需求是指老年用户通过数字产品满足自身对于丰富精神文化生活、实现自我价值和获得外界尊重的一种高层次需求。随着社会保障制度的不断完善，经济上具备自我养老能力的老年人逐新增多，其在精神层面的需求也日益强烈，如阅读数字图书、关注民生信息等[30]。充分关注与合理满足老年人的精神需求，能够提升其生活质量和幸福感，并在一定程度上弥补数字产品的功能不足，同时增强数字技术及其衍生服务的保障作用。已有研究结果显示，随着老年群体接触和使用数字技术的场景不断扩展，以及对数字产品的认知、适应能力不断增强，老年用户已经不再仅仅满足于数字产品提供的基础功能，而是更希望在使用产品的过程中获得精神慰藉和能力自信[22]，感受到平等对待与社会尊重[14]，甚至渴望通过知识获取和技术学习实现更高层次的个人发展目标[1]。",
+    "context2": "整体而言，老年用户数字产品需求的层次性特点体现了时代进步中老年群体整体生活质量提升与知识水平增长的发展趋势，也契合了老年用户渴望更好地融入数字社会、获得情感支持与精神鼓励的强烈愿望。但从现有的理论研究与实证结果来看，大多数研究仍集中于老年用户物质需求的调研和挖掘，缺乏对深层次情感需求与精神需求的剖析。同时，在研究样本上也缺少系统的大规模市场调研，因而难以准确定位老年用户对数字产品的时代性要求[22,31]。"
+  },
+  "4老年用户数字产品使用障碍研究进展": {
+    "context1": "随着身体机能和认知能力的下降，老年用户在数字产品的信息获取、内容理解、行为操作等方面均存在诸多挑战。通过对研究文献进行内容分析，本文提取了与老年用户数字产品使用障碍有关的主题词，并生成了相应的词云图，如图3所示。根据老年用户使用数字产品的行为路径，本文依次从感官层面、认知层面、操作层面和心理层面分析老年用户的数字产品使用障碍。",
+    "context2": "![](images/c6bdd2ff06b676b8db1e52052a1c02a939c1a04b2ce3ace01241cb82fa17e2c0.jpg)  \n图3老年用户数字产品使用障碍词云图  \n'ig.3Cloud Map of Words with Difficulty in Using Digital Products for Elderly Users"
+  },
+  "4.1感官层面使用障碍": {
+    "context1": "老年群体感官系统的衰退主要表现为视觉、听觉、触觉等感知能力的下降，直接地影响其通过感官系统获取外部信息，进而阻碍老年用户在数字产品使用中的信息浏览、内容收听、触屏交互等信息接收行为。",
+    "context2": "（1）浏览障碍。老年用户在浏览数字产品，尤其是移动端产品的信息内容时，往往存在视敏感度弱、焦点识别能力差等问题，容易受到屏幕尺寸、字体大小、按键位置、色彩强弱等因素的影响，出现信息浏览障碍[32]。",
+    "context3": "（2）听力障碍。老年人对重音、语调、语速等语言韵律感知的能力也在逐步退化，导致其在使用数字视听、智能语音交互等产品时容易出现“听不清”“听不准”等问题，从而造成沟通不畅、语义误解、频繁重复等使用障碍[33] 。",
+    "context4": "（3）触摸障碍。触觉的退化使老年用户对数字产品材质、纹理和温度的感知不再敏感，因而在需要大量触屏操作的数字产品使用中经常遇到交互困难、操作失误、反应迟缓等问题，不仅降低了产品的使用效率与交互效果，还容易使老年用户对数字产品产生排斥、焦虑、不信任等负面情绪[34]。"
+  },
+  "4.2认知层面使用障碍": {
+    "context1": "老年人开始接触数字产品的时间普遍较晚，有限的经验知识阻挡了其学习和使用数字技术的热情。同时，随着老年群体认知能力的衰退，其在信息的记忆、理解、利用等方面均存在诸多困难，导致其难以正确选择和使用想要的服务功能，并且在导航使用、信息检索、信息选择等方面存在障碍。",
+    "context2": "（1）导航障碍。导航可以引导用户浏览和使用产品，帮助用户快速找到所需的信息资源。但研究显示，老年用户往往难以将注意力集中到产品的导航栏上，也无法充分理解导航栏的作用，从而在浏览较深层级页面时容易产生“位置迷失感”，无法通过最优行为路径有效使用数字产品[35-36]。",
+    "context3": "（2）检索障碍。检索能力是提升人们信息素养的重要基础。尽管诸多文献都探讨了老年用户的检索行为，表示老年用户通过持续学习可以掌握一定的信息检索方法[37-38]，但同时也发现，随着老年用户的决策能力、学习能力和思维能力下降，他们在信息检索过程中需要花费更多时间来思考问题的表述，并且难以快速判断检索结果的准确性及其质量[39]。",
+    "context4": "（3）选择障碍。随着数字产品不断迭代更新，其功能和形态日渐丰富，往往集成了大量信息模块、功能按钮和界面图标。老年用户由于学习兴趣、认知能力和理解能力衰退，导致其对信息内容的可信度和敏感度较低，在信息的辨别和选择上存在困难，并且难以记忆和掌握大量模块组件，进而影响对数字产品各项功能的正确选择与使用[40]。"
+  },
+  "4.3行为层面使用障碍": {
+    "context1": "由于老年用户普遍存在肢体灵活性、协调能力、力量强度和耐力程度等生理机能下降的问题，因此在数字产品的信息输入、图片缩放、滑动翻页等移动操作中面临困难。",
+    "context2": "（1）输入障碍。老年用户的信息输入行为主要包括手写输入、键盘输入和语音输入三种。在手写输入中，由于APP、小程序等移动终端应用的输入界面较小，以及老年用户手写速度较慢，容易导致信息识别错误、信息提前识别等问题[41]。在键盘输入中，由于老年人不熟悉触摸屏的QWERTY键盘，再加上老年人预期的触摸位置可能与实际触摸位置存在差距，从而使其在交互操作时容易产生误触行为[42]。在语音输入方面，老年用户则普遍反映存在不习惯语音命令操作、无法准确表达行为意图，以及系统难以准确识别其语音对话等障碍[41]。",
+    "context3": "（2）移动障碍。目前，数字产品的操作越来越精细化和多元化，例如在阅读数字图书时需要手指滑动翻页，在检索信息时需要双击进入/退出页面，在分享信息时需要多指同时按键截屏，在保存信息时需要长按图片内容等。这些功能都对用户的操作行为有一定的时间和空间限制，无形中加重了老年用户的操作负担，导致其在数字产品使用中普遍存在手指滑动不及时、无法连贯点击、无法实现图片缩放等问题[43]。"
+  },
+  "4.4心理层面使用障碍": {
+    "context1": "已有研究显示，老年用户在数字产品的使用上与年轻群体存在较大的心理差异，主要体现在安全感匮乏、自尊心敏感和技术焦虑等方面。老年人既担心经济损失、隐私泄露，也容易在面对新兴技术时产生自我否定、恐慌、紧张、排斥等负面情绪，从而影响老年用户购买数字产品设备、学习数字产品功能、使用数字产品技术的积极性。",
+    "context2": "（1）资金障碍。相较于年轻人，老年用户在消费方面更加勤俭节约和深思熟虑，因此对数字产品的价格和后续使用成本非常敏感。研究证实，资金因素对老年用户的数字产品采纳与持续使用意愿具有非常显著的影响，而年轻用户则经常会因为数字产品的高颜值和品牌效应“冲动消费”，而忽略产品使用的投入成本[44-46]。",
+    "context3": "（2）风险障碍。感知风险是用户从服务中感知到的服务本身或自身行为会带来负面结果的一种主观判断。有研究指出，在面对相同的负面报道时，老年用户的感知风险强度往往高于年轻消费者[47]。目前，对老年用户感知风险的研究主要集中在隐私风险[48]、安全风险[49]、财务风险[50]、操作风险[50]、绩效风险[48]等方面。",
+    "context4": "（3）情感障碍。情感障碍一方面体现为老年用户对数字产品的使用缺乏自信，另一方面则体现为对数字产品缺乏信任与支持。老年用户担心自己的学习能力不足，不相信自己能够掌握高技术含量的数字产品使用规则，从而呈现出较低水平的自我效能[51]；甚至会因为自身理解和操作错误而感到羞耻，进而对数字产品产生抵触情绪[52-53]。此外，老年人在心理习惯上更容易接受真实环境中眼见为实的交互方式，如现金支付、面对面交流等，因此对数字化生活场景和消费模式难以产生信任感，进而对数字产品产生排斥心理[46]。",
+    "context5": "通过分析比较老年用户在不同层面的数字产品使用障碍（如表3所示）发现，相比在感官、认知和行为层面的问题，心理层面的使用障碍更为复杂和多元，难以仅仅依靠产品的适老化设计来解决。如何有效解决老年人对数字产品使用的心理障碍是一个值得深思的问题，也应是未来研究关注的焦点。",
+    "context6": "表3老年用户数字产品使用障碍  \nTable 3Digital Product Use Barriers of Elderly Users",
+    "context7": "<table><tr><td rowspan=1 colspan=1>类别</td><td rowspan=1 colspan=1>老年人特征</td><td rowspan=1 colspan=1>产品设计举例</td><td rowspan=1 colspan=1>典型障碍</td><td rowspan=1 colspan=1>来源</td></tr><tr><td rowspan=3 colspan=1>感官层面</td><td rowspan=3 colspan=1>视觉、听觉、触觉下降视听耐受能力下降</td><td rowspan=1 colspan=1>屏幕尺寸小、字体字号小、颜色对比度低</td><td rowspan=1 colspan=1>浏览障碍</td><td rowspan=1 colspan=1>[54]</td></tr><tr><td rowspan=1 colspan=1>语音唤起模式复杂、语调变化幅度弱、语速较快</td><td rowspan=1 colspan=1>听力障碍</td><td rowspan=1 colspan=1>[33]</td></tr><tr><td rowspan=1 colspan=1>指纹识别率低、交互灵敏度低、屏幕触感差</td><td rowspan=1 colspan=1>触摸障碍</td><td rowspan=1 colspan=1>[34]</td></tr><tr><td rowspan=3 colspan=1>认知层面</td><td rowspan=3 colspan=1>信息处理能力下降信息记忆能力下降</td><td rowspan=1 colspan=1>导航按钮排列复杂、菜单组件含义不明</td><td rowspan=1 colspan=1>导航障碍</td><td rowspan=1 colspan=1>[32,36]</td></tr><tr><td rowspan=1 colspan=1>检索问题识别准确率低、检索结果展示缺乏重点</td><td rowspan=1 colspan=1>检索障碍</td><td rowspan=1 colspan=1>[39]</td></tr><tr><td rowspan=1 colspan=1>图标含义不清晰、缺乏按钮功能说明、界面按键多</td><td rowspan=1 colspan=1>选择障碍</td><td rowspan=1 colspan=1>[40,55]</td></tr><tr><td rowspan=2 colspan=1>行为层面</td><td rowspan=2 colspan=1>躯体运动能力下降身体形态发生变化</td><td rowspan=1 colspan=1>信息识别准确率低、键盘按钮面积小、按钮排列间隙小</td><td rowspan=1 colspan=1>输入障碍</td><td rowspan=1 colspan=1>[41]</td></tr><tr><td rowspan=1 colspan=1>点击时间要求间隔短、多手指操作难度高</td><td rowspan=1 colspan=1>移动障碍</td><td rowspan=1 colspan=1>[43]</td></tr><tr><td rowspan=3 colspan=1>心理层面</td><td rowspan=3 colspan=1>安全感匮乏自尊心敏感存在技术焦虑</td><td rowspan=1 colspan=1>数字产品价格高、服务收费标准不清晰</td><td rowspan=1 colspan=1>资金障碍</td><td rowspan=1 colspan=1>[44,45]</td></tr><tr><td rowspan=1 colspan=1>隐私安全保护说明不清晰、风险提示缺乏重点</td><td rowspan=1 colspan=1>风险障碍</td><td rowspan=1 colspan=1>[48,50]</td></tr><tr><td rowspan=1 colspan=1>错误提示生硬不友好、文字内容缺乏情感</td><td rowspan=1 colspan=1>情感障碍</td><td rowspan=1 colspan=1>[46,53]</td></tr></table>"
+  },
+  "5数字产品适老化设计研究进展": {
+    "context1": "为了提升老年用户的数字产品使用体验，学者们针对老年群体的身心特点、产品需求和使用障碍，从多学科视角对数字产品的适老化设计标准与优化方案进行了广泛探讨，并通过可用性测试进行了有效性验证。"
+  },
+  "5.1适老化设计标准及优化对策研究": {
+    "context1": "随着人口老龄化问题日益严峻，适老化已成为社会各界关注的焦点。多国政府、官方组织和学术机构不仅制定了数字产品适老化的通用性设计规范，同时也对具体的功能模块提出了针对性的优化建议，为进一步弥合“数字鸿沟”，提高老年群体数字生活质量提供了有力支撑。"
+  },
+  "（1）通用性设计标准": {
+    "context1": "为有效解决老年用户在数字产品使用中面临的困境与障碍，一些国家和官方组织相继制定了面向老年用户的数字产品通用性设计规范。与此同时，国内外学者也在理论研究与实证探索的基础上，围绕数字产品的信息架构[56]、内容表达[57]、字体大小[56]、色彩对比[56]、控件设置[58]、交互方式[59]、语言环境[]等具体维度，提出了适老化设计标准，逐步构建起从感知机能层面到认知能力层面再到情感体验层面的完整标准体系，如表4所示。"
+  },
+  "表4数字产品适老化通用性设计标准": {
+    "context1": "Table 4Universal Design Standards for Elderly-oriented Design of Digital Products",
+    "context2": "<table><tr><td rowspan=1 colspan=2>范围</td><td rowspan=1 colspan=1>名称</td><td rowspan=1 colspan=1>维度</td><td rowspan=1 colspan=1>来源</td></tr><tr><td rowspan=7 colspan=1>G</td><td rowspan=4 colspan=1>中国</td><td rowspan=1 colspan=1>移动互联网应用APP适老化通用设计规范</td><td rowspan=1 colspan=1>可感知性、可操作性、可理解性、兼容性、安全性</td><td rowspan=1 colspan=1>[61]</td></tr><tr><td rowspan=1 colspan=1>互联网网站适老化通用设计规范</td><td rowspan=1 colspan=1>可感知性、可操作性、可理解性、兼容性、特别要求</td><td rowspan=1 colspan=1>[61]</td></tr><tr><td rowspan=1 colspan=1>移动终端适老化技术要求</td><td rowspan=1 colspan=1>屏幕显示、音频控制、屏幕触控交互、语音交互、远程辅助、应急应用</td><td rowspan=1 colspan=1>[62]</td></tr><tr><td rowspan=1 colspan=1>智能电视适老化设计技术要求</td><td rowspan=1 colspan=1>□语字幕、音频描述、大字体、图形符号、色弱补偿、导航控制、触点</td><td rowspan=1 colspan=1>[63]</td></tr><tr><td rowspan=1 colspan=1>加拿大</td><td rowspan=1 colspan=1>老年友好型网站服务设计规范</td><td rowspan=1 colspan=1>字体类型、书写风格、媒介展示、界面导航、表单信息、标记设计等</td><td rowspan=1 colspan=1>[64]</td></tr><tr><td rowspan=1 colspan=1>美国</td><td rowspan=1 colspan=1>老年友好型网站服务规范</td><td rowspan=1 colspan=1>字体类型、信息展示、媒介展示、导航易用性等</td><td rowspan=1 colspan=1>[65]</td></tr><tr><td rowspan=1 colspan=1>万维网联盟W3C</td><td rowspan=1 colspan=1>老年网站内容可访问性指南（WCAG 2.0）</td><td rowspan=1 colspan=1>可感知性、可操作性、可理解性、可解释性、兼容性</td><td rowspan=1 colspan=1>[66]</td></tr><tr><td rowspan=8 colspan=2>苏</td><td rowspan=1 colspan=1>老龄化设计标准（DFA）</td><td rowspan=1 colspan=1>视觉、听觉、触觉、输入、输出、有效界面设计</td><td rowspan=1 colspan=1>[67]</td></tr><tr><td rowspan=1 colspan=1>适老化设计标准</td><td rowspan=1 colspan=1>视觉、听觉、嗅觉、肢体运动、认知</td><td rowspan=1 colspan=1>[56]</td></tr><tr><td rowspan=1 colspan=1>老年人多模式交互设计标准</td><td rowspan=1 colspan=1>简单性、自动化、个性化、独立性</td><td rowspan=1 colspan=1>[59]</td></tr><tr><td rowspan=1 colspan=1>移动界面通用服务设计标准（UDMIGV.2.0）</td><td rowspan=1 colspan=1>拟合设计、微观环境设计、宏观环境设计</td><td rowspan=1 colspan=1>[58]</td></tr><tr><td rowspan=1 colspan=1>移动应用程序适老化服务关键要点</td><td rowspan=1 colspan=1>控制方式、界面布局、导航指南、文本语言、图形动画、应用链接、搜索过滤排序、二致性、支持功能等</td><td rowspan=1 colspan=1>[60]</td></tr><tr><td rowspan=1 colspan=1>老年手机应用程序信息可视化设计</td><td rowspan=1 colspan=1>信息推送、数据类型、交互式呈现、信息关联表述、信息传播环境</td><td rowspan=1 colspan=1>[68]</td></tr><tr><td rowspan=1 colspan=1>老年网站信息服务设计标准</td><td rowspan=1 colspan=1>可见性、易于理解、控制与灵活、静态与动态帮助、组织信息一致性、有效性、重点突出</td><td rowspan=1 colspan=1>[57]</td></tr><tr><td rowspan=1 colspan=1>老年用户信息科技产品设计准则</td><td rowspan=1 colspan=1>界面布局配色、页面打开方式、产品外观设计、系统提示信息、产品交互表达、首页内容设计</td><td rowspan=1 colspan=1>[69]</td></tr></table>"
+  },
+  "（2）针对性优化方案": {
+    "context1": "在通用性设计标准的基础上，学者们还结合信息科学[70]、行为科学[43]、计算机科学[71]、工程学[72]、心理学[73]等多学科交叉知识，对数字产品的导航、触屏、弹窗、输入等关键功能模块提出了针对性的优化方案。例如Zhou等[2]建议在移动导航服务系统中添加网格线以增加视觉动量，帮助老年人更加快速、准确地找到目标；Li等[3]提出减少超链接的使用和避免抽屉式布局，可以帮助老年用户更为轻松地理解图标、浏览内容和执行操作；Urbano等[73]通过行为实验发现，拟物化界面设计能够有效提升老年用户在视觉搜索、可点击对象识别和多页面导览中的任务表现；Ouyang等[43]则通过眼动追踪发现，“滑动 $^ +$ 点击”和“滑动 $^ +$ 释放”的手势操作有助于减少",
+    "context2": "老年人的注意力转移。"
+  },
+  "5.2适老化设计可用性测试研究": {
+    "context1": "为评估老年用户使用数字产品的真实效果，可用性测试已成为数字产品适老化设计的重要研究内容。学者们围绕测试方法、测试场景和测试指标等关键问题进行了广泛探讨。"
+  },
+  "（1）测试方法": {
+    "context1": "数字产品适老化设计可用性测试研究方法主要分为基于专家的可用性评估和基于老年用户的可用性评估两大类。其中，基于专家的评估主要采用启发式方法，即邀请领域专家对指定的数字产品适老化设计效果进行综合评估，一般能够识别出 $80 \\%$ 的可用性故障[74]；基于老年用户的评估则主要采用观察法[75]、问卷调查法[76]、用户访谈法[75]、神经科学实验法[7]、正交实验设计法[77]等，如胡鸿等[76]通过 $\\mathsf { A } / \\mathsf { B }$ 测试和问卷量表评估老年用户对新闻资讯APP的使用体验和满意度；侯冠华等[77]采用 $3 \\times 3 \\times 3$ 的正交实验设计，结合问卷调查与眼动实验，评估老年用户在不同文字设计下的数字移动阅读体验。"
+  },
+  "（2）测试场景": {
+    "context1": "可用性测试场景主要分为实验室场景和真实环境两大类。目前，大多数数字产品适老化设计的可用性测试都是在实验室中进行，因为实验室能够提供一个相对安静、专业的测试环境，使老年用户可以专注于操作任务，同时便于研究人员全面细致地观察、记录被试的行为过程与外在情感表现。但也有学者指出：实验室环境往往屏蔽了外界干扰，无法观测周边事物对老年用户实际使用情况的影响，在一定程度上降低了测试结果的准确性与普适性[78]。鉴于此，越来越多的研究开始基于真实使用场景（如家庭、社区、医院、养老院、其他公共场所等）进行可用性测试，从而获得更加可靠全面和更具推广性的研究结果[75，79] 。"
+  },
+  "（3）测试指标": {
+    "context1": "在已有研究中，学者们主要基于成熟的可用性量表或用户体验量表、行为任务测试指标以及神经科学实验指标构建可用性测试指标体系，如表5所示。",
+    "context2": "表5数字产品适老化设计可用性测试指标  \nTable 5Usability Test Indicators for Elderly-oriented Design of Digital Products",
+    "context3": "<table><tr><td rowspan=1 colspan=1>测试对象</td><td rowspan=1 colspan=1>测试指标</td><td rowspan=1 colspan=1>来源</td></tr><tr><td rowspan=1 colspan=1>老年新闻资讯类APP</td><td rowspan=1 colspan=1>有效性、易用性、易学性、满意度</td><td rowspan=1 colspan=1>[76]</td></tr><tr><td rowspan=1 colspan=1>老年数字图形化界面</td><td rowspan=1 colspan=1>易学性、一致性、简单、效率、错误预防</td><td rowspan=1 colspan=1>[84]</td></tr><tr><td rowspan=1 colspan=1>老年智能手机界面</td><td rowspan=1 colspan=1>任务完成率、享受感、易用性、外观</td><td rowspan=1 colspan=1>[55]</td></tr><tr><td rowspan=1 colspan=1>老年数字图书阅读界面</td><td rowspan=1 colspan=1>心理努力、任务难度、瞳孔面积、眨眼率、可用性、舒适度、任务完成时间</td><td rowspan=1 colspan=1>[77]</td></tr><tr><td rowspan=1 colspan=1>老年移动界面导航系统</td><td rowspan=1 colspan=1>视觉设计、易理解性、导航交互、习惯支持</td><td rowspan=1 colspan=1>[36]</td></tr><tr><td rowspan=1 colspan=1>老年社交服务类APP</td><td rowspan=1 colspan=1>满意度、易学、效率、审美性、社会性</td><td rowspan=1 colspan=1>[85]</td></tr><tr><td rowspan=1 colspan=1>老年信息服务网站</td><td rowspan=1 colspan=1>网页设计、信息形式与内容、信息组织、交流互动、监督管理</td><td rowspan=1 colspan=1>[86]</td></tr><tr><td rowspan=1 colspan=1>老年移动政务类APP</td><td rowspan=1 colspan=1>系统易用性、系统包容性、情感支持度、服务有效度</td><td rowspan=1 colspan=1>[87]</td></tr><tr><td rowspan=1 colspan=1>老年信息检索工具</td><td rowspan=1 colspan=1>点击数、注视数、注视点个数、任务完成率、查询数量、查询时间、停留时间、利用程度</td><td rowspan=1 colspan=1>[39]</td></tr><tr><td rowspan=1 colspan=1>老年移动家居控制系统</td><td rowspan=1 colspan=1>任务成功率、任务困难度、满意度、动机、控制感</td><td rowspan=1 colspan=1>[82]</td></tr></table>",
+    "context4": "$\\textcircled{1}$ 用户感知量表指标。常用的适老化设计可用性测试量表主要包括USER量表[76]、SUS系统可用性量表[8]、UEQ用户体验量表[80]、QUIS用户界面满意度量表[81]、SAM自我评估模型量表[82]等，侧重于从易用性、效率、满意度等用户感知维度进行可用性测试。",
+    "context5": "$\\textcircled{2}$ 行为任务测试指标。在进行可用性测试时，研究人员会根据测试目标设置实验情境和创建实验任务，通过观察被试在任务执行中的表现来衡量数字产品适老化设计的效果。常用的行为任务测试指标主要包括任务完成程度[55,76]、完成时间[76,78]、求助次数[76]、错误次数[36]、出错占比[78]、理解程度[83]等。",
+    "context6": "$\\textcircled{3}$ 神经科学实验指标。受到老年用户生理条件的限制，目前常用的神经科学实验方法主要有眼动追踪、皮电、脑电等。例如眼动实验能够采集老年用户的瞳孔面积[7]、眨眼率[77]、注视次数[39]、注视时间[39]等生理反应数据，相较问卷量表、自述报告等信息采集方法，能够更加客观地反映被试的真实情况[7]。但由于老年用户存在视力退化、反应迟缓、神经系统紊乱等问题，因而在神经科学实验开展中仍存在诸多局限[39]。"
+  },
+  "6研究展望": {
+    "context1": "数智化基础设施建设在全球范围内的快速发展正在推动人类社会逐渐迈入万物感知、万物智能的新时代。面对技术跃迁与人口老龄化相互作用产生的“数字鸿沟”，如何积极促进数字产品的适老化设计，持续温暖“快时代”中的“慢人群”，是当前数字化进程中面"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "original_filename": "full_6923.md",
+  "数字图书馆的发展趋势与技术进展": {
+    "context1": "江佳惠",
+    "context2": "（西南财经大学，成都 610074)",
+    "context3": "〔摘要]数字图书馆是一个电子出版物的集合体，它以电子形式涵盖了传统书籍、科学论文等所包括的大量内容，同时为科学家、学者，以及学生提供及时有效的信息交流。如今，数字图书馆已经发展成了认知型出版物的主要集合地。这一点可以由其出版形式得到证明：在新理论与新实践的研究结果发表及获得认可后，相关的文章会被迅速发布，而且成本更低。本文对数字图书馆的发展趋势和技术进展进行了回顾与分析。数字图书馆不仅仅是一个电子文档的集合体，也是一个能识别用户的信息服务系统。它可以考虑不同用户的个人喜好，以提高检索效率及用户服务质量。此外，数字图书馆还具有通过图像检索文本的功能。本文还介绍了一个建立数字图书馆的成功方法。",
+    "context4": "[关键词]数字图书馆；文本检索技术；用户识别技术；趋势",
+    "context5": "[Abstract）Digital library（DL）isan aggregation of epublications·Itcovers traditional books，scientific papersand novels，etcin electronicfomat and provides eficientand timely informationforscientists，scholarsas wel as students·At present，DL has developed intoaconcentration of recognized publications，which is proved by their publishing style：certain articles willbepublishedrapidly with lower cost after recognition of new theoryand new practice：This paper reviewsand analyzes development tendencyof digital library which isnotonly agregationof epublications butalsoan informationservicesystem·Itcanimproveservicequality byconsidering preference of different users·Moreover，digitallibrary has thefunctionof text retrieval with images·Finally，asuccesful technique used to implement a DL is introduced.",
+    "context6": "[Key words]digital library；text retrieval technique；user recognition technology；tendency [中图分类号]G250.76[文献标识码]A[文章编号〕1008－0821（2007）01－0093—0"
+  },
+  "1相关术语技术": {
+    "context1": "数字图书馆中一项最常用的新技术是以文献集合体中术语或词语的使用频率为基础的，这一频率标志着某一术语及其相对应的概念在文献出版时的重要性。然而，一个个孤立的词不能充分说明相关领域的观点，为了更好地评价使用该术语的上下文，应考虑它与其他术语同时出现的情况。也就是说，如果两个术语频繁地同时出现在同一句子中，那么它们就是相关的。并且，同时出现的频率越高，说明两者间的联系越紧。",
+    "context2": "Bollen 等通过对过去11年的数字出版物的研究，分析了术语间的概念识别关系。他们从文献中挑选出彼此相关的术语，以提高相关术语搭配的精确性。通过去掉可变化词尾把术语简化到词根形式，例如：“operat”、“operating”和“operator”都被简化为共同的词根“operat”。这一方法可以在不考虑术语的语言功能和上下文的前提下将相关术语归类。",
+    "context3": "Poter从每一年的数字出版物的文章中选取一系列术语，然后找出它们之间的联系。既然句子的边界很难被自动和一贯地探测到，他给检索出来的原文应用了有8个术语的窗口，并使其在原文中随着单词逐个移动。但是这个窗口却不能向有关联的文章过渡。“同时出现的术语”被定义为任何2个在该8个词语的窗口中共同出现的单词。以经常同时出现的术语比不常同时出现的术语的关系更加密切的认识为基础，每一年中同时出现的频率的数据可以被计算出来并用于确定术语相关关系的数据。基于对同时出现的频率的分析，一个更加有效的搜索引擎能在数字图书馆中得以实施。术语间的一些稳定的关系也同样能在诸如“数字图书馆”、“信息”和“获得”等术语中存在。随着时间的推移，这些术语间的关系趋于稳定，而且变化很慢。"
+  },
+  "2用户识别技术": {
+    "context1": "每一个用户都有其个人兴趣，他想检索的信息量也是极其有限的。因此，可以利用用户识别技术来提高数字图书馆中信息的可获取性，更好地提供面向用户的服务。这些技术已被用于某些电子商务的网络服务性行业，如亚马逊网上书店。举例来说，一个系统可以记录下某个用户的登录及其访问历史，以此为基础，它能在该用户每次登录该系统时向用户提供他最喜欢的信息，其中包括他经常获取的信息和个人通告信息。用户也可定制桌面，并将其喜爱的信息分门别类，以便今后登录时定制的桌面和信息就会按自己的意愿显示出来。"
+  },
+  "3从图像中获取文字信息技术": {
+    "context1": "通过图像寻找图像是凭直觉获得的，而通过图像检索文本似乎是非直觉的。虽然如此，这样的例子还是很多的。例如有计算机专家试验用数字图像来检索文本内容。OCR(optical characterrecognition）是一种以图像为基础的文本检索技术，尽管它常常是在以文本为基础的图像检索中被实际运用。如果通过OCR所获取的文本正是我们想从图像页面中所获取的信息资料，那么，这一文本就是我们所要的检索结果。",
+    "context2": "OCR 技术衍生于文件分析与计算机视觉研究领域，其中也包括排版自动分析。如果认为某些印刷资料的信息不全是可文字化的，那么它的表象方面的分析就很重要。搜索引擎早就注意到这一点，因为它们更注重那些出现在标题或文章正文开头的词语。从可视文本获取视觉信息的工具在书目研究与句文编辑里不仅很重要而且有很多应用，而这些工具在传媒与文化方面的研究，以及许多与手稿材料有关的研究领域里虽然重要却没有什么应用。",
+    "context3": "以图像为基础的文本检索难度很大但很有趣。随着诸如Flash的新型数字技术的出现，这种检索已成为可能。近期以来使用Flash的例子越来越多。即使在今天，传统的圣人学研究也可使用高程度的文字化工具。这些工具会为一个文本中不同组成部分的分布和群集提供全局的观察。Virginia 大学尖端技术古典文学研究所IATH(The Institute forAdvanced Technology in Humanities）的可搜索 SGML（StandardGeneralized Markup Language）文本就是一个这样的例子。其搜索结果把整个诗歌文本以三维模式表现出来。而且，检索结果在空间里分开，以代表文本在线形文本中的分布，并以颜色为代码区别其类型。"
+  },
+  "4数字图书馆实现技术": {
+    "context1": "数字图书馆正在飞速发展，这使得我们没有必要为用户接口、搜索引擎或文集结构固定具体设计。让我们详细了解一下密歇根大学开发的一个成功的数字图书馆（Digitallibrary project atUniversityof Michigan，缩写为UMDL）项目，这是一个由美国 NSF、DARPA、NASA资助的项目。UMDL为其体系结构做了界定，即完成各项类属管理任务，如：根据用户需求配置资源，协调合作系统模块间的关系。它同时还指定了一种语言和协议，用以交流信息处理能力和用户兴趣，使用户和馆藏实现合理的结合。",
+    "context2": "UMDL应对的是许多有关规模、分散化、协同性和资源分配的难题，它界定了普遍适用的机制，并通过使用这些机制对提供图书馆服务的代理软件和协议进行了测试。将任务分配给大量专门化的分工精细的代理会促进模块性、灵活性和增量性，进而使新服务项目轻松地进行而不影响整个系统。限制各个代理软件的复杂性可以简化控制，提高重复使用率，并为解决协同性问题提供了一个构架。每"
+  },
+  "（上接第92页）": {
+    "context1": "供需活动，构建全方位、多层次、多渠道的信息市场体系。国家信息政策应鼓励建立风险投资基金，鼓励以融资、控股、参股和发行债券等形式进行引导资源一—技术一—市场型的信息企业集团的组建，形成规模效应。"
+  },
+  "参考文献": {
+    "context1": "[1］Johan Bollen，Michael L．Nelson，GiridharManepalli,Giridhar Nandigam，and Suchitra Manepalli．Trend Analysis of theDigital Library Community，D-Lib Magozine，2OO5，11（1).[2]Porter，M··An Algorithm for Suffx Stripping，AutomatedLibrary and Information Systems，1980，14（3)：130-137.[3] Amazon book store [EB]·http:// www·amazon·com/  \n[4]Flash Conference（2OOO）[EB]．http://www $\\cdot$ flashfor-$\\mathbf { w a r d } 2 0 0 0 . \\mathbf { c o m } / $ ，San Francisco·  \n[5]Todd Purgason's site design for Lundstrom and Associates[EB]·http:// www·lundstromarch· $\\mathrm { c o m / 0 0 0 - 0 0 _ { - } s e t \\cdot h t m l }$   \n[6]Dante's Irferno web site [EB].http://urizen· village·virginia·edu/hell/  \n[7]Digital library project at University of Michigan [EB]．http：//www· si · umich·edu/UMDL/[2]李雪英．美、日、中信息政策比较分析[J]．情报资料工作，2006，（2).  \n[3]史田华，杨铮．中美两国信息政策比较及其启示[J].南京理工大学学报：社科版，2003，（4).  \n[4]杨绍兰．发达国家信息政策的启示[J]．人大复印报刊资料：图书馆学、信息科学、资料工作，2002，（7).[5]张海娟，陶树人，徐钢．中美日三国国家信息政策的比较研究[J]．科技进步与对策，2002，（3)."
+  },
+  "5结论": {
+    "context1": "数字图书馆已成为出版周期短、成本低并具有吸引力的新型出版形式。而且，与传统图书馆相比，它的功能更多，使用更简便。本文说明数字图书馆只拥有相对较少的几个核心概念。这些概念又不出人意料地由诸如“数字的”、“图书馆”和“信息”等相关联的词语表示出来。与这些新技术相关的独特术语的数量多于稳定的核心概念，但又在很大程度上与之重叠。这表明，一些已被讨论了很久的术语将变得越来越重要。本文还指出，以图像为基础的文本检索具有极大潜力。随着数字图书馆成为无边无际的信息世界，需要用一种系统的观点来灌输通过数字图书馆中的图像进行文本检索的技术，以达到在浩瀚的馆藏中找到所需内容的目的。最后，本文还介绍了密歇根大学在实施数字图书馆过程中获得的成功方法。"
+  }
+}

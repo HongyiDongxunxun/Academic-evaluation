@@ -1,0 +1,116 @@
+{
+  "original_filename": "full_7619.md",
+  "欧洲网络存档项目实践进展与经验后示 \\*李子林龙家庆": {
+    "context1": "【摘要】欧洲国家网络存档项目实践经验丰富，以图书馆、档案馆等遗产机构为主导的网络存档项目为人类文化遗产留存和开放利用做出了巨大贡献。研究采用网络调查和内容分析法，对欧洲代表性国家的网络存档案例进行探索性分析，从法律规范和业务流程双重视角审视存档活动的阶段进展与实施难点。在此基础上结合我国现实情况提出优化建议：明确我国网络存档的法定实施主体及机构协同，深入开展基于API的社交媒体存档，推进人文社科领域对网络存档资源的利用，以业务为导向开展“用户细分型”网络存档服务。"
+  },
+  "【关键词】网络资源存储网络资源长期保存遗产机构": {
+    "context1": "Abstract:European countries have rich practical experience in network archiving projects，and network archiving projects led byheritage institutions suchas librariesandarchives have made tremendous contributions to the preservationandopen utilization of humancultural heritage.In this study，online investigationandcontentanalysisareused toconductan exploratoryanalysis of network archiving cases inrepresentative European countries，andtoreview the progressand implementation dificultiesof archivingactivities fromadual perspectiveof legalspecifications andbusinessprocesses.On thisbasis，itputsforwardoptimizationsuggestions basedontheactual situation in China:clarifythelegalimplementation entities and institutions of China's onlinearchiving，deepen the development of API-based social media archiving, promotetheuse of online archiving resources inthe fieldof humanitiesand social sciences，and develop businessoriented “user segmentation”network archiving service.",
+    "context2": "Key words:Web Archivenetwork resourcelong-term preservationheritage institutions DOI:10.15941/j.cnki.issn1001-0424.2020.15.008"
+  },
+  "0引言": {
+    "context1": "网络存档（Web Archiving）可追溯至20 世纪末兴起的数字保存（Digital Preservation）运动，即图书馆、档案馆等记忆机构运用数字技术对“社会现象的数字记录”进行捕获和保存。国际互联网保存联盟（IIPC）将网络存档定义为“收集网站内容且作为档案存储，并提供后续访问和使用”，该过程可视为“存档”（Archiving），累积形成的资源称为“网络档案库或数据库（Web Archive）”。网络存档理论与实践研究已经发展了20余年，各类存档项目如雨后春笋般成长起来，如美国非盈利基金会运营的互联网档案馆（Intermet Archive）自1996年以来广泛地参与互联网信息存档活动；同年，澳大利亚潘多拉网络档案馆（Pandora Web Archives）、瑞典国家图书馆 Kulturarw3网络档案馆（Kulturarw3Web Archives）项目纷纷后动；法国国家图书馆也于1999年进行了首次网络存档实验。总体来看，欧洲国家对网络存档领域的探索始终走在国际前列。",
+    "context2": "伴随着互联网时代的深度发展，网络存档的社会意义和价值日益凸显。对于人文社会科学领域的学者来说，网络档案越来越被认为是研究近几十年文化和社会现象的重要数字资源。海量的多样化信息为网络存档成为真正的跨学科领域提供了必要条件，使来自不同学科领域、知识背景（涉及计算机和信息科学、图书馆学、档案学、历史学、地理科学等）的研究者聚集起来。郝蒙德（Helmond）等学者利用互联网档案馆时光机项目（IntermetArchive Wayback Machine）保存的档案资源，对社交媒体行业伙伴关系的历史动态演进展开实证研究；韦伯（Weber）通过审查互联网档案馆中保存的新闻媒体内容，追溯网络新闻媒体的发展历史；英国艺术与人文领域数据项目（Big UK DomainData forthe Arts and Humanities，BUDDAH）鼓励并为利用英国网络档案馆馆藏开展研究的学者提供奖金支持。而且在欧洲整体层面，旨在建立一个合作性的欧洲存档网络资源研究基础设施（ResearchInfrastructure for the Study of Archival Web Materials，RESAW），为欧洲人文与社会科学领域学者提供良好的合作研究平台。在此背景下，本文拟从欧洲图书馆、档案馆遗产机构出发，探索以文化遗产保存为导向的网络存档项目实践进展，以期为我国网络存档理论与实践发展提供参考借鉴。"
+  },
+  "1研究对象及研究方法概述": {
+    "context1": "首先对欧洲国家网络存档项目基本情况进行浏览和初步摸底，以项目实施主体、项目实施规模、项目运行成熟度为筛选标准，进而选取英国、法国、荷兰、爱尔兰、丹麦、冰岛6个欧洲国家的图书馆/档案馆作为研究对象，以网络调查和内容分析作为研究方法，重点解读6国遗产机构开展网络存档项目的执行情况（详见表1）。",
+    "context2": "表1欧洲遗产机构网络存档典型项目列表",
+    "context3": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>国家</td><td rowspan=1 colspan=1>遗产机构</td><td rowspan=1 colspan=1>具体项目</td><td rowspan=1 colspan=1>项目说明</td></tr><tr><td rowspan=4 colspan=1>1</td><td rowspan=4 colspan=1>英国</td><td rowspan=3 colspan=1>国家图书馆</td><td rowspan=1 colspan=1>Open UK Web Archive</td><td rowspan=1 colspan=1>自2004年开始收集网站，存档网页副本经过人工质量检查和注释，涉及英国文化和生活各方面及重大事件</td></tr><tr><td rowspan=1 colspan=1>JISC UK Web DomainDataset (1996—2003)</td><td rowspan=1 colspan=1>该网络档案库主要是对Internet Archive互联网档案库中“UK”域名的网页的采集</td></tr><tr><td rowspan=1 colspan=1>Non-Print Legal DepositUK Web Archive</td><td rowspan=1 colspan=1>英国政府2013年4月发布《非印刷类法定呈缴制度》后开始后动的存档项目</td></tr><tr><td rowspan=1 colspan=1>国家档案馆</td><td rowspan=1 colspan=1>UK Government WebArchive</td><td rowspan=1 colspan=1>国家档案馆对英国中央政府网站上的信息进行捕获、保存和提供利用，涉及1996年至今的视频、政府机构社交媒体推送、图片和网页</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>法国</td><td rowspan=1 colspan=1>国家图书馆</td><td rowspan=1 colspan=1>BnF Internet Archives</td><td rowspan=1 colspan=1>法国国家图书馆运行的互联网档案库项目最早始于1996年的网页存档实验，所存档的网站集合是世界上最古老、内容最丰富的网站集合之一，且面向全世界开放</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>荷兰</td><td rowspan=1 colspan=1>国家图书馆</td><td rowspan=1 colspan=1>Dutch Web Archive</td><td rowspan=1 colspan=1>荷兰国家图书馆于2007年开始实施对荷兰部分网页的存档项目，并制定存档网页长期可用性策略。受版权因素制约，2011年起荷兰国家图书馆阅览室承担起该网络档案库的访问和查询服务</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>爱尔兰</td><td rowspan=1 colspan=1>国家图书馆</td><td rowspan=1 colspan=1>NLI Web Archive</td><td rowspan=1 colspan=1>爱尔兰国家图书馆于2018年采用互联网档案馆(Internet Archive）推出的Archiveit网络存档服务对爱尔兰国家具有文化、历史和社会价值的网页进行存档</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>丹麦</td><td rowspan=1 colspan=1>丹麦皇家图书馆</td><td rowspan=1 colspan=1>Netarchive. dk</td><td rowspan=1 colspan=1>自2005年起，丹麦皇家图书馆在《丹麦法定呈缴制度》的规范下对丹麦部分网站进行收集和保存，建立Netarchive档案库，仅面向经特定授权的研究人员开放</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>冰岛</td><td rowspan=1 colspan=1>冰岛国家和大学图书馆</td><td rowspan=1 colspan=1>The Icelandic Web Archive</td><td rowspan=1 colspan=1>参照冰岛的法律和法定呈缴制度，冰岛国家和大学图书馆自2002年起对冰岛国家域名的网页进行网页快照存档</td></tr></table>",
+    "context4": "本研究的数据收集与分析围绕两大核心问题展开：一是欧洲国家图书馆、档案馆等遗产机构是如何进行网络",
+    "context5": "存档的；二是网络存档的过程是如何组织推进的。笔者拟从两个角度进行重点分析：（1）法律视角，通过对6个欧洲国家当前网络存档相关的法律框架进行梳理，明确实施网络存档的法定主体，识别网络存档实施过程中的法律难点。（2）流程视角，以网络存档业务流程为切入点，从网络存档内容的采集、存储、访问、利用环节探讨欧洲国家网络存档项目的普遍特点及优势。另外，结合欧洲典型网络存档项目的发展趋势为我国图书馆、档案馆等文化遗产机构开展网络存档项目提供参考借鉴。",
+    "context6": "2法律视角下欧洲网络存档典型项目的实施现状"
+  },
+  "2.1欧洲网络存档活动的法定实施主体": {
+    "context1": "当前，欧洲开展网络存档项目的国家在确立网络存档的实施主体、划分存档内容的选择范围时基本遵循所属国家的法律规范。欧洲国家具有悠久深厚的文化遗产保存传统，以图书馆、档案馆、博物馆为首的遗产机构长期担负着保存传承珍贵历史文化遗产的使命。伴随着互联网信息呈指数量级增长，以图书馆为首的遗产机构在对传统类型文化遗产进行妥善收集和有效管护以外，将网络环境下的文化遗产纳入保存范围。除了遵循国家文化遗产保护相关法律规定以外，网络存档活动实施主体的法定权限基本来自于两大类国家公共法律制度：一是法定呈缴法案/制度（Legal DepositLaw），二是公共档案馆法（Public Archive Law）。",
+    "context2": "据研究数据显示，以英国、法国、丹麦、爱尔兰、冰岛为主的欧洲国家基本上以法定呈缴制度的形式确立了国家图书馆作为网络存档法定实施主体的地位，以法律形式承认国家图书馆有责任保存并向公众开放互联网文化和历史遗产。另外，以荷兰为首的部分欧洲国家虽缺少对国家图书馆机构开展网络存档的法定授权，但鉴于国家图书馆的公共文化遗产机构属性，该机构也被允许在不侵犯网页所有者权利的前提下开展网络存档活动。详细情况如表2所示。",
+    "context3": "表2欧洲网络存档典型项目法定实施主体一览表",
+    "context4": "<table><tr><td colspan=\"1\" rowspan=\"1\">国家</td><td colspan=\"1\" rowspan=\"1\">实施机构</td><td colspan=\"1\" rowspan=\"1\">可依据法律/制度</td><td colspan=\"1\" rowspan=\"1\">相关说明</td></tr><tr><td colspan=\"1\" rowspan=\"1\">荷兰</td><td colspan=\"1\" rowspan=\"1\">国家图书馆</td><td colspan=\"1\" rowspan=\"1\">无</td><td colspan=\"1\" rowspan=\"1\">目前还未有明确的法律规定国家图书馆具备开展网络存档活动的法定权限，国家图书馆实施的网络存档项目是一种基于自愿原则（Voluntary）的活动，网页所有者有权利拒绝网络存档行为（基于荷兰的版权法）。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">法国</td><td colspan=\"1\" rowspan=\"1\">国家图书馆</td><td colspan=\"1\" rowspan=\"1\">Code du patrimoine ArticleR132-23-1( French Heritage Code，art.R132-23-1，II、III)DADVSI Law，2006</td><td colspan=\"1\" rowspan=\"1\">法国《遗产法典》R132-23-1第II、III条规定了提供在线公共传播、视听媒体服务的出版商应依规定向法国国家图书馆提供有助于采集、访问和保管所发布数字资源的密钥或渠道。另外，2006出台的DADVISI法案对互联网法定呈缴制度作出新规定。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">英国</td><td colspan=\"1\" rowspan=\"1\">国家图书馆国家档案馆</td><td colspan=\"1\" rowspan=\"1\">Legal Deposit Libraries（None-Print Works）2013Copyright，Designs and PatentsAct of 15th November 2018</td><td colspan=\"1\" rowspan=\"1\">英国法定呈缴制度（1662年出台，2013更新）对英国国家图书馆在内的6家图书馆接收和保管印刷出版物、网站、博客、电子期刊、光盘等数字资料进行规定。除英国国家图书馆以外，其他5家图书馆为：苏格兰国家图书馆、牛津大学图书馆、剑桥大学图书馆、威尔士国家图书馆、都柏林三一学院图书馆。另外，《版权、设计及专利法》（2018年）对图书馆、档案馆、博物馆等遗产机构面向社会公众提供所保管各类出版物副本的具体细节进行规定。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">爱尔兰</td><td colspan=\"1\" rowspan=\"1\">国家图书馆</td><td colspan=\"1\" rowspan=\"1\">Irish Legal Deposit Legislation</td><td colspan=\"1\" rowspan=\"1\">爱尔兰之前的法定呈缴制度（LegalDeposit）并不适用于数字/在线出版物，该法律目前处于修订阶段，之后该法律的适用范围将扩展至网络内容。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">丹麦</td><td colspan=\"1\" rowspan=\"1\">丹麦皇家图书馆</td><td colspan=\"1\" rowspan=\"1\">Danish Act No.1439 on LegalDeposit of Published Material</td><td colspan=\"1\" rowspan=\"1\">丹麦国家法第1439号—法定呈缴制度(2004年版本)正文第三部分特别对在网络上发布的各类资源的呈缴细节进行规定。</td></tr><tr><td colspan=\"1\" rowspan=\"1\">冰岛</td><td colspan=\"1\" rowspan=\"1\">冰岛国家和大学图书馆</td><td colspan=\"1\" rowspan=\"1\">Iceland Legal Deposit</td><td colspan=\"1\" rowspan=\"1\">参照冰岛现行法定呈缴制度（LegalDeposit），冰岛国家和大学图书馆仅能对冰岛域名的网页及全球域名的冰岛网页进行采集和存档。</td></tr></table>",
+    "context5": "值得注意的是，法定呈缴制度并非面向互联网环境下出版物而制定的专门法律。为了将国家图书馆对传统出版物的管护权限扩展至互联网资源，以英国、法国、丹麦为首的欧洲国家率先进行法律适用范围调整，在传统法定呈缴制度的基础上以补充法条的形式确立网络资源的呈缴细节。爱尔兰于2017年后动对法定呈缴制度的修订工作，2018年后动的NLIWeb Archive项目实质上已认可国家图书馆开展网络存档的法定主体地位。"
+  },
+  "2.2欧洲网络存档活动面临的法律难点": {
+    "context1": "欧洲国家在开展网络存档的过程中不可避免地面临各种法律问题，在以下两个方面尤为显著。",
+    "context2": "2.2.1传统法律框架下，存在网络资源存档规约和监管“盲区”",
+    "context3": "当前欧洲国家的法律框架下与网络存档相关的法律制度主要包括：法定呈缴制度、版权法、个人数据保护法、政府公共部门信息公开法。以英国、法国为首的欧洲国家通过对传统法定呈缴制度进行更新和拓展，将网络资源纳入法律适用范围，基本解决国家图书馆等遗产机构开展网络存档的合法权问题。但是，由于目标存档网页可能涉及个人数据和信息，遗产机构在采集、保存网络资源的过程中可能构成对个人数据权和隐私权的侵犯。仅有部分欧洲国家在出台的通用数据保护条例（General Data Protection Regulation）中对该问题进行规约，即“当出现基于历史或科学目的，以公共利益导向的个人数据存档现象时，该条例授权从法律上克减数据主体的权利”。同时，对政府机构网络资源进行存档和开放利用时，需注意该类行动是否遵循政府部门信息公开法案，当法定呈缴制度与政府部内信息公开法案存在规约内容交叉和重叠时，网络存档活动的实施主体、存档内容的选定需要明确地协商和确立政策标准。如英国国家档案馆在对网络存档内容进行选择时为避免与英国政府信息公开法律产生冲突，特此制定国家档案馆馆藏选择政策OSP27:英国中央政府网络资产（Operational Selection Policy OSP27:UKCentral Govermment Web Estate）。另外，鉴于网络资源采集工具的自动性和实时性导致存档网络资源内容可能存在违反公共安全法等情况。当前欧洲国家对此问题并未特别增设法律条款进行规范，存档活动实施主体通常在提供存档网络资源访问和利用服务之前进行内容筛查，以此规避权责风险。"
+  },
+  "2.2.2互联网资源生成和组合的复杂性与多来源性，使网络存档合法化存在阻碍": {
+    "context1": "网页通常由文本、图像、搜索引擎、数据库等一系列要素构成，各构成要素都受到版权法保护，同时可能从属于不同的权利所有人。网络资源自身的复杂性致使网络存档行为可能会侵犯某权利所有人的版权利益。为解决网络存档活动中的版权问题，部分欧洲国家设置版权例外豁免，例如：法国DADVIS 法案第L132-4至L132-6条引入版权例外豁免案例，允许对网络呈缴制度规定的网络内容进行复制和传播；英国《版权、设计及专利法》（2018年更新版）第44A条允许图书馆等遗产机构合法保存和提供网络资源利用等活动，豁免此类活动对版权的侵犯。",
+    "context2": "3流程视角下欧洲网络存档典型项目的实施现状"
+  },
+  "3.1网络存档内容的采集": {
+    "context1": "欧洲网络存档典型项目在存档内容选择和采集方面存在较大差异，各国网络存档机构在采集对象、采集方法的选择等方面各有侧重。"
+  },
+  "3.1.1采集对象的选择": {
+    "context1": "网络存档法定实施主体的不同决定了存档内容选择的差别。国家档案馆开展网络存档项目时选择的采集对象",
+    "context2": "与国家图书馆存在明显不同。前者主要侧重于对政府机构的公共记录，例如政府机构网站上的信息内容。后者的存档范围更广泛，将网络存档视为法定呈缴活动的一部分或者将其作为对传统纸质出版物、电子出版物馆藏的补充。这种采集对象差异主要是由图书馆、档案馆各自的法定职能决定的。"
+  },
+  "3.1.2采集方法及主题": {
+    "context1": "欧洲各国国家图书馆在网络存档内容采集方法上各具特色。当前欧洲国家网络存档项目主要采取两类网络内容抓取策略：广泛性抓取（覆盖国家顶级域网站的抓取以及国家域之外的相关内容的抓取）和选择性抓取（如基于主题或基于事件的网络内容抓取)。选择性抓取的对象一般是基于特定的主题、事件甚至紧急情况（如自然灾害或其他不可预见事件），例如：法国国家图书馆围绕不同的馆藏主题/类别对网络资源进行抓取；爱尔兰国家图书馆则注重对文学、健康、社会问题等专题网络资源的抓取。在被调研的国家图书馆中，除了法国国家图书馆、荷兰国家图书馆仅仅采取选择性抓取策略以外，英国国家图书馆、丹麦皇家图书馆、爱尔兰国家图书馆均采取两种混合的网络内容抓取策略。总体上，与国家利益相关的网站会被纳入采集范围，尤其重视网站的受欢迎程度、独特性或创新程度。"
+  },
+  "3.1.3社交媒体内容的采集": {
+    "context1": "尽管欧洲国家网络存档项目的后动时间、实施普及率都走在世界前列，但是对社交媒体等新型媒介内容信息的存档还处于初期探索阶段。当前，欧洲国家网络存档项目采集的社交媒体平台主要为Twitter、YouTube、Facebook，实施内容采集的社交媒体账户主要来自国家重要的人物、组织和事件，如政党、政客、媒体、记者、运动员、其他社会名流等。英国国家档案馆为Twitter内容制定了专门的采集标准，将政府机构Twitter账号发布的推文纳入采集范畴，转发推文、推文评论、非政府机构平台及超出规定网域范围的信息均不在存档内容之列。同时，英国国家档案馆指定XML和JSON两种文件格式作为Twittr内容及相关元数据的标准存档格式，利用XML规整的结构与语法确保每条推文语义完整且明确，同时JSON格式也是英国国家档案馆指定的存档格式，同一份官方推文可以两种不同格式存档[。爱尔兰国家图书馆与爱尔兰皇家科学院、爱尔兰数字仓储等机构于2014年合作建立爱尔兰社交媒体仓储（Social Repository of Ireland），对全国具有长期保存价值的 Twittr内容进行存档，存档流程涉及4个关键步骤：事件定义、社交媒体采集与过滤、事件与推文的标注、以事件为单位进行长期保存。目前，荷兰国家图书馆还没有采集社交媒体内容的计划，但是已将社交媒体存档纳入10年存档计划里。"
+  },
+  "3.2网络存档内容的存储": {
+    "context1": "欧洲网络存档项目在存档内容长期保存方面经历着不断的优化与发展，具体表现在以下方面。"
+  },
+  "3.2.1存储格式的选择": {
+    "context1": "WARC（Web ArchivingFile Format）格式是当前欧洲网络资源存档中最理想的网络存档文件格式。该格式由互联网档案馆等机构在IIPC资助下共同开发，并于2009年5月以ISO28500 国际标准正式发布。WARC是ARC格式的延续，ARC是互联网档案馆于1996开发的网络资源存储格式，规定了一种将多个数字资源整合到一个存档文件中的方法，用于管理互联网档案馆所保存的数以亿计的网络文档。WARC格式相较于ARC格式可记录更多的数据信息，包括[4：（1）网页应用层协议的有效载荷内容和控制信息，如超文本传输协议（HTTP）、域名系统（DNS）和文本传输协议（FTP)；（2）网络资源相互联通的信息，如URL、锚信息；（3）链接存储网络资源的元数据信息，如主题分类器、编码等。丹麦皇家图书馆已经着手对荷兰网络档案库已归档的网络资源进行格式迁移，参考ISO28500WARC格式标准对原有ARC格式的网络资源进行格式转换，以确保后期存档网络资源的利用和共享。"
+  },
+  "3.2.2存储工具的选择": {
+    "context1": "网络存档是一项流程性活动，存储作为一个子环节内嵌于整个业务模块中。因此，存储工具并不以独立形式存在，而是内化于整个存档工具（Curator Tool）的功能项之中。丹麦皇家图书馆与法国图书馆、奥地利国家图书馆于2004年共同开发NetarchiveSuite软件包，丹麦皇家图书馆于2005年正式运用该软件包实施网络存档项目，随后其他欧洲国家也尝试引入该软件包开展网络存档活动。NetarchiveSuite主要包括通用模块、采集模块、归档/保存模块、访问/展示四大功能模块[。其中，归档/保存模块负责对爬虫工具/算法采集的网络资源进行比特级别的存储，可实现分布式批处理归档。同时，该模块可以对多网址来源的数据进行复制和分布式存储，能够适应Linux、Windows等不同类型的软硬件平台。"
+  },
+  "3.2.3存储库的选择": {
+    "context1": "欧洲国家主要采取两种方式确定网络存档内容的存储库：",
+    "context2": "第一，根据存档机构的实际情况和技术能力沿用自建存储库。法国国家图书馆业已搭建机构数字存储库-可扩展型存储库 SPAR（The Scalable Preservation and Archiving Repository）[id。作为法国国家图书馆的核心数字仓储，SPAR承担着接收和保存各种媒介形式的数字资源的职责。该数字存储库在存储业务流程模块、存储资源格式、基础设施架构确立等方面既保持着机构原本的特色，也在积极调整、扩展存储库的功能，确保与国际标准、规范的接轨。",
+    "context3": "第二，直接引入或应用国际通用型开放档案信息系统模型、可信数字仓储。荷兰皇家图书馆为保证网络存档资源后期在全球范围内的利用和共享，减少机构自身的管理和技术压力，直接采用OAIS（Open ArchivalInformation System）参考模型建立数字资源仓储，以确保网络存档资源的真实性、完整性，并实现网络存档资源长期保存目标。"
+  },
+  "3.3网络存档内容的访问": {
+    "context1": "欧洲国家网络存档内容访问总体上呈现受控访问的特点，仅个别国家针对特定已存档网络资源采取不受控型的访问政策，面向社会提供免费开放获取服务。对于国家图书馆而言，使社会公众访问并利用国家文化遗产是机构履行国家遗产保护职责的关键步骤，但是国家图书馆在履职过程中必须遵守各国对应的版权法律条款。鉴于此，国家图书馆在提供网络存档内容访问和获取时，为了遵守版权法规定，基本采取以下几种措施进行控制和规避。"
+  },
+  "3.3.1划定各类型访问级别，实行差异化的网站访问策略": {
+    "context1": "鉴于已存档的网络资源内容受版权保护，采集和保存并不会对相关权利人造成大限度伤害，但是存档机构在面向社会公众提供这些存档内容时，情况却并非如此。鉴于此，当前运行的网络档案库仅设置特定的档案集合能够被社会用户自由访问。以英国国家图书馆、国家档案馆网络存档项目为例，Open UKWeb Archive、JISC UK WebDatasets免费向社会公众提供在线开放访问。但是，Non-Print Legal Deposit UK Web Archive不向社会公众在线开放，社会公众可以实地到访包括英国国家图书馆、苏格兰国家图书馆、剑桥大学图书馆在内的6家图书馆的阅览室进行查询和阅览。荷兰国家档案馆则对每个存档的网站进行访问级别划分，包括：开放、访问受限和离线访问三类。离线访问主要指已存档的内容不通过线上提供访问，社会用户只能在图书馆提供的线下阅览室通过特定工作站点进行访问。法国国家图书馆则采取授权式访问策略，即获得授权认证的用户可以携带自己的笔记本设备联入国家图书馆的网络进行查询和访问；另外，丹麦皇家图书馆为博士级别的研究者提供远程在线访问。"
+  },
+  "3.3.2引入“封闭期”（Embargo），维护网站资源权利人的合法权益": {
+    "context1": "部分欧洲国家致力于在网站所有者的权益与社会公众获取网络存档内容的利益之间建立一种平衡关系。部分国家图书馆借鉴档案机构开展档案开放业务时采取的“封闭期”举措，即将存档的网络资源进行一段时间的封闭控制后方可向社会进行开放。但是“封闭期”举措的实施必须是在网站相关权利人提出合法请求的情况下。在英国，网站相关责任者有权向接收并保管法定呈缴网络资源的图书馆提出书面请求，以防止社会用户在3年内对该类存档网络资源进行访问和利用，以保护自身的商业利益不受侵犯。英国国家图书馆一旦认定在规定期限内向社会用户开放访问权限会损害网站相关权利人的权益，便会批准此项“封闭期”请求。"
+  },
+  "3.3.3采取后端控制，重视筛查“非法”网络资源内容": {
+    "context1": "由于网络存档内容的捕获、抓取基本采用自动化的程序和算法，在抓取过程中基本不对网站内容进行筛查和删减，难以确保存档网络资源的真实性、完整性，导致已存档网站上存有部分“非法内容”被自然采集和存储。图书馆等遗产机构采取后端控制的方式，在面向用户提供存档网络资源访问服务之前对涉及非法内容的网络资源进行筛查，以确保不对社会公众开放此类信息。英国国家档案馆制定删除政策（The National Archives‘TakedownPolicy）[1，对已存档的政府网络资源内容的合法性、允许在公共领域使用的例外情况进行规定，已存档的政府网络资源内容一旦符合例外情况所述，国家档案馆有权删除该内容，不向社会用户提供此类已存档政府网络资源的访问。"
+  },
+  "3.4网络存档内容的利用": {
+    "context1": "欧洲网络存档项目在存档内容利用方面有待进一步优化。"
+  },
+  "3.4.1存档内容利用的难点": {
+    "context1": "欧洲网络存档内容利用面临两方面的挑战：一是缺乏适用的描述性元数据指南；二是缺乏对用户需求和行为的清晰理解和认识[。",
+    "context2": "首先，缺乏与网络存档适配的描述性元数据指南，阻碍各个网络档案库间的关联。为此，荷兰国家数字保存联盟（National Coalition for Digital Preservation，NCDD）正努力推进欧洲各网络存档项目间的合作，并借助通用软件、描述性元数据标准创建网络档案库内容清单。",
+    "context3": "其次，开展网络存档项目需要更好地理解目标用户的需求和行为特点，以确保网络存档内容的有用性和可发现性[。通常情况下，网络存档机构并未能对网络档案库访问人数进行统计，荷兰国家图书馆将网络档案库用户访问数量并入整个机构网站访问量。另外，欧洲网络档案库用户访问量并不能详细显示访客身份、访问意图、目标访问资源、实际访问资源以及访问满意度等信息。鉴于此，英国国家图书馆设置“网络存档参与和联络专员”（Web Archiving Engagement and Liaison Manager）岗位，鼓励社会公众参与网络档案库的访问与利用。法国国家图书馆通过对网络档案库主要用户（以网络为研究对象的相关研究人员）的访谈开展定性研究，包括探索研究者所需内容和服务，发现网络存档的学术利用价值，分析以何种方式呈现及利用2。"
+  },
+  "3.4.2存档内容检索和利用的方式": {
+    "context1": "欧洲网络档案库用户界面通常会提供URL检索方式（用户可以检索准确的URL或其特定部分），部分网络档案库结合全文检索共同完成用户的网络资源查找。相较于URL检索，用户更倾向于使用全文检索方式，而且浏览主题目录或按字母排序类资源目录也是如此。英国政府网络档案库不仅提供简单检索功能和A-Z浏览、特色资源（Twiter和YouTube）网站、主题分类、专题收藏等存档资源浏览服务，而且网站界面上还设计一个“Popular”标签，点击此标签可以浏览当前最受欢迎的存档网站，从而便于用户获取有价值的信息21。另外，该网络档案库全文搜索功能依据的基础索引每月更新一次，以不断提升用户查询、利用已存档网络资源的能力。"
+  },
+  "3.4.3存档内容检索和利用的工具": {
+    "context1": "Nutchwax是互联网档案馆研发的网络资源全文检索工具（该软件仅适用于Linux操作环境），实现对 Heritrix软件采集的以ARC格式存档网络资源的全文检索。当前，法国国家图书馆运用Nutchwax软件提供网络档案库的全文检索服务。同时，存档网页代理查检工具的开发拓展了存档网络资源发现和可利用的空间。Memento作为时间导向型网页协议拓展工具，为用户提供已存档网页的代理查询和检索服务。用户可以在谷歌浏览器网址框输入目标查询网页的HTTP地址，并在Memento插件中输入指定日期，便可查询对应该日期的存档网页版本。目前，英国网络档案库、英国政府网络档案库、爱尔兰国家图书馆网络档案库已经支持Memento协议查询，用户无需分别登录不同的网络档案库便可实现对特定存档日期的网页的高效查检。另外，英国国家图书馆网络存档项目利用Phrase-usage、Tag Clouds、3D Wall等数据可视化工具分别为用户提供资源关键词可视化描述、“专题收藏”资源可视化导航等服务，并利用数据分析工具对归档资源的图像格式、HTML版本等信息进行统计分析，使归档的Web 资源得到直观、生动的显示。",
+    "context2": "4欧洲网络存档典型项目对我国的后示"
+  },
+  "4.1明确我国网络存档法定实施主体及机构协同模式": {
+    "context1": "欧洲国家图书馆、档案馆开展的网络存档项目，基本实现了法定呈缴制度对网络存档项目实施主体权责、存档对象范围进行规约。我国至今尚未出台专门呈缴法规，尽管部分法律涉及传统印刷型出版物和实体电子出版物的呈缴，但网络信息呈缴缺少明确的法律保障，公众的网络信息呈缴意识不强。如国家图书馆于2003年起实施的“WICP”和“ODBN”网络信息存档项目，仅能有选择地对政府网站、电子期刊网站、大学网站、企业网站、媒体网站进行采集和保存。由于缺乏专门法律规章对国家图书馆开展网络存档的法定实施主体地位进行明确，导致国家图书馆在选择存档对象范围时面临重重限制，存档项目的可持续推进差强人意。",
+    "context2": "鉴于此，一方面需明确网络存档实施的法定主体。以政府（务）网络存档为例，可依据《中华人民共和国档案法》《政府信息公开条例》中档案馆对政府信息进行接收和保存的法律规定，将档案馆作为政府（务）网站存档的法定实施主体。此外建议在新一轮《中华人民共和国公共图书馆法》修订中，添加“网络资源呈缴”相关法条，明确图书馆在实施网络存档方面的法定权责；同时《著作权法》《知识产权法》可以适当形式对网络存档予以司法解释，规避存档过程中涉及的网络资源侵权行为。另一方面，促进多方主体协同存档模式的确立，实现优势集聚和流程优化。从欧洲典型项目来看，多方主体参与存档活动已成为趋势，以项目合作方式充分发挥图书馆、档案馆、网络存档技术服务商、网站所有者等主体在数字技术、网络交互、存档管理、人力资源、专家智慧等方面的优势。我国可借鉴英国国家图书馆、英国国家档案馆、信息协会等多主体协同作业的经验，稳步推进网络存档项目。"
+  },
+  "4.2引入推广基于API的社交媒体存档方式": {
+    "context1": "2019年4月，我国国家图书馆互联网信息战略保存项目正式后动。国家图书馆与新浪微博合作对公开发布的微博内容进行保存，正式拉开我国社会媒体存档规模化的序幕。社交媒体的交互性、动态性特征增强了存档的实施难度，基于网页解析和显式链接提取的传统采集技术将无法可靠地对社交媒体信息进行完整彻底的检索和捕获。同时，社交媒体存档较传统网页存档更具挑战性，从采集工具、存档方法的选择到合法合规地获取和利用，都需要专内的规划和研究。",
+    "context2": "从欧洲国家网络存档实践来看，网络存档的核心对象是一般网页，但对社交媒体账户、交互型网站存档的探索也在不断推进。基于API的社交媒体存档是当前全球范围内社交媒体存档的新型解决方案，即通过公共可获取的应用程序编程接口（API）对社交媒体原生内容进行捕获与保存，根据最终用户要求专内定制和调整已归档内容的访问利用。开展社交媒体存档的主体机构往往借助社交媒体平台的网络API，以实现对账户内容的捕获、存储和检索。这些API将会以结构化的文本格式（通常为JSON或XML）返回机读的社交媒体原始数据及任何关联的元数据（包括日期、时间、用户账户、用户、URL等）。英国国家档案馆与互联网记忆基金会（InternetMemory Foundation，IMF）共同开发的存档工具可实现基于API的Twitter和YouTube 账户内容捕获和保存。在此过程中，Twiter账户的每个完整捕获都将会产生3种类型的信息：用于捕获该账户的XML和JSON文件，还有一个纯文本文件，记录推文中包含的URL，以确保社交媒体存档的内容完整性。另外，用户可以借助API对已存档内容进行在线查看和检索利用。鉴于此，我国社交媒体存档项目的开展可以考虑引入基于API的社交媒体存档方式，提升社交媒体存档工作的效能和存档内容的完整性。"
+  },
+  "4.3推进人文社科领域对网络存档资源的利用": {
+    "context1": "欧洲网络存档项目的实施成果对人文社会科学研究具有重要的资料价值。一方面，网络存档过程反映了以图书馆、档案馆为首的遗产机构履行“保存人类历史文化遗产、发挥历史文化价值”的机构职能。另一方面，网络存档成果是欧洲数字记忆资源的重要组成部分。从近年人文社科研究历程来看，数字人文、数字记忆、历史叙事等均将网络存档作为研究素材，研究人员将其视作数字时代的资源宝藏。如上述英国网络存档项目基于图书馆、档案馆基础设施，联合具有历史学、考古学、新闻学、语言学、社会学等知识背景人员对网络数据库进行资源开发，最终绘制出“英国网络文化图景”（Cultures of UK Web），以数字形态呈现出英国历史文化风貌2。",
+    "context2": "对我国网络存档实践现状而言，当前主要围绕网络存档建库等基础建设，对其工具价值探讨较少。主要受制于网络存档规模稍小、存档技术尚待更新、存档项目制运作有待加强。譬如国家图书馆 WICP项目主要通过镜像存档和专题存档两种手段对静态网页进行采集，存档取向是传承中华文明与历史记载型，在一些社群问题方面仍显乏力。尤其是国内人文社科研究者尚未普遍了解、认识到网络资源存档作为研究工具和资料来源的学术价值2，无论从学科研究方法还是研究资料来看，网络存档将会成为重要的研究工具。因此，未来网络存档应进一步拓宽人文社会科学研究路径，将网络档案收集和存储利用有机结合起来，避免网络存档成为数字时代的“冷藏室”。"
+  },
+  "4.4以业务为导向开展“用户细分型”网络存档服务": {
+    "context1": "“用户细分型”网络存档服务是在建设网络档案资源库基础上提供个性化、深层次的精准配置服务，其核心要义是“以用户为中心，个性服务为目标”。对欧洲网络存档业务流程环节分析，发现存档主体确认后应重点提供精准的存档服务。正如前文所述，在欧洲网络存档利用中，对用户需求和行为进行分析是难点，这也影响到最终存档内容的匹配度。而网络存档又是有机连锁整体，整个建设流程都为最终利用而运转。因此，以业务为导向开展“用户细分型”存档服务是十分有益的。",
+    "context2": "具体实施可从以下方面着手：一是遵循“来源主体”，划分网络信息存档分类。来源原则是档案管理基础理论，这在一定程度上决定着网络存档系统的有序性，因而考量网络信息来源背景，按照不同“机构-年度-主题”进行科学采集。二是开展专题存储，科学整合网络存档信息。网络存档有别于纸质存档，在物理存档方面更为灵活，可以赋予身份标识符与链接URL，并设计目录构成专题档案库，这也避免了重复存档建设。三是重视访问用户调查。利用“用户画像”等技术对访问用户行为如检索方式、利用兴趣、研究领域、存储行为展开调查，从而了解用户基本属性、研究需求、行为数据。如澳大利亚社交媒体文件网络存档项目利用布罗利（Brolly）工具，采集用户评论、分享、转发和回复等信息，并利用网络爬虫技术跟踪网络资源用户的数字足迹。四是面向不同对象提供精准服务。通过预测用户利用需求和评估存档资源使用环境，按照不同研究群体提供细粒度的知识服务，如"
+  },
+  "分析群体包括政府机构、商业组织、数据开发者、学术研究人员等。后续可根据用户体验效果反馈网络存档资源利用感受，收集利用环节的改善意见，以期为将来网络存档工作提供经验借鉴。": "",
+  "注释": {
+    "context1": "SchneierS，tKArcingofteetCotentMnWiley&seIteatioalElopedofouatioOfordacell, 2008:1-4.   \nInternationalInteretPreservation ConsortiumWebArchivingEB/O]．O2-04-08htp://netpreserve.org/web-archiving/.   \nSchroederR，BruggerN.TheWebasHisoy:UsingWebArchivestoUnderstandthePastandPresentM.London:UCLPress，017:1-19.   \nSchneiderSM，FootKA.WebSphereAnalss:AnApproachttudyingOnlineActionM.ChristineHne.VirtualMethods:Isueinocial Research on the Internet.Oxford:Berg Publishers，2005:157-171.   \nBVlasenotE，ambesS，iPretoEWebrchvsataesouceforigitalSholarsnteatialJoalofigitals 2019 (1): 85-111.   \nHelmondA，NieborgD，VistFN.ThePolicalEconomyofSocialData:AHistoricalAnalysisofPlatform-industryParterships Proceedings of the8th International Conference on Social Media& Society.New York:ACMPress，2O17:1-5.   \nWeberMS.TheTumultuousHitoryofNewsontheWebM.NBrugger，RSchroeder.TheWebasHistory:Using WebArchivestoUderstand the Past and the Present.London:UCL Press，2017:83-100.   \nGuidetotheCeneralDataProtectioRegulationEB/O-1tps://wgovuk/gvent/pubicatios/detohgeldata-protection-regulation."
+  },
+  "黄新荣，高晨翔．过程视角下的社交媒体存档技术研究述评[.图书馆学研究，2019（2)：2-11.": "",
+  "[0]王焕．国外政务社交媒体文件归档研究[．档案学研究，2015（6)：99-105.": {
+    "context1": "[]HaarowerN，HeraviBRHwtoAiveanEventRflectiosoecialRepositoyfelandewReviffoatioetoking2015 (20):104-116.  \n[12] ISO 28500:2009S/O1]．2020-03-20].http://www.iso.org/iso/catalogue_detail.htm？csnumber $=$ 44717.  \n[13] Burner M，Kahle B.ArcFile FormatEB/O1]．[020-03-2d.htps://archive.org/web/researcher/ArcFileFormat.php.  \n[4ISO28500:201.InfoationandDocumentation-WARFileFomat/O]23-2d.htps://ww.sorg/standard/417.html.  \n[15] Netarchive SuiteOverviewEB/O].020-03-2d].htps://sbforge.org/display/NASDOC55/NetarchiveSuite+Overview.  \n[6BermesE，Fauduet，PeyrardS.ADataFirstAproachtoDigitalPreservation:TheSPARProjectC/OGothenburg:the6thIFLAGeneral Conference，2010 2016-02-01] .http://conference.ifla.org/past-wlic/2010/157-bermes-en.pdf.  \n[7]TakedownandReclosurePolicyEB/．O2-14.tp://www.ntionalarchivesgovuk/legal/takedowand-reclosurepolicy.  \n[8DooleyJ，FarellK，im，etalevelopingercivingetadataBestracticesttUserNdsJalofWebseies，2017，8(2):5-15.  \n[9]NCDD.（n.d.）ExpergWbAveringB]tp://d.neseadvis/exgoeep-webarchivering/.  \n[dPeterStirling.WebArchivesforResearchers:Representations，ExpectationsandPotentialUsesEB/O]．O2O-03-0tp://www.dlib.org/dlib/march12/stirling/03stirling. html.  \n[1] UK Government Web Archive EB/O1]．[020-O3-05].https://www.nationalarchives.gov.uk/webarchive/.  \n[22王萍，黄新平，张楠雪．国外Web Archive资源开发利用的途径及趋势展望Ⅲ．图书馆学研究，2015（23)：43-49.  \n[23]刘青，孔凡莲．中国网络信息存档及其与国外的比较——基于国家图书馆 WICP项目的研究[.图书情报工作，2013（9)：80-88.  \n[4AckerA，KreisbergASocialMediaDtaArchivesinanAP-driven World/O]．2-04-1dhtps:/doi.og/100/s1050201909325-9.  \n[5]CowlsJ.CulturesoftheUKWebRBriggerN，SchroederR.TheWebasHistoryUsing WebArchivestoUnderderstadthePastndthePresent M.London:UCL Press，2017:220-237.  \n[26] 赵珞琳．人文社会科学领域网络资源存档利用现状综述[．信息资源管理学报，2019（3)：33-40.李子林中国人民大学信息资源管理学院博士研究生。主要研究方向：档案信息服务、政务信息保存利用。  \n龙家庆中国人民大学信息资源管理学院硕士研究生。主要研究方向：数字人文、档案信息化。通讯作者。"
+  }
+}

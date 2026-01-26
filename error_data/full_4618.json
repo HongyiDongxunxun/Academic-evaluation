@@ -1,0 +1,93 @@
+{
+  "original_filename": "full_4618.md",
+  "nothing": {
+    "context1": "数据分析与知识发现Data Analysis and Knowledge DiscoveryISSN 2096-3467,CN 10-1478/G2"
+  },
+  "《数据分析与知识发现》网络首发论文": {
+    "context1": "题目：  \n作者：  \n网络首发日期：  \n引用格式：基于深度神经网络的增量学习研究综述  \n孙文举，李清勇，张靖，王丹羽，王雯，耿阳李敖  \n2024-06-24  \n孙文举，李清勇，张靖，王丹羽，王雯，耿阳李敖．基于深度神经网络的增量学习研究综述[J/OL]．数据分析与知识发现.  \nhttps://link.cnki.net/urlid/10.1478.G2.20240621.1608.002",
+    "context2": "网络首发：在编辑部工作流程中，稿件从录用到出版要经历录用定稿、排版定稿、整期汇编定稿等阶段。录用定稿指内容已经确定，且通过同行评议、主编终审同意刊用的稿件。排版定稿指录用定稿按照期刊特定版式（包括网络呈现版式）排版后的稿件，可暂不确定出版年、卷、期和页码。整期汇编定稿指出版年、卷、期、页码均已确定的印刷或数字出版的整期汇编稿件。录用定稿网络首发稿件内容必须符合《出版管理条例》和《期刊出版管理规定》的有关规定；学术研究成果具有创新性、科学性和先进性，符合编辑部对刊文的录用要求，不存在学术不端行为及其他侵权行为；稿件内容应基本符合国家有关书刊编辑、出版的技术标准，正确使用和统一规范语言文字、符号、数字、外文字母、法定计量单位及地图标注等。为确保录用定稿网络首发的严肃性，录用定稿一经发布，不得修改论文题目、作者、机构名称和学术内容，只可基于编辑规范进行少量文字的修改。",
+    "context3": "出版确认：纸质期刊编辑部通过与《中国学术期刊（光盘版)》电子杂志社有限公司签约，在《中国学术期刊（网络版)》出版传播平台上创办与纸质期刊内容一致的网络版，以单篇或整期出版形式，在印刷出版之前刊发论文的录用定稿、排版定稿、整期汇编定稿。因为《中国学术期刊（网络版)》是国家新闻出版广电总局批准的网络连续型出版物（ISSN2096-4188，CN11-6037/Z)，所以签约期刊的网络版上网络首发论文视为正式出版。"
+  },
+  "基于深度神经网络的增量学习研究综述": {
+    "context1": "孙文举1²，李清勇1,23，张靖1²，王丹羽¹²，王雯}²，耿阳李敖1,21(交通大数据与人工智能教育部重点实验室(北京交通大学)北京 100044)2(北京交通大学计算机科学与技术学院 北京 100044)3(北京交通大学 智慧高铁系统前沿科学中心北京 100044)"
+  },
+  "摘要:": {
+    "context1": "[目的]本文旨在追踪深度神经网络模型在增量学习领域的研究进展，以解决灾难性遗忘挑战为切入角度对相关方法进行了归纳和整理，为未来的研究提供参考。[文献范围]以“增量学习”、“持续学习”及“灾难性遗忘”作为关键词，在Web of Science、谷歌学术、DBLP 和CNKI等数据库中进行文献检索，共筛选出114 篇代表性文献。[方法]首先，本文详细介绍了增量学习的定义、核心问题及其面临的挑战。随后，将现有增量学习方法分为基于正则约束、基于信息存储和基于动态网络的方法，并针对各类别的原理、优势及代表方法进行了综述总结。[结果]在统一的实验设置下对主流增量学习方法进行评测，并开源代码。实验发现，基于正则约束的方法虽高效但难以完全解决遗忘问题；基于信息存储的方法性能受保留范例数量影响较大；基而基于动态网络的方法虽有效避免遗忘，但增加了计算开销。[局限]本研究主要针对深度神经网络背景下的增量学习进行了综述，未涉及非深度学习领域的增量学习技术。[结论]在理想条件下，基于信息存储和基于动态网络的方法相较基于正则约束的方法表现出更优越的性能，这两种方法的技术复杂度可能会限制其推广应用。此外，现有增量学习方法与联合训练相比仍有不足，需在未来的研究中予以解决。",
+    "context2": "关键词:增量学习;连续学习;终身学习;灾难性遗忘;深度学习;神经网络",
+    "context3": "分类号：TP393，G250"
+  },
+  "Survey of Incremental Learning with Deep Neural Networks": {
+    "context1": "Sun Wenju1.2, Li Qingyong1,2.3, Zhang Jing1.2,， Wang Danyu1.2, Wang Wen1,2, Geng Yangli'ao1.2 1(Key Laboratory of Big Data & Artificial Intelligence in Transportation (Beijing Jiaotong University) Ministry of Education, Beijing 100044)   \n2(School of Computer and Information Technology,Beijing Jiaotong University, Beijing 100044)   \n3(Frontiers Science Center for Smart High-speed Railway System, Beijing Jiaotong University, Beijing 100044)"
+  },
+  "Abstract:": {
+    "context1": "[Objective] This study comprehensively reviews the advancements in deep incremental learning techniques from the perspective of addressing catastrophic forgetting，aiming to provide references for the research community. [Coverage] Utilizing search terms such as“Incremental Learning”,“Continual Learning”,and “Catastrophic Forgeting\", we retrieve literature from the Web of Science,Google Scholar, DBLP,and CKNI. By reading and organizing the retrieved literature, a total of 114 representative publications were selected. [Methods] The paper begins by defining incremental learning and outlining its problem formulation and inherent challenges. Subsequently，we categorize incremental learning methods into regularization-based, memorybased, and dynamic architecture-based approaches, subsequently providing a detailed examination of their theoretical underpinnings, advantages, and drawbacks. [Results] This paper assesses some classical and latest methods within a unified experimental settng. The experimental results demonstrate that regularization-based methods are efficient in application but cannot fully avoid forgetting; memory-based methods are significantly affected by the number of retained exemplars; and dynamic architecture-based methods effectively prevent forgeting but incur additional computational costs. [Limitations] The scope of this review is limited to deep learning approaches，excluding traditional machine learning techniques. [Conclusions] Under optimal conditions,memory-based and dynamic-network-based strategies tend to surpass regularizationbased approaches.Despite this,the increased complexity of these methods may hinder their practical application. Moreover, compared to joint training models,current incremental learning methods exhibit suboptimal performance， marking a critical direction for future research endeavours.",
+    "context2": "Keywords : Incremental Learning; Continual Learning; Life-long Learning; Catastrophic Forgetting; Deep Learning; Neural Network"
+  },
+  "1引言": {
+    "context1": "机器学习在近年来取得了飞跃性的进展，尤其在图像分类[1，目标识别[2]和语义分割[3]等领域内展现了卓越的性能并广泛地应用在人们的日常生活和工业生产中。然而，当前人工智能系统在自主学习方面与人类相比仍存在较大的差距。一个明显的挑战是增量学习能力的缺乏，因为大多数机器学习方法依赖训练数据服从独立同分布（IID）的假设。对于已经训练完毕的模型，若希望其能够学习新知识（如识别新的类别)，通常需要重新构建平衡的数据集并对模型进行重训。否则直接利用新数据（如新类别样本）进行微调引起模型处理旧任务的性能下降，这种现象被称为“灾难性遗忘”[4]。作为机器学习领域的一部分，深度神经网络同样面临着增量学习能力的不足。研究者近几年针对基于深度神经网络的增量学习（深度增量学习）方法进行了深入研究，并针对遗忘现象发展出了丰富的技术路线来缓解。这些对抗遗忘的技术能够将已学旧任务信息引入新任务的训练过程，从而缓解模型对数据独立同分布假设的依赖。考虑到深度学习技术的快速发展其在各领域的广泛应用，本文侧重综述总结基于深度神经网络的增量学习方法。",
+    "context2": "增量学习能力的缺失阻碍了深度学习模型的应用。首先，很多工业应用场景迫切需要模型能够进行增量学习。一方面，某些稀缺数据往往在模型部署后才能搜集到，例如偶发的异常现象，珍惜的动物照片，罕见的天气现象等。另一方面，一次性获得全部的训练数据在部分场景下很难实现，如在智能医疗诊断场景下，隐私保护条例限制多家医院的数据集中收集。此外，增量学习能力有助于提高工业生产效率。相比依赖新旧数据的联合训练1，增量学习仅需使用新数据进行训练，大幅减少重复训练大量旧任务数据的计算成本和时间成本，为需要频繁更新模型的系统带来巨大的经济效益。最后，增量学习技术是构建具备自主学习能力智能系统[5的关键技术之一，对于开发高级人工智能系统具有深远的研究意义。",
+    "context3": "针对深度增量学习方法，韩亚楠等人[近期的综述性总结虽有其价值，但主要集中于2020年以前的经典方法，未能充分覆盖近两年深度增量学习领域的新兴技术路线（例如特征正则，梯度投影等）和新任务设定（如小样本类增量学习)。此外，该综述缺少在同一设置下对不同方法的比较评估。周大蔚等人[7的综述工作则聚焦于增量学习中的类增量学习设置，未包含任务增量学习等其他重要的新兴任务设置。此外，上述工作未能提供统一的开源增量学习实验框架以便研究者进行增量学习研究。针对这些不足，本综述重点关注以下几方面:",
+    "context4": "1）本文归纳总结了现阶段深度增量学习方法的主要任务设置，技术路线，代表方法和应用，涵盖了经典方法和最新的研究进展；",
+    "context5": "2）搜集整理并公开了一个增量学习代码库，集成了增量学习的代表性方法与经典数据集，方便用户快速复现实验结果并开展增量学习研究；",
+    "context6": "3）基于代码库，在统一的实验设置下对各技术路线的典型方法进行了实验评估，旨在提供研究者公平的比较参考。",
+    "context7": "本文将按照如下的顺序展开讨论。首先，在第2节介绍增量学习的定义、任务设置、挑战及技术流派。随后在第3、4、5节依次详细阐述基于正则约束、基于信息存储、基于动态网络的增量学习方法。在第6节着重介绍用于增量学习的标准数据和评估指标。在第7节，通过比较实验结果来分析不同方法的优缺点。在第8节总结增量学习的应用。文章最终在第9节总结全文并对未来研究方向进行展望。",
+    "context8": "![](images/b0e53d291b9a0a77d0012e22aa2770cc481fcbe4980e0af755544192df43f53a.jpg)  \n图1机器学习、深度学习和增量学习概念关系图。",
+    "context9": "Fig. 1 Relationships among machine learning, deep learning, and incremental learning."
+  },
+  "2 增量学习介绍": "",
+  "2.1 基本定义": {
+    "context1": "对于智能系统，增量学习是一种能持续不断地从数据流中学习新知识，同时保持对已学知识记忆的能力。增量学习算法归根结底属于一种机器学习算法。在深度学习成为研究热点之前，已有众多研究利用传统机器学习方法，如主成分分析[8]、支持向量机[9,10]等进行增量学习的探索。近年来，随着深度学习技术的迅速进步，基于深度神经网络的增量学习策略已成为主流研究方向，本文因此主要关注基于深度神经网络的增量学习方法。图1展示了机器学习、深度学习与增量学习之间的关系。",
+    "context2": "增量学习是一种面向数据逐步增长的学习策略。与其他相似学习范式相比，增量学习特别关注于如何有效地整合连续到来的数据流，并对新类别或任务进行适应，而无需从头开始重新训练模型。例如，与迁移学习[1相比，增量学习不仅利用已有的知识帮助新任务学习，更加重视模型在获取新数据时的持续更新；与小样本学习[12]和零样本学习[13]不同，增量学习虽然也强调利用已学知识快速学习的能力，但不局限于少量或无样本的情况。开集学习[14]和开放世界学习[15]则扩展了增量学习的概念，允许模型识别并学习在训练中未见过的类别。域外数据检测（Out-Of-Distribution detection，OOD）[16]关注模型在面对分布外数据时的表现，这也是增量学习中的重要一环。在表1中，我们总结了与增量学习相似研究范式的异同。",
+    "context3": "表1 增量学习与相似学习范式的区别。  \nTable 1 Differences between incremental learning and similar tasks.",
+    "context4": "<table><tr><td>任务</td><td>训练数据</td><td>目标类别</td><td>测试数据</td><td>模型更新</td><td>侧重点</td></tr><tr><td>增量学习</td><td>逐步增加的数据</td><td>居持续增加的新类</td><td>同分布</td><td>持续的，小步调整</td><td>防止遗忘</td></tr><tr><td>迁移学习</td><td>目标任务的数据</td><td>相关的新类</td><td>可能不同分布</td><td>一次性转移</td><td>利用已学知识</td></tr><tr><td>小样本学习</td><td>少量新类数据</td><td>新旧类别</td><td>同分布</td><td>有限的，快速适应快速适应少量数据</td><td></td></tr><tr><td>零样本学习</td><td>新类数据的描述</td><td>未知类别</td><td>同分布</td><td>无需直接更新</td><td>通过属性/描述泛化</td></tr><tr><td>开集学习</td><td>既包含已知类别也 包含未知类别</td><td>已知+未知类别</td><td>同分布</td><td>不更新</td><td>检测未知类别</td></tr><tr><td>开放世界学习</td><td>同开集但需要更新 已知+动态添加</td><td></td><td>同分布</td><td>动态更新</td><td>动态识别和学习新</td></tr><tr><td>OOD检测</td><td>知识库 分布内数据</td><td>新类别 已知类别</td><td>不同分布</td><td>不更新</td><td>类别 检测域外数据</td></tr></table>",
+    "context5": "在基于深度神经网络的增量学习研究中，研究人员通常依照图2展示的模式进行模型的训练和测试。在训练过程中，模型需要依次学习 $T$ 个任务$\\{ D ^ { 1 } , . . . , D ^ { T } \\}$ ，其中 $D ^ { t } = \\{ ( x _ { z } ^ { t } , y _ { z } ^ { t } ) \\} _ { z = 1 } ^ { n _ { t } }$ 表示第t个任务中的数据集，其由样本 $\\boldsymbol { x } _ { z } ^ { t }$ 和标签$y _ { z } ^ { t }$ 二元组构成， $n _ { t }$ 表示 $D ^ { t }$ 中的数据总量。值得注意的是，不同任务之间的数据集是互不重叠的，即对任意两个不同的任务 $i \\neq j$ ，满足 $D ^ { i } \\cap D ^ { j } = \\emptyset$ 。模型在每个任务阶段都需要学习新任务的知识，同时保持对之前任务知识的记忆。在测试阶段，将利用所有已学任务的测试集评估模型的整体性能。",
+    "context6": "![](images/11e155955e14f899e2401e6dfff2ab4d48a3755e72cbc19c5165c3e178c18b19.jpg)  \n图2增量学习的训练和测试范式。",
+    "context7": "Fig. 2 Diagram of training and testing paradigms in incremental learning."
+  },
+  "2.2任务设置": {
+    "context1": "表2增量学习的任务设置  \nTable 2 Incremental learning settings",
+    "context2": "<table><tr><td>设置</td><td>训练数据</td><td>任务切换边界</td><td>训练样本</td><td>测试样本</td></tr><tr><td>任务增量</td><td>类别增加</td><td>√</td><td>充足</td><td>含任务id</td></tr><tr><td>类增量</td><td>类别增加</td><td>√</td><td>充足</td><td>仅样本</td></tr><tr><td>域增量</td><td>域增加</td><td>√</td><td>充足</td><td>仅样本</td></tr><tr><td>在线增量</td><td>类别增加</td><td>×</td><td>充足</td><td>仅样本</td></tr><tr><td>小样本类增量</td><td>类别增加</td><td>√</td><td>小样本</td><td>仅样本</td></tr></table>",
+    "context3": "根据不同的应用需求，增量学习领域内出现了多种人物设置，包括任务增量学习[17]（Task Incremental Learning，TIL），类增量学习[17]（Class IncrementalLearning，CIL），域增量学习[17]（Domain Incremental Learning，DIL），在线增量学习[18]（Online Incremental Learning），小样本类增量学习[19]（Few-ShotClass IncrementalLearning，FSCIL）等。这些设置的训练与测试范式的差异已经在表2中展示。其中，任务增量学习和类增量学习为当前最受瞩目的两种基本设置，其他设置可以被看作是在这两个基础设置上的扩展或特化。",
+    "context4": "任务增量学习模拟任务数量逐步增加的应用场景，而类增量学习则聚焦于类别数量逐渐增加的场景。这两种学习范式在训练阶段都要求模型顺序学习一系列的分类任务，并确保不同任务处理的类别集合不相交。以Y表示第 $t$ 个任务的数据集标签集合，对任意两个不同的任务 $i \\neq j$ ，满足 $Y ^ { i } \\bigcap Y ^ { j } = \\emptyset ~ _ { \\circ }$ 在测试阶段，任务增量学习会提供样本的任务标识，以协助模型进行分类 $f ( x , t ; \\boldsymbol { \\theta } ^ { T } ) = \\hat { y }$ ，其中 $\\theta ^ { T }$ 表示学习完任务T后的网络参数。与此相对，类增量学习不提供任务标识，要求模型仅依据待测样本进行分类 $f ( x ; \\theta ^ { T } ) = \\hat { y } \\circ$",
+    "context5": "域增量学习聚焦于训练数据域的持续扩展，典型的应用是部署在不同地点的智能识别摄像头。在这种设置中尽管不同任务的数据源于不同域，需要识别的类别却保持不变。在线增量学习则关注模型在实际应用环境中的持续学习，一个典型的应用是自主学习的机器人。在线增量学习与其他增量学习设置的主要区别在于能够实时从数据流中学习和推断。在线学习模型在遇到数据流中的每个样本时，先推断再学习，因此每个样本只被学习一次。同时，这种模式要求模型具备“任务不可知”的能力，即不依赖任何与任务相关的信息，包括任务的界限和数据的任务标识。小样本类增量学习在类增量学习的基础上，融合了小样本学习的概念，其特点是初始任务（也称“基任务\"）提供大量类别的充足数据进行训练，而后续的增量任务则遵循“n-wayk-shot”设置，即每个任务的训练数据包含n个类别，其中每个类别对应k个训练样本。"
+  },
+  "2.3挑战": {
+    "context1": "增量学习面临的核心挑战在于灾难性遗忘[4]。灾难性遗忘指当模型逐步学习新任务时，对于先前任务的性能急剧减退的现象。Zenke等人[20]的研究指出，此遗忘现象主要由于网络参数在增量学习阶段的变化引起。正如图3所展示的，学习新任务导致参数从一任务的最优损失点 $\\theta ^ { o l d }$ 转移到另一任务的最优损失点 $\\theta ^ { n e w }$ ，进而增加了在原任务上的损失，遗忘了处理旧任务的能力。损失变化可以用下式描述:",
+    "context2": "$$\n\\Delta L = L ( D ^ { o l d } ; \\theta ^ { o l d } ) - L ( D ^ { o l d } ; \\theta ^ { n e w } )\n$$",
+    "context3": "其中 $L ( D ^ { o l d } ; \\theta ^ { n e w } )$ 表示参数为 $\\theta ^ { n e w }$ 的模型在旧任务数据集 $D ^ { o l d }$ 上的损失。从特征的视角看，Yu 等人[21认为遗忘的原因是模型所提特征在增量学习时发生漂移，而原有的旧任务分类器未能适应这种偏移，导致性能下降。为了缓解灾难性遗忘现象，研究者们采用了几种主要策略。一种策略是识别并保护网络中的关键参数，防止其在学习过程中发生显著变化。另一种有效的策略是通过模拟特征漂移过程，并据此调整分类器以匹配新的特征表达。此外，回放机制也被广泛采用，该机制通过利用存储的代表性范例样本使模型“重新学习”旧任务，从而主动降低新信息对旧知识的覆盖影响。",
+    "context4": "![](images/59b5daba70158c133538429307a01c265fa93db086d8a5ddf938f209098620ce.jpg)  \n图3 参数改变导致遗忘示意图。旧任务学习得到的参数位于绿色圆点。学习新任务后，参数位于新任务损失极小值处（蓝色圆点），此时旧任务损失上升，出现遗忘。",
+    "context5": "Fig. 3 Ilustrative of forgetting induced by parameter shift. Parameters acquired from old tasks (green points) shift towards new task's minimum loss (blue points), leading to performance",
+    "context6": "degradation in old tasks.",
+    "context7": "然而，聚焦于遗忘问题则可能引发稳定性-可塑性困境[22,23]。稳定性刻画了模型保持先前任务知识的能力，可塑性关乎于模型吸收新任务知识的效率。在有限的网络容量条件下，高稳定性与高可塑性往往难以兼得。因此，寻找稳定性与可塑性之间的最佳平衡点是提升模型增量学习性能的关键。早期的工作更关注模型的稳定性，采用了包括知识蒸馏在内的多种防止遗忘的技术。而最新的研究则趋向于通过放宽对遗忘的约束来增强模型的可塑性，以改善总体性能。在增量学习算法中，如何恰当地平衡稳定性和可塑性，及明确哪些知识应当被保留或遗忘，成为了一个核心挑战。",
+    "context8": "此外，Lopez-Paz等研究者[24]对增量学习提出了进一步的要求，即前向和反向的知识迁移能力。前向知识迁移涉及到如何将先前任务的知识应用于新任务的学习中。而反向知识迁移关注于如何利用新学习的任务知识来增强模型在旧任务上的表现。尽管绝大多数增量学习策略能够实现前向知识的迁移一一这得益于新任务学习建立在旧任务参数的基础之上—一但是能够实现知识反向迁移的方法依旧是未来研究工作中的一个挑战。",
+    "context9": "不同的增量学习设置因其独特的训练和测试范式引入了特定的挑战。对于那些在推断阶段任务标识未知的设置（例如类增量学习，在线增量学习，小样本类增量学习)，模型要能够隐式地识别待测样本所属的任务。由于在每个增量学习阶段，新类别的样本充足而缺乏旧类别的样本（或有少量储存的旧任务范例)，这导致了类别不平衡的问题。此外，在线增量学习旨在模拟在线部署的环境，要求模型能同时进行推断和学习，这相比其他增量学习设置更强调模型的可塑性和计算效率。小样本类增量学习的核心挑战是标注数据的匮乏。需要模型具有强大的前向知识迁移能力来利用已学知识辅助学习新任务。"
+  },
+  "2.4技术路线": {
+    "context1": "基于监督式分类任务的增量学习技术是学术研究的热点，发展出了丰富的技术流派，主要分为基于正则约束、基于信息存储和基于动态网络三大技术路线。基于正则约束的方法旨在通过正则化技术限制关键网络参数的变动来缓解遗忘。基于信息存储的方法通过保存旧任务的关键信息来辅助记忆。基于动态网络的方法通过对网络架构的创新设计直接避免遗忘现象。这三种方法各具特色:基于正则约束的方法强调利用旧知识的先验来缓解遗忘，但可能会牺牲新知识的学习可塑性；基于信息存储的方法通过回顾旧数据来解决信息缺失问题，但由于其过于依赖旧任务范例可能会导致其无法应用在内存有限或数据隐私敏感的场景；基于动态网络的方法能侧重精巧的网络从结构上避免遗忘，但其复杂的网络设计难以迁移到实际工程应用中。这三类方法的分类并非绝对划分，某些技术（如知识蒸馏）可能跨类别使用。本文按方法的主要贡献和出发点进行归类。这些增量学习方法根据技术路线的进一步分类见图4，代表方法见表3，详细内容将在后续几节中展开。",
+    "context2": "![](images/3613069383cb8793b8675ce28d9b556c0aea5e18d9b858ffc9e0c7d60b9be990.jpg)  \n图4 深度增量学习方法分类。  \nFig. 4 Classification of deep incremental learning methods.   \n表3深度增量学习代表方法分类",
+    "context3": "Table 3 Representative deep incremental learning methods",
+    "context4": "<table><tr><td colspan=\"2\">技术路线</td><td colspan=\"2\">代表方法</td></tr><tr><td rowspan=\"3\">正则约束</td><td>知识蒸馏</td><td>LWF[25]、GD[26]、POD[27]、LWM[28]、TPCIL[29]</td></tr><tr><td>参数正则</td><td>EWC[30]、oEWC[31]、oLA[32]、SI[20]、MAS[3]、AFEC[34]</td></tr><tr><td>特征正则</td><td>iCaRL[35]、SDC[21]、CwD[36]、PASS[37]、IL2A[38]、SPB[39]、 TOPIC[19]、F2M[40]、MgSvF[41]、FACT[42]、FeCAM[43]、RanPAC[44]</td></tr><tr><td rowspan=\"3\">信息存储</td><td>基于回放</td><td>MER[45]、ER-AML[46]、DER[47]、HCR[48]、SNCL[49]、iCaRL[35]、 EMR[50]、Rainbow[51]、ASER[52]、Mnemonics[53]、GMED[54]、 DGR[55]、D[56]、ABD[57]、HAL[58]、双边MAE[59]、CIL[60]、CLS-</td></tr><tr><td>梯度投影</td><td>ER[61] GEM[24]、A-GEM[62]、GSS[18]、GPM[63]、Adam-NSCL[64]、ADNS[65]、</td></tr><tr><td>偏向矫正</td><td>TRGP[66]、OWM[67] BiC[68]、IL2M[69]、WA[70]</td></tr><tr><td rowspan=\"3\">动态网络</td><td>参数分配</td><td>PackNet[71、CPG[72]、Piggyback[73]、HAT[74]、CCGN[75]</td></tr><tr><td>网络扩张</td><td>PNN[76]、DEN[7]、RCL[78]、BMKP[79]、FAS[80]、PCL[811、ILCOC[82]、 DCPOC[83]、WSN[84]</td></tr><tr><td>参数生成</td><td>PGMA[85]、 Hnet[86]</td></tr></table>"
+  },
+  "3 基于正则约束的增量学习方法": {
+    "context1": "基于正则约束的方法，核心思想在于利用正则损失防止关键知识在增量学习过程遗忘。根据正则约束的侧重点不同，基于正则约束的方法可以进一步被细分为基于知识蒸馏，基于参数正则和基于特征正则三类。基于知识蒸馏的方法主要关注于应用知识蒸馏技术对网络的输出或激活层进行正则化，以传递和保留知识；基于参数正则的方法强调对模型关键参数变动的惩罚，以减少学习新知识时对旧知识的干扰；基于特征正则的方法则侧重通过正则规则引导模型学习到更为丰富且具有良好迁移能力的特征表示。下面，本章对这三类的代表方法进行详细阐述。"
+  },
+  "3.1基于知识蒸馏的方法": {
+    "context1": "知识蒸馏是将知识从模型间传递的技术，最早由Hinton 等人[87]提出。在知识蒸馏中，传递知识的模型被称为“教师模型”，而接收知识的模型被称为“学生模型”。知识蒸馏的核心在于使学生模型模仿教师模型的输出分布，通常通过最小化交叉熵来实现:",
+    "context2": "$$\nL ( y _ { t } , y _ { s } ) = - \\sum _ { i } { \\frac { ( y _ { t } ^ { i } ) ^ { 1 / \\tau } } { \\sum _ { j } ( y _ { t } ^ { j } ) ^ { 1 / \\tau } } } \\mathrm { l o g } { \\frac { ( y _ { s } ^ { i } ) ^ { 1 / \\tau } } { \\sum _ { j } ( y _ { s } ^ { j } ) ^ { 1 / \\tau } } }\n$$",
+    "context3": "其中 $y _ { t }$ 和 $y _ { s }$ 分别表示老师模型和学生模型的输出， $\\tau > 0$ 是温度系数，通常取2，用于调整输出分布的平滑程度。相比单纯使用独热形式的“硬”标签，老师模型输出的“软”标签包含了更多关于类别间相关性的信息，对学生模型的学习过程有着显著的帮助。",
+    "context4": "在增量学习场景中，旧模型（上一任务训练结束时的模型副本）含有解决旧任务所需知识，可以作为“教师”辅助新模型“复习”旧知识。基于此思想，Li等人[25]最早将知识蒸馏技术应用到增量学习中，并提出无遗忘学习（LearningWithoutForgetting，LWF）方法，其算法框图如图5所示。LWF采用“多头”结构，每个任务对应一个输出分类器。在训练阶段，新任务的分类器通过样本标签进行监督训练，而旧任务的分类器则通过蒸馏损失模拟“教师模型”（即上一任务结束后的模型副本）的输出。借助知识蒸馏在知识传递方面的能力，LWF能够有效防止知识遗忘，因而成为增量学习领域广受欢迎的基准方法之一，交叉熵与知识蒸馏的经典损失组合也被很多方法采纳。",
+    "context5": "![](images/aceae9d14163e0bd38b3e0c75f5539d53bc939bfe9106b47bccc90ff573e6698.jpg)  \n图5无遗忘学习（LearningWithout Forgeting，LWF）原理示意图。  \nFig. 5 Illustration of learning without forgetting (LWF).",
+    "context6": "虽然知识蒸馏作为一种缓解遗忘的有效手段已被广泛应用，一些研究指出，它可能会在一定程度上限制模型的适应新任务的能力，即可塑性。为了更好地在可塑性和稳定性之间取得平衡，有不少工作针对LWF 做出改进。例如，Lee 等[26提出的全局蒸馏（Global Distillation，GD）方法通过引入一个基于新任务数据训练的额外辅助“教师”模型来提高模型的可塑性。这个辅助的“新任务教师”模型与原有的“旧任务教师”模型共同向目标模型传递知识。此外，Douillard 等[27]提出的池化输出蒸馏（Pooled Outputs Distillation，POD）通过将每一网络层的激活值进行全局池化处理后进行蒸馏，这不仅确保了通过中间层知识传递的稳定性，其全局池化的设计步骤也有利于保持模型的可塑性。",
+    "context7": "除了蒸馏网络的激活值外，近期的研究通过蒸馏模型的其他信息同样能达到缓解遗忘遗忘的目的。Dhar 等人[28]提出一种名为无记忆学习（LearningwithoutMemorizing，LWM）的方法，该方法通过蒸馏网络的注意力值来保留知识。作者认为，知识蒸馏的核心在于指导学生模型理解训练样本的“是什么”，而注意力蒸馏则进一步阐释了为何将样本分类至特定类别的“原因”。进一步地，Tao 等人[29]揭示了特征的拓扑结构中蕴含着知识。受这一发现的启发，作者提出利用弹性赫布图（Elastic hebian graph）建模特征的拓扑结构，并在训练过程中促使学生模型学习并蒸馏老师模型中节点间的相关性来防止遗忘。 >"
+  },
+  "3.2基于参数正则的方法": {
+    "context1": "基于参数正则的方法，核心思想在于识别网络中关键的、蕴含知识的参数，并在后续任务的训练中，对这些参数的变化施加惩罚，来缓解模型遗忘。这类方法训练中的目标函数通常遵循以下范式:",
+    "context2": "$$\nL ( \\theta ^ { t } ; D ^ { t } ) = L _ { t a s k } ( \\theta ^ { t } ; D ^ { t } ) + \\lambda \\sum _ { k } \\Omega _ { k } \\left\\| \\theta _ { k } ^ { t } - \\theta _ { k } ^ { t - 1 } \\right\\| ^ { 2 }\n$$",
+    "context3": "其中第一项是学习任务 $t$ 的特定损失，例如用于分类任务的交叉熵损失；第二项是以为权重的参数变化正则损失，其中 $\\Omega$ 表示网络参数的重要性， $\\theta ^ { t }$ 表示任务 $t$ 结束时模型的参数值， $k$ 是参数的索引。此类方法的研究重点是针对参数重要性 $\\Omega$ 进行合理的定义并计算。",
+    "context4": "这类方法的典型代表是由Kirkpatrick 等人[30]提出的弹性权重固化（ElasticWeight Consolidation，EWC)。具体而言，依照贝叶斯理论，模型的参数应服从后验概率分布:",
+    "context5": "$$\n\\log p ( \\theta | D ) = \\log p ( D | \\theta ) + \\log p ( \\theta ) - \\log p ( D )\n$$",
+    "context6": "对于涉及多个任务的增量学习场景，作者将旧任务的后验作为新任务参数先验指导模型训练。此外，基于不同任务数据相互独立的假设，作者推出如下结论:",
+    "context7": "$$\n\\log p ( \\theta | D ^ { t } ) = \\log p ( D ^ { t } \\mid \\theta ) + \\sum _ { s = 1 } ^ { t - 1 } \\log p ( \\theta \\mid D ^ { s } ) - \\log p ( D ^ { s } )\n$$",
+    "context8": "注意第一项的对数概率即可看作当前任务损失的负值 $- L _ { t a s k } ( \\theta ; D ^ { t } )$ ；同时，对于后验 $p ( \\theta | D ^ { s } )$ ，作者按拉普拉斯估计为以参数 $\\theta ^ { s }$ 为均值，Hessian 矩阵为方差的高斯分布。鉴于Hessian 矩阵的高维度难以计算，进一步，EWC 采用Fisher 信息矩阵作为替代。基于高斯分布的性质，Fisher信息矩阵被用于衡量参数的重要性。实验表明，EWC 能够有效避免遗忘。基于此方法，Schwarz 等人[31提出了在线弹性权重固化（online EWC，oEWC）方法，通过保留一组代表所有已学任务的参数后验来显著降低了内存和计算成本。具体而言，作者利用上一时刻的后验 $\\log p ( \\boldsymbol { \\theta } ^ { t - 1 } | D )$ 估计先验 $\\log p ( \\theta )$ 。在拉普拉斯近似的基础上，后验被估计为以 $\\theta ^ { t - 1 }$ 为均值，并逐任务累加Fisher信息矩阵为方差的高斯分布。与EWC 相比，oEWC实现了显著的资源节约。同时，Ritter等人[32]指出，仅使用Fisher信息矩阵（是对角阵）来估计Hessian 矩阵，忽略了参数间的相互作用，因此提出的在线拉普拉斯估计（online Laplace Approximation，oLA）方法，通过克罗内克分解更精确地估计Hessian矩阵。"
+  }
+}

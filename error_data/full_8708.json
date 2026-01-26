@@ -1,0 +1,101 @@
+{
+  "original_filename": "full_8708.md",
+  "算法偏见概念、哲理基础与后果的系统回顾": "",
+  "贾诗威闫慧": {
+    "context1": "摘要算法偏见是社会偏见在算法信息社会的延伸,映射信息不平等。本文采用系统综述方法,对国内外算法偏见类型的实证研究进行梳理综合,在界定算法偏见的内涵和外延基础上,整合算法偏见的二元主体概念框架，并归纳算法偏见的三条形成链,包括人类智能系统内的偏见链、人工智能系统内的偏见循环圈、人类智能系统到人工智能系统的偏见作用路径。然后从功能主义、冲突论、还原论和马克思主义角度反思算法偏见研究的哲理基础。最后从信息科学视角构建技术、信息、用户之间的三元交互影响模型,讨论算法偏见在技术、信息、用户三要素互动过程中的存在形式，并发现算法偏见导致的三类不平等现象—信息呈现不平等、信息分布不均衡和新型数字不平等。研究结果深刻揭示了算法时代的信息社会问题,并赋予信息领域的传统不平等话语新的内涵与外延,为信息职业人员应对算法时代新挑战提供思路和参考。图3。表2。参考文献92。",
+    "context2": "关键词算法偏见信息不平等数字不平等信息呈现信息分布分类号G252"
+  },
+  "A Systematic Review of Concept,Philosophy Foundation and Impacts of Algorithmic Bias": {
+    "context1": "JIA Shiwei & YAN Hui"
+  },
+  "ABSTRACT": {
+    "context1": "More and more algorithms are being used to replace or assist humans in distributing important social goods and making automated decision-making,which has contributed greatly to social development.But algorithms are not entirely fair,and public concern about algorithmic bias has become a social issue as algorithmic bias is discovered and reported.This paper adopts a systematic review method to sort out and synthesize empirical research on algorithmic bias,aiming to answer three questions: What is algorithmic bias? What are the philosophy foundations of algorithmic bias?And what are the impacts of algorithmic bias in the perspective of information science?",
+    "context2": "Therefore,on the basis of defining the connotation and extension of algorithmic bias,the dual subject conceptual framework of algorithmic bias—human intellgence systemand artificial intellgence system—is summarized. It reveals the bias chain within the human intelligence system,the bias loop within the artificial intellgence system,and the biasaction path from the human intellgence system to the artificial intelligence system.Algorithmic biasisessentiallya philosophical topic，and reflection on its philosophical foundations can help people beter understand the formation mechanism of algorithmic bias. The philosophical perspectives adopted by algorithmic bias reflection mainly include Functionalism (including Structural Functionalism and Machine Functionalism),Conflict Theories,Reductionism,and Marxism.Diffrent perspectives have diferent interpretations of the forming mechanism of algorithmic bias.At last,a three-dimensional interaction modelof technology,information,and users is constructed to discuss the impacts of algorithmic bias from the perspective of information science.Three major impacts of algorithm bias on information inequalityand digital inequality are described: inequalityof information presentation,unbalanced distribution of information,and a new form of digital inequality known as the algorithms divide.",
+    "context3": "By deply revealing the algorithmic social problems in theera of artificial intelligence,this research endows the traditional discourse of inequality in the information field with new connotation and extension,proposing possible references for information professionals to face new challenges.3 figs.2 tabs.92 refs."
+  },
+  "KEY WORDS": {
+    "context1": "Algorithmic bias．Information inequality.Digital inequality.Information presentation.Information distribution."
+  },
+  "0引言": {
+    "context1": "算法被广泛应用于社会治理、行业变革等领域,是推动社会发展的新动力。在带来便利的同时,算法在医疗保健[1]、刑事司法[2]等各领域存在偏见的事例被相继报道，引发公众对算法偏见的担忧。对于算法偏见,以图灵奖得主杨立昆(YannLeCun)为代表的部分学者持算法中立态度[3],即算法本身不存在任何偏见。与此相反，另一部分学者则认为算法并非是完全客观和价值中立的技术,并从法律、伦理、技术与权利互构论等角度对算法偏见本质进行深入探讨，认为算法被内在或外在地赋予政治性，算法偏见的本质是社会偏见在算法技术中的映射,是对公民的平等权、隐私权、数据安全的侵犯[3.4],如检索系统偏爱具有某些特定特征的文档[5]，图像搜索结果显示男性比女性更能代表\"person”,性别陈规定型观念从社会延伸至网络空间[6]。",
+    "context2": "算法偏见问题已经成为信息科学、社会学、伦理学、传播学等学科的关注焦点，并纳入图书情报学[7] 计算机科学[8]专业的课程教育之中。",
+    "context3": "作为新兴概念,学界对算法偏见的定义并不清晰,不同学科对算法偏见的概念界定、形成来源各有不同,不利于跨学科话语体系构建。例如,算法偏见既可指无法完全代表被采样对象整体的数据属性[9],也可指算法技术不公平地偏袒或不偏袒特定群体或个人[10]。算法偏见产生于不同环节并表现出多种形式[1],形成原因包括显性因素和隐性因素。本文采用系统综述方法对国内外算法偏见研究的概念、哲理基础、后果进行系统梳理,探索该领域未来的研究方向。具体问题包括：什么是算法偏见,算法偏见的基础理论来源有哪些,信息科学视角下算法偏见的后果有哪些。"
+  },
+  "1研究方法": {
+    "context1": "本研究采用循证社会科学领域广泛使用的PRISMA(Preferred Reporting Items for SystematicReviewsandMeta-analyses)声明对算法偏见研究进行文献分析和综合。PRISMA声明由条目清单和流程图组成,其中条目清单从标题、摘要、引言、方法、结果、讨论、其他信息等七方面对综述过程进行严格规范，流程图描述系统综述各阶段的文献纳入/排除的数量和原因[12]。PRIS-MA声明可以最大限度地减少发表偏倚，呈现可靠的证据和可信的结论，是国内外期刊广泛采用的系统综述流程规范。"
+  },
+  "1.1检索策略": {
+    "context1": "研究遵循 PRISMA 声明,选取中国知网、Scopus、Web of Science 核心合集、ProQuest、IEEEXplore DigitalLibrary、ACMDigitalLibrary 作为检索源,以\"算法偏见\"OR“数据偏见”，“algorithm$^ *$ bias\"OR“databias”作为检索词,语种限定为中英文,文献类型限定为期刊论文和会议论文。检索时间截至2021年12月31日，共获得文献2000 篇。随后以同题名、同作者文献按照最新发布时间、期刊论文优先的原则，合并多源检索结果并删除重复记录,获得文献1332篇。"
+  },
+  "1.2文献纳人/排除标准": {
+    "context1": "根据研究问题和目的，制定本研究文献纳入/排除标准如下： $\\textcircled{1}$ 纳入以算法偏见或数据偏见为主要研究对象的论文，讨论范围涵盖算法偏见或数据偏见的类型、来源、模型验证、表现等方面，排除解决对策研究（属算法公平范畴)； $\\textcircled{2}$ 纳入有具体研究设计和研究结果的实证论文，排除纯理论思辨类和文献综述类研究； $\\textcircled{3}$ 排除论文列表中摘要、海报、更正等无关内容； $\\textcircled{4}$ 纳入CCAT批判性评估达$60 \\%$ 及以上的研究。",
+    "context2": "需要注意的是，“bias”可译为偏见或偏差，前者描述结果与受保护属性的不公平依赖关系[13]或对利益相关方合法权益的不公平损害[8],如性别偏见、种族偏见等;后者描述结果偏离标准实例的差异[14],如统计偏差。本文取“偏见”之意，在文献筛选时需人工排除非算法偏见的文献。依照PRISMA流程图，对文献检索和纳入/排除后,最终确定纳入42篇文献,均为英文文献(见图1)。",
+    "context3": "![](images/76dcb8f144a1e0a992c205b94434032aa2c49e906758f98f6fa3c4070e384262.jpg)  \n图1PRISMA研究选择流程"
+  },
+  "1.3质量评估": {
+    "context1": "为保证纳入文献的质量,本文采用Crowe批判性评估工具(CCAT1.4版)进行科学规范的评估。CCAT评估表由预备知识、引言、设计、抽样、数据收集、道德事项、结果、讨论八部分组成，各部分以0一5分进行评分和计算百分比[15]。相关研究表明,CCAT质量得分在 $60 \\%$ 及以上时,可认为被评估文献属于高质量研究[16]。纳入文献大多采用建模与仿真实验、统计分析等定量研究方法，另有8篇采用内容分析、情感分析、德尔菲法、案例分析等定性研究方法，两篇采用混合研究方法。对纳入文献进行分析后,采用批判性解释综合方法对算法偏见的概念、哲理基础与后果进行数据综合，并发展出新的概念和理论。表1列举了部分高质量文献的数据特征。",
+    "context2": "表1高质量文献的数据特征(部分)",
+    "context3": "<table><tr><td rowspan=1 colspan=1>作者及年份</td><td rowspan=1 colspan=1>研究主题</td><td rowspan=1 colspan=1>研究方法</td><td rowspan=1 colspan=1>算法偏见定义</td><td rowspan=1 colspan=1>偏见类型</td><td rowspan=1 colspan=1>哲理基础</td><td rowspan=1 colspan=1>算法偏见后果</td><td rowspan=1 colspan=1>CCAT(%）</td></tr><tr><td rowspan=1 colspan=1>Pandey等[17]，2021</td><td rowspan=1 colspan=1>价格歧视中的AI偏见</td><td rowspan=1 colspan=1>建模与仿真实验</td><td rowspan=1 colspan=1>与乘客社群人口统计特征相关的票价定价算法结果差异</td><td rowspan=1 colspan=1>人口统计特征偏见</td><td rowspan=1 colspan=1>马克思主义</td><td rowspan=1 colspan=1>不同人口统计特征的用户或社群面临不同的车费定价</td><td rowspan=1 colspan=1>63</td></tr><tr><td rowspan=1 colspan=1>Peralta等[18]，，2021</td><td rowspan=1 colspan=1>验证具有算法偏见的社交网络意见形成</td><td rowspan=1 colspan=1>建模与仿真实验</td><td rowspan=1 colspan=1>个性化过滤算法控制用户看到和发送的信息，人们倾向于选择与本人一致的观点，导致社交网络的意见形成</td><td rowspan=1 colspan=1>迭代算法偏见</td><td rowspan=1 colspan=1>还原论</td><td rowspan=1 colspan=1>偏见不平衡会对最终的意见状态和总体动态产生重要影响，可能决定最终的全球观点和人口的动态行为，催生过滤泡、回声室等现象</td><td rowspan=1 colspan=1>63</td></tr><tr><td rowspan=1 colspan=1>Abul-Fottouh等[19]，2020</td><td rowspan=1 colspan=1>YouTube疫苗视频推荐中的算法析、社交偏见</td><td rowspan=1 colspan=1>视频情绪编码分中的算法析、社交网络分析</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>交互偏见</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>YouTube推荐算法降低了反疫苗视频的可见性,疫苗相关视频中存在过滤泡和同质化效应</td><td rowspan=1 colspan=1>75</td></tr><tr><td rowspan=1 colspan=1>Hargit-tai[20],，2020</td><td rowspan=1 colspan=1>大数据中的数据偏见</td><td rowspan=1 colspan=1>统计分析</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>数据偏见、代表性偏见</td><td rowspan=1 colspan=1>冲突论</td><td rowspan=1 colspan=1>社交平台偏向于教育程度更高、互联网使用更熟练的用户，用户意见和行为仅代表部分人口</td><td rowspan=1 colspan=1>73</td></tr><tr><td rowspan=1 colspan=1>Srinivas等[21]，，2019</td><td rowspan=1 colspan=1>人脸识别中的算法偏见问题</td><td rowspan=1 colspan=1>建模与仿真实验</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>年龄偏见、紧急偏见、数据偏见</td><td rowspan=1 colspan=1>机器功能主义</td><td rowspan=1 colspan=1>当前儿童面部识别远落后于成人面部识别，每种算法都对儿童面部识别存在偏见现象</td><td rowspan=1 colspan=1>85</td></tr><tr><td rowspan=1 colspan=1>Flexer等[22]，2018</td><td rowspan=1 colspan=1>音乐推荐中高维数据的算法偏见</td><td rowspan=1 colspan=1>建模与仿真实验</td><td rowspan=1 colspan=1>在计算机实验中产生不公平结果的系统性和可重复错误，即为某些用户或某些数据生成一个结果，为其他用户或数据生成另一个结果</td><td rowspan=1 colspan=1>技术算法偏见</td><td rowspan=1 colspan=1>还原论</td><td rowspan=1 colspan=1>Hubness 是一种技术算法偏见，依据歌曲靠近或远离数据中心的特性，导致推荐系统对某些音乐的不公平对待，要么频繁推荐，要么从不推荐</td><td rowspan=1 colspan=1>68</td></tr><tr><td rowspan=1 colspan=1>Wilkie等[5]，2018</td><td rowspan=1 colspan=1>领域检索算法性能受算法偏见影响</td><td rowspan=1 colspan=1>实验法</td><td rowspan=1 colspan=1>在领域检索时,根据字段的权重方式以及字段是否填充,检索算法可能会不适当地偏祖某些文档</td><td rowspan=1 colspan=1>可检索性偏见</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>当字段应用不正确时，字段可能会引入算法偏见，从而损害检索性能</td><td rowspan=1 colspan=1>70</td></tr></table>"
+  },
+  "2算法偏见的内涵与外延": "",
+  "2.1算法偏见的内涵": {
+    "context1": "在42 篇文献中，有20 篇文献明确定义了算法偏见。经批判性解释综合，将算法偏见内涵的组成要素归纳为偏见来源、偏见对象、偏见后果、偏见特征四类,各要素具体解释见表2。",
+    "context2": "算法偏见内涵由四个关键要素组成： $\\textcircled{1}$ 偏见来源：产生于业务理解、数据收集、算法模型、交互反馈等环节的计算机实验全流程； $\\textcircled{2}$ 偏见对象：对应算法流程，可分为数据级、内容级和用户级三种算法偏见类型； $\\textcircled{3}$ 偏见后果：体现为不公平地支持或反对某些个人或群体、某些信息内容等，这种不公平结果不一定表现为歧视，但可能会扩大社会不平等； $\\textcircled{4}$ 偏见特性：偏见具有系统性、可重复性,即算法偏见不仅仅发生在孤立案例中。",
+    "context3": "表2算法偏见内涵要素",
+    "context4": "<table><tr><td rowspan=1 colspan=1>内涵要素</td><td rowspan=1 colspan=1>具体解释</td><td rowspan=1 colspan=1>文献来源</td></tr><tr><td rowspan=4 colspan=1>偏见来源</td><td rowspan=1 colspan=1>业务理解</td><td rowspan=1 colspan=1>Akter 等[23],2021</td></tr><tr><td rowspan=1 colspan=1>数据收集</td><td rowspan=1 colspan=1>Akter 等[23],2021;Mansoury等[24],2020</td></tr><tr><td rowspan=1 colspan=1>算法模型</td><td rowspan=1 colspan=1>Akter等[23]，2021；Mansoury等[24]，2020；Flexer等[22]，2018；Morstatter等[25],2017</td></tr><tr><td rowspan=1 colspan=1>交互反馈</td><td rowspan=1 colspan=1>Akter等[23],2021;Mansoury等[24],2020;Sun等[26],2020;Lin等[27],2019；Sun 等[28],2018</td></tr><tr><td rowspan=3 colspan=1>偏见对象</td><td rowspan=1 colspan=1>数据级别</td><td rowspan=1 colspan=1>Mansoury 等[24],2020</td></tr><tr><td rowspan=1 colspan=1>内容级别</td><td rowspan=1 colspan=1>Abdollahpouri等[29],2020;Wilkie等[5],2018</td></tr><tr><td rowspan=1 colspan=1>用户级别</td><td rowspan=1 colspan=1>Metaxa等[30],2021;Pandey等[17],2021;Wang等[31],2021;Lin等[27],2019</td></tr><tr><td rowspan=2 colspan=1>偏见后果</td><td rowspan=1 colspan=1>对内容和用户呈现不公平结果</td><td rowspan=1 colspan=1>Bonezzi等[32],2021;Heuer等[33],2021;Peralta等[18],2021;Peralta等[34],2021;Abdollahpouri等[29],2020;Aysolmaz等[35],2020;Sirbu等[36],2019;Diaz等[37],2018;Flexer 等[22],2018;Wilkie等[5],2018;Otterbacher 等[6],2017</td></tr><tr><td rowspan=1 colspan=1>扩大社会不平等</td><td rowspan=1 colspan=1>Pandey 等[17],2021;Metaxa等[30],2021</td></tr><tr><td rowspan=1 colspan=1>偏见特性</td><td rowspan=1 colspan=1>系统性、可重复性</td><td rowspan=1 colspan=1>Otterbacher等[6],2017;Flexer等[22],2018;Aysolmaz 等[35],2020</td></tr></table>",
+    "context5": "由此,可将算法偏见定义为：在计算机实验全流程中，对某些个人或群体、信息内容等产生不公平结果的系统性和可重复性错误。算法偏见的划分类型多样，有40篇文献涉及各类算法偏见的描述,存在同一类型不同命名的情况。本文以关键要素作为统一算法偏见类型的依据,拓展算法偏见概念外延。"
+  },
+  "2.2外延标准一：算法偏见来源": {
+    "context1": "从业务理解到实践反馈,算法偏见包括理解偏见（understanding bias）数据集偏见（datasetbias）、技术偏见（technical bias）和实践偏见（practical bias）。",
+    "context2": "业务理解是偏见进入系统的首要环节[35]，设计者需在此环节中明确算法用于达成什么目标,决定收集哪些数据,由谁收集,如何处理这些数据,选用哪种算法模型等内容。当算法设计者对问题规范和目标变量的理解与预期目标不匹配时,理解偏见就此产生[38]。例如,311平台是美国使用最为广泛的电子政务系统之一，用于居民反馈非紧急城市服务问题，以实现高效公平的公共服务交付目标。但实际上，设计者并未考虑到文化、经济、地理等因素对平台决策的影响,从设计之初就将低收入、少数族裔聚居的社区排除在城市治理之外，最终导致不公平的城市治理决策结果[39]。除此之外,理解偏见同样产生于算法设计者采用不匹配的算法模型的情况,例如将健康成人面部识别模型用于识别儿童[21] 老年痴呆症患者[40],这种理解偏见也被称为紧急偏见（emergency bias）。",
+    "context3": "正如谚语\"bias in,bias out\"（偏见进则偏见出)所言，当数据集本身呈现出偏见时，由此衍生出的结果一定存在某种偏见。数据集偏见的形成根植于社会制度、实践和采集者态度,因此也被称为预存偏见（pre-existing bias）。针对数据集构建流程，已有文献将数据集偏见划分为历史偏见（historic bias）代表性偏见（representa-tivenessbias)和标签偏见(label bias）。其中，历史偏见源自训练算法的历史数据，受到先前抽样不当、标签错误等影响[4I],导致算法模型延续或加剧历史数据中的偏见;代表性偏见的产生是因为数据集规模不足或数据集无法代表目标群体的整体数据属性[20.23],以此数据集训练出的算法会倾向性地利于某类群体;数据标签是帮助算法达成目标的关键决定因素，标签偏见产生于人类选择标注和删除信息的过程,这一过程最容易受到人类认知偏见和社会偏见的影响,反映出社会结构的不平等[42]。",
+    "context4": "受制于算法模型、计算能力、系统约束等条件,算法技术本身可能会存在某种技术偏见,产生不公平的算法结果。根据技术偏见形成的影响因素,已有文献将技术偏见进一步划分为关联偏见（association bias）和确认偏见（confirma-tion bias）。关联偏见与带有偏见的数据集、陈规定型观念密切相关，表现为算法模型受偏见数据训练后强化并放大了训练集中潜藏的文化偏见,如机器翻译软件放大了语言中的性别偏见[43];确认偏见常在于个性化推荐系统中,体现为过度简化的个性化推荐对群体或个人做出有偏见的假设，例如电影推荐系统暗藏性别陈规定型观念，依据性别特征偏见性地呈现推荐",
+    "context5": "结果[27] 。",
+    "context6": "实践过程是算法偏见形成的最后环节，体现为交互偏见（interactionbias）。交互偏见来自算法选择给人类呈现信息子集的过程，是由于人机交互而产生的算法偏见，体现了算法偏见的动态性和迭代特征,又称迭代算法偏见（itera-ted algorithmic bias）[26]。迭代算法偏见增加了预测相关性的不平等性,包括迭代过滤、主动学习和随机选择三种存在形式[28]，在算法推荐[19,29]、社交网络[34,36]领域被广泛研究。"
+  },
+  "2.3外延标准二：算法偏见对象": {
+    "context1": "算法偏见是一种体现人与算法之间的偏见映射,偏见对象涉及数据、算法生成内容和终端用户，分别对应数据级、内容级、用户级三种算法偏见类型。",
+    "context2": "其中,数据级算法偏见又称数据偏见,主要描述数据集中隐含的偏见情况，详细分类参考外延标准一中的数据集偏见。",
+    "context3": "内容级算法偏见,又称算法推荐偏见（algo-rithmicrecommendationbias）,是从算法生成内容的角度考虑的算法偏见[31]，侧重关注算法本身导致的偏见,即在A、B内容合理共存情况下，算法为什么向用户呈现A内容而非B内容。算法推荐偏见常现于各类推荐系统、社交媒体、检索系统中，在传播学、信息科学领域被广泛研究。根据已有文献,算法推荐偏见可细分为暴露偏见（exposure bias）、流行性偏见（popularity bias）和可检索性偏见（retrievability bias）。暴露偏见是指算法模型只允许用户接触到特定项目的一部分,例如Twitter 的API过滤机制[25]和时间线管理算法[44]均扭曲了用户看到推文内容的平等性。流行性偏见是指流行项目比不流行项目更频繁地推荐给特定群体或所有用户，例如高分视频会被推荐给更多用户[33,45],在某种程度上是另一种形式的暴露偏见;流行性偏见会增强长尾现象,可能会对产品提供者、个性化追求用户产生不公平结果。可检索性偏见是用于描述检索系统性能的概念，即文档在检索系统中的可访问性[5]；不同检索算法对文档的选择倾向性不同,系统的可检索性又决定了相关性文档的呈现机会[46]，最终表现出检索系统的可检索性偏见,可能会对医疗保健、新闻舆论等造成恶劣影响。",
+    "context4": "用户级算法偏见,又称算法用户偏见（al-gorithmicuserbias）,是从目标用户的角度考虑的算法偏见,主要考虑算法在不同用户组之间的性能差异（如准确性)[31]。用户组的划分标准依赖于人口统计学特征,包括性别、年龄、种族、宗教、地区、经济水平、教育水平等。此时,算法偏见可被描述为对不同人口统计学特征的歧视,是社会偏见在虚拟世界的映射，又称人口偏见。按照用户特征的组合情况,包括两种类型。 $\\textcircled{1}$ 单一特征偏见。关注单一用户特征对算法结果的影响,包括算法性别偏见[47]、算法年龄偏见[37] 算法种族偏见[42] 算法地理偏见[48]等。其中,算法性别偏见隶属于性别研究范畴,不仅关注性别特征在算法应用中的影响作用，更重要的是对分类系统本身（如男人/女人)以及分类系统如何映射或再现社会不平等的现象进行批判性反思[49]；算法年龄偏见是基于年龄对个人或群体存在刻板印象,通常用于表达对老年人/年轻人、成人/儿童的偏见态度;",
+    "context5": "算法种族偏见特指算法开发者在权力结构、社会期望、信念和价值观的引导下，对原始算法进行修改或再训练，最终体现出对某类种族群体显性或隐性的种族偏见[50]；地理特征通常是种族、经济因素等社会敏感特征的代理属性（proxy attributes）[51],算法地理偏见体现地理因素在算法实践中的偏见影响。 $\\textcircled{2}$ 多特征交叉偏见。偏见通常不是由单一特征造成的，是多种特征因素的排列组合对算法结果产生不同影响。在12篇多特征交叉偏见研究文献中，性别与种族特征的交叉影响最受关注，涉及5篇文献[30,52-55]。"
+  },
+  "2.4算法偏见的概念框架": {
+    "context1": "综合算法偏见的内涵与外延研究成果，确定算法偏见的二元主体框架一—人类智能系统与人工智能系统,由此构建算法偏见的整体概念框架(见图2)。其中，人类智能系统由设计者、数据采集者、打标员、程序员和用户五类群体组成，前四者又可统称为算法项目人员或人工智能系统项目人员；人工智能系统由数据、算法模型（以下简称算法)和界面等主要部分构成。算法偏见的概念框架由三部分组成。",
+    "context2": "![](images/06ec7bcbe1f80ef58667b01c50c4519816a0309793ae1355db648c56a6acaf87.jpg)  \n图2算法偏见的概念框架"
+  },
+  "(1)人类智能系统内的偏见链": {
+    "context1": "人类智能系统内的偏见链条是算法有关的人类主体在参与人工智能系统开发、设计与运营等事务前具有的相互偏见关系，其隐式或显式偏见关系影响到算法的设计和性能[56],是各类算法偏见产生的根源。人工智能系统的设计者对特定性别、年龄、种族和地理的用户存在的偏见会通过系统设计环节传递给数据采集者。在社交媒体中,数据采集者与用户两个身份高度融合，在设计者带有偏见的系统设计思想指引下,数据采集者在上传数据内容的过程中融入了可能存在于自身的偏见。打标员包括专业人士和普通用户,分别对应专业生产内容（Pro-fessionalGenerated Content）和用户生成内容（User Generated Content）两种系统场景[57]。打标员为融合了设计者偏见和数据采集者偏见的数据内容赋予标签，同时又不可避免地将自己的社会和认知偏见体现在选择标注词与删除相关数据的过程中。程序员在开发人工智能系统过程中带着其对用户和打标员群体可能的偏见,设计和改进供打标员使用的标注平台。人工智能系统用户在人类智能系统的偏见链条中常常处于最底端,无意识或者有意识地被人工智能系统的其他四个人类主体置于偏见的恶性循环之中。用户、数据采集者和打标员的身份经常融合到同一个自然人之中，成为多重偏见的映射集合。"
+  },
+  "(2)人工智能系统内的偏见循环圈": {
+    "context1": "人工智能系统内的偏见循环圈由数据到算法、算法到界面、界面到数据三个环节构成。数据到算法阶段的算法偏见表现为技术偏见，数据集融合了来自人工智能系统项目人员如设计人员、数据采集员、打标员等的社会和认知偏见，在运用体现了程序员确认偏见的算法对数据集进行训练、验证和测试过程中呈现出关联偏见,训练集中的文化偏见容易被放大,算法模型将数据集中算法用户偏见进一步延续和强化;算法到界面阶段的算法推荐偏见常产生于拥有个性化推荐机制的人工智能系统,比如社交媒体、流媒体、检索系统等，推荐算法将相关人员的偏见融合到一起,形成了可能的暴露偏见、流行性偏见和可检索性偏见;界面到数据阶段的偏见是用户与界面之间交互偏见的延续，用户与被算法推荐偏见影响的界面交互过程中，与用户自身可能存在的对其他用户的偏见融合到一起,生成用户日志数据,反馈到数据中，从而进一步叠加到数据集偏见中。",
+    "context2": "(3)人类智能系统到人工智能系统的偏见作用路径",
+    "context3": "在人类主体与人工智能系统进行交互时，人类智能系统内的偏见链条会以多条路径进入并影响人工智能系统[56]。从人工智能系统项目人员到数据的作用路径中，设计者个人对业务的理解状况很大程度决定了人工智能系统项目的成功与否。当业务理解出现偏差或因个人认知隐式地带入社会偏见时,由此产生的理解偏见将通过数据采集者对后续数据集的构建产生影响,促使数据集中产生可能的历史偏见和代表性偏见。同时,打标员在可能存在偏见的数据集中进行带有标签偏见属性的打标行为，在处理数据时从其自身社会偏见出发对部分属性或数据做出无意识的保留、舍弃或标注行为。",
+    "context4": "从程序员到算法的作用路径中,以推荐智能系统为例，程序员从对特定群体或个人有文化、认知与社会偏见的假设出发,过度简化个性化推荐算法,或者采用适合于其他人群但不适合于被偏见人群的个性化推荐算法，导致为被偏见人群推荐的内容主题要么过于狭窄，要么过于流行而不适用,要么无法便利地检索到真正需要的内容。",
+    "context5": "从用户到界面的作用路径中,界面成为算法及人工智能系统与用户之间沟通的中介要素。大多数情况下，有限的人类认知和精力无法接收所有的算法结果，这就要求算法模型通过界面选择性地呈现信息。选择呈现信息的类型受到算法推荐偏见的影响，也受到界面个性化程度及界面设计者所持的文化、认知与社会偏见状况的影响，用户会根据自身需求和个人认知对算法结果做出不同的操作行为，通过个人获取及使用信息行为特征和习惯为界面及其后台反馈了有价值的日志数据,数据中带着交互偏见补充到数据集中，对预测用户后续行为提供有价值依据，同时触发进入新一轮的偏见循环。",
+    "context6": "由此可见,在以二元主体为支撑的算法偏见概念框架中，不同角色的人类主体构成了算法偏见的根源，用户偏见在人类智能系统中出现多种形态与相互关系,并发生类似于食物链的传递,算法用户偏见与个人认知、社会文化有关,是社会偏见在算法世界的延续。数据一算法一界面(中介)构成的人工智能系统中的偏见，以不同形态在人类智能系统代表性主体的偏见作用之下形成循环，在循环中，算法偏见不断地自我加强和放大[24],最终影响用户未来的决策和行为。"
+  },
+  "3算法偏见的哲理反思": {
+    "context1": "近年来,社会各界掀起了对算法技术自身、技术参与所带来的风险挑战等问题的哲理反思热潮。算法偏见是其中的一个哲学主题,已经成为人工智能伦理道德领域的关注重点。当前算法偏见反思研究采用的哲学思想主要有功能主义、冲突论、还原论和马克思主义。"
+  },
+  "3.1功能主义与算法偏见": {
+    "context1": "功能主义（Functionalism）在不同学科语境下指代的思想内涵稍有不同,譬如社会学中有结构功能主义（Structural functionalism）,心灵哲学中有机器功能主义（Machine functionalism）。",
+    "context2": "结构功能主义者将社会类比为生物有机体,认为社会是一个由众多部件组成的功能综合体,旨在根据社会现象与某种系统的关系来理解社会现象[58]268-269。这一假设决定功能主义者追求一致、稳定的社会关系，即使默顿引入反功能的概念来描述变迁和冲突，也难以动摇人们对稳定系统的注意力，最终产生保守主义的偏见[58]288-289。算法偏见作为一种破坏社会稳定的现象,其形成机理可从功能主义视角阐释。在算法应用中，算法功能实现被视为首要目标，但这一过程往往忽视了对算法道德和伦理的强调,这将对受道德规范保护的目标群体发挥反功能,由此产生的算法偏见将导致越轨行为的出现。功能主义对算法偏见的影响主要体现在分类系统的设计缺陷。例如,社会角色理论将男性定义为功能性角色、女性是表达性角色，强调互补性劳动分工对家庭、社会稳定的重要性[59]。这一设计理念限制了性别的多元性,剥夺了残疾、性少数群体[60]等非常规个体或家庭的参与权和发言权，在算法社会中再现现实社会对这类群体的不公平现象。",
+    "context3": "机器功能主义者借助图灵机模型来理解心灵，认为心灵状态是一种在因果网络（感官输入、行为输出、其他心灵状态)中具有特定因果作用的中间环节,即功能状态。机器功能主义的核心概念是“多重可实现”（multiplerealiza-tion)[61],这正是人工智能的哲学根源所在。近年来,强人工智能以神经科学为基,发展出多种神经网络算法来解决复杂图像识别、行为预判等问题,并在计算机视觉领域取得进展。但心灵之于大脑是否等价程序之于硬件？就当前人工智能发展程度来看,答案是否定的,这也导致了算法偏见的形成。例如,现有的面部识别算法常因设计训练时被隐式植入对肤色（或种族）、年龄、健康状态的偏见,最终导致深肤色群体[2] 老年/儿童[21]、患病群体[40]的识别错误率远高于其他群体，在结果上落后于人工识别的准确率，对部分群体造成不可逆转的伤害。"
+  },
+  "3.2冲突论与算法偏见": {
+    "context1": "冲突论（Conflict theories）起源于 20 世纪50年代,是在马克思、韦伯、齐美尔社会冲突思想基础上,对结构功能主义进行批判和修正的西方社会学流派。不同于结构功能主义，冲突论首要关切的是社会不平等问题[58]292,重点探讨社会冲突的本质和根源。",
+    "context2": "从冲突论视角理解，算法偏见是社会结构性压迫在算法应用中的体现,反映出权力阶层之间的冲突。计算机科学家和活动家乔伊·博拉维尼(Joy Buolamwini)提出“权力阴影”（powershadows)的概念,以此描述算法应用所反映的世界结构性不平等现象[60]。冲突论在算法偏见研究中主要体现在性别社会分层理论中，表现为男女两性对资源占有问题展开统治权争夺[59]。在父权制意识的控制下,男性通过构建男强女弱的性别话语来巩固男性统治地位，并通过社会媒体等途径构建网络空间的性别秩序和性别一能力规范,即男性比女性更能代表“per-son”[6],男性具备高能力而女性具备高温暖。当出现违反性别一能力规范的情况（如高能力的女性)时，这种违规行为将受到整体环境的抵制和惩罚[6]。同样的情况还出现在种族[30]、政治阶层[62]之间,体现了算法偏见背后的冲突对抗和权力不对等关系。"
+  },
+  "3.3还原论与算法偏见": {
+    "context1": "还原论（Reductionism）是一种将复杂现象或理论还原为基础现象或理论的哲学思想，目前主流的还原论说法认为所有学科都可以还原为物理学的表达形式[63]。",
+    "context2": "算法偏见是一种复杂的社会心理学现象在算法世界的体现,受到多种因素的影响。如何将现实世界的偏见现象转换为计算机理解的语言，还原论作为中介桥梁发挥了重要作用。例如,计算机无法直观理解什么是“美”,但引入还原论的理论方法，可将“美”这一文化概念分解成多个物理特征的组合，将身体吸引力还原为人类产生生殖冲动的函数[55]。种族、年龄、性别、国家作为函数构成要素,影响算法判断结果从而产生算法偏见[56]。不同主题领域对算法偏见的还原论解释不同,社交媒体网络中算法偏见可还原为社交网络中节点间的偏置强度[18],推荐算法中算法偏见可还原为高维空间中测量数据间距离的问题[22]。采用还原论的理论视角,可将算法偏见现象还原为物理现象，其影响因素和形成机理还原为数理逻辑集合，实现算法世界的偏见转移和再现。"
+  },
+  "3.4马克思主义与算法偏见": {
+    "context1": "马克思主义（Marxism)是一种从历史唯物主义、辩证法和对资本主义的批判中发展而来的经济、政治和社会世界观。其中,马克思主义哲学、马克思主义政治经济学、科学社会主义是组成马克思主义的三大基石。下文将用马克思主义政治经济学的经济人假设来解释算法偏见的形成原因。",
+    "context2": "继承古典经济学经济人假设的合理部分，马克思主义政治经济学以社会生产关系作为研究对象，假定经济人的自利行为不具备增进社会福利和自动调节经济均衡功能,反而会造成社会经济的波动和冲突[64,65],这与古典经济学的经济人假定相反。基于此,广告、医疗保健、游戏、网约车等领域中的算法偏见现象便可以解释为：算法决策者或供应商作为资本方，在设计算法应用过程中必然遵循经济人假设,力图从信息资源中获得最大利益。这一理念驱使资本方做出关注有利可图的信息市场，同时规避无利可图的信息市场的决策，由此设计或发行的算法应用必将受到经济因素的扭曲，可能会不公平地偏祖或歧视特定群体。例如,算法结果增加用户获得同等广告服务[66]、医疗保健服务[42]的难度,割裂不同经济水平地区用户的游戏体验[48],或增加用户遭遇网约车计费的算法收割可能[17]。"
+  },
+  "4算法偏见的后果": {
+    "context1": "正如本文构建的算法偏见概念框架所示，算法偏见的后果涉及技术要素、信息要素和用户要素。其中,技术是算法偏见的形成手段,信息是算法偏见的呈现载体，用户是算法偏见的作用对象或催化剂。只有厘清技术、信息与用户之间的关系,才能明晰算法偏见在各要素互动过程中的表现形式和后果，为消除算法偏见"
+  }
+}

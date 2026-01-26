@@ -1,0 +1,72 @@
+{
+  "original_filename": "full_930.md",
+  "专利技术形态分析方法研究进展": "",
+  "徐峰1,2,3 冷伏海": {
+    "context1": "中国科学技术信息研究所北京100038²中国科学院国家科学图书馆北京100190  \n中国科学院研究生院北京100049",
+    "context2": "（摘要）专利信息分析方法在揭示专利技术信息方面已取得许多研究成果，形态分析是一种面向未来的系统分析方法，专利技术形态分析方法可以综合这两种方法的优点,为面向未来的技术分析提供一个重要研究方向。对专利技术形态分析的核心方法与研究进展进行系统介绍，并对该方法目前有待研究的问题及其解决思路以及未来的应用进行分析。",
+    "context3": "（关键词）专利信息形态分析文本挖掘（分类号）G353.1"
+  },
+  "A Study of Patent Technology Morphology Analysis": {
+    "context1": "Xu Feng1,2,3 Leng Fuhai²",
+    "context2": "Institute of Scientific and Technical Information of China，Beijing 100038",
+    "context3": "²National Science Library，Chinese Academy of Sciences，Beijing 100190",
+    "context4": "Graduate University of Chinese Academy of Sciences，Beijing 100049 (Abstract）There aremanyvaluableresearchoutputs basedonpatentanalysis.Morphology Analysis isasystemic method withrespect tofutureresearch.Combiningtheadvantagesof abovetwo methods，patenttechnologymorphologyanalysiscanbeavaluableresearch area.Thekeyelementsanddevelopmentof patenttechnologymorphologyanalysisareintroducedinthispaper.Someproblemsand possiblesolutionsrelated tothemethodarethen analyzed.Andlastlyfutureapplicationsof this methodarealsointroduced.",
+    "context5": "(Keywords）patent informationmorphology analysistext mining"
+  },
+  "1引言": {
+    "context1": "20 世纪60年代,专利数据已开始用于对技术变化进行经济分析。20世纪70年代以来，专利信息的电子化有力地促进了专利数据的分析和利用。如今，基于专利外部特征的计量指标以及基于文本挖掘的专利分析方法已取得了众多的成果。但是，基于专利信息的分析方法在技术的结构和状态信息揭示等方面仍存在着严重的不足。许多方法可以产生技术情报,但无法为解决未来技术问题提供更有价值的信息。因此，有研究人员将专利信息分析与其他方法相结合进行面向未来的技术分析研究,并取得了一些有价值的研究成果。2004年,韩国学者Yoon等人提出了一种结合了专利信息分析和形态分析的技术预测方法“。该方法利用专利信息进行文本挖掘，并在专家的帮助下构建了技术形态进行形态分析研究,因而本文将这种方法称为专利技术形态分析方法。这种方法既可以利用专利信息分析了解现有技术的结构和状态，又可以利用形态分析对未来技术可能的形态进行分析和优选，因而是一种很有应用价值的未来技术分析方法。"
+  },
+  "2形态学与形态分析": {
+    "context1": "形态学（morphology）源自希腊文morphe,意思是对形状或形态进行研究。J.W.vonGoethe首次将形态学作为一种明确的科学方法,用于表示有机体的形成和变化。如今形态学与许多学科有关,如在生物学中，其研究的是生物体的形状或形态;在语言学中，它研究的是词信息-3]。",
+    "context2": "形态分析(MA）用于分析一个对象的结构和排列以及这些结构和排列是怎么组成一个完整的形态。",
+    "context3": "1940年代,瑞士出生的美国天体物理和宇航学家FritzZwicky提出了一种形态分析的通用形式，并将其用于天体物理目标分析和新式推进动力系统开发等多个领域。20世纪60年代到90年代初,一些工程师、实践研究人员和政策分析人员将MA用于复杂工程问题构建、情景开发和安全政策思想研究。1995年瑞典的研究人员TomRitchey等开始研制计算机支持的MA系统，并在之后的10余年间将其用于瑞典国防研究局的60多个项目,有力促进了MA的应用研究发展。",
+    "context4": "MA的基础思想是将研究主题分解成描述性的属性和等级，以便解释技术的特性，并对等级进行重新组合分析。MA主要包括以下几个步骤： $\\textcircled{1}$ 确定主题的基本功能,即将主题的特性分成几个属性; $\\textcircled{2}$ 将每个属性可能证明自身所有可能的等级罗列出来; $\\textcircled{3}$ 研究所有能够产生特定等级组的组合，组合数可以通过与每个属性相关的等级数相乘获得; $\\textcircled{4}$ 试着为每个组合寻求实际的案例; $\\textcircled{5}$ 消除不可行的组合，并按重要程度高低列出剩下的组合。通过穷尽检查所有可能的组合，MA可以对新技术开发的所有可能性进行研究。",
+    "context5": "虽然有大量文献介绍MA，许多研究人员也十分认可MA的系统分析能力,但MA的实际应用却很少见。这主要是因为： $\\textcircled{1}$ 缺少建立属性和等级的科学的或系统的方法; $\\textcircled { 2 } \\mathrm { M A }$ 一般只用于特定时间的短期计划; $\\textcircled{3}$ 难以在传统的MA中对备选的技术进行优化选择。为解决这些问题,已有研究将MA与其他方法结合使用，并取得一些研究成果,如与贝叶斯网络和情景分析等方法结合用于未来研究4]。"
+  },
+  "3 专利技术形态分析方法": {
+    "context1": "专利技术形态分析方法的核心内容是：以专利信息中挖掘出来的关键词为基础,将其作为技术形态结构的参数，构建技术形态进行形态分析。其主要步骤包括： $\\textcircled{1}$ 专利技术形态构建:利用专利文本挖掘,构建基于关键词的专利技术形态; $\\textcircled{2}$ 专利技术形态分析：对专利技术形态进行形态分析，析出已有专利技术形态组合和未来专利技术形态组合； $\\textcircled{3}$ 优选未来专利技术形态组合：利用各种方法对析出的未来专利技术形态组合进行优选，供技术专家研究参考。"
+  },
+  "3.1专利技术形态构建方法": {
+    "context1": "目前专利技术形态的构建过程如下： $\\textcircled{1}$ 在领域专家的帮助下,定义所研究技术的形态结构; $\\textcircled{2}$ 利用文本挖掘技术,从检索出的专利文献集中提取出关键词，并对关键词共现矩阵进行分析构建关键词表; $\\textcircled{3}$ 在专家的帮助下将关键词表与形态结构进行匹配，最终形成基于关键词的专利技术形态。Yoon依据上述方法构建的专利技术形态，如表1所示：",
+    "context2": "表1基于关键词的“wide-viewing-angle\"技术形态",
+    "context3": "<table><tr><td rowspan=1 colspan=1>属性</td><td rowspan=1 colspan=1>等级</td><td rowspan=1 colspan=1>关键词</td></tr><tr><td rowspan=1 colspan=1>（A)Alignment</td><td rowspan=1 colspan=1>Parallel ( 1)Vertical (2)Pretilted (3)Hybrid (4)Twisted (5)</td><td rowspan=1 colspan=1>Parallel stripe， homogenous，nematicAxisymmetrical，plasma，vertical alignmentSubstrate plane，apparatus，ultravioletAcetate，acrylic，coating，copolymer，vertlineOptical axis，twisted nematic</td></tr><tr><td rowspan=1 colspan=1>(B)Light mode</td><td rowspan=1 colspan=1>Backlight (1)Reflective (2)Transflective（3)</td><td rowspan=1 colspan=1>Dielectric multiplayer, hologram，polarization,prism Reflective electrode，unpolarized，colli-mationTransflective，transmissive</td></tr><tr><td rowspan=1 colspan=1>（C）DomainMonodomain</td><td rowspan=1 colspan=1>Single domain(1)Multidomain(2)</td><td rowspan=1 colspan=1>chromatography，chloride，furanoseMultidomain，two domain</td></tr><tr><td rowspan=1 colspan=1>（D）Compensa-tion film (CF)</td><td rowspan=1 colspan=1>No CF (1)One CF(2)Two CF (3)</td><td rowspan=1 colspan=1>No compensation filmAbsorption axis，supertwisted,one retardationBiaxial compensation，anisotropic，two retardation</td></tr><tr><td rowspan=1 colspan=1>（E）Protrusionsurface form</td><td rowspan=1 colspan=1>Pyramid (1)Sphere (2)Stripe (3)Plane (4)</td><td rowspan=1 colspan=1>Pyramid,laser，microgrooveSphere，electroconductive，phosphorusStripe，fiber optic，parallel planePlane，no protrusion</td></tr><tr><td rowspan=1 colspan=1>（F)Rubbing</td><td rowspan=1 colspan=1>No (1)Singleprocess-ing(2)Multiprocessing（3)</td><td rowspan=1 colspan=1>No rubbingAcid，carboxyl，polar solvent，sulfonateTwo rubbing，multi rubbing，second rubbing</td></tr><tr><td rowspan=1 colspan=1>G）Voltagecharge</td><td rowspan=1 colspan=1>In plane (1)Two planes (2)</td><td rowspan=1 colspan=1>Plane electric，plane switchingElectrooptic，two plane</td></tr></table>"
+  },
+  "3.2专利技术形态分析方法": {
+    "context1": "构建出基于关键词的专利技术形态后，即可以在此基础上构建出形态矩阵,并对其进行形态组合分析，如图1所示：",
+    "context2": "![](images/f4e1e710635654722c4d54b9bb80e84f12dece6da0c281b9bfa478d00e66ed8c.jpg)  \n图1形态组合分析示意",
+    "context3": "步骤如下: $\\textcircled{1}$ 将技术形态中的属性与等级进行组合分析，构建出基于关键词的技术形态组合; $\\textcircled{2}$ 根据关键词-专利共现矩阵,析出现有专利的技术形态组合，其余的作为有待优选的未来技术形态组合。以Yoon的研究为例,技术形态组合数为 $5 * 3 * 2 * 3 * 4 * 3 * 2$ $= 2 \\ 1 6 0$ 种,现有专利已拥有了85种技术形态，尚有2 075种技术形态可以作为可能的未来技术形态。"
+  },
+  "3.3未来技术形态组合优选方法": {
+    "context1": "由于形态分析采取的是排列组合的方法，在分析过程中形成的形态组合数量会很大，可能的未来形态组合数量往往也会很大。因此，要使形态分析具有实际应用价值，必须对未来技术形态组合做进一步优选。3.3.1传统形态分析的优选方法传统形态分析的优选方法主要是利用专家对技术形态各属性间的两两关系进行分析，根据各属性间的一致性关系构建出矛盾矩阵(见表2），然后利用矛盾矩阵，优选出备用的未来技术形态组合方案。利用这种方法可以大大降低备选的技术形态组合数量。",
+    "context2": "表2矛盾矩阵示例",
+    "context3": "<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=2>属性1</td><td rowspan=1 colspan=2>属性2</td><td rowspan=1 colspan=2>属性3</td></tr><tr><td rowspan=1 colspan=1>等级1等级2</td><td rowspan=1 colspan=1>等级1等级2</td><td rowspan=1 colspan=1>等级1</td><td rowspan=1 colspan=1>等级2</td><td rowspan=1 colspan=1>等级1</td><td rowspan=1 colspan=1>等级2</td></tr><tr><td rowspan=2 colspan=1>属性1</td><td rowspan=1 colspan=1>等级1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>等级2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>属性2</td><td rowspan=1 colspan=1>等级1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>等级2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td></tr></table>",
+    "context4": "3.3.2基于专利引文的优选方法在专利技术形态分析中经常采用基于专利引文的优选方法。由于专利的引文量可以反映专利的价值或重要程度，通常认为价值更高或重要程度更高的技术形态组合更具开发价值。因此,可以利用专利引文分析,将专利价值较高的技术形态组合视为优选的技术形态组合。",
+    "context5": "3.3.3其他优选方法除专利引文分析外,还可以简单地利用关键词词频进行优选,即将技术形态组合中关键词词频总和最高的技术形态组合当作最易实现的方案来优选未来技术形态组合。另外,还有一些从技术形态组合重要性角度的优选方法，如从时间的角度考虑，时间最近的关键词组成的技术形态组合最重要，或是利用专利熟悉度指标来判断形态组合的重要性等。"
+  },
+  "4 专利技术形态分析方法研究进展": {
+    "context1": "Yoon等人在2004年的IEEE工程管理国际会议上首次提出利用专利文献共词分析析出的关键词表构建技术形态用于技术预测的方法。2005年，他们系统地介绍了基于关键词和形态分析混和方法的技术机会分析方法,并利用TFT-LCD的“wide-viewing-angle”技术专利进行实证研究。2007年他们在2005年研究的基础上,利用关联分析和专利引文分析,对未来技术形态组合的优选方法进行实证研究，从而系统地完成了这种基于关键词共词和形态分析的混合方法的实证研究。2008年,Yoon又介绍了基于上述方法的技术情报工具的开发与应用情况,并提出利用聚类和网络分析构建技术词典的方法t。如今,国内的一些研究人员也注意到了这种方法。其中,黎江将Yoon的方法纳入其基于专利分析的技术机会分析体系中，对该方法进行实证研究,并提出一些优选未来技术组合的思路;李辉和乔晓东对Yoon的方法进行了介绍；王吉武等利用Yoon的分析方法对LED领域的技术机会评价做了实证研究 [0] 。"
+  },
+  "专利技术形态分析方法相关问题分析与应用前景": "",
+  "5.1存在的问题": {
+    "context1": "目前专利技术形态分析方法主要存在两个问题：其一，由于需要专家介入构建专利技术形态,这种分析方法在成本和效率上受到一定限制。而且,由于专利技术形态构建是以专利信息中提取出的关键词表为基础的，将基于文本分析的关键词表与专家的意见相匹配会存在一定问题。一方面，关键词表在揭示专利技术信息方面由于受专利文献本身的限制,可能难以完全符合专家用于构建技术形态的要求;另一方面，参与构建技术形态的专家也可能会因知识背景等因素，对专利信息所能揭示的技术信息产生一些错误的判断，从而影响到技术形态的构建。",
+    "context2": "其二，在未来技术形态组合优选方法中,利用专家构建矛盾矩阵用于削减未来技术形态组合数量是比较有效的办法。但是,这种方法可能会因专家领域知识背景的限制,而将一些表面冲突,但可能会是重要技术突破的组合排除在外。另外,已有的研究均采用了引文分析的方法，但利用引文也会受到专利引文分析自身的限制而影响最终的结果。如通常用于测度专利的经济价值的专利引文分析是否适用于以技术开发价值为主要目标的未来技术形态组合优选，专利引文的时滞以及新专利缺少引文等情况如何处理等均有待进一步研究。"
+  },
+  "5.2解决途径分析": {
+    "context1": "一方面，Yoon等人建立的技术形态可以看作一种以形态学属性与等级表征的多层次的关键词聚类或分类体系结构。目前已有许多研究利用文本挖掘方法（如共词分析方法)对文献的主题结构及演变进行过研究，因此是否可以借鉴这些方法，从基于文本的关键词聚类或分类的角度，研究构建基于关键词的层次结构，并用于形态分析，从而解决专家意见与关键词间难以匹配的问题。另外,若所研究的技术领域拥有相应的领域本体，是否有可能直接利用领域本体对专利文本析出的关键词进行标记分类，构建专利技术形态，值得研究。",
+    "context2": "另一方面，未来技术形态组合的优选也可以尝试一些新的方法。如利用专利的时间序列数据，将每年新专利中出现的新技术形态组合做系统的研究，分析其规律和特点，以此来反求优选技术形态组合的方法。这样便可以在无需专家构建矛盾矩阵的基础上，直接对未来技术形态组合进行优选，从而避免因专家背景知识所限而忽略可能的重要技术形态组合。当然，这种方法也存在着一些不确定的问题，如新出现的技术形态组合是否存在着规律性等。另外,从基于矛盾矩阵优选方法的角度是否可以利用文本挖掘技术，对关键词之间的关系做更加深入的研究,挖掘出关键词之间可能存在的冲突，以此作为构建矛盾矩阵的基础对形态组合进行优选，也是一个值得研究的方向。"
+  },
+  "5.3应用前景": {
+    "context1": "专利技术形态分析方法将拥有许多可能的实际应用价值。如Yoon已将这种方法用于技术路线图的应用研究。该研究分别利用产品手册和专利文献提取的关键词构建出产品和技术形态结构,通过关键词将两种形态进行匹配,并将时间维纳入其中,构建了基于产品(技术)形态组合的技术路线图(。此外,由于形态分析是一种可以将问题参数化和量化的问题定义方法,因此也可以与发明问题解决理论(Theoryof Inven-tive Problem Solving,TRIZ)结合,解决 TRIZ 问题解决方法中缺少问题定义手段的问题。综上所述，经过系统的研究与完善，这种分析方法对于各种面向未来的技术分析领域均将具有重要的实际应用价值。"
+  },
+  "参考文献:": {
+    "context1": "[] Yoon B G,Park YT.Morphology analysis approach for technology forecasting//IEEE 2OO4 International Engineering Management Conference．NJ,USA: IEEE,2004.   \n[] Morphological analysis．oo9 -O3-18]. http://en.wikipedia. org/wiki/Morphological_analysis_(problem-solving).   \nβ]Ritchey T. General morphological analysis: A general method for non-quantified modeling.009-03-18]．http://www.swemorph.com/pdf/gma.pdf.   \n[4 ] Ritchey T. Futures studies using morphological analysis. E009 - 03-18].http://www.swemorph.com/pdf/futures.pdf.   \n[] Yoon B,Park P.A systematic approach for identifying technology opportunities:Keyword-based morphology analysis．Technological Forecasting& Social Change,2005,72(2):145-160.   \n[6 ] Yoon B,Park Y.Development of new technology forecasting algorithm: Hybrid approach for morphology analysis and conjoint analysis of patent information.IEEE Transactions on Engineering Management,2007,54(3):588 -599.   \n[] Yoon B. On the development of a technology intellgence tool for identifying technology opportunity.Expert Systems with Applications,2008,35(1/2):124 -135.   \n[8］黎江.基于专利文献的技术机会分析方法研究学位论文].北 京：中国科学院研究生院,2008.   \n］李辉,乔晓东.基于科技文献的技术机会分析方法初探.情报杂 志,2007(5):74 -76.   \n[0]王吉武,黄鲁成,卢文光．基于形态分析和联合分析方法的技 术机会评价实证研究．上海经济研究,2008(5):66-72.   \n[1] Yoon B,Phaal R,Probert D.Morphology analysis for technology roadmapping:Application of text mining.R&D Management,2008, 38(1):51 -68.",
+    "context2": "〔作者简介）徐峰,男,1976年生，助理研究员，博士，发表论文15篇。冷伏海，男，1963年生，教授，博士生导师，发表论文60余篇。"
+  },
+  "《图书情报工作》走进同行期刊,走进大学，走进图书馆": {
+    "context1": "为了更好地与同行期刊进行交流，了解作者和读者的需求,宣传办刊理念，提高知名度，促进期刊更快更好地发展，《图书情报工作》杂志社开展走进同行期刊、走进大学、走进图书馆等交流活动。",
+    "context2": "3月22-26日，《图书情报工作》杂志社深入华东地区,与南京图书馆、南京农业大学、南京大学、东南大学、江苏大学、江南大学图书馆,上海图书馆/上海科学技术情报所、华东师范大学、上海师范大学图书馆、中科院上海生命科学信息中心等机构交流学习。",
+    "context3": "4月7日，《图书情报工作》杂志社一行三人与中山大学信息管理系师生和华南师范大学经济与管理学院师生分别进行了座谈。",
+    "context4": "4月8-10日,作为 $^ { 6 4 } 4 \\cdot 2 3$ 世界读书日\"重点主题活动,中国图书馆学会阅读推广委员会工作会议暨第四届“全民阅读论坛”在深圳举行，《图书情报工作》杂志社三位委员参加了论坛并进行了相关交流。",
+    "context5": "(本刊讯)"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "original_filename": "full_7459.md",
+  "本体研究综述": "",
+  "王向前1,2 张宝隆 李慧宗": {
+    "context1": "（1.安徽理工大学经济与管理学院淮南232001;2.复旦大学管理科学与工程博士后流动站上海 200433)",
+    "context2": "摘要旧的/意义本体作为重要的知识组织系统,在知识管理、语义Web和人工智能等方面发挥着重要作用。对本体相关研究进行评述,探讨本体理论和技术的发展现状及研究进展，为后续研究奠定基础。过程/方法通过梳理本体研究相关文献，对国外内学术界关于本体的经典定义进行分析,从主要元素和推理机制两个角度对本体描述语言进行分析比较，总结了多种本体构建方法的优缺点,对常用的本体构建工具、基于叙词表的本体构建、本体评价方法和本体的应用进行了阐述。结果/结论大规模本体的自动进化和自学习需要更深层次的研究，其在个性化知识发现和智能 $\\mathrm { W e b }$ 服务方面的应用将成为重要的研究方向。",
+    "context3": "关键词本体本体描述语言本体构建方法本体构建工具本体评价叙词表分类法中图分类号TP311 文献标识码A 文章编号1002-1965(2016)",
+    "context4": "引用格式王向前,张宝隆,李慧宗.本体研究综述[.情报杂志,2016,35(6):163-170.",
+    "context5": "DOI $1 0 . 3 9 6 9 / \\mathrm { j }$ .issn.1002-1965.2016.06.028"
+  },
+  "Overview of Ontology Research": {
+    "context1": "Wang Xiangqian12²Zhang Baolong1Li Huizong' (1.School of Economics and Management，Anhui University of Science and Technology,Huainan232001;",
+    "context2": "2.Post-doctoral Station of Management Science and Engineering，Fudan University，Shanghai 200433)",
+    "context3": "Abstracturpose/SignificancelAsanimportantknowledgeorganizationsyste，ntologyplaysasignificantrole inknowledgemanagement，semanticebndartificialitellgnceAreviewofotologyrelatedreseachcanelpunderstandtesatusofotoloy andtechnologydevelopmentandresearch progressandthuslayafoundationforfurtherresearch．Method/ProcessThroughcombing theliteratureofontology，earticleanalyzdteontologyclasicdefinitionbyacademicciclesathomeandabroad,andtenaalyzed ontologydescriptionlanguagesfromperspectivesofajorelementsandreasoningmechanism．Nextthearticlesummarizedtheadantages anddisadvantagesofontologyconstructionmethods，andelaboratedthecommontoolsofontologyconstruction，ontologycostruction basednthesaurus，ontologyevaluationmethodologyandontologyapplication．Result/ConclusionlInconclusio,theartcleointsout thatfurterresearhesonautomaticevoutionandself-leaingofassveontologyareurgentlynded,theapplicationofhichinper sonalized knowledge discoveryand intellgent web service willbesome important fields of ontology research.",
+    "context4": "Key wordsontologyontologydescriptionlanguageontologyconstruction methodontologyconstructiontoolontologyevaluation thesaurustaxonomy"
+  },
+  "0引言": {
+    "context1": "在所做出的客观描述。20世纪90年代,本体概念被引入人工智能、图书情报和知识工程等领域，一度成为这些领域的热门研究课题。近年来，关于本体理论和"
+  },
+  "本体最初是哲学领域概念，是对现实世界真实存": {
+    "context1": "收稿日期:2016-04-18 修回日期:2016-05-17技术的研究逐步增多,应用领域逐渐扩大，其关注度也不断提升。但是对于本体理论进行综述性的文献却相对较少，多数文章也主要是从本体构建方法、构建工具评价方法等某一方面进行综述。本文通过梳理相关文献,对本体定义、本体描述语言、本体构建方法和工具以及本体评价等研究现状进行综述，最后对本体研究中存在的主要问题进行总结。"
+  },
+  "1本体的定义": {
+    "context1": "本体概念被引入人工智能、知识工程等领域后被赋予了新的含义。然而不同的专家学者对本体的理解不同，所给出的定义也有所差异。",
+    "context2": "人工智能领域的学者 Neches(1991）等人对ontol-ogy进行定义,即:本体是构成相关领域词汇的基本术语和关系，以及利用这些术语和关系构成的规定这些词汇外延的规则的定义。Neches 是最早对本体定义进行研究的学者,从内容的角度给出了本体定义，概括出了本体的基本要素，包括领域术语、关系和规则。这为其后各领域学者对本体的定义研究提供了参考借鉴。",
+    "context3": "美国斯坦福大学Gruber（1993)给出了本体的定义：本体是概念化的规范说明。Gruber给出的本体定义最为经典，但是未能全面概括出本体的本质。",
+    "context4": "随后,Borst等人(1997）对Gruber给出的定义进行了补充,即“本体是共享概念模型的形式化规范说明”。Borst 提出了本体共享的概念,阐明了本体的共享本质，但没有说明概念与概念之间的关系。",
+    "context5": "德国学者 Studer等人(1998)又对Borst的定义进行了扩展,提出了概念关系之间的“明确\"定义，认为：“本体是共享概念模型的明确的形式化规范说明”。Studer给出的本体定义被各领域专家学者高度认可，其涵盖了本体的基本特征:共享、明确、概念化、形式化,被学术界广泛引用,对于后来的本体研究具有重要意义。",
+    "context6": "中国学者对本体定义也做了很多研究。张晓林教授(2002)认为“ontology\"是概念集，是特定领域公认的关于该领域的对象及其关系的概念化表述。中国标准化研究院的李景(2005）博士认为，本体是一个关于某些主题的,层次清晰的规范说明。北京大学的汤艳莉、赖茂生教授认为ontology作为语义网的重要组成部分,是对世界或者领域知识、概念、实体及其关系的一种明确的、规范的概念化描述。张秀兰教授通过对国内外各领域本体定义的深入研究,总结出了本体定义：本体是通过描述、捕获领域知识,确定领域内共同认可的概念和概念间的关系,以用于领域内的不同主体之间交流与知识共享的形式化规范说明。",
+    "context7": "对比中外学者关于本体的定义不难发现,国外对本体的研究较为深入，所给出的本体定义比较经典，被学术界广泛引用。而国内关于本体的研究起步较晚，多数学者对本体的研究是在国外学者的基础上进行的,对于本体的定义强调领域概念，是对本体定义的进一步扩展。关于本体定义,学术界一直没有统一的定论,但存在基本的共识,即本体包括:概念化、形式化、可共享、明确、描述领域知识这五大特征。这五大特征基本概括出了本体的实质内容，但随着本体理论和技术的不断拓新和发展以及本体应用的日渐成熟，对于本体的认识会更加清晰，本体定义也将会更加全面准确。"
+  },
+  "2本体描述语言": {
+    "context1": "本体作为一种共享的、对概念的形式化描述,需要用事先规定的语言对其进行描述或表示。在本体理论和技术研究过程中,涌现出了多种本体描述语言。其中,具有代表性的本体描述语言可以划分为两类：基于谓词逻辑的本体描述语言和基于Web的本体描述语言。",
+    "context2": "2.1基于谓词逻辑的本体描述语言基于谓词逻辑的本体描述语言主要包括Ontolingua、OCML、LOOM、Cycl 和 Flogic。其中,Ontolingua、OCML和Flogic是基于一阶谓词逻辑和框架模型的本体描述语言,LOOM是基于描述逻辑的,Cycl是在一阶谓词逻辑基础上进行扩展的二阶逻辑语言。这些本体描述语言可以通过形式化的表示来实现计算机的自动处理，但不足之处在于有些概念及概念关系难以用谓词逻辑准确表示，形式化表示具有局限性。",
+    "context3": "2.2基于Web 的本体描述语言基于Web 的本体描述语言主要包括XOL、RDFS、SHOE、OIL、DAML$+ 0 \\mathrm { I L }$ 和OWL。XOL 是基于XML 的本体交换语言，SHOE是简单HTML本体的扩展,这两种语言的形式化基础是框架。RDFS、OIL、 $\\mathrm { D A M L + O I L }$ 和OWL都是基于RDF的进一步扩充,继承了RDF的语法和表达能力。",
+    "context4": "2.3本体描述语言比较随着计算机技术和互联网技术的发展,基于Web的本体描述语言逐渐成为主要本体描述语言。以下就基于Web的本体语言进行主要元素和推理机制方面的比较，采用西班牙马德里大学理工分校的评价标准和框架[。表1、表2中，“有”表示描述语言具有此特性，“无”表示描述语言不具有此特性，“可实现\"表示无强制要求但是可以实现此特性。",
+    "context5": "从表1可以看出,这6种语言基本都支持概念、多元关系和实例的定义,XOL、RDFS 和 SHOE缺乏函数、公理和产生式规则,对领域知识的定义不够完整。OWL 和 $\\mathrm { D A M L + O I L }$ 对各主要元素基本上都支持，对领域知识的定义较为完备，说明这两种语言具有较强的知识表达能力,而OIL在此方面则表现不足。",
+    "context6": "表1主要元素比较",
+    "context7": "<table><tr><td>语言</td><td>概念</td><td>多元关系</td><td>函数</td><td>过程</td><td>实例</td><td>公理</td><td>产生式规则</td><td>形式语义</td></tr><tr><td>XOL</td><td>有</td><td>无</td><td>无</td><td>无</td><td>有</td><td>无</td><td>无</td><td>有</td></tr><tr><td>RDFS</td><td>有</td><td>有</td><td>无</td><td>无</td><td>有</td><td>无</td><td>无</td><td>无</td></tr><tr><td>SHOE</td><td>有</td><td>有</td><td>无</td><td>无</td><td>有</td><td>无</td><td>无</td><td>无</td></tr><tr><td>OIL</td><td>有</td><td>有</td><td>有</td><td>无</td><td>可实现</td><td>可实现</td><td>可实现</td><td>无</td></tr><tr><td>DAML+OIL</td><td>有</td><td>有</td><td>有</td><td>无</td><td>有</td><td>有</td><td>有</td><td>有</td></tr><tr><td>OWL</td><td>有</td><td>有</td><td>有</td><td>无</td><td>有</td><td>有</td><td>有</td><td>有</td></tr></table>",
+    "context8": "表2推理机制比较",
+    "context9": "<table><tr><td rowspan=\"2\">特征</td><td rowspan=\"2\">XOL</td><td rowspan=\"2\">RDFS</td><td rowspan=\"2\">SHOE</td><td rowspan=\"2\">OIL</td><td rowspan=\"2\">DAML+ OIL</td><td rowspan=\"2\">OWL</td></tr><tr><td></td></tr><tr><td>正常</td><td>无</td><td>无</td><td>无</td><td>有</td><td>有</td><td>有</td></tr><tr><td>完备</td><td>无</td><td>无</td><td>无</td><td>有</td><td>有</td><td>有</td></tr><tr><td>自动分类</td><td>无</td><td>无</td><td>无</td><td>有</td><td>有</td><td>无</td></tr><tr><td>出错处理</td><td>无</td><td>无</td><td>无</td><td>无</td><td>无</td><td>可实现</td></tr><tr><td>单调性</td><td>可实现</td><td>可实现</td><td>有</td><td>有</td><td>有</td><td>有</td></tr><tr><td>非单调性</td><td>可实现</td><td>可实现</td><td>无</td><td>无</td><td>无</td><td>可实现</td></tr><tr><td>简单继承</td><td>可实现</td><td>有</td><td>有</td><td>有</td><td>有</td><td>有</td></tr><tr><td>多重继承</td><td>可实现</td><td>有</td><td>有</td><td>有</td><td>有</td><td>有</td></tr><tr><td>过程的执行</td><td>无</td><td>无</td><td>无</td><td>无</td><td>无</td><td>无</td></tr><tr><td>限制性检验</td><td>无</td><td>无</td><td>无</td><td>无</td><td>无</td><td>有</td></tr><tr><td>向前式</td><td>无</td><td>无</td><td>可实现</td><td>无</td><td>有</td><td>无</td></tr><tr><td>向后式</td><td>无</td><td>无</td><td>可实现</td><td>无</td><td>有</td><td>有</td></tr></table>",
+    "context10": "从表2可以看出,基于Web的本体描述语言多数不具备“出错处理’“过程的执行”和“限制性检验”，但都具备“单调性”“简单继承”和“多重继承”。$\\mathrm { D A M L + O I L }$ 语言具有大部分特征，其推理能力相对较好,而目前最常用的OWL语言,其推理能力表现一般。从推理机制比较可以看出，目前还没有最佳的本体描述语言，所以在构建本体时要根据应用领域选择最合适的语言。总的来说，上述几种语言各具特点，都能很好的描述本体，但这些在知识推理和表达方面都有所欠缺，没有一种语言能够同时兼备推理性和表达性。因此,在应对不同领域对知识表达和推理的不同需求时，应注意选择合适的本体描述语言。目前，由于OWL是W3C的推荐标准,符合RDF/XML标准语法格式,并且能够与多种本体描述语言进行兼容和交互，所以应用范围很广，深受用户的青睐。2012年W3C又推出的OWL2[是对OWL进一步完善,在OWL的语法方面进行了改进，并且提供更强大的表达能力和逻辑推理能力，在本体构建方面和语义网中将会有更广阔的应用前景。"
+  },
+  "3本体构建方法": {
+    "context1": "本体构建方法可分为抽象方法和具体方法。抽象方法用来说明本体构建需要哪些步骤，具有宏观指导作用。而具体方法是用于说明本体构建过程中需要哪些具体方法。本文只讨论抽象方法。",
+    "context2": "目前具有代表性的本体构建方法有骨架法、IDEF5 法、七步法、五步循环法、METH-ONTOLOGY 法、TOVE 法、KACTUS法、SENSUS 法和循环获取法。",
+    "context3": "骨架法、TOVE法和 IDEF5 法多用于企业领域本体的构建,它们的主要区别在于：骨架法是基于流程导向的构建方法,它提供了构建方法学框架;TOVE法本质上是构建本体所描述的知识逻辑模型;而IDEF5法可通过提供图表语言和细化说明来构建企业领域的本体。",
+    "context4": "表3构建方法比较",
+    "context5": "<table><tr><td>方法</td><td>构建方法</td><td>详细程度</td><td>是否支持演进</td><td>生命周期</td><td>成熟度</td><td>应用领域</td></tr><tr><td>骨架法</td><td>人工</td><td>简单</td><td>否</td><td>无</td><td>低</td><td>企业</td></tr><tr><td>TOVE法</td><td>人工</td><td>简单</td><td>否</td><td>非真正生命周期</td><td>低</td><td>企业</td></tr><tr><td>IDEF5法</td><td>人工</td><td>详细</td><td>否</td><td>非真正生命周期</td><td>中</td><td>企业</td></tr><tr><td>METHONTOLOGY法</td><td>人工</td><td>详细</td><td>否</td><td>有</td><td>最高</td><td>化学</td></tr><tr><td>KACTUS法</td><td>不确定</td><td>简单</td><td>否</td><td>无</td><td>低</td><td>网络</td></tr><tr><td>SENSUS 法</td><td>不确定</td><td>一般</td><td>否</td><td>无</td><td>低</td><td>军事</td></tr><tr><td>七步法</td><td>半自动</td><td>详细</td><td>否</td><td>非真正生命周期</td><td>高</td><td>医学</td></tr><tr><td>五步循环法</td><td>半自动</td><td>详细</td><td>是</td><td>有</td><td>中</td><td>语义网</td></tr><tr><td>循环获取法</td><td>半自动</td><td>详细</td><td>是</td><td>有</td><td>中</td><td>多领域</td></tr></table>",
+    "context6": "METHONTOLOCY 法、KACTUS 法、SENSUS 法和七步法，主要用于构建领域知识本体，它们的不同之  \n处在于:METHONTOLOCY 法是以化学领域的本体构建方法为基础,经过改进发展而来的，构建方法更为通",
+    "context7": "用;KACTUS法主要是对已有本体的提炼、扩展,难以用于构建新的本体;SENSUS法遵循自上而下的层级结构,可操作性较强;七步法是基于本体构建工具Protégé的本体构建方法,较为实用，应用广泛。",
+    "context8": "五步循环法和循环获取法比较相似，都强调本体迭代循环，支持本体演进，但五步法是用于语义网环境下本体学习的本体构建方法,而循环获取法是基于文本的领域本体构建方法,缺乏具体的技术。",
+    "context9": "从构建方法、应用领域等多方面对本体构建方法进行比较（见表3），并总结各方法的优缺点（见表4）。",
+    "context10": "从表3中的比较可以看出,这些方法都有各自的适用领域,方法通用性比较差。除五步循环法和循环获取法，其它方法都不支持演进，方法的可扩展性不强。而七步法和METHONTOLOGY法成熟度较高，方法较为具体详细,被各领域学者专家广泛引用。",
+    "context11": "表4构建方法优缺点",
+    "context12": "<table><tr><td>方法</td><td>优点</td><td>缺点</td></tr><tr><td>骨架法</td><td>提供本体构建的方法学框架;有文档化的步骤及具体内容;有本体 评估的步骤</td><td>只提供了开发本体的指导方针，缺乏具体的 方法和技术</td></tr><tr><td>TOVE法</td><td>提出本体获取的新方法;强调对本体的评价;用于构造虚拟企业本 体工程</td><td>没有文档化过程和具体的步骤说明</td></tr><tr><td>IDEF5法</td><td>提供本体构建的方法框架和文档化的步骤及具体内容，有助于本体 重用；</td><td>缺乏具体的技术和方法;没有循环开发本体 的意图</td></tr><tr><td>METHONTOLOGY 法</td><td>适合开发大型本体;重视本体重用;相关技术工具、知识来源和知识 获取方法描述详细</td><td>缺乏具体的本体评估方法;没有体现对本体 的迭代演进</td></tr><tr><td>KACTUS法</td><td>支持知识重用的本体;可自底向上构建本体;可检索已有的本体，进 行精简和扩展</td><td>没有本体评估和文档化过程</td></tr><tr><td>SENSUS 法</td><td>可用自然语言处理本体;修改利用已有的本体;主要用于军事领域 的本体中</td><td>没有本体评估和文档化过程</td></tr><tr><td>七步法</td><td>专用于构建领域本体，方法实用，成熟度高</td><td>缺少检查和评估以及用户的反馈环节</td></tr><tr><td>五步循环法</td><td>重视本体循环迭代；适合语义网本体构建</td><td>初始化步骤重视不够;可操作性不强;不适 合大规模构建本体</td></tr><tr><td>循环获取法</td><td>提出本体获取新方法;采用环状结构的开发思路;明确本体循环迭 代重要性</td><td>缺乏具体的方法和技术</td></tr></table>",
+    "context13": "通过对上述方法的分析比较，我们发现，每种方法都有各自的适用领域，由于不同的领域知识概念具有不同特点，使得构建方法的适用性和通用性大大降低。并且多数方法不支持本体的循环迭代,忽视了本体演进的需要。所以,在使用构建方法时，多数学者会将方法进行适应性的改进,或者将其中两种或多种方法进行融合，然后按照改进后的方法进行本体构建。因此，在构建本体时应尽量选择合适的构建方法，并结合领域知识的特点进行改进。"
+  },
+  "4本体构建工具": {
+    "context1": "本体开发是一项庞大的工程,需要借助开发工具来完成本体的构建任务。本体构建工具主要用于本体的开发，多数工具都具有编辑、图示、自动将系统内容转换为数据库、自动转换置标语言等功能。目前常用的本体构建工具主要分为两类:可视化手工构建工具和半自动化构建工具。",
+    "context2": "4.1可视化手工构建工具可视化手工构建工具主要有Protégé、Apollo、WebOnto、WebODE 和OntoEdit等,这类工具通常为用户提供可视化界面,用户可以通过简单的操作完成本体的构建。",
+    "context3": "a.Protégé。Protégé具有图形化的用户界面,操作简单便捷,提供详细的帮助文档,支持模块化设计。并且支持 $\\mathrm { D A M L + O I L }$ 和OWL语言,可利用RDF、RDFS和OWL等本体描述语言在系统外对本体进行编辑和修改。Protégé由于其开放源码、支持中文编辑而深受国内学者青睐。但Protégé最大的缺陷在于不能批量导入数据,构建大规模本体费时费力，手工输入错误率比较高，效率较低。",
+    "context4": "b.Apollo。Apollo 采用Java 语言,支持知识模型中的所有原语：本体、实例、类、功能和关系,可在编辑过程中完成一致性检测。但其在本体语言的支持能力、逻辑推理能力和可扩展性等方面还存在问题。",
+    "context5": "c.WebOnto。WebOnto是基于OCML推理引擎的知识模型,提供多重继承、锁机制,支持用户浏览、构建和编辑本体，提供定制数据表示类型的选项和客户端API,便于检索信息。但是WebOnto不提供源代码,扩展性较差。",
+    "context6": "d.WebODE。WebODE 是本体设计环境(ODE)的升级版,可以通过Java、RMI、COBRA、XML等技术实现,支持METHONTOLOGY本体构建方法,可通过定义实例集来提高概念模型的重用性，具有很大的灵"
+  },
+  "活性和扩展性。": {
+    "context1": "e.OntoEdit。OntoEdit是一个支持用图形化的方法实现本体开发和管理的工程环境，提供对本体的并发操作,支持RDFS、DAML $+ 0 \\mathrm { I L }$ 语言，并且支持多种插件，具有良好的扩展功能。然而这几种构建工具都没有自动或者半自动获取知识和维护能力，所构建的本体兼容性差，在异构系统中难以复用。",
+    "context2": "4.2半自动化构建工具目前,尚未出现本体自动化构建工具,基于Java语言的Jenal也仅属于半自动本体构建工具。Jena提供实现本体形式化的方法，可通过程序调用方法来实现本体的自动构建。Jena可运用多种协议发布数据，能够高效存储大规模RDF三元组到硬盘,提供处理OWL和RDFS本体的API,同时客户可以利用JavaAPI访问Jena,并将数据共享至互联网,从而可以实现本体共享。Jena大大提高了构建本体的效率，但还没有实现完全意义上的自动化本体构建，仍需进一步研究。",
+    "context3": "总之，目前常用的本体构建工具仍存在诸多问题，还未实现高效快捷的本体自动化构建。虽然多数工具提供了有好的图形界面和错误检查机制，避免了多数人为错误的发生,但这些工具仍需要手工输入和编辑大量的数据信息,费时费力,并且出错率较高，难以实现大规模的本体构建。因此,如何利用知识的自动获取来提高本体的构建效率，从而实现本体的自动化构建是一个很有价值的研究方向。"
+  },
+  "5基于叙词表构建本体": {
+    "context1": "本体作为网络环境下重要知识组织系统（KOS）,在精准高效的知识组织和知识检索方面显示出极大的优越性。而传统知识组织系统如叙词表在网络环境中的局限性却越来越明显，但由于其概念精练规范、层次结构清晰、语义关系明确等特点，符合本体结构特征,使得其可以转换为本体。目前,国内外在利用叙词表进行本体构建方面已有大量的研究和实践,基于叙词表的本体构建也是本体研究中的一个热点问题。",
+    "context2": "叙词表转换方式主要有手工转换和自动或半自动转换。手工转换主要通过手工操作构建本体模型，将叙词表中的专业词汇转换为本体概念，再将词汇关系及注释转换为本体语义关系，最后添加领域知识等完善本体。这类手工方式主要出现在叙词表转换本体研究的初期,如金晶等以手工方式对电子政务子领域“软件\"叙词表进行本体构建;孙倩等利用农业科学叙词表实现了果树学领域本体的构建;刘春艳等[基于SKOS 进行了UKAT叙词表到本体的转换。手工转换方式费时费力、效率低、过程繁琐,所以在叙词表转换研究中应用较少，与之相关的研究也没有太多进展。",
+    "context3": "自动或半自动转换主要通过制定完备的转换规则，然后设计转换算法来实现叙词表向本体的半自动或自动转换。这类方法是叙词表转换本体的热点研究方向,现在多数基于叙词表构建本体的研究采用这种转换方式,如Hahn等将一体化医学语言系统(UMLS)转换为本体;张继东等构建的历史事件本体;衣治安等构建的石油领域本体;张磊构建的农业领域本体。",
+    "context4": "叙词表转换本体的具体方法有很多，其中比较具有代表性的有以下四种。",
+    "context5": "a.联合国粮农组织在农业本体研究项目中，提出一个由叙词表向本体转化的方法模型:首先需要细化转换规则,丰富语义关系;其次增加推理规则;最后采用程序辅助填词,进行概念抽取，按照转换规则构建本体。该方法实用性较强，可实现叙词表半自动化转换本体,衣治安等所构建的石油领域本体就是采用此种方法。",
+    "context6": "b.米佳提出了一种基于概念的转换方法。首先需要对叙词表中术语的明确性进行分析，确定之后在进行语法转换，主要是原始语法格式转化为RDF（S），最后进行语义转换。该方式是叙词表转化本体最基本的方法，可将任意形式的叙词表转换为本体，不需要提前构建本体模型，具有较强的实用性和通用性。在运用到不同领域进行叙词表转换时，可进行适应性的改进。",
+    "context7": "c.陈立华通过研究总结出了基于OWL的网络叙词表转换方法步骤。首先在准备阶段需要对叙词表进行分析;其次确定类和属性,建立类间关系层次结构;接着建立语法和语义关系参照表;最后使用OWL进行标准化表示和描述。使用此方法构建的本体具有更好的推理能力,更易更新和维护。该方法是在米佳所提方法基础上的进一步优化改进,适用于网络环境下的叙词表转换，具有较强的实用性。",
+    "context8": "d.纪姗姗等针对不同类型的叙词表,总结出了一个叙词表转换为本体的通用方法。该方法主要包括四个过程:叙词表分析、叙词表转换、语义丰富及本体校验。在叙词表转换过程中有TBox、ABox、扩展（Population)三种转换方式可供选择，以适应不同类型的叙词表。该方法的特色之处在于提供了本体校验，可通过编写检测算法对转换的本体进行一致性和准确性检验，以降低人为出错率。",
+    "context9": "目前,我国叙词表有130多种，其中大多数尚未转化为本体，在叙词表转换研究方面仍有大量工作要做。以叙词表为基础构建领域本体，不仅能充分利用资源，使叙词表在语义网络中得到新发展，同时可以降低本体构建成本,节省大量的时间精力。因此,叙词表的本体化构建将是本体研究的重要方向。在叙词表转换本体研究中,应深入研究语义丰富技术及语义关系的细分规则,以促进叙词表转化技术的发展，丰富本体构建理论。"
+  },
+  "6本体评价方法": {
+    "context1": "随着本体研究的深入，各领域本体数量不断增多，这些本体在可靠性、准确性、科学性等方面存在较大差异。因此,本体评价作为改善本体质量的手段日益受各领域专家学者的重视。通过研究相关文献[-4发现，主要有以下几种本体评价方法：",
+    "context2": "6.1用户评价法用户评价法让用户通过投票来评价本体的优劣,但这种方法很大程度上取决于用户的主观意识,不能全面客观的对本体进行评价,因此没有得到推广使用。",
+    "context3": "6.2应用评价法应用评价法是将本体使用到某个特定的应用或任务中，通过应用结果的优劣来评价本体,这种方法能够较为直观的评价所构建本体的质量。然而这种评价方法具有一定的局限性，在某些情况下,本体应用结果的优劣难以客观评判,应用此方法对本体的评价也不尽准确。",
+    "context4": "6.3语料库评价法语料库评价法是通过测试本体与相关领域语料库的匹配程度来对本体进行评价。但这种方法是从领域覆盖度的角度评价本体，不能对本体进行综合全面的评价。",
+    "context5": "6.4专家评价法专家评价法利用相关领域专家的专业知识对本体的质量进行评价。该方法主要用于本体学习评价,难以重复使用,无法进行大规模的本体评价,并且评价结果受限于专家的知识水平，评价结果不具有可比性。",
+    "context6": "6.5复合指标评价法复合指标评价法是依据一定的原则标准来建立本体评价指标体系，然后对各个指标进行评价打分，并结合每个指标的权重计算最终的评价结果。该方法开放性、全面性较强，可通过指标体系进行全面评价，是最为常用的本体评价方法。但该方法的评价结果过于依赖指标体系，各个指标的科学性和指标体系的完善程度将会直接影响到评价的结果。因此,在使用该方法时筛选的指标要具有代表性，指标体系要合理完善，指标权重要适当。",
+    "context7": "6.6黄金标准评价法黄金标准评价法将所构建的本体与领域内公认较为成熟的“黄金标准”本体进行比较,利用比较结果对所构建的本体进行评价。这种方法缺陷在于难以评估作为“黄金标准”本体的质量，并且在对比评价过程中需要高水准的领域专家参",
+    "context8": "与。",
+    "context9": "总的来说,这6种本体评价方法都有其可行性和适用性，但方法本身的局限性较大，跨领域的通用性较差,难以广泛使用。目前，基于指标体系的评价方法是最为常用的。所以,在本体评价中，可以通过建立科学完善的指标体系对本体质量进行量化评价，再利用专家评价法等方法进行辅助评价，这使得对本体的质量评估会更加客观、全面。"
+  },
+  "7本体的应用": {
+    "context1": "随着本体理论和技术研究的深入，本体被应用于很多领域,在这些领域发挥着重要作用。由于本体的应用十分广泛,受篇幅限制,实难一一列举,本文从以下几个方面进行阐述。",
+    "context2": "7.1在信息检索中的应用由于本体具有较好的概念层次结构和逻辑推理能力，所以在信息检索领域应用比较广泛。本体在信息检索中的应用主要集中在两个环节：一是利用本体进行文档预处理；二是提高信息检索的准确率。IBM研究院、美国的马里兰大学等在基于本体的智能信息检索系统理论、方法做了深入的研究，提出高效的信息检索方法。Mohameth-francois Sy等开发了基于本体的生命科学信息检索系统，为用户提供了可视化的查询方式。MoonseoPark [等人将本体应用于建筑知识检索,开发了基于本体建筑知识系统原型。马斌[4等人利用本体技术和信息检索技术，实现了面向领域的智能检索系统，大大提高了信息检索的精准率。",
+    "context3": "7.2在语义Web中的应用本体作为具有共同标准的概念体系，支持逻辑推理，促进计算机相互理解和互操作,可有效提升语义Web的性能[,提供更加智能化的语义Web 服务。本体在语义Web中的应用研究主要集中在提高对模糊信息的语言描述能力，促进半自动化和自动化本体生成和本体演进。JiangXing通过构建用户本体来学习和表达用户的个性化需求。PulidoJ.采用 SOM方法和本体技术做出知识地图，服务于语义Web的动态智能操作。随着本体技术和语义Web 研究的深入,本体在语义Web 中的应用也会越来越广泛，语义Web服务也会更加智能化。",
+    "context4": "7.3在异构数据集成与融合中的应用分布式的网络环境下，海量数据信息存储于不同的系统、数据库中,造成了数据的冗余和异构问题。而本体作为共享概念模型的明确的形式化规范说明，可以有效解决异构数据的集成和融合问题。Lihua Zhao 和RyutaroIchise构建了一个本体集成框架的半自动系统,该系统提供基于图的本体集成、基于机器学习的本体类和属性查询方法和本体集成框架,有效减少了本体的异构性。CinziaDaraio等人提出了基于本体的数据管理方法，通过构建本体概念模型来解决异构数据的集成问题。",
+    "context5": "7.4在其他学科领域的应用除了上述领域,本体也广泛应用于医药、教育、电子商务、农业、军事、旅游、地理信息、法律、生物等领域。在这些专业领域中，多数是通过构建领域本体，实现领域知识的融合和知识信息共享。尤其是在医学领域，由于其信息复杂，病例、疗法繁多，对知识共享要求较高，因此在医学领域的本体应用研究较多，构建了大量的本体模型,为其它学科的本体应用研究起到了示范作用。"
+  },
+  "8问题与展望": {
+    "context1": "总体来讲，目前本体研究和应用还处于低水平发展阶段。虽然关于本体的研究日益增多，但还存在诸多问题,仍需要集各专家学者之智慧，进一步深入研究。",
+    "context2": "a.本体定义。关于本体的定义，学术界众说纷纭，尚未形成统一标准的定义。其中Gruber给出的本体定义最为经典,Studer等人的本体定义被引用最多，但该定义仍不能概括本体的全貌。因此,关于本体定义的研究应进一步深入,对本体进行全面概括,统一学术界关于本体的定义,以丰富本体理论，为后续研究提供参考。",
+    "context3": "b.本体构建。与本体构建的相关研究很多，但还没有形成成熟的构建方法体系。构建本体需要手工操作,本体构建方法和构建工具难以匹配,本体构建不能大规模进行，难以满足语义网环境下的需求。但随着机器自动化构建技术的逐渐成熟，自动化或半自动化的规模构建本体方法必将取代手工操作。因此，适用于语义网环境的本体自动化构建方法和工具的研究应该是后续研究和应用的主要方向之一。",
+    "context4": "现在常用的本体构建工具中,只有Protege支持中文输入，可以构建中文本体,但在中文推理机制方面却表现不佳。而其他构建工具基本上都不支持中文,这给中文本体构建带来了很大的困难,严重阻碍了国内本体研究的发展。因此,研发支持中文且具有强大中文推理能力的构建工具将是今后本体研究中的一个重要任务。",
+    "context5": "c.本体评价。本体评价对本体质量评估非常重要,但目前针对本体评价问题缺乏全面、系统、深入的研究,没有成熟统一的评价标准和评价工具,缺乏本体评价方法理论体系，本体评价的实证研究也相对较少。因此，对于本体评价方法和评价标准仍需进一步研究。并且随着语义网的发展,基于描述逻辑构建的本体评",
+    "context6": "价方法也值得深入研究。",
+    "context7": "d.本体集成。目前,本体集成方法和本体集成工具都不是很成熟。本体的集成多是半自动化的，映射和合并的准确率不能保证,难以实现大规模的本体集成。此外,目前的本体映射方法和合并方法多是针对一对一的情况,无法进行一对多或多对多的本体映射，这使得大量本体的集成和融合变得困难。因此，在本体集成研究中，要找出高效的本体集成方法，开发相应的本体集成工具,从而提高本体的集成效率，以支持大规模的本体开发。",
+    "context8": "e.本体自动学习。本体学习是基于统计和机器学习等技术自动地或半自动从已有资源中获取目标本体的技术。随着本体技术的不断发展,领域本体构建的需求将会越来越大，本体自动学习技术会大大提高知识获取的质量和效率。然而，目前国内外在此方面的研究仍处于起步阶段,本体学习仍是处于半自动状态。因此,本体自动学习将是下一步本体研究中的一个重要方向。",
+    "context9": "随着智能互联网、人工智能等领域的发展,本体研究也会持续升温。本体作为重要的知识组织系统，在智能化知识服务方面将会发挥重要的作用,所以，基于本体的个性化知识检索和智能Web 服务将是今后重要的研究方向之一。此外,现在本体库的数量和规模都在持续增大，本体的演化和维护显得尤为重要，因此,在本体自动进化和自学习方面也需要更深层次的研究。"
+  },
+  "参考文献": {
+    "context1": "[]Neches R,Fikes R E,Gruber T,et al.Enabling Technology forKnowledge Sharing [ .AI Magazine,1991,12(3):36-56.  \n[] Gruber T.A Translation Approach to Portable Ontology Specifi-cations $\\mathbb { I }$ .Knowledge Acquisition,1993(5):199-220.  \nB] Borst W N.Construction of Engineering Ontologies for Knowl-edge Sharing and Reuse D] .Ph.D thesis,1997.StuderB,Benjamins VR,Fensel D.Knowledge Engineering:Principlesand Methods [l.Data and Knowledge Engineering,1998,25(1/2):161-197.  \n] 张晓林,李宇.描述知识组织体系的元数据[．图书情报工作,2002(2):64-69.  \n] 李景.本体理论在文献检索系统中的应用研究[M].北京:北京图书馆出版社,2005:5-6.  \n] 汤艳莉,赖茂生.Ontology在自然语言检索中的应用研究[.现代图书情报技术,2005(2)：33-36,52.  \n8 张秀兰，蒋玲.本体概念研究综述[.情报学报，2007(4)：527-531.  \nBeniaminov E M,Lapshin VA.Levels of presenting ontologies,languages,mathematical models,and ontology webserver projectin $\\mathrm { W e b } \\ 2 . \\ 0$ [.Automatic Documentation and MathematicalLinguistics,2012,46(2):59-67.  \n[0]李景.主要本体表示语言的比较研究[.现代图书情报技术,2005(1) :1-4.  \n[1]Birte G,Ian H,Boris M,et al.HermiT:An OWL2 Reasoner .2014,53(3):245-269.  \n[2]The Enterprise Ontology [EB/OL]．[2016-O3-20].http://www.aiai.ed.ac.uk/project/enterprise/.  \n[3]余凡.领域本体构建方法及实证研究[M].武汉:武汉大学出版社,2015:39-40.  \n[14]Yan Ye,Dong Yang,Zhibin Jiang,et al.Ontology-based Seman-tic Models for Supply Chain Management [ .The InternationalJournal of Advanced Manufacturing Technology,2008,37(11):1250-1260.  \n[15]A Guide to Creating Your First Ontology EB/OL]．[016-01-20.http: //www.Protege.Stanford.edu/publications/ontology_development/ontology101.pdf.  \n[16]Maedche A,Staab S .Ontology learning for the semantic WebM] .Boston: Kluwer Academic Publishers,2001: 37-44.  \n[7]李恒杰,李军权,李明.领域本体建模方法研究[.计算机工程与设计,2008,29(2):381-383.  \n[8]胡兆芹.本体与知识组织 [M].北京:中国文史出版社,2013:65-66.  \n[9]Ontology Creation and Use: SENSUS [EB/OL][2016-04-01] .http://www.isi.edu/natural-language/re- sources/sen-sus. html.  \n[oExtracting aDomain-Specific Ontologyfrom a Corporate IntranetEB/OL]．[016-04-03].htp://acl-web.org/anthology/signll. html.  \n[1]李景,孟连生.构建知识本体方法体系的比较研究[].现代图书情报技术,2004(7):17-22.  \n[2]尚新丽.国外本体构建方法比较分析.图书情报工作,2012(4) :116-119.  \n[3]徐国虎,许芳.本体构建工具的分析与比较[.图书情报工作,2006(1) :44-48.  \nb4Daniel L R,Natalya FN,Mark A M.Protege:A Toolfor Manag-ing and Using Terminology in Radiology Applications [.Jour-nal of Digital Imaging,2007,20( S1) :34-46.  \n[5] Jena semantic web framework [EB/OL]．[016-04-17] .ht-tp://jena.sourceforge.net/documentation.html.  \n[6] 王知津,赵梦菊.论知识组织系统中的语义关系(上）[.图书馆工作与研究,2014(8):65-69.  \n[7]高凡,李景.Ontology及其与分类法、主题法的关系.图书馆理论与实践,2005(2):44-46.  \n[8]段瑞龙,宋文.国内外叙词表转换本体方法研究综述[].情报杂志,2012(7):66-71.  \n[9]金晶,宋敏霞,徐晨琛,等.基于主题词表的政务领域本体构建[.图书情报工作,2010(8):18-22.  \nB0]孙倩,万建成.基于叙词表的领域本体构建方法研究[.计算机工程与设计,2007(20):5054-5056.  \nβ1] 刘春艳,陈淑萍,伍玉成.基于 SKOS 的叙词表到本体的转换研究[.现代图书情报技术,2007(5)：32-35.  \nB2]Hahn U,Schulz S. Towards a Broad-coverage Biomedical On-tology Based on Description Logics [ .Pac Symp Biocomput.2003( 8) :577-588.  \nβ3]张继东,余以胜.利用叙词表构建本体的方法研究[.图书情",
+    "context2": "报知识,2006(4):82-85.   \nB4]衣治安,王月.基于叙词表的油田领域本体构建方法[．计 算机系统应用,2015(9):91-96.   \nB5]张磊.基于叙词表和文献数据库的农业领域本体构建方法 研究[D].北京:中国农业科学院,2011.   \nB6米佳.从叙词表到本体的转换研究[.现代情报,2009(1)： 38-41,48.   \nβ7]陈立华.基于OWL语言设计的网络叙词表本体转化的原理及 结构设计分析 [.情报理论与实践,2010(10)：113-116.   \nB8]纪姗姗,刘峥,宋文.叙词表向本体重构的关键技术研究[]. 图书与情报,2013(1):8-12.   \nB9]Sari S,Jaana K. User evaluation of ontologyas query construction tool [ .Information Retrieval,2006,9(4) :455-475.   \n[0]马晓伟.基于WEB 的本体评价系统的研究与实现[D].青岛: 中国海洋大学,2009.   \n[1]宋丹辉.本体评价若干问题研究[].图书馆学研究,2011 (17) :6-9,5.   \n[2]崔运鹏.基于本体论的农业知识管理关键技术研究[M].北 京：中国农业科学技术出版社,2009:218-219.   \n[43]刘宇松.本体构建方法和开发工具研究[].现代情报,2009 (9):17-24.   \n[44]Luo G.Design and Evaluation of the iMed Intelligent Medical Search Engine [C] .In Proceedings of the $\\operatorname { I n t } ^ { \\prime } 1$ Conf.on Data Engineering（ICDE2009）.Shanghai,2009.   \n[45]Han LS,Finin T,Joshi A.Schema Free Structured Querying of DBpedia Data [].In Proceedings of the 21st ACM Int'1 Conf. on Information and Knowledge Management（CIKM 2012）. Maui,2012:2090-2093.   \n[46]Mohameth-Francois Sy,Sylvie R,Jacky M,et al.User Centered and Ontology Based Information Retrieval System for Life Sciences [ .BMC Bioinformatics 2012,13( S1) : S4.   \n[47] Moonseo P,Kyung-won L. Hyunsoo L.Ontology-based Construction Knowledge Retrieval System[].KSCE Journal of Civil Engineering,2013,17(7) :1654-1663.   \n[8]马斌,王金虹,闫娟娟,等.基于本体的智能语义检索模型设 计与研究[.情报科学,2015(2):46-49,71.   \n[9]徐静,孙坦,黄飞燕.近两年国外本体应用研究进展. 图书馆建设,2008(8):84-90.   \nboJiang X,TanP.Learming and Inferencing in User Ontologyfor Personalized Semantic Web Services.Automatic Fuzzy Ontology Generation for Semantic Web [C] .In Proceedings of the 15th international conference on World Wide Web,2006:1067-1068.   \nb1]PulidoJ,HerraR,Arechiga M,etal.IdentifyingOntology Components from Digital Archives for the Semantic Web [] .In Proceedings of the 2nd IASTED International Conference on Advances in Computer Science and Technology,2006:7-12.   \n52] Zhao L H,RyutaroIL.Ontology Integration for Linked Data. Journal on Data Semantics ,2014,3(4) :237-254.   \nb3]Cinzia D,Maurizio L,Claudio L,et al.Data Integration for Re search and Innovation Policy:an Ontology-Based Data Management approach [ .Scientometrics,2016,106(2) :857-871.   \nb4Randa H,Hatem B,Ahmed HK.Interoperabiltfor Medical Information Systems: an Over View [] .Health and Technology, 2014,4(3) :261-272. (责编:贺小利;校对:白燕琼)"
+  }
+}

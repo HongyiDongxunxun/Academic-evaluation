@@ -1,0 +1,74 @@
+{
+  "original_filename": "full_2846.md",
+  "国内外MyLibrary系统现状研究": {
+    "context1": "陈莉 (南方医科大学图书馆广州510515)",
+    "context2": "摘要MyLibrary是图书馆信息资源、服务个性化集成系统。文章论述了MyLibrary的系统概况，分析总结了MyLibrary 的概念并在构建了一个较为完整的MyLibrary系统功能结构的基础上对国内外几个较有代表性的MyLibrary 系统进行了较为深入的比较研究。",
+    "context3": "关键词数字图书馆个性化服务MyLibrary"
+  },
+  "1MyLibrary 概况": {
+    "context1": "随着现代信息技术的快速发展，作为社会信息中心、文化中心和教育中心的图书馆正经历着各种类型信息资源数量急骤增长的变化。一方面，信息资源的丰富性为图书馆用户解决自身信息需求提供了便利的新途径；另一方面在这种信息密集的环境中，图书馆用户会被过量的信息所淹没，一味地吸收，而无时间消化，造成了海量信息与人们有限的信息处理能力之间的矛盾。这种矛盾又导致了人们不能有效地组织、检索、评估与利用所需信息，这种状况被称为信息超载（information overload）。",
+    "context2": "为了帮助用户应对“信息超载”的问题，在LITA1999年冬季年会上，与会的几位趋势预测专家认为图书馆迫切需要采用新技术来解决这个网络环境下出现的新问题。最后他们把“可定制、个性化”技术的使用列为图书馆未来发展趋势的首位。专家们一致认为“网络环境下图书馆用户同样也是因特网用户，是一个需求不断变化的群体，他们需要提供‘可定制的、互动性、用户支持'的服务，这种以用户为中心而不再是以图书馆为中心的思想将会成为主流。华盛顿大学的 MyGateway，和北卡罗莱那州立大学的 MyLi-brary@NCState就是此类服务的典型例子。”这种以用户为中心的个性化信息服务通过了解用户的兴趣爱好和心理偏好、有的放矢地为具体用户创造符合个性需求的信息环境，以达到帮助用户发现信息、组织信息和利用信息的目的。这种服务可以比较有效地帮助图书馆用户应对“信息超载\"的问题。",
+    "context3": "得益于国外图书馆界自上世纪90 年代始在实践中对个性化信息服务的实现形式的探索，MyLibrary 作为一种比较成功的个性化信息服务实现方案得到了人们的重视。近年来在国内，MyLibrary系统也逐渐受到了人们的重视。以“211工程”95 所院校为例，据笔者的调查，除18所院校使用ILAS 系统自带的个性化信息服务系统“我的图书馆”外，中国人民大学图书馆、北京航空航天大学图书馆、华中科技大学图书馆、浙江大学图书馆、东北农业大学图书馆、复旦大学图书馆、中国矿业大学图书馆、华南师范大学图书馆以及西南交大图书馆9家图书馆使用独立的 MyLibrary系统，而同济大学图书馆和南昌大学图书馆也会在近期推出 MyLibrary系统。"
+  },
+  "2MyLibrary概念分析": {
+    "context1": "据笔者手头现有的资料，“MyLibrary”这个名词是由北卡罗来纳州立大学图书馆的摩根（K·Morgan）创造的新词。1998 年摩根(E·L．Morgan)在《使用 MyLi-brary 系统提供让用户满意的服务》一文中开始正式使用这一名词。",
+    "context2": "“MyLibrary”介绍到我国的时间大概是2OOO年。在《图书馆杂志》2000年第8期上发表的《美国“个人数字图书馆”一—主动服务主页技术在图书馆服务中的应用》一文是目前笔者可以检索到有关“MyLibrary”年代较早的中文文献。这篇文章编译自1999 年坦南特（R·Tennant）在美国《图书馆杂志》（LibraryJournal）1999 年第12期上发表的《个性化数字图书馆》。作者戴华胜在文章中把“Mylibrary”翻译为个人数字图书馆。",
+    "context3": "为了更好地了解 MyLibrary 的概念，以下笔者将列出几个国内外学者给出的 MyLibrary 的定义。",
+    "context4": "美国弗吉尼亚军事学院的参考馆员温特（K.",
+    "context5": "Winter）认为：MyLibrary 也称作可定制或者个性化，是图书馆鉴于目前网络资源与数据库不断增长而用户计算机和研究水平参差不齐的现状提出的一种创新性解决方案。",
+    "context6": "北卡罗来纳州立大学MyLibrary@NCState 的开发者之一摩根（E.L．Morgan）认为：MyLibrary 是一个图书馆提供的以用户为中心的，用户可对图书馆的信息资源进行个性化定制的个性化信息服务系统。系统的目的在于让用户根据自己的需求选择资源以减少信息超载。它提供的服务包括：远程认证、查询借阅记录、馆际互借、与参考馆员直接交流等服务。",
+    "context7": "杨琨认为所谓MyLibrary，是以用户为核心，以个性化选择为界面的图书馆信息资源搜集方式，是根据用户个性特征进行的图书馆信息服务。",
+    "context8": "薛崧认为MyLibrary 是一个以用户为中心、用户可操作的、个性化地收集组织数字资源的一个门户，即用户从图书馆网站所提供的全部数字资源里，选择自己需要的信息组织在MyLibrary中，之后访问 MyLi-brary，读者将获取与此相关的最新内容。此系统的目的是通过允许用户选择定制自己所需的信息资源并自己进行资源的组织以减少信息超载。",
+    "context9": "笔者认为MyLibrary 即图书馆信息资源、服务个性化集成系统。MyLibrary 的根本目的在于帮助用户有效组织个性化信息，以减少“信息超载”问题。它的设计原理是允许用户根据个人需要定制图书馆信息资源与服务，同时以用户注册信息、用户访问行为跟踪等方式构建用户模型，并根据该模型利用推送技术将图书馆内的资源推荐给用户。最终建立一个属于用户的图书馆个人信息环境。"
+  },
+  "3MyLibrary 系统功能结构构建": {
+    "context1": "3.1MyLibrary 系统功能结构构建的原则",
+    "context2": "图书馆利用MyLibrary 提供个性化信息服务的目的在于：通过构建主要基于图书馆资源的用户个人信息环境，以减少信息超载。恰（C·Chia）和加西亚（J.Garcia）认为一个理想的图书馆个人信息环境应当包含以下几个特征，即它是用户的易用空间、学习空间、信息空间、价值空间、移动空间、私有空间和交流空间。在本文中，笔者将它们作为设计MyLibrary 系统功能结构的主要原则。在下文中笔者将具体说明这几个原则。",
+    "context3": "(1)易用空间：指图书馆个性化环境表现出“用户友好性”。杨琨在对MyLibrary用户需求作分析时也指出：MyLibrary是对用户易用心理的满足。用户在获取信息时，总是有一种以最小的努力去获取最大收益的心理趋向，总希望能简化程序而更容易地得到自己需要的资源。",
+    "context4": "（2）学习空间：个性化信息环境旨在消除知识转移中的障碍，提升图书馆应用知识转移战略的能力。知识转移是个人或群体所拥有的有用的知识被共享和提升的过程。换句话说，就是个人或群体在实践中积累的知识经验、技能能够为其他个人或群体所共享。并且，转移知识的双方都因开发和利用他人的知识而使自己的知识有所增加。图书馆个性化信息环境向用户提供用户与用户之间，用户与图书馆员之间的交流平台，在这种交流过程中不仅可以实现知识的转移,还能诱发新知识。",
+    "context5": "(3)信息空间：在用户个人信息空间中，有图书馆预先设定的信息内容及学科导航。用户的信息内容不再局限于图书馆馆藏，用户的信息需求将得到极大的满足。",
+    "context6": "(4)价值空间：每个用户的信息价值观不同。有的用户认为图书比较有价值，有的用户则认为期刊比较有价值。在个人价值空间用户可以设定参数，建立能够体现用户价值的信息组织结构。",
+    "context7": "（5）移动空间：随着因特网技术和信息技术的发展，用户希望能随时、随地处理自己的信息资源。",
+    "context8": "（6）私有空间：用户希望在享受个性化信息服务的同时，能够很好地保护自己的隐私。",
+    "context9": "（7）交流空间：个性化信息环境为用户提供了很好的交流环境，用户可以与有相关爱好的其他用户交流，也可以与图书馆员交流。"
+  },
+  "3.2MyLibrary 系统功能结构图": {
+    "context1": "根据以上原则，笔者构建了一个 MyLibrary 系统功能结构，如图1所示：",
+    "context2": "![](images/d321b60a9af32a605f0f04fa7458c06f5cb37c33dd47c7af6f603ef5ac40a784.jpg)  \n图1Mylibrary系统功能结构"
+  },
+  "4国内外 MyLibrary比较研究": "",
+  "4.1案例选取的缘由": {
+    "context1": "国内外现有的 MyLibrary 有很多。本文选取了少数几个有代表性的 MyLibrary系统进行了比较系统、深入的研究。案例的选择原则是：首先，案例要具备相当的代表性，其特征应当明显并具备典型意义和借鉴价值;其次，相关文献和资料可获取并且相对完整。依据这两个原则，通过一番调查之后笔者最后选取了以下六个MyLibrary系统作为本文研究的案例：",
+    "context2": "（1）国外MyLibrary系统研究方面，笔者决定选择美国北卡罗来纳州立大学图书馆的MyLibrary@NC-State系统、美国康奈尔大学图书馆的MyLibrary $\\textcircled { \\omega } _ { \\mathrm { C o r } ^ { - } }$ nell 和英国伦敦经济与政治学院的PIE@HeadLine 作为案例。选择前两个案例的原因：（一）MyLibrary $\\textcircled{ a}$ NCState 和 MyLibrary $\\textcircled{ a}$ Cormell两个系统大概都是从1998 年开始研制的，开始的时间比较早，发展到现在基本上已经比较成熟了。(二)这两个系统都是开放源代码软件，如果国内图书馆要构建自己的MyLibrary系统，可以在此源程序的基础上进一步开发得到。选择PIE@HeadLine 的原因是：PIE@HeadLine 由英国高等教育联合信息系统委员会（UKHigher Education JointInformation SystemsCommittee）下属的电子图书馆（ElectronicLibraries，简称eLib）第三期计划资金资助，在伦敦经济学院（London School of Economics）、伦敦商学院（London Business School）和赫特福德大学（University of Hertfordshire)三个学校中实施。这个项目的资金较为充裕，研究资料比较丰富。",
+    "context3": "（2）国内MyLibrary系统研究方面，笔者选取了深圳市图书馆开发的ILAS系统下的“我的图书馆”子系统、华中科技大学MyLibrary 系统和中国人民大学数字图书馆个性化信息服务系统作为研究案例。选择ILAS\"我的图书馆”的原因是：作为国内用户数比较多的图书馆自动化集成系统一—ILAS的子系统，“我的图书馆”个性化信息服务系统对国内图书馆界提供个性化信息服务的整体水平影响是比较大的，所以笔者认为选择它是很有意义的。选择后两个系统的原因是：（一）华中科技大学MyLibrary 系统和中国人民大学数字图书馆个性化信息服务系统应当说是国内图书馆实施 MyLibrary 服务比较成功的例子，系统功能相对也比较完善，基本上可以代表国内此类服务的发展方向。(二)这两个系统的相关研究资料比较丰富。",
+    "context4": "这六个案例分别代表了国内外图书馆应用MyLi-brary 系统的先进水平，而且六个系统都具有一定的影响，系统各有特色，因此笔者认为，它们是具备一定代表性的。"
+  },
+  "4.2国内外 MyLibrary 功能列表": {
+    "context1": "选定以上六个系统后，笔者以“客人”的身份分别",
+    "context2": "注册账号尝试使用它们。经过一段时间的观察分析，对这些系统所能提供的功能有了一定的了解。具体如表1所示：",
+    "context3": "表1",
+    "context4": "<table><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1>MyLibrary@comell</td><td rowspan=1 colspan=1>MyLibrary@NCState HeadLine</td><td rowspan=1 colspan=1>PIE@@NCState HeadLine</td><td rowspan=1 colspan=1>ILASII我的图书馆</td><td rowspan=1 colspan=1>MyLibrary@HUST</td><td rowspan=1 colspan=1>人大个性化信息服务系统</td></tr><tr><td rowspan=1 colspan=2>界面定制</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>资源定制</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>V</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=2>书签功能</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=2>用户个人设制</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=2>系统推导</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=2 colspan=1>不老</td><td rowspan=1 colspan=1>新书通告</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=1>智能推荐</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>消息模块</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>跨库检索</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>个性化检索</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>个性化浏览</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>中</td><td rowspan=1 colspan=1>用户之间</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=1>用户与馆员之间</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=2>个人借阅记录查询</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>馆际互借</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>隐私声明</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+    "context5": "（注： $^ { * } \\vee$ ”代表系统提供此项功能。）"
+  },
+  "4.3结论": {
+    "context1": "从对国内外个性化信息服务系统的比较分析来看，虽然国外的 MyLibrary系统相对国内系统在技术方面比较成熟，服务功能也比较丰富，但国内外系统都同时存在着一些问题,主要表现在：",
+    "context2": "(1)服务功能尚不完善。台湾大学图书资讯学研究所的施毓琦曾在2002年12月16日至2003年1月17日之间在台湾大学学生中以问卷调查的方式针对“大学图书馆网站个性化信息服务需求”这一课题展开调查。作者根据调查结果对“调查者最喜欢的个性化信息服务项目”进行了排名，排前10名的个性化信息服务项目如表2所示：",
+    "context3": "表2",
+    "context4": "<table><tr><td rowspan=1 colspan=1>排名</td><td rowspan=1 colspan=1>个性化服务项目</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>可查询个人的借阅历史记录</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>可在自己的人性化信息环境下做跨库检索</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>个性化信息推荐服务</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>可自行设定查询结果的呈现方式</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>查询结果会自动依使用者的喜好和需求呈现</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>个性化馆藏目录浏览</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>系统动态修正用户使用的查询词汇</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>系统会根据其他用户的借阅情况主动推荐资源</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>查询结果会显示文献的借阅情形以供参考</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>用户可以和其他用户交流</td></tr></table>",
+    "context5": "笔者将这10个服务项目合并为：查询个人的借阅记录；跨库检索；个性化检索；个性化浏览；用户交流。通过上文中对六大系统功能做的研究，笔者发现六大系统中没有一个能同时提供这五项服务。所以笔者认为国内外MyLibrary 系统的功能尚不完善。",
+    "context6": "（2）缺乏对用户需求的准确描述。个性化信息服务是以用户的个人化信息需求为条件对信息进行过滤，从而实现向用户有效的信息推送活动。以笔者的调查看来，本研究中选取的六个MyLibrary系统大多以用户提交的个人资料的方式获取个人需求信息，而用户提交的个人资料会随时间的推移而转变。用户的身份会变化，研究兴趣也会变化。系统必须提供一种智能化、主动跟踪用户信息行为的机制以获取用户较准确的信息需求。",
+    "context7": "（3）没有完全从用户信息需求心理出发。用户在信息选择与利用的活动中受到自觉或不自觉的心理活动的支配，表现出一定的行为模式。卢泰宏将它们总结为：最小努力法则、期望法则、匹配法则、适度满足法则和无意识法则等五项法则。其中比较突出的是最小努力原则，即用户总是有一种以最小的努力去获取最大收益的心理趋向。这种趋向使得用户一方面逃避那些相对复杂的信息获取途径，另一方面总是偏爱自己习以为常的获取信息的方式。这就要求个性化信息服务系统在设计时不仅要尊重用户的个人选择也要注意系统的用户友好性如何。据此，笔者建议中国人民大学数字图书馆个性化信息服务系统允许用户只需一次登录便可享受所有的个性化服务；ILASII\"我的图书馆”允许用户按时间顺序、书名顺序等方式，组织系统向用户推送的新书和感兴趣图书的书目。",
+    "context8": "（4）隐私保护问题没有得到足够重视。通过对国内外 MyLibrary系统的案例分析可以看到，六个系统有四个系统都没有明显的隐私保护声明。个性化信息服务是以用户的个性特征和信息需求为依据为用户提供\"量体裁衣”的信息服务，而一部分用户往往出于担心个人隐私被滥用等原因而不愿提供过多个人信息。如果个性化信息服务系统不能很好地处理用户隐私保护的问题，它将成为制约个性化信息服务发展的一个瓶颈。"
+  },
+  "参考文献": {
+    "context1": "1曾晓牧,孙平.信息超载与图书馆的应对方案·图书情报",
+    "context2": "工作,2004(6):106—109  \n2 LITA Discussion Group·Technology and library users $, :$ LITAexperts identify trends to watch.[1999—12—24,2006—10-03].http://www·ala·org/ala/lita/litaresources/toptechtrends/midwinter1999.htm #customization  \n3 中华人民共和国教育部.“211工程\"学校名单.[2004－08—17,2006—1O—03]. http://www.moe.edu.cn/edoas/website18/info4528. htm  \n4 Morgan EL．MyLibrary:A Copernican revolution in libraries·[2003—09—08,2006-10—03].tp://www.infomotions.com/musings/copernican-mylibrary/  \n5Morgan EL.MyLibraryin Your Library Could Make for SatisfiedPatrons:Computers In Libraries，1998(5):40—41  \n6 戴华胜·美国\"个人数字图书馆”——主动服务主页技术在图书馆服务中的应用·图书馆杂志，2000(8)：58—59  \n7 WinterK.“MyLibrary\"Can Help Your Library·AmericanLibraries,1999(8):65—67  \n8 Morgan EL.Puting the\"my”in MyLibrary·Library Journal.2003(10):33—36  \n9 杨琨,孙平．MyLibrary:个性化图书馆的实现·情报资料工作，2003(3):27—30  \n10薛崧·基于Web数据库平台的图书馆个性化服务：MyLibrary·图书情报工作，2002(O8):24—27  \n11 Chia C，Garcia J.The personalization chalenge in publiclibraries perspectives and Prospects · $[ 2 0 0 6 - 1 0 - 0 3 ]$ ·http://www·public-libraries· $\\mathrm { \\ n e t / h t m l / x m e d i a / p d f } /$ personalisationengl ·pdf,2002  \n12 杨琨，孙平.MyLibrary 用户需求分析的理论探讨·图书馆杂志， $2 0 0 4 ( 9 ) \\colon 2 4 - 2 7 \\phantom { . }$   \n13 施毓琦·大学图书馆网站个人化服务之使用者需求研究·台湾大学硕士论文，2003  \n14 卢泰宏·信息人与信息心理法则·情报学报,1989(3):210一212",
+    "context3": "[作者简介]陈莉,女，1977年生，南方医科大学图书馆助理馆员。收稿日期.2006—10—24"
+  },
+  "欢迎订阅": "",
+  "人大复印报刊资料《图书馆学、信息科学、资料工作》全文数据库": {
+    "context1": "中国人民大学书报资料中心隆重推出复印报刊资料《图书馆学、信息科学、资料工作》(G9)回溯数据库。数据库以一张光盘形式提供。1982年－2001年数据库报价为1600元。2002年以后每季度更新数据，全年更新费为130元，每盘制作费为50元。该数据库可以全文检索，检索结果可以复制、拷贝、打印或者根据用户的需求进行再编辑。",
+    "context2": "联系单位：中国人民大学书报资料中心联系电话：(010)62513184 62514323(传真）电子信箱:Dzcp05@yahoo.com·cn网址:www.zlzx:orgwww-zlzx:com.cn联系人：季桥彭淑英孙爱香",
+    "context3": "地址;北京 9666信箱电子产品部邮政编码：100086  \n户 名：中国人民大学书报资料中心开户银行：中国农业银行东四北分理处账号：190101040000016"
+  }
+}

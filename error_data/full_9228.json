@@ -1,0 +1,109 @@
+{
+  "original_filename": "full_9228.md",
+  "自然语言语义分析研究进展": {
+    "context1": "|秦春秀祝婷赵捧未张毅",
+    "context2": "摘要按照自然语言的构成层次一—词语、句子和篇章，分析各层次语义分析的内涵、现有的研究策略、理论依据及存在的主要方法，并对现存的两类主要研究策略进行对比分析。认为词语语义分析是指确定词语意义，衡量两个词之间的语义相似度或相关度；句子语义分析研究包含句义分析和句义相似度分析两方面；文本语义分析就是识别文本的意义、主题、类别等语义信息的过程。当前的自然语言语义分析主要存在两种主要的研究策略：基于知识或语义学规则的语义分析和基于统计学的语义分析。基于统计与规则相融合的语义分析方法是未来自然语言语义分析的主流方法，本体语义学是自然语言语义分析的重要基础。",
+    "context3": "[关键词语义分析语义分析理论语料库知识库份类号C931TP391DOI: 10. 13266/j. issn. 0252 - 3116. 2014. 22. 021"
+  },
+  "1引言": {
+    "context1": "语义是指信息包含的概念和意义。语义不仅表述事物本质,还表述事物之间的因果、上下位、施事等各种逻辑关系。因此，语义是对事物的描述和逻辑表示。语义分析就是对信息所包含的语义的识别，并建立一种计算模型,使其能够像人那样理解自然语言。语义分析是自然语言理解的根本问题，它在自然语言处理、信息检索、信息过滤、信息分类、语义挖掘等领域有着广泛的应用。在互联网时代,面对海量的信息资源，要想准确地进行信息抽取，检索所需信息、挖掘潜在的信息价值、提供智能的知识服务，都离不开面向机器理解的语义分析。尤其在大数据环境下，语义分析的地位越来越凸显出来。",
+    "context2": "人类自然语言通常以词为基本构成单位,进而构成句子，再由句子形成篇章。篇章的语义由篇章中包含的所有句子的语义综合而成,而句子的语义又由句中的词语语义及一定的语法所确定;作为句子和篇章的基本构成单位,词语具有特定的语义和内涵。在词语层次上,词语语义分析意味着词语的内涵分析、词语之间的语义相似度或相关度分析，这是句子分析和篇章语义分析的基础，也是信息抽取、机器翻译等应用领域的基础问题。一个句子,通常是按照特定的语义规则对若干词语的一个有序排列。为此,句子的语义分析需要综合词语语义和相关语义规则分析，它是篇章语义分析的基础,也是自动问答系统等领域的基础研究课题。篇章级别的语义分析，意味着对文本进行主题、类别等语义信息的识别，实现对大规模文本集合的有效管理与挖掘。",
+    "context3": "本文按照自然语言构成的3个层次——词语、句子和篇章(文本),对语义分析的研究现状进行总结与分析，包括每个层次语义分析的内涵、研究方法、理论基础和现有主要研究成果等，最后对现存的两类主要研究方法进行对比分析，以供自然语言处理、信息检索、知识挖掘与知识发现、信息抽取、问答系统等应用领域的研究人员参考和应用。"
+  },
+  "2词语语义分析": {
+    "context1": "词语语义分析研究是指确定词语意义,衡量词之间的语义相似度(相关度)。词语的相似性和相关性既有联系又有区别。相似性指词语间的可替代性，而相关性指词语的相关程度。例如“爱情”和“浪漫”是两个语义相关的词语,但它们的语义不可替代“橙子\"和“橘子”是语义相似的词语,它们指同类水果,同",
+    "context2": "时也有语义关联。",
+    "context3": "根据研究方法的不同，国内外已有的词语语义相关度或相似度的研究大体可分为两大类:基于词语语义知识规则(如语义词典、知识库、概念本体库等）的词语语义分析和基于统计的词语语义分析。"
+  },
+  "2.1基于知识规则的词语语义相似(相关)分析": {
+    "context1": "基于知识规则的词语语义分析是一种基于语言学的词汇语义分析的理性主义方法,它利用词语语义知识库中定义好的概念及其之间的上下位关系等逻辑关系,通过计算两个概念在概念体系中的距离来衡量词语间的语义相似或相关度。",
+    "context2": "2.1.1常用的知识规则词汇语义知识库是基于规则的词语相似（相关）度分析的基石。知识规则库的建立离不开有效的知识表示方法，知识表示方法是知识规则库的灵魂。常见的用于词语语义分析的知识表示方法有：语义场、语义网络、概念图和本体论。",
+    "context3": "语义场理论是德国学者特雷尔最先提出用来研究词汇的语义结构的理论。该理论认为‘语义场是介于单个词和整体词汇之间的一种活的现实。作为整体的一部分，它们与词一样具有被并入一个更大的系统中去的特征,而又和词汇一样,具有被分成较小单位的特性”。语义场中词语的语义层次结构可用于词语语义相似(或相关)度分析。",
+    "context4": "语义网络作为一种知识表示方法，最早是美国学者M.R.Quillian提出的心理学模型。一个语义网络是由一些有向图表示的三元组(结点i,弧,结点j)连接而成的，其中，节点表示概念，边表示概念之间的关系。语义网络可表示基本事实、动作和具有连接词的事实 。",
+    "context5": "概念图是由英国学者J.F.Sowa 提出的一种基于语言学、心理学和哲学的知识表示工具。一张概念图通常由一组分别称作概念和概念关系的节点之间以有向弧相连而构成。概念图不仅可以描述知识,而且还具有推理和联想的能力。",
+    "context6": "本体论本是哲学概念,但近几十年里，它在人工智能、信息检索等领域扮演着越来越重要的作用。斯坦福大学的T.R.Gruber认为本体论是概念化的明确的规范说明，本体论用于描述事物的本质,是概念化的详细说明。一个本体往往就是一个正式的词汇表，其核心作用就在于定义某一领域或领域内的专业词汇以及它们之间的关系。",
+    "context7": "在人工智能、自然语言理解领域,概念图、语义网络的绘制被认为是一种初级的本体构建。无论语义网络、概念图还是本体论,联系非常密切,它们的本质都在强调对现实社会存在的概念及其之间的关系进行精确描述和建模。",
+    "context8": "另外,中国科学院的黄曾阳教授于1998年提出的概念层次理论是专门适用于汉语词语、句子和篇章级的语义分析理论。概念层次理论认为大脑对语言的感知和理解不依赖于句法或语法,实质上是一个对概念的激活、联想、浓缩和存储的过程。该理论以抽象概念的语义网络、语义块、句类等知识作为其理论支持，重在表达词语、语义块之间的语义关系。概念层次理论不仅适用汉语词汇级语义分析，也适用汉语句子和篇章级别的语义分析。",
+    "context9": "现有的典型的语义知识库有：WordNet、FrameNet、MindNet、知网（HowNet）、同义词词林、中文概念词典等。这些语义知识库已被研究者们广泛用于词语语义分析研究中,它们是词语语义相似或相关分析的依据，而且，其中的关系及推理等规则还可以用于句子和篇章级别的语义分析。",
+    "context10": "2.1.2基于规则的词语语义分析的主要方法在现有的基于规则的词语相似(相关)分析研究中,语义词典是最常用的一种知识规则库。语义词典一般都是将所有的词组织成树状的层次结构，而词语在树结构图中的路径长度通常作为词语语义距离的度量方法。例如,文献[2]通过计算两个词语在本体树状结构中的最短路径长度来计算它们之间的相关度。在此基础上,通过引入权重信息,文献[3]考虑词语在WordNet中的层次信息和边所表征的关联度，对文献[2]进行了改进。另外,概念层次树的深度、区域密度等[因素也会对词语相似和相关度产生影响。",
+    "context11": "在汉语词语相似(相关）度计算研究方面，学者们根据知网和同义词词林对汉语词语相似和相关度进行了一定的研究。例如,根据整体的相似度等于部分相似度加权平均的假设,文献 [5-16]利用知网计算两个概念的语义表达式之间的相似度。文献[7]在义原相似度的计算过程中，不仅考虑了义原之间的上下文关系，还考虑了义原之间的其他关系。利用概念层次网络理论词汇层面联想的概念表述体系，文献[8]综合概念内涵、概念外部特征、概念类别和组合符号来计算词语的相似度,能较好地反映词语之间的语义差别。"
+  },
+  "2.2基于统计的词语语义分析": {
+    "context1": "基于统计的词语语义相似(相关）度分析方法是一种经验主义方法，它以代数理论、概率论和统计论等"
+  },
+  "国書情根工作": "",
+  "第58卷第22期2014年11月": {
+    "context1": "[6] Miller GA,Fellbaum C. Semantic network of English M //Lev-in B，Pinker S.Lexical & Conceptual Semantics.Amsterdam:Elsevier Science Publishers,1991.  \n[7]Baker C F,Fillmore C J,Lowe JB.The Berkeley Framenet Pro-ject $\\mathbb { H }$ //Proceedings of the 36th Annual Meting of the Associa-tion for Computational Linguistics and 17th International Confer-ence on Computational Linguistics - Volume 1. Stroudsburg:Asso-ciation for Computational Linguistics，1998:86 -90.  \n[8]Richardson S D,Dolan WB, Vanderwende L. MindNet: Acquiringand structuring semantic information from text [C $/ /$ Proceedings ofthe17th International ConferenceonComputational Linguistics-Volume 2. Stroudsburg: Association for Computational Linguistics,1998:1098 -1102.  \n[9]董振东.语义关系的表达和知识系统的建造[].语言文字应用,1998 (3):76-82.  \n[0]梅家驹,竺一鸣,高蕴琦.同义词词林 M.上海:上海辞书出版社，1983.  \n[] 于江生,俞士汶.中文概念词典的结构[].中文信息学报,2002,16 (4):13 -21.  \n[2]RadaR,Mili H,BicknellE,et al.Development and applicationof a metric on semantic nets．IEEE Transactions on Systems,Man and Cybernetics,1989,19(1):17-30.  \n[13]Richardson R，Smeaton A F，Murphy J.Using WordNet as aknowledge base for measuring semantic similarity between words[Rl．Technical Report Working PaperCA-1294，School of Com-puter Applications.Dublin:Dublin City University,1994.  \n[4]Agirre E,Rigau G.A proposal for word sense disambiguation usingconceptual distance [ //International Conference/Re-cent Ad-vances in Natural Language Processing RANLP. Bulgaria: JohnBenjamins,1995:91-98.  \n[5] 江敏,肖诗斌,王弘蔚,等．一种改进的基于《知网》的词语语义相似度计算[．中文信息学报,2008(5):84－89.  \n[6]张敏,王振辉,王艳丽.一种基于《知网》知识描述语言结构的词语相似度计算方法[.计算机应用与软件,2013,30（7)：265-269.  \n[7]Li S,Zhang J,Huang X,et al.Semantic computation in a Chinesequestion - answering system [l．Journal of Computer Science andTechnology,2002,17(6):933-939.  \n[8]吴佐衍,王宇.基于HNC理论的词语相似度计算[].中文信息学报,2014,28(2):37-43,50.  \n[9]秦春秀,赵捧未,刘怀亮.词语相似度计算研究[.情报理论与实践,2007,30(1):105 -108.  \n[0] Miller GA,Fellbaum C.Semantic network of English Ml //LevinB，Pinker S.Lexical & Conceptual Semantics.Amsterdam:Elsevier Science Publishers,1991.  \n[1] 胡俊峰,俞士汶.唐宋诗中词汇语义相似度的统计分析及应用[.中文信息学报,2002(4):40-45.  \n[2]Lee L.Similarty-based approachestonaturallanguageproessing[EB/OL]．[2014-06-11]．http://www.cs.cormell.edu/home/lle/papers/thesis.home. html,1997.  \n3lBrownP.Wordsense disambiguation using tactical methods $\\mathbb { H }$ 1Proceedings of 29th Meeting of the Association For ComputationalLinguistics（ACL291) .Stroudsburg:Association For ComputationalLinguistics,1991: 201 -207.  \n[4]游博.词语语义相关度计算研究[D].武汉:华中师范大学，2013.  \n[5] 李军辉.中文句法语义分析及其联合学习机制研究[].苏州：苏州大学,2010.  \n[6]穗志方,赵军.统计句法分析建模中基于信息论的特征类型分析[.计算机学报,2001,24(2):144－151.  \n[7] Lucien T. Elements de syntax structural [M]．2nded. Revue etcorrigee.Paris: Klincksieck,1976.  \n[8]车万翔．基于核方法的语义角色标注研究[].哈尔滨：哈尔滨工业大学，2008.  \n[9] 李世奇．面向文景转换的中文浅层语义分析方法研究[].哈尔滨:哈尔滨工业大学，2011.  \nBo]Fillmore,C.J. The case for case[ //Bach E,Harms RT.Uni-versals in Linguistic Theory.New York:HOLT,Rinehart and Win-ston,1968:1 -88.  \nB1]Schank RC.Identification of conceptualizations underlying naturallanguage [.Computer Models of Thought and Language，1973:187 -247.  \n[2] 由丽萍,范开泰,刘开瑛.汉语语义分析模型研究评述[.中文信息学报,2005,19(6)：57 -64.  \n[3] 李茹,王智强,李双红,等.基于框架语义分析的汉语句子相似度计算[.计算机研究与发展,2013,50(8):1728-1736.  \nB4]吴佐衍,王宇.基于 HNC 理论和依存句法的句子相似度计算.计算机工程与应用,2014,50(3):97－103.  \nB5] 李素建.基于语义计算的语句相关度研究[.计算机工程与应用,2002,38(7):75-76,83.  \nB] 唐琦.基于语义分析的句子相似度计算方法[].北京:华北电力大学,2008.  \nβ7]史燕.基于 HNC 的汉语句子相似度算法的研究[D].镇江：江苏大学,2009.  \n[8]李彬,刘挺,秦兵,等.基于语义依存的汉语句子相似度计算[.计算机应用研究,2003（12)：15-18.  \nB9] 李春梅,徐庆生.基于多特征的汉语句子相似度计算模型的研究[.计算机技术与发展,2014,24(6):136-141.  \n[40] Dumais S,Furnas G,Landauer T,et al. Using latent semantic a-nalysis to improve access to textual information [Cl //Proceedingsof Computer Human Interaction．Washington:ACM,1988:281-285.  \n[41]Hofmann T.Probabilistic latent semantic indexing [C]//Proceed-ings of the 2th Annual International SIGIR Conference on Re-search and Development in Information Retrieval. Berkeley:Asso-ciation Computing Machinery,199:50-57.  \n[42]Blei D M,NgAY,Jordan MI.Latent Dirichlet allocation [.Journal of Machine Learning Research,2003,3（4/5）：993-1022.  \n[43]宣云干.基于潜在语义分析的社会化标注系统标签语义检索研究[.南京:南京大学，2011.  \n[4]宋晓雷,王素格,李红霞,等.基于概率潜在语义分析的词汇情感倾向判别.中文信息学报 $, 2 0 1 1 , 2 5 ( 2 ) : 8 9 - 9 4 .$   \n[45]单斌,李芳．基于LDA话题演化研究方法综述[].中文信息学报，2010，24(6)：43-49.  \n[46]Fillmore C J.Frames and the semantics of understanding [].Quaderni di Semantica，1985，6(2):222-254.  \n[47]Nirenburg S,Raskin V. Ontological semantics [M] .Cambridge:MIT Press,2004.  \n[8] 崔晓菊，易绵竹．面向文本语义自动分析的本体语义学述要[.解放军外国语学院学报，2013（2)：39－43."
+  },
+  "3句子语义分析": {
+    "context1": "当前的句子语义分析研究包含两方面内容：句义分析和句义相似度分析。词语语义分析和词语语义相似度分析是当前很多句义分析和句义相似度分析的基础。"
+  },
+  "3.1句义分析": {
+    "context1": "当前，句义分析存在两种研究思路： $\\textcircled{1}$ 以语法分析为中心的语义分析。该研究思路认为句法分析是句子语义理解的基石。 $\\textcircled{2}$ 以语义为中心的句义分析。该思路摒弃了语法-语义的研究模式,重视语义和知识表示，期望计算机能理解句子的意义。",
+    "context2": "3.1.1以句法为中心的句义分析在该研究思路中，句法分析是句义分析的中心。句法分析是指根据给定的语法，自动推导出句子的语法结构。句法分析结果一般是层次分明、主从分明、联系类型明确的句法树。",
+    "context3": "（1)句法分析。按照研究方法的不同,句法分析大体上也可分为基于规则的句法分析和基于统计的句法分析两大类。规则句法分析以语言学家建立的句法规则为基础，采用规则描述或解释句子歧义行为或歧义特性。统计句法分析以语料库为基础,利用概率评价模型评价并选择概率值最高的候选句法树作为最终的句法分析结果 。",
+    "context4": "规则句法分析可划分为3种类型：自顶向下的分析方法、自底向上的分析方法,两者结合的分析方法。自顶向下分析方法实现的是规则推导的过程，规则分析树从根结点开始不断生长，,最后形成分析句子的叶结点。代表方法有CYK算法、移进－规约算法等。自底向上分析方法的实现过程恰好与自顶向下方法相反。代表方法有线图分析算法。左角分析算法是一种较好的自顶向下方法和自底向上的方法。规则句法分析方法利用手工编写的语法规则分析出句子所有可能的句法结构,对于特定的领域和目的,能够较好地处理输入句子中的部分歧义和一些超语法现象。然而，规则方法也存在不少缺陷：分析过程太过复杂，不能处理中等长度句子;手工编写的规则带有一定的主观性,工作量巨大，难以覆盖大领域的所有复杂语言、移植性差。",
+    "context5": "由于规则句法分析存在不少缺点,自20世纪80年代中期,随着大规模标注语料库的发布,研究者们开始研究基于统计的句法分析。目前，统计句法分析方法主要有语法驱动和数据驱动两种分析方法。在语法驱动的方法中，在训练数据中观察到的语言现象分布以统计数据的方式与语法规则一起编码。常见的语法驱动的统计句法分析方法有基于概率的上下文无关文法的分析方法、上下文依存的概率模型和词汇化的概率模型。数据驱动的分析方法不需要生成语法，分析结果是按照树库中标识的模式得到的。具有代表性的数据驱动的句法分析方法有：APRIL句法分析、SPAT-TER句法分析等。",
+    "context6": "上述句法分析方法的分析结果都是整个句子的短语结构树,然而，在自然语言处理中，有时不需要或者不仅仅需要知道整个句子的短语结构树，还要知道句子中词与词的依存关系。为此,用词与词之间的依存关系来描述语言结构的框架成为依存语法分析的原因。依存句法分析模型大都基于语料库驱动，采用统计的方法。依存句法分析的理论基础是现代依存语法理论,依存语法理论是法国语言学家L.Tesnire创立的。该理论认为“关联、结合和转位是概括一切结构句法现象的三大核心”。在结构和语义的关系上，每一种特定的结构联系都包含了一种特定的语义联系，因此,可以直接在各条依存关联上加上相应的语义标记,这就是基于依存语法的语义分析。",
+    "context7": "(2)句法－语义分析。在对句子进行句法分析的基础上,可进行句义分析与理解。由于通用领域的深层语义分析仍然很难实现,因此当前的句法－语义分析主要停留在浅层语义分析上。浅层语义分析只标注句子中与谓词相关的语义角色，它的主要形式是语义角色标注。语义角色标注出的语义角色信息构成了自然语言中最为基本的浅层语义信息，这些浅层语义信息为信息的深入理解和分析奠定了基础。",
+    "context8": "浅层语义分析的流程通常包含5个步骤2： $\\textcircled{1}$ 预处理。采用分词、词性标记、名实体识别、句法分析等自然语言处理技术对输入文本进行处理，得到句子的句法分析树。 $\\textcircled{2}$ 句法树剪枝。过滤掉句法分析树中的非语义角色的句法成分，提高语义分析准确率。 $\\textcircled{3}$ 语义角色识别。逐个判断候选句法成分是否为目标谓词的语义角色。 $\\textcircled{4}$ 语义角色分类。标记识别出的语义角色及其对应的语义角色类型。 $\\textcircled{5}$ 后处理。修正语义角色标注结果，更正一些明显的错误。",
+    "context9": "当前，语义角色标注主要采用半监督和有监督学习方法，在大规模语料环境中能获取较好的效果。然而,标注语料的建立需要花费大量人力和物力，且语料的构建通常与特定的语义理论和动词分类体系密切相关，从而导致语义资源难具通用性。",
+    "context10": "3.1.2以语义为中心的句义分析该研究思路将语义作为首要的考虑因素，摒弃语法的一切形式。该思路主要以某种语义分析理论为基础对句义进行直接分析。典型的语义分析理论有格语法、概念依存理论和概念层次理论(在2.1.1节已介绍）。",
+    "context11": "格语法是美国语言学家菲尔默于1968年提出的一种语法分析模式[3。其基本思想是：动词在句中起中心作用,参与动作的各个体称为“语义格”。针对每个动词的义项，由可能的“语义格”子集构成格框架。格语法给出了各格成分之间的深层语义，即句子的深层结构。格语法最大的特点是承认语义在句法中的主导作用，由格语法分析可以得到句子的深层语义结构。通常，运用格语法进行句义分析时，需要先拥有一个语义词典,该词典中记录动词的格框架;同时也记录名词的语义信息,建立其语义分类体系。基于格语法的句义分析思路是：首先,识别待分析句子的主要动词，在动词词典中找出该词的格框架。其次，识别必须格并查找格的填充物;如果格框架还需要其他必备格，则查找其他名词的语义信息，并按要求进行相应的填充。最后，识别可选格并查找相应填充物。",
+    "context12": "概念依存理论是美国学者R.Schank于1973年提出的一种句义分析模式。该理论分3个层次刻画人的行为：计划、脚本和概念依存层次。运用该理论进行句义分析时，以概念依存层事先规定好的动作基元为核心概念就可以形成一种概念依存关系，这样就可以用最简单的一组动作基元来表示很多复杂的行为。该理论的最大特点是用概念的依存分析而不是句法成分(词、短语)的分析来表达句义。"
+  },
+  "3.2句子语义相似(相关)度分析": {
+    "context1": "从不同的句子分析形式来看，当前句义相似或相关度计算主要分为两大类[3]： $\\textcircled{1}$ 基于句子词汇层面的句义相似(相关）度计算。包含基于词的统计特征、词汇语义特征等; $\\textcircled{2}$ 基于句子结构层面的句义相似（相关)度计算。包含句法分析、语义分析等。个别学者综合了词汇和句子结构两方面考虑句义相似（相关）度分析。",
+    "context2": "3.2.1基于词层面的句义相似(相关)度计算基于词统计特征的方法主要是通过考虑词频、词性等信息来度量句子间的相似（相关）度，如向量空间模型的方法,它将语料库中的句子表示为特征词向量,相似度用向量的夹角余弦表示。该方法未考虑句子结构、语义等特征，只有当语料具有一定的规模时这种统计的效"
+  },
+  "图書情根工作": "",
+  "3.2.2基于句子结构层面的句义相似(相关）度计算": {
+    "context1": "基于句子结构层面的句义相似(相关）度计算主要是在句法分析基础上，按照分析出的句子结构来衡量句子之间的相似(相关）度。例如,以汉语框架网语义资源为基础,文献B3]通过多框架语义分析、框架的重要度度量、框架的相似匹配、框架间相似度计算等关键步骤来实现句子语义的相似度量。类似地，文献B8]中句子的相似度是通过衡量句子间核心词与其直接依存成分之间的语义搭配对之间的相似度来确定的。为充分考虑句子的全部语义,有学者尝试通过多框架语义分析全面考虑句子的语义，并对句子中的不同框架进行重要度度量，最终以框架为基本单元，结合不同框架的重要度来度量句子间的相似度。"
+  },
+  "4文本语义分析": {
+    "context1": "文本语义分析就是识别文本的意义、主题、类别等语义信息的过程。从大规模海量的文本集合中获取相关的语义信息是大数据时代自然语言处理迫切需要研究的问题，也是当前人工智能领域和自然语言处理领域的瓶颈问题。目前,文本语义分析研究大体上分为基于统计的文本语义分析和基于语义学的文本语义分析。前面介绍的词语和句子级别的语义分析是文本语义分析研究的关键基础。"
+  },
+  "4.1基于统计的文本语义分析": {
+    "context1": "目前，典型的大规模文本语义分析研究大多是基于统计的经验主义方法。该方法以线性代数、矩阵论、统计和概率理论等数学理论为基础，将文本看作一个个独立的词语所形成的无序词袋(bagofwords)（即认为文档就是一个词的集合）,利用词语的统计信息将大量文本表示为词语向量集合或者词语与文本的某种概率关系,并据此分析文本集合中隐含的主题、词间潜在的语义结构等语义信息。代表性的方法有:潜在语义分析(latent semantic anal-ysis,LSA）、概率潜在语义分析(probabilistic latent se-mantic analysis，PLSA）和隐含狄利克雷分配（latent",
+    "context2": "Dirichlet allocation,LDA）。",
+    "context3": "LSA是1988年贝尔通信实验室的S.T.Dumais等人提出的一种信息检索代数模型,它以传统向量空间模型(vector space model，VSM)方法为基础,重点用于知识获取和展示。LSA认为文本中的词与词之间存在某种潜在的语义结构，采用统计的方法可以找到该语义结构。LSA的基本观点是把高维的VSM表示中的文档通过奇异值分解映射到低维的潜在语义空间中。LSA将文本向量投影到低维子空间后，通过计算低维子空间中向量间的角度来衡量词语和文本、词语与词语、文本与文本的语义相似性。LSA克服了单纯特征项表示时产生的同义、多义和斜交现象,能够较为有效地解决自然语言的模糊性带来的问题，弥补了VSM方法的不足。LSA在信息检索、信息聚类、交叉语言检索、信息过滤、判断与预测等方面得到了广泛的应用。",
+    "context4": "PLSA最初是由布朗大学的T.Hoffmann于1999年在LSA的基础上提出的一种新方法,以双模式与共现的数据分析方法延伸的统计学方法为坚实的数学基础。PLSA假设每篇文档是由多项式随机主题混合而成的,而文档中的每个词，由一个主题产生，文档中不同的词可有不同的主题生成。它引入潜在语义空间概念,使用概率模型来衡量“文档-潜在语义－词”三者之间的关系，文档和词都可以通过计算语义空间上的夹角进行量化。PLSA能够将文本由单词空间映射至主题空间,但是，PLSA模型参数数量随着文本集增长而线性增长，并且会产生过拟合的问题。和LSA相比,PLSA有明确的物理意义,多义词和同义词的现象均可在潜在的语义空间中得到合理的表示。PLSA在自然语言处理、信息检索、信息过滤、文本的机器学习或者其他相关领域都有应用。",
+    "context5": "LDA主题模型是由D．M．Blei等人在2003年提出的一个三层贝叶斯产生式概率模型,该模型假设文档是由一系列潜在主题随机混合而成，主题是由词汇表中所有的词混合而成,不同文档的主要区别在于其主题混合比例不同。该模型针对每个文档从狄利克雷（Dirichlet)分布中抽样产生该文档包含的主题比例，结合主题和词的概率分布生成该文档中的每一个词汇。相对于LSI和PLSI模型，LDA 模型的优点比较突出:它具有清晰的内在结构，算法效率很高；它通过无监督方法进行训练,与训练样本数量无关；它继承了PLSI生成模型的所有优点,且克服了PLSI的缺点。LDA模型能分析出隐藏在海量文本背后的主题语义信息，也可以完成文本分类、主题检测、文本自动摘要和关联"
+  },
+  "判断等多方面的文本语义挖掘。": "",
+  "4.2基于语义学理论的文本语义分析": {
+    "context1": "目前,能用于文本语义分析的语义学理论有3.1.2节介绍的格语法、概念层次理论,另外还有框架语义学和本体语义学。",
+    "context2": "框架语义学是美国家学者菲尔墨于20世纪70年代提出的一种经验主义语义学，它提供了描写词语意义和语法结构意义的一种途径。其中框架是指跟一些动因激活性语境相一致的结构化的范畴系统。例如“网购”一词,激活一个行为模式,即网购程序,它包括商品搜寻、下订单、付款、物流配送等顺序化的事件。语义框架涉及各种参与者、外部条件和其他概念角色，称为框架元素，它们与框架支撑词有某种句法语义关系。框架语义学的考察单位从句扩展到了篇章，适合对篇章级的文本进行语义分析。",
+    "context3": "本体语义学是美籍俄裔计算语言学家尼伦堡和拉斯金提出的一种关于文本语义的计算机处理理论。本体语义学把本体作为主要资源，用于文本意义的提取，形成文本意义的形式化表征，并根据文本意义的形式化表征从文本中推导知识和生成自然语言文本。本体语义学的基本理论假设为：在人类的语义加工过程中存在着本体意义层次，该层次不同于外部世界和语言本身，而是同概念直接联系。尼伦堡和拉斯金认为,文本中核心要素间的语义关系网络是合适的文本意义的表征形式。本体语义学本质上主要探讨两个互逆的过程:文本要素意义组合为连贯文本意义，文本主题意义分解为文本要素意义。运用本体语义学进行文本意义自动分析时，首先构建静态知识资源库:本体、事实库、词库和专名库,然后运用本体语义学的文本分析模块进行文本语义表征[4] 。"
+  },
+  "5两类研究策略的对比分析": {
+    "context1": "无论词语、句子还是篇章，按照研究策略的不同，现有每层次语义分析研究都大概可分为基于知识或语义学规则的语义分析和基于统计学的语义分析。前者是一种理性主义方法,它以语言学、心理学、哲学等理论为基础,由人工编写语法语义知识表示体系(如语义词典、语义网络等），构造相应的语义推理程序，系统根据规则和程序，将自然语言所含意义推导出来。后者是一种经验主义方法，它通过建立特定的数学模型来学习语料库中的语言结构，然后利用统计学、概率论等数学方法来观测词语、句子和文本中客观存在的各种关联,从而识别其相关的语义信息。这两类研究策略"
+  },
+  "的相关对比分析如表1所示：": {
+    "context1": "表1两类语义分析研究策略的比较",
+    "context2": "<table><tr><td>项目</td><td>基于知识或语义学规则的 语义分析研究策略</td><td>基于统计学的语义分析研究策略</td></tr><tr><td>方法论</td><td>理性主义</td><td>经验主义</td></tr><tr><td>工作条件</td><td>语义词典、概念本体、知识库、大规模语料库 语法规则等事先定义好的规则</td><td></td></tr><tr><td>理论基础语义学理论</td><td>等语义知识规则库</td><td>统计和概率理论</td></tr><tr><td></td><td>主要优点简单、高效,有些统计方法无法可以客观、有效地观测到词语、</td><td>解决的问题，利用规则却很容句子和篇章级别信息间的关联</td></tr><tr><td></td><td>易解决 主要缺点不能覆盖全部语言现象;推理</td><td>需要大规模语料库的支持；性</td></tr><tr><td></td><td>复杂；不能处理不确定性事件； 规则间的相容性和适用层次范</td><td>能依赖语料库的优劣；会掩盖 小概率事件的发生;受数据稀</td></tr><tr><td></td><td>围存在缺陷和限制;知识和语 义规则的建立是瓶颈问题</td><td>疏和数据噪声的干扰</td></tr></table>",
+    "context3": "由表1可以看出,基于知识或语义学规则和基于统计学的语义分析这两类研究策略各有优缺点。为此,部分学者尝试将这两种研究策略相结合，实现其优势互补。基于统计与规则相融合的语义分析方法是未来自然语言语义分析的主流研究方法。另外,由于自然语言本身的复杂性，在进行自然语言的精确语义分析时，离不开有效的知识表示方法，本体语义将是未来自然语义分析重要的支撑基础。"
+  },
+  "6结语": {
+    "context1": "在大数据时代,对海量文本信息进行有效的语义分析已经是自然语言处理、信息检索、信息分类、信息过滤、语义挖掘、文本的机器学习等诸多应用领域基础且关键的研究问题，它影响着上层信息服务与信息共享的质量和水平。本文从词语、句子和篇章3个层次对自然语言语义分析的研究成果进行了系统的总结，并简单分析了每层次语义分析的基本思想、理论依据、特征、适用领域等，以供有关研究领域人员进行参考。"
+  },
+  "参考文献：": {
+    "context1": "[1]齐璇,马红妹.汉语的语义分析研究[].计算机工程与科学,2001,23(3):89 -92.  \n[2]Quillian M R.Semantic memory Ml //Minsky M Y. Semantic In-formation Processing.Cambridge:MIT Press，1968.  \n[3]Sowa JF. Conceptual structures: Information processing in mindand machine M．Boston: Addison-Wesley Longman PublishingCo.，Inc.，1984.  \n[4]Gruber TR.A translation approach to portable ontology specifica-tions [．Knowledge Acquisition，1993,5(2)：199 -220.  \n[5］苗传江．HNC(概念层次网络理论)导引 [M]．北京:清华大学出版社,2005."
+  },
+  "Research Review on Semantics Analysis of Natural Language": {
+    "context1": "Qin Chunxiu'Zhu Ting'Zhao Pengwei1Zhang Yi² ichool of Economics and Management，Xidian University，Xi'an 710071",
+    "context2": "²School of Science Research， Xidian University,Xi'an 710070",
+    "context3": "[Abstract] According to the three composition levels of natural language- words，sentencesand texts，their definitions,the existing research strategies,theoretical basisandthepresent main methodsaresummarizedandanalyzed.Furthermore，two existing research strategies of semanticanalysis areanalyzed comparatively.Wordsemanticanalysis isdefined as to determine words meaning and measure similarityor relevancy between two words；sentence semantic analysis researchincludes sentence semantics and sentences similarity analysis；text semantic analysis is defined asthe procesof identifyingtext meaning，topicand categoryetc.Thereare two main research strategies tomake thesemanticanalysisof naturallanguage which are semanticanalysis basedonthe knowledgeorsemanticrulesandthe statistics.In addition，the semanticanalysis method basedoncombinationofthestatisticsandrule willbethe future mainstream method in natural languagesemanticanalysis.Andontologysemantics willbe the important basis for analysis ofnatural languagesemantics.",
+    "context4": "[Keywordsl] semantic analysissemantic analysis theorycorpusknowledge base"
+  },
+  "(上接第124页)": {
+    "context1": "[46]Laplante A，Downie JS.The utilitarian and hedonic outcomes of music information-seekingin everyday life [．Library& Information Science Research,2011,33(3):202-210.",
+    "context2": "[47] O'Brien HL,Toms E G.What is user engagement? A conceptual framework for defining user engagement with technology []．Journal of the American Society for Information Science and Technology,2008,59(6):938-955."
+  },
+  "Constructing the Ontology of Classical Music Recordings": {
+    "context1": "Wu DanShi Jinsong",
+    "context2": "School of Information Management，Wuhan University，Wuhan 430072",
+    "context3": "[Abstract] By analyzing the characteristics of the composition,the performance and the carrier of clasical music recordings，this papersets thebasic classs and atributes.Then by investigating users’information neds，this paper sets other atributes of classical musicrecordings.Based onthe above,it constructs clasical music recordings ontology.Finally，it proposes a classical musiccatalog based ontheontology.Thecatalog provides users with a main page of thehierarchical structure ofclasscal music works，performance versions，recordings and other pages based on the classes of the ontology.Semantic informationretrieval canalsoberealized.Compared with the current musicretrieving systems，the novel catalog can promote users’retrieval efciency and satisfaction.",
+    "context4": "[Keywords] ontologyclassical music recordingsinformation organization information retrieval"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "original_filename": "full_4192.md",
+  "图片情感分析研究综述": {
+    "context1": "Review of Image Sentiment Analysis",
+    "context2": "王仁武孟现茹",
+    "context3": "(华东师范大学经济与管理学部信息管理系，上海，200241）",
+    "context4": "[摘要］［目的/意义]基于图片的情感分析已逐渐成为情感分析的潜在研究热点。本文回顾与总结了图片情感分析的历史与现状，有助于相关研究工作的推进。[研究设计/方法]从传统的视觉情感分析方法和深度学习两个方向对图片情感分析相关研究的技术方法进行梳理并评述。［结论/发现]随着图片情感分析粒度的细化，进一步的研究方向在于深度学习算法和标注方式的优化；同时，加快带有情感标签图片数据集的开放进程，可以更好地推动研究者在此领域研究的不断深入。[创新/价值]深入梳理了图片情感分析现阶段的研究重点与未来发展方向，为该领域进一步研究提供相关借鉴。",
+    "context5": "[关键词]图片情感分析视觉特征提取图像标注深度学习 [中图分类号]G251[文献标识码]A [文章编号]1003-2797(2020)03-0119-09 DOI:10.13366/j.dik.2020.03.119 [Abstract][Purpose/Significance]Image-based sentiment analysis has gradually become a potential research hotspot. This paper intends to make a summaryonthe historyand current situationof image sentiment analysis，which could be beneficialtopromote relevant research.[Design/Methodology]Thispaperreviewedandofered commentsonthe technical methods of image sentiment analysis fromtwo dimensions including the traditional image sentiment analysis method and the deeplearing method.[Findings/Conclusion]lthasbeen found thatwiththe refinementof imagesentimentanalysis granularity， thefurtherresearch wilfcus ontheoptimizationofdeep learning algorithmand anotation.Atthesame time，accelerating theopening processofsentiment labelleddatasetscouldhelpresearchers todofurtherresearch inthisfield.[Originality/Val ue]This paper conducts an in-depth summaryonthe emphasis and development direction of image sentiment analysis，which could provide some reference for further research in this field.",
+    "context6": "[Keywords] Image sentiment analysis； Visual feature extraction； Image annotation; Deep learning"
+  },
+  "1引言": {
+    "context1": "目前大多数情感分析任务是以文本内容为主，众多学者在文本情感分析领域已经进行了全面深入的研究，从文本标注方法到分类预测模型都已经形成了成熟的框架体系[1,2]；同样，对于图片数据的分类研究，学者们纷纷提出了不同的优化算法预测图片分类，并验证了其算法的有效性[3,4]。但是，图片情感分析作为一种特殊的图片分类技术，无论是技术方向还是应用方向都还处在不断探索中。不同于文本情感分析，图片中的情感是隐藏的，是一种高级语义情感理解，面对互联网中大量的图片以及视频信息，需要更有效的方法完成图片特征的抽取、情感判别与分",
+    "context2": "类。",
+    "context3": "2015 年第二十九届AAAI人工智能会议上，You等[5发表了基于深度网络的图像情感分析研究成果，之后吸引了一些学者提出了各种优化算法来提升图片情感分析的准确性。例如：2018年Mittal等[针对图片情感分析的深度学习方法从技术层面上进行了深入的探索，比较了若干种不同的神经网络算法图片情感分析的效果；随后Balouchian等[7]指出目前的研究集中在图片的情感极性分类，对视觉刺激带来的确切情绪细分以及在大规模数据集上的应用是未来的研究方向。从近几年图片情感分析研究方向的不断拓展，包括技术优化和应用，可以看出基于图片的情感分析是情感分析研究领域的一个发展趋势。",
+    "context4": "以“图片 $^ +$ 识别”和“图像 $^ +$ 识别”为主题词在核心期刊(包括CSCD和CSSCI)中进行检索，文献发表趋势如(图1左)所示;以\"图片 $^ +$ 情感”和“图像 $^ +$ 情感\"为主题词在核心期刊(包括 CSCD 和 CSSCI)中进行检索，文献发表趋势如(图1右)所示。图像识别作为图像情感分析的基础理论，该主题的研究论文一直是上升的趋势，近一年来达到1,200篇，说明图像识别是当前的研究热点方向，完全匹配的图像情感分析研究虽然目前发文量较少，但是近三年文献数量上升的幅度很大，可见基于图片的情感分析是图像研究领域的一个潜在热点。",
+    "context5": "![](images/260de3079802a2e2368d9b30124b2100f497e08d0302c5f7bcfc3addaf7c60bd.jpg)  \n图1图像识别和图像情感分析在核心期刊的发文数量",
+    "context6": "随着移动网络与移动设备的日益高效便捷，人们在社交媒体上越来越多地习惯用图片、视频代替文字分享日常生活。与文本一样，图片和视频中也包含强烈的情感，其情感观点表达也可以有效地传达给用户，更高效地影响着阅读者。根据2018年6月份外媒统计，图片及视频分享社交应用Instagram月活跃用户数从17年的8亿突破10亿，达到了一个新的里程碑[8]；而YouTube月活跃用户破19亿，用户每天看1.8亿小时视频[9]。随着社交移动应用和互联网中多媒体信息量的不断增加，对庞大用户生成的视觉内容进行情感分析，可以帮助我们更好地概括用户的意见、观点和体验，提取有价值的信息。"
+  },
+  "2图片情感分析概述": {
+    "context1": "图片情感分析是一项多学科交叉任务，图片中情感的理解与分类受审美学中主观、客观以及文化因素的影响，涉及到人工智能、计算机视觉、心理学和美学等学科。Song[10]认为图片情感分析是对图像所传达信息的一种高级语义理解，它可以弥合低层次视觉特征和高层次情感之间的巨大情感鸿沟。",
+    "context2": "图片情感分析方法主要包括基于传统的机器学习的情感分析方法和基于深度学习的情感分析方法两类。传统图片情感分析方法，首先需要从数字化的图片中提取出不同维度的视觉特征，通过情感空间模型的映射，使用机器学习算法和模型训练数字化图片中隐含的情感。例如计算机视觉领域近年来提出的提取图片中的色彩、光线等特征，通过线性分类器或回归器预测绘画艺术作品的审美情感分类[1]。但传统的图片情感分析方法没有考虑到底层视觉特征与高层的情感语义间的鸿沟。而视觉特征的提取是有效性情感分析的重要前提，不同维度的视觉特征对图片情感的影响程度没有明确的限定。随着深度学习应用领域的不断扩展，研究者尝试使用深度学习算法自动提取图片特征和情感分类，并取到了较好的情感预测效果，但仍需要更多的优化研究，并存在一定的局限性。其中Mittal等[12]对包含14,340张图像的大型场景数据库进行情感分析，使用C-RNN模型获得 $5 3 . 3 \\%$ 的准确率。更少的数据取得更好的情感分类效果是图片情感分析未来优化的趋势。图片情感分析的局限性在于影响情感判别的元素不仅包括图中物体的信息，图片的场景也能触发不同的情感，而且同一张图片中不同的物体可能代表不同的情感分类，如图片情感分析中的语义分割问题，有待研究者提出更高效的算法解决此类问题。",
+    "context3": "本文主要针对目前图片情感分析的相关研究进行综述，将从传统图片情感分析方法和深度学习方法两个方向对本领域内国内外相关文献进行梳理、评述。本文研究框架如图2示。",
+    "context4": "![](images/e37e7afe52433d0468168d71a2097d32c7509753d0aa65d63c62f44a4c889bfe.jpg)  \n图2本文研究框架"
+  },
+  "3传统图片情感分析方法": {
+    "context1": "传统图片情感分析主要包括三个内容：视觉特征提取、情感空间模型与情感的映射和情感分类器的构建。其中视觉特征提取是影响情感预测准确性的重要前提，传统的图片情感分析的视觉特征提取从底层特征到中层、高层是一个不断提高情感判别准确率的过程。"
+  },
+  "3.1视觉特征提取": "",
+  "3.1.1底层特征提取": {
+    "context1": "在基于底层视觉特征提取的研究中以颜色和纹理为主要研究方向，在此基础上，提出了构图、内容等更多维度的视觉特征。不同领域的图片需要特定特征进行量化，例如风景类图片需要考虑图片的不均衡性、绘画艺术类图片需要考虑图片的轮廓性(圆滑和方正）。",
+    "context2": "(1)颜色：一些研究表明颜色是影响人的情感判断的一个重要因素[13]。目前应用最为广泛的是RGB 颜色空间模型[14],RGB 即是代表红、绿、蓝三个通道的颜色，在三维坐标中，红(Red)、绿(Green)、蓝(Blue)三个通道数值的大小分别代表各自通道上的强度值，经过RGB空间的转换，相对容易实现RGB空间的彩色处理。RGB色彩模式是工业界的颜色标准，该标准几乎包括了人类视力所能感知的所有颜色，是目前运用最广的颜色系统之一。HSV空间[15]也是常用的颜色空间模型，包括色调H(Hue)、饱和度S(Saturation)和亮度V(Value)三种属性，色调H表示光的颜色，饱和度S指颜色深浅程度，亮度V指颜色明暗程度。RGB模型并不符合人们对颜色相似性的主观判断，而HSV模型的颜色通道的变化可以被独立感知，因此更接近人的视觉特征。",
+    "context3": "(2)纹理：Matthews等[16]提出采用量化值表达纹理图像对某种纹理属性的归属度，用数学的方法研究图像纹理中的空间依赖关系，并建议从底层纹理特征估计纹理归属度，包括灰度共生矩阵、Gabor小波统计量和均匀LBP(Local Binary Patterns)模式等方法。灰度共生矩阵可以反映出纹理与灰度空间的内在联系，适合有微小纹理变化的特征提取;Gabor小波统计量是基于多通道滤波的多通道能量和方差等信息作为纹理特征，计算相对复杂;LBP算法具有灰度不变性和旋转不变性，可以描述表征纹理的局部空间模式和对比度两个互补特征，特征分类能力较强，并且计算方便快捷。",
+    "context4": "(3)构图：即分析图像中物体的排列，通常分为纹理图像、对角线、垂直、水平和中心构图五种构图模式，构图特征有助于分析同一位置相似的图像[17]。",
+    "context5": "(4)内容：图片内容潜移默化地影响人们的情感，从视觉体验转化为情感反应，例如体育内容带给人们幸福感(胜利)或失落感(失败)，影视内容带给人们悲伤感(悲剧/犯罪)或喜悦感(爱情片)[18]。",
+    "context6": "图片情感分布的空间不均衡性是图片情感分类的难点，图片中传递情感的区域可能仅为全图中的一部分,Colombo等人[19]将图像分割成均匀区域，根据颜色、色调、饱和度位置和大小等特征，利用每个区域和其他区域的对比捕捉情感的差异，将艺术类图片映射到四种不同情感中，实现艺术图片情感分类。高彦宇等[20]通过图片的四个维度进行视觉特征提取，包括主要颜色(由图片饱和度、亮度、彩色和非彩色四个因素决定)、配色方案(视觉色彩轮)、纹理特征(从粗糙度、对比度和方向性三个本质特征进行量化)以及线圆轮廓，构成了22维离散特征向量对图片进行标注。Dat-ta 等人[21]根据图片的相对色频、平均像素强度、平均像素饱和度和平均像素色调，并结合“三分法\"经验法则，以及纹理、纵横比等有相关元素从图像中提取出56个视觉特征，并利用这些特征训练统计模型。"
+  },
+  "3.1.2中层或高层特征": {
+    "context1": "仅从图像底层视觉特征进行情感分析是不可靠的，和人类感知存在一定的偏差，相同的图像可能会在不同的对象或不同的时间产生不同的情感，即底层视觉特征与高层人类感知存在鸿沟。基于底层特征构建中层特征，甚至高层特征是解决这类问题的一个方法，Liu等[22]在底层特征提取的基础上，使用空间边缘分布和色彩的叠加进行图像情感分类。一些统计词袋方法[23]也成功地用于图像语义分类研究，章雷等[24]使用尺度不变特 征变换（SIFT，Scale-Invariant FeatureTransform)，将图像转换为尺度空间，寻找局部极值点，确定关键点的方向并生成关键点的描述;Li等[25]则研究利用 SURF(Speeded Up RobustFeatures)算法具有的图像特征提取的较好鲁棒性来替代SIFT算法。",
+    "context2": "多数高层特征的研究主要针对于人类的脸部特征，如在面部表情情感分析中将照明、姿势、面部尺寸和面部标准误差作为高层特征进行分析，并认为口腔的状态(张开嘴和各种情绪化的嘴型)也是作为判别面部情感的一个重要因素[26]。多种特征的结合将有助于提高图像情感分析的准确性，例如黄崑等[27]从物理感觉层、情绪反应层与审美偏好层三层结构对情感特征进行分类。物理感觉层即图像的可视化特征，情绪反应层侧重于图像激发人们所产生的情绪体验，审美偏好层是对用户态度与用户评价的特征描述。"
+  },
+  "3.2情感空间模型": {
+    "context1": "情感空间模型是指每幅图片对应情感空间中的一个点，即某种带有情感的语义描述。情感空间中点的距离代表图像的情感距离，即人们对图片的情感倾向的语义描述，因此情感空间中的点可以进行量化分析[28]。情感空间模型的研究不断发展，早期的情感分析只是判断正面和负面，Luo等人[29]在Ekman[30]心理学理论的基础上提出了一种较低维度的情感空间模型ESM(Emoticon Space Model)，它可以描述六种重要的情感状态。之后用于人工智能领域的 ${ \\mathsf { O C C } } ^ { [ 3 1 ] }$ (Orto-ny，Clore and Collins)情感空间模型被提出，该模型定义了22 种基本情感。方予等[32]在OCC 模型的基础上提出了用arousal（激励大小）、valence（刺激的愉悦感）、stance(是否友好)三个维度构造情感空间模型。目前使用最广泛的是Mehrabian[33]提出的 PAD情感空间模型，其中P代表愉悦度(Pleasure-displeas-ure)，表示个体情感状态的正负特性;A代表激活度(Arousal-nonarousal)，表示个体的神经生理激活水平；D代表优势度（Dominance-submissiveness)，表示个体对情景和他人的控制状态，可以通过三个维度的值表示具体的情感。Mehrabian的研究表明，利用PAD 模型可以有效的解释人类的42种情感量表中的绝大部分差异，与描述情感的主观体验、外部表现和生理唤醒都有较好的映射关系。"
+  },
+  "3.3图片情感分类器构建": {
+    "context1": "目前传统图片情感分析中分类器多为机器学习算法，包括朴素贝叶斯、支持向量机、神经网络等分类器；针对不同领域图片的研究，不同的分类器的效果也不尽相同，支持向量机被普遍认为是效果较好的分类器，但更多的研究者倾向于多种分类器的结合，Ko等[34]使用基于 RBF(Radial Basis Function)内核函数的线性支持向量机和随机梯度下降(SGD,Stochastic GradientDescent)算法结合的方法识别图片情感，分别用于颜色合成和筛选，通过两个分类器加权由线性回归得到最终结果。对于图像中含有多个情感类别分类的难点，Borth 等[35]在 VSO(Visual Sentiment Ontology,视觉情感本体）的基础上提出了VSTM(Visual Sentiment TopicModel，视觉情感主题模型)，按照主题对图片进行情感分类。Cao等[36]的研究中使用了VSTM和 SVM(Sup-port Vector Machine)取得了较好的图片情感分类效果。"
+  },
+  "4基于深度学习的图片情感分析": {
+    "context1": "基于深度学习的图片情感分析主要分为两个阶段：图片情感标签的标注和使用标注的图片数据训练模型达到预测情感的目的。"
+  },
+  "4.1图片情感标注": {
+    "context1": "图片情感标注可以细化为情感标签的选择设计和图片情感标签的标注。在标注过程中可以通过标注人员培训、开发辅助标注系统来提高与保证标注过程的高效性和准确性。"
+  },
+  "4.1.1情感标签": {
+    "context1": "不同领域的图片情感分析需要进行特定的情感标签词限定。不同于文本情感分析，图片标注的情感词针对不同领域的图片需要更加细腻，例如风景类图片的情感词包括温暖的/清凉的、单调的/多彩的等，影视类图片的情感词包括沮丧的/热血的、失落的/浪漫的等。毛涵等[37]综合了相关研究者的研究成果以及《现代汉语词典》对图片情感的描述词进行选择设计，选出了具有全面性和代表性的情感词，通过专家小组法和实验法对影视剧领域图片的情感词进行整理筛选，得到26个对影视剧领域图片进行特定描述的情感词。"
+  },
+  "4.1.2单标签与多标签": {
+    "context1": "图片标注是将视觉特征和情感空间进行映射的过程。情感图片库是进行图片情感标注的一个标准化工具。目前开放的图片情感标签的数据集较少且存在一定的局限性，一是数据量太少；二是情感标签数量较少，很多数据集的情感标签仅有积极和消极两类，只能用来研究情感二分类问题。",
+    "context2": "情感标签的标注可以分为单标签和多标签两种形式。单标签是指对于每张图片用一个情感标签区分，这种标注方法适合情感粒度较粗的研究。多标签是对于每张图片用多个标签区分，目前大多数研究中的多标签限定在两个标签，这种标注方法适合细粒度的图片情感分析。孙明[38]使用8个情感词在Twitter上进行检索并抓取了300,000张弱标记图片，进行去重、过滤后保留了100，045张带有一个情感标签的数据集，然后重新标注。结果表明，原来的8类标签分布均匀的数据被重新标注后，数据发生了很大的变化。故而单标签标注是一种受主观影响较大的标注方法，标注的单标签多数情况下不能反映图片所表达的情感。"
+  },
+  "4.1.3标签分布学习": {
+    "context1": "尽管单标签与多标签可以解决图片的情感标注问题，但是每个标签值之间的数学差异(距离或相似性)难以度量。对于情感分析任务，为了更好的解决情感标签之间的模糊性问题，标签分布学习(LDL,LabelDistributionLearning)被用于标注任务，为解决歧义提供了更高的灵活性[39]。",
+    "context2": "在标签分布学习中，标签以向量的方式对实体进行标记，代表了所有标签对于特定实例的权重，标签分布学习的目标是预测标签的多个实值描述度，多目标学习(MTL，Multi-TargetLearning)可以用来预测多个目标[40]。Geng等人[41]提出了六种标签分布学习方法包括：PT-Bayes(问题转换贝叶斯），PT-SVM(问题转换支持向量机)，AA-kNN(算法适应K近邻)，AA-BP(算法适应反向传播神经网络),SA-IIS(专门算法改进的迭代缩放法)和SA-BFGS(专门算法拟牛顿法)，从策略思想上划分为三类：问题转换(PT)、算法适应(AA)和设计专门的算法(SA)。问题转化策略是将标签分布学习转化为单标签问题，给每个训练样本标签赋予权重，然后预测标签分布；算法适应策略是扩展现有的算法如KNN(k近邻算法)和BP(反向传播神经网络算法)，用于处理标签分布问题；设计特别的算法策略是将标签分布学习转化为迭代规模和求解公式的优化问题。"
+  },
+  "4.1.4保障标注效率与质量的有效方法": {
+    "context1": "图片情感标签标注是一项枯燥但对实验结果有决定性影响的工作，为了保证实验结果的可靠性和准确性，可以通过以下方式提高效率：",
+    "context2": "(1)对标注人员进行简单的培训是提高标注效率的有效方式，既可以节约时间，又能增加标注的准确性。",
+    "context3": "(2)通过辅助标注系统进行情感标注可以很大程度上提高标注的效率和质量。目前，学术研究中少有完整介绍图片辅助情感标注系统，而多是研究一些智能方法来进行自动标注。例如， $\\mathsf { C a o } ^ { [ 4 2 ] }$ 等研究提出了一种基于模糊集理论的场景图像情感语义标注方法，计算模糊隶属度以描述场景图像的情感度。"
+  },
+  "4.2深度神经网络算法": {
+    "context1": "从广义上讲，深度学习是机器学习的子类，其在特征提取、图片分类、文本建模等方面都有较好的表现[43]。深度学习算法的基础是各类神经网络模型。神经网络包括输入层、中间层(隐藏层)和输出层的多层结构，在输入层输入数据，中间层(包括多个隐藏层)处理数据，再通过输出层输出结果。深度学习模型能够从给定的数据中自动学习特征或参数，无需任何人工干预或手动特征提取，不易受到主观意识的干扰，其准确性甚至可以超过人类水平。深度学习技术被应用于图像情感分析，并取得了显著的效果。郑远攀等[44]总结了图像识别领域相关的深度学习模型包括深层信念网络(DBN,Deep Belief Nets)、卷积神经网络(CNN,Convolutional Neural Network）、循环神经网络（RNN,Recurrent Neural Network）、生成式对抗网络（GAN,Generative Adversarial Networks）和胶囊网络（Caps-Net)。其中DBN处理分类问题时分类精度不高;RNN不具备特征学习能力;GAN收敛性较差，训练过程中容易出现崩溃问题;CapsNet网络结构较浅，和CNN相比在图像分类的正确率上有很大差距。在众多神经网络中，卷积神经网络由于训练参数少、模型泛化能力更强、且池化层运算降低了网络的空间维度、对输入数据平移不变形的要求不高等特点，在图像分类的各领域都取得了很好的成果[45]。LeCun等人[46]将CNN应用于图片分类任务并提出LeNet网络，在手写字数据集MNIST上的准确率达到惊人的 $9 9 \\%$ 以上。目前为止，大多数基于深度学习的图像分析任务都采用了CNN算法或基于CNN的优化算法，故本小节围绕卷积神经网络及其优化算法进行综述。"
+  },
+  "4.2.1卷积神经网络": {
+    "context1": "卷积神经网络(CNN)是一种特殊的深层前馈网络，一般包括输入层、卷积层、池化层与输出层，通常输出层前还会增加一个全连接层。数据经输入层输入后，先经过卷积层，通过卷积核的大小控制提取特征的复杂度，激励函数可以协助表达复杂特征，常用的激励函数包括ReLU、Sigmoid 和 Tanh 函数;卷积层输出的特征图被传递到池化层进行特征选择和信息过滤，如果输入的图片体积过大，可在池化层减小图片的体积；这样的卷积层和池化层可有很多组，体现了深度学习的\"深度”。全连接层位于输出层的上层，其功能是将特征图从三维图压缩为一维向量，传递到输出层给出分类标签[47]。You等[48]通过50万个训练样本，采用了一种渐进策略来微调深层网络，并使用少量手动标记的Twitter图像来诱导域传输，从而提高了Twitter图像的性能(例如峰值信噪比、归一化相关系数与结构相似性等图像性能指标)，在人工标记的Twitter图片上进行了大量的实验，结果表明，所提出的CNN在图像情感分析方面比其他算法有更好的表现。"
+  },
+  "4.2.2基于 CNN的优化算法": {
+    "context1": "在CNN的基础上，Girshick[49]提出了区域卷积神经网络算法(R-CNN)，它是一种利用图像周围的物体来分析图像情感的方法，用于分析给定图像中所选择区域的情感;R-CNN从图像中提取2000个区域，然后将这些区域输入CNN,该算法面临的挑战是需要更多的时间和内存训练2000个不同区域。",
+    "context2": "为了克服R-CNN的局限性，即减少内存和时间，Ren等[50]提出了快速区域卷积神经网络算法(FR-CNN)，首先将图像输入CNN生成卷积特征图，在连接层选择目标区域进行重构，最后利用SoftMax层对图像进行预测。"
+  },
+  "4.2.3CNN应用于图片情感分类的挑战": {
+    "context1": "CNN模型具有容易出现梯度消散问题、空间关系辨识度差、物体大幅度旋转之后辨识能力低下等缺点，针对这些问题采用相应的优化算法是提高模型准确率的关键。",
+    "context2": "研究发现模型准确率会随着神经网络层数的增加而提高，但模型结构的复杂性会加大计算量，延长训练模型时间，并且训练数据集大小也会在一定程度上影响模型的准确率，因此这四个部分的协调是CNN应用于图像领域的关键研究方向。"
+  },
+  "5图片情感分析的应用研究": "",
+  "5.1两种图片情感分析方法的应用场景": {
+    "context1": "综合文中第3、4节的论述内容对传统图片情感分析方法与基于深度学习的图片情感分析方法的应用场景进行总结如下："
+  },
+  "(1)数据集规模": {
+    "context1": "传统的方法在视觉特征提取方面成本较高，对于数据量较大的数据集更适合使用基于深度学习的情感",
+    "context2": "分析方法，并且在图片标注过程中，数据量大的数据集可以通过已标注标签预测未标注图片的标签，减少数据标注的工作量。"
+  },
+  "(2)模型准确性": {
+    "context1": "尽管目前深度学习图片识别技术在某些特定领域取得了较好的成绩，如人脸识别准确率在 $90 \\%$ 以$\\pm ^ { [ 5 1 ] }$ ,但在情感领域的识别准确率还有待优化和提高。基于深度学习的图片情感方法的准确性与图片识别技术的优化有很大关联。例如Mittal等[52]使用 $\\subset$ RNN模型只获得 $5 3 . 3 \\%$ 的准确率，而一般使用传统的图片识别算法准确性在 $70 \\%$ 以上[53]。Campos 等[54]则使用了微调CNN技术将图片情感分析的准确率提高到 $80 \\%$ ，远超传统的机器学习方法。"
+  },
+  "(3)图片特征": {
+    "context1": "不同场景下的图片特征存在较大的差异，针对多种元素信息共存的图片类型，由于图片分割在各领域的研究还未处于成熟阶段，不适合选用基于深度学习的方法，使用传统的视觉特征提取方法准确率相对较高。"
+  },
+  "5.2应用研究": {
+    "context1": "挖掘和分析图片所传达的情感信息，对经济社会和科学技术都具有重大意义。在科学技术领域，图像中的情感分析可以促进多模式情感识别和图像或图文结合推荐算法的研究，合理的情感分析模型能够大幅度提高图像检索的准确性，将对海量图像和视频的情感和语义分类以及基于情感和语义的图像视频检索有至关重要的影响，视觉情感分析在网络舆论监测、人类行为数据挖掘等方面均有重要的现实意义。"
+  },
+  "5.2.1多模式情感识别": {
+    "context1": "图片情感分析可以应用于多模式情感分析，随着多媒体信息方式的快速发展，人们倾向于从各种模式中获取信息以增加研究的准确性，如Cai等[55]结合Twitter中的文本和图片进行情感分析，将文本CNN 和图片CNN的最后一层进行融合，最后的SoftMax层对情感极性进行分类;Chen等[56]使用不同的分类器分别对相关文本和图片进行训练，最后对两种模型赋予相应的权重进行情感预测。Poria等[57]表明融合的模式越多，情感识别准确性就越能得到保障，Wang等[58]指出由于特征层融合考虑了不同模式之间的关系，因此多种模式的信息在构建特征层时融合更简单、性能",
+    "context2": "更好。"
+  },
+  "5.2.2提高图像检索准确性": {
+    "context1": "基于情感的图像检索系统的核心任务就是训练合适的情感模型来划分图像情感类型，用以定性或定量描述图像情感信息，实现用户情感表达和图像内容特征的映射。高效的图像情感分析模型对检索系统的准确性影响较大，陆泉等[59]在基于情感的图像检索研究中提出了图像情感模型的重要性，并指出使用图像语义内容替代低层视觉特征，即提高情感模型的准确性可以更好的应用于图像检索系统的研究。"
+  },
+  "5.2.3推荐算法应用": {
+    "context1": "以图像为主体的推荐算法的准确性取决于图像特征的提取，基于情感的推荐算法则对图像情感的识别有较高的依赖。陈芬等[60]论述了图像情感识别模型在推荐系统中的应用，基于图文结合的电影情感识别算法可以根据电影海报向用户推荐符合其情感需求的电影；邵长城等[61]将图像情感挖掘作为兴趣点推荐的研究基础； $\\mathsf { X } \\mathsf { u }$ 等[62]提出基于社交网络中的图像信息可以优化广告推荐的效果。"
+  },
+  "5.2.4舆论监测": {
+    "context1": "社交网络中图片信息包含的情感可以展现舆情走向，通过对用户在线生成的图像内容进行情感分析，可以预测用户对某些话题的情感倾向。例如针对旅游类图片的情感分析可以解决旅游场景分类问题，生成更符合用户情感需求的旅游意图[63];艺术绘画类图片的情感分析可以用于艺术领域鉴赏，让大众了解少数民族的审美视觉[64]。",
+    "context2": "社会媒体的情感正广泛地影响着大众的思想和情感，理解视觉内容所表达的观点和情感，可以促进社会媒体的传播，加大在教育、金融、广告、娱乐、健康等领域的广泛应用[65]。"
+  },
+  "6结语": {
+    "context1": "图片情感分析尚处于起步阶段，尤其在基于深度学习算法的图片情感分析方面面临很多挑战。图片情感分析的关键步骤在于视觉特征的提取，传统方法的图片情感分析需要结合多个学科领域，包括心理学、审美学、计算机科学等，而且随着研究者对于图片情感研究的不断细化，需要更细粒度的特征才能更好的满足研究需求。故而基于深度学习的图片情感分析是未来的研究趋势，可以从标注方法和神经网络算法两方面不断优化模型使图片情感的应用更加具有意义和价值。"
+  },
+  "作者贡献说明": {
+    "context1": "王仁武：论文选题与框架确定，文献梳理，撰写初稿，论文修改与审阅；",
+    "context2": "孟现茹：文献调研与梳理，撰写初稿。"
+  },
+  "参考文献": {
+    "context1": "1Parlar T,Ozel A,Song F.Analysis of Data Pre-Processing Meth-ods for the Sentiment Analysis of Reviews[J].Computer Sci-ence，2019,20(1)：123-141.  \n2 Mäntylä MV,Graziotin D，Kuutila M.The Evolution of SentimentAnalysis一A Review of Research topics，Venues，and Top CitedPapers[J].Computer Science Review，2018，27:16-32.  \n3 Hong H,Meili C,Lihua W，et al. Using Spatial-Spectral Regu-larized Hypergraph Embedding for Hyperspectral Image Classifi-cation[J].Acta Geodaeticaet Cartographica Sinica，2019，48(6):676-687.  \n4许少尉，陈思宇.基于深度学习的图像分类方法[J].电子技术应用，2018，044(006):116-119.  \n5,48You Q，Luo J，Jin H,et al.Robust Image Sentiment AnalysisUsing Progressively Trained and Domain Transferred Deep Net-works[C]//Twenty-Ninth AAAl Conference on Artificial Intelli-gence，Austin，Texas USA,2015：25-30.  \n6,12,52 Mittal N，Sharma D，Joshi M L.Image Sentiment AnalysisUsing Deep Learning[C]//2018 IEEE/WIC/ACM International Con-ference on Web Intelligence （Wi).Santiago，Chile，2018：684-687.  \n7 Balouchian P，Safaei M，Foroosh H.LUCFER：A Large-ScaleContext-Sensitive Image Dataset for Deep Learning of VisualEmotions[C]//2019 IEEE Winter Conference on Applications ofComputer Vision（WACV)．Waikoloa Village，HI，USA，2019：  \n1645-1654.  \n8 张力.Instagram 为何青睐长视频[J].中国报业，2018(17):54-55.  \n9 韦文杰，黎书.YouTube盈利模式转型的原因、意义及启示［J].传媒，2019(9):62-64.  \n10Song K，Yao T，Ling Q，et al.Boosting Image Sentiment Analysiswith Visual Attention[J].Neurocomputing，2018，312：218-228.  \n11Marchesotti L，Murray N，Perronnin F．Discovering BeautifulAttributes for Aesthetic Image Analysis[J].International Journal ofComputer Vision，2015，113(3)：246-266.  \n13Gong R，Wang Q，Hai Y，Shao X.Investigation on Factors toInfluence Color Emotion and Color Preference Responses[J].Optik-International Journal for Light and Electron Optics，2017，  \n136:71-78.  \n14 朱琳玲.基于LBPT方法的彩色人脸图像识别[J].中国新通信，2017,19(18):147.  \n15 刘嘉唯，肖勇锋，白小明，等.融合颜色与LBP纹理特征的布料色卡图像检索[J].软件导刊，2016，15(8):173-176.  \n16 Matthews T，Nixon M S，Niranjan M.Enriching Texture Analysiswith Semantic Data[C]//IEEE Conference on Computer Vision& Pattern Recognition，Portland，OR，2013：1248-1255.  \n17 Yao L， Suryanarayan P，Qiao M, et al. Oscar: On-site Compo-sition and Aesthetics Feedback Through Exemplars for Photogra-phers[J].International Journal of Computer Vision，2012，96(3)：353-383.  \n18 Rodgers S，Kenix L J，Thorson E.Stereotypical Portrayals ofEmotionality in News Photos[J].Mass Communication & Society,2007，10(1):119-138.  \n19 Colombo C，Del Bimbo A，Pala P.Semantics in Visual Informa-tion Retrieval[J].IEEE Multimedia，1999，6(3)：38-53.  \n20 高彦宇，王新平，尹怡欣.自然风景图像情感标识方法研究[J].小型微型计算机系统，2011,32(4)：767-771  \n21 Datta R,Joshi D,Li J,et al.Studying Aesthetics in PhotographicImages Using a Computational Approach[C]//European Confer-ence on Computer Vision,Graz,Austria,2006，3953：288-301.  \n22 Liu N，Dellandrea E，Tellez B，et al．Associating Textual Fea-tures with Visual Ones to Improve Affective Image Classification[C]//Lecture Notes in Computer Science，Memphis，TN，USA,2011,6974:195-204.  \n23 Lu Z，Wang L，Wen J.Image Classification by Visual Bag-of-Words Refinement and Reduction[J].Neurocomputing，2016,173:373-384.  \n24 章雷，王国明.基于SIFT算法改进的图像匹配算法[J].电脑知识与技术,2019,15(1)：185-187,194.  \n25 Li X，Aouf N. SIFT and SURF Feature Analysis in Visible and In-frared Imaging for Uavs[C]//2012 IEEE 11th International Con-ference on Cybernetic Intelligent Systems(ClS),Limerick,2012:46-51.  \n26 Zhang L，Tjondronegoro D，Chandran V，et al.Towards RobustAutomatic Affective Classfication of Images Using Facial Expres-sions for Practical Applications[J].Multimedia Tools and Appli-cations，2016，75(8)：4669-4695.  \n27 黄崑，赖茂生.图像情感特征的分类与提取[J].计算机应用，2008(3):659-661,668.  \n28 王伟凝，余英林.图像的情感语义研究进展[J].电路与系统学报,2003(5):101-109.  \n29 Luo B，Zeng J,Duan J.Emotion Space Model for Classifying $\\textdegree { - }$ pinions in Stock Message Board[J].Expert Systems with Appli-cations，2016，44：138-146.  \n30 Ekman P，Friesen WV.Constants Across Cultures in The Faceand Emotion[J].Journal of Personalityand Social Psychology,I3/1，1/(∠):124.  \n31Banaji M.The Cognitive Structure of Emotions[M].London：Cam-bridge University Press，1992：181-182.  \n32方予，陈增强，袁著祉.基于人工智能的情感模型建立[J].信息与控制，2006(6):673-678.  \n33Mehrabian A. Pleasure-arousal-dominance：A General Frame-work for Describing and Measuring Individual Differences in Tem-perament[J].Current Psychology，1996，14(4)：261-292.  \n34 Ko E，Yoon C,Kim EY.Discovering Visual Features for Recog-nizing Users Sentiments in Social Images[C]//2016 InternationalConference on Big Data and Smart Computing (BigComp)，HongKong，China，2016：378-381.  \n35 Borth D，Ji R，Chen T，et al. Large-scale Visual Sentiment On-tologyand Detectors Using Adjective Noun Pairs[C]//Proceed-ings of The 21st ACM International Conference on Multimedia,New York:ACM，2013:223-232.  \n36 Cao D，Ji R,Lin D，et al．Visual Sentiment Topic Model BasedMicroblog Image Sentiment Analysis[J].Multimedia Tools andApplications，2016，75(15)：8955-8968.  \n37毛涵，蒋伟.影视剧图片情感标注词的筛选[J].中国传媒大学学报(自然科学版)，2018，25(3)：65-70.  \n38 孙明.基于神经网络的图像情感分类技术研究[D].天津：南开大学，2017.  \n39,41 Geng X.Label Distribution Learning[J].IEEE Transactions onKnowledge and Data Engineering，Stockholm，2016，28（7）：1734-1748.  \n40 Sener O，Koltun V.Multi-task Learning as Multi-Objective Opti-mization[C]//Advances in Neural Information Processing Sys-tems，Curran Associates，2018：525-536.  \n42 Cao J，Chen L.Fuzzy Emotional Semantic Analysis and AutomatedAnnotation of Scene Images[J/OL].Computational Intelligence andNeuroscience.2015.https://doi.org/10.1155/2015/971039.  \n43 骞宇澄，刘昭策.深度学习的实现与发展—从神经网络到机器学习[J].电子技术与软件工程,2017(11):30-31.  \n44 郑远攀，李广阳,李晔.深度学习在图像识别中的应用研究综述[J].计算机工程与应用，2019,55(12)：20-36.  \n45 汪珊娜，张华熊，康锋.基于卷积神经网络的领带花型情感分类[J].纺织学报,2018,39(8)：117-123.  \n46 LeCun Y，Bottou L，Bengio Y，et al.Gradient-based LearningApplied to Document Recognition[J].Proceedings of The IEEE,1998，86(11):2278-2324.  \n47 Zhang Y，Er M J，Venkatesan R，et al. Sentiment ClassificationUsing Comprehensive Attention Recurrent Models [C]//2016International Joint Conference on Neural Networks（IJCNN），Vancouver，BC，2016：1562-1569.  \n49Girshick R.Fast R-cnn[C]//Proceedings of The IEEE Internation-al Conference on Computer Vision，Santiago，Chile，2015:1440-1448.  \n50 Ren S, He K，Girshick R，et al.Faster R-CNN: Towards RealtimeObject Detection With Region Proposal Networks[J].IEEE Transac-tions on Pattern Analysis and Machine Intelligence，2017，39（6）：1137-1149.  \n51 胡俊.基于深度学习的跨年龄人脸识别[J].现代计算机(专业版),2018(32):35-37.  \n53刘增荣，余雪丽，李志.基于特征融合的图像情感语义识别研究[J].太原理工大学学报,2012,43(5):553-557,563.  \n54 Campos V，Jou B，Gi6-i-Nieto X.From Pixels to Sentiment:Fine-tuning CNNs for Visual Sentiment Prediction.Image andVision Computing.2017,65:15-22.  \n55 Cai G，Xia B.Convolutional Neural Networks for Multimedia Senti-ment Analysis[C]//Conference on Natural Language Processing&Chinese Computing.New York,Inc,2015,9362:159-167.  \n56 Chen M,Zhang L L,Yu X,et al.Weighted Co-training for Cross-domain Image Sentiment Classification[J].Journal of ComputerScience and Technology，2017，32(4)：714-725.  \n57Poria S,Cambria E，Gelbukh A. Deep Convolutional Neural Net-work Textual Features and Multiple Kernel Learning for Utter-ance-level Multimodal Sentiment Analysis[C]//Proceedings ofThe 2015 Conference on Empirical Methods in Natural LanguageProcessing，Lisbon，Portugal，2015：2539-2544.  \n58 Wang Y，Rao Y，Wu L. A Review of Sentiment Semantic Analy-sis Technology and Progress[C]//2017 13th International Con-ference on Computational Intelligence and Security（CIS），HongKong,China，2017：452-455.  \n59 陆泉，丁恒.基于情感的图像检索研究综述[J].情报理论与实践,2013,36(2):119-124.  \n60 陈芬，何源，汤丽萍.面向视觉感知的图像情感识别及其在推荐系统中的应用[J].情报学报，2019，38(4)：420-431.  \n61 邵长城,陈平华.融合社交网络和图像内容的兴趣点推荐[J].计算机应用,2019,39(5)：1261-1268.  \n$6 2 \\ \\times \\mathrm { { u } \\ C }$ ，Cetintas S，Lee K C，et al.Visual Sentiment Predictionwith Deep Convolutional Neural Networks[J].EprintArxiv，2014:abs/1411.5731.  \n63 齐镗泉.基于深度学习的行为识别与旅游场景分类关键技术研究[D].广州：华南理工大学，2017.  \n64 张浩，徐丹.基于深度学习的少数民族绘画情感分析方法[J].中国科学：信息科学,2019,49(2):204-215.  \n65Jindal S，Singh S.Image Sentiment Analysis Using Deep Convo-lutional Neural Networks with Domain Specific Fine Tuning[C]//2015 International Conference on Information Processing(ICIP)，Pune，India，2015：447-451.",
+    "context2": "(收稿日期：2019-06-13)"
+  }
+}

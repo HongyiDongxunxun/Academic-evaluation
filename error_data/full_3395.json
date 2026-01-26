@@ -1,0 +1,95 @@
+{
+  "original_filename": "full_3395.md",
+  "国外叙词表的应用与发展趋势探讨\\*": {
+    "context1": "Study on the Application and Future of Thesauri Abroad赵捷 (中国科学技术信息研究所北京100080)司莉周李梅柴源邓伊婷 (武汉大学信息管理学院 湖北 武汉 430072)",
+    "context2": "[摘要]叙词表在网络信息组织中的应用提高了文献的查准率与查全率。国外有关叙词表的研究领先于国内，其成果值得借鉴。国外叙词表的特点为学科分布均衡、编制机构多样化、叙词数量多、语种全、以网络载体为主、词间关系复杂。国外的叙词表被应用于本体的构建、知识分类表的构建与网络信息组织的优化等方面。多语言化、互操作化、可视化和分面化为国外叙词表的发展趋势。"
+  },
+  "[关键词]叙词表国外叙词表应用国外叙词表发展趋势": {
+    "context1": "[中图分类号]G254.242 [文献标识码]B",
+    "context2": "[Abstract] The application of thesauri in online information organization enhances the precision and recall ratio of literatures.The study on thesauri abroad is superior to the study in China,its results are worth learning.Characteristics of foreign thesauri include balanced subject distribution,multiple compilation organizations,large quantity and multiple languages of descriptor,taking the network carrier as main carriers,complex relation of descriptors.Foreign thesauri are used to construct the ontology and taxonomies, and optimize the online information organization.Trends of foreign thesauri are multilingualization, interoperability,visualization and facet.",
+    "context3": "[Key words] Thesaurus; Application of thesaurus abroad; Trend of thesaurus abroad",
+    "context4": "叙词表作为信息组织的核心工具，是一种由术语与术语之间的各种关系组成的语义词典。叙词表自产生以来，主要用于文献信息的主题标引与检索，并提高了文献检索的查准率和查全率。现在叙词表已经成为成熟的语义工具。在新的环境下，叙词表的编制方法由手工转为机器辅助，网络叙词表也应运而生；叙词表被用于网络数据库和搜索引擎的现象已较为普遍。当前，国外有关叙词表的编制与应用的研究成果颇丰，对我国的相关研究具有借鉴意义。"
+  },
+  "1国外叙词表的调查与分析": {
+    "context1": "笔者调查了网上免费信息资源网站TaxonomyWarehouse[1]和国外一些收录叙词表的网站[2-3]，共搜集了254部以英文为主的叙词表。笔者统计并分析了其语种、编制单位、词表结构、学科分布、载体类型等基本信息，以提供国外以英文为主的叙词表的概况，供业界同行参考。"
+  },
+  "1.1叙词表规模与学科分布": {
+    "context1": "根据包含的叙词的总数量可将叙词表分为3种规模[4]：大型叙词表（叙词总量在10000个及以上）、中型叙词表(叙词总量在 $1 \\ 0 0 0 { \\sim } 1 0 \\ 0 0 0$ 个之间）和小型叙词表（叙词总量在1000个及以下）。在所调查的叙词表中，大型叙词表共62部，占总量的 $2 4 . 4 \\%$ ；中型叙词表共119部，占总量的 $4 6 . 9 \\%$ ；小型叙词表共73部，占总量的 $2 8 . 7 \\%$ 。",
+    "context2": "依据《中华人民共和国学科分类与代码国家标准》(GB/T13745-92）的相关规定，并参考侯汉清对网络叙词表的调查结果（即将被调查的叙词表分为理工农医类、人文社科类[41），统计得出：这254部叙词表中，理工农医类叙词表共126部，占总量的 $4 9 . 6 \\%$ ；人文社科类叙词表共128部，占总量的 $5 0 . 4 \\%$ 。侯汉清调查了国内130部词表[4]，发现社会科学类占 $2 3 . 8 5 \\%$ ，自然科学类占 $5 8 . 4 6 \\%$ ，综合科学类占$1 7 . 6 9 \\%$ 。可以看出，国内自然科学类叙词表所占比例较大，而国外理工农医类叙词表与人文社科类叙词表比例相近。",
+    "context3": "通过本次调查发现：学科范围较小的叙词表中的叙词量偏小，但一些复杂科学（如地球科学和生物科学）除外，如《Gale地球科学叙词表》(Gale Earth Sciences",
+    "context4": "表1叙词表载体类型调查统计表",
+    "context5": "<table><tr><td rowspan=1 colspan=1>载体类型</td><td rowspan=1 colspan=1>出版方式</td><td rowspan=1 colspan=1>有此载体类型的叙词表数量/部</td><td rowspan=1 colspan=1>占百分比/%</td></tr><tr><td rowspan=1 colspan=1>印刷版</td><td rowspan=1 colspan=1>纸质版(Print Publication)</td><td rowspan=1 colspan=1>118</td><td rowspan=1 colspan=1>46.5</td></tr><tr><td rowspan=3 colspan=1>电子版</td><td rowspan=1 colspan=1>CD-ROM (Compact Disc Read-Only Memory，只读光盘)</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>5.5</td></tr><tr><td rowspan=1 colspan=1>磁盘(Diskette)</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>2.4</td></tr><tr><td rowspan=1 colspan=1>特定电子格式(Specific Electronic Formats)</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>5.1</td></tr><tr><td rowspan=3 colspan=1>网络版</td><td rowspan=1 colspan=1>HTML /XML/PDF/CSV/TXT等网页或文本</td><td rowspan=1 colspan=1>112</td><td rowspan=1 colspan=1>44.1</td></tr><tr><td rowspan=1 colspan=1>公共网站(Public Website)</td><td rowspan=1 colspan=1>66</td><td rowspan=1 colspan=1>26.0</td></tr><tr><td rowspan=1 colspan=1>在线定制(Subscriber Online)</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>11.4</td></tr></table>",
+    "context6": "注：由于大部分叙词表拥有2种或2种以上的不同载体形式，因此，表中“有此载体类型的叙词表数量”为重复计数。",
+    "context7": "Thesaurus）、《水产科学与渔业叙词表》（Aquatic Sci-ences and Fisheries Thesaurus）的叙词数量达百万之多。"
+  },
+  "1.2叙词表的语种情况": {
+    "context1": "在所调查的叙词表中，英文单一语种叙词表共209部，德文单一语种叙词表仅1部，即德国哥根廷州立大学图书馆编制的《哥廷根在线分类》（GoettingerOnline-Klassifikation），其余44部为双语或多语种叙词表（其中43部有英文版本）。单一语种叙词表占总数的 $8 2 . 7 \\%$ ，双语或多语种叙词表占总数的 $1 7 . 3 \\%$ 。除单一语种叙词表外，其他叙词表的语种从两种到十几种不等，其中，拥有语种较多的叙词表有《多语言地质叙词表》(Multilingual Thesaurusof Geosciences）与《职业培训多语言叙词表》（MultilingualThesaurusofVocationalTraining），拥有英、法、德等7种语言；《欧洲财政浏览器叙词表》(European TreasuryBrowserThesaurus）拥有荷兰、英、法、意大利等13种欧洲国家语言；《亚洲蔬菜叙词表》（AsianVegetablesThesaurus）拥有中、英、日、泰、德等16种语言；《综合多语言环境叙词表》(General Multilingual EnvironmentalThesaurus）则拥有挪威、希腊、捷克、葡萄牙、芬兰、法语等18种语言。",
+    "context2": "由于英语被作为全球的通用语言，并且本次调查主要以欧美国家的叙词表为主，因此，大多数叙词表在拥有本国语言版本的基础上同时编制了相应的英文版，如由德国的FIZ技术公司(Fachinformationszentrum Technik）编制的《工程管理词库》（Thesaurus Technik und Management），在德文版的基础上编有英文版。此外，由机构编制的叙词表一般均以英文版为主。例如，欧美国家的Gale公司、NASA(National Aeronautics and Space Administration，美国国家航空航天局）、English Heritage、大英博物馆等机构编制的叙词表仅有英文版本；由联合国相关机构编制的《水产科学与渔业叙词表》、《ENVOC多语种环境术语叙词表》(ENVOC Multilingual Thesaurus of Environmental Terms)和《国际难民术语词库》(International Thesaurus of Refu-gee Terminology）等叙词表，在英文版的基础上，根据实际",
+    "context3": "需要编制了相应语种的版本。"
+  },
+  "1.3叙词表的载体类型": {
+    "context1": "叙词表的载体经历了从印刷版到电子版再到网络版的过程。当今，以网络为载体的叙词表已成为主流。一部分叙词表在纸质版的基础上开发了网络版，另一部分叙词表直接以电子版或网络版发行（具体数据见表1）。",
+    "context2": "在所调查的254部叙词表中，仅有印刷版的叙词表共11部。既有印刷版、也有其他版的叙词表有107部。例如，剑桥科学文摘(Cambridge Science Abstract,简称CSA）编制的《冶金术语叙词表》(Thesaurus of Metallurgical Terms)以印刷版为主，而《国际原子能信息系统叙词表》(International Nuclear Information System Thesaurus）在印刷版的基础上制作了PDF版。",
+    "context3": "以提供查询功能的公共网站为载体的叙词表有66部，包括《人文社科类电子叙词表》(Humanitiesand SocialScience Electronic Thesaurus，简称HASSET）、英国遗产委员会（English HeritageCommission）编制的《NMR货船叙词表》 (National Monuments Record Cargo Thesaurus，简称NMR货船叙词表），等等。",
+    "context4": "此外，WAND公司编制的3部叙词表及《教育、技能和儿童服务叙词表》(Education,Skills and Children's ServicesThesaurus）为单一、特定的电子版。Gale公司的69部叙词表均为CSV/TXT、HTML、XML格式。部分叙词表还有RDF/SKOS（资源描述框架/简单知识组织系统）、RDF/OWL（资源描述框架/网络本体语言）、Word和Excel格式。由此可看出，受调查叙词表的出版方式大多为HTML、XML和CSV/TXT。这一现象反映了叙词表发展的网络化趋势。大部分编制叙词表的机构充分利用计算机等技术，构建利于检索的叙词表，并对叙词表进行全方位的改造和升级，在进行网络化转变的同时，注重叙词表的界面设计。"
+  },
+  "1.4叙词表编制机构的类型": {
+    "context1": "对所调查叙词表的编制机构进行分类统计，可将叙词表的编制机构分为联合国等国际机构、政府机构、公司、学术团体、图书馆、大学、个人、其他等类型。每种机构"
+  },
+  "编制的叙词表数量如图1所示。": {
+    "context1": "![](images/500edecb14a137bc32dbf3e062cdc5430448df32fe3a128aab56192d2d08b966.jpg)  \n图1国外叙词表编制机构编制的叙词表数量统计图",
+    "context2": "所调查的叙词表中，由个人编制的为5部，由大学编制的为15部，以图书馆为单位编制的有19部，由联合国等国际机构编制的共19部，由学术团体编制的有29部，由政府机构编制的有54部，由公司编制的有100部。叙词表最初产生于图书情报领域，编制方法为将自然语言转化为受控语言。而现在的叙词表的编制不再限于图书馆等信息机构，商业性机构所占比重较大。在所有被调查的叙词表中，有100部是由商业机构编制的，这类叙词表占总数的 $3 9 . 4 \\%$ ，其中Gale公司编有69部叙词表。属于政府机构编制的有54部叙词表（占总数的 $2 1 . 3 \\%$ ），英国遗产委员会（EnglishHeritageCommission）编有8部叙词表，为政府机构中编制叙词表数量最多的机构。联合国等国际性机构，如国际天文协会（International Astronomical Union）、国际劳动组织(InternationalLabour Organization）、国际原子能机构(International Atomic Energy Agency）和国际能源机构(InternationalEnergyAgency）等也编制了与自身性质相适应的叙词表，这类叙词表共有19部，占总量的 $7 . 5 \\%$ 。将叙词表嵌入到各种商业性机构或政府机构的检索系统中，导致其编制机构的范围扩大，这是叙词表编制在网络环境下的重要特征。"
+  },
+  "1.5叙词表所属的国家或地区(见图2)": {
+    "context1": "![](images/d3a8d1b6ff4832af985f40f2f0c7a5dbdea1d89184f72fa8e9a948864b582a1a.jpg)  \n图2调查中叙词表所属的国家或地区统计图",
+    "context2": "多国联合编制的叙词表共有87部。美国独立编制了80部叙词表。并且美国还与其他国家合作编制叙词表，如Gale公司是由美国牵头的，其编制的69部叙词表则属于多国联合编制，涉及天文、农业、生物、化学、通信、计算机等各种学科。由此可看出，美国在编制叙词表领域处于牢固的领军地位。在所调查的国家或地区中，除美国外，其它国家按所编制的叙词表数量由高到低的顺序为英国、澳大利亚、除英国之外的欧洲地区、加拿大，其编制叙词表的数量分别是31部、21部、20部、10部。"
+  },
+  "1.6叙词表的结构": {
+    "context1": "叙词表的结构分为宏观结构和微观结构，本文主要分析其微观结构。叙词表的微观结构体现在词间关系上。叙词表中的词间关系分为等级关系（Hierarchicalrelationship）、等同关系（Equivalence relationship）和相关关系（Associativerelationship）。等级关系为显示术语的上位概念和下位概念；等同关系为连接了术语的同义词；相关关系为建立与术语相关的参照，结构较为松散。被调查的叙词表的等级结构从2级到12级不等，其中《酒类和其他药物叙词表》(Alcohol and Other Drug Thesaurus，简称AOD）有12级。在所调查的叙词表中，同时拥有等级关系、等同关系和相关关系的叙词表共有215部，占到总量的 $1 8 4 . 6 \\%$ 。极少数叙词表的词间关系简单，其主要为叙词数量较少、非学术性的叙词表。例如，《亚洲蔬菜叙词表》仅以字顺形式列出叙词，词间关系极为简化，没有等级关系、相关关系或等同关系。",
+    "context2": "另外，网络环境下的叙词表显示方式更加立体。传统叙词表以字顺方式排列叙词，以“用”、“代”、“属”、“分”、“参”等表示叙词之间的关系，用户查阅不便。在所调查的叙词表中，相当一部分叙词表中叙词的上位词、下位词和相关词都可通过超链接点击查看，如《国际职业安全与健康信息中心叙词表》（OccupationalSafetyandHealth Thesaurus,简称CIS）、《加拿大无线电视和通讯委员会叙词表》(Canadian Radio-television and Telecom-munications Commission Thesaurus，简称CRTC）、《弗罗里达环境网络叙词表》(Florida Environments Online Thesaurus）。"
+  },
+  "1.7叙词表的特征": {
+    "context1": "部分网络叙词表面向大众生活和商业贸易，如《厨师叙词表》（Cook'sThesaurus）收纳了有关厨房用品的叙词，《亚洲蔬菜叙词表》是为了亚洲蔬菜的出口，供外贸商查询、检索使用。这类叙词表不仅没有复杂的查询方式，且附有图片，能够为用户提供直观的浏览方式。可见，叙词表的应用领域更加广泛。",
+    "context2": "另外，当前个人编制的叙词表成为叙词表家族中的新成员。其主要源自于特定领域的学者或从事某项事业多年的人员自身的经验总结。在所调查的叙词表中，由个人编制的5部分别为《厨师叙词表》、《药草叙词表》(Thesaurus for the Herb）、《寄生虫学叙词表》(Thesaurus of Parasitology）、《液晶研究与应用叙词表》(Thesaurus for Liquid Crystal Research and Applications)和《哈利波特叙词表》(Harry Potter Thesaurus）。个人编制叙词表能够将个人的隐性知识显性表示，并促进个人知识的社会化。"
+  },
+  "2国外叙词表在新环境下的应用": {
+    "context1": "网络环境下，叙词表的应用不再局限于传统领域。联机叙词表是独立于检索系统而存在的网络信息检索工具，可同时供联机编目人员和网络信息用户使用；网络数据库和搜索引擎也相继使用叙词表进行词汇控制和浏览检索；此外，叙词表也被应用于本体构建等领域，充分发挥其受控词表的优势。"
+  },
+  "2.1利用叙词表构建本体(Ontology)": {
+    "context1": "当前，本体是图书情报领域的研究热点。本体重在概念及其关系的体现，它在术语表中定义了一系列有关对象和关系的类，其内在的关系规则在表达不同词汇之间的等同、从属和相关关系的同时，也提供一种推理的机制。而叙词表提供的术语词汇列表及参照系统显示出的词间关系能够为构建本体提供一定的基础。因此，应充分利用叙词表进行本体的构建，将叙词表转化为本体等在网络时代知识组织系统中发挥作用。联合国粮农组织的AOS(Agricultural Ontology Service）项目以粮农叙词表AGROVOC为原型，构建了农业本体服务，促进了联合国粮农组织网站的电子资源信息检索[5-6。有学者比较了《国家农业图书馆叙词表》(National Agriculture LibraryThesaurus）和一个“农作物-昆虫（crop-pest）”本体在国家农业图书馆中的检索效果，得出本体可以为领域知识提供更好的描述和基于知识描述的更深层次的逻辑推理，进而提高检索质量[7]。"
+  },
+  "2.2利用叙词表构建知识分类表(Taxonomy)": {
+    "context1": "知识分类表是由等级结构和主题词两个基本元素组成、具有多种用途的一种知识组织工具。它的主要功能是将资源对象类聚到一个特定的知识等级。知识分类表可用于自动分类、链接资源、提供浏览等，也可用于优化检索提问和检索结果。利用叙词表分类法构建知识分类表由来已久，如美国医学协会（American MedicalAssociation，简称AMA）利用MeSH(Medical Subject Headings，医学主题词表）建立了一个医学知识分类表，该表在美国医学协会网站上的应用促进了其网络期刊文献的获取；Saeed和Chaudhry两位学者用DDC (Dewey Decimal Classification,杜威十进分类法）和IEEE(Institute of Electrical and Elec-tronicsEngineers，美国电气和电子工程师协会）网页叙词表建立了知识分类表[8]；王红忠等用DDC和3个叙词表建立了机构知识分类表，这3个叙词表分别为美国社会信息科学与技术叙词表（American Society for Information Science andTechnology，简称ASIST&T）、图书馆与信息科学文摘词表(Library and Information Science Abstracts,简称LISA)及科教资源信息中心(Educational Resources InformationCenter,简称ERIC）[9]。在构建知识分类表的过程中，叙词表的范畴索引可以用来构建知识分类表的上位类目，其词间等级关系可以用来确定下位类目，其词间等同关系可以建立子目的代替关系，叙词则可以提供子目的候选词。"
+  },
+  "2.3叙词表用于网络信息组织的优化": {
+    "context1": "叙词表在知识组织方面的优势以及近年来网络叙词表的不断发展，使得一些主题信息网关纷纷利用叙词表对",
+    "context2": "Web页面和站点进行标引及检索。例如，艺术、设计、建筑和媒介信息网关应用《Getty艺术和建筑叙词表》（Artand Architecture Thesaurus，简称AAT）进行标引，社会科学信息网关应用《人文社会科学电子叙词表》（Humanitiesand Social Science Electronic Thesaurus，简称HASSET）进行标引。叙词表在网络信息组织中的应用也体现为嵌入到数据库检索系统中，如ETOH数据库（The Alcoholand Al-cohol Problems Science Database）应用《酒类和其他药物叙词表》（Alcohol and Other Drug Thesaurus，简称AOD），使用户可以直接选择AOD叙词表的叙词进行检索。在提高专题性或学术性网络资源搜索引擎的查准率与查全率时，应充分认识到叙词表的重要作用。"
+  },
+  "3国外叙词表的发展趋势": "",
+  "3.1叙词表的多语言化": {
+    "context1": "随着拥有不同文化和语言背景的群体对各种信息需求量的增加，支持多语种的检索工具变得越来越重要，多语言化成为叙词表编制和发展的一种趋势。叙词表并非在编制之初就拥有多种语言版本，而是随着信息组织的需要，通过翻译原叙词表的方式添加新的版本。如所调查的叙词表中，《综合多语言环境叙词表》在1998年发布之初，只拥有荷兰、芬兰、法、德、意大利、挪威、葡萄牙、西班牙、丹麦和希腊语10种语言[10]，截至2011年则发展至18种语言。《地球科学多语言叙词表》（Multilingual Thesaurusof Geoscience）的编制委员会IUGS/COGEOINFO(International Union of Geological sciences/Commission onManagement and Application of Geoscience Infomation，国际地质科学联合会/国际地学信息管理与应用委员会）宣称，其目标之一就是将该叙词表翻译为多种语言版本，目前该叙词表已有7种语言版本[11]。"
+  },
+  "3.2叙词表的互操作化": {
+    "context1": "被调查的叙词表在学科范围、词表结构和叙词的选取等方面都存在着一定的差异，这些差异不利于资源的标引与共享，因此，需要实现不同叙词表之间的兼容和互操作。在这方面的研究已取得了一些成果，如许多国家已将MeSH译为本国语言，目前MeSH有法、德、俄、西班牙等多种语言的译本，可建立跨语言的医学检索系统。另外，不同类型的数据库使用的情报检索语言也不同，成为了用户在检索某一课题时的障碍。因此，情报检索语言之间也必须实现兼容和互换，使一个检索式适用于多个系统。如工程索引(Engineering Index，简称EI）分类主题一体化词表的应用在实质上实现了分类语言和主题语言的兼容与互换，体现了分类、主题一体化的发展趋势。"
+  },
+  "3.3叙词表的可视化": {
+    "context1": "叙词表须使用户易于理解，通过提供定义、范围注释或简介段落提高用户检索的查准率与查全率。纸质版叙词表的词间关系显示和术语标注都不足以帮助用户理解。网络环境下，叙词表的编制和应用可以采用相应的技术实现可视化，从而提高用户浏览和检索的便利性。例如，由斯坦福大学医学院的医学情报学研究组开发的Protégé工具，可以用于实现词间关系可视化。《可视化叙词表》(Visual Thesaurus）应用辐射图显示相关词汇并可以点击查询词义。",
+    "context2": "![](images/c429c040c2744c6911ae0358a93d2e1baccbc12fe6bc1be40dbe66b223bafda7.jpg)  \n图3可视化叙词表示意图  \n注：图中矩形表示名词，三角形表示动词，圆形表示形容词。",
+    "context3": "在图3中，连线显示词与词之间的联系。鼠标放置在结点，则出现方框显示该结点下词的解释和相关例句。《可视化叙词表》并非是用于信息标引和检索的叙词表，而是以学习工具的形式出现，但这种可视化的应用为叙词表的未来发展提供了方向。"
+  },
+  "3.4叙词表的分面化": {
+    "context1": "分面叙词表是Aitchison等人于1969年提出的概念，表示将分面分类法和叙词表相结合。他指出，分面在当前的背景下表示一组基本的分类及类与类之间依据一定规则的结合。每一个基本分类本身可能是一个类层次结构①，且绝大多数情况下不同的分面是相互排斥的，因此可以将不同分面中单个概念结合用以查询或形成检索式[12]。与传统叙词表相比，分面叙词表引入了一个相当于传统叙词表的范畴表和词族表功能的分面分类表，从而更系统、更明确、更完整地显示了叙词表中叙词间的关系。被调查的叙词表中，大部分含有等级关系的叙词表的编制没有严格的分面分析过程，且等级结构不能组合，因此为非分面叙词表。一小部分叙词表是分面叙词表，如《酒类和其他药物叙词表》、《美国医学主题词表》、《Getty艺术和建筑叙词表》、《UNESCO叙词表》、《国际难民术语词库》，等等[12]。建立分面叙词表既可以用于先组式系统②，也可以用于后组式系统③，从而提高信息检索系统的查询和浏览功能。"
+  },
+  "4结语": {
+    "context1": "随着新技术的出现，国外对传统叙词表的改进、创新和应用不断加深。叙词表的编制机构多样化、数量的增长、语种的增加等，显示了其作为成熟的语义工具依然在不断地发展；叙词表在本体构建、知识分类表构建、网络信息组织优化等方面的应用，推动着其研究的深化。新环境下，叙词表对当前的信息组织、知识组织有重大意义。国内在叙词表理论及应用研究方面与国外存在着较大的差距。因此，加强叙词表的理论研究和应用研究势在必行。"
+  },
+  "注释：": {
+    "context1": "$\\textcircled{1}$ 类层次结构是由相互有关联的若干个类以一定的关系构成的。一个类层次结构有两种组成成分：类和类之间的关系。$\\textcircled{2}$ 第一代OPAC被称为“词组索引或先组式系统”$\\textcircled{3}$ 第二代OPAC被称为“关键词或后组式系统。这类系统采纳布尔、截断、限定（按年代、语种）等检索技术，而且能够按关键词作后组式检索。"
+  },
+  "参考文献：": {
+    "context1": "[1]Taxonomy Warehouse[EB/OL].[2011-03-15].http://www. taxonomywarehouse.com/.   \n[2] Thesaurus.com[EB/OL].[2011-03-15].http://hesaurus.com/RogetAlpha-Index.html.   \n[3] Visualthesaurus[EB/OL].[2011-03-15].http://www.visualthesaurus. com/.   \n[4] 侯汉清.网络时代的情报检索语言:进展及热点[EB/OL].[2011-03- 15].http://wenku.baidu.com/view/b42aed6eb84ae45c3b358c3b.html.   \n[5] Eriksen L.From Thesaurus to Ontology:From AGROVOC to the Agricultural Ontology Service (AOS)[J].Synopsis,2003 (1):17-20.   \n[6] 联合国粮农组织AOS项目[EB/OL].[2011-03-15].htp://www.fao. org/fishery/topic/18046/en.   \n[7] Soonho K,Howard WB.A practical Comparison Between Thesaurus and Ontology Techniques as a Basis for Search Improvement[J]. Journal of Agricultural & Food Information,20o6(4) :23-42.   \n[8] Saeed H,Chaudhry AS.Using DeweyDecimal Classification Scheme (DDC) for Building Taxonomies for Knowledge Organization[J]. Journal of Documentation,2002 (5):575-583.   \n[9] Wang Zhonghong, Chaudhry A S, Christopher S G K. Using Classification Schemes and Thesauri to Build an Organizational Taxonomy for Organizing Content and Aiding Navigation[J]. Journal of Documentation,2008 (6): 842-876.   \n[10] General Multilingual Environmental Thesaurus [EB/OL].[2011-03- 15].http://uta.iia.cnr.it/GEMET.htm.   \n[11] Multilingual Thesaurus of Geoscience[EB/OL].[2011-03-15].http:// www.cgi-iugs.org/docs/Multilingual_thesaurus_of_geoscience.pdf.   \n[12] Tudhope D,Binding C.Faceted Thesauri[J].Axiomathes,2O08 (18): 211-222."
+  },
+  "[作者简介]": {
+    "context1": "赵捷中国科学技术信息研究所信息资源中心副主任,高级工程师，研究方向为信息资源建设。  \n司莉武汉大学信息管理学院教授，博士生导师，图书馆学系副主任，已发表论文80余篇。  \n周李梅武汉大学信息管理学院2010级硕士研究生。柴源武汉大学信息管理学院2010级硕士研究生。邓伊婷武汉大学信息管理学院2010级硕士研究生。"
+  }
+}

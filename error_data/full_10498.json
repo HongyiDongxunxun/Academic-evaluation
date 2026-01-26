@@ -1,0 +1,66 @@
+{
+  "original_filename": "full_10498.md",
+  "nothing": {
+    "context1": "$\\bullet$ 杨峰，李月华²",
+    "context2": "（1.广东商学院广东省电子商务市场应用技术重点实验室，广东广州510320；2.信阳师范学院图书馆，河南信阳464000)"
+  },
+  "高维信息可视化方法研究综述": {
+    "context1": "摘要：文章按照高维信息的维数与可视化空间维数对应关系来分类高维信息可视化技术，对现有的高维信息可视化技术方法进行了总结归类，并对如何应用进行了展望。",
+    "context2": "关键词：信息可视化，高维信息可视化；信息技术；综述",
+    "context3": "Abstract:Thispaperclasifies thevisualization technologiesofthemulti-dimensional information inacordance withtherelationshipsbetweetenumberofthedimensionsoftemult-dimensionalinformationandthenumberoftedimensionsofthevisualizationspace，summarizestheexistingvisualizationtechnologiesofthemulti-dimensional information，andfinallypredictsthe method of application.",
+    "context4": "Keywords:information visualization；multi-dimensional information visualization；information technology；summary",
+    "context5": "信息可视化的技术方法根据不同的标准可分为不同类别。无论哪种分类方法中，高维信息的可视化都是重要的一类。为全面、准确地反映信息的特征及其内在总体规律，往往需要对相互关联的多个指标进行考虑。这些由多个角度的特征刻画的信息称为高维信息（Multi-dimen-sionalinformation）。对高维信息及其关系可视化称为高维信息可视化。在数学、统计学、决策科学等领域，人们已经研究了一些高维数据或称为多变量数据的处理技术。信息可视化在研究高维问题时与前期相关研究有两个最大的不同，一是如何从高维非数值信息得到高维数值信息；二是可视化要求观测空间不能高于三维。而实际上一维空间视觉观测效果也不是很理想，于是高维信息的可视化还要求将信息处理的空间转化到二或三维空间上。",
+    "context6": "由于人不能同时观察和考虑超过7个角度，于是人们通过反复组合，每次观测高维中的某两维，得到需要的结果；只观测、处理所需要的特征；总体降维，力图最大限度地保留全部特征等。高维信息的复杂性导致很难用简单的标准对现有高维信息可视化技术进行分类。因此，对高维信息可视化分类的研究不多见。对现有高维信息可视化技术，本文从同时观察的维数出发，给出分类及其原因，分析了其特点和应用。J.W.Seo和B.Shneiderman 没有给出分类，但提出一种分类思想，按照高维信息的维数与可视化空间维数对应关系来分类高维信息可视化技术。根据该思想，将现有高维信息可视化技术分为三类： $\\textcircled{1}$ 增加新维法，在可视化空间出现一个新的维。 $\\textcircled{2}$ 维对应映像法（Axis-parallel Projection Methods），将每一维都对应到二维平面上的某种表示方式上。 $\\textcircled{3}$ 降维法，通过线性或非线性映像将高维信息对应到低维空间中。"
+  },
+  "1增维方法": {
+    "context1": "这类思想的代表只有平行坐标法一种。它是最早的可视化技术之一，由以色列TelAviv大学计算机与应用数学系阿尔弗雷得·英思博格教授1959 年发明。它的基本思想是将 $N$ 维数据属性空间通过 $N$ 条等距离的平行轴映像到二维平面上，每一条轴线代表一个属性维，轴线上的取值范围从对应属性的最小值到最大值均匀分布。这样，每一个数据项都可以根据其属性值用一条折线段在平行轴上表示出来。在一个具有 $x y$ 笛卡尔坐标的平面上，从 $y -$ 轴开始，复制 $N$ 个直线，并记做 $x _ { 1 }$ ， $x _ { 2 }$ ，…， $x _ { n }$ 。这些轴称为 $N$ 维欧几里得空间 $R ^ { N }$ 的平行坐标系统，记作 $P ^ { N }$ 。其中所有的平行坐标都有一致的正方向并垂直水平轴。如图1表示了一个十维数据的平行坐标。",
+    "context2": "平行坐标法第一次以论文形式提出是在1980年。30余年来，围绕平行坐标系统的应用包括可视化、自动分类、数据挖掘、优化、GIS、过程控制、决策支持、近似计算和其他一些领域。1990年Inselberg 的研究被可视化界多次引用，由于信息可视化的概念提出在1989年，所以该篇文章被看成是平行坐标法在可视化的第一次应用。该方法很好地表示了规则这种形式的知识，在广泛应用过程中，进一步发展成多种改进形式，如在不同层次上的平行坐标显示；用曲线代替直线增强可视化效果等[。平行坐标与传统直角坐标相比，最大的优点是表达的维数决定于屏幕的水平宽度，而不必使用向量或其他可视图标。当维数增加时传统欧几里得坐标难以表达信息，而平行坐标十分直观，只是由于维数增加而引起垂直轴靠近，辨认数据的结构和关系时稍显困难。",
+    "context3": "![](images/0fd780ec344d9d2cce86e265db6247c63b6ff838510a1827a01ce9d365a1a052.jpg)  \n图1十维空间一组点的平行坐标"
+  },
+  "2维对应方法": "",
+  "2.1雕形图": {
+    "context1": "该技术方法包含了一系列的具体技术。他们根据数据值映射成某种基本几何图形，根据数据值的不同，图形的形状和颜色上有所差异，但基本形状是一样的。雕形图（Glyphs）相当于用二维平面上的 $N$ 个点表示一个 $N$ 维空间上的一个点。主要的浮雕图可视化技术有Stars，StickFigure Icons， Shape Coding 和 Faces 等[14。",
+    "context2": "1）星形图（Stars）。又称雷达图，是一种广泛使用的多元分析图式方法。最早用于研究多变量数据之间的关系进而对它们分类。Excel软件中就提供了该功能。星形图与平行坐标法有不少相同之处，都是在二维平面上绘制$N$ 个坐标轴形成对 $N$ 维数据的二维表示。但不同之处在于，平行坐标法产生了一个新的水平轴，它不代表原始空间的任何内容；一个高维数据在平行坐标空间中绘制成一条 $N$ 段的折线，在星形图中是一个 $N$ 边形；多个数据往往同时绘制在一个平行坐标空间中，以便观察相互关系，而在星形图中如果绘制在一起，将会非常混乱，从而看不清谁是谁，星形图绘制数据常是一个数据一个多边形。",
+    "context3": "2）枝形图（StickFigure Icons）。枝形图方法也是该类基本方法之一，首先选取多维属性中的两种属性作为基本的 $X { \\ - } Y$ 平面轴，然后在此平面上利用小树枝的长度或角度的不同表示出其他属性值的变化。",
+    "context4": "3）形码图（ShapeCoding）。每一个数据用一个矩形表示，矩形被划分为 $N$ 个大小相同的单元，代表 $N$ 维属性。每个单元的颜色由该维上的数值大小决定。",
+    "context5": "4）脸谱图（Faces）。美国统计学家切尔诺夫（H.Chernoff）于1970年首次提出脸谱图，是统计学中一种常用的图式方法。该方法将一个由 $n$ 个元素构成的数据画成一个人脸的形状，不同的分量的数据值大小决定着脸部不同部位的形状和大小，全部部位组成一个特定的表情。表情相类似的脸谱代表着其对应的变量在总体上是接近的。切尔诺夫首先将该方法用于聚类分析，引起各国统计学家的兴趣，纷纷做出改进。最原始的脸谱图画法是切尔诺夫在1973年给出的[。国内最近应用的是用脸谱作为可视化工具，对珠江三角洲地区的惠州、中山、江门三地2008年主要经济战略指标数据进行实证对比分析[。"
+  },
+  "2.2矩阵散点图": {
+    "context1": "该方法是散点图的一种，首先被数据可视化用来可视化高维数据。散点图较早出现在统计领域的应用中，分析成对出现的两个变量之间的相互关系的图形工具。经过多年的实践，散点图发展出多种具体形式，主要有简单散点图、矩阵散点图（ScatterplotMatrices）、重叠散点图、三维散点图、旋转散点图、旋转三维散点图、向日葵散点图等。矩阵散点图用 $N \\times \\left( \\ N - 1 \\right)$ 个二维平面表达 $N$ 维数据的特性，将它们以矩阵形式排列。对一组 $N$ 维数据来说，需要 $N \\times (  N - 1 ) / 2$ 个二维坐标图才能完成全部数据的可视化。通常是在一个方形区域内划出 $N \\times N$ 个小方形区域，每个形成一个二维坐标图，见图 $2 ^ { [ 1 7 ] }$ 。这样每对属性有两个二维坐标图，两个属性分别做 $X { \\ - } Y$ 坐标。由于主对角线上的点一定是直线分布，所以可以更好地利用这 $N$ 个区域，如可以绘制 $N$ 个直方图以增加可视化的总体程度。",
+    "context2": "![](images/edc6a7aaf87c7512d4f6af6bf321c776bfad071504acc26d83048bb23878daae.jpg)  \n图2矩阵散点图"
+  },
+  "2.3多维重叠": {
+    "context1": "多维重叠（Dimensional Stacking）将 $N$ 维坐标分成 $N /$ 2个坐标对，然后将他们重叠在一个二维平面上[。见图3。它是一个六维空间的多维重叠可视化表示，先选取两个坐标组成最外围的 $X { \\ - } Y$ 坐标，按其单位长度分成若干个方格；再选取第二对坐标，在每一个方格中做相同坐标标识；依此下去，直到所有的坐标安排完毕。这时， $N$ 维空间的每一个数据在此重叠的二维平面对应唯一的一个小方格，从而达到可视化的目的。",
+    "context2": "![](images/aa6ab9a3122a5ce53bfa5c5b4e13fd1fbfd4e48580d1df1da69dadd75afc2c0d.jpg)  \n图3六维空间的多维重叠"
+  },
+  "2.4星座图": {
+    "context1": "同多维重叠一样，该方法也是将所有高维数据点在二维平面上找一个位置。不同的是多维重叠将数据安排在直角坐标平面上，而星座图将他们安排在平面极坐标空间，见图4。多维重叠一次处理两个维，一般要求高维空间是偶数的，而星座图一次只处理一个维。",
+    "context2": "![](images/d894acb5047345d590356dde32755b8e4cd2ed4d157400f8b6216962c74f660a.jpg)  \n图4星座图可视化"
+  },
+  "3降维方法": {
+    "context1": "将原始高维空间的信息，或者说信息是处于一个高维空间中，通过映射或变换的方法，生成对应的低维空间（二维或三维）中的数据坐标，这个过程叫降维。用降维的方法实现信息可视化，其中一个关键是要有一个好的降维算法，它能保证在低维空间的数据尽量地保持信息在原始空间的结构。传统的降维技术可以分为线性和非线性两类，但各种改进方法的研制从来就没有停止过。在用于信息可视化时，可根据降维过程中坐标生成的顺序、算法的基本原理等将目前常用的高维信息可视化，方法有：PCA及扩展、MDS及改进、基于神经网络的方法。"
+  },
+  "3.1PCA及扩展": {
+    "context1": "主成分分析法（Principal Component Analysis，PCA)是统计常使用的一种方法。主成分分析利用降维思想，在损失尽可能少的信息的前提下把多个指标转化为几个综合指标的多元统计方法[。多维问题转化为只考虑几个主要成分，且很接近原始信息，达到抓住主要矛盾，揭示事物内在联系、规律，提高效率的目的。",
+    "context2": "PCA保留的主成分不确定，可能多于3个，而可视化最多只能绘制三维图案，因此用PCA进行可视化处理时有可能丢掉较多的信息。为了更有效地选择特征，可以被可视化使用的PCA方法主要有：ICA、CCA、主曲线和表面（Principal Curves and Surfaces）、自编码神经网络（Au-to-encoder Neural Networks）、线性混合模型（Mixtures ofLinearModels）、Auto-associativeNetworks，GeneralizedPCA，Kernel PCA等。"
+  },
+  "3.2MDS及改进": {
+    "context1": "多维尺度法（Multidimensional Scaling，MDS），又称多维标度法。MDS是一种非线性映射，在一个确定维数的空间中估计一组样本的坐标，这些坐标需要用一个 $n \\times$ $n$ 矩阵 $D = \\left( \\ d _ { i j } \\right)$ ，对于距离矩阵 $D = \\left( \\ d _ { i j } \\right)$ ，MDS的目的是要获得一个 $k$ 和 $R k$ 中的 $n$ 个点 $x _ { 1 } \\ , \\ x _ { 2 } \\ , \\ \\cdots , \\ x _ { n }$ ，当用 $\\boldsymbol { d } _ { i j } ^ { * }$ 表示 $x _ { i }$ 与 $x _ { j }$ 的欧氏距离时， $\\boldsymbol { D } ^ { * } \\ = \\left( \\ d _ { i j } ^ { * } \\right.$ ）与 $D$ 在某种意义下接近。常取 $k = 1 , \\ 2 , \\ 3$ ，这样刚好可以用来可视化。对距离的获得可以通过数据矩阵计算，也可以通过其他方法获取[。Sammon 映射是MDS 方法中最广泛使用的一种，Sammon映射技术将高维空间数据间的距离矩阵 $D = \\left( \\ d _ { i j } \\right)$ 看成输入距离矩阵，并在使误差 $\\sum _ { i < j } \\ \\left[ \\ d _ { i j } \\ - \\ f _ { i j } \\right] ^ { 2 } / d _ { i j } ]$ 为最小值情况下在低维空间（特别是二维）生成数据坐标，并带有输出距离矩阵 $F = \\left( f _ { i j } \\right)$ 。例如用该方法分析了电子商务网站网页间的关系，进而进行组织信息。问题简单地描述为：一个电子商务网站一般有多个网页，将不同商品分列在网页上。"
+  },
+  "3.3基于神经网络的方法": {
+    "context1": "神经网络提供了另外一类非线性数据映射的方法[212]。如自组织地图（Self-organizing Map，SOM）、生成拓扑（Generative Topographic Mapping，GTM）和ViSOM等，它们在可视化信息时，同时保持了数据之间的结构关系和分布情况。",
+    "context2": "自组织地图由芬兰教授T.Kohonen首先提出23-24 。与其他聚类方法相比，SOM优点在于可以实现实时学习，网络具有自稳定性，无须外界给出评价函数，能够识别向量空间中最有意义的特征，抗噪音能力强。使用SOM进行文本聚类时，文本成为算法的输入，SOM要求将其用向量形式表示。一些研究表明100个词与200个词的作用效果是差不多的。图5是一个文本聚类的 SOM可视化例子。",
+    "context3": "![](images/71d9645c39dd911bde2dc437fe462b7ea0be71d459171665ae108ec77208e692.jpg)  \n图5文本聚类的 SOM可视化结果"
+  },
+  "几种典型的降维算法的特征比较见表1。": {
+    "context1": "表1几种降维算法的比较",
+    "context2": "<table><tr><td rowspan=1 colspan=1>算法</td><td rowspan=1 colspan=1>映射满足拘束</td><td rowspan=1 colspan=1>注解</td></tr><tr><td rowspan=1 colspan=1>MDS</td><td rowspan=1 colspan=1>∑ji(xi - Yj)²</td><td rowspan=1 colspan=1>空间的总距离差最小</td></tr><tr><td rowspan=1 colspan=1>Sammon&#x27;sprojection</td><td rowspan=1 colspan=1>∑jci(x - Y)²/Xj</td><td rowspan=1 colspan=1>强调了输入空间的局部距离。Sammon映射有一个内在的不稳定性：当Xi趋向0时，将无法计算，因此常选一个常数c，并用max（c，X）代替Xi</td></tr><tr><td rowspan=1 colspan=1>CCA</td><td rowspan=1 colspan=1>∑jci(xi-Yj)²AYij)</td><td rowspan=1 colspan=1>强调了输入空间的局部距离。fYy）是随输出空间距离单调递减的</td></tr><tr><td rowspan=1 colspan=1>SOM</td><td rowspan=1 colspan=1>∑Xik²hck(Yck)</td><td rowspan=1 colspan=1>输入空间距离不使用点点之间的距离，而用点向量与输出原型之间的距离</td></tr></table>"
+  },
+  "4结束语": {
+    "context1": "人们希望在观察问题时信息数量比较少，但同时又尽可能多地反映全部总体特征。这里的矛盾是人们希望尽量不要遗漏有用的信息，而同时信息量的增加导致了处理的难度加大、信息重叠以至于不能发现其中的内在规律和特征。高维信息可视化的应用背景有一个共同特点，由于人不能同时观察和考虑超过7个角度，因此对于多因素信息的观察必须经过一定的转换。转换过程如果不丢失信息，一次只能观察少量信息单元，对全局就要多次比较，如维对应方法。若要求同时能尽可能多地反映全部总体特征，就只能抛弃部分次要信息进行降维，其精度取决于映射满足拘束的限制。",
+    "context2": "由于各种信息集合的结构存在复杂性与差异性，因此，用一种方法解决所有问题有一定的难度。我们下一步的工作将集中在实证研究与应用上，并对一些应用较广的分支探讨效率更高的实现方法。□"
+  },
+  "参考文献": {
+    "context1": "[] CHEN C. Empirical evaluation of information visualizations: an introduction[J]．Int.J.Human-Computer Studies，2000 (53):631-635.   \n] 刘玮，周宁，文燕平．信息可视化的分类研究[]//信 息可视化与知识管理—2003信息化与信息资源管理学术 研讨会论文选．武汉：湖北人民出版社，2003：85-92.   \nB YIN H. Nonlinear multidimensional data projection and visualization[C]//Intelligent Data Engineering and Automated Learning，Springer-Verlag Berlin Heidelberg，2003. 杨峰，李蔚．信息可视化技术的分类研究[．图书与情 报，2007 (3)：81-85.   \n5] SEO JW，SHNEEIDERMAN B.A rank-by-feature framework for unsupervised multidimensional data exploration using low dimensional projections[C]//IEEE Symposium on Information Visualization，2004: 65-72. http://www.math.tau.ac.il/\\~aiisreal.   \nINSELBERG A.N-Dimensional Coordinates[．Proceedings of the Workshop on Picture Data Description & Management, 1980（August）. 8] INSELBERG A，DIMSDALE B.Parallel coordinates:a tool for visualizing multidimensional geometry[C]//IEEE Proceedings of Visualizing 90，1990:361-378. FUAY，WARD MO，RUNDENSTEINEREA.Hierarchical parallel coordinates for exploration of large datasets[C]// Proceeding of Visulization99，1999:58-64.   \n[0] GRAHAM M.，KENNEDY J. Using curves to enhance parallel coordinate visualizations[C//Proceedings of the Seventh International Conference on Information Visualization（IVO3）, 2003:10-16.   \n[1] WARD M O. XmdvTool: intergrating multiple methords for visualizing multivariate data[//Proceedings of Visualization' 90，1990:326-333.   \n[2] RIBARSKYW，AYERS E，EBLE J，et al.Glyphmaker: creating customized visualization of complex data l．IEEE Computer，1995，27（7):57-64.   \n[13] LeBLANC J，WARD MO，WITTELS N.Exploring n-dimensional database[C//Proceeding of Visulization 90,1990: 230-237.   \n[4] MARTIN A R，WARD M O. High dimensional brushing for interactive exploration of multivariate data[// Proceeding of Visulization，1995:271-278.   \n[5] CHERNOFF H. The use of faces to represent points in k-dimensional space graphically[．Journal of the American Statistical Association，1973，68(7):361-368.   \n[6] 王健海，曾桢.多维度战略数据的Chernoff脸谱图表示方 法与实证研究[．现代图书情报技术，2010（7/8): 15-21.   \n[7] YANG J，WARD MO，RUNDENSTEINERE A.Interactive hierarchical displays:a general framework for visualization and exploration of large multivariate data sets[]．Computers & Graphics，2003，27(2):265-283.   \n[18] HVVARINEN A，PAJUNEN P. Nonlinear independent component analysis: existence and uniqueness results[]．Neural Networks，1999 (12):429-439.   \n[9] CONDON E，GOLDEN B，LELE S，et al．A visualization model based on adjacency data[]．Decision Support Systems，2002(33):349-362.   \n[0] ZHOUN，YANGF，LIUW，etal DiscoveringB-clusters& B-authorities in E-commerce site by visualized method based on undirected graph [C]//The Third Wuhan International Conference On E-Business，2004:980-988.   \n[1] FREEMAN R，YIN H. Self-organising maps for hierarchical tree view document clustering using contextual information []// LNCS-2412，2002:123-128.   \n[2] BISHOPCM，SVENSeN M，WILLIAMS CKI.GTM:the generative topographic mapping[J]．Neural Computation, 1998 (10): 215-235.   \n[3] KOHONEN T. Self-Organized formation of topologically correct feature maps[J]．Biological Cybernetics，1982（43）: 59-69.   \n[4] KOHONENT.Self-organizingmapsM].Berlin:Sringer， 1995.   \n[5] 张毓敏，谢康林．基于算法实现的文本聚类．计算机 工程，2004，30(1)：75-76.   \n作者简介：杨峰，男，1968 年生，博士，教授。 本日化 1060年牛助理馆旦"
+  }
+}

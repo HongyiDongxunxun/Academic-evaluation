@@ -1,0 +1,88 @@
+{
+  "original_filename": "full_4595.md",
+  "基于本体的推荐系统研究综述唐晓波魏巍": {
+    "context1": "【摘要】基于本体的推荐技术在解决传统推荐系统中存在的数据稀疏性、语义缺乏、推荐精度低等问题中发挥了重要的作用。文章首先梳理了基于本体的推荐系统在实现过程中的关键技术，帮助读者了解基于本体的推荐系统的基本特征和技术实现上的重要问题，然后对基于本体的推荐系统的主流方法以详细介绍应用实例的方式进行了分析与总结，最后对基于本体的推荐系统有待深入的研究和发展趋势进行了展望。"
+  },
+  "【关键词】本体推荐系统语义推荐方法": {
+    "context1": "Abstract:Recommendation technologybased onontology plays an important role in solving the issues of data sparsity， lack of semantic，low recommendation accuracy of the traditional recommendation system.Firstly，this paper summarizes the key technology in the process of implementation of therecommendationsystem based onontology，to help readers understandthe basic characteristicsand the keyproblems whichare proposedto solveinthe technical implementationof therecommendation system based on ontology.Then this paper systematically analyzesand summarizes the mainstream technology method of recommendation system based onontology which isaccording tothegeneralclasificationof recommendation systemand detailed introductionofconcrete appication examples.Finally，the prospectsfor further research and development trend of the recommendation based on ontology are discussed.",
+    "context2": "Key words: ontologyrecommendation systemsemanticrecommendation method DOI:10.15941/j.cnki.issn1001-0424.2016.18.002",
+    "context3": "大数据时代，人们已不再担心资源匮乏，而是被资源过载所困扰。信息技术带来资讯极其丰富的同时，也带来了用户的选择困难症。而最好的选择，就是不需要选择，这就是推荐系统所要解决的问题，推荐系统的目标就是从大集合中选取用户最感兴趣的对象。历史上，推荐系统由于应用了人工智能和信息过滤领域的方法而广受关注，采用这些方法可以推荐Web站点或对新闻进行排序、过滤。现在的推荐技术已在众多行业得到了应用和推广，为不同领域提供着解决方案，比如金融产品、房地产、电影、书籍、购物等，但同时这些推荐系统也存在一些缺陷：（1）冷后动和数据稀疏性问题；（2）不能表达项目和用户需求之间的语义关系，导致的推荐精度低的问题；（3）资源内容结构化程度低，在资源重用和共享方面存在限制等问题。",
+    "context4": "本体的引入为上述问题的解决提供了新的思路，随着国内外研究者的深入探索和实践，本体已在个性化推荐领域显露优势。本文系统梳理了基于本体的推荐系统在实现过程中的关键技术，并对基于本体的推荐系统的主流方法以详细介绍应用实例的方式进行了综述。"
+  },
+  "1基于本体推荐的关键技术": "",
+  "1.1领域本体的构建": {
+    "context1": "领域本体的构建是实现基于本体推荐的基础。本体是对领域概念及其相互关系的形式化表示，是对领域知识共同的理解与描述，是实现语义网技术的关键。Perez等认为按分类法组织的本体是最简单的本体，类或概念、关系、函数、公理和实例是本体的5个基本要素。面向不同的知识领域、描述语言和对象，本体构建的过程和方法会有所不同，本体的构建方法有很多，主要包括企业建模法、骨架法、IDEF5法、循环获取法、知识工程方法和原型进化法等。这里简要介绍知识工程法和基于OWL的原型迭代法。",
+    "context2": "知识工程法是斯坦福大学的Natalya等人提出的一种基于本体开发工具Protege的开发方法，包括以下不断重复的过程：（1）确定领域和范围；（2）重用已有本体；（3）列举重要概念；（4）定义类及类的层级结构；（5)定义类的属性和分面；（6）创建本体实例。",
+    "context3": "文献考虑其标准化的描述语言OWL对本体构建的要求，提出了使用原型迭代模型进行本体的构建，该过程包括领域需求分析、现有本体复用、迭代分析、本体评估修正和本体存储等5个步骤。基于OWL的原型迭代本体构建模型见图1。",
+    "context4": "![](images/13c45c539ea7a284b86fc1bd45b753609506943754d56eb1cc898ed0a8411926.jpg)  \n图1原型迭代本体构建模型",
+    "context5": "利用本体技术进行知识的表示和描述，当用户刚加入Web时只根据用户配置文件分析其兴趣爱好，为用户推荐其感兴趣的内容，当用户在Web上发布的信息不断增加时，可以根据这些内容进一步全面地分析用户兴趣，实现更加精准的推荐。同时，在领域本体构建完成之后，其更新和完善的工作量是很小的，相对于数据挖掘等技术来说，基于本体的推荐节约了大量的计算时间。此外，由于本体中每个概念中不仅含有概念的名称，同时还含有概念的属性、关系和实例等，这些都可以作为最后的推荐结果向用户推送，因此，推荐结果的精确性和可扩展性都获得了很大的提升。"
+  },
+  "1.2语义标注": {
+    "context1": "本体定义了资源描述所使用的词汇集，但对于语义网信息组织来说，在成功完成本体构建后，在资源描述上仍存在两大问题：一是在创建网页、发布网络信息时，如何方便、有效地利用本体中定义的词汇描述网络信息资源；二是对于现有的万维网而言，如何利用本体词汇揭示其中潜在的语义信息。这两个问题都属于语义标注的范畴。",
+    "context2": "语义标注（Semantic Annotation）又称本体标注（Ontology Annotation），是指通过本体中定义的词汇显示地揭示和表达网络中的语义信息。可以将本体看作是由概念分类构成的一个分类词表，语义标注的任务就是依据本体中定义的分类体系，将应用实例或目标文档进行归类，也就是分类标引的过程，这个过程需要借助本体自动标注工具来实现。如果将语义标注过程看作一个过程系统，本体和目标文档则为该系统的输入，本体实例或个体的属性值则为系统的输出，系统的处理过程就是依据给定的本体，通过各类算法[，对目标文档进行自动分类。图2是一种基于特征向量进行概念归类的本体标注模型。",
+    "context3": "![](images/808959072715d8570d2fc7025bc12785c9543f18725fb8fcd36d3de552968040.jpg)  \n图2本体自动标注模型",
+    "context4": "在基于领域本体的推荐系统中，语义标注根据Web上的语义关系实现智能推理，推进语义网技术走向实际应用[。通过语义标注，领域本体中的类与项目之间建立了丰富的语义关系，提高了个性化推荐的精确性[。"
+  },
+  "1.3语义相似度的计算": {
+    "context1": "领域本体使用层次化的树状结构描述类之间的语义关系[，利用领域本体中项目的类型及属性计算项目之间的语义相似度。国内外关于语义相似度的计算方法可以归结为：依据特征模型的、依据语义距离的、依据信息内容的以及混合方法，其中基于语义距离的计算方法在推荐系统中的应用较为广泛。通常情况下，推荐系统中项目的语义距离与项目的相似度之间存在着反比关系，即两个项目的语义距离越大，其相似度越低；两个项目的语义距离越小，其相似度越大。定义两个项目a和 $\\mathrm { b }$ 之间的相似度函数为 $\\mathrm { { S i m } \\ ( \\ a , \\ b ) }$ ，两个项目之间的语义距离和相似度之间存在如下的对应关系： $\\textcircled { 1 } \\mathrm { { S i m } \\left( \\ a , \\ b \\right) } \\quad \\in \\ \\mathrm { { \\sf { b } } } , \\ 1 ]$ ； $\\begin{array} { r l } { \\mathrm { \\left( 2 \\right) } \\mathrm { S i m } \\ \\mathrm { \\left( ~ a , ~ b \\right) } } & { { } = 1 } \\end{array}$ ，则a， $\\mathbf { b }$ 两个项目等价； $\\textcircled{3} \\mathrm { S i m }$ $( { \\mathrm { ~ a ~ } } , { \\mathrm { ~ b ~ } } ) \\quad = 0$ ，则a， $\\mathrm { b }$ 无共同特征； $\\begin{array} { r l } { \\textcircled { 4 } \\mathrm { { S i m } \\ ( \\ a , \\ b ) } } & { { } = \\ \\mathrm { { S i m } \\ ( \\ b , \\ a ) } } \\end{array}$ ，则 $\\mathbf { a }$ ， $\\mathrm { b }$ 两个项目对称。利用领域本体中类的层次关系表示和度量各个节点间的语义关系，可以从语义角度衡量节点间的相似性程度，从而提高推荐的精准度。",
+    "context2": "文献提出一种基于本体的概念相似度计算方法，依据语义距离、语义层次差、语义重合度3个因素进行语义相似度的计算，公式为：",
+    "context3": "$$\n\\begin{array} { r l } { \\mathrm { S i m ~ ( ~ a , ~ b ) } } & { { } = \\frac { \\mathrm { ~ C ~ ( ~ a ) ~ } \\ \\cap \\mathrm { { C } ( ~ b ) } } { \\mathrm { D i s ~ ( ~ a , ~ b ) } \\ \\times \\ ( ~ \\lambda \\times ~ | ~ \\mathrm { { \\Omega h a } } - \\mathrm { { h b } } ~ | \\ + 1 ) } } \\end{array}\n$$",
+    "context4": "其中， $\\textcircled{1}$ Dis $\\left( \\textrm { a } , \\textrm { b } \\right)$ 表示领域本体中的两个概念a与 $\\mathbf { b }$ 之间的语义距离，值为a, $\\mathbf { b }$ 节点间有向边的最短路径； $\\textcircled{2} 1$ ha －hbl表示a与b所处的层次差，ha、hb为a与 $\\mathbf { b }$ 分别所对应的层次深度。相同语义距离的两个概念，其相似度随所处层次之差的增加而减小； $\\textcircled{3} \\mathrm { C }$ （a）nC（b）表示a与 $\\mathbf { b }$ 的语义重合度，值为两个概念以根节点为起始共同经过的节点数与全路径下总节点数之和的比值，其相似度随语义重合度的增加而增大。"
+  },
+  "1.4基于本体的推理": {
+    "context1": "虽然本体清晰、准确地定义了概念的含义，并支持一定的推理，但是由于还没有定义具体的推理规则，因而不能判断命题的真伪。对规则的语义描述可使推荐系统获得更强大的推理能力。在面向语义网和本体的具体应用中，一般的规则描述都是在OWL（Ontology Web Language）的基础上附加谓词逻辑，从而使OWL具有一定的规则表达能力。对OWL进行规则扩展比较热门的提案主要是SWRL（Semantic Web Rules Language）d。SWRL仍用模型论进行语义解释，它是OWL语义的直接扩展。SWRL可被视为规则和本体的结合，通过SWRL，本体描述的关系和条件可以在编写规则时直接使用。在SWRL中仍然保留着用实例来表达推理假设的概念及关系和作为推理结果的这种模式。图3是一个用SWRL描述规则的实例。",
+    "context2": "![](images/ffb588398bbc81aef8e26a2bbd744b4e1b32b16fbd6604a49e2203fdf51bada2.jpg)  \n图3SWRL的一个实例",
+    "context3": "文献1基于领域本体和SWRL构建了一个抗糖尿病药物的推荐系统，为医生提供治疗方案的建议和进行药物的选择，该推荐系统结构见图4。（1）以抗糖尿病药物本体和患者检测本体为基础，支持本体论规范框架，使用Protege构建抗糖尿病药物本体，本体作为知识库进行知识的表示和描述；（2）使用SWRL进行糖尿病药物使用的规则描述，应用规则进行推理；（3）通过推理引擎（Pellt），抗糖尿病药物本体的知识类和概念解释被转换成推荐系统可以接受的格式，进行药品实例的推荐；（4）使用JESS（Java Expert System Shell）进行推理，识别哪些智能代理满足医学检测的结果，同时系统将会显示有关药品禁忌、副作用以及需要注意的事项等实例。",
+    "context4": "文献中，基于本体和模糊逻辑提出了一个良性前列腺增生的诊疗推荐系统。模糊逻辑通过使用形如if-then的模糊变量为规则基础来进行推理。虽然OWLDLs强大的推理工具在用本体进行知识编码的大量应用中较为理想，但他们在处理模糊概念时有一些约束。医生的诊断和治疗推荐是依据医生的经验和知识的，这意味着不同的医生对同一个患者可能会有不同的治疗方案。因为医生的判断本身就是模糊的，所以这是一个非常适合使用模糊逻辑来处理问题和进行推理的领域。用if-then表示的模糊逻辑如下所示：",
+    "context5": "IF[ProstaticEnlargementIsLow] AND [BPHSeverityIs （LowORModerate) ] THEN WatchfulWaitingShouldBeRecommended",
+    "context6": "![](images/4b8ef09c7e60f911699e9fc95693311dab962af0ac5ebbaaabafda413982d3ed.jpg)  \n图4抗糖尿病药物推荐系统结构",
+    "context7": "推荐算法是实现个性化推荐的核心，对推荐系统的性能优劣起着决定性作用2。目前，无论是传统的推荐系统还是基于本体技术的推荐系统，根据推荐算法的不同，主流的推荐方法都可以分为：协同过滤推荐、基于内容的推荐、基于知识的推荐和混合推荐。基于本体技术的推荐系统仍然采用了传统推荐系统中算法的核心思想，但是在具体实现细节上，结合本体技术的优势，对传统的推荐算法进行改进，从本质上解决传统推荐系统中存在的问题。"
+  },
+  "2.1协同过滤推荐扩展法": {
+    "context1": "协同过滤推荐的主要思想是通过已有用户群的既往行为来预测当前用户的喜好。在传统协同过滤推荐系统中，如何确定相似用户集，推荐系统中通用的方法是Pearson相关系数和余弦相似度度量d。随着用户与项目量级的急速膨胀，使曾在业界取得过一定成功的传统协同过滤推荐变得力不从心，该类推荐算法也暴露了一些缺陷，比如在冷后动和用户－项目评分矩阵稀疏的情况下，难以准确找出用户的最近邻居集合，从而不能有效计算用户间的相似度；没有考虑项目之间的语义关联，无法发现项目之间存在的隐含关系，从而导致推荐准确率低等问题。",
+    "context2": "针对传统协同推荐方法中暴露的问题，文献提出一种基于领域本体的协同过滤推荐算法。利用领域本体中项目的层次结构计算项目之间的语义相似度，基于最近邻的思想，依据用户历史项目评分记录来预测新项目的评分，用以填充稀疏的用户－项目评分矩阵，在此基础上实现推荐，以提高推荐的准确率。文献2根据领域本体构建用户兴趣模型，通过对用户兴趣模型的相似度比较，预测Top－N个性化推荐列表，打破以往协同过滤推荐比较用户对不同项目评分的限制。同时，随着用户兴趣的动态变化，根据激活扩展推断理论，用户兴趣模型将被自动更新。该推荐系统框架如图5所示。"
+  },
+  "2.2基于内容的推荐扩展法": {
+    "context1": "基于内容推荐系统的主要思想是得到项目的描述和特征的重要记录，将项目特征与用户兴趣偏好匹配起来，推荐其他类似特征的项目。用户兴趣偏好的获取方法是显式或隐式地分析用户的行为和反馈，或者直接询问用户的兴趣和偏好。实际评估显示，在各种机器学习技术的帮助下该方法可以达到很好的推荐精准度。然而，该推荐方法所面临的挑战依然存在，比如冷启动问题、用户偏好随时间变化等问题。",
+    "context2": "Pretschner等的推荐系统利用领域本体对文档进行标注，然后分析用户的浏览行为，生成用户兴趣模型。最后，通过确定文档在本体中所对应的概念的当前兴趣值推荐相似个性化文档。Middleton等的推荐系统是为计算机科学家推荐令他们感兴趣的研究论文。每个计算机科学家的兴趣对一组计算机科学的主题进行描述，每个主题被赋予数值权重。这些主题被组织成父概念-子概念这样的层次结构，形成研究领域及其子领域的简单本体。假定我们知道研究者对哪些主题感兴趣，以及每篇科研论文的主题，那么我们就能估算出研究者可能对某篇论文感兴趣。为了估算研究论文的主题，系统以一组人工分类的文档（训练集）开始，其中它们的主题是已知的。未分类科研论文的主题需要根据经典的基于内容的技术进行预测。实验评估表明，与只利用平级的主题列表相比，如果采用了主题本体，那么主题与用户间的关联就更精确，利用本体可以显著提高推荐结果的准确度。"
+  },
+  "2.3基于知识的推荐扩展法": {
+    "context1": "![](images/7da70d1b73008ede82ee3952645de99e6708149ff8ca8719b7c9d88fc65fda33.jpg)  \n图5基于用户兴趣本体的协同过滤推荐系统框架",
+    "context2": "基于知识的推荐在某种程度上可以看成是一种知识推理技术[，该方法不需要评分数据，而是利用某领域明确的推荐规则来进行推理。领域知识的聚集和用户需求的获取是基于知识的推荐方法的核心。领域知识的聚集规则及实例的分类方法会由于应用领域的不同而有所差异，因此，该类推荐实例不存在通用性，只适用于特定的应用领域，但是，系统的整体设计流程基本上是一致的。",
+    "context3": "基于知识的推荐系统需要项目及其属性的描述信息，而获取和维护这些数据是一项代价高且容易出错的工作。Jannach等的AllRight系统，通过利用列表式网络资源实例化了一个本体。AlRight系统的基本思想是搜索网络上有表格描述的产品（比如数码相机）作为产品本体的信息源。AllRight本体实例系统的工作流见图6。第 $\\textcircled{1}$ 步中，明确描述领域中产品的属性集合，描述包括属性的范围及其单位。此外，还可以将关键词关联到属性和单位上，表明有各种名称被用于命名属性和单位。系统利用这些关键词 $\\textcircled{1}$ ，用 $\\mathrm { _ { x C r a w l } }$ 爬取网络，提交查询词 $\\textcircled{2}$ 然后下载 $\\textcircled{3}$ 所有描述该领域产品的网页。通过识别组件分析下载的网页， $\\textcircled{4}$ 检查页面是否包含期望的产品描述。同时得到领域本体的帮助，提供用于验证的限制条件。识别出的页面中所包含产品的信息，会交给一个聚类网页的模块，因此每个聚类都描述一个产品 $\\textcircled{7}$ 。再进一步，从这些聚类中抽取出属性/值对，作为生成领域本体实例的输入 $\\textcircled{8}$ 。最终的结果可以看作是一个事实抽取系统，在数码相机和笔记本电脑的测试中达到了理想的评估效果[。"
+  },
+  "3总结与展望": {
+    "context1": "![](images/4166181148d455fc633594438e216a551954f1c9ff99f05843f75477d28ce6ea.jpg)  \n图6AllRight本体实例系统的工作流",
+    "context2": "我们中的大多数人已经习惯于推荐系统的服务，但是，在面临决策选择的时候仍然时常无所适从。如何推荐用户支付得起、个性化、匹配度高的产品和服务是推荐领域的核心问题，也是基于本体的推荐技术提出的初衷。本文对基于本体的推荐系统的研究成果和关键技术进行了系统地梳理，并用实例显示了基于本体的推荐在满足用户语义需求、提高推荐准确度、解决冷后动和数据稀疏性问题、节约计算时间等方面的优势。",
+    "context3": "基于本体的推荐系统虽已取得了一定的成果，但仍然是一个充满问题与挑战的新兴领域，可以深入研究并可能取得进展的方面主要包括：",
+    "context4": "（1）在本体构建过程中，可以引入数据挖掘技术，利用机器学习等算法实现本体的自动构建;（2）将本体作为推荐系统的知识库而设计推荐算法的过程中，提出更加适用、性能更好的推荐算法，更加精准地反映用户的真实需求;（3）针对各界日益关注的大数据处理问题，将基于本体的推荐系统框架移植到云计算等分布式数据处理平台上，利用云平台高效数据处理和存储的特点，改善系统性能，扩展系统的适用范围;（4）Web领域本体的研究还不够成熟，在实际应用过程中还存在许多基础性问题，例如本体更新、本体概念间关系的重要性等问题需要进一步的研究。"
+  },
+  "注释": {
+    "context1": "[第37次中国互联网络发展状况统计报告EB/O1]．（2016-01-22）．2016-06-26].tp:/nnic.cn/gym/xwzx/rdxw/2015/201601/t20160122_53283.htm.",
+    "context2": "[]微信公众平台 EB/O1]．（2012-08-01）．[016-06-26].htp://mp.weixin.qq.com.",
+    "context3": "3明均仁，张玄玄，陈雪．湖北省高校图书馆微信公众平台调查与分析[．图书馆学研究，2016（2)：18-25，7.",
+    "context4": "2016年全国高等学校名单 EB/O1]．（2016-6-3）．[016-06-26].htp://moe.edu.cn/srcsite/A03/moe_634/201606/t20160603_248263. html.",
+    "context5": "]何思南．微信营销2.0M．北京：机械工业出版社，2015：38.  \n[]张秋，王玲，杨蔓．高校图书馆微信公众平台发展现状及对策[．图书馆建设，2014（2)：61-65.  \n郭靓等．微营销M．北京：电子工业出版社，2014：157－158.",
+    "context6": "郭春侠安徽大学管理学院副教授，硕士生导师。",
+    "context7": "朱戈安徽大学管理学院，图书情报专业硕士研究生。"
+  },
+  "「陈鹤．基于语义本体的社交网络服务推荐系统[]．长春：吉林大学，2014.": {
+    "context1": "[11][2] W3C.Annotea Project EB/O1].htp://www. w3.org/2001/Annotea/.  \n[3]MarceloTalls，eio，obertlaeTrinAoeEsingutosemantcWebEEItllin2002，17 (1):26-32.  \n[5]GanesanP，Garacia-molinaHHoerarchicalDomainStructuretoCompute Simlarity.ACMTransactiononSystem，o，21（1)：6493.  \n.6]史忠植，蒋运承等．基于描述逻辑的主体服务匹配[．计算机学报，2004（5)：625-63  \n[7]JuellP.，auonP.UsingReinforentLeangfoarityAessentiCaseBasedSyssEEIntelientSst，1(4): 60 -67.  \n[8]梁俊杰，刘琼妮等．基于本体的Web资源个性化推荐算法[．计算机应用，2014（11)：3135-3139.  \n[19]吴健，吴朝晖等．基于本体论和词汇语义相似度的Web服务发现[．计算机学报，2005（4)：595-602.  \nβ]RungChingChen，YunHouHuangARecommendationSysteBasedonDomaiOntologandSWRLforAnti-DiabeticDrugsSelectionExpertSystem with Applications，2012，39:3995-4006.  \n[2A.Torshi，MZrandi.AybdzntolgBasednellgentSstetDeteneLevelofeverityndTreaentecomedforBenign Prostatic Hyperplasia [.Computer Methods and Programs in Biomenicine，2014(113)：301-313.  \n[3]R.Siagian.Introducing Study Fuzzinessin Complexity Research，Journal of Social Complexity1（2003）38-46.  \n[4]5]田野，祝忠明等．基于关联数据的推荐系统综述[]．现代图书情报技术，2013（10)：1－7.  \n[5]GeorgeT，MeruguSAScalableClbratieFlteringFrameworkBasedonCClusteringIn:Proceingsofe5thEEIteatioalConference on Data Mining，2005:625-628.  \nAdomaviciusG，TuzhilinTowardeNxtGeneratioofRecommenderSystes:ASurveyofteStateofteartandosibleEtesios.IEEE Transactions on Knowledge and Data Engineering，2005，17(6)：734-749.",
+    "context2": "支持 MP3、RMVB、WAV、AMR等格式。“视频”栏目的操作就是上传视频进行群发，馆员可以录制日常讲座的精彩片段，或是采集图书馆内的一些精彩瞬间，制作成视频推送给每一位读者欣赏。但视频不得超过20MB，支持RM、RMVB、WMV、AVI、MPG、MPEG、MP等多种格式。",
+    "context3": "另外值得注意的是，微信平台的操作页面中有一个“数据统计模块”，其下的4个子模块可以帮助馆员及时了解公众号的使用情况：（1）“用户分析”模块。用来分析关注账号的用户增长和属性，例如性别比例、语音分布等，馆员可以利用这个模块及时了解用户的需求，因材施教。（2）“图文分析”模块。用来分析群发图文的点击量等情况，馆员可以利用这个模块了解哪些内容更受用户的欢迎，凭此掌握信息推送的经验。（3）“消息分析”模块。用来分析用户互动的情况，馆员可以利用这个功能了解哪些用户喜欢与图书馆联系。（4“接口分析”模块。用来分析调用接口的使用情况，图书馆员仅需稍作了解即可。"
+  },
+  "3.5安装快捷软件，强化实时咨询": {
+    "context1": "为了保证微信平台在线咨询的时效性，图书馆的管理者应安排合适的咨询馆员进行值班，保证时刻在线，解答读者的疑惑。咨询馆员可以在自己的手机里下载“公众号助手”“公众号管家”等手机APP，借助这些快捷软件，快速登录图书馆的微信平台，如同微信聊天一样，随时随地都可以与用户进行沟通与交流。另外，咨询馆员也应当熟练运用微信平台的各种功能，在遇到棘手的问题时，以语音对讲或传送视频等方式，帮助读者解决困难。"
+  },
+  "(上接第12页)": {
+    "context1": "Danushkaolegala，YutakaMatsuotMeasuringSemantmilaritybetweeWordsUsingWebSarhEginesInProcdngofte International World Wide Web Conference.（2007)，757-766.",
+    "context2": "29]习祖龙，张兴忠．基于本体用户兴趣模型的个性化推荐系统[．计算机应用与软件，2013（10)：155－158.",
+    "context3": "JR.A Spreading Activation Theoryof Memory.Journal of Verbal Learning and Verbal Behavior，1983，22（3)：26",
+    "context4": "B2PretschnerA，GauchSOntologyBsedPersonalizedearchProceedingsofthIEEEInteatioalConfereceonTlswithrtfca Intelligence，1999:391-398.",
+    "context5": "B3]S.E.Midleto，NSdbolt，D.CDeRoureOocalUserrofingiRcomederstes，ACasactiosoIfoaoSe 22，2005 (2):179 -197.",
+    "context6": "[4] 许海玲，吴潇等．互联网推荐系统比较研究[．软件学报，2009（2)：350－362.",
+    "context7": "36Jannach，K.Schekotkin，G.FiedrichAutomatedOntologIstantiationfroTabularWebSourceshelrtSyste，Webntics Science，Services and Agents on the World Wide Web 7( $2 0 0 9 \\mathrm { a } )$ ：136-153.",
+    "context8": "唐晓波武汉大学信息系統研究中心，教授，博士生导师。",
+    "context9": "魏巍武汉大学信息管理学院，博士研究生。"
+  }
+}

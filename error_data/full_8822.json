@@ -1,0 +1,60 @@
+{
+  "original_filename": "full_8822.md",
+  "网络信息半衰期测度研究述评": {
+    "context1": "张瑞",
+    "context2": "(华东师范大学商学院信息系，上海,200241)",
+    "context3": "[摘要]本文将网络半衰期划分为历时半衰期和共时半衰期，并概述了其相关概念及特点;分析总结国内外的网络信息半衰期测度研究状况;指出网络信息半衰期概念体系、测度标准理论研究、网络信息老化实证研究和应用研究将是网络信息半衰期研究未来的发展趋势。",
+    "context4": "[关键词]半衰期历时半衰期共时半衰期测度 [中图分类号]G304[文献标识码]A[文章编号]1003-2797（2009)01-097-04 [Abstract]This article figured that network half-life includes diachronic half-lifeand synchronic half-life,and we outlined the related concept and the characteristic of network information half-life measure research·It also analyzed and summarized network information half-life measure research condition in domestic and the other country· Network information half-life concept system，the standard measure of theoretical research，information networks aging demonstration and applied research will be the future trend of development of the network information half-life research.",
+    "context5": "[Key words]Half-lifeDiachronic half-lifeSynchronic half-lifeMeasure"
+  },
+  "1网络信息半衰期的概念": {
+    "context1": "信息老化半衰期概念最早起源于文献老化研究。信息半衰期是信息老化研究的重要内容之一。1944 年,戈斯内尔在他的《Obsolescence of books incollege libraries(学院图书馆图书老化)》论文中最早提出了“半衰期”的概念[1]。60 年代,美国的R·E·Burton和R.W·Kebler对\"半衰期\"的概念进行了一系列研究,对“半衰期”作为文献老化研究的指标产生质疑,提议用“中值年限(medianage)”来替换\"半衰期”概念[2]。但毫无疑问,“半衰期”概念是文献老化研究的一个重要测度指标[3],至今它仍是信息老化研究中被学界一致认为的最重要的指标之一。随着网络时代的到来和网络计量学的发展，半衰期的概念也应用到网络信息老化中。目前对于网络信息老化的研究处于初步阶段，对网络信息半衰期并没有准确统一的定义。以下是按照不同的标准对网络信息半衰期的两类定义：",
+    "context2": "(1)借鉴文献半衰期中的被引半衰期与引用半衰期的定义。 $\\textcircled{1}$ 网络信息被引半衰期是指：某一站点的全部信息在某一时间段内被引用或被链接的所有信息中较新的一半是在最近多长时间内发表的。$\\textcircled{2}$ 网络信息引用半衰期是指：某一站点的全部信息在某一时间段内引用或链接的所有信息中较新的一半是在最近多长时间发表的[4]。",
+    "context3": "(2)以网络信息研究对象特征对网络信息半衰期定义。 $\\textcircled{1}$ 宏观网络信息资源半衰是指某主题领域网络信息资源所含链接的链宿所指资源中较新的一半是多长时间内产生的。 $\\textcircled{2}$ 微观网络信息资源半衰期是指指向该网络信息资源的全部其他网络信息资源的二分之一是在其发布后的多长时间内出现的[5]。这种划分仍然部分地借鉴了文献半衰期中被引半衰期与引用半衰期的定义。",
+    "context4": "笔者根据目前网络信息半衰期的测度现状，将网络信息半衰期分为历时半衰期测度和共时半衰期测度。在文献半衰期中，历时半衰期与共时半衰期的概念理解基本上是等同的[6]。但在网络信息半衰期中，历时半衰期与共时半衰期有了非常大的差异。历时半衰期与共时半衰期考察的对象已经产生了很大不同。对于历时半衰期来说，研究者要调查的是网络链接的不可访问性。对于共时半衰期来说，研究者关注的焦点是新的网络链接产生情况。目前的有关网络半衰期的测度研究基本上是沿这两个方向进行。",
+    "context5": "历时半衰期研究是用过程的观点来进行网络信息老化和半衰期研究。这种观点认为，网络信息老化是一个动态的过程。它强调时间的推移性即“历时\"性对网络链接不可访问情况的影响。用历时的观点看网络信息半衰期就是：网络链接(引用)有一半不可访问所需要的时间[]。有关网络信息的历时半衰期测度在国外研究比较多，也取得了比较大的进展。见图1。",
+    "context6": "![](images/d1e3e269118e7c60c19d4fb0071bc9384ebb1b1f54c35931636a77401dd80944.jpg)  \n图1历时半衰期示意图",
+    "context7": "共时半衰期是指用状态的观点来进行网络信息老化与半衰期研究。这种观点认为网络信息老化是一种状态，它强调在当前状态下较新的网络链接产生情况。用共时的观点将网络信息半衰期定义为：网络链接中较新的一半是在多长时间内产生的。目前有关共时半衰期测度研究并不多，但国内有关测度的理论模型已经成型[8]。见图2。",
+    "context8": "![](images/2216d4d85d7d1974cf61d286ae20e5cb936ca522854dfd58c605697007396c1e.jpg)  \n图2共时半衰期示意图"
+  },
+  "2国外网络信息半衰期测度研究": {
+    "context1": "2.1国外网络信息半衰期测度研究状况",
+    "context2": "国外对于网络信息半衰期的研究主要是网络信息历时半衰期的测度。早在1999 年Koehler在《美国信息科学社会杂志（Journalof the American $S o ^ { - }$ cietyforInformationScience)》上发表论文探讨了网络信息的衰减现象。作者指出，互联网具有\"短暂记爆，即网络信息随着时间的推移消失或改变。Koehler用名为WebCrawler工具在网络上获得随机普通的url为研究对象，将网页的访问状态分为三类：一直可访问的网页;间断可访问网页；不可再访问网页(URL已被删除)。Koehler 就针对网页不可再被访问的情况进行了统计，得出网络信息半衰期为1.6年[9]。",
+    "context3": "之后 Dimitrova，Daniela V.和 Bugeja，Mi-chael在网络信息半衰期测度研究方面做了很多研究工作。他们选定特定的某些期刊对其中的网络链接引用进行测度。2OO5 年,Dimitrova，DanielaV.和Bugeja，Michael对网络信息半衰期现象进行了实证研究,对3个杂志在过去4年里的 416 个链接引用进行了可访问研究[10]。其中, $61 \\%$ 的在线引用可到达,在可到达的引用中,只有 $58 \\%$ 的数量可以与被引用内容相匹配。2OO7年,Dimitrova，DanielaV.和Bugeja，Michael 发表了“The half-life of in-ternet references cited in communication journals”一文。在这次研究中,作者增加了样本量并更有针对性地选择了期刊。研究者选择了五种重要的通讯类杂志，分别是：《人类通讯研究（HumanCommuni-cationResearch)》《广播电子媒体杂志(theJournalof Broadcasting & ElectronicMedia)》《通讯杂志(theJournal ofCommunication)》《大众通讯季刊杂志（the Journalism and Mass Communication-Quarterly)》《新媒体与社会(New Media $\\&$ Socie-ty)》,将该五种杂志从 2000 年至 2003 年包含的1126个网络链接引用的URL作为研究对象，对这些期刊的网络引用进行统计分析，有多少引用目前可以访问，有多少比例的引用已不可以访问到。通过计算得到通讯类期刊的网络引用半衰期为3.17年[1]。"
+  },
+  "2.2网络信息历时半衰期测度模型": {
+    "context1": "网络信息历时半衰期测度在国外的研究已经非常成熟。其测度模型为[12-13]",
+    "context2": "$$\nt h = _ { - } \\left[ { \\sf t } \\ln ( 0 . 5 ) \\right] / \\left[ \\ln { \\mathbb { W } ( \\sf t ) } - \\ln { \\mathbb { W } ( 0 ) } \\right]\n$$",
+    "context3": "该模型的各个参数为：",
+    "context4": "$W ( 0 )$ 一是某个年份中某个期刊的在线引用总数量; $W \\left( t \\right)$ 一经过 $t$ 年时间，某个期刊在某个年份的有效(可被访问)在线引用数量; $^ { t h }$ 一所求的该年份期刊的网络信息历时半衰期。",
+    "context5": "根据以上测度模型，我们就可以算出某个年份网络信息历时半衰期。如《新媒体与社会（NewMedia $\\&$ Society）》在 2002年的网络链接引用总数为124个，到2003 年时，仍然有效(仍可以访问)的网络链接引用为71条，则该杂志 2002年的网络信息半衰期为 $[ 2 * l n ( 0 . 5 ) ] ~ / ~ [ \\ln 7 1 ~ - ~ l n ~ 1 2 4 ] =$ 2.49(年)(其中 $t ^ { = 2 }$ ， $W ( 0 ) { = } 1 2 4$ ， $W ( t ) = 7 1 \\dot { } ,$ 。以此类推可以求出各个杂志在各年份的网络信息半衰期，然后求出平均值，就是通讯类期刊从2000 至2003 年的网络信息半衰期。"
+  },
+  "2.3网络信息历时半衰期研究应用": {
+    "context1": "(1)揭示目前期刊的网络链接引用概况以及网络引用的可靠性。论文的参考文献是科研人员进行深度研究的主要信息源之一。随着网络时代的到来，基于网络的信息获取相对更快捷和方便，这导致了目前的期刊越来越多地引用网络信息[14-15]。参考文献中也慢慢出现了网络链接引用，而网络链接又有随着时间从网络上消失的特点。因而对网络链接引用是否可到达进行统计分析是十分必要的。",
+    "context2": "(2)通过对网络信息老化中的链接失败的特有现象进行分析和统计，对研究者的网络信息引用行为起到指导作用[16]。对网络链接的可到达性进行分析统计可以总结出何种类型的URL相对稳定。例如经研究发现,org 和gov 是最可靠的域名[17],引用这两个域名内的网络信息是相对比较稳定的；尽量避免使用较长的URL网络引用，较长的URL的网络引用有更高的可能性出现链接衰退的现象等等[18]。这对研究者在使用网络链接引用时起到指导和建议的作用，进而最大可能地降低链接无效的现象，有利于科研人员的进一步研究。"
+  },
+  "2.4对网络信息半衰期测度结果的初步认识": {
+    "context1": "(1)数据结果不一致性。这一特点在文献老化研究中就已经存在[19],在信息爆炸的网络时代这一特点更加突显。目前的网络信息量可以用\"海量”来形容，信息形式也比文献时代要丰富的多。这就造成了网络信息的半衰期测度类型的多样性。网络信息半衰期的多样性是造成数据结果不一致性的原因之一。抽样技术的误差、网络信息老化研究的欠缺以及无统一的老化半衰期测度标准都是造成半衰期测度结果不一致和冲突的原因。",
+    "context2": "(2)数据结果概数性。网络信息半衰期的数据结果只是一个概括性的数字。它与物理学中的“半衰期\"概念及表达的含义有很大不同，网络信息半衰期并非一个精确数字，也没有代表一个精确的数学现象。它是对网络信息老化的一种趋势描述，它揭示了网络信息可利用性的变化倾向和规律，是一种价值判断[20]。",
+    "context3": "中国信产生时间越长则衰期测度结果倾向于更久。测度周期越长,半衰期更久[21]。也就是说随着时间的推移，网络信息趋向于更稳定。网络信息半衰期的这一特点在 $\\mathrm { K o e h l e r ^ { 1 9 9 9 } }$ 的论文中就提出,后来由 Dimitrova，Daniela V.和Bugeja，Mi-chael进一步证实。这也是造成网络半衰期测度结果不一致性的原因之一。"
+  },
+  "3国内网络信息半衰期研究现状": {
+    "context1": "我国对于网络信息半衰期的实证研究基本上属于空白。相关理论研究也不多。国内最早的有关网络信息老化研究的论文是王宏鑫与邱均平于2003年发表的“关于网络信息老化研究的若干问题”。该篇文章从文献信息老化与信息计量学的角度出发，阐述了当时的网络信息老化的研究现状，分析了网络信息老化的研究内容，并提出了网络信息老化的研究思路与方法。该文也提到了网络半衰期的内容，将网络半衰期分为被引半衰期和引用半衰期。2005 年,段宇锋发表的“网络信息资源老化规律研究”一文是一篇有关网络信息老化研究非常重要的论文。在该文中，作者对网络信息半衰期指标进行了较为细致的分类。笔者认为，在国内文献中对网络信息半衰期的定义都是从较新产生的网络链接情况考虑，属于网络信息共时半衰期的定义，是对网络信息共时半衰期的发展和完善。",
+    "context2": "共时半衰期的实证研究目前在国内外并不多见。共时半衰期适合以大量的团体性(如国家的网络信息资源)网络资源为整体研究对象，进而对团体的网络信息老化规律进行分析总结。特别是段宇锋在\"网络信息资源老化规律研究”一文以网络信息资源为研究对象，体现了共时半衰期适用于大量团体性网络资源的测度研究的思想。笔者认为，以团体性的网络资源为整体研究对象，特别是以国家网络信息资源为整体研究对象的共时半衰期测度，会是网络信息半衰期测度的热点之一。"
+  },
+  "4网络信息半衰期测度研究发展趋势": {
+    "context1": "目前对于网络信息半衰期的测度研究主要是对期刊论文后的网络引用链接进行的分析。其实这只是网络信息半衰期测度研究很小的一个方面。结合目前的网络信息老化测度研究的成果状况及笔者的思考,有关网络信息半衰期研究的两个关键问题需要解决：",
+    "context2": "(1)网络信息半衰期概念体系和测度标准理论研究。目前网络信息半衰期的概念仍然没有统一的规范。因此规范网络信息半衰期的概念体系问题亟需解决。有关的网络信息半衰期测度的标准始终没有统一的规定，这也是造成网络信息半衰期测度结果不一致性的主要原因之一。网络信息半衰期测度研究的测度标准问题不论在国内还是在国外都同样存在。因此有关网络信息半衰期的测度标准问题亟待解决。测度标准统一性的欠缺也是网络信息半衰期测度研究不成熟的表现之一。",
+    "context3": "(2)加强网络信息老化实证研究。",
+    "context4": "$\\textcircled{1}$ 对我国的某类期刊中的网络链接引用进行历时半衰期统计。虽然国外在这方面的研究已经比较成熟，但是国内的相关研究还几乎没有。由于网络信息半衰期的多样性的特点，以我国期刊为研究对象进行的半衰期实证研究是有非常大的意义的。它可以揭示我国期刊的网络引用概况以及网络引用的可靠性。",
+    "context5": "$\\textcircled{2}$ 以国家网络信息资源为整体研究对象对国家网络信息资源进行历时半衰期测度。以抽样研究方法对国家网络链接的可到达性进行统计。",
+    "context6": "$\\textcircled{3}$ 以国家网络信息资源为整体研究对象对国家网络信息资源进行共时半衰期测度研究。以抽样研究方法对国家网络信息资源中的最新产生的网络链接进行统计。",
+    "context7": "$\\textcircled{4}$ 链接衰退测度研究。这方面的研究在国外的发展比较成熟,相关的测度工具、测度方法、测度理论等也都有了较为成熟的体系。链接衰退测度研究在我国还并不多见。我国的研究者可以借鉴国外的链接衰退测度方法和理论，结合我国网络信息特点，对我国的链接衰退现象也进行测度。这也是具有非常大的意义的。",
+    "context8": "(3)网络信息半衰期应用研究。将网络信息半衰期研究成果用于指导实践，如网络信息的存储问题，无用的信息仍像新信息一样被组织，网络信息老化研究对如何存储旧的信息具有重要的指导意义。"
+  },
+  "5结束语": {
+    "context1": "信息半衰期的概念自诞生之日起，距今已有60多年的历史。从纸制媒体时代进入数字媒体时代，信息老化及半衰期研究发生了巨大的变化，网络信息半衰期的研究面临了更多的新问题与挑战。本文主要是对网络信息半衰期的测度研究进行了一个综述性的探讨。目前国内对网络信息半衰期的测度研究仍处于起步阶段，我国对于网络信息半衰期的测度研究会有很大的发展空间。",
+    "context2": "参考文献   \n1Endre Sz @va-Kov áts·Unfounded attribution of the“Halflife”index-number of literature obsolescence to Burton and Kebler: A literature science study· Journal of the American Society for Information Science and Technology , 2002,53(13)   \n2Burton $\\cdot$ R·E,Kebler.R. W. The“half-life” of some scientific and technical literatures·American Documentation,1960,(11):18-22   \n3邱均平等·信息计量学·武汉;武汉大学出版社,2007   \n4王宏鑫，邱均平·关于网络信息老化研究的若干问题·情 报理论与实践,2004(4)   \n5,8段宇锋·网络信息资源老化规律研究·图书情报知识, 2005(8)   \n6邱均平.信息计量学(三).情报理论与实践,2000(3)   \n7,11,17,21Daniela V. Dimitrova, Michael Bugeja· The half-life of internet references cited in communication journals $\\cdot$ new media & society,2007,9(5):811-826,16,2 charts:   \n9Koehler W. An Analysis of Webpage and Website Constancy and Permanence $\\cdot$ Journal of the American Society for Information Science,1999,50(2):162-80   \n10 Daniela V. Dimitrova， Michael Bugeja.The Half-Life Phenomenon：Eroding Citations in Journals $\\cdot$ Serials Librarian,2005,49(3):115-123,9,4 graphs·   \n12 KoehlerW. Webpage Change and Persistence- A Fouryear Longitudinal Study $^ { \\ast } \\cdot$ Journal of the American Society for Information Science and Technology,2002,53(2):162-71   \n13,14 Vaughan L,D. Shaw． Bibliographic and Web Citations:What Is the Diference?. Journal of the American Society for Information Science and Technology， 2003,54 (14):1313-22   \n15 Chang T. K,Z Tai . Mass Communication Research and Invisible College Revisited：A Field with a Few Ideas, but No Classics?． Association for Education in Journalism and Mass Communication,Toronto,Canada, 2004.   \n16 Dion Hoe-Lian Goh,Peng Kin Ng.Link decay in leading information science journals· Journal of the American Society for Information Science $\\&$ Technology, 2007,58(1)   \n18 Spinells，D. The decay and failures of web references· Communications of the AC M，2O03,46，71-77   \n19 LineM B.The ‘half-lfe’of periodical literature：appar ent and real obsolescence·Journal of Documentation, March 1970,26(1):46-54,9.",
+    "context3": "20 邱均平·文献计量学·北京:科学技术文献出版社,1988"
+  }
+}

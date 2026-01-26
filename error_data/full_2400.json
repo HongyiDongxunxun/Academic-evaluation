@@ -1,0 +1,153 @@
+{
+  "original_filename": "full_2400.md",
+  "医疗健康大数据研究进展剖析": {
+    "context1": "丁凤─刘婷陈静²",
+    "context2": "(1.武汉大学信息管理学院，武汉，430072；2.华中师范大学信息管理学院，武汉，430079)",
+    "context3": "[摘要］本文从科学研究基本构成角度，对Web of Science中有关医疗健康大数据的文献进行了全面梳理。首先通过文献计量分析了开展医疗健康大数据研究的国家、学科领域、机构和资助来源；接着通过内容分析总结了这些文献的主要研究对象及其特征，介绍了世界范围内较为著名的开放医学数据资源；最后，从基础研究、应用研究和开发研究三方面剖析了医疗健康大数据研究现状，并归纳了各类研究的主要内容和主题。",
+    "context4": "[关键词］医疗健康大数据开放医学数据电子病历医疗信息医疗保险数据互联网医疗数据挖掘",
+    "context5": "[中图分类号]G353.1[文献标识码］A[文章编号］2095-2171(2017)04-0005-013   \nDOI: 10.13365/j.jirm.2017.04.005"
+  },
+  "Current Status of Big Data Research in Medical and Healthcare": {
+    "context1": "Ding Fengyi'Liu Ting'Chen Jing² (1.School of Information Management，Wuhan University，Wuhan，430072; 2.School of Information Management，Central China Normal University,Wuhan,430079)",
+    "context2": "[Abstract]In this paper，from the point of view of the basic composition of scientific researches，the stateof-artbig data researches in medical and healthcare are reviewed through analyzing related literatures retrieved from Web of Science.First，the research subjectsare explored by bibliometric analysis，including countries，disciplines，institutions and funding agencies.Then，the data objects and data characteristics of the existing researches are summarized as well as the world famous open medical data resources by content analysis.At last，the main contents and themes of healthcare big data researches are analyzed from three aspects：basic research，applied research and development research.",
+    "context3": "[Key words]Medical and healthcareBig dataOpen medical dataElectronic medical record(EMR) Medical informationMedical insurance data Internet medicineData mining"
+  },
+  "1引言": {
+    "context1": "随着信息技术在卫生领域的快速发展和普遍应用，医疗健康大数据正在经历爆炸式的增长。从复杂的高分辨率医疗成像数据，到简单的来自穿戴式设备的血压数值数据，这些多源异构的医疗健康大数据，正以每年 $48 \\%$ 的速度增长[1]，医疗健康领域已经成为数据增长最快的领域之一。",
+    "context2": "医疗健康大数据具有革命性意义与重要价值。医疗健康大数据的分析利用可改变传统的医疗实践，并全面提高医疗护理的质量和效率，国际医学领域将电子病历与其它医疗信息的融合利用视为医学领域的第二次信息技术革命[2]。当前，快速发展的大数据分析理论与技术已经在推动医疗研究和实践发面发挥关键作用，并带来了显著的临床效益和成本效益[3]。据麦肯锡全球研究院最近进行的一项研究，大数据分析技术可以使美国医疗卫生机构每年节省 3000 亿美元的支出[4]。",
+    "context3": "但是，医疗健康大数据也给科学研究带来了新挑战。目前，国内外医疗健康大数据研究涉及的研究主体、研究对象以及研究类型与主题众多，且缺乏有效梳理，导致管理决策部门与广大研究人员难以厘清与医疗健康大数据基本理论、关键技术以及其开发利用等相关的各种认识与争议，不利于医疗健康大数据研究的科学谋划、统筹推进与协调发展。因此，本文从科学研究基本构成角度，全面梳理Web of Science数据库中的医疗健康大数据研究论文，通过对研究主体、研究对象以及研究类型与主题的分析与归纳，构建起医疗健康大数据研究的全景框架，揭示医疗健康大数据研究的总体现状和趋势，为相关部门和学者提供指导和借鉴。"
+  },
+  "2研究主体": {
+    "context1": "医疗健康大数据研究的早期代表是《Na-ture》杂志2008年有关生物医药大数据带来的机遇与挑战的\"Big Data\"专刊[5]。自2012年起，医疗健康大数据被多国上升到重要战略资源层面。美国国立卫生研究院（National Institu-tes of Health,NIH)于2012年成立了大数据转化知识联盟(Big Data to Knowledge,BD2K)[6]，该组织关注生物医学研究领域的大数据及其科学整合和最大化。此后，英国医疗卫生信息与发现中心、中国卫生信息学会等医疗健康大数据相关学术组织相继成立[，医疗健康大数据研究在世界范围内得到普遍重视。",
+    "context2": "笔者以“主题 $=$ （medical and healthcare)AND主题 $=$ (bigdata);时间跨度 $=$ 所有年份”为检索条件(检索日期：2017年3月12日），对Web of Science 数据库中的 SCI-EXPANDED、SSCI、CPCI-S、CPCI-SSH四个子库进行检索，得到相关文献212篇，其年代分布如图1所示。",
+    "context3": "从图1可以看出，2008年以前与“医疗健康大数据\"研究主题相关的文献仅有4篇。去除相关度较低的文献，Web of Science核心库中第一篇真正意义上关于医疗健康大数据分析的研究是美国学者辛普森在2005年针对美国卫生保健库数据所做的研究，他利用医疗费用调查数据和全国住院患者样本数据，分析了来自美国不同收入层级家庭的儿童在保险覆盖面、医疗利用、医疗支出以及医疗质量四方面的差异[8]。2008年以后，医疗健康大数据领域的文献逐渐增多。而自2012年起，文献数量呈现出高速增长态势，相关研究成果丰硕。",
+    "context4": "下文将从国家、学科领域、研究机构和资助来源四个方面分析开展和支持医疗健康大数据研究的主体。",
+    "context5": "![](images/487da903d572519cf136efd605b04e58cfb6669f6132ad1fc988ddbd8413e729.jpg)  \n图1每年出版的文献数"
+  },
+  "2.1国家": {
+    "context1": "对212篇文献进行地域分布分析，得到医疗健康大数据研究数量领先的十个国家，如表1所示。",
+    "context2": "在医疗健康大数据领域，美国发文量为63篇，遥遥领先其它国家。中国在这一领域的论文发表量居于第二位，但发文量只有美国的1/3,还有较大差距。随后分别是印度、德国、英国、加拿大、意大利、西班牙、荷兰和澳大利亚。",
+    "context3": "表1主要研究国家和地区",
+    "context4": "<table><tr><td rowspan=1 colspan=1>国家/地区</td><td rowspan=1 colspan=1>记录数</td><td rowspan=1 colspan=1>占比(%)</td></tr><tr><td rowspan=1 colspan=1>USA</td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>29.717</td></tr><tr><td rowspan=1 colspan=1>PEOPLESRCHINA</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>11.792</td></tr><tr><td rowspan=1 colspan=1>INDIA</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>9.906</td></tr><tr><td rowspan=1 colspan=1>GERMANY</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>8.019</td></tr><tr><td rowspan=1 colspan=1>ENGLAND</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>6.132</td></tr><tr><td rowspan=1 colspan=1>CANADA</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>5.660</td></tr><tr><td rowspan=1 colspan=1>ITALY</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>4.717</td></tr><tr><td rowspan=1 colspan=1>SPAIN</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>4.245</td></tr><tr><td rowspan=1 colspan=1>NETHERLANDS</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>3.774</td></tr><tr><td rowspan=1 colspan=1>AUSTRALIA</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>3.774</td></tr></table>"
+  },
+  "值得注意的是，在医疗健康大数据研究与": {
+    "context1": "医疗健康大数据资源整合之间存在着国家差异。根据艾美仕市场研究公司（IMS Health）2013年的调查报告，医疗健康大数据整合最为完备的十个国家分别是：美国、瑞典、英国、丹麦、荷兰、德国、法国、加拿大、意大利和西班牙[9]。可以看到，研究成果较多的国家大多数是医疗健康大数据整合较为完备的国家，这是由于部分国家医疗健康信息化建设起步较晚或发展较慢，系统与数据基础比较薄弱，因此其科学研究暂未有效结合到大规模应用中。比如美国2014年就实现了电子病历的全面覆盖，而根据十三五规划纲要，我国预计要到2020年才能全面建成覆盖全国人口的电子病历数据库[10]。但同时也不难发现，有一些医疗健康大数据整合完备的国家反而相关研究较少，这是由于隐私保护和数据开放等相关法规与制度的制订与实施情况对医疗健康大数据的应用也有重要影响。例如，虽然法国拥有高质量的医疗健康数据资源，但是，由于数据库运用机制、第三方数据提供法等规定对数据利用进行了诸多限制，所以法国医疗数据的研究与利用反而逊色于其它国家。而与此相反的例子是加拿大，凭借其完善的数据提供流程和隐私保护制度，加拿大建立起萨斯喀彻温省和马尼托巴省两地的大规模诊疗明细数据库[9]，该数据库在全球流行病学研究中有重要地位，相关研究成果也非常丰富。"
+  },
+  "2.2学科领域": {
+    "context1": "医疗健康大数据研究横跨生物医学、信息学、计算机科学和系统科学等诸多学科[1]。对文献进行学科领域分布分析，有利于把握其相关学科体系与研究方向差异。",
+    "context2": "分析上述212篇论文的研究方向和 Webof Science类别，表2和表3分别展示了这两项排名前10 的结果。其中,LIS(library and in-formation science)领域的文献共有4篇，在研究方向和Web of Science 类别中分别排名第16 和第12。从表中可以看出，医疗健康大数据相关论文的研究方向与论文所属Web ofScience类别基本吻合，主要集中在计算机科学、电子与通信工程、信息系统、医药信息学、生物医学和卫生保健科学等方面。医疗健康大数据研究表现出了显著的学科融合特征，其核心研究基础主要是计算机科学，信息学与信息系统也占重要地位，而应用领域主要在医药和卫生保健等方面。"
+  },
+  "2.3研究机构与资助来源": {
+    "context1": "根据文献计量结果，医疗健康大数据领域发文量靠前的机构主要是美中两国的大学，具体如下表4所示。",
+    "context2": "表2研究方向分析",
+    "context3": "<table><tr><td rowspan=1 colspan=1>研究方向</td><td rowspan=1 colspan=1>记录数</td><td rowspan=1 colspan=1>占比(%)</td></tr><tr><td rowspan=1 colspan=1>COMPUTERSCIENCE(计算机科学）</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>47.170</td></tr><tr><td rowspan=1 colspan=1>ENGINEERING(工程学）</td><td rowspan=1 colspan=1>52</td><td rowspan=1 colspan=1>24.528</td></tr><tr><td rowspan=1 colspan=1>MEDICAL INFORMATICS(医学信息学)</td><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>17.453</td></tr><tr><td rowspan=1 colspan=1>HEALTHCARE SCIENCES SERVICES(卫生保健科学服务)</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>11.792</td></tr><tr><td rowspan=1 colspan=1>TELECOMMUNICATIONS(电信学）</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>8.962</td></tr><tr><td rowspan=1 colspan=1>PUBLIC ENVIRONMENTAL OCCUPATIONAL HEALTH(公共环境职业与健康)</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>4.717</td></tr><tr><td rowspan=1 colspan=1>GENERAL INTERNALMEDICINE(普通内科医学）</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>4.245</td></tr><tr><td rowspan=1 colspan=1>PHARMACOLOGY PHARMACY(药理学)</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>3.774</td></tr><tr><td rowspan=1 colspan=1>OPERATIONSRESEARCHMANAGEMENTSCIENCE(运筹学与管理科学)</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>2.358</td></tr><tr><td rowspan=1 colspan=1>MATHEMATICAL COMPUTATIONAL BIOLOGY(计算生物学)</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>2.358</td></tr></table>",
+    "context4": "表3Web of Science 类别分析",
+    "context5": "<table><tr><td rowspan=1 colspan=1>Web of Science 类别</td><td rowspan=1 colspan=1>记录数</td><td rowspan=1 colspan=1>占比(%)</td></tr><tr><td rowspan=1 colspan=1>COMPUTER SCIENCETHEORY METHODS(计算机科学理论与方法)</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>24.057</td></tr><tr><td rowspan=1 colspan=1>ENGINEERING ELECTRICALELECTRONIC(电气与电子工程）</td><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1>17.925</td></tr><tr><td rowspan=1 colspan=1>COMPUTERSCIENCE INFORMATIONSYSTEMS(计算机科学与信息系统）</td><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1>17.925</td></tr><tr><td rowspan=1 colspan=1>MEDICAL INFORMATICS(医学信息学）</td><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>17.453</td></tr><tr><td rowspan=1 colspan=1>COMPUTER SCIENCE INTERDISCIPLINARYAPPLICATIONS(计算机科学与跨领域应用）</td><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>15.566</td></tr><tr><td rowspan=1 colspan=1>HEALTHCARESCIENCES SERVICES(卫生保健科学服务)</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>11.792</td></tr><tr><td rowspan=1 colspan=1>COMPUTER SCIENCEARTIFICIAL INTELLIGENCE(计算机科学与人工智能）</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>9.906</td></tr><tr><td rowspan=1 colspan=1>TELECOMMUNICATIONS(电信学）</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>8.962</td></tr><tr><td rowspan=1 colspan=1>COMPUTER SCIENCE HARDWARE ARCHITECTURE(计算机硬件构建科学)</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>7.547</td></tr><tr><td rowspan=1 colspan=1>ENGINEERING BIOMEDICAL(生物医药工程)</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>7.075</td></tr></table>",
+    "context6": "表4医疗健康大数据领域发文量靠前的研究机构(全球)",
+    "context7": "<table><tr><td rowspan=1 colspan=1>机构</td><td rowspan=1 colspan=1>记录数</td><td rowspan=1 colspan=1>占比(%）</td></tr><tr><td rowspan=1 colspan=1>UNIVNOTREDAME(美国圣母玛利亚大学)</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>1.887</td></tr><tr><td rowspan=1 colspan=1>UNIV PENN(美国宾夕法尼亚大学)</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>1.415</td></tr><tr><td rowspan=1 colspan=1>UNIV MICHIGAN(美国密歇根大学)</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>1.415</td></tr><tr><td rowspan=1 colspan=1>TONGJI UNIV(同济大学)</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>1.415</td></tr><tr><td rowspan=1 colspan=1>OAKLAND UNIV(美国奥克兰大学）</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>1.415</td></tr><tr><td rowspan=1 colspan=1>ZHEJIANG UNIV(浙江大学)</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0.943</td></tr><tr><td rowspan=1 colspan=1>US FDA(美国食品药品监督管理局）</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0.943</td></tr><tr><td rowspan=1 colspan=1>UNIVWASHINGTON(美国华盛顿大学)</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0.943</td></tr><tr><td rowspan=1 colspan=1>UNIVTORONTO(加拿大多伦多大学）</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0.943</td></tr><tr><td rowspan=1 colspan=1>UNIVSFLORIDA(美国佛罗里达大学)</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0.943</td></tr></table>",
+    "context8": "进而，将美国发文量前10的机构与中国发文量前10的机构进行对比，如表5所示。可以看到，美国开展医疗健康大数据研究的机构涉及政、产、学三个领域，以高校研究机构为主，以政府部内和民间企业为辅。而中国在医疗健康大数据研究方面贡献较大的机构几乎只有高等院校。这可能是由于美国企业及政府机构积极参与医疗健康大数据建设与研究，商用数据库建设较完善，数据库之间的关联也比较紧密，从而有效促进了各方对医疗健康大数据的研究。而中国的医疗健康大数据研究还处于起步阶段，数据库的构建和整合主要在政府主导下完成，研究工作则主要依托于高校，企业与政府机构尚未深入参与研究。这也说明中国在大数据研究布局上有较大改进空间。",
+    "context9": "表5中美研究机构对比",
+    "context10": "<table><tr><td rowspan=1 colspan=1>美国研究机构</td><td rowspan=1 colspan=1>中国研究机构</td></tr><tr><td rowspan=1 colspan=1>UNIV PENN(美国宾夕法尼亚大学)</td><td rowspan=1 colspan=1>TONGJI UNIV(同济大学）</td></tr><tr><td rowspan=1 colspan=1>UNIVNOTREDAME(圣母玛利亚大学)</td><td rowspan=1 colspan=1>ZHEJIANG UNIV(浙江大学）</td></tr><tr><td rowspan=1 colspan=1>UNIV MICHIGAN(美国密歇根大学)</td><td rowspan=1 colspan=1>TSINGHUA UNIV(清华大学）</td></tr><tr><td rowspan=1 colspan=1>OAKLAND UNIV(奥克兰大学)</td><td rowspan=1 colspan=1>SHANGHAI SANDA UNIV(上海杉达学院）</td></tr><tr><td rowspan=1 colspan=1>USFDA(美国食品药品监督管理局）</td><td rowspan=1 colspan=1>NANJING UNIV INFORMAT SCI TECHNOL(南京信息工程大学）</td></tr><tr><td rowspan=1 colspan=1>UNIVWASHINGTON(华盛顿大学)</td><td rowspan=1 colspan=1>HUAZHONG UNIV SCI TECHNOL(华中科技大学)</td></tr><tr><td rowspan=1 colspan=1>UNIVTORONTO(多伦多大学)</td><td rowspan=1 colspan=1>CHINESE UNIV HONG KONG(香港中文大学)</td></tr><tr><td rowspan=1 colspan=1>OPTUM(联合健康集团）</td><td rowspan=1 colspan=1>CHINESE ACAD SCI(中科院)</td></tr><tr><td rowspan=1 colspan=1>MIT(麻省理工学院）</td><td rowspan=1 colspan=1>XIDIAN UNIV(西安电子科技大学)</td></tr><tr><td rowspan=1 colspan=1>MICROSOFT CORP(微软)</td><td rowspan=1 colspan=1>WUHAN UNIV(武汉大学)</td></tr></table>",
+    "context11": "在资助来源方面，来自39个国家的209个基金资助机构对医疗健康大数据研究给予了资金支持。由于医疗健康大数据是一个新兴的研究领域，截至检索日期，只有中国国家自然科学基金(National Natural Science Foun-dation of China)支持了4篇研究，其余机构均只资助了1篇，比如美国国立卫生研究院(Na-tional Institutes of Health）、美国癌症学会（A-merican Cancer Society）、加拿大公共卫生署(Public Health Agency of Canada)等。",
+    "context12": "从整体上看，大量的高等院校是推动医疗健康大数据研究进程的主力军，成果多、重要文献产出量高的机构主要是高等院校；且相关研究广泛分散于众多高校，成果集中度不高。另外，世界范围内都相当重视医疗健康大数据研究，资助来源多样且分布广泛。"
+  },
+  "3研究对象": {
+    "context1": "关于医疗健康大数据应包括哪些具体数据类型，目前还没有一个普遍认可的定义。如俞国培认为，医疗健康大数据泛指所有与医疗和生命健康相关的数字化的极大量数据，主要包括医院医疗大数据、区域卫生服务平台大数据、基于大量人群的医学研究或疾病监测大数据、自我量化大数据、网络大数据以及生物信息大数据六类[12]。而美国学者Wasser[13]认为，医疗健康大数据指的是大量的可被存储、整合和分析利用的关于患者健康的数据，这些数据可以以各种方式收集和存储，既可以来自于患者的电子病历，也可以来自于传递给保险公司用于医疗报销的诊疗记录。",
+    "context2": "本文基于Web of Science 核心合集中的212篇有关文献，对现有研究的数据对象进行全面梳理。通过内容分析，将上述文献的研究对象归纳为医院医疗大数据、医学研究大数据以及互联网医疗健康大数据三类，基于各类数据的应用研究数量如表6所示（由于基础研究、开发研究和综述等其它类研究大都不是针对某类医疗健康大数据的，因此只展示应用研究中基于各类数据的文献数量）。",
+    "context3": "表6研究对象及相应的文献数量(应用研究)",
+    "context4": "<table><tr><td rowspan=1 colspan=1>研究对象</td><td rowspan=1 colspan=1>医院医疗大数据</td><td rowspan=1 colspan=1>医学研究大数据</td><td rowspan=1 colspan=1>互联网医疗健康大数据</td><td rowspan=1 colspan=1>其它类数据</td><td rowspan=1 colspan=1>应用研究文献总数</td></tr><tr><td rowspan=1 colspan=1>文献数量</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>37</td></tr><tr><td rowspan=1 colspan=1>占比(%）</td><td rowspan=1 colspan=1>62</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>100</td></tr></table>",
+    "context5": "下文将介绍医院医疗大数据、医学研究大数据和互联网医疗健康大数据这三类被广泛应用的医疗健康大数据，并列举相关开放医疗健康大数据资源。"
+  },
+  "3.1主要研究对象及其特征": "",
+  "(1)医院医疗大数据": {
+    "context1": "应用最为广泛的一类医疗健康大数据是医院医疗大数据。医院医疗大数据指的是产生于医院常规临床诊治、科研和管理过程的数据，包括各种门急诊记录、住院记录、影像记录、实验室记录、用药记录、手术记录、随访记录和医保数据等[12]。随着信息技术的发展，院内的医学影像信息系统、临床信息系统、放射学信息系统和实验室信息系统等逐渐被组织和融合，个人的门诊记录和住院记录也正趋向于整合，医院医疗大数据正转化为以电子病历为中心载体的、覆盖医院诊疗全过程的大数据[14]。但目前，由于尚未形成统一的医院信息集成规范，加上各医院的医疗信息化水平有所差异，现阶段的医院医疗数据可能来自于医院各科室单独的管理信息系统或临床信息系统，也可能来自于医院的院内信息集成平台，还可能来自于在多家医院互联互通的基础上整合了人口、健康等相关信息的区域卫生服务平台。另外，根据医疗环境和医疗制度的不同，医院医疗大数据可能会部分或全部的留存于其它院外系统之中。比如在医疗健康保险制度比较健全的欧美等国，在国民报销医疗费用或者申请医疗索赔时，需要向保险方出具包括病名、检查、处方、手术等信息的医院诊疗明细数据，由此构成了保险诊疗数据库。",
+    "context2": "不论医院医疗大数据出自哪一类信息集成程度的医院信息系统，也不论它会流向何处构成其它数据库;不变的是，这部分数据来源于患者的院内诊疗过程，是关于病人就医过程的最原始和最真实的记录，在高级临床决策支"
+  },
+  "持、疾病关联因素分析等方面具有极高的应用价值。": "",
+  "(2)医学研究大数据": {
+    "context1": "除了由医院信息系统产生的医院医疗大数据，来自于专门设计的基于大量人群的医学研究数据也是医疗健康大数据领域的主要研究对象之一。医学研究大数据主要包括各种大型抽样调查数据、疾病监测数据和队列研究数据等。比如加拿大的CANHEART队列研究项目就是典型的医学研究大数据，该项目对980万安大略省成年人进行了长达20年的跟踪研究，收集了大量的电子病历数据、药物使用数据和健康管理数据，希望利用项目数据分析结果提高加拿大公民的心血管健康水平[15]。",
+    "context2": "由于经过专门的设计和组织，医学研究数据的数据质量和内容丰富度均较高，因此是一种较理想的研究数据源。"
+  },
+  "(3)互联网医疗健康大数据": {
+    "context1": "随着移动互联网和物联网的发展，人们足不出户就能利用网络在移动健康应用上寻医问药，或者利用无线医疗设备以及可跟踪患者活动的穿戴式设备监测自身体征数据，如血压、心跳、血糖、心率、体重、心电图、呼吸、睡眠、锻炼数据等[16]。这类基于网络寻医、购药、医师评价等行为产生的互联网数据资源，以及由健康监测设备产生的自我健康管理数据资源，可统称为互联网医疗健康大数据[17]。",
+    "context2": "得益于大数据分析处理技术的快速发展，这类数量庞大、结构复杂的互联网医疗健康大数据逐渐成为医疗健康大数据领域的重要研究对象之一，目前其研究结果多用于日常生活健康监测和个性化疾病预防[18]。"
+  },
+  "3.2医疗健康大数据开放资源": {
+    "context1": "在一些医疗服务体系信息化程度较高的国家和地区，政府或民间企业主导医生和民众积极参与高质量的数据收集工作，并建立了向研究者开放的医疗健康大数据库，例如美国PHYSIONET生物医学数据研究资源网站、重症监护室医疗信息数据集MIMIC-II、英国临床实践研究数据链、台湾健康保险研究数据库等(表7)，这些开放数据资源极大的推动了医疗健康大数据研究进展。",
+    "context2": "表7开放医疗健康大数据资源",
+    "context3": "<table><tr><td rowspan=1 colspan=1>数据库名称</td><td rowspan=1 colspan=1>数据资源</td><td rowspan=1 colspan=1>包含病例数量</td><td rowspan=1 colspan=1>链接地址</td></tr><tr><td rowspan=1 colspan=1>PHYSIONET</td><td rowspan=1 colspan=1>生理信号和生物医学数据</td><td rowspan=1 colspan=1>6.5万</td><td rowspan=1 colspan=1>https://www.physionet.org/</td></tr><tr><td rowspan=1 colspan=1>MIMIC-III</td><td rowspan=1 colspan=1>重症监护室医疗信息数据</td><td rowspan=1 colspan=1>61293</td><td rowspan=1 colspan=1>https://physionet.org/physiobank/database/mimicdb/</td></tr><tr><td rowspan=1 colspan=1>CPRD</td><td rowspan=1 colspan=1>初级医疗保健机构诊疗数据</td><td rowspan=1 colspan=1>1130万</td><td rowspan=1 colspan=1>http://www.cprd.com/</td></tr><tr><td rowspan=1 colspan=1>“NHIRD”</td><td rowspan=1 colspan=1>保险索赔数据</td><td rowspan=1 colspan=1>2300万</td><td rowspan=1 colspan=1>未在网上公开</td></tr></table>",
+    "context4": "（1)PHYSIONET。PHYSIONET是由美国国家卫生研究院(National Institutes of Health,NIH)资助，由美国麻省理工学院、波士顿贝斯以色列迪康医学中心(BIDMC)和波士顿大学等单位联合建立的生物医学信号研究资源网站。",
+    "context5": "PHYSIONET网站中的数据文档集合PhysioBank不仅收录了包括MIT-BIH心律失常心电数据库和重症监护室医疗信息数据集(Medical Information Mart for Intensive Care,MIMIC-II)在内的多个典型生理信号数据库，还收录了神经学数据库、医学影像数据库、合成数据库等数据资源[19]。该网站免费向研究者提供医学研究数据和相关分析工具，极大地促进了医疗数据的共享交流与分析利用。",
+    "context6": "(2)MIMIC-II。MIMIC-II是一个向研究者免费开放的重症监护病人数据集，由美国麻省理工学院计算生理学实验室、BIDMC以及飞利浦医疗共同构建。MIMIC-III包含了53423例年满16周岁的患者住院资料（2001一2012年)，以及7870例新生儿住院资料（2001一2008年)[20]。收集的信息包含医疗信息(如生命体征、化验结果、用药情况等)、生物图像(如超声波图像、核磁共振检测图像、CT图像等）、医疗过程及人口统计信息(入院出院时间、年龄、身高、是否死亡等)。该数据库经过多个学科十多年的建设，目前已被成功应用于疾病预后等多个ICU临床数据挖掘领域。",
+    "context7": "(3)英国临床实践研究数据链。英国临床实践研究数据链(ClinicalPracticeResearch Dat-alin，CPRD)是世界上最大的初级医疗保健数据库之一，旧 称 General Practice Research Datalbase(GPRD)。其收集的初级医疗信息记录向英国和全球数据研究人员开放。到目前为止，该数据库共收集了1130万英国患者的初级医疗记录，具体包括人口统计学信息(出生年龄、性别、体重等）、症状描述信息、诊断信息、治疗信息、预防接种信息、处方信息和生活方式信息(例如是否吸烟等)[21]。同时，CPRD还可与英国二级保健数据库、特异性疾病队列数据库以及死亡记录等数据库相连，以满足研究者更广泛的研究需求。",
+    "context8": "(4)台湾健康保险研究数据库。中国台湾的医疗保险制度十分健全，健康保险几乎实现地区全覆盖，由此产生了大量的用于索赔的诊疗明细数据，具体包括门诊记录、住院记录、用药记录、实验室摄影记录等[22]。这些数据被台湾卫生研究所(“the National Health Research In-stitues\",“NHRI”)收集汇编，整理成为台湾健康保险研究数据库（Taiwan's“National Health Insur-ance Research Database\",\"NHIRD\").\"NHIRD\"收集的医疗信息广泛而全面，并且具有覆盖率高、观察期长等特点，具有很高的研究价值，但目前只向台湾的研究人员及其合作者发布。"
+  },
+  "4研究类型与研究主题": {
+    "context1": "大数据研究具有突出的应用导向特性。医疗健康大数据的一般应用流程是：首先需要调研患者、医生、医院、政府等医疗体系组成部分[23]的应用需求，在此基础上确定哪些数据需要被创建和采集；之后再进行各类数据的集成与整合，构建医疗健康大数据中心;然后以此为基础，开展大数据的分析挖掘，构建医疗健康大数据平台，开发医疗健康大数据应用系统。目前，与上述流程有关的医疗健康大数据研究尚未成熟，研究与应用发展也不均衡，因此有必要区分基础研究、应用研究和开发研究并梳理其研究主题与研究现状。根据文献分析结果，WebofScience核心合集中关于医疗健康大数据的基础研究、应用研究和开发研究数量及占比如表8所示。",
+    "context2": "表8研究类型及相应的文献数量",
+    "context3": "<table><tr><td rowspan=1 colspan=1>研究类型</td><td rowspan=1 colspan=1>基础研究</td><td rowspan=1 colspan=1>应用研究</td><td rowspan=1 colspan=1>开发研究</td><td rowspan=1 colspan=1>综述等其他类研究</td><td rowspan=1 colspan=1>文献总数</td></tr><tr><td rowspan=1 colspan=1>文献数量</td><td rowspan=1 colspan=1>86</td><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>212</td></tr><tr><td rowspan=1 colspan=1>占比(%）</td><td rowspan=1 colspan=1>41</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>100</td></tr></table>"
+  },
+  "4.1医疗健康大数据领域的基础研究": {
+    "context1": "对Web of Science 核心合集中的相关文献进行梳理分析发现，基础研究贯穿医疗健康大数据分析利用的全阶段，从数据采集、数据集成、数据分析到最后的解释利用，旨在探索医疗健康大数据应用基础理论和解决相关技术难题。目前的基础研究主要集中在医疗健康大数据的整合与共享、医疗健康大数据的查询与处理、医疗健康大数据的挖掘与分析、医疗健康大数据分析结果的转化与利用以及医疗健康大数据的隐私与安全这5个方面。"
+  },
+  "(1)医疗健康大数据的整合与共享": {
+    "context1": "医疗健康大数据数量庞大，但目前各类数据多以孤岛形式存在：一方面，医院医疗大数据、互联网医疗大数据等不同来源的数据尚未实现整合；另一方面，区域内各医院信息系统的数据也未完全实现联通互享。而医疗健康大数据的整合与共享，正是加速医学发现的有力手段[24]。许多学者在这方面进行了卓有成效的研究。例如，文献[25]介绍了一种将传感器数据整合到电子病历中的技术框架，此研究为实现移动健康数据的有效利用奠定了基础；文献[26]讨论了一个可增强医疗保健生态系统协同知识发现的框架，系统成员可通过这一框架来实现数据、信息和知识的共享；文献[27]提出了构建医疗健康大数据交换和共享平台的解决方案，旨在实现城市医疗机构间的信息互通；文献[28]研究了医疗数据库的规模对信息共享的影响。"
+  },
+  "(2)医疗健康大数据的查询和处理": {
+    "context1": "不断增长的医疗信息数据中混杂着大量非结构化数据，传统的存储架构已经无法满足其应用需求，在数据处理和查询方面更是面临整合的巨大挑战[29]。不少学者针对非结构化的医疗数据，给出了数据查询和处理方案。例如，文献[30]介绍了针对大量复杂保健数据集的快速临时查询处理技术;文献[31]设计了一种能有效查询非结构化医疗数据的框架；文献[32]提出了一个用于从非结构化医疗记录中提取出可计算的数据元素的解决方案；文献[33]讨论了一种可快速存储、检索和分析大型医疗数据的综合方法，此方法能有效克服各医院的模式差异，实现医疗数据的快速存储和灵活扩展。"
+  },
+  "(3)医疗健康大数据的挖掘与分析": {
+    "context1": "对海量的、多源异构的医疗健康大数据进行分析，亟需开发新型数据挖掘算法，并进一步研究分布式并行处理技术。",
+    "context2": "在医疗健康大数据的挖掘算法方面：文献[34]提出了一种自适应半监督递归树分区框架，此框架能够正确有效地检索具有相似临床或诊断模式的患者，可应用于患者预后、医疗风险评估和比较研究等领域;文献[35]介绍了一种用于子序列匹配的Monte Carlo近似算法，此算法拥有最小的计算复杂度，同时能保证结果的准确性，可用来进行病例诊断以及患者病情发展趋势研究等;文献[36]评估了不同的数据预处理技术对预测糖尿病患者30天内再入院风险准确度的影响，具体研究了特征选择、缺失值插补和数据平衡等预处理技术对逻辑回归分类器、贝叶斯分类器和决策树分类器性能的影响。",
+    "context3": "在医疗健康大数据分布式并行处理技术方面：文献[37]将基于 Hadoop 的分布式计算方法应用于医疗临床数据处理，进行了大数据技术应用于医疗保健领域的有益尝试；文献[38]提出了一个基于五节点Hadoop 集群执行分布式MapReduce的算法，实现了医疗健康大数据的高效处理;文献[39]研究和实现了能够挖掘非结构化医疗数据的可扩展框架，此框架能够以可扩展方式准确、高效地分析非结构化医疗数据。"
+  },
+  "(4)医疗健康大数据分析结果的转化与利用": {
+    "context1": "大数据研究的主要目的是根据需求从大数据中提取有用的知识，并将其应用到具体的领域之中。如何将数据挖掘结果转变为有用的医学知识，并开发相关应用平台，不少学者进行了这方面的探索。",
+    "context2": "首先，数据分析的结果通常只能揭示事物之间的相关关系，但这对于医疗健康领域来说是远远不够的。从大数据的分析结果提取相关医学知识，需要依据科学的方法和审慎的态度。文献[40]进行了如何从大量挖掘结果中提取临床相关知识的初步探索，此研究展示了数据挖掘技术在发现医疗临床知识方面的价值。",
+    "context3": "其次，将从数据挖掘结果中提取的医学知识转化为具体应用，还迫切需要大数据集成解决方案。文献[41]提出了一个基于物联网、复杂事件处理和大数据分析的医疗信息学分析参考框架，该框架可作为实现医疗保健应用系统的基础，能满足医疗卫生行业的信息整合、分析和应用需求。"
+  },
+  "(5)医疗健康大数据的隐私与安全问题": {
+    "context1": "医疗健康大数据涉及到诸多的个人隐秘信息，相较于其它类型的大数据，其隐私保护尤其值得重视，大量学者进行了这方面的研究。例如，文献[42]提出了一个安全和私密的医疗数据管理框架，解决了外包医疗数据库管理中的安全和隐私问题；文献[43]研究的隐私保护技术能够同时满足多个医疗数据共享方的隐私保护需求。",
+    "context2": "另外，有不少学者致力于解决由新技术带来的数据安全问题。其中，作为联系信息孤岛的重要手段，云计算技术被广泛应用到医疗健康数据库中。但云服务提供商作为第三方，可以访问所有的医疗健康数据，这引起了患者对数据隐私的关切。在这种情况下，文献[44]介绍了一种基于减少重新识别风险来保护存储在云中的 EMR 隐私的方法;文献[45]提出了一个强大的针对电子卫生云的三因素身份验证协议，可以抵御各种已知的针对健康云的攻击。",
+    "context3": "这些解决数据的隐私与安全保护问题的技术方案，有效地促进了医疗数据的共享，推进了医疗健康大数据研究进展。"
+  },
+  "4.2针对各类医疗健康大数据的挖掘与应用研究": {
+    "context1": "目前，应用研究主要围绕医院医疗大数据、医学研究大数据和互联网医疗健康大数据展开进行。"
+  },
+  "(1)基于医院医疗大数据的应用研究": {
+    "context1": "医院医疗大数据中应用最多的是电子病历数据和医疗保险数据，其挖掘研究主要用于支持高级临床决策，分析疾病关联因素以及进行个性化诊疗等。",
+    "context2": "电子病历是患者诊疗信息的真实记录，数据内容往往涵盖患者的既往病史、用药记录、生命体征和检测报告等[46]，具有极高的分析利用价值。现有的基于电子病历的挖掘研究多应用于疾病预测、疾病归因分析、用药分析和个性化治疗方案制定等方面。例如，文献[47]利用电子病历数据，构建了针对系统性红斑狼疮的疾病预测模型，可预测出系统性红斑狼疮的潜在高危患者；文献[48]分析了非心胸痛患者的电子病历数据，找到了非心胸痛的归答因素；文献[49]根据美国退伍军人医疗中心的电子病历数据，回顾性评估了住院患者的用药条码资料，以探究是否存在过量使用药物的情况；文献[50]利用多参数监护室智能监测系统数据集(MIMIC-I),构建了基于相似患者识别的预后模型，用以实现个性化治疗。",
+    "context3": "在欧美等医疗保险制度较为健全的地区，保险公司的医疗保健大数据是医疗健康大数据的重要组成。医疗保健数据库通常收集了参保人员的基本信息、诊疗明细数据、医药索赔数据以及服务评价数据等，对这些数据进行分析可以了解疾病的地域分布、评价医疗服务，进而帮助改善患者健康和实现医疗资源的最大化利用。如文献[51]利用德国AOK保险公司提供的用户参保数据，分析了2型糖尿病的空间分布及其社会人口统计学风险因素；文献[52]分析了纽约联合医疗保险公司的索赔数据，研究投保人是否有较好的投资回报率，及其是否享受了更好的医疗服务；文献[53]利用医疗保险索赔数据，分析接受了疾病状态管理服务的心血管病人和没有接受这项服务的病人，在护理费用支出上的差异。"
+  },
+  "(2)基于医学研究大数据的应用研究": {
+    "context1": "医学研究大数据是根据特殊研究目的而设计的专业数据，数据内容多、质量高，应用领域极其广泛。如文献[15]利用加拿大CAN-HEART队列数据，研究了心血管疾病发病率的区域变化情况及原因；文献［54]分析了1997一2008年间的旧金山乳腺摄影记录(SFMR)数据，以探究语言障碍和护理位置两个因素与患者随访延迟的相关关系。",
+    "context2": "(3)基于互联网医疗健康大数据的应用研究",
+    "context3": "对于互联网医疗健康大数据的挖掘利用，主要集中在对网络数据的分析上，而对于由可穿戴设备以及移动互联网应用产生的自我量化数据的应用研究则相对较少。例如，文献[55]分析了美国和中国两个最受欢迎的在线医生评分网站 RateMDs.com 和 Haodf.com，并收集了网友对于各自国家的产科和妇科医生的文字评论数据，利用文本挖掘技术分析了对于医生的正面评论及负面评论的主要话题；文献[56]利用一项在2009年7月一2010年3月期间不断进行的在线调查数据，估计出了2009年H1N1流感疫情期间英国病例的真实数量和病例死亡率。"
+  },
+  "(4)各类数据的综合挖掘利用": {
+    "context1": "除了对单一类型的医疗健康大数据进行挖掘分析，现有的应用研究还表现出了综合挖掘各类医疗健康数据的趋势。例如，文献[57]收集了终末期肾脏疾病患者的电子病历数据、时段内天气数据、体育赛事数据以及假期数据，基于这些临床和非临床数据建立了预测模型，帮助识别在未来一周内具有高可能性不进行血液透析治的患者；文献[58]指出，对于像帕金森病这类复杂的异质性疾病，其治疗方法的研究迫切需要对临床数据、生物标志物数据等多类医疗健康大数据进行协同分析。"
+  },
+  "4.3医疗健康大数据的开发研究": {
+    "context1": "针对医疗健康大数据的应用开发主要集中在临床决策支持系统的开发、个人健康管理系统的开发、远程医疗监控系统的开发以及医疗健康大数据分析结果的可视化工具开发四方面。"
+  },
+  "(1)临床决策支持系统开发": {
+    "context1": "临床决策支持系统，是通过数据、模型等，以人机交互方式辅助临床工作人员决策的计算机应用系统[59]。而大数据可以创建一个动态的临床知识库，从而能使临床决策支持系统变得更加可信和有效[60]。许多学者在开发智能临床决策支持系统方面进行了有益探索，并取得了一定成果。如Khazaei等[61]提出了 Ar-temis医疗健康大数据处理平台，可用于对大量的快速生成的临床数据进行在线分析，实现多病人的并行实时临床决策。"
+  },
+  "(2)个人健康管理系统开发": {
+    "context1": "个人健康管理系统可实时收集、存储和分析用户的诸如心跳、呼吸、体温等多种健康数据，自动判断异常状况并执行实时响应，帮助早期发现和解决用户的健康问题[62,63]。随着传感器、云存储和大数据分析技术的发展，个人健康管理系统的开发也逐渐成为近年来的热点研究方向之一。例如，Althebyan 等[64]开发了基于云的健康监测系统，可用于改善病人健康、降低医疗风险;ChenM等[65]开发了一种智能服装，可持续监测使用者的健康数据，并提供如健康指导、医疗急救和情感关怀等增值服务。"
+  },
+  "(3)远程医疗监控系统开发": {
+    "context1": "远程医疗监控系统的开发也是近年来的热点研究方向之一。尤其对于慢性病患者和终生疾病患者，远程医疗监控系统可以有效地监测其健康状况，帮助提升健康水平。如 Paez等[66]开发的基于大数据处理和生命体征监测的慢性病患者监测平台，可对慢性病患者进行远程监控，并提供个性化的健康服务；Yip等[67]针对高血压患者开发的血压监测云平台，能为高血压患者提供数据血压采集和血压管理服务；Khalaf等[68]开发的针对镰状细胞病的远程医疗智能管理系统，可自动收集患者数据、发现异常情况，并及时向医疗顾问发送消息。"
+  },
+  "（4）医疗健康大数据分析结果的可视化工具开发": {
+    "context1": "数据分析是大数据处理的核心，但是用户往往更关心结果的展示，如果分析的结果正确但是没有采用适当的解释方法，则所得的结果很可能让用户难以理解，极端情况下甚至会误导用户[69]。大数据时代的数据分析结果往往是海量的，同时结果之间的关联关系极其复杂，传统的诸如文本形式的解释方法基本不可行，而数据可视化技术则为提升数据解释能力提供了有效途径。",
+    "context2": "Stadler等[70]开发了实现医疗数据高效可视化的仪表板，可聚合并突出显示关键医疗信息，帮助不同技能水平和专业领域人员理解医疗数据。Badgeley等[71开发了一个电子医疗保健数据可视化工具包，用于快速设计、开发和实施可扩展的临床数据可视化仪表板。lqbal 等[72]开发了一个名为 Cancer Associa-tions MapAnimation 的医学数据可视化工具，能够以可视化方式展示癌症与其它疾病的动态关联，帮助预防和早期发现癌症。"
+  },
+  "5总结与展望": {
+    "context1": "本文采用文献计量法和内容分析法，从研究主体、研究对象、研究类型和主题三个方面对Webof Science中的医疗健康大数据相关文献进行了分析，揭示了该领域的研究全景。在研究主体方面，广泛的资金来源支持着以高等院校为主体的科研机构开展研究，同时，发文量领先的三个国家分别是美国、中国和印度。在研究对象方面，关于医院医疗大数据、医学研究大数据和互联网医疗健康大数据的分析研究占了应用研究总数的 $9 5 \\%$ 。在研究类型和主题方面，基础研究集中于利用云技术促进医疗健康大数据的整合与共享，针对非结构化的医疗健康大数据给出数据查询和处理方案，开发新型数据挖掘算法和分布式并行处理技术以推动医疗健康大数据的挖掘与分析，研究医疗健康大数据分析结果的转化与利用以及解决数据的隐私与安全问题等方面；应用研究主要围绕电子病历数据、医疗保险数据、医学研究大数据和互联网医疗健康大数据展开进行，其分析挖掘结果多应用于疾病归因、个性化临床决策支持、疾病预测和医疗服务改进等方面，同时，应用研究越来越表现出综合挖掘各类医疗健康大数据的趋势；开发研究主要涉及临床决策支持系统开发、个人健康管理系统开发、远程医疗监控系统开发、医疗健康大数据分析结果的可视化工具开发等方面。",
+    "context2": "总的来说，新兴的医疗健康大数据研究总体呈现出多而散的特点。参研的国家、机构众多，涉及学科领域广泛；研究对象种类多样；基础、应用和开发三类研究的主题内容丰富。未来，各国应当全面统筹，推进医疗健康大数据的整合与共享，同时加速协调医疗健康大数据的基础、应用与开发研究，以推动医疗健康服务事业发展。"
+  },
+  "参考文献": {
+    "context1": "[1]Khatril，Shrivastava VK.A surveyof big data in healthcare industry[C]//Advanced Computing and CommunicationTechnologies，Proceedings of the 9th ICACCT,2015.Springer Singapore，2016：245-257  \n[2] MurdochTB,DetskyAS.The inevitableapplicationof big data to health care[J].Jama，2013，309(13)：1351-1352  \n[3] NarayananA，GrecoM,PowellH,etal.The reliabilityof big“patient satisfaction”data[J].Big Data，2013，1(3):141-151  \n[4] James M，Michael C,BradB,etal.Big data:Thenext frontier for innovation，competition,and productivity[J/OL].[2017-05-02].htp://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-fron-tier-for-innovation  \n[5] Lynch C.Big data：How do your data grow?[J].Nature，2008，455(7209)：28-29  \n[6] NIH.About BD2K[EB/OL].[2017-05-04].http://datascience.nih.gov/bd2k  \n[7] 陈敏，刘宁.医疗健康大数据发展现状研究[J].中国医院管理,2017,37(2)：46-48  \n[8] SimpsonL，Owens PL，Zodet MW,et al.Health care for children and youth in the United States:Annual report onpaterns of coverage，utilization，quality，and expenditures byincome[J].Ambulatory Pediatrics，2005,5(1)：6-44  \n[9]中山健夫.大数据时代的医疗革命[M].刘波，译.北京：东方出版社,2016:144-145  \n[10]中国政府网.国务院办公厅关于印发全国医疗卫生服务体系规划纲要(2015—2020年)的通知[EB/OL].[2017-06-04].http://www.gov.cn/zhengce/content/2015-03/30/content_9560.htm  \n[11]惠华强，郑萍,张云宏等.医疗大数据研究面临的机遇与发展趋势[J].中国卫生质量管理,2016,23(2)：91-93  \n[12]俞国培，包小源，黄新霆等.医疗健康大数据的种类、性质及有关问题[J].医学信息学杂志,2014,35(6)：9-12  \n[13]Wasser T，Haynes K，Barron J，et al.Using‘big data’to validate claims made in the pharmaceutical approvalprocess[J].Journal of Medical Economics，2015，18(12)：1013-1019  \n[14]王俊艳，张志鹏，姚振杰等.健康医疗大数据的分析[J].互联网天地，2015，9(9)：4-10  \n[15] TuJV,Chu A,Donovan LR，et al.The Cardiovascular Health in Ambulatory Care Research Team (CANHEART): U-sing big data to measure and improve cardiovascular health and healthcare services[J].Circ Cardiovasc Qual Out-comes，2015，8(2):204-212  \n[16］黄晓琴.医疗健康大数据关键问题及对策研究[J].中国数字医学，2016，11(5)：81-83  \n[17]刘宁，陈敏.医疗健康大数据应用主题及相关数据来源研究[J].中国数字医学，2016,11（8)：6-9  \n[18]KimTW,Park K H,YiSH,etal.Abigdata framework foru-Healthcare Systems utilizing vital signs[C]/ Interna-tional Symposium on Computer，Consumer and Control,2014,Taiwan.IEEE，2015:494-497  \n[19]庞兴梅.PhysioNet信息资源解析及利用[J].医学信息学杂志，2010，31(7):28-30  \n[20] JohnsonAEW,PollardTJ,ShenL，et al.MIMIC-Il,a freely accessible critical care database[J/OL].[2017-05-13].https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4878278/  \n[21] HerrettE，Galagher A M，Bhaskaran K，etal. Data resource profile:Clinical Practice Research Datalink (CPRD)[J].International Journal of Epidemiology，2015，44(3):827-36  \n[22] Chen Y-C,Yeh H-Y，Wu J-C,et al.Taiwan's National Health Insurance Research Database:Administrative healthcare database as study object in bibliometrics[J].Scientometrics，2011，86(2)：365-380  \n[23]FerlieEB，ShortellSM.Improving the qualityof healthcare inthe United Kingdomandthe United States:Aframe-work for change[J].The Milbank Quarterly，2001，79(2)：281-315  \n[24]Stephenson D,HuMT,RomeroK,etal.Precompetitivedata sharingasacatalyst toaddressunmet needs in Parkin-"
+  }
+}

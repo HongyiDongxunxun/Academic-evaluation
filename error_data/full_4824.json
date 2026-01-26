@@ -1,0 +1,79 @@
+{
+  "original_filename": "full_4824.md",
+  "大学数字图书馆网络安全现状及对策研究": {
+    "context1": "马晓亭1,陈臣²",
+    "context2": "(1.兰州商学院 信息工程学院,甘肃 兰州730020;2.兰州商学院 网络中心,甘肃 兰州 730020)",
+    "context3": "摘要：数字图书馆是高校重要信息基础设施，其运行和服务安全问题广泛受到人们关注。本文对基于校园网络的数字图书馆普遍存在的安全问题进行了分析，研究了数字图书馆特点和其所处环境。并依据安全需求,对影响数字图书馆安全诸多因素进行深入探讨，提出了高校数字图书馆安全建设发展对策。",
+    "context4": "关键词：高校；数字图书馆；网络安全；对策中图分类号：G350 文献标识码：A 文章编号:1007-7634(2011)02-0312-04"
+  },
+  "Reseach on Network Security Present Situation and Countermeasures of Digital Library in University": {
+    "context1": "MA Xiao-ting1,CHEN Chen 2",
+    "context2": "(1.School of Information Engineering,Lanzhou Business Institute,Lanzhou 730o2O,China;",
+    "context3": "2.Network Center,Lanzhou Business Institute,Lanzhou 73o020,China)",
+    "context4": "Abstract:Digital libraries is important information base establishment in university.The securities of its existence and service are paid attention continually. This paper analyzes the common problems on security of digital libraries in the campus network,studies the features of digital librariesand its environment.Thinking of the requests of security for digital resources，those fectors of afecting digital librariesp securities were discussed deeply.And countermeasures of security for digital library in university.",
+    "context5": "数字图书馆是用数字技术处理和存储单一印刷体图书信息，它以文本、声、光、图像、影视等多媒体方式表现出来，是一种多媒体制作的分布式信息系统的现代图书馆。它把各种不同载体、不同地理位置的信息资源用数字技术存贮，以便于跨越区域、面向对象的网络查询和传播，是基于网络环境下共建共享、可扩展的知识网络系统，是超大规模、分布式、便于使用、没有时空限制、可实现跨库无缝链接与智能检索的知识中心[]。",
+    "context6": "随着校园用户对数字图书馆依赖程度不断增加，以及校园网络面临威胁和安全问题日益紧迫，全面调查、分析高校数字图书馆安全现状并提出相应对策，是确保大学数字图书馆科学、安全、可靠、高效服务的必要保证。"
+  },
+  "1调查对象与方法": {
+    "context1": "本课题组联合西部5所高校网络中心及图书馆技术部共同进行调查研究，其中985高校一所，211高校一所，省属高校3所。采用问卷、座谈、采访、调取服务器运行及监测日志等方式，对近3年高校数字图书馆运行及安全状况进行了数据采集及分析研究，并依据研究结果对校园数字图书馆安全提出了相应对策。"
+  },
+  "2 大学数字图书馆网络安全现状": "",
+  "2.1数字图书馆网络基本信息": {
+    "context1": "被调查的高校图书馆中，数字图书馆网络均以双千兆光纤冗余接入校园，以确保用户能可靠、快速访问学校自建数字图书资源及所购买的数据库，其中有3所高校对全馆进行了无线网络覆盖。其中4所大学图书馆网络采用两台万兆核心交换机冗余备份建设，以保证数字图书馆24小时不间断工作。5所高校考虑到未来用户数目飞速增长，在网络规划和建设中，对核心、汇聚和接入等设备进行了扩展。",
+    "context2": "为了确保合法用户有效使用数字资源，有2所高校采用账号、密码认证方式对用户身份进行识别，有3所高校采用校内合法IP地址识别方式进行用户访问控制，所有图书馆均支持用户以VPN方式校外远程访问数字图书馆。在数字图书馆安全策略实施中，尽管高校有不同的安全策略与管理方法，但都基本做到有效分析数字图书馆潜在安全漏洞及缺陷,对用户网络访问行为全程安全监控，自动监测、防范网络攻击并形成日志，依据最新病毒情况通报进行防毒补丁下载及重点数据保护、隔离[2]。"
+  },
+  "2.22008\\~2010年数字图书馆网络病毒威胁统计": {
+    "context1": "以半年为时间段对数字图书馆受到的网络安全威胁及攻击进行统计,5所高校数字图书馆平均受攻击的病毒种类及攻击次数如图1所示：",
+    "context2": "![](images/54240bae5f86ceef38cbc2432770593f99a1296a028059b56e17b3f3f46dad8e.jpg)  \n图12008\\~2010年高校数字图书馆网络病毒与攻击次数统计表",
+    "context3": "发现从2008年开始，新病毒产生种类及数量成几何级数增长，而对数字图书馆网络的攻击次数也成比例上升。各种病毒所占比例关系如图2所示：",
+    "context4": "![](images/ad406f00194a208007ede6632cbb7df38e5ede504d706997ad849c29bafebc2b.jpg)  \n图2高校数字图书馆各类病毒比例表",
+    "context5": "网络所受病毒威胁由原有降低系统性能、恶意破坏用户数据方式，向以窃取用户账号、密码为主的木马、蠕虫、后门等恶意病毒过渡。编写者制造病毒目的也从以展示自己高超计算机水平为主，变为通过对数字图书馆主页及二级网站挂木马病毒，在用户访问感染病毒页面后窃取用户账号、密码，进而获取非法利益[3]。"
+  },
+  "2.3高校数字图书馆用户使用安全、可靠性分析": {
+    "context1": "确保合法用户在任何地点通过身份认证后，授权访问高校数字图书馆内、外资源。确保图书馆网络开放性同时实现网络安全。确保数字图书馆内大量电子图书资源有效存储和冗余备份。确保数字图书馆在经受灾难性破坏后数据安全，是高校数字图书馆用户使用安全、可靠性保证的核心问题。",
+    "context2": "在智能经济时代，数字化图书馆是以内容管理为核心，以海量信息处理为目标、以数据加工和交流为技术手段的基础服务平台，一旦关键数据毁坏、丢失后果不堪设想。加强高校图书馆数据中心建设，确保数据中心存储设备安全、可靠、高效、稳定运行是需要重点考虑的问题。",
+    "context3": "通过调查我们发现，这5所高校数字图书馆建设规模尽管不同，但都根据其学科设置与教学科研需要，购买了一定数量的国内、国外数据库资源或建立国外镜像站点，或者建设具有自身特色的自建数据库。确保数据库数据安全及被合法用户使用，是数据库资源版权保护及学校核心利益的保证。同时，校园网内\"DOS攻击”、“DDOS攻击”、“ARP\"等病毒流行，对校园网络的畅通及高效运行构成威胁。而且一旦危险级别高的病毒侵入，将直接对数字图书馆网络核心系统构成威胁。为了提供灵活性、移动性强的自由阅读环境，有3所高校对图书馆进行了无线网络覆盖，这也为黑客提供了避开防火墙进行校内攻击的路径[4]。"
+  },
+  "2.42009.1\\~2010.6数字图书馆服务故障及原因统计": {
+    "context1": "依据各类服务器运行日志及网络技术人员值班记录，我们对5所高校数字图书馆发生的服务故障类别及引起原因进行统计。如表1所示：",
+    "context2": "表15所高校 $2 0 0 9 . 1 { \\sim } 2 0 1 0 . 6 $ 数字图书馆故障及原因统计表",
+    "context3": "<table><tr><td rowspan=\"2\"></td><td colspan=\"4\">严重事故 中等程度事故一般事故 完全基本部分中服务效影响影响个</td></tr><tr><td>中断中断断率低微弱别用户</td><td></td><td></td><td></td></tr><tr><td>感染病毒、蠕虫和木马</td><td></td><td></td><td>17 31</td><td>325</td></tr><tr><td>遭到端口扫描或网络攻击</td><td></td><td></td><td></td><td>172353</td></tr><tr><td>网页篡改</td><td>3</td><td></td><td></td><td></td></tr><tr><td>系统或数据遭到破坏</td><td></td><td>3</td><td></td><td>7</td></tr><tr><td>内部人员破坏或滥用资源</td><td></td><td></td><td>43</td><td>63 156</td></tr><tr><td>服务器及网络设备故障</td><td>13</td><td>21</td><td></td><td></td></tr><tr><td>电力供应故障</td><td>17</td><td>34</td><td></td><td></td></tr></table>",
+    "context4": "从故障发生原因看，因于网络技术人员未按照管理要求对系统漏洞打补丁，未及时更新防毒软件病毒库，未对网络监测中发现的安全隐患进行预防及没有严格执行网络管理与值班规定，是数字图书馆服务中断及服务效率低的主要因素。",
+    "context5": "![](images/99fbdc58001bd9947781f6cb13964368d13d0c36b234d8bbe7b1ce67726ef17b.jpg)  \n图3为2009年1月至2010年6月6个季度数字图书馆故障发生频率与时间关系图。  \n图35所高校2009.1\\~2010.6数字图书馆故障数与时间关系图",
+    "context6": "从图3中分析可知,2009年1月至2010年6月，5所高校数字图书馆服务总故障量按季度划分呈大幅降低趋势。主要原因为近年来国际、国内病毒流行程度及破坏力不断增强，各学校局域网络也受到攻击并造成一定影响。学校领导对数字化校园建设重视程度提高，加大了对网络安全软、硬件建设资金投入，网络管理人员技术水平与安全意识不断增强。"
+  },
+  "3大学数字图书馆网络安全对策": {
+    "context1": "结合近年来数字图书馆存在的安全问题及面临的新威胁，只有紧密联系实际用发展的思维全面建设，才能提高数字图书馆防范能力，安全、高效地为读者服务。"
+  },
+  "3.1采取有效的全局安全措施": {
+    "context1": "采用统一身份准入认证及详细日志审查。对数字用户采用用户名、密码、IP地地址、MAC地址静态、动态绑定相结合方式，确保用户联网时身份唯一。一旦出现安全事件，管理服务器可通过详细的日志审计功能，记录用户上网的详细信息（包括用户名、IP、MAC等)及完整的用户外网访问记录（包括源IP、目的IP、源端口、目的端口、访问时间）,可迅速定位到个人[5]。",
+    "context2": "其次，实行数字图书馆管理员分级授权。不同职能管理员使用自己管理账号登陆不同操作界面，并使用特定权限，避免管理安全隐患。",
+    "context3": "同时，数字图书馆在采购、更新设备时，应着眼于未来用户服务及安全需要，冗余采购具有防DOS攻击,防IP扫描,防IP地址欺骗、防ARP 欺骗、防病毒、带宽控制等具有强大安全防护能力的设备[6]。"
+  },
+  "3.2高性能设备组网": {
+    "context1": "采用万兆核心、千兆干线、百兆到桌面的设计理念，组建数字图书馆服务区局域网络。高吞吐量、线速转发的核心路由器和三层交换机，关键器件冗余，支持板件热插拔技术,这些都保证了网络高效运转，确保未来用户数大规模增加或高峰期时避免服务瓶颈出现。",
+    "context2": "同时，根据无线用户所处地理位置及所需无线应用需求不同，将无线网络划分成若干无线VLAN进行管理。每个VLAN可单独加密、认证，用户可按照身份不同得到不同的校园网络访问权限，防止黑客利用无线网络攻击数字图书馆。"
+  },
+  "3.3建设智能、高效、安全的数据中心": {
+    "context1": "建设智能、高效、安全的存储区域网络是数据中心核心工作。应保证数字图书馆对海量存储设备性能和容量方面要求，能够满足数据高可用性和抗灾需求。能提供强大数据管理功能，能满足数据备份及未来数据与业务增长要求，还要具备较高性价比[7]。"
+  },
+  "3.4加强人员认证培训，制订并遵守严格规章制度": {
+    "context1": "通过座谈及问卷调查我们发现，5所高校从事网络管理及数字图书馆建设,并具备“计算机技术与软件专业技术资格证书”工作人员比例仅占 $47 \\%$ ，近 $1 5 \\%$ 的工作人员第一学历非计算机专业，且未接受过IT安全方面培训。所有学校“校园网络安全管理工作制度\"均为4年前制定，没有结合近年来发现的新问题、新情况有针对性修改、补充。从规章制度执行看，个别人员存在为应付检查而注重各种值班记录及设备保养的文本登记，未将工作真正落实。因此,将数字图书馆从业人员资格及人员培训制度化，将各种规章制度落实到工作方方面面，才能真正做到校园数字图书馆网络安全制度化保障[8]。"
+  },
+  "4结语": {
+    "context1": "数字图书馆网络安全建设是一项包含着人才培养、软硬件环境建设、规章制度制定执行、用户服务满意度保障的系统工程。只有不断增强广大数字图书馆联网单位和计算机用户安全防范意识，结合自身实际特点，有针对性加强安全建设。提高主动发现安全事件的网络监测技术水平，规范内部管理,才能确保高校数字图书馆科学、安全、可靠、高效地为用户服务。"
+  },
+  "参考文献": {
+    "context1": "1 CHEN X Z, ZHENG Q H, GUAN X H, et al.Multiple be",
+    "context2": "havior information fusion based quantitative threat evaluation[J]. Computer & Security,2008,24(3): 218-231.  \n2NING P,CUI Y,REEVES D S,et al. Techniques and toolsfor analyzing intrusion alerts [J].ACM Transaction on Infor-mation and System Security,2009,7(2): 274-318.  \n3MATHEW S,SHAH C,UPADHYAYA S.An alert fusionframework for situation awareness of coordinated multistageattacks [C]//Proceedings of Third IEEE International Work-shop on Information Assurance.College Park,Maryland:IEEEPress,2007:95-104.  \n4张德祥，牟建波，王晓燕.基于虚拟技术的图书馆网络安全体系的设计与实现[J].现代图书情报技术,2009，(6)：73-76.  \n5邢后江,刘慧.信息时代网络安全体系的建设与管理[J].计算机安全,2008,（10):41-43.  \n6李媛.近五年来数字图书馆信息安全问题研究综述[J].图书馆学研究,2008,(12)：10－12.  \n7曾星媛.高校图书馆数字信息资源系统的安全及解决策略[J].现代情报,2007，(2)：90－91,94.  \n8杨向明.论数字信息资源的网络安全[J].中国图书馆学报,2004,(2): 66 - 68.",
+    "context3": "（责任编辑：刘凤琴）"
+  },
+  "（上接第311页）": {
+    "context1": "literature recommendation [J]. Electronic Commerce Research and Applications,2010,9(4):323-334.   \n24 陈定权,武立斌.社会网络视角下的信息推荐[J].情报杂 志,2007,(11):37-39,42.   \n25魏建良,朱庆华.社会化标注理论研究综述[J].中国图书 馆学报,2009,(6):88-96.   \n26Zhao Kelvin.互联网发展方向:社会化[EB/OL].http://www. wappblog.com/50226711/aeec_cae_108068.php,2007 -07 -   \n07.   \n27黄晓斌.社会书签与网络信息推荐服务[J].情报理论与实 践,2006,(1): 121-124.   \n28 田莹颖.基于社会化标签系统的个性化信息推荐探讨[J]. 图书情报工作,2010,(1):50-53,120.   \n29Nanopoulos A. MusicBox:Personalized Music Recommendation Based on Cubic Analysis of Social Tags[J].Ieee Transactions on Audio Speech and Language Processing,   \n2010,18(2): 407-412.   \n30Li H. Q.Exploring Social Annotations with the Application to Web Page Recommendation [J]. Journal of Computer Sci",
+    "context2": "ence and Technology,2009,24(6):1028-1034. 31Walter F.E.A model of a trust-based recommendation system on a social network [J].Autonomous Agents and MultiAgent Systems,2008,16(1):57-74."
+  },
+  "32胡昌平,胡吉明，等.基于社会化群体作用的信息聚合服务[J].中国图书馆学报,2010,(3):51-56.": {
+    "context1": "33Li Y.M.,et al.A synthetical approach for blog recommendation: Combining trust, social relation,and semantic analysis[J].Expert Systems with Applications,2009,36(3):6536- 6547.   \n34Jung J.J.Contextualized mobile recommendation service based on interactive social network discovered from mobile users[J]. Expert Systems with Applications,2009,36 (9): 11950-11956.   \n35Konstas I.et al. On Social Networks and Collaborative Recommendation [C]. SIGIR O9 Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval. New York:ACM,20o9:195- 202.",
+    "context2": "（责任编辑：刘凤琴）"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "original_filename": "full_7486.md",
+  "nothing": {
+    "context1": "$\\bullet$ 邱均平²，祖旋，郭丽琳，肖婷婷",
+    "context2": "（1．武汉大学信息管理学院，湖北武汉430072；2．武汉大学中国科学评价研究中心，湖北武汉430072)"
+  },
+  "机构知识库的研究现状及其发展趋势的可视化分析": {
+    "context1": "摘要：利用信息可视化工具CiteSpace对Web of Science中收录的2003—2013年机构知识库领域的文献分别从时间、地域、研究机构、期刊、高被引文献、研究热点、研究前沿等方面进行分析，以直观地了解机构知识库研究发展的现状，为国内图书馆构建机构知识库的研究与实践提供借鉴。",
+    "context2": "关键词：机构知识库；知识图谱；可视化分析；研究现状；发展趋势",
+    "context3": "Abstract:Basedontheinformationvisualizationtool—CiteSpace，this paperanalyzes theliteraturesof theinstitutionalrepositoryincludedbyWebofSciencein2O03-2O13fromaspectsoftime，region，researchinstution，research hotspotsandesearch front，whichinordertounderstandtheresearchstatusoftedevelopmentofinstitutioalrepositoryintuitivelyandprovidereference for the research and practice of the construction of institutional repository for domestic libraries.",
+    "context4": "Keywords:institutional repository； knowledge mapping; visualized analysis； research status； development trend",
+    "context5": "机构知识库（Institutional Repository，IR），又可以称作机构存储、机构仓储、机构库、机构典藏，是机构在网络环境下建立的一个共享数据库，该平台对各种数字化产品（尤其是学术机构中专家、教授、学生的知识成果)进行收集、保护和传播。大多数学术机构组建机构知识库的目的是提供一个“开放存取”的研究成果交流平台，实现学术研究的全球交流共享，存储其他研究机构的数字资源，包括未公布或以纸质方式存储容易丢失的文献。",
+    "context6": "根据 $0 \\mathrm { p e n D O A R } ^ { \\mathrm { I I } }$ 统计，截至2014年2月10日，全球共有2586个机构知识库在其注册，其中美国有442个，占全球数量的 $1 7 . 1 \\%$ ，英国知识库的数量仅有美国的一半，我国有38个机构知识库，内地有33个，与2011年之前低于10个相比，我国的机构知识库在数量上有较大的发展。但我国在机构知识库上的研究仍然落后于欧美等发展较快的国家。见表1。",
+    "context7": "大多数的机构知识库是图书馆运营的，图书馆工作人员负责机构知识库的运营与维护工作，高校中这种现象尤为明显，而我国在这方面的发展相对较弱。合理运用图书馆中的资源，进行“开放式存取运动”，促进各研究机构之间的沟通交流，是建立机构知识库的一个主要原因，图书馆则在这方面起重要作用。",
+    "context8": "表1各国知识库建设现状",
+    "context9": "<table><tr><td rowspan=1 colspan=1>国家</td><td rowspan=1 colspan=1>美国</td><td rowspan=1 colspan=1>英国</td><td rowspan=1 colspan=1>德国</td><td rowspan=1 colspan=1>日本</td><td rowspan=1 colspan=1>西班牙</td><td rowspan=1 colspan=1>波兰</td><td rowspan=1 colspan=1>巴西</td><td rowspan=1 colspan=1>法国</td><td rowspan=1 colspan=1>意大利</td><td rowspan=1 colspan=1>印度</td><td rowspan=1 colspan=1>其他国家</td></tr><tr><td rowspan=1 colspan=1>数量</td><td rowspan=1 colspan=1>442</td><td rowspan=1 colspan=1>221</td><td rowspan=1 colspan=1>169</td><td rowspan=1 colspan=1>144</td><td rowspan=1 colspan=1>111</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>83</td><td rowspan=1 colspan=1>83</td><td rowspan=1 colspan=1>75</td><td rowspan=1 colspan=1>70</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>占百分比</td><td rowspan=1 colspan=1>17.1</td><td rowspan=1 colspan=1>8.5</td><td rowspan=1 colspan=1>6.5</td><td rowspan=1 colspan=1>5.5</td><td rowspan=1 colspan=1>4.3</td><td rowspan=1 colspan=1>3.2</td><td rowspan=1 colspan=1>3.2</td><td rowspan=1 colspan=1>3.2</td><td rowspan=1 colspan=1>2.9</td><td rowspan=1 colspan=1>2.7</td><td rowspan=1 colspan=1>43.3</td></tr></table>",
+    "context10": "到目前为止，我国在机构知识库上的研究有较大进展，该领域已经成为我国学术界一个重要的研究领域，虽然在这方面的研究逐渐增加，但发展仍相对落后。本文利用可视化图谱分析软件CiteSpace，对机构知识库的研究现状进行深入了解与分析，发现其中的问题，并提出相应的对策。希望能对需要了解该领域研究进展的学者有一定帮助，为该领域的后续研究以及图书馆等相关机构建立、维护其机构知识库提供参考。"
+  },
+  "1数据来源与研究方法": {
+    "context1": "在美国，图书馆在机构知识库建设上占有重要地位，",
+    "context2": "本文以美国科学情报所ISI出版的Web of Science数据库（SCI-Expanded，SSCI，A&HCI，CPCI-S，CPCI-SSH）中的文献为研究来源，以“Institutional Repository为主题词进行文献检索，以2003—2013年为检索时间段，经过查重并删除非相关文献后，得到188篇相关文献，数据下载日期为2014年2月12日。",
+    "context3": "本文采用的研究工具是美国费城Drexel大学信息科学与技术学院陈超美教授基于引文分析理论，应用Java语言开发的信息可视化软件CiteSpace。CiteSpace适用于多元、分时、动态的复杂网络分析，该程序可用于探测学科领域研究前沿变化趋势以及分析研究前沿与知识基础之间的关系，为知识领域动态演进可视化研究提供新平台，并能在绘制的知识图谱中显示某个学科领域在一定时期段中若干研究前沿领域的演进历程。",
+    "context4": "本文采用定量分析的方法，从文献的时间分布、地域分布、机构分布、期刊分布、高被引文章、研究热点以及研究前沿等方面进行分析，从而展现机构知识库研究的发展现状。"
+  },
+  "2结果与分析": "",
+  "2.1时间分布": {
+    "context1": "发文量的时间变化情况是衡量某一研究领域发展的重要指标。机构知识库研究论文的数量、时间分布如图1所示。",
+    "context2": "![](images/e851538d095750070833b8d82b90cc8218b8a54ab6d7b2d7537b067bc8afadc4.jpg)  \n图1机构知识库领域年度发文量",
+    "context3": "根据图1的统计，可以看出，机构知识库领域的研究可以分为3个阶段：2003—2005年可以看作是第一阶段，这一阶段的发文数量缓慢增长，表明该领域的研究正处于起步阶段，已有学者开始关注该研究领域。从2006年起，到的数据进行去重后，在CiteSpace设定适当的阈值，运行软件得到各国有关机构知识库发表文献的合作情况，如图2所示；国外机构知识库研究机构共现网络图谱，如图3所示。",
+    "context4": "论文发表数量快速增加，表明该领域已经成为了研究热点，对机构知识库的相关研究发展到了一个新阶段。2007—2010年，虽然发文数量有所起伏，但总体呈上升趋势，且发文量远远高出上一阶段，可以看出机构知识库已经成为研究的重点。从2011年开始，有关于机构知识库的论文数量在逐渐减少，但对机构知识库建立的技术以及对知识库的深入服务探索在增加，也可以看出该领域正在走向成熟。",
+    "context5": "![](images/3ed437e0c2c5f484eb547157e1b438402dcdcfc067f4f32648d3a644ac20c8f2.jpg)  \n图2机构知识库文献的国家（地区）合作分布",
+    "context6": "图2中是各国有关机构知识库发表文献的合作情况，图2中节点的大小代表国家（地区）发文量的数量多少，节点之间的连线是国家（地区）之间的合作关系，连线的粗细与合作次数成正比，越粗则表示国家（地区）之间的合作越密切。图2中可以看到美国的发文量遥遥领先，其次是英国。虽然发表文献的国家比较多，但各国之间的合作较少，并且也不密切。合作较密切的应当是马来西亚和伊朗，其次是加拿大和新西兰，美国虽然同英国有学术上的交流，但相对前两个国家（地区）来说较弱，且美国同国内研究机构的合作比国际合作更多，英国与委内瑞拉也有些许合作。"
+  },
+  "2.2地域及机构分布": {
+    "context1": "从图3中可以看出，国外机构知识库研究的机构比较分散，大多数是以独立的点出现，只有少量机构之间有合作，图3中节点之间的连线表示各机构之间的合作关系，",
+    "context2": "不同国家（地区）在机构知识库上研究的实力是不尽相同的。将检索线的粗细，表示机构之间的合作的密切程度。从图3中可以看出，少量机构有同本国研究机构之间的学术合作，而多数的机构之间缺少交流合作，尤其是缺乏国际上的学术合作。在机构知识库方面的研究处于较为封闭的状态，科研机构之间缺少交流合作。",
+    "context3": "![](images/80941ed9ec129e40050dfc7b1e3a0928e6d446e1cc36f37ded6957b3e6698a29.jpg)  \n图3国外机构知识库研究机构共现网络图谱",
+    "context4": "美国在机构知识库上的发文量是最多的58篇，但从图3中看出发文量最多的机构是马来亚大学，8篇文章，统计的来自马来西亚的出版的文章总共8篇，可以看出在马来西亚仅仅只有马来亚大学在进行相关的研究。相比较美国，虽然没有某一个研究机构发表的文章数量是很多的，但相对平均的发文量可以明显看出各研究机构都在这方面有相关的研究，且总体的研究成果显著。",
+    "context5": "结合图2和图3来看，在机构知识库研究领域存在的显著问题是学术壁垒问题。"
+  },
+  "2.3期刊分布": {
+    "context1": "对某领域的文献的来源期刊进行分析，可以更好地了解该领域的核心期刊的分布，同时为相关的研究者提供获取相应情报信息的可靠来源。",
+    "context2": "![](images/ad012d44666e35e1c15b3911862d88e7f9a3f234efb2a78e46980201a225ce26.jpg)  \n图4国外机构知识库领域期刊共现知识图谱",
+    "context3": "图4显示的是机构知识库领域的重要期刊，表2中展示的是这些重要期刊的被引用的频次。表2中列举的是机构知识库领域的具有较高影响力的期刊，刊登在其中的文章都是具有代表性的，是反映机构知识库领域的重要问题的文章。",
+    "context4": "表2机构知识库领域高被引期刊",
+    "context5": "<table><tr><td rowspan=1 colspan=1>排名</td><td rowspan=1 colspan=1>被引频次</td><td rowspan=1 colspan=1>期刊名称</td><td rowspan=1 colspan=1>排名</td><td rowspan=1 colspan=1>被引频次</td><td rowspan=1 colspan=1>期刊名称</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=1>D Lib Magazine</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>JAm Soc Inf Sci Tec</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>Case IRepositories</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Portal-Libr Acad</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>Serials Rev</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Arl Bimonthly Report</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>J Acad Libr</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>Program-Electron Lib</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>Ariadne</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Nature</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>Learn Publ</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>Libr Trends</td></tr></table>",
+    "context6": "网络节点中心性，是指网络中经过某点并连接这两点的最短路径线总数比，是用来进行网络节点中心性测度的指标，中心性测量为发现科学研究或主题演进网络中的支点提供了计算依据。在CiteSpace软件中，节点标签（ArticleLabelling）选择按中心性（ByCentrality）显示，中心性大于0.1的期刊有“CaseIRepositories”，‘Serials Rev”,“DLib Magazine'，“Ariadne，‘JAm Soc Inform Sci’，‘LibrTrends，‘Portal-LibrAcad'，‘Nature”这8种期刊的中心性分别是0.26，0.22，0.2，0.14，0.14，0.14，0.13，0.11。该中心性较高的期刊都可以在表3中找到，可以说明这些期刊在机构知识库领域中的重要性，其中刊载的文章具有一定的权威性，并被该领域中的研究人员关注。"
+  },
+  "2.4高被引文献": {
+    "context1": "被引频次的高低，在一定程度上可以反映文献的学术影响力和经典程度，通过对被引文献的被引频次分析可以得出2003—2013年机构知识库领域被引频次较高的文献。被引用频次高的文献通常可以说明该文献中表达的内容获得多数研究者的认同，并成为其他研究人员的研究基础。因而高被引文献在机构知识库领域的研究有重要参考意义。设置相应的参数阈值，运行CiteSpace软件，得到机构知识库领域高被引文献的知识图谱，如图5所示。",
+    "context2": "![](images/9d2c87bb1b34adebbbfc2394e3c6d7241d239a7c9845b952d30f251525935abb.jpg)  \n图5机构知识库领域高被引文献知识图谱",
+    "context3": "图5中，节点的大小与该文章被引频次成正比关系，选取被引频次 $\\geqslant 1 0$ 的文献作为高被引文献，通过对被引频次的排序，共有5篇高被引文章。",
+    "context4": "2002年，SPARC资深顾问R.Crow发表名为“TheCase for Institutional Repositories:A SPARC Position Paper”的文章，他认为机构知识库是收集并保存单个或多个大学、科研机构知识资源的数字化资源集合，机构知识库面临学术机构上的两方面问题，一是激励出版结构的改革创新，二是其作为一种衡量机构质量的有形指标，增强了其知名度、威望以及公共价值。文章中重点描述了机构知识库之间的互补的作用，其潜在的作用，以及在学术交流过程中对利益相关者的重大影响。",
+    "context5": "C.A.Lynch 和J.K.Lippincott 联合发表了“Institutional",
+    "context6": "Repository Deployment in the United States as of Early 2005”,认为机构知识库在数字世界中被广泛认可，研究型大学正在计划和采用机构知识库，未来会看到机构知识库作为基础设施及其他相关策略的必要支持，研究型图书馆将运作机构知识库，成为他们与大学的核心研究活动的连接。",
+    "context7": "“Understanding Faculty to Improve Content Recruitmentfor Institutional Repositories”是 N.F.Foster 和 S.Gibbons 于2005年发表在D-Lib Magazine上描述机构知识库与研究机构之间的关系。他们认为要加强机构知识库在研究机构人员中的利用率，同时了解并满足研究人员的需求，提高研究人员的机构知识库的使用需求，展望了机构知识库发展的未来 。",
+    "context8": "C.A.Lynch认为机构知识库不只是一套固定的软件和硬件，也不仅仅是学术出版，他认为机构知识库是一种共享，是文件数字化的共享的形式，它为世界大学时间的交流建立了新的渠道。在加强机构知识库建设方面Lynch提出了一些具体的措施，包括授权教师使用网络的权限，增加访问量；制定相关政策规范其活动，同时严惩保守的学术团体，促使机构库的广泛使用。",
+    "context9": "A.Swan和S.Brown在2004年底对1296人进行了关于作者自存档行为的调研，并对开放式存取与自存档进行进一步的探讨。他们认为在开放式存取期刊上发表文章并不是唯一为研究人员提供开放式访问的途径，通过自存档方式也可以进行访问，通过这种方法增加开放式存取库中的文章和引文的数量。而通过自存档的方式，授权研究机构自助存档，可以更好地满足研究人员的需求"
+  },
+  "2.5研究热点": {
+    "context1": "关键词往往是一篇文章的中心所在，文章的关键词是对其内容的概括，高频关键词常被用来确定一个领域研究的热点问题[。通过对文献题录中关键词的分析，并借助CiteSpace绘制关键词聚类图，确定某研究领域的热点主题[。利用绘制关键词聚类图来探测机构知识库领域研究的高频词汇，明确研究热点主题。选择网络节点类型为关键词剪切连线算法（Pruning），选择路径搜索算法（Pathfinder）和路径网络简化（Pruning Sliced Networks），设定适当的阈值进行关键词词频分析。路径搜索算法最初在作者共引分析领域运用广泛，Pathfinder利用比最小生成树算法更复杂的连接删除算法，这种算法经过模型运算来剪切网络中的大部分不重要的节点关联，只保留最重要的节点关联，同时让总的节点数保持不变，最大程度地简化原有的复杂网络，形成一个最小的网络[2-4。运行软件得出国外机构知识库研究热点图谱，如图6所示。",
+    "context2": "图6展示的国外机构知识库领域研究热点图谱中，出现频率最高的是 Institutional Repository（机构知识库），次数达到68次。高频主题词反映出的机构知识库领域的研究热点问题还包括Open Access（开放存取），Digital Li-brary（数字图书馆），ScholarlyCommunication（学术交流)，DSpace（数字空间），Digital Repository（数字化资源库），Repositories（知识库），Academic Libraries（学术图书馆）等。从高中心性（中心性大于0.1）角度来看，包括 Digital Library（数字图书馆），Institutional Repository（机构知识库），Open Access（开放存取），DSpace（数字空间），DigitalRepository（数字化资源库），ScholarlyCommunication（学术交流)，Academic Libraries（学术图书馆)，Repositories（知识库)。将高频关键词与以高中心性角度统计的关键词相比较，两者出现的词汇一样，可以进一步确定现阶段国际上关于机构知识库领域的研究热点为上文中提到的关键词。",
+    "context3": "![](images/3b6743f306980aaa742206e69bb3228f7c846c3cb9331127e2f25b2dd475f738.jpg)  \n图6国外机构知识库研究热点图谱",
+    "context4": "研究热点基本可以分为3类:",
+    "context5": "第一类是与机构知识库的基础理论研究、建设意愿以及效果评价相关的，例如Institutional Repository（机构知识库），Open Access （开放存取），Repositories（知识库)等。如马来亚大学A.Abrizah在其2009年发表的“TheCautious Faculty:Their Awareness and Attitudes Towards Insti-tutionalRepositories”一文中对马来西亚地区14所科研机构的131位学者进行网上调研，涉及到开放式存取知识库的使用、对知识库进行宣传以及建设或不建设机构知识库等方面。调查结果表明 $60 \\%$ 以上的受访者支持知识库的研究工作，并希望进一步对其进行研究建设；而不赞成的最重要的原因在于版权问题以及剽窃学术成果的可能性。基于调研的结果，作者建议学术机构适当建立机构知识库[。2006年，加拿大卡尔加里大学M.Westell在“In-stitutional Repositories:Proposed Indicators of Success”一文中提出衡量机构知识库成功的指标，该指标是基于其与其他研究机构的整合情况。通过研究某一加拿大机构网络状态、同大学图书馆之间资源整合情况以及研究其网页等方式，描述该研究机构当前机构知识库的状况。并得出结论：成长在加拿大的机构知识库社区正在实现整合各大学研究机构的现有资源，将来也会向这方面继续发展[",
+    "context6": "第二类是同高校图书馆机构知识库建设相关的，如Digital Library（数字图书馆)，Academic Libraries（学术图书馆），Scholarly Communication（学术交流）等。D.Salo在其2008 年发表的文章“Innkeeper at the Roach Motel”中指出图书馆经营的机构知识库面临着适应其发展或死亡的选择，“建设即成功”的主张已经证明是完全错误的，机构知识库中的引文的优势在一些知识库中并没有体现出来，无法吸引相关领域的学者去利用建设好的知识库。同时软件和服务发展的相对滞后，无法满足学者的需求，致使多数图书馆运营的机构知识库无法继续下去。图书馆应适应现实的需求，及时更新对机构知识库的软件及服务[。J. G.Bankier和I.Perciali联合发表文章“The Insti-tutional Repository Rediscovered:What Can a UniversitY Dofor Open Access Publishing?”，他们认为大学一直在开放式存取中扮演重要的角色，在机构知识库的领域有过失败的教训，而现今大学拥有一个特殊的机会重塑机构知识库的模型。文中探讨了对作者说机构知识库的不作为以及知识库要如何满足用户需求[g",
+    "context7": "第三类与机构知识库的技术实现相关联，如DSpace（数字空间）、Digital Repository（数字化资源库）等。2002年底，麻省理工学院发布了DSpace后，M.Ware在2004 年发表“Institutional Repositories and Scholarly Publish-ing”一文，文中回顾了2004年以前机构知识库的发展情况，并分析了其今后对学术出版上的影响[。",
+    "context8": "从研究的学科上来看，多分布于图书情报学、计算机科学等学科领域，这同现阶段知识库的发展程度大体相符。"
+  },
+  "2.6机构知识库研究前沿演进": {
+    "context1": "普赖斯提出用研究前沿来描述学科研究领域的过渡本质，该领域研究前沿包含最近出现的新主题的当代文献和科学家积极引用这部分文献的集合来体现。CiteSpace中为我们提供的膨胀词探索（BurstDetection）技术和算法，可探测和分析学科研究前沿的变化趋势以及研究前沿与其基础知识之间的关系，以直观地了解学科前沿的演进路径和学科领域的经典基础文献。",
+    "context2": "从图7中可以看出，2006年OriginalityValue（原创价值）和Design Methodology Approach（设计方法学）是机构知识库领域研究出现的新方向，也是从2006年开始机构知识库领域的发文数量明显增加，并逐渐形成了该领域的研究热潮，到2OO8年的Intellectual Capital（智力资本），以及2011年OAMovement（自动化运动)，机构知识库关注的领域由最初关于知识库构建到机构知识库内容的整合，到现在进一步促进机构知识库发展的研究，都表明国际上对机构知识库的研究在逐渐深化。笔者同样相信以后网页技术、竞争情报等领域的发展研究将对机构知识库领域的研究带来重大影响。",
+    "context3": "![](images/41ae112a7edd7c9f7a92dbeab86c7deca969cf85c9845b2021db36823b39975f.jpg)  \n图7机构知识库研究前沿领域知识可视化图谱"
+  },
+  "3结论": {
+    "context1": "本文以信息计量学的理论为基础，借助信息可视化工具CiteSpace，覆盖各种类型的文献，以Webof Science数据库中收录的有关机构知识库领域的相关文献为数据源，对2003—2013年国外机构知识库领域中发展的规律以及相关情况进行可视化分析，得出如下结论：",
+    "context2": "1）从时间分布上，机构知识库的研究分为3个阶段，2003—2005年是发文量较少的起步阶段，2006—2010 年是受到研究者重点关注的阶段，2011年以后逐渐趋于稳定阶段，机构知识库的研究逐渐从理论方面向实际建设方向发展。",
+    "context3": "2）在研究地域分布上，美国在该领域的研究远超其他国家，各国之间的学术交流合作少。",
+    "context4": "3）研究机构中，马来亚大学机构知识库领域研究位居前列，美国虽然没有突出发展的研究机构，但众多科研机构开展了这方面的学术研究，提高了整体的研究水平。",
+    "context5": "4）期刊分布, “Case I Repositories”，“Serials Rev”,“D Lib Magazine”，“Ariadne”等期刊为该领域的高被引期刊。",
+    "context6": "5）机构知识库的研究在2005年以前就有了较成熟的被学者广泛认可的理论研究成果，研究者认为机构知识库在开放式存取、学术出版、图书馆建设、学术交流等方面有重要作用，其文章的高引用量，也可以认为是现在研究学者对机构知识库重要作用的认同。",
+    "context7": "6）机构知识库的研究热点大致可分为3类：与机构知识库的基础理论研究、建设意愿以及效果评价相关，包括Institutional Repository（机构知识库）、Open Access（开放存取)、Repositories（知识库）等；同高校图书馆机构知识库建设相关，如DigitalLibrary（数字图书馆）、Aca-demic Libraries（学术图书馆）、Scholarly Communication(学术交流)；与机构知识库的技术实现相关联，例如DSpace（数字空间)、DigitalRepository（数字化资源库）。",
+    "context8": "7）对机构知识库领域的研究前沿的演进进行分析，从知识库构建的基础研究到内容的研究，从MIT-iberaies（麻省理工学院图书馆研究）到OriginalityValue（原创价值)，以及现在同图书情报领域的相关理论结合，包含同CompetitiveIntelligence（竞争情报）相结合，相信会延伸出更多的研究方向，以促进其发展。",
+    "context9": "国外研究图书馆建立机构知识库的成功经验表明图书馆中建设机构知识库的必要性，我国研究图书馆在积极利用馆藏资源进行开放式存取上有待进一步发展。我国高校图书馆可以利用高校中的资源优势，建立学校内部以及学校之间的联系，运营其机构知识库，以促进学术上的交流。",
+    "context10": "国际上在机构知识库领域上的研究已经进入一个新的层次一一研究指导实践，图书馆等研究机构的机构知识库的建设已基本完成，并正在探索进一步提高机构知识库的服务，以满足更多的用户需求。通过各种方式增加用户的使用量，提高机构知识库在学术等领域的影响力，促进国际上的学术交流。□"
+  },
+  "参考文献": {
+    "context1": "[1] OpenDOAR.Proportion of repositories by continent-worldwide. [EB/OL]．[2014-02-0]．http://www.opendoar.org/onechart. php？ $\\mathrm { c I D } = \\& \\mathrm { t I D } = \\& \\mathrm { t I D } = \\& \\mathrm { d I D } = \\& \\mathrm { d I D } = \\& \\mathrm { p o t I D } = \\& \\mathrm { p o t I D } =$ &rSoftWareName $=$ &search $=$ &groupby=c.cContinent& orderby $=$ Tally% 20DESC&charttype $=$ pie&width = 60o&height = 300&caption $=$ Proportion of Repositories by Continent-Worldwide.   \n[2] CHEN C. CiteSpace II: detecting and visualizing emerging trends and transient patterns in scientific literature [] .Journal of the American Society for Information Scienceand Technology， 2006，57 (3):359-377.   \n[3] CHEN C.Searching for intellectual turning points:progressive knowledge domain visualization [J]．Proc.Nat.Acad.Sci., 2004,101(Suppl.):5303-5310.   \n[4] FREEMAN L C. Centrality in social networks conceptual clarification[．Social Networks，1979，1(3)：215-239.   \n[5] CROW R． The case for institutional repositories:a SPARC position paper[．ARL Bimonthly Report 223，2002.   \n[6] LYNCH C A，LIPPINCOTT JK．Institutional repository deployment in the United States as of early 2OO5[]．D-lib Magazine，2005，11(9)：1-11.   \n[7]FOSTER N F，GIBBONS S.Understanding faculty to improve content recruitment for institutional repositories[]．D-Lib Magazine，2005，11（1).   \n[8] LYNCH C A.Institutional repositories: essential infrastructure for scholarship in the digital age[]．Portal:Librariesand the Academy，2003，3(2)：327-336.   \n[9] SWAN A，BROWN S.Open access self-archiving:an author studyEB/Ol]．http:cogprints．org 143851.   \n[0] 赵蓉英，许丽敏．文献计量学发展演进与研究前沿的知识 图谱探析[．中国图书馆学报，2010，36（5)：60-68.   \n[1] 栾春娟，赵呈刚．基于SCI的基因操作技术国际前沿分析 [．技术与创新管理，2009，30（1)：11-3.   \n[2] CHEN C.Visualising semantic spaces and author co-citation networks in digital libraries[]．Information Processing and Management，1999，35（2)：401-420.   \n[13] CHENC，PAUL R J.Visualizing a knowledge domain’s intellectual structure[．Computer，2001，34（3)：65-71.   \n[4] BORNER K，CHEN C，BOYACK K W.Visualizing knowledge domains[l．Annual Review of Information Science and Technology，2003，37（1)：179-255.   \n[15] ABRIZAH A． The cautious faculty: their awareness and attitudes towards institutional repositories[]．Malaysian Journal of Library & Information Science，2009，14（2).   \n[6] WESTELL M.Institutional repositories:proposed indicators of success[．Library Hi Tech，2006，24（2)：211-226.   \n[7] SALO D．Innkeeper at the roach motel[．Library Trends, 2008，57 (2):98-123.   \n[8] BANKIER JG，PERCIALI I.The institutional repository rediscovered: what can a university do for open access publishing[．Serials Review，2008，34(1)：21-26.   \n[9] WAREM.Institutional repositoriesand scholarly publishing ．Learned Publishing，2004，17（2)：115-124.   \n[0] GARFIELD E. Scientography: mapping the tracks of science []．Currnt Contents：Social & Behavioural Sciences， 1994,7 (45):5-0. ： ： ： ：",
+    "context2": "作者简介：邱均平，男，1947年生，教授，博士生导师。研究方向：信息计量与科学评价，知识管理与竞争情报。祖旋，女，1990年生，硕士生。研究方向：知识管理与竞争情报。郭丽琳，女，1989 年生，硕士生。研究方向:知识管理与竞争情报。肖婷婷，女，1990 年生，硕士生。研究方向:知识管理与竞争情报。"
+  }
+}

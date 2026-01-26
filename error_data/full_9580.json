@@ -1,0 +1,121 @@
+{
+  "original_filename": "full_9580.md",
+  "语义桌面研究综述": {
+    "context1": "曾苏2 马建霞1",
+    "context2": "（1中国科学院国家科学图书馆兰州分馆兰州730000)；（2中国科学院研究生院北京100190)",
+    "context3": "文摘在分析现有桌面技术不足的基础上,引出了语义桌面的概念;然后,对语义桌面研究项目进行了详细阐述，进而提出了语义桌面的主要构成要素：个人心智模型、用户情景、用户界面、PMO及语义桌面搜索；最后，分析了语义桌面的未来发展方向。",
+    "context4": "关键词语义桌面语义网本体",
+    "context5": "R eview of Research on Sem antic Desk top Zeng Su Ma Jianxia (Lanzhou Branch National Science Library， Ch inese Academy of Sciences 730000) (Graduate University of Chinese Academy of Sciences 100190)",
+    "context6": "Abstract On the basis of analyzing the deficiency of existing desktop technobgy the article introduces the concept of Semantic Desktop Research projects on Semantic Desktop are elaborated in detail and the inscapes of Semantic Desktop are also described including personalmentalmodels user context user interface PMO and semantic desktop search At last makes a prediction of the develpment direction of the technolgy",
+    "context7": "K ey words Semantic desktop Semantic web On tobgy"
+  },
+  "1语义桌面的产生背景": {
+    "context1": "随着计算机技术和海量存储技术的发展，个人计算机上存储着大量的不同格式的文件，包括论文、电子邮件、通讯录、多媒体文件等。文件数量的不断增长和存储路径的逐渐细化，使得用户难以在第一时间找到所需要的文件。如何对这些存储在计算机上的个人信息进行有效管理，并揭示这些信息之间的语义联系，成为人们关注的重点问题。然而，现有的桌面技术无法满足用户的需求，具体体现在以下两个方面：",
+    "context2": "首先，计算机无法获得很多关于文件内容方面的信息。假设用户下载了某一特定主题、某一特定作者的一篇文章，尽管该文章清楚的显示了其主题、作者、来源和版权信息，但计算机却无法获得这些信息或对其进行处理。这意味着计算机无法有效搜索或的满他方式处理文献也正是语义网关注的重点问题。",
+    "context3": "其次，存储在计算机上的资料只能以与其格式相关的方式进行访问和分类处理。如电子邮件是与文件分开存储的，这两者与存储在日历程序中的任务、备忘录和日程表也是分开的，同时通讯录可能被存储在其他程序中。然而为了完成某一特定的任务，所有这些格式的信息可能是相关的和必要的。即使是相似格式的文档也需要用不同的程序存取，PDF、PostScriptMSWord文档都是用不同的程序打开的。",
+    "context4": "语义桌面的出现可以看作是对现有用户界面存在问题的回应。语义桌面试图采用语义网技术来扩展操作系统的能力，从而实现对所有格式数据的处理以解决上述部分或全部问题。在数据集成基础上，改善用户界面或现有程序的相关插件，给用户以集成的方式实现知识存储。",
+    "context5": "“语义桌面\"的概念最早由 StefanDecker提出，Leo Saueimann 2O03年在其硕士论文[1]中对语义桌面进行了详细介绍。Leo Saueimann等人在文献[2]中将语义桌面定义为：语义桌面是一个满足个人存储文档、多媒体、消息等数字化信息的设备，这些信息是作为语义网资源来描述的，用URI标注，并可通过 RDF图存取和检索;同时，语义桌面是对用户内存的扩大补充：通过使用本体，使得用户可以表达个人心智模式和实现信息与系统的互连；应用程序使用本体和语义网协议，实现信息存储、访问和通讯。"
+  },
+  "2语义桌面相关研究项目": "",
+  "2.1NEPOMUK - The Social Semantic Desk top": {
+    "context1": "NEPOMUK[3]（Netwoiked Environm ent for Person-alized Onto logy-based Managem ent of Unified Know1-edge)项目是欧盟FP6支持的，其目标是使得个体知识工作者更好地开发和利用个人信息空间，并且突破组织的界限在社会网络内维持富有成效的交流和沟通。NEPOMUK汇集了研究人员、工业软件开发商及具有代表性的工业开发商，制定了一项全面的方案，为了实现个人桌面扩展成为一个协作式平台，支持横跨社会和组织关系的个人信息管理及分享交流。",
+    "context2": "NEPOMUK实施方案就是 Social Sem antic Desk-top(SSD),包括以下技术和方法：",
+    "context3": "支持知识生命周期,特别是基于Wiki语义工具扩展的个人思想的产生和交流、目标为导向的工作处理模型集成及元数据的共享、交流和一致性；",
+    "context4": "个人信息空间相关信息管理，通过跨媒体、跨应用的链接和浏览相关信息条目，这些条目是基于标准语义网数据结构的和非嵌入元数据（ $\\mathbf { u n } ^ { - }$ in trusivemetadata)生成支持的；",
+    "context5": "社会网络和分布式搜索、存储环境下的知识交流，从而实现在大型分布式情况下建立、维护和使用跨空间关系。",
+    "context6": "NEPOMUK项目的主要成果：",
+    "context7": "Soc ialSem anticDesk top中间件的构造和实施，以开源软件的形式发布和在语义网标准化进程中提交；",
+    "context8": "活跃的科学和用户社区，汲取 NEPOMUK的成果，并根据其需要继续扩展；",
+    "context9": "一套在 SAP、PRC或 Pasteur使用的参考解决方案，以及在他们应用领域获取的记录在案的经验和方法本身"
+  },
+  "2.2Gnowsis": {
+    "context1": "中国知网是由PE的知识管理试验室开发的语义桌面环境，是参照NEPOMUK语义桌面框架的部分内容实施的。该项目是第一个研究语义桌面的项目，试图将用户桌面数据资源整合到一个统一的RDF图中，同时研究如何利用URI来区分不同的资源。Gnowsis系统在普通桌面应用程序的基础上，增加了语义网接口，使得用户操作个人电脑如同使用一个小型个人语义网。通过个人信息空间进行跨应用的文档链接和浏览得以实现，电子邮件、文档、地址簿、相册、日程表等分散本地数据能很方便地链接起来,构建成一个个人语义网。数据结构没有发生变化，现有的应用得以扩展而未被取代。可以在Gnowsis的基础上构建语义网和进行知识管理，通过一个简单的网络门户即可访问桌面应用的结构化数据。"
+  },
+  "2.3RIS Semantic Desktop": {
+    "context1": "IR IS Sem antic Desk top[5]是 SRI Intemational的CALO研究项目的知识仓储和用户界面。IRIS是一个语义桌面应用框架，使得用户可以创建一个横跨他们办公室相关信息对象的“个人地图”。IRIS包括一个实现自动化进程的机器学习平台，可提供“控制台\"视图、情景导航、涵盖一个可扩展办公室应用套件的基于关系的架构，包括日历、网络和文件浏览器、电子邮件客户端及即时消息客户端。",
+    "context2": "R IS项目的目标：",
+    "context3": "支持基于本体的知识存储，对丰富语义结构建模,捕捉用户工作环境的各个方面；",
+    "context4": "支持个人知识资产的组织，提供给用户满足个性化需求的信息资源组织方式，与其他语义装置保持语义互操作性；",
+    "context5": "真正的满足日常工作需要，将第三方应用程序整合到IRIS中，提供一个功能齐全的用户体验邮件加密、垃圾邮件过滤、日历服务器、PMs同步、嵌入式闪存等，而不是自己执行这些功能;",
+    "context6": "在JAVA中运行或者能轻松实现与JAVA整合，CALO项目的机器学习组件要在JAVA中运行，IRIS目前只支持Windows平台，其目标是实现跨平台操作；",
+    "context7": "IRIS将有助于将研究界从重点关注离线数据处理，转移到关注用户反馈、核心数据类型存取及数据的具体应用情境上来。IRIS取自Integrate RelateInfer、Share四个英语单词的首字母，也正体现了其特点[6].",
+    "context8": "整合（Integrate)：IRIS从多个、独立的应用程序中收割和统一数据，如浏览器、文件管理器、办公软件和聊天软件等;",
+    "context9": "关联（Relate)：IRIS以基于本体知识库的方式存储数据，对用户工作生活进行丰富描述和关联;",
+    "context10": "推理（Infer)：IRIS有一个学习框架，支持在线学习算法(如聚类、分类、抽取、优先次序、关联、总结、多种预测)，从而实现对数据、事件的关联和推理。此外，通过观察用户活动，CALO学习算法可以从用户处得到反馈；",
+    "context11": "共享（Share)：IRIS中由用户、CALO创造的知识，最终在特定的用户群体中共享，实现IRIS用户间的内容共享是未来要解决的问题。"
+  },
+  "2.4DeepaMehta": {
+    "context1": "DeepaMehta[7项目是由 Mathias Staps和rgRichter于 2O00年2月发起的。DeepaMehta是一个知识管理的软件平台，知识是在语义网络中表示和协作处理的。DeepaMehta将跨学科研究与开放源码思想结合起来，旨在为工作流程和社会进程产生真正作用。其用户界面是在融合认知心理学研究和个体知识构建流程基础上开发的，完全基于思维导图／概念地图的，而不是通过应用程序、窗口和文件来直接、单独地处理所有信息。",
+    "context2": "DeepaMehta是一个取代传统电脑桌面的网络化语义桌面,它将用户从处理应用程序、文件和路径中解放出来。取而代之的是，用户利用主题图管理任意类型的信息，主题可能为项目、邮件、网页、备忘录、文章、通讯录或会议记录，用户还可定义他们自己的主题类型。用户再也看不到老式的应用程序、窗口、和文件，而是现实世界主题间的丰富关系。DeepaMehta桌面并不会掩盖其他窗口操作，只是提供一个用户现实工作情境的可视化缓存。在 Deep-aMehta中，主题图不只是图形，而是逼真的，这也正是其可作为邮件客户端、共享日历、公共地址簿和浏览器的原因。",
+    "context3": "DeepaMehta项目预想实现以下目标[8]：",
+    "context4": "从用户界面的角度消除机器的概念 (应用程序、文件格式等）。让用户只面对他们自己日常工作和想法，允许用户完全控制桌面显示，从而在屏幕上展现他们的工作情景；",
+    "context5": "打破“应用程序监狱\"和从应用程序中解放数据，使得用户可以跨应用操作，实现在不同的工作情景下的信息对象重用；",
+    "context6": "设计可容纳个人学习过程的用户界面",
+    "context7": "设计允许软件开发者贡献专有领域应用逻辑的软件架构，无需用户直接面对应用程序；",
+    "context8": "支持协作，允许工作组运行在共用资料库并建立共用的语义结构。同时，提供用户保护空间以鼓励创造；",
+    "context9": "设计支持从“内容创作、丰富内容结构、通过应用逻辑丰富结构化内容\"整个流程的工作环境，并且允许工作环境每个阶段的持续变化;",
+    "context10": "实现电脑开机直接进入DeepaMehta桌面，使其成为标准的用户界面和工作环境。"
+  },
+  "2.5其他相关项目": {
+    "context1": "微软的Infomation Bridge Fram ework[9]也可以看作是研究语义桌面的框架，通过“Smart Tags\"整合包括Office文档在内的传统数据资源，并且集成各种网络服务和其他数据资源。麻省理工大学计算机科学与人工智能实验室的 Haystack[10]项目提出了一个较为完整的语义桌面方案：在用户理解信息的基础上，让用户独立管理个人计算机上的信息;集成包括文字处理、电子邮件客户端、图像处理、实时通讯等许多应用程序;提供一个从用户界面到数据库的完整的语义编程环境。网络服务研究领域的SECO项目[11],描述了代理统一访问网络分散数据的技术框架，并将其结果转化为桌面数据。"
+  },
+  "3语义桌面的构成要素": {
+    "context1": "通过对语义桌面相关研究项目的分析，可得出语义桌面主要包括以下构成要素，如图1所示：",
+    "context2": "![](images/fa319f31bd3a9520485c4efe19b8bc727e8e5f26d58b3b8b00389a655422e7e2.jpg)  \n图1.语义桌面体系结构"
+  },
+  "3.1个人心智模型": {
+    "context1": "心智模型[12]是用于解释个体为现实世界中之某事所运作的内在认知历程，这是一种外在现实的内部标志或表示方法，被假设于大部分的认知心理学。由于大脑进行分类和存储的本质，人们通常将工作需要的文档放入网站、企业档案中，并且所有文档都与用户的个人背景存在着关联关系。此外，文档提取了现实世界相关概念的信息：人员、地点、项目、主题等;这些概念具有很强的主观性，不过可以用基本的文件夹系统或增强的形式化方法(如OWL本体或分类法)表示。这就存在心智模型与形式化本体交互的过程，即心智模型找到与之匹配的形式化本体。",
+    "context2": "虽然个体工作空间的组织具有一定的主观性，合作者一般具有相同的背景。为了表达共同的背景，可以建立一个公共本体。因此，通过个人心智模型，将个人背景表示为个人概念，将共同背景表示为公共本体，这两者可以用RDF或更好的OWL来描述并应用到桌面应用程序。不能假定一个应用程序仅代表用户的想法，而要使用户的个人观念与其他应用程序更好的融合。"
+  },
+  "3.2用户情景": {
+    "context1": "当我们向计算机中输入信息的时候，该信息通常处于一个特定的情景中，包括用户个人情景、计算情景和知识情景[13]。"
+  },
+  "3.2.1个人情景": {
+    "context1": "个人在现实世界中的一些属性，可能对正在执行的任务产生影响。这些属性包括个人的社会情景(社会网络是其中的一部分）偏好(持有的价值观）执行任务可获得的资源 (时间或注意力)和地点。",
+    "context2": "在语义表达形式上，社会网络和节点可以用$\\mathrm { F O A F ^ { [ 1 4 ] } }$ 和 $\\mathbb { W } \\mathrm { A P } ^ { [ 1 5 ] }$ 个人信息标注词汇表表述；对执行任务可获得资源进行描述，以实时通讯的存在和可利用性(如在线、低关注、不干扰)来表示；个人偏好可能用多个特定领域词汇表表示，或者通过可应用到任何领域的通用本体来描述;对个体地理位置的准确描述，不仅需要以机器可读形式表达经度、纬度的词汇表，还需要辅之以描述地理位置作用、意义和相互关系的地点、空间本体。"
+  },
+  "3.2.2计算情景": {
+    "context1": "在泛在计算环境下，网络连通性、应用程序的可利用性国读角特征被看作是情景的养键要素。这些要素应该在语义桌面中被描述和使用，因为它影响任务的执行，并且反映了用户现实世界的一些方面。以功能术语形式描述其作用的应用程序类型本体，可以和应用程序一起植入任何特殊的计算环境(本地机器或网络桌面环境）。"
+  },
+  "3.2.3知识情景": {
+    "context1": "传统的文件系统关注本地机器的文件管理，而语义文件系统应侧重知识的管理和应用。知识情景的感知给语义桌面带来一些新的功能。如在一个语义桌面系统内定位指定的知识单元，可靠推理基础上的优先结果排序能帮助减少认知开销。同样，用户如果只希望监测最近的而忽略旧的稳定的范围的知识，知识情景可以实现。知识情景为评估任务提供基础,包括确定某一特定资料的真假或评估许多可选方案。"
+  },
+  "3.3用户界面": {
+    "context1": "通过对现有语义桌面软件和相关项目的分析，可以得出一个语义桌面的用户界面的核心部件如下：",
+    "context2": "(1)地址栏：相当于浏览器的地址栏，用户可以轻松输入所要编辑资源的URI地址栏还可以包含正在编辑的模型 RDF图的地址",
+    "context3": "(2)全文搜索界面：用户通过纯文本搜索找到他们想要的所有可能的资源",
+    "context4": "(3)显示当前资源的可视化区域：用户在编辑当前资源的中心部件和关注焦点，当前资源的视觉效果 (颜色、字体等)也是需要关注的",
+    "context5": "(4)注释区域：可对当前选择的资源增加和修改注释，是其他窗口组件的一部分或单独的编辑窗",
+    "context6": "(5)相关关系：这些关系是在文本相似度、相关时间或明确联系等因素基础上推理的，可在一个窗□内将一个资源的所有信息展现给用户",
+    "context7": "(6)嵌入式本体浏览器：可显示应用程序共用的本体和用户个人概念，将特定资源与相关本体联系起来"
+  },
+  "3.4 PMO": {
+    "context1": "语义桌面的发展需要本体和本体描述语言的支持。现有的本体描述语言 RDF/SOWLSKOS主题图等，非常适合某些应用领域，但是不能满足语义桌面的一些要求。PMO(图 2)是关于个体的个人信息模型，是使用层次本体对用户心智模型的正式表示。PMO是对用户工作或个人需要的数据的建模，与用户存取数据的方式及数据本身的来源、格式、作者无关，重点关注通过语义桌面或其他个人语义网应用存取的数据。PMO与 SKOS主题图类似，都提供了一种简单建模的方式，但对概念建模的方式是不同的。",
+    "context2": "PMOOntologyLanguage对RDF/S进行扩展，针对语义桌面的要求并在现有解决方案的基础上建立合适的解决方案。这种语言包含一个核心的上层本体，定义基本的类、概念、资源、人等，并仅限于这些基本实体。PMO语言的核心应用领域是让个人以结构化的方式表达自己的心智模式（mentalmodels),然后在匹配算法和领域本体的基础上将这些不同的心智模式进行整合。基于核心上层本体元素，每个用户都以开放的方式扩展自己的心智模型。",
+    "context3": "![](images/4d6976b176de4e9b86a204aedd3c3f706b10f24554cf8c2edc119d8ffc07471e.jpg)  \n图2PMO结构图[16]"
+  },
+  "3.5语义桌面搜索": {
+    "context1": "一般来说,用户对桌面计算机信息检索有两种方式：路径搜索，搜索可能包含文档的文件夹和目录;如果路径搜索未实现目的，可采用全文搜索的方式。目前，桌面搜索引擎Google Desktop Apple Spotlight Yahod Desk top Search M icrosoftW indowsDesktop Search等产品都免费提供给用户使用，但还是不能像AutonomyConvera等商业化工具那样完全满足用户需求。",
+    "context2": "将先进的信息检索技术应用到桌面搜索上，可有效提高桌面的搜索的效率。目前可用的技术主要有：基于文本的技术，如全文搜索、自动聚类、PageRank TF/IDF等;语义网相关技术,如Free Links、Trails Tmeline、Thesauri、Taxonom ies等;基于本体和情境的技术，如本体、用户挖掘等。"
+  },
+  "4语义桌面未来发展方向": "",
+  "4.1语义桌面发展阶段": {
+    "context1": "2004年，Stefan Decker和 Martin Frank在其文章[]中描述了“网络化语义桌面\"的概念,并且指出了其最终要求实现的目标。他们认为语义网、P2P计算、社会化网络等新技术的出现对人们的合作交流产生影响，并在此基础上提出了一个构想：将这些不同的技术综合起来，构建一个网络化的语义桌面，方便用户和社区成员之间以P2P的方式进行交流协作，从而减少用户过滤、整理信息的时间。他们对语义皋展前景做ttp以下规划w.cnki.net",
+    "context2": "第一阶段：语义网、P2P社会化网络等技术的不",
+    "context3": "断发展、研究和成熟;",
+    "context4": "第二阶段：语义网、P2P社会化网络技术的相互融合。将语义网技术应用到桌面计算机，形成语义桌面;同样地，语义网技术与P2P网络、社会化网络结合起来，形成语义P2P和本体驱动的社会化网络;",
+    "context5": "第三阶段：以上技术的完全融合，从而形成社会语义桌面。"
+  },
+  "4.2社会语义桌面": {
+    "context1": "随着语义网、社会化网络等技术的不断成熟和发展，语义桌面已基本完成第一阶段所需解决的问题，正处于发展的第二阶段。未来语义桌面相关的研究和实践，将朝着社会语义桌面方向发展。社会语义桌面将使得传统的用户桌面转变成为一个无缝的网络工作环境，弱化个人应用和不同用户物理工作区域的界限。NEPOMUK项目已经开始对社会语义桌面进行相关研究，致力于为社会语义桌面建立一个标准的参考实施方案；该项目提出了一个由网络通信层、NEPOMUK语义中间件和应用层组成的社会语义桌面架构[18],并为开发人员提供了一些API和应用程序实例，为社会语义桌面的后续研究和实践奠定了基础。",
+    "context2": "然而，现有的语义桌面软件如Gnow sis 0.9.2、Haystack等还缺乏整合外部应用程序的能力。虽然在理论上，它们都是可扩展的，但是由于编程的障碍和整体架构的限制，在实践中难以实现扩展。同时，目前语义桌面的解决方案还处于理论向实践的过渡阶段，还未实现与相关操作系统的有效融合，成为其系统功能的一部分。这些问题都是语义桌面研究领域有待解决的。随着NEPOMUK项目的不断深入，加上语义网、社会化网络、P2P和网格计算等技术领域的不断成熟，社会语义桌面将会对个人信息管理及桌面程序的语义级应用有所作为。"
+  },
+  "参考文献": {
+    "context1": "1Sauemann L， The Gnow sis—Using Semantic Web Technologies to build a Semantic Desk top V ienna ：Techn ical University ofV ienna，2003   \n2 Sauemann L，BemardiA，DengelA $\\cdot$ Overview and Out look on the Sem antic Desk topIn ：Proceedings of the ISW C 2OO5 W orkshop on The Sem antic Desk top，2005   \n3 NEPOMUK - The Social Sem antic Desktop [2OO8—5— 20]．htp://nepomuk: semanticdesk top org/xwiki/bin/ view /Mainl/   \n4 Gnowsis [2008-5-21]·http: //www: gnowsis org/   \n5IRIS Semantic Desk top [2008—5-22]．htp://www. openiris org/   \n6 CheyerA，Park J，Giuli．IR IS.Integiate Relate Infer Share· $[ 2 0 0 8 - 5 - 2 3 ]$ ：http://www:ai sri com/ pubs/files/1207.pdf   \n7 DeepaMehta [2008-5-25]·http: //www: deepamehta de/   \n8R ichter J，Poelchau J.DeepaMehta－Another Computer is Possible $[ 2 0 0 8 - 5 - 2 6 ]$ ：http://www. deepam eh ta de/swe-book/deepamehta–another-computer-ispossible—20070810.pdf   \n9 In fom ation B ridge Fram ework $[ 2 0 0 8 - 5 - 2 8 ]$ http:// m sdn m icrosoft $\\mathrm { c a m / e n - u s / l i b r a r y / a a 6 7 9 8 0 0 }$ (office 11)．aspx # odc_ibfintro_overviewofthem icrosoftoffice in fomationb ridgefram ew ork   \n10Haystack:[2008－5-28]. htp://groups csail mit edu /haystack /   \n11Harth A，Seco: Mediation Services for Sem antic W eb DataIntelligent Systems 2004（19）：66—71   \n12维基百科． $[ 2 0 0 8 - 5 - 3 0 ]$ http://zh wikipedia org/ $\\mathrm { \\Delta w / i n d e x ~ p h p ^ { \\mathrm { ? } } } \\quad \\mathrm { t i t l e = } \\% \\mathrm { E } 5 \\% \\mathrm { B F } \\% 8 3 \\% \\mathrm { E } 6 \\% 9 9 \\% \\mathrm { B A } \\%$ $\\mathbf { E } 6 \\% ~ \\mathbf { A } 8 \\% ~ \\mathbf { A } 1 \\% ~ \\mathbf { E } 5 \\% ~ 9 \\mathbf { E } \\% ~ 8 \\mathbf { B } \\& \\mathrm { v a r i a n t } ^ { - } \\mathrm { z h } ^ { - } \\mathrm { c n }$   \n13Heath T，Motta E，DzborM．Context as a Foundation for a Sem antic Desk topIn：Pmceedings of the ISWC 2005 Workshop on The Sem antic Desk top，2005   \n14Brickley D，MillerL．FOAFVocabulary Specification O. 91.[2008-6-6]. http://xm ns com /foaf/spec/   \n15SWAP Personal Infomation Maikup [2O08-6-6].ht tp://www. w3. org /2000/10 /swap/pim /   \n16 PMO-a PM Ontology for the Semantic Desktop (draft):[2008-6-2]. http://www. dfki $\\mathrm { \\ u n i - k l }$ de/\\~ sauema /2006 /01-pimo—report/pimOn tolbgy LanguageR eport hm l   \n17Decker S，Frank M．The Netwoiked Semantic Desk top [2008—6-3]·http://ftp infomatik iwth-aachen de/Publications/CEUR-WS/Vol-105 /DeckeiF rank pdf   \n18 G roza T，Handschuh S，Moller K，et al The NEPOMUKPoject-On theWay to the Social Senantic DesktopIn ：Proceedings of Conf on Semantic Technologies （I-SEMANTICS)，2007",
+    "context2": "曾苏1986年生，硕士研究生。",
+    "context3": "马建霞女1972年生，副研究馆员，硕士生导师。(收稿日期： $2 0 0 8 - 0 7 - 0 7$ 编发：刘炜 赵亮）"
+  },
+  "（上接第57页）": {
+    "context1": "2图书馆 2.0工作室,图书馆2.0.升级你的服务，北京图书馆出版社，2008.4(第1版)：61  \n3郑巧英·图书馆 2.0规划与实践，上海地区第二届图书馆 2.0研讨会，2007－11—22  \n4Sipo Blog SXNA， http://www. $\\mathrm { { d c 9 } } .$ cn/post/SXNA1—7.hml[2008-10-26]  \n5RSS相关，RSS聚合器之 Gregarius htp://aboutrss cn/2007 /07 /gregarius/ [2008-10-26]  \n6老槐也博客，上海地区图书馆2.0研讨会发言摘要，http://oldhuai bokee $\\mathbf { c o m } / 6 8 1 6 2 8 4 \\ : \\mathrm { \\ h m l \\ } [ 2 0 0 8 - 1 1 - 2 ]$   \n7 李宾·RSS技术在高校图书馆中的应用与发展研究，华南师范大学硕士论文，2007.5  \n8刘炜,葛秋妍，从 $\\mathrm { \\ w \\ e b \\ 2 . \\ 0 }$ 到图书馆2.0服务因用户而变·现代图书情报技术，2006（10)"
+  }
+}

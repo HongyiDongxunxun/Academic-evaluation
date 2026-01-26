@@ -1,0 +1,127 @@
+{
+  "original_filename": "full_1935.md",
+  "元分析在社会科学领域的应用与进展述评": "",
+  "李晓1,² 曲建升2,3": {
+    "context1": "1（中国科学院西北生态环境资源研究院兰州 730000)  \n2（中国科学院大学北京100049)  \n3（中国科学院成都文献情报中心成都 610041)",
+    "context2": "摘要：【目的】对社会科学领域的元分析最新应用与进展进行研究。【方法】对社会科学领域元分析的主要特征进行归纳和总结,剖析目前社会科学元分析应用中的关键问题,对社会科学领域的两个元分析数据库MetaBUS和CoDa进行案例分析，并从不同视角对社会科学元分析进行讨论与展望。结果】社会科学元分析主要为汇总数据元分析,所使用的效应值主要为r值和标准均值差,应用传统元分析方法较多。目前存在的关键问题有效应值偏差、缺乏透明度、耗费时间与人力、缺乏质量评估等。元分析数据库和元分析研究可以起到相互促进的作用,数据仓储、开放科学运动、人工智能技术等对元分析研究皆有不同程度的影响。",
+    "context3": "【局限】主要基于抽样样本进行内容分析,对元分析特征及问题的全面揭示会有潜在的限制性【结论】社会科学领域元分析尚存许多问题亟待解决,需要各方共同努力提高其质量,增强其结论的有效性。",
+    "context4": "关键词：元分析社会科学主要特征关键问题元分析数据库  \n分类号：G350  \nDOI:10.11925/infotech.2096-3467.2021.0515",
+    "context5": "引用本文：李晓，曲建升.元分析在社会科学领域的应用与进展述评[J].数据分析与知识发现，2021,5(11):1-12.(Li Xiao, Qu Jiansheng.Review of Application and Evolution of Meta-Analysis in Social Sciences[J].Data Analysis and Knowledge Discovery, 2021, 5(11): 1-12.)"
+  },
+  "1引言": {
+    "context1": "为解决社会领域问题,元分析(Meta-Analysis)由Glass于1976年首次提出，定义为\"为了整合研究结果，对来自个体研究的大量分析结果进行统计分析”[1]。Cochrane组织则定义：系统评价是对一个明确提出问题的综述,使用系统、明确的方法识别、选择和批判性地评价相关研究，并从包含的研究中收集数据并分析，统计方法可用于或不用于分析和总结纳入的研究结果;元分析是指在系统评价中使用统计技术整合纳入的研究结果[2]。由此可见,元分析是一种定量系统评价。目前，系统评价和元分析作为科学严谨的定量研究综合方法,在医学和公共卫生、生物学、环境科学、生态学、心理学、教育学、管理学等学科被广泛应用。各领域的元分析尽管有一些相似之处,但也有一些关键的差异,如医学元分析侧重于纳入来源的同质性、治疗效果的传播、为医疗从业者决策提供信息[2],而社会科学和生态学的元分析更侧重于识别和描述异质性以及理解在所研究现象中起作用的因果过程[3]。本文主要关注元分析在社会科学领域的应用与进展情况。基于WebofScience核心合集从社科领域近6年(2015年至今)的高被引、热点元分析研究中抽样95篇,对高被引、热点以外的其他元分析研究抽样56篇，进行回溯和追踪又获取37篇，共获得元分析文献188篇作为研究样本进行调研,对社会科学元分析的主要特征进行了归纳和总结,剖析了目前社会科学元分析应用中的关键问题,对社会科学领域的两个元分析数据库进行了案例分析，并从不同视角对社会科学元分析进行了讨论与展望。"
+  },
+  "1.1元分析在社会科学研究中的意义": {
+    "context1": "在社会科学中，定量研究往往基于特定的人群获取数据,样本规模和样本代表性的局限使个体研究所提供的结论适用范围有限,难以达成共识。元分析可以克服社会科学研究发现的许多模糊性和不确定性,并能促进新的科学发现,具体表现为：",
+    "context2": "(1)通过对相同或相似主题下的多个研究结果进行定量综合，基于较大的样本量获得了额外的效应值精度,因而证据力度更强;",
+    "context3": "(2)对大量研究结果进行广泛概括,能提供比单个一手研究更全面的情况;",
+    "context4": "(3)可以揭示在一手研究中被遗漏或不可能调查的调节因素，提出不包括在一手研究中的新假设并进行检验和解释。"
+  },
+  "1.2社会科学元分析学科分布与发文年度分布": {
+    "context1": "在WebofScience核心合集中进行检索,检索式为 $\\mathrm { T S } =$ (\"meta-analysis\" OR \"meta analysis\" OR\"metaanalysis\"OR\"meta-analytical\"OR\"metaanalytical\" OR \"metaanalytical\"）,语种为 English,文献类型为Article和Review,将WebofScience类别下社会科学领域学科归类，共获得文献记录57044条（检索日期为2021年4月20日）。社会科学领域中发表元分析研究最多的学科依次为心理学、教育学、管理学、社会学、商业、行为科学、犯罪学、经济学、法律、情报学图书馆学等,如图1所示。以排名前5的学科为代表,近10年对应学科年度发文量分布如图2所示。可以看出，在社会科学领域，元分析的应用正在迅速增加。",
+    "context2": "![](images/847314ad66be70eb3c841d66d06b97c78a298437c3fbfa919b7e182c89bcfd25.jpg)  \n图1WoS中社会科学元分析发文量排名前10学科 Fig.1Top 10 Disciplines Based on Meta-Analysis of WoS in Social Science"
+  },
+  "1.3社会科学领域元分析参考标准或指南": {
+    "context1": "为了促进元分析方法完整性、提高结果报告质量及透明度和共享元分析实践,在许多领域已经建立了用于系统评价和元分析的协议、报告标准或指南，社会科学元分析中使用频率较高的标准或指南如表1所示。另外，还有很多优秀的方法论书籍用于指导实施社会科学元分析,包括但不限于文献[2,4-9]。",
+    "context2": "表1社会科学元分析常用标准或指南  \nTable 1Standards or Guidelines Used for Meta-analysis in Social Science",
+    "context3": "<table><tr><td>名称</td><td>作者或机构</td><td>适用学科</td><td>主要贡献</td></tr><tr><td>PRISMA声明（系统评价PRISMA小组 和元分析的首选报告）[10]</td><td>(2009)</td><td>验,后来被各个领域广泛采用描述文献检索过程及结果的流程图</td><td>最初专注于医学领域随机试 提供了系统评价或元分析报告要包括的27个项目清单以及</td></tr><tr><td>MARS（元分析报告标 准)[]</td><td>美国心理协会 （APA 2008,2010）会科学学科</td><td>心理学相关学科以及其他社</td><td>所提供的元分析研究报告格式包括标题、摘要、引言、方法、 结果、讨论,方法部分包括样本纳入与排除标准、调节变量和 中介变量分析、检索方式、编码程序、统计方法</td></tr><tr><td>方法[12]</td><td>法小组</td><td>Campbell协作网系统评价Campbell协作网方犯罪与司法、教育、国际发展 以及社会福利等领域</td><td>为Campbell协作网干预效果系统评价的实施提供了详细的 方法指南。其所列大部分方法指南适用于所有综述主题,但 有些可能并不完全适用于非干预综述</td></tr></table>"
+  },
+  "2 数据分析与知识发现": {
+    "context1": "![](images/a23746158b0f6206250f91bfa8f5c9cd1037b5e19390ce13af8ad6011cc2cc8b.jpg)  \n图2社会科学元分析年度发文量分布"
+  },
+  "2社会科学领域元分析主要特征": "",
+  "2.1元分析类型": {
+    "context1": "按照所提取数据在一手研究流程中的位置，可以分为汇总数据元分析和原始数据元分析，如图3所示。图3在医学和心理学领域，原始数据元分析被称为个体参与者数据元分析(IPD-MAs)。汇总数据元分析遵循了Glass对元分析最初的定义，也是元分析应用中最常见的类型,指基于已发表和灰色文献中报告的效应值进行综合。该类元分析所需的大部分信息都可以在原始研究中获取,相对更容易操作,但限制了可能进行的分析。另外，这些数据的可用性和质量会因研究而异，进而可能会影响元分析结果的可靠性[13]。原始数据元分析则是基于已发表和灰色文献的原始数据进行综合，可以不受一手研究过程和结果的限制,进行更灵活、更强大、更一致的分析,但同时也需要更多资源,如需向研究者请求共享数据、签署协议等[14]。原始数据元分析在社会科学中应用较少，这是因为社会科学领域定量研究原始数据集可能包括敏感或识别信息，给数据共享和重用带来额外的挑战。"
+  },
+  "2.2数据特征": {
+    "context1": "社会科学元分析的一手研究为相应主题的定量研究,数据包括对人口特征的测量数据和对概念的测量数据。对概念的测量需要将社会现象概念化并操作化,可以通过观察性测量、基于任务的测量、自我报告或他人报告测量(书面、问卷调查)等方式生成数据。社会科学数据不同于自然科学之处在于对概念的测量通常是不能直接或精确度量的,在获得变量数据的过程中不可避免会产生信息损耗。变量的可操作性会影响实际相关性，变量之间的关系决定了现象是否存在以及理论是否准确，而个体研究由于受到样本选择及规模的影响，研究结果往往在更大范围内无法形成共识。",
+    "context2": "![](images/5d6eab0d8a574a412d8866605fd60dcd82124e04c129e5079e56e9ef37986243.jpg)  \nFig.2Number of Meta-Analysis by Year in Social Science   \n图3两类元分析提取数据示意图Fig.3Data Extraction by Two Types ofMeta-Analysis",
+    "context3": "此外,不同的数据收集方式会产生随机错误，从而导致结果的异质性。因此，一手研究中的效应值会受到数据收集方式的影响。一手研究数据收集方式有以下三种：",
+    "context4": "(1)经过科学的研究设计通过测量收集数据，所获得数据称为一手数据或原始数据;(2)通过专利、数据库或档案记录检索收集数据,所获得数据称为二手数据或复用数据；(3)前面两种方式结合，即一手数据和二手数据相结合。",
+    "context5": "一手数据意味着该数据是专门用来测量研究中所分析的变量，而二手数据意味着该数据为其他目的所设计，部分学者认为一手数据可以进行更密切评估，二手数据会降低所研究变量的信息准确性。van Wijk等[15]进行的元分析将数据收集方式作为调节因素，发现基于调查的研究其效应值更大。"
+  },
+  "2.3元分析效应值及分析程序": {
+    "context1": "元分析从多个研究中提取量化结果作为效应值旨在将不同研究的结果带到同一尺度上，常用作效应值的指标有比值比、风险比、风险差、标准均值差、$r$ 值(皮尔森积差相关系数）、反应比等[7]。社会科学领域元分析中主要使用两类效应值：标准均值差和基于连续变量的 $r$ 值。在心理学、教育学领域,当研究设计包含实验组和对照组时，常使用标准均值差作为效应值，其计算方式采用Cohen's $d$ 值[1或Hedges's $g$ 值[7]。在以变量之间相关关系为基础的研究中，使用r值作为效应值。",
+    "context2": "以 $r$ 值为效应值的元分析经常使用两种分析程序：一种是由Hedges 等于1985年提出的元分析程序[8]；另一种是由Hunter等于1990年提出的元分析程序[9],也称为心理测量元分析。前者既可以估计固定效应模型，也可以估计随机效应模型，以研究内方差作为权重，将 $r$ 值转换为费希尔的Z值后合并效应值及其置信区间,合并完成后再转换回r值呈现结果。后者默认只有随机效应模型,以样本量作为权重,使用原生效应值进行基本矫正整合分析，该分析程序在修正效应值测量误差和统计假象方面具有优势,在管理学领域应用比较普遍。"
+  },
+  "2.4元分析方法": {
+    "context1": "在目前的社会科学元分析中应用最多的还是传统元分析方法，即双变量元分析。该方法包括检验双变量之间的关系强度或方向，描述效应值异质性，探索异质性来源,即通过亚组分析或Meta回归分析检验调节变量影响作用等。还有一些元分析应用了较复杂的方法，如多水平元分析和元分析结构方程模型。多水平元分析是指在元分析中使用多层线性模型,单个效应值可以看作嵌套在一个样本中，而这些样本又嵌套在一个研究中。元分析结构方程模型是元分析和结构方程建模的结合，其主要优势是将所纳入一手研究中的关系进行综合，从而获得理论涉及的所有关系以检验理论模型或获得一个理论模型相对其他竞争模型的解释价值。",
+    "context2": "双变量元分析是人们熟知的、广泛认可的经典元分析方法。与传统的双变量元分析相比,多水平元分析考虑了数据的层次结构，可以将单个研究的不同样本作为单独的分析层次处理效应值相关问题,而元分析结构方程模型则能够同时包含多个因素，可以将外部有效性最大化以及整合来自不同一手研究的双变量关系,有助于了解理论模型的边界、结构和缺点,同时也能帮助研究者确定理论在推进该领域知识方面的解释和预测充分性[18]。"
+  },
+  "3社会科学元分析应用中的关键问题": "",
+  "3.1汇总效应值偏差": {
+    "context1": "（1）p-Hacking和发表偏倚导致的偏差p-Hacking是通过多种方式重新分析数据以获得目标结果的行为[19]（即统计分析数据时采用不同的方法直到结果显著)。在科学研究中,p-Hacking很容易引起假阳性并导致实验不可重复[20]。发表偏倚是指研究结果不显著的文章在发表时受到抑制。p-Hacking和发表偏倚问题都会导致元分析总体效应值的高估。Polanin等[21]和Gage等[22]分别对教育学科的元分析研究进行综述，发现已发表的研究比未发表的研究具有更大的系统效应，平均标准差分别为0.18和0.89。Friese等[23]进行了大规模模拟研究,结果显示：高水平发表偏倚会严重扭曲累积证据,p-Hacking会严重增加误报率;另外,p-Hacking和发表偏倚相互作用。不同的技术被提出来处理这些问题,包括非对称漏斗图的回归检验[24]、失安全系数法[25]、剪补法[26]、p曲线[27]、p均匀[28]、由Hedges[29]提出的选择模型等。然而，一些学者对这些方法进行了验证研究[30-31],发现各种方法在不同情境下性能表现不同,有各自的适用环境，当偏倚较高且存在异质性时，可能任何方法都很难恢复到真实效应值水平。因此,一方面,元分析者需要慎重选择偏倚校正程序以逼近真实效应值;另一方面，研究机构、资助机构和科学期刊政策需要在源头上进行控制，尽可能减少p-Hacking和发表偏倚问题,以确保可信的证据基础。"
+  },
+  "（2）相关效应值问题导致的偏差": {
+    "context1": "元分析计算程序通常假设效应值之间是独立的,但当一手研究报告多种结果、比较多种实验组或实施纵向重复测量时，可能出现相关效应值[32-33]。一些学科领域存在大型研究主宰特定研究问题的现象,导致大量文献基于少量独立研究或多篇文献来自同一数据集,而基于共同样本的效应值之间的相关性最明显[32]。相关效应值将会\"夸大\"可用信息，高估元分析结果的可信度,不考虑效应值之间的相关性可能导致错误的结论[34-36],可见在元分析中考虑效应值之间的相关性很重要。然而,在实践中,部分元分析中的效应值相关性问题并没有得到纠正，尤其很少有研究能同时处理相关效应值和发表偏倚的问题[37]。有两个主要原因：元分析者可能不知道效应值之间的相关性;或者尽管意识到这个问题,却难以恰当地解释相关结构。方法学家们已经开发了多种技术处理元分析中的相关效应值问题，如特定"
+  },
+  "4 数据分析与知识发现": {
+    "context1": "策略包括选择一种效应值或汇总效应值从而为每个研究创建单一的\"综合效应”,更复杂的多元建模策略包括广义最小二乘法[38]、多水平元分析[39]和稳健方差估计[40]等,但每种方法都有各自的局限性。鉴于使用普通元分析方法合并相关效应值会导致有偏差的估计，因此元分析者首先应当慎重判断效应值之间是否存在相关性问题。而且,若存在要根据具体情况选择恰当的方法和技术进行处理,最终将合并效应值偏差控制在最小范围内。"
+  },
+  "3.2缺乏透明度": {
+    "context1": "目前,科学界正致力于开放科学运动,鼓励科学研究的开放性、完整性和可重复性[41]。越来越多的学者呼呼以透明和可复制的方式进行元分析报告。元分析的实施虽然总体上遵循一定的程序，但由于存在多种决策点：纳入或排除标准、评估一手研究质量、选取调节变量、选择计算和汇总效应值程序以及其他分析决策，因此元分析过程中也具备很多灵活性。透明的元分析以清晰、明确、可再现的方式报告每个阶段开展情况和决策结果,可以阻止有问题的研究实践[42-43]以及允许复制性[44],同时也为元分析质量评价奠定基石。虽然PRISMA等报告标准对以透明方式报告元分析方法和结果提供了强有力指导，但目前发表的元分析并不总是符合这些标准，表现为缺少纳入研究列表、缺少效应值表、缺乏信息无法再计算等。透明度的缺乏源于多种原因，如表达偏好、篇幅限制、文章重点及其他。Polanin等[45]从《心理通报》中抽样150篇元分析调查，结果显示，近年来报告实践的透明度有所增加,元分析者一致报告了合格标准、效应值信息和合成技术,然而部分作者没有报告具体的筛选过程、搜索结果和提取程序，尤其是一手研究的效应值和调节因素详细信息，很少有研究提供复制分析所需的完整统计代码。基于对本文收集的样本文献调研，发现以上问题同样存在。",
+    "context2": "在实践中，对元分析研究的再利用包括但不限于以下情境：",
+    "context3": "(1)随着时间发展和新研究的出现,可以在纳入新研究之后对已有的元分析进行更新迭代；",
+    "context4": "(2)随着领域发展,可以使用新的元分析技术重新分析旧的元分析数据。",
+    "context5": "因此，需要元分析具备一定的透明度以确保数据公开可用且准确,允许其他研究者对其进行重复。许多学者对此问题开展研究并积极促进改善状况,如Moreau等[46]建议采用开放科学的三个主要组成部分：预注册、开放材料和开放数据实施元分析，以提高其透明度并促进再现性。然而,这一现象的改善更需要所有参与者(元分析者、编辑、同行评议等)共同努力，才能实现更透明和可重复的报告实践。"
+  },
+  "3.3耗费时间与人力": {
+    "context1": "元分析的实施是一项系统性工程：广泛的文献搜索以找到相关文章，检查每篇文章以确定其是否符合纳入标准，手动编码每项研究以提取效应值及调节变量信息,多人(或单人多次)编码文献以确保数据准确性，最后是分析本身。虽然每个阶段都需要花费很多精力，但最耗时耗力的还属文献筛选。",
+    "context2": "对于社会科学领域的系统评价和元分析，通常从文献中提取数据进行综合。一手研究通常以PDF的形式报告研究结果,缺乏标准化和机器可读性，导致综述者必须学习各种搜索技能并通过多个数据库进行检索，既要包括尽可能多的潜在相关研究，同时还要限制检索的研究总数。当得到足以覆盖某一主题的文献元数据后，根据标题和摘要先进行第一轮手动筛选,把主题不相关的文献排除在外,保留可能满足纳入要求的文献并下载全文，然后浏览全文进行第二轮筛选,在全文中查找关键信息仔细确认是否满足纳入要求，排除不满足要求的文献，最后得到将要汇总的一手研究，如图4所示。根据元分析的规模和类型，文献搜索的完成时间从几天到几个月甚至几年不等。随着在线出版的发展,文献数量更是急剧增加，给综述者带来了新的挑战。如果一个领域的文献增长速度超过系统评价的可用时间，那么对这个领域进行充分的人工综述就变得不可能[47]。",
+    "context3": "出于商业或学术目的,为了应对系统评价与元分析中文献筛选的困难和日益增长的需求，已经开发了大量软件工具(主要是基于标题和摘要进行筛选)。这些工具在成本、使用方法、适用范围、用户体验等方面有很大差异。Harrison等[48识别、描述和评估了15种支持系统评价文献筛选软件工具的可用性,显示6种工具（即Abstrackr、Colandr、Covidence、DRAGON、EPPI-Reviewer和Rayyan)在特征分析中得分高于 $7 5 \\%$ ,其中,Covidence 和Rayyan 最受调查对象的欢迎。vande Schoot等[47]开发了ASReview工具,通过深度学习及主动学习算法实现自动化的文献筛选。",
+    "context4": "基于样本文献的调研，发现在社会科学元分析中报道使用软件工具进行文献筛选的研究比较少，这可能是由于以下问题还没得到充分论证：通过软件工具是否能达到甚至超过人工筛选的精准率？是否确实比人工筛选节省了大量时间或资源？另外，即使一些案例验证了工具有用性,但是否适用于所有案例？只有当元分析者足够确定软件工具的有用性时,才会在实践中去应用。",
+    "context5": "![](images/085575a9a8d839108de6f813bf5d30a9891349091916ec44c447d30629eada95.jpg)  \n图4人工筛选文献流程  \nFig.4Manual Literature Screening Process"
+  },
+  "3.4缺乏质量评估": {
+    "context1": "社会科学元分析虽然数量增长很快,但质量却差异很大。元分析研究的质量受以下因素影响。",
+    "context2": "(1)一手研究质量的影响。一些学者认为元分析结果的质量是所分析的一手研究质量的函数[49]。",
+    "context3": "(2)元分析者自身的影响。实施元分析不仅需要掌握系统的元分析理论和技术,也需要具备特定领域的专业知识,有时元分析者不能兼备。",
+    "context4": "(3)元分析方法的多样性。面对不同的研究问题与情境，存在多种潜在的分析策略，不同元分析者可能做出不同的选择。",
+    "context5": "鉴于此,有时对相同主题的元分析甚至会产生矛盾的结果[50]。Sutton等[51]指出,在没有足够的质量控制情形下进行的元分析中，存在估计偏差、不恰当解释和结论不正确的风险。一些学者相继提出了可用于评估元分析质量的标准[7.52-53],另外一些学者针对具体领域的元分析研究开发评价工具并进行了验证[54]。",
+    "context6": "目前在社会科学领域，还没有被广泛认可且能够应用的元分析质量评估工具,此外,关于元分析质量评估的实证类研究也很少。社会科学元分析研究主题比较分散,概念既可以很大也可以很小,侧重于识别和分析异质性，不像医学元分析侧重纳入研究的同质性，主题相对集中，易于针对不同的研究设计类型形成业界统一认可的元分析程序和方法。面对源源不断发表的社会科学元分析，显然对其质量的关注度还远远不够,鲜有研究追踪和评估其质量。虽然已经存在大量优秀的方法论文献和指南以及来自监督组织如Campbell协作网的方法指导，可以用来参照比对并评估元分析质量，但是这些方法和理论分布较分散而且适用范围有限,用来评估元分析质量执行力不强。从实践角度来看，在社会科学领域形成统一而又完备的元分析质量标准难度也较大,建议可以先在细分领域开发适应性质量评估工具然后再汇总，一方面指导元分析者更科学、更规范地实施元分析,另一方面为期刊和编辑提供专业化参考，从而促进元分析总体质量提升。"
+  },
+  "4元分析数据库案例分析": {
+    "context1": "为了解决新的研究问题并获得更清晰的研究图景，社会科学很多分支领域对元分析的应用越来越多。然而,实施分析所需周期较长,并且可用的研究也在呈指数级增长,使完成元分析的难度也在增加。另外,随着领域内新研究的积累，一些旧的元分析也需要更新，如果从头再做，势必会形成冗余和浪费。因此,一些学者尝试构建元分析数据库,将每个领域的研究成果进行收集、存储以进行元分析。元分析数据库考虑的不是\"从感兴趣的研究问题开始,然后确定所有相关研究\"的自上而下的方法，而是自下而上的方法：伴随时间的推移,将大量的研究发现收集并编码到一个可搜索的数据库中，随着大量数据被收集和共享以供广泛使用，完成系统评价和元分析所需的时间将大大减少[55]。目前在社会科学领域已经有两个获得关注的元分析数据库：MetaBUS和CoDa。"
+  },
+  "4.1MetaBUS数据库": {
+    "context1": "MetaBUS数据库[5由美国弗吉尼亚联邦大学Bosco等于2015年创建。初始包含来自23种人力资源管理相关期刊的9000多篇文献的80多万个相关系数。由于该数据库一直在持续更新，目前已收集了来自14000多篇文献的110多万个结果，用户达1175人。",
+    "context2": "Bosco等开发了一种分类法，收集了1980-2010年发表于《应用心理学杂志》(JAP)和《人事心理学》(PPsych)的所有文献相关系数表中的变量，将大约4900个概念按分类法排列成灵活的层次结构[57-58]。该分类体系是MetaBUS数据库分类法的重要基础，用于处理变量的词汇问题。MetaBUS使用半自动化方式从文献相关系数表中提取所有信息，使用分类法对变量名称进行分类。数据库的基础数据由文献级别信息和变量级别信息构成，相对应的元数据如表2所示,通过人工编码的方式在上文中半自动化提取得到的数据基础上从文献中收集其余信息进行补充来完成。MetaBUS采用单一的统计方法，即多水平元分析，按样本和文章嵌套效应值,并使用受限最大似然算法基于随机效应模型进行计算。另外，该数据库基于云软件,支持快速、灵活的查询和对查询结果的经验性总结。",
+    "context3": "表2MetaBUS数据库的基础数据  \nTable 2Main Data for MetaBUS Database",
+    "context4": "<table><tr><td colspan=\"2\">级别 元数据</td></tr><tr><td>文献级别信息</td><td>期刊名称、卷号、发行号、起始页和结束页、出版年 份，以及财政支持情况(如拨款资助：是或否)</td></tr><tr><td rowspan=\"5\"></td><td>报告的变量名、样本量、确切的样本量、分类节点、</td></tr><tr><td>分类节点名、概念反转、变量均值、标准差、可靠性</td></tr><tr><td>变量级别信息值、可靠性值是否为系数α(是/否）时间点、回复</td></tr><tr><td>率、样本编号、数据来源和数据对象、分析单位、国</td></tr><tr><td>家、编码置信度</td></tr></table>",
+    "context5": "已经有多篇发表的管理学元分析研究受益于MetaBUS数据库[59-61],证明其对元分析应用有一定的促进作用。MetaBUS开发者建议仅将其用作第一轮元分析或元分析的补充。该平台旨在成为世界上最大的社会科学研究结果收集数据库，尽管前景被看好,但仍有很大的改进空间。"
+  },
+  "4.2CoDa数据库": {
+    "context1": "合作数据库(Cooperation Databank,CoDa)[62]由荷兰阿姆斯特丹大学合作实验室建立并于2020年上线。CoDa采用多人协作的方式开发，共纳入社会困境与人类合作领域1958-2017年间的1809篇实证文献(中、英、日三种语言)，含2636项研究(在78个国家进行)的近14000个效应值。",
+    "context2": "CoDa使用了本体工程方法构建本体，为人类合作研究提供语义模型。该模型可由节点和边组成的图表示,节点表示概念(类),边表示概念的属性或概念之间的关系。由语义专家为纳入研究中包含的信息和概念建模,标注为机器可读的标准化格式,一个CoDa模型标注实例如图5所示。在CoDa模型中每项研究的特征可以分为5类：学术属性、样本属性、研究属性、定量属性、与合作相关的任何(观察或操作)变量。其中,定量属性(如相关系数、均值、标准差和检验统计)被用来计算所有可能的效应值估计。CoDa使用R包esc计算效应值，可计算的效应值类型有相关系数 $r$ 和标准均值差,可以使用多种算法计算这两个指标。CoDa数据库用户可以执行的活动和任务包括搜索、选择、元分析、Meta回归、发表偏倚校正、统计能力分析、可视化、下载等。"
+  },
+  "4.3MetaBUS数据库和CoDa数据库的比较": {
+    "context1": "两个数据库共同的局限性就是数据都来自特定领域,只能服务于一个较小的范围。MetaBUS数据库只收录包含相关系数表的文献,也仅能计算一种效应值类型即相关系数(r值)以及研究简单的二元关系。MetaBUS数据库的建设过程中采用分类法处理概念在词汇层次的问题,已经有了本体思想的融入,但仅仅应用于对变量术语分类和分层。而CoDa数据库是完全基于本体工程方法而构建,包括类（人类合作领域的概念）类的排列(子类和超类）、类之间的关系、类的实例及实例之间的关系，并且用属性-属性值形式为每个类或实例赋予详细信息，如图5所示。CoDa数据库能够更细粒度地表示信息与组织数据，并能通过标准化的机器可读格式发布研究从而使机器能够按需执行元分析。相对于MetaBUS,CoDa数据库在执行元分析方面，功能更",
+    "context2": "![](images/16764ca26892c326927834086aac4686afdca4ab00e8a0029afde7cbb6b56ba6.jpg)  \n图5CoDa模型中的一个标注实例[63]  \nFig.5One Annotated Instance in CoDa's Model",
+    "context3": "丰富、计算能力更强。"
+  },
+  "5讨论与展望": "",
+  "5.1元分析研究与元分析数据库的相互作用": {
+    "context1": "元分析数据库将特定领域的定量研究结果收集、整理、组织、存储,并支持可视化这些研究结果，用户可以按需设置参数使机器执行元分析。元分析研究为元分析数据库提供了实践基础和方法指导，而元分析数据库可以为元分析研究补充信息、提供参考，还可用作第一轮元分析，从而减轻元分析实践者的工作量。元分析数据库和元分析研究之间能起到相互促进的作用。另外，元分析数据库除了辅助元分析实践,还可以改善科学实践活动并促进知识的累积和增值。目前在国外还有一些元分析数据库正在建设中，建立元分析数据库在未来可能成为一种趋势，我国学者可以关注和参考。"
+  },
+  "5.2数据仓储对元分析的影响": {
+    "context1": "社会科学领域的元分析主要是从文献中提取数据，而近年来生命科学等领域发表的一些元分析则是从数据仓储中提取数据，获得数据的流程如图6所示。这是由于该领域对于特定类型的重要数字对象开发了深度集成的专用存储库[64],如DNA序列数据库GenBank、世界蛋白质数据库wwPDB和UniProt;在基因组学中,大多数已发表的转录组数据被归档到大型公共数据库——基因表达综合数据库GEO和ArrayExpress(AE)中,这一事实引发了通过公共存储库获取数据的研究(包括元分析)激增。",
+    "context2": "随着开放科学在各研究领域的兴起，各方都在积极促进科学研究数据开放共享，许多国家已经或正在建设社会科学数据中心。目前全球最大的社会科学数据中心为美国政治与社会科学研究校际联盟ICPSR平台，已汇聚15000多项研究，500多万个变量。未来随着社会科学领域数据仓储的发展和完善，社会科学元分析的数据提取方式可能也会发生变化。",
+    "context3": "![](images/2481475b8be5b1fc2bbe11e45626ace68141b657971ce41e662af4bb9b851bb2.jpg)  \n图6部分元分析从数据仓储中获取数据流程Fig.6Some Meta-Analysis Extracting Data fromData Repositories"
+  },
+  "5.3开放科学对元分析的影响": {
+    "context1": "开放科学运动旨在促进科学研究各个方面（从数据收集到发表)的完整性、可重复性和透明度[65]。Kraker等[6认为，开放科学运动有4个主要原则：开放方法论、开放数据、开放源代码和开放获取。基于这4个维度,元分析可以具体通过以下方面积极响应开放科学：",
+    "context2": "(1)以足够详细的方式报告元分析中使用的方法,以使所有判断与决策能够被理解、验证和重复；(2)从一手研究中提取的所有数据和编码元数"
+  },
+  "8 数据分析与知识发现": {
+    "context1": "据应在元分析中提供(可以通过附录形式);",
+    "context2": "(3)提供元分析中用于计算的所有程序、工具或代码(可以通过附录形式);",
+    "context3": "(4)刊载元分析期刊应确保所有相关信息均可自由获取,而无需向作者提出信息请求。"
+  },
+  "5.4人工智能技术对元分析的影响": {
+    "context1": "由于高质量元分析包含较高复杂性，涉及较多人为的判断和决策，还没有可依赖的完全自动化元分析技术。对于元分析，在文献筛选和数据提取阶段比其他阶段更容易实现自动化，目前已有一些半自动机器学习系统帮助元分析者筛选摘要（如Abstrackr),半自动数据提取系统(如RobotReviewer)辅助元分析者提取数据。然而,在社会科学领域，缺乏标记、验证过的训练数据是现在开发文本筛选和数据提取模型的主要障碍。在不久的将来，更有效的途径应该还是半自动化，即元分析者在机器学习和自然语言处理系统的帮助下进行元分析。若想使元分析者信任自动化技术并确信对他们的元分析有帮助,需要继续提高机器学习和自然语言处理技术在不同情境下的模型精度以及软件系统的易用性。另外,许多主题多年前实施过元分析,但一直未更新过，研究结果可能已过时或变得不准确。人工智能技术的一个潜在用途是进行实时监控,在新的相同或相似主题文献发布时，通过智能技术识别并与之前的元分析建立关联，同时自动提醒相关方。",
+    "context2": "Sage Publications,2001.   \n[7] Borenstein M,Hedges L V,Higgins JP T,et al. Introduction to Meta-Analysis[M].Chichester,UK: John Wiley & Sons,2009.   \n[8] Hedges L V, Olkin I. Statistical Methods for Meta-Analysis[M]. Academic Press,1985.   \n[9]Hunter JE, Schmidt FL. Methods of Meta-Analysis: Correcting Error and Bias in Research Findings[M]. SAGE Publications, Inc,1990.   \n[10]Moher D,Liberati A,Tetzlaff J,etal.Preferred Reporting Items for Systematic Reviews and Meta-Analyses: The PRISMA Statement[J].PLoS Medicine,2009,6(7): e1000097.   \n[11]APA Publications and Communications Board Working Group on Journal Article Reporting Standards.Reporting Standards for Research in Psychology:Why do We Need Them? What Might They Be?[J].The American Psychologist, 2008,63(9): 839-851.   \n[12] TheMethodsGroupoftheCampbell Collaboration. MethodologicalExpectationsofCampbellCollaboration Intervention Reviews: Conduct Standards[S].The Campbell Collaboration,2016.   \n[13]Sterne JA, Egger M, Moher D.Addressing Reporting Biases[A]// Cochrane Handbook for Systematic Reviews of Interventions [M]. Chichester, UK: John Wiley & Sons,2008: 297-333.   \n[14]Kalter J, Verdonck-de Leeuw I M,Sweegers MG,et al.Effects and Moderators of Psychosocial Interventions on Quality of Life, and Emotional and Social Function in Patients with Cancer: An Individual Patient Data Meta-Analysis of 22 RCTS[J].PsychoOncology,2018,27(4): 1150-1161.   \n[15] van Wijk R,Jansen JJP,Lyles M A. Inter- and IntraOrganizational Knowledge Transfer: A Meta-Analytic Review and Assessment of Its Antecedents and Consequences[J]. Journal of Management Studies,2008,45(4): 830-853.   \n[16]Cohen J. Statistical Power Analysis for the Behavioral Sciences [M].The 2nd Edition.Hillsdale,NJ:Lawrence Erlbaum Associates Publishers,1988.   \n[17]Hedges L V. Unbiased Estimation of Effect Size[J].Evaluation in Education,1980,4: 25-27.   \n[18]Bergh D D,Aguinis H, Heavey C,et al. Using Meta-Analytic Structural Equation Modeling to Advance Strategic Management Research:Guidelines and an Empirical Illustration via the StrategicLeadership-PerformanceRelationship[J].Strategic Management Journal, 2016,37(3): 477-497.   \n[19]Simmons J P,Nelson L D，Simonsohn U.False-Positive Psychology:Undisclosed Flexibility in Data Collection and AnalysisAllowsPresentingAnythingasSignificant[J]. Psychological Science,2011,22(11): 1359-1366.   \n[20]Motulsky H J. Common Misconceptions about Data Analysis and Statistics[J].The Journal of Pharmacology and Experimental Therapeutics,2014,351(1): 200-205."
+  },
+  "参考文献：": {
+    "context1": "[1] Glass G V.Primary,Secondary,and Meta-Analysis of Research [J].Educational Researcher,1976,5(10): 3-8.   \n[2] Higgins JPT,Thomas J,Chandler J,et al.Cochrane Handbook for Systematic Reviews of Interventions[M].The 2nd Edition. Chichester,UK:John Wiley& Sons,2019.   \n[3] Koricheva J,Gurevitch J,Mengersen K.Handbook of MetaAnalysis in Ecology and Evolution[M].Princeton,New Jersey: Princeton University Press,2013.   \n[4] Coope H.Research Synthesis and Meta-Analysis a Step-by-Step Approach[J]. Journal of Chemical Information and Modeling, 2016,53(9): 1689-1699.   \n[5] Cooper H,Hedges LV,Valentine JC.The Handbookof Research Synthesis and Meta-Analysis[M]. New York: Russell Sage Foundation,2019.   \n[6]Lipsey M W,Wilson D B.Practical Meta-Analysis[M].London:   \n[21]Polanin JR,Tanner-Smith E E,Hennessy EA.Estimating the Diference Between Published and Unpublished Efect Sizes [J]. Review of Educational Research,2016,86(1): 207-236.   \n[22]Gage N A,Cook B G,Reichow B.Publication Bias in Special Education Meta-Analyses[J]. Exceptional Children,2017,83(4): 428-445.   \n[23]Friese M,Frankenbach J.p-Hacking and Publication Bias Interact to Distort Meta-Analytic Effect Size Estimates[J]. Psychological Methods,2020,25(4): 456-471.   \n[24]Egger M, Smith G D,Schneider M,et al. Bias in Meta-Analysis Detected bya Simple,Graphical Test[J].BMJ,1997,315(7109): 629-634.   \n[25] Orwin R G.A Fail-Safe $N$ for Effect Size in Meta-Analysis[J]. Journal of Educational Statistics,1983,8(2): 157.   \n[26]Duval S,Tweedie R. Trim and Fill: A Simple Funnel-Plot-Based Method of Testing and Adjusting for Publication Bias in MetaAnalysis[J]. Biometrics,2000,56(2): 455-463.   \n[27]Simonsohn U, Nelson L D, Simmons JP.p-Curve and Effect Size [J].Perspectives on Psychological Science,2014,9(6): 666-681.   \n[28] van Assen M A,van Aert R C,Wicherts J M.Meta-Analysis Using Effect Size Distributions of Only Statistically Significant Studies[J].Psychological Methods,2015,20(3): 293-309.   \n[29]Hedges L V. Estimation of Effect Size under Nonrandom Sampling: The Effects of Censoring Studies Yielding Statistically Insignificant Mean Differences[J].Journal ofEducational Statistics,1984,9(1): 61-85.   \n[30] Carter E C, Schonbrodt F D,Gervais W M,et al. Correcting for Bias in Psychology: A Comparison of Meta-Analytic Methods[J]. Advances in Methods and Practices in Psychological Science, 2019,2(2): 115-144.   \n[31] McShane B B,Böckenholt U,Hansen K T.Adjusting for Publication BiasinMeta-Analysis[J].Perspectiveson Psychological Science,2016,11(5): 730-749.   \n[32]BeckerB J.Multivariate Meta-Analysis[A]/Handbookof Applied Multivariate Statistics and Mathematical Modeling[M]. Amsterdam: Elsevier,2000: 499-525.   \n[33]Hedges L V. Stochastically Dependent Effect Sizes[A]/The Handbook of Research Synthesis and Meta-Analysis[M]. New York:Russell Sage Foundation,2019: 281-298.   \n[34]Mengersen K, Jennions MD, Schmid C H. Statistical Models for the Meta-Analysis of Nonindependent Data[A]/Handbook of Meta-Analysis in Ecology and Evolution[M].Princeton, New Jersey: Princeton University Press,2013: 255-283.   \n[35]LajeunesseMJ. Meta-Analysisand the Comparative Phylogenetic Method[J]. The American Naturalist, 2009,174(3): 369-381.   \n[36] Noble D WA,Lagisz M,O'Dea R E,et al. Nonindependence and Sensitivity Analyses in Ecological and Evolutionary MetaAnalyses[J]. Molecular Ecology,2017,26(9): 2410-2425.   \n[37] Rodgers M A，Pustejovsky JE. Evaluating Meta-Analytic Methods to Detect Selective Reporting in the Presence of Dependent Effect Sizes[J]. Psychological Methods,2021,26(2): 141-160.   \n[38]Kalaian HA,Raudenbush S W.A Multivariate Mixed Linear Model for Meta-Analysis[J]. Psychological Methods,1996,1(3): 227-235.   \n[39]van den Noortgate W,López-Lopez JA, Marin-Martinez F, et al. Three-Level Meta-Analysisof Dependent Effect Sizes[J]. Behavior Research Methods,2013,45(2): 576-594.   \n[40]Hedges L V, Tipton E, Johnson M C.Robust Variance Estimation in Meta-Regression with Dependent Effect Size Estimates[J]. Research Synthesis Methods,2010,1(1): 39-65.   \n[41]Banks G C,Field JG,Oswald F L,et al. Answers to 18 Questions About Open Science Practices[J]. Journal of Business and Psychology,2019,34(3): 257-270.   \n[42]O’Boyle E H,Banks G C,Gonzalez-Mulé E. The Chrysalis Effect: How Ugly Initial Results Metamorphosize into Beautiful Articles[J]. Journal of Management, 2017,43(2): 376-399.   \n[43]Schwab A,Starbuck W H.A Call for Openness in Research Reporting: How to Turn Covert Practices into Helpful Tools[J]. Academy of Management Learning & Education,2017,16(1): 125-141.   \n[44]Christensen G,Miguel E. Transparency,Reproducibility,and the Credibility of Economics Research[J].Journal of Economic Literature,2018,56(3): 920-980.   \n[45]Polanin JR,Hennessy E A,Tsuji S. Transparency and Reproducibility of Meta-Analyses in Psychology: A Meta-Review [J].Perspectives on Psychological Science,2020,15(4):1026- 1041.   \n[46] Moreau D,Gamble B. Conducting a Meta-Analysis in the Age of Open Science: Tools,Tips,and Practical Recommendations[J]. Psychological Methods,2020.DOI: 10.1037/met0000351.   \n[47] van de Schoot R,de Bruin J, Schram R,et al.An Open Source Machine Learning Framework for Efficient and Transparent Systematic Reviews[J]. Nature Machine Intelligence, 2021,3(2): 125-133.   \n[48]Harrison H, Griffin S J, Kuhn I, et al. Software Tools to Support Title and Abstract Screening for Systematic Reviewsin Healthcare: An Evaluation[J]. BMC Medical Research Methodology, 2020,20(1): 7.   \n[49]Coyne JC,Hagedoorn M,Thombs B.Most Published and Unpublished Dissertations Should be Excluded from MetaAnalyses: Comment on Moyer et al[J]. Psycho-Oncology,2011, 20(2): 224-225.   \n[50]Ioannidis JPA. The Mass Production of Redundant, Misleading, and Conflicted Systematic Reviews and Meta-Analyses[J].The"
+  }
+}

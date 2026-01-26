@@ -1,0 +1,58 @@
+{
+  "original_filename": "full_1804.md",
+  "·新技术应用·": "",
+  "信息服务的趋势:Semantic WEB": {
+    "context1": "黄晨",
+    "context2": "（浙江大学图书馆杭州310027)",
+    "context3": "文摘Web发展造成了“信息爆炸\"和\"知识贫乏\"的矛盾,基于XML和RDF发展的语义网是解决这一问题的关键。变“机器可读”为\"机器可理解\"是语义网的目标,信息服务可以应用语义网的模式和成果，提高搜索的准确率,提供高相关度的个性化服务,构建全新的数字图书馆门户。",
+    "context4": "关键词 语义网 本体 DAML XML"
+  },
+  "Trend of Information Service: The Semantic Web HUANG Chen": {
+    "context1": "（Zhejiang University Library,Hangzhou 310027）",
+    "context2": "Abstracts: The development of the Web results in the situation that information explodes while knowledge is poor.The semantic web based on XML and RDF is the key to solve the puzzedom.The goal of the semantic web is to turm the“machine readable”to“machine understandable”.The information service can improve the search precision,and provide the high relative individuation service by applying the model and fruit of the semantic web.It can construct the new digital library portal further more.",
+    "context3": "Keywords:Semantic web，Ontology，DAML，XML"
+  },
+  "1背景": {
+    "context1": "全球的研究者正在制定一些标准，从协议到应用,以确定一种基于语义的Web 服务技术---Se-mantic Web,实际上也就是下一代的 $\\mathbf { W e b } ^ { [ 1 ] }$ 。2003年11月12日，在由中国计算机学会和万维网联络香港办事处合办的中国国际万维网发展论坛上[2],W3C的IvanHerman先生作了有关 Semantic Web的演讲[3]。这一计划目前由 W3C 牵头，一些世界著名大学(麻省理工、芝加哥大学、京都大学、斯坦福大学等等)的科学家和知名计算机企业，以及业界众多组织共同协作开发。美国国防部先进研究计划局（De-fense Advanced Research Projects Agency -—简称DARPA),正在支持此项研究[4]。万维网创始人TimBerners-Lee,也在积极地推动此项计划[5]。",
+    "context2": "SemanticWeb的目标是改变目前流行的Google式的以关键词为手段的互联网信息搜寻和获取方法，而代之以更接近人类思维的内容描述搜索机制。"
+  },
+  "2理论概念与技术实例": {
+    "context1": "SemanticWeb直译即“语义网”,台湾翻译成“语意网\"[6]。需要说明的是,“语义网\"的翻译可能会与另一个比较近缘的概念相混淆-—-Semantic Net-work,后者是一种语言学上的表示方法，或称\"语义网络\"[7]。而前者是特指万维网(WWW)上的数据组织形式。",
+    "context2": "从技术的层面来讲，“Semantic\"一词包含两个重要的含义：其一是指具备相互“理解\"能力的智能WEB应用；其二是指对于海量数字资源的更好的管理和应用方式。它牵涉到的技术除了知识发现(knowledgediscovery)之外还包括智能代理、数据库、搜索语言以及人机界面等等。",
+    "context3": "语义网的实现机制主要是应用“本体（Ontolo-gy)\"构建语言定义一个“本体”,在Web构造时用相关的\"本体\"语言来标识内容，突破XML仅仅定义和管理结构数据,却无法向机器传达语义的缺陷。变“机器可读\"为“机器可理解”，使得计算机可以“理解\"从而评价两个Web站点的相关度，即使它们所使用的是不同的术语表(terminology)和元语言（meta-language)，这将有助于概念的沟通和知识体系的整合。"
+  },
+  "2.1本体": {
+    "context1": "Ontology这一概念来自哲学领域，在上个世纪90年代，被引人人工智能领域。信息科学中将本体定义为在一个特定领域内存在的事物和规则（thethingsand rules that exist)，或称概念化的规范(Specifi-cationof conceptualization）,一个ontology 就是一个知识组织体系。从这个意义上来讲，它类似于图书馆使用的主题词表。语义网引用这一概念来说明一种语言学规范，以帮助机器有效地共享信息和知识。",
+    "context2": "举例来说，交通灯有五种状态：红、绿、黄、黄灯闪和绿灯闪，这些状态可以被定义为关于交通灯的简单分类系统。而且每一种状态对应于--套规划－-前进、停止和减速。这样的分类(classic)和规则(rule)就组成了一个简单的交通系统本体。",
+    "context3": "叶鹰将本体符号化为一个三元组： ${ \\sf T } = < { \\sf F }$ (ieid),C(oncept),R(ule）>。并指出：“一个领域的形式本体论可以作为该领域信息或知识的核心，通过形式本体论可以将这一领域的所有信息或知识组织起来。[8]\"这从哲学的高度说明了本体在知识组织应用中的可能。",
+    "context4": "现在，国外关于ontology的研究如火如茶。有很多基于XML的ontology 构建语言，比如用RDF写成的Ontology文件，就可以清楚定义概念间的关系和推理的逻辑规则。"
+  },
+  "2.2构建工具": {
+    "context1": "HTML（HyperText Markup Language）是目前WWW的主要标记语言，在此基础上发展的XML正得到最为广泛的应用，而 SemanticWeb 的一种基本的描述形式是RDF/XML。从XML转变而来的RDF(TheRe-sourceDescriptionFramework）使许多把XML做为语法、把URI做为名称空间的程序能够集成在一起，能够帮助把各种Web应用整合成图书馆目录服务的形式。",
+    "context2": "使用RDF格式数据的唯一思想是要让它们能够被正确地解析处理而无需过多的人工干预，这也正好符合语义网想要创造一个机器能够阅读的Web的目标。因为已经有很多RDF解析器存在，一旦信息以RDF形式存储，它便变得易于处理。",
+    "context3": "但是RDF它并没有定义推理机制，也没有明确是否包含引用术语的定义，所以作为语义网描述语言还存在不足[9]。目前有许多采用不同语法、语义构建本体的工具。由马里兰大学(University of Mary-land)发展的简单HTML本体扩展语言（The SimpleHTML Ontology Extensions一-SHOE）是第-种基于本体理论的标记语言[10],而目前最为著名而且流行的是 $\\mathbf { D A M L } + \\mathbf { O I I }$ 语言。",
+    "context4": "DAML是美国DARPA开发的针对语义网的标记语言（DARPA Agent Markup Language-—DAML）,它可以使搜索引擎用自然语言替代布尔算式完成搜索请求。同时它也不仅是一种语言，还包含了一系列的工具和应用。",
+    "context5": "本体交互语言（Ontology Interchange LanguageOIL)最初是由欧盟信息社会技术计划（European U-nion's Information Society Technologies Program）支持的项目。DARPA和EUISTP组成的联合委员会吸取了SHOE，DAML，OIL等等本体语言的优点，共同制定了 $\\mathbf { D A M L } + \\mathbf { O I L } ^ { [ 1 1 ] }$",
+    "context6": "DAML $\\mathbf { + 0 I L }$ 对于人类来讲很难阅读，因为它是被设计来供机器理解的。但是当我们需要进行工具开发、调试、本体研究或者修订时，阅读 $\\mathbf { D A M L + O L L }$ 又是必需的。因此Tim Bermers-Lee 和他的同事们开始致力于一种新的符号系统N3,以使得对于DAML $^ +$ OIL的阅读、学习和处理都变得容易一些127"
+  },
+  "2.3实例系统": {
+    "context1": "从1990年开始构建的词汇网(WordNet)是最直接的语言本体系统[13]。它由三部分构成：",
+    "context2": "·某个语言内所有的词汇·该语言表达的所有概念·一组基本的词汇语义关系",
+    "context3": "词汇网的架构是以词义为基准，把有相同词义的所有词汇放在一个同义词集（SynSet）中，同义词集即是表达相同概念的所有词的集合。以定义过的词汇语义关系，连结所有的同义词集，就建立了所有概念间的语义关系。与此对应，除同义，反义，近义外，更重要的还包含上位，下位及功能等关系。",
+    "context4": "大陆的董振东教授从1995年开始构建的知网HowNet是第一个中文语义网的本体系统[14]。与此相似的有始于1996年建设的欧洲语义网EuroWorNet(EWN)[i5],它包含了欧洲的各种小语种。其他还有Cyc(http://www.cyc.com）,IFF{l6]等等。"
+  },
+  "3语义网在数字图书馆的应用": {
+    "context1": "图书馆的数据量正在呈TB地增长，但是相对于“数据过剩”和“信息爆炸”，人们又感到“知识贫乏”。数字图书馆的最终目的是信息服务，如何有效地揭示资源，是数字图书馆最大的问题。今天的用户已不再满足于通过网络检索出一大堆原始信息，而是要求一个综合集成、媒体丰富、深度加工的信息，甚至是一个包含知识和解决方案的信息服务[17]。",
+    "context2": "前面我们提到，本体(Ontology)在某些程度上类似主题词表。但是在词表中，术语或概念的关系十分简单，采用受控的主题词表固然可以有助于资源的准确定位，但无论是标注和使用都局限于专业人员，这显然是一种高成本的服务模式。一种可能的技术模型是构造主题词表与关键词间的映射表，由机器将用户的关键词映射到主题词，以完成检索。这一模型中标注依然是高成本的，并且由谁来创建和维护这一映射也是很难操作的。",
+    "context3": "引人本体的概念，利用语义网进行图书馆门户建设，可能是一种解决的思路。本体和词表的区别在于它可以揭示概念间的复杂关系，而且本体的定义基于语言分析，设定了一种语言或一个领域内的元概念和元关系，它天然地具备概念的关系分析能力,因此可以允许用户通过自己的语言来检索。一个典型的信息请求如\"我想在浙江大学图书馆找一些关于《围城》写作的背景材料”。这不是简单地通过关键词就可以完成的，图书馆员用什么方法来检索用关键词找不到的资料？搜索引擎又如何模拟图书馆员的思维模式来满足这一请求？语义网就能够通过本体，从词所表达的概念层次上理解用户的检索要求，从而驱动机器挖掘出隐藏在数据和文档中的知识内容。"
+  },
+  "4结论与展望": {
+    "context1": "Teknowledge公司最近在DARPA关于DAML的计划中获得了价值 $\\$ 1,634,057$ 的合同，以开发一个针对语义网的开放源码的搜索引擎。Teknowledge 公司希望通过分发这一源码，之后提供有关语义网的顾问服务的方式来培育DAML的市场。现在已经可以下载到用Java和Prolog编制的语义通讯服务代理程序的 Beta版[18]。利用这一开源引擎,浙江大学图书馆构建了一个局域网测试系统。",
+    "context2": "由于本体是一个动态系统,其概念、规则可以随时更新和扩展，所以它就具有比分类法和主题词表远为强大的应用前景。我们将在此基础上构建数字图书馆门户，并结合前此基于DSpace完成的数字图书馆基础框架[19],展示一种新的数字图书馆应用模型。"
+  },
+  "参考文献": {
+    "context1": "1http://www.semanticweb.org  \n2http://www.w3c.org.hk/CIFWeb03/index.html  \n3 http://www.w3.or/2003/Talks/1112-BeijingSW-IH/Chinese-English/Overview.html  \n4 http://www.darpa.mil/body/procurements/old-procurements/jan2000/isojan00.html  \n5 http://www.w3.org/2001/sw/  \n6 http://corpus.ling.sinica.edu.tw/member/churen/ppt/c-200209130mt . ppt  \n7李有梅.语义网表示下的知识量的测定.情报学报增刊，1997(12):78 -82  \n8叶鹰.信息科技的形式本体论研究.情报学报,2003(10):561-564  \n9张平、郭金庚.语义网描述语言分析.电脑开发与应用，2003(4):31-33  \n10http://www.cs.umd.edu/projects/plus/SHOE/spec.html  \n1 F.vanharmelen,P.F.Patel Schneiderr and I.Horrocks(eds）,DAML $^ +$ OIL,March,2001  \n12 http://www.w3.org/People/Bemers-Lee/  \n13 www.cogsci. princeton.edu/wn/  \n14 http://www.keenage.com  \n15 http://www.hum.uva.nl/ewn/  \n16 http://suo．ieee，org/IFF/versions/20011205/IFFFounda-tionOntology. htm  \n17侯雅.网络环境下的知识挖掘.情报科学,2003(8)：887-890  \n18 http://reliant.teknowledge.com/DAML  \n19 黄晨.从数字图书馆到数字空间.图书馆杂志，2003(11):47 - 51",
+    "context2": "黄晨硕士，副研究馆员，现任浙江大学图书馆数字资源建设中心主任。",
+    "context3": "(收稿日期:2003-12-25编审:刘炜赵亮）"
+  }
+}

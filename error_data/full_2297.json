@@ -1,0 +1,89 @@
+{
+  "original_filename": "full_2297.md",
+  "nothing": {
+    "context1": "$\\bullet$ 孟骏(中原无线电厂设计所 湖北)$\\bullet$ 孟庆湖(华工汉口分院图书馆湖北)"
+  },
+  "利用灰色模型预测科技发展趋势": {
+    "context1": "提要根据科技文献检索期刊提供的专题科技文献量的变化数据，分别建立总文献量和不同类型文献量的灰色GM(1,1)模型，并利用这些模型预测该科技领域的发展趋势",
+    "context2": "关键词 灰色预测科技预测"
+  },
+  "0引言": {
+    "context1": "当对某个技术项目进行研究时，人们需要收集大量有关技术资料。当对某方面的科技开发作出规划时，还需要进一步对所收集的资料进行情报分析与预测。对于前者，人们利用科技文献检索期刊或者计算机检索系统能够迅速取得满意的效果。通过得到的原始文献，能直接为科技项目的开发服务。对于后者，需要根据所掌握的情报资料进行定性和定量的分析、即对已知的信息运动规律进行分析和研究，根据已知的信息运动规律预测未知和未来信息状态。从发展趋势上看，这方面的工作同传统的情报研究相比，在方法上更强调对信息运动规律的定量化处理。关于情报分析与预测的定量化处理，目前已有多种方法（1）。这里试图提出一种新的方法，即根据科技文献检索期刊或计算机检索提供的专题科技文献量的变化数据，利用灰色系统的预测理论，在计算机上建立GM(1,1)模型，进行某科技领域发展动态预测。"
+  },
+  "1灰色预测模型建立": {
+    "context1": "灰色系统理论从1982年在国内创立以来，经过了近10年的群众性研讨，在应用的深度和广度上均有很大的提高。灰色GM(1,1)预测模型，在农业等许多领域得到了相当成功的应用。GM(1,1)模型建模方法的优点在于计算方法简单，所需样本数据少。有关其详细阐述可参阅文献〔2)。这里仅简单地将建模步骤归纳如下：",
+    "context2": "(1)建立文献数数列  \n${ \\bf x } ^ { ( 0 ) } ( { \\bf k } ) = \\left\\{ { \\bf x } ^ { ( 0 ) } ( 1 ) , { \\bf x } ^ { ( 0 ) } ( 2 ) , \\cdots , { \\bf x } ^ { ( 0 ) } ( { \\bf k } ) \\right\\} \\quad { \\bf k } = 1 , \\cdots , { \\bf n }$   \n(2)作文献数数列累加生成(AGO)"
+  },
+  "·情报理论与实践·": {
+    "context1": "$$\n\\mathbf { x } ^ { ( 1 ) } ( \\mathbf { k } ) = \\sum _ { 1 = 1 } ^ { \\mathbf { k } } \\mathbf { x } ^ { ( 0 ) } ( \\mathbf { i } )\n$$",
+    "context2": "(3)确定数据矩阵",
+    "context3": "$$\n{ \\bf B } = \\left[ \\begin{array} { l l l } { - \\displaystyle \\frac 1 2 ( { x } ^ { ( 1 ) } ( 1 ) + { x } ^ { ( 1 ) } ( 2 ) ) } & { } & { 1 } \\\\ { } & { } & { \\cdot } \\\\ { - \\displaystyle \\frac 1 2 ( { x } ^ { ( 1 ) } ( 2 ) + { x } ^ { ( 1 ) } ( 3 ) } & { } & { 1 } \\\\ { } & { } & { 1 } \\\\ { \\vdots } & { } & { \\vdots } \\\\ { - \\displaystyle \\frac 1 2 ( { x } ^ { ( 1 ) } ( k - 1 ) + { x } ^ { ( 1 ) } ( k ) ) } & { } & { 1 } \\end{array} \\right]\n$$",
+    "context4": "$$\n{ \\bf y } = ( { \\bf x } ^ { ( 0 ) } ( 2 ) , { \\bf x } ^ { ( 0 ) } ( 3 ) , \\cdots , { \\bf x } ^ { ( 0 ) } ( { \\bf k } ) ) ^ { \\top }\n$$",
+    "context5": "(4)计算a",
+    "context6": "$$\n\\hat { \\mathbf { a } } = \\big ( \\mathbf { B } ^ { \\mathsf { T } } \\mathbf { B } \\big ) ^ { - 1 } \\mathbf { B } ^ { \\mathsf { T } } \\mathbf { Y } _ { \\mathbf { \\Delta \\mathbf { N } } }\n$$",
+    "context7": "(5)确定模型",
+    "context8": "$$\n\\frac { \\mathrm { d } \\mathbf { x } } { \\mathrm { d t } } ^ { ( 1 ) } + \\mathbf { a x } ^ { ( 1 ) } = \\mathbf { u }\n$$",
+    "context9": "$$\n\\hat { \\mathbf { x } } ^ { ( 1 ) } ( \\mathbf { k } + 1 ) = ( \\mathbf { x } ^ { ( 0 ) } ( 1 ) - \\frac { \\mathbf { u } } { \\mathbf { a } } ) \\mathbf { e } ^ { - \\mathbf { \\nu } \\mathbf { a } \\mathbf { k } } + \\frac { \\mathbf { u } } { \\mathbf { a } }\n$$",
+    "context10": "(6)精度检验 $^ { ( \\widehat { \\mathbf { 1 } } ) }$ 残差检验 $\\textcircled{2}$ 关联度检验 $\\textcircled{2}$ 后验差检验 (7)预测"
+  },
+  "2应用示例": {
+    "context1": "试对某种军用计算机的技术发展趋势进行预测。"
+  },
+  "2.1建立文献数数列": {
+    "context1": "如前所述，各类科技文献检索期刊收集并报道了各种科技文献，如图书，期刊论文，科技报告，会议文献，专利文献，学位论文等等。这些文献都是重要的情报源，是以往及当代技术状况的反映。而且，这些文献在某种程度上还各具特色，如图书常常是技术发展或科学研究较成熟的产物，它一般较其他文献出现晚。期刊论文和会议论文常常是新的学术建树或新技术的理论探讨。科技报告常常与某些具体项目的研究有关，而军事方面的文献更多地反映在其中。专利文献特点是新颖性、创造性和实用性。",
+    "context2": "利用各种检索期刊获得的有关某种军用计算机的文献数量情况如下表所示。",
+    "context3": "<table><tr><td>篇 年份 数 茶型</td><td>1985</td><td>1986</td><td>1987</td><td>1988</td><td>1989</td><td>1990</td><td>规定序列代号</td></tr><tr><td>总文献量</td><td>14</td><td>39</td><td>48</td><td>73</td><td>80</td><td>92</td><td>X</td></tr><tr><td>斯刊文献</td><td>10</td><td>13</td><td>11</td><td>12</td><td>8</td><td>7</td><td>X</td></tr><tr><td>科技报告</td><td>3</td><td>8</td><td>13</td><td>21</td><td>33</td><td>38</td><td>Xc</td></tr><tr><td>专利文献</td><td>1</td><td>6</td><td>1</td><td>20</td><td>28</td><td>35</td><td>XD</td></tr><tr><td>其他文献</td><td>0</td><td>12</td><td>13</td><td>20</td><td>11</td><td>12</td><td>XE</td></tr></table>"
+  },
+  "2.2建立GM(1,1)模型": {
+    "context1": "下面对5个数据序列分别建立GM(1,1)模型，为节省篇幅仅列出计算机运算的主要结果而省去计算过程。",
+    "context2": "$\\textcircled{1}$ 总文献量的 $\\mathbf { G M _ { A } ( 1 , 1 ) }$ 模型$\\begin{array} { r l } & { \\mathrm { x } _ { \\mathrm { o A } } = \\{ 1 4 , ~ 3 9 , ~ 4 8 , ~ 7 3 , ~ 8 0 , ~ 9 2 \\} } \\\\ & { \\hat { a } = - 0 . 1 9 5 1 ~ \\hat { b } = 3 6 . 3 0 5 6 } \\\\ & { \\hat { x } _ { ( k + 1 ) } = 2 0 0 . 0 8 5 7 e ^ { 0 . 1 9 5 1 0 1 4 k } - 1 8 6 . 0 8 5 7 . } \\end{array}$",
+    "context3": "拟合值实际值绝对误差e相对误差q% 预瀚伯  \n$\\mathfrak { x } _ { , 1 3 } ( 8 5 )$ 14 14 U 0 $\\lambda _ { \\mathrm { s t } } ( 9 ! )$ 114 3373  \n$\\mathsf { X } _ { \\mathrm { e A } } ( 8 6 )$ 431053 39 -4.105286 -10.52637 $\\mathbf { x } _ { \\mathrm { o A } } ( 9 2 )$ 138.9694  \n$\\mathbf { \\widetilde { \\mathbf { A } } } _ { n , \\mathbf { A } } ( \\mathbf { \\widetilde { \\mathbf { B } } } \\widetilde { \\mathbf { \\widetilde { \\Lambda } } } )$ 52.3917 48 -4 391678 -9.149328 $\\mathbf { x _ { \\mathrm { o A } } ( 9 3 ) }$ 168.9083  \n04（88） 63.678 73 9.321411 12.76906 $\\pmb { \\chi } _ { \\mathrm { e A } } ( 9 4 )$ 205.2968  \n$\\mathbf { X } _ { n , \\mathbf { A } } ( 8 9 )$ 77 3972 80 2.602844 3.253555 $\\mathbf { x } _ { \\mathrm { , } \\mathrm { \\mathbf { u } } } ( 9 5 )$ 249 5248  \n$\\mathbf { \\vec { x } } _ { \\mathrm { o A } } ( \\mathfrak { s o } )$ 94.0711 92 -4.071091 -4 523434",
+    "context4": "$\\textcircled{2}$ 期刊文献的 $\\mathbf { G M _ { B } } ( 1 , 1 )$ 模型",
+    "context5": "$$\n\\begin{array} { r l } & { \\mathbf { x _ { o B } } = \\{ 1 0 , 1 3 , 1 1 , 1 2 , 8 , 7 \\} } \\\\ & { \\hat { a } = 0 . 1 4 1 7 \\quad \\quad \\hat { b } = 1 5 . 6 5 6 7 } \\\\ & { \\hat { x } _ { ( k + 1 ) } = \\mathbf { - \\ } 1 0 0 . 4 6 6 7 e ^ { - 0 . 1 4 1 7 3 2 3 k } + 1 } \\end{array}\n$$",
+    "context6": "<table><tr><td></td><td>拟合值</td><td>实际俏</td><td>绝对误差e相对误差q%</td><td></td><td>：</td><td>预潮俏</td></tr><tr><td>XB(85)</td><td>10</td><td>10</td><td>0</td><td>0</td><td></td><td>Xg(91) 6.535969</td></tr><tr><td>XB(86)</td><td>13 2763</td><td>13</td><td>-0 2763138</td><td>-2.125491</td><td></td><td>XB(92) 5.672257</td></tr><tr><td>XB(87)</td><td>11 5219</td><td>1</td><td>-0.521904</td><td>-4.744582</td><td></td><td>XB(93)4922699</td></tr><tr><td>x(88)</td><td>9.9993</td><td>12</td><td>2 000687</td><td>16 67239</td><td></td><td>XB(94) 4.272171</td></tr><tr><td>xg（89)</td><td>8.6780</td><td>8</td><td>-0.6779518</td><td>-8 474398</td><td></td><td>X(95)3.707619</td></tr><tr><td>（90)</td><td>7 5312</td><td>7</td><td>-0.53118313</td><td>-7 588305</td><td></td><td></td></tr></table>",
+    "context7": "$\\textcircled{3}$ 科技报告的 ${ \\bf G M } _ { \\mathrm { C } } ( 1 , 1 )$ 模型$\\begin{array} { l } { { { \\bf x } _ { \\mathrm { O C } } = \\{ 3 , 8 , 1 3 , 2 1 , 3 3 , 3 8 \\} { \\bf \\sigma } \\cdot { \\bf \\sigma } } } \\\\ { { { \\hat { a } } = - 0 . 3 4 2 7 { \\quad \\quad } { \\hat { b } } = 7 . 6 9 1 8 } } \\\\ { { { \\hat { x } } _ { \\left. \\scriptstyle \\left( k + \\right. \\right) } = 2 5 . 4 4 3 7 6 e ^ { 0 . 3 4 2 7 1 6 3 k } { \\bf \\sigma } - 2 2 . 4 4 3 7 6 } } \\end{array}$ $( \\overrightharpoon { 4 } )$ 专利文献的 ${ \\bf G M _ { D } } ( 1 , 1 )$ 模型$\\begin{array} { l } { \\displaystyle \\mathbf { x } _ { \\mathrm { O D } } = \\{ 1 , 6 , 1 1 , 2 0 , 2 8 , 3 5 \\} } \\\\ { \\displaystyle \\hat { a } = - 0 . 3 6 1 2 \\quad \\hat { b } = 6 . 9 9 5 8 } \\end{array}$ $\\hat { \\mathbf { x } } _ { ( \\mathbf { k } + 1 ) } = 2 0 . 3 6 6 6 8 \\mathbf { e }$ 0.361281k  19.36668",
+    "context8": "<table><tr><td></td><td>拟合俏</td><td>实际</td><td></td><td>绝对误差e相对议差q%</td><td></td><td>预测伯</td></tr><tr><td>(85）</td><td>3</td><td>3</td><td>0</td><td>0</td><td></td><td>xoc(91） 57.71096</td></tr><tr><td>xoc(86)</td><td>10.4006</td><td>8</td><td>-2.400622</td><td>-30 00777</td><td></td><td>((92) 81.30141</td></tr><tr><td>xx-（87)</td><td>14.6521</td><td>13</td><td>-1.652069</td><td>−12.70822</td><td></td><td>xoc(93) 114.5349</td></tr><tr><td>xoc(6)</td><td>20.6414</td><td>21</td><td>0.358614</td><td>1.707686</td><td></td><td>x(94) 161.353</td></tr><tr><td>X(8y)</td><td>29.0789</td><td>33</td><td>3 921066</td><td>11.88202</td><td></td><td>oc(95) 227.3093</td></tr><tr><td>Xx-(90)</td><td>40.9655</td><td>38</td><td>-2 965485</td><td>-7.803908</td><td></td><td></td></tr></table>",
+    "context9": "预测慎   \n$\\mathbf { \\lambda _ { 0 D } } ( 9 1 )$ 5393827   \n$\\mathbf { x _ { 0 D } } ( 9 2 )$ 77.40625   \n$\\mathbf { \\delta } _ { \\mathbf { \\lambda } _ { 0 D } } ( 9 3 )$ 111.025   \n$\\mathfrak { r } _ { \\mathrm { G D } } ( 9 4 )$ 159 4171   \n$\\mathbf { \\boldsymbol { x } } _ { \\mathrm { o o } } ( 9 5 )$ 228 778",
+    "context10": "$\\textcircled{5}$ 其他文献的 ${ \\bf G M } _ { \\mathtt { E } } ( 1 , 1 )$ 模型  \n$\\mathbf { x _ { O E } } = \\{ 0 , 1 2 , 1 3 , 2 0 , 1 1 , 1 2 \\}$   \n$\\hat { a } = 0 . 0 1 3 1 \\hat { b } = 1 4 . 0 4 9 7$   \n$\\mathbf { x } _ { _ { ( \\ k + 1 ) } } = \\mathbf { - } 1 0 7 4 . 7 5 3 \\mathrm { e } ^ { - 1 . 3 0 7 2 4 9 \\mathbf { E } - 0 2 \\mathbf { k } } + 1 0 7 4 . 5 3$",
+    "context11": "拟合值实际值绝对误差e相对设差 $9 \\%$ ： 预测值  \n$\\pmb { x } _ { \\mathrm { o r } } ( 8 \\pmb { \\mathscr { s } } )$ 0 0 u 0 $\\mathbf { x _ { 0 E } } ( 9 1 )$ 13 07507  \n$\\pmb { x } _ { 0 \\in } ( 8 6 )$ 13.9583 12 -1 958252 -16 31877 $\\mathbf { x _ { \\mathrm { O F } } } ( 9 2 )$ 12.90527  \n$\\mathbf { \\widetilde { x } _ { O E } ( 8 7 ) }$ 13.7770 13 -0.7769776 -5 976751 $\\mathbf { x _ { o F } } ( 9 3 )$ 12.73767  \n$\\mathbf { x _ { \\mathrm { O F } } } ( 8 8 )$ 135980 20 6401978 32.00989 $\\pmb { x } _ { \\mathrm { 0 r } } ( \\pmb { 9 } 4 )$ 12.57227  \n$\\pmb { x } _ { \\mathrm { o c } } ( 8 9 )$ 13.4215 1 -2.421509 -22.01372 $\\mathbf { \\boldsymbol { x } } _ { 0 E } ( 9 5 )$ 12 409  \n$\\mathbf { x _ { 0 E } } ( 9 0 )$ 13.2471 12 -1 247131 -10.39276"
+  },
+  "2.3作发展趋势图": {
+    "context1": "根据上面所得模型，构制图形如下：",
+    "context2": "![](images/52a56dbc01610d36e1254a07330c6a80cbacaf60bb8efd0bd87f05e66c7d2ee1.jpg)"
+  },
+  "2.4曲线分析": {
+    "context1": "由图可见",
+    "context2": "$( \\underline { { \\widehat { \\mathbf { I } } } } ) \\mathbf { G } \\mathbf { M } _ { \\mathbf { A } } ( 1 , 1 )$ 反映了某种军用计算机方面的总的技术文献量呈增长趋势，说明有关技术仍在发展之",
+    "context3": "中。",
+    "context4": "$\\mathbf { \\Theta } ( \\tilde { \\mathbf { Z } } ^ { \\prime } \\mathbf { G } \\mathbf { M } _ { \\mathbf { b } } ( 1 , 1 )$ ，反映了该技术领域期刊文献量呈下降趋势，说明该技术领域虽然仍在发展，但已开始成熟，脱离了技术理论的探讨阶段。",
+    "context5": "$\\mathbf { \\underline { { \\hat { \\mathbf { 3 } } } } } ) \\mathbf { G M _ { C } } ( 1 , 1 )$ ， $\\mathbf { G M _ { D } } ( 1 , 1 )$ 反映了该技术领域发表的科技报告和专利文献量呈较快速增长趋势。说明某种军用计算机的研制常是以军事项目形式出现的（如AD报告等)，并由研制发展到实际出成果阶段，因而出现了面向实际的各种专利文献的同时增长，还说明当前国际上军事产品商品化趋势（通过专利保护军事厂商的利益)。",
+    "context6": "$( \\underline { { \\hat { \\mathbf { \\Pi } } } } , \\mathbf { G M } _ { \\mathtt { E } } ( 1 , 1 )$ 反映了有关军用计算机的其他文献呈平稳发展趋势。说明该技术发展在图书、学位论文、会议论文等中有反映，且变化平缓。",
+    "context7": "根据以上4点分析，我们可以知道某种军用计算机的研制和技术开发在近期与今后一段时期内将呈上升趋势，可作为技术设计开发与决策者立项时的重要依据，由上图可见，这种文献上升趋势主要反映在科技报告和专利文献方面，其他类型的文献不占主导地位，根据这两种文献的性质，可以对该技术的研究范畴与状况作出判断。"
+  },
+  "3有关灰色预测模型应用的几点说明": {
+    "context1": "GM(1,1)模型通常要求非负的原始数据序列。在我们所讨论的情况下，科技文献数不可能为负，完全满足要求。",
+    "context2": "$\\textcircled { 2 }$ 文献数不可能为小数，而在我们建立的GM（1，1）模型中，所得的拟合值和预测值为含小数的"
+  },
+  "（上接第54页）": {
+    "context1": "Centers Directory)",
+    "context2": "/RCD (Research Centers Directory)",
+    "context3": "/RSD (Research Services Directory)",
+    "context4": "例：S GENETIC(W)ENGINEERING/RCD表示在《研究中心指南》中检索有关遗传工程的研究组织机构。",
+    "context5": "在辅助索引中，除了使用 $\\mathbf { C O } =$ 、 $\\mathbf { O N } =$ 进行“组织机构名称\"的限定， $\\mathbf { N A } =$ 、 $\\mathbf { O F } =$ 用以“负责人姓名\"的限定外，地址和有关联系信息也是可检字段。如国名字段（ $\\mathbf { \\nabla } [ \\mathbf { C N } = )$ ；州、省、地区字段 $( \\pmb { \\mathsf { S } } \\mathbf { T } = )$ ；电话局代码（ $\\mathbf { \\bar { T E } } = \\mathbf { \\dot { \\mu } }$ ；邮政编码 $\\left( \\mathbf { Z P } = \\right)$ ；机构成立年代（ $\\mathbf { F Y } = )$ ；城市名（ $\\mathbf { \\nabla } \\mathbf { C } \\mathbf { T } = \\mathbf { \\nabla } )$ 等。",
+    "context6": "·情报理论与实践·数，可以取整数作图。",
+    "context7": "$\\textcircled{3}$ 通常在高精度预测情况，原始数据序列是光滑离散数据序列。这里我们研究的是科技发展趋势，而不是确切的预测数值，在原始数据序列跳动较大时也能看出变化趋势。",
+    "context8": "$\\textcircled{1}$ 上图中的GM（1，1）分成了A-E5个模型。实际工作中、只需建成1个模型，分别代入5组数组，即可迅速建成5个分模型。因而工作量很小，得出结果很快。",
+    "context9": "$\\textcircled{5}$ GM（1，1）模型所需样本数据少，这里取了6点，最少可取至3点。因而是方便易行的。"
+  },
+  "4结束语": {
+    "context1": "例:S $\\mathbf { C N } = \\mathbf { U S A }$ 检索美国的有关记录S $\\mathbf { C T = D A V I S }$ and $\\mathbf { S } \\mathbf { T } = \\mathbf { C } \\mathbf { A }$ and",
+    "context2": "本文应用灰色系统理论的GM（1，1）模型，利用科技文献检索期刊所提供的专题文献量的变化信息，对该专题的技术发展趋势的预测进行了初步尝试。在实际操作中，感到是方便可行的。如果我们对所收集的文献，按文章的关键词，从原理、方法、工艺、硬件、软件以及其他涉及了项目实质性问题出发，进行分类统计建立GM（1，1）模型的话，可能对该项目的技术发展趋势的分析会有更加具体的估计。□"
+  },
+  "参考文献": {
+    "context1": "1DIALOG CHRONOLOG. 1990   \n2 DIALOG Bluesheet for File 115.1990"
+  },
+  "$\\mathbf { F Y } = 1 9 8 7$": {
+    "context1": "检索成立于1987年并且在加利福尼亚州DAVIS城的有关组织机构的记录。",
+    "context2": "Research Centers And ServicesDirectory数据库为用户提供了迅速检索国际（以美、加为主）学术研究服务组织机构的途径，无论在寻找合作研究的伙伴，查找某个特定研究领域的专家学者，了解某研究中心的研究活动和研究服务情况，还是在研究某个学术性组织机构的历史沿革，确定访问学者人选，进行学术交流方面，都有着其它信息源不可替代的作用，对我国的科研机构和高等院校的教学与科研很有参考价值。□"
+  }
+}

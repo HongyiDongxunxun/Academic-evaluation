@@ -1,0 +1,88 @@
+{
+  "original_filename": "full_3710.md",
+  "国外链接指标研究综述": {
+    "context1": "邓中华，孙建军，李江",
+    "context2": "(南京大学 信息管理系，江苏 南京 210093)",
+    "context3": "摘要：链接分析是网络计量学的重要研究内容，自诞生以来吸引了国外众多参与者，并取得了丰硕的成果。本文是对国外链接分析指标的综述，主要论述了网络影响因子、网络使用因子和链接倾向的概念、算法及应用，并对其他一些指标做了简要介绍。",
+    "context4": "关键词：链接分析；网络影响因子；网络使用因子；链接倾向",
+    "context5": "中图分类号：G353.1 文献标识码：A 文章编号：1007—7634(2008)07—1116—05"
+  },
+  "Review of Foreign Link-based Indicators": {
+    "context1": "DENG Zhong-hua， SUN Jian- jun， LI Jiang (Department of Irformation Management of Narjing Unversity，Narjing 21O093， China)",
+    "context2": "Abstract：Being focused on by Webometrics，Link Analysis has absorbed many foreign participaters and has harvested great achievements since born·This paper is a review of foreign linkbased indicators·It mainly discuses the concept，algorithm and application of Web Impact Factor，Web Use Factor and Link Propensity respectively·Furthermore，it briefly introduces some other link—based indicators · Key words：link analysis；web impact factor；web use factor； link propensity",
+    "context3": "基于文献计量学、科学计量学及信息计量学的发展，T·C·Almind 等人提出“Webometrics（网络计量学)\"，而链接分析作为其主要研究内容成为学术界关注的热点。本文拟就链接指标作一综述。链接指标大体可分为四类： $\\textcircled{1}$ 链接数量特征计量指标：总链接数、出链数； $\\textcircled{2}$ 链接分布特征计量指标：链接密度、页面平均链接数、网络使用因子；$\\textcircled{3}$ 网站影响力计量指标：入链数、网络影响因子、链接倾向； $\\textcircled{4}$ 网页重要性计量指标：Pagerank 算法、HITS 算法等。其中，应用最广泛、关注最多的计量指标是网络影响因子、网络使用因子和链接倾向。本文的重点是网络影响因子、网络使用因子和链接倾向概念、算法和应用的综述。"
+  },
+  "1网络影响因子": "",
+  "1.1网络影响因子的概念及算法": {
+    "context1": "“网络影响因子”，一般认为是由 Ingwerson[提出的、利用网站获得的链接数计量网站影响力的计量指标。他选择了包括七个国家域名、四个顶级域名和六个学术机构域名在内的网站，利用AltaVista的高级检索功能得到了各自的网站总网页数和网页链接数，在此基础上计算了各个网站的WIF。Ingw-erson将WIF定义为：指定时间内，指向某一国家或网站的外部入链（externalinlinks）和内部入链(internalinlinks）网页数的逻辑和与该国家或网站内部的网页数的比值。",
+    "context2": "最初，Ingwerson 提出的WIF 算法是：（某一国家或网站的）外部入链网页数十内部入链网页数  \nWIF=（该国家或网站内部的）网页数",
+    "context3": "但是这一算法本身存在着无法回避的缺陷。首先，在分子中，通常网站包含的网页越多，其内部入链数也就越大，所以只有外部入链数才能真正代表对目标网页的引用。但要区分外部入链数与内部入链数并不容易。例如，南京大学信息管理系$( \\mathbf { i m } \\cdot \\mathbf { n j u } \\cdot \\mathbf { e d u } \\cdot \\mathbf { c n } )$ ）站点是南京大学（ $( \\operatorname* { n j u } \\cdot \\mathbf { e d u } \\cdot \\mathbf { c n } )$ 网站下属的子站点，那么从 $\\operatorname { n j u } \\cdot \\mathrm { e d u } \\cdot \\mathrm { c n }$ 指向$\\operatorname* { i m } \\cdot \\operatorname { n j u } \\cdot \\operatorname { e d u } \\cdot \\operatorname { c n }$ 的链接是外部入链还是内部入链?笔者认为同一所大学网站内的链接应该被看作是内部入链。基于此，Thelwall和 $\\mathrm { S m i t h } ^ { \\tt t 4 I }$ 在研究网站链接特征时，都将外部入链数作为WIF的分子，这与引文分析中剔除自引的做法类似。其次， $\\mathrm { I n g ^ { - } }$ werson的WIF算法中的分母是该国家或网站内部的网页数。但至今仍没有一个公认的标准来判定何种内容才能被当作一个网页，一篇论文可以被视为一个网页，该论文也可以被分为几个网页显示从而被看作几个网页。一个经典的例子是，某篇在线电子文档吸引了100 个外部链接，如果这篇电子文档的内容全部包含在一个网页中，则其WIF值为100；但若其内容分为100 个网页显示，则其 WIF值为1。这表明WIF 值会因电子文档在web上出现形式的不同而相差迥异。基于以上两点很多学者给出了不同的WIF 算法。",
+    "context4": "2002 年Telwall将WIF 算法修正为属于指定网络空间S但不属于大学网站U的网页集合，包含至少一个指向U的链接的网页数  \nWIF $=$ 该大学全职科研人员数",
+    "context5": "为便于理解，可将该分数表达式用文氏图（图",
+    "context6": "1）表示为：",
+    "context7": "注：S表示某指定网络空间，U表示S下属的某个大学网站，并且S中至少包含一个指向U的链接。X表示该算法中的分子部分（网站外部入链的网页数)，即 $\\mathbf { \\Pi } _ { \\mathrm { X } } \\subseteq \\mathbf { S } \\mathbb { U }$ 。",
+    "context8": "中国知Theal统计分析英围澳大利亚、新西兰的大学之间的链接情况时，Thelwall使用自制的链接分析工具WIFweb crawler统计分析英国的大学网站的WIF 时均用到这一算法。",
+    "context9": "![](images/66d84111ddad42aa9497a1bc289fcdfddf0b5fbe252ff8905554217c255a3928.jpg)  \n图1",
+    "context10": "2006 年，Noruzi 和 Alireza将WIF 算法归纳为：",
+    "context11": "WIr 搜索引警索引到的该网站内的网页总数",
+    "context12": "此外，还有一些学者提出可以用科研生产率代替网页数和科研人员数，即：",
+    "context13": "/I $=$ （某国家或网站的）外部入链总数",
+    "context14": "科研生产率",
+    "context15": "需要注意的是，商业搜索引擎和专门的网络爬虫索引到的链接数据并不都是必要和可用的，其中有许多重复链接，如何获取有用信息呢?Thelwall于 2O02年首次提出了ADM（AlternativeDocumentModels)，它是整合与剔除重复链接的好方法。"
+  },
+  "1.2WIF的应用": {
+    "context1": "在某种程度上，WIF 测度了网站吸引链接的能力，是计量网站影响力的重要指标：",
+    "context2": "(1)网站和网页资源的评价 通过WIF 的计算，结合网站或网页的点击率，可以确定类似于核心期刊的核心网站或核心网页。通常，WIF 越高，说明网站的影响力越大，也就反证出网站或网页的质量越高。核心网站或核心网页的确定有助于用户快速查找和选择利用网络信息资源，增强上网利用网络信息的目的性，提高获取信息的准确性和快捷性。如Owen Thomas 和PeterWillet[对英国大学图书情报系网站中网页的WIF进行研究，做出对网页资源的评价，即链接到图书情报主题的网站的网页中有很多是来自非图书情报主题的网页甚至是商业性的网页。",
+    "context3": "(2)网站建设和管理 根据WIF 及其他相关指标确定出核心网站，这不仅说明了网站的较强影响力，也会增强网站的知名度，从而推动网站建设和管理。如Tang 和Thelwall[通过WIF 研究中国大陆大学网站，发现外部WIF与大学（网站）排名存",
+    "context4": "在相关性。",
+    "context5": "(3)评价核心电子期刊 通过分析电子期刊的被链接情况，计算其WIF，进行电子期刊的评价，进而确定核心电子期刊。如Vaughan 和Thelwall[使用 WIF对电子期刊网站进行的研究。"
+  },
+  "2网络使用因子": "",
+  "2.1网络使用因子的概念及算法": {
+    "context1": "WUF反映某一国家或网站的网页指向其他网页能力的分布情况，可以用来测度某一国家或网站的链接分布特征。某一国家或网站的出链数除以网页数、科研人员数或科研生产率便得到了网页平均出链数、科研人员平均出链数或科研生产率的平均出链数，即WUF。但如果一个国家的科研生产率数据很难获得，并且有理由相信该国的大学在研究能力上相似，或者因为商业搜索引擎和专业网络爬行工具覆盖范围的问题导致难以计算一个网站的网页数，则科研人员数就成为WUF的分母；但若科研人员数无法获得，仍然要用网页数做分母。",
+    "context2": "WUF在测度某一国家或网站的链接分布情况时，可以用于计算网络的不同区域。例如，一个· $\\mathbf { c o m W U }$ 可根据有· $\\bf c o m$ 域名的链接网页来计算。对网络中有不同区域在计算上的限制，使得要对不同类型网页进行比较，如国内的、国际的、教育的、商业的。另外，解释顶级域名如： $\\bf c o m$ 、·edu、·uk 的计算结果时必须谨慎，因为我们不能只从表面上解释顶级域名。例如，： $\\mathbf { c o m }$ 域名应该用于商业领域，但是任何人都可以购买一个， $\\bf c o m$ 域名，并且在现实中，： $\\mathbf { c o m }$ 域名包含了庞杂无章的各类信息；即使是·edu 域名也不局限于美国的大学。",
+    "context3": "综上所述，我们可以用某一国家或网站的出链数作为分子，分别用该国家或网站的网页数、科研人员数和科研生产率作为分母，得出WUF的不同算法，即：",
+    "context4": "WUF=（某一国家或网站的）出链数该国家或网站的网页数  \n或，WUF $=$ （某一国家或网站的）出链数科研人员数  \n或，WUF=（某一国家或网站的）出链数科研生产率"
+  },
+  "2.2网络使用因子的应用": {
+    "context1": "中国知网https://www.cnki.net从概念和算法上看，WUF反映了网站出链的平均量，得出网站链接的分布情况，通常WUF 越高，说明网站利用其他网络信息资源的程度越高，相应的，该网站的信息数量和质量也就可能越高。某一网站可以通过WUF的计算知道该网站利用其他网络信息资源的能力高低，以及利用其他网络信息资源的迫切性，并且促使该网站评估其网页对其他网页既往的链接中哪些是好的、需要继续链接的，哪些是差的、需要终止链接的，以及需要寻找并链向哪些新的、优质的网页在。虽然目前关于WUF应用的专门的研究还很少，但WUF与WIF 等计量指标相结合，在网站建设和管理等方面有很大的应用前景。"
+  },
+  "3链接倾向": "",
+  "3.1链接倾向的概念及算法": {
+    "context1": "链接倾向由 Smith 和Thelwall[于 2OO2 年首次提出。Smith 和Thelwall在研究澳大利亚大学网站的WIF 时，将其定义为某大学网站的外部入链数与来源网站和目标网站的全职科研人员总数的比值（但有时候，当全职科研人员数不容易获得时，也可以用网站内部的网页数代替；类似于WIF和WUF，还可以用科研生产率代替)。可见，LP是WIP 的一个特例。并且，LP有效地排除了来源网站和目标网站规模大小的影响，适于揭示两个网站之间相互链接的意愿，因而从理论上讲更具科学性。Smith和Thelwall的研究发现，从英国和澳大利亚到新西兰网站的链接倾向是这三个国家中最低的，因此新西兰在这三个国家的网络中处于相对孤立的地位。",
+    "context2": "Thelwall[使用四个不同的基于链接统计的计量指标研究 $\\mathrm { \\ g T L D s } ^ { \\mathbf { U } \\mathrm { 5 \\mathbf { I } } }$ （general Top Level Domains）和一些与计算机有关的公司和大学中的链接模式。所使用的指标有：",
+    "context3": "$\\textcircled{1}$ 绝对外链数（number of external links）;$\\textcircled{2}$ 外链数除以目标网站的网页数；$\\textcircled{3}$ 外链数除以来源网站的网页数；$\\textcircled{4}$ 外链数除以来源网站与目标网站的网页总  \n数。$\\textcircled{1}$ 是粗略的链接统计。 $\\textcircled{2}$ 排除了目标网站的影  \n响；而 $\\textcircled{3}$ 排除了来源网站的影响。 $\\textcircled{4}$ 正是LP。研  \n究发现，： $\\bf c o m$ 域名是gTLDs中主要的外链来源，  \n在公司和大学中也可以识别出商业关系。注意， $\\textcircled{1}$   \n类似于绝对WIF，而 $\\textcircled{2}$ 类似于相对WIF。但这里的",
+    "context4": "目的不是计量网络而是揭示链接模式。尽管LP在四个指标中最具平衡性，但仍不能独立揭示链接模式的全貌。",
+    "context5": "Thelwall 和 $\\mathrm { S m i t h } ^ { \\tt t i 6 1 }$ 利用这四个指标研究亚太地区大学之间的链接模式。研究发现，澳大利亚和日本是该地区网络利用中心。这与Glanael 和 Sch-$\\mathrm { \\ u b e r t } ^ { \\mathrm { \\scriptsize { t } } ^ { \\mathrm { \\prime } } \\mathrm { \\bf 1 } }$ 和 Glanael[使用引文分析得出的结论相似。",
+    "context6": "Thelwall等[使用链接倾向技术研究西欧与语言相关的网络链接模式，结果发现，英语是西欧网络上居主导地位的语言。与使用不同语言的国家相比，使用相同语言的国家之间更倾向于链接。",
+    "context7": "综上所述，我们可以用某大学网站的外部入链数作为分子，分别用该国家或网站的网页数、全职科研人员数和科研生产率作为分母，得出LP的不同算法，即：",
+    "context8": "（某大学网站的）外部入链数  \nLP（该大学网站的）全职科研人员数（某大学网站的）外部入链数  \n或，LP（该大学网站的）内部网页数（某大学网站的）外部入链数  \n或，LP（该大学网站的）科研生产率"
+  },
+  "3.2链接倾向的应用": {
+    "context1": "链接倾向可被看作WIF的一个特例，反映了网站被链接的情况，同时可以反映一个国家在网络利用中的地位，因而可以作为评价网站影响力的重要指标。LP有效地排除了来源网站和目标网站规模大小的影响，适于揭示两个网站之间相互链接的意愿，因而从理论上将讲更具有科学性。如Thel-wall 等人使用“链接倾向”研究西欧与语言相关的网络链接模式，发现，英语是西欧网络上居主导地位的语言。并且，与使用不同语言的国家相比，使用相同语言的国家之间更倾向于链接。"
+  },
+  "4其他相关链接指标": "",
+  "4.1入链数（number of inlinks）": {
+    "context1": "入链是指向某个网页的链接，故入链数是一个网页的入链总数量，类似于文献计量中的“被引用数”。入链数反映了网页被重视和利用的程度，常被看作评价网络信息资源质量和影响力的重要指标，广泛使用于链接分析算法（如WIF 和LP的算法本据掘等//www.cnki.net",
+    "context2": "入链数包括外链数（number of external links）",
+    "context3": "和内链数（number of internal links）。我们先弄清自链、内链(内部入链）和外链(外部入链)。自链是一个网页指向它本身的链接，也指一个网站内部不同网页之间的链接。内链是来自内部的链接，而外链是来自外部的链接，故对一个网站来说，内链和外链都是入链，并且，外链都不是自链。自链都是内链，而只有对一个网站而言时，内链才都是自链。因此，外链数是指来自外部的入链总数量，即，外链数 $=$ 入链数一自链数。在总入链数的基础上减去自链数之后得到的外链数更能真实地反映网页被重视和利用的程度。为便于理解，可用图2表示为：",
+    "context4": "![](images/2022b8951599ec9c0aeadfdda4be02512c5d402517c0475e8b63020ebacc3f35.jpg)  \n图2",
+    "context5": "注：S1和 S2 表示两个不同的网站，Pl1、P12、P21、P22为不同的网页",
+    "context6": "Ll是S1的内链，L3、L4是S2的内链，L2是S2 的外链；",
+    "context7": "Ll是S1的自链，L3是S2的自链，L4是P22 的自链，也是S2的自链"
+  },
+  "4.2出链数（number of outlinks）": {
+    "context1": "出链是从某个网页出发的链接，故出链数是指一个网页的出链总数量，类似于文献计量中的“引文数”。出链数反映了网页指向能力的大小，是一个纯粹的数量型概念，出链数越大，则该网页的指向能力越强。它可用于计算WUF、自动识别网络信息资源、反应网络信息资源开放程度、测定核心网络信息资源等。"
+  },
+  "5结 语": {
+    "context1": "本文是对链接分析计量指标的一个综述，主要论述了WIF、LP的概念、算法及其在网站影响力测度中的应用、WUF的概念、算法及其在网站链接分布特征测度中的应用，并且简要论述了其他链接指标。在用WIF、WUF 和LP等进行测度时要对不同类型、不同动机的网页赋予不同的权值，综合运用商业搜索引擎和专门的爬行工具进行数据准备，并且运用ADM剔除重复链接。为弥补其不足，Pagerank 算法、HITS 算法等为网站影响力和网页重要性的评价提供了很好的构思，现实中Google 等已为其提供了准确的测度。随着链接分析研究的深入，新的研究成果会不断出现，链接指标及其应用也会不断得到充实和发展，我们将会继续跟踪链接指标新的发展特别是其应用。"
+  },
+  "参考文献": {
+    "context1": "1T·Almind,P. Ingwersen $\\downarrow ^ { \\ast }$ Informetric Analyses on the World Wide Web：Methodological Approaches to Webometrics[J]. Journal of Documentation,1997,53.404—426.   \n2Peter Ingwersen $\\cdot ^ { \\ast }$ The Calculation of Web Impact Factors[J]· Journal of Documentation,1998,（2):236—243.   \n3 Thelwall,M·A Comparison of Sources of Links for Academic Web Impact Factor Calculations[J]· Journal of Documentation, 2002,(1):66—78.   \n4 Thelwall,M.A Comparison of Sources of Links for Academic Web Impact Factor Calculations[J]· Journal of Documentation, 2002,(1):66—78.   \n5LiX.A Review of the Development and Application of Web Impact Factor[J]·Online Information Review,2OO3,27(6),407一 417.   \n6Thelwall, M. A Comparison of Links for Academic Web Impact Factor Calculations[J]· Journal of Documentation,2OO2,（1）: 66—78.   \n7Thelwall,M. Results from a Web Impact Factor Crawler[J]. Joutnal of Documentation,20Ol,57(2):177—191.   \n8 Noruzi,Alireza $\\cdot$ The Web Impact Factor:A Critical Review[J]. The Electronic Library,2006,24(4):490—500.   \n9Thelwall， M. Conceptualising Documentation on the Web: An Evaluation of Different Heuristic-based Models for Counting Links Between University Web Sites[J].Journal of the American Society for Information Scienceand Technologu， 2O02,53 (12):995-1005.   \n1OThomas,O.,Willet,P..Webometric analysis of departments of librarianship and information science[J]·Journal of Information Science,2000,26(6):421-428.   \n11 Tang,R.,Thelwall,M.. Exploring the patern of links for betwen Chinese university Web sites[J]- Journal of the American Society for information Science and Technology,2OO2,（39）: 417—424.   \n12Vaughan,L.,Thelwall,M. .Scholarly use of the Web:What the key inducers of links to journal Web sites?[J]· Journal of Information Science,2003,54(1):29-38.   \n13Smith,A., Thelwall,M.. Web Impact Factors for Australasian Universities[J].Scientometrics,2002,54(1—2):363-380.   \n14 Thelwall,M..Exploring the Link Structure of the Web with Network Diagrams[J]·Journal of Information Science,2O01,27 (6):393-402.   \n15Groups,I.G.C.\"gDregistries”,2OOl,available[EB/OL]at: www.dnso ·org/constituency/gtld· html,2OO8—O1—02.   \n16Smith,A.,Thelwall,M.. Web Impact Factors for Australasian Universities[J].Scientometrics,2002,54(1—2):363-380.   \n17 Glanzel,w·,Sohubert，A.. Double Effect $=$ Double Impact?A Critical View at International Co-authorship in Chemistry[J]. Scientometrics,2001,50(2):199—214.   \n18 Glanzel,w·,National Charactristics in International Scientific Co-authorship Relations[J]. Scientometrics,2OOl,51（1) : 69 -115.   \n19Thelwall,M.,Tang,R.,Price,E.,Linguistic Patterns of Aca demic Web Use in WesternEurope[J].Scientometrics,2003,56 (3):417—432.",
+    "context2": "(责任编辑：刘凤勤)"
+  },
+  "更 正": {
+    "context1": "《情报科学》2008 年第6期由于计算机系统故障出现印刷错误，特此更正如下：",
+    "context2": "1.页眉期处5期应为6期;2.第892页应为896页，第896页应为892页。为此，编辑部向广大作者及读者真诚致歉!"
+  }
+}

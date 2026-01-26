@@ -1,0 +1,151 @@
+{
+  "original_filename": "full_4600.md",
+  "nothing": {
+    "context1": "·情报理论与前瞻观点·"
+  },
+  "基于机器学习算法的研究热点趋势预测模型对比与分析": {
+    "context1": "-BP神经网络、支持向量机与LSTM模型",
+    "context2": "李静徐路路2\\*",
+    "context3": "(1．同济大学经济与管理学院，上海 200092；2．南开大学商学院信息资源管理系，天津300071)",
+    "context4": "摘要：回的/意义细粒度分析学科领域热点主题发展脉络并对利用机器学习算法对未来发展趋势进行准确预测研究。仿法/过程提出一种基于机器学习算法的研究热点趋势预测方法与分析框架，以基因工程领域为例利用主题概率模型识别WOS核心集中论文摘要数据研究热点主题并进行主题演化关联构建，然后选取 BP神经网络、支持向量机及LSTM模型等3种典型机器学习算法进行预测分析，最后利用RE指标和精准度指标评价机器学习算法预测效果并对基因工程领域在医药卫生、农业食品等方面研究趋势进行分析。结果/结论实验表明基于LSTM模型对热点主题未来发展趋势预测准确度最高，支持向量机预测效果次之，BP神经网络预测效果较差且预测稳定性不足，同时结合专家咨询和文献调研表明本文方法可快速识别基因领域研究主题及发展趋势，可为我国学科领域大势研判和架构调整提供决策支持和参考。",
+    "context5": "键词：热点主题；发展趋势；机器学习；LSTM模型；支持向量机模型",
+    "context6": "DOI: 10.3969/j.issn.1008-0821.2019.04.003 （中图分类号）G203 （文献标识码）A（文章编号）1008-0821（2019）04-0023-11"
+  },
+  "Comparison and Analysis of Research Trend Prediction Models Based on Machine Learning Algorithm": {
+    "context1": "-BP Neural Network，Support Vector Machine and LSTM Model",
+    "context2": "Li Jing1Xu Lulu2\\*   \n(1. School of Economics and Management，Tongji University， Shanghai 200092，China;   \n2.Department of Information Resources Management，Business School，Nankai University， Tianjin 300071，China)",
+    "context3": "AbstractPurpose/SignficancelFine-grained analysis of the development context of hot topics in the subject field and accurate prediction offuturedevelopment trends using machine learning algorithms.Method/ProcesThis paper proposedaresearch hotspot prediction methodandanalysis framework basedon machinelearning algorithm.Takingthe field of genetic ngineering as an example，it used thetopic probability model to identifythe hottopics ofthe WOScoresummary dataand constructed the theme evolution association.Then selected three typical machine learning algorithms，such as BP neural network，supportvector machineandLSTMmodel topredictand analyze.Finall，thepredictionresultsof the machine learning algorithm wereevaluated byusing RE indexand precision index，and analysed theresearch trend in the fieldsof medicineand healthandagricultural foodinthefieldof geneticengineering.Result/Conclusion]The experiment showedthattheLSTM modelhad the highest prediction acuracy forthe future developmenttrendof hottopics，the predictionefect of supportvector machine was the second，theprediction efectofBP neural network was poorandthe prediction stability was insuficient.Atthesame time，combining expertconsultationand literatureresearch，it showedthat this methodcouldquicklyidentifythe topic and development trend of genefield.Itcould provide decision supportandreference for the judgement and adjustment of the discipline in China.",
+    "context4": "Key words: hot topics； development trend; machine learning; LSTM model; support vector",
+    "context5": "21世纪以来，面对日益加剧的科技创新演变和国际科技竞争态势，如何有效识别科学领域研究前沿热点并对未来科技发展态势进行预判至关重要。基于科技文献的研究前沿热点探测一直是科技战略情报的重点内容，宏观层面来讲可对国家学科架构规划、智库建设及基金规划制定提供决策支持，中观层面对于地区、高校、院系等体系的双一流建设和学科带头点培养起指导作用，而从个体微观角度来讲，研究热点的把握和趋势追踪对于科研工作者提升科研效率和科研产出意义显著。因此，有效捕捉当前活跃的科研活动信息，从而追踪研究热点趋势成为一直以来关注的焦点。",
+    "context6": "目前，很多学者围绕科学研究前沿及领域热点态势等进行了有效研究并取得了丰硕的成果。但与此同时，研究热点探测多基于引文分析方法存在时间滞后问题，同时存在词频统计分析语义不足、演化分析较为充分但预测分析不足以及粗粒度时间切片不能有效揭示热点主题的发展演化脉络等诸多问题，使得研究热点探测和趋势分析科学性存在不足。",
+    "context7": "基于指数平滑、自回归模型、神经网络模型等方法的时间序列预测模型基于历史数据相空间重构和反馈传播从而把握事物演变态势并对下一时间段的发展进行预测，在金融证券、风电荷载及企业治理等领域应用广泛。但预测研究在情报学应用较少，存在场景融合力度不足以及预测方法传统单一等问题，因此，本文提出基于机器学习算法的研究热点预测模型，利用主题概率模型识别领域主题强度并以表征研究热点，尝试分析和对比不同机器学习算法预测效果以确定最优预测模型选择，对未来一段时间内的发展趋势进行定量分析。本文尝试寻求机器学习预测模型与研究前沿热点的应用结合点，也为情报学领域的前沿识别追踪领域提供一种新思路、新方法。"
+  },
+  "1相关研究": "",
+  "1.1研究热点梳理": {
+    "context1": "目前在情报学和科学学研究热点及前沿热点识别中主要分为两大类方法：引文分析方法（如共被引、文献耦合）和文本内容分析（词频分析、共词以及主题概率模型分析）。",
+    "context2": "1973年，Small H等首次提出利用共被引聚类方法识别研究前沿热点主题。1994年，Carfield$_ { \\textrm { S L } }$ 等利用共被引强度表征当前研究活动前沿信息并进一步对研究前沿热点内涵分析定义。Kessler$\\mathrm { ~ M ~ M ~ } ^ { \\mathbb { H } }$ 最早将文献耦合分析方法引入到前沿热点识别中来，该方法有效揭示文献间内在联系和学科架构变化，围绕该方法的研究逐步开展。如Pers一son利用施引文献一被引文献二维矩阵揭示热点研究主题，Morris SA等基于文献耦合方法进一步可视化展示热点主题分布、演变与衰老动态时序变化。",
+    "context3": "基于共被引和文献耦合等引文分析方法存在时间探测的滞后性，同时存在未深入文本内容、欠缺语义关系等问题一定程度上制约了热点主题探测的科学性。因此，目前基于词频分析、共词分析以及主题模型成为热点识别的主流先驱。2003年，BleiD M等提出LDA模型从概率统计层面定量分析和识别出科技文献动态研究主题。2004年，ManeKK等[利用词频分析方法对生物医学领域文献进行结构分层并绘制研究热点主题地图。2012年，杨星等[提出基于主题模型的热点及趋势自动识别方法并在时间轴上对热点主题进行动态演化分析，相关研究学者还有傅柱等、徐路路等。目前基于研究热点和前沿探测的方法取得了显著的研究成果，演化分析较为充分但存在前瞻预测不足、预测方法单一老化等问题，因此本文将结合当前机器学习相关算法对识别出的研究热点主题进行预测分析。"
+  },
+  "1.2基于机器学习预测方法梳理": {
+    "context1": "1970年，美国科学家博克斯首次提出利用时间序列建模分析实现事物发展趋势预测对模型设计、诊断、检验以及控制等进行了阐明。之后围绕时序建模的思想和方法逐渐完善并在经济趋势预测、国家产值预判及舆情风险评估等诸多方面取得了方法的应用。目前传统的时序预测方法主要有自回归、Kalman 滤波法、滑动平均模型等。",
+    "context2": "基于传统的时间序列预测方法侧重于数理统计，不具备自学习、自组织、自适应能力，尤其对于非线性及多特征维度的数据类型不能有效拟合和函数表达。随着万物互联和大数据生态环境的构建，基于神经网络、支持向量机回归及随机森林等模型的多种机器学习算法的时间序列预测模型日益发挥重要作用。",
+    "context3": "2004年，张烈平等[4提出一种基于BP神经网络的自学习预测建模系统，利用其并行结构和处理能力将仿真实验精准度有效提高。2008年，侯亚丽等[针对BP神经预测模型收敛慢且易局部收敛等缺陷，提出一种基于改进LM（Levenberg一Marquardt）优化算法的神经网络预测模型，修正后向传播权重调整策略和偏置优化有效提出模型运行效率，围绕BP神经网络及其他模型算法研究的还有夏玫等、孙文俊等及饶浩等。2015年，罗知林等[提出基于随机森林算法的微博信息传播预测算法，利用随机算法的高维度特征抽取能力对微网络结构及等特征进行有效提取预测。2016年，李杰提出改进粒子群算法的支持向量机预测模型有效克服其参数收敛及优化问题，并以工程造价领域进行实证预测研究。2017年，张宇航等针对小样本电力荷载提出一种基于LSTM（Long Short-Term Memory，长短期记忆网络）模型的短期负荷预测方法有效逼近其预测函数机制。",
+    "context4": "基于机器学习相关算法的预测模型在诸多领域取得广泛应用但在情报学研究领域尤其是前沿预测分析、热点状态追踪等方面相关研究尚未开展。因此，本文将尝试利用BP 网络、支持向量机及LSTM模型对热点前沿主题进行预测分析并寻找最优预测效果。"
+  },
+  "2方法框架": {
+    "context1": "为有效对研究热点进行趋势预测分析，本文提出一种基于机器学习算法的研究热点预测模型，首先以基因工程领域为例获取WOS核心合集摘要数据，然后利用LDA主题模型实现科技文献中信息抽取和主题强度表征热点度，进而利用余弦相似度定理建立主题关联构建，最后利用机器学习算法对其未来发展趋势进行预测分析并对不同机器学习算法预测能力进行评估验证。实验框架如图1所示。",
+    "context2": "![](images/0ce14ced910a79c7911f023ad11f70f00b6d40b48f5be4003f557d4a25264dd1.jpg)  \n图1研究热点预测框架图"
+  },
+  "2.1研究热点主题探测": {
+    "context1": "拟选用LDA模型为研究热点主题探测工具。LDA主题模型可以表达主题、主题词与文档3层语义结构，利用无监督机器学习方式抽取隐藏的主题信息并对主题词进行权重表示。研究热点表示一定时期内某一学科研究热情及研究主题强度，可用关键词或主题词的权重表示，权重越大表示研究主题越热门。利用机器学习算法进行研究热度预测首先需要得出每子时期主题强度值。本文提出热点研究前沿主题强度指标如下：",
+    "context2": "$$\nT I I _ { t } ^ { z } = \\sum _ { i = 1 } ^ { n } w e i g h t ( k _ { i } )\n$$",
+    "context3": "其中，weight $\\textbf { ( } k _ { i }$ ）表示主题词权重比值;$\\sum _ { i \\mathop { = } 1 } ^ { n } w e i g h t (  { k } _ { i } )$ 反映该主题累计主题词权重值， $T I I _ { t } ^ { z }$ 即为该主题权重值，越大表示研究主题越热门，越代表当前研究的重心和科技竞争点。该指标的有效探测和预测可对热门研究前沿主题发展脉络准确把握和定位。"
+  },
+  "2.2主题关联构建": {
+    "context1": "细粒度识别子时期研究主题热度后需探索不同时间片段主题集群内部与外部关联关系，从而得到不同主题在不同时期的前驱与后继关系形成动态主题链。本文基于余弦相似度的方法计算时序主题的相似度，构建基于时间序列发展的主题发展脉络，为后续基于机器学习算法做预测分析提供实验准备和基础。设定固定阈值进行相似度判定，相似度大于阈值则说明两个时间维度的热点主题为同一主题的演进与变化，公式如下所示：",
+    "context2": "$$\n\\sum _ { k \\mathop { = } 1 } ^ { n } w _ { k } \\{ \\ T o p i c _ { i } \\} \\ \\times w _ { k } \\{ \\ T o p i c _ { j } \\}\n$$",
+    "context3": "其中，分子表示两个主题向量的点乘积，分母表示两个主题向量的模的积。"
+  },
+  "2.3机器学习算法预测模型对比分析": {
+    "context1": "选取目前时间序列预测研究中常用且准确度较高的3种机器学习算法作为本实验研究热点趋势预测模型，分别为BP神经网络、支持向量机和LSTM模型。"
+  },
+  "2.3.1BP神经网络结构预测模型分析": {
+    "context1": "1986年，Rumelhart首次提出误差逆向修正多层反馈的BP神经网络，凭借其优越复杂模式分类能力和多维函数映射能力而取得了广泛应用。BP神经网络主要分为输入层、隐含层和输出层3层神经结构，采用经验风险最小和梯度下降法来计算目标函数最优值从而逼近函数表达，BP神经网络网络结构如图2所示。",
+    "context2": "![](images/84e8da1cfd797d2689b0bbad786f59a3bc47d3be2672703057bb901f7a5dcdad.jpg)  \n图2BP神经网络网络结构",
+    "context3": "其中， $\\{ x _ { 1 } , \\ l _ { 3 } x _ { 2 } , \\ l _ { 3 } , \\cdots , \\ l _ { 3 } x _ { n } \\}$ 表示 $n$ 维的模型输入单元， $\\{ y _ { 1 } , y _ { 2 } , y _ { 3 } , \\cdots , y _ { n } \\}$ 表示模型输入，从输入到输出对应权重值 $w$ 和偏置项 $b$ 用于前向和后向传播参数调整。对于神经节点 $i$ 输入可表示为：",
+    "context4": "$$\nH _ { i } ^ { u } = \\sum _ { j = 1 } ^ { J } \\ d W _ { i j } V _ { j } = \\sum _ { j = 1 } ^ { J } \\ d W _ { i j } g \\Bigg ( \\sum _ { k = 1 } ^ { K } w _ { j k } x _ { i } \\Bigg )\n$$",
+    "context5": "经过隐层节点得到模型输入为：",
+    "context6": "$$\nO _ { i } ^ { u } = g \\big ( \\cal { H } _ { i } ^ { u } \\big ) \\ = g \\bigg [ \\sum _ { j = 1 } ^ { J } W _ { i j } g \\bigg ( \\sum _ { k = 1 } ^ { K } W _ { j k } X _ { i } \\bigg ) \\ \\bigg ]\n$$",
+    "context7": "对于任意输入模式 $u$ 和输入单元定义误差函数为：",
+    "context8": "$$\n{ \\cal E } ^ { u } ( \\ w ) \\ = \\ \\frac { 1 } { 2 } ( \\ x _ { i } ^ { u } \\ - \\ y _ { i } ^ { u } ) ^ { 2 } \\ = \\ \\frac { 1 } { 2 } \\ \\big [ \\tt k _ { i } ^ { u } \\ - \\ g \\big ( \\sum _ { j } ^ { \\mu } { W _ { i i } } \\big )\n$$",
+    "context9": "$$\ng \\{ \\sum W _ { i j } x _ { i } ^ { u } \\} ] ^ { 2 }\n$$",
+    "context10": "进而对神经元结构进行误差平均处理得到模型预测器的误差，使得隐层前向网络结构能够逼近定义在 $R ^ { n }$ 一个密集任意非线性函数得出模型最优解。BP 神经网络作为机器学习算法的一种具有较好的自学习、自适应能力和一定的推广能力。但BP 神经网络面对复杂优化目标函数神经元输出逼近真实值时期训练效果较差且易陷入局部最优，其网络结构和神经元需人为设定具有较强的主观性，而该模型预测的推广能力和泛化能力也有待于进一步提升。"
+  },
+  "2.3.2支持向量机（SVM）预测模型分析": {
+    "context1": "20世纪90年代科学家Vapnik等提出支持向量机（Support Vector Machine，SVM）算法，基于结构风险最小化寻找归纳统计设计模型以实现最小风险泛函，利用核函数将数据从低维度映射高维度空间降低了维度灾难和计算复杂度而具有较好的推广能力，在电力预测、文本分类等诸多领域取得了广泛应用。支持向量机采用核函数原理，将数据从低维空间映射到高维空间，有效避免“维数灾难”，提高了非线性数据的拟合能力（如图1左侧图所示），利用核函数计算值 $K ( \\boldsymbol { x } _ { i } , \\boldsymbol { x } )$ 表达多维向量内积计算时间 $t$ 时间段内前 $m$ 数据（即数据时间窗口为 $m$ ）预测结果输出，如图3右侧图所示。",
+    "context2": "![](images/880472c6a00d50608e6324a3359690c3c1f9568637804713acd166af318334ab.jpg)  \n图3支持向量机预测模型分析",
+    "context3": "相比于BP神经网络等传统神经网络算法，SVM模型采用结构风险最优而其推广能力一直是该模型的优点之一。对于给定样本 $\\begin{array} { r } { \\left( \\begin{array} { l l } { x _ { i } \\bullet y _ { i } } \\end{array} \\right) } & { { } ( i = 1 \\ _ { : } } \\end{array}$ ，$2 , 3 , \\cdots , N )$ ， $N$ 为样本容量， $x _ { i }$ 为输入向量， $y _ { i }$ 为输出目标，SVM模型采用高维映射特征空间 $R ^ { n }$ 到$R ^ { m }$ 再在特征空间利用线性函数进行函数逼近：",
+    "context4": "$$\ny = f ( \\boldsymbol { \\cal X } ) = \\mathbb { W } , \\varphi ( \\boldsymbol { \\cal X } ) ] \\mathrm { ~ } + b\n$$",
+    "context5": "式中， $\\textstyle W , f ( X )$ 为 $m$ 维矢量数据， $b$ 为函数阈值， $y$ 表示点积处理后函数值。根据统计学理论SVM最小化目标函数得到拟合回归函数公式：",
+    "context6": "$$\n\\operatorname* { m i n } W , b : \\frac { 1 } { 2 } W ^ { 2 } + c \\sum _ { i = 1 } ^ { n } \\mid { y _ { i } - [ W , \\varphi ( x _ { i } ) - b _ { I } ] } \\mid\n$$",
+    "context7": "式中 $c$ 表示控制模型损失 $1 / { 2 w } ^ { 2 }$ 和训练模型复杂度的惩罚系数， $i = 1 , 2 , \\cdots , n$ 表示支持向量机点数。利用核函数可实现数据高维映射特征空间，进而在不影响计算复杂度的前提下输出模型预测时序结果。",
+    "context8": "$$\n\\beta { \\left\\lfloor \\begin{array} { l } { x _ { i } } \\end{array} \\right\\rceil } = w ^ { T } \\phi { \\left( \\begin{array} { l } { x _ { i } } \\end{array} \\right) } + b = \\sum _ { i = 1 } ^ { m } \\alpha _ { i } { \\pmod { i } } \\phi { \\left( \\begin{array} { l } { x _ { i } } \\end{array} \\right) } \\phi { \\left( \\begin{array} { l } { x } \\end{array} \\right) } + b\n$$",
+    "context9": "$$\n= \\sum \\alpha _ { i } k { \\bigl ( } x _ { i } , x { \\bigr ) } \\ + b\n$$",
+    "context10": "支持向量机具有较强小样本学习能力和非线性拟合能力，不容易陷入局部最优同时参数设置相对简易，因此在机器学习时序预测领域取得了较为普遍的应用，但在情报学科学研究前沿探测和预测分析中的应用较少，因此本文选用支持向量机模型作为机器学习算法的一类展开论述分析。"
+  },
+  "2.3.3长短期记忆网络（LSTM）预测模型分析": {
+    "context1": "长短期记忆网络（Long Short Term MemoryNetworks，LSTM）作为特殊的RNN，有效克服了其在机器学习中梯度消失和梯度爆炸的缺陷，对于间隔和延迟相对较长的时序数据具有强度处理能力。LSTM预测模型结构包括：输入序列 $X = \\left\\{ \\begin{array} { r l } \\end{array} \\right.$ ，$x _ { 2 } \\ldots , x _ { 3 } \\ldots , \\ldots , x _ { n } \\}$ 、时序步长及相应输入 $x _ { t }$ 以及控制信息传递的遗忘内 $f _ { t }$ 、输入门 $\\Dot { \\iota } t$ 和输出内 $o _ { t }$ ，如图4所示，在 $t$ 时刻时 $t - 1$ 时刻输入 $h _ { t - 1 }$ 及记忆细胞状态 $C _ { t - 1 }$ 到达并结合此时刻输入通过输入门并由遗忘$f$ 过滤后得到该时刻模型输出。",
+    "context2": "![](images/ede82bfceebf1d653c501e6aaa644cf94bb6e66c6b1b5cb2f1855fe2df7598f3.jpg)  \n图4LSTM模型预测模型结构分析",
+    "context3": "对于LSTM输入:",
+    "context4": "$$\n\\begin{array} { l } { { \\displaystyle z _ { t } = \\sum _ { i = 1 } ^ { I } w _ { _ { x _ { i } } } x _ { i } ^ { t } + \\sum _ { h = 1 } ^ { H } w _ { _ { h _ { i } } } h _ { i } ^ { { t - 1 } } + \\sum _ { c = 1 } ^ { C } w _ { _ { s _ { i } } } s _ { c } ^ { { t - 1 } } + b _ { i } } } \\\\ { { \\displaystyle y _ { _ t } = f \\big ( \\left. z _ { t } \\right) } } \\end{array}\n$$",
+    "context5": "式中， $w _ { x _ { i } } \\backprime \\ w _ { h _ { i } } \\backprime$ $w _ { s _ { i } }$ 分别代表不同细胞机制权重分布，第一项表示与输入门相关的外部信息变量，第三项表示cel中的输入部分，第二项表示 $t -$ 1时刻泛指状态，因为LSTM模型单元相关关联其隐层节点信息共享，则它可视为外部输入的一部分， $b$ 为偏置向量， $f$ 表示sigmoid激活函数。遗忘门和输出门机构机理和相关参数与输入相似，最终算法：基于LSTM模型的研究热点预测算法"
+  },
+  "Input:": {
+    "context1": "K:主题强度值 $D \\colon$ ：相空间重构且窗口滑动后标签值",
+    "context2": "Output:未来一定时间研究热度预测值"
+  },
+  "Method:": {
+    "context1": "训练数据与测试数据选取并对输入数据进行规范化处理",
+    "context2": "窗口及预测步长设置确定标签数据值",
+    "context3": "基于LSTM模型细胞结构实现主题热度预测算法：",
+    "context4": "隐层单元状态值由tanh激活函数得到输入预测值。",
+    "context5": "$$\n\\bar { y } _ { t } = \\sigma \\vert \\ w ^ { * } \\ h { + } b \\vert\n$$",
+    "context6": "a.将输入数据 $X _ { t }$ 与上一时刻输出 $h _ { t - 1 }$ 及状态值传递到隐藏层单元进行门阀计算  \nb.经过细胞遗忘门sigmoid神经网络产生二维分布0和1以决定信息是否通过  \nc. $X _ { t }$ 和 $h _ { t - 1 }$ 等参数值经过遗忘门后结合tanh函数产生 $t$ 时刻Cell状态值  \nd.通过LSTM单元输入门，通过sigmoid函数得到初始输出并利用tanh 函数进行[1,1]数据缩放并与其相乘处理得到预测输出 $h _ { t }$   \ne.由输出 $h _ { t }$ 计算模型最终预测值并按照损失函数计算值进行损失计算，后向传播调整权重分布和参数更新以逼近函数值  \nf.测试数据集输入并利用训练得到LSTM模型进行数值预测得到未来一段时间内的研究热点预测值"
+  },
+  "3实证研究": "",
+  "3.1实验平台": {
+    "context1": "硬件：WindowlO 操作系统、Genuine Intel (R)CPU $@$ 1.70GHz、8GRAM",
+    "context2": "软件：Anaconda、基于 Tensorflow（GPU版本）后端的Keras 深度学习框架、Rapidminer"
+  },
+  "3.2数据集及预处理": {
+    "context1": "数据库：Wos核心论文集中基因工程领域论文数据",
+    "context2": "时间跨度：1965年至2017年检索式：Keyword $=$ \"Genetic Engineering”",
+    "context3": "检索结果：2764项。",
+    "context4": "自1965发表第一篇以基因工程为主题的文章但受限于当时科研条件和理论基础该研究后续未广泛展开。1998年围绕基因工程主题论文的研究相继展开，科研产出数量逐年增加，自2003年开始相关研究呈现高度发展状态，后续科技年代维持高热情、高产出的发展态势。本文利用LDA模型识别大规模文档数据集中主题分布，因此为保证数据样本充足性选用2003年为起始年份，以年为基本"
+  },
+  "处理时间区间共计15年子区间。": "",
+  "3.3主题识别实验": "",
+  "3.3.1LDA 相关参数设置": {
+    "context1": "本文选用LDA 模型进行主题识别。LDA（La-tent Dirichlet Allocation，隐含狄利克雷分配）是包括文档集层、主题层及特征词层3层结构的贝叶斯概率分布模型，通过概率统计和参数拟合模拟大规模文档生成过程，抽取科技文献中具有代表实际意义的主题词进而可以深度挖掘文本数据蕴含的隐含主题信息拓扑结构。",
+    "context2": "文档集中主题数为超参数，在进行主题识别前需确定多源信息数据主题数目。复杂度（Perplexi-ty）是衡量一个语言模型优劣常用的一个指标，David等提出复杂度指标并定义一个有 $M$ 篇文档的文档集的主题模型的复杂度为：",
+    "context3": "$$\np e r p l e x i t y ( D _ { t e s t } ) = \\exp \\Biggl \\{ - \\frac { \\sum _ { d = 1 } ^ { M } \\mathrm { l o g } p ( w _ { d } ) } { \\sum _ { d = 1 } ^ { M } \\mathrm { l o g } N _ { d } } \\Biggr \\}\n$$",
+    "context4": "其中， $M$ 是文档集中文档的数目， $P ( \\ \\mathbb { W } _ { d } )$ 是PLDA模型生成第 $d$ 篇文档的概率， $N _ { d }$ 是单词的个数，当perplexity( $D _ { t e s t } \\big |$ 最小时，主题具有较好的语义表达效果，建立主题文档映射，确定文档集中的主题数。本文对主题数目及复杂度动态对应关系进行实验，经实验主题步长最终主题数选择100。",
+    "context5": "![](images/a25abd573d0676ed06defc077195f8db816566a8e88b5a36aa2af713e20ce823.jpg)  \n图5主题数和模型复杂度的对应曲线"
+  },
+  "3.3.2主题表征": {
+    "context1": "利用余弦相似度定量建立不同子时期主题关联关系，进而在时间序列维度上建立一整条动态时序主题链，时间跨度为 $2 0 0 3 - 2 0 1 7$ 年间。经实验相似度阈值取0.5时，主题演化和关联度较好，可以较为完整地表达不同主题类型在时间窗口的跃迁和演化特征。表2中相似度计算可以选择相似度阈值大于0.5的主题类型建立关联，即2014年中Topic_1在2015年发展为Topic_2进而成为Topic_7（2016），同理则可得到10个主题的主题发展变化。",
+    "context2": "建立主题动态时序链为后续进行机器学习算法预测研究提供理论基础，而具体主题强度值利用LDA模型实验可以得到主题词权重表征研究热度，进而探测不同主题研究热度在时间序列上的发展变化规律，对未来基因工程领域发展趋势进行研判。",
+    "context3": "表2主题相似度计算",
+    "context4": "<table><tr><td>主题 (2014)</td><td>主题 (2015)</td><td>JS 相似度</td><td>主题 (2015)</td><td>主题 (2016)</td><td>JS 相似度</td><td>主题 (2016)</td></tr><tr><td>Topic_1</td><td>Topic_2</td><td>0. 6011</td><td>Topic_2</td><td>Topic_7</td><td>0.5011</td><td></td></tr><tr><td>Topic_1</td><td>Topic_9</td><td>0. 3770</td><td>Topic_2</td><td>Topic_2</td><td>0. 4343</td><td>·……</td></tr><tr><td>Topic_1</td><td>Topic_4</td><td>0.3011</td><td>Topic_2</td><td>Topic_9</td><td>0.3411</td><td>·…</td></tr><tr><td>Topic_1</td><td>Topic_0</td><td>0. 1515</td><td>Topic_2</td><td>Topic_0</td><td>0. 1515</td><td>……</td></tr><tr><td>Topic_1</td><td>Topic_2</td><td>0. 0011</td><td>Topic_2</td><td>Topic_1</td><td>0.0155</td><td></td></tr><tr><td></td><td>……</td><td>……</td><td></td><td></td><td>……</td><td></td></tr></table>"
+  },
+  "LDA主题实验得到15个子时期和单个子时期10个主题。基因工程具体主题及主题词表征如表3所": {
+    "context1": "示，利用本文2.1中提出主题强度计算公式计算得出10个热点主题强度值发展变化见表4。",
+    "context2": "表3基因工程领域主题表征 (时间跨度为年)",
+    "context3": "<table><tr><td>子时期</td><td>主 题 词</td></tr><tr><td>2003年</td><td>Materials Methods Approaches Study Protein Engineering Raw Students Data Dells</td></tr><tr><td>2004年</td><td>Species Design Evolution Insect Forestry Provide Range Field Materials Computational</td></tr><tr><td>2005年</td><td>Engineering Science Project Materials Hepar Vaccination Inherited Host Systems Model</td></tr><tr><td>2006年</td><td>Cells Design Understanding Development Engineering Third Generation Genetic Mutation Hepar</td></tr><tr><td>2007年</td><td>Molecular Evolution Human Health Replace Express Model Cellular Genetic Develop</td></tr><tr><td>2008年</td><td>Climate Stakeholders Social Water Understanding Vulnerability Management Natural Impacts Coastal</td></tr><tr><td>2009年</td><td>Plants Understanding Evolutionary Microbial Students Data Biodiversity Provide Fungi Genes</td></tr><tr><td>2010年</td><td>Model Cellular Optimization Algorithms Software Network Power Methods Social Water</td></tr><tr><td>2011年</td><td>Marsh Marshes Students Sustainability Systems Climate Stakeholders Social Water Understanding</td></tr><tr><td>2012年</td><td>Natural Impacts Coastal Research Project Species Genetic Plant Diversity Evolution</td></tr><tr><td>2013年</td><td>Potential Manufacturing Phase Systems Design Development Insect Forestry Model Cellular</td></tr><tr><td>2014年</td><td>Properties Students Energy Polymer Applications Material Science Fund Human Health</td></tr><tr><td>2015年</td><td>Requency Climate Human Engineering Scientific Genetic Ebola Project Virus Spin</td></tr><tr><td>2016年</td><td>Vitium Master Diagnosis Repair Prevent Human Vehicles Turbulent Engineering Sustainability</td></tr><tr><td>2017年</td><td>Manufacturing Phase Systems Design Development Future Research Data Materials Hepar</td></tr></table>",
+    "context4": "表4基因工程主题强度值 (部分)",
+    "context5": "<table><tr><td></td><td>Topic0</td><td>Topic1</td><td>Topic2</td><td>Topic3</td><td></td></tr><tr><td>2003年</td><td>108</td><td>254</td><td>631</td><td>76</td><td></td></tr><tr><td>2004年</td><td>97</td><td>105</td><td>572</td><td>114</td><td></td></tr><tr><td>2005年</td><td>83</td><td>364</td><td>490</td><td>83</td><td></td></tr><tr><td>2006年</td><td>105</td><td>224</td><td>643</td><td>460</td><td></td></tr><tr><td>2007年</td><td>116</td><td>118</td><td>764</td><td>764</td><td></td></tr><tr><td>2008年</td><td>361</td><td>205</td><td>741</td><td>431</td><td></td></tr><tr><td>2009年</td><td>297</td><td>379</td><td>650</td><td>650</td><td></td></tr><tr><td>2010年</td><td>487</td><td>421</td><td>379</td><td>809</td><td></td></tr><tr><td>2011年</td><td>933</td><td>477</td><td>297</td><td>764</td><td></td></tr><tr><td>2012年</td><td>1 011</td><td>921</td><td>490</td><td>1 011</td><td></td></tr><tr><td>2013年</td><td>871</td><td>709</td><td>509</td><td>921</td><td></td></tr><tr><td>2014年</td><td>175</td><td>1 032</td><td>227</td><td>934</td><td></td></tr><tr><td>2015年</td><td>410</td><td>690</td><td>142</td><td>873</td><td></td></tr><tr><td>2016年</td><td>640</td><td>991</td><td>208</td><td>917</td><td></td></tr><tr><td>2017年</td><td>881</td><td>1 079</td><td>465</td><td>936</td><td></td></tr></table>"
+  },
+  "3.4机器学习算法研究热点预测与对比": "",
+  "3.4.1实验设置": {
+    "context1": "选用BP神经网络、支持向量机模型以及LSTM预测模型为本文研究热点预测器。本文热点主题探测区间为15年，选择前10年为训练数据集，后5年为测试数据集，选择相对误差作为模型预测评估指标。时间序列数据标签化处理，滑动时间窗口为1，时间步长为1年，即 $t$ 年研究热点预测未来 $t + 1$ 年的发展情况。BP神经网络选用三层神经元结构，神经元为 $1 - 2 0 - 1 0 - 1$ 分布， $m$ 表示相空间重构数为1，训练迭代次数为50，神经网络学习率为常数0.01。支持向量机模型中参数Gam-ma决定数据映射高维度特征空间分布，设置为",
+    "context2": "1.5，内存大小Cache参数为400，惩罚函数中系数C设置为1.2，终止判据Epsilion设为0.001，支持向量机和BP神经网络利用Rapidminer机器学习算子实现，LSTM预测模型则利用Python3.5中的Keras框架下搭建两层10维神经元层和一层Dense预测输出，训练批量Epochs设置为50共迭代实验50经后向传播参数调整后结果趋于稳定收敛，评价模型为相对误差。"
+  },
+  "3.4.2实验结果": {
+    "context1": "选用相对误差指标（RE，RelativeError）描述模型预测效果。公式如下，其中表示相对误差， $\\boldsymbol { y } _ { t }$ 表示真实值，yy，表示模型预测值。本文测试集共分10个主题及每个主题下后5年的主题强度值，对每个主题不同子时期求得相对误差RE并对其均值处理得到该主题的平均预测精度。部分基于不同机器学习算法预测精度比较见表5，以TopicO为例对2013-2017年主题热度值分别利用BP神经网络、支持向量机及LSTM模型进行预测分析并最终得到该主题平均相对误差分别为 $1 5 . 6 9 \\%$ 、 $1 2 . 9 8 \\%$ 和 $1 0 . 7 5 \\%$ ，可见对于该主题LSTM模型预测精度较高，支持向量机预测效果低于LSTM模型但高于BP 神经网络预测模型，但对于Topic2而言预测精度最高的为支持向量机 $( ~ 1 0 . 9 6 \\% )$ ，LSTM模型和BP神经网络预测精度相差较小分别为 $1 3 . 0 8 \\%$ 和$1 4 . 2 5 \\%$ 。",
+    "context2": "$$\nR E = \\frac { \\mid { y } _ { t } - \\hat { y _ { t } } \\mid } { y _ { t } }\n$$",
+    "context3": "为有效表达机器学习算法对于基因工程领域不同主题预测效果需要对10个主题分别计算平均相对误差并统计得到模型预测准确度，即百分之百与相对误差的差值处理。实验分析得出所有主题基于",
+    "context4": "表5基于不同机器学习算法相对误差比较 (部分)",
+    "context5": "<table><tr><td rowspan=\"2\">主</td><td rowspan=\"2\">题</td><td rowspan=\"2\">实际值</td><td colspan=\"2\">BP神经网络</td><td colspan=\"2\">支持向量机</td><td colspan=\"2\">LSTM模型</td></tr><tr><td>预测值</td><td>RE(%)</td><td>预测值</td><td>RE(%)</td><td>预测值</td><td>RE(%)</td></tr><tr><td rowspan=\"5\">Topic0</td><td>2013</td><td>871</td><td>737. 74</td><td>15.30</td><td>746. 45</td><td>14.30</td><td>769. 44</td><td>11. 66</td></tr><tr><td>2014</td><td>175</td><td>203.88</td><td>16.50</td><td>150. 75</td><td>13.86</td><td>187.58</td><td>7.19</td></tr><tr><td>2015</td><td>410</td><td>364.00</td><td>11. 22</td><td>447. 06</td><td>9.04</td><td>453.5</td><td>10. 61</td></tr><tr><td>2016</td><td>640</td><td>757. 38</td><td>18.34</td><td>522. 75</td><td>18.32</td><td>567.23</td><td>11.37</td></tr><tr><td>2017</td><td>881</td><td>730. 44</td><td>17. 09</td><td>960. 03</td><td>8.97</td><td>767.26</td><td>12.91</td></tr><tr><td colspan=\"2\">主题Topic0平均相对误差</td><td></td><td></td><td>15. 69</td><td></td><td>12. 98</td><td></td><td>10.75</td></tr><tr><td rowspan=\"5\">Topic1</td><td>2013</td><td>709</td><td>839.46</td><td>18.40</td><td>803.86</td><td>13.38</td><td>768.2</td><td>8.35</td></tr><tr><td>2014</td><td>1032</td><td>1231.38</td><td>19.32</td><td>884.53</td><td>14. 29</td><td>1139. 74</td><td>10. 44</td></tr><tr><td>2015</td><td>690</td><td>546. 62</td><td>20.78</td><td>766. 11</td><td>11. 03</td><td>770. 94</td><td>11. 73</td></tr><tr><td>2016</td><td>991</td><td>841. 66</td><td>15.07</td><td>854.54</td><td>13. 77</td><td>1084. 45</td><td>9.43</td></tr><tr><td>2017</td><td>1079</td><td>1311.9</td><td>21.59</td><td>1228.33</td><td>13.84</td><td>1163. 92</td><td>7.87</td></tr><tr><td colspan=\"2\">主题Topic1平均相对误差</td><td></td><td></td><td>19. 04</td><td></td><td>13. 26</td><td></td><td>9.5</td></tr><tr><td rowspan=\"5\">Topic2</td><td>2013</td><td>509</td><td>416. 26</td><td>18.22</td><td>462.53</td><td>9.13</td><td>459.22</td><td>9.78</td></tr><tr><td>2014</td><td>227</td><td>266.43</td><td>17.37</td><td>250.31</td><td>10. 27</td><td>200.1</td><td>11. 85</td></tr><tr><td>2015</td><td>142</td><td>124.26</td><td>12.49</td><td>125.84</td><td>11. 38</td><td>118.97</td><td>16. 22</td></tr><tr><td>2016</td><td>208</td><td>235. 89</td><td>13.41</td><td>227.91</td><td>9.57</td><td>229.99</td><td>10.57</td></tr><tr><td>2017</td><td>465</td><td>510.29</td><td>9.74</td><td>397.9</td><td>14.43</td><td>544</td><td>16.99</td></tr><tr><td colspan=\"3\">主题Topic2平均相对误差</td><td></td><td>14.25</td><td></td><td>10.96</td><td></td><td>13.08</td></tr></table>",
+    "context6": "BP神经网络模型预测准确度为 $8 3 . 6 4 \\%$ ，在机器学习算法预测模型中预测效果最差，基于支持向量机预测模型和LSTM模型的预测准确度分别为$8 8 . 2 8 \\%$ 和 $8 9 . 1 0 \\%$ ，预测效果相近，其中基于LSTM模型预测精准度略高，同时基于长短记忆神经网络和支持向量机模型预测稳定性相对较好，可视化分析如图6所示，10个圆环图分别表示10个主题类型，每圆环从内而外分别表示BP神经网络、支持向量机和LSTM模型预测模型，可较为清晰表达预测结果差异性。"
+  },
+  "3.5趋势分析": {
+    "context1": "基因工程是通过外源基因载入并经复制、转录、翻译而对基因形状正常的复制和表达的生物分子技术手段，具有广泛的发展前景和应用价值。利用本实验探测得到主题词及主题发展演变，未来一段时间内基金工程领域热点主题趋势上升并呈现稳步增长的态势，主要学科主题按权重词分布可分为医药、农业和环境及食品基础研究四大主题维度。",
+    "context2": "基因工程在医药卫生方面热点与趋势分析（TopicO、Topic5和Topic9)：该主题主要围绕基因工程在医疗检验、基因诊断（Diagnosis）以及基因健康治疗（Health）等方面展开，如利用同源重组基因剔、核苷酸基因合成及靶向药物治疗等手段提升基因工程诊断及治疗药物作用；采用基因工程胰岛素及干扰素（Leading）等相关疫苗增强天然疫苗在人体良化反应；利用核酸分子和聚合酶链反应进行片段化基因检测，改良传统特异性差灵敏度低级诊断误差高等医学诊断方式；利用代替性治疗和抑制性（转录水平和mRNA翻译水平）开展基因治疗（Inherited）等。该领域是基因工程领域的研究热点，但也面临着技术缺陷及实验临床验证不足等问题，未来一段时间内围绕该领域布局可进一步拓展，具有较好的发展趋势。",
+    "context3": "基因工程在农业方面热点与趋势分析（Top-ic4、Topic6和Topic8)：该主题主要围绕利用先进基因工程（Engineering）手段进行农业作物改良、作物制药与微生物农业控制等方面展开，如对氮代谢调节基因及携带固氮酶的微生物（Microbe）进行基因改良以满足植物肥料需求、改良自然菌株并对荧光假单胞菌等杀虫防病细菌遗传因子进行试验以减少农药使用；植物基因改良增强光合作用及新品种培育增加作物产量等以及将毒蛋白基因导入烟草、棉花及杨树等农林作物以培养出抗虫（In-sect）特性；利用外部基因如磷酸乙酰转移酶基因（Protein）等以培养抗逆性强农作物。该主题主要围绕基因工程在农作物品种改良、抗虫抗病等方面展开，我国作为传统农业大国，在政策部署和市场需求上具有较好的前景，因此围绕该主题下的产业布局和学科架构调整具有积极意义。",
+    "context4": "![](images/681d38f748c72b7f4e0c559f10b0dafd8b3e735c7f0c2a6138178df78f3db966.jpg)  \n第39卷第4期  \n图6基于机器学习算法的预测准确度分析",
+    "context5": "基因工程在环境及环境保护(Topic1、Topic3)热点与发展趋势较好，主要围绕水体与土壤污染治理、石油污染及塑料降解等方面展开，如利用改良基因工程菌絮凝性能及生长迅速等特点对有毒有害污染物（Pollutant）进行降解处理；利用杂交技术与质粒载体重组优化抗菌去污能力以及提升微生物特异性DNA编码转换能力（Allele）进行石油降解等。该主题研究力度和主题强度相对较小，未来有待于进一步发展。主题Topic2和Topic7主要围绕基因工程在食品工艺及果蔬产品优化等方面的研究，如利用基因工程加入脱氢酶义基因等提升植物油硬脂酸含量等，加入淀粉合成酶使得直链淀粉合成抑制以提高食品（Food）质量增加焙烤特性等;围绕发酵食品品质、产率及风味（Flavor）特性的基因工程改良也是未来重要发展趋势之一。受限于政策支持、市场调节和食品安全性等诸多因素，围绕上述主题研究热点发展相对较为缓慢，但未来该主题发展趋势仍值得期待，具有良好的市场和环境保护价值，科技政策制定者需加大基金投入和政府引导以期发挥更大作用。"
+  },
+  "4讨论": {
+    "context1": "本文以基因工程领域为分析数据源，利用主题概率模型识别其主题强度并对其发展演化关系进行"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "original_filename": "full_2838.md",
+  "国内基于本体的语义检索研究进展分析支丽平": {
+    "context1": "【摘要】选择CNKI数据库的期刊文献（ $2 0 0 0 \\sim 2 0 1 4 )$ 作为数据源，对我国基于本体的语义检索研究进行文献计量分析。从论文发表年度分布、学科分布、高产作者分布、高产机构分布、期刊分布、关键词词频统计、热点分布等方面进行分析，揭示我国基于本体的语义检索研究进展，为学术界的研究与创新提供参考。"
+  },
+  "【关键词】本体语义检索文献计量": {
+    "context1": "Abstract: Selecting the papers $( \\ 2 0 0 0 \\sim 2 0 1 4 )$ collected in periodical database of CNKI as a data source，the paper makesaquantitative analysis of the semantic search research based onontology in China from the aspects of publishing years，subjects，high yield authors，high yield institutions，journals，keywords frequencystatisticsand hotspots，and reveals theresearch progress of semantic search basedon ontology，aiming at providing reference for the academic research and innovation of the field.",
+    "context2": "Key words:ontologysemantic retrievalbibliometrics DOI:10.15941/j.cnki.issn1001-0424.2015.12.002",
+    "context3": "基于本体的语义检索是利用本体（ontology）技术，即根据目标领域本体的知识库和规则库，对用户的检索请求进行语义扩展，该技术已得到广泛应用。也有文献论述了基于本体的语义检索能够有效提高信息检索系统的查全率和查准率，可见该项技术在实际提拿中具有巨大的优越性。",
+    "context4": "为对我国基于本体的语义检索研究现状有一个全面的分析，本文拟选择中国知网（CNKI）作为数据源，采用文献计量学方法，对相关文献的年度分布、学科分布、高产作者分布、高产机构分布、期刊分布、作者合作情况、关键词词频统计、热点分布等方面进行全面的分析，提出有价值的建议，供学术界参考。"
+  },
+  "1数据来源和分析方法": {
+    "context1": "考虑到数据的查全率，我们在中国知网（CNKI）数据库中检索主题词为“本体and语义检索”or“本体and信息检索”的文献期刊论文，不限发表时间，并选中“中英文扩展”复选框，已达1728篇。经过清洗，即去除哲学、宗教、伦理学等学科，保留计算机科学和信息科学等相关学科，学术期刊文献仍达到1590篇（2015年1月30日检索）。",
+    "context2": "本文将综合运用统计方法和文献计量方法对检索到的数据进行分析。"
+  },
+  "2数据分析": {
+    "context1": "本研究从论文发表年度分布、学科分布、主要载文期刊分布、高产作者分布、作者合著情况、高产机构分布、关键词词频统计、热点分布等方面进行分析和讨论。"
+  },
+  "2.1论文发表年度分布": {
+    "context1": "依据发表年度分组，可以得到每年的相关论文发表数量分布情况。考虑到2015年仅5篇论文，数据不完全，所以本文不作统计，那么基于本体的语义检索的相关期刊论文总数为1590篇。",
+    "context2": "按照1590篇论文的年度发表时间，绘制出论文发表年度分布情况（图1）。可以看出，国内基于本体的语义检索研究首次发表在2000年，随后的两年相关论文发表量都很低，年发表量仅为2篇（ $2 0 0 0 \\sim 2 0 0 2$ 年)。2003年论文发表数量猛增10倍达到23篇，随后一路攀升，于2010年达到216篇（峰值)，近3年有所下降，但年均发表量依然保持在138篇左右。2015年数据不完全，所以不作统计。",
+    "context3": "![](images/2604dd3711d31fb8baa6f2d486697ca2684708a2f349f3bb1fb0997679b7e9cf.jpg)  \n图1论文发表年度分布（ $2 0 0 0 \\sim 2 0 1 4$ 年)",
+    "context4": "国内基于本体的语义检索研究论文首次发表于2000年，通过二次检索，发现是哈尔滨工业大学计算机科学与工程系廖明宏发表在《计算机工程》上的一篇文章，内容是基于本体论的信息检索方法。该文被引131次。可见，哈工大是国内最早进行相关研究的高校。",
+    "context5": "2001年，仅有3篇相关文章，一篇是北京大学计算机科学与技术系的邓志鸿等发表在《计算机工程与应用》上的文章，内容是研究单个本体内的代数系统，以提高信息检索的质量。该文被引用33次，说明北京大学也是国内较早研究基于本体的语义检索的高校。另一篇仍然是哈尔滨工业大学廖明宏等发表的将基于本体的信息检索应用于数字图书馆的研究论文，该文被引用11次。值得一提的是，中国科学院计算技术研究所智能信息处理开放研究实验室的武成岗、史忠植等合著的论文，提出一种基于本体论（ontology）和多主体（multi-agent）的信息检索服务器。该文发表在计算机权威期刊《计算机研究与发展》上，被引高达260次，说明中科院计算所引领人工智能和本体论研究学术前沿，有着极高的学术影响力。",
+    "context6": "2002年，仅有1篇相关论文，是广东工业大学计算机学院李卫华发表在《计算机工程与应用》上的文章，进行语义Web上本体与智能信息Agent的集成研究，介绍了应用实例。该文被引用37次，说明广东工业大学也是国内较早研究基于本体的语义检索的高校。可见，前三年（ $2 0 0 0 \\sim 2 0 0 2$ 年）全部论文都发表在计算机类期刊上。",
+    "context7": "2003年，基于本体的语义检索相关论文的发表数量有了很大提升，增长了近10倍，达到23篇。纵观这23篇论文的来源期刊，跟前三年不同的是，有大量的图书情报学期刊开始刊载相关成果，如《情报科学》2篇《农业图书情报学刊》2篇《情报杂志》、《现代图书情报技术》、《大学图书馆学报》、《中国图书馆学报》各1篇。这说明图书情报界也开始普遍进行基于本体的语义检索研究。值得说明的是，2003年引用频次最高的论文是东南大学计算机科学与工程系万捷等发表在《计算机工程》上的成果，进行本体论在基于内容信息检索中的应用研究，被引167次。由于2004年起，相关论文有了大幅提升，本文就不再详细介绍具体研究内容。"
+  },
+  "2.2学科分布": {
+    "context1": "根据CNKI的学科分组功能，可以统计出发文6篇以上的主要学科分布，如表1所示。",
+    "context2": "表1主要学科分布表",
+    "context3": "<table><tr><td rowspan=1 colspan=1>学     科</td><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>百分比</td><td rowspan=1 colspan=1>学     科</td><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>百分比</td></tr><tr><td rowspan=1 colspan=1>计算机软件及计算机应用</td><td rowspan=1 colspan=1>1013</td><td rowspan=1 colspan=1>64%</td><td rowspan=1 colspan=1>工业通用技术及设备</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>0.89%</td></tr><tr><td rowspan=1 colspan=1>图书情报与数字图书馆</td><td rowspan=1 colspan=1>291</td><td rowspan=1 colspan=1>17.9%</td><td rowspan=1 colspan=1>新闻与传媒</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>0.82%</td></tr><tr><td rowspan=1 colspan=1>互联网技术</td><td rowspan=1 colspan=1>166</td><td rowspan=1 colspan=1>10.7%</td><td rowspan=1 colspan=1>农业基础科学</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>0. 62%</td></tr><tr><td rowspan=1 colspan=1>自动化技术</td><td rowspan=1 colspan=1>66</td><td rowspan=1 colspan=1>4%</td><td rowspan=1 colspan=1>教育理论与教育管理</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>0.48%</td></tr><tr><td rowspan=1 colspan=1>自然地理学和测绘学</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>1. 44%</td><td rowspan=1 colspan=1>医学教育与医学边缘学科</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>0.48%</td></tr><tr><td rowspan=1 colspan=1>机械工业</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>1%</td><td rowspan=1 colspan=1>档案及博物馆</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>0.41%</td></tr></table>",
+    "context4": "计算机软件及计算机应用、图书情报与数字图书馆、互联网技术这三个学科分别占 $6 3 . 9 9 \\%$ 、 $1 7 . 9 \\%$ 和$1 0 . 7 \\%$ 的比重，总和达到 $9 2 . 6 \\%$ 的比重，说明基于本体的语义检索相关论文主要分布在计算机软件及计算机应用、图书情报与数字图书馆、互联网技术和自动化技术等学科。"
+  },
+  "2.3主要载文期刊分布": {
+    "context1": "运用统计学方法，我们对相关论文的主要载文期刊进行计量，发现主要分布在计算机类杂志和图书情报类期刊。其中，载文18篇以上的主要期刊分布如表2所示。",
+    "context2": "表2主要载文期刊分布表",
+    "context3": "<table><tr><td rowspan=1 colspan=1>期刊名称</td><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>期刊名称</td><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>期刊名称</td><td rowspan=1 colspan=1>篇数</td></tr><tr><td rowspan=1 colspan=1>计算机工程与设计</td><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>现代图书情报技术</td><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>计算机应用研究</td><td rowspan=1 colspan=1>28</td></tr><tr><td rowspan=1 colspan=1>计算机工程</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>计算机科学</td><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>情报科学</td><td rowspan=1 colspan=1>23</td></tr><tr><td rowspan=1 colspan=1>情报杂志</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>微计算机信息</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>电脑知识与技术</td><td rowspan=1 colspan=1>22</td></tr><tr><td rowspan=1 colspan=1>图书情报工作</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>情报理论与实践</td><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>图书馆学研究</td><td rowspan=1 colspan=1>19</td></tr><tr><td rowspan=1 colspan=1>计算机工程与应用</td><td rowspan=1 colspan=1>46</td><td rowspan=1 colspan=1>计算机应用与软件</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>中国图书馆学报</td><td rowspan=1 colspan=1>18</td></tr><tr><td rowspan=1 colspan=1>计算机技术与发展</td><td rowspan=1 colspan=1>45</td><td rowspan=1 colspan=1>计算机应用</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>计算机工程与科学</td><td rowspan=1 colspan=1>18</td></tr></table>"
+  },
+  "2.4高产作者分布": {
+    "context1": "运用文献计量学，我们发现发文在5篇以上的高产作者有10位，主要是西安电子科技大学的赵捧未（9篇）、南京政治学院的王兰成（9篇)、安徽大学的郑诚（9篇)、中南大学的徐德智（7篇)、西安电子科技大学的窦永香（7篇)、武汉大学的董慧(6篇)、云南师范大学的高炜(6篇)、上海交通大学的王英林（6篇)、西安电子科技大学的秦春秀（5篇）和浙江大学的董金祥（5篇）。",
+    "context2": "高产作者中有3位来自西安电子科技大学。通过二次检索发现，窦永香、赵捧未和秦春秀均来自西安电子科技大学经济管理学院，他们形成研究团队，发表了多篇基于本体的语义检索相关论文。"
+  },
+  "2.5高产机构分布": {
+    "context1": "运用统计学方法，对相关论文的主要研究机构进行计量。需要说明的是，为提高统计的准确性，我们对部分单位进行合并，比如中国科学院国家科学图书馆发表13篇，中国科学院研究生院发表12篇，那么将两者合并为中国科学院，共计发表25篇论文。发文12篇以上的主要研究机构分布如表3所示。",
+    "context2": "如表3所示，27家主要研究机构中高校占据25席，主要分布在武汉大学、吉林大学、浙江大学、南京大学等重点院校，科研院所仅有中科院和中信所上榜，说明这两家是科研院所的中坚力量。",
+    "context3": "表3主要高产机构分布表",
+    "context4": "<table><tr><td rowspan=1 colspan=1>研究机构</td><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>研究机构</td><td rowspan=1 colspan=1>篇数</td><td rowspan=1 colspan=1>研究机构</td><td rowspan=1 colspan=1>篇数</td></tr><tr><td rowspan=1 colspan=1>武汉大学</td><td rowspan=1 colspan=1>54</td><td rowspan=1 colspan=1>清华大学</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>解放军理工大学</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>吉林大学</td><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>四川大学</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>安徽大学</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>浙江大学</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>东南大学</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>西北工业大学</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>南京大学</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>南京政治学院</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>南京理工大学</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>中国科学院</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>北京大学</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>大连海事大学</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>上海交通大学</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>复旦大学</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>中国科学技术信息研究所</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>重庆大学</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>同济大学</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>太原理工大学</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>北京航空航天大学</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>中南大学</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>南京航空航天大学</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>华中科技大学</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>西安电子科技大学</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>北京科技大学</td><td rowspan=1 colspan=1>12</td></tr></table>"
+  },
+  "2.6关键词词频统计": {
+    "context1": "对相关论文的关键词词频进行统计，有利于辅助发现基于本体的语义检索的学术研究热点。需要说明的是，为获得更为准确的统计结果，我们将同义词进行合并，如语义网（112次）和语义Web（87次)，共计199次。特别的是，上世纪70年代初Simon在进行自然语言理解研究时提出了语义网络（Semantic Network），不是1998年万维网联盟的 Tim Berners-Lee提出的语义网（Semantic Web），所以没有将两者合并。",
+    "context2": "对检索出的1590篇相关论文的关键词进行计量，其中高频关键词及出现的次数统计结果如下：本体818次、信息检索232次、语义网199次、语义检索171次、领域本体129次、本体论95次、语义79次、语义相似度58次、数字图书馆51次、搜索引擎43次、智能检索38次、查询扩展36次、知识检索36次、0WL35次、Web服务33次、知识管理31次、语义标注31次、知识库31次、元数据30次、相似度27次、检索27次、本体构建25次、个性化24次、知识组织23次、语义推理22次、语义距离21次、服务发现20次、语义搜索20次、智能信息检索18次、描述逻辑17次、概念相似度17次、本体映射16次、知识表示16次、XML16次、语义查询15次、本体建模15次、信息抽取15次、检索模型15次、语义网络15次。",
+    "context3": "除了检索相关论文时使用的3个主题词“本体”、“信息检索”和“语义检索”外，语义网、领域本体、本体论、语义、语义相似度、数字图书馆是出现频度最高的6个关键词，频度均超过50次。其中图书情报学领域的专家学者比较关注该理论在数字图书馆中的应用研究。"
+  },
+  "2.7热点分布": {
+    "context1": "![](images/5dde2ad20ccfa3a53721209e5103795f12660f72124ae4247f85501121dde6fb.jpg)  \n图3国内基于本体的语义检索研究热点分布图",
+    "context2": "编程对检索结果中的每篇论文进行主题词提取并对查询结果进行聚类分析，同时可以生成国内基于本体的语义检索研究热点分布图。如图3所示，主要有8个热点聚类，分别是语义网、领域本体、知识本体、概念模型、服务语义、半结构化、概念集和查询语言。其中，语义网被称为第三代互联网，它以实现Web中的信息是机器可处理和理解的信息为目标，以实现不同机器之间数据语义互操作为特点。本体是共享概念模型明确的形式化规范说明，是对一个特定领域内语义的共同认识，Web上的语义资源需要用本体描述的术语进行标记，可见，本体是解决语义层次上Web信息共享和交换的基础，其在语义网中处于核心地位，所以本体技术的最热门应用领域是语义网。领域本体（DomainOntology），是专业性的本体，描述的是特定领域中的概念和概念之间的关系，提供了某个专业学科领域中概念的词表以及概念间的关系，其成果应用广泛，所以领域本体的构建技术一直是学术界和产业界的研究热点。概念集指领域内相关概念的集合，跟领域本体内容相近，所以聚类在一起。知识本体是领域概念及概念之间关系的规范化描述，这种描述是规范的、明确的、形式化的，可共享的。概念模型表征了待解释的系统的学科共享知识，把现实世界中的具体事物抽象、组织为某一数据库管理系统支持的数据模型。半结构化指的是和普通纯文本相比，半结构化数据具有一定的结构性；但和关系数据库中的数据相比，其结构变化又很大。查询语言指查询本体的语言，包括XML、RDF、RDFS 和OWL（本体描述语言）。"
+  },
+  "3结论与展望": {
+    "context1": "通过对我国基于本体的语义检索研究的期刊文献 （ $2 0 0 0 \\sim 2 0 1 4 )$ 分析，发现以下几点问题：（1）经过十几年的发展该理论已经逐步趋于成熟，但是从高产作者的被引次数来看，该领域尚未出现高影响力的领军人物。说明我国该领域的研究队伍比较薄弱，亟待加强。同时该领域学者应将工作做深做细，出高水平的成果。（2）国内学者已经提出很多基于本体的语义模型，然而评价方法比较单一，仅从查全率、查准率和F指标衡量。应积极探索多元的评价方法（如实证方法)，以丰富相关理论。（3）由于本领域建立在领域本体基础之上，所以本体学习显得尤为重要，然而发现国内对中文领域本体的自动化构建研究比较薄弱。国内学者应学习借鉴国外领先机构的成果，如斯坦福人工智能研究所，结合中文语料特点，研究中文本体学习的构建方法和工具。（4）本领域论文的高频关键词众多，其学术研究热点为语义网、领域本体、本体论、语义相似度和数字图书馆，其中图书情报学领域的专家学者比较关注该理论在数字图书馆中的应用研究。今后应结合新热点，如大数据、云计算，以拓展研究范围。（5）由于本文选择CNKI数据库作为数据源进行计量分析，仅能反映国内相关领域进展，今后应增加外文期刊文献（如Web of Science），以对基于本体的语义检索研究有一个全面的进展分析。",
+    "context2": "另外，本文主要选择期刊文献作为数据源对我国基于本体的语义检索研究进行计量分析，没有考虑专利文献。而专利分析能够对相关技术进行度量，借以揭示我国基于本体的语义检索技术的研究与发展状况。所以，今后应选择专利文献作为数据源，尝试从技术视角研究基于本体的语义检索，挖掘有价值的技术信息，为学术界、产业界的研究与创新提供参考。"
+  },
+  "注释": {
+    "context1": "[]β]廖明宏．本体论与信息检索[．计算机工程，2000（2)：56-58.  \n[]武成岗，焦文品，田后家，史忠植．基于本体论和多主体的信息检索服务器[．计算机研究与发展，2001（6)：641-647.  \n支丽平．基于专利计量视角的我国本体技术发展态势分析 [．情报杂志，2014（6)：79-83.",
+    "context2": "支丽平安阳师范学院，计算机与信息工程学院。"
+  },
+  "(上接第5页)": {
+    "context1": "[0] Tara Brabazon.The Disintermediated Librarian and a Reinter Mediated Future [l.The Australian Library Journal，2014，63 (3):191-205.",
+    "context2": "[1]李瑞波，过仕明．国外移动图书馆最佳实践调研—以美国橙郡移动图书馆为例[．情报资料工作，2014（4)：86-89.",
+    "context3": "[22]李东，过仕明．移动图书馆LBS服务现状研究[．情报科学，2014(10):80-85.",
+    "context4": "[3]魏群义等．我国移动图书馆服务现状调查——以国家图书馆和省级公共图书馆为对象[．中国图书馆学报，2014（5)：50-63."
+  },
+  "[4]孙晓瑜，王荣宗．国外手机二维码技术在图书馆中的应用及启示[．图书馆学研究，2011（6)：23-25.": {
+    "context1": "[5]Walsh A.Blurring the Boundaries Between Our Physical andElectronic Libraries:Location-Aware Technologies，OQ Codesand RFID Tags[.The Electronic Library，2011，29（4):429 -437.  \n[6] Kane D.，Schneidewind J. QR Codes as Finding Aides:LinkingElectronic and Print Library Resources .Public ServicesQuarterly，2011，7（4)：111-124.  \n[7] Ohigashi Oasay L.H.QR Codes in the Library[] .Journal ofElectronic Resources in Medical Libraries，2011，8(3)：294-301.  \n[28] Schultz M. K.A Case Study on the Appropriateness of Using QuickResponse（QR)Codes in Libraries and Museums [l.Library &Information Science Research，2013，35(3)：207-215.  \n[9]王金秀．我国高校图书馆二维码技术应用调出研究[．国家图书馆学刊，2014（4)：58-63.  \nB0] Mobile Apps for Libraries EB/O1]．[015-O1-O3] .http://www.boopsie.com/.  \nβ1]吴亮等．基于改进型技术接受模型的物联网服务采纳实证研究[．管理评论，2012（3)：66-74.  \nβ2]刘贵玉．国外移动图书馆营销案例分析及其启示——以加拿大伯灵顿公共图书馆为例．图书与情报，2013（3)：36-400.",
+    "context2": "张亮明均仁武汉工程大学管理学院，讲师，博士。"
+  }
+}

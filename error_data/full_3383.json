@@ -1,0 +1,63 @@
+{
+  "original_filename": "full_3383.md",
+  "国外关于社会标签的研究进展金瑛": "",
+  "【摘要】社会标签研究是近年来图书馆学情报学领域新兴的研究方向。国外社会标签的研究进展除了对社会标签应用外，还集中在对社会标签的新方法、新技术和新算法及对社会标签与知识组织融合的研究方面。": "",
+  "【关键词】社会标签框架标签工具聚类方法": {
+    "context1": "Abstract:In recent years，social taging research isanemerging field of libraryand information science.Besides applicationresearch，studyabroad focuses alsoonnew technologies，new methods，new algorithm of social tagging，and the integration between social tagging and knowledge organization.",
+    "context2": "Key words: social tagging frameworksocial tagging toolsclustering method"
+  },
+  "1引言": {
+    "context1": "社会标签（Social Tagging）是Web2.O环境下，用户参与到信息发现和管理、内容揭示和共享的信息组织的一种新方法。现阶段，对社会标签的概念仍没有一个统一的定义，国外社会标签也被称为Folksonomy、Collaborative Tagging、Social Classifi-cation等。近年来，国外学者围绕社会标签的研究主要集中在社会标签的应用，社会标签系统中的新方法、新技术和新算法以及与传统知识组织体系的比较研究等方面。"
+  },
+  "2社会标签在各领域应用的研究进展": {
+    "context1": "社会标签研究是信息专家 Thomas Vander Wal在2004 年首先提出“Folksonomy”这一名词开始。这一概念一经提出迅速获得了众多学者的关注。社会标签是用户对感兴趣的资源进行自由标注的元数据，它能够直接、迅速反映用户的需求及变化。社会标签应用研究主要从社会标签在教育领域、医学领域的应用迅速扩展到了其他领域如社交媒体等。",
+    "context2": "为了教会学生使用医学主题词表（Medical SubjectHeadings，Mesh），Boston University's Alumni MedicalLibrary（AML）的图书馆员将社会标签集成到他们的课程教学中。通过这一方法学生有机会参与到教育过程中，将社会标签纳入医学主题词表教育后的调查问卷结果显示， $46 \\%$ 的学生认为加入了社会标签教学的医学主题词表在同类教学中是最明确的概念。此外，作者还提出，标签工具的使用与收入、年龄和种族没有明显的相关性。PenceL.E.等学者在文章中谈到将社会标签纳入一门课程中，尝试标注化学类的社会标签，研究结果发现对学生更好地组织信息、评估网络信息质量和参与信息组织有很大的帮助。除了在教育领域的应用外，社会标签在医学领域和商业领域也有应用。CecileE.Bianco论述了社会标签这种新的描述资源的方法在医疗检索管理器中的应用。NitscheM．则认为社会标签与个性化设计相结合是一项有效措施，可以将社会标签技术应用于商业领域。",
+    "context3": "近年来，社交媒体在全球范围内得到了迅猛发展，社交网络用户面临庞大数量的信息，很难找到符合自己需求的社会化媒体。为了帮助用户更好地找到有用的社交媒体内容， $\\mathrm { K i m ~ H . ~ N }$ 等研究人员提出了以社会标签为基础的用于个性化搜索与推荐的一种新模型，该模型考虑了用户添加标签时的潜在偏好与潜在标签标注模型以捕捉用户标注潜在行为以期无缝地映射到标签项目中。研究人员通过实证表明，该方法在社交媒体服务的个性化搜索中具有显著优势。此外，A.Sun等学者则将标签用于图像检索中，该方法通过考虑标签关联性、标签歧义度、标签匹配度等因素将标签用于图像搜索中。Chua A.Y.K．等学者则将社会标签作为新闻事件检测器，以检测社会标签在突发新闻报道的即时性、准确性、覆盖率等方面的作用。"
+  },
+  "3社会标签技术研究进展": {
+    "context1": "社会标签是无等级的、自由的关键词，随着社会标签的广泛应用，对社会标签的技术、框架、算法和新组件等的研究逐渐成为社会标签的研究热点。"
+  },
+  "3.1社会标签框架": {
+    "context1": "社会标签系统（Social Tagging Systems，STSs）的三元素分别为资源、用户和标签。用户对同一资源可能有不同的描述，且同一资源也会有不同角度出发的多个方面。因此，相关的研究人员提出了不同社会标签系统框架。",
+    "context2": "SymeonidisP.等学者在三元语义分析的基础上，为社会标签系统提供了统一的构架，将社会标签系统中存在的三个实体，用户、资源和标签模型化。这一方法中数据是参照3阶张量的，而潜在语义分析和多向量降维是使用了高阶奇异值分解（Higher OrderSingular Value Decomposition，HOSVD）方法和奇异值分解平滑方法（Kernel-SVD Smoothing Technique）。他们提出的统一构架在效益上有显著的改善。此外，一些学者还将时间观念纳入到社会标签框架中。初始的用户聚类是根据用户对资源描述的标签内容来划分的，然而用户群的细化是根据用户标记行为的时间意识所导致的结果，因此KoutsonikolaV．和VakaliA．等人在聚类社会标签系统的用户时将时间观念纳入进来，在社会标签系统中将内容和时间都考虑进去 。",
+    "context3": "传统的网络资源的分类是将网络资源自动分类成可管理的语义范畴，因其非文本形式的对象使得网络对象的分类问题越发具有挑战性，这些对象经常面临缺乏易提取的相互关联的语义信息。社会标签数据弥补了这一差距，但如何有效地组织社会标签之间的关系也是摆在我们面前的一个问题。YinZ.J.等人提出了一种基于新算法的分类模型，该模型中不仅利用社会标签作为资源的语义特征，且通过社会标签的隐形链接，从同质和异质的标签对象推断未标记资源的资源类，如两个对象之间虽然没有任何共同标记，但却包含一个隐含的路径将这两个对象连接起来[。笔者用不同的模型方案进行了实验，结果表明该模型在社会标签网络资源分类中是个有效的工具，此框架有效模型化了社会标签结果，认为优于一般分类方法。但是在此模型中，只考虑了两个对象类型的网络设置，怎样推广此模型来管理更多类型的对象将是下一步研究的方向。HuoW.Y.等学者考虑，社会标签网站的用户有不同的使用模式和对社会网络的参与度，有些用户好友很多、有些则只有少数；有些用户经常做标记，而有些用户的标记行为比较少。他们研究社会标签时为不同用户的每个得分成分设置权重，提出了一种基于网络大小的新分类方法[]。此方法中将社会标签网络组建分为好友、链接和标签3种类别，并分别描述成：多、有些和少数。总体分成9个类别。此外，另一特色之一是为了提高排列结果的普遍性和及时性、记录标签行为的时间标志，划分为多重时间条带，通过给更近时间条带更高的权重建立时间得分函数。",
+    "context4": "ManishG.等学者对社会标签进行了深入研究，在文章中讨论了标签流的性能、标签的模型、标签的语义、标签的可视化等相关问题，并讨论了标签标注过程的建模、标签领域中的规则以及利用标签进行推介的推荐机制等问题[] 。"
+  },
+  "3.2社会标签工具研究": {
+    "context1": "用户对资源的描述需要通过标签工具，学者们探讨了社会标签的标注工具。",
+    "context2": "教育资源广泛用于支持教育活动，网络上教育资源非常丰富，如何有效组织、管理、提供和访问这些资源已成为一个关键问题。KalamatianosA.等学者探讨了一种描述数字教育资源和学习对象的ASKLearningObjects Social Tagging 2.0（ASK-LOST2.0)，它是基于Web的可用于标注各类教育数字资源的社会标签的工具。ASK-LOST2.0的主要功能是提交和标注数字教育资源；通过标签云浏览数字教育资源；创建用户个人的数字教育资源集合；搜索、评估和评论教育资源[。如何将组织教育资源的这种工具推广到其他领域，将会是下一步的研究方向。Sampson D.G．等学者在原有标签工具ASK-LOST2.0功能的基础上，进一步考虑了元数据框架，以将社会标签产生的标签纳入分类系统中[14 。"
+  },
+  "3.3社会标签系统新技术方法": {
+    "context1": "社会标签系统是用户根据个人喜好对资源进行自由描述的过程，标注的标签是非受控词汇，对如何有效组织、检索和查找提出了挑战。针对系统面临的问题，学者们从不同角度、不同方法试图优化社会标签系统。社会标签服务在指引用户得到有价值的内容上起到重要作用。BiancalanaC.等学者研究如何有效地组织和查询标签系统中的资源，提出了一种新的个性化网络查询研究方法，将众所周知的共生矩阵技术模型进行延伸，采用三维共生矩阵由用户的特性生成模型[。此方法有助于用户根据信息需求在网络上检索信息，归纳用户兴趣、有效性关联和分类实用性之间的关系。Good B.M.等学者评估了文档的覆盖面积、元数据或（标签）在每个文档的密度，网上注解协议率和网络索引率等项目，试图寻找出使用者和标注文档之间的关系以实现社会标注系统通过新的设计带来更多更好的产品[ 。",
+    "context2": "社会标签是组织和索引网络资源的一种最重要的方式。社会标签系统的推荐，如标签推荐、术语推荐和用户推荐，可用来提高标签的质量和提高标签搜索过程。目前的研究主要集中在通过分析社会标签系统中信息之间的关系来进行推荐，该类方法面临过疏问题即只有少部分标签是相互关联与推荐精度等问题。",
+    "context3": "ZhangY.等学者为了解决上述问题提出了结合内容与标签关系的推荐模型以评估用户、标签和资源之间的关系[。Luo X．等学者则针对个性化推荐系统推荐精度低的问题提出了集成社会标签信息的推荐方法，该方法对标签网络（Folksonomy Network，FN）中的标签相关性进行分析后将标签整合到基于领域模型（Neighborhood Based Model，NBM）的推荐体系中。FeliceF.与CarloT.则对社会标签系统中的协同过滤进行了改进，两位学者认为每个用户有不同兴趣主题（Topicof Interests，ToIs），在这样的情况下两个用户应只共享其共同关注的主题，因此提出了根据特定主题自适应识别具有相同TOI的用户并且只与特定TOI资源进行关联分析[。"
+  },
+  "4社会标签与知识组织融合研究": {
+    "context1": "社会标签是自下而上的组织体系，而传统的知识组织体系是自上而下的，如何将社会标签和传统知识组织体系融合到一起是社会标签领域的研究重点。"
+  },
+  "4.1社会标签聚类方法研究": {
+    "context1": "社会标签给用户提供了最大限度的自由，然而这种自由是有代价的，非受控词汇可导致标签的冗余和歧义，数据挖掘技术，如聚类技术为解决该问题提供了一条途径。ShepitsenA．等学者经过研究发现，凝聚层次聚类的标签是有效的一种手段。此聚类方法可以确定用户的兴趣以及资源内容，拉近用户和资源间的差距。Nanopoulos A．等学者则认为，借助标签评估资源的相似性时，用户的喜好、个人观点不得不考虑进去。Nanopoulos A．等着重于标签相似性的聚类，探索不同用户对分配给相同标签的相似性的多值性。为研究相似性资源的聚类，他们将特殊聚类方法应用于该方法中，以捕捉任意资源间相似性的多值性。以相似性为基础的资源分类方法要求从用户标注的个性化角度去考虑，在文中作者提出了特殊聚类方法，即使用张量分解谱聚类方法，通过扫描图结构将资源连接到最相似的资源中去，谱聚类方法有效地将资源集中到较小的范围中去，可以转化特征空间中的数据并发现资源中复杂的集群和抑制噪声。此方法避免社会标签中提到的原始3-way关系的破坏，应用特殊聚类方法处理所有维数，而非用2-way关系进行抑制。这种特殊聚类方法已成功应用于复杂数据的聚类，它具有如下优点：（1）能够捕捉和探索不同用户分配给相同标签相似性的多值性；（2）支持相似多值性；（3）通过建立相应拉普拉斯因子的方法，提出普遍使用的特殊聚类算法；（4）将单一数据分解（SVD）应用于多维数组中。试验表明本方法优于忽略资源间相似性的通常聚类方法。Rafailidis D.和 Daras 则提出了张量分解标签聚类模型（Tensor Factorization and Tag Clustering,TFTC），该模型中除了考虑用户个性化角度外还试图解决标签过稀、减少噪音的问题，实验表明该模型具有明显优势。"
+  },
+  "4.2社会标签与词表的映射研究": {
+    "context1": "正如前面所述，如何将社会标签与传统知识组织方法有效地融合是此领域的研究难点。美国肯塔基大学的KwanYi等学者试图用映射的方法将社会标签同国会图书馆的主题词表相联系。这是第一次将协作标签系统产生的用户标签同专业权威主题词表如LCSH进行比较的实验性研究，该尝试试图匹配用户标注的非受控词汇和主题词表。作者采用的是定量化方法，选择一个典型社会标签网站Delicious 抽取样本，比较了美国国会图书馆主题词表（Libraryof CongressesSubjectHeadings，LCSH）同社会标签样本的重叠率。在具体操作中将LCSH转化成树状结构即LCSH树。观察社会标签数据集的特点、社会标签和LCSH的重叠率和社会标签在LCSH树的分布情况。结果显示，社会标签同LCSH主题词表相匹配的约占社会标签总量的三分之二，另有约百分之十的标签具有潜在匹配的可能性，通过这样的比较试图找出如何将潜在用户标签链接到LCSH词表的方法。另外，在研究中作者归纳出链接标签和主题词表所面临的若干障碍，如标签系统的一些特殊技术基准与LCSH的技术基准不同;多字标记模式的社会标签同主题词表的不兼容等。此次尝试是对社会标签和传统知识组织方式间提出映射的前所未有的探索，为今后的研究开辟了新的思路与方法。此项研究试图探讨社会标签和LCSH的匹配技术和方法，有利于有效地获取和检索网络信息资源、并建立整合了两种词汇的信息数据库。"
+  },
+  "4.3社会标签与受控词表的关系研究": {
+    "context1": "社会标签的特点之一是标签的非受控性，有些学者认为社会标签与传统知识组织的元数据是独立的。但更多的学者认为社会标签是传统知识组织体系的有效补充，应将两种融合为一体，两者是相互补充的关系。VuorikariRiina就是持此观点的学者，他以教育资源为例，认为传统的教育对象元数据和社会标签共同形成了该领域的“元数据生态”（metadataecology）。所谓“元数据生态”是指常规元数据和社会标签及它们与其他环境的相互作用所形成的元数据体系环境。作者认为，社会标签和元数据的融合和补充，使得用户、元数据、交互性都变得更为灵活和稳定。社会标签是元数据的有效补充，它能够及时、快速、客观地反映用户的个性化观点，而元数据又为社会标签提供了基础方法和基本分类思想，共同形成了“元数据生态”。"
+  },
+  "5社会标签研究总结及其未来发展": {
+    "context1": "传统的知识组织中，受控语言作为规范化的描述，是用户与检索系统沟通的纽带，社会标签与传统受控分类法、主题词表有显著的差别，它来源于普通大众，使用非受控语言。随着观察和理解网络方式的改变，社会标签将逐渐成为一种普遍现象。很多网络资源如图片、音乐不能自我描述，那么社会标签将是明确资源描述的唯一方式。又因它使用的是非受控语言，给系统组织和资源描述、检索带来了前所未有的困难，如果不能很好地组织和检索这类信息，只会产生更多的信息垃圾，且会同知识组织体系相分离。",
+    "context2": "针对这种新兴的知识组织方式，它的模式，技术和框架等的研究是近年来此领域学者主要的研究方向。",
+    "context3": "通过前述分析、总结社会标签目前的研究特点，我们可以推测未来社会标签领域的发展趋势，概括为以下几个方面：",
+    "context4": "（1）社会标签在各个领域的应用研究将继续得到学者们的重视。现阶段社会标签的应用领域主要集中在教育、图书馆、社会传媒等领域。随着技术的成熟与需求的变化社会标签将广泛应用于商业、企业等领域。",
+    "context5": "（2）社会标签的发展对新技术、新算法的依赖性增强。社会标签必将朝着智能化的方向发展，有效组织和检索非受控词汇是社会标签领域的重要研究方向，针对社会标签的各种需求和问题，新技术的探讨将是最重要的研究方向。",
+    "context6": "（3）社会标签同传统知识组织关系的研究。KwanYi等学者对社会标签和词表之间的映射做出了探索性的尝试，为以后的研究开辟了新的思路与方法。社会标签和传统知识组织的融合研究必将是今后一个时期内重要的研究趋势。"
+  },
+  "注释": {
+    "context1": "[]Smith G.Atomiq:Folksonomy:Social ClassificationEB/O1].[010 -08-25].http://atomiq.org/archives/2004/08 /folksonomy_ social_ classification. html.  \n[] Maggio L.A，Bresnahan M，Flynn D.B，et al.A Case Study:Using Social Tagging to Engage Students in Learning MedicalSubject Headings [l.Journal of the Medical Library Association,2009，97 (2):77-83.  \nb Pence L.E，Pence H.E. Assessing Resource Bias and EngagingStudents To Personalize Class Content through Internet SocialTagging [.Journal of Chemical Education，2009，86（1)：41-44.  \nBianco C.E.Medical Librarians‘Uses and Perceptions of SocialTagging [.Journal of the Medical Library Association，2009，97(2): 136 -175.  \nb] Nitsche M，Kindsmuller M. C，Arend U，et al. Social Adaptation ofERP Software:Tagging UI Elements[.Online CommunitiesAnd Social Computing，2009，5621:391-400.  \nb Kim H.N，Rawashdeh M，Alghamdi A，et al.Folksonomy - BasedPersonalized Search and Ranking in Social Media Services.Information Systems，2012，37(1)：61-76.  \n[SunA，Bhowmick S.S，Nguyen KTN，et al. Tag-Based SocialImage Retrieval:An Empirical Evaluation[ .Journal of theAmerican Society for Information Science and Technology，2011,62 (12): 2364-2381.  \nBSymeonidisP，NanopoulosA，ManolopoulosY.AUnifiedFramework forProvidingRecommendationsinSocialTaggingSystemsBased on TernarySemanticAnalysis[.IEEETransactions On Knowledge And Data Engineering，2010，22(2): 179 -192.  \nKoutsonikola V，VakaliA，Giannakidou E，etal. Clustering ofSocial Tagging System Users:A Topic and Time Based Approach[.Web Information SystemsEngineering-Wise 2009，2009,5802:75 -86.  \n[io] Yin Z.J,LiR，Han J. W.Exploring Social Tagging Graph for WebObject Classfication [ .Paris:15th ACM SIGKDD Conferenceon Knowledge Discovery and Data Mining，2009.  \n[11] Huo W.Y，Database Systems for Advanced ApplicationsM.Berlin:Springer，2010:498-504.  \n[2]Manish G，RuiL，Zhijuny，etal.Surveyon Social TaggingTechniques [ .ACM SIGKDD Explorations Newsletter，2010,，12(1): 58-78.  \n[13] Kalamatianos A， Zervas P，Sampson D.G，et al. ASK - LOST2.0:A Web-Based Tool for Social Taging of Digital EducationalResources l .2009 Iee International Conference on AdvancedLearning Technologies，2009:157 -159.  \n[14] Sampson D.G，Zervas P，Kalamatianos A. Social Media Tools andPlatforms in Learning EnvironmentsM.New York:Springer,2011:387-398.  \n[5] Biancalana C.Social Tagging for Personalized Web Search.Emergent Perspectives In Artificial Intelligence，20o9，5883:232 - 242.  \n[6 Good B.M，Tennis J.T，Wilkinson M.D.Social Tagging in theLife Sciences: Characterizing a New Metadata Resource forBioinformatics [.BMC Bioinformatics，2009，10（313)：1-17.  \n[17] Zhang Y，Zhang B，Gao K，etc.Combining Content and RelationAnalysis for Recommendation in Social Tagging Systems.Combining Content and Relation Analysis for Recommendation inSocial Tagging Systems，2012，391 (22): 5759-5768.  \n[2]苗成林，冯俊文，孙丽艳等．基于协同理论和自组织理论的企业能力系统演化模型[．南京理工大学学报，2013（1)：192 -198.  \n[3]李春旺．数字图书馆协同服务技术与实践—以国家科学图书馆为例[．医学信息学杂志，2010（1)：16-20.  \n[4]何燕．对公共图书馆联盟发展的思考[．图书馆论坛，2006(5):210 -212.  \n[5]陈雪．区域图书馆联盟及在我国的发展[．山东理工大学学报（社会科学版)，2012（3)：109-112.  \n[26]高波．论公共图书馆总分馆的若干基本理论问题——兼评长春市协作图书馆[．图书情报工作，2010（1)：62-66.  \n[7]黄春红．试论公共图书馆联盟在构建公共文化服务体系中的作用[．四川图书馆学报，2011（5)：11－16.  \n[8]颜务林，李亚芬．数字图书馆协同服务的实践与思考—以宁波市数字图书馆为例[．新世纪图书馆，2010（4)：33-36.  \n[9]李纲．情报学研究进展M．武汉：武汉大学出版社，2010:633.  \nB0]赵晖．鉴于“上海协作网模式”的我国跨系统图书馆联盟发展模式的优化问题研究．图书情报工作，2010（23)：69-73.  \nβ1]余江，夏风．共建资源共享成果——上海市文献资源共建共享协作网十年综述．图书馆杂志，2005（3)：75-77.  \nβ2]吴正荆，孙成江，石玥．吉林省图书馆联盟服务现状调查与分析[．图书馆学研究，2012（2)：82-84.  \nβ3]吴正荆，孙成江．区域图书馆联盟可持续发展研究——以吉林省图书馆联盟为例[．情报资料工作，2012（3)：97-100.  \nB4赵晖．跨系统图书馆联盟协同管理概念模型及管理体系研究[．图书馆建设，2010（3)：89-92.  \nβ5]彭丽喃．数字图书馆与WIKI平台知识共享系统的协同机制研究[．黑龙江社会科学，2012（4)：159－160.  \nB6李娜．科研协同信息平台服务内容分析与服务体系构建．情报科学，2011(9)：1370-1373.  \nβ7]金中仁，成建权，陈振宇等．图书馆信息共享与信息集群服务M．北京：人民邮电出版社，2009：214.马岩南京大学信息管理学院，硕士研究生。  \n徐文哲南京大学信息管理学院，博士研究生。  \n郑建明南京大学信息管理学院，教授，博士生导师。"
+  },
+  "(上接第11页)": {
+    "context1": "[18] Luo X，Ouyang Y.X，Xiong Z.Improving Neighborhood Based Collaborative Filtering via Integrated Folksonomy Information[ .Pattern Recognition Letters，2012，33(3)：263-270. [19] Felice F，Carlo T.Advances in Artificial IntelligenceM]. Berlin:Springer，2011:463-472. [0]Shepitsen A，GemmellJ，MobasherB，etc.Personalized Recommendation in Social Tagging Systems Using Hierarchical Clustering[.Lausanne:Proceedingsofthe 2O08ACM Conference on Recommender Systems，2008. [1] Nanopoulos A，Gabriel H.H，Spiliopoulou M. Spectral Clustering inSocial-TaggingSystems[.WebInformationSystems Engineering-Wise 2009，2009，5802:87-100. [2] Rafailidis D，Daras P.The TFC Model: Tensor Factorization and",
+    "context2": "Tag Clustering for Item Recommendation in Social Tagging Systems [.IEEE Transactions on Systems Man Cybernetics-Systems, 2013，43(3):673-588.   \n[3] Kwan Yi,Lois M. Chan.Linking Folksonomy to Library of Congress Subject Headings:AnExploratoryStudy[．Journalof Documentation，2009，65(6)：872-900.   \n[4]Vuorikari Riina，Koper Rob.Tagsand Self-Organisation ina Multilingual Educational ContextEB/OI]．[O13-10-30]. http://145.20.132.21/Vuorikari_SIRTEL09.pdf.",
+    "context3": "金瑛中国科学院文献情报中心助理馆员，中国科学院大学博士研究生。"
+  }
+}

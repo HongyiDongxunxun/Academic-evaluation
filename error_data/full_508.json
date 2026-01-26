@@ -1,0 +1,57 @@
+{
+  "original_filename": "full_508.md",
+  "WWW网络信息资源搜索引擎的研究进展": {
+    "context1": "夏旭，李健康，方平²",
+    "context2": "(1．第一军医大学图书馆，广州 510515；2．湖南医科大学信息管理系，长沙 410078)",
+    "context3": "[摘要]1994年杨致远等的YAH0O主题指南拉开了WWW 网络信息检索的序幕，使得网络搜索引擎和主题指南的研究成为当前国内外研究的热点。对于国内外搜索引擎的比较研究、开发利用、搜索引擎的质量和性能评价、搜索引擎的选择等，均有大量文献报道。本文从以上几个方面综述其研究进展。",
+    "context4": "[关键词]万维网；信息资源；搜索引擎；综述[中图分类号]G354[文献标识码]A[文章编号〕1002－1167（2000）05－0032－04",
+    "context5": "1994 年由美籍华人杨致远等的个人主页发展而来的Yahoo主题指南拉开了WWW网络信息检索的序幕，WWW网络搜索引擎的研究和开发成为网络信息检索研究的重要发展趋势，是当今网络信息检索研究的热点。WWW网络是一个开放性的全球分布式网络，现已发展成为拥有1亿用户、600G信息容量的巨大分布式信息空间，包含了从技术资料、商业信息到新闻报道、娱乐信息等多种类别和形式的信息。搜索引擎的研究和开发取得了许多重要成果，有力地推动了网络信息检索乃至网络经济的发展。"
+  },
+  "1当前国外搜索引擎的比较研究": {
+    "context1": "1995 年Courtois 等对 Lycos、Open Text 和 Yahoo 等搜索引擎进行比较，结果表明，Open Text 在灵活性、实用性和响应速度等方面最好；对初学者而言，Webcrawler具有最简易的界面。Leighto利用大学图书馆参考咨询中常见的问题评价Infoseek、Lycos、WWW$\\mathrm { { W o r m } }$ ，认为Infoseek免费版较准确，Lycos 次之。1996年 Kimmel 检验了Lycos、WWW Worm、Webcrawler、Open Text、Harvest 等搜寻工具，认为在查找命中率方面Lycos 是一个较好的检索工具。Leonard对19 种Web检索工具从准确性、易用性和选择性等方面进行分析，认为 AltaVista 是最好的一个搜寻工具， $\\mathrm { A l l - I n - O n e }$ 则是多用搜索工具中最好的。Heting Chu 等[1]对 AltaVista、Excite、Lycos从检索方式以及响应时间、准确性等方面进行比较与评价，认为AltaVista较强，Lycos 包括的范围较广，只有AltaVista 真正地支持词语检索。Franic[2]使用了几种主要的搜索引擎，就“辐射防护”和“卫生物理”两个短语的检索过程和相关性问题进行分析，发现检索结果存在很大的差异，命中结果数为17中国知stontwnet国32",
+    "context2": "际药学文摘、AltaVista等8大数据库和搜索引擎检索近3年有关“天然物质用作药品”的信息，就拟定的 10个检索提问进行检索，发现EM检中4个提问的信息，而Medline、Health、AltaVista 检中2个提问的信息，认为标准医学数据库（Medline、EM）是卫生专业人员和其他人员的第一选择。",
+    "context3": "近些年来陆续出现了许多比较网络检索工具的研究和报道，绝大多数研究是就一定（几个至上百个）的检索提问、比较和评价一定（10个以内）的检索工具，采用的比较和评价标准很不统一。随后，又出现了专门汇集此类研究和报道的联网书目，如 $\\mathrm { h t t p }$ ：//www. $\\mathrm { u b 2 }$ $\\mathrm { l _ { u } }$ se/desire/radar/lit -about -search-services 和 $\\mathrm { h t t p }$ ： $/ /$ state:wi. $\\mathrm { \\ u s / a g e n c i e s / d p i / w w w / s r c h { \\ - } b i b }$ ：html，它们为用户比较和评价国际互联网检索工具提供了方便，通过这些联网书目，人们可依据书目中给出的连接点（Links)，便捷地了解研究报道的具体内容。"
+  },
+  "2当前国内搜索引擎的比较研究": {
+    "context1": "曹红兵等[4]以较典型的七种WWW搜索引擎Librarians’Index to the Internet、Yahoo、Alta、Vista、Excite、Hotbot、Infoseek、Lycos 为例，从数据库的内容和结构、检索方式及特点、检索结果的显示、数据库的更新四个方面加以比较，发现在各种因特网检索工具中，目录型检索工具Yahoo、Librarians'的检索功能较弱，检索方式比较呆板，常需用户按系统设置的检索途径进行检索；而其余五种的检索功能相对较强，检索方式灵活多样，可让用户自己拟定检索词构筑检索策略进行检索。李爱红[5]认为，目前实际的智能检索系统仍停留在对布尔检索的完善和智能化上，在这一水平线上，仅仅少数搜索引擎做得比较好，Infoseek $>$ Open Text>AltaVista，Excite和Lycos的数据库页比较大，但上述五种搜索引擎没有一个能在相关性与全面性上达到完美的平衡。",
+    "context2": "章琳[6]选取 Yahoo、Alta Vista、Excite、HotBot、Infoseek、Lycos、Open Text、Webcrawler及Metacrawler等9个著名的WWW搜索引擎，通过5个检索提问并在网上实验，结果表明，对同一检索式，不同检索引擎的检索结果相互交叉的现象不多，说明目前还没有哪种检索工具能够覆盖整个因特网的信息资源。同时也提示，Excite、Metacrawler的去重功能较为出色；而Infoseek、HotBot、Yahoo 和、AltaVista的查准率相对较高；各检索引擎给出的相关分值不能十分准确地代表检索结果的相关程度。Metacrawler的响应时间和检索速度明显慢于其它搜索引擎。殷雪松等[]从用户界面、查询结果两个方面对Alta Vista、Excite、HotBot、Infoseek、Lycos、Open Text、Webcrawler、Yahoo 以及中文搜索引擎Goy-oyo 进行比较，发现它们在索引资源、用户界面、功能设置、检索速度、检索数量以及准确率等方面各有所长。黄晓斌[8]对较常用的搜索引擎 Alta Vista、Infoseek、Excite、Lycos、Open Text、Webcrawler 进行了比较，并对检索引擎的选择提出了看法。索传军[9]以“ElectronicLibrary”（电子图书馆）为检索关键词，对Yahoo、 $\\mathrm { I n ^ { - } }$ foseek、AltaVista、Lycos 及中文搜索引擎Robot（若比邻)、Sohoo（搜狐）的搜索结果进行比较分析，发现不同搜索引擎的搜索结果大相径庭，与作者所希望的搜索结果还有较大的差距。"
+  },
+  "3搜索引擎的质量评价": {
+    "context1": "关于搜索引擎的评价主要集中于对数据库资源和搜索引擎的性能两个方面。"
+  },
+  "3.1搜索引擎数据库资源评价": {
+    "context1": "为什么要进行网络信息资源和数据库资源评价？因为因特网上信息量过大，有时搜索引擎会将成千上万，甚至几十万、上百万条满足检索条件的网页地址呈现在检索者面前，令检索者无从着手；因特网改变了信息发布和评价的程序，缺少编辑出版这一至关重要的质量控制环节[10]；各种虚假信息、劣质信息充斥因特网，信息膨胀速度加大，信息污染程度加深，信息内容良莠不齐，真假难辨。因此，有关专家提醒用户警惕网上虚假信息[11]，并认为解决这些问题的方法之一就是进行网络信息评价，从信息海洋中挑选出有学术价值的精华部分。TheWordWideWedVirtualLibrary提供了这方面的一些研究目录[12]。The Internet Public Library[13]和 TheWWW Virtual Library[14]等已根据一定的标准和方法对收入内容和连接的链进行了控制和筛选。目前还出现了一些专门评价网络信息资源的站点。有人甚至提出应当通过设立“网络编辑（Neteditors)”和“网络评论员（NetReviewers)”对网络信息进行质量控制[15]。就目前而言，国内外的研究者比较一致的观点是用于评价印刷型资料楼准网样适用而网络信息资源的评价：n然也包括数据库资源。Hinchliffe认为可将评价参考资料的标准用于评价网络信息资源，包括：形式、内容范围、同其他信息的关系、权威性、信息的适用对象、编排方式、价格。 $\\mathrm { G u r n } ^ { [ 1 6 ] }$ 则特别强调可存取性（Acessibility）、权威性（authority）、交互性（interactivity）和愉悦性(conviviality）这四项标准。罗春荣[17]指出，在印刷型出版物质量的判断与评价中，使用的评价标准如权威性、收录范围、准确性等，在评价因特网资源中同样有效，并提出因特网上信息资源评价的九大标准：适用性、权威性、唯一性、准确性、全面性、可获取性、易用性、可靠性、稳定性。也有人[18]提出应从文献内容的精、新、时效性、作者或机构的知名度、网址相对稳定性、Web检索工具和数据库的收录范围、用户界面、响应速度等方面评价网络资源。董小英[19]则总结出9项标准：信息的准确性、信息发布者的权威性、提供信息的广度和深度、主页中的链接是否可靠和有效、版面设计质量、信息的时效性、读者对象、信息的独特性、主页的可操作性。蒋颖[20]指出网上信息资源的评价标准包括：信息质量（学术水平、可信度、时效性、内容的连续性)、范围（信息的广度和深度)、易用性(连接速度快、界面友好、无空链、无死链)、稳定性和连续性、评价单位为网页和站点，并提出了定性和定量的评价方法。值得一提的是，国外目前已有一些WWW网开始专门的网络信息评价，如Magellan、Excite、Lycos，以Magellan为最突出，该系统评价网址的标准有三个，一是信息的质量、深度、范围、准确性和时效性；二是信息的组织方式是否便于检索；三是界面设计是否符合人的阅读习惯。"
+  },
+  "3.2搜索引擎的性能评价": {
+    "context1": "1973 年兰开斯特（Lancaster）提出的涵盖范围、查全率、查准率、响应时间、用户方便性和输出格式六个标准基本适用于对网络查询引擎的性能评价。曾民族[2]在综合国内外探索引擎评价研究成果的基础上，提出了以下评价指标： $\\textcircled{1}$ 数据库规模和内容，包括覆盖范围、索引组成、更新周期； $\\textcircled{2}$ 索引方法，包括自动、人工索引、用户登录； $\\textcircled{3}$ 检索功能，包括布尔操作（含嵌套)、截词查找、字段查找、大小写有别、概念检索、词语加权、词语限定、特定字段限定、缺省值、中断退出、重复辨别、上下文关键词、查询集操作； $\\textcircled{4}$ 检索结果：相关性排序（单纯排序或注明排序分值)、显示内容（注释或摘要)、输出数量选择（限定或改变显示数量)、显示格式选择； $\\textcircled{5}$ 用户界面（帮助文件、数据库和检索功能说明、查询举例)； $\\textcircled{6}$ 查准率和响应时间。储荷婷[22]认为应从检索工具的索引构成、检索功能、检索效果、检索结果的显示、用户所需努力等方面进行评价。索引构成包括标引数量、标引范围（指网络信息的种类、部分标引还是全文标引)、索引更新频率、索引词抽取法；检索功能包括布尔逻辑检索、相邻检索、位置限定、大小写识别、去重功能；检索效果：查全率、查准率和检索时间；检索结果的显示，WWW网络检索工具通常有二至三种显示方式，最简单的只显示文件标题和URL，最详细的包括网络文件摘要，且允许用户自己调整每次显示结果数。而元搜索引擎如 Savvy-search、Colostate允许用户分别显示各检索结果或综合列出所有结果。WWW网络检索工具试图判断检索结果的相关性，判断的依据多为检索词的词频、在文中的位置、以及几个检索词的相邻程度等。Magellan 使用的“个人图书馆软件（Personal library software）依据上述三条标准判断相关性，还考虑检索词在数据库中的独特性及每个检索提问所含独特检索的数量[23]。每个检索引擎采用的相关性判断标准都不尽相同，且这类信息秘不示人，因此很难在相关排序技术评价上采用一致的标准。此外，结合考虑检索工具的类型和是否收费（目前进行收费的有Infoseek、OCLC的NetFirst）即可对网络检索工具进行全面评价，比较和评价的结果可为用户选择合适的网络检索工具提供依据。"
+  },
+  "4应用研究": "",
+  "4.1初步应用": {
+    "context1": "为了便于比较，我们将有关搜索引擎的检索特点、功能等进行介绍和利用它们进行文献信息检索的过程称为初步应用阶段。而将自行开发搜索引擎或利用搜索引擎对网络信息进行自动跟踪等过程称为深层次开发研究。在初步应用过程中，较为普遍的是对各种通用搜索引擎进行介绍，并就使用经验总结出搜索引擎的检索原则。国内有相当一部分论文是对常用的搜索引擎进行介绍[24,25]，彭晖[26]介绍了广州网易、搜狐等中文搜索引擎的检索界面和检索方式。余恩琳[27]较全面地介绍了因特网上主要医学指南及访问方法。利用网络生物信息学资源，开展网上蛋白质和核酸序列分析、蛋白质结构分析[28]，也是搜索引擎的主要用途。",
+    "context2": "文献[29]列出了20多个WWW搜索引擎的站点地址和所属专业。Tepperman[30]认为搜索引擎的基本用途是开展因特网上信息检索，并为因特网检索方法的选择提供一些建议。Van一Steensel[31]为临床遗传学家列出了一些著名的搜索引擎并就其使用方法作简要的描述。McKcown[32]比较详细地介绍了搜索引擎的特点和用途，强调个人反复使用是最好的学习方法。"
+  },
+  "4.2深层次开发研究": {
+    "context1": "陈梅午[33]利用因特网上最新工具开发利用网络信息资源的关键技术一建立指引库和自动跟踪，发现利用搜索引擎Yahoo和Lycos可有效地实现网上信息资源的自动跟踪。军事医学科学院在1996 年建立了因特网生物医学信息指南系统，将网络信息资源按主题分为生物医学、临床医学、军事医学等栏目。上海医大以医学检索引擎、医学指南、生物医学数据库为检索出发点，将因特网上一大批高质量的医学网址按分类建成医岘学知",
+    "context2": "World Search)。当然，元搜索引擎的开发是更深层次的开发，此处不赘述。"
+  },
+  "5搜索引擎的选择": {
+    "context1": "搜索引擎为WWW 网络的一种检索工具，其选择标准有：收录内容（包括网络资源包括的项目、信息的类别、更新周期和速度及标引深度)、检索方法、用户界面、检索效率、检索结果的显示[35]。Boyer等[36]认为，WWW站点数量每天都在增加，当前的问题不仅仅是找到信息，更重要的是要查到准确的信息，目前的WWW搜索引擎还不能解决这一问题，因为它们总是返回一大堆未见得有用的网页信息，为使检索更有效、更适用，需智能化、专业化的搜索引擎。Van一Steensel 等[7]认为，对初学者而言，HotBot是最好的开端，通过使用可以将检索限定在特定的时间段或特定的地点，要么是地图，也可以是赛博空间（Cyberspace）。Yahoo 提供了检索目录，允许医学研究人员将其检索限定在特定的医学主题词下，Lycos 和Infoseek 也是如此，如果有速度上的需求，则应使用 Alta Vista。",
+    "context2": "黄晓斌[38]提出了搜索引擎选择的一些基本思路，如：一般性查询可用Yahoo，自然语言查询用Infoseek，当不知道如何使用确切的检索关键词时可用Excite 进行概念查询，检索全文可用Excite和OpenText，检索图片、声音和视频文件则可用Lycos，查找相关网址用 $\\operatorname { E x } ^ { - }$ cite，反向查询（查询有多少人曾检索过某一主页）用Webcrawler，查短语用Open Text，查网上冷僻站点用AltaVista，查找网络新闻组资料或线索用Infoseek和AltaVista，查期刊论文、图书馆资料可以选用TheElectric Library。雷燕[39]通过比较常用的中、外文搜索引擎，提出根据检索目的有针对性地选择适当的搜索引擎：检索方向性问题用Yahoo!Infoseek、Lycos、雅虎、搜狐；检索细节性问题用AltaVista、Infoseek、天网；最大可能地查到相关信息用AltaVista、Infoseek、天网；搜索站点评论用Lycos、Infoseek；索标题和URL用AltaVista、Yahoo!；检索用户小组（USENet）AltaVista、Infoseek。"
+  },
+  "参考文献": {
+    "context1": "[l]中国地名委员会．外国地名译名手册〔M]．北京：商务印书馆，1983.  \n[2]辛华·英语姓名译名手册〔M]·北京：商务印书馆，1973.  \n[3]卞庆祥．西文图书计算机查重有效性的保障〔J].江苏图书学报，1996，（4)."
+  },
+  "Effectual Methods of the Accurate and Quick Classification of Foreign Books": {
+    "context1": "JIANG Xin min",
+    "context2": "(Library of China Institute of Metrology，Hangzhou 31O034，China)",
+    "context3": "Abstract：With combining oneself working experience，this paper elaborates on the methods of the clasification of books in foreign languages·It also has further put forward the view that translation of the titles of foreign language books can help classify them properly .",
+    "context4": "Key words:foreign language books； classification[作者简介]蒋新民（ $\\cdot ^ { 1 9 6 3 - }$ )，女，1987年毕业于杭州大学外语系，馆员。[收稿日期] $2 0 0 0 { - } 0 3 { - } 1 0$",
+    "context5": "（上接第35页）"
+  },
+  "Research Progress on Search Engines for WWW Information Resource": {
+    "context1": "XIA ${ \\mathrm { X u } } ^ { 1 }$ ， LI Jian-kang¹，FANG Ping² (1．Library of the First Mil Med University，Guangzhou 5lO5l5，China；2．Departmeni of Information Management，Hu'nan Medical University，Changsha 4lOO78,China)",
+    "context2": "Abstract：With the development of Yahoo subject directories，Web information retrieval and search engines be come the hot points allover the world·Literatures in comparative study，exploitation and utilization，quality and performance evaluation，and problems existing insearch enginesare allcovered·the authorsreview all these contents and completely probe into the research progress on search engines ·",
+    "context3": "Key words:WWW（World Wide Web）； information resource；search engines；review",
+    "context4": "[作者简介]夏旭（ $\\lfloor 9 6 8 - \\}$ ，男，硕士，馆员，发表论文近100篇，参编和任副主编著作3部，获军队科技进步奖2项。研究方向为网络信息检索、搜索引擎研究。"
+  }
+}

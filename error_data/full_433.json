@@ -1,0 +1,90 @@
+{
+  "original_filename": "full_433.md",
+  "Mashup个人学习环境研究述评": "",
+  "纪姗姗 李春旺": {
+    "context1": "【摘要】本文从Mashup个人学习环境的研究背景及特点开始谈起，重点总结了个人学习环境的模型、关键技术、相关标准及构建方法，并列举了两个典型项目进行详细介绍。作者认为，支持泛在化服务与主动性服务是未来Mashup个人学习环境的发展趋势。",
+    "context2": "【关键词】集成融汇个人学习环境Mashup",
+    "context3": "Abstract:After introducing the background and features，this paper emphatically discusses the models, technologies，standards and building methods of Mashup Personal Learning Environment Two projects are analyzed as examples.The author also points out that ubiquitous and initiative services are the trends of Mashup Personal Learning Environment.",
+    "context4": "Key words: integrationMUPPLE Mashup"
+  },
+  "1引言": {
+    "context1": "Mashup个人学习环境（MashUP Personal Learning Environment，MUPPLE）是指利用 Mashup 技术聚合网络中分布式的资源及服务，形成开放的、易用的、个性化的个人学习环境（PLE），其概念在2008年由Wild等人提出[1]。与传统的封闭式、集中型的学习环境不同，Mashup个人学习环境是将众多网站内容与功能进行汇聚，创造出新的增值服务并将其集中到一个平台、页面上呈现给学习者[2]。在这一环境下，学习者不仅可以选择内部或外部的应用及服务来构建自己的PLE，还可以整合不同资源的数据来生成新的服务，实现了由信息消费者(Consumer）到产销结合者（Prosumer）的角色转变。",
+    "context2": "个人学习环境这一概念最早在 2O01年由Olivier和Liber提出[3]，早期关于PLE的研究主要集中于理论探讨及概念模型构建方面。随着应用建设的推进，技术问题成为研究热点，如：互操作问题以及通过数据交互、RSS/ATOM整合、Web Services集成等方式实现个人学习环境与社会软件连接问题等[4]。2005年之后，基于 Mashup技术的个人学习环境研究与建设广受关注，出现了一些比较有影响的研究机构及项目，如iCAMP、Palette、Prolix、TENcompetence、ROLE、iCoper、Mature等。欧洲委员会分别在荷兰和法国组织召开两次 Mashup 个人学习环境研讨会（MUPPLE $^ { \\prime } 0 8$ 、MUPPLE'O9)[5,6]，积极推动Mashup个人学习环境的概念模型及系统架构、数据互操作、用户界面设计、Widget交互标准、学习方法等方面的研究与交流。",
+    "context3": "本文拟从Mashup个人学习环境模型、关键技术、构建方法及应用特点等方面进行总结分析，以期对相关研究提供借鉴。"
+  },
+  "2个人学习环境模型": {
+    "context1": "自 PLE提出以来，学者们一直致力于PLE模型及构建机制研究，当前比较有代表性的模型包括：“FutureVLE\"、“Reference PLE\"、“Ray's PLE\"、“K.&ubrinié's PLE's PLE\"、PLEF、ELGG等[7]。",
+    "context2": "2.1“Future VLE”模型",
+    "context3": "2005年初，ScottWilson在教育技术专家论坛上首次发布了一个具有影响力的个人学习环境模型“FutureVLE\"[8]，对后续的 PLE模型研究影响很大。该模型是PLEX项目的研究成果之一，它清晰地描绘出PLE所包含的网络工具、教学系统内部服务、网络服务以及网络工具与各种服务之间的关系。如图1所示，该模型指出可采用Atom、RSS及API调用等技术集成来自于本地学习系统、43Things、Del icio.us、Flickr等各种分布式站点的内容及服务。此外，它向人们展示了e一portfolio在 PLE中的重要作用。e一portfolio是一种电子化的学习档案，学习者可以用它来记录、管理自己的学习历程。FutureVLE模型为我们最早描述了PLE的基本框架，但其详细程度还不够，所能解释的范围比较有限。",
+    "context4": "![](images/e88d4b8182c339118e31c67d5adfc6a3e414c3025789adac12a4a1b9fe9f005a.jpg)  \n图1Future VLE模型"
+  },
+  "2.2“Ray's PLE”模型": {
+    "context1": "Ray Sims利用思维导向图从文本、音频、写作与画图、人物、数据、信息处理、物理空间、自我思考、正式训练等八种维度来考虑构建自己的PLE，清晰地展示了他的个人学习空间[9]。他所构建的PLE不是一个具体的PLE软件系统，而是列举了每种维度所需的Web2.0工具，因而更容易被广大学者接受。目前国内外很多人都参考他的PLE，利用容易操作的网络工具构建自己的PLE，如利用自制 BLOG模版订阅社会性书签、图片及其他网络服务等反映自己的学习经验和联系，收到良好的效果。"
+  },
+  "2.3“K.ubrini's PLE”模型": {
+    "context1": "K．zubrinie等人对组成网络个人学习环境的要素进行了分析，并构建出一个基于Web服务的个人学习环境架构[10]。在这一架构中包含了服务器与客户端两个重要组成部分。客户端是一个富互联网应用，它利用API调用、RSS/Atom等技术与分布式Web 服务（如Google、Yahoo!、Flickr等）进行交互，并为用户提供了一个交互界面；服务器负责对保存在本地的各种网络数据进行管理，同时响应应用程序对于资源、服务的开放调用。此外，该架构采用了Openld认证系统，并支持用户自建学习小组、发现与自己具有相同兴趣的学习者。"
+  },
+  "3Mashup个人学习环境技术及标准": {
+    "context1": "Mashup个人学习环境的研究可以分为三大领域：教学法、使用案例研究及技术发展[11]。相对来说，技术发展领域的研究较多，有文献[2J[13]为提高MUPPLE的用户使用友好性提出了解决方法，也有文献[1J[15]对如何加强MUPPLE中Widgets之间的信息互操作进行了探讨。在MUPPLE技术研究中，Mashup技术及相关标准规范是热点。"
+  },
+  "3.1 Mashup 技术": {
+    "context1": "Mohanmed等人[16]把Mashup技术对个人学习环境的支持形式分为两类：整合型融汇（Mashups by integration）与聚合型融汇 (Mashups by aggregation)。",
+    "context2": "整合型融汇即数据层及功能层融汇，是指从不同来源中获取数据，并通过APIs整合形成更复杂的应用，其中涉及到数据获取、数据融合等技术。由于数据源具有不同的类型，例如数据库、Web服务（SOAP/REST）、RSS/Atom Feeds，因此从分布式资源中获取数据时要采用不同的技术，包括Web Feed技术、API调用技术、屏幕抓取技术。数据获取之后，还要对这些格式各异的数据进行相关处理，包括数据转换、映射、过滤、连接、排序等，最后构建出新的综合性数据对象。以上各种操作对用户提出了较高的编程要求，为了降低用户的门槛，一些机构推出了用于数据融汇的工具，例如 Yahoo !Pipes、Google Mashup Editor、WSO2 Mashup Server 等等。",
+    "context3": "聚合型融汇的对象是能在其他环境中有效运行的具有标准格式的内容，例如：Web Feeds、Widgets及image/video格式文件等。用户通过简单的复制/粘贴或者拖拽操作就能将这些不同来源的资源及服务融入个人环境中，不需要很高的编程技巧。一些通过个性化组合Feeds和Widgets 的个人主页就采用聚合型融汇方法进行构建。",
+    "context4": "目前涉及Mashup的个人学习环境研究方案主要集中在聚合型融汇，如MUPPLE、PLEF项目，而它的实现主要归功于逐渐普及化的Widgets。Widget是一种小的客户端交互应用系统，主要由XML文件、CSS文件及JavaScript脚本来实现，用于显示、更新本地数据或网络数据，它按照一定的规范进行封装，支持在用户端计算机或移动设备上的下载、安装，既可以作为一个独立的应用程序运行在Web浏览器之上，也可以被方便地嵌入到一个网页中。在分布式学习环境中，信息服务商可以把自身的服务封装成一个Widget，供其他的系统/平台进行调用。现在有许多应用提供了相关插件来整合来自于第三方的Widgets，例如：学习管理系统（Moodle、Blackboard)，个人博客系统（Wordpress），社交网络平台（Facebook、Elgg、Ning）及操作系统（AppleDashboard、Windows Sidebar)[17]。Widget的普及为图书馆、信息管理系统、学习管理系统等机构之间的服务共享提供了简单、高效的方式，也成为未来信息服务的重要组成要素。"
+  },
+  "3.2Mashup 标准规范": {
+    "context1": "从功能上看，Mashup个人学习环境可以划分为六个维度：屏幕、数据、临时、社会、活动及运行[18]，而每一功能维度都需要相关的技术标准进行支持，如表1所示。这些标准为Mashup个人学习环境的实现提供了技术参考，但也存在着标准化不统一的问题，例如 Widget 标准规范就有 Netvibes UMA、Google Gadget、YahooWidget等多种。因此建立统一的标准规范体系成为相关研究机构的一项重要任务。",
+    "context2": "表1个人学习环境的功能维度及相关标准",
+    "context3": "<table><tr><td rowspan=1 colspan=1>维度</td><td rowspan=1 colspan=1>描述</td><td rowspan=1 colspan=1>相关标准</td></tr><tr><td rowspan=1 colspan=1>屏幕（Screen)</td><td rowspan=1 colspan=1>在一个 PLE中对Widgets 进行空间上的组织与管理，包括Widget的导入与页面布局。</td><td rowspan=1 colspan=1>W3C Widget 1. 0 Google Gadget APl GoogleGadgetTabML Netvibes UMA OpenAjax 元数据规范。</td></tr><tr><td rowspan=1 colspan=1>数据（Data)</td><td rowspan=1 colspan=1>Widgets之间以及Widget其底层服务之间的数据及元数据互操作，包括复制、粘贴、拖拽动作及数据格式、交互协议等等。</td><td rowspan=1 colspan=1>各种各样的数据及元数据标准，包括RSS、SCORM及 Dublin Core 等；HTML5（支持浏览器的拖拽功能）；OpenAjax Hub 2.O（widget通信）；Google gadget pubsub （Widget通信）。</td></tr><tr><td rowspan=1 colspan=1>临时（Temporal)</td><td rowspan=1 colspan=1>对Widget进行更新，使其配置、状态或数据与其他共享该Widget实例的活动用户基本一致。</td><td rowspan=1 colspan=1>COMET/Reverse Ajax XMPP，XMPP over BOSHGoogle Wave Federation protocal。</td></tr><tr><td rowspan=1 colspan=1>社会（Social)</td><td rowspan=1 colspan=1>用户身份、概述及交友信息的互操作，使系统可以划分用户所在的群组，并支持组内成员分享Widget事件、状态及数据。</td><td rowspan=1 colspan=1>OpenID OpenSocial APl Facebook ConnectFOAF。</td></tr><tr><td rowspan=1 colspan=1>活动（Activity)</td><td rowspan=1 colspan=1>通过 Scripts来控制使用户参与到学习活动中的PLE应用。</td><td rowspan=1 colspan=1>WS一BPELIMS学习设计规范（面向VLE的设计阶段）。</td></tr><tr><td rowspan=1 colspan=1>运行（Runtime)</td><td rowspan=1 colspan=1>PLE平台之间的互操作，包括组件的导入、导出及嵌入。</td><td rowspan=1 colspan=1>W3C Widget 1.0 OPML （Feed 导入与导出）Open Ajax Mashup Reference Application。</td></tr></table>"
+  },
+  "4Mashup个人学习环境构建方法": {
+    "context1": "自2006年以来，许多研究者开始尝试利用社会性软件或其他工具来构建自己的个人学习环境。本文根据基础平台的不同，对几种主要的MUPPLE构建方法进行了总结，并分别举例说明。"
+  },
+  "4.1基于VLE构建方法": {
+    "context1": "虚拟学习环境（VLE）是目前教育技术领域中主流的一种学习系统，它通过提供一个虚拟化的学习平台将机构内的学习资源呈现给用户，支持用户之间的交流，并提供了用户信息管理功能。常见的VLE平台包括",
+    "context2": "Blackboard、WebCT、Moodle、Sakai等等。VLE系统偏重于以机构为中心，对机构外部的资源支持性较差，不能满足学习者的个性化需求。目前一些VLE系统已经对自身进行改进，以支持对第三方的服务及工具整合。例如Bolton大学的 Scott Wilson等人在 Moodle 原有系统的基础上增加了Wookie Widget引擎扩展，利用Wookie产生Widget，并将Widget嵌入到Moodle系统，在其平台上进行显示[19]。"
+  },
+  "4.2基于Wiki构建方法": {
+    "context1": "Wiki技术强调用户的共同协作，这一理念也应用到了个人平台构建中，比如 Google Sites[20]。使用GoogleSites非常容易，用户可以点按钮创建不同类型的页面，还可以在页面嵌入文件、日历、相片、影片和小工具等等。与Google Docs一样，系统内置了所见即所得的编辑器，用户建立好网站之后可以输入电子邮件邀请其他人来编辑或者浏览自己的内容，并可以决定哪些人有编辑权限。Bologna大学以Wiki技术为基础，构建了一个协作式的多媒体学习环境We一LCoME[21]，支持用户对多媒体学习资源的创建、编辑及发布。"
+  },
+  "4.3基于社交网络构建方法": {
+    "context1": "社交网络的主要作用是为一群拥有相同兴趣与活动的人建立在线社区。它的服务往往是基于互联网，为用户提供多种交互方式，如聊天、短信息、影音、文件分享、博客、讨论群组等。基于社交网络的平台当前在世界上有许多，目前有Facebook、Elgg、Ning等站点支持第三方Widget，同时开放API，允许将自己的服务封装成Widget。借助社交网络创建个人学习环境，用户不仅可自行添加应用，还能很方便的与社区内的用户进行交流与资源共享。荷兰的Open University利用Facebook建立了一个学习平台，将课程信息、学习者的动态信息融入该平台中，并支持学习者对学习资源的评论及分享[22]。"
+  },
+  "4.4基于社会聚合器构建方法": {
+    "context1": "社会聚合器的主要应用形式如 iGoogle、Netvibes、Pageflakes等个人主页。它们包含了各种Web 2.0工具，支持用户将Widgets、feeds、社交网络、E-mail、Video及blog信息在一个页面内进行集成显示。在个人主页的基础上，通过选择合适的资源，用户可以很容易地构建自己的个人学习环境，例如 Kankakee（Illinois）公共大学图书馆基于 Netvibes 的图书馆员主页[2]。一些研究机构也开发出了类似于个人主页的学习平台，例如 Graz大学开发的PLE系统以Palette项目中的Widget引擎为基础对Widgets 进行加载、管理，形成一个以Feeds、widgets及其他工具为主的学习环境，支持学习者在个人空间里聚集、管理、标记、注释及共享他们的资源[24]。"
+  },
+  "5Mashup个人学习环境应用研究": {
+    "context1": "目前已经有越来越多的学习服务商开放其API，并且一些学习系统也开始对原有系统进行开放化，这对Mashup个人学习环境的发展起到了很好的促进作用，出现了一些比较有影响的Mashup个人学习环境，其中，PLEF、SPLASH具有一定的代表性。"
+  },
+  "5.1PLEF": {
+    "context1": "PLEF（Personal Learning Environment Framework)[25]是德国 RWTH Aachen 大学研发的一个个人学习系统。比起在一个集中性的系统上对各种服务进行呈现，PLEF的目标更倾向于提供一个包含各种服务的控制面板，让用户根据自己的需要选择、利用并融汇这些服务。这一方式使学习者可以完全掌握自己学习活动，学习者可在个人空间里聚集、管理、标记、注释并共享资源（Feeds，widgets及其他媒体）。其他特点包括：（1）采用OpenID 作为用户认证；（2）支持用户对个人学习环境中的资源进行评论及分享；（3）支持标签浏览功能，用户可以利用标签对资源进行标记、分类及检索；（4）提供导航工具条，用户可以通过拖拽方式添加资源或调整页面；（5）支持对资源的全文检索及标签检索。",
+    "context2": "PLEF系统利用Mashup技术把来自多个资源的学习组件融入到一个以学习者为中心的空间。在它的系统中设计了一个Mashup引擎，其功能包括前文所提的聚合型融汇与整合型融汇。在Web2（的发展中，轻量级的RESTful Web服务、Ajax、JSON等技术逐渐成为热点，PLEF系统也以 RESTful Web服务的获取及融汇作为研究重点，它采用 SMD（Service Mapping Description）方法对 RESTful Web 服务添加语义描述，支持用户自行创建、管理及分享学习Mashup 服务。",
+    "context3": "5.2SPLASH",
+    "context4": "SPLASH（Student Personal Learning and Social Homepage)[26]属于 JISC的 E一Learning 项目，由英国的萨塞克斯大学主持开发，主要目的是在教育系统中引进Portal及Mashup服务，提供一种更加个性化的学习体验。具体目标包括：（1）提供一个可扩展、可移植的模型，支持个性化学习主页及用户组、朋友列表、班级列表的自动创建；（2）创建一个模板和内容都可定制的主页；（3）允许学生重新利用现有内容和继续开发新的内容，当他们离开机构以后还可以利用；（4）创建文档以支持该模型在其他机构的使用；（5）在开源环境中创建，使其输出结果可以在一个开放许可下免费自由使用。",
+    "context5": "为了建立可调式的个人系统，SPLASH项目利用Widgets对机构自身系统及外部系统的内容进行呈现，包括VLE中的学习资源、Facebook、Flickr、YouTube等内容，把主页变成一个内容的聚合器。系统可以从机构的内部仓储中获取新闻Feeds、图书馆书籍列表、Moodle资源等信息，也可以利用开放接口API调用技术从各种网络站点中获取RSS、RDF等数据信息，然后将这些数据进行整合、过滤，最后输出显示。SPLASH不仅关注学习环境中的资源建设，还致力于将系统融入社会网络中，支持用户组内的信息交流及工具分享。此外，它还支持用户对隐私进行设置，保证学习平台的安全性。"
+  },
+  "6结语": {
+    "context1": "利用Mashup技术不仅可以建立一个丰富的、开放的学习环境，而且还支持用户的个性化管理。随着网络信息集成融汇及知识服务技术的不断发展，Mashup个人学习环境研究与建设受到越来越广泛的重视，并呈现以下发展趋势。"
+  },
+  "6.1泛在化服务": {
+    "context1": "在计算技术支持下，任何人都可以利用手机、PDA、PC等通讯工具随时随地开展学习活动，即泛在化学习，而Widgets的广泛使用为个人学习环境的泛在化提供了条件。新的JavaF×技术能生成支持多种设备及操作系统的Widgets，一些研究机构也试图建立统一的 widget标准规范消除 Desktop Widget、Web Widget、MobileWidget之间的差别，提高Widget的兼容性。"
+  },
+  "6.2主动性服务": {
+    "context1": "传统的信息服务都是基于用户需求被动提供相关服务，未来的Mashup个人学习环境将利用情景感知技术主动捕获用户的潜在需求，并主动发现相关资源、提供相关服务。荷兰ReMashed[27]项目采用协同过滤算法实现Mashup个人学习环境下的内容及服务推荐。台湾中央大学的 SituMash[28]系统则根据用户的情境信息（地点、时间、角色、日程表等）推理出用户当前场景，进而自动发现相关服务Widgets并进行有效组合，形成一个情境感知的个人学习页面。"
+  },
+  "注释": {
+    "context1": "[1]Wild，F.，M？dritscher，F.，Sigurdarson，S.Designing forChange：Mash一UP PersonalLearning Environment http： $I I$ www.elearningeuropa info/files/media/medial5972. pdf， $2 0 1 0 - 0 5 - 1 8$   \n[2]BehnamTaraghi，Martin Ebner，SandraSchaffertPersonalLearning Environmentsfor Higher Education：AMashupBasedWidget Concept http://sunsite. informatik rwth一aachen. de/Publications/CEUR-WS/Vol-506/taraghi.pdf, $2 0 1 0 - 0 5 - 1 8$   \n[3]Wikibookshtp：//n.wikibooks.org/wiki/Web_2OandEmergingLearningTechnologies/LiteratureReviewsofPLE# Definition_of_PLE，2010－05-18   \n[4]MathiasPalmer，StephaneSireEvgenyBogdanovtalMappngWebersoalLearingEnviromentshtp：infoscienceeflchecod 140942/files/mupple-ple- dimensions pdf， $2 0 1 0 - 0 5 - 1 8$   \n[5]MUPPLE'08.http：//mupple0&.icamp.eu/，2010一05-18   \n[6] MUPPLE'09. http：//www. prolearn－academy.org/Events/mupple09，2010－05－18   \n[7] Edutechwiki. http：//edutechwiki. unige. ch/en/Personal_learning_environment，2Ol0一05－18   \n[8]Wilson，SrchitectureofVirtualSpacesandteFutureofp：/wcetisuk/mmberssot/resources/itseamingppt，   \n[9]Rey's PLE Model. htp://simslearningconnections.com/ple/ray_ple. html# id2246154，2010－05－18   \n[10]K.ubrinié，D.Kalpie.ThewebasPersonalLearningEnvironmenthtp：//ibirb.hr/datoteka357767.576—2219-1-PB-pdf, 2010-05-18   \n[11][27]HendrikDrachsler，DriesPece，TanjaArts，etalReMashedRecommendationAproachesforshUpPersoalLearingEnvioents inFormalandInformalLearingSetingsIn：Procedingsofthe4thEuropeanConferenceonTechnologyEhancedLeaing：earinginthe Synergy of Multiple Disciplines，France Berlin：Springer—Verlag，2Oo9：788-793   \n[12]Felix M?dritscher,？Fridolin Wild,?Steinn Sigurdarson Language Design fora Personal LearningEnvironment Design Language. http：//tp informatik rwth一aachen. de/Publications/CEUR-WS/Vol一388/moedritscher.pdf， $2 0 1 0 - 0 5 - 1 8$   \n[13]San Jose.Making mashups with marmite：towards enduserprogrammingfor theweb.htp：/portalacmorg/citation.cfm?id $=$ 1240624.1240842，2010—05—18   \n[14]StéphaneSire，Alain VagnerIncreasingWidgetInteroperabilityatthePortalLevelhtp：/ftpinformatikrwthachende/ Publications/CEUR-WS/Vol-388/sire. pdf，2010-05-18   \n[15]Evgeny Bogdanov，Christophe Salzmann，Sandy El Helou，etal.Social Software Modelingand Mashup basedonActors， Activities and Assets.htp:/ftp informatik rwth-aachen.de/Publications/CEUR-WS/Vol-388/bogdanov.pdf， $2 0 1 0 - 0 5 - 1 8$   \n[16]MohamedAmine Chati，MathiasJarke，Zhaohui Wang，etalSmashupPersonalLearningEnvironments.htp：//space.ounl/ bitstream/1820/2168/1/chatti. pdf，2010—05-18   \n[17]ScottWilson，Paul Sharples，andDaiGrifiths.Distributing educationservice topersonalandinstitutional systemsusing Widgets. http：//ftp informatik rwth-aachen.de/Publications/CEUR-WS/Vol一388/wilson.pdf， $2 0 1 0 - 0 5 - 1 8$   \n[18]Mathias Palmer，Stephane Sire，EvgenyBogdanov.Maping WebPersonalLearning Environments.tp：/infoscience.epflch/ record/l40942/files/mupple-ple-dimensions. pdf， $2 0 1 0 - 0 5 - 1 8$   \n[19]Scott Wilson，Paul Sharples，DaiGrifiths，etal.Moodle Wave：Reinventing the VLEusing Widgettechnologies http： $I I$ dspace. ou. nl/bitstream/1820/2238/1/wilson一mupple09.pdf， $2 0 1 0 - 0 5 - 1 8$   \n[20] Google Sites. http: //sites. google. com/， $2 0 1 0 - 0 5 - 1 8$   \n[21]StefanoFeretti，SilviaMirr，LudovicoAntonioMuratoriE-Learning2O：youareWe-LComeIn：Proceedingsofthe008 international cross一disciplinary conference on Webaccesibility（W4A），Beijing.?? New York：ACM，2008：116－125   \n[22]Open University学习平台.http：//ouseful.open.ac. uk/blogarchive/010855.html，2010－05－18   \n[23］Kankakee（Ilinois）公共大学图书馆员主页.http： $I I$ tametheweb.com/2oo8/o1/o2/creating-a-librarians-info-portal-with一 netvibes-and-rss/，2010－05-18   \n[24]BehnamTaraghi，martin Ebner，Sandra SchafertPersonalLearning EnvironmentsforHigher Education：AMashupBasedWidget Concept htp：//sunsite informatik rwth一aachen.de/Publications/CEUR-WS/Vol-506/taraghi.pdf，2010一05－18   \n[25]PLEF. http：//eiche informatik rwth-aachen. de：3333/PLEF/index jsp，2010一05-18   \n[26] SPLASH http://www. sussex. ac. uk/splash/   \n[28]AngusF.M Huang，ShinBo Huang，EvanY.F.Lee，etalImproving End-User Programming with Situational Mashups in Web 20 Environment http：//www. computer.org/portal/web/csdl/doi/10.1109/SOSE 2008.56，2010－05－18"
+  },
+  "纪姗姗中国科学院国家科学图书馆，中国科学院研究生院。": {
+    "context1": "李春旺中国科学院国家科学图书馆研究馆员，博士，硕士生导师。"
+  },
+  "（上接第34页）": {
+    "context1": "4结语",
+    "context2": "满族非物质文化遗产数字化保护平台的构建使满族非物质文化遗产的保护工作迈上一个新的台阶，同时也对满族民间文化的研究和传承产生深远的影响。首先运用数字技术将满族民间文化的丰富内容以图文声像并茂的方式演示出来，既有利于用户深切感受满族文化的魅力，也有利于保留满族文化的原貌，从文字、图片、视频等全方位真实地传承满族文化，为进一步保护、研究工作保存完整的内容信息；其次，平台与互联网接轨使研究学者可以在任何时间任何地点对所需资料进行检索和下载，为研究工作节省了大量的时间和精力；同时，满族非物质文化遗产数字化保护不是对传统文化的简单复制，而是依靠人的灵感、创意和想象力，借助数字技术的手段对传统文化资源的再提升。这些文化遗产的整理包含着影响社会现实、维护民族文化统一性的基因，是抵御时间消蚀力、保持民族文化连续性的血脉，是超越社会变迁、维系情感交融的特殊纽带。因此，满族非物质文化遗产数字化保护平台的构建有利于培育民族认同感，有利于增强社会凝聚力和创造力，也使满族文化在世界文明中大放异彩。"
+  },
+  "参考文献": {
+    "context1": "1王瑞金．电子商务．济南：山东人民出版社，2003  \n2 数字技术.http：//baike.baidu.com/view/l09ol32.htm  \n3 王纯信．满族民间美术．长春：时代文艺出版社，2000（7）  \n4 赵志忠．满族文化概论．北京：中央民族大学出版社，2008（4)  \n5 王耀希．民族文化遗产数字化．北京：人民出版社，2009（5）",
+    "context2": "代俊波通化师范学院图书馆。  \n单桂花通化市招生办办公室。"
+  }
+}

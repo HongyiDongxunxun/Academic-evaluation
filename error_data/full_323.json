@@ -1,0 +1,135 @@
+{
+  "original_filename": "full_323.md",
+  "Altmetrics应用工具的发展现状及趋势之分析": {
+    "context1": "Research onStatusand DevelopmentTrend of Altmetrics Tools"
+  },
+  "吴胜男赵蓉英2": {
+    "context1": "1.山西医科大学管理学院，太原，030001；2.武汉大学信息管理学院，武汉，430072)",
+    "context2": "[摘要］随着学者们对于Altmetrics应用研究的热情越来越高涨，Altmetrics工具的研究成为了一个蓬勃发展的新方向。本文以目前比较常见的 Altmetrics 应用工具 Altmetric.com、Plum Analytics、ImpactStory、PLOS ONE Altmetrics、Readermeter、ScienceCard、PaperCritic以及Citedln为研究对象，针对每一种工具的功能特征、优势不足进行详细的分析和论述，这些研究可以使学者全面理解、把握AItmetrics应用工具的研究现状，从而在未来的工具使用过程中“扬长避短”,更好地为自己的研究工作服务。最后笔者对AItmetrics应用工具的发展趋势进行展望。",
+    "context3": "[关键词]AltmetricsAItmetrics 应用工具 发展现状 发展趋势 [中图分类号]G350[文献标识码]A [文章编号]1003-2797(2016)01-0084-10 DOI:10.13366/j.dik.2016.01.084 [Abstract]As moreand more attention was paid to Altmetrics application study，the researchon Altmetrics tools become a flourishing developmenttopicinthisfeld.Currently，thereareeight specificAltmetricsapplicationtolsincludingAltmetricsAltmetric.com、PlumAnalytics、ImpactStory、PLOS ONE Altmetrics、Readermeter、ScienceCard、PaperCriticand Citedn.This paper madeadetailedanalysisanddiscussiononeverytool's functioncharacteristics,advantages anddisadvantages.Based onthe research conclusion，scholarscan make a clear sense of the development statusof Altmetrics tools，and then foster strengthsandcircumvent weaknesses tohaveabeterservicefor theirfuture study.Finally，theoutlookofAltmetricsapplication study was presented.",
+    "context4": "[Key words]AltmetricsAltmetrics toolsDevelopment statusDevelopment trend"
+  },
+  "1引言": {
+    "context1": "随着网络技术的发展和逐渐普及，人类社会进入了Web2.0时代。在这样的时代背景下，社交媒体技术蓬勃发展，科学交流方式也发生了很多变化。传统的纸质文献交流方式已经满足不了专家学者获取知识的需求，逐渐被在线科学交流模式所代替[1]。社交媒体工具和平台作为在线科学交流模式的\"主舞台”，因为其\"技术零门槛\"以及“低成本\"的特征，使得公众的活跃度非常高，每天成千上万的普通公众通过社交媒体平台进行信息、知识、思想的分享和传播，其中也包括科学论文和学术发现[2]。这使得学术思想和知识以实时、高效的特征进行传播。同时，由于社交媒体的互动性和便利性，使得科研工作者在从事科研工作的过程中，倾向于将自己的论文以及其它学术成果如支撑数据、实验过程、程序片段等放到社交媒体上去分享、交流，从而实现了学术影响力的多元化。在这样的时代背景下，计量学学科也进行了一次Web2.0革命。一方面是如何解决传统的评价方式存在的问题和缺陷，另一方面也要结合在线科学交流的特点进行计量学创新，Altmetrics正是在这样的时代背景下诞生，并悄然进入人们的研究视野。",
+    "context2": "Altmetrics作为适应这种在线科学交流环境而诞生的研究，其运行基础是在线科学交流中学术成果传播产生的网络数据。在大数据的环境背景下，网络数据呈现出数据量庞大、数据多态、繁杂、异构的特征。针对庞大的数据量，单靠人工方式去收集是不可能的，所以必须依靠相关的工具通过API接口从相关的数据源获取数据;数据多态、繁杂、异构给Altmetrics分析带来了挑战，人工的处理方式不仅成本高，而且效率低，所以必须依靠智能化、专业化的工具进行相应的数据清洗、格式转换、词性标注和特征提取。此外，AItmetrics要为学者、机构以及相关的工作人员提供实时、快速、准确的影响力评价结果，这就要求对于相关指标的测算要准确、快速，智能化、专业化的工具中指标计算的算法和程序是实现这一目的的唯一途径。",
+    "context3": "Altmetrics研究对于智能化、专业化工具强依赖性的特点，使得越来越多的学者开始将关注点转移到该领域。由于开发目的以及开发团队的专业背景等各种因素的限制，目前出现的Altmetrics应用工具在 Alt-metrics研究方面还不具有普适性。本文通过分析和类比目前比较常见的、应用比较广泛AItmetrics应用工具的功能及优缺点，以期全面理解把握AItmetrics应用工具的研究现状，并在此基础上对未来AItmetrics应用工具的发展趋势进行讨论，旨在引发国内外相关学者对于Altmetrics应用工具的关注。一方面根据自身需要选择合适的工具进行AItmetrics研究，另一方面催生一些研究工具的发展和开发，这对于提高 AIt-metrics研究的效率，提高Altmetrics分析的可靠性、促进Altmetrics研究的精确化以及拓展Altmetrics的研究领域都有着十分重要的意义。"
+  },
+  "2Altmetrics的应用工具分析": {
+    "context1": "随着学者们对于Altmetrics应用研究的热情越来越高涨，Altmetrics工具的研究成为了一个蓬勃发展的新方向。下面笔者就目前使用较多，应用比较广泛的多款Altmetrics研究工具的特征、优势以及不足展开分析和论述。"
+  },
+  "2.1Altmetric.com": {
+    "context1": "Altmetric 网站[3]是2011年由Euan Adie开发的一款Altmetrics研究工具，它的总部设在伦敦，旨在追踪和分析学术文献的在线活动状况，通过提取单篇学术论文在不同社交网络和在线媒体上被提及的次数，来综合这些数据计算学术论文的影响力，从而使得单篇论文层面的计量更加容易。它是一款商业软件，用户要想使用其数据及服务，必须进行网上注册并付费。为了提高竞争力,AItmetric 网站开发团队将其APP嵌入到Elsevier's Apps for Science,从而使它的影响力不断扩大。",
+    "context2": "Altmetric网站的服务对象主要有四类人，分别是出版商、机构、图书馆馆员以及个人研究者。对于出版商而言，Altmetric网站可以使读者形象化的了解其期刊的影响力，可以监测自身以及竞争对手的在线交流情况，评价自身以及竞争对手的影响力；对于机构或者图书馆馆员来说，AItmetric 网站可以用来监测和评估机构成员或者图书馆的在线交流情况以及出版物的影响力;对于个人研究者而言，AItmetric 网站可以为其推荐或者发掘新的学术论文，监测个人学术成果的网上影响力。",
+    "context3": "目前，Altmetric网站提供了四个方面的服务，分别是The Altmetric APl、The Altmetric Bookmarklet、TheAltmetric Explorer 以及 The Altmetric Badges。",
+    "context4": "(1)The AItmetric APl。AItmetric 网站的 APl主要是为出版商提供商业服务，AItmetric 网站通过提取、消歧、整理学术著作被在线提及的用户数据，从而让出版商可以更关注自己的核心产品。AItmetric 网站的API还能够为出版商提供论文层面数据的编程接口，通过API出版商能够获取到相关论文及其数据集，如下载量、社交媒体的讨论、新闻报道以及政策文件的引用，这在很大程度上补充了传统的论文层面的计量，最大限度的释放了论文层面计量的潜力。例如，我们通过Altmetric 网站的APl看发表在Nature.Com上的某篇文章的数据，具体如下图1所示。",
+    "context5": "此外，还可以获取这篇文章从出版之日至今的访问量，被新闻(news)、博客(blogs)与Google 的提及量以及Twitter 的提及量。"
+  },
+  "The biological impacts of the Fukushima nuclear accident on the pale grass blue buterfly": {
+    "context1": "itsuki Hiyama, Chiyo Nohara,Seira Kinjo,Wataru Taira,Shinichi Gima,Akira Tanahara&Joji M.Otaki",
+    "context2": "Scientific Reports 2,Article number: 570 (2012)|doi:10.1038/srep00570 Last updated:13January 2015 4:43:49 EST",
+    "context3": "![](images/fe8fce45c7110e4ce7e47d0fd0da955c0ca00c066434ddae60adc399f97b3676.jpg)  \n图1单篇论文影响力计量结果",
+    "context4": "Altmetric网站还为其API提供了非常人性化的规定。如果此API是为商业用途所用，则需要花钱购买该网站的相应服务，如果组织机构的科研人员想用其进行相关的项目研究，那么AItmetric公司可以提供免费的API服务。",
+    "context5": "(2）The Altmetric Bookmarklet。 The AltmetricBookmarklet是面向个人的免费工具，它能够分析具有DOI论文的在线社交数据，并实时、直观地反映出来。",
+    "context6": "(3)The AItmetric Explorer。The Altmetric Explorer主要服务于图书馆等非营利性的机构，同时也为商业用途提供了商业许可。图书馆用户需要通过发邮件来申请账号，可以使用Altmetric Explorer。它能够让用户灵活地对数据信息进行筛选以及排序，从而可以从多个维度观察、分析数据，并直接生成数据报告。",
+    "context7": "(4)The Altmetric Badges。Altmetric 公司基于自己的API设计网页应用，将Altmetrics 指标可视化的展现在论文的页面上，其服务对象主要还是出版商，同样也需要申请商业许可，具体的使用步骤如下。",
+    "context8": "![](images/a4b7e733bf4eaed36d381a120dee7dadc4272b1c2ff4ffd36bcfa58ff31c550a.jpg)  \n$\\textcircled{1}$ 选择徽章形式(见图2)   \n图2AItmetric工具所提供的徽章形式",
+    "context9": "$\\textcircled{2}$ 在文章页面加入代码$\\textcircled{3}$ 定制着陆页面，即点击徽章跳转页面(见图3)",
+    "context10": "![](images/8d59a64e14385f5d93f1418d56caaf71a8fb34d1336a1ed6b21d0822bb65d2e0.jpg)  \n图3AItmetric 网站的跳转页面",
+    "context11": "Altmetric 网站作为Altmetrics 的研究工具，对于单篇论文网络影响力的大小是通过Altmetric score来表示的，具体的图标是一个由不同颜色线条组成的圆环，通常人们称它为\"甜甜圈”。在AItmetric 网站的甜甜圈图标中，中间的数字代表的是文章的综合得分，周围的彩色线条代表该篇文章被各种资源转载或者阅览的次数，比如蓝色的代表Twitter，黄色的代表博客，红色的代表主流媒体。",
+    "context12": "Altmetric score的计算取决于三个方面。 $\\textcircled{1}$ 数量：在一个社交媒体上一个人转载或者阅览一次计数为一次，如果一个人在该社交媒体上多次转载和阅览也是计数一次； $\\textcircled{2}$ 作者：Altmetric公司根据被关注文章作者讨论学术文章的频率、对某个期刊或者出版社的偏向性以及该作者追随者的多少来赋予权重值，比如一个医生与同事分享一个链接的得分要高于一个期刊的日常化推送得分; $\\textcircled{3}$ 社交媒体影响力的大小：同一篇文章在不同社交媒体上被提及所赋予的得分不同，比如通篇文章在新闻报纸被关注的得分要大于博客，而在博客的关注得分要大于Twitter。",
+    "context13": "然而，任何一个工具都不可能是完美的，Altmetric网站也不例外，也存在着自身的局限性。对于出版在2011年7月份以前的文章，其在社交媒体和在线网络上的(尤其是Twitter)被关注情况就没有被很好的反映。因此AItmetric 网站代表的只是文章曾经被关注的最低程度。"
+  },
+  "2.2Plum Analytics": {
+    "context1": "Plum Analytics[4]于 2011年建立于匹兹堡大学，其创始人是 Andrea Michalek 和Mike Buschman，目的是为了突破传统评价体系对于引用次数和期刊影响因子的依赖性，从而为计量评价研究提供更为可靠的方法。下面笔者将分别从服务对象、评价主体、数据来源、评价指标四个方面对Plum Analytics进行详细的探讨。",
+    "context2": "Plum Analytics 的服务对象非常广泛，不仅仅包括个人研究，也为实验室、部门机构、组织团体的学术成果的全面性评价提供数据支持。",
+    "context3": "从评价主体上来说，Plum Analytics 所追踪的主体大概有20余种。其中包括期刊论文、图书、学术视频、学术展示(如会议海报及PPT等）、会议论文集、数据集、源代码以及案例等等。从中看出，Plum Analyt-ics 的评价主体既有传统形式的学术成果，也有新形式的学术成果。PlumAnalytics 通过收集相应的数据，来追踪传统形式学术成果以及新形式学术成果的全面影响力情况，这也正是Altmetrics所关注的问题之所在，因此 Plum Analytics 是 Altmetrics 研究中用处非常广泛的研究工具之一。",
+    "context4": "从数据来源的角度来说,Plum Analytics可以称得上是数量繁多，种类齐全。Plum Analytics通过API接口来收集获取数据，其数据源除了其他工具应用比较多的博客数据（如Blog、Twitter）、开放存取数据库(PLOS，Public Library of Science)以及文献管理社会标签工具(Mendeley、CiteULike)外，还包括一些不太常用的数据源，如数据机构库、代码机构库、学术成果展示分享网站以及基金数据库。多样化的数据来源为研究结果的全面性和客观性提供了保障。",
+    "context5": "Plum Analytics的口号是构建新一代的学术研究评价的计量指标(它所认为的第一代指标是引证次数和期刊影响因子)。其提供的指标数据总体可以分为五类，分别是使用(usage)、获取(capture)、提及(mention）、社交媒体(social media)以及引用(citation)。前四种计量指标是AItmetrics的研究重点，最后一种是传统的计量指标。具体的说明如下表1所示。",
+    "context6": "表1Plum Analytics所设置的指标及其详细说明",
+    "context7": "<table><tr><td rowspan=1 colspan=1>一级指标</td><td rowspan=1 colspan=1>二级指标</td><td rowspan=1 colspan=1>数据源范例</td></tr><tr><td rowspan=11 colspan=1>使用(usage)</td><td rowspan=1 colspan=1>摘要浏览量</td><td rowspan=1 colspan=1>dSpace,EBSCO,ePrints，PLOS</td></tr><tr><td rowspan=1 colspan=1>点击</td><td rowspan=1 colspan=1>bit.ly，EBSCO,Facebook</td></tr><tr><td rowspan=1 colspan=1>合作者</td><td rowspan=1 colspan=1>GitHub</td></tr><tr><td rowspan=1 colspan=1>下载</td><td rowspan=1 colspan=1>Dryad，Figshare，Slideshare，Github,Institutional Repositories</td></tr><tr><td rowspan=1 colspan=1>图表浏览量</td><td rowspan=1 colspan=1>figshare，PLOS</td></tr><tr><td rowspan=1 colspan=1>全文浏览量</td><td rowspan=1 colspan=1>EBSCO，PLOS</td></tr><tr><td rowspan=1 colspan=1>持有量(针对图书)</td><td rowspan=1 colspan=1>WorldCat</td></tr><tr><td rowspan=1 colspan=1>HTML浏览量</td><td rowspan=1 colspan=1>EBSCO,PLOS</td></tr><tr><td rowspan=1 colspan=1>PDF浏览量</td><td rowspan=1 colspan=1>dSpace，EBSCO,ePrints，PLOS</td></tr><tr><td rowspan=1 colspan=1>全部数据浏览量</td><td rowspan=1 colspan=1>Dryad,EBSCO</td></tr><tr><td rowspan=1 colspan=1>支持数据浏览量</td><td rowspan=1 colspan=1>EBSCO,PLOS</td></tr><tr><td rowspan=7 colspan=1>获取(capture)</td><td rowspan=1 colspan=1>社会标签</td><td rowspan=1 colspan=1>CiteULike，Delicious</td></tr><tr><td rowspan=1 colspan=1>点赞</td><td rowspan=1 colspan=1>Slideshare，YouTube</td></tr><tr><td rowspan=1 colspan=1>转发</td><td rowspan=1 colspan=1>GitHub</td></tr><tr><td rowspan=1 colspan=1>复制</td><td rowspan=1 colspan=1>GitHub</td></tr><tr><td rowspan=1 colspan=1>阅读者</td><td rowspan=1 colspan=1>Goodreads，Mendeley</td></tr><tr><td rowspan=1 colspan=1>资源更新提交者</td><td rowspan=1 colspan=1>Vimeo,YouTube</td></tr><tr><td rowspan=1 colspan=1>资源更新的关注着</td><td rowspan=1 colspan=1>GitHub</td></tr><tr><td rowspan=7 colspan=1>提及（mention)</td><td rowspan=1 colspan=1>评论次数</td><td rowspan=1 colspan=1>Facebook,iteareu</td></tr><tr><td rowspan=1 colspan=1>论坛话题讨论量</td><td rowspan=1 colspan=1>Vimeo</td></tr><tr><td rowspan=1 colspan=1>代码管理访问数</td><td rowspan=1 colspan=1>GitHub</td></tr><tr><td rowspan=1 colspan=1>链接数</td><td rowspan=1 colspan=1>StackExchange，Wikipedia</td></tr><tr><td rowspan=1 colspan=1>评论人数</td><td rowspan=1 colspan=1>SourceForge</td></tr><tr><td rowspan=1 colspan=1>博客数</td><td rowspan=1 colspan=1>Research Blogging， Science Seeker</td></tr><tr><td rowspan=1 colspan=1>评论意见</td><td rowspan=1 colspan=1>Amazon,Goodreads</td></tr><tr><td rowspan=7 colspan=1>社交媒体（socialmedia)</td><td rowspan=1 colspan=1>喜爱</td><td rowspan=1 colspan=1>Facebook，Vimeo，YouTube</td></tr><tr><td rowspan=1 colspan=1>加1</td><td rowspan=1 colspan=1>Google Plus</td></tr><tr><td rowspan=1 colspan=1>平均使用率</td><td rowspan=1 colspan=1>SourceForge</td></tr><tr><td rowspan=1 colspan=1>推荐</td><td rowspan=1 colspan=1>Figshare，SourceForge</td></tr><tr><td rowspan=1 colspan=1>打分</td><td rowspan=1 colspan=1>Reddit</td></tr><tr><td rowspan=1 colspan=1>分享</td><td rowspan=1 colspan=1>Facebook</td></tr><tr><td rowspan=1 colspan=1>推特</td><td rowspan=1 colspan=1>Twitter via DataSift</td></tr><tr><td rowspan=1 colspan=1>引用(citation)</td><td rowspan=1 colspan=1>引证次数</td><td rowspan=1 colspan=1>PubMed Central，Scopus，USPTO,CrossRef</td></tr></table>",
+    "context8": "除了上述的特征外,Plum Analytics 还提供了一些非常人性化的个性服务，具体包括：",
+    "context9": "(1)Plum Analytics 提供一个开放的 APl供用户下载研究数据，此外该API的设计非常的人性化，用户可以根据需求，选择自己所需要的数据。",
+    "context10": "(2)Plum Analytics还具有可视化的功能，可以将个人、组织机构、期刊等等的影响力通过图谱方式展示出来。",
+    "context11": "总体来说,Plum Analytics 的出现扩展了 Altmet-rics 的研究途径，丰富了Altmetrics的研究资源，拓宽了Altmetrics的研究视野。"
+  },
+  "2.3ImpactStory": {
+    "context1": "ImpactStory[5]是Altmetrics领域著名的专家学者Jason Priem与Heather Piwowar开发的一款免费的开源网络应用工具，旨在帮助研究者们分享和评估其所有学术成果的影响力。被评估的学术成果除了传统形式的期刊论文以外，还包括博客文章、数据集以及软件等多种新形式的科研成果。ImpactStory的前身被称为“Total-Impact”，它成功的将学者们的关注点从传统的学术评价体系转换到重视学术成果的网络影响力。",
+    "context2": "作为Altmetrics 领域影响力比较大的研究工具，ImpactStory具有以下几个方面的优势和特征：",
+    "context3": "(1)数据来源广泛。ImpactStory的数据来源十分广泛，不仅数量繁多，而且种类齐全。具体来说主要有Twitter、Mendeley、Delicious、CiteULike、F1000 re-views、SlideShare、GitHub等等。多样化的数据来源使得ImpactStory的评价结果更加地客观、真实、具有权威性。",
+    "context4": "(2)识别的数据格式多样。所要评估的学术成果在ImpactStory中可以通过多种数据格式被识别，如文献标识号 DOI、Pubmed ID 以及 SlideShare 的 URL。",
+    "context5": "(3)来源数据的透明度高，输出结果可以实时更新。ImpactStory可以提供任一学术成果的Altmetrics报告，这个报告可以清楚的显示该学术成果在开放存取网站以及社交媒体网络中被提及讨论的状况。此外，任意点击某一补充计量数据，系统将自动跳转到抓取该数据的来源页面，从而可以使用户清楚认识到该学术成果在此网站工具上被讨论、转发、使用、标签的具体状况。ImpactStory 的输出报告是以URL的形式出现的，这个URL是稳定的，因此它可以永久传播并且进行实时更新。",
+    "context6": "与其它的 Altmetrics 研究工具相同,ImpactStory 也存在着自己的缺陷和不足，从而限制了其进一步发展。",
+    "context7": "(1)尽管 ImpactStory并没有明确的进行说明，但是实践证明，其一次所能分析的最大数据量仅仅只有250条;此外，其运行速度也比较慢。通常情况下，如果同时运行分析这250条数据的AItmetrics数据，往往要花费 $3 { \\sim } 4$ 分钟。",
+    "context8": "(2)lmpactStory所能识别的学术成果标识符往往是具有唯一指代性的数据格式，如文献标识号 DOI、Pubmed ID 以及 SlideShare 的URL。而对于学术成果中模糊指代的标识符，如作者、篇名、期刊名称、出版年,ImpactStory通常不能识别，从而无法给出其 Alt-metrics的数据报告。",
+    "context9": "总的来说，ImpactStory在Altmetrics 研究领域所处的地位是母庸置疑的。目前，该工具仍处于发展试用阶段，要想发掘其存在的巨大潜力，仍需要Altmet-rics 研究的爱好者们共同努力。Altmetrics领域的专家学者可以在Github上获取该网站的源代码，来对其进行进一步的开发和完善。"
+  },
+  "2.4PLOS ONE AItmetrics": {
+    "context1": "众所周知，PLOS ONE 是世界上最著名的且具有很大影响力的开放存取期刊。它的特点莫过于三个方面： $\\textcircled{1}$ 它是开放的； $\\textcircled{2}$ 读者可以通过互联网进行即时免费的获取； $\\textcircled{3}$ 对于文章质量和影响力的评价引入了大众传媒和社交媒体。从其特点不难发现，PLOSONE的理念和AItmetrics 的研究理念有着共通之处。在2009年三月份，PLOSONE开发了一款新的应用，被称为\"Article-Level Metrics Information\"[6],旨在提供论文层面的计量数据或者信息。",
+    "context2": "由分析可知，PLOS ONE 期刊的“Article-LevelMetrics Information\"应用呈现出以下的特征和优势。",
+    "context3": "(1)计量数据的种类多样，覆盖面广。PLOS ONE期刊可以为论文提供多种类计量数据，包括论文的浏览下载量(viewed)、引用量(cited)、保存量(saved)、讨论量(discussed)以及推荐次数(recommended)。其中论文的浏览下载量指的是 PLOS ONE中论文的 HTML格式访问量、PDF格式下载量以及XML格式的浏览量。此外，为了使浏览访问数据更客观，更具有说明性,PLOSONE还对浏览访问量的数据进行了二次处理，生成了一个指标，称为浏览下载率(view-downloadratio)。论文的引用数据主要来源以下几个数据库：Scopus，Web of Science，PubMed Central 以及 Cross-Ref。论文的保存量准确的来说是指该论文被标记、标签的数量，主要从CiteULike与Mendeley 两个网站上获取。论文的讨论量主要来自于社交媒体网站(Blog、Twitter)对于该论文的提及讨论量,此外,PLOS pub-lishingplatform对于论文的讨论评论量也被考虑在内。最后，论文的推荐次数主要是通过在线推荐渠道获取，F1000Prime是其主要的数据源。",
+    "context4": "(2)提供的数据具有免费性以及易获取性。作为在开放科学领域非常有影响力的期刊，PLOSONE所提供的数据也具有开放数据的特点，旨在鼓励研究者们更好的分析这些补充计量数据，从而突破传统评价体系的束缚，为论文影响力的评价提供新思路。因此，为了促进研究的开展，PLOSONE都免费提供其所采集的数据。此外，PLOSONE还提供了相应的API接口为研究者获取数据提供了便利，下载的数据可以保存在excel文件中，这就降低了数据处理的难度，为研究分析提供了便利。",
+    "context5": "虽然 PLOSONE提供免费的、种类繁多且易分析获取的数据，但是值得说明的一点是这些数据所依存的论文都是在PLOS ONE 期刊上发表的，因此具有一定的局限性。"
+  },
+  "2.5ReaderMeter": {
+    "context1": "ReaderMeter[7]是2010 年由Dario Taraborelli创立的，旨在通过科学论文在Mendeley论文中的reader数来评估研究论文的影响力。ReaderMeter对于科学论文的影响力主要通过两个计量指标来衡量，分别是H指数和 $\\sf G$ 指数。不同于对H指数和 $\\sf G$ 指数的传统理解，ReaderMeter利用书签而不是引文重新定义了这两个计量指标，在重新定义后又分别赋予其新的名称，被称为 $H _ { \\mathsf { R } }$ 指数和 $G _ { \\scriptscriptstyle { \\sf R } }$ 指数，这其中的R是Redefine的缩写。此外，ReaderMeter还对Mendeley中的阅读数据进行分析，这将在一定程度上反映学术论文的实时影响力状况，从而引用为基础的传统评价指标的“时滞性\"缺陷。",
+    "context2": "值得一提的是，ReadMeter可以可视化地展示作者数据和论文层面的数据。其生成的影响力评估报告是可获得的，通常为HTML格式或者其他机读格式。",
+    "context3": "Readermeter作为Altmetrics 的研究工具之一，其数据来源比较单一，仅仅依靠Mendeley，此外表示论文的AItmetrics 指标也比较缺乏，主要依靠书签。但是它这种对于传统计量指标的改造和重新定义的思路是非常可取的。如果Readermeter想在Altmetrics研究中站稳一席之位，其要做的努力还很多。"
+  },
+  "2.6ScienceCard": {
+    "context1": "ScienceCard8]是2010 年由Martin Fenner创立的一款网络应用，可以用来收集某一学术研究者所发表的全部论文以及论文层面的计量数据。在ScienceCard网站上，研究者可以很容易的创建和维护一个研究成果文件夹，而文件夹中的研究资料可以被研究者输出和再利用。为了使研究者能快捷、便利地获取自己所需的资料，ScienceCard对于作者和学术论文通常使用专指性的标识符，通常情况下，ScienceCard用来自Mi-crosoft Academic Searchand Author Claim 的标识符来识别作者，用DOl(digital object id entifiers）来识别学术论文。在ScienceCard的新版本中，技术人员在这方面进行了技术改进。对于作者的标识符加入了ORCID，此外还利用arXiv中的标识符来识别学术内容。",
+    "context2": "ScienceCard所收集的计量数据的数据源都是免费的，且具有 Altmetrics 特征,如 Twitter、Mendeley、PubMed Central,CiteULike，Wikipedia 以及 CrossRef。",
+    "context3": "需要说明的是，ScienceCard所提供的论文层面的计量数据所针对的论文主要由ScienceCard的注册用户提供，因此在Altmetrics评价的广泛性和全面性上具有很大的局限性。此外，ScienceCard 所提供的Altmetrics指标数据都是非标准化的，如果在Altmet-rics 的研究要使用其数据，必须要进行再处理再加工，这无疑又增加了研究的难度。因此，ScienceCard在Altmetrics研究工具这个领域所走的路还很长。"
+  },
+  "2.7PaperCritic": {
+    "context1": "PaperCritic[9的创始人认为科学研究环境应该是开放透明的，因此科学家们可以自由的进行讨论、评判。PaperCritic就为这个理念提供了一条途径，一方面科学家们可以监测、了解所有的关于其科学研究的反馈和评论;另一方面他们也可以对其他人的科学工作发表自己的看法。PaperCritic的功能在某种程度上与F1000 和 PeerEvaluation 有着很大的相似性。",
+    "context2": "然而,PaperCritic 作为一种 Altmetrics 研究工具，具体会有哪些特征呢？",
+    "context3": "(1)PaperCritic是一个对于Mendeley非常依赖的系统，它的所有数据都来自于Mendeley，包括社会标签、笔记、讨论等等。因为它对Mendeley的强依赖性，所以研究者在PaperCritic上所评论的论文必须是Mendeley上的。",
+    "context4": "(2)只有注册用户才能评论和评价Mendeley上的论文。",
+    "context5": "(3)在PaperCritic上，要想对某一篇学术文献进行评论，必须先进行检索。但是PaperCritic所能够识别的检索条件只有作者或者文献的名称。而其他的检索项，如DOI、期刊名称、出版年以及文献类型等等都是不可用的。",
+    "context6": "(4)PaperCritic上不存在任何关于数据下载的功能选项，换句话说就是要想对PaperCritic上的数据进行批量下载是不可行的。",
+    "context7": "(5)PaperCritic提供的数据在标准化方面也存在着问题。"
+  },
+  "2.8Citedln": {
+    "context1": "Citedln[10]由Maastricht大学生物信息学实验室的Andra Waagmeester创建，它可以帮助研究者们通过互联网去检索生物信息领域的学术成果的被引状况。这里\"被引\"不仅仅指的是被学术期刊的引用情况，还包括在博客、数据库、维基百科等数据源的被引情况，这也是学术出版物网络影响力的一种表现，因此也属于AItmetrics的研究内容。但是需要说明的是，虽然Citeln已经不存在，但是它的思想和理念仍值得我们去借鉴。",
+    "context2": "此外,Citeln 主要通过 PubMed identifier去追踪学术成果在互联网上各种平台或者数据库的被提及状况，具体来说该网站注重追踪学术成果在以下四种类型的网络资源中被提及的状况： $\\textcircled{1}$ 补充数据源(sup-plementarydata)，如Ares(活跃的抗氧化反应元素数据）、HIF（缺氧诱导因子数据）以及Gene expressionregulationbyretinoicacid(维甲酸诱导基因表达的调控数据）; $\\textcircled{2}$ 在线数据库（onlinedatabases），如 Uni-prot、Déjavu 以及 Jaspar; $\\textcircled{3}$ 因特网发表平台（internetpublication）,如WikiPathways、Wikipedia 以及 Blogs;$\\textcircled{4}$ 社交网络平台(social sharing networks)，如Mende-ley、Connotea 以及 CiteULike。",
+    "context3": "值得一提的是，为了能够更好的评估和揭示PubMed数据库中科学文献的在线影响力，Citeln 网站的创建者还提出了一个指标，叫做CI-number。它的计算公式如下所示：",
+    "context4": "$$\n{ \\mathsf { C l } } - { \\mathsf { n u m b e r } } = \\sum _ { \\mathfrak { r } = 1 } ^ { \\mathfrak { n } } \\mathbf { W } _ { \\mathfrak { r } } \\times \\big ( \\sum _ { \\mathfrak { p } = 1 } ^ { \\mathfrak { m } } \\mathbf { c } _ { \\mathfrak { r } } \\left( \\mathfrak { p } \\right) / \\mathfrak { t } _ { \\mathfrak { r } } \\left( \\mathfrak { p } \\right) - 1 \\big )\n$$",
+    "context5": "在上述公式中，其中 $\\mathsf { n }$ 代表Citeln网站所覆盖的所有在线资源数， $\\mathsf { m }$ 代表PubMed数据库中引用样本学术文献p的文献数， ${ \\mathsf { c } } _ { \\mathsf { r } } \\left( { \\mathsf { p } } \\right)$ 代表在网络资源 $\\boldsymbol { \\mathsf { r } }$ 中对于p的提及引用数， ${ \\sf W } _ { \\sf r }$ 代表赋予网络资源 $\\boldsymbol { \\mathsf { r } }$ 的权重， $\\mathfrak { t } _ { r }$ (P)代表网络资源 $\\boldsymbol { \\mathsf { r } }$ 中对于PubMed数据库中所发表文献总提及数。需要说明的是，CI-number是一个动态值，它随着网络提及数的变化而变化。",
+    "context6": "与其他的Altmetrics 研究工具一样,Citeln 网站也有着自身的缺陷和不足： $\\textcircled{1}$ 网站影响力的追踪途径单一。目前，Citeln主要通过PubMed identifier去追踪学术成果的网络影响力，这不仅形式单一，而且不利于学术成果的网络影响力的全面追踪和评价，Citeln 网站应该扩展自己追踪途径，如通过DOI去追踪学术成果在互联网上被提及的状况，或者将两者结合起来去追踪。 $\\textcircled{2}$ 学科领域单一。因为Citeln网站创建人自身学科结构的限制，使得其现在只能够研究生物信息领域的学术成果的网络影响力，其追踪的网络数据源也具有很强的生物信息方面的学科特征，这极大的限制了Citeln网站的应用范围和发展，未来相关工作者应该扩展其研究领域，最好是能够评估任意学科的学术成果的在线学术影响力。 $\\textcircled{3}$ 缓存能力差，Cl-number指标的计算速度亟待提高。 $\\textcircled{4}$ 未实现RSS订阅。通过RSS订阅，学者可以实时、快速的获取自身学术成果的在线影响力状况以及所关注的其他成果的在线影响力状况，从而为自身的科研工作提供便利。"
+  },
+  "工具的特点功能，笔者对其进行了对比分析，具体如表2所示。": {
+    "context1": "总体而言，上述八种Altmetrics 研究工具都各具特色，各具优势。为了能够更清晰的表示出三种软件",
+    "context2": "表2Altmetrics研究工具功能特点的对比分析",
+    "context3": "<table><tr><td rowspan=2 colspan=1>工具</td><td rowspan=2 colspan=2>数据来源</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>影响力评价</td><td rowspan=2 colspan=2>分析指标</td><td rowspan=1 colspan=1>结果输出</td></tr><tr><td rowspan=1 colspan=1>如何追踪</td><td rowspan=1 colspan=1>覆盖范围</td><td></td><td rowspan=1 colspan=1>可视化</td><td rowspan=1 colspan=1>输出报告</td><td rowspan=1 colspan=1>订阅推送</td></tr><tr><td rowspan=1 colspan=1>Altmetric.com</td><td rowspan=1 colspan=2>新闻、博客、Twitter</td><td rowspan=1 colspan=1>DOI</td><td rowspan=1 colspan=1>单篇论文网络影响力</td><td rowspan=1 colspan=1>Altmetric score</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>邮件订阅追踪计量数据</td></tr><tr><td rowspan=1 colspan=1>Plum Analytics</td><td rowspan=1 colspan=2>博客数据（如Blog、Twitter）、开放存取数据库（PLoS，PublicLibraryof Science))以及文献管理社会标签工具（Mendeley、CiteULike），以及一些不太常用的数据源，如数据机构库、代码机构库、学术成果展示分享网站以及基金数据库</td><td rowspan=1 colspan=1>DOI、ISBN、URL</td><td rowspan=1 colspan=1>包括期刊论文、图书、学术视频、学术展示（如会议海报及PPT等）、会议论文集、数据集、源代码以及案例等20余种学术成果的全面影响力</td><td rowspan=1 colspan=1>五类，分别是使用（usage）、获取（capture）、提及（mention）、社交媒体（socialmedia）以及引用（citation）</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>邮件订阅追踪PlumAnalytics的动态</td></tr><tr><td rowspan=1 colspan=1>ImpactStory</td><td rowspan=1 colspan=2>Twitter，Mendeley,Delicious，CiteULike,F1000 reviews,Slide-Share，GitHub等等</td><td rowspan=1 colspan=1>DOI、PubmedID、SlideShare的URL</td><td rowspan=1 colspan=1>传统论文以及新形式科研成果的网络影响分</td><td rowspan=1 colspan=1>学术影响力以及社会影响力</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>URL，格式的输出报告</td><td rowspan=1 colspan=1>邮件订阅追踪计量数据</td></tr><tr><td rowspan=1 colspan=1>Plos oneAltmetrics</td><td rowspan=1 colspan=2>Plos one、Scopus、WebofScience、PubMedCentral、CrossRef、Blog、Twitter、F1000Prime、Plos publishing platfom</td><td rowspan=1 colspan=1>DOI</td><td rowspan=1 colspan=1>发表于 Plos one的论文层面的计量数据</td><td rowspan=1 colspan=1>浏览下载量、引用量、保存量、推荐次数以及浏览下载率</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>可以保存于excel的格式数据</td><td rowspan=1 colspan=1>无</td></tr><tr><td rowspan=1 colspan=1>Readermeter</td><td rowspan=1 colspan=2>Mendeley</td><td rowspan=1 colspan=1>DOI</td><td rowspan=1 colspan=1>学术论文实时影响力状况</td><td rowspan=1 colspan=1>H指数、G指数</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>HTML格式或者其他可机读格式</td><td rowspan=1 colspan=1>无</td></tr><tr><td rowspan=1 colspan=1>ScienceCard</td><td rowspan=1 colspan=2>Twitter、Mendeley、PubMed Central,Ci-teULike，Wikipedia、CrossRef</td><td rowspan=1 colspan=1>学术论文、内容：DOI以及arXiv中的标识符；作者：Microsoft Ac-ademicSearchand_AuthorClaim的标识符以及ORCID</td><td rowspan=1 colspan=1>某一学术研究的学术论文影响力的计量状况</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>无</td></tr><tr><td rowspan=1 colspan=1>PaperCritic</td><td rowspan=1 colspan=2>Mendeley</td><td rowspan=1 colspan=1>题名、作者</td><td rowspan=1 colspan=1>监测学术论文的评论、反馈</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>数据</td></tr><tr><td rowspan=1 colspan=1>Citeln</td><td rowspan=1 colspan=2>supplementary data、online database、in-ternet publication、social sharingnet-works</td><td rowspan=1 colspan=1>Pubmed ID</td><td rowspan=1 colspan=1>生物信息领域学术成果的影响力状况</td><td rowspan=1 colspan=1>C-number</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>无</td></tr></table>"
+  },
+  "3Altmetrics研究工具的发展趋势": {
+    "context1": "在大数据的时代背景下，Altmetrics要想获得系统、深入的发展，其工具手段的研究就是一剂催化剂，这项研究将推动AItmetrics理论体系的构建与应用领域的拓展发生质的突破。因此，在未来的研究实践中，Altmetrics 研究工具将得到不断的发展和创新，具体主要表现为以下几种趋势。"
+  },
+  "3.1集成化与多样化": {
+    "context1": "由于不同的Altmetrics工具采用不同的数据源和评价指标，因此它们之间具有较强的互补性和结果上的对比性，多种工具的集成可以得到更加准确可靠的结果[11]。这种集成有两种不同的发展方向：一是不同Altmetrics工具之间的组合，即两种或者多种AItmet-rics工具组合起来共同评价某一对象，揭示某种现象规律;二是Altmetrics工具的对比融合，由于不同的Altmetrics工具因为数据源和指标的不同造成同一个学术文献资源会得到多个影响力的评价结果。这样可以通过建立一种公认的机制，根据评价对象的特征和评价目的的不同有针对性地对评价结果进行对比，哪一个结果最科学、最能揭示问题地本质，就采用哪一种结果。",
+    "context2": "Altmetrics研究工具是为Altmetrics研究服务，其最终目的就是推动Altmetrics理论价值和社会价值的充分发挥。与传统的计量学相比，Altmetrics要实现更为全面的影响力评价。为了实现这一目的，Altmetrics 研究工具要朝着多样化的趋势发展。所谓\"多样化”，具体主要表现在两个方面，一是评价主体的多样化，二是数据源的多样化。评价主体的多样化是指AItmetrics研究工具所能评价的学术成果不仅格式多样而且内容多样。格式的多样性即为学术成果不仅仅是文本格式,还可以是视频、图片、PPT等;内容的多样性即为学术成果不仅仅是学术论文，还可以是程序片段、数据算法、分子结构等。全面的影响力评价要求AItmetrics 研究工具能够评估出多方位、多种类的影响力，这往往要通过不同类型的数据源来支持衡量。例如为了测量在国家政府层面上产生的影响力，需要政府文档数据的支持；为了测量在同行学者专家中产生的影响力，需要学术交流社区的数据来支持；为了测量对社会公众的影响力情况，则需要社交网络工具Twitter、Facebook数据的支持。在未来Altmetrics 研究工具的发展过程中，要注重利用多样化的数据源来实现更为全面、客观、精确的评价。"
+  },
+  "3.2智能化与可视化": {
+    "context1": "作为应用工具，其发展趋势必然是从语法层次向着语义和语用层次转变，智能化是工具开发和发展的必然结果，AItmetrics工具的发展也不例外。例如未来的Altmetrics工具通过语义化的理解，智能化的自动解决学术成果的\"映射\"问题，准确的识别出一篇文章的多个版本编号或者通过语义内容分析将学术平台上未附链接和出处的学术互动自动映射到相关学术文献资源上[12]，从而可以全面的追踪、统计学术文献资源的影响力情况。",
+    "context2": "可视化是以科学知识为对象，显示其发展进程及其结构关系的一种图形，具有\"图\"和\"谱\"的双重性质和特征[13]。可视化的优点在于可以直观、有效地展示结果。在大数据的时代背景下，数据量庞大繁杂，可视化作为一种有效手段可以帮助研究者们直观的发现数据所包含的知识和信息。未来的Altmetrics工具也要朝这个方向发展，通过直观的展示分析结果，从而让人更容易的理解和接受分析工具所要传达的关键信息[14]。"
+  },
+  "3.3实时化与开放化": {
+    "context1": "与传统的计量学相比，Altmetrics能够反映出实时的学术影响力。在AItmetrics工具未来的发展中，实时化也必将成为其重要的发展趋势。这种实时化表现为学术成果的传播数据的实时追踪以及学术影响力评价结果的实时更新。",
+    "context2": "开放化是指Altmetrics工具所开发和使用的评价指标是开放的。随着技术变化的日新月异，学术交流方式以及学术成果发表出版方式也发生了日新月异的变化，因此AItmetrics工具所开发和使用的评价指标也要随着时代的发展进行相应的变革。换句话说就是，现在被认为价值很高，应用性很好的指标在未来可能变得一文不值。因此在AItmetrics工具的发展过程中，研究者要考虑所定义的指标要具有开放性，该指标不仅能够适应不同交流方式和出版形式的要求，而且易改进，易于解读新形式的支撑数据，从而能够引导人们展开Altmetrics 影响力评价研究的最佳实践[15]。"
+  },
+  "4结语": {
+    "context1": "目前,AItmetrics工具是 Altmetrics 研究领域中蓬勃发展的一个重要分支。本文综述了目前使用较多，应用比较广泛的多款Altmetrics工具的特征、优势以及不足，并在此基础上对其发展趋势进行了展望。从上述分析和论述中可以发现，目前所使用的AItmetrics工具都各具特色，各具优势，同时也存在着自身的缺陷和不足。在未来AItmetrics工具的研究工作中，相关专家学者要做到针对特定的评价需求，快速准确地获取支撑性数据、高效地分析海量数据、清晰地解读系列数据，从而给出合理、可靠的评价分析结果。",
+    "context2": "对于Altmetrics 研究而言，Altmetrics工具是一把“利器”，只要从事相关研究的专家学者们将这把“利器\"开发好、完善好、打磨好，它就会成为一种推动力量，对于学术影响力的全面性、多样性评价以及学术成果的快速实时传播产生难以估量的积极影响。"
+  },
+  "参考文献": {
+    "context1": "1杨瑞仙.基于Web2.0环境下的知识交流研究[D].武汉：武汉大学，2011  \n2杨思洛，毕艳娜.基于Web2.0的数字参考咨询服务创新[J].图书馆学研究,2007(2):75-78  \n3Altmetric Altmetric:We make article level metrics easy.[EB/OL].[2015-01-20].htp://altmetric.com/  \n4ImpactStory[EB/OL].[2014-12-12]. htp://impactstory.org/  \n5Plosone.Article-Level Metrics Information[EB/OL].[2014-12-13].http://www.plosone.org/static/almlnfo.action  \n6Plum Analytics plum Analyticsabout leadership[EB/OL].[2014-12-13].http://www.plumanalytics.com/about.html  \n7Altmetrics Readermeter[EB/OL].[2014-12-14]. htp://www.readermeter.org/  \n8ScienceCard[EB/OL].[2014-12-15].http://sciencecard.org//  \n9PaperCritic[EB/OL].[2014-12-15].http://www.papercritic.com/  \n10Andra Waagmeester，ChrisEveloA.Measuringimpactinonlineresources withtheCnumber(theCitednNumberforonlineimpact）[EB/  \nOL].[2014-12-15].htp://precedings.nature.com/documents/6037/version/1/files/npre20116037-1.pdf"
+  },
+  "|1赵蓉英，吴胜男.图书情报领域信息可视化分析方法研究进展[J].情报理论与实践,2014,37(6)：133-138": {
+    "context1": "12LIUJ,ADE.Fiveallnesinmetric：tomaker'spspectiveBulltinoftemericanSocietyforationSiecad Technology,2013,39(4):31-34"
+  },
+  "13杨思洛，韩瑞珍.国外知识图谱绘制的方法与工具分析[J].图书情报知识,2012(6)：101-109": "",
+  "14 杨京，王效岳，白如江，祝娜.大数据背景下数据科学分析工具现状及发展趋势[J].情报理论与实践,2015(3)：134-137": {
+    "context1": "15吴胜男.补充计量学方法及其应用研究[D].武汉：武汉大学,2015",
+    "context2": "(收稿日期：2015-10-22)"
+  }
+}

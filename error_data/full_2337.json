@@ -1,0 +1,57 @@
+{
+  "original_filename": "full_2337.md",
+  "nothing": {
+    "context1": "●胡安朋（南开大学天津）"
+  },
+  "化学专利信息源的新进展": {
+    "context1": "摘要介绍MARPAT和CASREGISTRY两个新化学专利文档的应用情况及其在为CAS用户提供综合的化学专利联机检索服务中的作用。",
+    "context2": "关键词 信息源专业文献专利信息联机检索",
+    "context3": "专利是一种有久远历史的技术信息源，可是在过去一段很长的时期内人们对它并没有给予足够的重视。据前德国的一份调查报告表明，到本世纪70年代，在27种不同的信息交流手段中，专利说明书居第24位[。然而，现在情况发生了很大的变化，世界各国开展了激烈的经济竞争。经济竞争实质上是技术竞争，专利作为最重要的技术信息源之一，越来越得到人们的重视和利用。",
+    "context4": "首先，作为科技信息的来源，专利出版物的数量已将近占世界全部科技出版物的1/4，从中获取最新科技信息的使用率，目前已与科技期刊旗鼓相当，预计不久的将来还有可能超过期刊杂志(2。其次，作为法律信息的来源，由于专利公报作为各国政府的官方文件，它不仅是唯一的专利法律的信息源，而且由于大多数专利公报为周刊，每周都发布一些新的专利法律事务消息，因此其法律信息的传播频率也高于任何其它的文献信息源。再次，作为商业信息的来源，在市场竞争中，为了战胜竞争对手，寻找潜在市场，各商业和企业团体及个人对专利信息的敏感度不亚于其它市场信息。",
+    "context5": "鉴于专利信息源如此之重要，情报界对专利信息源的开发和利用进行着不懈的研究，并不断取得新进展,在化学专利信息源领域中则表现更为突出。这不仅是因为化学专利有着巨大的实用性和商业重要性，其数量占全部专利数量的1/3，而且还因在化学专利中的大量化合物的信息经常以结构式，特别是常以马库什结构式(即一般结构式)或序列结构的形式出现，用原有的一般情报检索系统和美国化学文摘社(CAS)数据库中的CAS登记号都很难完成对它们的存贮和检索。为了改进化学专利中化合物的马库什结构式和序列结构在CAS联机数据库中的存取，近来CAS引入了两种创新的信息源，即从化学专利中检索马库什结构式的MARPAT（Markush Patent）文档和检索蛋白中国知网https://www.cnki.net",
+    "context6": "质和肽的序列结构的CASREGISTRY文档中的蛋白质序列检索（Sequence Searching）。"
+  },
+  "1 MARPAT文档": {
+    "context1": "在化合物的马库什结构式中，可以用包含宽范围数量的一般结构项，如烷基、烃基、卤代芳基、杂环等来表示一种“类属”化合物理论上的无限集合(3。正因如此，在化学专利中，特别是在其权利要求中，马库什结构式经常被用来加强专利权人要求对这一“类属\"化合物的保护范围。例如，在中国专利GK85109025（含a一羟基羧酸衍生物的液晶组合物)的权利要求中有如下的马库什结构式(见图1)。",
+    "context2": "![](images/7652e2a7ace4a516f1d143b50360a10e43e1f5ab4740588e5c34b94a4dc64e22.jpg)  \n图1某液晶组合物马库什结构式",
+    "context3": "注：其中R。可以是烷基、烷氧基、卤素、 $\\textcircled{9}$ 、-（CH2)b-，b可以是 $1 \\sim 3$ ，而苯环可以被取代，a为0或1",
+    "context4": "这一马库什结构式要求保护的范围是很宽的。",
+    "context5": "1989 年以前，在国际 STN网络上有两个化学结构检索文档—CASREGISTRY文档和BEILSTEIN文档。它们当时只能用于对特定化合物结构式的存取，对化合物的马库什结构式的存取则无能为力。为了有效地检索专利文献中的马库什结构式，CAS早在1980年就开始研究工作，直到1989年终于开发出用于马库什结构式检索服务的MARPAT系统，并建立了CAS-MARPAT文档，这就大大扩展了CAS在STN上的化学结构信息的检索能力。",
+    "context6": "MARPAT系统是一个拓扑检索系统，它处理被输入马库什结构式的原则是：将该输入结构式表示为可变基团G分别取代定位连接在一个不变基团的每一个可能的连接点上，然后定义说明G的组成（如图",
+    "context7": "2所示）。",
+    "context8": "![](images/f2506f6992d9f617b199bef9cb50c3a66b666d1002f11719c6f396ee692219a3.jpg)  \n图2G的组成",
+    "context9": "在检索时，如果G是特定的原子或基团，可以采用元素符号或缩写符号表明其定义（如C、N、O、ME、ET、PH等)。如果G是一般结构项，则采用表1中规定的代码表示其定义。",
+    "context10": "表1MARPAT中表示一般结构项的代码",
+    "context11": "<table><tr><td rowspan=1 colspan=1>一般结构项名称</td><td rowspan=1 colspan=1>代码</td><td rowspan=1 colspan=1>般结构项名称</td><td rowspan=1 colspan=1>代码</td></tr><tr><td rowspan=1 colspan=1>任意基团</td><td rowspan=1 colspan=1>R</td><td rowspan=1 colspan=1>碳链基</td><td rowspan=1 colspan=1>Ak</td></tr><tr><td rowspan=1 colspan=1>环状基团</td><td rowspan=1 colspan=1>Cy</td><td rowspan=1 colspan=1>烷基</td><td rowspan=1 colspan=1>Ak(sat)</td></tr><tr><td rowspan=1 colspan=1>碳环</td><td rowspan=1 colspan=1>Cb</td><td rowspan=1 colspan=1>烯、炔基</td><td rowspan=1 colspan=1>Ak（uns）</td></tr><tr><td rowspan=1 colspan=1>饱和碳环</td><td rowspan=1 colspan=1>Cb</td><td rowspan=1 colspan=1>杂原子</td><td rowspan=1 colspan=1>Q</td></tr><tr><td rowspan=1 colspan=1>不饱和碳环</td><td rowspan=1 colspan=1>Cb(uns)</td><td rowspan=1 colspan=1>卤素</td><td rowspan=1 colspan=1>X</td></tr><tr><td rowspan=1 colspan=1>杂环</td><td rowspan=1 colspan=1>Hy</td><td rowspan=1 colspan=1>金属</td><td rowspan=1 colspan=1>M</td></tr><tr><td rowspan=1 colspan=1>饱和单杂环</td><td rowspan=1 colspan=1>Hy（mon）</td><td rowspan=1 colspan=1>碳或卤素之外</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>不饱和单杂环</td><td rowspan=1 colspan=1>Hy(mon uns）</td><td rowspan=1 colspan=1>卤素之外</td><td rowspan=1 colspan=1>A</td></tr><tr><td rowspan=1 colspan=1>稠合杂环</td><td rowspan=1 colspan=1>Hy（pcy）</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+    "context12": "另外，用代码DE、N和 SE分别表示结构式中的双键、政常键和单键。",
+    "context13": "在MARPAT文档中，检索者不但有对马库什结构式的选择余地，例如检索提问结构式是2-methylpyridine（2-甲基吡啶），检索匹配级规定为ME（甲基)，检索者在MARPAT文档中获得的检索结果将不仅包括2-methylpyridine 的文献条目，还包括2-alkylpyridine（2-烷基吡啶）的文献条目，而且检索用的指令语言与CAS'REGISTRY文档或BEILSTEIN文档中的相同，也可以用于STN上的任何一个结构式可检索文档。这对于检索者在几个文档之间转换响应集合特别方便。",
+    "context14": "在MARPAT文档中完成一个马库什结构式检索之后，专利号很容易从被检到的引文记录中摘出，进而可在其它专利文档中，如在INPADOC中进行专利族的检索，以获取完全的专利族的信息。所以MARPAT文档添加到STN上后，不仅增强了CAS数据库和它的检索选择能力，也提高了STN的使用价值。",
+    "context15": "截止1993年初，MARPAT文档中收录了5.5万多条专利引文和专利权利要求书或说明书中的17万个马库什结构式。MARPAT文档每两周更新一次，大约增加500条新的专利引文和1500个马库什结构式。"
+  },
+  "2.蛋白质序列检索": {
+    "context1": "1990年以前，在专利文献数据库中联机检索蛋白中国报理论与英：//www.cnki.net",
+    "context2": "质和肽的序列结构没有简便的方法。为此，STN的用户不得不使用诸如化合物名称、分子式、或特定结构式来检索所需信息。然而无论是大的或小的多肽都是由更小的氨基酸部分构成的链，按特定序列(顺序)键合在一起所组成的。正是这一序列给予了蛋白质特殊的3维因次和生物特性，同时也造成利用上述各种已有的检索入口很难完成对它们的检索。",
+    "context3": "1990年，CAS数据库中引入一个新的检索肽和蛋白质序列结构数据的信息源[5、6。该信息源检索方案的核心是采用代表20个“普通”氨基酸的1-或3-字母缩写的原始编码来精确检索蛋白质序列或序列片断。例如，要检索有关一种利尿和能使平滑肌松弛的药物的专利文献，检索者可以先在CASREGISTRY文档中用该药物中含有的特色的蛋白质序列片断的代码HLEE KMPLEDEV（或3-字母代码His-Leu-Glu-Lys-Met-Pro-Leu-Glu-Asp-Glu-Val）进行子序列检索。在检索结果中，给出该药物的CAS登记号RN117628-31-6、CA索引名称Vasodilatin、有机物来源human和克隆命名PUCcd8。再用CAS登记号或CA索引名称，可以在CA文档中检索出相关的专利文献。",
+    "context4": "使用氨基酸序列符号代码检索蛋白质序列或序列片断的特点是快速方便的识别，并提供附加的检索点。",
+    "context5": "目前在CASREGISTRY文档中，用氨基酸序列符号代码可以检索和展示大约16.5万个肽和蛋白质的信息，其中约4万个序列是来自约7200条专利文献。检索者也可将3-字母缩写代码用于约60个“罕见”氨基酸（即“普通”氨基酸的化学改性型或其它含有酰胺连接的骨架)的检索。由于肽和蛋白质的商业重要性，CAS正着手扩展它的原始蛋白质序列检索数据库，将增加对核酸序列数据的存贮和检索。",
+    "context6": "利用MARPAT文档可检索到用一般特定化学物质文档很难检索到，甚至不可能检索到的含有马库什结构式信息的化学专利文献。利用CASREGISTRY文档的蛋白质序列检索可以容易地存取专利文献中的蛋白质和多肽的信息。因此说，这两个新的化学专利信息源的引入，在CAS为用户提供更方便的综合的化学专利联机检索服务中起到了非同小可的作用。□"
+  },
+  "参考文献": {
+    "context1": "1邱均平．文献计量学．武汉：武汉大学出版社，19852邱遇梅．我国情报科学的拓荒人记王崇德教授.  \n情报业务研究，1989，（4)3White HD,Griffith BC.Author Cocitation A Litera-  \nture Measure of Infellectual Structure.JASIS，198l，32  \n(3): $1 6 3 \\sim 1 7 2$ 4Lawani S M.Bibliometrics：its Theoretical Founda-  \ntions，Methods and Applications．IBRI，1981，31（4)5Broadus R N．Toward a Definition of“Biblio-  \nmetrics\".Scieniometrics，1987，12(5-6)：3736White HD.Bibliometrics．ARIST，1989，247Nicholls P T.Price's Square Root Law，Information  \nProcessing and Management，1988，24（4)： $4 6 9 \\sim 4 7 7$ 8Braun T,Schuber A. Scientomeric Datafiles Supplen-  \ncentary Indicators on 96 Countries 1981—1985. Scientomet-  \nrics，1990，18（3)： $1 7 2 \\sim 1 7 8$ 9汪冰．我国文献计量学10年研究与发展（1979-  \n1989)．情报学报，1992，13（1)注：原文参考文献累计93处，从略。"
+  },
+  "7结束语": {
+    "context1": "在近10年当中，文献计量学得到了很大的发展，取得了许多成果，各方面更趋成熟，研究层次更趋深入，定量化描述的手段与方法也日益改善。同时寻求更系统全面的数据集合，更现代化的文献数据处理手段，最终实现有效地指导文献情报工作的实践。",
+    "context2": "就目前的研究水平看，文献计量学的理论方法仍带有浓厚的经验色彩，没有形成科学、严谨的理论方法体系，应用过程具有很大的随意性和不确定性，因此研究结果不能有效地指导实践。",
+    "context3": "《SCI》的发展与推广，赋子文献计量学系统而全面的文献数据，使许多经验定律得以修正、检验或导出新的数学模型。同时现代化信息技术的发展，使文献计量学家许多设想变成现实，并将发挥越来越大的作用。今后的发展中，文献计量学家们将首先建立系统化、规范化的原始数据获取渠道和获取方式，寻求更严谨而精密的理论基础和分析手段，运用现代化信息技术，逐步实现数据分析、统计、推理过程的模型化和现代化，从而推动和促进文献计量学的发展。□"
+  },
+  "美国信息高速公路计划": {
+    "context1": "一美国国家信息基础结构行动计划",
+    "context2": "美国总统克林顿上台伊始便提出建设“信息高速公路”（Information Highway）的构想，以便使美国铺设四通八达的光纤通信网，将文字、声音、图像等多媒体的信息，以最快的速度，传送到千家万户。",
+    "context3": "美国政府于1993年9月制定了发展信息高速公路的“国家信息基础结构（NII)行动计划”，并在1993年预算的基础上再增加20亿美元的信息网络建设费用，以确保1997年正式建成。对NII行动计划，美国政府起倡导、协调、支持的作用；具体项目，则由民间企业负责。政府成立部际机构—“信息基础特别工作小组”(IITF)、民间企业咨询委员会等机构，通过税收和政策、法规，促进民间企业投资。美国政府将通信网分成商业和试验两大类，前者完全由民间企业负责，政府不介入，后者指能传输10亿比特/秒以上信息的实验通信网。",
+    "context4": "发展“为全民服务”的概念，以保证所有用户以能承受的价格，利用信息资源。这也是政府NII计划的目标之一。此外，美国政府拟通过NII计划这一催化剂，促进技术创新和新技术的应用。因此，信息高速公路不仅为美国建立面向21世纪的通信基础设施提供了条件，而且为交互式电视和计算机电话等走在多媒体技术前列的高新信息技术的发展开拓了广泛的领域。",
+    "context5": "（本刊资料）"
+  },
+  "（上接第45页）": {
+    "context1": "3Karasinska,E. H. New Patent Information Resoure-  \nces from Chemical Abstracts Service.World Patent Informa-  \ntion，13(3)： $1 6 0 \\sim 1 6 5$ 、4胡安朋.宽范围变量情报及其计算机检索系统—在  \n化合物Markush（马库什）结构检索中的应用．情报学报，  \n1992，11 (6)： $4 6 7 { \\sim } 4 7 4$ 5Mohindru A.Novel Approaches to Biosequence  \nSearching:a CAS Perspective,Proceedings of the 14th Inter-  \nnational Online Information Meeting.London.U.K.,19906User Manual on Biosequence Searching，CAS"
+  }
+}

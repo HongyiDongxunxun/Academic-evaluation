@@ -1,0 +1,77 @@
+{
+  "original_filename": "full_10087.md",
+  "nothing": {
+    "context1": "$\\bullet$ 杨渊，高柳滨",
+    "context2": "(1.中国科学院文献情报中心，北京100190；2.中国科学院上海药物研究所，上海201203)"
+  },
+  "非相关文献知识发现研究进展": {
+    "context1": "摘要：本文通过大量的文献调研，对近5年来国内外知识发现研究的进展进行了系统的梳理，从知识发现研究过程中涉及的关联挖掘算法、中间词/目标词排序方法、过滤方法几个角度进行了方法总结，最后提出了未来知识发现的改进和发展方向。",
+    "context2": "关键词：非相关文献；知识发现；综述",
+    "context3": "Abstract:By a comprehensive survey of literatures，this paper reviews the progressin research on knowledge discovery systematically both at homeand abroad in recent5years.The paper summarizes the methods involved with knowledge discoveryresearch，including asociationmining algorithm,between-term/target-termranking methodand filtering method.Finally，the paper pointsout the direction forthe improvement and development of the future knowledge discovery.",
+    "context4": "Keywords:disjoint literature；knowledge discovery； summary",
+    "context5": "1986年美国芝加哥大学的DonR.Swanson教授创立了一种新的纯情报学研究方法——基于非相关文献的知识发现，并设计了相应的知识发现工具—Arrowsmith，用于帮助科研人员从非相关文献中找到未曾发现的具有科学价值的隐性关联，开创并引导了知识发现的先河，引起科学界的广泛关注。科研工作者可以通过知识发现建立科学假设，使研究工作具有更强的方向性，因此具有重大的科学意义和价值。继Swanson教授之后，国内外学者开展了广泛的研究。其中，国内的学者多限于对知识发现理论和原理上的探讨，以冷伏海和张云秋为代表开展了较多知识发现相关新方法的实证研究，国外以Lindsay，Weeber,Hristovski等为代表对知识发现的进一步发展开展了较多理论和实证研究。"
+  },
+  "1知识发现新关联挖掘算法总结": {
+    "context1": "早前的关联挖掘算法主要是基于词频的方法，包括Hristovski提出使用的“关联规则”方法以及Lind-say和 Srinivasan使用的词频一逆文献频率法（TermFrequency-Inverse Document Frequency，TF-DF）。两种方法均停留在以词与词的共现频率高低作为关联度大小的评判标准上，较少或没有考虑词的主题区分度及主题关联性，而这两点是影响知识发现效率和效果的关键。近5年对知识发现研究又发展出了一些新的关联挖掘算法。"
+  },
+  "1.1基于共现概率的关联挖掘算法": {
+    "context1": "1）Z-score。与之前提到的算法不同，Pratt 提出的 Z-score的重点在于根据词的概率分布而不是单纯考察词的共现频率来建立词与词的关联关系。该算法将Medline分成由不同的检索词对Medline检索后得到的若干子集，子集 $l$ 即是由检索词 $l$ 检索得到的中间或目标文献集合 $l$ ，词 $m$ 出现在 $l$ 中的概率 ${ P _ { l } } ^ { m }$ 表示为：",
+    "context2": "$$\nP _ { l } ^ { m } = \\frac { F _ { l } ^ { m } } { D _ { l } }\n$$",
+    "context3": "其中， ${ F _ { l } } ^ { m }$ 表示在 $l$ 中包含词 $m$ 的文献个数， $D _ { \\iota }$ 表示$l$ 中所包含的文献总数。在此基础上得到词 $m$ 在所有子集中出现的平均概率为：",
+    "context4": "$$\n\\overline { { P ^ { m } } } = \\frac { \\displaystyle \\sum _ { l = 1 } ^ { N ^ { m } } P _ { l } ^ { m } } { N ^ { m } }\n$$",
+    "context5": "其中， $N ^ { m }$ 表示所有包含有词 $m$ 的 $l$ 的数目。词 $m$ 的平均概率可以反映出该词在所有Medline文献中出现的频率高低，但并没有反映出该词是否和某一特定的文献集间的关联更强。因此考虑将词的平均出现概率与词的概率分布标准差结合会更具有指示性。进一步计算该词在背景文献集中的概率分布标准差为：",
+    "context6": "$$\n\\sigma ^ { m } = \\sqrt { \\frac { 1 } { N ^ { m } - 1 } \\sum _ { l = 1 } ^ { N ^ { m } } \\big ( P _ { l } ^ { m } - \\overline { { P ^ { m } } } \\big ) } ^ { 2 }\n$$",
+    "context7": "最后，得到词 $m$ 在中间或目标文献集 $l$ 中的Z-Score表示为：",
+    "context8": "$$\n{ \\mathrm { Z } } { \\mathrm { - s c o r e } } { \\left( \\begin{array} { l m } { l } { , m } \\end{array} \\right) }  = { \\frac { P _ { l } ^ { m } - { \\overline { { P ^ { m } } } } } { { \\sigma } ^ { m } } }\n$$",
+    "context9": "·情报理论与实践·",
+    "context10": "该值对词的概率分布进行了标准正态化，既反映出了词 $m$ 在中间词集或目标词集中的分布情况，又反映出词 $m$ 在某一个特定文献集中出现的概率与其在整个文献集中出现概率的差值。因此通过设置Z-score阈值的方法得到关联词，主题区分度更强。",
+    "context11": "2）交互信息测量。Wren提出了用交互信息测量（Mutual Information Measure，MIM）的方法来识别关联词。主要原理是对共现词之间的相互依赖性进行测度。设定MIM的阈值作为选择中间词/目标词的标准。词 $A$ ，$B$ 之间的共同信息可表示为：",
+    "context12": "$$\n\\mathsf { M I M } ( \\ A , B ) \\ = \\ \\log _ { 2 } \\big ( \\frac { P _ { A B } } { P _ { A } P _ { B } } \\big )\n$$",
+    "context13": "其中， $P _ { A B }$ 表示词 $A$ 和词 $B$ 在同一篇文献中共现的概率， $P _ { A }$ 和 $P _ { B }$ 则分别表示 $A$ 和 $B$ 在给定的文献集中出现的概率， $P _ { _ { A B } } / P _ { _ { A } } P _ { _ B }$ 即是对 $A$ 和 $B$ 间依赖度的数值化表示。如果 $A$ 和 $B$ 是相互独立的，互不关联，则 $P _ { A B } = P _ { A } P _ { B }$ ，MIM值等于0，如果随着词 $B$ 出现的概率增加，词 $A$ 的出现概率也伴随增加，则MIM大于O，表明词 $A$ 和词 $B$ 间具有关联关系，如果 $A$ ， $B$ 很少或几乎没有被共同提及，则MIM小于0。另外， $\\mathbb { W } \\mathrm { r e n }$ 还将时间维度引入该算法中，此时：",
+    "context14": "$$\nP _ { A } = { \\frac { T _ { A } } { A _ { t } - A _ { f } } } , P _ { B } = { \\frac { T _ { B } } { A _ { t } - B _ { f } } } , P _ { A B } = { \\frac { T _ { A B } } { A _ { t } - { \\mathrm { M a x } } \\{ A _ { f } , B _ { f } \\} } }\n$$",
+    "context15": "其中， $A _ { t }$ 表示Medline包含的全部文献总数， $T _ { A }$ ， $T _ { B }$ 分别表示包含词 $A$ 或词 $B$ 的文献数， $T _ { A B }$ 表示同时包含了$A$ 和 $B$ 的文献数， $A _ { f }$ ， $B _ { f }$ 分别表示文献中首次出现词 $A$ 或$B$ 前 Medline中的文献数，Max $( ~ A f , ~ B f )$ 表示返回两者中较大值的函数。基于MIM的算法同Z-Score算法一样，对词的出现概率进行了更精准的测度，更率先引入了时间维度，排除了绝对文献数量的多少对词的分布概率的影响，并同时考虑了主题相关性。"
+  },
+  "1.2基于概念的关联挖掘算法": {
+    "context1": "Wei Huang等人利用MeSH词的树状结构，从概念间固有联系的角度出发，通过概念间的同属关系来建立潜在的关联关系[，与传统的完全依照共现原则建立关联的方法不同，基于同属关系模型的知识发现方法见图1。",
+    "context2": "![](images/d6cfe8741e0189853c3a13eb11b3108d5293f6453205feac1172a13883e78da8.jpg)  \n图1基于同属关系模型的知识发现方法",
+    "context3": "首先从感兴趣的概念 $A$ 出发，第一步得到与 $A$ 共现的中间概念 $B$ ，然后根据MeSH的树状结构图寻找与概念 $B$ 在某个概念层次上具有同属关系的，但之前未被报道过的与A有关系的 $C$ 作为目标概念，建立A-C之间的潜在关联。该方法的好处在于预测的潜在关联能够与文献中已证实的科学关联保持更好的一致性。作者以10个疾病主题词为例进行实践后得出结论，该方法运用于知识发现能表现出良好的查准率，但查全率较低。"
+  },
+  "2知识发现新排序方法": "",
+  "2.1基于双向词频统计的排序方法": {
+    "context1": "在基于词频的排序方法中，无论是绝对词频统计法，还是加以改进后的相对词频统计法都舍弃了低频共现词的知识发现价值。张云秋从同时考虑共现高频词和低频词的角度出发，为弥补词频排序法方向单一（只选取高频共现的 $B$ 词）忽略了低频共现词的缺陷，提出了双向词频统计排序方法[。具体做法是：同时选取B-list中出现概率大于等于0.9和小于等于0.05的 $B$ 词作为知识发现的候选词，它们在全部的 $B$ 词中所占的比例分别为 $20 \\%$ 和$40 \\%$ 左右。实践证明，无论 $A$ 或 $C$ ，在低频 $B$ 出现的文章中都有高频出现的情况，因此基于双向词频统计的方法能够在一定程度上避免单一方向词频统计失去一部分有意义的关联，对处理低频 $B$ 的问题提出了新的思路，但对低频$B$ 取值的确定，还需要进行更多的实践研究。"
+  },
+  "2.2基于关联词间信息量的排序方法": {
+    "context1": "1）平均最小权重。Wren等人提出的平均最小权重（Average Minimum Weight，AMW）的排序方法是基于这样的假设：能否在一个初始词和目标词间建立一个推论关系，取决于初始词与中间词关联、中间词与目标词关联中包含的信息多少，并且推论关系中所包含的全部信息不得多于这两个关联所具有的最少共同信息。因此，初始词$S$ 和目标词 $T$ 之间的排序评分计算公式表示为：",
+    "context2": "$$\n\\begin{array} { r l } { \\mathrm { S c o r e } ( S , T ) } & { = \\frac { \\displaystyle \\sum _ { i = 1 } ^ { n } \\operatorname* { m i n } \\left( \\mathrm { \\mathrm { ~ M I M } } \\left( S , L _ { i } \\right) , \\mathrm { \\mathrm { M I M } } \\left( L _ { i } , T \\right) \\right) } { n } } \\end{array}\n$$",
+    "context3": "其中， $L _ { i }$ 表示第 $i$ 个中间词， $n$ 是连接初始词 $S$ 和目标词 $T$ 的所有中间词的数量，MIM即在关联挖掘算法中所共提到的交互信息测度。这一计算公式中的MIM还可以由Z-score，TF-DF 等来替换。例如由 Z-score 来表示平均最小权重的公式为：",
+    "context4": "$$\n\\begin{array} { r l } { \\operatorname { S c o r e } \\left( \\boldsymbol { S } , \\boldsymbol { T } \\right) } & { = \\frac { \\displaystyle \\sum _ { i = 1 } ^ { n } \\operatorname* { m i n } \\left( \\left. \\mathsf { Z } \\operatorname { - s c o r e } \\left( \\boldsymbol { S } , \\boldsymbol { L } _ { i } \\right) , \\boldsymbol { Z } \\operatorname { - s c o r e } \\left( \\boldsymbol { L } _ { i } , \\boldsymbol { T } \\right) \\right. \\right) } { n } } \\end{array}\n$$",
+    "context5": "AMW的排序方法对中间词赋予了MIM权重，一方面去除一些不具有区分文献主题能力但高频出现的词影响，同时还考虑到了中间词的主题相关性。",
+    "context6": "2）基于平均最小权重值中的中间词计数（LTC-A-MW）。该方法是AMW的一种简化方法，LTC-AMW假设将初始词和目标词间包含的中间词数量多少来作为反映初始词和目标词之间关联强弱的指标。如果出现中间词数量相同的情况，就再比较两者的Z-score，MIM等指标。AMW和LTC-AMW两种排序方法的缺点在于没有考虑初始词和目标词的主题一致性。"
+  },
+  "2.3基于主题的排序方法": {
+    "context1": "根据从非相关的互补文献中寻找关联的发现原则， $B$ 的主题关联度和一致性均是影响发现效率的重要因素。因此，Swanson和 Smalheiser在后续的改进研究中又提出了两种新的基于主题的排序方法。",
+    "context2": "1）主题词权重（Subject-heading Weight，Sh-wt）。Swanson和Smalheiser认为，对中间词 $B$ ，如果其连接的两篇文献研究的是相同的主题，相比连接的两篇研究主题不同的文献（如一篇是关于脑血管，而另一篇是关于心血管)，更具发现的价值。也就是说，对在标题部分出现的$B$ ，在其连接的文献 $A B$ 和 $B C$ 中，出现共有的MeSH词的密度越大，则由两者得到的 $A \\mathcal { - } C$ 连接会更具发现意义。Sh-wt的计算公式为：",
+    "context3": "$$\n\\mathrm { S h - w t } \\ = \\ \\frac { 1 0 0 \\times n _ { \\mathrm { c o m } } } { n _ { A B } \\times n _ { B C } }\n$$",
+    "context4": "其中， $n _ { A B }$ 和 $n _ { B C }$ 分别表示在 $A B$ 和 $B C$ 文献集合中标题部分出现了 $B$ 的文献数量， $n _ { \\mathrm { c o m } }$ 表示在 $A B$ 和 $B C$ 集合中共同出现的主题词的数量。可以说，这是一种对 $A B$ 和 $B C$ 间互补性的测度。Swanson将这一方法运用到偏头痛和镁的例子中进行检验，保留B-list中 $\\mathrm { S h \\mathrm { - } w t } > 1$ 的词，关联对的平均查全率为 $8 8 \\%$ ，词查全率和关联对查全率的乘积为 $81 \\%$ 。",
+    "context5": "张云秋对此方法进了研究，提出了基于共有MeSH密度加权的排序法，以“镁和偏头痛”为例，认为对 $\\mathrm { B } -$ list的权重取值在0～1之间时具有意义，这样既限定了两篇文献应有较高的主题相关性，同时也不排除那些大量存在的、只含有少数相同的MeSH的文献。实践证明，与原有的排序方法相比，该排序方法筛选得到的 $B$ 能够明显提高 $A$ 和 $C$ 的相关几率，该方法能够在保证查全率的同时，明显提高查准率，提高知识发现的效率。",
+    "context6": "2）文献内聚度。以中间词或目标词的主题关联度和一致性为着眼点，Swanson和Smalheiser教授还提出了文献内聚度（Literature Cohesiveness，COH）的概念。COH广义上是指文献间相互关联的能力，一般而言，讨论同一类主题的文献内聚度高，而随机选择的文献可能覆盖了更多的主题，因此文献内聚度低。",
+    "context7": "Swanson和Smalheiser教授在考察了主题关联性对B-list长度的影响后意外发现，基于特定主题检索文献后得到的B-list与使用主题中立的词检索文献后得到的B-list相比大大缩短，并用Z.Harris和N.Sager等其他语言学家提出的子语言现象进行了解释[，即检索特定主题所形成的文献，形成一个有限的术语集合，这个术语集合可称为子语言。因此，对不同主题的文献可以用它们各自的子语言进行区分，将子语言现象进行量化描述，用文献内聚度表示，则可定量地揭示文献间的主题关联度和一致性。文献内聚度的计算方法是：定义 $L$ 为某一特定主题的文献集合，首先将MeSH词所组配的副主题词去掉,然后用停用词表过滤掉一部分 $\\mathrm { M e S H }$ 词，得到 $L$ 中所有的主题词数量 $u$ ,并按照它们的频次降序排列。进一步定义 $k = \\mathrm { i n t } ( 1 . 7$ $\\times \\ln (  { u } ) \\ + 0 . 5 )$ 。其中， $\\operatorname { i n t }$ 这一函数表示对 $k$ 值取整，对 $u$ 取对数并乘以1.7（根据主观设定）是为了减少 $u$ 值的变动性以及值过小 $\\bullet$ 值实际上表示能够代表 $L$ 主题的核心MeSH词的数量。则 $L$ 的内聚度表示为： $\\mathrm { C O H } \\ = \\ \\mathrm { t o p / t o p } \\ + \\ \\mathrm { r e m } ;$ 其中,top表示排序2到 $k + 1$ 的MeSH词的频率总和， $_ { \\mathrm { { r e m } } }$ 表示$k + 1$ 以后所有MeSH词的频率总和,排除统计出现频率最高的主题词是因为它通常是文献的检索词。对由 $A , C$ 产生的B-ist中的每一个 $B$ 词作为检索词在Medline中进行检索，得到对应的文献集合，计算出COH值，根据COH值的高低对B-ist排序。",
+    "context8": "张云秋、冷伏海对这一方法进行“镁和偏头痛”的实例分析后得出，对某一特定主题的文献集合，TOP10个核心MeSH词能覆盖大约 $40 \\%$ 的记录，文献内聚度可以被测量[。两位学者定义核心MeSH词的平均频率的计算公式为： ${ \\mathrm { F r e q } } = a + b \\ \\bullet \\ \\lg \\ ( \\ i d )$ ， $( ~ a , ~ b$ 为可求解的参数，id 为 TOP序号)，文献内聚度表示为： $\\mathrm { F r e q } _ { \\mathrm { T o p } } / \\mathrm { F r e q } _ { \\mathrm { T o t a l } }$ ，值在 $0 . 0 5 \\sim 0 . 1 5$ 是较有意义的取值。通常认为，成功的知识发现的关键就在于在文献中找到具有一致性的互补关系，实践证明，文献内聚度的排序方法在保证较高查全率的同时提高了知识发现的效率。"
+  },
+  "3知识发现中的新过滤方法": {
+    "context1": "知识发现过程中产生的中间集和目标集，包含了大量的候选信息，尽管有学者指出在发现过程的始端应当形成一个粗范围、宽泛的集合，因为只有集合的范围足够大，才不至于遗漏可能的潜在关联。但是，非相关文献的知识发现是以预期发现类型为前提的，具有方向性和目标性，因此粗范围的集合中所包含的大量词或概念不仅会大大增加筛选的工作量，同时也会形成大量的虚假关联。因此，对中间词和目标词的过滤是非常必要的。",
+    "context2": "过去常用的方法包括共现频率高低，UMLS语义类型过滤，停用词表过滤，共词矩阵分析等，这些方法存在的问题包括：共现频率高低只考虑了关系数量，而没有反映主体之间是否具有逻辑互补性和可推断性；就UMLS来说，在对发现任务进行语义类型的选择时，可能会产生歧义理解或错误映射；停用词表的长短对过滤的效果很重要，短的停用词表过滤效果有限，而长的停用词表则有可能产生过度过滤。因此，针对传统过滤方法中存在的问题，研究者进行了新方法的探索。"
+  },
+  "3.1副主题词过滤法": {
+    "context1": "冷伏海教授率先提出了基于副主题词的过滤法[。副主题词法针对发现的可能类型，分析其与初始概念之间的逻辑关系，然后对初始概念组配恰当的副主题词来进行限定。试验结果表明，恰当适度地组配副主题词，可以缩小中间关联集的范围，降低筛选的工作量，提高了发现效率。但该方法需要操作人员对初始概念和预期可能的发现目标进行正确的分析和理解，作出正确的逻辑关系判断，恰当适度地选择副主题词是关键。"
+  },
+  "3.2共现语义群过滤法": {
+    "context1": "为了减少语义类型过滤方法在操作上的复杂性，冷伏海教授又提出了基于共现语义群的过滤法[。语义群是语义类型的上位类，UMLS的134个语义类型按照一定的规则可归为15个语义群。基于共现语义群的方法首先根据知识发现的需要选择一对语义群（如疾病语义群一化学物质语义群)，然后选择与该对语义群共现的其他语义群，从具体语义关系和数量上表示出的联系强弱的角度，判断每一个共现语义群在逻辑上是否具有互补性和可推导性，得到符合要求的共现语义群，最后用这些语义群进行联合过滤。从共现语义群的过滤效果来看，经过强关联的共现语义群对初始集进行联合过滤后，可大大缩小B-ist的长度而不影响发现结果，因此大大提高了发现效率。"
+  },
+  "4知识发现的发展和改进": {
+    "context1": "从1986年Swanson教授首次提出知识发现到现在，国内外情报学领域、生物医学领域、计算机领域的学者们都积极参与到了知识发现的研究中来，从各个角度不断探索提高知识发现的高效性和准确性的方法。笔者认为，未来的知识发现的发展主要有以下3个方面： $\\textcircled{1}$ 对经典的开放式和闭合式两种模式下中间词/目标词的排序、过滤方法的研究，包括对旧方法的改进和新方法的探究，最终目的是要得到具有高质量的中间词或目标词，提高知识发现的效率。 $\\textcircled{2}$ 知识发现模式的改进，如从简单的A-B-C模式扩展到 $A { \\mathrel { - } } B { \\mathrel { - } } \\cdots E$ 的模式，从直线式的知识发现发展到网络式的知识发现，可用于揭示基因调控网络、药物作用靶点、代谢通路、信号级联放大系统等，扩展知识发现的应用范围。 $\\textcircled{3}$ 知识发现系统的改进和知识发现结果的可视化显示，使得科研人员能够更好地运用知识发现系统，更科学合理地显示知识发现的结果。□"
+  },
+  "参考文献": {
+    "context1": "] SWANSON DR.Undiscovered public knowledge.LibraryQuarterly，1986,56(2):103-118.  \n[] http://arrowsmith.psych.uic.edu/arrowsmith_ uic/index.ht-ml.  \nB HRISTOVSKI D，et al.Supporting discovery in medicine byassociation rule mining of bibliographic database[]．LectureNotes In Computer Science，2000（1910)：446-451.AGRAWAL R, IMIELINSKI T, SWAMI A. Mining assciationsbetween sets of items in massive databases[//Proceedingsof the ACM-SIGMOD 1993 International Conference on Manage-ment of Data，Washington，DC，1993:207-216.LINDSAY R K, GORDON M D. Literature based discovery bylexical statistics[．Journal of American Society InformationScience,1999(49):674-685.  \nSRINIVASAN P. Generating hypotheses from MEDLINE[.Journal of American Society Information Science，2004（55)：396-413.  \nSALTON G.Automatic information organization and retrievalM．New York:Mc Graw-Hill，1968.YETISGEN-YILDIZ M, PRATT W. Using statistical and knowl-edge-based approaches for literature based discovery[l.JBi-omed Inform，2006(39)：600-611.  \nWREN JD. Extending the mutual information measure to rankinferred literature relationship[．BMC Bioinformatics，2004(5):145.  \n[0] HUANG W,et al. Mining scientific literature to predict new re-lationships[]．Intelligent Data Analysis，2Oo5，9（2):219-234.  \n[1] 张云秋，郭科磊．基于双向词频统计的非相关文献知识发现排序方法研究[J]．情报科学，2009，27（8）：1240-1244.  \n[2] SWANSON D R，et al.Ranking indirect connections in litera-ture-based discovery: the role of medical subject headings [.Journal of American Society for Information Science and Tech-nology，2006，57（11)：1427-1439.  \n[3] 张云秋，于双成．基于MeSH加权的非相关文献知识发现排序方法研究[．情报理论与实践，2009，32（7)：113-115.  \n[4] HARRIS Z. Language and Information[M]．New York:Co-lumbia University Press,1987.  \n[5] 张云秋，冷伏海．基于文献内聚度的非相关文献知识发现排序方法研究[]．现代图书情报技术，2009（6)：50-54.  \n[6] 曹志杰，冷伏海：共现分析法用于文献隐性关联知识发现研究．情报理论与实践，2009，32（10)：99-103.  \n[7] 张云秋，冷伏海．非相关文献知识发现初始集过滤方法的试验研究[．图书情报工作，2009,53（16)：116-119.  \n作者简介：杨渊，女，1986 年生，硕士生。"
+  }
+}

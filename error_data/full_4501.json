@@ -1,0 +1,99 @@
+{
+  "original_filename": "full_4501.md",
+  "●汤丽萍，陈芬（南京理工大学经济管理学院，江苏南京210094)": "",
+  "基于情感的图像分类研究进展": {
+    "context1": "摘要：文章对现有的基于情感的图像分类研究进行了全面梳理，对图像情感分类过程中的三个关键问题——情感特征提取、情感空间选择和情感识别分类器设计进行了重点分析。同时对现有研究中存在的问题进行了总结，并分析其未来的发展趋势，为后续研究提供了参考。",
+    "context2": "关键词：图像情感分类；情感语义；情感特征；情感分析；研究进展"
+  },
+  "Research Progress of Emotion-based Image Classification": {
+    "context1": "Abstract:This paper makesa thorough reviewof theexisting research worksin theemotion-basedimageclasification filed.Three keyisues：emotionalfeatures extraction，emotionalspaceselectionndtheesignofemotionrecognitionclasifierin the processof image emotion clasification are analyzed emphaticall.Atthe same time，the papersummarizes the problems in the existingrsearchworksandfurther discusses the futureresearch directions.The papercan givereferences to thefollowup study.",
+    "context2": "Keywords:imageemotion clasification；emotional semantics；emotional features；emotionalanalysis；research progress",
+    "context3": "随着数码相机、可拍照移动设备等的快速普及，人们生产、存储和分享图像信息的能力不断提高。同时互联网技术的发展使得Twitter、新浪微博等社交媒体得到了广泛使用，人们乐于将自己的喜好、感受、见闻等以文本、图像及视频等形式上传到网络，以此来表达和分享彼此的观点和个人情绪。如何有效地分析和挖掘这些数据中的情感信息对舆情监督、企业发展决策等有重要意义。目前情报学领域的情感分析主要集中在对于文本的分析，且已取得大量的研究成果。但美国罗彻斯特大学的罗杰波教授认为，‘图像大数据”是一种最重要的大数据，它与文字相比具有更强的全球通用性。随着互联网中图像数据量的剧增，如何对图像进行有效的分析处理变得更为重要。现有的研究中对图像的分析依然集中在图像的内容、组织及检索等方面，注重满足用户的信息需求，但忽略了用户的主观情感需求。近年来随着情感分析研究的深入，对图像的情感分析也逐渐受到关注。图像情感分类属于图像的语义理解范畴，它可以有效地组织图像，并根据图片描述的情感规则进行图像分类，提高图像检索的精准度。"
+  },
+  "1图像情感分类的相关研究现状": "",
+  "1.1图像情感语义": {
+    "context1": "1995年，美国麻省理工学院的Picard教授提出了情感计算的概念，并指出情感计算是指与情感相关、来源于情感和影响情感的计算。Eakins于1996年的第三次国际电子图书馆和视觉信息检索会议上首次提出“图像情感语义”这一专有名词。随后越来越多的学者认识到情感语义对于图像分类、检索的重要性，开始重视并逐步探索对于图像的情感分析。",
+    "context2": "1999 年，Eakins和Graham在其出版的专著《基于内容的图像检索：JISC技术应用项目报告》中第一次详细阐述了图像的三个语义层次，提出了图像的三层语义模型（见图1）。第一层是包括颜色、纹理及形状等低层视觉特征的特征语义；第二层是根据视觉特征推导出的特征，即对象语义和空间关系语义；第三层是对场景和对象进行更高层次的抽象、推理得出的语义，包含行为语义、场景语义、情感语义等，并指出情感语义是图像的最高语义。",
+    "context3": "![](images/674835650c12fea348ba62780d178076dd3c0d93c6b59e8ffc1ea22e69557b5e.jpg)  \n图1图像三层语义模型"
+  },
+  "1.2基于情感的图像分类研究现状": {
+    "context1": "图像情感分类作为计算机视觉、模式识别、认知科学等多个学科的交叉技术，近年来受到国内外研究人员的广泛关注。国内外的许多研究机构和实验室都开展了这一领域的研究，如日内瓦大学情感研究实验室、斯坦福大学视觉实验室、纽约大学视觉学习和图像实验室、中国科学技术大学、北京交通大学、厦门大学等。目前关于图像情感分类的方法主要可分为两类：基于视觉认知的情感分类和基于机器学习的情感分类。",
+    "context2": "基于视觉认知的图像情感分类利用视觉认知和心理学等领域的知识，将图像的底层视觉特征根据某种规则或逻辑映射到高层情感语义中。如Colombo等借鉴Jonhannes的艺术绘画理论，提出对艺术图像进行情感标注。Joshi等提出利用构图和景深等美学特征进行情感分析与预测。Machajdik等提出了结合艺术美学和心理学的方法提取图像的视觉情感特征。基于视觉认知的方法虽然可以在一定程度上缩小底层视觉特征与高层情感语义间的“语义鸿沟”，但往往只能应用于特定领域，不具有通用性，因此在图像情感分类中很少单独使用。",
+    "context3": "基于机器学习的图像情感分类就是通过提取图像的颜色、纹理、形状等特征，利用监督学习的方法训练分类器进行图像的情感类别信息推理。曹建芳等通过提取图像的HSV颜色直方图，利用Adaboost-BP神经网络进行自然风景图像的情感分类。Michela等利用SVM作分类器，提取多种颜色特征对自然风景图片进行情感识别。Ko等提取了图像的颜色构成特征和局部SIFT特征构建了两个视觉词典，分别结合pLSA学习图像与情感语义间的关系[ 。",
+    "context4": "近几年来，随着深度学习技术在图像分类、检索等领域取得突破性的进展，一些研究也开始考虑将深度学习技术应用于图像情感分类的研究中[11-]，虽然该方向的应用还比较少，但从已有的研究来看，深度学习确实是提高情感识别准确率的一个较好的途径。"
+  },
+  "1.3具有代表性的图像情感数据集": {
+    "context1": "图像情感数据集是进行图像情感分析研究的重要基础，数据集质量的好坏直接影响由它学习得到的情感识别分类模型的性能。目前专门针对图像情感语义研究的公开的图像情感数据集有以下几种：",
+    "context2": "1）国际情绪图片系统（International Affective PictureSystem，IAPS)。IAPS数据集共包含1182张彩色自然图像，内容包括儿童、动物、风景、昆虫等多种场景，每张图片都利用愉悦度、激活度、优势度进行情感打分。该数据集被广泛应用于图像情感分析的相关研究中。",
+    "context3": "2）日内瓦情感图片数据集（GAPED）。GAPED数据集[4包含730张图片，每张图片在愉悦度和激活度两个维度进行D，100]的分数标注用以分级。最终形成包含520 幅消极情感倾向、121幅积极情感倾向和89幅中立情感的情感图像集。",
+    "context4": "3）Abstract数据集。该数据集是由Machajdik创建的，230人对279张抽象绘画图像利用8种基本情感类别进行情感标记，最终得到228幅图像及其对应情感类别标记。",
+    "context5": "4）ArtPhoto 数据集。该数据集也是由 Machajdik创建的，包含806幅从艺术共享网站上利用8种基本情感类别进行检索得到的艺术图像，图像的情感标签均是由上传图像的艺术家标记的，更具有真实性。",
+    "context6": "以上图像情感数据集中只包含几百张图像，You等利用8种基本情感类别作为关键词在Flickr和Instagram中进行检索，最终建立了包含23308张图片的数据集[。美国哥伦比亚大学的 Borth等d利用Plutchik 模型中的24种情感从网络中挖掘图像，提取图像的标签数据，构建了包含50多万张网络图片的大型图像数据库Sentibank，是目前图像情感语义研究中最大的图像数据库。"
+  },
+  "2图像情感分类中的关键问题分析": {
+    "context1": "图像情感分类的一般流程见图2，这一过程包含三个关键问题：视觉情感特征提取、情感空间的选择和情感识别分类器设计。",
+    "context2": "![](images/ac636778db64f1a4fb4e2af3f95ddc4f73fc8b5876259f5441ae735f5164ccd5.jpg)  \n图2图像情感分类一般流程"
+  },
+  "2.1情感特征提取": {
+    "context1": "图像情感是指图像激发人们产生的感觉、印象、情绪等主观体验[。图像情感分类的关键就在于如何提取合适的、与人的情感有紧密关联的特征，以及如何描述和表示这些特征。目前的图像情感分析研究中，根据所提取的特征的层次，可将特征分为三类：底层特征、中层特征以及高层特征。",
+    "context2": "2.1.1底层特征现有的图像情感分析研究中，使用最多的底层特征包括颜色特征、纹理特征和形状特征等。",
+    "context3": "1）颜色特征。视觉心理学研究表明，色彩的象征性能够引发联想，具有唤醒情感的力量[。因此颜色被看作反映图像情感的关键特征，广泛应用在图像情感语义分析中。",
+    "context4": "目前常用的表达颜色特征的方法有颜色直方图[、颜色矩、颜色集2、颜色相关图等。这些方法主要是从统计分析的角度来描述图像的颜色，忽略了颜色对人的视觉感知的影响，如冷色和暖色、深色和浅色等对情感的影响各不相同。因此许多研究者基于颜色心理学和艺术元素等理论对颜色产生的情感进行进一步研究，提取包括颜色的色调、强调和饱和度三个基本属性，以及colorful-ness，colorcomposition等艺术元素特征进行情感分析，取得了不错的识别效果。也有一些研究根据图像不同区域对情感的影响程度不同利用视觉注意相关理论进行颜色特征提取，更加符合视觉认知。",
+    "context5": "2）纹理特征。纹理是图像的一种重要特征，不同的表面纹理和组织构造也会使人产生不同的情感感受。因此一些研究也将纹理特征应用于图像情感分析的研究中，如美国康奈尔大学的研究通过分析人对纹理图像的主观感受来定性描述纹理，确定了12个使用最多且与Tamura纹理相关的形容词，并通过神经网络训练建立起纹理和这些形容词间的关联。Zhang等也提取Tamura纹理特征并融合其他多种特征进行图像情感分类。Li等通过提取Gabor纹理特征结合HSV颜色直方图和SIFT特征进行图像的情感识别。",
+    "context6": "3）形状特征。形状特征对于刻画图像中的对象极为重要，它主要描述了图像中物体的边缘、区域和轮廓等信息，不同的形状如直线、曲线、圆形、方形等可以刺激人产生不同的情感认识。在图像情感语义分析中，形状和轮廓特征也有一些应用。如Lu等利用圆度（Roundness）、角度（Angularity）、简单性（Simplicity）、复杂性（Com-plexity）来描述形状与情感之间的关系。文献[29]利用Hough检测图像中直线，提取图像的直线一方向直方图，融合其他特征进行情感识别，取得了较高的准确率。",
+    "context7": "2.1.2中层特征底层特征与高层情感语义之间存在“语义鸿沟”，相对于底层特征对图像的简单统计描述，中层特征主要是对图像的构成、内容等的相应描述，更容易被人理解，且与情感间的关联性更强。如Lu等提取了Level of Detail，Low Depth of Field，Dynamics，RuleofThirds等构图特征作为图像的中层特征。王振帆利用Yuan提出的Sentribute方法选择具有代表性的1O2种属性特征来描述情感b。一些研究者利用词包模型构造图像的中层情感特征，Solli等提出利用情感包（Bag-of-emo-tion）特征进行图像情感分类。部分研究-34也开始将以形容词名词对ANP作为中间表达层的情感特征进行图像情感识别，取得了较好的实验效果。",
+    "context8": "2.1.3高层特征情感是一种较为抽象的语义，相对于识别图像中描述的内容，情感识别具有更高的难度。高层特征描述的是图像所包含的语义内容，可以帮助人们更好地理解图像所表达的情感。目前的研究中提取的高层特征主要指人脸相关特征，如文献中提取人脸、皮肤作为高层特征，结合其他底层特征进行情感识别。Jou等提取面部表情特征作为高层特征。Giancristofaro等利用基于网络的Microsoft Cognitive Services提取人脸特征作为高层情感特征进行图像情感识别，并结合文本信息分析社交网络中的用户情感。"
+  },
+  "2.2情感空间模型": {
+    "context1": "图像情感分类的另一个核心问题是怎样定性或定量地描述图像中蕴含的情感信息，即如何建立情感模型将图像映射到一个情感空间，使得每张图片对应情感空间中的一个点。",
+    "context2": "目前关于情感建模的研究已取得一定成果，依据情绪心理学领域的理论来描述情感，主要可分为两种方式：离散情感空间和维度情感空间。",
+    "context3": "离散情感空间是指将情感划分为相互独立的不同情感，如Ekman在面部表情研究的基础上将情感分为6种基本类型：生气、害怕、厌恶、伤心、高兴及惊讶；Mikels在进行严格的心理学实验的基础上，将情感分为8类，包括具有积极情感倾向的娱乐、敬畏、满意、刺激，和消极情感倾向的生气、害怕、悲伤和厌恶；Plutchik提出的三维情感模型将情感分为8种基本类型，又结合情感的3种不同情感强度，把情感分为24类；还有研究直接将情感分为积极、消极两种类别等。而维度情感空间则认为情绪在人的大脑中是连续的，将情感划分为固定的类别无法描述复杂的情感且无法表达情感的强度。最具有代表性且广泛使用的维度情感空间是Mehrabian等提出的Pleasure-Arousal-Dominance（PAD）三维情感空间模型，其中愉悦度（Pleasure）代表情感的积极和消极特性，反映了情感的本质；激活度（Arousal）代表个体的神经生理激活水平，体现个体对多种活动的参与程度；优势度（Dominance）表示个体对情景或他人的控制程度，用来区分情感状态是由个体主观发出的还是受客观环境的影响产生的。基于PAD三维情感模型开发的PAD情感量表可以很好地表达和量化情感，不同的图像底层特征可以映射到PAD三维空间中的任意一点，通过计算三维空间中点与点之间的距离可以对情感的差异程度进行度量。",
+    "context4": "除以上的具有代表性的情感模型外，在实际的情感分类任务中，一些研究者根据具体的实际情况采用形容词或形容词对来表示不同的情感状态[23,41]"
+  },
+  "2.3分类模型": {
+    "context1": "在情感特征提取及情感空间构建两个重要部分完成之后，就需要建立起特征到情感空间的映射进行图像情感识别。图像情感分类可看作标准的模式识别问题，因此常用的机器学习分类器均可用于解决这一问题。目前的研究中主要使用的方法有支持向量机、神经网络、模糊理论和朴素贝叶斯等。如李晋采用朴素贝叶斯分类器建立了图像特征与情感语义间的映射关系，实现图像的情感分类。庄千料基于概率神经网络建立视觉特征与情感语义之间的映射关系，实现了较高的准确率[4。支持向量机以其在相关领域表现出的优越性能在图像情感分类中也得到了广泛使用。Yang和Jiang等利用概率潜在语义分析模型挖掘视觉特征与情感语义之间的关系，并利用SVM分类器进行图像情感分类。决策树、逻辑回归、深度学习等方法在图像分类研究中也具有较好的表现，因此结合这些优秀的理论方法可以为图像情感识别提供新的思路和方法。"
+  },
+  "3总结": "",
+  "3.1图像情感分类研究中存在的问题": {
+    "context1": "对于图像情感分类的研究目前还处于初级阶段，从现有的研究来看，主要存在以下问题：",
+    "context2": "1）底层特征与高层情感语义间存在语义鸿沟。现有的图像情感分类研究主要还是通过提取底层视觉特征，利用机器学习的方法构建视觉特征与情感语义之间的关系。视觉和情感之间的关系非常复杂，提取的情感特征对最终学习的分类器性能有重要影响，因此如何缩小视觉特征与情感语义间的“情感语义鸿沟”，合理地构建二者间的映射关系，尽量使计算机从人类的认知角度理解图像，是视觉情感分析的研究重点。",
+    "context3": "2）数据集规模较小。目前公开的用于图像情感分类的情感数据库大都规模较小，仅数百张图像，这也在一定程度上阻碍了图像情感分类研究的发展。Borth等[构建的 Sentibank数据集给人们提供了一个很好的方向，如何利用社交网络中的丰富数据构建大规模数据库，提高图像情感识别的准确率，是值得关注和深入研究的问题。"
+  },
+  "3.2图像情感分类研究的发展趋势": {
+    "context1": "结合最近的图像分类、检索方向的研究趋势，图像情感分类的研究可从以下方向得到发展：",
+    "context2": "1）与深度学习技术结合。深度学习技术是目前机器学习领域的研究热点，虽然已有部分研究将深度学习应用于图像情感分类，但多数都是利用经典的卷积神经网络模型，总体来说这方面研究还较少。随着新的深度学习模型的不断提出，如何将这些新的模型与图像情感识别结合起来，提高图像情感识别的准确率，非常具有研究价值。",
+    "context3": "2）与文本信息结合。随着微博等社交网络的发展，人们越来越多地以文字、图片的形式在社交网络中发表自己的观点和感受。对这些信息进行挖掘可以帮助企业和政府了解公众情绪，为舆情监测、企业决策等提供支持。由于图像特征与情感语义间存在语义鸿沟，借助文本信息与图像间的情感语义关联性，可以帮助缩小语义鸿沟，降低图像情感语义提取的难度。",
+    "context4": "3）考虑个性化情感。目前，关于图像情感分析的研究主要是基于大众化情感的，但考虑到现实中情感反应具有个体差异性，而且同一个体在不同时刻面对同一图像的情感反应也不尽相同，因此研究个体的真实情感十分重要。社交媒体为解决这一问题提供了一种方法，可以结合某时刻用户对图像的评价作为其对情感的理解。□"
+  },
+  "参考文献": {
+    "context1": "[1]叶秀明．美国大学图书馆版权服务调查及启示[．图书情报工作，2015，59（17)：62-66.  \n[2] 肖斌．高校图书馆应对MOOC挑战的策略探讨．读与写：教育教学刊，2015，12（8)：78-78.  \n[3] 张立彬．慕课环境中图书馆版权服务的内容与思考[.图书馆工作与研究，2016，1（3)：32-35.  \n[4] 郑雅婷．《加拿大图书馆和档案馆法》及其对我国图书馆立法的启示[．知识管理论坛，2013（6)：56-62.  \n[5] 易健雄．技术发展与版权扩张M]．北京：法律出版社，2009:7-9.  \n[6] 吕宗澄，徐成．美国慕课例外的立法考察[．图书馆论坛，2017 (9)：136-40.  \n[7] Copyright Advisory Office[EB/OL]．[2017-09-24].http://library.queensu.ca/help-services/copyright-fair-dealing.  \n[8] Copyright Ofice[EB/OL]．[2017-09-24].http://www.lib.sfu.ca/help/academic-integrity/copyright.  \n[9] Copyright Office[EB/O1]．[017-09-24] .http://www.uvic.ca/library/featured/copyright/.  \n[0] Scholarly Communications and Copyright Office[EB/OL].[017-09-24]．https://onesearch.library.utoronto.ca/copy-right/home.  \n[1] Copyright Office[EB/OL]．[2017-09-24]．https://library.unbc.ca/services/copyright.  \n[12] Copyright Office[EB/OL]．[2017-09-024]．htp://www.trentu.ca/library/copyright.  \n[13] Copyright Office[EB/OL]．[2017-09-24].https://libraries.dal.ca/services/copyright-office.html.  \n[4] Copyright Office[EB/OL]．[2017-09-24]．http://library.ucalgary.ca/copyright.  \n[5] 鄂丽君，等．加拿大大学图书馆的版权信息服务[．图书馆论坛，2014（8)：116-20.  \n[6] 阿巴拜克热买买提．当前我国软实力发展现状、问题及对策分析．学理论，2014（25)：23-24.  \n[7] 李杨，潘卫．高校图书馆馆员分类发展的探索与研究．大学图书馆学报，2015，33（1)：21-27.  \n[8] 石云．公共图书馆岗位设置与人员聘用制度改革之浅见．图书馆界，2010（1)：45-46.  \n[9] 甘婷婷，杨静，杨佳佳．大学生知识产权素养现状调查研究——以安徽省高校大学生为例[．黑龙江畜牧兽医，2016 (15): 245-248.  \n[0] 丁凯，宋林泽．自媒体视域下的高校宣传教育网络建设．教育研究，2015（4)：49-56.  \n[1] 徐婷，隆茜．澳大利亚高校图书馆版权信息服务研究．图书馆学研究，2017（8)：88-97.",
+    "context2": "作者简介：张立彬（通讯作者)，男，1964年生，研究馆员，主持国家社科基金重点项目1项，主持并完成省部级课题3项，发表论文120余篇。郭琪，女，1974年生，发表论文20 余篇。陈祥，男，1992年生，硕士生。",
+    "context3": "录用日期：2017－12-12"
+  },
+  "[4]刘硕研．面向感知的图像场景及情感分类算法研究[]．北京：北京交通大学，2011.": {
+    "context1": "[5]COLOMBO C，BIMBO A D，PALA P.Semantics in visual information retrieval[]．Multimedia IEEE，1999，6（3)： 38-53.   \n[6]JOSHI D，DATTA R，FEDOROVSKAYA E，et al.Aesthetics and emotions in images[]．IEEE Signal Processing Magazine，2011，28 (5):94-115.   \n[7] MACHAJDIK J，HANBURY A.Affective image classification using features inspired by psychology and art theory[C]// ACMInternational Conference on Multimedia.ACM，2010: 83-92."
+  },
+  "[8] 曹建芳，陈俊杰，李海芳．基于Adaboost-BP神经网络的图像情感分类方法研究[．山西大学学报：自然科学版，2013，36(3)：331-337.": {
+    "context1": "[9]DELLAGIACOMA M，ZONTONE P，BOATO G，et al．Emotion based classification of natural images[C]//ACM,   \n2011: 17-22. [0] KO E，KIM E Y. Recognizing the sentiments of web images using hand-designed features[C]．IEEE，International Conference on Cognitive Informatics & Cognitive Computing.IEEE,   \n2015: 156-161. [1] ISLAM J，ZHANG Y. Visual sentiment analysis for social images using transfer learning approach [C]．IEEE International Conferences on Big Data and Cloud Computing.IEEE，2016:   \n124-30.   \n[2] RAO T, XU $\\mathbf { M }$ ，XU D. Learning multi-level dep representations for image emotion clasification [EB/OL]．[2017-10- 15]．http: //xueshu.baidu. $\\mathrm { c o m } / \\mathrm { s } { } ?$ wd $=$ paperuri% $3 \\mathrm { A } \\%$ 2872261c2391262c2624b41d41d2a2bc3b%29&filter $=$ sc_long _sign&tn = SE_xueshusource ${ \\bf \\nabla } _ { - } 2 \\mathrm { k d u w } 2 2 \\mathrm { v } \\& \\mathrm { s c } _ { - } \\mathrm { v u r l } = \\mathrm { h t t p } \\%$ 3A% 2F%2Farxiv.org% 2Fabs% 2F1611.07145 &ie $=$ utf-8&sc _us = 5799766054396246268.   \n[3] LANG PJ，BRADLEYM M，CUTHBERTBN. International Affective Picture System (IAPS):affective ratings of pictures and instruction manual（Rep.No.A-8)[EB/OL]．[2017-10- 15].https: //www.researchgate.net/publication/256309451_ International_Affective_Picture_System_IAPS_Affective_Ratings_of_Pictures_and_Instruction_Manual_Rep_No_A-8.   \n[4] DAN-GLAUSER E S，SCHERER K R. The Geneva affective picture database ( GAPED):a new 730-picture database focusing on valence and normative significance[．Behavior Research Methods，2011，43(2):468.   \n[5] YOUQ，YANG J，YANG J，et al. Building a large scale dataset for image emotion recognition:the fine print and the benchmark []．Thirtieth AAAI Conference on Artificial Intelligence.AAAI Press，2016:308-314.   \n[6] BORTHD，JI R，CHEN T，et al.Large-scale visual sentiment ontology and detectors using adjective noun pairs[c]. ACM International Conference on Multimedia.ACM，2013: 223-232.   \n[7] 黄崑，骆方，游祎．图像情感特征及其检索应用[．情 报科学，2010（4)：602-606.   \n[8] 古大治．色彩与图形视觉原理[M]．北京：科学出版 社，2000.   \n[9] LIU T，JIANG F，LIU Y，ET al. Do photos help express our feelings:incorporating multimodal features into microblog sentiment analysis[C]．Chinese National Conference on Social Media Processing. Springer， Singapore， 2015: 63-73.   \n[0] 吴星和．图像情感语义注释与检索研究[]．杭州：浙 江大学，2013.   \n[1]JIA J，WU S，WANG X，et al. Can we understand van gogh's mood? Learning to infer affcts from images in social networks [c]．ACM International Conference on Multimedia.ACM, 2012:857-860.   \n[22] WANG X，JIAJ，YIN J，etal. Interpretable aesthetic features for affective image classification [C．IEEE International Conference on Image Processing. IEEE，2014:3230-3234.   \n[3] SHINY，KIMEY，SUNG TE.Affect-based retrieval of landscape images using probabilistic affective model[M]//Hu",
+    "context2": "man-Computer Interaction. Towards Intelligent and Implicit Interaction.Springer，Berlin Heidelberg，2013：362-371."
+  },
+  "[4]吕进来，相洁，陈俊杰，等．基于感兴趣区域特征提取技": {
+    "context1": "术的情感语义研究[．计算机工程与设计，2010，31 (3):660-662.   \n[25] RUIZ-DEL-SOLAR J，JOCHMANN M. On determining human description of textures[EB/OL]．[2017-0-15]．https:// www.researchgate.net/publication/2557291_On_Determining _Human_Description_Of_Textures.   \n[26] ZHANG H，AUGILIUS E，HONKELA T，et al.Analyzing emotional semantics of abstract art using low-level image features []．International Conference on Advances in Intelligent Data Analysis X.Springer-Verlag，2011:413-423.   \n[7]LI B，FENG S，XIONG W，et al. Scaring or pleasing:exploit emotional impact of an image [C．ACM International Conference on Multimedia.ACM，2012:1365-1366.   \n[28] LU X，SURYANARAYAN P，LI J，et al. On shape and the computability of emotions[．ACM International Conference on Multimedia.ACM，2012:229-238.   \n[29] LIU N，DELLANDRéA E，TELLEZ B，et al. Associating textual features with visual ones to improve affective image classification[C]．Afective Computing and Intellgent Interaction, International Conference，Acii 2011，Memphis，Tn，Usa, October 9-12，2011，Proceedings.DBLP，2011:195-204.   \nB0] LUX，SAWANT N，NEWMAN M G，et al. Identifying emotions aroused from paintings[C]．European Conference on Computer Vision. Springer International Publishing，2016: 48-63."
+  },
+  "β1]王振帆．多视图学习在网络图像情感分析中的应用[].大连：大连理工大学，2016.": {
+    "context1": "B2]SOLLI M，LENZ R. Color based bags-of-emotions[C]．Computer Analysis of Images and Patterns，International Conference，Caip2OO9，Muinster，Germany，September2-4, 2009.Proceedings.DBLP，2009:573-580.   \nB3] WANG M，CAO D，LiL，et al.Microblog sentiment analysis based on cross-media bag-of-words model [C]．ICIMCS'14 Proceedings of International Conference on Internet Multimedia Computing and Service，Xiamen，China-July 10-l2，2014: 76.   \nB4] LI Z，FAN Y，LIU W，et al.Image sentiment prediction based on textual descriptions with adjective noun pairs[]. Multimedia Tools & Applications，2017:1-18.   \nb5]JOUB，BHATTACHARYA S，CHANG SF.Predicting viewer perceived emotions in animated GIFs[C．ACM International Conference on Multimedia.ACM，2014:213-216.   \nB6] GIANCRISTOFARO G T，PANANGADAN A. Predicting sentiment toward transportation in social media using visual and textual features[C．IEEE，International Conference on Intelligent Transportation Systems.IEEE，2016:2113-2118."
+  },
+  "·第41卷2018年第6期·": {
+    "context1": "制定不同的版权政策，例如适用于所有类型资源的统一版权政策，以及针对个别资源和特定人群的特殊版权政策，做到版权政策结构合理，层次分明，条理清晰，框架完整，以此来为版权服务的实施提供一个坚实的基础。□"
+  },
+  "(上接第153页)": {
+    "context1": "B7]EKMAN P.An argument for basic emotions[]．Cognition & Emotion，1992，6(3/4)：169-200.   \nB8] MIKELSJA，FREDRICKSON BL，LARKIN GR，et al.Emotional category data on images from the international affective picture system[J]．Behavior Research Methods, 2005，37 (4):626.   \nB9] PLUTCHIK R. Emotion: a psychoevolutionary synthesisM. New York:Harper& Row，1980.   \n[40] SCHRODER M.Evidence for a three-factor theory of emotions [C]． Conference of the European Cetacean Society，2017: 716-721.",
+    "context2": "[41] 曹建芳，陈俊杰，李海芳．基于改进的OCC情感模型的自然风景图像分类研究．计算机应用与软件，2014，31(6):181-184."
+  },
+  "[42]李晋．图像视觉特征与情感语义映射方法的研究[D]．": {
+    "context1": "太原：太原理工大学，2008."
+  },
+  "[43]庄千料．基于概率神经网络的图像细粒度情感分类[].上海：东华大学，2017.": {
+    "context1": "[44]YANG Z. Research on perception-oriented image scene and e-motion categorization[]．Open Automation & Control Sys-tems Journal，2015，7（1)：2070-2073.  \n[45] JIANG L，FANG K，XUE H，et al.Emotion categorizationbased on probabilistic latent emotion analysis model[c].IEEE，International Conference on Signal Processing.IEEE,2017:618-623.作者简介：汤丽萍，女，1992年生，硕士生。研究方向：多媒体信息处理，情感分析。陈芬，女，1978年生，博士，副教授，硕士生导师。研究方向：网络舆情，信息检索，图像处理。  \n作者贡献声明：汤丽萍，文献收集、整理及整体论文撰写，修改。陈芬，论文整体框架把握，提出相关修改意见及最终稿件检查。  \n录用日期：2017－12-04"
+  }
+}

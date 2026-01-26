@@ -1,0 +1,85 @@
+{
+  "original_filename": "full_137.md",
+  "2007-2008年国外语义Web研究进展": {
+    "context1": "Researches on the Semantic Web Aboard from 2007 to 2008"
+  },
+  "刘毅汤怡洁杨锐刘 清 (中国科学院国家科学图书馆武汉分馆 湖北 武汉 430071)": {
+    "context1": "[摘要]2007-2008年国外语义Web的研究重点主要放在语义标注、语义推理、语义搜索引擎和语义Web服务4个方面，并且呈现出以下特点：语义Web在虚拟知识环境中针对性研究居多，综合性应用较少；实际应用主要集中在小范围的应用方面；研究成果以会议论文居多，期刊论文较少。"
+  },
+  "[关键词]语义网语义标注语义推理语义搜索引擎语义Web 服务": {
+    "context1": "[中图分类号]G250.7 [文献标识码]A",
+    "context2": "[Abstract] The researches on the Semantic Web from 2O07 to 2Oo8 abroad focused on semantic annotation, semantic inference,semantic search engines and semantic web services.The study showed characteristics of the Semantic Web as follows: the research of Semantic Web in the Virtual Knowledge Environment focused on targeted research,and the comprehensive applications were few; the practical application focused on small-scale applications; research results were showed by conference papers mostly rather than journal articles.",
+    "context3": "[Key words] Semantic Web; Semantic annotation; Semantic inference; Semantic search engine; Semantic web service"
+  },
+  "1前言": {
+    "context1": "“语义Web是当前Web的一个扩展，其中信息具有形式化定义的语义，更有助于计算机之间以及计算机与人之间的协同工作。其思想是使Web上的数据以这样一种方式来定义与链接，使其能够在各种不同的应用场景中有效地实现数据的发现、自动化处理、集成与复用。当且仅当Web不仅成为人所共享加工的场所，也成为自动化工具所共享加工的场所时，语义Web方能实现其全部潜力]。",
+    "context2": "鉴于语义Web研究的重要价值，国外的很多大学、研究机构、大公司都成立了专门的项目组针对语义Web技术及其应用开展研究，希望以此推动语义Web的快速发展。国内的科研人员和学者也着手进行语义Web及其关键技术与应用的研究，但是由于起步较晚，整体研究水平、成果与国外相比较为落后。"
+  },
+  "2国外语义Web的研究重点": {
+    "context1": "通过对ScienceDirect、ACM、IEEE等数据库及相关国际大型项目的研究与分析发现，在2007-2008年，国外针对语义Web 的研究主要集中在以下几个方面。"
+  },
+  "2.1语义标注": {
+    "context1": "从语义Web的角度来看，在传统Web上添加语义信息、将Web的状态从机器可读发展到机器可理解，是实现整个语义Web的基础。这种语义信息添加的过程称为语义标注。"
+  },
+  "2.1.1图像语义标注方法": {
+    "context1": "在图像标注方面，奥地利维也纳大学计算机自动化协会模式识别和图像处理团队(Pattern Recognition and ImageProcessingGroup，简称PRIP）的研究人员进行了全面的调查[2，并于2008年就3种图像标注方法，即自由文本标注、关键词标注和基于本体的标注，进行了全面的讨论。就标注的准确率来说，最佳方法是首先根据评估任务的需求创建关键词词汇表，接着根据词汇表进行图像的手工标注；就标注的效率来说，自动图像标注是提升效率的首选方法。研究人员通过多方面的分析发现，目前实现自动图像标注的关键问题是如何确保图像描述的真实数据的创建。他们认为，可利用协作机制或者当前互联网搜索能力来创建图像描述的真实数据，以达到自动图像标注的准确性。",
+    "context2": "英国伦敦大学玛丽皇后学院计算机科学系的学者和微软亚洲研究院的科研人员也在2008年共同提出了一种自动图像标注的新方法[3。这种方法是利用跨媒体关联模型与全局特征、局部特征、上下文特征相结合的方式进行图像语义标注。通过合并3种特征信息及评估三者之间的联合概率，提高图像的语义描述和标注的性能。研究人员使用这种新方法进行了大量图像的自动语义标注，并分析其结果得出以下结论：在利用少量词对图像进行标注的情况下，结合全局特征、局部特征可以提高标注性能；在利用多个词对图像进行标注的情况下，结合原文上下文特征对标注性能的提高起到了决定性的作用。"
+  },
+  "2.1.2多媒体语义标注方法": {
+    "context1": "随着多媒体和网络技术的发展，面向海量多媒体数据的检索已成为一种迫切的需要。作为多媒体检索的必要基础，对多媒体数据进行语义标注将为基于多媒体数据库和互联网的搜索应用提供有力的支持。欧盟第七框架中的计算机辅助多媒体语义标注项目(Computer-Aided SemanticAnnotationofMultimedia，简称CASAM)[4是由欧盟资助的为期3年的项目，开始时间为2008年4月。该项目提议在多媒体内容语义标注中引入计算机辅助标注概念。由于全自动化的标注存在一些弱点，而纯手工标注又耗时费力，所以提出了结合人工和机器智能的新目标，通过半手工标注模式来得到最大化的执行性能和利益。",
+    "context2": "CASAM的最终目的是尽可能地降低标注程序中的人工干预成分。为了达到这一目标，CASAM团队将研究方向放在知识表示和推理上，希望通过研究提出高效的语义处理方案。在这个范围里，需要超越现有的研究思路，更具体地考虑多媒体分析工具和用户的交互作用，以达到最优化的标注性能和最小化的用户干预。在多媒体分析方面，需要一种知识驱动方法根据人和系统提供的知识进行上下文分析。最后，在人和系统的交互方面，通过特定情景的知识推理获取最优化的知识信息。"
+  },
+  "2.1.3Web数据语义标注方法": {
+    "context1": "在语义标注中，针对Web数据的语义标注方法也受到学者和研究人员的广泛关注。如何进行Web数据的语义标注及如何利用语义标注为用户提供更好的Web浏览成为了关注的热点。",
+    "context2": "法国学者JasonJ认为，通过语义标注能够为用户提供更有效的Web浏览[5]。用户进行浏览时，浏览器将预先载入用户的历史访问轨迹、操作行为以及查询的上下文内容，使浏览更加人性化、智能化。JasonJ提出了一种语义代码转换方法，在用户意图评估模型和Web信息空间候选资源之间进行转换[5]。",
+    "context3": "Sym'Previus项目是2008年度法国农业和食品领域针对语义研究的项目之一[。其主体框架设计了一个完整的数据整合系统，部分数据由食品产业伙伴提供，部分数据从食品领域主要的科学期刊上发表的论文中抽取得到。这些数据的分类是根据预先定义好的食品领域本体进行的，该项目研究人员认为应该通过Web抽取数据的形式补充数据库中的数据量。WebContent项目7设计了被称为 $\\ @ \\operatorname { W E B }$ 的半自动获取工具，这个工具的用途是从Web中发现并获取科学文档。在 $@$ WEB工具处理过程中，从Web中发现的科学文档的数据表被抽取出来，根据本体概念、属性、实例进行半自动标注。"
+  },
+  "2.2语义推理": {
+    "context1": "语义推理是大多数自然语言理解应用中的重要组成部分。传统经典的语义推理方法依赖于大量复杂的逻辑描述。但是，实际应用通常都采用浅显的词汇、词汇-句法描述方式，而缺乏一个原则上的推理框架。因此，由欧盟和以色列因特网协会共同出资支持的基于词汇-句法级别的语义推理的研究于2006年底正式展开[8]。研究人员提出了一种通用的语义推理框架，用来直接操作句法树，并通过实验证明了该框架在真实场景中的应用是可以满足需求的。与此同时，研究人员计划加强该框架的性能，希望能够做到允许多语句的推理并且合并传统类型的规则（如词汇规则)。另外在知识描述和语义推理方面，模糊逻辑可以帮助专家和用户使用自然符号表达概念，来自西班牙、伊朗和澳大利亚的研究人员在2007年底提出了将模糊逻辑和RDR(RippleDownRules，涟波下降规则）方法（一种知识收集方法）在语义驱动框架中进行结合的理论研究法[9。虽然这种观点还没有得到广泛的认同，但是提出此观点的科研人员认为利用和执行这种框架的好处是显而易见的，并在着手具体验证系统的开发。在针对程序推理方面，目前利用公理进行推理是普遍流行的方法。英国纽卡斯尔大学的HughesJR和JonesCB教授提出直接根据结构化操作语言(Structural Operational Semantic，简称SOs）描述进行程序推理的方法[10]。由于目前使用的公理推理方法并不具有广泛的普遍性，无法适用于所有的语言，所以推荐利用SOS描述进行程序推理并支持绝大多数语言环境。通过验证系统说明这种被提议的方法可以满足普遍性的程序推理，目前利用SOS描述进行推理的组件已经在大型交互式系统中得到了应用。",
+    "context2": "可辩驳推理是基于规则的推理方法，用于推理不完整和不一致的信息，是许多语义Web应用的强有力的工具。它强大的数学逻辑和可辩驳逻辑为处理复杂的语义Web数据和元数据的语义关系提供了有力的支持。2008年由希腊政府发展部研究与技术秘书处支持的希腊和澳大利亚合作项目“语义Web中有关电子商务应用的可辩驳推理”提供了一个为语义Web环境特别设计的可辩驳推理系统VDR-DEVICE[1]。该系统是基于顶层RDFS（RDFSchema，是对RDF的一种扩展）本体配置和可视化可辩驳逻辑规则开发而成的，是由包含一系列各自独立开发但可以有效结合的子构件构成的灵活的框架。",
+    "context3": "在真正系统应用中的推理需要考虑相关的个性化策略，以便达到更好更切合实际的推理效果。现有的推荐系统尝试利用句法匹配技术来确认用户的请求，这种方式存在很大局限，将会降低用户提出建议的质量。为了克服这一缺点，西班牙Vigo大学的学者于2008年提出了一种领域相对独立的个性化策略[12]。这种策略借用语义Web的推理技术，基于语义关系对用户选择参数和所有可利用内容进行推理并详细描述推荐内容。其提出的基于推理的方法与现在的个性化方法比较而言，大大改善了提出建议的质量，同时大大降低了方法的局限性。为了证明这些论点，他们进行了一个关于数字电视领域真实场景的应用案例，在成千上万的数字信号流中根据上述的策略选择用户感兴趣的电视节目。试验通过对传统方法和被提议的方法在用户对数字电视节目建议的数量和质量方面以及用户主观推荐方面进行比较，充分证明了这种新方法的优势。"
+  },
+  "2.3语义搜索引擎": {
+    "context1": "语义Web的搜索技术为用户提供了一种新型的搜索模式。通过这一技术，用户只需使用自然语言输入问题，就可以获得想要的答案。换句话说，这一技术能“理解”用户所使用的语言。纽约Hakia公司已经推出了自己的语义搜索引擎[13]，并在快速查找特定信息方面获得了极好的评价。Hakia是一个全新的语义搜索引擎，作为RWW(ReadWriteWeb,网站的名称)编选的2008年十大语义Web产品之一，拥有对传统网页的语义处理技术，可以利用其拥有的语义搜索技术通过概念和语义匹配获取精确的检索结果。该搜索引擎对于较长的检索请求具有独到的处理方式，可以从语义层面上较好地分解与解析检索请求的真实语义表达。传统搜索引擎一般是通过统计学方法来实现近似的语义识别的，统计学方法在处理动态变化（由于资源动态变化，因此在短时间内还无法生成统计数据）的资源内容方面较为薄弱，而语义搜索引擎由于具有真正意义上的语义分析技术，因此处理这些问题具有较强的优势。",
+    "context2": "搜索引擎已经变成了一种对文本资源进行检索的便捷方式，同样我们希望能够利用搜索引擎针对多媒体内容进行检索。大多数研究人员认为应该从“智能机器”方面入手，通过智能化机器直接描述多媒体资源。但是意大利的学者CelinoI和ValleE等认为还必须考虑“智能数据”方面的解决途径，以能够在领域本体中捕获词汇和概念特征[14]。为了证明语义Web技术为终端用户更便捷、更高效地访问信息资源提供了真正的益处，他们开发了一个语义Web框架Squiggle[14]，用来部署语义搜索引擎，其中使用的本体包含SKOS(Simple Knowledge Organization System,简单知识组织系统）模型和一个领域知识组织体系，并且通过对两个真实系统 (图片检索系统和音乐文件检索系统)的实际应用评估了该框架，证明其比传统方式具有更高的效率。",
+    "context3": "现有的语义搜索工具设计的初衷都是为了提高传统搜索技术的性能，但是很少有类似的工具会考虑到普通终端用户操作方便和实用。英国开放大学知识媒体研究所的研究人员认为，终端用户没有必要去完全了解领域详细的语义数据、本体或者类似于SQL(Structured Query Language,结构化查询语言）的查询语言。因此，研究人员开发了名为SemSearch的语义搜索引擎[15]，它提供了几种方法为终端用户隐藏了语义搜索中复杂的输入模式，使该搜索引擎更易于使用。SemSearch的原型系统是利用Sesame和Lucene实现的。引擎提供类似于Google的检索界面，接收到用户提出的检索需求后，通过引擎自动解释检索需求并转换为标准的格式化检索语句，进行具体的检索工作。"
+  },
+  "2.4语义Web服务": {
+    "context1": "语义Web服务的主要方法是利用本体来描述Web服务，然后通过这些带有语义信息描述的Web服务来实现服务的自动发现、调用和组合。通过对大量文献和项目的分析，笔者将语义Web服务分为以下几个方面分别进行阐述。"
+  },
+  "2.4.1基于模型驱动的语义Web 服务": {
+    "context1": "Web服务技术最大的优势是为整合分布式计算的应用建立一个通用的平台。语义Web服务提供关于自动发现、动态组装、任务管理等方面的解决方案。在第八届分布式系统新技术国际会议中，有专家指出广泛采用SWSs(SemanticWeb Services，语义Web服务）技术的一个障碍是缺乏创建SWSs规范的工具[16]。BensaberD和MalkiM描述了一种模型驱动方法可以使OWL-S（描述Web服务的本体）规范的构造更为便捷[16]，分为3个主要步骤：首先将WSDL(Web Services Description Language,Web服务描述语言）文档放入UML(Unified ModelingLanguage,统一建模语言）模型，确保高层次图形模型的使用；然后为UML模型选择合适的领域本体并进行语义标注；最后转换工具会自动地通过UML模型生成OWL-S规范。希望利用这种新的方法能够增强UML和OWL-S之间的转换效率问题。",
+    "context2": "意大利的研究人员在2008年提出了一种模型驱动的方法[17]，即通过现今出现的WSMO（Web Service ModelingOntology，Web服务建模本体）标准来设计和开发语义Web服务应用和组件。这种方法是基于现有的业务流程规范模型BPMN(Business Process Modeling Notation,业务流程建模符号)，结合网络工程建模的方法设计和开发语义富Web应用（WebML)。在整个设计过程中，优先抽取WSMO概念、选取合适的语义Web服务，可以使WSMO组件的设计得到进一步的改善。"
+  },
+  "2.4.2基于本体和智能代理的语义Web 服务": {
+    "context1": "Web中许多服务都体现出智能性的特征，如信息搜索、服务发现、用户偏好等，而各个服务之间需要的交互正好体现出代理的特点（自主性、协作性、适应性等)，因此越来越多的研究开始关注代理与语义Web服务的整合。",
+    "context2": "欧盟第七框架中的语义功能异构服务框架和平台工程(Semantically-Enabled Heterogeneous Service Architectureand Platforms Engineering，简称 SHAPE）是由欧盟资助为期30个月的项目[18]，开始时间为2007年12月。该项目的目标是支持基于语义异构服务（Semantically-EnabledHeterogeneous Service Architecture,简称SHA)的企业系统开发和实现。SHA是面向服务框架（Service-OrientedArchitecture，简称SOA）的扩展，在面向服务方法的标准上加入了语义和异构技术（Web服务、代理、语义Web 服务、P2P和网格)。为了达到这一目标，SHAPE开发了一个模型驱动工程（Model-Driven Engineering，简称MDE）工具支持的方法。SHAPE为SHA的原模型和语言制定了一套标准，所有的技术都必须服从这一标准以确保高度的统一性和延续性。"
+  },
+  "2.4.3基于情景敏感的语义Web服务": {
+    "context1": "上下文敏感技术希望能够跨越多个应用领域。语义Web服务确保了基于全面语义描述的分布式Web服务自动发现的实现。虽然语义Web服务技术支持为一个给定的定义清晰的任务进行资源自动分配，但是却无法根据给定任务的上下文情景发现并选择适当的语义Web服务描述。然而，任务是高度依赖于他们发生的情景语境的，语义Web服务技术却不支持领域情景的描述。此外，对特殊的情景进行复杂概念描述的开销是巨大的，并且无法满足语义的完全性。虽然真实世界中没有任何两个情景是完全相同的，但是可以通过语义详细属性描述的有限集来确保上下文的适应性。为了克服上面的这些问题，2008年英国开放大学的研究人员提出了概念情景空间（Conceptual SituationSpaces，简称CSS）这一概念[19]，用来与已经制定的语义Web 服务标准保持一致。情景之间的语义相似度根据他们在CSS中的欧氏距离进行计算。用CSS在概念层上下文中扩展语义Web服务描述的符号可以保证真实世界情景特征和预定义资源描述之间的相似度匹配。研究人员设计了一个概念验证原型系统并将其应用在E-Learning领域中，最终证明了他们提出的概念的可行性。"
+  },
+  "3国外语义Web的研究特点": "",
+  "3.1针对性研究居多,综合性应用较少。": {
+    "context1": "大多数在虚拟知识环境中关于语义Web的研究，主要是针对语义Web中某一具体方向进行的。比如，针对具体的某种学习或科研过程帮助科研人员进行语义标注；利用语义搜索引擎帮助科研人员进行智能检索等。目前，将语义Web的各个研究方向结合起来进行综合性应用的案例还比较少。这些说明语义Web还处于研究开发阶段，离实际综合性应用的需求还有一定的距离。"
+  },
+  "3.2小范围应用居多,大范围领域应用较少。": {
+    "context1": "由于语义Web的多种技术都是以本体为基础的，所以语义Web的应用领域受到本体建设的局限。近年来针对本体构建的研究在多个领域进行，如地理学领域、生物医学领域等，其中基因本体（Gene Ontology，简称GO）就是一个在生物信息学领域中广泛使用的本体。但是到目前为止，真正成熟可供使用的领域本体相对较少，面对这种情况，语义Web在虚拟知识环境中的应用只能局限于较小的领域范围，大范围交叉领域的应用还需要完善的领域本体的支持。"
+  },
+  "3.3学术会议的相关研究居多,期刊论文较少。": {
+    "context1": "关于语义Web应用的研究论文以IEEE、ACM等学术会议论文居多，期刊论文次之，说明关于语义Web的应用研究尚处于初始阶段，各类国际会议较关注语义Web应用的相关研究，并且关于语义Web的研讨会也较多。"
+  },
+  "4结语": {
+    "context1": "近年来，国外学界和业界的研究机构等对语义Web技术及其主流研究方向的关注程度越来越高，语义Web已经成为各国重点研究的新兴技术之一。通过对多个数据库及国际上大型项目的调研分析发现，对于语义Web技术的研究已经不仅仅局限在理论探讨上，而且同时开展了大量的实验和项目作以研究并取得了一定的科研成果。语义Web的发展取决于其各层技术的发展，本体、逻辑推理等关键技术的研究在不断推动语义Web的发展，语义Web技术的发展和应用将会逐步改善现有的Web，最终实现真正的全球化语义Web。"
+  },
+  "参考文献：": {
+    "context1": "[1]W3C Semantic Web Activity [EB/OL].[2009-01-05]. http://www. w3.org/2001/sw/.   \n[2]Hanbury A.A Survey of Methods for Image Annotation [J].Journal of Visual Languages & Computing,2008(10): 617-627.   \n[3]Wang Yong,Mei Tao,Gong Shaogang,et al.Combining Global, Regional and Contextual Features for Automatic Image Annotation [J]. Pattern Recognition,2008(5):259-266.   \n[4] Computer-Aided Semantic Annotation ofMultimedia(CASAM) [EB/ OL].[2009-01-12].http://cordis.europa.eu/fetch? CALLER=FP7_PROJ_EN&ACTION=D&DOC=3&CAT=PROJ&QUERY= 011e5c594e96:fe76:17215f04&RCN=85475.   \n[5] Jason J.Exploiting Semantic Annotation to Supporting User Browsing on the Web [J].Knowledge-Based Systems,2007(5): 373-381.   \n[6]Hignete G,Buche P,Couvert O,et al. Semantic Annotation of Web Data Applied to Risk in Food[J].International Journal of Food Microbiology,2008(11):174-180.   \n[7] WebContent [EB/OL].[2009-05-16].http://www.webcontent.fr/ scripts/home/publigen/content/templates/show.asp?L=EN&P=55.   \n[8]Bar-Haim R,Dagan I,Greental I,et al. Semantic Inference at the Lexical-Syntactic Level [EB/OL]. [2009-01-18]. http://www.cs.biu. ac.il/\\~dagan/publications/AAAI07%20Camera%20Ready-BarHaim.pdf.   \n[9]Mart i nez-Bé jarR,Cadenas J,ShiraziH,et al.A SemanticsDriven,Fuzzy Logic-Nased Approach to Knowledge Representation and Inference [J].Expert Systems with Applications,2007(12):1940- 1960. (下转第109页） Architecture [J].The Electronic Library,2007(2): 219-233.   \n[5] Eerola J, Vakkari P.How a General and a Specific Thesaurus Cover Expressions in Patients'Questions and Physicians'Answers [J]. Journal of Documentation,2008(1):131-142.   \n[6] Hagedorn K,Chapman S,Newman D.Enhancing Search and Browse Using Automated Clustering of SubjectMetadata [EB/OL].[2009- 05-01].http://www.dlib.org/dlib/julyo7/hagedorn/O7hagedorn.htm.   \n[7] LourdiI,Papatheodorou C,Nikolaidou M.AMulti-Layer Metadata Schema forDigital Folklore Collections [J].Journal of Information Science,2007(33):197-213.   \n[8] Patra C.Digital Repository in Ceramics:AMetadata Study[J].The Electronic Library,2008(4):561-581.   \n[9] Ferran N, Casadesus J, Krakowska M, et al.Enriching E-Learning Metadata Through DigitalLibrary Usage Analysis [J].The Electronic Library,2007 (2).148-165.   \n[10] Hao Ding,S lvberg I.Rule-Based Metadata Interoperation in Heterogeneous Digital Libraries[J].The Electronic Library,2007 (2):193-206.   \n[11]Devare M,Corson-RikertJ,Caruso B,etal. VIVO [EB/OL].[2009- 05-01].http://www.dlib.org/dlib/julyo7/devare/O7devare.html.   \n[12] Institute ofApplied Informatics and Formal Description Methods [EB/OL].[2008-12-06].http://www.aifb.uni-karlsruhe.de/english .   \n[13]YiM.Information Organization and Retrieval Using a Topic MapsBased Ontology: Results of a Task-Based Evaluation[J].Journal of the American Society forInformation Science,2008(12):1898-1911.   \n[14]Summers E,Isaac A,Redding C,et al.LCSH, SKOS and Linked Data[EB/OL].[2009-05-01]. http://webdoc.sub.gwdg.de/univerlag/ 2008/DC_proceedings.pdf.   \n[15] Zeng ML,Fan Wei. SKOS and Its Application in Transferring Traditional Thesauri into Networked Knowledge Organization",
+    "context2": "Systems[EB/OL].[2008-12-06].http://www.oclc.org/us/en/news/ events/presentations/2008/ISKO/200808-SKOS-zeng.pdf. [16] OCLC.Terminology Services [EB/OL].[2009-02-01].http://www. oclc.org/research/projects/termservices. [17]Tennis TJ,Sutton SA.Extending the Simple Knowledge Organization System for Concept Management in Vocabulary Development Applications[J].Journal of the American Society for Information Science,2008(1):25-37. [18]Sinclair J,Cardew-HallM.The Folksonomy Tag Cloud [J].Journal of Information Science,2008(1):15-29. [19] Chopin K.Finding Communities: Alternative Viewpoints Through Weblogs and Tagging [J].Journal ofDocumentation,20o8(6):552-575. [20] GazanR.Social Annotationsin DigitalLibrary Collctions[EB/OL].[2009- 02-01].htp://www.dlib.org/dlib/novemberO8/gazan/1gazan.html. [21]WeaverB.ResearcherProfiles and Porfolios[EB/OL].[2009-02-01]. http://www.dlib.org/dlib/julyo8/weaver/O7weaver.html. [22] Mitchell E,Gilbertson K.Using Open Source Social Software as Digital Library Interface [EB/OL].[2009-02-01].http://www.dlib. org/dlib/march08/mitchell/03mitchell.html. [23] Lally AM,Dunford CE.Using Wikipedia to Extend DigitalCollection [EB/OL].[2009-02-01].http://www.dlib.org/dlib/may07/lally/ 05lally.html. [24] Twine [EB/OL].[2008-12-06].http://www.twine.com."
+  },
+  "[作者简介]": {
+    "context1": "刘毅男，1972年生，副研究馆员，研究方向：语义网、数字图书馆技术，发表论文数篇。  \n汤怡洁女，1979年生，馆员，研究方向：语义网、数字图书馆技术，发表论文数篇。  \n杨锐男，1977年生，馆员，研究方向：语义网、数字图书馆技术，发表论文数篇。  \n刘清男，1969年生，研究员，研究方向：战略情报研究、数字图书馆技术，发表论文40多篇。",
+    "context2": "[收稿日期：2009-05-17]"
+  },
+  "(上接第104页)": {
+    "context1": "[10] Hughes JR,Jones CB.Reasoning about Programs via Operational Semantics:Requirements fora Support System [J].Automated Software Engineering,2008(7): 299-312.   \n[11]Kontopoulos E,Bassiliades N,Antoniou G.Deploying Defeasible Logic Rule Bases for the Semantic Web[J].Data&Knowledge Engineering,2008(7):116-146.   \n[12] Blanco-Fernandez Y,Pazos-Arias J,Gil-Solla A,et al. Exploiting Synergies Between Semantic Reasoning and Personalization Strategies in Intelligent Recommender Systems:A Case Study [J]. Journal of Systems and Software,2008(4):2371-2385.   \n[13]Hakia[EB/OL].[2009-01-12].http://company.hakia.com/.   \n[14] Celino I,Valle E,CerizzaD,etal .Squiggle:A Semantic Search Engine forIndexing and Retrieval ofMultimedia Content [EB/OL]. [2009-01-18].http://ftp.informatik.rwth-aachen.de/Publications/ CEUR-WS/Vol-228/4.pdf.   \n[15]LeiYuangui,Uren V,MottaE.SemSearch: A Search Engineforthe Semantic Web [J].Lecture Notes in Computer Science,2006(10): 238-245.   \n[16]BensaberD,MalkiM.Developmentof Semantic Web Services: Model Driven Approach[J].Proceedings of the 8th International Conference on New Technologies in Distributed Systems,2008(6): 23-27.   \n[17]Barmbilla M,Ceri S,Facca FM,etal.Model-Driven Design and Development of Semantic Web Service Applications [J].Acm Transactions on Internet Technology,20o8(11):23-31.   \n[18] Semantically-Enabled Heterogeneous Service Architecture and Platforms Engineering (SHAPE)[EB/OL].[2009-01-14]. http:// cordis.europa.eu/fetch?CALLER $. =$ FP7_PROJ_EN&ACTION $\\sqsubset$ D&DOC $= 4 0$ &CAT $\\underline { { \\cdot } } _ { = }$ PROJ&QUERY $Y { = } 0 1$ le66be7ffa:cb4e: 743e7237&RCN=85337.   \n[19]Dietze S,Gugliotta A,Domingue J.Towards Context-Aware Semantic Web Service Discovery Through Conceptual Situation Spaces [J]. Proceedings of the 2Oo8 International Workshop on Context Enabled Source and Service Selection,Integration and Adaptation,2008(4)."
+  }
+}

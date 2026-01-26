@@ -1,0 +1,81 @@
+{
+  "original_filename": "full_506.md",
+  "·综 述·": "",
+  "WIS 发展综述": {
+    "context1": "张树良2",
+    "context2": "(1．中国科学院文献情报中心，北京 100080；2．中国科学院研究生院，北京 100049)",
+    "context3": "摘要：本文从WISE国际会议、WIS 的服务及其性能、WIS 的交流模式与技术以及系统开发与管理等不同角度探讨了WIS 的发展历程并在此基础上对WIS 发展的未来趋势进行了展望。",
+    "context4": "关键词：网络信息系统；WIS；发展；综述",
+    "context5": "中图分类号：TP311 文献标识码：A 文章编号：1007—7634(2007)07—1099—04"
+  },
+  "The Synthesis of the Development of WIS": {
+    "context1": "ZHANG Shu- Liang1,2",
+    "context2": "(1.Library of Chinese Academy of Sciences，Beijing 1OO08O， China; 2.Graducte School of Chinese Academy f Siences，Beijing 10O049，China",
+    "context3": "Abstract：The paper discusses the development of WIS respectively from the International Conference on WISE，the service and peiformance of WIS，the communion patern and technology of WIS and，the system development and administration of WIS，and furthermore，the trend of its development is expected. Key words:web information system；WIS；development ；synthesis"
+  },
+  "1引 言": {
+    "context1": "近年来，随着WWW的发展，越来越多的信息提供者以各种形式通过网络发布不同信息，越来越多的用户开始通过网络获取信息。网络已经渗透到人们日常生活的各个层面，它正在改变着人们的生活方式与行为习惯。对于不同业界及用户而言，WWW已成为最重要的网络信息系统（WIS）。因此，以WWW为代表的WIS 的发展及其走向倍受瞩目。从根本上说，WIS 的发展是技术、应用及需求三方面因素共同促动的结果，WIS 的发展不仅决定着网络有效查询与信息检索、网络个性化服务等的最终实现的进程，而且也决定着信息时代真正到来",
+    "context2": "的进程。"
+  },
+  "2从网络信息系统工程（WISE)国际会议看WIS的发展": {
+    "context1": "由于网上用户数目与信息量的巨大和不断剧增，网络有效查询与信息检索以及网络信息管理与服务已经愈发成为一种困难和挑战。因此在全球范围内，系统地研究网络以及基于网络的信息系统的设计、运行与管理变得越发重要和倍受关注。在这种背景下，旨在为全球网络信息系统的研发人员提供一个最广泛的高层交流平台、共同推进网络信息系统的发展并分享其成果的网络信息系统工程(WISE）国际会议（The International Conferenceon",
+    "context2": "Web Information System Engineering）便于 2OOO 年应运而生，它成为全球关于WIS 研发的最重要的交流渠道和把脉WIS 最新进展的重要窗口。",
+    "context3": "首届网络信息系统工程国际会议于2000 年6月 $1 9 \\sim 2 1$ 日在香港成功举行。此次会议在WIS 发展史上具有里程碑意义，它标志着从此Web网络研发与管理的系统化和国际化。WISE'20OO展现了截至 2000年关于网络信息工程及其管理的最新进展，征集并评议了代表国际水准的理论与应用研究成果 (发现)，大会的一个重要目标是针对网络信息系统的发展确定亟待解决的挑战性的课题并塑造WIS未来发展方向，本届会议成立的WISE执行委员会发起组建了WISE社团并形成惯例每年定期举办WISE会议。",
+    "context4": "截至目前WISE国际会议已经举办七届（表$1 ) ^ { \\mathbf { t } ^ { \\mathrm { { l } ^ { - 7 } } \\mathbf { l } } }$ （第七届会议即 WISE’2006 刚于 2006 年10月 $2 3 \\sim 2 6$ 日在中国武汉举行)，虽然历届会议议题均主要涉及WIS五个方面的问题即数据与WIS 语言（包括元数据、XML、语义网、数据挖掘与数据仓储、数据网格等)、网络及其架构（包括网络查询、网络挖掘、网络仓储、网络性能、网络结构、网络本体、内隐网络等）、WIS 设计及其实现（包括网络数据模型、建模、设计方法、描述及其实施等)、WIS 管理（包括控制、监测、安全等）以及WIS 应用（商务、企业、P2P、泛在与移动、创新网络应用等)，但其研究深度和所解决的问题的复杂程度是逐年递增的，其研究层面是由WIS 基础层向应用层逐步拓展的。",
+    "context5": "从历届WISE国际会议的议题可知，WIS的研究热点正由最初的网络语言与网络基础结构转向网络服务及应用（特别是在刚刚结束的WISE'2006,基于新的软件系统的网络信息管理与利用以及网络移动应用成为关注的焦点)，这表明WIS 架构、开发方法与技术已趋于成熟，各种基于网络的服务与应用正在实现或成为可能，WIS已由单一事务网络服务系统向复杂的多任务网络服务系统演进，网络协同、网络智能、网络泛在以及网络自适应正在或即将实现。",
+    "context6": "表1历届WISE国际会议概况",
+    "context7": "<table><tr><td>WISE国际会议</td><td>时间</td><td>举办地</td><td>主要议题数</td><td>关注点</td></tr><tr><td>第一届</td><td>2000(6.19～21)</td><td>中国(香港)</td><td>11</td><td>数据、WIS 基础</td></tr><tr><td>第二届</td><td>2001(12.3~6)</td><td>日本(京都)</td><td>10</td><td>WIS 基础、WIS 初步应用</td></tr><tr><td>第三届</td><td>2002(12.12～14)</td><td>新加坡(Grand Hyatt)</td><td>20</td><td>数据、网络结构、WIS 应用</td></tr><tr><td>第四届</td><td>2003(12.10～12)</td><td>意大利(罗马)</td><td>14</td><td>语义网、网络结构、WIS 应用</td></tr><tr><td>第五届</td><td>2004(11.22～24)</td><td>澳大利亚(布里斯班)</td><td>24</td><td>网络管理、WIS 应用</td></tr><tr><td>第六届</td><td>2005(11.20～22)</td><td>美国(纽约)</td><td>23</td><td>网络管理、WIS 高级应用</td></tr><tr><td>第七届</td><td>2006(10.23~26)</td><td>中国(武汉)</td><td>22</td><td>网络管理、WIS高级应用</td></tr></table>"
+  },
+  "3从WIS 的服务及其性能的改进看WIS 的发展": {
+    "context1": "WIS 的服务方式、内容以及性能来看，WIS 的发展已经经历第一代和第二代，目前正全面进入第三代，即正由1G—WIS 和2G—WIS 向3G一WIS 发展。"
+  },
+  "3.1 1G-WIS": {
+    "context1": "第一代网络信息系统是单一的应答式的信息查询系统，与之相对应的Web Service仅仅是没有互动的用户查询与系统应答。对于用户而言，它仅仅是用户获取所需信息的一种可能的选择，因此，第一代网络信息系统的用户使用响应度很低。"
+  },
+  "3.22G-WIS": {
+    "context1": "中国知网https://www.cnki.net第二代网络信息系统发展成为事务交易系统，相应的Web Service 模式如同一般的产品“厂商”和“用户（消费者)”，“厂商”发布广告以吸引“用户（消费者)”购买，所不同的是这一过程已经从一般媒体转移到了网络。因此，第二代网络信息系统更像是一个以产品提供商为中心的商品交易系统，它对用户的吸引仅仅是因为它可能有用户想要的产品和服务。与第一代网络系统相比，第二代网络信息系统虽然是拥有统一标准界面的用户一系统互动系统，但对于用户而言却存在操作和使用不便以及学习困难的致命缺陷，同时第二代网络信息系统不提供针对用户特殊需求的个性化服务。"
+  },
+  "3.33G-WIS": {
+    "context1": "第三代网络信息系统是真正意义上的Web Ser-vice系统，它针对不同用户提供各种高质量的服务，是真正实现了以用户为中心的服务体系。由于能够满足（相对于前两代WIS而言）用户的个性化需求，所以第三代网络信息系统的用户使用响应度大幅提升。第三代网络信息系统具有以下典型特征： $\\textcircled{1}$ 提供高质量的实时更新的内容； $\\textcircled{2}$ 高性能以及高的可靠性； $\\textcircled{3}$ 可靠的服务提供方； $\\textcircled{4}$ 不论对常用户还是临时用户（或新用户）而言，均使用便捷。",
+    "context2": "目前，WIS的发展尚处于由第二代进入第三代的过渡阶段，大多数WIS（包括银行系统）仍处于2G一WIS 阶段。但一些成熟的WIS，如著名的亚马逊网站（Amazonweb－site）已经显露出3G—WIS的特征。目前所有成功的WIS 均是建立在深谱应用领域及用户的需求、能力与习惯基础之上的，这也正是3G一WIS所要实现的主要目标和今后WIS发展所提出的要求之一。而适应用户的真正以用户为中心的WIS的构建必须以在整个WIS应用空间中为用户提供更多的与之相匹配的用户子空间为基础，而要达到该目标或者说3G一WIS全面到来尚需时日。"
+  },
+  "4从WIS 交流模式与技术的转变看WIS的发展": {
+    "context1": "WIS 的交流模式及其所采用的技术决定着WIS的实现手段和策略。截至目前，按其交流模式与实现技术的演进，WIS的发展经历了四个阶段。"
+  },
+  "4.1静态网络信息系统": {
+    "context1": "即基于单向的从服务器端到客户端的静态交流模式（Sever→Customer）的WIS。在该交流模式下,用户的反馈不被考虑在内，仅仅是一个从WIS 设计者（设计）到系统静态实现的过程：由HITP 服务器端发送超媒体文件至客户端，再由客户端静态的将其呈现。"
+  },
+  "4.2动态网络信息系统": {
+    "context1": "即基于用户反馈的双向的从服务器端到客户端再由客户端到服务器端的动态交流模式（Sever→Customer）的WIS。在该模式下，用户反馈受到关注，整个WIS 实现过程发展为从WIS 设计者（设计）→系统构建→系统使用 $\\nrightarrow$ 用户反馈分析→WIS设计者（设计）的反馈循环：即将超媒体文件存入服务方数据库再通过交互应用界面由用户调用。动态网络信息系统又经历了三个发展阶段： $\\textcircled{1}$ 仅关注用串集用反馈将服务方同用户的交互过程分析纳入反馈环节； $\\textcircled{3}$ 同时将交互应用与事务交易过",
+    "context2": "程考虑在内。"
+  },
+  "4.3适应性网络信息系统": {
+    "context1": "在此阶段，由于专门引入了用户状态标准描述模式，使得WIS 发展为以用户模式为中心的由包含用户化的链接结构的系统文档生成（设计） 以HTML或XML形式系统表达→系统使用→系统应用分析→系统文档生成（设计）的适应性系统。这种适应性的交流模式可以表示为：Sever^→Customer←→Sever。在该系统中，以由特定用户（通过用户模型或领域模型予以定义）信息所确定的用户模式为基础，系统能够进行自我设计（自动生成系统文档）与自我表达 (系统表达)。"
+  },
+  "4.4复杂代理协商网络信息系统": {
+    "context1": "复杂代理协商网络信息系统彻底变革了传统的网络交流模式，即将传统的客户端一服务器模式变革为统一的代理模式（由代理方同时执行客户端和服务器的任务)，可以表示为：Agent（Severor Cus\"tomer）←→Agent（Sever or Customer）。整个网络环境也相应地由传统的由 HITP支撑的“需求一应答”网络环境转变为由代理驱动的参与双方之间进行对等交互的网络环境。系统结构可被描述为通过标准的事务交易环境所连接的双反馈环。两个反馈环即两个独立的代理协商系统，它们分别由系统参数说明（设计)、代理执行、使用协商以及协商过程与结果评估四个环节组成。两个代理协商系统通过起中介作用的标准的事务交易环境即所谓的“电子市场”联系。该系统使得复杂的事务交易过程能够通过WIS 得以实现。"
+  },
+  "5从系统开发和管理的角度看WIS的发展": {
+    "context1": "从系统开发的角度来看，WIS的发展得益于WIS 开发及其管理方式的不断改进，它可以划分为三个层面[】。"
+  },
+  "5.1实施控制": {
+    "context1": "是确保特定任务被有效执行的过程。数据更新与处理不同用户需求即属于该层面，这是早期的WIS 的典型特征。"
+  },
+  "5.2管理控制": {
+    "context1": "是系统管理者为实现系统目标而保证资源有效获取与利用的过程。包括WIS评估、制定WIS 发展方案以及管理WIS发展项目。这是将服务方和用户之间的交互过程进行系统考虑的中期的WIS的典型特征。"
+  },
+  "5.3战略规划": {
+    "context1": "是确定WIS目标、目标转变、实现目标所需的资源以及资源管理、使用与分配方案的过程。这是多任务模式的复杂WIS 的典型特征。",
+    "context2": "需要说明的是，上述对WIS发展阶段的划分是就将WIS的发展进程比作一种项目管理流程而言的。其中管理控制层又可划分为三个层次：方案制定（包括WIS 评估和总体评估，具体涉及内容与功能评估、系统结构评估、操作与管理过程评估以及信息结构评估)、方案管理（包括对同WIS 评估相关联的各个项目的协调）以及项目管理（包括全部项目制定和各个项目协调)。",
+    "context3": "综上所述，如果以时间为横轴，层级为纵轴，则得到WIS层级由低到高、时间渐近（不同方面发展在时序上有重叠）的WIS发展示意图（如图1所示）。",
+    "context4": "![](images/86565da9176c35647dd5e3f454d19d1ddfe44f66877b647d530e123fe399709b.jpg)  \n图1WIS发展示意图各层面发展起止年代均为20世纪90年代至今"
+  },
+  "6结 语": {
+    "context1": "WIS 发展至今经历了一个WIS开发由单一化到多元化、WIS 服务由专门化到个性化、WIS应用由专业到普及、WIS 管理由自发到自觉的过程。应该说无论从理论、技术层面，还是从应用、管理层面WIS 的发展都趋于成熟，但它还不足以应对网络资源迅猛增长、网络技术日新月异以及网络应用日益密集医黄来的挑成p杰来WS发展静势是： $\\textcircled{1}$ WIS的开发将全面转向基于本体系统的开发； $\\textcircled{2}$ WIS技术将完全启用基于 $3 { - } \\mathrm { G }$ 标准的网格技术； $\\textcircled{3}$ WIS系统本身将是智能化的、情景敏感的和自适应的系统； $\\textcircled{4}$ WIS 应用实现“泛在化”； $\\textcircled{5}$ WIS 服务将真正达到集个性化、人性化及易操作性为一体； $\\textcircled{6}$ WIS管理将是自主和高度协同的。",
+    "context2": "总之，伴随WIS 的发展，真正意义上的、完全网络化与信息化的时代正在向我们走来。"
+  },
+  "参考文献": {
+    "context1": "1The $1 _ { \\mathrm { s t } }$ International Conference on Web Information System Engineering（WISE 20OO）[EB/OL]. http://www $\\cdot$ Cs $\\cdot$ cityu· edu. hk/～wise2000/,2006—5-20.   \n2The 2nd International Conference on Web Infomation System Engineering(WISE 2OOl)[EB/OL]. http://www·Informatik· uni -trier·de/\\~ley/db/conf/wise/wise200l.html,2006—5—20.   \n3The 3rd International Conference on Web Infomation System Engineering(WISE 2OO2)[EB/OL].htp://mandolin·Cais · ntu. edu·sg/wise2002/intro·shtml,2006-5—20.   \n4The 4th International Conference on Web Information System Engineering(WISE 2OO3)[EB/OL].http://www.Dis·uniromal. it/wise03/dinamico/,2006－5—20.   \n5 The 5th International Conference on Web Information System Engineering(WISE 2O04)[EB/OL].htp://www·Itee·uq·edu· au/～wise04/,2006-5-20.   \n6 The 6th International Conference on Web Information System Engineering（WISE 2O05）[EB/OL]. http://www·Cse·unsw. edu·au/\\~jas/wise05/,2006-5-20.   \n7 The 7th International Conference on Web Information System Engineering(（WISE 2006）[EB/OL]. htp://ww.Sklseorg： 8080/wise06/,2006—11—20.   \n8 Aleksander Binemann一Zdanowicz $, \\cdot$ Roland Kaschek1, Klaus Dieter Schewel et al·Context -Aware Web Information Systems [J]·Proceedings of the First Asian-Pacific Conference on Conceptual Modelling. 2004(31):37-48.   \n9 Bauer,C., Scharl,A.· Advanced Design of Web Information Systems Based on Dominant and Emerging Web Communication Patterns[A]. Proceedings of the Fifth Australian World Wide Web Conference （AusWeb '99)[C]. Ballina,Australia :Southern Cross University Press.1999.74-85.   \n10Sho Ho, Junichi Ijima $\\cdot$ A Study on Web Development Focused on Evolution[DB/OL]. htp://ausweh $\\ldots$ Scu· edu: au/awO3/papers/ho/paper·Html,2006－5—29.",
+    "context2": "(责任编辑：刘莹)"
+  }
+}

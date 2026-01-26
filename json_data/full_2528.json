@@ -1,0 +1,70 @@
+{
+  "original_filename": "full_2528.md",
+  "可视化同被引分析技术综述": {
+    "context1": "李运景」任银铃4  \n河南省农业科学研究院图书馆•郑州 450002  \n侯汉清²  \n南京农业大学信息管理系南京 210095  \n薛春香"
+  },
+  "南京理工大学经济管理学院信息管理系南京 210094": {
+    "context1": "[摘要]可视化同被引分析步骤主要包括选择数据源、确定分析的元素、计算同被引频次、对数据进行标准化处理、对数据进行降维和图示、对图形进行分析解释。这些步骤中的关键技术在于对获得的高维引文关系数据进行降维和图示，目前应用较多的主要有聚类分析、多维尺度分析、因子分析、自组织映射神经技术、寻径网络技术、最小生成树法、三角测量、力矢量布局算法等。其中寻径网络技术以其较好的图示效果得到较多的应用。",
+    "context2": "[关键词]同被引分析可视化技术[分类号]G354.2",
+    "context3": "Study on theKey Techn iques of CoC itation V isualization   \nLiYunjingRen Yinling   \nLibrary ofHenan Academy ofAgricultural Sc ience Zhengzhou 450002   \nHou Hanq ing   \nDeparment of InfomationManagement Nanjing AgriculturalUniversitys Nanjing 210095   \nXue Chunxiang   \nDeparmentof InfomationManagement Colege ofEconm ics NanjngUniversity ofTechnobgy Nanjing 210094",
+    "context4": "[Abstract]The generalsteps of cocitation visualizationincldechosingadataresourcedefningtheunitofanalysiscalculating siilaritisbeweenunitsstandizingawdatadmensionalityreductionandmappingThekeytechiquesincocitationVisualization processesaredmensionalityreductionandmapingwhichcanderiveusefulrepresentationsofhghdmenationalcitationdataThedi mensionalityreduction andmaping technqueswhichhadbeenused curentlyarecusteranalysismutidimentianalscalingfactora nalysisselforganizing featuremapAnd pathfndernework scalngminimum spaningtreetriangulationandfrcedirected placement and soonAnd pathfider network scaling ismore frequently used because of its preferable visualizing effect [K eywords] co-citation analysisvisualizationtechn iques",
+    "context5": "随着信息可视化技术的发展，文献计量学中的引文分析越来越多地借鉴信息可视化的技术，以形象、直观的图形方式显现分析结果,使得结论更加具有说服力。在各种引文分析方法中，利用信息可视化技术最多的应属同被引分析。最近几年，通过可视化同被引分析生成学科知识图在国外得到了蓬勃的发展,并被应用于科学结构的图示、知识领域的显现、学科前沿预测等方面。本文将对可视化同被引分析中涉及的一些关键技术进行分析和介绍，希望能够对我国可视化同被引分析的研究与应用起到抛砖引玉的作用。"
+  },
+  "1 同被引的概念": {
+    "context1": "同被引（cocitation)的概念是由美国人Henry Small在1973年提出的[1],他最初是以文献为单位进行分析的，即如果两篇论文a和b被一篇后来的文献C同时引用，则a与 b之间的关系称为同被引关系。同时引用a和b的文献越多，则 a和 b之间的关系越近,内容上的相似度越大。继 HenrySm all之后，198l年美国人HowardD.White把同被引的概念本文起止页码：22－25,131 本文责任编辑：易飞扩展到著者，进行了著者同被引分析[2]。之后,学者们把同被引分析扩展到了学科、期刊甚至类目等，形成了文献同被引分析、著者同被引分析、学科同被引分析、期刊同被引分析、类目同被引分析等。虽然分析对象不同，但这些不同类型的同被引分析有一个共同原理，就是同时引用两个单元的文献越多，则这两个单元之间的同被引强度越大，两者的关系越紧密。"
+  },
+  "2可视化同被引的步骤和关键技术分析": {
+    "context1": "可视化同被引分析的步骤，包含以下几个过程： $\\textcircled{1}$ 根据要进行的研究选择合适的数据源，抽取数据; $\\textcircled{2}$ 选定要分析的元素对象，例如期刊、论文、著者、类目等; $\\textcircled{3}$ 计算元素对象之间的同被引频次，构造原始同被引频次矩阵； $\\textcircled{4}$ 确定合适的相似度算法对原始同被引频次矩阵进行标准化处理； $\\textcircled{5}$ 用一定的算法把多维数据在二维或三维空间中聚合并图示出来； $\\textcircled{6}$ 对图形进行分析和解释。",
+    "context2": "考虑到操作和应用的便利，目前的一些可视化软件常常把上述步骤中的 $\\textcircled{4}$ 和 $\\textcircled{5}$ 集成到一起供用户选择使用。由于可视化同被引分析是一个比较复杂的过程，以上每个步骤涉及到的技术也有很大差异，下面对这些关键技术进行简要的对比分析。"
+  },
+  "2.1数据源的选择": {
+    "context1": "进行同被引分析首先需要计算数据元素之间的同被引次数，这一般要依托某一引文数据库的相关统计数据来进行，但是元素之间的同被引次数的多寡有可能随所选择引文数据库的不同而有所区别。以我国中国科学院推出的《中国科学引文数据库》和清华同方推出的《中国引文数据库》为例：2007年3月，以同样的数据获取方式计算我国水稻研究专家袁隆平和程式华的同被引次数，在《中国科学引文数据库》冲，两者的同被引次数为2;而在《中国引文数据库中》，两者的同被引次数则是6。造成这一差别的原因是两个数据库的期刊收录范围大小不一样，前者只收录核心刊，后者收录范围则比较广。因此，作为同被引分析数据源的引文数据库的选择十分重要，既要保证最后计算所得的同被引次数不能过低,也要兼顾数据库所选择期刊的标准，因为引文数据库期刊收录范围如果过于庞杂，容易使论文被引用作为影响力的测度标准失去公正性,被高水平的学术期刊引用一次和被一般推广性科普杂志引用一次显然是不等价的。国外学者做同被引分析一般选用《美国科学引文数据库》(简称SCI)作为数据源。而国内目前可用的具有引文检索功能的数据库较多，这就需根据将要分析的专业学科范围以及同被引次数获得的难易程度来选择。国内的几个数据库中能够直接检索获得同被引频次的有清华同方的《中国学术期刊全文数据库》和重庆维普公司的《中国科技期刊数据库》,对于其他几个引文数据库，则必须根据下载的引文数据，利用一定的程序进行计算，才能得到同被引频次。"
+  },
+  "2.2分析元素对象的确立": {
+    "context1": "这里的元素对象既可以是期刊，也可以是成篇的文献，或者是著者，或者是类目，甚至是学科类别。数据元素不同，所得到的学科知识图反映的内容和作用也有所不同。",
+    "context2": "用期刊或类目或学科类别作为分析元素时，往往能够图示出科学的宏观结构，可以显示出比较大的主要学科专业之间的相对位置和关系，但有时也被用于对某一学科内各专业分支之间关系的图示分析。例如，KevinWBoackyLoelLeydesdorff、JM．Campanario、I Samoylenko等人就分别对期刊引用关系进行可视化分析，展示了大科学的结构[-6];而KevinW．Boacky在其另一篇论文中，则用期刊引用数据对有关科技管理这一学科的领域结构进行了可视化显示[7]。",
+    "context3": "文献 (论文、专利文献等)是同被引分析时最常用的数据元素，以文献为元素进行可视化同被引分析生成的学科知识图被广泛应用于领域分析、文献检索、科学管理等方面。",
+    "context4": "以著者为分析元素时，比较常见的是通过著者的同被引关系来展示某一学科范围内由不同著者代表的学科结构或划分科学家群体等。"
+  },
+  "2.3元素范围的确定和原始同被引频次矩阵的构造": {
+    "context1": "这一步就是根据分析元素的特点选择一定数量的元素，两两计算它们之间的同被引频次，构造出原始同被引频次矩阵。利用期刊或类目、学科作为分析元素时，可以根据要分析的学科范围选择该学科里的所有期刊或类目、专题学科;而利用文献或著者进行可视化同被引分析构造某一专业学科的学科知识图时，就涉及到文献或著者的选择问题。目前还没有一个统一的方法，较为普遍又相对客观的方法是通过被引用频次的高低来确定，即通过检索引文数据库确定某个被引用频次为阈值，选择在阈值之上的文献或著者。在选择阈值时，一方面不能过低，过低容易使无意义的数据量增加太多，徒增工作量;同时也不能过高，过高有可能过滤掉重要的文献或著者，不能全面代表该学科的研究状况。确定好文献或著者后，就要通过一定的方式计算文献或著者的同被引频次，以便构造出同被引矩阵。",
+    "context2": "目前计算著者或文献的同被引频次时，主要有以下三种方法：",
+    "context3": "·通过下载相关文献和它们的参考文献来计算。这是目前比较通用又相对简便的一种方法，就是根据自己要分析研究的学科专题，从所选定的数据库中检索下载有关这一专题的所有文献及它们对应的参考文献条目，用一定的计算机程序来计算选定文献或著者之间的同被引频次。相对于用下面的第二种和第三种方法在整个数据库范围内计算而言，这样获得的同被引频次由于是在专业学科范围内计算,数值往往较低,生成的可视化图也有所偏差。",
+    "context4": "·直接在线手工检索。这只能用于著者同被引分析。SCI过去曾经支持直接通过在线检索获得两个著者之间的同被引频次，但现在已经不再支持。国内的清华同方出版的《中国期刊全文数据库》和维普公司出版的《中文科技期刊数据库》现在有这方面的功能。",
+    "context5": "·根据选定著者发表的文献和引用它们的文献来计算。即对于选定著者，在数据库中查找所有引用这些著者发表的论文的文献，把这些文献目录进行处理，编写一定的程序计算著者之间的同被引频次。这种方法同样是基于整个数据库的统计来计算的。为了简化数据处理过程，一般只计算著者作为第一著者与其他第一著者之间的同被引频次。"
+  },
+  "2.4数据的标准化处理技术": {
+    "context1": "对于关系矩阵中的原始数据，从目前的研究情况看，有学者对其进行了标准化处理，有学者则主张直接采用原始数据。进行标准化处理一般采用皮尔逊相关系数法或Cosine法等。但在采用皮尔逊相关系数法时，由于SPSS软件的限制，数据量不能超过256对。随着可视化算法和软件的开发，有学者开始采用原始数据,并获得了良好的效果。How\"aidDWhite在 2003年[8]采用与1998年相同的数据对情报科学著者重新作的同被引分析中就是采用了原始同被引频次。StevenNoel等把采用原始同被引频次和经过皮尔逊相关系数转换而所得的图进行比较后认为，经过转换，那些同被引次数高的元素 (文献或著者)和同被引次数低的元素(文献或著者)的差别减少，显示在图上的结果就是未经转换时居于中心的核心元素 (文献或著者)在转换后其核心地位不再明显[9]。"
+  },
+  "2.5引文关系数据的降维和图示技术": {
+    "context1": "经过上述几个步骤形成的引文关系矩阵反映了各元素之间的关系的远近，这是一个多维的空间关系，有多少个元素就有多少个维数，对多维数据之间的复杂关系进行可视化生成图表必须进行降维处理，把高维的数据转换成低维数据，从而在低维空间上简单地表现高维空间中的复杂对象间的关系。目前在可视化同被引分析中应用较多的主要有以下几种技术：",
+    "context2": "2.5.1 聚类分析聚类分析是指把分析对象根据彼此之间的相关程度分成类群，使群内尽量相似，群间尽量相异，然后进行分析研究的过程。聚类分析的一般过程是计算分析对象之间的相似系数矩阵，然后把相似系数矩阵作为输入数据，根据一定的聚类算法把分析对象分成类群。聚类方法有多种,但目前使用最多的是非重叠的、内在的，即把分类对象的各属性数据同等对待，每个对象都只能属于最后划分成的类群之一，而不能同时属于两个以上的类群。在对引文数据进行分析，特别是进行同被引分析时，运用最多的是等级聚类法，并用树状图表示结果。目前常用的统计软件如 SPSS等可以用来进行聚类分析，并生成树状图。",
+    "context3": "用等级聚类进行数据分析，整个分析对象集合与任何最后分组之间有着很简化的联系路线，聚类结果树状图中可以反映这种路线和聚类过程的细节信息。但是，等级聚类树状图无法直观反映对象之间的距离与结构关系。",
+    "context4": "2.5.2多维尺度分析多维尺度分析（MultidimensionaScaling简称 MDS)是指通过某种非线性变换把高维空间的数据转换成低维空间中的数据，以疏密不同的散点在低维空间中近似地表现原高维数据间关系的一种技术。通过 MDS可以在较低维空间中直观地看到一些高维样本点相互关系的近似图像，该技术已经成为当今较流行的统计分析软件SPSS中的一个分析模块。虽然多维尺度分析中点的疏密远近可以反映一定的类群关系，但不够明确，同时由于是用散点方式代表分析对象节点，不能表示出对象节点之间的连接。因此，同被引分析中常把多维尺度分析与聚类分析结合起来使用。做法是首先用多维尺度分析把对象表示成平面上的散列的点，然后根据聚类分析的结果把这些点用线圈成点群，最后根据点与点之间、点与点群之间、点群与点群之间的位置关系进行分析研究。国外在 20世纪90年代中期以前采用这种方式进行同被引分析的研究较多，近几年国内学者在同被引分析研究中采用的也是这种多维尺度分析与聚类分析相结合的方法。多维尺度分析的一个局限性是由于通常借助于通用统计软件 SPSS来进行，而 SPSS能处理的数据数量有限,特别是当对数据进行标准化处理时，如果用相似系数,则数据量不能超过 1OO对。例如 HowaidD.White和 MacCain在1998年对情报科学进行著者同被引分析可视化，采用多维尺度分析时就不得不把著者数量限制在头100名著者[10]。",
+    "context5": "2.5.3因子分析因子分析(Factor Analysis)是最早被应用于学科结构分析和图示的降维技术之一。在分析处理多元素间的关系时，元素间的关系往往极为密切，使观测数据反映的信息有重叠，因此，人们希望找出较少的彼此间互不关联的综合元素，尽可能近似地反映原来元素之间的信息，这些不可观测的少数几个综合性的元素被称为公共因子或潜在因子。表现在学科知识结构分析上，因子分析能够把大量的数据归结为少数几类，从而把某一学科划分成多个学科分支。但因子分析一般通过表格的形式反映分析结果，其图示功能很差，现在一般仅作为辅助分析的工具，和其他降维图示技术如多维尺度分析等配合使用。ChaomeiChen在进行著者同被引分析时，曾把因子分析和后文将要介绍到的寻径网络技术配合在一起使用。",
+    "context6": "2.5.4自组织映射神经技术Kohonen依据大脑对信号处理的特点，提出了一种神经网络模型一自组织映射神经模型（SelfOrgan izingFeatureMap 简称 SOM)。这是一种无监督的自组织和自学习网络，主要功能是将输入的N维空间数据映射到一个较低的维度 (通常是一维或者二维）输出，同时保持数据原有的拓扑逻辑关系。它与其他类型神经网络的区别在于：它不是以一个神经元或网络的状态矢量反映分类结果，而是以若干神经元同时(并行）反映分类结果。这种特征映射神经网络通过对输入模式的反复学习，使连接权矢量的空间分布能反映输入模式的统计特性。",
+    "context7": "SOM已经被应用于文献的聚合分类图示中，特别是网络文献。XiaLin是第一个把SOM应用于信息可视化的人[11-12]。他的可视化系统Visual SiteMap就是利用 SOM对从数据库中挖掘出的概念进行了分类集簇和可视化显示。而Cam panario则利用SOM对期刊间的引用关系进行了可视化分析，生成了相关图[5]。",
+    "context8": "2.5.5寻径网络技术寻径网络（PathFinderNetwork Scaling 简称PFNET)是美国心理学家 Schvaneveldt等人1989年提出的用来分析数据相似性的一个模型。它根据经验性的数据，对不同概念或实体间联系的相似或差异程度做出评估，然后应用图论中的一些基木概念和原理生成一类特殊的网状模型。该算法对一个复杂网络中衡量数据相似性的关系进行了简化，检查所有数据之间的关系，在所有可能的两点路径中只保留最强的连接，从而建立数据间最有效连接的路径。最终结果是将数据以及数据之间的关系表达成一个图，图中节点表示数据，边表示数据之间的关系。PFNFT有两个重要参数：r和 $\\mathbf { q }$ q是指路径的最大长度，r参数是闵可夫斯基度量规则（Minkaw skiMetric），是计算路径长度的一个参数。对PFNET的一些基本定义，这里不再详细叙述，但根据其定义，有以下几条规则： $\\textcircled{1}$ 任意点到其自身的距离为$0 ; \\textcircled { 2 }$ 对于边不具有方向性的网络,距离矩阵是对称的，对于边具有方向性的网络，距离矩阵是非对称的; $\\textcircled{3}$ 如果将网络中的节点作为一个独立的概念或实体对象，将节点间的边看作是概念间的联系，边的权值表示联系的差异程度，则根据该网络生成的PFNET剔除掉了不必要的节点联系，保证了把节点间最为密切的联系保留在PFNET中。",
+    "context9": "近几年，以ChaomeiChen等为代表的一些学者把PFNET应用于著者同被引分析的可视化中，并取得了良好的效果。",
+    "context10": "目前已经有商业化的软件把PFNET算法和图示功能融合在一起，最著名的就是PFNET算法的创始人 Schvaneveldt及其同事开发的 KNOT软件，最初是运行在DOS操作系统上,现在已经有了基于Windows的版本。HowardD.White2003年采用1998年的有关情报学研究的著者同被引数据第二次对情报学学科结构进行可视化显示，就是采用了KNOT软件[8]。",
+    "context11": "2.5.6最小生成树法最小生成树算法（M inimum SpanningTree 简称 MST)与PFNET比较相似,其基本思想是：把所有的数据元素看成分布在一个平面上的距离不等的点，如果有 $\\mathbf { n }$ 个点，那么连接各点的可能线路就应该有 $\\mathbf { n } ( \\mathbf { n } ^ { - 1 } ) / 2$ 条线路，但是本着节约成本的原则，根据各点之间的距离建立不同的连通网络，最后选择总的线路距离最短的那个连通网络。",
+    "context12": "Sam aylenko等对期刊之间的引用数据进行分析，就是运用了MST算法来确定各期刊之间的距离。西班牙的FeilixMoya Anegon[13]根据类目对大科学进行领域可视化时也是采用MST来计算各科学大类之间的距离。",
+    "context13": "最小生成树(MST)和寻迳网络(PFNET)优于多维尺度分析(MDS)的一点就是生成的可视化图中可以表示出对象节点之间的连接关系。",
+    "context14": "2.5.7三角测量三角测量(Triangulation)是一个把n维空间中的点排列到2维图形的技术，其思想是随机选择其中的一个点，将其安排到一个位置，然后选择在原来空间中与该点距离最短的第二个点放于另一位置，第三个点的位置则要根据它与前两个点的相对位置构成一个三角形，依次把各点根据相似度计算所得的距离进行安排，最后使所形成的图中的任意三个点都能构成三角形，并且各三角形的最小角最大。同其他的排列技术相比，三角测量的计算量较小，且所形成的图形较准确地反映了单个数据点之间的距离。",
+    "context15": "Henry Small在其1999年发表的那篇文献同被引可视化分析中就采用了三角测量技术，他所做出的“科学图\"是一系列的鸟巢状的圆形互相嵌套，并以等级形式反映各学科之间的关系[14]。",
+    "context16": "2.5.8力矢量布局算法力矢量布局算法（ForceDirectedPlacement简称FDP)是把本来属于多维空间的节点按照它们之间的相似关系在平面图上进行映射的一种技术[15]。其基本思想是：把节点看做物理实体，把表示它们之间距离的边看成提供连接两点的力矢量。节点的移动和布局遵从局部能量最小的原则。",
+    "context17": "传统的力矢量布局算法比较容易理解和操作，但是由于在对节点进行布局时，每增加一个新的节点都要对每个节点间的力矢量进行重新计算，因此在处理大量数据时速度很慢。最近出现了一些力矢量布局算法的改进模型，可视化软件系统VxInsight就是采用了改进的力矢量布局算法，而KevinW．Boyack等利用期刊引用数据对科学领域进行可视化分析就是采用了 $\\mathrm { V x I n s i g h t ^ { 3 . 7 } } ]$ 。"
+  },
+  "3研究展望": {
+    "context1": "除了揭示著者之间的关系外，应用各种可视化同被引分析技术对期刊之间关系、类目之间关系甚至学科之间关系进行图示的研究近年来在国际上有逐渐增多的趋势。但是在进行可视化分析时，虽然已经有一些可供利用的软件，但目前还没有一个成熟的、能够综合各项技术供学者们选用的软件包，要进行可视化同被引分析依然费时费力。可以预见，随着各种可视化软件系统的开发，可视化同被引分析的$\\mathrm { h m }$ ）； $\\textcircled{4}$ Trace Research and Developm ent Cen ter( htp: //www.trace w iso $\\operatorname { e d u } / )$ ； $\\textcircled{5}$ W 3C’sWeb Accessibility Initiative(WAI htp: //www. w3. orgW AI/)。"
+  },
+  "5结语": {
+    "context1": "党的十七大提出，要建立和谐社会，发扬人道主义精神，发展残疾人事业。在教育方面提出了全纳化教育、加强特殊教育等战略，使我国的残疾人事业迎来了一个大发展的重要机遇。无障碍网页的开发使得网页成为障碍人群了解世界、认识世界、改造世界的一个重要手段,其作用越来越突出。随着无障碍网页开发技术不断提高，网页设计软件可及性功能不断提高，帮助残障人群上网的特殊上网装置技术不断增强，无障碍服务必将得到进一步提高。"
+  },
+  "参考文献：": {
+    "context1": "[l]Henry S Co-citation in the sc ientific literatureA new measure of the relationship between two docum entsJou mal of the American Society for Infomation Science 1973, 24(4)：265—269.   \n[2]White HD,G riffith B CAuthor co citation;A literature measure of in tellectual structure Joumal of the American Society for Infoma\" tion Science 1981,32(3)：163-172.   \n[3]BoyackKW，KlavansR，BomerK.Mapp ing the backbone of sci enceScientmetrics 2005,64(3)：351-374.   \n[4]Leydesdorff L C lusters and maps of science joumals based on biconnected graphs in Joumal C itation ReportsJoumal of Documentation2004,60(4):371—427.   \n[5]Campanario JM.Using neural networks to study networks of scientific joumals Scientmetrics 1995,33(1)：23-40.   \n[6]SamoylenkoI Chao TCLiuWCetal Visualizing the scientific world and itsevolution Jou mal of the American Society for Infomation Science and Technology 2006,57(1l)：146l—1469.   \n[7]BoyackKW,Wylie B N，etal Damain visualization usingVxInsight for science and technology managem ent Joumal of the Am eri can Society for Infomation Science and Technology 2OO2,53(9)： 764—774.   \n[8]White HD.Pathfinder neiworks and author cocitation analysisA re m app ing of parad igm atic infomation sc ien tistsJoumal of the American Soc iety for Infomation Science and Technology 2O03,54 (5):423-434.   \n[9]Steven N, Chu Henry Raghavan Vijay Cocitation count vs correlation for influence ne work visualization $\\cdot$ Infomation V isualiza tion2003(2)：160—170.   \n[10] White H D,McCain Katherine W.V isualizing a discipline An author co-citation analysis of infomation science 197l—l995.Jour nal of the American Society for Infomation Science l998,49(4): 327-355.   \n[ll]Lin X.Map displays for infomation retrieval Joumal of the Ameri can Society for Infomation Science 1997,48(1)：40—54.   \n[12]Lin X，Soergel D，Marchion iniG.A selforgan izing sem antic map for infomation retrieval Poceedings of Annual IntemationalACM/ SIGM Conference on Research & Design in Infoimation Retrieval New York:ACM Press 1991,262-269.   \n[l3]Felix Moya AnegonA new technique for building maps of large scientific domains based on the cocitation of classes and categories Scientmetrics 2004,61(1)：129—145.   \n[14] SmallH.V isualizing science by citation mappingJoumal of the American Society for Infomation Science1999,5O（9)：799— 813.   \n[15]Fmchteman TM J Reingold E M. Graph draw ing by force direct ed placement Software Practice and Experience l99l,2l(ll): 1129—1164."
+  },
+  "（上接第 25页）": {
+    "context1": "各项技术也会更加丰富而有效，其应用范围也将更加广泛。"
+  }
+}

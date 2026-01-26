@@ -1,0 +1,104 @@
+{
+  "original_filename": "full_8410.md",
+  "$\\bullet$ 马晓悦，秦春秀，刘怀亮，刘杰（西安电子科技大学经济与管理学院，陕西西安710071)": "",
+  "社会化标签的可视化演化研究进展": {
+    "context1": "摘要：旧的/意义传统文字型社会化标签的表征形式由于词汇、语言的多样性影响了标签内容和标签结构的理解，将标签进行可视化成为优化其表征的途径之一。方法/过程按照社会化标签的可视化发展进程，分别从可视化的文字标签、图形辅助的文字标签、图标标签、结构化图标标签4个阶段来分析各阶段标签可视化的目的、策略、方法以及应用场景。结果/结论]通过对比分析发现，每一可视化阶段在不同的标签表征目标下，依据相应的图形化交互方法对文字型标签进行辅助表征。研究对基于标签的信息资源管理系统设计提供理论建议。局限由于社会化标签理论仍在丰富过程中，文章所阐述的可视化方法也会跟随其发展而被不断完善。",
+    "context2": "关键词：社会化标签；可视化；图标；标签聚类；研究进展"
+  },
+  "Research Progress of the Evolution of Social Tag Visualization": {
+    "context1": "AbstractPurpose/significance]Due tothe influenceof thediversityof vocabularyandlanguageon theunderstandingof tag contenndtagstructureintraditionaltextualsocialtag，visualizingtagbecomesoneoftheways tooptimizeitscharacterzatioficiency.Method/processAccording tote visualizationprocesofsocial tag，thispaperanalyzes thepurpose，strategies，meth odsandaplicationscenariosofthetagvisualizationatthestagesof textualtag，picture-aidedtextualtag，icontag，andstructural ized icon tag.Result/conclusionlThrough theanalysis，thesefour visualization methods emerge basedonthedevelopment f socialtagandgraphicalinteractiontheory.Theyaresubsidiaryrepresentationtoolsapplyingvisualfctors toachievevariedtaggingobjectives.Basedontecomparativeanalysis，thepaperprovidesthoreticalproposalsfortheinterfacedsignoftagbasedinfoation resources management system.imitations]Thevisualization methods mentionedin thispapershouldbecontinuouslyimprovedalong with the enrichment of social tag theory.",
+    "context2": "Keywords:social tag； visualization; icon; tag clustering; research progress",
+    "context3": "社会化标签（Social Tag）作为产生于大众分类法中的特有概念，逐步成为网络环境下，尤其是 $\\mathrm { W e b } 2 . 0$ 环境下一类满足用户各级知识需求的有效工具。自社会化标签研究出现开始，文字标签一直占据着重要的地位。然而随着海量信息时代的到来，传统的文字标签会出现两方面的问题，一是单个标签内容的表征困难，二是一组标签间语义关系的表征困难。产生这两个问题的缘由可分为两个方面。一方面用户数量增加后，不同用户会使用不同的词汇或语言来构建自己的标签，这种语言的发散性存在着用户对于其他用户所使用的标签词汇不熟悉的风险；另一方面，信息复杂度的升高导致用户对同一信息的理解也更加多变。当标注者依照不同视角或不同信息需求来标注同一信息时，所产生的社会化标签语义聚合度也就会更低。",
+    "context4": "文字标签的这些弊端促使如何利用可视化手段改善标签的内容和结构表征成为信息资源管理领域一个被关注的话题。它同时与信息资源管理系统的界面设计相联系：当系统中存在社会化标签标注功能时，如何将这些标签以最佳方式呈现给用户成为系统交互性良好与否的一个重要考查点。",
+    "context5": "本文依照各类可视化方法产生的时间顺序将社会化标签的可视化进程分为4个阶段，分别为可视化的文字标签、图形辅助的文字标签、图标标签、结构化图标标签。需要指出的是，每一阶段的产生并非意味着前一阶段的方法被完全替代，目前这4个阶段产生的可视化方法都仍在不同程度地被应用，并具有自己特有的适合应用的环境。针对每一发展阶段将分别从可视化的目的、策略、方法以及应用场景进行阐述，并最终对各阶段标签可视化进行对比分析。根据这一分析，旨在对使用标签标注功能的信息"
+  },
+  "资源管理系统界面设计提供参考和应用。": "",
+  "1可视化的文字标签": "",
+  "1.1理论阐述": {
+    "context1": "标签从被提出一直以来都是以文字标签的形式存在的，最早提到标签可视化的概念是在标签云（Tagclouds)中8。随着信息数量增加，标签云中所涉及的标签数量也不断增加，而当标签数量增多时，想要从这些文字标签中快速、准确地查找到目标标签就显得非常困难。",
+    "context2": "对标签进行可视化的改造也可看作是将一群标签中的某些标签特别显化的过程[0]。文字标签可视化的手段可分为4类（见图1)：改变标签大小、改变标签颜色（计算机可显示颜色，下同）、改变标签字体粗细以及改变标签间的密度间隔[。",
+    "context3": "调整。"
+  },
+  "1.2主要应用范例": {
+    "context1": "可视化的文字标签主要被应用于标签云中，一是为了保留标签的原本表达形式，使用户可以更直接地理解标签含义；同时，可视化手段主要是为了重点突出标签云中的某些标签，这些标签往往是被多次点击或者是当下最热门的搜索词汇。比如，标签尺寸更大或字体更粗者代表这些标签相较其他标签更受关注；相近颜色或更靠近的标签间被暗示具有更强的语义联系。",
+    "context2": "大部分可视化文字标签构成的标签云都具有实时变更的功能。具体来说指的是标签的大小、颜色、字体粗细、密集程度都会随着用户对标签点击率的变化而发生改变。用户通过浏览标签云中的标签，并点击感兴趣的标签得到与该标签相关的信息列表，进而从中选取目标信息条目。",
+    "context3": "通过累加一定时间内每一标签被点击的次数（或频率)，次数多（或频率高）者将被放大或加粗。"
+  },
+  "1.3优势与弊端": {
+    "context1": "可视化文字标签的第一个优势体现在可视化手段的易实现性上。无论是改变标签大小、颜色、字体粗细或是标签密集程度，都可通过单次可视化改造而达到，无需经过预先培训、复杂设计或是学习阶段。它的简单实现和便于操作性也使其在可视化目标简易的情况下，成为首选的标签可视化方法。可",
+    "context2": "![](images/3b21ad8ee3c1727c495f839eeb53f8c0a3da8d47ac1396e437415b0a32662e1d.jpg)  \n图14种可视化文字标签",
+    "context3": "改变标签大小指的是将一群标签中被点击频率高或者受关注度高的标签的字号放大；改变标签颜色指的是在原有统一为黑色的标签的基础上，将需要重点突出的标签的颜色做以改变，通常可更换为红色、绿色、蓝色等容易引起注意的颜色；改变标签字体粗细指的是对某些标签的字体进行加粗；最后一种改变标签间的密度间隔则指的是基于对标签的语义分析，将相互间存在语义关联的标签排放在一起，并相较于其他标签更加密集。",
+    "context4": "综合来看，改变标签大小和改变标签颜色是最容易实现的，也是最先被研究者提出并应用于标签可视化中的;改变标签字体粗细与前两者难易程度相仿，但由于电脑显示屏的差异，标签字体的粗细区别较大小和颜色较低；而改变标签间密度间隔的方法相较于前三种方法来讲是最复杂的，因为它需要首先对标签的语义关系进行分析。另外，前三类方法中标签的可视化是相对独立的，也就是说对某个标签的大小、颜色或字体粗细进行更改不会影响其他标签的可视化现状；相反在改变标签密度间隔中，若后加入标签与现有标签的语义关系使得原标签群间语义关联发生变化，原来的标签排布和密度间隔也需要相应进行视化标签的另一优势体现在对文字标签原词语形式的保留性上，设计者无需担心可视化后的标签与原标签间表达上的差异。",
+    "context5": "可视化文字标签也存在着一些弊端。由于这些标签仅仅是在文字标签的基础上添加可视化工具而形成的，仅能根据大小、颜色、字体粗细和密集度的不同来区分不同标签的重要性不同，却不能反映这些标签间的语义关系。尽管标签间密集程度已经试图表征标签间的语义关系，但是仅限于比较简单的语义结构，一旦某个标签同时与多个不相关标签基于不同的信息视角产生关联时，标签间的密集程度就不能准确地表征这种复杂的聚簇方式。"
+  },
+  "2图形辅助的文字标签": "",
+  "2.1理论阐述": {
+    "context1": "可视化的文字标签尽管可以对单个标签进行显化表征，但对于复杂的标签间语义关系却无法进行可视化。图形辅助的文字标签就是以可视化标签间语义关系为目的，通过一些图形元素的辅助来更加直接地捕捉到标签结构信息。目前比较常见的图形辅助文字标签主要有两种情形:",
+    "context2": "一种是利用线段将有关联标签进行连接，一种是使用图形阴影将有关联标签聚簇在同一图形形状内[13-14 。",
+    "context3": "利用线段将有关联标签进行连接指的是对多个标签间的关系先进行语义分析，将其中有关联的标签通过实心线段连接，并且线段的长短表示标签间语义关系的亲疏：线段短的代表两个标签间所指代的内容语义关系强，而线段长则代表标签间语义关系弱。利用图形阴影对关联标签进行聚簇指的是根据语义分析将同属一个信息类别的标签用图形阴影圈在一起。当某些标签同时从属于不同的标签集合时，这些标签将存在于所属的两个或多个图形阴影的重叠区域。",
+    "context4": "这两种图形辅助的标签可视化方法各自有适宜的使用环境。当侧重于可视化标签的层级结构时，线段会更多地被使用，这是因为利用线段更容易将上层标签与下层标签的关系表征出来；当侧重于可视化标签的聚簇关系时，不同的图形阴影则可以一目了然地反映出这些标签间的分类结构以及公共标签，而如果使用线段就会因线段数量过多而大大降低了可视化程度。"
+  },
+  "2.2主要应用范例": {
+    "context1": "图形辅助的文字标签以表征标签间语义结构为主要目标，因此大多数应用此种标签可视化方法的实例都是强调标签结构。以下以聚类算法可视化和搜索界面为例来展示图形辅助的文字标签如何进行标签结构表征的。",
+    "context2": "标签聚类算法实际上是利用聚类算法的思想来对标签集合进行分类和聚簇。这些方法中最为常见的是K-means聚类算法和 Hierarchical Agglomerative Clustering（HAC)[i5-d。标签在这些聚类算法下被自动进行语义分析聚类之后，需要利用可视化的方法将聚类结果呈现出来。图形辅助的文字标签主要利用线段来实现标签聚类算法软件对于聚类结果的可视化呈现[17-8。这些软件将标签聚类结果中属于同一簇集的标签排布在邻近的位置。同时，上层标签与直接相关联的下层标签间用线段直接连接；通过中间层标签进行传递的两层标签间也通过两节线段的传递来表征之间的间接语义关联。",
+    "context3": "音乐系统搜索界面是利用图形阴影的文字标签可视化方法的一个应用实例（如图2所示）。该音乐系统中将与音乐资源相关的各类标签进行聚类分析，先确立标签间的语义关联，然后将每个标签簇集以不规则图形阴影的方式汇聚在一起。不同不规则图形间并无差异化展示，代表不同标签聚簇间并无层级的差别。特别地，每两个标签簇集间的公共标签以重叠图形阴影的方式重点显现出来。其中每一标签簇集的核心标签都用改变标签大小的形式重点突出。进入系统进行音乐资源检索的用户率先进入此搜索界面，通过对图形阴影辅助的文字标签的浏览和理解，选择"
+  },
+  "并点击感兴趣的标签来获取相关的音乐资源列表，从而进一步选择目标音乐资源。": {
+    "context1": "![](images/5fcb25bb8d251757e9164d650d0151ed5c457e4c4a26dfdb75e6295a9afc9c94.jpg)  \n图2基于图形阴影的音乐系统搜索界面"
+  },
+  "2.3优势与弊端": {
+    "context1": "图形辅助的文字标签可视化方法的最大优势在于将文字标签所不能直接表征的标签间关系可视化地表征出来，这对于用户在大量标签中厘清标签结构、迅速定位相关联标签都是非常有帮助的。无论是线段或是图形阴影都利用图形辅助工具将标签间的内在关系显化出来，避免了用户仅能通过阅读、理解标签内容而发现标签结构的单一方法，也大大提高了标签结构信息获取的准确度和速度。",
+    "context2": "而由于在这种可视化情况下，标签的表征形式仍然是文字，因词汇、语言多样性所导致的标签理解困难问题则仍有可能存在。另一方面，线段、图形阴影均只能对简单的标签结构关系作以可视化，即单一的层级结构和少量的公共标签。一旦标签的结构关系过于复杂，仅仅用线段和图形阴影就无法表征出这种多层次的结构，就算表征出来也会因为线段、图形阴影的多重交错而大大降低了可视化的程度。"
+  },
+  "3图标标签": "",
+  "3.1理论阐述": {
+    "context1": "图标标签的本质是图标。早在1990年Lohse等就提出图标是6种可视化知识表征工具之一。相较于图形、表格、曲线和网络饼图，图标因其简洁化、直观化的特性被广泛地应用于各类知识表征当中[2",
+    "context2": "Peirce的图标认知模型开启了针对不同的“符号一对象”构建方式对图标进行分类的研究。尽管每位学者对图标进行分类的依据不尽相同，每一类别的名称也有所区别，但实质上仍均是通过不同图标和指代物间的映射关系来进行图标分类的，也即依据图标的物理外形来进行分类。",
+    "context3": "区别于以物理外形为准则的图标分类，相关研究还涵盖了以用户认知为准则的图标分类、以表征策略为准则的图标分类以及以应用目标为准则的图标分类2。",
+    "context4": "其中在以应用目标为准则的图标分类中，提出了行为图标和知识图标的概念：行为图标指的是指导用户在计算机界面上进行具体操作的图标类型，而知识图标指的是用以为用户进行信息表征并传递信息的图标。需要指出的是这4种不同的图标分类准则间并不相互干扰，例如，某一图标可以同时是象形图标也是知识图标。",
+    "context5": "图标的深入研究推动了其在图形化交互界面（GUI)中的应用，无论是计算机软件、网页或是手机屏幕都有使用到图标作为交互工具。尽管图标标签的本质是图标，但并非所有的图标都可称为图标标签。图标标签特别地指的是引导用户学习概念的图标，从这个角度来看图标标签与知识图标是可以一一对等的。"
+  },
+  "3.2主要应用范例": {
+    "context1": "名为VCM（Visualization of the Concepts on Medicine)的图标系统就是知识图标在医药领域应用的一个范例。VCM由3个知识图标子类别组成，包括药物禁忌、药物间相互作用和可能的不良反应（如图3所示2）。每一部分最初都来源于药剂学专家以文本形式在产品特点中的描述。药品图标能够结构化、易理解地呈现相关药品知识，并省去了医生或病人在挑选有用药品时需要对冗繁专业文字逐个浏览的过程。",
+    "context2": "![](images/18a3cf7294b26bce07f815b55e119689a2e3204f13482e71f3bfd9fe12e61003.jpg)  \n图3基于图标标签的药品信息系统界面设计",
+    "context3": "除去在医药健康领域的尝试，危机管理中也开始引进知识图标作为可视化注释工具。NicIcon的目标是收集那些包含有图标的危机管理手稿，最终应用于计算机可视化界面形成自动危机管理知识搜索系统。Fitrianie和Roth-krantz也为危机管理创造了一个使用图标的视觉交流语言。这一以图标为通信界面的原型已经发展成为实现危机技术的必要功能。它使专家能够在危机情况下，根据图标的可视化表征快速、准确地做出决定并在各成员间进行协调。"
+  },
+  "3.3优势与弊端": {
+    "context1": "由于图标标签的本质是图标，因此其在信息可视化中的优势与其他图形化表征的优势基本相同，可以主要体现在两个方面。一方面图标的符号指代功能帮助用户更好地理解标签的含义。作为图形表征物之一，图标标签也正是利用图形符号来对标签中文字内容进行辅助阐释。特别是当该标签对应的知识属于专业领域词汇时，图标标签的图形符号可以通过简单的、贴近现实生活的信息传递方式将生僻的内容形象地展示出来。另一方面，图标标签的出现改善了国际化环境下多语言知识的表征难题，图形符号的通用性使得各国用户可以直接获取标签信息而不用首先进行语言学习。",
+    "context2": "图标标签在使用中的弊端也与图形表征物相类似，这主要来自于不同研究学者对于图形认知和文字认知的学术观点。一些研究学者认为图形认知并不能完全取代文字认知2，只能作为文字认知的辅助；而另一些研究学者则认为图形认知与文字认知有同等的信息指代效力，甚至在某些环境下，例如多语言信息共享情况下，图形认知会相较文字认知表现出更强的信息指代功能。"
+  },
+  "4结构化图标标签": "",
+  "4.1理论阐述": {
+    "context1": "针对图标标签在标签结构表征上的不足，一种全新的标签可视化方式被提出，也就是结构化图标标签。结构化图标标签的核心思想在于同时可视化单个标签内容和一组标签间的结构。用户不仅可以通过理解每个标签的指代内容去判断标签与标签间的联系，也可以通过可视化的辅助工具来直接辨识哪些标签属于相关联的信息门类下。",
+    "context2": "结构化图标标签的实现依据Bertin的图形化分类理论，利用图形化编码对标签结构进行可视化表征。Bertin的图形化分类理论最初是为了地图设计而产生的，在地图上使用不同的图形化元素或几种图形化元素的组合就能够区分不同的地理区域。结构化图标标签正是想借鉴这一分类思想，通过某种或某几种图形化元素的组合来区分属于不同信息组别下的标签。考虑到结构化图标标签大多以计算机显示屏为呈现界面，因此Bertin所提出的6种图形化变量中选取形状、颜色色彩、纹理3个用以构建结构化图标标签，其中颜色色彩用以彩色显示的情况，纹理用以黑白显示的情况。",
+    "context3": "结构化图标标签可以认为是基底图标和具体图标两者的叠加。基底图标指的是利用形状、颜色色彩、纹理3种图形化元素的单一或组合使用来表征信息所处于的类别。这种简单图标没有任何指代符号，仅仅搭建图形化元素和信息类别间的可视化桥梁关系。例如，绿色方框代表“环境效益”，紫色方框代表“经济效益”，紫色圆圈代表“经济措施”等。",
+    "context4": "结构化图标标签对标签的可视化步骤可分为4个层次。第一层次，知识工程专家通过对社会化标签的解析确立标签间的语义关系，发现标签结构。第二层次，针对语义结构，对每一信息类别设计对应的先设图标。这一层次可被看作是标签结构可视化。第三层次，为每个文字标签确定其指代符号，也可称为寻找对应图标标签的过程。这一层次可被看作是标签内容可视化。最后一个层次是依据每一标签所处的信息类别实现先设图标和具体图标标签的复合叠加。这一环节也可被认为是标签内容可视化和标签结构可视化的统一，完成结构化图标标签系统的设计。"
+  },
+  "4.2主要应用范例": {
+    "context1": "结构化图标标签作为新型的可视化标签，目前尚未被大量地应用于实际当中，现以旅游信息资源管理为例说明。",
+    "context2": "旅游信息系统将结构化图标标签以标签库的形式作为信息表征元素（如图4所示）。当用户选中不同的先设图标时，即选中不同的信息门类时，地图上会出现仅以此先设图标为基地的结构化图标标签，用户则可以进一步在这些备选中挑选目标旅游信息条目。利用结构化图标标签在地图上的全局展示，可以看出不同旅游类型、不同景区级别、不同占地面积、不同开放程度的旅游信息条目的地理分布情况。以结构化图标标签为搜索媒介的旅游信息资源管理系统从检索手法和旅游信息展示方式上都更加符合用户的交互习惯，满足了对旅游信息内容和结构的双重可视化目的。",
+    "context3": "匹配。仅仅尺寸和颜色变量可以被应用于文字标签，而所有的图形变量都可以轻易地添加在原始图标上。因此可视化辨别语言也许不是最好的但却是最适合于图标标签的表征方式。其次，可视化辨别语言改善了标签语义结构的表征。用户可以根据共有的图形化变量来识别存在于同一语义组别下的标签，这使得标签结构的识别从先前的标签内容理解转变为现在的可视化编码识别，同时在协同背景下的图形编码将使得标签结构理解达成统一。最后，一个标签涉及多个知识组别的情况现在越来越普遍，可视化辨别语言和先设图标可以帮助表征某一标签所偏好的知识类别。例如，“可再生能源”这一多领域主题标签，当考虑能源问题时它与环境主题相关，当考虑降低能源消耗时它与经济主题相关联。在文字标签的情况下，“可再生能源”仅有唯一的文字形式。然而基于VDL的图标则可以利用先设标签适应多主题关联的标签类型“可再生能源”的符号将分别与“环境方面”的先设图标以及“经济方面”的先设图标叠加，通过这种方式一个标签就变为两个关注点不同的标签。",
+    "context4": "尽管结构化图标标签通过标签内容和标签结构同时可视化展示出在标签管理中的极大优势，它在一些方面仍存在着弊端。一方面结构化图标标签是这几种标签可视化方法中最复杂的，所需的设计过程包含的环节也最多，同样对用户而言需要学习其可视化规则的时间也更长；另一方面随着信息数量与用户数量的不断提升，同一标签可以通过多个视角，即多个分类准则来进行描述。例如，绿色农业的科技文献从知识主题来看属于环境保护类别，从知识展示形式来看又属于科技文献，而从应用环境来看则属于农业。三种不同的分类视角将会对应有三类不同的结构化图标标签，那么使用哪一个来对这一知识文档进行标注、最终显示在信息系统的搜索界面上就成为一个需要讨论的问题。"
+  },
+  "5各个发展阶段的对比分析": {
+    "context1": "![](images/9e05a5a8fe9e2c4c63fc6ea361dfa4a87aa35c57e839df3999865b398f8def61.jpg)  \n图4基于结构化图标标签的旅游信息资源检索系统界面"
+  },
+  "4.3优势与弊端": {
+    "context1": "可视化辨别语言以及先设图标是结构化图标标签的核心体现，它们二者的信息表征优势反映出结构化图标标签系统的信息管理优势，具体来看可以表现在以下3点。",
+    "context2": "首先，相较于文字，可视化辨别语言可更好地与图标",
+    "context3": "根据上文对4种标签可视化方法的评述可以对各类可视化方法的理论概念以及应用情况有了较详细的了解。这4种方法均利用可视化元素对文字型标签进行辅助的表征，旨在对标签内容或（和）标签结构进行强调。而4种方法无论是在可视化目的、可视化工具或适用环境都有着各自的特点，相互之间既非递进关系也非包含关系，而是基于在不同的标签表征目标下所产生的具有针对性的可视化方法，也可以说这4种方法是依据标签发展阶段和图形化交互界面发展阶段而依次出现的。表1对这4种标签可视化方法在拟可视化的目标、所使用的可视化工具和各自适应的应用情况做出了对比。",
+    "context4": "表14类标签可视化方法的对比",
+    "context5": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>可视化文字标签</td><td rowspan=1 colspan=1>图形辅助的文字标签</td><td rowspan=1 colspan=1>图标标签</td><td rowspan=1 colspan=1>结构化图标标签</td></tr><tr><td rowspan=1 colspan=1>标签形式</td><td rowspan=1 colspan=1>文字</td><td rowspan=1 colspan=1>文字</td><td rowspan=1 colspan=1>图标</td><td rowspan=1 colspan=1>图标</td></tr><tr><td rowspan=1 colspan=1>可视化目标</td><td rowspan=1 colspan=1>显化重要标签</td><td rowspan=1 colspan=1>显化标签间的语义关系</td><td rowspan=1 colspan=1>帮助标签内容的象形解释</td><td rowspan=1 colspan=1>同时显化标签内容和标签间语义结构</td></tr><tr><td rowspan=1 colspan=1>可视化工具</td><td rowspan=1 colspan=1>标签大小、颜色、字体粗细、密集程度</td><td rowspan=1 colspan=1>标签间线条、底部阴影</td><td rowspan=1 colspan=1>图标</td><td rowspan=1 colspan=1>可视化辨别语言+图标</td></tr><tr><td rowspan=1 colspan=1>适用环境</td><td rowspan=1 colspan=1>简单的可视化需求；对标签结构不强调或因标签经常大批量更换所导致的标签结构松散的知识系统</td><td rowspan=1 colspan=1>标签语义结构集中、基本不发生变化的知识系统</td><td rowspan=1 colspan=1>知识内容生僻、语言种类较多的知识系统；适合图标标注的环境，如地图</td><td rowspan=1 colspan=1>分类结构复杂、灵活多变的知识系统；适合图标标注的环境，如地图</td></tr></table>"
+  },
+  "6结束语": {
+    "context1": "标签作为重要的信息管理与知识组织工具之一，为用户提供被标注知识的摘要信息，并为知识系统提供有效的分类与检索途径。在大数据环境下，知识数量急剧增加、知识结构日益复杂，带动着标签的内容和结构也趋于多变。为了弥补文字型标签在标签内容理解与标签结构表征上的缺陷，多种可视化工具被用以进行标签的辅助展示，经历了可视化的文字标签、图形辅助的文字标签、图标标签以及结构化图标标签4个阶段。值得指出的是，目前4种可视化手段依然并存，并依据不同的知识系统环境而采用相应的可视化方案。也就是说4类可视化方法尽管出现的时间不尽相同却并无绝对的优劣之分，在不同的应用环境中会展现出各自不同的适应程度。因此，本文对标签可视化的发展现状的梳理将对知识系统界面特别是标签云等基于标签的信息管理工具的设计提供一定的参考。□"
+  },
+  "参考文献": {
+    "context1": "[1]HODGE G.Systems of knowledge organization for digital libraries[R]．Council on Libraryand Information Resources, Washington，D C.Digital Library Federation，2OO0：46.   \n[2] WETZKER R，ZIMMERMANN C，BAUCKHAGE C，ALBAYRAK S.I tag，you tag: translating tags for advanced user modelsC//Proceedings of International Conference on Web Search and Data Mining，2010.   \n[3] DANIEL HP.FolsonomyM．New York Times，2005.   \n[4]O'REILLY T，BATTELLE J.Web squared:Web $2 . 0$ five years on[．Web 2.0 Summit，2009:1-13.   \n[5] GADOMSKI M A，BALDUCELLI C，BOLOGNA S，DICOSTANZO G.Integrated parallel bottom-up and top-down approach to the development of agent-based intelligent DSSs for emergency management [C//The Fifth Annual Conference of The International Emergency Management Society，Washington，D.C.，1998.   \n[6] DOWNEY D,DUMAIS S，HORVITZ E. Understanding the relationship between searchers’queries and information goals [//Proceeding of the 17th ACM Conference on Information and Knowledge Management，ACM Press，2008.   \n[7] SEN S，LAM S K，RASHID A M，COSLEY D, FRANKOWSKID，OSTERHOUSEJ，HARPERFM，RIEDL J. Tagging，communities，vocabulary，evaluation[c]// Proceedings of the 2Oth Anniversary Conference on Computer Supported Cooperative Work，2006.   \n[8] HEARST M A.What’s up with Tag Cloud&[EB/OL]. [2017-04-25]．http: //www．perceptualedge.com/articles/ guests/whats_up_with_tag_clouds.pdf.2008.   \n[9] HEARST MA，ROSNER D. Tag clouds: data analysis tool or social signaller[]//Proc.of the International Conference on System Sciences，2008.   \n[0] BATEMAN S，GUTWIN C，NACENTA M.Seeing things in the clouds:the efect of visual features on tag cloud selections [C]//Proc. Hypertext and Hypermedia.ACM Press，2008: 193-202.   \n[] RIVADENEIRA A W，GRUEN D M，MULLER M J, MILLEN D R.Getting our head in the clouds: toward evaluation studies of tagclouds[C]//Proc.CHI2007.ACMPress， 2007:995-998.   \n[12] BIELENBERG K，ZACHER M. Groups in social software:utilizing tagging to integrate individual contexts for social navigation[D]．Bremen:Program of Digital Media，University of Bremen，2005.   \n[3] SHAW B. Utilizing folksonomy:similarity metadata from the del. icio.us system[EB/OL]．[2017-04-25]．htp://www. metablake.com/webfolk/web-project.pdf.Accessed December 30,2008.   \n[4] KERR B. TagOrbitals: tag index visualization.IBM research reportEB/O1]．[2017-04-25].http://domino.research.ibm. com/library/cyberdig.nsf/1e4115aea78b6e7c85256b360066f0 d4/8e1905dc8b000673852571d800558654?OpenDocument.Ac   \n[5] BROOKS C H，NANCY M.Improved annotation of the blogosphere via auto-tagging and hierarchical clustering[C]//the 15th World Wide Web Proceedings of the International Conference in Edinburgh，Scotland，ACM Press，New York，NY， 2006:625-632.   \n[6] 滕广青，毕强，高娅基．基于概念格的Folksonomy 知识组 织研究—TagCloud的层级体系构建[]．情报学报， 2012，31(2):136-142.   \n[7] HEYMANN P，GARCIA-MOLINA H. Collaborativecreationof communal hierarchical taxonomies in social taggng systemsR. Technical Report 2006-10，Stanford University，April 2006.   \n[8] SCHWARZKOPFE，HECKMANND，DENGLERD, KRONER A. Mining the structure of tag spaces for user modeling[C]//Data Mining for User Modeling ICUM’O7 Proceedings of the International Conference in Corfu，Greece, 2007: 30-31.   \n[9] CHEN Y，SANTAMARIA R， BUTZ A， THERON R. TagClusters:semantic aggregation of collaborative tags beyond TagClouds[J]．Smart Graphics In Smart Graphics，2009, 5531: 56-67.   \n[0] LOHSE J，RUETER H，BIOLSI K，WALKER N. Clasfying visual knowledge representations:a foundation for visualization research [C]．IEEE Computer Society Technical Committee on Computer Graphics，SIGGRAPH:ACM Special Interest Group on Computer Graphicsand Interactive Techniques, 1990:131-138.   \n[1] WANG H，HUNG S，LIAO C.A survey of icon taxonomy used in the interface design []//Proceedings of the ECCE 2007 Conference，London，UK，2007:203-206.   \n[2] ISHERWOOD S.Graphics and semantics: the relationship between what is seen and what is meant in icon design[]//International Conference on Engineering Psychology and Cognitive Ergonomics:Held AsParsons，2009:197-205.   \n[3] NAKAMURA C，ZENG-TREITLER Q.A taxonomy of representation strategies in iconic communication．International journal of Human-Computer Studies，2012，70:535-551.   \n[4]MA X，MATTA N，CAHIER JP，QIN C，CHENG Y.From action icon to knowledge icon:objective-oriented icon taxonomy in computer science[．Displays，2015，39:68-79.   \n[25] MARTINEZ W L. Graphical user interfaces [l．WIREs Comp Stat，2011(3):119-133.   \n[26] LAMYJB，DUCLOSC，BAR-HEN A，OUVRARDP, VENOT A.An iconic language for the graphical representation of medical concepts[．BMC Medical Informatics and Decision Making，2008.   \n[27] NIELS R，WILLEMS D JM，VUURPIJL LG.The NicIcon database of handwritten icons[C]//Proceedings of ICFHR, Montreal，Canada，2008.   \n[28] PETERR，VAN AALSTJW，WILSONF，HOFMANN T. Using icons as a means for semantic interoperability in emergency management [C]//8th International Conference on GeographicInformation forDisasterManagement，Enschede, NI. 2012.   \n[29] MAYER R E，ALEXANDER P A.Handbook of research on learning and instructionM．New York：Routledge，2011.   \nB0]Apple Computer Inc. Staff. Macintosh human interface guidelines M]．Addison-Wesley Publishing Company，1992.   \nβ1]MA X，CAHIER JP.Graphically structured icons for knowledge tagging[]．Journal of Information Science，2014，40 (6): 779-795.   \n[B2] BERTIN J. Semiology of graphics:diagrams，networks，maps Ml．Translated by BERG W J. University of Wisconsin Press, 1983. 作者简介：马晓悦，女，1987年生，博士，副教授。研 究方向：信息可视化管理。秦春秀，女，1980年生，博 士，副教授。研究方向：信息资源管理与共享。刘怀亮， 男，1974年生，博士，教授。研究方向：数据挖掘与分 析。刘杰，女，1992年生，硕士生。研究方向：信息资 源管理与共享。   \n作者贡献声明：马晓悦，提出研究思路，设计研究方案， 论文撰写。秦春秀，对研究方案给出建议。刘怀亮，对研 究思路、方案做指导。刘杰，查阅文献，论文后期修改。 录用日期：2017-07-03"
+  },
+  "(上接封三)": {
+    "context1": "此外，杜元清读友分享了《地平线扫描与（大）数据—两个案例》的报告，从具体案例角度对开展数据分析工作进行解读。",
+    "context2": "此次读书活动的报告内容十分丰富，到讨论环节气氛更为热烈。针对数据的本质是什么、数据科学应该怎么看、数据科学与情报学之间是什么关系、怎样从工具化思考升华到价值观思考等问题，读友们各抒己见、精彩纷呈。与会老先生们提出殷切期望，希望年轻读友要有开放的胸襟和献身的精神，多读书、读好书，在科学研究的道路上扎实前行！",
+    "context3": "(王忠军、于伟撰稿)"
+  }
+}

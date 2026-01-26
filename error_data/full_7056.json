@@ -1,0 +1,76 @@
+{
+  "original_filename": "full_7056.md",
+  "$\\bullet$ 张宁，袁勤俭": {
+    "context1": "(1．南京大学信息管理学院，江苏南京210023；2.贵州财经大学信息学院，贵州 贵阳 550025)"
+  },
+  "数据质量评价述评": {
+    "context1": "摘要：旧的/意义从数据资产的视角来说，数据质量评价对于数据质量价值提升具有重要作用。对数据质量评价的模型、方法、评价主体和评价对象的相关研究进行述评，以期将数据质量评价研究引向深入。仿法/过程采用文献调研法，对国内外文献进行系统脉络梳理和整体内容述评。结果/结论]目前研究普遍采用数据质量调查法确定多个维度指标，主要采用定性定量相结合的评价策略，并且逐步关注数据用户的需求。现有研究存在“评价标准视角单一”“多维指标之间的相关性欠缺论证’“计算机自动化评价受数据体量增大的瓶颈限制”等问题，未来研究需关注“大数据环境下的数据质量评价模型建模’“充分考虑数据使用者的需求和认知条件”“非结构化数据的有效质量评价方式构建“规模半结构化数据质量评价的计算机自动评价的实现”。",
+    "context2": "关键词：数据质量；评价；研究现状"
+  },
+  "A Review of Data Quality Evaluation": {
+    "context1": "AbstractPurpose/significancelFromtheperspectiveofdata assets，data quality evaluation playsanimportantrole in improving thevalueofdataquality.Inordertodepentheresearchondataqualityevaluation，this paperreviewsrelevant studiesof dataqualityevaluationmodels，methods，evaluation subjectsandevaluationobjects.Method/process]Boththedomesticand foreignliteraturesaresystematicallycombedbyliterature investigationResult/conclusionCurentresearchesgenerallyusedata qualitysurveymethodtodeterminetheindexesofmultipledimensions，adopt thecombinationofqualitativeandquantitativestrate giesforevaluation，andgraduallpayatention totheneedsofdatausers.Therearesomeproblems intheexistingresearches，such as“singlstandardofevaluation”“insuicientargumentationofthecorelationamongmulti-dimensionalindicators”and“bole neck limitationofcomputerautomaticevaluationbydatavolume”.Futureresearches needtofocuson“modelingofdataqualityevaluationunderbigdataenvironment’‘takingfullaccountofdatausers’demandsandcognitiveconditions’‘buildingefectiveual ityevaluationmethodsforunstructureddata”and“realizingthecomputerautomaticevaluationof thesemi-structureddataquality”.",
+    "context2": "Keywords:data quality； evaluation； research status",
+    "context3": "随着数据不断地增长和积累，基于大数据的产品和服务创新，正有力地改变传统组织的竞争格局，充分表明数据的价值已被提升到前所未有的高度，数据已然成为一种重要的资产，是能为组织带来经济利益的数字资源。然而，随着数据体量和复杂度的上升，加剧了低质量数据产生的风险，低质量数据不仅破坏了信息系统的可使用性原则，同时严重影响数据的可持续使用，因此数据质量的评价引起了学术界的普遍关注。",
+    "context4": "数据质量评价的相关研究由来已久，国内外已经积累了不少成果，对其研究现状进行系统梳理显得十分必要。",
+    "context5": "然而，目前未见对数据质量评价进行全面的述评，只有部分学者针对某一类型的数据质量评价总结了研究进展：李丽娜从评价方法和评价指标两方面对网络信息资源质量评价研究进行综述[；赵文轩和李春旺针对关联数据质量评价，系统梳理了国外相关研究动态，对评价方法的演进过程进行了总结，并比较了各种评价类型的内容、模式、特点与优缺点；蒋引娣从信息价值模型、信息成本模型、元数据质量评价模型等方面综述了信息质量和元数据关于成本一效益的质量评价；姜雯和许鑫对在线问答社区的信息质量评价相关研究进行了分析和梳理。",
+    "context6": "需要指出的是，数据质量评价的过程和环境涉及多主体、多维度、多环节和多类型的数据资源，十分复杂。因此，为了帮助学界全面了解国内外数据质量评价的研究进展，本文拟对该领域的研究现状进行深入分析，发现现有研究已经取得的成果、存在的不足以及未来研究值得关注的研究方向。"
+  },
+  "1数据质量评价模型的研究现状": {
+    "context1": "为了清晰表达一些复杂和抽象的概念，构建科学的模型或框架是开展数据质量评价工作的首要任务，多数学者在研究时均从不同角度提出了数据质量评价的框架。Wang等将信息产品与制造业产品做出对比，从而提出的数据质量评价框架中应包含管理职责、运营、成本、研究、开发、生产、分发、个人管理、合法功能等因素；类似的，Lee等也视数据为产品，按照数据产品质量维度和数据服务质量维度，以象限矩阵的方式建立了数据质量评价模型 $\\mathrm { P S P } ^ { \\mathbb { H } }$ 。数据质量评价的维度不仅需要考虑数据的价值，还需要从用户角度考虑数据的使用，因此Cap-piello等建设了一个从用户视角出发的数据质量评价模型，模型中定义了用户类别、用户数据质量服务需求矩阵等。除了关注数据的生产过程，也有学者以数据生命周期的视角构建数据质量评价模型，如陈苏等提出了可计算的覆盖整个软件生命周期的数据质量评估模型CLDQ。随着Web资源的丰富，针对网络环境下的数据质量需求管理，Garcia等构建了在Web应用中能够捕获数据质量软件需求的元模型。此外，Wand和Wang强调应在本体的概念上理解数据质量各个维度的含义，避免数据质量维度因缺乏统一的语义基础而造成理解偏差，因而依据本体建立了评价模型[ 。",
+    "context2": "由此可见，国内外数据评价模型通常包括了评价方法、技术工具、评价标准、流程规范等方面，各个理论框架针对特定领域，分别采用了数据产品的视角、用户的视角以及生命周期等视角，各具特色和优势，但尚未形成广泛认可的评价模型体系。"
+  },
+  "2数据质量评价方法的研究现状": {
+    "context1": "目前关于数据质量评价方法的研究，主要包括定性评价、定量评价以及定性定量相结合的3种评价方法。",
+    "context2": "1）定性评价。定性评价是依据专业领域知识和个人经验理解，按照一定的评价标准进行估计和推断的一种评价方法。目前的定性评价方法主要是数据质量指标量化法，许多学者认为数据质量是一个多维度的概念[10-]，因此从不同角度提出了数据质量评价的定性指标。早期，Wang等提出了数据质量评价的最基本的4个指标，即准确性、时效性、完整性和一致性，Bobrowski在此基础上，将各个现有指标归类，分为直接指标体系和间接指标体系，并采用GQM（目标一问题式）的方式构建数据质量评价指标。此外，曹瑞昌和吴建明从信息的三元结构出发，阐释了信息质量的指标包括内容质量、集合质量、表达质量和效用质量。针对元数据质量评估，",
+    "context3": "Bruce 和 Hillmann 提出了7个定性评价指标[4。",
+    "context4": "在强调数据的生产过程中，Strong等定义了数据的4个分类和维度属性，即本质性、可访问性、情景性和表达性，并具体阐述了组织中数据质量本质性、可访问性和情景性的问题[；类似的，Lee等在 Strong所提出的数据质量的4个维度指标的基础上，从学术视角和业界实践视角，梳理了现有关于数据质量的具体维度特征，通过这些指标的整合，为不同情境下的信息质量评估提供了有效的方法体系。",
+    "context5": "随着网络技术的发展，Web环境下，Caro等通过先前文献梳理和问卷调查反馈，构建了与网络门户数据质量相关的33个指标体系。此外，在关联数据的评价中，Gueret等认为，关联性评价的目的是提高数据间的连通性，并借鉴社会网络方法提出关联数据的数据质量评价框架，包括选择、构建、分析、扩展和比较5个阶段，并构建了和网络节点有关的5项度量标准；在Web应用中，也有学者从内容质量的角度建立指标评价体系，如莫祖英等分别从信息量、信息内容质量、信息来源质量和信息利用情况4个方面评价微博信息的质量[。",
+    "context6": "2）定量评价。定量评价主要是通过数学或其他科学手段而做出的判断和分析评估，能够较好地保证评估结果的科学性和客观性，使其具有较好的信度，多数用于结构化数据库的评价，如针对关系数据库数据质量的精确性和完整性两个重要指标进行评价时，Parssia等通过关系代数操作进行了量化[，韩京宇等通过数据和“最近似”间的信息量差异来定量分析；而Heinrich和Klier则是基于概率论，对数据质量的时效性指标建立了评价体系PB-CM b1 。",
+    "context7": "在数据质量形式化评价模型的可计算描述方面，杨青云等定义了一个六元组计算数据质量的绝对量化值和相对量化值，陈苏等引入一个五元组进行数据质量的评估和流程的优化；此外，Pierce提出使用控制矩阵的方法评价信息产品质量，通过定量分析，帮助识别潜在的数据质量提升领域，但未具体阐释矩阵的计算方法 。",
+    "context8": "Web 内容质量评价方面，韩京宇和陈可佳在抽取文档事实的基础上，根据事实语义量化数据质量，用模拟退火算法实现了准实时的在线评估，保证在任何时候返回一个可接受的近似最优解；网络链接分析法也广泛应用于网络信息质量的定量评价，多位学者如Ingwersen、Han等利用其确定核心网站、筛选权威网页以及测定网络信息资源的网络影响因子等。",
+    "context9": "在元数据质量的定量评价方面，Ma等利用SQL查询语句判断非空字段的个数，从而确定元数据的完整性；Ochoa和Dunal利用元数据记录间的语义距离测量了元数据的准确性，利用信息熵计算了受控值字段的出现频率 。",
+    "context10": "3）定性定量相结合的评价。定性定量相结合的评价，其主要做法是在定性评价方法的基础上引入数学手段，定性问题通过人工设定的标准进行评分并做出量化处理，评分的过程都是针对事先建立的指标体系，具有部分数理统计的特征，如德尔菲法、模糊综合评估法、层次分析法等，Bovee等在4个质量评价定性指标的基础上，对基于信任函数的框架模型进行了评分3；宋立荣和李思经则是通过专家打分，确定农业科技信息有影响的关键质量维度；此外，李贺和张世颖对移动互联网用户生成内容采用扎根分析、问卷调查及主成分分析构建了质量评价指标体系；Wats等建立在认知理论基础上，通过实验法实证了信息质量评估过程中的主客观因素。",
+    "context11": "与前述评分过程不同的是，Stvillia和Gasserb 提出了元数据质量变化的价值估计方法，并构建基线质量评价模型，对特定的系统概念构建了更健全和完整的元数据要求；杨明顺和林志航引入模糊集理论，从而有效反映用户意见的模糊性以及主观性和不确定性；赵星等采取主客观权重结合的方式，建立基于质量标准度量的全数据质量评估方法",
+    "context12": "综上，定性评价主要是用于满足数据用户的需求，主要是采用数据质量调查的方式构建评价指标体系；定量评价是一种客观评价方法，但一般缺少上下文的情景知识，仅是依赖于应用程序的规则或约束判断，除了常用于结构化数据的评价外，部分自动化评估技术也被应用于网络数据资源的质量评价；在数据质量的多维度评价上，定性定量相结合的评价是目前较为常见的评估方法，也是对前述两种单一评价方法的有益补充和完善。"
+  },
+  "3数据质量评价主体的研究现状": {
+    "context1": "Strong定义了数据质量评价涉及的3个主体角色，即数据生产者、数据管理者和数据消费者[，由于数据的技术特性，早期的学者多从数据生产者或管理者的主体角度进行数据质量评价b,20,3]。Arazy和Kopak认为数据质量是在特定信息用户的使用环境下，对可获取信息满足其期望的有用性或可用性的主观评价，因此这些以数据生产者或管理者为主体视角进行数据质量的评价，仅考虑了数据的价值，未考虑数据的使用。",
+    "context2": "国内外学者逐步关注数据用户的需求，尝试从用户角度实施数据质量评价，较早提出该观点的学者如Wang和Strong，构建了面向用户的数据质量概念框架；此后，Cappiello等基于数据用户需求构建了数据质量评价模型；类似的，Watts等为理解用户情景化的信息质量评价过程提供一个理论模型，该模型强调了信息质量评估的客观和情景因素，进一步明确终端用户在信息质量评估过程中的角色[；此外，在数据用户需求确定的研究过程上，杨明顺和林志航综合考虑了语言表达的多粒度多语义的情况，对于用户需求重要度确定中引入熵的概念，一定程度上使得用户需求重要度的确定更加客观、合理。",
+    "context3": "上述主体视角各有利弊，数据生产者或管理者的视角能够较为客观地评价数据自身的本质属性特征，但欠缺用户对数据价值的需求把握，在实际运行中，常出现数据生产者所提供的认为“符合”的数据和用户认为相“符合”数据存在很大“数字鸿沟”的现象；数据消费者的视角主要关注数据的内容质量，能较充分地获取数据用户的需求，但前提也是需要满足数据库的数据约束规则。由此可见，数据质量评估是一个持续的过程，需要结合主观评价和客观评价，并且主客观标准也需要不断的完善和改进。"
+  },
+  "4数据质量评价对象的研究现状": {
+    "context1": "按照数据质量的评价对象的数据类型划分，可以分为结构化、半结构化和非结构化数据。结构化数据的数据质量评价，主要是针对关系数据库中存储的结构化数据，其评价指标是建立在Codd的数据库完整性约束的基础上的，如准确性、完整性和一致性，并逐步扩展到可访问性和及时性[4等指标，结构化数据的质量评价已有较好的研究基础，最初是面向统计数据，后又广泛用于关系数据库中存储的数据的质量评价。",
+    "context2": "随着WWW的迅速扩展，Web上的可用数据资源也在规模化增长，针对这一类半结构化数据的评价，也积累了一定的成果。李贺和张世颖根据移动互联网传播过程中所包含的内容生成主体、载体、信息内容和接收主体4个方面选取相应的指标进行数据质量评价；类似的，赵星等提出影响互联网数据质量的14条质量标准；韩京宇和陈可佳采用模拟退火算法评估了在线Web文档内容的数据质量；此外，还有学者针对网站、网络数据库[、网页等数据资源的质量进行了评价，尤其是借鉴传统的文献计量学中期刊影响因子的思想，提出了网络影响因子的评价指标。",
+    "context3": "非结构化数据是指无固定格式或模型用以逻辑表达实现的数据，主要是一些文本、图片和视频等。大数据时代，非结构化数据的体量增长加快，组织中大量的数据都是非结构化数据，产品论坛、聊天记录、邮件、图像和音频/视频信息中的非结构化数据蕴含了诸多组织效益提升的机会，对其进行质量评价有益于充分挖掘潜在数据价值。非结构化数据的多源特征为数据质量评价提出了诸多挑战，目前学者们主要是通过专家或用户打分进行内容质量分析，也有部分学者，如Oh和Worrall尝试利用自动化评价技术，通过数据样本选择、特征提取、实验及评价过程对非结构化数据进行评价[4。",
+    "context4": "可见，数据质量的评价最早始于对结构化数据的评价，主要是评价存储在关系数据库中的数据，较少考虑数据的内容质量；对半结构化的数据评价主要是针对网络数据资源，除了关注数据的本质属性外，更多关注数据的内容质量；大数据环境下，非结构化数据的质量评价面临极大挑战，如大量数据的自动化评价可能产生一定的误差，而且目前计算机在自然语言处理上还不够成熟，一些反映用户需求的主观性特征难以用计算机处理，所以多数评价采取结合专家或用户打分的方式。"
+  },
+  "5结论": {
+    "context1": "纵观国内外数据质量评价的整个研究历程，发现数据质量评价研究在数据资源快速发展的当下，受到了国内外学界的普遍重视，已经涌现出较多关于数据质量评价的研究成果，从研究内容来看，这些成果主要集中于以下几个方面： $\\textcircled{1}$ 数据质量评价模型研究； $\\textcircled{2}$ 数据质量评价方法研究； $\\textcircled{3}$ 数据质量评价主体研究； $\\textcircled{4}$ 数据质量评价对象研究。",
+    "context2": "国内外现有研究多数认为数据质量是一个分层多维度的概念，其质量评估的核心就在于如何确定具体的维度，普遍采用数据质量调查法确定维度指标，并采用具体的方法进行评估，评估方法主要分为定性的策略和定量的策略，而定性定量相结合的策略成为当前较为科学的评价方式，并且逐步关注数据用户的需求，尝试从用户角度实施数据质量评价。然而，在现有研究中仍然存在以下不足：$\\textcircled{1}$ 数据质量评价标准多数采用单一视角，难以判断数据整体质量的优劣。 $\\textcircled{2}$ 利用多维指标评价数据质量时，对指标之间的相关性欠缺论证。 $\\textcircled{3}$ 计算机的自动化评价受到数据体量增大的瓶颈限制。 $\\textcircled{4}$ 非结构化数据的质量评价面临诸多挑战。",
+    "context3": "特别需要指出的是，从数据资产的视角来说，高质量数据对于组织整个业务过程的支持和管理决策的制定都是至关重要的，需要充分发挥数据质量评价对数据质量价值提升的作用。在大数据环境下，面对模态繁多的数据类型和海量多源数据，对传统的数据质量评价方式提出了巨大挑战，如多源数据中不一致数据的检测定位和纠错、非结构化数据的有效存储等，因此，数据环境的变化急需从新的视角探讨特定情景下的数据质量评估方法和机制，以更好地满足数据用户的期望。未来研究应该着重考虑以下几个方面： $\\textcircled{1}$ 大数据环境下的数据质量评价模型建模。 $\\textcircled{2}$ 充分考虑数据使用者的需求和认知条件，兼顾主客观评价。",
+    "context4": "$\\textcircled{3}$ 非结构化数据的有效质量评价方式构建。 $\\textcircled{4}$ 规模半结构化数据质量评价的计算机自动评价的实现。□"
+  },
+  "参考文献": {
+    "context1": "[1] 李丽娜．网络信息资源质量评价研究综述[．图书情报工作，2011（15)：62-66.  \n[2] 赵文轩，李春旺．关联数据质量评价方法研究述评[]．情报理论与实践，2016（2)：134-138.  \n[3] 蒋引娣．元数据质量评价研究[．图书馆理论与实践，2009(5):39-41.  \n[4] 姜雯，许鑫．在线问答社区信息质量评价研究综述[.现代图书情报技术，2014（6)：41-50.  \n[5] WANG RY，STOREYVC，FIRTHCP.A framework for a-nalysis of data quality research[]．IEEE Transactions onKnowledge and Data Engineering，1995(7)：623-640.  \n[6] YANG WL，STRONGD M，KAHNBK.AIMQ:a methodol-ogy for information quality assessment [．Information & Man-agement，2002，40:133-146.  \n[7] CAPPIELLO C，FRANCALANCI C，PERNICI B.Data qualityassessment from the user's perspective[C]//Proceedings ofthe 2004 International Workshop on Information Quality in Infor-mation Systems，2004:68-73."
+  },
+  "[8]陈苏，柏文阳，徐洁磐．一种新的数据质量模型的研究[．计算机应用研究，2005（7)：48-50.": {
+    "context1": "[9]GARCIA G C，CABALLERO I，PIATTINI M. Capturing data quality requirements for Web applications by means of DQ_ WebRE[J]．Information Systems Frontiers，2013，15: 433-445.   \n[0] WAND Y，WANG R Y.Anchoring data quality dimensions in ontological foundations[]．Communications of the ACM, 1996，39:86-95.   \n[1] PIPINO LL，LEEYW，WANGRY.Data quality assessment ．Communications of the ACM，2002，45:211-218.   \n[12] BOBROWSKI M，MARRE M，YANKELEVICHD.A homogeneous framework to measure data quality []．Fourth Conference on Information Quality，1999:115-24."
+  },
+  "[3]曹瑞昌，吴建明．信息质量及其评价指标体系[]．情报探索，2002(4)：6-9.": {
+    "context1": "[4]BRUCE T R，HILLMANN D I. The continuum of metadata quality:defining，expressing，exploiting.metadata in practice [C]．Chicago:American Library Association，2004: 238-   \n256. [15]STRONG D M，LEE YW，WANG R Y.Data quality in context[J]．Communications of the ACM，1997，40:103-   \n110."
+  },
+  "[8]莫祖英，马费成，罗毅．微博信息质量评价模型构建研究．信息资源管理学报，2013（2)：12-8.": {
+    "context1": "1PARSSIAN A， SARKAR S， JACOB V S. Assessing data quali-ty for information products[]．International Conference onInformation Systems，1999，50(7)：428-433."
+  },
+  "[0]韩京宇，宋爱波，董逸生．数据质量维度量化方法[．计算机工程与应用，2008（36)：1-6.": "",
+  "杨青云，赵培英，杨冬青，等．数据质量评估方法研究[．计算机工程与应用，2004（9)：3-15.": "",
+  "韩京宇，陈可佳．基于事实抽取的Web文档内容数据质量评估[．计算机科学，2014（11)：247-251.": {
+    "context1": "PIERCE E M.Assessing data quality with control matrices.   \nCommunications of the ACM，2004(47):82-86.",
+    "context2": "HEINRICH B，KLIER M. Metric-based data quality assessment—developing and evaluating a probability-based currency metric[．Decision Support Systems，2015，72:82-96.",
+    "context3": "究[．情报理论与实践，2015，38（10)：6-10.   \n[33] WATTS S，SHANKARANRAYANAN G，EVEN A. Data quality assessment in context:a cognitive perspective[]．Decision Support Systems，2009，48:202-211.   \nB4] STVILIAA B，GASSERB L. Value-based metadata quality assessment[J].Library& Information Science Research, 2008，30 (1):67-74.   \n[B5] 杨明顺，林志航.QFD中顾客需求重要度确定的一种方法 [．管理科学学报，2003（5)：65-71.   \nB6] 赵星，李石君，余伟等．大数据环境下的Web数据源质量 评估方法研究．计算机工程，2016：1-7.   \nB7] WANGR，ALLEN T，HARRIS W，MADNICK S.An information product approach for total information awareness[]. Aerospace Conference，2003（5):1-19.   \nB8] ARAZY O，KOPAK R.On the measurability of information quality[l．Journal of the American Society for Information Science and Technology，2011，62(1):89-99.   \n[B9] WANG R Y，STRONG D M.Beyond accuracy: what data quality means to data consumer[]．Journal of Management Information System，1996，12(4)：5-34.   \n[0] CODD E.Arelational model of data for large shared data banks [．Communication of the ACM，1970，13（6)：377-387.   \n[41] BALLOU D，WANG R，PAZER H，TAYI G. Modeling information manufacturing systems to determine information product quality[．Management Science，1998，44（4):462-484.   \n[42] BASCH R.Measuring the quality of the data: report on the fourth annual SCOUG retreat[]．Database Searcher，1990 (10): 18-23.   \n[43] KAPOUN J. Teaching undergrads web evaluation: a guide for library instruction[]．College & Research Libraries News， 1998 (1): 522-523.   \n[4] ZHU Z M，BERNHARD D，GUREVYCH IA multi-dimensional model for assessing the quality of answers in social Q&A [EB/OL]．[2014-01-20] .http://tuprints.ulb.tu-darmstadt. de/1940/1/TR_dimension_model.pdf.   \n[45] OH S，WORRALL A. Health answer quality evaluation by librarians，nurses，and users in social Q&A[]．Library& Information Science Research，2013，35(4)：288-298.",
+    "context4": "[] [0] [3] [5] 6 [ B B]"
+  },
+  "[9]查先进，陈明红．信息资源质量评估研究[．中国图书馆学报，2010（2)：46-55.": {
+    "context1": "作者简介：张宁（ORCID：0000-0003-1318-8420），女，1981年生，副教授，博士生。研究方向：信息资源管理，信息分析与应用。通讯作者。袁勤俭（ORCID：0000-0002-9684-9943)，男，1969年生，博士，教授，博士生导师。研究方向：信息服务，信息分析与应用。作者贡献声明：张宁，设计论文研究思路，撰写和修改论文。袁勤俭，提供理论指导，提出研究问题。录用日期：2017-03-24"
+  }
+}

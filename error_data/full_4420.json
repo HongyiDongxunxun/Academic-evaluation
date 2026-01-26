@@ -1,0 +1,92 @@
+{
+  "original_filename": "full_4420.md",
+  "基于共词分析的我国关联数据研究进展探析付瑶杨畔": {
+    "context1": "【摘要】文章以近几年CNKI数据库中关联数据相关论文为基础，借助SPSS统计分析软件，采用共词分析的方法进行聚类分析、因子分析和多维尺度分析等，揭示目前国内关联数据研究的演进态势，从而得出国内近几年关联数据研究主要围绕关联数据基本理论研究、关联数据与（网络）简单知识组织系统相关研究、关联数据相关技术研究三个热点展开等结论。"
+  },
+  "【关键词】关联数据共词分析简单知识组织系统": {
+    "context1": "Abstract: By the use of SPSS software，this paper makes a co-word analysis of the articles on linked data issued in recent years and collected by CNKl database.This paper reveals the present evolution situation of linked data in a visual wayby applying the methods of cluster analysis，factor analysis and multidimensional scaling analysis.Finaly concluding that the research of linked data at home focuses on the basic theoretical study，the linked data and SKOS and the related technologies.",
+    "context2": "Key words: linked data co-word analysis SKOS",
+    "context3": "关联数据这一概念一经提出即迅速引起了国内外学者的广泛关注，关联数据的研究和开发建设已经成为世界范围内的热门研究领域。近年来，国内关联数据的研究已悄然起步并取得了一定成果。笔者以CNKI数据库中相关论文为基础，借助 SPSS统计分析软件，采用共词分析的方法进行聚类分析、因子分析和多维尺度分析，在此基础上分析国内近几年关联数据研究的热点和现状。"
+  },
+  "1引言": {
+    "context1": "2006年互联网之父Tim Berners士ee在分析了Web的发展与演化的基础上提出了发展数据网络的思想，而数据网络的核心和关键是关联数据。关联数据使万维网发生了质的改变，完成了从“文档的网络”向“数据的网络”的转变。关联数据的定义描述，学者普遍认同的是维基百科的定义：关联数据是语义网主题之一，描述了通过可连接的URI方式来发布、分享、连接Web中的各类资源的方法。关联数据提出的目的是构建一个计算机能理解的具有结构化和富含语义的数据网络，以便在此基础之上构建更智能的应用。目前，关联数据已受到企业、政府、图书馆等领域的广泛关注。",
+    "context2": "我国在关联数据方面的跟踪与研究始于2008年刘炜所做的引进介绍。随后刘炜等人又翻译了两篇关联数据相关著作，分别介绍了瑞典国家图书馆以关联数据的形式发布书目数据和美国国会图书馆将关联数据应用于主题标目的实践。2009年的“数字图书馆前沿问题研讨班”上曾蕾和刘炜的相关报告引起了大家对关联数据的高度重视和强烈兴趣。2010年“图书馆前沿技术论坛”更是将主题定为“关联数据与书目数据未来”，将关联数据的研究推向高潮。",
+    "context3": "从发表的论文角度来看，关联数据的研究尚不成熟。检索到的相关文献有50余篇，包括两篇译作和两篇学位论文。关联数据作为一个新兴的研究领域，学者的关注角度有所不同，因此，科学揭示关联数据的研究现状、热点及发展趋势对研究人员开展研究具有重要意义。"
+  },
+  "2研究方法与数据来源": "",
+  "2.1研究方法": {
+    "context1": "共词分析法属于内容分析方法的一种。它是对一组文献的主题词两两统计它们在同一篇文献中出现的次数，以此为基础对这些词进行聚类分析，便可形成一个由这些词的关联所组成的共词网络，网络内节点之间的远近便",
+    "context2": "可反映出这些词之间的亲疏关系，进而分析这些词所代表的学科和主题的结构变化。共词分析就是以此为原理，将文献主题词或关键词作为分析对象，利用包容系数、聚类分析等多种统计分析方法，把众多分析对象之间错综复杂的共词网状关系简化为数值、图形直观地表示出来的过程。",
+    "context3": "用共词分析法分析国内关联数据研究热点，需要通过四个步骤完成：第一，确定国内该研究领域高频关键词；第二，建立关键词共词矩阵；第三，对矩阵进行因子分析、聚类分析、多维尺度分析等统计分析；第四，对所获得的数据结果进行综合分析。"
+  },
+  "2.2数据来源与处理": {
+    "context1": "本研究选取CNKI全文数据库，以“关联数据”为关键词，经过筛选剔除，检索到国内相关研究文献53篇，获取关键词217个。由于每个作者对同一事物使用的关键词可能不一样，关键词存在不规范性，所以有必要对关键词加以规范，合并同义词、近义词以及中英文不同写法等，用通用的关键词统一命名。如：把关联数据、Linked Data、关联资源统一合并为关联数据；把语义网、语义、语义Web、语义门户等统一合并为语义网；把URI、URIs、URI解析统一合并为URI。由于统计样本较小，故选取合并后词频大于2的规范关键词为高频关键词，结果共20个规范关键词，见表1。",
+    "context2": "表1高频关键词",
+    "context3": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>规范关键词</td><td rowspan=1 colspan=1>词频</td><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>规范关键词</td><td rowspan=1 colspan=1>词频</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>关联数据</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>URI</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>语义网</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>SKOS</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>图书馆</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>链接</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>知识组织</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>受控词汇</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>数据网络</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>书目本体</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>RDF</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>SPARQL</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>开放数据</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>数字图书馆</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>元数据</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>DBpedia</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>D2R</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>MARC</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>本体</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>关联算法</td><td rowspan=1 colspan=1>2</td></tr></table>"
+  },
+  "2.3构建共词矩阵": {
+    "context1": "由于这些关键词是关联数据论文中出现频次最高的词，它们从较大程度上能代表当前关联数据研究的热点。统计这20个高频关键词两两互现的频次，构成一个 $2 0 ^ { \\ast } ~ 2 0$ 共词词频矩阵，见表2。",
+    "context2": "表2共词词频矩阵 (部分)",
+    "context3": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>关联数据</td><td rowspan=1 colspan=1>语义网</td><td rowspan=1 colspan=1>图书馆</td><td rowspan=1 colspan=1>知识组织</td><td rowspan=1 colspan=1>数据网络</td><td rowspan=1 colspan=1>RDF</td><td rowspan=1 colspan=1>开放数据</td><td rowspan=1 colspan=1>元数据</td></tr><tr><td rowspan=1 colspan=1>关联数据</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>语义网</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>图书馆</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>知识组织</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>数据网络</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>RDF</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>开放数据</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>元数据</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td></tr></table>",
+    "context4": "为了消除共现频次差异较大对数据分析造成的影响，选用Ochia系数将共词词频矩阵转换成相关矩阵，但是由于相关矩阵中0值过多，在利用它进行统计分析时容易造成较大的误差，为了方便进一步处理，用1减去相关",
+    "context5": "矩阵中的每个数据，就会得到如表3所示的相异矩阵。本文就是在此基础上通过SPSS进行多元统计分析的。",
+    "context6": "表3相异矩阵 (部分)",
+    "context7": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>关联数据</td><td rowspan=1 colspan=1>语义网</td><td rowspan=1 colspan=1>图书馆</td><td rowspan=1 colspan=1>知识组织</td><td rowspan=1 colspan=1>数据网络</td><td rowspan=1 colspan=1>RDF</td><td rowspan=1 colspan=1>开放数据</td></tr><tr><td rowspan=1 colspan=1>关联数据</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.461</td><td rowspan=1 colspan=1>0.466</td><td rowspan=1 colspan=1>0.588</td><td rowspan=1 colspan=1>0.596</td><td rowspan=1 colspan=1>0.697</td><td rowspan=1 colspan=1>0.681</td></tr><tr><td rowspan=1 colspan=1>语义网</td><td rowspan=1 colspan=1>0.461</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.811</td><td rowspan=1 colspan=1>0.864</td><td rowspan=1 colspan=1>0. 667</td><td rowspan=1 colspan=1>0.833</td><td rowspan=1 colspan=1>0.895</td></tr><tr><td rowspan=1 colspan=1>图书馆</td><td rowspan=1 colspan=1>0.466</td><td rowspan=1 colspan=1>0.811</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.769</td><td rowspan=1 colspan=1>0. 622</td><td rowspan=1 colspan=1>0.906</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>知识组织</td><td rowspan=1 colspan=1>0.588</td><td rowspan=1 colspan=1>0.864</td><td rowspan=1 colspan=1>0.769</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0.898</td><td rowspan=1 colspan=1>0.742</td></tr><tr><td rowspan=1 colspan=1>数据网络</td><td rowspan=1 colspan=1>0.596</td><td rowspan=1 colspan=1>0.667</td><td rowspan=1 colspan=1>0. 622</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.75</td><td rowspan=1 colspan=1>0.842</td></tr><tr><td rowspan=1 colspan=1>RDF</td><td rowspan=1 colspan=1>0.697</td><td rowspan=1 colspan=1>0.833</td><td rowspan=1 colspan=1>0.906</td><td rowspan=1 colspan=1>0.898</td><td rowspan=1 colspan=1>0.75</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>开放数据</td><td rowspan=1 colspan=1>0.681</td><td rowspan=1 colspan=1>0.895</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0.742</td><td rowspan=1 colspan=1>0.842</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td></tr></table>"
+  },
+  "3关联数据研究的共词分析": {
+    "context1": "共词分析中的多元统计方法通常有三种，它们是共词分析的核心内容，包括聚类分析、因子分析和多维尺度分析。"
+  },
+  "3.1聚类分析": {
+    "context1": "聚类分析是根据变量之间的亲疏程度，将最相似的对象聚集在一起的分类方法。通过聚类分析能把关系密切的主题聚集在一起形成不同的类，进而来表达该领域的主要研究内容。将表3所示的相异矩阵导入到 SPSS17.0统计软件中进行聚类分析，最终得到国内关联数据研究高频关键词聚类树状图（如图1所示）。",
+    "context2": "根据聚类结果，可归纳出国内关联数据研究有四个研究热点，概括为：简单知识组织系统研究、书目和元数据研究、发布与查询规则研究和基础理论研究。"
+  },
+  "3.1.1简单知识组织系统研究": {
+    "context1": "这类研究包括SKOS、受控词汇、本体、数字图书馆等关键词。简单知识组织系统是W3C提出的一种用于知识组织体系的RDF编码规范，用于将传统的叙词表、受控词表、主题标目和民俗分类法等转换成Web可用的形式，是关联数据实现的重要过程。美国国会图书馆的主题标目是以机器可处理的MARC形式存在的，近来已转为MARCXML编码形式。研究美国国会图书馆将LCSH/MARC转换为 SKOS编码的细节，以及在Web上发布LCSH的具体方法，将会为关联数据的发展提供参考。LCSH/SKOS 的数据可以从多个层面上与 GeoNames、DBpedia等外界数据进行链接，使孤立的数据得到整合，这是关联数据的最终意义所在。",
+    "context2": "网络环境下知识组织系统的设计与编制是当前国际图书情报领域研究的重点课题。国家图书馆的知识组织规范项目是对网络知识组织系统中语义描述、体系结构、编制原则和应用指南等内容进行规范设计和撰写，覆盖了目前数字图书馆应用的主要NKOS类型，包括：分类法、主题词表、本体和分众分类法。项目的长远目标是将数字图书馆的知识资源（包括NKOS和数字馆藏的元数据）转换为关联数据传输到互联网上，使数字图书馆成为语义网的知识关联枢纽。在此基础上探讨应用关联数据技术使《中国分类主题词表》的规范词汇成为关联的数据资源，以实现其开放性Web服务功能，具有重要意义。"
+  },
+  "3.1.2书目和元数据研究": {
+    "context1": "此类研究包括 D2R、书目本体、元数据、MARC等关键词。传统书目组织是基于MARC的一维的线性组织，缺点在于描述语言的通用性和语义性差，只有元数据描述，缺少从语义到语法结构再到模型及著录规范和算法的完整体系[。由于资源描述语言、资源组织模型和资源组织机制的局限性，目前信息组织方式不能按信息对象对信息进行聚类和集中，缺少对对象间关系和自身衍生变化的序化组织。通过关联数据的一致化语义描述方法（RDFS/OWL）和统一的存取机制（SPARQL）可以增强书目元数据组织的语义化，显性地、以机器可读的方式表达书目的属性特征和关联关系，构建具有结构化和富含语义的数据网络。目前已有学者尝试将关联数据应用于书目组织，开拓了信息组织有序化、语义化的思路，未来关联数据的应用将拓展到更大范围、更多类型的数据，并通过数据集间的关联的构建以及与知识组织系统的结合，实现基于知识节点的多类型数据融合和知识整合，提供更好的信息服务[]。",
+    "context2": "![](images/44cefa392ef465ebe42f1ce0c971f639d69215e28bfb01af5925d2e49d115ff3.jpg)  \n图1关联数据、高频关键词聚类树状图"
+  },
+  "3.1.3发布与查询规则研究": {
+    "context1": "此类研究包括URI、SPARQL、RDF等关键词。关联数据是建立在Web 技术之上的，继承了传统Web 的两项基本技术，即超文本传输协议（HTTP）和统一资源定位符（URL），并对其做了进一步的限定和扩展。关联数据采用RDF描述各类资源对象。RDF用URI标识事物，用简单的属性及属性值来描述资源，可被用于表达任何在Web 上被标识的事物的信息。资源对象的RDF数据中还可以包含指向其他数据源的链接，RDF链接也以三元组的形式存在。",
+    "context2": "Tim Berners-Lee提出了关联数据发布的四条基本原则，以及通过URI命名、RDF链接至其他网络资源、提供元数据三个步骤将关联数据发布到网上的方法[。目前，已有多位研究人员总结了一些关联数据发布的技术方案[。夏翠娟等人以开源内容管理系统Drupal为例，对目前支持关联数据实现的各种技术和工具进行了简要分析，最后用具体案例说明使用Drupal发布关联数据的具体流程和方法，将发布技术可操作化。",
+    "context3": "SPARQL（Simple Protocol and RDF Query Language）是为 RDF开发的一种查询语言和数据获取协议，被认为是语义网的关键技术之一。关联数据的分布式信息查询的主要实现机制可划分为基于URI解析的机制和基于SPARQL终端的机制，在实现关联数据的分布式信息查询中主要面临标识符的唯一性、资源发现、数据融合和模式映射等问题[d。"
+  },
+  "3.1.4基础理论研究": {
+    "context1": "关键词有关联数据、语义网、图书馆、数据网络等概念名称。由于国内关联数据尚属起步阶段，此类关于基础理论的引进介绍类文章居多。刘炜作为最早将关联数据引入国内的学者，对关联数据的普及与推动发挥了重要作用，他从总体上概述了关联数据概念的提出、基本内涵、技术实现和当前国内外的研究应用状况，并呼吁我国图书情报界要高度重视这一技术，及早进行研究开发和应用推广，使图书馆大量的权威数据在互联网上占据一席之地。同时，介绍关联数据基本概念与研究进展的文献很多，如沈志宏、张晓林侧重技术方面，介绍了关联数据的创建与发布、浏览与检索以及更新维护等核心技术。黄永文从资源发现服务、数据融合与语义检索服务、学术研究和学术交流作用、跨机构的关联数据的开放与复用等方面分析了关联数据在图书馆的应用[。"
+  },
+  "3.2因子分析": {
+    "context1": "因子分析要达到的目标就是用尽可能少的因子去描述众多的指标或因素之间的联系，其基本思想是根据关键词间的相关性大小把研究对象的变量分组，使得同组内的变量之间相关性较高，而不同组的变量相关性较低。每组变量代表一个基本结构，这个基本结构称为公共因子，这样较少的几个公共因子就可以反映出原资料的大部分信息。本文的因子分析结果见图2与图3。",
+    "context2": "Total Variance Explained   \n图2因子数与涵盖的信息量",
+    "context3": "<table><tr><td rowspan=\"2\">Component</td><td colspan=\"3\">Initial Eigenvalues</td><td colspan=\"3\">Extraction Sums of Squared Loadings</td></tr><tr><td>Total</td><td>% of Variance</td><td>Cumulative %</td><td>Total</td><td>% of Variance</td><td>Cumulative %</td></tr><tr><td>1</td><td>4.031</td><td>20.155</td><td>20.155</td><td>4.031</td><td>20.155</td><td>20.155</td></tr><tr><td>2</td><td>3.562</td><td>17.808</td><td>37.963</td><td>3.562</td><td>17.808</td><td>37.963</td></tr><tr><td>3</td><td>2.221</td><td>11.106</td><td>49.069</td><td>2.221</td><td>11.106</td><td>49.069</td></tr><tr><td>4</td><td>1.900</td><td>9.499</td><td>58.568</td><td>1.900</td><td>9.499</td><td>58.568</td></tr><tr><td>5</td><td>1.560</td><td>7.802</td><td>66.370</td><td>1.560</td><td>7.802</td><td>66.370</td></tr><tr><td>6</td><td>1.312</td><td>6.561</td><td>72.931</td><td>1.312</td><td>6.561</td><td>72.931</td></tr><tr><td>7</td><td>1.179</td><td>5.897</td><td>78.828</td><td>1.179</td><td>5.897</td><td>78.828</td></tr><tr><td>8</td><td>1.018</td><td>5.088</td><td>83.916</td><td>1.018</td><td>5.088</td><td>83.916</td></tr><tr><td>9</td><td>1.002</td><td>5.008</td><td>88.924</td><td>1.002</td><td>5.008</td><td>88.924</td></tr><tr><td>10</td><td>.733</td><td>3.663</td><td>92.587</td><td></td><td></td><td></td></tr><tr><td>11</td><td>.652</td><td>3.261</td><td>95.848</td><td></td><td></td><td></td></tr><tr><td>12</td><td>.330</td><td>1.652</td><td>97.501</td><td></td><td></td><td></td></tr><tr><td>13</td><td>.200</td><td>1.001</td><td>98.501</td><td></td><td></td><td></td></tr><tr><td>14</td><td>.132</td><td>.660</td><td>99.161</td><td></td><td></td><td></td></tr><tr><td>15</td><td>.096</td><td>.480</td><td>99.641</td><td></td><td></td><td></td></tr><tr><td>16</td><td>.046</td><td>.232</td><td>99.874</td><td></td><td></td><td></td></tr><tr><td>17</td><td>.024</td><td>.119</td><td>99.993</td><td></td><td></td><td></td></tr><tr><td>18</td><td>.001</td><td>.007</td><td>100.000</td><td></td><td></td><td></td></tr><tr><td>19</td><td>1.476E-17</td><td>7.381E-17</td><td>100.000</td><td></td><td></td><td></td></tr><tr><td>20</td><td>-1.021E-16</td><td>-5.105E-16</td><td>100.000</td><td></td><td></td><td></td></tr></table>",
+    "context4": "Extraction Method: Principal Component Analysis.",
+    "context5": "通过图2可以看出20个关键词有9个公共因子被提出，能解释全部信息的 $8 8 . 9 2 4 \\%$ 。这与图3显示的有9个特征值大于1的公共因子的结果一致。理想的碎石图，前面的少数折线陡峭，前两、三个支点就可以达到理想状态，可以被选作公共因子。但是本文的碎石图表明结果并不理想，造成这种结果的原因可能有以下几个方面：第一，也是最重要的原因，选择的样本过小，仅仅选择53篇文献和20个高频关键词。但这也是符合实际情况的，关联数据是一个新的研究领域，其研究框架和脉络尚未形成，学者的研究角度范围较广，未能很好地融合也在情理之中；第二，关键词合并时带有过大的主观性。在进行关键词合并时，为了使共词分析效果较为理想，凭借主观判断合并了相关的关键词，但即使这样，其主成分和公共因子还是不明显。"
+  },
+  "3.3多维尺度分析": {
+    "context1": "多维尺度分析试图通过测定事物之间的距离来发现数据结构。多维尺度分析结果中，被分析的对象以点状分布，每个点的位置显示了分析对象之间的相似性，有高度相似性的对象聚集在一起，形成一个类别。本文利用SPSS 的多维尺度分析绘制出多维尺度分析结果图（如图4)，图中将关键词划分为三大区域，这与聚类分析和因子分析的结果比较一致，由于聚类分析中类别2和类别3的因子相关性较强，故将其合并，大体形成三个较为活跃的研究区域：关联数据基本理论研究、关联数据与（网络）简单知识组织系统相关研究、关联数据相关技术研究。",
+    "context2": "![](images/c6c49aed463057c54bb7c40b790a8691330bfb2164f9c4aa5bd36d8ec9dab840.jpg)  \n图3因子碎石图",
+    "context3": "![](images/25ec9965460ce877a87de844d24b07c6e9d7d827c8166948592df41d30b9ceaf.jpg)  \n图4多维尺度分析结果"
+  },
+  "4结语": {
+    "context1": "本文以国内关联数据相关文献的高频关键词为数据基础，通过共词分析方法对研究热点进行了分析，得出如下结论：",
+    "context2": "（1）纵观聚类分析、因子分析和多维尺度分析的结果，不难发现关键词的分布零散错综，没有明显的分类和规律可循。关联数据是个新的研究领域，国内引入时间很短，尚未形成清晰的脉络和流派。但仔细分析仍可看出三个较集中的研究主题：关联数据基本理论（数据网络、语义网、开放数据、图书馆等基本概念）、关联数据与简单知识组织系统研究（简单知识组织系统、网络知识组织系统、数字图书馆、受控词汇等）、关联数据相关技术（RDF、元数据、URI、SPARQL、关联算法等）。",
+    "context3": "（2）国内关联数据三大研究主题并不是孤立的，而是互有交叉、互相渗透的。例如“书目本体”、“元数据”等与三个领域都有一定相关性，既是一种技术，又是基础理论，同时与知识组织密切联系。这说明关联数据研究发展还不成熟，仍处于总体探索阶段，具体而专门的研究主题较少，从概述角度的研究较多。",
+    "context4": "（3）在关键词统计分析过程中发现一些新颖的主题逐渐受到关注，将成为日后关联数据的研究热点。如关联数据的自动映射、自动关联与检索技术研究，关联数据相关应用协议研究以及关联数据规范控制与质量评估研究等。",
+    "context5": "（4）通过对关联数据相关研究成果的梳理和分析，可以看出关联数据相关研究已经取得了一定阶段性成果，但总体上，我国关联数据研究尚属起步阶段，还未呈现出清晰的研究群体与鲜明的研究主题，还没有从理论走向实践，缺乏关联数据的应用实例。关联数据未来的研究趋势必然从理论探索走向具体应用，关联数据有着巨大的发展前景和研究空间，加强对关联数据理论、技术与应用的研究，对图书馆、图书情报界乃至整个互联网都有重要的理论价值和现实意义。"
+  },
+  "注释": {
+    "context1": "[1]李敏，王凭，白凯．高校图书馆特色数据库建设难点与实践[J]．情报杂志，2007（11)：134-138",
+    "context2": "2]叶仕平．图书馆联盟之战略联盟探究[J]．图书馆学研究，2012（5)：94-96",
+    "context3": "[3]鄂丽君，许子媛．我国区域图书馆联盟建设现状调查与分析[J]．图书馆，2012（1)：62-65",
+    "context4": "永先．区域性高校图书馆资源共享运行机制研究[J]．情报探索，2011（6)：70-73",
+    "context5": "[5]胡绍军．浙江高校图书馆特色资源数据库建设的实践与探索[J]．图书馆学研究，2011（10)：45-64",
+    "context6": "|王倩，张赞梅，刘翔．浙江省高校数字图书馆特色文献数据库建设情况综述［J]．图书馆学研究，2011（6)：21-2",
+    "context7": "[7]沈嵘．技术联盟：高校图书馆数字化建设的新方向[J]．图书情报工作，2010（5)：71-74",
+    "context8": "[8]王倩，胡朝明．“浙江丝绸文化”特色数据库的研究与建设[J]．图书馆学研究，2010（9)：35-37"
+  },
+  "付瑶杨畔东北师范大学计算机科学与信息技术学院2011级情报学硕士研究生。": {
+    "context1": "(上接第84页)",
+    "context2": "目前ZADL特色库的第一批项目已经全部可以在网上运行，第二批项目正在建设中。各联盟高校在各自数据库及ZADL的第一批特色数据库项目建设方面所取得的经验及不足，将为ZADL的进一步建设及长三角高校图书馆大联盟的实现提供有益借鉴。"
+  }
+}

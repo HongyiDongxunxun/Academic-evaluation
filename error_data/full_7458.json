@@ -1,0 +1,201 @@
+{
+  "original_filename": "full_7458.md",
+  "本体研究及其应用进展": {
+    "context1": "李健康，张春辉",
+    "context2": "(1．南方医科大学图书馆，广东广州510515；2．军事医学科学院医学情报研究所，北京100850)",
+    "context3": "[摘要]本体研究在我国处于起步阶段。文章试从本体论的概念演变、理论体系研究、相关标准、研究应用情况及其发展前景等方面做一最新的概要性介绍。",
+    "context4": "[关键词]本体；概念；协议；研究与应用",
+    "context5": "〔中图分类号］G250.7〔文献标识码〕A〔文章编号〕1002－1167（2004）06－0080－07",
+    "context6": "本体论（Ontology）是一门重要的新兴学科，现已成为知识工程、自然语言处理、信息系统、智能系统集成和知识管理等多个领域的热门研究方向。它为人们及广泛异构的应用系统提供共同的领域知识理解，并为第三代互联网（语义网，SemanticWeb）中基于内容的知识获取、互用和交流提供高质量的保证。",
+    "context7": "本文将试从本体论的概念演变、理论体系研究、相关标准、研究应用情况及其发展前景等方面做一概要性介绍。"
+  },
+  "1本体论概念演变": {
+    "context1": "Ontology，起源于哲学，相关解释可以追溯到古希腊哲学家亚里士多德（ $3 8 4 - 3 2 2 \\ \\mathrm { B C }$ ）的本体解释。它在哲学中的定义为“对世界上客观存在物的系统地描述，即存在论”，是客观存在的一个系统的解释或说明，关心的是客观现实的抽象本质(1]，现在较多的翻译为本体论。后来随着在人工智能、计算机以及网络领域中的应用发展，其定义也被融入了许多新的内容（有代表性的定义见表1)。为示区别，在非哲学领域，Ontology通常译为本体，（一般泛指本体论的各个方面，具体特指根据本体论构建而成的单个本体。)Ontologies 则是若干本体集成的本体知识库。",
+    "context2": "表lOntology 概念演变",
+    "context3": "<table><tr><td>提出时间/人</td><td>定义</td></tr><tr><td>1991/Neches 等</td><td>给出构成相关领域词汇的基本术语和关系， 以及利用这些术语和关系构成的规定这些词 汇外延的规则的定义</td></tr><tr><td>1993/Gruber</td><td>概念模型的明确的规范说明</td></tr><tr><td>1997/Borst</td><td>共享概念模型的形式化规范说明</td></tr><tr><td>1998/Studer</td><td>共享概念模型的明确的形式化规范说明</td></tr><tr><td>2000/Fensel D</td><td>特定领域中重要概念的共享的形式化的描述</td></tr><tr><td>2003/M·Uschold</td><td>关于共享的概念模型的协议</td></tr><tr><td>.·.··.</td><td>.·.··.</td></tr></table>",
+    "context4": "其中最著名、被引用最为广泛的定义是由Gruber提出的：“本体是概念化的明确的规范说明”。Studer对本体诸多定义进行概括分析后认为，本体论的概念包括四个主要方面[2]：",
+    "context5": "(l）概念化（conceptualization）：客观世界现象的抽象模型，其表示的含义独立于具体的环境状态；",
+    "context6": "(2）明确（explicit)：概念及它们之间联系都被精确定义;",
+    "context7": "(3）形式化（formal)：精确的数学描述，计算机可读;",
+    "context8": "(4）共享(share)：本体中反映的知识是其使用者共同认可的，是相关领域中公认的概念集，它所针对的是团体而不是个体。",
+    "context9": "尽管定义有很多不同的方式，但是从内涵上来看，不同研究者对于本体的认识是统一的，都把本体当作是领域（可以是特定领域的，也可以是更广的范围）内部不同主体(人、机器、软件系统等)之间进行交流（对话、互操作、共享等）的一种语义基础，即由本体提供一种明确定义的共识。这种共识的目标主要是为机器服务。"
+  },
+  "2可控词表、分类法、叙词表、元数据、元模型、本体等之间的差别": {
+    "context1": "这几个概念都是用来描述知识的，上面的排列顺序基本上是它们的产生顺序，同时也是它们形式化程度由低到高的排列顺序。随着计算机技术的融入，各自应用范围的逐渐扩大，对它们真正区分起来目前有些困难，但是可以首先探讨一下它们的共同特点：[3)",
+    "context2": "(1）都有助于对某些感兴趣领域的主题概念及其关系进行构造、分类、建模或表达;（2）都有意使领域知识达到共识，以相同的方法使用相同的术语；（3）都有一套某些领域同意使用的术语来表达这些概念及其关系；（4）这些术语的含义以某种方法限定在某种程度；（5）在不同的领域，不同的人以不同的方法使用会产生歧义。而它们之间主要的区别在于 (具体的区别见以下各节)：（1）每个术语被赋予了多少特定的含义？（2）用什么符号或语言来限定这些含义?（3）什么情况下，分类法、叙词表、元数据、本体、元模型不同但可以重叠使用？"
+  },
+  "2.1控制词表（Control Vocabulary)": {
+    "context1": "指预先设定的用来描述特殊信息资源的可接受的词的列表。这些词必须解决两个常见问题： $\\textcircled{1}$ 同义近义词问题（oil，petrol,petroleum，gas）; $\\textcircled{2}$ 一词多义问题（musical pitch，pitch the ball,sales pitch)。对于一个控制词表，可以不为其中的术语指定含义（该词汇表仅作为一个人们约定使用的术语的集合，人们理解其中各个术语的含义)，也可以对其中的各个术语加以很详细的定义。"
+  },
+  "2.2分类法（Taxonomy）": {
+    "context1": "是广泛规定的分级的科学。信息科学采用该概念将信息有序化、系统化的分级进行相似特征群组的类聚。分类法中的术语通过相应的等级链而具有特定的含义。过去的分类法，术语的含义是概括的（特指的）还是某个种类，依赖于所属的等级；现在的分类法中术语的含义常用参照不同的等级链（其上位词，其下位词，其事例）来表示不同的含义。臃肿的分类法不会精确的确定链接的含义，因此可以有不同的含义。如果一部分类法对等级链有多种非常详尽的精确的定义，那么就接近一部本体了。"
+  },
+  "2.3叙词表（Thesaurus)": {
+    "context1": "叙词表又称为主题词表，它是一种语义词典，由术语及术语之间的各种关系组成，能反映某学科领域的语义相关概念。ANSIThesaurus 标准 $( Z ^ { 3 9 } \\cdot 1 9 - 2 0 0 3 )$ ，规定有13种词汇间关系。这13种关系完全包括并基本等同于中国《汉语主题词表》的“用、代、属、分、参”结构。这些关系中，可能存在类似于分类法中的等级含义，但绝不是等级关系。这些关系没有明确的含义，仅仅表明术语间有某种联系而已。",
+    "context2": "叙词表主要用于检索时的后控制和标引时的自动或辅助选择索引词，是提高查全率和查准率、实现多语种检索和智能化概念检索的重要途径。叙词表和本体的关系见表2。4]",
+    "context3": "表2叙词表与ontology的关系",
+    "context4": "<table><tr><td>叙词表</td><td>Ontology</td></tr><tr><td>规范的科学语言 知识点的分布是线</td><td>自然语言和半自然语言</td></tr><tr><td>性的 跟不上学科发展开放集成的体系，动态更新</td><td>四维空间中伸缩的网状结构</td></tr><tr><td></td><td>术语间关系：用、①A、B同义；②A是B的上位词；③A是 代、属、族、分、B的下位词；④A、B有交叉；⑤A、B无</td></tr><tr><td>参</td><td>关；⑥B、C、D概念之和包含A</td></tr><tr><td>词汇库</td><td>不仅是概念集、语料库，而且是一个知识库</td></tr><tr><td>守而单一</td><td>相对稳定，结构保一个基于XML 的开放体系，可以被复用和 修改</td></tr></table>"
+  },
+  "2.4元数据（Meta—data)": {
+    "context1": "元数据用于描述数据的内容（what）、覆盖范围（where，when）、质量、管理方式、数据的所有者（who）、数据的提供方式(how）等信息，是数据与数据用户之间的桥梁；是有关资源的信息。[5]",
+    "context2": "尽管DublinCore元数据等少数几种将占据主导地位，但永远不可能统一到仅有少数几种格式，因为只有专业的元数据对于专业的应用才是最合适的，与学科外其他领域的互操作性考虑是次要因素。元数据解决资源的语义描述问题，使资源有了基本的微观结构，但并不能完全解决信息资源的语义异构问题，包括资源采用不同元数据方案所造成的微观结构的异构问题以及资源对象之间存在的复杂的关联关系。而本体就是为解决资源集合的相互关系问题而产生的，对这些问题可以进行很好的描述，其本质就是领域知识的共享和复用，标准化和形式化的领域本体能够为信息系统之间的高层互操作提供很好的工具。",
+    "context3": "元数据和本体都需要一定的形式化机制提供“机器运算”的可能性，它们的关系可以简单地看成是微观与宏观的关系。"
+  },
+  "2.5元模型（Meta-model)": {
+    "context1": "元模型是用于描述模型的模型一一种具体模型的类变量或发现模型的方法[，对表述模型的语言进行定义的模型[7]，是领域内关于具体建模的各种规则和方法的模型。一个有效的元模型是一个本体，但不是所有的本体都可以清晰的构建成元模型。",
+    "context2": "其实，建模者用建模工具构建模型时，就利用了蕴含在建模工具中的本体，这个建模本体就是通常所谓的元模型，如何建模就是它的研究内容。",
+    "context3": "分类法和叙词表可以通过父子和联合关系与控制词表中的术语相关联，但没有清晰的语法规则来限制如何使用控制词表表达（建模）研究领域的内容。元模型是建模者使用的本体，人们经常使用某个具体控制词表或本体来描述其特定领域的研究内容。"
+  },
+  "2.6本体": {
+    "context1": "本体可以表示不同的事物：术语表和数据词典，叙词表和分类法，框架和数据模型，形式本体和参考等。一个本体其实就是一个用某种本体语言表达的控制词表，该语言以语法规则限定了词表术语表达具体领域内容的方法，该语法形式上规定了本体控制词表的术语如何共同使用。可以认为，叙词表和分类法是一种有语法的简单语言 (尽管实际上没有)。通常此种语言没有形式化，某种意义上说是没有形式化的语义。但是，可以用UML或形式化的本体语言创建一个模型，并且有相同的意义。本体的目标是促进机器之间或机器与人之间的交流，而可控词表、分类法、叙词表主要是规范人与人之间的知识交流。"
+  },
+  "3本体论相关理论": "",
+  "3.1本体的描述语言": {
+    "context1": "本体可以用自然语言来描述，也可以用框架、语义网络或逻辑语言等来描述。但要达到清晰的、形式化的概念描述，本体语言就应满足以下要求：良好定义的语法，良好定义的语义，有效的推理支持，充分的表达能力，表达的方便性。8]",
+    "context2": "本体描述语言随着本体研究的升温，不断推陈出新，主要有RDF 和 RDF-S、OIL、DAML、DAML $^ +$ OIL、OWL、KIF、SHOE、XOL、OCML、Ontolingua、CycL、Loom 等。简单把它们归类如下：[9]",
+    "context3": "（1）和 Web 相关的有：RDF 和 RDF-S、OIL、DAML、OWL、SHOE、XOL。其中 RDF 和 RDF-S、OIL、DAML、OWL、XOL之间有着密切的联系，是W3C 的本体语言栈中的不同层次，也都是基于XML 的。而 SHOE 是基于HTML的，是HTML 的一个扩展;",
+    "context4": "(2）和具体系统相关的（基本上只在相关项目中使用）有：Ontolingua、CycL、Loom;（3）KIF已经是美国国家标准，但是它并没有被广泛应用于互联网，作为一种交换格式更多的应用于企业级。"
+  },
+  "3.2本体描述方法或建模元语": {
+    "context1": "Perez等用分类法组织分析已有本体，归纳出5个基本的建模元语（Modeling Primitives）[l0]，即一个完整的本体应该具有5个部分：",
+    "context2": "（1）类（classes）或概念（concepts)：指任何事务，如工作描述、功能、行为、策略和推理过程。从语义上讲，它表示的是对象的集合，其定义一般采用框架（frame）结构，包括概念的名称，与其他概念之间的关系的集合，以及用自然语言对概念的描述。",
+    "context3": "(2）关系(relations)：在领域中概念之间的交互作用。从语义上讲，基本的关系共有4 种：part-of、kind-of、instance-of、at-tribute-of，在实际建模过程中，概念之间的关系可以根据领域的具体情况再增加相应的关系。",
+    "context4": "(3）函数（functions)：一类特殊的关系。",
+    "context5": "(4）公理(axioms)：表永真断言，如概念乙属于概念甲的范围。",
+    "context6": "(5）实例(instances)：代表元素，从语义上讲实例表示的就是对象。"
+  },
+  "3.3本体分类": {
+    "context1": "Guarino以详细程度和领域依赖度两个维度作为对本体划分的基础[11)，详细程度高的称作参考（reference）本体，详细程度低的称为共享（share）本体。依照领域依赖程度，可以细分为顶级、领域、任务和应用本体等4类：",
+    "context2": "（1）顶级本体描述的是最普通的概念与概念之间的关系，常常是抽象术语，与具体的应用无关，其它种类的本体都是该类本体的特例，不一定需要形式化。(2）领域本体描述的是特定领域中的概念与概念之间的关系，较具体，容易形式化和共享。（3）任务本体描述的是特定任务或行为中的概念与概念之间的关系。（4）应用本体描述的是依赖于特定领域和任务的概念与概念之间的关系。",
+    "context3": "另外，根据主题可分为知识表示本体、通用本体、领域本体、术语本体和任务本体；根据形式化程度分为完全非形式化、结构非形式化、半形式化、形式化的本体。其中术语本体（terminologyontologies）常常表现为一个词表，概念关系的抽取较为随意和简单，不严格要求，甚至可以没有概念定义，如著名的WordNet 本体；形式本体（Formalontologies）对于概念术语的分类组织要求较为严格，需要按照一定的分析原则和标准，明确定义概念间的显性、隐性关系，并明确各种约束、逻辑联系等，常常由术语本体发展而来，却与之没有截然界限。"
+  },
+  "3.4构建本体方法论": {
+    "context1": "目前已有的本体很多，出于对各自问题领域和具体工程的考虑，构造本体的过程和标准各不相同，其中最有影响的是Gruber于1995年提出的5条构建规则：明确性和客观性、完全性、一致性、最大单调可扩展性、最小承诺。（12]",
+    "context2": "从工程角度来讲，本体工程的构建到目前为止仍处于相对不成熟的阶段，每一个工程都拥有自己独立的方法。得到公认的有：Berneras方法（KACTUS工程〔KAC96]）、SENSUS 描述、MikeUscholddede＆King的“骨架”法[ $\\mathrm { U s c 9 5 }$ 、Gruninger&Fox的企业建模法（又称TOVE）、Mariano Fernandez&GOMEZ一PEREZ等的Methontology方法。参照软件开发生命周期法IEEE1074-1995［IEE96]来对这些方法进行分析，发现没有一种方法是完全成熟的，它们的成熟度由低到高就是上面的列举顺序。"
+  },
+  "3.5本体的评估": {
+    "context1": "当前对构造本体的方法及方法的性能评估还没有一个统一的标准，因此，还是一个需要进一步研究的方向。 $\\mathrm { E O N 2 0 0 3 }$ 网站[13]上有许多与评估相关的文献，但大多是对某个本体构建工具的使用体会。",
+    "context2": "DuineveldA·J．就本体构建和评价的多个方面制作了一个评估框架[14]，从General、Ontology、Cooperation 三个方面对 Ontolingua、WebOnto ProtégéWin、OntoSaurus、ODE、KADS22 等六个本体构建工具进行了评估。发现WebOnto、ProtgeWin和ODE比较适合本体构建的概念化和形式化阶段，适用于对构建没有过多经验的用户，而Ontolingua 和 OntoSaurus 比较适合不需要过多修正的本体构建后期。"
+  },
+  "3.6本体的用途": {
+    "context1": "构建一个本体可以解决以下问题：",
+    "context2": "（1）在用户间或软件代理间达成对于信息组织结构的共同理解和认识(15]。假如有若干包含医药信息或提供医药电子商务服务的Web 站点，这些Web站点共享相同的底层本体，那么计算机代理就可以准确、没有歧义的抽提和集成这些来自不同站点的信息，代理软件可以利用这些集成的信息来回答用户的检索式或向用户提供数据。",
+    "context3": "（2）可以复用专业领域知识。譬如，中医各科对诊断技术的多方面理解。（3）使专业领域内的假设变得更加明确。对于必须理解该领域术语的新用户很有帮助。（4）从操作性知识中分离出领域知识。(5）分析专业领域的知识。在进行复用现有本体和扩展这些本体的尝试中，对术语规范地分析是极有价值的[8]。",
+    "context4": "因为本体是以机器可以理解的形式化语言来描述知识，目的是从根本上解决人与机器、机器与机器之间的信息、知识交流障碍，因此，它几乎可以应用在存在有信息、知识交流的各种领域，如：医学、电子商务、房地产、金融财务、制造业和工商业的供应链、电子教学、图书馆等，最大的用途当属各种信息系统和语义网的构建。"
+  },
+  "4本体相关描述语言": {
+    "context1": "2004年2月10日，W3C发布了支持语义网的两个技术标准：资源描述语言（修订版）（Resource Description Framework，RDF）和Web 本体语言（Web Ontology Language，OWL）。RDF和OWL作为语义网的标准为资源管理、企业间整合、Web的数据共享和再利用提供了框架，规则化了跨应用程序、跨企业、跨社区的数据共享，让不同领域、不同类型的用户可以共享同样的信息，即使他们使用了不同的软件。在图1中，粗斜线底纹部分是本体论的关键协议，其地位相当重要。下面分别予以介绍。",
+    "context2": "![](images/94e9bfeb92ecb46725b1ce0bd1300d0cd99d9e0ea3f5c25a15535f5939080719.jpg)  \n图1本体语言协议栈"
+  },
+  "4.1 XML": {
+    "context1": "XML（eXtensible Markup Language）是针对包含结构化、半结构化信息的文档而设计的一种标记语言。XML已经成为了Web上数据表示和交换的事实标准，是应用之间或者机器之间共享数据的一种有效方式。XML的可扩展性是XML区别其他标记语言的最基本特征，其核心在于以一种标准化的方式来建立数据表示的结构，而将具体标记的定义留给了用户。",
+    "context2": "但是，XML并不能解释它标记的含义，并且XML模式只能对XML的语法合法性进行验证，而不能区分XML属性和元素在含义上的不同。因此对于同样的信息内容，我们可以将其映射为多种不同的XML结构，同时对同一种XML 结构，也可以存在多种不同的解释，而相同的应用也可能对不同的XML做出同样的解释。"
+  },
+  "4.2RDF 和RDF．Schema 概述": {
+    "context1": "RDF定义了一种用以描述资源及其相互关系的简单模型，是语义互联网实现的关键技术之一，也是语义信息描述的有效手段。其基本数据模型包含三类对象：资源、属性和陈述，资源之间的关系通过属性和值来描述，描述特定资源特定属性的值，就构成RDF 中的一个陈述，通常可以用三元组<subject，predicate，ob-ject>描述。其中，被描述的资源称为subject，描述资源的属性称predicate，object 则是属性对应的值。RDF建立在XML和URI的基础上。",
+    "context2": "RDF 通过属性和值描述了资源以及资源之间的关系，但并没有提供描述这些属性及属性间关系的机制。RDF·Schema提供了这种表达机制，它描述了RDF中properties 的使用规则，为RDF定义了领域字典，并用类型层次结构来组织该字典，从而构成完备的语义空间。RDF的数据模型实质上是一种二元关系的表达，由于任何复杂的关系都可以分解为多个简单的二元关系，因此RDF的数据模型可以作为其他任何复杂关系模型的基础模型。",
+    "context3": "RDF·Schema在提供了简单的机器可理解语义模型的同时，为领域化的本体语言提供了建模基础，并使得基于RDF 的应用可以方便地与这些本体语言所生成的本体进行合并。RDF的这一特性使得基于RDF的语义描述结果具备了可以和更多的领域知识进行交互的能力，也使基于XML和RDF的Web 数据描述具备了良好的生命力。"
+  },
+  "4.3XML 和RDF的结合及其不足[16]": {
+    "context1": "RDF 和XML是互为补充的。首先，RDF希望以一种标准化、互操作的方式来规范XML的语义。XML文档可以通过简单的方式实现对RDF的引用。借助RDF，表达同一事实的XML 描述就可以被转化为统一的RDF 陈述。XML和RDF 的结合，不仅可以实现数据基于语义的描述，也充分发挥了XML与RDF的各自优点，便于Web 数据的检索和相关知识的发现。",
+    "context2": "XML和RDF都能为所表述的资源提供一定的语义。但是XML中的标签（tags）和RDF中的属性（properties）集都没有任何限制。一个例子是：XML可以用“<Author $>$ TOM $< /$ Author>\"表示 TOM是作者。而\"<rdf:Description about $=$ http://www.w3.org/Home/Lassila $> < _ { \\mathrm { s } }$ :Creator $>$ Ora Lassila ${ < } / { \\mathrm { s } }$ ：Creator $>$ /rdf:Description $>$ ”这个 RDF 片断描述了Web 页的创建者问题。而上面的Author 和Creator又完全可以用Writer 来代替。另一个例子是：某医院和某大学的 Web 页上都有 $<$ Doctor>，但是不知道它代表的是医生还是博士。",
+    "context3": "综上所述，XML和RDF在处理语义上存在的问题是： $\\textcircled{1}$ 同一概念可有多个词汇表示； $\\textcircled{2}$ 同一个词汇有多种概念(含义)。",
+    "context4": "RDF的模型不具备解决这两个问题的能力，RDF $\\because$ Schema虽然可以为RDF 资源的属性和类型提供词汇表，但是基于RDF的数据语义描述仍然可能存在语义冲突(RDF $\\ddots$ Schema提供的语义表达能力仍然较弱，例如，不能清晰区别事例、概念和元本体，没有参考模型,不能做布尔运算、代数运算等)[32]。本体论通过对概念的严格定义和概念之间的关系来确定概念精确含义，表示共同认可的、可共享的知识，从而解决上面的问题。因此在语义网中，本体具有非常重要的地位，是解决语义层次上Web 信息共享和交换的基础。"
+  },
+  "4.4OWL概述": {
+    "context1": "OWL目前是本体的标准描述语言。它是结合了DAML $^ +$ OIL应用经验而改进的修订版(因此就不再介绍DAML $+ \\mathrm { O I L }$ )，建立在RDF 基础上，以XML为书写工具。主要用来表达需要计算机应用程序来处理的文件中的知识信息，而不是呈递给人的知识。OWL能清晰的表达词表中各词条的含义及其之间的关系，这种表达被称为本体。OWL 相对 XML、RDF 和 RDF $\\cdot$ Schema 拥有更多的机制来表达语义，从而OWL超越了XML、RDF和RDF $\\ddots$ Schema仅仅能够表达网上机器可读的文档内容的能力（17]",
+    "context2": "OWL 分三个子语言:OWLLite、OWL DL、OWL Full。相应功能简介如下：",
+    "context3": "(1)OWLLite：用于提供给那些只需要一个分类层次和简单的属性约束的用户。",
+    "context4": "(2)OWLDL：支持那些需要在推理系统上进行最大程度表达的用户，这里的推理系统能够保证计算完全性和可决定性。它包括了OWL语言的所有约束，但是可以被仅仅置于特定的约束下。",
+    "context5": "(3)OWLFull:支持那些需要在没有计算保证的语法自由的RDF上进行最大程度表达的用户。它允许一个本体在预定义的(RDF、OWL)词汇表上增加词汇，从而任何推理软件均不能支持OWL FULL 的所有 feature。",
+    "context6": "用户在选择使用哪种语言时的主要考虑是：",
+    "context7": "(1)选择OWLLite还是OWLDL主要取决于用户需要整个语言在多大程度上给出了约束的可表达性；",
+    "context8": "(2)选择OWLDL还是OWLFull主要取决于用户在多大程度上需要RDF的元模型机制(如定义类型的类型以及为类型赋予属性)；",
+    "context9": "(3)在使用OWLFull而不是OWLDL时，推理的支持不可预测，因为目前还没有完全的OWLFull的实现。",
+    "context10": "这三种子语言与RDF 的关系是：",
+    "context11": "（l)OWLFull可以看成是RDF 的扩展；",
+    "context12": "(2)OWLLite 和OWLFull 可以看成是一个约束化的RDF 的扩展；",
+    "context13": "(3)所有的 OWL 文档(Lite,DL,Full)都是一个RDF 文档;",
+    "context14": "(4)所有的 RDF 文档都是一个OWLFull文档;",
+    "context15": "(5)只有一些RDF 文档是一个合法的 OWL Lite 和 OWL DL文档。"
+  },
+  "5本体论的研究和应用": {
+    "context1": "自2000 年提出语义网后，在世界范围内掀起了语义网和本体的研究热潮,较新、较系统的文献大多在 2002 年上半年以前出现，这些文献的特点多是对本体的概念、相关理论及其相关领域的系统性阐述。此后便一直沉默，直至2004上半年，有关本体的研究又重新热了起来，此时的研究热点具体体现了三个方面： $\\textcircled{1}$ 理论深化研究; $\\textcircled{2}$ 信息系统中的应用，主要包括处理信息组织、信息检索和异构信息系统互操作问题; $\\textcircled{3}$ 本体作为一种能在知识层提供知识共享和复用的",
+    "context2": "工具在语义网中的应用。"
+  },
+  "5.1本体论理论研究": {
+    "context1": "本体论研究和语义网研究经常相伴而行。从第三次Interna-tional Semantic Web Conference（ISWC2OO4)[18]上收录的论文看,比较突出的研究机构是德国卡尔斯鲁厄大学和荷兰的自由大学。目前，本体论的理论研究已由单纯的概念研究拓展为本体构建(Ontol-ogy Generation）、本体映射（Ontology Maping）、本体进化（OntologyEvolving)等方面。"
+  },
+  "5.1.1 本体概念研究": {
+    "context1": "概念研究中最有代表性的是Guarino 等人(11)[19)对概念分类所做的深入和细致的研究，他们从一般的意义上分析了什么是概念、概念的特性、概念之间的关系以及概念的分类，提出了一套用于指导概念分类的可行理论。基于这个理论，他又提出了本体驱动的建模方法，在理论上为建模提供了一个通用的模式。",
+    "context2": "Guarino的理论可以归纳如下：概念分类理论的基础是概念的元特性。以概念的元特性为出发点，按照一定的规则，把具有相同元特性组合的概念归为一类，进而给出一般意义上的概念分类体系。概念的基本元特性包括：持久特性、非持久特性、反持久特性、半持久特性、载体标识特性、支持标识特性、外部依赖特性等。"
+  },
+  "5.1.2本体构建研究": {
+    "context1": "目前，构建本体的方法已有基本思路：一是利用已有的叙词表或分类表改造成本体;二是利用现有文献和领域专家从头做起。后者较常用。",
+    "context2": "从自由文本或异质数据源中抽取数据的学习型本体仍局限在实验室中，概念关系的抽取已经是本体深入研究的主要障碍。因为费用和本体性质原因，许多本体被复用和转换。本体可以以概念图、描述逻辑、XML或简单概念等级等形式表达，但目前标准的表达语言是OWL,它融合了描述逻辑、形式逻辑和Web 标准。20]",
+    "context3": "李景(21提出了构建领域本体的七个基本步骤:确定本体的专业领域和范畴、复用现有的本体、列出本体中的重要术语、定义类和类的等级体系、定义类的属性插件（slots）、定义属性插件的分面(facets）、创建实例。",
+    "context4": "刘柏嵩(22应用3类本体来表示用户在线浏览数字图书馆的过程：数字资源本体(Resource Ontology);浏览任务本体(Task Ontol-ogy);用户模板的本体(Profile Ontology）。",
+    "context5": "开发本体的系统软件主要具有编辑、图示、自动转换置标语言、自动将系统内容转换成数据库、可以附加软件插件等功能。目前其种类不少于 50 种，主要有： $\\mathrm { P r o t } \\acute { \\mathrm { e } } \\mathrm { g } \\dot { \\mathrm { e } } - 2 0 0 0$ 、OntoEdit、OilEd、On-tolingua、Open Cyc 等。其中 $\\mathrm { P r o t } \\mathrm { \\tilde { e } g \\tilde { e } { - } 2 0 0 0 }$ 是较常用的免费开放的本体工具,由 Stanford 大学开发研制，目前已经是2.1.2版,注册用户已达19050人。使用Java和开放资源作为操作平台，可自己设置输入格式，也可插入插件扩展特殊的功能，支持的插件现在已经多达83 种(包括支持OWL 的插件)。"
+  },
+  "5.1.3本体映射研究": {
+    "context1": "某个具体领域的本体不可能是唯一的，形式化手段也可以不同，另外，Web上本体的种类和数量越来越多，而且大多是分布式的，在实际应用中为了更有效的使用和复用本体，就必须对不同本体通过某种机制进行交换，形式化的方式也需要标准化。解决此类问题有两种观点： $\\textcircled{1}$ 重点构建好通用本体，领域本体应用于具体领域内部，而通用本体则主要应用于领域之间; $\\textcircled{2}$ 建立良好的本体间映射，就是复用已存在的本体，通过一定的方法对它们进行展开和组合，集成不同领域的本体以实现一个更大的信息和知识库从而支持新的交流和使用。",
+    "context2": "本体的映射可以通过不同的方法进行研究：[23]",
+    "context3": "(1)One-One 的方法。即为每一个本体提供一组转换函数使得它在没有中介本体的情况下直接跟其它本体交流。(2)共享本体的方法。共享一个本体的方法的缺点和其他任何标准相同。(3)本体聚类的方法。由于资源的相似性而聚类，本体簇可以按层次进行组织。",
+    "context4": "Paolo Bouquet 提出场景本体概念(24],即 C-OWL：Contextual-izing Ontologies。当一个内容属于具体领域的本体(不能和其他本体共享)通过清晰的映射和其他本体的内容产生联系时，该本体就被场景化而成为一个场景本体。",
+    "context5": "目前已经有多个映射工程，例如：InfoSleuth的参考本体、斯坦福大学的本体代数、AIFB的形式概念分析、ECAI200O 的方法、ISI的 OntoMorph、KRAFT的本体聚类、异构数据的集成等。但实际情况是，尽管有些工具对于映射有推进作用，很多映射系统却非常依赖专家的人工输入。本体映射并不是简单地一对一的映射，相反地，需要坚实的更为深入的继承和推论的一致性校验和确认等等。此外，单领域或跨领域(本体群)的本体映射还有多对一、一对多、多对多等关系。在本体映射的自动化和半自动化上还有许多工作要做。"
+  },
+  "5.1.4本体进化研究": {
+    "context1": "本体进化就是获得新的信息和知识时适当地维护和扩充已有本体。为了保证本体维护的精确度，本体进化需要清楚本体的结构。最近，一些半自动化和自动化进化的研究在开展，但是，大多数还停留在早期的状态，即需要手工干预。本体映射中提到的映射工程大多具有本体进化功能。"
+  },
+  "5.2本体在信息系统中的应用": {
+    "context1": "创建基于本体的信息检索系统的基本思路有：[25]",
+    "context2": "(1)在领域专家的帮助下，建立相关领域的本体;(2)收集信息源中的数据，并参照已建立的本体把收集来的数据按规定格式存储在元数据库(RDB,KDB 等)中;(3)对用户检索界面获取的查询请求，查询转换器根据场景(context)和过程(process)信息，按照本体论把查询请求转换成规定的格式，在本体论的帮助下从元数据库中匹配出符合条件的数据集合；",
+    "context3": "(4)检索的结果经过定制处理返回给用户。",
+    "context4": "目前用于信息检索的本体项目种类繁多，例如，（Onto)2Agent项目，是为了帮助用户检索WWW上已有的本体，主要采用参照本体，即以WWW上已有的本体为对象建立起来的本体，保存各类本体的元数据;SKC项目，主要是解决信息系统语义异构的问题，实现异构的自治系统间的互操作。希望通过在本体上的一个代数系统来实现本体之间的互操作，从而实现异构系统之间的互操作。",
+    "context5": "阿姆斯特丹自由大学和荷兰Elsevier 出版社合作研制了一个医学文献语义检索工具 DOPE（Drug Ontology Project for Elsevi-er)[26],其中的本体是以EM树状叙词表为其术语结构，提供与疾病相关的药物本体信息。"
+  },
+  "5.3本体和语义网": {
+    "context1": "提高Web信息检索的质量包括两方面的内容：如何在现有的资源上面设计更好的检索技术;如何为Web上的资源附加上计算机可以理解的内容,便于计算机处理，即给出一种计算机能够理解的表示资源的手段。",
+    "context2": "基于后一种考虑，万维网创始人Berners-Lee 在20OO 年12月的$\\mathbf { X M L 2 0 0 }$ 会议上提出了语义网概念[27]。语义网的目标是使得 Web上的信息具有计算机可以理解的语义，满足智能软件代理对Web上异构和分布信息的有效访问和检索。图2是Berners-Lee为未来Web 发展提出的基于语义的体系结构一—语义网的体系结构。",
+    "context3": "图2中由下至上分七层。第一层，整个语义网络的基础，Uni-code 处理资源的编码，URI(统一资源标识，Universal ResourceI-dentifier)负责标识资源;第二层，用于表示数据的内容和结构;第三层，用于描述Web上的资源及其类型;第四层，用于描述各种资源之间的联系;第五～七层，在下面四层的基础上进行逻辑推理操作。其中第二～四层属于核心层，用于表示Web 信息的语义，属于本体论技术范围。",
+    "context4": "![](images/5dc8a8e4decd1d5fca6473e0dd3869768e7fedb4aa1314c43759397c56ff3e4f.jpg)  \n图2SemanticWeb的标准与技术",
+    "context5": "本体具有良好的概念层次结构和对逻辑推理的支持，在语义网中将会有广泛的应用，主要包括如下几个方面：",
+    "context6": "(1)电子商务网站：本体有助于商家和客户之间实现基于机器的通信，使得市场的垂直集成成为可能，并使得商品的描述能在不同的市场复用?例如：Yahoo shopping 和 Amazon $, ^ { \\star }$ com 都提供了基于本体的更为强大的信息搜索和浏览功能；",
+    "context7": "(2)搜索引擎：本体能帮助实现跨越目前基于关键词的搜索，并可找到包含语法不同但语义相似的词或句的页面；",
+    "context8": "(3)Web服务：本体可提供易于被智能代理所理解的语义丰富的服务描述。例如美国的 SHOE(Simple HTML Ontology Exten-sions,利用本体论将HTML扩展为语义网代码)工程和欧洲的IST工程 (本体被用来促进企业网之间的知识交流)等。"
+  },
+  "5.4本体论在数字图书馆中的应用发展": {
+    "context1": "由于目前缺乏完整的解决方案(解决方案也不唯一)，解决分布式网络环境下系统或资源间的互操作问题成了数字图书馆技术的核心难题，而以本体论为核心的语义网技术正在形成一套解决异构系统互操作问题的完整的解决方案。本体的本质就是领域知识的共享与复用,标准化和形式化的领域本体能够为信息系统之间的高层互操作提供很好的工具。",
+    "context2": "因此本体论在数字图书馆中的应用有很大的空间[28),例如：可提供资源库领域知识的规范描述;可提供描述型元数据有关语义描述的知识地图;可提供元数据映射方案，集成到数字图书馆体系中的元数据服务中，成为协议的一部分;可提供智能代理与信息环境之间基于语义的理解机制;可创建跨平台、跨系统之间的通信中介;可提高分布环境下查询请求的语义理解、自动分发;提供计算机支持的协同工作(CSCW)的能力;可用于数字图书馆的数据挖掘等等多个方面。",
+    "context3": "刘炜[28提到,因为已经学习掌握了许多\"知识体系”，图书馆馆员在本体的构建(建立本体的目标、范围、需求分析，概念/词表的汇总，本体关系分析，本体形式化)中将担任重要角色，而本体的维护/修订则由领域专家负责，最终用户只需使用本体(系统可以自动进行反馈)。"
+  },
+  "5.4.1应用案例": {
+    "context1": "世界各国都陆续开展了本体在数字图书馆中应用研究。DE-LOS(European thematic network on digital libraries）和语义网站ONTOWEB合作开展了名为\"Content standardization forculturalrepositories\"的项目，旨在推动数字图书馆进程。美国密歇根数字图书馆在UMDL 本体和 MARC之间以 has、of、kind-of、extended 四种关系建立了映射，而Qin&Paling 则将一个GEM系统中的可控词表转换成了一个本体。EU-IST工程一HeritageMap(29)就是将本体应用数字图书馆的一个好例子，该工程目标就是创建一个图书馆资源和语义网相连的本体服务系统。北京大学信息学院数字图书馆研究小组利用本体相关技术，结合数字图书馆现有的分类体系和检索技术，提出了“基于语义网的数字图书馆智能检索\"系统框架。（33]",
+    "context2": "英国曼彻斯特大学的 OpenGalen 项目(30]利用已有的叙词表或分类表来改造成本体。美国加州大学圣巴巴拉分校的地理科学数字化图书馆项目(31]则是利用现有文献和领域专家从头做起构建本体。"
+  },
+  "5.4.2图书馆面临的挑战": {
+    "context1": "未来图书馆员需要了解：",
+    "context2": "(1)语义网的理论、标准、技术;",
+    "context3": "(2)本体系统的设计、编制、实施；",
+    "context4": "(3)如何与领域专家、系统设计人员合作开发研制为科研、教育服务的语义网应用项目；",
+    "context5": "(4)如何利用语义网的技术为图书馆的现有资源和服务增加价值。"
+  },
+  "5.4.3应付挑战的策略": {
+    "context1": "数字图书馆作为下一代因特网资源管理的核心技术，目前的研究焦点集中在如何更有效地应用数字图书馆中的内容，提供传统图书馆和无组织的因特网所不能提供的服务。面临本体和语义网将来可提供的高质量的信息资源服务，作为信息资源地的图书馆必须迎头赶上，做好如下准备：",
+    "context2": "(1)着眼于完全数字化的资源：将新文献新数据的创建结构化，为自动生成元数据、有结构的数据打基础;",
+    "context3": "(2)着眼于完全数字化的服务：文献、事实、数据等的查找和传送直接在用户的办公桌上完成；",
+    "context4": "这两大方面的策略中包含一系列利用语义网和本体的工具和方法。"
+  },
+  "[参考文献]": {
+    "context1": "[1]邓志鸿,等.Ontology 研究综述[J]·北京大学学报(自然科学版)，2002;38(5):730—738.",
+    "context2": "[2] Studer R,Benjamins V R,Fensel D. Knowledge Engineering, Principles and Methods[J].Data and Knowledge Enginering, 1998;25(12):161-197   \n[3]Jernst $,$ What are the differences between a Vocabulary,a taxonomy,a thesaurus,an ontology,and a meta —model?[J/OL] http://www· metamodel. com/article.php? story $=$ 20030115211223271   \n[4]李景．叙词表与本体的区别与联系［J]．中国图书馆学报， 2004，30 (1)：36-39.   \n[5]刘炜．关于元数据的十万个为什么[J/OL]:http://www. libnet·sh·cn/sztsg/fultext/abc/metaFAQ·pdf   \n[5]http://c2.com/cgi/wiki? MetaModel   \n[6]http://www $^ \\prime \\cdot$ umlchina $\\cdot$ com/xprogrammer/glossaryl.htm   \n[7] McGuinness,D L,Fikes，R.，Rice，J.et al·An Environment for merging and testing large ontology[J/OL]. htp://www. ksl:stanford:edu/people/dlm/papers $\\mathrm { k r 2 0 0 0 }$ camera-readycopy·doc   \n[8]Michael D，Ontology Building: A Survey of Editing Tools[ $\\boldsymbol { \\mathrm { J } } ^ { \\prime }$ OL]: http://www-xml.com/pub/a/2002/11/06/ontologies. html   \n[9]Perez A G,Benjamins V R: Over view of Knowledge Sharing and Reuse Components:ontologies and Problem Solving Methods: IJCA(1999).   \n[10]Guarino N· Semantic Matching:Formal Ontological Distinctions for Information Organization，Extraction and Integration[J/OL ]http://citeseer:ist:psu:edu/ guarino97semantic·html   \n[11l] Gruber T·R· Towards Principles for the Design of ontologies Used for Knowledge Sharing[J]. International Journal of Human ComputerStudies,1995;43:907-928   \n[12]EON2003,Evaluation of Ontology— based Tools[J/OL]. http://km·aifb·uni-karlsruhe $. \\mathrm { d e } / \\mathrm { w s } / \\mathrm { e o n } 2 0 0 3 /$ index-html   \n[l3]WonderTools? A comparative study of ontological engineeringtoolsl[J/OL]. http://bbs:xml·org· $\\mathrm { c n } ^ { \\prime }$ viewfile asp? ID $= 5 1 3$   \n[14]Musen,M.A. Dimensions of knowledge sharing and reuse[J]. Computers and Biomedical Research,1992;(25)：435-467.   \n[15]周竞涛,王明微· $\\mathrm { X M L ^ { + } R D F }$ ——实现Web 数据基于语义的 描述[J/OL]. http://www-900.ibm·com/developerWorks/ cn/xml/x-xmlrdf/index·shtml   \n[16] http://www:w3.org/2001/sw/WebOnt/   \n[17] http://swc2004.semanticweb:org/   \n[18]Guarino N,Welty C A.Formal Ontology of Properties[ $\\boldsymbol { \\mathrm { J } } ^ { \\prime }$ OL]· http://people·imise $\\cdot$ uni—leipzig·de/ barbara· heller/ Listen/V-richter guarino·pdf   \n[19]Ding Y，et·al.,Ontology Research and Development,part 1 [J/OL]. http://www· cs· vu. $\\mathrm { n l } ^ { \\prime \\sim }$ ying/ download/Oljis01- final-revision $\\cdot$ pdf   \n[20]李景,苏晓鹭,钱平.构建领域本体的方法[J]·计算机与农 业,2003,(7):7-10.   \n[21]刘柏嵩·关于\"基于本体的数字图书馆信息过滤研究\"[J]·上海 交通大学学报,2003,(Sl):171-174.   \n[22]Ding Y,et·al.,Ontology Research and Development $,$ part 2 [J/OL]:http://dois·mimas:ac·uk/DoIS/data/Articles/julbaefggy:2002:v:28:i:5:p:375-388.html   \n[23]Paolo B,C- OWL:Contextualizing Ontologies[J/OL]. http://www·cs:vu·nl/\\~frankh/postscript/IsWCO3.pdf   \n[24] Shun SB,Motta E,Domingue J. Schol Onto:an Ontology based Digital Library Server for Research Documents and Discourse[J]· Intl J Digital Libraries，200O;3(3):237-248   \n[25] http://aduna:biz/dope/   \n[26] http://www:w3.org/2001/sw/   \n[27]刘炜·元数据和知识本体[J].图书馆杂志,2004,23(6)：50一 54.   \n[28]http://sca·lib.liv:ac:uk/collections/HeritageMap/HeritageMapB·html   \n[29]Rector A L，Wroe C，Rogers J. et: al. Untangling taxonomies and relationships:personal and practical problems in loosely coupled development of large ontologies $\\mathrm { \\Delta J / O L }$ ： http://portal.acm:org/ft-gateway.cfm? $\\mathrm { i d } = 5 0 0 7 6 0 \\&$ type $=$ pdf   \n[30] Smith,T. R.,Zeng,M.L. Building semantic tools for concept -based learning spaces:knowledge bases of strongly-structured models for concepts in advanced DL·Journal of Digital Information[J/OL]. 2004,4(4). http://jodi.ecs· soton $, ^ { * }$ ac: uk/Articles/v04/i04/Smith/   \n[31]黄智生·语义支撑的知识技术[J/OL].http://bbs·xml·org· cn/temp/sekt040727.rar   \n[32]宋炜，张铭．语义网简明教程〔M]．北京：高等教育出 版社，2004."
+  },
+  "Research and Application Development on Ontology": {
+    "context1": "LI Jian-kang，ZHANG Chun-hui",
+    "context2": "(Library of Southern Medical University，Guangzhou 5l05l5,China)",
+    "context3": "Abstract:TheresearhootologyisjustbegiinginChina.Tispaperatempts toiveasyopticintroductionof tsoncepts，theories protocols，application and development.",
+    "context4": "Keywords:ontology；concept； protocols；application and development",
+    "context5": "[作者简介］李健康（ $1 9 5 3 -$ )，男，研究馆员，硕士生导师，南方医科大学图书馆馆长，已发表论文80余篇，参编著作10余部。",
+    "context6": "〔收稿日期]2004－09－08"
+  }
+}

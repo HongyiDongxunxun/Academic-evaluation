@@ -1,0 +1,102 @@
+{
+  "original_filename": "full_7478.md",
+  "机构学术型专利识别方法的研究进展": "",
+  "|李姝影方曙": {
+    "context1": "摘要 指出机构学术型专利的识别是在对人名进行计算机匹配的基础上,对机构的专利产出和论文产出进行关联的识别过程，具有重要的理论意义和实践意义。综述机构学术型专利识别方法的当前研究进展，主要包括基于关键词检索、匹配列举以及关系数据库3种方法,通过分析3种方法的优势和劣势，提出识别机构学术型专利的步骤，认为建立关系数据库的方法综合了前两种方法的优势，能够大规模定期更新作者名单，并在德国大学的实证中成功实施，可为未来其他国家开展学术型专利的研究提供借鉴。",
+    "context2": "关键词学术型专利识别方法研究进展",
+    "context3": "份类号]G306",
+    "context4": "DOI: 10. 13266/j. ssn. 0252 -3116. 2014. 03. 020"
+  },
+  "1引言": {
+    "context1": "美国国会于1980年12月12日通过了由参议员B.Bayh和R.Dole提出的《专利和商标法修正案》,即著名的 Bayh-Dole 法案(Bayh-Dole Act,PL96-517,35USC．200 et seq1980），也称“大学、小企业专利程序法案”,该法案允许大学和小企业拥有联邦基金资助所产出发明的所有权。该法案主要处理联邦政府所资助研究的知识产权问题，根据其规定，大学作为雇主拥有雇员发明专利的所有权，也即专利不再为发明人个人所有，这在一定程度上有效地驱动了美国大学专利布局的发展。在过去的几年里，很多欧洲国家也纷纷效仿美国，对知识产权体制进行了改革，随之而来各国政府技术转移模式的转变，大学专利活动逐渐活跃，专利发明数量增加,科研成果商业化速度加快，专利许可和产权交易的收入提高，各国学者也正式开始关注大学发明专利的情况。多年的研究实践表明，欧洲决策者迫切想要获取科学和技术的相关指标，J.Raffo和S.Lhullery就曾提出想要了解欧洲高校在发表论文、发明专利以及技术转移方面与美国高校的差距，同时这也是了解企业和高校技术布局、寻求技术机会和避免竞争对手威胁的重要手段。"
+  },
+  "2机构学术型专利的概念": {
+    "context1": "M.Meyer在梳理大学专利发明的类型时,提出了一个新的概念,即将大学中的发明专利定义为学术型专利（academicpatents）,并从所有权的角度将它分为两种：第一种是大学拥有所有权的专利（university-owned patents）,即大学或其技术转移办公室(Technolo-gy Transfer Offices,简称 TTOs）为专利申请人的专利;第二种是大学产生的专利（university-invented pa-tents）,即专利发明人为大学所属作者的专利，例如申请人为第三方(个人或私营企业)的专利。笔者认为，学术型专利不仅仅指大学所拥有的且由大学申请的专利,大学、企业或研究机构在研发中都存在发表论文和发明专利的情况，因此，如果该机构在发明专利的过程中发表了与专利相关的论文，那么与该论文相关的专利即为机构的学术型专利。",
+    "context2": "当前，对学术型专利的识别在各种研究中存在着强烈的需求，但更面临着技术和方法层面的挑战。一方面，正确识别学术型专利非常重要,因为这不仅是开展科学与技术关系的研究、合作网络研究和人力资源管理等方面的数据处理基础,还是进一步完善论文和专利规范文档建设的必要参考。正确识别学术型专利，有利于探求学术型专利合作网络的规律，揭示和挖掘科学与技术潜在的关系，监控和评估公共研究组织的绩效。另一方面，学术型专利由于文献类型的差异而难以识别,A.Geuna 和L.J.J.Nesta就表示学术型专利的研究或者缺少相应的数据或者数据质量较差，故此,这方面的研究仍然处于盲点,缺乏可靠且系统的方法来准确识别与计算学术型专利的数量。本文通过调研分析发现:造成学术型专利难以识别的原因主要有3个方面： $\\textcircled{1}$ 大学与企业之间是共同合作关系，大学发明专利中有一大部分是由企业申请的; $\\textcircled{2}$ 存在以个人名义申请专利的情况; $\\textcircled{3}$ 当前论文和专利数据库对作者、发明人、机构名称的著录不够规范,使学术型专利的识别较为困难。",
+    "context3": "本文主要通过文献调研发现当前研究所采用的识别学术型专利的方法，分析各自的利弊，在此基础上提出识别机构学术型专利的步骤,从而从知识组织的角度对机构学术型专利识别方法的未来发展方向和发展中可能遇到的困难进行分析和展望，希望能够在一定程度上提升机构学术型专利识别的效率和正确性，并为相关的研究提供借鉴。"
+  },
+  "3 学术型专利识别方法研究现状": {
+    "context1": "当前的学术型专利识别方法主要针对大学发明专利的识别，出发点都是从专利发明人的角度来建立联系，但核心思路还停留在通过专利发明人的教授身份来判断其所发明的专利为学术型专利。世界经济合作与发展组织(Organization for Economic Cooperation andDevelopment,简称OECD)在2009年发表的《专利数据手册(2009）》中认为,将发明人姓名字段与其他数据库中的个人互补数据进行匹配,通过专利申请中发明人的正确识别能够重构个人发明的相关记录。OECD从一定程度上肯定了发明人字段在学术型专利识别方法中起到的纽带作用，并揭示了发明人字段在实际研究和数据处理中的重要性。",
+    "context2": "造成发明人信息难以获得和关联的基本原因包括：首先同一发明人的名字在拼写时略有不同，由于习惯各异，中间名和姓氏的位置各不相同;第二,虽然存在两个确切的名字,但也不能确定两个相同名字指代的是同一人,例如,国外人名“John Smith\"就比较普遍，容易混淆;第三，将非英语国家名字译为拉丁字母时不够统一,并存在歧义,例如,对中文姓“李\"的翻译就有中国大陆和台湾地区两个版本“Li”和“Lee”，但中文中与“李”同音的姓还有“黎”等,如不事先进行规定和统一,后续数据处理时就很容易出错。",
+    "context3": "针对名字问题,已有研究人员尝试利用计算机匹配算法来统一，但迄今为止也只是适用于特定的专利集合当中。M.Trajtenberg等就对USPTO专利数据进行了实验:首先，对相似的姓名进行分组，在对姓名尽可能地清理和标准化的同时，利用Soundex代码系统对谐音的名字进行编码从而统一名字列表;其次，通过对比名字,对疑似同名的姓名按照中间名、地理位置(如邮编、城市等)以及技术领域(例如专利分类）、专利权人、共同发明人等字段进行两两对比，若是两项纪录属于同一地址、同一个专利分类,并拥有共同的合作者，便分别对它们进行赋值,而满足预设阈值的记录则被认为两项纪录是匹配的,即识别出了同一个发明人。",
+    "context4": "在姓名字段处理的基础上，国内外学者采用了一些方法来识别学术型专利,大体上可以分为以下3种类型: $\\textcircled{1}$ 关键词检索的方法。通过对某个领域或机构进行关键词检索，将所检索的专利文献按照数据库中已标识的“教授头衔（PROF或UNIV,PROF或PRO-FESSOR等等)”筛选出来,从而找到学术型专利; $\\textcircled{2}$ 匹配列举。将大学现有教师名单、其他类型文献中的教授姓名或论文数据库中的作者与专利的发明人姓名进行匹配,在不完全匹配的情况下,采用邮编、机构等其他字段对其进行限定再匹配,从而识别出学术型专利;$\\textcircled{3}$ 在前两种方法的基础上,查找论文作者和专利发明人，分别提取论文数据库和专利数据中的字段来建立关系数据库，再通过一系列的匹配与过滤规则来自动地识别出学术型专利。"
+  },
+  "3.1基于关键词检索的识别方法": {
+    "context1": "关键词检索(searching for keywords)的基本思想如上文所述是通过数据库中已标明的“教授或博士”的头衔来检索专利文献，从而找到学术型专利。基于关键词检索的识别方法在德国和澳大利亚的研究中较常见,因为来自这两个国家的发明人普遍使用“教授”头衔。但是,识别大学学术型专利重要的问题在于要找到那些不是由大学自身申请的专利,利用“教授”类似的头衔的检索方式难以准确识别学术型专利的情况。",
+    "context2": "D.Czarnitzki等通过研究论文作为科学产出和专利之间的关系,调查了德国教授活跃的一些科学领域,发现研究人员的论文产出和专利质量呈现正相关关系。其方法利用德国专利商标局、欧洲专利局的数据库和Web of Science 数据库，通过“教授或博士（Prof./Dr）”的头衔来识别所有发明人，除了姓名之外还采用地址以核实多个专利发明人同一姓名的情况;将专利中识别的发明人放入论文库中检索,从而得出专利发明人的论文产出。在德国于2002年时引入了类似Bayh-Dole法案的原则,废除了教授特权（德语Hochschullehrerprivileg,professor's privilege)之后,上述方法也只能识别出2002年以前的德国专利和论文。其次，关键词检索更大的弱点可能在于它只能在专利发明人中间找到标识了“教授”的发明,而不能识别由"
+  },
+  "李姝影，方曙.机构学术型专利识别方法的研究进展": {
+    "context1": "立关系数据库的3种方法的效率进行对比，从而对机构学术型专利识别方法的效率和准确性有更深入的把握。"
+  },
+  "3.2基于匹配列举的识别方法": {
+    "context1": "如上文所述,匹配列举(matching lists）的基本思想是将专利文献中的发明人字段与大学或机构中教职员工的名单进行匹配,从而找到学术型专利。其中最具代表性的是由法国、意大利和瑞士等欧洲国家倡导的“知识型创业:创新、网络和系统(knowledge-based en-trepreneurship:innovation，networks and systems,简称KEINS)”项目，它利用匹配列举的方法开发了多个有关学术型发明人的数据库，用以识别两种截然不同的数据集之间的关系，以便更准确地描绘欧洲大学的专利行为。",
+    "context2": "J.Thursby等[调查了美国采用Bayh-Dole 法案的情况：美国教师作为发明人的5811个专利中，有 $26 \\%$ 只属于企业，不属于高校。他们以此来研究专利归属权的变化对高校和企业的影响。实证中教师名单来源于美国国家研究委员会1995年版的国家教员目录（NationalFacultyDirectory）,其他采用国家经济研究局的数据。通过建立样本集，他们匹配了1993年87个美国研究型大学中34202位科学家和拥有博士学位的工程师的姓氏和美国专利发明人的名字，清理了名字和所属机构，消除了姓名和中间名不匹配的情况,还对常用名进行了处理,另计算了发明人所在地邮编和高校教师成员所在地邮编的距离( $< = 5 0 \\mathrm { m } )$ 。但该方法工作量巨大，不适用于当前专利数量膨胀和研究人员剧增的情况，也不便于数据的更新。",
+    "context3": "王刚波和官建成[分析了中国纳米科技领域的论文和专利数据之间的联系，比较了学术发明人和纯学术研究者的研究绩效差异，考察了专利活动对科学研究产出数量和质量的影响。专利数据取自DII数据库;论文数据取自ISI自然科学引文索引(SCI-E)数据库。利用关键词检索DII（1991－2008）,提取至少有2项专利的中国高校(剔除重复、将大学中文名称与英文名称对应)数据,将其放到 SCI-E(1991－2008)中用相同关键词检索查询论文数据,按照中文名称(署名单位、署名作者)来匹配专利数据库和论文数据库,利用发明人列表建立查询词检索并标注发明人有哪些论文发表。但该研究只检索了英文论文，其研究对象是中国大学,实证也以清华大学为例,并未涉及相应的中国期刊数据库的论文数据。",
+    "context4": "基于匹配列举的识别方法的主要弱点在于生成教师名单所需的成本高昂且耗时，因为这种数据常常很难找到。大多数国家并不会综合并及时更新保存大学教师的名单，所以这些都需要花人力和时间进行创建和更新;另一个问题在于如果这些教师的确存在,他们常常仅限于某一特定的群体，例如大学中的终身教授。因此,与关键词检索的方法存在类似的问题:可能漏检某个发明人群体,例如博士研究生、助教和讲师等没有官方公开身份的发明人。"
+  },
+  "3.3基于关系数据库的识别方法": {
+    "context1": "基于关系数据库(relationaldatabase）的学术型专利的识别方法的基本思想是通过提取论文和专利数据库中的数据集字段，分别创建两个表,根据相同的属性建立表与表之间的联系，从而将其整合到一个关系数据库当中，再通过一系列的匹配与过滤规则来自动地识别并更新机构的学术型专利。这种基于科学出版物和专利相同作者和发明人的查找数据集的方法，与之前论述的关键词检索和匹配列举的方法最主要的不同在于：大学雇员和相关人员的名字不再依赖教授头衔，也不单单来自于高校的官方教师名单,而是旨在抓取研究中在学术期刊上发表过文章的每个人。",
+    "context2": "F.Dormbusch等[首次提出通过建立关系数据库的方法,大规模识别所有大学专利发明人发表论文的情况。首先,专利文献采用EPO的PATSTAT数据库，论文文献采用Elsevier公司提供的 Scopus数据库，除了EPO和Elsevier提供的标准信息之外,数据集还应包括其他资源的其他信息，例如需要提供德国专利商标局中发明人的地址信息(欧洲可通过EPO获得），手工补充 Scopus中的数据空白，并利用SQL语言进行数据检索。其次,数据集的实现、数据生成和清洗过程:",
+    "context3": "在解析阶段中，构建适合的数据集，将所需信息解析到关系数据库设计的表格中，并采用不同的解析策略清理数据;在匹配与过滤阶段，匹配发明人和作者的名字，按照过滤标准来进行匹配。这种方法为大范围持续自动识别基于大学的发明专利提供了一种思路,而且也可以因不同的目标进行调整。",
+    "context4": "该方法通过建立关系数据库，匹配作者和发明人的姓名,检测出了从大学中识别专利申请的普遍可行性，还提出未来的工作在于加强管理标识尽可能多的大学专利，保证尽可能低的错误率。该研究的不足之处在于过于依赖文献计量学数据的质量。"
+  },
+  "4 机构学术型专利识别方法的实施步骤": {
+    "context1": "综上所述，基于建立关系数据库的方法，结合了关键词检索和匹配列举的优势，从知识组织的角度，筛选、描述、组织、调整专利数据库和论文数据库中的元数据,建立并查找期刊论文的作者和专利发明人相同名字的数据集。借鉴该方法在德国学术型专利识别方面的应用,本文提出了识别机构学术型专利方法的实施步骤。"
+  },
+  "4.1论文和专利数据库的选择": {
+    "context1": "需要寻找适当的专利数据库和论文数据库，两库需能够分别下载数据字段的内容和格式在性质上基本一致的数据集合,另外还需要梳理出从两个数据库均可以获得完整的个人层面信息数据集字段，包括： $\\textcircled{1}$ 所属国别、 $\\textcircled{2}$ 机构、 $\\textcircled{3}$ 姓名、 $\\textcircled{4}$ 地址、 $\\textcircled{5}$ 时间窗、 $\\textcircled{6}$ 主题，将这些属性作为联系专利数据表和论文数据表的依据。"
+  },
+  "4.2数据准备阶段": {
+    "context1": "按照已梳理出的个人层面的6个属性分别提取论文和专利数据库中对应的数据集字段，创建两个表，并根据相同的属性建立两个表之间的联系，即整合到一个关系数据库当中。其中专利数据库收录的机构发明人的相关信息包括： $\\textcircled{1}$ 发明人所属国家、 $\\textcircled{2}$ 专利权人、$\\textcircled{3}$ 发明人姓名、 $\\textcircled{4}$ 发明人地址、 $\\textcircled{5}$ 优先权日、 $\\textcircled{6}$ 技术分类;论文数据库收录的机构作者的相关信息包括： $\\textcircled{1}$ 作者所属国家 $\\textcircled{2}$ 作者机构 $\\textcircled{3}$ 作者姓名 $\\textcircled{4}$ 机构地址 $\\textcircled{5}$ 发表时间 $\\textcircled{6}$ 论文研究方向。见表1。"
+  },
+  "4.3匹配与过滤阶段": {
+    "context1": "本阶段需设计恰当可行的组合匹配原则。在建立关系数据表之后，依据所选取的6个属性依次对两个表进行匹配，针对专利和论文对同一属性的不同字段数据进行组合匹配，并按照相应的匹配算法来执行。",
+    "context2": "表1专利数据库和论文数据库收录的机构发明人的相关数据集合",
+    "context3": "<table><tr><td>属性</td><td>专利数据库字段</td><td>论文数据库字段</td></tr><tr><td>所属国别</td><td>Inventor Country 发明人所 属国家</td><td>作者所属国家 Organization Country</td></tr><tr><td>机构</td><td>Assignee/Applicant 专利 权人</td><td>作者机构 Author Organization</td></tr><tr><td>姓名</td><td>Inventor Name发明人姓名</td><td>作者姓名 Author Name</td></tr><tr><td>地址</td><td>AssigneeAddress（ post- codes)发明人地址(邮编)</td><td>机构地址（邮编）Institution Address(postcodes)</td></tr><tr><td>时间窗</td><td>Priority Date 优先权日</td><td>发表时间 Publication Year</td></tr><tr><td>主题</td><td>Technology Classification 技</td><td>论文研究方向ResearchField</td></tr><tr><td></td><td>术分类</td><td></td></tr></table>",
+    "context4": "在该阶段，要注意根据所获得数据的特点和各项匹配的情况，设计和调整可行的组合匹配原则。在此以文献[2]在识别德国大学学术型专利的所设计的原则为例，见表2。",
+    "context5": "专利数据库和论文数据库收录数据组合匹配原则包括了两轮设计： $\\textcircled{1}$ 先对机构进行匹配，未能匹配的数据集进入第一轮匹配; $\\textcircled{2}$ 利用姓名匹配 $^ +$ 时间窗匹配$^ +$ 地址匹配 $^ +$ 主题匹配进行组合匹配，各项匹配原则分别如下： $\\textcircled{1}$ 姓名匹配：采用完全字符串匹配算法。 $\\textcircled{2}$ 时间窗匹配：专利优先权日和发表时间应考虑时间存在连续性,因此,对比优先权日(首次提出申请时间)和论文发表的时间,其中要注意相对来说论文有1－2年的时间延迟。 $\\textcircled{3}$ 地址匹配:对邮政编码的前两位进行匹配。 $\\textcircled{4}$ 主题匹配:由于技术分类和科学分类遵守不同标准，难以建立索引，需要人工判读。"
+  },
+  "4.4验证阶段": {
+    "context1": "此阶段需要对识别出的学术型专利进行核实。将识别出的学术型文献集的作者信息提取出来，并将其通过电子邮件的形式发送给相应的发明人或作者，以确认信息的正确性,若有不准确之处,则及时更新和纠正的同时，完善关系数据库的管理,验证该方法的有效性。此外,将基于关键词检索、基于匹配列举和基于建",
+    "context2": "表2专利数据库和论文数据库收录数据组合匹配[12",
+    "context3": "<table><tr><td>组合匹配</td><td>第一轮：机构匹配</td><td colspan=\"4\">第二轮:姓名匹配+时间窗匹配+地址匹配+主题匹配</td></tr><tr><td>单项 匹配</td><td>机构匹配</td><td>姓名匹配</td><td>时间匹配</td><td>地址匹配</td><td>主题匹配</td></tr><tr><td>专利 数据库</td><td>Assignee/Applicant 专利权人/申请人</td><td>Last and First Name 发明人姓名</td><td>Priority Year 优先权日</td><td>邮政编码</td><td>IPC分类</td></tr><tr><td>论文 数据库</td><td>Author Organization 作者机构</td><td>Last and First Name 作者姓名</td><td>Publication Year 发表时间</td><td>邮政编码</td><td>研究方向</td></tr></table>"
+  },
+  "当前机构学术型专利识别方法研究的不足和发展趋势": {
+    "context1": "机构学术型专利的识别问题作为开展论文和专利相关研究之前的数据处理基础，是关联机构专利产出和论文产出的关键环节，在数据清理和实证过程中具有重要的研究意义和实践意义。本文调研了机构学术型专利识别方法在应用过程中存在的种种问题,对当前的各种解决方法进行了对比,并归纳了识别机构学术型专利的实施步骤,笔者认为当前识别机构学术型专利的研究可能存在以下问题和发展趋势：",
+    "context2": "第一,当前对机构学术型专利的研究范畴还集中于大学,鲜有对研究机构和企业的学术型专利进行研究和实证的情况,这一方面缘自于大学在学术型专利上的绝对优势一一其数据丰富,实证的效果较好;另一方面也显示出机构层面学术型专利研究缺乏全面性，忽略了不同类型机构在发表论文和发明专利方面的行为特征，例如研究机构对科研和技术的贡献等等，因此,在未来的研究中可以选择更加多元化的机构，从而更全面地解释相关研究的规律。",
+    "context3": "其次，识别机构学术型专利最基本和最大的挑战在于清理和匹配作者和发明人的姓名字段,对这一问题的研究目前还没有得到学者们的重视。大量学者在实证的过程中,在数据和方法的选择上花费大量的精力,面对海量的姓名字段可能出现的清理错误，鲜有核实的情况，甚至直接选择忽略不计，这是造成后续数据分析结果不可靠的重要隐患。",
+    "context4": "另外,目前的机构学术型专利识别方法主要是用于辅助某一个研究目标而进行数据清理,不可否认的是这些方法在实际应用过程中难免耗时耗力，但就研究人员的目前需求和实证领域来看，大部分是针对科学与技术联系较为密切的技术领域，或者是某一特定人群(例如大学教授),因此,笔者认为专利数量的爆炸和专利泡沫的产生并不影响对机构学术型专利进行文献计量的意义。",
+    "context5": "当前3种机构学术型专利的识别方法,分别有各自的适用范围：基于关键词检索的方法适用于姓名字段中已表明类似头衔的数据;基于匹配列举的方法适用于拥有机构职员名单的姓名字段的匹配;基于建立关系数据库的方法适用于大规模抓取发表论文作者和发明专利的发明人而进行组合匹配的情况。然而，无论哪种方法,如果论文和专利数据库对作者、发明人、机构名称的著录存在问题,学术型专利的识别速度、准确性和效率都将直接受到影响,因此规范和整合不同的论文和专利数据库迫在眉睫。"
+  },
+  "6结语": {
+    "context1": "机构学术型专利识别方法是在对人名进行计算机匹配的基础上,对机构的专利产出和论文产出进行关联的识别过程，它的发展在研究上具有重要的实践意义，是利用专利和论文数据开展专利发明人研究、科学与技术研究和技术转移等研究的前提，为进一步规范数据库著录规则提供建议，还有利于监控和评估机构组织绩效。本文通过文献调研，发现当前识别机构学术型专利的方法主要包括了基于关键词检索、匹配列举以及建立关系数据库3种方法，各有利弊，其中建立关系数据库的方法结合了前两种方法的优势，能够大规模定期更新作者名单，在德国大学学术型专利中的成功实施为未来其他国家开展学术型专利的研究提供了借鉴，未来识别机构学术型专利方法的最大挑战在于在处理和匹配大量的作者和发明人的名字时，可能出现同形同音异义词(homonyms)的情况,希望通过不同国家语言的实证,能够寻找出一种更准确、更可行的途径来识别出学术型专利，从而为相关的研究做好准备。"
+  },
+  "参考文献：": {
+    "context1": "[1]傅正华.Bayh-Dole法案出台的背景及后示[].科技进步与对 策，2009，26(3):32-35.   \n[2]Raffo J,Lhuillery S.How to play the“Names Game\"：Patent retrieval comparing different heuristics []．Research Policy，2009, 38:1617 -1627.   \n[3] Meyer M.Academic patents as an indicator of useful research?A new approach to measure academic inventiveness $\\mathbb { I }$ .Research Evaluation，2003，12(1):17-27.   \n[4]Geuna A,Nesta L JJ.University patenting and its effects on academic research:The emerging European evidence [．Research Policy,2006,35(6):790-807.   \n[5] OECD.Patent statistics manual [EB/O1]． [O13-10 -06]．http://www.oecd-ilibrary.org/docserver/download/92o9021e.pdf? expires $=$ 1378023015&id $=$ id&accname $=$ ocid56017385&checksu m = BE8829D28190A307CF761C9B981A030C.   \n[6] Trajtenberg M,Shiff G，Melamed R. The‘Names Game'：Harnessing inventors’patent data for economic research [EB/OL]. [2013-10-11]．htp://www.albany.edu/\\~marschke/Workshop /NSFNamesGame. pdf.   \n[7] Czarnitzki D,Glänzel W,Hussinger K. Patent and publication activities of German professors:An empirical assessment of their coactivity[．Research Evaluation,2007,16(4):311-319.   \n[8] Czarnitzki D,Hussinger H，Schneidery C. Commercializing academic research:The quality of faculty patenting[]．Industrial and Corporate Change,2011,20(5):1403-1437.   \n[9]KEINS. Knowledge-based entrepreneurship: Innovation,networks and systems[EB/OL]．[2013-10-14]．htp://ec.europa.eu/research/social-sciences/pdf/policy-briefs-keins-laurila_en.pdf.   \n[i0] Thursby J,Fullr A W,Thurby M.US faculty patenting:Inside",
+    "context2": "and outside the university [．Research Policy,2009,38(1) :14 -25."
+  },
+  "[1]王刚波,官建成．纳米科学与技术之间的联系:基于学术型发明人的分析 [.中国软科学，2009(12):71-79.": {
+    "context1": "[12]Dornbusch F,Schmoch U,Schulze N,et al. Identification of university-based patents:A new large-scale approach [C //Innovation Systems and Policy Analysis No.32．Karlsruhe:Fraunhofer ISI,2012."
+  },
+  "The Research Development of the Identification Method of Academic Patent in an Institution": {
+    "context1": "Li Shuying Fang Shu",
+    "context2": "Chengdu Branch of National Science Library， Chinese Academy of Sciences，Chengdu 61000",
+    "context3": "University of Chinese Academy of Sciences，Beijing 100049",
+    "context4": "[Abstract] The identification methods of academic patents in an institution are based on the name matching.The identification process in te association ofpatentsand paper isof geat significance theoreticallyand practically.This paper summarizes the currnt researchdevelopmentof academic patent identification methods，including searching for keyords， matching listand relational database.Through the advantage and disadvantage，we presenttheidentification stepsof academic patents inan institution.Therefore，combinedthestrengthsof keywordsand matching list，therelational database have been successfull practiced in German Universitywiththehelpofupdating name listonalarge scale，which provides a lesson for other countries’academic patents research.",
+    "context5": "[Keywordsl academic patent identification method research development"
+  },
+  "(上接第117页)": {
+    "context1": "[3] Nielsen J,Sano D. SunWeb:Use interface design for sun microsystem's internal Web [C] //2nd World Wide Web Conference. Chicago:OSFRI,1994:547 -557.   \n[4]Mhang M. Card-sorting usability tests of the WMU Libraries’Web site $\\mathbb { I }$ ．Journal of Web Librarianship,2008(2):205-218.   \n[5] Martin S. Cluster analysis for Web site organization using cluster analysis to help meet users’expectations in site structure[EB/ O1]．[013-07-25]．http://www.internettg.org/newsletter/ dec99/cluster analysis.html."
+  },
+  "[6]蔡剑，詹庆东．基于卡片分类法的网上书店信息构建实证研究．图书情报工作,2011,55(10):121-125.": {
+    "context1": "[7]Nielsen T. Card sorting:How many users to test [EB/Ol]．[013 -07-25l．http:// www.useit.com/alertbox/20040719.html.",
+    "context2": "[8] Doney P M,Cannon JP.An examination of the nature of trust in buyer- seller relationships []．Journal of Marketing,1997，61 (2):35-51.",
+    "context3": "[9]邱均平,马瑞敏,李晔君．关于共被引分析方法的再认识和再思考[．情报学报,2008，27(1):69-74."
+  },
+  "Confirming Tag Names and Classification in Web Design of Discovery System: An Empirical Study Illustrating the Card Sort Technique": {
+    "context1": "Sun Qi Ren Huiling Chen YifanWang Luyao",
+    "context2": "Institute of Medical Information,Chinese Academy of Medical Science,Beijing 100020",
+    "context3": "[Abstract] This paper presents acase of CAMS & PUMC medical library which performs a card sorting test to optimize its discovery system’sarchitecture.It brieflydescribesopen and closed card sorting techniques，quantitative and qualitative methodsofanalyzing datacommonly,andadetailed instructionofthe experiment has been used innational science library of Chinese Academic Science.Then,it summarizes theresults byanalyzing the sorted data through clusteranalysis，multidimensional scaling analysisand tag names analysis.Finally，the strengths and weaknesses of the studyare discussed.The findingsof the study willallow CAMS &PUMC medical library design team to vastly improve its discovery system's initial designs for a new Web site tabbed navigation system.",
+    "context4": "[Keywords] discovery system card sortinginformation architectureweb architecture"
+  }
+}

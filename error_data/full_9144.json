@@ -1,0 +1,77 @@
+{
+  "original_filename": "full_9144.md",
+  "美国电子文件档案馆项目(ERA)进展": {
+    "context1": "肖秋会沈茜武汉大学信息管理学院,武汉,430072)",
+    "context2": "[摘要]美国电子文件档案馆项目(ERA)经过最初的系统设计和长达十多年的建设，从2011年开始进入了全面运营阶段。本文简要介绍了ERA的增量开发方式和开发阶段，回顾了ERA近十年的建设成果，最后阐述了ERA在现阶段的运营和使用状况，可为我国数字档案馆建设提供参考和借鉴。",
+    "context3": "［关键词电子文件档案馆数字档案馆美国[中图分类号］G270［文献标识码］A［文章编号］2095-2171（2012)02-0091-06",
+    "context4": "The Progress of Electronic Records Archives(ERA)Program",
+    "context5": "Xiao QiuhuiShen Qian",
+    "context6": "(School of Information Management，Wuhan University,Wuhan,430072)",
+    "context7": "[Abstract]Since 1998，the National Archives and Records Administration （NARA） has been developing anElectronic Record Archives（ERA）to preserve the electronic records of the government and ensure continuing access to the documentary heritage.During more than 10 years of construction，ERA has completed the development of ERA System and moved to full operation stage in 2011.This paper firstly introduces the incremental development methods and phrases,then reviews the ERA'sachievements of decade，last analyses the operation and use of ERA in Operations and Maintenance（O&M） phrase，hoping to provide references for the construction of the digital archives in China.",
+    "context8": "Key words]Electronic records archivesDigital archivesAmerica",
+    "context9": "电子文件档案馆 Electronic Records Ar-chives，ERA)是美国国家档案与文件署Na-tional Archives and Records Administration,NARA)专门针对联邦政府电子文件的持续采集和长久保存而开发的项目。该项目于1998年开始启动，周期长达十多年，耗资超过了3亿美元。2005年NARA与著名的军工企业洛克希德·马丁公司合作，于2011年完成了ERA基本的系统建设和数据准备。2011年9月,ERA与IBM建立合作,标志着 ERA开发阶段的结束，以及运营和维护阶段的开始。"
+  },
+  "1ERA的开发方式和建设阶段": "",
+  "1.1ERA的增量开发方式": {
+    "context1": "ERA项目是以开放档案信息系统OAISOpen Archival Information System)为参考模型而建立的面向服务的系统架构。ERA项目采取了增量开发的方式。在项目管理中，增量表示随着日程的进展而变化的特征和功能。",
+    "context2": "在增量模型中，最先开发的增量是核心产品，即第一个增量实现其基本需求与功能,其他功能需要在后续开发阶段中补充和完善。用户对增量的使用和评估都将为下一个增量的新特征和功能提供参考。在整个过程中，系统不断完善，直到生成最终产品。ERA项目的增量开发方式表现在长达六年的建设周期中，在初始阶段即设计与建设阶段满足ERA系统基本运营的增量，对其进行使用和评估;在后续的每一阶段中，逐步对前一增量的功能进行补充，使其不断完善，直至达到功能需求文件中定义的所有功能，实现最终运营能力FinalOperating Capability，FOC)。"
+  },
+  "1.2ERA的开发阶段": {
+    "context1": "从 $2 0 0 4 \\sim 2 0 1 1$ 年,ERA经过最初的分析和设计,实现初始运营 【nitial Operating Capa-bility，IOC)和最终运营 Final Operating Capa-bility，FOC),持续进行了五个增量开发过程。",
+    "context2": "分析和设计阶段&004年7月 $\\sim 2 0 0 5$ 年7月）制定了电子文件档案馆需求说明书》,提出了覆盖整个文件生命周期的9大类功能需求,包括电子文件的管理、接收、存储、利用、安全、保护、用户接口、系统管理、系统特殊服务等,共计856 项具体功能需求。",
+    "context3": "增量一开发阶段2005年7月 $\\sim 2 0 0 7$ 年7月）创建、查看、审核档案保管期限表;创建向NARA移交档案的申请移交、鉴定和存储电子文件等功能，实现初始运营能力。",
+    "context4": "增量二开发阶段2007年7月 $\\sim 2 0 0 8$ 年7月）对乔治·布什总统行政部门的电子文件进行快速采集和检索，移交数据管理的权限，实现访问控制功能等。",
+    "context5": "增量三开发阶段2008年7月 $\\sim 2 0 0 9$ 年7月）实现对国会和联邦最高法院的电子文件的存取联机公众检索系统Online Public Ac-cess，OPA)的建设;电子文件存储框架建设；以及系统架构升级、动态备份计划、增强档案存储和检索能力、对信息自由法令的要求做出回应、增加使用ERA系统的联邦机构数量，进一步扩大数据库的存储容量等。",
+    "context6": "增量四开发阶段2009年7月 ${ \\sim } 2 0 1 0$ 年7月）扩大存储和容量。",
+    "context7": "增量五开发阶段2010年7月 ${ \\sim } 2 0 1 1$ 年7月）继续扩大存储和容量，直到具备最终运营能力FOC。"
+  },
+  "2近十年来ERA的建设成就": "",
+  "2.1ERA的系统建设": {
+    "context1": "ERA项目是以OAIS为参考模型而设计的一个面向服务的系统架构，它定义了三个虚拟工作区存取工作区将外界信息录入系统数据库存储工作区存储具有永久保存价值的档案查询工作区根据用户需求查询并呈现检索的结果。如图1所示，三个虚拟工作间参照OAIS的 摄取”(ngest)、存储”\\$torage）、‘利用”Access)功能设立,每个工作区承担特有的功能，并且通过程序接口或其他中间设备相互联系，形成基于档案生命周期管理的完整的工作流管理,从而能够有效的获取来自机构、国会、总统及捐赠者的记录，并经过一系列处理之后提供给公众、企业、联邦政府及各个部內使用。",
+    "context2": "2010年12月,NARA已经建成了数据中心 Data Center)和系统操作中心 System Op-eration Center)。ERA系统的数据平台及其他电子信息资源位于西弗吉尼亚火箭中心的阿勒格尼弹道实验室 Allegany Ballistics Labora-toryABL）in Rocket Center，West Virginia）。目前,ERA的数据中心包括大约50架服务器设备、网络设施以及电子存储设备。IBM、Sun、Dell等服务商为其运营环境提供支持,EMC以及 NetApp 公司提供存储支持，日立公司 Hita-chi)提供内容归档平台 he Hitachi ContentArchive Platform,HCAP)。"
+  },
+  "2.2ERA已经建成的实例和数据库": {
+    "context1": "所谓实例(nstance)，实际上是指ERA系统的分布式平台。每个平台面向不同的用户提供服务，平台需要处理的数据分散于多个服务器上，并通过网络进行联系。采用分布式平台使程序和数据能够选择最合适的服务器运行,从而达到共享资源和平衡计算负载的能力。目前,ERA建成的实例和数据库主要包括联邦记录实例、总统行政办公室实例、国会记录实例等。",
+    "context2": "![](images/a57447a15a2408e04cee04eb732abe6156fb604bf789c5a3d89f444231bb5930.jpg)  \n图1ERA虚拟工作区[2]",
+    "context3": "1）联邦记录实例 Federal Records In-stance Base)。2008年6月，ERA联邦记录基础实例建成并投入使用。早期试点用户包括美国专利与商标局、国家核安全署、劳工统计局和海军海洋测量局，同时还有来自NARA生命周期管理部门、电子文件和特殊媒体部门、文本档案服务部门以及特殊媒体档案服务部门的工作人员们。他们使用 ERA基础实例创建、修改和删除档案文件，填写档案保管期限表，提出对档案进行实体保管的移交请求，采集、鉴定电子文件并移交给ERA。目前该平台已经采集了6.6TB联邦电子记录，并计划今后每季度至少采集10TB数据。",
+    "context4": "&)总统行政办公室实例 Executive Officeof the President EOP） Instance。2008 年12月美国总统行政办公室检索和访问平台Ex-ecutive Office of the President Search and Ac-cess,也称为ERAEOPSAS)建成使用。目前该平台收录了超过82TB的数据，包括编入索引并可用于检索的2.5亿条以上的电子文件、2亿封以上的电子邮件信息、300万张以上的数字图片、3000万条以上的其他类型的电子文件，累计提供了66000次以上的检索。",
+    "context5": ")国会记录实例 Congressional RecordsInstanceCRI)。2009年12月建成的国会记录实例是为了满足国会文件的特殊需求而设计的。CRI针对的用户是NARA的档案立法机构中心、职员办公室和参议员秘书办公室的工作人员。国会记录实例主要采集来自白宫和参议院的电子文件。目前，该数据平台已经采集了151TB的数据,2012年预计将会增加40TB数据量。",
+    "context6": "4)联机公众检索实例 Online Public Ac-cess OPA）Instance。联机公众检索实例于2010年12月部署，主要功能是整合档案研究目录系统 Archival Research Catalog，ARC)、档案数据库检索系统 Access to Archival Data-bases,AAD)、Archives.gov 网页等信息资源，实现“一站式\"检索。",
+    "context7": "6）机密电子文档实例Classified ERACERA）Instance。机密电子文档实例于2011年9月部署，其功能是为了满足对机密文件的采集、存储、保管和检索的特殊要求。NARA要求开发商为机密档案的采集和管理提供支持，尤其是对安检敏感隔离信息 (S SCI)更要采取特殊措施进行管理。",
+    "context8": "6)第13篇口普查)实例 Title 13 Cen-sus） Instance。第13篇口普查)实例于2011年9月部署,主要用于存储和检索与美国人口普查局相关的档案。由于这批档案具有机密性，NARA必须保证这些信息的安全,同时做到将这批档案与其他ERA馆藏隔离。",
+    "context9": ")档案数据库检索系统 Access to theArchival Database AAD)。早在 2003 年,NA-RA建设并启用了AAD,作为访问其保管的电子文件的在线检索工具。2011年,AAD的功能得到更新和强化，它能够根据数据库包含的资源类别和文件内容，同时支持自由文本和已知检索范围选项的检索功能。目前,AAD为公众提供了近8500万份电子文件，包括来自美国联邦政府30多个机构的文件以及其他机构捐赠的历史材料。",
+    "context10": "&)转换框架原型 Transformation Frame-work Prototype。转换框架原型提供一种让用户易于移出或移入的框架。转换框架原型需要确保转移的文件是真实可信的;对文件捕获\"的动作进行保存，包括采取的存储行为、新版本文件和原始版本的关系等。"
+  },
+  "2.3ERA的资源建设情况": {
+    "context1": "从ERA接收的电子文件内容上来看，截止到2011年,ERA系统覆盖所的信息资源包括联机公众检索目录OPA可检索的档案文件,可供公众使用的总统档案的复本以及校订本，有关联邦机构业务流程优化的文件，来自联邦政府、总统以及国会的非涉密的馆藏，馆藏涉密资料,人口普查档案保密文件),原始格式的迁移工具。",
+    "context2": "从 ERA接收的电子文件的数量上来看，ERA于2009年12月接收的电子文件实际总量已达到79TB，此后平均每季度至少采集10TB的电子文件，2011年3月达到了108.2TB,2011年底达到124TB]。"
+  },
+  "3ERA现阶段的运营和使用状况": {
+    "context1": "2011年9月，ERA的设计开发阶段结束，进入操作与运营阶段。在此阶段,NARA制定了ERA运营与维护工作草案》],主要是针对开发商在该阶段的任务进行了部署；另一方面,ERA系统正式全线投入使用，大部分美国联邦机构工作人员被要求使用ERA系统对文件和档案进行管理与移交，公众则可以通过联机公众检索系统OPA对ERA收录的电子文件进行在线访问与检索。",
+    "context2": "截止到2011年底,ERA对联邦机构而开发的分布式平台和数据库已经基本建成并投入使用，达到了完全运营能力。第一，实现了流畅的档案录入流程，一方面使联邦机构用户能够在进行移交申请的同时选择合适的移交方式与工具，另一方面使NARA的工作人员能够同时批量审核移交申请;第二，将预录入功能添加到业务对象录入功能中;第三，允许在业务对象中加入附件;第四，为年度文件移交工作而设计新增了一种预装ARCIS数据的业务对象第五,创建了电子邮件通知功能第六,增加了向ERA传输电子文件的容量;第七,实现了对涉密电子文件的存储和移交功能第八，实现了转换档案记录格式的功能，联邦机构用户可以向 ERA移交各种类型的电子文件。"
+  },
+  "3.1《ERA运营与维护工作草案》内容": {
+    "context1": "ERA运营与维护工作草案》对开发商在运营与维护阶段所需要进行的主要工作进行了较为详尽的规定。草案共分为六大部分，分别是工作范围、参考文件、ERA运营与维护的工作说明、对未来任务的说明、服务及协议以及可交付成果。草案的内容具有系统性和完整性特点：明确规定了ERA在运营维护阶段的系统要求和功能，以及所要达到的目标;着眼于未来潜在的任务，提出了持续性研发的要求，须不断完善系统功能，增加容量，改善备份和恢复服务。通过该草案可了解ERA的运营功能要求及具体运行状况。",
+    "context2": "该草案从项目管理、运营和维护、可纠正的适应维护三方面对开发商的工作提出具体要求。项目管理包括质量管理和配置管理。开发商需要向NARA提供一份正式的综合性计划来确保每项服务的责任、效益以及效率，并提交月度管理报告质量管理的目的在于保证服务品质,开发商需要遵循诸如ISO9000：2008以及ISO.EC20000等相关标准;配置管理要求开发商开发和执行配置管理计划，同时提供与ERA实例发布和配置管理相适应的运营维护支持。",
+    "context3": "该草案从十多个方面提出了具体的功能要求,包括基本运营、涉密文件实例管理、帮助桌面操作、突发事件管理、故障管理、资产管理、发布和部署管理、绩效管理、容量管理、可用性管理、安全服务、备份和恢复服务、摄取操作、档案数据库检索系统的数据适应性支持、集成测试、技术更新移交程序等。上述功能及其基本说明如表1所示。",
+    "context4": "表1ERA运营与维护的具体功能及其说明",
+    "context5": "<table><tr><td rowspan=1 colspan=1>功能</td><td rowspan=1 colspan=1>说明</td><td rowspan=1 colspan=1>功能</td><td rowspan=1 colspan=1>说明</td></tr><tr><td rowspan=1 colspan=1>基本运营</td><td rowspan=1 colspan=1>满足系统最基本的日常运作</td><td rowspan=1 colspan=1>帮助桌面</td><td rowspan=1 colspan=1>用于解决ERA用户提出的问题</td></tr><tr><td rowspan=1 colspan=1>涉密文件实例管理</td><td rowspan=1 colspan=1>采集与管理涉密文件</td><td rowspan=1 colspan=1>可用性管理</td><td rowspan=1 colspan=1>包括与ERA系统、组件和资源有关的管理，确保所有领域的可用性，能够满足目前和未来的业务需要</td></tr><tr><td rowspan=1 colspan=1>故障管理</td><td rowspan=1 colspan=1>分析故障产生的原因并提出解决方案，尽可能避免故障造成的影响并尽快的恢复到正常的操作服务</td><td rowspan=1 colspan=1>安全服务</td><td rowspan=1 colspan=1>确保ERA系统操作环境的系统安全，提供ERA安全自动化系统，包括入侵检测系统DS以及日志管理系统</td></tr><tr><td rowspan=1 colspan=1>突发事件管理</td><td rowspan=1 colspan=1>对突发事件记录、存储、跟踪，尽可能减小事件造成的影响并尽快的恢复到正常的操作服务</td><td rowspan=1 colspan=1>备份和恢复服务</td><td rowspan=1 colspan=1>采取ERA系统的备份操作，保证系统、数据和服务具有还原能力</td></tr><tr><td rowspan=1 colspan=1>容量管理</td><td rowspan=1 colspan=1>保证ERA拥有存储不断增长的电子文件的能力</td><td rowspan=1 colspan=1>摄取操作</td><td rowspan=1 colspan=1>将移交给ERA的电子文件转移到合适的ERA实例的工作存储器中</td></tr><tr><td rowspan=1 colspan=1>资产管理</td><td rowspan=1 colspan=1>对 ERA的所有硬件、软件以及其他设备进行管理，做到年度实地盘存</td><td rowspan=1 colspan=1>AAD数据适应性支持</td><td rowspan=1 colspan=1>将AAD中的电子文件纳入ERA系统的可检索范围，涉及到文件格式转换等问题</td></tr><tr><td rowspan=1 colspan=1>发布和部署管理</td><td rowspan=1 colspan=1>有计划的推出各种硬件软件的新版本，包括实例的改进版本</td><td rowspan=1 colspan=1>集成测试</td><td rowspan=1 colspan=1>包括单元测试、集成测试、系统测试、回归测试、端到端测试，并提供测试报告</td></tr><tr><td rowspan=1 colspan=1>绩效管理</td><td rowspan=1 colspan=1>用于保证ERA提供服务的品质</td><td rowspan=1 colspan=1>技术更新</td><td rowspan=1 colspan=1>追踪系统硬件和软件的生命周期，同时为政府提供技术更新的分析和产品推荐报告</td></tr></table>"
+  },
+  "3.2ERA现阶段的使用情况": {
+    "context1": "()联邦机构工作人员使用 ERA系统对电子文件进行管理与移交",
+    "context2": "自ERA系统的设计开发以来，随着每个阶段的主要实例上线并投入初步使用，都会有一批联邦机构作为试点用户对系统进行试用。",
+    "context3": "2010年12月6日,NARA宣告继续增加使用ERA系统的联邦机构的数量。NARA要求这些机构使用ERA系统来确定电子文件的保管期限或者是将具有永久保存价值的档案移交给 NARA。",
+    "context4": "NARA于2012年1月发布了ERA机构用户手册》第二版）。这篇文档详细的描述了联邦政府部门的工作人员如何使用ERA系统确定电子文件的保管期限和移交电子文件。具体包括ERA账户管理者申请、认证与管理，同时介绍了ERA的业务对象，包括保管期限表、保管期限表项、移交申请、移交处理单、法定移交工具、文件夹、移交计划、数据类型模板、密码单、关联资产、附件，ERA系统操作说明，档案整理、移交等。联邦机构工作人员使用ERA系统时，需要按照手册的说明，指派本机构的ERA账户管理员，分配整理或者移交的用户角色，进行基本培训，提交用户账户申请即可。同时，ERA也提供在线培训以及帮助页面对联邦机构工作人员的系统使用进行指导与帮助。",
+    "context5": ")公众对 ERA资源的一站式获取和使用一—联机公众检索OPA",
+    "context6": "在运营阶段,ERA整合了原有的档案研究目录系统ARC和档案数据库检索系统AAD的资源及其功能,开发了一站式公众查询平台OPA,目前能够实现对 ERA中近100万条电子文件的检索。OPA较 ARC、AAD在用户体验方面有了更出色的设计，例如：它根据文件的生成机构或内容等将检索结果进行分组，采用焦点形式呈现具体的电子文件信息;将带有图片、音频、视频的电子文件版本置于页面上方最醒目的位置，使用户不会错过需要的信息。",
+    "context7": "OPA将会取代档案研究目录系统ARC。目前OPA已经接收了ARC的大部分数据，具体包括535个文件组合、2618个文件集、154508个系列、4780684个文件单元、785921个条目。通过OPA可以检索到超过 $73 \\%$ 的全部馆藏，记录每周更新，大多数采取文件级著录。开发人员正致力于使OPA实现ARC的所有功能,比如电子邮件的应用、在‘我的列表\"功能中保存和分享检索结果等。在ARC网站淘汰之后，其目录数据会继续保存在OPA中，并保证每周两次更新。而AAD系统至少两年内不会被OPA取代。主要原因是AAD的高级参数搜索\"功能具有更高的复杂性。目前OPA只支持对AAD中7个文件系列进行简单的自由文本检索,如表2所示。",
+    "context8": "表2AAD可供 OPA检索的文件系列[9]",
+    "context9": "<table><tr><td rowspan=1 colspan=1>文件系列</td><td rowspan=1 colspan=1>起止日期</td></tr><tr><td rowspan=1 colspan=1>被查封的格林纳达文件的情报记录</td><td rowspan=1 colspan=1>1983年11月22日～1985年2月7日</td></tr><tr><td rowspan=1 colspan=1>加州提供给外国的军需物资和服务的记录</td><td rowspan=1 colspan=1>1950年10月1日～2004年9月30日</td></tr><tr><td rowspan=1 colspan=1>科学技术人员国籍证书的文件资料</td><td rowspan=1 colspan=1>1954年～1970年</td></tr><tr><td rowspan=1 colspan=1>关于在国外的防御收支记录</td><td rowspan=1 colspan=1>1968年3月5日~1985年9月30日</td></tr><tr><td rowspan=1 colspan=1>已故的伤亡的军队人员，包括军人家属及文职人员的档案</td><td rowspan=1 colspan=1>1961年1月1日～1981年12月</td></tr><tr><td rowspan=1 colspan=1>中央外交政策文件</td><td rowspan=1 colspan=1>1973年7月1日～1976年12月31日</td></tr><tr><td rowspan=1 colspan=1>军队部门和机构授予的基本合同的记录</td><td rowspan=1 colspan=1>1975年7月1日～2003年9月30日</td></tr></table>"
+  },
+  "4结语": {
+    "context1": "ERA项目从设计开发到投入运营，经历了十几年的时间,对于我国数字档案馆建设以及电子文件管理具有较强的参考作用：第一，ERA重视总体规划，从全局和长远的角度考虑ERA项目规划方案，并通过阶段性开发逐步实现方案的目标;第二，重视功能需求设计，制定了ERA功能需求说明书》,列出了九大功能、856项具体功并对其进行了详细的定义;第三，积极开展国际合作和社会化合作，其合作项目包括开放档案信息系统OAIS)、永久保护真实的电子文件国际研究计划（nterPARES）、分布式目标测试平台DOCT）、高级计算基础设施建设国际合作项目NPACI）、总统电子文件操作系统 PER POS)和档案工作平台 Ar-chivist's Workbench Project）;第四,建立了有效的监督机制,由美国政府审计局GAOheGovernment Accountability Office)对 ERA各阶段的建设情况进行监督，确保项目的质量。第五,重视用户体验和用户友好界面设计。制定了ERA机构用户手册》,方便联邦机构用户使用ERA系统进行档案的管理和移交。同时，ERA以在线幻灯片演示和电子邮件的方式为用户提供使用说明和帮助。"
+  },
+  "参考文献": {
+    "context1": "[] National Archives Selects IBMas the Operations & Maintenance Contractor forthe Electronic Records Archives Sys tem EB OL].2012-03-08].htp://www.archives.gov press press-releases 2011 nr11-191.html   \n2] Thibodeau Kenneth.A Dynamic Solution for Electronic Records :The National Archives and Records Administration's Electronic Records Archives EB OL].2012-03-08].htp:/écommons.library.cornell.edu bitstream/813699/ 1 Ken_Thibodeau-NARA.pdf   \nB] Chuck Piercy,Meg Philips,Paul Wester.Electronic Records ArchivesERA）EB OL].2012-03-09].http:/www. archives.gov éra ppt éra-milestones.ppt   \n4 National Archivesand Records Administration.Fiscal Year 2012 Annual Performance Plan EBOL].2012-03-09]. http :/www.archives.gov/about plans-reports performance-plan /2012/2012-performance-plan.pdf   \n5] NARA ERA Operations& Maintenance Section C-Draft Statement of Work EBOL].E012-03-10].htp:/www.archives.gov éra recompete hama-11-rfi-0002.pdf   \n6] ERA Frequently Asked Questions EB OL].012-03-10].htp:/www.archives.govfecords-mgmt érafaqs.pdf   \n] ERA Agency User Manual V2.0 EB OL].2012-03-12].htp:/www.archives.gov fecords-mgmt éra/agency-usermanual. pdf   \n8] ARC Scope of Archival Materials EB OL].2012-03-15].htp:/Www.archives.govfesearch/Arc about-arc.html   \nUsing Online Public AccessEB OL].012-03-12].htp:/ww.archives.govesearchSearch/Kelpusing-opa.html"
+  }
+}

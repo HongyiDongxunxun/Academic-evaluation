@@ -1,0 +1,84 @@
+{
+  "original_filename": "full_9586.md",
+  "语义网环境下基于本体的知识集成研究进展": {
+    "context1": "刘小乐马捷",
+    "context2": "（1．天津科技大学图书馆，天津300457；2．吉林大学管理学院，吉林 长春130025）",
+    "context3": "[摘要]本文以Webof Science数据库为数据来源，利用文献计量学方法，从文献资源的著者、学科以及国家和地区分布等方面进行统计分析，探讨语义网环境下基于本体的知识集成研究进展。同时利用CiteSpace3.7.R8可视化软件对文献的引文和关键词进行可视化分析，发现热点和经典文献，为进一步的研究提供借鉴。",
+    "context4": "[关键词]本体；知识集成；语义网；关键词共现；文献共引 DOI:10.3969/j.issn.1008-0821.2015.01.031",
+    "context5": "[中图分类号]G203；G252.8[文献标识码]A〔文章编号〕1008－0821（2015）01－0159－05"
+  },
+  "The Development of Knowledge Integration Based on Ontology in Semantic Web Environment": {
+    "context1": "Liu XiaolelMa Jie² (1. Library，Tianjin University of Science and Technology，Tianjin 3O0222，China; 2. School of Management，Jilin University，Changchun 13O025，China)",
+    "context2": "[Abstract] The paper analyzed the development of knowledge integration based on ontology in semantic web environmentfrom the author，subject，nationaland regional distributionofliterature with literature metrology and the Web of Science database as the data source.At the same time，the author made visualization analysis of literature citations and keywords with CiteSpace3.7.R8 visualization software for finding hot and classicalliterature inorder to provide reference for the further study.",
+    "context3": "[Key words] ontology；knowledge integration；semantic web；co一word；document co-citation",
+    "context4": "语义网是万维网的延伸和扩展，在语义网环境下，计算机通过语义化的信息标注对知识进行智能表达、自动处理，实现对知识的语义理解。本体是概念化形式化的说明，通过概念以及概念间的关系有效地表达不同领域间的通用知识。知识集成主要是对新的知识进行识别、处理、评估以及改造，实现新知识与原有知识之间的交互[1]，促进知识组织化和结构化，使得知识能够集成发展。语义网环境下基于本体的知识集成能够解决不同网络信息资源的语义异构问题[2]，通过集成不同的知识结构和不同来源的知识，为用户提供统一的知识访问接口以及智能化的知识服务。本文主要研究语义网环境下基于本体的知识集成，明确这一领域的研究进展状况，通过分析为以后的研究奠定基础。"
+  },
+  "1数据来源和数据分析": {
+    "context1": "本文采用的数据来源于美国科学情报研究所（ISI）出版的 Web of Science 中的 SCI-EXPANDED，CCR-EX-PANDED，IC数据库3]。数据的检索策略是主题 $=$ “knowledge integration”AND主题 $=$ \"ontology”，时间跨度为 $2 0 0 3 - 2 0 1 3$ 年。检出的文献包括 Article、Proceedingspaper、Review、Editorial material、Book Chapter 等类型。删除书评等非研究性文献，经过数据的筛选和精炼获得698篇文献。"
+  },
+  "1.1文献著者分析": {
+    "context1": "笔者对检出的698篇文献的著者进行统计，通过统计结果分析基于本体的知识集成研究领域的著者发文数量，确定该研究领域的高产作者，从而能够实现这一领域的合作研究。同时对作者合著情况分析，了解该研究领域的合作团体，从而能够拓宽该领域研究的深度与广度。根据统计，发表2篇以上论文的著者共有358位，发表10篇论文以上的著者共有2位，均是11篇，共有6个团体作者。"
+  },
+  "1.2文献学科分析": {
+    "context1": "通过分析这一领域文献的学科分布情况，能够了解该领域主要分布的学科，利用不同学科的研究方法来拓宽该研究领域，同时深化在不同学科的应用。依据统计，该领域698篇文献分布在了83个学科领域，其中发文量超过50篇的文章主要集中在计算机科学、人工智能、信息系统、软件工程、信息管理学、医学信息学、管理科学等学科领域。通过分析，语义网环境下基于本体的知识集成类研究属于计算机科学的文章较多，信息系统、软件工程、人工智能也是在计算机技术支撑下发展起来的。计算机科学技术的发展推动基于本体的知识集成研究的发展，语义网、本体的发展同时丰富了计算机科学的研究。在计算机技术支撑和语义网环境下，基于本体的知识集成模型、分类、系统、管理等分布在信息系统、软件工程、人工智能、管理科学等领域。"
+  },
+  "1.3文献国家或地区分析": {
+    "context1": "通过分析文献的国家或者地区分布状况，能够帮助掌握基于本体的知识集成研究领域的科研分布情况，为该领域进行国际的科研合作提供借鉴和应用。依据统计结果，698篇文献一共分布在59个国家和地区，排名前10位的国家和地区共发表论文669篇，占发文总量的 $9 5 . ~ 8 4 \\%$ ，美国、英国、西班牙、德国、中国、法国、意大利、加拿大、中国台湾、澳大利亚排在前10位。美国以193篇的论文数量排在第一位，在该领域美国的研究遥遥领先，其他国家可以借鉴其研究成果，同时与相关专家和机构进行合作，共同深化该领域的发展。英国以86篇的论文数量排名第二。中国以69篇的论文数量排名在第四，与第三名只有1篇之差，中国台湾地区以24篇论文数量排名在第九位，这样中国共有93篇相关文章，仅次于美国。虽然中国在数量上与美国有很大的差距，但也能够表明中国基于本体的知识集成研究在国际舞台上占有一定的地位。需要借鉴该领域研究前沿国家的研究成果，密切国家合作。如表1显示排名在前10位的国家和地区。"
+  },
+  "2基于本体的知识集成研究进展分析": "",
+  "2.1可视化文献分析软件 CiteSpace": {
+    "context1": "CiteSpace是美国德雷克塞尔大学信息科学与技术学院160",
+    "context2": "表1论文数量发表排名前10位的国家和地区",
+    "context3": "<table><tr><td>国家/地区</td><td>论文数量</td><td>所占比例 (%)</td></tr><tr><td>USA（美国）</td><td>193</td><td>27. 65</td></tr><tr><td>ENGLAND (英国)</td><td>86</td><td>12.32</td></tr><tr><td>SPAIN(西班牙)</td><td>70</td><td>10.03</td></tr><tr><td>GERMANY（德国）</td><td>69</td><td>9.89</td></tr><tr><td>PEOPLESRCHINA（中华人民共和国）</td><td>65</td><td>9.31</td></tr><tr><td>FRANCE（法国）</td><td>47</td><td>6.73</td></tr><tr><td>ITALY (意大利)</td><td>47</td><td>6.73</td></tr><tr><td>CANADA（加拿大）</td><td>46</td><td>6.59</td></tr><tr><td>TAIWAN（中国台湾）</td><td>24</td><td>3.44</td></tr><tr><td>AUSTRALIA（澳大利亚)</td><td>22</td><td>3.15</td></tr></table>",
+    "context4": "的陈超美博士开发的基于JAVA平台的文献可视化分析软件。CiteSpace利用文献间的引用关系建立节点之间的关联，通过绘制关联知识图谱来研究科学文献。利用CiteSpace可以显示某一学科或者是知识领域在一定时期的发展趋势和动向，从而形成前沿领域的演进历程[4]。CiteSpace用节点表示文献，节点的大小表示文献被引用次数，节点越大代表该文献被引用次数越多。节点间的连线表示文献之间的相互引用关系，连线的粗细代表相互引用次数，连线越粗代表文献间相互引用次数越多[5]。本文利用CiteSpace3.7.R8版本对国内外基于本体的知识集成文献进行关键词共现和文献共引分析，绘制知识图谱分析本领域的研究热点和经典文献，为进一步的研究提供借鉴和指导。"
+  },
+  "2.2研究热点分析": "",
+  "2.2.1关键词共现知识图谱绘制": {
+    "context1": "利用CiteSpace3.7.R8软件导入Web of Science数据库检索出的698篇文献信息，同时设置相关的参数。具体设置TimeSlicing（时区分割）为 $2 0 0 3 - 2 0 1 3$ 年；#YearsPer Slice（单个时间分区长度）设为1年；Term Source（主题词来源）勾选Title（标题）、Abstract（摘要）、Au-thorKeywords（著者关键词）以及KeywordsPlus（扩展关键词），阈值Thresholding（c,cc,ccv）设置为（2,2,20）（4,3,20）（4,3,2O)；NodeTypes选择Keywords即关键词共现分析。通过运行程序得到关键词频次表（如表2）以及关键词共现图谱（如图1)。在图1中，1个结点代表1个关键词，结点的大小反映关键词出现的频次高低程度，结点间的连线反映关键词间的共现关系。如果结点之间的连线越粗表示两个关键词共现的频次就越高，结点的年轮结构则表示某一关键词的出现时间。",
+    "context2": "表2关键词频次表",
+    "context3": "<table><tr><td>Freq</td><td>Centrality</td><td>：</td><td>Cited References</td><td>Freq</td><td>Centrality</td><td>：</td><td>Cited References</td></tr><tr><td>213</td><td>0.39</td><td>…</td><td>ontology</td><td>51</td><td>0.05</td><td>…</td><td>management</td></tr><tr><td>108</td><td>0.10</td><td>…</td><td>ontologies</td><td>46</td><td>0.11</td><td>…</td><td>data integration</td></tr><tr><td>108</td><td>0.18</td><td></td><td>integration</td><td>44</td><td>0.29</td><td></td><td>tool</td></tr><tr><td>90</td><td>0.12</td><td>…</td><td>semantic web</td><td>43</td><td>0.29</td><td>：</td><td>knowledge manage-</td></tr><tr><td>71</td><td>0.15</td><td>…</td><td>systems</td><td>41</td><td>0.09</td><td>…</td><td>ment design</td></tr><tr><td>67</td><td>0.22</td><td>：</td><td>knowledge</td><td>40</td><td>0.04</td><td>…</td><td>model</td></tr><tr><td>63</td><td>0.21</td><td>：</td><td>information</td><td>39</td><td>0.05</td><td>…</td><td>gene ontology</td></tr><tr><td>60</td><td>0.20</td><td>：</td><td>database</td><td>39</td><td>0.06</td><td>…</td><td>bioinformatics</td></tr><tr><td>53</td><td>0.05</td><td>：</td><td>system</td><td>37</td><td>0.05</td><td>…</td><td>annotation</td></tr><tr><td>51</td><td>0.29</td><td>：</td><td>biology</td><td>35</td><td>0.06</td><td>…</td><td>framework</td></tr></table>",
+    "context4": "![](images/652817dc90ac26d3a51acc9118b99306f313a0d19e7b3b6f24cbdac4d1cb3dd7.jpg)  \n2003 2004 2005 2006 2007 2008 2009 2010 201 2012 2013 CiteSpace，v.3.7.R8（64-bit） March18,20143:25:08PMCST G:loutput Timespan:2003-2013(Slice Length=1) Selectione0:4 Network:N=89,E=213（Density=0.0544） Pruning:MST   \n图1关键词共现知识图谱"
+  },
+  "2.2.2关键词共现分析结果—研究热点领域": {
+    "context1": "通过关键词频次表以及关键词共现知识图谱，可以分析基于本体的知识集成领域研究热点。通过分析，知识集成研究热点主要集中在以下几个方面："
+  },
+  "（1）语义网环境下基于本体的知识集成模型研究": {
+    "context1": "由共现关键词ontology（anthologies）-data Integration-knowledge一semantic web一model 分析得出。",
+    "context2": "知识集成模型主要用来描述知识与知识、知识与过程以及知识与人之间的关系，指导如何进行知识集成[6。知识集成模型主要分为两种：一种是基于认识论的知识集成模型，主要包括显性知识之间的集成、隐性知识之间的集成、从显性知识到隐性知识的集成、从隐性知识到显性知识的集成4种模型。具有代表性的是基于知识内容的显性知识之间的集成模型（SECI模型），严格意义上说属于知识创造模型[]。另一种是从本体论的角度出发将知识集成分为个体知识、团队知识、组织知识以及组织间的知识，在不同的层面或者是同一层面对知识进行集成，即ITOI知识集成模型[8]；Reimer主要研究在语义网环境下如何从更高层次的语言着手建立知识集成模型[9]；Nonaka的研究成果偏重知识创造方面的研究[10]；Sabherwal研究不同类型知识的集成机制，建立了理论模型[11]。"
+  },
+  "（2）语义网环境下基于本体的知识集成工具研究": {
+    "context1": "由共现关键词ontology（ontologies）-integration一knowledge一semantic web一tool 得出。",
+    "context2": "信息技术的发展推动了知识集成工具的进步。语义网环境下基于本体的知识集成研究主要集中在计算机科学领域，通过分析，知识集成工具主要包括知识转化工具、知识库管理系统、知识挖掘工具以及知识集成平台等。利用知识转化工具和过滤、集体协作技术、语义网技术将隐性知识转化成显性知识；利用知识库管理系统有效的管理显性知识；利用知识挖掘工具将在数据库挖掘到的重要知识进行分析与整合；利用知识集成平台的中间件以及多媒体技术功能进行知识的表达、转化和交流，实现知识的表达、异构环境下知识的获取与重用、规则推理，从而形成知识集成系统。"
+  },
+  "（3）语义网环境下基于本体的知识集成管理": {
+    "context1": "由共现关键词ontology(anthologies）一data integration-knowledge management一semantic web 得出。",
+    "context2": "在知识管理领域对知识集成的研究集中在知识集成的创新、知识集成的能力、知识集成的评价以及知识集成的应用方面。语义网环境下基于本体的知识集成管理将计算机技术与知识管理理论有效结合，利用本体技术、语义网代理技术对知识集成进行创新，保证知识创新的技术成果和应用。语义网环境下，强化本体论的应用研究，通过基于本体的知识集成，可以突破原有数据库集成存在的问题和瓶颈，实现组织的知识管理。"
+  },
+  "（4）语义网环境下基于本体的知识集成系统设计": {
+    "context1": "由ontology（anthologies）- integration-knowledge一semantic web一systems（system）-design 得出。",
+    "context2": "知识集成是对知识的整合和优化，对隐性知识和显性知识进行交流和协作，实现知识的共享。知识集成系统解决的关键问题是如何将分散的知识整合成为统一的知识，确保知识的扩展性。语义网环境下，知识集成系统构建基于建立统一的专家知识库基础上，将显性知识和隐性知识整合成为标准的可以理解的本体知识。利用专门的转化模块，实现显性知识和隐性知识的转化，集成独立的本体知识库。异质知识源的集成成为知识集成研究的一大热点。建立知识源之间的知识互用和共享平台，表示和挖掘已有知识源中的隐性知识同时消除已有知识源的不一致性，从而准确解决问题。"
+  },
+  "2.3经典文献分析": "",
+  "2.3.1文献共被引知识图谱绘制": {
+    "context1": "与关键词共现知识图谱绘制步骤类似，利用CiteSpace3.7.R8软件设置相关参数，在选择Node Types（节点类型）时选择CitedReference（文献共被引分析）。运行程序，获得文献共被引频次表（如表3所示）和文献共被引知识图谱（如图2所示）。在图中结点代表参考文献，结点的大小能够反映文献被引频次的高低程度，结点间连线表示文献存在共被引的关系，结点间的连线越粗代表文献共被引程度越高。通过文献共被引分析，可以分析在这一学科领域的经典文献。",
+    "context2": "表3文献共被引频次表",
+    "context3": "<table><tr><td>Freq</td><td>…</td><td>Year</td><td>Cited References</td></tr><tr><td>178</td><td>…</td><td>2000</td><td>ASHBURNERM，2000，NATGENET，V25，P25</td></tr><tr><td>106</td><td>…</td><td>1993</td><td>GRUBER TR，1993，KNOWL ACQUIS，V5，P199，DOI 10.1006/KNAC1993.1008</td></tr><tr><td>78</td><td>…</td><td>2007</td><td>SMITHB，2007，NAT BIOTECHNOL，V25，P1251，DOI 10.1038/NBT1346</td></tr><tr><td>57</td><td>…</td><td>2001</td><td>BERNERS-LEET，2001，SCIAM，V284，P34</td></tr><tr><td>55</td><td>：</td><td>2003</td><td>BAADERF，2003，DESCRIPTIONLOGIC HD，V，P</td></tr><tr><td>47</td><td>：</td><td>2003</td><td>ROSSEC，2003，J BIOMEDINFORM，V36，P478，DOI10.1016/</td></tr><tr><td>41</td><td>…</td><td>1995</td><td>GRUBERЗTR;9995，INTJHUM－COMPUT ST，V43，P907，DOI 10.1006/ IJHC 1995.1081</td></tr><tr><td>37</td><td>…</td><td>2005</td><td>SMITHB，2005，GENOME BIOL，V6，P，DOI10.1186/GB－2005－6-5－R46</td></tr><tr><td>31</td><td>：</td><td>2007</td><td>SIRIN E，2007，JWEB SEMANT，V5，P51，DOI10.1016/J.WEBSEM 2007.03.004</td></tr><tr><td>30</td><td>…</td><td>2004</td><td>BODENREIDER O，2004，NUCLEIC ACIDS RES，V32，DOI 10.1093/NAR/ GKH061</td></tr></table>"
+  },
+  "2.3.2文献共被引分析——经典文献": {
+    "context1": "结合表3、图2文献图谱进行深入分析，在语义网环境下，基于本体的知识集成研究论文共同被引用的频次超过30次的有10篇，本文将共被引频次超过50次的引文作为该领域研究的经典文献（如表4所示）。AshburnerMz在2000 年发表的 Gene Ontology：tool for the unification of biology的文章共被引频次最高达到178次，该文章被该领域内178 篇文章引用，成为经典文献。Gruber，T，R的文章是本体领域内的经典文献，共被引1O6次，Grube，T，R在该文章中详细系统的定义了本体的概念。通过分析经典文献可以得出该领域研究的发展历程、理论依据和技术基础，并提供了基因本体和生物医学知识集成例证，为知识集成的研究提供了有利借鉴。这些经典文献在一定程度上反映了该领域在不同阶段的研究水平。在做有关这一方面的研究时，仔细阅读这些经典文献可以更加深入的了解该领域研究的基础和侧重点，提高研究水平。",
+    "context2": "![](images/fb2b2259de410a649f7d0d653442528d5ce84ab75b93bd04f9b5ada046f2ea4e.jpg)  \n图2文献共被引知识图谱",
+    "context3": "表4经典文献列表",
+    "context4": "<table><tr><td>作者</td><td>发表年份</td><td>共被引文章</td><td>共被引频次</td></tr><tr><td>Ashburner M</td><td>2000</td><td>Gene Ontology：tool for the unification of biology</td><td>178</td></tr><tr><td>Gruber，T.R</td><td>1993</td><td>A translation approach to portable ontology specification</td><td>106</td></tr><tr><td>Smith B</td><td>2007</td><td>The OBO Foundry：coordinated evolution of anthologies to support biomedical data in- tegration</td><td>78</td></tr><tr><td>Berners-Lee</td><td>2001</td><td>The Semantic Web-A new form of Web content that is meaningful to computers will unleash a revolution of new possibilities</td><td>57</td></tr><tr><td>Baader F</td><td>2003</td><td>Description logics with aggregates and concrete domains</td><td>55</td></tr></table>"
+  },
+  "3结论": {
+    "context1": "本文利用CiteSpace3.7.R8文献分析软件，通过关键词共现和文献共被引分析了语义网环境下基于本体的知识集成研究进展，从文献资源的著者、学科以及国家和地区分布等方面统计分析国际上知识集成研究基本状况，分析出该领域研究集中在知识集成的模型、工具、管理以及系统构建等热点领域，分析出5篇经典文献。在研究过程中也发现了知识集成领域研究存在的问题：首先，语义网环境下基于本体的知识集成研究在集成异质知识源方面还需要构建更加高效的异构知识源平台，实现知识结构化程度和知识表示方法的统一性；其次，在实现知识系统的互操作和共享方面存在欠缺，知识的表达方式没有统一的标准；最后，知识集成的理论研究比较成熟，但是实际应用方面较少，知识集成理论和实际应用的脱节。基于本体的知识集成实践不断发展，研究人员需要运用不同的知识集成方法，不断地开发新的知识集成工具，构建基于本体的知识集成平台，解决知识集成方面存在的问题，从而真正有效地实现知识集成。",
+    "context2": "Management，2014，34：89-98.   \n[12]Robson K，et al. Making sense of online consumer reviewsa methodology [J].International Journal of Market Research, 2013，55(4)：2-13.   \n[13] Mudambi S M and Schuff D. What makes a helpful online review：A study of customer reviews on Amazon.com [J].MIS Quarterly，2010，34（1)：185—200.   \n[14]Duan W J，et al. Do online reviews matter-An empirical investigation of panel data [J]. Decision Support Systems, 2008，45：1007—1016.   \n[15] Park D H，et al. The effect of on-line consumer reviews on consumer purchasing intention the moderating role of involvement ［J]. International Journal of Electronic Commerce, 2007，11(4)：125-148.   \n[16]Lee J，et al.The effect of negative online consumer reviews on product attitude：An information processing view [J]．Electronic Commerce Research and Applications，2oo8，（7）： 341-352.   \n[17]Pan Y and Zhang Q.Born unequal-A study of the helpfulness of user-generated product reviews [J]. Journal of Retailing，2011，87（4)：598-612.   \n[18]Cheung M Y，et al.Credibility of electronic word－ofmouth：Informational and normative determinants of on-line consumer recommendations [J].International Journal of Electronic Commerce，2009，13（4)：9-38.   \n[19]Lis B. In eWOM we trust：A framework of factors that determine the eWOM credibilityc [J].Business &.Information Systems Engineering，2013，5（3)：129-140.   \n[20] Fang H，et al. Towards effective online review systems in the Chinese context-A cross-cultural empirical study [J]. Electronic Commerce Research and Applications，2013，12 (3)：208-220.   \n[21]Walther JB，et al.Online reviews，helpfulness ratings，and consumer attitudes：An extension of congruity theory to multiple sources in Web2. O [J].Journal of Computer- mediated Communication，2012，18（1)：97-112.   \n[22]Ludwig S，et al. More than words：The influence of affective content and linguistic style matches in online reviews on conversion rates[J].Journal of Marketing，2013，77（1）： 87—103.   \n[23] Lovett MJ，et al. On brands and word of mouth [J]. Journal of Marketing Research，2013，50（4)： $4 2 7 - 4 4 4$   \n[24]Lee J，et al. The different effects of online consumer reviews on consumers’purchase intentions depending on trust in online shopping malls：An advertising perspective [J]．Internet Research，2011，21：187-206.   \n[25]Park D H and Kim S. The effects of consumer knowledge on message processing of electronic word-of-mouth via online consumer reviews [J].Electronic Commerce Research and Ap plications，2008，7（4)：399-410.   \n[26] Cui G，et al. The effect of online consumer reviews on new product sales [J]． International Journal of Electronic Commerce，2012，17(1)：39-58.",
+    "context3": "(本文责任编辑：马卓)"
+  },
+  "": "",
+  "（上接第163页）": "",
+  "参考文献": {
+    "context1": "[1罗海飞，吴刚，杨金生．基于贝叶斯的文本分类方法［J]．计算机工程与设计，2006，27（24)：4746一4748.  \n[2]杨学明，刘柏嵩．基于本体的知识集成研究［J]．情报杂志，2006，(5)：63-65.  \n[3]杨国立．国外数字图书馆研究进展：基于关键词共现和文献共被引的可视化研究［J]．图书馆杂志，2012，31（6)：20一25.  \n[4］Chen C. CiteSpace II：Detecting and visualizing emergingwends and transient patterns in scientific literature [J].Jour-nal of the American Society for Information Science and Tech-nology，2006，52（3)：359-377.  \n[5]张红岩．我国图书馆职业研究的实证分析[J]．中国轻工教育，2012，(6)：52-54.  \n[6]马彪．国外知识集成研究综述［J]．情报理论与实践，2007，30 (1)：139-144.  \n[7]Grant. Prospering in dynamically competitive environments:Organization capability as knowledge integration [J].Organi-zation Science，1996，54（4)：375-387.  \n[8] Shin M. From knowledge theory to management practice： to-wards an integrated approach [J]. Information Processing &Management，2001，37（2)：335－355.  \n[9]Reimer Acknowledge integration for building organization allmemories [J].Eleventh Workshop on Knowledge Acuisition，Modeling and Management，1998.  \n[10]Nonaka I. Adynamic theory of organizational knowledge crea-tion [J]．Organization Science，1994，5（1)： $1 4 - 3 7$   \n[11]Sabherwal R.Integrating specific knowledge：insights fromthe Kennedy space center [J]. IEEET transactions on Engi-neering Management，2005，52（3)：301－315.",
+    "context2": "（本文责任编辑：孙国雷）"
+  }
+}

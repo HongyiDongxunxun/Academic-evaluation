@@ -1,0 +1,77 @@
+{
+  "original_filename": "full_8624.md",
+  "移动社交网络推荐技术研究进展": {
+    "context1": "谢辉1,2,李广建1",
+    "context2": "(1.北京大学信息管理系,北京100871;2.江西科技师范大学数学与计算机科学学院,江西 南昌330038)",
+    "context3": "摘要：【目的/意义】基于移动互联网的社交网络飞速发展,对传统的推荐技术提出了新挑战。为了开展进一步研究,厘清种类与方法十分必要。方法/过程分析了传统互联网推荐系统、信息物理方法以及机器学习方法三大类推荐系统。通过研究代表性的论文,比较了常见推荐算法模型的优缺点【结果/结论】结果表明：很难找到一种\"万能的\"模型,使移动社交网络的推荐系统在实时性、准确性和多样性等关键特征取得满意的结果。移动社交网络推荐技术可能取得突破的领域，将是多种模型的综合运用。",
+    "context4": "关键词：移动社交网络;推荐技术;机器学习；研究进展中图分类号：G206 文献标识码：A 文章编号:1007-7634(2017)10-03-04",
+    "context5": "DOI:10.13833/j.cnki.is.2017.10.001"
+  },
+  "Research Progress of Mobile Social Network Recommendation Technology": {
+    "context1": "XIE Hui'²,LI Guang-jian1",
+    "context2": "1.Departmentof Information Management,Peking University Beijing 10o871,China; 2.SchoolofMathematicsand Computer Science,Jiangxi Science and Technology Normal University,Nanchang 33oo38,China)",
+    "context3": "Abstract:【Purpose/significance】Withtherapiddevelopment of the mobile socialnetworks,newchallnges to traditional recommendation technologyareput forward.For furtheradvancement,it’simportanttounderstand thecategories and the methods.【Method/process】Thre kinds ofrecommendation systems,suchas traditional Internet recommendation system,information physics and machine learning methods,are analyzed in the paper.Through the research of representative papers, theadvantages and disadvantages of thecommonrecommendation algorithms arecompared.【Result/conclusionItisdificult to finda\"universal\"modelmakes therecommendation systemof mobile social networkobtainsatisfactoryresults inreal-time,accuracyand diversity.Thepotentialbreakthrough intherecommendation technologyofmobilesocialnetwork will be a comprehensive application of multiple models.",
+    "context4": "Keywords: mobile social network; recommendation technology; machine learning; research progress"
+  },
+  "1引言": {
+    "context1": "处理的能力。人们既高度地依赖于信息，又受困于社交网络上充斥的大量的无关信息。",
+    "context2": "以智能手机为主的移动智能设备使用和普及极大地促进了社交网络与移动计算的有效融合，催生了移动社交网络（Mobile SocialNetworks,MSN)的广泛发展与应用。2017年1月的最新统计表明，我国手机网民规模达6.95亿，手机上网的人群占网民总数的 $9 5 . 1 \\%$ ,其中使用微信、QQ、微博等以移动社交为目的的用户占到手机网民的 $9 1 . 8 \\% ^ { [ 1 ] }$ 。移动社交用户生成数据的爆炸性增长造成严重的\"信息过载\"问题，人们每天从移动社交网络接收到的信息远远超出了自身所能",
+    "context3": "推荐系统（Recommender Systems）[2-4]被认为是帮助用户发现感兴趣的内容，克服信息过载的重要工具，从而得到学术界和工业界的极大关注并在搜索引擎、电子商务等领域得到广泛应用,取得了很多研究成果。利用移动社交网络环境在好友、酒店、电影院等信息推荐方面的优势,通过获取和预测潜在社交用户偏好来过滤不相关的信息，为移动用户提供满足其个性化需求的结果,逐渐成为解决信息过载的有效手段[5-8]。",
+    "context4": "由于海量数据、实时性、冷启动和数据稀疏等问题,试图依靠一种推荐模型和技术来实现移动社交推荐有很多困难与风险。一旦推荐错误,系统可能返回与用户需求相悖的结果,伤害用户体验。目前,移动社交网络推荐系统研究主要以用户的关系矩阵和偏好矩阵为输入，以预测用户潜在的偏好为主要目的,输出新的用户偏好矩阵。因此,深入了解用户的基本特质与偏好，设计有效的个性化信息推送与过滤手段,帮助用户更加高效、准确地获取感兴趣的信息,不仅是产业界面临的严峻挑战,更是学术界普遍关注的焦点。",
+    "context5": "表1 常见推荐算法的分类和模型",
+    "context6": "<table><tr><td>分类</td><td>代表性模型</td><td>理论基础</td><td>适用场景</td><td>优点</td><td>不足</td></tr><tr><td>荐系统</td><td>传统互联网推基于内容的推荐、协同过滤[10-)、混合算法模矩阵论和数据挖 型[12-14]</td><td>掘</td><td>电子商务</td><td>直观、易于实现</td><td>模型简单,查准率偏 低</td></tr><tr><td>信息物理方法</td><td>链路预测[5-23],标签传播[24-27])物质扩散和热传 导[28-31</td><td>统计物理学</td><td>复杂网络</td><td>在小数据集上准确 率较高</td><td>计算复杂度高,缺乏 大数据集验证</td></tr><tr><td></td><td>机器学习方法随机游走[24]、概率图模型[32]、迁移学习[33]</td><td>贝叶斯理论、马 尔可夫随机场</td><td>社交网络</td><td>效率较高</td><td>算法复杂度高</td></tr></table>"
+  },
+  "2常见推荐系统模型": {
+    "context1": "推荐系统面临如下问题：对于没有历史行为记录的用户,我们面临着无从对其喜好进行分析的尴尬,这就是冷启动(Cold Start)问题。随着社交推荐系统中所涉及的用户和项目规模迅速增长，各种传统的推荐模型都将面临可扩展性的问题。多样性问题对于推荐系统有着正面的影响,因为这可以使得用户从无数的潜在需求中发现更多新的项目。在表1中，我们简略列出了常见的推荐系统模型。",
+    "context2": "推荐的准确度是评价推荐系统最基本的指标，常用的评价标准如下：",
+    "context3": "(1)平均绝对误差(MAE)：",
+    "context4": "$$\n\\ M A E { = } \\frac { \\displaystyle \\sum _ { j = 1 } ^ { N } \\left| p _ { j } - r _ { j } \\right| } { N }\n$$",
+    "context5": "(2)均方根误差(RMSE)：",
+    "context6": "$$\n\\mathrm { R m s e } { = \\sqrt { \\sum _ { j = 1 } ^ { N } ( p _ { j } - r _ { j } ) ^ { 2 } / N } }\n$$",
+    "context7": "其中, $p _ { j }$ 是推荐系统对目标用户在项目 $i _ { j }$ 上的预测评分;N是预测的次数; $r _ { j }$ 是目标用户对项目 $i _ { j }$ 的实际评分。"
+  },
+  "3传统互联网的推荐系统": {
+    "context1": "传统互联网的推荐系统，通常采用基于内容的推荐、协同过滤和混合算法模型。Hannon 等9构建了Twittomender系统，对Twitter进行实时的用户分析,利用TF-IDF衡量用户发布的tweet的关键词权重，采用基于内容的协同过滤来推荐潜在的好友和粉丝。协同过滤是在用户群中找到指定用户的相似用户,综合这些相似用户对某一信息的评价，形成系统对该指定用户对此信息的喜好程度预测，它在亚马逊等网站得到了很好的运用[]。Pan等[研究了半监督协同推荐的标签的反馈问题(显式反馈)和不含标签的反馈(隐式反馈),并设计了一种新的自转移学习算法通过迭代识别来整合可能的正面不含标签的反馈,该算法的优点在于能够从异构学习用户的喜好联合选择行为。崔斌等提出了一种基于位置的内容感知的由离线模拟和在线推荐两部分组成的推荐系统LCARS,通过扩展经典的阈值算法评估了该系统在大规模真实数据集Doubanevent和Foursquare上的性能。李国良等[3]研究了基于位置的用户群组推荐方法,通过结合文本特征的节点信息构建结构和内容相结合的R-tree索引结构来提高数据过滤的效率。秦继伟等[4提出一种评分和信任相结合的协同过滤算法,利用评分来协同用户间的信任关系，生成偏好关系，从而实现高效的推荐。",
+    "context2": "在协同过滤算法中,利用已有的用户评分数据寻找用户$\\mathbf { u } _ { \\mathrm { a } }$ 和用户 $\\mathrm { u _ { b } }$ 之间的相似性常采用的方法有：",
+    "context3": "(1)余弦相似度(Cosine Similarity):",
+    "context4": "$$\n\\cos ( u _ { a } , u _ { b } ) = \\frac { \\sum _ { i \\in \\textit { I } } R _ { a , i } \\ \\bar {  { R } } _ { b , i } } { \\sqrt { \\sum _ { i \\in \\textit { I } } { R _ { a , i } } ^ { 2 } } \\sqrt { \\sum _ { i \\in \\textit { I } } { R _ { b , i } } ^ { 2 } } }\n$$",
+    "context5": "(2）皮尔逊相关相似度（Pearson Correlation Coefficient) :",
+    "context6": "$$\n\\sin ( u _ { a } , u _ { b } ) = \\frac { \\sum _ { i \\in \\cal I _ { a , b } } ( R _ { a , i } - \\overline { { { R _ { a } } } } ) ( R _ { b , i } - \\overline { { { R _ { b } } } } ) } { \\sqrt { \\sum _ { i \\in \\cal I _ { a , b } } ( R _ { a , i } - \\overline { { { R _ { a } } } } ) ^ { 2 } } \\sqrt { \\sum _ { i \\in \\cal I _ { a , b } } ( R _ { b , i } - \\overline { { { R _ { b } } } } ) ^ { 2 } } }\n$$",
+    "context7": "（3)欧氏距离(Euclidean Distance）:",
+    "context8": "$$\nd ( u _ { a } , u _ { b } ) = \\sqrt { \\sum _ { i = 0 } ^ { n } ( u _ { a i } - u _ { b i } ) ^ { 2 } }\n$$",
+    "context9": "表2 传统互联网推荐算法的比较",
+    "context10": "<table><tr><td>推荐方法</td><td>优点</td><td>缺点</td></tr><tr><td>基于内容的推荐[]</td><td>1.不依赖于评分，所以不存在数据稀疏和冷启动问题; 2.通过直接对比资源模型与用户模型的契合度形成推 荐,较为直观。</td><td>1.只适用于文本类资源； 2.所推荐的资源质量无法保证; 3.需要抽象出资源向量和用户向量,有较大工作量; 4.需要动态地更新模型。</td></tr><tr><td>协同过滤模型[10.]</td><td>1.只依赖于评分,有较好的普适性; 2.能为用户发现潜在的兴趣点； 3.算法的推荐精度随着评分率的增加而提高。</td><td>1.数据稀疏问题; 2.冷启动问题; 3.推荐结果的相关性较弱；</td></tr><tr><td>混合算法模型[12-14]</td><td>1.解决冷启动问题; 2.资源数越多，推荐精度越高。</td><td>4.算法可扩展性问题。 1.规则的制定较难,工作量大; 2.需要动态地更新规则。</td></tr></table>",
+    "context11": "传统互联网推荐系统的优缺点比较如表2所示。"
+  },
+  "4基于信息物理方法的推荐系统": "",
+  "4.1基于链路预测的推荐系统": {
+    "context1": "在社交网络中，节点之间不是孤立的，而是存在某种局部的结构关系,采用指数随机图模型(Exponential RandomGraphModel:ERGM)将用户的基本信息以及网络的拓扑信息综合考虑,从而实现社交网络的链路预测。链路预测的本质是挖掘网络产生连边的原因和驱动力，分为基于链接的节点排序、基于链接的节点分类、节点聚类、子图发现、图分类和图的产生式等模型。链路预测研究方法主要为：(i)基于相似性的链路预测[15-17],应用不同节点间相似性来判断其连接的可能性;(ii)基于有结构层次网络的链路预测[18-19],对于有明显结构层次的网络进行层次划分，利用最大似然估计进行预测;(ii)基于概率模型的链路预测[20-23],建立一个可调参数的概率模型,通过计算两个连接之间的概率进行预测。"
+  },
+  "4.2 基于社会化标签的推荐系统": {
+    "context1": "在标签网络中,每个节点表示一些单词所描述的标记,以及无向边表示两个标签。使用集体智慧从标签网络搜索社交网络的相似用户。Feng等[24]利用异构网络基于标签的推荐,它利用了网络结构、标签语义和item的特征，采用随机游走的方法评估了所提出的OptRank性能。文献【25】以新浪微博为例,研究面向社会媒体的用户标签预测，综合利用微博用户的微博消息、个人档案、社交网络等信息,提出网络正则化的标签分发模型(NTDM)来为用户推荐标签。该技术可用于个性化推荐等重要领域,也是深入理解社会媒体本质的重要基础。Shang等[2提出了基于线性阈值独立级联传播模型(independent cascading model with linear threshold)的社会传染的个体推荐模型和社会影响人际关系的网络理论的群体推荐模型。Wang等[27在社交网络中根据人们所分享的相似标签,使用内核扩散来测量人们的相似性。"
+  },
+  "4.3基于热传导的推荐系统": {
+    "context1": "针对用户在二部分图(用户-商品网络)上以一定的比例接受系统推荐问题,采用基于物质扩散算法的开创性工作见周涛等[28]发表在PNAS的论文。吕琳瑷等[29]提出了一种用户对象的二分网络上改进的基于物质扩散和热传导的优先扩散的算法,提高了推荐的准确性、多样性和新颖性。张子柯等[30利用用户配置文件、项目属性和精确的评级等标签信息，提出了一个用户的项目标签三方图的综合扩散的推荐算法，对于理解社会标签网络的结构和如何结合标签和物质扩散为用户推荐有价值的信息有一定的借鉴作用。王国霞等[3借鉴物质扩散过程,提出了基于万有引力的个性化推荐算法。",
+    "context2": "基于信息物理方法的推荐系统是建立在相似性的节点之间存在链接的可能性越大基础之上的。链路预测从以数据挖掘领域为主的应用,发展到越来越多的统计物理方法的使用，产生了基于节点属性相似性、网络结构相似性和似然分析的链路预测。链路预测的研究将适应不同网络结构，在时空网络、多层网络、超图网络等的研究中发挥作用。同时，由于标签标注的随意性和虚假性,对标签的清洗、聚类就显得尤为重要,通过项目-标签对构造完整的标签网络的完全超图模型是提高推荐系统性能的良好途径。在兴趣和行为标注中考虑人类行为动力学[32可以提供随时间变化的动态标签系统,从而提供实时的推荐。热力学方法在推荐系统运用为相关的研究提供了新的角度和视野，增加其他的物理学原理或者引入新的因素。比如在热传导算法添加影响力控制的因素[33],将是未来该领域研究的重要方向。"
+  },
+  "5基于机器学习方法的推荐系统": {
+    "context1": "在机器学习方法中，最常见的是基于概率图模型的社交推荐系统。唐杰等[34从主题分布的源域、目标域和跨域相关,通过主题层的跨学科合作,而不是作者层减轻稀疏问题，提出了跨领域主题学习方法(Cross-domain topic learning）,提高了跨学科合作者推荐的精度。",
+    "context2": "最近,研究人员运用深度学习、迁移学习等方法，在推荐系统研究和运用中取得了良好的结果。EIkahky等[35通过训练多层的受限玻尔兹曼机,来获取用户和项目的层次性潜在因素,从而得到更准确的推荐评价。潘维科等[3针对只有一种类型的如数值评分或浏览记录的用户行为的建模,提出了半监督协同推荐的反馈问题(显式反馈)和未标记的反馈(隐式反馈),设计了一种新的自转移学习算法来迭代识别和整合可能的正面未标记的反馈,优点在于能够从异构用户的联合喜好中选择合适的推荐策略。",
+    "context3": "机器学习应用在推荐系统前景广阔,深度学习、迁移学习、在线学习和增量学习等在未来会有更多更广泛的尝试。同时多种机器学习技术的运用将会越来越普遍，比如:在结构化的神经网络模型(特别是深度模型)中,采用概率图模型推理和学习同层节点之间的变化。"
+  },
+  "6展望": {
+    "context1": "当前的推荐系统基于内容、协同过滤、信息物理方法等的算法模型都是被系统\"算出来的推荐”,而研究人员发现，用户更喜欢来自朋友或熟人的推荐[37],所以社交网络影响力被认为比推荐对象的历史行为的相似性更加重要[38]。已有的各种方法都是在一定程度上解决移动社交环境推荐系统的一个或几个问题。在众多的推荐相似性度量指标中，是否能够刻画一个给定推荐结果的关系,才能进一步研究相似性指标的度量效果。同时，由于移动数据和移动终端的多样性和异构性,使得社交应用场景更加多样化,推荐复杂度较高，并且通常缺少用户历史数据,需要有一定领域的相关知识，加之于空间、时间等上下文条件信息的限制,导致了传统推荐算法在移动社交环境下不能直接被应用[39]。",
+    "context2": "需要注意的是，以上所提出的推荐系统并不是严格意义上的分类。事实上,很多方法在实际中并没有严格的界限。比如:链路预测方法就经常使用机器学习的概率图模型来表达节点之间的连边概率。在机器学习中采用深度学习理论的受限玻尔兹曼机对因子图进行构建和推理,学习不同网络之间的共同因子,是学习用户属性及社交网络信息,部分解决社交网络复杂信息表示问题的很好方法。通过对网络聚类来计算节点的相似性也是一个重要的社交网络推荐理论问题。",
+    "context3": "在推荐系统中整合社交网络用户之间的好友、Follower等数据来提高推荐的准确性,甚至不一定需要用户的历史行为信息的相似性或者基于评分计算用户之间的相似性,从而解决冷启动和数据稀疏性问题。在移动社交网络中，我们还会遇到含时网络(用户的属性和交互信息含有时间戳）多层网络等，这就要求相关算法不仅要为用户提供普适的推荐，还要考虑用户随时间、角色和位置变化而产生的实时推荐。",
+    "context4": "随着计算性能大幅提高和社交网络数据的急剧增加，移动社交网络的推荐技术重点将会集中在综合运用大数据算法、机器学习和统计物理等理论、技术，适应不同社交网络的异构结构，在真实的大数据集上的实验对所提出的算法、模型进行全面的验证和评价，从而在实时性、准确性和多样性等关键特征上取得突破。",
+    "context5": "Pantzioub.Mobile recommender systems in tourism [J]. Journal of Network and Computer Applications, 2014,(10):319-333.   \n8 王巧,高琳.基于社交圈的在线社交网络朋友推荐 算法[J].计算机学报,2014,(4):801-808.   \n9 J.Hannon,M.Bennett,and B. Smyth.Recommending twitter users to follow using content and collaborative filtering approaches[C]//Proceedings of the fourth ACM conference on Recommender systems, 2010:199-206.   \n10 G. Linden, B. Smith,and J. York. Amazon. com recommendations: Item- to- item collaborative filteringJ].IEEE Internet computing, 2003,(1):76 - 80.   \n11 Weike Pan, Qiang Yang, Yuchao Duan, and Zhong Ming. Transfer learning for semisupervised collaborative recommendation[J].ACM Transactions on Interactive Intelligent Systems,2016,6(2):1-21.   \n12 H. Yin, Y. Sun, B. Cui, Z. Hu and L. Chen. LCARS: A Location- Content-Aware Recommender System[C]//the 19th ACM SIGKDD Conference on Knowledge Discovery and Data Mining(KDD),2013:221-230.   \n13G.Li, Y. Yang, T.Wang and J. Feng.Location-Aware Publish/Subscribe[C] //the 19th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2013:802-810.   \n14 秦继伟,郑庆华,郑德立,等.结合评分和信任的协同推荐 算法.西安交通大学学报,2013,(4):100-104.   \n15 T. Zhou, L.-Y.Lu, Y.-C. Zhang. Predicting missing links via local information[J]. European Physical Journal B,2009, (71):623-630.   \n16P.Sen,G. Namata, M. Bilgic,L. Getoor,B. Gallagher, T. Eliassi-Rad. Collective classfication in network data[J].AI Magazine,2008,(3):93-106.   \n17 L.Lu, C.-H. Jin,T. Zhou, Similarity index based on local paths for link prediction of complex networks[]. Phys. Rev. E,2009,(80):046122.   \n18 A.clauset, C. Moore,M. E.J. Newman. Hierarchical structure and the prediction of missing links in networks[J]. Nature,2008,(453):98-101.   \n19Weiping Liu,Linyuan Lü. Link prediction based on local random walk[].European Physical Letter，2010,（89): 58007.   \n20 B. Taskar,M.-F. Wong, P.Abbeel, D.Koller. Link prediction in relational data[C]//Advances in Neural Information Processing Systems (NIPS),2003:659-666.   \n21 D. Sun, T. Zhou,J.-G. Liu, R.-R. Liu, Ch.-X. Jia, B.- H. Wang. Information flting based on transferring similarity D]. Physical Review E,2009,(80):017101.   \n22IIii T Zhon Iink Dredictinn in （下转第67页）"
+  },
+  "参考文献": {
+    "context1": "1 Robert E Kahn, Vinton G Cerf.The Digital LibraryProject Volume 1: The World Knowbots (DRAFT)[EB/OL].http://cnri.reston.va.us/kahn-cerf- 88.pdf,2016-03-01.  \n2 杨彭.2008-2012年我国数字图书馆领域的文献计量分析[J].图书与情报,2013,(5):72-77.  \n3期刊-中国知网[EB/OL].http://epub.cnki.net/kns/brief/result.aspx?dbPrefix $=$ CDMD,2016-03-1.  \n4 刘启元.文献题录信息统计分析工具SATI[EB/OL].http://sati.liuqiyuan.com,2016-03-01.  \n5 Chen,CM.CiteSpace:Detecting and Visualizing Emerging Trends and Transient Patterns in Scientific Lit-erature[J].Journal of The American Society for Infor-mation Science and Technology,2006,(3):359-377.  \n6 戴维·诺克,杨松.社会网络分析(第二版)[M].上海:上海人民出版社,2012:20.  \n7邱均平,王明芝.1999-2008年国内数字图书馆研究论文的计量分析[J].情报杂志,2010,(2):1-5.  \n8 刘成山,张秀君.近十年我国数字图书馆学术论文的计量分析[J].现代情报,2011,(3):113-116.",
+    "context2": "(责任编辑：徐波)"
+  },
+  "（上接第6页）": {
+    "context1": "Weighted Networks:The Role of Weak Ties[J].Europhysics Letter,2010,(89):18001.   \n23 L.-Y.Lü, Liming Pan, Tao Zhou, Yi-Cheng Zhang,and H.Eugene Stanley. Toward link predictability of complex networks[J]. Proceedings of the National Academy of Sciences,2015,(8):2325-2330.   \n24 W. Feng and J. Wang. Incorporating Heterogeneous Information for Personalized Tag Recommendation in Social Tagging Systems[C]//the 18th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD),2012: 1276-1284.   \n25 涂存超,刘知远,孙茂松.社会媒体用户标签的分析与推 荐[].图书情报工作,2013,(23):24-30,35.   \n26 S.Shang,P.Hui, S.R.Kulkarni, P.W. Cuff.Wisdom of the crowd: incorporating social influence in recommendation models[C]//IEEE 17th international conference on parallel and distributed systems,2011:835 - 840.   \n27 Wang X,Liu H,Fan W. Connecting users with similar interests via tag network inference[C]//ACM Conference on Information and Knowledge Management, CIKM 2011, 2011:1019-1024.   \n28 Tao Zhou, Zoltan Kuscsik, Jian-Guo Liu,Matus Medo,Joseph Wakeling,Yi-Cheng Zhang. Solving the apparent diversity-accuracy dilemma of recommender systems.[J]. Proceedings of the National Academy of Sciences of the United States of America,2010,(10):4511-4515.   \n29 L.-Y.Lu, W.Liu. Information fltering via preferential diffusion[J].PhysicalReview E,2011,(83):066119.   \n30 Zi-Ke Zhang,Tao Zhou,Yi-Cheng Zhang.Personalized recommendation via integrated diffsion on user - item - tag tripartite graphs[J].Physica A,2010,(1):179-186.   \n31 王国霞,刘贺平,李擎.基于万有引力的个性化推荐算 法[].工程科学学报,2015,(2):255-259.   \n32Barabäsi AL.The origin of bursts and heavy tails in human dynamics[J].Nature,2005,435(7039): 207-211.   \n33 雷震,文益民,王志强,等.基于影响力控制的热传导算 法[].智能系统学报,2016,11(3):328-335.   \n34 J. Tang,S.Wu,J. Sun and H. Su. Cross-domain Collaboration Recommendation[C]//the 18th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD),2012:1285-1293.   \n35Ali Mamdouh Elkahky，Yang Song，Xiaodong He.A multi- view deep learning approach for cross domain user modeling in recommendation systems[C]//Proceedings of the 24th International Conference on World Wide Web (WWW),2015:278-288.   \n36Weike Pan，Qiang Yang, Yuchao Duan， Zhong Ming. Transfer Learning for Semi-Supervised Collaborative Recommendation [J].ACM Transactions on Interactive Intelligent Systems,2016,(2):10:1-21.   \n37R.Sinha,K. Swearingen. Comparing recommendations made by online systems and friends[C]//Proceedings of the DELOS-NSF Workshop on Personalization and Recommender Systems in Digital Libraries,2O01:1-6.   \n38 P.Bonhard, M.A. Sasse. \"Knowingme knowing you\"—using profiles and social networking to improve recommender systems[J].BT Technology Journal,2006,(3):84-98.   \n39 J. Leskovec,L.A. Adamic,B.A. Huberman. The dynamics of viral marketing[J].ACM Transactions on the Web,2007, (1):1-5.",
+    "context2": "(责任编辑：张连峰)"
+  }
+}

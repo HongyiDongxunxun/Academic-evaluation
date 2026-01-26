@@ -1,0 +1,77 @@
+{
+  "original_filename": "full_9884.md",
+  "近年来国外信息检索技术应用案例进展研究": {
+    "context1": "Research on Cases of Information Retrieval Techniques at Abroad姜晓曦 (中国科学院研究生院国家科学图书馆北京 100190)",
+    "context2": "[摘要]元搜索、语义检索、图像检索、日志检索、代理检索等新的检索技术的出现越来越符合现代人们对检索信息的要求。每个检索技术各有其优势和劣势。这些检索技术在实践中的应用与实验更加证明了它们的高效性和实用性，国外有关机构应用案例的试验效果，为我国有关机构更好地利用信息检索技术提供了借鉴。",
+    "context3": "[关键词]信息检索检索技术案例[中图分类号]G252.7 [文献标识码]B",
+    "context4": "[Abstract] The emergenceof several new information retrieval techniques gradually meets the requirements of people to retrieve information.These new information retrieval techniques include metasearch,semantic retrieval, image retrieval, log retrieval and agent retrieval. Each has its advantages and disadvantages. The practical application and experience of these techniques definitely prove their effectiveness and practicality.Theeffectofafewcorrelative foreignorganizationsapplying information retrieval techniques provides references for domesticcorrelative institution to use IR techniques well. [Key words] Information retrieval; Retrieval technique; Cases",
+    "context5": "国外学界的专家们为了充分利用多样的信息资源，帮助用户从海量信息里找到符合要求的资源，对信息检索技术展开了研究，语义检索、视频检索、图像检索等新的检索技术的出现越来越符合现代人们对检索信息的要求，同时这些检索技术在实践中的应用与实验更加证明了它们的高效性和实用性。"
+  },
+  "1元搜索信息检索技术": {
+    "context1": "元搜索指的是这类检索技术将用户的查询请求同时向多个搜索引擎递交，将返回的结果进行重复排查、重新排序等处理后，作为自己的结果返回给用户，服务方式是面向网页的全文检索。Innovative Interfaces'MetaFind就是利",
+    "context2": "[31] JohnsonCA.SocialCapitalandtheSearchforInformation: Examining theRoleofSocialCapitalinInformationSeekingBehaviorinMongolia [J].Journal of the American Society for Information Science and Technology,2007(6):883-894.   \n[32] SpinkA,ParkM, KoshmanS.FactorsAffectingAssigned Information Problem Ordering during Web Search: An Exploratory Study[J]. InformationProcessingandManagement,20o6(5):1366-1378.   \n[33] Kalbach J.\"I'm feeling lucky’ The Roleof Emotions in Seeking Information on the Web[J].Journal of the American Society for InformationScienceandTechnology,2006(6):813-818.   \n[34] LaurieHJ,FriedmanDB,CelestineA.EvaluationofaPublicLibrary Workshop:Teaching Older Adults How to Search the Internet for ReliableCancer Information[J].Journalof Consumer Healthon the Internet,2006(3):29-43.   \n[35] Agichtein E, BrillE, Dumais S.Improving Web Search Ranking by Incorporating User Behavior Information[J].SIGIR Forum 2006 Proceedings,2006(39):19-26.   \n[36] NicholasD, HuntingtonP, Jamali HR,etc.The Information Seeking BehaviouroftheUsersofDigitalScholarlyJournals[J].Information Processing and Management, 2006(5):1345-1365.   \n[37]RuttenLJF,SquiersL, HesseB.Cancer-Related InformationSeeking: Hints from the 2O03 Health Information National Trends Survey (HINTS)[J].JournalofHealthCommunication,20o6(3):147-156.   \n[38]LewisT.SeekingHealthInformationontheInternet:LifestyleChoice orBadAttackofCyberchondria?[J].Media,CultureandSociety,2006 (4) :521-539.   \n[39] Toms,ElaineG.How Consumers Search for Health Information[J]. HealthInformaticsJournal,2007(3):223-235."
+  },
+  "[作者简介]": {
+    "context1": "姜晓曦女,1984年生,中国科学院文献情报中心硕士生，发表论文2篇。",
+    "context2": "[收稿日期:2008-02-22]"
+  },
+  "1.1搜索": {
+    "context1": "密西西比大学图书馆采用主题和全文可用性两种方法组织其电子资源，最常用的是“全文”类。该类别是由图书馆包含的全文资源的百分比定义的，如果该图书馆某类资源包含 $5 0 \\%$ 以上的全文，它就包含在“全文”这一类别中。这样做虽然使得用户检索的资源不都是全文，但是至少保证了绝大部分是全文。其余的种类包括便览、图书馆目录、数字资源、公众可获得的数据库和广泛的主题类等。其中基于主题类搜索的元搜索工具预先自动设定了每个主题大类的几个核心数据库作为默认选项，即使用户不了解该主题领域也能搜索到相关的文献，如果用户是该领域的专家则可以通过自己添加来扩大检索数据库的数量。"
+  },
+  "1.2响应时间": {
+    "context1": "元搜索工具所有问题之中最具有挑战性的要数响应时间了。一般来说响应时间受到图书馆网络、校园网络、校园外的网络供应者等因素的影响，如果将用户搜索的资源所在的网络和认证的变量也算在内，响应时间的问题就更加难以控制了。密西西比大学图书馆购买的是InnovativesWeb Access Management Module (WAM)的认证系统,该模型是基于EZ代理服务器(ezproxy)的。需要发现并解决的问题包括追捕到棘手的转换装置、防火墙装置、校园域名服务器(Domain Name Server,简称DNS)以及卖主的DNS等。MetaSearch (元搜索)工具在代理服务器上放置了一个重要的载荷增长，通过统计数字得出， $2 4 \\%$ 的代理服务器页面请求来自MetaSearch产品。尽管取得了一定的进展，但是响应时间问题仍然是元搜索最难克服的障碍，一个MetaSearch统计模块应该带有使用数据和响应时间的信息，响应时间的信息对发现并修理故障和电子资源卖主是非常有用的。"
+  },
+  "1.3结果相关性": {
+    "context1": "相关性的问题是MetaSearch的热点话题，把增加相关性计算作为一个检索步骤意味着所有的结果都要返回、排列并且显示出来。该图书馆使用的增加相关性的办法是将默认索引从关键字改称题名关键字，对于用户来说恢复题名中的关键字使得检索结果更加相关，但是使用题名关键字需要注意的是：这里有许多资源不支持题名关键字检索。对于其他资源来说，题名关键字不是合适的索引。在这种情况下，检索就会失败并且注明索引是不被支持的。为了调解这种情况，有些资源就要从基本关键字检索映射到题名关键字检索，尽管这样会降低相关性，但是可以避免错误的出现，同时允许结果被重新获得。"
+  },
+  "2语义信息检索技术": {
+    "context1": "完全基于造句法内容建立的信息检索系统具有很大的局限性，这种检索技术应用的挑战之一就是开发高质量、高精确度的系统。为了实现这一目标，引用自然语言处理(Natural Languge Processing,NLP)技术在这类系统中是十分必要的。这种技术可以为信息检索系统提供语义信息，在不同的NLP技术中语义信息描述的方法以及语义标签已经受到学者的重视，并被研究者们逐步开发和试验。"
+  },
+  "2.1 语义元素在ESCRIRE工程中的应用": {
+    "context1": "ESCRIRE(Embedded Structured content RepresentationIn Repositories，机构库中的嵌入式结构内容揭示)工程第1个目的是比较3种知识表示法的形式：概念图表、描述逻辑和以目标为导向的表示语言；第2个目的是为文档检索表达和处理文本内容。学者R.Carolina Medina-Ramirz选择了PubMed数据库中4500篇有关生物文章的摘要，在ESCRIRE中进行了试验，ESCRIRE提出的响应形式是简单的，它包含一个由相关文献和提交的查询组成的列表，Medina和他的研究队伍在此基础上提出了丰富该响应形式的方法[2]。他们利用本体和资源描述丰富了提交给用户的回答,通过Corese语义搜索引擎将查询中使用的自然语言转化成ESCRIRE语言，很容易地获取有注释的信息。其中包括由corese语义搜索引擎检索到的文章的摘要组成的超文档，以及这个文档也链接到的其他的文档：PubMed中的原始文档、制定的查询和交互信息等，作者名、期刊、出版日期等同样也包含在这个超文档中，目的是给用户提供额外的信息。",
+    "context2": "这项试验使用了私人拥有的知识描述语言(ESCRIRE语言)来描绘域本体和注释,在利用资源描述框架(ResourceDescriptiion Framewor，RDF)过程中研究人员发现了一些转换问题，在语义网络内容检索中，像RDF和OWL（WebOntologyLanguage，语义网本语言)这类的语言是被推荐的，利用这种语言可以模仿和共享特殊用户团体的知识。试验结论是私人拥有的语言是不被推荐使用的，因为它们与语义网的结构不协调。"
+  },
+  "2.2语义角色标签(Semantic Role Labeling,SRL)": {
+    "context1": "语义角色是指一个造句法成分和一个谓语之间的关系。目前很多实践都试图将语义角色标签应用到信息检索系统中，但是都失败了。西班牙阿利坎特大学的教授们进行了一个试验，将语义角色标签引进到信息检索系统中，对系统进行了拓展，这个试验通过减少检索出的不相关文献的数量来提高检索性能[3]。在语义角色注释过程中，他们采用了两种方法：最大熵和TiMBL法。最大熵模型提供了一个框架来对许多不同信息源的信息进行集成分类，该试验采用的是最大熵条件概率模型；TiMBL是一个程序，该程序是用来执行基于存储器的知识运算法则的。所有执行的运算法则有共同点，就是它们在存储器中明确地存储了一些训练集的表示法，在试验过程中新的案例是根据存储的案例中最相似的进行推断来分类的。该小组在进行试验时使用了SemBol方法，该方法共分为3个步骤：首先将句子中动词的意义消除歧义；其次在识别阶段，关于消除歧义动词的论据分界必须确定；最后在标签阶段，充当这些论据的角色必须被消除歧义。根据这个SemBol方法，实验小组提出了一个扩展的信息检索系统，其结构如图1所示。",
+    "context2": "![](images/45db3bb101468af20ef965ccdcdd3e1fc04ec79297c99b726269697580fbc4d4.jpg)  \n图1利用SemBol方法扩展的信息检索系统框架3]",
+    "context3": "这个信息检索系统包括4个模块：IR模块、问题处理模块、句子处理模块和语义模块。当一个完整的句子查询输入系统中时，该句子被看成是一个事件，IR系统就是将与事件有关的文本的片段定位在查询里，查询结束后，IR模块在系统中检索出了一个段落或文献集，将该集中的动词和句子中的动词相比较，并将与该动词有关的句子列成表；随后，选出来的句子通过SemBol方法被标注为语义角色，试验的最后一个关系集被应用了，该关系集是建立在句号和语义角色之间的。只有包含正确语义角色的句子才被选取，也就是说检索到的文章数将减少，这样检索准确性就得到了提高。"
+  },
+  "3图像检索技术": {
+    "context1": "为了有效地利用数字图书馆中存储的信息,图像标引和检索技术是十分重要的。早期的图像检索系统使用传统数据库管理的方式来标引检索图像，以简单的性质如图像数量和文本描述等为检索基础，这些检索方式具有一定的局限性，例如查询的种类受限制、查询的性能比较低。为了解决这类问题，基于内容的图像检索是目前学者们积极追求的检索技术。",
+    "context2": "基于内容的图像检索(Content-based Image Retrieval)采用低层次的图像特征如颜色、形状和结构等来检索。目前为止，基于颜色的图像检索技术仍然很流行，并在很多CBIR检索应用中被采用。它由于本身的易于应用和有效性以及颜色元素在图像中容易记住等优势，比基于形状和结构的图像检索应用得广泛。但是澳大利亚Monash大学信息技术学院的两位学者经过调查研究发现，基于颜色的图像检索也存在着一定的局限性，因此他们提出了基于向量量化(VQ Vector Quantiza tion)的图像检索[4]。他们认为vQ是图像检索的一种有效的方式，因为从VQ得来的压缩数据能够直接映射到像素模式，这就意味着基于图像VQ压缩数据可以捕获图像的语义和特征。该检索技术首先将图像分成固定大小的像素块一一向量，对于每个向量编码本都会搜索到一个最匹配的代码，同时登陆的索引号就会代替向量进行转移或存储，索引号的序列就是被压缩的比特流；其次，编码本和比特流被传送到解码器进行解码，解码后的向量是一个初始向量的近似值;最后会得到一个高度压缩的比率。在VQ压缩后，每个像素块都用一个编码索引号表示，学者们就可以根据这些索引号来抽取图像特征，完成图像标引和检索。两位研究者利用这一原理对VQ图像检索进行了试验，试验结果表明，VQ图像检索技术可以在图像标引中捕获像素的空间信息，提高了图像检索的效率。此外,研究者将该检索方法与现有的基于颜色的检索技术进行了比较分析，结果显示，VQ图像检索技术比现存3种方法的检索性能要略胜一筹。"
+  },
+  "4查询日志检索技术": {
+    "context1": "传统的信息检索系统利用文集、文件以及查询统计来确定比较符合用户问题的答案，但是这种查询可以在查询日志中捕获，提供额外的相关资料来源。近几年，专家们把相当多的目光投向了对查询日志和人们表达信息需求方式的研究上，开发出了许多商业搜索引擎的查询日志如Excite等，另外查询日志在信息检索领域如查询拓展、文本检索和图像检索中也得到了应用。"
+  },
+  "4.1利用查询日志建立FAQ检索系统": {
+    "context1": "为了提高检索性能,先前的FAQ检索系统利用了高水平的知识基准和手工控制，但是当应用领域有所变化时，构建这样的知识基准和规则是一项费时费力的工作。为了解决这个问题，韩国的研究人员提出了一个利用查询日志作为知识来源的高性能FAQ检索系统[5]。该系统全称为FaqRetrieval And Clustering Technique(FRACT),它包含了两个子系统：一个查询日志聚类系统和一个基于聚类的检索系统。聚类系统定期收集和精炼用户的查询日志，然后将每个FAQ作为独立的类别，并通过语义空间中向量相似度测量把查询日志分到各个FAQ类别里去。在分类的基础上，查询日志聚类系统将查询日志进行聚类并计算每个查询日志簇的质心。当用户输入查询时，基于聚类的检索系统通过查询日志簇来计算查询和FAQ之间的相似性，根据计算出的相似性，检索系统将有关的FAQ进行排列并返回一个列表。在标引的时候，该系统通过潜在的语义分析，利用分类技术有效地聚类用户查询日志；在检索时，该系统利用查询日志簇使得FAQ查询更加顺畅。研究人员还将这个系统应用到实际中进行了试验，通过不同的实验，他们发现该系统可以减少短文章检索中的词汇争论问题，在FAQ检索方面，该系统的性能也优于其他传统信息检索系统，此外，由于仅仅采用数据驱动的方法而不用高层次知识源，该系统要比早先的FAQ检索系统更加实际和可靠。"
+  },
+  "4.2分布式信息检索": {
+    "context1": "为了改进分布式信息检索系统，澳大利亚皇家墨尔本理工在学（RMIT）的学者们提出了利用查询日志在分布式信息检索环境中建立词表的最新检索技术，构建了基于查询日志的两种新的检索技术应用[6]。第一种是在不合作的环境中为分布式资源提供新的取样方法，该方法利用搜索引擎查询日志中可用的术语来聚焦取样过程。实验证明，这种方法并不比先前的基于查询的取样方法耗费大，而且生产出的样本使得检索更加有效。第二种应用是，查询日志可以用来聚焦面向对用户重要的条件的索引修整策略。该索引修剪策略可以保持系统的效力，与全文索引相比,可以减少 $2 2 \\% - 2 8 \\%$ 的索引。将该策略应用到多种网络检索任务中，通过评估发现，尽管许多主题包含词表以外的术语，但是修剪过的索引检索到的相关答案与原始索引检索到的一样有效。研究者的实验表明，利用查询日志设计检索系统既减少了索引的数量又没有改变检索的效率，因此在分布式信息检索环境中,利用查询日志是一个重要的并且有效的机制。"
+  },
+  "5基于代理的信息检索技术": "",
+  "5.1 时控的移动代理检索(TMAP)": {
+    "context1": "对于分布式信息检索中的移动代理计划来说,移动代理数目和总的执行时间是描述上层系统的两个因素。此外，为了提高信息检索的质量，信息仓储节点的时间约束也要考虑在内。在过去的研究中,移动代理计划(Mobile AgentPlanning，MAP)方法没有考虑到动态汇聚网络的条件，如Peerto Peer(PtoP)对等计算中可变的网络带宽和断开,为了更好地进行检索，对网络条件具有敏感性的移动代理亟待开发。韩国首尔国立大学的学者们提出了一个新的MAP方法,被称为Timed Mobile AgentPlanning[7]。这种方法试图减少移动代理的数量和总的执行时间,为的是实现更好的系统性能和服务质量。此外,该方法可以利用动态汇聚网络环境，通过监视和适合变换的网络条件来不断调整移动代理的路线。利用移动代理构建的检索系统结构如图2。",
+    "context2": "![](images/8f0d3ce73ec5208fce4cffd6c633a2f42eaf96c420301b8242656f3f75faa916.jpg)  \n图2代理系统结构7",
+    "context3": "该结构由3个层次构成，应用层：移动代理在该层运行，每个代理被分配了一个用户的目标，并且按照自己的路线在网络中移动；静态层：该层可以给移动代理提供计算或数据资源来完成它们的检索任务；服务层：该层包括目录、计划、迁移、交流和安全等服务。",
+    "context4": "模拟研究表明，利用运算法则的系统能要比利用网络中与节点数一样多的代理的系统整体性能好得多。该方法利用动态代理，大大增强了动态会聚网络中分布信息检索系统的性能，同时为了更好地适应实际网络环境，研究人员还提供了一个安全容错机制。"
+  },
+  "5.2奥德赛搜索引擎(Odyssey Search Engine,OSE)": {
+    "context1": "巴西联邦大学的研究人员开发了一个多代理系统来进行成分信息检索,该系统被称为Odyssey Search Engine(OSE)[8]。0SE是一个提供分布式获取或存储域成分信息的搜索和检索系统，利用它可以提高目前成分信息的发现和检索。在0SE结构中，通过过滤代理层对与成分有关的域信息进行过滤，在过滤层中用户的喜好、过去的检索、导航的路经以及常用的关键字都被用来提高和精确检索。该过滤代理主要依靠用户在域中的喜好和检索经历提供成分信息的挑选，在导航的过程中，机器学习技术被用来观察和了解用户的行为；0SE还有一个特点就是可以利用调解层和域本体从一些域中检索异质的分布式信息。调解层为组织在域本体中的可用成分信息提供了统一的格式，域本体通过领域语义概念的表述来搜索可再次利用的成分信息，因此这个调解层促进了域信息的综合，提供了通过本体翻译成分信息的机制。实验证明这个0SE系统是有效的，目前该系统是第一个与域模型结合进行成分信息检索的系统。"
+  },
+  "6多媒体信息检索技术": "",
+  "6.1视频检索": {
+    "context1": "与文本、声音和图像相比,视频是一个承载信息丰富的媒体，现代技术使得对视频的捕获、压缩、存储和转移变得十分简单，导致大量视频信息的产生，因此如何从大量视频信息中进行检索越来越受到研究人员的关注。都柏林城市大学的两位学者创建了一个支持多种特征检索的系统，该系统包含通过口头对话的文本检索、依靠关键帧的图像匹配和依靠分割视频对象的目标匹配。其中最后一部分即自动分割和追踪视频对象是一个过分要求计算的问题，并且对于普通的视频资料该问题尚未解决[9]。研究人员通过在一个卡通片的封闭域里的实验完成了目标分割，在中等尺寸的视频资源中进行了用户交互性实验，并且测量了用户对视频文件的使用情况和在多重反复搜索中的检索模式。该实验的目的是测量基于目标的检索是否比文本检索和关键帧匹配更加有用，实验是由15名用户在一个受控的标准环境中每人完成12个不同的检索任务，从实验结果可以看出用户在检索中使用视频对象或者对象的成分作为查询的一部分，因此目前以对象为基础的检索是视频检索的主要技术。"
+  },
+  "6.2对话查询语音界面": {
+    "context1": "早先的自动语言识别系统存在着许多局限性,如识别过程产生的失误、口语表达的冗余和用户查询的含糊等，在传统的数据库查询任务中，通过以语义为基础提炼和确认关键词就可以很容易地解决这些问题，但是将语言识别应用到普通的文本检索系统中就不那么容易了。为了使文本检索系统更加有效地解决这些问题，日本学者为带有语音界面的检索系统设计了一个对话策略来阐明和约束查询[10]。他们为确定临界部分提出了两个统计量,RelevanceScore(RS)代表了与文件集的匹配度,Significance Score(Ss)用来探测影响检索结果的因素。通过这些测量，系统在检索前后可以分别处理语音识别的失误。然后系统会产生问题来阐明用户的查询，减少检索到的文件数量。该对话策略可以减少检索的条目，特别是当由于模糊输入的查询产生的许多匹配时，这种减少是必要的。系统的工作流程如图3。",
+    "context2": "用户的问题可以在知识库(Knowledge Base，KB)、KB元数据和人类知识的结构分析下被提炼，在获得信息的基础上，系统会选择最佳的澄清问题反馈给用户，查询的语句会在用户回复之后得到更新。实验表明，这种方法比原始的语音识别技术更加有效地明确了用户的查询目的，提高了检索的成功率。但是该技术只适合应用在有限的域中，在开放域信息检索如网络检索中并不适用。"
+  },
+  "7结语": {
+    "context1": "国外学界和业界对信息检索技术的研究已经不仅仅局限在理论探讨上，而是开展了大量的实验和项目。学者们将信息检索新技术应用到实践中，观察它们的效果，并对项目或实验结果进行评估，可以使他们清楚认识到这些技术存在的不足之处。以上我们所提到的各种信息检索新技术也都存在着优势和劣势，只有不断地摸索实验，才能将优势进一步扩大，将劣势逐渐地缩小，从而产生对信息检索最有效的技术，为用户提供更好的服务。本文通过对国外主要信息检索技术及其应用的介绍，旨在为我国信息检索技术的发展提供指导和借鉴。",
+    "context2": "![](images/72b872c7139a7ab0b0b9165cfd6ba2e75884dda7fb2d45a576ba1c28e75985b0.jpg)  \n图3系统流程图10]"
+  },
+  "参考文献：": {
+    "context1": "[1]HerreraG.MetaSearchingand Beyond: Implementation Experiences and Advice froman Academic Library[J].InformationTechnology andLibrarians,2007(6).   \n[2] Medina-Ramirz RC.Semantic Information Retrieval: a Return on Experience[J].EngineeringLetters,2007(11).   \n[3] Moreda P,Navarro B,Palomar M.Corpus-based Semantic Role Approach in Information Retrieval[J].Data and Knowledge Engineering,2007(61):467-483.   \n4 Teng SW,Lu Guojun. Image Indexing and Retrieval Based on Vector Quantization[J].PatternRecognition,2007(40):3299-3316.   \n[5] Kim H,Lee H,SeoJ.AReliableFAQ Retrieval System Usinga Query LogClassificationTechnique BasedonLatent SemanticAnalysis[J]. InformationProcessingand Management,20o7(43):420-430.   \n[ ShokouhiM,ZobelJ,TahaghoghiS,etc.Using QueryLogs to Establish VocabulariesinDistributedInformationRetrieval[J].Information Processing and Management,2007(43):169-180. Baek JW, Yeom HY.A Timed Mobile Agent Planning Approach for DistributedInformationRetrievalinDynamicNetworkEnvironments [J].InformationScience,2006(176):3347-3378.   \n[8] Braga RMM,Werner CML, Mattoso M.Odyssey-Search:A MultiagentSystem forComponent InformationSearchandRetrieval[J].The Journalof Systems and Software,2006(79):204-215.   \n[9] Smeaton AF, Browne P.A Usage Studyof Retrieval Modalities for Video Shot Retrieval[J].InformationProcessingandManagement, 2006(42):1330-1344.   \n[10] MisuT, KawaharaT.DialogueStrategytoClarifyUser'sQueries for Document Retrieval System with Speech Interface[J].Speech Communication,2006(48):1137-1150."
+  }
+}

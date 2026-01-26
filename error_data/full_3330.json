@@ -1,0 +1,130 @@
+{
+  "original_filename": "full_3330.md",
+  "国外企业内容管理研究文献述评": {
+    "context1": "焦微玲 (盐城工学院经济与管理学院江苏224051)",
+    "context2": "摘要文章在文献梳理的基础上，分别对国外有关企业内容管理的定义、与信息资源管理和知识管理的关系、功能、需求和驱动因素、研究维度等最新研究成果进行了系统评介，并据此提出了企业内容管理的概念框架和研究议程，以期为国内学者了解国外企业内容管理研究现状及发展趋势和开展相关研究提供参考，特别是为我国企业推进信息化进程提供指导。",
+    "context3": "关键词企业信息化企业内容管理概念框架研究议程",
+    "context4": "Literature Review of Foreign Enterprise Content Management o Weiling(School of Economic and Management，Yancheng Institute of Technology,Jiangsu, 224051",
+    "context5": "AbstractBased on combing of current literatures，this paper systematically reviews the latest oversea research re sultsconcerning enterprisecontent management on itsconcept，relationshipwith information resources management and knowledge management，functions，needs and drivers as wellas keystudydimensions·In this basis，it proposesa con ceptual framework and aresearch agenda onenterprise content management in order to providereferences for domestic scholars tounderstandtheresearch situation and prospectsof oversea theoretical researchaswellas to developrelating studieson enterprisecontent management·In particular，itaims to provide guidance for Chineseenterprises to advance their information progress ·",
+    "context6": "Keywordsenterprise informationization，enterprise content management，conceptual framework, research agenda"
+  },
+  "1引言": {
+    "context1": "“对企业信息进行有效和高效管理”一直是信息管理（Information Management，IM）与信息系统(Information System，IS）学科领域的重要研究课题，其研究内容和重点随着企业信息管理系统的演变而改变。开始，文档管理、记录管理是研究重点[;其后，随着因特网的普及，出现了许多新的信息管理系统，如Web 内容管理、数字权利管理等,其研究对象和内容日益丰富；进入21世纪后，电子商务迅猛发展，可扩展标记语言广泛应用，企业内容管理成为该领域最新研究进展的标志[]。",
+    "context2": "企业内容管理（Enterprise Content Management,ECM)萌芽于20世纪90年代中期,90年代末开始快速发展,20O1年国际信息与图像管理协会（Association for",
+    "context3": "Information and Image Management，AIIM）创造了术语“ECM\"，如今该术语已经被业界和学术界广泛使用。ECM对企业内容进行集中存储和统一管理，使得企业内容管理系统与业务系统紧密集成，企业海量的非结构化内容被有效管理，企业全部内容被有效共享，企业信息孤岛被有效控制，从而降低企业运营成本，提高企业工作效率，增强企业核心竞争力。",
+    "context4": "ECM强大的信息管理功能及其给企业带来的巨大利益引起了社会各界对ECM的高度关注。国外学术界在这方面的研究较早，可检索的文献最早出版于2001年，之后文献逐年增加，研究内容涉及ECM的社会、技术、组织和业务等多个维度，有许多值得借鉴和思考的研究成果。相对而言，国内的理论研究起步较晚，中国知网可检索的ECM文献最早出版于 2002 年，2005年以前出版的ECM期刊论文不到10篇，2006 年开始文献才逐渐增加。研究内容多为现象描述或对北美、欧洲等地区ECM发展经验的介绍，或仅仅基于技术维度探讨ECM的设计与应用，缺乏深入和特定领域的研究，研究成果较为零散，且研究边界较为模糊。",
+    "context5": "针对国内ECM理论研究滞后、散乱和模糊的现状，本文在文献梳理的基础上，拟从ECM的定义、与信息资源管理和知识管理的关系、功能、需求和驱动因素、研究维度等方面来评析国外现有的ECM研究成果，并据此提出ECM的概念框架，指出ECM的研究缺□和未来研究议程，旨在为国内学者进行相关研究提供参考，为我国企业使用ECM创造价值，更好地推进信息化进程提供指导。"
+  },
+  "2国外ECM研究现状评介": "",
+  "2.1ECM的定义": {
+    "context1": "由于ECM出现较晚，目前还没有统一的定义，在业界和学界认可度较高的定义见表1。",
+    "context2": "表1ECM的概念界定",
+    "context3": "<table><tr><td rowspan=1 colspan=1>研究者/机构（年份）</td><td rowspan=1 colspan=1>ECM定义</td></tr><tr><td rowspan=1 colspan=1>AIIM（2001年）</td><td rowspan=1 colspan=1>ECM是用来捕获、管理、存储、保存和发布与组织流程相关的内容或文档的战略、方法和工具，能够对企业的非结构化信息进行管理4]。</td></tr><tr><td rowspan=1 colspan=1>Gartner Group(2002年）</td><td rowspan=1 colspan=1>ECM包括文档管理、Web内容管理、记录管理、文档映像、以文档为中心的协作和工作流等核心部分[5]。</td></tr><tr><td rowspan=1 colspan=1>H.A.Smith等人（2003年）</td><td rowspan=1 colspan=1>ECM可以作为企业用来对其全部信息资产（包括所有信息类型）的整个生命周期进行管理的战略、工具、过程和技能[6]。</td></tr><tr><td rowspan=1 colspan=1>Paivarinta，T.（2005年）</td><td rowspan=1 colspan=1>ECM整合了对企业全部信息（包括结构化、半结构化和非结构化信息）嵌入内容表现的软件代码，以及存在于内容整个生命周期（从内容的生产、储存、发布、使用到保留、存档）的元数据的管理7]。</td></tr><tr><td rowspan=1 colspan=1>IBM（2008年）</td><td rowspan=1 colspan=1>ECM既是一组技术又是一个战略，能够帮助企业捕获和管理非结构化的内容，为业务流程提供信息技术解决方案，支持企业合规管理，通过在企业业务中使用内容管理技术实现企业的战略目标[8]。</td></tr></table>",
+    "context4": "虽然表1中各定义的表述不同，但以下几点是一致的：（1)ECM属于IM与IS学科领域。ECM管理企业全部类型的信息，支持内容整个生命周期内的管理，在本质上既是信息管理技术又是企业管理战略，不但可以被定义为全新的、现代的、整合的企业级信息管理系统[9-10]，还可以被看做是企业文档管理、记录管理、内容管理、网络内容管理等信息管理系统的发展和延伸。本文所选100 多篇英文文献中，约 $50 \\%$ 的文献发表于IM与IS 学科领域期刊,内容、作者研究领域与IM与IS学科领域直接相关的文献共有72篇，占$6 2 . 0 6 \\%$ ，可见ECM是IM与IS 学科领域内的一个概念，已经引起了该学科领域研究人员的注意。（2)ECM管理企业全部的信息资产。与传统信息管理系统不同，ECM是管理企业全部信息资产的应用程序套件，管理的对象包括报告、电子表格、网页、演示、电子邮件、字处理文档、记录、发票、图像、声频和视频文件等结构化和非结构化信息资产。不过，ECM主要管理非结构化或至少半结构化的内容，因为随着信息量的指数级增加和信息形式的日益复杂，企业中大多数信息资产因无法被结构化而成为非结构化信息[1]。（3)ECM管理内容的整个生命周期。ECM在企业内容的整个生命周期内对这些内容进行管理，从内容创建或捕获、处理、保留、储存到内容交付、使用直至删除。而其他的企业信息管理系统往往只关注内容生命周期的某一个阶段，如Web内容管理只涉及信息的发布，记录管理只涉及信息的保留和储存，所以，很多学者倾向于将ECM看做是所有“支持内容生命周期中某一个特定阶段”概念的融合[12]。"
+  },
+  "2.2ECM与信息资源管理和知识管理的关系": "",
+  "2.2.1ECM与IRM的关系": {
+    "context1": "ECM起源于企业信息资源管理（Information Re-source Management，IRM)，两者在企业中所起的作用都是为了更有效地管理信息资源，从而使企业信息资源利用率和使用价值最大。两者的区别在于：IRM管理的是结构化的数据和传统的数据字典，对此之外的异构内容结构、内容生命周期、异构内容元数据和企业分类缺少关注；而ECM管理的是企业全部的数据，包括结构化、半结构化、非结构化和异构化的数据。另外，IRM主要在企业内部对信息资源进行管理，而ECM不但能在企业内部管理信息，还能够与企业外部的顾客、合作伙伴和因特网通过内容管理实现协作，对于从整体上塑造企业形象起着重要作用，基于ECM的先进的个性化技术和创新的顾客服务是IRM未涉及的重要领域。"
+  },
+  "2.2.2ECM与KM的关系": {
+    "context1": "从知识管理（Knowledge Management，KM)视角来看，KM是广义的概念，管理与组织企业的全部知识，包括显性知识和隐性知识，而ECM主要管理企业的“显性知识”，所以可以将ECM看做是KM的一个子领域，起着“知识库模型”的作用。此外，ECM可以作为KM的工具，大多学者对KM工具的定义是“促进和改变知识过程以改进决策支持”，工具包括“内联网、内容管理、文档管理和 Web 门户”[3]，而 ECM的企业分类和元数据，一般被称为“企业黄页”，一直作为 KM工具包含在KM的“网络模型”中，方便\"知识网络”中人与人的沟通。",
+    "context2": "从ECM视角来看，KM通常与基于资源或过程的理论密切相关[4，基于资源观的 KM关注企业生产和共享新知识的能力，而基于过程观的KM则关注既定操作的效率和效果，ECM可以整合这两种观点，它聚焦于企业可编码知识资源的开发和组织，并为企业业务过程提供知识支持。此外，KM强调更直接的知识创建和共享，而ECM还强调长期对特定内容进行管理的重要性，包括对内容结构、元数据和企业分类的彻底认识，在ECM文献中，元数据和企业分类等词汇被更多地提及。",
+    "context3": "所以，尽管KM是更广义的概念，但ECM强调对内容的长期管理，整合了基于资源和过程的知识管理观,在这个层面来看，它又超越了 $\\mathbf { K M } _ { \\circ }$"
+  },
+  "2.3ECM的功能": "",
+  "2.3.1ECM是企业信息管理的重要工具": {
+    "context1": "随着企业信息数量呈指数级衍生，信息来源和格式越来越复杂，非标准格式的非结构化信息增加速度越来越快、所占比重越来越大，现代企业面临的信息管理挑战越来越严峻，迫切需要一个信息管理系统，能将大量的、以不同格式存在的信息全部纳入其中，在企业范围内进行管理和使用。这不仅需要企业的信息资源具有可获得性，还需要企业业务流程具有灵活性、组织功能具有协同性、技术功能具有可见性，ECM提供的各种功能刚好能够满足上述要求，因而成为企业应对信息管理挑战的重要工具。"
+  },
+  "2.3.2ECM的功能日益强大": {
+    "context1": "随着信息技术的发展和应用，ECM的功能日益强大：（1）20世纪90年代中期,网络开始普及,企业网站从简单的信息展示媒体发展为动态的内容提供媒体，但内容问题随之而来：如何保证企业内联网与Web 网站信息的一致和更新及时，如何保证企业内联网的信息得以有效组织和搜索，以及如何保证内容创建者及时将信息以最便捷的方式发布到Web网站。为了解决这些问题，ECM开始萌芽，到2OOO年，ECM成为企业信息管理的重要领域，此时，其主要功能是管理企业的 Web 内容。（2)到 2005 年左右，随着电子商务和XML的快速发展和应用，ECM从网络内容管理解决方案演变为集成管理所有“前端”应用程序和“后端”文件、文件管理程序和数据库设备的内容管理系统，文档管理、记录管理成为ECM的核心功能，包括：内容模型管理功能（将内容结构化和标准化、构建元数据模型、实现企业分类、提供内容模板)、内容储存和交付管理功能(管理用户角色、保证使用和内容安全、版本控制、转换内容、内容分类、分发内容、保留和追踪内容)和工作流(进行过程支持和工作流程自动化)。（3)步入 $\\mathrm { \\mathbb { W } e b 2 . 0 }$ 时代后，顾客体验、用户生成内容成为企业关心的重点，企业不但要精心策划在线业务，还要精心安排离线业务，ECM的功能随之改变，到2009 年左右，以文档管理等为中心的ECM发展成为以Web为基础的、更加互动的 ECM，并加快了与数字资产管理、社会化媒体的融合与聚集。(4)之后，云技术、移动技术、语义网的发展和应用极大地影响和改变了企业、员工和顾客的需求或行为，移动性、安全性和合规成为ECM必须重点解决的问题，IT供应商开始给 ECM注入更多的功能，如微软公司认为 Share-Point 2010已经不能适应新技术环境的要求，所以在SharePoint 2013中加入了更加高级的内容管理功能，如专业的大容量文档捕获、事务型内容管理和业务流程管理等。"
+  },
+  "2.4企业采用ECM的需求与驱动因素": {
+    "context1": "企业采用ECM的需求与驱动要素一直是研究重点，表2列出了现有文献涉及的主要要素及其被研究程度。",
+    "context2": "表2企业采用ECM的需求与驱动要素",
+    "context3": "<table><tr><td rowspan=1 colspan=1>研究对象</td><td rowspan=1 colspan=3>研究程度</td></tr><tr><td rowspan=1 colspan=1>需求与驱动要素</td><td rowspan=1 colspan=1>详细研究</td><td rowspan=1 colspan=1>简单研究</td><td rowspan=1 colspan=1>没有研究</td></tr><tr><td rowspan=1 colspan=1>内容管理</td><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>节约成本</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>17</td></tr><tr><td rowspan=1 colspan=1>竞争优势</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>32</td></tr><tr><td rowspan=1 colspan=1>组织效率</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>17</td></tr><tr><td rowspan=1 colspan=1>组织绩效</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>31</td></tr><tr><td rowspan=1 colspan=1>组织成长</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>39</td></tr><tr><td rowspan=1 colspan=1>企业形象</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>43</td></tr><tr><td rowspan=1 colspan=1>服务质量</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>顾客关注度</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>价值创造</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>26</td></tr><tr><td rowspan=1 colspan=1>IT投资回报</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>37</td></tr><tr><td rowspan=1 colspan=1>对市场的灵敏度</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>32</td></tr><tr><td rowspan=1 colspan=1>业务活动控制</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>31</td></tr><tr><td rowspan=1 colspan=1>业务过程管理</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>内外部的协作</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>29</td></tr><tr><td rowspan=1 colspan=1>合规</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>商业智能</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>29</td></tr><tr><td rowspan=1 colspan=1>决策支持</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>27</td></tr><tr><td rowspan=1 colspan=1>兼并与收购</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>34</td></tr></table>",
+    "context4": "从表2中可以清楚地看到，文献中讨论较多的要素包括内容管理、合规、节约成本、组织效率、服务质量、顾客关注度和业务过程管理等，研究人员大多是从组织管理的角度看待这个问题，关心的大多是ECM给企业带来的短期利益。从组织战略角度研究ECM驱动要素，如组织绩效、价值创造、对市场的敏感度、协作、决策支持、兼并与收购等文献相对较少，忽略了ECM给企业带来的长期利益，如投资回报、获得竞争优势、提高企业绩效、帮助组织成长、树立企业形象等。",
+    "context5": "通过对现有研究成果的分析，可以将企业使用ECM的需求和驱动因素归纳为以下几种观点：（1)效率驱动说。该观点认为通过加强企业内容管理可以节约成本和时间，提高效率，因为精确定义的元数据能减少搜索时间，数字化的文档管理能减少储存和物料成本。(2)可获取驱动说。该观点认为随着企业非结构化信息指数级的增长，内容的可获得性越来越重要，应当成为企业采用ECM决定性的衡量因素。ECM必须保证合法的使用者可以随时检索、浏览和存取所需的内容，可获取性还可以满足企业外部各种严格的合规要求。（3)可追溯驱动说。该观点认为ECM能够给企业提供一种方式用于控制企业内容生命周期的每一个阶段，帮助企业满足外部的各项管理制度和标准，可追溯性给企业提供了有效的\"组织记忆”。(4)内容一致性驱动说。该观点认为ECM要保证在企业内同一内容的一致性，从而使得内容复用成为可能，因为内容复用不但能减少开发和维护成本，还能快速翻译或配置内容。"
+  },
+  "2.5研究维度": {
+    "context1": "目前学界已经达成共识的是“ECM不仅是被认可的、实用的、集成的内容管理技术，更是一个包含了多个业务问题的组织概念”3,15-17]。如 Salminen等人认为由于ECM扎根于“业务与内容、人、过程和工具的互动”中，所以“ECM是战略、过程、工具和人”[8]; Rockly认为企业实现ECM的主要目标是“在相互独立的应用程序(如Web 内容管理、记录管理等)之间实现互操作，从而在企业内实现透明的内容共享”[19];Roy 等人和Andersen则认为ECM帮助企业管理的不仅有\"结构化和非结构的内容”，还有“知识创新、知识编码、知识传播、协作和贯穿企业的业务流程”[20-21]。",
+    "context2": "从目前的研究结果来看，ECM至少涉及四个维度：(1)社会维度。ECM是科学技术发展的产物，具有社会性，在ECM的社会维度中需要特别关注“人\"这个要素，因为技术的社会推广与应用必须得到“使用者”的认可，这在ECM的实现过程中有明显的表现。(2)技术维度。ECM是作为企业内容管理解决方案出现的，2001年AIIM创造该术语时将之定义为\"用于创建、管理、定制化、发布和保存信息以支持业务流程的技术”[22],而 ECM供应商更宣称自己的产品是万能药，可以提供全部的企业信息管理解决方案。所以最初学者们对ECM进行研究时，是将它作为“管理企业内容的技术”对待的，即把ECM看做是企业管理信息的一个工具。(3)组织维度。尽管技术维度在ECM中扮演了重要角色，但该维度代表的仅仅是ECM的一小部分，应该还有其他维度，因为\"ECM不仅仅是一个技术解决方案，更是一个企业战略”23]。（4)业务维度。因为内容的整个生命周期与业务流程密不可分，所以ECM在企业业务流程管理中非常重要，业务维度要考虑的就是ECM与业务流程如何整合24]。学术界已经形成这样的共识：对当今企业而言，如果不能很好地将内容整合到业务流程中，就会造成内容冗余，无法将企业内分散的关键信息资源合理配置，并最终导致效率严重低下。"
+  },
+  "3概念框架和研究议程": "",
+  "3.1概念框架": {
+    "context1": "综上所述，ECM的主要内容可以归纳为社会、技",
+    "context2": "术、组织和业务四个维度，每个维度又包括一些具体的问题，见图1。"
+  },
+  "3.1.1社会维度": {
+    "context1": "该维度主要涉及科学技术、企业、IT市场和人，因为很多文献都提到企业在最初接纳和采用ECM时会遇到很多障碍，如与组织文化的融合、用户的抵制和排斥、员工培训等;在采购ECM时，由于市场上有很多ECM产品，企业决策者一般会比较各个ECM产品的特征，根据ECM适应自身业务需求的可能性做出购买决定；而在ECM实现后的评价阶段，企业对使用ECM后的绩效评价将直接影响对ECM的投资决策。"
+  },
+  "3.1.2技术维度": {
+    "context1": "作为企业信息管理的技术工具，ECM应当涉及以下几个方面的问题：(1)内容模型。由内容结构、视图和表现模型、内容生命周期管理、元数据和企业分类四个部分组成。(2)企业模型。这是企业构建信息管理系统前应有的成熟想法，即“在企业内需要做什么、谁做什么以及谁负责什么”，它是企业结构、活动、过程、信息、资源、人、行为、目标和约束的计算机化表示。(3)信息技术基础设施。指企业拥有的硬件、软件、支持内容管理的标准和企业信息门户等，是ECM实现的基础。相关活动包括：在内容生命周期内整合标准化的应用程序和工具，开发用户友好的、直观的和整合的内容管理用户界面，对软件、硬件、操作系统和独立于ECM应用程序的相关技术等进行升级，以及保证企业信息安全。"
+  },
+  "3.1.3组织维度": {
+    "context1": "作为企业的管理战略，ECM涉及以下几个方面的问题：(1)企业目标。基于企业组织目标的行为或多或少会影响企业对ECM产品的选择，而这些选择反过来又会对企业未来的目标产生影响。具体来说，企业目标包括：改进内部和外部协作、内容增值、创造新产品和顾客服务、提高内容的可靠性和质量、树立企业形象、增加业务流程的效率和灵活性、增强知识管理意识、加强组织记忆、降低成本、满足外部的规制和标准（即合规)、快速开发和维护目标内容管理的平台。",
+    "context2": "(2)行政管理。与ECM相关的行政管理包括与内容管理相关的政策、标准、规定、惯例、日常工作规定、管理程序、组织责任以及分配用来实现这些管理职责的资源，而且ECM的利益相关者必须知道行政管理规定的存在，并在日常工作中自觉遵守这些规定。需要设置新的行政管理岗位，专门负责管理内容模型和ECM实现，包括：对ECM的技术管理,对服务器、网络和特定应用程序的定期维护，对使用和复用企业信息资产相关法律问题的处理等。（3)变更管理。在ECM的实现过程中，需要通过变更管理使企业目标和内容模型、基础设施、行政管理之间的匹配更加优化，所以变更管理是ECM战略的重要组成。变更管理的主要任务包括：说明对ECM投资的理由以获得管理层的支持、对ECM投资结果进行评估、在大规模的ECM项目中寻求最高管理层的支持和资源配置、培养和构建员工开发、操作和维护ECM的能力（包括处理法律和合同方面的能力）、获取与ECM技术和市场的相关知识，以便选择最合适企业的商业软件、对企业不断变化的需求与目标加以识别以及发现并及时反馈用户对新采用的技术、内容标准的态度。",
+    "context3": "![](images/b0aac3db2e58b02a570917780fdbe28092cb210a0bfd847a3f805275ccc7e0fd.jpg)  \n图1ECM研究概念框架"
+  },
+  "3.1.4业务维度": {
+    "context1": "作为与企业业务流程密切相关的ECM，主要涉及以下几个方面的问题：(1)ECM与业务流程。作为企业的信息管理系统，ECM有自己的生命周期：购买、安装、使用、维护和评价，每个阶段都与业务流程密不可分。企业实现ECM同样必须经历几个必要阶段：业务过程分析、内容分析、ECM功能分析、ECM系统的适应和改变、业务过程的再设计，其中，开发和配置两个阶段与业务流程相关度极高，必须了解业务流程对它们的作用，并估计ECM实现后对业务流程改进和优化的影响,进而推测ECM实现对企业绩效的影响。(2)ECM与内容生命周期。ECM生命周期各阶段的活动都是业务流程的重要组成部分，因为在一个业务流程中，无论何时内容被处理，即被输入、被转换和被输出，都会涉及一个或几个内容生命周期阶段的行为，而业务流程不同的阶段，最后基本上都会改变或者影响内容。(3)ECM与BPM。业务流程观点被引入ECM之后，业务流程管理(Business Process Management,BPM)学科已有的研究方法也逐渐被用来研究ECM，两个概念间的界限正变得日渐模糊25，两者逐渐成为关联度极强的研究领域，所以有必要基于BPM提出ECM实现的框架，或将两者进行无缝整合。"
+  },
+  "3.2研究议程": {
+    "context1": "虽然ECM研究已取得了很大进展，但依然存在不足，还没有统一的、精确的ECM定义，研究内容还不够全面，缺少用来解释ECM研究现状的荟萃分析，缺乏对ECM四个维度之间关系的分析，每一个维度的研究都还存在研究缺口等，所以有必要基于ECM研究概念框架，分析研究缺口，提出研究议程。"
+  },
+  "3.2.1社会维度": {
+    "context1": "科学技术是不断发展的，未来需要关注云计算、移动技术、网格等对ECM发展和实现的影响，还需要关注人和技术的关系，因为研究发现技术在给人类带来好处的同时也带来了限制，如抑制了人的主观能动性。所以未来的研究可以关注以下问题：",
+    "context2": "·大数据时代，新兴技术的发展对企业信息管理会提出什么新要求?",
+    "context3": "·云计算技术、移动技术和网络技术的发展对企业会产生什么影响?",
+    "context4": "·ECM要如何改进才能适应云计算、移动解决方案、语义网的要求?",
+    "context5": "·使用者接受ECM的决定因素是什么？应该如何评价？",
+    "context6": "·不同的利益相关者如何才能参与到ECM的实现中来？",
+    "context7": "·ECM环境中，确保员工高效率的最佳管理和培训战略是什么?",
+    "context8": "·ECM与企业创造力是否存在关系?ECM如何才能促进企业员工的创造力，进而推进企业创新?",
+    "context9": "·基于软件复用指导思想的 ECM在整合其他系统时是否会出现系统耦合方面的问题？如果会，怎么解决？",
+    "context10": "·基于内容复用指导思想的 ECM如何解决内容控制与内容创造的矛盾？"
+  },
+  "3.2.2技术维度": {
+    "context1": "尽管 ECM最早作为技术解决方案出现，技术维度被关注得最多，但是技术维度方面依然存在研究缺□。未来要研究以下问题：",
+    "context2": "·不同粒度的内容元素之间存在怎样的结构和关系？",
+    "context3": "·不同的内容应采用怎样不同的生产形式和出版模板?",
+    "context4": "·如何才能实现“使用统一的内容建模方法”?",
+    "context5": "·企业正在使用的内容结构能否嵌入企业选择的 ECM程序成为特定的内容模型?",
+    "context6": "·不同领域的企业如何才能通过良好的内容模型管理好自己的内容对象？",
+    "context7": "·如何解决元数据的设计难题?实现企业元数据模型的标准化、元数据产生的自动化、动态化和最大化?",
+    "context8": "·如何才能提高内容生产者和所有者对“元数据对内容检索和复用重要性”的意识?",
+    "context9": "·企业分类如何才能集成企业大量的、多样的，甚至是继承的内容数据库？",
+    "context10": "·基于过程、团队、角色或项目的不同性质的企业，应该分别采用什么样的企业模型?",
+    "context11": "·如何才能将企业模型与内容模型结合起来实现ECM系统?",
+    "context12": "·企业为 ECM提供什么样的技术基础设施才是合适的？"
+  },
+  "3.2.3组织维度": {
+    "context1": "在这个维度目前还缺少战略层面的系统研究，企业往往更多地从管理角度来考虑问题，更关注短期利",
+    "context2": "益，缺乏能够说明ECM给企业创造战略价值的实证研究，对于企业如何才能实现 ECM，从而带来长期利益目前也没有深入的研究。未来的研究可以关注以下问"
+  },
+  "题：": {
+    "context1": "·企业如何根据自己的企业性质、业务领域确定自己使用ECM的特定目标?·企业如何根据初始目标评价使用ECM的结果?·如何通过实证研究说明企业使用ECM后能够得到短期利益和长期利益？·企业如何使用ECM才能最大限度地实现这些利益，尤其是长期利益?·企业如何才能依靠ECM提高自己的内容质量?·如何对ECM的绩效进行评价?·如何保证ECM系统的整个实现过程都能得到最高管理层的承诺?·如何保证行政管理岗位的职责是符合ECM系统实现要求的?·什么样的变更管理战略可以解决ECM的不同问题？如何使用这些战略?"
+  },
+  "3.2.4业务维度": {
+    "context1": "ECM的业务维度对ECM的实现和企业业务流程优化而言非常重要，但这方面的研究相对较少，且不够深入，未来必须不断地分析企业的业务流程，从中得到企业对内容需求的信息，从而保证ECM满足企业的内容需求，同时促进业务流程的改进。未来可研究以下几个方面的问题：",
+    "context2": "·如何在企业形成以过程为导向的ECM实现观?·在开发ECM系统的过程中会出现哪些问题?怎样解决？·如何根据企业需要定制企业的 ECM系统?·如何将ECM系统的实现步骤系统化并概念化?·业务流程对于ECM使用的决定性作用表现在哪些方面？·如何利用BPM学科已有的方法，如业务流程规范和分析等，来分析ECM系统的实现过程?·如何通过对企业业务流程的分析发现ECM能够支持的最大获利业务行为和领域?·如何开发一个涵盖主要内容生命周期行为的ECM实现参考模型?·如何通过ECM的实现重新设计企业目前与内容密切相关的业务流程?"
+  },
+  "4结语": {
+    "context1": "施、企业对ECM的需求与驱动因素、企业使用ECM的目标、行政管理资源、变更管理、ECM与业务流程、内容生命周期管理和BPM的关系等。",
+    "context2": "尽管ECM已经成为IM和IS学科领域重要的研究对象，也出现了大量研究成果，但是，相对而言，无论是在学术上还是实践中，ECM都是一个新的领域,ECM的研究才刚刚起步，不够系统也不够成熟，企业对“能从ECM中得到什么”和“自己期待从ECM中得到什么”还比较模糊。此外，科学技术的不断发展，特别是网络技术的发展，云计算、移动技术在商业领域的广泛应用，使得当今企业的目标、内容模型、企业模型、业务过程、IT基础设施和管理实践不断变化，ECM用户需求和行为随之改变，而这些改变必然导致ECM市场的改变。所以，有必要对ECM进行持续研究，以满足企业对ECM的需求。",
+    "context3": "ECM是当代企业信息管理的最新概念，为企业提供最先进、最完整的内容管理解决方案，得到了学术界和业界的高度关注和重视。现有文献主要研究和分析了ECM的社会、技术、组织和业务维度，涉及ECM的产生与发展、ECM的内容模型、企业模型、IT基础设"
+  },
+  "参考文献": {
+    "context1": "[1]Power DJTheimpactofinforationmaagementonteorg nization: Two scenarios[J]．MIS Quarterly，1983,7(3):13—20.   \n[2]Cohen JE. DRMand privacy [J]. Communication ACM, 2003, 46(4):46-49.   \n[3]Vom Brocke J，Simons A,ClevenA.Towards a business pro cess丨oriented approach to enterprise content management :The ECM一blueprinting framework [j]·Information Systems and E一Business Management，2O11(9):475—496.   \n[4]AIIM:Concept of ECM[EB/OL]．[2013—06—30]. http:// www. aiim- org·   \n[5]Magic_Quadrant Report of Gartner Group.What is ECM?[EB/ OL].[2013-06—30].http://ww.gartner.com/technolog/ home · jsp·   \n[6]Smith HA， McKeen JD. Developments in practce VIII: Enterprise content management[J].Communications of the Ass ociation for Information Systems，2OO3(11): 647—659.   \n[7]Paivarinta T，Munkvold BE.Enterprise content management : An integrated perspective on information management[C].Pro ceedings of the $3 8 _ { \\mathrm { t h } }$ Hawaii International Conference on System Sciences，IEEE Computer Society，Big Island，Hawaii，2005 (1):1—10.   \n[8]IBMEnterpise Content ManageentBuyer’sGide $\\lfloor Z \\rfloor$ . IBM Corporation，2008.   \n9]SpreheJTTepositiveenefitsf ectrocrsma ment in the context of enterprise content management [J]. Government Information Quarterly，2OO5(22):297—303.   \n[10]Jan Vom Brocke，Aexander Simons，Andrea Herbst.The busi ness drivers behind ECM initiatives:Aprocess perspective [J]. Business Process Management Journal，2Oll,17(6):965—985.   \n[11]Sinett WM.Ask FERFabout using enterprisecontent manag ement for section 4O4 compliance [j].Financial Executive, 2006，22(2):61.   \n[12DiluRSviigthifoatiexplosii Management Journal，2O06(16)：33—35.   \n13]TyndalePAtaxooyofnowedgemaageentoareols: Origins andappications].Evaluation&Program Planning, 2002，25(2):183—190.   \n[14]Pullman G，Gu B． Guest editors’introduction $_ 1 \\colon$ Rationalizing and rhetoricizing content management [j].Technology Communication Quarterly，2008，17(1):1—9.   \n[15] Vom Brocke J， Simons A， Cleven A. A business proces perspective on enterprise content management:Towards a framework for organizational change [C].Proceedings of the $1 6 \\mathrm { { t h } }$ European Conference on Information Systems，Galway，Ireland, 2008:1680—1691.   \n[16]Tyrvainen P，Paivarinta T，Salminen A,et al· Characterizing the evolving research on enterprise content management [j]. European Journal of Information Systems，2OO6,15(6):627—634.   \n[17]Vom Brocke J,et al.Value assessment of enterprise content management systems:Aprocess oriented approach J」·Infor mation Systems，2010，2(2)：131—138.   \n[18]Salminen A·Tyrvinen P，Pivrinta T. Introduction to the enter prise content management and XML minitrack [c]. Proceedings of the 38th Hawaii International Conference on System Sciences, 2005:1—15.   \n[19]RockleyAContent Management 2O6:Market Directions and Trends [M].The Rockley Bulletin，Schomberg，ON，2006.   \n[20] Roy P，Mohania M,Bamba B,et al.Towards automatic association of relevant unstructured content with structured query results $\\lfloor \\mathrm { C } \\rfloor$ .Proceedings of the 14th ACM international Conference on Information and Knowledge Management (CIKM), Bremen，2005:405—412.   \n[21]Andersen R.Therhetoricof Enterprise Content Management (ECM) :Confronting the assumptions driving ECM adoption and transforming technical communication [J].Technology Commu nication Quarterly，2O08，17(1)：61—87.   \n[22]Wikipedia·Enterprise-Content—Management [EB/OL]. [2013-06-30].htp://de: wikipedia·org/wiki/Diskussion: Enterprise-Content-Management.   \n[23]MescanS.Why content management should be part of every organization’s global strategy [j].Information Manage Journal, 2004，38(4):54—57.   \n[24]Frappaolo C.BPM& ECM: Don’t do one without the other [EB/OL].[2013—06—30].http:// www.takingaiim.com/ 2008/09/the-slide prese· html .   \n[25]Chambers B.BPM: How does it fit into an ECM strategy?[Jj]. AIIME—Doc，2007，21(2):36—39."
+  },
+  "欢迎订阅 2014年": "",
+  "图书、情报、信息、资料工作者自己的刊物": "",
+  "《情报资料工作》": {
+    "context1": "CSSCI来源期刊,全国中文核心期刊，中国人文社会科学核心期刊双月刊，大 $1 6$ 开,112页,全年定价 288元,国内统一刊号CN11—1448/G3",
+    "context2": "图书馆、情报室、资料室、信息中心的理想文献、必藏刊物图书、情报、信息、资料、档案工作者的业务参谋、良师益友",
+    "context3": "《情报资料工作》杂志面向图书情报界、信息产业界和文献资料档案界,读者遍及高校、党校、社会科学院、军队院校、政府信息机构及公共图书馆系统。刊物一贯注重追求理论精品，面向工作实际，形成了求实创新的学术风格，是广大图书情报工作者进行学术研讨及业务交流的重要园地。"
+  },
+  "订阅方式：": {
+    "context1": "(1)在全国各地邮局订阅，邮发代号：82—22  \n(2)直接向中国人民大学书报资料中心市场部订阅  \n$\\textcircled{1}$ 邮政汇款：  \n地址:北京 9666信箱(邮编100086)  \n收款人：市场部  \n电话:010—82503412/38/4062512171  \n$\\textcircled{2}$ 银行汇款：  \n户名：中国人民大学书报资料中心  \n开户行：中国银行北京人大支行  \n账号：344156031742",
+    "context2": "欢迎致电《情报资料工作》编辑部,电话：010-62512296/62514977;或登录博客:htp://blog·sina.com·cn/qhzlg;登录网站:http://qbzl.zlzx:org/CN/volumn/home.shtml;或发邮件至 qingbaoziliao@263.net。"
+  }
+}

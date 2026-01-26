@@ -1,0 +1,126 @@
+{
+  "original_filename": "full_4460.md",
+  "基于四类数据源的国内图书馆学2012年研究重点回顾与展望 \\*": {
+    "context1": "Review and Forecaston Research Emphases of the Library Science in 2Ol2 Based onFour Types of Data Sources谭春辉桑静麻晓杰 (华中师范大学信息管理学院湖北武汉430079)",
+    "context2": "[摘要]以国家社会科学基金项目、教育部人文社会科学研究一般项目、图书馆学博硕士学位论文、图书馆学核心期刊论文为数据源，运用基于词频统计的内容分析法和知识图谱分析工具CiteSpaceII分析四类数据源所表征的2012年国内图书馆学研究重点可以发现，其研究重点、研究趋势具有一致性。在未来几年内，图书馆学研究人员除了继续关注传统研究领域外，其研究重点还将呈现智能化、知识化、一体化、人文化、多元化的发展态势。",
+    "context3": "[关键词]图书馆学内容分析法词频统计分析知识图谱可视化[中图分类号]G250[文献标识码]B",
+    "context4": "[Abstract] Using the contentanalyzing method basedon word frequency statisticsand the knowledge mappinganalysistoolofCiteSpace Iltoanalyzefourtypesof datasourcescharacterizedbyresearch emphasesofthelibraryscienceresearch in2012,getingdatasourcesfromitemsof thenational social sciencefoundation,generalitemsof humanitiesandthesocial science foundationof the Ministryof Education,Doctoral&Masterdegree'sdissertations,andessaysonnationalcorejournalsofthelibrary science，wecouldfindoutthatresearchemphasesandresearchtrendsareconsistent.Inthenextfew years,inadditiontocontinuetofocusontraditionalresearchareas,researchemphasesoflibraryscience researcherswillbepresentedtheintellgent,theknowledgeable,theintegration,thehumancultureand thediversified developmenttrend.",
+    "context5": "[Keywords]Libraryscience;Contentanalyzingmethod;Wordfrequencystatisticalanalysis;Knowledge mapping;Visualization",
+    "context6": "作为一门发展中的科学，图书馆学在众多学术同仁与实践工作者的共同努力下，目前已取得了较大的进展，对人类信息、文献、知识的交流与共享做出了巨大的贡献。回顾与总结一个学科的发展历程，是学科持续发展的必然要求，图书馆学也不例外。对图书馆学过去一年或若干年的研究重点进行分析，目前已成为一些学者的研究兴趣点所在，如顾英（2004）[1、邱均平等人（2009）[2]、宗乾进等人（2012）[3]。该类研究多从专业期刊所载论文的关键词入手进行词频分析，这不失为是一种可行的方法。同时，也有学者另辟蹊径，借助其他数据源进行研究，如张立等人（2010）利用2000一2009年图书馆专业博硕士研究生论文来揭示近年来图书馆学博硕士研究生的研究主题方向和具体研究热点[4；部正亚（2012）根据2011年国家社会科学基金项目课题指南和评审结果的对比分析，探索了当前我国图书馆学研究的热点[5。不过，总体来看，上述研究的数据来源还是显得有点过于单一，特别是对于分析单一年度的研究重点来说。",
+    "context7": "本文将扩展数据来源，运用基于词频统计的内容分析法，利用知识图谱分析工具CiteSpaceII，通过对国家社会科学基金2011、2012年度资助项目，教育部人文社会科学研究2011、2012年一般项目，图书馆学博硕士研究生2012年学位论文，图书馆学核心期刊2012年发表论文的主题进行计量分析，对2012年我国图书馆学发展整体上呈现出的知识图景、学术界共同关注的研究重点及学术前沿领域进行初步回顾、解剖与探析。"
+  },
+  "1研究方法、数据来源与处理程序": "",
+  "1.1研究方法": {
+    "context1": "作为一种对文献的特定主题内容进行定性和定量剖析，从而提示该主题内容的实质并系统、客观地把握其研究动态和趋势的一种成熟的研究方法，内容分析法在学术研究中得到了广泛应用，并取得了显著的成效[。关键词是表示文章内容或主题的自然词，是文章核心内容的高度浓缩和提炼，某学科相关文献的关键词的分布频次与特征能显示该学科的总体内容特征、各研究内容之间的内在联系、学术研究的发展脉络与发展方向、学术研究的重点与热点等。本文将内容分析法和以关键词为基础的词频分析法相结合，通过对相关数据来源中所获取的关键词进行分析，以实现对图书馆学的研究重点、发展前沿和动态进行科学、客观、准确的揭示与描述。同时，为了增强研究分析的视图效果，并发现一些传统的词频分析法所不能体现出的新现象和规律，本文还采用知识图谱分析方法，所采用的主要工具是陈超美博士开发设计的CiteSpace II]。"
+  },
+  "1.2数据来源": {
+    "context1": "本文选取国家社会科学基金项目、教育部人文社会科学研究一般项目、图书馆学博硕士研究生学位论文、图书馆学核心期刊论文作为数据源，通过析取关键词来揭示图书馆学的研究重点。",
+    "context2": "考虑到学科研究的连续性和成果完成的阶段性，国家社会科学基金项目选取全国哲学社会科学规划办公室发布的“图书馆、情报与文献学\"类2011年度资助项目（96项）2012年度资助项目（114项）；教育部人文社会科学研究一般项目选取中国高校人文社会科学信息网发布的“图书馆、情报与文献学”类项目（包括规划基金、青年基金、自筹经费项目）,选取年份为2011年（76项）年和2012年（68项）。上述两类基金项目之所以选择2011和2012两个年度，是因为这两个年度的研究项目都有可能在2012年启动或深人，必将成为学术界的热点与重点。博硕士研究生学位论文分别以中国知网（CNKI）的“中国博士学位论文全文数据库”和“中国优秀硕士学位论文全文数据库”为来源，以“学位年度 $=$ 从2012到2012”、“学科专业名称 $\\asymp$ 图书馆学”作为检索人口；针对博硕士研究生学位论文检索结果不全面的情况，又以万方数据知识服务平台的“学位论文”库作为补充，检索2012年图书馆学专业的博硕士研究生学位论文，然后同中国知网的检索结果进行比对，存异去同。专业核心期刊论文选取《中国图书馆学报》、《大学图书馆学报》、《国家图书馆学刊》、《图书馆建设》、《图书馆杂志》《图书馆论坛》、《图书馆》7种期刊在2012年发表的论文，这7种期刊是国内图书馆学期刊类最具有权威性、代表性的学术期刊，基本上可以反映我国图书馆学研究的现状与水平。"
+  },
+  "1.3处理程序": {
+    "context1": "（1）确定统计源针对两类科学研究基金项目，结合项目名称、项目负责人学科专业背景及工作单位做出判断，凡是工作单位为图书馆或项目名称包含图书馆，则一律保留，并结合图书馆学教育背景，对剩余的项目进行选择；检索出来的博硕士学位论文全部纳入统计源的范畴，需要说明的是，博士学位论文检索结果很不理想，主要原因应是受“学位论文使用授权书”的限制，多数作者不会选择“本论文提交当年，同意发布”，而是选择“提交一年或两年或三年以后才同意发布\"；7种核心期刊刊载的论文全部收录（简讯、征文、卷目录、动态消息、年度索引等未统计）。",
+    "context2": "（2）确定关键词析取两类科学研究基金项目的关键词（直接从名称中提取），对于具有二元组合或多元组合的资助项目，则进行拆分，如将“评估模型与实证研究”拆分为“评估模型”、“实证研究”两个关键词；确定博硕士学位论文和期刊论文关键词，以论文作者所列关键词为主、以题名项中抽取关键词为辅。",
+    "context3": "（3）关键词统计将下载的数据整理成书目共现分析系统Bicomb可识别的格式，利用Bicomb提取关键词。其中，为了实现数据的准确性，对关键词进行规范化处理，对于相同或相近的关键词进行合并处理，过于宽泛及无意义的关键词则予以删除。",
+    "context4": "根据上述处理程序，相关数据源的处理结果如表1～4所示。",
+    "context5": "表1选取的国家社会科学基金资助项目数与关键词数",
+    "context6": "<table><tr><td rowspan=1 colspan=1>年度</td><td rowspan=1 colspan=1>项目数/项</td><td rowspan=1 colspan=1>关键词数/个</td></tr><tr><td rowspan=1 colspan=1>2011</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>63</td></tr><tr><td rowspan=1 colspan=1>2012</td><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>101</td></tr></table>",
+    "context7": "表2选取的教育部人文社会科学研究一般项目数与关键词数",
+    "context8": "<table><tr><td rowspan=1 colspan=1>年度</td><td rowspan=1 colspan=1>项目数/项</td><td rowspan=1 colspan=1>关键词数/个</td></tr><tr><td rowspan=1 colspan=1>2011</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>75</td></tr><tr><td rowspan=1 colspan=1>2012</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>80</td></tr></table>",
+    "context9": "表32012年图书馆学博硕士研究生学位论文数与关键词数",
+    "context10": "<table><tr><td rowspan=1 colspan=1>作者学位</td><td rowspan=1 colspan=1>论文数/篇</td><td rowspan=1 colspan=1>关键词数/个</td></tr><tr><td rowspan=1 colspan=1>硕士</td><td rowspan=1 colspan=1>250</td><td rowspan=1 colspan=1>696</td></tr><tr><td rowspan=1 colspan=1>博士</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>51</td></tr></table>",
+    "context11": "表42012年国内被选核心期刊的年载文量及关键词数",
+    "context12": "<table><tr><td rowspan=1 colspan=1>期刊名称</td><td rowspan=1 colspan=1>载文量/篇</td><td rowspan=1 colspan=1>关键词数/个</td></tr><tr><td rowspan=1 colspan=1>《中国图书馆学报》</td><td rowspan=1 colspan=1>79</td><td rowspan=1 colspan=1>262</td></tr><tr><td rowspan=1 colspan=1>《大学图书馆学报》</td><td rowspan=1 colspan=1>96</td><td rowspan=1 colspan=1>345</td></tr><tr><td rowspan=1 colspan=1>《图书馆杂志》</td><td rowspan=1 colspan=1>313</td><td rowspan=1 colspan=1>789</td></tr><tr><td rowspan=1 colspan=1>《国家图书馆学刊》</td><td rowspan=1 colspan=1>115</td><td rowspan=1 colspan=1>307</td></tr><tr><td rowspan=1 colspan=1>《图书馆建设》</td><td rowspan=1 colspan=1>312</td><td rowspan=1 colspan=1>757</td></tr><tr><td rowspan=1 colspan=1>《图书馆论坛》</td><td rowspan=1 colspan=1>242</td><td rowspan=1 colspan=1>689</td></tr><tr><td rowspan=1 colspan=1>《图书馆》</td><td rowspan=1 colspan=1>266</td><td rowspan=1 colspan=1>755</td></tr></table>"
+  },
+  "2基于四类数据源之研究重点的分析": {
+    "context1": "根据内容分析法和文献计量学的相关理论，某学科中的某关键词出现频率越高，表明其受到研究人员的关注程度越高，可将其认同为该学科的研究重点。在表1\\~4的基础上，按照上述的处理程序，对所计量的关键词依其出现频次的多寡进行排序，则有助于对2012年国内图书馆学研究重点进行分析。"
+  },
+  "2.1国家社会科学基金项目的重点研究领域": {
+    "context1": "表5是国家社会科学基金资助项目（2011、2012年度）重点关键词词频分布情况，本文只列出排在前12位的重点关键词，并用于重点领域的界定（因本文的分析对象是图书馆学，“图书馆”一词的专指性不强，故不作为重点领域，下同）。",
+    "context2": "表5国家社会科学基金项目重点关键词词频分布",
+    "context3": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>数字图书馆</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>数字资源</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>公共图书馆</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>云服务</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>服务体系</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>信息资源</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>基层图书馆</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>元数据</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>实证研究</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>关联数据</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>图书馆服务</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>图书馆管理</td><td rowspan=1 colspan=1>2</td></tr></table>",
+    "context4": "笔者利用CiteSpaceII的路径搜索（pathfinder)算法，对国家社会科学基金项目的研究热点进行探究，其中网络节点设定为“Keyword（关键词）”，选定词频居于前30位的关键词，可生成高频关键词知识图谱，如图1所示。",
+    "context5": "![](images/20f66b9b8a7cfadebd1ec98b21f41d0a173f967147f4d8ed16b650deee6832f5.jpg)  \n图1国家社会科学基金项目重点关键词知识图谱",
+    "context6": "从表5和图1可以看出，在57个国家社会科学基金资助项目中，众多项目承担者将研究重点放在数字图书馆、公共图书馆、基层图书馆、图书馆服务、图书馆发展、数字资源、服务体系、信息资源、元数据、关联数据等领域。这表明国家社会科学基金项目与国家经济社会发展紧密联系，能够紧随时代的步伐，选取了图书馆学领域中最急迫、最需要解决的问题作为研究主题。在将来一段时期内，这些研究领域都将成为图书馆学的重点研究领域。"
+  },
+  "2.2教育部人文社会科学研究一般项目的重点领域": {
+    "context1": "表6是教育部人文社会科学研究一般项目（2011、2012年度）重点关键词词频分布情况，因统计出来的关键词数量有限，本文只列出排在前10位的重点关键词，并将其用于重点领域的界定。",
+    "context2": "表6教育部人文社会科学研究一般项目重点关键词词频分布",
+    "context3": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>高校图书馆</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>评价体系</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>数字图书馆</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>公共图书馆</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>绩效评价</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>云服务</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>数字资源</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>数字化</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>图书馆学</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>图书馆联盟</td><td rowspan=1 colspan=1>2</td></tr></table>",
+    "context4": "利用CiteSpaceI的路径搜索（pathfinder)算法，其他策略不变，选定词频居于前50位的关键词，可生成高频关键词知识图谱，如图2所示。",
+    "context5": "![](images/f035a6983b991048b9f1c6409a33add52b706ea7491574e283c8a5225a02b74f.jpg)  \n图2教育部人文社会科学研究一般项目重点关键词知识图谱",
+    "context6": "从表6和图2可以看出，在教育部人文社会科学研究一般项目的44个项目中，项目承担者更多的是关注高校图书馆、数字图书馆、公共图书馆、图书馆学、绩效评价、数字资源、云服务、数字化、图书馆服务等领域，并且研究方法更加多样化，更加注重技术在图书馆学应用方面的研究。毫无疑问，这些研究领域在未来将成为国内图书馆学的重点研究领域。"
+  },
+  "2.3图书馆学博硕士学位论文的重点内容": {
+    "context1": "表7是我国图书馆学博硕士学位论文的重点关键词词频分布情况（2012年），宥于篇幅，本文只列出前16位重点关键词。",
+    "context2": "表7图书馆学博硕士学位论文重点关键词词频分布",
+    "context3": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>高校图书馆</td><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>云计算</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>公共图书馆</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>评价体系</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>信息服务</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>Web2.0</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>数字图书馆</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>图书馆学</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>高校</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>服务模式</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>知识管理</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>信息需求</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>基层图书馆</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>实证研究</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>知识共享</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>本体</td><td rowspan=1 colspan=1>3</td></tr></table>",
+    "context4": "利用CiteSpaceI的路径搜索（pathfinder）算法，其他策略不变，选定词频居于前100位的关键词，可生成高频关键词知识图谱，如图3所示。",
+    "context5": "![](images/984b5ef32e0081663a7ba10fed66d1a82db2e476d45328975f60bc5d0f168f68.jpg)  \n图3图书馆学博硕士学位论文重点关键词知识图谱",
+    "context6": "从表7和图3可以看出，国内图书馆学博硕士学位论文的研究重点领域有高校图书馆、用户行为、信息公开、本体、信息资源、信息服务、图书馆、知识管理、知识共享、云计算等。博硕士学位论文都是在导师的指导下完成的，导师多是图书馆学研究的主导力量，研究生是图书馆学发展的储备力量，毫无疑问，上述领域是我国图书馆学2012年研究的重点内容。"
+  },
+  "2.4图书馆学核心期刊论文的重点内容": {
+    "context1": "表8是我国图书馆学核心期刊刊载论文的重点关键词词频分布，有于篇幅，同样只列出前24位重点关键词。",
+    "context2": "利用CiteSpaceI的路径搜索（pathfinder）算法，其他策略不变，选定词频居于前300位的关键词，可生成高频关键词知识图谱，如图4所示。",
+    "context3": "![](images/de3428cede0d34479e1ac687f034ddbe6e12b0a94734cad7340a1ecd07cc90b7.jpg)  \n图42012年图书馆学核心期刊论文重点关键词知识图谱",
+    "context4": "表82012年图书馆学核心期刊论文重点关键词词频分布",
+    "context5": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>高校图书馆</td><td rowspan=1 colspan=1>163</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>图书馆员</td><td rowspan=1 colspan=1>18</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>公共图书馆</td><td rowspan=1 colspan=1>115</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>《中图法》</td><td rowspan=1 colspan=1>16</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>数字图书馆</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>电子资源</td><td rowspan=1 colspan=1>15</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>图书馆学</td><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>高校</td><td rowspan=1 colspan=1>14</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>地方图书馆</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>服务模式</td><td rowspan=1 colspan=1>14</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>图书馆服务</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>图书馆联盟</td><td rowspan=1 colspan=1>14</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>信息服务</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>国家图书馆</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>基层图书馆</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>资源共享</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>美国</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>数字资源</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>阅读推广</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>云计算</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>学科馆员</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>著作权</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>资源建设</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>免费开放</td><td rowspan=1 colspan=1>11</td></tr></table>",
+    "context6": "从表8和图4可以得知，图书馆学研究人员研究的重点领域伸向了阅读推广、学科馆员、资源建设、图书馆联盟、服务模式、电子资源、资源共享、云计算、学科服务等研究领域。这表明我国的图书馆学学科向多样化、纵深化、国际化等方向发展，形成了图书馆学重点突出、层次分明、与时俱进的研究特色。"
+  },
+  "2.5国内重点研究领域的一致性分析": {
+    "context1": "本文选取的四类数据来源可以分别表征出我国图书馆学研究队伍中的精英人员（科学研究基金项目获得者）主导人员（导师）与储备人员（博硕士研究生）、普通研究人员（包括前三类人员）的研究状况，其研究的重点、研究趋势具有一致性。对当且仅当在四类数据源中都出现的关键词求交集，得到如表9所示的共同高频词，这些共同高频词表征了我国2012年度图书馆学重点研究领域的一致性。",
+    "context2": "表9四类数据源所确定的2012年图书馆学研究的共同高频词",
+    "context3": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>高校图书馆</td><td rowspan=1 colspan=1>204</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>基层图书馆</td><td rowspan=1 colspan=1>32</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>公共图书馆</td><td rowspan=1 colspan=1>151</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>图书馆服务</td><td rowspan=1 colspan=1>29</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>数字图书馆</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>资源建设</td><td rowspan=1 colspan=1>26</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>图书馆学</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>服务模式</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>信息服务</td><td rowspan=1 colspan=1>43</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>云计算</td><td rowspan=1 colspan=1>19</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>数字资源</td><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+    "context4": "为了从整体上更好地了解2012年图书馆学研究热点领域，利用CiteSpaceII对四类数据源的全部数据进行聚类分析，共产生10个聚类，代表着图书馆学的10个热点研究领域，相应的知识图谱如图5所示。",
+    "context5": "其中，10个类中所包含的主要关键词如表10所示。",
+    "context6": "从表9和图5以及表10可以看出，无论是对四类数据源所获得的关键词求交集，还是对四类数据源的全部数据进行聚类，所得到的结果具有较高的一致性。"
+  },
+  "2.5.1各类型图书馆": {
+    "context1": "毫无疑问，对于各类型图书馆的研究是图书馆学界的重点研究领域。2012年，图书馆研究人员持续关注公共图书馆、高校图书馆、基层图书馆的建设和发展问题，尤其是基层图书馆，党和政府大力要求建设县乡村级图书馆、社区图书馆、农家书屋等，以丰富我国农村的文化生活。在这一政策导向下，研究人员加强对基层图书馆的研究，也是应有之义。除此之外，图书馆联盟、学科馆员、图书馆员、女性图书馆员等都是各类型图书馆研究的重点领域。",
+    "context2": "![](images/f79359783800f27b0426efd92a3c3db4daca9fef6ed6d27a214acae5976a33a6.jpg)  \n图52012年图书馆学研究的高频关键词聚类",
+    "context3": "表10聚类的成员关键词列表",
+    "context4": "<table><tr><td rowspan=1 colspan=1>聚类标识</td><td rowspan=1 colspan=1>主要关键词</td></tr><tr><td rowspan=1 colspan=1>#0建设</td><td rowspan=1 colspan=1>特色数据库、高校、数字信息资源、云计算、资源建设</td></tr><tr><td rowspan=1 colspan=1>#1版权</td><td rowspan=1 colspan=1>版权、知识产权、馆际互借、缴存政策</td></tr><tr><td rowspan=1 colspan=1>#2图书馆学</td><td rowspan=1 colspan=1>基础理论、图书馆学、图书学、文献学、方法论</td></tr><tr><td rowspan=1 colspan=1>#3中图法</td><td rowspan=1 colspan=1>中图法、图书分类、类目设置、类目</td></tr><tr><td rowspan=1 colspan=1>#4知识图谱</td><td rowspan=1 colspan=1>知识图谱、可视化、共词分析、词频分析、知识网格</td></tr><tr><td rowspan=1 colspan=1>#5图书馆</td><td rowspan=1 colspan=1>图书馆、基层图书馆、公共图书馆</td></tr><tr><td rowspan=1 colspan=1>#6数字图书馆</td><td rowspan=1 colspan=1>数字图书馆、数字图书馆推广工程、公共文化服务</td></tr><tr><td rowspan=1 colspan=1>#7Web2.0</td><td rowspan=1 colspan=1>Web2.0、微博、个人知识管理</td></tr><tr><td rowspan=1 colspan=1>#8编目</td><td rowspan=1 colspan=1>编目、RAD、图像图形处理、著录、RADtoolkit</td></tr><tr><td rowspan=1 colspan=1>#9图书馆事业</td><td rowspan=1 colspan=1>图书馆事业、图书馆史、文献传递、开放获取</td></tr></table>"
+  },
+  "2.5.2数字图书馆": {
+    "context1": "随着计算机技术和网络通信技术的发展与繁荣，作为一种基于网络环境下共建共享的可扩展的知识网络系统，数字图书馆也从 $\\mathbb { W } \\mathrm { e b } 2 . 0$ 时代逐渐进入 $\\mathbb { W } \\mathrm { e b } 3 . 0$ 时代，但学术界对数字图书馆的研究继续保持热情。2012年，图书馆学研究人员更加关注数字图书馆技术、数字图书馆推广工程、公共文化服务、标准规范体系、文献资源数字化、数字版权等内容。"
+  },
+  "2.5.3图书馆学": {
+    "context1": "图书馆学理论是图书馆学存在和发展的基础，图书馆学与情报学、档案学等紧密相连，是我国图书馆学研究的重点领域，亦是图书馆学研究的传统领域。2012年，图书",
+    "context2": "馆学研究人员更加关注图书馆学理论、图书馆精神、古籍整理与保护、文献整理、图书馆管理、图书馆史、图书馆学史、图书学等内容。"
+  },
+  "2.5.4信息服务": {
+    "context1": "随着知识经济时代的到来，对信息服务的研究将逐渐向知识服务发展，高质量、个性化的知识服务将会成为信息服务的主要形式。2012年，图书馆学界依旧以信息服务作为主要研究领域，包括知识服务、个性化信息服务、信息服务模式、信息服务系统、信息服务质量、文献传递、服务创新等内容。"
+  },
+  "2.5.5数字资源": {
+    "context1": "随着信息技术在图书馆的深入应用，数字资源成为图书馆建设与服务的重点，同样也是图书馆学的重点研究领域。2012年，图书馆学界对数字资源及其相关研究主要包",
+    "context2": "括以下方面：数字资源利用、数字资源建设、数字资源共享、数字资源聚合、数字资源服务、数字资源可视化等。"
+  },
+  "2.5.6图书馆服务": {
+    "context1": "如何满足用户的需求是图书馆研究人员研究的重点，为用户提供最完善、个性化的服务是图书馆研究人员永恒不变的追求。2012年，图书馆学研究人员更加关注个性化服务、学科服务、图书馆服务质量、推送服务、免费服务、读者服务、服务评价等内容。"
+  },
+  "2.5.7资源建设": {
+    "context1": "图书馆资源的存量、增量与质量关系着图书馆的发展。2012年，我国图书馆学界对资源及其相关方面的研究给予了极大的关注，主要包括以下方面：信息资源建设、数字资源建设、馆藏文献资源建设、特色资源建设、特色资源库建设、学科信息资源建设、特色文献资料建设等。"
+  },
+  "2.5.8服务模式": {
+    "context1": "如何为用户提供服务、以何种方式提供服务是图书馆一直以来关注的重点。2012年度，我国图书馆学研究人员对于服务模式的研究主要集中在学科服务模式、知识服务模式、信息服务模式、网络服务模式、服务模式创新等方面。"
+  },
+  "2.5.9云计算": {
+    "context1": "图书馆学与科技发展关系非常密切，其研究热点与科技发展、社会进步息息相关。云计算是继个人计算机、互联网之后的第三次IT浪潮，2012年更是云计算快速发展的一年。图书馆学关注云计算研究，应是情理之中的事情。2012年图书馆学研究人员主要关注以下方面：云计算机、云计算在图书馆服务中的应用、云服务、基于云计算的服务平台建设等。"
+  },
+  "3国内图书馆学研究重点的发展态势": {
+    "context1": "通过对2012年国内图书馆学研究重点（下转第14页）",
+    "context2": "[3]刘芳.社区图书馆:曲高和寡遭遇冷清[EB/OL].[2013-09-20].http://bj.huanqiu.com/capital/2009-09/48372.htm.  \n[4] 张绪才.评点新闻:图书馆资源闲置太浪费[EB/OL].[2013-09-20].http://fjrb.fjsen.com/fjrb/html/2013-01/18/content_384618.htm.  \n[5] 王昕.让社区图书室多起来、活起来[EB/OLJ.[2013-11-21].http://cswbszb.chinajilin.com.cn/html/2013-11/13/content_924121.$\\mathbf { h t m ? s } { = } 0 0 1$   \n[6] 河边.公共文化设施的利用效益观察[EB/OL].[2013-08-05].http://blog.sina.com.cn/s/blog_4a3c07ab0100056s.html.  \n[7] 李晓瑛,蔡兰.广州欲变身“图书馆之城”六年后路该怎么走[EB/OL].[2013-08-01].http://gd.sohu.com/20120801/n349559976.shtml.  \n[8] 周雯,谭啟菊.广州社区图书馆现状堪忧[EB/OL].[2013-08-13].http://news.xkb.com.cn/guangzhou/2012/0813/217891.html.  \n[9] 彭文蕊,马喜生,颜榆颖.图书馆通借通还尚需时日,市人大视察发现“图书馆之城”建设待完善投入管理体制[EB/OL].[2013-11-22].http://epaper.nfdaily.cn/html/2013-11/12/content_7243998.htm.  \n[10] 廖喜张.广州基层文化现困境“挂牌子”应付检查[EB/OL].[2013-11-17].http://news.dayoo.com/guangzhou/201311/07/73437_33365075.htm.  \n[11]刘慧.社区图书馆西安能否遍地生花[EB/OL].[2013-07-26].http://www.zzlib.net/Dynamic/ShowArticle.asp?ArticleID $\\yen 726$ ·  \n[12]受资金等多种因素限制西安社区图书室遇冷[EB/OL][2013-08-",
+    "context3": "（上接第5页）的计量分析我们可以发现，在未来几年内，图书馆学研究人员除了继续关注图书馆基础理论、图书馆标准规范、政策研究等传统研究领域外，其研究重点还将呈现智能化、知识化、一体化、人文化、多元化的发展态势。",
+    "context4": "（1）智能化随着“三网融合”的深入与发展，云计算、物联网、大数据挖掘为智能化提供了平台，除了利用信息技术建立信息平台外，图书馆更注重将智能信息技术与服务相结合，向用户提供更加个性化的服务。",
+    "context5": "（2）知识化情报、信息、知识之间的内在联系决定了知识必然成为图书馆学研究人员的一个长期关注点。知识服务、知识共享、知识发现、知识聚合、知识网络、知识资源等将持续成为研究重点。",
+    "context6": "（3）一体化图书馆学、情报学、档案学一体化发展，各个学科联系更加紧密、息息相关。研究的内容相互渗透，研究方法相互交叉，极大地促进了各学科的发展。",
+    "context7": "（4）人文化图书馆的核心价值是为用户提供贴心的信息服务和知识服务，人文化服务、人文化管理是图书馆文化的精髓，读者权利保障、图书馆核心价值实现、馆员队伍建设等方面的研究都将烙上人文化的印记。",
+    "context8": "（5）多元化多元化在这里不是指的图书馆学研究重点的多样化，而是特指图书馆学研究方法的多元化。文献计量学、信息计量学和网络计量学的相关方法被广泛应用，知识图谱法、实证研究方法等也将继续被应用于图书馆学的研究之中。",
+    "context9": "15].http://xian.qq.com/a/20120815/000172.htm.  \n[13]谭春花.社区图书馆热的反思[J].图书馆论坛,2008(4):24-26,174.  \n[14]王宗义.社区图书馆资源行政配置与自主集聚和交流的模式选择：基层图书馆从行政模式转向公共模式的思考之二[J].图书馆，2012(6):24-26.32.  \n[15]王宗义.社区图书馆绩效标准化评估与用户直接评判的模式转换:基层图书馆从行政模式转向公共模式的思考之三[J].图书馆，2013(1):14-17.  \n[16]席恒.利益、权力与责任:公共物品供给机制研究[M].北京：中国社会科学出版社,2006.  \n[17]吴春华.西方现代公共行政理论[M].天津：天津教育出版社,2007.  \n[18]邱冠华.示范区创建中深化“苏州模式”的制度设计研究[J].中国图书馆学报,2012(3):20-25.  \n[19]韩洁.新闻分析：向社会力量购买公共服务传递政府加快职能转变信号[EB/OL].[2013-08-31].http://news.xinhuanet.com/2013-07/31/c_125097696.htm.  \n[20]魏建琳.公共物品理论视阈下社区图书馆的概念与演变规律探析:公共物品理论视阈下社区图书馆若干命题的思考之一[J].图书馆建设,2014(3):9-11."
+  },
+  "[作者简介]": {
+    "context1": "谭春辉男，1975年生，管理学博士，华中师范大学信息管理学院副教授、硕士生导师，主要研究方向为信息计量与科学评价、电子商务诊断等。  \n桑静女，1988年生，华中师范大学信息管理学院2012级情报学硕士研究生。  \n麻晓杰女，1989年生，华中师范大学信息管理学院2012级情报学硕士研究生。 [收稿日期:2013-09-03]"
+  },
+  "参考文献：": {
+    "context1": "[1]顾英.从图书馆学情报学核心期刊发文看当前图书馆学研究热点问题[J].图书馆建设,2004(2):17-21.  \n[2]邱均平,丁敬达,周春雷.1999一2008年我国图书馆学研究的实证分析：上[J].中国图书馆学报,2009(5):72-79.  \n[3]宗乾进,袁勤俭,沈洪洲.基于VOSviewer的2010年中国图书馆学研究热点分析[J].图书馆,2012(4):88-90.  \n[4] 张立，杨祖国,田丽娜.我国图书馆专业学科分布和研究热点剖析:基于学位论文的统计分析[J].情报科学,2010(9):1401-1404.  \n[5]部正亚.我国图书馆学学科研究热点分析:基于2011年国家社科基金项目及课题指南的统计[J].图书馆工作与研究,2012(5):8-12.  \n[6]邱均平,邹菲.关于内容分析法的研究[J].中国图书馆学报,2004(2):12-17.  \n[7] Chen C M. CiteSpace II: Detecting and Visualizing Emerging Trendsand Transient Patterns in Scientific Literature[J]. Journal of theAmerican Society for Information Science and Technology,2006(57):359-377.  \n[8]张久珍.2011年我国图书馆学研究进展[J].国家图书馆学刊,2012(3):25-32."
+  }
+}

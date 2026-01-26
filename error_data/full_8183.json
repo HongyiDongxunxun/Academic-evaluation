@@ -1,0 +1,89 @@
+{
+  "original_filename": "full_8183.md",
+  "$\\bullet$ 于莹莹，陈燕，张金松(大连海事大学 交通运输管理学院，辽宁 大连116026)": "",
+  "相关反馈在信息检索中的研究综述": {
+    "context1": "摘要：文章论述相关反馈技术在信息检索中的研究现状。主要包括对3种相关反馈类型——显示相关反馈、隐式相关反馈以及伪相关反馈的研究进展进行综述。重点探讨了基于文本的伪相关反馈以及新兴的基于图的伪相关反馈技术的研究成果，对未来的研究方向提出建议。",
+    "context2": "关键词：相关反馈；信息检索；研究现状；综述",
+    "context3": "Abstract:This paper reviews thecurentresearchesabouttherelevance feedback for informationretrieval，which includethe main techniquesof explicit relevancefedback，implicitrelevancefedback and pseudo relevance feedback.Andthe paper mainly elaborates theachievementsof txt-basedpseudorelevancefedback and graph-basedpseudorelevancefedback.Atlast，the paper proposes some suggestions for future researches.",
+    "context4": "Keywords: relevance feedback； information retrieval; research status； review"
+  },
+  "1相关反馈的产生": "",
+  "1.1信息检索": {
+    "context1": "在互联网时代，随着网络技术的迅猛发展，以各种社交网络、博客为代表的新型信息发布方式不断涌现，数据正以前所未有的速度不断累积和增长，互联网已成为最大的信息聚集地。研究发现，在日新月异的庞大网络信息资源中，文本数据是最为普遍和广泛的数据存在形式，超过$80 \\%$ 以上的信息是以非结构化的文本形式存在的，如Web页面、电子文献、微博等。人们拥有大量的信息资源并期待从浩瀚的信息海洋中快速寻找有用的信息，信息检索技术应运而生。文本信息检索技术主要研究海量文本信息的表示、存储和检索问题。信息检索最早出现于19世纪70年代的图书馆领域。随着计算机的诞生，在20世纪50年代，一些学者提出如何在计算机里存储和查询文本信息的基本想法。Luhn在1957年提出使用词项作为索引单元来表示文档，并用查询和文档中索引单元的重叠度来衡量查询和文档的相关度[。",
+    "context2": "信息检索的关键在于，如何有效地将用户空间需求信息的描述与文档空间已知信息的描述匹配起来。图1是一个简单的信息检索基本流程，其中信息检索模型是该流程的核心，包括许多经典的检索模型，例如布尔模型、向量空间模型、概率模型和语言模型等。",
+    "context3": "![](images/fa871b075c99aeeab8655c0f04402af73cb836fd5655f0c2986d9eb5b0c39915.jpg)  \n图1信息检索基本过程",
+    "context4": "20世纪50年代提出的布尔模型将查询词项以布尔表达形式进行提交，是一种操作简单，容易实现的二元模型。1975年Salton等在SMART检索系统中首次使用向量空间模型，它把查询和文档用词向量的形式进行表示，通过计算二者词向量的相似性进行排序。",
+    "context5": "1960年Maron和Kuhns 提出了概率模型，把文档的相关性理解为一种概率事件，通过查询词在相关文档和不相关文档的百分比进行排序。",
+    "context6": "1998年Ponte和Croft将语言模型用于信息检索，其主要思想是分别为每篇文档估计一个概率分布即文档的语言模型，然后对每篇文档对应语言模型下生成查询的可能性进行排序，从而得到文档在检索结果中的排序。",
+    "context7": "然而在实现信息检索时由于用户检索需求本身不明确、不熟悉检索环境等问题，使得构造的查询式简短、模糊，很难充分表达用户的真实需求，从而导致信息检索系统的准确率和召回率不够高。众多学者针对这一难题，纷纷提出了许多方法用以构造更高质量的查询主题，降低查询主题与用户实际需求的差距，尽可能使检索结果更好地满足用户的查询需求，其中，相关反馈技术就是一种非常有效的方式。"
+  },
+  "1.2相关反馈技术简介": {
+    "context1": "在实际检索系统中，文档集合和信息检索模型是相对稳定的，而用户的信息需求（InformationNeed）却是相对多变的。用户提交的检索请求往往简短而模糊，即使用户具有明确的查询目的，也不能清晰地构造一个查询。有时查询本身也会有歧义，往往不能准确地描述用户的信息需求。因此，初始查询表达信息需求的能力是有限的。此外，由于存在用户个体差异，不同文化背景及理解能力也会导致查询与相关文档的词不匹配问题，从而导致用户不能获取想要的信息。",
+    "context2": "为了解决上述问题，信息检索领域的研究学者在经典检索模型的基础上，提出了基于查询扩展（Query Expan-sion，QE）的相关反馈（RelevanceFeedback，RF）技术来解决此问题，在信息检索领域通常简称为相关反馈、查询扩展或者查询重构（QueryReformulation）。",
+    "context3": "相关反馈技术在信息检索领域有着悠久的研究历史，是提高信息检索性能的有效技术之一。采用相关反馈技术可以修改查询，减少在获取用户查询需求过程中不稳定因素对检索系统造成的负面影响，提高获取用户检索需求的准确性。系统不需要用户构造新的查询条件，而是通过用户的反馈信息来主动实现查询修改，最终返回令用户满意的检索结果。"
+  },
+  "2相关反馈的基本流程": {
+    "context1": "相关反馈的主要思想是在信息检索的过程中通过用户交互来提高最终的检索效果。具体来说，用户会对初次检索结果的相关性给出反馈意见，其基本的过程包括： $\\textcircled{1}$ 用户提交初始查询的关键词，系统对查询主题进行表达。$\\textcircled{2}$ 经过不同的信息检索模型，系统返回初次检索后的文档排序集合。 $\\textcircled{3}$ 用户参与对检索出的部分结果进行相关性判断，显式地将它们标注为相关或者不相关（显式反馈信息)；或者系统通过收集数据、自动分析，估计用户对部分结果的满意度（隐式反馈信息）。 $\\textcircled{4}$ 系统基于用户的反馈信息，针对不同的检索模型，更新原始的查询条件，形成新的查询。 $\\textcircled{5}$ 系统利用新查询进行重新检索，生成新的检索结果排序。",
+    "context2": "相关反馈过程可以按照上面的方式不断进行迭代，直到用户获得满意的相关文档集合。图2是引入相关反馈机制后的信息检索的基本流程。",
+    "context3": "![](images/0e2616641b285c285e596c1f4656295b3c59ea3f42488b6750a7f97bb7e7a998.jpg)  \n图2相关反馈在信息检索中的应用过程"
+  },
+  "3相关反馈技术分类": {
+    "context1": "在之前的一些研究文献中，学者们已经对相关反馈技术进行了广泛的探讨，并且从不同角度对相关反馈技术进行归类，显示了不同的方法在不同应用环境下改善排序结果的有效性。从如何获取反馈信息方式的角度，可以将相关反馈技术分为：显式相关反馈（ExplicitRelevance Feed-back)、隐式相关反馈（Implicit Relevance Feedback）和伪相关反馈（Pseudo Relevance Feedback）3种。"
+  },
+  "3.1显式相关反馈": {
+    "context1": "显式相关反馈技术主要用于文本信息检索领域，要求用户有一个明确的检索目的并提供查询词项；要求检索系统可以根据查询词项，给出检索结果，同时系统提供一个明确的接口用以接收用户反馈信息。这样，用户按照自己的检索目的，对系统给出的检索结果做出相关与否的标记，这些反馈信息即为来自用户的显式反馈信息，系统可以利用这些信息更新查询结果。在Rocchio等的研究中，通过用户直接来收集反馈信息，并提出了一系列扩展查询的方法 。",
+    "context2": "然而在实际检索系统中，往往很难直接获得用户给出的反馈信息。尽管用户做出评价后，可以进一步获得更好的检索结果，但是大多数用户希望简化操作，享受更短的响应时间，因此，带有用户显式反馈功能的检索系统实用性较差，很难得到推广。虽然如此，但是人们在进行信息检索浏览时，往往会给出一些非常隐晦的反馈。比如用户对某个页面感兴趣，则该页面被点击的频率很高，用户停留时间长等。因此，通过收集其他资源，我们可以得到间接的用户反馈信息，即隐式相关反馈。"
+  },
+  "3.2隐式相关反馈": {
+    "context1": "隐式相关反馈减轻了用户的负担，虽然用户不直接参与反馈，但是仍然可以改进检索质量。人们常常通过分析用户的行为来发现用户的兴趣和爱好，比如通过收集用户浏览记录等信息间接分析用户的偏好，通过文档的全局点击率分析文档的重要性等。结合用户的检索需求进行检索优化。许多学者对隐式相关反馈进行了研究，提出了许多不同方法来获得隐式反馈信息。",
+    "context2": "Oard和Kim在早期的研究中对获取隐式相关反馈的方法进行了总结归类，主要包括审查（Examination），保留（Retention）和引用（Reference）三类，每一类都对应了一些用户行为。比如Rucker和Polanco 的研究中，利用用户收藏的页面信息建立了一个个性化推荐系统，这种收藏页面的行为就属于保留类中的一种[。在众多的用户行为中，用户点击页面的行为相对于其他隐式反馈方式来说，是一种更加容易获得反馈信息且更加稳定的方式[11-2] 。",
+    "context3": "人们假设被用户点击过的页面与用户的检索目的更加相关，因而出现了许多基于用户点击行为的分析并改进检索模型的研究。分析用户的点击行为不仅包括针对检索结果列表的点击行为，同时还有在点击检索结果之后发生的一系列点击页面行为[3-4，以及在浏览页面时产生的行为。Claypool等对用户在页面的停留时间，用户移动鼠标的时间以及用户滚动页面的行为等进行分析，发现潜在的用户兴趣指标[4。Cui等通过对查询日志进行分析，抽取用户点击过的文档中的词项，并建立查询词项与其之间的关联关系，实现查询扩展，以提高检索效率[。",
+    "context4": "然而，收集分析用户的访问行为有时涉及获取用户隐私信息，并不被用户所接受。另外，在缺少用户信息的时候，无法获得直接或者间接的反馈信息，此时可以采用伪相关反馈，也叫做盲相关反馈（BlindRelevance Feed-back）技术，实现结果重排序，提高信息检索性能。"
+  },
+  "4伪相关反馈": {
+    "context1": "伪相关反馈是相关反馈技术中常用的一种方式。它不是从用户那里获得反馈信息，既不需要用户去对检索的结果进行评价，即不需要用户的交互操作，也不必捕捉用户的点击与浏览行为，而是直接从系统检索结果本身获得反馈信息。常用的伪相关反馈通常是将首次检索结果排序靠前的前 $N$ 项作为相关文档，对前 $N$ 项结果进行分析扩展用户的初始查询。虽然这些排序靠前的文档并不一定全都与用户需求相关，但是大部分文档还是用户比较感兴趣的，因此对改善查询质量具有一定的辅助作用。国内外的研究学者纷纷对伪相关反馈的查询扩展方式进行研究[6-8。其中主要的研究包括基于文本的伪相关反馈和基于图的伪相关反馈。"
+  },
+  "4.1基于文本的伪相关反馈": {
+    "context1": "20世纪70年代Rocchio在 Salton的 SMART检索系统中提出一种采用基于文档的查询扩展方式，将检索结果的前 $N$ 项文档中出现的高频词项加入初始的查询中，在向量空间模型基础上对查询词项权重进行重定义，实现查询优化。在向量模型中相关反馈理论认为被用户判为相关文献的特征词权值向量本身有相似性，不相关文献的特征词权值向量与相关文献的特征词权值向量不相似。基本思想是重新构造查询式使得结果更靠近相关文献的特征值权值向量空间。",
+    "context2": "在向量空间模型中，文档和查询都被表示为特征词权值向量。假设 $D r$ 代表在检索出来文档中被认为是相关文档的集合， $D n r$ 代表不相关的文档集合， $N$ 代表检索出的全部文档的数量， $n$ 代表相关文档数量， $N _ { \\neg n }$ 则是不相关文档数量， $D _ { i }$ 和 $D _ { j }$ 分别是相关文档和不相关文档特征词权值向量。在已知初始查询向量 $Q _ { 0 }$ 的情况下，通过以下公式可以得到更新后的查询向量 $Q _ { \\mathrm { n e w } }$ ，其中 $\\alpha$ ， $\\beta$ 和 $\\gamma$ 是可以调整的常量参数。",
+    "context3": "$$\nQ _ { _ { \\mathrm { n e w } } } \\ = \\ \\alpha ^ { * } \\ Q _ { _ 0 } \\ + \\beta ^ { * } \\ \\frac { 1 } { n } \\sum _ { D _ { i } \\in D _ { r } } \\frac { D _ { i } } { \\mid D _ { i } \\mid } - \\gamma ^ { * } \\ \\frac { 1 } { N - n } \\sum _ { D _ { j } \\in D _ { n r } } \\frac { D _ { j } } { \\mid D _ { j } \\mid }\n$$",
+    "context4": "Rocchio算法是经典的相关反馈算法，它提供了一种将相关反馈信息融到向量空间模型的方法，为之后许多伪相关反馈技术的出现奠定了基础。Carpineto等提出在向量空间模型中应用信息论方法实现查询的自动扩展[",
+    "context5": "在基于语言模型的信息检索中，Miller等研究在伪相关反馈中采用隐马尔科夫算法结合语言模型实现查询条件的更新。Zhai等提出基于模型的相关反馈方法，利用首次检索排序靠前的相关文档的语言模型对初始查询的语言模型重新进行估计，以提高检索性能。Lavrenko等提出在训练数据缺失的情况下采用词与查询的相关概率来近似估计词与文档的相关概率的相关模型。",
+    "context6": "然而后来的许多实验结果表明，在某些情况下，单纯基于文本内容的相关反馈方法效果差强人意，尤其当前 $N$ 项初次查询结果中存在许多噪声数据时，扩展后的查询并不能获得更好的检索结果，反而会降低检索质量23-24。",
+    "context7": "Lv和Zhai的研究认为相关文档中与查询主题距离越近的词项越相关，在更新查询时应给予更多的相关性权重，因而提出了基于位置的相关模型。Sakai等针对传统的伪相关反馈中相关文档的抽样进行研究，提出了一种有选择性的相关文档抽样方法，通过文档与查询之间的关系进行聚类，剔除聚类范围之外的即使是排序非常靠前的文档。类似地，Lee和Croft也对排序靠前的文档进行筛选，提出基于重叠聚类的重新抽样方法选择主要的相关反馈文档，重复利用这些重要的相关文档的主题生成新的",
+    "context8": "查询 [2 。",
+    "context9": "通过总结分析不难发现前述的研究在更新初始查询的过程时都有一个共同的假设，即在首次返回的前 $N$ 项文档或者重新选择后的文档中出现的词语或者优化后的词语对更新初始查询起到至关重要的作用。近年来，随着社交网络的普及，出现了许多基于图的信息检索与推荐的模型的研究，基于图的伪相关反馈方法也在悄然兴起。"
+  },
+  "4.2基于图的伪相关反馈": {
+    "context1": "基于图的伪相关反馈技术是排序算法中一项比较新颖的技术，主要是基于拓扑结构的检索研究。区别于基于文本的信息检索，基于图的检索模型可以独立于文本信息之外，通过研究对象间的关系寻找用户更满意的检索结果。",
+    "context2": "在进行Web检索时，由于用户提供的查询往往很难有效地准确表达出其真实的信息需求，Dean和Henzinger决定从另一个角度，根据网页页面之间的连接关系为用户推荐与初始访问的url相关的其他页面。同样地，Vas-silvitskii和Brill针对互联网页面搜索进行研究，利用页面的超链接关系假设相关页面会链接到其他相关页面，而不相关的页面链接的页面也不相关，从而计算页面在Web网路图的距离，实现页面搜索[。",
+    "context3": "Web网页之间的链接图给学者提供了一个新的思路，即构建研究对象的关系图进而建立新的检索模型。Baluja等建立Youtube网站上用户与视频之间的关系图，对You-tube 网站的视频推荐进行研究2。Lee等将用户观影的日志记录抽象成网络图，进而通过随机游走的方法为用户推荐新的影片29-3d。Guan等将用户、文档与标签抽象成实体并相关联，采用基于图的排序算法实现个性化标签推荐。Bu等对基于超图的音乐推荐进行研究，在音乐社群中的音乐和用户存在许多复杂的属性与联系，将用户社交网络与音乐网络结合起来形成的网络图将有助于更好地挖掘用户潜在的偏好，提高推荐效果。",
+    "context4": "同样地针对学术检索问题，在Lao和Cohen的研究中认为该问题是一种典型的可以采用基于异构网络图方法实现检索的问题。从学术检索问题中可以抽象出许多不同的节点和多种关系类型，例如作者、文献、引用关系、合作关系等。在Liu等[343的研究中，提出了一种构建学术异构网络图的方法，并在其基础上采用基于元路径的相关反馈方法实现引文推荐。在反馈模型中，每一种元路径作为排序方法的一种假设，将反馈信息作为种子节点，在异构学术网络中通过元路径来搜寻潜在的重要文献节点。实验结果表明较之基于文本的相关反馈方法，基于网络图的相关反馈能有效提高引文推荐的性能，不失为一种值得推荐的研究思路。",
+    "context5": "总而言之，基于图的相关反馈方法，往往不需要分析文档的具体内容，可以将初次检索的前 $N$ 项结果设置为相关的节点，通过实体间的关系网络来发现新的重要节点，改善系统的检索结果。"
+  },
+  "5相关反馈技术的新发展": {
+    "context1": "随着信息技术的进一步发展，关于相关反馈的研究也在不断更新。在基于文本的反馈模型中，使用查询扩展方法实现相关反馈是最常见的形式之一。近年来随着深度学习（Deep Learning）技术的研究发展，在 Mohannad等b的研究中提出采用自然语言处理及深度学习相结合的方法，可以从大量文本数据中学习得到初始查询词汇与扩展词汇间的关系以及更高质量的词汇向量表示，通过实验证明基于深度学习的查询扩展方法能有效提高信息检索的性能。",
+    "context2": "同时，伴随着基于图结构的反馈模型的发展，在Liu等的研究中，将基于文本的几种反馈方法与基于图结构的反馈方法作为不同的特征，通过采用基于机器学习的排序学习方法（Learning to Rank），对几种特征进行训练，得到整合后的反馈模型，实验证明基于文本的反馈方法与基于图的反馈方法融合后能够更加有效地提高检索的质量。因此，在未来的相关反馈研究中，应当融合更多机器学习与深度学习的方法，在分别对基于文本内容的相关反馈和基于图结构的相关反馈方法进行深入讨论的基础上，研究探讨两者的融合机制，以期获得更佳的信息检索性能。"
+  },
+  "6结束语": {
+    "context1": "相关反馈技术在信息检索领域应用具有较长的历史并且在现今的信息检索研究中依然发挥着至关重要的作用。值得注意的是，相关反馈技术虽然精确了信息检索，但其并不能绝对正确地返回所有相关文档，因为绝对的相关文档集与不相关文档集是无法定义的。使用相关反馈方法，从某种程度上能够提供一个近似的结果集，使查询的效率得到显著的提高。",
+    "context2": "相关反馈简化了用户构造查询时的难度，它将查询步骤分解成一系列小的部分，逐步改善检索结果。在未来的研究中，基于图结构的相关反馈将会与基于文本的相关反馈相辅相成，在新兴技术的作用下，共同成为提高信息检索性能的有效途径。□"
+  },
+  "参考文献": {
+    "context1": "[1]OCLC.MOOCs and libraries:massive opportunity or overwhelming challenge[EB/O1]．[2015-12-26].http://www. oclc.org/research/events/2013/03-18.html.   \n[2] WUK.Academic libraries in the age of MOOCs[]．Reference ServicesReview，2013，41(3):576-587.   \n[3] Lisa Peet.纽约公共图书馆与宾夕法尼亚大学合作提供 MOOC支持EB/O1]．[016-03-31] .htp://m0oc.lib.szu. edu. $\\mathrm { c n } / ? \\mathrm { p } = 2 9 6 1$   \n[4] University of Pennsylvania.Penn online learning initiative[EB/ OL]．[2016-03-31]．http://onlinelearning.upenn.edu/resources /instructor-resources/toolbox/.   \n[5]Penn’s guide to cpyright isues in MOOCs[EB/OL]．[2015-",
+    "context2": "12-26] .http://guides.library. upenn.edu/copyright/publishing."
+  },
+  "[6]蒋逸颖，周淑云．美国大学图书馆MOOC版权服务实践与后示[．图书馆论坛，2016（2)：122.": {
+    "context1": "University of Windsor Library.Copyright resources[EB/O1]. [2015-12-30] .htp: //leddy.uwindsor.ca/copyright-resources. University of Windsor Library.Open acess[EB/OL]．[2015- 12-30] .http://leddy.uwindsor.ca/open-access.",
+    "context2": "[9]教育部．教育部关于国家精品开放课程建设的实施意见[EB/OL]．[2016-01-02].htp://www.moe.gov.cn/public-files/business/htmlfiles/moe/s3843/201111/126346.html.",
+    "context3": "[10]PROFFITT M. MOOCs and libraries，an overview of the current landscape [EB/OL]．[2016-01-05].htp://www.colc.org/ content/dam/research /presentations /profit/moocs2013.pptx.",
+    "context4": "[2]张丹，龚晓林．大学图书馆参与MOOC版权服务的实践及后示——以杜克大学图书馆为例．图书情报工作，2014，58(10)：93.",
+    "context5": "作者简介：王小平，女，1982 年生，硕士，馆员。研究方向：知识产权保护。",
+    "context6": "收稿日期：2016-05-25"
+  },
+  "(上接第139页)": {
+    "context1": "B0lLEE S，KAHNG M，LEE S G.Flexible recommendation using random walks on implicit feedback graph[C]//International Conference on Ubiquitous Information Management and Communication，2011:1-6.   \nB1] GUAN Z，BUJ，MEI Q，et al.Personalized tag recommendation using graph-based ranking on multi-type interrelated objects [C]//Proceedings of the 32nd International ACM SIGIR Conference on Research and Development in Information Retrieval, 2009:540-547.   \nB2]BU J，TAN S，CHEN C，et al. Music recommendation by unified hypergraph: combining social media information and music content[C]//Proceedings of the 18th ACM International Conference on Multimedia，2010:391-400.   \nB3]LAO N，COHEN W W. Relational retrieval using a combination of path-constrained random walks[]． Machine Learning, 2010，81 (1):53-67.   \nB4]LIU X，YU Y，GUO C，et al. Meta-Path-Based ranking with Pseudo relevance fedback on heterogeneous graph for citation recommendation [C]//Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management，2014:121-130.   \nβ5]LIU X，YU Y，GUO C，et al.Full-Text based context-rich heterogeneous network mining approach for citation recommendation[C]//Digital Libraries（JCDL），2014 IEEE/ACM Joint Conference on.IEEE，2014:361-370.   \nB6]ALMASRIM，BERRUT C，CHEVALLET JP.A comparison of deep learning based query expansion with Pseudo-Relevance feedback and mutual information M//Advances in Information Retrieval. Springer International Publishing，2016.   \nB7]JOACHIMS T,LI H,LIU TY，et al. Learning to rank for information retrieval（LR4IR 2007)[]．Acm Sigir Forum, 2007，41(2):58-62.",
+    "context2": "作者简介：于莹莹，女，1987年生，博士生。通讯作者。陈燕，女，1952年生，博士，教授。张金松，男，1985 年生，博士，讲师。",
+    "context3": "收稿日期：2016-05-25"
+  }
+}

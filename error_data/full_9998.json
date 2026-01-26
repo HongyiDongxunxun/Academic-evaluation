@@ -1,0 +1,105 @@
+{
+  "original_filename": "full_9998.md",
+  "长尾数据共享研究进展": "",
+  "■杨平田野": {
+    "context1": "滴要 长尾数据是一种重要的科研资源，由于缺乏关注度与技术支持,它的利用价值被长期忽视。在简要概括其定义、属性以及重要性等的基础上，从壁垒与对策研究、基础架构研究、用户行为研究、图书馆与图书馆员责任能力研究、有机共享研究5个方面梳理长尾数据共享理论研究现状。此外，基于数据生命周期理论归纳促进长尾数据共享的5种常用管理工具,包括 DM PTool、DataUp、EZID、Merrtrepository、数据出版平台。最后，总结长尾数据共享所面临的社会和技术障碍以及相应的对策建议并提出未来的研究建议。",
+    "context2": "送键词 e-science 长尾数据 数据监护 共享因素 数据管理工具",
+    "context3": "份类号G250",
+    "context4": "DOI: 10. 13266/j. issn. 0252 - 3116. 2014. 08. 021"
+  },
+  "1背景": "",
+  "1.1科研长尾理论": {
+    "context1": "长尾（The Long Tail）理论是 2004 年C.Anderson在给《连线》杂志的文章中首次使用的词汇，专门用来描述网络环境下的某种经济模式,如Amazon.com或Netflix。长尾这一术语被普遍使用于统计学中。长尾理论的基本原理是：只要存储和流通的渠道足够宽，需求不旺或销量不佳的产品所共同占据的市场份额可以和那些少数热销的产品所占据的市场份额相匹敌甚至更大，即众多小市场汇聚成可与主流大市场相匹敌的市场能量。",
+    "context2": "P.B.Heidorn在2008年第一次将长尾理论应用到科学数据中，他指出,如果所有的科研项目排列在一条轴线上，而且沿着轴线由大至小的方式排列这些科研项目，那么由几十个或更多的研究人员所参与的非常大的科研项目在轴线的左侧，一些较小的项目将按照规模递减排序到右侧，整个曲线右侧的主要部分就是科研的长尾（见图1）。与轴线左侧的数据不同，科研长尾上的数据通常是趋向于异质的、个人管理的或是未被管理的、未被保存的，一般是有条件获取的或者是受保护的科学数据。一项对美国国家科学基金会(National Science Foundation)2007年的所有超过500美元的资助项目的研究发现， $80 \\%$ 的资金是用于资助100万美元以下的项目的，该研究同时还假设,如果每一美元的科研投入产生出恒定数量的科学数据，那么就说明大部分的科学数据是那些处于科研长尾上的项目所产生的。研究同时发现,这些处于科研长尾上的数据比较难获取并且很少被重用或者保存。",
+    "context3": "![](images/3eec6ccc2d2b997e835308f242ad994cb208105b8e9dfdf43bc728d925caadfa.jpg)  \n图1科研的长尾",
+    "context4": "大多数研究人员所进行的项目都是相对较小的项目,主要是在一个人数相对固定的团队里进行的，团队通常由一个研究员领导，组员的构成可能包括若干位助理研究员以及一些研究生等。研究人员的日常科研活动会产生大量的科学数据,P.B.Heidorn在一项调研中发现，近 $80 \\%$ 的科学研究活动都是处在科研的长尾上面的，它们往往是规模较小、成本较低的科研项目。S.Carlson也认为通常来说“小科学”产生的数据比大科学更多。与那些规模巨大、人数众多、投资庞大并有相当大社会影响力的大科学相比，“小科学”中每个项目更倾向于单学科性的、人数较少、投入较小，"
+  },
+  "杨平，田野.长尾数据共享研究进展": "",
+  "1.2长尾数据、小科学数据与灰色数据定义辨析": {
+    "context1": "“小科学”通常是指由单个或者一个小组的研究人员在指定项目上进行工作的科学，“小科学”中每个项目的特点包括单学科性、人数较少、投入较小等，“小科学”项目产生的科学数据就被称为小科学数据。",
+    "context2": "灰色数据是指那些不容易被潜在使用者所发现的数据,这些数据很难被研究人员进行长期的保存。无论是“大”科学还是“小”科学，灰色数据都是存在的。",
+    "context3": "综上所述，长尾数据、小科学数据、灰色数据都是科学数据的一部分。长尾数据与小科学数据的定义基本一致。灰色数据不仅仅存在于“小科学\"项目中，同时也会存在于“大科学\"项目中,只是“小科学\"项目中的灰色数据量更普遍一些。"
+  },
+  "2长尾数据的属性": {
+    "context1": "正如J.Porter所言,那些在大项目中产生的数据趋向于更加同质,这类项目开始之前，研究人员一般都会事先设定产生的数据的格式、存储位置以及数据权限等诸多问题。大项目中的数据相对比较同质化的另一重要原因是，这些庞大的数据往往是使用一定设备进行机械化收集的，虽然各个项目之间使用的设备可能不太一样，但是同一个项目之间一般都是使用相同的设备，并且对于这些大项目的设备制造商来说，他们有能力来兼容不同的数据格式。另外,这些所产生的同质数据更容易被存储在结构化的数据库中，因此这类数据更容易访问、获取、维护、重用。此外,一般来说受政府资助或企业资助的大项目会更加注重该项目产出的数据,这样做的目的是为了确保这些项目有较大的影响力，相反，规模较小的项目没有客观环境的制约，因此所产生的数据往往都在研究人员个人的手中，很少被共享，很难被重用。关于长尾数据属性的总结如表1所示：",
+    "context2": "表1长尾数据的属性[1]",
+    "context3": "<table><tr><td>头部数据</td><td>尾部数据</td></tr><tr><td>同质的</td><td>异质的</td></tr><tr><td>集中监护</td><td>个人监护</td></tr><tr><td>有标准规范的仓储库</td><td>机构性仓储库或者没有</td></tr><tr><td>长期维护</td><td>很少或不维护</td></tr><tr><td>开放获取</td><td>有条件获取或受保护</td></tr><tr><td>随时可以被重用</td><td>很少被重用</td></tr><tr><td>受到重视</td><td>目前很大程度上被忽视</td></tr></table>"
+  },
+  "3 长尾数据共享研究现状": {
+    "context1": "长尾数据与小科学数据研究也受到了一些国际组织与科研院所的关注。2007年，美国国家进化综合中心（NESCent）与北卡罗来纳大学元数据研究中心共同举办的“数据保存、共享和发现一一数字化时代的小科学挑战\"研讨会[,共同探讨了小科学数据的属性以及当前保存、共享和发现小科学数据中面临的机遇与挑战;2013年，有关小科学数据的国际会议在拉斯维加斯举行[，来自各个学科的研究人员探讨了小科学数据所取得的进展以及发展中的不足;同年,EarthCube[举办的研讨会探讨了大数据时代有关长尾数据共享的网络基础设施以及研究人员的数据共享的行为。",
+    "context2": "目前专门针对长尾数据的共享研究,国内尚未开展,国外的理论研究可以分为以下几部分： $\\textcircled{1}$ 壁垒与对策研究。其代表学者是P.B.Heidorn,他描述了长尾数据为什么是科学进步的关键、数据特性以及妥善管理这些数据的壁垒，最后从知识产权、投资机制、奖励机制、元数据标准和创建工具等10个方面提出了改善建议;他在文献[4]中也论述了长尾的重要性并从技术层面、机构层面以及组织层面提出了长尾数据的解决方案。 $\\textcircled{2}$ 针对特定学科的数据共享基础架构或网络架构研究。H.Onsrud等[认为小科学数据是有着许多潜在价值的,并且他们设计了一种基础结构，解决了重用许可、元数据生成、来源跟踪、归档以及同行评价等核心问题,让用户更方便地使用数据集。 $\\textcircled{3}$ 数据共享用户行为研究。主要采用的是问卷调查法，进而基于调研报告得出结论，研究内容主要是影响某一领域研究人员数据共享的各种因素，研究对象主要是生物学、医学、生态学、地理学等领域的研究人员，如H.A.Piwowar等利用文献计量学分析了医学研究人员的数据共享行为与资助机构政策、期刊政策之间的关系。$\\textcircled{4}$ 图书馆、图书馆员与数据共享。P.B.Heidorn在有关长尾数据的图书馆监护一文中探讨了图书馆与图书馆员在长尾数据共享中扮演的角色与承担的责任。$\\textcircled{5}$ 有机共享。探讨长尾数据共享的关联发布，Y.Gil等[建立了一个将科学文化习俗考虑在内的数据共享语义框架。"
+  },
+  "4长尾数据管理工具": {
+    "context1": "随着学术界越来越关注长尾数据的流失问题，一些科研资助机构、研究机构、期刊出版商等也发布了相关的政策,如美国国家科学基金会(NSF）要求受到资助的个人必须提交一份数据管理计划（datamanage-ment plans）,计划的内容包括产出的数据的类型、数量、存储方式、保存期限、访问权限等。为了使这一系列过程自动化处理,也为方便研究人员自身能够更好地对这些长尾数据进行监护，一些科研机构开发了一系列数据管理工具,这些工具可以全程对数据进行管理,也可以按照数据生命周期即数据收集－处理和分析－存储和共享-出版和重用等来进行分步骤、分时段的管理，其中目前最广泛使用的是由加利福尼亚数字图书馆（California DigitalLibrary）开发的DMPTool 、DataUpb、EZID 、Merrit repositoryb等,这些工具分别对应数据生命周期的几个不同的部分，如表2所示：",
+    "context2": "表2数据管理生命周期服务工具",
+    "context3": "<table><tr><td>工具名称</td><td>数据生命周期阶段</td><td>功能</td><td>受否开源</td></tr><tr><td>DMP Tool</td><td>资助申请</td><td>建立、编辑、共享和存储 数据管理计划</td><td>是</td></tr><tr><td>DataUp</td><td>数据收集</td><td>利用Excel作为数据收 集工具</td><td>是</td></tr><tr><td>EZID</td><td>数据管理和引用</td><td>创建和管理永久标识符</td><td>是</td></tr><tr><td>Merrit reposi-存储和共享</td><td></td><td>作为一种数据仓储来储</td><td>是</td></tr><tr><td>tory 数据出版平台出版</td><td></td><td>存、管理和共享数据 作为基础设施来发布数 据以及确认学术优先权</td><td>是</td></tr></table>"
+  },
+  "4.1 DMP Tool": {
+    "context1": "DMPTool旨在帮助研究人员建立数据管理计划来符合一些资助机构的政策要求，注册该服务的机构可以得到定制化的服务，目前注册用户已经合计超过450个研究机构,总人数超过2300人次。DMPTool可为数据生命周期的其他阶段打下基础，其应用的数据类型可以是文本、表格、图像、音视频、3D模型等。"
+  },
+  "4.2 DataUp": {
+    "context1": "DataUp对于科研长尾数据的收集具有很好的效果,作为数据收集的工具,其利用Excel来保存数据,进行监护,其功能包括标准化的标题、版本控制、自动归档并分配永久标识符等。DataUp的应用流程是“上载表格数据 $\\longrightarrow$ 进行最佳实践审核 $\\longrightarrow$ 利用标准元数据描述数据 $\\longrightarrow$ 对该数据集生成带有永久标识符的引文 $\\longrightarrow$ 将文件存储在数据仓储库中”,DataUp的最佳实践是指能够解析.xlsx或者.csv文件来检测是否存在潜在的文件,避免不必要的重复工作，其应用的数据类型主要是.xlsx或.csv格式的数据。"
+  },
+  "4.3 EZID": {
+    "context1": "EZID允许用户创建和管理永久标识符,其特点包括数据迁移能力强、文本或非文本资源都可以标识、不受时间、地点限制等。对资源进行永久标识可以促进数据引用的规范,转而促进数据的共享和重用，同时确保学术优先权。"
+  },
+  "4.4Merritt repository": {
+    "context1": "Merrit repository作为数据仓储库,提供对科学数据的长期保存、共享和其他管理功能,同时可以作为一个数据发现系统。其使用一种叫做“微服务（micro-services）”的设计范式,仓储的整体数据保存功能由一些小的独立的却具有高度互操作性的微服务组成。其特点包括永久储存、利用URL访问、共享方便以及应用程序接口友好等。Merrittrepository应用的数据类型包括文本、图像、音视频等各种数字对象类型。"
+  },
+  "5长尾数据共享障碍和对策": {
+    "context1": "造成长尾数据共享困难的原因有很多，C.L.Borgman认为,研究“小科学\"中的科研人员的数据共享行为比大科学更为重要，“大科学”在数据管理上往往有着系统可靠的流程和相应的数据仓储。相比大科学，“小科学”往往没有任何统一的数据管理机制和相应的数据仓储来管理小项目中科研人员产出的不断增长的数据量，大部分的数据管理都由个人进行。关注长尾数据共享问题，有助于将数据共享的注意力转移到大多数研究人员正在进行的科研项目上，有利于确保科学研究的完整性和可重用性，有利于提高项目研究的影响力，减少研究人员的重复劳动并且加速科研创新。下面是笔者根据文献调研和一些调查问卷总结归纳出的目前科研长尾数据共享所面临的一些障碍。"
+  },
+  "5.1　缺乏学术报偿体系": {
+    "context1": "目前的学术体系对于研究人员保存和共享科学数据没有任何激励机制，这点从很大程度上造成了长尾数据的流失。S.Lawrence研究发现,没有共享的期刊论文的平均被引次数为2.74次,而共享后的论文的被引次数达到了7.03次。对于数据,很明显这也是可以适用的,但正是因为目前对于科学数据的计量研究开展得不够深入，研究人员对于数据共享后的学术报偿持一种观望态度。"
+  },
+  "5.2缺乏资金支持": {
+    "context1": "长尾数据的监护(datacuration）需要一定的成本，而目前的学术体系并没有给予研究人员足够的资金来维持这一科研活动。即便是一些学校或科研机构提供了这部分资金，但是一般只持续很短的时间。造成这种结果的原因可能是目前的学术体系并没有把科学数据作为很有价值的知识资产（knowledgeassets）。数据作为一种资产有着不可衡量的作用,特别是一些即时数据(real-time data）,比如气候数据等,他们的获取成本非常高，理应得到相应的保存和重用。"
+  },
+  "5.3学科机构库建设不足": {
+    "context1": "目前对于“小科学”产生的数据的存储，专门性的学科仓储还远远不够。“小科学”项目种类千差万别，产出的数据非常多，这些长尾数据因为一些客观原因不能够像大项目中的数据一样被很好地监护,因此需要建立更加细分的学科仓储来对此类数据进行学科性的集中监护。"
+  },
+  "5.4　缺乏培训": {
+    "context1": "即便是一些研究人员有期望长期保存长尾数据的意向,也有相应的资金,但是不同于大项目中有专门的数据监护人员，研究人员自己由于专业知识的关系，他们缺乏专门的数据监护的能力，这些研究人员不了解机构仓储，也不熟悉相应的数据管理工具。如前所述，目前已经有一些比较流行的开源数据管理工具,比如 DMP Tool、DataUP、EZID service 等。"
+  },
+  "5.5知识产权问题": {
+    "context1": "一些研究人员认为共享他们的科学数据会带来一些知识产权(intellectual property rights)问题。随着开放运动的不断开展，研究人员应当逐步意识到知识产权和知识共享的区别,并且研究人员也可以采取逐步共享的做法,将数据共享问题分层次解决，首先实现从非正式共享到本团队、本项目组、本校之内的有权限的非正式共享，等到时机成熟或者制度规范明确的时候，再进一步推动非正式共享到正式共",
+    "context2": "享的转变。"
+  },
+  "5.6政策环境不明确": {
+    "context1": "尽管目前有一些国家或地区性组织,甚至一些期刊都发布了论文的数据共享要求,比如向期刊投稿时必须向期刊编辑和同行评审专家提供相关的科学数据或者可以获得涉及该研究的科学数据的第三方仓储库的存取号,如 BMC Evolutionary Biology、PLOS One等,但是执行力度的不统一,尤其是小科学项目中,由于没有细分的学科仓储,这些长尾数据的流失情况尤为严重。"
+  },
+  "5.7没有统一的数据引用规范": {
+    "context1": "一个较为规范的数据引用政策，可以促进数据集的合理引用、加快数据计量的发展，并且确保研究人员对该数据集的学术优先权，转而又促进了数据的共享,此过程是一个良性的循环。在大项目中,由于有专门的监护人员，所产出的数据可以按照一定的数据引用标准发布，比如DataCite、OECD、DCC 2等,而小科学中的长尾数据，由于较为分散，没有统一的引用标准，造成了共享过程中的诸多不便，致使这些数据很难被重用。",
+    "context2": "针对长尾数据在共享过程中面临的障碍，笔者进行总结后给出了相应的解决方案，如表3所示：",
+    "context3": "表3长尾数据共享障碍及解决方案",
+    "context4": "<table><tr><td>长尾数据共享障碍</td><td>解决方案</td></tr><tr><td>缺乏学术报偿体系</td><td>建立相应的数据计量体系</td></tr><tr><td>资金不足</td><td>对长尾数据长期保存提供专项资金</td></tr><tr><td>学科仓储建设不足</td><td>建立主题更加细化的学科仓储</td></tr><tr><td>缺乏培训</td><td>对科研人员就机构仓储、数据管理工具等进行培训</td></tr><tr><td>面临知识产权问题</td><td>不共享到非正式共享到正式共享</td></tr><tr><td>政策环境不明确</td><td>加强政策层面的执行力度</td></tr><tr><td>数据引用规范不统一</td><td>规范引用标准、确认学术优先权</td></tr></table>"
+  },
+  "6结语": {
+    "context1": "长尾数据作为一种数量巨大、内容异质、呈现“小科学”特征，但受到的关注度却很少的科学数据，在整个科研活动中发挥着重要的作用，它往往是科学创新的源头，与处于头部的数据不同，针对长尾数据共享的研究稀少、分散,共享现状也往往由于各种主客观因素而不容乐观，长尾数据管理工具的出现虽然可以很好地帮助研究人员进行数据管理与监护,但并不能从根本上解决共享问题，实现长尾数据的共享还需要政策、技术以及研究人员个人等各方面的支持,因此还有很长的路要走。对于今后的研究，笔者有以下几点建议： $\\textcircled{1}$ 将关注点从宽泛的数据共享集中到科研的长尾上，结合长尾数据的属性与国内外数据共享的研究成果，更加深入细致地探讨长尾数据共享的问题。 $\\textcircled{2}$ 结合数据生命周期理论，将长尾数据共享研究从科学数据生命周期的下游(项目结束后、论文出版后)向上游(项目进行前和进行中、论文撰写中)拓展和延伸。不仅关注正式共享，更关注项目层面的非正式共享，为长尾数据共享研究提供新的思路。 $\\textcircled{3}$ 由于各个学科产生的科学数据的类型、特性各不相同，可以将长尾数据共享的讨论纳入到学科分类体系中，对各个学科的共享问题进行单独探讨。"
+  },
+  "参考文献：": {
+    "context1": "[1]Long tail [EB/O1]．[2014-03-12] .htp://en.wikipedia.org/ wiki/Long_tail.   \n[2]Heidorn PB.Shedding light on the dark data in the long tail of science [] .Library Trends,2008,57(2):280 -299.   \n[3] Peck S L. Science suffers when getting a grant becomes the goal [.Chronicle of Higher Education,2008,55(7):33 -35.   \n[4]Strasser C，Kunze J,Cruse T.Big data’s long tail [EB/OL]. [014-04 -O6] .htp://pt.slideshare.net/jakkbl/big -datas - long - tail.   \n[5] Carlson S.Lost in a sea of science data []．The Chronicle of Higher Education,2006,52(42) :35.   \n[6]Edinburgh University.Data library research data management handbook EB/O1]．[2014 -03-16] .http://www.docs.is.ed.ac. uk/docs/data- library/EUDL_RDM_Handbook.pdf.   \n[7] Seglen PO.Why the impact factor of journals should not be used for evaluating research[J]．British Medical Journal，1997，314 （7079) : 498.   \n[8] Sun Bingjun，Mitra P,Giles C L，et al.Topic segmentation with shared topic detection and alignment of multiple documents $\\mathbb { C }$ $/ /$ Proceedings of the 3Oth Annual International ACM SIGIR Conference on Research and Development in Information Retrieval. Pennsylvaia:ACM,2007:199-206.   \n[9]Cragin MH,Palmer C L,Carlson JR,et al. Data sharing，small science and institutional repositories []．Philosophical Transactions of the Royal Society A: Mathematical,Physical and Engineering Sciences,2010,368(1926):4023-4038.   \n[10]Porter J.Ecological data:Design，managementand processing M .Hoboken: John Wiley & Sons,2009.   \n[1]Data preservation，sharing，anddiscovery:Challenges forsmall science in the digital era EB/O1]．2014-O3-10].http: //wiki.datadryad.org/Workshop_May_2007.   \n[2] The International Conference on Small Science （ICSS 2013)EB/ O1]．[2014-03-15] .ttp: //www.icssci. org/.   \n[3]EarthCube.Domain end-user workshop:Engaging the critical zone community to bridge long tail science with big data [EB/OL]. 2014-03-10].htp://earthcube.ning.com/events/earthcube - domain - end-user- workshop-critical- zone.   \n[4]Heidorn PB.Dark data in the long tail of science:Examples in biology EB/O1]．[014-03-10] .http://www.Slideshare.net/ pbheidorn/dark -data- in -the-long-tail - of - science - examples-in-biology.   \n[5]Onsrud HJ,，CampbellJBig opportunities inaccessto“small science”data [ .Data Science Journal,2O07(6)：58-66.   \n[16]Piwowar HA,Day R S,Fridsma D B.Sharing detailed research data is associated with increased citation rate [/OI]．PLOS One, 2007,2(3)．[014-03-10] .http: //www.plosone.org/article/ info% 3Adoi% 2F10.1371% 2Fjournal.pone.0000308 pone0000308-g002.   \n[7]Heidorn PB.Library curation of long-tail science data [EB/OL]. [014 -04 -06] .htp://www.codata.org/10Conf/abstractspresentations /Sessions% 20J/J3/B.%20Heidorn. pdf.   \n[8]Gil Y,Ratankar V,Hanson P.Organic data publishing:A novel approach to scientific data sharing [C] //Proceedings of the 2nd International Workshopon Linked Sciene.Heidelberg:Springer,2012.   \n[9]National Science Foundation 2010.Scientists seeking NSF funding will son be required to submit data management plans EB/OL]. [014-04-03] .https: //www.nsf.gov/news/news_summ. jsp? $\\mathrm {  ~ \\cdot n t n \\_ i d } = 1 1 6 9 2 8$   \n[0] CDL EB/O1]．014-03-17] .htp://www.cdlib.org/.   \nβ] DMP Tol[EB/O1]．[014-03-18].htps://dmp.cdib.org/.   \n[2] DataUp EB/OI]．[014-03-18].http://dataup.cdlib.org/.   \n[3]EZID EB/OL]．[2014-03-18].http: //www.cdib.org/uc3/ ezid/.   \n[4]Merrttrepository [EB/OL]．[2014-03-18].http://www. cdlib.org /uc3 /merritt/.   \n[5]Borgman CL.Thedigital future is now:Acallto action for the humanities [.Digital Humanities Quarterly,2009,3(4):57-59.   \n[6]Lawrence S.Fre onlineavailability substantiallyincreases apaper s impact [ .Nature,2001,411(6837):521.   \n[7] DataCite International Data Citation Metadata Working Group.DataCite metadata schema for the publication and citation of research data version3.0 EB/O1]．[014-03-18].htp://schema.datacite.org/meta/kernel-2.1/doc/meta/kernel-3/meta/kernel - 3/meta/kernel-2.2/index.html.   \n[8]Green T.We need publishing standards for datasets and data tables [.Learned Publishing,2009,22(4):325-327.   \n[9]Duke M,BallA. How tocite datasets and link to publications: A report of the digital curation centre EB/O1]．[014-O3-18] .http: //www.dcc.ac.uk/resources/how- guides/cite -datasets."
+  },
+  "Research Process of Long Tail Data Sharing": {
+    "context1": "Yang Ping1Tian Ye2,3",
+    "context2": "1Chongqing University of Science & Technology Library,Chongqing 401331",
+    "context3": "²The Lanzhou Branch of National Science Library,Chinese Academy of Sciences,Lanzhou 73000(",
+    "context4": "3 University of Chinese Academy of Sciences,Beijing 100049",
+    "context5": "[Abstract] Data in the long tail isan important research resource.Due to thelack of social atention and technical support,itsusevalueislong neglected.Basedonthebriefsummaryof thedefinition，propertiesandimportanceof data in thelongtail,this paper generalizesthetheoreticalresearchof data sharingin thelongtail fromfiveresearch perspectives of barriersand countermeasures，web infrastructure，users’behaviors，librariesand librarians’responsibilities，andorganic data sharing.Based ondata lifecycle theory,it summarizes five kinds of commom managementtools of data sharing in the long tailincluding DMPTool,DataUp,EZID,Meritrepository，anddatapublishingplatform.Finally,thispaper points out the social and technical bariers of data sharing in the long tail and proposes recommendations in future.",
+    "context6": "[Keywords] e-science long tail datacuration datasharing factordata management tools"
+  },
+  "(上接第95页)": "",
+  "Research Progress of Scientific Data Citation in Forging Countries": {
+    "context1": "Zhang Jingbei1,2Lv Junsheng1Tian Ye1,2",
+    "context2": "1Lanzhou Library of Chinese Academy of Sciences,Lanzhou 730000",
+    "context3": "² University of Chinese Academy of Sciences,Beijing 100049",
+    "context4": "[Abstract] This article summarizes three key issues of data citation:citation awareness，citable object and long - term preservation.Itdiscusss theresearch progressofdata citation inforeigncountries from three perspectives of the developmentofdata citation standards，and theresponsibilitiesandobligationsofstakeholders.Itfindsthatdata citation standardsare incompatible,thereference management software is lack of support forscientificdata，responsibilities and obligations of stakeholders are not clear.Finaly,thearticleputs forward sugestions about key issues and givesa forecast.",
+    "context5": "[Keywords] data citationcitation standardreference management softwarestakeholder"
+  },
+  "《图书情报工作》2014年增刊(2）征稿启事": {
+    "context1": "为了给图书情报工作者提供更多的学术交流机会，使更多作者的优秀科研成果得以发表,《图书情报工作》杂志社定于2014年下半年出版《图书情报工作》增刊(2)。内容涉及基础理论研究、信息资源管理、信息服务、信息技术与人才培养等。",
+    "context2": "征文要求:",
+    "context3": "1.主题明确,数据可靠,文字通顺,且一稿专投(即未在他刊上发表);2.请登录本刊网站www.lis.ac.cn在线投稿(投稿请注明\"2014年增刊(2)\"字样）,并留下详细联系方式；3.如稿件在30天内未收到录用通知，稿件即可自行处理;4.投稿前请按照本刊要求自行检查中文标题、作者姓名、单位及职称、中文摘要、关键词、分类号等要求项是否齐全，：请按照本刊体例格式著录参考文献。",
+    "context4": "截止日期:2014年11月2日 联系电话:010-82623933 010-82626611-6638联系人：赵芳 E-mail: tsqbgz@ vip.163.com"
+  }
+}

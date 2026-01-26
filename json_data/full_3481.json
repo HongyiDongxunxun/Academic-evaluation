@@ -1,0 +1,97 @@
+{
+  "original_filename": "full_3481.md",
+  "国外大众标注系统研究进展": {
+    "context1": "程慧荣¹黄国彬² 张永杰1",
+    "context2": "（1鲁东大学图书馆烟台 264025)(2中国科学院文献情报中心北京 100080)",
+    "context3": "文摘从理念、系统、用户和标签等四个角度揭示了国外大众标注系统的研究现状，并指出国外大众标注研究的发展阶段和特点;同时介绍了国外有关大众标注研究的概况、存在的不足。在此基础上，通过介绍相关学者的主要观点，分析了大众标注研究的发展趋势。",
+    "context4": "关键词标签大众标注研究进展",
+    "context5": "Recent Progress of Study on Fo lksonam y System Abroad Cheng Huirong', Huang Guobin², Zhang Yongjie （lLibrary of LuDong Universitys YanTai264025 )   \n(2The Library of Chinese Academy of Sciences BeiJingl00080)",
+    "context6": "Abstract The paper analyzes the status develbpment stage and feature of the study on fo lksonmy system abroad frm the aspects of idea system，users and tag Meanwhile discusses the general sit uation and disadvantage of the study on folksonomy abroad On that basisit explores the trend of the study on folksonomy via review ing the main viewpoints of some relevant scholars K ey words: Tag Folksonomy Social tagging Recent progress"
+  },
+  "1引言": {
+    "context1": "“大众标注\"系由“folksonomy”一词翻译而来，是 web2.0环境下信息组织的一种新方法。自2004年 ThomasVanderWal首次提出“ folksonamy\"以来,国外学者围绕大众标注和大众标注系统的定义、发展背景、工作原理、优缺点、用户等问题，展开了热切的研究，并呈现出明显的阶段性特征。大众标注系统是基于大众标注的理念与方法构建起来的、允许用户对数字资源或网络资源进行自由标注的网站或系统平台。本文将从国外对大众标注系统的研究脉络出发，探究国外大众标注系统的研究现状、研究特点以及研究趋势。笔者分别以 folksonomy social tagging和Collaborative tagging为检索词，查询了ACM和 LISA数据库，获得与大众标注这一研究主题相关的文章后进行人工去重。同时综合采用yahoogoogle和baidu等搜索引擎查找到与大众标注相关的网络资源。据不完全统计，国外关于大众标注的相关资源已不少于70篇。从其研究主题分析，迄今为止，国外有关大众标注系统的研究主要集中于四个方面：大众标注的理念;大众标注系统的发展、工作原理、不足和改进;大众标注系统的核心要素一标签;大众标注系统的用户。"
+  },
+  "2关于大众标注理念的研究": {
+    "context1": "大众标注即是 $\\mathrm { w e b ~ 2 . ~ 0 }$ 环境下信息组织的新理念,也是一种新兴的技术。尽管这一理念的兴起仍为时不到五年，但研究人员对其称谓与内涵的理解却可谓见仁见智。"
+  },
+  "2.1有关大众标注的称谓": {
+    "context1": "大众标注最初由美国互联网专家ThomasVanderWal于 2004年底提出[1],有学者认为，大众标注是 folk和 taxonomy的合成[2],也有学者倾向于使用“socialclassification\"或者是“distributedclassifi-cation”[3,4]。除此之外,也有国外学者将之称为 eth-noclassification[5],或者是 folk classification,ethnoclas-sification、open tagging free tagging faceted hierarnhv[6]还右将之解为nllhom tive tmrn[7,8]和social tagging[9]等。甚至有学者对大众标注提出了10多种的理解[10]。"
+  },
+  "2.2大众标注的内涵": {
+    "context1": "ThomasVanderWal认为大众标注是“由底到上的社会分类法\"[l];Clay Shirky认为大众标注是“由大众创建，突出特点是具有扁平的命名空间\"[12];同年，David则认为大众标注是“一个完整的标签集，由一个或两个以上的关键词组成，是共享内容管理系统的用户用于对其个人创建或发布的内容进行分组或分类以便于检索的一种方法\"[13]。随后，围绕大众标注的概念研究国外学者纷纷发表了自己的观点。较有代表性的观点包括：",
+    "context2": "大众标注是一种技术，也应该是一种理念;大众标注可以起到分类(classify)的作用；大众标注所标注的对象包括书签（bookmarks)以及一切基于网络或者说是以网络作为传播手段的数字资源[14]。",
+    "context3": "一种为数字对象创建在线元数据的、非集中化的、社会化的方法[15]。",
+    "context4": "大众标注是数字对象使用者赋予数字对象文本标识（text labels)的一种组织机制[16]。",
+    "context5": "大众标注是一种基于因特网的信息检索方法。该方法以合作创建的、不受限制的标签为基础，并通过标签来归类网页、在线图片和网络链接等数字对象[17]",
+    "context6": "大众标注是由用户创建的分类法（taxonomy)，使用不受限制（open一ended)的标签来分类和检索各种网络资源,包括网页、在线图片和链接[18]。",
+    "context7": "将大众标注理解为“标注者自已使用的概念”（their own personalconcepts)[19]。",
+    "context8": "笔者认为，使用标签（tag)对自身创建或他人创建的网络信息资源进行标注，以供标注者自身或者他人进行检索的信息资源的过程或结果，即是大众标注。"
+  },
+  "3关于大众标注系统的发展、工作原理、不足和改进的研究": {
+    "context1": "2005年 8月，Scott A:Golder Bemaido A. $\\mathrm { H u ^ { - } }$ beiman等人围绕标注者的行为规律、标签的使用频率、标签类别、最热门的被标注对象、最热门标签的相对稳定性等角度剖析了大众标注系统[20]。在此前后，国外有关大众标注的研究主要集中于发展背景、工作原理、特点、不足和改进措施等主题。"
+  },
+  "3.1大众标注系统的发展历史": {
+    "context1": "在研究起源方面，部分国外学者倾向于从社会网络服务软件或站点的角度，研究大众标注的发展背景。早在大众标注的概念被提出之前，围绕标注的相关研究就已存在。国外有学者研究指出[21],大众标注是社会性网络服务（SocialNetworking Service 或 SocialNetwork Service 简称 SNS)理念进一步发展的必然结果。Danah Boyd和Nicole Ellison等从社会网络站点的发展渊源，分析支持大众标注网站出现的背景。该文指出，最早的社会网络站点始于1997年的 SixDegrees com,该站点出现伊始即支持用户创建个人背景文档信息、设置朋友列表和网上冲浪。事实上，支持大众标注的网站除了能够让用户自由地选择自己喜欢的标注来标引自身发布的内容，更是可以让用户通过标注来寻找同趣用户，发现朋友圈。从这一角度上看，支持社会化标注的网站是社会网络服务理念在 $\\mathrm { w e b ~ 2 . ~ 0 }$ 环境下的拓展与延伸。社会软件（social software)分析家 shirky于 2003年在其所撰写的文章“Yet Another SocialNetwork ingService\"中指出[22],许多以用户背景信息为中心的站点，开始关注如何通过内容让用户可以共享相互之间的激情和创意，并指出 del icio us(共享标注）、flickr(共享图片）、LastFM（共享音乐）和YouTube (共享视频)等网站，是以共享为中心的社会网络服务系统的杰出代表。据Tony Hammond等人研究认为，最早支持大众标注的网站是Frassle[23],建立于 2003年11月,不过目前用户规模不大。",
+    "context2": "MariekeGuy总结了大众标注的发展简史[24]：数字网络大幅度提高了工作效率并成为社群生活的重要组成部分;二十世纪九十年代weblogs开始流行，着重采用元数据组织信息资源的用户数有所增长；Joshua Schachter开发了del icio us系统(网站）,2003年底投入使用;到了2004年年初，该网站已经开始采用非层次的关键词分类系统来允许用户在线标引网页;基于标签的信息组织理念迅速被人们广泛应用到其他社会化软件中；2004年底，学者 Thom\"asVanderWal通过一个邮件讨论列表，首次提出“folosonomy\"这一称谓;从2005年年初起，支持标签的网站开始大量出现，大众标注已经成为时下有关自由分类法的专业术语。"
+  },
+  "3.2大众标注系统的工作原理": {
+    "context1": "根据标注对象的不同以及支持大众标注的网站在功能设计上的差异，大众标签系统的工作原理在实现上具有细微的不同，但是，允许用户自行使用标签或者是给用户推荐合适的标签，让用户标注感兴趣的网络信息内容则是大众标注系统通用的工作原理。Marieke Guy Emma Tonk in 等以 del icio us和flickr为例，介绍了大众标注的工作原理[25]；TonyHamm ond,Tmo Hannay Ben Lund等也以 conno tea为例揭示了大众标注系统的工作原理。"
+  },
+  "3.3大众标注系统特点": {
+    "context1": "与传统信息组织理念和方法相比，大众标注特点突出。这主要体现为：每一个被描述的对象均可以从类别体系中找到合适的标签;没有固定的层次关系;任何人都可以创建、选择自己喜欢的标注；新标签的引入随时可以进行;每一个被描述的对象在理论上可以拥有数量不受限制的标注;使用者完全不用接受专业培训，而且标注的过程完全可以随心所欲。此外，David Weinberger也在其文章中阐述了大众标注的特点[26]。"
+  },
+  "3.4大众标注系统的不足": {
+    "context1": "即便是ThomasVanderWal本人也不得不承认大众标注与生俱有的不足。自由、不受控制、非专业路线的结果就是标准、规范缺乏，这将引发共享、查找以及浏览上的问题。自大众标注被提出，人们便意识到这一问题，AdamMathes在 2O04年就指出大众标注的局限,随后,有文献进一步指出[27],大众标注标签的滥用、标准缺乏以及信息重利用效率低等缺点。MariekeGuy认为[28]，自由分类法存在以下缺点：标引词含义模糊;同音异义字、同义词、本地语的使用难以得到有效控制;缺乏秩序;不严密等。英国巴思大学BrianKely在 2OO5年也指出[29],其实，自由分类法是在创造“资源孤岛”不利于促进信息共享。Alireza Nouzi也阐述了大众标注存在的不足，进而证明需要为大众标注提供受控词表的原因[30]。"
+  },
+  "3.5大众标注系统的改进措施": {
+    "context1": "明确大众标注存在的不足、不断提出改进其效率的有效措施是大众标注研究的重要特点。2005年10月，MariekeGuy即提出改进自由分类法的若干建议。到 2OO6年,Guy M·和 TonkinE撰文指出需要对用户进行自由标引的教育[31]。2007年 8月，Hend SA1-Khalifa和 HughC.Davis等人撰文试图通过使用三种分类角度一一个人的（personal)、事实的（factual)、主观的（subjective),深入理解与分析大众标注中各类标签,寻求大众标注的改进措施[32]。"
+  },
+  "4 关于大众标注系统的核心要素一—标签的研究": {
+    "context1": "作为大众标注系统的核心要素，围绕标签开展相关研究也成为国外学者在此领域的一个研究热",
+    "context2": "点。目前，国外学者围绕大众标注中标签的研究主要集中研究在标签的概念、优缺点、可视化、相关度处理以及标注性能的改进措施等方面。"
+  },
+  "4.1标签的内涵": {
+    "context1": "标签基本含义是“标明物品名称”具有标示作用。作为大众标注系统的功能加以具体实现的重要手段,标签（tag)是一种“free－fom keywoid metadata”(自由形式的关键词元数据）[33],国内学者倾向于将 tag译为“标签\"[34,35]。赋予标签的过程可看作一种标注行为。但也有学者将 tag视作一种“subjectheadings”(标题词)[36],即标签具有直接揭示内容、提供查找功能、表达精炼(多为词或短语)等作为标题词必须具备的特点，而依据标签进行标引形成的结果更是被视为“personalisedclassification”（个人化的分类)[37]。因此,在大众标注的理念下，赋予标签的标注行为实际上已经既能直接揭示内容，又能为日后提供查找，具备了标引功能。"
+  },
+  "4.2标签的外延": {
+    "context1": "标签可以是什么？标签是概念（concepts)类别（categories）、分面（facets)或者是实体（entities)[38]。ScottA·Golder等认为标签的种类主要包括[39]：表明事物范围的标签、表明标注对象类型的标签、表明所有者的标签、对类别进行归纳的标签、表明事物的性质或特征的标签、自我识别之用的标签、表明事物用途的标签等。"
+  },
+  "4.3标签的优点": {
+    "context1": "Prentiss Riddle论述了标签的种种优点[40]。包括：标示，可以方便查找;指代，索引中指代原件;聚类，可以提供关联度;分面标引;体现集体智慧等。ChristopherH·Brooks 和 Nancy Montanez 研究认为[41],标签已经成为了一种用于注解和组织包括博客在内的各类网络信息资源的重要工具。同时，以Technorati网站为例，抽取了该网站使用率最高的350个标签进行分析，判断同一标签所标注的所有博客文章是否具有主题上的相关性。文章最后指出，标签是将主题相关的博客文章加以汇集的有效途径。"
+  },
+  "4.4 大众标注中标签存在的不足": {
+    "context1": "大众标注允许用户自行创建、选择标签用于标注自身感兴趣的资源。这虽然有利于自由，但却也在无形中导致标签标注质量的下降。Nouzi A·认为[42],大众标注中标签的主要缺点是歧义多（polysemy）、同义多（synonymy）、单复数滥用以及专指度不够biNiwagHoDei. AiiHonideserS则认为t标签冗余（tag redundancy in folksonomy)是导致标签标注质量下降的主要原因[43]。"
+  },
+  "4.5标签的可视化与相关度的处理": {
+    "context1": "将标签可视化地揭示出来，以直观形式的界面让用户通过标签发现、查找所需的资源是大众标注的价值体现。标签的可视化结果很大程度上与各种标签的使用频率密切相关，AdamMathes研究指出[44],标签遵循负幂分布：少量的标签被大量的人使用，大量的标签只有少数人使用，更大数量的标签只有一到两个人使用过。TerrellRussell引入一种用于动态显示标签的在线可视化工具Cludalic ious该工具能够接受来自网络的可视化请求，并从 delicio us中收集标签数据，利用图表描述用户标注行为的动态变化[45]。此外，为了更好地揭示标签的相关度，Hak Lae K im、Suk Hyung Hwang Hong Gee K im等人则以“只要两个博客存在主题上的相似性，那么，这两个博客所使用的标签集也肯定会存在相似性”为依据[46],开始通过形式概念分析，利用blogsphere中的标签数据，提出一种用于实现上下文的大众标注和创建概念层次的新方法，用于揭示标签的相关度。"
+  },
+  "4.6标签标注性能的改进": {
+    "context1": "查准率不高是采用大众标注进行信息组织的一大不足。为了解决这一问题，2005年，Pind在其文章中阐述了如何提升标签使用效率的办法[47]。随后，IsabellaPeters提出采用自然语言来解释标签，以消除标签的语义问题[48]。美籍墨西哥学者UlisesAliMejlas在题为“标签素养\"的文章中围绕大众标注的内涵、创建标签的指导原则、高效率标签的衡量标准、如何使标签具有社会价值、如何通过标签查找资源等问题开展了专门探讨。他指出[49],高效率的标签必须满足：既要有个性化而不失社会共享性；表示一类事物时使用复数形式;尽量不要使用大写字母，除非是为了表达一个专有名词;尽量使用网络社群熟悉的词语;将近义词都列出;注意参照使用其他用户已经普遍使用的词语。等等。他指出高效率的标签将可能带来更高的社会价值，它可以让人们通过标签、使用某一标签的用户、使用某一标签的网络社群或者标签云图的动态发展来跟踪、发现、查找人们所需要的各类数字资源。此外，Adam Mathes GuyM.和 Tonkin $\\mathrm { E } ^ { [ 5 0 ] }$ 以及Macgregor G.和 McCulloch$\\mathrm { E } ^ { [ 5 1 ] }$ 也纷纷提出了多种提高标签质量的解决措施。"
+  },
+  "5关于大众标注系统的用户研究": {
+    "context1": "认为，用户能不能参与网络信息资源的组织是划分webl.O和 $\\mathrm { \\ w e b 2 . ~ 0 }$ 的一个重要标准。作为 $\\mathrm { w e b 2 . ~ 0 }$ 的一个重要特征，允许全体用户自由地标注网络信息资源是大众标注的核心理念。为此，JakobVoB认为[52],用户是四重身份的结合体。即用户是作者(创建、编辑资源）合作者(添加资源到资源集）索引者(通过标签查找资源）研究者(通过标签对大众标注的查找和浏览性能开展研究）。研究用户的角色虽然重要，但是,明了用户的标注动机将更有利于提高标注性能。Tony $\\mathrm { H a m m o n d }$ 等从内容创建者和标注者的角度出发[53],分析了大众标注过程中用户的四种动机：第一种是内容创建者本身为自身检索的方便而进行的标注;第二种是用户标注他人创建的内容以满足自身的检索需要。目前，支持这类社会化标注的网站较多；第三种是用户标注自身创建的内容以满足他人的检索需求;第四种是用户标注他人创建的内容以便满足他人的检索需求。"
+  },
+  "6结语": {
+    "context1": "标注自由度极高是大众标注系统给用户在标注网络资源方面带来的最大便利。但是，标签给定的随意性以及因人而异将有可能导致信息资源共享的困难(可能不同用户会使用不同的标签去标注同一资源内容）标签垃圾(某些标签只有极少数用户使用或者是同一个用户对同一个资源对象使用过多的标签)等问题。可否给大众标注系统的标签功能加以一定的使用限制呢？虽然目前有些大众标注系统已经使用推荐标签功能，建议用户优先选择系统推荐的标签标注资源，但是，系统却有可能因为对资源内容缺乏全面准确的自动识别而未能推荐出准确的标签，甚至有可能因为推荐的标签不当进而影响到用户使用其他标签进行标注。同时，这种自动推荐标签的功能也在一定程度上削弱了大众标注系统的本源功能一—自由标注资源。究竟是对大众标注系统在标签使用上实行适度的限制，还是完全不进行标签使用的限制，依然是大众标注系统开发者、研究人员、广大用户需要深入考虑的问题。无论如何，在W $\\mathrm { { e b 2 . 0 } }$ 环境下，信息创建者与信息消费者已融为一体，大众标注作为一种新兴的网络信息组织方法，对其研究还有待于进一步加强。了解国外有关大众标注系统的最新研究进展状况，有助于促进我国计算机界、图书情报界等对此主题的深入研究。"
+  },
+  "参考文献": {
+    "context1": "1Smith G.& VanderWalT，Online Infomation A rchitec",
+    "context2": "2SmithG..Folksonamy:social classificationatom iq 2004—08-03.htp://atom iq org/archives/2004 /08/ folk sonmy social classification hml [2Oo7—10—06]",
+    "context3": "6同4.",
+    "context4": "VHuIUu VUU ni DUUNHuIng uIu IUp ng Hty, uuu org/www2006 /annotea htm· [2007－10—13]   \n20Scott A. Golder Bemaido A Hubeman The Structure of Collaborative Tagging Systems 2005—08-12.   \n21danah boyd Nicole Ellison SocialNetwork Sites Defini tion and Conception 2007—09—04. http //www. danah org/papers/worksinprogress/SNSH istory html[2007—10 -05]   \n22同22   \n23同4   \n24同11   \n25Marieke GuyEmma TonkinFolksonmies Tidying up Tagg.2006—Ol. htp://www. dlib org/dlib/january06/ guy /0lguy hml [2007-10-12]   \n26David Weinberger Taxonomies and Tags Frm Trees to Piles of Leaves2006-Ol htp: //hyperorg cam/blgger/m isc/taxonom ies_and_tags html [2007-10—13]   \n27 Guy M.& Tonkin E，Folksonom ies-Tidying up Tag&·January 2OO6.D-Lib Magazine htp://www. dlib org/dlib/januaryO6 /guy/Olguy hml $2 0 0 7 - 0 9 -$ 13   \n28同11   \n29Brian Kelly FolksonamiesThe Sceptic's Viewt ：2005- 06 http: //ww. ukoh ac uk/web-focus/events/confer ences/ili-2005/talk-3/ [2007-09-10]   \n30同19   \n31同27.   \n32Hend S Al-Khalifa Hugh CDavis Towaids Better Understand ing of Folksonm ic Pattems $2 0 0 7 - 0 8 - 3 1 .$ http://portalacm:org/ft_gatewaycfm? $\\mathbf { i d } \\ =$ $1 2 8 6 2 8 8 \\& \\mathrm { t y p e } = \\mathrm { \\ p d \\& \\ c o l l } = \\& \\mathrm { d l } = \\mathrm { \\ A C M \\& C F I D } =$ 15151515&CFTOKEN $=$ 6184618.[2007—10—15]   \n33 R ick WashEm ilee Rader Public Bookmarks and Private Benefits An Analysis of Incentives in Social Computing $2 0 0 7 - 1 0 \\ \\mathrm { { h t t p } } .$ //www. asis org/Conferences/AMO7 /papers/40.hml [2007-09—10]   \n34毛军·元数据、自由分类法（Folksonmy)和大众的因特",
+    "context5": "11同2",
+    "context6": "12Clay Shirky Ontobgy is overated:categorieslinksand tags $[ 2 0 0 6 - 0 6 - 0 6 ]$ .http://shirky com/writings/ontology overrated h ml.",
+    "context7": "13David N.Sturtz Communal Categorization: The Folkson\" omy 2004—12—16.htp://www: davidsturtz com /drexel/622/communal-categorization-the-folksonomy ht ml[2007-10-15]",
+    "context8": "14Kaikai Shen Lide Wu Folksonomy as a Complex Net work:2005-09-23.htp://a1xiv org/ps_cache/cs/ pdf/0509 /050972.pdf [2007—10—14]",
+    "context9": "(C)995420calectcttp:/",
+    "context10": "35梁桂英，李记旭．Folksonmy初探·图书馆杂志．2006 (4):46-49   \n36Isabella Peters Wolfgang G.StockFolksoncmy and Infomation Retrieval 2007-10. htp://www:asis org/ Conferences/AM07 /papers /26.hml [2007-09—10]   \n37 UKOLN·Interoperability FocusEvents $2 0 0 5 - 1 0 ~ \\mathrm { h t }$ tp://www.ukoln aouk/interop- focus/events/ili2005/[2005-09-10]   \n38 Nouzi A.（2OO6)．Folksonom ies: Uncontrolled VocabularyKnow ledge O rganization，33(4)，199-203   \n39 9同21   \n40 Prentiss Riddle Tagswhat are they good fo?.2006—06 -06.http://prentissriddle com.   \n41 Christopher H.BrooksNancy Montanez Data m ining classification：mprved annotation of the blogosphere via autotagging and hierarch ical clustering May $2 0 0 6 ~ \\mathrm { P m ^ { - } }$ ceedings of the $1 5 \\mathrm { \\# }$ in temational conference on World W ide W eb WWW'O6 Publisher ACM Press   \n42 同39   \n43 Niwa S，Doi T，Honiden S Web page recommender system based on folksonamy m iningInfomation Pro\" cessing Society of Japan（IPSJ）Joumal 2OO6,47（5)： 1382-1392   \n44Adam MathesFolksonm iescooperative clasifiation and comm un ication th rough shared metadata $2 0 0 6 - 0 6 -$ 06.http://tinyurl com /4vrc7.   \n45同17   \n46Hak Lae Kin, Suk Hyung Hwang Hong Gee Kin:FCA based Appioach for M ining Con textualized Folksonom y $2 0 0 7 - 0 5 - 0 4 .$ http: //portal aom: org/ft gateway cfm? $\\mathrm { i d } { = } 1 2 4 4 2 9 2 \\&$ $4 2 9 2 \\& \\mathrm { t y p e } ^ { = } \\mathrm { p d f } [ 2 0$ 07—10—15]   \n47Pind L，Folksonam ies How we can impiove the tags Pind' s dot-com: $2 0 0 5 - 0 1 - 2 3$ http://www.pinds com /blog/one-entryentry $\\mathrm { i d } = 2 1 6 7 8 .$ $2 0 0 7 - 1 0 - 0 3$   \n48同36   \n49Ulises AliMejlas Tag Literacy 2005-O4-26. http: // ideant typepad $\\mathbf { c o m } / \\mathbf { i d e a n t } / 2 0 0 5 / 0 4 / \\mathbf { t a g }$ lite racy hm 1 [2007—10-13]   \n50Guy M.，Tonkin E（2006)，Folksonom iesTidying up tagsD-Lib Magazine 2006:Vol 12(1).Retrieved November 25,2O06,http://www:dlib org/dlib/ januaryO6 /guy /Olguy html   \n51Macgregor G.，McCulloch E Collaborative tagging as a know ledge organ isation and resource discovery toolLi brary Review，2006.55(5):291-300   \n52Jakob VoB:Tagging Folksonmy & Co Renaissance of Manual Indexing 2007－O6－O1.htp: //arxiv org/ abs/cs/0701072. [2007-10-15]",
+    "context11": "53同4",
+    "context12": "程慧荣鲁东大学图书馆副研究馆员，中国科学院文献情报中心访问学者。",
+    "context13": "黄国彬中国科学院文献情报中心博士生。(收稿日期： $2 0 0 8 - 0 4 - 3 0$ 编发：刘炜 赵亮）"
+  },
+  "（上接第42页）": {
+    "context1": "发展·武汉理工大学学报(信息与管理工程版），2001,23(4): $5 6 \\sim 5 9$   \n8金玲,仇滨.网络环境下高校图书馆特色服务·情报科学，2001,19(8).819\\~821  \n9阮早梅·红安的“叶君健书屋\"及其它·图书情报论坛,2001(4): 55  \n10 刘娟,吴立君·浅谈特色图书馆在网络环境下如何开展信息服务·第二届海峡两岸公共图书馆基础建设研讨会论文· $[ 2 0 0 6 - 1 1 - 0 4 ]$ .http://www. stlib net/hxlw/$\\mathrm { w z / 1 6 9 . \\ h m }$   \n11 李艳玲.试论图书馆的特色馆藏及特色服务·图书馆工作与研究，2002(1)： $6 5 { \\sim } 6 7$   \n12 王一鸣·加强横向交流 探索特色理论.图书情报论坛,2002(1):47\\~48  \n13 郑笑笑,仇杨坪·面向地方经济 建立服装图书馆温州市图书馆特色服务的又一举措·图书馆建设，2004(6): $4 8 \\sim 5 0$   \n14潘菊妃,张丽平.建设特色乡镇图书馆的思考·图书馆研究与工作，2005(3)： $3 1 \\sim 3 2$   \n15http://202.114.65.34/calis/yrd  \n16湖北省第八届特色图书馆联谊会会议纪要[2006－11-04] htp://www: hslib gov cn/hslib/O5 /gridex/07.hml",
+    "context2": "彭玲玲女，硕士研究生，华中科技大学图书馆助理馆员。",
+    "context3": "(收稿日期：2008-01-17)"
+  }
+}

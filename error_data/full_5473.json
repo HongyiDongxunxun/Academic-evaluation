@@ -1,0 +1,78 @@
+{
+  "original_filename": "full_5473.md",
+  "情报学认知学派评述": {
+    "context1": "邹永利",
+    "context2": "（中山大学资讯管理系，广东广州510275)",
+    "context3": "[摘要]情报学认知学派产生自对主流实验室情报学研究的反思，关注人对信息的利用与吸收，强调知识结构、认知能力、认知风格等主观因素在信息的感知、接收及创造活动中的作用。认知学派大致经历了两个发展阶段。第一阶段以研究用户的个体认知特征为主，对认知活动的社会性认识不足；第二阶段开始重视社会或特定领域背景下用户认知特征的研究，提出社会认知观、领域分析、集成式认知信息检索观等新理论。尤其是集成式认知观及相应研究模型，涵盖技术、人类行为及其互动等不同方面，是对面向技术的信息检索与面向用户的信息查寻所作的首次合成研究，亦是当前情报学认知学派有代表性的理论创新。",
+    "context4": "[关键词]情报学；认知观；认知学派；研究进展[中图分类号] $G 3 5 0$ [文献标识码]A[文章编号]1002－1167（2010）06－0096－05",
+    "context5": "认知学派产生于20 世纪70年代中后期，是以认知科学为依托，以认知过程为参照，观察、解释信息现象，展开情报学研究的学术流派。不同于关注算法与实验、以Cranfield、TREC①为代表的情报学“物理范式\"②，认知学派关注人对信息的利用与吸收，强调知识结构、认知能力、认知风格等主观因素在信息的感知、接收及创造活动中的关键性作用。其核心理念是，任何信息的处理，都是由构成信息处理主体的世界模型的一套概念体系所媒介或协调的[，认知过程发生在情报学研究所涉及的任何交流系统的两端2。信息系统和信息服务的任务，是实现用户与系统在认知层面而非物理层面上的交互作用。",
+    "context6": "谈及Cranfield一TREC研究传统，人们自然联想起Bookstein、Croft、Spärck Jones、Robertson以及Willett 等鼎鼎大名，而与情报学认知学派紧密相联的学者则是Bel-kin 和Ingwersen[3。Belkin 提出“知识异常状态”说，诠释信息检索的源头与过程，其观点已是该学派的标志性学说；Ingwersen 强调信息系统对检索情景的理解，对相关状况的知觉，在新著《转折：在情境中集成信息查寻与检索》4中，更尝试拓展情报学认知观，使其能和谐地涵盖技术、人类行为及其协作等各方面，继续着他将情报学认知观建设成范式理论，统合现有信息检索理论的努力③。毋庸置疑，Cranfield一TREC所代表的实验情报学研究仍是当今主流，但认知学派也已确立自己在该研究领域的地位。"
+  },
+  "1发展历程": {
+    "context1": "从20 世纪60年代初期开始，心理学理论与方法开始用于信息意识、信息需求、需求表述等情报学问题的研究，成为情报学认知观的先声。进入70年代，认知科学得以确立中国微领域扩本为涉及无驾能i社会学、语言学、生物学、计算机科学、信息论、人类学等学科的综合性研究领域，影响逐渐波及情报学研究。1977年3月在比利时根特大学举行的“国际认知观点研讨会”④，是情报学认知学派诞生的标志性事件和里程碑一一认知观的奠基者DeMey、Brookes和Belkin等，都出席会议并提交论文。DeMey 在题为“认知观点：发展与范畴”的论文中，阐述了认知观点的核心理念，为认知学派提供了认识论框架;Brookes的“发展中的情报学认知观”，第一次明确提出“情报学认知观”这一表述，阐述这一观点对于亟待理论支持的情报学的意义；Belkin的“内部知识与外部信息”则尝试用认知观点分析信息需求的性质，解释信息利用现象。同年8月，“情报科学研究的理论与应用国际研讨会”在丹麦皇家图书馆学校召开，De Mey、Belkin 等认知学派的观点和研究受到瞩目，影响进一步扩大。进入80 年代，认知观点被更多的研究者所接受，成为研究情报学基本理论、信息检索等问题的新的研究取向，与Cranfield实验所代表的面向系统的情报学研究形成对照。到90年代初期，认知取向甚至被提升到新的情报学研究范式的高度[5]",
+    "context2": "Ingwersen将情报学认知学派迄今为止的发展历程划分为两个阶段：1977年至1991年是第一阶段，也被称作情报学“传统认知观阶段\"，以研究用户的个体认知特征为主，具有明显的“用户和检索中介导向”，对认知活动的社会性认识不足；1992 年以后，认知学派进入第二发展阶段，开始重视在社会或特定领域背景下研究用户的认知特征，多视角观察信息传递过程，研究其中发生的所有互动现象。"
+  },
+  "2与主流情报学研究的关系": {
+    "context1": "如前所述，“物理范式”是情报学研究的主流，开始于上世纪5O年代末，标志是著名的Cranfield信息检索实验。它强调以实验为基础的最佳匹配查询与加权相关反馈研究，置重点于相关模型、方法及算法的发现上。这一范式后被90 年代发起的TREC 信息检索实验发扬光大，从而牢固地确立了在情报学领域的地位，几乎所有情报学定义，都将信息检索定义为情报学的核心部分。然而，信息检索一直不是一个理论性很强的领域，以此为核心的情报学物理范式也因而缺乏一个学科应有的理论高度。即使是以信息检索理论家自诩的Robertson，也承认“信息检索缺乏一个可以大写的理论（capital一T Theory)\"8。",
+    "context2": "情报学认知学派始于对物理范式的反思，批评其研究与系统设计视野偏狭、立场冷漠。实验情报学家站在旁观者立场上，物化以人为主体的信息处理与利用现象，以物理学的研究方法，研究与人密切相关的现象。他们视信息为独立于用户的客观存在，以使自己能抛开用户，专注于数据、技术和系统等物化对象，在实验室里研究情报学问题。在他们心目中，信息系统内部的秩序是绝对而必要的，用户应该予以配合或遵守[9。与之相反，认知学派强调信息概念的主观性质，重视个体的知识状态、认知能力和信息交流的效果，站在用户而不是从观察者的立场上，研究信息系统的设计与利用，所采取的是心理学或用户驱动式的研究路线。",
+    "context3": "![](images/0fb28989504a4a2c2fc7a65d0c186669412b325e71f61b4528a47277fe7b7b27.jpg)  \n图1一般信息检索模型 (Belkin)",
+    "context4": "Belkin 曾以一般信息检索模型为例 (图1)，说明两者之间的差异：传统情报学研究几乎不关心文本的生成过程与文本生成者，对文本收集过程的研究也仅停留在操作层面，大量的试验、研究都集中于文本的表示与组织、算法、匹配及检索式修正上，其首要关心是查全率、查准率指标所代表的系统效率；而认知学派强调对信息检索系统中人的研究，所关心的问题有信息需求的性质、如何从目标或信息需求过渡到信息提问和检索式、信息提问和检索式背后知识状态的表达、信息检索中的人人交互及人机交互过程中国知任务nt标积知识状态的文态评价、系统性",
+    "context5": "能评价等[10] 。",
+    "context6": "对于传统实验室情报学研究来说，认知学派所关心的诸问题，涉及面广、跨度大，不适于置于实验室环境内，以试验的方式进行研究。Cranfield实验的典型检索任务是：接收查询式，提供结果集合(1]。实验室试验的本质是抽象，其原则是从现实世界的复杂与无序中，确定有代表性的若干方面，并从中抽取一小部分变量进行试验，前提是这些变量能够在实验室抽象情景中被定义、并在其中经得起严谨测试。由此获得的理论与模型，有助于人们更有效方便地理解现实世界。以此看来，认知学派所关注的问题，如认知状态、人机互动、任务与用户情景等，俱不易抽象，被实验室情报学研究排除在外，也是不得已的事。"
+  },
+  "3传统情报学认知观的缺陷": {
+    "context1": "认知学派代表人物之一Ingwersen 声称，认知观统合情报学传统技术导向和用户导向，是更完整的情报学研究范式。然而，情报学界并不普遍认同这种看法，自上世纪90年代初，一些学者开始撰文批评情报学认知观，认为这是一种激进的个体主义观点，缺乏社会考量。Frohmann 否定认知观的方法、观点和假设，认为它把由实践、行为、信息检索的成果与方式、信息利用、社会信息处理等因素构成的复杂整体，简化成一种对心理活动的描述，将图书情报学理论研究的关注点转移到在个体内部构造的人的个性，是一种精神论方法[12]。Hjrland 指出认知观是在将认识论方面的问题心理学化，通过研究个体来研究知识，而不是以认识论审视心理学问题，从历史、文化及社会的视角，观察个体的知识[。Cronin 认为认知观过分强调个体知识状态，容易导致人们忽视社会关系与社会结构的认识论意义，而人们所著、所引文本，无不承载着他们在职业生涯不同阶段所隶属的认识文化、社会认知网络以及物理处所的印记，认知绝不是纯粹的个体现象[3。这些批评均指向情报学认知学派研究中社会维度缺失。此外，情报学认知观也被批评在许多方面带有浓重、传统的用户研究色彩，缺乏范式理论需要具备的完整的范式特征，如抽象范例、社会学范例和人工建构范例等[13]。",
+    "context2": "情报学认知观的缺陷，尤其是社会维度的缺失，直接影响了它的发展，使其难以达至情报学理论范式的高度。"
+  },
+  "4理论反思一从个体分析到综合研究": {
+    "context1": "上世纪90年代中期，认知学派开始从围绕个体认知特征的研究，向社会大环境下人的认知特征，即综合研究过渡。此类研究最早见于Ingwersen的“多元表示（poly一representation)”设想[14]。他以不同认知视角，表示同一信息，让用户在检索时意识到问题的整体领域背景，从而能更准确、更全面地表达和满足信息需求。综合研究的代表性成果有社会认知观、领域分析、集成式认知信息检索框架等。"
+  },
+  "4.1社会认知观": {
+    "context1": "社会认知观的核心观点是，任何工具、概念、含义、信息结构、信息需求以及相关性标准等，均受制于特定话语群体(如科学学科)。话语群体是社会劳动分工的组成部分，在每一个话语群体内，交流过程有其特定的秩序、边界。交流的这种秩序、边界，或者说交流的结构，可以来自概念结构、机构性界限、话语平台的统管方式等。社会认知观将情报学的焦点从个人（或计算机）转向社会、文化和科学领域，将相关认知结构的性质定义为历史的，而非心理学的。",
+    "context2": "社会认知观颠覆了传统认知观的某些观点，纠正了其将认识论问题心理学化，通过研究个体来研究知识的偏颇。社会认知观同样关注个体认知，但切入的角度是社会情景，而不是孤立的思想或大脑；其研究方式是由外而内（out-side in)，而不是传统认知观的由内而外（insideout）[15]。微观的认知过程和意义构建过程固然重要，但意义构建同时是社会性的和集体性的。社会认知观弥补了传统认知观所缺失的社会维度，强调个体为了克服自身知识的非常态，需要使用由社会或团体维护的共有意义结构，在不同情境中构建意义，并修正自己的概念结构[16]"
+  },
+  "4.2领域分析": {
+    "context1": "领域分析一词最早用于计算机科学，通常和社会认知观一起被提及，其重点是从社会角度理解用户信息需求以及行业或学科信息系统的功能。它既关注个别知识领域的研究，同时也关注不同知识领域的比较研究，强调在学科情境中看待个体用户。丹麦学者Hjrland 最早将领域分析的概念与方法引入情报学研究，并将信息学家所作的领域分析归纳为11种不同方法③，每一种方法均可用来帮助人理解一个领域的信息，共同构成信息专家的独有技能领域[。Hjorland认为，领域分析范式是现实主义范式，不同于经验主义和实证主义，其特征是通过用户个人主观感知的外部因素，寻找情报学的基础[18]。",
+    "context2": "一些研究者后对领域分析方法的应用领域进行了扩展。Sundin借用职业理论的一些工具，应用领域分析方法，考察在护理这一专门领域，人们如何寻找职业兴趣、权利关系以及职业认同[19；Hartel将领域分析方法应用于业余爱好及“严肃消遣”（如烹饪）的分析，而Karamuftuoglu将其用于“信息艺术”作品的分析，令领域分析方法的应用领域更加广阔[20]。"
+  },
+  "4.3集成式认知信息检索框架": {
+    "context1": "这是Ingwersen 和Jarvelin 提出的分析框架（参考图2)，以克服传统认知观的局限，使其能更完整地反映情报学轟画象t信息录与检索ki.的实际。框架描述信息查寻与检索领域的各种操作要素（actors)，如何在相关情景中相互作用。以认知操作要素中的信息查寻者为例，它处在模型的中央，被几种情景环绕，其中有操作要素的社会、组织和文化所属，有信息对象、信息系统以及利用它们所需的界面等，每一个节点的情景又都包含所有其他节点。该框架涵盖信息行为所涉及的个体与社会两个方面，包括信息的生产、查寻、检索与利用。",
+    "context2": "![](images/effad50a121010286e382efed407a254410d58d4ecc97b59d7451105ea54f8a5.jpg)  \n图2信息查寻与检索的一般分析模型 (Ingwersen、Jarvelin)",
+    "context3": "基于该分析框架，Ingwersen 指出，传统的实验室信息检索研究应该扩大视野，更加关注操作要素、信息查寻和工作任务、信息检索互动和信息效用；而传统的信息查寻研究，则应朝信息获取技术、工作任务情景方面扩展其研究。信息查寻与检索的领域十分宽广，以建立范式理论为目标的相关研究，必须涵盖面向系统的实验信息检索研究和面向社会科学的信息查寻研究。在这一意义上，Ingw-ersen和Jarvelin声称，其研究是对这一宽广领域所作的首次合成研究。",
+    "context4": "与传统认知观相比，新的认知研究以社会或团体为背景，以具体学科或领域知识为依托，以具体工作为中心，并全面考虑其中所有因素，拉近了认知学派与情报学实践之间的距离。当然，新认知观也存在局限。首先，它容易滑向另一极端一一过分关注个体之外的影响因素，忽略个体自身的特性；其次，它以集合认知结构（collective cogni-tive structure）为研究对象[21]，需要通盘考虑的因素众多，研究所有因素之间的协同影响，更是一件十分复杂的系统工程，对研究者、研究条件的要求高，既要求研究者具备其他相关学科的专深知识，又依赖于人工智能技术作为研究手段，而目前的人工智能技术水平尚不足以提供所需支持。"
+  },
+  "5结束语": {
+    "context1": "信息技术专家曾站在信息系统立场上，简单地吩附他们的用户：“告诉我们做什么，我们就做给你们。”这种立场貌似合理，实则不然，因为“告诉”不是一件简单的事，或至少不像他们想象的那么简单。情报学的对象由人和人造物及其复杂的交互作用构成，人与物的双重性是这一复杂性的根源。专注于双重性的一面，有意无意忽视另一面，将无法抽象出能有效揭示其规律、指导情报学实践的范式理论。情报学认知学派传达给我们的理念深具意义：信息过程的主体是人，是人的知识结构与认知能力。Mar-chionini对此曾有精辟论述：",
+    "context2": "没有证据显示人类的基本认知和情感活动由于数世纪来技术的巨变而发生改变，改变的只是思考的对象以及表示、传递思想产品的外在工具。我们能够想象科学家设计出包含世界上所有外在知识表示的脑神经(brain)，却难以想象他们设计出代替人们解释、学习、思考和决策的心智(mind） [22] 。",
+    "context3": "40余年前，Engelbart在谈及人与机器（计算机）的关系时，将机器对人的智能的支持分为增强与增长两类。增强（amplification）指既存价值或能力的提高和放大，增长(augmentation）指新价值或能力的赋予和附加[23]。根据情报学认知观，信息的查找与利用是个人基于知识储备和认知能力，与信息系统互动，以解决当前问题为目的，以完善、改变知识结构为结果的过程，因此信息系统与用户的基本关系是一种增强，而非增长的关系，信息系统设计的目标是设计出能增强和放大人的既存价值、能力和特长的系统。这种理念在认知学派的应用研究中有明确体现。",
+    "context4": "今天，情报学的发展似又来到一个转折点，信息查寻变得比以往任何时候更受技术趋动。新技术使搜索引擎日趋强大、功能惊人，相对简单的技术已可制作出极高效的工具，比如将词汇放入巨型数据库、建构算法匹配用户查询与文献表示等等。传播的数字化也正使越来越多的非正式交流渠道 (如邮件)，逐渐融入系统而正式化信息技术，再度处于空前的强势。更为吊诡的是，这一过程并不以尝试指导信息查寻的认知观及其扩展版的社会范式为基础，换句话说，情报学认知学派统合或集成物理范式的努力，在这一领域的实践中几乎完全没有被认可。Ingwersen在《转折：在情境中集成信息查寻与检索》前言中乐观地称，基于情景集成的新研究框架“和谐地涵盖技术、人类行为及其协作”等各方面[4，未来发展能否如其所愿，难以全然乐观。著名情报学家Robertson 曾断言，在信息检索或情报学领域，如欲建立大理论（GrandTheory)，其必须统括检索的方方面面，而这方方面面是如此之多，从人类认知与行为，到统计与概率，跨度巨大，内容繁杂，使得这样的目标，即建立大理论的目标遥不可及8。Ingwer-wen 的努力可否视作认知学派的新挑战？效果如何，尚须时日见证。"
+  },
+  "[注释]": {
+    "context1": "$\\textcircled{1}$ Cranfield信息检索评价实验，始于1950年代的英国，开创以测试集、测试标准等评估信息检索系统的模式。TREC（TextRE-trievalConference）则由美国国家标准与技术局（NIST）等机国知发起，通过构建惠大规模的测试集t为不同检索技术与检索系统之间的标准评测创造了条件，基本沿袭了Cran\"field 实验的理念与模式。",
+    "context2": "$\\textcircled{2}$ 也称实验室情报学研究范式，语出 Ellis 的 Paradigms and protoparadigms in information retrieval research（In：P.Vakkariand B.Cronin（eds），Conceptions of Library and InformationScience：Historical，Empirical and Theoretical Perspectives·Lon'don：TaylorGraham，1992：165－86)，特指以信息系统为导向，以实验物理学的理念与方法，研究信息处理与利用现象的情报学研究。",
+    "context3": "$\\textcircled{3}$ 2009 年，Ingwersen 被美国信息科学与技术学会洛杉矶分会授予2009/2010年度学科贡献奖，成为第21个获此荣誉的情报学家。$\\textcircled{4}$ The International Workshop on the Cognitive Viewpoint·Ghent ;University of Ghent，March 24—26，1977.",
+    "context4": "$\\textcircled{5}$ 1l种方法分别是：（1）文献向导和主题门户的制作；（2）专门分类法、叙词表的制作；(3）研究专门主题的标引与检索；（4)实证用户研究；（5）文献计量研究；（6）学科史研究；（7）文献和文体研究；（8）认识论及批判性研究；（9）术语学、特殊用途语言、数据库语义以及叙述研究；（10）科学交流中的结构与机构研究；（11）科学认知、专家知识和人工智能研究。"
+  },
+  "[参考文献]": {
+    "context1": "[l]De Mey，M·The Cognitive Paradigm [M]·Dordrecht：Reidel Publishing，1982.   \n[2] Farradane，J. Information systems and the stimulation of creativity[J]·Journal of Information Science，l98O(2)：75-80.   \n[3] Cronin，B．The sociological turn in information science[J]. Journal of Information Science，2008，34（4)：465—475.   \n[4] Ingwersen P,Jarvelin K.The Turn：Integration of Information Seeking and Retrieval in Context(The Information Retrieval Series）[M].New York:Springer-Verlag Inc.2005.   \n[5]邹永利·情报检索研究的理性主义传统与认知观点〔J]·中国 图书馆学报，1998（3)：35－43.   \n[6] Hjorland，B.Epistemology and the socio cognitive perspective in Information Science [J]·Journal of the American Society for Information Science and Technology，2002，53（4)：257—270.   \n[7] Ingwersen，P；Williams，M·E.Cognitive information retrieval [J]·Annual Review of Information Science and Technology· 1999 (34)：3-52.   \n[8] Robertson，S.Salton Award lecture：On theoretical argument in information retrieval [C/OL]//Annual ACM Conference on Research and Development in Information Retrieval．Proceedings of the $2 3 \\mathrm { { r d } }$ annual international ACM SIGIR conference on Research and development in information retrieval，Athens, Greece: 2000. $[ 2 0 1 0 - 0 6 - 0 1 ]$ :http://portal.acm $, ^ { * }$ org/citation·cfm? $\\mathrm { i d } = 3 4 4 6 5 8$   \n[9]Ellis，D.Progress & Problems in Information Retrieval [M]. London：Library Association Publishing，1996.   \n[lO] Belkin，N.J. Croft，W.B·Information filtering and information retrieval：Two sides of the same coin?[J].Communica tions of the ACM，1992，35(12)：29-37.   \n[ll] Robertson，S．The study of information retrieval：a long view [C/OL]//Proceeding of the second international symposium on Information interaction in context，London，UK．2008. $[ 2 0 1 0 - 0 7 - 0 6 ]$ ·http://portal.acm $1 \\cdot$ org/citation·cfm? id $= 1 4 1 4 6 9 6$   \n[l2]Frohmann，B.The power of images：a discourse analyses of the cognitive viewpoint [J]·Journal of documentation，1992, 48(4):365-386.   \n[l3] Ellis，D. Domain approach and paradigm in information retrieval research[J]·Journal of Documentation，1992，48（3)： 328—331.   \n[l4] Ingwersen，P.Polyrepresentation of information needs and semantic entities：Elements of a cognitive theory for information retrieval interaction [C]//Proceedings of the $1 7 _ { \\mathrm { t h } }$ annual international ACM SIGIR conference on Research and development in information retrieval．1994：1Ol－110.   \n[l5]Nolin，J．Whaf s in a turn? $\\mathrm { [ J / o L ] }$ Information Research, 2007，12 (4) $[ 2 0 1 0 - 0 6 - 2 3 ]$ .http：//InformationR·net/ ir/12—4/colis/colisll.html.",
+    "context2": "[16]汪冰，孟广均，霍国庆·关于情报科学若干基本问题的探讨"
+  },
+  "(二）[J]·图书情报工作，1998（7)：1-7.": {
+    "context1": "[l7]Hjorland，B.Domain analysis in information science：Eleven approaches-traditional as well as innovative[J]·Journal of Documentation，2002，58（4)：422—462.   \n[l8]Hjorland，B.，Albrechtsen·H· Toward a new horizon in Infor\" mation Science：Domain－Analysis [J]·Journal of the American Society forInformation Science.1995，46(6)：400—425.   \n[l9] Sundin，O.Towards an understanding of symbolic aspects of professional information：an analysis of the nursing domain [J]·Knowledge Organisation，2004，30(3/4)：170—81.   \n[20]Robinson，L.Information science：communication chain and domain analysis〔J]．Journal of Documentation，2OO9，65 (4):458-469.   \n[2l] Cornelius，I.Theorizing information for information science [J]·Annual Review of Information Science and Technology, 2002(36)：406—412.   \n[22]Marchionini，G．Information seeking in electronic environments[M]·London：Cambridge University Press，1995.   \n[23]Engelbart，D．A conceptual framework for augmentation of man's intellect [G]//P.Howerton $\\mathrm { \\& D }$ .Weeks:Vistas in Information Handling·Washington：Spartan Books，1963."
+  },
+  "Cognitive Approach to Information Science and Advancement": {
+    "context1": "ZOU Yong-li",
+    "context2": "(School of Information Management，Sun Yat-Sen University，Guangzhou 5lO275,China)",
+    "context3": "Abstract：Thecogitieapproachtfatiosieeisosidedteostifuentialuintestoryofiforatisiectal pointisvieingallprocsofoaalsellnsogioasfvelothn observed since its drawn-out in the late $1 9 7 0 \\mathrm { s }$ . The cognitive viewpoint before mid-l99Os was mainly concerned with the study of users’cognitivestateandviordsitiedfoottkingitotcialaspesofforaproceosinetenreateo beenpaidtocontextualunderstandingandsitationalwarenessofusers，andewthories，modelsandframework，uchassocialoitive viewpoint，domain analysis and contextual framework have been worked out·",
+    "context4": "Keywords:information science；cognitive view point $;$ review[作者简介］邹永利，男，文学博士，中山大学副教授，已发表论文约50 篇。[收稿日期]2010—08—26",
+    "context5": "（上接第90页）"
+  },
+  "The Social Cooperation of the Library": {
+    "context1": "QU Xiao-wei",
+    "context2": "(Foshan University Library，Foshan 528OOO，China)",
+    "context3": "Abstract：Thisfocusossngtccuevelontofclopeatfgicallheclatf librariescantatepeiiooalopdoopa the main strategies and tactics of the social cooperation of different categories of libraries·",
+    "context4": "Keywords:library；social cooperation",
+    "context5": "[作者简介]曲晓玮，女，研究馆员，佛山科学技术学院图书馆副馆长，已发表论文20余篇。",
+    "context6": "中品期291tp8/ww.cnki.net100"
+  }
+}

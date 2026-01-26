@@ -1,0 +1,99 @@
+{
+  "original_filename": "full_7218.md",
+  "新兴趋势探测研究综述": {
+    "context1": "钟辉新1,2",
+    "context2": "(1．电子科技大学中山学院，广东 中山 528402；2．中山大学资讯管理学院，广东 广州 510006)",
+    "context3": "（摘要）介绍了新兴趋势等基本概念，在国际国内文献调研和分析的基础上，揭示了基于文献计量学、文本挖掘结合计量学、复杂网络理论在新兴趋势探测研究中的进展，最后总结了新兴趋势研究走向与存在问题。",
+    "context4": "（关键词）新兴趋势探测；文献计量；文本挖掘；复杂网络；综述 DOI: 10.3969/j.issn.1008-0821.2017.12.027",
+    "context5": "（中图分类号）G257.3（文献标识码）A（文章编号）1008-0821（2017）12-0162-06"
+  },
+  "Review on Emerging Trend Detection": {
+    "context1": "Zhong Huxin1,2",
+    "context2": "1. Zhongshan Collge，University of Electronic Science and Technology of China， Zhongshan 528402，China; 2. College of Inormation Management，Sun Yat-Sen University，Guangzhou 510006，China)",
+    "context3": "(Abstract）Firstly，the paper introduced basic concepts such as emerging trends.Secondly，based on the investigationandanalysison the domesticand international literature，the paper revealedresearch progresson emerging trend detection which include bibliometrics，text mining combined with bibliometrics，complex network．Finaly，the paper summarized the research trends and problems.",
+    "context4": "(Key words）emerging trend detection； bibliometrics； text mining; complex network； research review",
+    "context5": "在知识爆炸式增长、老化加速，科技竞争日趋激烈的背景下，从海量数据中探测出特定领域新兴趋势的方法和技术日益受到各界的重视。新兴趋势探测研究有利于发现领域研究方向、制定科研政策，深化情报服务和完善科学计量学与情报学相关理论，具有重要的理论意义和现实意义。",
+    "context6": "新兴趋势并没有统一概念，Kontostathis A等认为新兴趋势就是随着时间的推移能逐渐引起人们的兴趣并被越来越多的学者讨论的主题领域；刘玉仙等认为新兴趋势是一个新兴的值得深入研究并日趋重要的研究主题，它在科学前沿中形成并通过研究人员的相互引用表现出来；殷蜀梅认为新兴趋势是在某个科学研究领域中备受研究者关注并且代表未来方向的一组主题领域。因此，新近出现、具有发展潜力、高速增长的主题是新兴趋势的主要组成部分。",
+    "context7": "探测（Detection）是从中探寻、测度、发现的意思，新兴趋势探测就是在特定领域中进行探寻、测度、发现新的新兴研究趋势。KontostathisA等认为新兴趋势探测（Emerging TrendDetection，ETD）就是发现某个特定领域中热点信息的动态趋势，并在探测到最新发展动态时进行提示的过程。LeMH等把新兴趋势探测过程分为3个主要阶段：主题描述（Representation）、主题识别（Identifi-cation）、趋势判断（Verification）。因此，特定领域的新兴趋势探测一般需要解决3个核心问题：一是如何表示领域内主题；二是用什么样的指标来测度主题；三是采用什么标准来判断新兴趋势。"
+  },
+  "1总体研究情况": {
+    "context1": "随着互联网技术的不断发展，大量的科技文献被数字化并在网络上传播，大型数据库收录的文献数量越来越多，覆盖面越来越广，相应地基于文献语料的新兴趋势探测研究也将越来越多。为了从总体上掌握国际国内的研究现状，本研究选择Webof Science和CNKI等典型代表数据库作为",
+    "context2": "文献调研的对象。"
+  },
+  "1.1国际新兴趋势研究的基本情况": {
+    "context1": "本研究于2016年12月18日利用Webof Science的核心合集数据库，选择时间区间为1986-2016年，检索出“新兴趋势（Emerging Trend）”相关论文418篇。从学科分布看，研究“新兴趋势”最多的学科是INFORMATIONSCIENCELIBRARYSCIENCE，即信息科学与图书馆科学，有56篇；从国家分布看，研究最多的国家是美国，有155篇，其次是中国，有55篇；从文献类型分布看，在418篇文献中有255篇ARTICLE，占比超过 $50 \\%$ ；从时间分布看，新兴趋势探测研究起步于1991年，在2000年以前的年均发文量一直低于3篇，未成为有效的研究主题，但在2000年以后呈现稳步增长的势头，尤其是近几年发表的文章越来越多，这说明新兴趋势探测研究已经成为学者们高度关注的主题，是国际上的研究热点或前沿。"
+  },
+  "1.2国内新兴趋势研究的基本情况": {
+    "context1": "本研究于2016年12月18日利用CNKI进行跨库检索，结果为20篇论文。从检索结果看，国内有关新兴趋势的研究并不多，在2012年以前每年的发文量未超过3篇。因为CNKI没有收录像《情报学报》这样的重要期刊，本研究利用万方数据知识服务平台作进一步的文献补充调研。整合CNKI和万方数据，经过阅读摘要后，筛选出国内与新兴趋势探测密切相关的文献32篇，其中有1篇博士论文、6篇硕士论文、26篇期刊论文。研究机构主要特点是：大连理工大学的WISE实验室与陈超美博士联合开发了Citespace，有着稳定的研究团队，该大学的刘则渊教授是中国知识图谱研究的先驱之一，指导了不少学生在该领域进行系统研究，因此该大学是国内“新兴趋势”研究主要阵地之一；中国科学院有着较为庞大的图书情报导师团队，而且在主题演化、识别方面有持续研究传统，指导完成该领域的博士论文较多，研究实力较强；另外，山东理工大学的白如江在该领域深耕多年，也发表不少相关论文，并在2016年申请到国家社科规划项目“未来新兴科学研究前沿识别研究”。因此，以上3个机构未来有可能出现新的研究成果。"
+  },
+  "2相关研究进展": "",
+  "2.1基于文献计量学方法的相关研究进展": {
+    "context1": "文献计量学方法是通过对文献作者、引文、期刊来源、机构等属性的统计分析，利用这些属性及它们之间的关系随时间的变化来追溯特定学科领域的研究动向，从而有效地探测新兴趋势。尽管新兴趋势探测的方法已经越来越多，但是通过文献计量特征的统计来探测新兴趋势的方法仍然被最普遍采用。"
+  },
+  "2.1.1文献外在特征计量分析": {
+    "context1": "利用文献外在特征计量指标来判断知识的增长是一种简单而实用的方法，如期刊数量的增长、相对于年龄的论文被引次数、自引率等。通过一些简单的文献计量学指标的历时变化就可以判别新兴研究领域及其趋势，例如普赖斯指数（PriceIndex）、引文半衰期（MedianCitation Age)和即年指标（Immediacy Index），其中普赖斯指数与引文半衰期可以用来衡量文献老化的速度，一个研究领域内文献的普赖斯指数越高，引文半衰期越小，表明该研究领域就越“年轻”；同样地，即年指标也可以用来反映论文的被引速度，即年指标值越大，说明论文的被引速度越快，相关的研究内容获得关注度就越大。TuYining等利用知识老化理论，提出了新颖指数（NI）和已发表量指数（PVI）两个新型指标，以它们的负相关性判断新兴主题。",
+    "context2": "利用文献外在特征统计方法简单实用，数据容易获取，指标容易理解，标准单一，决策成本比较低，但由于忽略了文献外在特征与内容的相关性以及文献之间的知识传递关系，其精准度会受到一定影响，比较适合低成本快速决策的新兴趋势探测。"
+  },
+  "2.1.2词频分析": {
+    "context1": "词频分析法是利用能够揭示或表达文献核心内容的关键词或主题词在某一研究领域文献中出现的频次高低来确定该领域研究热点和发展动向的文献计量方法。例如，马费成等利用文献的关键词词频揭示知识管理的新兴主题；巩永强等通过国内情报学领域的词频分析归纳出增长型、平稳型和下降型3种研究变化趋势，从而揭示该领域热点迁移和发展趋势；ItoE等[利用关键词的时间系列分析，开发出一种网络小说趋势分析工具作为网页CGI,该工具不仅显示查询词的发展趋势，也显示了相似词的发展趋势。词频是新兴趋势探测中表示主题的常用指标，目前比较流行的 ETD 系统如 ThemeRiver、TOA（TechnologyOpportunities Analysis）、Timemines、PatentMiner等都采用该指标。",
+    "context2": "利用词频的统计来探测特定研究领域的新兴趋势，简单直接，通过历时的可视化图形直观显示出来，使科研人员能够快速地掌握特定领域的主题演变。但是，这些指标之间缺乏关联，并且对那些低频的关键词难以识别，而新兴趋势一般是刚刚出现的，相关主题词的词频也许并不高，因此词频分析比较适合研究热点识别，对于新兴趋势探测则要通过词频变化率来实现。"
+  },
+  "2.1.3引文分析": {
+    "context1": "引文分析一般分为共被引分析、文献耦合分析以及直接引用分析3种。3种引文生成知识网络都可用以探测研究前沿和新兴趋势。Small等利用通过同被引网络的时间切片和簇演变链（Clustering String），将高被引的文献集合代表关键概念（Concept Symbol）识别各种特定领域的突现和结构的演化；后来又利用随时间变化共被引簇（Co-cita-tion Clusters）跟踪研究领域的突现和成长，并预测领域最近属性的变化。ChenC[将知识基础与研究前沿相结合，以同被引论文簇作为知识基础、突发词汇表示研究前沿来研究一个领域新兴的趋势、瞬时的概念和潜在的研究问题。韩涛[利用潜在知识（Latent Knowledge）演化理论，提出了采用不同阈值层聚类结构间差异性的自动检测方法，以揭示同被引分析中隐藏在低阈值层的有重要意义的潜在知识簇，从而实现了对研究领域潜在演变趋势的识别。Morris[4在文献耦合聚类的基础上引入时间轴，以炭疽病的研究为例，利用可视化工具揭示了研究领域主题的产生、发展和消亡。Shibata $\\mathrm { ~ N ~ } ^ { [ 1 3 ] }$ 等利用直接引用网络的拓扑结构演化结合时间线可视化的方法，对氮化镓（GalliumNitride)、复杂网络（Complex Networks）两个领域的主题演化进行分析，从中探测这两个领域的新兴趋势。",
+    "context2": "3种引文分析方法在学科前沿和新兴趋势探测上有一定的差异性。ShibataN等[比较了这3种引文分析方法用于研究前沿识别时的性能和特点，结果发现直接引用关系可以识别大而且新的研究领域，同时，直接引文网络获得的聚集系数最大，这表明通过直接引文网络获得的文献簇的文献相似度最大，因此，利用直接引文网络识别研究前沿的风险性最小。SmallH等[比较了科技文献新兴趋势探测中的直接引文网和共引两种模型，发现采用直接引文网更具有时效性和选择性。鉴于3种引文分析方法各有优缺点，有学者提出发挥各种引文网络的优势，把多种引文分析方法结合起来共同探测新兴趋势的想法。BoyackK W等[将当前文献加入共引网络中生成聚类，认为混合引文网络如有向引用和共被引共存的引文网络可用于识别新兴主题。",
+    "context3": "为了克服引文分析忽视内容关联的缺点，不少学者将其与引文分析结合起来应用在新兴趋势探测中。GlenissonP等[利用文本内容分析结合计量学指标对 SCIENTO-METRICS的文章进行分析时，发现内容词分析和引文分析相结合的混合方法将会成为未来研究科学结构演化的一种有价值的工具。张琳等2利用基于引文和内容词混合的分析方法在“心理学、社会学和教育学领域”进行新兴主题的识别。Besselaar等[利用词语一参考文献的共现，以论文的参考文献做语境来考察从标题中抽取的词语，揭示研究领域的结合演化。",
+    "context4": "引文分析的方法能有效揭示知识结构的演化，而且可以通过可视化的知识图谱生动显示文献之间的关联和变化，通过聚类方法识别主题，从而推演知识的产生、发展、成熟和消亡的过程。但是引文分析是对内容的一种间接揭示方式，而引文动机多样化，施引文献和被引文献之间的知识关联与引用内容有很多不同，因此缺乏语义关联。同时因为引文的产生需要一段时间，滞后性是其明显的缺点。引文和内容词结合的分析方法既能揭示科学知识结构变化过程，又能精确揭示知识内容之间的关联性。但是这种混合方法缺乏有效理论的支撑，操作上主观性强，在某个领域能有效识别出新兴趋势，而用同样的方法在其他领域却",
+    "context5": "不适合。"
+  },
+  "2.2基于文本挖掘结合计量相关研究进展": {
+    "context1": "单纯通过文献的特征计量分析而忽略文献的内容，显然已经无法满足新兴趋势探测的需求，因此通过文本挖掘结合计量的方法就诞生了，比如突发词检测、共词分析、主题模型等。"
+  },
+  "2.2.1突发词检测": {
+    "context1": "突发词（BurstWord），也称为爆发词，是指在某一时间内被大量提及，使用频次上出现较大跳跃的词，是知识增长最为显著的表现。特定领域的文献流中有关某一主题的内容词突然出现爆发式、跳跃式增长，意味着该主题突现增长的势头，这对探测特定领域内新兴趋势具有重要的意义。KleinbergJ在2002年提出了突发检测算法（BurstDetection Algorithm），也被称为Kleinberg算法。他认为词的重要性体现在词出现的密度上而不是在词出现的时间长短上，即出现频次的增长率突然加大的词显得十分重要。突发词侧重的是领域内词之间的增长的比较，隐含了特定领域主题的突发和增长，能从语义上揭示知识的进化，并且在一定程度上克服常用词的干扰，无需进行太多词的预处理。突发词也可以反映研究领域局部热点的变化，揭示领域内有潜力的影响因素，有助于发现推动特定领域发展的微观因素[。",
+    "context2": "Chen C[利用 Kleinberg算法探测代表研究前沿的专业术语，并将其融入追踪科技前沿的可视化软件Citespace中，该软件可以从题目、摘要，关键词和文献记录的标识符中提取突变专业术语，从而确定科学前沿。随着Citespace软件的广泛应用，许多学者利用该软件的突发词检测来研究特定领域的研究前沿和新兴趋势。我国也有不少学者在这方面进行了探索和研究，魏建香2利用突现词发现交叉学科的研究热点和前沿动态，王莉亚提出了基于信息熵的时间序列中突变点识别方法，对流域水资源管理领域的不同阶段关键词进行突变检测，以发现研究领域主题突变和结构演化。",
+    "context3": "突发词检测能从微观层面发现特定领域潜在的研究主题的变化，而不是热点主题，这一点明显优于词频分析，而且考虑到领域内所有词之间变化的比较而不是单个词的变化，这对新兴趋势的探测有积极意义。但是突发词检测仍需要时间的积累，其阈值的设置对结果影响较大，而且对词的来源要求较高，需要通过预处理的突发检测才会比较有意义，同样突发词之间也缺乏语义关联。Kleinberg算法虽然能比较有效对一定时间跨度的语料进行突发词检测，但是算法中最优序列的参数k、s、 $\\gamma$ 需要主观确定，这将对检测效果造成较大的影响；同时，Kleinberg算法利用平滑窗口来定义时间区间，可能会导致割裂某些主题随时间成长变化的发展过程，形成虚假的突发词或者主题；另外，Kleinberg算法是基于时间段检测方法，一般情况下分析时间切片不能小于2，同样需要时间的积累，具有一定的时",
+    "context4": "滞。"
+  },
+  "2.2.2共词分析": {
+    "context1": "共词分析法主要是统计一组词在同一篇文献中出现的次数，一组词两两出现在同一篇文献的次数越多，那么这组词主题关系就越紧密，在此基础上进行聚类分析，进而分析这些词所代表的学科和主题变化。DingY等[2从关键词字段、题目和摘要字段抽取术语，通过词汇控制工具进行规范化处理，利用共词分析揭示了信息检索领域知识结构，发展模式与趋势。Pottenger等[利用数据挖掘技术和神经网络模型从文本数据集中自动分析与识别新出现的概念或主题。Kontostathis A等[2在Pottenger研究的基础上，利用潜在语义索引和共词聚类分析明显地增加了识别新突现概念的效率。",
+    "context2": "共词分析克服了词频独立性的缺点，考虑到了词与词之间亲疏远近关系，能直接揭示文献主题之间的相关性，针对性和准确度都更高。但是，目前共词分析大部分采用从题目、摘要、关键词字段直接抽取术语的方法，抽取术语与作者的取词习惯有很大关系，可能存在不规范的表述，或者存在同义词和近义词大量并存的情况，而且没有考虑到词的层级，大量的上位词和下位词并存，因此对词的预处理要求较高。为了达到较好的聚类效果，通常选用高频词作为分析对象，无法发现尚处于低频潜在主题。"
+  },
+  "2.2.3主题模型": {
+    "context1": "共词聚类的方法主要根据主题词之间的关联强度或者随时间的演化，要么形成主题与词之间的聚类关系，要么形成主题与文献之间的聚类关系，缺乏对主题词、主题、文献三者间的关系揭示。为了克服这一缺陷，2013年BLeiD $\\textbf { M } ^ { [ 2 \\bar { 9 } }$ 在概率隐性语义索引模型（Probabilistic Latent Se-mantic Indexing，PLSI）的“潜在主题”基础上提出了LDA（LatentDirichlet Allocation））模型，利用Dirichlet概率分布和Gibb抽样，从而实现了词、主题、文献三层结构的贝叶斯概率分布。LDA模型克服了PLSI过度拟合的缺点，并能很好地模拟文档的生成过程，对新兴主题识别以及预测有很好的效果，因此得到广泛应用和不断改良。",
+    "context2": "为了让LDA模型主题形成动态演化，需要通过相似性将相邻时间点的主题关联起来，2006年BleiD M等[提出了动态主题模型（Dynamic Topic Models，DTM），可用于处理文档流，从而实现话题的分布强度和话题的内容都在随时间而演化。2006年WangX等在LDA模型的基础上加入“主题一时间”分布，提出了主题随时间变化而变化的主题模型（Topic Over Time，TOT）。除了TOT和DTM模型外，很多学者将计量指标与LDA结合起来，提出层次LDA主题模型HLDA、OLDA、CTM、ATM、OLDA。这些模型被广泛应用到科技文献、新闻、论坛、博客等领域的主题识别之中。目前，国外有不少研究机构开发了应用工具，有些还是免费的开源工具，如斯坦福大学开发的开源话题建模工具TMT以及GibbsLDA $^ { + + }$ ，这些工具极大地方",
+    "context3": "便了科研人员的研究。",
+    "context4": "主题概率模型LDA模拟文档生成的机器学习技术，能有效实现分类和降维，采用词、主题和文档三层贝叶斯概率模型识别文档集中潜在的主题词信息，直接利用文献中的词来生成主题的分布，对揭示主题内容有非常大的优势，而且相关模型非常多，应用也非常广泛，是目前新兴趋势探测主要方法之一。虽然LDA不需要专门的词表，但是对词的依赖仍然很强，核心词的确定成为难点之一，如果不经过词的预处理，很多高频但意义不强的词就会影响分类的效果。同时在分类数目的确定上存在一定难度和主观性，相似度阈值的设定需要较强的专业知识。"
+  },
+  "2.3基于复杂网络理论的相关研究进展": {
+    "context1": "文献计量学的分析方法主要通过对文献及文献之间的关系的计量来揭示科学结构。随着社会网络、复杂网络研究的不断发展，研究人员发现同被引网络、共词网络、引文网络、耦合网络、合著网络等都是在科学交流过程中自组织形成的复杂网络，因此可以在文献计量学的基础上应用网络分析方法来揭示科学结构。"
+  },
+  "2.3.1优先链接": {
+    "context1": "优先链接（PreferentialAttachment）也叫优先连接、择优连接或优先粘贴，是指拥有更多财富或信誉的个体将优先得到财富或信誉。文献引用中也存在优先连接的现象，即引用次数越多的文献被再次引用的概率越大，因此，引文网络中的引文分布呈幂律分布。PriceDJS在1976年建立的Price模型可用来解释引文网络具有无尺度特性的成因，Price认为，是引用的累计增长（CumulativeAdvan-tage）效应导致了引文网络具有无尺度特性，累计增长效应就是基于优先粘帖的现象。如果将链接分布机制移植到引文分析研究中，将有助于筛选核心文献，考查引文分布机制，解释引文网络中的睡美人现象、幂律分布现象、无标度现象等。李粤在优先连接模型的基础上提出可调优先连接模型（Adjustable PreferentialAttachment，APA），并利用此模型分别进行优先粘贴现象、节点老化现象、无尺度特性、睡美人现象和高聚集性的一致性分析，结果显示APA模型在5个结构特性上符合真实引文网络。",
+    "context2": "优先链接是一种基于现有网络关系对未来链接的预测，显然不受到引文滞后的影响，这对预测和探测特定领域的新兴趋势有重要的意义。但是引文网络优先链接都是间接揭示研究内容和主题的演化，而知识具有进化和创新特性，主题在不断演化，链接可能意味关联，但是内容可能已经发生突变，因此优先链接机制比较复杂，判读计算难度比较大，探测的效果尚不明确，目前在新兴趋势探测的应用并不多。"
+  },
+  "2.3.2社团结构": {
+    "context1": "网络社团（NetworkCommunity）是指由网络结点组成的一个个结点子集合，子集合内部结点之间边的连接很稠密，各子集合结点之间边的连接则很稀疏。随着复杂网络理论不断成熟，有人将其研究方法应用到引文网络和共词网络之中，利用网络社团来识别特定领域的主题演化。东京大学工程创新研究所在利用引文网络进行新兴主题识别上有较多的研究。ShibataN等以镓化氮和复杂网络两个研究领域为例，利用Newman提出的社团结构识别算法对科学引文网络进行聚类分析，分析聚类结果中论文簇的平均年（Average Age）指标和不同时间片的论文簇之间的父子关系，从中识别研究前沿的突现。他们同时采用模块度值（Q值）衡量社团结构之间的关系，Z-Value 衡量社团内部及密度，然后根据他们组合判断不同主题的演化阶段，明确给出了量化的判断标准3。2010年我国学者王凌燕等引入社会网络中的弱连接概念并分析弱连接的特点，利用Q测度法识别生物领域的新兴研究趋势。",
+    "context2": "复杂网络领域的社团结构识别算法不需要依赖分析对象相似关系计算，可以通过网络结构的特性直接获取最优化的聚类结果，从而克服了阈值主观调整的问题，这明显优于传统的聚类方法。但是从网络视角判断不同时间的两个研究主题之间演化关系的影响因素较多，比如节点、边、结构等，目前相似度是最为直接和有效的判断方法，但是阈值的选择同样具有主观性。"
+  },
+  "2.3.3传播动力学": {
+    "context1": "动力学研究是复杂网络的研究重点之一，其本质上是探讨网络结构与功能关系的复杂网络的动力学行为，涉及传播动力学、动力学同步化等多方面的内容。越来越多的学者将复杂网络的传播模型运用于分析知识传播和创新扩散的网络结构和功能，相关研究表明社会网络结构的存在可以显著提高知识的增长率。CowanR等3 发现“小世界网络”结构下的知识扩散速度是最快的。LiuX等利用群体动力学原理和社团之间关系，通过关键词运动矢量研究知识网络，包括引文网络和关键词网络的动态演化，识别了新兴研究趋势的形成，并识别了特定领域的新兴趋势的演化过程。",
+    "context2": "知识网络是天然的复杂网络，传播动力学考虑到知识网络的生长动力和机制，从系统生长视角考察知识的涌现，是一种最为接近现实的研究方法。但是，知识创造活动的创新要求、不同观点和求异的思维使得知识在传播过程中的“感染者”将会出现变异，不可能达到完全一致，只是一种相关性的协同创造。基于以上原因，目前利用复杂网络的动力学理论进行新兴趋势探测的应用研究并不多。"
+  },
+  "3结语": {
+    "context1": "目前新兴趋势探测在国际上已成为研究前沿和热点，但在国内仍处于跟踪发展的酝酿阶段，通过对比国际国内相关研究的梳理，发现国内新兴趋势探测存在以下几个问题：",
+    "context2": "1）缺乏理论与实践相结合的研究。目前国内新兴趋势探测的研究主要在参考国外理论和方法的基础上进行改进和应用，虽然国内有些学者提出了理论层面的假设，但没有将理论分析与实证研究结合，因此真正理论创新并不多，更没有形成完善的理论体系。",
+    "context3": "2）指标通用性不足，评价标准不一，方法可复制性不强。新兴趋势指标大部分依据具体应用来设计，通用性不强，也没有建立指标的评价体系和方法，主题确认与趋势判断主要依靠专家来进行定性判断，主观性很强。虽然也有研究机构和学者从不同的角度来制定评价标准，但大部分都是采用监测文献随着时间的变化计量学指标，而且各侧重点不同，因此统计的方法各式各样，可复制性不强。",
+    "context4": "3）主题趋势预测研究不足，有待突破。虽然领域新兴主题趋势的预测极其重要，但是这方面的研究非常缺乏，只有少数的研究利用多元回归方法对主题特征指标未来趋势进行预测，有个别的学者提出了用优先链接模型来预测未来的核心文献，但是只考虑文献在知识网络的中重要性，没有考虑到文献衰老和异质性，也缺乏从信息不完全的视角去对缺失信息（或缺失关系）的预测，因此主题趋势预测研究的理论和方法有待于突破。",
+    "context5": "4）研究视角较为单一，难于发现主题演化的动因。目前对于新兴主题趋势探测的研究，主要基于单一维度/网络（关键词维度、作者维度、引文维度）分析，缺乏多维度或者网络之间关联分析。个别研究虽然考虑到网络维度之间的关系，但没有考虑网络之间的前后演化关系，也缺乏探究网络之间的相互关系，因此难于从深层次揭示主题的成因、发展的动力和未来趋势。",
+    "context6": "5）缺乏对用户行为研究。目前新兴趋势探测主要从文献特征历时变化、文献关联和内容关联等视角进行分析，鲜有人将学术群体的行为考虑在内，随着各种数据库的不断完善和Almetrics的兴起，用户行为数据将成为新兴趋势探测和研究前沿识别的重要支撑。"
+  },
+  "参考文献": {
+    "context1": "[]Kontonstathis A，Galistsky L M，Porttenger W M，et al.A Sur-vey of Emerging Trend Detection in Textual Data Mining[//AComprehensive Survey of Text Mining.New York:Springer,2004:185-224.  \n刘玉仙，Rousseau R．新出现趋势识别和分析方法引介[.科学学研究，2009，（7)：994-998.  \n殷蜀梅．判断新兴研究趋势的技术框架研究．图书情报知识，2008，(3)：76-80.  \nLe M H，Ho TB，Nakamori Y.Detecting Emerging Trend fromScience scientific Corpora [．International Journal of Knowledgeand systems sciences 2005，2 (2):53-59.  \n陈立新，刘则渊.引文半衰期与普赖斯指数之间的数量关系研究[．图书情报知识，2007，（1)：25-28.  \nTu Yining，Seng Jialang.Indices of novelty for emerging topic de-tection[]．Journal of Information Processing and Management,2012，48(2):303-325.  \n安兴茹．基于正态分布的词频分析法高频词阈值研究[．情报杂志，2014，（10)：129-136.  \n图马费成，张勤．国内外知识管理研究热点—基于词频的统计分析．情报学报，2006，25（2)：163-171.  \n巩永强，刘莉．基于词频分析法的情报学研究热点透析[．图书馆学研究，2011，（13)：9-13.  \n[id]Ito E，Urakawa T，Flanagan B，et al.Keywords FrequencyTrend Analysisof Online Novels[]．China Modern Doctor,2013: 68-73.  \n[1]SmallH，Upham P. Citation structure of an emerging research ar-eaon the verge of application[]．Scientometrics，2009，79(2): 365-375.  \n[12]Chen C.CiteSpaceII I:Detectingand Visualizing EmergingTrends and Transient Patterns in Scientific Literature[l．Journalof the American Society for Information Science and Technology,2006，57(3):359-377.  \n[13]韩涛．知识结构演化深度分析的方法及其实现[]．北京:中国科学院研究生院，2008.  \n[14]Morris SA，Yen G，Wu Z. Time Line Visualization of ResearchFronts.Journal of American Society for Information Science,2003，54 (5):413-422.  \n[5]Shibata N，Kajikawa Y，Takeda Y，et al. Detecting emergingresearch fronts based on topological measures in citation networks ofscientific publications[．Technovation，2008，28（11)：758-775.  \n[16Shibata N，Kajikawa Y，Takeda Y，et al. Comparative studyonmethods of detecting research fronts using different types of citation[．Journal of the Association for Information Science and Tech-nology，2009，60（3)：571-580.  \n[17]Small H，Boyack K W，Klavans R.Identifying emerging topicsin science and technology[l．Research Policy，2014，43（8):1450-1467.  \n[8]Boyack K W，Klavans R，SmallH，et al. Characterizing emer-gence using a detailed micro-model of science:Investigating twohot topics in nanotechnology[C]// Technology Management forEmerging Technologies（PICMET）：2012 ProceedingsofPICMET12．Vancouver，Canada:IEEH Conference Publica-tions，2012: 2605-2611.  \n[19]Glenisson P，Glänzel W，Janssens F，et al.Combining full textand Bibliometric Information in Mapping Scientific Disciplines.Information Processing and Management，2005，（41)：1548-1572.  \n[20]张琳，梁立明，Janssens F，等．混合聚类方法用于科学结构研究— “心理学、社会学和教育学”领域为例[．科学学研究，2010，28（6)：837-845.  \nβ1]Van D，Besslar P， Heimer G. Mapping Research Topics UsingWord-reference Co-occurrences:a Method and an Exploratorycase Study[l．Scientometrics，2006，68（3):377-393.",
+    "context2": "[2]Kleinberg J.Bursty and hierarchical structure in streams[]. Data Mining and KnowledgeDiscovery，2003，7（4)：373-397."
+  },
+  "[23]王孝宁，崔雷，刘刚，等．突发监测算法用于共词聚类分析": {
+    "context1": "的尝试[] $/ /$ 中华医学会第十五次全国医学信息学术会议. 2009:104-107.   \n[4]魏建香．学科交叉知识发现及其可视化研究[]．南京：南 京大学，2010.   \n[25]王莉亚.基于关键词突变的主题突变研究[．情报理论与 实践，2013，(11)：45-48.   \n[26]Ding Y，Chowdhury G G，Foo S.Bibliometric Cartography of Information Retrieval Research by Using Co-word Analysis[．Information Processing and Management，2001，(37):817-842.   \n[7]Potteger W M，Yang T. Detecting Emerging Concepts in Text Data Mining[C// Berry M. Computational Information Retrieval.Philadelphia，USA:Society for Industrial and Applied Mathematics，2001:89-105.   \n[28]Kontostathis A，DeI，Holzman L E，et al.Use of term clusters for emerging trend detection [EB/Ol].htp://citeseer.uark.edu: 8080/citeseerx/viewdoc/summary? doi $=$ 10.1.1.81.4196，2013-07 -28.   \n[9]Blei D M，Ng A Y，Jordan MI.Latent dirichlet allocation. Journal of Machine Learning Research，2003，(3)：993-1022.   \nB0Blei DM，Lafferty JD.Dynamic topic model[C]// Proceedings of the 23rd International Conference on Machine Learning. Pittsburgh，Pennsylvania，2006:113-120.   \nβ1Wang X，Mccallum A. Topics overtime:a non-Markov continuous-time model of topical trends[C]// Twelfth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, Philadelphia，Pa，Usa，August.DBLP，2006:424-433.   \nb2]Price DJS.A general theory ofbibliometric and other cumulative advantage processs[l.Journal of the American Society for Information Science，1976，27:292-306.   \n[3]苏芳荔，李江．链接分布机制评述—优先连接与均匀连接 ．情报杂志，2010，（10)：167-171.   \n[4李粤.引文网络的可调优先粘贴模型及其应用[D]．北京: 清华大学，2007.   \nb5]Shibata N，Kajikawa Y，Takeda Y，et al. Detecting emerging research fronts based on topological measures in citation networks of scientific publications[．Technovation，2008，28（11)：758 -775.   \nBdShibata N，Kajikawa Y，Takeda Y，et al.Detecting Emerging Research Fronts in regenerative medicine by the citation Networks of Scientific Publications[].Technological Forecsting &Social Change，2011, (78):274-282.   \n[7]王凌燕，方曙.Q测度法对探测新兴研究趋势作用的探讨 ．情报理论与实践，2010，33（11)：61-65.   \nB8]Cowan R，Jonard N.Network Structure and the Diffusion of Knowledge[J]．Journal of Economic Dynamicsand Control, 2004，28(8):1557-1575.   \nBgLiu X，Jiang T，Ma F.Coletive dynamics in knowledge net",
+    "context2": "works:：emerging trends analysis[]．Journal of Informetrics, 2013，7(2):425-438.",
+    "context3": "(本文责任编辑：孙国雷)"
+  }
+}

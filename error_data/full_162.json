@@ -1,0 +1,78 @@
+{
+  "original_filename": "full_162.md",
+  "2009年以来国外引文分析研究进展": "",
+  "□方胜华刘柏嵩": {
+    "context1": "摘要引文分析是指采用各种数理统计和逻辑方法对文献的引用频率、模式和图像进行计量研究。该文综述2009年以来国外在引文分析的基础理论、研究方法、研究前沿探测应用、引文指标四个方面的研究进展。"
+  },
+  "关键词引文分析加权直接引用卡罗林卡指数王冠指数": {
+    "context1": "引文分析（Citation Analysis）是指采用各种数理统计和逻辑方法对文献的引用频率、模式和图像进行计量研究[1]，将文献、著者、大学、国家以及其他感兴趣的特征项作为分析对象，以便揭示其内在规律[2]。分析文献的引用关系可以揭示出科研成果之间的联系，发现学科热点与前沿，预测学科的发展趋势，遴选核心期刊、评价科研机构或国家的学术地位等。",
+    "context2": "作为信息计量学的子领域，引文分析的迅猛发展源于2O世纪6O年代科学引文索引（SCI)的诞生[3]。进入21世纪,Scoups、Google Scholar 等新型数据库工具的出现进一步丰富了引文研究的数据源，通过这些大规模的引文数据，学者们可运用统计分析、线性代数、聚类算法等数理方法来分析和评价科研产出活动，与此同时，引文分析研究领域自身也形成了一系列新理念和新方法,如影响因子、皇冠指标、文献耦合等。近年来，加权直接引用、VOS等新型方法工具的出现使引文分析研究成为国内外学者眼中一颗耀眼的明星。为此，本文以上述知识为基础，综述近年来引文分析在理论与实践两方面取得的研究进展，以供国内同行参考。"
+  },
+  "1引文分析的基础理论研究": {
+    "context1": "回顾引文分析的发展历程不难发现，基础理论的研究都有力促进了领域的变革，丰富了引文分析的实践来源,著名文献计量学家Garfield、Persson、Small等对引文分析的基础理论作出了杰出贡献[4]。引文分析的基础理论主要包括引文关系的相关概念和引文方法及其相关指标的研究。引文关系的研究是引文分析的基础。广泛使用的引文分析工具ISI",
+    "context2": "Web ofKnowledge数据库、Bibexcel等均涉及多种引文关系。在引文基础理论研究中，Small对引文关系进行了划分，Small将引文关系划分为直接引用（Direct Citation）、文献耦合（Bibliographic Cou-pling)和同被引（Co-citation）等三种类型[5]如图1所示。瑞典学者Persson在上述三种引文关系类型的基础上，在最新的研究中引入共享引用（SharedReferences)和加权直接引用（Weighted Direct Cita-tion)的概念，对引文关系的基础理论进行了拓展。",
+    "context3": "![](images/31bdc796e2ffdaeae800d28a5dffa05a0c8fec8e0d4448b689c5f15610fefec9.jpg)  \n图1引文关系的类型[6]",
+    "context4": "图1表示一组引用数据集，圆和箭头分别表示文献和引用关系。记文献A一E,M—P发表的时间分别为 $\\mathrm { t } _ { 1 }$ 和 $\\mathrm { t } _ { 2 } \\left( \\mathrm { t } _ { 1 } > \\mathrm { t } _ { 2 } \\right)$ 。若A引用 $\\mathrm { M }$ ,那么二者就构成直接引用关系。如文献簇 $( \\mathrm { A } , \\mathrm { M } , \\mathrm { N } )$ 。同理还有文献簇(C,D,O)，（E,P)。若两篇或多篇文献同时引用一篇文献，其中施引文献簇构成耦合关系，如文献簇(C，D)，若一篇文献同时引用两篇乃至多篇文献，则这组文献存在同被引关系。其中，施引文献和被引文献簇的集合称为同被引(Co-citation Analy-sis),亦称共引,如文献簇（A,M,N);被引文献簇表示共引聚类(Co-citation Clusters),如文献簇(M,N)。",
+    "context5": "共享引用是指文献耦合中的被引文献簇，如图1中耦合文献簇(C,D,O)中的文献O。Persson 综合直接引用、共享引用和同被引三种引文关系类型提出了加权直接引用的理论方法[7]，所谓加权直接引用，是指将共享引用和同被引两种情形与直接引用整合，使之成为一个新的引用强度,Persson把它称为加权直接引用（WeightDirectCitations,缩写WDC)。其测量可用图2解释：由于A和B引用C，所以文献簇A和B对于C来讲，是耦合关系；同时D引用A和B,文献簇(D,A,B)是同被引关系，综合这两种关系，A到B的直接引用链接被加强。假设对每一种关系计分为1分，那么，在这个集合中，对于AB的加权直接引用得分为3。如图2所示。",
+    "context6": "![](images/028a538dde67c0f700ae0835e82bbf161a2cc8485cf3ac7dc3c4f65d69f0fb31.jpg)  \n图2加权直接引用",
+    "context7": "加权直接引用理论在引文分析应用实践中具有重要作用。以探测研究前沿为例，它有利于更加理性看待直接引用、文献耦合和同被引在探测研究前沿方面的作用。Shibata研究认为[8],直接引用较同被引探测研究前沿更理想，主要原因是同被引需要一定的时间才能体现出来。Persson认同Shibata的观点，同时又认为，共享引用和同被引均能够对前沿探测产生重要的影响，这是因为论文的参考文献会随着引证文献主题的相似发生相当大的变化，直接引用链接越多，基于相似性产生共享引用和频繁被引的可能性越大。因此在探测研究前沿方面要对共享引用和同被引进行加权。引入加权直接引用，有利于在研究前沿中探测有意义的子领域。加权直接引用的方法已经用于Persson所开发的著名引文分析软件Bibexcel中。"
+  },
+  "2引文分析研究方法的实践进展": {
+    "context1": "引文分析研究方法是引文分析中的核心。回顾引文分析的每一次发展，引文分析研究方法都对引文分析有着显著的促进作用。引文分析研究方法一般由引文分析工具、引文分析流程、引文分析指标等构成。例如，文献耦合的流程可概括为图3所示：",
+    "context2": "![](images/58689090950e8b65e7a2638c005c00c942c706a22d3bb3d4c3d9c6370df9045d.jpg)  \n图3文献耦合的流程",
+    "context3": "2.1VOS科学图谱在共现机理中的应用",
+    "context4": "基于文献数据建立科学图谱的研究方法可直观地发现文献中的各种现象，从而总结引文规律。多维尺度分析、可视化分析等分析手段均是引文分析中的科学图谱分析方法。荷兰莱顿大学VanEck等人在多维尺度分析（Multidemensional Scaling，缩写 MDS)的基础上提出了一种新的文献计量地图技术VOS(Visualization of Similarity)[9]。多维尺度法是运用压力函数（StressFunction）将多维空间的研究对象(样本或变量)简化到低维空间进行定位、分析和归类，同时又保留对象间原始关系的数据分析方法。VOS方法是对MDS压力函数的加权，较多维尺度法基于邻近指数和余弦方程产生的MDS-AS和MDS-COS方法,COS在聚合度和区分度两种关键评价指标上均要优于多维尺度法。",
+    "context5": "Van Eck选取情报学中的作者共引、社会学期刊的期刊共引和运筹学领域的关键词共现三种数据集,分别采用 MDS-AS、MDS-COS 和VOS 三种方法进行实验，其结果如下图所示：",
+    "context6": "![](images/447dd7a77b7d2346576fd8cd04d4f9864eb079f4e845b94edffe975fbef586b0.jpg)  \n图4采用MDS-AS、MDS-COS和VOS三种方法进行实验的结果",
+    "context7": "由上图看出，VOS方法在三种领域均有较好的聚合度和区分度，明显优于MDS。为了配合VOS在实践中的推广应用，VanEck于201O年推出了开源软件VOSviewer供学者使用，可到网上下载开源软件包[10]。"
+  },
+  "2.2多视角共引分析法识别学科结构": {
+    "context1": "近年来纳米学科的结构是怎样的？该结构中的主要板块是什么？其中有哪些研究领域/专家？这些类似的问题在不同学科经常引起学者的关注。引文分析自产生以来就对学科结构的揭示进行了研究，常用的方法有：聚类、多变量因子、主成分分析[11]等。2O09 年,Ibekwe-SanJuan 运用文本分析软件TermWatch和网络可视化软件pajek绘制了情报学的结构[12]。Chen Chaomei等人则从情报学知识图谱的动态视角运用多视角共引分析法解析共引网络的动态属性[13]。",
+    "context2": "Chen Chaomei选取情报学领域 $1 9 9 6 - 2 0 0 8$ 年间12种著名期刊所发表的论文，运用Citespace软件绘制了作者共引分析（Author Co-citation Analy-sis，ACA)和文献共引分析(Documentation Co-cita-tion Analysis,DCA）可视化知识图谱，分别对两种地图从结构、时态、语义模式以及共引聚类的引用与被引项进行解析识别情报学的学科结构和专家。较Ibekwe-SanJuan在 2OO9年的研究，Chen Chaomei等人讨论了被引参考文献的结构模式，在揭示文献间的隐含信息方面推进了一步。"
+  },
+  "3研究前沿探测方法的应用进展": {
+    "context1": "在科学研究中，研究前沿对于科研人员捕捉创新思想，占领学科制高点有着不可估量的作用，运用引文分析来探测研究前沿也就成为引文分析应用研究最活跃的领域之一。荷兰[14]、美国、瑞典、日本等国学者都在此方面作出了重要贡献。近年来引文分析在研究前沿的探测应用研究方面有进一步加强的趋势。"
+  },
+  "3.1最佳引用类型探测研究前沿": {
+    "context1": "确定研究前沿是建立在对研究前沿概念界定的基础上的。研究前沿至今尚无统一的定义，较具代表性的观点可分为三种派别：一种是以瑞典学者Persson为代表的施引文献派别：即将一组高被引文献簇的施引文献作为研究前沿；一种是以Price和Small为代表的高被引文献簇派别：即将特定领域内被新近发表的论文引用的早期高被引文献作为研究前沿；一种是以Chen Chaomei为代表的以突发热点主题称为研究前沿的突发热点派别。不同的流派在分析方法上各有不同。如表1所示：",
+    "context2": "表1研究前沿的派别[15-16]",
+    "context3": "<table><tr><td rowspan=1 colspan=1>类型</td><td rowspan=1 colspan=1>代表人物</td><td rowspan=1 colspan=1>分析方法</td><td rowspan=1 colspan=1>产生年代</td></tr><tr><td rowspan=1 colspan=1>施引文献派</td><td rowspan=1 colspan=1>Persson</td><td rowspan=1 colspan=1>文献耦合</td><td rowspan=1 colspan=1>1994</td></tr><tr><td rowspan=1 colspan=1>高被引文献派</td><td rowspan=1 colspan=1>Price、Small</td><td rowspan=1 colspan=1>共引聚类</td><td rowspan=1 colspan=1>1965、1973</td></tr><tr><td rowspan=1 colspan=1>突发热点派</td><td rowspan=1 colspan=1>Chen Chaomei</td><td rowspan=1 colspan=1>词频/共词分析</td><td rowspan=1 colspan=1>2006</td></tr></table>",
+    "context4": "注：表1依相关文献整理而成",
+    "context5": "上述三种派别充分体现了研究前沿定义的争议性。但是，这并不妨碍学者对不同学科研究前沿的揭示。从发表的文献来看，文献计量学界运用引文分析探测研究前沿依据学科特点的不同，一般综合了上述三类派别的观点。在研究前沿的认定上，需要结合相关的评价指标进行综合研究。2009年，日本东京大学Shibata等人在分析研究前沿时提出了能见度、平均出版年和密度（拓扑相关性）三种指标[17]。能见度是对文献簇进行归一化处理后的文献簇大小。文献簇越大，越容易辨别前沿文献簇与普通文献簇之间的分布；平均出版年更小，意味着文献簇可更快地被探测到前沿文献簇包括的核心论文；文献簇越密集反映出文献簇形成的核心文献群更具价值，故研究前沿是那些平均出版年越小探测到范围更大和文献更集中的文献簇，Shibata等人将此定义为最佳引用类型。该研究选取氮化钾、复杂网络和碳纳米管三个不同研究领域，对每一个领域分别建立直接引用、文献耦合和同被引三种引用网络进行比较。研究发现，直接引用能够探测大量和新近出现的早期聚类，在探测研究前沿具有最好的表现。同被引效果最差。研究还发现直接引用网络的聚类系数（clusteringcoefficient）最大，反映出直接引用所测出的论文内容相似度最好。"
+  },
+  "3.2加权直接引用探测研究前沿": {
+    "context1": "如第1节所述,Persson认同 Shibata 的研究结论，同时又认为共享引用和同被引也对研究前沿产生一定的影响，但是其影响较直接引用而言要小。因此,对直接引用网络进行策略上的优化,Perssson引入加权直接引用的概念。如图2所示。Persson对直接引用、共享引用和同被引赋予不同的权重值。与此同时，可能存在论文引用形式不一致的情况：比如有的论文共享引用更多，有的论文同被引情形更多。为了区分这一情况，对共享引用和同被引要进行归一化处理。例如：如果C受到1O篇文献引用它，即共享引用为10，那么 $1 / 1 0$ 即是C的归一共享引用值。D引用5篇论文，归一化共引值为 $1 / 5$ 。最后A到B的归一化加权直接引用值为 $1 + 1 / 1 0 +$ $1 / 5 { = } 1 , \\ 3$ 。",
+    "context2": "通过设置加权直接引用，形成新的直接引用网络，在探测研究前沿时要通过设置引文链接强度阀值去除不达标的链接。对于没有被引用或很少引用的论文可直接排除。同时，可去除重复作者集定义的自引链接，以避免论文的聚类被相同的作者或相同集合所统治。",
+    "context3": "较 Shibata的研究而言,Persson是对前述研究的深化。研究表明，用共享引用和同被引作为直接引用强度的加权是剖析论文网络的有效工具。设定阀值对于研究结果有着重要的影响。由于网络的复杂度很高，提高阈值将导致更多的论文不被纳入计算范围，从而影响结果及对结论的分析。"
+  },
+  "4引文分析指标研究进展——卡罗林卡指数": {
+    "context1": "2009年普赖斯奖得主，匈牙利科学家Vinkler P认为“指标是科学计量学和文献计量学的本质”[18]。Garfield的影响因子、荷兰莱顿大学的王冠指数、美国学者Hirsh的 $_ \\mathrm { h }$ 指数等指标的产生引发了评价科研绩效的革命。指标不仅可以作为对外部对象评价的方法，还可以评价引文分析方法本身，它们共同构成了引文分析指标的两种应用类型。例如,Shibata运用能见度、平均出版年和拓扑相关性三种指标确定最佳引用模型。Boyack 和Klavans运用文本一致性和向心度两个指标来衡量直接引用、文献耦合和同被引揭示生物医学领域的研究前沿[19]。",
+    "context2": "王冠指数是一个世界平均水平相比较的相对指标，在科研绩效评价中有着重要的影响。汤姆森路透对诺贝尔奖获得者的王冠指数研究发现，他们中的绝大部分王冠指数较高，以至于王冠指数成为预测新一年是否获诺奖的风向标。2010年，Opthof T和LeydesdorffL对王冠指数进行了修正，提出了卡罗林卡指数(Karolinska Indicator)[20]。",
+    "context3": "卡罗林卡指数（Mean Normalized CitationScore,MNCS)是在王冠指数的基础上得出的新指标，其数学意义表示所有科研领域论文被引次数与领域被引次数比值之和的平均值，用公式表示为：",
+    "context4": "$$\n{ \\frac { 1 } { n } } \\sum _ { i = 1 } ^ { n } { \\frac { c _ { i } } { e _ { i } } }\n$$",
+    "context5": "与卡罗林卡指数相比较而言，传统的王冠指数表示论文篇均被引次数与评价对象在不同科研活动领域篇均被引次数世界平均值的均值CPP/FCSm，其用公式表示是：",
+    "context6": "$$\n{ \\frac { \\sum _ { i = 1 } ^ { n } { \\frac { c _ { i } } { n } } } { \\sum _ { i = 1 } ^ { n } { \\frac { e _ { i } } { n } } } } = { \\frac { \\sum _ { i = 1 } ^ { n } c _ { i } } { \\sum _ { i = 1 } ^ { n } e _ { i } } }\n$$",
+    "context7": "通过比较公式可以发现，王冠指数代表的是平均值的比例(a ratio of averages,RoA),而卡罗林卡指数所代表的是比例的平均值(anaverageof ratios,AoR）。王冠指标由于通过更高的引用数量对所有领域和期刊赋予更多的权重，而新指标则赋予等同的权重，这样在结论上更为客观。"
+  },
+  "5结论与建议": {
+    "context1": "综上所述,笔者从引文分析的基础理论、引文分析的研究方法、引文分析的研究前沿探测应用和引文分析指标四个领域阐述了国外著名学者近两年来的重要进展。这些介绍只是引文分析近年来发展的一个侧面。结合国际上科学计量学的实践进展，笔者认为，我国学者可在下列领域深化引文分析研究：",
+    "context2": "其一，加强对引文分析方法的研究。我国学者在引文分析研究方面主要是采用国外学者的工具和方法，基本还处于引进消化阶段，不能做到与国际引文分析方法的同步。但是，纵观国外学者近年来的研究，引文分析方法的革新在学科发展中处于核心地位。例如，对引文网络和引证网络的处理问题。在研究前沿的揭示中，即使选择一个较窄的学科，其结点和链接会相对减少，但要能够做到识别、阅读、明确传统与新兴研究主题，这样产生了评价指标的需求和阀值的设定。与聚集结构（例如，作者、期刊、机构)相比，论文引证网络通常更为复杂。这些有待我们进一步研究。",
+    "context3": "其二，加强对重要指标的修正研究。王冠指数、影响因子是引文分析中最重要的两个指标。近年来，国际上对王冠指数和影响因子都提出了不同的见解，著名学者Leydesdorff、Rousseau 等对此进行了研究并取得了重要成果。与此同时，H指数对应的修正—H型指数的研究持续不断。为此，我国学者在此方面应给予加强。",
+    "context4": "其三，加强对新兴方法和指标的实证研究。在对新兴理论研究进行跟踪的同时，要注意加强对这些方法的实证研究。中科院、浙江大学等科研机构走在了前列。其他机构有待加强。"
+  },
+  "参考文献": {
+    "context1": "Garfield，E. Citation Indexing—Its Theory and Application in Science，Technology and Humanities.Philadelphia:ISI Press，1983   \n2 邱均平.信息计量学.武汉：武汉大学出版社，2007   \n3 庞景安.科学计量研究方法论.北京：科学技术文献出版社,2002   \n4Rousseau R. Journal evaluation：Technical and practical issues. Library Trends,2002，50(3)：418-439   \n5 Small H. Update on science mapping：Creating large document spaces.Scientometrics,1997,38(2):275-293   \n6 Boyack KW，Klavans R.Co-Citation Analysis，Bibliographic Coupling，and Direct Citation：Which Citation Approach Represents the Research Front Most Accurately ?Journal of the American Society for Information Science and Technology，2o10，61 (12):2389-2404   \n7 Persson O. Identifying research themes with weighted direct citation links.Journal of Informetrics,2010,4(3)：415-422   \n8Shibata N,Kajikawa Y,Takeda Y,et al. Comparative Study on Methods of Detecting Research Fronts Using Different Types of Citation.Journal of the American Society for Information Science and Technology，2009,60(3):571-580   \n9 Van Eck NJ,Waltman L,Dekker R,et al.A comparison of two techniques for bibliometric mapping：Multidimensional scaling and VOS. Journal of the American Society for Information Science and Technology.2010,61(12):2405 - 2416   \n10http://www.vosviewer.com/   \n11Morris SA,Van der Veer Martens B. Annual Review of Information Science and Technology.2008,42：213-295   \n12Ibekwe-SanJuan F.Information Science in the web era：A termbased approach to domain mapping. Proceedings of the American Society for Information Science and Technology.2o09，46 (1)：1-23   \n13Chen C M,Ibekwe-SanJuan F,Hou JH. The Structure and Dynamics of Cocitation Clusters：A Multiple-Perspective Cocitation Analysis. Journal of the American Society for Information Science and Technology.2010,61(7）:1386-1409   \n14Leydesdorff L,Opthof T.Remaining problems with the“New Crown Indicator”（MNCS）of the CWTS.Journal of Informetrics,2011,5(1):224—225   \n15Persson O.The intellectual base and research fronts of JASIS 1986—199o.Journal of the American Society for Information Science,1994,45,(1)：31-38   \n16Small,H.Co-citation in the scientific literature：A new measure of the relationship between two documents. Journal of the American Society for Information Science $2 4 ( 4 ) \\colon 2 6 5 - 2 6 9$   \n17 Shibata N,Kajikawa Y,Takeda Y,et al.Comparative Study on Methods of Detecting Research Fronts Using Different Types of Citation.Journal of the American Society for Information Science and Technology，2009,60(3):571-580   \n18Vinkler P.Indicators are the essence of scientometrics and bibliometrics.Scientometrics,85(3)：861-866   \n19 Boyack K W,Klavans R.Co-Citation Analysis,Bibliographic Coupling，and Direct Citation:Which Citation Approach Represents the Research Front Most Accurately?Journal of The American Society for information Science and Technology.2010, 61(12):2389-2404   \n20Opthof T,Leydesdorff L. Caveats for the journal and field normalizations in the CWTS（“Leiden\"）evaluations of research performance.Journal of Informetrics,201o，4(3):423-430"
+  },
+  "作者单位：浙江海洋学院图书馆，舟山，316000宁波大学图书馆，宁波,315211": {
+    "context1": "收稿日期：2011年5月16日"
+  },
+  "On Research Development of Citation Analysis Overseas since 2009": {
+    "context1": "Fang Shenghua Liu Baisong",
+    "context2": "Abstract:Citation analysis is the examination of the frequency，patterns，and graphs of citations in articles and books. This Paper reviews four aspects of the corresponding development including the basic theo ry of citation analysis，research methods，application for frontier research and citation indicators.",
+    "context3": "Keywords: Citation Analysis； Weight Direct Citations；Mean Normalized Citation Score(MNCS）;Crown index"
+  },
+  "封面照片简介：天津财经大学图书馆": {
+    "context1": "天津财经大学是新中国成立后最早建立的五所财经大学之一。图书馆始建于1958年,2001年建成9668平方米的逸夫图书馆。目前馆舍由逸夫图书馆、西院图书馆、大学生公寓图书馆、马场道校区分馆四部分组成，总建筑面积达到17000余平方米。截止到2010年底，天津财经大学图书馆馆藏书刊130万余册，数据库61个。馆藏特点以财经专业的中外文书刊为主，同时兼有人文科学、法律、军事、文艺、体育等综合类中外文书刊，并与天津各高校图书馆，国家图书馆及其他省市财经院校建立了馆际互借和文献传递关系。",
+    "context2": "在空间功能布局上，充分体现了服务至上的原则。主馆按楼层从下到上，人流从多到少的金字塔式走向进行了服务分区，一至六层分别为大众活动区（包括自习区、图书借还区）、电子阅览区、书刊借阅区、研究参考区和业务办公区，使图书馆各业务流程及服务功能得到合理区分，书流、人流、物流、信息流形成有序流动。天津财经大学图书馆本着“服务育人\"的宗旨，不断拓展服务内容、提高服务质量，增加图书馆的文化和技术内涵，提升服务水平和影响力，目前每天开放14个小时，每周开馆时间91小时。"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "original_filename": "full_3294.md",
+  "国外Folksonomy 语义丰富研究综述": {
+    "context1": "魏来 (东北师范大学计算机科学与信息技术学院长春130117)（中国科学院国家科学图书馆北京100080)",
+    "context2": "摘要文章对国外folksonomy语义丰富的理论与实证研究进行了全面的梳理，从folksonomy 的聚类、推荐、关联和实证四个方面探讨folksonomy语义丰富的方法和途径，优化网络信息资源组织。",
+    "context3": "关键词folksonomy语义丰富语义folksonomy"
+  },
+  "Review of the Research of Semantic Enrichment of Folksonomy Abroad": {
+    "context1": "Weilai（Academy of Computer Sciences and Information technology Northeast Normal University，Changchun，130117 (National Science Library, Chinese Academy of Science, Beijing,100080)",
+    "context2": "AbstractThe paper comprehensive researches the theory and practice of folksonomy semantic enrichment，including folksonomyclustering，sugesting，relating and practicing·",
+    "context3": "eywordsfolksonomy，semantic enrichment，semantic folksonomy",
+    "context4": "Folksonomy 由 Thomas Vander Wal 于 2OO4 年首次提出,是 $\\mathrm { \\ W e b 2 . 0 }$ 社会性软件工具应用的典型代表。目前，已经在各种社会性网站上广泛应用，如社会性书签服务del·icio·us[2],flickr[3]，社会性编目网站标注服务librarything4]，BibSonomy[5等。Folksonomy 作为一种自底向上的公众分类方法，能够作为集体智慧的体现，提供流行的、反映用户兴趣的标签，具有简单、丰富、流行和多样的特点。但随着标签数量的增加,folk-sonomy的进一步应用出现了一些制约因素，如标签的歧义，平面延展的标签结构，标签之间的语义关系等，这些问题会制约标签进一步使用。解决这些问题的主要方法是为folksonomy 提供一定的语义关系，即 folk-sonomy 语义丰富。Weller K于 2O07年指出 folksonomy能够从现有的知识组织系统中获得标签控制和语义关系的构建原则，同时提供有用的语义丰富知识组织系统，改进现有的分类法、叙词表或本体[。国外研究人员对该领域的研究较为活跃，本文从folksonomy语义丰富的几个核心问题一一聚类、推荐、关联及实证出发，探寻国外folksonomy语义丰富的主要方法和途径。"
+  },
+  "1Folksonomy的标签聚类研究": {
+    "context1": "相同或相似标签能够通过一定的聚类方法聚集在一起，形成基于用户兴趣的标签集合。根据标签聚类目的，标签聚类方法可分为相同标签聚类和相似标签聚类两种。"
+  },
+  "1.1相同标签的聚类方法": {
+    "context1": "相同标签聚类方法的目的是将意义相同或描述主题相同的标签聚类（如“folksonomy”和“folksonomies”），主要有三种方法。",
+    "context2": "（1）词根还原方法(Stemming algorithms)。词根还原方法是从单词中抽取词根聚类相同词根标签的方法。如\"links”和\"linked”经过词根还原算法都聚类在“link”标签下。Hend S等人在文献[7]中使用了词根还原算法标准化处理标签，将相同词根的标签聚集在一起。",
+    "context3": "（2）字符串距离测度方法(Stringdistance metrics）。字符串距离测度方法是测度标签字符串之间区别的方法。最常用的是Levenshtein算法,即计算两个字符串之间的编辑距离，这个“距离\"是从源字符串变换到目标字符串需要进行的删除、插入和替换的最少次数。L.",
+    "context4": "Specia 和E．Motta 在文献[8中使用了Levenshtein 算法，从形态学上聚合词形与语义相同的标签。",
+    "context5": "（3）在线资源探测方法(Exploitingonline resources）。使用在线资源如WordNet，google 等进行标签控制，如标签的拼写，单复数和词形规范等，同时找出相同标签集合中有代表性的标签。L·Specia 和E.Motta 在文献［8]、Van Damme C．等人在文献[9]中建议使用在线资源检验标签的方法聚类相同标签。"
+  },
+  "1.2相似标签的聚类方法": "",
+  "1.2.1标签的相似性测度方法": {
+    "context1": "标签相似性测度是进一步处理标签数据的基础，通过标签的相似性计算能够聚类相似标签进而推断标签之间的语义关联。Cattuto、Markines 等人在文献[10—13]中提出了不同的folksonomy 标签相似性测度的方法。",
+    "context2": "（1）基于folksonomy 三元组结构的相似性测度。Mika 在文献[12]中中将folksonomy 作为来自社区的语义结构，建议通过揭示标签之间的语义关系构建 folk-sonomy 本体，利用folksonomy的三元组结构{用户，标签，资源}通过资源的共现来建立标签之间的关系，通过计算标签共现的次数计算标签之间的相似性。",
+    "context3": "(2）Jaccard index 相似性测度。Beglman 等人在文献［13]中使用Jaccard index 相似性测度方法，采用标准化的共现方法测度标签的相似性。具体的算法为：",
+    "context4": "$$\n\\mathrm { N C O = } { \\frac { \\mid \\mathbf { A } / \\mid \\mathbf { B } \\mid } { \\mid \\mathbf { A } \\mathbf { U } _ { \\mathbf { B } } \\mid } }\n$$",
+    "context5": "其中，A是使用标签a标注的文档集,B是使用标签 $\\mathbf { b }$ 标注的文档集。",
+    "context6": "（3）分布式聚类和余弦相似性测度。Markines 在文献[11]中提出了基于三个不同向量空间背景的测度方法，其中Tag—Tag Context 为每一个标签向量同其他标签向量共现;Tag—Resource Context 为标签t标注资源的频次；Tag—User Context为用户 $\\mathbf { u }$ 使用标签t的频次，使用余弦相似性算法计算标签相似性。",
+    "context7": "（4）folksonomy 内部相似性测度评价框架和互信息测度（Mutual Information Measure）。互信息是信息论中的一种信息度量，指两个事件集合之间的相关性。Markines等人在文献[11]中提出了基于互信息测度的相似性测度方法，并提出不同测度类型的评价框架，包括标签之间的测度及被标注资源的测度方法。"
+  },
+  "1.2.2相似标签的聚类方法": {
+    "context1": "（1）谱平分聚类方法(Spectral Bisection Clustering)。基于Laplace 特征值的谱平分聚类方法根据Laplace 图谱的次小特征值和第三小特征值对应的特征向量，构成聚类样本并显示出来。Begelman等人在文献[13]中发现标签同时出现的频率会在一个临界点变化显著，可以根据这个临界点确定两个标签之间是否相关，使用谱平分聚类算法对标签进行了聚类分析，从RawSuar 网站抽取30000个标签进行试验。",
+    "context2": "(2）文档向量空间聚类方法(Vector Space Model)。文档向量空间聚类方法是计算文本之间距离或相关度的方法。HeymannP在文献[14]中,使用向量空间聚类方法。从del $, ^ { \\ast }$ icio·us 网站搜集60000个标签,根据标签的向量相似度确定相关标签，将相关标签连接成无权重的无向图，采用相关算法将无向图转换为层次结构的分类树。Daniel Ramage、Yusef Hassan一Montero 和Victor Herrero—Solana 等人在文献[15—16中，使用k一means聚类方法扩展向量空间模型。MirandaGrahl等人在文献[17]中,使用k一means 聚类算法和 folkrank 排序算法构建了del·icio·us 数据的三个等级概念结构。",
+    "context3": "（3）共现聚类方法（Co－occurrence Clustering）。Cattuto 等人在文献[18]中指出标签共现可以用语义描述，标签的相似性被认为是标签之间的一种语义关系，可通过标签之间的相对共现进行评价，能够揭示协作标注系统中的语义关系，如标签之间的同形异义、同义和等级关系等。P.Schmitz 在文献19中使用基于包容算法的模型，抽取标签的共现关系，聚类标签并发现相关标签。Begelman等人在文献［13]中将标签作为一个无向图，将标签共现频次作为向量，并赋予标签共现的值,来完善标签聚类的结果。X·Wu等人在文献［20]中基于标签、资源和用户的共现，生成语义关联的标签组。",
+    "context4": "从目前国外研究进展来看，以上几种标签聚类方法都被普遍的采用，并通过具体的数据来检验聚类的效果。其中，共现聚类方法应用最多，同时共现聚类方法能够同其他的方法结合使用，以优化聚类的结果，发现与识别标签之间的语义关系。"
+  },
+  "2Folksonomy标签推荐方法研究": {
+    "context1": "标签推荐能够为用户提供与关键词匹配良好的资源，标签推荐方法的目标是通过有效的解决标签缺少等级结构问题来处理标签服务中出现的各种问题[21],对标签推荐方法的研究包括定量分析和推荐算法两个方面。"
+  },
+  "2.1定量分析": {
+    "context1": "E·H·Chi 和T．Mytkowicz 在文献［22中评价了早期delicious数据有效导航的价值，指出标签随着时间增加，top 标签不能支持随时间变化的有效导航。R·Li等人在文献［23]中探索了标签共现网络，提出ELSABer标注空间浏览方法，即基于相似性和语义等级发现标签子集的方法，实现语义浏览、层次浏览和有效浏览。E·Santos—Neto 等人在文献［24]中研究了Citelike和 Bibsonomy 服务，探索促进导航的模式。"
+  },
+  "2.2推荐算法": {
+    "context1": "(1)K—way算法。在文献[13]中使用k—way 方法代替 spectral clustering，该方法实现了更好的聚类质量，并且比 spectral clustering方法易于使用,效果更好。",
+    "context2": "(2)向量空间算法与TF一IDF 算法。文献[25]中扩展了推荐资源内容的选择，分析了标签描述博客内容的有效性，通过构建标签向量空间，有效的分类博客内容。",
+    "context3": "（3）基于相似性的folkrank 算法。Hotho 等人在文献［26]中提出了folkrank 算法，用于排序和关联 folksonomy元素。其指导思想是被重要用户使用重要标签标注的资源也是重要的，folkrank 算法的目的是计算一个给定标签的相关标签的排序列表。",
+    "context4": "(4)基于启发式规则和深度句法分析的等级分类体系。Eric Tsui等人在文献[27]中提出了基于启发式规则和深度句法分析的方法，处理核心的分类数据集，生成等级的结构促进用户信息导航行为并体现个性化特征，获取的标签能够整合到分类体系中，以自动的方法完成分类等级构建的过程。",
+    "context5": "在标签推荐中，标签集需要有效的分配给资源以更好地符合头部类目，上面的标签推荐算法可以整合使用，一般的标签分类能够使用Co一occurrence 或者Vec-tor算法，生成的标签具有相似的意义，为了得到更明确的没有语义重叠度的标签可以使用TF一IDF 算法，能够进行特征项加权，增加新的语义关系。"
+  },
+  "3Folksonomy 语义关联研究": {
+    "context1": "3.1Folksonomy 同本体的语义关联研究",
+    "context2": "Cattuto 等人在文献[10]中给出了 folksonomy 和本体关联的三种方式。"
+  },
+  "3.1.1从Folksonomy 标签中抽取本体": {
+    "context1": "P.Mika在文献[12]中建议通过提供标签之间的语义关系构建\"轻量级本体”。为了实现这个目标，建立了不同类型的网络以聚类相关标签，允许通过社区用户兴趣重叠聚类相似标签。如\"fishing\",如果社区里\"fishing\"和\"nautic activities\"有大量的参与者使用，这两个标签被认为是语义关联的，如果参与者使用标签\"fishing”作为使用\"nautic activities\"组群的子集,“nautic activities\"将比“fishing\"的意义广泛。M·Lux 和G.Dsinger在文献[28]中尝试从社会标注中抽取出本体，首先建立共现标签网络，然后利用标签及共现向量的测度，过滤错误标签并将相似标签整合在一起。"
+  },
+  "3.1.2本体同Folksonomy 同步发展": {
+    "context1": "Folksonomy具有多重功能和整合新词表的能力，能够移植于本体或者向本体增加新的概念。A·Passant 在文献[29]中探索了这个特点，该系统中歧义标签同用户标注时定义的概念相连。AbbasiR等人在文献［30中描述了将社会标注同用户选择的本体联系起来，系统在本体概念和标签之间动态的变化，每一个标签能够在概念之下分类。H·Halpin 等人在文献[31]中分析了folksonomies动力机制,并寻求标签使用的一些规律,发现最常使用的标签之间的语义关系，绘制标签内在关系图。"
+  },
+  "3.1.3增加Folksonomy 的语义关系": {
+    "context1": "（1）同本体的聚类和映射增加标签之间的语义关系。L·Specia 和E·Motta 在文献 [8]中将标签进行聚类，并将这些标签同本体概念进行映射，系统查找来自本体具有同聚类标签相同标记的元素，如果有，系统能够将概念及其属性映射到标签集中，形成具有丰富语义的标签集。S.Angeletou在文献［32]中尝试自动实现标签语义关系，使用 M·Sabou 和E.Motta 在文献[33]中提出的映射技术识别概念及其对应的标签对，通过开发推理机制发现之前识别的术语对之间的明确的语义关系。",
+    "context2": "（2）Folksonomy 的语义关系识别。AI一Khalifa 和Davis 2007年指出标签之间存在着潜在的语义关系，folksonomy是抽取新术语的合适的资源，提出标签之间存在着以下几种语义关系： $\\textcircled{1}$ 等同(拼写不同或缩略语)$\\textcircled{2}$ 同义词; $\\textcircled{3}$ 上位术语; $\\textcircled{4}$ 下位术语; $\\textcircled{5}$ 相关术语(同叙词表可比); $\\textcircled{6}$ 非明确相关，这些关系能够用于改进和扩展本体及知识组织系统[34]。随后Angeletou等人在文献［32]中也指出标签之间的语义关系能够被识别和揭示，指出标签之间的语义关系包括：包含关系、非相关关系、通用关系或一般关系、同源关系和实体关系，并通过实验证明folksonomy 能够通过本体收割自动的丰富语义关系，即能够自动的获取标签之间的语义关联。",
+    "context3": "（3）利用本体指导标注行为，控制和规范标签词表。A·Passant在文献[29]中提供了使用本体优化社会标注界面的方法，如果一个标签同几个不同的概念相关，系统要求使用者选择适当的概念，当概念不存在，使用者可以向管理者自由提供新的概念，管理者能够将这个概念添加到本体的正确位置。Hayman 和Lothian在文献［35]中介绍了基于传统分类引导的自由分类方法（Taxonomy一directed Folksonomies），将用户标注与控制词表整合起来，跟踪用户需求变化，抽取新词，更新受控词表，促进用户参与到资源组织过程。",
+    "context4": "（4）构建Folksonomy 本体，丰富标签语义。T·Gruber在文献[36]中指出本体和社会标注之间不是对立的关系，建议将每一个标签作为描述对象，实现标签的具体化，使用“标签的标签”解决标注歧义或滥用的现象。HakLae Kim在文献[37]中比较分析了现有的标签本体 SCOT、MOAT、NAO等,统一标签模型的最基本的构建模块，指出标注模型不能覆盖folksonomy的全部特征，结合Gruber概念模型和Newman词表的SCOT是适合描述协作标注行为的本体，提供了最适合folksonomy 模型的描述,在 SCOT和 MOAT之间建立链接是补充标签意义的有效方式。",
+    "context5": "（5）促进用户贡献，丰富Folksonomy 语义。V.Tanasescu 和O·Streibel 在文献［38]中应用了 Gruber的思想，扩展社会标注系统及标签之间的关系。分类标注系统允许用户增加“标注关系”链接关键词和网络资源。这个特点能够通过发展语义网技术为用户增加导航和建议。H·L·Kim 等人在文献[39]中分析了“inter·est”系统，该系统使用SCOT本体描述用户的标签云结构，帮助用户发现共享同样兴趣的小组，允许用户整合标签云，实现相似标签云的检索。"
+  },
+  "3.2Folksonomy 与网络语义资源的关联研究": "",
+  "3.2.1Folksonomy 同在线词典的关联": {
+    "context1": "目前国外最主要的英文在线词典是WordNet，能够反映自然语言的语义关系及款目之间的分类和关联，因此，国外研究人员在关注将社会标注同WordNet知识资源结合起来。DavidLaniado 等人在文献［40]中描述了将标签聚类成由WordNet驱动的等级结构，通过WordNet的词表语义功能，为每一个标签界定可能的意义。使用WordNet将folksonomy 转化为概念等级，过滤相关标签集，为标签构建等级结构，促进有效的检索和浏览。TagPlus系统使用WordNet消除Flickr标签的歧义，系统返回所有可能的WordNet意义来界定一个标签，用户选择他要选择的标签[41] 。"
+  },
+  "3.2.2Folksonomy 同 Wikipedia、Google、Swoogle 等网络语义资源的关联": {
+    "context1": "语义wiki是探索网络语义资源支持社会标注实践的较早研究。Freddy Limpens 和Fabien Gandon 在文献[42]中探索了将网络语义资源同社会标注连接起来以促进社会网络的知识共享，并介绍了SweetWiki的应用，通过SweetWiki用户能够编辑并修订页面，标注wiki上发表的任何文档，所有的用户能够组织folk-sonomy中的标签并进行编辑，支持增加新标签，能够建立同义词之间的关系并合并类目。通过该系统可以发现给定主题的最活跃用户；发现使用相似标签的用户；推断被相同用户使用的不同标签之间的关系。MariaGrineva等人在文献［43」中使用基于维基百科来处理一词多义的现象，并利用维基百科对标签进行聚类。研究人员同时也关注其他的网络语义资源同folksonomy 的关联。L·Specia 和E.Motta 在文献[8]中使用 wiki 和google识别概念及概念之间的关系。Qin Jian等人在文献［44]中使用google为标签赋予语义环境，以更好的抽取标签的语义关系。Martin Szomszorl等人在文献[45]中使用google、wiki 和WordNet 的方法联合进行标签过滤，首先通过WordNet进行初步的标签查找，如果标签没有在WordNet中发现，认为可能是拼写错误的词语或缩略语，通过google进行检索发现并过滤拼写错误的词语，使用wiki进行缩略语及名称的过滤。"
+  },
+  "4Folksonomy 语义丰富的实证研究": {
+    "context1": "目前国外研究人员已经开始folksonomy语义丰富化的实证研究,如 $\\operatorname { I n t } \\cdot \\mathrm { e r e } \\cdot \\mathrm { s t }$ 项目、 $\\mathrm { T a g O n t o }$ 项目、MOAT项目、Flor项目等，下面以Flor 为例探讨folksonomy 的语义丰富。",
+    "context2": "Flor(Folksonomy ontology enRichment，Flor）是一个folksonomy 本体丰富化工具，该系统能够输入标签集（个人标签集或者由folksonomy统计分析驱动的标签聚类)并自动返回同语义实体的关联（分类，关系，实例),同时输出语义丰富的标签集。目的是通过使用语义实体将平面的folksonomy 标签转换为丰富的语义描述。Flor平台有三个基本的步骤，即词典处理、语义界定及语义扩展和语义丰富三个阶段，见图1。",
+    "context3": "可见，近几年国外研究人员非常关注folksonomy对网络信息资源组织可能产生的巨大的影响，积极探索和改进folksonomy 语义丰富的方法，同时开展了大规模的实证研究，研究表明，通过folksonomy 的语义丰富，能够优化网络信息资源组织、发现和重用的效果。但是，由于folksonomy 的语义研究处于起步和探索阶段，对folksonomy 语义丰富涉及聚类、推荐、关联等方法和技术还需要进一步深入系统的研究并进行改进和优化，并积极的探索 folksonomy 语义丰富工具在实践中的应用。",
+    "context4": "![](images/774a69f4d4ec06661bf3771015bc90eb4b060c34442f747c79f3f035b3164a04.jpg)  \n  \n图1Flor系统平台（资料来源:http://flor·kmi·open·ac·uk/description· html)",
+    "context5": "参考文献   \n[]htp://adealetfoh   \n[2/]ttp://delicios.comtag/   \n[s]htp:/ww.flikxr.com/   \n[4]http://ww.libarything.om/   \n[5]http://w.bibsonomyorg/   \n[6]Weller K，et al. Folksonomies andontologes:Two newplayers iein Online Information，Great Britain，2OO7: 108—115.   \n[7]Hend S.Folks annotation: A semantic metadata tool for annotating learning resources using folksonomies and domain ontologies[EB/0L].2009—12—24].tp://eprintsecs soton-ac.uk/13123/1/FolksAnnotationCameraReadypdf.   \n[8]LuciaSecial，MottE.Integratifoksonomiesiththentc webEB/L]29124p://wweswerg/f/ eswc07-specia-pdf.   \n9]Van DameC，etal.FoksontoogAnintegratedappachfor turning folksonomies into ontologies[EB/OL].[2009—12—24]. http://www.kde.cs:uni-kasel·de/ws/eswe2007/proc/ FolksOntology · pdf.   \n]CatutoCofeae bookmarking systems[EB/OL].2009—12—24].http://www. tagoraproject.eu/wp content/20o9/09/catutoiswc2008.pdf.   \n[11]MarkinesB，etal.Evaluatingsimilaritymeasuresforgt semantics ofsocial tagging[EB/0L].[2009—12—24].htp:// www.tagoraproject·eu/wpcontent/2O09/O9/socialsimwww 2009.pdf.   \n[12]MikaP.Ontologesareus:Anfiedmoelofsocialtwrks and semantics［j].Web Semantics $_ { \\mathrm { ~ i ~ } } \\colon$ Science, Services and Agents on the World Wide Web.2O07(3):5—15.   \n[13]BegelmanG，etalAutoatedtaglustering:Iprovi and exploration in the tag space[EB/OL].[2009—12—24]. http:/ps·csd.auth-gr/mtpx/ml/PAPERS/Automated% 20Tag% 20Clustering·pdf.   \n[14]HeymaPolaatiecreatioofomnalaa taxonomies in social taging systems[EB/OL].[2009—12— 24].http://ilpubs·stanford.edu: 8090/775/1/2006-10.pdf.   \n[15]Daniel Raage，etal.CsteringthetagedwebB/] [2009—12-24].http://www-nlp·stanford·edu/pubs/ cluster-wsdmO9.pdf.   \n[16]Yusef HassanMontero Victor Herrero-SolanaImproving tagcloudsas visual information retrieval Inteifaces[EB/OL]. 2009—122.tp://nosolousabilidad.comhaan improvingtagelouds · pdf.   \n[17]randGaepaseoai sitesEB/OL].21—2]ttp://iknowtugraz.at/ wpcontent/uplods/8/11/43concepal-clusteriof social bookmarkingsites· pdf.   \n[18]attuto，etalSemotdyandcolboraive tang/ OL].[2009—12-24]. http://www3.isrl·illinois·edu/\\~ junwang4/langecaoy/pf/atutoemoticaf.   \n[19]Schmitz P.Inducingontology fromflickr tagsEB/OL]. [2009—12-24].htp://www·semanticmetadata: net/hosted/ taggingws-www2006-files/22.pdf.   \n[20]WuX，etalExplosoialaotatosfortawe [EB/L].[2009-12—24].htp://ww2006.org/programme/ files/pdf/4071.pdf.   \n21]tefeat algorithms[EB/OL].[2009—12—24].http://www.informatik. unirostock:de/\\~stol/Compara tiveanalysisoftagsuggestion algorithmsfinal·-pdf .   \n22EHi systemsEB/0L].[2009-12-24].ttp://www:viktoria.se/ altchi/submissions/submissionedchi-.pdf.   \n23]LiRetaldsftieroeal anotationsB/]024p:/ww0 papers/paper733.pdf.   \n2i tagingcommunitiesEB/L].201224].ttp://rxiv org/ftp/arxiv/papers/0705/0705.1013.pdf.   \n25rosCi inblogs[EB/L]22tp://wwai:o Papers/Symposia/Spring/2006/ss-06-03/ss06-03-002.pdf.   \n26Hoto ranking [EB/0L].[2009-12-24].tp://maps·cs·hut·fi/bib/ FolksonomyOntology/InformationRetrievalinFolksonomies-Searchand-Ranking· pdf.   \n27]ricsu approach for herarchical taxonomyconstructionfromtags]. InformationProcessing & Management， 2O10(1):44-57.   \n28]LuxMDsierGFoi wisdomof the crowds to serve learning purposesJ]. International Journal of Knowledge and Learning,2O07(3):515—528.   \n29]ssant information retrieval in weblogs[EB/OL].[2O09—12—24]. http://icwsm·org/papers/2--Passnt-pdf.   \n30]Abasi Reales ORG[EB/0L].2009-12-24].htp://www.kde.cs·un kassel·de/ws/eswc2OO7/proc/OrganizingResources·pdf.   \n]Hlpie [EB/OL].209-124].ttp://ww-ra.ethz.ch/CDstore/ www2007/ww07.org/papers/paper635.pdf.   \n[32]AngeletouS，etalBridg hegapbetweefoksoosdth semantic web:An experience report[EB/OL].[2O09—12—24]. http://ww.lamaeeimges//1Flksonomsmeme2pdf.   \n3]SaboMtEUsiheaskgroe frotoogymapping/]2.tp:/ep aktors:org/571/01/om2006.pdf.   \n[34]Al-Kalfa，etal.FAsTA:Afoksonomyasedtatic metadatageneratorEB/]2].tp://eprints ecs·soton·ac.uk/14186/1/EC-TEL07v2.pdf.   \n35]HaynSTaodiedfoooeseatiue tagging andcontroled vocabularies for Australian education networks[EB/0L].[2009-12-24].ttp://www.ifla. quenslibrary·org/IV/ifa73/papers/157—HaymanLothianen pdf.   \n[36]GruberTOntologyofosooyAmashpfalesd oranges[J]. International Journal on Semantic Web（下转第 49页）",
+    "context6": "要求是有关主体根据社会发展的需要，在法律规定的范围内向国家和政府提出创设全新信息权利内容的要求，它是信息权利由应有或伦理权利向法律权利转化的过程，其具体实现途径是政府信息政策与法律的修订和完善。在政府信息资源规划制订与实施中，虽然新的信息权利要求并不能成为左右政府信息资源规划制订与实施的因素，但政府信息管理人员应预见到这些信息权利要求对政府信息资源管理工作的可能影响。"
+  },
+  "3.2应突出信息权利客体这个中心内容": {
+    "context1": "政府信息资源规划无疑就是围绕“政府信息资源”这个客体中心进行收藏、整序与开发利用等的规划。从理论上看，不同权利主体的不同权利内容都是围绕“政府信息资源”这一权利客体为中心而展开，因此，科学界定和分析政府信息资源的构成现状就是突破信息权利保护难题的一个可行捷径。从前文分析看，当前我国政府信息公开存在着“公开的群众不关心，群众关心的不公开”的现象，这就使信息权利客体对象被人为地限制在政府机关认为能够公开的信息对象上。而且，一般认为能够公开的信息通常也是以“政府机关的规范性信息”(如文件、会议、规范、法律与法规)为主，而其他因政务活动而衍生出来“泛”政府信息（如公共安全与卫生信息、就业信息、社会保障信息、公共财政信息、政治博客、会议视频资料、政府人员的口头讲话等)显然则被忽视了。无论是资源方、管理方或用户方的信息权利类型及其实现程度均会因权利客体对象的过度单一或过度集中而大受影响。因此，突破当前信息权利客体对象在\"政府机关的规范性信息”上的限制，将这些“泛”政府信息纳入到规划和管理范畴并推动其公开进程就显得十分重要。"
+  },
+  "3.3应兼顾信息伦理权利与法律权利两类不同的信息权利内容": {
+    "context1": "政府信息资源规划的实现不仅要关注作为法律意义上的信息权利，而且也应关注作为道德或伦理意义上的信息权利。从长远看，只有在规划中超前地预见到信息伦理权利的主张与要求及其对政府信息资源管理可能产生的影响，并在政府信息资源规划中做好长远安排，才能保证信息伦理权利一旦被法律确认后就能得到充分保障。"
+  },
+  "参考文献": {
+    "context1": "[1］高复先·信息资源规划——信息化建设基础工程[M]·北京：清华大学出版社，2002.15,68.  \n[2］柳新华·开发利用政府信息资源[J].中国行政管理,2003(8).23-26.  \n[3」赵国俊·政府信息信息资源开发利用专项规划及其内容体系[j].北京档案,2005(9).16—18.  \n[4］冯惠玲.电子文件管理国家战略思考[R](未公开出版).2008年.  \n[5］马海群·论数字信息资源的国家宏观规划与管理[j]·中国图书馆学报，2007(1)：36—39.  \n［6」政府信息公开一年观察：一些部门以保密需要搪塞[EB/OL].[2009—07-28]. $\\mathrm { h t t } _ { \\mathrm { p } }$ ://news·xinhuanetcom/politics/2009—07/20/content-11737392.htm.  \n[7］周毅·信息权利:伦理权利与法律权利的互动及其意义[].图书情报工作,2009(5)：23-26."
+  },
+  "（上接第 44 页)and Information Systems,2OO7(1):1—11.": {
+    "context1": "[37] Hak Lae Kim.The state of the art in tag ontologies:A semantic model for tagging and folksonomies[EB/OL].[2OO9—12—24]. http://scot-project org/pubs/Kim-TagOnt· pdf.   \n[38] Tanasescu V，Streibel O.Extreme tagging: Emergent semantics through the tagging of tags[EB/OL].[2009—12—24].http:// citeseerx·ist·psu·edu/viewdoc/download?doi=1O.1.1.64. $9 0 6 8 \\& \\mathrm { r e p } ^ { = } \\mathrm { r e p } ^ { 1 } \\& \\mathrm { t y p e } ^ { = } \\mathrm { p d } \\mathrm { f }$   \n[39]Kim HL，etal.Tag mediated societywith SCOTontology [EB/ 0 $\\mathrm { L ] . [ 2 0 0 9 - 1 2 \\mathrm { - } 2 4 ] . h t t p : / / w w w \\cdot c s \\cdot v u \\cdot n l / \\sim _ { p m i k a / s w c } - }$ 2007/SCOT. pdf.   \n[40]Laniado D，etal.Using WordNet to turn a folksonomy intoa hierarchy of concepts $\\mathrm { \\bar { E } B / o L ] . \\bar { [ 2 0 0 9 - 1 2 - 2 4 ] } . h t t p : / / }$ citeseerx·ist·psu·edu/viewdoc/download?doi=1O.1.1. 94. $4 3 9 3 \\& \\mathrm { { r e p } ^ { = } \\mathrm { { r e p } 1 \\& t y p e ^ { = } \\mathrm { { p d f } \\# \\mathrm { { p a g e } ^ { = } 2 0 0 . } } } }$   \n[41]http://www.folkd.com/go/tagplus   \n[42]Freddy Limpens，Fabien Gandon.Bridging ontologiesand folksonomies to leverage knowledge sharing on the social web:A brief survey[EB/0L].2009—12-24].http://wwwsop. inria·fr/members/Fabien· Gandon/docs/LimpensEtALSoSEAO8. pdf.   \n[43]Maria Grineva.Harnessing wikipedia for smart tags clustering [EB/OL].[2009-12—24].http://wwwnew·ispras·ru/en/ modis/downloads/grinevaO2.pdf.   \n[44]Qin jian，etalSemanticrelationextractionfromsocially generated tags :A methodology for metadata generation[EB/OL]. [2009—12—24].htp://edoc·hu-berlin·de/conferences/ de—2008/chen miao—117/PDF/chen·pdf.   \n[45]MartinSzomszorl，et al.Semanticmodellngof userterests based on cross—folksonomy analysis[EB/OL].[2OO9—12— 24].http://arantxa.ii:uam.es/\\~cantador/doc/208/iswcO8.pdf."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "original_filename": "full_8430.md",
+  "社会标签研究现状调研与分析": {
+    "context1": "基于WoS、LISA、ACM、IEEE数据库",
+    "context2": "冯祝斌 华薇娜",
+    "context3": "（南京大学信息管理系南京210093)",
+    "context4": "摘要以WoS、LISA、ACM、IEEE数据库为文献来源,运用文献计量学方法并结合文献内容,从文献量、著者、期刊和主题等方面对社会标签的研究论文进行分析,归纳出社会标签研究现状相关结论，并为社会标签的未来研究工作提出了几点建议，以期能对该主题今后的研究提供一定的参考与后示。",
+    "context5": "关键词社会标签定量分析数据库信息检索",
+    "context6": "中图分类号G250 文献标识码A",
+    "context7": "文章编号 1002-1965(2012)02-0157-06"
+  },
+  "Research Progress of Social Tagging: Based on WoS，LISA，ACM and IEEE Databases": {
+    "context1": "FENG Zhubin HUA Weina (Department of Information Management，Nanjing University,Nanjing210093)",
+    "context2": "AbstractTakingWoS,LISA,ACMandIEEdatabasesasdocumentsources，thispaperusesthebibliometricmethodandcombinesthe contentofricestakatisticalalysoftacadeicpapsoocialaingisofocuequantityuthojould theme，andtesoeconcusiosontheeseachprogessofsoialtaggingaresummadinally，omesgesionsohefuturestudy of social tagging are given.The paper attempts to provide some inspiration to future research on social tagging.",
+    "context3": "Key wordssocial taggingquantitative analysisdatabase information retrieval",
+    "context4": "作为 $\\mathbb { W } \\mathrm { e b } \\ 2 . 0$ 环境下最成功的应用之一,社会标签自出现以来便引起了众多学者的广泛关注。它使互联网用户能够自主地对条目进行注释和分类,改变了语义网中传统结构化的知识表现，使之从静态平台正逐渐转变成为一个更加积极的信息共享空间。为了解当下有关社会标签研究的进展，笔者对有关社会标签的研究论文从文献量、著者、期刊和主题等方面进行分析,得出相关结论,并基于此对未来的研究方向提出建议。"
+  },
+  "1数据来源与处理": {
+    "context1": "在数据来源上，笔者以WoS(国际权威引文数据库 Web of Science with Conference Proceedings: SCI-EXPANDED,1899 年至今；SSCI,1898 年至今;A&HCI,1975 年至今;CPCI-S,1998 年至今；CPCI-SSH,1990年至今）、LISA（信息管理领域权威数据库",
+    "context2": "LISA:Library and Information Science Abstracts,1969年至今）、ACM（美国计算机学会数据库ACM:Associ-ation for Computing Machinery Digital Library)和 IEEE（美国电气和电子工程师协会数据库IEEE:IEEE/IETElectronic Library（IEL）,VDE VERLAG ConferenceProceedings）四个数据库为文献信息源,对有关社会标签研究的文献进行检索。",
+    "context3": "目前，国内外对社会标签的概念仍然没有一个统一的定义,国外社会标签（social tagging）等同于 folk-sonomy，collaborative tagging，social classification，so-cial indexing 。",
+    "context4": "因此,笔者以“social tag”、“folksonomy”、“collab-orative tag”、“social classification”及“social indexing”为关键词,以题名为字段构造检索式,在WoS和LISA进行检索,分别得到文献264篇和49篇，在ACM和IEEE中检索,分别得到文献197篇和100 篇。在摒弃主题不符的文献并经去重处理后，最后共得到包括期刊论文(Journal Article）、书评(Book Review）、会议论文(Proceedings Paper）编者按语(Editorial Material）、会议报道（Conference Report）及会议文摘（MeetingAbstract）等多类型的文献421篇。"
+  },
+  "2研究现状调研与分析": "",
+  "2.1文献数量分析对文献按年代进行数量分析如表1和图1所示,可以提示其发展趋势。": {
+    "context1": "表1社会标签研究的文献数量分析",
+    "context2": "<table><tr><td>年代</td><td>2005</td><td>2006</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td></tr><tr><td>文献量</td><td>2</td><td>25</td><td>47</td><td>102</td><td>120</td><td>117</td></tr></table>",
+    "context3": "![](images/308f71bc1199f6a64f1852d04bd5016f9e9fa749ac526d9564cfe83759751667.jpg)  \n图1社会标签研究的文献数量分析图",
+    "context4": "从表1中可以看出,从2005年至今，与社会标签相关的研究文献量已超过413篇，整体上呈逐年上涨的趋势，说明对社会标签的研究问题正成为相关领域持续关注的热点。",
+    "context5": "通过阅读文献的题名和摘要可以进一步发现，在早期的2005和2006 年的两年中，学者们倾向于从社会标签的相关理论、系统构建提议、模型初步探讨等角度对其进行起步研究。如2005年，布鲁塞尔自由大学的S．Christiaens比较了本体与社会标签中元数据机制的不同。他认为这些机制不应独立使用，而应该相互补充,以此提出并论证了标签、分类与本体三者相结合的方法。此外,该时期内另具代表性的一篇文献为2006年由美国加利福尼亚帕拉阿托惠普实验室的S．A．Golder与B．A．Huberman联合发表在Journalof Information Science 第 32 期上的“Usage patterns ofcollaborative tagging systems”。两位著者在文中详细分析了社会标签系统的结构和动态表现。他们发现，在给定的URL中用户的行为、标签使用的种类与频数具一定常规性。故在此基础上,他们提出了一个动态的社会标签系统模型，以便于对这些固定的模式进行预测,使之能更好地进行信息的组织和共享。该文对后续的研究具深远影响，在国际核心期刊数据库WoS中被引频次达291次,在Google Scholar中的被引次数达到912次。",
+    "context6": "随着研究的持续和深入，2007和2008两年总的文献量达前两年的5.5倍，为文献增长速度最快的时间段(如图1所示)。两年里,学者的研究角度较之前而言开始呈现多元化发展，越来越多的学者开始关注于社会标签更广泛的实践运用，对社会标签相关系统的研究逐渐增多，对其在信息管理领域应用研究的深度和广度也逐渐加强。",
+    "context7": "至2009和2010年时，文献量达到最高峰并呈稳定发展趋势(如图1）。在这一时期内,相关的研究内容逐渐趋于成熟,更多的学者们开始关注于社会标签系统中相关问题的解决方法,对系统性能的改进、用户的建模、社会标签在实践中的新应用等内容均有了更广的研究思路和更多的研究方法。可以预见,在今后的几年中，社会标签将依然是相关领域中备受关注的热点主题。",
+    "context8": "2.2核心著者分析在对论文著者统计中,421 篇文献共涉及692名著者，其中,578名著者只发表过一篇与社会标签有关的研究论文，占总数的 $8 3 . 5 3 \\%$ 。此外,有一位著者发表了7篇文献,而发表了6篇文献的作者有三人。由于本文所搜集的文献的时间跨度较小（从2005至2010），故仅将这6年中发文5篇及以上的著者作为社会标签研究的初步核心著者(如表2所示）。",
+    "context9": "表2社会标签研究的初步核心著者",
+    "context10": "<table><tr><td>初步核心 著者</td><td>发文 数量</td><td>国别</td><td>机构</td><td>研究 方向</td></tr><tr><td>Nigel Shadbolt</td><td>7</td><td>英国</td><td>南安普敦大学</td><td>社会标签的理论 研究</td></tr><tr><td>K. Razikin</td><td>6</td><td>新加坡</td><td>南洋理工大学</td><td>社会标签的实践 应用及其效果研 究</td></tr><tr><td>N. Gibbins</td><td>6</td><td>英国</td><td>南安普敦大学</td><td>社会标签的理论 研究</td></tr><tr><td>WesleyDe Neve</td><td>6</td><td>韩国</td><td>韩国科技高级 研究所</td><td>社会标签与多媒 体技术研究</td></tr><tr><td>Yong Man Ro</td><td>5</td><td>韩国</td><td>韩国科技高级 研究所</td><td>社会标签与多媒 体技术研究</td></tr><tr><td>D.H.L.Goh</td><td>5</td><td>新加坡</td><td>南洋理工大学</td><td>社会标签的实践 应用及其效果研 究</td></tr><tr><td>Ching-man Au Yeung</td><td>5</td><td>英国</td><td>南安普敦大学</td><td>社会标签的理论 研究</td></tr></table>",
+    "context11": "7位核心著者中有3位来自英国,其中 NigelShadbolt,N.Gibbins,Ching-man Au Yeung 均来自南安普敦大学的电子与计算科学学院,他们着重讨论了如何消除在社会标签中出现的歧义标签,重点分析了用户的兴趣与行为在社会标签过程中的表现。",
+    "context12": "而来自韩国科技高级研究所的Wesley De Neve与YongManRo,则主要探讨了社会标签在图像、音乐、视频等多媒体文件中的应用。K.Razikin与D．H.",
+    "context13": "L．Goh来自新加坡南洋理工大学的传播与信息学院，他们集中于社会标签在互联网中的实践应用研究，并分析了其应用效果评价等相关问题。",
+    "context14": "此外,通过统计分析692名著者的地理分布可以发现,在亚洲地区著者主要集中于新加坡、日本、韩国与中国等地;在北美洲地区主要集中在美国;欧洲地区则集中于英国、德国、意大利、瑞典、法国、丹麦等国家。在机构上，大部分的著者来自各地高校，另有部分著者来自实验室与研究所。在研究主题分类上，著者们则主要从事于计算机科学、信息科学、软件工程、电子工程及电气通信工程等领域。可见有关社会标签的研究在一定程度上引起了跨地区、跨领域学者的共同关注。",
+    "context15": "2.3期刊分析 分析文献的类型及来源期刊分布情况,可以在空间分布上更好地掌握文献分布特点，并能指出该领域的相关核心期刊,有助于学者从整体上把握相关研究成果。",
+    "context16": "据统计，421篇文献发表在96份会议录以及83种期刊上。有近 $63 \\%$ 的文献为会议文献被会议录收录，而剩下的文献在期刊分布中,排在首位的是Journal ofInformation Science,刊载文献13篇,排在其后的为收录了8篇的IEEEMultiMedia。在此,将载文量6篇及6篇以上的7种期刊作为社会标签研究的核心期刊（见表3）。",
+    "context17": "表3社会标签研究的核心期刊",
+    "context18": "<table><tr><td>期刊名</td><td>发文量</td></tr><tr><td>Journal of Information Science</td><td>13</td></tr><tr><td>IEEE MultiMedia</td><td>8</td></tr><tr><td>Webology</td><td>8</td></tr><tr><td>Online Information Review</td><td>7</td></tr><tr><td>Journal of the American Society for Information Science and Technology</td><td>6</td></tr><tr><td>Expert Systems with Applications</td><td>6</td></tr><tr><td>D-Lib Magazine</td><td>6</td></tr></table>",
+    "context19": "另一方面，因其大部分的相关文献均被收录在会议录中，说明有关社会标签的国际会议数量较多，由此也再次说明社会标签已成为学者们热烈关注的研究对象。",
+    "context20": "2.4主题分析对论文主题的分析无疑是整个文献分析工作的重点,通过这一工作，可对本研究领域中的重点内容及主要研究方向有一个全面和准确的把握。笔者通过对论文的关键词进行频次统计，并阅读文献题名和摘要，发现有关社会标签的研究重点主要集中在社会标签基础理论、社会标签相关系统研究、社会标签在信息管理领域中的应用、社会标签与用户的交互研究以及社会标签在Web应用中的实证研究等方面（如表4所示）。",
+    "context21": "表4社会标签研究的主题分析",
+    "context22": "<table><tr><td>主题</td><td>数量</td><td>比例</td></tr><tr><td>社会标签相关系统研究</td><td>146</td><td>34.68</td></tr><tr><td>基础理论研究</td><td>101</td><td>23.99</td></tr><tr><td>社会标签在信息管理领域的应用研究</td><td>95</td><td>22.56</td></tr><tr><td>社会标签与用户的交互研究</td><td>30</td><td>7.13</td></tr><tr><td>社会标签在WEB应用中的实证研究</td><td>21</td><td>4.99</td></tr><tr><td>其它</td><td>28</td><td>6.65</td></tr></table>",
+    "context23": "2.4.1基础理论研究。作为Web2.0环境下出现的新生事物，学者对社会标签的基础理论研究主要涉及社会标签的概念、种类、特点、意义、兴起背景及存在问题等内容。",
+    "context24": "在社会标签的概念上，学者们普遍认同社会标签是由用户产生的、对网络内容进行组织和共享的自下而上的组织分类体系。部分学者倾向于从用户的角度给出通俗定义,如美国普渡大学的N.Titus等学者在文章Folksonomy and designing:An exploration 中认为，社会标签是用户自由地选择与目标对象相关的关键词对该对象进行信息标识的结果。它与用户对该对象的理解程度与用户对词汇的把握能力有关。另外一些学者则比较侧重社会标签自身元数据的属性，如S．A．Golder 与B．A．Huberman 在文章Usage pat-terns of collaborative tagging systems 中认为社会标签是用户以关键词的形式增加元数据来实现信息共享的过程。来自丹麦哥本哈根大学的T．B．Munk与K.Mork 也在文章 Folksonomy，the power law & the sig-nificanceoftheleast effort中指出,社会标签的本质即是用户自主创造的具描述性的元数据在文本的标注和分类中的应用 。",
+    "context25": "社会标签的提出与应用具有重要意义。它使网络内容的组织变得更加便利，并提供了使用不同信息源和超链接进行信息检索的可能性。它使标注成为人们对客体进行分类最自然的方式，同时也是发现新信息最有效的途径。",
+    "context26": "此外,针对社会标签基础理论中的其它重要问题，美国伊利诺伊大学的Manish Gupta等学者在文章Sur-vey on social tagging techniques中重点讨论了标签流的性能、标签的模型、标签的语义、标签的可视化、标签的运用以及标签使用中的相关问题,并基于理论的角度阐述了人们进行标注的动机、选择标签的影响因素、标注过程的建模、标签域中的规则、标签的产生过程以及如何选择正确的标签进行推荐机制等问题。该文在理论研究上具有显著的指导意义。",
+    "context27": "2.4.2社会标签相关系统研究。如表4所示，作为社会标签在实践应用中的重要形式，基于社会标签的相关系统的研究成为该领域的研究重点。",
+    "context28": "第一,对于社会标签系统自身的研究是实现其他应用研究的基础。社会标签系统是一个复杂、自组织和社会意识化的系统。学者们认为，通过自组织机制协调的多agent系统范式是对该系统进行设计与建模的有效方法,如法国里昂第一大学的M．Rupert 和S.Hassas 在文章 An Organisational Multi-agent SystemsApproach for Designing Collaborative Tagging Systems中就通过利用多agent系统方法，提出了一个新型的由agent的社会组织及空间组织协同控制的社会标签系统模型，并通过实验论证了该系统能有效提高当前社会标签的使用性能。社会标签系统的建立往往还可结合其他相关系统进行自身的优化，如英国奇尔顿的卢瑟福.阿普尔顿实验室的B．Matthews等学者即在文章An Evaluation of Enhancing Social Tagging witha Knowledge Organization System里探讨了借助知识组织系统来提高社会标签系统中标签质量和检索性能的途径。他们在试验中将改进的标签界面发展为在线知识库的一个样本，并使作者群和读者群共同使用受控语词对在线知识库中论文的标签的增加进行效果评估。结果表明，使用知识组织系统来扩大标签量确实能提高作为非专家的用户在标注过程中的效果。",
+    "context29": "第二,基于社会标签的推荐系统的相关研究备受关注。随着社会标签的发展，越来越多的用户通过标签活动暴露了自己的兴趣与爱好等信息，基于社会标签的分析方法随之发展，促进了推荐系统的产生与完善。大量相关文献表明，面向用户的分析技术是实现推荐系统的核心方法,如澳大利亚昆士兰科技大学的H.Z.Liang、J.Hogan 与X.Yue 在文章 Parallel UserProfiling Based on Folksonomy for Large Scaled Recom-mender Systems: An Implimentation of Cascading Ma-pReduce里利用目前先进的云计算技术如Hadoop、MapReduce及Cascading等,提出了一种并行用户分析方法及基于此的可伸缩的推荐系统[。而意大利的勒佐卡拉布里亚地中海大学的P．De Meo、G．Quat-trone 与D.Ursino 则在文章A query expansion and us-er profile enrichment approach to improve the perform-ance of recommender systems operating on a folksonomy中针对推荐系统提出了一个查询扩展和用户描述集扩充的新方法,该方法为每一用户建立并维持了一个描述集，当用户向系统提交含有一组标签的一个查询进行检索时，系统能自动找到更多相关“权威性\"的标签对用户的查询进行扩展并呈现给用户，用户使用其中所有感兴趣的“权威性\"标签对查询进行精炼，最后确定的查询项中所包含的标签都将被存储到用户的描述集中进行扩充。实验表明，使用用户的描述集能有效指导推荐系统发现用户的隐性相关资源，有效提高了推荐系统的性能表现。",
+    "context30": "社会标签系统在其他领域中的应用也逐渐成为学者们探讨的重点。如德国卡塞尔大学的B．Krause等学者在文章 The anti-social tagger :detecting spam insocial bookmarking systems中探讨了其在垃圾邮件检测系统中的应用[；瑞典斯德哥尔摩大学的M．Jons-son 则在文章 Using a Folksonomy Approach for Loca-tion Tagging in Community Based Presence Systems 中讨论了其在社区标记系统中的运用 [4 。",
+    "context31": "除此之外,尝试解决社会标签系统中的现存问题、社会标签系统效率的测量评估及系统中对用户多维兴趣行为的建模分析也皆有相关研究。",
+    "context32": "2.4.3社会标签在信息管理领域的应用研究。作为Web环境下新型的信息组织方式之一,社会标签和传统信息组织体系的融合自然成为学者们的研究重点。社会标签的组织体系为自底向上，与传统信息组织体系的自顶向下截然不同。在二者结合的处理上，部分学者认为可用传统组织体系来指导社会标签组织体系的运行，如德国杜塞尔多夫大学的KatrinWeller和 Isabella Peters 在文章 Different Tag gardening activi-ties for folksonomy maintenance and enrichment 中指出社会标签可以借鉴传统信息组织体系的指导原则，并使用一些词汇控制和语义的元素来进行相关的补充丰富[。另有学者,如(英国)里德商业资讯有限公司的信息构架师EmanueleQuintarelli与意大利博洛尼亚大学的 Andrea Resmini 等则在文章 Integrating bottom-upand top-down classfication in a social tagging system 中提出构建一个位于自顶向下和自底向上组织结构之间的中间结构，他们对此进行了相关项目的研究，使标签同时具有等级结构及分面属性，实现了用户的多维浏览、导航和检索[d 。",
+    "context33": "在有效的信息组织的基础上，社会标签广泛应用于图像、声音及视频等信息载体的检索应用中，且有部分相关文献关注于其中存在的问题。如对于在检索过程中部分图像未能被合适地注解或未被注解的问题，新加坡南洋理工大学的学者K．H．Yap、K．Wu及C.Zhu 在文章 Knowledge Propagation in CollaborativeTaggingforImageRetrieval中提出了一种新型的知识传播模式，其主要思想是基于图像内容的分析与关键字分类相关技术，它能自动地从已标注的图像的子集中将相应的关键字抽取、传送至未标注的图像并对其进行标注[。而针对同样的问题,我国哈尔滨工业大学的Liu Dong 等学者则在文章 Image Retagging usingCollaborativeTagPropagation中提出运用标签重标注的新机制进行标签的质量的精炼。与传统的基于单阶段的学习算法不同，标签重标注过程是作为一个基于多阶段多标签学习的问题而被制定，它同时探索了图像的可视化文本、标签间的语义关系以及用户之前所提供的信息等内容。该机制在实验中得到充分的有效性论证，并在图像的等级排序任务中也有不俗的表现 [ 。",
+    "context34": "此外,社会标签还被广泛应用于信息过滤、数据挖掘、知识管理、数字图书馆等信息管理研究方面。相信随着社会标签研究的深入，其与信息管理领域其他研究热点将会有更加紧密的联系与结合。",
+    "context35": "2.4.4社会标签与用户的交互研究。在社会标签与用户的交互研究方面，对用户兴趣与行为的建模成为学者们所关注的重点内容。用户兴趣与行为的表示对于标签的效果而言是至关重要的，对其的建模研究方法也呈现出多样化，如来自新加坡南洋理工大学的 X．G．Han等学者在文章Folksonomy-Based Onto-logical User Interest Profile Modeling and Its Applicationin Personalized Search中探讨了在社会标注活动中收集用户的标签并将其映射到现有的本体域中的方法，结果表明，此方法能在语义层面上精确捕捉用户的多重兴趣,效果较现有技术相比有着明显的改善[。而奥地利格拉兹科技大学的K．Schoefegger、P.Seitlinger及T.Ley在文章TowardsaUserModel forPersonalized Recommendationsin Work - IntegratedLearning:A Report on an Experimental Study with aCollaborative Tagging System中则认为,现有的对用户的建模研究还仅仅停留在一个静止的潜在模型领域上,他们提议,在对用户行为进行建模时，不仅要基于他们当前正在处理的对象及他们个人现有的知识水平，还要充分结合从系统中提取的相关该用户过去行为的必要信息。他们对此新方法进行了相关的实验评估，并发表了初步结果",
+    "context36": "此外,更多的学者则关注于社会标签与用户的交互行为中出现的相关问题。例如，网络用户在使用自由选择的关键词对共享的信息进行标注时，容易导致一词多义的问题产生。对此，英国南安普敦大学的Ching-man Au Yeung、N.Gibbins 及 Nigel Shadbolt 在文章 Tag Meaning Disambiguation through Analysis ofTripartite Structure of Folksonomies 中利用网络分析技术发现网络节点的集群并提出了对标签消除歧义的算法。另外,他们在文章 Collective User Behaviourand Tag Contextualisation in Folksonomies 中还认为,除了对社会标签自身技术结构的研究，关注使用标签的社会环境可以使标签更好地被情景化。因此，通过对社会标注过程中用户行为的研究，他们提出揭示歧义标签语义的新方法[2"
+  },
+  "2.4.5社会标签在Web应用中的实证研究。社会标签在Web应用中的实证研究是学者们在其实践": {
+    "context1": "研究中的关注点之一。Flickr与Del.icio.us作为社会标签成功运用的典范而成为学者们集中关注的对象。",
+    "context2": "在实证研究方面，学者们较倾向于将标签间的关系作为入手点，进而解决网站中实际存在的相关问题。如泰国西那瓦大学的R.Ungrangsi等学者在文章En-hancing Folksonomy—Based Content Retrieval with Se-mantic Web Technology中指出,为改进Flickr中的检索性能,他们提出一种名为SemFlickr的新方法，它采用了一种基于本体的检索系统SQORE,可以在语义网中检索相关的知识本体并从本体中导出查询项及建议。SemFlickr根据给定的查询项中本体的相关度赋予标签权值,进而产生等级排序结果，最终确保了具有最高相关度的照片出现在结果的首位。类似地,日本电气通信大学的H．Kawakubo等学者在文章Auto-matic Construction of a Folksonomy-Based Visual On-tology中则尝试从Flickr的标签之间的关系里提取其等级结构。他们认为，所提取的结构可以看成是图像搜索数据库中的一个本体,它同时体现了标签的文本关系和视觉关系[24 。",
+    "context3": "除了对网站本身针对性的研究,Flickr与Del.icio.us还常常成为学者们进行相关实验的数据的来源地。如英国南安普顿大学的V．Robu等学者在文章Emergence of Consensus and Shared Vocabularies inCollaborative Tagging Systems 里使用Del.icio.us 的数据,实证考察了社会标签系统的动态，以探讨如何从用户不受监督的标注中产生相关分类方案。而韩国大邱加图立大学的L．Kangpyo等学者则在文章Folkso Viz: A Semantic Relation-Based Folksonomy Vi-sualization Using the Wikipedia Corpus 中通过对 Del.icio.us标签数据的分析,提出一种新技术FolksoViz,使其能自动地推出标签间的语义关系,同时,为了找到等价性、包含性及相似性等的关系模式，他们还参照维基百科的语料库建立了不同的规则和模型 b 。"
+  },
+  "3研究总结与趋势探讨": {
+    "context1": "由以上对社会标签研究现状的分析可知,相对于$\\mathbb { W } \\mathrm { e b } 2 . 0$ 的其它应用，社会标签是一个起步较晚却发展迅速的年轻领域。在其发展的六年来，文献数量历经指数增长至高峰阶段，逐步形成了一个相对完整的研究体系。如今，该领域尚未形成稳定的核心著者群与优势地区,但广泛的跨地区、跨学科的学者的共同关注与众多的相关国际会议均体现了该领域良好的发展势头。随着研究的不断进展，社会标签研究内容的重点正逐渐从理论探讨、初步实践研究过渡到相关系统的开发与改进、信息管理应用、用户交互等主题，并涌现出大量的研究成果，这与社会的需求、多学科间的合作、广大科研人员的努力是分不开的。相信随着人们对社会标签的日益重视,更多地区、更多学科领域的学者将会加入研究队伍，进一步推动社会标签研究的发展。",
+    "context2": "此外,笔者试图基于前文对研究现状的分析,在研究内容上对未来研究趋势提出五点探讨。",
+    "context3": "3.1标签多元化分析综观当前研究,对标签的分析仍多关注于单类标签本身，如图像标签、文本标签等。但是,随着信息内容的形式的多样化,对其标注所需的标签也将趋于多元化，从而产生了新的问题，比如如何对在图像或网站文本中使用的标签进行改进并运用到对微博等新兴的信息内容的标注中。故未来的标签分析将结合不同形式的信息内容，进行标签多元化分析的研究。",
+    "context4": "3.2社会标签系统中标签等级化设计现行的大多社会标签系统只支持同级层次的标签，但许多学者已经从理论上探讨了从扁平的标签空间中提取其等级结构的相关机制。这也就要求了社会标签系统将面向等级标签的相关功能发展，并从而能衍生出相关的新功能，比如能使用户就各个标签对某个资源进行标注的适合度展开相关讨论并进行排序等。",
+    "context5": "3.3应用方式多样化在目前的应用发现中,社会标签更新颖的应用方式仍值得后续的探索与研究。如使用在线标签支持桌面操作系统的标签功能;基于在线商品被标注的情况分析，探讨消费者消费理念与行为的变化;基于社会标签分析建立网站诚信评价制度;社会标签行为中用户更深层次的数据挖掘及分析等。",
+    "context6": "3.4用户研究的持续深入作为社会标签的使用主体,用户将依然是社会标签研究的重点内容。在用户研究上，除了现有的对用户行为与兴趣的建模研究之外,还可通过用户的标注素养、用户对标签的感知程度等方面进行相关探讨，以便从用户研究的角度提高标签的质量，进而提高社会标签的应用效果。",
+    "context7": "3.5相关问题的解决目前，社会标签中的稀疏性、标准化及一词多义等问题仍然没有得到充分而有效地解决，许多解决方案目前还只停留在理论或初步实验阶段。故此类问题的解决将继续成为未来研究工作的重点内容。另外,标签的时效性问题、标签的公有化和个性化问题也将引起更多学者的关注。"
+  },
+  "参考文献": {
+    "context1": "[]陕西省决策咨询委员会课题组.发展创新型服务业推进科技资源有效统筹[.西部大开发,2010(7)：73  \n[] 关中-天水经济区发展规划[.西部大开发,2009（7、8合刊):30  \nB] 魏少平.构筑统筹科技资源体系，引领关天区域经济发展[.人力资源管理,2010(6)：1  \n4] 滕和强.产学研视角下校产地统筹科技资源关系研究[.财经界,2010(11) :163  \n] 赵刚.建设创新型国家过程中的科技资源整合目标与原则.学习与探索,2008(4)：148  \n] 乔冬梅，李正风.科技计划在科技资源整合中的作用及实现方式[.科学学与科学技术管理,2006(5)：14  \n李恒.产学研结合创新的法制建设[A].中国科技法学年刊(2008年卷[].武汉:华中科技大学出版社,2010:478任涛.大力发展产业技术联盟是西安统筹科技资源、提升产业核心竞争力的突破口.人文杂志,2011(1)：184于兆波.科技资源共享立法与政府职责研究[M].北京:北京理工大学出版社，2008:49  \n[0]魏淑艳.国外科技资源共享的有益经验及对我国的后示[.科技进步与对策，2005(9)：95  \n[]周元,王海燕.关于我国区域自主创新的几点思考[]．中国软科学,2006(1)：16",
+    "context2": "(责编:贺小利)",
+    "context3": "and Tag Contextualisation in Folksonomies [A]．WI-IATW 08 Proceedings of the 2OO8 IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology - WorkshopUSA:IEEE Computer Society,2008:659-662   \n[3]Ungrangsi R,Anutariya C,Wuwongse V.Enhancing Folksonomy—Based Content Retrieval with Semantic Web Technology [.International Journal on Semantic Web and Information Systems,2010,6(1):19-38   \n[4]Kawakubo H,Akima Y,Yanai K.Automatic Construction of a Folksonomy-Based Visual Ontology [A] .201O IEEE International Symposium on MultimediaUSA:IEEE Computer Society， 2010:330-335   \n[5]Robu V,Halpin H,Shepherd H.Emergence of Consensus and Shared Vocabularies in Collaborative Tagging Systems [l.Acm Transactions on the Web,2009,3(4):170-183   \n6Kangpyo L,Hyunwoo K,Hyopil S,et al.FolksoViz: A Semantic Relation-Based Folksonomy Visualization Using the Wikipedia Corpus [A] .1Oth ACIS International Conference on Software Engineering，Artificial Intelligences，Networking and Parallel/ Distributed ComputingUSA:IEEE Computer Society,2009:24- 29",
+    "context4": "(责编:贺小利)"
+  },
+  "6结语": {
+    "context1": "统筹科技资源是促进科技进步，建设创新型国家的必要行政举措和重要制度创新。以法律的形式解决统筹科技资源遇到的难点、构建统筹的具体制度，是保证统筹科技资源发挥应有作用的最佳手段。中央立法应当着重解决统筹科技资源遇到的体制问题，为全国的统筹科技资源工作开展创建基本的制度依据。关天经济区应当基于统筹科技资源改革示范基地的战略定位,立足于本经济区的科技资源特点，以地方性立法创建统筹科技资源的具体机制，为全国及其他区域科技"
+  },
+  "(上接第162页)": {
+    "context1": "[7]Yap K H,Wu K,Zhu C.Knowledge Propagation in Collaborative Tagging for Image Retrieval [].Journal of Signal Processing Systems for Signal Image and Video Technology,2010,59(2): 163-175   \n[18]Liu D,Yan S C,Hua X S,et al. Image Retagging using Collaborative Tag Propagation [].IEEE Transactions on Multimedia, 2010,13(4):702 - 712   \n[19]Han X G,Shen ZQ,Miao C Y.Folksonomy-Based Ontological User Interest Profile Modeling and Its Application in Personalized Search [EB/OL]．[2011-05-25] http://www．springerlink. com/content/b6nkn55776221r52/   \n[o]Schoefegger K,SeitlingerP,Ley T.Towards a User Model for Personalized Recommendations in Work-Integrated Learning：A Report on an Experimental Study with a Collaborative Tagging System [ .Procedia Computer Science,2010,1(2):2829-2838   \n[1]Yeung C A,Gibbins N,Shadbolt N. Tag Meaning Disambiguation Through Analysis of Tripartite Structure of Folksonomies [A].WI-IATW O7 Proceedingsof the 2007 IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology- WorkshopUSA:IEEE Computer Society， 2007:3-6   \n[2]Yeung C A,Gibbins N,Shadbolt N. Collctive User Behaviour"
+  },
+  "资源统筹积累经验，发挥示范效应。": ""
+}

@@ -1,0 +1,114 @@
+{
+  "original_filename": "full_4300.md",
+  "基于Internet的后控制全文检索系统的研究与综述": {
+    "context1": "吴广印胡亚莉",
+    "context2": "(北京国信贝斯软件有限公司北京100053)",
+    "context3": "[摘要]基于自然语言的全文检索已经成为目前主要的信息检索技术。主要论述在Intemet环境下,采用后控制检索机制(以后控制词表为代表)如何提高自然语言的检索效率和系统的友好性,并以国内外具有代表性的后控制词表检索系统为例，对该领域的研究状况进行综述性研究。",
+    "context4": "[关键词]全文检索后控制词表后控制检索",
+    "context5": "[分类号]G35"
+  },
+  "A Study and Summary of the Post-Control Free Text Retrieval on Internet": {
+    "context1": "Wu Guangyin Hu Yali （Beijing iBASE Software LTD.，CO.，Beijing)",
+    "context2": "[Abstract]Thenature-languagefreetextretrieval has beenthemain information retrieval technology.This paper points out the wayof increasingtheretrieval efciencyanddecreasing theusers’burdenbyusingthepost-controlfreetextretrieval.Theadvantagesanddisadvantagesofsomefamouspost-control thesaurusretrievalsystemsathomeandabroadarediscussedbasedonthe full analysis.",
+    "context3": "[Keywords] researchsummarypost-controlfree text retrieval",
+    "context4": "数字化和网络化的信息环境给信息检索技术的发展提出了新的机遇和挑战，作为从海量信息中检取有用内容的计算机信息检索和管理技术已成为现代社会的重要技术之一。"
+  },
+  "1基于自然语言的全文检索技术": {
+    "context1": "大型数据库的建立和专业数据库的合成与兼容等，使采用自然语言标引检索信息成为了信息检索的发展主流和方向。与传统的受控语言检索系统相比较，自然语言标引检索在适应当今信息技术发展和用户需求中具有不可比拟的优越性。",
+    "context2": "但是，自然语言标引检索在具体使用过程中仍存在着不足之处，主要表现在3个方面： $\\textcircled{1}$ 易造成主题相关的信息分散。 $\\textcircled{2}$ 词间关系含糊不清或不正确，无法清楚地显示概念间的关系，易造成检索系统的失误。 $\\textcircled{3}$ 用户难以确定全部的检索用词，加重了用户的负担。",
+    "context3": "计算机存储容量和运算速度的大大提高，使得将大量原始信息全部转人检索系统成为可能。以全文检索为代表的自然语言检索系统受到普遍的关注。全文检索技术和自动标引技术是自然语言检索系统发展的两大特点。",
+    "context4": "由于全文检索系统是建立在自然语言标引和检索基础之上的,所以它既具有自然语言检索的一切优势，同时也包含自然语言检索的弊端。若不对其进行适当的控制，则难以提高检索效率，并且会增加用户负担，影响查找速度和降低系统的易用性。"
+  },
+  "2全文检索的后控制机制": {
+    "context1": "自然语言检索系统中，可以采用一种新的控制模式-后控制模式，即“标引不控制 $^ +$ 检索控制”模式。这种模式是在标引（输入）阶段使用自然语言，不对标引进行严格控制，而在检索(输出）阶段才对检索词进行控制一后控制。",
+    "context2": "后控制方法主要有：截词检索、位置逻辑检索、标引词加权和后控制词表。全文检索系统在没有词汇控制的情况下，具有的缺陷大部分都可以通过“后控制”方法加以弥补。其中，后控制词表的控制力最强、效果最好，是一种最为重要的后控制方法。因此，“后控”形式通常指后控词表而言。",
+    "context3": "那么，何谓后控词表技术呢？后控制词表是利用先控语言的原理和方法编制的自然语言检索用词表，它主要是对自然语言中大量存在的等同关系、等级关系和大部分相关关系进行控制和提示，具有自学习功能，可根据检索的需要将新概念和新术语及时地加入词表中，是一个动态词表。用户通过浏览词表选用检索词，既减轻了用户负担，又提高了系统的易用性和检索效率。"
+  },
+  "3国外有关后控词表全文检索系统的研究 与实用现状": {
+    "context1": "词表系统是信息检索的核心，也是提高检索效率的关键。国外情报界非常重视词表的研究。从最初的‘标题词表’，到‘元词表和后来的‘叙词表’，他们一直对词表的体系结构和使用进行不断的探索、尝试和应用。为提高全文检索的效率，各大学的情报学院、计算机学院和一些研究机构，纷纷探讨后控制词表检索机制。一些信息服务机构、软件开发公司也在研制和开发实验性的、实用性的网上词表辅助全文检索系统。"
+  },
+  "3.1美国国防技术信息中心(DTIC)科技报告全文检索系统": {
+    "context1": "DTIC(DefenseTechnical InformationCenter）主要为美国国防技术的研究、开发、使用和管理以及美国政府机构及其合作者提供有关国防技术方面的信息（http://www.dic.mil）。随着Intemet的发展，DTIC也开始为全世界用户提供种类丰富的WWW资源服务。",
+    "context2": "目前，该机构提供的最为普遍的WWW站点是公众科技信息网络(the Scientific and Technical Information Network,缩写为STINET）。用户通过该网络可以查询DTIC收录的1985年以来的科技报告数据库。",
+    "context3": "DTIC的科技报告全文库（Scientificand Technical ReportsDatabase），不仅具有全文检索的功能，而且提供了相应的词表辅助检索体系。下面我们着重分析它的词表辅助全文检索体系。",
+    "context4": "STINET的科技报告全文库的主检索界面如图1所示，在界面中提供了两种使用词表系统的方法：",
+    "context5": "![](images/662df7f6e605c55b6b6b66b2f6a166b8c46b78f581ed59431f82e78e435b9b90.jpg)  \n图1科技报告全文库的主检索界面",
+    "context6": "·第一种是点击“Addthesaurustoscreen”，将词表检索置于屏幕的下方，作为固定功能而存在，不随主屏的改变而消失，其界面如图2所示。用户在检索输入框内输入要查询的词，即可得到该词的相关信息。",
+    "context7": "![](images/f42f63d6c611fd386ba09eebd2e5d629716c5de46c9da4666578693cabf35f61.jpg)  \n图2检索输入界面",
+    "context8": "第二种是点击“DTICthesaurus”键，进人词表检索系统，主界面如图3所示。下面通过一个事例，分析STINET词表系统的使用。",
+    "context9": "![](images/f717248b7837bc4cc7d4f38edce033f490042436586e142f4f8596073a4d43bd.jpg)  \n图3科技报告全文库的词表检索系统界面",
+    "context10": "在其词表检索框内输入computer，查找关于计算机方面的相关词。得到结果如下所示：",
+    "context11": "Results fromrunning query with:computer",
+    "context12": "COMPUTER APPLICATIONS（TEXT)",
+    "context13": "Score:1000,Bytes:212 Add Document to Query for Rele",
+    "context14": "vance Feedback:",
+    "context15": "COMPUTERPROGRAMRELIABILITY(TEXT)",
+    "context16": "Score:959,Bytes:55 Add Document to Query for Rele",
+    "context17": "vance Feedback:",
+    "context18": "以上列出了与computer相关的一系列词条，以供用户进一步选择。",
+    "context19": "接着选取computerapplication（计算机应用）词条，得到关于该词条的解释，如下所示：",
+    "context20": "LIBRARY AND INFORMATION SERVICE. NO.6,2001",
+    "context21": "COMPUTERAPPLICATIONS",
+    "context22": "NT COMPUTER AIDED DESIGN",
+    "context23": "NTCOMPUTER AIDED INSTRUCTION",
+    "context24": "NTCOMPUTER AIDEDMANUFACTURING",
+    "context25": "由此可知有关computerapplication的下位词，选取所需的 词条computeraided instruction作为检索词，进行全文检索。 可得到相关文献的题名，进一步可得到原文。",
+    "context26": "通过以上实例的分析，可知STINET的词表采用类似叙词表的结构，每个词条都有其相应的用（USE）、代（UF）、上位词（BT）、下位词（NT）和相关词（RT）等参照体系。并且同样采用清晰的树形结构排列。",
+    "context27": "但是，该系统只为用户提供了词表的浏览和选择功能，并未提供词表的添加和修改功能。仅仅在检索方面，为用户的选词提供了帮助，减轻了用户负担。用户却不能直接添加新的检索词和新的词间关系，无法及时地反映新概念、新术语，这必然会造成词表使用效率的下降，进而影响检索效率。况且，检索系统没有提供自动向检索提问式增加检索词和自动构造检索提问式的功能，使得选词和构造检索式相分离，增加了检索提问构造的复杂性。",
+    "context28": "总的来说，DTIC提供的全文和词表相联系的检索系统易用性较好，使用方便。词表系统结构合理，体系清晰，具备了后控制词表的主要功能，是一个较为理想的网上基于词表的全文检索系统。"
+  },
+  "3.2美国教育资源信息中心(ERIC)数据库全文检索系统": {
+    "context1": "ERIC(Education Resources Information Center）是美国国家教育部、教育研究和发展署的一个联邦基金项目（http://www.ericae.net/scripts/ewiz/amainz.asp)。主要收录全球范围的有关教育方面的文献资料，并且为全世界的教育研究与工作者提供数据库信息。",
+    "context2": "ERIC数据库检索系统提供了词表辅助检索功能。该词表系统参照体系比较完善，包括常用的参照（USE、UF、RT、NT、BT)，主要目的是帮助用户确定合适的检索用词，以便方便地进行扩检和缩检。下面通过检索事例，分析该词表检索体系的功能和用法。进人该系统的ERIC SearchWizard2.0,其主界面如图4所示。",
+    "context3": "![](images/df8bd3aa1125cbddee9a2d99f8bc472cc951c1cc03754ec055d8cb9a21b6d142.jpg)  \n图4 ERIC Search Wizard 2.0界面",
+    "context4": "用户可在该界面输入最初的检索用词，以便进入检索主界面，进行词表的浏览和数据库检索。例如查找有关计算机辅助设计方面的文献，输人computerassistantdesign，点击lookup，进入词表和数据库检索主界面，如图5所示。此检索窗口分为两部分：左边是数据库检索的提问表格，右边是最初所选检索词的词表体系。利用右边词表部分，用户可选择其关系词，利用该页面底部的按纽，可将选择的词加入检索式。如：选择GRAPHIC ARTS；TECHNOLOGICAL ADVANCE-MENT；COMPUTERSIMULATION加入检索式中，即可提交检索式进行数据库的检索，得到全文检索的结果。",
+    "context5": "![](images/13baa01f5efd08463c1c4ffe1723f047e722937e325270bf266e8bf811b1a3f6.jpg)  \n图5词表和数据库检索主界面",
+    "context6": "对于右边列出的词条都可以进一步浏览每个词条的词间关系。如：选择COMPUTERGRAPHICS可浏览该词条的词间关系，如图6所示。",
+    "context7": "![](images/8df993a50a1db6f7c950b99894b0e6b97f852b18f5a7dce206e50bf3fae7339b.jpg)  \n图6词条词间关系",
+    "context8": "通过具体的实例分析可知，ERIC数据库检索系统不仅将全文检索功能与词表的浏览和检索置于同一界面中，而且提供了向检索式自动添加检索词的功能。其功能多样，界面排列合理，易用性好。其不足之处与STINET的词表检索系统相同，即没有向用户提供词表的更新、维护和词表的自学习功能，无法满足用户对于新术语、新概念检索的要求。但是，从实际使用的情况来看，ERIC网上词表全文检索系统是一个让用户比较满意的后控词表检索系统。"
+  },
+  "3.3生物科学情报社(BIOSIS)提供的词表检索系统": {
+    "context1": "BIOSIS(BioSciences Information Service)着重收录世界范围的生物学和医学方面的文献(http://www.biosis.org/htmls/ht-zrcd/thesaurus)。其中,动物学纪事 ZR(Zoological Record)是很有特色的一个数据库产品。",
+    "context2": "ZR始建于1864年，最初由不列颠博物馆和英国动物协会的一批科学家共同创建，一直受到生物学界的普遍重视。BIOSIS 于1980 年作为其合作伙伴,共同出版ZR。其数据光盘版收录了从115卷至今的所有的内容，并且提供了独一无二的词表检索系统，用于精确地选择合适的检索用词。",
+    "context3": "ZR 提供了两种词表系统：一种是主题词表(subject the-saurus)；包括动物学、地理和古生物方面的词条以及相应的注释,按照生物等级体系排列。一种是生物体系词表（sys-tematic thesaurus)，按照生物分类体系排列，主要用于对生物名称的英文和拉丁文的对照检索。",
+    "context4": "主题词表允许用户从生物分类体系和主题等级体系入手,根据检索要求，进行泛指词和专指词的选择,并提供3种途径便于用户获取所需的词条信息：置换词和置换索引目录（The List of Permuted Terms or Permuted Index）、词条基本和详细信息（The Selected Term Details or Term Information）、扩展树形体系视图(The Expanded Trees View or Full Tree View）。",
+    "context5": "置换词和置换索引目录。该目录主要进行相关词和同义词的参照,按照每个词条的字母顺序排列,用\"see\"进行指代。其格式如下：",
+    "context6": "SCOPE NOTE:Type of food eaten.For dietary RELATED TERM(S） Diet in captivity；Feeding TREES:HIERARCHICAL DISPLAY OF IMMEDIATE",
+    "context7": "TREE1of1：Nutrition"
+  },
+  "Diet": {
+    "context1": "Bacterial diet",
+    "context2": "它所提供的词条相关信息，可以帮助用户确认所选词是否正确，并得到该词的上、下位词和相关词，进行相应的扩检和缩检。",
+    "context3": "一扩展树形体系视图。以等级结构体系显示用户所选词的所有上、下位词，并用缩进树形显示词间关系。位于最左边的词是最为宽泛的上位词,该词的等级值最小;位于最右边的词是最为专指的下位词，该词的等级值最大。其结构如下所示：",
+    "context4": "假如所选的词为Habitat",
+    "context5": "TREE 1: Habitat",
+    "context6": "Level"
+  },
+  "1. . Habitat": {
+    "context1": "2...... Marine habitat",
+    "context2": "现具体介绍利用其词表系统进行检索的步骤： $\\textcircled{1}$ 输人要检索的词条； $\\textcircled{2}$ 从置换词和置换索引目录列表中选择所需的检索词； $\\textcircled{3}$ 在仔细阅读关于该词条的细节说明和信息后，选择检索类型; $\\textcircled{4}$ 进行检索。",
+    "context3": "与其他全文检索词表系统相比较,ZR提供的词表系统包括了两种词表,适应动物学文献的分类和检索。其中主题词表系统又包括3种类型的目录体系，为用户检索生物学方面的词条提供了方便的检索途径。",
+    "context4": "Mythology folkloreand religion",
+    "context5": "see",
+    "context6": "Ad libitum food capacity",
+    "context7": "此目录将同一主题的词条集中在一起,提供同义词参照，为用户定位确切的检索词及其相关词提供帮助。",
+    "context8": "-词条基本和详细信息。这部分是按生物分类等级排列的术语词表,包括标题(用户所选的词)、上下位词的等级树、相关词、范围注释和代'注释。",
+    "context9": "如：词条Diet(食物)内容如下所示：",
+    "context10": "标题为：Diet",
+    "context11": "但是,对整个全文检索系统而言，它的词表体系和全文检索是相分离的。词表仅仅作为一个简单的系统而存在。虽然它自身强调该词表是专为用户检索提供帮助的词表，但是从其使用来看，并不是严格意义上的供全文检索使用的后控制词表。",
+    "context12": "除了以上所举的3个比较典型的网上词表辅助全文检索系统外，目前国外一些科研机构和软件公司也开发了大量的词表管理软件。另外，一些大型的情报服务机构（如NASA、LC等)同样也提供了功能完善、结构合理的词表系统。可是,这些词表系统大部分都是与数据库的检索相分离的，既用于标引,又用于检索，并非是严格意义上的后控制词表，即检索用词表,更象叙词表功能的扩展。因其词表体系组织合理,使用方便,可为我们建立检索用词表提供参考和帮助。"
+  },
+  "4国内有关后控制全文检索的研究和服务现状": {
+    "context1": "汉语语言的特点使汉语计算机信息检索系统发展缓慢，尤其是全文库的检索更是如此。近几年,随着国内IT产业的发展和应用需求的提高，高校、研究机构以及信息服务机构纷纷在汉语全文检索方面进行大量的理论研究和实践，并取得了一定的成果。在后控制词表检索系统的研究中，同样也有了一定的进展。如武汉大学信息管理学院的陈光祚先生和空军政治学院图书馆系的张琪玉先生在该领域进行了多年的研究，发表了多篇有关全文检索和后控制词表系统的文章。此外，北京大学信息管理系韩东梅的硕士论文《后控词表的开发设计与利用》,武汉大学臧国全的硕士论文《后控词表系统研究》和空军政治学院周全明的硕士论文《全文检索后控制技术研究》都是对后控制词表检索系统的研究，而且有的开发了实验性的后控词表系统。但是，他们的研究和实验系统都是针对单机系统的检索，有的还是针对非全文检索系统的，已经不能适应网上全文检索的需要。而到目前为止，国内仍没有开始对网上全文检索系统后控制词表机制的",
+    "context2": "研究和应用。",
+    "context3": "在提供网上专业数据库的全文检索服务方面，较国外而言,国内更为落后一些。在Intemet上提供专业数据库检索服务的信息服务机构就更少了，至于全文检索增加后控词表机制，几乎没有。",
+    "context4": "笔者希望本文对目前国内外在该领域的研究与实用状况的分析能够对国内从事该领域研究的同行有参考价值，以期在汉语后控制全文检索领域有所突破。"
+  },
+  "参考文献：": {
+    "context1": "1ALA.Directory of Institutions offering Accredited Master’s Programs.ALA.Chicago，1999 :2\\~ 22  \n2Gerald Bramley.A Hstory of Library Education.London,1969:94\\~95  \n3R.R.Bowker's.American Library Directory $1 9 9 8 - 9 9 $ ，New Providence,1998:2567\\~2582  \n4孟广均.为\"文献信息管理学\"鼓与呼.图书情报工作,1997(1):1\\~2  \n5Denna B.Marcum.Transforming the curriculum；transforming the profes-sion.American Libraries，Jan.，1997:35\\~36,38  \n6吴慰慈，周庆山．面向21世纪的图书馆学专业课程探讨．大学图书馆学报，1996,14(5):12\\~15"
+  },
+  "（上接第89页）": {
+    "context1": "当代科学发展呈现以高度整体化为主流的大趋势。美国图情教育与其他学科联合办学，形成了新的学科群，加强与不同学科的相互渗透,有利于繁衍边缘学科、专业，也有利于产生新的课程、教科书及教学方法。美国的做法很值得我们参考、借鉴。",
+    "context2": "-我国社会经济的发展以及对人才的需求，都要求高等教育的结构、规模、质量、培养目标和发展速度与之相适应。教育工作应对此具有高度的敏感性，既要注意与之配合呼应，又要注意遵循教育自身的发展规律，保持相对的稳定性。特别是在调整与优化专业课程结构、改进教学内容与方法等，更应保持这样的观点：“既要大胆探索，勇于改革，又要谨慎稳妥，务求实效\"[6]。"
+  }
+}

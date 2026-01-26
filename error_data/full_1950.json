@@ -1,0 +1,99 @@
+{
+  "original_filename": "full_1950.md",
+  "元数据质量的定量评估方法综述": {
+    "context1": "黄莺",
+    "context2": "http://www.dlib.org/dlib/mayl2/westbrook/O5 westbrook.html.",
+    "context3": "[15]Hillmann D，Guy M，Dushay N，et al．Improving metadata quality:Augmentation and recombination [EB/O1]． [2O12-09 - 20l.http://www.ecommons.cornell.edu/bitstream/1813/7897/ 1/Paper_21. pdf.",
+    "context4": "[16] Guy M,PowellA,Day M,et al.Improving the quality of metadata in eprint archives [EB/OL]．[2012-09-20]．http://www. ariadne. ac.uk/issue38 /guy.",
+    "context5": "[17]Ochoa X，Duval E.Automatic evaluation of metadata quality indigital repositories []．International Journal on Digital Libraries ,2009,10(2-3):67 -91.  \n[8]孟广均,霍国庆,罗曼，等.信息资源管理导论M.3版.北京:科学出版社,2008:18-19.  \n[9]苏新宁.信息检索理论与技术 M．北京:科学技术文献出版社,2004:223 -224."
+  },
+  "■ 黄莺": {
+    "context1": "摘 要 在元数据质量研究成果的基础上总结出元数据质量的涵义，并以此涵义为基础，归纳元数据评估的4个主要维度：完整性、准确性、一致性、期望满足程度。在对比元数据质量评估方式的基础上得出自动化评估是质量管理的必要举措。为实现自动评估,将信息熵、信息检索中向量空间模型、逆文献频率加权法等理论应用到4个主要维度的量化中,提出具体的定量评估计算公式；最后介绍其他常见评估维度的定量评估思路和自动化定量评估方面需要进一步深入的研究工作。",
+    "context2": "送键词 元数据质量评估定量评估",
+    "context3": "份类号G350",
+    "context4": "近十几年来,学术界对元数据理论的研究极大地推动了它在数据资源环境中的应用。伴随数字资源的指数级增长，元数据也有了多样化的产生方式和迅猛的增长势头。然而,只有“量”而不对其“质\"进行控制和管理的元数据在实现“查找、识别、选择、获取\"的基本功能时其作用必然大打折扣。所以，元数据质量控制与管理必然会随着元数据理论的广泛应用成为一个重要的研究主题。",
+    "context5": "要实现不同的功能，也就意味着一个环境中的高质量元数据在另一个环境中并不一定就能很好地提供指定的服务。但无论怎么变化,帮助用户“发现、确认、选择和使用”目标资源是元数据的基本功能，不同应用环境的扩展功能都是基于这4个基本功能而实现的。"
+  },
+  "2 元数据质量评估的维度": "",
+  "2.1元数据质量评估": {
+    "context1": "已有元数据质量控制与管理研究主要集中在如下几个领域：从影响元数据质量的根源探究元数据质量的概念、控制策略并构建评估模型-;不同类型资源元数据的质量控制与评估-1d；某数字资源项目元数据质量管理的具体实践[11-14。考察这些主要领域的研究成果得出的结论是：无论是哪个领域的研究者都一致认可元数据质量控制的重要性;而对高质量的元数据意味着什么、从哪些角度衡量元数据质量的高低以及如何从质量问题的根源来管理元数据的产生、维护等一系列问题的研究却是急需深入的。",
+    "context2": "元数据质量管理的首要任务是能区别质量的“高”与“低”,进而对“低”质量的元数据加以改进和完善。所以，质量评估是元数据质量管理的首要环节。评估需要以上述定义为基础,通过实例分析研究出在元数据整个生命周期中影响4个基本功能实现的因素，继而再利用这些因素来衡量元数据的质量高低，对元数据质量加以控制;开发控制管理质量的工具，最终保证数字环境中元数据“量”与“质”的双重效应。所以，找出影响元数据质量的主要因素是元数据质量评估最难、最关键的一步。确定了这些因素,也就确定了评估元数据质量的主要维度。"
+  },
+  "元数据质量的涵义": {
+    "context1": "D.Hillmann 在美国 NSDL( Natiornal Sciencl DigitalLibrary)对收割的元数据进行二次开发的项目中首次提出可以根据提供给终端用户的特定服务来衡量元数据的效用价值[。英国研究者M.Guy等将元数据质量定义为“满足特定功能的程度”。所以,元数据的质量高低与其在特定环境中是否能按照既定的要求实现其功能密切相关。在不同的应用环境中，元数据需"
+  },
+  "2.2元数据质量评估的主要维度": {
+    "context1": "J.R.Park 和Y.Tosaka在2008 年对全美303名目录学、元数据管理等方面的工作者进行了为期两个月的在线问卷调研,得出的结论为准确性、一致性、完整性是影响元数据质量最重要的三个因素。B.Stvilia等通过对信息质量发生变化的根源进行分析，提出一套可以独立于应用环境的信息质量评价体系，该体系中信息质量的评价因素分为三类：一类是与环境无关"
+  },
+  "自动化评估中主要维度的量化方法": "",
+  "3.1自动化评估的必要性": {
+    "context1": "确定了元数据评估的主要维度，接下来就需要考虑评估的实施方式。已有的元数据评估有从元数据产生方式的不同来评估质量的，即比较人工创建方式和自动获取方式的元数据质量的差异;有依据元数据规范的不同来进行评估的，目的在于考察不同元数据规范下的元数据质量的高低;最普遍的是人工评估和自动评估这样的评估分类。相对人工评估而言,自动化评估具有如下几个特点：",
+    "context2": "·全面性强。人工评估由于采用抽样方式，对样本记录进行评估，而自动化评估采用统计评估软件对资源库的所有记录进行评估，因此其评估结果的全面性远胜于人工评估。",
+    "context3": "·成本低。由于采用计算机软件来实施评估活动,因此无论是时间、人力成本,还是物理成本都低于人工评估。",
+    "context4": "·及时性好。资源库的记录发生变化时，自动评估软件可自动更新评估结果，从而更及时地反映元数据质量的当前状态。及时性的评估才能满足当前资源库记录自动生成、不断变化的需要。及时性好同时也意味着自动评估具有很好的可扩展性。",
+    "context5": "·准确性、客观性高。人工评估往往采用抽样方式,评估结果是针对样本记录。人工评估人员对各项指标维度认识的差异使得评估结果的主观性远高于自动评估,准确性低。换言之，自动评估的准确性、客观性更高。",
+    "context6": "基于当前快速增长、内容丰富的开放式资源环境，元数据的产生和管理方式发生了巨大的变化，人工评估无论是从实施的可行性还是从评估的实用性、可扩展性来看都远不如自动评估。但自动评估的前提是需要对上述主要评估维度进行处理,将它们转化为一套具体的量化指标，才能再开发评估应用程序，实现真正的自动评估。"
+  },
+  "3.2主要评估维度的量化方法": {
+    "context1": "3.2.1完整性的量化方法元数据的完整性要求元数据中包含了对目标资源全面的描述信息。而是否能全面地描述资源与数字资源库所选择的元数据规范、规范的使用指南有很大的关系，同一元数据规范的某个字段在一个数字资源库中是必备属性，在另一数字资源库中就可能是可选属性。另一个影响完整性的因素是资源的类型，传统书目元数据比数字资源的元数据容易有更高的完整性，因为后者的元数据会随目标资源的使用而不断发生变化，从而增加维持高完整性的难度。",
+    "context2": "排除元数据规范和资源类型两个重要的影响因素,对完整性进行量化的最直接方法就是计算非空字段的个数,计算公式如下[：",
+    "context3": "$$\nQ c o m p = \\frac { \\sum _ { i = 1 } ^ { N } P ( \\ i ) } { N }\n$$",
+    "context4": "公式中若第i个字段为空,则 $\\mathrm { P } [ \\mathrm { i } ]$ 为0,非空则为1。N为元数据大纲规定的字段个数,如DC为15个元素,LOM为58个元素。Qcomp可被称为简单完整度，因为公式(1)中每个字段对于衡量完整性具有等同的意义。实际上,对于一个网络资源而言，为了实现对资源的发现、获取和利用，资源的URL地址的完整性比责任者字段的完整性具有更大的意义。所以，一种更好的衡量完整性的方法是赋予每个字段权重，再来计算非空字段的个数，最终得出一条元数据完整性的值，即加权完整度。公式如下，其中 $\\alpha _ { \\mathrm { i } }$ 为第 $\\mathrm { i }$ 个字段的权重。",
+    "context5": "$$\nQ w c o m p = \\frac { \\displaystyle \\sum _ { i = 1 } ^ { N } { \\alpha _ { i } } ^ { * } \\ P ( \\ i ) } { \\displaystyle \\sum _ { i = 1 } ^ { N } \\alpha _ { i } }\n$$",
+    "context6": "Qwcomp的取值范围为 $[ 0 , 1 ]$ ,即当一条记录中所有权重不为0的字段都不空，值为1,若都为空则为0。",
+    "context7": "由于元数据的应用平台不同，即元数据应该满足的功能和提供服务的不同,则不同的应用环境中同一字段的权重值可能是不同的，这就意味着每个不同的应用平台需要建立一套适合自身的权重值来体现元数据各个字段与要实现的功能之间联系的强弱程度。各权重值的确定可主要考虑用户查询资源的时候所采用的是哪些字段，即一个字段的权重值应该随用户使用它来查询资源的频率而变化，用户使用越多的字段，其权重越大。检索系统的检索记录模块能很容易地自动统计得出该系统中用户使用各可检字段进行检索的频率,从而计算出这些字段的权重，这样计算的权重能随用户检索时使用字段的频率情况自动发生变化。",
+    "context8": "目前对元数据完整性进行定量计算的实例大都采用公式(1)的方法。美国德雷赛尔大学的研究者们对IPL(The Internet PublicLibrary）的元数据完整性进行了自动和人工两种方式的评价，其自动评估是利用SQL查询语句来判断非空字段的个数，从而确定元数据的完整性[，结果表明自动评价和人工评价的完整性是基本一致的。另一个自动评估完整性的实例是台湾“国立”师范大学的研究者们对TELDAP（Taiwan E-Learningand Digital Archives Program)项目中元数据完整性的评估。",
+    "context9": "3.2.2准确性的量化方法准确性是指元数据提供的内容正确、客观地反映被描述资源的程度。准确度是对准确性的定量计算值，其测量方法是计算用户从元数据记录中获取到的信息与同一个用户从资源自身获取到的信息之间的语义距离。该距离越短，表明元数据提供的内容与资源自身内容越吻合，元数据记录的准确性就越高[0,1] 。",
+    "context10": "语义距离的计算可借鉴信息检索领域用来计算两个文本之间相似度的向量空间模型。根据被描述资源的文本和元数据的文本字段中所含有的不同词建立两个多维向量，被描述资源的向量中每个维度值等于该维度对应词在被描述资源文本中出现的相对频率，同理构造出元数据记录对应的向量。而两个向量之间的距离可采用最常用的余弦函数来计算，从而得出元数据与被描述资源间的语义距离，即元数据的准确度。计算公式如下[ 。",
+    "context11": "$$\n\\mathrm { \\it ~ Q a c c u } = \\left( \\sum _ { i = 1 } ^ { n } t f r _ { i } ^ { \\mathrm {  ~ * ~ } } t f m _ { i } \\right) / \\sqrt { \\sum _ { i = 1 } ^ { n } t f r ^ { \\dot { 1 } ^ { 2 } } \\mathrm {  ~ * ~ } \\sum _ { i = 1 } ^ { n } t f m \\dot { i } ^ { 2 } }\n$$",
+    "context12": "其中， $\\operatorname { t f r } _ { \\mathrm { i } }$ 和 $\\mathrm { t f m } _ { \\mathrm { i } }$ 分别是第 $\\mathrm { i }$ 个词在被描述资源的文本和元数据记录中出现的相对频次， $\\mathbf { n }$ 为两个文本中不同词的总个数,而非参考文献 [0]中所说的“两个文本中每个词的总频次”。",
+    "context13": "以下是一个用该公式计算准确度的具体实例。假定从某资源中抽取的文本内容如下“MethodologyofPedagogic Segmentation Extract from the doctoral thesis byMissM.Wentland Forte entitled‘Knowledge domainmodelingandconceptualorientationinapedagogichypertext’What is a concept? Taking it at the level of thespontaneous mental processes（ unorganized and non -verbalized),we can say that we are dealing with the realmof ideas.As soon as an idea can be named，it becomes aconcept….”。该资源的元数据记录的文本字段假定只有title和description字段，内容均为“SEPHYRMETHODOLOGY”。由于元数据记录只有两个词，所以就可以为元数据记录构造一个二维向量(1,1/2)，向量第一个元素值“1\"是元数据记录文本中“SEPHYR\"词在两个文本中出现的相对频率,元素值“1/2”是词“METHODOLOGY\"的相对频率。由于“SEPHYR”没有出现在资源的文本中，“METHODOLOGY\"出现在了资源文本中,所以,资源文本的向量为(0,1/2）,利用公式(3)即可得到该元数据记录的准确度约等于 $0 . 4 5 ^ { [ 1 7 ] }$ 。",
+    "context14": "在实际应用中，由于资源创建者和元数据创建者可能不是同一人，他们在表达同一个语义时可能用不同的词。这就需要引入人工智能的语义分析技术来降低多词一义现象对Qaccu值的干扰,同时也能起到降维、减少计算量的作用。不同主题领域的检索系统已经建成实用的相关词表、同义词表,可为这样的语义分析提供参考和借鉴。",
+    "context15": "3.2.3一致性的量化方法一致性主要考察的是元数据遵循元数据规范、应用指南以及按照规范、应用指南从受控词表取值的情况。常见的破坏一致性的情况有： $\\textcircled{1}$ 元数据中包含了指定元数据规范并没有定义的字段; $\\textcircled{2}$ 记录里没有元数据规范规定的必备字段; $\\textcircled{3}$ 某些字段没有从元数据规范规定的受控词表中取值;$\\textcircled{4}$ 不遵循元数据规范的应用指南，将受控词表中的多个值整合赋给某个或某些字段[。目前，很多数字资源库的元数据记录都采用XML作为语法基石，因此借助于像Xerces这样的XML语法解析器对元数据记录的语法进行解析，统计得出元数据记录违背元数据应用规则的这4种情况,统计结果就近似地反映了元数据记录的一致性情况。具体量化计算可采用公式（4）,其中Qcons为元数据的一致性值,brokeRule为记录遵循第i条规则的情况,取值为1或0,如果记录遵循第i条规则,则brokeRulei为O,否则为1。N为数字资源库所采用的元数据规范、指南中规则的条数。",
+    "context16": "$$\n\\mathrm { { Q c o n s } = 1 - \\frac { \\sum _ { i = 1 } ^ { N } \\mathrm { { b r o k e R u l e } _ { i } } } { N } }\n$$",
+    "context17": "3.2.4期望满足程度的量化方法该质量指标维度是衡量元数据基于特定用户群体满足某个功能需求的能力。在数字资源集合中，元数据的基本功能在于“发现、确认、选择和获取”。前三个功能的实现主要依赖于元数据中所包含有能将该元数据记录和资源库中其他元数据记录区别开来的独特信息，用户也就是基于这些信息来对目标资源进行确认和选择的。元数据记录中这些独特信息量的多少可作为衡量元数据满足用户期望的程度,即在多大程度上帮助用户“发现、确认、获取\"目标资源[ 。",
+    "context18": "信息熵在信息论中用来表示一条信息中信息含量的多少，是一个变量的不确定性的量化。一条元数据记录中独特信息量的测量便可参考信息熵的计算方法来实现。最常见的计算信息熵的方法是采用事件概率的负对数来表示事件信息所含有的信息量[。这样，元数据中各字段的信息量就和字段值出现的频率以及记录中所含有的文本总量有关。",
+    "context19": "要计算一条元数据记录每个字段的信息熵，需先将元数据的字段归为两类：从元数据大纲规定的词汇表中取值的字段，以下称为“受控值字段”;取值为自由文本的字段,以下称为“自由文本值字段”。",
+    "context20": "·受控值字段信息量的计算。对于某个受控值字段,它的信息熵infoContent(cat_field)可用公式5来计算。其中， $\\mathrm { f } |$ value)是cat-field 字段取值为“value”的记录个数除以资源库中记录总数得到的“value”值在资源库中出现的相对频率[]。",
+    "context21": "$$\n\\mathrm { i n f o } C o n t e n t ( c a t - f i e l d ) \\ = \\ - \\log ( f ( \\ v a l u e ) \\ )\n$$",
+    "context22": "一条记录的所有受控值字段的平均信息熵Qcinfo可用公式(6)来计算,其中,N为这条记录受控值字段的个数， $\\mathrm { f } |$ $\\mathrm { f i e l d } _ { \\mathrm { i } }$ -value)为第 $\\mathrm { i }$ 个受控值字段的值value在资源库的相对频率[。",
+    "context23": "$$\n\\mathrm { Q c i n f o } = \\frac { \\underset { - 1 } { \\overset { \\mathrm { N } } { \\sum } } \\big ( \\mathbf { \\delta } - \\log \\bigl ( f \\bigl ( f i e l d _ { i } - v a l u e \\bigr ) \\bigr ) \\big ) } { \\mathbf { N } }\n$$",
+    "context24": "表1是针对两个资源的元数据记录计算受控值字段信息量的例子。假定该元数据规范只有两个受控值字段,两个资源所在的资源库中共有5000条元数据。从表1可以看到，由于整个资源库中“Language\"字段取值为“Jan”的记录很少,所以,资源2该字段取值为“Jan\"就能很好地将资源2与其他资源区别开来，更好地帮助用户“发现、确认、选择”资源,具有更高的信息熵。同理,资源2的Format字段值亦如此。两个字段值信息熵的平均即为元数据受控值字段的信息量。",
+    "context25": "表1计算受控值字段信息量的例子",
+    "context26": "<table><tr><td rowspan=1 colspan=1>类别</td><td rowspan=1 colspan=1>字段</td><td rowspan=1 colspan=1>字段值</td><td rowspan=1 colspan=1>字段值的相对频率</td><td rowspan=1 colspan=1>信息熵</td><td rowspan=1 colspan=1>信息量（Qcinfo)</td></tr><tr><td rowspan=2 colspan=1>资源1</td><td rowspan=1 colspan=1>Format</td><td rowspan=1 colspan=1>text</td><td rowspan=1 colspan=1>2 210/5 000</td><td rowspan=1 colspan=1>0.354 6</td><td rowspan=2 colspan=1>0.2142</td></tr><tr><td rowspan=1 colspan=1>Langage</td><td rowspan=1 colspan=1>eng</td><td rowspan=1 colspan=1>4 218/5 000</td><td rowspan=1 colspan=1>0.0739</td></tr><tr><td rowspan=2 colspan=1>资源2</td><td rowspan=1 colspan=1>Format</td><td rowspan=1 colspan=1>image</td><td rowspan=1 colspan=1>278/5000</td><td rowspan=1 colspan=1>1.254 9</td><td rowspan=2 colspan=1>1.337 6</td></tr><tr><td rowspan=1 colspan=1>Langage</td><td rowspan=1 colspan=1>Jan</td><td rowspan=1 colspan=1>190 /5 000</td><td rowspan=1 colspan=1>1.4202</td></tr></table>",
+    "context27": "·自由文本值字段信息量的计算。对于自由文本值字段，由于字段里的每个词对区别被描述资源和其他资源都有自己的贡献，只是贡献大小不同，因此就可以先计算出每个词对区别被描述资源的贡献大小，一条记录里的全部自由文本贡献值代数和近似地等于自由文本中所含有的信息量。",
+    "context28": "信息检索领域的逆文献频率加权法（TermFrequency-Inverse Document Frequency,TFIDF)提供了一种计算文本中每个词对于区分文献的重要程度的方法,即在一篇文本中一个词的重要程度与其在文本中出现的频率成正比，与文档集合中含有该词的文献量成反比。这里,可将记录的一个自由文本值字段看作一篇文献,字段中的每个词对于区别记录的贡献量与这个词在该字段值中出现的次数（即词频)成正比,与资源库中这个字段值含有该词的记录总数(即记录频率）成反比。这样，就可以用公式(7)来计算某个自由文本字段的信息量。其中，tf（wordi）为字段中第i个词在字段中的词频,df（wordi)为资源库中该词的记录频率,N为该自由文本值字段中有效词的个数[。",
+    "context29": "$$\n\\begin{array} { l r } { \\operatorname* { i n f } _ { \\mathit { \\omega } } C o n t e n t \\left( \\mathit { f r e e t e x t } - \\mathit { f i e l d } \\right) } & { = \\displaystyle \\sum _ { \\mathrm { i } = 1 } ^ { \\mathrm { N } } \\mathit { t f } \\left( \\mathit { \\omega } _ { w o r d _ { \\mathrm { i } } } \\right) * \\mathrm { \\nabla } \\log } \\\\ { \\displaystyle \\frac { 1 } { d f \\left( \\mathit { \\omega } _ { w o r d _ { \\mathrm { i } } } \\right) } ) } & { \\left( 7 \\right) } \\end{array}\n$$",
+    "context30": "利用公式(7)计算出每个自由文本值字段的信息量，再对记录的全部自由文本值字段信息量求和，取对数,即为一条记录自由文本值字段的全部信息量。计算公式为公式(8）,其中,Qtinfo为一条记录自由文本值字段的信息量,N为该记录中自由文本值字段的个数， $\\mathrm { M }$ 为第 $\\mathrm { i }$ 个自由文本值字段中有效词的个数，$\\mathrm { t f } ( \\mathrm { w o r d } _ { \\mathrm { i j } } )$ 和 $\\mathrm { d f } ( \\mathrm { \\ w o r d _ { \\mathrm { i j } } } )$ 分别为第 $\\mathrm { i }$ 个自由文本值字段的第 $\\mathrm { j }$ 个有效词的词频和记录频率[。",
+    "context31": "$$\nQ t \\mathrm { i n f } o = \\mathrm { l o g } \\big ( \\sum _ { i = 1 } ^ { N } \\big ( \\sum _ { j = 1 } ^ { M } t f \\big ( \\mathstrut w o r d _ { \\mathrm { i j } } \\big ) \\ast \\ b \\mathrm { g } \\big ( \\frac { 1 } { d f \\big ( \\mathstrut w o r d _ { \\mathrm { i j } } \\big ) } \\big ) \\big ) \\ \\mathstrut\n$$"
+  },
+  "3.3其他评价维度的量化方法": {
+    "context1": "在实际应用中,评估所采用的维度大多不限于上述4种,还会考虑元数据的时效性、来源或者出处、可用性、合法性等方面的因素。然而,已有的研究成果对这些因素的理解是各不相同的。",
+    "context2": "时效性是指元数据从诞生或更新后一直到不再准确、全面地表达目标资源、实现其基本功能持续的时间跨度,可称为元数据的生命周期。生命周期越长的元数据其质量越高，生命周期越短的元数据，其质量衰减得越快。所以,对时效性的量化计算可通过比较生命周期中任意两个时刻元数据前4个质量维度值的平均值的变化快慢来进行。",
+    "context3": "元数据的来源是衡量元数据产生的方式或出处。通常，人工方式比自动获取方式产生的元数据有更高的质量，人工方式中专业目录人员可能比目标资源创建者创建出更高质量的元数据。所以，来源也是一个可选的评估维度。对来源维度的量化思路是用元数据所处集合的平均质量值来衡量，即一个元数据集合的总体质量高低决定了其每个成员记录的来源值。用这一思路来量化来源属性意味着一个元数据集合整体质量可能由于它新增元数据记录质量的高低而增加或降低。计算机程序对来源值的计算可以是定期的，也可以是元数据集合中发生变化的记录数超过了一定限度后将计算结果赋给每一条记录。",
+    "context4": "元数据的可用性主要指元数据记录能准确地被理解和利用，比如使用元数据的是诸如智能代理之类的自动化程序，可用性就意味它不能包含自动化程序无法识别或兼容的格式;而如果是普通用户使用元数据，那可用性就表示元数据所包含的信息是可被人所认知并理解的。它和有的模型中的可获取性的涵义有相同的地方,但可获取性与用户所采用的检索工具以及用户自身的检索能力、习惯等元数据的应用环境关系更密切。"
+  },
+  "4结语": {
+    "context1": "随着开放环境中数字资源的高速增长，元数据成为开放获取数字资源的关键，其质量对资源的获取有根本性的影响。而自动化评估元数据质量是管理控制元数据质量的基础步骤,也是应对迅猛增长的、创建方式多样化的元数据发展中出现的诸多问题的关键举措。笔者在总结已有的研究成果基础上归纳出元数据质量评估的4个主要属性，并介绍这4个属性在自动化评估中的量化方法。接下来需要深入研究的主要有两个方面：通过对某几个元数据集合的人工评估和自动评估验证上述定量评估方法的可靠性和可行性;以上述4个属性为核心继续研究质量评估的其他维度定量评估方法,并加以验证。"
+  },
+  "参考文献：": {
+    "context1": "[1]BeallJ.Metadataanddataqualityproblems in thedigital library [EB/OL]．[2012-09-07]．htp://journals.tdl.org/jodi1/ article/viewFile/65 /68.   \n[2]Stvilia B，Gasser L，Twidale MB，et al.A framework for information quality assessment [J]．Journal of American for Information Science and Technology,2007,58(12):1720-1733.   \n[3]Stvilia B,Gasser L.Value-based metadata quality assessment $[ [ ] ]$ · Library & Information Science Research,2008,30(1) :67 -74.   \n[4] Bruce T R，Hillmann D I. The continuum of metadata quality: Defining，expressing，exploiting [C //Hillmann DI，Weatbrooks E L.Metadata in Practice. Chicago: American Library Asociation, 2004: 238 -256.   \n[5]Park JR,Tosaka Y.Metadata quality control in digital repositories and collections: Criteria，semantics，and mechanisms[J]. Cataloging & Classification Quarterly,2010,48(8):696-715.   \n[6] Ochoa X,Duval E.Towards automatic evaluation of learningobject metadata quality [EB/OL]．[2012-O9-20].htp://ariadne. cti.espol.edu.ec/xavier/papers/Ochoa -ER2006.pdf.   \n[7]Ochoa X，Duval E.Quality metrics for learning object metadata EB/OL]． $[ 2 0 1 2 ~ - ~ 0 9 ~ - ~ 3 0 ]$ .https://lirias.kuleuven.be/ bitstream/123456789/133909/1/Ochoa-EDMedia2006.pdf.   \n[8］张毅君.机构知识库质量评价指标研究[].现代情报,2011,31 ( 10) :50 -52,56.   \n[9]李凌杰.特色数据库建设中的元数据质量控制研究[].图书 情报工作 $, 2 0 1 0 , 5 4 \\mid 5 \\mid : 4 3 - 4 6 .$   \n[0]林爱群.机构知识库元数据的自动生成与评估研究[.图书馆 学研究,2009(7):21-23.   \n[1]Ma Shanshan,Lu Caimei,Lin Xia,et al.Evaluating the metadata quality of the IPL[]．Proceedings of the American Society for Information Science and Technology,2009,46(1) :1-17.   \n[12]Chen Yaning，Wen Chunya，Chen Huipin，et al.Metrics for metadata quality assurance and their implicationsfor digital libraries [C] // Xing Chunxiao，Crestani F，RauberA．Digital Libraries:For Cultural Heritage，Knowledge Dissemination，and Future Creation.Heidelberg: Springer-Verlag,2011:138 -147.   \n[3]Moen W E, Stewart E L. Assessing metadata quality:Findings and methodological considerations from an evaluation of the U.S. government information locator service（GILS）[c]//IEEE Computer Society．ADL’98:Proceedings of the Advances in Digital Libraries Conference.Washington: IEEE Xplore,1998:246 -255.   \n[14] Westbrook R N,Johnson D, Carter K,et al. Metadata clean sweep: A digital library audit project [EB/OL]．[2012-O7-09]."
+  },
+  "Review on Quantitative Assessment of Metadata Quality": {
+    "context1": "Huang Ying",
+    "context2": "School of Computer Science and Technology,South-West University for Nationalities,Chengdu 610041",
+    "context3": "[Abstract] Firstly，this paper deduces the conception of metadata quality based on the research literatures about metadataquality.Thenit summarizes the four main dimensions of the metadata quality asessment，which are completeness，accuracy，consistencyand conformance to expectations.Moreover，automatic assessment of metadata quality is necessary inthe digitalresourceenvironment bycomparing withtheasessment methods.Itapplies the theories, which nclude information entropy，vector spacemodel and term frequency-inverse document frequency，tocalculatingthe main four dimensions inorder to implement theautomatic quantitative assessment.Finally，thispaper introduces the calculation methods of others assssment dimensions，and proposes that itis necessary to deeplyresearch the metadata quality quantitative assessment.",
+    "context4": "[Keywords] metadataquality assssment quantitative assessment"
+  },
+  "《图书情报工作》杂志社": "",
+  "2013'图书馆学情报学科研-写作-投稿研修班通知": {
+    "context1": "为提高广大图书馆员图书馆学情报学的科研水平和写作能力，掌握科学研究与论文写作的方法与技巧,学习科研项目申请和报告撰写的基本知识,了解图书馆学情报学期刊投稿的相关要求,加强读者、作者与编者、学者之间的沟通和交流《图书情报工作》杂志社主办、天津市图书馆学会和泰达图书馆协办，邀请国内相关领域知名专家授课、多个重要图情期刊参与的“2013年图书馆学科研-写作-投稿研修班”,将于2013年6月18-22日在天津举办。",
+    "context2": "欢迎携稿交流。交流论文由专业编辑和审稿专家提供审稿意见。优秀论文优先发表。",
+    "context3": "1.培训研讨内容:",
+    "context4": "从科研选题到论文投稿全流程图书馆学情报学与科学研究规范图书馆学情报学科研项目申请与报告撰写图书馆学情报学研究前沿与热点学术期刊投稿要求与写作规范读者、作者、编者、学者讨论与交流2.授课教师:富有科研经验和研究成果的大学教授、□名学者、学术期刊主编、副主编等。",
+    "context5": "3.开班时间和地点:2013年6月18－22日（18日报到,22日疏散),地点:天津市开发区泰达图书馆",
+    "context6": "4.报名要求：报名截止到2013年6月1日。",
+    "context7": "5.培训费用:1200元/人(天津本地800元)",
+    "context8": "6.联系人：高丹;徐健联系电话:010-82623933010 -82626611 -6638/6614电子邮件:gaod@mail.las.ac.cn"
+  }
+}

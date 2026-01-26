@@ -1,0 +1,59 @@
+{
+  "original_filename": "full_7349.md",
+  "日本电子词典研究进展": {
+    "context1": "成金爱编译",
+    "context2": "(山西电建职工中专学校太原030006)",
+    "context3": "[摘要]论述日本电子词典研究所\"电子词典研究项目\"的起源、目标和结果。",
+    "context4": "[关键词]电子词典项目进展",
+    "context5": "$1 9 8 6 \\sim 1 9 9 5$ 年，日本专门成立了电子词典研究所(EDR)，以攻克电子词典研制中的难题，研制能够用计算机处理和理解自然语言的大规模语言数据库，生产系列电子词典。9年间，参与该项目的共有41家日本大学和研究组织、17家日本公司和7所海外大学，从某种意义上来说，整个研制过程也是通过网络的利用来改进电子词典的一项实验。"
+  },
+  "1电子词典与计算机": {
+    "context1": "当人们遇到一个不理解或不确定的字或词时，他们通常的办法是查字典。字典通过一个或几个简单的词组和(或)一些用法的例子来解释字的意义。然而，这样的字典词条只是提供了一个介绍字义的机会，受它们的启发，人们搜索大量的同义知识，进行复杂的推理，以确定一个字的最准确的意义。为人类用户所创造的词典是根据对特定的人的能力的假设而设计的，而计算机却不可能拥有这样的能力，所以有必要给计算机提供同样的特定能力。",
+    "context2": "电子词典正是为了满足上述需求而给计算机设计的词典。由于人们尚未完全破解人类同义知识的性质和处理这些知识的能力，能够提供给计算机的只是那些同语言相关的能力。因此，电子词典也可以说是能够使计算机处理和理解语言的词典。这样的词典及其所汇集的数据是人类研究和发展活动的重要基础。"
+  },
+  "2项目起源及目标": {
+    "context1": "据预测，编制电子词典的费用几乎占机器翻译系统费用的 $90 \\%$ ;而大规模的复杂的电子词典又是新一代高水平语言处理技术研究和发展必不可少的因素。为此，日本关键技术中心和8家私营计算机制造公司于1986 年联合资助并启动了一个为期9 年的项目，并专门成立了日本电子词典研究所来实施这个项目。",
+    "context2": "该项目的目标包括三个方面： $\\textcircled{1}$ 研究和开发系列电子词典，包括字典、概念分类词典、概念描述词典、共生词典和双语词典等; $\\textcircled{2}$ 研究和开发用于支持电子词典使用和开发的软件系统； $\\textcircled{3}$ 研究和发展用于检测和评价电子词典的应用系统。",
+    "context3": "字典(the word dictionary)指明字与概念以及给定的字义和字的语法特征之间的关系，它能够使计算机拥有词法和句法处理功能。概念分类词典(theconcept classificationdictionary）根据类属关系类分所有的概念，它更象通常所谓的同义词典，一般用于计算机寻找同义概念或计算概念的相同程度。概念描述词典(the concept description dictionary)描述概念之间的语义共生现象，它用作计算机校正语义准确性的数据基础。共生词典(the co\"occurrence dictio\"nary)描述字的表层的共生现象，它帮助计算机理解自然的词组形成过程。双语词典(the billingual dic-tionary)描述同义的日语字和英语字的对应关系，它能够使计算机发现被译语言中最合适的对应词。",
+    "context4": "上述系列电子词典是由\"例句数据库\"和\"文本数据库\"所支持的。例句数据库是用于字典开发的数据集合，它建立在大量例句的基础上，这些从文本中抽取出来的例句可谓集词法分析、句法分析和语义分析为一体。文本数据库是用作研究数据的文本的集合，它是由那些购于报社和出版公司的机器可读文本转化而来的。"
+  },
+  "3项目结果及其利用": {
+    "context1": "电子词典研制项目于1995年结束，但此前从1993 年9日起，有关系列电子词典一－先是日语字典和英语字典，然后是概念词典，已陆续投入使用。",
+    "context2": "有关研制部门为项目结果的使用制定了三项政策： $\\textcircled{1}$ 电子词典面向绝大多数企事业用户，包括小型公司用户； $\\textcircled{2}$ 电子词典将为大学、研究机构和其它非赢利公司增加专门术语； $\\textcircled{3}$ 对于日本用户或其它国",
+    "context3": "·情报转让数据库:该库是为中小企业技术转让服务的。主要内容有：技术需求、提供技术的组织机构、技术专家等。",
+    "context4": "出版物：",
+    "context5": "$\\cdot$ Indeks Majalah Ilmiah Indonesia 印度尼西亚 学术期刊索引)。",
+    "context6": "$\\cdot$ Direktori Perpustakaan Khusus dan Sumber InformasidiIndonesia(印度尼西亚专业图书馆指 南)。",
+    "context7": "$\\cdot$ Indeks Laporan Penelitian dan Survei(研究报 告、调查报告索引)。",
+    "context8": "$\\cdot$ Indeks Makalah Konferensi,Lokakarya,Seminar,dan Sejenisnya(学术会议论文集、专题研讨会索 引。"
+  },
+  "国际协作：": {
+    "context1": "$\\cdot$ UNISTST：是世界科学技术情报系统，PDII-LIPI从1984年以来一直被联合国教科文组织认定为该系统的重要成员。",
+    "context2": "$\\cdot$ ASTINF0：1982年开始加入亚洲科学技术情报交流区域网络，该网络是联合国教科文组织在亚洲事业的组成部分。",
+    "context3": "$\\cdot$ NLDC-SEA:作为东南亚多国联合(ASEAN)事业的组成部分，东南亚国立图书馆文献中心协会于1970 年开始在新加坡、马来西亚、泰国、菲律宾和印度尼西亚各国设立机构,PDII-LIPI成为印度尼西亚的窗口,NDLC-SEA 则是负责收集、提供印度尼西亚地区内部文献的协作组织。",
+    "context4": "$\\cdot$ ISDS-SEA:PDII-LIPI是国际连续出版物数据系统的协作单位，负责向设在法国的ISDS 国际中心提供印度尼西亚连续出版物题录。",
+    "context5": "·环境情报系统:PDII-LIPI从1980 年开始，加入了以环境为主题的、设在肯尼亚的INFOTERRA国际情报系统。",
+    "context6": "国外资料收集：",
+    "context7": "$\\cdot$ NTIS:美国商务部全国技术情报所资料。",
+    "context8": "$\\cdot$ OECD出版物：欧洲经济合作与发展组织出版物。",
+    "context9": "印度尼西亚是发展中国家，文献情报管理水平与发达国家相比还有很大差距，PDII-LIPI虽有较长历史，但目前业务仍以读者服务为主。该国政府已把提高科技发展水平列入五年计划中,PDII-LIPI今后将向着加强科学技术情报数据库建设和联机服务机能的方向发展。"
+  },
+  "参考文献：": {
+    "context1": "1Yokoi, Toshio $\\cdot$ The EDR electronic dictionary and its role in information science·International Forum on In\" formation and Documentation，l995(20)： $4 8 \\sim 5 2$   \n2 EDR electronic dictionary technical guide·TR-042. Japan Electronic Dictionary Research Institute，Ltd · Tokyo,1993"
+  },
+  "Centre for Scientific Documentation and Information of Indonesian Institute of Sciences": {
+    "context1": "Jiang Xiaogang",
+    "context2": "(The Documentation and Information Centre of the Chinese Academy of Sciences，Beijing)",
+    "context3": "[作者简介]姜晓岗，女，1957年生，馆员，发表论文数篇。"
+  },
+  "(上接第60页)": {
+    "context1": "家的用户，电子词典在使用条件和定价方面没有区别。",
+    "context2": "尽管该项目的主要目的是研制一种电子词典，但项目研究人员从项目启动伊始就一直试图寻求一种创造机器翻译系统的可能性。现在，就广义而言，该项目结果被认为是广泛的技术学长期研究与发展的语言数据，如果加以改进、扩充并与海外同行广泛合作，它还将形成世界知识的基础。",
+    "context3": "如同我们目前所用的印刷字典或词典一样，电子词典也将是人类未来学习和研究不可或缺的工具，它对于计算机的更新换代，人类借助于机器进行信息交流，人类知识的一体化乃至人类自身的一体化都有着重要的意义与影响。"
+  },
+  "The Progress of Japan Electronic Dictionary Research": {
+    "context1": "Cheng Jinai",
+    "context2": "(Shanxi Staff Polytechnic School of Power Building)",
+    "context3": "[作者简介]成金爱，女，1965 年生，讲师。"
+  }
+}

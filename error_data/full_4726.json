@@ -1,0 +1,154 @@
+{
+  "original_filename": "full_4726.md",
+  "基于趋势度分析的科技领域核心主题发展预测\\*": {
+    "context1": "崔骥 张金鹏包舟丁晟春（南京理工大学经济管理学院 南京 210094)",
+    "context2": "摘要：【目的】生成基于趋势度的预测模型,对领域文献进行分析,从而预测领域核心主题的发展。【方法】分析科技文献表征其研究主题的特征项,进行主题识别,构建战略坐标识别领域核心主题及时间序列,利用ARIMA模型和指数平滑法预测主题的趋势度【结果】指数平滑法预测结果的平均绝对误差与平均均方根误差均小于ARIMA模型。【局限】模型中的初始参数选取、系数分布以及文献发文量的分布会对预测效果造成影响。【结论】两种模型对于增长型主题和新兴型主题有较好的预测效果,指数平滑法的预测精准度优于ARIMA模型。",
+    "context3": "关键词：主题发现 VOS聚类 指数平滑法 ARIMA模型战略坐标  \n分类号：G350  \nDOI: 10.11925/infotech.2096-3467.2021.1451",
+    "context4": "引用本文：崔骥，张金鹏，包舟等.基于趋势度分析的科技领域核心主题发展预测[J].数据分析与知识发现，2022，6(9）：1-13.(Cui Ji, Zhang Jinpeng,Bao Zhou,et al.Forecasting Developments of Core Topics inScience and Technology with Trend Analysis[J]. Data Analysis and Knowledge Discovery,2022, 6(9): 1-13.)"
+  },
+  "1引言": {
+    "context1": "文献数据日益增长，科技文献为科学研究提供了参考，但同时也对有效信息的管理和利用带来巨大的挑战，使得精确地从数据中获取有效信息变得困难。学科交叉在科学研究中的作用日益明显，新的创新技术需要已有的科学成果作支撑，如何快速了解相关学科知识、查找已有成果是研究者需要考虑的重要问题。核心主题泛指领域中发展较为成熟并且与其他主题联系紧密的主题,可以准确、简洁地体现一个领域的核心技术和研究内容。针对自然科学中专业性较强的基础研究和技术开发领域而言，核心主题的发展会随着时间发生转变,其转变过程一定程度上代表了该领域的发展进程。构建核心主题的趋势发展序列、预测其发展趋势，能够为领域的发展提供决策支持。因此,对于某一领域,通过识别核心主题并预测主题的趋势有助于快速、高效地获取当前领域的研究热点、高关注度主题,把握未来研究趋势。"
+  },
+  "2研究现状": "",
+  "2.1主题发现研究现状": {
+    "context1": "主题发现也被称为主题挖掘或主题分析，目的是处理并分析大规模的数据，使研究者可以快速并准确地了解信息中所蕴含的主题,并把握数据的核心内容。目前主流的主题发现方法有三类：",
+    "context2": "(1)机器学习方法。如刘峰等利用SVM模型对查询串扩展文本进行分类[1];张莉等提出一种基于主题模型和机器学习的回答者推荐方法,将推荐问题转化为机器学习的分类问题[2]；张爽等利用区块链相关研究的学术数据，借助文档嵌入表示学习方法识别区块链研究的主要研究主题[3]。",
+    "context3": "(2)聚类方法。如Chakraborti等提出一种多级K均值聚类的主题识别技术，使其更适合于竞争对手情报相关的文本语料库的主题探索4]；Kusumawardani等使用K-Means算法对推文进行聚类,针对主题进行有意义的识别并使用SVM获得了较高的准确率[5]；陶兴等通过密度峰值聚类算法（Density Peak ClusteringAlgorithm,DPCA）对社会化问答社区用户生成答案进行知识聚合与主题发现，自动化地发现社会化问答社区中的知识主题[6];王曰芬等提出了基于社区发现与关键节点识别的主题发现方法[7]。",
+    "context4": "(3)主题模型方法。如林丽丽等借助开源工具JGibbLDA构建LDA模型，运用困惑度来确定模型主题数目，根据主题-词项分布文档进行主题标识[8]；唐晓波等提出一种基于句子主题发现的多文档自动摘要方法，利用LDA主题模型对句子进行聚类分析与主题发现,在主题覆盖性、语法性等方面都取得了不错的效果[9]。"
+  },
+  "2.2趋势预测研究现状": {
+    "context1": "趋势预测被广泛运用于经济、金融、医疗等领域。研究对象的特征变量复杂,且数据对象呈现出一定的随机性，为准确分析日益复杂的时间序列，研究者提出了许多统计分析模型[10]。如Wang等分析灰色模型应用于预测的原理,建立了GrayVerhulst模型,并使用网络舆情数据来验证模型的准确度，结果表明,GrayVerhulst模型的平均相对误差小于$3 \\%$ ,具有更高的预测精度[]",
+    "context2": "此外,研究者也尝试利用机器学习算法和回归模型等预测主题的趋势度，如张鑫等提出一种主题强度演化与预测模型,引入基于Prophet的预测-修正模型进行主题演化趋势预测,并以干细胞领域为例进行演化的实证分析[12];李静等提出一种基于支持向量机模型的基金项目新兴型主题趋势预测方法,分析基金项目内外部特征属性,利用支持向量机等深度学习算法模型，对新兴型主题发展趋势进行预测分析[13]。",
+    "context3": "目前对科技文献的分析大多基于共现网络、词频统计等方法,如何识别核心主题、对主题未来发展态势的预测研究相对较少,且方法主要以回归分析、曲线拟合为主[13-15],虽然可以在一定程度上预测主题发展趋势,但是并没有充分考虑时间因素对主题未来发展的影响。针对上述不足，本文在主题聚类的基础上，增加时间因素，引入生命周期理论，通过时间序列方法对主题的未来发展趋势做出预测。"
+  },
+  "3研究方法": "",
+  "3.1整体框架": {
+    "context1": "本文整体技术框架如图1所示,主要包括主题发现、主题分析、核心主题识别和趋势预测4个部分。"
+  },
+  "（1）主题发现": {
+    "context1": "在分析科技文献主题特征的基础上，使用文献关键词实现聚类，从而得到若干主题。采用VOSviewer中的聚类方法（VOS聚类）,该方法是一种加权变形的基于关联强度的聚类方法,其核心思想是使用关联强度刻画数据对象间的相似性。关联强度算法是通过限定数据对象之间的相对距离，即最小化各个类别中所有个体之间的欧几里德距离之和来实现的。基础研究和技术开发领域的文献关键词专业性较强,使用VOS聚类的效果更好。"
+  },
+  "（2）主题分析": {
+    "context1": "将关键词、发文量、被引量和发文时间作为主题分析的4个特征。其中，主题关键词为文献作者所定义的关键词;主题发文量是该主题下所有文献数量；主题被引量为该主题下所有文献的总被引量；主题发文时间为该主题下所有文献的最早发文年份和最晚发文年份。"
+  },
+  "（3）核心主题识别": {
+    "context1": "利用战略坐标分析对识别出的主题进行核心主题识别。战略坐标最早由Law等于1988年提出，在主题词的聚类分析和共现矩阵的基础上，分别计算每个主题类团的密度和向心度，以向心度为横轴、以密度为纵轴构建二维直角坐标系,所有的主题分布在二维直角坐标系的4个象限中，不同象限内的主题有其各自的特点[16]。通过这种可视化的方式可以揭示主题之间相互影响、相互关联的内在关系[17]。"
+  },
+  "2 数据分析与知识发现": {
+    "context1": "![](images/2b257eef4734e8c14ff5470019f0e908cbd54515968027e86b5f49bce386b503.jpg)  \n图1主题发现及趋势预测技术框架  \nFig.1Framework of Topic Discovery and Trend Forecasting",
+    "context2": "（4）趋势预测",
+    "context3": "根据核心主题的发文年份、被引量和发文量分别计算主题的新颖度和主题强度，生成主题新颖度和强度的曲线图，并计算曲线交点，进而得到主题趋势度的时间序列,采用ARIMA模型和指数平滑法分别进行拟合及预测。"
+  },
+  "3.2预测指标与计算": {
+    "context1": "（1）主题分析维度指标",
+    "context2": "$\\textcircled{1}$ 关注度",
+    "context3": "借鉴Z分数理论[18],以研究主题的被引量与发文量为基础,计算每个主题中文献的平均被引量与学科领域平均被引量之间的标准差距离，以此判断研究主题在该学科领域的关注度。",
+    "context4": "定义所有文献的篇均被引频次的计算方法如公式(1)所示。",
+    "context5": "$$\nG _ { j } = \\frac { \\sum _ { i = 1 } ^ { n } R _ { i } } { n }\n$$",
+    "context6": "其中, $G _ { j }$ 表示第 $j$ 个主题的文献篇均被引量，$\\textstyle \\sum _ { i = 1 } ^ { n } R _ { i }$ 表示主题 $j$ 内 $n$ 篇文献的总被引量, $n$ 表示主题内文献总量。假设给定学科领域共发表 $N$ 篇文献,相对应的被引量用集合 $C { = } \\{ C _ { 1 } , C _ { 2 } , \\cdots , C _ { n } \\}$ 表示，则学科领域的平均引用如公式(2)所示。",
+    "context7": "$$\n\\mu = \\frac { \\sum _ { i = 1 } ^ { N } C _ { i } } { N }\n$$",
+    "context8": "假设学科领域有 $M$ 个研究主题,则每个研究主题的篇均被引量为 $G _ { j } { = } ( G _ { 1 } , G _ { 2 } , \\cdots , G _ { M } )$ ,学科领域研究主题平均被引量标准差计算方法如公式(3)所示。",
+    "context9": "$$\n\\sigma = \\sqrt { \\frac { 1 } { M - 1 } \\sum _ { i = 1 } ^ { M } ( G _ { j } - \\mu ) ^ { 2 } }\n$$",
+    "context10": "每个研究主题的关注度如公式(4)所示。",
+    "context11": "$$\nZ _ { j } = { \\frac { G _ { j } - \\mu } { \\sigma } }\n$$",
+    "context12": "$\\textcircled{2}$ 创新度",
+    "context13": "本文定义主题的创新度为主题内所有文献的平均发文时间,计算方法如公式(5)所示。",
+    "context14": "$$\nS _ { i } = \\frac { \\sum _ { j = 1 } ^ { n } T _ { j } } { n }\n$$",
+    "context15": "其中, $T _ { j }$ 为第 $j$ 篇文献的发文时间， $n$ 为总文献量。",
+    "context16": "$\\textcircled{3}$ 增长度",
+    "context17": "本文引用Sen's斜率[19],根据主题每年的发文量计算主题的增长度。设 $F = \\left( F _ { _ 1 } , F _ { _ 2 } , \\cdots , F _ { _ y } \\right)$ 代表某研究主题连续 $y$ 年的发文量，则每个研究主题的增长度如公式(6)所示。",
+    "context18": "$$\nD = M I D F i - F j i - j ,\n$$",
+    "context19": "$$\n\\forall i > j , i \\in \\{ \\ : 2 , 3 , \\cdots , y \\ : \\} \\ : , j \\in \\{ \\ : 1 , 2 , \\cdots , y \\ : - \\ : 1 \\ : \\}\n$$",
+    "context20": "其中， $D$ 表示增长度，当 $D { > } 0$ 时,发文量呈上升趋势；当 $D { = } 0$ 时,趋势不明显;当 $D { < } 0$ 时,发文量呈下降趋势。",
+    "context21": "（2）趋势度计算指标$\\textcircled{1}$ 主题新颖度",
+    "context22": "本文借鉴文献[20]所阐述的主题新颖度和主题强度的定义。新颖度用以衡量该主题自出现开始每年的新颖程度变化。一般认为主题首次出现时的新颖度最高，而后逐年降低。本文按年份定义主题出现的时间区间，假设主题出现的年份为第一时间段，则某一主题第 $i$ 年的新颖度(Novelty Index,NI)的计算方法如公式(7)所示。",
+    "context23": "$$\nN I _ { i } = \\frac { 1 } { i - F I + 1 }\n$$",
+    "context24": "其中， $F I$ 为主题出现的年份，主题在第一时间段的新颖度为1,第二时间段的新颖度为1/2,以此类推。主题新颖度的曲线是一条类指数曲线,且呈逐年递减趋势。",
+    "context25": "$\\textcircled{2}$ 主题强度",
+    "context26": "根据发文量定义主题的主题强度（ThemeStrengthIntensity,TSI),计算方法如公式(8)所示。",
+    "context27": "$$\nT S I _ { t } ^ { k } = \\alpha \\frac { s u m _ { 1 } ( t ) } { s u m _ { 1 } ( k ) } + \\beta \\frac { s u m _ { 2 } ( t ) } { s u m _ { 2 } ( k ) }\n$$",
+    "context28": "其中， $a , \\beta \\in ( 0 , 1 )$ 且 $\\alpha + \\beta = 1 , s u m _ { 1 } ( t )$ 是主题 $k$ 从第一年到第 $t$ 年的发文量之和, $s u m _ { \\mathrm { 1 } } ( k )$ 是主题 $k$ 全部发文量之和, $s u m _ { 2 } ( t )$ 是主题 $k$ 从第一年到第 $t$ 年的所有文献的被引量之和， $s u m _ { 2 } ( k )$ 是主题 $k$ 所有文献的被引量之和。由公式(8)可知,主题的被引量与发文量均对主题强度产生较大影响,因此本文视二者同等重要,即 $\\alpha = \\beta = 0 . 5$ 。",
+    "context29": "$\\textcircled{3}$ 趋势度",
+    "context30": "定义主题逐年的最优强度值为新颖度曲线和主题强度曲线交点的纵坐标值,为了更加明显地区分主题的趋势特征,将所有主题在某一年的最优强度值的平均值定义为平均最优强度 $\\overline { { O I V } }$ ，以每个主题每年的最优强度值 $O I V$ 与平均最优强度的差值作为衡量主题发展态势的趋势度（Theme Intensity Value,TTD),计算方法如公式(9)所示。",
+    "context31": "$$\nT T D = O I V - { \\overline { { O I V } } }\n$$",
+    "context32": "主题的趋势度以0为基准线，大于0表明主题的发展是比较\"兴盛\"的，小于0说明发展潜力不足或逐渐走向衰落，主题趋势度曲线代表主题未来的发展情况。"
+  },
+  "3.3预测模型的构建": {
+    "context1": "考虑时间因素对主题发展的影响，运用时间序列分析法对主题趋势进行分析，选取应用较为广泛的时间序列模型：差分整合移动平均自回归（Autoregressive Integrated Moving Average,ARIMA)模型和指数平滑法来分析主题趋势度。",
+    "context2": "（1）基于ARIMA的预测模型",
+    "context3": "$A R I M A \\left( p , d , q \\right)$ 模型的本质是由 $A R M A ( p , q )$ 结合差分运算而来[21],其中参数 $d$ 是差分次数， $p$ 是自回归阶数, $q$ 是移动平均阶数。",
+    "context4": "本文运用ARIMA模型拟合核心主题的趋势度时间序列,工具为EViews软件。对趋势度的原始序列进行平稳性检验，若不为平稳序列，则对其进行差分运算,再对差分运算后的序列进行平稳性检验，重复此操作，直至序列平稳为止，此时可以确定参数 $d$ 的取值。生成该序列的自相关系数-偏自相关系数分布图，进而确定参数 $p$ 和 $q$ 的取值，然后拟合序列并预测。"
+  },
+  "(2）指数平滑法": {
+    "context1": "指数平滑法的基本思想是赋予近期观测值较大的权重，赋予较远期观测值较小的权重，任一期的指数平滑值都是本期实际观察值与前一期指数平滑值的加权平均[22]。",
+    "context2": "根据三次指数平滑法实现对核心主题的趋势度时间序列的拟合及预测,将前三期观测值的平均值定义为初始平滑值，根据误差最小原则选取平滑系数,分别计算一次、二次、三次平滑值及各项参数，然后拟合序列并预测。"
+  },
+  "4实验及其结果分析": "",
+  "4.1数据来源与处理": {
+    "context1": "近年，各国都在努力提高军事力量，水下作战的研究愈加重要，为更好地为我国水下作战研究提供参考，本文采取航天科工集团公司第三总体设计部一线科研人员建议，确定\"水下信息感知技术\"领域的检索词包含非声探测、水下定位、电磁制导技术、卡尔曼滤波、电场建模、磁环天线、水声对抗技术等35个专业术语。数据来源于WOS科学引文索引数据库,时间跨度为2000年至2019年，文献检索式为：（（ $\\mathrm { T I } =$ \"Underwater\"）NOT（ $\\mathrm { T I } =$ \"underwater sound\")"
+  },
+  "4 数据分析与知识发现": {
+    "context1": "NOT( $\\mathrm { T I } =$ \"light\"））OR（（ $\\mathrm { K P = }$ \"Underwater\"）NOT （ $\\mathrm { K P = }$ \"underwater sound\"） NOT( $\\mathrm { K P = }$ \"light\"））OR （（ $\\mathrm { \\ A B = }$ \"Underwater\"）NOT（ $\\mathrm { \\ A B = }$ \"underwater sound\"）NOT( $\\mathrm { \\ A B = }$ \"light\"））AND（ $\\mathrm { T I } =$ (\"UnderwaterElectromagneticGuidance\"OR \"Underwater Electric field Detection\" OR \"Underwater Magnetic Detection \" OR \"Underwater Electromagnetic Exploring Method\" OR \"Underwater Non-acoustic Detection\"OR\"UnderwaterSubmarineTarget Detection\" OR \"Underwater Target Tracking\"..…）） （包括全称、缩略、单复数）,共得到22760篇原始文 献。由相关科研人员完成文献数据集的筛选及删 除，最终得到11664篇文献。"
+  },
+  "4.2核心主题发现实验": {
+    "context1": "（1）主题聚类",
+    "context2": "提取实验数据集中每篇文献的关键词、发文量、发文时间、被引量等信息，将关键词数据导入VOSviewer软件进行聚类,计数方法选择完全计数，经过多次实验发现,当关键词共现最小次数设为5时,类与类距离最远,聚类效果较为理想。将聚类依据选择为共现权重，得到19个主题,每个主题用共现强度权重排名前5的关键词来概括,如表1所示。",
+    "context3": "表1主题-关键词表  \nTable 1Subject-Keyword List",
+    "context4": "<table><tr><td>主题</td><td>关键词</td><td>主题概括</td><td>文献量</td></tr><tr><td>主题1</td><td>engineering,computer science,adaptive algorithms,communication,algorithm</td><td>通信算法分析</td><td>3680</td></tr><tr><td>主题2</td><td>ecology，freshwater biology，marine,environmental sciences，geology</td><td>环境科学研究</td><td>5119</td></tr><tr><td>主题3</td><td>physics,materials science,fabrication,oil/water separation，wettability</td><td>材料物理研究</td><td>2 546</td></tr><tr><td>主题4</td><td>design，automation,control systems,autonomous underwater vehicles,tracking</td><td>机器设备自动化</td><td>1361</td></tr><tr><td>主题5</td><td>audiology,noise,underwater noise,sound,signals</td><td>声源信号探测</td><td>2 295</td></tr><tr><td>主题6</td><td>mechanics,flow,bubble,fluid-structure interaction,deformation</td><td>流体结构研究</td><td>2 962</td></tr><tr><td>主题7</td><td>oceanography，model,water resources，waves，meteorology</td><td>海洋资源研究</td><td>1265</td></tr><tr><td>主题8</td><td>system，remote sensing，photographic technology,calibration，vision</td><td>遥感系统分析</td><td>1568</td></tr><tr><td>主题9</td><td>neurology，neurosciences,kinematics，stress，physiology</td><td>人体生理学</td><td>1442</td></tr><tr><td>主题10</td><td>light,absorption,plant sciences，phytoplankton,underwater photosynthesis</td><td>水下浮游植物研究</td><td>2 772</td></tr><tr><td>主题111</td><td>microstructure,stability，mechanical-properties,temperature，strength</td><td>温度因素对机械稳定性的影响</td><td>2136</td></tr><tr><td></td><td>主题12localization,kalman filter,filter,underwater navigation,target tracking</td><td>滤波器及水下定位研究</td><td>876</td></tr><tr><td>主题130</td><td>optimization,propagation,thermodynamics,range,finite element analysis</td><td>测距方法</td><td>590</td></tr><tr><td></td><td>主题14propulsion,computational fluid dynamics，glider,propeller,hydrodynamic coefficients</td><td>推进器动力研究</td><td>41</td></tr><tr><td>主题15</td><td>energy，fuels,technology，nuclear science,real-time</td><td>核能燃料设备存储</td><td>25</td></tr><tr><td>主题16</td><td>Multiple Input Multiple Output,underwater sensor network，acoustic communications, doppler,underwater communications</td><td>水下传感器网络</td><td>31</td></tr><tr><td>主题17</td><td>carbon，coral,shape,continental-shelf,great-barrier-reef</td><td>海底植被勘测</td><td>33</td></tr><tr><td>主题18</td><td>ultrafast separation,cellulose,discharges,elastomers,electrodes</td><td>设备表层涂料物理特性研究</td><td>67</td></tr><tr><td>主题19</td><td>remotely operated vehicles，robust-control，attitude-control，backstepping control, heading control</td><td>水下车辆控制系统</td><td>49</td></tr></table>"
+  },
+  "（2）主题类型分析": {
+    "context1": "参考前沿生命周期理论[23],将研究主题分为新兴型主题、增长型主题、稳定型主题、衰退型主题。将文献所涉及的时间线分为两部分：第一时间线T1、第二时间线T2。",
+    "context2": "新兴型主题的平均发文年份较晚，其出现在T2时间段，而不出现在T1时间段;增长型主题在T1时间段和T2时间段都出现，且增长型指标较高；稳定型主题在T1时间段和T2时间段都有出现,但发文量并没有明显的上升或下降趋势;衰退型主题出现在T1时间段，而不出现在T2时间段，且增长型指标较低。本文将聚类后得到的水下信息感知技术领域的若干主题,结合生命周期理论,构建各指标的分布图，创新度、关注度、增长度三个维度的主题分析结果如图2-图4所示。",
+    "context3": "![](images/f8cba939c8cef75ecade21037ec2ee4f506b3ac4b0e6a646e42869be2798cda0.jpg)  \n图2主题创新度分布",
+    "context4": "![](images/bb10e17214206850e748bb79fc980a3a49cdef6360d770aea1246506b3a5b564.jpg)  \nFig.2Distribution of Theme Innovation   \n图3主题关注度分布",
+    "context5": "![](images/850ee8337311af87876be1d6cfa6113b10ed593acdd10144c0793a4e76eb71f8.jpg)  \nFig.3Distribution of Topic Attention   \n图4主题增长度分布  \nFig.4Distribution of Topic Growth",
+    "context6": "在T1时期,所有主题的文献规模均大于0,并不存在严格意义上的新兴型主题,因此参考主题的创新度来判断新兴型主题。主题15在T2时期的增长度小于0,因此主题15为衰退型主题。主题1、主题2、主题3、主题4、主题8和主题10在T2时期的文献规模和增长度都远大于T1时期，因此这6个主题为增长型主题。主题16、主题18和主题19在两个时间段内的文献规模相差不大(10以内)，因此这三个主题为稳定型主题。根据主题创新度,将创新度较高的9个主题:主题5、主题6、主题7、主题9、主题11、主题12、主题13、主题14和主题17定义为新兴型主题。",
+    "context7": "（3）核心主题识别",
+    "context8": "计算19个主题的密度和向心度,将密度和向心度的平均值作为坐标原点，构建战略坐标图，如图5所示。",
+    "context9": "![](images/ca08f4392a300eac6cf29a10c675d854a8009921849f03e8cf148aab6c1cdbac.jpg)  \n图5主题战略坐标图  \nFig.5Thematic Strategy Coordinate",
+    "context10": "从实验结果可以看出,共有6个主题(主题1、主题2、主题3、主题5、主题6、主题11)落在第一象限,说明这些主题的密度和向心度都较高，在研究领域中较为活跃,是该领域研究的核心。这些主题的研究内容包括算法分析、物理特性研究以及信号探测等,表明水下信息感知技术领域在信息算法和机械设备性能的影响因素等方面的研究已经较为完善，并且这6个主题的文献规模也较大，研究的时间较早,理论技术比较丰富,彼此之间联系较为紧密。其中主题3的密度和向心度均最大,说明主题3在该领域具备绝对的核心地位。",
+    "context11": "落在第二象限的主题分别是主题8、主题9和主题12,这些主题的密度较低、向心度较高,表明与其他主题的联系紧密，在研究范围内会频繁出现，但是主题自身内部的研究结构较为松散,自身发展尚未成熟,没有形成良好的体系架构。一方面的原因可能是由于主题的出现时间相对较晚，但是具备较强的发展潜力，随着时间的推移,这些主题的重要性会增加。",
+    "context12": "第三象限包含7个主题，这些主题的密度和向心度都较低,表明与其他主题联系较少,发展相对独立，且主题内部发展不成熟，不属于主流的研究方向。主题13、主题14、主题15、主题16和主题19的研究需要较大的技术支持，发展相对缓慢并且有待进一步开发。",
+    "context13": "主题4、主题7和主题10落在第四象限，该象限的主题向心度较低、密度较高，表明这些主题相对独立,并不是该领域的研究核心。但是,主题内部的研究体系较为完善，例如海洋资源、植物的研究起源较早,自动化设备的发展也相对成熟,因此该类主题可能发展缓慢。"
+  },
+  "4.3趋势度预测实验": {
+    "context1": "（1）趋势度分析及其预测数据集构建",
+    "context2": "依据前文提出的指标预测与计算方式，计算水下信息感知技术领域核心主题的趋势度。首先计算各主题的 $N I _ { i }$ 值和 $T S I _ { t } ^ { k }$ 值,然后计算交点坐标,得到每个主题的趋势度时间序列。",
+    "context3": "以主题1为例,该主题在各时间段的NI值和$T S I _ { t } ^ { k }$ 值如图6所示，交点的纵坐标即每个主题的OIV值,该值与平均值的差值作为TTD值，即每个主题的趋势度值。",
+    "context4": "![](images/efc012fc6eac549840b26c3a45f4454135ba6e394daeca4616b914405dcf8794.jpg)  \n图6主题1新颖度值和 $T S I _ { t } ^ { k }$ 值曲线  \nFig.6Graph of Topic 1's Novelty and Value of $T S I _ { t } ^ { k }$",
+    "context5": "主题1的新颖度从(0,1)随年份增加逐年下降，19个主题强度曲线代表了主题1在2000年至2019年每一年的主题强度，其主题强度总体呈上升趋势。这19个主题强度曲线与主题的新颖度曲线共有19个交点，交点表示该年的主题强度和新颖度同时达到最大值。依次计算每个主题在各时间段内的TTD值，将每个主题的时间序列分为训练集和测试集两部分，训练集的实验结果如表2所示。测试集的实验结果如表3所示。"
+  },
+  "（2）基于ARIMA的趋势度预测": {
+    "context1": "对核心主题1、主题2、主题3、主题5、主题6和主题11的主题趋势度进行拟合，根据ARIMA模型"
+  },
+  "表2实验训练集": {
+    "context1": "Table 2 Experimental Training Set   \n表3实验测试集  \n表4各主题拟合模型结果",
+    "context2": "<table><tr><td rowspan=\"2\">时间</td><td>主题1</td><td>主题2</td><td>主题3</td><td>主题5</td><td>主题6</td><td>主题11</td></tr><tr><td>趋势度</td><td>趋势度</td><td>趋势度</td><td>趋势度</td><td>趋势度</td><td>趋势度</td></tr><tr><td>2001</td><td>-0.017 58</td><td>-0.028 58</td><td>0.04810</td><td>-0.015 75</td><td>0.03733</td><td>-0.003 50</td></tr><tr><td>2002</td><td>-0.012 04</td><td>-0.016 44</td><td>0.064 01</td><td>0.024 94</td><td>-0.001 24</td><td>-0.039 25</td></tr><tr><td>2003</td><td>0.001 50</td><td>-0.012 12</td><td>0.020 79</td><td>0.009 17</td><td>0.004 65</td><td>-0.003 97</td></tr><tr><td>2004</td><td>0.001 94</td><td>-0.016 56</td><td>0.013 26</td><td>-0.000 27</td><td>0.020 93</td><td>0.000 72</td></tr><tr><td>2005</td><td>0.010 16</td><td>-0.018 42</td><td>0.014 83</td><td>0.004 38</td><td>0.004 34</td><td>0.004 72</td></tr><tr><td>2006</td><td>0.016 29</td><td>-0.011 57</td><td>0.00726</td><td>-0.004 71</td><td>-0.002 60</td><td>0.015 32</td></tr><tr><td>2007</td><td>0.010 64</td><td>-0.003 83</td><td>0.008 97</td><td>0.001 56</td><td>-0.004 67</td><td>0.007 33</td></tr><tr><td>2008</td><td>0.012 92</td><td>0.000 92</td><td>0.009 45</td><td>0.009 84</td><td>-0.013 78</td><td>0.000 63</td></tr><tr><td>2009</td><td>0.013 32</td><td>0.002 94</td><td>0.01028</td><td>0.015 61</td><td>-0.021 77</td><td>-0.000 36</td></tr><tr><td>2010</td><td>0.012 80 0.010 99</td><td>0.005 96</td><td>0.01110</td><td>0.015 80</td><td>-0.028 17</td><td>0.002 50</td></tr><tr><td>2011</td><td></td><td>0.006 22</td><td>0.009 62</td><td>0.016 37</td><td>-0.023 78</td><td>0.000 58</td></tr><tr><td>2012</td><td>0.008 95 0.004 51</td><td>0.005 85 0.004 94</td><td>0.008 78 0.01035</td><td>0.017 65</td><td>-0.02139</td><td>0.000 17</td></tr><tr><td>2013</td><td></td><td></td><td>0.014 54</td><td>0.015 71 0.008 94</td><td>-0.014 32 -0.01116</td><td>-0.00120</td></tr><tr><td>2014 2015</td><td>0.003 51 0.002 98</td><td>0.004 68 0.00482</td><td>0.014 55</td><td>0.011 04</td><td>-0.012 33</td><td>-0.000 52 -0.001 05</td></tr></table>",
+    "context3": "Table 3Experimental Test Set",
+    "context4": "<table><tr><td>时间</td><td>主题1 趋势度</td><td>主题2 趋势度</td><td>主题3 趋势度</td><td>主题5 趋势度</td><td>主题6 趋势度</td><td>主题11 趋势度</td></tr><tr><td>2016</td><td>0.002 78</td><td>0.004 22</td><td>0.014 32</td><td>0.012 37</td><td>-0.012 44</td><td>-0.001 27</td></tr><tr><td>2017</td><td>0.002 31</td><td>0.002 75</td><td>0.014 70</td><td>0.012 34</td><td>-0.01035</td><td>-0.00174</td></tr><tr><td>2018</td><td>0.00195</td><td>0.002 22</td><td>0.015 50</td><td>0.009 29</td><td>-0.008 81</td><td>-0.000 13</td></tr><tr><td>2019</td><td>0.009 01</td><td>0.000 48</td><td>0.01447</td><td></td><td>0.006 54-0.008 91</td><td>1-0.00158</td></tr></table>",
+    "context5": "建模步骤，对序列进行平稳性检验，若为非平稳序列,对其进行差分运算,然后生成自相关-偏自相关系数图，确定各个参数值;最终汇总每个主题的拟合模型,结果如表4所示。",
+    "context6": "由于主题5、主题6和主题11的自相关-偏自相关系数均落在 $9 5 \\%$ 的置信区间内部,参数 $p$ 和 $q$ 的值均为0,无法生成拟合图,因此只展示主题1、主题2和主题3的模型拟合图，如图7所示，从拟合曲线可以看出ARIMA模型的拟合效果较好。",
+    "context7": "Table 4Fitting Model Results for Each Topic",
+    "context8": "<table><tr><td>主题编号</td><td>模型 公式</td></tr><tr><td>1</td><td>ARIMA(1,2,1）x,=0.717022xt- +0.665 934ε_ +ε</td></tr><tr><td>2</td><td>ARIMA(1,2,0）x,=0.911074xt- +εt</td></tr><tr><td>3</td><td>ARIMA(1,2,1） x,=0.906 811xt- +0.350 869ε_ +ε</td></tr><tr><td>5</td><td>ARIMA(0,2,0）C5,=2C5,--C5,_2 +εt</td></tr><tr><td>6</td><td>ARIMA(0,1,0）C6,=2C6,--C6,-2 +εt</td></tr><tr><td>11</td><td>MA(0) C11,= 2C11- - C11,-2 +εt</td></tr></table>",
+    "context9": "![](images/eab3ea6df9f3e65a5d3d1e5aa87a0ef7be92db16eb4f6697040969eda5a52af6.jpg)  \n图7ARIMA模型拟合效果  \nFig.7Fitting Effect of ARIMA Model"
+  },
+  "（3）指数平滑法预测实验": {
+    "context1": "本文用三次指数平滑法来拟合2001年至2015年的主题趋势度序列值，进而预测2016年至2019年的趋势度,并与真实值相对比。观测值共15期，平滑初始值取前三期观测值的平均值，各主题的平滑初始值如表5所示。",
+    "context2": "表5主题趋势度初始平滑值  \nTable 5Initial Smoothing Value of Topic Trend Degree",
+    "context3": "<table><tr><td></td><td>主题1</td><td>主题2</td><td>主题3</td><td>主题5</td><td>主题6</td><td>主题11</td></tr><tr><td>初始平滑值</td><td>-0.009 374</td><td>-0.019 048</td><td>0.006119</td><td>0.024 299</td><td>0.013 579</td><td>-0.015 574</td></tr></table>",
+    "context4": "由于每个主题的趋势度曲线并不是严格的平稳或线性,不能非常准确地描述曲线的波动大小程度，故将平滑系数 $\\alpha$ 的取值范围设定为 $0 . 1 { \\sim } 0 . 8$ ，求出所得到的拟合值与真实值的平均绝对误差，选取平均绝对误差最小时所对应的 $\\alpha$ 值作为该主题的平滑系数。计算得出，主题的平滑系数分别为0.5、0.55、0.1、0.45、0.3、0.3。",
+    "context5": "本文仅展示主题1的建模过程，根据三次指数平滑法的实验流程,计算各期的指数平滑值及各参数值,结果如表6所示。",
+    "context6": "表6主题1趋势度指数平滑值及参数值  \nTable 6Exponential Smoothing Value and Parameter Value of Topic 1's Trend Degree",
+    "context7": "<table><tr><td>时间</td><td>一次平滑值</td><td>二次平滑值</td><td>三次平滑值</td><td>a</td><td>bt</td><td>Ct</td></tr><tr><td>2001</td><td>-0.009 37</td><td>-0.009 37</td><td>-0.009 37</td><td>-0.009 37</td><td>0</td><td>0</td></tr><tr><td>2002</td><td>-0.010 71</td><td>-0.010 04</td><td>-0.009 71</td><td>-0.011 70</td><td>-0.001 50</td><td>-0.000 17</td></tr><tr><td>2003</td><td>-0.004 60</td><td>-0.00732</td><td>-0.008 51</td><td>-0.000 36</td><td>0.006 53</td><td>0.000 76</td></tr><tr><td>2004</td><td>-0.001 33</td><td>-0.004 33</td><td>-0.006 42</td><td>0.002 56</td><td>0.005 25</td><td>0.000 45</td></tr><tr><td>2005</td><td>0.004 41</td><td>0.000 04</td><td>-0.00319</td><td>0.009 92</td><td>0.007 22</td><td>0.000 57</td></tr><tr><td>2006</td><td>0.01035</td><td>0.005 20</td><td>0.00100</td><td>0.016 46</td><td>0.007 55</td><td>0.000 48</td></tr><tr><td>2007</td><td>0.010 49</td><td>0.007 84</td><td>0.004 42</td><td>0.012 37</td><td>0.000 72</td><td>-0.000 39</td></tr><tr><td>2008</td><td>0.011 71</td><td>0.009 78</td><td>0.00710</td><td>0.012 90</td><td>0.000 07</td><td>-0.000 37</td></tr><tr><td>2009</td><td>0.012 51</td><td>0.011 15</td><td>0.009 12</td><td>0.013 23</td><td>-0.000 27</td><td>-0.000 33</td></tr><tr><td>2010</td><td>0.012 65</td><td>0.011 90</td><td>0.01051</td><td>0.012 77</td><td>-0.000 83</td><td>-0.000 32</td></tr><tr><td>2011</td><td>0.011 82</td><td>0.011 86</td><td>0.011 19</td><td>0.011 07</td><td>-0.001 82</td><td>-0.000 36</td></tr><tr><td>2012</td><td>0.01038</td><td>0.01112</td><td>0.011 15</td><td>0.008 94</td><td>-0.002 50</td><td>-0.000 35</td></tr><tr><td>2013</td><td>0.007 45</td><td>0.009 29</td><td>0.010 22</td><td>0.004 71</td><td>-0.00410</td><td>-0.000 45</td></tr><tr><td>2014</td><td>0.005 48</td><td>0.00738</td><td>0.008 80</td><td>0.003 09</td><td>-0.003 11</td><td>-0.000 24</td></tr><tr><td>2015</td><td>0.004 23</td><td>0.00581</td><td>0.00730</td><td>0.002 57</td><td>-0.001 78</td><td>-0.000 04</td></tr></table>",
+    "context8": "由此得到每个主题的拟合曲线，如图8所示。可见，6个主题都有较好的拟合效果。"
+  },
+  "4.4两种模型的预测结果对比分析": {
+    "context1": "ARIMA模型和指数平滑法的预测值与真实值的对比如图9所示，其中蓝色实线为主题趋势度的真实值,红色虚线为ARIMA模型的预测值,绿色虚线为指数平滑法的预测值。",
+    "context2": "采用平均绝对误差(MeanAbsolute Error，MAE)和均方根误差(Root Mean Square Error,RMSE)作为评价模型预测精准度的指标,ARIMA模型拟合和指数平滑法预测值的MAE和RMSE如表7和表8所示。",
+    "context3": "对于增长型主题,指数平滑法对主题1和主题3的预测准确度要高于ARIMA模型;对于新兴型主题,ARIMA模型对主题6和主题11的预测准确度要高于指数平滑法;指数平滑法预测两种类型主题的平均预测误差都要低于ARIMA模型。",
+    "context4": "从两种方法的均方根误差来看，检验效果与绝对误差基本一致：对于增长型主题,指数平滑法的平均均方根误差明显低于ARIMA模型;对于新兴型主题,指数平滑法的平均均方根误差略低于ARIMA模型,两者相差不大。指数平滑法预测两种类型主题的平均均方根误差要小于ARIMA模型。",
+    "context5": "![](images/16771e5b006516eed474a11d74ff4e51ad9ce7599e4c0214c33c1349c966b369.jpg)  \n图8指数平滑法拟合效果  \nFig.8Fitting Effect ofExponential Smoothing Method",
+    "context6": "![](images/fb312400f15707c1d5b305be5ca107a4cafdc43d89e1675b84570efe10878f4a.jpg)  \n图9ARIMA模型和指数平滑法预测值对比 Fig.9Predicted Value of ARIMA Model and Exponential Smoothing Method",
+    "context7": "综合两种误差结果来看，指数平滑法的预测效果要优于ARIMA模型。原因可能有以下两点："
+  }
+}

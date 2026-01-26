@@ -1,0 +1,115 @@
+{
+  "original_filename": "full_394.md",
+  "h指数和 $\\mathrm { h }$ 型指数研究进展": "",
+  "丁楠周英博叶鹰": {
+    "context1": "（浙江大学信息资源管理研究所，杭州,310028)",
+    "context2": "[摘要]本文从改进指数、实证分析、数学模型三方面，概述了国内外h指数和 $\\mathbf { h }$ 型指数的研究进展，总结了h指数的优点与缺点，并将其与论文总数、引文总数和篇均引文数等传统文献计量学指标进行比较，认为 $\\mathbf { h }$ 指数和 $\\mathbf { h }$ 型指数可能发展成为重要评价工具和核心评价参数。",
+    "context3": "[关键词]h指数h型指数g指数文献计量学科学评价 [中图分类号]G350[文献标识码]A[文章编号]1003-2797（2008)01-0072-06 [Abstract]The Progress of the studies on hindex and h-type indices is summarized in three fields as improving indices，positive analysis and mathematical models· And the advantages and disadvantages of h-index are concluded with comparing with traditional bibliometric indicators· The authors think that h-index and h-type indices will possibly develop to important tools and core parameters in science evaluation·",
+    "context4": "[Key words]h-index h-type indicesgindex BibliometricsScience evaluation",
+    "context5": "自 20 世纪50年代美国著名情报学家EugeneGarfield 创建科学引文索引（Science Citation $\\mathrm { I n ^ { - } }$ dex)并提出引文分析法以来，引文分析一直是文献计量学进而信息计量学的重要研究领域和独特研究方法。引文分析不仅用于学术机构和学术期刊评价，而且通过引文统计用于评价研究者个人的学术成就。对此，一些学者提出过质疑,如 1992 年 Seg-len 曾著文反对采用引文分析来评价个人[],因为传统引文评价方法如总被引次数、篇均被引次数等对专家学者学术影响力的评价效果不能让人满意。2005 年,物理学家Hirsch 提出用h指数作为评价研究人员学术成就的新指标[2],立即引起国际上的广泛关注，很快成为信息计量学和学术评价研究的前沿领域之一。本文试图概述这一领域的最近研究进展。"
+  },
+  "1国内外 $\\mathbf { h }$ 指数和 $\\mathbf { h }$ 型指数研究概述": {
+    "context1": "Hirsch 将h指数定义为：一个科学家的h值，等于当且仅当在他/她发表的 $\\mathbf { n }$ 篇论文中有h篇论文每篇获得了不少于h次的引文数，而剩下的(n一h)篇论文中每篇论文的引文数都小于h。简而言之，h指数就是指某位作者有h篇文章每篇被引至少h次，而其他的文章每篇被引都少于 $\\mathbf { h }$ 次。",
+    "context2": "Rousseau随后给出了另一操作定义[3]：将论文按照引文数从高到低的顺序排列，相同引文数的论文具有不同的序列号(对此并没有严格限制，通常按照时间倒序排列)，当且仅当排序前 $\\mathbf { h }$ 篇论文每篇论文的引文数至少为 $\\mathbf { h }$ ,同时排序第 $\\mathrm { h } ^ { + } \\mathrm { l }$ 篇论文的引文数小于 $\\mathrm { h } ^ { + } \\mathrm { l }$ 时,该学者的 $\\mathbf { h }$ 指数为 $\\mathbf { h }$ 。",
+    "context3": "2006 年,Egghe 在分析 $\\mathbf { h }$ 指数评价效果时，提出了一种基于学者以往累积贡献的 $\\mathfrak { g }$ 指数[4]论文按被引次数降序排列,被引次数逐次累加,第 $\\mathfrak { g }$ 序次对应累计被引总次数大于或等于 $\\mathfrak { g } ^ { 2 }$ ，而第 $( { \\mathfrak { g } } ^ { + }$ 1)序次论文对应的累积引文数小于 $\\left( { \\mathfrak { g } } ^ { + 1 } \\right) ^ { 2 }$ 。并认为当被引累计次数总是大于序号平方时，不论 $\\mathfrak { g }$ 值是否小于或等于文献总数,都将其加1,若此时 $\\mathfrak { g }$ 指数已经大于总文献数，则将文献序号加1,累计引文数不变,直至累计引文数小于文献序号平方。该指数打破了文献总数的限制，对文献产出少但被引频次高的学者和机构更为公正。g指数的提出，为h型指数研究注入了活力。",
+    "context4": "目前国内外学者主要从改进指数、实证分析和数学模型三方面对h指数和 $\\mathbf { h }$ 型指数展开研究。"
+  },
+  "1.1改进指数": {
+    "context1": "除 $\\mathfrak { g }$ 指数外,还有一些h 型指数被提出,其中建立在Rousseau 引入的\"Hirsch 核心\"这一概念基础上的AR 指数、A 指数、R指数等具有独特意义[5],形成 $\\mathbf { h }$ 指数族,兹简述如下："
+  },
+  "1.1.1 AR指数": {
+    "context1": "金碧辉提出的AR指数 $\\therefore [ 6 \\setminus ]$ 为：",
+    "context2": "$$\nA R = \\ \\sqrt { \\sum _ { j = 1 } ^ { h } \\frac { c _ { j } } { a _ { j } } } \\ \n$$",
+    "context3": "其中 $\\mathbf { c } _ { \\mathrm { j } }$ 和 $\\mathbf { a } _ { \\mathrm { j } }$ 分别代表论文j的被引数和\"年龄”，并建议用数对 $( \\ln , \\mathrm { A R } )$ 作为一组有意义的评价指标。"
+  },
+  "1.1.2A指数": {
+    "context1": "上述AR指数除去根号后成为A指数：",
+    "context2": "$$\nA = \\frac { 1 } { h } \\sum _ { j = 1 } ^ { h } c _ { j }\n$$"
+  },
+  "1.1.3R指数": {
+    "context1": "Rousseau引进的R指数则是[]：",
+    "context2": "$$\nR = \\ \\sqrt { \\sum _ { j = 1 } ^ { h } c _ { j } } = \\ \\sqrt { A \\ \\cdot \\ h }\n$$",
+    "context3": "此外，还有Kosmulski 提出的 $\\mathrm { H } ^ { ( 2 ) }$ 指数[8]Batista 等提出的 $\\mathrm { h } _ { \\mathrm { I } }$ 指数[9]等等。"
+  },
+  "1.2实证分析": {
+    "context1": "$\\mathbf { h }$ 指数从诞生的第一天起就和实证分析紧密相连。在 $\\mathbf { h }$ 指数的第一篇文献中，Hirsch 便以物理学家和生物学家为例对其 $\\mathbf { h }$ 指数的观测值进行了研究。首先选取的样本是过去20 年中诺贝尔物理学奖获得者，得出的结论是诺尔奖不是由于获奖者的一时幸运，而是源于获奖者重要的科学工作。然后选取2005年当选美国国家科学院物理和天文学领域的院士作为样本，计算其 $\\mathbf { h }$ 指数的均值、标准差、最小值、最大值和中值，并在美国国家科学院物理学领域的全部院士中，对姓氏以A和B开头的科学家进行h指数的测算,从而进一步说明 $\\mathbf { h }$ 指数是评价科研成就的一个稳定且符合实际的指标。最后，测算、讨论了生物学和生物医学领域科学家的 $\\mathbf { h }$ 指数，利用Christopher King 根据Thomson ISI 数据库所汇总的 $1 9 8 3 { \\sim } 2 0 0 2$ 年的高被引科学家列表,计算出这些科学家的 $\\mathbf { h }$ 指数,发现科学家列表中h指数最高的10位作者都属于生命科学领域，所有的高被引科学家h指数也很高，同时发现生命科学领域科学家的 $\\mathbf { h }$ 指数要远远大于物理学领域科学家的h指数。计算刚当选为2005年美国国家科学院生物学和生物医学领域的36名院士的 $\\mathbf { h }$ 指数,再一次证实了生物学领域科学家的 $\\mathbf { h }$ 指数通常要大于物理学领域科学家的h指数。另外，在两个领域科学家的h指数分布中，高端h值的差异要大于整体均值的差异[10]。显然,对不同学科领域h指数分布差异性和相似性的比较将成为今后的一个研究热点。",
+    "context2": "Saad选择 $1 9 8 9 \\sim 2 0 0 5$ 年间在《Journal of $\\mathrm { { C o n ^ { - } } }$ sumerResearch》上发表论文5篇以上的55位学者，统计其发表的论文总数和被引总数，并计算每人的h指数,发现由ThomsonISI数据库得到的 $\\mathbf { h }$ 指数和被引总数之间的相关性为 $0 . 8 7 ( \\mathbf { p } ^ { = } 0 . 0 0 )$ ，由Google Scholar 得到的h 指数和 ThomsonISI数据库得到的被引总数之间的相关性为0.83( ${ \\bf p } ^ { = }$ 0.00）,由 Thomson ISI 数据库和 Google Scholar 得到的两个 $\\mathbf { h }$ 指数之间的相关性为 $0 . 8 2 ( \\mathbf { p } ^ { = } 0 . 0 0 )$ 。此外,Saad还选取了50 种商业方面的期刊作为样本,将其h 指数和影响因子进行对比,发现其中也具有紧密联系。Saad 由此认为 $\\mathbf { h }$ 指数在用于作者级别和期刊级别的数据时，显示出坚实的、启发式的价值，在得到精确结果的同时，仅需付出最小的信息搜取努力[1]",
+    "context3": "Oppenheim将h指数应用于英国图书情报学领域一些资深专家的评价。所用数据来源于1992到2005 年1O月的Webof Science 数据库,数据统计包括第二作者和自引,排在首位的是英国情报学家PeterWillett,其h指数为31。现代引文索引系统的创建者Garfield的h指数更高一些，为36。这些结论说明h指数在图书情报学研究领域里也是一种有用的工具[12]。",
+    "context4": "Anthony 和Van 选取了庞大的样本,对1991一2000 年间荷兰147所大学的化学研究团体大约700名高级研究人员的成果进行统计分析，其研究对象是研究团体而非个别科学家，这样处理主要是考虑到研究团体是科研尤其是自然科学研究中最重要的基层单元。且引用时间段限制在三年而非全部有生时间，以便于聚焦于近来研究的影响和当前研究成果。经研究发现h指数和标准文献计量学指标之间以及和同行评价结果之间存在显著相关关系，尤其对那些规模比较大的研究小组而言更是如此[13]。",
+    "context5": "Cronin和Meho将h指数应用于情报学研究，为影响力较大的情报学家排名，并比较了以原始引文数据为基础的排名和以h指数为基础的排名，发现这两套排名之间存在很强烈的正面关系，并显示出h 指数在学者历时科学产出的广泛影响上比直接的引文统计表现得更为细微[14]。",
+    "context6": "Rousseau以美国信息学会会刊 $\\mathbf { h }$ 指数的时间序列变化为内容进行了实证研究[15]。",
+    "context7": "Imperial等在西班牙调查h指数评价科研的适用性,在调查中，一系列派生指数被考虑在列： $\\textcircled{1}$ 上世纪80年代以前西班牙全部的低科学产出; $\\textcircled{2}$ 由规模大小(给定区域内出版物的被引总数)而造成的地域间的不同; $\\textcircled{3}$ 作者人数。 $\\mathbf { h }$ 指数的适用性在生物学的两个不同领域被测试。得出结论是h指数精确地总结了西班牙科学家职业的成功与进化，且能有效评价其他未建立完善的国家科研系统[16]。",
+    "context8": "Egghe在不限定论文发表时间和领域的情况下,通过查询ISI数据库，分别计算了14位普赖斯奖得主的 $\\mathbf { h }$ 指数和 $\\mathfrak { g }$ 指数。不作限定的目的在于使所得指标更加贴近学者的终身成就。Egghe指出与$\\mathbf { h }$ 指数相比, $\\mathfrak { g }$ 指数排序更符合原始数据和学界直观印象。通过 ${ \\mathfrak { g } } ^ { / { \\mathfrak { h } } }$ 所得值的分析,Egghe 强调这些学者的 $\\mathbf { h }$ 指数排序与 $\\mathfrak { g }$ 指数排序有显著的变化，从而从实证角度说明了 $\\mathbf { h }$ 指数和 $\\mathfrak { g }$ 指数是从不同侧面反映学者的学术成就的评价指标[17]。",
+    "context9": "梁立明认为 $\\mathbf { h }$ 指数在计算细节上的缺失导致单个的 $\\mathbf { h }$ 指数无法反映科学家积累论文和积累被引次数的时间跨度的不同，因此构建了11位物理学家的h 指数序列和 $\\mathbf { h }$ 指数矩阵来补充单个h指数细节缺失的不足，展示了h指数的不同增长方式和增长机制,使不同时代的科学家之间也可进行比较[18]。",
+    "context10": "万锦堃等根据《中华医学杂志》2000一2004 年5年间发表的1420 篇文章在中国学术期刊综合评价数据库中的被引频次，计算h指数，并分析了可能对h 指数产生影响的各种因素。还分析了影响因子在期刊评价中的局限性和h指数的特点，认为二者可以在期刊评价中优势互补[19]。",
+    "context11": "姜春林等测算了2004 年CSSCI收录的16 种图书情报学期刊的h指数和相对 $\\mathbf { h }$ 指数，并与各期刊 2004年的影响因子作了相关性分析，此外还利用CNKI数据库分别随机抽取了10 种图书馆学情报学和管理学期刊,计算出各期刊的 $\\mathbf { h }$ 指数和 $\\mathfrak { g }$ 指数，认为这些指标对不同学科领域的期刊来说不具备可比性,在应用h指数、相对h指数和g指数进行期刊评价时应坚持同类相比原则[20]。",
+    "context12": "2007年,叶鹰提出基于国际WoS、JCR、ESI 三大数据库和国内CSTPC、CSSCI两大数据库，利用SPSS 等支持软件，通过数据实验归纳发掘新的h型指数并与h指数进行比较的大规模系统实证思想。认为作为2005年国际上新提出的评价指标， $\\mathbf { h }$ 指数和 $\\mathbf { h }$ 型指数具有发展成为下一代核心评价参数的可能[21]。",
+    "context13": "综上可见，学者们对 $\\mathbf { h }$ 指数和h型指数的实证分析主要从以下几个方面进行：选择一定的样本，通常是一定数量的科学家或者学术团体，计算其h指数或 $\\mathbf { h }$ 型指数，并将计算结果与传统的文献计量学指标(如被引总数等)进行比较;将样本的h指数或h 型指数与同行评议结果进行比较分析;将样本的h 指数或h型指数进行排名，和传统的引文排名进行比较;将不同来源得到的h指数进行比较，并考察差别产生的原因；比较不同领域学者h指数或h型指数的特点，但是目前仅限于自然科学的生物学领域和物理学领域的适度探索。国外研究的统计数据通常来源于Webof Science，而国内相关研究的数据来源还有CSSCI等数据库。"
+  },
+  "1.3数学模型": {
+    "context1": "除实证分析外,也有一些学者致力于通过数学上的分析与延伸为h指数、h型指数的科学性寻求支撑和实现h指数、h型指数的不断优化，并为此不懈地努力。其中Egghe 和 Rousseau 的研究成效显著。",
+    "context2": "Egghe 和 Rousseau 将 $\\mathbf { h }$ 指数与Lotka 定律联系起来，基于Lotka 定律导出 $\\mathbf { h }$ 指数的数学模型[22]：",
+    "context3": "$$\nh = T ^ { 1 / a }\n$$",
+    "context4": "其中 $\\mathrm { T }$ 为源项总数， $\\alpha$ 为Lotka 指数。",
+    "context5": "Egghe进一步结合指数老化模型推导出动态 $\\mathbf { h }$ 指数数学模型[23]：",
+    "context6": "$$\nh ^ { } = ( 1 - a ^ { t } ) ^ { a ^ { - 1 } } T ) ^ { 1 / a }\n$$",
+    "context7": "其中 $\\alpha$ 为老化率。",
+    "context8": "而 $\\mathfrak { g }$ 指数的数学模型则为[24]：",
+    "context9": "$$\ng = ( \\frac { a - 1 } { a - 2 } ) ^ { \\frac { - 1 } { a } } T ^ { \\frac { 1 } { a } } \\geq \\mathbf { h }\n$$",
+    "context10": "其中 $\\alpha { > } 2$ 为洛特卡指数,T 为源项总数。",
+    "context11": "Rousseau 等则将 A 指数、R指数和 $\\mathbf { h }$ 指数、 $\\mathfrak { g }$ 指数的关系总结为[25\\]：",
+    "context12": "$$\nR = { \\sqrt { A \\ { \\bullet } \\ h } } \\geq { \\sqrt { g \\ { \\bullet } \\ h } } \\geq \\mathbf { h }\n$$",
+    "context13": "Glänzel开展基于出版活动和引文影响的 $\\mathbf { h }$ 指数数学分析，并给出了两种\"覆盖大多数出版活动和引文过程的分布模型”[26]。在这两类模型中，Glänzel 定义h-papers( $\\mathrm { H p }$ )为对 $\\mathbf { h }$ 指数产生影响的论文，亦即拥有至少 $\\mathbf { h }$ 篇引文的论文。h-citations(Hc)为hpapers 的总被引次数。则有：",
+    "context14": "(1)Paretian 离散分布的有限期望模型",
+    "context15": "$$\nH c \\approx \\mathbf { { n } } \\sum _ { k = 0 } ^ { \\infty } c k ^ { - { a } } \\approx \\mathbf { { C } } \\cdot \\mathbf { { H } } ^ { 2 }\n$$",
+    "context16": "其中,C 为常数,H 为 $\\mathbf { h }$ 指数， $\\mathbf { k } , \\alpha$ 为参数且 $\\mathrm { k \\Omega }$ ${ } > > 1$ ， $\\alpha > 1$ 。该公式说明， $\\mathrm { H c } / \\mathrm { H } ^ { 2 }$ 为一常数,但该比值需要受到参数 $\\alpha$ 的制约，在 $\\alpha$ 取不同值时, $\\mathrm { H } \\mathbf { c } /$ $\\mathrm { H } ^ { 2 }$ 的比值也不同。",
+    "context17": "(2)Price分布模型该模型的数学表达式为：",
+    "context18": "$$\nH = - \\frac { N } { 2 } + \\sqrt { \\frac { N ^ { 2 } } { 4 } + n N } \\approx \\left( \\mathbf { n N } \\right) ^ { 1 / 2 }\n$$",
+    "context19": "其中, $\\mathrm { H }$ 为 $\\mathbf { h }$ 指数,N 为正值参数， $_ { \\mathrm { n } } > > 1$ 且 $\\mathbf { n }$ 为源项总数。从上式中可以得出， $\\mathbf { h }$ 指数值部分正比于某一学者总体出版数量的平方根。",
+    "context20": "在式(6)基础上, $\\mathrm { G l } \\ddot { \\mathrm { a } } \\mathrm { n } \\mathrm { z e l }$ 通过推导,进一步给出了Hc 值的数学表达：",
+    "context21": "$$\nH c \\approx \\operatorname { n l n } ( H ) \\approx \\operatorname { H } ^ { 2 } { \\frac { \\ln ( H ) } { N } } \\approx { \\frac { 1 } { 2 } } n \\ln ( { \\frac { n } { N } } )\n$$",
+    "context22": "从式(7)直接的数学意义上来看， $\\mathrm { H c }$ 值部分正比于 $\\mathbf { h }$ 指数平方和 $\\mathbf { h }$ 指数取自然对数值之积。",
+    "context23": "由于通常 $\\alpha { = } 2$ 将导致式(3)失效，故公式(3)的普适性问题尚存争议，因此有关数学模型值得进一",
+    "context24": "步研究。"
+  },
+  "2h指数和传统文献计量学指标的比较": "",
+  "2.1传统文献计量学指标的优缺点": {
+    "context1": "传统的文献计量学指标工具是建立在包括均值、相对频次和分位数等简单统计函数基础之上的。这些基于论文和引文的统计已被证明是测度科研活动和科研绩效的一种有效工具，尤其是那些标准化的指标在宏观和中观层面的比较中很有优势。但是，将其用在对科学家个人科研绩效的评估即微观层面的评估仍然存在很多问题[27]。",
+    "context2": "原因有两方面：一方面，为了获得统计意义上具有可信度的指标，就必须在相当短的时间段中有足够大量的论文来做统计;另一方面，研究的产出率和引文影响力两个变量之间不一定具有相关性。这意味着，如果将这些统计方法用于某些场合，就有必要对这些统计方法进行检验，即高(低)论文产出和高(低)引文影响力之间是怎样的一种关系。",
+    "context3": "此外，文献计量学在对学者个人的成果的评价中通常沿用以下一些指标:论文总数、引文总数、篇均被引数等，其优缺点如下表所示：",
+    "context4": "传统文献计量学指标优缺点比较表",
+    "context5": "<table><tr><td rowspan=1 colspan=1>指标</td><td rowspan=1 colspan=1>定义</td><td rowspan=1 colspan=1>优点</td><td rowspan=1 colspan=1>缺点</td></tr><tr><td rowspan=1 colspan=1>论文总数</td><td rowspan=1 colspan=1>学者在特定时间段内论文总数</td><td rowspan=1 colspan=1>可以直接测度科学生产方</td><td rowspan=1 colspan=1>不能测度论文的重要性和影响力</td></tr><tr><td rowspan=1 colspan=1>引文总数</td><td rowspan=1 colspan=1>特定时间段内所有论文的被引数</td><td rowspan=1 colspan=1>可以测度论文的总体影响力</td><td rowspan=1 colspan=1>论文的引文数不太容易找到;作者的影响力会被少数重要的合作论文夸大，这些合作论文有可能是与许多其他作者共同完成的，因此并不代表作者的实际影响力；该参数往往不能恰当分配被引次数较高的评论性文章与原创性研究成果的权重</td></tr><tr><td rowspan=1 colspan=1>篇均引文数</td><td rowspan=1 colspan=1>引文总数与论文总数的比值</td><td rowspan=1 colspan=1>可以比较不同时代科学家的影响力</td><td rowspan=1 colspan=1>数据不容易获得;容易造成奖少惩多</td></tr><tr><td rowspan=1 colspan=1>重要论文数量</td><td rowspan=1 colspan=1>引文数超过某一特定量值的论文的数</td><td rowspan=1 colspan=1>部分消除了前几项指标中的缺点，并把些靠论文总量提升被引次数的情况区分开来</td><td rowspan=1 colspan=1>y值的选取主观性较高，无意中就会得罪或取悦某些人且主观性会部分地消弭科学性；同时，y值的选取需要随科学家群体资历水平的不同进行调整</td></tr><tr><td rowspan=1 colspan=1>重要论文的引文数量</td><td rowspan=1 colspan=1>前n篇论文的引文数。例如n5表被引最多的前5篇论文的引文数</td><td rowspan=1 colspan=1>文章总数的累加到较高的评价，使1些“多而滥”的况被区别出来</td><td rowspan=1 colspan=1>不能完全避免上述其他指标的缺点;n 的取值具有一定主观性，且n值无论大小，都可能部分地消弭结论的精确性；该项指标需要的数据较多，因而数据的获取和比较较为困难</td></tr></table>",
+    "context6": "在过去的几十年中，以上指标应用广泛，并得到学界的认可，但是由于其优缺点并存，因此学界一直不乏质疑和反对的声音，这些指标能否真实地测评学者的实际成就受到更多的怀疑。有没有更好的评价工具或评价参数？h指数和h型指数正好成为一种选择。"
+  },
+  "2.2h指数和h型指数的优缺点": {
+    "context1": "和传统文献计量学指标相比， $\\mathbf { h }$ 指数具有以下一些优点：",
+    "context2": "(1)和传统的引文分析法相比， $\\mathbf { h }$ 指数兼顾个人科研产出的质量和数量,得出的影响力评价更为合理。",
+    "context3": "$( 2 ) \\mathbf { h }$ 指数是动态的，不是静止不变的，单个人员的h指数总是不断上升的：一方面随着时间推移，科研人员会产出更多的成果;另一方面科研人员的以往成果在未来的岁月中引用次数会只增不减。这对科研人员不啻为一个极好的激励。",
+    "context4": "(3)数学上，在\"正常”情况下,排在引文高端的论文可能获得新的被引频次，引文数小于h值的论文有可能在数量上增加，而某个科学家的h指数不会随着这部分引文和论文的增加而增加，这种特性使得 $\\mathbf { h }$ 指数在具有动态性的同时又具有一定的稳定性;另外一方面, $\\mathbf { h }$ 指数的数值仍然取决于作者论文的引文分布形式。",
+    "context5": "$( 4 )  { \\mathrm { h } }$ 指数很难通过自引达到膨胀，正如Hirsch所说：“你无法伪造它，因为它依赖的运作机制需要有个时间跨度。”",
+    "context6": "(5)在做出最终选择或形成判断之前，个体极少能获得所有有用信息。而h指数只需得到所有有效的文献计量信息中的一个子集，就可以通过计量进行判断，因此在提供精确结果的同时，大大节省了认知耗费和信息检索的努力。",
+    "context7": "(6)长期以来，人们利用期刊影响因子作为期刊评价的重要指标，现在h指数也可成为期刊影响因子的有益补充。首先，它是钝感的，某些意外的、无引用的文章，一篇或者少数几篇引用次数奇高的论文对它影响极小;其次，它综合考虑数量和质量，减少对一些小期刊明显过高的评价[28]。",
+    "context8": "但是,h指数也不是完美的，尚存在下列缺点：",
+    "context9": "(1)现实中，我们经常把以某位科学家为作者(或合作者)的论文称为“他”/“她”的论文。但是，一个不容忽视的事实是，在科学领域，研究工作往往是需要协作的，是由一个研究团队共同完成的，这个团队往往由资深的研究者管理或指导。一个研究人员发表(或合作发表)的论文，往往包含多人的参与及贡献。",
+    "context10": "如果把一个科学家的研究论文作为其项目组全部论文中的一部分，那么就项目组的论文而言，其引文在该项目所产生的全部论文中不是平均分配的。相反地，那些被引特别多的论文成了研究项目的代表性论文或者“标志性”论文。在某种程度上这些“标志性\"论文\"诱捕”了其他论文的引文数。",
+    "context11": "一些研究小组的引文影响可能集中在为数不多的高被引标志性论文(也许只集中在一篇论文 $\\mathrm { k \\Omega }$ ）上，而另外一些研究小组或许有一系列的标志性论义，因而他们的引文影响相对集中。而后者往往会获得比前者更高的h指数。但是这种h指数的差异一定能反映研究绩效或研究质量的差异吗[29\\]?",
+    "context12": "$( 2 ) \\mathbf { h }$ 指数对于那些刚开始从事科学研究的人员而言是不利的，因为他们的论文产出和引文率相对较低。但是这项指标却有可能造成科学家们驻足并满足于已有成就，因为科学家们即使没有新的论文产生，以往的论文仍然有可能获得被引数量，进而引起h指数的增加。",
+    "context13": "(3)这项指标是基于长期的观察。因此，由于上述同样的原因有可能导致我们看不到科学家研究活力的衰退情况。",
+    "context14": "$( 4 )  { \\mathrm { h } }$ 指数在微观层面上是比较适合的。但是在更高的集总水平上，会有更多不同的指标。只有利用多种合适的指标集而不是单一指标进行测度，才能够提供一幅充分反映现实情况的多维度画面。",
+    "context15": "(5)根据 $\\mathbf { h }$ 指数的定义，它不能超越论文数量的界限，因此它不利于那些论文数量少而被引频次高的科学家。",
+    "context16": "g指数等其他 $\\mathbf { h }$ 型指数和 $\\mathbf { h }$ 指数一样,具有一些传统文献计量学指标无法比拟的优点，而作为 $\\mathbf { h }$ 指数的进一步发展和完善， $\\mathfrak { g }$ 指数还具有一些特别的优势：",
+    "context17": "$( 1 ) _ { 9 }$ 指数体现了高被引文献被引次数的增长对学者学术成果的影响：当某篇高被引文献的被引次数显著增加时， $\\mathbf { h }$ 指数不会变化， $\\mathfrak { g }$ 指数却会随之增长，体现了学术成就的累积性和继承性，是对学者终身成就的动态评定。",
+    "context18": "(2)修正的 $\\mathfrak { g }$ 指数打破了论文数量的界限，尤其是对那些论文数量少而被引频次高的学者和机构而言,在评价其学术成就时，修正的 $\\mathfrak { g }$ 指数将更加真实地反映其学术成就。",
+    "context19": "上面总结了h指数和 $\\mathbf { h }$ 型指数的正面、负面特征，从中我们可以看出， $\\mathbf { h }$ 指数和 $\\mathbf { h }$ 型指数的吸引力在于其评估小论文集合时具有很大潜力，而这正是其它传统的文献计量学指标经常无能为力的，或者至少说是没有解决好的问题。为了更深入地揭示h指数的应用前景，有必要在数理统计基础上进一步开展理论研究以及系统的应用研究。"
+  },
+  "3小结": {
+    "context1": "综上所述,h指数自诞生之日起就广受关注，学者们以极大的热情投入到h指数的讨论研究，不断探索h指数的科学性、适用性,拓展h指数的适用范围,提出h型指数及修正，以促进h指数和h型指数的完善。Web of Science 还因此设置了新的功能，以供查询学者的h指数。一些大学和科研团体开始采用 $\\mathbf { h }$ 指数作为学者评价的参考依据。有理由相信，在不久的将来,h指数和h型指数可能成为重要评价工具和核心评价参数,因此，对h指数和h型指数进行研究具有重要意义。",
+    "context2": "致谢：感谢潘有能博士对本文写作的协助。"
+  },
+  "参考文献": {
+    "context1": "1引用信息计量学知识发展博客计量学和博客影响因子.http://blog:donews: com/limer/archive/2005/12/24/669596.aspx  \n2邱均平，李江·搜索引擎用于网络影响因子测定时的不一致性比较及原因分析．情报学报，2006(6)  \n3http://www $\\cdot$ gdnetlih $\\ldots$ edu $\\cdot$ cn/blog/article- asp? $\\mathrm { i d } = 7 7$ (2007-01-01)  \n4孟继红·新颖独特的引文索引.四川图书馆学报,1996(6)with standard bibliometric indicators and with peer judg\"ment for l47 chemistry research group·Scientometrics,67(3):491-502  \n14 Cronin B，Meho L．Using the hindex to rank influentialinformation scientists·Journal of the American Societyfor Information Science and Technology，2006(9)  \n15 Rousseau著,刘俊婉译·案例研究:美国信息学会会刊h指数的时间序列变化．科学观察，2006(1)  \n16 Imperial J，Rodriguez-Navarro A· Usefulness of Hirsch sh index to evaluate scientific research in Spain $, ^ { * }$ Sciento-metrics,2007(2)  \n18 Liang L. M: h-index sequence and h-index matrix：con-structions and applications $\\cdot$ Scientometrics，2006(1)  \n19 万锦堃等·h指数及其用于学术期刊评价．评价与管理,2006(3)  \n20 姜春林等·H指数和G 指数——期刊学术影响力评价的新指标·图书情报工作，2006(12)  \n21 叶鹰·h指数和h型指数的机理分析与实证研究导引.大学图书馆学报，2007(5)  \n22 Egghe L， Rousseau R· An informetric model for the Hir-sch-index $\\cdot$ Scientometrics，2006(1)  \n23 Egghe L·Dynamic h-index：the Hirsch index in functionof time·Journal of the American Society for InformationScience and Technology，2007（3)  \n26 Glänzel W. On the h-index - A mathematical approachto a new measure of publication activity and citation im\"pact $\\cdot$ Scientometrics，2006(2)  \n27 Glänzel著,刘俊婉译．也谈h指数的机会和局限性·科学观察，2006(1)  \n28 Braun T. et al. A Hirsch-type index for journals· Scien-tometrics，2006(1)  \n29 Moed,H·F·著,刘俊婉译·指数构建有创意 用于评价要慎重．科学观察，2006(1)",
+    "context2": "（收稿日期：2007-07-04)",
+    "context3": "5兰州大学图书馆编·中文自然科学引文索引: $1 9 8 0 -$ 1983．兰州：兰州大学图书馆，1985.  \n6 Lawrence Page，Sergey Brin，Rajeev Motwani，TerryWinograd $\\cdot$ The PageRank Citation Ranking :Bringing $\\mathrm { O r ^ { - } }$ der to the Web，1998.http://dbpubs·stanford·edu:8090/pub/showDoc:F(2006-10-26)  \n7http://cssci:nju:edu:cn/cssci_qkff2.htm(2007-01-02)  \n8http://www $\\cdot$ dlf $\\cdot$ net:cn/new sshow2.asp? articleid $=$ 339  \n9李江·链接分析工具研究[硕士论文\\].武汉大学,2007.  \n10 崔新蕊．论博客在图书馆创新实践中应用．情报探索，2007(5)",
+    "context4": "（收稿日期：2007-07-18)"
+  }
+}

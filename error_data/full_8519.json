@@ -1,0 +1,99 @@
+{
+  "original_filename": "full_8519.md",
+  "科学计量学中多重关系融合方法研究进展及分析": {
+    "context1": "苏娜12,张志强1",
+    "context2": "(1.中国科学院国家科学图书馆兰州分馆/中国科学院资源环境科学信息中心，甘肃兰州730000;2.中国科学院研究生院,北京100049)",
+    "context3": "摘要：科学计量学中利用单一关系进行研究领域分析只反映了对研究领域的局部认识。将研究领域中各种元素之间基于科学文献构建起的不同关系进行融合可以更好的展示研究领域的结构。当前对多关系的研究有两种趋向，一是关系组合应用，其实质仍是单一关系在研究领域分析中的应用;另一种是将不同的关系根据一定的计算方式整合为一种新的关系,用来描述研究领域结构，即关系融合。目前，对关系融合的研究主要集中在信息检索领域，且限于将链接结构和文本结构结合起来提高检索效率，将关系融合用于描绘研究领域结构的研究还很有限，已有的研究采用将词间关系和基于引用的同被引/文献耦合关系两种关系融合的方法，将三种或三种以上关系进行融合的研究很少；从融合算法来看，主要是采用线性融合方法。",
+    "context4": "关键词：研究领域；关系组合；关系融合",
+    "context5": "中图分类号：G350 文献标识码：A 文章编号:1007-7634(2010)09-1309-05"
+  },
+  "On the Multiple Relation Fusion Research in Scientometrics": {
+    "context1": "SU Na $^ { 1 , 2 }$ , ZHANG Zhi-qiang1",
+    "context2": "!Lanzhou Branch, National Science Library of the Chinese Academy of Sciences, Lanzhou 730000, China;2.Graduate University of the Chinese Academy of Sciences, Beijing 100049,China)",
+    "context3": "Abstract: Research fields are reflected partially by single relation analysis in scientometrics.Its structure can be revealed well by integrating multiple relationships based scientific documents of research fields.There are two trends in multiple relationship research,one is that combining two or more relations in analyzing research fields,which is single relation analysis in nature;the other is fusing more relations by specific algorithm to descript research fields,namely relation fusion.Relation fusion researches primarily focus on information retrieval field, which makes structure based on links as well as content co-occurrence integrated to improve retrieval eficiency. There are stillfew researches on relation fusion in research field analysis,and existing studiesare on method of integrating citationbased relation and word-based relation,fewer on multiple relations fusion.Relation fusion algorithm used at present primarily is linear.",
+    "context4": "Keywords:research field ； relation combination; relation fusion",
+    "context5": "研究领域分析是科学计量学的重要研究内容。研究领域是指围绕相同的研究主题构建的自组织知识交流网络和社会网络的总合。对科学研究领域的分析和探测多是从表征科学正式交流体系的科学文献的角度，对不同元素单元之间的关系构建成的网络进行分析来完成的。关系是指研究领域中不同元素(文献、作者、期刊、机构等)之间基于科学文献的某种属性而发生的关联(引用、共词、合著等）,包括隐性的关联和显性的关联（或直接关系和间接关系)。",
+    "context6": "科学计量学建立的半个世纪以来，研究者分析科学研究领域所采用的方法已经从最初的引文发展到多种方法。当前研究领域分析的文献计量技术主要有三种，基于引文链接的分析，基于词间关系的分析和基于两种关系整合的分析[1],但是更多的研究都是只关注前两种方法的使用，主要是基于单一关系进行分析。主流的研究仍是应用基于引用关系的同被引方法来描述研究领域的结构和发展趋势[2],除此之外，还有一些研究者开始探索新的关系对研究领域进行描述，如基于参考文献关系扩展的参考文献耦合分析[3],基于词的关系扩展的文献一关键词[4-6]、作者—关键词[7]、词-参考文献(word-refer-ence)共现[8]等。",
+    "context7": "基于每一种关系的计量方法都只反映了对科学领域中某一方面的有限认识[9],即每一种关系都只有助于研究人员从一个单一的角度去分析研究领域的局部特征。然而只有从不同的角度观察某个研究领域，才有可能全面地了解它[10],整合多重关系有助于对问题的全面理解[1]。因此一些研究者尝试将不同关系结合起来用于研究领域分析。不同关系的结合研究有两种不同的方向，一是将两种关系组合起来共同揭示某一现象，称为关系组合，二是将不同关系融合成一种新的关系来解释分析单元之间的关系特征，即关系融合。"
+  },
+  "1关系组合应用研究": {
+    "context1": "关系组合是指将两种或两种以上基于单一关系的分析方法结合起来，共同描述某一现象、实现某一研究目的。在组合关系应用中，基于不同关系的方法是单独使用的。",
+    "context2": "Braam等人早在1991年就应用引文同被引聚类分析和内容词分析相结合的方法进行研究领域分析，在同被引聚类的基础上，对引用文献中包含的词进行词频统计，用来检验同被引聚类是否能将主题相似的文献聚集到一类[12]。我国学者曾对这种方法进行过介绍[13]，并进行了评价研究，通过实证说明了这种方法的有效性[14]。Calero-Medina等利用词共现和引文网络分析相结合的方法分析了科学出版物间知识的创造和流动过程。利用词共现找到该领域的相关术语和理论，利用引文分析挖掘该领域的重要文献[15]。共词聚类分析及战略坐标都是研究学科热点的有力工具，相关研究表明将共词方法与文献被引次数相结合会取得更好的分析效果[16]。Larsen将合著和同被引分析结合测度太阳能电池研究知识网络的中心点(hubs)和研究影响(research impact）、科学机构和出版成果，在该研究中，合著网络用来可视化知识结构，而同被引网络则用于描述领域内和领域间的研究影响[17]。",
+    "context3": "尽管这种不同关系结合的方法取得了很好的实证效果，但实际上是两种不同方法的综合应用，其本质认识单一关系的应用，而非关系融合方法。"
+  },
+  "2关系融合研究": {
+    "context1": "关系融合（RelationFusion）：也称作关系整合（RelationIntegration），是指将不同的关系融合成一种新的关系来解释分析单元之间的关系特征。",
+    "context2": "图书情报领域对关系融合的研究主要集中在信息检索领域，且限于将链接结构和文本结构结合起来提高检索效率，将关系融合用于描绘研究领域结构的研究还很有限，已有的研究也是采用将词间关系和基于引用的同被引/文献耦合关系两种关系融合的方法，将三种或三种以上关系进行融合的研究很少；从融合算法来看，也主要是采用线性融合方法。"
+  },
+  "2.1两种关系融合": {
+    "context1": "两种关系融合研究主要是基于引文的关系和基于文本内容的词间关系的融合。整合结构特征和内容特征的研究用于有效的检索和分类已经有一些研究,但是还很少应用于研究领域结构描述和分析。在信息检索领域，Weiss等人开发了一个层次网络搜索引擎原型系统—HyPursuit系统，该系统通过探测超文本文档的内容-链(content-link)聚类用于浏览和检索活动。内容-链聚类算法使用一种基于术语相似性和超链接相似性因子的文献相似性函数。整合的文献相似性函数是选择基于文本和基于链接的相似性的最大值[18]。",
+    "context2": "在科学计量学的研究领域分析中，Amsler早在1972年就建议将同被引分析和文献耦合分析结合起来进行文献的相似性测度[1]。Small采用引用链接和共词两种方法发现了文献间的直接连接和间接连接关系[19]。Janssens借鉴网页内容与链接分析相结合的方法，将文献间基于词的关系与基于文献耦合的关系相结合到一起，利用Fisher的inverse chi-square方法构建新关系数据集，并在生物信息学和情报学领域的进行了实证，结果证明了这种方法在揭示研究领域结构上的有效性[20-21]。此外,Jassens等人还将期刊的交叉引用(Cross-citation)同文本挖掘进行整合，验证并提高了现有的主题分类方案[1]。"
+  },
+  "2.2三重关系融合": {
+    "context1": "Wang和Kitsuregawa提出一种用于检索网页的“内容-链接\"耦合的聚类算法,将出链、入链、术语三者整合用于提高检索的效果[22]。He等人提出文本超链接结构、同被引和文本内容相结合的web文本聚类方法。将文本超链接结构作为相似度测算的主要方法，用文本内容相似度来调节超链接的强度（但是当两个网页没有超链接连接时，本文相似度就被忽略）,然后通过线性相加方法与同被引整合为一个加权邻接矩阵[23-24]。"
+  },
+  "2.3关系融合的结果评价": {
+    "context1": "在基于单一关系和基于多关系比较中，对单一关系聚类效果的评价结果不统一。Calado的实验结果表明基于链接关系的web网页检索要优于基于文本的分类，而其他一些实验结果则表明基于词的相似性聚类效果要优于基于引文的相似性聚类[20-21]。但是实验结果都表明，融合之后的聚类效果要优于基于单一关系的聚类[20-21.25]。Calado等人对5种不同的用于网页主题相似性的测算方法进行比较，结果表明单纯基于链接的网页内容分类平均准确率为$8 6 \\%$ ，将传统的基于文本的分类和基于链接分类融合后，准确率提高到 $9 0 \\% ^ { 1 2 5 1 }$ 。"
+  },
+  "3融合算法研究": {
+    "context1": "关系融合算法根据融合阶段的不同可以被划分为两种类型：一种是聚类集成(ensembleclustering），将不同数据源先分别进行聚类，然后将不同的聚类结果按一定的算法整合到一个新的合并聚类。这种融合算法是与聚类结合在一起的，融合和聚类通常一起完成。第二种方法是核融合（kernel fusion）,将多源数据的相似矩阵或距离矩阵整合为一个新的独立矩阵，再进行聚类或因子分析等多元统计分析。聚类集成和核融合的不同之处在于前者是在不同数据源单独聚类之后再对这些不同的类簇进行融合，后者是在聚类或因子分析等多元统计分析之前先将多源的数据依据一定算法融合为一个新的关系数据集。"
+  },
+  "3.1聚类集成": {
+    "context1": "聚类集成研究是机器学习领域的活跃研究热点，从检索到的文献来看，在应用科学计量方法分析研究领域结构的研究中还没发现关于聚类集成算法的使用研究。聚类集成的基本思想是分别对若干原始数据进行聚类，然后对这些结果加以融合，最终获得对原始数据的聚类结果，通常整合不同的聚类结果是通过一致性函数实现的。类相似分割算法(Clu-ster -based Similarity Partitioning Algorithm,CSPA）、Hyper Graph 分割算法(Hyper Graph Partitioning Al-gorithm,HGPA）和元聚类算法（Meta Clustering Algo-rithm，MCLA)三种一致性函数算法是通过计算不同分割之间的平均标准化互信息实现类簇的整合[26]；adacVote算法则通过最小化平均平方距离的原理来整合不同类簇中的分割(partitions）[27];此外，应用分类使用函数的QMI算法[28]和通过构建共联合（co-association)矩阵实现类簇集成的EAC算法[29]也都是聚类集成研究比较流行的算法。",
+    "context2": "在应用聚类集成算法之前建议对不同的原始数据使用相同的聚类算法。同时，聚类集成对原始数据的相关度具有很强的依赖性，由于集成聚类最初是对同一数据集中的不同分割进行整合，同一数据集的相关性很强，而在对不同的数据集(这些数据集的相关性可能会减弱)进行聚类集成时，得到的结果可能并不令人满意[30]。而核融合的方法则可以克服此问题。"
+  },
+  "3.2核融合": {
+    "context1": "相对于聚类集成算法而言，核融合算法似乎更受欢迎。核融合映射能够整合异质数据源，并且在与原始数据矩阵相同大小的核矩阵中表示。根据不同数据源(即关系矩阵)优先程度或重要性的不同，还可以为不同的数据源赋予权重。核融合算法中使用最多的是线性整合算法。此外还有一些其他的算法也用来整合不同关系矩阵。"
+  },
+  "3.2.1加权线性整合": {
+    "context1": "线性整合方法是目前数据融合研究中使用最普遍、最简单易用的一种融合方法。其原理就是采用线性代数计算对原有不同矩阵进行操作，形成一个新的矩阵。为了表示不同的关系在融合后的重要程度，可以在线性整合过程中为不同的数据源设置不同权重。",
+    "context2": "Weiss的内容-链融合方法是在基于内容的文献相似值和基于链接的文献相似值中取最大值，在计算基于链接的文献相似性时，为基于文献间的最短距离计算的相似性值、基于文献间共有祖先(引用的共同文献）计算的相似性值和基于文献间共有后代（被共同的文献引用)计算得出的相似性值分别赋予不同的权重,然后将三者整合[18]。Wang等提出的“内容-链接\"耦合聚类算法也是分别计算基于出链、入链和词的相似度，然后加权相加。其融合公式为：$\\mathrm { S i m ( P , \\ S ) { = } C o s i n e ( P , \\ C ) { = } P l ^ { * } }$ OLS (P, C) $+ \\mathrm { \\ P } 2 ^ { \\ast }$ ILS (P,${ \\mathrm { C } } ) + { \\mathrm { P } } 3 ^ { * }$ CS (P, C), $\\mathrm { P 1 } + \\mathrm { P 2 } + \\mathrm { P 3 } = 1 ^ { \\left[ 2 2 \\right] }$ 。He等人将超链接结构的相似度通过线性相加方法与同被引整合为一个加权邻接矩阵进行web文本聚类，融合算法如下所示[23-24]。",
+    "context3": "$$\n\\mathrm { W } { = } \\alpha \\frac { \\mathrm { A } \\ @ \\mathrm { S } } { \\left\\| \\mathrm { A } \\bigotimes \\mathrm { S } \\right\\| _ { 2 } } { + } ( 1 { - } \\alpha ) \\frac { \\mathrm { ~ C ~ } } { \\left\\| \\mathrm { C } \\right\\| _ { 2 } }\n$$",
+    "context4": "此外,Ghosh和Mitra 将XML文本的结构和内容通过线性整合方法进行融合[1]。Liu等人同样采用了加权线性整合的核融合算法整合共词关系和同被引关系[30]。",
+    "context5": "尽管加权线性整合简单易用并且能够在大规模矩阵中使用，但是它可能会忽略不同数据源的不同分布特征[20]。而且，数据源的分布特征也对权值的设定带来问题。"
+  },
+  "3.2.2基于P值的融合": {
+    "context1": "费歇尔(Fisher)在1970年提出了一种将多个显著性检验结果(p值)进行整合的简单方法，即费歇尔的chi-square方法，该方法是一种元分析方法，是将多个研究结果整合为一个全面的结论。",
+    "context2": "应用费歇尔的chi-square方法需要将原始关系矩阵中的值转换为独立的概率值(p值),然后应用Fisher的融合公式 $\\mathrm { S { = } \\mathrm { - } 2 \\sum _ { i \\mathrm { ~ - ~ } 1 } ^ { k } \\ l o g p _ { i } }$ 将矩阵融合为一个新的概率矩阵。整合 $\\mathrm { p }$ 值的关键是它们要保持统计上的独立性[20]。"
+  },
+  "3.2.3其他融合方法": {
+    "context1": "Calado等人采用贝叶斯网络模型将基于链接的相似度和基于本文的分类进行了整合从而提高网络检索的效果[25.31]。Zhang等人应用遗传编程（geneticprogramming)技术发现了基于引文和内容结构的最佳融合框架，将基于不同关系的文献-文献矩阵计算产生“相似树”，应用\"最佳相似树\"算法测度不同\"相似树”之间的相似度，采用简单的多数投票算法(asimple majorityvoting scheme）对输出结果进行整合[32]。"
+  },
+  "4多关系融合研究中存在的不足": {
+    "context1": "科学计量学研究中对不同关系融合方法的探讨还刚刚起步，因而也存在着一些研究的不足。",
+    "context2": "（1)多关系融合的理论基础研究很少。",
+    "context3": "对基于文献间不同元素之间关系进行融合的理论探讨还很少，仅有Jassens在其博士论文中对关系融合的理由进行了定量化的展示。利用商奇异值分解的方法对词共现关系矩阵和文献耦合关系矩阵进行比较的结果表明，两个不同的关系矩阵包含了一些共有的信息，但同时也有很多信息只存在于其中的某一矩阵中[20],即词共现矩阵和文献耦合矩阵在很大程度上都只揭示了文献间存在的部分关系（参见图1)。",
+    "context4": "![](images/20deb525e5a94f83afdcc15d5a4fe6774b667f500ec776f7aa356c13e9d4d5e2.jpg)  \n图1文献耦合关系与词共现关系融合的示意图",
+    "context5": "但是，多重关系融合研究是方法层面的研究，方法研究是以一定的理论基础作为支持的，然而目前的研究对多关系融合的理论基础探讨的还非常少。",
+    "context6": "多重关系融合的理论基础应该包含两方面，一是科学/文献/信息计量学中对科学文献之间及文献内部各种关系的研究和挖掘，以及以不同关系为基础对科学结构、科学交流、科学共同体不同角度的研究。多种关系融合方法的底层基本概念是一个科学领域/专业可以被认为是“如果不考虑研究者的社会和知识背景，被一定数量的科学研究者关注的一个一致的主题相关的研究问题和概念集\"[12]。",
+    "context7": "二是数据融合研究中对不同数据源进行融合的理论探讨。尽管数据融合和关系融合不完全一样，数据融合理论和方法仍然为关系融合提供了借鉴和参考。"
+  },
+  "(2)融合方法中存在的不足。": {
+    "context1": "加权线性整合方法是最简单易用的一种方法，也是应用最广泛的一种融合方法，但是线性整合方法的最大不足在于它忽视了数据的分布性特征[1.31]。Fisher的方法考虑到了数据具有分布性。一般来说，当假设研究目的在于判断对于任一检验来说零假设是否为假时，Fisher的方法是最佳选择。然而，Rice认为，有时候研究的目的并非如此,而是零假设检验集合是否能很好地一致表明有证据表明零假设为假，此时，总的来说，整合后的p值实际上是表明零假设是否得到了支持[33]。而在多关系融合时，恰恰考虑的是后一种情况，即不同关系在多大程度上说明两个分析单元之间具有相关性。此时因为Fisher方法比较容易受极端值的影响，所以得到的结果与研究目的不甚一致。",
+    "context2": "尽管已经有学者对科学计量学中有关多关系的融合研究进行了探讨，但还未引起广泛的关注，除了融合的理论基础、融合方法还有待进一步的研究之外，对融合后的新关系图的解释以及其如何能更好地表现研究领域的特性是关系融合研究的一个重点和难点。"
+  },
+  "参考文献": {
+    "context1": "见[Z].(2005)295号.",
+    "context2": "2王颖洁.近几年来我国文献信息资源共享研究综述[J].情报科学，2005,23(2):306-310.",
+    "context3": "3湖北省科技信息共享服务平台[EB/OL].http://219.139.243.217/default.aspx,2009-07-18.",
+    "context4": "4焦玉英，索传军.基于“推\"模式的网络信息服务及其相关技术研究[J].情报学报,2001,20(2)：193-199."
+  },
+  "4结语": {
+    "context1": "文献共享平台是避免区域资源重复建设、消除数字鸿沟的重要途径，而信息推送服务则是平台平衡供需、主动服务、突显特色及宣传推广的有效方式。湖北省科技信息共享服务平台应合理利用资源优势，选择具有应用价值的信息资源，通过设计合理的多智能Agent系统,融合交互、推理、检索、学习等功能，创造一个智能化环境，为用户提供频道式推送、邮件式推送、定题跟踪服务以及移动式推送等形式的信息推送服务，便于用户及时获取信息，提升信息推送效率和用户满意度。"
+  },
+  "5胡昌平，张敏.欧盟支持行业创新的信息服务平台实践及其启示[J].图书馆论坛,2007,27(6)：187-191.": {
+    "context1": "6 Z.Ren,C.J.Anumba. Learning in multi-agent systems: a case study of construction claims negotiation [J].Advanced Engineering Informatics,2002,(16):265-275."
+  },
+  "1国科发财字.“十一五\"国家科技基础条件平台建设实施意": {
+    "context1": "7Mohsen Akbarpour Shirazi, Javad Soroor.An intelligent agent-based architecture for strategic information system applications [J].Knowledge-Based Systems,2007,(20):726- 735.",
+    "context2": "8胡昌平.面向用户的信息资源整合与服务[M].武汉：武汉大学出版社,2007：335-338.",
+    "context3": "9邢国春，赵胜文,徐建民.多智能Agent协作在Web信息检索中的应用[J].情报科学,2008,26(10)：1550-1553.",
+    "context4": "10唐勇，袁大发.科研院所情报工作的定题跟踪服务[J].图书情报工作,2007,(11):31-34.",
+    "context5": "11Watanabe Y,Kitagawa H,Ishikawa Y.Integration of Multiple Dissemination-Based Information Sources Using Source Data Arrival Properities [J].Web Information Systems Engineering,2002,(5):21-30.",
+    "context6": "（责任编辑：孙晓明)"
+  },
+  "（上接第1313页）": {
+    "context1": "H D.Web document clustering using hyperlink structures[J]. Computational Statistics & Data Analysis,2002,41 (1):19- 45.   \n25Calado P, Cristo M, Goncalves M A,et al. Link-based similarity measures for the classification of web documents[J]. Journal of the American Society for Information Science and Technology,2006, 57(2): 208-221.   \n26Strehl A,Ghosh J. Cluster Ensembles-A Knowledge Reuse Framework for Combining Multiple Partitions[J]. JMLR, 2002, (3):583-617.   \n27Ayad H G,Kamel M S.Cumulative Voting Consensus Method for Partitions with a Variable Number of Clusters[J]. IEEE Trans.PAMI, 2008,(30):160-173.   \n28Topchy A,Jain A K,W.Punch.Clustering Ensembles: Models of Consensus and Weak Partitions [J].IEEE Trans. PAMI, 2005,27(12):1866-1881.   \n29Fred A L N,Jain AK. Combining Multiple Clusterings Using Evidence Accumulation [J]. IEEE Trans.PAMI,2005, (27):835-850.   \n30Liu X,Yu S,Moreau Y,et al.Hybrid Clustering of Text Mining and Bibliometrics Applied to Journal Sets[J]. Scientometrics[EB/OL].ftp:/ftp.esat.kuleuven.ac.be/sista/syu/ HCTMBAJS.pdf,2009-12-09.   \n31Calado P,Ribeiro-Neto B, Ziviani N,et al. Local versus global link information in the web [J].ACM Transactions on Information Systems,2003,21(1):42-63.   \n32Zhang B,Chen Y,Fan W,et al. Intelligent fusion of structural and citation-based evidence for text classification[C]. In Proceedings of the 28th annual international ACM SIGIR conference on research and development in information retrieval.New York,NY,USA:ACM Press,2005: 667-668.   \n33Manly B F J. Statistics for Environment Science and Management[M].Boca Raton: CRC Press Inc,2OO9:115.",
+    "context2": "(责任编辑：孙晓明)"
+  }
+}

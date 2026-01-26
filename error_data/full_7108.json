@@ -1,0 +1,102 @@
+{
+  "original_filename": "full_7108.md",
+  "《数据分析与知识发现》网络首发论文": {
+    "context1": "题目：  \n作者：  \n网络首发日期：  \n引用格式：  \n文本数据的增强方法研究综述  \n冯冉，陈丹蕾，化柏林  \n2024-09-12  \n冯冉，陈丹蕾，化柏林．文本数据的增强方法研究综述[J/OL]．数据分析与知  \n识发现.https://link.cnki.net/urlid/10.1478.G2.20240911.1803.004",
+    "context2": "网络首发：在编辑部工作流程中，稿件从录用到出版要经历录用定稿、排版定稿、整期汇编定稿等阶段。录用定稿指内容已经确定，且通过同行评议、主编终审同意刊用的稿件。排版定稿指录用定稿按照期刊特定版式（包括网络呈现版式）排版后的稿件，可暂不确定出版年、卷、期和页码。整期汇编定稿指出版年、卷、期、页码均已确定的印刷或数字出版的整期汇编稿件。录用定稿网络首发稿件内容必须符合《出版管理条例》和《期刊出版管理规定》的有关规定；学术研究成果具有创新性、科学性和先进性，符合编辑部对刊文的录用要求，不存在学术不端行为及其他侵权行为；稿件内容应基本符合国家有关书刊编辑、出版的技术标准，正确使用和统一规范语言文字、符号、数字、外文字母、法定计量单位及地图标注等。为确保录用定稿网络首发的严肃性，录用定稿一经发布，不得修改论文题目、作者、机构名称和学术内容，只可基于编辑规范进行少量文字的修改。",
+    "context3": "出版确认：纸质期刊编辑部通过与《中国学术期刊（光盘版)》电子杂志社有限公司签约，在《中国学术期刊（网络版)》出版传播平台上创办与纸质期刊内容一致的网络版，以单篇或整期出版形式，在印刷出版之前刊发论文的录用定稿、排版定稿、整期汇编定稿。因为《中国学术期刊（网络版)》是国家新闻出版广电总局批准的网络连续型出版物（ISSN2096-4188，CN11-6037/Z)，所以签约期刊的网络版上网络首发论文视为正式出版。"
+  },
+  "文本数据的增强方法研究综述": {
+    "context1": "冯冉，陈丹蕾，化柏林(北京大学信息管理系北京100871)"
+  },
+  "摘要:": {
+    "context1": "[目的]梳理文本数据增强的方法与体系，揭示其发展现状与趋势。",
+    "context2": "[文献范围]以“textualdataaugmentation”、“text augmentation”、“文本数据增强”和“文本增强”为关键词在Webof Science、Google Scholar 和中国知网等数据库检索，筛选出代表性文献88篇。",
+    "context3": "[方法]从操作对象、实现方式、生成结果多样性等角度对文本增强方法归纳总结，并在此基础上对各种方法的颗粒度、优缺点、适用场景等详细对比。",
+    "context4": "[结果]文本增强方法可以划分为基于文本空间和基于向量空间的增强方法，前者直观可解释，但可能会破坏文本的整体语义；后者能够直接操纵深层的语义特征，但计算复杂度更高。同时，现有的增强方法往往需要启发式规则和任务信息等外部支持；深度学习算法的引入能够提升生成数据的新颖性和多样性。",
+    "context5": "[局限]主要对已有方法的技术细节及性能特质进行结构化分析，未量化地统计平台工具的开发情况。基于筛选后的文献进行综述分析，尚未涵盖文本增强方法的全部应用场景。",
+    "context6": "[结论]未来建议进一步探讨和完善文本数据增强方法的测评指标，通过提示工程提高增强方法在不同下游任务表现的稳健性，利用检索增强生成、图神经网络应对长文本、低资源挑战，激发文本增强技术在自然语言处理领域的应用潜力。",
+    "context7": "关键词：文本增强；数据增强；自然语言处理；语法规则；深度学习  \n分类号：TP391，G350  \nDOI: 10.11925/infotech.2096-3467.2024.0533"
+  },
+  "A Survey of Data Augmentation Methods in Natural Language Processing": {
+    "context1": "Feng Ran, Chen Danlei, Hua Bolin (Department of Information Management, Peking University, Beijing 100871, China)"
+  },
+  "Abstract:": {
+    "context1": "[Objective] This paper reviews and analyzes the current state and trends in development of text augmentation methods.",
+    "context2": "[Coverage] Using \"textual data augmentation\" and \"text augmentation\" as search terms to retrieve literature from Web of Science, Google Scholar and CNKI, we screened out a total of 88 representative papers for review.",
+    "context3": "[Methods] Text augmentation methods were categorized and summarized according to the objects of operation,the details of implementation and the diversity of generated results. On this basis, we conducted a thorough comparison of various methods with regards to their granularity, strengths, weaknesses and applications.",
+    "context4": "[Results] Text augmentation approaches can be divided into text space-based methods and vector space-based methods. The former are easier to understand and operate but may compromise the overall semantic structure of the text, while the latter can directly manipulate semantic features but have higher computational complexity. Current studies frequently necessitate external knowledge resources,such as heuristic guidelines and task-specific data. Moreover, the introduction of deep learning algorithms can enhance the novelty and diversity of produced data.",
+    "context5": "[Limitations] We primarily offer a systematic examination of technical principles and performance characteristics of advanced methods, without assessing the developmental stage of platform tools quantitatively. Besides, the analysis is grounded in our chosen literatures and may not encompass all potential application scenarios of text augmentation methods.",
+    "context6": "[Conclusions] Future work should pay more attention to enriching and refining the evaluation metrics for text augmentation techniques and increasing their robustness across different downstream tasks by prompt learning. Retrieval-augmented generation and graph neural networks should be taken seriously for addressing the challenges posed by lengthy texts and limited resources, which can further unlock the potential of text augmentation methods in the field of natural language processing.",
+    "context7": "Keywords: text augmentation; data augmentation; natural language processng; grammar rules; deep learning"
+  },
+  "1引言": {
+    "context1": "数据增强是一种基于现有数据进行加工变换以构建新数据的方法[1]，在拓展数据空间[2]、增强决策边界[3]、提升模型性能[1等方面发挥了重要作用。该方法能够有效缓解类别分布不平衡[3]、数据集构建和维护成本高[4]以及部分领域数据获取受限[5]等问题，为利用少量标注数据训练模型提供解决方案。它最初应用于计算机视觉领域，如通过图像的旋转、翻转[构建更多的训练样本处理过拟合。和图像数据相比，文本数据因其离散性，难以设计通用的转换规则来保持语义不变[2]。尽管如此，随着语言模型的提出和部署[7]，将数据增强方法扩展到自然语言处理领域的应用实践迅速增多。",
+    "context2": "在已有的综述工作中，Bayer等[8]聚焦于文本分类任务中的数据增强方法，较少涉及机器翻译、自动问答等其他任务；Feng 等[7粗略地将增强方法分为基于规则的方法、插值方法和基于模型的方法，分类体系不够详尽；葛铁洲[从基础方法和深度学习方法的角度对一般的序列数据增强方法进行介绍，但对特定的文本增强技术研究不足。此外，文本增强领域创新活跃、技术更替迅速，迫切需要对当前最先进的文本增强方法进行归纳。",
+    "context3": "本文选择Web of Science（WOS）、Google Scholar 两个英文数据库和中国知网（CNKI）、万方数据两个中文数据库，检索时间为2024年7月18日。中文检索式为 $\\mathrm { S U } = ^ { 6 6 }$ 文本数据增强' $\\ ' + \\astrosun$ 文本增强\",英文检索式为 $\\mathrm { T S } { = }$ (\" text augmentation\"OR“text data augmentation\")。通过题录信息去重后获得 388 篇英文文献和 55篇中文文献。在此基础上进一步阅读、筛选，持续进行引文检索和新发表文献补充，最终形成筛选后的中文文献10篇、英文文献78篇。从时间范围看，这些文献的起止时间为2015-2024年，集中分布在2018-2020年，表明深度神经网络在自然语言处理领域的普遍应用对高质量数据支撑提出了新的要求，必须对研究数据进行扩充与增强。",
+    "context4": "在确定最终的文献集合后，本文从方法论的角度形成如图1所示的文本数据增强方法体系：根据不同的数据结构，文本数据增强方法可分为面向离散的文本空间的增强方法和面向连续的向量空间的增强方法；通过比较底层实现，将文本空间的增强方法细分为基于规则的增强方法和基于模型的增强方法，向量空间的增强方法细分为添加噪声的增强方法和合成实例增强方法。",
+    "context5": "![](images/463f8fd7a064ea81b913bfc4a239e1b29aed6aa86af6728db4874b9874905122.jpg)  \n图1文本数据增强方法分类体系  \nFig. 1 Taxonomy of Text Augmentation Methods"
+  },
+  "2基于文本空间的增强方法": {
+    "context1": "出于便捷和易理解性的考虑，研究人员自然希望对文本直接施加影响来增加数据量。基于文本空间的增强方法对人类可理解的输入语句构成的文本空间直接操作以增强数据，包括增加、删除、替换、交换等。根据底层实现方式的不同，分为基于规则的增强方法和基于模型的增强方法。"
+  },
+  "2.1 基于规则的文本增强方法": {
+    "context1": "基于规则的文本增强方法通过预先确定、易于计算的显式变换生成增强数据[5]，利用if-else 程序等方式，对原始数据的部分或整体应用基于语言规则制定的模板，实现插入或重新排列[8]。依据操作方式的不同，分为基于规则的随机变换方法和基于规则的条件变换方法，并就操作对象的颗粒度细分为字符级增强、单词级增强和句子级增强，具体如图2所示。",
+    "context2": "![](images/9fe38bcfc9b0e8023de1c1bf2cfaeafef68410e101d8214a83fd4dcda34ca6a3.jpg)  \n图2 基于规则的文本增强方法示例",
+    "context3": "Fig. 2 Examples of Rule-Based Text Augmentation Techniques"
+  },
+  "（1）基于规则的随机变换方法": {
+    "context1": "随机变换方法通过随机的插入、替换、位置交换以及删除操作扩展数据。这类方法简单易操作，通常能够提升下游任务模型的泛化能力，但可解释性较差，且难以保证句法合规；性能表现不稳定，可能导致下游任务模型在理解和处理文本时产生混淆。不同研究者使用基于规则的随机变换方法见表1。通过字符级的扰动，Belinkov 和Bisk[9]以及Feng等[16]使机器翻译结果在多样性、流畅度等方面均优于基线水平。类似于n-gram 插值平滑[17]，Wei和 Zou[13]的 EDA 算法通过单词级噪声在小型数据集取得较高的分类准确性改进，因其简单易行被广泛应用。在此基础上，Xie 等[12]对被替换词进行约束，使其更适合长文本分类任务。Yu 等[18]引入注意力机制对这一方法加以改善。此外，随机操作句子能够保持相对更完整的语义[14]，并消除潜在的数据相关性，但不能保证增强数据的全局语义不变性，可能引入错误的信号影响下游任务的表现。",
+    "context2": "表1基于规则的随机变换方法研究  \nTable 1 Text Augmentation Methods Using Rule-Based Random Transformation",
+    "context3": "<table><tr><td>类型</td><td>作者</td><td>增强方法</td></tr><tr><td>字符级增强</td><td>Belinkov 和 Bisk[9] Karimi 等[10]</td><td>添加随机交换、键盘相邻字母随机替换以及拼写错误等噪声 向原文随机插入标点符号 随机交换两个相邻单词的位置、丢弃停用词</td></tr><tr><td>单词级增强</td><td>Niu 和 Bansal[11] Xie等[12] Wei 和 Zou[13]</td><td>利用TF-IDF计算无信息词，并使用其他无信息词替换 提出简单数据增强算法（Easy Data Augmentation，EDA)，包括随机 删除、随机插入和随机交换等操作</td></tr><tr><td>句子级增强</td><td>Yan等[14] Wang 和 Bansal[15]</td><td>随机删除句子、打乱句子的顺序和插入相同标签的句子 向原始问答数据集的随机位置添加多样化的假问题-答案对</td></tr></table>"
+  },
+  "（2）基于规则的条件变换方法": {
+    "context1": "基于规则的条件变换方法依据数据集特性并配合语法、句法信息设计变换规则，使增强文本在语义上与原句保持相近。与随机变换方法相比，该方法具有更高的语义保留概率，但等价规则的建立需要语言专家和领域专家的参与，增加了规则构建和维护的成本，作用范围相对有限[8]；局部的修改限制了生成文本的多样性和新颖性。常见的条件变换如表2所示。同义词替换方法简单易用，但基于词表的替换受限于覆盖范围[31，在多样性方面有所欠缺；基于语义嵌入的替换丰富了候选词集合，但也可能会产生歧义，需要结合强化学习[32]等方式减少这一风险。相比之下，词形变化和句子结构调整更能提升模型捕捉语义的能力，但这些转换往往受到具体语种[5]和特定语法结构[33]的限制，引入外部知识增强可以有效地识别文本中的命名实体[26]和关键目标[25]，通过内外知识关联提升规则在不同领域任务间的可迁移性。",
+    "context2": "表2基于规则的条件变换方法代表性研究  \nTable 2 Text Augmentation Methods Using Rule-Based Conditional Transformation",
+    "context3": "<table><tr><td>类别</td><td>作者</td><td>增强方法</td></tr><tr><td rowspan=\"3\">词形变化</td><td>Tan等[20]</td><td>将句子中的动词、名词和形容词更换为使目标模型损失最大的</td></tr><tr><td></td><td>词形变化形式</td></tr><tr><td>Coulombe[5]</td><td>使用正则表达式对单词进行表面转换，如动词的缩略与展开</td></tr><tr><td rowspan=\"5\">同义词替换</td><td>Zhang 等[21]</td><td>基于WordNet库替换同义词</td></tr><tr><td>曾子明和张瑜[22]</td><td>基于自行构建的疫情谣言替换词表替换同义词</td></tr><tr><td>Li等[23]</td><td>采用监督学习的方式，通过减少反义词对相似性、增加同义词</td></tr><tr><td></td><td>对相似性的目标函数实现更准确的Word2Vec同义词替换</td></tr><tr><td>Wang 和 Yang[24]</td><td>通过余弦相似度计算，在嵌入向量空间搜索k最近邻词替换</td></tr><tr><td>外部知识增强</td><td>张卫等[25] 张贞港和余传明[26]</td><td>利用百度汉语平台引入相关词语增强目标成语特征 使用外部知识图谱构建实体的知识特征矩阵</td></tr><tr><td rowspan=\"3\">句子结构调整</td><td>Sahin 和 Steedman[27]</td><td>利用依存句法将复杂句“裁剪”成重点突出的简单句、围绕根 部“旋转”句子片段</td></tr><tr><td>Shi等[28]</td><td colspan=\"1\">构建具有相同标签的子结构（例如子树或子序列）替换源数据 中的子结构</td></tr><tr><td>Min 等[29]</td><td colspan=\"1\">反转(交换主语和宾语部分）和钝化(语态变为被动)</td></tr></table>",
+    "context4": "总体而言，基于规则的增强方法简单且易于操作，能够应用于诸多领域，有效缓解过拟合问题，提升模型正确预测的能力。随着数据量的增加，仅扰动输入文本无法帮助下游任务模型充分地理解深层语义，甚至引入了不符合语境或语法的表达损害其性能。利用模型进行文本增强有助于解决这些问题。"
+  },
+  "2.2基于模型的文本增强方法": {
+    "context1": "神经网络在自然语言处理的多个领域中得到了广泛应用，并已证实其卓越的性能[34]。基于模型的文本增强方法利用深度神经网络强大的学习能力丰富训练文本的语义特征。依据增强结果的多样性，将其划分为基于模型的释义方法和基于模型的生成方法，如图3所示。",
+    "context2": "![](images/cf24a10be9dd38f687450378b7fb022543086c83959af4f7544624386c46a1ae.jpg)  \n图 3 基于模型的文本增强方法示例  \nFig. 3 Examples of Model-Based Text Augmentation Techniques"
+  },
+  "（1）基于模型的释义方法": {
+    "context1": "释义是传达与原始形式相同信息的替代方式。基于模型的释义方法通过语言模型生成原始文本的等价表达，但在多样性和新颖性方面有所欠缺。相关研究如表3所示。基于规则的同义词替换容易产生歧义，而语言模型通过完形填空的形式[35]充分学习上下文信息，支持更本地化的局部替换。为避免语言模型生成符合情景但语义偏离的预测结果，需要在模型中增加类别标签[42]，或结合外部知识搜索最合适替换词[37,43]提升替换的准确性和适用性。",
+    "context2": "端到端生成释义也是一种有效的全局增强方式。回译（Back-Translation）将文本翻译成目标语言再转译回源语言[44]，能够生成多样化的表述并保留语义标签[8]，在机器翻译[45]、语步识别[38]等任务得到应用。除了添加标签信息以便编码器重建屏蔽的片段[46]外，Edunov 等[39]和Hou 等[40]还尝试在解码器端添加扰动，为下游模型提供更丰富的训练特征。ChatGPT等大模型在标注能力上与人类相近[47],引导其生成释义可以赋能下游模型处理未见过的语言组件[41]，同时降低增强模型参数调优的成本。",
+    "context3": "表3基于模型的释义方法代表性研究  \nTable 3 Text Augmentation Methods Using Model-Based Paraphrasing",
+    "context4": "<table><tr><td>类型</td><td>作者</td><td>增强方法</td></tr><tr><td rowspan=\"2\">本地化替换</td><td>Wu等[35]</td><td>将BERT模型修改成c-BERT（conditional-BERT)，结合标签信 息与掩码语言模型（MaskedLanguageModel，MLM）进行同义</td></tr><tr><td>Garg 和 Ramakrishnan[36] Jiao 等[37]</td><td>词替换 利用MLM生成屏蔽序列的释义替换原始文本片段 先利用BERT 模型预测，再结合Glove 词向量搜索最合适的替</td></tr><tr><td rowspan=\"4\">端到端释义</td><td>张鑫等[38]</td><td>换词 回译增强数据</td></tr><tr><td>Edunov 等[39]</td><td>在回译模型的解码器端采样以及向波束搜索输出添加噪声</td></tr><tr><td>Hou 等[40]</td><td>结合多样性等级搜索合适的生成结果并过滤相似实例</td></tr><tr><td>Fang 等[41]</td><td>使用ChatGPT为生成释义</td></tr></table>"
+  },
+  "（2）基于模型的生成方法": {
+    "context1": "使用语言模型直接生成语义相似的新表述突破了语义等价的限制，能够生成更新颖且多样的数据。如表4所示，受端到端释义的启发，部分研究利用非预训练模型学习目标分布和源分布之间的内部映射[48-49.55]，并通过强化学习[49]、类比学习[56]等方式规范多样化生成。",
+    "context2": "预训练-微调范式的出现降低了对标注数据的依赖[57]，其高效性激发了研究者将其应用在文本增强领域的热情[58]。施国良等[59]发现SimBERT增强在网络问政留言分类的平均表现优于EDA增强，但生成结果存在一定随机性。为此，Hu等[60]尝试保留关键实体再生成数据的方式，进一步提升生成样本与原始句子的类别标签兼容性。",
+    "context3": "对于GPT-3[61]等大型预训练语言模型，其微调成本随着参数规模的增长而增加，且倾向于生成和原始样本类似的表达。基于提示学习（PromptLearning）的增强方法利用模型先验知识直接生成增强数据[62-64]，能够帮助下游模型充分学习少数类的特征表示[65],提升监督对比学习的效率[66]。由于汉语的特殊性,ChatGPT的中文使用与人类存在差异[67]，在特定领域还可能存在产生错误的信息[68]、生成不够准确和规范的术语[69]等问题，影响下游问答任务的得分。",
+    "context4": "表4 基于模型的生成方法代表性研究  \nTable 4 Text Augmentation Methods Using Model-Based Generation",
+    "context5": "<table><tr><td>类别</td><td>作者</td><td>增强方法</td></tr><tr><td rowspan=\"3\">非预训练生成</td><td>Li等[48]</td><td>结合循环神经网络和强化学习输出增强文本，并通过判别器和</td></tr><tr><td></td><td>分类器规范生成</td></tr><tr><td>Xu等[49]</td><td>使用基于交叉熵的奖励机制，鼓励模型生成新颖且流畅的文本</td></tr><tr><td rowspan=\"5\">微调生成</td><td>Anaby-Tavor 等[50]</td><td>使用标注数据微调GPT-2模型，通过添加前缀等技巧增加约束，</td></tr><tr><td></td><td>最后应用过滤器提高数据的质量</td></tr><tr><td>赵一鸣等[51]</td><td>利用相似度生成模型SimBERT生成表达</td></tr><tr><td>Quteineh 等[52]</td><td>将数据生成任务转化为优化问题，使用蒙特卡罗树搜索作为优</td></tr><tr><td></td><td>化策略，最大化GPT-2模型生成输出的有用性</td></tr><tr><td>提示生成</td><td>Chen 和 Shu[53]</td><td>对标签同义词增强后，结合RoBERTa模型生成新文本</td></tr></table>",
+    "context6": "综上所述，深度神经网络在提取语义特征并应用于数据重构或生成方面表现卓越。和释义方法相比，生成方法能够获取更丰富、更多样的增强数据。而在生成方法中，基于预训练语言模型的生成方法充分利用模型的知识储备和语言能力，能够通过少量示例和微调生成高质量的增强文本。特别在大型预训练语言模型广泛应用后，提示学习已逐渐成为直接微调的竞争替代方案，展现出巨大的发展潜力。"
+  },
+  "3基于向量空间的增强方法": {
+    "context1": "将输入文本转化成隐藏表示能够更好地捕捉和操纵语义信息。基于向量空间的增强方法将文本转换为嵌入向量，变换向量实现文本增强。根据底层实现细节和目标的不同，向量空间的增强方法可分为添加噪声的增强方法与合成实例的增强方法两类，如图4所示。",
+    "context2": "![](images/7d56d2328a350a4c2106066e57cf2c6cf555bc25e7a0d42212b6a7210d2270b8.jpg)  \n添加噪声的增强方法：向量表示中添加扰动以生成增强示例  \n图 4 基于向量空间的文本增强方法示例",
+    "context3": "Fig. 4 Examples of Text Augmentation Methods Based on Vector Space"
+  },
+  "3.1基于向量空间的添加噪声方法": {
+    "context1": "添加噪声的方法将噪声引入原始文本的向量表示[70]。相较于文本层面的扰动，该方法能够模拟更多的语义变化，减少语法错误的影响。具体研究如表5所示。从引入噪声种类的角度，这类方法可分为随机噪声和对抗性扰动两种，前者易于操作但不够稳健[71]；后者能够大幅提升模型的泛化能力[77]，但耗时且计算成本较高[74-75]。Zhu 等[76]针对性得提出了FreeLB方法，有效减少计算的开销。Jiang 等[78]则通过平滑诱导正则化和 Bregman 近端点优化控制预训练模型容量并防止激进更新，显著提高了自然语言理解模型的稳定性和可拓展性。",
+    "context2": "表 5基于向量空间的添加噪声方法研究  \nTable 5Text Augmentation Methods Using Noise Induction Based on Vector Space",
+    "context3": "<table><tr><td>类型</td><td>作者</td><td>增强方法</td></tr><tr><td rowspan=\"4\">随机噪声</td><td>Kumar 等[71]</td><td>对现有文本向量应用加法和乘法扰动</td></tr><tr><td>Cheung 等[72]</td><td>向实例表示添加高斯噪声</td></tr><tr><td>Shen 等[73]</td><td>提出截断（Cutoff）方法，包括删除随机单词的嵌入向量、所有单词</td></tr><tr><td></td><td>的随机维度设为0或丢弃连续的文本向量等三种操作</td></tr><tr><td rowspan=\"4\">对抗性扰动</td><td>Wan 等[74]</td><td>将原始数据的潜在表示投影到分类损失最大化的方向</td></tr><tr><td>Liu 等[75]</td><td>使用机器阅读理解模型通过基于梯度的优化迭代修改实例表示</td></tr><tr><td>Zhu 等[76]</td><td>在反向传播过程的一个迭代步内同时更新模型参数和向量扰动，并最</td></tr><tr><td></td><td>小化输入样本周围产生的对抗性风险提高向量空间的不变性</td></tr></table>"
+  },
+  "3.2基于向量空间的合成实例方法": {
+    "context1": "合成实例方法通过在向量空间中采样和插值以生成新的数据[79-80]，能够平滑决策边界并增强模型的鲁棒性。表6展示了常见的合成实例方法。应用 SMOTE等经典机器学习算法能够有效缓解文本数据分布不平衡问题[80.83]，但由于其采样和插值的对象局限在同一类别的向量上，在多样性和新颖性方面稍显不足。Guo等[82]将训练样本及其标签线性插值的方法（即Mixup[86])应用于文本向量增强，打破了这一限制，并后续探索为每个维度部署单独的插值方式[87]。受其启发，Cheng等[83]使用邻域分布来增强真实数据，有效解决了机器翻译中的对抗示例问题。佘朝阳等[84]还尝试将Mixup 应用在多层神经网络的隐藏状态中，结合半监督学习利用未标注数据解决数据稀缺问题。Mixup增强的改进思路还包括通过将真实数据与增强数据混合插值[88-89]、与 dropout 结合[90]降低出现严重语义偏差的风险，缓解过拟合问题。Wang 等[85]尝试了仅提示调优以增强数据的方式，相对于小规模标注数据生成更多新颖的样本。Peng 等[9i]延续了这一工作，并结合自训练（Self-Training）获取足够的训练信号。"
+  },
+  "表 6基于向量空间的合成实例方法研究": {
+    "context1": "Table 6 Text Augmentation Methods Using Interpolation Based on Vector Space",
+    "context2": "<table><tr><td>类型 作者 增强方法</td><td></td></tr><tr><td>实例采样</td><td>Kumar 等[71] 对其进行编辑</td><td>提出特征数据增强算法，包括 SMOTE[8I插值、在潜在分布中采样生 成、将两个实例的差异添加到第三个实例等操作 从训练集中采样随机示例来生成句子，然后使用随机采样的编辑向量</td></tr><tr><td rowspan=\"4\">提示引导</td><td>Guo 等[82]</td><td>提出wordMixup 和 senMixup 两种方法，分别对单词级和句子级向量 及其标签线性插值</td></tr><tr><td>Cheng 等[83]</td><td>先在文本空间中生成对抗性句子，然后从其嵌入向量的邻近分布中采 样获取新的实例</td></tr><tr><td>余朝阳等[84]</td><td>将回译增强后的文本向量与原始样本在神经网络的编码层和分类层 混合插值</td></tr><tr><td>Wang等[85]</td><td>使用向量作为提示，引导大语言模型文本增强</td></tr></table>",
+    "context3": "总体上，基于向量空间的增强方法与文本空间的区别主要在于操纵对象的差异。由于向量能够更好地捕捉和表示语义，因此这类方法能够最大程度上拓展数据范围，同时尽可能地保证语义空间的不变性，且相关的算法也更加成熟。与添加噪声方法相比，合成实例的方法，特别是提示引导的方法在多样性和新颖性方面表现更优异，可能成为未来的重点发展方向之一。"
+  },
+  "4文本增强方法综合对比分析": {
+    "context1": "在比较各种方法的性能之前，需要确定评估标准。表7展示了文本增强方法的评价标准及其出现频次。可以看出，评估指标尚未统一，直接比较各种方法的性能不具备实际意义。因此，本文基于上述工作，按照任务相关性、可学习性、操作对象细粒度等方面的特征进行比较，具体见表8和表9。其中，外部干预指是否(在多数情况下)需要超出数据集和任务本身的外部资源，包括启发式规则、外部知识资源以及预训练语言模型中蕴涵的知识；任务相关性指该方法是否需要考虑任务相关的信息，包括类别标签、任务要求等；可学习性表明该方法是否包括模型训练，其中在线和离线表示数据增强的过程是在模型训练期间还是之后；操作对象粒度分为字符级、单词级、短语级和句子级；多样性指生成文本的多样性程度，属于主观的判断；适用范围指该方法适合处理的文本特质和数据类型。",
+    "context2": "表 7文本增强方法评估指标汇总  \nTable 7 Summary of Evaluation Metrics for Text Augmentation Methods",
+    "context3": "<table><tr><td>指标类型评估维度</td><td>具体指标 频次</td></tr><tr><td>生成文本多样性</td><td>TTR（Type-Token Ratio） 4 其他 2</td></tr><tr><td>生成文本流畅性</td><td>困惑度 5 人类评估 3</td></tr><tr><td>生成文本与原始文本</td><td>其他 2 余弦相似度</td></tr><tr><td>语义一致性</td><td>4</td></tr><tr><td></td><td>Bilingual Evaluation Understudy （BLEU) 4</td></tr><tr><td></td><td>人类评估 5</td></tr><tr><td>对下游任务的性能提升 具体下游任务指标</td><td>其他 4</td></tr></table>",
+    "context4": "表 8各类文本数据增强方法对比",
+    "context5": "Table 8 Characteristics of Different Text Augmentation Methods",
+    "context6": "<table><tr><td colspan=\"2\">类别 方法</td><td>外部 干预</td><td>任务 相关</td><td>可学 习性</td><td>操作对象粒度</td><td>多样性</td><td>适用范围</td></tr><tr><td rowspan=\"3\">基于规则的 文本空间 增强方法</td><td>随机变换</td><td>否</td><td>否</td><td>否</td><td>字符/单词/句子</td><td>低</td><td rowspan=\"3\">通用文本；跨语言 数据集</td></tr><tr><td>条件变换</td><td>是</td><td>否</td><td>否</td><td>字符/单词/句子</td><td>低</td></tr><tr><td>本地化替换</td><td>是</td><td>是</td><td>离线</td><td>单词/句子</td><td>低 通用短文本、特定</td></tr><tr><td rowspan=\"5\">基于模型的 文本空间 增强方法</td><td>端到端释义</td><td>是</td><td>是</td><td>离线</td><td>句子</td><td>中</td><td>领域短文本；低资</td></tr><tr><td>非预训练生成</td><td>否</td><td>是</td><td>离线</td><td>句子</td><td>高</td><td>源数据集、跨语言</td></tr><tr><td>微调生成</td><td>是</td><td>是</td><td>离线</td><td>句子</td><td>高</td><td>数据集</td></tr><tr><td>提示生成</td><td>是</td><td>是</td><td>离线</td><td>句子</td><td>高</td><td></td></tr><tr><td>随机噪声</td><td>是</td><td>否</td><td>离线</td><td>向量</td><td>低</td><td>通用短文本、特定</td></tr><tr><td rowspan=\"4\">向量空间的 增强方法</td><td>对抗性训练</td><td>是</td><td>否</td><td>离线</td><td>向量</td><td>中</td><td>领域短文本；低资</td></tr><tr><td>实例采样</td><td>香</td><td>否</td><td>离线</td><td>向量</td><td>中</td><td>源数据集、跨语言</td></tr><tr><td>提示引导</td><td>香</td><td>是</td><td>在线</td><td>向量</td><td>高</td><td>数据集</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>"
+  }
+}

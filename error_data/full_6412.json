@@ -1,0 +1,85 @@
+{
+  "original_filename": "full_6412.md",
+  "nothing": {
+    "context1": "●潘寿红(金川镍钴研究设计院甘肃）"
+  },
+  "我国科技信息领域数据库研究的现状和发展趋势": {
+    "context1": "摘要采用文献统计方法对近5年来(1989—1993)我国数据库研究文献进行了统计，建立了文献量随时间而变化的回归方程，并验证了相关程度，预测了以后几年数据库研究文献的变化情况，同时作了进一步分析，其中包括研究文献的核心期刊等，指出了科技信息领域数据库研究的重点及其存在的薄弱环节。",
+    "context2": "关键词 数据库文献统计统计分析现状发展趋势"
+  },
+  "0引言": {
+    "context1": "随着计算机应用的普及，数据库建设已成为计算机应用的重点，而数据库研究也已成为科技信息领域研究的主要方面。当今世界正在进入信息时代，要求人们有一种行之有效的方法去管理这些信息，而数据库正适应了这种要求，所以近年来，数据库得到了迅猛的发展。数据库的发展经历了3个阶段：初级管理阶段、文本系统阶段、数据库系统阶段。",
+    "context2": "本文从我国数据库的年度统计入手。分析和预测了我国数据库和科技信息领域数据库（以下简称文献数据库)的研究现状及发展趋势，并根据文献数据库各方面研究现状和文献的核心期刊分布状况，探讨我国文献数据库研究的重点及其存在的薄弱环节。"
+  },
+  "1发展趋势预测": "",
+  "1.1数据库整体趋势预测": {
+    "context1": "选用我国出版的《全国报刊索引-一—自然科学版》报道的年度文献量进行分析研究，数据统计从1989 年至1993年年度数据库其它领域文献量列于表1。",
+    "context2": "表1 $1 9 8 9 \\sim 1 9 9 3$ 年年度数据库文献量分布",
+    "context3": "<table><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>1989</td><td rowspan=1 colspan=1>1990</td><td rowspan=1 colspan=1>1991</td><td rowspan=1 colspan=1>1992</td><td rowspan=1 colspan=1>1993</td></tr><tr><td rowspan=1 colspan=1>年度编号x</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>年度文献量（篇）y</td><td rowspan=1 colspan=1>289</td><td rowspan=1 colspan=1>302</td><td rowspan=1 colspan=1>298</td><td rowspan=1 colspan=1>157</td><td rowspan=1 colspan=1>139</td></tr></table>",
+    "context4": "将表1的年度文献量与年度编号的关系作散点图，见图1。",
+    "context5": "![](images/97ec4b4996f887d86cb15ba09fecb38022beff0401bcb63814c512d1486af631.jpg)  \n图1年度数据库文献量与年度的关系",
+    "context6": "由图1可见，这些数据大体近似于一条直线，可用一元线性回归方程 $\\hat { \\mathbf { y } } = \\mathbf { a } ^ { \\prime } + \\mathbf { b } ^ { \\prime } \\mathbf { x }$ 表示，为求最佳回归直线，按最小二乘法原则，根据表2进行计算。",
+    "context7": "表2 $1 9 8 9 \\sim 1 9 9 3$ 年我国数据库文献量及相关分布",
+    "context8": "<table><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1>y</td><td rowspan=1 colspan=1>x²</td><td rowspan=1 colspan=1>y²</td><td rowspan=1 colspan=1>xy</td></tr><tr><td rowspan=1 colspan=1>1989</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>289</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>83521</td><td rowspan=1 colspan=1>289</td></tr><tr><td rowspan=1 colspan=1>1990</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>302</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>91204</td><td rowspan=1 colspan=1>604</td></tr><tr><td rowspan=1 colspan=1>1991</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>298</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>88804</td><td rowspan=1 colspan=1>894</td></tr><tr><td rowspan=1 colspan=1>1992</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>157</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>24649</td><td rowspan=1 colspan=1>628</td></tr><tr><td rowspan=1 colspan=1>1993</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>139</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>19321.</td><td rowspan=1 colspan=1>695</td></tr><tr><td rowspan=1 colspan=1>M</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>1185</td><td rowspan=1 colspan=1>41</td><td rowspan=1 colspan=1>307499</td><td rowspan=1 colspan=1>3110</td></tr></table>",
+    "context9": "其中：b= $\\mathbf { b } ^ { \\prime } = \\frac { \\mathbf { n } \\cdot \\sum \\mathbf { x } \\mathbf { y } - ( \\sum \\mathbf { x } ) ( \\sum \\mathbf { y } ) } { \\mathbf { n } \\sum \\mathbf { x } ^ { 2 } - ( \\sum \\mathbf { x } ^ { 2 } ) }$",
+    "context10": "$$\n\\mathbf { a } ^ { \\prime } = { \\frac { \\sum \\mathbf { y } - \\mathbf { b } \\sum \\mathbf { x } } { \\mathbf { n } } }\n$$",
+    "context11": "$\\textrm { b } ^ { \\prime } \\ = \\frac { 5 \\times 3 1 1 0 - 1 5 \\times 1 1 8 5 } { 5 \\times 4 1 - 4 1 } = - 1 3 . 5 6$",
+    "context12": "$$\n\\textbf { a } ^ { \\prime } = \\frac { 1 1 8 5 + 1 3 . 5 6 \\times 1 5 } { 5 } { = 4 4 0 . 5 1 }\n$$",
+    "context13": "所以 $\\hat { \\mathbf { y } } = 4 4 0 . 5 1 - 1 3 . 5 6 \\mathbf { x }$",
+    "context14": "由方程可知，在统计的文献年度范围内，我国数据库其它领域的文献每年平均以13.6篇的文献量减少。"
+  },
+  "1.2文献数据库发展趋势预测": {
+    "context1": "1.2.1数据的采集本项研究选用我国出版的《全国报刊索引》为统计对象，对各年度文献量进行了统计，时间从1989 年到1993年。",
+    "context2": "1989年到1993年各年度我国科技信息领域的数据库研究文献量列于表3中。年度编号以 $\\mathbf { x }$ 表示，年度文献量以y表示。",
+    "context3": "表3 $1 9 8 9 \\sim 1 9 9 3$ 年年度文献数据库研究文献量分布",
+    "context4": "<table><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>1989</td><td rowspan=1 colspan=1>1990</td><td rowspan=1 colspan=1>1991</td><td rowspan=1 colspan=1>1992</td><td rowspan=1 colspan=1>1993</td></tr><tr><td rowspan=1 colspan=1>年度编号x</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>年度文献量（篇）y</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>87</td><td rowspan=1 colspan=1>90</td></tr></table>",
+    "context5": "1.2.2求回归方程将表3的年度文献量与年度编号的关系作散点图，见图2。",
+    "context6": "![](images/160e9612c3bba5111291ca55feb8d35b0bed47d67a24ef6c5787b7715140dac6.jpg)  \n图2年度文献数据库研究文献量与年度的关系由图可用上文同样的方法得年度文献量对年度的回归直线方程为",
+    "context7": "$$\n\\hat { \\mathbf { y } } = - 6 + 1 9 . 2 \\mathbf { x }\n$$",
+    "context8": "回归系数 ${ \\bf b } = 1 9 \\cdot 2$ ，说明年度文献量在我们统计的年度范围内，每个年度平均增加文献量为19.2篇。1.2.3回归直线的相关检验判定数量 $\\mathbf { x }$ 与 $\\mathbf { y }$ 对所配回归直线的相关的密切程度，用相关系数 $\\mathbf { t }$ 这个指标来检验。通常，计算相关系数 $\\mathfrak { t }$ 采用下列公式：",
+    "context9": "$$\n\\mathbf { t } { = } \\frac { | \\mathbf { b } | } { \\pmb { \\sigma } } \\cdot \\sqrt { \\mathrm { L } _ { \\mathbf { x } \\mathbf { x } } }\n$$",
+    "context10": "其中： $\\sigma ^ { 2 } = \\theta _ { \\mathrm { e } } / ( \\mathrm { n } - 2 ) , \\quad \\theta _ { \\mathrm { e } } = \\mathrm { L } _ { \\mathrm { y y } } - \\mathrm { b } \\cdot \\mathrm { L } _ { \\mathrm { x y } }$",
+    "context11": "$$\n\\begin{array} { l } { { \\theta _ { \\mathrm { e } } = 4 6 5 7 . 2 - 1 9 . 2 \\times 1 9 2 = 9 7 0 . 8 } } \\\\ { { \\sigma = 1 7 . 9 9 } } \\end{array}\n$$",
+    "context12": "$$\n| \\mathrm { t } | = { \\frac { 1 9 . 2 } { 1 7 . 9 9 } } \\times { \\sqrt { 1 0 } } = 3 . 3 7 5\n$$",
+    "context13": "当 $\\pmb { \\alpha } { = } 0 . 0 5$ 时",
+    "context14": "$$\n\\mathfrak { t } _ { \\mathfrak { a } / 2 } ( \\mathfrak { n } - 2 ) = \\mathfrak { t } _ { 0 . 0 5 / 2 } ( 5 - 2 ) = 3 . 1 8 2 4 < 3 . 3 7 5\n$$",
+    "context15": "当 ${ \\mathfrak { a } } = 0 . 0 1$ 时",
+    "context16": "$$\n\\mathfrak { t } _ { \\alpha / 2 } ( \\mathfrak { n } - 2 ) = \\mathfrak { t } _ { 0 . 0 1 / 2 } ( 5 - 2 ) = 5 . 8 4 0 9 > 3 . 3 7 5\n$$",
+    "context17": "因 $\\mathbf { \\sigma } _ { \\mathbf { t } > \\mathbf { t } _ { 0 . 0 5 } }$ ，说明年度文献量与年度编号相关显著，因此说明拟合的回归直线方程是有意义的。",
+    "context18": "1.2.4文献数据库研究年度文献量预测根据(2)式回归方程，可进一步估算和预测今后几年科技信息领域数据库研究的年度文献量，通过计算，将 $1 9 9 4 \\sim$ 1998 年的文献量预测值 $\\hat { \\mathbf { y } }$ 及相对于1993年的文献量百分比率列于表4如下。",
+    "context19": "表4 $1 9 9 4 { \\sim } 1 9 9 8$ 年年度文献数据库研究文献量预测",
+    "context20": "<table><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1>y</td><td rowspan=1 colspan=1>y/y1993（%）</td></tr><tr><td rowspan=1 colspan=1>1994</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>109. 2</td><td rowspan=1 colspan=1>121. 3</td></tr><tr><td rowspan=1 colspan=1>1995</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>128. 4</td><td rowspan=1 colspan=1>142. 7</td></tr><tr><td rowspan=1 colspan=1>1996</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>147. 6</td><td rowspan=1 colspan=1>164. 0</td></tr><tr><td rowspan=1 colspan=1>1997</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>166. 8</td><td rowspan=1 colspan=1>185. 3</td></tr><tr><td rowspan=1 colspan=1>1998</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>186</td><td rowspan=1 colspan=1>206.7</td></tr></table>",
+    "context21": "由表4还能比较出，1994年比1993年增长$2 1 . 3 \\%$ ，1998年比1993年增长 $1 0 6 . 7 \\%$ ，说明今后几年中，文献数据库的研究还会有较快的发展。",
+    "context22": "现将文献数据库与数据库其它领域进行比较，把两者回归直线作于图3。",
+    "context23": "![](images/4f1b742848bf7511c9ed638508f4755b4194f3054380f27461f8c47b35b2e7a6.jpg)  \n图3数据库文献量比较",
+    "context24": "由此可见，数据库的文献在以后几年里还会下降，这是科学发展到一定程度的必然现象。因为学科在发展的初级阶段，文献量会呈迅猛增长的趋势，而当学科研究趋于完善时，其文献量会趋于平稳，甚至下降，直到该学科有了新的重大突破，文献才会再次迅猛增长。而近几年来，文献数据库的研究文献呈明显上升趋势，原因有两点，一是目前文献数据库还有许多方面的问题有待解决；二是数据库研究的重点转移到了应用方面，而文献数据库的研究则偏重于应用。"
+  },
+  "2文献数据库各方面的研究分析": {
+    "context1": "在统计的5年间，我国共发表文献数据库研究文献258篇，占此期间数据库文献总量的 $1 7 . 8 8 \\%$ ，按7个学科类别加以分类统计，结果列于表5。",
+    "context2": "表5文献数据库文献量的分类统计",
+    "context3": "<table><tr><td rowspan=1 colspan=1>内容类别</td><td rowspan=1 colspan=1>文献量</td><td rowspan=1 colspan=1>百分率(%)</td></tr><tr><td rowspan=1 colspan=1>综述</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>7. 36</td></tr><tr><td rowspan=1 colspan=1>情报数据库建设</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>18.97</td></tr><tr><td rowspan=1 colspan=1>情报数据库开发与运用</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>19. 76</td></tr><tr><td rowspan=1 colspan=1>有关DIALOG</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>6.21</td></tr><tr><td rowspan=1 colspan=1>联机系统</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>8.53</td></tr><tr><td rowspan=1 colspan=1>光盘CD-ROM</td><td rowspan=1 colspan=1>67</td><td rowspan=1 colspan=1>25.97</td></tr><tr><td rowspan=1 colspan=1>其它</td><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>13. 18</td></tr><tr><td rowspan=1 colspan=1>合计</td><td rowspan=1 colspan=1>258</td><td rowspan=1 colspan=1>100.00</td></tr></table>",
+    "context4": "由表5可看出，近5年来，我国在文献数据库建设、开发与运用及光盘CD-ROM方面的研究较深入，而且占文献总量的较大比例，而对DIALOG和综述的文献较少，深度也不够。"
+  },
+  "3文献数据库文献在期刊中的分布": {
+    "context1": "统计1990年1月至1993年10月的《全国报刊索引》，有关数据库方面的文献216篇，在各种期刊中的分布见表6。",
+    "context2": "表6 $1 9 9 0 { \\sim } 1 9 9 3$ 年各期刊数据库文献的分布",
+    "context3": "<table><tr><td rowspan=1 colspan=1>期刊名称</td><td rowspan=1 colspan=1>文献量</td><td rowspan=1 colspan=1>百分率 (%)</td></tr><tr><td rowspan=1 colspan=1>现代图书情报技术</td><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>15.74</td></tr><tr><td rowspan=1 colspan=1>情报理论与实践</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>12.50</td></tr><tr><td rowspan=1 colspan=1>情报科学技术</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>6.48</td></tr><tr><td rowspan=1 colspan=1>情报学报</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>6.02</td></tr><tr><td rowspan=1 colspan=1>国外图书情报工作</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>5.09</td></tr><tr><td rowspan=1 colspan=1>科技情报工作</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>3.70</td></tr><tr><td rowspan=1 colspan=1>情报学刊</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>2. 78</td></tr><tr><td rowspan=1 colspan=1>情报业务研究</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>2.78</td></tr><tr><td rowspan=1 colspan=1>其它</td><td rowspan=1 colspan=1>97</td><td rowspan=1 colspan=1>44.91</td></tr><tr><td rowspan=1 colspan=1>总计</td><td rowspan=1 colspan=1>216</td><td rowspan=1 colspan=1>100</td></tr></table>",
+    "context4": "由表6可看出，文献数据库的文献主要分布在《现代图书情报技术》（ $1 5 . 7 4 \\%$ ）和《情报理论与实践》$( 1 2 . 5 0 \\%$ ）中，而且《现代图书情报技术》以有关文献数据库建设和实际运用方面的文献较多，《情报理论与实践》以文献数据库理论方面的文献居多。"
+  },
+  "4结论": {
+    "context1": "综合以上预测和分析，可以初步得出以下结论：",
+    "context2": "$\\textcircled{1}$ 文献数据库作为数据库研究的一个分支，近几年来已成为数据库研究的应用领域之一，平均每年以19.2篇的文献量增加，而且在以后的几年里，还会有较快的发展。而数据库的整体发展已趋于平稳，有待于新的突破。",
+    "context3": "$\\textcircled{2}$ 文献数据库的文献主要分布在《情报学报》《情报学刊》、《现代图书情报技术》、《情报理论与实践》《科技情报工作》、《情报科学技术》等7种期刊中。以上7种期刊所载的文献占总文献的 $5 5 . 0 9 \\%$ ，可把这7种期刊作为文献数据库的核心期刊。",
+    "context4": "$\\textcircled{3}$ 文献数据库各方面的研究发展不平衡，文献数据库建设、开发与运用、光盘CD-ROM这3方面的研究发展较迅猛，文献量占相当大的比例，而有关DIA-LOG和联机方面则逊色许多，今后应加强这些方面的研究。",
+    "context5": "$\\textcircled{4}$ 文献数据库的研究在国外已达到相当的水平，而我国尚处于起步阶段。□"
+  },
+  "参考文献": {
+    "context1": "1王崇德编著．情报学引论．天津：天津大学出版社，1994.4:355页",
+    "context2": "2武汉大学图书情报学院主编.中国图书情报工作实用大全．北京：科学技术文献出版社，1990.7"
+  },
+  "（上接第54页）": {
+    "context1": "也是为发达进取而采取对策的重要依据。当今的时代就是以‘信息人’为中心的社会。”",
+    "context2": "正如前述，作者的这些学术思想使读者耳目一新。类似的话语还未听到别的权威人士说过，也未见别的文献载过。他的这些话也就具有权威性。",
+    "context3": "总之，《引论》是一部理论基础深厚、逻辑严谨、实用性强的好教课书。我们之所以这样说，乃由于作者撰写此书时，更多地是想把它用于教学。但由于该书全面地讨论了有关情报学的理论与方法，概括了情报学各个层面的运行与操作，又涉及到作者的主要学术活动领域及成果，所以它又是一部情报学的力著。□"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "original_filename": "full_450.md",
+  "nothing": {
+    "context1": "·专题：OPAC 发展与变革·"
+  },
+  "OPAC 历史沿革及其发展趋势": "",
+  "乔欢刘漫　陈志新": {
+    "context1": "摘要对联机公共检索目录(OPAC)的发展历程、第三代基于网络环境的OPAC 系统(Web-basedOPAC)的构成特点和IFLA的OPAC显示标准进行了简要分析，并在此基础上预测了OPAC今后的发展趋势。参考文献26。",
+    "context2": "关键词联机公共检索目录OPACWebPAC",
+    "context3": "联机公共检索目录，即OnlinePublicAccess Catalog（OPAC），是2O世纪70年代美国一些大学图书馆和公共图书馆共同开发的公共检索系统。首批采用OPAC的图书馆是加拿大的Guelph大学图书馆（1976）和Waterloo大学图书馆（1977）。早期OPAC延续传统图书馆卡片目录构建思路，提供与卡片目录相同的记录内容、记录格式及检索点。发展至今，OPAC 经历了从中心化、分布式到定制化系统三代产品的发展演化过程,OPAC所提供的信息已经从电子“目录\"扩展到统计资料、图像、音像和全文信息，服务对象也从单一的图书馆读者扩展到各类网络用户，形成面向所有用户的分散式信息管理系统。"
+  },
+  "1OPAC 发展阶段": "",
+  "1.1第一代OPAC": {
+    "context1": "第一代OPAC为“词组标引或先组式系统”。20 世纪70 年代，一些美国大学和公共图书馆在研究基金的资助下，开始研制联机编目系统。项目采用非营利性模式，主要为图书馆工作人员服务。当时，这些项目主要集中在编目和流通方面，并没有为用户提供公共检索服务。OCLC、美国国会图书馆(LC)的机读目录著录标准和北美四个公用设施",
+    "context2": "WLN 和ULTAS)等成为OPAC产生的基础。第一代OPAC 基本沿用卡片目录模式,记录字段与卡片目录相仿，采用首字母组合和短语方式，从题名中抽取主题词并严格按照字段匹配检索。用户界面采用菜单及指令方式控制检索过程。早期OPAC 技术操作复杂，只有经过严格的专业培训才能掌握检索技术，因此在应用推广方面受到阻碍。但由于OPAC是一种新型的信息组织及查询方式，其快速处理信息的能力受到用户的欢迎。"
+  },
+  "1.2第二代OPAC": {
+    "context1": "第二代OPAC也称为“关键词或后组式系统”,形成于20 世纪80 年代中期，是在第一代OPAC 基础上，经过局部调整而形成的新一代产品。第二代OPAC 吸收商用书目信息检索系统的优点，采用字词后组配方式，能够提供关键词检索和布尔检索；用户界面采用下拉式菜单，并提供帮助、浏览、查询以及人机交互、用户导航等功能;有些OPAC系统甚至可以区分初高级检索以及词组检索，从而极大地提高了检索能力。但在处理检索请求时，第二代OPAC 在检索能力、界面设计、响应时间、数据库规模和书目内容等方面还存在一些缺陷。同时，由于缺少必要的规范，不同系统之间的兼容也受到限制。",
+    "context2": "20 世纪90 年代初，OPAC 在检索和匹配技术方面有了新的突破。增强式检索和匹配技术、检索结果相关性排序等新技术的应用,使第三代OPAC开始具备“与用户交流、理解并掌握用户需求”的能力，并可以“改善用户检索策略和检索过程，帮助用户获得理想的检索结果”。第三代OPAC具有词组检索和关键词检索功能，可以为用户提供更多的受控与非受控检索点以及联机帮助;检索对象突破书目数据范围，拓展到期刊题录、文摘、专题数据库、全文数据库、商业数据库和其它情报数据库等信息资源；用户界面采用超文本以及图形接口技术以及Z39.50协议，支持用户交流，图像和多媒体界面、语音用户界面和触摸屏用户界面等，成为用户信息共享的重要设施。"
+  },
+  "2基于网络的OPAC": {
+    "context1": "90 年代后期,在Intermet 和客户机/服务器模式基础上形成“基于网络的OPAC”（Web—based OPAC,WebPAC)，成为网络环境中图书馆以及其他信息机构公共检索服务重要途径。Hildreth(1991)指出，新一代 OPAC 是在传统基础上的“扩大、扩展、延伸”（Enhanced，Expanded，Extended,E3OPAC）。基于网络的OPAC 集成图书馆自动化管理系统，通过互联网为用户提供远程服务。WebPAC编目子系统可以为用户提供书目信息，流通子系统可以向用户提供个人信息、借阅、预约情况等反馈信息，以及电子图书、期刊、多媒体光盘、全文数据库等联机数字信息资源检索服务。WebPAC系统采用磁盘阵列、光盘塔、镜像和网络技术存取数字化资源，为用户提供面向Internet的联机信息检索服务，并通过数据库接口或数据仓库技术整合信息资源，实现不同数据库之间的接入和输出，实现电子资源自动化搜索和智能化处理功能。系统将网络搜索引擎、交互式多媒体检索工具集为一体，仓库信息查询和检索以及多媒体文献。WebPAC还可以为用户提供布尔检索、重要性排序、模糊查询、相关反馈、个性化服务、信息过滤、语音检索、对话式查询和智慧型检索等智能化检索服务。基于Web 的OPAC 检索能够突破使用人数限制，降低对大型主机的依赖性，从而更好地满足用户需求。"
+  },
+  "3IFLA的OPAC显示标准": {
+    "context1": "IFLA在OPAC标准制定和推广方面开展了大量工作。20 世纪90 年代,IFLA 研究小组发布“书目记录功能要求”（FunctionalRequirements for Bibliographic Records,FRBR),为电子环境中的书目记录提出概念模型，用以识别资料元素及其相互关系。1997 年，IFLA书目控制部在丹麦哥本哈根成立“OPAC显示指南特别工作小组”（IFLATaskForce on Guidelines for OPACDisplays），成员由书目、编目、分类和索引及信息技术等部门的代表组成。1998年11月，工作小组发布“OPAC显示草案”,邀请世界各国图书馆界对草案展开评论。1999 年，Bangkok会议在评论结果基础上对草案进行修订，提出OPAC评价采用三个标准，即可获取能力（accessibility）、设计效果（effectivenessof itsdesign）和可查询能力（searchableness）。MarthaYee(加州大学洛杉矶电影和电视档案馆)代表IFLA宣读评论结果和修改意见，2003 年指南正式出版。",
+    "context2": "2003 年版的指南独立于界面和技术，其核心是如何在编目信息中为用户提供更多有价值的内容。指南编委会认为，目录的构成因素、编排体例因技术方法需要修正，但目录的基本功能并未发生根本性改变。2003 年指南规定，OPAC应具备四种功能：",
+    "context3": "(1)查找(Find)：查找与用户检索提问相一致的信息资源。例如：同一作品的全部资源，或同一载体的全部资源;特定个人、家族",
+    "context4": "（2）识别（Identify）：识别书目资源。例如：确认记录所描述实体与所查实体的一致性，或区分具有相似特征的两个或多个实体。",
+    "context5": "(3)选择(Select)：选择适合用户需求的书目资源,即选取内容、物理形式等方面能够满足用户要求的资源。",
+    "context6": "(4)获取(Obtain)：获取文献或为用户提供文献获取信息。例如：购买、借阅或远程检索。",
+    "context7": "为实现上述功能，OPAC 显示应遵循三个原则：",
+    "context8": "(1)用户原则：易读、清楚、可理解和可操作。在OPAC设计中应该采用用户熟悉的语言，反映用户的特定需求。",
+    "context9": "(2)内容安排原则：记录内容与排列符合用户信息需求，能够反映图书馆馆藏条目，以有意义的方式显示记录结果，支持信息导航。",
+    "context10": "(3)标准化原则：应该遵从国家和国际标准以及各项建议。",
+    "context11": "Joan Cherry 等人提出,OPAC 基础层面包含四部分内容：(1)标识：帮助用户识别不同的书目描述部分;(2)文本：书目数据的可视化、发行和流通等;(3)指示信息：用户指引、告知信息和可获取能力选择等;(4)页面外观：书目信息顺序、空间和信息图形显示中的一致性等(Cherry 1996)。在OPAC应用层面，用户界面(显示)是构成系统与用户交流的重要中介。OPAC工作小组认为，指南能够帮助软件设计者、系统零售商和图书馆员对用户需求形成更清楚的认识，并能够根据用户需求开发定制化目录。"
+  },
+  "4OPAC发展趋势": {
+    "context1": "伴随着信息技术的不断发展,OPAC 呈现出以下发展趋势。",
+    "context2": "(1)增加任意关键词搜索入口：由于用户的检索习惯，多数用户希望图书馆OPAC 增加任意关键词搜索入口。目前仍有许多在检索之前必须了解确切的书目信息。但由于大多数用户较少使用规范的主题词进行检索，因此易于导致检索的失败。自然语言标引和检索正在引起更多关注，检索技术的不断进步,将使检索领域出现新的革命。",
+    "context3": "(2)提供相关度分级及确切的题目匹配：图书馆OPAC系统能够提供与搜索引擎相似的检索结果的相关性分类。例如，采用“相关搜索”或\"搜索更多同类”等按钮，为用户提供更多熟悉的相关条目。图书馆系统可以提供基于用户标准的相关性排序算法，对出版时间、主题词等进行相关性排序,并对用户偏好和词频进行统计。",
+    "context4": "(3)浏览功能的创新性研究：浏览功能是信息查寻问题的一种自然有效的解决方法，操作简单，不需要用户付出很多努力和拥有高深的专业知识。长期以来,OPAC研究主要集中在检索方面，包括对检索点索取和检索方式方法等方面的研究。目前，OPAC已实现综合资源整合，用户不必登录各个数据库或OPAC系统。当前，应该对OPAC 浏览功能重新认识，以便能够找出浏览族性和特性检索的结合点。例如，可以把可伸缩的分类主题树引入OPAC，采取可视化检索机制，系统能够自动对应学科名、主题词、关键词和分类号之间的各种关系，在浏览过程中用户可以随时增加限制条件来优化检索结果。",
+    "context5": "(4)注重用户研究，提供个性化服务功能：OPAC发展越来越面向用户，检索方法和界面设计等方面的发展都开始以用户需求为导向。OPAC可以参照搜索引擎，通过个性资料及检索习惯的信息提取，分析用户习惯、检索行为，并对其加以指导和监控，实现自动优化用户检索效果等人性化和智能化的检索服务。目前,NCSU图书馆的新目录已经能够为用户提供与搜索引擎一样的速度与灵活性,OPAC系统的成功将使OPAC目录向更加快捷、更符合人类思维的方向发展。",
+    "context6": "展中的障碍，为此，许多图书馆、信息中心和系统开发公司都在进行实验并提出了一些解决办法，其中OCLC的 CJKOPAC（CJK：Chinese，Japanese，Korean scripts）是一个全球性的多语言OPAC。但是，多语种版本的线上选择、语言翻译机制的融入、书目信息通过语言选择机制的自动转化等问题还需要进一步研究。",
+    "context7": "(6)设备软件和硬件界限的模糊：由于网络的高度发展，计算机现在已经不是唯一可以联网的机器,掌上电脑、手机等都可以上网，因此，为了进一步发展与普及用户,OPAC系统现在要能够适应各种联机设备和操作系统，开发适应各种设备的检索界面。",
+    "context8": "(7)整合 $\\mathrm { \\ W e b 2 . 0 }$ 技术： $\\mathrm { \\ W e b 2 . 0 }$ 是相对于$\\mathrm { \\mathbb { W } e b ^ { 1 . 0 } }$ 的新一代互联网应用技术，是从核心内容到外部应用的全方位革命。由单纯通过网络浏览器浏览html网页的 $\\mathrm { \\mathbb { W } e b ^ { 1 . 0 } }$ 模式向内容更丰富、联系性更强、工具性更强的$\\mathrm { \\ W e b 2 . 0 }$ 互联网模式的发展，已经成为互联网新的发展趋势。 $\\mathbb { W } \\mathrm { e b } ^ { 1 . 0 }$ 到 $\\mathrm { \\ W e b 2 . 0 }$ 的转变，从模式上由单纯的“读”向“写”和“共同建设”，由被动接收网络信息向主动创造信息发展；从基本构成单元上由“网页”向“发表/记录的信息”发展;从工具上由互联网浏览器向各类浏览器和RSS 阅读器等内容发展；运行机制上由“Client Server”向“Web Services”转变;作者由程序员等专业人士向全部普通用户发展;应用上由初级的应用向全面大量应用发展。",
+    "context9": "$\\mathbb { W } \\mathrm { e b ~ 2 . 0 ~ }$ 和Library2.0将成为驱动OPAC发展的新动力。新的OPAC将具有个性化特征，能够反映机构特点及自身特色。OPAC将提供社区型管理服务，为本地人口集成社会数据,通过OPAC网站为图书馆用户构建联系外部世界的桥梁。基于网络的OPAC 将为用户提供内容更为丰富的信息服务，更加有效地满足用户信息查询的需要。"
+  },
+  "5结语": {
+    "context1": "OPAC 生命周期从20世纪70年开始，80年代末发展,90 年代中期成熟，当前正在开始新的循环。OPAC的功能在这长期的发展过程中得到了一定的完善，但与部分其他信息查询工具相比，OPAC 还依然存在一定的局限性，主要表现在信息查询和浏览方面，例如，只能查询已知项目，只能查询图书和期刊文章等等。因此，OPAC未来发展必须学习其它信息查询工具，更加关注用户的信息需求，丰富和完善图书馆目录，形成更为开放的管理模式。预计不久的将来,OPAC将与图书馆网页集成为一体，形成更加符合用户需求、更简便、更高效的信息检索系统。"
+  },
+  "参考文献": {
+    "context1": "1Young，Heartsill．The ALA Glossary of Library andInformation Science：Chicago：American LibraryAssociation,1983  \n2 Ray Prytherch．Harrod’s Librarians’Glossary andReferenceBook·Aldershot，Hants，England ;Burlington,VT:ASHGATE,2005  \n3 Allien Kent，Harold Lancour．EncyclopediaofLibrary and Information Science·New York:MarcelDekker，1968—1994  \n4 Oswald，Godfrey·Library World Records·Jefferson,NC ：McFarland $\\&$ Company，Inc·，2004．pp.178—180  \n5 程小澜，贾晓东·OPAC 的发展及其功能实现的探讨：图书馆论坛(双月刊),1999(6)  \n6 程文艳·OPAC的发展现状及其利用·信息技术,2002(8)  \n7 苏瑞竹·联机公共检索目录(OPAC)的现状及发展趋势·情报科学,2000(1)  \n8 张学军·我国的OPAC．情报理论与实践．1999(1)  \n9 陈培久，金玉玲·OPAC及其对图书馆自动化的影响．现代图书情报技术，1994(1)  \n10 曹玉霞·网络环境下的OPAC系统．图书馆建设,2000(6)  \n11裘江南,金玉玲．试论Intermet 环境下 OPAC 系  \n12吴瑾·图书馆WebOPAC 的设计与实现·图书馆学刊,2005(5)  \n13 苏瑞竹，王知津．联机公共检索目录(OPAC)改进述评·数字图书馆技术,2000(3)  \n14李杉·ALEPH5OO 系统Web OPAC 评析·国家图书馆学刊,2004(3)  \n15 朱茵·深圳图书馆OPAC 用户调查与研究：[硕士论文]．中山大学,2003  \n16 Gerald Burke,Carol Anne Germain，Mary K．VanUlln·URLsintheOPAC：Integratingordisintegratingresearchlibraries’catalogs·TheJournal of Academic Librarianship，Volume 29,Issue5，September 2003，pp：290—297  \n17 Woo-seob Jeong:A pilot study of OCLC CJK plus asOPAC．Library $\\&$ Information Science Research,Volume 20，Issue 3，1998，pp:271—292  \n18 Tyler Goldberg,Eric Neagle·Serials infomation in theOPAC：A model for shared responsibility·SerialsReview，Volume 22,Issue 4，Winter l996，pp:55—63  \n19 Ellen Finie Duranceau· Cataloging remote accesselectronic serials：Rethinking the role of the OPAC.Serials Review，Volume 2l，Issue 4，Winter 1995,pp:67-77  \n20 USEAND CONTENTS OF CATALOGS AND OTHERDATABASES 1998—2001http://www ala· org/ala/alctscontent/alctspubsbucket/webpublications/cataloging/researchtopics/usecontentsOl.htm  \n21Web Based OPACs: A Leap of Faith? http:/www.ala org/ala/acrl/acrlevents/medeiros 99.pdf  \n22Peter McCracken·The OPAC Reborn·LibraryJournal； Summer 2OO4；Academic Research Librarypp:32  \n23 Virginia Ortiz-Repiso，Purificacion Moscoso·Web-based OPACs：Between tradition and innovation·Infomation Technology and Libraries；Jun l999 ；18,2；Academic Research Library pp· $6 8 - 6 9$   \n24 IFLA Task Force on Guidelines for OPAC DisplaysGUIDELINESFORONLINEPUBLICACCESSCATALOGUE（OPAC）DISPLAYS（DRAFT）．2003$- 9$ http://www . ifla: org/VI/s13/guide/opacguideO3.pdf  \n25 Butteifield, Kevin.“Online Public Access Cata-logs .\"In：Encyclopedia of Library and Information Science,second edition（4 vols·；New York：Marcel Dekker,Inc.，2003），vol.3，pp.2268—73.http://www.vtls com/Corporate/FRBR·shtml  \n26 Holly Yu，Margo Young· The Impact of Web SearchEngines on Subject Searching in OPAC．InformationTechnologyand Libraries；Dec2OO4；23，4;Academic Research Library pp．l68-169",
+    "context2": "（乔欢副教授，刘漫研究生，陈志新副教授，北京师范大学信息管理系）",
+    "context3": "(收稿日期：2006－07－04)"
+  },
+  "免费网络资源集锦(三)": {
+    "context1": "1http://oaister·umdl·umich· edu/o/oaister/",
+    "context2": "OAIster是由美国密歇根大学（UniversityofMichigan)图书馆推出的数字图书馆服务产品，其目标是创建一个自由访问并方便找到的学术性数字资源的收藏。目前收录了 580 个机构的6,258,421篇文献,可免费获得全文。",
+    "context3": "2http://www.findarticles: $\\mathrm { c o m } /$",
+    "context4": "美国Looksmart 是一种搜索引擎，于1995 年成立于澳洲，findarticles 是LookSmart 旗下的数据库之一，它的检索技术来自LookSmart，资料来自Gale 出版集团。目前收录了约1300种免费期刊，包含艺术与娱乐、汽车、商业金融、计算机与技术、保健、家政、新闻与社会、参考与教育、体育等9个主题。可以通过3http://.ontent $\\cdot$ nejm $\\cdot ^ { * }$ org/contentsbydate.O.shml",
+    "context5": "美国的新英格兰医学期刊（NEJM：The NewEnglandJournalofMedicine)是以临床医学进展和公共卫生研究为主的综合性医学杂志，属权威医学杂志，可免费查找 1975-1992 的文摘和 1993至今的全文。",
+    "context6": "4http:/www $\\cdot \\mathrm { j } \\mathrm { m i r } \\cdot \\mathrm { o r g } /$",
+    "context7": "医学因特网研究杂志(Journal of medical Internetresearch)于1999 年由加拿大多伦多的全球电子健康改革中心(The Centre for Global eHealth Innovation)出版,是第一份开放存取同行评议的卫生信息学期刊,也是国际上第一份全方位报道互联网及其相关技术在医疗卫生领域中应用情况的学术期刊，还是医学互联网学会和互联网医疗卫生联合会的官方杂志。1999 年",
+    "context8": "系复2ademicJournalElectroniPshgP美XAghtseserp://wv"
+  }
+}

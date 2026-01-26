@@ -1,0 +1,119 @@
+{
+  "original_filename": "full_8459.md",
+  "社群环境下用户协同信息行为研究述评": "",
+  "张薇薇": {
+    "context1": "摘要随着协同技术的发展以及Web2.0群体交互性虚拟社群的出现，用户协同信息行为已经逐渐成为新的研究热点。协同信息行为的类型主要包括：协同信息查寻与检索、计算机支持的社群信息交流、协同内容创作和协同信息质量控制。协同信息查寻与检索的研究成果较为丰富，而协同内容创作，尤其是协同信息质量控制的研究相对较少。协同理论也是协同信息行为研究的一个必要组成部分，目前尚缺乏对社群用户在协同系统环境下的信息活动及其情感、认知的综合研究，缺乏对异步、异地发生的用户协同信息行为的研究。此外，如何设计和构建群体交互式虚拟社群环境，以更好地提升用户协同信息活动的效果,这些都将成为新的研究课题。图1。参考文献64。",
+    "context2": "关键词协同信息行为社群环境协同信息查寻与检索协同内容创作协同信息质量控制",
+    "context3": "分类号G354",
+    "context4": "ABSTRACTIn thewakeofthedevelopmentofcolaborative technologyand withtheadventof Web2.O-based virtual communities,collaborative information behavior(CIB)hasaroused anincreasing interest inacademia.Itis stated hat recent CIBresearches mainly involve the following types:colaborative information seekingand retrieval(（CIS&R), communitycommunication supported bycomputer，collaborativecontentcreation andcollaborative information quality control.CIS&Ris，comparatively，the mostfruitful field,whilestudiesoncollborativecontentcreationandcollaborative informationqualitycontrolarerelativelyfewer.Furthermore,collaborative theory isanessntialpartofCIB studies.Itis arguedthat syntheticresearch concerning informationactivities，emotionand cognitioninthecontextofcollborative systems isabsent inrecentstudies，especiallinregard tomanifestationandpaternofcolaboration.Itisalsostatedthat few models have discussed problems of asynchronyand remote CIB in acomputer-supported context.Moreover,this paper askshow wecanbuildavirtualcommunityfor group interactionthatbetter supportsparticipants’colaborativeinformation practices.These problems will be addressed in further studies.1 fig.64 refs.",
+    "context5": "KEY WORDSCollaborative information behavior.Community context.Collaborative information seeking and retrieval.Collaborative content creation．Collaborative information quality control.",
+    "context6": "CLASSNUMBER G354",
+    "context7": "协同信息行为（Collaborative Information Be-havior，简称CIB)研究属于跨学科研究的领域，信息检索、人机交互、计算机支持的协同工作（Computer Supported Cooperative Work，简称CSCW)等领域均能发现有关CIB 的研究[1]。本文所探讨的社群环境主要是指计算机支持的社群环境，随着协同技术和Web2.0技术的发展以及交互性虚拟社群的出现，用户协同信息行为逐渐成为一种普遍的现象，引起了相关研究人员的广泛关注。社群环境下，研究者不仅关注单个用户的信息行为，而且关注多个用户之间的信息交互以及这种交互对信息行为及其结果的影响。"
+  },
+  "1协同信息行为研究的背景": "",
+  "1.1传统信息行为研究概况": {
+    "context1": "协同信息行为研究是在个体信息行为研究的基础上发展起来的。早期的研究重点关注个体信息行为特征、理论与模型的描述和构建。Lazinger对信息行为的定义是：在动机支配下，用户为了达到某一特定目标的行动过程[2]。Wilson认为信息行为是人类关于信息源和信息渠道的行为的总称，并对信息行为作出进一步定义，即个体在识别信息需求，以任何方式搜索信息并利用或转移该信息时所进行的那些活动[3]。本文倾向于Wilson 的前一个定义，其内涵最为丰富和贴切，能适应新的技术环境下用户信息行为研究的需要。",
+    "context2": "传统信息行为的研究主要集中在个体信息查寻、信息搜索、信息检索、信息浏览和信息利用等方面，其中信息查寻行为是研究的重点。例如 Kuhlthau 的信息查寻过程模型包含六个阶段[4],Wilson 的问题解决模型将信息查寻、检索与利用看作是以目标为导向的问题解决过程的不同阶段[5]。随着基于计算机的检索系统和网络搜索引擎的兴起，大量关于用户的研究开始侧重于关注网络信息检索行为[3.6]。Case 从职业、社会性角色、人口统计特征三个角度对已有的信息行为研究文献进行了回顾[7]。沙勇忠等从相关概念、主要研究内容、研究方法三个方面对国内外网络用户信息查寻行为研究领域的主要进展和热点问题进行了评介[8]。"
+  },
+  "1.2协同信息行为研究兴起的原因": {
+    "context1": "用户协同信息行为研究的兴起和蓬勃发展，是内、外两种力量推动的结果。",
+    "context2": "(1)研究本身的需要。传统信息查寻和情报检索研究只针对个体用户的行为，忽视查寻的社会情景以及用户之间的相互关系[9]。虽然大多数信息查寻行为发生在社群背景下，但是以往的研究很少关注用户群体的协同信息行为，较少关注成员之间的交互因素对个体查寻行为的影响[10-12]。1998 年召开的第二届情境信息查寻会议出现了一些新主题，如协同信息查寻[3]。美国信息科学技术学会在 2006 年度评述中也有专门针对协同信息查寻与检索的综述[1]。",
+    "context3": "(2)协同技术的推动。协同技术的兴起，进一步推动了用户协同信息行为的研究。协同技术集中体现的代表领域之一是CSCW，它是在计算机的协调与辅助下，由小组成员共同实施的活动[13]。这些系统包括 SearchTogether[14]、Co-Search[15]、Cerchiamo[16]、CIRLab[17]等。另一个代表领域是Web2.0，它支持用户生成内容和协同工作,如Wiki、Blog、SNS 和社会化标注等。尤其是基于Wiki技术的大规模、自组织、开放的协同内容创作网站受到了大众的欢迎[18],最成功的例子莫过于维基百科，它引起了不少研究人员的兴趣[18-20],同时也催生了新的用户协同信息行为，那就是用户协同内容创作[20]和协同信息质量控制[18-19]"
+  },
+  "2协同信息行为研究的一般性问题": "",
+  "2.1协同理论": {
+    "context1": "目前CIB研究中关于协同的解释大都建立在CSCW研究的基础上[12],且散见于各研究文献的回顾中，专门针对用户信息行为的协同理论研究较少。现有研究普遍从用户协作的时间顺序、地域关系、媒介形式以及相互关联的紧密程度等方面，衡量和比较各种协同活动。本文主要从CIB研究领域出发，对协同的内涵、类型、成本及形成条件加以阐释。"
+  },
+  "2.1.1协同的内涵": {
+    "context1": "协同最简单的解释就是“一起工作”[21]。当社群成员利用自身的知识、能力无法解决一个问题时，社群协同过程使得看到同一个问题不同方面的成员，能建设性地探索差异和寻找解决方案[22]。协同也是多个成员的互惠关系，他们有共同的目标，在实现结果的过程中共同承担责任，同时分享结果带来的声誉和影响力[23]。劳动分工和知识共享是CSCW协同理论中的两个核心要素[24]。Cole等建议从8个方面去理解小组的同地协同行为[25]： $\\textcircled{1}$ 目的； $\\textcircled{2}$ 交流； $\\textcircled{3}$ 内容和过程； $\\textcircled{4}$ 任务和维持活动； $\\textcircled{5}$ 角色；$\\textcircled{6}$ 规范； $\\textcircled{7}$ 领导力； $\\textcircled{8}$ 阶段。Gutwin 等提出了7种需要组件或协同系统支持的主要协同活动[26] $\\textcircled{1}$ 显性交流； $\\textcircled{2}$ 间接交流； $\\textcircled{3}$ 行动的协调；$\\textcircled{4}$ 计划； $\\textcircled{5}$ 监视； $\\textcircled{6}$ 援助； $\\textcircled{7}$ 保护。"
+  },
+  "2.1.2协同的类型": {
+    "context1": "“协同”一词在媒介形式、交流形式和协调形式上各有不同[27]。一种网络信息查寻的协同分类法[28]被研究人员广泛使用，该分类法将计算机支持的协同信息活动按意向、深度、时序和地域四个维度进行划分，以表示协同的不同程度和形式[28]。其一，意向维度。根据用户对社群信息需求的认知情况，可将协同分为显性协同与隐性协同[27-29]。如果社群共享信息需求，则协同意向为显性。显性协同往往与基于信息任务的协同活动有关[30]。如果系统需要推断出每个用户的信息需求、任务的共性以及联合信息需求的程度，则协同意向为隐性[29]。协同过滤属于隐性意向[28],而 Google的 PageRank 也可归属此类[31]。其二,媒介维度。Hansen 等按照交流媒介不同将专利审查员的协同活动分为“与人关联的协同”和“与文献关联的协同”两种[12]。前一种是传统人际交流方式，后一种是人一文献一人的间接交流方式，尤其是在计算机支持的社群环境下，后一种演变为CMC（Com-puterMediatedCommunication）方式。计算机协同媒介的深度可从算法到界面[28],调节层次不同。其三，时序维度。时序也称并发性，反映了社群成员之间发生相互影响的时间次序关系[28],据此可将协同分为同步协同和异步协同。其四，地域维度。根据社群成员所处的地域分布情况，可将协同分为同地协同（或分布式协同)和异地协同。"
+  },
+  "2.1.3协同的成本与形成条件": {
+    "context1": "对协同信息活动的社群用户而言，协同成本主要来自额外的认知负担[32]。因为CIB 成员不但要关注自己的历史记录，还要关注其他成员的历史信息记录[33]。有效的协同要基于以下条件[33]： $\\textcircled{1}$ 有共同的目标或相互的利益，这是协同的基础； $\\textcircled{2}$ 要完成复杂的任务，这是协同的必要条件； $\\textcircled{3}$ 较高的利益/负荷比，因为协同会导致额外的认知负担[32]，只有当协同的负担在给定的情境中可以被接受时协同才有效[21]； $\\textcircled{4}$ 个体知识或技能的不足，这是协同的普遍成因。"
+  },
+  "2.2协同信息行为的含义与类型": "",
+  "2.2.1协同信息行为的内涵": {
+    "context1": "讨论CIB，一个关键问题是它的定义。目前，还没有一个被普遍接受的解释和定义。华盛顿大学协同信息检索项目研究小组认为，CIB是一组人员采取的识别和解决共享信息需求的活动[34]。这一定义包含了CIB行为研究中两个重要的概念：协同和信息需求[\"]。协同对于CIB的重要性不言而喻，共享信息需求意味着社群协同活动有着显性或隐性的、相同或类似的信息目标，两者共同协调和引导社群用户朝着一个目标而进行各种信息活动。"
+  },
+  "2.2.2协同信息行为的类型": {
+    "context1": "要了解协同信息行为的类型，就必须先了解信息行为的类型。Wilson认为信息行为包括主动或被动的信息查寻和信息利用行为[3]。由于信息利用行为是心理学意义的认知过程，这里不作研究。研究者普遍认为信息检索、信息搜索含义大致相同，而信息查寻广义上包含了信息检索、信息浏览等行为[3]。此外，对信息查寻还有一种狭义上的理解，就是仅指没有明确目标的信息查找行为，包括信息需求的形成、表示以及信息源的选择[12]。进行狭义理解时，信息查寻可以和信息检索并列[1]。从行为目的的角度讲，网络用户信息行为还可分为信息发布、信息交流、信息查寻、信息选择、信息下载行为等[35]。根据文献调研的结果，现有CIB研究中所探讨的类型可归纳为以下方面（见图1）： $\\textcircled{1}$ 协同内容创作; $\\textcircled{2}$ 协同信息质量控制； $\\textcircled{3}$ 协同信息查寻与检索； $\\textcircled{4}$ 计算机支持的社群信息交流，即CMC。值得注意的是，这些CIB 类型之间并非界限分明和相互独立，而是有一定程度的交叠。",
+    "context2": "![](images/fe44a408e7eb039289dfa285429025ef7c3864181da304e46a208a10cd069d76.jpg)  \n图1社群环境下用户协同信息行为的类型关系"
+  },
+  "2.3研究方法": "",
+  "2.3.1数据采集的途径": {
+    "context1": "通过大量的文献调研，本文归纳出CIB 研究中三种数据采集的途径： $\\textcircled{1}$ 真实社群环境下的跟踪调查[11-12,36-37]; $\\textcircled{2}$ 模拟社群环境下的实验调查[29,38]； $\\textcircled{3}$ 虚拟社群环境下,利用计算机网络媒介和工具对用户信息行为数据进行记录和存储[18-19.39]。前两种是科学研究中常用的调查方法和数据采集途径，但往往由于研究条件所限，样本量较小，数据采集过程费时费力，比较适合定性研究。第三种则是在CMC、CSCW以及Web2.0技术发展背景下逐渐兴起的一种数据采集途径，其优点是数据量大、便利性和可获得性强、采集过程自动化或半自动化，适合定量分析和统计研究。"
+  },
+  "2.3.2数据采集的方法": {
+    "context1": "在CIB研究中，访谈法和观察法是数据采集的传统方法[32],录音和录像则是普遍采用的辅助方法。但由于协同基础的存在，开始出现某些新方法，如日记记录法、文献考察法，且传统方法也注入了新内容以适应协同研究的需要。常用的方法主要有： $\\textcircled{1}$ 访谈法 $\\left[ 1 0 - 1 2 , 3 2 , 3 6 - 3 7 , 4 0 - 4 1 \\right]$ ; $\\textcircled{2}$ 观察法[11,29,32,36-37.40] 。观察过程也会伴随使用出声思维法[32.37]； $\\textcircled{3}$ 问卷调查法 $\\left[ 1 0 , 2 0 , 2 9 , 4 1 - 4 2 \\right]$ ; $\\textcircled{4}$ 日记记录法[4,10.12.43]。设计表格形式的纸版或电子日记[12],让参与者自行记录和描述每天的活动;$\\textcircled{5}$ 日志分析法[29.35.40]。适合计算机支持的 CIB研究，用户基于CMC方式的信息行为会在日志中留下印迹，可通过审查日志挖掘行为特征; $\\textcircled{6}$ 文献考察法[32.41]。检查与社群相关的文件。"
+  },
+  "2.3.3数据分析的方法": {
+    "context1": "各研究因为目标不同而采用的分析方法各异。常用的方法有： $\\textcircled{1}$ 统计法[20.29.41]; $\\textcircled{2}$ 案例研究法[18]； $\\textcircled{3}$ 文本逻辑分析法[11:40],对数据单元按照段落、句子、语词等不同级别进行仔细审查、比较; $\\textcircled{4}$ 民族方法学和交谈分析法[39.44]。此外，一些研究人员也会根据自身的研究需要，采用特殊的分析理论和框架。如Hyldegard[10]采用Kuhlthau的信息查寻过程模型[3]为分析框架,而 Bruce 等采用认知工作分析框架[37],以进一步详细描述工作任务、决策、交流和协同、信息需求、策略等。Wilson[31]在前人个体信息查寻策略的基础上，重新构建了自己的分析框架。"
+  },
+  "3协同信息行为研究的主要类型": {
+    "context1": "CIB 各种类型中，除了协同内容创作和协同信息查寻与检索没有重合外，其余两两之间都有交叠(见图1)。这表明协同内容创作、协同信息查寻与检索是用户协同信息活动的核心，社群信息交流和协同信息质量控制则起到不可或缺的支撑和保障作用，这四类信息行为共同构成了CIB的基础。其中计算机支持的社群信息交流即CMC，泛指以计算机网络为媒介的群体交互，包括即时和延时通讯、网络论坛、博客、维基、社会化标注、社会性交往网站等。与传统人际交往模式相比（比如面对面)，当人们使用CMC交互方式时，会较少考虑交流中的社会性因素,而更倾向于作出诚实的反馈[45]。由于社群信息交流是其他所有协同信息行为的基础，故而其研究成果可见于其他CIB类型的研究中,在此不作进一步评述。"
+  },
+  "3.1协同信息查寻与检索": "",
+  "3.1.1术语的统一": {
+    "context1": "此类研究中，不同文献使用的术语不一，总结起来有以下几种常用的表达：协同信息查寻（CIS）、协同信息检索（CIR）、协同搜索、协同",
+    "context2": "Web 搜索、协同过滤、协同查询、协同浏览等。本文认为以上概念之间有重合、交叠或者包含关系，其中“协同信息查寻”含义最广，使用最频繁；其次是协同信息检索，与协同搜索含义相同，涵盖了协同查询、过滤和浏览;协同搜索包含了协同Web 搜索。为了避免概念之间的混淆，增强研究的连续性与统一性，本文把这些研究主题都归并到“协同信息查寻与检索（CIS&R)\"这个较大的范畴下。"
+  },
+  "3.1.2CIS&R研究范围": {
+    "context1": "CIS&R是传统个体信息查寻与检索研究在社群环境及协同技术发展背景下的延续。Foster在对2000-2004年CIS&R的研究综述中指出，CIS&R的定义与所在学科的假设有关，定义中强调对协同工作任务的支持[1]。同时他提出了一个具有广泛包含性的定义：“对于在信息查寻与检索过程中能使个体进行协作的系统及其实践。”按此定义，目前对CIS&R系统及其用户行为的研究均归属于此领域。这符合传统信息系统研究的惯例，即按照系统(技术)和用户（行为)两个维度展开研究，并相互交错。"
+  },
+  "3.1.3CIS&R过程阶段划分": {
+    "context1": "Foster将用户协同查寻与检索过程中的信息任务分为三个阶段：协同信息查寻、协同信息检索和协同信息导航[1]。协同信息查寻偏重信息任务的第一阶段，即信息采集、信息需求的形成、表示以及信息源的选择等[12]；协同信息检索或搜索侧重信息任务的第二阶段，即信息系统或信息源的选择、查询或检索式构造、查询重构、相关性判断等[12],协同查询和协同过滤是此阶段的具体操作步骤;协同信息导航处于信息任务的第三阶段，分为异步和同步社会性导航，而同步社会性导航的方式有协同浏览、在线聊天等[1]。各个阶段之间界限模糊，并伴有交叠和反复。查寻、检索、浏览、导航等信息行为关联紧密，很难严格区分。因此，很多研究文献虽以CIS或CIR为主题，其实指的仍然是CIS&R。"
+  },
+  "3.1.4CIS研究": {
+    "context1": "信息查寻是传统信息行为研究的主要领域。在社群环境下，研究人员开始关注以下问题：传统的信息查寻模型在新的协同环境下是否适用，社群成员的行为与模型中个体的表现是否相异，社群之间的信息行为与个体模型是否不同，以及其他成员的信息活动如何影响个体成员。这些问题是用户协同信息查寻行为研究的目标。如文献[10]利用个体信息查寻研究中的 ISP 模型[5],考查小组成员在协同完成一项学习任务的情境下，其信息行为的特征。文献[31]重构了用于个体信息查寻的分析框架，在模型中加入了协同环境因素，以评估 SearchTo-gether[14]的协同信息查寻界面。"
+  },
+  "3.1.5CIR研究": {
+    "context1": "CIR可以被定义为与特定的问题解决活动相联系的信息存取活动[12],包含了社群集体实施的解决一个信息问题的任何活动[37]。在一个与任务相联系的信息查找、检索过程中，以人与人之间隐性或显性的交互作为信息源[12]。劳动分工、知识共享、小组意识、会话持续性和结果评价是CIR 研究中的五个重要领域[17]。Bruce等把CIR分解为以下情形[37]： $\\textcircled{1}$ 两个或两个以上成员为解决一个特定问题共同沿着一条路径查找信息； $\\textcircled{2}$ 小组成员为解决一个特定问题沿着不同路径查找信息； $\\textcircled{3}$ 小组成员受到其他已经找到相同或相似信息的成员意见的引导。此外,Fidel等认为协同信息检索仅发生在参与用户是同事，且实行相同的工作流程中[32]。"
+  },
+  "3.2协同内容创作": "",
+  "3.2.1协同内容创作的主要形式": {
+    "context1": "协同内容创作[18.20]的形式有协同写作[46]协同知识创造[47]、协同标注[48]、协同多媒体创作[49]等。其中协同写作是协同研究中的一个重要领域，它建立在个人写作的基础上，有多人参与[46]。相比其他,这一领域有着较为成熟和系统的研究。个人写作包含计划、起草和审阅三个认知过程，它们之间没有严格的顺序关系而时有反复[50]。协同写作是由一个有共同目标的小组，在共同的文档创建过程中，相互妥协、协调和交流的反复的社会过程[46]。这一过程中包含着以下要素：协同写作活动、流程、角色、策略、工具或软件、文档控制模式、工作模式和小组认知等。"
+  },
+  "3.2.2协同内容创作的动机": {
+    "context1": "随着像Wiki一类开源软件的应用，利他主义行为成为开源社群强调的主要方面。Wagner研究发现，对协同的兴趣是维基百科社群的主导动机[20]。这不同于其他网络虚拟社群的激励研究。例如在一个专业社群的讨论版中，研究人员发现，用户贡献知识的主要激励因素是声誉，而不是帮助他人的愉悦感[51]。根据调查结果，维基社群成员大部分是务实的利他主义者[20]。因为维基百科的贡献者同时也是维基百科的用户，因而这种务实的利他性表现为一种普遍性的互惠关系，但不是直接的互惠。此外，自我实现也是志愿行动中比真正的利他主义更为重要的动机。只要虚拟社群提供条件以吸引务实的利他主义者贡献知识，就能保证社群的持续性[20] 。"
+  },
+  "3.2.3协同内容创作的角色": {
+    "context1": "角色是成员在小组中正式或非正式的职责，它会随着协同写作活动的变化而变动[46]。角色与劳动分工相关联，有效的角色分配或劳动分工可以提高产出，会促使成员更好地贡献内容[52]。用户贡献的累积效应和劳动分工是维基百科相比其他虚拟社群独一无二的特征[20]。协同写作的角色大体上有作者、咨询人员、编辑、审查者、小组领导、服务人员等[46]。维基百科内容创建过程中可以识别出四种角色：编辑、信息质量保障代理、恶意代理、环境代理[18]。维基百科允许用户根据自己的兴趣、专业经验、特长等自行决定要贡献的内容、过程以及要扮演的角色[18] 。"
+  },
+  "3.2.4协同内容创作的模式": {
+    "context1": "协同内容创作的文档控制模式，也即对协作文档的管理控制方法，包括中心化控制、接替控制、独立控制和共享控制[53]。协同内容创作的工作模式，按照协同成员的地域关系、时序关系两个维度，划分为四种类型：同步同地（即面对面)、同步异地、异步同地、异步异地[46]。这与前文所论述的协同类型划分相一致。这四种工作模式会直接影响用户的小组认知水平[46]，小组认知又会影响活动的协调，而这两者都会影响产出的成功与否[54]。一般认为，同时同地的协同内容创作中，用户最容易了解到其他成员的活动。而异步异地的协同内容创作需要有相应的协同技术和系统予以支持，尤其是提高用户对其他成员活动的认知水平[55]。"
+  },
+  "3.2.5协同内容创作的策略": {
+    "context1": "协同写作基本上有三种策略： $\\textcircled{1}$ 平行策略。相应的工作被分解为若干子任务，由协同成员同时进行工作[54]。平行策略又可分为水平分工协作和层级分工协作，前者指每个成员负责文档的一个特定部分，后者指成员按角色分工平行创作[46]； $\\textcircled{2}$ 顺序策略。相应的任务被划分为若干阶段，前一个阶段的输出成为下一个阶段用户要处理的输入[54]； $\\textcircled{3}$ 互惠策略。小组成员一起工作，相互协调各自的活动[54]。互惠策略也可称之为实时反馈策略[46]，用户可以对其他成员已经完成的部分进行评阅，并随时添加新的部分。当然这种实时的反馈也可能会导致冲突。第三种策略没有明显的预先计划和协调工作,它支持创造性的自由表达与创作能力的发展[46]，因此与网络虚拟社群的开放性和自组织特征相适应。"
+  },
+  "3.3协同信息质量控制": "",
+  "3.3.1协同信息质量控制的内涵": {
+    "context1": "协同信息质量控制有效保障了协同内容创作和协同信息查寻与检索行为的结果符合社群共同的目标。尤其是在支持用户生成内容的Web2.0环境下，社群协同信息质量控制行为成了UGC 网站质量的主要保障，例如维基百科[18]。协同信息质量控制与协同内容创作行为相辅相成，是由社群共同实施、完成的一组保障与提高用户生成内容信息质量的活动流程。具体而言，社群共同制定相应的活动规则和流程，遵守一系列能被社群成员广泛接受的标准或准则，基于计算机支持的协同技术，共同提升用户生成内容的信息质量。协同信息质量控制最成功的案例当属英文维基百科，对此已有大量研究。"
+  },
+  "3.3.2协同信息质量控制的流程": {
+    "context1": "关于协同信息质量控制的文献乏善可陈，仅有少量专门针对维基百科质量控制机制的研究。维基百科社群创建了一系列工作流程，通过相对简单的协同技术，有效保障了信息质量提高机制的实施[18]。具体而言,维基百科使用词条质量工作流程和编辑管理流程来实现维基社群的协同信息质量控制。维基百科和传统数据库的信息质量工作流程有以下几点明显区别[18] $\\textcircled{1}$ 传统数据库的信息质量评价、终端用户反馈流程与信息创建流程是分开的，而维基百科的这些流程是整合在一起的； $\\textcircled{2}$ 维基百科终端用户和编辑的角色是融为一体的，而传统数据库这两种角色基本是分开的； $\\textcircled{3}$ 维基百科的内容生成和分配环境相同，没有时间差距； $\\textcircled{4}$ 维基百科的质量控制和协调机制是非正式和自组织的[56],这是因为维基百科社群的角色分工是自我选择的。"
+  },
+  "4协同信息行为研究的社群环境": "",
+  "4.1CIB 研究中的社群类型": {
+    "context1": "用户协同信息行为可以发生在一个特定的工作背景下，也可以发生在一个更开放的社群环境下[12],个体因为处在一个较小的地理范围内或由于频繁的交互而形成社群[57]。在各种研究中，社群类型大体上有现实社群、虚拟社群和模拟社群三种： $\\textcircled{1}$ 现实社群。在现实社会中，社群意味着小组、团体或集体，主要形成于不同的组织背景，例如工业组织社群[37]、医疗组织社群[11]、学术社群[10]等。这类社群的协同特点是以工作任务为导向，与特定任务相联系，且有明确的目标； $\\textcircled{2}$ 虚拟社群，指建立在CMC 基础上的用户群体交互空间[58],参与者有共同的兴趣和实践活动，且交流有一定的规律性和持续性[59]，通常也称网络社群、在线社群，它是社群成员、交互信息和用户生成内容的综合； $\\textcircled{3}$ 模拟社群，既可以模拟现实社会中的各种组织社群，也可以模拟网络社群。后文仅按现实社群和虚拟社群分别阐释。"
+  },
+  "4.2成功支持CIB的社群条件": {
+    "context1": "Surowiecki在综合了各领域的理论与实证成果后，提出一个被称为“社群智慧”或“大众智慧\"的理论，论证了“大规模、多样性社群要优于单个或少数专家”的观点[60]。他提出社群成功协同的四个条件[61]： $\\textcircled{1}$ 观点多样性； $\\textcircled{2}$ 观点独立性； $\\textcircled{3}$ 去中心性； $\\textcircled{4}$ 综合性。为了保障社群综合性贡献的高质量，要满足三条基本原理[2]： $\\textcircled{1}$ 大量的贡献者和观点，例如社群规模； $\\textcircled{2}$ 意见和观点的多样性，例如维基百科的讨论页长度和页面编辑数量[60]; $\\textcircled{3}$ 综合各种观点的有效机制。他认为Wiki技术正是这样的有效机制[62]。Shah[33]在 Surowiecki[61]的基础上，总结了四点能够成功支持协同信息查寻的社群环境： $\\textcircled{1}$ 参与者拥有不同的背景和专业技能; $\\textcircled{2}$ 参与者在整个信息查寻过程中至少有一部分能独立开采信息而不受到其他人的影响; $\\textcircled{3}$ 参与者能够评价发现的信息，而不总是咨询小组其他人； $\\textcircled{4}$ 有渠道能够综合每个人的贡献以达到整体目标。"
+  },
+  "4.3CIB研究中的现实社群": {
+    "context1": "(1)工业组织社群。来自华盛顿大学、微软、波音公司的联合研究小组[37]分别对一个软件工程项目设计小组和一个航空工程项目设计小组的协同信息活动进行了调研，对比发现其信息行为在许多方面很相似：设计流程有反复，且交互性强，过程中需要持续的信息生成、信息共享以及要求反馈和确认；采用每周例会明确信息需求和查找信息的策略。此外，研究还发现，劳动分工不但没有阻碍协同，反而促进了更加有效的协作。另一项针对专利领域的协同信息检索研究发现，专利审查任务的工作流程涉及频繁细密的信息查寻和检索活动[12]。",
+    "context2": "（2）医疗组织社群。Reddy[11-36]通过对两个健康护理小组的实证研究，调查了医疗组织背景下的协同信息行为。结果发现CIB与个体信息行为在人际交流、信息需求的复杂性、信息技术的角色上有所不同，从个体信息行为到协同信息行为的转换存在触发因素，例如缺乏专业技能。由此他提出一个CIB 模型，包含行为和背景两个维度。Hertzum[41]通过使用某医疗机构的电子药物治疗记录和药物治疗事故报告，调查了协同信息查寻活动的分解现象。结果显示，CIS的分解是药物治疗事故的重要原因。研究者发现，这种活动分解是对协同基础的分解，而不是对信息查寻活动的分解。",
+    "context3": "(3)学术社群。学术社群的CIB研究包括协作研究、学术信息共享行为、学习小组的协同信息查寻等[1]。例如Hyldegard 应用信息查寻过程模型[4]对小组学习情境下的协同信息查寻行为进行了探索性分析，发现情境和社会因素会影响小组成员的物理活动以及认知和情感体验；聚焦形成阶段不仅受信息查寻过程的影响，也受小组协作时的社会性交互的影响；同时，认知体验会与小组成员的情感体验发生交互；组内成员的行为也并不一致，不能把小组看作单一个体来研究;此外，组内成员间的认知和情感体验也不一样，并非所有个体都能完成理论模型中所有阶段的情感体验[10]。"
+  },
+  "4.4CIB 研究中的虚拟社群": {
+    "context1": "通过互联网建立的个体之间的联系，被称为虚拟社群[63]，也叫在线社群[39]，这种关联结构可用社会网络来描述[57]。Web 2.0模式更加注重用户的网络交互，用户在网络上发布和分享自己感兴趣的知识，同时更期望与具有相同兴趣的其他用户进行关联、互动和协作[64]。",
+    "context2": "(1)基于隐性协同的虚拟社群。其用户彼此不知道对方，个体信息行为被记录下来并使得后面的用户受益，但前面的用户却不能从后面的用户中受益[28-29]。由此形成的虚拟社群往往不是基于用户的自愿选择，而是基于协同技术和系统的设计。故而这种社群虽然也建立在共同的兴趣之上[59],但这种兴趣是通过用户行为推演出来的，而非用户的显性表达，且缺乏群体交互空间[58],因而基于隐性协同的虚拟社群往往是协同技术开发关注的领域，而较少成为用户信息行为研究的对象。",
+    "context3": "(2)基于显性协同的虚拟社群。其形成是基于用户的自愿选择，因此社群共同的兴趣和实践活动是显性表达的，此外社群还拥有共同的交互空间。有研究人员模拟了一个在线数学学习社群,以分析其协同解决数学问题的信息行为[39]。在特定的社群背景下，参与者有各种各样的信息需求，例如与过程、问题、背景、社会性有关的信息，同时会采用各种方法去查寻信息。如何创建一个能更好地支持参与者信息活动的社群环境，如何从分析用户信息行为的角度来理解一个在线社群[39],这是很有意义的研究课题。此外，还有一些关于计算机支持的协同学习研究，主要针对在线学习社群展开[44]。这些在线社群普遍使用的交互媒介有白板、聊天室等。"
+  },
+  "5结语": {
+    "context1": "本文总结了2000年以后有关用户信息行为的研究，归纳出以下研究趋势： $\\textcircled{1}$ 从研究用户个体信息行为转向研究用户社群的协同信息行为； $\\textcircled{2}$ 从传统图书馆用户信息行为研究转向网络用户信息行为的研究； $\\textcircled{3}$ 信息行为的内涵也不再局限于传统的信息查寻、信息检索、信息浏览等行为，而是包含了更加广泛的信息生成、内容创作、信息质量控制等活动。",
+    "context2": "本研究的主要观点如下： $\\textcircled{1}$ 用户协同信息行为研究发源于传统个体信息行为研究，并逐渐成为信息系统和信息用户研究中新的热点。这一领域的兴起，一方面是信息行为研究本身的需要，另一方面是由于计算机的协同技术和协同系统的推动作用。 $\\textcircled{2}$ 协同信息行为主要包含以下类型：协同信息查寻与检索、社群信息交流、协同内容创作和协同信息质量控制。其中，社群信息交流是所有CIB的基础;协同信息查寻与检索研究成果最为丰富；而协同内容创作，尤其是协同信息质量控制的研究相对较少。可以预见，随着支持用户生成内容的CSCW 以及 $\\mathbb { W } \\mathrm { e b } 2 . 0$ 技术的发展，后两者将会成为新的研究热点。 $\\textcircled{3}$ 协同理论是协同信息行为研究的一个必要组成部分。目前对社群用户在协同系统环境下的信息活动及其情感、认知的综合研究尚很缺乏，其中一个关键问题是协同的表现和规律。此外，目前的研究较多针对同时或同地用户的协同信息行为，然而在计算机支持的社群环境下,异步、异地发生的用户协同信息行为则更为普遍。 $\\textcircled{4}$ 社群环境也是一个很重要的研究领域，尤其是如何设计和构建群体交互式虚拟社群环境，以更好地提升用户协同信息活动的效果。这些都将是今后研究人员需要努力的方向。",
+    "context3": "参考文献：   \n[1] Foster J.Collaborative information seeking and retrieval[J].Annual Review of Information Science and Technology，2006，40（1）:329-356.   \n[2] Lazinger S S，Bar-LLan J，Pertiz BC.Internet use by faculty members in various disciplines：a comparative case study[J]. Journal of the American Society for Information Science，1997（6）： 508-518.   \n[3] Wilson TD. Human information behavior[J].Informing science，2000，3（2）:49-55.   \n[4] Kuhlthau C C. Inside the search process； information seeking from the user's perspective[J].Journal of the American Society for Information Science，1991，42(5）：361-371.   \n[5] WilsonT D.Models in information behaviour research[J]．Journal of Documentation，1999，55 (3):249 -270.   \n[6] 李法运.网络用户信息检索行为研究[J].中国 图书馆学报，2003（2）：64-67.   \n[7] Case D O.Looking for information：a survey of research on information seeking，needs，and behavior[M]．San Diego：Academic Press，2002:13, 15-16.   \n[8] 沙勇忠，,任立肖．网络用户信息查寻行为研究 述评[J].图书情报工作，2005(1)：128-132.   \n[9] 褚峻,张咏，巢乃鹏.信息查寻活动中的合作行 为与合作式信息查寻[J].大学图书馆学报， 2003(4):35 -39.   \n[10] Hyldegard J.Collaborative information behaviourexploring Kuhlthau's Information Search Process model in a group-based educational setting[J]. Information Processing and Management，2006, 42(1):276-298.   \n[11] Reddy M C，Jansen BJ.A model for understanding collaborative information behavior in context：a study of two healthcare teams［J]．Information Processing and Management,2008，44（1）：256 -273.   \n[12] Hansen P，Jarvelin K.Collaborative information retrieval in an information-intensive domain[J]. Information Processing and Management，2005, 41(5)：1101-1119.   \n[13] Galegher J，Kraut R E.Computer-mediated communication for intellectual teamwork：a field experiment in group writing「C|//CSCW '90:Proceedings of the 1990 ACM conference on computer-supported cooperative work．New York，USA： ACM,1990:65 -78.   \n[14] Morris M R，Horvitz E. SearchTogether；an interface for collaborative web search[C]//UIST '07: Proceedings of the 20th Annual ACM Symposium on User Interface Software and Technology．New York，USA：ACM，2007:3-12.   \n[15] Amershi S，Morris MR.CoSearch：a system for co-located collaborative web search[C]//Proceedings of CHI 2008．Florence，Italy：ACM，2008： 1647 -1656.   \n[16] GolovchinskyG，Adcock J，Pickens J，et al.Cerchiamo：a collaborative exploratory search tool [C]．In CSCWO8．San Diego，California，USA, 2008:8 -12.   \n[17] Fernindez-Luna JM，Huete JF，Pérez-Vázquez R，et al.CIRLab：a groupware framework for collaborative information retrieval research[J].Information Processing and Management，2009（in press）.   \n[18] Stvilia B，Twidale MB，Smith LC，et al．Information quality work organization in Wikipedia[J]. Journal of the American Society for Information Science and Technology，2008，59（6）：983 -1001.   \n[19] Stvilia B,Twidale MB，Smith L C，et al.Assessing information quality of a community-based encyclopedia[C]//FNaumann，MGertz，S Mednick （ed.）．Proceedings of the International Conference on Information Quality—ICIQ 2005.Cambridge，MA：Massachusetts Institute of Technology，2005:442 -454.   \n[20] Wagner C，Prasarnphanich P.Innovating collaborative content creation：the role of Altruism and Wiki technology[C]. Proceedings of the 40th HawaiiInternationalConferenceonSystem Sciences. 2007.   \n[21] London S. Collaboration and community[OL]. [2010-01-20].http://www.scottlondon.com/reports/ppcc.html.   \n[22] Gray B.Collaborating：finding common ground for multiparty problems[M].San Francisco: JosseyBass, 1989:5.   \n[23] Chrislip D D，Larson C E.Collaborative leadership:how citizens and civic leaders can make a difference「Ml．San Francisco：Jossev-Bass, 1994: 5.   \n[24] Foley C，Smeaton A F．Division of labour and sharing of knowledge for synchronous collaborative information retrieval[J/OL].Information Processing and Management，2009(in press）．[2010-01- 10]．http://dx.doi.org/10.1016/j.ipm.2009. 10.010.   \n[25] Cole P，Nast-Cole J.A primer on group dynamics for groupware developers[G]//D.Marca G. Bock（ed.）．Groupware：software for computersupported cooperative work．Los Alamitos，CA： IEEE Computer Society Press，1992：44-57.   \n[26] Gutwin C，Greenberg S.The mechanics of collaboration：developing low cost usability evaluation methods for shared workspaces[C]． IEEE 9th International Workshops on Enabling Technologies ： Infrastructure for Collaborative Enterprises（WET ICE'00），2000,14-16.   \n[27] Golovchinsky G，Qvarfordt P，Pickens J.Collaborative information seeking[J].IEEE Computer, 2009，42(3）:47-51.   \n[28] Golovchinsky G，Pickens J，Back M.A taxonomy of collaboration in online information seeking[C]. Proceedings of the 1st International Workshop on Collaborative Information Retrieval，June 2008.   \n[29] Halvey M，ValletD，Hannah D，et al. An asynchronous collaborative search system for online video search[J].Information Processing and Management，2010(in press）.   \n[30] Morris M R，Teevan J. Understanding groups properties as a means of improving collaborative search systems[C].Proceedings of the Workshop on Collaborative Information Retrieval．Pittsburgh, PA，June 20，2008.   \n[31] Wilson ML，Schraefel M C.Evaluating collaborative information seeking interfaces with a SearchOriented Inspection Method and Re-framed Information Seeking TheoryJ].Information Processing and Management，2009（in press）.   \n[32] Fidel R，Pejtersen A M，Cleal B，et al．A multidimensional approach to the study of human-information interaction：a case study of collaborative information retrieval[J].Journal of the American Society for Information Science and Technology, 2004，55(11):939 -953.   \n[33] Shah C.Lessons and challenges for collaborative information seeking（CIS）systemsdevelopers [C].Proceedings of Collaborative Information Behavior Workshop at GROUP2009．Sanibel Island, Florida，2009.   \n[34] Poltrock S，Grudin J，Dumais S，et al． Information seeking and sharing in design teams[C]. ACM Conference on Supporting Group Work （GROUP'03）．ACM，2003.   \n[35] 任立肖.网络用户信息行为计量研究[D].兰 州：兰州大学,2006.   \n[36] Reddy M C，Spence P R. Collaborative information seeking:a field study of a multidisciplinary patient care team[J]. Information Processing and Management，2008，44（1）：242-255.   \n[37] Bruce，H，Fidel R，Pejtersen A M,et al.A comparison of the collaborative information retrieval behaviour of two design teams[J]．The New Review of Information Behaviour Research，2003，4 (1)：139-153.   \n[38] Hyldegard J.Beyond the search process-xploring group members’information behavior in context [J]． Information Processing and Management, 2009，45(1)：142-158.   \n[39] Zhou N，Stahl G．Towards building a math discourse community：investigating collaborative information behavior[G]//SCHULER D（ed.）. Online Communities and Social Computing，HCII 2007，LNCS 4564，2007： 509-518.   \n[40] Pargman TC.Collaborating with writing tools：an instrumental perspective on the problem of computer-supported collaborative activities［J]．Interacting with Computers，2003，15(6）：737-757.   \n[41] Hertzum M.Breakdowns in collaborative information seeking:a study of the medication process[J/ OL]．Information Processing and Management, 2009（in press）.[2010-01-10].http://dx.doi. org/10.1016/j.ipm.2009.10.005.   \n[42] Reddy M，Jansen B J.Learning about potential users of collaborative information retrieval systems [C]．Proceedings of the Workshop on Collaborative Information Retrieval，Pittsburgh，PA，June 20，2008.   \n[43] Wildemuth BM. Effective methods for studying information seeking and use[J]. Journal of the American Society for Information Science and Technology，2002，53（14）：1218-1222.   \n[44] Cakir M P，Stahl G.Collaborative information behavior of virtual math teams in a multimodal online"
+  }
+}

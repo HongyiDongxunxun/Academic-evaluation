@@ -1,0 +1,175 @@
+{
+  "original_filename": "full_10065.md",
+  "雪冰科学数据中心数据管理与共享政策现状及启示": "",
+  "■李广1,2.3 宁宝英1.2.3 吴新年1.2.3": {
+    "context1": "‘中国科学院西北生态环境资源研究院兰州730000  \n² 甘肃省知识计算与决策智能重点实验室兰州 730000  \n中国科学院大学经济与管理学院信息资源管理系北京100049",
+    "context2": "摘要：[目的/意义]通过对比分析全球国家级雪冰科学数据中心的数据管理与共享政策，为我国雪冰科学数据中心的建设提供有针对性的启示。[方法／过程]以re3data科学数据库注册中心的国家级雪冰科学数据中心为研究对象，从数据中心数据管理与共享政策的外部特征和内容特点出发，对比国内外雪冰科学数据管理与共享政策。",
+    "context3": "[结果/结论]不同国家对于雪冰科学数据管理与共享政策的重视程度各有不同，具有重视数据发布和访问、轻视数据归档的特点。国内雪冰科学数据中心的建设或可在以下方面加强：细化数据存储和归档政策的制定与实施；兼顾数据的共享与安全；优化数据政策的发布与传播；加强技术支撑与产品创新。",
+    "context4": "关键词：科学数据数据政策科学数据中心雪冰数据  \n分类号：G259.2  \nCSTR: 32305.14.CN11-1541.2024.20.005  \nDOI: 10.13266/j.issn.0252-3116.2024.20.005",
+    "context5": "引用本文：李广，宁宝英，吴新年.雪冰科学数据中心数据管理与共享政策现状及启示[J].图书情报工作,2024,68(20): 50-60. (Citation: Li Guang, Ning Baoying, Wu Xinnian.Status and Enlightenment of Data Management and Sharing Policy in Snow and Ice Science Data Center[J]. Library and Information Service,2024, 68(20): 50-60.)"
+  },
+  "1引言 /Introduction": {
+    "context1": "随着全球气候变暖，雪冰融化加速已经成为国际社会关注的焦点，关系到全球全人类的共同生存与发展。雪冰的主要分布地域为南北极和青藏高原，这使得雪冰科学数据相较于常规科学数据的获取成本更高，更加迫切地需要在全球范围内进行管理与共享。雪冰数据对于水资源的全球管理和可持续利用具有举足轻重的指示意义，并且在全球尺度上，综合性的雪冰科学数据对于整体性、系统性地反演、揭示和预测气候变化，具有难以替代的作用。随着科学数据需求的日益增加[]，科学研究已进入数据密集型科学的“第四范式”[2]，雪冰科学数据在战略、经济、科研等方面的价值不断提升，与之相关的北极自然科学研究表现出全球尺度的大数据支持、模型运算为主的显著特点，这使得雪冰科学数据的管理和共享有更现实的需求和更深远的意义[3-4]。因此，深入研究并制定一套完善的雪冰科学数据管理与共享政策，不仅对于探索科学数据的管理与共享模式具有借鉴意义，而且对于促进全球气候变化研究的发展具有重要的战略价值。",
+    "context2": "近年来，为了促进科学数据的管理与共享，各国政府和机构都研究并制定了相应的科学数据管理政策。2018年3月，我国国务院办公厅办出台了《科学数据管理办法》[5]等有关科学数据管理的指导性文件，以进一步加强和规范我国科学数据管理工作[6]。2019年2月，中国科学院印发《中国科学院科学数据管理与开放共享办法（试行）》，以保障科学数据安全。2019年9月，国际科学理事会下属的数据委员会（Committee on Data of the International ScienceCouncil，CODATA）在北京召开会议，讨论当前国际数据政策问题，并制定了一套适应新开放科学范式的数据政策TheBeijingDeclarationonResearchData[7（《北京科学数据宣言》）。2022年11月30日，美国白宫发布指导文件，将美国国家雪冰科学数据中心（National Snow and Ice Data Center，NSIDC）",
+    "context3": "启动的北极地方观测和知识交流（Exchange forLocalObservations and Knowledge of the Arctic，ELOKA）计划确定为数据管理的成功典范[8]。早在 2012年,德国柏林图书情报学院、德国卡尔斯鲁厄理工学院图书馆和德国地球科学研究中心联合建设了一个全球性的科学数据库注册中心re3data9。它目前已涵盖4个一级学科（人文社会科学、生命科学、自然科学和工程科学）、14个二级学科和48个三级学科的超过3000个数据中心，被权威出版、研究和基金机构作为数据存储库工具[10]。全球越来越多的学者开始关注科学数据的管理问题，国内外学者对于如何构建科学数据管理政策分析框架有不少研究，多数研究基于数据生命周期[1I-16] 的角度对政策文本进行解读，认为科学数据管理政策内容应该涵盖数据从产生到销毁的全过程（数据创建、数据存储、数据发布、数据访问、数据重用和数据归档）[11] 的各个阶段。于会萍和宛玲[7]以及王辉和M.Wit[18]从宏观角度入手，揭示出科研数据仓储的管理在学科间的差异。有学者[19-26]从学科或国别角度出发，研究医学、海洋或地球科学领域的数据中心建设特点及经验，并针对我国面临的挑战提出建议。这些研究对国内外不同领域的科学数据中心进行了调查和分析，对我国科学数据中心的发展和管理提供了重要参考，但存在两点不足：对雪冰科学数据在不同国家的数据管理政策的对比研究较少；对政策内容特点与政策外部特征相结合的探索较少。本研究通过相对完善的科学数据管理政策分析框架，对比分析国内外雪冰科学数据中心的政策，为雪冰科学领域提供了一个有针对性的研究案例，从而为我国雪冰科学数据的规范化管理和高效利用提供参考。"
+  },
+  "数据来源和分析方法/Data sourcesand analysis methods": {
+    "context1": "本研究通过网络调研，首先在re3data平台[]中检索到（截至2023年2月21日）全球共有3093个科学数据中心在此注册，其中雪冰科学数据中心有59个，包含7个（去除分中心）国家级雪冰科学数据中心。然后通过浏览注册的政策链接获得6个雪冰科学数据中心的管理政策的文本内容，通过浏览注册的官网链接（无注册的政策链接时）获取1个。最后结合数据生命周期模型与定量统计分析，对获取的政策数据进行分析。"
+  },
+  "2.1政策数据来源": {
+    "context1": "本研究的科学数据政策相关元数据来源于re-3data 科学数据库注册中心，于2023年2月11日通过re3data的API输人检索式“national $^ +$ snow 丨ice |glacier 丨cryosphere $^ +$ “datacenter””来获取所需的数据仓库的 $\\mathrm { x m l }$ 格式的元数据索引，如图1所示：",
+    "context2": "![](images/f65612c4245685369e82d177fdb3156a6028b2bf055895eb555d0356844bd610.jpg)  \n图1re3data 接口返回的 $\\mathbf { x m l }$ 格式元数据索引示例  \nFigure 1 Example of metadata index in xml returned by re3data API",
+    "context3": "通过采集xml索引中的link字段，得到25条数据，经过人工检查，去除过期、重复和非国家级数据中心后得到7条有效数据，以csv格式储存为雪冰元数据集，见表1。",
+    "context4": "国外共有6个雪冰科学数据中心，国内有 Na-tional CryosphereDesertData Center（国家冰川冻土沙漠科学数据中心）。表1存储了数据中心相关的元数据[10]，有超过40个元数据属性，包括数据中心的网址、简介、关键字、内容类型、录入时间、管理机构（包括名称、类型、国家等）和数据政策等。"
+  },
+  "2.2政策分析方法": "",
+  "2.2.1定量统计分析": {
+    "context1": "对每个雪冰科学数据中心的元数据信息进行数据抽取，提取出数据中心名称、国家、管理机构、数据内容分布、数据共享技术、数据访问许可、数据管理政策等相关信息。通过图表的形式，对比分析这些元数据信息，反映出数据中心的基本特征和差异。"
+  },
+  "表1雪冰元数据集": {
+    "context1": "Table1 Snow ice metadata set",
+    "context2": "<table><tr><td>序号/简称*</td><td>名称</td><td>国家</td><td>描述</td><td>DOI</td></tr><tr><td>1/NSIDC</td><td>National Snow and Ice Data Center（国家雪冰科学数 据中心）</td><td>美国</td><td>NSIDC提供数百个科学数据集用于研究，重点关注冰冻圈及其相互作用。https://doi. 数据来自卫星和实地观测。所有数据均免费</td><td>org/10.17616/ R3HP4V</td></tr><tr><td>2/WDCGC</td><td>World Data Centre for Glaciology, Cambridge（剑 桥世界冰川学数据中心）</td><td>英国</td><td>WDCGC 的收藏一直保存在斯科特极地研究所图书馆中，直至2014年。 这些收藏包括了全球冰雪领域极为全面的出版物。自1920 年起，斯科 特极地研究所就开始系统地收集和编目冰川学文献，建立了包含世界上 最全面的极地地区历史照片的 SPRI图片库</td><td>https://doi. org/10.17616/ R3CC9D</td></tr><tr><td>3/NCDC</td><td>National Cryosphere Desert中国 Data Center（国家冰川冻 土沙漠科学数据中心）</td><td></td><td>NCDC 成立于2019年，以中国科学院西北生态环境资源研究院为依托 单位形成了由7个研究实验室和3个研究体系组成的科研支撑体系，突 出了寒区干旱地区冰川、冻土、荒漠、大气、水土、生态、环境、资源、R31NJN3U 工程和可持续发展等研究特色</td><td>https://doi. org/10.17616/</td></tr><tr><td>4/NIPR</td><td>National Institute of Polar Research Science Database （国家极地研究所科学数 据库)</td><td>日本</td><td>NIPR 管理着日本极地研究的科学数据库及其他相关存储库。这些数 据库不仅包括所有日本南极研究考察（JARE）的数据，还有日本对 2007—2008 年国际极地年（IPY）的贡献。元数据以英语和日语提供， 并与 Global Change Master Directory 共享</td><td>https://doi. org/10.17616/ R36K8J</td></tr><tr><td>5/ICDC</td><td>Integrated Climate Data Center（综合气候数据中 心）</td><td>德国</td><td>ICDC 提供了便捷的途径，让用户可以轻松访问来自卫星遥感、原位观 测以及地球系统科学其他测量手段的气候相关数据。此外，ICDC还提 供了基于观测数据建模的再分析数据，并与“Zentrum fur Nachhaltiges Forschungsdatenmanagement”合作，发布带有DOI的观测数据</td><td>https://doi. org/10.17616/ R39S3N</td></tr><tr><td>6/NCEI</td><td>NOAA National Centers for美国 Environmental Information - Paleoclimatology Data(国 家环境信息中心）</td><td></td><td>含有树木年轮、冰芯、珊瑚以及海洋和湖泊沉积物等古气候学数据。这 些数据包括地球物理或生物测量的时间序列，以及温度和降水等重建的 气候变量。NCEI提供这些古气候学数据和信息，帮助科学家理解自然 气候的变异性和预测未来气候变化，同时还管理着世界古气候学数据中</td><td>https://doi. org/10.17616/ R38882</td></tr><tr><td>7/USAP-DC1</td><td>U.S.Antarctic Program Data 美国 Center（美国南极计划数 据中心）</td><td></td><td>心，负责归档和分发全球科学家提供的数据 USAP-DC为美国国家科学基金会资助的美国南极计划项目提供中央项 目目录，并为这些项目产生的多学科研究数据集提供数据存储库。其服 务支持研究人员记录、保存和分享他们的研究成果。所有数据均向国际 社会开放，以便用户可以浏览、搜索和下载。这些数据集已在南极主目</td><td>https://doi. org/10.17616/ R31898</td></tr></table>",
+    "context3": "注：表格按数据中心在re3data 中的权重排序（下文表格同）；后续正文中用英文简称代替名称；DOI字段为数据中心的数字对象唯一标识符"
+  },
+  "2.2.2 数据生命周期模型": {
+    "context1": "使用数据生命周期（数据创建、数据存储、数据发布、数据访问、数据重用和数据归档）模型作为分析框架，并在其基础上与定量统计分析相结合，构建相对完善的科学数据管理政策分析框架。详情如图2所示：",
+    "context2": "![](images/b327f0b231c0a0766ed55a034110853e6e96be01f99f4020badd6730636c20b5.jpg)  \n图2政策分析框架  \nFigure 2 Framework for policy analysis"
+  },
+  "3 结果与讨论 /Result and discussion": "",
+  "3.1　政策外部特征": "",
+  "3.1.1 一般外部特征": {
+    "context1": "在所属国家方面，美国是雪冰科学数据中心建设的主要力量（有3个），反映了美国在雪冰科学研究中的重要地位和对雪冰科学数据的重视。可能是由于其在极地研究和气候科学中的长期利益，以及对高质量数据的需求来支持决策和政策制定；在管理机构方面，NSIDC的管理机构最多（6个），意味着它在组织结构和资源分配方面更为复杂。NIPR 和ICDC 的管理机构最少（1个），表明它们运作更为集中，决策和管理可能更为高效；在类型分布方面，数据中心提供的数据类型（根据PARSE.Insight[27]项目定义的15种数据类型)在4—7种之间,且所有数据中心都提供了图片类型的数据，说明了视觉数据在雪冰科学研究中的重要性。其中ICDC提供的数据类型最多，表明它在数据服务方面更为全面，能够满足更广泛的研究需求；在时间分布方面，ICDC注册最早，且数据更新最快（见图3），NCDC注册最晚（2022年2月22日），且在两日后再无数据更新。这反映出ICDC较为重视对科学数据注册中心的运用，相比之下，NCDC 对其的使用则显得较为有限；在数据共享技术方面，FTP接口方式使用频次最多（见图4），已标明标识方式的数据中心都使用了DOI标识符系统作为永久标识方式（见图5）。FTP接口的广泛使用反映了它的稳定性和可靠性，尽管它是一种较老的技术。同时，所有标明标识方式的数据中心都使用DOI标识符系统，说明在雪冰数据管理与共享中确保数据可追溯性和永久可访问性的重要性。",
+    "context2": "![](images/caa321687bb6b8662c9608f544077ea3702ed66cdf5cc51f91140f21f00b3b4b.jpg)  \n图3数据注册和更新时间",
+    "context3": "![](images/b7523618c8c0e3ea834d9e91a62740cd2e1e9923201de2fdd5137bd683438c55.jpg)  \nFigure 3 Data registration and update time   \n图4应用程序接口方式",
+    "context4": "![](images/e8c993f5d4706dc08d43e5a3af096134235da4a1e5ff07a8ce10ae9840f715c5.jpg)  \nFigure 4 API method   \n图5　永久标识方式  \nFigure5 Permanent marking method",
+    "context5": "通过外部特征分析可以看出，雪冰科学数据中心的建设和管理政策在不同国家和机构中存在显著差异，这些差异受到各自国家科研政策、资金支持、技术发展和研究需求的影响。未来可利用新兴技术来提高数据共享和利用的效率，进而提高数据共享水平。"
+  },
+  "3.1.2数据访问许可": {
+    "context1": "如果数据中心要求用户支付费用或通过其他限制，才能够访问仓储库、使用和提交科学数据，会在re3data中被标记为“受限”，否则标记为“开放”，如表2所示：",
+    "context2": "表2数据访问许可  \nTable 2Data access permissions",
+    "context3": "<table><tr><td>许可类型</td><td>数据中心</td></tr><tr><td>开放</td><td>USAP-DC</td></tr><tr><td rowspan=\"3\">开放；受限（注册）</td><td>WDCGC</td></tr><tr><td>NIPR</td></tr><tr><td>ICDC</td></tr><tr><td>开放；受限（会员、注册、其他）</td><td>NSIDC</td></tr><tr><td>开放；受限（收费）</td><td>NCEI</td></tr><tr><td>受限（其他）</td><td>NCDC</td></tr></table>",
+    "context4": "USAP-DC的数据访问最为开放，无明显数据访问限制，NCDC的数据访问最为封闭，仅能受限（其他）访问。其他雪冰科学数据中心的部分数据的受限情况为：NSIDC（会员、注册、其他）、WDCGC（注册）、NIPR（注册）、ICDC（注册）、NCEI（收费）。USAP-DC的开放数据访问政策会促进国际的雪冰科学数据的共享和协作。相比之下，NCDC的数据访问限制较多，保护了数据安全，但也一定程度上限制了数据的共享，特别是对于那些没有足够资源或满足其他访问条件的研究者和机构。NSIDC 和NCEI提供了开放和受限的混合模式，即平衡了数据保护，也促进数据共享的方法。例如，NCEI收取费用可能是为了维持数据仓库的运营成本。",
+    "context5": "总的来说，数据访问许可的不同模式反映了数据中心在促进数据共享与保护数据安全之间的权衡。数据访问的开放共享对雪冰科学研究的发展至关重要，如何在保护数据的同时，降低访问门槛，以促进雪冰科学数据的全球共享，需要对数据管理和共享政策进",
+    "context6": "行更详细的研究。"
+  },
+  "3.1.3 数据政策": {
+    "context1": "部分科学数据中心在re3data 中注册了其数据管理与共享政策类型，提供数据管理和共享的相关信息，如表3所示："
+  },
+  "表3数据管理与共享政策": {
+    "context1": "Table3 Data management and sharing policy",
+    "context2": "<table><tr><td>名称</td><td>政策</td><td>数量/ 个</td></tr><tr><td></td><td>NSIDCCore Trustworthy Data Repository Requirements[28] Data Policies[29]</td><td>2</td></tr><tr><td></td><td>WDCGC The Thomas HManning Polar Archives and SPRI Picture Library Access Policy[30]</td><td>1</td></tr><tr><td>NCDC</td><td></td><td>0</td></tr><tr><td>NIPR</td><td>Guidelines for data management,Polar Data Center[31] International Polar Year 2007-2008DataPolicy[32] Ethics and Norms toFollow WhenUsing PIC33] Terms of Use[34]</td><td>4</td></tr><tr><td>ICDC</td><td>ICDC Data management[35]</td><td>1</td></tr><tr><td>NCEI</td><td>NCEI Archive Collecting Policy[36]</td><td>1</td></tr><tr><td>USAP- DC</td><td>Dear Colleague Letter: Data Management and Data Reporting Requirements forResearchAwards Supported by the Offce of Polar Programs ARCHIVED[37]</td><td>2</td></tr></table>"
+  },
+  "数据管理与共享政策的数量可以反映出数据中": {
+    "context1": "心对数据质量和共享的重视程度，一个健全的数据管理政策框架可以提高数据的可用性和可信度。NIPR声明了4条数据管理政策，展示了其对数据管理和共享的全面和严格。NCDC未声明任何数据管理和共享政策，这表明它在数据管理和共享方面的透明度较低，缺乏明确的政策可能会导致数据管理和共享的不一致性和标准化问题。"
+  },
+  "3.2政策内容特点": {
+    "context1": "本研究基于表3中的政策链接（若无注册的政策链接，则通过注册的官网链接查找相关内容），详细阅读了雪冰科学数据中心在各个数据生命周期的数据管理与共享政策。"
+  },
+  "3.2.1 数据创建": {
+    "context1": "数据创建是数据生命周期中至关重要的第一步，涉及原始数据的生成、收集和初步处理。在这个阶段，数据的质量和完整性对后续的数据管理和使用有着决定性的影响。因此，各个数据中心对于数据创建的政策规定反映了它们对数据质量的重视程度和管理的严格性。各数据中心的数据创建政策如表4所示："
+  },
+  "表4数据创建政策": {
+    "context1": "Table 4 Data creation policy",
+    "context2": "<table><tr><td>名称</td><td>内容</td></tr><tr><td>NSIDC</td><td>数据中心会提取数据文件、元数据文件及辅助文件，根据产品交付记录验证数据，存档至磁带备份</td></tr><tr><td>NCDC</td><td>需要提交汇交计划和质量报告，以证明在体量、质量上达到管理方的要求；需要按照《科技计划项目科学数据汇交工作方案（试行）》 的要求，对数据进行规范化加工，辅以元数据等描述信息；个人用户创建的数据需要进行技术审核和科学评审</td></tr><tr><td>NIPR</td><td>根据ISO标准《开放式档案信息系统参考模型》（CCSDS 2002），确保数据具有管理所需的所有信息</td></tr><tr><td>ICDC</td><td>数据集在ICDC创建之前，都需要经过数据中心的研究人员仔细的质量检查；数据中心还积极参与对地球观测数据产品的评价和验证</td></tr><tr><td>USAP-DC</td><td>所有提交的数据必须附有一份数据管理计划，说明项目如何提供开放的、快速访问的、质量受控的和完整记录的数据</td></tr></table>",
+    "context3": "注：WDCGC和NCEI未明确相关政策",
+    "context4": "多数数据中心都强调了数据质量的重要性。例如，NSIDC会验证数据文件，而ICDC则会进行质量检查。元数据在数据管理中较为关键，NSID 和CNCDC都要求提供详细的元数据来描述数据集。USAP-DC特别要求提交数据管理计划，这不仅涉及数据的质量，还包括数据的开放访问和完整记录。NCDC要求数据必须按照特定的科技计划项目标准进行规范化加工，这显示了对数据处理过程的严格规范。NIPR依据ISO标准来确保数据管理的完整性，这表明了其对国际标准的遵循。",
+    "context5": "数据创建政策重点关注： $\\textcircled{1}$ 数据创建的标准化：采用统一的数据创建标准，如ISO标准，以确保数据的一致性和互操作性，进而促进雪冰科学数据的全球尺度的跨中心共享和再利用； $\\textcircled{2}$ 数据质量的透明度：提供明确的数据质量控制流程和标准，包括数据的采集、处理、验证和发布的每个阶段的质量指标和检查列表； $\\textcircled{3}$ 责任机制的明确化：对于数据的创建，应建立明确的责任机制，包括数据提交者、数据中心和最终用户的责任和义务； $\\textcircled{4}$ 技术和科学评审的强化：强调技术审核和科学评审的重要性，确保数据的科学有效性和技术可靠性。"
+  },
+  "3.2.2 数据存储": {
+    "context1": "数据中心在数据存储阶段将采集到的原始数据或处理后的数据保存在某种介质或设备上，相关数据存储政策见表5。",
+    "context2": "多数数据中心都实施了数据备份措施。例如，NSIDC至少有两个数据副本，ICDC则定期进行数据驱动器的备份。数据中心通常指定专门的人员或团队来负责数据的存储和保管，如NIPR的数据保管人"
+  },
+  "表5　数据存储政策": {
+    "context1": "Table 5 Data storage policy",
+    "context2": "<table><tr><td>名称</td><td>内容</td></tr><tr><td>NSIDC</td><td>数据中心的数据存储系统在受监控的机房中全天候运行， 并配备备用电源和主动系统监控；所有数据至少两个副本， 部分数据有第三个副本存储在异地数据中心；数据中心内</td></tr><tr><td></td><td>的每个程序都是保存级的和跨中心的 WDCGC有专门的研究人员进行存档和图片库维护；在处理某些物 品时不能直接用手接触而要佩戴手套，并在处理后保持原</td></tr><tr><td>NIPR</td><td>来的位置和顺序 有特定的数据保管人对数据存储负责</td></tr><tr><td>ICDC</td><td>数据集由数据中心保存于CEN网络中，并有数据镜像； 用于数据存储的所有驱动器都定期备份，备份保留3个月</td></tr><tr><td>NCEI</td><td>数据中心签署了存档和管理数据的协议，并保存数据记录</td></tr></table>",
+    "context3": "注：NCDC 和 USAP-DC 未明确相关政策",
+    "context4": "和WDCGC的研究人员。NSIDC的数据存储系统不仅全天候运行，还配备了备用电源和主动系统监控，这显示了其对数据安全性的高度重视。WDCGC采取了特别的物理保护措施，因为数据中存在一定量的老旧实体相片。",
+    "context5": "数据存储政策重点关注： $\\textcircled{1}$ 数据存储的冗余性与多样性：在不同地理位置存储多个数据副本，以及将数字数据的存储与物理存储相结合； $\\textcircled{2}$ 备份策略和恢复计划的制定：实施定期的数据备份和更新计划，以应对数据丢失的风险； $\\textcircled{3}$ 存档和管理数据的正式协议：签署明确数据存储的规则和责任的协议。"
+  },
+  "3.2.3数据发布": {
+    "context1": "在数据发布阶段，数据中心会对采集到的原始数据或存储后的数据进行清洗、转换、整合、分析等操作后进行发布。各数据中心的数据发布政策如表6所示："
+  },
+  "表6数据发布政策": {
+    "context1": "Table 6 Data release policy",
+    "context2": "<table><tr><td>名称</td><td>内容</td></tr><tr><td>NSIDC</td><td>数据中心管理团队评估基金机构提交的所有数据，以确保数 据文件的质量和可用性；数据中心使用两套数据管理系统来 清点数据，并使用校验技术来确保数据文件的完整性</td></tr><tr><td>NCDC</td><td>科学数据管理方负责保障科学数据安全，经由科技计划项目 管理方审批后对外公布科学数据及目录</td></tr><tr><td>NIPR</td><td>数据保管人必须创建元数据表（目录交换格式：DIF），且 数据表必须同时包含英语和日语</td></tr><tr><td>ICDC</td><td>数据使用CreativeCommons许可证发布；数据中心可以在 发布之前先向科学家提出如何处理数据和确定所需元数据的 建议，再将文件和元数据输入系统</td></tr><tr><td>NCEI</td><td>数据中心会直接补充元数据，包括NCEI产生的数据、元数 据和产品（及其输入）</td></tr></table>",
+    "context3": "注：WDCGC 和USAP-DC 未明确相关政策",
+    "context4": "NSIDC和NCDC 强调了对数据文件的质量和可用性进行评估的重要性。元数据在数据发布阶段也十分重要，NIPR、ICDC 和NCEI都在其政策中提到了元数据的使用。NCDC 的规定最为严格和专业，发布数据需要经过科技计划项目管理方的审批。NIPR特别提到了数据表必须同时包含英语和日语，这反映了其对国际化和多语言支持的重视。ICDC使用Cre-ative Commons许可证发布数据，促进了数据的开放性和共享性。NCEI会直接补充元数据，这可能意味着其有一个更为直接和集成的元数据管理流程。",
+    "context5": "数据发布政策重点关注： $\\textcircled{1}$ 数据质量和可用性的评估：由专人评估预发布的数据，通过发布许可证确保数据在发布后用户即可使用； $\\textcircled{2}$ 数据安全和审批流程：建立类似的审批流程，确保数据的安全性和合规性； $\\textcircled{3}$ 元数据的补充和多语言支持：补充完整的元数据，以提高数据的描述性和可检索性。同时提供多语言元数据，以便于不同语言用户的访问和理解，有助于数据的全球共享。"
+  },
+  "3.2.4数据访问": {
+    "context1": "数据访问是指将数据从一个地点或设备传送到另一个地点或设备。各数据中心的数据访问政策如表7所示："
+  },
+  "表7数据访问政策": {
+    "context1": "Table7 Data access policy",
+    "context2": "<table><tr><td>名称</td><td>内容</td></tr><tr><td>NSIDC</td><td>数据中心提供高级跨中心科学数据搜索，可访问数据，也 支持 API编程访问；实验室提供实验性、概念验证工具服 务；数据中心已注册为研究数据库注册表（R3）的一部分， 方便进一步访问；大部分数据（除北极地方观测和知识交 换所）免费向公众开放</td></tr><tr><td></td><td>WDCGC通过预约现场访问政策；工作人员会在十个工作日内回复 远程访问；违反管理条例可能会被禁止访问</td></tr><tr><td>NCDC</td><td>根据开放条件、开放对象和审核程序，在“开放为常态， 不开放为例外”的原则下，向社会开放共享科学数据；建 立运营科学数据共享系统，提供数据快速发现、访问、下 载和在线分析利用等服务</td></tr><tr><td>ICDC</td><td>可通过多种传输方式获取文件；通过用户组权限账号限制 访问方式，也可以向数据中心提交权限申请</td></tr><tr><td>USAP- DC</td><td>要求元数据文件、完整数据集和衍生数据产品必须存放在 长期且可公开访问的档案中；任何此类访问限制的变更均 需获得项目官员的批准并记录</td></tr></table>",
+    "context3": "注：NIPR 和NCEI未明确相关政策",
+    "context4": "NSIDC和ICDC使用了不同类型的传输协议来传输数据，NSIDC提供了跨中心科学数据搜索和API编程访问，ICDC则允许通过多种传输方式获取文件。NSIDC 还提供了一些创新型的工具来方便用户访问数据。多数数据中心都对的数据访问进行限制与审批，WDCGC通过预约现场访问政策，US-AP-DC的访问限制变更需要项目官员的批准，ICDC通过用户组权限账号限制访问方式，WDCGC明确说明了违反管理规定会导致访问权限的撤销。",
+    "context5": "数据访问政策重点关注： $\\textcircled{1}$ 数据访问工具和系统：建立科学数据共享访问系统，提供多元化的数据传输方式，同时增加数据的可访问性。强化数据搜索工具创新，实现数据的快速发现和利用； $\\textcircled{2}$ 访问权限管理：建立权限管理和申请流程，确保数据的安全性和合规性，同时保证数据的持久性和透明性;$\\textcircled{3}$ 违规处理机制：建立明确和规范的数据访问违规处理机制，以维护数据访问的秩序和安全。"
+  },
+  "3.2.5 数据重用": {
+    "context1": "在数据重用阶段，数据中心将数据与其他机构或个人共享或交换。各数据中心的数据重用政策如表7所示："
+  },
+  "表8数据重用政策": {
+    "context1": "Table 8 Data reuse policy",
+    "context2": "<table><tr><td>名称</td><td>内容</td></tr><tr><td>NSIDC</td><td>数据中心为所有数据集分配数字对象标识符（DOI）；用 户可以通过“引用这些数据”按钮引用数据</td></tr><tr><td>WDCGC</td><td>复印收藏中的档案项目（如纸质实体、照片等)时，需付费; 复制图片时需与管理员联系：私人和非商业研究人员需付 费并同意版权声明，出版和商业用途需获得许可并签署协 议</td></tr><tr><td>NCDC</td><td>数据中心为已发布的汇交数据集赋予永久唯一标识；资源 使用者需规范标注和引用，明确注明资源来源和作者</td></tr><tr><td>NIPR</td><td>用户应引用数据作者和来源，遵守数据伦理政策</td></tr></table>",
+    "context3": "注：ICDC、NCEI和USAP-DC 未明确相关政策",
+    "context4": "NSIDC和NCDC为数据集分配了唯一的标识符，如数字对象标识符(DOI),以便于数据的追踪和引用。NCDC和NIPR要求用户在使用数据时规范地标注和引用，包括注明资源来源和作者。NSIDC特别关注了引用便利性，提供了一个“引用”按钮，使用户能够更容易地引用数据。WDCGC对私人和非商业研究人员以及出版和商业用途有不同的费用和许可要求。NIPR强调用户应遵守数据伦理政策，这可能涉及数据的合理使用和知识产权的尊重。",
+    "context5": "数据重用政策重点关注： $\\textcircled{1}$ 引用规范与知识产权：数据中心提供详细的引用规范，并明确数据的版权归属以及用户在使用数据时需要遵守的知识产权规定； $\\textcircled{2}$ 数据使用限制：制定和公布数据使用的伦理政策，限制数据的商业使用，保护数据中心和数据提供者的权益； $\\textcircled{3}$ 数据的可追溯性：提供记录数据的使用情况和引用历史的机制，使数据的来源和使用情况可以追踪。"
+  },
+  "3.2.6数据归档": {
+    "context1": "数据归档是将不再活跃或已达到其生命周期末端的数据销毁或转移至长期存储系统，以优化数据库的运行效率，减少存储资源的开销。7个中心中仅ICDC有明确的数据归档相关内容：不需要的数据会被移至数据中心存档，并在一段合理时间后删除，对于长期保存在其他地方的数据也使用相同的处理程序；数据中心数据存储的所有驱动器都定期备份，备份在保留3个月后销毁。",
+    "context2": "数据归档可以有效防止数据滥用和泄露，但其他数据中心对此环节并不重视。ICDC 的政策提供了一个关于数据归档和备份的良好实践示例，这些措施有助于确保数据的完整性和安全性，同时也考虑了数据存储资源的有效利用，对其他数据中心的政策制定有借鉴意义。",
+    "context3": "数据归档政策重点关注： $\\textcircled{1}$ 数据存储期限：明确不同类型数据的存储期限，以及何时应将数据移至长期存档或进行销毁。 $\\textcircled{2}$ 数据销毁流程：制定严格的数据销毁流程，确保数据在销毁时不会被滥用或泄露。",
+    "context4": "在数据生命周期的各个阶段，管理与共享政策呈现出重视数据发布和访问、轻视数据归档的特点。在数据创建阶段，多数数据中心都要求用户提供元数据以描述数据，并对数据进行质量审查，但WDCGC和NCEI未明确相关政策；在数据存储阶段，除WDCGC、NCDC 和USAP-DC外的数据中心都采用不同的备份策略；在数据发布阶段，大多数数据中心都要求用户提交元数据或自己补充元数据以供发布，但部分数据中心（WDCGC 和USAP-DC）没有相关政策；在数据访问阶段，大多数数据中心（除去NIPR和NCEI）都说明了在线查询和下载数据的方式，少数数据中心要求用户进行身份认证和权限申请；在数据重用阶段，已明确政策的数据中心都要求用户遵守使用规范或协议即可使用，只有WDCGC的部分数据需要付费；在数据归档阶段，只有ICDC有明确的数据归档相关内容。但数据归档不仅仅指删除数据，数据中心在制定相关策略时，也要考虑数据降级、移动等操作的记录。数据归档阶段在制定策略时是不可忽视的，虽然一旦数据被归档，它将不再经常被访问或使用，但仍然需要被存储和管理以在数据不冗余的基础上，确保其安全性、可用性和完整性。建议在制定相关策略时，考虑数据的保留期限、销毁方式、销毁记录等内容，以防止数据的冗余、丢失和泄露。"
+  },
+  "3.3各国政策对比": {
+    "context1": "对比分析全球范围内国家级雪冰科学数据中心的政策外部和内容特征，可以发现各国在数据管理与共享方面展现出了不同的优势、不足与特点，如表9所示："
+  },
+  "表9各国政策对比": {
+    "context1": "Table 9 Comparison of national policies",
+    "context2": "<table><tr><td>国家</td><td>数据中心</td><td>优势</td><td>不足</td><td>管理特点</td><td>共享特点</td></tr><tr><td>美国</td><td>NSIDC</td><td>数据存储方式高效且完善；专 门团队负责数据发布评估；创 新的数据访问工具可用；支持 -键引用数据功能 一</td><td>部分数据访问受限（会员、注册、 其他）；缺少数据归档政策</td><td>拥有3个国家级数据中心，但只有 一个是重点管理和建设的；其余中 心的管理政策缺失严重，仅涉及两 个生命周期；重点建设的数据中心</td><td>重点建设的数据中心 的共享程度最高；其 他数据中心的部分数 据共享受限（会员、</td></tr><tr><td></td><td>NCEI</td><td>前数据中心会直接补充元数据</td><td>需签署存档数据协议；数据发布部分数据访问受限（收费）；缺少 数据创建、访问、重用和归档政策</td><td>有6个管理机构，其管理政策涉及 的数据生命周期最全面，只缺少归 档</td><td>注册、收费等）</td></tr><tr><td></td><td>USAP-DC</td><td>数据完全开放共享；要求数据 长期公开访问</td><td>缺少数据访问、发布、重用和归档 政策</td><td>具有违规管理规定，明确说明了违</td><td>共享程度较低，部分</td></tr><tr><td>英国 中国</td><td>WDCGC</td><td>对老旧实体相片数据有特别的 存储方式；建立明确的数据访 问违规处理机制 建立了数据创建的多方责任机</td><td>部分数据访问受限（注册、付费）； 缺少数据创建、发布和归档政策 在注册中心的数据更新少；未集中</td><td>反管理规定会导致访问权限的撤 销，以维护数据访问的秩序和安全 对数据质量管理极为严格，建立了</td><td>数据共享受限（注册、 付费） 共享程度最低，所有</td></tr><tr><td></td><td>NCDC</td><td>制；数据发布阶段的规定最为 严谨和专业；支持按多种标准 为数据赋予永久唯一标识</td><td>公布政策；所有数据访问受限（其 他）；缺少数据存储和归档政策</td><td>全面的责任机制和审批流程；政策 公布不足，主要散布在官网；国际 数据注册中心使用有限，注册较晚 且更新不及时</td><td>数据共享受限(其他）</td></tr><tr><td>日本</td><td>NIPR</td><td>统一的ISO数据创建标准；数 据发布使用日英双语元数据; 制定了数据重用的伦理政策</td><td>部分数据访问受限（注册）；缺少 数据访问、重用和归档政策</td><td>在数据中心的管理机构最少（1个）重视本土语言和英语 的同时，最重视制定数据管理政策 （4条）</td><td>相结合；共享程度较 低，部分受限（注册）</td></tr><tr><td>德国</td><td>ICDC</td><td>数据访问的权限管理较为完善； 有明确的数据归档流程</td><td>缺少数据重用政策</td><td>数据中心管理政策涉及的数据生命 周期最全面（只缺少重用）；只有受限（注册） 德国有数据归档政策</td><td>共享程度较低，部分</td></tr></table>",
+    "context3": "从管理方面来看，美国拥有3个国家级数据中心，但在管理政策上存在不均衡。重点数据中心的管理政策较为全面，但其他中心则缺乏有效管理，可能导致数据管理的不一致性和低效率。英国的管理政策则更注重规范性，明确违规后果，有助于维护数据的安全和秩序。中国的数据管理政策非常严格，强调质量控制和责任机制，但政策的公开性和易获取性不足。日本虽然管理机构数量最少，但在制定管理政策方面表现出高度重视，有助于提高政策执行的效率。德国的数据管理政策覆盖了数据生命周期的多个阶段，且独有数据归档政策，显示了其对防止数据滥用和泄露的重视。",
+    "context4": "在数据共享方面，美国的重点数据中心共享程度最高，而其他中心则受到会员、注册和收费等限制。英国、日本和德国的数据共享程度普遍较低，主要受限于注册和付费。中国的数据共享程度最低，所有数据共享都受到限制，一定程度上阻碍了雪冰数据的全球共享。",
+    "context5": "经过对比，各国政策主要的改进方向有：增强政策透明度，确保所有管理和共享政策都能公开透明；促进国际合作，通过国际数据注册中心加强数据共享；完善数据生命周期管理，尤其是数据的归档；简化共享流程，减少共享限制，创新数据访问方式。"
+  },
+  "4 启示 /Inspiration": {
+    "context1": "国外雪冰科学数据中心的数据管理与共享政策，启示我国的相关工作或可在以下方面加强：",
+    "context2": "（1）细化数据存储和归档政策的制定与实施。建立数据存储周期管理机制，根据数据的活跃度和重要性动态调整存储层级，如冷热数据分离，将不常访问的数据迁移到成本更低的存储介质上，以节省成本；利用大数据和人工智能技术自动监测数据存储状况，预测存储需求趋势，自动化执行备份、归档、迁移等操作，提高管理效率并减少人为错误；定期对存储硬件进行维护和性能检测，同时建立数据存储系统故障的快速响应和恢复机制；设立明确的数据归档标准，确保数据在删除、迁移、降级等操作前后均有详细记录，减少数据丢失风险，同时为数据版本控制和历史追溯提供便利。",
+    "context3": "（2）兼顾数据的共享与安全。实施分级数据访问策略，区分公开数据与受控数据，对敏感数据设定合理的访问权限和审核流程；引入新技术增强数据安全和可追溯性，确保数据共享过程中的透明度和信任度；探索数据交换协议和API接口标准化，简化数据的跨境共享流程，与国际组织如CODATA等合作，促进国际数据流动。",
+    "context4": "（3）优化数据政策的发布与传播。在re3data 等国际数据注册中心和官方平台上，以多语言、结构化形式发布数据管理与共享政策，便于国际用户查阅；举办线上或线下研讨会、培训活动，邀请国内外专家分享数据政策的最佳实践，提升国内数据管理者的意识和能力；建立反馈机制，收集用户对数据政策的意",
+    "context5": "见和建议，持续迭代改进。",
+    "context6": "（4）加强技术支撑与产品创新。建立跨学科技术团队，研究和应用最新的数据处理、分析技术，如云计算、人工智能，以提升数据处理速度和精度，同时减轻手动操作负担；推动数据产品的多样化开发，如数据可视化工具、模型模拟软件等，增强数据的实用性和吸引力；加强与国际数据中心的合作，共享技术资源，参与或主导国际数据标准的制定，提升我国数据中心的国际影响力。",
+    "context7": "通过以上措施，不仅能够提升我国雪冰科学数据中心的数据管理与共享水平，还能加强国际合作，推动雪冰科学研究和全球气候治理的进步。"
+  },
+  "结语 /Conclusion": {
+    "context1": "通过对全球国家级雪冰科学数据中心数据管理与共享政策的深入分析，我国在该领域的可能优化方向主要为数据存储和归档政策的完善、数据共享与安全的兼顾、数据政策的国际透明度提升和技术创新支持的加强。在面对全球气候变化与雪冰科学数据全球共享的紧迫需求下，我国雪冰科学数据中心应积极采纳国际优秀实践，结合我国政府的数据管理政策与雪冰数据中心的实际建设阶段，制定更为周全的数据管理与共享政策，确保雪冰数据的高效利用和全球共享。我国在加强本国雪冰科学数据管理政策的同时，应积极参与国际数据共享协议和标准的制定，增加国内标准和国际标准的融合与合作，为全球气候变化研究与可持续发展贡献中国智慧。"
+  },
+  "参考文献 /References:": {
+    "context1": "[1]司莉，邢文明.国外科学数据管理与共享政策调查及对我国的启示[J].情报资料工作，2013(1):61-66.(SIL,XINGWM. Scientific data management and sharing policies in foreigncountries: investigation and inspiration to us[J]. Information anddocumentation services,2013(1): 61-66.)  \n[2]邓仲华,李志芳.科学研究范式的演化——大数据时代的科学研究第四范式[J].情报资料工作，2013(4):19-23.(DENGZ H,LI Z F.The evolution of scientifc research paradigm: thefourth paradigm of scientific research in the era of big data[J].Information and documentation services,2013(4):19-23.)  \n[3] 宁宝英.ESI高影响论文揭示的北极自然科学研究特点[J].冰川冻土,2021,43(1):107-123.(NING BY.ESI top papersreveal the characteristics in arctic natural science research[J].Journal of glaciology and geocryology,2021,43(1): 107-123.)  \n[4]中华人民共和国国务院新闻办公室．中国的北极政",
+    "context2": "策[EB/OL].[2024-06-01].http://www.scio.gov.cn/ztk/ dtzt/37868/37869/index.html.(The State Council Information Office of the People's Republic of China.China's arctic policy[EB/OL].[2024-06-01]. http://www.scio.gov.cn/ztk/ dtzt/37868/37869/index.html.)",
+    "context3": "[5] 国务院办公厅．国务院办公厅关于印发科学数据管理办法的 通知[EB/OL].[2024-06-21]. https://most.gov.cn/xxgk/xinxifenlei/ fdzdgknr/fgzc/gfxwj/gfxwj2018/201804/t20180404_139023. html.(General Office of the State Council of the People's Republic of China.Circular of the General Office of the State Council on printing and issuing measures for scientific data management[EB/OL]. [2024-06-21]. htps://most.gov.cn/ xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2018/201804/ t20180404_139023.html.)   \n[6] 李洋，温亮明．《科学数据管理办法》落实现状、影响 因素及推进策略研究[J].图书情报工作,2021,65(2):65- 74.(LI Y, WEN L M. Research on the implementation status, influencing factors and promotion strategies of the“scientific data management rule\"[J]. Library and information service,2021, 65(2): 65-74.)   \n[7] CODATA.The Beijing Declaration on Research Data[EB/OL]. [2024-06-15]. https://codata.org/the-beijing-declaration-onresearch-data/.   \n[8] ELOKA.White House guidance on Indigenous Knowledge recognizes ELOKA[EB/OL].[2024-06-10]. https://elokaarctic.org/news/white-house-guidance-indigenous-knowledgerecognizes-eloka.   \n[9] re3data.org. Registry of research data repositories[EB/OL]. [2024-06-11]. htps://doi.org/10.17616/R3D.   \n[10] Re3data.Metadata schema for the description of research data repositories: version 4.0[EB/OL].[2024-06-15]. https:// gfzpublic.gfz-potsdam.de/pubman/faces/ViewItemFullPage. jsp?itemId=item_5022309.   \n[11]姜鑫,王德庄.开放科学数据与个人数据保护的政策协同研 究——基于政策文本内容分析视角[J].情报理论与实践, 2019,42(12): 49-54,93. (JIANG X, WANG D Z. Research on policy synergy of open research data and personal data protection: based on a content analysis of policy documents[J]. Information studies: theory & application,2019,42(12): 49-54,93.)   \n[12]HARRIS R,BAUMANN I. Open data policies and satelite Earth observation[J]. Space policy,2015,32: 44-53.   \n[13]储节旺，夏莉·嵌入生命周期理论的科学数据管理体系构 建研究—牛津大学为例[J].现代情报,2020,40(10):34- 42.(CHU JW, XIA L. Research on scientific data management construction based on life cycle theory[J].Journal of modern",
+    "context4": "information,2020,40(10): 34-42.)",
+    "context5": "[14] CARLSON J. The use of life cycle models in developing and supporting data services[J]. Research data management: practical strategies for information professionals,2014: 63-86.",
+    "context6": "[15]金贞燕，阿童木.科研数据管理服务内容体系构建研究[J] 情报理论与实践,2021,44(8):42-50.(JIN ZY,ATM.A study on construction of research data management service content system[J].Information studies:theroy & application,2021, 44(8): 42-50.)",
+    "context7": "[16]张洋，肖燕珠.生命周期视角下《科学数据管理办法》 解读及其启示[J].图书馆学研究,2019(15):37-43,13. (ZHANG Y,XIAO Y Z. Interpretation of the measures for the management of scientific data from a life cycle perspective and its implications[J].Research on library science,2019(15): 37-43, 13.)",
+    "context8": "[17]于会萍,宛玲.科学数据存储库的发展态势与推进策略[J] 图书情报工作,2022,66(15):107-115.(YUHP,WANL. The development trend and promotion strategy of science data repository[J].Library and information service,2022,66(15): 107-115.)",
+    "context9": "[18]王辉,WITTM.基于re3data的科研数据仓储全景分析 [J].图书情报工作,2017,61(22):69-76.(WANGH,WITT M.Panoramic analysis of research data repositories based on re3data[J].Library and information service,2017,61(22):69- 76.)",
+    "context10": "[19]李翼,吴丹.开放医学科学数据平台调查研究[J].图书情报 工作,2015,59(18): 24-29,50.(LIY,WU D.Research on open medical scientific data platform[J].Library and information service,2015,59(18):24-29,50.)",
+    "context11": "[20]吴思竹，王安然，修晓蕾，等.欧美生物医学科学数据中 心建设及启示[J].数字图书馆论坛，2022(4):2-10.(WU S Z,WANG AR,XIU XL,et al. Construction and implications of biomedical scientific data centers in Europe and the United States[J]. Digital library forum,2022(4): 2-10.)",
+    "context12": "[21]吴思竹，李赞梅，崔佳伟，等.基于全球研究数据注册仓储Re3data.org 的医学科学数据仓储建设[J].中华医学图书情报杂志,2018,27(9): 20-31.(WU S Z,LIZM,CUIJW,etal.Development of medical data repositories based on re3data.org[J].Chinese journal of medical library and informationscience,2018,27(9): 20-31.)",
+    "context13": "[22]袁梦雪.国内外健康医学科学数据管理平台对比分析[J].数 字图书馆 论坛,2020(1):11-19.(YUANMX.Comparative analysis of health medical scientific data management platforms from domestic and abroad[J]. Digital library forum, 2020(1): 11- 19.)",
+    "context14": "[23]孙苗，姜晓轶，王子珂.海洋科学数据共享政策法规与标准规范研究及启示[J].科技导报，2022,40(10):22-29.(SUNM,JIANG XY,WANG ZK. Studies of marine data sharing policiesand standards and the enlightenment[J]. Science & technologyreview,2022,40(10): 22-29.)",
+    "context15": "[24]张莎莎，黄国彬，耿骞·基于re3data 的英国科学数据发布 平台研究[J].数字图书馆论坛,2017(6):16-24.(ZHANG SS,HUANG GB,GENG Q.Research on UK scientific data publishing platforms based on re3data[J]. Digital library forum, 2017(6): 16-24.)",
+    "context16": "[25]王朔桓，陈媛媛·美国地理科学数据服务平台建设调查研究[J].图书馆学研究,2018(8):46-54.(WANG SH,CHENYY.A survey study of the construction of a data service platform forgeoscience in the United States[J]. Research on library science,2018(8): 46-54.)",
+    "context17": "[26]刘敬仪,江洪，廖宇.德国地球科学领域科学数据中心调查与 启示[J].数字图书馆论坛,2019(12):52-58.(LIUJY,JIANGH, LIAO Y. Research and enlightenment from Germany scientific data center for the field of geoscience[J]. Digital library forum, 2019(12): 52-58.)",
+    "context18": "[27] PARSE-insight. Questions research survey[EB/OL]. [2024-06- 20].https://web.archive.org/web/20151011134846/http://www. parse-insight.eu/downloads/PARSE-insight_survey_questions_ research.pdf.",
+    "context19": "[28] CoreTrustSeal. Core trustworthy data repository requirements[EB/OL]. [2024-06-20]. https://www.coretrustseal. org/wp-content/uploads/2020/03/WDC-NSIDC.pdf.",
+    "context20": "[29] NSIDC.Data policies[EB/OL]. [2024-06-20]. htps:/nsidc.org/ data/data-policies.",
+    "context21": "[30] Scott Polar Research Institute.The Thomas H Manning polar archives and SPRI picture library access policy[EB/OL]. [2024- 06-21]. https://www.spri.cam.ac.uk/archives/policy/.",
+    "context22": "[31]NIPR.Guidelines for data management,Polar Data Center[EB/ OL].[2024-06-20]. https://scidbase.nipr.ac.jp/uploads/policy/ data-policy.e.pdf.",
+    "context23": "[32] NIPR. International polar year 2007-2008 data policy[EB/OL]. [2024-06-20]. https:/scidbase.nipr.ac.jp/uploads/policy/ipy_ datapolicy_e.pdf.",
+    "context24": "[33] Polar Commons.Polar information commons丨ethics and norms of data sharing[EB/OL].[2024-06-20].https://www. polarcommons.org/ethics-and-norms-of-data-sharing.html.",
+    "context25": "[34] NIPR. Terms of use|national institute of polar research[EB/OL]. [2024-06-20].https://www.nipr.ac.jp/english/terms.html.",
+    "context26": "[35] Annika Jahnke-Bornemann. ICDC data management[EB/OL]. [2024-06-20]. https://www.cen.uni-hamburg.de/en/icdc/research/"
+  }
+}

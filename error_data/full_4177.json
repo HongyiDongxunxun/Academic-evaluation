@@ -1,0 +1,111 @@
+{
+  "original_filename": "full_4177.md",
+  "图像语义标注研究综述陈金菊": {
+    "context1": "【摘要】图像语义标注是实现图像语义检索的重要环节和关键。文章概述了图像语义标注的三个发展阶段，并对目前图像语义标注的三个研究重点，即图像语义标注模型、图像语义标注工具、语义鸿沟问题以及解决该问题的方法，进行总结和分析。最后，就如何弥合语义鸿沟提出三点建议：融合多学科的研究成果来缩小语义鸿沟；人工标注与自动标注相结合；采用本体技术进行图像语义标注。"
+  },
+  "【关键词】图像语义标注语义标注模型语义标注工具语义鸿沟": {
+    "context1": "Abstract:Image semanticannotation isanimportant linkandkey torealizeimagesemanticretrieval.Thispaper first summarizes the thre stages of development of image semanticannotation，and concludes and analyzes the three current research focusof image semanticannotation，that is，image semanticannotation model，image semantic annotation tools， and semantic gap problem and attempts to solve the problem.Finally，threesugestions are putforwardon how to bridge the semantic gap:integrating multidisciplinary research results to reduce the semantic gap；combining manual annotation with automatic annotation; using ontology technology to annotate semantic images.",
+    "context2": "Key words: image semantic annotationsemantic annotation modelsemantic annotation tolsemantic gap DOI:10.15941/j.cnki.issn1001-0424.2017.18.001",
+    "context3": "0引言",
+    "context4": "基于文本的检索技术和基于内容的检索技术是图像检索技术已经历的两个重要发展阶段，但由于手工标注的主观性和工作量大，影响了检索结果的稳定性，以及自动标注无法反映图像语义内容的局限，导致这两种检索技术已无法充分地满足用户的检索需求。在此背景下，基于语义的图像检索技术应运而生，极大地改善了上述两种检索技术存在的缺陷，提高了用户检索需求与检索结果的匹配度。图像语义标注是对图像内容的一种描述模式，对涉及图像含义的高层语义概念（如对象、事件、表达的情感等）进行描述。作为实现图像语义检索的重要环节和关键，图像语义标注受到国内外许多学者的重视和关注，产生了一批研究成果。笔者以“SU $=$ 图像\\*语义标注”（SU为主题）为检索式，于2017年5月24日检索CNKI（中国学术文献网络出版总库)，发现目前国内学者已发表250余篇图像语义标注的研究文献。采用同样的方法检索国外图像语义标注的研究文献，以“Image”\\*“Semantic Annotation”为主题，检索WEB OF SCIENCE数据库，得到340余篇相关的研究文献。从研究文献的总量来看，国外比国内多 $2 5 \\%$ 。对近10年（ $2 0 0 7 \\sim 2 0 1 6$ 年）国内外学者发表的相关研究文献进行分析（见表1），发现国外的文献量相对稳定，维持在一个较高的水平（均在20篇以上)，而国内的文献量虽然波动相对较大，出现了两次相同的小高峰（均为40篇），但总体而言，呈现上升趋势。由此可见，国外图像语义标注的研究已进入稳定持续发展阶段，而国内虽发展相对缓慢，但呈现出较强的发展后劲。",
+    "context5": "表1国内外图像语义标注的研究文献量",
+    "context6": "<table><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>2007</td><td rowspan=1 colspan=1>2008</td><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=1>2010</td><td rowspan=1 colspan=1>2011</td><td rowspan=1 colspan=1>2012</td><td rowspan=1 colspan=1>2013</td><td rowspan=1 colspan=1>2014</td><td rowspan=1 colspan=1>2015</td><td rowspan=1 colspan=1>2016</td></tr><tr><td rowspan=1 colspan=1>国外论文数</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>27</td></tr><tr><td rowspan=1 colspan=1>国内论文数</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>22</td></tr></table>",
+    "context7": "总体而言，国外图像语义标注的研究起步早于国内，但发展阶段基本相同，都经历了基于文本的人工标注、基于内容的自动标注、基于语义的标注三个阶段，标注水平不断提高。目前，正处于基于语义的标注阶段，该阶段对前两个阶段的标注模式存在的局限性有了很大的突破，有助于缩小语义鸿沟问题。笔者通过相关文献的调研发现，国内外学者的研究重点主要集中在图像语义标注模型、图像语义标注工具、语义鸿沟问题这三个方面。目前，尽管已产生了一批较为丰富的研究成果，但尚缺乏对图像语义标注的研究现状和概况进行全面系统梳理的文献。基于此，笔者梳理了图像语义标注的三个发展阶段，并对图像语义标注的三个研究重点进行详细的总结和分析。"
+  },
+  "1图像语义标注的发展": "",
+  "1.1基于文本的人工图像标注": {
+    "context1": "基于文本的人工图像标注是图像语义标注最早期的方法，标注人员观察图像的内容，将观察所得内容作为该幅图像的语义。图像语义标注的需求最早是由Tamura等人于1984年提出，作者根据需求建立了一个图像标注模型，该模型支持以手工方式标注相关文本。这种标注方法相对简单，提高了检索系统的易用性，但也存在一些局限性。一方面，由于手工标注的工作量大，标注人员的需求量也较大，而这些标注人员具有不同认知水平和知识背景，他们对图像内容的理解带有较强的主观性和不确定性，标注词汇的选择存在较大的差异，导致标注结果不一致。另一方面，手工标注的工作量与图像数据库的图像数量有关，对于数据量小的图像库可以采用手工标注，但对于数据量大的图像库，采用手工标注的工作量则是巨大，需要耗费大量的人力和时间成本。为了减少工作量，学者们提出了一些方法。譬如，Sheniderman提出了一种减少人物姓名标注工作量的方法，标注人员获取图像中出现的人物，并从已存放姓名的数据库中查找和选择该姓名，实现人物的语义标注。"
+  },
+  "1.2基于内容的自动图像标注": {
+    "context1": "为了提高图像标注的效率，学者们开始致力于自动图像标注的研究，借助机器学习和模式识别等技术，利用计算机自动提取图像的底层特征。具体目标是使计算机通过图像样本训练能够识别图像，通过计算或推理来对新图像进行语义标注。自动标注大大降低了标注的人工成本，使标注效率得到提高。国内外学者运用这种思想展开了许多研究，取得了一些成果。1998年，Szummer和Picard在分析图像底层特征的基础上，为场景数据库中的图像自动添加了“户内”等高层次的语义概念。图像自动标注的基本理论模型，即共生模型（Co-occurence Model）诞生于1999 年，该模型的主要功能是在图像和语义间建立联系。2008年，李晋将能够自动发现样本内在规律的非监督神经网络，即$\\mathrm { S O M } ^ { \\tt G }$ 神经网络用于图像底层特征和情感语义映射方法中，实现网络参数和结构的自适应调整。自动图像标注主要分为两种：（1）基于全局特征；（2）基于区域划分[d，其主要缺陷是语义标注的准确性不高。因此，自动图像标注仍无法完全满足用户的检索需求，语义鸿沟是图像标注需要解决的主要问题之一。"
+  },
+  "1.3基于语义的图像标注": {
+    "context1": "为了弥合语义鸿沟问题，进一步满足用户的检索需求，基于语义的图像标注方法应运而生。在实际应用中，用户对于自己所需要的图像，最初往往是从图像对象等高层语义特征角度进行检索，而不是颜色等底层特征。基于语义的图像标注极大地改善了前两种标注方法存在的不足。它通常采用图像语义层次模型对图像的语义内容进行分类，在此基础上，构建图像语义标注模型，对图像进行语义标注。目前，图像语义标注模型大致可以分为4类：（1）三层语义层次模型；（2）金字塔语义层次模型；（3）基于本体的图像语义标注模型；（4）其他图像语义标注模型。本体是一种形式化的、对于共享概念体系的明确而又详细的说明，能实现语义信息的共享和重用，且具有推理能力，这些特点使得基于本体的图像语义标注成为近些年来的一个研究热点。本文第二部分将对上述4种图像语义标注模型进行详细的介绍。"
+  },
+  "2图像语义标注模型": "",
+  "2.1三层语义层次模型": {
+    "context1": "图像语义层次模型是对图像内容的分类，为图像语义标注提供了一个框架结构，是图像语义标注的基础。Eakins于1996年提出了一个三层图像语义层次模型：（1）底层特征层；（2）对象层，该层细分为对象语义层和对象空间层；（3）语义概念层，该层细分为场景语义层、行为语义层和情感语义层[4。这三个层次是一个密不可分、相互联系的整体，层次越高，语义越抽象。该模型为图像语义标注提供了基础，后续出现的许多研究都是对该模型进行轻度改进[ld。譬如，许多学者在 Eakins 的三层语义层次模型的基础上构建了针对不同领域的七层语义层次模型 d，该模型增加了更高层语义，用于表达图像的真实语义，加强了模型的语义表达能力。此外，部分学者将Eakins的三层语义层次模型与具体领域的相关理论和概念体系相结合，应用到实践中。譬如，王晓光等人以Eakins的三层语义层次模型为基础，提出了一个数字图像语义描述层次模型，该模型在图像高层语义中加入适用于敦煌壁画数字图像描述的相关术语表和图像元数据，实现了对敦煌壁画的语义标注2。"
+  },
+  "2.2金字塔语义层次模型": {
+    "context1": "除了Eakins的三层语义层次模型外，Jaimes和Chang于1999年提出的金字塔语义层次模型也得到了相对广泛的应用。该模型从视觉图像特征和抽象解释之间的层次出发，将图像内容划分为10层，前4层（类型和技术、全局分布、局部结构、全局组合）是知觉层面的描述，后六层（通用对象、通用场景、具体对象、具体场景、抽象对象、抽象场景）是语义层面的描述[2]。越靠近金字塔的底端，所需要的知识量越多。此后，出现了一些以该模型为基础的衍生模型和应用研究。Hare等人于2006年提出了从原始图像到高级语义的5层渐变模型，即原始图像、视觉描述符、对象、对象名称、语义。Hollink等人采用与Jaimes和Chang 相同的图像内容描述级别，并使用统一建模语言（Unified Modeling Language）开发了一个用于用户图像描述的分类框架：非视觉层、知觉层、语义层。上述模型更加关注场景和对象的描述，缺少对象空间关系层、行为层和情感层的描述，语义表达能力不如Eakins的三层语义层次模型。"
+  },
+  "2.3基于本体的语义标注模型": {
+    "context1": "完整地描述图像的语义，需要图像语义标注模型的支持。本体因具有推理能力、语义共享和重用、形式化等特点，在图像语义标注中的优势日益突出，许多学者对基于本体的图像语义标注模型展开了研究。KongH等人于2006年提出了一个图像语义标注的本体模型。该模型仅提供顶层本体，允许用户根据他们的专业知识在顶层本体的基础上建立他们感兴趣的个性化本体。部分学者将该建模思想应用于研究中，提出了以本体为核心的图像语义标注和检索模型。邓涛等人和史婷婷等人分别于2008年和2010年采用与 KongH等人类似的研究思路，对于特定领域，该模型仅提供上层本体，允许用户在使用检索系统的过程中对本体进行更新，最终实现领域本体的个性化。此外，两者在研究中都构建了以对象为中心的图像语义内容描述模型，邓涛等人构建的模型分为4层：图像媒体描述，对象、背景及构成场景描述，对象及背景属性描述，对象间的语义关系；而史婷婷等人构建的模型则没有涉及图像媒体描述层，该层包含图像的元数据。"
+  },
+  "2.4其他图像语义标注模型": {
+    "context1": "除了上述相似度较高且较集中的模型外，还有一些零散的但特色鲜明的图像标注模型。譬如，Hollink等人采用“agent action object recipient”句子结构来描述图像的主题内容，构建了一个以事件为中心的标注模板，且多个句子可用于描述单个绘画。李胜辉于2011年构建了一个自然场景下的领域本体，该本体由于缺少对图像行为语义和情感语义的描述，语义表达能力较弱。此外，部分学者对医学图像展开了研究。杭千勇于2008年提出了一个用于医学图像语义检索的本体，该本体以CT图像为核心。张娜等人于2013年提出了一个医学影像信息本体模型，实现了本体的持久化、原始数据提取和数据整合，解决了医学影像信息使用中存在的问题。",
+    "context2": "上述总结的4类语义标注模型，即三层语义层次模型、金字塔语义层次模型、基于本体的图像语义标注模型、其他图像语义标注模型，前两类模型主要用于对图像语义内容进行分类的语义层次模型，后两类主要是基于本体的图像语义标注模型。通过对这4类语义标注模型的归纳和分析，笔者总结出评价图像语义模型的两个重要指标：语义表达能力和灵活性。语义表达能力指模型对图像含义的表达完整程度，灵活性指模型满足不同用户需求的能力。一般而言，语义表达能力越强，灵活性越高，模型的性能就越优，有助于弥合语义鸿沟，提高用户满意度。"
+  },
+  "3图像语义标注工具及其关键特性": "",
+  "3.1图像语义标注工具": {
+    "context1": "为了解决网络环境下，图像语义标注、共享和互操作问题，国内外学者开发了许多图像语义标注工具，如M-OntoMat-Annotizer、PhotoStuff、flickr2rdf、jpegRDF、PHP JPEG Metadata Tolkit、SWAD等。M-OntoMat-Annotizer是aceMedia项目开发的一个用户友好型的标注工具，支持检索和分析视频和图像等多媒体资源。该标注工具通过对基于区域分割获取描述符与领域本体中的原型化概念的比较，采用距离最近的概念来标注图像[。PhotoStuff 是一种用于语义Web的图像标注工具，允许根据任何领域的若干个OWL本体来标注图像和图像中特定区域的语义内容。此外，嵌入在JPEG文件内的元数据被转换为 RDF，可以在 Web 上发布和共享。flickr2rdf 是一个在线照片管理和共享应用程序，它利用Flickr API从Flickr的照片存储库中提取元数据，并生成RDF描述，用户可以上传他们的照片并对其进行标注。部分学者对语义标注展开了调查研究，宋宁远和王晓光于2015年调查了近期发布的5种图像语义标注软件 TILE1.O、TBLE、IMT 2.0、IIAF、DM:Tools for Digital Annotation and Linking，对比分析了它们的语义标注与发布功能，以及数据结构模型，总结出此类标注工具的4个特点和两个不足：采用通用的数据标（TEI和OAC)；扩展性强，兼容多平台和多终端；精确定位被标注图像区域；标注词与专业词表以及领域本体相结合；图像语义内容描述规范不足；图像及其语义标注信息精准关联的发布规范不足。"
+  },
+  "3.2图像语义标注工具的关键特性": {
+    "context1": "评价图像语义标注工具可以从10个关键特性着手：标注类型、元数据类型、元数据格式、标注级别、操作模式、获取方式、服务对象、标注粒度、响应能力、访问控制。笔者以 M-OntoMat-Annotizer、PhotoStuff、flickr2rdf为例，对它们的关键特性进行比较分析（见表2）。",
+    "context2": "表2三种图像语义标注工具的关键特性[",
+    "context3": "<table><tr><td rowspan=1 colspan=1>图像标注工具名称</td><td rowspan=1 colspan=1>M-OntoMat-Annotizer</td><td rowspan=1 colspan=1>PhotoStuff</td><td rowspan=1 colspan=1>flickr2rdf</td></tr><tr><td rowspan=1 colspan=1>标注类型</td><td rowspan=1 colspan=1>图像、视频</td><td rowspan=1 colspan=1>图像</td><td rowspan=1 colspan=1>图像</td></tr><tr><td rowspan=1 colspan=1>元数据类型</td><td rowspan=1 colspan=1>描述型、结构型、管理型</td><td rowspan=1 colspan=1>描述型、结构型、管理型</td><td rowspan=1 colspan=1>管理型</td></tr><tr><td rowspan=1 colspan=1>元数据格式</td><td rowspan=1 colspan=1>RDF</td><td rowspan=1 colspan=1>RDF</td><td rowspan=1 colspan=1>FOFRDF</td></tr><tr><td rowspan=1 colspan=1>标注级别</td><td rowspan=1 colspan=1>受控</td><td rowspan=1 colspan=1>不受控</td><td rowspan=1 colspan=1>不受控</td></tr><tr><td rowspan=1 colspan=1>操作模式</td><td rowspan=1 colspan=1>安装独立应用程序</td><td rowspan=1 colspan=1>安装独立应用程序</td><td rowspan=1 colspan=1>基于Web</td></tr><tr><td rowspan=1 colspan=1>获取方式</td><td rowspan=1 colspan=1>非开源</td><td rowspan=1 colspan=1>开源</td><td rowspan=1 colspan=1>非开源/Flickr API</td></tr><tr><td rowspan=1 colspan=1>服务对象</td><td rowspan=1 colspan=1>非个体</td><td rowspan=1 colspan=1>个体</td><td rowspan=1 colspan=1>个体</td></tr><tr><td rowspan=1 colspan=1>标注粒度</td><td rowspan=1 colspan=1>基于局部</td><td rowspan=1 colspan=1>基于局部</td><td rowspan=1 colspan=1>基于局部</td></tr><tr><td rowspan=1 colspan=1>响应能力</td><td rowspan=1 colspan=1>螺旋式</td><td rowspan=1 colspan=1>螺旋式</td><td rowspan=1 colspan=1>非螺旋式</td></tr><tr><td rowspan=1 colspan=1>访问控制</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>有</td><td rowspan=1 colspan=1>有</td></tr></table>",
+    "context4": "（1）标注类型：M-OntoMat-Annotizer能标注的资源类型包括图像和视频，而PhotoStuff和flickr2rdf 只能标注图像资源，M-OntoMat-Annotizer标注内容的类型较之后两者更加丰富;",
+    "context5": "（2）元数据类型：flickr2rdf 只能标注管理型元数据，而M-OntoMat-Anotizer和PhotoStuff能标注描述型、结构型和管理型的元数据，它们能标注的元数据类型比flickr2rdf更加完整、丰富；",
+    "context6": "（3）元数据格式：三者的源数据格式都是RDF以及以RDF为基础的相关格式，且都比较单一;",
+    "context7": "(4）标注级别：M-OntoMat-Annotizer由于使用词汇进行标注，标注级别受到严格的控制，但有助于机器理解，而PhotoStuff由于使用自由文本标注，语义以非正式的方式提供，标注级别不受控制;",
+    "context8": "（5）操作模式：flickr2rdf 使用Web 浏览器来访问服务，而 M-OntoMat-Annotizer和PhotoStuff需要安装独立的应用程序，操作不如flickr2rdf便捷;",
+    "context9": "（6）获取方式：PhotoStuff是开源标注工具，用户和研究人员可以较容易获取和使用，而M-OntoMat-Annotizer和flickr2rdf则不是开源标注工具，获取和使用受到一定的限制;",
+    "context10": "（7）服务对象：M-OntoMat-Annotizer作为Web共享图像数据库的标注框架，而 PhotoStuff和flickr2rdf 则作为单独的用户多媒体内容标注工具，更容易满足个体的需求;",
+    "context11": "（8）标注粒度：三个标注工具的标注粒度都是基于局部，标注较为细致;",
+    "context12": "（9）响应能力：M-OntoMat-Annotizer和PhotoStuff 具有螺旋式响应能力，能够响应或者添加到以前的标注，而flickr2rdf不具备螺旋式响应能力;",
+    "context13": "（10）访问控制：M-OntoMat-Annotizer不限制用户的访问，而PhotoStuf和flickr2rdf针对不同用户设置了不同的元数据访问权限，区分简单访问的用户和具有完全访问权限的用户，有助于保障标注内容的安全性。",
+    "context14": "综合上述10个关键特性，从总体的性能而言，M-OntoMat-Anotizer的性能优于PhotoStuff和flickr2rdf。图像语义标注工具的10个关键特性能为用户选择标注工具提供一些有效的参考，但在实际选择标注工具时，应该以用户的标注需求和标注性质为依据。"
+  },
+  "4图像语义标注存在的语义鸿沟问题": "",
+  "4.1语义鸿沟": {
+    "context1": "从需要耗费大量的人力和时间成本的手工标注，到借助计算机、机器学习、模式识别等技术实现的自动标注，再到基于高层语义特征的语义标注，图像语义标注处于一个不断发展上升的过程，标注水平不断提高。尽管如此，图像语义标注在发展过程中仍存在一些问题，其中，语义鸿沟问题是学者们关注的重点。语义鸿沟（SemanticGap）指从底层特征中获取的图像信息与用户对图像理解的语义之间存在的差距[d l。语义鸿沟产生的主要原因有两个方面：一是人的认知差异。Cabeza等人指出，感知和图像处理、语言和语义处理处于大脑的不同区域，大脑对这两个区域的处理存在差异。二是计算机处理图像语义的缺陷。借助计算机自动标注图像，产生了许多标注模型，但这些模型无法简单模型化地替代人对图像的复杂认知。"
+  },
+  "4.2弥合语义鸿沟的方法": {
+    "context1": "为了解决语义鸿沟问题，学者们进行了许多研究。温超和耿国华认为缩小基于内容的图像检索中存在的语义鸿沟，关键在于让计算机准确地获取图像语义，建立特征空间和语义空间的映射关系。作者从获取图像不同层次语义的角度，提出了三种缩小语义鸿沟的方法：基于对象层语义的处理方法、基于语义概念层的处理方法和相关反馈方法。Jin等人使用WorldNet来优化图像标注结果，借助 WorldNet词汇的属分关系，计算标注词之间的相似性，设置相似度阈值，将低于该阈值的标注词剔除。张鸿斌和陈豫认为准确地获取语义信息是解决语义鸿沟的有效方法，阐述了利用外部信息、人工交互和知识库获取语义信息来缩小语义鸿沟的系统。谢毓湘等人通过分析现有的多媒体数据获取方式，提出了解决语义鸿沟问题的可行思路，未来将通过脚本的方式记录和存储多媒体数据。此外，陆泉等人从不同角度总结了缩小语义鸿沟的一些有益尝试，包括从人对图像的视觉感知方面和用户图像认知和用户行为方面b，后者的相关研究目前仍停留在理论层面。上述关于弥合语义鸿沟的方法，虽未能完全解决语义鸿沟问题，但是提供了很多有益的解决思路，对推进该问题的解决有很大的促进作用，如何缩小语义鸿沟问题仍是学者们未来的研究重点之一。"
+  },
+  "5结语和建议": {
+    "context1": "图像语义标注经历了基于文本的人工图像标注、基于内容的自动图像标注和基于语义的图像标注三个发展阶段。基于语义的图像标注的出现，极大地改善了基于文本的人工图像标注存在的标注主观性和耗费大量人力和时间成本的问题，以及基于内容的自动图像标注存在的语义标注的准确性不高的问题。但语义鸿沟仍是图像语义标注存在的重要问题之一，许多学者尝试从不同的角度来弥合语义鸿沟，但目前仍未找到高效的解决方案。",
+    "context2": "计算机软件及计算机应用是图像语义标注的主要学科载体，该学科侧重于从技术角度进行研究，提出了许多图像语义标注的算法和模型。而图书情报与数字图书馆则侧重于从用户信息需求、语义描述规范等角度，对现有的算法和模型进行改进。此外，认知、心理、行为等学科领域的研究成果，对图像语义标注的研究也有借鉴和参考价值。融合多学科的研究成果，包括理论、技术、模型和工具等，是图像语义标注的发展趋势和研究热点，也是解决语义鸿沟问题的研究方向之一。",
+    "context3": "此外，还可以尝试从以下两个方面缩小语义鸿沟：一是人工标注与自动标注相结合。图像底层特征较为具体和简单，可以借助计算机和相关算法自动标注获取，而高层语义由于其自身具有的抽象性和复杂性，目前还无法完全通过机器准确提取，可以采用手工标注的方式，将人融入标注过程，使标注结果更加准确。二是运用本体技术进行图像语义标注。本体具有以下几点优势：（1）本体具有形式化特征，可以用于对该领域进行建模，它为图像语义标注的标准化和结构化奠定了基础；（2）本体具有推理能力，采用本体对图像进行语义标注，使图像智能检索成为可能；（3）本体支持语义信息在不同系统中的重用54。基于此，将本体运用于图像语义标注成为近几年的研究热点之一。"
+  },
+  "注释": {
+    "context1": "[] Aittola M，Ryha nen T，Ojala T.Smart Library:Location-Aware Mobile Library Service[．International Symposium on Human Computer Interaction with Mobile Devices and Services，2Oo3（5): 411 -415.",
+    "context2": "]李显志，邵波．国内智慧图书馆理论研究现状分析与对策.图书馆杂志，2013(8)：12-17.",
+    "context3": "β]荷兰图书馆自动贴心椅 [EB/OI]．[017-04-26]．http：// www.tudou.com/programs/view/sCnstRfd6Ss/.",
+    "context4": "刘丽斌．智慧图书馆探析．图书馆建设，2013（3)：87-94.",
+    "context5": "董晓霞，龚向阳，张若林等．智慧图书馆的定义、设计以及实",
+    "context6": "现[．现代图书情报技术，2011（2)：77－79.  \n郭晶．上海交通大学智慧图书馆之“型”与“行”．中国教育网络，2011（11)：23.  \n黄力．基于物联网技术的图书馆服务模式与内容的研究．图书馆学研究（应用版)，2011（3)：53-54.  \n郭利敏，刘悦如.iBeacon在图书馆的应用研究[．上海高校图书情报工作研究，2015（1)：39-43.  \n王建新，丁家友．情景感知系统在智能图书馆中的应用研究[．图书馆杂志，2015（7)：64-69.  \n[0]工业和信息化部电信研究院．物联网标识白皮书(2013年)M．北京：工业和信息化部电信研究院，2013.  \n[1]张静，姜永常．知识构建：数字图书馆知识服务能力的根本保障[．情报理论与实践，2010(9)：28-31.  \n[2]马瑞涛．物联网对移动通信网影响的分析与研究[．邮电设计技术，2012(6)：12-17.  \n[3]王世伟．未来图书馆的新模式：智慧图书馆[．图书馆建设，2011 (12):1- 5.  \n[4]李浩．云计算、大数据、数字图书馆与智慧图书馆关联研究—用大数据打造智慧图书馆的思考[．四川图书馆学报，2014 (6):31-34.  \n[5]刘亚玲．智与德的共生：智慧图书馆发展愿景[．图书馆论坛，2016 (1)：31-35.  \n[6]韩丽．物联网环境下智慧图书馆的特点、发展现状及前景展望[．现代情报，2012(5)：48-50，53.",
+    "context7": "王维秋中国医科大学图书馆，副研究馆员。",
+    "context8": "刘春丽中国医科大学图书馆，管理学硕士、副研究馆员（通讯作者）。"
+  },
+  "[7]邓涛，郭雷，杨卫莉．基于本体的图像语义标注与检索模型[．计算机工程，2008（17)：188－190.": "",
+  "[28]53]史婷婷，闫大顺，沈玉利．基于个性化本体的图像语义标注和检索[．计算机应用，2010（1)：90-93.": {
+    "context1": "TamAM，eunCHrucuedNaturalLgeescitiosfoeanticConteterealofVisualMaterasJoalofe Society for Information Science and Technology，2001(11)：930 -937.",
+    "context2": "B0] Holink L，SchreiberG，WielemakerJ，et al.Semantic Anotationof Image Coections[.Knowledge Capture.2003，2.",
+    "context3": "β1]李胜辉．基于本体的图像语义的自动标注研究[]．长沙：湖南大学，2011：39.",
+    "context4": "[2]杭千勇．基于本体的医学图像检索系统[．科技情报开发与经济，2008（9)：134－136.",
+    "context5": "[3] 张娜，王如龙，王伟胜．基于本体的医学影像信息整合[．计算机系统应用，2013（6)：14－17",
+    "context6": "4 aceMedia主页 EB/O1]．017-05-25]．htp://www3.acemedia.org/",
+    "context7": "B6ImageAnotationontheSemanticWeb:TolsOverviewEB/O]．O17-05-25]htp://ww.w3.org/2001/sw/BestPractices/MM/ resources /Tools. html.",
+    "context8": "37]宋宁远，王晓光．面向数字人文的图像语义标注工具调查研究[．数字图书馆论坛，2015（4)：7-14.",
+    "context9": "B8]B9]Halaschek-WienerC，Simou N，TzouvarasV，etc.ImageAnnotaionontheSemanticWebEB/O1]．17-05-25]．http:// www.w3.org/20o5 /Incubator/mmsem/XGR- image-annotation/#conclusions.",
+    "context10": "[0SmeuldersWogntiS，talotentBasedaeRetrealatteEdfEarlYearsEsactiosoAnalysis and Machine Intelligence，200o (12)：1349 -1379.",
+    "context11": "[]WangC，ZhangL，ZangHJLeang tReduceteSemanticGapinWebIageRetrievalandAotatioProceedingsofthstAa International ACM SIGIR Conferenceon Research and Development in Information Retrieval.ACM,2008：355-362.",
+    "context12": "[2]LuY，ZhangL，TianQ，etalWhataretheigh-LevelConceptswithSmal SemanticGaps/ComputerVisionandPateRecoition 2008.CVPR 2008.IEEE Conference on. IEEE，2008:1-8.",
+    "context13": "[43]CabezaR，NybergLImagingCogitionI:AnEmpiricalReviewof5ETndfRStudiesJoualofCognitiveNeroscienc0 (1):1-47.",
+    "context14": "[4EnserPGB，SandomCJ，HareJS，talFacingtheRealityofSmanticmageRetrievalJoualofDocumentation2O（4)：465 481.",
+    "context15": "系统数据，建立大数据中心，分析读者阅读偏好、行为轨迹、信息素养水平、服务需求等，从而为图书馆各项基础工作及读者服务工作提供智慧化的数据资源特色服务，如：为图书馆文献采访工作、读者服务工作、用户管理工作等提供了更加准确、科学的依据；为即将毕业的学生读者提供他们所不知的、会意外感动的、充满怀旧情怀的毕业季制作数据，包括入学后第一次走进图书馆的具体时间、借阅的第一本图书、在校期间所有借阅图书的名字等等。"
+  },
+  "4结语": {
+    "context1": "从智慧图书馆目前发展来看，采用RFID技术、电子闸门、自助借还机、智能机器人使用等并没有建立在智慧图书馆理论基础之上。同时，智慧图书馆建设在理论研究层面和实践探索层面研究上还任重而道远，尚需多个专业共同努力与探索。"
+  },
+  "(上接第7页)": {
+    "context1": "[45]温超，耿国华．基于内容图像检索中的“语义鸿沟”问题[．西北大学学报（自然科学版)，2005（5)：46-50.",
+    "context2": "JinY，KhanL，WangL，etalIageAotonsbyombiningMuipleEvidence&WoretProcedingsofe3thAualACM International Conference on Multimedia.ACM，2005:706-715.",
+    "context3": "[7]张鸿斌，陈豫．连接基于内容图像检索技术中的语义鸿沟．情报理论与实践，2004（2)：196－198.  \n[48]谢毓湘，栾悉道，吴玲达．多媒体数据语义鸿沟问题分析[．武汉理工大学学报（信息与管理工程版)，2011（6)：859-863.  \n[49] 陆泉，韩阳，陈静．图像语义标注方法及其语义鸿沟问题研究进展[．图书馆学研究，2014（10)：2-6.  \n[0]陈祉宏，冯志勇，贾宇．考虑视觉焦点权重和词相关性的图像标注方法Ⅲ．计算机应用，2011（9)：2518-2521，2541.  \n51]曹梅．网络图像检索行为与心理研究[．中国图书馆学报，2011（5)：53-60.",
+    "context4": "amasio H，Tranel D，GrabowskiaT，etal.Neural Systems Behind Wordand Concept Retrieval..Cognition，2O04（1-2)：17学会（CACIS)、中国系统仿真学会复杂系统建模与仿真计算专业委员会筹备处（CSSC）．全国第20届计算机技术与应用学术会议（CACIS·",
+    "context5": "2009）暨全国第1届安全关键技术与应用学术会议论文集（上册[：中国仪器仪表学会（CIS）、中国系统仿真学会（CSS)、中国仪器仪表学会微型计算机应用学会（CACIS)、中国系统仿真学会复杂系统建模与仿真计算专业委员会筹备处（CSSC)，2009：7.",
+    "context6": "5]BrachmanRJ，SchmolzeJG.AnOverviewoftheKL-ONEKnowledgeRepresentationSystem.CognieScience，1985（2)：71-216.",
+    "context7": "陈金菊南京大学信息管理学院2015级硕士研究生。"
+  }
+}

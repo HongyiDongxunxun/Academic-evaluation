@@ -1,0 +1,53 @@
+{
+  "original_filename": "full_5536.md",
+  "我国ECIP研究现状及其发展对策": {
+    "context1": "陈欢欢 (连云港师范高等专科学校图书馆)",
+    "context2": "摘要ECIP，即在出版过程中实现中文图书的“自动编目”，处理对象是图书的印前电子文本，也就是图书在版编目的数字化和网络化。本文通过对中美两国ECIP发展历程的对比分析，概括总结了我国ECIP的研究现状，明确指出在我国ECIP计划实施过程中可能遇到的问题，并在此基础上提出了简化字段、加强沟通和完善标准三条相应的对策。",
+    "context3": "关键词ECIP 在版编目中国机读目录格式 自动编目",
+    "context4": "DOI: 10.13663/j.cnki.lj.2016.03.006"
+  },
+  "The Current Research and Future Development of ECIP in China": {
+    "context1": "Chen Huanhuan(Library ofLianyungang Normal College)",
+    "context2": "AbstractECIP, namely,to achieve “automatic cataloging”of Chinese books in the publishing process, deals with electronic texts before printing.In other words,itis the digitization and networking of cataloging. By comparing the development process of ECIP in China and United States,this paper summarizes the research status of ECIP,and clearly points out that three problems ECIP program may encounter. It then puts forward the corresponding countermeasures: simplifying fields,strengthening communication and improving standards.",
+    "context3": "Key wordsECIP, CIP, CNMARC, Automatic cataloging"
+  },
+  "1ECIP及其发展历程": {
+    "context1": "所谓 ECIP (Electronic Cataloging in Publication),即在出版过程中实现中文图书的“自动编目”处理对象是图书的印前电子文本[1]，也就是在版编目（CIP）的数字化和网络化。其运用的技术原理有三[2]：(1）一次录入，生成两种产品。即通过在图书印前电子文本中加入结构标签的方法，让其自动生成目录卡片和机读目录两种产品。(2）对线性文件进行结构化处理。自动编目的实现，是利用中文图书印刷版的印前电子文本，从中直接提取书目记录所需要的描述性数据元素，在图书生产过程中自动产生该书的书目记录。但印前电子文本是线性文件，要使之成为数据库文件，需要对其进行结构化处理。(3）属性数据元素在图书物理结构之中。图书馆的书目记录与CIP数据，均包含著录数据与检索数据两部分内容。其中著录数据取自文献本身，即书目记录的著录数据存在于该书的印前电子文本之中。通过剖析印刷版图书的物理结构，可确定书目记录所需要的数据元素。",
+    "context2": "1995年，美国国会图书馆在推进数字图书馆进程中率先实施 ECIP计划;2001年，陈源蒸首次将 ECIP介绍到我国，至此开始 ECIP 在中国的发展历程，见下页表1。"
+  },
+  "2我国 ECIP 研究现状": {
+    "context1": "纵观我国ECIP发展历程可以看出，我国ECIP 研究具有如下特点：",
+    "context2": "(1）起步晚，进程缓慢。2001年，ECIP才被介绍入我国；而美国早在五六年前已开始付诸实施。现阶段我国的ECIP尚处于理论探讨和个别实践阶段；而美国的ECIP项目于2007年1月，已正式代替传统的纸质CIP项目，成为国会CIP数据的标准获取方式。纸质的申请单将只适用于以下几种文献： $\\textcircled{1}$ 非英语语言的图书（当代西方欧洲语言除外）； $\\textcircled{2}$ 题名页任何位置出现读音符号的图书（当代西方欧洲语言除外）； $\\textcircled{3}$ 内容主要包含图像、表格、图表、数学公式或化学方程式等的图书（儿童读物除外）[12]。除此之外的纸质申请单都将被拒绝，CIP中心将要求出版社必须提供电子版本的申请单。无法参与ECIP项目的出版者，则可以考虑 EPCN项目(Electronic PreassignedControl Number Program)。",
+    "context3": "表1中美两国ECIP发展历程",
+    "context4": "<table><tr><td rowspan=1 colspan=1>国别时间</td><td rowspan=1 colspan=1>中        国</td><td rowspan=1 colspan=1>美       国</td></tr><tr><td rowspan=1 colspan=1>1995</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>美国国会图书馆率先实施 ECIP计划[3]</td></tr><tr><td rowspan=1 colspan=1>2000</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>美国国家医学图书馆（NLM）加入ECIP计划[4]</td></tr><tr><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>陈源蒸撰文探讨ECIP计划的内容、实施ECIP计划的重要性，并且呼呼在国内建立在版编目系统[5]</td><td rowspan=1 colspan=1>美国加入ECIP计划的出版商达到1067家，比2000 年同期增加了78%，而且10 501家出版商加入EOCN计划，比去年同期增加58%[6]</td></tr><tr><td rowspan=1 colspan=1>2002</td><td rowspan=1 colspan=1>陈源蒸发表系列文章，提出ECIP的技术原理</td><td rowspan=1 colspan=1>美国加入ECIP的出版商达到2222家，比去年同期翻了一倍</td></tr><tr><td rowspan=1 colspan=1>2003</td><td rowspan=1 colspan=1>陈源蒸公布《ECIP 实用字段、子字段一览表》</td><td rowspan=1 colspan=1>第一个ECIP记录由美国康乃尔大学图书馆生成[8]</td></tr><tr><td rowspan=1 colspan=1>2004</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>美国ECIP项目已包括2800多个出版商，而且近一半的CIP 请求是以电子版形式接收的[9]</td></tr><tr><td rowspan=1 colspan=1>2005</td><td rowspan=1 colspan=1>陈源蒸撰文介绍复合出版系统 HDPS 中包含的ECIP 处理软件[10]</td><td rowspan=1 colspan=1>美国包含MARC21“505字段”中书名页信息的ECIP书目记录，从2001年的17%增长到2005年的38%，增长一倍还多[8]</td></tr><tr><td rowspan=1 colspan=1>2007</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>美国 ECIP项目正式代替传统的纸质CIP项目，成为国会图书馆 CIP 数据的标准获取方式[1]</td></tr></table>",
+    "context5": "(2）研究力量单薄。陈源蒸是我国ECIP计划的发起人和主力军。2001年12月，他发表《尽快制定与实施 ECIP计划》一文，打响我国ECIP研究的第一枪。2003年，陈源蒸出版《中文图书ECIP与自动编目手册》一书，在书中他详细探讨了ECIP的产生背景、它的机读格式以及使用细则等，为我国ECIP计划的实施奠定了一定的理论基础和实践基础。",
+    "context6": "百花齐放，百家争鸣，方能达到学术繁荣。而国内ECIP研究领域，除发起者陈源蒸外，其他学者有关ECIP的研究寥寥无几：2004年7月，张丽娟发表《CNMARC存在的问题与",
+    "context7": "ECIP计划的实施》一文；2005年4月，她又发表《ECIP与CNMARC两种机读格式的比较研究》一文;2005年11月，蒋小耘发表《ECIP自动编目软件系统设计思想的探讨一一兼与张丽娟等同志商榷》一文；2007年2月，钱晶发表《CNMARC存在的不足与ECIP计划》一文；同年6月，杨兰芝等发表《CIP存在的问题与ECIP计划的实施》一文;2011年11月，张燕发表《ECIP计划与中文图书自动编目》一文。",
+    "context8": "这其中绝大部分学者都秉承了陈源蒸的思想，并在此基础上展开讨论。而只有蒋小耘对陈源蒸“通过简化CNMARC字段，限制字段指示符的选择性定义以达到MARC与DC匹配”的主导思想提出了异议。他认为这样大规模简化字段，忽视了与国际接轨、图书馆业务的规范性以及读者利用文献的需求等因素，会造成书目数据无法国际共享、文献的深层揭示无法实现等问题，从而导致某些图书一旦入库，就再也检索不出等恶劣后果。他的担忧也有一定道理。这就需要我国学者在以往ECIP研究成果的基础上加以改进，对其著录字段详加斟酌，尽快完善ECIP计划。"
+  },
+  "3我国CIP存在的问题及ECIP的发展对策": "",
+  "3.1 CIP 存在的问题": {
+    "context1": "我国CIP计划推行多年，仍未收到预期效果，主要原因是CIP数据质量不高，主要表现在以下几个方面[13：一是著录问题，著录数据中某些著录内容（包括书名、责任者、出版时间、丛书项、排检项）不准确或有缺漏，著录格式、标识符号不规范等；二是分类标引问题，对类目含义的理解有误，细分程度不够，仿分、复分差错，分类标引不一致，对丛书多卷书的处理不当等；三是主题标引问题，主题分析误差，主题概念提炼不足、提炼过多或提炼错误，主题词不专指，主题词组配错误，用非正式主题词代替正式主题词，标引不一致等；此外，还有印刷方面的问题，如印刷位置、格式不规范等。",
+    "context2": "这种状况，是由两方面的原因造成的：一方面，编目工作所依据的一系列标准，如《普通图书著录规则》《中国图书馆分类法》和《中国分类主题词表》，对一般出版社的编辑及工作人员来讲实在过于专业，这就导致出版社填报的信息与CIP数据中心的要求往往相去甚远，有些信息非但无用，还会给CIP中心工作人员造成误导。另一方面，虽然我国CIP数据从实施起就应用计算机处理，软件系统也逐步完善，但至今也未能与出版社建立联机工作网络。图书在定稿印刷前的改动，不能及时地被CIP中心掌握；CIP中心在编目过程中出现的疑问，也不能及时得到答复，导致数据处理速度缓慢，沟通渠道不畅，出现错误就在所难免。"
+  },
+  "3.2ECIP的发展对策": {
+    "context1": "ECIP是文献工作数字化的第一层面，是编目工作发展的必然趋势，要想解决以上问题，就必须加快推进ECIP进程，让CIP走进互联网，让CIP实现自动化。那在中国推行ECIP计划将会遇到哪些问题，以及如何应对呢？下面笔者就谈谈中国ECIP计划的发展对策。",
+    "context2": "(1）简化字段。近年来，随着信息技术的不断发展和信息量日益剧增，编目工作量也在增大，而且对质量的要求也更高，而CNMARC格式的繁琐、重复、冗长等不足之处就日渐明显。这就需要我们积极推行ECIP计划，在不削弱检索能力的基础上简化字段。有学者担忧我国的ECIP设想“通过简化CNMARC字段，限制字段指示符的选择性定义以达到MARC与DC 匹配”，会造成可检字段的减少。其实我国的ECIP计划正是在CNMARC的基础上提出的，只要我们立足实践，吸取CNMARC的经验与教训，完全可以达到既摒弃CNMARC的冗余重复，又不损害字段的可检性的双赢效果。",
+    "context3": "(2）加强沟通。我国的CIP工作正是因为在出版社－CIP中心－书商－图书馆之间缺乏交流渠道，才导致推行以来，一直效果不佳。我们实施ECIP计划，一定要克服这一弊病，建立中间网络，加强沟通，协调各机构之间的关系，见下页图1所示。",
+    "context4": "首先，要加强出版社与作者之间的沟通。作者最了解自己的作品，让作者填写书稿登记表，帮助标引相关主题内容，有益于提高CIP数据的准确性。",
+    "context5": "其次，要增进 ECIP中心与出版社之间的互动交流。在ECIP中心和出版机构两个层面调整现有的处理流程与操作方法，让所有出版信息的处理都在同一平台上实现，这样出版物在出版印刷前的任何改动，在这个平台上都能体现。同时，ECIP中心的服务网页还应设立互动交流页面，方便及时沟通改动信息，保证CIP数据的准确性。",
+    "context6": "再次，还可以借鉴美国国会图书馆的做法，成立ECIP顾问组来疏通图书馆和出版社之间的联系；并持续对主要用户进行调查，以明确图书馆对ECIP的真实需求，从而使ECIP得到读者以及社会各界的更多支持，促进图书馆界和出版界的共同繁荣和发展。还应成立ECIP修订小组，及时对出版社和图书馆反馈回来的意见做出处理，定期修订ECIP字段和著录事项，切实发挥ECIP应有的作用。",
+    "context7": "最后，我国CIP中心对CIP的管理早已实现了计算机网络化，但编制的CIP机读书目数据，不对外发布，使得目前图书馆、出版社、书商不能及时得到机读书目数据，还要重复编目，造成人力、物力、财力的浪费。我们可以借鉴美国国会图书馆的做法，CIP数据编制完成的同时生成机读数据，并将其提供给图书馆、书商等。图书出版后，出版社要呈缴给国家图书馆，国家图书馆进行核对和添加数据，再重新发布机读书目数据，为各编目机构所用，避免重复编目。CIP数据中心是图书书目数据编制的源头，如果能实现CIP机读书目数据的资源共享，就能真正提高CIP工作的社会效益，真正实现 ECIP。",
+    "context8": "![](images/d2baebd95a5b17e7072eb2707093a745ac40d25e8eb3657b7b877ba7be07aea5.jpg)  \n图1ECIP 计划沟通图",
+    "context9": "(3）完善标准。CIP数据没发挥预期效益,还有一个重要的原因是政府在图书在版编目方面没有明确的法规加以限制，导致CIP数据得不到出版社的足够重视，出版社只是把它作为工作中的一道手续，至于图书出版后在版编目数据是否正确与它们毫不相干。所以要推行ECIP计划，首先要完善考核ECIP工作质量的相关标准，一方面针对出版社，将CIP数据质量纳入图书质量考核，可以提高出版部门对在版编目的重视，增强出版社的责任意识；另一方面针对ECIP中心，要求 ECIP中心核对、修正CIP数据时，既要注意数据的准确性，也要注意时效性，避免时间无限期的拖延而对出版商的正常工作造成影响。",
+    "context10": "第二，要健全审核机构，提高审核力度，要做到有章可依，有章必依。严格遵照《图书书名页》和《图书在版编目数据》(修订版）两项国家标准以及《图书流通信息标准》《普通图书著录规则》《中国机读目录格式》《信息技术一一通用多八位编码字符集》等出版业、图书馆界和计算机领域的有关标准。只有这样运用法律法规的手段，才能真正促进图书在版编目工作的顺利实施和健康发展。"
+  },
+  "4结束语": {
+    "context1": "中国在版编目工作推行二十余年，仍有许多问题没有解决，还需要图书情报界、出版发行界以及CIP中心共同努力，合力推行ECIP计划。可以预见，在不远的将来，ECIP计划在国内学者的积极研究和编目人员的努力实践下必将日趋成熟，并最终得以实施。ECIP计划一旦实现，将会实现编目工作的前移，新书在出版前已经实现了自动编目，中小型图书馆采购图书后只需在ECIP中心发布的机读书目数据上添加标志图书馆属性的字段后即可使用，大大缩短了新书与读者见面的时间，也在很大程度上减轻了编目人员的工作量。而联编机构、大中型图书馆有必要对书目记录进行补充提升时，在ECIP数据的基础上进行人工干预也比较方便。这样，各类型图书馆可以以最快的速度将ECIP数据用于新书通报和读者荐书活动，提高图书利用率；负责馆藏发展的馆员，也可通过ECIP记录提前了解未来出版物的状况，更好地优化馆藏。由此可见，ECIP的实现将全面提高我国编目工作的速度和质量，同时还可以为制定EBOOK标准奠定基础，加快出版数字化进程，促进数字图书馆的建设。"
+  },
+  "参考文献": {
+    "context1": "[1］陈源蒸.关于CNMARC格式调整的构想[J].图书 馆学刊,2002(6):1-4.   \n[2] 陈源蒸.中文图书ECIP与自动编目手册[M].北京: 北京图书馆出版社,2003:10-11.   \n[3] 陈源蒸.推行ECIP计划实现中文图书“自动编 目”[J].图书馆学刊,2002(1):2-6.   \n[4]ECIP Program Expands to Include Clinical Medicine[EB/OL].[2014-07-10].http://www.loc. gov/loc/lcib/0012/ecip.html.   \n[5］陈源蒸.尽快制定与实施ECIP计划[J].出版经济, 2001(12): 43-45.   \n[6] Document Resume[EB/OL]. [2014-07-10]. http:// www.eric.ed.gov/ERlCDocs/data/ericdocs2sql/ content_storage_01/0000019b/80/1b/62/90.pdf.   \n[7] Newsletter[J/OL].[2014-07-10].http://www. musicoclcusers.org/Newsletter/83May2003.pdf.   \n[8］郑琳,刘如.中美图书在版编目的比较和借鉴[J]. 农业图书情报学刊,2008(8):99-102.   \n[9]Library of Congress Report to the Digital Library Federation Spring[DB/OL].[2014-07-10]. http:// www.diglib.org/pubs/news04_02/loc.pdf.   \n[10] 陈源蒸.中文图书自动编目的实现[J].中国图书 馆学报,2005(1):38-40.   \n[11] Cataloging in Publication Program[OL]. [2014-07-10].htp://www.loc.gov/publish/cip/.   \n[12] Scope of the PCN program[OL].[2014-07-10]. http://www.loc.gov/publish/pcn/about/scope.html.   \n[13] 杨兰芝,田昊，曾照云.CIP存在的问题与ECIP计 划的实施[J].现代情报,2007(6):149-151.",
+    "context2": "陈欢欢女，连云港师范高等专科学校图书馆，馆员。研究方向：信息组织与信息管理。E-mail：chenhuanhuan0122@163.com 江苏连云港 222006(收稿日期：2014-08-31 修回日期:2014-10-11)"
+  },
+  "(上接第42页)": ""
+}

@@ -1,0 +1,143 @@
+{
+  "original_filename": "full_4792.md",
+  "多模态命名实体识别研究进展": "",
+  "韩普²陈文祺": {
+    "context1": "1（南京邮电大学管理学院南京210003）  \n2（数据工程与知识服务省高校重点实验室(南京大学）南京 210023)",
+    "context2": "摘要：【目的】梳理归纳多模态命名实体识别研究成果,为后续相关研究提供参考与借鉴。【文献范围】在Web of Science、IEEE Xplore、ACMDigital Library、中国知网数据库中,以\"多模态命名实体识别\"“多模态信息抽取\"\"多模态知识图谱\"为检索词进行文献检索,共筛选出83篇代表性文献。【方法】从概念、特征表示、融合策略和预训练模型4个方面对多模态命名实体识别研究进行总结论述,指出现存问题和未来研究方向。",
+    "context3": "【结果】多模态命名实体识别目前主要围绕模态特征表示和融合两个方面展开且在社交媒体领域取得了一定进展,需要进一步改进多模态细粒度特征提取和语义关联映射方法以提升模型的泛化性和可解释性。",
+    "context4": "【局限】直接以多模态命名实体识别为研究主题的文献数量较少,在支撑综述结果方面存在局限性。【结论】针对多模态命名实体识别亟需解决的问题展望未来发展趋势,为进一步拓宽多模态学习在下游任务应用的研究范畴、破解模态壁垒和语义鸿沟提供了新思路。",
+    "context5": "关键词：多模态命名实体识别特征表示多模态融合多模态预训练",
+    "context6": "分类号：TP391G35  \nDOI:10.11925/infotech.2096-3467.2023.0488",
+    "context7": "引用本文：韩普，陈文祺.多模态命名实体识别研究进展[J].数据分析与知识发现,2024,8(4)：50-63.(HanPu, Chen Wenqi. Review of Multimodal Named Entity Recognition Studies[J]. Data Analysis and KnowledgeDiscovery, 2024, 8(4): 50-63.)"
+  },
+  "1引言": {
+    "context1": "近年来，随着互联网的飞速发展,网络信息正逐渐从文本、图像、音频、视频等单模态形式过渡到相互融合的多模态形式，多模态数据包含了丰富的实体形态信息和语义关联知识,围绕多模态展开的相关研究受到多个学科和领域的极大关注。多模态命名实体识别（Multimodal Named Entity Recognition,",
+    "context2": "MNER)旨在通过融合文本、图像、声音和视频等多种模态,实现语义信息在各个模态之间的交流和转换,进而准确识别目标模态所包含的实体[1-3]。多模态命名实体识别是自然语言处理、计算机图形学、多媒体处理和语音识别等学科领域的交叉研究,是跨模态信息检索[4]、多模态机器翻译[5]、视觉问答[和多模态知识图谱构建[7等多模态学习任务的基础环节,同时也是多模态学习打破不同模态语义鸿沟，获得更强的语义理解、知识补全和知识推理能力的重要突破点。",
+    "context3": "多模态命名实体识别是多模态学习和自然语言处理领域中一项重要的基础研究，目前相关研究还处在探索阶段，为系统了解多模态命名实体识别最新的研究进展,本文在Webof Science、IEEE Xplore和 ACM Digital Library 数 据 库 中以“TS (MultimodalNamedEntityRecognitionORMultimodal Information Extraction OR MultimodalKnowledgeGraph)\"为检索式进行检索,在中国知网以“( $\\mathrm { S U } = ^ { \\circ }$ 命名实体识别'OR SU $\\equiv$ “实体识别'）AND（ $\\mathrm { S U } = { \\bf \\cdot }$ 多模态'OR $\\mathrm { S U } = ^ { \\circ }$ 跨模态')OR $\\mathrm { S U } = ^ { \\circ }$ 多模态知识图谱'OR $\\mathrm { S U } = ^ { \\circ }$ 多模态信息抽取'\"为检索式进行检索。考虑到多模态命名实体识别是近10年来引起学界广泛关注的研究主题，本文将检索文献时间范围设为 $2 0 1 0 { \\sim } 2 0 2 3$ 年，另外通过回溯检索，最终人工筛选出83篇与主题密切相关的学术文献，其中英文文献73篇，中文文献10篇。",
+    "context4": "通过梳理相关文献发现，目前多模态命名实体识别相关的综述文献主要围绕多模态机器学习技术和算法展开。其中较为经典的是卡内基梅隆大学研究团队发表的两篇综述[8-9],详细阐述了多模态机器学习算法的发展现状、面临的挑战和发展趋势。国内也有学者对多模态机器学习应用、多模态融合和多模态预训练等技术做了归纳总结[3,10-11]。尽管目前已有不少针对多模态命名实体识别的深度学习模型,但是学界对多模态命名实体识别尚未形成成熟的研究思路和研究框架,对于多模态命名实体识别任务涉及的模态表示、模态融合和预训练等关键技术还缺乏系统的梳理。基于此,本文首先对多模态命名实体识别的概念与研究框架进行论述,接着阐述多模态学习在实体识别任务中的关键环节，重点对模态特征表示和多模态数据融合的关键技术进行深入分析,并归纳多模态预训练在多模态命名实体识别任务中的最新研究进展，最后对已有研究遇到的问题和挑战进行总结和展望。"
+  },
+  "2多模态命名实体识别概述": {
+    "context1": "多模态(Multimodality)是指事物呈现的不同方式[3.8]。目前大量网络信息以图文、声音和视频等多模态形式出现,尤其是近些年涌现出大量短视频、直播和视频会议等应用生成了海量的多模态数据，这为多模态学习提供了丰富的数据资源和应用场景。多模态命名实体识别是在多模态机器学习研究范式下，以传统的文本实体为基础,引入图像或声音等不同模态数据强化机器对不同模态信息的感知、理解、推理和学习。作为多模态信息抽取的关键环节，近些年多模态命名实体识别受到学界的格外关注。"
+  },
+  "2.1多模态命名实体识别发展历程": {
+    "context1": "多模态命名实体识别任务最早由Moon等[1提出,源于实体抽取任务在社交媒体领域中的应用，旨在提升实体识别的准确率。为了更清晰地呈现多模态命名实体识别发展脉络，本文将该任务划分为模态引入、模型改进和领域推广三个阶段。在模态引入阶段,针对社交平台上推文在文本基础上增加了图片模态的变化，命名实体识别任务尝试利用视觉特征补充文本上下文信息以提升实体识别效果，并在此基础上衍生出多模态命名实体识别任务。该阶段研究主要基于多模态属性抽取任务框架确立了多模态命名实体识别的研究思路[12-13],并构建了面向该任务的数据集。随着多模态命名实体识别研究的推进,早期工作出现了图片和文本内容不匹配无法实现语义关联的问题，且图片中与文本无关的信息可能作为噪声而影响模型性能。针对上述问题,在多模态命名实体识别模型改进阶段，现有研究从不同视角提出了多种思路和方法。在多模态语义对齐方面，文献[13-15]提出基于Transformer架构的多模态命名实体识别模型,利用Transformer强大的语义捕捉能力学习图片与文本实体相关联的语义特征；Zhang等[16]和 Zheng等[17]分别提出了基于多模态图和对抗性双线性注意力融合方法提取细粒度语义特征以实现语义关联。在缓解视觉噪声方面，Sun等[18-19]通过多模态预训练模型和关系传播机制实现了视觉噪声过滤,进而提升模型识别实体效果。从现有研究可以发现，目前针对社交媒体领域的多模态命名实体识别任务已比较成熟，有部分研究尝试在多个领域拓展该任务的研究范畴。在领域推广阶段,多模态命名实体识别研究主要聚焦在模态拓展和领域迁移方面，其中模态拓展是指研究对象不仅针对图像和文本，还进一步扩展到音频、视频等模态[20-21]；而领域迁移是指数据来源不局限于社交平台，还逐渐扩展到医疗健康、数字人文和语言文学等领域[3,22-2] 。"
+  },
+  "2.2多模态命名实体识别任务概念和分类": {
+    "context1": "目前学界对多模态命名实体识别的概念尚未达成共识,已有研究主要从不同视角给出了多模态命名实体识别的概念和解释。Moon等1将多模态引入实体识别任务以补充高噪声短文本的语义信息；Zhang等[2]指出多模态命名实体识别主要是借助图像等多模态抽取文本中的实体，并按照预定义类型对识别出的实体进行分类;Lu等[12]认为多模态命名实体识别任务是利用图像辅助文本实体识别，该任务本质上仍为序列标注问题; $\\mathrm { Y u }$ 等[14]提出多模态命名实体识别是利用关联图像以更好地识别文本中的实体;范涛等[22]认为多模态命名实体识别是为了挖掘文本和图片的关系以增强文本语义信息，从而提升模型识别实体的性能。通过已有研究分析可知，多模态命名实体识别是在多模态学习研究框架下传统命名实体识别任务的外延,其主要目的是通过融合多种互为补充的模态信息，提高实体识别的准确性、鲁棒性和泛化性,为多模态语义深层交互和理解奠定基础。尽管学界针对多模态命名实体识别的概念尚未达成共识,但对于该任务试图达到的目标是一致的,即在语言理解和视觉环境之间架起桥梁,增强机器对信息和知识的理解。",
+    "context2": "根据任务设计的模态数据组合划分，多模态命名实体识别可分为基于图像-文本的命名实体识别和基于声音-文本的命名实体识别两类,前者最初聚焦于社交媒体领域以解决高噪声短文本中的实体识别问题，并逐步迁移至其他领域以补充文本的语义信息[2426],也是目前多模态命名实体识别研究中最为广泛的一类任务;后者主要利用声学模态中语调、节奏等语义信息提升文本模态实体识别效果,有助于确定文本中实体边界和消除实体歧义问题[21,27]。"
+  },
+  "2.3多模态命名实体识别研究框架": {
+    "context1": "目前常见的主流多模态实体识别框架通常是在传统单模态模型基础上融入多模态机器学习方法。具体而言，多模态命名实体识别遵循特征表示、特征学习和解码预测的研究思路，仍然属于序列标注任务。但与基于文本的单模态命名实体识别任务相比,多模态命名实体识别研究在单独提取不同模态特征基础上需要进一步实现模态间的语义对齐和融合，即构建能够融合异构数据的共享语义子空间以提升模型对多模态数据的语义理解,最终提高实体识别效果[9,28-29]。 目前最为常见的图像-文本多模态实体识别的研究框架如图1所示。该示例中，首先将输入的单模态数据分别编码为向量形式,然后输入多模态交互模块中执行对齐和融合任务，通过特征学习构建多模态表示，最后解码输出实体标签[30-31]"
+  },
+  "3模态的特征表示": {
+    "context1": "在多模态命名实体识别任务中,模态特征表示是多模态融合的前提,是构建共享语义子空间的基石。模态特征表示旨在通过神经网络模型对不同模态数据进行线性或非线性映射，以生成模态的高阶语义特征表示并以特征向量形式呈现[32-33]。目前在多模态实体识别研究中模态特征表示的研究重点集中在模态更深层次、更细粒度的语义信息提取。本节重点对多模态命名实体识别任务中主要涉及的文本、图像和声音三种模态特征表示方法进行分析。"
+  },
+  "3.1文本特征表示": {
+    "context1": "文本特征表示的核心是对文本的基本语义单元进行表示[8]。目前多模态实体识别处于以文本模态实体为主要识别对象,引入图像、声音等模态作为辅助以提升模型识别精度的阶段，文本特征表示依然是多模态命名实体识别任务的研究热点。在多模态命名实体识别任务中常见的文本特征表示模型有卷积神经网络（Convolutional Neural Network,CNN）、双向长短期记忆网络(BidirectionalLong Short-TermMemory，BiLSTM）和BERT（Bidirectional EncoderRepresentations from Transformers）等[34-36]。其中,CNN通过捕捉局部特征实现对文本实体的特征表示和学习;BiLSTM在循环神经网络的基础上增加了门控机制和记忆单元,能够更好地捕捉长距离的双向语义依赖，有效地解决了特征学习中长程依赖性问题;BERT使用海量无监督数据进行预训练，进而预先学习大量的语义知识,并利用微调技术适应多种下游任务，具有极强的语义表征优势和领域适"
+  },
+  "52 数据分析与知识发现": {
+    "context1": "![](images/0c8fac9b3f68a7aa2c3128a17eb11034493dd39aa49c9e08c39a335029e77c48.jpg)  \n图1多模态命名实体识别研究框架(以文本-图像为例)  \nFig.1A Research Framework for Multimodal Named Entity Recognition (With Text-Image Example)",
+    "context2": "应性。总体而言，文本模态表示越来越注重细粒度特征的学习,通过深层语义信息的充分挖掘提升机器对自然语言的感知能力。"
+  },
+  "3.2图像特征表示": {
+    "context1": "图像特征表示是多模态命名实体识别任务的研究重点，从图像中捕获与实体相关的高层语义信息并融合文本特征以提高性能是多模态实体识别任务的核心[3.8.37]。随着计算机视觉技术的发展,多模态实体识别任务图像特征表示出现了全局图像特征、局部图像特征和视觉对象特征表示等不同语义密度的特征表示方法[37]。全局图像特征是将整张图片编码为一个静态向量，并通过神经网络提取与文本内容相关的视觉信息，该方法简单易操作,但可能会导致大量图像细节信息的丢失[38-40]。局部图像特征表示通过将整张图片平均分为多个视觉区域,然后显式建模文本序列与视觉区域之间的相关性,最后得到图像的特征矩阵[41-42]。相较于全局图像特征提取方法，局部图像特征提取尽可能保留了图像的细粒度特征信息，但可能导致模态对齐困难和计算资源消耗较大等问题。视觉对象特征表示在局部图像特征表示的基础上实现了更细粒度的视觉特征表示。常见基于区域卷积神经网络（Regional",
+    "context2": "ConvolutionalNeuralNetworks,RCNN)的目标检测模型以边界框形式标注图像中的实体并生成弱文本标签,然后进一步结合注意力机制实现模态对齐[43]。在多模态命名实体识别任务中，视觉对象表示能够减少图像噪声以提升图像与文本的语义匹配程度[28],不足之处是难以刻画图像中多个实体目标之间的语义联系。"
+  },
+  "3.3声音特征表示": {
+    "context1": "声音模态特征表示是指通过提取声音信号的语义特征向量,利用神经网络模型将原始声音信号映射到一个连续的向量空间。构建声音特征表示的模型主要由语音处理层和编码器-解码器结构两部分组成[23.446]。语音处理层主要目标是将波形转换为向量序列，通常使用梅尔倒谱系数(Mel-scaleFrequency Cepstral Coefficients,MFCC)作为特征向量,MFCC是能够准确描述声道形状在语音短时功率谱上的一种声学特征[44]。声音特征向量经过神经网络多级映射后得到高阶特征表示，能够学习音频数据中多层次语义信息[45-46]。目前针对文本-声音模态的命名实体识别研究成果还比较少,但是声音特征中包含节奏、情感、音调和压力等语义信息，有助于模型明确实体边界和解决实体多层嵌套问题[21,27],因此融入声音特征的多模态命名实体识别模型有较大提升空间。"
+  },
+  "4多模态实体识别中的多模态融合策略": {
+    "context1": "多模态融合(MultimodalFusion)是多模态命名实体识别任务中一个极具挑战性的问题,它是指将具有异质性的多种单模态特征映射至同一向量空间中,并对该空间中的多模态信息进行处理,最终构建多模态特征向量表示[8-9]。多模态融合是体现多模态优势的核心技术，通过多种模态交互并构建融合多种异构信息的特征表示使得模型能够持续进行自适应调整，从而提高模型的精确性和稳定性[9]。"
+  },
+  "4.1多模态融合架构": {
+    "context1": "根据多模态特征表示方式，多模态命名实体识别中的多模态融合架构可以分为联合架构和协同架构[8],如图2所示。联合架构是将不同模态的特征表示融合到一个共享语义子空间,通过对齐单模态特征向量得到多模态联合特征表示[22.47-48]；协同架构旨在保证单模态特征相对独立的前提下为其他模态提供语义信息补充，最终生成多模态协同特征表示[4,13,49]",
+    "context2": "![](images/2de0bbe041861dba297146536d91c8a20b5de216d506215462dd105cf9d74354.jpg)  \n图2两种多模态融合架构示意图  \nFig.2Schematic Diagram of Two Multimodal Convergence Architectures"
+  },
+  "（1）联合架构": {
+    "context1": "联合架构是将单模态特征表示映射到多模态共享语义子空间，从而构建融合多个模态语义信息的多模态特征向量。联合架构在多模态分类和预测任务中使用广泛并且拥有较好表现,如视频分类[50]、命名实体识别[51]、情感分析[52]、视觉问答[53]和语音识别等[54]。联合架构实现的关键在于构建能够统一表示多种语义信息的向量空间，早期工作一般采取简单拼接方式[8-9],即在不同的隐藏层实现共享语义子空间,将转换后的各个单模态特征向量语义组合在一起,如公式(1)所示。另一种方法是将多种模态融合在统一的张量中,该张量由所有单模态特征向量的输出乘积构成[54],具体如公式(2)所示。",
+    "context2": "$$\n{ \\pmb y } = f _ { 1 } ( { \\pmb x } _ { 1 } ) + f _ { 2 } ( { \\pmb x } _ { 2 } )\n$$",
+    "context3": "$$\n{ \\bf y } = f _ { 1 } ( { \\bf x } _ { 1 } ) \\times f _ { 2 } ( { \\bf x } _ { 2 } )\n$$",
+    "context4": "其中， $\\mathbf { \\boldsymbol { x } } _ { i }$ 表示输人模态 $; f _ { i }$ 表示模态 $\\mathbf { \\boldsymbol { x } } _ { i }$ 的编码方式； $\\boldsymbol { y }$ 表示融合后的多模态特征表示。",
+    "context5": "简单拼接方法虽然操作简便，但是容易造成语义丢失问题从而导致模型性能下降,因此目前常借助深度神经网络更加充分地融合模态特征[5],深度神经网络通过端到端的训练模式保证多模态融合过程中语义的连续,在构建多模态联合特征表示的同时也可以执行回归或预测等具体任务。"
+  },
+  "（2）协同架构": {
+    "context1": "多模态协同架构是将多种单模态特征表示在一定约束条件下实现协同工作[56-57]。协同架构在保持各个单模态特征相对独立的同时实现多模态融合，这一特性有利于在跨模态转移学习中实现不同模态或领域间信息的相互传递[58]。具体地,在多模态命名实体识别任务中协同架构常用于基于跨模态转化的融合方法，一般思路是首先分别学习文本、图像等单模态特征,然后将图片等其他模态信息在一定约束条件下转化为文本信息，最后将转化后的文本辅助信息与原文本信息结合从而实现多模态融合[4.28.59]。尽管协同架构能够避免在同一语义空间中异构数据的语义冲突问题,但是该融合思路对构建高效的跨模态学习模型有较高的要求，因此协同架构在多模态实体识别任务中应用较少。"
+  },
+  "4.2多模态融合方法": {
+    "context1": "早期的多模态融合方法研究主要集中在早期融合和晚期融合，这两种方法也称为与模型无关的融合方法。早期融合方法通过简单拼接将提取的单模态特征表示融合为多模态特征表示[20.60-61],该方法操作简单,容易实现,但无法充分利用多个模态间语义的关联性和互补性，且存在引入噪声信息的不足[62-63]。晚期融合方法则针对模态间差异训练不同的模型,然后再融合多模态语义特征并构建多模态特征表示。晚期融合方法相比早期融合方法鲁棒性更强，但是由于融合过程与模态特征无关，因此难以实现多模态间的交互[64-65]。为实现多模态异构信息更有效的交互，目前常用方法是基于模型的融合，该方法是在神经网络模型的基础上,通过对齐、转换等操作将各单模态特征映射至统一的语义向量空间,构建多模态特征表示。",
+    "context2": "（1）注意力融合$\\textcircled{1}$ 视觉注意力融合",
+    "context3": "视觉注意力融合最早由Lu等[12]运用在多模态命名实体识别任务中，该融合方法旨在找出图片中与文本密切相关的区域,同时过滤与上下文不相关的视觉噪声信息。在视觉注意力模块中，首先将文本特征作为查询向量,把局部视觉特征作为键和值,通过感知机将文本特征和视觉特征投影到同一维度；然后通过点积实现视觉注意力机制,并使用门控机制动态控制视觉特征与文本特征融合;最后将融合后的特征向量输入条件随机场（ConditionalRandomField,CRF)进行标记输出，视觉注意力机制具体如公式(3)-公式(5)所示。",
+    "context4": "$$\nA = ( \\operatorname { t a n h } { ( W _ { t } \\underline { { Q } } ) } ) \\oplus ( \\operatorname { t a n h } { ( W _ { \\nu } V ) } )\n$$",
+    "context5": "$$\nE = \\operatorname { s o f t m a x } \\left( W _ { a } A + b _ { a } \\right)\n$$",
+    "context6": "$$\n{ \\pmb { \\nu } } _ { c } = \\sum a _ { i } { \\nu } _ { i } \\quad a _ { i } \\in { \\pmb { E } } , { \\nu } _ { i } \\in V\n$$",
+    "context7": "其中, $\\varrho$ 和 $V$ 分别为文本和视觉的特征向量; $E$ 为局部视觉特征的权重; $\\smash { W _ { t } , W _ { p } }$ 和 ${ \\cal { W } } _ { a }$ 为参数矩阵; $a _ { i }$ 和 $b _ { a }$ 为系数； $\\pmb { \\nu } _ { c }$ 为视觉上下文特征向量,该向量经过门控机制过滤噪声后即可得到多模态特征表示[12]。",
+    "context8": "视觉注意力机制能够将模型集中关注的图像区域可视化，直观地展现文本信息和图像信息在语义空间中是否对齐，也有利于增强多模态融合模型的可解释性。",
+    "context9": "$\\textcircled{2}$ 协同注意力融合",
+    "context10": "协同注意力融合是由Zhang等[2首次提出并成功应用与于多模态命名实体识别任务，该方法通过协同注意力机制模块实现多模态融合。基于协同注意力机制的融合模型包括文本引导视觉注意力、图像引导文本注意力和门控机制三部分。文本引导图像注意力指计算文本中给定词与图片中各区域的相关程度;而图片引导文本注意力指计算给定图像与文本的相关程度，通过图像捕获文本内部的语义联系。文本和图像依次引导注意力机制旨在对齐图像和本文特征并过滤视觉噪声信息，以提升模型的特征表达能力。门控机制主要由融合门和过滤门组成,主要目的是获取更高质量的多模态特征表示，最后将该多模态特征向量输入CRF层进行解码并获取标签[6-67],具体如公式(6)-公式(8)所示。",
+    "context11": "$$\n\\hat { \\pmb { t } } _ { i } = \\operatorname { W G A } \\left( \\theta _ { w } ; \\ \\pmb { m } _ { t } , \\pmb { t } _ { i } \\right)\n$$",
+    "context12": "$$\n\\overset { \\wedge } { \\pmb { m } } _ { t } = \\operatorname { I G A } \\left( \\theta _ { i } ; \\begin{array} { c } { { \\hat { \\tiny { \\imath } } } } \\\\ { { { \\bf \\bar { \\jmath } } _ { i } , { \\pmb m } _ { t } } } \\end{array} \\right)\n$$",
+    "context13": "$$\n\\pmb { u } _ { t } = \\pmb { m } _ { t } \\oplus \\mathrm { g a t e } ( \\hat { \\pmb { t } } _ { i } , \\hat { \\pmb { m } } _ { t } )\n$$",
+    "context14": "其中，WGA表示文本引导图像注意力， $\\theta _ { w }$ 为文本引导视觉的注意力机制参数;IGA表示图像引导文本注意力, $\\theta _ { i }$ 为图像引导文本的注意力机制参数；$\\pmb { t } _ { i }$ 表示图片特征向量; ${ \\pmb { m } } _ { t }$ 表示文本特征向量[22];gate表示门控机制。",
+    "context15": "$\\textcircled{3}$ Transformer注意力融合",
+    "context16": "Transformer注意力融合由 $\\mathrm { Y u }$ 等[14]提出并较早应用于多模态命名实体识别任务，该融合方法在Transformer模型的基础上增加了多模态交互模块,用于捕捉文本和图像之间的语义联系。具体地，首先通过BERT模型和ResNet模型分别得到文本和图像的特征表示;接着将两种模态的特征向量输入多模态Transformer模块以实现不同模态的交互,并利用跨模态Transformer层和视觉门控对齐文本与图像特征;最后将构建的多模态特征表示置入条件随机场融合解码得到实体标签[12.18]。多模态交互模块是Transformer注意力融合方法的核心，多模态交互的原理如公式(9)和公式(10)所示。",
+    "context17": "$$\n\\pmb { A } = f _ { M } ( \\operatorname { I A W } ( \\pmb { P } ) , \\operatorname { W A I } ( \\pmb { Q } ) )\n$$",
+    "context18": "$$\ng = \\mathrm { s i g m o i d } \\left( W , A \\right) \\cdot Q\n$$",
+    "context19": "其中， $P$ 和 $\\varrho$ 分别为文本和图像特征;IAW表示视觉引导文本特征表示；WIA表示文本引导视觉特征表示； $W$ 为参数矩阵， $\\pmb { A }$ 为视觉和文本互相引导后经门控机制过滤后得到的特征向量[14]。",
+    "context20": "$\\textcircled{4}$ 双线性注意力融合",
+    "context21": "双线性注意力模型是双线性池化的扩展，增强了模态间的交互。为解决注意力机制应用于多模态学习任务中耗费过多的计算资源问题,Kim等[8]提出了双线性注意力网络（BilinearAttentionNetworks,BAN),使用低秩双线性池化层提取多模态输入的联合表示，在不增加成本的情况下高效地实现模态间交互。为了更好地捕捉视觉对象和文本实体之间的关系，Zheng等[17]在多模态命名实体识别任务中，利用门控机制改进了双线性注意力神经网络。改进后的网络能够通过计算输入通道匹配对之间的相关性，学习到不同模态之间的交互联系，门控机制是为了过滤无关的视觉噪声，最后把文本特征和视觉特征相加得到多模态特征表示，并输入CRF层进行解码。双线性注意力融合机制的原理如公式(11)-公式(13)所示。",
+    "context22": "$$\nf = \\mathrm { B A N } ( X , Y , A )\n$$",
+    "context23": "$$\nA = \\operatorname { s o f t m a x } \\left( ( ( \\boldsymbol { I } \\cdot \\boldsymbol { p } ^ { \\intercal } ) \\circ X ^ { \\intercal } \\boldsymbol { U } ) V ^ { \\intercal } Y \\right)\n$$",
+    "context24": "$$\n\\mathbf { \\psi } _ { Y _ { a t t } } = \\left( U _ { \\alpha } Y \\right) A ^ { \\mathrm { { T } } }\n$$",
+    "context25": "其中， $X$ 和 $Y$ 分别表示文本和图像两种模态通道的输入; $\\pmb { A }$ 代表双线性注意力图； $\\pmb { I }$ 为单位矩阵； $\\pmb { p }$ 为池化参数矩阵； $U , V$ 和 $U _ { a }$ 为参数矩阵； $^ { \\circ }$ 表示Hadamard乘积; $Y _ { a t t }$ 是句子中每个字所对应的视觉特征[17,68] 。"
+  },
+  "(2）图模型融合": {
+    "context1": "基于注意力机制融合的方法往往难以捕捉到图文对中细粒度语义单元之间的关系。为了更充分地利用视觉信息，有学者提出了一种基于图的多模态融合方法[19.69],该方法首先构建多模态图表示文本和图像的特征输入,其中每个节点表示一个单词或视觉目标，每条边表示模态间或模态内的联系；然后将多模态图送入多层感知机依次更新所有节点状态并编码生成多模态特征表示;最后通过CRF解码器输出实体标签。多模态图融合的过程如公式(14)-公式(17)所示。",
+    "context2": "$$\nC _ { x , o } ^ { ( l ) } = \\mathrm { m u l t i h e a d } ( H _ { x , o } ^ { ( l - 1 ) } , H _ { x , o } ^ { ( l - 1 ) } , H _ { x , o } ^ { ( l - 1 ) } )\n$$",
+    "context3": "$$\nR _ { x _ { i } , o _ { j } } ^ { ( l ) } = C _ { x _ { i } , o _ { j } } ^ { ( l ) } + \\sum a _ { i , j } \\otimes C _ { o _ { j } , x _ { i } } ^ { ( l ) }\n$$",
+    "context4": "$$\nH _ { x } ^ { ( l ) } = \\mathrm { F F N } \\big ( R _ { x } ^ { ( l ) } \\big )\n$$",
+    "context5": "$$\nH _ { o } ^ { ( l ) } = \\mathrm { F F N } \\left( R _ { o } ^ { ( l ) } \\right)\n$$",
+    "context6": "其中， $H _ { x }$ 表示文本节点; $H _ { o }$ 表示图像节点； $R _ { x }$ 和$R _ { o }$ 分别表示文本和图像融合上下文信息后特征表示;FFN为前馈神经网络[16]。",
+    "context7": "基于多模态图的融合模型表现出较强的关系推理能力，因此可以更准确地捕捉多模态之间的语义联系，同时也能够处理更加复杂的异构数据。",
+    "context8": "（3）跨模态检索融合",
+    "context9": "跨模态检索融合旨在实现不同模态之间的信息转换,主要研究思路是通过一种模态样本检索具有近似语义的另一种模态样本[70-71]。Yao等[4]提出使用跨模态密集检索的方法融合各模态特征，该方法借助Vokenization视觉语言模型将文本和图像的特征表示映射到一个共享语义子空间，通过最大内积搜索匹配文本和图像特征进而实现多模态融合，该融合方法具体过程如公式(18)-公式(20)所示。",
+    "context10": "$$\n\\mathbf { \\Sigma } _ { f _ { \\theta } } ( w _ { i } \\colon s ) = \\operatorname { E n c o d e r } _ { T } ( s )\n$$",
+    "context11": "$$\n{ \\pmb g } _ { \\theta } ( \\nu _ { u } ; \\ x ) = \\mathrm { E n c o d e r } _ { \\nu } ( x )\n$$",
+    "context12": "$$\n{ \\bf \\Delta } f _ { \\theta } ( w _ { i } ; \\ s ) = ( 1 - \\lambda ) \\ : f _ { \\theta } ( w _ { i } ; \\ s ) + \\lambda \\ : g _ { \\theta } ( \\nu _ { u } ; \\ x )\n$$",
+    "context13": "其中， $\\mathbf { \\mathcal { f } } _ { \\theta } ( w _ { i } ; \\ s )$ 表示文本特征向量; $\\pmb { g } _ { \\theta } \\big ( \\nu _ { u } \\colon x \\big )$ 表示视觉特征向量;λ为门控权重系数[4]。",
+    "context14": "已有研究表明跨模态检索融合方法在多模态命名实体识别任务上的表现不及其他主流模型,主要原因是目前多模态数据集规模较小，候选检索图像较少而难以充分地与指定文本配对。",
+    "context15": "综上，尽管多模态融合在多模态命名实体识别研究中取得了不少进展，但仍然面临以下挑战。",
+    "context16": "(1)模态特征对齐问题。目前多数研究主要运用注意力机制实现模态间交互，然而该方式对于多种模态描述同一实体在高层语义是否统一问题上缺乏解释性[20]。",
+    "context17": "(2)模型融合有效性问题。现有研究构建的多模态命名实体识别模型通常将多模态表示、对齐和融合等环节包含在一个深层神经网络中，导致各个环节边界模糊未能充分利用模态间的互补信息[2]。",
+    "context18": "(3)模态噪声问题。多模态融合的数据应该保证语义的强关联性，而在实际任务中难以保证模态间语义的一一对应,难免会引入噪声[72]。"
+  },
+  "5多模态实体识别中的预训练模型": {
+    "context1": "预训练模型近些年被广泛应用于命名实体识别任务，通过大规模语料预训练学习不同模态实体之间的语义对应关系，既提升了视觉语言模型的鲁棒性和泛化性,又节约了大量的计算资源。受此启发，预训练模型相继扩展到多模态场景。相对于单文本的预训练模型,多模态预训练模型可以更好地对细粒度多模态语义单元间相关性进行建模，从而保证模态之间的强关联性[3,],为解决多模态命名实体识别任务中面临的语义鸿沟问题提供了新方案。",
+    "context2": "多模态预训练一般遵循同一个研究框架，以图像-文本为例,通常包括视觉编码模块、文本编码模块、多模态融合模块、解码模块(可选)和预训练任务",
+    "context3": "5个模块[3.9.11]。常见的多模态预训练架构流程如图3所示。首先将各单模态经过相应编码模块得到特征向量表示;接着输入多模态融合模块进行交互融合；然后根据实际任务需求确定是否需要解码模块;最后执行预训练任务得到最终的多模态特征表示。",
+    "context4": "![](images/3dd21eeae6b5379263220ec5fd1b13a2458ce935674356ec94e45db5447af7b9.jpg)  \n图3多模态预训练架构(以图像-文本为例)  \nFig.3Multimodal Pre-training Architecture(Image-Text)",
+    "context5": "多模态预训练模型通常分为单流架构和双流架构[1],如表1所示。前者往往仅有单一的编码器,主要应用于检索和理解任务；而后者一般由编码器和解码器两部分组成，主要应用于生成和识别任务。",
+    "context6": "表1单流架构和双流架构的对比  \nTable1Comparison of Single-Stream and Dual-Stream Architectures",
+    "context7": "<table><tr><td>架构种类</td><td>原理</td><td>优点</td><td>缺点</td><td>代表性模型</td></tr><tr><td>单流架构</td><td>将文本和视觉特征组合在一起,馈入单个Trans- former块,通过合并注意力融合多模态输人</td><td>参数效率更高</td><td>对送入编码</td><td>无法解耦,需成VisualBERT[73]、VL-BERT[74] UNITER[75]</td></tr><tr><td></td><td>将文本和视觉特征独立输人不同的编码块,不 双流架构 共享参数,通常使用交叉注意力用于实现跨模 态交互</td><td>各模态的网络深度不同,独立 编码,自由组合;可快速解耦</td><td>参数量大</td><td>ViLBERT[76] ]、LXMERT[77] CLIp[78]</td></tr></table>",
+    "context8": "目前针对多模态命名实体识别任务的多模态预训练模型相对较少，其中具有代表性的研究有 Sun等[18-19]提出的RIVA和RpBERT多模态预训练模型。RIVA模型通过注意力机制充分利用视觉信息以辅助文本实体识别任务，而RpBERT模型利用关系传播机制解决多模态模型中视觉注意线索存在的噪声问题。两种模型在模态输入方式、组成模块和预训练任务方面的对比如表2所示。可以看出，RIVA模型和RpBERT模型均使用简单拼接方式融合不同模态数据以作为多模态预训练模型的输人，如公式(21)和公式(22）所示。",
+    "context9": "$$\nI n p u t ( R I V A ) = f _ { t } \\times f _ { \\nu }\n$$",
+    "context10": "$$\nI n p u t ( R p B E R T ) = W o r d T o k e n E m b e d d i n g +\n$$",
+    "context11": "Image Block Embedding其中 $\\mathbf { \\Delta } , f _ { t }$ 和 $\\ b { f _ { \\nu } }$ 分别为文本和图像的特征向量。",
+    "context12": "表2多模态命名实体识别中多模态预训练模型  \nTable2Multimodal Pre-training Models in Multimodal Named Entity Recognition",
+    "context13": "<table><tr><td>模型</td><td>模型输入</td><td>组成模块</td><td>预训练任务</td></tr><tr><td rowspan=\"2\">RIVA[18]</td><td rowspan=\"2\">乘法拼接图像 和文本模态</td><td>（1）图文关系门控网络 （2）注意力引导视觉上下文网络</td><td>(1)图片文本关系分类</td></tr><tr><td>（3）视觉语言上下文网络</td><td>(2)掩码区域预测</td></tr><tr><td rowspan=\"2\">RpBERT[19]</td><td>加法拼接图像</td><td>（1）图文关系分类模块</td><td>(1)图片文本关系分类</td></tr><tr><td>和文本模态</td><td>（2）视觉语言学习模块</td><td>(2)关系传播机制</td></tr></table>",
+    "context14": "RIVA和RpBERT模型的主要区别是架构设计。RIVA模型通过基于门控单元的注意力机制捕捉与文本相关的视觉区域信息以实现图像和文本之间的语义关联;而RpBERT模型增加了关系传播机制实现图像和文本的匹配，通过两个共享参数的多模态BERT结构实现文本和图像的深度融合。",
+    "context15": "尽管多模态预训练模型能够对细粒度语义单元进行建模,但目前多模态预训练模型在命名实体识别上应用较少，主要挑战表现在以下两方面。",
+    "context16": "(1)视觉表示方面。现有的视觉语言BERT模型,如VisualBERT、VL-BERT和UNITER等[73-75],均使用目标检测模型生成的感兴趣区域(Region ofInterest,RoI)特征表示作为视觉特征表示,RoI检测目的是降低视觉信息的复杂性,并使用语言线索执行掩蔽区域分类任务[79]。然而,对于不相关的文本-图像对,视觉噪声信息可能会增加对语言特征的干扰,Arshad等[13]通过实验证实了弱相关或不相关的图像会降低模型的预测精度。",
+    "context17": "(2)预训练任务方面。多模态预训练主要包括掩码语言建模(Masked Language Modeling,MLM）、掩码区域预测（Masked Region Prediction,MRP）和图像文本匹配(Image-TextMatching,ITM)三个任务[24,75,79],MLM和MRP有助于视觉语言模型学习图像-文本之间细粒度的关联特征，而ITM则能在细粒度层面上将两种模态的信息进行对齐。然而，目前多模态预训练模型一般是在图像字幕数据集上进行训练，如COCO 数据集或Conceptual Captions 数据集[80-82],这类数据集假设图像和文本是高度匹配的,而该假设在多模态实体识别任务中使用的部分数据集上未必成立。因此,在实际任务中直接将已有模型迁移到多模态命名实体识别任务极有可能导致模型性能的下降[83],需要动态调整多模态预训练任务。"
+  },
+  "6结语": {
+    "context1": "本文对多模态命名实体识别的相关研究工作进行系统梳理,阐述多模态命名实体识别的相关概念和研究框架,重点对多模态命名实体识别中的多模态特征表示、多模态融合策略和预训练模型进行分析。针对当前多模态命名实体识别研究存在的不",
+    "context2": "足，提出以下问题和展望。",
+    "context3": "(1)面向领域的高质量多模态数据集构建问题。由于多模态数据集构建需要投入大量的时间和精力，目前大多数多模态命名实体识别研究主要依赖基于社交平台的图片-文本公开数据集，然而单一的数据来源限制了多模态命名实体识别任务的研究领域,不利于机器对多模态数据的推理和学习,构建面向具体领域的高质量数据集已经成为多模态命名实体识别亟待解决的问题。未来工作在领域文本模态数据基础上引入视频、声音等多模态数据是构建多模态数据集的切实可行方案,进而推动领域多模态命名实体识别研究进展。",
+    "context4": "(2)多模态融合中异构数据冲突问题。多模态命名实体识别研究在多模态融合阶段存在语义冲突、重复和噪声等问题,解决方案通常是借助注意力机制隐式的对齐多模态语义特征,然而这种方法将多模态语义对齐过程融入一个神经网络,不易对该过程加以主动约束。未来工作中，一方面,可以从细粒度的模态特征提取切入，如通过视觉对象特征提取可有效解决数据稀疏和视觉噪声问题;另一方面，尝试引入多任务学习显式对齐多模态语义特征，如引导模型通过逻辑推理判别模态之间的关联性，进而加深机器对多模态信息的认知、理解和学习能力。",
+    "context5": "(3)多模态命名实体识别的预训练任务问题。多模态预训练模型使用的多模态数据集中每组数据组合都是语义高度相关的,而实际应用中难以保证异构数据的语义对应，因此直接将主流的预训练模型迁移至多模态实体识别任务中可能导致性能下降。未来工作可以从预训练任务切入,在通用的多模态预训练模型的基础上制定针对命名实体识别的预训练任务，如图文配对等多模态语义对齐任务，目的在于保证模型通过海量数据学习到丰富的多模态语义知识,从而进一步提升多模态命名实体识别效果。",
+    "context6": "(4)多模态命名实体识别中模态定位问题。已有的多模态命名实体识别研究主要基于文本模态而将其他模态作为文本信息的补充,最终输出文本序列的预测结果。然而,多模态学习的最终目标是使模型具备类似人类多维度获取信息和知识的能力，即各模态间应互相补充语义信息而不是为某一种模态服务。多模态命名实体识别作为多模态学习子任务之一，现阶段工作还未能实现上述目标,因此后续可基于现有工作进一步拓宽多模态命名实体识别研究范畴,构建统一的模型框架实现不同模态实体信息对齐,根据细分领域有针对性地输出具体模态的实体信息。"
+  },
+  "参考文献：": {
+    "context1": "[1]Moon S,Neves L,Carvalho V. Multimodal Named Entity Recognition for Short Social Media Posts[C]//Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). 2018: 852-860.   \n[2] Zhang Q,Fu JL,Liu XY,et al.Adaptive Co-attention Network for Named Entity Recognition in Tweets[C]/Proceedings of the 32nd AAAI Conference on Artificial Inteligence.2018:5674- 5681.   \n[3] 吴友政,李浩然,姚霆,等.多模态信息处理前沿综述：应用、融 合和预训练[J].中文信息学报，2022,36(5):1-20.(Wu Youzheng,Li Haoran, Yao Ting,et al.A Survey of Multimodal Information Processing Frontiers:Application,Fusion and Pretraining[J]. Journal of Chinese Information Processing, 2022,36 (5): 1-20.)   \n[4] Yao W, Yoshinaga N.Visually-Guided Named Entity Recognition by Grounding Words with Images via Dense Retrieval[C]/ Proceedingsof the Assciation for Natural Language Processing.2022: 1361-1365.   \n[5] Elliott D,Frank S,Hasler E.Multilingual Image Description with Neural Sequence Models[OL].arXiv Preprint,arXiv:1510.04709.   \n[6] Antol S,Agrawal A,Lu J S,et al. VQA:Visual Question Answering[C]//Proceedingsof2015IEEEInternational Conference on Computer Vision.2015:2425-2433.   \n[7] Zhu X R,Li Z X,Wang X D,et al. Multi-modal Knowledge Graph Construction and Application:A Survey[J].IEEE Transactions on Knowledge and Data Engineering,2024,36(2): 715-735.   \n[8] BaltruSaitis T,Ahuja C,Morency L P. Multimodal Machine Learning:A Survey and Taxonomy[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence,2019,41(2): 423-443.   \n[9] Liang PP,Zadeh A,Morency L P.Foundations and Trends in Multimodal Machine Learning: Principles,Challenges,and Open Questions[OL].arXiv Preprint,arXiv:2209.03430.   \n[10] 何俊,张彩庆,李小珍,等.面向深度学习的多模态融合技术研 究综述[J].计算机工程,2020,46(5):1-11.(He Jun, Zhang Caiqing,Li Xiaozhen, et al．Survey of Research on Multimodal Fusion Technology for Deep Learning[J]. Computer Engineering, 2020,46(5): 1-11.)   \n[11] 王惠茹,李秀红,李哲,等.多模态预训练模型综述[J].计算机 应用,2023,43(4): 991-1004.(Wang Huiru,Li Xiuhong,Li Zhe, et al.Survey of Multimodal Pre-training Models[J]. Journal of Computer Applications,2023,43(4): 991-1004.)   \n[12]Lu D,Neves L,Carvalho V,et al. Visual Attention Model for Name Tagging in Multimodal Social Media[C]//Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics(Volume 1: Long Papers).2018: 1990-1999.   \n[13] Arshad O,Gallo I，Nawaz S,et al. AidingIntra-Text Representations with Visual Context for Multimodal Named EntityRecognition[C]//Proceedingsof2019International Conference on Document Analysis and Recognition. IEEE,2019: 337-342.   \n[14]Yu J, Jiang J,Yang L,et al. Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer[C]//Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics.2020: 3342-2252.   \n[15]Asgari-Chenaghlu M, Feizi-Derakhshi MR,Farzinvash L,et al. CWI: A Multimodal Deep Learning Approach for Named Entity Recognition from Social Media Using Character,Word and Image Features[J]. Neural Computing and Applications,2022,34 (3): 1905-1922.   \n[16] Zhang D,Wei S Z,Li S S,et al. Multi-Modal Graph Fusion for Named Entity Recognition with Targeted Visual Guidance[C]// Proceedings of the 35th AAAI Conference on Artificial Intelligence.2021: 14347-14355.   \n[17] Zheng C M,Wu Z W, Wang T, et al. Object-Aware Multimodal Named Entity Recognition in Social Media Postswith Adversarial Learning[J].IEEE Transactionson Multimedia, 2020,23:2520-2532.   \n[18] Sun L,Wang JQ,Su Y D,et al.RIVA:A Pre-trained Tweet MultimodalModel Based onText-ImageRelationfor Multimodal NER[C]//Proceedingsof the 28th International Conference on Computational Linguistics.2020:1852-1862.   \n[19]Sun L，Wang JQ,Zhang K,et al.RpBERT:A Text-Image Relation Propagation-Based BERT Model for Multimodal NER [C]/Proceedings of the 35th AAAI Conference on Artificial Intelligence.2021:13860-13868.   \n[20]Liu L P, Wang ML, Zhang M Z,et al. UAMNer: UncertaintyAware Multimodal Named Entity Recognition in Social Media Posts[J].Applied Intelligence,2022,52(4): 4109-4125.   \n[21]Sui D B,Tian Z K,Chen Y B,et al.A Large-Scale Chinese Multimodal NER Dataset with Speech Clues[C]//Proceedings of the 59th Annual Meeting of the Association for Computational Linguisticsand the 11th International Joint Conference on Natural Language Processng (Volume 1: Long Papers). 2021: 2807-2818."
+  }
+}

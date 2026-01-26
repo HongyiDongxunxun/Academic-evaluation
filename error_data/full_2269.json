@@ -1,0 +1,119 @@
+{
+  "original_filename": "full_2269.md",
+  "$\\bullet$ 李悦，苏成，潘云涛（中国科学技术信息研究所，北京100038)": "",
+  "分类法映射研究综述": {
+    "context1": "摘要：旧的/意义了解分类法映射相关研究，总结映射方法及应用场景，为相关研究人员提供参考。仿法/过程对分类法映射基本概念进行描述，调研国内外相关研究，并简要阐述映射过程及应用场景；整理归纳已有分类法映射方法，并分析其局限性。结果/结论目前分类法映射主要有人工映射和自动映射两种模式，基于同现的映射、基于社会网络分析法的映射、基于交叉检索的映射、结合语义与结构的映射和基于机器学习的映射这5种方法。相比较而言自动映射各方法准确率较低，基本保持在 $60 \\%$ 左右，仍需优化自动映射算法以提高映射的准确率和覆盖率。",
+    "context2": "关键词：分类法；类目映射；映射方法；综述"
+  },
+  "A Review of Classification Mapping": {
+    "context1": "Abstract:Purpose/significancelThis paper aims to understand the relevant research of clasification mapping，summarize the mapping methodsandapplication scenarios，and providereferences forrelevantresearchersMethod/processOnone hand, the paperdescribesthebasicconceptsofclasification mapping，surveysdomesticandforeignresearch，andbrieflyexplains the mapping process andaplication scenarios.Ontheother hand，the papersummarizes the existing clasification mappingmethods， andanalyzesthe limitations.Results/conclusions]Atpresent,，there are mainly twoclasification mappng modes:manualmappingandautomatic mapping，andfivemethods:cooccurrnce mapping，mappingbasedonsocial networkanalysis，rosetrevalbased mapping， mapping combining semantic and structure，and machine-earning mapping.The accuracy of automatic mapping method is relatively low，which remains at about $60 \\%$ ，so the automatic mapping algorithm still needs to be optimized to improve the mapping accuracy and coverage.",
+    "context2": "Keywords: classification method; clasification mapping；mapping method; review",
+    "context3": "分类法映射一直是图情领域的难点问题。互联网的普及使得网络信息资源成倍增长，人们获取信息的方式逐渐由有形的纸质印刷品转向无形的网络资源库。数字化的传播方式令知识共享成为可能。由于不同数据库利用不同的方式对信息进行组织，这就为用户跨库检索造成了障碍。对分类法进行映射，可以打通各知识组织间的壁垒，对异构资源整合、数据共享、跨库检索等有着重要意义。"
+  },
+  "1分类法映射基本概念": "",
+  "1.1映射": {
+    "context1": "映射在数学中的定义为“设A， $B$ 是两个非空的集合，如果按某一个确定的关系 $f$ ，使对于集合 $A$ 中的任意一个元素 $x$ ，都有唯一确定的元素 $y$ 与之对应，那么就称对应f: $A { \\longrightarrow } B$ 为从集合 $A$ 到集合 $B$ 的一个映射”。在信息与文献相关研究中，映射指建立一个或多个词汇的概念与另一个词汇的概念之间的关系。综合以上两种定义，将分类法看作一个集合，分类法中的类目为集合中的元素，对分类法A中的类目与分类法B中的一个或多个类目建立概念间的关系的过程就是分类法映射的过程。"
+  },
+  "1.2分类法映射关系": {
+    "context1": "分类法类目间的概念关系并不只有完全等同和完全不同两种，根据二者概念的相似程度的不同，可以分为多种映射关系。DDC与MSC的映射实验中将映射关系分为精确匹配、不匹配、专指到泛指、泛指到专指、多对一、循环映射、上位映射和下位映射8种。Renardus项目制定了完全相等、包含、包含于、大部分重叠、小部分重叠5种映射关系。原小玲对DDC22与CLC5化学类目进行映射分析时定义了完全匹配、包含和包含于3种映射关系。何琳等在对中图法和电商图书分类法进行映射时定义了相等、大部分包含和小部分包含3种映射关系。",
+    "context2": "虽然已有研究对映射关系的定义有差异，但仍然可以根据类目概念交叠程度对各种关系进行划分。现设 $a$ 为分类法 $A$ 的类目，设b， $c$ 为分类法 $B$ 的类目，对映射关系进行总结。",
+    "context3": "1.2.1等价关系等价关系有简单等价、复合等价两种类型。简单等价即类目A的概念与类目B的概念完全相等，如 $a = b$ 。复合等价即分类法A中的类目概念与分类法B中的两个或两个以上的类目概念完全等价（如 $a = b + c { \\bmod { \\frac { 1 } { 2 } } }$ 或与分类法B中的两个或两个以上的类目概念的交集完全等价（如 $a = b \\cap c$ 。",
+    "context4": "1.2.2层级关系层级关系指在映射时，一个类目的概念明显包含/包含于另一个类目的概念或者说一个类目的概念明显比另一个类目的概念更加一般化/特殊化。即 $a$ $\\ni b$ 或 $b \\ni a$ ，两个类目是上下级关系。如包含、上位映射等关系都属于层级关系。",
+    "context5": "1.2.3相关关系由于语言、文化、应用场景等原因，不同分类法中类目的概念相近但不完全相同也不存在包含关系的情况非常普遍。相关关系指两类目概念有部分重叠，根据重叠程度的高低可以进一步对相关关系进行细化，如大部分重叠，小部分重叠等。等价关系以及层级关系都属于精确映射，而相关关系属于非精确映射。",
+    "context6": "1.2.4不匹配关系由于分类法的语言文化差异，覆盖学科领域的不同等原因，在分类法映射时存在完全不匹配的情况是非常正常的，并不是所有类目都会建立对应关系。所以在映射时要注意“不匹配”相关问题，尤其在对自动映射结果进行验证时，不能将“不匹配”关系视为映射错误。"
+  },
+  "2分类法映射基本理论": "",
+  "2.1分类法映射基本原理": {
+    "context1": "分类法是一种根据资源内容属性进行组织的层级知识分类体系。虽然不同分类法的编制原则、体系结构等有很大区别，但其基本原理是一致的，都是为了提高检索效果和检索效率而编制的一系列表达概念及概念关系的标识。它们在编制方法、体系结构、概念表达上就有一定的相似性，所以可以建立对应关系。"
+  },
+  "2.2分类法映射模型": {
+    "context1": "分类法映射模型是指分类法在映射时依据待映射分类法的数量、结构特征、映射目的等因素制定的策略。M.L.Zeng等提出了翻译法、直接链接法、中介词表法和临时列表法这4种映射模型。翻译法，指词表中的相关概念有着完全相同的层级结构和语义关系，如一般指同一分类法不同语言版本之间的映射。直接链接法指词表间不通过其他词表进行链接的映射，即直接链接。与直接链接法相对的就是中介词表法。中介词表法利用某一词表为中介，将多种词表映射到中介词表或将中介词表映射到多种词表。其原理为若 $A = B$ 且 $B = C$ 则 $A = C$ 。临时列表法根据用户查询词建立临时映射表，数据库中并不保存映射结果。",
+    "context2": "相比较而言，同一分类法不同语言版本间的映射应当选用翻译法；参与映射分类法及词表较少时应当选用直接链接法，反之选用中介词表法可以减少劳动量，但相比较而言直接链接法的映射结果要优于中介词表法。"
+  },
+  "2.3分类法映射方法": {
+    "context1": "按照实施映射行为的主体来划分，分类法映射有人工映射和自动映射两种模式。人工映射以人的智力劳动为主导，一般通过领域专家对待映射类目集进行对比分析，确定映射关系。自动映射是指用计算机来代替人的智力劳动，通过统计的方式或者设计利用相关算法（如相似度算法、关键词抽取算法等）对类目进行映射。二者相比，人工映射准确率高，但费时费力，难以维护；自动映射效率高，便于更新，但准确率不及人工映射。",
+    "context2": "2.3.1基于同现的映射当不同分类法标注同一文献或图书时，说明两者间具有一定关联，是可以建立映射的。同现映射的原理是通过统计同一数据集中的被不同分类法标引时分类号或主题词间的同现频次来计算类目间的相关度，进而完成分类法间的映射。刘晓鹏等提出了利用关键词实现主题词表间自动映射的方法。该方法以标引记录库中主题词与关键词的共现规律和关键词位置信息构建主题词向量，通过计算主题词向量夹角来进行词表间主题词的映射[。其优点是不需要建立并行数据库，缺点是不同词表间映射正确率较低。",
+    "context3": "同现映射是一种松散的映射，这种方法不需要系统化的分类法进行分析。在有足够的已经被多种分类法标引过的数据集时，基于同现的映射比较容易操作并且能够保证一定的准确性。但该方法的局限性在于： $\\textcircled{1}$ 需要足够多的标引数据，少量数据不具有代表性。 $\\textcircled{2}$ 需要用不同分类法对同一文献进行标注，对数据的要求非常高。",
+    "context4": "2.3.2基于社会网络分析法的映射社会网络方法的基本假设是“如果相应的研究资源与类似的研究人员相关联，则不同知识组织中的两个类别/术语是相关的”。首先是构建一个社交网络，其中节点代表目标研究资源（项目、论文等）和相应的研究人员。利用研究人员的研究活动和社交活动将研究人员和研究资源链接起来。其次是通过对构建的网络进行挖掘，如果两个节点链接到相似的节点，那它们是相似的。最后，计算类目相似度。",
+    "context5": "相较于共现映射而言，社会网络分析法能够识别出潜在的相似类目。但研究人员可能在一段时间内有多个研究兴趣，这就会导致映射结果的不准确。基于社会网络分析法的映射实质上是共现映射的一种延伸，它的贡献对象由分类号、主题词变为了研究人员。",
+    "context6": "2.3.3基于交叉检索的映射交叉检索原理：使用一种分类法类目在另外一种分类法的数据库中检索，对得到的结果进行类号提取，将与出现频率高的类号与用于检索的类号进行映射。该方法首先对分类法A标引的文档集进行关键词抽取，再利用得到的关键词集在分类法B标引的数据库中进行检索，最后将对应检索结果中出现频率较高的类目作为最终的映射结果。P.Avesani等利用交叉检索的方式，根据URL中的分类层级信息建立了Google,Looksmart和Yahoo 的分类树，并对三者进行了映射[。S.Walters等于2005年利用交叉检索的方式完成了对SA-LIS 和 USPTO 之间的映射[4",
+    "context7": "该方法同基于同现的方法一样，需要拥有较完备的、质量高的数据资源才能保证映射的准确性。并且在交叉检索时得到的是一对多的映射，还需要通过其他手段对映射结果做进一步处理。",
+    "context8": "2.3.4结合语义与结构的映射从概念层面来说，类目概念不仅与其本身有关，同时与其所处环境有关。类目的上位词、下位词、注释词等对类目概念的内涵和外延起限定作用。如果将一个类目视为一个可以分解成许多部分的整体，并且各个部分之和等价于整体。那么可以通过计算各类目部分间相似度来确定各类目整体间的相似度。从层级方面来说，两类目的相似度与它们所处的层级深度相关[。",
+    "context9": "结合语义与结构的映射首先构建类目特征词向量，然后结合类目层级结构计算类目相似度矩阵，再经过加权处理等操作得到类目总相似度。最后根据类目相似度值确定映射关系。",
+    "context10": "与单纯计算语义相似度计算的方法相比，结合类目结构对类目相似度进行计算的方法更加科学。上位词等因素对类目的内涵和外延进行了补充，分类法的层级结构特性对类目概念做了很好的限定。但是，这种方法也存在一些问题： $\\textcircled{1}$ 映射效果与相似度算法选取直接相关。用不同相似度算法对同样语料进行处理正确率不同。 $\\textcircled{2}$ 映射效果受类目对应词向量因子选取的影响。有的研究选取类目上位词、下位词作为向量因子，有的研究则将类目所在层级作为向量因子，不同选取方式映射结果不同。",
+    "context11": "2.3.5基于机器学习的映射由于分类法映射问题可以看作以一个分类法作为分类标准对另一分类法进行分类的问题，许多学者将机器学习中的分类算法应用到分类法互操作中来。即将源分类法和目标分类法的类目标识过的语料信息进行处理，分别构建特征词集，然后将源分类法特征词集作为训练集，目标分类法特征词集作为目标集，进行分类。一般情况下，基于机器学习的映射以类目标识的语料信息作为数据源，对文档的标题和内容进行处理，通过对语料信息进行分类来实现类目间的映射。",
+    "context12": "机器学习方法可以减少人的劳动。但是，映射效果的好坏取决于机器学习算法的优劣。更大的问题是，即使算法对某一部分数据具有很好的效果，并不代表它对更多的数据具有同样的效果。"
+  },
+  "2.4小结": {
+    "context1": "基于同现的映射、基于交叉检索的映射和基于社会网络的映射三种方法在映射时不需要对类目的相似度进行计算，避免了由于语义问题带来的映射误差。结合语义与结构的映射和基于机器学习的映射虽然需要对语义进行处理，但随着自然语言处理的发展，其准确率已经赶超非语义相关映射方法。然而就目前而言，自动映射相关方法所得到映射结果准确性还有待提高。"
+  },
+  "3分类法映射相关研究": {
+    "context1": "对分类法进行映射之前要明确映射目的，再根据映射目的选择合适分类法进行映射。分类法映射首先需要对分类法的分类原则、体系结构、编码方式等进行研究，然后根据分类法的特性制定映射规则进行映射。"
+  },
+  "3.1DDC/SAB": {
+    "context1": "瑞典皇家图书馆通过直接映射先后对《瑞典图书分类法》（SAB）和《杜威十进分类法》第19版（DDC19）和第21版（DDC21）进行了映射。他们将DDC中的部分表翻译成瑞典语，再将两种分类法关联起来，同时将映射结果保存到联机数据库中并应用到瑞典图书馆联合目录系统LIBRIS中 [7] 。",
+    "context2": "在映射过程中，非完全匹配的类目将被映射到覆盖大部分已出版书籍的待匹配类目中，如SAB中的类目S可以与DDC中的类目A和类目B（覆盖大部分出版物）进行映射，那么最终类目S将与类目B建立映射关系；对于一些相差较大的类目，映射到该类目的上级类目中专指性弱的类目。",
+    "context3": "这一项工作使得只熟悉《瑞典图书分类法》的用户可以自由访问更大范围的资源，解决了异构性问题，为广大用户提供了便利。"
+  },
+  "3.2 DDC/MSC": {
+    "context1": "1995年，为了方便熟悉美国《数学主题分类法》（MSC）的专家对数学类目进行检索，解决由于两种分类法结构、语义、编码方式等原因造成的兼容性问题，纽约州立大学设计了一种面向对象的和基于框架分析的专家系统，对DDC20中的数学类目和美国数学学会（AMS）的《数学主题分类法》进行了映射。"
+  },
+  "3.3Renardus项目": {
+    "context1": "为实现跨主题网关的网络信息资源浏览与检索，欧盟发起了Renardus项目，该项目将DDC作为通用体系，将荷兰、瑞典、德国、英国、法国等国的主题网关与其分别映射。主题网关的分类体系包括DDC、LCC、各国分类法及专业分类法等。分层结构有助于用户查找和浏览更细粒度的学科分类。",
+    "context2": "当用户提交检索词后，Renardus在各个门户网站进行检索，再利用映射结果对项目成员提供的网页资源进行学科主题分类重组，实现了各国信息门户按照统一的DDC类目进行显示。Renardus本身并不对各类资源进行存储。"
+  },
+  "3.4 DDC/CLC": {
+    "context1": "戴剑波等利用自动映射与人工映射相结合的方式对DDC21和《中国图书馆分类法》（CLC）进行了映射研究[15,18。他们利用类目的上位类名、下位类名和注释词中抽取关键词来对类目概念进行补充，构建类目对应词向量矩阵，根据整体中各部分对应相似值进行加权计算得到类目相似度。再利用空间向量模型解决一对多和多对多问题。研究以“货币”和“信贷”这两个领域进行人工判别，该实验准确率分别为 $6 1 . 1 3 \\%$ 和 $6 1 . 9 4 \\%$ 。其中，包含和包含于这两类映射关系准确率较高。",
+    "context2": "李珂、宋文对CLC 和 DDC 的农业领域做了直接映射[。2013年施晓华、李芳利用加权朴素贝叶斯学习方法实现了DDC与CLC之间的映射，利用准确率对映射结果进行验证，发现完全准确率为 $6 6 . 1 6 \\%$ ，二级类准确率为 $8 9 . 1 3 \\%$ ，三级类准确率为 $8 7 . 4 2 \\%$ 。郝倩倩在已有项目基础上，分析了DDC与CLC理学类目的学科匹配依据分布情况，利用语义相似度匹配和交叉浏览的方式实现了自动映射",
+    "context3": "目前对DDC与CLC的映射研究还存在许多不足之处。首先，现有研究基本上是对两种分类法部分学科的映射研究，并没有实现DDC与CLC之间的全映射。其次，虽然很多研究采用了自动映射的方法，但自动映射相关算法与类目结构层级关系的结合较弱，映射准确率有待提高。"
+  },
+  "3.5IPC/CLC": {
+    "context1": "2010年，周林志等对《国际专利分类法》（IPC）与CLC中汽车新能源领域相关类目进行了映射，提出了类目概念模型：“两条类目相似度（概念相似度）的度量可分解为两个部分：特征词集之间的相似度和它们所处环境的相似度。”他们分别阐述了对类目特征集和类目所处环境相似度的计算方法，将类目结构的层级因素融合到类目相似度计算中，进而实现二者之间的映射。周林志利用交叉检索和类目相似度计算两种方法进行了映射实验，人工判别后发现基于交叉检索的方法准确率接近$60 \\%$ ，但覆盖率只有 $20 \\%$ 左右，而基于类目相似度的方法准确率并没有显著提高，但覆盖率提高 $10 \\%$ 。",
+    "context2": "靳雪茹等2011年提出了基于机器学习中分类算法实现IPC 和CLC之间类目映射的方法2。以类目标识的语料信息作为数据源，对文档的标题和内容分开处理。利用朴素贝叶斯分类法和决策树算法实现了IPC和CLC之间的映射。研究通过采用不同分类方法的映射结果的正确率、召回率和 $F$ 值进行计算，得出朴素贝叶斯分类法对文档内容分类效果更好，决策树算法对文档标题分类效果更好的结论。2014年张建华等进行了基于交叉检索的IPC与CLC 映射研究[。他们用CLC类目在利用IPC进行标引的专利库中进行检索，得到与CLC类目对应的一个或多个IPC类目；再应用空间向量模型解决了交叉检索结果一对多的问题。",
+    "context3": "CLC是以图书分类为目的的分类法，覆盖范围广泛，类目描述方式偏理论。而IPC是应用技术类型的分类法，没有社会科学相关类目，类目描述方式更加侧重于应用，类目词的提取相对CLC更加困难。和DDC与CLC之间的映射相似，已有研究多为CLC与IPC 间某个领域的映射。"
+  },
+  "3.6DDC/LCC/UDC": {
+    "context1": "C.Zins等对DDC《美国国会图书分类法》（LCC)和国际十进分类法（UDC）的前两级中以学科划分的类目进行了映射。该研究首先对三种分类法进行映射，然后以10PillarsofKnowledge为模型对映射结果进行学科领域划分，最后形成了10个知识域，并对这些知识域与DDC、LCC和UDC三种分类法间的关系进行了分析介绍。",
+    "context2": "该研究是针对学科相关的类目进行的映射，涉及范围较广。它不仅仅是对分类法进行了映射，还对映射结果进行了重新分类，形成了新的体系结构。但仅对三种分类法的前两级类目进行了映射，映射粒度较粗。"
+  },
+  "3.7DDC/UDC": {
+    "context1": "英国巴斯大学由于使用过多的分类法对各类图书进行组织，导致学生和图书馆工作人员在查找和分类图书时异常困难。2009年，巴斯大学为了解决上述问题，将该校正在采用的图书分类法UDC及其衍生版本与应用范围更广的DDC进行了映射研究，最终实现了DDC与UDC的自动映射 。",
+    "context2": "该研究大大简化了图书馆相关服务流程，学生无需学习多种分类法即可对图书进行检索，工作人员只需扫描图书的条形码即可对图书进行自动分类，实用性较强。",
+    "context3": "Mcilwaine等对UDC中的类2“宗教”和DDC中的类200“宗教”进行了映射研究。该研究只是局部映射研究，可推广性较差。"
+  },
+  "3.8NSFC/WoS/CNKI": {
+    "context1": "2015年，DuWei等利用语义与结构相结合的方式对国家自然科学基金（NSFC）、Web of Science（WoS）、中国知网（CNKI）的科学分类法进行了自动映射。该研究首先利用WordNet词典和Tversky指数进行语义相似度计算，并引入层级因子 $\\begin{array} { r l r } { \\partial } & { { } = } & { \\operatorname* { m i n } \\big ( \\frac { \\mathrm { d e p } _ { A } } { \\mathrm { d e p } _ { A } + \\mathrm { d e p } _ { B } } , } \\end{array}$ ${ \\frac { \\mathrm { d e p } _ { B } } { \\mathrm { d e p } _ { A } + \\mathrm { d e p } _ { B } } } \\Bigr )$ 来衡量层级因素对类目相似度的影响。再利用Hungarian算法进行匹配优化。为了研究映射结果准确率和研究方法的优越性，Du Wei等利用精准率、召回率和 $F$ 值对使用多种方法所得到的映射结果进行了验证，结果证明文中所提出的方法在精准率和召回率方面要优于其他方法。2017年, $\\mathrm { D u } \\ \\mathrm { W e i }$ 等[]又利用融合时间因素的社会网络分析法对NSFC、CNKI与WoS的分类体系进行了映射。Du Wei等对映射结果进行分析，发现基于社会网络分析法的映射与共现映射共有 $5 0 \\% \\sim 6 0 \\%$ 重叠，揭示了社会网络分析法增强现有映射的能力。",
+    "context2": "Du Wei等所做的研究是面向科研管理的分类法映射研究，所以选取的都是与当前中国科研评价体系相关的分类法，并且识别了交叉学科，具有很高的应用价值。将学者的国内国际论文产出和基金项目信息结合到一起，有利于科研人员评价工作和项目评审专家遴选等工作的进行。"
+  },
+  "3.9专利分类与产业分类": {
+    "context1": "1966年，J.Schmookler首次将产业数据关联到专利分类体系，随后，国内外学者积极开展了专利分类与产业分类之间的映射研究。研究多以IPC与其他产业分类之间的映射为主，国外主要研究有IPC与加拿大产业标准分类30-31，国际标准产业分类[23，欧盟产业分类体系[4等产业分类之间的映射。国内主要研究有IPC与《战略性新兴产业分类（2012）》，国民经济行业分类参照关系表（试用版）等产业/行业分类之间的映射。",
+    "context2": "对专利分类和产业分类进行映射，有利于实现专利和产业的对接，对专利分类、产业创新、产业政策制定等有着重要意义。"
+  },
+  "4映射结果准确性验证方法": {
+    "context1": "对人工映射结果的准确性验证一般是在映射过程中进行质量控制，如邀请两个或两个以上专家对同一领域类目进行映射关系判定。而对自动映射结果的验证主要利用人工判别法，结合相关指标如机器学习、信息检索等领域用于评估实验结果的指标准确率（Accuracy），精确率（Pre-cision），召回率（Recall）和F1-Measure等进行准确性验证。如戴剑波[5,1、施晓华等就使用了这种方式。",
+    "context2": "虽然很多学者利用精确率、召回率进行准确性验证，但由于分类法编制原则，各国文化差异，以及类目概念范围等原因，完全不匹配也是一种映射，单纯依赖信息检索领域的查全查准验证方式来衡量分类法映射的准确性或者",
+    "context3": "映射方法的优越性并不科学。"
+  },
+  "5分类法映射的相关应用": "",
+  "5.1数据交叉浏览": {
+    "context1": "由于不同信息门户网站拥有的数据资源的范围，导致单一数据库无法满足用户的全部需求，用户不得不分别检索相关数据库；由于各门户网站的标引方式、语言不同而普通用户很难熟练掌握各网站的检索技术，这就使得检索信息变得十分不便。而分类法映射实际上是对用户的检索词进行查询扩展及数据关联，使得数据交叉浏览变为可能。如欧盟的Renardus项目就实现了数据的一站式检索，将各个信息门户网站连接了起来。同时，树状结构的词表有利于对用户进行扩检和缩检。"
+  },
+  "5.2自动分类与文本标引": {
+    "context1": "文本标引实际上就是分类/归类的一种形式。目前对自动分类的相关研究与语料库、知识库、词典等密不可分。分类法映射后可形成一个等级式的词表。一方面，大量的以相似度聚集的术语有利于扩充语料库；另一方面，等级式的结构有利于对术语语义进行分解，提高分类标引的准确率。如部杨芳等利用受控词表对Folkson-omy中的标签进行了规范化标引，保证标签的可读性和规范性。U.Waltinger等利用CrissCros项目（DDC 和SWD之间的映射）成果对科技文档进行分类，最终结果的 F1-Measure 为 $0 . 6 1 \\sim 0 . 8 1 ^ { \\ [ 3 ] }$"
+  },
+  "5.3语义网": {
+    "context1": "2001年，T.Bemers-Lee提出语义网[d这一概念，旨在开发计算机可以理解的语言[4。传统受控词表有着清晰的分类和语义关系，是语义网中本体构建的基础。许多学者在分类法、叙词表的基础上构建本体。目前，许多分类法、主题法如DDC、LCSH都在都柏林元数据（DC-MI，Dublin Core Metadata Initiative）中进行了注册，为语义网相关研究提供帮助。XiaLin等对都柏林核心元数据和DDC进行了共现映射研究。"
+  },
+  "6总结与展望": {
+    "context1": "近年来，分类法映射相关研究逐渐减少，一方面是由于19世纪末和20世纪初大量相关项目将世界主流分类法、主题表进行了映射；另一方面由于互联网的普及、人工智能的发展以及分类法更新速度慢、类目词不能满足需求等缺陷，语义网相关的元数据、本体成为解决数据异构性问题的研究热点。虽然自动映射相关研究比较丰富，但是，一方面目前自动映射方法准确率和覆盖率还有待提升，需要人工参与才能保证结果的可用性，距离完全自动映射还有一段距离；另一方面已有研究缺乏动态性，往往在映射之后难以维护，一旦分类法进行了更新修订，映射结果就会失去一定的准确性。",
+    "context2": "分类法映射仍然具有重要意义。分类法映射可以将不同知识组织关联起来，打通异构资源之间的壁垒，扩大相似术语集，为交叉浏览、文本标引、语义网等相关问题提供研究基础。国外已有学者对相关问题进行了研究，如J.C.DReis等[44建立了DyKOSMap系统对生物医学领域的分类法和词表进行动态映射。",
+    "context3": "分类法映射相关研究从最开始的人工映射为主到现在以人工映射和自动映射相结合的方式是科技发展的结果。实际上自动映射问题已经转变为自然语言处理问题，当机器可以像人一样去理解分类法的结构、术语的含义时，也许就可以实现完全自动映射。未来分类法映射相关研究的热点和难点将会是自动映射算法优化和动态映射问题。□"
+  },
+  "参考文献": {
+    "context1": "[1] 中学数学课程教材研究开发中心．高中数学必修1M．北京：人民教育出版社，2012：26.  \n[2] ISO 25964-2-2013．信息与文献．叙词表和与其它词汇表的互用性．第2部分：其他词汇表的互用性[EB/OL].[017-09-04] .https://www.iso.org/standard/53658.html.  \n[3] IYER H，GIGUERE M. Towards designing an expert system tomap mathematics classificatory structures[．Knowledge Or-ganization，1995，22.  \n[4] KOCHT，NEUROTHH，DAY M. DDC Mapping Report，Re-nardus D7.4 [EB/O1]．(2001-02-5)2017-09-04].http://www.ukoln.ac.uk/metadata/renardus/wp7/ddc-mapping/d74-v01. pdf.  \n[5] 原小玲.DDC22与CLC5化学类目映射分析[．图书馆理论与实践，2013(3)：71-74.  \n[6] 何琳，常颖聪，周百超，等．基于中介词典的网络图书分类体系映射研究[]．图书情报工作，2012，56（14）：126-130.  \n[7] 李娜,任瑞娟．叙词表、分类法与分布式本体[．现代情报，2007，27(12)：122-24.  \n[8] 张琪玉.情报检索语言原理的一致和方法的差异[．图书馆建设，1994 (6)：11-13.  \n[9] ZENG M L，CHAN L M. Trends and issues in establishing in-teroperability among knowledge organization systems[M].John Wiley& Sons，Inc.，2004.  \n[0] 刘晓鹏，真溱，于洋．利用关键词实现知识组织系统自动映射的方法[C]．数字图书馆高层论坛2010年年会，2010.  \n[1] DU W，CHENG X，YANG C，et al.Establishing interopera-bility among knowledge organization systems for research man-agement:a social network approach[J]．Scientometrics,2017，112 (1):1-8.  \n[2]张建华，李云春，周林志．基于交叉检索的IPC与CLC 映射研究[．中国高等教育学会教育信息化分会第十二次学术年会论文集，2014.  \n[13]AVESANI P，GIUNCHIGLIA F，YATSKEVICH M.A largescale taxonomy mapping evaluation [．International Confer-ence on the Semantic Web. Springer-Verlag，2005:67-81.  \n[4] WALTERS S，RAJASHEKAR T. Mapping of two schemes ofclssification forsoftwareclassfcation[]．Cataloging&Classification Quarterly，2005，41(1):163-182.  \n[15] 戴剑波，侯汉清．图书分类法映射系统设计原理——以《中国图书馆分类法》和《杜威十进分类法》为例[．情报学报，2005，24(3)：299-303.  \n[6] 靳雪茹．基于机器学习的IPC与CLC类目映射方法[D].北京：北京林业大学，2011.  \n[7] ZENG M L.Concordance Dewey-SAB[J/OL]．Sention onClassification and IndexingNewsletter，2001（24）：34.[2017-09-04]．https://archive.ifla.org/VII/s29/pubs/ci24．pdf.  \n[18] 戴剑波，侯汉清．文献分类法自动映射系统的构建——以《中国图书馆分法》与《杜威十进分类法》为例．情报学报，2006，25(5)：594-599.  \n[9] 李珂，宋文．农业科学领域 DDC 和CLC 类目映射分析[．图书馆理论与实践，2015(10)：58-62.  \n[20] 施晓华，李芳．知识体系互操作中贝叶斯学习方法应用研究．情报杂志，2013(8)：165-168.  \n[1] 郝倩倩.中图法与DDC类目自动映射研究[]．太原：山西大学，2013.  \n[2] 周林志，齐建东，王建新，等．基于词汇相似度的 IPC与CLC 映射．计算机工程，2010，36（23)：274-276.  \n[3] 周林志.国际专利分类法与中图分类法类目映射研究．北京：北京林业大学，2010.  \n[4] 靳雪茹，齐建东，王立臣，等．基于机器学习的类目映射方法——国际专利分类法与中国图书馆分类法[．计算机应用，2011，31(7)：1781-1784.  \n[5] ZINS C，SANTOS P. Mapping the knowledge covered by libraryclasification systems[．Journal of the Association for Infor-mation Science and Technology，2011，62 (5):877-901.  \n[6]COPE E.From UDC to DDC:reclassification at the Universityof Bath．[．Cope Eleanor，2012.  \n[7]MCILWAINE I C，MITCHELL J S. The new ecumenism:ex-ploration of a DDC/UDC view of religion[// InternationalIsko Conference，2010.  \n[28] DUW，LAURYK，MAJ，etal.A multi-faceted method forscience classification schemes （SCSs）mapping in networkingscientific resources[]．Scientometrics，2015，105（3）:2035-2056.  \n[9]SCHMOOKLER J.Invention and economic growth[]．Eco-nomic History Review，1966，20(1)：135.  \nb0]KORTUMS，PUTNAM J.Assigning patents to industries:testsof the yale technology concordance[]．Economic SystemsResearch，1997，9 (2):161-76.  \nB1] JOHNSON D K N.The OECD technology concordance （OTC):patents by industry of manufacture and sector of use[l．OecdScience Technology & Industry Working Papers，2002.  \nB2] VERSPAGENB，VAN T，SLABBERS M.MERIT concordancetable:IPC-SIC（rev.2)[EB/OL]．[017-1-3]．http://collections.unu.edu/eserv/UNU:992/rm1994-004.pdf.  \nB3] SCHMOCHU，LAVILLE F，PATEL P，et al.Linking tech-nology areas to industrial sectors[C]// Final Report to theEuropean Commission，DG Research，2003.  \nB4] The Statistical Ofice of the European Communities.Patent sta-tistics：concordance IPC V8-NACE REV．2 [EB/OI]．[2017-11-3]．http://circabc.europa.eu/sd/a/d1475596-1568-408a-9191-4266290447e31/2014-0-6-Final%20IPC_NACE2__2014.pdf.  \n[B5] 国家知识产权局．战略性新兴产业发明专利统计分析总报告EB/OL]．[2017-1143]．http://www．sipo．gov.cn/tjxx/yjcg/201504/P020150422347216350682．pdf.  \nB6] 中国专利局．国际专利分类与国民经济行业分类参照关系表（试用版)[EB／OL]．（2015-2-0）[2017-09-04].ht-tp://www.sipo.gov.cn/tjxx/zltjjb/201512/P020151221492994057449. pdf.  \nB7] 成颖，史九林．自动分类研究现状与展望[．情报学报，1999，18(1)：20-26.  \nB8] 台杨芳，贾君枝，贺培风．基于受控词表的Folksonomy优化系统分析与设计[．情报科学，2014，32（2）：112-17.  \nB9] WALTINGERU，MEHLERA，LOSCHM，et al.Hierarchicalclasification of OAI metadata using the DDC taxonomy[].Advanced Language Technologies for Digital Libraries，2011：29-40.  \n[40]贾君枝.受控词表在语义网环境下的应用发展[]．2009年信息化与信息资源管理学术研讨会论文集，2009：223-229.  \n[41] 李洁，丁颖．语义网关键技术概述[．计算机工程与设计，2007，28(8)：1831-1833.  \n[42] DCMI.Dublin Core Metadata Initiative [EB/OL]．(2017-09-03）[017-09-04]．http://dublincoe.org/.  \n[43] LIN X，KHOO M，et al. Mapping metadata to DDC classifica-tion structures for searching and browsing[]．InternationalJournalon Digital Libraries，2016，3:1-15.  \n[44] REISJCD，PRUSKI C，SILVEIRA MD，et al. The DyKOS-Map approach for analyzing and supporting the mapping mainte-nance problem in biomedical knowledge organization systems[//Extended Semantic Web Conference.Berlin，Heidel-berg:Springer，2012:163-175.  \n[45] REIS JCD，PRUSKIC，SILVEIRA MD，et al.DyKOSMap:a framework for mapping adaptation between biomedical knowl-edge organization systems[．Journal of Biomedical Informat-ics，2015，55:153-173.作者简介：李悦（ORCID：0000-0002-4416-6729），硕士生。研究方向：科学计量学。苏成（ORCID：OOOO-0001-6471-8247，通讯作者)，博士，副研究员。研究方向：科学计量学。潘云涛（ORCID：0000-0002-9930-9416），硕士，研究员。研究方向：科学计量学。  \n作者贡献声明：李悦，文献调研，论文撰写。苏成，论文框架设计，修改指导。潘云涛，修改指导。  \n录用日期：2018-03-16"
+  },
+  "（上接第129页）": "",
+  "刘端阳，王良芳．基于语义词典和词汇链的关键词提取算法．浙江工业大学学报，2013，41(5)：545-551.": {
+    "context1": "[1]搜狗输入法词库 EB/Ol]．htps://pinyin.sogou.com/dict/cate/index $/ 9 6 ? \\mathrm { r f } =$ dictindex.  \n[22] 百度百科—科学百科 [EB/OL]．https://baike.baidu.com/science.  \n[23] 于娟，党延忠．结合词性分析与串频统计的词语提取方法．系统工程理论与实践，2010，30（1)：105-11.  \n[4] 张璐，曹杰，蒲朝仪，等．基于词句协同排序的单文档自动摘要算法[]．计算机应用，2017，37（7)：2100-2105.  \n[5] BAXENDALE P E.Machine-made index for technical litera-ture—an experiment [．IBM Journal of Research and Devel-opment，1958，2 (4):354-361.  \n[26] GROLMUSZ V.A note on the PageRank of undirected graphs[J]．Information Processing Letters，2015，115（6-8）:633-634.  \n[7] LAHIRIS，MIHALCEAR，LAIPH.Keyword extraction fromemails[．Natural Language Engineering，2O17，23（2)：295-317.  \n[8] CHUANG J，MANNING C D，HEER J.“Without the clutterof unimportant words”：Descriptive keyphrases for text visual-ization[．ACM TOCHI，2012，19(3)：19.  \n[29] WEN Y，YUAN H，ZHANG P.Research on keyword extractionbased on Word2Vec weighted TextRank C]// IEEE Interna-tional Conference on Computer and Communications，2017.作者简介：王志宏，男，1990 年生，博士生。过弋（通讯作者)，男，1975年生，博士，博士生导师。  \n作者贡献声明：过弋，王志宏，提出研究思路，设计研究方案。王志宏，数据采集与处理，对比实验设计，起草论文，论文最终版本修订。  \n录用日期：2018-03-26"
+  }
+}

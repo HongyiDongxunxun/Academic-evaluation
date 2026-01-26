@@ -1,0 +1,106 @@
+{
+  "original_filename": "full_3799.md",
+  "国际图情领域大数据研究现状与趋势探析\\*": {
+    "context1": "周耀林」柴昊’赵　跃（1武汉大学信息资源研究中心2四川大学公共管理学院）",
+    "context2": "摘要本文运用共词分析法和词频分析法对国际图情领域大数据研究主题方向与演化特征、研究热点与前沿进行了剖析。结果显示：当前国际图情领域在大数据研究中已形成商务智能&大数据分析、人工智能&信息科学、社会网络分析&社交媒体、数据伦理&个人隐私、信息技术&信息管理、图书馆&数据素养6个规模不一的研究方向；大数据、人工智能、数据分析、数据挖掘成为一直以来学界关注的焦点，而社交媒体、机器学习、情感分析等主题则成为2018年新的研究热点；数据管理、信息系统、知识管理、机器学习、物联网等主题成为当前研究中的前沿主题。",
+    "context3": "关键词大数据人工智能图书情报学共词分析词频分析",
+    "context4": "DOI: 10.13663/j.cnki.lj.2019.12.003"
+  },
+  "Analysis on the Status Quo and Trends of Big Data Research in the Field of International Library and Information Science": {
+    "context1": "Zhou Yaolin1, Chai Haol, Zhao Yue²(1 Center for Studies of Information Resources, Wuhan University; 2 School ofPublic Administration,Sichuan University)",
+    "context2": "AbstractThis paper uses co-word analysis and word frequency analysis to analyze the thematic direction,evolution characteristics,research hotspots,and frontiers of big data research in the field of international library and information science.The results show that six research directions of diferent scales have formed in the field, namely,business inteligence and big data analysis,artificial intelligence and information science, social network analysis and social media, data ethics and personal privacy, information technologyand information management,as wellas libraryand data literacy.Big data,artificial intelligence,dataanalysis,and data mining have always been the focus of the academic circle,while social media,machine learning,sentiment analysis have become new research hotspots in 2018.The topics of data management, information systems, knowledge management, machine learning,and the Internet of Things have become the frontier topics in the current research.",
+    "context3": "KeywordsBig data, Artificial intelligence, Library and Information Science, Co-word analysis, Word frequency analysis"
+  },
+  "0引言": {
+    "context1": "大数据是信息社会纵深发展的产物，也是信息社会走向智慧社会的重要标志。自2008年《Nature》推出“大数据”专刊至今，大数据迅速成为学界关注的焦点，并推动科学研究范式的演化和数据密集型科学的兴起[。作为最易受信息技术变革影响的学科领域之一，图情学科很快便加人大数据研究阵列。2011年,StephenE.Arnold强调了大数据处理需求激增对组织信息管理的挑战[2]。从2012年开始，国内外图情领域关于大数据的研究成果激增[3]。近年来，为了揭示国际图情领域大数据研究现状与趋势，国内学者纷纷以Web of Science为数据源，分析文献的年度增长趋势、作者与机构分布状况，并通过关键词共现、聚类分析等方法来探测与剖析研究热点。这些成果虽分析了社会网络大数据、大数据与知识发现、大数据安全与隐私、政府开放数据、商务智能与数据挖掘、数据质量、物联网与知识管理等国外图情领域大数据研究的热点主题[4-6]，但没有揭示热点主题向前沿主题的演变情况以及主题演变下图情领域新兴主题社区的形成情况。",
+    "context2": "2018年，陈军营等采用文本数据挖掘的方法识别了不同时期国外图情领域大数据研究的热点主题，并初步分析了研究主题随时间推移的演变情况：2010—2012年，研究侧重于开放获取、科学出版、引文分析等技术层面；2012—2013年，更关注信息资源获取和技术分析，开源数据和自然语言处理技术等主题得到长足发展；2013—2014年，传统数据分析技术研究演变为粒度更小的语义分析和大数据分析；2015—2016年，研究角度继续聚焦在信息技术方面，“数据科学”产生，同时数据挖掘和可视化技术得到迅速发展[3]。该文对本文的研究有一定启发，但由于文献数量较少且研究方法的局限，其演化分析结果仅能揭示研究主题的时间演化，无法揭示主题社区的演化趋势。因此，本文将在这两类研究成果的基础上，扩大数据来源，更新研究方法，对国际图情领域大数据研究的主题结构、演化规律、研究热点与前沿进行全面分析，以期对后续研究有所启示。"
+  },
+  "1数据来源与研究方法": "",
+  "1.1数据采集与处理": {
+    "context1": "本文选取WoS核心合集和ProQuestResearchLibrary 的Library ScienceDatabase 数据库为数据源，其中后者收录了图情领域的278种出版物，主题收录范围包括：人工智能、信息管理、情报学、知识管理、文件管理、图书馆与档案馆等。检索过程中，笔者针对两个数据库不同的检索系统采取相似的检索策略，将\"bigdata”作为一个术语进行主题检索。首先，以“bigdata”为检索词在WoS中进行“主题”检索，时间不限，语种选定为英语，共得到29 582条记录，将学科类别限定为InformationScienceLibrary Science，文献类型限定为“期刊论文、会议论文、综述”进行精炼，得到604条记录（检索时间为2018年10月30日）。然后，以“big data”为检索词在Library ScienceDatabase数据库进行检索，选择“所有字段（不含全文）”，文档类型限定为“文章、专题文章、会议论文、学位论文”，语言选择英语，进行检索，共获得384条记录（检索时间为2018年10月30日）。最后，合并题录，去除重复论文以及非学术性论文后，得到877篇文献题录数据，保存为标准的WoS纯文本格式，作为后续文献统计、共词分析的基础数据。",
+    "context2": "在数据处理中，笔者首先删除关键词中出现的诸如“study”“research”“development”等没有特定主题意义的关键词，并对单复数、缩写词、同义词等进行合并处理。最终，将规范处理后的题录数据导入文献题录信息统计分析工具SATI进行年度发文统计（见图1）、关键词词频统计。将频次为10次及以上的关键词确定为本文分析的领域核心词，共得到68个关键词（部分核心词见表1)，用SATI导出关键词共现网络矩阵，供分析使用。",
+    "context3": "![](images/1d0b682cfc3d2efb30dc5af006415da95c2cee339ef038b36c9dc418c092acfb.jpg)  \n图1国际图情领域大数据研究文献数量增长曲线",
+    "context4": "从图1可以看到，2011-2013年，国际图情领域大数据研究开始起步，文献数量较少。2014年开始，文献开始迅猛增长，在2017年发文数达到229篇。可见，2015年至今成为国际图情领域大数据研究经历第一次黄金发展时期。表1显示了国际图情领域大数据研究中的部分核心词汇，数据管理、社会网络、人工智能、数据挖掘、数据分析、信息系统、隐私、大数据分析等主题成为国际图情领域大数据研究中关注的热点。以下将基于共词分析法、词频分析法，对国际图情领域大数据研究主题主题结构、演化规律、研究热点与前沿进行分析，以进一步揭示国际图情领域大数据研究的现状与趋势。",
+    "context5": "表1国际图情领域大数据研究的部分核心主题词",
+    "context6": "<table><tr><td>排名</td><td>关键词</td><td>词频</td><td>排名</td><td>关键词</td><td>词频</td></tr><tr><td>1</td><td>big data</td><td>421</td><td>11</td><td>analytics</td><td>38</td></tr><tr><td>2</td><td>data management</td><td>84</td><td>12</td><td>algorithm</td><td>36</td></tr><tr><td>3</td><td>social network</td><td>59</td><td>13</td><td>cloud computing</td><td>33</td></tr><tr><td>4</td><td>artificial intelligence</td><td>56</td><td>13</td><td>social media</td><td>33</td></tr><tr><td>4</td><td>data mining</td><td>56</td><td>13</td><td>information technology</td><td>33</td></tr><tr><td>6</td><td>data analysis</td><td>52</td><td>16</td><td>decision making</td><td>32</td></tr><tr><td>7</td><td>information system</td><td>49</td><td>17</td><td>knowledge management</td><td>31</td></tr><tr><td>8</td><td>privacy</td><td>44</td><td>17</td><td>internet</td><td>31</td></tr><tr><td>9</td><td>big data analytics</td><td>41</td><td>19</td><td>internet of things</td><td>29</td></tr><tr><td>10</td><td>united states</td><td>40</td><td>19</td><td>information management</td><td>29</td></tr></table>"
+  },
+  "1.2分析方法与过程": {
+    "context1": "学术论文作为科研成果的重要载体，蕴含着大量科学研究主题，分析学术论文的研究主题及其演化脉络，能有效把握某个领域的研究现状与趋势，揭示研究热点与前沿。主题演化分析的科学计量方法主要有词频分析法、共引分析法和共词分析法。其中，共词分析法以文献内部的关键词为分析对象，关注词之间的关联，可从更微观的角度揭示学科主题演化规律[8]。此方法在揭示研究领域的主题分布和演化规律等方面具有明显优势，已成为描述学科或领域发展现状与态势的重要定量分析方法[9]。因此，本文基于共词分析和词频分析，探讨国际图情领域大数据研究主题的演化状况。",
+    "context2": "首先，与已有揭示国际图情领域大数据研究进展的成果相比，本文将进一步基于Louvain算法[10]对词共现网络进行社区划分，此算法根据节点与节点间的关联关系，以最大模块度为计算目标，产生层次性的社区结构，保证了社区内部节点联系紧密而社区间联系疏松。Louvain社区划分算法已被广泛使用，以揭示学科[1]、地区[12]、作者[13]等之间合作而形成的社区或群组现象。笔者基于国际图情领域大数据研究高频关键词共词矩阵，构建关键词共现网络，将其导入Pajek[4]社会网络分析工具，进行密度、中心度、聚类系数等相关网络指标的计算。在此基础上，利用Louvain算法对关键词共现网络进行社区划分，发现当前国际图情领域大数据的主要研究方向。",
+    "context3": "其次，本文将利用国外新兴的数字化基础设施平台CorTexT分析研究主题随时间演化态势[15]。该平台致力于为文本语料库分析提供开放式科学的在线应用，可以根据前后年份主题社区的重叠关系实现主题随时间演化的可视化，进而分析主题延续、融合、分化等发展特征[]。笔者首先使用SATI抽取题录数据中每一篇文献的年份和关键词两个字段，导人Openoffice 软件另存为符合CorTexT平台格式要求的csv 格式文件，导入平台，将“Time slice”设定为4，生成“Tubes layout”视图，对研究主题随时间演化的特征进行可视化展示。",
+    "context4": "最后，为了进一步揭示国际图情领域大数据研究热点与研究前沿，本文提取了4个阶段中词频位列前十的关键词，并利用CorTexT平台揭示了研究热点的时间变化情况。利用Kleinberg于2002年提出的突发词检测算法（BurstDetection）[6分析研究前沿，该方法被运用到Citespace 和Sci2等可视化分析软件当中，相比与Citespace， $\\mathrm { S c i } 2 ^ { [ 1 7 ] }$ 可视化呈现方式更佳。将题录数据文件另存为isi文件格式，导入Sci2，利用其数据库插件按年份抽取作者原始关键词，基于其突发词探测功能，识别国际图情领域大数据研究领域的突现词，获取可视化图谱。"
+  },
+  "2国际图情领域大数据研究主题结构与演化规律": {
+    "context1": "利用Pajek对国际图情领域大数据研究主题关联网络指标的计算和社区划分，有助于识别当前国际图情领域大数据研究的主题方向。",
+    "context2": "表2所示的计算结果显示：整体关联网络的度中心性较高，表明当前国际图情领域大数据研究主题的向心性较好，形成了一些以少数主题为核心的研究方向。关联网络中较高的接近中心性也表明整体关联网络的路径较短，核心主题对整个网络的把控或影响较大；而中介中心势处于一个非常低的水平，大多数研究主题之间的关联不需要“桥梁”，多为直接关联。以下将进一步根据研究主题的社区划分以及阶段演化分析，揭示国际图情领域大数据的研究主题结构与演化规律。",
+    "context3": "表2主题关联网络的整体指标",
+    "context4": "<table><tr><td>网络指标</td><td>值</td></tr><tr><td>节点数</td><td>68</td></tr><tr><td>关联边数</td><td>2088</td></tr><tr><td>平均度</td><td>59.352 9</td></tr><tr><td>度中心性</td><td>38.454 5</td></tr><tr><td>接近中心性</td><td>0.708 6</td></tr><tr><td>中介中心性</td><td>0.069 2</td></tr><tr><td>聚类系数</td><td>0.6633</td></tr><tr><td>密度</td><td>0.442 9</td></tr></table>"
+  },
+  "2.1国际图情领域大数据研究主题方向": {
+    "context1": "从主题关联网络的社区划分结果来看，当前国际图情领域在大数据研究中已形成6个规模不一的研究方向（或称主题社区），分别为：C1-商务智能&大数据分析、C2-人工智能&信息科学、C3-社会网络分析&社交媒体、C4-数据伦理&个人隐私、C5-信息技术&信息管理、C6-图书馆&数据素养，如图2、表3所示。",
+    "context2": "C1-商务智能&大数据分析为规模最大的研究方向，拥有大数据分析、商业分析、商务智能、数据分析、知识管理等22个关键词。此研究方向汇集了商务智能、管理信息系统、信息检索、数据挖掘等多个领域的研究人员，以大数据技术在电子商务、医疗健康、地理空间等行业或领域的应用为基础，运用大数据分析、数据挖掘、数据分析、数学分析等方法和手段探索大数据驱动下企业运营、决策以及机构知识管理与知识发现的最新动向。同时，由于数据质量在大数据分析中的关键性作用，数据质量问题也是该方向的重要研究主题之一。",
+    "context3": "C2-人工智能&信息科学方向的规模相对较大，包括人工智能、机器学习、算法、信息科学、文献计量学等13个关键词。此方向的研究人员主要来自信息科学与人工智能领域，一方面探讨人工智能环境下机器学习、智能分类、知识组织等主题；另一方面，充分发挥信息科学在大数据环境中的作用，通过文献计量、科学计量来揭示大数据研究状态与趋势。同时，开放数据、关联数据也成为该方向的重",
+    "context4": "![](images/4f2f9f7b4148a7530f25e967b28574a964b0e114486f16e8f5f1d0d4d5eb58ea.jpg)  \n图2国际图情领域大数据研究主题社区",
+    "context5": "表3国际图情领域大数据研究主题社区构成",
+    "context6": "<table><tr><td>主题社区</td><td>关键词</td></tr><tr><td>C1-大数据分析 &amp;商务智能</td><td>big data；big data analytics；literature review；data mining；information retrieval；business； business analytics；business and economics；business intelligence；analysis；analytics; knowledge management；information system；mathematical analysis；analytics；data analysis; data management；decision making；internet of things；collaboration；data quality；data</td></tr><tr><td>信息科学</td><td>analytics C2-人工智能&amp; artificial intelligence；machine learning；bibliometrics；open data；semantics；ontology； classification；algorithm；information science；dataset；automation；clustering；linked data</td></tr><tr><td>C3-社会网络分 析&amp;社交媒体</td><td>social network analysis；sentiment analysis；content analysis；twitter；China；big data era； text mining；social media；digital media；social network；crowdsourcing；computer network</td></tr><tr><td>C4-数据伦理&amp; 个人隐私</td><td>ethics；internet；privacy；data processing；personal information；data collection；data bank; philosophy</td></tr><tr><td>信息管理</td><td>C5-信息技术&amp; records management；innovation；united states；cloud computing；information technology management；information management；information technology；data base management</td></tr><tr><td>C6-图书馆&amp; 数据素养</td><td>library；academic library；learning；education；librarian</td></tr></table>",
+    "context7": "要研究主题。",
+    "context8": "C3-社会网络分析&社交媒体同样是一个规模相对较大的研究方向，包括社会网络分析、社交媒体、社会网络、情感分析、文本挖掘等12个关键词。此研究方向主要关注的是社交媒体大数据以及在社交媒体大数据基础上利用社会网络分析、内容分析、情感分析、文本挖掘等技术方法围绕用户信息行为、企业竞争情报、网络舆情等主题展开的探索。",
+    "context9": "此外，还有3个规模相对较小的研究方向，分别是C4-数据伦理&个人隐私，此方向致力于从文化、哲学和安全等视角来思考大数据时代如何应对数据采集与处理等过程中遭遇的伦理、隐私等基础问题；C5-信息技术&信息管理，此方向主要探讨的是信息技术及其管理，以及信息技术变革对文件管理、信息管理、数据库管理创新的影响；C6-图书馆&数据素养，此方向主要针对的是大数据环境对图书馆、图书馆学科的影响以及大数据环境下图情教育、数据素养等方面的问题。"
+  },
+  "2.2国际图情领域大数据研究主题演化轨迹": {
+    "context1": "为了进一步揭示国际图情领域大数据研究主题随时间的演化特征，本文将8年分割为4个时间切片，利用CorTexT平台得到4个阶段中核心主题的演化轨迹（见图4)。透过每个时间切片，可以看到一个区间学界关注的核心研究主题方向及其演化情况。图中主题方向在纵坐标轴上的长度表示该方向关键词总词频所占比重大小，冲积面积的扩张与收缩显示出其在不同时间区间规模的变化。",
+    "context2": "![](images/14a522adce121f64062cbd962ca4d0f9a6588463bb1d4b35a4c85dc81664e7c3.jpg)  \n图3国际图情领域大数据研究主题演化轨迹",
+    "context3": "总体上看，2011年来国际图情领域大数据研究主题在横向的时间区间上出现明显的产生、扩张、收缩、分化、融合和消亡等演化现象。2013年，国际图情领域大数据研究中形成5个研究方向，其中“数据采集&隐私”方向的规模最大、延续性最好，在2015年演化为“大数据&数据挖掘”“通讯&数据处理”“推特&社会学”3个主题。值得注意的是“推特&社会学”在2016年规模逐渐增大并演化为“数字媒体&内容分析”主题，并在2018年再次分化为“数据处理&创新”“情感分析&推特”两个主题。",
+    "context4": "同时，“信息技术管理&创新”和“语义网&本体”这两个主题有一定的延续性，前者演化为“电子商务&分析”，并与后者融合形成“知识管理&信息技术”主题。2015年形成的主题“高等教育&决策”到了2016年，规模激增，不仅分化为“学术图书馆&信息职业”“分析&数学分析”两个主题，且后者成为历年来规模最大的研究主题，并在2018年继续演化为“大数据分析&数据分析”主题。",
+    "context5": "此外，“数据库管理&信息管理”\"算法&行为”等主题，没有形成持续性的演化轨迹，作为孤立的主题存在。而“智能&信息管理”“数据库管理&优化”作为刚形成不久的研究主题，暂时还未形成演化路径。"
+  },
+  "3国际图情领域大数据研究热点与前沿分析": {
+    "context1": "大数据和人工智能时代，技术剧变所带来的社会变革对科学研究的导向作用巨大。作为一个与信息技术发展息息相关的学科，图情领域也在不断探索其在大数据和人工智能时代的定位与发展，不断追逐学科的前沿，促进学科知识的更新。以下将以时间为轴，探讨国际图情领域在大数据研究中的热点变化与前沿主题。"
+  },
+  "3.1国际图情领域大数据研究热点分析": {
+    "context1": "为了进一步探讨不同阶段研究热点的变化情况，本文利用CorText得到国际图情领域大数据研究热点时序图（见图4)，并且依照文献数量的累积状况，将2011-2018年划分为4个时间区间，分别提取各个区间词频位列前十的核心关键词（见表4）。",
+    "context2": "![](images/5c840632432e59fed9c34cd1d8395463c9ce60d95f908746f9e6a82635897a5d.jpg)  \n图4国际图情领域大数据研究热点时序图",
+    "context3": "表4国际图情领域大数据研究热点主题分布",
+    "context4": "<table><tr><td colspan=\"3\">2011-2015年</td><td colspan=\"3\">2016年</td></tr><tr><td>排名</td><td>关键词</td><td>词频</td><td>排名</td><td>关键词</td><td>词频</td></tr><tr><td>1</td><td>big data</td><td>145</td><td>1</td><td>big data</td><td>67</td></tr><tr><td>2</td><td>united states</td><td>26</td><td>2</td><td>data analysis</td><td>15</td></tr><tr><td>3</td><td>social network</td><td>25</td><td>2</td><td>data management</td><td>15</td></tr><tr><td>4</td><td>artificial intelligence</td><td>21</td><td>4</td><td>big data analytics</td><td>13</td></tr><tr><td>5</td><td>privacy</td><td>19</td><td>4</td><td>analytics</td><td>13</td></tr><tr><td>5</td><td>data mining</td><td>17</td><td>4</td><td>information system</td><td>13</td></tr><tr><td>7</td><td>cloud computing</td><td>15</td><td>7</td><td>data mining</td><td>11</td></tr><tr><td>8</td><td>records management</td><td>14</td><td>8</td><td>cloud computing</td><td>10</td></tr><tr><td>9</td><td>data analysis</td><td>13</td><td>8</td><td>artificial intelligence</td><td>10</td></tr><tr><td>9</td><td>information management</td><td>13</td><td>8</td><td>social network/internet of things</td><td>10</td></tr><tr><td></td><td>2017年</td><td></td><td></td><td>2018年</td><td></td></tr><tr><td>排名</td><td>关键词</td><td>词频</td><td>排名</td><td>关键词</td><td>词频</td></tr><tr><td>1</td><td>big data</td><td>122</td><td>1</td><td>big data</td><td>87</td></tr><tr><td>2</td><td>data management</td><td>29</td><td>2</td><td>data management</td><td>32</td></tr><tr><td>3</td><td>information system</td><td>20</td><td>3</td><td>big data analytics</td><td>12</td></tr><tr><td>4</td><td>knowledge management</td><td>19</td><td>4</td><td>data analysis</td><td>11</td></tr><tr><td>5</td><td>artificial intelligence</td><td>18</td><td>4</td><td>analytics</td><td>11</td></tr><tr><td>5</td><td>social network</td><td>18</td><td>4</td><td>data mining</td><td>11</td></tr><tr><td>7</td><td>data mining</td><td>17</td><td>4</td><td>social media</td><td>11</td></tr><tr><td>8</td><td>algorithm</td><td>15</td><td>4</td><td>machine learning</td><td>11</td></tr><tr><td>8</td><td>internet of things</td><td>15</td><td>9</td><td>sentiment analysis</td><td>9</td></tr><tr><td></td><td>10internet/data analysis/information technology</td><td>13</td><td>10</td><td>artificial intelligence/classification/decision making/privacy/algorithm</td><td>7</td></tr></table>"
+  },
+  "3.1.1国际图情领域大数据研究热点随时间变化情况": {
+    "context1": "总体上看，2014年之前，国际图情领域大数据研究的热点主题较少，仅有信息技术管理和文件管理两个核心关键词，这表明2011-2014年，国际图情领域对大数据研究的关注较少、研究视域还比较狭窄，研究处于起步阶段。2015年开始，研究主题开始拓展。2016-2018年，研究主题数量急剧增加，在延续了前阶段大部分研究主题的基础上，出现了诸多新的研究主题，这也表明2015-2018年，国际图情领域对大数据的研究视域更加开阔，大数据研究取得重要进展。",
+    "context2": "具体而言，4个时间区间研究热度一直保持在前十的研究主题有：大数据、人工智能、数据分析、数据挖掘，可见人工智能、数据分析、数据挖掘是国际图情领域切入大数据研究的主线。而数据管理、社会网络出现在三个区间，同样具有很大的关注度。除了上述研究热点之外，从每个区间的热点主题来看，2011-2015年，美国、文件管理和信息管理曾引起大量关注，但其热度仅仅停留在此阶段，这也表明国际图情领域介入大数据研究的早期，较多关注大数据技术对图情领域的影响。与此同时，隐私、云计算也成为这一阶段大数据研究中关注的热点，但云计算在2016年之后便热度不再，而隐私问题在2018年又再次引起了较多的关注。物联网、信息系统经历2016-2017年的广泛关注后，同样热度不再。而算法从2017年至今引发广泛关注。知识管理、因特网、信息技术在2017年也引发一定的关注度。而社交媒体、机器学习、情感分析、分类、决策则成为2018年新的热门研究主题。3.1.22018年国际图情领域大数据新增热门研究主题分析",
+    "context3": "（1）社交媒体。2018年，社交媒体大数据领域研究热度升至前十。除了继续探索社交媒体（社交网络）大数据在挖掘用户需求、衡量用户满意度方面的价值[18]，有学者开始探索社交媒体大数据在政府灾害响应[19]、医疗服务改进中的价值[20]。",
+    "context4": "（2）机器学习。图情领域机器学习研究热度在2018年同样有所上升，机器学习（深度学习）方法在知识产权数据分析[21、网络用户特征分析[22]、图书馆个性化推荐程序设计[23]中的应用得到关注。还有学者基于机器学习算法和专家判断分析了Web抓取的在线职位信息，对大数据行业职位和技能进行了分类[24]。",
+    "context5": "（3）情感分析。基于社交媒体大数据的情感分析在2018年的关注度同样较高。情感分析被用于理解消费者的意见、挫折和满意度，以提升以客户为中心的响应能力[25]，也可以用来分析政府部门发布的社交媒体信息中使用的语气，了解其对公民参与与合作的影响[26，还可以用于分析社交媒体中关于某些事件（如叙利亚难民危机）的公众舆论和情感[27]。",
+    "context6": "（4）分类。分类问题关注度的提升与学界大数据安全、隐私与风险控制研究热有关。为了解决大数据分析平台的隐私保护问题，有学者提出了一种新的k-NN分类器，在MapReduce平台上的匿名数据集上运行[28；也有学者探讨了基于LDA主题建模技术的自动组件聚类和分类方法在大数据张量分解中的应用[29]。",
+    "context7": "（5）决策。决策研究热点的出现预示着大数据分析在企业、政府等部门的应用探索更加深入。有学者探讨了大数据分析能力对企业决策绩效的影响[30]；也有学者探索利用社交媒体大数据分析，促进旅游部门智慧旅游决策[31;还有学者探索了以市民为中心的大数据在智慧城市治理决策中的潜在价值[32]。"
+  },
+  "3.2国际图情领域大数据研究前沿分析": {
+    "context1": "为了进一步探测国际图情领域大数据研究的前沿，本文利用 Sci2工具对2011年以来国际图情领域大数据研究研究的关键词进行突发检测，得到国际图情领域大数据研究中出现的前沿主题，见图5。",
+    "context2": "如图5所示，2013年来，国际图情领域大数据研究中共出现12个关注度不一的突发性研究主题，其中突发持续时间最长的物联网，而突发强度最强的是大数据。在12个主题中，数据管理、信息系统、知识管理、机器学习、物联网5个主题延续至今，成为当前图情领域大数据研究的前沿性主题。叶鹰教授曾形象地将研究热点比作浪潮，研究前沿比作沙滩，并指出某些热点可能成为前沿，如同浪潮过后可留下沙滩；有些热点因时过境迁而消失，如同波浪过后一无所有[33]。通过与前文研究热点的比较可以看出，数据管理、信息系统、知识管理、物联网正是浪潮过后留下的沙滩。而机器学习在2018年引发浪潮的同时便留下沙滩，成为热门的前沿性主题。以下将对这些前沿主题进行重点分析。",
+    "context3": "![](images/21dfeb1401b150a3aa343b9df59d30575b9e814ab34338d209a61741fc528b37.jpg)  \n图5国际图情领域大数据研究突现词图谱"
+  },
+  "3.2.1数据管理": {
+    "context1": "近年来，数据管理研究的广度和深度不断拓展。在广度上，政府开放数据、科研数据、关联数据、企业数据都成为图情领域关注的对象[34-35]；在深度上，数据质量、数据素养以及数据管理中图情人员参与都引起了关注[36-38]。而随着欧美主要国家数据管理和共享政策的相继发布，研究数据管理（ResearchData Management）成为探索的前沿。学术图书馆在领导和参与研究数据管理服务方面的准备程度[39]、学术图书馆员在研究数据管理中角色现状与职业发展趋势[40]、如何通过改善教育、培训方式来提升馆员服务于研究数据管理的技能[41-42]等问题引起关注。"
+  },
+  "3.2.2信息系统": {
+    "context1": "近年来，随着基于Hadoop 或 Spark 的分布式存储数据库的出现，基于大数据的系统开发与商业数据分析带动了组织对其信息系统的重新审视，关于大数据系统的设计、开发、部署、实施和评估引起了学界的关注。其中，面向大数据分析需求的信息系统研究成为当前图情领域大数据研究的前沿问题。在引入大数据分析架构的路径上，形成了两种不同的研究思路。首先是基于大数据分析的需求，改进已有的知识管理系统、决策支持系统的设计与实施，让其具备大数据分析的能力[43-44]。其次是探索开发大数据系统，有学者将现有的知识管理、竞争情报和大数据分析理论结合起来，为不同环境下大数据系统的架构提出建议[45]；有学者提出一个基于大数据技术的智慧图书馆系统[4；有学者探索了支持工业4.0的大数据系统[47]；还有学者提出了一种从大数据到智慧数据的系统实现方法[48]。"
+  },
+  "3.2.3知识管理": {
+    "context1": "大数据分析技术的出现让知识管理再次引发图情领域的关注，时至今日大数据已经对知识管理理论和实践产生广泛影响。当前，数据驱动的知识管理成为图情领域大数据研究的前沿问题。大数据很有可能作为知识管理的要素[49]，帮助公司提升知识管理能力并做出有效决策[5]。有学者探讨了大数据文本分析对改善组织知识管理的作用[51]。为了能够在概念上和操作上使用和整合大数据分析，有学者提出一种大数据分析一知识管理（BDA-KM）模型[52]。还有学者提出全面革新知识管理系统,建设智能学习生态系统（IntellgentLearningEcosystems）集成所有形式的隐性和显性知识资产，提升大数据分析能力，实现智能决策[53]。"
+  },
+  "3.2.4机器学习": {
+    "context1": "近年来，现代人工智能模型的数据驱动和算法应用已广泛应用于各个领域，数据密集型机器学习方法在医疗保健、科学计量与科技文献检索、用户数据分析中的应用也成为图情领域大数据研究的前沿问题。在医疗保健领域，机器学习被应用于解决精神病患者分类[54]、自闭症早期诊断筛查[55]等问题。在科学计量与科技文献检索领域，有学者介绍了基于深度学习模型的科技文献术语向量空间的表示方法[5;有学者探索了机器学习模型在有影响力科技文献检索中的应用[57]；有学者提出一种利用引文上下文分析测量科学知识流动的新机器学习方法[58]。在用户数据分析领域，有学者利用各种机器学习分类器对印度电影评论语料库进行情感分析[59]；也有学者探索机器学习在社交媒体用户兴趣挖掘中的应用[60]。"
+  },
+  "3.2.5物联网": {
+    "context1": "物联网通过使用互联网、传感器和RFID，使物体能够通过网络收集数据并传输数据，而无须人工干预，其已在智能家居、智能医疗、车联网、智能电网等领域得到广泛应用。物联网自2016年开始逐渐演变成为国际图情领域在大数据研究中的重要前沿问题。当前，国际图情领域在此问题上的研究主要集中在3个方面：一是探讨嵌入物联网技术收集各类数据的新手段[61-62]；二是探讨物联网技术在图书馆以及相关信息机构的应用[3-64]；三是探讨物联网技术发展所引发的伦理、道德、安全、隐私等问题[65-68]"
+  },
+  "4结语": {
+    "context1": "探测分析国际图情领域大数据研究的主题演化状况、研究热点与前沿，对于专家学者进行科研选题、构建学科知识体系具有重要的意义。本文以WoS核心合集数据库和ProQuestResearch Library 的 Library Science Database 数据库的877篇文献为研究对象，借助 SATI、Pajek、CorText、Sci2 等工具，运用共词分析法和词频分析法探讨了国际图情领域大数据研究主题结构与演化特征、研究热点与前沿，得出如下几个主要结论：",
+    "context2": "（1）当前国际图情领域在大数据研究中已形成商务智能&大数据分析、人工智能&信息科学、社会网络分析&社交媒体、数据伦理&个人隐私、信息技术&信息管理、图书馆&数据素养6个规模不一的研究方向，其中商务智能&大数据分析方向的规模最大，拥有的研究主题数量最多。",
+    "context3": "（2）2015年开始，国际图情领域对大数据研究主题开始拓展。大数据、人工智能、数据分析、数据挖掘成为一直以来学界关注的焦点。2015年之前，文件管理和信息管理曾引起大量关注，但其热度仅仅停留在此阶段。与此同时，隐私、云计算也成为这一阶段大数据研究中关注的热点，但云计算在2016年之后便热度不再，而隐私问题在2018年又再次引起了较多的关注。物联网、信息系统经历",
+    "context4": "2016-2017年的广泛关注后，同样热度不再。而算法从2017年至今引发广泛关注。知识管理、因特网、信息技术在2017年也引发一定的关注度。而社交媒体、机器学习、情感分析、分类、决策则成为2018年新的热门研究主题。",
+    "context5": "（3）2013年以来，国际图情领域大数据研究中共出现12个关注度不一的突发性研究主题，其中数据管理、信息系统、知识管理、机器学习、物联网5个主题成为当前研究的前沿性主题。",
+    "context6": "总之，近年来，商业领域大数据、社交媒体大数据以及政府开放数据是当前国际图情领域关注较多的领域，而医疗健康大数据也开始引发关注。通过本文对研究主题社区划分和演化分析发现：大数据分析技术和方法的成熟正在影响、融合并试图革新传统的决策支持、知识发现、信息管理、知识管理理论与方法。数据环境和智能环境下，大数据分析、数据挖掘、文本分析、社会网络分析、情感分析等方法越来越多地进入图情学者的研究视域，而人工智能、物联网、云计算、机器学习、深度学习等技术也呈现融合应用的态势。在经历大数据技术炒作期后，数据管理、数据治理等新的管理理论正在形成，而数据时代智能时代到来引发的哲学与社会学反思，信任、伦理、道德、文化、隐私、安全、风险等问题已引发热烈的讨论。"
+  },
+  "参考文献": {
+    "context1": "[1]Hey T.The Fourth Paradigm—Data-IntensiveScientific Discovery[J].Proceedings of the IEEE,2009,99(8):1334-1337.  \n[2]Arnold S E.Big data:The new informationchallenge[J]. Online,2011,35(2): 27-29.  \n[3]陈军营,白如江,王效岳,等.中外图情领域大数据近十年(2007-2016)研究现状与发展趋势分析[J].情报科学,2018(7):104-110.  \n[4］刘成山,李玉,王洁良.大数据在图情领域的研究现状及趋势分析[J].情报理论与实践,2016,39(4): 20-26.  \n[5] 李信,李旭晖,陆伟,等.大数据驱动下的图情学科热点领域挖掘- 一面向WOS题录数据的实证视角[J].图书馆论坛,2017,37(4):49-57.  \n[6]赵栋祥,张瑞.国际图情领域大数据研究热点挖掘与分析[J].图书馆学研究,2018(14):10-19.  \n[7］刘启元,叶鹰.文献题录信息挖掘技术方法及其软件SATI的实现——以中外图情学为例[J].信息资源管理学报,2012(1):50-58.  \n[8］唐果媛,张薇.基于共词分析法的学科主题演化研究进展与分析[J].图书情报工作,2015,59(5):128-136.  \n[9]Ravikumar S,Agrahari A, Singh S N. Mapping theintellectual structure of scientometrics:a co-wordanalysis of the journal Scientometrics (2O05-2010)[J].Scientometrics,2015,102(1): 929-955.  \n[10]Blondel V D,Guillaume JL,Lambiotte R,et al.Fast unfolding of communities in large networks[J].Journal of Statistical Mechanics:Theory andExperiment,2008,8(10): P10008.  \n[11] LeydesdorffL,Goldstone RL.Interdisciplinarityat the journal and specialty level: the changingknowledge bases of the journal Cognitive Science[J]."
+  }
+}

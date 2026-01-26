@@ -1,0 +1,105 @@
+{
+  "original_filename": "full_4621.md",
+  "nothing": {
+    "context1": "·理论探索·"
+  },
+  "基于潜在语义分析的影响自然语言检索查准率指标因素的评述": {
+    "context1": "陈立华",
+    "context2": "（山东省德州学院图书馆，山东 德州 253023)",
+    "context3": "[摘要]潜在语义分析是自然语言使用于情报检索系统的理论基础，以此理论建构的空间向量模型是评判检索系统性能优良与否的知识工具。阐述了潜在语义标引（LSI）的基本内容、ISI下影响自然语言检索查准率的因素及向量空间模型检索软件的运行机制。此评述对网络化的情报检索技术的发展起到了一定的参考作用。",
+    "context4": "[关键词]潜在语义分析；自然语言；查准率",
+    "context5": "[中图分类号]G254.0〔文献标识码]A〔文章编号〕1008—0821（2010）03－0026－03"
+  },
+  "Comment on Latent Semantic Analysis of Retrieval Precision Rate Factors Based on the Impact of Natural Language": {
+    "context1": "Chen Lihua (Library，Dezhou College，Dezhou 253O23，China)",
+    "context2": "[Abstract）Latentsemanticanalysis is the theoretical basisofnatural language infomationretrieval systemusedinbuilding the spacevector model to judgetheretrieval system pefomance.Thispaper discusedonlatentsemantic indexing(LSI）of the basiccontent，LSIundertheimpactofnaturallanguage searchof precisionfactorsandvectorspace modelretrievalsofwareoperat ing mechanism·Thiscommentaryonthenetwork of informationretrieval technology hasplayedacertainroleinthereference·",
+    "context3": "[Key words] latent semantic analysis；natural language；precision",
+    "context4": "自然语言是随着计算机技术的运用而发展起来的一种信息检索语言。在互联网世界里，各种搜索引擎和网络数据库也在日益广泛地应用自然语言。但是自然语言本身存在的缺点影响了整个检索体系的检索效果，自然语言存在着同义词、近义词、多义词以及其他有着相互关系的语词，这些语词缺乏规范化处理，语词之间缺乏概念显示的语义关系，或者说语词之间语义关联性差，当用户采用的提问式具有多意义概念表达时，使用一个自然语言检索词，必然会影响输出结果的查准率。为此，学者们积极开展研究，先后提出了词干法（Stemming）、控制词表法（Controlled Vo\"cabularies）等解决方法，但由于这些方法的实质依然是关键词匹配，改进非常有限，从而无法根本上解决查准率低的问题[1]。1988 年，Dumais ST．等人提出了一种新的信息检索代数模型：潜在语义标引 (Latent Semantic Indexing LSI)模型，实现了基于概念的语义检索，较好地解决了自然语言检索问题，提高了检索系统的准确率[2]。"
+  },
+  "1潜在语义标引(LSI)概述": {
+    "context1": "在文献中，由于大量的同义词、近义词和多义词的出现，使得文献出现了一些隐含的或潜在的语义结构。这些语义结构的表现形式可以通过统计文献中存在的标引词的词频来展示。美国康奈尔大学的Salton等人建立了潜在语义标引的向量空间模型，他们将文献及用户查询语句表示成标引词权重的向量，形成了文献一一—标引词矩阵[3]。",
+    "context2": "在向量空间模型中，任意一篇文献和任意一个用户提问的向量表达式为：",
+    "context3": "$$\na _ { i } = ( x _ { 1 } , x _ { 2 } , \\cdots x _ { m } ) \\qquad b _ { i } = ( x _ { 1 } , x _ { 2 } , \\cdots x _ { m } )\n$$",
+    "context4": "其中： $a _ { i }$ 为文献集合中的第 $i$ 篇文献， $b _ { i }$ 为任意一个用户提问， $x _ { i }$ 为文献向量或用户提问中的第 $i$ 个标引词， $m$ 为系统中标引词的总数。",
+    "context5": "根据文献中标引词的词频统计结果，可以为文献 $a _ { i }$ 中的标引词 $x _ { i }$ 赋于一定的权值 $Q _ { k , j }$ ，表示文献 $a _ { i }$ 中标引词 $x _ { i }$ 的重要程度。则文献 $a _ { i }$ 和用户提问 $b _ { i }$ 可以表示为权值 $Q _ { k }$ 的形式为：",
+    "context6": "$$\na _ { i } = ( x _ { 1 } , x _ { 2 } , \\cdots x _ { m } ) = ( Q _ { 1 , j } , Q _ { 2 , j } , \\cdots Q _ { m , j } )\n$$",
+    "context7": "$$\nb _ { i } { = } ( \\ b { x } _ { 1 } , \\ b { x } _ { 2 } , \\cdots \\ b { x _ { m } } ) { = } ( Q _ { 1 , v } , Q _ { 2 , v } , \\cdots Q _ { m , v } )\n$$",
+    "context8": "向量空间模型的文献一一—标引词结构对应着矩阵的表示形式，在LSI模型中，潜在语义结构是可以用文献一标引词矩阵来表示的：",
+    "context9": "$$\n\\begin{array} { r l r } & { } & { D ^ { = } ( \\alpha _ { 1 } , \\alpha _ { 2 } , \\cdots \\alpha _ { n } ) = \\left( \\begin{array} { l l l l l } { Q _ { 1 1 } } & { Q _ { 1 2 } } & { \\cdots } & { Q _ { 1 n } } \\\\ { Q _ { 2 1 } } & { Q _ { 2 2 } } & { \\cdots } & { Q _ { 2 n } } \\\\ { \\cdots } & { \\cdots } & { \\cdots } & { \\cdots } \\\\ { Q _ { m 1 } } & { Q _ { m 2 } } & { \\cdots } & { Q _ { m _ { n } } } \\end{array} \\right) } \\\\ & { } & { = \\left( \\begin{array} { l l l l l } { D _ { 1 1 } } & { 0 _ { 1 2 } } & { \\cdots } & { 0 _ { 1 n } } \\\\ { D _ { 2 1 } } & { D _ { 2 2 } } & { \\cdots } & { D _ { 2 n } } \\\\ { \\cdots } & { \\cdots } & { \\cdots } & { \\cdots } \\\\ { D _ { m 1 } } & { D _ { m 2 } } & { \\cdots } & { D _ { m 1 } } \\end{array} \\right) } \\end{array}\n$$",
+    "context10": "其中： $m$ 为系统中标引词的总数， $\\boldsymbol { n }$ 为文献的总数， $D _ { i } , _ { j }$ 为文献——标引词 $( a _ { i } \\mathrm { , ~ } x _ { i }$ ）的权值。",
+    "context11": "LSI模型的建立，使得语义关联的非结构化的文献集合可以表示为空间向量，利用数学方法解决自然语言检索问题成为可能。由于文献中存在着许多同义、近义、多义等自然语言词语，因此，抽取的标引词之间就不可避免地存在着相互的联系，从而，标引词向量之间存在着“斜交”的情景。若全然忽略这样的斜交可能，即忽略文献之间的相互联系，必然使得检索效果产生很大的偏差[4]。"
+  },
+  "2LSI下影响自然语言检索查准率指标因素分析": "",
+  "2.1奇异值分解(singular valucd decomposition，SVD) 对查准率的影响": {
+    "context1": "自然语言标引词存在于文献之中，但并非一个标引词出现在每一个文献之中，因此，文献一一标引词矩阵是一个高阶稀疏矩阵。为了准确检索出被标引的文献，必须将文献基于标引词权重的向量表述映射到一个低纬度的向量空间中去。例如一个 $\\textit { m } ^ { \\ast } \\textit { n }$ 阶的文献一—标引词矩阵 $E$ ，$E ^ { T } E$ 具有非负的特征值。 $E ^ { T } E$ 的特征值的非负平方根称为$E$ 的奇异值，非零奇异值的数目等于 $E$ 的秩[rank(E)][根据奇异值定义可以将 $E$ 分解为3个矩阵的乘积：",
+    "context2": "$$\nE ^ { = } K L P ^ { T }\n$$",
+    "context3": "其中： $K$ 、 $P$ 为正交矩阵， $K$ 的大小为 $m ^ { \\ast } m$ ， $P$ 的大小为 $\\textit { n } ^ { \\ast } \\textit { n }$ ，两矩阵均是单位长度的，即满足 $K ^ { T } K ^ { = 1 }$ 和$P ^ { T } P = 1$ 。 $L$ 为奇异对角矩阵，大小为 $\\textit { m } ^ { \\ast } \\textit { n }$ ，是原矩阵的消减矩阵。 $L$ 上的对角线元素为分解得到的 $E$ 的各奇异值，各奇异值按照由大到小的顺序排列，即： $Z _ { 1 } \\mathcal { \\geq } Z _ { 2 } \\mathcal { \\geq } . . . \\geqslant$ $Z _ { r }$ 。",
+    "context4": "由于 $L$ 上的对角线元素是按大小顺序排列的，现保留最大的元素数目 $S$ 个，其余较小的各个元素数值定为零，同时保留矩阵 $K$ 和 $P$ 中最右边的最大 $S$ 个元素，其他较小值元素定为零，这样产生了 $K$ 、 $L$ 、 $P$ 三矩阵的相似矩阵$K _ { S }$ 、 $L _ { S }$ 、 $P _ { S }$ ，将三矩阵相乘得： $E _ { S } { = } K _ { S } L _ { S } P _ { S } { } ^ { T }$ ，且rank( $E _ { S } )$ $= s$ 。",
+    "context5": "$E _ { S }$ 矩阵是文献一—标引词矩阵 $E$ 的近似矩阵，表示着将文献向量从一个高维度空间降低到了一个低维度空间内，这样减少了高维度 $E$ 矩阵中的“噪声”因素，增强了文献与标引词之间的语义关联度，大大提高了自然语言检索的查准率。 $S$ 值的大小是衡量文献检索质量和文献检索效率的关键指标。设 $z _ { s + 1 } + z _ { s + 2 } + . . . . . . + z _ { s + r } < \\mathfrak { s } ^ { 2 }$ ，则：",
+    "context6": "由上式可知：选取适当的 $S$ 值，对应适当的ε，可以使得 $E$ 和 $E _ { S }$ 近似度最大。一方面， $S$ 值应该足够大，能够适合所有的潜在语义结构，即可以包括所有现实的结构信息。但是又不能太大，因为如果太大，则接近于标准的向量空间模型，失去它可以表示词相依性的能力，同时存在“噪声”，这就给检索带来新的问题。另一方面， $S$ 值应该足够小，小到可以忽略取消错误和不重要的细节；但是如果太小，则不能适应样本的误差，保留下来的语义结构太少，无法把握运算的结果，分辨文献或语词的能力不足[6]。$S$ 值的确定方法主要是参考因子分析中 $S$ 值的选择方法的贡献率不等式法。"
+  },
+  "2.2文献向量和用户提问向量的相似度对查准率 的影响": {
+    "context1": "在LSI空间模型内，用户的提问也可以用向量来表示，将提问虚拟为文献向量集合中的某一向量。这样，可以通过比较文献向量和用户提问向量的内积或余弦距离来判断两者的相似度。计算相似度之前，要明确文献和用户提问中标引词的权值：",
+    "context2": "文献 $a _ { i }$ 中词 $x _ { r }$ 的标准化频率f..为：",
+    "context3": "$$\nf _ { r , i } { = } f r e q _ { r , i } / ( \\operatorname* { m a x } l * f r e q _ { r } , _ { i } )\n$$",
+    "context4": "其中：freqr,i为文献 $a _ { i }$ 中标引词 $x _ { r }$ 的初始频率。",
+    "context5": "文献 $a _ { i }$ 中词 $x _ { r }$ 的逆频率 $i d f _ { r }$ 为：",
+    "context6": "$$\n\\scriptstyle { i d f _ { r } = \\log ( N / n _ { r } ) }\n$$",
+    "context7": "其中： $N$ 为检索系统中的文献总数量， $n _ { r }$ 为含有标引词 $x _ { r }$ 的文献数量。",
+    "context8": "文献 $a _ { i }$ 中标引词 $x _ { r }$ 的权值为：",
+    "context9": "$$\nQ _ { k , j } { = } f _ { r , \\ i } \\times \\ i d f _ { r } { = } f _ { r , \\ i } \\times \\log ( \\ N / \\ n _ { r } )\n$$",
+    "context10": "用户提问 $b _ { i }$ 中标引词 $x _ { r }$ 的权值为：",
+    "context11": "$$\nQ _ { k , v } = [ 0 . 5 + 0 . 5 \\ f r e q _ { r , i } / ( \\operatorname* { m a x } l \\mathrm { \\mathrm { \\stackrel { \\times } { \\ s } } } f r e q _ { r , i } ) ] \\mathrm { \\stackrel { \\times } { \\ s p q } } ( \\mathrm { \\textit { N / } } n _ { r } )\n$$",
+    "context12": "根据上述计算来判断文献向量和用户提问向量之间的相似度：",
+    "context13": "$\\textcircled{1}$ 点积函数法：",
+    "context14": "$$\ns i m ( \\ a _ { i } , b _ { i } ) = \\Sigma Q _ { k , j } \\ * \\ Q _ { k , v } ( 1 { \\leqslant } k { \\leqslant } m )\n$$",
+    "context15": "即：文献向量中的元素权值与用户提问向量中的对应元素权值的乘积之和。和值越大，说明文献向量和用户提问向量的相似度越大，文献检索的查准率越高。",
+    "context16": "$\\textcircled{2}$ 点加函数法：",
+    "context17": "$$\ns i m ( a _ { i } , b _ { i } ) = \\Sigma _ { \\operatorname* { m i n } } ( \\mathbf { \\nabla } Q _ { k , j } , Q _ { k , v } ) ( 1 \\leqslant k \\leqslant m )\n$$",
+    "context18": "即：文献向量中的元素权值与用户提问向量中的对应权值的最小分量数值之和。和值越大，说明文献向量和用户提问向量的相似度越大，文献检索的查准率越高。",
+    "context19": "$\\textcircled{3}$ 余弦函数法：",
+    "context20": "$s i m ( \\ a _ { i } , b _ { i } ) = ( \\ a _ { i } \\ ^ { * } \\ b _ { i } ) / ( \\mid a _ { i } \\mid \\ ^ { * } \\mid b _ { i } \\mid ) = ( \\ \\Sigma Q _ { k , j } \\ ^ { * } \\ Q _ { k , v } ) /$ $\\{ [ \\Sigma ( \\mathbf { \\Delta Q } _ { k , j } ) ^ { 2 } ] ^ { 1 / 2 } \\ast [ \\Sigma ( \\mathbf { \\Delta Q } _ { k , V } ) ^ { 2 } ] ^ { 1 / 2 } \\} ( 1 { \\leqslant } k { \\leqslant } m )$",
+    "context21": "即：文献向量与用户提问向量之间夹角的余弦值。如图1所示：",
+    "context22": "![](images/8f6f03a45a88b488bba90309c3d422d1d896672ad31bd0da642d8f4ac86de1c0.jpg)  \n图1余弦值",
+    "context23": "由图1可以看出，文献向量与用户提问向量的相似度和两向量的夹角 $\\beta$ 有关，当 $\\beta$ 越大时，余弦值越小，相似度越小；当 $\\beta$ 越小时，余弦值越大，相似度越大；当两向量完全重合时，说明相似度最大。为了提高文献检索的查准率，必须将相似度的阈值提高到一定的程度，这样相似度高于阈值的文献按照相似度由大到小的顺序排列输出，确保了被检文献的高准确率[7]。"
+  },
+  "2.3潜在语义向量空间结构的更新状况对查准率的影响": {
+    "context1": "当情报检索系统中不断增加新的文献时，使得文献标引词向量空间结构发生了变化，我们可以利用逐层聚类法更新来建立文献一一标引词向量矩阵的逻辑组合关系。",
+    "context2": "更新后的矩阵逻辑组合关系是一种即时关系，是原关系的延续与积累。设文献积累状态下的文献一一标引词矩阵为D ${ \\bf \\alpha } _ { 1 } \\mathrm { = } ( \\mathbf { a } _ { 1 } , \\mathbf { a } _ { 2 } , \\cdots \\mathbf { a } _ { \\mathrm { n } } )$ ，利用逐层聚类法将D中文献数目类分为 $\\mathbf { m }$ 个类层，分别为第1类、第2类、第3类第 $\\mathbf { m }$ 类。每一类层的所有向量的平均值是本类层的特征向量值，那么，所有类层的向量平均值就是该文献一一标引词向量空间的特征向量值。对于文献一一标引词矩阵D，逐层聚类结果可以表示为 $\\mathrm { \\Delta D = ( D _ { 1 } , D _ { 2 } \\cdots a \\cdots \\partial _ { m } ) = D _ { 1 } \\bigcup D _ { 2 } \\bigcup \\cdots a \\cdots \\bigcup }$ $\\mathrm { D } _ { \\mathrm { m } }$ ，我们可以对以下结果进行表述和判断：",
+    "context3": "$\\textcircled{1}$ 计算类层的平均类内马氏距离 $\\rho$ ：",
+    "context4": "$$\n\\begin{array} { r } { \\alpha _ { \\mathrm { p } } { = } \\Sigma \\mathbf { R } ( \\mathbf { p } \\setminus \\mathbf { e } ) ( \\mathrm { x } _ { \\mathrm { e } } { - } \\beta _ { \\mathrm { p } } ) ^ { \\mathrm { N } } \\Sigma _ { \\mathbf { p } } ^ { - 1 } ( \\mathrm { x } ) \\mathbf { e } ^ { - } \\beta _ { \\mathrm { p } } ) / \\mathrm { S } _ { \\mathrm { P } } \\ ( \\mathbf { e } \\in 1 , } \\end{array}\n$$",
+    "context5": "其中： $\\mathbf { p } { = } 1 , 2 , 3 { \\cdots } { \\cdots } { \\underset { \\mathbf { p } } { \\mathbf { \\sigma } } } , \\ \\beta _ { \\mathbf { p } }$ 为各类层的向量平均值;$\\Sigma _ { \\mathrm { { p } } }$ 为协方差矩阵， $\\mathrm { S _ { P } }$ 为第 $\\mathrm { p }$ 个类层中标准训练样本数，R${ \\bf \\Pi } ( { \\bf p } \\setminus { \\bf e } )$ 的取值为：",
+    "context6": "$$\n\\mathbf { R } ( \\mathbf { p } \\setminus \\mathbf { e } ) { = } 1 \\quad \\mathbf { a } _ { \\mathrm { i } } { \\in } \\mathbf { D } _ { \\mathrm { p } } \\ H \\hat { \\ z } \\cup \\quad \\mathbf { a } _ { \\mathrm { i } } { \\in } \\mathbf { D } _ { \\mathrm { p } }\n$$",
+    "context7": "②计算类层的类间距离Jp.q:",
+    "context8": "$$\n\\mathrm { J _ { p , q } = ( \\mathrm { \\vec { \\beta } _ { p } - \\mathrm { \\vec { \\beta } _ { q } ) ^ { N } / 2 \\times ~ ( \\mathrm { \\vec { \\Sigma } _ { p } ^ { - 1 } + \\mathrm { \\vec { \\Sigma } _ { q } ^ { - 1 } ) \\times ~ ( \\mathrm { \\vec { \\beta } _ { p } - \\mathrm { \\vec { \\beta } _ { q } ) } } } } } } }\n$$",
+    "context9": "$\\textcircled{3}$ 根据 $\\textcircled{1}$ 和 $\\textcircled{2}$ 公式，计算类层的类内类间距离比 $\\mathbf { w _ { p } , q }$ $\\mathbf { w _ { p } } , _ { \\mathbf { q } } { = } ( \\alpha _ { \\mathbf { p } } { + } \\alpha _ { \\mathbf { q } } ) / \\mathbf { J _ { p } } , _ { \\mathbf { q } }$",
+    "context10": "其中： $\\mathrm { \\bf { p } = 1 , 2 , 3 . . . . . . . . _ { m } ~ ; ~ \\bf { q } = 1 , 2 , 3 . . . . . . . . _ { m } ~ \\psi _ { \\circ } ^ { \\left[ 8 \\right] } }$ 1",
+    "context11": "从 $\\textcircled{1}$ 、 $\\textcircled{2}$ 、 $\\textcircled{3}$ 可以看出， $\\mathbf { w _ { p } , q }$ 的最优类层值取决于 $\\rho$ 、$\\alpha _ { \\mathrm { q } }$ 及 $\\mathrm { { J _ { p } , _ { q } } }$ 的取值大小，进一步说明取决于 $\\mathbf { m }$ 值的大小，使得$\\mathbf { w _ { p } , q }$ 为最大值的 $\\mathbf { m }$ 值为最佳类层数，其相应的文献一—标引词向量矩阵的逻辑组合关系为最佳关系。在最佳向量空间逻辑组合关系中，文献检索的词汇控制处在随机的良性运动状态，所有检索指标为最佳，对文献检索系统的查准率来说，也是最高的。"
+  },
+  "3LSI下向量空间模型检索软件的查准率分析": {
+    "context1": "目前，向量空间模型检索软件研究处在快速发展的阶段，其中开发最为成功的案例是美国Comell大学研制的smart 概率模型inquery，该软件实现了词项统计加权策略，优化了query 的相关性反馈技术。系统在unix上开发，可以依照建立索引库之前准备的一组需要装库的记录文件和一个装库的描述文件(Spec)，对格式化的文本文件建立索引库。然后可以进行批处理查询或交互式查询，也可作relevence feedback查询，还可以按照TREC给出的评测程序和标准答案集对照给出评分[9]。inquery 向量空间模型检索的现实代码如下所示：",
+    "context2": "//对查询条件数组赋值，生成查询条件向量queryarr中，myarray [j]为项  \n$\\scriptstyle 1 0 0 \\mathbf { f o r } ( \\mathbf { j } = 0 ; \\ \\mathbf { j } < \\mathbf { m } ; \\ \\mathbf { j } ^ { + + } )$   \n$/ / \\mathrm { { { m } } }$ 为向量的维数  \n200{  \n300 if (Txtdesct ·Text·IndexOF(myarray [j]) ${ \\ } > - 1 { \\ }$   \n//Txtdesct ·Text 为输入的查询条件的文本描述  \n400 {queryarray [j]=1;}  \n500 else  \n600 {queryarray [j]=0;}  \n700}  \n/对构件库中每个构件对应的向量赋值  \n$8 0 0 \\mathrm { f o r }$ $\\mathbf { i } ^ { = 0 }$ ; I<k;I++)  \n$/ / \\mathrm { k }$ 为构件库中构件的总数量  \n900{  \n1000 for $( \\mathrm { j } ^ { = 0 }$ ； $\\mathrm { j } { < } _ { \\mathrm { m } } ; \\mathrm { ~ j } + +$ ） $/ / \\mathrm { { { m } } }$ 为向量的维数  \n1100 $\\{$   \n1200 if （componentdisc [i]·IndexOf (myarray $[ \\mathrm { j } ] > - 1 $   \n/判断构件构件描述是否存在某项  \n1300 {componentarray [i, $\\mathrm { j } ] { = } 1$   \n1400 else  \n1500{componentarray [i，j]=0;}  \n1600}  \n1700}"
+  },
+  "4.2搭建一个隐性知识交流的技术平台": {
+    "context1": "现在来谈谈个人群体之间交流的几种具体的技术平台："
+  },
+  "4.2.1Blog": {
+    "context1": "Blog 是“Web log”的缩写，是一种表达个人思想、内容，按时间顺序排列并且不断更新的网络日志，它可以使馆员和读者用户方便地发布人个信息，是个人在网络上展示自己、张扬个性、与别人沟通交流、满足自己潜在的社会性需求的综合工具。在隐性知识的挖掘和共享上具有重要意义[3]。"
+  },
+  "4.2.2RSS": {
+    "context1": "RSS 是“Really Simple Syndication”缩写，是站点用来和其他图书馆站点之间共享内容的一种简易方式，也叫内容聚合。它具有信息来源多样、聚合个性化、技术难度低、信息发表时效性强、无“信息垃圾”干扰、资料便于管理等特点。可以得到最新的图书情报信息。可以为馆员的隐性知识交流进行推拉[4]。"
+  },
+  "4.2.3建立一个类似QQ群的即时交流平台": {
+    "context1": "这个即时交流平台是一个交流隐性知识的较好方式。以QQ群为例，一个图书馆员可将在图书馆界工作的同学、同事、同道、高校信息管理系工作的教师、资深教授的QQ建立一个QQ群里，在群里可交流讨论图书馆工作的技能、技巧及图书馆方面的理论[5]。"
+  },
+  "5结语": {
+    "context1": "在竞争日益激烈的知识经济时代，图书馆在社会文化"
+  },
+  "（上接第28页）": {
+    "context1": "//计算构件描述与查询条件的向量夹角   \n1800 for $( \\mathbf { i } ^ { - } ) = 0$ ; I<k;I++)   \n1900{   \n2000 for $( \\mathrm { j } ^ { = 0 }$ ;j<m;j++)   \n2100{   \n$2 2 0 0 \\ \\mathrm { s } ^ { = } \\mathrm { s } ^ { + }$ componentarray [i，j] \\* queryarray [i]   \n$2 3 0 0 \\ { \\mathrm { s 1 = s 1 + } }$ componentarray [i，j] \\* componentarray [i，j]   \n2400 $\\mathrm { { s } 2 \\mathrm { { = } } } _ { \\mathrm { { s } } } \\mathrm { { 2 + } }$ queryarray [j] \\* queryarray [j]   \n2500}   \n2600 $ { ) } _ { \\mathrm { \\ s { 3 = } } \\mathrm { S q m } }$ (s1)   \n$2 7 0 0 \\ { \\mathrm { s 4 = } } \\mathrm { s q m }$ $( \\mathbf { s } ^ { 2 } )$   \n$2 8 0 0 \\mathrm { { \\mathbf { v } } = } \\mathrm { { _ { s } } / }$ $\\mathbf { ( s 3 \\ast _ { s } 4 ) }$   \n$/ / \\nu$ 为查询向量与构件描述向量夹角的余弦值   \n2900}[10]",
+    "context2": "由以上代码式可以看出：向量空间模型检索软件的现实代码的逻辑计算是查准率表达的数码条件，是情报检索系统计算机化的表现与基础。"
+  },
+  "参考文献": {
+    "context1": "[l］秦亚欧．图书馆内部隐性知识共享的途径[J]．长春师范学院学报，2007，（1)：162—165.  \n[2]钱小平．浅析图书馆隐性知识显性化[J]．国家图书馆学刊，2007，(3)：59.  \n[3］张忠凤．浅议建立有利于内部知识共享的图书馆文化[J]．图书馆论坛，2007，（2)：34.  \n[4]李晓红，王延凤，段熔．图书馆实施知识管理的思考[J]．农业网络信息，2007，（10)：138.  \n[5］王海英，王煜，张金艳．论图书馆隐性知识的管理[J]．图书馆学刊，2005，（5)：23.mation Science and Technology，1989．190—230.  \n[2]Dumais S T，Fumas GW，Landauer TK·etal Using Latent SemanticAnalysis to Improve Rnformation retrieval [C]·Proceedings of CHI'88Conference on Human Factors in Computing Systems，l988；281一285.  \n[3]句斌．潜在语义标引在中文信息检索中的研究与实现[J]．计算机工程，2007，(5)：193-196.  \n[4]Dumais S T． Using LSI for Information Retrieval，Information Filter-ing，and Other Things[C]//Proc·of Talk at Cognitive TechnologyWorksop，1997：4—5.  \n[5]戚涌，徐永红，刘凤玉．基于潜在语义标引的WEB文档自动分类[J]．计算机工程与应用，2004，（22)：28-31.  \n[6]杨梁彬．文本检索的潜在语义索引法初探[J]．大学图书馆学报，2003，(6)：68—72.  \n[7]王知津，郑红军．基于代数理论的信息检索模型及其推广[J]．现代图书情报技术，2005，（7)：30—33.  \n[8]戚涌，等．基于潜在语义标引的WEB档案自动分类[J]．计算机工程与应用，2004，（22)：28-31.  \n[9]王修力，马利平．文本信息检索的代数模型综述[J]．吉林大学学报：信息科学版，2007，（5)：569-576.  \n[10]游庆祥，尤瑞玲．一种基于向量空间模型的构件库设计[J].电脑知识与技术，2009，（3)：623—625."
+  }
+}

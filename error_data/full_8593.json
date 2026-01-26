@@ -1,0 +1,115 @@
+{
+  "original_filename": "full_8593.md",
+  "·新技术应用·": "",
+  "移动Widget及其应用研究进展": {
+    "context1": "郭文丽",
+    "context2": "（北京邮电大学图书馆100876)",
+    "context3": "文摘作为一种可运行在移动终端上的小应用程序,移动 Widget具有界面简洁、功能单一、易于开发等优点,是目前最受欢迎的移动互联网应用形式。通过对大量相关文献的分析与总结,深入研究移动Widget的相关概念、关键技术与应用现状,提出基于移动Widget开展泛在图书馆服务的策略性建议。",
+    "context4": "关键词移动Widget移动互联网泛在图书馆",
+    "context5": "Research Progress of Mobile Widget and its Applications Guo Wenli",
+    "context6": "(Library of Beijing University of Posts and Telecommunications，Beijing 100876，China)",
+    "context7": "Abstract: Mobile Widget，which is a small application for mobile terminals , becomes the most popular form of the mobile internet applications，for its advantages of simple interface，single function, easy development and so on. Through a review of the field,the concepts，technologies and applications of mobile widget are systematically studied to help provide ubiquitous library services based on mobile widget.",
+    "context8": "Key words: Mobile widget,Mobile lnternet,Ubiquitous library"
+  },
+  "1引言": {
+    "context1": "随着移动通信业的迅速发展与移动终端能力的逐步增强，以移动电话为代表的移动终端已成为生活中必不可少的工具。萃果公司iPhone和iPad的推出更使移动终端的使用量激增。以香港为例，作为世界上拥有移动电话比率最高的地方，截至2010年10月,香港的移动电话比率已达到了 $1 8 4 . 4 \\%$ ,也就是说,平均每1,000名香港人拥有1844部移动电话。移动终端不仅是一种不可或缺的通信工具，而且正在成为用户广泛使用的一种信息处理工具。如何应用先进的无线通信技术，为用户提供泛在图书馆服务,使用户在任何时间、任何地点都能方便地利用图书馆相关信息，是图书馆工作者面临的任务和挑战。",
+    "context2": "移动终端的优点是体积小、便携性好，这是移动终端受到用户欢迎的重要原因。但移动终端作为一种信息处理工具，与传统的信息处理工具相比，其缺点也相当明显。首先移动终端的显示屏幕较小,限制了可显示信息内容的数量;其次,移动终端的存储器与处理器有限,使其可处理的资源受到限制;此外,无线网络的带宽有限,这也对移动终端处理信息的速度带来很大影响。",
+    "context3": "近年来，一种新的移动互联网应用赢得了越来越多的关注,这就是移动Widget。移动Widget是运行于移动终端上的小应用程序,具有功能单一、界面生动、易与互联网交换信息等特点。与传统的移动应用程序相比,移动Widget信息传输效率更高，在用户体验方面也表现出色,成为目前最受欢迎的一种移动互联网应用形式。",
+    "context4": "本文深入研究和分析了移动Widget的相关概念、关键技术与应用现状,提出在泛在图书馆构建中引入移动Widget技术的重要性与切入点，为开展基于移动Widget的泛在图书馆服务提供切实可行的策略性建议。"
+  },
+  "2移动Widget及其相关概念": {
+    "context1": "2.1Widget",
+    "context2": "Widget中文译作“微件”-或“微技”b,1。Widget起源于运行在萃果操作系统之上的一种小工具—“Konfabulator”。按照W3C 的定义，Widget是一种符合Web标准并可打包分发的成熟的客户端应用。Widget既可以支持在客户机或移动设备上进行下载和安装,作为独立的应用程序在Web 浏览器之外运行，也可以被方便地嵌入到一个网页里，在Web浏览器上运行。",
+    "context3": "JaokarA．认为我们生活在一个Widget Web中,也就是说,我们所熟知的Web可以看作是由无数个被称作Widget的碎片拼接而成的，而这些Widgets正在被组合成为尚未定义的新服务。",
+    "context4": "Widget与Mashup 概念密切相关。Mashup 是指将不同来源的数据或服务进行组合,从而构建出一种具有新型功能的网络应用[0,1]。Mashup 作为一种交互式的Web 应用程序,是Web2．0的特征之一,能够从Web上各种离散的数据源中获取数据，并集成这些数据从而构建出新的应用[。Widget可看作一种具有统一格式、但功能各异的“微应用”,是实现Mashup的一种基本的应用单元。",
+    "context5": "Widget的主要应用形式包括“桌面Widget”、“Web Widget”与“移动 Widget”。",
+    "context6": "桌面Widget可以在Windows XP/Vista、Linux、Mac OSX等操作系统上独立运行，使用户无需通过浏览器便连接到网络。萃果的桌面Widget是最早出现的Widget,在萃果之后,雅虎、Google及微软等各大软件公司也纷纷推出了各自的桌面Wid-gets。通过这些Widgets,用户可把各类网上信息（如天气、新闻头条、图片等)放到自己的桌面上,方便地获取自己所需的内容。",
+    "context7": "Web Widget是一组可移植的HTML $^ +$ JavaS-cript代码片段，一次编写无需任何编译就可以被用户集成到任意基于HTML格式的网页里[4。WebWidget是一种易于嵌入到网页的模块,通过WebWidget我们可以把各类信息整合到个人网站上，很方便地实现Mashup 应用。",
+    "context8": "移动Widget实际上是运行在移动设备上的桌面Widget。Widget的应用框架非常适合屏幕相对较小的移动终端。移动Widget可以独立于浏览器运行,这不仅可以有效地利用移动终端的有限屏幕，而且可以提供更快的移动互联网访问速度，提升移动互联网用户体验。"
+  },
+  "2.2移动Widget": {
+    "context1": "移动Widget是与移动互联网相关的轻量级应用。通过Widget,只需在设备上点击一、两次,就可带来个性化的移动互联网体验。移动Widget包含了对网页的直接链接(但并非简单的快捷方式），或者说移动Widget是自含的、无需连接到范围更广的网页中[。",
+    "context2": "简而言之,移动Widget是可运行在移动终端上的Widget,是Widgets应用向移动终端的渗透与拓展。",
+    "context3": "移动Widget是移动终端上功能单一的小应用，占用资源很少。与其它移动应用相比,Widget更适于在资源有限的移动终端上部署与使用。",
+    "context4": "移动Widget易于开发。移动Widget采用标准的Web语言开发。与传统的计算机应用开发相比，其技术门槛相对较低。传统的计算机应用开发往往采用通用的计算机程序设计语言来完成，开发过程包含了编译、链接等复杂的步骤，对开发人员的技能要求较高,开发周期也较长。移动Widget是轻量级的应用程序,在Widget引擎的支持下完成简单、实用的功能，而且很多移动终端生产商和运营商都提供了方便的Widget集成开发工具,这使得Widget的开发比一般应用的开发要简单得多。",
+    "context5": "由于运行在移动终端上,移动Widget富有个性化特色。用户可以通过移动Widget定制独特的用户界面,也可以通过移动Widget方便地获取和利用互联网上自己需要的信息(如用户感兴趣的新闻、天气预报、股市动态消息等）。",
+    "context6": "总之,移动Widget具有小巧、灵活、易开发、易部署、个性化、交互性等特点,这使其非常适合移动互联网，因而受到众多移动终端用户的关注。"
+  },
+  "2.3微学习(Microlearning)": {
+    "context1": "Widget概念可以很好地借用到“微学习”的设想中。“微学习”涉及较小的学习单元与短期的学习活动[。微学习是人们在网络化的数字媒体环境中面临发现新信息和建立新知识的挑战时所做的一切[。人们需要利用电子邮件、移动终端、Google、Web2.0等来处理“微内容\"碎片,这些碎片松散地结合在一起,处于不断的变化、重组和流动之中。",
+    "context2": "“微学习\"是一种新的“E_Learning”范式“微学习\"概念的提出标志着从传统的学习模式到着眼于学习过程细小维度的“微角度”学习模式的转变。“微学习”体现了泛在学习的理念。如何设计和实施合理、高效的“微学习\"过程是这种学习模式的关键所在。简单、易用的移动Widget可以把网络化的数字媒体环境分解为人们易于接受的“信息碎片”，打破信息的巨大数量与层次结构给信息获取所带来的障碍,使学习变成移动终端上的一种随意的、开放的、简单的活动,从而使用户在自己的生活或工作环境中就能轻松地达到学习的目的。"
+  },
+  "3移动Widget的关键技术": {
+    "context1": "从技术构成上而言,Widget包括Widget 引擎和Widget应用实例两部分内容。Widget引擎相当于一个容器，容纳不同类型的Widget应用,Widget应用需要在Widget引擎的支持下运行。"
+  },
+  "3.1移动 Widget 技术架构": {
+    "context1": "Web应用往往采用B/S(Browser/Server)或C/S（Client/Server）体系架构,这两种架构的Web 应用在移动终端上都有明显的缺点。B/S应用易于访问,但信息效率很差，大部分网页需要转换为诸如$< \\mathrm { h t m l } > . < \\mathrm { b o d y } > .$ 之类的没有实际意义的标记语句和大量JavaScript代码，而其中只有极少部分内容真正起作用。C/S应用是重量级应用，安装和更新都很不方便，但信息效率高，几乎所有传输的数据都是有用的。移动Widget的体系架构结合了B/S和C/S架构的优点,是由Widget应用实例和Widget引擎组成的,可称作W/E(Widget/Engine)架构。移动Wid-get是轻量级、灵巧的小应用,易于放入Widget引擎中运行，而且信息传输块、信息的利用率很高。",
+    "context2": "W3C 提出了一种Widget技术架构[,该架构是W3C对于Widget体系架构的候选推荐标准，适用于包括WebWidget、移动Widget在内的各种类型的 Widget 应用。WAC(Wholesale Applications Com-munity）在W3C标准的基础上考虑了移动终端的特性,提出了适于移动Widget的技术架构。WAC是从OMTP(Open Mobile Terminal Platform)转变而来的组织，是由多家移动运营商建立的联盟，其制定的BONDI标准是专门针对移动应用的协作开发的，目前已推出1.1版本。",
+    "context3": "BONDI标准的移动应用技术架构如图1所示。在此架构中,BONDI将Widget引擎分拆为两个部分:WidgetUserAgent和Web引擎。其中Web引擎是浏览器和WidgetUserAgent的共同基础。Widget是在WidgetUserAgent支持下运行的。WidgetUserAgent包括了在Web引擎之上用于支持Widget的所有元件。从广义上而言，WidgetUserAgent还应担负安装和卸载Widget的任务,并提供对Widget进行实例化和配置的功能。",
+    "context4": "Web 引擎作为WidgetUserAgent的基础,包括了各种处理和显示 Html、CSS、JavaScript 内容的组件。Web引擎不仅具有Web能力访问控制功能,还具有设备能力访问控制功能。设备能力是指一种设备所具有的能被Web应用所访问、操纵或利用的特定资源或功能。设备能力是设备所固有的资源或功能，不依赖任何操作系统平台或软件。",
+    "context5": "![](images/52ff5dbaabfe79018ace11981e46ab47cf613128e07ce95602d194dbb57afea0.jpg)  \n图1BONDI的移动 Widget技术架构@"
+  },
+  "3.2移动Widget引擎": {
+    "context1": "移动Widget需要在Widget引擎的支持下运行。Widget引擎通常基于统一的、支持国际Web标准的全浏览器内和技术来实现，一般包括Javascript解析引擎和Web 解析引擎,负责完成整个Widget运行生命周期的管理,包括Widget的安装、解析、渲染、呈现与卸载等[。",
+    "context2": "Widget引擎虽然与浏览器一样使用了标准Web技术,但Widget引擎并不像浏览器那样仅仅提供Web 信息获取和处理功能，它还能够访问诸如文件系统之类的底层系统资源，并且能够访问本地系统上的其它应用。也就是说,在Widget引擎的支持下,Widget能够访问本地存储的数据,并进一步处理这些数据,使之成为新的互联网服务。",
+    "context3": "移动Widget引擎作为移动Widget的运行环境，需要提供一组可供Widget调用的API,包括基于Javascript的Web应用API与可利用移动终端设备能力的API。",
+    "context4": "目前已有很多移动终端生产商与运营商提供了移动Widget引擎。2003年,萃果公司的工程师研究并实现了最早的桌面Widget引擎——Konfabulator,在此基础上,萃果公司构建了名为“Dashboard”的Widget引擎,并将其嵌入MacOS中,用于支持各种功能简洁、界面生动的Widget的运行。随着iPhone及iPad等萃果专有移动终端的发布，萃果公司又将Dashboard 嵌入iPhone OS中,支持iPhone与iPad中移动Widget的运行。2007年，诺基亚公司凭借其研发的移动Widget 引擎—WRT(Web Run Time）,给移动终端市场带来了巨大的震撼。WRT可运行在",
+    "context5": "S60 第三版FeaturePack2或更新版本的诺基亚移动设备上,它的出现为用户带来了丰富多彩、激动人心的移动互联网体验，其应用范围也从诺基亚设备迅速扩展到三星、索尼爱立信等品牌的设备上。随着移动Widget逐渐为人们所认识与使用,Google公司的 Android Widget Engine、微软的 Microsoft WidgetEngine等移动Widget引擎也产生和发展起来。"
+  },
+  "3.3移动Widget开发工具": {
+    "context1": "移动应用的开发首先需要考虑应用平台的选择问题。目前在各种移动终端上至少存在以下5种重要的移动平台:iOS，Android，BlackBerry，Win-dows Phone，Symbian。这些移动平台的开发商提供了相应的移动应用集成开发工具，Widget开发者可以利用这些工具方便地开发Widget,并在其提供的移动终端模拟器上演示所开发Widget的运行效果。",
+    "context2": "表1主流移动平台的移动Widget开发工具",
+    "context3": "<table><tr><td rowspan=1 colspan=1>开发工具名称</td><td rowspan=1 colspan=1>隶属机构</td><td rowspan=1 colspan=1>移动平台</td><td rowspan=1 colspan=1>开发语言</td><td rowspan=1 colspan=1>特点</td></tr><tr><td rowspan=1 colspan=1>iOS Dev Center</td><td rowspan=1 colspan=1>苹果公司</td><td rowspan=1 colspan=1>i0s</td><td rowspan=1 colspan=1>Objective C</td><td rowspan=1 colspan=1>iOS平台专用</td></tr><tr><td rowspan=1 colspan=1>Android SDK</td><td rowspan=1 colspan=1>以Google为首的“开放手机联盟”</td><td rowspan=1 colspan=1>Android</td><td rowspan=1 colspan=1>Custom Java</td><td rowspan=1 colspan=1>开放性好，易于开发</td></tr><tr><td rowspan=1 colspan=1>BlackBerry Applica-tion Platform</td><td rowspan=1 colspan=1>黑莓公司</td><td rowspan=1 colspan=1>BlackBerry</td><td rowspan=1 colspan=1>Custom Java</td><td rowspan=1 colspan=1>开放性好，易于开发</td></tr><tr><td rowspan=1 colspan=1>The Windows PhoneDeveloper Tools</td><td rowspan=1 colspan=1>微软公司</td><td rowspan=1 colspan=1>Windows Phone</td><td rowspan=1 colspan=1>.net Compact Frame-work</td><td rowspan=1 colspan=1>微软平台专用,专业化要求较高</td></tr><tr><td rowspan=1 colspan=1>Nokia Qt SDK</td><td rowspan=1 colspan=1>诺基亚公司</td><td rowspan=1 colspan=1>Symbian Series</td><td rowspan=1 colspan=1>Symbian C + +</td><td rowspan=1 colspan=1>兼顾多平台使用</td></tr></table>",
+    "context4": "表1中列出了几个主流移动平台所提供的移动应用集成开发工具。萃果的iOS Dev Center提供了Xcode工具包,其中包含了集成开发环境、性能分析器、设备模拟器以及SDK等。Android以 Linux为基础,是一款完全开源的移动计算平台,支持Widget运行。Android的应用开发工具是嵌入通用集成开发平台 Eclipse的一个插件,对熟悉 Eclipse 的众多开发人员而言，方便易学。Windows Phone提供的移动应用开发工具是微软VisualStudio开发环境的一个特殊版本,对开发人员的专业化要求较高。BlackBerry D、Symbian等移动平台也提供了相应的应用开发工具,可用于移动Widget的开发。",
+    "context5": "![](images/19d41e1bfdddf6c674afc7e65e0b971e3a548bfb3993ad782a86221ce044de26.jpg)  \n图2Android模拟器中Widget安装与运行的界面",
+    "context6": "值得一提的是，Android是近年来迅速发展起来的一种开放式移动平台,其应用开发工具是以JAVA作为程序设计语言的。图2中的两个画面分别是Android1.5模拟器中Widget安装与运行的界面。",
+    "context7": "除了专用移动平台上的Widget开发工具之外，还有一些组织或机构提供了用于开发跨平台Widget的工具,如中国移动公司主导研发的JIL（Joint Inno-vation Lab）SDK。JIL SDK也是嵌入 Eclipse 的一个插件。该工具是以移动运营商独特的能力为基础开发的,目标是为开发者提供一种Widget规范，从而使其开发的应用能让JIL成员在世界各地的用户共同分享。利用JIL SDK,开发者可以创建、设计、测试一个移动Widget,并有可能发布到全球最大的Wid-get下载平台,供用户下载使用"
+  },
+  "3.4移动Widget安全技术": {
+    "context1": "为保证移动Widget的正常运行，需要对移动Widget进行必要的安全管理。由于移动Widget是独立于互联网浏览器而运行的，因此无法利用浏览器的安全管理机制来保证移动Widget的安全性，需要建立专门的安全体系。",
+    "context2": "W3C提出了一种Widget数字签名规范,定义了生成Widget数字签名的规则以及Widget引擎验证数字签名的规则。",
+    "context3": "Widget应用的数字签名包括开发者签名和发布者签名，一个Widget应用可包括0个或1个开发者签名，以及0个到多个发布者签名。通过严格的数字签名生成和验证算法可以保证Widget被合法地开发和使用。",
+    "context4": "为保证Widget对设备能力的合法性调用，BON-DI标准提出了一种基于API进行访问控制的安全模型d。该模型基于访问对象(subject）、资源(Re-source）、环境(Environment)等几个实体概念定义了一种安全策略模型。在该模型中，一个策略集包括多个策略,每个策略包括多条规则,每条规则又包括了具体的判断条件和判断结果。通过这样一个策略模型,可以灵活设置策略控制机制,对Widget访问API的权限加以控制。"
+  },
+  "4移动Widget的应用现状": {
+    "context1": "早在2006年底，美国《新闻周刊》就将2007年称为“Widget年”b。事实上,在2007年，Widget应用在全球范围内迅速发展起来。这一年，移动终端生产商、业务提供商、运营商们充分意识到移动Widget的重要性，纷纷投入巨资研究与推出移动Widget相关服务，这些也给众多移动终端用户带来",
+    "context2": "了巨大影响。",
+    "context3": "2007年初,萃果发布了iPhone,并在iPhone上提供Dashboard形式的Widget业务。主页上提供Widget下载,每天公布下载量前50位的 Widget b。其中每个Widget的功能和设计都很简单,但其用户界面及符合使用性的图形效果成为它的显著特征。到目前为止，萃果公司拥有数量巨大的忠实的“果迷”,应该说,移动Widget应用起到了很大的作用。",
+    "context4": "Google是最早投资建设桌面Widget引擎的国际巨头之一,后来又把更多的精力放在了移动Wid-get上。2007年11月，Google联合包括中国移动、英特尔、摩托罗拉、NTTDoCoMo、三星等在内的30多个著名的技术与移动公司成立了开放手机联盟（Open Handset Alliance）B,目前该组织已发展到80个成员,其共同开发的Android移动平台号称第一个全面的、开放的、自由的操作系统,该系统支持Widget运行。最早的Android只支持时钟和Google搜索两个Widget,目前已拥有大量实用的Widgets,并提供配套的开发工具支持用户开发和使用Wid-get,吸引了越来越多的用户。",
+    "context5": "在国内，中国移动通信集团公司作为中国规模最大的移动通信运营商，是全球业界最早开始研究移动Widget的公司之一，设计并开发了跨平台的移动互联网应用引擎 BAE(Browser based ApplicationEngine）,其中包括一个强大的移动Widget引擎,它支持JILWidget格式，也能兼容部分互联网上流行的 Widgets,如 Apple Dashboard Widgets等b。中国移动的用户可以利用其Widget开发工具开发自己的Widget,也可以下载使用其他用户开发的Widget。",
+    "context6": "各大移动公司围绕移动Widget展开的用户争夺大战正可谓“得Widget者得天下”。由于移动Widget的重要性,国内外很多大学和研究机构也开展了移动Widget技术与应用的相关研究。",
+    "context7": "为了进一步简化开发Widget的过程,减轻移动终端用户的负担,惠普实验室的 ManjunathG，Gun-tupalliS等人设计实现了一种工具,利用该工具用户无需编写任何程序、只要指定任务序列就可生成能够在各种终端平台下运行的移动Widget bd",
+    "context8": "芬兰的 Bostrom F、Nurmi P等人则设计并实现了一个移动Widget的智能化用户界面,用于应对在移动Widget应用很多时，Widget难于管理的情况。",
+    "context9": "北京邮电大学移动生活与新媒体实验室的于和琪、纪阳等人提出将移动Widget技术引入物联网应用中,利用移动Widget把互联网和物联网有机地结合起来3。他们利用JILSDK开发环境实现了温度传感器和红外传感器的Widget应用，可以方便地处理传感器数据，同时能够将信息及时传送给用户，并以个性化方式展示出来。"
+  },
+  "5结语": {
+    "context1": "随着移动终端的日益普及，国内外很多图书馆开始实施移动数字图书馆服务。到目前为止，这些移动服务基本上都是基于WAP或短信技术的。与WAP和短信技术相比,功能简洁、小巧灵活的移动Widget更适于在移动终端上部署和运行，利用移动Widget为用户提供灵活多变的图书馆服务将是移动数字图书馆发展的必然趋势。",
+    "context2": "将移动Widget技术应用于图书馆相关业务需要重点考虑以下两个问题："
+  },
+  "（1）适于Widget的图书馆业务选择与界定": {
+    "context1": "Widget比其它移动技术更适于应用在移动终端上。Widget可以通过简洁的界面来改善应用程序的用户友好性,也适于作为网络信息mashup 的工具。但Widget技术不适于用在2D、3D 游戏、高度占用CPU的应用或背景应用中。背景应用是指那些一直在运行却无需与用户交互的应用。因此,首先要从众多的图书馆业务中选择适于Widget处理的内容,其次可能还要对选定的某些内容进行必要的划分处理,以保证Widget功能的简洁性。"
+  },
+  "（2）Widget开发工具的选择": {
+    "context1": "由于移动平台的多样性,Widget开发工具也有很多种。以下是本文建议的选择Widget开发工具的两种方法：",
+    "context2": "第一种方法是首先选择一种主流移动平台（如拥有众多忠实用户的iOS或用户数增长迅速的An-droid)作为图书馆业务Widget应用的运行平台，以后再逐步考虑Widget适配其它移动平台的问题，这种方式有利于快速、高效地应用移动Widget技术开展移动数字图书馆服务，缺点是短期内Widgets的用户群会受到一定的限制。",
+    "context3": "第二种方法是选择一种跨平台的Widget开发工具(如JIL)建立图书馆业务Widgets,这样开发时间会比第一种方法长一些,但所开发的Widgets可以为更多的移动用户提供服务。"
+  },
+  "参考文献": {
+    "context1": "1Data & Statistics，Office of Telecommunications Authority [EB/OI]．[011-05-03]．http://www.ofta.gov.hk/ en/datastat/key_stat. html",
+    "context2": "2微件—互动百科 [EB/OL]．[2011-05-03]．http://www.hudong.com/wiki/% $\\mathrm { E } 5 \\%$ $\\mathrm { B E } \\%$ $\\mathrm { A E } \\%$ $\\mathrm { E } 4 \\%$ $8 \\mathrm { B } \\%$ B6   \n3微件—百度百科 [EB/OL]．[2011-05-03]．http://baike.baidu.com/view/1216509.htm#sub1216509   \n4郭文丽,严潮斌等．基于微件的个人数字图书馆系统框 架.图书馆杂志,2011(1):58-63   \n5赵慧清.IM微件在数字参考咨询中的应用研究[.图 书情报工作,2010(11):113 -116   \n6于和琪,纪阳等．基于Widget的无线物联网应用[. 通信技术,2011(1):53-57   \n7程宝平,杨晔华等．移动微技(Mobile Widget)应用开发 权威指南 M．北京:电子工业出版社．2010,4   \n8Caceres M. Widgets 1.O: Packaging and Configuration EB/O1]．[011-05-03].http://www.w3.org/TR/ w- idgets/   \n9Jaokar A.Mobile Web 2.O:on Mobile Widgets，Microlearning and Intertwingularity [EB/O1]．2011-05-03]. http: //www. slideshare.net/MicrolearningOrg/mobileweb -20 - mobile - widgets - microlearming- and - intertwingula - rity   \n10Wikipedia[EB/OL]．[2011-05-03]．http: //en. wikipedia.org/wiki/Mashup_(web_application_hybrid)   \n11 Koschmider A，Torres V，and et al.Elucidating the MashupHype:Definiton，Challenges，Methodical Guided and Tools for Mahups [R/OL]．[2011-05- 03]．htp: //www.integror.net/mem2009 /papers/paper14. pdf   \n12Shanahan F.Mashups $\\mathrm { W e b } 2 . 0$ 开发技术 M．吴宏泉 译．北京:清华大学出版社，2007   \n13Yahoo Widget Blog[EB/OL]．[2011-05-03]．http://Widgets.yahoo.net/blog/?p $: =$ 16#more - 16   \n14Web Widget Wikipedia [EB /O]．[011-03-29]. http: //en. wikipedia.org/wiki/Web_Widget   \n15Aldort J.Mobile Widgets:Bringing Web 2.O to the Third Screen [R/O1]． [011 -05 -03]．http://www.surfkitchen.com/downloads/yankee_group_report.pdf   \n16Microlearning Wikipedia [EB/OL]．[2011-03-29]. http://en. wikipedia.org/wiki/Microlarning   \n17Lindner M.What Is Microlearning[R/OL]．[011- 05-03]．htp: //mobile. kaywa.com/files/Microlearming2007_web.pdf   \n18Xiao Z,Wen S,and et al.A New Architecture of Web Applications -The Widget/Server Architecture.2010 2nd IEEE International Conference on Network Infrastructure and Digital Content，Beijing,24 -26 Sept.2010: 866- 869   \n19Caceres M.Widgets 1.0 Requirements，version 20070209 [EB/OL]．[2011-05-03]．http://www.w3.org/ TR/2007/WD-widgets-reqs-20070209/   \n20BONDI1.1 Approved Release [EB/OL]．[2011 -05- 03]．http://bondi.omtp.org/1.1/   \n21杨晓华,程宝平等．MobileWidget——新一代移动互联 网应用技术[．电信技术,2011(2):28-32   \n22 Vising L.Mobile Widget Architecture [D]．Uppsala University,2008   \n23 Wasserman A. Software Engineering Issues for Mobile Application Development []．In Proceedings of the FSE/ DSP workshop on Future of Software Engineering Research，November7-8，Santa Fe，New Mexico，USA， 2010:397-400   \n24Apple Developer Connection [EB/OL]．[2011 -05- 03]．http://developer.apple.com/iphone/index.action   \n25Android Developer Site [EB/OI]．[2011-05-O3]．http://developer.android.com   \n26Eclipse Web Site [EB/OI]．[2011-05-03]．http: // eclipse. org   \n27 App Hub - Develop for Windows Phone & Xbox 360. Windows Phone developer site [EB/OL]．[2011-03- 29]．http://create.msdn.com/en- US /   \n28 BlackBerry Developer Zone [EB/OL]．[2011 -05- 03]．htp://us.blackberry.com/developers/started/   \n29Nokia Qt Site [EB/OL]．[2011-05-03]．http: //qt. nokia.com/title -cn   \n30JIL developer site [EB/O1]．[2011-O5-O3]．http:// dev.10086.cn/factory/JIL.html   \n31Marcos Caceres,Frederick Hirsch，Mark Priestley.Digital Signatures for Widgets [EB/OL]．[201O -O9-10]. http://www.w3.org/TR/widgets-digsig/   \n32Malik O.2007，Year of the Widget．[EB/OL]．[2011 -05-03]．http://gigaom.com/2006/12/28/widgets2007/   \n33Dashboard Widgets[EB/OL]． [2011-05-03]．http://www.apple.com/downloads/dashboard/   \n34 Open Handset Alliance Site [EB/OL]． [2011 -05- 03]．http://www.openhandsetalliance.com/   \n35程宝平,侯清富等．MobileWidget的研究与探索[． 通信技术与标准,2009(5-6):1-7   \n36Manjunath G,Guntupalli S,and et al.Creating Personal Mobile Widgets without Programming [R/Ol]．[011- 05－03]．http://www.hpl.hp.com/techreports/2009/ HPL -2009-94.pdf   \n37Bostrom F,NurmiP,and et al.Capricorn - An Intelligent User Interface for Mobile Widgets.Proc.1Oth Int 1 Conf.Human -Computer Interaction（Mobile HCI 08）, ACMPress 2008:328-330"
+  },
+  "38于和琪．基于Widget的物联网应用设计与实现[D].北京：北京邮电大学,2011": {
+    "context1": "39Firtman M.Mobile Widgets Development[R/OL]. [011-05-03]．http://www.slideshare.net/firt/mobile-widgets -development"
+  },
+  "郭文丽博士，北京邮电大学图书馆,馆员。": {
+    "context1": "(收稿日期:2011-06-01编发:刘炜 赵亮)"
+  },
+  "(上接第16页）": {
+    "context1": "5锅艳玲.现代信息技术对图书馆学研究方法的影响[.图书馆学研究,2006(3):12-13,9  \n6,15傅正.现代图书馆学M].合肥:安徽大学出版社，2005:11,14  \n7郑全太，马俊云．我国图书馆学方法论新论[.图书馆学研究,2002(3):11-13  \n8 吴慰慈主编.图书馆学基础[M].北京:高等教育出版社,2004:46  \n9 霍国庆.图书馆学方法论体系评析[.图书馆工作与研究，1991(1):39-42  \n10王子舟.图书馆学专门方法论纲[．图书与情报，",
+    "context2": "2001(4) .: 10 -16",
+    "context3": "11杨文祥.信息资源价值论一信息文明的价值思考M．北京：科学出版.2007：38-43  \n12,13李超平.图书馆学研究:方法的互补[.图书情报工作,2001(2):13 -16  \n14 韩喜运．图书馆学方法研究与评价[.大学图书情报学刊,2001(2):1-2,27  \n16 王子舟.图书馆学研究法及相关概念辨析[.图书与情报,2011(1):2 -5"
+  },
+  "傅正安徽大学图书馆研究馆员,硕士生导师.": {
+    "context1": "(收稿日期:2011-10－28编发:王宗义)"
+  }
+}

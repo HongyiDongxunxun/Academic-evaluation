@@ -1,0 +1,85 @@
+{
+  "original_filename": "full_8865.md",
+  "网络全文数据文件格式及其浏览器的现状和影响": {
+    "context1": "刘景宇",
+    "context2": "中山大学资讯管理系广州 510275",
+    "context3": "[摘要]通过介绍和比较9种网络全文数据常用文件格式及其浏览器，分析目前网络全文数据文件格式及其浏览器分散不统一的应用现状，指出这种分散状态在用户利用网络全文资源、图书馆存储和管理全文数据以及信息资源的有机整合和信息资源共建共享等4个方面所产生的不利影响，并从文件格式和浏览器两个角度提出相应对策。",
+    "context4": "[关键词]文件格式全文浏览器全文数据[分类号]G250.72"
+  },
+  "Present Conditions and Influences of File Formats and Full-text Readers": {
+    "context1": "Lm Jingyu",
+    "context2": "Department of Information Management, Sun Yat-Sen University, Guangzhou 510275 [Abstract]Tispaperitroducesadcompares9indsofcomofileforatsoftheetworkfltextdataandteireadersByalingthis dispersionsituationtheaperpresentstsdisadvantageousinfuenefromfouraspects.Furtheroretepaperlsoputsforwardsoeomolo gous countermeasures from the perspectives of file formats and their readers.",
+    "context3": "[Keywords] file format full-text readerfull-text data",
+    "context4": "网络全文数据由于具有学术性强、内容权威、更新及时、检索便捷、获取容易等优点而备受信息用户青睐。然而，出于引文和知识产权保护的需要、技术条件的局限、激烈的市场竞争、经济效益的驱动、某些专门文献的特殊性以及管理体制的不健全、行业标准缺乏、合作和共享意识淡薄等客观与主观两个方面的原因，不同的全文数据出版商对网络全文数据采用了不同的文件格式进行存储和处理，并为用户提供相应的浏览器进行各项操作。目前，网络全文数据已出现了多种文件格式和浏览器的应用局面。"
+  },
+  "1网络全文数据常用文件格式及其浏览器简介": "",
+  "1.1PDF": {
+    "context1": "PDF是便携文件格式(PortableDocumentFormat)的缩写，由Adobe公司开发。它能够保存任何源文档的原貌，包含字体、图像、图表和打印控制数据。它的文档能够在多种平台上独立于软件、硬件和创建的操作系统进行阅读，是一种跨平台文件格式。PDF文件使用了工业标准的压缩算法，易于传输和存储，它可以单独处理各页，使其逐次在网页上单独显示，不会降低网络速度，特别适合多处理器系统的工作1-]。",
+    "context2": "PDF是目前Intermet上最受欢迎、最为常见的文件格式之一。",
+    "context3": "Adobe公司同时提供免费的PDF文件浏览器AcrobatReader，该浏览器能够进行高效浏览、文字识别、全文检索、创建索引、添加链接、打印、密码保护、表页和动态控制等，并且使用该公司开发的Acrobat6.0软件可以将任何文档转换为AdobePDF格式。AcrobatReader是目前使用最为广泛的全文浏览器。"
+  },
+  "1.2 CAJ": {
+    "context1": "CAJ(China AcademicJoumals)是清华同方公司开发的中国期刊网的电子期刊专用全文存储格式，CAJ全文浏览器(CAJViewer)是中国期刊网的专用全文格式浏览器，具有OCR文字识别、浏览、页面设置、页面跳转、检索、复制、打印、文本和图像摘录等多项功能，支持中国期刊网的CAJ、NH、KDH和PDF文件格式，既可配合网上原文的阅读，也可以阅读下载后的中国期刊网全文，并且打印效果与原版的效果一致。"
+  },
+  "1.3VIP": {
+    "context1": "VIP是重庆科技信息研究所所属的维普公司开发的中文科技期刊全文数据库的存储格式，VIP全文浏览器（VIPViewer)是维普公司系列数据库的通用浏览器，支持VIP、WP、TIF、RTF等文件格式，具有OCR文字识别、放大缩小、页面跳转、索引、全屏显示、打印等功能，打印效果可以达到与原版显示一致的程度。它可以同时打开多篇全文及题录进行比较阅读，可以在线阅读维普中文科技期刊数据库原文，也可以阅读下载到本地硬盘的中文科技期刊数据库全文，并能把全文转换为PDF标准文件格式。"
+  },
+  "1.4HTML": {
+    "context1": "HTML 是超文本标识语言(Hypesuper Text MarkLangu-age)的缩写，是目前网上最常用的页面语言和网页文件格式。它通过标签(tag)对文本进行修饰，再由Web 浏览器(InternetExplorer、Netscape)翻译，在屏幕上显示出超文本和超媒体特性，如链接、字体、格式、动态等\"。HTML格式的文件不受设备及软件平台的限制，不需要安装全文浏览器便可以直接访问和浏览，因此不必占用太多的磁盘空间，通用性强，但它不支持公式、化学结构图等。"
+  },
+  "1.5TIFF": {
+    "context1": "TIFF(Tagged Image FileFormat)是由Aldus 公司开发的一个压缩图像格式，它以点阵形式描述图形图像，特点是存储信息多、图形格式复杂，比较适合作为高质量的保存原件的图像存储格式，并且可采用无损压缩方案存储。浏览TIFF图像，需要在浏览器中安装TIFFG4插件，或者直接用看图软件（如ACDSee等）打开。"
+  },
+  "1.6DVI": {
+    "context1": "DVI(DeViceIndependent)文件格式便于处理数学公式、图表、目录、索引等，由PersonalTeX公司开发的PCTeX32是一个商业软件，它支持Windows系统，具有多项功能，可方便创建、生成和使用DVI文件，并可对其进行高质量的预览和打印输出。MikTex2.0是免费的支持Windows系统的DVI浏览软件，该软件可从CTEX网站下载安装，在程序中即可找到DVI Viewer:YAP(Yet Another Previewer)来浏览DVI文件l。"
+  },
+  "1.7PS/EPS": {
+    "context1": "PS(PostScript)是一种早期的Unix打印控制文件格式，于1985年由Adobe公司推出。PS文件具有独立于设备、独立于操作系统平台的优点，能综合处理文字和图像，可用在不同电脑工作站上，如MAC、PC、NEXT、SUN等，并且同一个描述可以不加修改地在任一台PostScript打印机上输出。EPS(EncapsulatedPostScript）是PS文件格式的一种，它包含了PS的指令，并加上描述图像的文字，它的稳定程度很高，便于处理文字和图像共存的文件\"。",
+    "context2": "阅览PS/EPS文件所需的浏览器是Ghost View(也称GSview)，它是一种图形界面软件，但仅有GSview依然无法打开PS文件，还需要同时安装Postscript语法解析器(AFPLGhostscript)。GSview作为浏览器可阅览PS和PDF文件，并支持PS到PDF文件格式转换功能，还可拷贝文件中的图形，并且可以打印成册。",
+    "context3": "PDG超星数字图书格式是北京世纪超星电子技术公司开发的超星数字图书馆电子图书的存储格式。它采用国际领先的PDCr2图像压缩技术，压缩比是常用压缩算法的几倍到几十倍3。PDG格式文件必须下载专用阅读软件即超星图书浏览器(SSReader)才能进行阅读。该浏览器是专门针对数字图书的阅览、下载、打印、版权保护和下载计费而研究开发的，是超星公司拥有自主知识产权的图书浏览器[4，它不但与IE、Netscape完全兼容及有相同的HTML浏览功能，而且还具备针对图书阅读的许多特点，采用了自动滚屏显示和多线程浏览等技术，保证了浏览速度，美化了阅读界面；利用双层检索技术，首次实现了图像方式数字图书的全文检索；在浏览时，读者可以随时摘录图书中的全部或某段文字、插图，并可进行编辑修改；可以边浏览边下载，自动下载下一页；增加了多远程浏览功能；嵌入了汉王OCR识别技术，用户可以将图像格式的图书资料转换为文本文件加以利用3。"
+  },
+  "1.9CEB": {
+    "context1": "CEB格式是北大方正公司独立开发的电子书格式，它在文档转换过程中采用了“高保真”技术，从而能够使电子书最大限度地保持原来的样式。目前，不少电子书发行机构和数字化图书馆都已经开始采用这种格式，国家有关部门还把CEB格式作为电子公文传递的标准格式。方正ApabiReader是CEB格式的指定浏览器，它具有字体缩放、翻页、加批注、加划线、加书签、作笔记、查找、书籍管理、翻译和文字部分拷贝等功能，比较符合广大读者传统的阅读习惯，并且支持CEB、XEB、PDF、HTML、TXT多种文件格式5。",
+    "context2": "以上各种全文数据文件格式各有所长，其中PDF文件格式可以加入书签，能够控制机密文件的访问权限；TIFF文件格式可采用无损压缩方案存储；PS文件格式以设备无关方式描述图形，无需软件支持通过DOS命令即可以直接在PostScript打印机上输出；DVI格式文件最便于处理数学公式、化学结构图等。除HTML格式和TXT格式文件外，其余格式文件都需要安装专用全文浏览器或者在通用浏览器(IE/Netscape)中安装插件才能打开和处理全文数据。"
+  },
+  "2网络全文数据常用文件格式的浏览器功能比较": {
+    "context1": "全文浏览器用来对全文数据进行浏览和处理，总的来说，它们一般都提供文件(file)、编辑(edit)、浏览(view)、窗口(window)、帮助(help)等菜单，都具备对全文信息浏览调节(放大、缩小、比例、适当宽度、原始尺寸)、翻页(首页、末页、下一页、上一页、跳转到某页、拖动)、窗口(平铺、层叠)、保存、打印等操作功能，有些软件还有检索(在文档中查找字符串等)和编辑(文本选择、图片选择、复制)功能，但是各种全文浏览器的具体功能还是存在着许多不同的特点。部分网络全文数据常用浏览器的功能(如表1所示)。",
+    "context2": "表1网络全文数据常用文件格式的浏览器功能比较 $\\underline { { \\cdot } } \\ : \\lvert \\ : \\ : \\ : \\rangle$",
+    "context3": "<table><tr><td rowspan=1 colspan=1>文件格式</td><td rowspan=1 colspan=1>览器</td><td rowspan=1 colspan=1>检素</td><td rowspan=1 colspan=1>浏览</td><td rowspan=1 colspan=1>编辑</td><td rowspan=1 colspan=1>打印和保存</td><td rowspan=1 colspan=1>其它独特功能</td></tr><tr><td rowspan=1 colspan=1>PDF</td><td rowspan=1 colspan=1>AcrobatReader</td><td rowspan=1 colspan=1>可个文检索</td><td rowspan=1 colspan=1>标志型页面洁晰，图像型页面不清晰，可翻页、页面跳转、放大缩小、页面显示式选、旋转</td><td rowspan=1 colspan=1>部分复制，全文复制成文本不保持原格式，图片复制为图像</td><td rowspan=1 colspan=1>可打印、可保行</td><td rowspan=1 colspan=1>索引和密仍保护功能</td></tr><tr><td rowspan=1 colspan=1>CAJ</td><td rowspan=1 colspan=1>CAJViewer</td><td rowspan=1 colspan=1>次检索次检索</td><td rowspan=1 colspan=1>标志型页面洁晰图像页面不洁晰，可翻页、页面跳转、放大缩小、页而显示方式选择、旋转</td><td rowspan=1 colspan=1>部分复制，全文制成文本不保持原格式，图片复制为图像</td><td rowspan=1 colspan=1>间打印，可保存</td><td rowspan=1 colspan=1>OCR文字识别能</td></tr><tr><td rowspan=1 colspan=1>VIP</td><td rowspan=1 colspan=1>VIPViewer</td><td rowspan=1 colspan=1>无检索</td><td rowspan=1 colspan=1>翻页、页面跳转、放大缩小，个屏、卜篇、索引</td><td rowspan=1 colspan=1>复制为TIFF图像</td><td rowspan=1 colspan=1>打印当前页、当前篇别能到文档</td><td rowspan=1 colspan=1>OCR文字识页、当前篇别能</td></tr><tr><td rowspan=1 colspan=1>HIML</td><td rowspan=1 colspan=1>通过正或Netscape肖接阁，无安装全文浏览器</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>TIFF</td><td rowspan=1 colspan=1>C4TIFFimageviewer</td><td rowspan=1 colspan=1>无检索</td><td rowspan=1 colspan=1>晰、司放大缩小，图片页面跳转</td><td rowspan=1 colspan=1>页复制为</td><td rowspan=1 colspan=1>保存</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>DvI</td><td rowspan=1 colspan=1>DVIViewer.YAP(YetAnotherPreviewer)</td><td rowspan=1 colspan=1>七检索</td><td rowspan=1 colspan=1>顶面清晰，可翻页、双资显小、放大缩小、全屏</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>可打印</td><td rowspan=1 colspan=1>允许Postscript打印机|.直接打印</td></tr><tr><td rowspan=1 colspan=1>PS/EPS</td><td rowspan=1 colspan=1>GSview</td><td rowspan=1 colspan=1>申页检索，全文检索</td><td rowspan=1 colspan=1>页面洁晰、可翻页、页血跳转、放图像大缩小、全屏</td><td rowspan=1 colspan=1>整页复制为</td><td rowspan=1 colspan=1>可打印，可保行</td><td rowspan=1 colspan=1>可转化为TEXT文件</td></tr><tr><td rowspan=1 colspan=1>PDG，</td><td rowspan=1 colspan=1>sSReader</td><td rowspan=1 colspan=1>全文检索</td><td rowspan=1 colspan=1>页面放大、缩小和移动、自动滚屏显示、交式标注、书签、多线程浏览</td><td rowspan=1 colspan=1>文本复制，摘求全部或部分文字、插图，编辑修改</td><td rowspan=1 colspan=1>可打印、可以将PDG格式的图片转换为TXT格式的义本保有</td><td rowspan=1 colspan=1>OCR文字识别功能</td></tr><tr><td rowspan=1 colspan=1>CEB</td><td rowspan=1 colspan=1>ApabiReader</td><td rowspan=1 colspan=1>企文检索</td><td rowspan=1 colspan=1>可翻页、标注、页面跳、宇体放大、缩小、界面旋转，界血的最人（小）化及显小隐藏书签</td><td rowspan=1 colspan=1>部分复制，每次复制有字数限制</td><td rowspan=1 colspan=1>只能打印木加密的文件可下载</td><td rowspan=1 colspan=1>动翻译功能快照功能</td></tr></table>",
+    "context4": "从表1可以看出：一般来说基于文本方式处理全文数据的文件浏览效果要比图像型文件好，图像型文件无论使用何种浏览器其清晰度都相对较差；相对而言，CAJViewer和Acro-batReader操作方便，功能较全面；有些全文浏览器还具有一些独特的功能，如AcrobatReader有索引和保密功能，CAJViewer、VIPViewer和SSReader有OCR(文字识别)功能，DVIViewer允许在Postscript打印机上直接打印，GSview有转化文本文件的功能,ApabiReader有自动翻译和快照的功能等等。"
+  },
+  "3网络全文数据文件格式及其浏览器的应用现状": {
+    "context1": "总体来说，目前网络全文数据文件格式和浏览器的应用处于非常分散的状态。国外的电子期刊全文大多采用标准的PDF全文格式，并逐渐趋向于统一；国内的电子期刊全文文件格式和浏览器则相对较为分散，其中，两大中文电子期刊(中国期刊网和维普中文期刊数据库)出版商各自开发了专用的全文数据存储格式(CAJ、NH、KDH、VIP、TIF、WP)和相应的浏览器(CAJViewer、VIPViewer)；而其他一些学术机构发布的电子期刊则采用PDF、PS、DVI等多种文件格式。两大中文电子图书出版商（方正数字图书馆和超星电子图书）分别开发了专用的电子图书格式（CEB、PDG）和相应的专用浏览器（ApabiReader、SSReader)。网上各国专利全文上要采用三种文件格式：PDF、TIFF、HTML。网上技术报告全文所采用的文件格式主要是PDF、PS、HTML。现将部分国内外网上全文数据（包括电子期刊、电子图书、专利和技术报告4种文献类型）采用的文件格式和浏览器列于表2。",
+    "context2": "表2部分网络全文数据所用文件格式及具浏览器",
+    "context3": "<table><tr><td rowspan=1 colspan=1>全文数据序</td><td rowspan=1 colspan=1>文件格式</td><td rowspan=1 colspan=1>浏览器</td></tr><tr><td rowspan=1 colspan=1>Spnnger Link</td><td rowspan=1 colspan=1>PDF</td><td rowspan=1 colspan=1>Acrobat Reader</td></tr><tr><td rowspan=1 colspan=1>EBSCO</td><td rowspan=1 colspan=1>PDF、HTML</td><td rowspan=1 colspan=1>Acrobat Reader</td></tr><tr><td rowspan=1 colspan=1>Elsevier</td><td rowspan=1 colspan=1>PDF</td><td rowspan=1 colspan=1>Acrobat Reader</td></tr><tr><td rowspan=1 colspan=1>中国期利网</td><td rowspan=1 colspan=1>CAJ、NH、KDH、PDF</td><td rowspan=1 colspan=1>CAJ Viewer</td></tr><tr><td rowspan=1 colspan=1>维当中文期刊数据车</td><td rowspan=1 colspan=1>VIP、TIF、WP</td><td rowspan=1 colspan=1>VIPViewer</td></tr><tr><td rowspan=1 colspan=1>万数据资源系统</td><td rowspan=1 colspan=1>HTML、PDF</td><td rowspan=1 colspan=1>Acrobat Reader</td></tr><tr><td rowspan=1 colspan=1>人大复印资料报刊全文数据库</td><td rowspan=1 colspan=1>HTML</td><td rowspan=1 colspan=1>CGRS</td></tr><tr><td rowspan=1 colspan=1>化学通报等</td><td rowspan=1 colspan=1>HTML</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>方正Apabi数宁图书馆</td><td rowspan=1 colspan=1>CEB</td><td rowspan=1 colspan=1>ApabiReader</td></tr><tr><td rowspan=1 colspan=1>超星电了图书</td><td rowspan=1 colspan=1>PDG</td><td rowspan=1 colspan=1>SSReader</td></tr><tr><td rowspan=1 colspan=1>世界知识产权组织</td><td rowspan=1 colspan=1>HTML+PDF</td><td rowspan=1 colspan=1>Acrobat Reader</td></tr><tr><td rowspan=1 colspan=1>欧洲专利</td><td rowspan=1 colspan=1>PDF</td><td rowspan=1 colspan=1>AcrobatReader</td></tr><tr><td rowspan=1 colspan=1>美国专利</td><td rowspan=1 colspan=1>HTML+TIFF</td><td rowspan=1 colspan=1>Alternatiff</td></tr><tr><td rowspan=1 colspan=1>日本专利</td><td rowspan=1 colspan=1>HTML</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>中国专利</td><td rowspan=1 colspan=1>TIFF</td><td rowspan=1 colspan=1>Alternatiff</td></tr><tr><td rowspan=1 colspan=1>Computer Science Technical Reports</td><td rowspan=1 colspan=1>PS</td><td rowspan=1 colspan=1>GSview</td></tr><tr><td rowspan=1 colspan=1>NASA Technical Reports</td><td rowspan=1 colspan=1>PDF</td><td rowspan=1 colspan=1>Acrobat Reader</td></tr><tr><td rowspan=1 colspan=1>W3CTechnical Reports</td><td rowspan=1 colspan=1>HTML</td><td rowspan=1 colspan=1></td></tr></table>",
+    "context4": "从表2可以看出，国外网络全文数据用的最多的是PDF文件格式和浏览器AcrobatReader，并且各种类型文献的网络全文数据都有向此标准逐步统一的趋势，而我们国内的网络全文数据文件格式和浏览器都很分散，数据库出版商各自开发，各搞一套，彼此之间缺乏必要的合作和统一，而且很多全文数据库本身又采用了多种文件格式，造成了文件格式和浏览器都非常分散不统一的现状。"
+  },
+  "4网络全文数据多文件格式和浏览器所造成的影响": "",
+  "4.1影响信息用户对网络全文资源的利用": {
+    "context1": "用户在使用全文数据库时，必须分别下载安装相应的浏览器，这不仅为用户增添了麻烦而且占用了太多的硬盘空间。各种全文数据库的文件格式和浏览器由于其特点、功能、操作界面、结构等的不同，且相互间无法兼容，致使用户在使用时必须对其功能进行逐个的掌握和区分，这些都将影响用户利用网络信息资源的便捷性和积极性。"
+  },
+  "4.2影响图书馆对全文数据的存储和管理": {
+    "context1": "图书馆建设虚拟馆藏、开展参考咨询工作等必须购买大量的国内外网络全文数据库，网络全文数据文件格式和浏览器的分散不统一，对图书馆存储和管理全文数据形成了一定",
+    "context2": "障碍，图书馆在虚拟馆藏建设过程中，必须考虑全文数据存储文件格式的选择和转换问题以及各种全文数据库文件格式、浏览器软件的更新升级和由此带来的不兼容等问题。"
+  },
+  "4.3影响信息资源的有机整合": {
+    "context1": "信息资源整合是图书馆开展个性化服务和网络智能化知识服务的基础，是图书馆由信息服务向知识服务方向发展的一条有效途径，也是图书馆工作发展的一个必然趋势。信息资源整合是把各个相对独立的数字资源系统中的数据对象、功能结构及其互动关系进行融合、类聚和重组，重新结合为一个新的有机整体，实现各种信息资源透明的无缝链接。目前，网络全文数据各自采用不同的文件格式和不同的浏览器，不同文件格式和浏览器的功能、结构、界面、特点等互相区别，这种现状与信息资源整合所要求的消除资源间人为割裂的零散孤立状态、形成系统完整的知识体系相违背，对信息资源的有机整合非常不利。"
+  },
+  "4.4影响信息资源共建共享": {
+    "context1": "信息资源共建共享是图书馆信息资源建设的一项重要内容，随着各种信息资源的飞速增长、信息技术和网络技术的发展以及用户信息需求的增长和多样性，信息资源的共建共享更加日益紧迫。但是众多的数据库，特别是全文数据库之间缺乏统一的技术标准和规范，不同的文件格式、建库结构、检索方式和处理功能等等都将在很大程度上对信息资源的共建共享造成阻碍。"
+  },
+  "5相应对策": {
+    "context1": "针对网络全文数据文件格式和浏览器分散的现状，我们分别从文件格式和浏览器两个角度来取相应对策。"
+  },
+  "5.1文件格式": {
+    "context1": "目前，要完全摒弃现存的所有全文文件格式，采用一种统一的文件格式是不现实的，但是，我们可以制定相关的规范，选择一种功能比较完善的文件格式，或者开发出一种不需要安装客户端软件，就可处理各种类型全文的存储格式而进行推广，以后开发的全文数据都使用这种格式。而现有的各种其他的文件格式要逐步地向这种文件格式进行转化，这样在不久的将来就可逐步统一，即使达不到所有网络全文数据完全统一格式这种理想状态，但至少可使绝大部分常用的网络全文信息资源的格式和浏览器一致。这种做法对改善用户对网络全文资源利用的便捷性、图书馆对数字化全文信息的管理、资源整合以及资源共享等都会起到很大成效。从目前国内外的现实情况来分析，相对而言，PDF是目前应用最为广泛的文件格式，并且它也确实具有相对较多的优点，因此很有可能会发展成为默认的文件格式标准。",
+    "context2": "[作者简介]刘景宇，女，1978年生，硕士研究生,发表论文数篇。"
+  },
+  "5.2浏览器": {
+    "context1": "如果我们开发一种通用浏览器，兼容现有全部或大部分的文件格式，用户就可以用一种浏览器直接打开和利用常用的大部分全文资源，而图书馆在存储和管理数字化全文资源时也无需考虑系统和软件的更新而带来的不兼容问题。但是，有些学者担心通用浏览器的开发和应用会涉及全文数据出版商的版权问题。笔者认为：目前绝大多数的全文数据浏览器是免费提供下载安装的，用户对网络全文数据库的使用是通过向出版商购买数据的使用权来获得的，出版商开发自己的专用浏览器主要是为了防止有人对其数据进行恶意大量复制等侵权行为。那么，我们在开发通用浏览器时，依然可以根据相关的知识产权保护等法律法规，对通用浏览器的功能进行相应的设置和限定。通用浏览器的开发和使用只会改变信息用户利用网络全文数据的方式，即由目前的必须下载安装多种浏览器，来打开和使用相应的数据库转变为只需安装和使用一种浏览器，并不会改变用户使用全文数据的内容和权限。相反，通过通用浏览器可以减少各个不同全文数据开发商的技术差异，规范网络全文数据的使用，从一定程度上对目前由于技术条件限制，或其他原因而造成版权保护不够完善的数据库开发商的知识产权保护能够起到一定的促进作用。",
+    "context2": "开发通用浏览器，我们首先要系统研究、总结和吸收现有全文浏览器的优势功能，注重科学性、实用性和功能完备性，着重使通用浏览器能识别现有多种常用文件格式，并且力求使其做到多语种和多内码的识别和转换。根据目前文件格式和浏览器的应用情况，可选择一种使用较为广泛、功能较为完备的浏览器进行改良和升级。同时，要建立必要的管理机构进行管理和协调，完善相关的管理机制，制订全文浏览器相关的技术规范和使用标准，避免数据开发商因各自利益而各搞一套，确保通用浏览器开发和广泛推广的可行性。"
+  },
+  "参考文献:": {
+    "context1": "1高淑琴.网络学术资源全文文件格式比较分析.图馆界，2004(2):28-33  \n2戴海峰.网络全文数据文件格式及其浏览器概述．苏州职业大学学报，2005,16(2):85-87  \n3郑泳，余秀琴.超星数字图书馆的评介.现代情报，2004(9):92-93  \n4超星阅览器(SSReader)简介.[2005-12-01].http://www.ssreader.com/download/  \n5徐亚东.菜鸟也看电子书-一常见电子书格式简介.[2005-11-17].http://www.pcdog.com/info/2070.htm  \n6隋洪玉，庄善洁.论网络环境下高校图书馆信息资源的整合.佳木斯大学社会科学学报，2005,23(3):152-153  \n7张久珍，论图书馆信息资源整合机制的建立．图馆杂志，2005,24(1):10-14"
+  }
+}

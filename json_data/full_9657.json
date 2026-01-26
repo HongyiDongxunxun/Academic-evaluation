@@ -1,0 +1,99 @@
+{
+  "original_filename": "full_9657.md",
+  "": {
+    "context1": "●徐昊（中国科技大学安徽）乔域 (骊山微电子公司陕西)"
+  },
+  "趋势预测与数学模型": {
+    "context1": "摘要以预测IC最小特征尺寸发展趋势为实例，阐明在预测工作中采用定性分析与定量分析有机结合的方法，以提高预测研究水平，获得精确的预测值。",
+    "context2": "关键词预测分析发展趋势定量分析定性分析数学模型",
+    "context3": "发展趋势预测是富有创造性思维的工作，只有掌握了科学的研究方法，预测工作才具有勃勃生机。"
+  },
+  "1问题的提出": {
+    "context1": "发展趋势预测是指对系统运行规律的认识。在充分掌握原始资料的基础上，对系统进行全面分析，运用科学的方法摸清系统的运行规律，判断和推测系统未来的状态和发展趋势，以便把握未来，为决策服务。",
+    "context2": "趋势预测方法，按其性质来说，可以分为定性预测法和定量预测法。1978年以前，在我国，对技术领域发展趋势的预测，人们大多采用定性分析为主的方法。从1979 年起，预测工作逐步走向内容科学化、工作社会化、手段现代化，而趋势预测方法则转向以定量分析为主。尤其近几年来，人们十分重视定量预测方法，采用量化处理，一切由数据说明问题。无疑，这是预测工作的巨大进步，是提高研究水平获得精确预测值的重要途径。预测学如果不实现定量化，它将是支离破碎的技艺，而不会成为科学。然而，用精确的数学模型和先进的手段并不一定能获得令人满意的结果，其中很重要的原因就是过去迷信数学模型，忽视了定性分析在定量分析过程中应起的重要作用。我们认为，定量分析必须与定性分析相结合，避免一种倾向掩盖另一种倾向。"
+  },
+  "2定量分析与定性分析的关系": {
+    "context1": "预测都是以惯性原理、相关原理和类推原理为依据的，在此基础上产生了定性预测法和定量预测法。定性预测法是指依据专家的经验和智慧、联想和灵感进行综合分析、预测，如头脑风暴法、缺点列举法、希望列举法、特尔费法等。定量预测方法有平均预测法、趋势外推法、回归分析法、指数平滑法等[。",
+    "context2": "定性方法和定量方法各有长处和局限性，因此，不能离开所要解决的问题来评论这两种方法孰优敦劣。实践证明，在完成一项预测课题的过程中，定性分析和定量分析往往是相辅相成缺一不可的，定性分析是定量分析的基础和前提，定量分析是定性分析的精确化和具体化，两者存在着对立统一关系。定性分析把握趋势发展的重心和大方向，定量分析侧重于数学模型的建立和求解，为发展趋势提供精确的预测值。为了提高预测水平，定量分析必须与定性分析相结合，以定性分析指导定量分析，以定量分析辅助定性分析。尤其是当前我国统计工作还不完善，数据来源尚不充分，在重大战略决策上，定量分析方法的应用还存在不少困难，其结果往往存在不同程度的局限性和不精确性[2]。因而，在实际预测工作中，定性分析与定量分析应同时并重，防止一种倾向掩盖另一种倾向。"
+  },
+  "3定量分析与定性分析的有机结合": {
+    "context1": "1987年我们承担了一项研究课题“国外计算机发展战略及技术动态分析”，其中有一部分内容是对国外微电子技术指标中的最小特征尺寸(线宽)等的发展趋势作一预测。下面以这项预测工作为实例，阐明在预测过程中只有按照科学的程序实现定量分析与定性分析的有机结合，才能提高预测的质量和水平，获得符合实际的预测值，从而更好地为科学决策服务。"
+  },
+  "3.1确定预测目标": {
+    "context1": "目标不同，需要的资料、数据和采用的方法也因之而异。只有明确了预测的目标，才能确定预测工作的进程和范围。目标应详细、具体，尽可能作量化处理。该课题中的预测目标当时定为 $1 9 8 7 { \\sim } 2 0 0 0$ 年间IC最小特征尺寸（线宽）随时间的发展趋势。"
+  },
+  "3.2搜集分析资料和数据": {
+    "context1": "搜集资料和数据，对技术资料进行综合分析，对比归纳，对数据的来源和可靠程度进行认真考证，去伪存真，使之有序化，既要有历史数据，又要有前沿信息。经过定性分析和处理后，确立一组建模数据。这组数据是反映系统状态的基础数据，必须尽可能地与系统的真实状态相吻合，否则，输入的是垃圾，输出的仍然是垃圾。该项预测中确立的一组基础数据如表1所示：",
+    "context2": "表1基础数据",
+    "context3": "<table><tr><td rowspan=1 colspan=1>年</td><td rowspan=1 colspan=1>1970</td><td rowspan=1 colspan=1>1972</td><td rowspan=1 colspan=1>1974</td><td rowspan=1 colspan=1>1976</td><td rowspan=1 colspan=1>1978</td><td rowspan=1 colspan=1>1980</td><td rowspan=1 colspan=1>1982</td><td rowspan=1 colspan=1>1984</td><td rowspan=1 colspan=1>1986</td></tr><tr><td rowspan=1 colspan=1>t</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>9</td></tr><tr><td rowspan=1 colspan=1>线宽yi（μm)</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>：</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1.0</td></tr></table>"
+  },
+  "3.3选择预测方法": {
+    "context1": "预测方法恰当与否，是能否得出准确预测值的关键，一定要选择最能表现该系统运动状态的方法。定量预测法的核心内容就是建立和求解预测模型。建模前，对认定的基础数据反复分析，作图观察其散点变化规律。当时确认的基础数据的散点分布符合指数曲线走势。经对比分析，推理判断，并作对数曲线验证，最终确认该系统的发展变化规律可用指数曲线法预测。"
+  },
+  "3.4建立和求解数学模型": {
+    "context1": "按 $\\scriptstyle \\mathbf { y } = \\mathbf { y } _ { 0 } \\mathbf { e } ^ { \\mathbf { k } t }$ 的基本形式建立数学模型，并运用最小二乘拟合多项式 $\\mathbf { p }$ （t）进行拟合，通过最小二乘法确定系数 ${ \\bf y } _ { 0 }$ 和 $\\mathbf { k }$ 。",
+    "context2": "$$\n\\mathbf { y } = \\mathbf { y } _ { 0 } \\mathbf { e } ^ { \\mathbf { k } \\mathbf { t } }\n$$",
+    "context3": "式中， $\\mathbf { y }$ 为最小特征尺寸（单位为 $\\mu \\mathrm { m }$ ）， $\\mathbf { t }$ 为量化后的时间 $( \\mathrm { t } = 1 , \\ 2 , \\ 3 , \\ \\cdots )$ 。对式（1）两边取对数得",
+    "context4": "$$\n\\mathbf { l n } \\mathbf { y } = \\mathbf { l n } \\mathbf { y } _ { 0 } + \\mathbf { k } \\mathbf { t }\n$$",
+    "context5": "令 ${ \\bf Y } = \\mathrm { l n } { \\bf y }$ ${ \\bf \\tau } = \\ln { \\bf y } , { \\bf a } _ { 0 } = \\ln { \\bf y } _ { 0 } , { \\bf a } _ { 1 } = { \\bf k }$",
+    "context6": "则有",
+    "context7": "$$\n\\mathbf { Y } = \\mathbf { a } _ { 0 } + \\mathbf { a } _ { 1 } \\mathbf { t }\n$$",
+    "context8": "求系数 ${ \\bf a } _ { 0 }$ 和 $\\mathsf { a } _ { 1 }$ 。用 $\\mathbf { p } ( \\mathbf { t } )$ 作为最小二乘拟合多项多式",
+    "context9": "$$\n\\mathbf { p } ( \\mathrm { t } ) = \\sum _ { \\mathrm { j = 0 } } ^ { \\mathrm { n } } \\mathbf { a } _ { \\mathrm { j } } \\mathrm { t } ^ { \\mathrm { j } } = \\mathbf { a } _ { 0 } + \\mathbf { a } _ { \\mathrm { l } } \\mathrm { t } + \\mathbf { a } _ { 2 } \\mathrm { t } ^ { 2 } + \\cdots + \\mathbf { a } _ { \\mathrm { n } } \\mathrm { t } ^ { \\mathrm { n } }\n$$",
+    "context10": "求出使",
+    "context11": "$$\n\\mathbf { S } = \\sum _ { \\mathrm { i = 1 } } ^ { \\mathrm { m } } { \\frac { 1 } { \\mathrm { m } } } \\mathbb { ( P ( t _ { \\mathrm { i } } ) } - \\mathbf { Y } _ { \\mathrm { i } } \\mathrm { ) ^ { 2 } }\n$$",
+    "context12": "为最小值的系数 ${ \\bf a } _ { 0 } , { \\bf a } _ { 1 } , { \\bf a } _ { 2 } , \\cdots , { \\bf a _ { n } }$ 。要S最小， $\\mathbf { a } _ { \\mathbf { k } }$ 必",
+    "context13": "须满足",
+    "context14": "$$\n\\begin{array} { r l } { \\displaystyle \\frac { \\partial \\mathbf { s } } { \\partial \\mathbf { h } _ { k } } = 0 } & { \\left( \\mathbf { k } = 0 , 1 , 2 , \\cdots , \\mathbf { n } \\right) } \\\\ { \\displaystyle } & { \\frac { \\partial \\mathbf { S } } { \\partial \\mathbf { a } _ { k } } = \\frac { 2 } { \\mathbf { m } } \\sum _ { n = 1 } ^ { n } \\mathbb { P } ( \\mathbf { q } _ { 1 } ) - \\mathbf { Y } _ { \\mathrm { i } } ) \\frac { \\partial \\mathbf { P } ( \\mathbf { t } _ { \\mathrm { i } } ) } { \\partial \\mathbf { a } _ { k } } } \\\\ & { \\quad = \\displaystyle \\frac { 2 } { \\mathbf { m } } \\sum _ { \\mathrm { i } = 1 } ^ { n } \\left[ \\sum _ { \\mathrm { j } = 0 } ^ { n } \\mathbf { a } _ { \\mathrm { i } } \\mathbf { i } _ { \\mathrm { i } } ^ { \\mathrm { j } } - \\mathbf { Y } _ { \\mathrm { j } } \\right] \\mathbf { t } _ { \\mathrm { i } } ^ { \\mathrm { k } } } \\\\ & { \\quad = \\displaystyle \\frac { 2 } { \\mathbf { m } } \\Bigg \\lbrace \\sum _ { \\mathrm { i } = 0 } ^ { n } \\mathbf { a } _ { \\mathrm { i } } \\sum _ { \\mathrm { n } = 1 } ^ { n } \\mathbf { a } _ { \\mathrm { i } } ^ { \\mathrm { m } } - \\sum _ { \\mathrm { r } = 1 } ^ { n } \\mathbf { t } _ { \\mathrm { i } } ^ { \\mathrm { k } } \\mathbf { Y } _ { \\mathrm { i } } \\Bigg \\rbrace } \\end{array}\n$$",
+    "context15": "令",
+    "context16": "$$\n{ \\bf S } _ { 1 } = \\sum _ { \\mathrm { i } = 1 } ^ { \\mathrm { m } } { \\bf t } _ { \\mathrm { i } } ^ { \\mathrm { l } } ; \\qquad { \\bf X } _ { 1 } \\sum _ { \\mathrm { } = 1 } ^ { \\mathrm { m } } { \\bf t } _ { \\mathrm { i } } ^ { \\mathrm { l } } { \\bf Y } _ { \\mathrm { } }\n$$",
+    "context17": "式中， $\\mathbf { m }$ 为散点数， $\\mathbf { n }$ 为指数阶数，",
+    "context18": "$$\n\\sum \\limits _ { j = 0 } ^ { n } S _ { j + k } a _ { j } - X _ { k } = 0\n$$",
+    "context19": "$$\n\\sum _ { \\mathfrak { p } = 0 } ^ { \\mathfrak { n } } \\mathbf { S } _ { \\mathfrak { j } + \\mathbf { k } } \\mathbf { a } _ { \\mathrm { j } } = \\mathbf { X } _ { \\mathbf { k } }\n$$",
+    "context20": "式中 $\\mathbf { k } { = } 0 , \\ 1 , \\ 2 , \\ \\cdots , \\ \\mathbf { n } { _ c }$ ，式（4）为一组系数方程，求解数学模型的问题就成为解系数方程(4)，据式（3）可知，在这个具体问题中只需求出 $\\mathbf { a } _ { 0 }$ 和 $\\mathtt { a } _ { 1 }$ 即可。也就是说 $\\mathbf { k } = 0$ 和1。将 ${ \\bf k } = 0$ ，1代入式（4）有下列方程组：",
+    "context21": "$$\n\\left\\{ \\begin{array} { l l } { \\mathrm { S } _ { 0 } \\mathrm { a } _ { 0 } + \\mathrm { S } _ { 1 } \\mathrm { a } _ { 1 } = \\mathrm { X } _ { 0 } \\quad } & { ( \\mathrm { k } = 0 , \\mathrm { n } = 0 , 1 ) } \\\\ { \\quad } \\\\ { \\mathrm { S } _ { 1 } \\mathrm { a } _ { 0 } + \\mathrm { S } _ { 2 } \\mathrm { a } _ { 1 } = \\mathrm { X } _ { 1 } \\quad } & { ( \\mathrm { k } = 1 , \\mathrm { n } = 0 , 1 ) } \\end{array} \\right.\n$$",
+    "context22": "现在将表1的基础数据组 ${ \\bf y _ { 1 } }$ 的散点值取对数求得 ${ \\bf Y } ,$ 值如下表所示：",
+    "context23": "表2 $\\mathbf { Y } _ { \\mathrm { i } }$ 和时间t的对应值",
+    "context24": "<table><tr><td rowspan=1 colspan=1>年</td><td rowspan=1 colspan=1>197019721</td><td rowspan=1 colspan=1>197019721</td><td rowspan=1 colspan=1>1974</td><td rowspan=1 colspan=1>1976</td><td rowspan=1 colspan=1>61978</td><td rowspan=1 colspan=1>31980</td><td rowspan=1 colspan=1>1982</td><td rowspan=1 colspan=1>1984</td><td rowspan=1 colspan=1>1986</td></tr><tr><td rowspan=1 colspan=1>t</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>9</td></tr><tr><td rowspan=1 colspan=1>Yi</td><td rowspan=1 colspan=1>1.9459</td><td rowspan=1 colspan=1>1.7916</td><td rowspan=1 colspan=1>1.6094</td><td rowspan=1 colspan=1>1.3863</td><td rowspan=1 colspan=1>1. 2528</td><td rowspan=1 colspan=1>0.9163</td><td rowspan=1 colspan=1>0691</td><td rowspan=1 colspan=1>0.4055</td><td rowspan=1 colspan=1>0</td></tr></table>",
+    "context25": "用 $\\mathbf { Y } _ { \\mathrm { i } }$ 的9个散点值求出",
+    "context26": "$$\n{ \\bf S } _ { 0 } = 9 , ~ { \\bf S } _ { 1 } = 4 5 , ~ { \\bf S } _ { 2 } = 2 8 5\n$$",
+    "context27": "$$\n\\mathrm { X } _ { 0 } { = } 1 0 . 0 0 9 , \\ \\mathrm { X } _ { 1 } { = } 3 5 . 7 6\n$$",
+    "context28": "代入式（5)",
+    "context29": "$$\n\\left\\{ \\begin{array} { l l } { 9 \\mathbf { a } _ { 0 } + 4 5 \\mathbf { a } _ { 1 } = 1 0 . 0 0 0 9 } \\\\ { 4 5 \\mathbf { a } _ { 0 } + 2 8 5 \\mathbf { a } _ { 1 } = 3 5 . 7 6 } \\end{array} \\right.\n$$",
+    "context30": "解式（6）得",
+    "context31": "$$\n\\begin{array} { c c c } { { \\bf a } _ { 0 } = 2 . ~ 2 9 8 2 , } & { { \\bf a } _ { 1 } = - ~ 0 . 2 3 7 4 } \\\\ { { } } & { { } } & { { } } \\\\ { { - ~ 1 3 ~ - } } & { { } } \\end{array}\n$$",
+    "context32": "于是",
+    "context33": "$$\n\\mathbf { P ( t ) } = 2 . 2 9 8 2 - 0 . 2 3 7 4 \n$$",
+    "context34": "$$\n\\ Y = 2 . 2 9 8 2 - 0 . 2 3 7 4 \n$$",
+    "context35": "求 ${ \\bf a } _ { 0 }$ 的反对数得 ${ \\bf y } _ { 0 } = 9 . 9 5 6 2$ 。",
+    "context36": "确立的数学模型为",
+    "context37": "$$\n\\mathbf { y } = 9 . 9 5 6 2 \\mathrm { e } ^ { - 0 . 2 3 7 4 }\n$$",
+    "context38": "用这个数学模型预测IC最小特征尺寸的未来发展状态。精确的预测值如下表所示：",
+    "context39": "表3精确的预测值（区间为 $1 9 8 8 { \\sim } 2 0 0 0$ 年)",
+    "context40": "<table><tr><td rowspan=1 colspan=1>年</td><td rowspan=1 colspan=1>1988</td><td rowspan=1 colspan=1>1990</td><td rowspan=1 colspan=1>1992</td><td rowspan=1 colspan=1>1994</td><td rowspan=1 colspan=1>1996</td><td rowspan=1 colspan=1>1998</td><td rowspan=1 colspan=1>2000</td></tr><tr><td rowspan=1 colspan=1>t</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>16</td></tr><tr><td rowspan=1 colspan=1>预测值yi(μm)</td><td rowspan=1 colspan=1>0.90</td><td rowspan=1 colspan=1>0.70</td><td rowspan=1 colspan=1>0.60</td><td rowspan=1 colspan=1>0.45</td><td rowspan=1 colspan=1>0.35</td><td rowspan=1 colspan=1>0.28</td><td rowspan=1 colspan=1>0.20</td></tr></table>",
+    "context41": "用表中数据在区间 $1 9 7 0 \\sim 2 0 0 0$ 年间作指数曲线图（略）。"
+  },
+  "3.5分析预测结果": {
+    "context1": "由于预测模型和预测系统只是同构关系，并非完全重合，加之所用的资料不可能绝对准确，因而应允许有预测误差的存在，但误差不能过大，否则，就失去了预测应有的作用，难以达到预测目标。得到精确预测值之后，应根据模型的特点和资料的准确程度计算预测误差，并分析产生误差的原因。通过分析，把误差控制在一定范围之内，使预测结果尽量与系统运行的实际状态相符合。通过预测误差建立预测结果的置信区间，并对预测结果进行修正。",
+    "context2": "以上的分析都是以稳定的系统运行条件为前提的，条件的任何变化都会影响预测结果，因此，在求解预测结果并根据预测误差进行修正后，还要分析系统内外条件的变化，在可能情况下对预测结果作进一步修正。在IC最小特征尺寸发展趋势预测中确认的基础数据含有 $5 \\%$ 的相对误差，但系统运行稳定，因而，根据分析，对最小特征尺寸（线宽)预测值作 $5 \\%$ 的相对",
+    "context3": "误差修正。"
+  },
+  "3.6对预测结果的检验": {
+    "context1": "如今，从1987年至1994年这段时期的微电子技术发展已成为历史，现在可获取IC最小特征尺寸在这段时期的实际指标如表4所示[3]：",
+    "context2": "表4IC特征尺寸的实际指标（ $( 1 9 8 8 \\sim 1 9 9 4$ 年）",
+    "context3": "<table><tr><td rowspan=1 colspan=1>时间 (年)</td><td rowspan=1 colspan=1>1988</td><td rowspan=1 colspan=1>1991</td><td rowspan=1 colspan=1>1993</td></tr><tr><td rowspan=1 colspan=1>最小特征尺寸（um）</td><td rowspan=1 colspan=1>1.0</td><td rowspan=1 colspan=1>0.8</td><td rowspan=1 colspan=1>0.5</td></tr></table>",
+    "context4": "对照1987年的预测值，可以看出，当时的预测结果与实际运行情况吻合的很好。之所以能预测出如此准确的结果，一是由于世界微电子技术成熟,预测系统运行稳定，二是由于采用了定量分析与定性分析有机结合的科学预测方法，建立了符合系统实际运行规律的预测模型。"
+  },
+  "4结论": {
+    "context1": "采用定量分析与定性分析有机结合的科学方法进行预测研究，大大提高了研究质量和水平，取得了良好的应用效果，从而能更好地为领导决策提供可靠的科学依据，为科研工作提供技术预警。这项研究报告“国外计算机发展战略及技术动态分析”曾作为制定“八五\"规划的重要参考材料，受到领导的好评，并于1990年获陕西省电子信息应用成果一等奖。□"
+  },
+  "参考文献": {
+    "context1": "1秦铁辉，曾洪京．中国情报学理论研究回顾与展望·情报学刊，1993，14（2)： $8 2 \\sim 8 8$",
+    "context2": "2孙学琛．关于当前情报研究的若干问题．科技情报工作，1991，(11)： $1 3 \\sim 1 5$",
+    "context3": "3黄敞，张成勋·我国航天微电子技术．微电子学与计算机，1992，（4)"
+  },
+  "简 讯": {
+    "context1": "·我国九五期间将建8金工程。这8金工程是：金桥工程，国家公用经济信息通信网。金卡工程，国家自动化支付系统及电子货币工程。金关工程，外贸业务处理系统。金税工程，税务电子化系统。金农工程，农业综合管理及信息服务系统。金企工程，企业生产与流通信息系统。金智工程，科研教育计算机网与人才工程。金宏工程，国民经济宏观决策服务系统。",
+    "context2": "$\\cdot$ CD-ROM市场处上升状态。其驱动器1994年世界产量为2048.8万台，1995年预计达3010.9万台。CD-ROM库1994年为47201个（其中1/3以上为$1 \\sim 3 9$ 个盘），预计1995年为58985个，1997年为84130个。由于CD-ROM容量继续增加，价格不断下降，其市场增长度接近软盘的速度。"
+  }
+}

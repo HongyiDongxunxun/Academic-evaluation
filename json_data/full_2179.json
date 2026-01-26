@@ -1,0 +1,40 @@
+{
+  "original_filename": "full_2179.md",
+  "关于直线趋势法应用问题的探讨": "",
+  "-对《市场需求预测方法在情报准备工作中的应用》的商榷": {
+    "context1": "白君礼 杨九龙（西北农林科技大学）（西北大学公共管理学院）",
+    "context2": "商要通过对文献[1]中直线趋势法应用上出现问题的商權,指出使用此方法要按回归方程的严格程序进行。",
+    "context3": "关键词市场需求预测模型",
+    "context4": "笔者在拜读刘天英、杨天臣先生撰写的《市场需求预测方法在情报准备工作中的应用》以下简称该文)[受益匪浅。作者指出的市场需求预测方法，对我们进行市场需求预测有一定的指导意义。但笔者也发现该文在直线趋势法中有几处需要商榷。"
+  },
+  "1直线预测模型必须检验": {
+    "context1": "该文指出：直线预测模型 $\\mathrm { y } = \\mathrm { a } + \\mathrm { b } \\mathrm { x }$ 最后通过最小二乘法得出 $\\mathsf { a } = \\frac { et { } { ' } { \\sum } \\mathbf { y } } { \\mathsf { n } } \\quad \\mathsf { b } = \\frac { et { } { ' } { \\sum } \\mathbf { x } \\mathbf { y } } { et { } { ' } { \\sum } \\mathbf { x } ^ { 2 } } \\quad \\mathbf { y } = \\frac { et { } { ' } { \\sum } \\mathbf { y } } { \\mathsf { n } } + \\mathbf { x } \\cdot \\frac { et { } { ' } { \\sum } \\mathbf { x } \\mathbf { y } } { et { } { ' } { \\sum } \\mathbf { x } ^ { 2 } }$ 实际上应为 $\\mathrm { a = \\frac { \\displaystyle \\sum _ { i = 1 } ^ { n } y _ { i } } { \\bar { n } } \\quad \\mathbf { b } = \\frac { \\displaystyle \\sum _ { i = 1 } ^ { n } \\mathbf { x } _ { i } y _ { i } } { \\displaystyle \\sum _ { i = 1 } ^ { n } \\mathbf { x } ^ { 2 } } \\quad \\mathbf { y } = \\frac { \\displaystyle \\sum _ { i = 1 } ^ { n } \\mathbf { y } _ { i } } { \\bar { n } } + \\mathbf { x } \\cdot \\frac { \\displaystyle \\sum _ { i = 1 } ^ { n } \\mathbf { x } _ { i } y _ { i } } { \\displaystyle \\sum _ { i = 1 } ^ { n } \\mathbf { x } ^ { 2 } } }$ 疑是排版有误。同样274页 $\\mathbf { x }$ 的取值分别为 $\\displaystyle { 2 , - 1 , 0 , 1 , 2 }$ 也是排版有误，应为 $- 2 , - 1 , 0 , 1 , 2$ 。",
+    "context2": "若 $\\mathbf { x }$ 和 $\\mathbf { y }$ 的变数总体并不存在直线回归关系，则由其中一个样本也可用 $\\mathbf { y } = \\mathsf { a } + \\mathsf { b } \\mathbf { x }$ 。显然，这样的回归方程是靠不住的。对于样本的回归方程，必须检验其来自无直线回归关系的总体概率大小。只有当这种概率 $\\mathfrak { a } < 0 . 0 5$ 或 $\\alpha { \\leqslant } 0 . 0 1$ 时，我们才能冒较小风险确认其所代表的总体存在着直线回归关系。故必须进行回归关系的假设检验，可由t检验、F检验、相关系数R检验三种方法中的一种来检验[2]。",
+    "context3": "1.1F检验：F(t.n-2)= 回归方差均值 剩余方差均值 $\\frac { ( \\mathbf { n } - 2 ) \\mathrm { Q } _ { \\perp } } { \\mathrm { Q } _ { \\perp \\parallel } }$",
+    "context4": "$$\n\\begin{array} { r } { \\mathbf { Q } _ {  } = \\overset { \\mathbf { \\tilde { n } } } { \\underset { = } { \\sum } } ( \\mathbf { y } _ { \\mathfrak { n } } - \\overline { { \\mathbf { y } } } ) ^ { 2 } \\quad \\mathbf { Q } _ { \\forall \\Vert } = \\mathbf { Q } _ {  } - \\mathbf { Q } _ {  } } \\end{array}\n$$",
+    "context5": "$\\mathrm { Q _ { \\perp } = b ^ { 2 } \\sum _ { i \\ne 1 } ^ { n } ( x _ { i } - \\bar { x } ) ^ { 2 } }$ 式中 $\\mathrm { Q } _ { \\perp } , \\mathrm { Q } _ { \\perp \\parallel } , \\mathrm { Q } _ { \\perp }$ 分别表示回归平方和、剩余平方和、总体离差平方和。",
+    "context6": "在一定显著水平 $\\alpha$ 上可查 $\\mathbf { F }$ 分布表，当 $\\operatorname { F } > \\operatorname { F } _ { a } ( 1 , \\mathfrak { n } ^ { - } 2 )$ 回归方程线性效果显著。反之，认为不显著。",
+    "context7": "1.2相关系数 $\\mathrm { R }$ 检验： $\\mathrm { R } = \\frac { \\mathrm { L } \\mathbf { x } \\mathbf { x } } { \\sqrt { \\mathrm { L } \\mathbf { x } \\mathbf { x } \\mathrm { L } \\mathbf { x } \\mathbf { y } } }$",
+    "context8": "$\\mathrm { L } \\mathbf { x } \\mathbf { x } = \\sum _ { i = 1 } ^ { { \\mathfrak { n } } } \\mathbf { x } _ { \\mathfrak { i } } ^ { 2 } - \\frac { \\mathbf { 1 } } { \\mathfrak { n } } \\big ( \\sum _ { \\mathfrak { i } = 1 } ^ { \\mathfrak { n } } \\mathbf { x } _ { \\mathfrak { i } } \\big ) ^ { 2 }$ $\\mathrm { { L x y } = \\sum _ { i = 1 } ^ { n } { \\bf x } _ { i } { \\bf y } _ { i } - \\frac { 1 } { n } \\left( \\sum _ { i = 1 } ^ { n } { \\bf x } _ { i } \\right) \\left( \\sum _ { i = 1 } ^ { n } { \\bf y } _ { i } \\right) }$",
+    "context9": "在一定显著水平 $\\pmb { \\alpha }$ 上可查 $\\pmb { \\alpha }$ 分布表， $\\operatorname { R } > \\operatorname { R } _ { \\mathfrak { a } }$ 则认为在显著性水平 $^ \\ a$ 上回归效果显著，反之不显著。",
+    "context10": "回归系数值1.3t检验：t=回归系数标准差=Q-2",
+    "context11": "在一定显著性水平 $\\pmb { \\alpha }$ 上查 $\\mathfrak { t }$ 分布表，若有 $\\mathfrak { t } > \\mathfrak { t } _ { \\mathfrak { a } / 2 } ( \\mathfrak { n } - 2 )$ ，则拒绝回归系数为零的假设，认为线性回归方程，反之认为不显著。",
+    "context12": "$\\therefore \\mathrm {  ~ \\sigma ~ } _ { \\mathrm { t } } = \\frac { \\mathrm {  ~ b ~ } \\sqrt { \\mathrm { L x x } } } { \\sqrt { \\mathrm { Q } _ { \\Re } \\mathrm {  ~ } / \\mathrm { h } - 2 } } = \\sqrt { \\frac { \\mathrm {  ~ Q } _ { \\perp } } { \\mathrm { Q } _ { \\perp } \\mathrm {  ~ } / \\mathrm {  ~ n } - 2 } } = \\sqrt { \\mathrm { F } }$ $\\mathbf { F } = { \\frac { ( \\mathbf { n } - 2 ) \\mathbf { Q } _ { \\perp } } { \\mathbf { Q } _ { \\perp } } } = { \\frac { ( \\mathbf { n } - 2 ) \\mathbf { R } ^ { 2 } \\mathbf { L } \\mathbf { y } \\mathbf { y } } { \\mathbf { L } \\mathbf { y } \\mathbf { y } - \\mathbf { Q } _ { \\perp } } } = { \\frac { ( \\mathbf { \\lambda } \\mathbf { n } - 2 ) \\mathbf { R } ^ { 2 } \\mathbf { L } \\mathbf { y } \\mathbf { y } } { \\mathbf { L } \\mathbf { y } \\mathbf { y } - \\mathbf { \\lambda } \\mathbf { R } ^ { 2 } \\mathbf { L } \\mathbf { y } \\mathbf { y } } } = { \\frac { ( \\mathbf { n } - 2 ) \\mathbf { R } ^ { 2 } } { \\mathbf { \\lambda } \\mathbf { I } - \\mathbf { \\lambda } \\mathbf { R } ^ { 2 } } }$ ∴t检验 $\\mathrm { \\nabla { \\cdot } } \\mathrm { F }$ 检验、相关系数 $\\mathrm { R }$ 考察方程可靠性实质是一回事。"
+  },
+  "2选用数据太少，无统计学意义": {
+    "context1": "该文在直线趋势法的应用时，作者假设1995一1999年学生写毕业论文时利用技术经济方面的情报资料数量分别为：180、$2 1 0 \\AA . 2 4 0 \\AA . 2 2 0 \\AA . 2 5 0$ 篇。回归方程 $\\mathbf { y } = \\mathsf { a } + \\mathsf { b } \\mathbf { x }$ 是建立在统计学意义之上的，根据数理统计原理，样本数 $\\mathfrak { n }$ 越大，方程回归建立的方程越显著。该文仅以5个数据作例子，似嫌太少。"
+  },
+  "3作者所建立的回归方程 $\\mathbf { y } = \\mathbf { a } + \\mathbf { b } \\mathbf { x }$ ，通过检验线性不显著": {
+    "context1": "由上文可知，t检验、F检验、相关系数R检验实质是相同的，本文只作F检验。",
+    "context2": "3.1F检验 $\\cdot \\operatorname { F } _ { ( 1 , { \\mathfrak { n } } - 2 ) } = { \\frac { { \\big ( } { \\mathfrak { n } } - 2 { \\big ) } \\mathrm { Q } _ { \\perp } } { \\mathrm { Q } _ { \\perp { \\mathfrak { n } } } } }$ $\\mathrm { { \\cal Q } _ { \\perp \\perp } = b ^ { 2 } \\left( \\sum _ { i = 1 } ^ { n } x _ { i } ^ { 2 } - \\frac { 1 } { n } ( \\sum _ { i = 1 } ^ { n } x _ { i } ) ^ { 2 } \\right) = } 2 2 5 0$ $\\mathbf { Q } _ {  } = \\sum _ { \\mathfrak { r } = 1 } ^ { \\mathfrak { n } } ( \\mathbf { y } _ { \\mathfrak { r } } - \\bar { \\mathbf { y } } ) ^ { 2 } = \\sum _ { \\mathfrak { r } = 1 } ^ { \\mathfrak { n } } \\mathbf { y } _ { \\mathfrak { i } } ^ { 2 } - \\frac { \\mathbf { I } } { \\mathfrak { n } } ( \\sum _ { \\mathfrak { r } = 1 } ^ { \\mathfrak { n } } \\mathbf { y } _ { \\mathfrak { i } } ) ^ { 2 } = 3 0 0 0$ ∴Q剩=Q总-Q回=750 $\\therefore F _ { ( 1 , { \\mathrm { n - 2 } } ) } = { \\frac { ( { \\mathrm { n - 2 } } ) \\mathrm { Q } _ { \\perp } } { \\mathrm { Q } _ { \\perp } } } = { \\frac { ( 5 - 2 ) \\times 2 2 5 0 } { 7 5 0 } } = 9$",
+    "context3": "$$\n\\mathrm { F _ { 0 } } \\mathsf { \\mathsf { \\Pi } } _ { 0 5 } ( \\mathrm { \\bf ~ l } , 3 ) = 1 0 . 1 3 \\qquad \\mathrm { F } _ { 0 . 0 1 } ( 1 , 3 ) = 3 4 . 1 2\n$$",
+    "context4": "$\\mathrm { F } ( \\mathrm { 1 } , \\mathrm { n } - 2 ) = 9 < \\mathrm { F } _ { \\mathrm { 0 . 0 1 } } ( \\mathrm { 1 } , 3 ) = 3 4 . 1 2$ 所以认为 $\\mathsf { y }$ 与 $\\mathbf { x }$ 没有明显的线性关系。",
+    "context5": "3.2通过对该文所假设的数据作散点图(图略)，笔者也发现这五个数据线性不显著。",
+    "context6": "而作者由 $\\mathbf { y } = 2 2 0 + 1 5 \\mathbf { x }$ 所预测的2000年毕业生所需技术经济情报资料265篇的结论很值得怀疑。",
+    "context7": "笔者很赞成刘天英、杨天臣两先生的观点：应用直线预测法时一定要特别加以注意。可惜两先生却发生了此类错误。所以我们在对某一种数学方法举例时一定要慎重，要严格按照回归程序进行。"
+  },
+  "参考文献": {
+    "context1": "1刘天英，杨天臣，市场需求预测方法在情报准备工作中的应用，情报科学，2000;(3)",
+    "context2": "2曾善玉．应用概率统计.北京：科学出版社，2000 （责编：亦愚京）"
+  }
+}

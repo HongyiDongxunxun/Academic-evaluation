@@ -1,0 +1,137 @@
+{
+  "original_filename": "full_6750.md",
+  "推荐系统冷后动问题研究进展史海燕倪云瑞": {
+    "context1": "【摘要】文章从冷后动问题的基本应对策略、冷后动问题的具体应对方法和特定领域的冷后动问题3个方面梳理相关研究，发现对于各类冷后动问题已形成基本应对策略；主要方法包括基于内容和/或协作式过滤的方法、基于辅助数据的方法、基于用户参与的方法等；多媒体信息推荐、标签推荐和跨领域推荐等领域中的冷后动问题值得关注；混合式方法的应用、情境信息与关联数据的应用、基于知识图谱的推荐方法与跨领域推荐方法的应用是需要深入研究的方向。"
+  },
+  "【关键词】推荐系统新用户冷后动新项目冷后动新系统冷后动": {
+    "context1": "Abstract:This paper systematicallsortsouttherelated research fromthree aspects:thebasiccoping strategies of coldstartproblems，the specificsolutions tocold-start problems andthecold-start problems inspecific fields，andfindsthat: for allkindsofcold-start problems，thebasiccoping strategies have been formed；the main methods includecontent-based and/orcolaborative filtering method，auxiliary data based method，user participation based methodand soon；the cold-startproblemsinthe fieldsof multimediainformationrecommendation，tagrecommendationandcrossdomain recommendation are worthyof atention；theapplicationsof hybrid method，context informationand linked data，and knowledge based recommendation method and cross-domain recommendation method are topics for further study.",
+    "context2": "Key words: recommender systemsnew-user cold-start new-item cold-startnew-system cold-start DOI:10.15941/j.cnki.issn1001-0424.2021.12.001"
+  },
+  "0引言": {
+    "context1": "推荐系统在解决信息超载、提供个性化服务、辅助用户决策等方面发挥着重要作用，在电子商务、电子旅游、社交媒体、数字图书馆等众多领域具有广泛应用，推荐对象也日益广泛，包括商品、音乐、电影、图书、旅游景点、好友、应用等。推荐系统算法的执行通常依赖于特定的数据基础，如用户的历史行为记录或用户的评分数据等。当新用户或新项目进入系统，因缺少必要的数据而无法建立用户与项目的关联，推荐系统就无法推断用户偏好以及执行推荐机制，便会产生冷后动（cold-start）问题[。冷后动问题可以分为完全冷启动（pure cold-start，complete cold-start）和部分冷后动（partial cold-start，non-complete cold-start）-。完全冷启动指推荐系统中没有任何可用于构建“用户-项目”关系的数据。部分冷启动也叫非完全冷后动，指推荐系统中具有少量数据，如新用户对少量项目进行了评分。根据冷后动问题的对象，还可以将其划分为新用户冷启动（newusercold-start）、新项目冷启动（new itemcold-start）和新系统冷后动（new community/system cold-start）。",
+    "context2": "冷后动问题是推荐系统研究一直关注的重点问题之一，也是推荐系统实践中不可避免的挑战之一。本文以CNKI数据库为国内文献主要来源，以 $\\mathrm { S U } =$ （“信息推荐” $^ +$ “推荐系统”）AND（“冷后动”）为检索式获取国内相关文献，以 Elsevier、Springer、Wiley、IEEE、ACM等数据库为国外文献主要来源，以 $\\mathrm { S U } =$ （“informationrecommend ” $^ +$ “informationrecommender ” $^ +$ \"recommend system” $^ +$ “recommender system”）AND（“cold start” $^ +$ “cold-start”）为检索式获取国外相关文献，同时利用已获取文献的参考文献进行回溯检索作为补充。在对结果文献集合初步分析的基础上，选取2010年以来发表的82篇文献进行深入分析，从中提取了冷后动问题的基本应对策略、冷启动问题的具体应对方法和特定领域的冷后动问题3个梳理维度。",
+    "context3": "通过对已有研究的梳理，呈现冷后动问题研究的进展，探讨当前研究的不足及发展趋势，为未来相关研究的开展提供一定参考。"
+  },
+  "1冷后动问题的基本应对策略": {
+    "context1": "梳理现有研究可以发现，对于新用户冷启动、新项目冷后动和新系统冷后动问题已形成基本的应对策略。"
+  },
+  "1.1新用户冷启动的基本应对策略": {
+    "context1": "当新用户进入推荐系统，由于缺少用户的历史评分数据或行为数据，推荐系统无法预测其偏好，进而无法对新用户进行个性化推荐，由此便产生新用户冷后动问题。新用户进入系统后，如未能及时得到满意的推荐，用户对系统的使用体验将会受到较大影响，严重的甚至可能导致用户放弃对系统的使用 [ 。",
+    "context2": "新用户冷后动问题应对的基本策略大致可以分为4类。"
+  },
+  "1.1.1基于非个性化的方法": {
+    "context1": "非个性化的方法指对所有新用户提供相同的推荐，例如基于项目的流行度、基于项目的评分或基于项目的时效性，这种策略易于实现，但并不是针对用户个人的需求。"
+  },
+  "1.1.2基于协作式过滤的方法": {
+    "context1": "在非完全冷启动的情境下，用户已对少量项目进行了评分，可以利用协作式推荐的方法解决新用户冷后动问题。例如文献都是利用用户少量的评分数据，通过相似度计算寻找新用户的最近邻，以此实现对新用户的推荐。"
+  },
+  "1.1.3基于用户参与的方法": {
+    "context1": "这一类方法在用户初次进入系统时要求用户提供某种信息，例如填写偏好问卷或对特定项目评分。这种方法通过显性反馈的方式获取用户偏好，但需要用户付出较多努力，在实际应用中会有较大的局限性。为更有效地实施用户参与策略，基于问卷的研究中有学者关注了如何设计最小的问题集合以更充分地获取用户偏好数据[10-1，基于用户评分的方法则关注了“ask-to-rate”技术。"
+  },
+  "1.1.4基于辅助数据的方法": {
+    "context1": "这一类方法利用用户偏好数据以外的其他相关数据进行推荐，例如用户的人口统计学数据（如性别、年龄、职业)、社交网络数据（如好友数据、信任数据)、情境信息（如空间、时间）等。"
+  },
+  "1.2新项目冷启动的基本应对策略": {
+    "context1": "新项目进入系统时由于缺少初始的评分数据，这些新项目通常无法进入推荐列表，于是就产生了新项目冷后动问题。由于不能进入推荐列表，用户群体中的大部分成员将无法发现该项目，进而无法对其进行评分，由此便会形成恶性循环，导致一部分项目被排除在推荐流程之外。解决新项目冷后动问题具有重要意义，通过推荐新项目增强用户与新项目的交互，可以较为迅速地获取用户对新项目的评分，促进推荐流程的顺利进行。此外，新项目的推荐有利于提高推荐结果的新颖性，进而提升用户满意度和用户黏性[4。",
+    "context2": "新项目冷后动问题应对的基本策略可以分为以下两类。"
+  },
+  "1.2.1基于项目评分获取的方法": {
+    "context1": "应对新项目冷后动问题的一般性策略是获取对新项目的评分，这一评分过程可以由推荐系统工作人员或专家[完成，也可由特定用户完成，这些用户一般被称为代表性用户（representative users）或种子用户（seed users）[i@。"
+  },
+  "1.2.2基于内容的方法": {
+    "context1": "新项目冷启动问题一般发生在协作式过滤系统中，一些研究转而寻求通过基于内容的方法解决新项目冷后动问题，即利用相关信息（如项目的描述文本或元数据）提取项目属性特征进行推荐[14,1]"
+  },
+  "1.3新系统冷后动的基本应对策略": {
+    "context1": "新系统冷后动是推荐系统后动时所遇到的问题，可以视为新用户冷启动和新项目冷启动的综合。在推荐系统运行之初，系统内既没有用户历史行为数据，也没有用户对项目的评分数据，如何生成有效推荐是推荐系统面临的挑战，也会对推荐系统后期的运行产生较大影响。目前研究中对新系统冷后动的研究还较为不足。Bobadilla等在其综述中提出，解决新系统冷后动问题的策略有两种，一是鼓励用户通过多种方式对项目进行评分，二是当系统中用户和评分达到一定数量后采用协作式过滤的方法进行推荐。"
+  },
+  "2冷后动问题的主要应对方法": {
+    "context1": "如前文所述，面向不同类型的冷启动问题已经形成基本的应对策略。本节从方法的角度，梳理现有研究中应对冷启动问题的具体方法。"
+  },
+  "2.1基于内容和/或协作式过滤的方法": "",
+  "2.1.1基于内容的方法": {
+    "context1": "在协作式过滤中，一些研究者尝试直接提取用户或项目的属性特征进行推荐，即采用基于内容的方法应对冷启动问题。Wei等提出一个整合协同过滤方法和机器学习算法的一般框架，该框架利用深度学习神经网络模型 SADE从项目的内容描述中抽取内容特征，并将其作为协同过滤模型 $\\mathrm { \\ t i m e S V D + + }$ 的关键项目因子向量，实验表明，这一框架在解决新项目完全冷后动和非完全冷后动方面均表现良好。Wang等利用主题模型LDA分析项目内容信息并将其与矩阵分解相结合，有效缓解了新项目的冷启动问题[。Ebesu 等利用深层神经网络DNN学习项目内容特征的有效表示，将其与学习排序中的Pairwise方法整合[。Parambath等将项目评分以外的与项目相关的信息定义为边信息（side-information），在边信息空间对项目进行软聚类（soft-cluster），从中学习项目embedding应用于矩阵分解模型解决新项目冷启动问题2。Anwaar等基于电影的内容描述，利用Web2Vec生成词向量表示待推荐的电影，结合协作式过滤的方法对新电影进行评分预测 。",
+    "context2": "前述研究主要面向新项目冷后动问题，也有研究者采用基于内容的方法将新用户和新项目冷后动在统一的框架下解决。Radecka等以用户的元数据（人口统计学属性、位置、设备、软件版本、浏览器等）和项目的元数据（标签）作为训练的输入数据，利用Meta-User2Vec生成用户和项目的表示，再计算余弦相似度进行推荐，可以解决新用户冷后动和新项目冷后动。Ji等以标签表征用户偏好，以关键词表征项目属性，认为用户对项目的评分数据中隐含了用户标签与项目关键词的关联，因此可以将基于“用户-项目”评分矩阵的推荐转换为基于“标签-关键词”关系的推荐。研究者首先利用已知的标签与关键词的关系（共现频次）构建了完整的“标签-关键词”关系矩阵，随后将这一矩阵整合到矩阵分解模型中进行推荐，实验表明，该方法在应对新用户冷后动和新项目冷后动方面均具有良好的扩展性。"
+  },
+  "2.1.2基于协作式过滤的方法": {
+    "context1": "协作式过滤的方法主要用于解决新用户冷启动问题。Zhang等在基于用户的协作式过滤中，利用覆盖约简（coveringreduction）算法对部分冷启动用户的最近邻约简，约简后的最近邻评分用于对新用户推荐。Ocepek等在矩阵分解的框架之中解决新用户冷后动问题，基本思路是对“用户-项目”矩阵中新用户对应的缺失值进行补充。该方法首先基于用户的少量评分和欧几里得距离计算相似用户，之后利用标准差、频率值、信息增益和RReliefF等方法计算相关的项目属性，在前两步计算的基础上对缺失值进行补充，进而通过矩阵分解进行推荐。该方法的突出特点是将冷后动用户和非冷启动用户整合在一个框架内进行推荐。"
+  },
+  "2.2基于辅助数据的方法": {
+    "context1": "冷后动问题产生的根本原因在于系统中用户偏好或用户评分数据的缺失。一些研究在前述数据以外借助其他类型的数据来应对冷后动问题，这一类方法可",
+    "context2": "以称之为基于辅助数据的方法，常用的数据包括用户人口统计学数据、社交网络数据、情境信息等，也有研究对关联数据的应用进行了探索。"
+  },
+  "2.2.1基于人口统计学数据的方法": {
+    "context1": "用户的人口统计学数据通常用来解决新用户冷后动问题。Raigoza等利用人口统计学特征将用户分为不同群组，进而基于项目在相似特征用户群组中的流行程度或热度进行推荐。Lika等在基于人口统计学特征对用户分类的基础上，设计了评分预测函数，基于同组用户的评分对新用户进行推荐21。自适应学习系统可以根据用户学习能力为用户定制个性化学习环境，Park等关注了自适应学习环境下的冷启动问题，面向新用户提出一种基于用户背景信息的方法2。"
+  },
+  "2.2.2基于社交网络数据的方法": {
+    "context1": "随着社交网络的广泛应用，越来越多的研究尝试利用社交网络数据改善推荐系统性能或进行推荐，这类推荐也被称为社会化推荐2，用户基本情况数据、用户与朋友的交互数据、用户与其所属机构的关联数据等都可以用于推荐。社交网络数据也为冷后动问题的缓解提供了有力支持，Camacho等对相关研究进行了较为系统的综述。从实现层面看，多数研究主要利用社会化网络中的关系数据来应对冷后动问题。Sahebi和Cohen利用社区发现技术从社会化网络中识别社区，在社区内计算新用户的最近邻进行协作式推荐。Nguyen等在社区发现与识别的基础上计算社区中所有用户对特定项目的偏好，这一社区偏好可用于解决协作式过滤中的数据稀疏和新用户冷后动问题。Yang等在用户所属社区中计算所有用户对待推荐视频的排序，在此基础上为新用户推荐视频，与自动化发现与识别社区不同，这一研究中用户所属社区是由用户自主定义的2。Liu等直接利用用户在社交网络中朋友的偏好数据为新用户推荐。Zhang等利用Node2vec模型计算用户的网络邻居，利用网络邻居与项目的交互分别对用户静态偏好和动态偏好建模，可以缓解新用户冷启动问题b。Rosli等利用Facebook上用户的“like”页面挖掘电影标题，再利用IMDb的数据提取电影类别，基于用户对电影类别的喜好计算用户相似度，同时计算用户和社交网络中朋友在偏好上的相似度，两种相似度指标组合用以对用户聚类，基于聚类结果为新用户推荐 。"
+  },
+  "2.2.3基于情境信息的方法": {
+    "context1": "情境信息也称为上下文信息，是任何可以用于描述一个实体情况特征的信息，例如时间、空间、设备、环境等。利用情境信息实施推荐的系统称为情境感知推荐系统（context-aware recommender system），是信息推荐领域重要的发展方向之一。引入情境信息不仅可以改善推荐系统的性能，还有利于缓解冷后动问题。Liu等划分了情境的类别并设计了情境相似度的计算方法，利用相似情境下的排序解决单一情境下的数据稀疏性问题。Chen等提出一种协作式Web 服务QoS（qualityof service）预测方法，该方法将用户和Web服务在地理空间上近邻的数据整合到矩阵分解模型中，可以缓解评分数据的稀疏和冷后动，提高预测的准确性。Viktoratos等从Foursquare 收集用户的登录信息，通过关联规则挖掘建立用户登录日期、时间段、天气与POI（兴趣点）类别的关联，基于这种关联规则为用户推荐POI，新项目的推荐可以基于其所属的类别实现[4d。Tian等在基于项目流行度推荐的基础上，引入时间和空间两种情境信息计算情境化的流行度，为新用户进行推荐[4]。"
+  },
+  "2.2.4基于关联数据的方法": {
+    "context1": "关联开放数据（Linked Open Data，LOD）项目的发展为数据密集型任务提供了获取所需信息的便捷方式。LOD要求用户以RDF格式发布数据，并通过RDF三元组建立与其他数据集合的关联。截至2020 年5月，LOD云图中已有1269个数据集和16201条连接，覆盖了众多领域的知识。一些研究引入LOD数据用以改善推荐系统的性能，例如，Srinivasan等利用LOD数据和用户评分数据构建语义关联图谱用以增强推荐的多样性[。LOD也为冷启动问题的缓解提供了富含语义关联的数据。Wang等提出一种基于LOD数据的语义相似度计算方法，将其应用于矩阵分解以改善数据稀疏性问题[。Natarajan等在推荐系统中提供了LOD数据的接口，当新用户或新项目进入推荐系统时，将会生成相应的 SPARQL查询在LOD数据集合中获取用户信息或项目信息，以此解决冷启动问题。"
+  },
+  "2.3基于用户参与的方法": {
+    "context1": "基于用户参与的方法是通过显性的用户反馈（回答问卷或对项目评分）来获取用户偏好或项目评分数据。目前的研究主要集中在“ask-to-rate”方法、用户交互过程、代表性用户或项目的选取等主题。"
+  },
+  "2.3.1 “ask-to-rate”方法": {
+    "context1": "“ask-to-rate”方法即请求用户评分的方法，可用于获取用户偏好或项目评分数据。Hossein等将“ask-to-rate”技术分为非适应性方法和适应性方法。非适应性方法是面向所有用户提供相同的项目请求用户评分，待评分项目的选取有多种策略，如商与方差策略、随机选取策略、流行度策略、贪婪策略等。适应性方法则可以根据用户初始的评分调整后续的待评分项目，整个用户交互过程将更加高效[。Aharon等提出一种算法“ExcUseMe”，该算法可以发现推荐系统中对新项目可能更感兴趣的用户，基于这些用户与新项目的交互对新项目建模。Hong等采用众包的方式直接获取新项目的相似项目（近邻)，参与众包的人员首先对相似项目进行广泛选取，之后所有人员对相似项目进一步筛选（点击相似项目，计算点击总次数)。研究发现，基于众包选取的相似项目具有多样性、相关性和可靠性。"
+  },
+  "2.3.2用户交互过程": {
+    "context1": "解决新用户冷启动问题的方法之一是对新用户进行调查，询问用户对特定项目的偏好以此生成一个大致的用户模型。调查中问题的数量不宜过多或过少，问题过少不能获取准确的用户偏好，问题过多则会导致用户放弃问题的回答，以最小的用户交互来获取准确的用户偏好是调查的目标。Sun等[和Zhou等[提出了基于决策树的自适应用户调查方法，在决策树的初态，每一节点将获取用户对指定项目的偏好，根据用户的回答（“喜欢”“不喜欢”或“不清楚”）将用户指向不同的子树，最终叶子节点的平均偏好将被用来生成推荐。Hernando等基于不确定性规则构建了树状推理模型，以可视化的形式向完全冷后动的用户展示，用户通过浏览该模型便可推理出面向其个人的推荐，此外，研究者基于概率模型的方法对该推理模型进行了形式化的表示，实现了系统的自动化处理。Houlsby等将通过用户交互获取评分数据的过程视为主动学习任务，该任务以最小的用户交互获取最多的有用信息，并提出一种贝叶斯主动学习方法（Bayesian Active Learning）用以实现该目标]。"
+  },
+  "2.3.3代表性用户和项目的选取": {
+    "context1": "代表性用户是在与新项目的交互中选取的用户，而代表性项目是选取的新用户与之交互的项目，二者的选取对于提高用户交互过程的有效性具有重要作用。Liu等认为代表性用户应是能够代表全体的活跃用户且具有较少的兴趣重合，并提出一种通过对“用户-项目”矩阵降维进而确定代表性用户集合的方法[。Aleksandrova等在矩阵分解的基础上识别代表性用户4。Esslimani等基于虚拟社区中用户的关联性及平均相似度发现和识别领袖用户4g。Zhang等认为类别标签对于显示用户偏好和项目属性具有重要作用，如果用户对项目赋予了较高评分，则用户和项目具有相似的类别标签。基于前述假设，研究者提出了一种双重正则化算法（dualregularizer），可以同步完成代表性用户和代表性项目的选取[]。"
+  },
+  "2.4其他方法": {
+    "context1": "单一方法效果往往有一定局限性，一些研究尝试混合多种方法来应对冷后动问题。例如，Gao等针对社会化网络中新地点的推荐问题，提出4种“地理-社交”圈：居住在附近的朋友构成的社交圈、居住在远处的朋友构成的社交圈、居住在附近但不是朋友的人构成的社交圈、居住在远处但不是朋友的人构成的社交圈，构建了地理信息和社交网络信息相关性的概率模型，基于概率模型为用户推荐新地点。Peng 等构建了一个多层次偏好回归模型，基于用户属性和项目属性的相关性、单个用户对项目属性的偏好、项目在特定属性群体中的流行度3个方面构建回归框架，在该框架下利用pointwise回归模型、pairwise回归模型和大边界学习模型（large-marginlearning）对评分进行预测，实验表明该框架在新用户冷后动、新项目冷后动和新系统冷后动场景中均表现良好 [51 。",
+    "context2": "近年来，知识图谱技术在信息推荐领域应用日益广泛和深入。知识图谱揭示了海量实体间的多种关系，应用于推荐系统可以增强对用户与物品之间联系的认知与解释，从而提高推荐准确度，也有益于缓解数据稀疏性和冷启动问题[。常亮等将基于知识图谱的推荐方法分为基于本体的推荐生成、基于LOD的推荐生成和基于图嵌入的推荐生成3种类型，对所涉及的关键技术和主要应用领域进行了系统梳理。秦川等则将基于知识图谱的推荐方法分为基于嵌入的方法和基于路径的方法，分别梳理了知识图谱在传统推荐系统、序列化推荐系统与可解释推荐系统中的应用[4 。"
+  },
+  "3特定领域冷后动问题": {
+    "context1": "冷后动是推荐系统面临的普遍问题，本节主要关注特定领域信息推荐的冷后动问题，这些领域的信息推荐及相关问题呈现出一些新的特点，在方法层面也有一定的特殊性。"
+  },
+  "3.1多媒体信息推荐": {
+    "context1": "图像、音频、视频等多媒体信息在信息资源中的占比日益攀升，多媒体信息的处理与利用问题受到众多领域的关注。在信息推荐领域，已经有大量研究关注了多媒体对象的推荐问题[14,26,29]。为应对新项目冷后动问题，一些基于内容的方法从多媒体对象相关的文本信息（用户评论、描述文本等）中抽取项目属性或者利用多媒体对象的元数据（题目、类型、标签等）进行推荐。这种方法利用文本信息表示多媒体对象属性，忽略了多媒体对象本身所包含的丰富信息，具有一定的局限性。",
+    "context2": "随着多媒体信息处理技术的发展，一些研究尝试从多媒体对象中直接提取相关属性进行推荐，取得了较好的推荐效果。例如，Oord等利用CNN学习歌曲特征提供基于内容的音乐推荐。Chu和 Tsai利用CNN从餐厅的图片中提取图像特征，再利用SVM将图片分为室内、室外、实物和饮品4类，认为不同类型的图片对用户的偏好有不同的影响，等等。在新项目冷后动问题的研究中，也有学者从多媒体对象中直接提取内容属性进行推荐。Deldjoo等构建了多模态电影推荐系统，该系统分别从音频、视频和文本中提取电影的特征，利用典型相关分析（canonicalcorrelationanalysis，CCA）对多维特征进行融合，之后通过项目之间相似度的计算实现对新项目的推荐[4。"
+  },
+  "3.2标签推荐": {
+    "context1": "标签是Web2.0环境下组织信息的主要方式之一，通常由用户赋予信息对象。标签是对信息对象的一种描述，表示信息对象的属性特征，在自动分类、查询、内容推荐领域5有着广泛应用。标签推荐是指为信息对象推荐能够表示其属性特征的标签，对于提高已有标签的质量、改进以标签为基础的服务具有重要作用。标签推荐最常采用的策略是标签共现策略，对于目标对象，基于该对象已有的标签，利用标签间的共现模式进行推荐。例如，Almeida等从大规模标签集合中通过关联规则挖掘标签共现模式[，Belem等在利用关联规则提取标签共现指标的基础上，结合标签描述能力和标签区分能力两个指标的计算实现标签推荐[6] 。",
+    "context2": "基于共现策略的标签推荐需要目标对象已经被赋予一定数量的标签。当目标对象没有与之关联的标签时（可能有其他文本信息，如标题或描述文本），基于共现策略的标签推荐则无法运行，这一情况在标签推荐领域被称之为冷后动问题。Martins等认为解决标签冷后动问题的方法之一是为目标对象提供一个标签集合替代缺失的标签，获取替代标签集合可以采用自动化方法或相关反馈策略。自动化方法无需用户干预，可以从其他与目标对象关联的文本中提取，也可以寻找与目标对象最相近的项目，从这些项目的标签中提取替代标签集合。相关反馈策略则在获取替代标签集合的过程中融入了用户的反馈[ 。"
+  },
+  "3.3跨领域推荐": {
+    "context1": "跨领域推荐将源领域的有用信息迁移到目标领域中进行补充，利用多个领域内用户的行为数据来整合不同领域的用户偏好特征，可以有效缓解数据稀疏性与冷后动问题，也有利于提高推荐的准确性和多样性。Li将领域分为3类：系统域、数据域和时间域。Cantador等则将领域分为项目属性层、项目类型层、项目层和系统层。领域之间通常存在以用户或项目的相关特征为基础的联系，这些特征可以是内容层面的，如属性、社会化标签、语义特性等，也可以是协作层面的，如评分、评分模式、潜特征等，这种联系的存在是跨领域推荐得以实现的前提。",
+    "context2": "跨领域推荐是应对冷后动问题的有效策略之一。跨领域推荐可以缓解新系统冷后动问题，例如导入目标领域之外的偏好信息bootstrap 推荐系统。此外，较多研究利用跨领域推荐应对新用户冷后动问题，一个基本策略是利用用户在其他领域的偏好解决目标系统中偏好信息缺失的问题。Wang等基于用户评分行为计算用户相似度，将其嵌入矩阵分解模型作为跨领域知识迁移的基础，之后提出一种基于近邻的跨领域潜特征映射方法，对于冷后动用户可以基于其近邻学习用户特征。Fernandez-Tobias等提出一种同时利用用户评分数据和项目元数据的矩阵分解模型，在缓解新用户冷后动方面表现出良好的性能。项目元数据来自LOD，关联数据为不同领域的项目建立了联系，为跨领域推荐提供了基础。"
+  },
+  "4研究述评与展望": {
+    "context1": "综上所述，冷后动问题在推荐系统领域受到了持续的关注，研究者探索了多种策略和方法。在数据层面，研究者采用了多种来源数据应对冷后动情境下数据的缺失问题，具体包括人口统计学数据、社交网络数据、情境信息、关联数据、用户交互数据等。在方法层面也日趋多元，文本挖掘、机器学习、相似度计算、自动分类与聚类、社区发现与识别、矩阵分解等多个领域的方法均有应用。现有研究为应对冷后动问题提供了丰富的方法和思路，而存在的局限性主要体现在以下两个方面：",
+    "context2": "（1）研究的不均衡性。整体而言，3类冷启动问题中新用户冷后动的相关研究最为丰富，其次是新项目冷后动问题，而关注新系统冷后动问题的研究相对较少。新项目冷后动在实践领域经常发生，新系统冷后动则是在开后推荐系统新的应用领域或平台时必然会面临的问题。这种研究的不均衡性对于指导实践活动的开展是不利的。",
+    "context3": "（2）整体性框架的缺乏。多数研究仅关注了冷后动情境下的推荐方法，而对于数据获取模块与系统其它模块的整合问题以及冷启动下的推荐与非冷启动下的推荐的整合问题关注不足，即缺少整体性框架。冷启动问题研究成果向实践领域转化必然是在推荐系统整体框架内完成，各个功能模块和相应方法应构成有机整体。因此，在整体性框架下讨论冷启动问题的研究有待加强。",
+    "context4": "前述局限性是未来研究需要关注的问题。此外，冷后动研究也呈现一定的发展趋势：",
+    "context5": "（1）混合式方法的应用。混合式推荐方法可以克服单一方法的局限性，实现更准确和有效的推荐。对于冷后动问题，研究者也在尝试采用混合式方法加以应对并取得较好的效果。混合式方法体现在采用多种来源数据和/或多种具体算法，是未来冷后动研究值得进一步探讨的方向。",
+    "context6": "（2）情境信息和关联数据的应用。推荐系统引入情境信息是有效缓解冷后动问题的重要策略之一。随着移动互联、可穿戴设备、物联网等相关技术的进一步发展和应用，获取更为丰富的情境信息成为可能，也将为冷后动问题的应对提供更加多元的数据。另一方面，关联数据的发展为推荐系统提供了大量富含语义的数据集合，如何充分利用关联数据来有效缓解冷后动情境中的数据缺失问题也需更深入地开展研究。",
+    "context7": "（3）基于知识图谱的推荐方法与跨领域推荐方法的应用。基于知识图谱的推荐和跨领域推荐是近年来推荐系统领域的研究热点，也积累了较为丰富的成果。应用知识图谱有助于挖掘源数据集中隐含的“用户-项目”“用户-用户”“项目-项目”间的关系，对于应对冷后动问题具有重要价值。而跨领域推荐的主要目的则是利用源领域中的知识缓解目标领域中的数据稀疏和冷后动问题，特别对于新系统冷启动问题，跨领域推荐提供了有效的方法。因此，两种方法在推荐系统冷后动问题中的深入应用是未来研究的重要方向。"
+  },
+  "注释": {
+    "context1": "[] Gonzalez Camacho L A，Alves-Souza S N. Social Network Data to Alleviate Cold-Start in Recommender System:A Systematic Review [.Information Processing& Management，2018，54（4)：529- 544.   \n[] Wei J，He JH，Chen K，et al.Collaborative Filtering and Deep Learning Based Recommendation System for Cold Start Items[. Expert SystemsWith Applications，2017，69:29-39.   \nβ Hernando A，Bobadilla J，Ortega F，et al.A Probabilistic Model for Recommending to New Cold-Start Non-Registered Users[. Information Sciences，2017，376:216-232.   \nBobadilla J，Ortega F，Hernando A，et al.Recommender Systems Survey [.Knowledge-Based Systems，2013，46:109-132.   \n[Pereira A L V，Hruschka E R.Simultaneous Co-Clustering and Learning to Address the Cold Start Problem in Recommender Systems [.Knowledge-Based Systems，2015，82:11-19.   \nSilva N，Carvalho D，Pereira A C M，et al.The Pure Cold-Start Problem:A Deep Study About How to Conquer First-Time Users in Recommendations Domains [.Information Systems，2019，80:1 -12.   \n[ Bobadilla J，Ortega F，Hernando A，et al.A Collaborative Filtering Approach to Mitigate the New User Cold Start Problem[. Knowledge-Based Systems，2011，26:225-238.   \nLiu H，Hu Z，Mian A，et al.A New User Similarity Model to Improve the Accuracy of Collaborative Filtering [．KnowledgeBased Systems，2014，56:156-166.   \nPatra B K，Launonen R，Ollikainen V，et al.A New Similarity Measure Using Bhattacharyya Coefficient for Collaborative Filtering in Sparse Data [] .Knowledge-Based Systems，2015，82:163-177.   \n[id] Golbandi N，Koren Y，Lempel R.Adaptive Bootstrapping of Recommender Systems Using Decision Tres[ //WSDM‘11: Fourth ACM International Conference on Web Search and Data Mining，2011:595-604.   \n[1] Sun M，Fuxin L，Lee J，et al.Learning Multiple-Question Decision Trees for Cold-Start Recommendation [C //WSDM‘13: Sixth ACM International Conference on Web Search and Data Mining，2013:445-454.   \n[12] Zhou K，Yang SH，Zha H.Functional Matrix Factorizations for Cold-Start Recommendation[C //SIGIR‘11:34th International ACM SIGIR Conference on Research and Development in Information Retrieval，2011: 315-324.   \n[13]Nadimi-Shahraki MH，Bahadorpour M. Cold-startProblem in Collborative Recommender Systems:Eficient MethodsBased on Ask-To-Rate Technique [.Journal of Computing and Information Technology，2014，22（2)：105-113.   \n[14] Deldjoo Y，Dacrema MF，Constantin MG，et al.Movie Genome: Alleviating New Item Cold Start in Movie Recommendation [.User Modeling and User-Adapted Interaction，2019，29:291-343.   \n[15]Amatriain X，Lathia N，Pujol JM，et al.The Wisdom of the Few: A Collaborative Filtering Approach Based on Expert Opinions from the Web [// Proceedings of the 32nd International ACM SIGIR Conference on Research and Development in Information Retrieval, 2009: 532-539.   \n[6 Liu NN，Meng X，Liu C，et al.Wisdom Of the Better Few:Cold Start Recommendation Via Representative Based Rating Elicitation [] //Proceedings of the 5th ACM Conference on Recommender Systems，2011: 37-44.   \n[17] Zhang X，Cheng J，Qiu S，et al. DualDS:A Dual Discriminative Rating Elicitation Framework for Cold Start Recommendation. Knowledge-Based Systems，2015，73:161-172.   \n[18]WangC，BleiDM.CollaborativeTopicModelingfor RecommendingScientificArticles[//ACMInternational Conference on Knowledge Discovery and Data Mining，2011:448- 456.   \n[9Ebesul T，Fang Y.Neural Semantic Personalized Ranking forItem Cold Start Recommendation[．Information Retrieval Journal, 2017，20:109-131.   \n[0 Parambath SAP，Chawla S.Simple and Effective Neural-Free SoftCluster Embeddings for Item Cold-Start Recommend-ations.Data Mining and Knowledge Discovery，2020，34:1560-1588.   \n[1 AnwaarF，Itaf N，Afzal H，et al.HRS-CE:A Hybrid Framework to Integrate Content Embeddings in Recom-mender Systems for Cold Start Items.Journal ofComputational Science, 2018，29:9-18.   \n[2] Radecka $\\mathrm { ~ J ~ M ~ }$ ， Indurkhya B，Smywinski-PohlA.Meta-User2Vec Model for Addressing the User and Item Cold-start Problem in Recommender Systems/OI].User Modeling and User-Adapted Interaction，Published Online，20 October 2020.   \n[3] Ji K，Shen H. Addressing Cold-Start: Scalable Recommen-dation with Tags and Keywords[．Knowledge-Based Systems，2015, 83:42-50.   \n4 Zhang Z P，Zhang Y，Ren Y G.Employing Neighborhood Reduction for Alleviating Sparsity and Cold Start Problems in UserBased Colaborative Filtering[．Information Retrieval Journal, 2020，23:449-472.   \n[5] Ocepek U，Rugelj J，Bosnic Z.Improving Matrix Factorization Recommendations for Examples in Cold Startl.Expert Systems with Applications，2015，42:6784-6794.   \n[6Raigoza J，Karande V.A Study and Implementation of a Movie Recommendation System in a Cloud-Based Environ-ment. InternationalJournalofGridandHighPerformanceComputing， 2017，9(1):25-36.   \n[7]Lika B，KolomvatsosK，Hadjiefhymiades S.Facing the Cold Start Problem in Recommender Systemsl．Expert Systemswith Applications，2014，41（4):2065-2073.   \n[8] ParkJY，Joo SH，CormilleF.AnExplanatory ItemResponse Theory Method for Alleviating the Cold-Start Problem in Adaptive Learning Environments．Behavior Research Methods，2019, 51: 895-909.   \n[9] Yang CF， Zhou YP，ChenL，et al.Social-Group-Based Ranking Algorithms for Cold-Start Video Recommendation [.International Journal of Data Science and Analytics，2016，1:165-175.   \nB0 Paleti L，Krishna PR，Murthy JVR.Approaching the Cold-Start Problem Using Community Detection Based Alternating Least Square FactorizationinRecommendationSystems/O].Evolutionary Intelligence，2020.https://doi.org/10.1007/s12065-020-00464 -y.   \nB1l Sahebi S，Cohen W W.Community-Based Recommenda-tions:A Solution to the Cold Start Problem [ //Workshop on Recommender Systems and the Social Web，2011.   \nB2] Nguyen V D，Sriboonchitta S，HuynhV N. Using Community Preference for Overcoming Sparsityand Cold-Start Problems in Collaborative Filtering System Offering Soft Ratings[.Electronic Commerce Research and Applications，2017，26:101-108.   \nB3] Liu F，Lee HJ.Use of Social Network Information to Enhance Collaborative FilteringPerformance．Expert SystemsWith Applications，2010,37（7):4772-4778.   \nB4 Zhang Y，Shi Z，Zuo W，et al. Joint Personalized Markov Chains with Social Network Embedding for Cold-Start Recommendation. Neurocomputing，2020，386:208-220.   \nB5] Rosli AN，You T，HaI，et al.Alleviating the Cold-Start Problem byIncorporating MoviesFacebook Pages.ClusterComputing， 2015,18:187-197.   \nB6 Dey A K，Abowd G D，Wood A. CyberDesk:A Framework for Providing Self-Integrating Context-Aware Services.Knowledge Based Systems，1999，11 (1):3-13.   \n[7]史海燕，韩秀静，情境感知推荐系统研究进展，情报科学， 2018 (7):163-169.   \nB8 LiuL，LecueF，MehandjievN，et al. Using Context Similarity for Service Recommendation [//IEEE Fourth International Conference on Semantic Computing，2010: 277-284.   \nB9] Chen Z，Shen L，LiF，et al.Your Neighbors Aleviate ColdStart:On Geographical Neighborhood Influence to Collabora-tive Web Service QoS Prediction ll . Knowledge-Based Systems，2017, 138:188-201.   \n[4d Viktoratos I，Tsadiras A，Bassiliades N. Combining CommunityBased Knowledge with Association Rule Mining to Alleviate the Cold Start Problem in Context-Aware Recommender Systems[.Expert Systems With Applica-ions，2018，101:78-90.   \n[41]Tian G，Wang Q，Wang J，etal.Leveraging Contextual Information for Cold-Start Web Service Recommendation. Concurrency and Computation Practice and Experience，2019，31 （17)，e5195.   \n[42]Srinivasan US，Mani C.Diversity-Ensured Semantic Movie Recommendation by Applying Linked Open Data [.International Journal of Intelligent Engineering and Systems，2018，11（4): 275-286.   \n[43] Wang R Q，Cheng H K，Jiang YL，et al.A Novel Matrix Factorization Model for Recommendation with LOD-Based Semantic Similarity Measure [.Expert Systems With Applications，2019, 123: 70-81.   \n[4 Natarajan S，Vairavasundaram S，Natarajan S，et al. Resolving Data Sparsityand Cold StartProblemin Collboratie Filtering Recommender System Using Linked Open Data [.Expert Systems With Applications，2020，149，113248.   \n[45] Aharon M，Anava O，Avigdor-Elgrabli N，et al.ExcUseMe: Asking Users to Help in Item Cold-Start Recommendations[// Proceedings of the 9th ACM Conference on Recom-mender Systems, 2015: 83-90.   \n[46 Hong D G，Lee Y C，Lee J，et al.CrowdStart: Warming Up Cold-Start Items Using Crowdsourcing.Expert Systems With Applications，2019，138，112813.   \n[47] HoulsbyN，Hernandez-lobato JM，Ghahramani Z.Cold-Start Active Learning with Robust Ordinal Matrix Factorization[ // Proceedings of the 31st International Conferenceon Machine Learning，2014: 766-774.   \n[48]Aleksandroval M，BrunA，BoyerA，etal.Identifying Representative Users in Matrix Factorization-Based Recom-mender Systems:Application to Solving the Content-Less New Item ColdStart Problem [.Journal of Intelligent Information Systems，2017, 48 (2): 365-397.   \n[49]Esslimani I，BrunA，BoyerA.TowardsLeaderBased Recommendations M //Ozyer T，Rokne J，Wagner G，Reuser A.（eds）The Influence of Technologyon Social Network Analysis and Mining，vol 6.Springer，Vienna，2013:455-470.   \nb0 Gao H，Tang J，Liu H.Addressing the Cold-Start Problem in Location Recommendation Using Geo-social Correlations．Data Mining and Knowledge Discovery，2015，29:299-323.   \nbil PengFR，Lu X，Ma C，etal. Multi-Level Preference Regresion for Cold-Start Recommendations[．Interna-tional Journal of Machine Learning and Cybernetics，2018，9:1117-1130.   \n[52]饶子昀，张毅，刘俊涛，等．应用知识图谱的推荐方法与系 统[/OI]．自动化学报，2020.https://doi.org/10.16383/ j. aas.c200128.   \n[3]常亮，张伟涛，古天龙，等．知识图谱的推荐系统综述． 智能系统学报，2019（2)：207-216.   \n[4 秦川，祝恒书，庄福振，等．基于知识图谱的推荐系统研究 综述[.中国科学，2020（7)：937-956.   \nB5] Oord V D A，Dieleman S，Schrauwen B.Deep Content-Based Music Recommendation [ // Proceedings of the 26th International Conference on Neural Information Processing Systems，2013:2643- 2651.   \nb6 Chu W T，Tsai YL.A Hybrid Recommendation System Considering Visual Information for Predicting Favorite Restaurants[．World Wide Web，2017，20(6)：1313-1331.   \n57] Figueiredo F，Belem F，Pinto H，et al.Assessng the Quality of Textual Features in Social Media [．Information Processing & Management，2012，49（1)：222-247.   \nB8]LiX，Guo L，Zhao YE.Tag-Based Social Interest Discovery [//Proceedingsof the17th International Conferenceon World Wide Web，2008:675-684.   \nb9] Zuo Y， Zeng J，Gong M， et al.Tag-Aware Recommender Systems Based on Deep Neural Networks [.Neurocomputing，2016，204: 51-60.   \n[0] Menezes G，Almeida J，Belém F，et al.Demand-Driven Tag Recommendation [// Proceedings of the ECML/PKDD Discovery Challenge Workshop，2010:402-417.   \n[1] Belém F，Martins E，Almeida J，et al.Personalized and ObjectCentered Tag Recommendation Methods for Web 2.O Applications [.Information Processing& Management，2014，50（4)：524- 553.   \nb2] Belém F M，HeringerA G，Almeida JM，etal.Exploiting Syntactic and Neighbourhood Atributes toAddressCold Start in Tag Recommendation．Information Processng& Management, 2019,56 (3): 771-790.   \n[3] Martins EF，BelémFM，Almeida JM，et al.On Cold Start for Associative Tag Recommendation [l.Journal of the Association for Information Science and Technology，2016，67(1)：83-105.   \n[64陶鸿，吴国栋，孙成，等．跨领域推荐研究进展．长春师"
+  },
+  "范大学学报，2019（12)：44-54.": {
+    "context1": "[65] LiB.Cross-Domain Collaborative Filtering:A Brief Survey [ // IEEE23rd International Conference on Toolswith Artificial Intelligence，2011:1085-1086.   \n66 Cantador I，Fernändez-Tobias I，Berkovsky S，et al.CrossDomain Recommender Systems M //Ricci F，Rokach L，Shapira B.（eds）Recommender Systems Handbook．Springer，Boston, MA.，2015:919-959.   \n67]Fern(ndez-Tobias I，Cantador I，Kaminskas M，et al.Cross",
+    "context2": "Domain Recommender Systems:A Survey of the State of the Art [] // 2nd Spanish Conference on Information Retrieval，2012: 187-198.",
+    "context3": "[8] Shapira B，Rokach L，Freilikhman S.Facebook Single and Cross Domain Data for Recommendation Systems [.User Modeling and User-Adapted Interaction，2013，23:211-247.",
+    "context4": "[9]Wang XH，Peng ZH，Wang SZ，et al.CDLFM:Cross-Domain Recommendation for Cold-Start Users Via Latent Feature Mapping .Knowledge and Information Systems，2020，62:1723-1750.",
+    "context5": "[0] Fernández-Tobias I，Cantador I，Tomeo P，et al.Addressing the UserCold StartwithCross-DomainCollaborativeFiltering: Exploiting Item Metadata in Matrix Factorization [.User Modeling and User-Adapted Interaction，2019，29:443-486.",
+    "context6": "史海燕河北大学管理学院副教授，硕士生导师，博士。研究方向：信息推荐、信息组织、信息检索。",
+    "context7": "倪云瑞河北大学管理学院在读硕士。研究方向：信息推荐、知识图谱。"
+  },
+  "(上接第37页)": {
+    "context1": "[15]徐嫣，裴一帆，陈飞．主流媒体抖音号运营策略分析[．传媒观察，2019（12)：42-47.",
+    "context2": "5程征，周燕群．主流媒体的抖音账号运营攻略[．中国记者，2018（11)：59-62.",
+    "context3": "[7]申林，赵菁菁．移动短视频重复观看的传播特点研究——以“抖音”短视频为例[.新媒体研究，2018（22)：24-26.",
+    "context4": "彭兰．短视频：视频生产力的“转基因”与再培育[.新闻界，2019（1)：34-43.",
+    "context5": "9王程伟，马亮．政务短视频如何爆发影响力：基于政务抖音号的内容分析[．电子政务，2019（7)：31-40.",
+    "context6": "20黄晓音，邱子昊．技术赋能与情感互动：抖音平台的视觉化音乐传播研究[.西南民族大学学报（人文社科版），2019（8)：156-161.",
+    "context7": "[1]付晓光，袁月明．传播仪式观视域下的互联网话题标签[．东南传播，2015（12)：1-3.",
+    "context8": "韩世曦湖北省图书馆助理馆员，硕士。研究方向：公共数字文化服务。",
+    "context9": "曾粤亮华中师范大学信息管理学院讲师，博士。研究方向：公共数字文化服务。通讯作者。"
+  }
+}

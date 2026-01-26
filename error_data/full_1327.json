@@ -1,0 +1,116 @@
+{
+  "original_filename": "full_1327.md",
+  "nothing": {
+    "context1": "·工作研究·"
+  },
+  "主题规范数据的功能需求(FRSAD)进展及其影响": {
+    "context1": "刘莎司莉",
+    "context2": "（武汉大学信息管理学院湖北430072)",
+    "context3": "文摘主题规范控制是图书馆工作标准化的重要组成部分,FRSAD是继FRBR之后编目领域主要针对主题数据进行规范控制的概念模型。它在引进Thema和Nomen实体的基础上,更加抽象化了主题构成内容。通过对FRSAD模型关系的例举,分析其对主题规范控制的影响，同时指出了该模型尚存在的不足之处,并展望了FRSAD模型在未来书目控制领域的前景。"
+  },
+  "关键词主题规范控制的功能需求标目书目控制编目实体关系模型": {
+    "context1": "Functional Requirements for Subject Authority Data (FRSAD) and Its Impact Liu Sha , Si Li",
+    "context2": "(Wuhan University School of Information Management，430072)",
+    "context3": "Abstract: Subject authority control is an important part of standardization in library.FRSAD is a conceptual model after FRBR，which aims to achieve authority control of subject data in the field of cataloging.On the basis of introducing the entities of Thema and Nomen，it abstracts the formation of the subject content more deeply.Through giving examples of relationship of FRSAD model,this article analyzes its impact on the subject authority control，points out its shortages，and also looks forward to its future in the field of bibliographic control.",
+    "context4": "Key words:Functional Requirements for Subject Authority Data，Heading，Bibliographic control, Cataloging，Entity-relationship model",
+    "context5": "通过主题途径获取信息已经成为用户检索信息的重要方法。控制词汇与信息检索系统的有机结合能帮助用户更为有效地进行主题检索。用户使用书目数据时,如果能够调用与书目文件结合的主题规范数据，则可保证用户获取信息的完整性和准确性。规范控制的目的就是为了保证标目的一致性与唯一性。",
+    "context6": "在我国，编制机读规范档是继机读书目档编制之后掀起的另一个建库高潮，但从各类机读规范档的编制情况看，目前大多关注的是机读名称规范档的编制,如中国国家图书馆名称规范数据、CALLS联合目录规范数据库、香港中文名称规范数据库(HK-CAN）、台湾地区中文名称权威数据库等都是比较著名的大规模名称规范数据库。现在业界流行的是FRBR家族三成员:FRBR（书目记录的功能需求，Functional Requirements for Bibliographic Records）、FRAD(规范记录的功能需求,Functional Require-ments forAuthorityData)、FRSAD(主题规范记录的功能需求,Functional Requirements for Subject Author-ityData)。它们引进的实体关系模型和用户任务驱动机制,对于变革编目规则及标准,以及规范数据的建设起到重要的推动作用与指导意义。"
+  },
+  "1主题规范控制的意义": {
+    "context1": "规范控制是实现图书馆文献资源标准化的重要手段。规范控制（AuthorityControl）又称权威控制，它是通过确定标目范围、统一标目形式及建立参照关系来实现目录的揭示与集中和查询功能，目的是给使用者提供更多更有效的查询途径，以适应大范围内书目资源共享的需求，从而保持标目的唯一性、稳定性的一系列活动。",
+    "context2": "具体说来,规范控制工作包括：(1)确定标目范围及其规范名称形式;(2)编制规范款目，并以其中的统一标目编制各种检索款目;(3)将规范款目、参照款目和说明款目按一定方法组织成规范文档（AuthorityFile)或称为规范表、权威清册(AuthorityList);(4)将规范文档与检索款目通过某种形式连接起来，形成规范的书目检索系统;(5)对规范文档和书目系统进行维护和评估。",
+    "context3": "规范控制主要包括名称规范控制和主题规范控制,它们的实施对书目资源的全球共享有着举足轻重的影响。主题规范控制的目的主要表现在确保主题标目的正确性、一致性、关连性和稳定性。",
+    "context4": "所谓主题标目的正确性，指主题检索款目的标目必须按照一定的原则选取，能反映事物的实质和规律,并在检索实践中经得起时间的检验,得到用户公认。",
+    "context5": "所谓主题标目的一致性，指主题检索款目选定的标目的字词是控制字汇的一种,尽管某一事物可以用多个名称表示,但一经确定,借其形式建立的统一标目都是一致的,并要求该名称权威正确,具有集中同一事物的功能，实现文献检索的查全率。",
+    "context6": "所谓主题标目的关连性，指为了强化书目的检索功能，需要借助参照款目的指引，指示不同的新旧标目之间的相互关系,以增加检索途径,使相关的资料集中，提高书目检索效率。",
+    "context7": "所谓主题标目的稳定性，指主题检索款目需相对固定。当然,标目也不可能一成不变,但必须持谨慎态度，有规可循，并记录在案，便于核查。"
+  },
+  "2FRSAD与FRBR家族关系辨析及FRSAD模型构成": {
+    "context1": "2.1FRBR、FRAD、FRSAD 的诞生及其联系"
+  },
+  "2.1.1 FRBR 核心思想": {
+    "context1": "IFLA的FRBR研究组在1997研制出了一套新的用于展示书目世界中的实体和关系的概念模型。",
+    "context2": "FRBR的目的是用于在书目记录中识别信息的功能需求,从而满足特定的用户信息需求。FRBR模型的基本实体是对书目记录中数据的典型显示进行逻辑分析的结果。FRBR自诞生十余年来,其思想—三组实体与用户任务(查找、识别、选择、获取、导航)一—已经深入图书馆学的思维甚至是实践之中。"
+  },
+  "2.1.2FRAD概念模型": {
+    "context1": "尽管在FRBR模型中所有三组实体已经被定义,但是主要的焦点还是放在了第1组实体上（即work、expression、manifestation、item）。FRBR 的开发者设想将其扩大能够覆盖附加数据，即通常被称作规范记录的数据。规范记录的编号和功能需求FRANAR( Functional Requirements and Numbering ofAuthorityRecords)应运而生。FRANAR工作组建立于1999年4月，其任务是对FRBR中的规范文件区域进行深入分析，着重对第2组的实体和作品进行着力研究，最终于2008年发布了FRAD概念模型。该模型的设计目的是:(1)提供一个明确定义的、结构化的参考框架，这个框架将规范记录创建者制作的数据与用户需求相关联;(2)协助评估图书馆内外规范数据国际共享和使用的潜在可能性。"
+  },
+  "2.1.3FRSAD 概念模型": {
+    "context1": "尽管FRANAR工作组在他们的模型中已经包括某些方面的主题数据，但还没有对相关的主题规范的实体属性关系进行全面分析。因此,IFLA在2005年成立了主题规范记录的功能需求FRSAR(Functional Requirements for Subject Authority Re-cords)工作组,处理主题规范数据的问题,并且调查主题规范数据被广大用户的直接和间接应用，2010年FRSAR发布了FRSAD 概念模型。"
+  },
+  "2.1.4三者之间的关系辨析": {
+    "context1": "FRAD(由FRANAR工作组负责)和FRSAD（由FRSAR工作组负责)两个模型都是基于FRBR的原始模型而独立地在其某些方面做深入发展而形成的。这三个模型一起被称为FRBR家族。而FRSAR工作组引进了两个实体:Thema(希玛,即主题)：用于一件作品的主题的任何实体;Nomen(诺门,即主题表述)：任何一个已知、被引用、被标记的主题的符号或符号序列(字母数字符号、符号、声音等）。相比于FRAD,他们的区别如下:"
+  },
+  "（1)用户任务:FRAD中是语义化和公正,FRS-AD中是探索;": {
+    "context1": "(2) FRAD 中是 name,FRSAD 中是 nomen;",
+    "context2": "(3)FRAD中名字、标识和受控检索点是独立的实体,FRSAD 中是作为 nomen的类型的值;",
+    "context3": "（4）FRAD中规则和代理是新的实体，但在FRSAD中并没有被显式模型化。",
+    "context4": "而 FRBR和FRSAD的区别在于：",
+    "context5": "(1)增加了探索的任务;",
+    "context6": "(2)thema被作为一个所有实体的超类引进,它可以作为一部作品的主题。",
+    "context7": "(3)第3组实体都没有被显式地预定义。",
+    "context8": "(4)nomen(包括属性和关系)作为一个单独的代替属性的实体被引进。",
+    "context9": "但是最终,FRSAD和FRBR与FRAD将协调统一,由他们产生的一个新的合成模型也将进一步发展。"
+  },
+  "2.2FRSAD模型构成": {
+    "context1": "FRBR模型在第3组中定义了四个实体:概念、实物、事件、地点。FRSAD将一个事物本身和它的名称称谓区别开来,引进了Thema（事物本身）和Nomen(事物名称)实体,因此,FRSAD中 Nomen作为一个实体被引进,而不是一个属性,使得可以进行合适的模型化。",
+    "context2": "![](images/f812de575b1aaeccb580653fe8735f4ce944c8fdafde848e2c32f29188e6149b.jpg)  \n图1FRBR图3.3第3组实体和主题关系的拓展图",
+    "context3": "图1是基于FRBR图表的原型,描述了第1、2、3组中实体和作品的关系的主题。FRAD的第2组实体增加了新的实体“家族”（family），也反映在了这一框架中。第3组实体代表了一组附加实体集,用来服务于作品的主题。根据FRBR模型，这组实体包括概念(一个抽象观念或观点），实物(一个物理对象），事件(一个行动或事件）,地点(一个地址）。",
+    "context4": "FRSAD模型的建立旨在协助评估在图书馆界以及外界实现主题规范数据的国际分享与使用潜力。",
+    "context5": "在FRSAD 模型中,实体Thema以一种非常抽象和一般的方式被定义。Thema的属性需要根据应用的场合进行不同类型的定义。Thema在一般意义上的属性包括 type(类型)和 scope note（范围标记）。type 的特定值又是依赖于具体应用领域的。例如“C81统计方法\"这个Thema可以根据应用领域的不同而归入不同的学科门类,如“G40-051教育统计学、“F222.1经济统计方法\"等。scope note（范围标记)是一个描述或者定义Thema或它在特定主题规范系统中的特殊范围的文本。如上例中，我们为“G40 -051教育统计学\"指定的 scope note即为《中国图书馆分类法(第5版）》。此外在任何实现中，一个 Thema 有超过 type和 scope note 之外的附加的属性是很正常的。这些属性都依赖于Thema的类型和应用的领域。",
+    "context6": "Nomen的属性可以分为:类型(包括identifier和controlledname）创建模式(包括值编码模式,如叙词表,句法编码模式,如编码日期标准）、参考源(包括大英百科全书、韦伯斯特新国际词典、哥伦比亚名录)、表现(包括数字字符、声音、图片等)、语言（如英语、希腊语、汉语等）、方案(如中文简体、中文繁体）、脚本转换(如拼音，ISO3602）、格式(包括全名、缩写、公式)、时效性(如1945年以后，1945－1967年)、读者(如讲英语的用户、科学家、孩子）、状态（包括建议、采用、废弃)。主题规范数据的功能需 求(FRSAD)模型可以表示为：",
+    "context7": "![](images/ebddee5867e5c7fdef2acfe1e3f594605252fa935aed4678b4ee0926aceef118.jpg)  \n图2FRSAD概念模型"
+  },
+  "2.3引进 Thema与Nomen的意义": {
+    "context1": "工作组选择拉丁词Thema(复数是Themata或Themas)和Nomen(复数是Nomina或Nomens）,是为了将 Thema 和以前 FRBR 中定义的实体 concept 区别开来,因为Thema是所有FRBR实体的超类,No-men 是FRAD 实体 name,identifier,controlled accesspoint 的超类。",
+    "context2": "Thema和Nomen模型的重要意义在于将Thema（或者说“主题’、“概念”、（概念）的类’、“题目”等)与其称谓、其被提及或指代的形式区分开来。在规范数据的全球共享实践中，有一些研究将重点放在Nomen上,如元数据词汇的翻译,对称型的多语种词表，一个词汇的多入口索引等,不过大多数都集中在概念这一层。"
+  },
+  "3FRSAD关系的分析例举": {
+    "context1": "3.1不同类型的实体之间的关系:作品－Thema 和Thema - Nomen",
+    "context2": "一个作品可以有多个 Thema,一个 Thema 可以应用于多个作品。作品－Thema的关系是重申了FRBR定义的基本关系,即一部作品可以用一个或多个内容表达来实现，一个内容表达是且仅是一部作品的实现，一个内容表达可以体现于一个或多个载体表现，一个载体表现可以体现一个或多个内容表达，一个载体表现又可以以一个或多个单件为代表,但一个单件仅可以代表一个载体表现。",
+    "context3": "一个 Thema 可以用多个 Nomen 表示，一个 No-men 可以指代不同类型的 Thema。而 Thema－No-men的关系是FRSAD提出的新关系。但是在特定的受控词表中，一个 Nomen应该只是一个Thema 的名称。例如在美国国会图书馆的规范数据库中以“mercury\"为关键词进行检索,这是一个多义词，而且只是表征某事物的一个英文单词符号，即表示“mercury\"的 Thema有多个Nomen,但是在表示“汞”这个Thema时，加上不同的限定词就只能指示特定领域的Nomen。这里Thema和Nomen 的关系可以用图形表示如下：",
+    "context4": "![](images/ace72b3b0bcde1d8a9e7d2ca0d8a5cc1108c5501d386e4ef619fd3475512d606.jpg)  \n图3多个Themas之间的语义关系的图形化显示",
+    "context5": "3.2相同类型的实体之间的关系:Thema-Thema和 Nomen - Nomen"
+  },
+  "3.2.1Thema-Thema的关系": {
+    "context1": "(1)等级关系。 $\\textcircled{1}$ 一般关系，是一种逻辑包含的关系。有时它代表的是“所有中的某些”的关系。例如，所有的燕子都是鸟，一些鸟是燕子。 $\\textcircled{2}$ 整体部分关系,包括身体组成部分的关系、地理区划、分层组织结构、学科或领域讨论。 $\\textcircled{3}$ 关系实例，关系的实例区别了一件事情或事件和一个单独那个种类的实例之间的关系,例如,Mydoom和ILOVEYOU是用合适的名称表示的两种计算机蠕虫病毒。 $\\textcircled{4}$ 多等级关系,一些概念可以属于不止一个上位概念,因此被认为是拥有多等级关系。这些关系可以是一般关系，如乐器风琴既属于管乐器又属于键盘乐器；整体关系,如物理化学既是物理学也是化学的一部分;不止一种类型,如鲸鱼既属于哺乳动物的一类,也是海洋动物的一部分。 $\\textcircled{5}$ 其他等级关系。产生这些其他等级关系的原因既有文字保证需要(自然语言用来描述对象内容)，也有用户保证需要(用户的语言），有时也有组织保证需要(组织的需要和优先权)。其价值是提供了关于一个概念的观念和考虑的某一方面。采用这些层级概念的其他原因是像“幸福”这类概念和条目是多语义、含糊和模棱两可的。因此关于它属于哪一类的争论没有达成一致的意见。",
+    "context2": "(2)相关关系。相关关系的界定没有严格的标准,以下列表显示了一些典型的相关关系类型及举例。",
+    "context3": "表1常见的相关关系举例",
+    "context4": "<table><tr><td rowspan=1 colspan=1>相关关系</td><td rowspan=1 colspan=1>例子</td></tr><tr><td rowspan=1 colspan=1>因/果关系</td><td rowspan=1 colspan=1>意外/受伤</td></tr><tr><td rowspan=1 colspan=1>过程/代理</td><td rowspan=1 colspan=1>速度测量/测速表</td></tr><tr><td rowspan=1 colspan=1>动作/动作的产品</td><td rowspan=1 colspan=1>编织/布</td></tr><tr><td rowspan=1 colspan=1>动作/病人或目标</td><td rowspan=1 colspan=1>教学/学生</td></tr><tr><td rowspan=1 colspan=1>概念或事物/属性</td><td rowspan=1 colspan=1>钢合金/耐蚀性</td></tr><tr><td rowspan=1 colspan=1>事物或动作/反施事</td><td rowspan=1 colspan=1>害虫/农药</td></tr><tr><td rowspan=1 colspan=1>事物/它的部分(如果它部符合整体部分等级关系）</td><td rowspan=1 colspan=1>汽车/引擎</td></tr><tr><td rowspan=1 colspan=1>原材料/产品</td><td rowspan=1 colspan=1>葡萄/酒</td></tr><tr><td rowspan=1 colspan=1>动作/道具</td><td rowspan=1 colspan=1>交流/交流工具</td></tr><tr><td rowspan=1 colspan=1>研究领域/研究的对象或现象</td><td rowspan=1 colspan=1>林业/森林</td></tr></table>",
+    "context5": "注：本表根据《FRSAD Concept Model》5.3.2节整理而成",
+    "context6": "(3)其他语义关系的表示方式。排除等级和相关关系以外的语义关系都属于此类,它也用来容纳未来可能新出现的不能包含于以上两类关系的语义关系。"
+  },
+  "3.2.2Nomen-Nomen 的关系": {
+    "context1": "(1)等同关系。Nomen之间的等同关系通常有以下五种情况: $\\textcircled{1}$ 这些Nomens是同义词; $\\textcircled{2}$ 这些Nomens是相近或准同义词; $\\textcircled{3}$ 这些Nomens是词汇变体; $\\textcircled{4}$ 一个 Nomen被认为过于专指,被另一个更加泛指的 Nomen代替; $\\textcircled{5}$ 一个Nomen被认为过于专指，被两个或多个Nomen条目的组合代替(所谓的等同组合)。此外,等同关系也存在于多语言和跨模式的 Nomens 之中。例如， $\\operatorname { i r o n }$ （英文条目），Zelezo（斯洛文尼亚文条目）,Fe(化学符号)都是相同的金属Nomens,因此被认为是等同的。",
+    "context2": "(2)整体部分关系。Nomens中也存在整体部分关系。一个Nomen 也有其构成部分,这些Nomen 的构成需要遵守规则,例如,分类模式中面的引用次序或者主题标目中细分的顺序。"
+  },
+  "4FRSAD的发展": {
+    "context1": "虽然FRSAD已产生一年有余，目前国内外研究还处于介绍翻译阶段,对于FRSAD还有一些不同的争论，主要有：",
+    "context2": "（1)FRSAD应该包含 isness实体。FRSAD概念模型包含了作品的aboutness（关于）有关的第三组实体,也包含 ofness,但是没有包含isness。about-ness,即表现什么，通过解释描述意义，属于潘诺夫斯基所谓的图像层级，而且这需要有相当的知识才能做出来，不同知识背景的人可能做出不同的aboutness。ofness,即有什么,可以用四个W来概括——who,what,when,where,就是通常理解的对象和事件的名称，属于潘诺夫斯基概念的前图像层级[。isness 就是“是什么”的类别描述。很显然现在很多受控词表(特别是音乐和美术领域)已包含了作品的体裁/形式(genre/form)等主题词,这是重要的用户检索途径。FRSAD声明仅对aboutness、ofness建模,认为isness应由FRAD模型解决。如果FRSAD概念模型坚持不包括isness,此类词表将面临无法同FRSAD兼容的问题，而isness在主题规范数据实体中的缺失将增加对这类事物的标引难度。",
+    "context3": "（2)关于FRBR第3组实体是否需要进一步划分问题。认为不需要划分的观点是：对第3组实体的任何进一步划分都可能指定一种特定方法构建用于作品检索的主题语言。FRSAD作为一个概念模型,不应该在主题语言在特定应用的形式上有任何约束,而要兼容任何特定领域的结构，并能适应不同的应用。因此FRSAD模型不需要作任何的主题分类推荐。认为需要划分的观点是：概念/对象/时间/地点只是划分的一种方法，同样存在阮冈纳赞式或其他划分方法。但是一个模型最根本的是从这些划分方法中选择一个，遵循它实现目标。目前主题标引模式包含主题因素、通用因素、空间因素、时间因素、文献类型因素等。实际标引工作中常出现主题标引各子字段都有可能超出aboutness范围的现象，这些内容将无法在主题标引模式中体现。这个问题也是值得FRSAD深入研究的。",
+    "context4": "（3)需要为Thema 建立URI。FRSAD为Nomen建立UNI,没有为Thema建立URI。从全球数据共享的角度来说,如果不同系统中的Nomen指向同一个Thema,需要一个独立于优先显示形式的标识符（URI）,将这些Nomen聚集到一起。",
+    "context5": "（4）重新思考其语义关系。当前FRSAD在Thema层建立概念之间的等级关系、相关关系，在Nomen层建立等同、整体部分关系。但有学者提出Thema之间可否建立整体部分关系,然后Nomen通过推理得到该关系。还有主题规范数据中已有的Nomen之间的等级关系、相关关系如何被准确表达。",
+    "context6": "总之，FRSAD对主题规范控制将产生重要影响,有助于规范数据实现全球共享。主题规范的一项重要任务是建立主题词之间以及同其他系统的标引词之间的联系，既保证在一个系统内部主题标引的规范和统一,同时也方便用户从不同的入口词查找资源。在规范数据的全球共享和利用努力中，由于不同的系统可能使用了不同的主题规范,它们之间的共享通常是通过词表之间或词表与分类法之间的语义映射实现。",
+    "context7": "正是由于FRSAD“作品-Thema-Nomen\"概念模型的提出，在各个系统的Nomen之上添加了一个Thema层。它将主题同主题所知的、所指的和所称谓的东西分离开。不管各个系统中使用何种形式、语种的Nomen,如果其所指的Thema是相同的,就能方便地实现主题规范数据的全球共享和利用。The-ma-Nomen模型可以在更为抽象的层面上理解作品的主题和主题指代名称，超越语种、文化、国籍、地域的限制，为未来书目世界的统一规范控制提供了一种可资利用的框架。",
+    "context8": "传统目录在展示书目之间的各种关系时已经显现出其固有的结构缺陷，同时也不能完全有效地满足各类用户的目录需求。因此,图书馆应该开发可在不同种类馆藏和元数据方案之间可实施的工具。FRBR提供一种对书目数据的当下理解,FRSAD细化了主题规范控制[。FRSAD概念模型将随着书目实践工作的不断改进与优化而深入我们的编目工作之中。"
+  },
+  "参考文献": {
+    "context1": "1王松林.关于如何编制规范数据的思考[.图书馆杂志,2007,26(7):22 -24",
+    "context2": "2王广平.网络资源与规范记录的维护[A].国家图书馆第九次科学讨论会论文集[C]，北京：国家图书馆，2007:86-92",
+    "context3": "3黄俊贵.规范控制概说[].高校图书馆工作,1999,19(3):1-8",
+    "context4": "4Marcia Lei Zeng，Maja？umer，Athena Salaba.Functional Requirements for Subject Authority Data（FRSAD）：A Conceptual Model [R] .IFLA,2010",
+    "context5": "5,6IFLA Working Group on Functional Requirements and Numbering of Authority Records （FRANAR).Functional Requirements for Authority Data A Conceptual Model [R].IFLA,2008",
+    "context6": "7IFLA Study Group on the Functional Requirements for Bibliographic Records.Functional Requirements for Bibliographic Records(FRBR)：R] .IFLA,1998",
+    "context7": "8同4"
+  },
+  "9曾蕾.数字图像处理的基本概念 [EB/OI]．CNKI学术论坛.数字图书馆前沿问题研讨（二）．http://kbs.cnki.net/forums/1423/ShowThread.aspx.2011-7-19": {
+    "context1": "10Walt Barrett.Ofness and Aboutness [EB/OL].http:// wp.slis.ua.edu/maccall - spring2011 -ls566 -01 -3/ 2011/03 /02/ofness -and -aboutness/,2011-7 -19"
+  },
+  "11喻菲.FRSAD及其对主题规范控制的影响[R].南京:南京图书馆，2010": {
+    "context1": "12Manolis Peponakis，Michalis Sfakakis，Sarantos Kapidakis.FRBR化:利用UNIMARC连接字段识别作品 [A].World Library and Information Congress:77th IFLA General Conference and Assembly.[C] .San Juan:IFLA,2011:1-10"
+  },
+  "刘莎女武汉大学信息管理学院硕士研究生，研究方向为信息组织。": {
+    "context1": "司莉女 武汉大学信息管理学院教授,博士生导师。",
+    "context2": "(收稿日期:2011-08-18 编发:许桂菊)"
+  }
+}

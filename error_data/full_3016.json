@@ -1,0 +1,63 @@
+{
+  "original_filename": "full_3016.md",
+  "nothing": {
+    "context1": "编者按：为鼓励图书馆学情报学领域的广大专家、学者和实践工作者撰写更多的优秀学术论文，支持更多的优秀学术成果发表,进一步促进学术繁荣和事业发展，《图书情报工作》杂志社自2009年起设立《图书情报工作》杂志社出版基金项目制度,并于2010年3月发布了首届项目立项公告,共批准设立重点项目3项，一般项目6项。目前，首届项目成果论文大多已经专家评审委员会评审及修改完善,通过了结题验收。自2011年第7期起,本刊将特设“出版基金”专栏以陆续发表这些项目成果,与广大读者共享、交流。",
+    "context2": "本期刊发的是袁顺波博士主持的项目“基于成熟度视角的机构库评价模型构建及应用研究”的研究成果。从2001年至今,机构库在经历了10年的发展后已取得了不错的成绩，研究文献也不断涌现，但现有研究对机构库评价还缺乏足够的关注。本组成果在对国内外机构库评价研究现状进行述评和分析其影响因素与难点的基础之上,借鉴由美国卡内基·梅隆大学(Carnegie-Mellon University)提出的软件能力成熟度模型(Capability Maturity Model for Software,CMM-SW）,从成熟度视角构建机构库评价模型,将机构库建设的成熟度划分为初始级、可重复级、已定义级、已管理级和优化级5个等级,提炼出学术机构高层领导、信息基础设施、建设资金等6个关键过程域，并确定应用该模型进行机构库评价的流程,从而为机构库的建设提供一个自我业务评价和改进工具。期望以本组成果在理论上拓展国内机构库研究的新视角，推进机构库理论研究的丰富与发展，在实践中推动国内机构库的发展以及图书馆的数字信息资源建设。"
+  },
+  "国内外机构库评价研究现状述评": "",
+  "袁顺波² 华薇娜马学良²": {
+    "context1": "嘉兴学院商学院嘉兴314001²南京大学信息管理系南京210093",
+    "context2": "（摘要）基于文献调研，从机构库系统软件评价、数字资源管理评价、机构成员态度评价、综合评价以及实践建设宏观评价5个方面对国内外机构库评价研究进行述评。指出机构库系统软件评价研究已取得一定的成绩，而数字资源管理评价、综合评价以及实践建设宏观评价还需要更为深入的研究。",
+    "context3": "（关键词）开放存取机构库机构库评价（分类号）G250.7"
+  },
+  "Evaluation of Institutional Repositories: A Review": {
+    "context1": "Yuan Shunbo 1,²Hua Weina²Ma Xueliang²   \n1 School of Business， Jiaxing University， Jiaxing 314001   \n²Department of Information Management，Nanjing University，Nanjing 210093",
+    "context2": "[Abstract]Basedotheliteraturesurveyandanalysis，theevaluationofinstitutionalrepositoriesfromtheaspectsofinstitutioalre positorysstem/sftwaredigitalresources management，faculty’satiudesomprehensiveanddevelopentpracticeevaluatioisre viewed，stating tatthesystem/softwareevaluationhashadsomeachievements，butin-depthesearchesshouldbecariedoutonthe digital resources management，comprehensive evaluation and development practice evaluation.",
+    "context3": "[Keywords] open accessinstitutional repositoryinstitutional repository evaluation",
+    "context4": "长期以来，出版商在在传统学术交流体系中占据中心位置，并逐步形成了对学术信息交流的垄断,这在一定程度上阻碍了学术交流的发展。进入20世纪90年代,开放存取运动（Open Access Movement）在全球兴起并广泛发展。开放存取主要有开放存取期刊（Open Access Journal)和自存储(Self-archiving）两种主要实现途径，而机构库则是科研人员进行自存储时的一个重要选择。",
+    "context5": "笔者通过对 LISA、Web of Science、Scopus、GoogleScholar、CNKI、VIP等数据库进行文献调研,全面搜集、分析涉及机构库评价的研究文献，并从机构库系统软件评价、机构库数字资源管理评价、机构成员态度评价、综合评价以及实践建设宏观评价5个方面对此进行阐述，以勾勒出国内外机构库评价研究的全貌。"
+  },
+  "1 机构库系统软件评价": {
+    "context1": "机构库的运行与发展必须以系统软件为基础，目前机构库系统软件可以分为免费开源软件和商业软件两大类。出于经费的考虑,学术机构一般都会选择开源软件。因此，目前对系统软件的评价也主要集中在对机构库开源软件的评价。其中最受关注的是麻省理工学院（MIT)与惠普公司(Hewlett-Packard Corporation）合作开发的 DSpace。2003 年,Tansley R.等对 Dspace 的各项功能和系统架构进行了详细的述评，并指出未来进一步优化的设想；国内多位学者等对DSpace进行了多方位的研究,如与其他机构库系统软件进行比较,改进DSpace 以及基于 DSpace构建机构库等-。",
+    "context2": "目前对机构库系统软件最为全面的评价来自于开放社会研究所(Open Society Institute）的“A Guide to In-stitutional RepositorySoftware”的报告，该报告在对Archimede、ARNO、CDSware、DSpace、Eprints、Fedora、i-Tor、MyCoRe和OPUS等9个软件进行介绍的基础之上，从技术特点、软件管理功能、内容管理、信息保存以及信息检索与利用等多个方面进行评价。此外， $\\mathrm { K m } \\ \\mathrm { H }$ H.等通过实验测试和用户调查等方法确定了机构库系统软件可用性(Usability）评价框架，该框架包括满意度（Satisfaction）支持度（Supportiveness）、有用性（Useful-ness)和有效性(Effectiveness）等4个方面；洪梅和马建霞对开源机构库系统软件可用性评估方法分成没有用户参与的可用性评估和有用户参与的可用性评估。",
+    "context3": "机构库系统软件评价是机构库研究中开展得比较早、成果比较多的领域之一。从现有研究来看，大多数机构库系统软件的基本功能大同小异,特别是DSpace、Eprints和Fedora等几个常见的系统软件，目前应用比较广泛，同时也得到了许多用户的好评，很难说哪个更好。只是不同的机构库系统软件可能在某些细节上独具特色。因此评价与选择时需考虑系统软件的各自独特功能及机构库自身的需要,诸如机构库战略定位、资源及用户特点等，根据机构库的特定需求选择合适的系统软件方是明智之举。"
+  },
+  "2机构库数字资源管理评价": {
+    "context1": "机构库中的数字资源是评价一个机构库建设成功与否的关键因素，因此数字资源管理的评价也是学者比较关注的话题,其中最主要的研究即是对机构库中自存储(Self-archiving)的评价。XiaJ.F.和SunL.认为存储信息、存储资源数量、全文可获取性、用户态度、单位存储费用和资源利用信息等是评价自存储的因素；国内学者郭清蓉构建的自存储评价体系也与此类似[d。此后,XiaJ．F．和 Sun L.对澳大利亚、意大利、瑞典和英国的9个机构库用户自存储比例和全文可获取性进行调研,结果表明作者自存储比例相当低，来自澳大利亚和意大利的机构库的全文可获取性比较高,而其他的机构库提供的大多为文摘信息；Xia J.F．还对不同学科的自存储情况进行了评价，发现学科差异对自存储没有明显的影响，而强制存储政策等则可促进自存储[,同时XiaJ.F.对学科库和机构库自存储进行比较分析，发现在学科库中的自存储行为与机构库中的自存储行为并不存在着明显的相关性[。此外,对于机构库数字资源的检索利用，Markland M.利用Google和GoogleScholar检索了26个英国的机构库资源,结果表明，利用这两个搜索引擎能够比较准确地查找到机构库中的数字资源，但最相关的检索结果并不一定排在首位，因此需要检索者做一定的甄选。",
+    "context2": "机构库数字资源管理评价无疑是机构库评价中的一个关键问题,可以说数字资源的管理是事关机构库最为核心的影响因素。从目前的研究成果来看，主要集中在资源获取的评价，而对进入机构库中资源的组织、长期保存以及检索利用的评价开展得不多，当然这也与机构库历史较短,相关研究难度较大有关。因此，机构库资源管理评价还是一个有待进一步深入研究的领域。相信随着数字资源管理技术的进一步发展，机构库数字资源管理评价研究深度也会逐步加强。"
+  },
+  "3 机构成员态度评价": {
+    "context1": "机构库的持续稳定发展离不开机构成员的支持，因此机构成员对机构库是否了解，对其发展是否支持等问题也成为一个比较受关注的课题。KimJ．Y.基于社会-技术网络模型(Socio-Technical Network Mod-el)和社会交换理论（Social Exchange Theory）,构建了一个成员存储成果的影响因素模型,该模型主要包括成本、外在益处、内在益处、个人经历以及环境影响5个因素,作者在对67位教授进行调查后发现,理解、支持开放存取的科研工作者更愿意支持机构库的发展[；Watson S.对克兰菲尔德大学(Granfield Universi-ty)的成员调查发现,不少成员没有听说过该校的机构库QUEprints,并且不清楚建设机构库的目的[d；DavisP．M.与Connolly M.J.L.发现康奈尔大学(CornellU-niversity)的成员对该校机构库DSpace的了解和利用被大大高估，该校成员对DSpace了解很少，使用意愿也很弱，很多成员选择将科研成果存储到其个人网页和学科库。该校成员给出的不利用机构库的原因有很多，其中包括学术信息交流途径的多样性、对版权纠纷的担忧以及担心科研成果被剽窃等。国内学者也对科研人员对于开放存取和机构库的接受情况进行了调查[18-1,与国外调查结果类似,国内科研人员对机构库的接受度不够理想。",
+    "context2": "从现有的大多数调查研究来看，学术机构成员对机构库的了解和支持不够理想。因此笔者认为，今后对于机构成员态度的研究，调查分析当然有必要进行，但更需要思考的是，应该采取哪些措施，以促使机构成员了解、接受和支持机构库的发展,而这也正是我们应当关注的重点。"
+  },
+  "4 综合评价": {
+    "context1": "机构库系统软件、资源管理以及用户态度的评价并非对机构库的整体情况进行评价，而只是关注机构库发展的某一个或几个方面。为反映机构库建设的全貌,不少学者着眼于全局，对机构库进行综合评价。2006年，WestellM.指出了机构库发展的关键成功因素,主要包括强制存储、与机构库发展规划相结合、资助模式、与数字化中心的关系、互操作性、内容评价、机构支持以及长期保持战略8个方面2； $\\mathrm { K m } \\ \\mathrm { H }$ H.与 $\\operatorname { K i m } \\mathrm { ~ Y ~ }$ H.针对韩国的机构库构建了一个综合评价模型，该模型包括内容(Content）,系统与网络(System and Network）利用、用户及提交者(Uses，Usersand Submitters）以及管理与政策（ManagementandPolicy)等4个方面，随后作者通过德尔菲法对评价模型的指标进行一定的调整，最后形成了如图1所示的机构库综合评价模型1-22：",
+    "context2": "![](images/38ac8d2352dfe7badb9232dc162b6b5ab2234e14cbf16ff3ccddafeb519df1e4.jpg)  \n图1机构库综合评价模型",
+    "context3": "此外,Proudman V.从政策、组织、推广机构库的机制与影响、服务、支持与沟通以及法律事务等角度对欧洲的机构库进行了评价。不过Proudman也指出,利用这些指标不能给每个机构库打出具体的分数,但可以看出不同机构库的优势与不足；而董文驾与袁顺波认为知识产权、经费、资源的质量控制、元数据等是机构库发展所面临的问题,也应是评价机构库时考虑的因素。",
+    "context4": "目前对机构库进行综合评价的研究还不多见，体现在文献量较少、评价样本偏小等方面，并且评价指标数据的可获得性也还有待提高,如WestellM.所提出的8个方面更多的是定性评价而非定量评价,Proud-man 的评价指标也并非定量评价。因此需要思考的问题是，在部分评价指标为定性评价指标的情况下，如何更好地进行评价？事实上，国外其他行业的评价，如软件评价、知识管理评价等研究表明，成熟度（MaturityModel）可以较好地应对定性与定量评价相结合的评价工作,故笔者将在后续研究中对基于成熟度视角的机构库评价进行探析。"
+  },
+  "5 实践建设宏观评价": {
+    "context1": "除了对个别机构库进行评价之外,国外不少学者对某一个或多个国家的机构库实践建设进行宏观层面的评价。2005年,网络信息联盟（Coalition for Net-workedInformation，CNI）、英国联合信息系统委员会（UKJoint Information Systems Committee，JISC)以及荷兰 SURF 基金(SURF Foundation in the Netherlands）联合对美国、英国、澳大利亚等13个国家的机构库建设状况进行了抽样调研，内容涉及机构库数量、资源类型、资源所涉及的学科、使用的软件以及机构参与度等情况。结果表明,机构库正在成为高校基础设施的组成部分，大多数被调查的国家都在大力建设机构库，调查者也相信机构库的建设会越来越受到重视5-2d；事隔两年后,McDowellC．S.对此又做了一次类似的调查；袁顺波等则对美国、英国、澳大利亚和日本机构库理论与实践建设的现状进行评述，并据此为国内机构库建设提出了建设性建议。此外,澳大利亚、西班牙以及希腊等国家的研究者均进行了类似的宏观评价。",
+    "context2": "从现有研究来看，机构库在发达国家，尤其是美国、西欧国家以及日本等国的发展速度比较快，对宏观范围内的实践建设评价研究也开展得比较普遍，应该说取得了不错的成就，但从调查结果来看，机构库中的资源成为了各国机构库发展中的一个难以突破的瓶颈。相比之下,国内机构库的实践建设还处在初步发展阶段，体现在建设机构库的学术机构数量少、机构库资源少、用户关注度有待提高等问题。因此,对我国机构库建设现状进行一个全面的调查，以引起相关学者和用户的关注，是一个值得研究的课题。",
+    "context3": "[5]王颖洁.机构知识库建库软件 DSpace、Eprints、Fedora 的比较分 析.图书馆学刊,2008（4)：133－137.   \n[6]Opensociety institute，a guide to institutional repository software. [010 -05 -05]． http: //www.soros.org/openaccess/pdf/OSI_ Guide_to_IR_Software_v3.pdf.   \n[7]Kim HH,Kim YH.Usability study of digital institutional repositories.The Electronic Library，2008，26(6):863-881.   \n[8]洪梅,马建霞.开源机构库软件可用性评估方法的探讨.现代图 书情报技术,2007(12):6-10.   \n[9]Xia JF,Sun L. Factors to assess self-archiving in institutional repositories.Serials Review,2007,33(2):73-80.   \n[0]郭清蓉.机构知识库自存储评价体系的构建.情报杂志,2009， 28(7): 74 -76,73.   \n[1]Xia JF,Sun L.Assessment of self-archiving in institutional repositories:Depositorship and full-text availability.Serials Review， 2007,33(1):14 -21.   \n[2]Xia JF.Assessment of self-archiving in institutional repositories: Across disciplines.The Journal of Academic Librarianship，2007, 33(6):647 -654.   \n[3] Xia JF.A comparison of subject and institutional repositories in self-archiving practices.The Journal of Academic Librarianship, 2008,34(6):489-495.   \n[14] Markland M. Institutional repositories in the UK:What can the Google user find there?．Journal of Librarianship and Information Science,2006,38(4):221-228.   \n[5]Kim JH.Motivatingand impeding factorsaffecting facultycontribution to institutional repositories．2o10 -O5-O5] .http://journals.tdl.org/jodi/article/viewArticle/193 /177.   \n[16] Watson S. Authors’attitudes to,and awareness and use of,a university institutional repository.Serials,2007,20(3):225-230.   \n[7]Davis PM,Connolly MJL.Institutional repositories:Evaluating the reasons for non-use of Cornell University’s installation of DSpace.010-05-05]．http://www.dlib.org/dlib/march07/ davis/03davis. html."
+  },
+  "6结语": {
+    "context1": "综上所述,对于机构库评价研究，国外研究比较多,文献量较多,研究角度也比较多样化。相比之下，国内研究还处在初步发展阶段。从关注的内容来看，主要集中在机构库系统软件评价以及机构成员态度评价等方面,而对于机构库综合评价,开展的研究尚显不够。因此,在后续研究中,需要引入科学合理的理论为基础,从宏观入手,通过切实可行的方法,构建一个普适性较强的机构库综合评价体系，并以此为基础开展机构库综合评价的实践研究。"
+  },
+  "参考文献：": {
+    "context1": "[]Ehms K，Langen M. Holistic Development of Knowledge Management with KMMM．[2010 -08-25].http://kmmm.org/objects/ kmmm_article_siemens_2002.pdf.   \n[]Kochikar V P.The Knowledge Management Maturity Model-A Staged Framework forLeveragingKnowledge.2O10-O8-25]．http://www.infy.com/knowledge_capital/knowledge/KMWorld00_ B304. pdf.   \nBTimbrellG,Koller S,Stefanie N,et al.A knowledge infrastructure hierarchy model for call centre peocesses.Proceedings of I- KNOW, Graz，Austria.2004:440-448.   \nFeng Junwen .A knowledge management maturity model and application．PICMET 2006 Proceedings，Turkey，2006:1251-1255.   \n[]Pee L G，Teah H Y，Kankanhalli A．Development of a general knowledge management maturity model.[2010 -O8 -25] .http:// citeseerx.ist.psu.edu/viewdoc/download? doi = 10.1.1.111. $1 5 8 1 \\mathrm { \\& r e p } = \\mathrm { r e p } 1 \\mathrm { \\& t y p e } = \\mathrm { p d f } .$   \nbLangen M. Knowledge management maturity model-KMMM: Methodology for assessing and developing maturity in knowledge management.[010-08-25].http://www.kmmm.org/objects/KMMM _Flyer. pdf.",
+    "context2": "（作者简介）袁顺波,男,1982年生,讲师,博士研究生,发表论文20余篇。"
+  },
+  "图书情报工作》杂志社出版基金": {
+    "context1": "传机构库，尽可能使学术机构成员能认识到机构库建设项目的重要性;然后对各相关部门的成员进行调查，收集必要的数据;数据收集完成后便进入信息处理阶段，在此阶段，需要对机构库建设活动的成熟度等级进行评价，得出初步的评价结果，并为信息的反馈作准备;进入反馈信息阶段，需要机构成员以及部分专家对初步得出的评价结果进行讨论,以取得一致意见,必要时可对评价结果进行调整，并得出机构库建设现状以及需要优先考虑的KPA等方面的结论;针对机构库建设中所存在的问题与不足，提出具体的解决方案与行动计划，最终提交机构库评估报告。"
+  },
+  "5机构库评价模型的应用研究": {
+    "context1": "基于本文所构建的机构库评价模型，笔者于2010年8-9月对嘉兴学院机构库的建设现状进行了调查与评价研究。调查主要采用访谈的方式，访谈的重点是与评价模型中KPA相关的问题,整个调查共分为两个阶段进行,在第一阶段调查时,通过对科技处、教务处和图书馆相关负责人的访谈,首先明确嘉兴学院机构库建设的重要目的是为了长期保存嘉兴学院教师所创造的教学和科研成果，同时也为提升嘉兴学院教学科研管理水平、提高学校学术影响力创造条件。同时调查表明，嘉兴学院科研管理部门已经认识到了机构库对于学校的重要意义，已委托嘉兴学院图书馆资源建设部的相关人员着手进行机构库系统的建设，并提供了必要的资金和技术支持;然后在图书馆、商学院、机电学院、文法学院、医学院、外国语学院中抽取50位教师，调查他们对机构库的认知、理解和支持程度。结果表明，有接近6成的教师已在网络上通过个人主页、博客等方式进行过资源共享，并且图书馆、商学院、机电学院、医学院等部门中，已有 $30 \\%$ 以上的成员了解开放存取的理念。在第二阶段，将之前所得到的调查结果进行反馈，由调查对象对第一阶段的调查结果进行讨论与评价。最终确定嘉兴学院机构库的建设已经处在已定义级的成熟度。并确定建设资金、学术机构成员以及信息基础设施是应该优先考虑的KPA。同时也证明了基于成熟度视角的机构库评价模型的科学性与可行性。"
+  },
+  "(上接第8页)": {
+    "context1": "[3]Proudman V.The population of repositories//Weenink K，Waaijers L，van Godtsenhoven K.A driver's guide to European repositories．Amsterdam:Amsterdam University Press,2008:49-101.",
+    "context2": "[4]董文驾,袁顺波.聚集学术机构知识的中心:机构库(Institution-al Repository)探析.图书馆杂志，2005, $2 4 ( 8 ) : 5 1 - 5 5 :$ 59.",
+    "context3": "[5]Westrienen G V,Lynch C A.Academic institutional repositories: Deployment status in 13 Nations as of Mid 2005．[010 -05-05] .http://www.dlib.org/dlib/septemberO5/westrienen/O9westrienen.html.",
+    "context4": "[6]Lynch C A,Lippincott JK. Institutional repository deployment in the United States as of early 2005．[2010-05-05] .http:// www.dlib.org/dlib/septemberO5 /lynch/O9lynch.html.   \n[7]McDowell C S. Evaluating institutional repository deployment in american academe since early 2Oo5:Repositories by the numbers, Part 2．[2010-05-05]．http://www.dlib.org/dlib/september07/mcdowell/09mcdowell.html.   \n[8]袁顺波,董文驾,李宾.西方机构库研究的现状分析及后示.图 书馆杂志，2006,25(8)：4-8."
+  }
+}

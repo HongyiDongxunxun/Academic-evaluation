@@ -1,0 +1,83 @@
+{
+  "original_filename": "full_4322.md",
+  "基于 SRW 信息源的学术趋势分析系统构建": "",
+  "景民昌²杨波1,3": {
+    "context1": "（1．中国科学院文献情报中心，北京100080；2．中国石油大学，北京102249;3．中国科学院研究生院，北京100080)",
+    "context2": "[摘要]学术趋势分析是一项重要的信息服务，是在海量文献信息资源和用户使用记录的基础上，对文献数量进行的时间序列统计。数据源的获取是构建学术趋势分析系统的关键因素，本文应用万方数据公司开放的SRW服务，远程检索和获取期刊数据，实现了一个简单的学术趋势分析原型系统。",
+    "context3": "[关键词]学术趋势分析；学术关注度；SRW；Web Service",
+    "context4": "[Abstract）Academic trend analysis is an important service which statistics document numbers during some cer tain period based on great capacity document information resources and their usage logs·How to obtain document resources is a key in building an academic trend analysis system successfully.Using Wanfang $-$ Data Company'sopen SRW web service，this paper realized a simple prototype of academic trend analysis system ·",
+    "context5": "[Key words]academic trend analysis；degree of academic focus；SRW；Web Service [中图分类号]G350〔文献标识码]A〔文章编号〕1008－0821（2008）03－0055－03",
+    "context6": "学术趋势分析是一项重要的信息服务，为用户掌握学术方向、了解学术前沿动态提供了参考依据。学术趋势分析是在海量文献以及大量用户使用记录的基础上，针对某一主题或关键词进行的时间序列统计。学术趋势分析的数据来源主要是海量文献资源以及用户使用记录。",
+    "context7": "常用的学术趋势分析指标有2个：学术关注度、用户关注度[1]。学术关注度是以文献库中与关键词最相关的文献数量为基础，统计关键词作为文献主题出现的次数，形成的学术界对某一学术领域关注度的量化表示；用户关注度是以用户在文献库中浏览或下载文献的数量为基础，统计关键词作为主题的文献被浏览或下载的次数，形成的用户对某一学术领域关注度的量化表示。",
+    "context8": "构建学术趋势分析系统可以为用户提供灵活、便捷的掌握相关领域学术发展趋势的工具，学术趋势分析系统的构建主要难点在于数据源的获取。大型文献数据库商在这方面具有明显优势，而一般的信息服务机构由于文献资源量的不足，开发该类系统存在着一定困难。",
+    "context9": "值得庆幸的是，目前已经有不少大型信息机构利用各种协议在Internet上开放了他们的文献资源访问接口，为其他异构系统的远程检索提供了方便，提高了文献资源的共享程度。SRW 就是这些众多协议中的一种。",
+    "context10": "本文应用万方数据统一资源服务系统提供的开放SRW服务[2]，通过远程检索其期刊文献资源，实现了一个简单的学术趋势分析原型系统。"
+  },
+  "1 SRW概述": {
+    "context1": "SRW是基于XML的、面向Internet 的信息检索和获取协议，它是下一代的 Z39.50——ZING 协议（包括 SRW/U、CQL、 $\\mathrm { Z o o m }$ 、 $\\mathrm { e z 3 9 5 0 }$ 、ZeRex）的重要组成部分[3]。SRW 定义了一个通用的抽象模型，各个系统可以将其具体实现映射到该抽象模型上，实现不同网络资源、分布式数据库的统一检索功能。SRW一方面遵循了Z39.50信息检索通讯协议标准，另一方面利用现已得到广泛应用的技术，如SOAP、XPATH等来完成信息请求和响应。",
+    "context2": "SRW与OpenURL、OAI等是解决分布、异构数据资源检索、集成和共享的重要标准协议[4]。SRW 的目的是为了创建一种更容易实现的信息检索/获取途径，同时保持与$Z ^ { 3 9 . 5 0 }$ 中信息检索相似的描述能力，以避免出现大量功能相似但却无法交互的信息检索Web Service；同时，SRW重新评价了Z39.50的部分太复杂或太简单的内容，使得$Z ^ { 3 9 . 5 0 }$ 不仅仅只是局限于图书馆界，扩大其应用范围，避免出现以图书馆为中心的偏见[5]。"
+  },
+  "1.1 SRW 的访问机制": {
+    "context1": "SRW协议有2种访问机制：一种是使用基于HTTP 的XML在客户端和服务器端传递消息，它指定了用SOAP协议来包装消息；一种是通过HITPGET 的方式来传递请求消息，即SRU。SRU在URL中包含请求消息，请求响应仍然遵循基本的 SOAP响应格式，SRU可以说是SRW 的简化版。SRU易于实现，但SRW在信息资源的集成与整合应用中更为灵活。"
+  },
+  "1.2 SRW 的功能": {
+    "context1": "SRW的主要功能有检索、浏览和获取服务信息，即SRW 的 3个基本操作：SearchRetrieve、Scan 和 Explain。为了满足图书馆联合编目的需求，最近又新增了update操作。"
+  },
+  "1.2.1检索功能 (SearchRetrieve)": {
+    "context1": "检索是SRW的最主要的功能，它允许用户检索远程数据库中的数据。客户端发送检索请求（searchRetrie-veRequest）到服务器端，服务器检索完成后，传回检索服务响应（searchRetrieveResponse）。服务响应的主要内容是XML 格式的记录列表。",
+    "context2": "searchRetrieveRequest包含的信息（或参数）有：ver-sion、query、maximumRecords、startRecord、recordPacking、recordSchema、resultSetTTL、sortKeys、stylesheet、recordXPath、extraRequestData。其中，version 和query 是必选的，其他为可选项。",
+    "context3": "searchRetrieveResponse 包含的信息有：version、numberOfRecords、resultSetIdleTime、records、nextRecordPosition、diagnostics、extraResponseData、echoedSearchRetrieveRequest 。其中，version 和 numberOfRecords 是必选项。"
+  },
+  "1.2.2浏览功能(Scan)": {
+    "context1": "客户端可以通过浏览功能列出检索词和该检索词相对应的命中条数的列表。客户端发送 scanRequest到服务器，服务器端将响应包装在 scanResponse 中传回客户端。",
+    "context2": "scanRequest 中包含了浏览请求的一些信息：version、scanClause、maximumTerms、responsePosition、stylesheet、ex\"traRequestData。其中，version 和 scanClause 是必选项。",
+    "context3": "scanResponse中包含了浏览请求响应的信息：version、diagnostics、 extraResponseData、echoedScanRequest、terms。其中，version 和 tems 是必选项。"
+  },
+  "1.2.3解释功能(Explain)": {
+    "context1": "Explain操作允许客户端获得服务相关的描述信息。客户端通过发送explainRequest参数到服务器，服务器端返回符合ZeeRex规范的服务描述内容。",
+    "context2": "explainRequest中包含了获取服务信息请求的所有信息：version、recordPacking、stylesheet、extraRequestData。",
+    "context3": "explainResponse 包含了服务器端服务配置的相关信息：version、record、diagnostics、extraResponseData、extraRequest -Data。其中，version、record 是必选项。",
+    "context4": "上述功能的请求和响应服务的参数含义在文献中多有介绍，可参见文献[5]、[6]、[7]、[8]，这里不再赘述。"
+  },
+  "1.3 SRW的应用": {
+    "context1": "SRW是一种信息检索和获取的标准协议，目前已经在一些图书馆和信息服务提供机构得到了应用，如OCLC Re\"search[9]利用Apache SOAP工具包实现了一个基于Java 的SRW/SRU服务器；美国国会图书馆为在线目录实现了一个到 $Z 3 9 . 5 0$ 服务器的SRW/SRU/Z39.5O网关；欧洲图书馆(TEL)、大英图书馆在系统实现中也应用了SRW/U技术[8]。",
+    "context2": "我国的万方数据公司在其统一资源服务系统中实现了基于·NET平台的 SRW 服务接口[2]，用于对万方数据的期刊数据库提供远程检索服务；CSDL（国家科学图书馆）将各种服务系统的检索接口用SRU 进行了统一封装，以实现各种资源的统一检索和服务。",
+    "context3": "本文中的学术趋势分析系统主要应用了SRW的SearchRetrieve功能，远程访问万方公司的SRW服务，以获取分析所需要的文献数据来源，实际上是 SRWWeb Service的一个消费者。"
+  },
+  "2系统设计与实现": "",
+  "2.1系统架构": {
+    "context1": "学术趋势分析系统包括3个子系统：数据采集子系统，统计分析子系统、结果显示子系统（图1)。数据采集子系统是一个SRW客户端，它通过Internet向远程SRW服务器发送检索请求，服务器传回XML格式的响应；统计分析子系统对SRW 服务器的响应结果进行整理、分析、统计，并将结果以及本次检索的时间戳存储到数据库中，统计结果较为简单，主要是计算规定时间段（年）内的文献记录数量；结果显示子系统负责对统计分析的结果进行显示，有可视化显示、表格显示2种方式。",
+    "context2": "系统总体结构如图1所示。",
+    "context3": "![](images/89f37c04f45c1c9d2998de2d0b0b1b54a33ec2ffcd84f8c747dc149f62201e76.jpg)  \n图1系统总体结构",
+    "context4": "系统处理的过程分为几个步骤（图2)：",
+    "context5": "(1）输入关键词进行检索;（2）检索系统首先向本地数据库提交检索请求，如果有相关记录，并且时间戳在规定时间内，则将该记录直接传给显示系统，向用户显示;（3）如果本地数据库中没有记录，或记录时间戳在规定时间以外，则启动SRW客户端程序，将检索请求传递到远程SRW网关，获取检索信息；（4）对获得的检索信息进行统计分析，并显示统计结果，同时更新数据库。",
+    "context6": "![](images/c2671586985fbef37c2c66b76cad423178562f56323721cf7c09e32c10e3190a.jpg)  \n图2系统实现流程"
+  },
+  "2.2系统实现": {
+    "context1": "2.2.1 SRW 远程调用，获取数据源",
+    "context2": "SRW 实际上是一种Web Service，Web Service 是为了满中国知网https://www.cnki.net56",
+    "context3": "足异构平台之间的互操作设计的。本系统使用万方公司的期刊数据库作为统计来源，其SRW是一个基于·NET平台的Web Service[2]。本文系统作为 SRW Web Service 的一个消费者，通过访问该服务，获取统计分析所需的数据。系统采用Java/JSP语言实现，利用了AXIS2生成服务的本地代理类，再基于该代理类编程实现。",
+    "context4": "基于大多数用户都是对近期学术趋势感兴趣的考虑，本系统在检索前，要求设置服务响应的最大记录条数(maximumRecords)，即返回的记录结果数，并对检索结果按时间排序（sortKeys)，以保证统计所需的数据源在出版时间上是最新的，从而可以在一定程度上提高统计的可信度。"
+  },
+  "2.2.2统计结果数据库存储": {
+    "context1": "基于系统性能的考虑，将检索词的统计结果写入数据库，当用户统计时，先在数据库中查找是否有该检索词的统计结果记录。如果有，并且记录时间戳小于既定时间(如最近1个月或1个季度)，则直接使用该统计结果；如果没有，或记录时间戳大于既定时间，则调用SRW接口，并将统计结果写入数据库，或更新统计结果及记录时间戳。这样可以避免每次都要远程调用SRW 服务，减少网络流量，提高了系统响应速度。",
+    "context2": "存储统计结果的数据库表结构如表1所示。",
+    "context3": "表中的统计结果以字符串存储，各年数量之间以“;”隔开，括号内为该年文献数量。如：1999(300);2000(350);",
+    "context4": "2001(400)表示与该关键词相关的文献1999 年为300 篇，2000 年为350篇，2001年为400篇。统计结果的时间戳表示该条记录的形成时间。",
+    "context5": "表1统计结果表",
+    "context6": "<table><tr><td rowspan=1 colspan=1>字段名称</td><td rowspan=1 colspan=1>类型</td><td rowspan=1 colspan=1>说明</td></tr><tr><td rowspan=1 colspan=1>keyword</td><td rowspan=1 colspan=1>varchar</td><td rowspan=1 colspan=1>关键词</td></tr><tr><td rowspan=1 colspan=1>statResult</td><td rowspan=1 colspan=1>varchar</td><td rowspan=1 colspan=1>统计结果</td></tr><tr><td rowspan=1 colspan=1> statDate</td><td rowspan=1 colspan=1>date</td><td rowspan=1 colspan=1>统计结果的时间戳</td></tr></table>"
+  },
+  "2.2.3可视化显示": {
+    "context1": "系统使用开源软件JFreeChart开发包完成统计结果的可视化显示。JFreeChart是一个开源的组件包，提供了Java 中常用统计图形的快速开发API，程序员只要掌握少量的接□就能绘制出漂亮的图形，这些图形不仅可用于Java客户端界面的应用程序中，也可以应用在 JSP、Servlet、Java Ap-plet中。JFreeChart可创建的图形有饼图、折线图、柱状图、散点图、甘特图等。JFreeChart可从http：/prdownloads·sourceforge net/jfreechart/jfreechart—1.O.1.zip?download 下载。",
+    "context2": "在本系统中，以折线图表示学术关注度指标（图3)。",
+    "context3": "![](images/bc4b3eec98fd411dec78eb82919af323586dcecc313f6f1353fee4d04606f15c.jpg)  \n图3统计结果显示"
+  },
+  "3结语": {
+    "context1": "本文应用万方数据公司的 SRWWeb Service作为数据源，实现了一个统计学术关注度指标的学术趋势分析系统原型。学术趋势分析涉及的统计指标不止一个，由于数据源的限制，本系统只实现了学术关注度指标的统计。功能虽然较为简单，但本文希望通过该系统的实现，抛砖引玉，能为一般的信息服务机构在构建同类系统时提供一些借鉴意义。",
+    "context2": "致谢：本文在系统实现和写作过程中得到了万方数据期刊资源与产品中心以及李广建教授的指导和帮助，在此一并谨表谢意。"
+  },
+  "参考文献": {
+    "context1": "[1]CNKI 学术趋势[EB/OL]．http://trend·cnki·net/，2007 —11—25.",
+    "context2": "[2] http:// www $\\cdot$ wanfangdata $, \\cdot$ $\\mathbf { c o m } \\cdot \\mathbf { c n } / \\mathbf { s r w } / \\mathbf { s r w }$ asmx [EB/OL].$2 0 0 7 - 1 1 - 2 5$   \n[3] http://www·loc:gov/z3950[EB/OL].2007-11—25.  \n[4]龚立群,孙洁丽·OAI、SRW/U及OpenURL 的比较及协同使用研究[J]·情报科学，2007,25(7)：1073-1079.  \n[5]张玲，王海胜.SRW：面向Internet 的信息检索/获取协议[J]·数字图书馆论坛,2006,(7)：16-19.  \n[6]SRW 协议的服务[EB/OL].http://www $\\because$ wanfangdata $\\cdot$ com :$\\mathrm { c n / h e l p / a p b s ^ { 0 2 } / \\cdot h t m l }$ ， $2 0 0 7 - 1 1 - 2 5$   \n[7]于雪峰，单启成．下一代 $Z 3 9 . 5 0$ 技术探讨[J]．现代图书情报技术，2003，（2)：25—28，33.  \n[8]李聪，胡伟．SRW的发展和现状分析[J]．晋图学刊，2006，(2)：30-32，71.  \n[9]OCLC．SRW/U [EB/OL]·http: $/ /$ www . oclc· org/re-search/software/srw/default $\\mathrm { h m l }$ ，2007—11—25."
+  }
+}

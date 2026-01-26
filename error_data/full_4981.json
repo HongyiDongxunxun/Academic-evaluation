@@ -1,0 +1,134 @@
+{
+  "original_filename": "full_4981.md",
+  "nothing": {
+    "context1": "·业务研究·"
+  },
+  "学科研究主题发展等级划分与趋势预测方法": {
+    "context1": "以我国智慧图书馆研究为例",
+    "context2": "宋凯1,冉从敬²",
+    "context3": "(1.山东师范大学 图书馆,山东 济南 250399；2.武汉大学 信息管理学院,湖北 武汉 430072)",
+    "context4": "摘要:【目的/意义】主题发展等级划分是信息组织研究的基础性问题，也是科研人员和科研管理部门进行研究选题和学科服务的重要工作，对学科研究主题进行高效的发展等级划分与趋势预测，能够帮助相关科研人员和机构把握学科领域研究态势,准确做出科研决策。【方法/过程】本文结合主题模型、Sen's斜率估计法、Mann-Kendall法、指数平滑法,提出一种学科研究主题发展等级划分与趋势预测方法。首先,在主题识别的基础上,形成主题发文度和主题引文度两个指标,并参考波士顿矩阵对学科研究主题发展等级进行划分;然后,融合研究主题发文量、被引量和下载量，形成主题热力度指标，采用指数平滑法对研究主题未来发展态势进行预测。结果/结论】以我国“智慧图书馆\"研究的实验表明，本文所提方法能够对学科领域研究主题进行全方位、细粒度地发展等级划分和趋势预测【创新/局限】本文所提方法对其他学科研究主题的分析具有普适性，为实现动态情报分析提供了新的视角，局限在于需要提高主题建模的可解读性,并进一步优化趋势预测方法。",
+    "context5": "键词:主题模型;发展等级;趋势预测;智慧图书馆;科研决策 中图分类号：G250.2;G250.7 DOI:10.13833/j.issn.1007-7634.2022.07.017"
+  },
+  "1引言": {
+    "context1": "信息科技不断发展,带动了Web技术在学术数据库中的创新应用,也进一步推动了科技文献呈爆炸式增长态势。当科研人员针对某个学科研究主题进行文献检索时，往往能够获取期刊论文、科技专利、新闻报告等多元化海量信息。而面对海量文献资源,如何快速准确地把握学科研究主题的发展等级，为科学研究寻找切入点，成为科研工作者面临的巨大挑战。为了应对此问题,部分学者以文献作为分析单元,通过挖掘学科领域的热点文献、权威作者，为学术检索和科研实践提供有力支持。但随着学科研究范式复杂度的提高和学科研究边界的不断拓展，已有研究和方法并不能有效满足科研人员对结果呈现的精深性需求。由此,本研究提出一种学科研究主题发展等级划分和趋势预测方法,通过对文献内容进行深入挖掘，从更高细粒度、更深层次方面对学科研究主题进行分析，帮助科研人员和科研管理部门有效把握学科领域研究态势，快速做出科研决策。",
+    "context2": "本文的研究目标是： $\\textcircled{1}$ 以Sen's斜率估计法计算主题发文度，以Mann-Kendall法计算主题引文度,将两个指标映射到二维空间,参考波士顿矩阵的命名方式,对学科研究主题发展等级进行划分。 $\\textcircled{2}$ 构建主题热力度计算公式，采用指数平滑法对学科研究主题未来发展态势进行预测。 $\\textcircled{3}$ 应用提出的学科研究主题发展等级划分和趋势预测方法对我国“智慧图书馆\"研究进行探析,为科研人员和机构制定科研规划、开展科研选题提供决策参考。"
+  },
+  "2相关研究": "",
+  "2.1基于文献计量学的学科研究主题识别": {
+    "context1": "通常使用的方法有词频分析法、共词聚类法等，其实质是将文献中的高频关键词作为重点分析对象，探索学科领域重点研究内容。关键词可以视为对研究内容及研究方法的高度凝练和概括，而高频关键词在一定程度上可以体现学科领域的研究热点和前沿主题[。因此,通过对论文中的关键词进行统计分析,能够探析一个学科领域的热点和趋势。当前,文献计量学技术方法完善,分析工具多样,从而被广泛应用于学科领域的计量分析中。Song等采用共词聚类算法，对 DBLP会议中生物信息学研究的主题进行了识别[2]。Jung等将研究者兴趣引入到主题识别研究中，探讨了虚拟现实领域的主题演进情况[3]。廖远丽等结合文献计量学方法与可视化方法,剖析了我国图书馆空间研究的主题分布[4]。张琬笛等依托VOSviewer的关键词聚类分析，对纳米技术领域的研究主题进行了分析[5。但该方法的不足之处是高频关键词地阈值设置及关键词选取依赖科研人员地主观判断，导致遗漏低频但表征新兴研究主题的关键词，此外，关键词之间缺少语义关联,造成采用此种方法存在一定局限性[。"
+  },
+  "2.2基于机器学习的学科研究主题挖掘": {
+    "context1": "1975 年，Salton 等提出向量空间模型（Vector SpaceModel,VSM),开启了基于机器学习的主题挖掘研究方向[]。1990年，Deerwester首次将文本语义信息引入文本主题挖掘过程中,提出潜在语义分析模型LSA(Latent Semantic Analy-sis,LSA)[8]。1999年,Hofmann将期望最大化算法引入文本主题提取过程中,提出了基于概率统计的PLSA模型(Proba-bilistic Latent Semantic Analysis)[9]。2003年,Blei对PLSA进行了完善，将先验概率引入，提出潜在狄利克雷分配的LDA模型(LatentDirichletAllocation)[o]。相比基于文献计量分析的学科研究主题识别,基于机器学习的主题挖掘通过严谨的数理统计推演过程,具有挖掘内容全面、内容描述清晰、主题语义紧密等优势,对语义关系模糊、语义结构粗糙的文本语料，主题识别更为准确。此外,LDA模型的性能优于LSA和PLSA，因此，LDA模型被广泛应用于学科研究主题挖掘处理任务中。如Kang等采用主题模型,对智能家居护理研究领域进行了主题识别[\"。Balili等构建了一个主题识别和追踪框架一TermBall,并以PubMed上的学术文献进行了验证[2]。李牧南等基于文本挖掘技术,对人工智能领域的科学主题进行了探索[13]。李秀霞等基于LDA主题模型,对国内外教育大数据研究进行了主题识别[14]。"
+  },
+  "2.3基于机器学习的学科研究主题发展等级划分": {
+    "context1": "基于机器学习的学科研究主题发展等级划分，是在主题识别的基础上，通过构建分析模型对主题发展状况进行划分。目前存在基于前沿性计算对研究主题进行分析的研究,在主题挖掘的基础上，识别出前瞻价值更高的研究前沿：如郑彦宁等提出了基于关键词共现的研究前沿识别方法[5];王效岳等提出了基于基金项目数据的研究前沿主题探测方法[;王日芬等从领域全局演化研究视角,对人工智能进行了研究前沿识别与分析};吴一平等利用文本挖掘方法,分析了高校论文前沿主题和发展趋势[18]。此外,也存在基于研究热度计算对研究主题开展探索的研究,通过总结学科研究热点主题，揭示学科研究态势：如李跃艳等以SIGIR年会2008-2019年的录用论文作为数据源，探索了近十年信息检索领域的研究热点[19];翟姗姗等以2010-2019年间与数据有关的国家社会科学基金立项项目为研究对象，划分出了重点长线主题和次要热点主题[20];李伟超等基于iConference 会议，总结了国内外图书情报学研究热点[2;徐小莹等对近四年图书情报学科的热度持续、热度增加和热度减退主题进行了挖掘[22]。分析发现，根据前沿性和研究热度对学科研究主题发展等级进行分析，能够有效帮助科研人员和科研管理部门把握学科研究态势，对定位科研方向、做出科研决策具有重要的推动作用。但已有研究多数是在文本挖掘的基础上，从研究内容层面，根据主题词频次或关联性划分学科研究主题发展等级，考虑维度较为单一，等级划分的细粒度不够，导致给出的结果信息不够充分。为此，本文在继承前人研究的基础上，结合基于机器学习的主题挖掘方法，从研究主题发展等级划分和发展趋势预测两个视角出发展开探索，以期为科研机构和科研人员制定科研规划提供实践方案和决策支持。"
+  },
+  "3学科研究主题发展等级划分及趋势预测方法": {
+    "context1": "学科研究主题发展等级划分及趋势预测方法共涵盖三个分析流程：主题提取与文本聚类、学科研究主题发展等级划分、学科研究主题发展趋势预测。"
+  },
+  "3.1流程一:主题提取与文本聚类": {
+    "context1": "主题提取即获取学科研究领域涵盖的多个研究主题，如前所述,LDA模型具有良好的文本潜在主题挖掘能力，能够高效识别大规模文本语料集中的隐含主题,已被应用于热点挖掘、文本分类、用户推荐等领域,本文也将选择使用LDA模型进行学科研究领域的主题识别。此外,在学科研究领域相关文献中，摘要能够体现研究方法、研究目标等内容，是对论文研究内容的高度凝练,因此,对学科研究领域进行主题提取的过程中，将重点以摘要作为实验数据。",
+    "context2": "通常采用LDA模型较难直接分析不同主题之间的关联关系，本文在LDA识别结果的基础上，采用多维尺度分析，将高维空间中的主题相似性降维到二维空间进行展示，从而可视化LDA提取主题的相互关系。本文采用R语言中的LDAvis工具包绘制动态交互性的LDA主题可视化图谱。在pyLDAvis生成的图谱中，每个圆圈表示一个主题,主题之间的相似程度可以用圆圈之间的距离表示，各个主题之间互不交叉表明各个主题之间相似较小;此外,pyLDAvis还可以通过调节参数 $\\lambda ( \\leqslant \\lambda \\leqslant 1 )$ )来控制主题和词语之间的关联度， $\\lambda =$ 0,显示主题下特有的、相对独立的词项， $\\lambda { = } 1$ 显示分布范围更广泛的词项,通过调节 $\\lambda$ 值,结合相关词项,对主题内容进行凝练。",
+    "context3": "在具体分析过程中，对检索到的学科研究领域相关文献进行整合形成实验数据集，然后按照以下步骤进行实验： $\\textcircled{1}$ 使用SATI抽取关键词字段,形成学科研究领域词典;进而，应用R语言的jiebaR包对抽取的文献摘要进行自然语言处理形成实验数据集。 $\\textcircled{2}$ 利用R语言中的lda包对实验数据集进行主题建模，采用LDAvis模型确定最优主题数目。 $\\textcircled{3}$ 主题提取完成后,需要确定每篇文献所属的研究主题,以备后续实验流程的顺利开展，所以，本文采用LDA模型和K-means算法融合的方式实现文本聚类[23]"
+  },
+  "3.2流程二：学科研究主题发展等级划分": {
+    "context1": "学科研究主题发展等级划分的过程共包含三个模块：首先,基于研究主题文献发表量计算主题发文度;然后，基于研究主题被引量计算主题引文度;最后，将主题的发文度和引文度在二维空间进行可视化映射，并参考波士顿矩阵进行研究主题发展等级划分。",
+    "context2": "(1)主题发文度计算",
+    "context3": "研究主题的逐年发文量，在一定程度上能够反映该主题的研究趋势，从研究人员视角来体现研究主题的活跃程度。本文选择采用Sen's斜率估计法对研究主题的发文量斜率进行计算。Sen's斜率估计法是描述时间序列趋势性的定性方法，抗噪性强，相关研究已将此方法引入到学科领域研究前沿的识别中[24],验证了该方法在研究主题发文趋势分析中的适应性和科学性。在具体计算过程中，假设该学科领域的某个研究主题连续 $\\mathrm { n }$ 年的发文量表示为 $\\mathrm { T P = ( \\ t p _ { 1 } , t p _ { 2 } , t p _ { 3 } \\cdots }$ $\\mathrm { t p } _ { \\mathrm { n } } )$ ,通过Sen's斜率估计法计算得到的研究主题斜率为：",
+    "context4": "$$\n\\beta = M e d i a n \\left( \\frac { T P _ { x } - T P _ { y } } { x - y } \\right) \\qquad \\forall x > y , x \\epsilon \\{ 2 , 3 , 4 \\cdots n \\} ,\n$$",
+    "context5": "$$\n\\gamma \\epsilon \\left\\{ 1 , 2 , 3 \\cdots n - 1 \\right\\}\n$$",
+    "context6": "斜率 $\\beta$ 表示主题发文度，当 $\\beta > 0$ 时,研究主题的发文量呈逐年上升趋势；当 $\\beta { = } 0$ 时，研究主题的发文量逐年变化趋势不明显；当 $\\beta { < } 0$ 时，研究主题的发文量呈逐年下降趋势。"
+  },
+  "(2)主题引文度计算": {
+    "context1": "研究主题的被引量体现了文献的实际利用程度，基于引用的外部知识获取对科研创新具有重要影响,也能够从侧面表明研究主题被引量越高,其自身创新性也较强,能够从科研用户的视角体现研究主题的创新程度。本文选用Mann-Kendall法来度量主题引文度。Mann-Kendall法是一种检测序列变化趋势的方法,其优点是不需要样本遵从一定的分布，也不受少数异常值的干扰,就能实现序列趋势的显著性判断,在气候诊断和预测中得到广泛应用。在主题引文度的计算过程中,假设 $\\mathrm { C } { = } ( \\mathrm { c } _ { 1 } , \\mathrm { c } _ { 2 } , \\mathrm { c } _ { 3 } , \\cdots , \\mathrm { c } _ { \\mathrm { y } } )$ 表示某个研究主题连续y年的被引量序列。",
+    "context2": "首先,对主题被引量序列C作出如下假设： $\\textcircled{1} \\mathrm { H } _ { 0 }$ 假设。假设被引量序列中的数据为独立同分布随机样本，即无显著趋势。 $\\textcircled { 2 } \\mathrm { H } _ { 1 }$ 假设。假设被引量序列存在上升或下降的单调趋势。",
+    "context3": "然后，在 $\\mathrm { H } _ { \\mathrm { 0 } }$ 假设下,定义检验统计量S为：",
+    "context4": "$$\nS = \\sum _ { i = 1 } ^ { y - 1 } \\sum _ { j = i + 1 } ^ { y } \\operatorname { s g n } \\left( c _ { i } - c _ { j } \\right)\n$$",
+    "context5": "其中, $\\mathrm { s g n }$ 为符号函数， $\\operatorname { s g n } \\left( \\theta \\right) = { \\left\\{ \\begin{array} { l l } { 1 , \\theta > 0 } \\\\ { 0 , \\theta = 0 } \\\\ { - 1 , \\theta < 0 } \\end{array} \\right. }$",
+    "context6": "进一步,将S标准化得到Z,利用统计检验值Z进行显著性检验,其公式为：",
+    "context7": "$$\nZ = \\left\\{ \\begin{array} { l } { { ( S - 1 ) \\bigg / \\sqrt { y ^ { * } \\big ( y - 1 \\big ) ^ { * } \\big ( 2 y + 5 \\big ) ) / 1 8 } , S > 0 } } \\\\ { { 0 , S = 0 } } \\\\ { { ( S + 1 ) \\bigg / \\sqrt { y ^ { * } \\big ( y - 1 \\big ) ^ { * } \\big ( 2 y + 5 \\big ) ) / 1 8 } , S < 0 } } \\end{array} \\right.\n$$",
+    "context8": "最后，在双边趋势检测中，对于给定的置信水平 $\\alpha$ ,若$| Z | \\leqslant Z _ { 1 - \\alpha / 2 }$ ,则接受 $\\mathrm { H } _ { \\mathrm { 0 } }$ 假设，其主题引文量趋势不明显;否则接受 $\\mathrm { H } _ { 1 }$ 假设，将Z视作主题引文度,Z为正值表示主题引文量呈增加趋势，负值表示减少趋势。Z的绝对值在大于等于1.28、1.64、2.32时，表示分别通过信度 $9 0 \\% 9 5 \\% 9 9 \\%$ 显著性检验。",
+    "context9": "(3)研究主题发展等级划分",
+    "context10": "通过以上过程，从研究人员和科研用户两个视角，分别计算得到每个研究主题的发文度和引文度。为了实现对研究主题发展等级进行划分，将主题发文度和主题引文度映射到二维空间,绘制研究主题发展等级空间分布图，依据主题发文度和主题引文度的分布情况,设置坐标原点阈值，将研究主题发展等级划分为\"明星类\"主题、“金牛类\"主题、“瘦狗类\"主题和\"问题类\"主题。"
+  },
+  "3.3流程三：学科研究主题发展趋势预测": {
+    "context1": "在对学科研究主题发展等级划分的基础上,进一步对学科研究主题发展趋势进行预测,帮助科研人员既能明晰当前学科研究主题的发展现状，又能清晰把握主题未来发展态势。其中，研究主题发文量体现了研究人员对主题的关注度，而主题被引量和下载量体现了科研用户对主题的关注度,将这三个指标融合，形成主题热力度指标,用于预测研究主题的未来发展态势。在主题热力度的计算过程中，假设有M个主题,通过LDA主题模型能够获得\"文献-主题\"概率分布矩阵;进一步结合文本聚类,能够将每一篇文献划入到一个研究主题中，假设第i个主题中有N篇文献,相应能够得到每一篇文献对应的最大主题概率 $\\mathrm { W _ { j } } ( \\mathrm { j } { \\in } ( 1 , \\mathrm { N } ) )$ ,以发表年 $\\mathrm { Y } =$ $\\{ \\mathrm { y _ { 1 } , y _ { 2 } , y _ { 3 } , \\cdots , y _ { e } } \\}$ 为时间粒度对文献进行合并，得到包含文献发表量的时间序列分布 $\\mathrm { P = \\{ p _ { 1 } { \\cdot } p _ { 2 } { \\cdot } p _ { 3 } { , } { \\cdot } { \\cdot } p _ { v } \\} }$ 。",
+    "context2": "首先，计算得到不同时间粒度下的主题强度 $\\theta ^ { Y }$ 为：",
+    "context3": "$$\n\\theta ^ { Y } = \\frac { \\displaystyle \\sum _ { x = 1 } ^ { p _ { y } } W _ { x } } { P _ { y } }\n$$",
+    "context4": "$\\sum _ { x \\ = \\ 1 } ^ { P _ { y } } W _ { x }$ 表示第i个主题的时间粒度y中,所有文献的主题概率之和,P表示当前时间粒度中的文献数量总和。",
+    "context5": "然后，分别计算第i个主题的时间粒度y中，文献被引量和下载量的标准偏差为：",
+    "context6": "$$\nS C ^ { Y } = \\sqrt { \\frac { 1 } { P _ { y } - 1 } \\sum _ { x = 1 } ^ { P _ { y } } ( \\frac { C _ { x } } { k } - \\bar { C } ) }\n$$",
+    "context7": "$$\nS D ^ { Y } = \\sqrt { \\frac { 1 } { P _ { y } - 1 } \\sum _ { x = 1 } ^ { P _ { y } } ( \\frac { D _ { x } } { k } - \\bar { D } ) }\n$$",
+    "context8": "$C _ { x }$ 表示第i个主题的时间粒度y中，一篇文献的被引次数， $\\bar { C }$ 表示当前时间粒度中的文献平均被引次数; $D _ { x }$ 表示第i个主题的时间粒度y中,一篇文献的下载次数， $\\bar { D }$ 表示当前时间粒度中的文献平均下载次数。为了消除时间因素对主题被引量和下载量的累计影响,实现年份较近的文献和年份较远的文献之间的动态平衡，将每篇文献的被引次数和下载次数除以时间因子 $\\operatorname { k } ( k = y _ { e n d } - y _ { c u r r e n t } + 1 )$ 。",
+    "context9": "进一步,在第i个主题下，将每个时间粒度中的 $\\theta ^ { Y }$ 分别与对应的 $S C ^ { Y }$ 和 $S D ^ { Y }$ 融合，形成加权后的指标为：",
+    "context10": "$$\n\\boldsymbol { W } \\boldsymbol { S } \\boldsymbol { C } ^ { Y } = \\boldsymbol { S } \\boldsymbol { C } ^ { Y * } \\boldsymbol { \\theta } ^ { Y }\n$$",
+    "context11": "$$\nW S D ^ { Y } = S D ^ { Y } \\ast \\theta ^ { Y }\n$$",
+    "context12": "最后，融合 $\\mathbf { \\mathrm { { W S C } } } ^ { Y }$ 和 $\\mathbb { W } S D ^ { Y }$ ,形成主题热力度指标，采用熵权法为二者分配客观权重分别为 $\\mathfrak { \\omega } _ { 1 } = 0 . 3 7 \\cdot \\mathfrak { w } _ { 2 } = 0 . 6 3$ 。",
+    "context13": "$$\nT I ^ { Y } = { \\omega _ { 1 } } ^ { * } W S C ^ { Y } + { \\omega _ { 2 } } ^ { * } W S D ^ { Y }\n$$",
+    "context14": "通过计算得到主题热力度，为了展示研究主题的未来发展趋势,本文选择指数平滑法进行预测。指数平滑法包括一次指数、二次指数和三次指数，一次指数和二次指数对波动性较大的数据，预测会产生较大误差，而三次指数能够跟踪时序的非线性变化趋势,具有较强的实用性,被广泛应用于生产预测[25]、中短期经济发展趋势预测[26]。因此,本文将使用三次指数平滑预测，结合主题热力度，对研究主题的未来发展态势进行预测。"
+  },
+  "4 实验结果": "",
+  "4.1数据来源": {
+    "context1": "本文数据来源于CNKI数据库,将\"智慧图书馆\"作为学科研究领域进行文献检索。将主题词限定为\"智慧图书馆”，时间不限,即标题、关键词、摘要中出现\"智慧图书馆”,则认为该文献与\"智慧图书馆\"相关。检索发现,2011年之前与“智慧图书馆\"相关的文献较少,因此,获取2011-2020年的数据进行重点研究，共获得文献数据2176条。"
+  },
+  "4.2主题提取与文本聚类": {
+    "context1": "根据研究主题的识别流程，当主题数目设置为10个， $\\alpha =$ $5 , \\beta { = } 0 . 1$ 时，基于LDAvis模型呈现的主题可视化结果,各个主题之间相互独立，表明主题数目最优。依据最优模型的输出结果，首先应用\"文献-主题\"概率分布矩阵进行文本聚类,进而结合研究主题下的相关词对主题进行凝练，具体结果见表1。",
+    "context2": "表1我国\"智慧图书馆\"研究主题统计表",
+    "context3": "Table 1 Statistical table of topics in the field of smart library",
+    "context4": "<table><tr><td>主题序号</td><td>主题名称</td><td>专利授权量</td></tr><tr><td>1</td><td>图书馆智慧服务</td><td>286</td></tr><tr><td>2</td><td>智慧化服务平台</td><td>288</td></tr><tr><td>3</td><td>智慧图书馆信息素养</td><td>160</td></tr><tr><td>4</td><td>图书馆转型</td><td>241</td></tr><tr><td>5</td><td>智慧图书馆员</td><td>193</td></tr><tr><td>6</td><td>图书馆智慧空间</td><td>201</td></tr><tr><td>7</td><td>智慧图书馆前沿技术</td><td>242</td></tr><tr><td>8</td><td>智慧图书馆系统架构</td><td>193</td></tr><tr><td>9</td><td>智慧图书馆发展趋势</td><td>215</td></tr><tr><td>10</td><td>“互联网+”与智慧图书馆</td><td>157</td></tr></table>",
+    "context5": "<table><tr><td>汇总</td><td>2176</td></tr></table>"
+  },
+  "4.3学科研究主题发展等级划分": {
+    "context1": "依据给出的学科研究主题发展等级划分流程,计算每个研究主题的主题发文度(公式(1))与主题引文度(公式(2)一(3))。分析发现，\"智慧图书馆\"领域涵盖的10个研究主题，其主题发文度和主题引文度均大于0,表明\"智慧图书馆\"领域各个研究主题的发文量和引文量均成上升趋势,体现了国内学术界对\"智慧图书馆\"领域的持续关注。将主题发文度和主题引文度分别作为X轴和Y轴坐标映射到二维空间形成研究主题发展等级空间分布图，依据主题位置分布对主题发展等级进行细粒度划分，见图1。",
+    "context2": "![](images/0924013610fa0e01c13d5232855bba944858ddf1c3fce3572543ed4ec6a91b73.jpg)  \n图1研究主题发展等级空间分布图  \nFigure 1 Map of development hierarchy level of research topic",
+    "context3": "分析图1发现，由于10个研究主题的主题发文度和主题引文度均大于0,为了能够清晰界定研究主题之间的等级界限，分别获取主题引文度和主题发文度的中位数为(2.764，5.536),作为发展等级界限划分的阈值。参考波士顿矩阵的命名方式,依据设置的阈值进行发展等级划分：",
+    "context4": "(1)第一维度 $\\longrightarrow$ “明星类”主题， $\\mathrm { Z } { > } 2 . 7 6 4 , \\mathrm { \\beta } { > } 5 . 5 3 6$ ，特指研究主题引文度和发文度\"双高\"的主题群,说明科研用户对该研究主题的知识需求量快速增加时，研究人员的成果供应量也在高速递增，表明研究主题处于快速成长期,需要科研人员重点关注。",
+    "context5": "(2)第二维度 $\\longrightarrow$ “金牛类\"主题， $, Z < 2 . 7 6 4 , \\beta > 5 . 5 3 6$ ，特指研究主题发文度高，但主题引文度较低的主题群，说明研究人员的成果供应量大于科研用户的知识需求量，表明研究主题处于成熟期，科研人员可保持适当的关注。",
+    "context6": "(3)第三维度 $\\longrightarrow$ “瘦狗类”主题， $, Z < 2 . 7 6 4 , \\beta { < } 5 . 5 3 6$ ，特指主题引文度和主题发文度\"双低\"的主题群，表明研究主题处于萌芽期或衰退期,科研人员可制定灵活的研究策略。",
+    "context7": "(4)第四维度 $\\longrightarrow$ “问题类”主题， $Z > 2 . 7 6 4 , \\beta { < } 5 . 5 3 6$ ，特指主题引文度高，但主题发文度较低的主题群，说明科研用户的知识需求量大于研究人员的成果供应量，表明研究主题正处于缓慢成长期,创新潜力强,科研人员应该增加对研究主题的关注度。",
+    "context8": "通过上述方式，实现了对学科研究主题发展等级地划宋凯,冉从敬.学科研究主题发展等级划分与趋势预测方法——以我国智慧图书馆研究为例[J].情报科学,2022,40(7):136-144.",
+    "context9": "![](images/aa512eaa8931d2ac3ae27acbf90c7b67a2a12c712e6719f8636d438ae19ef0e3.jpg)  \n图2“明星类”主题发展趋势预测  \nFigure 2 Map of star topics‘ development trend forecast",
+    "context10": "分，为科研人员和科研管理部门明晰\"智慧图书馆\"领域发展现状，把握研究主题发展动向，确定研究切入点提供了参考指引。"
+  },
+  "4.4学科研究主题发展趋势预测": {
+    "context1": "通过以上学科研究主题发展等级的划分，得到我国\"智慧图书馆\"领域的4个\"明星类\"主题、1个\"金牛类\"主题、4个“瘦狗类\"技术主题、1个\"问题类\"主题。由于\"明星类\"主题是当前学科研究的热点和前沿，处于快速成长阶段,科研人员应考虑将其作为重点研究方向，因此，本文依据学科研究主题发展趋势预测流程,重点对\"明星类\"主题进行趋势预测的结果展示，使用公式(4)一(9)计算每个研究主题的逐年热力度，并使用三次指数平滑法对各个研究主题未来三年(2021-2023年)的发展态势进行预测，见图2。在预测效果评估方面，选择均方根误差(RMSE)和平均绝对误差(MAE)作为判断预测效果优劣的指标，其中RMSE和MAE集中在0.2左右，表明研究主题发展趋势预测效果良好。",
+    "context2": "分析图2发现，“主题 $1 { \\longrightarrow }$ 图书馆智慧服务\"在2011-2014年的主题热力度呈下降趋势，在2017-2020年呈上升趋势，未来三年的热力度预测仍为上升态势。随着信息化的高速发展，传统图书馆很难满足用户多元化的资源需求，这也推动了传统图书馆向智慧图书馆的过渡和转型。智慧图书馆是智能技术、智慧图书馆员、图书馆业务管理相互融合的结果，而智慧服务是智慧图书馆的核心,具有空间虚拟化、流程智能化、内容知识化等特点。如陆婷婷对人工智能时代的智能图书馆服务内容、实现途径与发展瓶颈进行了研究[7];陈丹等提出了基于用户画像的图书馆个性化智慧服务模型框架[28];陈小平提出区块链技术能够助力图书馆智慧服务在管理体制、机构库建设、知识交易服务模式上的转变[29]；",
+    "context3": "董同强等从大数据与人工智能双驱动的视角设计了高校图书馆智慧型学科服务平台[30]。在物联网和人工智能等智能技术的驱动下，智慧服务将成为未来图书馆发展的新方向，而宏观层面的功能定位及微观层面的业务重组为科研人员的持续探索提供了广阔空间。",
+    "context4": "“主题 $_ { 4  }$ 图书馆转型”在2012-2015年的主题热力度呈上升趋势，在2016-2020年呈平稳发展趋势，未来三年的热力度预测仍为上升态势。图书馆转型既是当代图书馆事业发展的关键特征，也是图书馆学理论研究的关注焦点。在信息时代数据意识全面增强的背景下,图书馆作为科研活动和文化事业发展的重要支撑,其服务和管理也应向数据化和智能化转向。相关研究也从空间、资源、服务、管理等要素出发,探讨了图书馆转型的实践路径。如邵波等提出以数据智能计算为中心，将数据服务作为新时代图书馆服务的主要能力[31;柯平等对后知识服务时代的图书馆转型理念、关键要素与路径问题进行了剖析[32];初景利等提出要加快从资源能力到新型服务能力的转变,构建图书馆新型服务能力[33]；饶权提出建设\"全国智慧图书馆体系”,推动图书馆由数字化向智慧化发展[34]。在新一轮科技和产业革命引领下，为图书馆的转型发展带来了新的机遇，推动图书馆向智慧化转型将引发科研人员的持续关注。",
+    "context5": "“主题 $7 \\longrightarrow$ 智慧图书馆前沿技术”在2011-2020年的主题热力度持续呈波浪式的上升,未来三年的热力度预测仍为上升态势。以人工智能、大数据、云计算、区块链为代表的新兴技术不断成熟，如何将新兴技术与图书馆服务场景相结合，提升图书馆智慧化服务水平，引发了科研人员的广泛研究。如洪亮等以图书馆的业务流程为支撑和导向，构建了大数据驱动的图书馆智慧信息服务体系[35]；傅云霞对人工智能在智慧图书馆的应用领域进行了研究[3];周耀研究设计了4个基于区块链技术的智慧图书馆应用系统[3];任萍萍构建了5G技术驱动下的智慧图书馆应用场景与智慧平台模型[38]。因此,将新兴技术与图书馆业务深度融合,创新智慧图书馆业务生态,将成为科研人员持续探索的重点。",
+    "context6": "表2基于共词聚类分析的我国\"智慧图书馆\"研究主题分布表  \nTable 2 Statistical table of topic distribution in the field of smart library based on co-word clustering",
+    "context7": "<table><tr><td>主题序号</td><td>主题名称</td><td>关键词</td></tr><tr><td>1</td><td>图书馆智慧服务</td><td>“双一流&quot;建设、信息时代、公共图书馆、学科服务、数据驱动、智慧化、智慧图书馆员、智慧推荐、智慧服 务、智慧管理、智慧馆员、服务模式、服务理念、用户需求、移动互联网、系统设计、资源建设、转型发展、</td></tr><tr><td></td><td></td><td>转知成慧 个性化、以人为本、信息化、全民阅读、公共文化服务、建设策略、智慧阅读、阅读推广、阅读服务</td></tr><tr><td>2 3</td><td>智慧图书馆阅读推广 智慧图书馆前沿技术</td><td>5G、人工智能、智能技术、人脸识别、数据挖掘、信息服务、参考咨询、应用场景、数据管理、智慧平台、服</td></tr><tr><td>4</td><td></td><td>务平台、服务能力、隐私保护 传统图书馆、信息素养、图书馆服务、图书馆管理、未来图书馆、用户服务、用户行为、融合图书馆、读者</td></tr><tr><td>5</td><td>智慧图书馆信息素养</td><td>服务 信息资源、区块链技术、发展路径、图书馆建设、图书馆转型、数据服务、新媒体、智慧时代、智慧社会、</td></tr><tr><td>6</td><td>图书馆智慧空间</td><td>智慧空间、服务创新、空间再造 SOLOMO、个性化服务、信息技术、图书馆网站、微服务、情境感知、深度学习、用户画像、知识服务、移动</td></tr><tr><td>7</td><td>智慧化服务平台</td><td>图书馆、移动视觉搜索、资源共享</td></tr><tr><td>8</td><td>智慧图书馆系统架构 智慧图书馆发展趋势</td><td>RFID、云计算、创新服务、学科馆员、智慧校园、智能手机、物联网 Citespace、共词分析、可视化分析、文献计量、知识图谱、研究热点、研究现状、聚类分析</td></tr></table>",
+    "context8": "![](images/c733b1b5d0c629a49ad8bf638a91fdd52215055033bc3b83ad57f1854c8970b7.jpg)  \n图3基于共词聚类分析的我国\"智慧图书馆\"研究热点分布图  \nFigure 3 Map of research hotspot in the field of smart library based on co-word clustering",
+    "context9": "“主题 $s { \\longrightarrow }$ 智慧图书馆系统架构\"在2011-2020年的主题热力度呈上升趋势，未来三年的热力度预测仍为上升态势。在国家深入推进创新驱动发展和\"云数智\"赋能时代背景下，新兴信息技术与智慧图书馆的深度融合推动了图书馆基础设施层、数据资源层和服务应用层的系统架构变革。相关研究也从理论走向实践，优秀实践案例不断涌现，为后继者提供范例参考。如李靖等探讨了上海交通大学图书馆自助服务的转型实践[39];曹分析了南京晓庄学院图书馆采用智能化技术提升学科服务的新思路、新模式[40];秦中云等以北京联合大学图书馆为例,阐述了云计算环境下多校区图书馆智慧服务平台构建的平台架构[4;林珍梅设计了基于Ha-doop 的高校图书馆阅读书目智慧推荐系统[42]。因此,以图书馆的业务流程为支撑和导向，重构图书馆系统架构的业务流程,仍存在广泛的探索空间。",
+    "context10": "此外，其他三类研究主题的趋势预测情况概述如下：“主题 $2 { \\longrightarrow }$ 智慧化服务平台\"被划分为\"金牛类\"主题,未来三年的热力度预测为下降态势。“瘦狗类\"主题包括\"主题 $_ { 3 \\longrightarrow }$ 智慧图书馆信息素养\"\"主题 $5 \\longrightarrow$ 智慧图书馆员\"\"主题 $_ { 6 \\longrightarrow }$ 图书馆智慧空间\"\"主题 $9 \\longrightarrow$ 智慧图书馆发展趋势”,其中，主题3未来三年的热力度预测为上升态势，主题5未来三年的热力度预测为下降态势，主题6未来三年的热力度预测为平稳发展态势，主题9的热力度预测为波浪式上升态势。问题类”主题包括\"主题 $1 0 \\longrightarrow$ 互联网 $^ +$ 与智慧图书馆”，未来三年的热力度预测为上升态势。科研人员和机构可依据研究主题的不同发展等级及未来发展趋势，做出科研决策，并制定科研规划。"
+  },
+  "4.5效果评估": {
+    "context1": "为了评估本文所提方法的准确性和科学性,利用同一数据集进行共词聚类分析,探析研究主题发展等级。具体过程为：将检索到的文献题录数据，导人到SATI中进行关键词提取,通过规范化处理后，得到2516个关键词。依据Donohue提出的高频词、低频词界分公式进行关键词选取[43],会导致词频阈值设置过高，保留关键词较少。所以,本文直接选取词频大于5的157个高频关键词生成共词矩阵，进一步将共词矩阵导人到Vosviewer中进行共词聚类分析。依据聚类结果，共得到8个主题类团，根据关键词内容对主题类团进行凝练总结，见表2,并绘制研究热力度图谱，见图3。",
+    "context2": "为便于表述,将本文提出的学科研究主题发展等级划分与趋势预测方法称为A方法，将基于共词聚类分析的方法称为B方法。对比发现：",
+    "context3": "(1)A方法在理论基础方面较B方法有优势。B方法是基于统计的方法获得研究领域的高频关键词,但忽略了低频词,在选取方法上带有主观性;而A方法是采用LDA模型进行主题提取，具有严密的数学推理基础。通过A方法和B方法的主题展示结果可以发现，通过A方法识别的研究主题，基本涵盖了B方法展示的主题，并在此基础上进行了研究主题扩充，保证提取主题的全面性。同时，B方法仅从研究内容角度考量研究主题的发展等级，维度较为单一，而A方法融合了内容分析和引文分析，从发文和引文两个维度探析研究主题的发展等级，在研究维度方面更加完整全面。",
+    "context4": "(2)A方法在结果展示方面较B方法有优势。B方法形成的研究热力图,能够从研究热度视角对研究主题发展等级进行划分，但仅能向科研人员展示学科研究主题的热点分布，如图5中展示的\"主题 $1 { \\longrightarrow }$ 图书馆智慧服务\"\"主题 $_ { 3 \\longrightarrow }$ 智慧图书馆前沿技术\"等为我国\"智慧图书馆\"研究的热点。而A方法对研究主题发展等级进行了更为细粒度的划分，参考波士顿矩阵的命名方式，将研究主题发展等级划分为\"明星类\"主题、“金牛类\"主题、“瘦狗类\"主题、“问题类\"主题。结合A方法和B方法的主题提取结果，B方法中的3个研究热点主题,在A方法中被划入到\"明星类\"主题,验证了A方法的准确性和合理性，此外其他主题被划入到了不同发展等级中，可见A方法的划分方法更加精细。此外，A方法在研究主题发展等级划分的基础上进行了研究主题的发展趋势预测，而B方法并不能给出此结果，体现了A方法的研究结果更加充分，能够为科研人员和机构提供可靠有效的科研决策。"
+  },
+  "5结语": {
+    "context1": "本文结合主题模型、Sen's斜率估计法、Mann-Kendall法、指数平滑法,提出了一种学科研究主题发展等级划分与趋势预测方法。本方法共涵盖三个流程：首先是采用主题模型对学科领域进行主题提取和文本聚类;进一步，从研究人员和科研用户两个视角出发，应用Sen's斜率估计法计算主题发文度，应用Mann-Kendall法计算主题引文度，将两个指标映射到二维空间,并参考波士顿矩阵的命名方式,实现对学科研究主题发展等级进行划分;最后，融合研究主题发文量、被引量和下载量，形成主题热力度指标，采用指数平滑法对学科研究主题未来发展态势进行了预测。本文以CNKI数据库为数据来源，以\"智慧图书馆\"为例进行了方法实证，并与共词聚类分析方法进行了对比,验证了本文所提方法的准确性和有效性，为科研人员和科研管理部门把握学科研究主题发展现状及未来发展态势、制定研究规划、确定科研方向提供了可靠有效的决策参考。",
+    "context2": "需要说明的是，本文采用LDA模型进行主题提取，但主题内容凝练依赖主观判断，需要探索更加有效的主题识别方法，提高结果的语义信息量，以提高主题的可解读性;此外，",
+    "context3": "在趋势预测中直接应用了三次指数平滑法，没有与其他时间序列预测方法进行比较,选择应用最优方法。这些都会对本文的结论产生影响，我们将在后续的研究中加以改进。"
+  },
+  "参考文献": {
+    "context1": "1 谭春辉,熊梦媛.基于LDA模型的国内外数据挖掘研究热点主题演化对比分析[J].情报科学,2021,39(4):174-185.  \n2 Song M,Heo GE,Kim SY.Analyzing topic evolutionin bioinformatics:Investigation of dynamics of thefield with conference data in DBLP[J].Scientometrics,2014,101(1):397-428.  \n3Jung S,Yoon WC.An alternative topic model basedon common interest authors for topic evolution analy-sis[Jl.Journal of Informetrics,2020,14(3):101040.  \n4 廖远丽,罗瑞林.我国图书馆空间研究演进的可视化分析[J].情报科学,2018,36(12):106-110.  \n5 张琬笛,胡志刚,郭佳程,等.基于S曲线的研究主题演进分析与可视化技术[J].信息资源管理学报,2020,10(3):70-77,101.  \n6巴志超,李纲,朱世伟.共现分析中的关键词选择与语义度量方法研究[J].情报学报,2016,35(2):197-207.  \n7 Salton G,Wong A,Yang CS.A vector space model forautomatic indexing[Jl.Communications of the ACM,1975,18(11):613-620  \n8 Deerwester SC.Indexing by latent semantic analysis [J].Journal of the American Society for Information Sci-ence,1990,41(6):391-407.  \n9 Probabilistic latent semantic analysis[EB/OL].[2021-07-26].https://en.wikipedia.org/wiki/Latent_seman-tic_analysis#Latent_semantic_indexing.  \nOLatent dirichlet allocation[EB/OL].[2021-07-26].https://max.book118.com /html/2017/0724 /123956096.shtm.  \n11Kang,HJ,Han J,Kwon GH.Determining the intellectualstructure and academic trends of smart home health care re-search:Coword and topic analyses[J].Journal of Medical In-ternet Research.2021,23(1):e19625.  \n12 Balili C,Lee U,Segev A,et al.TermBall:Tracking and predictingevolution types of research topics by using knowledge struc-tures in scholarly big datalJ].IEEE Access,2020(8):108514-108529.  \n13 李牧南,王雯殊.基于文本挖掘的人工智能科学主题演进研究[J].情报杂志,2020,39(6):82-88.  \n14 李秀霞,宋凯,赵思喆,等.国内外教育大数据研究现状对比分析J].现代情报,2017,37(11):125-129.  \n15 郑彦宁,许晓阳,刘志辉.基于关键词共现的研究前沿识别方法研究[I].图书情报工作,2016,60(4):85-92.  \n16 王效岳,刘自强,白如江,等.基于基金项目数据的研究前沿主题探测方法[J].图书情报工作,2017,61(13):87-98.  \n17 王日芬,曹嘉君,余厚强,等.人工智能研究前沿识别与分析:基于领域全局演化研究视角[]).情报理论与实践,2019,42(9):1-7.  \n18 吴一平,于纯良,曲佳彬,等.文本主题视域下的高校论文研究前沿领域及演化发展趋势研究[J].情报科学,2021,39(5):156-162,183.  \n19 李跃艳,王昊,邓三鸿,等.近十年信息检索领域的研究热点与演化趋势研究一基于SIGIR会议论文的分析[]).数据分析与知识发现,2021,5(4):13-24.  \n20 翟姗姗,叶丁菱,许鑫.数据驱动下人文社会科学领域研究态势分析一基于2010-2019年国家社会科学项目的实证研究[J].图书情报工作,2021,65(7):15-24.  \n2李伟超,郭俊,李经钰.国内外图书情报学研究热点比较一基于iConference会议[J].新世纪图书馆,2021(3):12-17.  \n22 徐小莹,李辉.图书情报学科热点挖掘一基于网络嵌入的大规模关键词共词分析[J].新世纪图书馆,2021(4):88-96.  \n23 宋凯,李秀霞,赵思喆.基于CTM模型与K-means算法融合的文本聚类研究[J].情报理论与实践,2017,40(11):135-138.  \n24 韩霞,李秀霞,史盛楠,等.基于Z分数与Sen's斜率的研究前沿识别方法一以图书馆学领域为例[].情报科学,2020,38(1):93-97,139.  \n25 肖勇,郑楷洪,余忠忠,等.基于三次指数平滑模型与DBSCAN聚类的电量数据异常检测[J].电网技术,2020,44(3):1099-1104.  \n26 贡文伟.黄晶.基于灰色理论与指数平滑法的需求预测综合模型[].统计与决策,2017(1):72-76.  \n27 陆婷婷.从智慧图书馆到智能图书馆:人工智能时代图书馆发展的转向[J].图书与情报,2017(3):98-101,140.  \n28 陈丹,柳益君,罗烨,等.基于用户画像的图书馆个性化智慧服务模型框架构建.图书馆工作与研究,2019(6):  \n72-78.  \n29 陈小平.区块链技术在图书馆智慧服务中的应用研究.现代情报,2018,38(11):66-71.  \n30 董同强,马秀峰.融合与重构:一流学科建设中高校图书馆智慧型学科服务平台的设计[].国家图书馆学刊,2019,28(3):54-62.  \n31 邵波,单轸,王怡.新一代服务平台环境下的智慧图书馆建设：业务重组与数据管理[].中国图书馆学报,2020,46(2):  \n27-37.  \n32 柯平,邹金汇.后知识服务时代的图书馆转型[]).中国图书馆学报,2019,45(1):4-17.  \n33 初景利,赵艳.图书馆从资源能力到服务能力的转型变革].图书情报工作,2019,63(1):11-17.  \n34 饶权.全国智慧图书馆体系：开启图书馆智慧化转型新篇章[J].中国图书馆学报,2021,47(1):4-14.  \n35 洪亮,周莉娜,陈珑绮.大数据驱动的图书馆智慧信息服务体系构建研究[J].图书与情报,2018(2):8-15,23.  \n36 傅云霞.人工智能在智慧图书馆建设中应用研究].图书馆工作与研究,2018(9):47-51,79.  \n37 周耀.区块链技术在智慧图书馆中的应用研究.现代情报,2019,39(4):94-102.  \n38 任萍萍.5G技术驱动下的智慧图书馆应用场景与智慧平台模型构建[].情报理论与实践,2020,43(7):95-102.  \n39 李靖,钱吟,施晓华.基于移动认证与支付的图书馆自助服务的构建与应用[J].图书馆学研究,2018(24):26-32.  \n40 曹町.高校图书馆智慧学科服务实践一以南京晓庄学院为例J].新世纪图书馆,2018(11):52-55.  \n41 秦中云,杜建萍,马栋萍.云计算环境下多校区图书馆智慧服务平台研究—以北京联合大学图书馆为例[.图书馆建设,2019(S1):74-78.  \n42 林珍梅.基于Hadoop的高校图书馆阅读书目智慧推荐系统设计[J].图书馆学研究,2020(23):91-101.  \n43Donohue JC. Understanding scientific literature: a biblio-graphic approach[M].Cambridge:The MIT Press,1973.",
+    "context2": "(责任编辑：张连峰)"
+  },
+  "A Method for Development Hierarchy Division and Trend Prediction of Subject Research Topic:A Case Analysis of Smart Library": {
+    "context1": "SONG Kai',RAN Cong-jing²",
+    "context2": "(1.Shandong Normal University Library,Jinan 250399,China; 2.School of Information Management,Wuhan University,Wuhan 43oo72,China)",
+    "context3": "Abstract:[Purpose/significance】Topicdevelopmenthierarchyclassficationistheasicproblemof informationorganzationesearch, anditisalsoanimportantworkforresearchersandscientificresearchmanagementdepartments tocaryoutresearchtopicselection andsubjectservice.Efectivedevelopment hierarchyanalysisandtrend predictionofsubjectresearchtopicscanhelprelevatresearchersandorganizations tograsptheresearch situationofsubjectareasandmakeacuratescientificresearchdecisions.Method/ process】Inthis paper,atopicdevelopmenthierarchyanalysisand trend predictionmethodofsubjectresearch wasproposedbycombiningtopicodl,Sn'sslopestiationmethod,nn-Kedallethdndexponentialothingetod.Frstlyonhsisof topicidetificatiotwoindexsoftopicpublicatiodegendtopicitatiodegeewerfdandtetoicdvelopmenthahy ofsubjectresearchwasdividedaccordingtoBostonMatrix.Ten,thetopic theralintensityidexwasformedbyintegratingthenumberofresearchtopicspublished,citedanddownloaded,andtheexponentialsmoothing methodwasusedtopredictthefuturedevelomenttrendoftheresearch topics.【Result/conclusion】Experimentsinthefieldof\"smartlibrary\"showthatthe methodproposed in thispapercalasifndpredictthetendfteresearchtopicsinnalloudndingraindwayndisplicabletoal sisoftheresearchtopicsinotherdisciplines【novation/imitation】Themethodproposedinthispaperisuniversaltootherseach topicsandprovidesanewperspectivefordynamicintellgenceanalsis.Howevereliitatiosoftisaperlieinteeedtoiproe the readability of topic modeling and further optimize the trend prediction method.",
+    "context4": "Keywords:topic model; development hierarchy;trend prediction; smart library; scientific decision-making",
+    "context5": "（上接第125页）"
+  },
+  "Study on Continuous Learning Intention of Online Mental Health Courses of College Students": {
+    "context1": "WANG Xiao-yu', GU Ya-di², XIE Yu-guang 3, ZHU Kai-xuan†, YANG Xue- jie $^ 3$",
+    "context2": "(1.The FirstAfliated HospitalofAnhui UniversityofTraditional Chinese Medicine,Hefei 23o031,China; 2.Psychological HealthEducationandCounselingCenter,UniversityofShanghaiforScienceandTechnologyhanghai00093, China; 3.School of Management,Hefei University of Technology,Hefei 23ooo9,China; 4.Indianan University-Luddy SchoolofInteligent System and Engineering,Bloomington,Indiana 47404)",
+    "context3": "Abstract:[Purpose/significance]DuetotheimpactofCOVID-19,the mental health problemsofcollegestudentsare becomig increasinglyprominent.Theemergenceofolinementalhalthcoursesisofgreatvalueinallviatingthementalhealthproblemsofcollege students.Howtoimprovethwillngnessofcollgestudentstocontiuelearing onine mentalhealthcourses?Tus,proving users'stickinestothepltforbecomesanimportantproblemtobesolvedurgently【Method/processAtotalof338validdatawere collctedbyquestioairesurveyfromOctobertoovember221,ndstructuralequationmodelasusedtoverifythehypthsisnd conceptual model.【Result/onclusion]Theresultsshowthat knowledgecontentqualityandplatformservicequalityafectuserperception;Perceivedusefulnesshasapositiveefectonperceivedvalue,perceivedcostand perceivedrisk haveanegativefectonperceivedvalue,ndperceivedpleasurehasnoignificant efectonperceivedvalue.Perceivedvaluehaspositive influenceoncontinuous learning ntention.Innovation/limitationThisstudyexplores theinfluence mechanismofusers'continuousleaningintentioofmentalhealthcoursesonthe MOOC platform fromtwodimensionsofknowledgecontentqualityandplatformservicequality,providinga new approach to enhance the user loyalty of college students to online mental health courses.",
+    "context4": "Keywords: knowledgecontentquality; platformservicequality;onlineknowledge service platform; onlinecourses;continuous learning intention"
+  }
+}

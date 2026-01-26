@@ -1,0 +1,111 @@
+{
+  "original_filename": "full_104.md",
+  "·情报、信息与共享·": "",
+  "2002～2007年国外对搜索引擎检索结果研究综述": {
+    "context1": "曹超",
+    "context2": "（华南师范大学经济与管理学院，广州,510006)",
+    "context3": "[摘要]本文通过文献调查，对 $2 0 0 2 { \\sim } 2 0 0 7$ 年国外关于搜索引擎检索结果研究的文献进行了概述与分析，从搜索引擎检索结果覆盖面、重叠性、相关性三个方面，对搜索引擎检索结果覆盖面的评价、影响因素及改进方法，搜索引擎检索结果重叠性的评价，搜索引擎检索结果相关性的评价、页面排序算法及文本分析方法对搜索引擎检索结果相关性的影响及改进作用、搜索引擎检索结果相关性的其他影响因素作一个综述，以期了解国外的研究态势，供国内的后续研究参考。",
+    "context4": "关键词] 国外　搜索引擎　检索结果综述 [中图分类号]G250[文献标识码]A[文章编号]1003-2797（2009)01-0090-07 [Abstract] Based on 2OO2-2OO7 literatures which are about overseas research on search engine search results，from the coverage，duplication and relevance of search engine search results，this paper summarizes the evaluation and improved methods of search engine search results coverage, the evaluation of search engines retrieve results overlap,the evaluation of search engine search results relevance，the impact of ranking algorithm and analysis on the text on search engine search results relevance and other influencing factors $\\cdot \\cdot$ So we thereof understand the situation of overseas research and Provide suggestions to Domestic research.",
+    "context5": "[Key words] Foreign Search engine Search result Summary",
+    "context6": "随着网络上海量信息的激增，搜索引擎已经成为人们查找网上信息的一种常用的工具，而目前多数搜索引擎的检索结果不管是在数量上还是在程度上还是远远不能满足用户的需要，使得用户不得不花费大量的时间和精力对检索结果进行筛选分析，因此，搜索引擎的检索结果问题逐渐引起了人们的关注和探讨。",
+    "context7": "本文通过文献调查的方法，以Academic $\\mathrm { R e ^ { - } }$ search Library（ARL）、EBSCOhost Web、ElsevierSDOS China Consortium 和 Springer Link 数据库以及International World Wide Web Conference 相关网站为数据源，检索 $2 0 0 2 { \\sim } 2 0 0 7$ 年关于“搜索引擎的检索结果\"的外文文献，经过筛选、去重后（由于独立的搜索引擎和元搜索引擎的工作机制的不同，把对象限定在独立的搜索引擎)，得到相关的学术文章 28篇，通过对这些文章内容的归类分析，试从搜索引擎的检索结果的覆盖面、重叠性、相关性三个方面对国外的研究作一个综述。"
+  },
+  "1搜索引擎的覆盖面": "",
+  "1.1搜索引擎检索结果覆盖面的评价": {
+    "context1": "总的来说,相对于已经存在和日益更新的海量网络信息资源，搜索引擎索引库中网页的比例是很小的，所以搜索引擎检索结果中的覆盖面也是很低的，但是各个搜索引擎的覆盖面的大小也是有所区别的，在网页收录等方面也是有所偏差的（偏差是指检索系统不适当地包含或不包含一定的款目，或者以牺牲其它款目来过分突出某一款目[1])。",
+    "context2": "MarciaAMardis(2OO3)指出，即使最有经验的人使用最强大的搜索引擎也只能搜到网上 $16 \\%$ 的网页，其它 $80 \\%$ 不公开的不可见的网上信息被叫做“隐藏网页”“不可见的网页”、或“深度网页”，并指出近来的研究表明，网上不可见的网页是搜索引擎所收录的网页的500 倍[2]。",
+    "context3": "Ivan vliela Paulina martinetto（2OO5)通过比较三位在生物科学方面比较活跃的学者已经出版的文献数量与这些文献已被搜索引擎收录的数量，指出目录搜索引擎对已经出版的文献收录的覆盖面很小,平均只收录了 $36 \\%$ 已出版的文献，并且不收录1970 以前出版的文献，这样不仅影响了研究人员回顾过去的研究成果，也不利于他们在研究领域的新进展[3]",
+    "context4": "Alastair $\\mathbf { G } \\cdot \\mathbf { S } \\mathbf { m i t h } ( 2 0 0 3 )$ 通过比较全球搜索引擎和地方性搜索引擎在搜索专门的地理信息时的差异，发现在搜索本地地理信息时，本地搜索引擎比全球搜索引擎有更低的返回率，然而不管是全球搜索引擎还是地方性的搜索引擎，它们的覆盖面都是很小的，没有任何一个搜索引擎有 $42 \\%$ 返回率，所以建议用户在查找信息时使用多个搜索引擎[4]。",
+    "context5": "Liwen Vaughan，Mike Thelwall(2OO3)对三个顶级搜索引擎Google、Atlavista、Alltheweb 覆盖面的偏差作了调查研究，得出Google 比Atlavista、Alltheweb 的覆盖面都高,Google与 Alltheweb 收录中国台湾的网页比收录中国的网页与新加坡的网页都要多，但是Atlavista则相反，而特别奇怪的是Atlavista只覆盖了 $4 \\%$ 的中国台湾网页[5]。",
+    "context6": "Jin Zhang，Alexandra Dimitroff（2OO4)通过对19 个独立搜索引擎的调查表明,Google 的索引覆盖面是最好的，接着依次是Entireweb，Alltheweb,Lylos,因此比起其它的搜索引擎，网页更加容易被这4个搜索引擎爬行器索引[6]。"
+  },
+  "1.2搜索引擎检索结果覆盖面的影响因素": {
+    "context1": "关于搜索引擎检索结果覆盖面的原因的研究主要关注于网页的可见性，网页特征的影响因素，搜索引擎特点的影响作用，搜索引擎覆盖面偏差的原因等方面。",
+    "context2": "Marcia A $\\cdot$ Mardis(2003)指出网络搜索引擎收录不到网上不可见的网页的原因是因为很多文档是非 HTML 格式的，没有以http协议的方式放到网上，所以搜索引擎爬行器索引不到他们。搜索引擎忽略了数字图书馆、全文数据库、学习实体等载体上的信息[7]",
+    "context3": "LaurelAClyde(2O03)指出语种的数量和文档的格式是影响搜索引擎覆盖面的主要因素，并指出了网上不可见信息的类型，比如密码保护、数据库（商业可见数据库)、不通用格式、特别入口工具或特别程序、流媒体都是网上的不可见信息，并呼呼使用特别的技术定位不可见信息[8]。",
+    "context4": "AlastairG·Smith（2003)指出，在搜索本地地理信息时，本地搜索引擎比全球搜索引擎有更低的返回率，一部分是由于本地搜索引擎与全球搜索引擎的查询特点的差异造成的。与全球搜索引擎相比,本地搜索引擎在检索操作符，检索词的独立性，检索式大小的限制，对检索特征的说明等方面不及",
+    "context5": "全球搜索引擎[9]。",
+    "context6": "Yiping Ke，Lin Deng，Wilfred $\\mathrm { N g }$ ，Dik-LunLee(2005)认为网页的动态性，比如网页数量的增长，网页内容的变化，超链接结构等带给搜索引擎挑战,并提出搜索引擎如何对付网页动态性，改进其收录范围的方法[10]。",
+    "context7": "Jin Zhang，Alexandra Dimitroff（2OO4)探讨了网页的特征对网页的可见性（他们认为网页的可见性是指网页在搜索引擎检索结果列表中的排列位置，网页的排列位置越靠近搜索引擎检索结果列表的顶部,该网页的可见性就越好)的影响。他们对19 个搜索引擎进行一周的检索后,接着对他们进行为期21周的观察，最后得出以下的结论：",
+    "context8": "(1)当关键词在网页题名中出现的频率少于三次时，网页在搜索引擎检索结果列表中的位置会随着关键词的个数增加而上升，但是当关键词在网页题名中出现的频率大于3时，网页在搜索引擎检索结果列表的位置突然剧烈下降了，因此，频率“3”是网页在搜索引擎结果列表中的位置的上升或下降的分界点。",
+    "context9": "(2)当关键词出现在文本中时，网页在搜索引擎检索结果列表中的位置会随着关键词的频率增加而上升，并且这种趋势没有分界点的约束。",
+    "context10": "(3)比起关键词只是出现全文中或只是出现在题名中，关键词同时出现在题名和全文中的可见性要更好,而关键词出现在文本中比出现在题名中的可见性要好。",
+    "context11": "(4)网页的可见性不会受到网页的字体的颜色、字体的大小、词的单复数、词的形式等因素的影响[11]。",
+    "context12": "Jin Zhang，AlexandraDimitroff（2OO4)接着在另一篇文章中探讨了元数据的运用对网页的可见性的影响。他们使用了调查的方法首先把46个网页提交给了19个搜索引擎。在一周后调查人员使用简单检索的方式把网页检索出来，结果只有28个网页被搜索引擎索引了，其余的18个网页没有出现在任何搜索引擎的检索结果列表中，接着通过21周的观察，试探讨题名、主题、描述这三个与网页主题内容相关的元数据元素的关键词出现的频率和位置以及这三个元数据中的关键词的来源出处对网页在搜索引擎检索结果列表中可见性的影响，最后得出如下的结论与发现：",
+    "context13": "(1)不要利用没有出现在题名或全文中的关键词作为元数据元素的值，在元数据元素中的关键词",
+    "context14": "必须是来自该网页的。",
+    "context15": "(2)使用元数据元素的网页比没有使用元数据元素的网页的可见性更好，也就是说网页中运用元数据会增加网页在搜索引擎检索结果列表的可见性。",
+    "context16": "(3)同时有主题、题名、描述三个元数据元素的网页的可见性最好，其次是三个元数据元素中的任意两种的组合，接着是网页只有主题元数据元素，之后是网页只有题名元数据元素，可见性最差的网页是只有描述元数据元素的网页。",
+    "context17": "(4)关键词是从文章的题名中抽取出来的网页的可见性最好。其次是关键词是同时来自题名和全文的网页，元数据的关键词仅是从全文中抽取出来的网页可见性是最差的。",
+    "context18": "(5)因此，主题元数据元素在网页可见性中的作用是最大的，同时关键词的来源也很重要。元数据是一个很好的机制来提高已提交的网页在搜索引擎检索结果列表中的可见性[12]。",
+    "context19": "Liwen Vaughan $, \\ast$ Mike Thelwall（2OO3)对搜索引擎的覆盖面的偏差的情况及其原因进行了研究，他们对三个顶级的搜索引擎Google、Atlavista、All-theweb以及四个代表英语或中文的国家或地区美国、中国、新加坡、中国台湾进行调查，分析了网页覆盖面的比例、网页覆盖面指数(搜索引擎覆盖的网页的数量/调查的爬行器索引到的网页的数量）、搜索引擎的覆盖面与搜索引擎索引库中的网页外部链接数总和的关系，同时也把搜索引擎的覆盖面与链接分值(即每个网页的外部链接数)结合起来分析，得出如下结论：",
+    "context20": "(1)网页的覆盖面偏差不能简单地归为语言因素，因为美国和新加坡同样使用英语，但是美国的网页的覆盖面比例和网页的覆盖面指数都高于新加坡的网页，然后同为使用汉语的国家或地区，中国与中国台湾却比新加坡要高。",
+    "context21": "(2)而在比较单个独立搜索引擎时，Google 覆盖面是最高,Google 与Alltheweb 收录中国台湾的网页比中国与新加坡的要多，但是Atlavista则相反，特别奇怪的是，Atlavista只覆盖了 $4 \\%$ 的台湾的网页，因为作者只是从技术方面来考虑原因的，而忽略了政治和社会因素，作者因此推测这种奇怪现象可能是因为政治方面的原因造成的。",
+    "context22": "(3)网页的偏差的确是存在的，但不是因为搜索引擎故意的选择造成的，是指向网页的链接的数量影响了搜索引擎对网页的覆盖面。我们应该把网页的链接数量与网页的发展历史联系起来分析，因为互联网最早出现在美国，美国网页在搜索引擎中比较高的覆盖率是其网页优势累计影响的自然结果[13]。"
+  },
+  "1.3搜索引擎检索结果覆盖面的改进方法": {
+    "context1": "Wang liang，Guo Yiping，Fang Ming(2OO7)提出了一种像DNS(域名服务器)三层结构的搜索引擎系统，认为这样的系统在理论上可以解决搜索引擎的覆盖面问题。三层结构的最底层包括爬行器、索引器、检索器；中间层：索引器、检索器;最高层只是有检索器[14]。"
+  },
+  "2搜索引擎检索结果的重叠性": {
+    "context1": "国外对搜索引擎检索结果重叠性的研究主要集中在比较各个搜索引擎检索结果之间的重叠性，国外研究表明，搜索引擎检索结果的重叠性很低。",
+    "context2": "Vinishi kathuria ; sherry koshman（2O06）以Google、Yahoo!、AskJeeves、MSNSearch为例,研究了搜索引擎的重叠性，用了12570个检索提问式分别对4个搜索引擎进行了检索，并对检索结果的第一页进行了分析，得出如下结论：",
+    "context3": "(1)4个搜索引擎的第一页总共返回485460 个不重复的结果,检索结果的第一页中 $18 \\sim 2 7 \\%$ 的网页是赞助商网页， $73 \\sim 8 2 \\%$ 的网页是非赞助商的网页。",
+    "context4": "(2)在4个搜索引擎的检索结果中，独立的检索结果占 $8 4 . 9 \\%$ ,2个搜索引擎都有的检索结果占$1 1 . 4 \\%$ ,3 个搜索引擎中都出现的检索结果只是占了 $2 . 6 \\%$ ,检索结果同时出现在4个搜索引擎中的比例仅占 $1 . 1 \\%$ ，AskJeeves 中独立的检索结果的比例是 $73 . 9 \\%$ ,Google中独立的检索结果的比例是$6 6 . 4 \\%$ ，MSNSearch 中独立的检索结果的比例是$70 . 8 \\%$ ,Yahoo!中独立的搜索结果的比例是$71 . 2 \\%$ ：AskJeeves 中独立的非赞助商网页的比例是 $71 . 8 \\%$ ,Google 中独立的非赞助商网页的比例是$73 . 9 \\%$ ，,MS NSearch 中独立的非赞助商网页的比例是 $7 9 . 1 \\%$ ,Yahoo！中独立的非赞助商网页的比例是 $73 . 9 \\%$ 。",
+    "context5": "(3)Google与Yahoo!赞助商的网页的重叠性 很低。12570个检索式在Yahoo！中返回34306个 赞助商的网页，而Google则返回30194个赞助商的 网页,同时出现在Yahoo!和Google 中赞助商的网 页是2892个，重叠指数是 $4 . 7 \\%$ 。",
+    "context6": "(4)而因为Google与AskJeeves，Yahoo!与MS NSearch是合作伙伴关系，所以他们的赞助商的网页重叠性是很高的。其中,Google与AskJeeves重叠的赞助商的网页是14816个，比例为 $20 . 6 \\%$ ，Yahoo!与MSNSearch重叠的赞助商的网页是",
+    "context7": "10166个，比例为 $1 7 . 2 \\%$ 。",
+    "context8": "通过以上的结果，作者认为这4个重要的搜索引擎的检索结果低的重叠性表明了他们对相同提问式在检索和结果排列方面存在着很大的差异[15]。",
+    "context9": "Peter facso（2OO5）比较了Google 和Yhaoo!的重叠性，通过一个检索式“Google Scholars”,Google 检出命中数为63,Yhaoo!为81,在总共164 个命中数中，只有23个搜索结果是重叠的，并且检索结果的第一页只有一个重叠记录，前两页只有4个重复，而在Google 和Yhaoo!前1OO 条记录中，只有27个记录是重叠的，且在前10条检索结果中只有一条是重复的，最后得出不同的搜索引擎检索结果之间的重叠很少，特别是索引非结构化的网页的搜索引擎的重叠性是最小的，建议使用元搜索引擎进行搜索，以保证检全率和相关性，推荐使用Dogpile[16]"
+  },
+  "3搜索引擎检索结果的相关性": "",
+  "3.1搜索引擎检索结果相关性的评价": {
+    "context1": "关于搜索引擎检索结果相关性的评价主要是集中于：在检索专题信息时，搜索引擎检索结果的相关性;不同盈利模式的搜索引擎的检索结果的相关性差异;基于不同格式提问式的搜索引擎检索结果的相关性差异。",
+    "context2": "D $\\cdot$ Ilic,T. L. Bessell,C．A $\\cdot$ silagy，S. Green(2003)用18个关键词,2个布尔逻辑符检索4个一般搜索引擎(Altavista,Excite,Google,Yahoo）和 5个医学搜索引擎（drkoop，Heahthsite，Healthonthe net（HON），NHSDirect（DHS），National Li-brary of Medcineplus),共检索出 4927个网页,其中52个网页是相关的信息，比例为 $1 . 0 6 \\%$ ,其中一般搜索引擎检出3267个网页，其中47个是相关的，占 $1 . 4 4 \\%$ 的比例，医学专门搜索引擎检出1660 个网页，其中10 个网页是相关的，比例为 $0 . 6 0 \\%$ ，Google 被认为是最高效的一般搜索引擎，产生$4 . 1 \\%$ 相关网页,而在专业医学搜索引擎中，HON的检索结果的相关性是最高的，比例是 $1 . 6 \\%$ ，最后得出,在查找与检索荷尔蒙(androgen deficiency inthe agingmale)相关的信息时，一般搜索引擎比医学搜索引擎能提供更多相关的信息的网页，但是作者也指出，是否在其它主题领域内还是一样的结论还有待研究[17] 。",
+    "context3": "Margaret Markland(2OO5)测试了在检索某些专题信息时,Google的检索结果相关性。主要是通过简单查询方式用5个常用的关键词查询RDN(RDN 是 Resource discovery networld 的缩写，是TISCIE的一部分，提供免费入口给专题信息的网关或中心(hub)，主要是为英国教育用户服务的。)的8个中心,每个查询取前5条记录,同时使用简单查询的方式在Google中检索这些关键词，每个查询取前30条记录，通过比较分析，得出以下结论：",
+    "context4": "(1)在RDN 中心检索到的结果有 $22 \\%$ 是出现在Google检索结果的前30条记录中,但是如果限制到Google检索结果的前10条记录中则只有 $12 . 5 \\%$ 。",
+    "context5": "(2)用户经常错过重要的信息的原因是检索结果中第一页的相关性不是很高，但是用户一般只是看第一页。",
+    "context6": "(3)关于科学家和技术人员的词汇经常出现在Google的检索结果列表中。",
+    "context7": "(4)有好几个RDN中心的结果排列是按字顺排列，这个策略导致了一些奇怪的检索结果的出现，一些标题带有数字字母\"aa\"或表明是“外国特征的词\"的网页更容易出现在RDN中心检索结果中。",
+    "context8": "(5)Google检索结果更倾向于排列有名望的网页，比如政府、公共机构、大公司的网页。",
+    "context9": "(6)Google的检索结果更加广泛和丰富，而RDN中心的检索结果多集中于某些专题，却是缺乏广泛的吸引力，特别是在其他特殊专题领域。",
+    "context10": "(7)Google只有在高级搜索中才能找到更有质量的资源。其最大的优势在于保证了学术背景，同时根据专家对每个资源的测量，制定了一序列标准。",
+    "context11": "(8)认为有质量的资源不出现在搜索引擎的检索结果列表中的看法是错误的，尽管在搜索引擎中相关的记录多是分散在检索结果中的[18]。",
+    "context12": "Xiaotanchen(20O6)主要对学术性信息查询工具WebFeat、MetaLib 和一般搜索引擎Google 作了一个比较,认为WebFeat、MetaLib 查询结果在内容上、质量更高,更新得比较快。",
+    "context13": "而在Google上查询到的学术信息在时间是难以接受的，查到的经常是一些时间比较滞后的学术网页信息，主要原因有以下方面：Google应用在商业政治等其他目的;Google必须用一段时间来索引新的网页和更新数据库;Google用网页受欢迎度作为标准来排列网页信息。",
+    "context14": "对于某些数据库,Google scholar 是可以进入的，可是它却没有收录这些数据库的相关文章，是因为它限制了搜索引擎文件的大小（Google scholar要求文件大小 $1 0 0 { \\sim } 1 2 0 \\mathrm { { K B } }$ ,而大多数学术文章是超过1MB 的)[19]。",
+    "context15": "Dion $, \\cdot$ H·Goh,RebellaP.Ang（20O3)讨论了传统搜索引擎与付费搜索引擎检索结果的相关性。他们从一个叫“百万富翁\"节目网站中抽出 390 个一般性知识的问题,然后分类挑选出45个问题分别检索了Google(代表了传统的搜索引擎)和Overture( $\\mathrm { O ^ { - } }$ verture是付费搜索引擎，不像传统的搜索引擎那样，付费搜索引擎不是根据网页的内容特征，而是根据网页的拥有者付费的多少来决定网页在检索结果列表中的排列位置)，并对前10条检索结果进行分析,发现：(1)Google比Overture 检索到更多相关的信息。（2)Overture 比Google 检索出更多不相关的信息。（3)比起后5个记录，检索结果的前5个记录与检索提问式更相关。这表明两个搜索引擎运用的排序算法都是比较好的。(4)在一般性问题的检索上,Google 比Overture 的覆盖面更大，因为一般性问题所需要的信息一般是关于某个主题或是某个概念的,没有商业本质，也没有和某个特别的品牌或产品相联系，所以不被Overture 收录[20]。",
+    "context16": "SedaQzmuthi(2005)从搜索引擎的1999 年搜索提问日志中分别选出10个基于问题格式的提问式和10个基于关键词格式的提问式分别在基于关键词格式提问的搜索引擎代表Google和基于问题格式提问(基于自然语言的提问)的搜索引擎代表AskJeeves进行检索，最后发现：",
+    "context17": "(1)用问题格式的提问式进行检索，AskJeeves检索到的相关的和准确的结果比Google多一点，但不是很明显。",
+    "context18": "(2)用关键词格式的提问式进行检索，Google明显比AskJeeves 检索出更多相关和准确的网页。",
+    "context19": "(3)把两种格式的提问式结合起来考虑,Google明显比AskJeeves 检索出更多相关和准确的网页[21]。"
+  },
+  "3.2搜索引擎检索结果相关性的影响因素及改进方法": "",
+  "3.2.1页面排序算法对搜索引擎检索结果相关性的影响及改进作用": {
+    "context1": "搜索引擎检索结果的页面排序算法的研究起源于Google 的PageRank,PageRank 认为如果一个网页的外部链接越多，这个网页就越重要,它在网页的结果排名中就越靠前。与PageRank 相类似的，HITS[22]也是通过链接的数量来确定搜索结果的排序权重，但是HITS 更强调网页和其外部链接之间的相互依赖，相互加强关系，认为彼此的权威性对对方的权值都有影响。PageRank 和 HITS 都在一定程度上提高了搜索引擎检索结果的相关性，但是由于它们自身的局限性，比如 pageRank 忽视了主题的相关性，HITS 的主题漂移问题,于是人们不断地对它们进行了改进，因此近年来的研究也是主要集中在对页面排序算法的改进方面。",
+    "context2": "Taher H.Haveliwala(2OO2)认为 Top-sensitivePageRank可以改进搜索引擎检索结果的网页排名。Top-sensitive PageRank 是一系列的不同主题的网页排名向量，网页在不同的主题的得分便构成了不同的 pageRank 向量,当用户查询时,此算法根据用户的提问式和相关的背景(context)判断用户的查询的相关主题，给予相关网页基于不同的主题的不同的得分,即 PageRank 权值,根据最后的 Pag-eRank权值，为用户返回更加准确的检索结果排名[23]。",
+    "context3": "Mike Thelwall（20O3）在一个数据库中测试Google的PageRank算法的有效性，这个数据库包含了英国、澳大利亚、新西兰的大学的网页的结构链接。结果表明了单独使用一种链接算法，不管是外链，还是PageRank 算法,都不能检索出很好相关的网页，因此,Google检索结果的高准确性应该归功于它把PageRank 算法和强大的文本匹配技术结合起来[24]。",
+    "context4": "Clint Boulton(2OO7)指出Google最近引进了一项技术叫dataspaces,这项技术加进Google 的搜索算法中，可以过滤掉网页主人利用PageRank 的算法的漏洞努力提高他们网页的权值，提高他们的网页在检索结果列表中的位置，这个技术使得Google的检索结果更加相关[25] 。",
+    "context5": "Longzhuang Li，Yi Shang,Wei Zhang（2002)认为加权的 HITS 的算法在网页的排名中是一种简单有效的方法,它不需要和文本内容分析结合在一起，然而运用这种算法得到的检索结果排名的相关性却跟文本分析链接结合起来的方法达到一样的好效果[26]"
+  },
+  "3.2.2文本分析方法对搜索引擎检索结果相关性的影响及改进作用": {
+    "context1": "文本分析方法对搜索引擎检索结果相关性的影响及改进作用开始的研究是集中在单个因素（比如相关的匹配方法，聚类算法)对搜索引擎检索结果相关性的影响及改进作用，后来是研究多个因素结合对搜索引擎检索结果相关性的影响及改进作用，比如链接分析和文本内容的联合。",
+    "context2": "Dae-YoungChoi（2O02)针对大多数商业搜索引擎提供很多检索结果出现\"数量大”、“低准确率”、“对一般概念的提问式提供的检索结果不相关”等问题,提出了感知索引，与文本索引基于关键词不一样，感知索引是基于感知的，感知索引的特点是它包含一个属性，能把模糊提问式中的模糊词(一个检索式中起限定作用的词)提取出来限定整个检索式。作者认为感知索引与文本索引结合起来能检出更多相关的文章。比如,在“popular national parks inthe USA\"这个模糊检索式中,模糊词是“popular”,用感知索引操作，而“national parks”、“USA”用文本索引来操作[27]。",
+    "context3": "M·Caramia,G.Felici，A $\\cdot$ Pezzolic（2004）介绍了一种提高主题搜索引擎的检索结果的数据挖掘方法，这种方法主要分为三个步骤，首先是建立网页矢量，网页矢量是表示网页特征的集合，这些特征不仅包括词，还可以包括图像、网页表格等等，网页矢量是根据用户的自身的描述简介或是从用户最近浏览得比较多的网页中抽取有限的词。接着根据网页矢量抽取相关的矢量网页。",
+    "context4": "其次，用聚类算法把矢量网页按相似性聚类成不同的聚类子集，在每个聚类子集内部按网页相关度分值分别进行初始的排序。",
+    "context5": "随后按分值从高到低从每个聚类中抽取网页，形成一系列的叫做染色体的子集，这些染色体的总和叫做原始成员。",
+    "context6": "最后是利用一种叫做基因算法的方法挑选出最好的染色体，作为检索结果提交给用户[28]。",
+    "context7": "G.Almpanidis,C.Kotropoulos（2OO6)用统计学的方法比较了网络搜索引擎爬行器运用的六种算法,认为 HCLA（Hypertext content latent Analy sis超文本内容隐性分析),PR(pagerank),SS2(结合运用ss1和vsm(认为网页是一袋关键词的组合）、ssI(认为相关的网页有相关的邻居)能比BL（Back-link,是指网页被其他网页链接),BRFS(Best-Firstsearch，把网页分成两个序列：已经访问过的网页和对已访问过的网页的链接网页)搜集到更相关的检索结果,并且HCLA比(PLSI $+$ PHTS)（LSI,可以解决同义词、近义词问题)搜出更相关的结果，最后得出结论，把链接分析和文本内容联合起来的潜在语义学索引分类器能检索和索引出更多用于专题领域的文章[29]。",
+    "context8": "SimonJ $\\ast$ Shepherd(2007)提出了下一代搜索引擎的概念，下一代搜索引擎整合了逻辑链接、语义分析、聚类等方法来解决“深度网页”和\"隐藏网页”的问题。其中逻辑链接与Google 的 Pagerank 的算法相似,但是比Pagerank 算法功能更强大,因为它不仅分析了网页的链进网页，也分析了网页的链出网页，而Google只是分析了网页的链进网页；语义分析,可以检查出与查询提问式在字面上不匹配,但是与查询内容相关的网页。聚类可以把查询结果按主题细分。新一代搜索引擎可以克服检索词的一词多义问题[30]。",
+    "context9": "Nanda kumar，Kael R.Lang（2OO7）进一步把检索提问式与聚类技术联系起来探讨它们对检索结果相关性的影响。聚类法是指把分散在检索结果列表各个地方的相关网页抽取出来，然后按照主题或其他形式组成不同的类目，用户只要点击他们认为与他们的检索结果相关的类目就可以找到与他们需求相关的信息。他们通过大学生要在网上选购MP3播放器而用4个检索词来检索Google(非聚类搜索引擎),不用聚类技术的Clusty，使用聚类技术的Clusty。其中检索词分为明确定义的检索词，和低于明确定义的检索词(譬如一般用户经常用短的、简单结构的检索词来表达他们的检索提问式)，最后得出的结论是，如果检索提问式的设置式很不明确的，使用聚类的方法比不用聚类的方法的搜索引擎能搜索出更多相关的文章;如果检索提问式的设置已经是很明确的话，则聚类的方法对其检索结果的相关性影响不大[1]。"
+  },
+  "3.2.3搜索引擎检索结果相关性的其他影响因素": {
+    "context1": "除了自然检索结果之外,网页的付费排名也是一个对搜索引擎检索结果的相关性有着重要影响的因素。付费排名是指搜索引擎根据内容提供商的付费的多少来决定他们的网页在检索结果中的排列顺序。这便在一定程度上影响了搜索引擎检索结果相关性。Hemant K·Bhargava,Juan Feng(2OO7)认为这是关系到一个搜索引擎的收入问题，减少付费排名意味着减少了来自提供商的收入。为此,提出了两种解决方案，一种是免费服务，它是带有付费排名的检索结果；一种是收费服务,它是不带有付费排名的自然检索结果。有些搜索引擎已经实行了后一种服务。他们估计，如果这种收费服务成为一种趋势，搜索引擎将不再是网络上可以免费利用的信息资源[32]。"
+  },
+  "4结语": {
+    "context1": "国外关于搜索引擎检索结果的重叠性、相关性、覆盖面的现状评价已经有了比较成熟的研究，一般观点都认为，搜索引擎检索结果的覆盖面很小并且有偏差，各个搜索引擎检索结果之间的重叠性也很低，搜索引擎检索结果的相关性不高并且存在差异，建议用户在检索的时候查询多个搜索引擎，以提高查全率和查准率。而提高搜索引擎检索结果的覆盖面和相关性的相关方法和技术目前仍在积极探讨中。"
+  },
+  "参考文献": {
+    "context1": "1 Mowshowitz A，Kawaguchi A· Assessing Bias in Search Engines $; \\cdot$ Information Processing and Management, 2002 (38):141-156   \n2,7A·Mardis M. Ading to the Students’tool Box:： Using Directories,Search Engines，and the Hidden Web in Search Process $\\vdots \\cdot$ Tech Trends，2002(46)：33-38   \n3Valiela I, Martinetto P.The Relative Ineffectiveness of Bibliographic Search Engines $; \\cdot$ Bioscience,2005(55):688-692   \n4,9G.Smith A $\\cdot ^ { \\ast }$ Think Local, Search Global? Comparing Search Engines for Searching Geographically Specific Information $, ^ { * }$ Online Information Review,2003(27):102-109   \n5,13Vaughan L, Thelwal Ml. Search Engine Coverage Bias : Evidence and Possible Causes $; \\cdot$ Information Processing and Management，2004 （40):693-707   \n6,12Zhang Jin，Dimitroff Alexandra·The Impactof Meta data Implementation on Webpage Visibility in Search $\\mathrm { E n ^ { - } }$ gine Results $\\cdot ^ { * }$ Information Processing and Management, 2005(41):691-715   \n8A·Clyde L. Search Engines Are Improving but They Still Caht Find Everything.Teach Librarian,2OO3(30):44-45   \n$1 0 ~ \\mathrm { K e }$ Yiping，Deng Lin，Ng Wilfred，Lee Dik-Lun． Web dynamics and Their Ramifications for the Development of Web Search Engines $\\therefore$ Computer Networks, 2006（50）: 1430-1447   \n1l Zhang Jin，Dimitroff Alexandra:The Impact of Webpage Content Characteristics on Webpage Visibility in Search Engine Results· Information Processing and Management,2005(41):665-690   \n14 Wang Liang, Guo Yi-Ping,Fang Ming· Web Search En\" gine Based on DNS $\\cdots$ Journal of Network and Computer Application,2007(30):466-478   \n15 Spink A， kathuria V， Koshman S. Overlap Among Major Web Search Engine $\\because$ Internet Research,2006(16):419- 426   \n16 Facso P.Visualizing Overlap and Rank Diferences Among Web-wide Search Engines· Online Information Review，2005(29):554-560   \n17 Ilc D， Bessell T L，silagy C A，Green S．Specialized Medical Search Engines Are No Better Than General Search Engines in Souring Consumer Information About Androgen Deficiency· Human Reproduction,2O03（18）: 557-561   \n18 Markland M . Does the Students Love of the Search Enqine Mean That High Quality Online Academic Resources are Being Missed $\\cdot ^ { * }$ Performance Measurement and Metrics，2005(6):19-31   \n19Chen Xiaotan．MetaLib，WebFeat，and Google the Strengths and Weaknesses of Federated Search Engines Compared with Google·Online Information Review， 2006(30):413-427   \n$2 0 \\ \\mathrm { \\textmu { H } } .$ Goh D,P. Ang R. Relevancy Rankings: Pay for Per formance Search Engines in the Hot Seat·Online Information Review，2003(27):87-92   \n21 Qzmuthi S. Performance of Question-based vs Keywordbased Search Engines and Efect of Web User Characteristics on Search Engine Performance·Online Information Review，2005(29):656-674   \n22 Bergim K.Authoritative Sources in a Hyperlinked Environment $, \\cdot$ Journal of the AC M，1999(46):604-632   \n23 Taher H， Haveliwala. Topic-sensitive PageRank· http://www2002.org/CDR0M/ refereed/127/index $\\cdot$ html (2007-12-01)   \n24 Thelwall M.Can Googlés PageRank be Used to Find the Most Important Academic Web Pages $\\cdots$ Journal of Documentation，2003(59):205-216   \n25 Boulton C.Googlés Dataspaces Technology Ding pageRank·eWeek(2007-10-31)   \n26 Li Longzhuang,Shang Yi, Zhang Wei. Improvement of His-based Algorithms on Web Documents:WWW2002 Conference Proceedings http://www 2002.org/CDROM/ refereed/643/index:html(2007-12-01)   \n27 Choi Dae-Young· Enhacing the Power of Web Search Engines by Means of Fuzzy Query $\\cdot$ Decision Support System,2003(35):31-44   \n28 Caramia M,Felici G，Pezzoli A. Improving Search Results with Data Mining in a Thematic Search Engine. Computer $\\&$ Operations Research,2004(31):2387-2404   \n29AlmpanidisG., Kotropoulos C·CombiningText and Link Analysis for Focused Crawling-An Application for Vertical Search Engines $\\vdots \\cdot$ Information System,2007(32): 886-908   \n30 Shepherd S. Concepts and Architectures for Nextgeneration Information Search Engine $\\therefore$ International Journal of Information Management,2007(27):3-8   \n31 Kumar N, R·Lang K $\\cdot$ Do Search Terms Matter for $\\mathrm { O n ^ { - } }$ line Consumers? The Interplay between Search Engine Query Specification and Topical or Ganization $\\cdot ^ { * }$ Decision Support Systems,2007(44):159-174   \n$3 2 \\ \\mathrm { ~ K ~ } \\cdot$ Bhargava H，Feng Juan：Paid Placement Strategies for Internet SearchEngines:http://www2002.0rg/ CDROM/refereed/357/index:html(2007-12-01)",
+    "context2": "（收稿日期：2008-05-12)"
+  }
+}

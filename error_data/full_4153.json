@@ -1,0 +1,86 @@
+{
+  "original_filename": "full_4153.md",
+  "图书馆资源发现系统的现状与趋势\\*": "",
+  "陈定权」卢玉红　杨　敏": {
+    "context1": "1中山大学资讯管理学院广州 510006²中山大学网络与信息技术中心 广州 510006",
+    "context2": "（摘要）简要介绍 WorldCat Local、EBSCO Discovery Service、Summon、Primo 四大具有集中索引仓储的Web级资源发现系统,从内容索引、系统特性、检索结果显示三个方面对它们进行比较分析。最后指出资源发现系统未来的发展趋势。",
+    "context3": "（关键词）资源发现系统Web级发现资源发现与传递集中索引（分类号）G252.7"
+  },
+  "Library Discovery Systems: Status Quo and Future Trends": {
+    "context1": "Chen Dingquan'Lu Yuhong'Yang Min²   \n1 School of Information Management，Sun Yat-sen University，Guangzhou 510006   \n² Network and Information Technology Center，Sun Yat-sen University，Guangzhou 510006",
+    "context2": "(Abstract）TispaperbrieflyintroducesfourWeb-scalediscoverysystems thathavecentralized indexessuchasWorldCatLocal,EBSCODiscoveryService,mmo,rimondmakescomparisonofteirentralizedidexropertynforatiobouterevedr sults.Finally，the paper points out some trends of resource discovery systems.",
+    "context3": "(Keywords）resource discovery systemsweb-scale discoveryresource discovery and deliverycentralized index",
+    "context4": "现代图书馆拥有大量印刷型资源和电子资源，但它们都是通过各自的服务系统来提供服务的，虽然资源整合和联合搜索的出现在一定程度上提高了资源查找的便捷性，但用户依然觉得馆藏资源建设没有形成一个完整的馆藏资源体系和服务体系，图书馆迫切需要向用户提供一个能够消除资源之间的各种障碍，有助于揭示所有馆藏资源的统一发现系统，资源发现系统(resource discovery system）就此应运而生。资源发现系统事先为图书馆众多的本地和远程资源建立了一个集中索引仓储，用户通过一个类似Google的单一检索框检索这个仓储以实现资源的一站式检索，并且这些系统还会对检索结果进行有效的组织和揭示，以帮助用户发现最合适的资源。目前国外在资源发现系统研发和图书馆应用方面一直走在前列，而国内只有少数几个大型的研究型高校图书馆正式采用了国外的系统，本土的系统研发则是遥遥无期。本文对国外资源发现系统的述评，将有助于梳理其发展脉络和趋势，为国内引进或开发资源发现系统以及进行相关研究提供参考。"
+  },
+  "1 资源发现系统的推出背景": {
+    "context1": "资源发现系统的出现是用户和图书馆需求推动，系统开发商嗅出商机的结果。",
+    "context2": "首先，传统的OPAC在资源发现上已经无法满足Web2.0环境下的用户需求。受到Google、Amazon、Web of Knowledge等商业网站的影响， $\\mathbb { W } \\mathrm { e b } 2 . 0$ 理念已深入人心，以图书馆业务为中心而开发的传统OPAC却与此相背离,对其简单的修修补补已经难以满足用户需求,图书馆迫切需要找到一个可以替换OPAC的资源服务入口。",
+    "context3": "其次，馆藏资源结构的变化，尤其是电子资源的数量和种类的增加，给用户的利用和图书馆的管理都带来了困难。尽管图书馆引进的联邦搜索、统一认证和链接解析系统在一定程度上改善了这种状况，但资源发现依然困难，没有针对所有馆藏形成一个完整的服务体系,例如联合搜索和OPAC不能提供浏览功能，在电子资源和实体资源之间不能实现统一揭示等。",
+    "context4": "最后，图书馆系统开发商有与图书馆长期密切合作的传统。在不断的合作过程中,开发商充分了解了图书馆和用户的实际需求，因此开发出的资源发现系统能紧扣图书馆信息化发展脉搏。"
+  },
+  "2资源发现系统概述": {
+    "context1": "时至今日，国外已经有大量的资源发现系统面世，如 Innovative Interfaces 公司的 Encore(包括 Encore Syn-ergy）、Ex Libris 公司的Primo(包括 Primo Central）、EB-SCO 公司的 EBSCO Discovery Service（以下简称 EDS）、Serials Solutions 公司的 Summon、OCLC 的 WorldCat Lo-cal（以下简称为WCL）以及 SirsiDynix 公司的 Enter-prise等。国内的图书馆集成系统供应商在资源发现方面还没有看到其有任何研发迹象。根据是否建立大规模集中索引,本文将不再讨论 Encore和 Enterprise系统，尽管它们声称也是发现服务的一种解决方案，但在笔者看来，它们更像是联邦搜索的技术升级版。"
+  },
+  "2.1资源发现系统的分类": {
+    "context1": "能够推出资源发现系统的公司，要么拥有别人无法全面获取的海量元数据，要么拥有先进的搜索技术。本文根据资源发现系统开发商的性质,大体将其分为两大类:",
+    "context2": "2.1.1由数据库生产商推出的系统这类内容生产商拥有大量的数据资源，都是世界上影响力较大的文摘、索引和全文数据库生产商，甚至自身就是大型的期刊或图书出版商，它们基于检索系统或联邦搜索系统中的技术积累推出了发现系统。这类系统的主要代表有WCL、EDS 和 Summon 等。",
+    "context3": "2.1.2由图书馆集成系统(integrated library system,ILS)开发商推出的系统这类公司没有自己的数据资源，但它们积极采用和推行开放标准，更加强调资源的开放性和包容性,能够保持内容中立原则，在搜索技术方面有着先天优势。它们在建设大型集中索引时，需要与众多大型的数据库供应商签订元数据收割协议。这类系统的主要代表是Primo等。"
+  },
+  "2.2由数据库生产商推出的系统:WorldCat Local、EDS 和 Summon": {
+    "context1": "2.2.1WorldCat Local联机计算机图书馆中心（OCLC)于2007年4月推出WCL。OCLC是一家生产文摘、索引和全文数据库的大型机构，其中WorldCat是世界上最大的书目数据库。WCL的特点是： $\\textcircled{1}$ 拥有OCLC庞大的全球化书目资源。 $\\textcircled{2}$ 具有优秀的社群功能和个性化服务功能。 $\\textcircled{3}$ 使用WCL的图书馆可免费加入WorldCat.org。 $\\textcircled{4}$ 图书馆可以透过WCL和国内外的图书馆进行馆际互借、资源共享，并无限量地使用WorldCat作为参考服务。WCL在2010年总共进行了1 419 次安装,应用在1300多家图书馆。",
+    "context2": "2.2.2EDSEBSCO 于2010 年早期正式推出 EDS。EBSCO是一家提供文摘/索引和全文数据库的文献服务公司,2011年6月，EBSCO公司收购了与其业务相似的H.W．Wilson公司之后,成为世界上最大的文摘／索引和全文数据库公司。合并之后,EBSCO 拥有6 700余种全文期刊,内容涉及艺术、教育、人文、应用科学、法学、图书馆学、传记等。EDS的特点-@： $\\textcircled{1}$ 具有丰富的资源。 $\\textcircled{2}$ 可轻松、快速地获取图书馆的全文资源。 $\\textcircled{3}$ 以EBSCOhost作为建设基础,使用时不需要做多余的培训。 $\\textcircled{4}$ 具有广泛、深层次的索引。截止到2010年夏末,EDS大约有25个用户 。",
+    "context3": "2.2.3Summon Serial Solutions 在 2009 年7月正式推出 Summon。Serial Solutions 在被 ProQuest 收购之前,是一家期刊代理商,没有自己的数据库产品，但与各大出版商保持着良好关系，一直在建设和维护世界上最全面、最权威的连续出版物知识库Ulich’s。该库在收集期刊和出版商信息时，保持中立，不带任何偏见,因而得到了图书馆界和期刊出版界的高度认可。尽管它在2004 年被ProQuest公司收购,成为ProQuest旗下之一子公司,但还是坚持强调内容中立。Summon的特点： $\\textcircled{1}$ 包含丰富的资源。 $\\textcircled{2}$ 提供可用的API、易集成。 $\\textcircled{3}$ 完全依靠集中索引来实现资源发现，不需要联邦搜索的支持。",
+    "context4": "据统计,到2010 年,Summon总安装次数达到了170 次。值得一提的是,在中国,Summon 是拥有用户最多的资源发现系统,包括北京大学、西安交通大学、浙江大学等(截止到2011年10月还没有正式上线）,中山大学图书馆也倾向于引进 Summon。"
+  },
+  "2.3由ILS开发商推出的产品:Primo": {
+    "context1": "Ex Libris于2007年5月推出了 $\\mathrm { P r i m o } , 2 0 0 9$ 年6月发布了集中索引Primo Central,这使得Primo 的架构扩展到了外部供应商提供的内容。因为其自身不生产数据库，所以Primo在资源发现市场能够保持中立。在建立索引之前,Primo需要与各大数据库生产商或出版商一一签订元数据收割协议。例如,2011年9月，OCLC与ExLibris签订协议,允许ExLibris自动收割WorldCat的书目记录和馆藏数据，但因为商业利益原因，目前只允许OCLC成员馆通过Primo和MetaLib来访问 WorldCat 的数据。 $\\mathrm { P r i m o }$ 的特点： $\\textcircled{1}$ 内置管道收集所有的图书馆资源。 $\\textcircled{2}$ 适用于不同的图书馆集成系统及元搜索许可配置环境。 $\\textcircled{3}$ 内嵌 SFX 服务，允许用户分别配置其外部链接和全文获取方式。",
+    "context2": "截至2010年8月,Primo 总共有718个用户。Primo 目前在中国的用户有上海交通大学(正式上线)和清华大学图书馆(测试中)等。"
+  },
+  "3 资源发现系统的比较": {
+    "context1": "本文分别按照内容索引、系统特性和检索结果显示三个方面,对WCL、EDS、Summon、Primo 四大系统作一个横向比较,以方便图书馆了解和选择资源发现系统。"
+  },
+  "3.1资源内容": {
+    "context1": "资源发现系统的任务就是把用户所需的资源呈现给用户，因此其索引内容的覆盖面一直是评价一个系统优劣的重要因素。目前各个资源发现系统都在努力同各种资源出版商、集成商签订协议,以扩大自己的资源覆盖范围。各大系统的资源内容如表1所示：",
+    "context2": "表1四大系统内容索引对照",
+    "context3": "<table><tr><td rowspan=1 colspan=1>内容系统</td><td rowspan=1 colspan=1>集中索引中所含资源</td><td rowspan=1 colspan=1>全文期刊数量</td><td rowspan=1 colspan=1>是否全文索引</td><td rowspan=1 colspan=1>能否对本地资源进行集成</td></tr><tr><td rowspan=1 colspan=1>WCL</td><td rowspan=1 colspan=1>截至2011年10月，WCL中包含了1637个数据库、8.6万多种期刊、1200万本电子图书、约1700万篇学位论文、1220万篇会议文献、约1000万篇连续出版物文献和1500多万条开放存取内容等，共计约9.63亿多条索引[4</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>否</td><td rowspan=1 colspan=1>能</td></tr><tr><td rowspan=1 colspan=1>EDS</td><td rowspan=1 colspan=1>EDS中包含了约400多个数据库近5万种期刊、600万种图书、超过2万的会议论文集和80多万张CD/VCD以及一些开放存取数据[5]</td><td rowspan=1 colspan=1>6700多种全文期刊</td><td rowspan=1 colspan=1>是</td><td rowspan=1 colspan=1>能</td></tr><tr><td rowspan=1 colspan=1>Summon</td><td rowspan=1 colspan=1>截至2011年10月底,Summon的资源大致来自于6800家出版商，包含了约1060个数据库[@、超过10万种的期刊和一些开放存取数据库等，共计有超过5亿条索引，其中大多数是报纸和期刊。有大量全文期刊，但具体数量不详，超过八成的数据库支持全文索引功能</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>=</td><td rowspan=1 colspan=1>能</td></tr><tr><td rowspan=1 colspan=1>Primo</td><td rowspan=1 colspan=1>截至2011年初，包含3亿条索引，比较偏重于学术期刊[]。目前,它与其他数据库提供商和出版商（如OCLC、EBSCO、ProQuest、Elsevier,Springer等)广泛结盟</td><td rowspan=1 colspan=1>无</td><td rowspan=1 colspan=1>否</td><td rowspan=1 colspan=1>能，允许用户自定义本地资源的收割规则并决定收割更新的周期</td></tr></table>"
+  },
+  "3.2系统特性": {
+    "context1": "资源发现系统的特性也是衡量一个系统优劣的重要标准，不同的图书馆对系统的特性会有不同的要求。目前这些系统在检索界面和用户权限上都有向Google靠拢的趋势,即都为用户提供一个类似于Google的单一搜索框，同时也具备高级搜索的功能,可以作为用户利用馆藏资源的主要入口，并且也开始不对用户检索设限,除非用户要获取图书馆订购的资源。其系统功能对照如表2所示：",
+    "context2": "表2四大系统特性对照",
+    "context3": "<table><tr><td rowspan=1 colspan=1>系统特性</td><td rowspan=1 colspan=1>WCL</td><td rowspan=1 colspan=1>EDS</td><td rowspan=1 colspan=1>Summon</td><td rowspan=1 colspan=1>Primo</td></tr><tr><td rowspan=1 colspan=1>系统的定制性</td><td rowspan=1 colspan=1>提供界面模板，允许对界面元素进行修改[8</td><td rowspan=1 colspan=1>与WCL相似</td><td rowspan=1 colspan=1>提供界面模板，允许使用其API自行设计界面[</td><td rowspan=1 colspan=1>提供界面模板，允许使用其API和Web Service来重新设计界面[8</td></tr><tr><td rowspan=1 colspan=1>是否结合联邦搜索</td><td rowspan=1 colspan=1>采用基于Z39.50协议的联邦搜索连接器，产品名不详</td><td rowspan=1 colspan=1>是，EBSCO-host IntegratedSearch</td><td rowspan=1 colspan=1>否四</td><td rowspan=1 colspan=1>是,MetaLib</td></tr><tr><td rowspan=1 colspan=1>是否基于SaaS</td><td rowspan=1 colspan=1>支持</td><td rowspan=1 colspan=1>支持</td><td rowspan=1 colspan=1>支持</td><td rowspan=1 colspan=1>支持SaaS，也支持在馆舍内搭建服务系统，但PrimoCentral则是完全基于云计算</td></tr><tr><td rowspan=1 colspan=1>是否可以调节相关度算法</td><td rowspan=1 colspan=1>否</td><td rowspan=1 colspan=1>是,允许提升一些条目的排序</td><td rowspan=1 colspan=1>与EDS相似</td><td rowspan=1 colspan=1>与EDS相似</td></tr></table>"
+  },
+  "3.3检索结果显示": {
+    "context1": "3.3.1提供结果提炼和分面浏览功能EDS、Summon和Primo都提供只显示全文、学术同行评审期刊或者图书馆目录等结果精炼选项。各系统都提供结果分面导航功能,但WCL的分面不受单个图书馆控制。",
+    "context2": "3.3.2结果的信息展示四大系统都会显示一些检索结果的基本信息，如标题、作者、出版信息、页数及图书封面等，但 $\\operatorname { P r m o }$ 较为灵活，图书馆可对检索结果显示信息进行配置。另外,各系统都会显示图书的实时馆藏信息,但Summon和Primo能在简洁结果列表界面就进行显示。Primo 和WCL 都借鉴了FRBR 思想,Primo 支持版本（version）概念,WCL支持版本(edition）,如图1所示,Primo和WCL都按照版本汇集检索结果,但它们在判断是否为同一版本时标准略有不同：",
+    "context3": "![](images/2773f69c72202ab95ebeb0f89b3d1213a263dfa11b58decc6d6f1f6743979eb1.jpg)  \n图1Primo 和WorldCatLocal按“版本\"汇集结果"
+  },
+  "3.4资源发现系统的特征": {
+    "context1": "通过上述部分的比较，可以看出这些资源发现系统具有一些共同的特征: $\\textcircled{1}$ 建立了一个集中索引仓储,这些索引来自图书馆本地资源和市场上的各种电子资源。",
+    "context2": "$\\textcircled{2}$ 界面具有一定程度的可定制性,允许图书馆根据自身的需要来设计个性化的界面。 $\\textcircled{3}$ 部署灵活。发现系统可以部署在图书馆本地,或者以“软件即服务”（Softwareas a Service,SaaS)模式向图书馆提供服务[4。 $\\textcircled{4}$ 对检索结果进行了有效组织与揭示,如相关度排序、分面导航(facetednavigation)和结果精炼(refine)以及相关资源推荐，以帮助用户发现最合适的资源。"
+  },
+  "4 资源发现系统的发展趋势": {
+    "context1": "Breeding认为早期资源发现系统专注于技术，而现在的资源发现系统则需要转移注意力，把发展资源内容和增强用户体验作为主要任务。"
+  },
+  "4.1给予不同格式的资源被公平获取的权利": {
+    "context1": "近几年来,电子期刊、电子图书等以文本形式为基础的资源发展势头正在减退，取而代之的是音频、视频、照片等多媒体资源。这些资源采用丰富、生动的形式向用户传达信息和知识,因其灵活的表达，越来越受到大众的欢迎。然而目前资源发现系统更多的是集成以文本形式为基础的资源,对于多媒体资源则较少涉及。因此,资源发现系统在以后的发展中要更加注重对多媒体资源的集成，使不同格式的资源得以被公平揭示和对待。"
+  },
+  "4.2更深层次的内容索引": {
+    "context1": "仅仅基于元数据集中索引很难提供理想的资源发现体验,这主要体现在相关度排序上。这时基于全文的深层次检索就受到了越来越多的关注。部分提供商拥有文献全文或者全文的访问权限,在预先建立集中索引时，能够针对文献全文作深层索引,极大地提高了相关度的准确性。用户在搜索时，文献中的每个词或词组都有可能成为检索点,而不仅仅是关键词、题目、作者等几个有限的检索点。目前 EDS和 Sum-mon都提供了部分全文索引和检索。"
+  },
+  "4.3完善移动服务并提供统一的用户体验": {
+    "context1": "把资源和服务推至用户所在的网络环境是图书馆服务的一个方向。目前，资源发现系统都推出了自己的移动服务,尽管它们的服务还不完善，功能有限。在未来的发展中,进一步完善移动服务,让用户能通过移动设备使用图书馆的资源和服务，提高用户体验，将是资源发现系统和图书馆的工作重点之一。"
+  },
+  "4.4FRBR化显示": {
+    "context1": "FRBR（Functional Requirements for BibliographicRecords)是IFLA于1998年出版的一份研究报告，旨在改变传统书目记录的扁平化结构，为其提供清晰的结构化框架。现有的资源发现系统尚不能很好地揭示不同资源条目之间的复杂关系。在今后的发展中，资源发现系统将更多地借鉴FRBR思想,展示作品及其内容表达、载体表现或单件之间的关系,以便减轻用户浏览和搜索的负担。目前仅有Primo与WCL借鉴了 FRBR 思想。"
+  },
+  "4.5基于云计算平台提供服务": {
+    "context1": "云计算是一种新的利用计算机和互联网的方式，它把所有的计算应用和信息资源都整合成一个具有强大计算能力的系统。资源发现系统采用云计算向用户提供服务，不仅可以扩大资源发现的范围，还有助于发现图书馆自身没有购买的资源;图书馆接入云计算平台，可以从软硬件的升级换代和系统管理工作中解脱出来,减少资源的浪费与人力、物力的投入,更加关注于用户需求和图书馆管理。目前,WCL、EDS和 Summon完全基于云计算来提供服务,而Primo则允许用户在馆舍内搭建SOA架构的服务系统,同时也支持以云计算方式向图书馆用户提供服务。"
+  },
+  "5结语": {
+    "context1": "其实早在2006年前后,Interfaces公司就推出了资源发现与传递系统Encore,2010年又推出了EncoreSynergy，两者协同工作共同完成资源发现和传递服务，代表着另外一种解决方案。Encore无需预先收割数据库的各种元数据并建立索引,而是跟联邦搜索一样实时地获取检索结果,但因为它采用了Web Service、XML等最新技术，其响应速度快于联邦搜索。从目前市场行情来看，还是集中索引式解决方案在市场上占有优势。因为版权和商业利益等原因，单个集中索引还不能囊括所有数据库，尤其是那些小型的特色数据库，所以往往还得借助联邦搜索来获取，这也就是为什么Encore目前仍有一定市场的原因，但集中大型索引代表着未来发展趋势，尤其是各大集中索引之间相互合作、支持全文索引之后，这个趋势将更加明显。",
+    "context2": "图书馆用户对资源发现系统的需求日趋强烈，但资源发现系统进入市场不久，现存在着价格昂贵、技术门槛较高、资源供应商间有所冲突等缺陷。图书馆可以结合本馆实际情况制定相应的发展策略。有条件的国内图书馆可以尽快引进和测试这类系统，而暂时不具备条件的图书馆可以优化或升级现有的服务系统，例如OPAC、资源导航系统、链接解析服务以及联邦检索等，提升资源发现能力，以期在最大程度上满足用户的需求。与此同时,图书馆需尽快预先调研这类系统，为将来的引进和测试奠定基础。原则上讲,图书馆只应该关注资源发现方面的相关需求,而不宜自行开发这类系统。"
+  },
+  "参考文献：": {
+    "context1": "[1］王红霞．WorldCat Local资源整合与服务集成及其启示．现 代情报,2010,30(3):45 -54.   \n[2]MarshallB.Automation marketplace 2O11:The newfrontier[R/ OI]．[2011-04-02]．ttp: //www.libraryj-ournal.com/lj/ ljinprintcurrentissue/889533-403/the_new_frontier.html.csp.   \n[3]Kelley M. In major deal,EBSCO publishing acquires H. W.Wilson company EB/O1]．[011-10-20] .http://www.libraryjournal.com/lj/home/890843-264/in_major_deal_ebsco_publishing. html. csp.   \n[4]EBSCOhost and H.W.Wilson“Super”databases [EB/OL]. [011-10 -20]．htp: //www.ebscohost.com/superdatabases.   \n[5]EBSCO discovery service [EB/OL]．[2011-03-15]．http: // www.ebscohost.com/discovery/eds-about.   \n[6]Brunning D，Machovec G．An interview with Sam Brooks andMichael Gorell on the EBSCOhost integrated search and EBSCO discovery service [/OL]．[2011- 03-16]．htp:// www. charlestonco.com.   \n[7] Vaughan J. EBSCO discovery services $\\mathbb { I }$ . Library Technology Reports, $2 0 1 1 , 4 7 ( \\ 1 ) : 3 0 \\mathrm { ~ - } 3 8$   \n[8]Summon introduction [EB/O1]．2011-03-15]．htp://www. serialssolutions.com/summon-features/.   \n[9] Rowe R. Web-scale discovery: A review of Summon,EBSCO Discovery service，and WorldCat local $[ \\mathrm { J } ]$ . The Charleston Advisor, $2 0 1 0 , 1 2 \\left( \\ 1 \\right) : 5 \\mathrm { ~ - ~ } 1 0$   \n[io]OCLC.Ex Librisannouncenew partnership toexpose WorldCat content via Ex Libris discovery and delivery solutions [EB/OL]. [011-10-20].http: //www.oclc.org/us/en/news/releases/ 2011/201151. htm.   \n[]Primo overview [EB/OL]．[2011-03-13]．htp://www.exlibrisgroup.com/cn/category/PrimoOverview.   \n[2]Bruning D,Machovec G.An interview with NancyDushkin,VP discoveryand delivery solutions at Ex Libris，Regarding Primo central $\\mathbb { I }$ .The Charleston Advisor,2010,12(2):58-59.   \n[13]Vaughan J. Web scale discovery: What and why $\\mathbb { I }$ . Library Technology Reports,2011,47(1) :5 -11.   \n[4]WorldCat Local: Lists of content included[EB/Ol]．[011 -10 -21]．http: //www.oclc.org/us/en/worldcatlocal/overview/content/default. htm.   \n[5]EDS content EB/O1]．2011-10-22]．http://www.ebscohost.com/discovery/eds-content.   \n[16] The Summon service: Content & coverage EB/OI]．[011 -10 - 22]．http://www.serialssolutions.com/discovery/summon/ content-and-coverage/.   \n[17]Vaughan J.Ex Libris Primo central []．Library Technology Reports, $2 0 1 1 , 4 7 ( \\ 1 ) : 3 9 \\ - 4 7$   \n[18]Vaughan J.OCLC WorldCat Local []．Library Technology Reports, $2 0 1 1 , 4 7 ( \\ 1 ) : 1 2 \\ - 2 1$   \n[19] Vaughan J. Serials Solutions Summon $\\mathbb { I }$ .Library Technology Reports,2011,47(1) :22 -29.   \n[0]Brunning D，Machovec G.Interview about Summon with Jane Burke,Vice president of Serials Solutions $\\mathbb { I }$ ．The Charleston Advisor,2010,11(4):60-62.   \n[1] Rowe R. Encore synergy, Primo central $\\mathbb { I }$ .The Charleston Advisor,2011,12(4):11 -15.   \n22] 陈定权,刘胜．印本图书与电子图书的集成检索[]．图书馆 杂志,2008(12):50 -55.   \n[3]MarshallB.Next generation library automation and its implications for resource sharing [EB/O1]．[011-03-20] .http://www.librarytechnology.org／.   \n[4MarshallB.The state of the art in library discovery 2010[]. Computers in Libraries,2010,30(1):31-34.   \n[5]姜义台．图书馆资源探索服务初探[/OI]．[2011-05-05]． http://www.lib.pu.edu.tw/\\~ jiang/articals/20110301-discovery% 20service. pdf.   \n[6] Marshall B.Beyond the current generation of next-generation library interfaces:Deeper search [．Computers in Libraries，2008, 28(5):39 -42.   \n[7]Serials Solutions Summon service to add full-text indexing of Elsevier content[EB/OL]．[2011-07-10]．http://www.librarytechnology．org/diglib-fulldisplay．pl?SID 川 $2 0 1 1 0 7 1 9 5 3 4 2 1 0 2 0 5 \\& \\mathrm { R C } = 1 5 8 1 6 \\& \\mathrm { c o d e } = \\mathrm { p r } \\& \\mathrm { R o w } = 1$   \n[8] Summon and EBSCO debut mobile interfaces $\\mathbb { I }$ .Library Journal, 2011,134(20):24.   \n9] IFLA study groupon the Functional Requirements of Bibliographic Records，Functional requirements of Bibliographic records:Final report[R/OL]．[2011-10-02]．htp://www.ifla.org/VII/ s13 /frbr/frbr. pdf.   \nbo]陈定权，沈艳芳．Web2.0环境下的资源发现与服务传递- 以Primo 和Encore为例.图书馆杂志,2011（1):5-12.   \n[1] 刘炜.图书馆需要一朵怎样的“云”[].大学图书馆学报, 2009,27(4) :2 -6.   \nβ2]萨蕾，温泉，曲云鹏．数字资源发现服务发展趋势研究[].现 代情报,2011,31(9):75-79."
+  }
+}

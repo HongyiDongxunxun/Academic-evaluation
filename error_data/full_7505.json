@@ -1,0 +1,70 @@
+{
+  "original_filename": "full_7505.md",
+  "构建面向终身学习者的整合信息系统": {
+    "context1": "英国 SHELL计划回顾刘钟美 张新鹤",
+    "context2": "【摘要】SHELL是由JISC资助的一项终身学习项目，整个计划实施的时间是 $2 0 0 2 { \\sim } 2 0 0 5$ 年。本文主要介绍了该计划产生的背景，整个计划的系统设计，计划的主体一—整合信息系统的设计，包括系统的技术基础设施、学习者记录门户和管理门户，以及对计划的评估工作，希望我国的终身学习能从中吸取经验。",
+    "context3": "【关键词】SHELL终身学习整合信息系统",
+    "context4": "Abstract:SHELLis a lifelong learning project， funded by JISC during 2002一2005.The project was completed now，this article mainly introduces the background，project outputs including technical infrastructure， the learner record portal and the administrative portal， the evaluation work·It hopes that china’s lifelong learning will learn something from it.",
+    "context5": "Key words: SHELLlifelong learningintegrated information system",
+    "context6": "SHELL（Southwest Hosts Enhancing Lifelong Learning）计划是面向终身学习的管理学习环境项目（ManagedLearning Environments for Lifelong Learning programme，简称MEs）初始阶段的一部分，由英国联合信息系统委员会（Joint Information Systems Committee，简称 JISC）资助。"
+  },
+  "1面向终身学习的管理学习环境项目MEs": {
+    "context1": "JISC 的使命是对ICT进行创新性使用以推进教育和研究，它的支持范围集中在以下8个战略主题领域：网络、存取管理、信息环境、电子资源、电子学习、电子研究、电子管理、商业和社区联合。1]随着终身教育项目的日益增加，有必要对那些在不同继续教育和高等教育机构之间奔波的学习者提供帮助，支撑学习过程的信息技术系统的开发是帮助的重点，在继续教育和高等教育机构中使用管理学习环境（ME）将会帮助人们发现基于学习者需求的整合系统的益处。为此，JISC 发起MLEs项目，使英国的终身教育更加接近以学生为中心的信息系统的长期战略目标：以提供联结学习和管理资源的单一入口的个人学生门户的形式提高终身学习者的灵活性。MEs 是电子学习主题下的一个项目，所谓管理学习环境（ME）可以定义为一个系统，用于整合包括教学资料在内的学习资源以及管理和协调过程所涉及的信息。2]英国的很多教育机构都把终身学习的教育目标付诸实践，JISC 希望通过MLEs项目补充一些相关研究结果的不足，例如学生进步档案的构建。它的目的是构建支持学习者在不同学习部门和机构间无缝移动的学习环境，发现并解决构建过程中的问题。具体目标包括：构建跨机构传递知识的体系结构，为整个JISC社区的益处提供一般解决办法；探究机构间的学习资料获取和传递；制定机构间信息传递的协议和标准，探索对学生学习档案的使用；评估和记录跨机构业务处理系统的影响；确定对员工发展的益处；在项目过程中提供一个格式化发展和传播过程的模式，用于继续教育和高等教育部门。[3]"
+  },
+  "2SHELL计划的背景和目的": {
+    "context1": "SHELL计划的实施时间是 $2 0 0 2 { \\sim } 2 0 0 5$ 年，实施主体是由普利茅斯大学领导的一个学校联盟，第一阶段只有 4个当地的继续教育学院参与，但在第二阶段包括了更多的继续教育学院及英国西南部的3所学校。在英国，每年有4000多的学生在合作学院注册学习，并被大学授予学位，学生需要花费数周去完成在学院和大学的双重注册，并且两个终端都容易出错。注册后，学院和大学的学生记录系统所存储的数据要实现一致又需要几个月的时间。",
+    "context2": "针对这种情况而实施的SHELL计划的目的是以单注册系统代替这种复杂的注册过程，通过整合参与机构的管理信息系统为终身学习者提供多种帮助和支持，这就要求联盟成员使用共同接受的标准化格式来快速有效地传递",
+    "context3": "学生数据。该计划的具体目的是：[4]",
+    "context4": "从管理者角度讲：为所有参与合作学习项目的学生提供单注册通道，提高合作机构间注册数据的传递速度。减少管理负担，促进教育机构和授予学位机构之间的合作。",
+    "context5": "从学习者角度讲：改善合作学院和大学的学生记录与信息系统的整合框架，减少学习者从最初注册到个人账户建立的等待时间。",
+    "context6": "从终身学习角度讲：为学习者创建一个基于网络的个人门户，这将提供一个独立的资格认证记录，使学习者在离开学校后依然可用。",
+    "context7": "该计划由来自联盟成员机构的员工组成的4个部门来支持，并由一个全时间项目管理者和指导者领导这些部门。业务分析和执行组（Business Analysis and Implementation team）关注合作中的业务流程，标准组(Standards team）为传递数据的类型和范围制定详细的说明，计划完成所需要的软件和硬件设备由技术组(Technical team）负责，格式化的、累积性的反馈及简短的项目报告则由评估和传播组（Evaluation andDissemination team）提供。[5]"
+  },
+  "3SHELL计划的系统设计[6]": {
+    "context1": "计划参与者设计了一个多系统抄本，并重新构建合作机构间的共享业务流程（shared business processes)，使得学生记录数据可以通过XM形式进行电子化传递。在此技术基础上，SHELL计划还创建了学习者记录数据库以整合、存储学习者获得的资格证明，并构建网络门户实现对这些数据的存取，且附带一个管理门户来管理数据流。"
+  },
+  "3.1技术基础设施": {
+    "context1": "为了实现目标，SHELL计划创建了处理学生数据的新的业务流程，并与基于IMS(Instructional ManagementSystems）标准的基础设施联合起来传递、存储数据。初期，联盟内部很有必要对要采集和共享的数据范围及程度达成共识，因为计划参与者各自采用不同的学生记录系统，另外，学院和大学是从很多不同的渠道获得资助，每一个都会对要记录的数据领域有自己的要求。因此，联盟需要长期的协商来确定共同的数据格式和传递过程、数据采集和传递的时间表、数据保护和安全问题。",
+    "context2": "这个计划使用互操作标准通过XM传递和存储数据。尽管项目想要保留一个专职的技术小组领导，但招收合适的有经验的人是很困难的。最终使用一些小公司和合作机构的员工来保证技术发展，一些大公司认为缺乏明确的利益，所以不能深入参与到该项目中。",
+    "context3": "尽管每个机构的技术管理者对他们自己的记录系统很熟悉，但这种熟悉并没有扩展到IMS 标准领域，这使得合作机构不能有效地生产XM数据流。为解决这个问题，在数据处理的第一阶段使用了CSV（Comma SeparatedValue）文档格式。一个本地创建的插件程序（plug一in）和数据系统联合生产CSV 文件，文件再由项目自身提供的界面代理器ioAgent 设备转换为XM 语言传输并存储。如图1所示。",
+    "context4": "![](images/7722d9e8aa5ef622b68f5ae83cc38c3e459fb4d169eed53c9607c84448934768.jpg)  \n图1数据处理的早期阶段",
+    "context5": "这种相对直接的方法适应性强且可评估，使得操作人员不用掌握专业的XM知识而能对很多遗留系统进行格式转换。如果数据要在大范围内共享，就必须有一个共同的标准，这是实现 SHELL计划第三个目标很关键的一步。ioAgent 在IMS 学习者信息包（Learner Information Package，简称LIP）规范的基础上传递数据，这个规范已成为一个英国标准 (BS 8788)，该标准包括一个描述学生记录数据的XM 计划。",
+    "context6": "学生数据转换成XM格式后，被传送到信息交换中心（Hub)，Hub 在考试中心、学校、学院、大学和个人发展计划系统之间远距离接收并传输数据，ioNode被用于描述每个机构创建的本地插件的系统流。如图2所示。这个技术基础将强有力地支撑学习者记录数据库和联合门户的发展。",
+    "context7": "![](images/eebff1b5217b2eae3f2a891a56b1277867a810a955a741fb16c0f7a1ceb5ccee.jpg)  \n图2合作机构之间的数据处理"
+  },
+  "3.2学习者记录门户": {
+    "context1": "提供学习者记录的途径主要有两个，一个是存储模型 (the storage model)：在机构内的相关系统收集数据并建立数据库；一个是需求模型（the request model）：在学习者有需要时，向相关机构系统发送数据请求，并将收集到的数据提供给学习者。SHELL计划同时考虑了这两个模型，发现需求模型还没有健全到可以按比例扩大，由于它没有任何数据存储，甚至是一条学习者记录索引，只是在需要时向所有的机构发送请求，来查看一个特定的学习者是否曾经在该机构注册以搜集齐全他的所有记录，在这种情况下，系统的反应速度较慢或者没有任何反应，如果一个系统没有回应，门户就不能知道一个学习者记录是否已搜集完整。而存储模型则非常的健全，且可根据情况实现升级，它能够调节从源学生记录系统传递数据的时滞，支持系统间的链接，并能够独立于任何档案政策而应用于源学生记录系统。",
+    "context2": "随着学习者记录数据库的建立，这个存储模型得以实现。学习者记录数据库从信息交换中心（Hub）接收数据，它存储学习者从联盟中的学校、学院及大学获得的所有成绩记录，记录包括获得资格的详细信息、已完成或正在进行中的课程信息，当学习者在联盟机构间移动时，记录内容会实现更新。SHELL计划创建的学习者记录门户提供对这个数据库的权限获取，新用户可通过回答一些有关他学习期间的问题进行自我注册。门户允许学习者对他在这些合作机构中获得的正式资格认证的抄本进行永久的计算机获取，包括对可用记录的部分或全部进行下载、保存和打印。"
+  },
+  "3.3管理门户": {
+    "context1": "除了学习者记录门户外，SHELL计划还为一些员工创建管理门户作为补充，达到数据库维护的目的。该门户只对主要员工提供权限，员工通过管理门户修改学习者记录数据库的错误或重复，具体可执行的操作有：",
+    "context2": "（1）查看每一个学生从进入机构到离开机构的所有记录。（2）删除由管理机构传递到数据库中的错误的学生记录条目。（3）查看ioNode 网络的运行状况。目前，该管理门户作为“实验台”（Test Bed）的一部分而允许公共存取，“实验台”是一个整合开放资源系统，供各机构进行XM数据传输的实验。"
+  },
+  "4SHELL计划的评估工作": {
+    "context1": "SHELL计划产生了很多可使用的规范，评估策略要求所有的规范都要经过联盟成员的可接受检验，来保证供给者和命作者的利益。除此之外c这个评估策略也描绘Tis个从合作者获得格式化反馈的流程以推动将来的发展t",
+    "context2": "基本上，每一个项目规范（例如学习者记录规范）的负责人要为该规范提供初步的评估报告，连同支持证据(supporting evidence）一起交给评估组。每个合作者都有机会完成一个简短的本地评估报告，在自已所处的环境中判断这个规范的适应性。",
+    "context3": "在项目实施过程中，有很多方法被用于评估过程。最初，一个文件管理系统被用来存储评估报告和支持证据的电子拷贝，由于系统的复杂性，它并没有得到评估组广泛的使用。SHELL计划还采用了召开合作者会议的方式推动评估工作的开展，这种方法确定了固定的评估时间，有益于评估工作的稳定开展，但是，对合作者来说，需要花费很多时间，有时，一次会议要花上一整天的时间。所使用的最有效的方法是注册网站的建立，网站为每一个规范提供颜色编码的全面的评估进程表格，并直接说明“如何做\"。为了简化评估过程，评估组还创建了一个电子评估格式使评估程序自动化。虽然这需要一段时间去建立，但是实践证明这种简单且容易使用的过程是成功的。这种方法显著的特点是避免了使用E-mail发送信息出现的“收件箱已满”问题，且具有为众多的目标寻找单一信息源的能力，特别适合用于长期计划的评估工作，尤其是参与成员在一段时间内发生变动的情况[7]",
+    "context4": "SHELL计划并没有解决系统创建的所有问题，例如，系统目前所包含的学习者记录的范围非常窄，由Bournemouth 大学领导的Personal Development Plannng for Lifelong Learning 计划将在这方面有所突破，该计划专注于扩展现有学习者记录规范，将使个人发展计划数据也包括在内。8]从国家层次上看，一个终身学习者记录系统的目的和功能还没有完全实现，但SHELL计划所产生的技术基础将支持其进一步的发展，加快为终身学习者的利益整合所有现有系统的步伐。"
+  },
+  "注释": {
+    "context1": "[1] Supporting education and research: http：//www· jisc.ac.uk/， 2Oo8-03—1]",
+    "context2": "[2]JISCinfoNet—Creatinga ManagedLearning Environment（MLE）.htp://wwwjiscinfonet.ac.uk/InfoKits/creating-an一mle 2008-03-11",
+    "context3": "[3]MLEsforlifelonglearning:building MLEsacrossHEandFE.http：//ww-jiscac.uk/whatwedo/programmes/programmebuildml _hefe.aspx，2008—03-11",
+    "context4": "[4] Project Background and Overview $\\because$ http：//www:educationaldevelopment· net/shelfinal/overview. htm， 20o8-03-11",
+    "context5": "[5] The“Story of Shell”·htp：//www. educationaldevelopment.net/shelfinal/shellstory.htm，2008-03—11",
+    "context6": "[6]JonYorke·Integratinginformationsystems tothebenefitoflearners:areviewoftheSHELLproject.NewReviewof Informatior Networking，2005(1l)：179－192",
+    "context7": "7]The evaluation processhttp：//ww/educationaldevelopment.net/shelfinal/evaluationreports.htm，2008-03－11",
+    "context8": "8]PDP4Life：Personal Development Planning for Lifelong Learning.htp://www.jisc.ac.uk/index:cfm? name $=$ pdp4life& src $=$ alpha，2008－03—11",
+    "context9": "刘钟美中国劳动关系学院图书馆。",
+    "context10": "张新鹤武汉大学信息管理学院 2007 级博士。"
+  },
+  "（上接第83页）": {
+    "context1": "[4]汪全莉·网络信息自组织及其平台构建管窥·情报杂志，2004(3)：55-56，60",
+    "context2": "[5]关于精华帖和热门帖·http：//wwwbokett:com/bbs/dispbbs·asp?BoardlD $\\vDash$ 27&ID=95973，2008—09—04",
+    "context3": "[6]新浪论坛—版主手册·http：//bbs·sina·com $\\mathsf { c n } / \\mathsf { p c } / 2 0 0 7$ —02—08/16/737.html，2008—09—05",
+    "context4": "[7]互动搜索时代：新浪爱问VS 百度知道·http：//publish.itl68.com2005/0721/2005072102490l.shtml，2008—09—06",
+    "context5": "[8]雅虎知识堂·http：//baike.baidu.com/view/l92980.htm, 2008—09—06",
+    "context6": "[9]百度搜索帮助中心一百度知道帮助·http：//www baidu.com/search/zhidao help: html，2008—09-06",
+    "context7": "余望枝武汉大学图书馆。  \n朱少强广东工业大学经济管理学院。"
+  }
+}

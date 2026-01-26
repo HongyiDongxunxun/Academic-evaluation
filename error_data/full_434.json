@@ -1,0 +1,63 @@
+{
+  "original_filename": "full_434.md",
+  "Mashup国内外研究综述": "",
+  "奉永桃": {
+    "context1": "华南师范大学经济管理学院信息管理系广州510006",
+    "context2": "[摘要]对 2005一2009年国内外Mashup研究论文，从来源数据库、发表时间方面进行统计分析，并按主题简要介绍该领域理论研究和应用研究两个层次的主要成果，并对这些成果从内容和研究方法上进行述评，指出 Mashup发展中存在的不足，对研究中存在的问题进行分析总结，并对未来该领域的研究趋势进行预测。",
+    "context3": "[关键词]聚合 API 信息服务网络学习",
+    "context4": "[分类号]G202",
+    "context5": "A Review Research ofMashup atHam e and Abroad",
+    "context6": "Feng Yongtao",
+    "context7": "School of Econam ic Managem ent College South China NomalUniversity Guangzhou 510006 [Abstract] Statistical analysis of papers onMashup in $2 0 0 5 - 2 0 0 9$ is made basing on the aspects of database source and publication timeAtthesametimewomainlayersachievaments involving both theoryandapplicationare introduced Whatsmorethe author reviewstheachievementsbycontentandmethodpoitsouttheshortcmingsand problmsof hem，andpredicts heresearchtrendsof th is field",
+    "context8": "[K eywords] Mashup API infomation service online leaming",
+    "context9": "近年来“Mashup\"新型网络应用在Intemet上广泛兴起，根据维基定义“Mashup:网络聚合应用,把来自两个或多个外部资源的数据或功能整合起来创建一项新服务的网页或Web应用程序\"可知，Mashup是从多个分散站点获取信息源,组合成一种新型网络应用模式，它利用的外部数据源格式多种多样，兼容性惊人。今天，博客、网摘、图片、视频等服务广泛应用，促进了Mashup研究热潮，引起国内外学者重视。本文将对其研究现状进行综述，揭示近年来该主题研究的发展轨迹、研究路线、学术成果及存在的相关问题，并对其发展进行展望。"
+  },
+  "1Mashup研究现状概述": {
+    "context1": "笔者利用CNKI以“mashup\"为检索词,进行篇名及关键词检索，经筛选得到国内研究论文43篇;并以相同检索条件,在国外四大权威数据库 ACM、PmQuest Sci-enceD irect SpringeiLink中进行检索，筛选后分别得到16篇、3篇、2篇、21篇主题研究文献，共为51篇(包括著作两本）。国内外合计为94篇。如表1所示：",
+    "context2": "表1 论文年代分布表",
+    "context3": "<table><tr><td rowspan=1 colspan=1>年份论文数</td><td rowspan=1 colspan=1>2005</td><td rowspan=1 colspan=1>2006</td><td rowspan=1 colspan=1>2007</td><td rowspan=1 colspan=1>2008</td><td rowspan=1 colspan=1>2009(统计至7月）</td><td rowspan=1 colspan=1>合计</td></tr><tr><td rowspan=1 colspan=1>国内篇数</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>43</td></tr><tr><td rowspan=1 colspan=1>国外篇数</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>51</td></tr><tr><td rowspan=1 colspan=1>合计(篇）</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>53</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>94</td></tr><tr><td rowspan=1 colspan=1>比例(%)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5.3</td><td rowspan=1 colspan=1>9.6</td><td rowspan=1 colspan=1>56.4</td><td rowspan=1 colspan=1>28.7</td><td rowspan=1 colspan=1>100</td></tr></table>",
+    "context4": "数据表明,对 Mashup关注始于2O06年。国内研究稍早于国外，原因是 2006年国内图书情报界对“跨界合作\"的研究热潮[1]。Mashup特有的重新整合网络资源应用的方式，激起了软件开发者与广大普通网民的极高热情，并吸引了越来越多研究者投入其中，研究热度持续上升，论文年度数量分布呈现出明显的递增趋势。国内外对Mashup的研究主要包括基础理论研究和应用研究，论文将从这两方面展开综述。"
+  },
+  "2Mashup理论研究现状": {
+    "context1": "在理论研究方面涉及主要内容有Mashup定义、架构、关键技术、平台工具。"
+  },
+  "2.1定义": {
+    "context1": "学者大都认同维基定义及著名Mashup网站的定义即“Mashup网站是一个Web页面或应用程序，从两个或以上的外部在线资源连接数据。外部资源极可能是其他的Web站点，并且站点上的数据被mashup开发员使用不同的方法获得，这些方法包括但又不仅仅局限于 APIs XML数据源（XMLFeeds)和屏幕抓取”[2]",
+    "context2": "较早对Mashup进行明确定义的是加拿大学者菲克特（Darlene Fichter),她指出“Mashup:把多个信息源整合起来创建一个全新的网站或者网络应用。\"此外，有学者把Mashup定义为一种网络技术，这种技术结合了多个来源的信息到一个单一的Web应用程序,这种技术为人们整合不同来源的数据提供了一个新的平台[3]。",
+    "context3": "我国学者黄倩则提出 Mashup是新一代的软件开发模式，交互式的Web应用开发模式涉及了 $\\mathrm { { W e b 2 . 0 } }$ SaaS SOA等多种技术的融合应用，它通过不同渠道获取外部数据源创建全新的服务，提供统一体验的互联网应用[4]。而王萍、张际平提出“Mashup的内涵在于整合不同外部数据源的内容和服务，把松散的学习资源、要素、服务和功能集成在网络学习环境之中，提供增值的、创新的内容、服务和统一完整体验的Web信息系统”[5]。",
+    "context4": "笔者认为在定义Mashup时应注意Mashup还是一种理念,它是将整合、混搭的理念用于Web服务构建而形成的一种崭新的模式[6]。"
+  },
+  "2.2架构": {
+    "context1": "大部分学者认同Mashup的三层架构模式，即[7]：$\\textcircled{1}$ API伪容提供者,提供了建设 Mashup网站所需内容。为了方便外界获取和使用，提供者将自己的内容通过Web协议,采用 API的形式对外提供。 $\\textcircled{2}$ M ashup服务器。负责把所获得的或者是自有的资源和服务封装成标准组件，并管理这些组件，同时响应应用程序对于资源、服务的开放调用。 $\\textcircled{3}$ 客户机Web浏览器。以可视化方式呈现应用程序的地方，也是用户交互发生的地方，MashuP通常都使用客户机端的逻辑来构建合成内容。",
+    "context2": "然而，上述Mashup三层架构模式存在着不足，许多学者提出了相应改进模型。代表性的有：陆璐莹针对“Mashup缺乏语义信息\"提出了基于语义Web的Mashup设计架构，将其体系架构分为四层,即页面显示层、业务逻辑层、语义处理层以及服务实现层[8]；ZahoorE提出了名为“Mashup处理网络（MPN）\"的系统架构模型,该模型由四部分组成:数据流生产者、数据流消费者、Mashup流程代理、以及用来发送Web服务请求和接收响应的沟通渠道[9];还有学者提出基于质量控制的 Mashup架构等。语义Web架构模型满足了用户的灵活需求，而MPN架构模型则克服了传统Mashup系统缺乏长期稳定性和系统健壮性的缺陷等问题。这些改进模式推动了Mashup更快更健全的发展。"
+  },
+  "2.3关键技术": {
+    "context1": "笔者通过对相关资料的研究发现：Mashup根生于$\\mathrm { { W e b 2 . 0 } }$ 环境，形成与发展都离不开 $\\mathrm { { W e b 2 . 0 } }$ 相关技术的支持，支撑其发展的技术有[-7]：",
+    "context2": "·Ajax一种Web应用模型,关注内容的异步加载和呈现方式，是多种技术的集合。目前研究的核心技术包括[10] $\\textcircled { 1 } \\mathrm { X M I H } \\mathrm { t p t }$ 一套可以在 JavaScript等脚本语言中,通过 HTTP协议传送或接收 XML及其他数据的一套 $\\mathbf { A P F } \\mathcal { Q }$ 文档对象模型(DOM),提供对文档内容、结构、风格进行访问和更新的应用程序接口; $\\textcircled{3}$ JavaScript用于客户端的脚本语言，是一种被浏览器全面支持的轻型设计语言。",
+    "context3": "·Web协议。主要包括 SOAP和 REST协议，是与平台无关的远程通信协议。SOAP是一种轻量的、简单的、基于 XML的协议，它被设计成在Web上交换结构化的和固化的信息。但是随着标准不断被提出，SOAP变得臃肿，操作变得越来越复杂，REST(一种针对网络应用的设计和开发方式，可以降低开发的复杂性，提高系统的可伸缩性)的出现解决了这一问题，最终推动了Mashup的快速发展,并带来了信息组织与信息服务范式的变革。",
+    "context4": "·屏幕抓取。抓取是使用软件工具处理并分析最初为人们阅读而编写的内容，从中提取出可以通过编程进行使用和操作的信息的语义数据结构表示。当缺乏内容提供者提供的 API时通常会强制要求 mashup开发人员采取屏幕抓取方式来提取自己希望集成的信息。目前有很多屏幕抓取工具可供 mashup者使用，但由于其自身固有的缺点及给使用者带来的侵权风险，制约了它在该领域的应用。",
+    "context5": "·语义 $\\mathrm { \\mathbb { W } \\ e b } _ { \\mathrm { \\mathbb { V } } }$ 其目标是创建Web基础设施,使用元数据对数据进行增强，从而使数据变得有意义，最终使数据变得适合进行自动化、集成、推理和重用，它的实现依赖于 XMLRDF和 Ontology三大关键技术。它的出现弥补了屏幕抓取技术的缺陷。但至今，语义Web仍未能找到一种方法来表示所有的数据使得在连接到网络时某一数据可识别并建立与其他相关信息的链接。",
+    "context6": "·RSS和ATOM。RSS是一种描述和同步显示网站内容的格式，是目前使用最广泛的资源共享应用。但其被开发者冻结的核心内容不能满足内容聚合开发者的需要，因此研究者开发了ATOM来弥补RSS的开放性不足的问题，人们通过 $\\mathrm { A } \\tan$ 提供比RSS更好的元数据维护和更为全面的文档。这些联合技术对于集成基于事件或更新驱动内容的 Mashup来说都非常有用。"
+  },
+  "2.4平台工具": {
+    "context1": "目前已推出的Mashup开发工具主要有YahodPipes Microsoft’s PopFly Google Mashu PEditor IBMDam ia以及IntelBMashMaker等。这些Mashup平台工具各有特点：微软的Popfly开发过程简单，用户体验好，但如果创建一个新的 Mashup 很可能会导致出现浏览器崩溃的情况;雅虎YahodPipes则对数据格式要求较严；GoogleMashup Editor相当于一个在线的可视化工作室，功能很强大，有编辑、编译、运行等功能，可以很方便实现Ajax功能，对中文支持比较好[；目前英特尔InteMashMaker使用门槛高，使用者必须对网站内容及技术有一定程度的认识。上述开发平台要真正达到广大普通用户的mashup要求，还需研究者继续努力。"
+  },
+  "3Mashup应用研究现状": {
+    "context1": "Mashup应用发展迅速。来自名为pmgrammableweb网站的数据显示，截至2009年8月22日，全球在网站上注册的 API数1430个，基于API开发的Mashup应用达到4261个，平均每天增长约3个，开放API的出现促进了用户进行Mashup开发的热情，使之在各领域得到迅速发展,其典型应用领域有[]: $\\textcircled{1}$ 地图Mashup。地图是Mashup最主要的应用领域，约占其所有应用的 $3 5 \\%$ 。人们搜集大量有关事物和行为的数据，而这两类数据常具有位置注释信息，所有这些包含位置数据的不同数据集均可利用地图通过图形化方式呈现出来。 $\\textcircled{2}$ 图片和视频 Mashup。内容提供者拥有与其保存的图像相关的元数据，Mashup的设计者可以将这些照片和其他与元数据相关的信息进行关联。 $\\textcircled{3}$ 搜索和购物 Mashup。在 Mashup这个术语出现之前，搜索和购物Mashup就已经存在很长时间了。在WebAPI出现之前，有相当多的购物工具，都使用了B2B技术或屏幕抓取的方式来累计相关的价格数据。为了促进Mashup和其他web应用程序的发展，诸如eBay和Amazon之类的消费网站已经发布了自己的",
+    "context2": "API以供开发者调用。",
+    "context3": "文献资料显示，学者们探究的 Mashup应用研究方向却大相径庭,涉及的主要领域有：",
+    "context4": "·企业：Mashup与企业结合是国外学者研究的热点之一。由于移动运营商可以借助 Mashup拓展产业链、全面进入信息领域，mashup在移动互联网上的应用是学者研究的重中之重，并取得了一定成果：我国学者郭靖和郭晨峰[12]对Mashup应用于移动互联网的应用前景、关键问题、实现平台及主要的应用方向等做了介绍;芬兰与德国学者[13]提出了一个 TELAR Mashup平台，该平台基于客户端 服务器的解决方案，有利于为移动设备建立一个基于位置信息的Mashup系统；日本学者[14]提出了一个应用于移动互联网的 Mashup工具，目的是为移动用户提供一个个性化的显示方式，同时整合了一些其他的服务。然而，Mashup在企业中的应用并不仅仅局限于移动互联网行业，学者同样研究了适用于广大企业的Mashup平台，代表性的有美国学者提出的企业Mashup应用平台（EMAP)[15],详细探讨了EMAP的模型及架构，分析了企业Mashup取得成功的关键因素。实践证明通过这个灵活的平台，Mashup应用开发商能够迅速地编写企业级质量的应用，用户则可以简便地创建高度个性化的应用。作者还根据企业中投资收益率的原则，预测这项应用将很快被广大企业所采用。文［16]介绍了企业Mashup的主要组成部分，并探讨了这一新模式的设计原则及架构,进而说明了这种Mashup架构能够在短时间内为独立或异构企业提供相应的应用。",
+    "context5": "·生物医学：生物医学领域中庞大的数据信息以不同的存储格式分布在不同网络环境的数据库中，急需一种网络技术或工具把它整合起来以便于应用。加拿大学者[1]详细介绍了Bio2RDFMashup系统,开发了整合帕金森症四个转录因子基因相关信息的Mashup系统;耶鲁大学学者[18]探讨用Mashup来整合医疗卫生和生命科学信息。",
+    "context6": "·其他。包括Mashup在图书馆、教育、音乐等领域的应用。Mashup在图书馆主要用于图书馆书目信息服务，教育界则主要是网络学习方面。互联网中各类信息的海量增长，必将促使Mashup在更多领域得到更广泛的应用。"
+  },
+  "4Mashup研究存在的问题": {
+    "context1": "随着 Mashup的迅速发展及广泛应用，一些技术问题、社会问题、跨组织边界应用问题给我们提出了新的挑战[19],如： $\\textcircled{1}$ 知识产权保护问题。Mashup主要技术之一一—屏幕抓取技术本身就存在着侵权的可能性，Mashup开发人可能以未获得API内容提供者批准的方式使用其内容,造成侵权。 $\\textcircled{2}$ 数据语义与数据质量问题。Mashup数据源自不同机构、组织、个人，Mashup开发者可能并不是源数据模型领域的专家，他们对源数据语义的理解是否准确，异构数据模型的转换、映射是否完整、真实，开放的数据提供带来的数据污染，屏幕抓取数据具有不稳定性等都可能造成Mashup应用失败。 $\\textcircled{3}$ 标准化问题。目前Mashup领域缺乏统一的标准规范,制约了其进一步发展。 $\\textcircled{4}$ 尚未形成明确的商业盈利模式。如内容提供者如何收取服务费用，这将影响商业性数据库向Mashup领域的介入。"
+  },
+  "5研究热点及发展趋势": {
+    "context1": "Mashup产生背景决定了其具有应用性非常强的特点。从上文分析可以看出学者主要关注Mashup应用研究，对其基础理论探究则相对较少，应用研究主要集中在企业、生物医学等领域，探究如何整合这些领域中的相关信息从而为用户提供更方便、更个性化的使用。该类研究国内外存在着巨大差异,国内对 Mashup的应用研究主要集中在图书馆、教育及移动互联网等领域，对其在广大企业和生物医学领域的应用则没有涉及。因此，Mashup在此两大领域的应用，将是我国学者研究热点之一。",
+    "context2": "此外,针对Mashup应用中存在的数据语义、数据质量、数据安全、Mashup系统改进等也是现阶段研究热点之一。目前 Mashup开发者主要集中在高学历水平的学者或软件开发人员，且许多国外优秀的 Mashup开发平台在国内并没有中文版本，更加大了其开发难度。Mashup今后将沿着更加平民化、简易化方向发展。"
+  },
+  "参考文献：": {
+    "context1": "[1]毛军·图书馆信息服务和搜索引擎的跨界合作·现代图书情报 技术， $2 0 0 6 ( 9 ) _ { ! } 2 - 7 .$   \n[2][2009—08—22].htp://www.prgrammableweb cam /faq#Q1.   \n[3]Mohammed N，Fung BWang K，etal Privacypreseiving data Mashup//Kersten M，Novikov B，Teubner Jetal Proceedings of the $1 2 \\Uparrow$ In temational Con ference on Extending Database Technology:Advances in Database TechnologyNew York:ACM Press 2009:228.   \n[4]黄倩·互联网技术与电信网结合的一些思考.电信网技术，2008 (2).1-4.   \n[5]王萍,张际平．Mashup聚合技术与网络学习,电化教育研究， 2008(3): 63-66.   \n[6]龙岳红·地图mashup的研究与实现[学位论文].长沙：中南大 学,2008.1-51   \n[7]MashupsWeb应用程序新成员． $[ 2 0 0 9 - 0 8 - 2 2 ]$ http:// www. ibm:com /developerwoiks $/ _ { \\mathbf { c } \\mathbf { n } } / _ { \\mathbf { \\delta } \\mathbf { x } } / _ { \\mathbf { \\delta } \\mathbf { x } } -$ mashups hm Iresouices   \n[8]陆璐莹·Mashup与语义网络结合的研究与应用·电脑知识与技 术,2008 (16)：1351   \n[9] ZahoorEPerrin O，Godart CMashup modeland verification u\" sing mashup processing network // Bertino E JoshiB D J Colaborative Camputing NetwoikingApplications and Woiksharing Berlin；Springer Press 2009, 632.   \n[10]詹骞·基于Ajax/REST的GISWEB服务研究与实现[学位论 文]北京:中国地质大学，2008.45－51   \n[11][2009-08-22]. htp://www: programmableweb com/mashups/ direc tory /1   \n[12]郭靖,郭晨峰·移动互联网上的 Mashup应用·电信技术，2008 (8). 70-72.   \n[13] B rodtA，N icklas D. The TELAR mobile mashuPplatfom forNok ia intemet tablets//Valduriez P Pmceedings of the $1 1 \\mathrm { { t h } }$ in temational conference on extending database technology:Advances in database technology New York:ACM Press 2O08:700.   \n[14] Chaisatien P,Tokuda TAWeb-Based Mashup Tool for Infomation Integration and Delivery to Mobile Devices //Proceedings of the $^ { 9 } \\mathrm { \\# }$ intemationalconference on web engineeingBerlin Spring Press 2009.489-492.   \n[15] Gurram R,Mo B,Gueldem eisterR:A Web Based Mashu PP lat fom forEnterprise 2. O// Sven H, Xiaofang Z Maikus K.W eb Infomation Systems Engineerig-WISE 2O08 WorkshopsBer lin:Springer Press 2008 (5176):144-145.   \n[16]Hoyer V，Stanoesvka—Slabeva K，Janner Tet al Enteiprise Mashups Design Prnciples towardsthe Long Tail ofUserNeeds// IEEE IntemationalConference on Services Computing 2008(2): 601-602.   \n[17]Belleau F,Nolin M,Tourigny N,et al Bio2RDF:Towaids a mashup to build bioinfom atics know ledge systemsJoumal of B io\" medical Infomatics 2008,41(5):706.   \n[18]Cheung K,Yip Y K,Townsend PJ et al HCLS 2. 0/3.0. Health care and life sciences data mashu Pusing Web 2. 0/3.0. Joumal of Bimedical Infomatics 2O08,4l(5): 694.   \n[19]李春旺,肖伟·集成融汇:概念、模式与应用·现代图书情报技 术,2008(12):26."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "original_filename": "full_8408.md",
+  "●杨萌，张云中²，徐宝祥": {
+    "context1": "(1．吉林大学 管理学院，吉林 长春130022；2．上海大学 图书情报档案系，上海 200444)"
+  },
+  "社会化标注系统资源聚合与导航研究综述": {
+    "context1": "摘要：针对社会化标注系统的资源聚合与导航问题，整理并分析了国内外相关研究的进展，从深度语义聚合、广度关联聚合、跨系统聚合和资源导航4个角度总结并剖析了社会化标注系统资源聚合与导航研究所取得的成果和存在的不足，深入讨论了该课题亟须解决的五大问题，并提出了初步的解决思路，为后续研究奠定基础和提供启发。",
+    "context2": "关键词：社会化标注系统；资源聚合；资源导航",
+    "context3": "Abstract:In viewof the problems of resourcesaggregationand navigation of socialtaggng system，thepaperorganizesand analyzes the progressofrelatedresearches at homeandabroad.Thenthepaper summarizesandanalyzes theachievementsand shortcomingsofresourcesaggegationandnavigationofsocialtagingsystemfrom4aspects:depth semanticaggregation，breadth associatedaggregation，crossystemaggregationandresourcesnavigation.Finally，thepaperdiscusses5majorproblemsthat should besolvedandputs forwardthepreliminarysolutionideas，whichlaythefoundationand provideinspirationforfurther study.",
+    "context4": "Keywords: social tagging system; resources aggregation; resources navigation",
+    "context5": "社会化标注系统是用户根据自身对网络资源的认知，自由地随社会情境来给网络资源添加标签而形成的分布式标注系统，其在 $\\mathbb { W } \\mathrm { e b } \\ 2 . \\ 0$ 下被广泛使用在网页、图片、音视频、学术资源等各种资源的共享平台上。社会化标注系统也被称作社会化标签系统、协作化标注系统，在分类学中名为大众分类法（Folksonomy）。",
+    "context6": "社会化标注系统资源聚合是指运用资源聚类、分析和组织的理论、方法与技术，基于不同的资源获取与利用的目的，对一个或多个社会化标注系统的资源进行聚集、整合与再组织，获取目标资源对象全貌的过程。",
+    "context7": "社会化标注系统资源导航是将系统资源聚合的结果从逻辑上联系起来，采用可视化的资源组织和呈现方式将结果展示给用户的过程。社会化标注系统中，资源聚合是资源导航的前提，资源导航是对资源聚合结果的可视化展示。",
+    "context8": "当前，社会化标注系统因其社会性、自由性、大众性、灵活性、简易性等优势为网络用户所青睐，但其模糊稀疏的语义和单一的资源组织形式同时也成为制约其发展的桎梏。围绕如何提高系统的资源检索的查准率和查全率，如何满足用户多元化、专业化、个性化、人性化和知识化的资源获取需求，如何提升系统中资源利用效率的问题，国内外学者将目光共同放在了社会化标注系统的资源聚合与导航这一综合性的议题上。",
+    "context9": "笔者以Webof Science和中国知网为数据源，以谷歌学术搜索为辅助，检索了国内外社会化标注系统资源多维度聚合和导航方面的大量研究论文，在文献分析与阅读的基础上，将国内外研究分为如下几类。"
+  },
+  "1基于深度语义的社会化标注系统资源聚合": {
+    "context1": "基于深度语义的社会化标注系统资源聚合是国内外研究中的主流，思路是使用统计分析、在线词表、受控词表、本体等工具获取与增强社会化标注系统资源的语义描述，克服Folksonomy语义模糊稀疏的缺陷，进而促进资源聚合，提高资源的可查找性。"
+  },
+  "1.1利用统计或聚类获取语义促进资源聚合": {
+    "context1": "有学者强调应用统计分析、聚类技术等途径，从社会化标注系统的标签集中抽取出语义关系，如H.Halpin等分析了Folksonomies动力机制，并寻求标签使用的一些规律，发现最常使用的标签之间的语义关系，绘制标签内在关系图。滕广青提出基于概念格对关联标签进行聚类分析和关联规则挖掘，揭示出关联标签间隐含的概念间关系和潜在的语义关联。",
+    "context2": "总体来说，统计分析、聚类分析等数学手段在语义表示方面存在先天缺陷，如不借助其他语义表示手段或工具，则很难发现复杂语义和深层语义。"
+  },
+  "1.2利用在线语义工具增强语义促进资源聚合": {
+    "context1": "也有学者另辟蹊径，认为可以通过建立标签与在线语义工具的联系来增强社会化标注系统语义进而促进资源聚合。D.Laniado等指出可将标签聚类成由在线词典Word-Net（WordNet能反映自然语言的语义关系及条目之间的分类和关联的特征）驱动的等级结构，过滤相关标签集，为标签构建等级结构，促进有效的资源聚类、检索和浏览。Limpens等尝试将网络语义资源（以 SweetWiki为例）同社会标注连接起来以促进社会网络的知识共享。Chen Miao等使用Google为标签赋予语义环境，以更好地抽取标签的语义关系。魏来提出基于在线词表的Folk-sonomy语义关联识别的总体思路和方法步骤。"
+  },
+  "1.3利用Taxonomy-Folksonomy结合实现资源聚合": {
+    "context1": "社会化标注系统中，受控词表的作用应做出新的定位。贾君枝围绕受控词表与Folksonomy的结合研究现状作了全面综述，认为应综合发挥二者优点管理网络资源。可见，受控词表与Folksonomy结合是实现社会化标注系统资源聚合的新途径，在该类研究中，以Tax-folk结合为主流。",
+    "context2": "Taxonomy体现了层次化的结构模式，符合人们对客观事物分类的认知模式，而Folksonomy是灵活的扁平化平面结构模式，两种模式各具优劣，将二者结合起来取长补短成为一种思路。S.Hayman等介绍了基于专家分类引导的自由分类方法，将用户标注与控制词表整合起来，跟踪用户需求变化，抽取新词，更新受控词表，促进用户参与到资源组织过程。S.Lorenzo等提出了一种将专家分类法与Folksonomy融合的分类法——Tagsonomy，通过由网站内容管理者定义的自顶向下的分类和由用户定义的自底向上的分类相结合的方式，实现了对网站资源的轻松访问。C.C.Kiu 等提出了一种 Taxo-folk 整合算法，将Folksonomy整合到分类法中，进而促进知识分类与导航，输出的结果是一种混合型的分类，并将之称为Taxo-Folk[d，TaxoFolk的算法中主要应用FCA作为数据挖掘工具。",
+    "context3": "国外在该领域的研究已经取得了值得肯定的成果，在将Folksonomy 整合到 Taxonomy 的过程中，FCA较之其他数据挖掘方法更具简易、高效和清晰的优势，值得借鉴。"
+  },
+  "1.4利用语义本体实现社会化标注系统资源聚合": {
+    "context1": "语义本体是当前对资源进行形式化、规范化精确语义描述的主要手段，建立Folksonomy与本体之间的联系进而实现语义关联也成为当前的热点内容。",
+    "context2": "T.V．Wal认为，标签数据体现了群体智慧，使用本体对这些数据进行形式化描述，有利于系统的互操作和知识的共享，并可以从中提取出丰富的语义信息[]。S.",
+    "context3": "Angeletou等指出标签之间的语义关系包括：包含关系、非相关关系、通用关系或一般关系、同源关系和实体关系，并通过实验证明Folksonomy能够通过在线本体获取标签之间的语义关联[。L．Special等将标签进行聚类，并将这些标签与本体概念进行映射，由系统查找来自本体中具有的与聚类标签相同标记的元素，增强Folksonomy语义[。何继媛等针对社会化标注系统中的检索准确性问题，实现了基于标签建立系统专用的本体和利用所构建本体实现语义检索[4。",
+    "context4": "综上，当前研究主要关注于借助现有本体实现二者的语义关联。但现有本体因缺乏针对性而不能全面完整地揭示特定系统的Folksonomy语义，那么利用社会化标注系统语义体系高效快捷地构建针对该系统的语义本体来代替已有本体就变得更为重要，这也是未来研究的重点之一。"
+  },
+  "2基于广度关联的社会化标注系统资源聚合": {
+    "context1": "社会化标注系统一个非常重要的属性是社交网络系统，社交网络体现在用户、资源的作者、机构、资源引用关系等方方面面，为区别于资源的语义关联，把上述方面的关联统称为广度关联。当前该方面研究热点是基于用户兴趣的资源聚合；另外，社会网络分析的出现也为基于广度关联的资源聚合带来契机。"
+  },
+  "2.1基于用户兴趣实现社会化标注系统资源聚合": {
+    "context1": "针对该类研究，学界的主要思路是先构建用户兴趣模型，进而根据用户偏好聚合资源进行推荐。E.Michlmayr等提出了从Folksonomy数据中构建用户偏好的3种不同方式：自然法、共现法、自适应法[。C.M．A.Yeung等通过分析某用户的 Personomy来识别用户的不同兴趣[。K.Harshit等使用Folksonomy系统中用户的搜索历史来建设用户偏好列表[。I．Nagehan等基于两点考虑（类似的用户对类似的资源感兴趣，类似的资源有着类似的用户）开发了一个针对社会书签网站的推荐系统来进行资源聚合和推荐[。N．Antonino等为社会分类系统中单用户提供了一种相似用户推荐和潜在兴趣资源推荐的方法。Zhang ZK等提出了一个基于“用户—项目一标签”三方图集成化的推荐算法，使得个性化推荐系统推荐的准确性、多样化和新颖性有显著的改善。王翠英对国外基于Folksonomy的用户偏好研究成果进行了分类介绍。余臻等运用较成熟的BP神经网络模型计算出标签词汇与叙词表之间的关联权重，进而用该权重矩阵来表示用户的语义性偏好特征。张云中等提出基于FCA的Folksonomy用户的偏好挖掘模型，通过构建Folksonomy形式背景，在概念格可视化基础上分析了Folksonomy用户偏好",
+    "context2": "对比国内外同类研究，国外研究进展迅速，而国内研究尚处起步阶段。从研究内容上来看，获取用户偏好的思路有两大类，一类是从用户注册信息或浏览历史中发现其偏好，另一类更主流的是从用户集一标签集一资源集的三元关系中挖掘其偏好，后者更具研究价值和后发意义。从实现手段和工具上看，呈现出多样化态势，利用FCA等数据挖掘工具是不错的选择。"
+  },
+  "2.2利用社会网络分析促进资源聚合": {
+    "context1": "社会网络分析原是社会学研究中的经典方法，可简单地理解为社会关系所构成的结构的分析。社会化标注系统资源聚合研究中，可以引入该方法用以分析系统中用户、资源等关键要素的网络关系。",
+    "context2": "P.Mika等提出了社会化标注系统的社会网络抽象模型，开后了从社会网络角度考量社会化标注系统用户一资源一标签关系的视角。张有志等认为可从Folksonomy中包含的社会网络关系来统计提取标签语义关系。唐晓波利用社会网络分析（SNA）理论和方法，采用“浮出语义”的思路，分析基于Folksonomy的“标引者一标签概念一实例”三部图模型发掘概念间语义信息。",
+    "context3": "上述研究的后发是：利用社会网络分析分析社会化标注系统的用户集及元数据集，绘制各种广度关联的社会网络图谱，就能实现基于广度关联的社会化标注系统资源聚合。"
+  },
+  "3跨系统的社会化标注系统资源聚合": {
+    "context1": "在基于跨系统的社会化标注系统资源聚合方面，国外的相关研究很少，国内学者更鲜有涉足。D．Benz等以两个最典型的社会化标注系统Flickr和Delicious为研究对象，分析了跨系统环境下标签的语义背景，通过对跨系统的标签的相互对比，发现Flickr和Delicious中的标签很少有语义重叠，该研究从客观上反映了社会化标注系统资源聚合必须选择同类系统的客观性和必要性。M．Szoms-zor等探讨了跨社会化标注系统生成用户兴趣模型的“四步走”方法：关联跨系统账户；建立数据搜集模块；标签过滤；用户偏好生成。其研究旨在自动合并跨社会化标注网站的用户偏好，并利用维基百科建立用户兴趣语义模型。",
+    "context2": "跨系统社会化标注系统资源聚合研究尚处起步阶段，研究的面很窄，局限在跨系统兴趣挖掘一点上，没有考虑基于语义的资源聚合及用户的其他特色需求。"
+  },
+  "4社会化标注系统资源导航研究进展": {
+    "context1": "在社会化标注系统资源导航方面，国内外的研究主要围绕标签云导航展开，探讨标签云布局优化问题。L.Ste-ffen等对许多不同的标签云布局做了对比研究，指出Folk-sonomy系统界面设计者应当根据预期的用户目标来慎重选择标签云布局方式。S.Johann等总结了当前对Folk-sonomy标签云认识不清的主要问题所在，并通过一系列的实验评估了标签云中标签按语义、按字母顺序及按随机方式等布局的影响，指出语义聚集标签云在具体的搜索任务方面较之随机布局更具优势 30-31。在国内，张媛等提出基于用户体验的标签云可视化布局。曾子明认为可以基于社区标签云进行个性化推荐。",
+    "context2": "综上，标签云图仍是社会化标注系统资源导航的主流方式。标签云反映了一套相关的标签以及与此相应的权重，有其直观化的优势，但在展示深度语义聚合、广度关联聚合等聚合结果方面则没有突出的优势，因而应该将社会化标注系统资源导航方式多元化，探索与上述聚合模式相适应的新的可视化导航方式。"
+  },
+  "5分析": {
+    "context1": "当前关于社会化标注系统资源聚合与导航的相关研究已经取得丰硕成果，但仍存在诸多不足值得我们深思。本研究在评析国内外相关文献的基础上，总结出社会化标注系统资源聚合与导航方面存在着五大方面的不足，这些不足将成为以后要着力解决的问题。"
+  },
+  "5.1尚未形成完善的社会化标注系统资源语义体系": {
+    "context1": "尽管国内外学者都尝试从元数据、在线词表、受控词表和本体等多个角度对社会化标注系统的标签语义进行了补充，但这些补充都是独立的，缺少交互性。每一种语义形式都有其优劣和适用性，只有各语义形式扬长避短，按需融合，形成开放的、互补的、互融的社会化标注系统资源语义体系，才能为社会化标注系统资源聚合与导航奠定基础。",
+    "context2": "社会化标注系统的语义体系，应该不仅仅是运用数据挖掘方法从标签体系自身中涌现出语义，也不仅仅是着眼于将其标签与其他语义形式通过映射建立联系，而是应该从一种大视角下将元数据、受控词、本体等各种语义表示形式与社会化标注系统结合起来，实现以高度形式化的本体为核心，以其他知识组织形式为辅助的语义表示体系。该体系中，元数据、标签、主题词、分类词和本体不仅能以形式概念为媒介实现语义的映射、互通和互操作，还能以元数据、标签、主题词、分类词中的共享规范化的概念和概念关系为基础，构建社会化标注系统的本体，从而从真正意义上实现对社会化标注系统资源语义的深度揭示。从这个角度上讲，构建社会化标注系统资源语义体系和构建社会化标注系统语义本体，将是下一步需深入研究的问题。"
+  },
+  "5.2缺乏对社会化标注系统资源聚合的机理剖析": {
+    "context1": "社会化标注系统资源聚合是一个多种理论、方法和技术参与下的系统化的复杂问题，是为了满足不同网络用户多元化的资源聚合需求而产生的多维度问题。根据用户对资源聚合的各种需求，包括确保查全率、提高查准率、方便浏览、实现个性化推荐甚至跟踪热点资源等，社会化标注系统的资源聚合就要展现出不同的维度，不同维度的资源聚合需要不同粒度、不同层次的语义支撑，需要不同的聚合技术和聚合方法。",
+    "context2": "探寻社会化标注系统资源多维度聚合下隐藏的内部规律，理清各种理论、技术、方法在社会化标注系统资源聚合过程中所扮演的角色，是实现社会化标注系统资源聚合与导航的前提，而这也正是当前社会化标注系统研究的不足之处。社会化标注系统资源聚合机理的缺乏制约了各种理论、方法和技术的有机融合和统一协同。",
+    "context3": "本研究的思路是剖析元数据、受控词、本体、标签、形式概念分析、社会网络分析等关于资源聚合的热点要素的优势与劣态，使它们优势互补。例如，元数据、受控词、本体、标签可以实现语义上的映射、互补和互操作;形式概念分析可以实现基于元数据集、受控词集、本体概念集、标签集、资源集和用户集上的概念分析，展开深度语义探索；社会网络分析可以利用其网络图谱分析的优势，实现资源元数据集上的关联分析，展开广度关联探索。"
+  },
+  "5.3社会化标注系统资源聚合的维度不完善": {
+    "context1": "社会化标注系统资源聚合的完整维度应涵盖深度、广度两个基本方面。深度聚合旨在从提高资源聚合与获取的准确程度上入手，通过精细化的描述和构建社会化标注系统的资源语义体系，实现对资源的精确描述；广度聚合旨在从提高资源聚合与获取的关联性入手，通过对资源的元数据集、用户集进行网络分析发现和挖掘，探索资源间的各种关联性。此外，跨系统聚合旨在满足用户在特定的同类系统间的各种资源聚合需求。",
+    "context2": "当前研究仅涉及上述维度中的一小部分，还有很大的补充空间。在深度聚合方面，当前研究往往借助建立标签与其他语义工具的映射来增强语义，处于基于语义的资源聚合的初级层次，距离构建并利用社会化标注系统语义本体来实现基于深度语义的资源聚合的高级层次还有一步之遥；在广度聚合方面，研究中主要是指向基于用户偏好的资源聚合方面，针对用户、资源、作者、机构等要素的网络分析和关联提取的相关研究尚未深入，这将是进一步研究的方向。"
+  },
+  "5.4跨系统的资源聚合愈发迫切": {
+    "context1": "当前的研究大多针对单系统内的社会化标注系统资源聚合。随着社会化标注系统的不断推广，同类系统越来越多，用户跨平台共享不同社区的资源和不同文本的资源已成为客观要求，实现跨同类的社会化标注系统的资源聚合变得越来越迫切。",
+    "context2": "跨社会化标注系统的资源聚合，本质上是建立起两个社会化标注系统的多维度关联。这种关联的基础是同类系统的数据集，包括用户集、资源集和标签集。其基本思路是先利用形式概念分析、聚类技术等手段按需实现单系统内部的资源聚合架构，再对两个系统的资源聚合架构进行相似度对比，通过映射与桥接，对两个系统的资源聚合架构进行整合，按照需求求同或求补，达到跨系统资源聚合的目的。这里的维度主要是基于语义的资源聚合，即通过本体映射等手段建立同类社会化标注系统间的语义互通、关联和互操作。当然，用户偏好、热点追踪也可成为跨系统资源聚合的维度。"
+  },
+  "5.5社会化标注系统资源导航形式亟须多样化": {
+    "context1": "社会化标注系统中，一般都会采用标签云图作为资源导航的形式。标签云图形式单一、视角单调，随着标签的不断更新，用旧标签标引的资源往往被淹没，难以被浏览和索引。另外，尽管标签云图是最基础的形式，但其难以实现社会化标注系统的资源聚合的多维展示，应探索多样化的社会化标注系统资源导航方式。",
+    "context2": "根据社会化标注系统中资源聚合的不同维度，可采用不同的资源导航形式对资源聚合结果进行展示。例如，基于深度语义的资源聚合可采用分类树、本体树等来呈现，而基于广度关联的资源聚合可采用社会网络图谱来呈现。总之，每一种资源聚合的形式都应该为其选择合适的可视化的资源导航模式。"
+  },
+  "6结束语": {
+    "context1": "随着社会化标注系统的不断推广使用，用户对多维度的资源聚合需求变得越来越迫切，社会化标注系统的资源聚合与导航愈发被重视并提上议题。本文在对国内外相关研究深入分析的基础上，分类述评了社会化标注系统资源聚合与导航问题关注的几个热点，包括基于深度语义的资源聚合、基于广度关联的资源聚合、跨系统的资源聚合和资源导航，一方面探析了当前研究的可取之处，同时也以批评性的视角对当前研究的不足进行了透视，讨论了当前研究存在的5点不足之处。社会化标注系统资源聚合与导航的进一步研究将主要围绕上述的5点不足而展开，可预见的主要研究热点包括社会化标注系统语义体系构建、社会化标注系统资源聚合机理、社会化标注系统资源多维度聚合与导航以及跨社会化标注系统的资源聚合与协同等，这些热点也将是今后进一步研究的方向。□",
+    "context2": "参考文献   \n[] HALPIN H,ROBU V, SHEPHERD H. The complex dynamics of collaborative tagging[C]//Proceedingsof the $1 6 ^ { \\mathrm { t h } }$ International Conference on World Wide Web.New York:ACM Press，2007:211-220.   \n[] 滕广青，毕强，高娅．基于概念格的Folksonomy 知识组织 研究——关联标签的结构特征分析．现代图书情报技 术，2012 (6):22-28.   \nB LANIADO D,EYNARD D,COLOMBETTI M.Using WordNet to turn a folksonomy into a hierarchy of concepts[c]//Semantic Web Application and Perspectives-Fourth Italian Semantic WebWorkshop[S.1.]:Princeton Citeseer，2007: 192-201. LIMPENS,FREDDY,GANDON F，et al. Bridging ontologies and folksonomies to leverage knowledge sharing on the social Web:a brief survey[//2008 23rd IEEE ACM Intermational Conferenceon Automated Software Engineering Workshops. Piscataway: N. J. IEEE Press, 2008:13-18. CHEN Miao,LIU Xiaozhong，QIN Jian.Semantic relation extraction from socially-generated tags:a methodology for metadata generation [EB/O1]．[2013-06-10] .http://edoc.hu-berlin.de/conferences/dc-2008/chen-miao-l17/PDF/chen. pdf.   \n魏来．基于在线词表的folksonomy语义关联识别方法研究 [．图书情报工作，2011（5)：103-108.   \n贾君枝．分众分类法与受控词表的结合研究进展[．中 国图书馆学报，2010（5)：96-01. HAYMAN S,LOTHIAN N. Taxonomy directed folksonomies: integrating user tagging and controlled vocabularies for Australian education networks[．Africa,2007（8)：1-27. LORENZO S,PETRA R，NADIA C. Tagsonomy: easy access to Web sites through acombination of taxonomy and folksonomy [c]//7th Atlantic Web Intellgence Conference.Berlin: Springer-Verlag，2011，86:61-71.   \n[0] KIU C C,ERICT.TaxoFolk: a hybrid taxonomy-folksonomy structure for knowledge classification and navigation[．Expert Systems with Applications，2011，38 (5):6049-6058.   \n[1] WAL T V.Folksonomy explanations[EB/OL]. [2013-04- 13].http://www.vanderwal.net/random/entrysel.php?blog $= 1 6 2 2$   \n[2] ANGELETOU S,SABOU M,SPECIA L,et al.Bridging the gap between folksonomies and the semantic Web:an experience report EB/OL]． [2013-04-20].ttp://people. kmi.open.ac.uk/ marta/papers /semnet2007. pdf.   \n[13] SPECIAL L，MOTTA E. Integrating folksonomies with the semantic Web[C]//Proceedings of the 4th European Conference on The Semantic Web:Research and Applications.Berlin: Springer-Verlag，2007:624-639.   \n[4] 何继媛，窦永香，刘东苏．大众标注系统中基于本体的语 义检索研究综述[]．现代图书情报技术，2011（3)： 51-55.   \n[5] MICHLMAYR E, CAYZER S.Learming user profiles from tagging data and leveraging them for personal （ized） information accessEB/0L]．[2013-06-10]．http://www2007.org/ workshops /paper_29. pdf.   \n[6] AU YEUNG C M,GIBBINS N,SHADBOLT N.A study of user profile generation from folksonomies[EB/OL]．[2013-06- 10]．http: //eprints. ecs. soton. ac.uk/15222/1/swkm2008_ paper. pdf.   \n[7] HARSHIT K，PARK PIL-SEONG， KIM HONG-GEE.Using folksonomy for building user preference list[C]// ISPAW' 11 Proceedings of the 2011 IEEE Ninth International Symposium on Parallel and Distributed Processing with Applications Workshops.Washington DC:IEEE,2011:273-271.   \n[8] NAGEHAN I, GUENDUEZ O S. A recommender model for social bookmarking sites[//15th International Conference on Soft Computing，Computing with Words and Perceptions in System Analysis,Decision and Control,201O:136-139.   \n[19] ANTONINO N, DOMENICO U. Anapproach to providing auser of a social folksonomy with recommendations of similar users and potentially interesting resources[J]．Knowledge-based Systems,2011，24（8):1277-296.   \n[0] ZHANG Z K,ZHOU T,ZHANG Y C.Personalized recommendation via integrated diffusion on user-item-tag tripartite graphs [．Physica A:Statistical Mechanics and Its Applications, 2010，389 (1):179-186.   \n[1] 王翠英．基于Folksonomy的用户偏好研究进展[．现代 图书情报技术，2009（6)：37-43.   \n[2] 余臻，宁宣熙，李保珍，等．社会化标注系统中用户需求 偏好的一种获取方法．南京航空航天大学学报，2009 (1):139-44.   \n[3] 张云中，杨萌，徐宝祥．基于FCA的Folksonomy 用户偏好 挖掘研究[．现代图书情报技术，2011（6)：72-78.   \n[4] MIKA P. Social networks and the semantic Web:the next challenge [．IEEE Intellgent Systems,2005,20（1）：80-93.   \n[5] 张有志，王军．基于Folksonomy的本体构建探索[．图 书情报工作，2008，52（12)：122-25.   \n[6] 唐晓波，全莉莉．基于分众分类的本体构建分析[．情 报理论与实践，2008，31（6)：931-936.   \n[7] BENZ D,GROBELNIK M,HOTHO A. et al. Analyzing tag semantics across collaborative tagging systems[EB/OL]. [2013-06-0]．htp://eprints.soton.ac.uk/267689/1/dagstuhl_SWC08. pdf.   \n[28] SZOMSZOR M，ALANI H，CANTADOR I，et al．Semantic modelling of user interests based on cross-folksonomy analysis [EB/OL]． [2013-06-10]．http://eprints.soton. ac.uk/ 266551/2/szomszor_ISWC2008.pdf.   \n[9] STEFFEN L，JUERGEN Z,LENA T. Comparison of tag cloud layouts:task-relatedperformanceandvisualexploration [C]//INTERACT’09 Proceedings of the 12th IFIP TC 13 International Conference on Human-Computer Interaction:Part I.Berlin: Springer-Verlag,2009，5726:392-404.   \nB0] JOHANN S,MICHAEL L，MANIFRED T. Semantically structured tag clouds: an empirical evaluation of clustered presentation approaches[C]//27th Annual CHI Conference on Human Factors in Computing Systems. New York:ACM，2009: 2037-2040.   \nB1] JOHANN S，STEPHANIE D，MANFRED T.Visual search strategiesof tag clouds-results from an eyetracking study []//INTERACT’09 Proceedings of the 12th IFIP TC 13 International Conference on Human-Computer Interaction:Part II．Berlin:Springer-Verlag，2009，5727:819-831.   \n[B2] 张媛，赵艺超．基于用户体验的标签云可视化布局研究 [．计算机与数字工程，2011（10)：16-18，200.   \nB3] 曾子明，张振．社会化标注系统中基于社区标签云的个性 化推荐研究[．情报杂志，2011（10)：128-133.   \n作者简介：杨萌，女，1986年生，博士生。 张云中，男，1985年生，博士，讲师，硕士"
+  }
+}

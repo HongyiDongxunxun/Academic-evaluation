@@ -1,0 +1,75 @@
+{
+  "original_filename": "full_1410.md",
+  "nothing": {
+    "context1": "·理论探索·"
+  },
+  "产品意见挖掘研究进展": {
+    "context1": "李光敏张磊²赵登科（1．湖北师范学院计算机科学技术学院，湖北黄石 435000;2．河南大学数据与知识工程研究所，河南开封475004;3．郑州经贸职业学院计算机系，河南郑州450000)",
+    "context2": "[摘要]随着 $\\mathrm { W e b 2 . 0 }$ 技术和电子商务的飞速发展，越来越多的用户参与到互联网，分享产品的使用体验和表达喜恶的观点，如何从评论文本中分析挖掘出互联网用户对产品的意见观点是消费者和生产商所迫切需要解决的问题。本文首先分析产品意见挖掘的必要性，然后从产品特征识别、产品评论主客观分类、情感极性分类等方面介绍了国内外的研究进展及所采用的技术，最后指出产品意见挖掘面临的不足和今后的研究方向。",
+    "context3": "[关键词]意见挖掘；意见识别；特征识别；情感极性分类",
+    "context4": "DOI:10.3969/j.issn. 1008-0821.2014.03.008 [中图分类号]F713.36〔文献标识码]A〔文章编号〕1008－0821（2014）03－0032—04"
+  },
+  "Research Progress in Product Opinion Mining": {
+    "context1": "Li GuangminZhang Lei²Zhao Dengke³",
+    "context2": "1.College of Computer Science and Technology，Hubei Normal University，Huangshi 435OO，China;",
+    "context3": "2．Instituteof Data and Knowledge Enginering，Henan University，Kaifeng 475OO4，China;",
+    "context4": "}.Department of Computer，Zhengzhou Vocational Collge of Economics and Trade，Zhengzhou 45OO0，China)",
+    "context5": "[Abstract）With the rapid evolution of Web2.O technologyand electroniccommerce，more and more customers participate intheInteret，shareproduct experienceandexpresslikesordislikesabout product.Firstly，thispaperpresentedthenecesityof opinion miningonthe growing social mediaand electroniccommerce business·Then it introduced theresearch progressbothat homeandabroadof theopinion miningonproductfromtheprospectofproductfeaturebasedidentification，productreview subjectivityanalysisandsentimentpolarityclassficationFinally，itsummarzedtechallngeofopinionminingonproductandre search interests about it.",
+    "context6": "[Key words）opinion mining；opinion identification；feature identification；polarity classification",
+    "context7": "随着 $\\mathrm { \\ W e b 2 . 0 }$ 技术的蓬勃发展，互联网用户完成由被动接受信息到主动参与创造信息的角色转换，同时电子商务的飞速发展也使用户创造的内容中包含更多的产品使用体验和评论，形成所谓的电子口碑（ElectronicWord一of一Mouth，eWOM)，越来越多的数据表明，电子口碑正影响着人们的消费方式和购买意向。针对日益增长的非结构化产品意见文本评论，如果采用人工方式对这些海量信息进行收集、分析和归纳，显然是不现实的。因此结合信息检索、自然语言处理、机器学习等领域知识对非结构化的文本评论进行提取和分类的产品意见挖掘（Opinion Mining）技术受到国内外学者的广泛关注。",
+    "context8": "意见挖掘（又称情感分析）在产品评论方面的研究意义主要体现在两个方面，一方面帮助商家改进产品质量提高企业竞争力，同时获取竞争情报，进行产品或服务方面的差异化竞争，这对产品品牌影响力和客户关系管理有着重要的作用；另一方面帮助潜在消费者了解产品的优势和不足，结合个人实际需要，迅速做出购买决定，节约决策时间。一般来说，产品意见挖掘主要包括产品特征识别、与特征相关的意见识别、意见极性及强度判断和用户观点汇总显示4个子任务[1]。因此本文主要从产品特征识别、产品评论的主客观分析、情感极性分类3个方面介绍国内外相关的研究技术与进展。"
+  },
+  "1产品特征识别": {
+    "context1": "产品特征描述产品的各个方面，Popescu[1]等人认为产品特征可细分为5个类别，其中包括产品的属性、部件、部件特征、产品的相关概念和概念特征。如：“\\*\\*手机的摄像头的分辨率较高，所以拍出来的照片清晰度还可以接受。”中的摄像头分辨率和照片清晰度表示手机相关概念的特征。产品特征识别属于意见挖掘中词和短语级的特征抽取任务，主要分为基于特征知识的人工定义和机器学习的自动识别两种方法。"
+  },
+  "1.1　基于产品特征知识的抽取": {
+    "context1": "目前主要有两种研究思路：一种是根据名称或名词短语出现频率来确定产品特征；另一种思路是通过监督或无监督的机器学习方法进行抽取。"
+  },
+  "1.1.1根据名称或名词短语出现频率": {
+    "context1": "$\\mathrm { H u ^ { [ 2 ] } }$ 首先识别出句子中的名词和名词短语，然后使用Apriori关联规则挖掘出的频繁项作为产品特征候选集，最后通过冗余修剪（Redundancy Pruning）去掉包含在其他候选特征中的冗余特征。随后Popescu[1]基于如下假设：共现的次数越多的两个词，则它们之间的联系也越大，提出的点互信息（Point一wise Mutual Information，PMI）方法提高了$22 \\%$ 的准确率但是召回率降低了 $3 \\%$ 。姚天昉[3]等人利用本体知识建立汽车领域的产品特征集。 $\\mathrm { R a j u } ^ { [ 4 ] }$ 等人同样在实验中排除所有那些相比在产品描述中更为频繁出现在一般性英文中的名词短语，然后将剩下的描述产品同一特征的名词短语进行聚类，该模型通过双连词重叠（BigramOverlap）值来衡量名词短语间的相似性，最后只保留至少含3个名词短语的聚类簇。"
+  },
+  "1.1.2通过机器学习方法抽取": {
+    "context1": "基于监督的方法，Blair一Goldensohn[5]实现的最大熵模型在产品特征抽取实验中达到较好的召回率和准确率。Kobayashi[6]采用三元组〈Atribute，Subject，Value）表示游戏和汽车领域的产品特征，手工建立特征种子集、意见种子集和二者共现模式集来抽取特征和意见。 $\\mathrm { J i n } ^ { [ 7 ] }$ 在 OpinionMiner 系统中通过自动学习过程中融入多种语言学特征而提出的词汇式隐马尔可夫模型（lexicalizedHMMs）完成产品特征抽取，实验结果理想。监督方法中的人工方式标注训练语料虽然精确度高，但花费时间长且领域移植性不强。",
+    "context2": "基于无人监督的方法， $\\mathrm { T a n } ^ { [ 8 ] }$ 等人通过泛化软模板和特征向量模板识别产品特征。徐叶强[9]等人对特殊词、评价对象非完整性、评价对象非稳定性等噪声过滤处理，利用评价对象在评论文本中与评价短语规则出现频率较高的特征，进行置信度排序，实验结果的准确率和召回率分别达到 $60 . 5 \\%$ 和 $78 \\%$ 。无人监督方法通常利用评论上下文的语义关系，结合特征种子集合和句法规则完成产品特征的识别，因此对评论文本的语法结构和产品特征与意见词之间的相对位置关系要求高。"
+  },
+  "1.2基于意见和产品特征共现关系": {
+    "context1": "意见词是指反映出消费者对产品或产品的某一特征所持有褒贬或中立态度的词或短语。基于文本评论中意见总是伴随着评价对象出现的前提考虑，所以利用意见和产品特征共现关系，由已知的意见词来抽取产品特征。Zhuang[10]利用这种共现关系通过依存语法图（DependencyGrammarGraph）完成电影评论的意见挖掘和汇总。$\\mathrm { Q i u } ^ { [ 1 1 - 1 2 ] }$ 将 Zhuang 所提出的依赖关系泛化成双传播（Dou\"ble Propagation）的方法，利用情感词和评价对象之间的句法关系，结合少量情感种子词同时抽取意见词和产品特征词，通过对数码相机、DVD 播放器、 $\\mathrm { { \\tt M P 3 } }$ 播放器和手机4个领域的训练集实验证明F度量值达到 $86 \\%$ 。 $\\mathrm { Z h a o } ^ { [ 1 3 ] }$ 提出的基于模板库抽取产品特征地同时也完成意见词的抽取，并且该方法领域适应性。 $\\mathtt { W u } ^ { [ 1 4 ] }$ 采用短语依存句法分析器来抽取名词短语和动词短语来作为产品特征候选词，这种方法克服了常规的依存句法分析器只能抽取单个词作为产品特征词的缺陷，更适合产品评论领域的特征抽取。"
+  },
+  "2产品评论的主客观分类": {
+    "context1": "Pang' [15-16]等人认为评论文本中夹杂少量客观信息会干扰意见挖掘的准确率，因此对Web文本进行意见挖掘之前进行主客观分析是十分必要的工作。产品评论的主客观分析主要就是对评论文本进行主客观性分类，即把表达意见情感的主观性文本从描述事实的客观性文本中分离出来，完成产品评论意见抽取的任务。",
+    "context2": "国外方面，Wiebe[17]等人较早将一些词（形容词、副词、代词、情态动词和基数词)、标点和句子位置作为特征，设计了朴素贝叶斯（Naive Bayes）分类器，采用10 折交叉验证的测试方法，并通过实验证明平均分类准确率达到 $8 1 . 5 \\%$ 。Wiebe[18]又在此基础上加入词性和基于词典的语义词两类特征项，使得分类效果提升明显。Ohana[19]使用SentiWordNet作为意见词特征集，并利用支持向量机(SupportVectorMachine）机器学习算法，完成对电影评论的意见挖掘。",
+    "context3": "国内方面，叶强[20]提出根据连续双词词类组合模式(2一POS）自动判断句子主观性程度的方法，并在阈值设定为0.12 时，分类查准率和查全率均达到了 $76 \\%$ ，接近英文同类研究。许鑫[21]等人提出基于词性的 $\\mathrm { N } ^ { - } \\mathrm { G r a m }$ 模型，先将评论文本中的词语按语法功能进行词性标注，再用文本中连续出现的 $N$ 个词性的顺序进行组合，最后比对文中规定的5种主观提取模式完成当当网中前20本书籍的27 401条评论文本的主客观分类。"
+  },
+  "3情感极性分类": {
+    "context1": "相对于篇章级、句子级的意见挖掘来说，产品评论挖掘需要抽取用户对产品中某一部件或属性（如手机的分辨率、待机时间等）的看法，因此更多情况下针对短语级、特征级的文本进行产品意见挖掘更有意义，通常有两种主要的分类方式：基于人工建立词典方式和机器学习方式。"
+  },
+  "3.1基于人工建立词典方式": {
+    "context1": "娄德成[22]等人使用HowNet中6 564个词条和2 454篇汽车评论文本分词后得到的1405个极性词建立情感词典。$\\mathrm { { H u } ^ { [ 2 3 ] } }$ 通过使用已标注极性的形容词，结合WordNet中词间的同义、近义关系来判断新词的情感极性的方法来判断主观性文本的情感极性。采用手工建立情感极性词典的方法耗时费力，尤其社会化媒体中不断涌现的表现情感极性的网络新词更增加了情感词典维护的工作量，因此采用机器学习算法的方式更适合产品意见挖掘方面的极性词发现。"
+  },
+  "3.2基于机器学习方式": {
+    "context1": "Wei[24]提出的利用情感本体树的层状分类模型，但无法判断情感表达范围。Jiang采用依存句法分析来产生一组依赖属性的特征项是目前最主要的监督学习方式。Boyi[25]通过解析树中基于情感词与产品特征的相对位置进行加权的计算方式来完成极性分类。 $\\mathrm { L i } ^ { [ 2 6 ] }$ 合并两种条件随机场变体（Skip-CRF 和 $\\mathrm { T r e e ^ { - } C R F }$ ）进行主题和极性分类。张清亮[2]等人从词频、词的领域性情感倾向和词的情感强度3个方面利用PMI一IR算法进行基准词提取后，再通过计算目标词与基准词集间的语义相似度识别出情感词，实验结果中，情感极性判断的准确率达到 $6 2 . 7 \\%$ 。",
+    "context2": "监督学习算法通常依赖训练数据，通过指定领域的标注数据训练好的分类器未必适合其他领域，尽管有学者提出领域适应性的想法，但目前由于句子级情感特征的稀疏性导致该技术在产品评论方面应用还不成熟。"
+  },
+  "4结语": {
+    "context1": "产品意见挖掘是一项新兴、跨学科的前沿性研究任务，无论对于个人还是机构来说，它在情报分析、决策规划等方面发挥着巨大的作用。本文从产品特征识别、评论意见抽取和情感极性分类等方面进行了详细介绍，并认为产品意见挖掘以下的方向需要深入研究：",
+    "context2": "（1）社会化媒体的兴起，导致用户用不同的词或短语表示同一个产品特征（如“分量”和“份量”表达同一概念)，关于同义产品特征词的分组与聚类的研究，目前还不多。",
+    "context3": "（2）获取高质量的产品评论语料，对于微博中重复转发的内容、广告信息、话题标签、 $\\circledast$ 用户名和URL等，需要前期大量的文本预处埋工作以提高挖掘准确率。",
+    "context4": "参考文献   \n[1] Popescu $\\mathbf A ^ { - } - \\mathbf M$ ，EtzioniO．Extracting product features and opinions fromreviews[M].Natural languageprocessingand textmining· Springer，2007：9-28.   \n[2]Hu M，Liu B．Mining opinion features in customer reviews[C]. AAAI，2004：755—760.   \n[3］姚天晞，聂青阳，李建超，等．一个用于汉语汽车评论的意见 挖掘系统[C]．中文信息处理前沿进展—中国中文信息学 会二十五周年学术会议论文集．北京：清华大学出版社， 2006：260-281.   \n[4]Raju S，Pingali P，Vama V．An unsupervised approach to product attributeextraction[M]．AdvancesinInformationRetrieval. Springer，2009：796-800.   \n[5] Blair-Goldensohn S，Hannan K，McDonald R，Neylon T，Reis G A，Reynar J.Building a sentiment summarizer for local service eviews [C]．WWW Workshop on NLP in the Information Explosion Era, 2008.   \n[6]Kobayashi N，Inui K，Matsumoto Y，Tateishi K，Fukushima T. Collecting evaluative expressions for opinion extraction [M]·Natural Language Processing—IJCNLP 2004．Springer，2005：596—605.   \n[7] Jin W，Ho HH，Srihari RK．OpinionMiner：a novel machine learn\" ing system for web opinion mining and extraction [C]．Proceedings of thel5th ACMSIGKDD international conference on Knowledge discovery and data mining，ACM，2009：1195—1204.   \n[8] Hongye T，Tiejun Z，Jianmin Y．A study on pattern generalization in extended NER [J]·CHINESE JOURNAL OF ELECTRONICS，2007, 16 (4): 675-678.   \n[9］徐叶强，朱艳辉，王文华，等．中文产品评论中评价对象的识 别研究[J]．Computer Enginering，2O12，38（20)   \n[10] Zhuang L， Jing F, $\\mathrm { Z h u X ^ { - } Y }$ Movie review mining and summarization[C]·Proceedings of the l5th ACM international conference on In\" formation and knowledge management，ACM，2006：43—50.   \n[11] Qiu G，Liu B，Bu J，Chen C．Expanding Domain Sentiment Lexicon through Double Propagation [C]．IJCAI，2OO9：1l99－1204.   \n[12] Qiu G，Liu B，Bu J，Chen C．Opinion word expansion and target extraction through double propagation [J]·Computational Linguistics, 2011，37 (1):9-27.   \n[13] Zhao W， Zhou Y.A template $-$ based approach to extract product features and sentiment words [C].Natural Language Processing and Knowledge Enginering，2OO9 NLP一KE 2OO9 International Conference on，IEEE，2009：1—5.",
+    "context5": "[14」Wu Q，Tan S，Cheng X·Graph ranking tor sentiment transter[G」·",
+    "context6": "Proceedings of the ACL—IJCNLP 2OO9 Conference Short Papers，Asso\" ciation for Computational Linguistics，2OO9；3l7—320.   \n[15]Riloff E，Wiebe J.Learning extraction patterns for subjective expres\" sions [C]·Proceedings of the 2OO3 conference on Empirical methods in natural language processing，Association for Computational Linguis\" tics，2003； $1 0 5 -$ 112.   \n[16] Pang B，Lee L．A sentimental education：Sentiment analysis using subjectivity summarization based on minimum cuts [C].Proceedings of the 42nd annual meeting on Association for Computational Linguistics , Association for Computational Linguistics，2OO4：271.   \n[17]Wiebe JM，Bruce RF，O'Hara TP．Development and use of a gold -standard data set for subjectivity classfications [C]·Proceedings of the 37th annual meeting of the Association for Computational Linguistics on Computational Linguistics，Association for Computational Linguistics，1999，246—253.   \n[18]Wiebe J. Learning subjective adjectives from corpora [C]·AAAI/IAAI，2000，735—740.   \n[19]Ohana B，Tierney B·Sentiment classification of reviews using SentiWordNet [C]. $9 \\mathrm { t h } \\ \\mathrm { I T } \\ ^ { \\mathrm { \\& } } \\mathrm { T }$ Conference，2009：13.",
+    "context7": "[20]叶强，张紫琼，罗振雄．面向互联网评论情感分析的中文主"
+  },
+  "（上接第31页）": {
+    "context1": "论或抨击，发挥舆论监督的功能；网络用户发现个人信息侵权要及时与网络业者沟通、与媒体交流甚至向政府举报。"
+  },
+  "2.5积极运用技术手段，防个人信息网络侵权于未然": {
+    "context1": "信息技术发展为网络用户保护个人信息带来了前所未有的技术手段。很多组织和研究者致力于网络信息安全工作，开发出了许多技术工具保护网络用户的个人信息，防止用户的个人信息被非授权的跟踪和恶意攻击获取用户信息。网络用户及网络业者可以积极运用这些技术工具，将个人信息网络侵权扼杀在摇篮之中。网络用户可以利用匿名软件、Cookie抑制器、隐私偏好的设置、伪装软件等防止非授权的跟踪，使用加密软件、过滤软件、杀毒软件和防火墙等，并对其不断升级更新防范恶意攻击获取用户信息；网络业者也可以利用入网访问控制和身份鉴别技术、加密技术、杀毒软件和防火墙、IP 禁止等防止搜集到的个人信息被攻击和偷窃。",
+    "context2": "总之，随着包括移动互联网在内的网络应用的普及，个人信息在网络上面临的侵权风险越来越大。而个人信息网络侵权的治理涉及到国家、社会、组织和网络用户等多个方面，应从多个维度加强对个人信息的保护，遏制个人信息网络侵权事件的发生。",
+    "context3": "观性自动判别方法研究[J]·信息系统学报，2007.  \n[21]许鑫，俞飞，张莉．一种文本倾向性分析方法及其应用[J]:现代图书情报技术，2011，（10)：54－62.  \n[22]娄德成，姚天晞．汉语句子语义极性分析和观点抽取方法的研究[J]．计算机应用，2006，26（11)：2622—2625.  \n[23]Hu M，Liu B．Mining and summarizing customer reviews [C]·Pro\"ceedings of the tenth ACM SIGKDD international conference on Knowl-edge discovery and data mining，ACM，2OO4：168—177.  \n[24]Wei W，Gulla JA．Sentiment learning on product reviews via senti-ment ontology tree [C]·Proceedings of the 48th Annual Meeting of theAssociation for Computational Linguistics，Association for Computation-al Linquistics，2010：404—413.  \n[25] Boiy E，Moens $\\mathrm { M } ^ { - } \\mathrm { F }$ ．A machine learning approach to sentimentanalysis in multilingual Web texts [J]·Information Retrieval，2009,12(5):526-558.  \n[26]LiF，Huang M，Zhu X．Sentiment Analysis with Global Topics andLocal Dependency [C]．AAAI，2010.  \n[27]张清亮，徐健．网络情感词自动识别方法研究[J]．现代图书情报技术，2011，（10)：24—28.",
+    "context4": "(本文责任编辑：孙国雷)"
+  },
+  "参考文献": {
+    "context1": "[1］王利明．论个人信息权的法律保护——以个人信息权与隐私权的界分为中心[J]．现代法学，2013，（4)：69—79.  \n[2]陈祎．网络环境下个人信息隐私权的侵权方式及保护对策[J]．太原理工大学学报：社会科学版，2006，（2)：56—58.  \n[3]徐敬宏，文利民．论电子商务消费者个人信息及其保护[J].图书情报工作，2009，(8)：130—133.  \n[4]刘爱静．我国个人信息侵权问题研究[D]．大连：大连理工大学，2008.  \n[5]Lee D·J.，Ahn J·H.，Bang Y．Managing Consumer Privacy Concerns in Personalization：A Strategic Analysis of Privacy Protection[J]，2011，35(2)：423-442.  \n[6]Bhavani Thuraisingham·Data Mining，National Security，Privacy andCivil Liberties [J]·SIGKDD Exploration，2OO2，4（2)： $1 - 5$ ·  \n[7] Ciocchetti C·A·E一Commerce and Information Privacy：Privacy Poli-cies as Personal Information Protectors [J]·American Business LawJournal，2007，44（1)：55—126.  \n[8]石佳友．网络环境下的个人信息保护立法[J]．苏州大学学报：哲学社会科学版，2012，（6)：85—96.  \n[9]易斌，潘亚南．网络个人信息隐私认证机制探讨[J]．情报理论与实践，2012，(5)：41—43，68.",
+    "context2": "(本文责任编辑：马卓)"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "original_filename": "full_4371.md",
+  "nothing": {
+    "context1": "·研究生园地·"
+  },
+  "基于两种模型的学科发展趋势预测以文献计量学为例": {
+    "context1": "顾洪涛 王筠",
+    "context2": "(辽宁师范大学管理学院，辽宁大连116029)",
+    "context3": "[摘要]运用回归分析预测法和时间序列分析法两种模型，以文献计量学为例，对近年来相关文献量的统计数据进行拟合与预测，并对两种预测模型的结果进行对比分析。结果表明，时间序列预测模型对文献计量学研究的模拟预测效果较好。两种预测模型不仅适用于文献计量学发展研究，对于其他领域也同样适用。针对不同领域的学科发展趋势，在进行数据模拟和分析预测时要根据统计数据的多少和分布情况，选取一种相对效果更好并且方便可行的预测方法。",
+    "context4": "[关键词]文献计量学；回归分析；时间序列分析；发展趋势",
+    "context5": "DOI:10.3969/j.issn. 1008-0821.2013.02.038 [中图分类号]G255[文献标识码]A[文章编号〕1008—0821（2013）02－0162—04"
+  },
+  "A Forecast of the Development Tendency for Discipline Based on two Models": {
+    "context1": "Take Bibliometrics as an Example",
+    "context2": "Gu HongtaoWang Jun (School of Management，Liaoning Normal University，Dalian l16O29，China)",
+    "context3": "[Abstract）Take Bibliometricsasan example，apply two models，that is Regresion Analysis Prediction Method and Time SeriesAalysis Method，tothestatisticaldataoftherecentyearsliteraturetofitandpredict，futhemore，compareandanalysis theresultsofthetwopredictionmodels·TheresultsshowedthatitwastheTimeSeriesAnalysis Methodthatmighthaveabeter resultof simulationandpredictiontothestudyofBibliometrics·NotonlythetwopredictionmodelscouldbeusedinBiblioetrics， but alsocouldbeusedinotherfields．Whenproceedingdatasimulatingandanalysisandforecasting，choseabeterand more convenientandfeasiblepredictionmethod，accordng tothedevelopmenttrendsindiferenfieldsofdisciplinesandtheamountand the distribution of statistical data",
+    "context4": "[Key words]bibliometrics；regression analysis；time series analysis；development trend",
+    "context5": "目前信息的分析与预测活动已越来越深入到社会发展、经济生活、科技进步等各个领域，成为社会发展与进步的标志[1]。针对某一学科专业研究的发展趋势进行分析与预测，不仅可以揭示该学科研究的特点和发展规律，而且为今后的研究和工作提供科学的依据。如今，无论是情报学还是文献学的发展都与文献计量学息息相关，文献计量学也是情报学等相关学科的重要研究方法。对文献计量学的发展趋势进行预测，不仅可以预测出未来文献计量学的发展趋势，而且可为其他学科尤其是图书馆学、情报学领域的理论研究提供了参考和借鉴[2]。",
+    "context6": "本文以文献计量学为实例，通过定量的方法分析其论文数量的变化情况，应用回归分析模型和时间序列分析模型，对文献计量学的发展趋势进行拟合和预测，并针对两种预测模型的预测结果进行比较分析[3]。"
+  },
+  "1统计数据的来源与统计结果": {
+    "context1": "利用中国知网（CNKI）数据库检索系统，以文献计量学为关键词，统计时间为 $1 9 9 6 . 0 1 . 0 1 - 2 0 1 0 . 1 2 . 3 1$ 进行模糊检索，对所检索到的数据进行处理后共得到论文2100篇，按发表年份排列的论文篇数如表1。",
+    "context2": "表1文献计量学论文篇数逐年分布情况",
+    "context3": "<table><tr><td>年份</td><td>论文篇数</td><td>年份 论文篇数</td><td>年份</td><td>论文篇数</td></tr><tr><td>1996</td><td>31</td><td>2001 59</td><td>2006</td><td>190</td></tr><tr><td>1997</td><td>42</td><td>2002 71</td><td>2007</td><td>218</td></tr><tr><td>1998</td><td>40</td><td>2003 100</td><td>2008</td><td>247</td></tr><tr><td>1999</td><td>51</td><td>2004</td><td>120 2009</td><td>313</td></tr><tr><td>2000</td><td>66</td><td>2005</td><td>180 2010</td><td>372</td></tr></table>"
+  },
+  "2两种预测模型介绍": "",
+  "2.1回归分析模型介绍": {
+    "context1": "回归分析法，是从各种现象之间的因果关系出发，通过对与预测对象有联系的事物或现象的变动趋势进行分析，进而推算出对象的未来数量状态的一种预测方法。根据散布的数据点求出理想的回归直线或曲线，建立起确定的回归方程进行预测[4]。",
+    "context2": "一元线性回归方程的一般形式：",
+    "context3": "$$\n\\hat { y } _ { i } = a + b x _ { i }\n$$",
+    "context4": "式中，",
+    "context5": "$x _ { i }$ 一第 $i$ 组数组的解释变量;",
+    "context6": "$\\hat { y } _ { i }$ ——根据回归方程推算出来的第 $i$ 组被解释变量的估计值；",
+    "context7": "$a$ ， $^ { b }$ 回归模型参数；",
+    "context8": "其中，回归模型参数 $a , \\quad b$ 可用下面的公式计算：",
+    "context9": "$$\n\\begin{array} { l } { { \\displaystyle b = \\frac { \\sum _ { n } ^ { } \\sum _ { \\mathbf { x } _ { i } } ^ { } y _ { i } - \\sum _ { \\mathbf { x } _ { i } } ^ { } \\sum _ { \\mathbf { y } _ { i } } ^ { } } { \\displaystyle n \\sum _ { \\mathbf { x } _ { i } } ^ { } \\sum _ { \\mathbf { x } _ { i } } ^ { } - \\big ( \\sum _ { \\mathbf { x } _ { i } } ^ { } \\big ) ^ { 2 } } } } \\\\ { { \\displaystyle a ^ { = } \\bar { \\mathbf { y } } ^ { } - b \\bar { \\mathbf { x } } } } \\end{array}\n$$",
+    "context10": "式中，",
+    "context11": "$\\bar { \\bf y }$ 被解释变量的平均值;  \n$\\bar { \\bf x }$ - 解释变量的平均值。",
+    "context12": "在利用回归模型进行预测时，将所要预测年份对应的值代入式（1）回归方程中[5]，通过回归方程求出的 $\\hat { y } _ { i }$ 即为所要预测年份的论文篇数。"
+  },
+  "2.2时间序列模型介绍": {
+    "context1": "时间序列分析是以研究对象的历史数据为基础，将研究对象的发展变化过程表述成时间序列，首先要识别时间序列的特征，进而分析它随时间的变化趋势，建立相应的时间序列分析模型，并通过一定的时间序列预测方法，推测出研究对象的未来变化趋势。",
+    "context2": "通过分析统计数据，应用时间序列分析法中的移动平均法（M法）对文献计量学的发展趋势进行拟合和预测。其基本方法是每次在时间序列上移动一步求平均值。这样的处理可对原始的无规则数据进行“修匀”，消除样本中的随机干扰成分，形成平滑的趋势线，突出序列本身的固有规律，从而为进一步的建模和参数估计做好基础[5]。"
+  },
+  "2.2.1一次移动平均法": {
+    "context1": "一次移动平均法对原始数列进行逐期分段，依次计算包含一定项数的时间序列平均数，形成一个平均时间数序",
+    "context2": "列，并据此进行预测。其基本公式为：",
+    "context3": "$$\nM _ { i } ^ { [ 1 ] } { = } \\frac { x _ { i } { + } x _ { i } { - } _ { 1 } { + } { \\ldots } { + } x _ { i } { - } _ { n } { + } 1 } { n }\n$$",
+    "context4": "式中，",
+    "context5": "[1]—一次移动平均数的标志;  \n$i$ 一周期数;  \n$n$ 一—每个时间段的数据个数，称为移平跨度；  \n$M _ { i } ^ { [ 1 ] }$ 一第 $i$ 个周期的一次移动平均值。",
+    "context6": "对于平均跨度 $n$ 的选取，通常采用均方误差（MSE)来检验 $n$ 值选择的效果。具体做法参照公式(5)，如下：",
+    "context7": "$$\n\\mathop { M S E } _ { ( n ) } = \\frac { 1 } { N ^ { - } n } \\sum _ { i = n ^ { - 1 } } ^ { N } ( x _ { i } - \\bar { \\mathbf { x } } _ { i } ) ^ { 2 }\n$$",
+    "context8": "以最小均方误差为标准选取移平跨度。"
+  },
+  "2.2.2二次移动平均法": {
+    "context1": "为进一步提高预测值和实际值的吻合度，可以采用在一次移动平均的基础上再进行一次移动平均法，称为二次移动平均法。二次移动平均是在一次移动平均的基础上，对具有线性趋势的数据再进行一次移动平均。其计算公式为：",
+    "context2": "$$\nM _ { i } ^ { [ 2 ] } = \\frac { M _ { i } ^ { [ 1 ] } + M _ { i } ^ { [ 1 ] } 1 ^ { + } \\dots + M _ { i } ^ { [ 1 ] } { } _ { n ^ { + 1 } } } { n }\n$$",
+    "context3": "式中，",
+    "context4": "[2] 二次移动平均数的标志；  \n$M _ { i } ^ { [ 2 ] }$ 一第 $i$ 个周期的二次移动平均值。",
+    "context5": "二次移动平均法可以修正一次移动平均法存在的一些问题，还可以通过二次移动求得平滑系数。运用两次移动平均值，可以计算出平滑系数，从而建立线性时间关系模型：",
+    "context6": "$$\n{ X } _ { i ^ { + } T } \\mathrm { = } { a } _ { i } + { b } _ { i } \\times { T }\n$$",
+    "context7": "式中，",
+    "context8": "$T$ 一由目前周期 $i$ 到需要预测的周期之间的周期数;",
+    "context9": "${ X _ { i ^ { + } T } } ^ { - } - i ^ { + } T$ 周期的预测值。",
+    "context10": "$a _ { i } , \\quad b _ { i }$ 的计算公式分别为：",
+    "context11": "$$\na _ { i } { = } 2 M _ { i } ^ { [ 1 ] } { - } M _ { i } ^ { [ 2 ] }\n$$",
+    "context12": "$$\nb _ { i } { = } \\frac { 2 } { n { - } 1 } { \\times } ( M _ { i } ^ { [ 1 ] } { - } M _ { i } ^ { [ 2 ] } )\n$$",
+    "context13": "在利用时间序列模型进行预测时，可将对应的 $T$ 值代入式（7）中，通过线性时间关系模型求出 $X _ { i ^ { + } T }$ 即为所要预测年份的论文篇数。"
+  },
+  "3文献计量学研究发展趋势的预测": "",
+  "3.1回归分析预测模型": {
+    "context1": "以文献计量学发表论文的年份为自变量，各年份的论文篇数为因变量。通过散布的数据点绘制出散点图，发现两变量的关系近似于一条直线。为了方便计算，设 $1 9 9 6 -$ 2010 年时间 $t$ 的取值分别为－7， $- 6$ ，-5，-4，-3,$- 2$ ，－1，0，1，2，3，4，5，6，7。为了更方便的计算出回归方程，将相关数据的计算结果进行统计，如表 $2 ^ { [ 6 ] }$ 。",
+    "context2": "表2回归分析预测模型的相关数据结果表",
+    "context3": "<table><tr><td>t</td><td>y</td><td>ty</td><td>t²</td><td>2</td><td>y</td><td>(y-y）²</td><td>(y-y）²</td><td>(y-y）²</td></tr><tr><td>-7</td><td>31</td><td>-217</td><td>49</td><td>961</td><td>-19.46</td><td>2 546.21</td><td>25 427.49</td><td>11 881</td></tr><tr><td>-6</td><td>42</td><td>-252</td><td>36</td><td>1 764</td><td>3.32</td><td>1 496.14</td><td>18 681.42</td><td>9 604</td></tr><tr><td>-5</td><td>40</td><td>-200</td><td>25</td><td>1 600</td><td>26.10</td><td>193.21</td><td>13 973.21</td><td>10000</td></tr><tr><td>-4</td><td>51</td><td>-204</td><td>16</td><td>2 601</td><td>48.88</td><td>4.49</td><td>8 302.85</td><td>7921</td></tr><tr><td>-3</td><td>66</td><td>-198</td><td>9</td><td>4 356</td><td>71.66</td><td>32.03</td><td>4 670.35</td><td>5 476</td></tr><tr><td>-2</td><td>59</td><td>-118</td><td>4</td><td>3 481</td><td>94.44</td><td>1 255.99</td><td>2 075.71</td><td>6 561</td></tr><tr><td>-1</td><td>71</td><td>-71</td><td>1</td><td>5 041</td><td>117.22</td><td>2 136.28</td><td>518.92</td><td>4 761</td></tr><tr><td>0</td><td>100</td><td>0</td><td>0</td><td>10 000</td><td>140</td><td>1 600</td><td>0</td><td>1 600</td></tr><tr><td>1</td><td>120</td><td>120</td><td>1</td><td>14 400</td><td>162.78</td><td>1 830.12</td><td>518.92</td><td>400</td></tr><tr><td>2</td><td>180</td><td>360</td><td>4</td><td>32 400</td><td>185.56</td><td>30.91</td><td>2 075.71</td><td>1 600</td></tr><tr><td>3</td><td>190</td><td>570</td><td>9</td><td>36100</td><td>208.34</td><td>336.35</td><td>4 670.35</td><td>2 500</td></tr><tr><td>4</td><td>218</td><td>872</td><td>16</td><td>47 524</td><td>231.12</td><td>172.13</td><td>8 302.85</td><td>6084</td></tr><tr><td>5</td><td>247</td><td>1 235</td><td>25</td><td>61009</td><td>253.90</td><td>47.61</td><td>13 973.21</td><td>11 449</td></tr><tr><td>6</td><td>313</td><td>1878</td><td>36</td><td>97 969</td><td>276.68</td><td>1 319.14</td><td>18 681.42</td><td>29 929</td></tr><tr><td>7</td><td>372</td><td>2 604</td><td>49</td><td>138 384</td><td>299.46</td><td>5 262.05</td><td>25 427.49</td><td>53824</td></tr><tr><td>合计</td><td>0 2100</td><td>6379</td><td>280</td><td>457 590</td><td></td><td>18 262.66</td><td>147 299.90</td><td>163 590</td></tr></table>",
+    "context4": "根据一元线性回归方程的计算公式计算相关数据结果如下：",
+    "context5": "$$\n\\begin{array} { l } { { \\bar { \\mathrm { y } } } ^ { = 1 4 0 } } \\\\ { \\displaystyle b = \\frac { \\sum _ { \\mathrm { \\scriptsize ~ t y } } } { \\sum _ { \\mathrm { \\scriptsize ~ t ^ { 2 } } } } = \\frac { 6 3 7 9 } { 2 8 0 } = 2 2 . 7 8 } \\\\ { \\displaystyle a ^ { = } \\bar { \\mathrm { y } } ^ { = } 1 4 0 } \\end{array}\n$$",
+    "context6": "回归方程为：",
+    "context7": "$$\n\\hat { y } = a + b t = 1 4 0 + 2 2 . 7 8 t\n$$",
+    "context8": "关于回归方程的显著性检验，采用对整个回归方程进行 $F$ 检验，检验如下：",
+    "context9": "$H _ { 0 }$ ：线性关系不显著， $H _ { 1 }$ ：线性关系显著。计算统计量：",
+    "context10": "$$\nF = { \\frac { \\sum ( { \\hat { \\mathbf { y } } } - { \\bar { \\mathbf { y } } } ) ^ { 2 } / 1 } { \\sum ( \\mathbf { y } - { \\hat { \\mathbf { y } } } ) ^ { 2 } / n - 2 } } = 1 0 4 . 8 5 3 2 2\n$$",
+    "context11": "取显著水平 $\\alpha = 0 . 0 5$ ，自由度为(1,13)，查 $F$ 分布得， $F ^ { = } 1 0 4 . 8 5 3 2 2 > F ( 1 , 1 3 ) = 4 . 6 7$ 。因此，拒绝原假设，说明论文数量对时间的线性关系是显著的[7]。",
+    "context12": "为了检验回归方程的拟合度，计算判定系数可得：",
+    "context13": "$$\nr ^ { 2 } = 1 - \\frac { \\sum ( \\mathbf { y } - \\hat { \\mathbf { y } } ) ^ { 2 } } { \\sum ( \\mathbf { y } - \\bar { \\mathbf { y } } ) ^ { 2 } } = 0 . 8 9\n$$",
+    "context14": "$r { = } 0 . 9 4 3 4$",
+    "context15": "由此可知，回归方程的拟合程度很好，可以应用回归分析预测模型对未来的文献计量学相关文献量进行预测。",
+    "context16": "通过回归分析预测模型可预测2011年文献计量学的相关论文篇为 $\\hat { y } _ { 2 0 1 1 } = 1 4 0 + 2 2 . 7 8 \\mathstrut _ { t } = 3 2 2 . 2 4$ 。"
+  },
+  "3.2时间序列分析预测模型": {
+    "context1": "根据公式 (4)，分别取移平跨度 $n ^ { = 3 }$ 和 $n ^ { = 5 }$ 进行一次移动平均，如表3。",
+    "context2": "通常采用均方误差（MSE）来检验 $n$ 值选择的效果。",
+    "context3": "表3一次平均移动数据表",
+    "context4": "<table><tr><td>年份</td><td>论文篇数</td><td>n=3</td><td>n=5</td></tr><tr><td>1996</td><td>31</td><td></td><td></td></tr><tr><td>1997</td><td>42</td><td></td><td></td></tr><tr><td>1998</td><td>40</td><td></td><td></td></tr><tr><td>1999</td><td>51</td><td>37.7</td><td></td></tr><tr><td>2000</td><td>66</td><td>44.3</td><td></td></tr><tr><td>2001</td><td>59</td><td>52.3</td><td>46</td></tr><tr><td>2002</td><td>71</td><td>58.7</td><td>51.6</td></tr><tr><td>2003</td><td>100</td><td>65.3</td><td>57.4</td></tr><tr><td>2004</td><td>120</td><td>76.7</td><td>69.4</td></tr><tr><td>2005</td><td>180</td><td>97</td><td>93.2</td></tr><tr><td>2006</td><td>190</td><td>100</td><td>106</td></tr><tr><td>2007</td><td>218</td><td>163.3</td><td>132.2</td></tr><tr><td>2008</td><td>247</td><td>196</td><td>161.6</td></tr><tr><td>2009</td><td>313</td><td>218.3</td><td>191</td></tr><tr><td>2010</td><td>372</td><td>259.3</td><td>229.6</td></tr><tr><td>2011</td><td></td><td>310.7</td><td>268</td></tr></table>",
+    "context5": "具体做法参照公式(5)，如下：",
+    "context6": "$$\nM S E ( \\ n { = } 3 ) { \\stackrel { } { < } } M S E ( \\ n { = } 5 )\n$$",
+    "context7": "结果表明，当 $n ^ { = 3 }$ 时，均方误差 MSE 较小，即取平均跨度 $n ^ { = 3 }$ 。",
+    "context8": "在一次移动平均的基础上，取 $n ^ { = 3 }$ 进行二次移动平均，如表4。",
+    "context9": "运用两次移动平均值，根据公式（7)、（8)、（9）计算平滑系数，从而建立线性时间关系模型：",
+    "context10": "$$\na _ { 2 0 1 0 } { = } 2 M _ { 2 0 1 0 } ^ { [ 1 ] } { - } M _ { 2 0 1 0 } ^ { [ 2 ] } { = } 3 5 8 . 6\n$$",
+    "context11": "$$\nb _ { 2 0 1 0 } { = } \\frac { 2 } { 3 { - } 1 } { \\times } ( M _ { 2 0 1 0 } ^ { [ 1 ] } { - } M _ { 2 0 1 0 } ^ { [ 2 ] } ) { = } 4 7 . 9\n$$",
+    "context12": "$$\n\\begin{array} { r } { X _ { 2 0 1 0 + 1 } = a _ { 2 0 1 0 } + b _ { 2 0 1 0 } \\times 1 { = } 4 0 6 . 5 } \\end{array}\n$$",
+    "context13": "表4二次移动平均相关数据表",
+    "context14": "<table><tr><td>年份</td><td>论文篇数</td><td>一次移动平均</td><td>二次移动平均</td></tr><tr><td>1996</td><td>31</td><td></td><td></td></tr><tr><td>1997</td><td>42</td><td></td><td></td></tr><tr><td>1998</td><td>40</td><td>37.7</td><td></td></tr><tr><td>1999</td><td>51</td><td>44.3</td><td></td></tr><tr><td>2000</td><td>66</td><td>52.3</td><td>44.8</td></tr><tr><td>2001</td><td>59</td><td>58.7</td><td>51.8</td></tr><tr><td>2002</td><td>71</td><td>65.3</td><td>58.8</td></tr><tr><td>2003</td><td>100</td><td>76.7</td><td>66.9</td></tr><tr><td>2004</td><td>120</td><td>97</td><td>79.7</td></tr><tr><td>2005</td><td>180</td><td>100</td><td>91.2</td></tr><tr><td>2006</td><td>190</td><td>163.3</td><td>120.1</td></tr><tr><td>2007</td><td>218</td><td>196</td><td>153.1</td></tr><tr><td>2008</td><td>247</td><td>218.3</td><td>192.5</td></tr><tr><td>2009</td><td>313</td><td>259.3</td><td>224.5</td></tr><tr><td>2010</td><td>372</td><td>310.7</td><td>262.8</td></tr></table>",
+    "context15": "即应用时间序列分析法，可预测文献计量学2011年相关论文篇数为 407篇。",
+    "context16": "表5两种预测模型相关数据比较表",
+    "context17": "<table><tr><td>年份</td><td>xo(t)</td><td>x(t)</td><td>x2(t)</td></tr><tr><td>1996</td><td>31</td><td>-19.46</td><td>36.9</td></tr><tr><td>1997</td><td>42</td><td>3.32</td><td>41.2</td></tr><tr><td>1998</td><td>40</td><td>26.1</td><td>42.3</td></tr><tr><td>1999</td><td>51</td><td>48.88</td><td>44.5</td></tr><tr><td>2000</td><td>66</td><td>71.66</td><td>55.3</td></tr><tr><td>2001</td><td>59</td><td>94.44</td><td>67.3</td></tr><tr><td>2002</td><td>71</td><td>117.22</td><td>72.5</td></tr><tr><td>2003</td><td>100</td><td>140</td><td>78.3</td></tr><tr><td>2004</td><td>120</td><td>162.78</td><td>96.3</td></tr><tr><td>2005</td><td>180</td><td>185.56</td><td>131.6</td></tr><tr><td>2006</td><td>190</td><td>208.34</td><td>117.6</td></tr><tr><td>2007</td><td>218</td><td>231.12</td><td>249.7</td></tr><tr><td>2008</td><td>247</td><td>253.9</td><td>281.8</td></tr><tr><td>2009</td><td>313</td><td>276.68</td><td>269.9</td></tr><tr><td>2010</td><td>372</td><td>299.46</td><td>328.9</td></tr><tr><td>2011</td><td></td><td>322.24</td><td>406.5</td></tr><tr><td>2012</td><td></td><td>345.02</td><td>547.9</td></tr></table>"
+  },
+  "4两种预测方法的分析比较": {
+    "context1": "依据上述两种预测模型，分别计算两种模型 $1 9 9 6 -$ 2010 年的模拟值以及 2011年、2012 年的预测值，如表 5。其中，",
+    "context2": "$x _ { 0 } ( t )$ ——原始数据;",
+    "context3": "$x _ { 1 } ( t )$ 一—回归分析模型预测值;",
+    "context4": "$x _ { \\mathit { 2 } } ( \\mathit { \\Pi } _ { t } )$ 一—时间序列分析模型预测值。根据相关数据分别计算两种预测模型预测值与实际值的相关系数，并进行",
+    "context5": "比较：",
+    "context6": "$$\nr _ { 1 } ^ { 2 } = 1 - \\frac { \\sum ( \\mathbf { y } - \\hat { \\mathbf { y } } _ { 1 } ) ^ { 2 } } { \\sum ( \\mathbf { y } - \\bar { \\mathbf { y } } ) ^ { 2 } } = 0 . 8 9\n$$",
+    "context7": "则 $r _ { 1 } { = } 0 . 9 4 3 4$",
+    "context8": "$$\nr _ { 2 } ^ { 2 } = 1 - \\frac { \\sum ( \\mathbf { y } - \\hat { \\mathbf { y } } _ { 2 } ) ^ { 2 } } { \\sum ( \\mathbf { y } - \\hat { \\mathbf { y } } ) ^ { 2 } } = 0 . 9 1\n$$",
+    "context9": "则 $r _ { 2 } { = } 0 . 9 5 3 9$",
+    "context10": "两种预测模型的相关系数比较得： $r _ { 1 } < r _ { 2 }$ ，即时间序列预测模型的相关系数相对于回归分析预测模型的相关系数较大，可见时间序列预测模型更适用于文献计量学研究发展的分析预测。"
+  },
+  "5结语": {
+    "context1": "以文献计量学为例，采用两种预测模型对其发展趋势进行拟合及预测，克服了单一模型拟合和预测的局限性。预测结果表明，文献计量学研究的论文篇数在未来3年将超过500篇，并且增长趋势较快。通过对两种预测模型相关系数的比较，得出时间序列模型对文献计量学研究发展的预测效果相对较好。时间序列模型在预测时不必考虑其他因素的影响，仅从实际变动的数值序列自身出发建立相应的模型进行预测，避免了寻找影响因素及识别主要因素和次要因素的困难。回归分析模型是从各种现象之间的因果关系着手，通过对与预测现象有联系的事物或现象的变动趋势进行分析。时间序列模型适用于某一领域的短期预测，而回归分析方法是经济预测的常用数学方法，利用统计数据确定变量之间的线性关系，并参考这种函数关系来预测未来发展趋势，适用于某一领域的长期趋势预测。两种预测模型不仅适用于文献计量学的发展研究，对于其他领域也同样适用。针对不同领域的学科发展趋势，在进行数据模拟和分析预测时要根据数据的多少和分布情况，选取一种相对效果更好并且方便可行的预测方法。"
+  },
+  "参考文献": {
+    "context1": "[l]查先进．信息分析与预测[M]．武昌：武汉大学出版社，2009：2，193—201，205—208.  \n[2]郑怀国，赵静娟，谭翠萍．基于文献计量学的科技情报分析与服务[J]．情报杂志，2010，（12)：39—40.  \n[3]吴淑玲．两种数字图书馆发展趋势预测模型的比较[J]．情报科学，2004，（11)：1317—1320.  \n[4］王筠．专业研究发展趋势的预测模型——以竞争情报研究为例[J]．情报杂志，2010，（7)：12—14.  \n[5]江三宝，毛振鹏．信息分预测[M]．北京：清华大学出版社，2008：56—63，77—90.  \n[6]王筠．文献老化的回归分析与预测[J]．情报杂志，2006,(6):68-69.  \n[7]蔡时连．一元线性回归分析模型在期刊订购预测中的应用[J]．图书情报工作，2010，（2)：112，126—128.",
+    "context2": "(本文责任编辑：马卓)"
+  }
+}

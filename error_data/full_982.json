@@ -1,0 +1,97 @@
+{
+  "original_filename": "full_982.md",
+  "两种数字图书馆发展趋势预测模型的比较": {
+    "context1": "吴淑玲",
+    "context2": "(陕西科技大学图书馆，咸阳712081)",
+    "context3": "摘要本文运用灰色系统中的GM（1，1）预测模型与逻辑斯谛曲线（Logistic Curve）预测模型，对近年来数字图书馆研究文献量的统计数据进行拟合预测，并结合实例对两种预测模型的预测结果进行对比分析，确定出了逻辑斯谛曲线是适合数字图书馆研究的预测模型。",
+    "context4": "关键词数学模型GM（1，1）模型Logistic 模型拟合预测数字图书馆",
+    "context5": "中图分类号G350，0141 文献标识码A 文章编号1007-7634（2004）11-1317-04"
+  },
+  "Comparison of the Trend Prediction Model between Two Kinds of Digital Libraries": {
+    "context1": "Wu Shuling (Library of Shanxi Science and Technology University， Xianyang 712081)",
+    "context2": "AbstractThis text uses the GM(1，1） predicted model of grey systems and the logistic curve predict models，fits and predicts to the statistics that the digitalibrary studies document quantity inrecent years，and combines the prediction result to two kinds of prediction models of the instance to compare with analysing· The logistic curve is suitable for the prediction model that the digital library studiedcarefully to determine· KeywordsMathematics model GM（1，1） model Logistic model FitPredictionDigital library"
+  },
+  "1引 言": {
+    "context1": "预测是指对于未来活动的科学推测，关于情况分析与预测定量化处理，目前已有多种方法，本文试图采用灰色系统理论和逻辑斯谛曲线拟合两种方法，在计算机上建立GM（1，1）模型和Logistic 模型，对数字图书馆的研究文献量分别进行拟合预测，并对两种模型的预测结果进行对比分析，确定出适合数字图书馆研究的预测模型。"
+  },
+  "2建立数学模型": "",
+  "2.1逻辑斯谛曲线": {
+    "context1": "逻辑斯谛曲线（Logistic Curve）是荷兰生物学家Verhulst为研究人口发展过程而于1837年提出的，逻辑斯谛曲线（Logistic Curve）的一般形式是：",
+    "context2": "$$\n\\mathrm { Y t } = \\frac { k } { 1 + \\mathrm { b e } ^ { - _ { \\mathrm { a t } } } } \\ : \\ : \\ : \\ : \\mathrm { k } > 0 , \\ : \\ : \\ : \\mathrm { b } > 0 , \\ : \\ : \\ : \\mathrm { a } < 0\n$$",
+    "context3": "其中, $\\mathrm { k \\Omega }$ ，a，b为参数，t表示年份， $\\mathrm { Y } _ { \\mathrm { f } }$ 表示预测值。曲线的图形如图1, $\\mathrm { Y } _ { \\mathrm { t } } = _ { k }$ 为曲线的渐近线。",
+    "context4": "（1）式经变换后，可成为线性形式：",
+    "context5": "![](images/a9bdc73b35f8a39fcab5d5c4f066c15c3441204ec4497cd185286b772ae6cbfd.jpg)  \n图1",
+    "context6": "$$\n\\ln { \\mid } \\frac { 1 } { x } - \\frac { 1 } { k } ) = _ { \\ln } \\frac { b } { k } + _ { \\mathrm { a t } }\n$$",
+    "context7": "指定参数 $\\mathrm { k \\Omega }$ 后，可利用一元线性回归的方法求出参数a和 $\\mathrm { b }$ 。由于 $\\mathrm { k \\Omega }$ 值是不确定的，因此有时拟合效果未必理想，可以采用计算相关指数来检验拟合情况，计算公式如下：",
+    "context8": "$$\n\\mathrm { R } ^ { 2 } = 1 - \\frac { \\displaystyle \\sum _ { i = 1 } ^ { n } ~ { ( \\Upsilon _ { \\mathrm { t } } - \\hat { \\Upsilon _ { t } } ) } ^ { 2 } } { \\displaystyle \\sum _ { i = 1 } ^ { n } ~ { ( \\Upsilon _ { \\mathrm { t } } - \\Upsilon ) } ^ { 2 } }\n$$",
+    "context9": "计算结果 $\\mathrm { R } ^ { 2 }$ 越接近1，说明拟合效果越好。否则，重新调整 $\\mathrm { k }$ 值，计算参数 $\\mathrm { a }$ ， $\\mathrm { b }$ ，一直到相关指数 $\\mathrm { R } ^ { 2 }$ 验证拟合情况满意为止。"
+  },
+  "2.2灰色系统GM（1，1）模型": {
+    "context1": "灰色系统理论是20 世纪80年代中期由华中工学院邓聚龙教授提出并发展的新理论，其中GM（1,1）模型是它的核心内容之一。灰色预测模型GM（1，1）指的是只有一个变量，采用一阶微分方程拟合的模型，其代表的微分方程是：",
+    "context2": "$$\n\\frac { d x ^ { ( 1 ) } } { d t } + _ { a x ^ { ( 1 ) } } = _ { b }\n$$",
+    "context3": "其中：a, $\\mathbf { b }$ 是待定的参数； $\\mathbf { X } ^ { ( 1 ) }$ 是原始数据 $\\mathbf { X } ^ { ( 0 ) }$ 的一次累加生成；t是时间。",
+    "context4": "该微分方程表示的是动态模型，能够反映事物发展的连续性，其数学建模的方法简单归纳如下：",
+    "context5": "（l）建立GM（1，1）模型。",
+    "context6": "对一组数据序列 $\\{ \\mathbf { \\chi } ^ { ( 0 ) } ( \\mathbf { \\chi } t ) \\} _ { \\mathbf { \\chi } ^ { } } = 1 , \\ 2 , \\ \\cdots , \\ \\mathbf { n }$ 作如下累加处理",
+    "context7": "得到新的数据",
+    "context8": "$$\n\\begin{array} { l } { { \\mathbf \\Lambda ^ { ( 1 ) } _ { t } = \\displaystyle \\sum _ { i = 1 } ^ { n } } \\boldsymbol { x } ^ { ( 0 ) } ( t ) } \\\\ { { \\frac { 1 } { 4 } | \\dddot { \\boldsymbol { \\mathcal { F } } } \\mathcal { N } | \\int _ { \\begin{array} { c } { { \\{ \\boldsymbol { x } ^ { ( 1 ) } ( t ) \\begin{array} { c } { { \\} \\{ \\begin{array} { c } { { | t  } \\end{array} \\} }  } \\\\ { {  \\{ \\boldsymbol { x } ^ { ( 1 ) } ( t ) \\begin{array} { c } { { [ t  } \\end{array}  }  } \\end{array}  } } } } } \\end{array} } t = 1 , 2 , \\cdots , n }  \\end{array}\n$$",
+    "context9": "对于新的数据构造一阶线性灰色微分方程",
+    "context10": "$$\n\\frac { d x ^ { ( 1 ) } } { d t } + _ { a x ^ { ( 1 ) } } = _ { b }\n$$",
+    "context11": "此微分方程的解为",
+    "context12": "$$\nx ^ { ( 1 ) } ( t ^ { + } 1 ) = [ x ^ { ( ^ { 0 } ) } ( 1 ) - \\frac { b } { a } ] e ^ { - a t } + \\frac { b } { a } \n$$",
+    "context13": "此式则为预测模型。式中的参数 $\\mathbf { a } \\cup \\mathbf { b }$ 的值可由最小二乘法求得：",
+    "context14": "记",
+    "context15": "$$\n\\begin{array} { r l } & { a ^ { - } \\biggl [ \\underset { \\mathrm { h y } } { \\mathrm { a d } } \\biggr ] } \\\\ & { = \\left[ \\begin{array} { l } { - \\displaystyle \\frac 1 2 \\left[ ( { \\bf x } ^ { ( 1 ) } ( { \\bf \\epsilon } ) + { \\bf x } ^ { ( 1 ) } ( { \\bf \\epsilon } ^ { 2 } ) \\right] , \\sf 1 } \\\\ { - \\displaystyle \\frac 1 2 \\left[ ( { \\bf x } ^ { ( 1 ) } ( { \\bf \\epsilon } ) + { \\bf x } ^ { ( 1 ) } ( { \\bf \\epsilon } ^ { 2 } ) \\right] , \\sf 1 } \\\\ { - \\displaystyle \\frac 1 2 \\left[ ( { \\bf x } ^ { ( 1 ) } ( { \\bf \\epsilon } ) + { \\bf x } ^ { ( 1 ) } ( { \\bf \\epsilon } ^ { 2 } ) \\right] , \\sf 1 } \\\\ { - \\displaystyle \\frac 1 2 \\left[ ( { \\bf x } ^ { ( 1 ) } ( { \\bf \\epsilon } ) - { \\bf x } ^ { ( 1 ) } ( { \\bf \\epsilon } ) \\right] , \\sf 1 } \\\\ { \\displaystyle \\mathrm { Y } = - \\left[ { \\bf x } ^ { ( 1 ) } ( { \\bf \\epsilon } ) , { \\bf x } ^ { ( 1 ) } ( { \\bf n } ) \\right] , \\sf 1 } \\end{array} \\right] } \\\\ & { ~ \\mathrm { a d } ^ { - } \\biggl [ \\underset { \\mathrm { h y } } { \\mathrm { a d } } \\biggr ] ~ = [ \\underset { \\mathrm { h y } } { \\mathrm { a d } } ] - [ \\underset { \\mathrm { R y } } { \\mathrm { a d } } ] ^ { T } \\mathrm { V a r } , } \\end{array}\n$$",
+    "context16": "（2）预测模型的还原生成。",
+    "context17": "通过灰色预测模型计算出来的数值是一次累加生成值，必须进行还原生成才能得到真实的模拟值。对于第K个时刻的模拟值为：",
+    "context18": "中国xswk.2.3..  \n（3后验差检验。",
+    "context19": "对于所得的模型预测（拟合）的精度如何，可以从图形曲线逼近情况看出，但为了从理论上进行验证，还需进行后验差检验。",
+    "context20": "设原始数据的均值为 $\\mathbf { X }$ ， $\\mathrm {  ~ \\underline { { x } } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } \\mathrm {  ~ \\nabla ~ } } _ { } ( \\mathrm {  ~ 0 } )$ (t），则其方差为s，s $\\mathrm {  ~ s _ { 1 } ^ { 2 } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } \\delta \\left( \\begin{array} { c c c } { \\mathrm {  ~ x ~ } ^ { ( 0 ) } } & { ( \\mathrm {  ~ t } ) } & { - \\mathrm {  ~ x } } \\end{array} \\right) ^ { 2 } }$ 设拟合残差为 $\\begin{array} { r l } { \\mathfrak { E } } & { { } \\mathfrak { E } ( \\textbf { t } ) \\ = \\textbf { { x } } ^ { ( 0 ) } } \\end{array}$ (t） $- \\hat { \\mathbf { x } } ^ { ( 0 ) }$ (t），其残差均值为 $\\begin{array} { r l } { \\mathfrak { s } } & { { } { \\in } \\frac { 1 } { \\mathrm { ~ n ~ } } { \\overset { \\mathrm { n } } { \\mathrm { \\Omega } } } \\mathfrak { s } _ { \\mathrm { ~ ( ~ t ~ } } } \\end{array}$ ）则残差的方差为，s $\\displaystyle _ { \\mathrm { \\bf ~ s } ^ { 2 } } ^ { 2 } = \\frac { 1 } { \\mathrm { \\bf ~ n } } \\sum _ { \\mathrm { \\bf ~ i } = 1 } ^ { \\mathrm { \\bf ~ n } } { \\mathrm { \\bf ~ \\sigma } } _ { } ( \\mathrm { \\bf ~ \\varepsilon } \\in ( \\mathrm { \\bf ~ t } ) \\mathrm { \\bf ~ \\varepsilon } - \\mathrm { \\bf ~ \\varepsilon } _ { \\ast } \\mathrm { \\bf ~ ^ 2 } { \\mathrm { \\bf ~ \\varepsilon } } _ { \\mathrm { \\bf ~ \\varepsilon } }$ 后验差比例C为： $\\mathrm { C } ^ { = } \\mathrm { s } { } ^ { 2 } / \\mathrm { s } { } ^ { 1 }$ 小误差概率 $\\mathrm { P }$ 为： $\\mathrm { ~ \\mathsf ~ { ~ P ~ } ~ } = \\mathrm { ~ P ~ } \\mathrm { ~ \\left. \\{ ~ \\right. ~ \\mid ~ \\varepsilon ~ ( ~ t ~ ) ~ - ~ \\varepsilon ~ \\mid ~ < ~ } ~ $ $0 . 6 7 4 5 _ { \\mathrm { s 1 } }$ 一",
+    "context21": "检验的标准见表1。",
+    "context22": "表1判别模型精度的等级表",
+    "context23": "<table><tr><td>P</td><td>C</td><td>等级</td></tr><tr><td>&gt;0.95</td><td>&lt;0.35</td><td>好</td></tr><tr><td>&gt;0.50</td><td>&lt;0.80</td><td>合格</td></tr><tr><td>&gt;0.70</td><td>&lt;0.65</td><td>勉强</td></tr><tr><td>≤0.70</td><td>≥0.65</td><td>不合格</td></tr></table>"
+  },
+  "3实例验证": {
+    "context1": "本文利用中国维普网数据库检索系统，以数字图书馆为关键词，按篇名检索出 $1 9 9 6 { \\sim } 2 0 0 2$ 年篇名有数字图书馆的全部文件，利用Excel排序，删去重复的文献，共检索到有关数字图书馆的论文1315篇。统计数据见表2。",
+    "context2": "表2 $1 9 9 6 { \\sim } 2 0 0 2$ 年数字图书馆文献量统计",
+    "context3": "<table><tr><td>年份</td><td>1996 1997</td><td>1998</td><td>1999</td><td></td><td>2000</td><td>2001 2002</td><td>合计</td></tr><tr><td>文献量</td><td>11</td><td>34 36</td><td>78</td><td>276</td><td>350</td><td>530</td><td>1315</td></tr></table>",
+    "context4": "依据上述两个建模方法及表2的原始数据，利用计算机进行计算，分别建立Logistic预测模型和GM（1，1）灰色预测模型。为节省篇幅，仅列出计算结果，省去计算过程。"
+  },
+  "3.1 Logistic 模型": {
+    "context1": "取 $_ \\mathrm { k } = 9 0 0$ 时，计算出 $_ { \\mathrm { b } } = 1 7 8 . 1 3 1$ ， $_ { \\mathrm { ~ a ~ } } = -$ 0. 793417, $\\mathrm { R } ^ { 2 } = \\mathrm { 0 } . \\mathrm { 9 7 4 8 2 }$ ，将a， $\\mathbf { b }$ 的值代入（1）式，则求出数字图书馆的Logistic模型为：",
+    "context2": "$$\n\\mathrm { Y t } = \\frac { 9 0 0 } { 1 + 1 7 8 . 1 3 \\mathrm { e } ^ { 0 . 7 9 3 4 1 7 _ { \\mathrm { t } } } }\n$$",
+    "context3": "根据相关指数检验：由于 $\\mathrm { R } ^ { 2 } = \\mathrm { 0 } . 9 7 4 8 2$ 接近于",
+    "context4": "1，因此模型拟合效果良好。"
+  },
+  "3.2灰色预测GM（1，1）模型": {
+    "context1": "由计算机计算出 $\\underline { { \\mathbf { \\Pi } } } _ { \\mathrm { a } } = - \\ 0 . \\ 4 9 3 8 5 0$ ， ${ \\bf b } = 3 9$ .1399,$\\mathbf { \\boldsymbol { c } } ^ { = 0 }$ .281701, $\\mathrm { \\Phi } _ { \\mathrm { p } } = 1$",
+    "context2": "将a， $\\mathbf { b }$ 的值代入（2）式则求出数字图书馆的灰色GM（1，1）预测模型为：",
+    "context3": "$\\mathbf { X } ^ { ( 1 ) }$ $_ { ( \\mathrm { ~ t ~ } ^ { + } 1 ) } ^ { } \\ = 9 0$ $2 5 4 6 3 1 { \\mathrm { e } } ^ { 0 . 4 9 3 8 5 \\mathrm { t } } + 7 9$ 254631根据表1检验：由于 $\\mathrm { P } ^ { = 1 > 0 . 9 5 , C } ^ { = 0 . 2 8 1 7 0 1 }$ $< 0$ ．35，所以模型精度好。"
+  },
+  "3.3两种方法计算结果比较": {
+    "context1": "依据上述模型分别计算各模型 $1 9 9 6 \\sim 2 0 0 2$ 年的模拟值及 $2 0 0 3 { \\sim } 2 0 0 5$ 年的预测值，见表3。",
+    "context2": "表3有关数据比较表",
+    "context3": "<table><tr><td>年份</td><td>x( (t）</td><td>Yi</td><td>m(t)</td><td>(t）(%)</td><td>x（t）</td><td>(t)</td><td>8(t）(%)</td></tr><tr><td>1996</td><td>11</td><td>11.03</td><td>10.03</td><td>-0.31</td><td>11.0000</td><td>0.000</td><td>0.0000</td></tr><tr><td>1997</td><td>34</td><td>24.04</td><td>9.96</td><td>41.44</td><td>57.6377</td><td>-23.6377</td><td>-69.5227</td></tr><tr><td>1998</td><td>36</td><td>51.48</td><td>-15.48</td><td>-30.07</td><td>94.4459</td><td>-58.4459</td><td>-162.350</td></tr><tr><td>1999</td><td>78</td><td>106.45</td><td>-28.45</td><td>-26.73</td><td>154.760</td><td>-76.7602</td><td>-98.4105</td></tr><tr><td>2000</td><td>276</td><td>205.87</td><td>70.13</td><td>34.07</td><td>253.592</td><td>22.4079</td><td>8.1188</td></tr><tr><td>2001</td><td>350</td><td>356.43</td><td>-6.43</td><td>-1.80</td><td>415.539</td><td>-65.5392</td><td>-18.7255</td></tr><tr><td>2002</td><td>532</td><td>532.62</td><td>-0.62</td><td>-0.12</td><td>680.908</td><td>-148.908</td><td>-27.9902</td></tr><tr><td>2003</td><td></td><td>685.99</td><td></td><td></td><td>1115.74</td><td></td><td></td></tr><tr><td>2004</td><td></td><td>788.71</td><td></td><td></td><td>1828.27</td><td></td><td></td></tr><tr><td>2005</td><td></td><td>846.01</td><td></td><td></td><td>2995.83</td><td></td><td></td></tr></table>",
+    "context4": "其中： $\\mathbf { \\boldsymbol { x } } ^ { ( 0 ) } \\mathbf { \\boldsymbol { t } } ^ { -- }$ 原如数据;",
+    "context5": "Yt－-Logistics 模型预测值;  \n$\\mathbf { X } ^ { ( 0 ) }$ （t）--GM（1，1）模型预测值；  \nε（t）--Logistic 模型残差；  \n$\\mathfrak { E }$ （t）－－Logistic 模型相对残差；  \nm(t） $-- \\mathrm { G M }$ （1，1）模型残差;  \n$\\delta$ (t） $-- \\mathrm { G M }$ （1，1）模型相对残差。",
+    "context6": "由以上计算及检验结果表明，两个模型的预测精度都合格，但从表3可知，两个模型预测结果却相差很大，灰色预测模型GM（1，1）的预测数据比Logistic模型预测数据大了好几倍。从图2曲线逼近情况明显看出，曲线Ⅱ与曲线|的模拟效果明显优于曲线Ⅱ。为了从理论上进行验证，下面对两个模型的拟合优度进行比较，见表4。",
+    "context7": "表4拟合优度比较",
+    "context8": "<table><tr><td>名称</td><td>R²</td><td>m</td><td>8</td></tr><tr><td>Logistic模型</td><td>0.9697</td><td>18.81</td><td>18.9803×10-2</td></tr><tr><td>GM（1，1）模型</td><td>0.8481</td><td>56.52</td><td>55.0267×10-2</td></tr></table>",
+    "context9": "其中是残差均值 是相对残差均值。",
+    "context10": "从表4可以看出Logistic模型的 $\\mathbf { R } ^ { 2 } = 0 . 9 6 9 7$ 接近于1，残差均值 $\\varepsilon = 1 8 . 8 1$ 和相对残差均值 $\\approx$ $1 8 . 9 8 0 3 \\times 1 0 ^ { - 2 }$ 均小于GM（1，1）的残差均值和相对残着镇网表明tgi模型拟合果和预测精度均优于GM（1，1）模型。",
+    "context11": "![](images/0622a04902de9ee46ebc20a1635c12ae12eec9ec248d86fc8a0732fffae12597.jpg)  \n图2两种模型的拟合预测图"
+  },
+  "3.4分析": {
+    "context1": "从图2看出，曲线Ⅱ与曲线|比较接近，曲线与曲线丨偏差较大，说明Logistic 模型的模拟值与实际数据比较偏差较小，GM（1，1）模型的模拟值与实际数据的偏差较大。表明Logistic 模型的预测结果优于GM（1，1）模型的预测结果。分析GM（1，1）模型预测精度较差的主要原因，是数字图书馆数据特征不适合灰色预测模型的适应范围。在实际应用中，人们发现应用GM（1，1）模型进行预测，有时可得到好的预测结果，而有时误差较大，甚至根本无法使用，经过研究发现，应用GM（1，1）模型进行预测的前提是原始数据序列必须满足指数规律，且数据序列变化速度不能很快。当然据散点呈随机变化，预测资料不全或资料的波动太大不平稳时，使用GM（1，1）模型预测发展趋势效果较好。",
+    "context2": "从图2可知，数字图书馆的统计数据散点图呈缓慢连续变化，说明数据存在自相关的特征，预测模型适合选择平滑的预测方法。由图2可以看出数字图书馆的统计数据散点的分布大致呈\"S\"形，符合逻辑斯谛曲线拟合预测的特征，另外由文献的差分环比公式判别，表明数字图书馆的数据特征适合用Logistic 模型拟合预测，因此，用Logistic模型拟合预测数字图书馆的发展趋势效果是比较好的。"
+  },
+  "4结 语": {
+    "context1": "本文对同一数据采用两种不同的模型进行拟合比较，克服了用单一模型拟合预测的局限性，对以上实例经过检验分析对比，得出了GM（1，1）模型预测精度较差的主要原因，是数字图书馆数据特征不适合灰色预测模型的适应范围。确定出Logistic模型是反映数字图书馆研究发展规律较好的一种预测模型。",
+    "context2": "用Logistic 模型拟合预测的 $1 9 9 6 \\sim 2 0 0 5$ 年数字图书馆的文献量，经相关指数 $ { \\mathrm { ~  ~ { ~ R ~ } ~ } } ^ { 2 }$ 检验及图2的曲线拟合分析，预测精度较高，能够反映我国数字图书馆的发展趋势。预测结果显示，到2005年，我国数字图书馆的研究文献量接近饱和值900，表明到2005 年我国数字图书馆的研究在较高水平上保持缓慢发展。从以上预测的情况及文献描述的我国数字图书馆目前建设的现状及发展趋势分析，笔者认为，我国数字图书馆研究发展还会经历一个漫长的发展过程，2006 年后还会再经历一个新的逻辑增长期。",
+    "context3": "总之数字图书馆研究发展有其自身规律，应采用多种模型进行拟合预测，经过分析对比以确定最佳模型来反映其发展规律。"
+  },
+  "参考文献": {
+    "context1": "1邓聚龙·灰色系统(社会、经济)·北京：国际出版社,1985  \n2赵松山·经济系统工程．大连：大连理工大学出版社，1999. $2 4 5 { \\sim } 2 4 6$   \n3朱新民，李勇春，等．现代管理科学词库．上海：上海交通大学出版社，1986. $3 6 6 \\sim 3 7 5$   \n41 http://www $\\cdot$ tydata·com  \n5 吴淑玲．利用Logistic 模型预测我国数字图书馆的发展趋势．情报杂志，2004（3)  \n6 雷玉洁，梁正东·Logistic分布及其医学应用·数理医药学杂志，2002（2)  \n7 吉培荣，黄巍松，等．灰色预测模型特性研究·系统工程理论与实践，2001（9)  \n8 陈俊珍．GM（1，1）模型与曲线Aeax 拟合．系统工程理论与实践，1988（4)  \n9 陈俊珍.关于灰色系统理论中的累加生成·系统工程理论与实践，1989（5)  \n10 王铮，和莹·灰色系统建模方法的理论困难及其克服．系统工程理论与实践，1990（5)  \n11 陈章潮，熊岗·应用灰色系统理论进行长期电力需求预测．系统工程，1994（2)  \n12 白雪梅，赵松山·对统计数据的特征分析与预测模型选择的研究．浙江统计，1999（12)  \n13 唐芸，秦秀华，等．一种简易预测模型的应用．林业调查规划，2002（6)  \n14 阿拉腾图雅，金良．人口预测模型·内蒙古科技与经济，1999 (4)  \n15 李正龙．时序列特征与预测模型选择．预测，2001（5)  \n16 邱明辉，夏明春．中美数字图书馆研究比较·河南图书馆学刊，2002（1)  \n17 张冬梅.21世纪数字图书馆的发展趋势·现代图书情报技术，2002（1)  \n18 吴培红·我国数字图书馆的发展现状及思考·情报科学，2002 (2)  \n19 牛文杰．中国数字图书馆建设的发展现状．信息技术，2002 (2)",
+    "context2": "(责任编辑：孙晓明)"
+  }
+}

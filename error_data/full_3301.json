@@ -1,0 +1,81 @@
+{
+  "original_filename": "full_3301.md",
+  "国外Open API发展现状及趋势研究": {
+    "context1": "裴珊珊1,2，叶小梁1",
+    "context2": "(1.中国科学院文献情报中心,北京,100190;2.中国科学院研究生院,北京,100190)",
+    "context3": "摘要：介绍OpenAPI概念，从数量、类型、应用三个角度对国外Open API发展现状进行分析,然后探讨国外Open API在应用中面临的问题，最后总结其发展趋势。",
+    "context4": "关键词：Open API;Mashup;信息资源整合；现状",
+    "context5": "中图分类号：TP393 文献标识码：A 文章编号：1007-7634(2009)12-1896-05"
+  },
+  "Reseach on Status and Prospects of Overseas Open API": {
+    "context1": "Pei Shan-shan1.2 Ye Xiao-liangl",
+    "context2": "(1.Library of Chinese Academy of Sciences, Beijing 100190,China; 2.Graduate University of Chinese Academy of Sciences, Beijing 1O0190,China",
+    "context3": "Abstract: This paper introduces the concept of Open API and analyzes the development of Open API abroad in the aspects of quantity,category and applications. Then, it discusses problems during the process of Open API application.Finally,it summarizes the development trends of Open API.",
+    "context4": "Keyword: open API; mashup; information resource integration; status"
+  },
+  "1 Open API概述": {
+    "context1": "互联网进入 $\\mathrm { \\ W e b } 2 . 0$ 时代后，博客、社交网站等Web2.0应用大量涌现，为用户带来广阔的参与平台和互动空间，而以用户创造内容为核心的理念又催生了爆炸式增长的信息与服务。然而，各网站彼此独立，使缺乏关联性的资源以零散的状态分布于互联网中。因此用户必须在各个网站之间不断切换才能获取所需资源。伴生的搜寻成本问题，使整合互联网资源成为当务之急。于是，OpenAPI应运而生。",
+    "context2": "Open API(Open Application programming inter-face)，即开放应用程序接口，指利用SOAP、JavaScript等实现网站互联的一系列技术[1]。OpenAPI为解决资源整合问题的贡献在于：一方面，开放了资源的外部访问、调用，提供资源混搭的机会；另一方面,也保护了资源提供者，仅提供接口用于有限数量和频度的获取。与传统应用程序接口不同的是，OpenAPI不局限于构建新的应用软件，它给网站之间的互联带来更加灵活和友好的创新方案，为第三方提供了网络信息资源或服务的整合和集成基础。API提供者将自身的资源通过开放接口的形式暴露出来,API应用开发者通过指定的协议、地址和符合API规范的函数获取XML、JSON等格式的数据，可以整合多个API提供者的资源和服务，或者将其集成到自身的在线系统中，从而提供给用户新的混搭（Mashup）应用。",
+    "context3": "Open API的开放不仅仅体现在资源和服务的开放上，还体现在API利用中的三个角色的模糊化上,即API提供者，应用开发者及用户之间的边界也是开放的。拥有数据、技术和服务，即可成为API提供者，而具备使用Open API的技术的企业或个人,也可以很容易地成为应用开发者。事实上，往往是API提供者自身和用户开发了大量应用。",
+    "context4": "目前,国外Open API发展迅速且渐趋成熟。本文试图通过数据调研对国外OpenAPI的发展现状进行研究，在分析其特点、问题和趋势的同时，也希望能为国内Open API的发展和相关研究提供参考。"
+  },
+  "2 国外Open API发展现状": {
+    "context1": "我们以Programmable.com（以下简称 PW)为数据源，选取截至2009年3月25日的所有Open API相关数据。从数量、类型、应用、开发等角度对国外Open API的发展现状进行分析。PW是记录OpenAPI和Mashup数据、新闻及评论的专业性网站，也是相关专家及应用开发者的重要研究参考工具[2-5],记录时间从2005年至今，定期更新。"
+  },
+  "2.1数量分析": {
+    "context1": "截至2009年3月25日，统计到的国外OpenAPI共1224个。图1展示了OpenAPI数量的具体增长数量分布：",
+    "context2": "![](images/71eb3a71f7dec687486e4c3227ba3b8fa88e4d8ca37759ba3d31c234fb794502.jpg)  \n图1Open API增长曲线 数据来源:PW,2009-03-25",
+    "context3": "Open API的概念早已提出，但直到2005年9月,Open API开始真正发展，此后保持了总体上升的趋势。从增长的速度来看,Open API的发展大致经历了起步、平稳增长和快速增长等多个阶段，并且目前正处于快速增长阶段。尤其是2008年至2009年3月,OpenAPI月均增长42个,这一阶段出现的Open API数量超过了之前所有Open API总数之和。"
+  },
+  "2.2类型分析": {
+    "context1": "目前，国外Open API已涵盖5O 种以上的服务内容，其中提供地图、金融、网络等15种内容的Open API数量已达到总数的 $60 \\%$ ，具体如图2所示：",
+    "context2": "总体来看,Open API大致可以分为以下几类[5]:",
+    "context3": "(1)地理信息类。地理信息类API提供以地图信息为中心的服务，包括地图图片显示、地理编码、地理标签、地理图片生成、旅行路线、移动GPS、IP定位、邮编定位、无线接入点查找等，应用开发者可将此类API嵌入自己的网站，根据需求将地理信息与文本、多媒体等信息混搭在一起，实现功能强大的新应用。著名的 API包括 Google Maps、Microsoft Vir-tual Earth 及 Yahoo Geocoding等。",
+    "context4": "![](images/c1f66844ffe9ded91c587af53d5c9cab23da38ab09c15ecd8e55ebbd20f177ce.jpg)  \n图2Open API服务内容分布数据来源：PW,2009-03-25",
+    "context5": "(2)多媒体类。指提供图片、音乐、视频相关服务的API,可实现多媒体资源及元数据分享、管理、搜索和用户互动等功能，典型代表如Last.fm、Flickr、YouTube等。其特点是,大部分此类API提供者自身都拥有大量多媒体资源和用户，因此,API应用既满足了应用开发者自身的需求，也会为API提供者带来更多潜在用户和资源。",
+    "context6": "(3)资讯数据类。资讯数据类API提供新闻、事件、短消息、统计数据及报告等信息服务。其中，根据是否允许用户产生内容，API的开发范围又有不同：$\\textcircled{1}$ 支持内容创建，则API可实现信息定制、获取、上传、用户互动等功能,如Digg、Eventful等； $\\textcircled{2}$ 禁止内容创建,则API只能实现信息定制、获取功能。专业性和权威性的信息服务提供者为避免信息误传、漏传、丢失等混乱现象，实施有限功能范围的API开放，例如美国实时股票信息的XigniteRealtime和提供美国国会数据库信息的 Sunlight Labs。",
+    "context7": "（4）电子商务类。电子商务类API提供购物、广告、支付等信息服务，包括商品数据、在线销售、比较购物、用户评论、广告管理、多种支付方式、电子邮件营销等。与其它各类API最大不同之处在于，电子商务类API能为商品卖方及支付处理方带来直接商业利益。应用开发者可创建到商品页面的链接，使用户直接访问商品信息、卖方广告、支付页面等，成为潜在客户，带来更多市场份额和资金。",
+    "context8": "(5)搜索类。搜索类API主要提供搜索服务，包括网络搜索、本地搜索、定制搜索、专家搜索、干预搜索等。其中Google、Yahoo 提供了占目前搜索领域大多数的搜索服务。应用开发者可将此类API放到自己的网站、软件及设备中，实现随时随地一体化搜索，不用再额外登录搜索引擎网站。",
+    "context9": "(6)社交类。社交类API主要提供博客、微博客、社会化网络、社会化书签等服务，具体包括数据访问及管理、用户互动等等。典型的例子包括 Blogger、Twitter、LinkedIn、del.icio.us 等。",
+    "context10": "（7)其它。相比以上6类主要的Open API,还有一些提供信息管理、知识参考、生活应用、企业级应用等类别信息服务的 $\\mathrm { { O p e n \\ A P I } }$ ,其数量不多但服务内容全：从个人信息管理、项目管理到办公自动化、信息安全，从知识问答、参考到百科，从运动、医疗到日历、旅行，从人力资源管理到客户关系管理等，应有尽有。它们为API的应用提供了广阔的数据、服务和工具选择范围。"
+  },
+  "2.3应用分析": {
+    "context1": "Open API的应用主要为Mashup，即整合1个或多个Open API、其它信息资源或服务形成的混搭应用。根据应用某一个Open API的 Mashup 数量,我们可以得到Open API的应用频次排名如表1所示：",
+    "context2": "表1国外 Open API应用排名",
+    "context3": "<table><tr><td>排名</td><td>API名称</td><td>应用率</td></tr><tr><td>1</td><td>GoogleMaps</td><td>46%</td></tr><tr><td>2</td><td>Flickr</td><td>11%</td></tr><tr><td>3</td><td>YouTube</td><td>10%</td></tr><tr><td>4</td><td>Amazon</td><td>7%</td></tr><tr><td>5</td><td>VirtualEarth</td><td>4%</td></tr><tr><td>6</td><td>eBay</td><td>4%</td></tr><tr><td>7</td><td>Twitter</td><td>3%</td></tr><tr><td>8</td><td>Yahoo Maps</td><td>3%</td></tr><tr><td>9</td><td>Delicious</td><td>3%</td></tr><tr><td>10</td><td>Google</td><td>3%</td></tr></table>",
+    "context4": "数据来源：PW,2009-03-25",
+    "context5": "表1显示了开发应用最多的前10个OpenAPI，应用率为利用此API开发的Mashup占所有Mashup数量的百分比。Open API的应用有如下几个特点：",
+    "context6": "(1)地理信息类API应用率超过其它所有类别API应用率的总和。地理信息与现实生活中很多方面密切相关，并且其与文本、多媒体类信息具有较好的结合能力。典型应用如将美国最大黄页网站Craiglist.org上的房屋租售信息加载至 Google Maps的 Housing.com,混搭 Google Maps、eBay、Amazon 等API 而成的Wii Seeker，利用Facebook与GoogleMaps开发的Facebook Friend Mapper，结合 AmazonA9OpenSearch、del.icio.us、Flickr、Google Maps及Yahoo Traffic开发的alkemislocal nyc等等。这些API应用将用户需求信息与地理信息搭配，使用户可以更直接更直观地了解各地房屋租售、购物、交友、交通等情况，从而更好地满足用户需求，降低搜寻成本。",
+    "context7": "(2)多媒体信息服务API比文本信息服务API更受欢迎。与文本信息相比，多媒体信息具备更丰富的表现能力，可以提高信息利用效率，带来更好的用户体验。因此在开发利用API的过程中，提供多媒体信息服务的Open API与提供文本信息服务的OpenAPI相比具有较高的应用率。同属于旅游类应用的Geowalk和UK Traveldata，后者利用BBC和GoogleMap等API开发,只提供地图和景点名称,而前者以Flickr、GeoNames、Google Map 等开发，提供了景点图片等多媒体信息，更加吸引用户。",
+    "context8": "(3)行业巨头提供的API应用更多。在服务内容相同的情况下，行业巨头的API应用率要显著高于普通API。这要归因于前者拥有后者无法比拟的优势：良好的品牌声誉、专业的技术水平、海量的数据和用户、友好易用的开发服务等等，这些都是API应用开发者们会考虑的因素。比如Google的API,凭借Google在全球搜索市场的地位，就足以吸引应用开发者们了。此外,Google为每一个API都建立了专门的网页进行介绍，提供多语种的参考服务，包括“如何入门”“常见问题解答”“文章”“博客”“网上论坛”“条款\"等[6,使应用开发者迅速上手。其它领域的领先者YouTube、Flickr、Amazon等，均以海量信息资源和用户资源占据了本领域的Open API市场最大份额。",
+    "context9": "(4)Open API帮助扩大企业的市场份额。企业在互联网获取客户的途径主要有两种：依靠自身声誉吸引客户、依靠广告吸引客户。一方面，广告类Open API如Google Adsense等可以通过网站调用API为企业提供更精准的广告投放，吸引感兴趣的客户；另一方面，企业通过开放API,允许应用开发者在多个领域和渠道发布自身产品和服务信息，渠道的扩张也为企业带来大量潜在客户,Amazon、FedEx和金融信息提供商Xignite等就是其中的典型代表。"
+  },
+  "3 国外Open API发展面临的问题": {
+    "context1": "国外Open API在快速发展的同时,也面临着一些问题,对API提供者、应用开发者、用户都产生不同程度的影响，应当引起业内的关注。",
+    "context2": "(1)硬件设施难满足不断升级的海量请求。OpenAPI极大扩展了数据和服务的传播途径和接口，大量的Mashup及其它以Open API为基础开发的应用给API提供者带来海量的数据和服务请求。比如Amazon开放其AWSAPI之后,不到2年时间,AWS的带宽使用量就已超过Amazon全球电子商务网站带宽的总和[7]。一旦硬件设施满足不了持续增长的数据存储和请求处理，轻则导致系统响应速度变慢、重则网站系统崩溃，直接后果就是用户数据丢失，继而用户体验质量短期内急剧下降[8。如果不采取进一步措施，在竞争激烈、替代产品众多的时代，很可能会流失用户群，造成严重损失。为应对海量数据存贮和接入请求，企业需要去金融市场连续融资，这也给很多API提供者带来融资失败的风险甚至陷入生存危机。",
+    "context3": "(2)技术标准多重。众多OpenAPI提供者使用自有技术标准组合带来了一系列的问题。例如，在协议方面,Facebook API 使用REST,Microsoft VirtualEarth API采用JavaScript，而Flickr API协议则是REST $+$ SOAP $+$ XML-RPC；数据格式方面，FacebookAPI用的是XML,Microsoft Virtual Earth API则为KML $^ +$ GeoRSS,FlickrAPI则为 $\\mathrm { X M L + J S O N + P H P }$ 格式,等等。OpenAPI技术标准的多样性不仅仅存在于不同的服务类别，也存在于提供相似服务的API中,同为社交类 API,Facebook、MySpace $\\mathrm { . H i 5 }$ 的API协议就有4种、数据格式就有2种。多重技术标准的存在，意味着AIP应用开发者需要耗费时间、精力去熟悉所需API的每一个标准，以便开发新的应用程序。这将大大提高开发成本，阻碍行业更快地发展。",
+    "context4": "(3)安全漏洞危及用户隐私。OpenAPI的开发和利用，使人们可以快捷获取API提供者敞开的信息及服务，包括大量用户信息。在目前的三种API授权模式[9下，除了安全级别最高的用户授权能保证只有在被授权的情况下用户信息才能被访问和修改外，其它模式如免授权、应用授权等都存在安全漏洞。即便API提供者只公开用户的一部分信息，仍然会造成用户隐私的泄露。以AmazoneCommerce、GoogleMaps和Ontok等API混搭出来的新应用Banned Books[o]，就演示了这一可能。AmazoneCommerceAPI采用\"Shared Secret\"授权模式,安全级别不高。BannedBooks的开发者仅凭Amazon用户阅读过的图书信息、AmazonWishlist公开的用户名字(FirstName）、国家、城市信息,通过深度数据挖掘，最后竟能找到用户的全名、联系方式、详细住址，并在Google地图上找到其住址图片。可见,OpenAPI授权模式上的安全漏洞可能会造成用户隐私泄露，对用户的人身安全产生重大影响，甚至造成公共安全隐患。",
+    "context5": "(4）非法应用侵犯知识产权。开放的网络服务在给用户带来各种便利的同时，也会引起一系列知识产权问题,有来自API提供者、应用开发者及用户三方面的原因。首先，部分API提供者对自身产品及服务的知识产权审查不严，比如社交网站上的盗版游戏。其次，部分应用开发者将未授权信息置放于自己的网站上，例如API应用中仅限图片分享网站内部使用的图片。第三，大量用户通过API应用非法获取并传播信息，比如批量下载并私自传播视频分享网站上的视频。于是,由API提供者、应用开发者、用户构成的多级信息传播渠道，使未授权信息的扩散得到逐级放大，其传播速度之快将超越API提供者的控制范围，最终导致知识产权所有者权益的重大损失。"
+  },
+  "4 国外Open API的发展趋势": {
+    "context1": "(1）可扩展的架构设计。升级服务器和网络设备需要大量资金,相比之下,更多Open API提供者将转而选择重新规划OpenAPI的架构，构建可扩展的服务能力，以应对海量请求的持续增长。",
+    "context2": "(2)趋于统一的技术标准。尽管Open API有众多不同的标准，孰优敦劣尚无定论，不过，市场会帮助这些标准完成选择的过程，最终将在整个行业内形成一套统一的技术标准和参考规范。",
+    "context3": "(3)更严格的内容监管。API提供者将采用更先进的数字版权保护技术来追踪文本、多媒体等信息，并进行内容审查和过滤，保证未授权信息和非法信息在规定时间内被删除或暂停访问。此外,API提供者不断扩充和明确服务条款中关于知识产权和用户隐私保护的部分，建立更成熟的举报机制，以发动用户加入监管过程。除此之外，相关法律条文的出台也将填补这一领域法律监管的空白。",
+    "context4": "(4)开放理念向传统行业渗透。货运业、金融业与政府机构信息服务Open API的迅速发展,为其它传统行业提供了开放服务的良好示范。可以预测，将有更多传统行业提供Open API,使用户或者第三方可以通过互联网获取其信息资源或专业服务。",
+    "context5": "(5)寡头与长尾共存。Open API的市场竞争将更加激烈，而拥有强大技术、资源、用户和资金实力的行业巨头在市场竞争中将使得小型企业被逐渐淘汰或合并，形成寡头局面。与此同时,新的长尾们也仍然会有生存和发展的空间，因为只要有创意并挖掘出新的用户需求，就可以在市场占据一席之地。"
+  },
+  "5结论": {
+    "context1": "国外Open API正在持续快速增长，其应用范围也逐渐扩大到实际生活的多个方面，并给用户带来更灵活快捷的整合信息服务。本文从数量、类型、应用等多个角度对国外Open API的现状做出了总结和定量分析，提出OpenAPI的发展还存在硬件设施滞后、技术标准不统一、安全漏洞、知识产权等问题,并阐述了技术的进步、市场的选择、监管的加强、立法的完善等带来的Open API的发展趋势。",
+    "context2": "1Wikipedia. Open API [EB/OL]. htp://en.wikipedia.org/wiki/ Open_API,2009-03-20. 2Weiss M.User Innovation with Open APIs:Profiting from",
+    "context3": "Mashups [EB/OL]. http://www.carleton.ca/tim,2009-03-19.   \n3Palfrey J,Gasser U.MashUps Interoperability and eInnovation[EB/OL].http://cyber.law.harvard.edu/interop/pdfs/interop-mashups.pdf,2009-03-19.   \n4Iyer B,Lee C H,Venkatraman V.API-based Innovation [EB/OL].www.softwareecosystems.com,2009-03-15.   \n5谭晨辉，刘青炎.OpenAPI出现、起源与现状[J].程序员, 2008(7):38-41.   \n6Google.Google API 目录[EB/OL].[2009-03-27]. htp://code. google.com/intl/zh-CN/more/#products-apis-android.   \n7Jeff Bezos.Amazon Web Services[EB/OL].http://omnisio. com/startupschool08/jeff-bezos,2009-03-26.   \n8Ante S E.Facebook Is Hunting for More Money [EB/OL]. http://www.businessweek.com/technology/content/mar2009/ tc20090326_604141.htm,2009-03-31.   \n9岑文初.Open API分析与实践[J].程序员,2009(1):94-99.   \n10Owad T.Data Mining 101: Finding Subversives with Amazon Wishlists[EB/OL].http://www.applefritter.com/bannedbooks,2009-03-31."
+  },
+  "参考文献": {
+    "context1": "1 高校教育信息化建设与应用水平调查 [EB/OL].http://info.edu.hc360.c0m/2005/07/01115275848-2sht.1,2005-07-01.  \n2 王海阳，刘志军.高校校园网应用如何走向深入[J].中国大学教学,2005,(12):26-28.  \n3安宏，曾德华等.我国教育电子政务建设应用水平调查分析[J].中国教育信息化,2007,(1):17-19.  \n4岳超源.决策理论与方法[M].北京：科学出版社,2003:151-162.  \n5李洪兴,汪培庄.模糊数学[M].北京：国防工业出版社,",
+    "context2": "1996:116-128.",
+    "context3": "6 罗承忠.模糊集引论[M].北京:北京师范大学出版社,1989：251-262.  \n7冉德君，钱春萍.构建地方高校网站绩效评估体系的思考[J].教育与职业,2007,(23):67-68.  \n8 天津科技大学校园网“优秀网站”评价指标体系[EB/OL].http://www3.tust.edu.cn/scb/YCMSShowArt.asp?id $= 8 9 { , } 2 0 0 8$ 102-28.  \n9优秀教育类网站评测标准(教育城域网)[EB/OL].http://www.zjedu.org/download/djg/12198068654067722.xls,2008 -09 -04.  \n10关于开展”吉林省2008年度高等院校优秀网站评比\"活动的通 知 [EB/OL]. htp://wzds.ccut.edu. cn/news1.asp,2008-10-10.  \n11张坤军，席广永等.基于变权法的模糊综合评判在地面沉降危害评价中的应用[J].测绘通报,2009(1)：45-47.  \n12 林琳，林刚.模糊数学与层次分析法在绩效评估中的综合应用[J].中国管理信息化,2006,9(11):14-17.",
+    "context4": "(责任编辑：孙晓明)"
+  },
+  "（上接第1819页）": {
+    "context1": "息有完整的信息追寻机制等。三层综合模糊评判量化主观的考评结果，使评价结果更加清晰透明，并且通过实例验证评价结果与实际情况基本吻合，使得这种评价方式有着极大的应用推广空间[1-12],能够对企事业单位信息网络系统建设提供有价值的参考信息。"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "original_filename": "full_7064.md",
+  "$\\bullet$ 尹忠博，罗威，罗准辰（军事科学院军事科学信息研究中心，北京100142)": "",
+  "数据驱动的技术预测：现状、技术与趋势": {
+    "context1": "摘要：技术预测不仅可以辅助科技战略决策者作出正确抉择，还能够帮助研究人员把握研究方向。随着大数据技术的快速发展，技术预测已从传统的单一基于专家意见的预测方法转化为数据驱动的技术预测方法。文章介绍了国内外数据驱动的技术预测研究现状，总结了目前主要支撑技术预测的关键技术，在此基础上提出了4个技术预测的未来发展趋势。",
+    "context2": "关键词：技术预测；数据驱动；关键技术；发展趋势"
+  },
+  "Data-driven Technology Forecasting:Status，Technology and Trends": {
+    "context1": "Abstract:Technology forecasting can not only help science and technologystrategy decision makers make the right choices， but alsosupportresearchersgraspresearchdirection.Withtherapiddevelopmentofbigdata technology，technologyforecastinghas transformedfromthetraditionalsingleexpertbasedforecastingmethodintoadata-drivenmethodThispaperfirstintroducesthere search statusofdata-driven technologyforecastingathomeandabroad.Then，itsummarizesthekeytechnologiesusedfortechnology forecasting.Finally，the paper proposes four development trends for the future technology forecasting.",
+    "context2": "Keywords:technology forecasting；data-driven； key technology；development trend",
+    "context3": "一方面，在制定科技兴国战略计划过程中，国家每年投入大量资金供众多技术开发和研究，而其中只有很少一部分的技术能够对未来社会产生重大影响[，因此，提前预测技术的发展趋势和影响力可以辅助决策者调整投资结构和政策倾向从而为关键技术营造更充分的发展空间；另一方面，面对众多的研究方向，大多数研究人员只能主攻其中一个或少数几个方向，因此，提前预测技术发展趋势及其未来应用前景可以辅助研究人员选定适合自己并可持续研究的技术方向，从而最大程度地实现自身价值。",
+    "context4": "传统的技术预测方法主要是基于专家意见的定性预测方法，例如德尔菲法、情景分析法、层次分析法等。其中，1946年兰德公司提出的德尔菲法作为技术预测领域广泛使用的经典方法，是由组织者首先整理好有关技术发展情况的调查问卷并通过电子邮件等方式发送给多位专家，而后将专家反馈的结果整理成综合意见再将其发送给各位专家，从而让各位专家在此基础上再次提出意见，如此反复直至得到一致的专家意见，因此，该方法也称为专家调查法。",
+    "context5": "随着大数据时代的到来，传统单一以专家意见为主要依据的预测方法暴露出个别专家信息量掌握不足、专家间提出意见时相互干扰等问题，因此，数据驱动的数据分析、信息抽取等方法逐渐成为支撑技术预测的主要工具。一方面，数据驱动的技术预测方法可以在大数据的背景下对特定技术进行多维度分析，从而更全面地总结某一技术的发展历程和当前状况；另一方面，数据驱动下的预测方法最大程度地利用、分析已有的数据得出客观的结论，并且更倾向于定量分析，从而得到的预测结果更为准确。"
+  },
+  "1国内外预测项目现状": {
+    "context1": "近年来，各国政府、科研机构为探索预测技术发展趋势，发布了多个技术预测项目，这些项目的实施不仅完善了各国技术预测理论，也提升了相关预测技术的发展水平。本节将以国家为单位分别论述国内外预测项目现状。"
+  },
+  "1.1美国": {
+    "context1": "作为技术预测的发源地，美国科研机构在对预测架构以及基础研究方法的持续更新优化的过程中得到了政府的大力支持，其中美国国家情报局下属高级情报研究计划署(IARPA）公开发布并资助了诸如 Forecasting and Underst-anding from Scientific Exposition （FUSE）、Forecasting Sci-ence&Technology（ForeST）等多个技术预测项目（见表1)。",
+    "context2": "表1美国主要技术预测项目概况",
+    "context3": "<table><tr><td rowspan=1 colspan=1>名称</td><td rowspan=1 colspan=1>启动时间</td><td rowspan=1 colspan=1>预测目标</td><td rowspan=1 colspan=1>基本方法</td></tr><tr><td rowspan=1 colspan=1>FUSE</td><td rowspan=1 colspan=1>2011年</td><td rowspan=1 colspan=1>新兴技术</td><td rowspan=1 colspan=1>科技文献、专利中的数据挖掘</td></tr><tr><td rowspan=1 colspan=1>ForeST</td><td rowspan=1 colspan=1>2013年</td><td rowspan=1 colspan=1>颠覆性技术</td><td rowspan=1 colspan=1>将科技文献、专利中挖掘出有关技术发展问题提供给众多专家，汇总专家意见后给出预测概率</td></tr></table>",
+    "context4": "FUSE和ForeST是典型的技术预测项目，2011年率先实施的FUSE项目主要基于文本分析、知识挖掘、大数据、社会网络分析、自然语言处理、机器学习等技术方法从科技文献或专利等文本信息中获取相关知识，从而预测新兴技术。这些技术方法的发展极大节省了信息挖掘过程中的人力和分析时间并提升了结果的可信度。2013年提出的ForeST项目是基于FUSE的已有成果之上，虽然该项目从表面上看是基于专家建议的预测方法，但与传统单一依靠专家建议方法不同，实际上其不仅使用文本分析、自然语言处理方法从科技文献、专利中自动搜集向专家提出的问题，还采取大数据、机器学习方法智能选取特定领域可信度较高的专家对于所在领域技术发展问题的回答，最终对答案进行自动化整合从而给出技术发展情况的概率性评估值。"
+  },
+  "1.2日本": {
+    "context1": "日本政府1970 年来，每5年举办一次技术预测活动并发布报告，目前已经发布了10次报告。这10次技术预测活动由文部科学省委托科学技术学术政策研究所（NISTEP）负责实施，每次技术预测活动都会对特定目标领域 $2 0 \\sim 3 0$ 年的发展情况作出预测。",
+    "context2": "表2日本1970—2015年10次技术预测概况",
+    "context3": "<table><tr><td rowspan=1 colspan=1>届数</td><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>目标</td><td rowspan=1 colspan=1>方法</td></tr><tr><td rowspan=1 colspan=1>1~6</td><td rowspan=1 colspan=1>1970—1995</td><td rowspan=1 colspan=1>加快经济发展</td><td rowspan=1 colspan=1>德尔菲调查法</td></tr><tr><td rowspan=1 colspan=1>7~9</td><td rowspan=1 colspan=1>2000-2010</td><td rowspan=1 colspan=1>依据经济社会发展需求推导技术需求，进一步推演技术发展趋势、确定技术的优先发展领域，从而提高民众生活质量，实现可持续发展</td><td rowspan=1 colspan=1>+需求分析、情景分析、地区研讨会</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2015</td><td rowspan=1 colspan=1>一是考察面向未来社会愿景的科学和技术的发展，有助于政府制定科技发展与创新政策和战略；二是提高技术在实验室和实际应用中实现的可能性</td><td rowspan=1 colspan=1>+大数据及数据科学、在线德尔菲调查系统、可视化技术</td></tr></table>",
+    "context4": "如表2所示，我们依据预测目标的变化将这10次预测活动分成三个阶段。第一个阶段（1970一1995年）的技术预测主要使用德尔菲法围绕如何加快日本二战后的经济发展问题展开技术预测活动，这一阶段的6次技术预测活动让日本经济在战后迅速崛起，从而进入发达国家行列[。进入21世纪，日本政府及时捕获到技术发展对社会经济发展的重大作用，因此，第二阶段（2000—2010年）的三次预测活动主要围绕经济发展需求制定科技发展战略，方法上增加了需求分析、情景分析、地区研讨会等多样性分析方法。近年来，依托于大数据技术的快速发展，日本第三阶段（2010—2015年）的技术预测将德尔菲调查法移至互联网，给众多专家发放在线问卷，使得在短期内收集大量的数据成为可能，再借助大数据分析、可视化技术分析问卷调查结果，从而将技术预测由专家主导转为数据驱动[。"
+  },
+  "1.3欧洲": {
+    "context1": "自1988年荷兰开始实施技术预测起，欧洲各国随后纷纷开始了本国的预测活动，近年来，欧盟联合各成员国发起了多个技术预测项目[。其中始于英国的HorizonScanning（HS）项目如今正在欧盟范围内持续推进[4。该项目旨在挖掘、监视重大技术变革的先前迹象从而将这些对未来趋势的系统化调查结果提供给决策者，辅助其制定相关政策。自2014年HS项目提出以来，各科研机构通过从互联网、专利、论文、社交媒体等多种途径广泛搜集信息，利用大数据分析、机器学习等方法对热点话题、科学观点、消费趋势以及各种分析报告等多种信息进行整合分析，并对多种语言下的信息进行交叉参考。目前，该项目的最新研究成果可以实现对各类期刊文献进行每分钟1200页以上的扫描、每天总结2500个以上的科学事件的实际效益[。"
+  },
+  "1.4国内技术预测概况": {
+    "context1": "国内的技术预测工作源于20世纪60年代，近年来，以上海、广东为代表的地区级技术预测频繁活动并取得优异成果，其中上海市政府、上海市科学技术委员会持续开展了医疗、材料和人工智能等多领域的预测工作并定期发布各领域的预测报告[d。国家层面，科技部中国科学技术发展战略研究院牵头开展了中国未来20年技术预测以及每年一届的全国技术预测学术研讨会（目前正在筹办2018年第13届大会），研讨会围绕当前时期最新预测方法、实践经验等主题征集论文并在会上展开讨论，使得我国技术预测领域研究人员的学术水平得到不断提升。"
+  },
+  "2关键技术": {
+    "context1": "通过对各国技术预测项目的整体分析，本文总结了数据驱动的技术预测主要的关键技术。数据驱动的技术预测中的数据源主要为各种途径搜集到的海量文本信息，因此，自动化文本处理是高效、准确预测的必经之路和重要前提。如图1所示，数据驱动的技术预测一般流程可以分为三层：数据选择层、模型构建层以及预测分析层。其中，数据选择层是从大量文本信息中抽取出支持目标技术预测的相关文本信息，这一阶段一般先对海量文本信息进行分类，从而筛选出目标领域类别的相关文本[。模型构建层是对筛选出的相关文本进行细粒度分析，其主要分为文献内部建模技术、文献间建模技术。最终，预测分析层通过对构建的模型进行综合分析，结合预测目标向决策"
+  },
+  "者提供数据驱动的预测结果。": {
+    "context1": "![](images/fc3cd7f467e319e269b2e75d5958621e78602816e1aa996a97e0f89451c54cae.jpg)  \n图1数据驱动的技术预测一般流程"
+  },
+  "2.1 文献内部建模技术": {
+    "context1": "目前主要的文献内部建模技术有论证功能自动分区、科技信息抽取和情感分析等（见图2)，这些技术通过对单一文献内部文本信息的上下文关系、描述角度以及描述情感进行细粒度分析，从而将普通文本信息转化为结构化信息。",
+    "context2": "![](images/0e00f7ecb6e009658de80f7721f409f8c1f205718c9f0d8620d6d64392007553.jpg)  \n图2文献内部建模技术",
+    "context3": "full-text特征在做预测时优于metadata-only特征，metadata与full-text混合特征效果最佳→",
+    "context4": "2.1.1论证功能自动分区如图2的左侧部分，一篇科技文献的描述角度通常包含研究背景、研究方法、结论总结等不同部分，论证功能分区是把无结构的文本信息按照描述角度将其划分成表示不同写作意图的结构化语言块的过程[。作者对目标技术的描述方法可以客观地反映技术的发展程度，例如，新技术一般在文中的研究方法部分而成熟技术则更多作为研究背景出现。因此，对描述同一技术的多篇文献进行论证功能分区标注有助于生成该技术的发展路线图，从而预测该技术的发展趋势。",
+    "context5": "2.1.2科技信息抽取即使是一篇科技文献中，也并不是全篇内容都在描述目标技术，因此，如何从全文中抽取出描述目标技术的相关信息成为研究人员热议的话题。如图2上方的“包含”“用途”关系标注过程，首先应该从中抽取出我们所关注的技术术语或相关概念，然后进一步挖掘术语及概念间的相互关系从而实现文本结构化。这一过程就是自然语言处理领域的命名实体识别和关系抽取问题的演化。自2017年Semeval国际语义评测大赛以子任务形式提出该方法后，众多科研机构的参赛队伍对此展开了积极探索[。通过对术语间相互关系的时间序列分析，我们可以得出特定技术的演变过程，通过分析已知成熟技术的演变过程，从而判断与之类似的新兴技术的发展趋势。",
+    "context6": "2.1.3情感分析科技文献多数为议论文，作者会通过列举多种论据证明自己对所在领域的个人见解，我们可以通过分析作者对该领域的态度观点判断该领域的发展趋势。如图2的右侧部分，作者对 fulltext 特征和 meta-data特征做了明显的对比，我们可以从中得出结论：full-text特征优于metadata特征，并且二者相结合是用于预测的最佳特征。通常情况，多位作者对一个领域持以积极评价，那么该领域可能处于正向发展期，相反，该领域则处于低潮期。"
+  },
+  "2.2文献间建模技术": "",
+  "情感分析": {
+    "context1": "文献间建模技术是挖掘多个文献间相互关系的过程，目前主要的文献间建模技术有：引用分析、合著网络分析、功效矩阵、话题模型等。2.2.1引用分析传统的德尔菲法是通过调查问卷的形式收集专家对所在技术领域的态度和观点，从而判断技术发展趋势。而如今，专家对特定领域的态度与观点可以直接通过科技文献中的引用句直观反映。在科技文献撰写过程中通常会引用前人的研究成果并进一步说明其方法与以往研究的不同之处。因此，分析文本中引用信息不仅可以追踪技术的发展路线，还可以通过引用情感判断作者对该领域的态度从而分析技术发展趋势。目前常用的引用分析技术有引用网络分析和引用情感分析。",
+    "context2": "其中引用网络是指以文章为节点、以引用关系为边构成的有向网络图，引用网络不仅可以追溯某项技术的源头，还可以通过聚类系数、饱和度等网络参数判断该领域的发展成熟度。引用情感是指通过分析引用句的情感状态判断作者对所引用文献观点的积极或消极态度从而对该发展节点进行定性分析。",
+    "context3": "2.2.2合著网络分析类似于文章引用网络，合著网络也是一种复杂网络模型，其网络结构是以作者为节点、以合作撰文关系为边、以合作次数为权重构成的无向加权网络。一个快速发展领域一般建立在该领域内学者频繁的相互合作基础上。基于这个假设，迅速扩张的合著网络一般预示着其所在领域正在走向发展巅峰。除此之外，同一领域中不同级别的学者对所在领域的发展状态把握的准确性往往相差悬殊，因此如何识别领域内的关键学者十分重要，而通过分析合著网络中节点中心度等网络指标可挖掘该领域的高影响力学者。",
+    "context4": "2.2.3功效矩阵功效矩阵法常用在多个专利间的相互关系分析，其主要思想是以技术方法为横轴、以待解决的问题为纵轴，在矩阵中以气泡图的形式绘制每个节点相关专利数目，从而形成某领域相关技术的专利功效矩阵，通过分析矩阵中不同部分专利的分布情况判断技术的发展情况。例如，若某一节点的专利数量较多说明该技术已经相当成熟，反之，则说明该技术领域存在技术空白，有可能在此范围内产生新兴技术。",
+    "context5": "2.2.4话题模型除以上三种在文献间挖掘关键信息支撑技术预测的基础方法外，话题模型也通常被当作预测的支撑技术，其主要方法是将每篇文章看作是各个主题的概率分布，这些主题又可以看作是词汇集中不同词汇的概率分布。因此，我们可以通过文献内各个主题词汇的分布情况，判断文章的主题，进一步通过对相关文献的综合分析达到对预测的目标主题进行持续跟踪的目的。这一方法不仅能够绘制目标技术的发展路线图，还能够第一时间发现新兴技术 。"
+  },
+  "2.3预测分析层相关技术": {
+    "context1": "上一节提及的文献内部、外部建模技术中每一个技术的分析结果都可以看作是一维独立特征，经过对多维特征的综合分析不仅可以监督技术发展路线，还能够实现影响力预测、新兴技术探测以及研究空白推测等多种功能。",
+    "context2": "2.3.1技术监测技术监测是通过对各种描述技术的相关文献进行实时监控，系统地挖掘、追踪和分析后得出该技术的主要特征和最新动态的过程。技术监测不仅能够通过对以往监控结果进行时间序列分析后绘制目标技术的发展路线图，还可以通过监测技术的各项特征指标及时发现其发展趋势，从而将技术发展的最新动态提供给决策者。",
+    "context3": "2.3.2影响力预测影响力预测包括热点技术预测、颠覆性技术预测以及人物影响力预测等多个方面。近年来，该领域通过对目标技术代表性论文的引用量、引用目的及引用情感、特定术语在科技论文中的词频以及对反映学者学术影响力的h-index指标等量化指标的预测分析从而预判目标技术的影响力。",
+    "context4": "2.3.3研究空白推测及新兴技术探测研究空白推测是通过对特定领域技术进行结构化盘点后得出该领域目前研究进度下可能遗漏的研究方向，常用的方法是利用2.2.3节中提及的功效矩阵对所在领域技术发展情况进行结构化分析从而推测该领域可能的研究空白。新兴技术探测一般建立在研究空白推测基础上并结合技术监测、影响力预测等方法探测在主流研究方向上可能出现的新兴技术。1.3节中提及的HS就是新兴技术探测的典型项目案例。"
+  },
+  "3未来发展趋势": {
+    "context1": "基于对国内外技术预测项目、关键预测技术的细粒度分析，本文总结了4个数据驱动技术预测的未来发展趋势。"
+  },
+  "3.1趋势一：由定性分析转化为定量、定性分析相结合": {
+    "context1": "传统以德尔菲法为代表的预测方法主要以专家主观建议形成对技术发展趋势的定性预测。近年来，随着数据分析技术的快速发展，技术预测逐渐由定性分析转向定量分析。传统的专家预测方式主要以预测技术发展路线图、情景假设等定性方式展现。而如今的定量分析则通过文献的引用量、技术术语的词频、评估科研人员学术水平的H指数等特定的量化指标预测未来发展趋势。虽然这些定量预测方法削弱了定性预测方法的主导地位，然而，领域专家对所在领域的趋势判断仍然具有极大的参考价值。因此，我们既要考虑专家建议又要兼顾数据分析结果，定性分析与定量分析相结合的方法才是未来的主流技术预测方法。"
+  },
+  "3.2趋势二：由专利分析转化为科技文献分析": {
+    "context1": "按数据源不同，数据驱动下的技术预测方法可以分为基于专利的预测方法和基于科技文献的预测方法。对于基于专利的预测方法，由于公开发布的专利需要经过严格的审查过程，同时新颖性评估是专利在审查中的重要审核对象，因此，专利是反映相关技术最新研究动态的高质量信息源。另外，对于基于科技文献的预测方法中的科技文献主要指公开发表的学术论文、项目立项书等相关文献，由于这些科技文献发表周期较短、内容相对新颖，因此也是展示相关技术研究、应用情况的主要信息源。相对于专利来讲，科技文献发表周期更短、资源更多、范围更广，因此，在技术预测方面，科技文献可以作为专利的替补、扩充资源。"
+  },
+  "3.3趋势三：由文间分析转化为文内分析": {
+    "context1": "以往的技术预测方法通常借助于文献计量学等文间分析方法从宏观层面分析某一领域内的文献数量变化情况，为了从更细粒度的角度分析技术的发展情况，从而给出更加准确的预测结果，自然语言处理、情报挖掘等领域逐渐将研究的重点转向对文本内容的细粒度分析。目前数据驱动的预测方法不仅可以使用论证功能分区、科技信息抽取等相关技术对文本内容进行整体建模从而分析技术发展趋势，还能运用自然语言处理的自动分析技术将文本信息结构化，通过科技信息抽取挖掘技术间的相互关系；通过引用情感分析判定作者对以往研究成果的态度；通过技术术语的词频变化判定该技术的发展前景。"
+  },
+  "3.4趋势四：单一预测方法转化为多元预测方法相结合": {
+    "context1": "传统预测方法大多基于单一的德尔菲法或文献计量学方法等单独的基础预测方法计算预测结果。而由于这种单一预测方法的预测结果过于依赖某一类特征，很可能产生偏置误差。为避免这种偏置误差，目前最新的研究成果大多基于多种预测方法以及多种量化指标对预测目标进行全方位预测。例如，Bildosola所在团队综合文献计量学、文本挖掘、时间序列分析等基本方法全方位预测新兴技术；Radev所在团队对预测目标相关文献内的引用句进行情感分析、引用量分析从而综合预测技术的发展趋势。"
+  },
+  "4结束语": {
+    "context1": "与国外发达国家的技术预测模式相比，国内的技术预测活动大多处于理论研究层面，实践经验明显不足。针对这一问题，我们应该从国家层面发布更多的技术预测项目，加大对预测项目的投资和扶持力度，让国内学者的丰富理论知识在实践中得以检验，这也有助于国内技术预测理论和实践方法两方面的进一步提升。□"
+  },
+  "参考文献": {
+    "context1": "[1] GRUEBER M，STUDT T.Global R&D funding forecast[ R&D Magazine，2014，16:1-35.   \n[2] IDEN J，METHLIE L B，CHRISTENSEN G E.The nature of strategic foresight research:A system-atic literature review []．Technological Forecasting and Social Change，2017, 116: 87-97.   \n[3] DAVLETOVF，AYDIN A S，CAKMAK A. High impact academic paper prediction using temporal and topological features [//Proceedings of the 23rd ACM International Conference onConference on Information and KnowledgeManagement.ACM，2014:491-498.   \n[4] LINSTONE H A，TUROFF M.The Delphi method:Techniques and applications[]．Journal of Marketing Research, 1976，18 (3):363-364.   \n[5] RAFORD N. Online foresight platforms:Evidence for their impact on scenario planning & strategic foresight[．Technological Forecasting and Social Change，2015，97：65-76.   \n[6] TANG Y，SUN H，YAO Q，et al. The selection of key technologies by the silicon photovoltaic industry based on the Delphi method and AHP(analytic hierarchyprocess)：Case study of China[．Energy，2014，75：474-482.   \n[7] ZHANG Y，ZHANG G，CHEN H，et al. Topic analysis and forecasting for science，technology and innovation:Methodology with a case study focusing on big data research[l．Technological Forecasting and Social Change，2016，105：179- 191.   \n[8] https://www.iarpa.gov/index.php/research-programs /fuse.   \n[9] https://www. iarpa.gov/index. php/research-programs /forest.   \n[0] 吴有艳，李国秋．日本第十次科学技术预测及其解析 ．竞争情报，2017，13（1)：35-41.   \n[1] 陈峰．日本第八次技术预测方法的创新[．中国科技论 坛，2007 (8):132-135.   \n[2] 张峰，邝岩．日本第十次国家技术预测的实施和后示 [．情报杂志，2016，35（12)：12-15.   \n[3] 方伟，曹学伟，高晓巍．技术预测与技术预测：内涵，方 法及实践．全球科技经济瞭望，2017（3)：8.   \n[4] https://ec. europa.eu/research/foresight/index. $\\mathrm { c f m } ? \\mathrm { p g } =$ horizon.   \n[5] https://decernis.com/solutions /horizon-scaning/.   \n[6] 王志玲，蓝洁，管泉．国内技术预测研究综述[．情报 探索，2015 (8):50-55.   \n[7] YIN Z，TANG J， RU C，et al. A Semantic Representation Enhancement Method for Chinese News Headline Classification [//National CF Conferenceon Natural Language Processing and Chinese Computing.Springer，Cham，2017:318- 328.   \n[8] TEUFEL S，SIDDHARTHAN A，BATCHELOR C. Towards discipline-independent argumentative zoning:evidence from chemistry and computational linguistics[C]//Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing:Volume 3-Volume 3.Association for Computational Linguistics， 2009:1493-1502.   \n[9] https://scienceie.github.io.   \n[0] CERON A，CURINI L， IACUS S M. Using sentiment analysis to monitor electoral campaigns:Method matters-evidence from the United States and Italy[．Social Science Computer Review，2015，33 (1):3-20.   \n[]BILDOSOLA I，GONZALEZ P，MORAL P.An approach for modelling andforecastingresearchactivityrelatedtanemer ging technology[．Scientometrics，2017，112（1)：557- 572.   \n[2] SUN Y，BARBER R，GUPTA M，et al.Co-author relationshipprediction in heterogeneousbibliographicnetworks [c]//Advances in Social NetworksAnalysisand Mining （ASONAM)，2011 International Conference on. IEEE，2011: 121-28.   \n[3]许海云，方曙．基于专利功效矩阵的技术主题关联分析及 核心专利挖掘[．情报学报，2014，33(2)：158-166.   \n[4]朱亮，赵瑞雪，寇远涛，等．一种基于文献的综合科技监 测模式研究[．数字图书馆论坛，2015（10)：53-57.   \n[5]DONG Y， JOHNSON R A，CHAWLA N V. Can scientific impact be predicted[]．IEEE Trans.Big Data，2016，2 (1):18-30.   \n[6] YAN R，TANG J，LIU X，et al. Citation count prediction: learning to estimate future citations for literature[C]//Proceedings of the 2Oth ACM international conference on Information and knowledge management.ACM，2011:1247-1252.   \n7] RADEV D，ABU-JBARA A.Rediscovering ACL discoveries through the lens of ACL anthology network citing sentences [//Proceedings of the ACL-2012 Special Workshop on Rediscovering 5O Years of Discoveries. Association for Computational Linguistics，2012:1-12.   \n[8] MCKEOWN K，DAUME H，CHATURVEDI S，et al．Predicting the impact of scientific concepts using full-text features [．Journal of the Association for Information Science and Technology，2016，67(11):2684-2696.   \n[29] DONG Y， JOHNSON R A，CHAWLA N V. Willthis paper increase your h-index? Scientific impact prediction [C]//Proceedings of the Eighth ACM International Conference on Web Search and Data Mining.ACM，2015:149-158.   \nB0] RODEL J，KOUNGA A B N，WEISSENBERGER-EIBL M, et al.Development of a roadmap for advanced ceramics:2010- 2025[]．Journal of the European Ceramic Society，2009, 29 (9):1549-560.   \nB1] RINGLAND G.The role of scenarios in strategic foresight[. Technological Forecasting and Social Change，2010，77(9): 1493-1498.   \nB2] CHAKRABORTY T，KUMAR S，GOYAL P，et al. Towards a stratified learning approach to predict future citation counts [C]//Proceedings of the 14th ACM/IEEE-CS Joint Conference on Digital Libraries.IEEE Press，2014:351-360.   \nB3] 黄立业．基于专利分析的技术预测模型构建及其实证研究 ．图书馆杂志，2017，36(5)：72-77.   \nB4] 朱亮，赵瑞雪，寇远涛，等．一种基于文献的综合科技监 测模式研究[．数字图书馆论坛，2015，10：012.   \nB5] 彭茂祥，李浩．基于大数据视角的专利分析方法与模式研 究[．情报理论与实践，2016，39(7)：108-13.   \nB6] LIQ，JI H.Incremental joint extraction of entity mentions and relations[C]//Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics （Volume 1：Long Papers)，2014:402-412.   \nB7] PRABHAKARANV，HAMILTON W L，MCFARLAND D, et al.Predicting the rise and fall of scientific topics from trends in their rhetorical framing[C]//Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1:Long Papers），2016:1170-1180.   \nB8] ASOOJA K，BORDEA G，VULCU G，et al.Forecasting Emerging Trends from Scientific Literature[//LREC，2016.   \nB9] 刘伟涛，顾鸿，李春洪．基于德尔菲法的专家评估方法 [．计算机工程，2011（S1)：189-191.   \n[40] 王金鹏．基于科学计量的技术预测方法优化研究[D]. 武汉：华中师范大学，2011.",
+    "context2": "作者简介：尹忠博，男，1993年生，硕士生。研究方向：科技信息大数据。罗威（通讯作者)，男，1979年生，副研究员。研究方向：科技信息智能挖掘与服务技术。罗准辰，男，1984年生，高级工程师。研究方向：自然语言处理、信息检索。",
+    "context3": "录用日期:2018-08-31"
+  },
+  "(上接第20页）": {
+    "context1": "[0]LONGO L，DONDIO P，BARRETT S.Enhancing socialsearch：A computational collective intelligence model of behav-ioural traits，trust and time[M]//Transactions on computa-tional collective intelligence II. Springer-Verlag，2010.  \n[1] MCDONNELL M，SHIRI A.Social search:A taxonomy of,and a user-centred approach to，social web search[]．Pro-gram Electronic Library & Information Systems，2011，45(1):6-28.  \n[22] 孙晓宁，朱庆华，赵宇翔，等．社会化搜索研究进展综述[．图书情报工作，2014(17)：5-3.  \n[3] 王娩娩，张家年．信息偶遇理论视角下“偶遇学习”模型构建[．知识管理论坛，2017(1)：69-76.  \n[24] 黎江，谭宗颖．社会化搜索发展研究[．图书情报工作，2007，51(12):48-51.  \n[5] 程时端，郭亮，王文东．社会搜索研究综述[．北京邮电大学学报，2013，36(1)：1-13.  \n[26] 秦嘉杭．社会化搜索研究述评[]．情报资料工作，2014，35 (6):61-66.  \n[7] NVIVO.Nvivo定性研究软件——从内容分析和评价到市场调查[EB/OL]．[2018-03-24].http://www.qsrinternational.com/nvivo-chinese.  \n[8] CNNIC.2016年中国网民搜索行为调查报告[EB/OL].[2018-03-24].http://www.cnnic.net.cn/hlwfzyj/hlwxzbg/ssbg/201801/P020180109484661983457.pdf.作者简介：管家娃（ORCID：0000-0003-0254-4370），女，硕士生。张玥（ORCID：0000-0003-2215-3131），女，博士，副教授。赵宇翔（ORCID：0000-0001-9281-3030），男，博士，教授。朱庆华（ORCID:0000-0002-4879-399X)，男，博士，教授。  \n作者贡献声明：管家娃，收集资料并执笔。张玥，设计研究思路。赵宇翔，提出修改意见。朱庆华，定稿。  \n录用日期：2018-09-18"
+  }
+}

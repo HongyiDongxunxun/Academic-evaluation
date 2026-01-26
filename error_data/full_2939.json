@@ -1,0 +1,81 @@
+{
+  "original_filename": "full_2939.md",
+  "nothing": {
+    "context1": "编者按：为鼓励图书馆学情报学领域的广大专家、学者和实践工作者撰写更多的优秀学术论文，支持更多的优秀学术成果发表,进一步促进学术繁荣和事业发展，《图书情报工作》杂志社自2009年起设立了出版基金项目,并自2011年第7期起特设“出版基金\"专栏发表项目成果。",
+    "context2": "本期刊发的是李书宁博士主持的“数字图书馆OpenAPI的标准化和权限控制技术\"项目成果。这组研究成果在系统调研国内外图书馆行业数字图书馆实践中利用的第三方OpenAPI和自开发OpenAPI的基础上,分析了图书馆行业OpenAPI的发展现状和各类OpenAPI的特点及关键技术,探讨了国内外数字图书馆建设中“资源发现应用\"这一OpenAPI最主要应用场景下OpenAPI标准化的需求,结合OpenAPI通用标准和图书馆资源发现应用涉及标准的调研和分析，给出了不同应用需求可采用标准的建议,论述了IP地址范围控制、访问频次控制、授权控制等OpenAPI访问权限控制方法在图书馆领域的适用性，并以北京师范大学图书馆解决书目数据共享中OpenAPI权限控制实践为例,说明了OpenAPI访问控制的方法。",
+    "context3": "期望本组研究成果能够使国内研究者和实践者较为充分地了解目前国内外图书馆行业OpenAPI的发展现状,提高数字图书馆建设实践中OpenAPI应用和标准化的意识,推动国内数字图书馆集成化和个性化服务的发展。"
+  },
+  "国内外图书馆行业相关OpenAPI 发展现状调查及分析": "",
+  "李书宁贾西兰": {
+    "context1": "北京师范大学图书馆北京100875",
+    "context2": "（摘要）借助于网络调查、文献分析、电子邮件和电话询问等方式对国内外图书馆行业相关的OpenAPI进行较为系统的调查。依来源机构,分4类讨论图书馆行业OpenAPI的发展现状和各类OpenAPI的特点;依实现功能，将OpenAPI的具体应用分为6类,分别对应用情况的调查结果进行分析;从发布协议和交互数据格式两个方面分析OpenAPI的关键技术情况。最后,就图书馆行业OpenAPI的应用与开发提出一些建议。",
+    "context3": "（关键词）图书馆行业OpenAPI发展现状调查分析",
+    "context4": "（分类号）G250.7"
+  },
+  "Investigation and Analysis of Library Industry Related OpenAPI at Home and Abroad": {
+    "context1": "Li ShuningJia Xilan",
+    "context2": "Library of Beijing Normal University,Beijing100875",
+    "context3": "(Abstract）This papersystematicallyinvestigates developmentsituationsof libraryindustryrelated OpenAPIat homeandabroadby webinvestigatidocumentalsis,ailandtelephoneiquries.Italsodisuestesatusuo，hractersndfuntiosoflibraryindustryrelatedOpenAPI,analyzesOpenAPIkeytechnologiesfrompublishingprotocolandinteracteddataformats.Atlast，this paper brings out some suggestions for applications and development of library industry related OpenAPI.",
+    "context4": "Keywords） library industryOpenAPI development situationsinvestigation and analyse:",
+    "context5": "OpenAPI（也称Open API）,泛指服务型网站经过封装的数据与功能以服务的形式在互联网上开放的应用编程接口。OpenAPI概念在1993年就已存在,近年随着Web2.0技术的发展以及亚马逊、Google等公司的推动高速发展起来。OpenAPI核心登记网站Pro-grammable Web 调查显示,2000 年-2008 年,各类OpenAPI的总和只有1000个,但2008年后的18个月中数量已经翻番又达到2000个，在之后9个月时间中数量又增加了1000个,2011年8月底的数量已达到3 742个,3个月时间增长了近600个。利用OpenA-PI,既可大量地集成融汇(mushup)其他机构丰富的数据资源和应用以增强自己的服务内容与水平，也可将本机构数据资源和应用开放供其他个人或机构使用以提高本机构数据资源应用的利用水平，国内外图书馆行业近年对OpenAPI给予了较为充分的重视,积极开展应用和开发实践,取得了可喜的成绩。本文利用Programmableweb.com搜索获得的 API和 Roy Tennant2008年收集整理的图书馆OpenAPI列表为基础，利用Google等搜索引擎直接查询和专业数据库及会议PPT在线共享网站slideshare.net相关文献揭示的OpenAPI信息和线索为补充,国内情况则辅以必要的电话和电子邮件调查了解，对国内外图书馆行业OpenAPI的应用和开发情况进行了较为系统的调查和分析，力图揭示其整体的发展现状。"
+  },
+  "国内外图书馆行业相关OpenAPI发展现状": {
+    "context1": "早在2001年,S.R.Siriginidi就指出,将经历“从支持图书馆馆员的技术到授权图书馆用户的技术”的范式演变,图书馆行业提供的OpenAPI就是“授权用户技术\"实现的重要手段。利用OpenAPI可复用相关数据和mushup相关应用、增强现有数据资源服务的利用、改善服务界面和服务可用性，而且借助于OpenAPI的调用可简化调用过程、降低开发难度、节省开发时间以快速完成预期任务，使机构与机构之间以及机构与个人之间的合作得以顺利进行。正因为此,国内外的图书馆行业近些年通过利用第三方OpenAPI和开发相关OpenAPI进行了非常多的相关实践。依据OpenA-PI,提供的机构,当前图书馆行业相关的OpenAPI大体可以分为如下4类（下文按类分析相关的发展现状，除个别给出来源的数据和信息外,其他皆来自于本文的调查、统计和分析）。"
+  },
+  "1.1基于相关合作机构提供的OpenAPI": {
+    "context1": "OpenAPI最初产生的原因是组织内部协作产生的应用模块化和服务接口化需求，故借助于多个图书馆间合作、个人之间合作以及图书馆与个人合作等对图书馆及其读者提供服务的机构，比如OCLC、HathiTrust、LibraryThing、国内的CALIS等天生就有产生OpenAPI的土壤。这些机构产生的OpenAPI主要应用于合作机构或个人的合作实践中,OpenAPI提供的数量比较多,支持的协议和返回列表支持格式一般也比较多，应用率较高，但带有明显的机构“专属”性，合作机构或个人之外的机构和个人使用会受到一定限制。其中的典型代表是OCLC——对外提供了OCLC Classi-fy、xISSN、xISBN、WorldCat各类检索服务等相关的至少13种OpenAPI,多数都支持REST、OpenURL和 unAPI等多种发布，协议调用多需要OCLC授权的机构码，调用次数每天在500次以内。LibraryThing提供了thingISBN、thingTitle、thingLang等多种OpenAPI,每天调用次数不超过1000次，商业使用需要授权。国内基于合作提供服务的机构目前对OpenAPI的实践还处于研究和开发阶段，调查尚未发现对外公布OpenAPI。CALIS将为成员图书馆提供OpenAPI纳入到三期规划中,以OpenAPI和统一标准为依托,支持嵌入式整合、馆间协作,支持云服务的整合。"
+  },
+  "1.2集成图书馆系统提供商和数据库商提供的OpenAPI": {
+    "context1": "集成图书馆系统(ILS)管理的书目数据和数据库提供的数字资源数据是数字图书馆时代图书馆开展对外服务的核心支撑。如果ILS和数据库提供商向图书馆提供OpenAPI,则可极大地方便图书馆利用这些数据资源开发理想服务应用。但遗憾的是，出于商业利益的考虑，只有少数提供OpenAPI。以色列ExLibris就是其典型代表一—借助于公司的开放平台策略，为旗下自动化系统、Metalib数字资源管理平台、SFX链接服务等都提供了OpenAPI,从最初的X-ServerHTTP/XML API到第二代的SOAPWebService API,再到目前的第三代REST API,提供三大类API。国内外很多图书馆OpenAPI应用都是基于其提供的服务平台。国家图书馆利用其ALEPH系统的X-Server实现了读者身份认证、Wap书目信息查询、架位信息上传、金融功能等6类16种应用。北京师范大学图书馆的手机图书馆服务等也是基于该X-ServerAPI。清华大学图书馆则基于其Metalib平台的X-Server接口实现了异构电子资源移动检索服务。英国剑桥大学图书馆电子期刊订购跟踪、期刊定位等OpenAPI的研发利用的是其SFX链接服务的相关API。SirsiDynix等也提供可供开发利用的 OpenAPI。商业数据库提供商 Springer、Elsevier( Scopus）、CrossRef（DOI Resolution）、Nature、CNKI等都提供相关数字资源查询、访问和调用的OpenAPI,这些API只允许订阅该数据库的机构提供给其读者使用或者(如Elsevier）只提供非订阅用户可免费使用的开放获取的数据和资源（如Springer）。ILS和数据库商提供的OpenAPI一般都需要注册,获得相应APIKey和(或)注册账户的密码认证后方可使用。"
+  },
+  "1.3图书馆自开发的OpenAPI": {
+    "context1": "本文调查发现，目前图书馆对外公布的OpenAPI主要有三类： $\\textcircled{1}$ 为本机构或者合作机构开发其他的应用而研发的。如美国北卡罗莱娜大学图书馆为开发手机OPAC、FacetBrowser 书墙(bookwalls）教工近作书墙等应用开发的 $\\mathrm { C a t a l o g W S \\ A P I ^ { \\mathrm { \\scriptsize ~ [ 1 0 } } }$ 。国内厦内大学图书馆开发的随书光盘API是为了与暨南大学图书馆的随书光盘互联共享,为超星数据库开发的API则是为了馆藏目录对电子图书全文的调用[。 $\\textcircled{2}$ 为了本机构独有的术语表、词表和相关数据为其他机构查询和调用而研发。如美国国会图书馆为鼓励用户在网上使用其标题词表(LCSH)而开发的API,美国国家医学图书馆为用户使用UMLS术语表开发的API和为公众查询建在该处的电子健康记录系统而推出的MedlinePlusConnect API等。 $\\textcircled{3}$ 为满足图书馆用户某些调用需求(如书目数据、用户借阅信息、阅览座位有无信息等)研发。其中第一类研发的OpenAPI虽然也对外发布可供调用,但相当多的API调用过程(含检索式构造、数据源选择配置等)比较繁琐，有的调用返回数据内容格式很多也不是采用通用标准格式，而是使用专用的XMl格式,增加了解析和识别的难度[。图书馆自开发OpenAPI比较多的情况发生在一些大型图书馆。如美国国家医学图书馆对外提供26种以上的API[,剑桥大学图书馆也提供15种以上的API[]。"
+  },
+  "1.4其他行业提供的可用OpenAPI": {
+    "context1": "国内外图书馆目前除了使用上述本行业提供或开发的API外,还大量使用了其他行业提供的API,这些API以书籍相关API为主，包括书籍的详细信息(含封皮、目录、简介信息、价格等）、书籍评论类信息（含读者标记的标签、评论、评级、阅读排行榜等）、书籍涉及的社会关系类信息(含读过某书的其他读者、读过某书的读者读过的书等）、书籍电子全文(含部分全文)搜索和链接信息。如北京师范大学图书馆的新版OPAC中就集成了亚马逊书封API、读秀的图书目录或全文链接API、书生全文搜索和链接API、豆瓣书评API、Google图书全文搜索API等。相关的API还有百度图书搜索 API、当当网 API、delicious API、aNobii API、Bookshare API、GoodreadsAPI等。图书馆可用的其他行业API还有社交网利用API（如人人网、Facebook）、图片分享API（如Flickr）、地图应用API（如GoogleMap）、Wiki百科类资源API（如MediaWiki）、视频资源发布与排行API(如YouTube)等。这些API很多都在当前网络上非常流行,用户量和使用量都比较大，相对比较成熟,成功应用的范例和源码也比较多，各类型图书馆都可比较轻松地实现调用。"
+  },
+  "图书馆行业相关OpenAPI主要应用场景及关键技术调查分析": "",
+  "2.1主要应用场景": {
+    "context1": "在调查获得的OpenAPI中,图书馆行业相关OpenAPI当前主要应用于图书馆资源和数据的揭示、丰富和应用，除美国明尼苏达大学图书馆将其应用于图书馆开设课程的预定[和澳大利亚国家图书馆、新西兰国家图书馆等提供的AskNow参考咨询服务平台中利用Delicious API在馆员和用户间共享资源评论、标签[外,还很少应用于图书馆对外提供的服务中①。资源数据揭示、丰富和应用的OpenAPI主要可分为如下6种具体应用场景。",
+    "context2": "2.1.1书目数据相关应用作为图书馆最基本的数据资源，书目数据基本上是各个图书馆及相关组织最先开发和提供OpenAPI应用的数据类型,集成融汇其他行业和其他机构OpenAPI复用来的数据基本上也最先应用于书目数据。书目数据相关应用是图书馆行业OpenAPI最主要的应用场景。Libraything、OCLC的机构提供的OpenAPI基本上都和书目数据有关。此类的API有英国Open Library大学提供的Book Search API和Read API,剑桥大学为书目数据提供了AquabrowserSRUGateway等7种API,美国哈佛大学图书馆提供的PRESTO自动化系统查询API等,Copac API提供的包括英国和爱尔兰的国家图书馆和大学图书馆的集成书目数据。上文提及的其他行业OpenAPI多数都是应用在书目数据中。",
+    "context3": "2.1.2数据库数字资源相关应用数据库数字资源是数字图书馆时代用户需求集中指向的资源，因此图书馆和用户都有利用OpenAPI的需求。数据库数字资源相关应用是除书目数据相关应用之外应用最多的场景。数据库数字资源OpenAPI除了前文提及的商业数据库商提供的API外,图书馆还针对商业数据库统一检索平台开发和提供相关OpenAPI,如剑桥大学图书馆借助于其统一检索系统 Serials Solutions 360 Search的SRU/SRWXML网关开发提供的API,美国国家医学图书馆在其数据库管理平台Enrez系统统一检索平台上开发提供的EGQuery API等。另外,图书馆还为本馆自建的特色数据库开发提供OpenAPI,如剑桥大学图书馆为其机构知识库、美国国家医学图书馆为其特色数据库DIRLINE、ClinicalTrials.gov、AIDSinfo等、美国国会图书馆为ChroniclingAmeric等提供的API。除此之外,部分特色数据库的OpenAPI并不是从用户角度提供检索，而是从合作机构角度提供资源标识的抽取,如美国国会图书馆的 tinyThom.asAPI调用返回的是预标记资源不需重新定向的永久URL地址。",
+    "context4": "2.1.3机构相关数据应用这类OpenAPI为其他机构或用户抽取该机构相关的信息提供方便,机构相关信息包括图书馆基本信息、图书馆及其各分馆建筑的位置、通信地址、开放时间等。部分机构提供了这类OpenAPI,比如哈佛大学图书馆提供的PRESTO数据查询服务API,剑桥大学图书馆提供 Library data API和library data element API。",
+    "context5": "2.1.4术语数据相关应用此类应用主要针对机构描述资源的术语或者机构构建的各类专业词表的查询应用而提供。相关的OpenAPI除了前文提及的LCSHAPI、UMLS API外,OCLC 也提供术语服务查询的 Ter-minology services API。ClinicalTrials.gov 查询和下载XML格式信息数据，包括网站上最新的资料、相关临床试验机构的地址、联系方式等。围绕术语查询还有一些基于专门术语的拼写检查与推荐的API,如美国国家医学图书馆提供的ChemSpell API和Espell API等。",
+    "context6": "2.1.5第三方平台嵌入应用此类应用是指图书馆利用第三方平台提供的OpenAPI,将自己的资源服务等嵌入到第三方平台环境提供服务或者丰富自己的资源内容。这些第三方平台主要是指当前用户比较熟悉喜爱的社交网络网站,比如Facebook、人人网、MSN空间、Flickr等。很多国外图书馆利用FacebookAPI开发了嵌入到Facebook 的API提供服务d。国内清华大学图书馆利用人人网的API实现自己资源服务的嵌入。美国国会图书馆利用Flickr API将馆藏照片在Flickr上发布,获得用户的评论和评级信息，再通过OpenAPI返回给本馆数据库[8 。",
+    "context7": "2.1.6地图界面应用此类应用目前主要是指图书馆利用Google Map、Yahoo Map、51ditu 等地图类 API将图书馆及其分馆的位置、行走路线、楼宇内楼层详细分布甚至机房、自习室的空闲位置(如美国中佛罗里达大学图书馆[）以及重点资源具体分布位置（如新西兰的DigitalNZ数字资源项目[）以地图的形式显示、浏览、检索和实时变更。"
+  },
+  "2.2关键技术": {
+    "context1": "作为互联网上开放应用编程接口,OpenAPI功能就是将系统原有的登陆、数据查询、浏览、更新等操作及操作参数和功能调用按照某种发布协议进行封装，外部程序就是按照封装后的调用方式通过API实现与系统的数据交互，API一般与编程语言无关。因此，OpenAPI的关键技术主要体现在发布封装协议、交互数据格式、交互数据内容设置、使用授权4个方面。但由于OpenAPI应用情况比较复杂,交互数据内容设定会有较大的区别,这里不再详细说明。OpenAPI使用授权目前的方式主要有无限制使用、限制商业利用、用户名密码认证、APIkey、IP地址控制、某时间段内使用次数限制以及OAuth安全开发授权协议约束授权等（本专题有专文详细探讨,这里不再赘述)。下面从其他两个方面对图书馆行业OpenAPI的调查情况（不含其他行业提供OpenAPI)进行分析。",
+    "context2": "2.2.1封装发布协议调查发现,当前图书馆行业相关OpenAPI采用的封装发布协议有:REST、SOAP、XML-RPC、HTML、SRU、OpenURL、Javascript、unAPI。其中采用REST封装发布协议的最多，约占到全部调查OpenAPI的 $80 \\%$ ,近两年出现的OpenAPI基本上都采用了REST协议或同时提供了REST协议的支持。其次是 SOAP和XML-RPC 协议,但占比均不及 $30 \\%$ 。这与Programmable Web 对该网站所有OpenAPI采用发布协议的统计“REST、SOAP、XML-RPC 发布协议是目前主要方式，且REST已成为最普遍采用的发布协议”基本相仿。与之不同的是，只有英国开放大学图书馆的Book Search API中采用Javascript封装发布,尚无法体现日趋增长的趋势。图书馆行业同时支持多种协议的OpenAPI还不多,只是前文提及的Copac API和美国国家医学图书馆的部分API同时支持REST和SOAP协议。OpenURL和 SRU是两个图书馆行业发布的协议,但应用并不广泛,OpenURL 出现在OCLC WorldCatIdentities及其相关 xISBN、xISSN的API中,SRU则只在美国国会图书馆SRW服务API中和英国剑桥大学图书馆OPAC 查询 API 及其二次封装Copac API中。unAPI作为一种支持微格式的发布协议，虽然响应速度非常快，但由于其一般支持标识符类服务的封装，因此只是在 OCLC WorldCat Identities 应用。",
+    "context3": "2.2.2交互数据格式由于图书馆行业OpenAPI需要交互的数据类型和表征需求多样复杂，交互数据格式也比较复杂,粗略统计就有XML、JSON、RSS、YAML、RDF、HTML、XHTML、ASN.1、Simplified hit-table、类XML、OpenSearch、MARC-XML、MARC-JSON、DC、Atom、JSONP、PAM、CSV、TEXT、Python、PHP、Ruby、ONIX 等24种。其中OCLC的OpenAPI提供的交互数据格式最为复杂,Classify和xISBN等就提供了其中13种格式的交互数据。ASN.1、Simplified hit-table是美国国家医学图书馆描述核酸等特定数据所用的格式，该馆的DIRLINE数据库API和美北卡罗莱娜大学图书馆的CatalogWS还采用自己特定的XML格式。但总体看来,XML、JSON是最为主要的交互数据格式,适合处理多种类型的数据。MARC-XML以及密歇根大学图书馆创造的MARC-JSON格式是OPAC全纪录返回的主要数据格式,OPAC简单记录则可以采用XML、JSON、DC、RSS、Atom、Opensearch 等数据格式。产生于出版行业标准组织PRISM的PAM(PRISM Aggregator Mes-sage）格式则被 Springer API所采用。"
+  },
+  "3建议": {
+    "context1": "诚如 ProgrammableWeb 的创始人 John Musser所言“2005年的时候人们还在争论为什么需要OpenA-PI,2010年的时候OpenAPI已经理所当然地为多数人认为是必须的”。换言之,OpenAPI已经逐渐为人们所熟悉和认同，也逐渐成为图书馆行业应用和建设的重点。图书馆OpenAPI应用与开发的重点在于图书馆的书目数据和购买或自建的数字资源。虽然上面列举了6类OpenAPI的应用场景,但书目数据和数字资源是数字图书馆时代用户利用最多的网络数据,也是图书馆组织管理的重点。“用户利用”最多意味着开放的书目数据和数字资源查询利用API是其他用户最有可能和需求调用的。“组织管理重点”则意味围绕这些资源数据提供集成服务、增值服务的工作很多，OpenAPI的开发和提供应用则可以大大加快相关集成服务、增值服务的速度，节省更多的精力和开发时间，而且对于基于合作提供服务的机构来说,OpenAPI会带来更多的方便。但随之而来的，有些问题需要深入研究和思考。"
+  },
+  "3.1用户需求调研": {
+    "context1": "需要调研OpenAPI的真正用户究竟是哪些群体，其对于数据的简略程度有何真实的需求。目前提供书目数据和数字资源API更多的是基于原有本机构或合作机构开发其他服务的调用需求，数据格式和数据内容都与之密切相关，而对于用户的真实需求则缺乏了解,很多调用过程还相对比较复杂，数据格式也不够“大众”，增加了调用难度。"
+  },
+  "3.2版权保护和信息安全": {
+    "context1": "数字资源多数有版权，书目数据加工过程也耗费了图书馆大量的精力，如何保证这些资源和数据不被滥用？如何在用户授权粒度和用户调用方便程度之间取得平衡？另外,在书目数据的增值过程中,通过其他机构和行业的OpenAPI大量集成融汇了其他机构和行业的数据,如何才能更好地尊重别人的劳动成果？借助于第三方网站OpenAPI进行资源建设的图书馆需要注意的是，要定时和及时地保存相关数据，以免大量的数据丢失。"
+  },
+  "3.3采用标准": {
+    "context1": "目前图书馆行业OpenAPI的应用与开发涉及的标准和建议格式非常多，应该尽可能避免自己定义新的标准和格式,而应尽可能采用当前通用的一些标准和格式,如何取舍、如何选择也是需要思考的问题。"
+  },
+  "3.4适应信息环境变化": {
+    "context1": "云计算、语义网、移动互联网、社交网等构成了当前和未来新的信息环境，OpenAPI的开发时不能只限于普通的网络服务中OpenAPI的应用和需求,也要考虑社交网络、移动互联网(包括移动设备)对于相关OpenAPI利用的需求。",
+    "context2": "另外,OpenAPI要想获得更好的应用，提供者也应该遵循API开发的5个简单原则:保证API是干净和简洁的;遵循相关的标准;API是针对数据进行开发的;保证API的正常工作和运行;经常保持必要的更新 。"
+  },
+  "参考文献:": {
+    "context1": "[1]Edward M C. The open platform strategy:What it means for library developers [OL]．[2011-05-12]．http://code4lib.org/files/ ecorrado-c4109.pdf.   \n[2]Musser J.Open APIs:State of the market [OI]． [2O11 -06- 15].http://www.slideshare.net/jmusser/open-apis-state-of-themarket-2011.   \n[3] Tennant R. Library application program interfaces （API[o1] . [011-06-15] ．http://techessence.info/apis.   \n[4]孟广均,刘泳洁,高凡.国外图书馆学情报学最新理论与实践研 究M.北京:科学出版社,2009.",
+    "context2": "数字文库向机构知识库转型的进程。重视机构库学术价值和人文价值的开发,建设既有国际通用功能,又有中国文化传承特色的机构知识库群落。 $\\textcircled{3}$ 开设省级的机构库馆员培训班，参照国外学术交流与机构库岗位职责[，提高机构库馆员队伍的专业技能和机构库建设队伍的总体水平。"
+  },
+  "参考文献：": {
+    "context1": "[1］罗莹.高校文库与高校机构知识库之比较及发展策略研究[.情报理论与实践,2011(7):120-123,110.  \n[2]喻成仪.浅谈高校图书馆开设“本校教工著作特藏室\"的作用．图书馆论坛,1987(3):83-84.  \n[3]北京大学图书馆.北大名师 [EB/OL]．[2012-01-27].ht-tp://www.lib．pku．edu．cn/portal/portal/media-type/html/group/pkuguest/page/third_feature_pkumaster. psml.  \n[4]中国人民大学图书馆.人大文库 [EB/OL]．[2012-01－27]．http://202.112.118.61:8080/wk/index.html.  \n[5]北京师范大学图书馆.京师文库 [EB/OL]．[2012-01－27].http://digi.lib.bnu.edu.cn:8O8O/Digilib/search? channelid $=$ 52893.",
+    "context2": "[6]厦门大学图书馆.厦门大学学术典藏库[EB/OL]．[2012-01",
+    "context3": "- 27] .http://dspace.xmu.edu.cn/dspace/.  \n[7]浙江大学机构知识库与数字出版.浙江大学机构知识库EB/OI].[012-01-27] .htp://zuir.zju.edu.cn/irdp/jgdc/getJgdcNewInd-ex.action? community_type_id $=$ AcademicRes&community_id $=$ &comtypetemplate_id $=$ 6&teamApplyStatu $=$ false.  \n[8]中山大学图书馆.特色馆藏 [EB/OL]．[2011-09－28]．ht-tp://library.sysu.edu.cn/web/guest/zlcz/tsgc.  \n[9]广州大学图书馆.广州大学师生著作展示 [EB/OL]．[2011-09-30].http://lib.gzhu.edu.cn: 200O/cms/books/.  \n[0]华南理工大学图书馆.食品与轻工工程特色资源平台[EB/O1]．[2011-10 -01] .htp://202.38.232.110/qinggong.asp.  \n[1]暨南大学图书馆．暨南大学学术成果数据库 [EB/OI]．[2011-10-26].http://lib. jnu.edu.cn/esource/showdb. jsp？ ID $=$ 546.  \n[2]广东交通职业技术学院.学院学生优秀作品[EB/OI]．[2011- 10 -26] .http: //www. gdcp.cn/tsg/collection/picture.asp.  \n[13]黄和通.台湾地区机构典藏的发展和后示[.大学图书馆学报,2010(6):53-61.  \n[4]叶兰,初景利.大学图书馆学术交流及机构库的岗位设置分析.图书情报知识,2010(5):87-92."
+  },
+  "（作者简介）罗莹,女,1964年生,副研究馆员,特藏部主任,发表论文18篇。": "",
+  "(上接第15页)": {
+    "context1": "[5]岑文初.Open API分析、实践和思索 [OL]．[2011-O5-15]． http://www.infoq.com/cn/articles/open -api-practice.   \n[6]王文清，杨新涯.CALIS三期项目系统集成部署方案与演示 [o1]．[010 -05-15]．http://www.calis.edu.cn:8104 /newspublisher/ckeditor/uploader/upload/file1291603701952.pdf.   \n[7] Sadeh T. Open products，open interfaces，and Ex Libris open-platform strategy [1l．Library Review,2010(9):677-689.   \n[8]张蓓,窦天芳,张成昱,等.基于MetaLib X-Server的异构电子资 源移动检索服务的设计与实现[.现代图书情报技术，2010 (12):70-75.   \n[9]SirsiDynix API& Web services [O1]．[011-07-15]．http:// www.sirsidynix.com/products/symphony-api.   \n[io] Sierra T,Ryan J,Wust M. Beyond OPAC 2.O:Library catalog as versatile discovery platform [O1]．[011-O6-20]．http://journal.code4lib.org/articles/10.   \n[1]肖德洪,肖铮.OpenAPI在图书馆的应用 [OL]．[2011－05- 15]．http://www.lib．sjtu．edu.cn/adls/download/12-18 / 1218PM-C5.pdf.   \n[2]NLM APIs [O1]．[2011-07-15]．htp://www.nlm. nih. gov/ api/.   \n[13]Cambridge University Library/api [OL]．[2011-05-13] .http://www.lib.cam.ac.uk/api/.   \n[14] Coombs K A.Creating library Web services: Mashups and APIs [01]．[011-07-15]．http://www.librarywebchic.net/ 218- 2/library-web-services-mashups-apis/.   \n[15] Hagon P.Reusing library data [OL]．[2011-O7-15] .http: // www.slideshare.net/paulhagon/reusing-library-data.   \n[6]Secker J. Case study 5:Libraries and Facebook [DB/OL]．[2011 $- \\ 0 6 \\ - \\ 2 0 ]$ .http://citeseerx.ist.psu.edu/viewdoc/download? $\\mathrm { d o i } = 1 0 . 1 . 1 . 1 7 4 . 6 1 7 \\& \\mathrm { r e p } = \\mathrm { r e p } 1 \\& \\mathrm { y p e } = \\mathrm { p d f } .$   \n[7]姚飞,张成昱,陈武,等.图书馆服务与社交网络整合研究 清华大学图书馆书友会实践案例[.图书馆杂志,2011(6)： 25-30.   \n[8]Crowdsourcing in action: The Library of Congress photos on Flickr [o1]．[2011-03-15]．http://www.tkachenko. $\\mathrm { c o m / b l o g / a r - }$ chives /000727.html.   \n[19] Map of UCF [OL]．[2011 -08-16]．http://library.ucf.edu/ Administration/Maps /Default. php.   \n[0]Sara S,Josh S.Web based APIs [O1]．[011 -O8 -O6] .http: // www.slideshare.net/joshs633/web-based-apis."
+  }
+}

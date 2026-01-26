@@ -1,0 +1,75 @@
+{
+  "original_filename": "full_1384.md",
+  "互联网开源文本情报智能分析技术综述": {
+    "context1": "刘航冶　富铁楠　杨勇（中国电子科技集团公司第十研究所成都610036)",
+    "context2": "摘要：[研究目的]随着网络技术的长足发展，基于互联网的开源情报更加受到情报分析领域的重视，自动化、高效的文本情报智能分析处理技术是海量开源情报数据处理的必要手段。［研究方法]从互联网文本情报智能分析处理的数据获取、关键信息抽取及智能分析三个核心处理流程着手,对互联网开源文本情报智能分析中存在的问题和研究进展进行了总结和分析，阐述了解决问题近年来采用的新方法新思路。「研究结论]基于机器学习和深度学习的结合使用，使得互联网开源文本情报智能分析技术越来越走向实用,但如何解决特征设计和样本标注量的问题值得进一步研究,同时由于自然语言理解本身的复杂性,对文本信息的深层次理解仍然极具挑战。",
+    "context3": "关键词：开源情报;文本挖掘;智能分析;自然语言处理;实体抽取;关系抽取;文本聚类中图分类号：G350.7 文献标识码：A 文章编号：1002-1965(2023)02-0012-05引用格式：刘航冶,富铁楠,杨勇.互联网开源文本情报智能分析技术综述[J].情报杂志,2023,42(2):12-16.DOI:10.3969/j.issn.1002-1965.2023.02.003"
+  },
+  "A Review of Research on Intelligent Analysis Technology on Web Open Source Intelligence": {
+    "context1": "Liu HangyeFu TienanYang Yong （The 10th Research Institute,China Electronics Technology Group Corporation,Chengdu610036)",
+    "context2": "Abstract:Researchpurpose]Withtheapiddevelopmentofebtechology,te importanceofwebpensouce itellgenceisbeingat tached.Automatic，ectiditellintalsofortextintellgeeiscessyayfrocssngage sourceintellgce.esearchtodDataacreet，eyifoatioetractiodinteligentalysiseytesioin webopensouceintellgenc,tusproblemsandentresearesinesetserealydndsummardspeciallyodsin recentresearches redemonstrated.Researchconclusion]Asmachneleainganddpleaingtechologyareapliedininteligentanalysisnweboueitell,telltalsisfnouceitellgeosepacalutou samplelabelingaredemandingstudy.Atthesametime,deeperunderstandingof textistillaverychallngingorkbcauseofthecomplexity of natural language understanding itself.",
+    "context3": "Keywords:onsoueintellgenetextng；inteligentaalysis；aturallagageproessng；namdtyextractio；elationxtraction；text clustering",
+    "context4": "随着大数据时代的来临，获取公开来源信息的方式和手段越来越多样,网络技术的蓬勃发展,让互联网成为获取各种类型公开信息的重要来源。开源情报（OpenSourceIntelligence，OSINT），一般是指从公开的信息中获取的情报,被收集、利用并及时传播给合适的受众,以满足特定的情报需求[1]。开源情报数据来源广泛，并且数据量巨大，具有异构性和动态性等复杂特征[2],运用自动化、高效的智能分析技术对开源情报进行分析挖掘,是开源情报处理的必要手段。",
+    "context5": "互联网来源的开源情报通常包括文本、视频、音频、文档等不同类型、不同格式的数据,其中文本是获取情报的重要数据同时也是网络中最有广泛的数据，对文本数据的分析和挖掘能够快速、高效地获取有价值的情报信息，同时，对文本特别是中文文本的分析和挖掘尤其具有挑战性,因此本文主要对中文开源情报的智能分析和挖掘技术进行研究。"
+  },
+  "1互联网开源情报智能分析流程": {
+    "context1": "从处理流程上看，对互联网开源情报的智能分析可以从数据自动获取、智能信息抽取和智能挖掘分析三个方面进行，如图1所示。情报的获取从互联网网页信息采集开始，经过URL链接提取、网页内容获取和结构化信息抽取，得到结构化的元数据信息和非结构化的情报内容;在情报知识库的支撑下,可以对情报内容中的信息进行抽取,进一步进行结构化处理,生成结构化的实体、实体关系、事件等信息;基于抽取的信息,对情报进行挖掘分析,包括自动摘要生成、情报自动分类以及情报文本主题聚类等应用。其中，开源情报自动获取技术相对成熟，因此本文主要对智能信息抽取和智能挖掘分析过程中采用的技术进行分析和研究。",
+    "context2": "![](images/e5bf1d7faaab38922559a18c68b2cdf6fecb57a5acdf06704e363bcf68db77c6.jpg)  \n图1互联网开源文本情报智能分析流程"
+  },
+  "2互联网开源情报智能信息抽取": {
+    "context1": "互联网开源情报智能信息抽取是对开源情报中非结构化的文本部分进行关键信息抽取的过程,包括命名实体抽取、实体关系抽取、事件抽取等,将非结构化的文本转换为结构化的信息。"
+  },
+  "2.1实体抽取": {
+    "context1": "实体抽取又称为命名实体识别（Named EntityRecognition,NER），是分词任务的子任务之一，目的是识别出文本中具有专用意义的词语,并根据人物、组织机构、地名、时间等类型进行分类。对于特定的情报领域,如军事情报而言，军事目标、武器装备型号等也是命名实体的类别。早期的命名实体识别大多是基于专家系统的规则制定,需要人工制定大量的规则对其中的实体进行提取,不仅系统实现代价高,其可移植性也受到一定限制。20 世纪90 年代后期开始，基于大规模语料库的统计方法逐渐成为命名实体识别的主流[3]。基于统计方法的命名实体识别可以分为有监督的学习方法、半监督的学习方法、无监督的学习方法以及多模型混合的方法，有不少文献对这类方法进行了研究[4-5] 。",
+    "context2": "近年来，随着基于神经网络的深度学习方法的兴起，该方法在命名实体识别任务方面也有大量的研究实践。与传统的机器学习方法不同,基于深度学习的方法直接端到端地学习各种自然语言处理任务，不再依赖人工设计的特征[。这样,可以有效地避免统计学习方法中的人工特征提取操作。目前,在命名实体识别领域中最流行的深度学习模型是卷积神经网络（ConvolutionalNeuralNetwork,CNN）、循环神经网络（Recurrent Neural Network,RNN）[7]以及以 Transform-er 为代表的自注意力机制[8]。基于CNN进行命名实体识别的方法包括 skip-gram 神经网络模型[9]的方法、迭代卷积神经网络[10]的方法、目标保持对抗神经网络[1]等。另外,越来越多的研究者将Google提出了的 BERT（Bidirectional Encoder Representation fromTransformers)模型引入了中文命名实体识别中，取得了一系列的研究成果[12-13]。",
+    "context3": "各种方法的技术特点如表1所示：",
+    "context4": "表1实体抽取技术方法特点比较表",
+    "context5": "<table><tr><td>采用的技术方法</td><td>技术特点</td></tr><tr><td>匹配</td><td>基于专家系统的规则无需样本训练,识别速度快,但识别效依赖专 家系统的设计，规则难以扩展和用于不同领域</td></tr><tr><td>基于统计的机器学习</td><td>方法相对成熟，准确率较高，但依赖于高质量 的大规模标注样本和特征工程的构建</td></tr><tr><td>基于神经网络的深度 学习方法</td><td>采用端到端的解决思路，减少特征工程的设 计，对样本数量和质量有较高要求，样本训练 需要高资源的算力</td></tr></table>"
+  },
+  "2.2实体关系抽取": {
+    "context1": "在情报研究领域,关系是目标重要的相关信息，对关系信息的抽取是自动构建知识图谱的关键。实体关系抽取的主要目标是从自然语言文本中识别并判定实体对之间存在的特定关系。关系抽取的方法包括基于规则的关系抽取方法、基于传统机器学习的抽取方法和基于深度学习的关系抽取方法。",
+    "context2": "基于规则的关系抽取主要是通过人工构造语法和语义规则,运用语言学知识提前定义能够描述2个实体所在结构的规则,然后基于模式进行匹配判定,完成关系抽取的分类。",
+    "context3": "基于传统机器学习的关系抽取方法流程与实体抽取类似,不同之处在于需要对实体和关系同时进行抽取。其中,有监督的抽取运用的方法包括基于特征变量的抽取方法[14]和基于核函数的抽取方法[15]等。半监督的关系抽取方法主要有自举方法[16]、协同训练[17]和标注传播等,能有效地减少对标注语料的依赖和人工参与，而且性能较好。",
+    "context4": "基于深度学习的关系抽取方法可以大致分为三大类：传统有监督的方法、远程监督的方法和预训练模型的方法。传统有监督的方法采用CNN、RNN及其变种的神经网络LSTM/Bi-LSTM对文本中的关系进行抽取[18]。远程监督的方法[19]是为了解决样本标注工作量过大的问题,采用自动抽取实体对的方法扩充样本集。基于BERT的预训练模型方法,通过上下文全向的方式理解整个语句的语义,并将训练学到的知识(表示)用于关系抽取等领域,在抽取效果上表现出色[20] 。"
+  },
+  "2.3事件抽取": {
+    "context1": "事件是情报领域重要的研究对象，不同的情报目标可以通过事件完成相互关联，从而情报中的信息可以得到更深度的挖掘,因此从情报文本中抽取事件是情报智能分析的一项更为高级的任务。同时,事件抽取也是信息检索、智能问答、知识图谱构建等实际应用的基础[2I]。事件通常根据研究领域的业务场景限定,事件的要素包括了人物、时间、地点、事件名称、事件类型,抽取的任务就是从非结构化的文本中将这些要素信息自动提取出来。因此,事件抽取包括两个关键的工作：一是准确地将文本中的实体抽取出来,这些实体包括了人物、时间、地点、组织机构等;二是确定事件类型以及人物、机构等在事件中的角色和动作。",
+    "context2": "当前事件抽取的方法中，机器学习和深度学习的方法研究较多。传统机器学习的方法将事件抽取看作序列标注问题,通过建立特征工程,获取文本的语义特征,然后将事件的抽取转换为分类问题,依赖机器学习领域的各种分类器完成事件抽取。经典的方法是将事件的抽取分为事件触发词分类、事件元素分类、事件属性分类等多个分类子任务，然后运用机器学习领域的分类方法逐个完成子任务，最终形成抽取结果[21]。",
+    "context3": "基于深度学习进行事件抽取的方法是近年来研究热点，这个方向的研究较多，如文献[22]和文献［23]将神经网络方法分别应用于触发词识别和事件抽取任务中，取得了很好的效果。",
+    "context4": "情报文本,特别是中文情报文本的事件抽取,由于中文语言的复杂性，目前还是一个很有挑战性的任务。深度学习技术给事件抽取提供了有效的技术工具,但是仍然处于起步阶段,需要进一步的研究。"
+  },
+  "3互联网开源情报智能挖掘分析": {
+    "context1": "基于智能抽取的结果,互联网开源情报智能挖掘分析有自动摘要生成、情报文本自动分类及情报主题聚类分析等。"
+  },
+  "3.1自动摘要生成": {
+    "context1": "文章摘要是对一篇文本情报主要内容的总结和归纳,在大数据背景下，通过对情报文本进行自动化的摘要提取，可以优化情报的检索效率,提升情报分析和应用的效率。",
+    "context2": "自动化摘要生成研究从1958年就开始[24],经过几十年的发展,该技术得到了长足的发展。从摘要的生成方式上划分，自动摘要生成可以分为抽取式摘要生成和生成式摘要生成。",
+    "context3": "抽取式方法将自动文摘简单地看作是二元分类问题,判断文档中的文本单元是否属于摘要内容，因此抽取式方法生成的摘要都是文章中的句子。抽取式方法主要考虑摘要的相关性和句子的冗余度2个指标。相关性衡量摘要所用的句子是否能够代表原文的意思，冗余度是用来评估候选句子包含冗余信息的多少[25]。抽取式方法主要采用的算法包括基于主题分析模型的方法[26]、基于图的方法[27]以及结合深度学习的方法[28]等,该方法的实现简洁、高效但也存在抽取质量及内容流畅度较差的缺点。",
+    "context4": "生成式方法通过样本训练形成模型,利用模型去试图理解文本的内容,然后生成文章中可能不存在的句子来描述整个文章的内容。一篇文章的摘要常常并不是文章中的某一个句子，所以从实际情况上来讲,这种方法抽取的摘要更加合理。生成式方法主要采用的算法包括基于图的方法[29] 、基于线性规划的方法[30]]基于语义的方法[31]以及深度学习[32]的方法。值得一提的是，目前在生成式摘要生成中，深度学习的方法，特别是序列到序列的框架模型应用得到大量研究。"
+  },
+  "3.2情报文本自动分类": {
+    "context1": "面对海量的互联网开源情报，情报的自动分类提供了对情报数据快速组织和管理的技术渠道,同时，文本分类技术还可用于情报分析中常用的言论分析以及情感分析。情报文本自动分类指事先指定一定的分类体系,将情报文本自动归入分类体系中节点的过程。一个情报文本的分类过程可以用图2表示。",
+    "context2": "![](images/563fb042fe23a6f17a1bbd38d0cb135627eed5548e9dbe545616b31fefa19a9d.jpg)  \n图2情报文本分类流程",
+    "context3": "其中，文本预处理是指去除文本中与文本分类无关的字和符号,并转换为结构化的数据形式,包括分词、词干提取等[3,33]。文本表示通常采用向量空间模型进行文本向量化。分类器的生成大多采用机器学习的方法，目前采用较多的主要是传统机器学习和基于深度学习的方法。",
+    "context4": "基于传统的机器学习方法，主要通过建立特征工程的方法表示文本并选择文本特征：通过训练样本生成特征项序列;计算权重：根据特征项序列对文本进行权重赋值,从而转换为文本特征向量。在构建特征空间的基础上，可以运用多种机器学习领域的分类方法",
+    "context5": "来实现文本的分类。",
+    "context6": "在深度学习方法方面,TextCNN模型[34]是较早提出的一种基于卷积神经网络、用于文本分类的模型，随着神经网络在文本分类领域的研究不断增多，更多的模型被提出,如TextRCNN[35]、TextRNN[36]以及加入了注意力机制的神经网络模型[37]等。在Transformer神经网络结构被提出以后，文本分类领域也开始尝试应用这种模型。文献［38]将利用多标签文本分类领域的序列生成BERT模型。文献[39]提出了BERT-TECNN模型，针对BERT中文预训练模型参数巨大的问题进行了优化,提高了BERT模型的泛化能力。",
+    "context7": "总的来讲,情报文本的自动分类朝着基于深度学习的方向发展,但传统机器学习的方法并没有淘汰，而是以与深度学习算法结合的方法一直被研究者运用。"
+  },
+  "3.3情报主题聚类分析": {
+    "context1": "情报主题聚类分析是将情报文本按照内容、主题的相似程度自动划分到不同类别中，提高情报文本组织、浏览和检索的效率。与分类不同的是，聚类并不事先指定类别,而是由计算机自动将不同主题的情报归类到一起,是一种无监督的数据分类。情报主题聚类分析通常采用的流程是：对文本进行分词处理,然后选取文档的特征以及对应权重作为文本数据的特征，利用某种聚类算法对文本进行聚类计算，通过最优化目标函数的方法找到一个聚类的全局最优解或局部最优解,最后对聚类结果进行评估。一般流程如图3所示。",
+    "context2": "用最多的算法，通过渐进地提高聚类质量来达到局部最优解。K均值算法计算速度快,比较实用,但也存在对初始中心点选择敏感、聚类结果不稳定、容易陷入局部最优等缺点,研究者专门针对这些问题对算法进行了优化[41] 。",
+    "context3": "层次方法通过凝聚或分裂的方法，将给定的文本数据集分解为具有层次的簇中。凝聚的方法使用自底向上的策略,通过逐渐汇聚合并生成具有层次的簇树，而分裂的方法则是自顶向下，初始将所有文本对象置于一个簇中,递归地划分为多个较小的子簇。文献[42]和文献[43]对如何将层次方法运用于文本聚类做了比较细致的研究。",
+    "context4": "划分的方法和层次的方法难以识别任意形状的簇,而基于密度的方法可以弥补这一缺点，其主要原理是当某个相邻区域的密度(对象或数据点数量)超过某个阈值,就继续增长给定的簇,从而形成任意形状的簇。基于密度的方法主要采用的算法包括DBSCAN、OPTICS和DENCLUE 等,其中用于文本聚类的研究较多地见于DBSCAN[44]和 OPTICS 算法。"
+  },
+  "4结束语": {
+    "context1": "互联网开源情报为情报研究和分析提供了海量的情报数据，充分发挥开源情报的效益、提升情报效能离不开智能分析处理技术的支撑。本文的主要贡献是梳理了互联网开源情报处理流程,在此基础上对信息智能抽取和信息智能分析挖掘步骤中涉及的关键问题进行了分析,阐述了解决问题的方案和技术，考察了相关领域的研究现状,并对技术发展趋势进行了分析。互联网开源情报智能分析技术仍在发展中，基于机器学习和深度学习的方法已有不少研究成果,但在特征设计和样本标注的问题值得进一步研究,提高分析方法的实用性。同时,由于自然语言的复杂性,只有在结合具体业务场景和研究数据特性的基础上,不断优化算法和策略才能真正解决实用性的问题。",
+    "context2": "![](images/c95c6f863b5b66a6a3080ecfc326d18b65da5e2aeee1c2fb3c69ab0c741ede73.jpg)  \n图3情报主题聚类分析流程",
+    "context3": "文本聚类的方法分为划分方法、层次方法、基于密度的方法和基于网格的方法[40],在情报主题聚类分析中运用较多的是划分方法、层次方法和基于密度的方法。",
+    "context4": "划分方法将文本数据划分为多个组，每个组至少含有一个对象,即在文本数据集上进行一层划分。大部分的划分方法是基于距离，将文本数据向量化以后，计算文本之间的距离,通过距离的大小来不断迭代调整分组，最终达到最优分组。K均值算法是划分中运"
+  },
+  "参考文献": {
+    "context1": "[1] Williams H.J.Blum I. Defining second generation open source intelligence（OSINT）for the defense enterprise[R].2018,6.   \n[2] 范昊，郑小川．国内外开源情报研究综述[J]．情报理论与 实践，2021，44（10):185-192,201.   \n[3] 宗成庆.自然语言处理综述[M].2版.北京：清华大学出版 社,2009.   \n[4] 陈霄,刘慧陈,玉泉.基于支持向量机方法的中文组织机 构名的识别[J]．计算机应用研究,2008(2)：362-364.   \n[5] 毛波,滕炜.基于条件随机场与规则改进的复杂中文地名 识别[J]．武汉大学学报（工学版）,2020,53(5)：447-454.   \n[6] 车万翔,郭江,崔一鸣.自然语言处理;基于预训练模型的方 法[M].北京：电子工业出版社,2021.   \n[7］何玉洁,杜方,史英杰,等．基于深度学习的命名实体识别 研究综述[J].计算机工程与应用,2021,57(11)：21-36.   \n[8]Vaswani A,Shazeer N,Parmar N,et al. Attention is all you need [J]．arXiv:1706.03762,2017.   \n[9]Yao L,Liu H,Liu Y,et al.Biomedical named entity recognition based on deep neutral network[J]. International Journal of Hybrid Information Technology，2015,8（8）:279-288.   \n[10]Strubell E,Verga P,Belanger D,et al. Fast and accurate entity recognition with iterated dilated convolutions[J].arXiv:1702. 02098,2017.   \n[11] Gui Tao,Zhang Qi,Huang Haoran,et al.Part-of-speech tagging for Twiter with adversarial neural networks[C].Conference on Empirical Methods in Natural Language Processing,2017:2411- 2420.   \n[12］顾亦然,霍建霖,杨海根,等.基于 BERT 的电机领域中文命名 实体识别方法[J]．计算机工程，2021，47（8）：78-84.   \n[13］孙凌浩.利用翻译模型的跨语言中文命名实体识别[J].计算 机工程与应用,2021,57（10）:94-100.   \n[14］车万翔,刘挺,李生.实体关系自动抽取[J]．中文信息 学报,2005,19(2):2-7.   \n[15］郭剑毅，陈鹏，余正涛,等.基于多核融合的中文领域实体 关系抽取[J].中文信息学报,2016,30(1):24-30.   \n[16］Brin S.Extracting Patterns and Relations from the World Wide Web[C]．Proc of the Int Workshop on the World Wide Web and Databases.Berlin: Springer,1998:172-183.   \n[17]Balcan F,Blum A,Yang Ke.Co-training and expansion: Towards bridging theory and practice[C].Proc of the Advances in Neural Information Processing Systems.Cambridge,MA:Massachusetts Institute of Technology,2005 :89-96.   \n[18］ Zeng Daojian,Liu Kang，Lai Siwei,et al．Relation classification via convolutional deep neural network [C].Proc of the 25th Int Conf on Computational Linguistics.Stroudsburg:ACL,2014: 2335-2344.   \n[19]Mintz M,Bills S,Snow R,et al.Distant supervision for relation extraction without labeled data ［C]．Proc of the 47th Annual Meeting of the ACL.Stroudsburg:ACL,2009:1003-1011.   \n[20］武小平，张强,赵芳，等.基于BERT的心血管医疗指南 实体关系抽取方法[J].计算机应用,2021,41(1)：145-149.   \n[21］项威,王邦.中文事件抽取研究综述[J].计算机技术与发 展,2020,30(2):1-6.   \n[22］何馨宇,李丽双．基于双向LSTM和两阶段方法的触发词识 别[J].中文信息学报,2017,31(6):147-154.   \n[23］余传明，林虹君，张贞港．基于多任务深度学习的实体和事 件联合抽取模型[J]．数据分析与知识发现,2022,6(Z1)：117 -128.   \n[24］李金鹏，张闯，陈小军，等．自动文本摘要研究综述[J]. 计算机研究与发展,2021,58(1)：1-21.   \n[25]Deerwester S,Dumais S T,Furnas G W,et al. Indexing by latent semantic analysis[J].Journal of the American Society for Information Science,1990,41(6）:391-407.   \n[26]Mihalcea R,Tarau P.TextRank:Bringing order into text[C]. Proc of the 2004 Conf on Empirical Methods in Natural Language Processing. Stroudsburg:ACL,2004 :404-411.   \n[27］黄波，刘传才．基于加权 TextRank 的中文自动文本摘要 [J].计算机应用研究,2020,37（2）：407-410.   \n[28]Mehdad Y,Carenini G,Ng R T. Abstractivesummarization of spoken and written conversations based on phrasal queries[C]. Proc of the 52nd Annual Meting of the ACL.Stroudsburg: ACL,2014:1220-1230.   \n[29]Banerjee S,Mitra P,Sugiyama K.Multi-document abstractive summarization using ILP based multi- sentence compression [C]．Proc of Int Joint Conf on Artificial Intellgence.MenloPark:AAAI,2015:1208-1214.   \n[30]Cao Ziqiang,Li Wenjie,LiSujian,et al. Retrieve,rerank and rewrite:Soft template based neural summarization[C]．Proc of the56th Annual Meeting of the ACL.Stroudsburg:ACL,2018: 152-161.   \n[31］宋长平,李婧．融合句子结构的抽象式文本摘要方法[J]. 计算机应用研究,2020,37（11）:3297-3301.   \n[32]郝超,裘杭萍,孙毅,等.多标签文本分类研究进展[J]. 计算机工程与应用,2021，57（10)：48-56.   \n[33］Kim Y. Convolutional neural networks for sentence classification [J].arXiv:1408.5882,2014.   \n[34]Lai S,Xu L,Liu K,et al. Recurrent convolutional neural networks for text classification[C].29th AAAI Conference on Artificial Intelligence，2015，333:2267-2273.   \n[35]Liu P,Qiu X,Huang X.Recurrent neural network for text classification with multi-task learning[C]. Proceedings of the Twenty -Fifth International Joint Conference on Artificial Intelligence, 2016:2873-2879.   \n[36]Yang Z,Yang D,Dyer C,et al.Hierarchical attention networks for document classification[C]．2016 Conference of the North American Chapter of the Association for Computational Linguistics:Human Language Technologies,2016:1480-1489.   \n[37]Yarulin R, Serdyukov P. Bert for sequence-to-sequence multilabel text classification[C].International Conference on Analysis of Images，Social Networks and Texts,2020:187-198.   \n[38］李铁飞,生龙,吴迪．BERT-TECNN 模型的文本分类方 法研究[J].计算机工程与应用,2021,57(18)：186-193.   \n[39］段丹丹，唐加山，温勇,等.基于BERT模型的中文短文本 分类算法[J].计算机工程,2021,47(1)：79-86.   \n[40］赵万磊，王永吉，张学杰，等.一种优化初始中心点的K平均 文本聚类算法[J].计算机应用,2005,25(9）：2037-2040.   \n[41］刘一鸣．基于划分与层次的文本聚类研究[D]．济南：山东师 范大学,2012.   \n[42］任晓东.突发事件新闻文本层次聚类方法研究[D]．太原：山 西大学,2009.   \n[43］蔡岳,袁津生.基于改进DBSCAN算法的文本聚类[J]．计 算机工程,2011,37(12):50-52,55.   \n[44］曾依灵,许洪波，白硕．改进的OPTICS 算法及其在文本聚 类中的应用[J]．中文信息学报,2008(1):51-55,60.",
+    "context2": "(责编：刘影梅;校对：贺小利)"
+  }
+}

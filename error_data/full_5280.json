@@ -1,0 +1,74 @@
+{
+  "original_filename": "full_5280.md",
+  "开源创造图书馆未来": {
+    "context1": "-2020年世界开放图书馆基金会（WOLFcon）会议综述张春景张磊周纲(上海图书馆)",
+    "context2": "摘要图书馆行业作为开放运动的一支重要力量，近年来在开放源代码应用方面有了显著的进展。本文从图书馆开源运动的重要代表机构——开放图书馆基金会的成立背景展开，介绍了该基金会下的五个图书馆开源项目，对WOLFcOn 2020大会的各项会议内容、各个SIG需求小组的工作进展和会议上最新发布的产品和解决方案进行了详细阐述，最后总结了国际FOLIO社区的发展方向，并对FOLIO项目在国内的发展做了展望。",
+    "context3": "关键词 FOLIO图书馆开源软件开放数据",
+    "context4": "DOI: 10.13663/j.cnki.lj.2020.06.001"
+  },
+  "Open Source Creates the Future of Library: A Summary of the World Open Library Foundation (WOLFcon) in 2020": {
+    "context1": "Zhang Chunjing, Zhang Lei, Zhou Gang(Shanghai Library)",
+    "context2": "AbstractLibraries are always an important part in the open movements. In recent years,libraries have made remarkable progressin the application of open source code.This paper introduces the background of Open Library Foundation which is an important representative organization of the open source movement of library,and five open source projects of library in it.The paper summarizes the contents of WOLFcon 2020, the work progress of every SIG, the new products and solutions which are released at the conference, discusses the trend of international FOLIO community and looks forward to the development of FOLIO in China.",
+    "context3": "KeywordsFOLIO,Library, Open source, Open data",
+    "context4": "WOLFcon的全称为世界开放图书馆基金会会议（World Open Library Foundation Conference）2020年1月22-24日，WOLFcon 2020于美国德克萨斯农工大学校园内举行。会议由开放图书 馆基金会（Open Library Foundation，OLF）主办，德克萨斯农工大学图书馆承办。这是一次倡导并参与图书馆开源运动的图书馆、开发者和开发商等各利益相关机构及学者的一次盛会。来自世界各地的将近400位参会者参加了本次会议。在短短三天的时间内举行了包括全体大会、开源项目会议、工作组会议、社区SIG会议等各类会议近百场。在上海图书馆的组织和带领下，国内从事FOLIO应用开发的团队以及对FOLIO项目感兴趣的机构和公司派出了一支13人组成的代表团参加了本次会议[]。"
+  },
+  "1背景": {
+    "context1": "近年来开源运动如火如茶，开放获取、开放数据和开放科学等开放理念层出不穷。图书馆行业具有对各种新兴信息技术的高度敏感性，早在20 世纪60 年代，图书馆行业就诞生了用于计算机管理的机读编目格式MARC。在全世界开放运动的潮流下，随着微服务和敏捷开发等技术理念的出现，图书馆行业开始尝试建立自己的开源项目，共同开发图书馆行业的新一代管理服务平台。在此背景下，FOLIO（the Future ofLibrary is Open）开源项目于 2016年应运而生。受FOLIO项目的启发和推动，开放图书馆基金会于同年成立。开放图书馆基金会是一个独立运作的非营利性组织，目的是确保图书馆领域的开放资源和开放获取项目的可用性、可访问性和持续性。它致力于促进图书馆员、开发者、设计者、服务提供者和供应商之间的合作，实现图书馆领域的各种开源软件和各项资源的共建共享。开放图书馆基金会的首批项目除了FOLIO以外，还包括开放图书馆环境项目（Open Library Environment,OLE）和全球开放知识库项目（Global OpenKnowledgebase，GOKb），后来又先后增加了Reshare 和VuFind两个开源项目[2]。",
+    "context2": "FOLIO项目是由图书馆员、开发者、设计者、服务供应商以及商业公司共同组成的协作社区，目标是建立一个开源图书馆服务平台（Library Services Platform，LSP）和一个现代技术生态系统，通过开源和微服务的方式来重塑图书馆服务和创新图书馆的未来[3]。",
+    "context3": "OLE是一个促进多个图书馆相互协作，为图书馆的共同问题找到开放解决方法的全球图书馆社区。OLE最初成立于2008年，不久后加人Kuali基金会，组建为KualiOLE基金会。2016年，OLE脱离Kuali，加人OLF。当前,OLE中的图书馆正共同努力协作，为FOLIO 社区作出贡献[4]。",
+    "context4": "GOKb 最初是由OLE赞助的一个开源项目，是一个由社区管理的提供电子资源信息的开放数据平台。项目成员致力于为核心知识库组件创建高质量的数据，核心知识库组件包括标题、资源包、馆藏信息、平台信息和组织信息等。任何人都可以通过WEB应用程序和开放API自由访问这些数据。GOKb目前由位于GBV（VZG）的德国图书馆网络总部和北莱茵－威斯特法伦州图书馆服务中心进行更新和维护[5]。",
+    "context5": "Reshare是由具有商业和非商业利益的图书馆、联盟、信息组织和开发人员组成的社区。Reshare 的愿景是为图书馆建立一个以用户为中心、基于APP的、社区自有的资源共享平台，从而形成一套用户获取图书馆资源和信息的标准[]。",
+    "context6": "VuFind是为图书馆设计和开发的一款资源发现开源软件。它的目标是取代传统的OPAC,使读者能够搜索和浏览图书馆的所有资源。VuFind模块化的设计理念使用户可以选择仅实现基本的系统或使用所有组件，有多种可配置选项允许用户进自定义，并且用户无需更改任何代码。它还支持多种元数据格式，支持各种类型的图书馆系统和第三方的API，具有很高的灵活性[7]。"
+  },
+  "2大会": {
+    "context1": "会议第一天和第二天各有一场全体大会。第一天的开幕全体大会由OLF 的执行董事 GinnyBoyer 主持。本次会议的东道主德克萨斯农工大学图书馆的馆长，同时也是OLF董事会的主席David Carlson致欢迎词。布法罗大学图书馆的副馆长Evviva Weinraub 作大会主旨发言[8]。",
+    "context2": "EvvivaWeinraub主旨发言的题目是“开源软件应用和社区建设的困境（Barriers to Open SourceSoftware Adoption and Community Building）”。Evviva有着丰富的开源软件实施经验。她从自身在开源软件领域的职业经历和实践经验以及发展中国家的研究机构如何应用开源软件两个方面来论述开放源码工作中的困难和艰辛。她认为缺乏IT人员是发展中国家机构应用开源软件的首要困境，甚至在美国的一些公共图书馆和小型的大学图书馆也有此类情况。她建议这些机构尽量不要采用开源软件。如果一定要采用开源软件，最好能找到提供此类开源软件服务支持的商业公司进行合作。但不意味着与商业公司就一定会成功，与商业公司合作除了高昂的价格以外，还存在后续的持续维护问题，如公司相关人员的离职，公司对该开源软件的后续投入不足等。另外，一款开源软件通常是为满足一个或一类机构的本地化需求而开发的，不会为了满足其他机构的个性需求而进行开发，这也使这类开源软件要扩展其应用领域面临着许多障碍。开源软件的全球化应用面临着许多困难。很多开源软件看起来大致相同，但可能会对应的是不同的服务群体。另外还有语言问题、时差问题和各国数据保护的法律问题等。虽然使用基于云服务的开源软件迁移数据可以避免法律问题，但又面临对云服务信任的问题。例如，亚马逊的云服务在美国以外使用者极少，这在一定程度上是因为国外机构对美国政府的不信任造成的。",
+    "context3": "第二天的全体会议由来自Index Data公司的 Peter Murray主持，会议的发言采用圆桌形式，由 Peter Murray 提出问题对 OLF的5个开源项目的负责人进行访谈。访谈的内容比较长，笔者从中整理了5位发言人一些比较精彩的观点和理念[9]。",
+    "context4": "针对“VuFind作为最早成立的项目对其他项目有什么建议?”的问题，VuFind的负责人认为，一个项目的成功除了“合适的地点和合适的时间”以外，还有一个成功的关键点是应用程序要易于下载安装和使用，人们只有使用了以后才会了解VuFind的具体优点和其所在的友好的社区环境，接着才会回馈项目和社区，所以访问的便捷性和社区的友好性对任何项目都是最关键的。",
+    "context5": "来自FOLIO产品委员会的前主席PaulaSullenger女士认为在项目管理中要及时地根据情况调整机构和人员，这种做法也适用于以后的项目实施。例如产品委员会起初只有几个成员，疲于应付每周的会议议程的安排等事宜无暇顾及其他工作。在此情况下，先后又成立了执行委员会（Executive Committee）、技术委员会（Technical Council）和资源计划小组（CapacityPlanningTeam），后来证明这些机构的及时成立对FOLIO项目的顺利开展做出了重要贡献。",
+    "context6": "Reshare 的负责人Sebastian Hammer认为一个开源项目的开展，除了负责具体事项的技术小组、产品和路线小组、用户小组等这些必不可少的机构外，同时也需要指导委员会这样具有高屋建瓴视野的机构，提出战略性的观点，指导项目发展的方向。",
+    "context7": "GOKb 项目在2017年主要由德国的机构进行维护以后，来自德国和欧洲其他国家的机构和个人参与GOKb的热情高涨，但这样可能会导致GOKb将被建设成为“德国”的开放知识库，GOKb意识到并也一直在避免这种情况的发生。它的下一步计划就是进一步拓展它的用户范围，满足更多样的用户需求。GOKb的负责人还建议在当前非常复杂的环境下，要建立和用户的常规沟通和反馈机制，了解用户的多样化需求，这是决定项目发展方向的很重要的因素。"
+  },
+  "3上海图书馆专场会议": {
+    "context1": "会议第三天的全体会议是关于上海图书馆和Arkivum公司的专场会议。上海图书馆刘炜副馆长在会上做了题为“以新平台开创图书馆未来（Strive for Revival：Meet The New Frontierina NewHorizon）”的主题报告，发言标题预示上海图书馆将以新一代图书馆服务平台开发为契机，从一个新的地平线（目前使用的系统名称就是地平线）再次起飞。他在报告中介绍了上海图书馆作为一个超大城市的研究型公共图书馆，在数字时代面临的巨大挑战。",
+    "context2": "结合上海市公共图书馆服务体系的具体需求和即将建成的上海图书馆新馆，针对技术的最新发展趋势，他提出了新一代图书馆服务平台所要实现的一些关键需求要点[10]：（1）必须是一个多租户的平台，该平台上不仅只运行上海图书馆这一个机构，还有上海的多家区级分馆，这些分馆都有自己的子系统；（2）能够支持每年上亿的流通量；（3）能够支持将近1500万注册用户的各种类型的活动；（4）能够为各类文化遗产资源提供收藏管理解决方案；（5）能够为本地的开发商提供SaaS生态的各种扩展模块（如SoLoMo服务、数据分析等）；（6）有助于图书馆在新环境中重新定义自己，并重新设计工作流程以满足新的要求。",
+    "context3": "上海图书馆从2018年底开始着手FOLIO应用探索，一年多来，吸引了许多公司和机构参与到上海图书馆的FOLIO项目，已组成了约50人的团队，并成立了FOLIO技术及应用联盟。上海图书馆希望团结国内各类图书馆和有关机构，加强FOLIO 联盟建设，来推动图书馆开源解决方案的开发和应用。目前当务之急是强化FOLIO社区工作，开展一些切合实际的培训和具体工作，比如FOLIO的汉化翻译、各种资料文档的翻译，以及对中文自然语言处理的支持，对本地知识组织系统的支持等，并希望将来FOLIO中国社区能够有一套机制，负责开发和维护FOLIO中文版本，保持与国际版的一致性并维护本地知识库等。",
+    "context4": "刘炜副馆长的发言代表了来自中文FOLIO社区的声音，让国际FOLIO社区了解到中文FOLIO社区和上海图书馆的FOLIO项目，取得了良好的积极的反响。会议最后一天刘炜还代表开放图书馆基金会中国理事（代表CALIS的北京大学图书馆副馆长童云海教授）参加了理事会的内部讨论。中国社区的这些行动将会促使国际FOLIO社区更加重视中文特性和中国特色，推动FOLIO系统在中国的实施和发展，进一步在国际开放图书馆运动中发挥中国的作用，作出中国人应有的贡献。"
+  },
+  "4开源项目会议": {
+    "context1": "前文提到，OLF旗下目前有5个开源项目，分别是FOLIO、OLE，GOKb、Reshare 和VuFind。这5个开源项目在本次大会都设置了专场会议。除了FOLIO 以外，其他4个项目的会议基本是2-3场。",
+    "context2": "OLE在会议期间没有组织和召集会议进行专业的讨论，只召开了一次内部董事会议，并赞助了以OLE冠名的晚宴。",
+    "context3": "GOKb组织了两场专题讨论，除了向与会者介绍GOKb的整体概况以外，还讨论了GOKb 使用的场景和遇到的一些挑战，详细介绍了当前GOKbAPI的范围和功能，明确了对参与者的具体要求。GOKb的API包括数据消费 API和数据提交API，这两种API的功能基本完成，其源代码已经上传至Github。",
+    "context4": "Reshare 的项目负责人Sebastian Hammer以及成员在会议中介绍了Reshare的历史和成立的背景。受FOLIO的启发以及在和OLF的合作过程中，他们逐步组建了Reshare的管理机构。Reshare开发了一套模型可以促进FOLIO平台上的项目间的共享和协作，虽然Reshare有自己的成员和管理机构，但它和FOLIO是基于相同的软件平台，使用相同的APP模式和 UX优先原则。Reshare 作为一种以ILS为核心的资源分享解决方案，它可以和任何的 ILS整合。",
+    "context5": "VuFind召开了两次工作组会议。由于FOLIO项目目前还未将资源发现作为重点工作开展，因此参加VuFind会议的人数较少。VuFind的最新版本是6.0.1，技术架构采用Apache $\\div \\mathrm { P H P }$ $^ +$ Mysql+Solr 的经典技术路线。它的前端界面支持包括简体中文的多语种展现方式，但其资源发现的结果展示方式比较传统,界面风格也不够新颖。VuFind目前还未制订迁移和整合到FOLIO系统的具体时间和方案。",
+    "context6": "本届WOLFcon会议的内容主要以FOLIO项目的各个业务模块的研讨为主。遗憾的是大会官方网站并未集中公开各个专题会议的PPT和相关资料。本文作者通过各种渠道收集到一些 SIG的会议资料，并从中采了部分SIG的工作进展情况和研讨内容。这部分内容将在下文的“FOLIO社区 SIG 会议”中详细展开。"
+  },
+  "5FOLIO社区 SIG会议": {
+    "context1": "SIG（Special Interest Group）是 FOLIO 社区中建立的一种特别兴趣小组。每个SIG 由来自各个图书馆和服务提供商的工作人员组成。目前 FOLIO社区中除了产品委员会以外，还有数十个功能需求 SIG，比如元数据管理、资源管理、用户管理、资源获取、系统运作及管理、App 交互等 SIG[1]。",
+    "context2": "FOLIO的产品委员会（ProductCouncil,PC）也被称为各种 SIG的 SIG，是FOLIO项目中的最高组织机构。在这次会议上它组织了一场闭门会议和三场专题会议。从PC公布的会议资料来看，会议讨论了PC近期的目标是到2020 年夏天为学术市场发布一款可市场化的图书馆服务平台，这款平台的定位是唯一一个为高校图书馆提供市场选择的开源创新平台和社区[2]。PC在本次会议上还提出了一些长期战略和短期目标，主要包括越来越多不同类型的图书馆对FOLIO表现出极大的兴趣，尤其是公共图书馆，在以后的工作中要把公共图书馆等的需求考虑进去；大型的现场测试有待完成；",
+    "context3": "数据导人App 需要有定期的大量的数据支持；分配更多的时间给新的创新性的功能；需要更多的关注资源发现（Discovery）等。",
+    "context4": "元数据管理 SIG在会议中基于FOLIO与CAIASOFT的集成，就数据管理中的各种问题进行了讨论。这些问题包括外部系统应该在何处以及怎样对FOLIO中的数据进行修改。如何确定数据来源的可靠性和保持数据的一致性。外部系统是否应该或有权限修改FOLIO系统中的数据，是否有规范来解决这些问题等[13]。以上这些问题在讨论中还未形成定论和得到解决。会议还讨论了FOLIO目前的两种API：内部 API和Edge API。内部API用于FOLIO本地和内部用途。EdgeAPI允许外部系统调用FOLIO。芝加哥大学希望通过API建立一个全球更新的App，但FOLIO 目前还不能支持 API的全球更新。另外，由于一些业务逻辑内置在UI中，而不是API中，因此使用API进行通信会存在数据损坏的风险。会议还讨论了是否能删除“View Source”元数据项，查尔姆斯理工大学（Chalmers University of Technology）图书馆希望保留该元数据项，通过该元数据项可以从inventory 链接到其LIBRIS（瑞典联合目录）。如果删除了“View Source”，将会使后续工作变得比较复杂[4]。",
+    "context5": "资源获取 SIG（Resource Access，RA）共举行了三场会议，每场会议都吸引了不少的参会者。其中SIP2专题会议讨论了SIP2功能在查尔姆斯理工大学应用中所出现的Bug，演示了 SIP2在租户层和自助机端借书和还书时的配置参数，以及部分SIP2 消息的发送和响应。SIP2 还未解决的问题包括与多家厂商的硬件实现对接，安全令牌过期的问题，对多租户的支持和对多个外部ID 的支持等[15]。",
+    "context6": "来自瑞典查尔姆斯理工大学的 Siska Humlesjo 介绍了他们大学图书馆的图书预约功能，所使用的是EBSCO的EDS进行图书预约。图书预约的运算法则是基于题名的预约而不是某个特定复本。系统查找所有与作品实例相关的复本，将复本上所有的预约按时间排序整合成一个列表，系统依次浏览该列表，将列表上的第一个预约请求与新还回的复本关联起来，从而完成一个预约流程[16]。",
+    "context7": "WOLFcon2020期间召开了两次会议讨论FOLIO 的架构蓝图（Architecture Blueprint）。FOLIO架构蓝图是指FOLIO平台所需要的一组已确定的战略性架构的更改。架构蓝图与功能路线图不同，但会有助于功能路线图的制订。蓝图反映的是平台上一些新领域的发展，而不是重构已完成的领域[17]。本次会议拟提出一些可以作为FOLIO架构蓝图的候选项目，讨论这些项目能否作为架构蓝图，大致确定每个项目的时间安排，然后提出一个拟实施的项目列表。这些项目会影响到功能路线图和开发进度。这些候选项目包括安全性、重构Okapi、租户管理、多租户和跨租户、采用PubSub、支持GDPR、搜索引擎、用户和权限、自动化引擎、GraphQL、数据库链接、Codex 和FOLIO内部整合等13个项目。会议从“What”和“Why”两个纬度对为何选定这些项目进行了详细的讨论和解释。"
+  },
+  "6WOLFden Live": {
+    "context1": "会议期间，每天会议结束后的下午五点有一个由 Peter Murray 主持的在线小型访谈的直播，这种形式被称为WOLFden Live。",
+    "context2": "第一天的WOLFden Live上，Peter Murray采访了GOKb和VuFind两个项目的负责人，请他们谈谈第一天会议的感受。GoKb 负责人介绍了当天的GOKb工作会议的相关信息。令他比较意外的是与会者尤其是来自中国的参会者对GOKb 的技术和标准表现出浓厚的兴趣，打算尝试创建自己的GOKb。他提到GOKb 作为一个全球协作项目，目前的视野不应仅仅局限在欧洲和美国，而应放眼全球，把中国等地区纳入自己的业务范围。VuFind负责人提到目前大家关注的问题集中在可获取性（Accessibility）问题上。VuFind作为一款开源资源发现系统，除了在资源发现和存取方面做出努力之外，也欢迎来自世界各国的人员加入到VuFind的工作中。结合第一天大会上Evviva Weinraub 女士的报告，两位负责人认为应该打破西方文化主导的现状，降低专业壁垒，开发易用的界面和接口，让更多的人加入社区，为全球所用[8]。",
+    "context3": "第二天的WOLFden Live 邀请了来自Lehigh大学的 Sharon Wiles-Young和来自 Fenwaylibrary organization的KellyDrake。两位女士认为通过这次会议了解到许多机构正在进行的工作（数据的迁移、数据的检验、纠错和测试等），结识了负责FOLIO 的各个专业模块的研究人员和开发人员，自己在工作中遇到的一些难题都能在和他们的交谈中得到帮助和解决。",
+    "context4": "鉴于当天的全体大会上有上海图书馆的专场报告，Peter请两位参会者谈谈对上海图书馆报告的感想。她们表示对上海图书馆的巨大体量和流通量感到震惊，同时非常期待上海图书馆将要上线的基于FOLIO的图书馆系统以及上海图书馆新馆的建成。上海图书馆的报告给她们留下了深刻的印象。最后，她们认为这次的WOLFcon会议对于即将上线FOLIO的图书馆们带来了很多启发和帮助[19]。"
+  },
+  "7新产品、新方案": {
+    "context1": "这次会议除了大量的业务研讨会议和工作小组会议以外，还发布了一款图书馆数据报告生成工具LDP 和一款由第三方提供的资源内容长期保存的解决方案Perpetua。",
+    "context2": "图书馆 数据平台（Library Data Platform,LDP）是一款由 FOLIO 的 Reporting SIG 推出的生成图书馆数据报告的工具。LDP是来源数据库的一个镜像库，把不同应用系统中的数据收集到一个数据库中，用SQL语句方式进行跨应用系统的查询，从而生成图书馆需要的报告。在这次会议中，Reporting SIG 和多个功能需求小组，如元数据管理、资源管理、资源存取和用户管理等 SIG 讨论和评估了LDP目前提供的报告功能，以及各个功能需求 SIG需要添加的功能和细节，未来还需要各功能需求 SIG 派出成员和Reporting SIG进行紧密合作 [20]。",
+    "context3": "Perpetua由Arkivum公司推出，是目前发布的第一个与FOLIO平台整合的第三方工具。Perpetua是一个对馆藏资源内容进行长期数据保存管理的解决方案，资源内容包括特殊馆藏、典藏档案、学术研究论文、研究数据、教学材料等。Perpetua 还将与FOLIO Codex 及其数据模型集成，以统一的方式发现特殊馆藏和其他资源。用户可以通过Codex搜索内容，然后被定向到Perpetua，通过Perpetua可以查看完整的记录。如果馆藏资源为数字形式（例如图像、音频、视频、文档等），用户可以直接在Perpetua中查看和播放。对于已经存储在 FOLIO的知识库和其他应用中的数字内容，Arkivum正在研究如何将其传输到Perpetua 中以进行额外的保护和保存[21-22]。"
+  },
+  "8问题与展望": {
+    "context1": "本次会议是OLF基金会成立以来的第二次大会。参会者以OLF的各个开源项目及其功能需求小组的工作人员为主，因此会议的内容也集中在各个功能小组对需求的研究和讨论。相对来说，会议整体缺少一些理念和发展方向的介绍，对于刚刚接触这些开源项目的参会者不能很快融入会议中。但从会议的整体情况来看，目前OLF的各个开源项目总体发展态势良好，都在按计划稳步推进。图书馆、开发人员和商业公司各方都在以前所未有的热情积极投入到项目的开发和实施工作中。",
+    "context2": "从本次大会的内容来看，OLF对全球化发展和地区差异的关注越来越多。OLF尤其是FOLIO项目的重点一直是面向高校图书馆的需求进行产品的研究和开发。随着FOLIO项目影响力的不断提高，越来越多非高校图书馆类型的图书馆开始关注和加入FOLIO社区，如上海图书馆和澳大利亚国家图书馆。上海图书馆作为一家研究型公共图书馆，从2019年就开始组建团队开发和实施FOLIO系统，并成立了FOLIO技术及应用联盟，形成了一个中文FOLIO社区。澳大利亚国家图书馆是近期加入FOLIO社区的一家研究性图书馆，与FOLIO 的合作比较紧密，目前已有工作人员参与FOLIO系统的开发工作。这次会议中FOLIO的产品委员会明确提出未来会把公共图书馆等非高校图书馆的需求考虑进去，并将FOLIO重新定位为一个全球性的产品。",
+    "context3": "此次会议展示了中国FOLIO团队的专业风貌和奉献精神，也向国际开放图书馆社区表明了中国态度。中文FOLIO社区自成立以来一直保持着与国际FOLIO社区的沟通和联络，让国际FOLIO社区能更多地了解中文FOLIO社区的各种本地化需求，同时也在积极推进中文FOLIO系统的开发和实施，在开发和实施过程中积累的本地化经验和成果也将会反哺国际 FOLIO社区，为国际FOLIO社区建设做出贡献，形成一个相互促进的良性互动模式。未来，随着上海图书馆对FOLIO项目的不断推进和实施，中文FOLIO社区的规模和影响力势必会进一步扩大，将会吸引更多的图书馆、开发者和商业公司加入中文FOLIO社区，也将为国内各种不同类型的图书馆能够顺利实施以FOLIO为基础的下一代图书馆管理系统营造一个良好的生态环境。"
+  },
+  "参考文献": {
+    "context1": "[2020-03-08].https://drive.google.com/drive/ search?q $\\stackrel { \\cdot } { = }$ WOLFCON.   \n[16]WOLFcon presentations [EB/OL].[2020-03-10]. https://drive.google.com/drive/folders/l88IdKWk7v Vu5GMPb2tAd1f3n_0KWmnvv.   \n[17] Architecture Blueprint Sessions - WolfCon 2020 [EB/OL].[2020-03-15].https://wiki. folio.org/display/PLATFORM/Architecture+ Blueprint+Sessions+-+WolfCon+2020.   \n[18] Open Library Foundation.WOLFden Live at 5 from WOLFcon 2020 - January 22nd,2020 [EB/OL]. [2020-03-11]. https://www.youtube.com/ watch?v=RQbEkmGb3yE.   \n[19] Open Library Foundation.WOLFden Live at 5 from WOLFcon 2020 - January 23nd, 2020 [EB/OL]. [2020-03-11].https://www.youtube.com/ watch?v=7-IXJ9qaOpM.   \n[20]Reporting SIG.WOLFcon 2020 [EB/OL].[2020-02- 26].https://drive.google.com/drive/u/O/folders/lJH9b oS7i28xCFDo8OpQnugfSDMH8w7da.   \n[21]Initial Integration of Perpetua into FOLIO [EB/ OL].[2020-03-29].https://vime0.com/385429155/ a3df2e35b4.   \n[22]Matthew Addis.FOLIO可以与Perpetua数字资源 长期保存技术整合吗[EB/OL].[2020-03-26]. https://www.ebsco.com/e/zh-cn/blog/can-folio-andperpetua-work-together-9.   \n[1]中国SIG [EB/OL].[2020-02-28]. https://wiki.folio. org/display/CHINA.   \n[2]Marshall Breeding.Open Library Foundation established foundation created to promote open source projects for libraries[EB/OL].[2020-02-29]. https://librarytechnology.org/news/pr.pl?id=21867.   \n[3]FOLIO.About FOLIO [EB/OL].[2020-02-29]. https://www.folio.org/about/.   \n[4]Open Library Foundation.Communities [EB/OL]. [2020-02-28]. https://openlibraryfoundation.org/ communities/.   \n[5]GOkb [EB/OL].[2020-03-01].htps://gokb.org/.   \n[6] ReShare[EB/OL].[2020-03-01].https:// projectreshare.org/about/.   \n[7]VuFind [EB/OL]. [2020-03-01]. https://vufind.org/ vufind/about.html.   \n[8] Open Library Foundation.WOLFcon Plenary Session - January 22,2020 [EB/OL].[2020-03-11]. https:// www.youtube.com/watch?v=47KKbxI_5Do.   \n[9] OpenLibrary Foundation.WOLFcon Plenary SessionJanuary 23,2020 [EB/OL].[2020-03-11].https:// www.youtube.com/watch?v=W3lVCgrjfBk.   \n[10]刘炜.Strive for Revival:Meet The New Frontier in a New Horizon [EB/OL]. [2020-02-26]. htp://www. kevenlw.name/?p=2580.   \n[11]FOLIO Project. FOLIO Product Council [EB/OL]. [2020-03-23]. https://wiki.folio.org/.   \n[12] Product Council- WOLFcon 202O- all meetings. [EB/OL].[2020-03-12]. https://docs.google. com/document/d/lzI1PbzcOjefrUNK1_ nB8YLgYNKxoQYi3TkCYauU4IBA/edit.   \n[13]Metadata Management SIG.External Integrations and Sources of Truht[EB/OL].[2020-03-10]. http:// bit.ly/MMSIG_EI_SoT.   \n[14] MM- SIG.New source code[EB/OL].[2020-03- 10]. https://docs.google.com/presentation/d/l-XLclWZwhs16h7PiMfOPdzUuCOahmb5FOlqQly6ceI/ edit#slide=id.p.   \n[15]Magda Zacharska.FOLIO SIP2[EB/OL]. 张春景女，上海图书馆（上海科学技术情报研 究所），副研究员。研究方向：数字图书馆、 公共数字文化。E-mail:cjzhang@libnet.sh.cn 上海200031   \n张磊上海图书馆（上海科学技术情报研究所）， 正高级工程师。研究方向：数字人文、开放数据。 上海 200031   \n周纲上海图书馆（上海科学技术情报研究所）， 工程师。研究方向：下一代图书馆服务平台。 上海200031"
+  }
+}

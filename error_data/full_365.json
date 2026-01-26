@@ -1,0 +1,98 @@
+{
+  "original_filename": "full_365.md",
+  "COUNTER5：关键变化及应用展望": {
+    "context1": "陈越，都平平，江艳霞",
+    "context2": "摘要在电子资源利用统计领域具有较大影响的COUNTER规范发布了第五版，探讨其变化、特征及应用趋势，可为图书馆优化电子资源管理提供借鉴。文章从体系结构、报告要素及实施维护等方面对规范的新旧版本进行系统对比，解读关键变化及作用；结合新规范的特性，讨论可能的创新应用场景。新规范具有清晰的体系结构和易于扩展的报告模型，实现了简单性与灵活性的统一。新规范整合了指标定义并细化用户资源访问行为的统计粒度，增强了用户行为统计的一致性。新规范的实施可支撑图书馆开展电子资源利用指标验证和用户行为分析研究，推动研究数据集等领域资源利用统计的标准化，可为我国相关标准的制定与维护提供参照。",
+    "context3": "关键词 COUNTER 电子资源　使用报告 行为分析引用本文格式陈越，都平平，江艳霞．COUNTER5：关键变化及应用展望Ⅲ.图书馆论坛，2020，40(1):132-139."
+  },
+  "COUNTER 5 : Key Changes and Application Trends": {
+    "context1": "CHEN Yue，DU Pingping，JIANG Yanxia",
+    "context2": "AbstractThe COUNTER Code of Practice Release 5（R5）has been published.An exploration of the changes, features and application trends of R5 could help libraries improve their electronic resource management.In this paper，a systematic comparison between R4 and R5 is made from the follwing aspects of structure，reporting elements，implementation and maintenance，and an interpretation of key changes and a discussion of innovative application scenarios are followed.Itis found outthat R5 has aclear structure and an easy-to-expand report model that combines simplicityand flexibility.It unifies definitions of metrics，refines the statistical granularity of resource acess behaviors，and enhances the consistency of user behavior statistics.The implementation of COUNTER R5 could facilitate researches on electronic resource usage metrics test and user behavior analysis , promote the standardization of electronic resource usage statistics in research data sets and other fields，and provide reference for the drafting and maintenance of domestic standards of electronic resource management.",
+    "context3": "KeywordsCOUNTER；electronic resources；usage report；behavioral analysis"
+  },
+  "0引言": {
+    "context1": "NeTworked Electronic Resources)意为联网电子资源在线使用情况统计。COUNTEROnlineMetrics是由图书馆、出版商和数据库商组成的",
+    "context2": "COUNTER(Counting Online Usageof非盈利标准化组织，负责通过成员间协作制定并维护COUNTER实施规范\"l。这一规范可帮助出版商和数据库商向图书馆提供一致、可靠和可比较的使用数据2。2012年4月发布的COUNTER实施规范第4版(以下简称“R4版规范”)是目前广泛使用的版本。近年来随着线电子资源类型的扩展及资源发现与访问技术的变化，R4版规范在实践中逐渐凸显出一些问题，主要包括：",
+    "context3": "(1)使用报告数量持续增长加重了报告提供方和图书馆的统计负担。为尽可能覆盖各类资源使用统计，报告数量从规范制定之初的7个增加至R4版的27个3。一些过于关注特定需求的单一用途报告如移动版报告很少被使用，在增加统计工作量的同时并未发挥相应的作用[4。",
+    "context4": "(2)因数据存在差异，部分以不同格式提供的报告无法直接比较4。比如R4版规范期刊报告1,表格报告中将PDF和HTML每月访问量合并计数5，而XML报告则按月对两者分别统计。",
+    "context5": "(3)部分定义模糊，理解和遵守容易产生分歧。比如对电子书“节段”的定义，不同资源提供商的解释和应用存在差别，对比他们提供的电子书借阅报告BR1(整本)、BR2(节段)数据可能引发困惑。此外，答疑材料、帮助手册和实施文档的分散编写过程以及对规范及支持材料的不同理解，也导致不同报告提供者的具体实践存在一定差异4。由COUNTER Online Metrics发起的调查显示，在下一代规范中澄清现有规范中的歧义是用户最关心的问题之一8。",
+    "context6": "基于广泛调研与多方协作，2017年7月COUNTEROnlineMetrics发布了下一代COUN -TER实施规范(即R5版规范，以下简称“新规范”）。本文解读新规范的主要变化，并结合新规范的特性，讨论其创新应用场景，以期为电子资源管理及相关研究开发提供参考。"
+  },
+  "1COUNTER5的关键变化": {
+    "context1": "面对复杂多变的信息资源环境与用户需求，新规范不是对R4版规范的简单修改或扩充，而是在规范体系结构、用户使用报告、数据供给与操作模式、实施与维护等方面进行彻底重构。这些改变使新规范简单、灵活、一致、可持续，从而具备更广阔的应用空间。"
+  },
+  "1.1清晰的体系结构": {
+    "context1": "新规范通过增加关键章节、取消重复或无意义的内容、重组相关主题等修订措施，优化规范结构，提高规范的可读性，更便于各方理解实施，详见表1至表3。",
+    "context2": "表1新规范增加章节",
+    "context3": "<table><tr><td rowspan=1 colspan=1>新规范章节名称</td><td rowspan=1 colspan=1>主要内容</td><td rowspan=1 colspan=1>关键作用</td></tr><tr><td rowspan=1 colspan=1>约定</td><td rowspan=1 colspan=1>参照RFC 2119[9，定义“MUST”“MAY”等表示要求的关键字，解释并明确不同要求的含义。</td><td rowspan=1 colspan=1>规范标准化</td></tr><tr><td rowspan=1 colspan=1>2.概述</td><td rowspan=1 colspan=1>对新规范3-12章进行说明，简述各章主题，帮助读者迅速定位到关心的内容。</td><td rowspan=1 colspan=1>规范标准化</td></tr><tr><td rowspan=1 colspan=1>3.COUNTER使用报告技术规约</td><td rowspan=1 colspan=1>对报告体系的核心技术概念如主报告、视图等进行说明。</td><td rowspan=1 colspan=1>突出新版规范的重点</td></tr><tr><td rowspan=1 colspan=1>13.从上一版报告到第5版报告服务的转换</td><td rowspan=1 colspan=1>将报告服务从R4版规范迁移到新规范的路径及要求。</td><td rowspan=1 colspan=1>便利实施</td></tr><tr><td rowspan=1 colspan=1>14.变更历史</td><td rowspan=1 colspan=1>记录版本号、变更内容、批准日期、起始兼容日期等属性，用于描述规范版本的每一次迭代。</td><td rowspan=1 colspan=1>便利维护</td></tr><tr><td rowspan=1 colspan=1>附录B：相对第4版的变化</td><td rowspan=1 colspan=1>对新规范相对R4版规范的变化进行说明。</td><td rowspan=1 colspan=1>便利实施</td></tr><tr><td rowspan=1 colspan=1>附录F：处理错误和异常</td><td rowspan=1 colspan=1>约定错误与异常的处理方式。</td><td rowspan=1 colspan=1>规范标准化</td></tr></table>",
+    "context4": "表2新规范取消章节",
+    "context5": "<table><tr><td rowspan=1 colspan=1>R4版规范章节名称</td><td rowspan=1 colspan=1>取消说明</td></tr><tr><td rowspan=1 colspan=1>2.术语定义</td><td rowspan=1 colspan=1>无实际内容，仅提示查看附件A。</td></tr><tr><td rowspan=1 colspan=1>附录G：XML概述及最新方案链接</td><td rowspan=1 colspan=1>在新规范配套的SUSHI协议中，数据交换格式从XML改为JSON[10]。</td></tr></table>",
+    "context6": "表3新规范重组章节",
+    "context7": "<table><tr><td rowspan=1 colspan=1>R4版规范章节名称</td><td rowspan=1 colspan=1>新规范章节名称</td><td rowspan=1 colspan=1>重组方式</td><td rowspan=1 colspan=1>要点说明</td></tr><tr><td rowspan=2 colspan=1>4.使用报告</td><td rowspan=1 colspan=1>4.COUNTER报告</td><td rowspan=2 colspan=1>拆分</td><td rowspan=2 colspan=1>将R4版第4.3节抽出，补充联盟报告的交付要求后作为第5章。</td></tr><tr><td rowspan=1 colspan=1>5.COUNTER报告的交付</td></tr><tr><td rowspan=2 colspan=1>5.数据处理</td><td rowspan=1 colspan=1>6.记录用量</td><td rowspan=1 colspan=1>拆分</td><td rowspan=1 colspan=1>将R4版第5章中记录用量的两种技术抽出，补充了分布式用量记录技术。</td></tr><tr><td rowspan=1 colspan=1>7.COUNTER报告底层数据处理规则</td><td rowspan=1 colspan=1>拆分</td><td rowspan=1 colspan=1>重组R4版第5章的剩余部分，完善双击行为的处理，并补充单一题名和单一条目计量要求。</td></tr><tr><td rowspan=2 colspan=1>8.实施规范的维护与发展</td><td rowspan=1 colspan=1>11.扩展实施规范</td><td rowspan=1 colspan=1>拆分</td><td rowspan=2 colspan=1>R4版第8章仅对规范的维护与发展进行原则性解释，拆分后则分别给出了实施途径和具体方法。</td></tr><tr><td rowspan=1 colspan=1>12.持续维护</td><td rowspan=1 colspan=1>拆分</td></tr><tr><td rowspan=1 colspan=1>3.SUSHI</td><td rowspan=2 colspan=1>8.用于自动收割报告的SUSHI协议</td><td rowspan=2 colspan=1>合并</td><td rowspan=2 colspan=1>将原来分散的与SUSHI协议相关的章节内容加以整合。</td></tr><tr><td rowspan=1 colspan=1>附录C：SUSHI</td></tr><tr><td rowspan=1 colspan=1>附录F：Excel格式使用报告样例</td><td rowspan=2 colspan=1>附录H：COUNTER报告样例</td><td rowspan=2 colspan=1>合并</td><td rowspan=2 colspan=1>新规范提供标准视图和自定义视图作为使用报告，根据这一变化，将报告样例合并为一章。</td></tr><tr><td rowspan=1 colspan=1>附录H：可选的附加使用报告</td></tr></table>"
+  },
+  "1.2灵活的使用报告模型": {
+    "context1": "为解决R4版规范使用报告过多、部分报告利用率低下的问题，新规范重新设计了使用报告模型，扩充了使用报告要素，包括： (1)引入主报告(Master Report)及视图(View)概念，重新划分报告体系； (2)新增报告属性，用于统计更详细的用户行为信息。"
+  },
+  "1.2.1主报告及视图": {
+    "context1": "主报告是内容提供商在电子资源主机上采集使用数据后形成的基础数据表。新规范将电子资源主机分为电子期刊、电子书、全文集成数据库等11种主机类型(HostType)，不同类型主机采集的资源使用行为数据有所差异，据此生成对应的主报告。根据提供主报告的主机类型，可将主报告分为平台(Platform)、数据库(Database)、题名(Title)、条目(Item)等四种。主机类型与所提供的主报告之间的关系如图1所示。",
+    "context2": "平台主报告汇总特定内容提供商的资源访问数据，所有电子资源主机均应设法收集相关数据并生成平台主报告。题名、数据库及条目主报告则由不同类型的主机生成。题名主报告统计用户访问电子书、电子期刊等资源主机的行为信息。数据库主报告统计用户访问摘要索引、文献集成等数据库主机的细节信息。条目在新规范中被定义为与资源内容有关的数据收集术语，可以是全文、全文摘要、HTML页面、补充数据集或非文本资源(图片、视频、音频等)。机构知识库、多媒体资源主机收集并统计用户针对上述资源的访问信息，形成条目主报告。不同主报告面向的主机范围亦有交叉，某些类型的主机(如文献全文集成主机)需要同时提供平台主报告、题名主报告和数据库主报告。",
+    "context3": "新规范引入了关系数据库领域的视图概念，根据数据类型(Data Type)、获取类型(Access",
+    "context4": "Type)等条件对主报告数据表进行过滤，生成视图并作为使用报告提供给图书馆。新规范预置了12个标准视图，其与主报告的关系如图2所示。",
+    "context5": "![](images/add6583b2a2ea29747444e07c993917a942f6886fa8077119fe935a45f3cf38f.jpg)  \n图1主报告与主机类型",
+    "context6": "新规范在引入主数据/视图模型的同时，同步建立了新规范视图与R4版规范使用报告之间的映射机制，从而保持了统计工作的延续性，详见图3。",
+    "context7": "![](images/674e3063ddd96e5dd9d406b6d94d45a0752418039f9c91d0d603c6d5b2dfe144.jpg)  \n图2从主报告生成预置标准视图",
+    "context8": "![](images/276e2794966de6f67681e06fea66d4cef52de0b0f33b8b676c6081099562464d.jpg)  \n图3新旧规范中报告的转换与取舍",
+    "context9": "R4版规范中符合通用需求的报告在新规范中以标准视图形式提供，如平台使用量报告PR1、期刊使用量报告JR1，在新规范中转换为标准视图PR_P1、TR_J1。R4版规范中为满足特定需求而定义的各类报告在新规范中采用自定义视图形式提供，包括： (1)在不同层次对同一行为进行的统计，如按平台归类的R4版被拒电子书访问量报告BR4； (2)对不同类型资源同一操作行为的统计，如R4版期刊/电子书章节全文借阅量报告TR1； (3)针对特定资源属性的统计，如R4版金色开放获取期刊全文使用量报告JR1GOA。",
+    "context10": "新规范取消了因不符合技术发展或实践需要而较少使用的报告。例如，按月份和书名汇总显示用户常规/联邦/自动检索次数的报告BR5，初衷是比较用户在出版商平台访问电子书时所采用的各种检索方式，但由于大多数平台上的书名往往被包含在各类检索中，不同检索形式的区分度并不明显[12。此外，即使平台在标题级别记录搜索和会话，由于用户通常很少执行此类搜索，导致这些报告中经常有零条目出现[13，因此新规范取消该报告。"
+  },
+  "1.2.2新增报告属性": {
+    "context1": "配合“主报告-视图”结构，新规范在使用报告中增加属性(Attributes)要素，对数据格式、访问行为等进行分类定义。属性可分为普通属性和特殊属性(即指标类型)。普通属性作为过滤条件，供用户从主报告中自行提取所需数据创建自定义视图；指标类型(MetricType)则与统计值对应，用以标明统计量的含义。",
+    "context2": "(1)普通属性。普通属性定义了不同数据、不同格式、不同获取方式等资源独有特性的取值空间。图书馆可以据此对主报告数据进行过滤，以形成标准或自定义视图，新规范中普通属性见表4。",
+    "context3": "表4新规范普通属性及取值空间",
+    "context4": "<table><tr><td rowspan=1 colspan=1>属性名</td><td rowspan=1 colspan=1>属性取值空间</td><td rowspan=1 colspan=1>用途</td></tr><tr><td rowspan=1 colspan=1>数据类型(Data Type)</td><td rowspan=1 colspan=1>文章|图书|图书章节|数据库|数据集|期刊|多媒体|报纸或通讯平台知识库条目报告|学位论文|其他</td><td rowspan=1 colspan=1>区别访问行为对应的资源类型。</td></tr><tr><td rowspan=1 colspan=1>节段类型(Section Type)</td><td rowspan=1 colspan=1>文章图书|章节节段其他</td><td rowspan=1 colspan=1>规范资源内嵌层次的划分依据。</td></tr><tr><td rowspan=1 colspan=1>获取类型(Access Type)</td><td rowspan=1 colspan=1>受控金色开放获取|延迟开放获取|其他开放访问</td><td rowspan=1 colspan=1>便于根据资源获取方式进行分类统计。</td></tr><tr><td rowspan=1 colspan=1>获取方法(Access Methods)</td><td rowspan=1 colspan=1>常规文本数据挖掘</td><td rowspan=1 colspan=1>将用户行为与文本和数据挖掘行为进行区分。</td></tr><tr><td rowspan=1 colspan=1>出版年(Year of Publish)</td><td rowspan=1 colspan=1>形如“YYYY”的四位数年份</td><td rowspan=1 colspan=1>标明所访问条目的出版年(在题名、数据库及平台主报告中为可选项[14)。</td></tr></table>",
+    "context5": "(2)指标类型。在R4版规范中，没有“指标类型”概念，只能通过不同报告展现不同资源的使用行为数据。新规范引入指标类型这一特殊属性，以区分用户在线资源利用活动的总体性质，并将规范涉及的指标纳入不同指标类型，在一份报告中提供不同活动行为的统计数据。指标类型分为检索(Searches)、查看与借阅(lnvestigations and Requests)及被拒绝访问(Access Denied)等三组[15]，见表5。",
+    "context6": "表5新规范指标分类及说明",
+    "context7": "<table><tr><td rowspan=1 colspan=1>指标类型</td><td rowspan=1 colspan=1>指标名称</td><td rowspan=1 colspan=1>说明</td></tr><tr><td rowspan=1 colspan=1>检索</td><td rowspan=1 colspan=1>常规检索自动检索联邦检索平台检索</td><td rowspan=1 colspan=1>继承R4版规范对检索行为的分类方式，不同类型应用于不同场景[5]。</td></tr><tr><td rowspan=1 colspan=1>查看与借阅</td><td rowspan=1 colspan=1>单一题名查看单一题名借阅单一条目查看单一条目借阅合计条目查看合计条目借阅</td><td rowspan=1 colspan=1>明确定义并区分查看与借阅活动，并与访问对象结合，生成系列指标。</td></tr><tr><td rowspan=1 colspan=1>被拒绝访问</td><td rowspan=1 colspan=1>未获授权并发超限</td><td rowspan=1 colspan=1>继承R4版规范对被拒绝访问的分类方式。</td></tr></table>",
+    "context8": "检索类指标和被拒绝访问类指标继承了R4版规范使用报告中的定义，其作用基本没发生变化。查看与借阅类指标则为规范新增指标，用于计量用户对单个题名和条目的访问活动，包含查看与借阅两种行为类型。用户围绕条目内容的所有活动(包括阅读和获取全文)都被当作查看，但借阅仅包括阅读或获取全文。图4解释了两种行为的联系与差异。",
+    "context9": "![](images/8663023c9d2a8c306a910ced126d8e1d1fd20158af90cbbbf4cfecb16ee76c67.jpg)  \n用户活动  \n图4查看和借阅的关系[15]",
+    "context10": "在区分查看与借阅两种用户活动的基础上，新规范进一步细化活动度量的统计粒度，将计量方式(单一/合计)、访问对象(题名/条目)与访问行为(查看/借阅)加以组合，形成了具体的查看与借阅活动度量指标，见图5。",
+    "context11": "![](images/dc2eb0053ac470eced010a46b545c8bf3396dc12b39fb4f19c0507a0ef0b8e12.jpg)  \n图5查看与借阅活动指标组合方式",
+    "context12": "单一题名前缀条件可以用于期刊和电子书。通过使用单一题名进行用量统计，在一个会话中，同一期刊/电子书无论是整体下载还是分节段下载，都只记为1次借阅，以此解决不同平台的用量比较问题。",
+    "context13": "单一条目前缀条件解决了用户接口效应带来的统计误差。对同一篇文献，在同一个会话中，无论以HTML方式查看全文还是通过下载PDF查看全文，只记为1次借阅。",
+    "context14": "合计前缀条件提供过滤重复点击后的累计查看统计。对同一用户会话，计量每一次对条目的查看与借阅，最后提供累计值。这里的条目包括文章、电子书节段、多媒体文件等。"
+  },
+  "1.3一致的数据供给与操作模式": {
+    "context1": "新规范在数据与操作两个方面强化了一致性。在数据方面，引入轻量级SUSHI协议作为传输模式，以SUSHI-Lite 中的JSON(JavaScriptObjectNotation)格式取代XML作为收割数据结构。同时提供RESTful风格的API接口[17，允许客户端在调用接口时附加过滤器与属性参数，获得与表格形式报告相同的数据，保证不同格式报告的数据一致性。在操作方面，新规范完整实现了R4版规范的关键功能，同时简化了图书馆员的日常操作。有研究者对比了典型用户使用场景及在两种规范下的不同操作(见表6)，发现相对于旧版规范，新规范在不同场景下提供了基本一致的操作模式，更便于图书馆理解与实施。",
+    "context2": "表6新旧规范下典型用户使用场景的操作对比[16]",
+    "context3": "<table><tr><td rowspan=1 colspan=1>用户场景</td><td rowspan=1 colspan=1>R4版规范下操作</td><td rowspan=1 colspan=1>新规范下操作</td></tr><tr><td rowspan=1 colspan=1>收集订阅期刊的单次使用成本</td><td rowspan=1 colspan=1>下载期刊报告1和期刊报告1(GOA)，从期刊报告1中减去对应开放获取的统计值。</td><td rowspan=1 colspan=1>下载期刊借阅量(非GOA)视图，并通过合计条目借阅指标数值进行计算。</td></tr><tr><td rowspan=1 colspan=1>评估以单个PDF形式提供的电子书使用量</td><td rowspan=1 colspan=1>下载图书报告1并查看相应计数。</td><td rowspan=1 colspan=1>下载电子书借阅量视图(非GOA)，查看单题名借阅指标值。</td></tr><tr><td rowspan=1 colspan=1>评估以章节或节段形式提供的电子书使用量</td><td rowspan=1 colspan=1>下载图书报告2并查看相应计数。</td><td rowspan=1 colspan=1>下载电子书借阅量视图(非GOA)，查看合计条目借阅指标值。</td></tr><tr><td rowspan=1 colspan=1>评估数据库使用情况</td><td rowspan=1 colspan=1>下载数据库报告1，查看结果点击数、记录查看数及常规检索数。</td><td rowspan=1 colspan=1>下载数据库检索与条目用量标准视图，使用合计条目查看指标值。</td></tr></table>"
+  },
+  "1.4可持续的规范发展与维护机制": {
+    "context1": "新规范在扩展与维护机制方面进行了创新。通过建立类似数字对象标识符(DOI)的命名空间机制，利用命名空间标识与报告名称、元素名称、度量类型名称以及枚举值的组合，支持参与各方对使用报告进行扩展，见表7。借鉴并导入SUSHI标准中的持续维护过程(ContinuousMaintenance Procedures)概念(1]，明确关键环节的处理时限以及批准修订所需的程序要求，解决了规范修订间隔过长难以跟随用户需求变化。改进后的规范修订流程见图6。",
+    "context2": "表7报告扩展方式及示例",
+    "context3": "<table><tr><td rowspan=1 colspan=1>扩展方式</td><td rowspan=1 colspan=1>扩展示例</td><td rowspan=1 colspan=1>含义</td></tr><tr><td rowspan=1 colspan=1>自定义报告</td><td rowspan=1 colspan=1>ebscohost: LR1</td><td rowspan=1 colspan=1>空间ID：自定义报告名称</td></tr><tr><td rowspan=1 colspan=1>自定义元素（报告列</td><td rowspan=1 colspan=1>isi:Impact_Factor</td><td rowspan=1 colspan=1>空间ID：自定义元素名称</td></tr><tr><td rowspan=1 colspan=1>自定义枚举/属性值</td><td rowspan=1 colspan=1>ebscohost:total_linkouts</td><td rowspan=1 colspan=1>空间ID：自定义属性值</td></tr></table>",
+    "context4": "![](images/40eaee2a9c0f1332b35676ac503c0fe1dd909c22086631f01909b669af0fc466.jpg)  \n图6规范修订流程时序图"
+  },
+  "2COUNTER5应用展望": "",
+  "2.1支撑图书馆开展资源评估指标体系验证": {
+    "context1": "图书馆对电子资源利用评估的要求日趋多样，一些研究者不满足于现有报告提供的固定指标，自行设计并研发出相关指标框架体系[19-20]。由于这些体系的研究性质，难以要求资源提供商将其纳入统计报告，从而限制了指标体系的落地与推广应用。新规范通过提供视图、元素、属性等自定义机制，可支撑研究者利用资源提供商平台开展研究性数据采集，以验证和完善个性化指标体系，也可加强图书馆与资源提供商在资源利用评估领域的互动，推动指标体系研究成果向实际应用转化。"
+  },
+  "2.2深化用户电子资源利用行为分析": {
+    "context1": "为加强资源管理、优化用户体验，需要对用户资源访问行为的特征、动机及模式进行考察与分析[21-23]，尝试挖掘用户行为与资源易用性、服务可达性的关系。新规范将用户资源访问行为界定为“查看”与“借阅”，并结合资源对象类型、计量方式给出清晰的数字化指标体系，使资源提供商据此提供一致且详尽的用户访问行为数据。",
+    "context2": "对细粒度行为数据的观察，可为图书馆提供问卷调查以外的研究途径；不同资源平台提供的标准一致数据，能够帮助研究者进行资源平台之间的比较分析。未来可结合用户资源访问的情境数据(如学科背景、学术身份、研究方向等)加以深入发掘，进一步多角度深化用户行为研究，推动图书馆持续优化和提升电子资源服务体验。"
+  },
+  "2.3推动研究数据集等资源利用统计的标准化": {
+    "context1": "研究数据已逐渐被认定为学术活动的重要产出。在基于出版物引用的评估机制之外，数据的使用(查看、下载等)计量也逐渐成为仅次于引用计量的数据影响力衡量方法[24-25]，以推动研究数据的开放与重用。COUNTER5已经提供了针对补充数据集、非文本资源的使用计量方法，并允许机构知识库主机、多媒体主机收集并提供对应数据。以此为基础，COUNTEROnlineMetrics 与由NSF 资助的Make Data Count项目2团队合作，起草并发布了COUNTERCodeofPracticeforResearchData 规范第1版(以下简称COUNTERRD1)27，为研究数据使用计量提供了可操作的标准。COUNTERRD1在使用报告、指标体系及操作方面与COUNTER5保持一致，仅在必要之处根据研究数据的特性给出单独规定，如根据数据集版本对研究数据利用量进行聚合用量统计。COUNTERRD1的发布，意味着COUNTER框架有较好的包容能力，能够平衡通用功能与专有需求，具备推动其他领域资源利用统计标准化的潜力。"
+  },
+  "2.4为本地化标准的制定与维护提供参照": {
+    "context1": "在电子资源使用计量领域，我国也制定了相关标准，包括2007年教育部高等学校图书情报工作指导委员会修订的《高等学校图书馆数字资源计量指南》和2012年文化部发布的《图书馆数字资源统计规范》。在实践中，上述标准不同程度地显现了一些问题，主要有： (1)起草成员单位主要为行业主管机构及部分图书馆，缺少出版商、数据库商、一线图书馆员参与，由于资源类型繁杂，各方需求存在差异，解读与执行存在一定困难[28。(2)“指南”及“规范”面向的对象仅为图书馆，并未明确约束数据库商执行，遵循我国标准的数据库商较少(29。(3)没有明确规定修订过程，在实践中出现的新统计需求无法通过修订纳入标准。",
+    "context2": "COUNTER5的发展与维护机制为我国电子资源利用统计标准的制定与维护提供了参照。一方面，标准的起草组织应包括产业链各方，除主管部门与行业协会外，还应充分涵盖公共、专业、高校等各类图书馆，以及主要出版商、资源提供商等利益相关机构，使标准的发展充分响应各方诉求，统筹参与各方权益。另一方面，应建立明确、公开、可持续的标准维护路径，给出参与各方乃至普通馆员提交标准修订建议的具体措施，如建立在线社群讨论落地与修订问题，及时公开修订建议的处理过程等。通过定期修订和更新标准，不断提高在实践应用中的影响力。"
+  },
+  "3结语": {
+    "context1": "COUNTER5在报告模型、指标体系等方面的变革，体现出数据时代对图书馆资源提供与信息服务的全新要求。对资源与读者互动关系的观察与重估，将引导图书馆以更科学、有效的方法向读者提供预测、咨询、资源推荐等个性化服务。更重要的是，新规范所体现出的包容性及自我迭代更新能力，也为图书馆应对数据时代的挑战提供了启示和借鉴。"
+  },
+  "参考文献": {
+    "context1": "[1]PESCH O.A BRIEF HISTORY OF COUNTER AND SUSHI: the evolution of interdependent standards[J].Information Standards Quarterly，2O15，27 (2-3):5-11.   \n[2] COUNTER.Project COUNTER [EB/OL]. [2017- 06-20]. https: //www. projectcounter. org/.   \n[3] COUNTER.The COUNTER Code of Practice Release 4[EB/OL]. [2017-06-20]. https://www. projectcounter.org/wp-content/uploads/2016/01/ COPR4. pdf.   \n[4]PESCH O.COUNTER:Looking Ahead to Release 5 of the COUNTER Code of Practice [J].The Serials Librarian，2016，71(2)：83-90.   \n[5]COUNTER.COUNTER 4 AppendixF: Excel Usage Reports examples [EB/OL]. [2017-08-20]. https: //www. projectcounter. org／wp-content /uploads / 2016/02/APPF. xls.   \n[6] SCHOLARLYIQ.SUSHI Web Service User Guide 4.0[EB/OL].[2017-08-20].htp: //www.scholarlyiq. com/media/pdf/ScholarlyiQ_SUSHI_Guide_R4. pdf.   \n[7]DUNKLEYM.COUNTER图书报告友好指南[EB/OL]. [2017-06-20]. https: //www. projectcounter. org / wp-content/uploads/2017/03/Book_zh_CN. pdf.   \n[8]COUNTER. COUNTER Library Online Survey Results[EB/OL]. [2017-06-20]. http://beta. projectcounter. org／documents ／COUNTER_Survey_Library_Results. pdf.   \n[9]BRADNER S. Key words for use in RFCs to Indicate Requirement Levels[EB/OL]. [2017-09-05l]. https: //tools.ietf. org/html/rfc2119.   \n[10] NISO. SUSHI-Lite:Deploying SUSHI as a lightweight protocol for exchanging usage via web services [EB/OL]. [2017-09-03]. http://www. niso.org/ apps ／group_public / document. php? document_id $\\equiv$ 15331.   \n[11] COUNTER.COUNTER Release 5 Appendix A: Glossary of Terms[EB/OL]. [2017-09-09]. https: //docs. google.com / document / d / 1cZ_LCCrIofs 2xRPfm7l6Fp0dOKyYN1T9mjVBixSECa0/edit.   \n[12] COUNTER. COUNTER 5 Appendix B: Changes from Previous Releases[EB / OL]. [2017-12-20]. https: //www. projectcounter. org / wp-content / uploads/2017/10/Release5_Appendix-B. pdf.   \n[13] LEFFLER JJ. Getting Started with COUNTER Statistics[J].The Serials Librarian，2016，70（1-4)： 356-360.   \n[14] ESTELLE L. COUNTER:Release 5 of the Code of Practice[J]. Performance Measurement and Metrics, 2017，18 (3):180-186.   \n[15] COUNTER.The COUNTER Code of Practice Release 5[EB/OL]. [2017-11-14]. htps://www. projectcounter.org/wp-content/uploads/2017/11/ Release5_20171107. pdf.   \n[16] PESCH O.COUNTER Release 5:What’s New and What It Means to Libraries[J]. The Serials Librarian, 2017，73 (3-4): 195-207.   \n[17] NISO.Specifications for the RESTful COUNTER SUSHI 5.0 API[EB/OL]. [2017-12-28].https : //app.swaggernud. com/ apis/opescn/ counter-susm_ 5_0_api/1.0.0#/.   \n[18] NISO.Continuous Maintenance Procedures[EB/OL]. [2018-01-14]. http://www.niso.org／ standardscommittees ／ sushi / continuous-maintenance-procedures.   \n[19]刘爽.高校图书馆电子资源评价指标体系构建[].图 书馆理论与实践，2014（10)：60-63.   \n[20]彭康通.图书馆数字资源使用统计指标构建与思 考[].图书馆界，2016（4)：25-30.   \n[21]张敏，张磊.数字图书馆电子资源过度下载意愿的影 响因素研究—基于任务驱动与惩罚抑制的双重情 境[J].图书情报工作，2016(7)：116-122.   \n[22] 武群辉，何胜，冯新翎，等.面向科研的高校图书馆 电子资源使用统计模式研究[J].新世纪图书馆，2017 (11):37-40.   \n[23]高丽，王细荣.基于用户信息行为特征的电子期刊资 源利用现状分析[J].图书馆工作与研究，2014（1)： 31-34.   \n[24] COSTAS R，MEIJER I，ZAHEDI Z，et al.The Value of Research Data：Metrics for datasets from a cultural and technical point of view[EB /OL]. [2018-09-03]. http:// repository. jisc.ac.uk/6205/1 /Value_of_Research_Data. pdf.   \n[25] KRATZJE，STRASSER C.Making Data Count [EB/OL]. [2018 -04-11].https://www. nature. com/articles/sdata201539.   \n[26] MDC.Make Data Count[EB/OL]. [2019-06-17]. https://makedatacount.org/about/.   \n[27] COUNTER.The COUNTER Code of Practice for Research Data[EB/OL]. [2018-09-03]. https: //www.projectcounter. org/code-of-practice-rdsections.   \n[28] 祝红艺，罗红彬.数字资源计量规范研究——基于 事实数据库专项数据填报的思考.现代情报，2016 (1):114-117.   \n[29]胡大琴.面向数据库商的数字资源利用统计调查研 究J].图书馆杂志，2018（1)：41-49.",
+    "context2": "作者简介陈越，硕士，中国矿业大学网络与信息中心工程师（通信作者，yuechen $@$ cumt. edu.cn) ;都平平，博士，研究馆员，中国矿业大学图书馆副馆长；江艳霞，硕士，中国矿业大学网络与信息中心综合管理部主任。",
+    "context3": "收稿日期 2019-05-21(责任编辑：邝玥；英文编辑：郑锦怀)"
+  }
+}

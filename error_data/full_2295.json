@@ -1,0 +1,114 @@
+{
+  "original_filename": "full_2295.md",
+  "利用局部离群因子算法探测核心技术发展趋势\\*以中国风能专利数据为例": {
+    "context1": "李佳佳马铁驹(华东理工大学商学院上海 200237)",
+    "context2": "摘要回的/意义为验证局部离群因子算法在探测核心技术及核心技术发展趋势的有效性,丰富专利分析领域的研究。仿法/过程以中外专利数据库服务平台CNIPR作为数据源,分别从局部离群因子算法和社会网络分析方法两个视角对中国风能领域的专利数据进行对比分析，识别中国风能领域的核心技术以及核心技术的发展趋势。结果/结论结果显示,局部离群因子算法(LOF)和社会网络分析方法得出的结论基本一致:即中国在风力发电机技术方面一直保持优势，未来的发展潜力集中在风能照明装置及系统,验证了局部离群因子算法在探测核心技术及核心技术发展趋势方面的有效性。",
+    "context3": "关键词局部离群因子算法专利分析共现网络技术预测中国风能中图分类号G306 文献标识码A 文章编号1002-1965(2017)03-0119-06引用格式李佳佳,马铁驹.利用局部离群因子算法探测核心技术发展趋势[.情报杂志,2017,36(3):119-124,195.",
+    "context4": "DOI10.3969/j.issn.1002-1965.2017.03.021"
+  },
+  "Detecting Core Technology's Development Trend with LOF": {
+    "context1": "—Based on Wind Energy Patent Data of China",
+    "context2": "Li Jiajia Ma Tieju (Business School, East China University of Science and Technology， Shanghai200237)",
+    "context3": "AbstractPurpose/Significance]ThepaperaimstoverifytheffectivenessofLOFalgorithinthedetectionof thecore techologys developmentrendand thuspromotetheresearchof patentanalysis.Method/ProcessTakingpatent databaseCNIPRaspatentdata source,heppercodctsontrastialysistnLOFlgindteocialnetorkaalysetod,dentifingteoeh nologyandthecoeechlogsdevelopmentrendforindeergyinChinaesult/ConclusionThecontrastiveaalyseultowsa consistencyofthetwodiferentmetodsofLOFalgorithandthesocialnetworkanalysismethd:Chinaalwayshastheadvantageinwind motorandwillfocusonthelightingdevicesandequipmentinthefuture.TheefectivenessofLOFalgorithinthedetectionofthecore technology's development tendency is verified.",
+    "context4": "Keywordslocal outlierfactoralgorithmpatent analysisco-occurrence networktechnical forecastingChina's wind energy"
+  },
+  "0引言": {
+    "context1": "现代社会是信息社会，信息资源是最重要的战略资源之一。专利作为一种特殊的信息，在资源分析和学术研究中都有着特殊的地位和作用。专利携带了各种各样的信息,比如 IPC（ International Patent Classifi-cation)、主题、摘要、申请人和机构等等,研究人员对这些专利数据进行研究分析，得出有助于决策的信息。专利分析可以帮助组织及企业探测特定领域的核心技术,发现新型技术机会并且识别出未来的关键技术。近些年来，研究人员在专利分析领域提出了多种模型、方法和工具。从宏观角度看，目前专利分析主要集",
+    "context2": "中在以下四个方面:",
+    "context3": "第一,基于社会网络分析（SNA）的方法构建共现网络图,识别核心专利。Wasserman第一次提出了社会网络这个概念，他把社区群落当做社会关系网，其中人为网络中的节点,人与人之间的关系为网络中的线。之后Watts和 Strogatz 提出了著名的小世界网络模型。社会网络涉及的应用领域很多,例如博客交流模式研究、心理学研究以及高校合作。在专利分析领域,张杰等以变频技术的专利数据做数据源,研究得到低压变频技术的核心技术领域为交流电机和家用空调等领域 。",
+    "context4": "第二,借助假设检验和回归分析等统计学方法，研究知识的聚集和流动。Almeida和Kogut发现技术的聚集现象发生在特定区域(例如美国硅谷），不同区域之间聚集程度不同，同时专利所属人的转移会影响技术和知识的流动。Almeida通过分析美国半导体产业的专利引用,得出跨国公司对当地知识的应用远远高于相似的本土化公司[。Maurseth 和 Verspagen通过专利分析对欧洲的知识流动进行验证，发现欧洲的知识流动过程具有障碍性，专利引用受到地理、语言甚至风俗习惯等因素的影响[。Yoshikane以日本的申请专利作为主专利进行分析,得出不同类别的IPC分类号被后续专利引用时，后续专利分布的多样性不同[。在中国,越来越多的学者也倾向于采用回归分析等统计学方法来研究专利数据，用来探测技术距离和技术创新之间的关系。周华和韩伯棠通过对专利数据进行分析，验证了企业所处的环境会影响自身的技术创新，提出企业间相互交流能够促进知识溢出效应[。刘志迎和单洁含以中国大学和企业联合申请的发明专利作为测度指标,验证了技术距离对大学企业的联合创新具有显著的促进作用[4。",
+    "context5": "第三，技术路线图。利用专利数据制定技术路线图。例如张海波从市场需求角度出发,运用德尔菲法对我国新能源汽车技术的发展做出预见，绘制我国新能源汽车产业市场需求技术路线图，综合技术路线图提出相应的实施建议。杨璧嘉和张旭提出将专利网络分析引入技术路线图,并在此基础上研究专利网络分析在技术路线图绘制中具体的实施办法和有可能带来的好处[。许崇春提出将技术路线图、专利地图等创新方法融合集成,并将其应用于产业集群技术创新的新路径 [18 。",
+    "context6": "第四,利用专利信息做技术预测。近些年，学者们大多倾向于利用专利信息进行相关领域的技术预测，研究方法逐步多样化。Jun利用技术成熟度曲线模型对混合动力汽车领域进行技术预测[。Milanez等利用逻辑曲线对纳米技术领域的专利进行模拟,进而实现技术预测2。Altuntas等对专利指标进行构建，依据指标的排名决定技术的投资优势。Lee等借助文本挖掘技术对LED(LightEmittingDiode)领域的专利数据进行分析并进行技术预测[ 。"
+  },
+  "1研究框架": {
+    "context1": "本文的技术路线图如图1所示,主要包括数据收集、算法描述与实现、局部离群因子算法与传统社会网络分析方法的对比分析以及最后的结论和建议四个部分。",
+    "context2": "第一,以中外专利数据库服务平台为基础,构建风能检索式，搜集中国风能领域专利文件，得到中国风能专利数据库。第二,对局部离群因子算法进行描述,并详述其在专利分析中的实现过程。第三，以中国风能领域的专利数据为例，借助局部离群因子算法画出中国风能领域核心专利的LOF折线图,并与传统的网络分析方法进行对比,以此探测此算法在专利分析中的有效性。第四,验证局部离群因子算法在探测特定领域技术发展趋势的有效性，并对我国风能领域的技术发展提出相关建议。",
+    "context3": "![](images/79c9a32c2cc6e68cb8020cefb65aa7b7e7506f923f90c9d2089c60d30ea27687.jpg)  \n图1风能专利分析技术路线图"
+  },
+  "2数据收集": {
+    "context1": "利用中外专利数据库服务平台CNIPR,对中国风能领域的专利进行检索和采集，检索时间为2015年12月，主要利用主题和摘要进行检索。搜索中国专利检索式为 $\\mathrm { T I } =$ 风能and $\\mathbf { A } \\mathbf { B } =$ 风能,共检索出3125条专利。由于检索出的专利文本中存在国外机构或者国外发明人在中国申请专利的情况,故剔除国省代码非中国的专利以及不相关专利后，剩余2978条专利。"
+  },
+  "3局部离群因子(LOF)算法在专利分析中的应用": {
+    "context1": "3.1局部离群因子算法描述Breuing等首先提出了局部离群因子(LOF)的概念。定义数据集中的一个对象p,该算法的核心思想,即赋予数据集中每一个对象一个表征该对象偏离程度的因子。该因子用来反映对象所处空间的一个密集程度，离群因子的值越大，则表明该对象所处的空间越稀疏;离群因子的值越小,则表明该对象所处的空间越密集。下面着重介绍本文中所涉及到的LOF算法的一些基本概念。",
+    "context2": "定义1对象 $\\mathrm { p }$ 的第 $k$ 距离( $k$ -distance of an ob-ject p)",
+    "context3": "选定一正整数 $k$ ,对象 $\\mathrm { p }$ 的第 $k$ 距离可以记为 $k \\mathrm { ~ - ~ }$ distance( $p \\vert$ ,本文可以简写为 $k - \\operatorname { d i s } { \\big ( } p { \\big ) }$ 。在数据集 $D$ 中存在一个对象 $\\mathrm { { \\bf O } }$ ，将对象 $\\mathrm { p }$ 与 $\\mathbf { o }$ 之间的距离记做 $d ( p$ ，$^ { o \\vert }$ .满足以下条件，则 $k \\mathrm {  ~ - ~ } \\mathrm { d i s t a n c e } ( p ) = d \\bigl ( \\mathrm {  ~ } p , o \\bigr )$ .",
+    "context4": "1）在数据集 $D$ 中，除对象 $\\mathrm { p }$ 以外,至少存在 $k$ 个对象 $\\mathbf { o } ^ { \\prime }$ ，满足 $d \\left( p , o ^ { \\prime } \\right) \\leqslant d \\left( p , o \\right)$",
+    "context5": "2）在数据集 $D$ 中，除对象 $\\mathrm { p }$ 以外,至多存在 $k \\mathrm { ~ - ~ } 1$ 个对象 $_ { \\mathrm { ~ \\bf ~ O ~ } } { \\bf \\chi } ^ { \\dagger }$ ，满足 $d \\big ( p , o ^ { \\prime } \\big ) \\ < d \\big ( p , o \\big )$",
+    "context6": "定义2 $\\varepsilon$ 邻域( $\\varepsilon$ -neighborhood)",
+    "context7": "对象 $\\mathrm { p }$ 存在于数据集 $D$ ,则对象 $\\mathrm { p }$ 的 $\\varepsilon$ 邻域记为：$N _ { \\varepsilon } { \\big ( } p { \\big ) } \\ = \\{ \\ x \\ \\in { D \\mid d \\big ( } p , x { \\big ) } \\ \\leqslant \\varepsilon \\}$",
+    "context8": "定义3对象 $p$ 的第 $k$ 距离邻域( $k$ - distanceneighborhood of the object p)",
+    "context9": "若已知对象 $\\mathrm { p }$ 的第 $k$ 距离，那么 $p$ 对象的第 $k$ 距离邻域就是到对象 $\\mathrm { p }$ 的距离小于等于 $p$ 的第 $k$ 距离的所有对象的集合，记为 $N _ { _ { k - \\mathrm { d i s } \\left( p \\right) } } \\left( \\mathbf { \\Phi } _ { p } \\right)$ ，本文可简写为$N _ { k } ( { \\boldsymbol \\ p } )$ 。",
+    "context10": "定义4对象 $p$ 相对于对象 $o$ 的可达距离(reachability distance of p)",
+    "context11": "表述如下:reach $\\mathbf { \\partial } \\cdot \\operatorname { d i s } _ { k } ( \\mathbf { \\partial } _ { p } , \\mathbf { \\partial } _ { o } ) \\ = \\ \\operatorname* { m a x } \\{ k - \\ d i s ( \\mathbf { \\partial } _ { p } )$ ，$d ( p , o ) \\}$",
+    "context12": "定义5对象 $\\mathrm { p }$ 的局部可达密度(local reachability density of object p)",
+    "context13": "设 $\\mathbf { k }$ 为正整数,则数据集中对象 $\\mathrm { p }$ 的局部可达密度可以表述如下:",
+    "context14": "$$\n{ \\mathrm { l r d } } _ { k } { \\bigl ( } p { \\bigr ) } = { \\frac { k } { \\displaystyle \\sum _ { o \\in N _ { k } \\mid p \\mid } { \\mathrm { r e a c h } } - { \\mathrm { d i s } } _ { k } { \\mid p , o \\mid } } }\n$$",
+    "context15": "该公式可以反映在特定数据集 $D$ 中对象 $\\mathrm { p }$ 所处区域的疏密程度。选取特定的正整数 $k$ ，若对象 $\\mathrm { p }$ 所处的区域比较稀疏，则相对而言 $k \\mathrm { - d i s t a n c e ( \\ p ) }$ 值偏大，进而 $\\mathrm { r e a c h } - \\mathrm { d i s } _ { k } ( \\boldsymbol { p } , \\boldsymbol { o } )$ 的取值偏大,从而 $\\operatorname { l r d } _ { k } ( \\boldsymbol { p } )$ 的值偏小;相反,若对象 $\\mathrm { p }$ 所处区域比较密集，则 $k$ -distance${ \\left( \\begin{array} { l } { \\mathbf { \\sigma } _ { p } } \\end{array} \\right) }$ 值偏小，进而 $\\operatorname { e a c h } - \\mathrm { d i s } _ { k } ( p , o )$ 的取值偏小,从而对象 $\\mathrm { p }$ 的局部可达密度偏大。",
+    "context16": "定义6对象 $\\mathrm { p }$ 的局部离群因子(local outlier factor of the object $\\mathrm { \\Delta p ) }$",
+    "context17": "$$\n\\mathrm { L O F } ( p ) = \\frac { 1 } { k } \\sum _ { o \\in N _ { k } \\left( p \\right) } \\frac { \\mathrm { l r d } _ { k } ( \\mathbf { \\phi } _ { o } ) } { \\mathrm { l r d } _ { k } ( \\mathbf { \\phi } _ { p } ) }\n$$",
+    "context18": "对象p的局部离群因子LOF( $p \\vert$ 的值可以用来反映对象p所处区域在数据集 $D$ 中的疏密程度， $\\operatorname { L O F } ( p )$ 的值越大，表示该区域越稀疏; $\\operatorname { L O F } ( p )$ 的值越小，表示该区域越密集。",
+    "context19": "3.2利用局部离群因子算法探测核心技术发展趋势局部离群因子算法在本文中的运用可以归纳为以下四个阶段：",
+    "context20": "（1）对于每一个对象 $\\mathrm { p }$ ,找出与其最邻近的 $k$ 个对象,算出 $\\mathrm { p }$ 的第 $k$ 距离。",
+    "context21": "（2）对象 $\\mathrm { p }$ 的局部可达距离为 $\\operatorname { r e a c h } - \\mathrm { d i s } _ { k } ( p , o ) =$ $\\operatorname* { m a x } \\{ k - d i s ( { \\mathfrak { p } } ) \\ , d ( { \\mathfrak { p } } , o ) \\}$",
+    "context22": "(3)将 $N _ { \\boldsymbol { k } } ( \\boldsymbol { p } )$ 定义为距离对象 $\\mathrm { p }$ 最近的 $k$ 个对象 的集合，则对象 $\\mathrm { p }$ 的局部可达密度为 $\\operatorname { l r d } _ { k } ( \\mathbf { \\Sigma } _ { p } ) \\ =$ $\\frac { k } { \\displaystyle \\sum _ { o \\in N _ { k } \\left( p \\right) } \\mathrm { r e a c h } - \\mathrm { d i s } _ { k } \\left( p , o \\right) } \\ \\mathrm { _ < }$ 0",
+    "context23": "（4）对象 $\\mathrm { k }$ 的局部离群因子的值为 $\\mathrm { L O F } \\big ( p \\big ) \\ =$ ${ \\frac { 1 } { k } } \\sum _ { o \\in N _ { k } \\left( p \\right) } { \\frac { \\mathrm { l r d } _ { k } { \\left( \\ o \\right) } } { \\mathrm { l r d } _ { k } { \\left( \\ p \\right) } } } \\circ$",
+    "context24": "该算法直观的计算过程如图2所示。",
+    "context25": "![](images/1831f7dda2047f79f4ce911cfe0f858b8b329feb7c62c13bc53efabc8ef5db7b.jpg)  \n图2LOF算法举例",
+    "context26": "图中每一个节点类比为数据集中的一个对象，以对象 $\\mathrm { P }$ 为例，当取 $k$ 值固定为2时,P的第 $k$ 距离为 $5 , k$ 距离邻域中包括对象O和Q。对象P到对象O和Q的局部可达距离均为5,则可以计算出 $\\mathrm { P }$ 的局部可达密度为 $\\operatorname { l r d } _ { k } ( \\ P ) \\ = { \\frac { 2 } { \\displaystyle \\sum _ { o \\in N _ { 2 } \\left( P \\right) } \\operatorname { r e a c h } { - \\operatorname { d i s } _ { 2 } \\left( P , o \\right) } } } = { \\frac { 2 } { 5 + 5 } } \\ =$ 0.2。同理可以计算出另外两个对象O和Q的局部可达密度为 ${ \\mathrm { l r d } } _ { k } ( \\ Q ) = 0 . 2 2 , { \\mathrm { l r d } } _ { k } ( \\ Q ) = 0 . 3 3$ ,最终可以算出对象 $\\mathrm { P }$ 的LOF值为 $\\operatorname { L O F } ( P ) = { \\frac { 1 } { k } } \\sum _ { o \\in N _ { k } \\mid p ) } { \\frac { \\operatorname { l r d } _ { k } ( \\mathbf { \\boldsymbol { \\omega } } _ { o } ) } { \\operatorname { l r d } _ { k } ( \\mathbf { \\boldsymbol { \\omega } } _ { P } ) } } = { \\frac { 1 } { 2 } }$ ${ \\frac { 0 . 2 2 \\ + \\ 0 . 3 3 } { 0 . 2 } } = 1 . 3 7 5$ 。假设整个数据集的对象全部均匀分布,则每个对象的LOF值为基准值1。若特定数据集中某个对象的LOF值大于1,则该对象区域的分布偏于稀疏;反之,若该对象的LOF值小于1,则该对象区域的分布偏于密集。",
+    "context27": "将局部离群因子算法运用到专利分析领域,用来探测特定领域核心技术的发展趋势，其基本思想为：将数据集中的每一个对象类比为专利节点(专利节点用",
+    "context28": "IPC分类号表示），专利节点的分布以及疏密程度会随着时间发展而发生改变，因而每一个专利节点的局部离群因子LOF的值也会随时间的发展而发生改变。借助matlab 计算出二维平面中专利节点随时间变化的局部离群因子LOF值,画出随时间变化的趋势图，以此来探测相应技术领域的技术发展趋势。"
+  },
+  "4利用LOF探测中国风能领域核心技术发展趋势": {
+    "context1": "4.1局部离群因子算法在中国风能专利数据中的应用以中国风能领域的专利数据为例,利用局部离群因子算法探测核心技术的发展趋势，其研究步骤如下:",
+    "context2": "（1）风能专利文件数据处理:利用Bibexcel对中国风能专利文件进行处理,分别统计出截止到2005年和截止到2015年所有专利文件中出现的IPC分类号数量,每一个IPC分类号都代表风能领域相应的技术。",
+    "context3": "（2）将每一个IPC 分类号类比为一个专利节点，而每一个专利节点则代表数据集中的一个对象。截止到2005年，中国风能领域的专利分类号数量为91个;截止到2015年,中国风能领域的专利分类号数量为1334个。风能领域中专利IPC分类号出现的总频次可以反映该类技术的专利强度，与其他IPC分类号的总共现次数可以反映该技术的扩散潜力。因而对截止到2005年及2015年所有IPC分类号的总频次和总共线次数进行统计并进行数据归一化处理(归一化到0\\~10之间)。坐标轴横轴代表该IPC分类号出现的总频次,纵轴代表其总共现次数,可将所有的IPC分类号反映在二维坐标平面中,即IPC分布图。",
+    "context4": "（3）将上述IPC分布图中的每一个IPC分类号类比为一个对象,借助matlab 程序可以计算出相应年份每一个IPC分类号的LOF值。对风能专利领域的 IPC分类号进行总频次和总共线次数的统计之后，选出频次和共",
+    "context5": "领域核心技术的 IPC 分类号（FO3D9/00,FO3D3/06，H02J7/00,B60L8/00,F21S9/04）,其对应的技术含义如表1、表2所示。",
+    "context6": "表1四位IPC分类号及对应含义  \n表2IPC分类号及对应含义",
+    "context7": "<table><tr><td>IPC分类号</td><td>含义</td></tr><tr><td>F03D</td><td>风力发动机</td></tr><tr><td>H02J</td><td>供电或配电的电路装置或系统;电能存储系统</td></tr><tr><td>F21S</td><td>非便携式照明装置或其系统</td></tr><tr><td>F21V</td><td>照明装置或其系统的功能特征或零部件;不包含在其他类目 中的照明装置和其他物品的结构组合物</td></tr><tr><td>H02K</td><td>电机</td></tr><tr><td>F21W</td><td>与照明装置或系统的用途或应用有关</td></tr><tr><td>B60L</td><td>电动车辆动力装置</td></tr></table>",
+    "context8": "<table><tr><td>IPC分类号</td><td>含义</td></tr><tr><td>F03D9/00</td><td>特殊用途的风力发动机;风力发动机与受它驱动的装置的 组合</td></tr><tr><td>F03D11/00</td><td>不包含本小类其他组中或与本小类其他组无关的零件、部 件或附件</td></tr><tr><td>F21S9/04</td><td>电源是发电机</td></tr><tr><td>F21S9/03</td><td>通过曝光再充电</td></tr><tr><td>F21W131/103</td><td>用于大街或道路</td></tr><tr><td>F21V23/00</td><td>照明装置内或上面电路元件的布置</td></tr><tr><td>F21Y101/02</td><td>微型光源，例如发光二极管</td></tr></table>",
+    "context9": "（4)设定正整数 $k$ 值取值为5,10和100三种情况,分别计算出6个主要的IPC分类号从2005年到2015年的LOF值(截至2005年中国风能领域的专利IPC 分类号共有91个,故当 $k$ 取值100 时,2005年的数据不存在，从2007年开始)。三种情况下，五个主要IPC 分类号的局部离群因子值的变化趋势相似,但是当 $k$ 取值为100时,其折线图的变化更加平稳,故本文主要按照 $\\mathbf { k }$ 取值100时的LOF折线图进行分析。图3左侧即为 $k = 1 0 0$ 时的LOF折线图,对应五个主要IPC分类号的LOF值如右侧所示：",
+    "context10": "![](images/e7d0c380cacdf828e100000d1cbd54846aad8818cac8e3c3540cbe657ac6c689.jpg)  \n图3 $k = 1 0 0$ 的LOF折线图及对应LOF值",
+    "context11": "<table><tr><td>年份 IPC</td><td>2007</td><td>2009</td><td>2011</td><td>2013</td><td>2015</td></tr><tr><td>F03D9/00</td><td>54.826</td><td>64.933</td><td>72.926</td><td>57.315</td><td>52.437</td></tr><tr><td>F21S9/04</td><td>4.018</td><td>10.187</td><td>15.132</td><td>15.699</td><td>15.781</td></tr><tr><td>B60L8/00</td><td>13.846</td><td>16.619</td><td>14.894</td><td>10.877</td><td>9.698</td></tr><tr><td>H07J7/00</td><td>11.422</td><td>15.247</td><td>19.374</td><td>14.015</td><td>11.082</td></tr><tr><td>F03D0/06</td><td>8.639</td><td>13.609</td><td>16.022</td><td>13.216</td><td>11.511</td></tr></table>",
+    "context12": "由图3左侧可知,分类号F03D9/00一直平稳处于最上方,即随着时间的变化,IPC分类号FO3D9/00的LOF取值一直最大,代表该专利节点所处的数据集区域的分布最为稀疏,也即处于平面数据集的右上角区域(专利IPC总频次最大,总共线次数最大，代表风能领域的核心专利技术)；IPC分类号FO3D3/06,H02J7/00,B60L8/00的变化趋势趋于平缓,表明这些IPC 分类号代表的技术在近十年的发展中趋于平缓和稳定;IPC分类号F21S9/04(圆形虚线） $\\hphantom { - } 2 0 0 7$ 年到2015年一直稳定上升，说明中国风能领域照明装置及系统方面的技术在稳步提升，专利节点随着时间推移向二维平面数据集的右上角挪动。",
+    "context13": "三种情况下，五个主要IPC分类号的局部离群因子值的变化趋势相似,但是当 $k$ 取值为100时,其折线图的变化更加平稳，故本文主要按照 $k$ 取值100时的LOF折线图进行分析。图5左分类号F03D9/00一直平稳处于最上方，即随着时间的变化，IPC分类号F03D9/O0的LOF取值一直最大，代表该专利节点所处的数据集区域的分布最为稀疏,也即处于平面数据集的右上角区域(专利IPC总频次最大，总共线次数最大,代表风能领域的核心专利技术)；IPC分类号F03D3/06,H02J7/00,B60L8/00 的变化趋势趋于平缓，表明这些IPC分类号代表的技术在近十年的发展中趋于平缓和稳定;IPC分类号F21S9/04(圆形虚线)从2007年到2015年一直稳定上升，说明中国风能领域照明装置及系统方面的技术在稳步提升，专利节点随着时间推移向二维平面数据集的右上角挪动。",
+    "context14": "为了验证局部离群因子算法(LOF)在探测技术发展趋势方面的有效性，本文与社会网络分析方法的结果进行对比,在此基础上识别中国在风能领域的核心技术并探测核心技术的发展趋势。",
+    "context15": "4.2社会网络分析在中国风能专利数据中的应用对收集的中国风能专利数据进行处理，借助相关软件构建共现矩阵，得到基于IPC分类号的共现网络。网络图的每个节点代表一个IPC分类号,节点越大，代表该IPC分类号的点度中心度越大，即与该节点共线的节点数越多；节点之间的连线代表两个IPC分类号存在共现,即出现在同一条专利文本中,共现的频次越高，则连线越粗[26-27 。",
+    "context16": "通过分析中国截止到2005年和2015年的风能专利的共现网络图可知：网络图的最大节点均为FO3D9/00,即中国的风力发电机技术一直保持优势。但上述共现图只能看到整体发展态势，但并不能识别核心技术的动态发展趋势，对我国风能产业的发展没有很强的指导意义。故本文将时间序列和网络共现阈值进行结合，分阶段画出中国在风能领域的专利共现网络图。共现阈值反映两个专利节点出现在同一专利文本中的频次,频次越高，则共现阈值越大。本文通过控制节点之间的共现阈值,使每个阶段中的网络节点数目维持在12个(共现阈值较低的节点不会出现在网络图中）,分别绘制出中国在四个阶段的共现网络图,即截止到1999年、2000年到2005年、2006 年到2011年和2012年到2015年四个阶段(分别见图4～图7）。",
+    "context17": "![](images/536e8bed4e000ef115dc345c6f146c7deaad5ed7d1ab6c36546543476b42d429.jpg)  \n图4中国第一阶段网络图(截止到1999)",
+    "context18": "![](images/6b9c7c99390ffb1e56db972b8705172373d31d337352b1899aae3674f3f8b361.jpg)  \n图5中国第二阶段网络图(2000-2005)",
+    "context19": "![](images/0eda0f97a8b282a050ea75a59a2ebdfc186bd9d632adbf55e404d077bc4bf05d.jpg)  \n图6中国第三阶段网络图(2006-2011)",
+    "context20": "![](images/b737a1bccd1302ee63a6d88f1ae937db2099332253ff7269db1e6df14a79ccfa.jpg)  \n图7中国第四阶段网络图(2012-2015)",
+    "context21": "通过分析中国四个阶段的共现网络图可得：",
+    "context22": "第一,在前三个阶段,中国的风力发电机技术一直保持优势,核心节点始终维持在F03D9/00。到第四个阶段,风力发电机技术逐渐趋于弱化,在图7中表现为左上方较小的专利节点。从技术生命周期的角度看，中国在F03D9/00代表的风力发电机技术方面进入了成熟期，该领域的专利申请已经趋于饱和状态或者发展空间有限2 。",
+    "context23": "第二,分类号为F21系列的节点在第三阶段开始出现并缓慢增长,在左下角形成了一个小型群落（图6所示）。在第四阶段,F21系列的专利节点迅速增长并在右上角形成明显群落（F21S9/03、F21V23/00、",
+    "context24": "F21W131/103、F21S9/04、F21Y101/02）,最大节点和最强连线都聚集在此群落中（图7所示）。由此可知，F21系列的专利在第四阶段发展迅速，增长空间大，可以预测，中国在照明装置及系统具有明显优势和潜力。"
+  },
+  "4.3LOF算法与传统社会网络分析方法对比分析": {
+    "context1": "将LOF算法和社会网络分析方法进行对比分析，得到以下结论：",
+    "context2": "（1）中国的风力发电机技术一直保持优势，核心专利节点始终维持在FO3D9/O0。在LOF算法的二维数据集平面中,该专利节点始终保持在右上角,所处区域的分布比较稀疏,从2007年到2015年期间，该专利节点的LOF值一直维持在较高水平。",
+    "context3": "（2）社会网络分析方法中,分类号为F21系列的节点在第三阶段开始出现并缓慢增长并在第四阶段的共线网络图中形成明显群落,可以推测中国在风能领域的照明装置或系统具有明显优势和潜力;同理在LOF算法中,IPC分类号F21S9/04(圆形虚线)从2007年到2015年一直稳定上升,表示该专利节点所处的区域由密集转向稀疏,即向二维数据集平面的右上方推进(右上方即代表高频次及高共线频次的专利节点），说明中国风能领域照明装置及系统方面的技术在稳步提升，在此方面具有发展潜力。"
+  },
+  "5结论": {
+    "context1": "本文将局部离群因子算法运用到专利分析领域，用来识别特定领域的核心技术并探测核心技术的未来发展趋势。以中国风能领域的专利数据为例，分别从局部离群因子LOF算法和社会网络分析方法两个视角对中国风能的专利数据进行研究分析,发现两个研究视角得出的结论具有一致性:a.中国在风力发电机技术方面一直保持优势，核心专利节点始终维持在FO3D9/0O;b.中国在风能领域的照明装置及系统方面的技术在稳步提升,在此方面具有发展潜力。从而进一步验证了LOF算法在探测核心技术及其发展趋势方面的有效性。"
+  },
+  "参考文献": {
+    "context1": "[] 邱均平，温芳芳.作者合作程度与科研产出的相关性分析——基于“图书情报档案学\"高产作者的计量分析[．科技进步与对策，2011(5)：1-5.",
+    "context2": "[Ortega JL.Influence of co-authorship networks in the research impact:Ego network analyses from Microsoft Academic Search",
+    "context3": "[19Hagen N T.Harmonic publication and citation counting: Sharing authorship credit equitably- not equally，geometrically or arithmetically [ .Scientometrics,2010,84(3):785-793",
+    "context4": "(责编:王平军;校对:刘影梅)"
+  },
+  "4结论": {
+    "context1": "本文以图书情报领域为例，探究了作者学术合作与其科研产出的关系。本文的结论主要有四点：a.从合作程度、合作稳定性和合作影响力三个维度入手考察作者学术合作的情况,构建了作者学术合作计量指标体系，同时又选择标准计数发文量和相对发文量(Hagen加权)作为定量考察作者的科研产出主要指标,为探索学术合作和科研产出的关系构建了定量的指标体系;b.合作能力指数是测度学术合作一个较为特殊、全面的指标,科研人员应注重与合作伙伴建立起稳定、高频的合作模式;c.如果科研人员想要提升自己的科研产出,应该着力于提升其在自身研究领域的影响力并与少数合作作者建立稳定、高频的合作关系；d.各学术合作计量指标、科研产出指标从不同角度反映作者的学术合作与产出水平，考察作者学术合作与产出之间的关系时应根据目的的不同选择不同角度的指标来分析其学术合作与科研产出水平。",
+    "context2": "综上所述，本文在探究学术合作与科研产出的关系中得出了具有理论补充和实践指导性意义的结论。但本文的研究结论是基于本文收集的图书情报领域的521位作者的数据,数据量较小;此外,本文仅用论文合作来表示科研产出水平，且忽略了科研产出与学术合作间的时间滞后性,因此存在一定的局限性。在今后的研究中,还需要进一步探究直接合作与间接合作之间的区别和联系，结合定性、定量的分析方法综合、全面考察学术合作及其影响效果。"
+  },
+  "[1]朱丽娟，李丽娜.学术合作计量指标研究述评[．情报杂志,2013(6): 76-79.": {
+    "context1": "[13]Schubert A. Jazz discometrics-A network approach [].Jounal of Informetrics,2012,6(4) :480-484."
+  },
+  "(上接第124页)": {
+    "context1": "York,ACM,2000:427-438.   \n[6]Newman M E J,Girvan M.Finding and evaluating community structure in networks [ .Physical review E,2004.   \n[7]Newman M E J.Detecting community structure innetworks [].",
+    "context2": "The European Physical Journal B-Condensed Matter and Complex Systems,2004.",
+    "context3": "[28]李春燕.基于专利信息分析的技术生命周期判断方法[].现代情报,2012,32(2):98-101.",
+    "context4": "(责编:贺小利;校对:王平军)"
+  }
+}

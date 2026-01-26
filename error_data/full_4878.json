@@ -1,0 +1,96 @@
+{
+  "original_filename": "full_4878.md",
+  "·舆情研究·": "",
+  "大数据环境下舆情分析与决策支持研究文献综述": {
+    "context1": "夏火松 甄化春（武汉纺织大学 管理学院武汉430073）",
+    "context2": "摘要大数据时代使得传统的舆情分析方式发生了剧变，已有的舆情分析技术和监控系统很难适应这一情景的变化。大数据舆情处理理论和技术的研究与发展状况，迫切需要很好的梳理。论文对当前国内外的舆情分析及决策支持系统的构建等相关研究进行了文献梳理和分析，对当前的网络舆情分析的关键技术进行了总结，构建了大数据时代舆情监控与决策支持的分层模型，并针对当前网络舆情分析的不足进行了讨论，提出了值得研究的问题。最后对社会與情分析的发展方向进行了展望。",
+    "context3": "关键词大数据舆情分析决策支持中图分类号 G353.11 文献标识码ADOI $1 0 . 3 9 6 9 / \\mathrm { j }$ .issn.1002—1965.2015.02.001",
+    "context4": "文章编号 1002—1965(2015)02—0001—06"
+  },
+  "Public Opinion Analysis and Decision Support Study under Big Data Surroundings": {
+    "context1": "Xia Huosong Zhen Huachun (School of Management，Wuhan Textile University，Wuhan 430073)",
+    "context2": "AbstractThenewbigdata erabringsagreatchallngetotheoriginalpublicopinion analysis methods.Theexistingpublicopinionanalysis technologiesandoninepublic monitoringsystemsareinsufficientfor todays applicationrequirements.Thereisanurgent nedfortheresearchonthe statusand developmenttrendof publicopinion analysis underbigdata surroundings.This paper summarized thepresentstudysituationofpublicopinionanalysis homeandabroadand proposedahierarchicalmodelforpublicopinion monitoring and decisionsupport.Simultaneously，we discussd the weak pointsof the present study.Finall，we put forward the development trend of the public opinion analysis in the context of big data era.",
+    "context3": "Key words big datapublic opinion analysisdecision support"
+  },
+  "0引言": {
+    "context1": "大数据的发展与应用给社会的各方面带来了深远的影响，其中大数据情景下社会舆情的研究成为当前政府、企业和科研机构的一个热点研究课题。2012年3月奥巴马政府推出了包括大数据的管理、分析、可视化以及大数据辅助决策等项目的\"大数据研究与开发计划”,2013年国务院副总理汪洋谈大数据时以流感病毒的舆情分析为例强调了大数据分析对于政府工作的重要性。近年来，以\"郭美美事件”“切糕王子”以及“航母Style”为代表的社会热点事件进一步的推动了大数据时代社会與情研究的热潮。",
+    "context2": "在大数据时代，如何快速的对海量网络数据进行分析并建立舆情监控和引导机制从而为管理者提供决策支持是当前研究的热点和难点。相对于传统的社会舆情分析,大数据时代的社会舆情分析更集中于对大量网络数据的搜集、存储、清洗并结合文本挖掘技术从大量低价值密度的数据中获取相关的舆情研究信息[1-3]。大数据时代为我们提供了海量研究数据同时，其数据容量大、流动快、形态多样、价值密度低以及真实性不高等特点，使得仅依据数据统计进行舆情监控的传统方法不再适用[4-6]。如何浓缩海量信息，抵抗\"数据爆炸”,从而实现舆情信息增值并提高关联数据的趋势研判能力是大数据时代舆情分析的重大挑战[7]。文章对大数据舆情分析以及决策支持系统相关的研究文献进行了归纳总结，对文献中有关大数据处理以及网络数据挖掘相关的技术进行了梳理并提出了大数据时代舆情分析的一般研究框架，同时构建了大数据舆情监控与决策支持分层模型。",
+    "context3": "文章研究过程中获取参考文献和相关资料的过程如下：首先以“Big Data\"或\"Public Opinion\"或\"PublicSentiment\"或“Decision Support System”为关键词在Web Of Science数据库中分别以出版时间和引用次数为搜索顺序，并从检索结果中分别选择了前50篇高频引用的外文文献和50篇最新出版的外文文献，剔除无关文献，共得到79篇相关文献。同时在EBSCO，Elsevier,EI,SpringerLink数据库中以上述四个关键词按时间和引用次数下载相关外文文献51篇，并在Google Scholar 中以\"Big data and Public Opinion A-nalysis\"为关键词搜索了20篇最新文献。最后在中国知网和万方数据库以及维普数据库中以“大数据”或“舆情分析\"或\"决策支持\"或\"大数据舆情\"为检索条件下载相关中文文献70篇。通过对这些文章的阅读和分析得到后述分析结论。",
+    "context4": "本文的研究结构如下：第二部分梳理了国内外舆情分析与决策支持研究和发展的概况，第三部分对大数据环境下网络舆情分析的关键技术进行了总结，第四部提出了大数据环境下网络舆情分析的分层模型，第五部指出了当前舆情分析的不足，并对社会舆情分析和决策支持相关的研究问题与研究趋势进行了归纳。"
+  },
+  "1社会舆情分析与决策支持的研究和发展概述": {
+    "context1": "从已有與情研究文献内容看，社会與情研究大致经历了传统社会舆情分析、网络舆情分析和大数据舆情分析三个阶段。传统社会舆情分析更趋向于研究热点事件、政策及新颁布的法律条文对于社会舆情的影响之间的关系[8]。MacLennan等[9]通过调查抽样方式研究了新西兰民众对于酒精政策的态度，Alan等[10]使用盖洛普世界民意调查数据研究了恐怖袭击与民众态度之间的联系。网络舆情的研究经历了早期简单粗放的研究阶段和当前海量网络舆情研究的阶段[11]。Twitter、Facebook、微博、人人等社交网络平台的兴起掀起了网络舆情研究的热潮,Ceron[12]通过Twitter获取2012年法国大选中网民情感取向数据并对大选结果进行预测，证明了社交媒体较好的预测能力。康伟[13]通过搜集新浪网、腾讯网和人民网等网站中“11.16 校车事故”的舆情信息，构建了该事件的舆情传播网络拓扑图，进而提出网络與情的引导策略。",
+    "context2": "大数据舆情分析是與情研究的一个前沿课题，其利用数据挖掘和大数据处理相关技术从海量数据中提取有用的知识用于决策支持[14-15]。现有文献主要从大数据舆情相关的机遇、挑战以及研究方法上进行概述，从技术层面研究大数据舆情的文献相对较少。Broniatowski[16]、马兵[7]、李彪[17]、李希光[18]等针对当前大数据舆情研究面临的问题从理论角度进行了叙述，对社会舆情搜集、研判和预警作了详细的介绍。喻国明以百度搜索词为研究对象，采用大数据分析技术对中国社会热点舆情进行了分析[19]。JI $\\mathrm { C } ^ { [ 4 ] }$ 、Mer-ja[20]对并行处理、云计算、高级机器学习和智能数据处理等大数据处理技术进行了研究。李金海等[21]利用大数据思想构建了网络舆情的文本挖掘模型，并通过实验验证了模型的准确性和时效性。",
+    "context3": "在舆情分析的决策支持研究方面，传统决策支持系统以模型库为基础，通过模块调用分析函数并将调查结果以可视化的方式展示给决策用户，能够较好的处理传统舆情分析中以调查问卷、统计等方式搜集的量小且结构单一的数据（如图 $1 ) ^ { [ 1 4 ] }$ 。在网络舆情研究方面，国内外已有众多成果，其中代表性的有国外的Twelvefold、Buzz Metrics、Reputation Defender、Ci-sion以及国内的人大方正、Rank、Goonie、军犬、麦知讯等舆情监控系统。对于大数据舆情的分析，学界尚未形成一套完整的研究体系，其主要通过继承网络舆情分析的技术和方法并结合大数据的特性进行相关的分析和处理[21-22]。",
+    "context4": "![](images/f1d7bf20d4d7007b2a5449777a9d22c60bc72ad24be7f573f8af535766277a52.jpg)  \n图1传统社会舆情分析的决策支持系统"
+  },
+  "2大数据环境下网络舆情分析的关键技术": {
+    "context1": "当前社会舆情的研究正处于从网络舆情研究到大数据舆情研究的过渡期，在处理技术上，大数据舆情分析继承了网络舆情分析的诸多方法[4-5.22]。同时，二者在分析步骤上具有相同的范式。通过对网络舆情分析和大数据舆情分析的相关文献的归纳，文章总结出大数据时代网络舆情分析的基本研究框架和五类关键技术：信息采集、热点发现、热点评估、主题跟踪和分析处理[23-24]。",
+    "context2": "2.1信息采集技术信息采集是网络舆情分析的第一步，其包含数据的爬取、数据的存储和清洗等相关技术。当前的学者主要通过网络爬虫程序、网站API接口获取研究数据。常用的网络爬虫Heritrix,Nutch和Labin。 $\\mathrm { H u } ^ { [ 2 5 ] }$ 等人在Hertrix的基础上增加关键词管理模块、内容提取模块、最佳优先策略和重复删除模块建立了一个增强的Heritrix,提高了抓取数据与热点话题的相关度。Mehta[26],Signorini等[]利用Twit-ter API流获取了Twitter中热点事件的实时数据。Xiao S等利用Sina微博的官方API接口和网络爬虫相结合的方法搜集了大量研究数据，克服了新浪微博不提供大量分析数据的问题[22]。大数据时代数据爬取面临的主要技术难题是如何同时提高获取数据的精度、速度以及对不同领域和各种形态的数据的有效爬取[27-31]。Ackerman 等[27]提出的基“SYSKILL&WEBERT\",\"DICA\"和\"GRANT $\\&$ LEARNER\"三个智能体的方法能够对特定领域的舆情信息进行爬取，并通过设定特征集合来提高信息搜集的精度，但是该方法在搜集不同领域的知识和信息时舆情信息精度较低且系统运行速度较慢。Chakrabarti等[29]提出了一个聚焦爬虫的超文本资源发现系统，它能实现对预先定义的热点事件相关的网络信息的快速提取以及数据库的实时更新，但是该方法不能对其未定义的热点舆情数据进行有效的爬取。Aggarwal等[32]发明了一项智能爬取技术，能够通过自主学习来提高后续信息爬取的精度和广度，但是不能对预定义的热点进行爬取。另外，对于音频、视屏以及图片和文本等各种混杂的数据的获取，目前还没有一些有效的技术手段。",
+    "context3": "现阶段的网络舆情分析的数据存储方法主要是将获取的热点数据直接存储于SQLServer,ORACLE,Sybase等数据库中。大数据的出现以及结构数据的改变对常规的数据存储技术带来了巨大挑战。对于不同的数据类型，学术界提出了三种大数据存储技术：海量非结构化数据的分布式文件存储系统、海量半结构化数据的NoSQL数据库和海量结构的分布式并行数据库系统[33]。数据的清洗是对采集的数据进行整理，删除无效网页数据和重复的文本数据。",
+    "context4": "2.2网络舆情热点发现技术网络舆情热点发现包括目标话题的识别与跟踪（TDT)，其强调对新信息的发现和特定热点的关注，通过聚类将信息汇总给用户，并自动跟踪新闻事件，提供事件发展的轨迹[27-29,34]。根据[23—26]文献，可以将数据清洗分为数据采集阶段无效链接、重复和无关数据的清理以及分词特征提取时停用词的剔除两个阶段。当前主要使用人工方法和基于特征词表以及停用词表的方法，通过自学习进行数据的清洗工作。该技术根据文本聚类的算法从大量Web网页中发现网络舆情热点。现有的研究技术主要有 Single—pass 聚类算法、K一means、KNN最邻近法、支持向量机（SVM)算法和SOM神经网络聚类算法。",
+    "context5": "Single一Pass是话题发现中最常用的聚类算法，其在动态聚类和速度上表现较好，但是在时效性和精度方面存在不足。近年来国内相关学者对此算法进行了改进，取得了不错的效果。税仪冬等[35]提出了一种周期性分类和 Single一pass聚类结合的话题识别和跟踪方法。该方法能够降低漏检率和错检率,减少归一化错误的识别代价。方星星，吕永强[36通过引入子话题中心和时间距离计算公式并根据文档内容相似度和文档时间距离来计算相似度使算法在漏检率、误检率、耗费函数等方面有了显著改善。 $\\mathrm { K } - \\mathrm { m e a n s }$ 算法是一种基于硬划分的无监督聚类算法。该算法具有良好的可伸缩性和很高的效率，但是需要事先给定分类簇数K，并且其分类结果受初始值、噪声和孤立点的影响较大。KNN算法是一种基于类比学习的非参数分类技术。该方法在统计模式识别中有很好的效果，对于未知和非正态分布可以得到较高的分类准确率，但是当训练样本过多时计算速度会减缓。支持向量机（SVM)是用来解决同一时间内多热点事件的识别和报道的分类问题的一种方法，其采用结构风险最小化原则，范化能力强且不易出现过学习现象，在处理小样本时有出色的学习能力和推广能力。但SVM算法在多类分类的研究还处于探索性阶段且在算法的实现方面存在训练速度慢、算法相对复杂的问题。SOM神经网络聚类算法是一种无监督的学习方法，通过模拟人脑对信号的处理特点而发展起来的一种人工神经网络。SOM聚类的难点是如何设置输出层的节点个数，过多或过少都会对聚类的质量和网络收敛的效率产生影响。因此,SOM神经网络不能够准确的识别不同类别的事件，有可能将不同热点事件混淆。",
+    "context6": "对于以上几种热点发现算法，相关学者对其进行了比较。习婷等[37]通过对比以上两种算法发现， $\\mathrm { S i n ^ { - } }$ gle—pass算法在网络热点检测中比K一means算法的效果更好。柳虹，徐金华[38]通过对比实验发现 SVM比K一means算法在热点发现中表现出更好的效果，并且对于建立在结构风险最小化理论基础上的SVM算法能够处理高维的文本多类分类问题，同时表现出良好的泛化效果。尽管传统的 Single一pass 和K一means算法存在很多缺陷，但是由于它们相对简单的规则和较快的计算速度而被广泛的用于当前大数据聚类分析中。",
+    "context7": "2.3热点评估和跟踪热点评估是根据热点事件中公众的情感和行为反应对舆情进行等级评估并设立相应的预警阈值。词频统计、情感分类是网络舆情评估的两个主要手段。词频统计是对网络调查数据、网络文章关键词和浏览统计数据等信息进行分析并作出评估。这种方式对于文本量大的结构化数据的处理效果较好，但是对于社交网站中海量非结构化的文本数据并不能有效地评估。因此，这种热点评估方法通常结合领域词典和相似性计算，根据设立的相似度阈值进行相关情感词语的分类统计。中文语言的Word-Net和英文语言的HowNet是两种常用的词语相似度计算工具。基于情感分类的热点评估在舆情评估领域使用的较为普遍，夏火松等[39]对情感研究进行了综述，详细介绍了情感分类的两类关键技术：基于概率论和信息理论的分类算法，如朴素贝叶斯算法（NB），最大熵算法(ME)以及基于机器学习的分类算法，如决策树，支持向量机(SVM)等。当前主要使用K最近邻算法（KNN)和朴素贝叶斯算法（NBC）进行热点跟踪，通过对热点舆情的快速分类，实现跟踪目的[34]。KNN算法对于舆情信息的分类准确性较高，但是对于大批量数据的处理速度较慢。NBC算法在分类效率上较为稳定，但是由于其模型假设属性之间相互独立的特点，使得其分类误差率受到了一定的影响。",
+    "context8": "2.4分析处理舆情分析是根据热点事件的分析结果评估事件的舆情等级并根据已有的标准采取相应的控制和引导措施。分析处理是大数据时代网络舆情监控中决策层的范畴，它涵盖了舆情事件的早期预警、舆情的引导、网络民意的反馈、沟通和舆情的总结评估机制[40]。网络舆情预警阈值的设置同其它领域舆情设置相似，通常基于分类或聚类的思想，根据已有的舆情信息的关注度、传播速度以及影响程度将舆情信息分为绿、黄、橙、红四种颜色等级，其中绿色最弱，红色表示最危险等级。在舆情预警中，常用的分类学习方法有神经网络、贝叶斯分类器、最近邻方法和SVM。Alessio使用支持向量回归的方法对Twitter中H1Nl相关的语料进行分类[1]。Sun X等基于 SVM模型对新浪微博大数据进行了样本训练和分类[22],Cuneyt[41]使用人工神经网络、决策树、回归分析模型构建了一个金融风险等级预测机制FPI。在网络舆情引导模型的构建上,FengCao等[40]从政府、企业以及意见领袖三方探讨了网络與情引导的策略。",
+    "context9": "根据上述网络舆情分析的关键技术总结，文章提出了大数据时代网络舆情分析的一般研究框架（见图2)。"
+  },
+  "3大数据环境下舆情分析的决策支持系统分层模型": {
+    "context1": "对基于社会舆情分析的决策支持系统的研究，当前国内外的有关文献相对较少。在已有的舆情系统中，决策支持模块一般处于舆情监控系统的服务层，其功能是通过可视化的界面为用户提供决策依据[24,40,42]。当前舆情监控系统中决策支持层的主要功能有：利用现有模型对舆情信息进行分析，掌控舆情的热度和发展态势；自动生成各类统计数据和舆情报告辅助决策；实时监控，发现重要信息和敏感信息及时预警。在当前舆情监控系统中，舆情的应对策略最终由人制定的，缺少智能化的策略推荐系统。FengCao[40],JieDing等[43]提出的舆情监测模型中决策支持模块为一种决策辅助工具，不能自主生成舆情决策策略。当前学者主要从数据的采集和清洗模块、数据的分析模块和决策支持三大模块来构建舆情分析和决策支持系统。基于此,文章根据大数据处理的相关技术提出大数据时代舆情分析及决策支持系统构架。",
+    "context2": "![](images/e6f2ced9081041650b1a5ab06ced1dfddbcf217067b95305b97692f0ea2143e3.jpg)  \n图2大数据时代网络舆情分析的一般研究框架",
+    "context3": "3.1大数据处理的相关技术大数据时代的到来对现有的数据处理技术带来了巨大的挑战,JiC等[4]从大数据的储存和管理、计算和分析以及大数据安全三个角度分析了大数据给现有技术带来的挑战。在数据存储上，当前的数据存储技术远远不能满足数据的增长速度。思科公司数据统计表明，当前数据的增长速度仍高于网络的承载能力，同时数据异质性问题减缓了数据存储的速度。为应对数据存储方面的挑战，亚马逊公司的Web 服务、AT&T的突出托管、 $\\mathrm { A p ^ { - } }$ pNexus、GoGrid、Rackspace 云托管、IBM/Google/Mi-croStrategy商务智能云都推出了各种类型的云服务用于解决大数据的存储问题[44]。云服务可以实现以最少的工作或服务建立一个共享的结构化的计算资源供应平台，从而缓解大数据存储问题。但是云服务相关的技术目前处于未成熟期，面临着数据安全、成本、技术融合、服务水平协议等采纳方面的挑战和云协同性问题[45] 。",
+    "context4": "在数据的分析和计算方面，处理问题的速度是一个重要的现实需求，但是在解决现实问题时需要遍历数据库中的所有相关的数据，这在大数据时代将花费大量的时间。通过数据索引技术解决数据遍历问题是当前的一个重要优化手段，但是该方法仅适用于数据结构单一的情况。大数据结构多样性的特点要求将合适的索引技术同持续更新的预处理技术结合来处理该问题[46]。目前并行处理和分治算法是处理大数据问题的通用模式，基于云技术可以实现成百上千的计算机同时处理大数据计算问题，从而降低模型成本和时间成本[47]。Hadoop[48]是当前学术界和企业界用来解决大数据存储和分析问题的一个主流技术，它是 A-pache开源分布系统的构架基础,由HDFS、MapRe-duce和HBase组成。陈彦舟等[49]设计了一个基于Hadoop的微博舆情监控平台，并通过实验证明该平台在分析大规模微博與情数据的有效性。"
+  },
+  "3.2大数据舆情分析及决策支持的分层构架模型": {
+    "context1": "文章通过对 Feng Cao[40],Cheng Xian-Yi[24],陈彦舟[49]等学者构建的舆情预警系统的模型的归纳并结合大数据处理的相关技术和决策支持系统的相关理论，提出了大数据舆情分析与决策支持的分层模型（如图3）。该模型分为数据搜集与存储、数据分析和决策支持三个模块，其中数据搜集与存储和数据分析模块在原有的舆情分析系统基础上增加了大数据存储和分析的技术，在决策支持模块增加了专家知识库。该模型在解决大数据存储和分析问题的同时利用专家知识库对舆情处理提供针对性的策略，弥补了舆情预警系统中决策支持模块仅能被动提供决策辅助的缺陷。",
+    "context2": "![](images/df04483eca660a3c286aeaa655351e8314e2f25b8b098339788563ef803beaab.jpg)  \n图3网络舆情分析与决策支持的分层模型"
+  },
+  "4结论与讨论": {
+    "context1": "社会與情分析一直是学界研究的一个热点课题。从当前研究看，国内外学者的研究视角大多集中于网络舆情分析的算法以及舆情监控系统的研究，对大数据舆情分析相关的技术研究相对缓慢，还不能满足现实需求，同时对舆情分析相关的决策支持研究相对较少。论文在前人的研究的基础上，通过对大数据环境下舆情研究及其决策支持相关文献的总结归纳，对大数据时代网络舆情分析的关键技术进行了综述，指出了当前研究的不足，并提出了大数据时代舆情研究的一般研究分层模型，对以后的研究有一定的参考价值。",
+    "context2": "大数据时代社会舆情的研究还处于探索性的阶段，众多大数据的处理技术还处于尝试阶段，对于海量数据的存储、分析以及网络舆情分析的构架仍未有一个统一的模式。这些问题具体体现在以下几个方面：",
+    "context3": "a．尚未成熟的大数据处理技术。当前大数据的研究更多体现在理论研究层面上，尽管上文介绍了众多的大数据处理技术(如Hadoop、云计算)，但由于数据安全性问题，这些技术并未完全的应用于市场。",
+    "context4": "b.舆情监控系统中决策支持模块的功能过于单一。决策支持系统的研究已相对成熟，当前已发展到IDDS和3IDDS阶段，而舆情监控系统中决策支持模块仅能为用户提供决策辅助的可视化图形和数据，不能够自主地为用户推荐针对性的决策策略，这反映了决策支持系统与舆情监控系统的匹配失衡问题，同时也说明学界对于这一交叉领域的研究相对较少，后续需要给予更多的研究。",
+    "context5": "c.大数据和舆情分析以及决策支持研究过于分散。当前国内外学者对于大数据和舆情分析以及决策支持的研究众多，但是对于大数据舆情研究相对较少，而舆情分析和决策支持系统的研究则更少，这种现状使得当前缺乏一个相对统一的舆情分析技术、模式和决策支持系统。",
+    "context6": "根据当前学界和企业界的研究进展情况，未来大数据舆情研究方向如下：",
+    "context7": "a.结合数据挖掘技术分析方法与行为分析方法的交叉验证的研究成为未来研究该问题的一种趋势。",
+    "context8": "b.结合云计算、大数据、移动可追塑性分析、个性化特征识别的网络机器人与社会心理分析实验因果模型成为未来研究的一种趋势。",
+    "context9": "c.构建基于分层模型的平台与研究主题的知识管理型决策支持平台成为未来研究的一种趋势。"
+  },
+  "参考文献": "",
+  "[7]马兵.大数据时代舆情服务的机遇与挑战[J].中国记者，2013(6):116.": "",
+  "[11]刘建.大数据时代的舆情版图——访武汉大学信息管理学院教授、舆情研究学者 沈阳[J].人民论坛，2013(15)：22—23.": {
+    "context1": "[12]Ceron A,Curini L,Iacus S M,et al.Every Tweet Counts？ How Sentiment Analysis of Social Media Can Improve Our Knowledge of Citizens’Political Preferences With An Application to Italy and France [J].New Media& Society,2014,16 (2):340-358."
+  },
+  "[13]康伟.突发事件舆情传播的社会网络结构测度与分析基于“ $1 1 \\cdot 1 6$ 校车事故\"的实证研究[J].中国软科学，2012，(7):169-178.": {
+    "context1": "Data Acquisition for Opinion Mining[M]//Intellgent Computing Methodologies. Springer International Publishing， 2014:551-560.   \n[23]Nguyen V D,Varghese B,Barker A. The Royal Birth of 2013:Analysing and Visualising Public Sentiment in the UK using Twitter[C]//Big Data,2013 IEEE International Conference on.IEEE,2013:46-54.   \n[24] Xian Yi C,Lingling Z,Qian Z,et al. The Framework of Network Public Opinion Monitoring and Analyzing System Based on Semantic Content Identification [J].Journal of Convergence Information Technology,2010,5(10).   \n[25]Hao Hu,Yuejing Ge,Dongya Hou. Using Web Crawler Technology for Geo-Events Analysis:A Case Study of the Huangyan Island Incident.Sustainability [J].2014,6(4):1896-1912.   \n[26]Mehta R,Mehta D,Chheda D,et al. Sentiment Analysis and Influence Tracking Using Twitter [J].International Journal of Advanced Research in Computer Science and Electronics Engineering（IJARCSEE),2012,1(2):72-79.   \n[27]Ackerman,Mark,et al. Learning Probabilistic User Profiles: Applications for Finding Interesting Web Sites,Notifying Users of Relevant Changes to Web Pages,and Locating Grant Opportunities[J]. AI Magazine,1997,18(2):47-56.   \n[28] Jiang,Di,Kenneth Wai-Ting Leung,Wilfred Ng.\" Fast Topic Discovery from Web Search Streams.\" in Proceedings of The 23rd International Conference on World Wide Web. International World Wide Web Conferences Steering Committee,2014:949-960.   \n[29] Chakrabarti,Soumen,Martin Van den Berg,Byron Dom.Focused Crawling:A New Approach to Topic-Specific Web Resource Discovery [J].Computer Networks,1999,31(11):1623－1640.   \n[30] Hafri,Younes,Chabane Djeraba. High Performance Crawling System.Proceedings of the 6th ACM SIGMM International Workshop on Multimedia Information Retrieval. ACM, 2004:299-306.   \n[31]Baeza-Yates,Ricardo,Carlos Castillo. Balancing Volume, Quality And Freshness In Web Crawling [J].In Soft Computing Systems-Design,Management and Applications. 2002.   \n[32] Aggarwal,Charu C,Fatima Al-Garawi,Philip S Yu. Intelligent Crawling on the World Wide Web with Arbitrary Predicates.Proceedings of the 1Oth International Conference on World Wide Web. ACM,2001:96－105.   \n[33]李海波，程耀东.大数据存储技术和标准化[J].信息技术与标 准化,2013(5).   \n[34]王登峰.网络舆情事件热点发现的算法比较分析［J].信息通 信，2014(2):32-34.   \n[35]税仪冬，瞿有利，黄厚宽.周期分类和Single—Pass聚类相结合 的话题识别与跟踪方法［J].北京交通大学学报：自然科学版， 2009,33(5):85-89.   \n[36]方星星，吕永强.基于改进的 single一pass网络舆情话题发现 研究[J].计算机与数字工程,2014,42（7)：1233—1237.   \n[37]习婷,李菊芳.Single—Pass算法和K一means 算法在Web 话题 分析中的对比性研究[J].International Conference on Ad一"
+  },
+  "[19]喻国明.构建社会舆情总体判断的大数据方法——以百度海量搜索数据的处理为例[J].新闻与写作,2013(7)：67-69.": {
+    "context1": "[20]Mahrt M,Scharkow M.The value of Big Data in digital media research[J].Journal of Broadcasting& Electronic Media, 2013,57(1):20—33."
+  },
+  "[21]李金海，何有世，熊强，等.基于大数据技术的网络舆情文本挖掘研究[J].情报杂志，2014,33(10)：1-6.": {
+    "context1": "[22] Sun X,Ye J,Ren F. Multi- strategy Based Sina Microblot具有明显影响，发帖者数量越多、传播意愿越强烈，则越容易形成舆情事件；",
+    "context2": "d.网民密度和网民对舆情事件的兴趣程度对是否形成舆情事件具有明显影响，网民密度越大、对事件的兴趣程度越高，则越容易形成與情事件。",
+    "context3": "根据以上结论,针对网络论坛的舆情管理可以给出以下三点建议：",
+    "context4": "a.网络论坛的舆情管理应该以网友比较集中的知名论坛的热门板块为重点管理对象，集中注意力和资源进行长期监测和管理；",
+    "context5": "b.对于网络论坛中短时间内集中出现的、同主题的帖子要加大舆情监测力度，分析发帖者身份，对于比较集中的发帖者，应该重点关注；",
+    "context6": "c.对于论坛中的版主、知名版友等“意见领袖\"类人物应该重点管理,可以通过“意见领袖\"引导论坛中舆情事件的发展演化，塑造和把握“意见领袖”有利于对网络舆情的控制。",
+    "context7": "网络论坛舆情演化的仿真实验取得了一定的研究成果，同时也存在不完善之处。本次仿真实验主要考虑了turtle和patch之间的交互,未考虑 turtle之间的交互，这是本研究未来工作方向之一，除此之外，传播学、信息学、情报学等其他学科中的经典理论及模型在网络舆情演化中的应用也需要进一步研究。"
+  },
+  "[2]林敏.网络舆情影响因素及其作用机制研究[D].杭州：浙": {
+    "context1": "[1]许鑫，章成志，李雯静．国内网络舆情研究的回顾与展望[J]．情报理论与实践，2009（3)：115—120.",
+    "context2": "江大学,2013.  \n[3]王来华．與情研究概论[M].天津：天律社会科学院出版社，$2 0 0 3 : 3 2 - 4 0 \\phantom { . }$ 、  \n[4] 陈力丹．舆论学——舆论导向研究[M.北京：中国广播电视出版社，2005：36—38.  \n[5] 詹络武．公共情结与大众传媒的宣导机制[J]．郑州大学学报：哲学社会科学版，2008，（11)：159—163.  \n[6] 高承实，陈越，等．网络舆情几个基本问题的探讨[J].情报杂志，2011,30(11）：52-56.  \n[7] 彭鹏.网络情绪型舆论的调控[J].军事记者，2004(7)：48-49.  \n[8] 方付建.突发事件网络舆情演变研究[D].武汉：华中科技大学，2011.  \n[9]董天策．网络新闻传播学[M.福州：福建人民出版社,2009(2)：294.  \n[10]张莹．网络论坛舆论传播现象研究[D]．长春：吉林大学,2011.  \n[11］中国互联网信息中心(CNNIC)．第26次中国互联网络发展状况统计报告[R],2010(7).  \n[12]朱毅华，郭诗云等．网络舆情研究中的仿真方法应用综述[J]．情报杂志,2013,32(10)：29—35.  \n[13]刘小波.基于NetLogo平台的舆情演化模型实现[J].情报资料工作,2012(1):55-60.  \n[14]宗立勇，顾宝炎．危机沟通环境中网络舆情演变的Multi一Agent建模研究[J].情报科学，2010(9)：1414—1419.  \n[15]保罗·F·拉扎斯菲尔德．人民的选择：选民如何在总统选战中做决定[M].北京：中国人民大学出版社，2012.  \n[16]张春华．网络舆情社会学的阐释[M]．北京：社会科学文献出版社，2012.  \n[17]宗立勇，顾宝炎等．基于注意力资源分配机制的网络危机舆情演变研究[J].情报理论与实践，2010（10)：29-33.",
+    "context3": "(责编：白燕琼）"
+  },
+  "（上接第6页）": {
+    "context1": "vanced Information and Communication Technology for Education（ICAICTE 2014),2014:190-195."
+  },
+  "[38]柳虹，徐金华.网络舆情热点发现研究［J].科技通报，2011(3).": "",
+  "[39]夏火松，彭柳艳，余梦麟.自动情感文本分类研究综述［J].情报学报，2011(5)：530-539.": {
+    "context1": "[40] Feng Cao,Zhenji Zhang ect.A Model of Ecological Monitoring and Response System for Internet [J].International Journal of Multimedia and Ubiquitous Engineering,2014,9 (5):373-390.",
+    "context2": "[41] Sevim C,Oztekin A,Bali O,et al.Developing an Early Warning System to Predict Currency Crises [J].European Journal of Operational Research,2014,237(3):1095-1104."
+  },
+  "[42]北大方正研究院.以科技手段辅助网络舆情突发事件的监测分析——方正智思舆情辅助决策支持系统［J].信息化建设，2005(10).": {
+    "context1": "[43]Jie D,Jungang X.IPOMS:an Internet Public Opinion Monitoring System[C]//Applications of Digital Information and Web Technologies,2oo9.ICADIWT'o9.Second International Conference on the.IEEE,2009:433-437.",
+    "context2": "[44]Dillon T,Wu C,Chang E.Cloud Computing:Issues and Challenges[C]//Advanced Information Networking and Applications（AINA),20lo 24th IEEE International Conference on. Ieee,2010:27-33.   \n[45]Demirkan H,Delen D.Leveraging the Capabilities Of Service -Oriented Decision Support Systems:Putting Analytics and Big Data in Cloud [J].Decision Support Systems,2013,55 (1)：412-421.   \n[46] Chen,Jinchuan,et al. Big Data Challenge:A Data Management Perspective [J].Frontiers of Computer Science,2013,7 (2)：157-164.   \n[47]Gunarathne T,Wu T,Choi JY,et al.Cloud Computing Paradigms For Pleasingly Parallel Biomedical Applications [J]. Concurrency and Computation：Practice and Experience, 2011,23(17):2338 - 2354.   \n[48]Shvachko K,Kuang H,Radia S,et al. The Hadoop Distributed File System [C]//Mass Storage Systems and Technologies (MSST),2010 IEEE 26th Symposium on.IEEE,2010:1-10.   \n[49]陈彦舟，曹金璇.基于Hadoop的微博舆情监控系统［J].计算 机系统应用，2013，22(4)：18—22. (责编：贺小利)"
+  }
+}

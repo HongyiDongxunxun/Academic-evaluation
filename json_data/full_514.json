@@ -1,0 +1,73 @@
+{
+  "original_filename": "full_514.md",
+  "·新技术应用·": "",
+  "ZING中ZeeRex的原理及应用前景展望": {
+    "context1": "黄莺谢莉",
+    "context2": "（西南民族大学计算机科学与技术学院成都 610041）",
+    "context3": "文摘在简要分析Z39.50检索协议在Web 环境中应用的弊端的基础上引入了ZING，对ZING的产生和组成部分做了基本介绍。重点分析了ZING中描述Z39.50资源和服务的ZeeRex机制的原理和具体实现，最后对ZeeRex的应用和发展前景做了探讨和分析。",
+    "context4": "关键词 ZeeRex 检索服务服务描述"
+  },
+  "The Theory and Applications of ZeeRex of ZING Huang Ying，Xie Li": {
+    "context1": "(School of Computer Science and Technology of South -West University for Nationalities，Chengdu 610041）",
+    "context2": "Abstract:The paper introduces ZING based on the analysis of the disadvantages of Z39.50 protocol's applications in Web；focuses on the theory and realization of ZeeRex which isone part of ZING.In the end,analyzes the advantages and applications of ZeeRex.",
+    "context3": "Key words:ZeeRex， Retrieval service， Service description",
+    "context4": "旨在解决异构书目信息资源系统互操作问题的Z39.50协议从1984年诞生至今，被广泛地应用到跨库检索、规范查询、简化检索过程、异构系统的通信等方面。然而，由于Z39.50协议的定义比较复杂，即使是专业人员都需要花很长的时间才能理解，使得协议的开发相对较难,开发成本很高；另一面,相对于HT-TP 协议的无状态性，Z39.50协议有状态、确认性的网络连接方式虽然保证了数据传输的可靠性和安全性，但由于硬件资源并发连接数的限制,这种连接方式大大限制了系统的并发处理能力。上述两点制约了Z39.50协议在Web环境中的应用，以Z39.50协议为蓝本的新的协议集ZING正是为了在保持Z39.50原有优势的基础上克服上述局限而诞生的。"
+  },
+  "1ZING的产生及ZeeRex概述": {
+    "context1": "上个世纪末，以欧美为主的一些Z39.50开发团体，对各个版本的Z39.50去粗取精，并做了大量的创新，于2002年上半年公布了新一代的Z39.50，即ZING（Z39.50 International：NextGeneration）。创新后的ZING保存了Z39.50近20年的开发成果，并具有很强的智能性和语义性，降低了开发实现的难度",
+    "context2": "和障碍。",
+    "context3": "与 Z39.50不同，ZING不仅仅定义了简单的Web 查询/获取协议,还包括了通用检索语言，面向对象的实现模型，对现有Z39.50系统提供基于SOAP的转化,如何检索Z资源和如何获取Z资源的详细信息(ZeeRex)5个部分。所以，ZING一方面可以看成是Z39.50协议的各种功能在新的网络协议和应用模式下的拆解。",
+    "context4": "SRW/SRU:SRW(Search/Retrieve for the Web)和SRU(Search/RetrieveURL Service）是针对Web的信息检索协议,利用Web Service 的架构实现了Z39.50的一些基本服务，是ZING的核心功能。SRW/SRU支持网络上现存的多种检索方式,各种不同的检索服务都可以采取模块化方式组合调用，共同返回结果，而不像 Z39.50一样规定了单一的检索方式。",
+    "context5": "CQL(Common Query Language）：通用查询语言，可以向任何检索信息系统发出检索请求,其设计的目的是使查询请求既是可读的,也是可写的。",
+    "context6": "ZOOM（Z39.50 Object - Orientation Model）：Z39.50 面向对象模型。ZOOM是一组符合 Z39.50协议的面向对象的API结构，可以作为建立Z39.50客户端或SRW/SRU应用的起点和基础工具。",
+    "context7": "ez39.50（Simple Implementation of Z39.50 overSOAPusingXML EncodingRule）：是一个应用XER（XMLEncodingRule）和SOAP协议实现简单的Z39.50协议应用的机制和方法。",
+    "context8": "ZeeRex(Z39.5O Explain,Explained and Re-En-gineeredinXML):是针对Z39.50协议里的解释机制（ExplainFacility）提出的改造计划；是在原来的ExplainClassic和ExplainLite基础上发展起来的；它采用XML来重新实现Z39.50协议的解释机制。"
+  },
+  "2ZeeRex的基本原理": {
+    "context1": "ZeeRex主要是为了解决在Z39.50领域内的两个问题，一个是Z39.50资源（即Z39.50服务器和它的数据库)的查找问题，另一个是Z39.50资源的功能解释问题。ZeeRex解决第一个问题的途径是使用\"Friendsand Neighbours”机制（简称“F&N\"）；解决第二个问题途径的是\"ZeeRex Proper”。"
+  },
+  "2.1Z资源的查找—Friends and Neighbours 机制": {
+    "context1": "“F&N\"最早是在2000年6月美国德科萨斯州召开的ZIG会议上被提出。其基本原理是，一个Z39.50服务器先在它的InitResponses数据单元中包含一个otherInfo元素，这个otherlnfo元素中有该Z39.50服务器所知道的其他Z39.50服务器的主机名和端口号的信息，实际上也就是该Z39.50服务器的“邻居或朋友\"Z39.50服务器的基本信息。检索该Z39.50服务器时，那些不知道otherInfo对象标识符的客户端可能会忽视该元素，但那些理解otherln-fo对象标识符的客户端就会自动将作为“邻居或朋友”的Z39.50服务器添加到它们的资源列表中。被添加的“邻居或朋友”Z39.50服务器同样也通过otherInfo元素把它们所知道Z39.50服务器即它们的“邻居或朋友\"Z39.50服务器添加到客服端的资源列表中。这样，最终就会为绝大多数Z39.50服务器和它们的数据库建立一个分布式的虚拟目录，支持Z39.50服务器和数据库资源的广泛发现和资源获取。",
+    "context2": "在\"F&N\"机制中，为了确保客户端与otherInfo元素中的Z39.50服务器的连接是有效的，可以为通过\"F&N\"机制联系起来的所有Z39.50服务器创建一个同网络爬虫原理相似的F&N“爬虫”，用来管理和维护这些Z39.50资源的连接信息数据库。F&N“爬虫\"先访问一个Z39.50资源的\"朋友\"或\"邻居”推荐的每一个Z39.50资源，然后再逐个访问被推荐的Z39.50资源的“朋友”和“邻居”，这样就可以不断丰富这个Z39.50资源的连接信息数据库。而且，这个连接信息数据库还可以通过F&N“爬虫\"被自动地维护，不仅可以自动地删除那些连接无效的Z39.50资源的记录，而且还可以自动地添加已有Z39.50资源的新的有效的\"朋友\"和\"邻居\"资源。"
+  },
+  "2.2 Z资源的解释——ZeRex Proper": {
+    "context1": "ZeeRexProper是Z39.50的研究人员为实现Z39.50资源功能的详细解释问题所做的第三次尝试。",
+    "context2": "第一次的尝试就是Z39.50－1995中的解释机制,现在也被称为Explain Classic。Explain Classic 具备了所有必需的功能，但由于没有采用XML语言作为编码语言，对有些功能提供的描述途径有多种，而且几乎没有对描述加以注释,这些问题使得ExplainClassic最终没能得到广泛的应用。",
+    "context3": "第二次的尝试实际上是作为ONE-2project项目的一部分,结果是提出了Explain Lite。Explain Li-te 采用了XML语言作为描述记录的格式。但由于ExplainLite过于关注ONE-2project项目的需求，而不是作为一种通用的解决方案，所以仍然没能得到广泛的应用。",
+    "context4": "ZeeRex从前两次尝试中吸取经验，继承了Ex-plain Classic中“Explain数据库”的概念,使得“Ex-plain数据库\"可以如其他Z39.50资源那样被检索；从ExplainLite继承了使用XML作为标记语言的方法。同时它还增加了一些功能，比如，一个Z39.50服务器能解释另一个Z39.50服务器的数据库资源、不同Z39.50数据库的解释信息的集成等。"
+  },
+  "3ZeeRex的实现": {
+    "context1": "依据“F&N”机制和“ZeeRex Proper”的原理，ZeeRex定义了一个XML格式的文档类型—-ZeeR-exDTD来实现对Z资源的描述。该文档类型的主标签\"explain”中有6个部分分别用来记录Z39.50服务器和数据库的描述信息：",
+    "context2": "$\\textcircled{1}$ serverInfo是一条ZeeRex记录的必备元素，它包含了与被描述服务器建立一个新的网络连接时所必需的信息。该元素有4个属性protocol、version、transport、wsdl。Protocol用来说明与被描述服务器相连所需的协议，默认值为“Z39.50”，“SRW”、“SRU”、“SRW/U\"也是该属性的可取值。Version进一步说明服务器所支持协议的最高版本。Transport属性说明用来传输SRW或SRU消息的协议，默认值是\"http”，也可能是“https\"或其他协议。Wsdl的取值是URL地址，该地址指向一个内容是被描述服务器的相关信息的WSDL文档。ServerInfo还有4个可选的元素,分别是服务器的主机名\"host”、端口号“port”、数据库名“database”和验证信息“authenti-cation”。下面是用serverInfo元素来描述一个Z资源的实例。",
+    "context3": "<serverInfo protocol $\\mathbf { \\equiv } =$ \"Z39.50”>   \n< host $>$ gondolin.hist.liv.ac.uk</host >   \n$< \\mathrm { p o r t } > 2 1 0 < 2 1 0 < / \\mathrm { p o r t } >$   \n<database $>$ IR-Explain- -1</database >   \n<authentication >   \n<user $>$ azaroth</user >   \n<password $>$ squirrelfish $<$ /password >   \n</authentication >   \n</serverInfo >",
+    "context4": "该例子说明了与被描述服务器相连所需的协议，服务器地址、端口号、服务器上Z39.50数据库的名字以及数据库的获取权限。",
+    "context5": "$\\textcircled{2}$ databaseInfo包括了被描述数据库的文本信息。databaseInfo中的所有元素都是可重复的,都可以有lang:和primary：属性。databaseInfo中的元素可以包括：说明数据库名称的title、描述数据库内容的description、说明创建数据库的个人或组织的au-thor、记录数据库联系人信息的contact、以及extent、history、langUsage、restrictions、subject、implementation、link。下面就是一段databaseInfo元素的例子：",
+    "context6": "<databaseInfo > $<$ title lang $=$ \"en” primary $\\bumpeq$ \"true” $>$ The Sci  \nence Fiction Foundation Collection </title > <description lang $\\equiv$ \"en”primary $=$ \"true”> A database containing bibliographic records describing the books and articles in the Science Fiction Foundation ‘s collection held at the University of Liverpool. </description $>$ <author $>$ Andy Sawyer </author > <contact $>$ Rob Sanderson，azaroth $@$ liv. ac.uk   \n</contact > <langUsage codes \"en fr ru”> The records are in English，French and .Rus  \nsian. </langUsage > ·",
+    "context7": "</databaseInfo >",
+    "context8": "$\\textcircled{3}$ metaInfo包含了有关该ZeeRex记录本身的信息。它的dateModified元素描述该记录创建或最后修改的时间，如果该记录是从另一个记录数据库那里集成过来的，就用aggregatedFrom和dateAg-gregated元素分别说明该记录的来源和集成时间。",
+    "context9": "$\\textcircled{4}$ indexInfo详细地说明如何查询被描述的Z39.50数据库，它有3个可重复的元素Set、index和sortKeyword。index 描述一个单一类型的搜索，包括title、search、sort、scan4 个属性。",
+    "context10": "$\\textcircled{5}$ recordInfo（或 schemaInfo)的使用取决于被描述服务器的具体协议,用来说明如何从被描述的Z39.50数据库中取回所需要的记录。",
+    "context11": "$\\textcircled{6}$ configInfo：这部分中的内容是有关服务器配置方面的信息。",
+    "context12": "用ZeeRexDTD来描述在某个Z39.50服务器上的一个Z39.50 数据库，就得到一条 ZeeRex记录。如果一个服务器上有多个Z39.50数据库资源，就需要分别描述它们,得到多条记录。内容提供方可以先根据\"F&N\"机制简单地描述它的资源，得到一条“F&N\"记录，服务提供方再提供完整的ZeeRex记录，所以实际上“F&N\"记录是一条完整的ZeeRex记录的一部分。当Z39.50客户（代理或客户端应用程序)可以根据需要或者获取包含了 $<$ serverInfo $>$ 元素的“F&N\"记录，或者是完整的ZeeRex记录。",
+    "context13": "Z39.50客户获取ZeeRex记录的最佳途径是查找一个支持 ZeeRex功能的 Z39.50 服务器的 IR-Explain—-1数据库。如果某个Z39.50服务器无法支持ZeeRex,那它可以寻找一个ZeeRex服务维护系统，将它描述数据库的ZeeRex记录添加到这个维护系统的ZeeRex数据库中。",
+    "context14": "如果ZeeRex数据库考虑到有的客户端无法使用 Z39.50协议来获取ZeeRex记录，可以提供其他协议的获取途径,包括HTTP、FTP、NFS,但那样的话,ZeeRex“爬虫”就无法自动查找和访问这个ZeeRex数据库了。"
+  },
+  "4ZeeRex的应用前景展望": {
+    "context1": "开放描述机制为提高分布、异构、变化的数字信息环境中信息资源和信息服务的可获取性、可互操作性提供了一种有效的途径。ZeeRex能按照开放描述机制的要求，利用其定义的ZeeRexDTD描述和揭示数字环境中已有的Z39.50检索系统和数据库资源，描述与资源和服务相连的协议、URL地址、获取方法、管理和维护的机构等方面的信息。按照开放描述机制的原理，服务和资源提供方还可以将描述规范的定义文件、根据规范所形成的描述文件置于本系统公知位置、或递交公共登记系统登记，第三方系统可以对这些定义文件和描述文件进行搜寻，按照开放语言规则进行解析，从而使第三方系统能识别、理解被描述的检索服务和资源。另外，利用ZeeRex对异构检索系统的开放描述也有助于为用户开发出统一的检索界面,实现异构系统的集成检索、跨库检索。",
+    "context2": "美国NISO的MetaSearchInitiative项目主要研究如何实现多个不同的数据库、平台、协议之间的跨库检索、联合检索、并行检索;如何构建一种能使所有信息用户可以像使用Google一样轻松实现跨库检索的门户环境。该项目下的资源集合描述工作组就以ZeeRex为研究服务描述的起点，研究测试ZeeRexDTD能适用于哪些协议的检索服务，是否需要修改或添加ZeeRexDTD中的元素。工作组通过研究得出结论，在对资源集合进行描述的时候，要有元素来描述资源与获取该资源集合的服务之间的对应关系，DC中的“isAvailableAt”和ZeeRex中的“makesAvailable”正好是这样一对元素。",
+    "context3": "由于ZeeRex的根本目标是为了提高Z39.50服务之间的互操作性，解决网络环境中Z39.50资源的发现和利用问题,所以它并没有试图提供一种普遍适用检索服务描述方法。因此，ZeeRex项目组的工作人员正积极地改进ZeeRex，使它也能适用于除Z39.50以外其他检索协议。目前ZeeRex已经可以用来描述Z39.50、SRW和SRU协议的服务资源。",
+    "context4": "总的来说,ZeeRex还是有很多优势：它的记录提供了被描述Z39.50数据库的重要功能信息，所以具有较强的表达能力；分布式目录的管理机制使得ZeeRex数据库的升级很容易;使用Z39.50检索机制使得ZeeRex数据库中记录的定位和获取变得容易；利用XML名称空间,提高ZeeRex的可扩展性和可解读性;重复利用在很多服务器上已经可以使用的Z39.50功能也使得ZeeRex的实现变得更加容易。"
+  },
+  "参考文献": {
+    "context1": "1CALIS西文图书编目业务培训教材（普通班)．CALIS联机合作编目中心，2003（10)  \n2 中国图书馆学会《西文文献著录条例》修订组．西文文献著录条例（修订扩大版).科学技术文献出版社，2003,7  \n3 谢琴芳主编.CALIS联机合作编目手册（下）．北京：北京大学出版社，2000  \n4 刘素清.ISBN扩升至13位—您知多少？http://www.calis.edu.cn/calis/lhml/jianbao/7jb3.htm",
+    "context2": "耿晓红女中国科学技术大学图书馆馆员。（收稿日期:2006-12-04编发:许桂菊）"
+  },
+  "": "",
+  "（上接第32页）": {
+    "context1": "例4:020 ## \\$a9780471680246（cloth) 020 ## \\$a0471680249（cloth)"
+  },
+  "4结束语": {
+    "context1": "正确著录ISBN-13,是实现图书馆MARC记录标准化的一个重要组成部分，对图书馆各项业务工作有着重要的影响，为图书采访人员以及读者提供了更多的检索途径。",
+    "context2": "CALIS联合目录已经注意到了ISBN-13著录的不一致性，成员馆已经对MARC记录进行了一定的修改。如书名为Gesture in human-computer interac-tionandsimulation的这本书，已于2006年11月7日被北京大学图书馆按照正确的著录格式修改过了。因此，CALIS联合目录中所有具有三级编目员以上资格的编目员，要尽自己所能，发现著录中的错误及时修改，为CALIS联合目录做出自己应有的贡献。"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "original_filename": "full_7452.md",
+  "RESEARCH ON LIBRARY SCIENCE17": "",
+  "本体映射的研究综述宋朋": {
+    "context1": "【摘要】在语义网应用过程中不同系统的设计原理及机制存在差异，信息在系统间交流及共享时便会出现异构问题，为了有效解决这一问题，本体映射技术应运而生。文章对近年来本体映射的方法、技术和典型的映射系统进行了综述，揭示国内外本体映射领域的研究现状，指出当前该领域存在的不足。"
+  },
+  "【关键词】本体本体映射本体映射方法本体映射技术本体映射系统": {
+    "context1": "Abstract:Inorder to solve the problems of ontology heterogeneity in the process of information communication and sharing between diferent systems，ontology mappng appears.The paper summarizes the research status at home and abroad from threeaspects:methods of ontology mapping，techniques of ontology mapping and typical systems of ontology mapping recently.Finally，it points out its limitations in this research area.",
+    "context2": "Key words:ontologyontology mappingontology mapping methodontology mapping techniqueontology mapping system",
+    "context3": "DOI:10.15941/j.cnki.issn1001-0424.2016.14.003"
+  },
+  "0引言": {
+    "context1": "随着计算机与互联网技术的不断发展，人们可以获取的信息数量呈指数级增长。在众多的信息源中，相同或相似的信息常常采用不同的表达结构，同一概念在不同信息源中所表达的含义不尽相同，不同信息源用以表达相同概念的技术术语有所不同。不同系统中异构本体的存在，给不同系统间的信息共享带来了极大的障碍。本体映射（Ontology Mapping）技术可以在不同本体间建立语义关联，实现不同数据库的相互理解，使用户以一种透明的方式在多个本体系统进行访问时避免因本体异构而带来不便。近年来，本体映射技术受到了研究人员的广泛关注。为了更好地揭示本体映射的研究现状，本文对近年来本体映射的方法、技术、典型映射系统进行了梳理，指出本体映射领域在取得一些成果的同时仍存在不少问题。"
+  },
+  "1本体映射的方法": "",
+  "1.1基于本体定义的分类": "",
+  "(1）基于语法的方法": {
+    "context1": "基于语法的方法在进行概念相似度计算时不考虑概念的语义关系，而是计算概念的矢量距离。该方法原先仅对两个字符串进行比较，现在扩展到了对概念间的相似度进行计算 。",
+    "context2": "相似性泛洪（SimilarityFlooding，SF）是一个匹配模型，体现相邻节点中传递性概念的相似性。在这种方法中，将模型信息转换为有向图，通过对每个节点所生成的名称以及所绘制的结构进行简单匹配，得到相似系数。最后通过迭代计算得到相似性系数的具体数值。"
+  },
+  "(2）基于实例概念的方法": {
+    "context1": "基于实例概念的方法是基于不同概念间的相似性，利用本体映射实现实例概念的计算。其中，较为典型的方法是GLUE系统。曹锦丹等利用PROMPT系统，基于字符串匹配与锚遍历相结合，在对不同本体的语义相似性研究基础上，为医药卫生领域本体语义互操作奠定了实践基础 。"
+  },
+  "(3）基于概念定义的方法": {
+    "context1": "基于概念定义的方法在进行名称、描述、关系、限制等本体映射时，主要参考该方法。Rodriguez及Egenhofer提出利用概念定义来计算概念相似性方法，通过对不同本体概念进行比较计算加权平均得到两个概念的语义相似性从而确定两者的映射关系。"
+  },
+  "(4）基于概念结构的方法": {
+    "context1": "基于概念结构的方法其中的节点关系（父节点，一级子节点，二级子节点)、语义相邻关系，可以作为不同概念层级进行映射的参考。层级中的节点揭示了大量的潜语义关系，因此该映射方法可以实现本体映射的复用，而这些语义关系也可以将概念作为中心向周边进行辐射。"
+  },
+  "1.2基于映射技术的分类": "",
+  "（1）基于规则的方法": {
+    "context1": "本体映射中有不少探索性的规则，这些探索性规则由领域专家人工定义而成，这些定义大多从概念及结构信息中抽取生成。Yang Zhe利用探索性规则对本体相似度进行了计算。PengYun提出了语义解析法，在不同概念之间解决了语义冲突问题。德国和澳大利亚的学者在研究中使用MapPSO（颗粒群最优化的本体映射）算法，解决了异构知识库支持环境下语义识别重叠的问题[。吕刚等利用概念分类匹配方法将映射问题进行了转换，这一方法既保证了映射的准确性又进一步缩减了概念的比较次数，降低了映射的复杂程度，从而进一步提升了映射的可行性[ 。"
+  },
+  "(2）统计方法": {
+    "context1": "统计方法通过采用统计的方式来实现本体映射的全过程。一般情况下，本体映射使用统计及贝叶斯方法来发现联合可能概率的分布，其中OMEN（OntologyMapping Enhancer）比较具有代表性。Wang Rujuan等针对当前大多数本体映射方法不能够根据本体特征以不同方式完成不同映射任务的问题，提出了动态映射策略方法，这一方法利用函数决策来决定不同本体特征的组合权重，从而保证了映射方法的稳定性和通用性 。"
+  },
+  "(3）机器学习方法": {
+    "context1": "GLUE系统采用多策略机器学习方法，有基于内容学习及名称学习两种学习方法。系统将两种学习方法所得结果进行整合后赋予一定权重，将其作为元学习工具。王效岳等将本体概念与自然语言词汇两者之间的映射动机、映射模型、映射实例、映射效果进行深入分析，为本体概念与自然语言词汇进行有效沟通和互操作奠定了基础[4 。"
+  },
+  "（4）综合方法": {
+    "context1": "为了提高映射精度，在本体映射过程中通常联合使用多种方法来实现映射的过程。英国拉夫堡大学的两位学者所提出的本体映射方法使用了基于本体间桥原理的描述逻辑思想，利用同一性和公理的匹配找到了两个本体间的一致关系，在不改变实体名的前提下使用桥原理形式形成了一个新的全局本体[ 。"
+  },
+  "2本体映射技术": {
+    "context1": "近年来随着研究人员对本体映射领域关注的不断增加，该领域已经取得了不少研究成果。本体映射基于信息获取技术d[，使用词汇术语搜索引擎将名称、标签、注释、限制属性等概念内涵，以及继承关系、主次关系及等同关系等结构特征进行综合考虑，实现了不同本体间概念的映射。",
+    "context2": "PRIOR $+ ^ { \\ [ 1 9 ] }$ 为普通实例集获取了概念类别。文献基于约束关系及概念格建构的概念扩展集及概念内涵结构检测方法，将概念格进行删减保留概念之间以及其上层链接及概念关系，最后完成本体的映射、融合以及分布式还原。",
+    "context3": "在基于机器学习的本体映射方面，GLUE系统使用松散标签对本体映射结构进行检索，在自然语言处理及超文本分类呈现方面取得了很好的效果。文献提出了独立实例学习方法，将本体映射问题转换为二元分类问题。但是该方法仅基于语言学特征、网络结构及特征值分类基础之上，因此准确性还有待验证。",
+    "context4": "本体映射中普遍采用了语言学技术。LILY 作为一个通用本体映射系统，根据语言学特征及本体信息结构实现语义子图构建，但该系统没有将本体的限制考虑在内。文献提出与语言学相匹配的虚拟文档技术，创建一组包含本地术语描述及语义情境信息的词汇权重(虚拟文档)。文档相似度计算的实现采用传统向量空间技术。RiMOM基于自然语言处理及统计技术采用本体映射的风险最小化方法，将本体映射转换为决策制定，自动发现1：1、n：1、1:null以及null：1的映射关系，解决了映射过程中的名称冲突问题。",
+    "context5": "结构图d可以在本体因素中有效地表达结构特征。文献利用SimilarityFlooding基于定点计算提出了匹配算法。PROMPT的目的在于本体复用，在该系统中可以进行本体的比较、调度、集成、整合及维护。ANCHOR-PROMPT组件采用了图示结构对不同本体之间的概念关系进行了表示，并为I-PROMPT组件提供了辅助信息。LILY系统将本体要素中的语义特征进行了考虑，首次实现了Faloutsos提出的语义子图链接创建。",
+    "context6": "相似度计算及多维相似度调和是本体映射中的另一个较为主流的技术。ASMOV通过文本描述特征分析，计算出不同本体概念的相似度、不同特征的分布权重以及静态权重分布的调整，最后通过互斥映射、多对一映射对语义的不一致性进行分析，从而实现映射结果的验证。Falcon-AO中包含了3个基本的本体匹配程序，分别对概念含义相似度（向量空间模型)、字符相似性及机构相似性进行了计算。文献根据本体概念的层次结构对相似部分进行了构建，最终得到本体层次相似度，并将网络服务的语义交流进行了良好应用。PRIOR $^ +$ 基于自适应相似性聚合协同方法，分别对名称、概念内涵及结构相似性进行了计算。",
+    "context7": "上述研究的贡献总结为以下几个方面：（1）从字符相似性及本体要素的上层、下层概念结构特征对本体要素的关系进行评估，其中有部分研究将上层、下层概念中的背景情境进行了考虑；（2）在语法和结构层面，对不同本体要素的公理、映射表示及本体映射实例等表达形式进行计算、调和；（3）将本体的数量及复杂性考虑在内，使用后发信息及监督学习方法实现自动或半自动的本体构建；（4）涌现出大批本体映射系统，包括GLUE，QOMPROMPT，RiMOM，LILY及ASMOV，通过了OAEI测试比先前本体映射系统取得了更好的效果。"
+  },
+  "3典型的本体映射系统": "",
+  "3.1OntoMorph系统": {
+    "context1": "创建OntoMorph系统旨在将本体内容进行快速翻译实现与知识库知识的整合。OntoMorph 系统由信息科学研究所创建，采用两套机制对实体转换进行描述。第一套机制在句法重写规则模型指导下进行重写，基于模式匹配简介转换进行说明。第二套机制通过语义模型机逻辑推理调整说明进行语义重写。",
+    "context2": "在重写声明过程中逐字键入令牌表达式，然后将其以语法树形式进行表达。语法树内在表现为一个令牌序列，结构只以逻辑方式进行体现。形式语言可以采用直接且简单的方式对所插入的任何语法树进行匹配和解释，重写规则来执行模型。"
+  },
+  "3.2BLOOMS $^ +$ 系统": {
+    "context1": "BLOOMS $^ +$ 系统是在对 BLOOMS系统改进后形成的，两者的理论基础都源于采用自助式引导方法生成映射本体间相对应类的树状结构图，通过对树状结构的相似性进行计算，确定其映射关系；BLOOMS $^ +$ 相对于BLOOMS而言，采用了更加成熟的算法来判断是否将本体间两个类进行映射。"
+  },
+  "3.3Falcon-AO系统": {
+    "context1": "Falcon-AO是Falcon中的重要组成部分，可以自动实现本体匹配，为语义网不同应用的互操作提供支持。该本体映射系统由瞿裕忠等开发而成，通过两种匹配器、配置匹配策略，中央控制器调用LMO（LinguisticMatching for Ontologies）和GMO 实现本体的自动映射。目前，Falcon-AO已成为网络本体匹配中较为常用的方法。"
+  },
+  "3.4Cupid系统": {
+    "context1": "该系统将语言和结构的模式匹配技术糅合到一起，采用自底向上和自顶向下的方式对图进行遍历，利用相关领域的叙词表实现相似度取值的计算。使用了分类、字符串比较以及叙词表查词等技术；根据上下文相似度来确定权重，获得结构相似度的取值；将语言映射和结构映射的结果通过加权的形式融合起来，并根据阈值将高于阈值的元素选择出来，作为最终的映射结果。"
+  },
+  "3.5其他映射系统": {
+    "context1": "（1）OMEN系统",
+    "context2": "OMEN（Ontology Mapping Enhancer）使用元规则集对实体结构及本体关系的语义影响进行获取。该系统利用贝叶斯网络对概念间的潜在映射影响进行展示。使用该方法后可以实现丢失匹配的部分找回，更正某些实体间的无效、错误匹配等，从而提升映射结果。"
+  },
+  "(2）IF-Map系统": {
+    "context1": "IF-Map系统基于信息流理论，对所创建的大量本地实体结构、全局本体以及参照本体的框架结构进行映射。为了向不同组织部门提供使用，本体实体对现有的不同实体及其实例进行表达。参照本体共享知识及理解的一致性本体，全局本体是逻辑存在的本体，但实际上并不存在。"
+  },
+  "(3）MAFRA系统": {
+    "context1": "MAFRA（分布本体映射框架），该系统为交互式系统，使用多策略过程及不同算法进行相似度计算。该系统旨在对不同本体中的两个实体实现相似度的自动计算。该系统要求所有实体均转换成标准的表达方式，因此不同源本体及目标本体中所使用的语义桥概念间的语义差异更为显著，所有语义桥可以构成一个语义桥本体（SBO）。"
+  },
+  "（4）DSSim系统": {
+    "context1": "DSSim适合大规模本体映射的通用系统，该系统是基于多智能代理体系结构的本体映射系统，每一个智能代理通过特定映射建立一个可信函数（belief），大量可信函数整合得到更为合理的匹配策略从而提供最佳映射。"
+  },
+  "(5）OntoMap系统": {
+    "context1": "巴西圣保罗大学科学计算与数学研究所的Linhalis等学者，针对自然语言与计算机进行通信、除英语外尚不能够支持多种语言交流的特点，提出采用国际语作为自然语言和计算机之间的中介，为了促进多种自然语言在计算机中进行处理，提出通过软件构件执行检索思路，提出了OntoMap 结构模型。"
+  },
+  "（6）基于典型系统的改进系统": {
+    "context1": "左秀然[4将相匹配的概念间属性映射纳入属性映射关系中，提出了一种半自动化的本体映射系统模型。李少峰基于可信度预测的多策略与多策略本体映射的改进算法结合，对Mapping System 映射子系统完成了组合实现与试验评估。余腾腾提出了动态分配和静态分配的缓冲分配机制，对 $\\mathrm { D 1 H T + C h o r d }$ 映射系统的性能进行仿真，在不同参数下与LISP-DHT 映射系统的平均更新跳数及更新时延性能进行比较。"
+  },
+  "4目前本体映射领域存在的局限": {
+    "context1": "本体映射无论在信息融合、对等信息共享、信息导航和查询、不同系统交流等其他应用领域中都起着非常重要的作用。它可以识别并判断出异构本体之间的语义关系，对已经存在的本体进行重用、组合和集成，实现为相似领域中的知识共享和新的信息交互提供支持。另外，本体中包含丰富的语义关系为描述映射关系成为可能。虽然在本体映射领域经过研究人员多年的努力已经取得了不少成果，但是现有本体映射技术的不足及局限性仍然使其无法在语义网中进行实际应用，主要原因包括：",
+    "context2": "（1）本体映射规则集程序设计的目的仅着眼于主体中的元素，映射结果仅表示为类。研究人员对于本体映射中的属性约束及特征几乎没有考虑。本体映射应该基于综合因素对等同关系或包含关系中的基本要素进行评价。这一基本因素包括：内容属性，基于多个体集的正式语义解释、类、属性及公理集约束。特别是将约束、公理及推理引入后，提出本体映射的创新需求理论。",
+    "context3": "(2）大多数本体映射方法没有在映射结构中提供正式的语义，这造成了推理无法发挥其作用，因此交叉本体间的查询就无法进行。现有的研究工作仅局限于对于语法特征及结构的相似性计算。此外，相似性计算权重分布缺乏科学依据。基于语法的映射方法可以在大多数情况下获得有效的映射规则。但是大多数情况下映射失败也基于上述原因[4 。",
+    "context4": "（3）单个本体映射系统不适用于本体的中断特性及语义网的开放特性。基于本体映射的语义交流及共享，需要时效性及可配置性，使用其构建方法可以有效地对网络信息共享、互操作，采用有效的语义阐释对软件进行开发及协作。",
+    "context5": "(4）目前为止大多数本体映射研究关注于根据真实世界中异构数据得到的统计数据以1：1实现映射，只有 $2 2 \\% \\sim 2 5 \\%$ 的映射研究不仅局限于1：1映射。此外，现有的映射系统更多的是采用将不同技术进行整合的方式来提高映射的精度，但是自动化地实现本体映射还有很长的路要走。"
+  },
+  "注释": {
+    "context1": "[]张忠平，田淑霞，刘洪强．一种综合的本体相似度计算方法．计算机科学，2008（12)：142－145，182.  \n[] Maedche A，Staab S. Measuring Similarity between Ontologies [].Proceedings of the European Conference on Knowledge Engineeringand Knowledge Management（EKAV），Berlin:Springer Verlag,2002.  \nB]Satoshi S，Kiyoshi S，Takano O.Statistical Matching of TwoOntologies[ .Proceedingsof the SIGLEX99: Standar dizingLexical Resources，Maryland，1999.",
+    "context2": "Diogene's Ontology Mapping Prototype [EB/O1]．[2014-06- 10].http://diogene. Cis. strath.Ac. Uk /prototype. html. BMelnik S，Garcia-Molina H，Rahm E.Similarity Flooding:A Versatile Graph Matching Algorithm and Its Application to Schema Matching[ //DataEngineering，2002.Proceedings.18th International Conference on.IEEE，2002:117-128. [] AnHai D，Jayant M，Pedro D，et al.Learning to Map between Ontologies on the Semantic Web [ .Proceedings of the Eleventh International World Wide Web Conference，Hawaii，2002."
+  },
+  "米杨，曹锦丹．基于PROMPT的本体映射实例分析[．情报学报，2010(6)：987-991.": {
+    "context1": "B Rodrfguez A.，Egenhofer M. Determining Semantic Similarity among Entity Classes from Different Ontologies[.IEEE Transactions on Knowledge and Data Engineering，2003 (2)：442-456.   \nNoy NF，Musen M A.Anchor-PROMPT:Using Non-Local Context for Semantic Matching[.Proceedingsof the Workshopon Ontologies and Information Sharing at the International Joint Conference on Artificial Intelligence（IJCAI）.2O01:63-70.   \n[io]Yang Z，Zhang D，Ye C.Evaluation Metrics for Ontology Complexity and Evolution Analysis[.e-Business Engineering, 2006.ICEBEO6.IEEE International Conference on.IEEE，2006: 162 - 170.   \n[1] Bock J，Hetenhausen J. Discrete Particle Swarm Optimisa-tion for Ontology Alignment [.Information Sciences，2012（1)：152- 173."
+  },
+  "[2]吕刚，郑诚，胡春玲．基于概念分类的多本体映射方法研究[．计算机应用研究，2011（9)：3335-3337.": {
+    "context1": "[13] Wang R，Wang L，Liu L，et al.Combination of the Improved Method for OntologyMapping[EB/O1]．[2O13-06-21] .http://www.Sciencedirect. com/science/article/pii/ S187538921200781X.",
+    "context2": "[4]王效岳，胡泽文，白如江．WordNet与SUMO本体之间的映射 机制研究[．现代图书情报技术，2011（1)：22－30.   \n[15] Kumar S K，Harding JA. Ontology Mapping Using Description Logic and Bridging Axioms [.Computers in Industry，2013(1): 19 -28.   \n[6] Yuan Y，Li S.Review of the Ontology Mapping Method Based on the Semantic Web [.Computer Sciences，2004 (5)：5-8.   \n[7][9] Mao M.Ontology Mapping:An Information Retrieval and Interactive Activation Network Based Approach M .Springer Berlin Heidelberg，2007.   \n[18] Schopman B A C，Wang S，Schlobach S.Deriving Concept Mappings through Instance Mappings[ .The Semantic Web Springer Berlin Heidelberg，2008.   \n[20] Zhu J，Wang J,Li B.A Formal Method for Integrating Distributed Ontologies and Reducing the Redundant Relations [ .Cybernetics, 2009(10)：1870-1879.   \n[1] Doan A H，Madhavan J，Dhamankar R，et al.Learning to Match Ontologies on the Semantic Web [ .The VLDB Journal —The International Journal on Very Large Data Bases，2OO3（4)：303- 319.   \n[22] Mao M，Peng Y，Spring M.Ontology Mapping:As a Binary Classification Problem [.Concurrency and Computation：Practice and Experience，2011(9)：1010－1025.   \n[23]6]B2] Wang P，Xu B.LILY:The Results for the Ontology Alignment Contest OAEI 2007[ .Proceedings of the 2nd Ontology Matching Workshop，Busan，Korea.2007:179 -185.   \n[4][7] Qu Y，Hu W，Cheng G.Constructing Virtual Documents for Ontology Matching[C.Proceedingsof the 15th International Conference on World Wide Web.ACM，2006:23-31.   \n[5]8] Tang J，Li J，Liang B，et al. Using Bayesian Decision for Ontology Mapping [l.Web Semantics:Science，Servicesand Agents on the World Wide Web，2006 (4):243-262.   \n[9]Melnik S，Garcia-Molina H. Similarity Flooding:A Versatile Graph Matching Algorithm and Its Application to Schema Matching [.of the 18th International Conference on Data Engineering （ICDE)，2002.   \nB0]Noy N，Musen M.The PROMPT Suite: Interactive Tools for Ontology Merging and Mapping [C].International Journal of HumanComputer Studies，2003.   \nB1]B3] Faloutsos C，McCurley K S，Tomkins A.Fast discovery of connection subgraphs [C .Proceedings of the Tenth ACM SIGKDD International ConferenceonKnowledgeDiscoveryandData Mining.ACM，2004:118-127.   \nB4] Yves R，Jean-Mary，Mansur R K. ASMOV Results for OAEI 2007 [.International Semantic Web Conference（ISWC）.Busan, Korean.2007:141-151.   \nB5]Hovy E.Combiningand Standardizing Large-Scale，Practical Ontologies for Machine Translation and Other Uses [ .Proceedings of the 1st International Conference on Language Resources and Evaluation（LREC)，1998:535-542.   \nB6 Zhu J，Wang J，Li B.Web Services Selection Based on Semantic Similarity [.Journal of Southeast University，2OO6(5)：297- 301.   \nB7] Mao M，Peng Y，Spring M.An Adaptive Ontology Mapping Approach with Neural Network Based Constraint Satisfaction[ .Web Semantics:Science，Services and Agents on the World Wide Web，2010(1):14-25.   \nB8] Ehrig M，Staab S.QOM-Quick Ontology Mapping[.The Semantic Web—ISWC 2004.Springer Berlin Heidelberg，2004.   \nβ9] Chalupsky H.OntoMorph:A Translation System for Symbolic Knowledge [EB/O1]．[014-06-19].http://www.isi.edu/ \\~ hans/ontomorph/presentation/ontomorph. ppt.   \n[40] Jain P，Yeh P，Verma K，Kunal Verma，et al.Contextual Ontology Alignment of LOD with an Upper Ontology:A Case Study with Proton M].Berlin:Springer Berlin Heidelberg，2011.   \n[1]左秀然．基于概念相似度的本体映射系统研究[]．武汉：武 汉理工大学，2008.   \n[2]李少峰．基于预测的多策略本体映射系统研究[]．北京：电 子科技大学，2013.   \n[3]佘腾腾．名址分离网络中映射系统研究[D]．北京：电子科技 大学，2013.   \n[4] Ontology Alignment Evaluation Initiative 2Oo9 Preliminary results [EB/OL] [2013 -06 -11].htp://oaei. Ontologymatching.org/2009 /results /   \n[45] Zhu J，Wang J,Li B.The Ontology for the Semantic Web Service and Fusion Mechanisms [l.Nanjing University of Science Journal, 2006 (6):742 -747."
+  },
+  "宋朋盐城师范学院公共管理学院，讲师。": "",
+  "(上接第12页)": {
+    "context1": "B8]MitchellS，SeamanCB.AKnowledge MappingTechniqueforProjectLevelKnowledgeFlowAnalysis.ProceedingofItetoalSymposium on Empirical Software Engineering and Measurement （ESEM2011），2011:347 -350.  \nBPalacioR，MAL，V，etalKowgeFsilatfetinitiitrareetProceeding of 44th Hawaii International Conference on System Sciences（HICSS2011)，2011:1-10.  \n[GendreauoblldExplngKowgFofeevetroeteatoalereiand Knowledge Management，2009（eKNOW09)，2009:99 -104.傅柱南京理工大学经济管理学院博士生。研究方向：知识组织和知识挖掘。  \n王日芬南京理工大学经济管理学院教授，博士生导师。研究方向：知识管理、知识挖掘、知识服务。  \n陈必坤南京理工大学经济管理学院讲师。研究方向：知识挖掘、知识组织及可视化。"
+  }
+}

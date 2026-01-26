@@ -1,0 +1,98 @@
+{
+  "original_filename": "full_8607.md",
+  "移动推荐研究综述": "",
+  "刘嘉123,都兴中12,陈振宇12,何铁科12,朱庆华,吴清4": {
+    "context1": "(1.南京大学软件学院，江苏南京2100932.南京大学计算机软件新技术国家重点实验室，江苏南京210093;3.南京大学工程管理学院,江苏南京2100934.南京大学商学院,江苏南京210093)摘要移动设备正在成为信息检索的一个主要平台。移动应用是移动用户检索信息的主要工具。用户进行信息检索时会面临过载问题。推荐技术通过收集用户行为数据、建立偏好模型、选取个性化内容的方法来改善信息过载带来的负面影响。移动领域具有同样的信息过载问题,融合推荐技术能提高移动应用的效率。移动推荐系统技术综述将会介绍移动推荐系统应用方面的主要技术。",
+    "context2": "关键字移动推荐；个性化应用软件技术",
+    "context3": "中图分类号：TN915.1 文献标识码:A文章编号:1007-7634 (2012)10-1584-07"
+  },
+  "A Survey of Research on Mobile Recommendation": {
+    "context1": "LIU Jia $^ { 1 , 2 , 3 }$ , DU Xing-zhong12,CHEN Zhen-yu $^ { 1 1 , 2 }$ ,HE Tie-ke $^ { 1 , 2 }$ , ZHU Qing-hua³, WU Qing4",
+    "context2": "(1.Software Institute, Nanjing University, Nanjing 210093, China;2.State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing 210o93, China;3.School of Management and Engineering, Nanjing University, Nanjing 210o93, China 4 School of Business, Nanjing University, Nanjing 210093, China)",
+    "context3": "Abstract:Mobile device is becoming a major platform for information retrieval. Recommendation technology can improve the negative efect of information overloading by collecting user behaviors, building preferences model or choosing personal content. Mobile domain also has the information overloading problem,combing the recommendation technology could improve the eficiency of mobile application.Thissurvey of recommendation technology in mobile will introduce the important technologies of mobile recommender systems.",
+    "context4": "Keyword:mobile; recommendation; personalized; application; software technology",
+    "context5": "越来越多的人开始频繁使用智能移动设备，设备的功能随着无线通信技术(Wi-Fi、GPRS/UMTS、3G)、位置探测技术(RFID、Wi-Fi、GPS的成熟而增强，如基于地理位置的服务(Location-BasedService,LBS。移动应用根据移动设备的功能为用户提供更为合适的服务，但其合适程度因在线信息和服务数量的急剧增长正在变得愈发困难[-2。",
+    "context6": "可访问信息的剧增造成了信息过载。移动应用不仅需要向用户提供丰富的信息，还需要提供一定的自动筛选功能，以帮助用户获取合适信息。推荐系统结合信息过滤技术、决策支持技术来解决信息过载问题。它根据用户的行为和偏好对不同用户的同类需求进行个性化推荐，从而使合适的信息展示给不同的用户。",
+    "context7": "主流的推荐系统面向的是PC的Web平台，直接将推荐技术迁移到移动平台，可能会忽略移动平台的特性而不能达到预期效果。移动平台大致具有以下的特性：",
+    "context8": "(1)应用环境中的不透明性移动设备的限制，无线网络的限制，外部环境的影响，移动用户的行为特征；(2)位置性谋一特定时间下系统能提供用户的位置信息；(3)普遍性在任何地点、任何时间将信息和服务传递给用户的能力。移动平台的特性对理解用户行为的作用是显著的。",
+    "context9": "为了使移动应用为用户提供更好的体验和服务，移动应用需要融合移动平台所具有的特性。"
+  },
+  "1移动推荐系统概念": "",
+  "1.1推荐系统": {
+    "context1": "推荐系统具有智能的个性化辅助功能，并能处理信息过载问题在给定的上下文情景中，可以对产品、服务或信息的选择提供更贴近用户需要或偏好的建议4-。",
+    "context2": "推荐系统的主要任务之一是预测用户对未知信息的主观评分。评分的预测需要使用用户对已知信息的主观评分和信息的关键特征。根据不同的预测技术,推荐系统可分为四种类型协同过滤,基于内容，基于知识和混合类型。",
+    "context3": "协同过滤根据用户评分矩阵计算用户之间的相似性，通过相似用户的评分预测当前用户的未评分项的评分。矩阵分解是用来改进协同过滤的技术，这类方法用奇异值分解技术分解用户评分矩阵，挖掘潜在的用户与评分项之间关系，将原有的巨大的稀疏矩阵分解为两个较小矩阵的乘积。",
+    "context4": "基于内容的推荐根据用户已知的信息挖掘当前用户的偏好，并以此推荐当前用户可能感兴趣的信息。用户偏好通常由文本或属性向量表示。基于内容的推荐主要使用信息检索相关技术[，其产生的推荐列表通常是静态排序的，表示物品满足用户需求的程度。",
+    "context5": "基于知识的推荐使用知识结构描述用户的行为和偏好。其中一个典型代表是基于案例的推理技术(CBR)[。该技术从案例库中检索相似的推荐会话，重用案例中的信息进行推荐。",
+    "context6": "混合推荐系统结合多种推荐技术的优点以获得更好的精度、性能和通用性。混合方法被广泛使用于现存的推荐系统中[12-13]。"
+  },
+  "1.2移动推荐系统": {
+    "context1": "移动推荐系统是推荐系统的一个分支，它整合现有的推荐技术,并考虑移动平台特性,从而进一步改善推荐效果。移动推荐具有移动性、位置性、分布性这三个特性。",
+    "context2": "(1)移动性。移动推荐的移动性可分为三类用户移动性,设备移动性和无线连接性。",
+    "context3": "用户移动性是指用户访问推荐系统时的位置是不固定的。一个应用于移动场景的推荐系统应该充分考虑用户移动性。推荐系统要为用户分配独特的逻辑应用会话,以便用户在不同的上下文使用不同的设备来访问推荐系统。无论用户的位置如何变化,用户都可得到基于先前交互的相关回应。",
+    "context4": "设备移动性是指访问推荐系统的设备是移动的。移动设备可以跟随用户移动并可以连接到其他设备分享推荐。设备移动性是已有相关研究中主要研究点,并取得了一定的研究成果。",
+    "context5": "无线连接性是指设备访问推荐系统使用的无线技术,如Wifi、UMTS、蓝牙等。无线通讯技术是目前移动推荐领域最重要的技术发展，导致了移动设备的变革。无线通讯除了为实现标准网络服务提供便利,还能通过Ad-hoc创造新的 $\\mathrm { p } 2 \\mathrm { p }$ 应用场景。",
+    "context6": "任何移动性都可以由上述三类组成，它们对系统的用况和功能有独立的影响。另一种移动性的分类在文献【14中提出。作者将移动性分为三类固定的游牧的(用户以任意方式访问推荐系统,但在使用推荐系统时位置固定）移动的(用户使用推荐系统时是移动的)。",
+    "context7": "(2)位置性。移动推荐系统的应用场景比较灵活,用户对推荐内容的位置往往具有明确要求。如果能很好的满足位置性，移动用户会更易于接受推荐。基于以上事实，移动推荐系统需要根据用户反馈的信息和环境信息提供准确的包含位置信息的推荐。为了体现位置性,移动推荐系统需要建立用户剖面并保存位置信息，同时还需要利用移动设备的计算能力。位置性使得移动推荐系统的实用性得到更大的提升。",
+    "context8": "(3)分布性。移动推荐继承了主流推荐的信息处理方式。主流的信息处理方式是大规模矩阵计算或是规则挖掘,从而为用户提供准确的推荐。但是,移动场景下有很多离线的状况和缺失的通讯标准。移动推荐系统需要设计一种分布式的推荐方式一一用户之间进行自治的数据交换，采用小规模的算法完成推荐任务。分布性是当前移动推荐系统研究中的一个热点。"
+  },
+  "2移动推荐系统中人机交互技术": {
+    "context1": "交互技术在移动推荐系统起到很重要的作用。好的交互技术帮助用户更好的理解推荐内容，同时能巧妙地诱导出用户的偏好。好的交互技术也能减少用户获取目标信息的代价并提升用户偏好模型的精确性。"
+  },
+  "2.1基于移动终端的界面设计": {
+    "context1": "(1)地图界面。在移动推荐系统和移动搜索工具中，地图是展示位置信息的一种主要方式。使用地图可以改善移动设备的位置信息显示问题。移动推荐系统通常把地图作为显示推荐信息方式之一，提高了推荐的可用性。",
+    "context2": "MapMobyRek是推荐系统MobyRek的地图扩展版。MobyRek使用文本描述推荐内容，推荐内容以排序列表的形式展示给用户。MapMobyRek使用地图作为信息访问的主要界面,并增加了基于地图的决策支持功能。",
+    "context3": "文献【16中的系统在地图上为城市观光者推荐兴趣点系统根据查询的内容，补充用户的搜索条件，构建用户查询语句，根据用户的满意程度(满意度是指满足查询条件的个数)对地图项进行排序，构造推荐列表。不同的地图项对应到地图上的不同图标，每个图标增添了一个垂直的进度条表示地图项匹配用户查询语句的程度。",
+    "context4": "(2)显示相似搜索。文献【17】中提出一种假想的交互方式用来支持多维的、上下文感知的移动搜索，利用的上下文特性包括位置、时间、团体倾向等因素，并设计了一套更适合移动用户需求的搜索过程。系统继承了用户时间和空间方面的上下文信息，从兴趣相似的移动搜索者中挖掘偏好信息，向用户展示演化的搜索过程。用户可以浏览群体的搜索过程或个体的搜索过程，学习搜索结果然后构造自己的搜索。主要的创新是为具有相同使用环境的用户预先展示搜索信息，代替用户精确请求的搜索方式,为信息搜索提供了探索性的方法[18-19]。",
+    "context5": "(3)推荐结果可视化。推荐结果可视化与搜索引擎显示检索结果的方式很相似，它可以解决小屏幕带来的显示问题，可以使移动设备显示尽可能多的信息。移动推荐中典型的方法是文本碎片,即关于推荐内容的简短描述。与搜索不同，使用排序列表的推荐系统会优先显示每个推荐内容的特征子集。帮助用户理解移动推荐的价值。在文献【20】中，实验者抽取查询相关的文本块来代替标准的文本碎片。查询相关的文本块是自动从结果页抽取的一系列关键词。这种方法更加经济地使用屏幕空间，具有不低于长标题的有效性和信息性。",
+    "context6": "文献【21】展示并评估了使用关键搜索结果代替结果碎片的方法。它选择过去特定结果对应的相关查询来构成更短的文本。该方法通过基于社区的个性化元搜索引擎(I-SPY)来进行数据收集,记录不同社区用户的查询语句和搜索结果。例如,查询\" Java'的搜索结果包含链接' Java Sun Technolo-gy”,查询‘Java'便会与查询 $\\operatorname { j } 2 \\operatorname { s d k } 1 . 5 ^ { \\prime } { \\overline { { \\ast } } } \\mathbb { F } ^ { \\epsilon }$ java tu-torials'相关联,共同说明链接\"Java Sun Technolo-gy的内容。相关查询能提示用户产生结果的其它上下文,相关查询的信息性与文本碎片一致并能显著节省空间。"
+  },
+  "2.2基于移动终端的交互设计": {
+    "context1": "(1)基于评价的交互设计。当推荐系统需要用户在物品上显示偏好时,评价是一个有效的推荐技术[3-25]。一个评价可能反映了不满意的倾向,或是显示出产品功能对用户的重要性。用户评价会被推荐系统处理为用户对产品属性的偏好，并用来创建查询和检索推荐。在基于评价的交互设计中，用户很少需要输入精确的搜索语句，取而代之的是进行一段推荐系统和用户评论的交错对话。基于评价的交互设计能够使得系统更好地理解用户需要，以此提高推荐效果。",
+    "context2": "文献【12】中展示了一种基于评价的推荐方法。该方法在帮助用户进行产品选择方面特别有效。当用户在系统中浏览评论时，用户可以通过移动设备的GUI表达从评论得出的褒贬程度。该方法帮助推荐系统正确使用用户评论。",
+    "context3": "基于评价的交互设计非常适合移动场景。这是因为 $\\textcircled{1}$ 评价是用户精确叙述的,因此比不精确的偏好更可靠(不精确的偏好是指用户行为挖掘、用户评分等)。 $\\textcircled{2}$ 评价与评分相比代价低。一个针对推荐产品的评价可以通过几个点击完成。 $\\textcircled{3}$ 与索要精确偏好相比，要求用户评价一个真实产品更易于让用户接受。系统的推荐内容会给用户带来一些直接的利益，可以激励用户通过评价回馈更多的偏好。",
+    "context4": "(2)基于偏好的交互设计。在基于偏好的交互设计中,用户偏好是用户对所有信息特性的倾向[6.2]。文献【26展示了一个基于偏好的推荐系统Viscors,它为移动用户推荐壁纸。Viscors推荐系统使用混合推荐方法，包括了协同过滤和内容过滤。内容过滤模块使用用户输入的搜索关键字为当前展示的壁纸评分，协同过滤模块产生初始推荐列表。用户在浏览列表之后可能会选择壁纸、购买壁纸、使用壁纸搜索相似壁纸或是返回推荐列表。如果用户使用壁纸作为查询内容，内容过滤模块便会计算当前壁纸像与数据库中其他壁纸的相似度，并生成相似壁纸的列表。协同过滤模块根据用户对壁纸的操作更新偏好信息，使用新的偏好信息修改查询语句并更新距离函数。实验证明了该方法能够提高推荐的显著性和有效性。",
+    "context5": "(3)查询重写。主流的推荐系统通常会帮助用户重写失败的查询语句[11.27-3]。当用户的查询条件过于严格导致没有符合条件的物品时，较为宽松的查询条件会被推荐给用户。",
+    "context6": "在移动推荐系统中，为了简化人机交互，放宽后的查询由推荐系统自动生成[2.31]。推荐系统可以根据用户查询语句生成的一组约束向用户重新推荐。推荐系统也可以根据用户过去的选择放宽约束来修正失败的查询。例如，一个失败的查询中含有以下的内容：消费低于20元、提供中式快餐、并禁止吸烟。如果系统记录了用户曾经消费50元，它会建议用户将约束放宽到30元以产生更多的推荐内容。",
+    "context7": "文献【12】采用其他方式来实现查询重写，移除查询中不能实现的约束并将原来的查询转化成相似的查询。系统第一次使用查询时，推荐系统根据查询条件从已知的数据库中找到满足条件的餐厅。然后根据查询的相似度对查询结果进行排序。例如，消费预算如果限制在 $1 0 { \\sim } 2 0$ 之间,系统会给平均消费22的餐厅更高的评分而不是平均消费26的餐厅,因为前者更接近用户的查询要求。"
+  },
+  "3移动环境下推荐系统的特性": "",
+  "3.1更丰富的上下文感知计算": {
+    "context1": "移动推荐系统使用当前用户所处的上下文信息来加深对用户行为的理解[32-3s]。文献【34]认为上下文不是具体的信息但可以用来特征化实体所处的场景”这里实体可以是一个人、一个地方、任何一个与推荐过程相关的对象等等；上下文信息可以是同伴、天气、温度、位置等数据。上下文感知计算正成为一个广阔的研究领域,并且越来越多地融入到推荐系统中[36-37]。",
+    "context2": "文献【38中展示了一种结合上下文信息的协同过滤算法，使用的上下文信息包括用户和物品位置、推荐时间、用户需求类型等等。推荐算法根据用户之间的余弦相似度、当前时间、用户位置、用户需求计算相似用户，进而在协同过滤中融入了上下文信息。在用户对购物地点的评分数据集上，论文中的推荐算法与其它协同过滤方法相比显示出了较好的效果。通过用户位置计算用户之间相似度的想法也在文献【39】使用过。文中的餐厅推荐系统假设居住在一个社区的人喜欢相同的周边餐馆。文献【40】介绍了一个上下文感知的移动个性化助手COMPASS系统。该系统可以为观光者提供关于特定上下文的信息和服务。例如，一个对历史和建筑有兴趣的观光者会收到附近的建于1890年之前的纪念碑的信息。用户可以浏览一张电子地图,这张地图能指示他当前的位置、附近的建筑、同伴和与用户资料相关的对象。当用户移动、改变用户资料、改变目标时这个地图和显示的对象会进行更新。",
+    "context3": "结合上下文信息的推荐面临的主要问题是采集何种类型的上下文数据和找到真正影响推荐过程的上下文因素。文献【36中,搜索过程基于上下文标记识别评分片段，这些片段在协同过滤中会被用来计算特定上下文环境。文中的推荐算法在所有可能的片断中搜索能产生不同推荐结果的评分片段。文献[41】使用另一种方法来处理相同问题—一基于贝叶斯网络，它识别对于用户来说最重要的参数最小集，因此将上下文捕获的开销最小化。贝叶斯网络构建的过程迭代地忽略学习过程中与用户评分变量不相关的参数。为了处理丢失的或出错的上下文数据，学习过程使用两层上下文模型捕获上下文参数间的因果关系，并证明了贝叶斯学习产生的结果能替代预测过程中需要的上下文数据。"
+  },
+  "3.2P2P的自治计算环境": {
+    "context1": "基于Web的推荐系统通常是一个C/S架构的集中式计算模型。客户端通过连接到运行推荐系统的web服务器获取推荐。C/S系统架构的主要限制是服务器必须时刻保持运行和可访问状态。",
+    "context2": "点对点(P2P)计算模型参照了分布式计算的架构。P2P系统的功能通过分布式架构被完全散布到各个移动设备上。P2P计算模型通常没有专用的集中式计算系统，它依靠于互联的对等点上的资源的自愿分布(计算能力、数据、网络状况)。P2P系统提供了纯粹的分布式的通讯中间件,理论上具有无尽的存储、通讯和处理能力。因此,P2P系统具有以下的特征：开销分担且变小,更高的延展性、可靠性和健壮性，资源聚集和可操作性，增长的自治性，动态机制,高度的匿名性。",
+    "context3": "P2P体系结构提供了一个开发移动推荐系统的便捷平台，可以使系统更加便携和可靠。文献【43-44中讨论了P2P推荐。作者强调为移动设备传递高质量推荐的重要性,甚至是在不能连接到互联网的时候。文中也强调这种体系结构可以通过本地存储个人信息保护用户的隐私，分享用户信息也可以通过加密的方式。PocketLens实现了一个P2P的协同过滤算法，它通过五个对等点构成的结构来寻找邻居。PocketLens可以在设备连接到服务器时运行或是在相互连接的便携式设备上运行，并且可以产生与主流推荐算法生成的相媲美的推荐内容。PocketLens中运行的推荐算法是物品到物品的协同过滤4,用户评分数据是以一种基于P2P的分布式方式维护的，因此用户将自己的评分信息保存在移动设备上。当需要进行推荐时会使用P2P查找方法对相关的评分信息进行检索。",
+    "context4": "文献【46提出了一种相似方法。他们发现移动设备可能因为某些原因不能访问远程服务器（花费、无线网络失败等等)。所以推荐系统应该在没有连接的情况下也能进行推荐。由于用户设备可以与其他用户的设备进行连接(通过热点网络)，因此推荐算法可以使用用户社区的数据。论文中的推荐算法使用相似度图表示用户之间的关系，通过可配置的相似阈值控制图中用户点之间的连接。论文中的推荐系统MonHinter允许移动设备从热点网络中识别相似网络中的邻居。推荐系统使用邻居信息增量地修正本地计算的预测值,这个过程不需要与远程的服务器进行交互或是访问互联网。推荐系统维护一个“邻居的邻居列表，具体的原则是如果v是用户u的最相似邻居中的一员,v的邻居有可能也是u的相似邻居。描述邻居的数据是在移动设备上维护的。如果邻居的邻居中的成员在建立模型的过程中下线，它们将被较差质量的邻居所代替。",
+    "context5": "式的主动服务成为可能(利用传感器传来的信息），这被称为普适计算。",
+    "context6": "文献【48】关注个性化购物助手。文献中将用户行为分为五类：",
+    "context7": "“站立”消费者以某个确定距离在一个确定物品前停止；",
+    "context8": "“观察”消费者正在看一个确定的物体；",
+    "context9": "“触摸”用户正在触摸一个确定的物体；",
+    "context10": "“携带”用户从货架上拿出一个确定的物体；",
+    "context11": "“适配”用户使用镜子将去定物体与自己的外形进行匹配。",
+    "context12": "研究者使用RFID传感器和数码相机捕捉这些行为。推荐系统通过三种途径进行推荐：产品附近的显示器、机器人、声音(音乐和语音)。",
+    "context13": "文献【48的推荐算法首先检查用户的位置，然后统计消费者动作的数据，发现用户感兴趣的产品的共性，根据用户的行为和当前的状况,最终为用户推荐个性化的产品。",
+    "context14": "完成推荐后，系统会收集用户对推荐物品的反馈,对推荐服务进行改进。在此过程中,用户动作被转换成评分信息。如果用户触摸了一个产品，该动作会被解释成用户对该产品有一般的兴趣，并因此产生较小或中等的分数。研究者评估了系统探测用户行为的精度，约为 $93 \\%$ 。",
+    "context15": "研究者同时测量了用户对三种推荐途径的接受程度。它们发现机器人是最吸引人的方式，显示器对于描述、定位产品是非常适合的。如果机器人与显示方法相结合推荐效果会变得更加显著，因为这会创造一个易于用户进行选择的环条件。",
+    "context16": "Bulander等介绍了MoMa系统4。在此系统中用户可以根据当前的上下文信息主动地创建订单。例如,当客户端应用创建一个订单时,它会自动填入适当的上下文和资料参数,如位置\"天气”因此,场所不应当离用户的当前位置太远,雨天不应该推荐啤酒花园。文献【50】中描述了一种类似的移动广告主动推荐系统。",
+    "context17": "移动推荐加入上述3个特性后，准确性和实用性得到增强，也使得推荐结果更适合移动场景。随着移动设备和移动应用的演化，未来移动推荐系统的计算特性会增加更多。"
+  },
+  "3.3主动交互的推荐体验": "",
+  "4结语": {
+    "context1": "当周围环境通过传感器感知我们的活动时，新随着移动设备性能的增强，移动推荐领域出现",
+    "context2": "了一些新的研究方向。",
+    "context3": "用户偏好的诱导。快速准确地获取用户的偏好仍然是一个开放的研究主题。移动推荐需要更多的用户偏好。比如语音识别,能提供一个判断用户偏好的更有效的途径，其他的方法可能会使用移动设备的视频和图像能力。使用这些技术可以采集用户交互中的新的输入并克服一些传统交互的限制。",
+    "context4": "基于主动性和传感器的推荐。协同过滤系统中凭借较少输入得到推荐内容是很简单的，但是在传递推荐之前需要等待用户的请求。这是因为传统系统不能理解用户活动，解决方法是为用户提供自发的、相关的推荐。然而，主动推荐会导致无关信息干扰用户，因此没有实践者敢于尝试这种方法。",
+    "context5": "推荐的解释。这个主题受到关注度很小但是在移动场景下却很重要。解释是基于物品描述的，但是它在含有噪音的移动环境中和小屏幕上问题重重。对于移动推荐来说这需要新的解释方法。",
+    "context6": "安全性、隐私性、用户存储。移动用户会在系统之间、网络之间迁移。一个移动用户必须明智地探索新的服务并随时警惕侵犯隐私的攻击。关于隐私话题的研究在未来能够获得相当的关注。",
+    "context7": "移植性推荐系统。移植性是指推荐系统迁移到不同平台和设备上的能力。如果推荐系统具备移植性，用户就能使用不同的设备来接收推荐服务。",
+    "context8": "ed collaborative filtering model[C].Las Vegas Nevada,2008[.   \n9 Pazzani,M. J. and Billsus, D.The Adaptive Web:Methods and Strategies of Web Personalization[M]. Berlin,Heidelberg, Springer,2007:325 - 341.   \n10Manning,C.Introduction to Information Retrieval[M]. Cambridge Cambridge University Press,2008 :1-65.   \n11Bridge,D.，G\"oker,M.，McGinty，L.，and Smyth，B. Case-based recommender systems[J]. The Knowledge Engineering review,2006,20(3):315- 320.   \n12 Ricci,F.and Nguyen, Q. N.Acquiring and revising preferences in a critique-based mobile recommender system[J]. IEEE Intelligent Systems,2007,22(3):22 - 29.   \n13Ricci,F., Cavada,D.，Mirzadeh,N.，Venturini.Destination. Recommendation Systems:Behavioural Foundations and Applications[M].USA: CABI, 2006 67- 93.   \n14Pernici, B.Mobile Information Systems[M]. Berlin:Springer, 2006:20-80.   \n15Averjanova,O., Ricci, F.,and Nguyen, Q. N. Map-based interaction with a conversational mobile recommender system [C]. California Berkeley,2008   \n16Burigat, S., Chittaro,L.,and Marco,L.D. Bringing dynamic queries to mobile devices: A visual preference-based search tool for tourist decision support[J]. Lecture Notes in Computer Science,2005,(3585):213- 226.   \n17 Church, K.and Smyth, B. Who, what, where & when: a new approach to mobile search[C]. Intellgent User Interfaces, ACM,2008,309- 312.   \n18Marchionini,G.Exploratory search:from finding to understanding[J]. Communications of the ACM, 2006, 49(4):41 - 46.   \n19 Marchionini, G.and White, R. W. Information-seeking support systems[J].IEEE Computer,2009,42(3):30- 32.   \n20 Jones,S., Jones,M.,and Deo, S.Using keyphrases as search result surrogates on small screen devices[J]. Personal and Ubiquitous Computing, 2004,8(1):55 - 68.   \n21 Church,K., Smyth, B.,and Keane,M.T.Evaluating interfaces for intelligent mobile search[C].New York: ACM,2006.   \n22Smyth,B.,Balfe,E.， Boydell, O.，Bradley，K.,Briggs,P., Coyle,M.,and Freyne,J. A live-user evaluation of collaborativewebsearch[C].Edinburgh:Professional Book Center, 2005.   \n23Burke,R.Interactive critiquing for catalog navigation in e-commerce[J].Artificial Intelligence Review,2002，18 (3-4):245 - 267.   \n24 Chen,L.and Pu,P.Interaction design guidelines on critiquing-based recommender systems[J]. User Modeling and User-Adapted Interaction,2009,19(3):167 - 206.   \n25McGinty,L.and Smyth,B.Adaptive selection: An analysis of critiquing and preference-based feedback in conversational"
+  },
+  "参考文献": {
+    "context1": "1Bertelé,U.and Rangone,A.Rapporto mobile and wireless business[R]. Italy:Politecnico di Milano,2007.   \n2urban,E., Lee, J. K., King, D., McKay,J.,and Marshall, P. Electronic Commerce[M]. New Jersey:Prentice Hall,2008:   \n1-1008.   \n3Shiller,J.H. Mobile Communications[M]. Addison-Wesley, Great Britain,2003:1-492.   \n4 Adomavicius,G.and Tuzhilin,A. Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions[J].IEEE Transactions on Knowledge and Data Engineering,2005,17(6):734- 749.   \n5Burke,R.Hybrid web recommender systems[M].Berlin:Springer,2007:377 - 408.   \n6Goy,A.,Ardissono,L.,and Petrone,G. The Adaptive Web: Methods and Strategies of Web Personalization[M]. Berlin: Springer, 2007:485-520.   \n7Herlocker,J.L., Konstan,J.A., Borchers,A., Riedl,J. An algorithmic framework for performing collaborative filtering[C]. California Berkeley,1999.   \n8 Koren,Y.Factorization meets the neighborhood: a multifacetrecommender systems[J]. International Journal of Electronic Commerce,2006,11(2):35 - 57.   \n26Kim, C.Y.,Lee,J. K., Cho, Y.H.,and Kim, D.H. Viscors: A visual-content recommender for the mobile web[J].IEEE Intelligent Systems,2004,19(6):32- 39.   \n27Jannach,D. Finding preferred query relaxations in content-based recommenders[C].Beijing:IEEE,2006.   \n28McSherry, D.Incremental relaxation of unsuccessful queries [C]. Madrid:Springer,2004.   \n29Mirzadeh,N.and Ricci,F.Applied Artificial Intelligence [M]. USA:Taylor and Francis Ltd,2007,21:1- 38.   \n30 Mirzadeh,N.，Ricci,F.,and Bansal,M. Feature selection methods for conversational recommender systems[C]. Hong Kong: IEEE Press,2005.   \n31 Tung, H.-W.and Soo, V.-W.A personalized restaurant recommender agent for mobile e-service[C]. Taiwan:IEEE Computer Society Press,2004.   \n32Abowd,G.D.,Atkeson,C.G,Hong,J.,Long,S.，Kooper,R.,and Pinkerton, M. Cyberguide: A mobilecontext-aware tour guide [J].Wireless Networks,1997,3(5):421- 433.   \n33 Chen,G.and Kotz, D.A survey of context-aware mobile computing research.Technical Report TR2000-381[R].USA: Dartmouth Computer Science,2000.   \n34Dey,A.K. Understanding and using context[J].Personal and Ubiquitous Computing,2001,5(1):4 -7.   \n35Dourish,P.What we talk about when we talk about context[J]. Personal and Ubiquitous Computing,2004,8(1):19- 30.   \n36Adomavicius,G.， Sankaranarayanan,R., Sen, S.,and Tuzhilin,A.Incorporating contextual information in recommender systems using a multidimensional approach[J].ACM Trans. Inf.Syst,2005,23(1):103-145.   \n37 Palmisano,C.,Tuzhilin,A.,and Gorgoglione,M. Using context to improve predictive modeling of customers in personalization applications[J].IEEE Transactions on Knowledge and Data Engineering,2008,20(11):1535-1549.   \n38 Ahn,H., Kim,K.-J.,and Han,I. Mobile advertisement recommender system using collaborative filtering: Mar-cf[C]. Korea:The Korea Society of Management Information Systems,2006.   \n39 Horozov,T.,Narasimhan, N.,and Vasudevan, V. Using location for personalized POI recommendations in mobile environments[C]. Phoenix: IEEE Computer Society,2006.   \n40 Van Settn, M., Pokraev,S.,and Koolwaaij,J. Context-aware recommendations in the mobile tourist application compass [J]. Springer Verlag,2004,(7) :235- 244.   \n41 Yap, G.E., Tan, A.H.,and Pang, H.Discovering and exploiting causal dependencies for robust mobile context-aware recommenders[J].IEEE Trans,2007,19(7):977 - 992.   \n42Androutsellis-Theotokis,S.and Spinellis,D.A surveyof peer-to-peer content distribution technologies[J]. ACM Computing Surveys,2004,36(4):335 - 371.   \n43Miller,B.N.，Albert,I.,Lam,S.K.,Konstan,J.A.,and Riedl, J. Movielens unplugged:Experiences with an occasionally connected recommender system[C]. Florida:ACM Press,   \n2003.   \n44Miller,B.N.,Konstan,J.A.,and Riedl,J.Pocketlens: Toward a personal recommender system[J]. ACM Transaction on Information Systems,2004,22(3):437 - 476.   \n45Sarwar,Karypis,G., Konstan,J.,and Riedl,J. Item-based collaborative filtering recommendation algorithms[C].Hong Kong:ACM,2001.   \n46 Schifanella,R., Panisson,A., Gena, C.,and Ruffo,G. Mobhinter: epidemic collaborative filtering and self-organization in mobile ad-hoc networks[C].New York:ACM,2008.   \n47 Weiser,M.The world is not a desktop[J]. interactions,1994,1 (1):7 -8.   \n48 Sae-Ueng, S., Pinyapong, S., Ogino,A.,and Kato,T.Personalized shopping assistance service at ubiquitous shop space [C]Okinawa:IEEE Computer Society,2008.   \n49 Bulander,R., Decker,M, Schiefer,G.,and Kolmel, B. Comparison of different approaches for mobile advertising[C]. Munich:IEEE,2005.   \n50Mahmoud,Q.Provisioning context-aware advertisements to wireless mobile users[C]. Toronto:Ontario,2006."
+  }
+}

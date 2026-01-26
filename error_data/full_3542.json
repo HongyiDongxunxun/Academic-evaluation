@@ -1,0 +1,91 @@
+{
+  "original_filename": "full_3542.md",
+  "nothing": {
+    "context1": "·工作研究·"
+  },
+  "国外数字图书馆研究进展：基于关键词共现和文献共被引的可视化研究": {
+    "context1": "杨国立",
+    "context2": "（江苏大学图书馆 镇江212013)",
+    "context3": "文摘以ISI的Webof Science为数据源,借助文献计量学方法,从文献的学科分布、国家/地区分布、作者分布和基金资助分布等方面,对国外2008年－2011年间有关数字图书馆研究的相关论文进行统计与分析。同时采用关键词共现和文献共被引分析方法,借助CiteSpacelI对文献的关键词和参考文献进行可视化分析,发现国外数字图书馆研究以借助相关计算机技术提供用户个性化、易用性服务为核心研究内容，并将成为持续研究热点，具体研究热点包括：基于本体、语义web的数字图书馆信息检索、数字图书馆系统设计、数字图书馆可用性评价、数字图书馆模型、数字图书馆个性化协同服务等。"
+  },
+  "关键词数字图书馆关键词共现文献共被引研究进展": {
+    "context1": "Foreign Research Progress of Digital Library Based on Co - word and Document Co - citation Visualization Analysis",
+    "context2": "Yang Guoli（Library of Jiangsu University,Zhenjiang 212013）",
+    "context3": "Abstract:In order to folow the progress of the foreign digital library research,published articles on digital library during 2OO8 - 2011,which are recorded in the database of ISI Web of Science,are chosen to be analyzed in this paper. By applying the method of bibliometric ,this paper mainly discusses the distribution of disciplines,countries/area，authors and fund assistance.Meanwhile， through co-word，document co -citation analysis and application of CiteSpaceII,this paper analyzes the related keywords and references by visualization method. The study finds that the digital library research put emphasis on the personalized and accessible services by adopting related computer technology，which will continue to be the research focuses，including:the information retrieval of digital library based on ontology and semantic web，digital library systems design，digital library accessibility evaluation，digital library model and personalized collaborative digital library.",
+    "context4": "Key words: Digital library，Co - word,Document co - citation,Research progress"
+  },
+  "1前言": {
+    "context1": "通过梳理CNKI有关数字图书馆研究计量分析的文献发现,多数学者对国内数字图书馆研究论文进行了定量分析，研究内容包括：对国内数字图书馆研究的重点和热点进行分析，对国外数字图书馆研究的学科、作者、地区、机构等外部特征分布情况进行分析-4，上述研究成果,或者忽略了研究热点、趋势及进展等主题分析，或者研究时间距今已很长,不能及时反映最近几年的研究动态，另外,采用知识图谱的方法对国外数字图书馆研究主题进行重点分析鲜见相关文献报道。因此，本文采用Web ofScience最新的有关数字图书馆研究的数据，除对作者、机构、学科等分布进行可视化分析外,通过知识图谱的关键词共现分析和文献共被引分析，探讨目前国外数字图书馆研究进展。"
+  },
+  "2数据获取与基本描述": "",
+  "2.1数据获取": {
+    "context1": "本文所使用的数据来源于美国科学情报研究所（Institute for Scientific Information,ISI）出版的Webof Science数据库。数据的检索策略是主题 $=$ \"digit-al librar\\*”OR“virtual librar\\* ”OR“electronic li-brar\\*”,入库时间 $= 2 0 0 8 - 2 0 1 1$ 年。检出文献包括Proceedings paper、Article、Review、Meeting Abstract 、Letter等类型，去除书评等非研究性文献，数据经精炼,共获得文献781篇，这些文献共包含参考文献17,484篇，数据更新至 $2 0 1 1 - 1 0 - 2 1$ ,因此,2011年数据不够全面，但为了能够获得国外最新研究数据，2011年数据不予剔除。"
+  },
+  "2.2文献学科分布": {
+    "context1": "通过分析数字图书馆研究论文的学科分布情况，可以了解该主题的研究方法与应用,对进一步拓宽其研究方法，深化其在各领域的应用或开拓新的应用领域具有重要意义。据统计所获取的781篇文献分布在69个学科领域,其中发文量排在前10名的学科包括计算机科学、信息科学、图书馆学、电子电气工程、电讯、教育科学,其中,计算机科学包括:信息系统、理论方法、人工智能、软件工程、跨学科应用、硬件架构等知识领域。可见,数字图书馆研究中涉及计算机科学的文献最多，数字图书馆是在计算机技术支撑下发展起来的一个领域,大部分论文分布在计算机科学当中不足为奇，计算机技术的发展推动着数字图书馆的快速发展，同时数字图书馆的研究也丰富了计算机科学的研究内容;信息科学和图书馆学以132篇排在第二位，在计算机技术支撑下数字图书馆的具体研究内容，如资源建设与共享、信息服务、信息存储组织与描述、知识产权、图书馆建设等均属图情学研究的内容,因此,数字图书馆在信息科学和图书馆学中分布的文献较多也顺理成章;排在第三位的是电子电气工程,这个领域本身与计算机技术具有不可分割的紧密联系,因此,电子电气工程的一些模型、方法以及系统等在数字图书馆研究中充当了重要的角色。"
+  },
+  "2.3文献国家/地区分布": {
+    "context1": "通过文献国家/地区分布可以掌握数字图书馆研究的科研力量分布,为我们进行科研考察与合作提供借鉴作用。通过统计发现,781篇论文共分布在59个国家和地区，排名前10位的国家和地区共发文564篇，占发文总量的 $7 2 . 2 3 \\%$ ,基本符合二八定律。中国、美国、意大利、英格兰、德国、西班牙、印度、加拿大、巴西、法国依次排在前十位。中国和美国均以150 篇的发文量排名第一，两个国家的发文量占发文总量的 $3 8 . 4 1 \\%$ ,这表明中国和美国在数字图书研究领域已遥遥领先于其他各国家。意大利以51篇的发文量排名第二，英国以49篇排名第三，欧洲虽在这前10名的国家中拥有的国家数量最多，但其发文总量远不及虽只有中国的亚洲和包含美国、加拿大的北美洲。值得一提的是，中国台湾地区以16篇的发文量排在第11位，可见中国关于数字图书馆的研究已经在国际舞台上占据了一定的主导地位。"
+  },
+  "2.4文献作者分布": {
+    "context1": "通过对作者的分布进行统计，可以了解该领域作者发文的大体情况，确定该领域的核心作者，进而实现对该领域的跟踪与合作研究。同时，通过对作者合作网络分析，可以了解该领域研究的合作团体，拓宽跟踪与合作研究的广度与深度。据统计，发文3篇以上的作者共有203位(包括第二、第三论文合著者以及机构团体作者）。其中，发文10篇以上的作者共有5位,排在第一、二位的均为机构作者，4篇 $\\leqslant$ 发文 $< 1 0$ 篇的作者共有82位。可见，核心作者数量并不乐观。为了解作者合作情况，我们通过采用CiteSpace做出作者合作网络知识图谱发现，数字图书馆研究合作现象比较明显，其中比较大的合作网络(以发文数量计）有4个:以NicolaFerro 和E.HerreraViedma为中心的第一合作网络、以Rich-ard Furuta和EdwardFox为中心的第二合作团体、D.Castelli等4人组成两两分别合作的第三合作网络和G．BEBuchanan等3人两两分别合作的第4合作网络。"
+  },
+  "2.5文献机构分布": {
+    "context1": "通过对机构分布分析,可以了解数字图书馆研究的机构分布，进而为寻求合作研究伙伴提供素材。经统计发现,发文3篇以上的机构分布在63个机构,发文10 篇以上的机构共有5个,分别为UNIVGRANADA、UNIVPADUA、UCL、WUHANUNIV、UNIVFED MINASGERAIS,值得一提的是我国武汉大学以12篇发文量与UCL并列排在第三位,遗憾的是,未发现明显的核心机构。"
+  },
+  "2.6基金资助机构分布": {
+    "context1": "对基金资助产出的论文分布情况进行计量学分析，一方面有助于对各基金的实施效果进行评价，另一方面可以衡量数字图书馆领域科研实力、水平及组织能力以及该领域的社会地位。据统计，全部数字图书馆文献分布在133个基金资助组织中,基金资助2篇以上的论文分布在16个基金组织中,共发文50篇，占总发文量的 $6 , 4 0 \\%$ 。其中,NATIONALSCIENCE FOUNDATION、CNPQ 和 NATIONAL NAT-URAL SCIENCE FOUNDATION OF CHINA 依次排在前三位。来自于中国的资助组织国家自然科学基金（发文5篇)和中美百万册图书数字图书馆工程项目(2篇)发文超过了2篇。其他的基金资助组织绝大多数来自于美国，可见，美国对数字图书馆建设赋予了很高的重视,并由此产生了较多研究成果。"
+  },
+  "3国外数字图书馆研究进展分析": "",
+  "3.1关键词共现知识图谱和文献共被引分析知识图谱绘制": {
+    "context1": "使用大连理工大学刘盛博开发的转换软件，将从 CSSCI检索得到的文献题录信息转换成 CiteSpa-ceII可识别的格式,并导入CiteSpaceII中绘制关键词共现知识图谱和文献共被引分析图谱。设置相关参数为：时区分割（Time Slicing）设置为2008-2011,单个时间分区的长度(#Years PerSlice)设置为1年，主题词来源选择为标题(Title）、摘要（Ab-stract）和关键词(Descriptors与Identifiers）,阈值为前30个高频词,词类型(TermType)选择名词短语（Noun Phrases)（关键词共现分析)或None(文献共被引分析)，节点类型(NodeTypes）选为专业术语(Term)（关键词共现分析)或参考文献(Cited Refer-ence)（文献共被引分析)。运行程序,得到关键词共现图谱(如图1)和文献共被引分析图谱(如图2）。图1中，每一个结点代表一个关键词，结点大小表示关键词出现频次的高低，结点之间的连线表示关键词之间的共现关系，两个结点之间的连线越粗表示两个关键词共现频次越高，结点的年轮结构反映的是某一关键词出现的时间，色调由冷变暖表明时间由远及近。",
+    "context2": "![](images/8a8ae417179e2c4658a47e610a464aa058ed3e85b86aa84c63b0e4e5eeaa5edf.jpg)  \n图1关键词共现图谱",
+    "context3": "图2中,结点大小反映被引频次的高低,结点间的连线说明文献间具有共被引关系，以紫色圈(或在黑白印刷中以较粗线条)标注的结点表明该文献中心性 $\\mathord { \\geqslant } 0 . 1$ ,点的中心性是一个用以量化点在网络中地位重要性的图论概念，中心性高的点往往位于连接两个不同聚类的路径上，用来确定群体的算法就是利用这个特点来区分网络中的聚类，中心性测量为发现不同学科或者领域的连接点或进化网络中的支点提供了一种有效的计算方法。"
+  },
+  "3.2国外数字图书馆研究进展分析": {
+    "context1": "结合图1、图2,并对图谱中表现出来的重要文献和关键词进行深入分析，我们认为，目前国外数字"
+  },
+  "图书馆研究主要集中在以下几个领域。": "",
+  "3.2.1基于本体、语义web 的数字图书馆信息检索研究": {
+    "context1": "（共现关键词:Digital library-information retrieval - Ontology - semantic web)",
+    "context2": "数字图书馆是一个驱动多媒体海量数字信息组织与互联网应用问题各方面研究的技术领域，帮助用户发现信息是数字图书馆提供的核心服务之一，而要取得良好的信息检索效果，必须要有科学合理的信息组织存储技术和检索技术的支持,数字图书馆是个分布异构环境中的知识体系，解决分布式网络环境下系统或资源间的互操作问题是数字图书馆技术的核心内容，Ontology目前已经成为计算机科学中的一种重要方法,其在语义Web、异构系统集成等方面取得了越来越广泛的应用，近些年，该技术在信息抽取与检索与数字图书馆等领域中的应用逐渐升温,成为重要的数字图书馆技术研究内容之一。",
+    "context3": "如 Noah，SA等研究了本体驱动的语义数字图书馆，提出了一种从语义技术和本体论角度的数字图书馆语义信息检索；Wang，KN等设计了一种基于本体的语义检索系统。",
+    "context4": "![](images/20971a111a5b682b9ee459cbf30cb76b836a517ea1111ea700300e9695070a08.jpg)  \n图2文献共被引分析图谱"
+  },
+  "3.2.2数字图书馆系统设计研究": {
+    "context1": "（共现关键词:Digital library-Design- Digital library system)",
+    "context2": "回顾数字图书馆十几年来的建设历程，不难发现，数字图书馆的发展主要经历了三个历史阶段。第一阶段为特定文献资料的数字化,以及在此基础上建立数字信息资源系统;第二阶段为构建集成性的信息资源服务系统，致力于支持分布的数字信息系统间的互操作，并支持这些系统间无缝交换和共享信息资源与服务;第三个阶段为面向用户，以用户需求为中心,为用户提供更加智能化和个性化的服务,数字图书馆系统设计贯穿于各个阶段当中，成为数字图书馆建设的核心内容,无疑，目前数字图书馆研究集中于面向智能化、个性化服务的第三阶段，国外的相关研究成果对此进行了更加系统、深入的研究,取得了一批优秀的研究成果，比较有代表性的如Ngimwa，P设计了一种跨文化的教育数字图书馆系统；Inskip,C等人设计了一种基于用户需求的民间音乐数字图书馆系统；Ivanyukovich，A等人设计了一种数字图书馆系统:ScienceTreks,可以实现数字内容的大型语料库标注过程的自动化。"
+  },
+  "3.2.3数字图书馆推荐系统研究": {
+    "context1": "（共现关键词:Digital library - recommender sys",
+    "context2": "tem)",
+    "context3": "数字图书馆推荐系统是通过向用户提供有关的文献信息或利用的建议，帮助用户找到和选择比较相关信息的一种工具。它能够收集和统计用户查找信息，通过分析用户行为的特点来对信息内容进行推荐。目前,国外比较有代表性的数字图书馆推荐系统包括Tapestry系统、斯坦福大学的Fab系统、Citeseer系统、基于图表的数字图书馆推荐系统、俄勒冈的 SERF系统、Amazon 网络书店的推荐系统、加州大学Melvyl推荐系统等[。模糊语言推荐系统、混合推荐系统等近几年成为国外学者关注的主要方面。如 Serrano－Guerrero，J等提出了一种基于GoogleWave的数字图书馆模糊语言推荐系统，该系统可以作为具有共同兴趣研究者的沟通工具；Porcel，C等提出了一种改进的高校数字图书馆推荐系统,通过该系统可以避免信息超载[。"
+  },
+  "3.2.4数字图书馆可用性评价研究": {
+    "context1": "（共现关键词:Digital library- usability)",
+    "context2": "20 世纪70年代末,学者们提出了可用性（Usa-bility)的概念,此后,对于可用性的研究不断发展。早在1993年，Fox等学者在其所撰的书中就介绍了数字图书馆的可用性评价问题，内容涉及信息表现（Representation）,系统构建(Architecture）和用户界面(User Interface)等领域的9个原则[。如今,学者们对于数字图书馆可用性评估的研究逐步深入，从理论到实践，沿着系统与用户结合的方向不断深入。关于数字图书馆可用性评价的理论研究主要涉及可用性评价的定义、评价目的、评价方法、评价模型等方面。近几年对开放获取数字图书馆的可用性评价进入了国外学者的视线,如Tsakonas Giannis等人对开放获取数字图书馆可用性进行了评价[4；Feng，Q等对基于开放获取资源的学科知识库的可用性进行了评价[。"
+  },
+  "3.2.5数字图书馆模型研究": {
+    "context1": "2004年Goncalves，MA提出了数字图书馆的5S（Streams，structures，spaces，scenarios，societies）模型[d,Streams是用来描述静态和动态(如视频)内容的任意项目的序列，Structures可以被看作是被标记的图表,Spaces是服从某种约束的操作集,Scenar-ios是计算状态修改的事件或行动序列,Societies是实体、活动和它们之间的关系的集合，该文中心性达到了0.56,2008-2011年被引频次达到了21次，中心性和被引频次均排在首位，可见，近几年国外对数字图书馆模型的研究关注度极高，围绕该研究成果，国外相关学者对数字图书馆的架构、用户、服务、推荐系统以及数字内容注释等相关模型进行了广泛的探讨。"
+  },
+  "3.2.6数字图书馆个性化协同服务研究": {
+    "context1": "随着数字资源越来越多，人们获取有用资源的效率越来越低。基于用户-资源协同驱动的个性化推荐模式成为个性化信息推荐服务的主要模式。提供个性化协同信息推荐服务在电子商务领域已经有了广泛应用，一些大型的电子商务网站如Amazon-com就用它来实现对目标用户的商品信息推荐，主动向目标用户推荐其可能需要或者最感兴趣的商品信息。这种主动向用户提供其最感兴趣资源的信息推送服务方法和技术正是数字图书馆在进行个性化信息服务时所需要的。2005年Renda，M等人提出了个性化协同的数字图书馆模型及其应用，其所设计的数字图书馆不仅是一个用户满足自身信息需求的信息资源，而且也提供具有共同兴趣的用户一个协同工作和交流的空间[,在此空间,用户之间可以交换和共享知识,该文中心度达到了0.47,中心性排在第二位。围绕该问题，国外学者进行了广泛而深入的研究,如C.Porcel、J.M.Moreno 和E.Her-rera-Viedma等人借助模糊集理论设计了一个协同推荐系统以帮助大学数字图书馆用户获取研究资源[i8-19,其目的是通过协同推荐资源的方式去发现跨学科研究团体之间是否存在协作的可能性，从而提高大学在科学研究中的社会合作效率。",
+    "context2": "除此之外,为发现上述研究领域的未来发展趋势,借助CiteSpace的词频统计分析功能,对2008-2010年各年相关关键的词频进行统计分析，以发现各年词频变化(如下表)。由表1可以看出,信息检索、语义web、本体、可用性、模型相关研究呈明显上升趋势，将继续成为未来若干年的研究热点，关于设计的相关研究呈降温趋势,数字图书馆系统、推荐系统呈平稳发展态势。",
+    "context3": "表1各年词频变化",
+    "context4": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>2008</td><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=1>2010</td><td rowspan=1 colspan=1>发展动态</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>information retrieval</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>→</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>semantic web</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>→</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>design</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>←</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>digital library system</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>→</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>ontology</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>→</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>recommender system</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>→</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>usability</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>→</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>model</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>→</td></tr></table>"
+  },
+  "4结论": {
+    "context1": "通过对国外数字图书馆研究的外部特征分布统计分析，发现数字图书馆的研究融合了其他多种学科的技术与方法,并广泛应用到其他学科,丰富了自身研究内容的同时也扩展了其他学科的研究领域;国家/地区分布表明中国和美国是国际上数字图书馆研究比较发达的国家，值得一提的是我国的武汉大学关于数字图书馆的研究已在国际舞台上具有一定的影响力，亚洲、北美洲、欧洲是数字图书馆研究比较发达的地区。通过关键词共现分析和文献共被引分析发现随着计算机技术的发展，数字图书馆的研究已向技术和服务方面深入渗透，成为持续的研究热点,其中,服务是核心，多种技术的应用为个性化、易用性的服务提供了有力的支撑。本文也存在一定的研究不足,如样本的选取不够全面，为研究国外数字图书馆最新研究进展，仅选取了最近几年的数据,这对论文外部特征分布会有一定的影响,这将是今后需要进一步研究的切入点。"
+  },
+  "参考文献": {
+    "context1": "1邱均平，王明芝．1999～2008年国内数字图书馆研究论文的计量分析[．情报杂志,2010(2):1-52晏尔伽,朱庆华．数字图书馆研究进展—基于LISA",
+    "context2": "3晏尔伽,朱庆华．1996-2005年 SCI-E数据库中数字图书馆研究文献定量分析[]．情报科学,2007（12)：1823-1828",
+    "context3": "4 周静怡,孙坦.基于Webof Science的数字图书馆研究 论文定量分析[1．情报科学，2005(10):83-87   \n5 Noah Shahrul Azman; Alias Nor Afni Raziah；Osman Nurul Aida;et al.Ontology- Driven Semantic Digital Library [.6th Asia Information Retrieval Societies Conference, 2010   \n6 Wang Kaining; Liu Ziyu； Fu Hongyan.The Design of Semantic Retrieval System Based on Ontology [C].International Pre-Olympic Congress on Computer Science,2008   \n7 Ngimwa Pauline；Adams Anne; Underwood Josh .Collaborative Ownership in Cross -Cultural Educational Digital Library Design [C]．3th European Conference on Research and Advanced Technology for Digital Libraries,2009   \n8 Inskip Charles；Butterworth Richard;MacFarlane Andrew .A study of the information needs of the users of a folk music library and the implications for the design of a digital library system [．INFORMATIONPROCESSING& MANAGEMENT,2008,44(2) :647-662   \n9 Ivanyukovich Alexander；Marchese Maurizio;Giunchiglia Fausto .ScienceTreks:an autonomous digital library system [.ONLINE INFORMATIONREVIEW,20O8,32（4）： 488-499"
+  },
+  "10黄晓斌,张海娟.国外数字图书馆推荐系统评述[.情报理论与实践,2010(8)：125-128": {
+    "context1": "11Serrano -Guerrero Jesus；Herrera- Viedma Enrique； Olivas Jose A.；et al.A google wave-based fuzzy recommender system to disseminate information in University Digital Libraries 2.0 [I]．INFORMATION SCIENCES,2011, 181(9):1503 -1516   \n12Porcel C.；Morales del Castillo J.M.；Cobo M.J.；et al.An improved recommender system to avoid the persistent information overload in a university digital library . CONTROL AND CYBERNETICS,2010（39):4:899 - 923   \n13 FoxEA,HixD,NowellL T,et al .Users，user Interfaces, and objects:Envision，Digital Library．Journal of the American Society for Information Science，1993，44（8): 480-491   \n14Tsakonas Giannis； Papatheodorou Christos.Exploring usefulness and usability in the evaluation of open access digital libraries [].INFORMATION PROCESSING& MANAGEMENT,2008,44(3):1234-1250   \n15 Feng Qing;Huang Ruhua.Evaluating the Usability of Discipline Repositories [C] .IEEE International Symposium on IT in Medicine and Education,2008   \n16 Goncalves MA；Fox EA；Watson LT; et al. Streams, structures，spaces，scenarios，societies(5S)：A formal model for digital libraries [ .ACM TRANSACTIONS ON INFORMATION SYSTEMS,2004,22(2) :270 -312   \n17 Renda ME； Straccia U.A personalized collaborative Digital Library environment: a model and an application [. 5th International Conference on Asian Digital Libraries （ICADL 2002）,2002   \n18C.Porcel,J.M. Moreno,E.Herrera - Viedma.A multi - disciplinarrecommender system to advice research resources in University Digital Libraries.Expert Systems with Applications,2009(36) :12520 -12528   \n19 C.Porcel,E.Herrera- Viedma．Dealing with incomplete information in a fuzzy linguistic recommender system to disseminate information in university digital libraries. Knowledge -Based Systems,2010(23):32-39"
+  },
+  "杨国立1979－,江苏大学图书馆科技信息研究所，馆员。": {
+    "context1": "(收稿日期:2011-11-02编发:许桂菊)"
+  }
+}

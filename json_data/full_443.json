@@ -1,0 +1,79 @@
+{
+  "original_filename": "full_443.md",
+  "Mushup技术标准研究进展及应用对策研究": {
+    "context1": "李书宁",
+    "context2": "（中国科学院国家科学图书馆北京100190)（中国科学院研究生院北京100049）",
+    "context3": "文摘从mushup应用的需求出发,通过对网络服务技术规范和开放集成技术规范最新标准的调查研究，得出mushup标准规范的语义数据融汇、web2.0资源融汇和专门融汇标准进一步发展三个方面的研究趋势，并从拓展资源类型、集成语义数据、重视标准集成使用和专门标准三个方面提出应用对策。",
+    "context4": "关键词mushup 技术标准研究进展应用对策",
+    "context5": "Study on R esearch Devebpm ent and App lication Coun teim easure ofMushup Standard",
+    "context6": "L i Shun ing",
+    "context7": "(Library ofChinese Academy of Sciences Graduation School ofChinese Academy of Sciencesl00190) Abstract Beginning with requirement ofmushup applicationsand through the investigation about latest standards ofweb services technobgy standards and open integration technobgy standardsthis paper educes three aspects ofmushup standard research trend: semantic data mushup web2. $0 ~ \\mathrm { { r e ^ { - } } }$ sources mushup and future devebpment of specific mushup standard and brings forward three aspects of application countemeasure: enriching mushup resource genres mushuping semantic data attach ing importance to standards integration and specific mushup standard K ey words Mushup Technobgy standard Research devebpment App lication countemeasure"
+  },
+  "1引言": {
+    "context1": "集成融汇(mushup)是利用从外部数据源检索到的内容来创建全新的创新服务应用的交互式的web应用程序[1]。近年来mushup的相关应用一直在稳步增加,单从programmableweb登记情况来看，2008年1月到2008年7月，mushup的相关应用就从原来的 2600多种增加到3200多种，增幅超过$20 \\% ^ { [ 2 ] }$ ，随着mushup技术应用难度的降低及技术普及，这种应用还会出现迅猛发展。作为信息服务重要机构的图书馆，利用mushup技术将更多的信息资源为信息用户服务也成为一种比较迫切的实践需求。mushup技术的标准规范是开发集成融汇相关应用基础,研究和分析mushup技术标准规范现状和",
+    "context2": "必须要做的事情。",
+    "context3": "mushup技术就是mushup应用程序涉及到的网络服务技术、开放集成技术等技术总称。实际上，由于mushup技术应用可利用外部数据源的多样性，其涉及的技术也非常复杂，涉及标准则更加繁杂多样。囿于文章篇幅,本文只是从2个方面探讨 mushup技术规范体系，而且重点讨论的是技术规范体系中重要规范 2005年以后的研究进展。"
+  },
+  "2mushup技术规范的主要研究进展": "",
+  "2.1网络服务技术规范的研究进展": {
+    "context1": "网络服务技术规范是mushup技术规范的主要部分,主要涉及到语义网、服务网格、SOA、webserviceweb2.0和微格式等。《现代图书情报技术》",
+    "context2": "网格、SOA、Webservice中涉及的系列标准规范，文献[3]对微格式的发展都给予了较为详细的介绍。本文主要介绍语义网和web2.0相关标准的研究进展。"
+  },
+  "2.11语义网标准及相关研究": {
+    "context1": "万维网专家KarlDubos等在 2008年3月报告[4]中,将语义网近年主要发展的技术总结为：SPARQLGRDDLRDFa OWLRIF,相关技术标准也是 mushup特别值得注意的。",
+    "context2": "（1)SPARQL系列标准[5]。2008年2月，万维网之父TmBemers一Lee在接受访谈时特别强调新推出的SPARQL系列标准将会对未来网络的发展，特别是语义网的发展,产生非常大的影响[6]。因此,所有的网络应用，包括mushup应用都需要特别关注SPARQL。SPARQL是W3C20O8年1月份推出的推荐标准，包括“RDF查询语言”、“RDFSPARQL协议”、“RDF查询结果 XML格式\"三部分。SPARQL使用HTTPGET发送查询请求，接受 XML或 JSON存储的结果，所有的应用程序不再需要直接的 RDF编程，只需要利用 SPARQL处理器。其中，SPARQLRDF查询语言标准定义了RDF查询语言的语法和语义，包括SELECT查询语句、FILTER限制条件、“SELECTCONSTRUCT、ASK、DESCR IBE\"四种查询式、相关的运算符等。SPARQLRDF协议则详细规定了如何使用WSDL2O描述 SPARQL查询式到SPARQL查询处理服务器的传递过程以及查询结果返回的过程。RDF查询结果的 XML格式则详细规定了如何使用XML语言来描述结果文档，这里的查询不但包括 RDF的查询，也包括 SELECT系列查询和 ASK布尔查询。",
+    "context3": "(2）GRDDL。全称 Glean ing Resource Descriptions from Dialects of Languages 是 W3C 2OO7年 11月推出的标准规范草案[7]。GRDDL规定了如何在形式良好的 XML和有效XHTML文件中增加和使用GRDDL如何在XML命名域和HTML配置文件中设置GRDDL以及如何利用XSLT之类的链向算法，从XHTML和XML文档中抽取语义数据。由于微格式采用XHTML描述语义信息，语义网主要使用XML描述语义信息，GRDDL标准就将微格式和语义网联系在了一起，为二者相关应用的 mushup提供了条件。",
+    "context4": "$( 3 ) \\mathrm { R D F a } _ { \\mathrm { 6 } }$ 全称 Resou rce Description Fram ew orkattributes[8],W3C 提出的直接在 XHTML内包含RDF数据的一种机制,类似于微格式。RDFa使用使网页可以标识任意数量和任意复杂性的机器可读的语义数据。目前W3C相关的标准主要有两个工作草案：2OO8年2月推出的 RDFa in XHTML：Syntaxand Processing和 2OO8年 3月推出的 RDFa Prmer前者介绍了相关的语法，后者则介绍了如何实现。RDFa目前包含的属性包括about rel和 rev、href和src及resou rce property con tent datatype typeof等。",
+    "context5": "(4)简单知识组织系统（SKOS)。W3C针对SKOS近年推出了系列工作草案标准，其中比较重要的是 2008年1月推出的 SKOSReference[9]。该标准替代了 2OO5年推出的 SKOS coreVocabulary规范草案，为语义网上的知识共享和链接系统（比如：叙词表、术语表、主题词表、分类表等)定义通用的数据模型，该数据模型为现有的知识管理系统向语义网开放相关的端口提供了标准和低成本的转换路径，也为研发和共享新的知识管理系统提供轻量级直接的描述语言。SKOSReference整个规范包括了 SKOS词汇、概念资源、概念方案、词汇标识、文档属性、语义关系、标识关系和概念集合等。"
+  },
+  "2.1.2 $\\mathrm { w e b 2 . ~ 0 }$ 标准及相关研究": {
+    "context1": "W $\\mathrm { { e b 2 . 0 } }$ 技术的发展使得用户参与创造的丰富、高质量的资源越来越多，将这部分资源纳入到mushup中则是非常有意义。为了实现web2.0资源的互操作性，WikiRSS SocialNetwork都在进行相关标准的研究，并取得一些成果。",
+    "context2": "(1)Wiki标准。国际Wiki会议 $\\mathrm { ~ W ~ i k i S y m 2 0 0 6 }$ 年成立的标准工作组 2007年推出了WIKI资源描述标准CreolelO。该描述标准详细规定了Wiki的字体(粗体、斜体）内外交互链接、段落、断行、列表、图片、表格、非Wiki内容、括号表达等相关的设计和描述格式等[10]。M．V'olkel等提出了Wiki InterchangeFomat11],详细说明了Wiki资源的存储方式(按目录存在文件夹中）存储内容（包含index hmlwikitxt wifxhmlindexrdf附件）各种不同的链接格式不同表示方法等。",
+    "context3": "(2)RSS标准。2007年 10月，RSS2.0推出 RSS最佳实践规范[1]。该最佳实践规范描述了如何创建RSS文档，对RSS要素定义使用 MUSTNOT等对如何使用进行了说明。规范以“必须”“推荐\"的形式列出了各种数据类型(字符型、日期型、URLs等）和rss各要素(频道、描述、链接、题名、分类等)及其子要素的具体使用规则。为了加强RSS的双向反馈共享，微软公司 2007年 5月推出新版的 RSS SSEring>、<sx:related>、<sx: history>、<sx:unpublished>等6个要素为RSS拓展了多种属性，记录用户的创建、更新删除、合并和冲突解决行为，跟踪用户 RSS提要的使用情况并反馈给RSS提要提供者。TETF推出的 RSS另一种提要格式 $\\mathrm { { A t o m } , 2 0 0 7 }$ 年10月推出 $\\textrm { A t o m }$ 的发布协议标准 $\\mathrm { A P P ^ { [ 1 3 ] } }$ ，使用http和XMLl0发布和修改网络资源应用层面的协议，详细规定了相关术语、协议模型(识别和命名、文档和资源分类、控制和发布等）协议的具体实现(检索某个服务文档、创建资源、修改资源、删除等）。",
+    "context4": "（3)SocialNetwork标准。 $\\mathrm { G o o g l e ~ 2 0 0 7 }$ 年11月推出的OpenSocial标准[14],实际上是一套通用社会化网络程序开发的API该标准提供了一系列的JavaScriptAPIReference 列出了“行为”、“地址”“电子邮件”“环境”“组织”“电话信息\"等通用要素以及这些要素的子要素和具体设计算法。另一套社交网络标准由OpenF riend项目组推出[15],包括FOAF(Friendof a Friend)、SNAP（Soc ialNe work $\\mathbf { A } \\mathbf { g } ^ { - }$ gregationProtocol)、OFF(Open Friend Fomat)，还定义了SNAP/OFF兼容的社交网络、SNAP代理和SNAP/OFF聚合器等应用规范，规范在保护用户隐私的同时，将社交网络联系信息的导入导出过程进行了标准化。"
+  },
+  "2.2开放集成技术标准规范的研究进展": {
+    "context1": "Mushup技术中的开放集成技术主要涉及元数据、各类的互操作和交换技术。其中，元数据除少数通用元数据外，多数都和专门的 mushup领域有关系，由于文章的篇幅所限,这里不再赘述。这里主要介绍一下互操作技术和交换技术的几个重要标准规范。"
+  },
+  "2.2.1 互操作技术的标准规范": {
+    "context1": "(1)元数据登记标准。在元数据登记标准中，特别需要关注的是：劳伦斯伯克利国家实验室的eXtendedMetadataRegistry（XMDR)项目[1]对ISO/IEC11179进行了拓展，使其具有了语义处理能力，改善了传统数据管理能力，具有更强语义管理和语义服务能力，能够进行语义计算；2007年6月推出CommonLogic标准[17],用于逻辑语义数据互换，主要作用是表征本体和知识信息、规范推理机限定条件和表达方式、解释语言符号、转化标注内容等。",
+    "context2": "（2)OAI相关标准。openarchives组织在原来OAI一PMH基础上，2007年 10月推出了OAI一ORE[18]（(Object Reuse and Exchange)，定义了网络资",
+    "context3": "ORE用户指南，介绍了如何使用 $\\mathrm { A } \\tan$ 描述资源地图，同时推出的还有OREAtomProfile规范和用RDF语法表征资源地图规范。2008年3月推出了抽象数据模型，该抽象模型由聚合、聚合资源、资源地图(ReM）资源地图文档、代理、代理文档组成。资源图的基本RDF图，还规范了资源图和聚合之间、资源图和聚合的元数据之间、聚合资源和聚合图之间存在的关系。同时推出的ORE术语规范，则定义了OAI一ORE所使用的词汇（Entities Properties TypesRelationships及其各自包含的术语组成的术语集）。",
+    "context4": "（3)DOI和OpenURL相关标准。2008年1月，ISO推出 DOI标准[19]。该标准规范详细定义了DOI语法（规范了DOI前缀、后缀等）DOI名分配（DOI名范围、粒度、具体描述等）DOI名解析和DOI元数据，为网络资源提供永久性识别符。而OpenURL相关标准则在 NISO 2005年推出 Z39.88后，2006年推出OpenURL CoinS（ContexObjectsin Spans）标准[20],可在 HTML中嵌入书目数据和引文数据。包括VuFind在内很多系统都已经支持。"
+  },
+  "2.2.2交换技术标准规范": {
+    "context1": "（1)EXI格式规范。W3C2008年3月份推出了高效 XML交换格式 Effic ient XML Interchange Format21]1.0的第三版草案。该格式详细规定了如何用简短语言描述XML信息集合，以利于优化可计算资源的可用性能。EXI使用相对简单的算法(迅速简约的实现算法，小数据类型集）,提供高效的 XML事件流编码。",
+    "context2": "(2)RIF（Rule Interchange Fomat规则交换格式）[22]。Mushup应用中除资源外，还需要考虑相关规则的交换。W3C目前正在形成规则交换格式的标准体系，包括 20O8年 4月推出RIF一BLD（BasicLogicDialect定义基于规则系统交换逻辑规则的基本格式）、RIF一FLD（Fram ework forLogic Dialects 定义基于逻辑的RIF对话的通用框架，描述逻辑RIF对话通过签名、符号空间、语义结构等实现的语义和语法机制）、RIFRDF $^ +$ OWL（RIF RDF and OWLCompatibility 定义RIF和数据本体语言 RDF、RDFS和OWL之间的互操作)三个草案。另外，定义相关数据类型和内嵌功能的 RIFDTB、定义规则语言之间解释和规则系统间传递格式的RIFUCR、致力于产品规则互操作的 RIFPRD也取得了不同程度的进展。"
+  },
+  "3标准规范未来趋势及应用建议": {
+    "context1": "Gartner研究报告2007年5月显示[23]，web技术的改善将会实现在文档中嵌入语义结构。预计到2012年,基于语义的超文本技术将成为普遍使用的Web技术，在特定领域中，大型领域本体将建立起来，形式化地描述领域内的概念和及其之间的复杂关系，在此基础上，实现基于语义的各类服务。预计到 2017年，语义Web的远景能够初步实现。TmBemers一Lee在对未来万维网的预测中讲到，将建立更加广泛的链接，将人与人之间、网站和网站之间都建立链接[24]。2O06年 Hajme Horiuchi在第九届元数据注册开放论坛会议上的相关论文[25],将元数据发展历史归纳为进程共享元数据(主要描述结构）信息共享元数据(主要共享元素)和语义共享元数据(捕获和表征各种关系），未来的元数据共享将侧重于语义数据。",
+    "context2": "从相关的标准来看,不管是Tm Bemers－Lee推崇的 SPARQL系列标准，将微格式与语义网结合的GRDDL标准,还是RDFa eRDF等语义网标准，都为 mushup和检索语义数据提供了标准上的支持。微格式技术标准使用XHTML描述的个人日程安排、联系信息、个人简历、社交关系、各类评论、投票等各类结构化的个人信息以及用 $\\mathrm { X M L }$ RDF、OW L等描述的其他语义数据则为语义数据mushup提供了数据源。从元数据标准来看， $\\mathrm { I S 0 / I E C 1 1 1 7 9 }$ 通用数据语义标准在近几年的国际元数据登记会议中研究最多，拓展后形成XMDR使该标准具有了更强的语义处理能力，而逻辑语义数据互换标准CommonLogic则可以实现本体及知识信息的表征等逻辑信息共享化的语义表征，这些为语义数据的mushup的互操作提供了技术保障。"
+  },
+  "3.2web2.0资源 mushup": {
+    "context1": "W $\\mathrm { { e b 2 . 0 } }$ 资源的集成融汇主要包括两个层面：一个是 $\\mathrm { w e b 2 . ~ 0 }$ 与语义网、网格等资源之间的融合，另一个层面是 $\\mathrm { w e b 2 . ~ 0 }$ 技术产生资源之间的融合。",
+    "context2": "$( 1 ) \\mathrm { w e b 2 . ~ 0 ~ }$ 与语义网、网格等之间融合的研究。2007年，语义网格专家GeoffreyFox在语义网格会议的主题发言中[26],特别强调 $\\mathrm { w e b 2 . ~ 0 }$ 和网格及web-service的关系，强调将web2.0的技术和资源融入到网格服务中，并介绍他们在语义网格中融入 $\\mathrm { w e b 2 . ~ 0 }$ 的思想和技术,构建语义研究网格的实践。语义研究网格将标签和检索系统集成在一起，允许用户使用多个不同的站点，并与传统的引文数据库紧密集成在一起。2008年，“网络语义：万维网科学、服务",
+    "context3": "相结合的相关研究[27]。",
+    "context4": "$\\left( \\mathrm { ~ 2 ~ } \\right) \\mathrm { w e b 2 . ~ 0 ~ }$ 资源mushup相关标准研究。从目前的研究来看，web2.0主要技术除了博客外，多数2006年后都有了相关新标准或者标准的更新版。Wiki资源描述标准CreolelOMeatball推出的Wiki置标语言标准[28]以及M．Volkel提出的Wiki互换格式都为mushupWiki资源提供标准上的支持。而RSS2.0最佳实践规范详细规定RSS提要诸多组成要素的具体使用规则， $\\textrm { A t o m }$ 标准、A tom Publish $\\mathrm { P m } ^ { - }$ tocol标准、RSSSSE将Alert类信息资源各种子要素内容的提取和跟踪都成为现实， $\\mathrm { \\ w e b 2 . ~ 0 ~ }$ 资源的mushup具更细的粒度和交互性。Google推出的OpenSocial标准API可以实现对多种社交网络中人与人之间关系的mushup $\\mathrm { \\ w \\ e b ^ { 2 } \\cdot \\ 0 }$ 中由信息用户创建的各类资源未来将会全部纳入到mushup范畴中。"
+  },
+  "3.3专门mushup标准的出现和发展": {
+    "context1": "mushup标准已经出现了专门针对其的标准，这类标准集成了多种相关的标准成相关统一可用的标准。除前面介绍的OpenF riend外，还有OpenA jaxOpenSAM、OAuth SMash等。其中 OpenA jax[29]被认为是下一代mushup技术和相关产品中最有竞争力的标准，2008年推出的Hubl.1标准已经支持 IBM的 Smash标准，可以安全地从很多第三方数据和代码提供者那里获得代码和数据。 $0 \\mathrm { p e n S A M } ^ { [ 3 0 ] }$ (0penSimpleAJAX Mashup)是由 EdiG rid、NeO ffice等在线应用提供商 2006年推出的针对office2.0在线办公应用的 mushup标准，集成了WebDAV、OpenID、LDAP和DataPortability组织的系列标准等很多标准，主要解决的是“用户需要分别登陆现在的office2.0应用”、“用户需要分别在使用多个office2.0在线应用软件中下载和上传文档”、“用户无法跨office应用复制和粘贴\"等问题。OAuth[3]是DataPortability $\\mathbf { o r g } \\ 2 0 0 6$ 年 11月开始研制的标准,是一种桌面和网络应用程序中以简单标准的方法提供安全API认证的开放协议。2007年10月推出OAuthCorelO的最终草案。详细规定了查询URL的编写办法、参数的编码格式、用户发送请求参数、服务器回应参数、HTTP认证的详细技术方案及过程等。$\\mathrm { S m a s h } ^ { [ 3 2 ] }$ （Security MushUp)则是 $\\mathbb { B M } \\ 2 0 0 8$ 年3月推出的技术标准,来解决集成融汇中的信息安全的相关问题。"
+  },
+  "3.4标准规范的应用建议": {
+    "context1": "(1)拓展mushup资源的资源类型。目前的mushup视频和图像 mushup 搜索和购物 mashup和新闻 mashup[33]。将来集成融汇的资源类型不仅包括原有这些方面的内容，还包括web2.0环境下产生的 wikiblog图片、社交网络、RSSAtm和 OPML等描述的Alert类提要信息以及微格式描述的个人联系信息、个人日程安排、个人简历、社交关系、各类评论、投票信息以及 $\\mathrm { { X S P F } ^ { [ 3 4 ] } }$ （XML Shareable PlaylistFoimat)多媒体列表资源等。其中特别需要注意的标准包括Wiki的互换格式、RSS2.O的最佳实践指南、 $\\textrm { A t o m }$ APP以及RSS $\\mathrm { S S E } _ { \\circ }$ 另外,还可以借助于SKOSReference定义的通用数据模型来集成语义网上的知识共享和链接系统，如：各类叙词表、术语表、主题词表等。OpenURLCO inS还允许在HTML中嵌入书目数据和引文数据，这些数据也可以纳入到mushup的范畴中去。",
+    "context2": "(2)重视对mushup语义数据的集成。从元数据中增加语义要素，到webservice标准中增加语义标注，再到语义网络最近出现的标准，mushup不但要考虑的是集成语义化、结构化的数据，数据被收集后的组织，也要尽可能采用语义化的方法进行描述，比如RDF(包括 RDFa或者 eRDF)和OWL这样就可以利用 SPARQL系列标准进行语义化的查询。GRRDL标准将微格式和语义网紧密地结合在了一起，对微格式类信息集成，可以充分考虑GRRDL标准，采用XSTL类似的应用从XHTML和XML的内容提取相关数据并进行集成。而为WSDL和 XMLSchema的语义标注而研制的标准 SAW SDL[35],能够为 W SDL描述的界面和运算符增加到各类网络登记服务应用分类信息中提供标准支持，还为 XMLSchema类型和本体之间的数据转换提供了标注机制。语义数据为了丰富自身知识的表达能力，需要借助于规则与本体的互补，RIF规则交换格式中RIFR $\\mathrm { D F ^ { + } O W L }$ 定义了RIF和数据本体语言 RDF、RDFS和OWL之间的互操作，这也是需要注意的。另外，相关元数据标准ISO/IECl1179、XMDR、ISO/IECl1404等对于语义数据的支持，也是mushup语义数据可以参考的标准。",
+    "context3": "(3)重视专门mushup技术标准，充分利用各种技术的多种标准。虽然本文对mushup标准进行了分门别类的列举和归纳总结，但是实际应用中并不会有特别明晰的划分，会综合考虑利用语义网、网络服务、SOA、网格服务、语义网格、web2.0各类元数据和互操作交换技术等中部分或者全部技术。比网格服务 $\\mathrm { c a G r i d } ^ { [ 3 6 ] }$ ，其信息集成采用的标准就包含了描述逻辑标准，临床数据交换标准、ISO/IEC11179元数据登记标准、XML SchemaWeb ServiceW ebServ ices ResourceFram eworkDICOM等。对于目前已有的专门针对mushup的技术标准，则需要充分利用，并密切关注相关研究的发展。"
+  },
+  "参考文献": {
+    "context1": "1,3House of Cammons—Science and Technology—Tenth",
+    "context2": "Report [2O08-10—16]htp://www·publications parliamentuk/pa/m200304/m select/m sctech /399 /39902. hm   \n4 SamuelE. Trosow· CopyrightPro tection for Federally Funded Research; Necessary Incen tives orDouble Subsidy?·[2008 -9—04]http://publish uwo ca/～strosow /Sabo—Billpaper pdf   \n5付晚花，肖冬梅．国际开放获取政策及其研究进展综 述·图书馆杂志，2008(11)   \n6RCUK:RCUK Position Statement on Access to Research Outputs [2008-08-08]htp://www:rcukaouk/ m sweb /down loads/rcuk /docum en ts/2OO5 statement pdf   \n7RCUK:RCUK'Updated Position Statem ent on Access to Research Outputs [2008—08-08]htp:/ /www.rcuk:ao uk/m sweb /downloads/rcuk/documents/2Oo6statement Pdf   \n8Research fundef s open access policies $[ 2 0 0 8 - 1 0 - 1 2 ]$ http://www.sherpa ao uk/juliet   \n9李丹译．RCUK公布关于科研成果获取的立场·图书情 报工作动态，2005（7)",
+    "context3": "付晚花女,湘潭大学公共管理学院图书馆学硕士研究生。",
+    "context4": "肖冬梅女，博士,湘潭大学图书馆副馆长，湘潭大学公共管理学院硕士生导师。",
+    "context5": "(收稿日期：2008-11-16编发：王宗义）"
+  },
+  "（上接第61页）": {
+    "context1": "24 $[ 2 0 0 8 - 0 7 - 1 4 ]$ . Finding and Exploiting Vale in Se mantic W eb Technologies on theWeb Gartner Research Report May 2007.   \n25Timothy Bemers-Lee The Future of the World W ide W eb $[ 2 0 0 8 - 0 7 - 1 4 ]$ .http://dig csail mit edu/ 2007 /03 /01-ushouse future of-the-web html   \n26 $[ 2 0 0 8 - 0 7 - 2 4 ]$ .http://www. tit ao jp/org/openfo $\\mathrm { n u m 2 0 0 6 / s l i d e s / P 3 } .$ ppt   \n27[2008－07—24]. htp://www.semanticgrid org/0GF/ $\\mathrm { \\Gamma _ { o g f } \\mathrm { 1 9 / o g f 1 9 } w e b 2 0 j a n 2 9 - 0 7 . }$ ppt   \n28[2008—07-24]. htp://www:usemod com/cgi-bin/ mb pWikMarkupS tandard   \n29 $[ 2 0 0 8 - 0 7 - 2 4 { \\cdot }$ ].http://www.sciencedirect com/sci ence/joumal/15708268   \n30[2008-07-24]. htp.//www: openajax org/   \n31[2008－07－24]. http://www: o2con cam /blbgs/con ference /2007 /07 /26 /opensam－at—the－office—20— con ference   \n32[2008-08-11]. htp: //oauth net/core /1. 0   \n33[2008-O08-11]. htp: //www: maiketwire com /mw/release do $\\mathtt { i d } { = } 8 3 1 8 5 0$   \n34[2008－08－11]. http://www:ibm:com /developer works/cn/xml/x-mashups hml   \n35[2008-08-11]. htp://www: xspf org/xspf-vl. hml   \n36[2008—08-11]. htp://www· metadataopenform: org/ downbad phpfc8c2204b91c07969b462904add31621"
+  },
+  "李书宁博士研究生。": {
+    "context1": "(收稿日期：2008-09－02 编发：刘炜、赵亮）"
+  }
+}

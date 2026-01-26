@@ -1,0 +1,104 @@
+{
+  "original_filename": "full_2212.md",
+  "·新技术应用·": "",
+  "内容本体设计模式构建及应用研究综述": {
+    "context1": "李晓辉1²孙坦刘峥}（1中国科学院国家科学图书馆北京100190）",
+    "context2": "（2哈尔滨师范大学图书馆哈尔滨150025）",
+    "context3": "文摘基于模式的本体设计是近几年本体研究的热点之一，内容本体设计模式是其中重要一类，是基于模式的本体构建的基础和复用的重要内容。它的创建方法有两种：从非本体知识资源重组而来;从现存本体中抽取而来。得到的模式主要用于本体精炼和本体构建。对这两方面内容进行综述，介绍相关研究现状，并提出问题和研究展望。",
+    "context4": "关键词本体模式本体设计模式内容本体设计模式",
+    "context5": "Review of Content Ontology Design Pattern Construction and Using Li Xiaohui1.2,Sun Tan' ,Liu Zheng1",
+    "context6": "(1 National Science Library,Chinese Academy of Science,Beijing 1O0190）",
+    "context7": "(2 Harbin Normal University Library,Harbin 150025）",
+    "context8": "Abstract:Ontology pattern is one of the most important aspects of ontology research recently. Content ontology design patern is the basis of ontology construction and ontology reusing.They can be constructed by re -engineering the non -ontology knowledge resources and extracting from the existing ontology. The main using of them are in the area of ontology refining and the networked ontology constructing. This paper reviews and analyzes from the two aspects,and proposes its ongoing and future work.",
+    "context9": "Key words : Ontology pattern, Ontology design pattern, Content ontology design pattern"
+  },
+  "引言": {
+    "context1": "本体是语义网的重要内容，历经十多年的发展取得了丰富的研究成果。目前Web上发布有大量本体，通过Swoogle可检索到1万多，本体复用的问题随本体数量的增加而被研究者所关注，以复用经验和解决方案为目的的模式思想开始进入本体设计者的视野。",
+    "context2": "本体设计模式（Ontology design patterns ODPs）是一个建模解决方案，解决一个可重复的本体设计问题[]。模式最初出现在软件领域,是最佳实践的编码，是人们面对同样的软件设计问题的经验总结，有了模式，就可以利用其他人实践经验的精华。模式在上世纪90 年代中期出现在知识工程中，并被软件工程的发展所驱动[2]。随语义网和本体工程的发展，模式作为可复用的设计问题的解决方案被应用于本体工程[3]。2004至2005年间,W3C成立了本体工程和模式任务组（Ontology Engineeringand Pat-terns Task Force OEP),并提出ODPs及其复用[4]。2008年，相似的倡议被NeOn（Ontology Networks）项目提出，建立了ODPs社区，并不断扩大，覆盖了各种类型的本体设计模式，它是时下最大的语义Web本体模式社区[5]。曼彻斯特大学也维护着一个本体设计模式公共目录，但只收集生物知识领域的本体设计模式[6]。本体模式的会议（Workshopon Ontolo-gy PattermsW0P)于2009和2010 年召开了两次，WOP系列拓展了本体模式的研究范围，包括所有与本体相关的模式设计和用于语义Web的知识工程[7.8]。从2009 年本体模式的国际研讨会开始，相关研究渐多，基于模式的本体设计成为本体建设过程中一个重要的理念和方法。",
+    "context3": "按本体设计模式在本体构建中的功能不同,Ne-On项目将其分为六大类型：内容ODPs（Content-ODPs）结构ODPs（Structure-ODPs）、词汇－句法ODPs(Lexico-Syntactic ODPs）、推理 ODPs（Reason-ing-ODPs）、表达ODPs（Presentation-ODPs）、通信ODPs（Correspondence－ODPs）以及它们的子模式。内容本体设计模式是本体构建的基础,是复用的重要内容，在各本体模式中受到研究者的首先关注，所以本文仅对内容本体设计模式相关内容进行综述，其它类型的模式如通信模式、表达模式、转换模式，重组模式的构建和应用也有少量相关研究，详情参考文献11和12[0.11] 0",
+    "context4": "内容本体设计模式（Content Ontology DesignPatterns CPs)是本体模式的一种，于2005年被提出:CPs 是卓越的本体,至力于特定的能力问题（CompetencyQuestions），为这些问题提供解决方案。CPs具有如下特征：可计算、小且自治、分层级、认知相关、最佳实践,并于 $2 0 0 7 ^ { [ 1 2 ^ { - } }$ 和2008 年被进一步解释[13]:CPs是可被移植（imported）的,可复用的积木，主要用于OWL本体，可通过被具体化、扩展、组合后移植到需要的案例中，与最小应用案例相关。如\"参数内容本体设计模式\"（Parameter）,一个表达概念参数的基本模式，抽取自DOLCE本体，用了简单的类和属性，模式中有两个对象属性：owl:Object-Property:hasParameter,isParameterFor;一个数据类型属性：owl：DatatypeProperty：hasParameterDataValue;两个类:owl:Class:Concept,Parameter。用UML图表示如下：",
+    "context5": "![](images/e65288c197031d3f7a2e9d952d382a1f8ef1f071b5690cb79ebfb0b31472362b.jpg)  \n图1Parameter 内容本体设计模式的UML图[14]",
+    "context6": "目前现存的CPs中，在ODPs社区上共有144个模式,其中内容本体设计模式87 个[15:，按内容划分，这些CPs有通用CPs和领域CPs,领域涉及到渔业,农业，生物、商业、药业、语言学、管理等。",
+    "context7": "内容本体设计模式提供了领域内问题的解决方案。它不依赖任何特殊表达语言，很适合语义Web上的本体复用及互操作需要。CPs的构建有两种方式。从各种非本体的数据资源重组；从本体中抽取而来。得到的CPs主要用于本体精炼和本体构建，本文主要针对这两方面内容进行综述，分析问题及未来发展。"
+  },
+  "1内容本体设计模式的构建": {
+    "context1": "目前有两种创建CPs的方法。抽取和重组。",
+    "context2": "从现存本体中抽取模式。一个CPs可以从现存本体中抽取，这个本体当作源本体。CPs对应的是源本体的片段。这些本体包括项层本体、核心本体和领域本体。这一方法包括具体化、一般化等[15。",
+    "context3": "重组非本体知识资源为CPs。其它领域已经积累了大量知识资源，可以用来为模式构建产生灵感，或直接转换为本体设计模式。可被重组为CPs的候选资源有：数据库框架、知识组织系统、如叙词表和词典、还可以来自一个UML图、工作流模式、数据模型模式等。"
+  },
+  "1.1从现存本体中抽取内容本体设计模式": {
+    "context1": "从现存本体中抽取CPs有两种方式，一种是人工方法从现存本体中抽取，另一种方法是运用相关的工具和算法，半自动抽取候选模式，再人工进行选择。"
+  },
+  "1.1.1人工方法从本体中抽取CPs": {
+    "context1": "NeOn方法是一种人工的方法，利用本体编辑器,人工判断需要的类和属性，从源本体中移植Cps所需元素。共分为13步。1)创建一个新的0WL本体，确定命名空间，作为源本体;2)移入源本体到本体编辑器;3)部分克隆类和属性;4)更新对克隆元素的约束;5)具体化：创建子类和子属性;6)除去外部参考;7)扩展：增加类，属性和公理;8)检查类不相交性;9)运行推理机进行一致性检验；10)运行推理机进行推理;11)保存需要的推理;12)去除移植；13)注释 CPs和CPs元素。",
+    "context2": "![](images/496e117b25504027338f5a8dd1c576f85706dff8d92bd991e83cf722e541afab.jpg)  \n图2内容本体设计模式的抽取过程[15]",
+    "context3": "在抽取过程中,对CPs可包括如下这些操作。",
+    "context4": "1)移植(Import）：这是复用CPs的基本机制。通过移植 $\\mathbf { C P s }$ ，移植的本体保持相应的推理，移植的元素不能被修改。",
+    "context5": "2)具体化(Specialization）：可指本体元素，也可指 $\\mathbf { C P s }$ 。CPs的本体元素之间的具体化是指创建CPs 的子类或子属性。如果CP2是CP1的具体化，则CP2至少有一个本体元素是CP1的下位元素。",
+    "context6": "3）一般化（generalization）：如果CP2是CPl的一般化,则CP1至少有一个本体元素是CP2 的下位元素。",
+    "context7": "具体化和一般化依靠OWL公理rdfs:subClas-sOf,rdfs:subPropertyOf。",
+    "context8": "4)组合（composition）：通过OWL的公理,一个CPs的类与属性与另一个CPs的类和属性缔结。这一过程中，由两个CPs最终产生一个新本体，新本体中有来自两个CPs的元素和公理，再加上为了连接两个CPs而增加的元素和公理。",
+    "context9": "5)扩展(expansion）：包括增加新类、属性、公理，以满足被复用的CPs不能满足的要求。产生的新本体即包括源本体模式的元素，也包括新增加的元素和公理。",
+    "context10": "6)克隆(Clone)：由复制的本体元素构成，即一个被用作原型的类和属性。包括浅克隆（shallowclone）、深克隆（deepclone）和部分克隆（partialclone）。本体设计工具TopBraid Composer[16支持浅克隆，深克隆和部分克隆目前尚无工具支持。浅克隆：通过复制现存本体元素Oe1来创建新的本体元素Oe2，Oe1和Oe2的OWL限制和定义的公理完全一致，Oe1和Oe2的公理将指同一个本体元素;深克隆：通过复制现存本体元素Oe1来创建新的本体元素Oe2，同时与Oe1相关的所有本体元素都同时被递归克隆;部分克隆：由深度克隆本体元素组成，但",
+    "context11": "只保持一部分公理。"
+  },
+  "1.1.2半自动方法从本体中抽取 ${ \\bf C P s }$": {
+    "context1": "从本体中自动抽取模式，并没有大规模的试验，目前只有很少的经验，仅见文献[应用了图形模式算法，在这一研究中，把模式定义为是一个重复发生的，可能相连的，一个图中的子图。发现模式转化为在一个图或一个图集中发现子图。子图的匹配由拓扑结构和标签两个因素决定。把本体转化为RDF图,使用工具Subdue，一个在图中发现子结构的系统，来自动发现模式。问题是图形算法并没有考虑任何图形元素之间的语义，因此产生大量的干扰模式，虽然也能发现有兴趣的模式，但噪音率高。这种方法与本体匹配技术相关，也是后续研究的内容。"
+  },
+  "1.2非本体知识资源重组为内容本体设计模式": "",
+  "1.2.1内容本体设计模式重组的方法": {
+    "context1": "非本体资源重组是指发现和转化现存的非本体资源(如概念模型、可控词表等)为本体的过程[18]。",
+    "context2": "内容本体设计模式重组即利用现有的知识资源,转化为 $\\mathbf { C P s }$ 。目前与本体模式相关的知识资源有：概念模型（Conceptualmodels），如数据库纲要、UML图、XSD纲要;非正式数据结构（InformalDataStructures）,如电子表格、表单；词汇资源（Lexical re-sources）,如WordNet、FrameNet；概念框架（ConceptSchemes），如叙词、分类表、术语表;开放标签系统（Open tagsystems）,如Wikipedia、MySpace;关联数据（Linked Open Data）。",
+    "context3": "在Blomqvist研究中用到了目标结构（Goalstructure）、数据模型（Datamodel）、认知模型（Cogni-tivepattermtaxonomy），研究了把存储在这些模型中的知识转化为内容本体设计模式的方法，并实践转化了23个，使用具有可视化能力的本体工程工作台KAON[19: 。",
+    "context4": "目前研究的重组是一种一一映射的关系。转换方法很直接，在源知识资源的最初表达和本体元素之间定义了一对一的映射，例如：数据模型中的实体被映射到本体中的概念，详见表1。",
+    "context5": "表1数据模型和内容本体设计模式之间的映射",
+    "context6": "<table><tr><td rowspan=1 colspan=1>数据模型</td><td rowspan=1 colspan=1>本体</td></tr><tr><td rowspan=1 colspan=1>实体（Entity）</td><td rowspan=1 colspan=1>概念（Concept）</td></tr><tr><td rowspan=1 colspan=1>属性（Attribute）</td><td rowspan=1 colspan=1>与属性相关的概念或文字（Relation to attribute－concept or literal）</td></tr><tr><td rowspan=1 colspan=1>子类型/父类型 Subtypes/Supertypes</td><td rowspan=1 colspan=1>包容层次结构(Subsumption hierarchy）</td></tr><tr><td rowspan=1 colspan=1>关系（Relationships）</td><td rowspan=1 colspan=1>关系（Relations）</td></tr><tr><td rowspan=1 colspan=1>互斥集（Mutually exclusive sets）</td><td rowspan=1 colspan=1>不相交概念(Disjoint concepts）</td></tr></table>",
+    "context7": "另一种被重组的知识资源是对象系统模型的目标结构（goal structure of the object system models）这一结构表达了一个公司内的过程，一套目标集和选择,及如何实现它们。因Blomqvist研究的是企业本体构建，所以其选择的资源皆与企业相关。",
+    "context8": "表2目标结构和内容本体设计模式的映射",
+    "context9": "<table><tr><td rowspan=1 colspan=1>目标结构(Goal Structure)</td><td rowspan=1 colspan=1>本体</td></tr><tr><td rowspan=1 colspan=1>节点（目标或方法）Node（goal or method）</td><td rowspan=1 colspan=1>概念（Concept）</td></tr><tr><td rowspan=1 colspan=1>And关系（AND-relations）</td><td rowspan=1 colspan=1>部分关系(Part-of relations）</td></tr><tr><td rowspan=1 colspan=1>或关系（OR-relations）</td><td rowspan=1 colspan=1>选择关系（Choice relation）</td></tr><tr><td rowspan=1 colspan=1>迭代（Iterations）</td><td rowspan=1 colspan=1>部分关系（Part-of relations）</td></tr></table>",
+    "context10": "因为源领域的概念名称可能不能满足本体需求,本体的目标是描述概念而不是术语,最终的CPs用同义词标签来进行丰富，同义词通过人工方法从wordNet集中选择。这样使模式具有一定的抽象性。目前在这一阶段还只考虑了本体的基本部分。例如,模式中只整合了简单的公理，“disjointness”,将来考虑为模式发展更复杂的公理，使最终的模式更精确有用。",
+    "context11": "文献20提出了复用含有建模解决方案的仓储来表达CPs,分析了组件库（Component LibraryCLIB)提供的问题解决方案组件,将其表达为内容本体设计模式,并上载和发布到社区。CLIB可能是知识模式仓储，包含了几百个解决方案,与CPs非常相近。作者研究了如何把来自CLIB的组件表达为OWL的内容本体设计模式，把最初的表达语言KM（knowledge machine)语言转换成语义语言OWL,用OWL1和OWL2表达[20]。对于CLIB中的一些描述如：捕捉合格的基数限制的槽,元数据水平断言，动态方面的行为，OWL1没有这方面的支持，所以选用OWL2,以具有更强的表达能力。这一研究采用的也是一一映射方法。"
+  },
+  "1.2.2内容本体设计模式精炼的方法": {
+    "context1": "通过一一映射，把各种知识资源转换为内容本体设计模式后，这样的结果并不能作为模式直接被应用,还需要进一步对其精炼，以达到最佳解决方案的需要。",
+    "context2": "精炼过程中与建模最佳实践相关的两个主要问题是：模式的大小和与现存模式的交叉问题。首先模式要足够小,有些重组的模式含有20－40个概念，覆盖多个方面，需要对模式进行拆分。重组来的侯选模式如包含通用概念，则抽取这些通用部分构成新模式。此外,应用了CPs门户网站的中的最佳实践的编码,把重组的CPs与门户中现存的CPs进行对齐，对于重叠部分，复用模式重叠部分来替代结构精炼,如必要再具体化。最后，为重组的CPs增加了互逆关系、注释和标签等[2I。",
+    "context3": "精炼的经验。(1)直接映射不是最佳解决方案。在重组过程中有些实体不需要也无法被转化为本体概念。(2)数据模型模式中溢出实体的回避。数据模型经常来自关系数据库,因此,经常有一些额外的实体，表达多对多的关系，这个附加的问题在OWL/RDF中无法表达，因为数据存贮在三元组中，所以,对于明确溢出的实体，回避将它们转换成概念。(3)模式拆分。在精炼的最后阶段，一些模式被分为多个模式,以减少冗余。因此,明确模式的自然界限和关系是很重要的一步。（4)研究现存的ODPs社区,社区中的一些模式通过移植和具体化可被复用。"
+  },
+  "2内容本体设计模式的应用": {
+    "context1": "目前CPs的应用主要体现在两个方面：本体构建和本体精炼。"
+  },
+  "2.1内容本体设计模式在网络本体构建中的应用": {
+    "context1": "$\\mathbf { N e O n }$ 项目的渔业网络本体的构建。NeOn的网络本体构建中复用了内容本体设计模式,主要应用在渔业网络本体的构建。渔业的网络本体采用了模块式方法，设计了6个本体模块方向,第一代渔业网络本体用了11个本体和非本体资源,第二代网络化渔业网络本体用了14个本体和非本体资源,并复用了两个 $\\mathbf { C P s }$ ，用来丰富“捕捞记录本体\"和\"水生资源观察本体”。复用的方法是人工方法，这两个CPs很小,位置CPs含有1个类和2个属性,观察CPs含有2个类,5个属性。将CPs通过OWL:import移植到网络本体中[22]。",
+    "context2": "情境网络本体构建。这一研究是建立移动环境下的情境本体，为用户提供情境知识。研究对NeOn的XD(eXtremeDesign)方法进行了扩展和细化，通过人工方法，建立了情境网络本体，复用了内容本体设计模式、逻辑模式和构建模式[23],共用到了12个模式,用构建模式形成了网络本体的模块结构，通过owl:import连接各内容模块。",
+    "context3": "NeOn项目的CPs使用方法。XD的主要原则是模块设计和合作。CPs使用的过程是本体任务需求与模式相匹配的过程。这些需求来源于本体需求的描述文档，首先是确认本体建设需求集，再提供一套可复用的 $\\mathbf { C P s }$ 。在需求与模式匹配的过程中，不断的细化需求，通过选择合适的模式复用来首先解决小的需求，这些小需求与某些模式相匹配，最后再整合成一个完整的解决方案。共分为8步：(1)确认需求；(2)确认可获得模式；(3)细分问题，选择部分问题；(4)匹配选择的细分问题与模式;(5)选择模式；从仓储中发现与建模问题匹配的 $\\mathbf { C P s }$ ；(6)应用或复用选择的模式并组合；(7)评估和修订部分问题，确认问题是否全面；(8)采用适合的 $\\mathbf { C P s }$ （概念化、形式化、执行)。最终结果是CPs被整合到一个新本体中[24]。"
+  },
+  "2.2内容本体设计模式在本体精炼中的应用": {
+    "context1": "富含公理的本体是进行高级推理的基础，研究把CPs作为一个潜在的信息资源,运用本体学习的方法,抽取其中的本体元素，丰富现存的本体。目前研究有两种思路，一个是通过CPs丰富本体的类和关系,另一个是通过CPs丰富本体公理。"
+  },
+  "2.2.1 通过Cps丰富本体的类和关系。": {
+    "context1": "在Blomqvist的研究中，强调自动和知识复用，提出了一种半自动的基于CPs的丰富本体的方法。研究使用本体学习工具Text-To-Onto,属于KAON工具集，这一工具能自由获得。模式概念及他们标签同意语的匹配使用词汇匹配工具，选择了Jaccard串相似法，相似水平0.5。过程：(1)文本的预处理，通过术语和关系抽取软件，抽取文本集中元素（类 $^ +$ 关系），以保证有一套相关的术语和关系。（2)选择合适的模式。术语和模式进行匹配，得出匹配的类和匹配的关系，加权后得到每个模式的匹配得分，根据阈值,选取合适模式。(3)复用这些选择的模式精炼本体。把每一个匹配的模式作为输入，与本体的类和关系进行匹配，选择是否增加类和关系[25]。其方法是先选择合适的模式，然后从模式中选择类和关系丰富扩展本体，利用的是模式中的元素，不是完整的模式。"
+  },
+  "2.2.2 通过CPs丰富本体公理": {
+    "context1": "Nikitina研究用CPs中包含的高度公理化的知识来精炼本体。方法的关键是寻找本体中存在的模式,通过算法发现识别本体设计模式实例，将本体中实例与模式的比较，确定本体潜在丢失的元素，把本体模式中的复杂公理转化到目标本体中。具体过程是输入本体和本体模式，进行匹配，在匹配的过程中，使用了词汇匹配的方法，发现本体中的模式实例,产生一个对齐集,这一过程运用了Pellet和Her-miT工具。每一个模式产生一个精炼建议，提供给本体专家，选择后，运行自动整合过程,来部分或全部复用模式,通过模式中的丰富公理来扩展和精炼本体。在整合过程中，匹配的元素自身不被整合，面是被产生对齐的元素取代，而未匹配的元素，通过专家来选择并重新命名，然后把这些选择的元素插人到本体中[26]。"
+  },
+  "2.2.3两种精炼方法的比较": {
+    "context1": "两个研究的主要区别。（1)首先是利用CPs丰富了本体的不同内容。Nikitina研究主要是丰富本体的公理。Blomqvist研究主要是丰富本体的概念和关系。（2)其次是二者的精炼过程不同。Nikitina研究直接把模式和本体匹配,如果能在本体中发现模式的实例,则把模式插人到本体中。Blomqvist研究经历了两次匹配过程，一次是从文本中抽取的概念和关系(实验中只用到概念)与模式的匹配，先筛选符合特定领域需求的模式。然后再用这些模式整合到初始本体中，包括匹配的概念和关系。",
+    "context2": "表3两种本体精炼方法比较",
+    "context3": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Nikitina研究</td><td rowspan=1 colspan=1>Blomqvist研究</td></tr><tr><td rowspan=1 colspan=1>输人</td><td rowspan=1 colspan=1>本体+CPs</td><td rowspan=1 colspan=1>从文本集中抽取类和关系+CPs</td></tr><tr><td rowspan=1 colspan=1>输出</td><td rowspan=1 colspan=1>匹配的模式实例</td><td rowspan=1 colspan=1>匹配的类和关系</td></tr><tr><td rowspan=1 colspan=1>匹配算法</td><td rowspan=1 colspan=1>词汇匹配</td><td rowspan=1 colspan=1>词汇匹配</td></tr><tr><td rowspan=1 colspan=1>方式</td><td rowspan=1 colspan=1>半自动产生每个模式的精炼建议</td><td rowspan=1 colspan=1>半自动方式</td></tr><tr><td rowspan=1 colspan=1>整合过程</td><td rowspan=1 colspan=1>匹配的元素自动替换本体中元素，未匹配需经人工选择重命名后插人本体之中。</td><td rowspan=1 colspan=1>再次输人选择的CPs,和本体匹配后，人工选择为本体增加类和关系。</td></tr><tr><td rowspan=1 colspan=1>精炼内容</td><td rowspan=1 colspan=1>公理</td><td rowspan=1 colspan=1>类和关系</td></tr><tr><td rowspan=1 colspan=1>运用工具</td><td rowspan=1 colspan=1>Pellet,Hermit本体学习工具</td><td rowspan=1 colspan=1>OLtool,Text-To-Onto 抽取文本集中的概念和关系。</td></tr><tr><td rowspan=1 colspan=1>丰富的本体成分</td><td rowspan=1 colspan=1>用模式富含的公理丰富本体</td><td rowspan=1 colspan=1>用模式中的类和关系扩展本体</td></tr></table>"
+  },
+  "3存在问题": {
+    "context1": "目前这一领域主要存在如下问题。",
+    "context2": "CPs 数量与领域覆盖问题。CPs数量少且很通用。即使涉及到的领域,数量也很少，很多领域缺少相关的CPs,为了能与研究问题相匹配，以正确的方式被复用,需要有更详细的领域CPs,但目前的数量无法满足应用的需求。所以，需要发展方法为特定领域构建相关CPs。",
+    "context3": "从现存本体中抽取模式的问题NeOn研究运用了人工方法，直接从本体编辑器中选择可以应用的类和关系,人工构建内容本体设计模式。这种方法质量高，但效率低。半自动方法仅见图形算法，效果并不理想，探索更加适合的半自动方法,如何利用现在的技术和经验从本体中发现模式，以方便大规模的产生所需要模式是后续研究的内容。",
+    "context4": "重组CPs的问题。重组CPs受到源知识资源领域的限制，目前可应用的知识资源，领域覆盖面不均横,更多的与软件资源、企业、管理等相关,有些领域没有合适的现存的知识资源。如何寻找覆盖领域更广泛的可以复用的模型资源，如何将其重组为CPs，是一个需要研究的问题。目前重组方法是一对一映射的方法，后来研究对重组的模式进行了精炼，但没有形成一套完整的方法，只是针对重组的20多个模式重组的经验总结，如何发展一套通用的CPs重组和精炼的完整规则也是需要研究完善的内容。",
+    "context5": "CPs 在本体构建应用中的问题。目前还是人工方法，选择模式，移植到本体中。CPs应用工具和方法指南缺乏，只有XD工具和方法指南支持，而且仅支持 $\\mathrm { C P s }$ 。如何发现、匹配、选择、调整、扩展、组合模式，还缺少更为详细的指南，提供关于模式的更详细的信息。",
+    "context6": "CPs 在本体精炼应用中的问题。用CPs中的类、关系、公理来丰富现存的本体，这一研究的关键是在本体中获得准确而完整的内容本体设计模式实例,这和本体匹配技术相关，如何用半自动方法获得有用的模式也是需要继续研究的内容。",
+    "context7": "CPs 其它应用研究。CPs在本体评价、匹配、模块化中的应用研究，例如：一个本体能通过出现的模式来评价（模式扮演着单元测试的角色）。CPs 方便本体映射和对齐，两个根据CPs构建的本体能以更容易的方式映射。目前这方面的研究尚未具体展开。"
+  },
+  "结语": {
+    "context1": "关于内容本体设计模式口前有两种构建方式：从非本体知识资源重组而来;从现存本体中抽取而来。得到的模式主要用于本体构建和本体精炼。通过对如上两方面的详细综述，总结目前内容本体设计模式构建和应用的问题,CPs数量少，领域覆盖有限;模式构建方法简单，效率低，准确性低；模式的应用也局限在上述两方面,且缺少工具支持。后续研究有：发展方法为特定领域构建相关CPs;利用现在的技术和经验从本体中半自动发现模式;发展一套通用的CPs重组和精炼的完整规则;CPs应用的工具和方法支持;CPs在本体评价、匹配、模块化中的应用研究等。"
+  },
+  "参考文献：": {
+    "context1": "1Gangemi A. Ontology design patterns for semantic web content［C]．In：International SemanticWeb Conference （ISWC2005），Sardinia，2005:262-276.   \n2 Clark P，Thompson J,Porter B W.Knowledge pattrns [C].In: International Conference on Principles of Knowledge Representation and Reasoning（KR2OoO）. San Francisco，2000:90-94.   \n3Svatek V. Design patterns for semantic web ontologies: Motivation and discusion[ C].In： Conference on Business Information Systems （BIS-O4）,2004.   \n4Ontology engineering and patterms task force（OEP）Task Force[EB/OL].(2004-2005)[2011-07-30].http:// www.w3.org/2001/sw/BestPractices/OEP/.   \n5Ontology Design Paterns.org[EB/OL].[2011-07- 30.ttp://ntoloesiateso/wiit ListPatterns.   \n6ontology design paterns(ODPs）public catalog[EB/OL]. [2011 -07 -30]. ttp://www.gong. manchester.ac.uk/ odp/html/index.html.   \n7WOP 2009- Workshop on Ontology paterns[EB/OL]. （2009）[2011-07-30].http://sunsite.informatik.rwth - aachen.de/Publications/CEUR-WS/Vol -516/.   \n8Welcome to the 2nd Workshop on Ontology PatternsOP2010[EB/0L].(2010)[2011-07-30].ttp://ontologydesignpatterns.org/wiki/WOP:2010#Topics.   \n9Sabou M.D2.2.3 Methods and Tools for the Evaluation and Selection of KnowledgeComponents[R/OL].（2009） [2011-07-30].htp://www.neon- project.org/webcontent/images/Publications/neon_2009_d223.pdf.   \n10Scharffe F. Correspondence Patterns Representation[D]. Innsbruck ：the University of Innsbruck,2009.   \n11Ond? ej ? váb -Zamazal.Pattern -based Ontology Matching and Ontology Alignment Evaluation[D].Prague: University of Economics,2010.   \n12Presuti V,Gangemi A.Content ontology desigm paterns as practical building blocks for web ontologies[C]．In Proceedings of ER2008，Barcelona， Spain,2008.   \n13Gangemi and Presutti.A. Gangemi and V. Presutti.Ontology design for interaction in a reasonable enterprise [ M].In P.Rittgen，editor，Handbook of Ontologies for Business Interaction,2007   \n14Parameter[EB/OL],(2010)[2011-07-30]. http:// ontologydesignpatterns.org/wiki/Submissions:Parameter.   \n15Presuti V,Gangemi A,David.Alibrary ofontologyesign patterns: reusablesolutions forcolaborative design of networked ontologies.NeOn deliverable D2.5.1[R/OL]. （2008）[2011-07-30].ttp://www.neon-project. org/web -content/images/Publications/neon_2008_d2. 5.1. pdf.   \n16Topbraidcomposer[EB/OL],[2011 -07-30].http:// www.topquadrant.com/products/TB_Composer.html.   \n17Thorm C,Eriksson O，Blomqvist E.Potentialsand limits of graph-algorithms fordiscoveringontologypatterns [C].In:Proceedings of the International Conference on vugU iguiw, merce- IAWTIC2005，Wien，Austria,November 2005.   \n18 Mari Carmen Sudrez-Figueroa.D5.3.1 NeOn Development Process and Ontology Life Cycle[R/OL].（2008） [2011-07-30].htp://delicias.dia.fi. upm.es/wiki/ images/a/ab/NeOn_2007_D5.3.1. pdf.   \n19 Blomqvist E.Semi-automatic Ontology Construction based on Patterns [D]. Link? ping:Link? ping University，2009.   \n20 Gangemi A,Vinay K..Representing the Component Library into Ontology Design Patterns[EB/OL],[2011- 07-30]. http://www.ai.sri.com/pubs/files/1776. pdf.   \n21 Blomqvist E.Ontology Patterns- Typology and Experiences from Design Pattern Development[C].In:The 26th annual workshop of the Swedish Artificial Intelligence Society（SAIS).Uppsala：Link? ping University Electronic Press,2010.   \n22 Caracciolo C,Heguiabehere J,Gangemi A.D7.2.4：Second Network of Fisheries Ontologies[R/OL].（2010） [2011-07 -30]. htp://www.neon - project.org/nw/ Deliverables.   \n23 Poveda - Villalón M， Surez-Figueroa M C，G6mezPérez A.Reusing Ontology Design Patterns in a Context Ontology Network[C].In: ISWC workshops2010. http:// people. csail．mit.edu/pcm/tempISWC/workshops/ WOP2010/pap4. pdf   \n24Suárez -FigueroaM C. D5.4.2.Revision and Extension of the NeOn Methodology for Building Contextualized Ontology Networks[R/0L].（2008-2009）[2011-07- 30].http://www.neon- project.org/web -content/images/Publications/neon_2009_d542.pdf.   \n25Blomqvist E.OntoCase- Automatic Ontology Enrichment Based on Ontology Design Paterns[C].In: The Semantic Web - ISWC 2009. Lecture Notes in Computer Science, 2009，Volume 5823/2009,65-80.   \n26 Nikitina N，Rudolph S,Blohm S.Refining Ontologies by Pattern- Based Completion[C].In:Workshop on Ontolo gy Patterns（ISWC2009），Washington DC,2009. 李晓辉中国科学院国家科学图书馆，博士研究生， 哈尔滨师范大学图书馆，副研究馆员。   \n孙坦中国科学院国家科学图书馆，副馆长，博士 生导师。   \n刘静中国科学院国家科学图书馆，副研究员。 （收稿日期:2011-08-08编发：刘炜赵亮）"
+  }
+}

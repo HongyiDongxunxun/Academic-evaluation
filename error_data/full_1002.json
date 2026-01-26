@@ -1,0 +1,96 @@
+{
+  "original_filename": "full_1002.md",
+  "个性化学术资源推荐研究：现状、特点及展望": {
+    "context1": "蒲姗姗何燕",
+    "context2": "【摘要】个性化推荐系统是解决信息过载的重要技术，已被深入地研究并广泛应用到图书馆的信息服务过程中。文章通过对学术资源推荐文献的调研，重点针对其研究范围、研究特点及研究进展进行总结。首先，从文献类型、学科领域、研究热点三个方面进行了定量分析；其后，从研究对象、关键技术、研究问题与评价效用等方面对相关研究进行了梳理；最后，从研究问题、研究对象以及研究内容等多个维度对个性化学术资源推荐的研究特点进行了总结，并指出了一些潜在的研究方向。"
+  },
+  "【关键词】数字图书馆学术资源推荐个性化推荐信息过载": {
+    "context1": "Abstract:Personalized recommendation systemisapowerfultool to solve theproblemof informationoverload，which is widelyused inthefieldof digital library.Thispaper first makesaquantitativeanalysisonthe documentsof academic resource recommendation from three aspects:document type，subject areas and research hotspots.Then the research context issummarized from fouraspects:research issues，key technologies，researchobjectsand evaluation indicators.Finally，this paper discusses thekey pointsand existing problemsof theresearch of academicresource recommendation in terms of research isseand research objects，andthe trendofacademic recommendation is forecasted.",
+    "context2": "Key words:digital libraryacademic resource recommendationpersonalized recommendationinformation overload DOI:10.15941/j.cnki.issn1001-0424.2019.16.002",
+    "context3": "0引言",
+    "context4": "数字图书馆是获取学术资料的重要途径，为科研人员的调查、研究和论证提供了重要的数据基础。然而，随着学术资源的快速增长，数字图书馆出现了严重的资源过载问题与明显的长尾现象[1-3。信息检索系统和分类目录的提出在一定程度上缓解了这两个问题，但因其是以“关键词”为中心的被动式服务，无法满足读者个性化、多元化与多样性的需求。在这一背景下，个性化学术资源推荐的概念被提出来。",
+    "context5": "20世纪90年代Giles提出第一个学术资源推荐系统后，引起了各领域研究人员对该问题的深入探讨。研究初期，学术资源推荐沿用了信息检索的理论和技术，研究问题多围绕“语义相关性”展开，实现技术多采用基于内容的推荐算法5-d。然而，近几年，用户需求和兴趣呈现出明显的多样性和动态变化性。这对推荐算法提出了更高的要求。为此，研究人员开始深入研究用户兴趣，探索多维用户兴趣建模方法[。与此同时，也开始关注推荐资源的新颖性、多样性、权威性以提高推荐系统的用户体验[10-1。随着研究的不断成熟，不少资源管理平台、高校图书馆已将推荐技术应用到实际的工作中[i2-13，例如，Google Scholar、CiteSeer（X)、PubMed等嵌入了基于内容的资源推荐功能；北京大学、同济大学以及北京师范大学等高校图书馆提供了相同主题、书架邻近以及同作者的推荐功能；天津大学、厦门大学等高校图书馆为读者推荐书评数据；四川大学、中南大学、天津大学以及复旦大学等高校图书馆已将个性化资源推荐嵌入到移动数字图书馆的信息服务中。",
+    "context6": "然而，部分应用直接将传统推荐算法应用到学术资源推荐中，这影响了学术资源推荐的准确性。学术资源推荐与传统推荐有着明显的区别：（1）推荐受众不同。传统的推荐系统受众为消费者，而学术资源推荐系统的受众是科研人员与学者，这导致其对“用户画像”和“兴趣模型”构建的侧重点有所区别，学术资源推荐系统大都偏向于对用户的“兴趣”建模，而传统推荐算法以“购物需求”为建模出发点，以刺激用户购买产品为目的；（2)推荐对象不同。学术资源推荐系统的对象为论文、图书、关键词、专家等内容，多以文本形式描述，而传统推荐算法推荐的对象往往是商品。推荐对象不同，对其特征建模的方法也不同，学术资源推荐是集自动标引、知识挖掘、数据关联与整合的技术集合，传统推荐算法多采用协同过滤的推荐算法与混合推荐算法；（3）数据基础不同。传统推荐系统所采用的数据为相似用户、相似商品以及评分数据，而学术资源推荐系统采用的数据多为文本数据、学术网络数据以及评价数据。不同的数据导致了处理技术也有所不同。",
+    "context7": "为充分了解学术资源推荐的发展现状以及研究特点，本研究分别从定量和定性两个角度对学术资源推荐的研究进行了深入分析。根据定量分析，可知相关领域的文献类型分布、学科领域分布以及研究热点；根据定性分析，可了解该领域的关键技术、研究问题、研究对象以及潜在的研究方向。本研究的体系框架如图1所示。",
+    "context8": "![](images/efc8c72758c528032fc10ea7bdc1ee98ac96ab377a9375d5cf45255b9d1b9717.jpg)  \n图1研究体系框架"
+  },
+  "1定量分析": {
+    "context1": "为全面收集与学术资源推荐相关的文献，笔者通过中国知网（CNKI）、万方数据库以及Web of Science对2008—2017年发表的与资源推荐相关的中、英文文献进行检索。在中文数据库检索中，笔者使用了“学术资源’“数字资源”“数字图书馆”“图书”“论文（参考文献”“知识”与“推送”“推荐”“个性化服务”进行组配检索；在英文数据库检索中，笔者使用了“digital resources”“digitalibrary”“book”“paper（reference” \"academic resources”与“recommendation” “personalized service”“knowledge”等进行组配检索。为保证不遗漏重要文献，笔者对每篇论文的参考引文进行分析，保留与资源推荐相关的权威文献共210篇。"
+  },
+  "1.1文献类型分析": {
+    "context1": "关于学术资源推荐的研究主要有三种文献类型，分别为期刊论文、会议论文和学位论文，分别占到总论文数量的 $48 \\%$ 、 $3 7 \\%$ 和 $1 5 \\%$ 。可以看出，目前关于学术资源推荐的研究大都集中在期刊论文和会议论文上，硕博士学位论文较少。这也从侧面反映出，虽然此类研究较多，但整体来说比较零散和浅显，缺乏系统、全面和深入的研究。"
+  },
+  "1.2学科领域分析": {
+    "context1": "根据论文的所属期刊、会议名称、作者的专业及研究方向等信息，人工标注出论文所属的学科领域。通过对文献所属领域的归类，可以看出学术资源推荐是多个学科共同关注的研究问题，其研究主要分布于计算机科学与图书情报学两类学科，少部分研究来自于经济管理和管理科学工程。计算机科学、图书情报学、经济管理、管理科学与工程分别占 $41 \\%$ 、 $46 \\%$ 、 $7 \\%$ 、 $6 \\%$ 。分别对所属各学科论文的标题及摘要信息进行归纳分析后发现，计算机科学以提高算法的处理速度和准确性为最终研究目的，侧重于推荐算法的技术创新；图书情报学不再以技术创新为主，而是探讨已经成熟的推荐技术应用到图书馆领域的解决方案，侧重于应用研究；经济管理学科和管理科学工程学科主要探讨图书馆用户对于推荐技术的满意程度、技术接受能力以及引入个性化推荐系统后的效益评价。"
+  },
+  "1.3高频关键词分析": {
+    "context1": "关键词能反映文献的研究内容，对高频关键词的分析能够推断学科的研究热点与发展趋势。本研究对选中文献的关键词进行统计，去掉例如“个性化”‘推荐系统’“Book Recommendation”以及“Digital Library”等专指性较低的词后，对关键词进行归类与统计形成表1。如表所示，“协同过滤”“基于内容”“关联规则”“混合模型”“图论”等出现得最多。可以看出，目前关于学术资源推荐的研究仍围绕待推荐文献的语义特征、关联规则、用户评分、协同过滤等展开。但随着人工智能、数据挖掘等技术的进一步发展，近几年也出现了一些新的研究方法和技术来补充既有的研究体系，例如基于本体的学术资源推荐[4、基于关联数据的学术资源推荐[、基于观点挖掘的学术资源推荐[16-11、基于学习排序的学术资源推荐算法[等。",
+    "context2": "表1高频关键词",
+    "context3": "<table><tr><td rowspan=1 colspan=1>编号</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>词频</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>协同过滤</td><td rowspan=1 colspan=1>51</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>基于内容 (语义)</td><td rowspan=1 colspan=1>45</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>关联规则</td><td rowspan=1 colspan=1>41</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>图论</td><td rowspan=1 colspan=1>38</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>混合模型</td><td rowspan=1 colspan=1>35</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>关联数据</td><td rowspan=1 colspan=1>34</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>长尾</td><td rowspan=1 colspan=1>32</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>本体</td><td rowspan=1 colspan=1>31</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>冷后动</td><td rowspan=1 colspan=1>30</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>机器学习（分类、聚类、排序学习)</td><td rowspan=1 colspan=1>30</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>观点挖掘</td><td rowspan=1 colspan=1>28</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>用户兴趣/用户需求</td><td rowspan=1 colspan=1>27</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>跨类型/跨语种</td><td rowspan=1 colspan=1>25</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>云计算</td><td rowspan=1 colspan=1>24</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>社会关系</td><td rowspan=1 colspan=1>23</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>反馈</td><td rowspan=1 colspan=1>22</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>深度学习</td><td rowspan=1 colspan=1>12</td></tr></table>",
+    "context4": "高频关键词随时间的演化可以看出学科的发展趋势与演化规律。本研究按时间对关键词的数量进行分布，形成关键词的演进路线图。按演进路线的方向进行分类，形成图2的上升趋势的高频关键词、图3的下降趋势的高频关键词以及图4的平稳趋势的高频关键词3类。",
+    "context5": "从趋势图可以看出，关联规则、协同过滤、图论、混合算法的词频出现最多，但总体呈现下降的趋势；与此相反的是，用户兴趣、用户需求、社会关系、观点、反馈信息等在保持一定词频的基础上呈现出上升的趋势。由此可见，目前的研究在传统技术的基础上，更偏向于对用户的兴趣、需求、社会关系等多维画像技术的研究。为了进一步满足用户对学术资源的需求，长尾资源、跨类型与夸语种的推荐也逐渐受到了关注。随着深度学习技术在语音识别、信息检索等领域的突破性进展，各研究人员也在尝试将深度学习技术引入到学术资源推荐中。与此同时，冷后动、云计算、本体与关联数据等研究方向虽然没有呈现明显的上升下降趋势，但仍是各研究人员不断探索的方向。"
+  },
+  "2定性分析": {
+    "context1": "定量分析后，笔者分别从研究对象、关键技术、研究问题和效用评价4个方面对相关研究进行了定性分析。",
+    "context2": "![](images/bae2bc1d4212b1479ffef6c786bb23bbd82355aa1e4cd0c8ebeb8c8f4414da17.jpg)  \n图2上升趋势的高频关键词",
+    "context3": "![](images/5b10d3d86311e67f38c0f1f541cfb08c4d69d02ec2267c1a5fb22470fff51138.jpg)  \n图3下降趋势的高频关键词",
+    "context4": "![](images/6f80917fb0d74873732ad718926b9d6043fe531dbbfc35c954d3c6b7206298f4.jpg)  \n图4平稳趋势的高频关键词"
+  },
+  "2.1研究框架": {
+    "context1": "本研究基于推荐系统研究的一般方法，并综合文献调研，提出了图5所示的研究框架,。该框架从研究对象、关键技术、研究问题以及效用评价4个角度来深入剖析学术资源推荐系统的研究内容。在后续的章节中，会依据该研究框架对每一部分进行详细探讨。",
+    "context2": "![](images/6c8a997c58a5982c24e92f6444bbf15effa0a9f6acf227a327c68dff9fd5730f.jpg)  \n图5研究框架"
+  },
+  "2.2研究对象": {
+    "context1": "在学术资源推荐的相关研究中，研究对象通常包括两类，一类为推荐对象，另一类为用户数据。",
+    "context2": "推荐对象多涉及图书[]、论文[,2、参考引文[21-2]、科研学者[23-24 与检索关键词[25-2等内容。也有部分研究人员对视频、图片、声音等多媒体数字资源的推荐进行了深入讨论[27-28。近几年，随着大数据时代的到来，学术资源推荐的范畴得到了扩展，学术资源推荐不仅仅局限于论文的推荐和图书资源的推荐，对科研合作者、评审专家、学术会议、专利、学术博客、书评等资源的推荐也有了一定的关注度[29-31。总而言之，目前研究多以论文和图书为主，对于专利、学术新闻、权威专家等资源推荐的研究较少。",
+    "context3": "用户兴趣多由对用户数据的深入分析挖掘得到。目前，用户数据由用户基础数据、阅览记录、已发表论文3类数据组成。用户基础数据指学号、年龄、性别、专业、班级、研究方向等描述基本信息的数据；阅览记录主要指用户在查阅学术资源时浏览或借阅过的记录；已发表论文指用户发表过的论文的元数据以及全文数据[32-33。近几年，随着社交媒介的发展，用户的学术关系数据、评论数据成为了新的研究对象[12,16-1]。"
+  },
+  "2.3关键技术": {
+    "context1": "个性化学术资源推荐算法是推荐过程的核心，用以分析用户研究需求与研究兴趣，计算用户与待推荐学术资源之间的相关性，从而达到推荐的目的。到目前为止，学术资源推荐算法主要围绕基于内容的个性化学术资源推荐算法、基于协同过滤的个性化资源推荐算法、基于图论的个性化资源推荐算法以及基于关联规则的个性化资源推荐算法展开。",
+    "context2": "基于内容的个性化学术资源推荐算法的主要关注点在学术资源的内容属性上，从文本描述中抽取语义特征来描述研究对象。这类方法主要分为两种，一类是利用简单词来描述用户兴趣和学术资源。此类研究通常利用TF-IDF、VSM、LDA从标题、关键词、摘要、引言、正文、参考文献中提取关键词、索引词、主题词、概念词等来描述资源对象[20,31,4-31。另一类方法利用社会化资源来描述对象，例如资源标签、分类体系、本体或者引文上下文等内容来分析用户兴趣[21,3。部分学者也利用KNN、SVM、神经网络等机器学习的方法对资源按语义进行分类，从而推荐给相关用户。",
+    "context3": "基于协同过滤的个性化资源推荐算法扩展了聚类的思想，以基于兴趣相同、拥有共同喜好的人对资源的评分为推荐依据[39-40。该算法能够在一定程度上提高推荐结果的新颖性与推荐内容的多样性，推荐结果具有较强的可解释性，克服了推荐资源质量差、权威度低和新颖性不足的问题。但对于新用户和新资源来说，利用该方法进行学术资源推荐存在较强的冷启动问题。",
+    "context4": "基于图论的学术资源推荐算法是基于例如共现、合著、共引以及社交关系等学术资源之间固有的关系来构建资源网络，以此来预测用户和资源之间的联系。资源网络中的实体可以是读者、作者、发表时间、关键词、文章等内容，实体之间的关系可以是合著、引用、共引、借用、购买或者评论等[41-43。另外，部分学者结合基于内容的推荐算法和基于图论的推荐算法来构建网络关系[5,44。",
+    "context5": "基于关联规则的学术资源推荐算法通过对用户资料与借阅记录的挖掘，发现资源之间的关联关系，以此为依据为用户推荐学术资源[45-4d。此类算法能够发现用户潜在的兴趣点，为读者推荐多样与新颖的学术资源，有一定的跨领域学术资源发现的特点。",
+    "context6": "通过上述分析可知，基于内容的个性化资源推荐算法起源于信息检索领域，此类方法更注重挖掘资源的语义属性，能够有效解决“数据稀疏”和“冷后动”的问题。因此类方法利用语义相关度计算来推荐资源，无法有效实现“跨学科推荐”，同时推荐的资源会存在冗余现象。基于协同过滤的个性化资源推荐算法研究思路来源于电子商务推荐系统，此类方法考虑了学术资源的质量问题与用户兴趣点两个因素，但该算法需要大量的用户行为数据作为基础，为此，未在学术资源推荐领域大规模开展。基于图论的学术资源推荐算法源于复杂网络分析，利用学术资源之间固有的网络关系来进行推荐，与其他算法不同的是，该算法不仅能够进行单类型资源推荐，而且能够同时推荐多种类型的学术资源，例如同时推荐满足用户兴趣的论文、图书、学者以及相关的其他学术信息，但其需要相对较高的计算能力。基于关联规则的学术资源推荐重点在于探究待推荐资源之间的潜在关系，以此为依据推荐资源。此类算法不需要该领域的先验知识就可以完成推荐，但其个性化程度较差。各类学术资源推荐算法各有优势和不足。为此，在实际的应用中，往往基于多种推荐算法进行混合推荐，从而实现扬长避短，达到良好的推荐效果。"
+  },
+  "2.4研究问题": {
+    "context1": "学术资源推荐本质上属于信息检索的研究领域。为此，先前的研究问题多集中于对“相关性”的建模 $[ 6 , 2 0 , 4 7 - 4 8 ]$ 。此类研究的重点在用户与学术资源的语义相关性上。与用户属性相关性高的资源，则认为有较高的可推荐度。",
+    "context2": "然而，随着用户需求的专业性和多样性，仅基于相关性的推荐算法不足以推荐出符合用户需求的学术资源。为此，部分研究人员在相关性的基础上引入了资源的质量、资源的主题、资源的关注度、资源的热度以及资源的多样性、新颖性等特征来补充基于相关性的学术资源推荐算法,23,49-5d。此外，还有一些学者专注于解决冷后动、数据稀疏问题[51-53。目前解决此类问题主要依靠人工填充数据和混合推荐算法两种方法。",
+    "context3": "从研究问题上看，目前关于推荐系统的研究逐渐从“以资源为中心”的研究转向“以用户体验为中心”的研究。研究问题的转变对推荐算法的效用评价和应用落地提出了更高的要求。"
+  },
+  "2.5效用评价": {
+    "context1": "在算法推向应用之前，需要根据效用不断优化算法的策略。早期的评价沿用了信息检索的准确率（accuracy）、精确率（precision）和召回率（recall）作为其评价方法[-。后期发现，盲目追求准确性可能会导致用户获得知识量为零的学术资源。因此，引入了推荐结果的新颖性、多样性、点击率、转化率等指标。总体来说，根据算法的应用场景不同，效用评价可以分为3种类型：基于信息检索理念的测评方法、面向用户体验的评测方法和面向问题的评测方法。其中，基于信息检索理念的测评方法主要是利用例如Precision和 Recall的方法来评价推荐系统推荐的准确性；面向用户体验的测评方法主要评价算法的“有用性”，常用多样性、新颖性、覆盖率、意外程度等指标来评价算法的效用；面向问题的效用评价指针对具体问题来设计相应的评价指标，例如，推荐资源的质量、推荐资源的时效性等,3]。",
+    "context2": "到目前为止，学术资源推荐的效用评价仍没有一个定论。系统的评价往往在某些指标上表现良好，而在另外的指标上表现很差。这种缺乏标准的效用评价导致了很难判断一个推荐系统的好坏。"
+  },
+  "3研究特点与潜在研究方向": {
+    "context1": "基于上述对研究现状的分析，本节将进一步探究学术资源推荐的研究特点与后续潜在的研究方向。"
+  },
+  "3.1研究特点": {
+    "context1": "目前，该领域的研究呈现出以下的特点：",
+    "context2": "第一，从研究问题上来看，冷后动和数据稀疏问题仍是各研究人员的关注点。自推荐系统提出后，冷后动和数据稀疏就是一个热点问题。在学术资源推荐方面，这两个问题尤为突出[53-54。目前，各领域专家正在积级解决这两个问题。一方面，借助于待推荐资源的内容、用户或待推荐资源作者的社会或者学术关系等指标降低推荐系统对数据的依赖程度；另一方面，积极引入社交媒介的兴趣数据、评论数据补充学术资源推荐系统的原始数据。但由于数字图书馆新用户较多，又因用户大都可选择无账户登录状态，为此，冷后动和数据稀疏的问题仍未得到有效解决。",
+    "context3": "第二，从关键技术上来看，基于科研社交关系的学术资源推荐算法取得了良好效果。科研社交网络能够凸显用户研究需求与研究兴趣，其网络中的信任关系能够提高推荐结果的质量与权威度。同时，融入学术关系数据后，也在一定程度上缓解了冷后动和数据稀疏，降低了对原始数据的依赖程度，提高了算法的可靠性。基于科研社交网络的推荐算法因其网络结构的复杂性，往往需要更多的计算能力。",
+    "context4": "第三，从研究内容上来看，基于相关性的学术资源推荐的研究逐渐减少，挖掘用户的多元需求成为新的研究点。传统的研究视学术资源推荐为信息检索的问题，认为“相关性”高的资源更符合用户的需求。近几年，部分研究人员关注面向用户体验的学术资源推荐，例如，提出推荐资源的主题多样性、推荐资源的新颖性、推荐资源的质量与推荐资源的多样性等面向用户体验的指标。",
+    "context5": "第四，从研究对象上来看，用户兴趣常被作为静态因素，影响推荐效果。用户兴趣是推荐的重要依据。目前关于资源推荐的研究多把用户兴趣理解为静态特征，大都从读者的浏览记录和发表过的文章中来获取学习兴趣和研究需求，没有考虑其动态变化性，这就导致了获得的兴趣与用户实际的兴趣有一定的偏差，从而影响了推荐的效果。",
+    "context6": "第五，从研究成果上来看，大部分成果未推向实际应用。随着人工智能、信息检索、复杂网络等技术的发展，学术资源推荐系统取得了蓬勃的发展，引入了许多新的技术，解决了许多重要的问题，但“海量数据’“缺乏标准的评估方案’‘数据稀疏’“冷后动”等问题仍掣肘大多数学术资源推荐系统走向应用。"
+  },
+  "3.2潜在的研究方向": {
+    "context1": "虽然关于学术资源推荐的研究已取得了长足的进展，但该领域仍存在一些研究问题值得探索，主要包括以下内容。"
+  },
+  "3.2.1用户画像": {
+    "context1": "用户画像是指从多个角度来描述用户的阅读兴趣。目前大多研究把用户兴趣视为静态特征，未考虑读者需求随着时间发展的转移以及用户的“短期需求”与“长期需求”的区别。一个好的学术资源推荐系统，应从多个维度描述用户兴趣，像一个凹透镜一样，将用户的需求和兴趣发散出去，开拓用户的知识量与研究视野。因此，多维用户画像是学术推荐系统的一个潜在研究方向。"
+  },
+  "3.2.2跨类型和跨语种学术资源推荐": {
+    "context1": "传统推荐系统只能够向用户推荐同类型、同语种的学术资源。随着学术资源类型的不断丰富，用户对跨类型和跨语种学术资源的需求越来越高。在后续的研究中，应利用数据融合、机器学习的算法有效进行资源整合和特征提取，以为用户推荐出类型丰富的学术资源。"
+  },
+  "3.2.3基于深度学习的学术资源推荐": {
+    "context1": "近几年，深度学习在图像分析、文本理解、语音识别、信息检索等领域呈现出了较强的技术优势。同时，不少研究表明，深度学习善于改善推荐结果的准确率与推荐内容的多样性两个指标。与传统学术资源推荐算法比较，基于深度学习的学术资源推荐能够深入对待推荐资源进行多维、多层次建模，理解用户的研究需求与研究兴趣，从而为用户推荐合适的学术资源。为此，在后续的研究中，应结合学术资源的特点，将深度学习算法融入到学术资源推荐系统中。"
+  },
+  "3.2.4挖掘“长尾”学术资源": {
+    "context1": "目前，学术资源的利用分布呈现出了非常明显的长尾特征，即少量的学术资源有较高的热度，拥有大量的用户群体，而大部分学术资源拥有价值却无人问津。目前的推荐算法大都倾向于推荐有过浏览记录的学术资源。这加重了资源利用的“长尾”现象。为此，在后续的研究中，应注重对“长尾”资源的分析与挖掘。"
+  },
+  "4结语": {
+    "context1": "学术资源推荐是缓解资源过载与长尾问题的有效方法。与其他推荐系统相比，学术资源推荐系统是一个学术资源价值提取与应用的过程。为进一步了解学术资源推荐的研究进展，笔者从文献类型、学科领域、关键词对相关研究进行了定量分析，从研究对象、关键技术、研究问题以及效用评价4个方面进行定性分析，从而指出研究特点与潜在的研究方向。在后续的研究中，笔者将引入数据技术更加深入地研究学术资源推荐的研究进展和发展方向。同时，针对本研究所发现的问题，进行逐一研究。",
+    "context2": "注释  \n[王连喜．一种面向高校图书馆的个性化图书推荐系统[.现代情报，2015（12)：41-46.  \nMatsatsinisFakiotakiK，Dela.AStBasedoMulpleCiterAalysisfentificapeRecomedatio//Procf11th Panhellenic Conference on Informatics，2007:135-149.  \n刘伟，刘柏嵩，王洋洋：海量学术资源个性化推荐综述[．计算机工程与应用，2018（3)：30-39.  \nBolackerKD,weS，ilsCrAtousgtutoeriedentifofIterestig[ //Proceedings of the Second International Conference on Autonomous Agents.ACM，1998:116-123.  \nBYounusA，uresiM，ManchadaP，etalUiligMblgDataITopiodeingFrmeokfoSientifrties’Reodo[ //International Conference on Social Informatics.Springer，Cham，2014:384-395.  \nPanC，LiW.ResearchPaperRecommendationwithTopicAnalysis//ComputerDesignandApplictions（ICCDA），2O10InterationalConference on.IEEE，2010，4:264-268.  \n唐晓波，周咏．基于图书基因组的个性化图书推荐研究[.图书馆学研究，2017（2)：76-85.  \n图马健，杜泽宇，李树青．基于多兴趣特征分析的图书馆个性化图书推荐方法[．现代图书情报技术，2012（6)：1-8.  \nChenCM.AnIteligentMobilocatio-AareBookRecomedatioSstetatEancesProbBsedLeagiLreseaiveLearning Environments，2013，21(5)：469-495.  \n[dWangZ，uY，angtal.ersoalizatioOrintedcadeicLiteratureReodationethodtaiceJoal17.  \n[GoriM，Pucc A.ResearchPaperRecommender Systems:ARandom-WalkBasedApproach/WebIntelgence，2O06.W6IEEE/WIC/ACM International Conference on.IEEE，2006: 778-781.  \n[12]邱均平，田磊．我国高校图书馆个性化信息服务的调查与分析[.图书馆工作与研究，2016（12)：84-92.  \n[13]施晓华，曲建峰，宋海艳．基于用户使用数据分析的图书馆学术推荐服务[.图书馆杂志，2011（9)：21-25.  \n[4OsboreF，apalasingaT，SalatinoA，alSartoRecomnder:AanticRecomdationEgineforEdialrouctsProceedings of the 17th International Semantic Web Conference，2018:187-205.  \n[5] 田野，祝忠明，刘树栋．基于关联数据的推荐系统综述[．现代图书情报技术，2013（10)：1-7.  \n[TewariAS，AnsariTS，BarmanAG.OpinionBasedBookRecommendationUsingNive Bayes Clasifer//ContemporaryComputingandInformatics（IC3I)，2014 International Conference on.IEEE，2014:139-144.  \n[7]SohailSS，SidiquiJ，AliR.BokRecommendationSystemUsingOpinionMiningTechnique//AdvancesinComputing，Comucatosand Informatics （icacci)，2013 International Conference on.IEEE，2013:1609-1614.  \n[18] 黄震华，张佳雯，田春岐，等．基于排序学习的推荐算法研究综述[]．软件学报，2016（3)：691-713.  \n[9Tewari AS，umarA，anAGBoRecoendatioSysteBasedoombineFuresofontentBasedlering，Collborativeilnand Association Rule Mining//Advance Computing Conference（IACC)，2014 IEEE International.IEEE，2014:500-503.  \n[dJiangY，JiaA，engY，alRecoendingAcadeicaprsViUsers’Readingurposs//ProcingsofheithCoereceoRecommender Systems.ACM，2012:241-244.  \nHQ，PeiJ，Kifer，talCotet-AareCitatioRecodatio//Proceingsofte9tIteatioalCofereceoWoldWideWeb.ACM，2010:421-430.  \n[22] 陈海华，孟睿，陆伟．学术文献引文推荐研究进展[.图书情报工作，2015（15)：133-143，147.  \n[3]LiL，WangY，LiuG，talContext-AwareReviewerAsignmentforTrustEnhancedPeerReview.SOne，015，1（6):e30493.  \n[4 WangGA，JiaoJ，AbrahamsAS，etal.ExpertRank:ATopic-AwareExpertFindingAlgorithmforOnlineKnowledgeCommunities.Decision Support Systems，2013，54(3):1442-1451.  \n[5]Baeza-YatesR，HurtadoC，MendozaM.QueryRecommendationUsingQueryLogsinSearchEngines/InternaionalConferencenExtending Database Technology.Springer，Berlin，Heidelberg，20O4:588-596.  \nMeiQ，ZhouD，hurchK.QuerySuggetoUsingHitingTme//Procedigsofte7thCConferenceonInforatioandKnowledgeManagement.ACM，2008:469-478.  \n[27]张晓燕，张朋柱，李嘉，等．在线群体创新中的图片推荐方法研究[.现代图书情报技术，2014（6)：94-99.  \n[28]尹路通，于炯，鲁亮，等．融合评论分析和隐语义模型的视频推荐算法．计算机应用，2015（11)：3247-3251.  \n[29] 白广思．数字图书馆大数据分类研究.图书馆学研究，2016（3)：53-57.  \nBZhaoS，ZhangD，DuanZ，etal.ANovelClasifationMetodforPaperReviwerRecommendationSentometrics，O18，15（3):1293-1313.  \n[31]周伟，黄穗，朱蔚恒，等．一种基于集体智慧的图书评价推荐方法[.计算机工程与科学，2011（9)：141-144.  \nB2AminiB，braR，tanMS，etal.IcoporatingSholar’sBackgroudKowledgintoRecommenderSysteforDigitalbari//Software Engineering （MySEC)，2011 5th Malaysian Conference in. IEEE，2011: 516-523.  \nB3]HausaLheiB，idlFA，taRevierSeletioasEdioaDeisiooausitsalfr2018，146 (1):21-46.  \nB4EkstrandMD，KananP，SteperJA，alAutoaticallldingResearchReadingLists/ProcedingoftheourthACofereceon Recommender Systems.ACM，2010:159-166.  \nB5]HuangZ，ChungW，OngTH，etal.AGraph-BasedRecommender SystemforDigitalLibrary/Procedingsof he2ndACM/IEEE-CSJoint Conference on Digital Libraries.ACM，2O02:65-73.  \nBJack K.Mendeley：RecommendationSystemsforAcademic Literature.PresentationatTechical UniversityofGraz（TUG)，2012.  \nB7EroshevaE，b，ertJedebesolsofetifubcatiosrocoftalcadfcs，2004，101(suppl 1):5220-5227.  \nB8MidletonSE，adboltNR，DeRoureDC.OntologicalUserProfilinginRecomenderSystes.ACTrasactiosonInforatioSystes(TOIS)，2004，22(1):54-88.  \n[]吴志强，王义翠，马慧娟：协同信息推荐：一种数字图书馆个性化信息服务新模式[.图书馆，2011（1)：45-47.  \n[40]吴志强，马慧娟．协同信息推荐技术及其在数字图书馆中的应用研究述评[.图书情报工作，2012（19)：122-127.  \n[41LaoN，CoenWWReltioalRetrivalUsingACombinatioofPath-ConstraiedRandmWalksMachnearng，01,（1)：-67.  \n[42]GilesCL，BlckerKD，Lawrence SCiteSer:AnAutomaticCitationIndexingSystm//ProceedingsofthethirdACconfereceoDigital libraries.ACM，1998:89-98.  \n[43]WoodruffA，GosseilerR，PitkowJ，etalEnhancingADigialBokwithAReadingRecommender//ProceedingsofheSIGCHIConference on Human Factors in Computing Systems.ACM，200o:153-160.  \n[4陈祖琴，张惠玲，葛继科，等．基于加权关联规则挖掘的相关文献推荐[.现代图书情报技术，2007（10)：57-61.  \n[45JomsriP.BookRecommendationSystemforDigitalLibraryBasedonUserProflesbyUsingAssociationRule//IovativeCoputingTechnology（INTECH)，2014 Fourth International Conference on.IEEE，2014:130-134.  \n[4LeAn V，HaiVHTranH，etal.SReSs:ARecommndationSstemforSientificPubicationbyDiscoveringKeyordRelatioss[ //International Conference on Computational Collective Intelligence.Springer，Cham，2014:72-82.  \n[47FrraraF，udota，Tass.AKeysBedPaerReederSste/aiaReseachofereeoDigitalbesSprngeBerlin，Heidelberg，2011:14-25.  \n[48NascimetoC，LaenderAHF，dalAS，etal.AourceIndependentFraeworkforResearchaperRecomendatio/Prodingfthe 1th Annual International ACM/IEEE Joint Conference on Digital Libraries.ACM，2011:297-306.  \n[49] 刘建勋，石敏，周栋，等．基于主题模型的Mashup标签推荐方法[．计算机学报，2017（2)：520-534.  \n[dLiuY，YangJovelLeangtoanksedHridMeodforokRcoedatio/PrcingofteIteatioalCoferceoWeb Intelligence.ACM，2017:837-842.  \nβNaakA，HageH，AimeurE.AMulti-CriteriaColaborativeFlteringAproachforResearchPaperRecommendationinPayres//International Conference on E-Technologies.Springer，Berlin，Heidelberg，2009:25-39.  \nb2ParvatikarS，JoshBOnlieookRecommendationSystembyUsingCollboratieFilterngandAssiationMinng//CoputaoalIntellgence and Computing Research（ICCIC)，2015 IEEE International Conference on.IEEE，2015:1-4.  \n[53]田野，祝忠明．关联数据驱动的数字图书推荐模型[．图书情报工作，2013（17)：34-37，52.  \n[54 凌霄娥，周兵，李克潮．面向新读者和新图书的数字图书馆个性推荐冷后动问题研究[.情报理论与实践，2014（8)：100-104，99.蒲姗姗四川外国语大学图书馆副研究馆员，硕士研究生。研究方向：信息资源开发与利用，读者服务。"
+  },
+  "": ""
+}

@@ -1,0 +1,74 @@
+{
+  "original_filename": "full_7482.md",
+  "机构知识库发展趋势探析": "",
+  "陈和": "",
+  "厦内大学图书馆厦门361005": {
+    "context1": "(摘要）结合国内外有关机构知识库的文献调研和实践案例分析，归纳并提出机构知识库的发展趋势，即机构知识库系统平台功能丰富化;机构知识库资源联盟化;机构知识库数据存储云端化;机构知识库信息服务知识化，以期为国内正在蓬勃发展的机构知识库的决策和建设提供参考。",
+    "context2": "（关键词）机构知识库机构知识库联盟用户体验云存储知识服务（分类号）G250.73"
+  },
+  "Development Trends of the Institutional Repository": {
+    "context1": "Chen He",
+    "context2": "Xiamen University Library，Xiamen 361005",
+    "context3": "(Abstract）Withtheliteratureresearchandpracticalcasestudiesofinstitutionalrepositorisathomeandabroad,theinstitutioalre positoriesdevelopmenttendsaresummarized.Thefunctionsofinstitutionalrepositorysftwarewillbeorerichtanbefore；hecon tentsofitiuioalposiillintegadndillsinstittioalreposiyalla；heudstoraeilla managewayofeinstitutioalrepositorydatasorage；eiforationservicesofinstitutioalrepositoryillbeangedasthowledge services.It will provide references for the decision and building of domestic institutional repositories.",
+    "context4": "(Keywords）institutionalrepositoryinstitutional repository allanceuser experiencecloud storageknowledgeservices"
+  },
+  "1前言": {
+    "context1": "自从机构知识库(Institutional Repository,IR）概念在20世纪90年代被提出来以后，有关机构知识库的理论和实践研究就从来没有停止过。理论研究主要集中在机构知识库的基本概念、与开放获取(Open Ac-cess)的关系、对传统学术交流的影响等;而实践研究主要是集中在不同的学术研究机构和政府机构根据自身需求和目标构建本机构的知识库，并向本机构成员提供服务。在机构知识库早期发展阶段，实践研究更多的是注重于机构知识库“如何建”,这些早期构建的机构知识库的主要功能是收集、保存、管理和利用本机构成员的数字化学术资源。在机构知识库早期蓬勃发展过程中出现了多套用于构建机构知识库的免费开源软件,其中以 DSpace 和 EPrints 最为知名,在 Open-DOAR站点的构建机构知识库软件统计排名中位居前列。然而,随着软件技术、网络技术、存储技术等信息技术的迅速发展以及用户信息需求的不断提高和改变，机构知识库的发展出现了新的变化、新的趋势。"
+  },
+  "2机构知识库发展趋势": "",
+  "2.1功能丰富化": {
+    "context1": "机构知识库最主要的功能是用来长期保存和展示本机构的数字化学术资源,因此,早期的机构知识库软件平台也是围绕这方面功能进行开发的。然而早期的机构知识库实践表明，由机构成员自愿主动提交其数字化学术资源到机构知识库的比例非常低,机构成员对机构知识库内容建设的参与度或者积极性没有预想中的高-。其中一个重要原因是机构知识库系统平台功能相对单一,用户体验度不够好,为此,不同的机构已经开始对原有的知识库系统平台进行升级开发，更有甚者进行重新设计和开发。",
+    "context2": "中国科学院机构知识库(Chinese Academy of Sci-ences Institutional Repository,CAS-R) 是在对 DSpace 软件进行全面熟悉和梳理的基础上进行二次开发完成的。他们对DSpace软件进行的主要扩展和优化涉及到内容提交、编辑流程、知识组织、传播和服务、知识资产统计、用户管理、用户界面等，并且集成开放知识组织引擎OpenKOS的相关功能,对机构知识库中知识产出进行主题标引和提供基于规范主题词的分面浏览，实现对数字资源的自动标引与自动分类。二次开发增加的和优化的功能极大地提升了原有机构知识库平台的性能,更好地满足了不同用户的需求4-。",
+    "context3": "香港大学机构知识库(The HKU Scholars Hub）对DSpace软件进行了二次开发和完善，其中增加了一个重要功能,即设计了研究人员网页（researcher pages）。香港大学校内教员可以通过机构知识库研究人员网页展示其个人基本情况和学术成果，包括姓名、联系方式、研究专长、所获荣誉、学术成果等。企业单位、政府部门或学术研究机构可以通过此网页找到课题协作或合作者、相关专业咨询专家、毕业论文指导教授、媒介发言人以及快速组建不同类型项目组团队等。",
+    "context4": "新西兰奥克兰大学图书馆 Stuart Lewis在 Atom 出版协议（Atom Publishing Protocol）的基础上新创建了SWORD( Simple Web-service Offering Repository Deposit)协议,并根据 SWORD协议开发了相关API软件。用户根据 SWORD协议和API软件,可以不必登录机构知识库系统就可以在远程同时把学术资源提交到多个知识库系统中,极大地提高了用户提交资源的效率。",
+    "context5": "J.S.Erickson等人在DSpace系统上添加了条目书签与个人标签的功能,并且与机构成员的研究兴趣相关联，在此基础上为用户推荐他可能感兴趣的条目和成员。系统还逐渐进行聚合机构成员的博客、维基、网络资源等,使机构知识库嵌入到用户的工作环境中。",
+    "context6": "增加或完善机构知识库系统平台的功能，其中最为根本的目的是吸引尽量多的本机构用户使用知识库,提高和改善知识库系统的用户体验，增加用户粘性。基于这样的目的,不同的机构知识库构建者对本机构知识库进行完善并增加新的功能,如增加知识库中资源的被引用率、数字对象全文链接、资源下载排行榜以及添加标签、资源评价等 $\\mathbb { W } \\mathrm { e b } \\ 2 . 0$ 的元素，简化用户提交流程等[。",
+    "context7": "对现有机构知识库系统进行改造和升级，必须要坚持以用户为中心的原则，以用户实际需求和增加用户体验为出发点进行改造和升级。机构知识库构建者应当调研和持续跟踪用户需求，结合国内外最新信息软件技术，丰富现有知识库系统的功能，最大限度地满足用户的不同需求。另一方面,对机构知识库系统进行功能完善或增加，所在机构需要相对较高的软件开发能力或相应资金支持,不同机构可以根据自身软件开发能力，选择开源或闭源软件灵活地进行开发和完善。"
+  },
+  "2.2组织联盟化": {
+    "context1": "根据 ROAR( Registry of Open Access Repositories)站点的统计,截至2012年7月，在其站点上注册的机构知识库数量是2910家[1。2011年6月赵永超在中国大陆作了 CALIS( China Academic Library & Informa-tion System)现有高校成员馆有关机构知识库的调研，结果显示，已经建有、准备建设和拟建设机构库的图书馆分别是54、25和91家。从国内外的统计数据来看，目前机构知识库的发展正犹如雨后春笋般迅速发展,如果把如此众多的孤立的机构知识库进行整合，实现联盟化，势必会出现新的资源服务局面。目前国内外已经开始出现机构知识库联盟：",
+    "context2": "·美国俄亥俄州数字资源共享联盟（Ohio digitalResource Commons,DRC)是在俄亥俄州高校图书馆联盟(Ohio Library and Information Network，OhioLINK）的基础上于2008年建立的机构知识库联盟，免费为俄亥俄州的高校和文科学院提供保存、发现和共享教学、科研、历史性和创造性的数字化成果的服务，目前联盟成员共有24个 。",
+    "context3": "·欧洲科研数字仓储架构研究项目（Digital Re-pository InfrastructureVision for European Research,DRIVER)是由欧洲38个国家的295个知识库组成的机构知识库联盟,目前系统中条目超过350万条[4。",
+    "context4": "·日本的机构知识库在线（Japanese InstitutionalRepositoryOnline,JAIRO）是由日本国家信息中心于2009年建立的一个机构知识库联盟，通过该联盟的统一检索入口,可以检索不同机构的期刊论文、学位论文、部门公告文件、研究文档等，目前联盟成员209个，数据总条目接近138万条[ 。",
+    "context5": "·中国台湾地区台湾机构典藏 TAIR(Taiwan Aca-demic Institutional Repository）是由台湾大学于2007年牵头组建的区域性机构知识库联盟，目前包括台湾地区一般大学、技职院校、各类专科学校及其他机构共125个成员，联盟资源条目总数超过123万条[ 。",
+    "context6": "·中国科学院机构知识库服务网格（Chinese A-cademy of Sciences Institutional Repositories Grid，CAS-IRGrid)是2007年开始由中国科学院国家科学图书馆在中国科学院所属的各个研究所推广机构知识库建设的基础上发展起来的机构知识库联盟。目前，该联盟拥有72个成员，另外还有一批成员正在加紧建设知识库，联盟资源条目总数超过33万条[7-18。",
+    "context7": "·CALIS机构知识库是由中国高等教育文献保障系统资助，由北京大学于2011年牵头组建的中国大陆地区高校机构知识库联盟，目前有27个高校成员，联盟资源数据总条目约8万条[ 。",
+    "context8": "实现联盟化，无论对学术资源本身，还是构建知识库的图书馆以及用户，都是一种共赢的模式。对于学术资源而言，联盟打破了学术资源各自孤立的局面，使不同机构的知识库群形成了一个资源整体，为将来的数据挖掘、信息增值服务打下良好的“物质\"基础。资源的集中呈现和统一服务，将增加学术资源被发现的机率，加速信息资源的传播，从而提升信息资源的影响力，体现资源服务整体效益。",
+    "context9": "对于图书馆而言，由于联盟之间实现资源共享,联盟成员的资源可以被本机构使用，使图书馆的信息服务保障能力得到提升，同时也为本机构成员进行学术交流增加了渠道。另外,加入联盟的图书馆,可以大大节省机构知识库构建、维护等方面的资金、人员及其他成本，避免了大量不必要的重复建设。",
+    "context10": "对于用户(学术资源消费用户和学术资源生产用户)而言，学术资源消费用户可以在联盟提供的统一服务平台上实现相关信息的跨库检索，而不必在各个成员机构知识库中反复检索，节省了学术资源消费用户检索利用知识库资源的时间;学术资源生产用户（机构科研人员)可以借助联盟提高自己学术资源被发现的机率，提升自己学术资源的被引用率和自身的学术影响力。",
+    "context11": "基于上述的共赢模式，机构知识库联盟目前发展比较迅速,也比较顺利。"
+  },
+  "2.3存储云端化": {
+    "context1": "随着机构的教学、科研活动的持续推进和发展，学术论文、著作、科学数据等机构知识产品将不断丰富，这将对机构知识库的数据存储能力提出更高的要求。传统的数据存储技术,如单一磁盘存储、磁盘阵列(Re-dundant Arrays of Inexpensive Disks,RAID)存储、直连式存储（Direct Attached Storage,DAS）、网络接入存储（Network Attached Storage,NAS）、存储区域网络(Stor-age AreaNetwork,SAN)等在应对大规模海量数据时，都将面对技术过于复杂或投入过高等问题。另一方面,随着网格计算、云计算等虚拟技术的发展,出现了新的数据存储技术，即云存储技术，它为用户提供了低成本、高效率和无限扩展能力的虚拟存储技术。随着云技术的成熟和客户的需求，越来越多的公司或企业推出云存储服务，并受到客户青睐。",
+    "context2": "亚马逊(Amazon)是较早推出商业云存储的公司，正如刘佳所言，“当人们还在将云计算当作时髦的 IT词汇讨论时,亚马逊早已从云计算中获益”。亚马逊的云计算系统被称为“弹性计算云”,可以提供“现购现付\"的服务,包括计算能力和数据存储。美国麻省理工学院、哥伦比亚区公共图书馆、俄亥俄州高校图书馆联盟、西北大学、莱斯大学等都开始使用亚马逊公司的弹性计算云服务。",
+    "context3": "Fedorazon是JISC资助的一个项目,目的在于为大规模仓储所面临的数据量不断增长和复杂度不断增加的问题找到一种合理的解决方法，从而提高英国高等教育与继续教育(UK'sHE andFE)内容仓储的性能。该项目的技术实现方法是在亚马逊的云平台上部署Fedora Commons机构知识库软件，然后开放给不同用户使用。与传统的本地方式相比,Fedorazon只需要在云平台上后动多个实例，就可以避免使用本地WebServer随着访问量的增加速度越来越慢的大规模数据访问的弊端;由于使用亚马逊的S3云存储，比本地磁盘阵列更容易扩展，用户不需要操心购买和部署硬件设施，不需要担心未来磁盘空间不足的问题，不需要配备专门的硬件管理人员，而可直接将注意力集中在如何开展数字资源长期保存研究上21-22",
+    "context4": "DuraSpace是由机构知识库构建平台开放源码软件供应商DSpace Foundation与Fedora Commons合并组建的机构,于2011年推出的该机构第一款开源软件产品DuraCloud,就与云存储相关。DuraCloud 基于多个商业性或非商业性的云服务,为学术图书馆、学术研究中心和其他文化遗产机构提供和托管云存储服务，使机构的数字资源得以长期保存，并提供数据访问、转换和共享服务。目前,麻省理工学院、汉密尔顿学院、莱斯大学、罗德学院等多所美国高校都在使用DuraCloud来管理本机构资源的云存储，其中就包括机构知识库23-24 。",
+    "context5": "学者钱宏蕊认为云存储技术具有如下特征： $\\textcircled{1}$ 高可扩展性：云存储系统可支持海量数据处理，资源可以实现按需扩展； $\\textcircled{2}$ 低成本：云存储系统具备高性价比的特点,低成本体现在两方面一更低的建设成本和更低的运维成本; $\\textcircled{3}$ 无接入限制：相比传统存储，云存储强调对用户存储的灵活支持，服务域内存储资源可以随处接入,随时访问; $\\textcircled{4}$ 易管理：少量管理员可以处理上千节点和PB级存储,更高效地支撑大量上层应用对存储资源的快速部署需求。",
+    "context6": "云存储技术能够很好地解决机构知识库数字资源的不断增长的现实存储需要以及长期保存的需要，降低了机构知识库用户的使用难度。我国幅员辽阔，图书馆众多,因地区发展不均衡,不同馆的馆情不一。具体来说，中小型馆对存储和技术力量投入比例小,在构建机构知识库时，经常面临存储和技术方面的困难。对于这种情况,建议国家层面(如教育部、CALIS管理中心等)或大型的实力强的馆能够对外提供云服务，帮助解决中小型馆面临的存储技术问题。"
+  },
+  "2.4服务知识化": {
+    "context1": "传统的信息服务是指以用户的信息需求为依据，提供有用的显性知识(以文字、图像、符号表述和以印刷或电子方式记载的)内容的信息服务活动。知识服务是指从各种显性和隐性知识资源中,通过对用户的知识需求和问题环境的分析，将信息析取、重组、创新、集成的知识提炼过程，是有针对性地解决用户问题的高级阶段信息服务活动。很显然,机构知识库的服务方式属于传统信息服务范畴，而机构知识库联盟化本质是实现了信息资源组织方式的改变，没有改变其信息服务方式，即仍属于传统信息服务范畴。如何进行知识组织,如何提供知识服务，目前学界还没有统一清晰的认识,但是,国外的一些机构在知识服务方面已经开始作一些尝试和探索。",
+    "context2": "由哈佛大学开发的免费开源机构知识库软件Dat-averse Network一方面与传统的机构知识库系统功能一样,收集、保存、发布和共享机构学者不同类型的科研数据;另一方面，它可以对专门的数据进行抽取、分析和统计，生成不同格式的数据子集和分析报表，供用户参考和使用。用户不但可以从Dataverse 获取普通的一般的学术信息,而且还可以获取经过加工的更深层次的学术信息。Dataverse在下一步的开发中，还将引入可视化的操作和结果展示，为用户提供更直观的学术信息。",
+    "context3": "美国康奈尔大学图书馆专家认为，传统的机构知识库系统只能单纯地保存和揭示本机构成员的学术资源,用户也只能从其上面浏览或下载相关的学术资源，而对这些学术资源后面的作者了解甚少，不能进行更进一步的交流或合作。为此,康奈尔大学图书馆在传统机构知识库的基础上增加开发了开源的VIVO软件,该软件类似于Facebook的虚拟社区网络，采用实体-关系(entity-relationship）的语义网模型来组织和展现科研人员、研究成果和教学活动的相关信息。传统机构知识库与VIVO软件结合后,作为虚拟社区成员的科研人员可以在社区共享学术成果、寻找同行、跨学科合作、改进研究等[28-2g 。",
+    "context4": "澳大利亚格里菲斯大学的Malcolm Wolski等学者引用资源描述框架（Resource Description Framework,RDF）、关联数据(linkdata）、相关语义网标准、VIVO软件等理念与技术在知识库的层面上建立了元数据交换中心(Metadata Exchange Hub）,通过该中心,不但可以揭示机构的学术资源信息，而且这些学术资源信息的相互关系也可以得到充分的展示。元数据交换中心与澳大利亚机构知识库联盟RDA(the Research Data Aus-tralia)结合使用后，用户通过RDA的服务可在特定的领域内得到丰富的信息。",
+    "context5": "国内方面，中国科学院的王思丽等学者以CAS-IR 为基础,抽取机构知识库中的实体关系，并利用关联数据技术将实体关系发布为能够进行语义揭示的关联数据格式,应用D2R工具进行RDF化的知识呈现和语义标注。实验系统表明，基于语义扩展的机构知识库与传统的知识库相比,在内容组织、资源组织方式上能够提供更为丰富的功能支持和语义发现服务，为加速CAS-IR从基础服务版到语义集成资源服务版的发展转变奠定了基础 31 。",
+    "context6": "在提倡创新型人才和个性化发展的时代背景下，用户的信息需求也出现多维化和个性化趋势，传统的为用户收集、整理、提供信息资源的信息服务方式已经无法满足用户复杂的信息需求。传统的按照文献流程来揭示文献内容的信息组织，需要向按照学科、专业、项目等来组织信息的知识组织转变，以便推进和提供知识服务。其中,RDF、关联数据和语义网应该是进行知识服务必须涉及的技术和阶段。"
+  },
+  "3 结语": {
+    "context1": "机构知识库作为机构保存和展示机构学术成果的平台,同时也是进行信息服务的资源平台和交流平台，必将受到机构和机构成员的重视。机构知识库的未来发展，一方面将不断进行系统自我创新，增强信息资源的收集、保存和管理能力;另一方面将围绕用户不断变化的信息需求，运用数字图书馆最新信息技术为用户提供更便捷、更具价值的信息服务。"
+  },
+  "参考文献:": {
+    "context1": "[1]OpenDOAR.Usage of Open Access Repository Software-Worldwide EB/OI]．[2012-06-30].http://www.opendoar.org/onechart. $\\mathrm {  ~ \\ p h p 2 ~ \\ c I D ~ \\ = ~ \\ \\& c t I D ~ \\ = ~ \\ \\& r t I D ~ \\ = ~ \\ \\& c l I D ~ \\ = ~ \\ \\& l I D ~ \\ = ~ \\ \\& p o t I D ~ \\ = ~ \\ \\& p o t I D ~ \\ = ~ \\ \\ g r o u \\ g I D ~ \\ = ~ \\ \\ g r o u \\ g I D ~ \\ = ~ \\ \\ g r o u \\ g I D ~ \\ = ~ \\ \\ g r o u \\ g I D ~ }$ $\\mathrm { \\Delta \\xi \\mathrm { \\Delta S o f t W a r e N a m e = \\& s e a r c h = \\& g r o u p b y = r } }$ rSoftWareName&orderby $=$ Tally%20DES $\\mathrm { \\ C \\& c h a r t t y p e = p }$ ie&width $=$ 600&height $=$ 300&caption =Usage% 20of% 20Open% 20Access% 20Repository%20Software% 20 - % 20Worldwide.",
+    "context2": "[2]陈和.国内高校机构仓储构建情况调查分析[/OI].图书情报工作网刊,2010(12):1-11．[2012－06－30]．http://159.226.100.150:8085/lis/netjournal/LIS_NET/2010-12/研究论文/2010 -2669_origin. pdf."
+  },
+  "[6]张旺强，祝忠明．机构知识库集成OpenKOS主题标引与检索聚类服务的实现及应用[．现代图书情报技术，2012(3)：1-7.": {
+    "context1": "[7]The University of Hong Kong Libraries.HKU ResearcherPages （RP[EB/O1]．[012-06-30].http://hub.hku.hk/help. jsp#ResearcherPages.   \n[8] Stuart L.A brief history of SWORD [EB/O1]．[012-06 -30] . http://swordapp.org/about/a-brief-history/.   \n[9]Erickson JS,Rutherford J,Elliott D.The future of the institutional repository:Making it personal [G/O1]．[2012-O6-30]．http://pubs.orO8.ecs.soton.ac.uk/125/1/submission_19.pdf.   \n[0]顾立平.提升机构知识库学位论文收藏与服务的五种方式[/ OI].图书情报工作网刊,2011(4):1-7．[2012-06-30]．http://159.226.100.150:8085/lis/netjournal/LIS_NET/2011 - 4/2010 -3366_origin.pdf.   \n[1]ROAR. Registry of Open Access Repositories [EB/O1]．[012- 06 -30]．http: //roar.eprints.org/.   \n[2]赵永超.浅析我国高校机构库建设发展现状 [EB/OL]．[2012 -06-30l．http://bbs.calis.edu.cn:8080/bbs/forum.php? mod $=$ viewthread&tid $= 7 2$   \n[13] OhioLINK.Ohio Digital Resource Commons EB/O1]．[012 -06 -30] .http://drc.ohiolink.edu/.   \n[14]DRIVER.Digital Repository Infrastructure Vision for European Research EB/O1]．[012-06-30] .htp://www.driver-repository. eu/.   \n[5]National Institute of Informatics.Japanese Institutional Repository Online [EB/OL]．[2012-06－30].htp://jairo.nii.ac. jp/ ei/.   \n[6] 台湾大学图书馆.台湾学术机构典藏 EB/OI]．[2012-06- 30] .http://tair.org. tw/.   \n[7]祝忠明,马建霞,张智雄,等．中国科学院联合机构仓储系统的 开发与建设．图书情报工作, $^ { 2 0 0 8 , 5 2 ( }$ 9) :90 -93,144.   \n[8]中国科学院机构知识库服务网格 [EB/OI]．[2012-06-30]. http://www.irgrid.ac.cn/.   \n[9]北京大学图书馆.CALIS 机构知识库 [EB/OL]．[2012-06- 30] .http://ir.calis.edu.cn/.   \n[20]刘佳.亚马逊：从卖书到卖“云”[].互联网周刊，2009（2)： 80.   \n[1]高建秀，吴振新,孙硕,等．云存储在数字资源长期保存中的应 用探讨[．现代图书情报技术，2010(6):1-6.   \n[2]Fedorazon: The cloud repository EB/O1]．[012-O6-30] .http://www.ukoln.ac.uk/repositories/digirep/index/Fedorazon.   \n[3]DURASPACE.Open technologies for durable digital content EB/ O1]．[2012 -06 -30] .http: //duraspace. org/.   \n[4] DURASPACE.What users are saying [EB/OL]． [2012 - 06- 30] .http://www.duracloud.org/testimonials.   \n[5]钱宏蕊．云存储技术发展及应用[]．电信工程技术与标准 化，2012(4):15-20.   \n[6]王琤.从信息服务到知识服务[].情报资料工作,2006(6)： 100 -101.   \n[7]Harvard University.The Dataverse Network Project [EB/OL]. [012-06-30] .http://thedata.org/.   \n8]Devare M,Corson-Rikert J,Caruso B,et al. VIVO : Connecting people，creating a virtual life sciences community [EB/OL]. [012 -06-30].ttp: //www.dlib.org/dlib/july07/devare/ 07devare. html.   \n[9]VIVO team.An interdisciplinary network EB/OL]．2012-06 -30] .http: //vivoweb.org/.   \nB0] Malcolm W,Joanna R,Robyn R. Building an institutional discovery layer for virtual research collections [EB/OL]．[2O12 -06- 30l.ttp://www.dlib.org/dlib/may11/wolski/05wolski. html.   \n[1]王思丽,祝忠明.利用关联数据实现机构知识库的语义扩展研 究[．现代图书情报技术， $2 0 1 1 { \\left( \\ 1 1 \\right) } : 1 7 - 2 3$   \nβ2]朱小平.高校用户个性化信息需求与知识服务[.高校图书情 报论坛,2005,4(4):24-26.",
+    "context2": "(作者简介）陈和，男，1976年生，馆员，发表论文多篇。"
+  },
+  "(上接第48页)": "",
+  "[8]莱斯格.雷席格的CC每周通信( $\\left( + \\right)$ ：论重要的自由[EB/OL].": {
+    "context1": "[2012-05 -22] .http: //creativecommons.org.tw/in-depth/73. [19] 4.0 [EB/OL]．[012 -05-22].htp://wiki.creativecommons. $\\mathrm { o r g } / 4 . 0$",
+    "context2": "[0]4.0 NonCommercial [EB/OL]．[2012-O5-22] .http://wiki. creativecommons.org/4.O/NonCommercial.   \n[1]Version 4.O: License draft ready for public comment[EB/OL]. [2012-05- 22]．htp://creativecommons.org/weblog/entry/ 32157.",
+    "context3": "(作者简介）傅蓉,女,1977年生，副研究馆员，硕士，发表论文10余篇。"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "original_filename": "full_3042.md",
+  "国内外知识地图研究进展": {
+    "context1": "司莉陈欢欢",
+    "context2": "(武汉大学信息管理学院武汉 430072)",
+    "context3": "文摘从知识地图的概念与特点、类型与功能、构建技术、评价指标以及知识地图的应用等方面对国内外知识地图相关研究进行全面分析与总结，梳理出知识地图研究的全貌。",
+    "context4": "关键词知识地图知识管理研究进展",
+    "context5": "Research Devebpm ent of Know ledgeMap atHom e and Abroad",
+    "context6": "SiLi Chen Huanhuan",
+    "context7": "（ School of InfomationManagement，Wuhan University 430072)",
+    "context8": "Abstract We cmprehensively analyzed and summarized the dmestic and abroad research about knowledge map frm its definition and characteristicstypes and function construction technobgy as well as indicators of evaluation and so on thereby to show the panorama of the research K ey words: Know ledge map Know ledge management Research and develpm ent",
+    "context9": "知识地图作为一种指南，一种导航系统，它以可视化技术显示各种知识及其相互关系，帮助用户方便快捷地找到他们所需要的知识。知识地图正在成为网络时代知识管理领域的研究热点之一。"
+  },
+  "1关于知识地图概念与特点的研究": "",
+  "11概念": {
+    "context1": "目前，知识地图还没有统一的定义，学者们对其表述也不尽相同，归纳起来，主要有以下几种：",
+    "context2": "（1)“知识指南与目录说”。Davenport&Pusak认为：知识地图，不管它是否真的是张地图、知识的黄页簿，还是精心建立的数据库，都只是告诉人们知识的所在位置，并不包含其中内容。知识地图也就是一种知识的指南，显示哪些资源可以利用，而非知识库的内容[1]。持相似观点的人还有 Zack[2]、陈志安、杨荣杰[3]、陈强[4]等。",
+    "context3": "(2)\"知识管理工具说”。李华伟等认为：知识地图是一种帮助用户知道在何处能找到知识的知识管理工具。企业知识地图将企业各种资源的入口集成起来，以统一的方式将企业的知识资源介绍给用户。知识地图采用一种智能化的向导代理，通过分析用户的行为模式，智能化地引导检索者找到目标信息[5]。潘旭伟[]等也持同样观点。",
+    "context4": "是对隐性知识和显性知识的导航工具，解释说明知识流如何贯穿在整个组织中。知识地图对组织内部知识的来源、信息流、限制和终止进行描述并帮助理解知识存储和动态流动之间的关系[7]。Duffy认为知识地图是使用户找到其寻求的答案的导航系统[8]。王君、樊治平认为：知识地图是知识目录和领域专家的导航，它允许对所描述的企业知识资源进行处理、浏览和形象化[9]。国内持同样观点的学者还有李志强[10]、邓三鸿[1]、康永兴[12]等。",
+    "context5": "（4)\"知识分布图说”。陈立娜认为知识地图就是企业知识资源的总分布图,具体包括两部分内容：一是企业知识资源的总目录及各知识点间的关联;二是人员专家网络，即对企业员工的知识技能及相关领域专家的描述[13]。此观点的代表人物还有李素琴、丁蔚[14]等。",
+    "context6": "（5)“关系说”。Vai将知识地图定义为可视化地显示获得的信息及其相互关系，它促使不同背景下的使用者在各个具体层面上进行有效地交流和学习知识。在这样的地图中包括的知识项目有文本、图表、模型和数字[15]。谭玉红、吴岩认为：知识地图是一种显性的、结构化的组织知识关系网络。它描绘一个组织系统中的知识存量、结构、功能、存在方现代信息管理技术作为支持手段[16]。国内此观点的代表人物还有郑苗、樊治平[17]等。"
+  },
+  "1.2特点": {
+    "context1": "陈强和孙翠琴两位学者分别从功能和内容角度讨论了知识地图的特点。陈强等认为知识地图的特点是：可以有效共享;实现良好的互操作;可以作为可重用的共享组件;高效可靠的知识获取;识别不同系统的知识资源;学习能力[18]。",
+    "context2": "孙翠琴认为知识地图的特征是：知识地图是一个向导，是寻找所需知识的工具，它本身不是知识集合,不是具体的知识，而是关于知识源的知识，它不同于其他信息工具;知识地图指向的是知识源，而这些知识源不仅可以是已经固化在一定的载体上的各种形式的文献、数据库，也可以是大脑中存储了丰富的隐性知识的专家或其他员工;知识地图不仅仅要揭示知识的存储地，通常也要揭示知识之间的关系；知识地图的最终目标是帮助人们实现知识的共享；知识地图提供的是个性化、人性化以及有针对性的知识[19]。",
+    "context3": "尽管上述定义的表述各不相同，但它们都具有以下共同点： $\\textcircled{1}$ 只告诉人们知识的所在位置，并不直接指向知识内容； $\\textcircled{2}$ 不仅揭示知识的存储地，而且揭示知识之间的关系，不仅揭示显性知识，也揭示隐性知识; $\\textcircled{3}$ 以可视化形式展现知识间的关系，有助于发现新知识。"
+  },
+  "2关于知识地图类型和功能的研究": "",
+  "2.1类型": {
+    "context1": "根据不同的分类标准，研究者们将知识地图划分为以下类型，如表1所示。",
+    "context2": "表1知识地图的类型",
+    "context3": "<table><tr><td rowspan=1 colspan=1>划分者</td><td rowspan=1 colspan=1>年代</td><td rowspan=1 colspan=1>划分依据</td><td rowspan=1 colspan=1>类    型</td></tr><tr><td rowspan=1 colspan=1>Andersen</td><td rowspan=1 colspan=1>1998</td><td rowspan=1 colspan=1>知识形态</td><td rowspan=1 colspan=1>静态知识地图、动态知识地图[20]</td></tr><tr><td rowspan=1 colspan=1>Lgona Caldwen</td><td rowspan=1 colspan=1>2000</td><td rowspan=1 colspan=1>对象</td><td rowspan=1 colspan=1>概念型知识地图、流程型知识地图、能力型知识地图[21]</td></tr><tr><td rowspan=1 colspan=1>Eppler</td><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>功能</td><td rowspan=1 colspan=1>知识资源地图、知识资产地图、知识结构地图、知识应用地图、知识开发地图[22]</td></tr><tr><td rowspan=1 colspan=1>苏新宁</td><td rowspan=1 colspan=1>2004</td><td rowspan=1 colspan=1>需求</td><td rowspan=1 colspan=1>知识进化循环图、组织知识范围图、知识转移过程图、个人知识进化图、项目流程图、组织体系结构图[23]</td></tr><tr><td rowspan=1 colspan=1>谭玉红、吴岩</td><td rowspan=1 colspan=1>2005</td><td rowspan=1 colspan=1>呈现形式</td><td rowspan=1 colspan=1>仿真型知识地图、树图型知识地图、异型图[24]</td></tr><tr><td rowspan=1 colspan=1>吴成峰</td><td rowspan=1 colspan=1>2006</td><td rowspan=1 colspan=1>知识属性和范围</td><td rowspan=1 colspan=1>内部显性知识地图、内部隐性知识地图、外部显性知识地图、外部隐性知识地图[25]</td></tr><tr><td rowspan=1 colspan=1>陈强等</td><td rowspan=1 colspan=1>2006</td><td rowspan=1 colspan=1>功能和应用</td><td rowspan=1 colspan=1>企业知识地图、学习知识地图、资源知识地图[26]</td></tr></table>",
+    "context4": "另外，Guarino主张从详细程度和领域依赖程度这两个维度对知识地图进行划分。但在具体应用中，一般按照知识地图的概念主题和形式化程度划分。"
+  },
+  "2.2功能": {
+    "context1": "对知识地图的功能，学者们有不同的阐述。如Davenport&Pusak认为其作用是告知机构内的人何处可查询所需的知识;用作存货清单,表明公司有哪些知识及其存在位置一一可以用作对公司知识贮库进行评估的工具，展示可资利用的实力及需要填补的空缺[27]。",
+    "context2": "周九常提出知识地图的作用：有助于知识的重复利用;发现高校内部能有效促进学习的非正式组织(比如学术沙龙、兴趣小组等);有助于建立更为合理的高校知识基础[28]。",
+    "context3": "组织的知识以及知识、知识载体、组织各部门或人员之间的相互关系;描述了组织的智力资本，有利于智力资本的培育和评估;使组织成员清楚地了解其角色和任务;用户在权限范围内可以访问和使用知识地图中的知识；为项目运作提供有效的指导;为组织全体员工提供实现组织目标的学习路径[29]。",
+    "context4": "康永兴认为知识地图的作用体现为：搜索导航功能;协助组织进行智力资源的培育和评估;协助组织进行对新员工的培训;协助组织进行隐性知识的挖掘和利用;协助组织发现知识缺口[30]。",
+    "context5": "综合以上观点，可以看出，学界对知识地图在知识管理方面的功能的看法较为一致，概括起来主要有： $\\textcircled{1}$ 知识导航； $\\textcircled{2}$ 知识共享; $\\textcircled{3}$ 揭示隐性知识； $\\textcircled{4}$ 揭示知识间关系; $\\textcircled{5}$ 用作存货清单。"
+  },
+  "3关于知识地图构建技术的研究": {
+    "context1": "郑苗、樊治平指出知识地图指向的可能是知识 现有文献在对知识地图构建技术方面的研究主"
+  },
+  "3.1构建原则": {
+    "context1": "ChenLina认为知识地图构建原则有：直观信息量尽可能少，减少维护成本;以需求为导向;确定基础结构;有长远的维护发展策略;协调组织文化[31]。",
+    "context2": "王新昊认为构建原则为：要以知识地图使用者的需求为导向;先选取组织中的一部分相对重要的知识作为制图范围来进行;要考虑到知识的时效性，设计成动态的、可扩充的知识地图;应该围绕主题来构建;应该以方便用户的获取为准则[32]。",
+    "context3": "康永兴认为应遵循以下原则：个性化、可视化、动态性、重要市场信息的公开化、以问题为导向的协作、营造团体成员交流的环境和选定主要服务对象[33]。",
+    "context4": "秦铁辉等认为构建原则为：主题明确；目标确定；对象确定;实用性和适用性;可获取性;共享和权限界定[34]。"
+  },
+  "3.2构建模式": {
+    "context1": "学术界对知识地图构建模式的理解不一，笔者根据知识地图构建步骤对其构建模式进行了划分，见表2所示。",
+    "context2": "表2知识地图的构建模式",
+    "context3": "<table><tr><td rowspan=1 colspan=1>构建模式</td><td rowspan=1 colspan=1>提出者</td><td rowspan=1 colspan=1>时间</td><td rowspan=1 colspan=1>具体构建步骤</td></tr><tr><td rowspan=1 colspan=1>三步构建法</td><td rowspan=1 colspan=1>吴岩、谭玉红</td><td rowspan=1 colspan=1>2005</td><td rowspan=1 colspan=1>界定使用者;调查和收集知识;分析、选择和编辑[35]</td></tr><tr><td rowspan=3 colspan=1>四步构建法</td><td rowspan=1 colspan=1>陈远、钟晓星</td><td rowspan=1 colspan=1>2005</td><td rowspan=1 colspan=1>定义知识款目;定义知识节点;构建知识节点间的链接;知识地图的最终验证[36]</td></tr><tr><td rowspan=1 colspan=1>陈强等</td><td rowspan=1 colspan=1>2006</td><td rowspan=1 colspan=1>知识的识别与组织;知识分级;建立联系;展现知识地图[37]</td></tr><tr><td rowspan=1 colspan=1>侯宏皎</td><td rowspan=1 colspan=1>2007</td><td rowspan=1 colspan=1>识别组织知识资源;确定知识点及其分类标准;建立知识间的联系;知识地图的可视化表示[38]</td></tr><tr><td rowspan=2 colspan=1>五步构建法</td><td rowspan=1 colspan=1>Eppler</td><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>识别组织内知识密集型的流程、工作或问题;确定上述知识密集型区域所涉及到的知识资源;将知识资源编码化，以便组织能够更有效地进行访问;将这些编码化的知识资源集成到一个可视化的访问界面中，使用户能够进行可视化的浏览和检索;提供知识地图的更新工具[39]</td></tr><tr><td rowspan=1 colspan=1>王日芬</td><td rowspan=1 colspan=1>2005</td><td rowspan=1 colspan=1>定义组织中的知识;用元知识描述知识;提取知识并确定位置;建立知识链接并形成知识网络;确定知识地图的有效性[40]</td></tr><tr><td rowspan=3 colspan=1>六步构建法</td><td rowspan=1 colspan=1>W illam</td><td rowspan=1 colspan=1>1998</td><td rowspan=1 colspan=1>提取知识;汇编知识;声明出处;排序和贴标签;关系描述;解释和反复[41]</td></tr><tr><td rowspan=1 colspan=1>Km等</td><td rowspan=1 colspan=1>2003</td><td rowspan=1 colspan=1>确定组织知识;过程图分析;知识提取;知识简介;知识链接;知识地图验证[42]</td></tr><tr><td rowspan=1 colspan=1>苏海</td><td rowspan=1 colspan=1>2005</td><td rowspan=1 colspan=1>知识获取;对知识进行审核;按照面向对象的方法对知识进行封装存储;提取元知识;对知识进行链接;生成知识地图[43]</td></tr><tr><td rowspan=1 colspan=1>七步构建法</td><td rowspan=1 colspan=1>庄善洁</td><td rowspan=1 colspan=1>2005</td><td rowspan=1 colspan=1>成立工作小组;识别关键用户群，并明确用户的需求;明确知识地图的目标、使用范围、基础结构、构成要素、节点关系的定义、链接数据的存贮方法等;评价和选择开发工具;确定知识地图的管理者、维护程序等;弄清知识在企业中的存贮情况，确认知识关联,绘制初步的知识地图;扩充知识地图的内容，并在反复测评中更新和完善[44]</td></tr></table>",
+    "context4": "另外,还有学者讨论了知识地图的辅助工具和描述语言。其辅助工具主要有 Ontolingua ServerOntoEditChmaera等。其描述语言比较有名的有On tolingua,CycL ${ \\mathrm { ~ O ~ I L } } ,$ OWL等。"
+  },
+  "4关于知识地图效果评价指标的研究": {
+    "context1": "李亮认为知识地图可以从以下3个方面来评价：是否促进了企业的知识共享行为;知识寻求者使用知识地图所得到的结果是否全面，是否具有新颖性;知识地图使用的频率[45]。",
+    "context2": "马大川、马越认为知识地图的评价指标有：响应时间、更新速度、标引深度、地图展现方式[46]。",
+    "context3": "吴成峰认为知识地图应该从7个方面进行评价：知识地图统计的知识含量;建立知识地图的投资的知识关联度；知识地图获取知识的途径和手段；知识地图中隐性知识的表达能力;知识地图对企业文化的影响[47]。",
+    "context4": "从上面可以看出，以往对于知识地图评价指标的研究主要是定性评价，而对定量评价方法和评价指标体系的研究今后有待进一步加强。"
+  },
+  "5关于知识地图应用的研究": {
+    "context1": "到目前为止，学者们主要讨论了知识地图在知识管理、图书馆服务以及指导学习三个方面的应用。",
+    "context2": "(1)知识地图在知识管理方面的应用。知识地图不仅可以用于显性知识的管理，还可用于隐性知识的管理。可采用两种知识地图对隐性知识进行管理，一种用于隐性知识的表达，称为认知地图，亦称",
+    "context3": "回报：修靠知识地图解决问题的速度知识地图croni方法或过程图种用于隐性知识的交流传播，被",
+    "context4": "称为专家图，这两种图分别从隐性知识本身和隐性知识载体两个角度出发对隐性知识进行管理[48]。庄善洁认为：可利用知识地图建立用户易用的智能化导航系统，用户在浏览的同时发表评论，通过知识地图平台进行隐性知识交流，能够为组织创新提供条件，利用知识地图进行知识重组，可为知识服务提供良好的服务平台[49]。",
+    "context5": "(2)知识地图在图书馆参考咨询服务中的应用。知识地图是一种良好的工具，它可实现图书馆知识资源的可视化配置，明确知识的分布以及分布于不同空间的知识资源间的内在联系。参考咨询系统中的请求管理器根据知识地图就可以快速找到合理的知识匹配，进而将咨询请求提交给匹配度最高的知识资源所有者 (图书馆和知识专家），以达到咨询服务的高质量[50]。在此基础上，刘钟美讨论了知识地图在个性化信息推荐服务中的应用。他认为图书馆的个性化信息推荐系统需要随时密切关注用户信息需求，并适时把有关信息自动推送给用户，知识地图为实现这样的服务提供了可能性[51]。",
+    "context6": "(3)知识地图在指导学习中的应用。学生要培养自己的学习能力、实践能力和创新能力，就需要在学习的过程中学会在知识之间自主建构有意义的连接并感悟这种意义，形成知识地图，在解决问题的过程中应用并完善知识地图，总结出解决问题的各种方法和一般规律，使知识地图成为智能知识地图。陈争在文献[52]中对此有详尽论述。",
+    "context7": "综上所述，对知识地图概念的研究，国外主要集中在 20世纪末，尤其以 1999年和 2000年居多，而国内在这方面的研究稍晚，以2002年和 2003年居多;在知识地图类型、功能以及知识地图的构建和应用方面，国内2000年以来研究颇多，且远远多于国外;此外,国内关于知识地图的应用和构建领域的文献近年来呈不断增长趋势，而国内外对知识地图特点以及评价指标的研究尚显薄弱，有待加强。"
+  },
+  "参考文献": {
+    "context1": "1, 27Davenport TH, Pusak L Working know ledge how organ izations m anage what they know: Boston; Haivard Business School Press 1998  \n2Zack M.Developing a know ledge strategy Califomia Man-agem entReview,1999（3)  \n3,30康永兴·科研机构知识管理中知识地图的设计与构建[硕士学位论文]北京：中国农业科学院农业信息研究所，2006  \n4,18,26,37陈强等·基于知识地图的知识管理应用研究.田 十八 1  \n7Grey D.Know ledge mappinga practical overview.http://www.Sm ithweaverm ith com /know ledge2.htn（2008-01-13)  \n8Duffy J Knowledge exchange atG laxoW elcome The Information Management Joumal 2000（3)  \n9 王君,樊治平.一种基于web的企业知识管理系统的模型框架·东北大学学报，2003（2)  \n10邓三鸿·知识地图的构建与使用[博士学位论文]南京：南京大学，2003.27—30  \n11 李志强·浅谈电子佛典与知识管理·佛教图书馆馆讯,1991(6)  \n12,33 康永兴·知识地图——知识管理的有效工具·农业图书情报学刊，2005（6)  \n13陈立娜·知识管理中企业知识地图的绘制·图书情报工作，2003(8)  \n14 李素琴，丁蔚·企业知识架构的建立·情报科学，2002(20）  \n15Vail II Edmond F Knowledge mappinggetingstartedwith know ledge managementInfomation System s Manage-ment 1999(4)  \n16,24,35谭玉红,吴岩·关于学校知识管理中的“知识地图\"研究·维普资讯 http://www.cqvip com  \n17,29 郑苗,樊治平.知识地图:知识管理和组织学习的有效工具·工业工程与管理，2003(3)  \n19 孙翠琴.高校图书馆知识组织的进一步完善——知识地图·现代情报，2006(8)  \n20 American Prductivity and Quality Center（APQC）andA rthurAndersen The Know ledge Managem ent A ssessm entTool htp: www:kwork org white% 2OPapers KMATBOK DOC:pdf(2008-01-15)  \n21Logan DCaldwellF Knowledge Mapping Five Key Dimensions to Consider GartnerG roup 2000  \n22,39EpplerMJMakingknowledgevisiblethough intranetknowledge map:concept elem entscases $\\cdot$ USA:Pm-ceedings of the $3 4 \\Uparrow$ Hawaii in temational conference onsystem sciences 2001  \n23 苏新宁,邓三鸿等·企业知识管理系统·北京:科学出版社，2004，152—153  \n25,47吴成锋·企业知识地图及其构建研究[硕士学位论文].哈尔滨;哈尔滨工业大学，2006  \n28周九常·我国高校知识管理实现的两种方式·情报杂志，2002(7)  \n31Chen Lina KnowledgeMapping in KnowledgeManagement  \n32 王新昊·情报研究工作中知识地图和知识库的构建研究[硕士学位论文].南京：南京理工大学，2005  \n34 秦铁辉,汪琼·试论专家型隐性知识地图的构建·国家图书馆学刊，2007（2)  \n36陈远，钟晓星·基于工作流的知识地图及其在企业知识管理中的应用·中国图书馆学报，2005（2)  \n38侯宏皎·知识地图在高校图书馆员知识结构分析中的应用·科技情报开发与经济，2007（19)  \n40王曰芬等·情报研究中知识地图的应用探索·图书情报工作，2006(12)  \n41W illam B.Rouse Beverly Sutley Thomas Kenneth R.Boff Know ledge Maps forKnow ledge M in ingApplicationto R&D /Technology Management IEEE Transactions onSystems Man and CybemeticsPartC:Applicationsand Review, 1998(3)  \n42 Suyeon Kim，Euiho Suh Hyunseok Hwang Building theKnowledge Map:an Industrial Case StudyJoumal ofKnow ledge Managem ent 2003（2)  \n43苏海等·面向产品开发的知识地图构建·上海交通大学学报，2005(12)  \n44庄善洁·基于知识管理的图书馆知识地图的绘制·图书馆学研究，2005（10)  \n45 李亮·知识地图——知识管理的有效工具·理论与探索，2005(3)  \n46 马大川，马越·知识地图技术的发展趋势与评价研究情报科学，2006(8)  \n48 杨曦宇·知识地图研究综述·图书馆学刊，2007（3)  \n49庄善洁·从情报学角度谈知识地图的应用·现代情报，2005(8)  \n50詹林·知识地图在合作数字参考咨询服务中的应用研究·图书情报知识，2005(4)  \n51 刘钟美·知识地图在图书馆个性化信息推荐服务中的应用研究·图书情报工作，2006(10)  \n52陈争·自主建构智能知识地图——有机化学有效复习方法探索·化学教育，2003(11)",
+    "context2": "司莉女武汉大学信息管理学院图书馆学系副系主任，副教授，博士。",
+    "context3": "陈欢欢女武汉大学信息管理学院2007级在读硕士生。",
+    "context4": "(收稿日期： $2 0 0 8 - 0 3 - 1 9$ 编发：王宗义）"
+  },
+  "（上接第73页）": {
+    "context1": "根据上述引文中“付”“刻样\"等字句，我们推测《精华录 》的最初刊刻者，恐当为顾嗣立秀野草堂。但此书原刻本版心又无顾氏“秀野草堂\"字样，与顾氏其它刻书又不一致。故亦存疑。但顾氏参与该书刊刻之过程，则是确定的。"
+  },
+  "4结语": {
+    "context1": "综上所述，我们以为：《渔洋精华录》的初编者是盛符升、曹禾，林佶是该书的誉写者及后期编纂者；王氏本人在后期亦始终过问与关注其事，这些是可以肯定的。刊刻者恐为顾嗣立秀野草堂，或有待进一步考证。"
+  },
+  "注释": {
+    "context1": "1,2《渔洋集外诗序》·见《丛书集成续编》本《渔洋山人集外诗》书首第 616、615页  \n3该书卷一七三 集部 别集类  \n4 该书卷二百三十四 经籍二十四  \n5辛德勇·渔洋山人精华录训纂·中国典籍与文化，2001(3)  \n6辛德勇·渔洋山人诗合集·中国典籍与文化，2002(3)  \n7,10林佶·渔洋山人精华录后序  \n8 黄永年,贾二强·清代版本图录·清代版本述略·浙江人民出版社，1997.5(第一版）  \n9 《江苏府县志·光绪江阴县志·人物·文苑》  \n11 王士祯·蚕尾集剩稿·答宋牧仲巡抚  \n12 《江苏府县志·长洲县志·人物·文苑》  \n13 顾嗣立《大小雅堂诗集》卷三《司寇新城王先生从都门寓书见存云将有精华录之刻喜而赋四绝句》  \n14,15王士祯·蚕尾集剩稿·寄门人顾侠君嗣立孝廉",
+    "context2": "侯富芳女，淮阴师范学院图书馆馆员。(收稿日期： $2 0 0 7 - 1 2 - 1 7$ 编发：梁颖）",
+    "context3": "![](images/e04b5959d6e354f8d392c39c92ac08342e3f08a32ab96c80a83878a20931b433.jpg)  \n(C)1994-2023 China Academic Journal ElectronicPublishing House. All rights reserved.http://ww"
+  }
+}

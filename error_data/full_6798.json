@@ -1,0 +1,143 @@
+{
+  "original_filename": "full_6798.md",
+  "nothing": {
+    "context1": "【编者按】在今年第一期我们组织策划了“数据赋能的治理创新研究”专题，并刊发了三篇文章：《社会治理何以智慧化？回顾、思考与展望》《数据赋能视角下应急情报服务价值共创过程及能力提升》《统筹压力与数据驱动能力下省级政府互联网服务能力均衡化研究》。本期我们将继续刊发另外两篇，分别是《政务热线大数据赋能城市治理创新：价值、现状与问题》《基于适应性结构化理论的政务数据质量影响因素研究——以政务12345热线数据为例》。这两篇文章专门聚焦政务热线大数据，从政务热线大数据利用现状和现存问题、数据质量影响因素等角度探讨了相关问题,以进一步提升社会治理效能。希望这个专题能够推动图情档学科在社会治理、公共管理等领域的跨学科探索，为推进国家治理能力现代化贡献专业知识，并在新时代应用场景中不断发展和完善学科的理论体系。"
+  },
+  "政务热线大数据赋能城市治理创新：价值、现状与问题": {
+    "context1": "The Big Data Empowering Effect of Government Hotlines on City Governance Innovation:Value,Status and Issues",
+    "context2": "马亮郑跃平2,张采薇2,3  \n(1.中国人民大学公共管理学院，北京,100872；2.中山大学政治与公共事务管理学院,广州,510275；3.中山大学中国公共管理研究  \n中心，广州,510275)",
+    "context3": "[摘要］[目的/意义]政务热线是政务服务与公众参与的重要渠道，对其积累的海量数据进行分析，可有效探知公众与企业的需求并解决城市治理问题。对政务热线数据的管理和应用水平进行评估，有利于其在城市治理创新中发挥应有的价值。[研究设计/方法]基于2020年政务热线发展研究报告的问卷调查数据和部分城市政务热线部门的案例分析和深度访谈，对政务热线大数据的利用现状与存在问题进行梳理和分析。[结论/发现]政务热线的数据治理状况总体较好，但是在大数据分析方面与城市治理需求还有较大差距。大数据的归集、分析、应用和管理都还处于发展初步，需要制定战略、增强能力、加强应用和推动跨部门协同。[创新/价值]从战略管理、能力建设、数据共享与开放等方面提出政策建议，以期推动政务热线大数据在城市治理创新中发挥作用。",
+    "context4": "[关键词]城市治理数字政府政务热线大数据分析智慧城市 [中图分类号]D035；G250[文献标识码]A [文章编号]1003-2797(2021)02-004-09DOI:10.13366/j.dik.2021.02.004 [Abstract][Purpose/Significance]Government hotlines are important channels for public service and participation. Withtheanalysisoftheacumulatedamountofdata，requirementsofthepublicandenterprisecouldberevealedandissuesof urbangovernancecouldbesolved.Evaluating the managementandapplicationof government hotlinedatais helpful togive fullplay toits value.[Design/Methodology]Baseduponthedataof the surveyin the Reportof 2020 Government Hotline Development Researchalong with theinterviewsandcase studyof some government hotline agencies，the statusand existing isues of the big data useof government hotlines were summarizedand analyzed.[Findings/Conclusion]Generaly speaking，data governanceof governmenthotlinesisgood,but there is greatdistancebetweenbigdataanalysisandurbangovernancerequirement.Thecollection，analysis，applicationandmanagementofbigdataareataprimarystage.It is necessryto make strategies，improveability，enhanceapplicationand promote trans-department colaboration.[Originality/Value] Suggestions are proposed fromtheaspectsofstrategymanagement，abilitydevelopment，as wellasdatasharingandopening，which aim to make good use of government hotlines’big data in urban governance innovation.",
+    "context5": "[Keywords]Urban governance; Digital government；Government hotline； Big data analytics； Smart city"
+  },
+  "1引言": {
+    "context1": "政务热线在城市治理中处于枢纽地位，但是其所蕴含的城市治理价值还没有得到充分重视[1]。最早政务热线主要是为了能够为民众投诉和反映问题提供一个不受干扰和左右的渠道。此后，各地政府部门开通各自的政务热线，但是各自为政、资源闲置浪费、老百姓拨打电话遭遇“踢皮球”和“推诿扯皮”等问题日益凸显。近些年来，越来越多的城市加快推动政务热线整合，通过“12345”来“一号”受理民众诉求并提高热线集约水平。",
+    "context2": "政务热线的发展经历了从无到有、从少到多、从分散到集约的发展过程。但目前政务热线存在号码多、群众办事多头找等问题，需要通过优化来提高为企便民服务效率和水平①。政务热线经过多年发展实现了集约，但是同“一号”办理的距离还较大。在条块分割的政府管理体制下，特别是“条条”部门的政务热线往往是单独开设的，尚未有效整合到12345城市政务服务热线。随着微博、头条号、网站等网络渠道的兴起，政府部门通过网络渠道畅通民意，进一步加剧了市民关系管理的碎片化。因此，如何加快政务热线的整合进程，使其成为城市治理的枢纽，就成为了至关重要的课题。",
+    "context3": "政务热线在企业领域表现为客户关系管理，而在城市治理方面则可以称之为市民关系管理[2]。政务热线是政府与公民之间的互动或政民互动(Citizen-",
+    "context4": "State Interactions)的重要渠道之一，在城市治理中发挥着十分重要的作用。一方面，政务热线是政府与公众之间、政府跨层级与部门之间协同推动问题解决的枢纽；另一方面，政务热线提供了海量数据，可以全面、及时、准确地反映城市治理问题及公众需求，为数据驱动的城市治理创新提供基础[3]。政民互动是公共管理领域持续关注的重要研究领域之一，涉及到街头官僚、代表性官僚、社会公平等重大议题，也是理解政府与公民之间关系如何转变的重要视角之一[4]。比如，美国许多城市利用政务热线开发CitiStat等城市政府绩效管理系统，将其作为市直部门考核和问责的主要依据[5-6]。北京市的“接诉即办”工作机制，将政务热线用于各级政府绩效考核，有力带动政府部门为民办事和为民解忧，实现持续绩效改进[7]。",
+    "context5": "政务热线的治理枢纽性体现在公民提供治理问题线索，政府按图索骥解决问题，而政民互动则实现良性循环，进而推动绩效持续提升。政务热线作为回应民意的信息工具得到了广泛应用，但是，政务热线还没有成为城市治理的核心工具，特别是其所产生和积累的大数据还没有得到充分的重视和利用。政务热线的数据治理问题依然突出，而相关研究则较少，使我们还无法深入理解政务热线大数据在城市治理创新中所扮演的角色以及存在的问题[8]。",
+    "context6": "本文基于中山大学数字治理研究中心联合多家机构共同发布的《2020年政务热线发展研究报告》及其问卷调查数据，对政务热线大数据在城市治理创新的应用情况进行分析，指出其存在的问题，并探讨未来的改进方向。本文结合在北京、广州等地的实地调研和深度访谈，探究政务热线大数据在应用于城市治理创新时所遇到的障碍和问题。"
+  },
+  "2大数据与数据驱动的城市治理创新": {
+    "context1": "大数据具备技术、能力、资源等多种属性，既是一项重要的政府治理技术，又被视为一种积极的治理资源[9]。大数据分析是指政府通过关联分析、倾向性分析、聚类分析、分类分析、社会网络分析等方法，对政府掌握的数据进行深入挖掘，并基于分析结果对政府的管理和决策进行改善的一种方法[9]。在大数据时代，政府通过对其掌握的海量数据进行挖掘与分析，可以发现小数据时代难以发现的相关关系和规律，为社会问题的有效解决提供新的思路和新的可能性[10]，并进一步优化政府的决策、管理和服务，推动政府治理效率的提升和政府数据公共价值的创生[11]。",
+    "context2": "大数据的应用可以有效赋能城市治理现代化，提高城市治理水平、驱动城市治理创新。数据是推动城市治理数字化和智慧化的重要基础，而数据在应用中可以释放出更多价值[12]。大数据意味着从“城市管理”走向“城市治理”的技术条件已经具备，大数据的思维和技术为实现城市治理现代化带来新机遇[13]。大数据改变治理主体思维，也变革城市治理模式，推动城市治理能力提升[14]。此外，对城市大数据的实时采集与挖掘分析，有助于精准掌握城市运行的动态，及时把握城市的现状、隐患与问题，并对未来发展情景进行预测和分析[15]。",
+    "context3": "现有研究主要集中于大数据对城市精细化管理[1]、城市公共安全与风险治理[17]、城市灾难事件舆情治理[18]、城市交通管理[19]等领域的作用与价值。尽管大数据在城市治理创新中发挥着重要的作用和价值，但是大数据在赋能城市治理创新的过程中仍存在着问题与阻碍。首先，大数据带来的机遇和挑战并存。政府运用大数据技术进行城市治理面对着多种数据风险，贯穿于数据的收集、储存、分析和应用等全过程之中，面临“数据失真”“数据安全”和“数据依赖”等数据异化现象，给城市治理创新带来了新的问题与挑战[14]。同时，顶层设计的缺失与不完善同样阻碍着大数据的应用[20]。此外，大数据有效赋能城市创新离不开各部门的协同，而“数据孤岛”的存在阻碍着大数据在城市治理领域的有效应用[13]。"
+  },
+  "3政务热线大数据的价值与管理应用": "",
+  "3.1政务热线大数据的价值": {
+    "context1": "大数据是有别于小数据的一种数据类型，往往具有规模上的海量、变动速度上的高频、数据形态上的多样、数据关系的交互、数据价值的丰富等特征[21]。因此，政务热线积累的数据是典型的大数据。首先，政务热线积累的数据是巨量的。其次，政务热线产生的数据是高频变动的，可以接近实时产生数据。再次，政务热线产生的数据主要是音频，但是通过互联网渠道产生的公民诉求则可以是多媒体形态。最后，政务热线是一个枢纽，将市民、热线部门、责任部门、处理单位等主体联系在一起，织就了一张城市治理网络。",
+    "context2": "政务热线大数据是典型的行为或痕迹数据，公民或企业向政府部门主动提出诉求或建议，而政府部门则对此予以回应。政务热线大数据是城市治理的“副产品”，而不是政府部门为了采集数据而采集的数据。因此，将这些政府管理和公共服务过程中沉淀下来的数据加以利用，既可以实现数据价值的再利用，也避免为了城市治理而专门采集数据而产生的成本。",
+    "context3": "以北京市为例，对其政务热线负责人的访谈显示，市民热线服务中心明确了政务热线大数据的五要素，包括人：来电人；地：地区、街区、点位；物：住房；事：问题清单与分类；组织：企业、小区等（访谈资料：BJ20201029）。此外，还有许多其他来源和可以关联的多源异构数据，匹配和整合后将为大数据分析提供有力支撑。例如，将政务热线大数据在时间和空间两个维度上进行投射和透视，据此可以形成对特定区域（细颗粒度）和特定时段（季节、周期等）的问题刻画，并为预测类似问题在未来发生的概率提供依据。政务热线就会变被动为主动，变响应为预警，实现从“接诉即办”到“未诉先办”的实质性转变，并推动城市治理向智能化、精细化、高效化、定制化方向发展。"
+  },
+  "3.2政务热线大数据的治理现状": {
+    "context1": "政务热线的数据治理涉及数据标准、存储、管理、共享与开放、应用、安全等多个方面。我们对87个样本城市和县区进行调查，可以反映城市政务热线的总体状况。问卷由政务热线主管部门和运营单位的负责人填写，为了解政务热线大数据的管理和应用状况提供依据。调查显示，政务热线数据治理的整体水平并不高，不同维度间差异明显（见表1）。",
+    "context2": "表1政务热线数据治理状况[22]  \nTable1Data Governance of Government Hotlines",
+    "context3": "<table><tr><td rowspan=1 colspan=1>数据治理维度</td><td rowspan=1 colspan=1>数据治理指标</td><td rowspan=1 colspan=1>调查现状</td></tr><tr><td rowspan=1 colspan=1>数据标准</td><td rowspan=1 colspan=1>数据采集的规范标准</td><td rowspan=1 colspan=1>89.3%</td></tr><tr><td rowspan=1 colspan=1>数据存储</td><td rowspan=1 colspan=1>数据存储方式</td><td rowspan=1 colspan=1>97.4%</td></tr><tr><td rowspan=4 colspan=1>数据管理</td><td rowspan=1 colspan=1>主数据管理</td><td rowspan=1 colspan=1>78.9%</td></tr><tr><td rowspan=1 colspan=1>元数据管理</td><td rowspan=1 colspan=1>65.8%</td></tr><tr><td rowspan=1 colspan=1>数据质量管理</td><td rowspan=1 colspan=1>78.9%</td></tr><tr><td rowspan=1 colspan=1>数据生命周期管理</td><td rowspan=1 colspan=1>71.1%</td></tr><tr><td rowspan=4 colspan=1>数据共享与数据开放</td><td rowspan=1 colspan=1>热线对其他部门共享数据</td><td rowspan=1 colspan=1>73.7%</td></tr><tr><td rowspan=1 colspan=1>其他部门对热线共享数据</td><td rowspan=1 colspan=1>65.7%</td></tr><tr><td rowspan=1 colspan=1>将数据向社会开放</td><td rowspan=1 colspan=1>62.0%</td></tr><tr><td rowspan=1 colspan=1>建立数据开放制度与规范</td><td rowspan=1 colspan=1>68.9%</td></tr><tr><td rowspan=3 colspan=1>数据应用</td><td rowspan=1 colspan=1>用于优化部门内部管理</td><td rowspan=1 colspan=1>80.6%</td></tr><tr><td rowspan=1 colspan=1>用于改善其他部门业务</td><td rowspan=1 colspan=1>65.7%</td></tr><tr><td rowspan=1 colspan=1>用于辅助地方政府决策</td><td rowspan=1 colspan=1>82.1%</td></tr><tr><td rowspan=1 colspan=1>数据安全</td><td rowspan=1 colspan=1>风险防范和数据安全保护</td><td rowspan=1 colspan=1>87.9%</td></tr></table>",
+    "context4": "标准化是数据有效交换和共享的基本前提，也是电子政务项目成功的重要保障。调查显示， $8 9 . 3 \\%$ 的热线部门建立数据采集规范标准，能够通过问题分类体系对热线数据进行管理。数据存储方式决定存储成本，并影响数据分析和处理效率[23]。超9成的热线部门对采集的数据进行科学存储，包括自建机房、公有云、私有云、混合云等。",
+    "context5": "相比之下，政务热线的数据管理、共享与开放要明显滞后。科学的数据管理能够提高数据的完整性和规范性，有效降低数据管理成本、保障数据质量[24]然而，如表1所示，仅有不足8成的政务热线部门开展规范化的数据管理，如主数据管理、元数据管理、数据质量管理、数据生命周期管理等。政务热线的数据共享和开放是指将其所掌握的数据与其他主体进行交换，并通过一定的授权条件使其他主体能够有效读取数据的过程[25]。然而，仅有7成左右的政务热线部门将数据共享给其他部门，6成左右的政务热线将数据对社会开放。",
+    "context6": "当前，政务热线的数据应用形式比较单一，主要通过日报、周报、专报、月报等方式对数据进行分析，并提交给有关部门进行决策参考。同时，数据分析的水平也不高。绝大多数政务热线的数据分析仍停留在数据统计描述和数据可视化层面，仅有7成左右的样本单位进行数据间的关联分析，有5成左右的开展基于大数据的预测分析（见图1)，超过8成的政务热线部门认为，这些探索和实践在改善热线内部管理、改善其他政府部门管理服务以及改善地方政府决策方面取得了很好的成效，体现出政务热线数据的价值和意义。",
+    "context7": "![](images/e554d2ff1d1c4bf1402147474e6dbcdaac0bb4c0702c55fd243dfd109aaaaa2d.jpg)  \n图1政务热线数据应用效果[22]  \nFig.1Data Application of Government Hotlines",
+    "context8": "数据的共享与开放在一定程度上会增加数据安全和隐私保护风险，对数据滥用和隐私泄露等问题的有效管理与惩戒是数据治理的重要保障[17]。因此，数据安全成为了政务热线数据管理应用的基石。数据显示， $8 7 . 9 \\%$ 的热线部门建立了数据安全与风险防范机制，用于应对突发事件并保护市民隐私[22]。虽然这个比例在逐年攀升，但距离有效保护政务热线的数据安全以及公众的隐私还有一定距离。"
+  },
+  "4政务热线大数据在城市治理创新中的应用": "",
+  "4.1政务热线大数据何以赋能城市治理创新": {
+    "context1": "无论是常态化城市管理还是城市风险治理，政务热线大数据都可以提供不可多得的资源[2]。如前所述，政务热线大数据对每一个工单建立了人、地、物、事、组织等维度的数据，而将这些数据汇聚在一起，则会形成一个“富矿”，为城市治理创新提供了许多可能。",
+    "context2": "首先，政务热线大数据本身就可以用于城市治理创新，特别是将具体工单数据汇聚到不同层面或维度，可以为问题诊断、决策、政策评估和绩效管理等提供参考依据。美国的CitiStat就是使用政务热线数据来对市直部门绩效进行考核和管理[4]，北京的“接诉即办”基于政务热线数据对政府绩效进行量化考核[6-7]。",
+    "context3": "其次，政务热线大数据同其他部门的数据结合可以使政务热线大数据的价值呈几何级增长，并为城市治理创新提供更多的可能[2]。将政务热线工单对应的人、地、物、事、组织等维度同其他部门进行匹配，可以获取这些部门在这些维度的数据，进而为识别这些维度可能存在的问题提供线索。",
+    "context4": "最后，政务热线大数据开放将吸引企业、学术机构、非营利组织等利益相关者的参与，而他们可以进行商业开发、学术研究和政策咨询，并为城市治理创新提供更多可能。相对来说，政府部门掌握的数据往往得不到最有效的使用，而将其开放以后所带来的影响则是难以估量的。"
+  },
+  "4.2赋能城市管理能力提升": {
+    "context1": "政务热线大数据可以用于常态化的城市管理，提升城市治理能力。由于政务热线的话务量较大，有关一些常规政策领域的话务量如果出现异常波动，就会提示存在值得关注的问题，并为决策部门提前研判争取时间。通过比对不同部门之间的数据，政务热线还可以有助于发现问题的根源和线索，从而为提出解决问题的政策方案提供启示。",
+    "context2": "例如，共享汽车由于行业尚未成熟、经营不够规范等诱发一系列问题，为城市管理带来新挑战。2019年，广州市12345政务热线注意到，共享汽车相关问题工单剧增，主要集中在押金退款问题，该问题引发群体事件，亟需政府相关部门的介入和及时回应。通过对工单数据的分析及时发现共享汽车领域的潜在隐患，防止了群体性事件的发生。"
+  },
+  "4.3改善城市风险治理": {
+    "context1": "城市风险治理特别是全生命周期管理的重要性毋庸置疑，而政务热线大数据在优化城市风险治理当中发挥了积极的作用。政务热线积累的海量数据能够对区域性或季节性较强的问题进行提前预警，并为风险治理提供精准制导和准备时间。例如台风、暴雨等常规性自然灾害往往具有较强的季节性，而政务热线往往是市民最早联系求助的渠道之一。一旦能够将历史话务量进行建模和预测，就能够为应急管理争取时间和提前发出预警。",
+    "context2": "北京市在2012年7月21日遭遇历史罕见的特大暴雨，全市79人遇难。气象预报较早，但是应急响应不够。汲取“7.21”北京特大暴雨的教训，北京市政务热线专门开发了暴雨预警响应机制，能够根据与暴雨相关的话务量波动来进行提前介入。",
+    "context3": "2020 年7月7日，贵州省安顺市一辆公交车的司机饮酒后开车坠湖，导致21死、15伤。这名驾驶员曾向政务热线投诉表达不满，但是没有得到满意答复，话务员也未能觉察他恶意报复社会的倾向。假如政务热线可以提前判定这名驾驶员的个人信息，并及时发现问题，那么就可以挽救许多人的生命。"
+  },
+  "5存在问题与改善建议": "",
+  "5.1政务热线大数据分析存在的主要问题": {
+    "context1": "虽然问卷调查呈现政务热线数据治理较为乐观的状况，但是调研揭示另一种值得关注的景象。总体来看，政务热线主管部门和运营单位对大数据分析的认识还停留在初始阶段，尚未充分认识到政务热线大数据所蕴含的城市治理价值[27]。本文从数据治理能力角度来加以探讨。数据治理能力包括对数据的管理与分析应用能力，也包括支撑这一能力的资源配置与管理机制。“显性”的数据管理与分析应用能力是核心，“隐形”的资源配置与管理机制则是基础。",
+    "context2": "首先，数据分析应用能力依旧停留在初步的、描述层面的“数据可视化”，主要是对城市治理问题在时空分布上的描述，但并没有给出解释性的参考以及决策支撑，其价值是十分有限的。对某地政务热线负责人的访谈显示，对于所谓的“大数据”，多数政务热线工作人员仍然是局限于为“大领导”准备的“大屏幕”所呈现的“大统计数据”（访谈资料：GZ20201222），还远未将政务热线大数据的价值进行充分挖掘。如果访问政务热线运营单位，在其接待大厅或指挥中心都可以看到实时变动的大屏幕，上面会显示政务热线的相关运行数据，比如不同地区、时段、领域的话务量，以及反映热线效率的接通率、响应率、解决率、满意率等指标。但是，政务热线大数据的使用仅限于可视化，还远未得到更为深层次的利用，更无法为城市治理提供问题诊断和决策参考。",
+    "context3": "第二，不具备对政务热线数据进行“大数据分析”的能力，数据价值难以有效挖掘。目前各地政府部门对于政务热线大数据的分析还停留在将大数据“小数据化”的层面，即将高价值的大数据压缩为结构化的小数据，通过描述性统计分析和多变量统计分析进行呈现，而没有用大数据分析方法（如更为复杂和智能的算法）对政务热线大数据进行分析。从政务热线运营单位报送的日报、周报、月报等数据报告来看，这种情况非常普遍。这同热线部门的大数据分析能力欠缺有关，也同领导干部的阅读习惯有关。数据挖掘、分析技术等的缺失，使得对数据深入有效的分析难以实现[28]，这也使得政务热线大数据的真正价值得不到释放，十分丰富的数据被高度浓缩，并使一些数据背后隐含的信息被掩盖和忽视。",
+    "context4": "第三，政务热线数据有效挖掘与分析所需的多维度资源投入不足。政务热线主管部门和运营单位往往采购了企业开发的软件、管理信息系统等解决方案，但是在实际运用时则无法满足大数据分析的真实需求。调查显示，各地政务热线的财政投入力度越来越多，但是大量经费耗费在话务员的薪酬方面，而用于大数据分析的技术投入则捉襟见肘。政府有必要提供大数据的专项资金，推动技术问题的有效攻克和解决[29]。数据显示，政务热线人员结构中 $7 5 \\%$ 的是话务员， $19 \\%$ 的是其他人员，只有 $6 \\%$ 的是大数据相关技术人员，大数据分析的人力资源远远不够[22]。专业大数据技术人员的缺失，使得政府面对海量的数据却无法有效挖掘和分析价值[28]。访谈显示，企业开发的封装软件或定制化解决方案还没有换位思考、设身处地和因地制宜地从政务热线本身出发，往往得不到热线部门的实质性使用，大数据分析需求也得不到真正满足（访谈资料：QN20201222）。",
+    "context5": "第四，政务热线数据管理与分析应用所需的管理机制不够完善。政务热线大数据可以实现许多方面的城市治理创新，并推动基于政务热线的政府创新和城市治理效能提升。但是，政务热线要想推动城市治理创新，就需要加快数据开放与共享。然而，目前数据共享面临体制机制与技术上的双重制约障碍，数据孤岛、数据烟囱等问题仍然严重[30]。目前政务热线主管部门和运营单位的隶属关系五花八门，使其同其他部门进行数据共享时面临较大障碍。数据显示，热线主管部门有 $4 5 . 3 \\%$ 的是市委市政府及其下属部门， $3 4 . 7 \\%$ 的是政务服务数据管理局， $12 \\%$ 的是行政审批局， $8 \\%$ 的是其他部门。在政务热线运营单位中， $3 5 . 1 \\%$ 的是事业单位， $2 8 . 4 \\%$ 的是政府部门， $3 3 . 8 \\%$ 的是国有企业，还有 $2 . 7 \\%$ 的是其他部门。由于政务热线主管部门和运营单位的行政级别不高，部门类型多样，这使其在协调其他职能部门方面力有不逮，难以真正推动政务热线大数据同其他部门数据进行整合。尽管调查显示数据共享和开放的比例较大，但是热线部门所理解的数据共享和开放还停留在信息公开层面，尚未达到可机读、细颗粒度、标签识别等程度的数据共享和开放，因此也难以实现数据的深层次利用。"
+  },
+  "5.2政务热线大数据在赋能城市治理创新方面存在不足": {
+    "context1": "城市风险治理和城市管理对政务热线大数据分析提出了更高的要求，需要构建数据治理的系统性闭环来支撑城市风险治理能力和城市管理水平。这不仅包括数据的全面、及时、准确的采集与精细化管理，也包括对数据的有效分析并合理地应用到治理的各个环节当中。此外，相关管理机制与流程的优化、数据安全保障等也是其重要构成。然而，政务热线大数据分析在改善城市治理水平和风险治理能力方面还存在许多不足。在疫情防控期间，政务热线发挥的主要作用是谣言澄清、信息反馈、心理安抚等，而在舆情预警、问题关联、决策辅助等方面的作用还有待提升。在风险预警方面，目前政务热线大数据分析还没有开发成熟的功能模块，对于典型城市风险的预警还没有形成专门的业务模式。而在城市治理方面，热线的分析和应用程度仍有待提高",
+    "context2": "究其原因，有以下几个方面。首先，当前政务热线的职责定位主要是回应公众和企业咨询与诉求，依旧停留在政务服务渠道上，而非可以有效赋能城市治理的政务大数据管理应用中心。这一定位的局限性制约地方政府为政务热线所提供的行政、人力和财力等资源投入。第二，政务热线部门不具备大数据管理和分析应用能力，导致政务热线数据质量不高、数据分析水平较低、分析结果应用效果不佳等问题，制约大数据在城市治理当中价值的发挥。第三，政务热线与其他部门间的数据共享不足，影响其在治理中的有效应用。政务热线的数据多为“需求”数据，反映公众和企业关心并期待政府解决的问题。这些数据反映的是“结果”，只有与其他部门进行有效的数据共享与协同才能有效探讨问题背后的原因机制，并为问题的解决提供更加准确的方案与建议。最后，数据分析结果在治理中的应用需要配套的完善机制，然而当前这些是缺失的，没能为数据的有效分析应用提供体系化的制度支持，制约数据的分析与应用效果。"
+  },
+  "5.3改善城市治理创新中政务热线大数据应用的建议": {
+    "context1": "目前政务热线积累了大数据，但是大数据分析还远未得到充分利用。大数据和大数据分析之间横亘的一道鸿沟，使政务热线大数据的潜在价值尚未得到释放，也制约了政务热线对城市治理创新的助推作用。政务热线的大数据分析意味着要将政务热线产生的大数据进行挖掘、分析与利用，而不是停留在小数据层面的简单分析。要想使政务热线大数据能够得到重视、分析和利用，就需要在如下方面进一步改进。",
+    "context2": "首先，明确的战略对大数据治理发挥着重要的保障和引领作用[2]。政务热线应得到城市管理高层在战略上的高度关注，才能推动政务热线大数据同其他大数据的共享共用，并为进一步透视城市治理问题和提炼城市治理解决方案提供机会。这意味着政务热线要能够提供重要、新颖、预警的信息（比如问题、舆情、危机），并通过政务热线凸显战略问题，引起城市管理决策者的高度重视，并体现政务热线的城市治理价值[31]。",
+    "context3": "其次，大数据分析技术和分析能力是政府对数据进行有效挖掘与分析的基本前提[28]。要进一步提升政务热线主管部门和运营单位的大数据分析能力，使其能够将政务热线大数据进行更加深入全面的分析和利用。目前政务热线沉淀和积累的海量数据为城市治理提供了“富矿”，但是政务热线管理部门还没有为城市治理做好准备[8。主管部门要进一步加快部门职能转变，实现从非紧急热线到紧急热线、从业务管理到城市治理的职能转变。与此同时，工作人员在大数据分析方面的能力欠缺，这使其尚无法适应大数据时代的管理工作[2]。为此，应加快大数据分析人才的培育和引入，使工作人员能够具备基本的大数据分析素养，并可以指导相关业务部门开发大数据分析功能模块。",
+    "context4": "再次，数据共享与数据开放有助于解决数据冗余、提高数据存储质量、减少重复劳动的时间精力和费用[25]。要进一步加快政务热线大数据的融合、共享和开放，使其发挥更大的城市治理作用。政务热线本身的大数据是富有价值的，但是要想实现多维分析和深度利用，那么还需要同其他来源的数据进行交换和整合。比如，美国纽约市等城市推动建立全市建筑物、企业和公民个人的唯一标识系统，并将其同政务热线数据相互交换，方便各个部门对其进行跟踪，为精准定位和预测提供依据[2]。",
+    "context5": "最后，政务热线主管部门要进一步加强跨部门协同，特别是与大数据管理部门进行数据互联与业务对接，对政务热线大数据进行更深入的挖掘、分析与利用[33]。要持续提升大数据分析能力，特别是与企业、学术机构加强合作，推动产学研相结合[28]，推动政务热线大数据的社会开放与开发利用。目前多地政府举办政府数据开放大赛，而互联互通的数据激发奇思妙想并推动政策创新。唯有如此，才能使沉睡的政务热线大数据得到更为广泛而深入的分析，实现城市治理从“用户画像”到“城市画像”“部门画像”“政策画像”的多维呈现，为决策者提供更加高质量的参考信息。"
+  },
+  "6结语": {
+    "context1": "大数据及其相关技术在城市治理创新中发挥着越来越重要的作用，不仅改善了政府对问题的识别、分析和应对能力，而且提升了政府、市场、社会等协同治理水平。经过三十多年的发展，政务热线不断转型发展，在传统话务服务平台的基础上被赋予了新的角色，逐渐成为政府了解民生诉求和感知城市发展的“数据中心”。与此同时，政务热线所汇集的海量数据对改善城市治理而言有着重要的价值。本文对政务热线大数据驱动的城市治理创新进行了初步研究，但是还有许多值得关注的问题需要进一步研究。",
+    "context2": "首先，我们对政务热线大数据的利用状况进行整体分析，但是不同城市的发展状况参差不齐，政务热线大数据分析能力背后的驱动因素和作用机制等问题有待进一步研究。其次，政务热线大数据分析的潜力还没有得到充分发挥，而这方面的案例研究有待于更进一步地深入。最后，政务热线大数据涉及市民的个人隐私，在进行数据共享、开放和分析时需要注意隐私保护和数据安全。"
+  },
+  "作者贡献说明": {
+    "context1": "马亮：确定选题，论文撰写与修改;  \n郑跃平：论文框架指导，论文修改；  \n张采薇：资料收集，论文修改。"
+  },
+  "支撑数据": {
+    "context1": "支撑数据由作者自存储,Email:zhengyp8@mail.sysu.edu.  \ncn。",
+    "context2": "1郑跃平.1203-问卷数据.xlsx.问卷调查数据."
+  },
+  "参考文献": {
+    "context1": "[1]郑跃平，梁春鼎，黄思颖.我国地方政府政务热线发展的现 状与问题一基于28个大中城市政务热线的调查研究[J]. 电子政务,2018(12):2-17.（Zheng Yueping,Liang Chunding， Huang Siying.The Status and Problems of Local Government Hotlines in China：A Survey of 28 Cities[J].E-Government, 2018(12):2-17.)",
+    "context2": "[2]史蒂芬·戈德史密斯，苏珊·克劳福德.数据驱动的智能城市[M].杭州：浙江人民出版社，2019.(Goldsmith S，Craw-ford S.The Responsive City：Engaging Communities ThroughData-Smart Governance[M].Hangzhou：Zhejiang People'sPublisher，2019.)",
+    "context3": "[3]马亮.大数据时代的政府绩效管理[J].理论探索，2020(6)：14-22.(Ma Liang.Government Performance Management in theEra of Big Data[J].Theoretical Exploration,2020(6):14-22.)",
+    "context4": "[4]Jakobsen M,James O,Moynihan D,et al. JPART Virtual Issue on Citizen-State Interactions in Public Administration Research [J/OL].Journal of Public Administration Research and Theory，2016,29(4):e8-e15.https://academic.oup.com/jpart/ article-abstract/29/4/e8/2629269.",
+    "context5": "[5]Behn R．The PerformanceStat Potential:A Leadership Strategy for Producing Results[M].Washington，DC：Brookings Institution Press，2014.",
+    "context6": "[6]马亮．数据驱动与以民为本的政府绩效管理：北京市“接诉即办”的案例研究[J].新视野，2021(2):50-55.(Ma Li-ang.Data-driven and People-oriented Government Perform-ance Management：Case Study Based on Beijings“Action onRequest”[J].Expanding Horizons，2021(2)：50-55.)",
+    "context7": "[7]王程伟，马亮.绩效反馈何以推动绩效改进一北京市“接诉即办”的实证研究[J].中国行政管理,2020(11)：117-125.(Wang Chengwei,Ma Liang.How Does Performance FeedbackImpact Performance Improvement—Evidence from the Caseof “Sue for Action”in Beijing[J].Chinese Public Administra-tion,2020(11):117-125.)",
+    "context8": "[8]郑跃平，甘祺璇，张采薇，等.地方政府数据治理的现状与问题一基于43个政务热线部门的实证研究[J].电子政务，2020(7):66-79.(Zheng Yueping,Gan Qixuan,Zhang Caiwei.The Status and Problems of Data Governance in China's Lo-cal Government:An Empirical Study of 43 Government HotlineAgencies[J].E-Government，2020(7):66-79.)",
+    "context9": "[9]马海韵，杨晶鸿.大数据驱动下的公共治理变革：基本逻辑和行动框架[J].中国行政管理,2018(12):42-46.（Ma Haiyun,Yang Jinghong.Public Governance Change Driven by Big Data:Basic Logic and Action Framework[J].Chinese Public Administra-tion,2018(12):42-46.)",
+    "context10": "[10]郭建锦，郭建平.大数据背景下的国家治理能力建设研究[J].中国行政管理,2015(6):73-76.(Guo Jianjin，Guo Jian-ping.Study on the Construction of National Governance Ca-pacity Under the Background of Big Data[J].Chinese PublicAdministration，2015(6)：73-76.)",
+    "context11": "[11]郭斌，蔡静雯.基于价值链的政府数据治理：模型构建与实现路径[J].电子政务,2020(2):77-85.(Guo Bin,Cai Jingwen.Government Data Governance Based on the Value Chain:Modeland Path[J].E-Government,2020(2):77-85.)",
+    "context12": "[12]张会平.面向公共价值创造的城市公共数据治理创新[J].行政论坛,2020,27(1)：130-136.（Zhang Huiping.Research onUrban Public Data Governance Innovation from the Perspective ofPublic Value Creation[J].Administrative Tribune,2020,27（1)：130-136.)",
+    "context13": "[13]张鸣春.从技术理性转向价值理性：大数据赋能城市治理现代化的挑战与应对[J].城市发展研究，2020,27(2)：97-102.(Zhang Mingchun.From Technical Rationality to Value Ration-ality：The Challenge and Response of Big Data Enabling Ur-ban Governance Modernization[J].Urban Development Stud-ies，2020，27(2):97-102.)",
+    "context14": "[14]陈万球，石惠絮.大数据时代城市治理：数据异化与数据治理[J].湖南师范大学社会科学学报，2015,44(5)：126-130.(Chen Wanqiu，Shi Huixu.City Governance in the Age of BigData：Alienation of Data and Data Management[J].Journal ofSocial Science of Hunan Normal University，2015，44（5）：126-130.)",
+    "context15": "[15]曹阳，甄峰，席广亮.大数据支撑的智慧化城市治理：国际经验与中国策略[J].国际城市规划,2019,34(3):71-77.(CaoYang,Zhen Feng,Xi Guangliang.The Intelligent Urban Govern-ance Based on Big Data: International Experience and ChinaStrategy[J].Urban Planning International,2019,34（3)：71-77.）",
+    "context16": "[16］张锋.以智能化助推城市社区治理精细化研究一基于上海杨浦区控江路街道的实证分析[J].城市发展研究，2019,26(3):6-9.(Zhang Feng.Intelligent Promotion of Fine Researchon Urban Community Governance：Empirical Analysis Basedon the Street of Kongjiang Road Jiedao，Yangpu District,Shanghai[J].Urban Development Studies,2019,26(3):6-9.)",
+    "context17": "[17］曹策俊，李从东，王玉，等.大数据时代城市公共安全风险治理模式研究[J].城市发展研究，2017，24(11)：76-82.(CaoCejun,Li Congdong,Wang Yu,et al.Governance Mode of Ur-ban Public Safety Risk in Big Data Era[J]. Urban Develop-ment Studies,2017,24(11):76-82.)",
+    "context18": "[18]潘玉，陈虹.基于大数据的城市灾难事件舆情治理研究与路 径转向[J].新闻大学,2019(5):87-98.(Pan Yu，Chen Hong. Public Opinion Governance and Good Governance Path of City Disaster Events Based on Big Data[J].Journalism Research, 2019(5):87-98.)",
+    "context19": "[19]王振坡，朱丹，宋顺锋，等.时间价值、移动互联及出行效率:一个城市交通拥堵治理的分析框架[J].学习与实践，2016(12):38-46.（Wang Zhenpo，Zhu Dan，Song Shunfeng,et al.Time Value，Mobile Internet and Commuting Efficiency:",
+    "context20": "A Framework of Urban Traffic Congestion Governance[J]. Study and Practice,2016(12):38-46.)",
+    "context21": "[20]赵发珍，王超，曲宗希.大数据驱动的城市公共安全治理模式研究- 一个整合性分析框架[J].情报杂志，2020，39(6)：179-186.（Zhao Fazhen，Wang Chao，Qu Zongxi．BigData-driven Urban Public Safety Governance Model：An Inte-grated Analysis Framework[J].Journal of Intelligence，2020，39(6):179-186.)",
+    "context22": "[21］马亮.公共部门大数据应用的动机、能力与绩效：理论述评与研究展望[J].电子政务，2016(4)：62-74.(Ma Liang.TheMotives，Capacity，and Performance of Big Data Utilization inPublic Sector：Theoretical Review and Research Prospect[J].E-Government，2016(4):62-74.)",
+    "context23": "[22]郑跃平.2020年政务热线发展研究报告[R].广州：中山大学数字治理研究中心,2020.(Zheng Yueping.Report of Govern-ment Hotline Development 2020[R].Guangzhou:Center forDigital Governance,Sun Yat-sen University,2020.)",
+    "context24": "[23]李国杰，程学旗.大数据研究：未来科技及经济社会发展的重大战略领域—大数据的研究现状与科学思考[J].中国科学院院刊,2012,27(6):647-657.(Li Guojie,Cheng Xueqi.Research Status and Scientific Thinking of Big Data[J].Bulle-tin of Chinese Academy of Sciences,2012,27(6):647-657.)",
+    "context25": "[24]杨琳，高洪美，宋俊典，等.大数据环境下的数据治理框架研究及应用[J].计算机应用与软件，2017，34(4)：65-69.(Yang Lin，Gao Hongmei,Song Jundian，etal．Research andApplication of Data Governance Framework in Big Data Envi-ronment[J].Computer Applications and Software，2017，34(4):65-69.)",
+    "context26": "[25]明欣，安小米，宋刚.智慧城市背景下的数据治理框架研究[J].电子政务,2018(8):27-37.（Ming Xin,An Xiaomi,SongGang.Data Governance Framework in the Context of SmartCity[J].E-Government,2018(8):27-37.)",
+    "context27": "[26]翟云.中国大数据治理模式创新及其发展路径研究[J].电子政务，2018(8)：12-26.(Zhai Yun．Research on Model Inno-vation and Development Path of Big Data Governance in China[J].E-Government,2018(8)：12-26.)",
+    "context28": "[27]马亮.大数据治理：地方政府准备好了吗？［J].电子政务，2017(1)：77-86.(Ma Liang.Big Data Governance：Are LocalGovernments Prepared?[J].E-Government,2017(1):77-86.)",
+    "context29": "[28]王山.大数据时代中国政府治理能力建设与公共治理创新[J].求实，2017(1)：51-57.（Wang Shan.Research on Gov-ernance Ability Building and Public Governance Innovation ofChinese Government in the Era of Big Data[J].Truth Seeking,2017(1):51-57.) （下转第24页）",
+    "context30": "[J].Chongqing Social Sciences,2015(4):13-17.)",
+    "context31": "[36]Teece,D J.Dynamic Capabilities：Routines Versus Entrepreneurial Action[J].Journal of Management Studies,2012,49（8）： 1395-1401.",
+    "context32": "[37］Teece，D J.A Dynamic Capabilities-Based Entrepreneurial Theory of the Multinational Enterprise[J].Journal of International Business Studies，2014，45(1):8-37.",
+    "context33": "[38]Egeberg M.How Bureaucratic Structure Matters:An Organizational Perspective.In B.G.Peters and J.Pierre(eds.)[M]. Handbook of Public Administration.London:Sage,2003.",
+    "context34": "[39]叶林，侯雪莹.互联网背景下的国家治理转型：科层制治理的式微与重构[J].新视野，2020(2):74-80.(Ye Lin,Hou Xuey-ing.National Governance Transformation in the Context of theInternet：Decline and Reconstruction of Bureaucracy Govern-ance[J].Expanding Horizons，2020(2):74-80.)",
+    "context35": "[40］陈新.互联网时代政府回应能力建设研究一基于现代国家治理的视角[J].中国行政管理，2015(12):61-63.(Chen Xin.On Government Response Capacity in the Internet Age:Basedon the Perspective of Modern State Governance[J].ChinesePublic Administration，2015(12):61-63.)",
+    "context36": "[41］吴善鹏，李萍，张志飞.政务大数据环境下的数据治理框架设计[J].电子政务,2019(2):45-51.(Wu Shanpeng，Li Ping,Zhang Zhifei.Design of Data Governance Framework in theContext of Government Big Data[J].E-Government，2019(2)：45-51.)",
+    "context37": "[42]谈天，钟鹤翔.基于PDCA理论的公共信用信息系统全面数据质量管理模型研究[J].信息系统工程，2017(2)：103-106.(Tan Tian,Zhong Hexiang.Research on Comprehensive Data Quali-ty Management Model of Public Credit Information System Based onPDCA Theory[J].China ClO News,2017(2):103-106.)",
+    "context38": "[43]杨青云，赵培英，杨冬青，等.数据质量评估方法研究[J].计算机工程与应用，2004(9):3-15.(Yang Qingyun,Zhao Peiy-ing，Yang Dongqing，et al.Research on Data Quality AssessmentMethodology[J].Computer Engineering and Applications,2004(9)：3-15.)",
+    "context39": "[44]李政，洪莹.基于隐私保护的政府大数据治理研究[J].大数 据,2020,6(2):69-82.(Li Zheng,Hong Ying.Study on Big Data Management for Government Based on Privacy Protection [J].Big Data Research,2020,6(2):69-82.)",
+    "context40": "[45]洪亮，李雪思，周莉娜.领域跨越：数据挖掘的应用和发展趋势 [J].图书情报知识,2017(4):4,22-32.(Hong Liang,Li Xuesi, Zhou Lina.Cross-domain Applications and Development Trend of Data Mining[J].Documentation,Information & Knowledge, 2017(4):4,22-32.)",
+    "context41": "[46]朱晓峰.论政府信息资源生命周期管理[J].中国图书馆学报,2006(3):70-73.(Zhu Xiaofeng.On the Life Cycle Manage-ment of Government Information Resources[J].Journal of Li-brary Science in China,2006(3):70-73.)",
+    "context42": "[47]黄如花，周晓英，王贤文，等.数据信息新探索新实践[J].图 书情报知识,2020(5):122-137.（Huang Ruhua,Zhou Xiaoying,Wang Xianwen,et al.New Exploration and Practice of Data and Information Studies[J].Documentation,Information & Knowledge，2020(5):122-137.)",
+    "context43": "（收稿日期：2020-11-07）"
+  },
+  "（上接第12页）": {
+    "context1": "[29]何欣峰.大数据时代的政府治理分析[J].郑州大学学报（哲学社会科学版),2015,48(6):26-29.（He Xinfeng.GovernmentGovernance Analysis in the Era of Big Data[J].Journal ofZhengzhou University（Philosophy and Social Sciences Edi-tion),2015,48(6):26-29.)",
+    "context2": "[30］明承瀚，徐晓林，陈涛.政务服务数据共享研究一以武汉市为例[J].电子政务,2018(1)：14-21.（Ming Chenghan,Xu Xia-olin,Chen Tao.Data Sharing of Government Services：A CaseStudy of Wuhan[J].E-Government，2018(1):14-21.)",
+    "context3": "[31]郑跃平，马晓亮.利用政务热线数据推动智慧治理建设-以广州政务热线为例[J].电子政务,2018(12)：18-26.（ZhengYueping,Ma Xialiang.Smart Governance Promotion with Gov-ernment Hotline Data：A Case Study of Guangzhou[J].E-Gov-ernment，2018(12)：18-26.)",
+    "context4": "调查研究[J].广西师范大学学报（哲学社会科学版)，2020，56(2)：34-44.（Ma Liang.Civil Servants’Information Technol-ogy Capacity and the Construction of Digital Government：Evi-dence from a Nationwide Survey of Urban China[J].Journal ofGuangxi Normal University(Philosophy and Social Sciences E-dition)，2020，56(2)：34-44.)",
+    "context5": "[33]杨学敏，刘特，郑跃平.数字治理领域公私合作研究述评：实践、议题与展望[J].公共管理与政策评论，2020，9(5)：3-18.（Yang Xuemin,Liu Te,Zheng Yueping.Review of Public-private Partnership Research in Digital Governance：Practice,Issues and Prospects[J].Public Administration and Policy Re-view，2020，9(5)：3-18.)",
+    "context6": "[34]Meng T,Yang Z.Variety of Responsive Institutions and Quality of Responsiveness in Cyber China[J].China Review,2020,20 (3):13-42.",
+    "context7": "[32]马亮.公务员的信息技术能力与数字政府建设：中国城市的",
+    "context8": "（收稿日期：2020-11-07）"
+  }
+}

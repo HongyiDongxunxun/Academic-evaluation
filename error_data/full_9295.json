@@ -1,0 +1,107 @@
+{
+  "original_filename": "full_9295.md",
+  "虚拟国际规范文档(VIAF)项目进展": "",
+  "崔春毕强": {
+    "context1": "滴要 对虚拟国际规范文档项目(VIAF)的进展进行梳理总结,介绍其起源、目标、发展历程、数据生成过程、面向终端用户的界面功能;梳理其在重要的网络服务项目如国际标准名称标识符(ISNI)、维基百科、社会网络与档案文本项目（SNAC)中的应用现状，并认为我国应从以下几方面加强我国的名称规范工作：尽快加入VIAF以在全球范围内共享中文规范数据资源、整合少数民族规范数据并构建国家虚拟规范文档、整合书目数据以外的名称资源。",
+    "context2": "送键词 VIAF 虚拟国际规范文档 关联数据 名称规范",
+    "context3": "份类号G254",
+    "context4": "DOI: 10. 13266/j. issn. 0252 -3116.2014. 06.022"
+  },
+  "1引言": {
+    "context1": "语义网的构建有两种方式：一是通过标记现有文档中的信息，实现现有文档中信息的相互链接;二是在网络上发布数据集。图书馆文献编目工作积累了大量书目数据和规范数据，因此第二种方式为图书馆界所关注。鉴于名称(人名、团体名称、地名)是语义网环境中的明显链接点，语义网环境下不仅需要大量规范名称数据资源(因为重名、名称变更等现象的存在，人名、团体名称、地名等数据本身不具有唯一识别性)，而且所有名称资源都需具备一个统一资源标识符，因此,用统一标识符来取代规范标目是整合规范数据的重要路径。对不同国家图书馆积累的规范文档进行整合，不仅可以解决语义网环境下开放共享数据的问题，同时也可以解决书目记录和规范记录相互链接的问题。",
+    "context2": "由OCLC牵头的虚拟国际规范文档（VirtualInternational AuthorityFile,VIAF)项目是解决名称规范问题的有益尝试，目前VIAF数据已成为关联数据云图中最大的规范名称数据集。2006年，学者顾犇曾编译《虚拟国际规范文档一连接德国国家图书馆和美国国会图书馆的规范文档》一文,此后VIAF虽散见于国内学者关于名称规范进展的一些研究中，但国内尚无专门梳理虚拟国际规范文档的文献出现,因此,本文拟对虚拟国际规范文档项目进展做系统梳理，以期为我国的名称规范工作提供有益的后示。"
+  },
+  "2 VIAF( 虚拟国际规范文档)项目进展": "",
+  "2.1VIAF起源及目标": {
+    "context1": "VIAF这一概念是由美国国会图书馆、德国国家图书馆和OCLC3个大型机构在2003年柏林国际图联世界图书馆和信息大会上提出的。会议上三方达成共识:要开发一个个人名称虚拟规范文档，再逐步扩展到团体名称和地名规范。目前,该项目是由OCLC负责、若干国家图书馆和个别地区、跨国图书馆机构共同合作的联合项目,其功能在于提供世界上主要名称规范文档的便捷获取服务。VIAF为每一条记录都分配了一个唯一标识符，且从每一条记录都可以链接到由合作机构维护的文档。VIAF不仅有助于使图书馆界以更低的成本维护规范文档，也使其应用范围拓展到了图书馆以外的领域。",
+    "context2": "VIAF的发展目标是： $\\textcircled{1}$ 将各个国家图书馆的规范文档与指定实体的所有规范文档(包括国家层面和地区层面)链接起来，将每一实体的所有相关规范文档形成一个记录集。 $\\textcircled{2}$ 通过两种方式扩展统一书目控制的概念:一是允许国家和区域规范形式的变体同时存在;二是支持使用某一偏好语言的变体、脚本和拼写的需求。VIAF不仅让图书馆通过网络进行实体身份确认，还可"
+  },
+  "崔春，毕强.虚拟国际规范文档(VIAF)项目进展": {
+    "context1": "[2] Online Computer Library Center.Virtual international authority file [EB/OL]．[2013-12-25] .http://www.oclc.org/viaf.en. html.   \n[3]Online Computer Library Center.A brief history [EB/OL]．[013 -12-25].http://www.oclc.org/viaf/history.en.html.   \n[4]顾犇.虚拟国际规范文档—连接德国国家图书馆和美国国会 图书馆的规范文档.国家图书馆学刊,2006(4):87-90.   \n[5]Online Computer Library Center.VIAF contributor institutions [EB/ O1]．[013-12-25] .http://www.oclc.org/viaf/contributors. en. html.   \n[6]OCLC 2013 annual report to VIAF council [EB/OL]．[2013 -12 -25] .htp://www.oclc.org/content/dam/oclc/events/2013 /viaf - council/OCLC-2013-VIAF- Annual -Report- to-VIAFCouncil. docx.   \n[7]Hickey T.The virtual international authority file [EB/OL]．[2013 - 12- 25]．http://www.oclc.org/content/dam/research/ presentations/hickey/ala -2009 -cdg-wess. ppt.   \n[8]Klein M,Kyrios A.VIAFbot and the integration of library data on wikipedia [J/OL].Code4lib,2013（22）．[2013－12- 25]. http://journal.code4lib.org/articles/8964.   \n[9]Wikipedia．Margaret Mitchell [EB/OL]．[2013-12－ 25]. http://en.wikipedia.org/wiki/Margaret_Mitchell/.   \n[io]Virtual international authority files [EB/OL]．[2O13-12-25]. http://www.viaf.org/processed/WKP|Margaret_Mitchell.   \n[1]International standard name identifier [EB/OL]．[2O13 -12- 25] .http://www.isni.org.   \n[12]MacEwana A，Angjelib A，Gatenbyc J. The international standard name identifier(ISNI)：The evolving future of name authority control $\\mathbb { I }$ .Cataloging& Classification Quarterly,2013(1-3)：55 -71.   \n[13]Social networksand archival context project EB/O1]．[2013 -12 -25].http://socialarchive.iath.virginia.edu/images/SAA_2012 _Larson. pdf.   \n[14] The social networks and archival context project: Status report EB/ O1]．[013-12-25].http://socialarchive.iath.virginia.edu/ images/SAA_2012_Larson. pdf.   \n[5]Larson R R,Janakiraman K. Connecting archival collections: The social networks and archival context project [] .Lecture Notes in Computer Science,2011(6966) :3 -14.   \n[6]郝嘉树,王广平.中文人名规范的语义描述与关联探讨[.图 书情报工作,2012,56(14):47 -51."
+  },
+  "2.2 VIAF历史": {
+    "context1": "1998年美国国会图书馆、德国国家图书馆、OCLC3家机构决定开展一个测试连接彼此的个人名称规范记录的项目，并在2003年由德国主办的第69届IFLA大会上正式签署了协议,即成立VIAF联盟,这也是首次正式提出VIAF概念。2007年,法国国家图书馆正式加入VIAF联盟,与原有3家成员机构明确了各自在VIAF中承担的责任:OCLC主管VIAF并提供软件;其他参与机构提供规范和书目数据内容。其他在后期加入联盟的组织作为贡献者，提供来源文档和经验来共同推动VIAF的发展。2007年后,陆续有其他国家图书馆及相关机构加入VIAF。2010年,VIAF制定了长期组织计划,各成员机构经讨论后同意将VIAF移交给OCLC服务来保管，并在2011年讨论了移交细节,决定在2012年正式移交OCLC。2012年,VIAF正式成为OCLC的一项可访问服务。2012年5月起,任何用户均可以从VIAF网站上免费下载VIAF数据集。",
+    "context2": "VIAF项目最初计划分5个阶段,如表1所示：",
+    "context3": "表1VIAF项目原计划的5个阶段",
+    "context4": "<table><tr><td>阶段</td><td>内容</td><td>备注</td></tr><tr><td></td><td>第一阶段利用德国国家图书馆的个人名这项工作还包括筛选合适的规 称数据库(PND)和LC规范记范记录纳入增强规范记录，并 录建立增强规范记录</td><td>确定载入文件所需要的特殊处 理需求</td></tr><tr><td></td><td>第二阶段开发匹配算法，并匹配PND和这个过程与第一阶段是交替进 LC增强规范记录，以创建VIAF 的初始版本</td><td>行的，因为中间的匹配结果可 以指出另外一些可被抽取用于 增强规范记录的信息，并进一 步改进匹配结果</td></tr><tr><td></td><td>第三阶段 构建一个OAI 服务器,提供无 VIAF的检索</td><td></td></tr><tr><td></td><td>第四阶段维护VIAF数据库，要求参与机这一更新和维护系统的设计将 构添加和修改规范记录和书目围绕OAI请求更新所使用的协 记录</td><td>议来进行</td></tr><tr><td></td><td>第五阶段建立一个可以公开访问的网络 用户界面，以检索VIAF记录</td><td>数据库和界面要支持Unicode 和多种语言、多种字符功能。 数据库的直接请求（例如：提 供一个LC版的名称，请求匹 配PND名称作为一个简单的 HTML连接）可以用于支持语 义网功能</td></tr></table>"
+  },
+  "2.3VIAF 参与机构": {
+    "context1": "目前，VIAF的贡献者包括来自28个国家的32个机构,其中有23个贡献者是国家图书馆,另外有10个国家图书馆通过联盟或其他计划向VIAF提供数据。此外,通过NACO(名称规范合作项目)参与的其他国家图书馆有：墨西哥国家图书馆、大英图书馆、威尔士国家图书馆、国家农业图书馆、国家医学图书馆、新西兰国家图书馆、苏格兰国家图书馆和南非国家图书馆。VIAF历年新增参与机构数目如图1所示：",
+    "context2": "![](images/6a61546af6289091044fc28f2409c37007d4616bb78cc8a0cefe483fa9e34220.jpg)  \n图1VIAF历年新增参与机构数目"
+  },
+  "2.4 VIAF 数据": {
+    "context1": "目前VIAF的数据量已达到一定规模,其输入和输出数据如表2所示：",
+    "context2": "表2VIAF输入数据与输出数据汇总 6",
+    "context3": "<table><tr><td colspan=\"2\">输入数据(来源规范记录)</td><td>输出数据(VIAF记录集)</td></tr><tr><td>个人名称</td><td>2640万条</td><td>18 067989条</td></tr><tr><td>团体名称</td><td>510万条(包括会议名称)</td><td>3 770 650条</td></tr><tr><td>地理名称</td><td>40万条</td><td>406799条</td></tr><tr><td>统一题名</td><td>180万条</td><td>1</td></tr><tr><td>表达</td><td></td><td>287211条</td></tr><tr><td>作品</td><td>1</td><td>1 685745条</td></tr></table>",
+    "context4": "数据处理流程为：首先为每一个图书馆书目记录中的100字段或700字段中的人名创建一条衍生规范记录。除了人名之外,衍生规范记录也包括出版文献的编码摘要。包含多个人名的书目记录会生成多个衍生规范记录。书目数据中的合作者、出版商、出版日期、题名、ISBN和LCCN等标识符信息也会被纳入到衍生规范文档中。针对某一个人的衍生规范记录与某个图书馆原来的规范文档集中在一起生成增强规范记录。如图2所示：",
+    "context5": "![](images/020d0cccdecfbd04faae19630a654649fd41091e9d4b064bd669e25dda49d41b.jpg)  \n图2增强记录生成流程",
+    "context6": "之后运用匹配算法将不同图书馆的增强规范记录进行匹配,在这个过程中完成去重、消除歧义等工作后产生一条VIAF规范记录,如图3所示：",
+    "context7": "![](images/b489889473e4211a4027e9d8eda1635f837a1090316c942d1b4c232b86dc67f1.jpg)  \n图3VIAF 数据流",
+    "context8": "VIAF将来源数据生成2420万记录集,记录与记录间共有2100万条链接。"
+  },
+  "2.5VIAF检索界面的使用": {
+    "context1": "VIAF的检索界面中提供两种不同的搜索条件,用户可对相应字段和索引进行选择。具体检索字段如表3所示：",
+    "context2": "表3VIAF主页所提供的检索字段",
+    "context3": "<table><tr><td>搜索条件</td><td>相应搜索字段</td></tr><tr><td>可选择字段</td><td>团体名称、地理名称、个人名称、作品、表达、偏好标题词、精 确标题、书目题名、所有标题词、所有字段</td></tr><tr><td>可选择索引</td><td>澳大利亚、比利时、加拿大、加泰罗尼亚、捷克、丹麦、埃及、法 国、维基百科、XA等</td></tr></table>",
+    "context4": "用户在检索后系统会返回含有此标题词的列表。如用户希望在系统中检索个人名称“Mitchell Margaret”,索引选择所有VIAF,共返回49个标题词;如将索引限定在Wikipedia,则返回3个标题词。",
+    "context5": "表4个人作者页面信息项",
+    "context6": "<table><tr><td>序号</td><td>作者页面信息项</td><td>内容说明</td></tr><tr><td>1</td><td>优选形式</td><td>该项中列出不同图书馆所贡献的相关记录，以超链 接形式直接链接到相应的记录内容</td></tr><tr><td>2</td><td>统一题名链接</td><td>包括该作者的不同作品及作品相应的表达</td></tr><tr><td>3</td><td></td><td>4XX字段中备用名与个人名称相对应的是400字段,包括不同图书馆</td></tr><tr><td></td><td>称形式</td><td>4XX字段链接</td></tr><tr><td>4</td><td>其他已用题名</td><td>在不同图书馆目录中的题名形式</td></tr><tr><td>5</td><td>相关合作者</td><td>与作者有合作关系的其他作者</td></tr><tr><td>6 7</td><td>出版国家</td><td>包括该作品出版地的可视化地图和国家列表信息 已出版该作者作品已出版作者作品的不同国家相关出版社信息</td></tr><tr><td></td><td>的出版社</td><td></td></tr><tr><td>8</td><td>信息</td><td>该作者的其他个人包括性别、国籍、语言及WorldCat中该作者页面 链接</td></tr><tr><td>9</td><td>4种格式的记录</td><td>MARC-21记录;XML描述的VIAF记录集;RDF 记录;Just Links in JSON</td></tr><tr><td>10</td><td></td><td>VIAF中该条信息包括不同机构修改或添加记录的信息，如记录ID、 的操作历史记录具体操作及操作时间</td></tr></table>",
+    "context7": "在Gone with the Wind 作者 Mitchell Margaret 的页面上方,包含以下信息:标题词、作者姓名在不同规范文档中的形式、VIAFID、永久链接、ISNI号。",
+    "context8": "页面中包含的其他信息见表4。"
+  },
+  "3VIAF在相关项目中的应用": {
+    "context1": "虽然VIAF最初是作为研究项目发布的,但它同时也成为了一种编目工具。VIAF项目的目标是能够让VIAF在国际数据交换生态系统中扮演日益重要的角色。目前VIAF被认为是万维网利用图书馆规范数据的门槛。它允许各种项目使用它的规范数据,项目范围不局限于图书馆，并通过这些项目丰富及增强数据。因此,VIAF已经成为不同项目间的“路由器”,它允许这些项目互操作,从它与维基百科、ISNI、SNAC等项目的合作中能够看到这一点，这在关联数据环境中非常重要。下面简要介绍VIAF与其他项目的关系。"
+  },
+  "3.1VIAF与维基百科": {
+    "context1": "维基百科与图书馆在很多方面非常相似，如二者都希望为用户免费提供信息且它们自身都不盈利。这些相似性是维基百科和图书馆合作的有力保障。2012年6月,维基驻OCLC工作人员提出了VIAFbot设想。图书馆的规范控制工作是通过创建个人名称(也包括其他名称,如实体名称、团体名称)等的规范形式来区分具有相同名字的不同人物。在引入图书馆规范数据前,维基百科利用消除歧义和重新指向两个功能来处理百科中重名人物词条。VIAF的维基百科项目则利用匹配算法和VIAFbot（自动维基百科账号),将VIAF标识符与成千上万条维基百科人物传记类词条匹配起来，进而将VIAF中的规范数据整合到维基百科中的人物传记词条中。",
+    "context2": "目前,在VIAF文档相应的记录中可以看到维基百科词条链接，同样，在维基百科词条的规范控制栏里也有相应的VIAF链接。如在维基百科中查找“MargaretMitchell\"这一词条,在页面下方规范控制一栏中,可以看到VIAF的链接。如图4、图5所示：",
+    "context3": "![](images/b67d7c0d15b14b2a41c5f9939651b94501f80196171ee7973bea60cad031fd86.jpg)  \n图4维基百科中“MargaretMitchell\"词条页面",
+    "context4": "![](images/ea5ae904644895dd5330d20d0bfe39831a205b1acad111f2599450421f0927b4.jpg)  \n图5VIAF中维基作为索引字段示例[1"
+  },
+  "3.2 VIAF与 ISNI": {
+    "context1": "国际标准标识符（International Standard NameIdentifier,ISNI)是ISO认证的用于标识全球创造性作品的贡献者以及仍在发布作品的那些研究人员、发明者、作者、艺术家、表演者、发行者、出版者等的一个全球标准[。它是国际标准标识符的系列相关标准之一,其他标识作品、唱片、产品的标识符有DOI、ISAN、ISBN、ISRC、ISSN、ISTC、ISWC 等。ISNI的任务是为研究人员、发明者、作者、艺术家、表演者、发行者、出版者等分配一个永久唯一的身份号码,以解决搜索和发现过程中的名字模糊性问题，并在全球供应链中的所有知识库中进行传播,这样所有出版作品的作者都不会出现模棱两可的状况。为了完成这一目标,ISNI将作为多个领域之间的“桥标识”，并成为关联数据和语义Web应用的重要元素之一。",
+    "context2": "ISNI对于唯一标识符的严格要求,将对整个图书馆规范文档生态系统的组织产生重大影响。ISNI是VIAF在文化遗产领域以外建立的第一个正式合作项目,二者之间是相互促进的关系。随着VIAF数据的增多,它为ISNI输送的数据也越来越多。VIAF并非ISNI的唯一数据来源，且随着ISNI的数据呈指数级增长，它反过来会给VIAF提供数据。ISNI将在以下几方面",
+    "context3": "对VIAF产生影响：",
+    "context4": "（1)为VIAF 提供技术支持、共享知识。例如，提升ISNI分配精准性的匹配算法已经被用于VIAF。VIAF记录集与ISNI标识的一致性和同步性,是ISNI反馈给VIAF以及图书馆规范文档的关键。同时，也链接到ISNI其他的源数据库中。",
+    "context5": "(2)ISNI的质量评价过程是识别来源数据中的质量错误。OCLC技术团队主要处理ISNI数据库的两个编辑机制：一个机制用于分割已匹配记录，另一个机制用于合并没有匹配的记录。后者属ISNI内部编辑，是批合并过程的手工备份。分割记录更具有显著意义。在质量评价过程中大部分未分化的记录的发现，都是由配对过程中的某一条来源记录引起的。该记录可以从匹配过程中被分割出来，报告给VIAF或其他数据源。",
+    "context6": "(3)ISNI可以提出关于VIAF中不同规范文档如何保持一致性的策略问题,如笔名和团体名称等问题。不同图书馆间的策略存在差异并不是一个新问题，但是ISNI可以为解决这个问题提供一个新视角。一方面,它需要提供定义好的解决方案,这样ISNI就可以在分配时保证安全和一致。另一方面,要让这些解决方案与媒体内容产业创建、生产、管理和内容发行链的需求相匹配。"
+  },
+  "3.3 VIAF 与 SNAC": {
+    "context1": "社会网络与档案文本(Social Networksand ArchivalContext,SNAC)是由美国维吉尼亚洲大学负责、国家人文基金和安德鲁梅隆基金资助的为期4年(2010-2014）、为管理档案记录的专家以及各使用档案记录的研究团体服务的研究和演示项目。当前,findingaids和其他散存于不同系统中的档案描述中包含了大量构成档案文本的名称、社会－职业关系以及传记－历史描述。SNAC的主要工作是从分散的档案描述中抽取那些名称、社会-职业和资源关系以及传记-历史数据，并将这些数据重新整合到标准档案规范描述数据中，再利用这些规范描述构建一个原型公开检索系统，在提供对分散的一次文献的综合或统一检索的同时，让用户获取可以识别和了解人、家族、组织及其历史、生活和工作的社会网络的传记－历史信息[。",
+    "context2": "在SNAC创建过程中,首先从描述记录(EAD和MARC)中抽取创建者、CPF名称人名和关于CPF名称的描述,并集成到EAC-CPF(档案)规范文档中;接着将EAC-CPF记录和现有规范文档进行匹配（ULAN和VIAF）,将同一实体的记录归并到一起,通过格式化款目、增加交替款目、出版物题名的方式提升EAC-CPF的质量;最后，创建原型历史资源和检索系统，构建历史数据中的社会-专业-智力网络,并将其链接到档案馆、图书馆和博物馆资源。如图6所示：",
+    "context3": "![](images/8fdd7923839c902b2a30ca684c4aaae429410ff3f3f368b4ab30e9a3100c6d28.jpg)  \n图6EAC-CPF与VIAF匹配流程 [14",
+    "context4": "按照EAC-CPF规范来源,对国会图书馆、加利福尼亚在线档案和西北数字档案EAD记录进行分析，抽取出实体的名称、类型和关系。利用CheshireⅡ信息搜索引擎对来源于VIAF的名称规范文档标引优先名称和交替名称,CheshireII信息搜索引擎使用概率信息检索算法查找匹配的VIAF记录以及任何指定实体名称的相关姓名。笔者将每个EAC-CPE实体的名称与前5条VIAF记录匹配起来[。",
+    "context5": "在SNAC最后形成的原型历史资源和检索系统的每一个名称界面中,也给出了相应的VIAF的链接。"
+  },
+  "4结语": {
+    "context1": "近年来,图书馆界一直希望提升元数据的价值、加强元数据的可发现性，让图书馆外的数据孤岛成为可获取且有用的数据。由图书馆所建立的规范记录可以与其他行业相互合作,例如出版业、新闻媒体、博物馆、档案馆、机构典藏、著作权管理单位等，从而扩大其适用与合作范围，VIAF无疑在这方面迈出了坚实的一步,越来越多来自各领域的项目正在寻求与VIAF的合作。当然,VIAF也存在一些错误记录,还需要不断地完善。",
+    "context2": "中文规范文档开放的相关工作还处于起步阶段。有学者认为“中文名称规范数据从封闭走向开放关联的最终目的是在实现规范数据自身开放的基础上，实现与其他规范数据的集成互操作，最终成为开放数据网络的有机组成部分。具体可以分为4个阶段,其中前两个阶段是： $\\textcircled{1}$ 规范数据语义描述； $\\textcircled{2}$ 与其他规范文档实现互操作（以VIAF为中枢或分布式集成)”d。目前,中文规范文档尚未完成第一阶段的工作,而VIAF无疑给我国提供了一个很好的范本，它可"
+  },
+  "以为我国名称规范工作带来如下后示：": "",
+  "4.1尽快加入VIAF，在全球范围内共享中文规范数据资源": {
+    "context1": "万维网时代,曾有一些与中文名称规范数据库相关的项目。例如,从2000 年起,国家图书馆设立中文名称规范数据库项目，主要成员单位有HKCAN、CALIS、中国国家图书馆和台湾汉学研究中心,项目积累了大量名称规范数据。但截至目前，尚未有针对语义网环境的名称规范项目,网络上尚无开放的中文名称规范数据集。未来的语义网环境给中文名称规范提供了巨大的应用空间，这需要更多国内同行关注并开展名称规范开放关联研究工作。从应用的角度，最便捷的路径之一是国家图书馆成为VIAF项目的成员，借助VIAF将更多中文名称规范数据开放为关联数据。当然也可以构建我国的虚拟中文规范文档（VirtualChineseAuthorityFile）,以使中文网络资源与中文名称规范数据的整合更加方便。"
+  },
+  "4.2整合少数民族规范数据，构建国家虚拟规范文档": {
+    "context1": "中国是拥有56个民族的多民族国家，现行文字共有22种，目前我国民族地区社会实践和民族事务管理过程中也建立了语种各异、类型丰富、功能多样的少数民族网络资源，它们也是我国网络信息资源的重要组成部分。少数民族资源对于我国社会历史文化、宗教文化研究具有重要价值。在自动化时代,少数民族文献编目工作积累了大量的规范数据，未来也可考虑以构建中国国家虚拟规范文档的形式，整合多民族规范数据，这对于国家民族文化的传播具有重要意义。"
+  },
+  "4.3整合书目数据以外的名称资源": {
+    "context1": "关于VIAF目前涵盖的范围,以人物为例,因为来源于书目数据,所以个人名称更多是作品的责任者，而书目相关的名称资源仅是整个语义网需求的一部分，还有大量其他名称也应纳入图书馆的虚拟名称规范计划。如:为用户可能会产生需求的作者名称、小说甚至电视剧中的虚构人物信息建立名称规范，并与原始作品进行链接，从现有维基百科甚至百度百科中借鉴用户对名称的需求,如百度百科为一些热播电视剧中的人物单独设立词条，并与电视剧、扮演该剧中角色的演员等词条进行链接。只有图书馆在以已有规范数据为起点、并将范围扩大至语义Web 时代用户将产生需求的所有名称时，才能满足语义网对规范名称的需求。"
+  },
+  "参考文献：": {
+    "context1": "[1]Coyle K.Semantic Web and linked data [].Library Technology Reports,2012(3):10 -13."
+  },
+  "Research on the Progress of Virtual International Authority Files Project": {
+    "context1": "Cui Chun1,² Bi Qiang1",
+    "context2": "1School of Management，Jilin University，Changchun 130022",
+    "context3": "²School of Management，Anhui University，Hefei 230601",
+    "context4": "[Abstract] The Virtual International Authority Files Project which is under charge of OCLC is an important project of integrating existingauthoritydata.This paper summarizes the VIAF'sprogress，introduces itsorigination，content，aims， development history，data generation，and the function of VIAF services to end users.After summarizing the VIAFs use caseinother projects such as ISNI,Wikipedia and SNAC，andat last,this paper gives some implications for the name authoritywork inourcountry:we shouldbeoneofthecontributorsto VIAFso that wecould share Chinese authority data worldwide，integrating minoritiesauthoritydata toconstructour Virtual national AuthorityFilesandintegrating name authority resources beyond the bibliography data.",
+    "context5": "[Keywords] VIAFVirtual International Authority File linked data name authority"
+  },
+  "(上接第128页)": "",
+  "Research and Main Ideas of the Embedded Library Service": {
+    "context1": "Luo Yahong",
+    "context2": "Guangdong University of Foreign Studies Library，Guangzhou 510006",
+    "context3": "[Abstract] It isa literature reviewof the embedded library service，with comments on main ideas of typical articles from homeandabroad.Highlyregarded,the studyof theembedded library serviceemphasizes thecontentsand methods. Related heoryresearches based on practiceare also valued.Yet more atention is needed on the research fromtheaspects of both librariansand patronsand usingvalid quantitative methods to explore the impactandasessment of embedded librarian programs， to further enhance the systematic theory.",
+    "context4": "[Keywordsl embedded librarianembedded library serviceliterature reviewmain idea"
+  }
+}

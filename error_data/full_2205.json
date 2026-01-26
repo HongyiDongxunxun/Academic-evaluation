@@ -1,0 +1,65 @@
+{
+  "original_filename": "full_2205.md",
+  "●宋宇，真溱（中国国防科技信息中心，北京100142)": "",
+  "关键词自动抽取技术综述": {
+    "context1": "摘要：文章把关键词自动抽取拆分为3个阶段的问题：如何进行文本预处理；怎样获得关键词候选词集；该采用什么方法从候选词集中筛选出关键词。首先针对不同阶段的问题，详细地介绍现有的典型方法。然后介绍了关键词自动抽取技术最新的研究进展，并分析了关键词自动抽取技术的发展趋势。最后指出了目前关键词自动抽取技术研究的不足之处。",
+    "context2": "关键词：关键词；自动抽取；研究进展；综述",
+    "context3": "Abstract: In this paper keyword automatic extraction technologies are divided and articulated as 3 stages: $\\textcircled{1}$ how to preprocess the text; $\\textcircled{2}$ how to get the candidate keyword set; $\\textcircled{3}$ how to select the keywords from the candidate keyword set. The paper firstntroducsthetyicalmethodsfordiferentstages.Tenthepaperitroducesthelatestresearchofeywordextractiotechology，andanalyzesthedevelopmenttrendofkeywordextractiontechnologyAttheendofthepaper,theshortcomigsoftheesearch on keyword extraction technology are pointed out.",
+    "context4": "Keywords: keyword； automatic extraction； research progress； review",
+    "context5": "关键词是表达文档主题意义的最小单位。关键词自动抽取技术则是一种识别有意义且具有代表性片段或词汇（即关键词）的自动化技术。关键词自动抽取在文本挖掘领域被称为关键词抽取（Keyword Extraction），在信息检索领域则通常被称为自动标引（Automatic Indexing）。随着研究的不断深入，越来越多的方法，如概率统计、机器学习、语义分析等，都运用到了关键词自动抽取之中。根据方法的影响程度和创新程度，章成志归纳列举了1957—2007年50年时间里比较有代表性的关键词抽取方法。余春运用文献调查法，以“自动标引”为检索词，检索了中国期刊全文数据库和Elsevier ScienceDirect数据库收录的、发表于2006—2010 年的相关主题文献，以期总结近5年来的研究进展。本文则从流程的角度考虑，把关键词自动抽取分为3个阶段，即文本预处理、获得关键词候选词集和抽取关键词。针对不同阶段的问题，详细地介绍现有的典型方法。然后介绍了关键词自动抽取技术最新的研究进展，并分析了关键词自动抽取技术的发展趋势。最后指出了目前关键词自动抽取技术研究的不足之处。"
+  },
+  "1文本预处理": {
+    "context1": "文本预处理是指预先对文档的内容进行字符过滤、词形变换、词语切分和词性标注等。R.Wang和W.Liu在其文章中指出，文本预处理的结果对候选词的覆盖范围和准确性都有影响，进而会影响最终的抽取结果。"
+  },
+  "1.1字符过滤和词形变换": {
+    "context1": "在文本预处理中，字符过滤和词形变换相对较为简单，大多数研究是先建停用词表和词形变换表，然后对照词表扫描整个文档内的字符，找到相应的字符并加以删除或者变形即可。"
+  },
+  "1.2词语切分": {
+    "context1": "中文字符是连续的，而英文单词间有空格自然分割，所以在词语切分上二者有所不同。目前的中文分词算法主要有以下几类：基于词典的分词算法、基于统计的分词算法、基于规则的分词算法以及多种方法相结合的分词算法。基于词典的分词算法的优点是易于实现，缺点则是无法抽取出词典中未登录的关键词。基于统计的分词算法的优点是可以切分出词典中未登录的关键词，缺点是常用词的切分准确率不高。基于规则的分词算法也可以切分出词典中未登录的关键词，但该方法需要大量的语法规则，不易实现。为了进一步提高切分效果，可以把这三类方法结合起来，形成混合分词算法。李宏波提出了一种词典与统计相混合的汉语分词方法。对于英文文本来说，单词之间可以通过空格来切分。但是关键词往往不是单个单词，为了准确地抽取关键词，也需要对英文进行预处理，初步确定短语边界。在KEA 算法中，I.H.Witten 等把数字、括号、破折号和点号当作短语分割符。"
+  },
+  "1.3词性标注": {
+    "context1": "中英文词性标注的方法基本相同，大多采用机器学习的方法。常见的有基于条件随机场模型的方法、基于隐马",
+    "context2": "尔科夫模型的方法、基于决策树的方法以及基于最大熵模型的方法等。常用的词性标注系统有中国科学院研发ICT-CLIS系统、斯坦福大学研发的NLTK等。"
+  },
+  "1.4其他预处理方式": {
+    "context1": "针对学术类文献，为了能够更有效抽取关键词，M.Krapivin等在预处理时增加了文章结构识别功能，即识别文章的题目、摘要、正文和参考文献等各部分内容，为后期计算候选词特征提供方便。"
+  },
+  "2获得关键词候选词集": {
+    "context1": "文本经过预处理之后，可以先确定关键词候选词集。候选词集被确定之后可以不必再计算非候选词的特征，这样能够提高抽取效率。目前关键词候选词集大多是基于规则来获得。",
+    "context2": "以 KEA算法为例，其规则如下： $\\textcircled{1}$ 限定候选关键词的长度，通常认为关键词的长度不超过3个词语。 $\\textcircled{2}$ 关键词不会是单一的专有名词。 $\\textcircled{3}$ 关键词不以停用词作为开头或结尾。用这3个规则测试每一个输入行的所有连续子序列便可以获得关键词候选词集。这几条规则应用得十分广泛，其优点是简单易行，候选词覆盖范围大；不足之处是用这些规则获得的候选词集中将会包含许多没有意义且不符合语法规范的短语。研究人员发现关键词通常是名词性短语，故刘志远等、万小军等直接抽取句子中的名词性短语来作为候选词b。W.You和D.Fontaine等提出了一种减小候选词范围的方法。该方法分为两步： $\\textcircled{1}$ 找出出现次数最多的 $K$ 个词语，并把它们定义为核心词。 $\\textcircled{2}$ 借助共现关系，把与核心词密切相关的词语添加到关键词候选词集中。这种方法的优点是能够很大程度上减少候选词的数量，并且候选词的数量可以通过 $K$ 值来控制，不足之处就是候选词集可能没有覆盖所有的关键词。"
+  },
+  "3抽取关键词": {
+    "context1": "为了准确地从候选词集中抽取出关键词，首先要了解关键词自身的特性。刘志远等指出，关键词具有3个典型的特性，即关键词是符合语法规范的有意义的词语，与文章的主题紧密相关，并且能很好地概括文章内容。现有的抽取方法，一类是针对特定领域，如Nhon采用的基于特定领域建模的方法[，另一类则不限定领域，如H.Cohen-Kerner提出的方法[。针对特定领域的抽取方法可以利用领域知识来提高抽取准确率，而不限定领域的抽取方法应用起来则相对灵活。不论是否针对特定领域，关键词的抽取方法可以分为以下几类。"
+  },
+  "3.1基于统计的抽取方法": {
+    "context1": "最易考虑到的抽取方法是统计候选词在文中出现的频次和位置，然后对这两类特征值加权求和，最后进行排序，选取权值最高的 $N$ 个词作为关键词。这类方法可以统称为基于统计的抽取方法。Salton等提出的TF-DF算法是常见的基于统计的抽取方法，该方法借助词频特征来对候选词进行排序抽取，抽取准确率在 $20 \\%$ 左右，具有简单易行的优点。Mihalcea等提出了TextRank 算法，该方法首先借助词语共现构建图网络，然后再进行排序来抽取关键词[。相比TF-DF算法而言，TextRank 算法不仅考虑候选词的词频特征，还考虑了词语间的相对位置特征。Y.Matsuo等也是利用词语共现来抽取关键词，但是其做法有所不同。该方法首先根据共现频次来把候选词聚类成 $N$ 个子集，然后计算候选词对每个子集的偏向度，如果候选词特别偏向某个子集，那么这个候选词就认为是关键词[4。作者用该方法对166篇来自JAIR期刊的学术文章进行了实验，抽取准确率达到 $51 \\%$ 。"
+  },
+  "3.2基于语言学的抽取方法": {
+    "context1": "随着自然语言处理技术的不断发展，语言学方法也逐渐运用到关键词抽取中去。基于语言学的抽取方法主要是利用自然语言处理的相关技术来提高抽取效果，如依存关系分析、篇章分析等。索红光等考虑到词汇间的依存关系，利用知网知识库，构建词汇链，再结合词频特征从候选词集中抽取关键词[。该方法以120篇《人民日报》文章为实验数据，抽取准确率达到 $59 \\%$ ，相比词频方法提高了 $9 . 3 3 \\%$ 。 $\\mathrm { X } , \\mathrm { H u }$ 和 $\\mathrm { { B } , \\ W u }$ 在其文章中考虑到了段落、句子等语言学特征，对30篇文章进行抽取实验，准确率达到 $70 \\%$ 以上。值得注意的是，语言学方法在关键词抽取时通常作为辅助手段来提高抽取准确率，这种方法往往与基于统计的方法或者其他方法结合使用，而不会单独使用。"
+  },
+  "3.3基于机器学习的抽取方法": {
+    "context1": "20世纪90年代，机器学习开始登上关键词抽取的舞台。研究人员通过训练朴素贝叶斯模型、支持向量机模型、神经网络模型、最大熵模型等来抽取关键词。",
+    "context2": "I.H.Witten等提出了基于朴素贝叶斯的抽取方法，即KEA算法，该方法选取候选词的出现频率和第一次出现的位置作为特征，然后通过训练大量的语料来获得抽取模型，准确率达到 $3 3 . 2 7 \\%$ 。Turney利用决策树算法和遗传算法对关键词抽取进行了研究，以362篇文章为实验数据集，决策树算法准确率达到 $1 8 . 1 \\%$ ，遗传算法准确率达到 $2 3 . 9 \\%$ [。K. Zhang 和 $\\mathrm { ~ H . ~ X u ~ }$ 等则是首先计算候选词的特征，构造特征向量，然后利用支持向量机（SVM）模型从候选词集中抽取关键词。该算法选取的特征有 $\\mathrm { T F ^ { * } }$ IDF、第一次出现位置特征、相对位置特征、文法标记特征和关联特征[。T.Jo等选取候选词的词频特征、是否出现在标题、是否出现在第一句话、是否出现在最后一句作为特征输入，然后训练神经网络模型，对300篇来自IEEE的文章进行了抽取，准确率达到 $6 4 . 7 \\%$ [。W.Yih等抽取网站广告时，选取候选词的词频特征、位置特征、语言学特征、链接特征、查询特征等12类特征，来训练最大熵抽取模型。该方法以1109个网页广告为实验数据，准确率达到46.97%b。"
+  },
+  "3.4其他抽取方法": {
+    "context1": "基于词语相似度，W.Meng等提出了一种改进的抽取算法，该算法把候选词中的同义词语进行了合并处理，准确率达到 $4 5 . 5 8 \\%$ 。 $\\mathrm { { S . \\ X u } }$ 等把维基百科作为知识库，通过查询来获得候选词的背景知识，以此来抽取关键词，文中将2OO 篇来自BBC和CNN网站上的文章作为实验数据集，抽取准确率达到 $4 5 . 6 \\%$ 。 $\\mathrm { Z . \\ A u }$ 和X.Chen等通过在文档与关键词之间建立翻译模型来抽取关键词，该方法把13702篇新闻作为实验数据集，抽取准确率达到$30 \\%$ [。J.I.Sheeba等针对低频关键词，采用模糊逻辑技术来抽取。万小军等提出了一种针对单个文档的关键词抽取方法，该方法首先利用扩展算法把单个文档扩展成相邻文档集合，然后利用扩展后的文档集合构造图模型再进行抽取，把DUC2001数据集作为实验数据，抽取准确率达到 $2 8 . 8 \\%$ 4。"
+  },
+  "4关键词自动抽取技术最新的研究进展与发展趋势": {
+    "context1": "在知网数据库中以“关键词抽取’“自动标引”为检索词进行检索发现，2014—2015两年间发表的具有代表性的中文文献有王星等提出的基于引文的关键词抽取方法、白如江等提出的基于支持向量机和核心特征词的抽取方法以及顾益军等提出的融合LDA与TextRank 的关键词抽取方法。以“keyphrase extraction”为检索词在谷歌学术中进行检索发现，近两年发表的具有代表性的英文文献有 $\\mathrm { Z . Z h u }$ 等提出了一种集成多种抽取算法来抽取关键词的方法2，F.Wang等提出了借助描述性知识来抽取关键词的方法2，Gollapalli等提出了借助引用网络来提高抽取效果的方法，Danesh等提出了基于统计和图的方法，N.G.Ali等则是把统计和机器学习结合起来抽取关键词",
+    "context2": "从最新的研究成果来看，关键词自动抽取技术的发展有以下两个趋势： $\\textcircled{1}$ 借助多种方法相融合来提高抽取效果。不同的关键词抽取方法在抽取关键词时，采用的文本的特征不同，通常具有不同的抽取效果。把不同的方法融合在一起，这样可以实现方法间的互补，进而提高抽取效果。白如江、顾益军、N.G.Ali等都采用的这种做法。 $\\textcircled{2}$ 借助外部知识库来提高抽取效果。研究人员发现，引文信息、维基百科、同类文档等外部知识可以用来揭示文档的主题特征，在抽取关键词时，考虑外部知识时可以提高关键词抽取效果。万小军、Gollapalli、S. $\\mathrm { X u } ^ { [ 2 ] }$ 、F.Wang2等便是采用这种方式。寻找有用的外部知识来丰富被抽取文档的内容也是未来研究的重点。另外，随着自然语言处理技术的不断发展，更深层次的语义分析技术也将运用到关键词自动抽取技术中。"
+  },
+  "5关键词自动抽取技术存在的问题": "",
+  "5.1关键词切分问题研究不足": {
+    "context1": "关键词既可以是单个的词语，也可以是若干个词语组成的短语。对关键词抽取这个问题而言，关键词的边界划分十分重要。目前关键词边界划分问题仍需深入研究，现有的中文分词技术可以切分出词语，但难以确定关键短语的边界。英文分词中也仅仅是借助停用词和词性标注来初步确定边界问题。关键词的切分问题仍值得研究。"
+  },
+  "5.2网络资源利用率低": {
+    "context1": "随着网络信息资源的不断增加，在抽取关键词时可以借助的外部资源也越来越多，例如维基百科、搜索引擎、社交媒体、网站评论，等等。可以把海量的网络资源当作外部知识库，这样在抽取关键词时，可以借助网络资源来扩充文本内容，以此提高抽取效果。然而，目前的关键词自动抽取方法对网络资源的利用率低。"
+  },
+  "5.3关键词自动抽取效果评价问题": {
+    "context1": "评价关键词自动抽取的效果通常是对照人工标引的结果来计算准确率、召回率和 $F$ 系数。但这种方法主观性强、成本高。此外，由于不同的作者往往采用不同的数据集进行实验，所以关键词自动抽取效果的3个指标与实验数据集密切相关。因此构建一个通用的评价模型，排除实验数据集对结果的影响，是一件有意义的工作。□"
+  },
+  "参考文献": {
+    "context1": "[1] 章成志．自动标引研究的回顾与展望[．现代图书情报 技术，2007（11)：33-39.   \n[2] 余春．自动标引研究进展[．图书馆学研究，2012 (4):6.   \n[3] WANG R，LIU W，MCDONALD C.How preprocessing affects unsupervised keyphrase extraction[M]//Computational linguistics and intelligent text processing.Springer Berlin Heidelberg，2014:163-176.   \n[4] 李宏波．词典与统计相结合的中文分词算法研究[．武 汉理工大学学报：信息与管理工程版，2010，32（6)： 907-909.   \n[5] WITTENIH，PAYNTERGW，FRANKE，etal．KEA: practical automatic keyphrase extraction[C]//Proceedings of theFourth ACMConference on Digital Libraries．ACM，1999: 254-255.   \n[6] KRAPIVIN M，AUTAYEU A，MARCHESE M，et al. Keyphrases extraction from scientific documents:improving machine learningapproacheswith natural language processing M．Springer，Berlin Heidelberg，2010.   \n[7] LIU Z，HUANG W， ZHENG Y，et al. Automatic keyphrase extraction via topic decomposition[C]//Proceedings of the 2010 ConferenceonEmpirical Methodsin NaturalLanguage Processing.Association for Computational Linguistics，2010: 366-376.   \n[8] WAN X，XIAO J.CollabRank:towardsa collaboraive approach to single-document keyphrase extraction [c]//Procedings of the 2nd International Conference on Computational Linguistics-Volume 1.Association for Computational Linguistics，2008:969-976.   \n[9] YOU W，FONTAINE D，BARTHES J P. Automatic keyphrase extraction with a refined candidate set [d]//Web Intelligence and Intelligent Agent Technologies.WIHAT'09. IEEE/WIC/ACM International Joint Conferences on．IET, 2009: 576-579.   \n[0] DO N，HO L V.Domain-specific keyphrase extraction and near-duplicate article detection based on ontology[]//Computing & Communication Technologies-Research，Innovation, and Vision for the Future（RIVF)，2015 IEEE RIVF International Conference on．IEEE，2015:123-126.   \n[1] HACOHEN-KERNERY，VROCHIDIS S，LIPARASD，et al. Keyphrase extraction using textual and visual features[c]. V&L Net 2014，2014:121.   \n[2] SALTON G，BUCKLEY C. Term-weighting approaches in automatic text retrieval []．Information Processing & Management，1988，24(5)：513-523.   \n[3] MIHALCEA R，TARAU P. TextRank:bringing order into texts[．Association for Computational Linguistics，2004.   \n[4] MATSUO Y，ISHIZUKA M.Keyword extraction from a single document using word co-occurrence statistical information. International Journal on Artificial Intelligence Tools，2004，13 (1): 157-69.   \n[5] 索红光，刘玉树，曹淑英．一种基于词汇链的关键词抽取 方法[．中文信息学报，2006，20（6)：25-30.   \n[6] HU X，WUB.Automatic keyword extraction using linguistic features[C]//Data Mining Workshops，2006．ICDM Workshops 2006．Sixth IEEE International Conference on．IEEE, 2006:19-23.   \n[7] TURNEY PD.Learning algorithms for keyphraseExtraction [．Information Retrieval，2000,2（4)：303-336.   \n[8] ZHANG K，XUH,TANG J，et al.Keyword extraction using support vector machineMl//Advances in Web-Age InformationManagement.Springer，BerlinHeidelberg，2006: 85-96.   \n[9] JO T，LEE M，GATTON T M.Keyword extraction from documents using a neural network model [//Hybrid Information Technology，2006.ICHIT‘ 06.International Conferenceon. IEEE，2006:194-197.   \n[0] YIH W，GOODMAN J，CARVALHO V R. Finding advertising keywords on web pages[//Proceedings of the 15th International Conference on World Wide Web．ACM，2006: 213-222.   \n1 XU S，YANG S，LAUF C M. Keyword extraction and headline generation using novel word features [ //AAAI,2010.   \n[22] LIU Z，CHEN X，ZHENG Y，et al．Automatic keyphrase extraction by bridging vocabulary gap[C//Proceedings of the Fifteenth Conference on Computational Natural Language Learning.Association for Computational Linguistics，2011:135- 144.   \n[23] SHEEBA JI，VIVEKANANDAN K．Low frequency keyword extraction with sentiment classification and cyberbully detection using fuzzy logic technique[C]//Computational Intelligence and Computing Research（ICCIC），2013 IEEE International Conference on. IEEE，2013:1-5.   \n[4] WAN X，XIAO J.Exploiting neighborhood knowledge for single document summarization and keyphrase extraction[]. ACM Transactions on Information Systems（TOIS)，2010，28 (2):8.   \n[5] 王星，刘伟．基于引文的中文学术文献自动标引方法研究 ．图书情报工作，2014，58（3)：106-110.   \n[26] 白如江，王晓笛，王效岳．基于支持向量机和核心特征词 的科技文献自动标引研究．情报理论与实践，2014, 37 (7): 129-34.   \n7] 顾益军，夏天．融合LDA与 TextRank 的关键词抽取研究 ．现代图书情报技术，2014（1）.   \n[28] ZHU Z，LI M，CHEN L，et al.Combination of unsupervised keyphrase extraction algorithms[C]//Asian Language Processing（IALP），2013 International Conference on．IEEE, 2013: 33-36.   \n[29] WANG F，WANG Z，WANG S，et al. Exploiting description knowledge for keyphrase extraction[M]//PRICAI 2014: Trends in Artificial Intelligence. Springer International Publishing，2014: 130-142.   \nB0] GOLLAPALLI S D，CARAGEAC．Extracting keyphrases from research papers using citation networks[C]//Procedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence. 2014:1629-635.   \nB1] DANESH S，SUMNER T，MARTIN JH. SGRank:combining statistical and graphical methods to improve the state of the art in unsupervised keyphrase extraction[]．Lexical and Computational Semantics （\\*SEM 2015），2015:117.   \n[B2] ALI N G，OMAR N．A hybrid of statistical and machine learning methods for Arabic keyphrase extraction[．Asian Journal of Applied Sciences，2015，8(4):269-276.",
+    "context2": "收稿日期：2015-12-25"
+  }
+}

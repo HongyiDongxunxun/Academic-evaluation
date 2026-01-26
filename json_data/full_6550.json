@@ -1,0 +1,109 @@
+{
+  "original_filename": "full_6550.md",
+  "我国高校WebPAC现状调查": "",
+  "□黄碧云 方平": "",
+  "摘要调查了我国高校上网、建有图书馆网页和WebPAC发展的基本情况,在此基础上对我国高校WebPAC发展现状进行总结并提出建议。": {
+    "context1": "关键词WebPAC网上调查高校"
+  },
+  "1我国高校WebPAC现状调查基本情况": "",
+  "1.1调查方法与调查时间": {
+    "context1": "1.1.1主要方法 :通过 http://www.hbu.edu.cn/univer.$\\mathrm { h t m l }$ 获取CERNET(中国教育和科研计算机网)网络中心提供的国内上网高校名单，以此数据为基础逐一进行访问。基于该数据进行调查主要有三个原因第一,有关高校上网的数据最全;第二,数据即时更新 ;第三,分省份列出，易于核对。",
+    "context2": "1.1.2辅助方法 $\\pm \\mathrm { - m a i l }$ 咨询Google搜索引擎(http://www.google.com)查询。",
+    "context3": "1.1.3调查时间2001年12月13日\\~2002年2月7日"
+  },
+  "2.2调查统计说明": {
+    "context1": "1.2.1 此次调查不包括台湾、香港和澳门地区高校，一是因为其数据难以收集齐全；二是其教育体制和国内其他地区有较大差异，教育部近几年所公布的“全国教育事业发展统计公报”也未包括这三个地区高校数据。",
+    "context2": "1.2.2根据CERNET所提供的国内上网高校名单，目前国内共有776所高校上网。基于该数据，逐一对相应高校进行访问，在此基础上对数据进行整理，最后实际能够在网上进行访问的高校仅有622所。所作的整理包括：",
+    "context3": "(1)删除完全重复的高校，如“郑州工程学院”和郑州工程学院(郑州粮食学院）是同一所高校。",
+    "context4": "(2)删除不属于高校的网站。如CERNET所提供的‘湖北省十堰市第六中学”",
+    "context5": "(3)同一高校的不同校区均上网,在计算上网的高校时，不重复计算。如武汉大学是由原武汉大学、武汉测绘科技大学、武汉水利电力大学和湖北医科大学于2000年8月合并而成，在本调查中视为一所高校(即现在的武汉大学)。",
+    "context6": "(4)删除经不同时间反复测试多次、并用Google搜索引擎查询进行核实、一次都不能访问的网站。2.2.3对高校建有图书馆网页进行统计调查，其统计不包括以下情形：",
+    "context7": "(1)仅有图书馆三个字，但未设超链,因而根本不能点击以进一步获取其内容。",
+    "context8": "(2)点击高校网站所设的图书馆超链，只有“正在建设等相关字眼，但尚未提供内容。",
+    "context9": "2.2.4对高校图书馆提供WebPAC进行统计调查，其统计不包括以下情形：",
+    "context10": "(1)仅有“书目查询等字眼,但并未设超链，因而根本不能点击以进一步获取其内容。",
+    "context11": "(2)经不同时间反复测试多次均不能访问其图书馆网页,因而无法确定其是否提供WebPAC。",
+    "context12": "(3)有“书目查询等相关字眼,但点击后只有“正在建设等字眼。",
+    "context13": "2.2.5对具体WebPAC系统软件进行统计调查，其统计不包括以下情形：",
+    "context14": "(1)因高校所提供的图书馆网页根本不能访问而无法确定其是否提供WebPAC。",
+    "context15": "(2)因高校所提供的WebPAC根本不能访问而无法确定其使用的WebPAC系统软件。",
+    "context16": "另外，对具体WebPAC系统的使用单位的统计是以高校图书馆为计算单位而非高校本身，这是因为高校可能有多个校区建有图书馆网页并提供相应WebPAC,从系统软件的角度来说,这些图书馆本身便是其用户单位。例如泗川大学由原四川大学、成都科技大学和华西医科大学合并而成，目前在网上建有三个不同的图书馆网页并提供相应WebPAC，其中四川大学医学分馆和工学分馆采用的WebPAC系统软件均为Goldlib,文理分馆采用的WebPAC系统软件是ILASWEB，此时Goldlib的使用单位计作2个,ILASWEB的使用单位数计作1个。"
+  },
+  "2.3调查结果": {
+    "context1": "表1我国高校上网及提供WebPAC基本情况单位所",
+    "context2": "<table><tr><td rowspan=2 colspan=1>高校</td><td rowspan=2 colspan=1>上网高校</td><td rowspan=1 colspan=3>图书馆网页</td><td rowspan=1 colspan=3>WebPAC</td></tr><tr><td rowspan=1 colspan=1>能访问</td><td rowspan=1 colspan=1>不能访问</td><td rowspan=1 colspan=1>合计</td><td rowspan=1 colspan=1>能访问</td><td rowspan=1 colspan=1>不能访问</td><td rowspan=1 colspan=1>合计</td></tr><tr><td rowspan=1 colspan=1>普通高校</td><td rowspan=1 colspan=1>554</td><td rowspan=1 colspan=1>327</td><td rowspan=1 colspan=1>120</td><td rowspan=1 colspan=1>447</td><td rowspan=1 colspan=1>185</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>208</td></tr><tr><td rowspan=1 colspan=1>成人高校</td><td rowspan=1 colspan=1>68</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>合计</td><td rowspan=1 colspan=1>622</td><td rowspan=1 colspan=1>353</td><td rowspan=1 colspan=1>130</td><td rowspan=1 colspan=1>483</td><td rowspan=1 colspan=1>191</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>220</td></tr></table>",
+    "context3": "表2我国211工程高校上网及提供WebPAC基本情况单位所",
+    "context4": "<table><tr><td rowspan=2 colspan=1>高校数量</td><td rowspan=2 colspan=1>上网高校</td><td rowspan=1 colspan=3>图书馆网页</td><td rowspan=1 colspan=3>WebPAC</td></tr><tr><td rowspan=1 colspan=1>能访问</td><td rowspan=1 colspan=1>不能访问</td><td rowspan=1 colspan=1>合计</td><td rowspan=1 colspan=1>能访问</td><td rowspan=1 colspan=1>不能访问</td><td rowspan=1 colspan=1>合计</td></tr><tr><td rowspan=1 colspan=1>92①</td><td rowspan=1 colspan=1>92</td><td rowspan=1 colspan=1>86</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>91</td><td rowspan=1 colspan=1>79</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>80</td></tr></table>",
+    "context5": "注 $\\textcircled { 1 } ^ { \\ast }$ 211工程高校共有99所，合并重组后还有92所，合并重组情况如下北京医科大学(已并入北京大学)，上海医科大学(已并入复旦大学),吉林工业大学(已并入吉林大学),山东工业大学(已并入山东大学),武汉水利电力大学(已并入武汉大学),武汉测绘科技大学(已并入武汉大学),华西医科大学(已并入四川大学)。",
+    "context6": "表3我国高校图书馆常用WebPAC系统软件统计",
+    "context7": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>系统软件</td><td rowspan=1 colspan=1>厂商名称</td><td rowspan=1 colspan=1>使用单位数</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>LIBSYS2000</td><td rowspan=1 colspan=1>江苏汇文软件有限公司</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>ILASWEB</td><td rowspan=1 colspan=1>深图朗思</td><td rowspan=1 colspan=1>31</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Goldlib</td><td rowspan=1 colspan=1>鑫磐鹏图软件技术有限公司</td><td rowspan=1 colspan=1>23</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>SULCMIS</td><td rowspan=1 colspan=1>深圳大学图书馆</td><td rowspan=1 colspan=1>22</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>Datatrans</td><td rowspan=1 colspan=1>北京丹诚软件有限责任公司</td><td rowspan=1 colspan=1>15</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>MELINETS</td><td rowspan=1 colspan=1>北邮电信科技股份有限公司</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>文献集成管理系统</td><td rowspan=1 colspan=1>大连博菲特</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>*HORIZON</td><td rowspan=1 colspan=1>Epixtech Inc.(美国)</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>*UNICORN</td><td rowspan=1 colspan=1>Sirsi Corporation</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>*INNOPAC</td><td rowspan=1 colspan=1>Innovative Interfaces Inc.（美国）</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=1>其他</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>40</td></tr><tr><td rowspan=1 colspan=1>合计</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>223</td></tr></table>",
+    "context8": "注 $\\textcircled{1}$ 本调查中使用单位是指高校图书馆而非高校。",
+    "context9": "$\\textcircled{2}$ 根据表1，WebPAC能够访问的高校有191所(这代表真实地提供了WebPAC服务)。根据表4,所提供的WebPAC能够访问的高校图书馆(即使用单位)共有223个。",
+    "context10": "$\\textcircled{3}$ 表3按使用单位数排序，且仅列出排序在前面的10个WebPAC系统软件。以下情形归在表3的其他项：(1)使用单位数在6个以下的系统软件，如NLIS,重庆图腾、文津和纵横2000；(2)其图书馆自动化系统软件完全由该单位自行研制开发，且未见其他高校图书馆采用 (即未市场化)，或购买的是商业化产品，但其WebPAC检索软件和接口程序为自行研制开发，如云南大学。",
+    "context11": "表4我国211工程高校图书馆常用WebPAC系统软件统计",
+    "context12": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>系统软件</td><td rowspan=1 colspan=1>厂商名称</td><td rowspan=1 colspan=1>使用单位数</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>LIBSYS2000</td><td rowspan=1 colspan=1>江苏汇文软件有限公司</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>ILASWEB</td><td rowspan=1 colspan=1>深图朗思</td><td rowspan=1 colspan=1>15</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>Goldlib</td><td rowspan=1 colspan=1>鑫磐鹏图软件技术有限公司</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>MELINETS</td><td rowspan=1 colspan=1>北邮电信科技股份有限公司</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>*UNICORN</td><td rowspan=1 colspan=1>Sirsi Corporation</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>*INNOPAC</td><td rowspan=1 colspan=1>Innovative Interfaces Inc.</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>*HORIZON</td><td rowspan=1 colspan=1>Epixtech Inc</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Datatrans</td><td rowspan=1 colspan=1>北京丹诚软件有限责任公司</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>文献集成管理系统</td><td rowspan=1 colspan=1>大连博菲特</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>SULCMIS</td><td rowspan=1 colspan=1>深圳大学图书馆</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>其他</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>合计</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>92</td></tr></table>",
+    "context13": "注 $\\textcircled{1}$ 使用单位为高校图书馆而非高校。如果合并重组，则合并重组后的高校图书馆为使用单位。如吉林大学由原吉林大学、吉林工业大学、白求恩医科大学、长春科技大学、长春邮电学院合并组建，其新民校区图书馆、朝阳校区图书馆、南湖校区图书馆、南岭校区图书馆、前卫校区图书馆分别建有相应图书馆网页，并提供相应WebPAC，因而这些校区图书馆均为使用单位。",
+    "context14": "$\\textcircled { 2 } ^ { \\mathfrak { s } }$ 其他项包括使用单位数在2个以下的系统软件,如NLIS、重庆图腾和ALEPH(以色列）图书馆自动化系统软件为自行研制开发的高校图书馆；WebPAC系统检索软件和接口程序为自行研制开发的高校图书馆。"
+  },
+  "2.4调查结果分析": "",
+  "2.4.1我国高校上网及WebPAC的普及程度": {
+    "context1": "根据表1,我国目前共有622所高校上网，提供图书馆网页的高校有483所，占 $7 7 . 7 \\%$ ,其图书馆网页能够访问的有353所，占 $5 6 . 8 \\%$ 提供WebPAC的高校有220所，占 $3 5 . 4 \\%$ ,其WebPAC能够访问的有191所，占 $3 0 . 7 \\%$ 。在所有上网的高校中，普通高校占 $8 9 . 1 \\%$ (554/622)，成人高校占 $1 0 . 9 \\%$ (68/622) ;建有图书馆网页的普通高校占 $9 2 . 5 \\% ( 4 4 7 / 4 8 3 )$ ，成人高校占 $7 . 5 \\% ( 3 6 / 4 8 3 )$ 所提供的图书馆网页能够访问的普通高校占 $9 2 . 6 \\%$ (327/353)，成人高校占$7 . 4 \\% ( 2 6 / 3 5 3 )$ 提供WebPAC的普通高校占 $9 4 . 5 \\%$ (208/220)，成人高校占 $5 . 5 \\%$ (12/220);WebPAC 能够访问的普通高校占 $9 6 . 9 \\%$ (185/191),成人高校占$3 . 1 \\% ( 6 / 1 9 1 )$ 。",
+    "context2": "根据表2,我国“211工程高校92所均上网，并且提供图书馆网页的有91所，占 $9 8 . 9 \\%$ ,其图书馆网页能够访问的有86所，占 $9 3 . 5 \\%$ ；提供WebPAC的有80所，占 $8 7 . 0 \\%$ ,其WebPAC能够访问的有79所,占 $8 5 . 9 \\%$ 。"
+  },
+  "2.4.2我国高校及“211工程”高校图书馆常用WebPAC系统软件": {
+    "context1": "根据表3，我国高校图书馆常用WebPAC系统包括LIBSYS200O、ILASWEB、Goldlib、SULCMIS、Datatrans、MELINETS、文献集成管理系统、HORIZON、UNICORN和INNOPAC，其中HORIZON、UNICORN 和 INNOPAC 均 为美国WebPAC系统软件。根据表4,我国‘211工程高校图书馆常用WebPAC系统包括LIBSYS2000、ILASWEB、Goldlib、MELINETS、UNICORN、INNOPAC、HORIZON、Datatrans、文献集成管理系统和 SULCMIS。"
+  },
+  "3结论与建议": "",
+  "3.1结论": {
+    "context1": "(1）我国高校上网、建有图书馆网页和提供WebPAC主要是普通高校,其中“211工程高校上网、建有图书馆网页和WebPAC的普及程度要比其他高校更好，图书馆网络服务能力也更强。但整体而言，目前我国高校上网数量偏少，建有图书馆网页和提供WebPAC的高校数量偏少，特别是很多高校所提供的图书馆网页和WebPAC根本不能访问，因而读者也无法在网上享受图书馆所提供的服务；",
+    "context2": "即使是“211工程高校，也存在未在网上建有图书馆网页，所建图书馆网页和WebPAC读者根本不能访问的情况，因而图书馆网页的建设、WebPAC的普及以及图书馆网络服务能力的提高是我国高校普遍值得重视的问题。",
+    "context3": "(2)我国高校以及“211工程高校较常使用的WebPAC系统有10种,7种为国内自行开发的WebPAC系 统(LIBSYS2OOO、ILASWEB、Goldlib、SULCMIS、Datatrans、MELINETS、文献集成管理系统）,3种为国外 WebPAC 系统（HORIZON、UNICORN 和 INNOPAC)。"
+  },
+  "3.2建议": {
+    "context1": "我国高校及其图书馆应重视网络环境下图书馆的建设，不断地增强图书馆网络服务能力。高校上网和建有图书馆网页是高校及其图书馆适应网络环境的体现，WebPAC更是高校图书馆在网上提供的最基本的服务。目前未上网、未建有图书馆网页或未提供WebPAC的高校，应在原有图书馆自动化基础上，将图书馆自动化成果在Internet上充分揭示出来，使读者可直接在网上查询馆藏和流通并预约图书,加强图书馆目录功能，使图书馆24小时都能为读者服务，在此基础上逐渐在网上提供其他服务；已提供WebPAC的高校图书馆也要使其WebPAC能真正供读者在网上检索，加强馆员和读者的交流，有效地提高WebPAC利用率，提高图书馆资源利用率。",
+    "context2": "作者单位：中南大学湘雅医学院信息管理系，湖南长沙，410078",
+    "context3": "收稿日期2002年3月22日"
+  },
+  "海南省高校图书馆初步实现资源共享网络化": {
+    "context1": "日前,海南省教育厅召开全省高校图书馆网络化建设工作总结和表彰大会，总结高校图书馆网络化建设四年来的成绩与经验，表彰在网络化建设过程中作出突出贡献的先进集体和个人。",
+    "context2": "海南省高校图书馆的网络化建设，是在1997年基本完成各高校图书馆计算机集成化管理的基础上实施的第二步自动化建设工程。经过1998年至2001年历时四年的艰辛努力，顺利完成了网络化环境和网络资源建设，进行了专业人员的技术培训、读者检索方法的培训以及各项管理制度的建设,依托校园网通过中国教育科研网,实现了各高校图书馆文献信息资源的联机检索、联机编目、联机协作采购和联机借阅的建设目标。尤其是网络资源的共知共享和全省\"一卡通用的馆际互借服务，使图书馆的借阅服务打破了时间限制和馆际界限，促进图书馆实现了两个转变和一个提高：服务对象和范围实现了由单纯为本校师生服务向为全省高校师生服务的转变;文献信息资源建设开始由自我保障向“联合保障转变;全省高教文献资源的整体保障能力得到有效提高。 (黄玉华)"
+  },
+  "JOURNAL OF ACADEMICLIBRARIES (Bimonthly)": "",
+  "CONTENTS": "",
+  "Library and Librarianship": {
+    "context1": "rogrammatic document for Academic Libraries Reformation and Development in the New Century—Review on the Genera :egulations for Academic Librariesrevision，Yan Jinwei(2)",
+    "context2": "Abstract:Based ona comparative study on the GRALR from several aspects.It describes theregulations_as curently new liscussesthedistinguishing featuresof thenew regulations.Italso pointsout thesignificanceof theRegulationsontl levelopment of Chinese academic libraries in the new century.",
+    "context3": "Keywords：Academic Libraries，Regulations",
+    "context4": "xpeditingthe Modernizationof Academic Libraries under the Guidanceof theNewRegulations—Onthe Characteristics of the eneral Regulations for Academic Libraries Revision，Zhou Chongzhou（5）",
+    "context5": "Abstract:This paperintroduces thecharacteristicsof the GRALRfromseveralaspects.itdescribes theRegulationsasurrentl lew,concisely transparent，suitable to the times，precursory，and succeeding &.progressive.   \nKeywords：Academic Libraries，Regulations"
+  },
+  "Cooperation and Resource Sharing": {
+    "context1": "A Comparison Study on the Physical and Virtual Union Catalog，Liu Suqing（7)",
+    "context2": "bstract:This papercompares two modelsofonlineunioncatalog--physicaland virtualcatalog.Basedontheanalysis of each 1odel'spros.ndcons，itmakessuggestionontheconstructionoftheonlineunioncatalog，whichwilldefinitelyfacilitateresource haringworldwide.",
+    "context3": ":eywords : Physical Union Catalog，Virtual Union Catalog，Z39.50,Online Cataloging，Resource Sharing",
+    "context4": "On The Utilization Of CALLS System among the Non-Project 211 Member Libraries，Deng Qin，Zeng Lijun（12)",
+    "context5": "bstract:Fromtheaspectof thesatisfactionrateof thedocumentavailabilityofCALIS,this paperpoints outthe significanceo kingtheadvantagesof CALISsystemand discussescoupleof relativeissues.Itsuggests thatthenon-Project 211 membe )raries shouldemphases on library cooperation and information resource sharing on the way of library development.",
+    "context6": ":ywords ：CALIS,College Libraries，Rate of Document Availability，Project-211"
+  },
+  "Digital Library Forum": {
+    "context1": "On the Preferential Strategy of Academic Digital Library Development，Su Haichao（15)",
+    "context2": "Abstract：Thearticle summarizes thecurrentstatusof theacademicdigitalibrarydevelopmentin China.Itmakessuggestionson administrativepolicyformulationaswellascooperationandresourcesharingamong theuniversities，anddiscussestheissues related toinvestment，technology，stafing，user training and featured library resource developmentof digital library. Keywords：Digital Library，Academic Library",
+    "context3": "Study on the development and application of a Chinese E—book System，Zhang Chengyu，etc.（19）",
+    "context4": "Abstract：Based on the experience of an Chinese $\\mathrm { E } -$ book System development cooperated by Tsinghua University Library and SuperStar Co.，this article discusses the current status of the Chinese $\\mathrm { E - }$ book system development，It also describes the specific technological solutionof the systemand introduces the system structure，major functions anddey technologies involved. Keywords:E-book system，OCR，Full Text Retrieval",
+    "context5": "Digital Library：Theory &Practice—On the Developmentof \"Economics Digital Libraryof Renmin Universityof China\",M Venfeng（24)",
+    "context6": "Abstract:Thisarticleintroducesthe\"EconomicsDigitalLibraryofRenmin UniversityofChina\".IttackleswithseveralaspectsC heEconomics DigitalLibrarysuchastheconstructionobjectives，basic principle，ontentandstructureof thesystemand themai 'eaturesana tuncnons.",
+    "context7": "Keywords：Digital Library，Resources Integration，Economics，Renmin University of China"
+  },
+  "'he Organization and Usage of Document and Information": "",
+  "The Cataloging of Internet Resource in the United States，Ding Gendu （26）": {
+    "context1": "Abstract:This paperintroduces thedevelopmentofthe IntemetresourcecataloginginUSAbydividingthedevelopmentprogress intothreeperiods.Itfurthermoreanalysesthemajorrepresentativeprojects，thecatalogingtechnologiesandtherelativeproblems in eachperiod.Itintendstoprovidereferencefortheresearchand developmentof Internet resourcecataloging in China. Keywords：Libraries in the United States，Intemet Cataloging，Network Resource，Search Engine",
+    "context2": "OnthePretreatmentand problemAnalysis of the WesternLanguage MARCRecordsof CALIS Union Catalog，ZhangJune（3O) Abstract:Folowedbytheintroductionofseveral examplesanddescriptionoftheerrranalysis methods，this paperemphaseson thestandardandauthorityoftheMARCrecordsastheguaranteeofthequalityoftheUnioncatalog.Itsuggeststhatalthe memberlibraries should pay attention to it.   \nKeywords:Pretreatment，MARC Records，Quality Control，Union Catalog"
+  },
+  "Automation，Networking and Digitalization": {
+    "context1": "The Current Status of the University Libraries’WebPAC Development in China，Huang Biyun，Fang Ping（34)",
+    "context2": "Abstract：Thepaper introducestheresultofasurveyonChinese Universities’Websites，universitylibraries'WebPagesandtheir WebPACs.BasedontheresultofthesurveyitfurthermoresummarizesthecurrentstatusoftheuiversityWebPACdevelopment in China and makes suggestions for it.   \nKeywords：WebPAC,Survey，Universities，China",
+    "context3": "An overyiew of the Cataloguing Module of Horizon Library Integrated Management System，Sun Xiaofei，,Cao Yuxia （37）",
+    "context4": "Abstract:This articleanalyzes theadvantages anddisadvantages of Horizon system’scataloguing module.It also points outthe problems of the model and the possible solutions to the problems.",
+    "context5": "Keywrds9irar0IntgateManagmentSystegingMoleblshing House. Allrights reserved.http://w"
+  }
+}

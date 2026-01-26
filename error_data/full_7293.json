@@ -1,0 +1,59 @@
+{
+  "original_filename": "full_7293.md",
+  "新话题监测研究进展": {
+    "context1": "饶洋辉(中国科学院文献情报中心 100190)"
+  },
+  "叶良常红旭程洁(中国科学院计算机网络信息中心100190)": {
+    "context1": "文摘新话题监测是话题检测与跟踪领域的一项重要研究。对于事件层的新话题监测，主要阐述基于聚类的方法,包括文档的向量化表示以及文档聚类。对于句子层的新话题监测，重点介绍基于问答系统的方法,包括问题表述与预处理、相关句子检索以及新颖句子检测。并对新话题监测研究存在的问题及其发展趋势进行了探讨。",
+    "context2": "关键词新话题监测聚类问答系统"
+  },
+  "Review of Study on New Topic Detection Rao Yanghui": {
+    "context1": "(Centre of Documentation and Information， Chinese Academy of Sciences ， Beijing 100190)",
+    "context2": "Ye Liang,Chang Hongxu,Cheng Jie",
+    "context3": "(Computer Network Information Center，Chinese Academy of Sciences，Beijing 100190)",
+    "context4": "Abstract New topic detection is an important research in the field of topic detection and tracking. For new topic detection at the event level，method based on clustering was discussed mainly，which included the representation of documents，and document clustering. For new topic detection at the sentence level，method based on question answering was presented mainly，which included question formulation and processing，relevant sentence retrieval，and new answer detection.Finally，problems and trends of new topic detection were discussed.",
+    "context5": "Key words New topic detection， Clustering， Question answering"
+  },
+  "1研究背景": {
+    "context1": "新话题监测旨在帮助人们应对信息过载等问题,它源于对新闻等舆情的处理,并广泛应用于科技前沿监测、战略情报等研究中。新话题监测的基本思想始于1996年,最初是话题检测与跟踪研究中的一个子任务。话题检测与跟踪（Topic Detection andTracking,TDT)主要以新闻等媒体信息流为处理对象，从事报道边界自动识别、锁定和收集突发性新闻话题、识别新事件以及跟踪话题发展等相关任务[1-3]。",
+    "context2": "从新话题监测研究的历程来看，早期的监测方法主要为事件层。这类监测系统的输入一般为新闻报道,输出为首篇报道或新事件。与其相关的概念包括回溯事件监测、在线话题监测、首篇报道监测以及新事件监测[2,4]。事件层的新话题监测主要基于聚类的方法，聚类能够根据报道等文档的主题相似程度，将相似度较高的文档划分在同一个簇中，簇与簇之间则尽量相异。由于同一主题往往涵盖多个类似的具体事件[1],如何识别同一个主题框架下的不同话题成为该方法的难点，同时，由于这类系统是从整篇文档的层次上来监测是否含有新话题的,所以不能处理同一篇文档中含有多个不同子话题的情况,而这在论文或网页中是广泛存在的。为解决上述问题出现了一些从句子层面进行新话题监测的方法和技术[5-7],这类监测系统的输入不再局限于新闻报道,还可以是论文、网页等,输出则为含有新颖话题的句子。句子层的新话题监测主要基于问答系统的方法，将新话题监测任务转化为从问答系统中寻找新颖的答案。在基于问答系统的新话题监测中,新话题被定义为潜在问题的新颖答案[5-7],这些潜在问题描述了用户的查询或信息需求,即以句子的形式输出含有新颖信息的话题,因此,它能够监测出同一篇文档中可能含有的多个新颖子话题。",
+    "context3": "对于事件层的新话题监测,本文重点阐述基于聚类的方法对于句子层的新话题监测,本文重点介绍基于问答系统的方法最后,探讨新话题监测存在的问题与研究展望。"
+  },
+  "2新话题监测方法": "",
+  "2.1基于聚类的新话题监测方法": {
+    "context1": "基于聚类的新话题监测是目前常用的一种方法,最初由Yang Y、Allan J等在1998 年的 SIGIR会议上提出,其后随着研究的深入,有学者结合命名实体对其进行改进，以提高新话题监测的精确度。该方法主要包括文档的向量化表示、文档聚类两个模块。"
+  },
+  "2.1.1文档的向量化表示": {
+    "context1": "向量化表示是对文档的预处理,其主要步骤如下首先抽取所有文档中的词,形成一个不重复的词列表然后以词列表中的所有词为列，文档集合中的所有文档为行,构成一个矩阵,即向量空间模型。向量空间模型中的元素值通常为TF $^ *$ IDF,TF为词在文档中出现的频次,IDF为倒置文档频率。 $\\mathrm { T F } * \\mathrm { I D F }$ 反映了词在一篇文档和文档集合中的分布情况,比绝对频次或相对频次更为精确。然而，传统的 $\\mathrm { T F } \\ast$ IDF不适用于在线新话题监测。因为随着新文档的流入，词汇和文档数量在不断地变化，IDF会动态地改变。此时，可以采用增量式的 TF $^ *$ IDF值[4][8][9][o][]。在增量式的 $\\mathrm { T F } * \\mathrm { I D F }$ 中,TF仍为词在文档中出现的频次，而IDF则随时间动态更新。对此,YangY等[4]采用的计算方法是,每新进入一篇文档,就对当前累积的所有文档重新计算IDF值，该方法的缺陷是时间消耗较大。洪宇、T.Brants等[8][10]首先将报道流按时间顺序划分为多个时段，然后分时段计算文档频率，该方法能够降低其时间消耗。",
+    "context2": "以上向量化表示方法存在的主要问题是较难区分同一主题框架下的不同话题，因为这类同主题的文档通常含有较多相似甚至相同的词，而基于聚类的新话题监测一般都是采用统计学的方法，通过词频、共现等来计算相似度值，对主题相同、但话题不同的文档区分度不够。对此进行改进的方法主要是结合命名实体识别技术，因为新闻话题之间的区别通常在于时间、地点和人物等命名实体之间的异同[2][12][13][4]。命名实体包括人名、地名、机构名、时间、日期、货币和百分比等。借助命名实体来改进传统向量空间模型的方法主要有：YangY等[12]采用的两层体系结构来进行新话题的监测，第一层为主题层,第二层为事件层，以便更好地区分同一主题框架下的不同话题。对于进入系统的新文档，首先通过有监督的学习算法,基于主题对该文档进行分类，进而将文档输入到与之最接近主题的事件层中；然后抽取进入事件层的新文档的多类命名实体，用于扩充原始的特征向量，以提高对不同事件的区分度GiridharK等[2][13]将报道预先进行分类,并检验命名实体作用于哪些新闻类以助于系统识别新话题 ZhangK等[14]则进一步细化GiridharK的工作，详细区分了不同命名实体类别与各新闻类别的关联性,以便合理地设置命名实体的权重。",
+    "context3": "将所有文档按照上述方法转换成向量空间模型后,便可以通过计算向量的相似度来对文档进行聚类。"
+  },
+  "2.1.2 文档聚类": {
+    "context1": "新话题监测中采用的聚类算法大多基于已有的文本聚类技术,并利用时间信息进行调整与改进。",
+    "context2": "YangY等[4提出了一种基于平均分组的层次聚类算法(GAC-based hierarchical clustering)来进行新话题监测。GAC是一种自底向上的贪心算法，采用了分而治之的策略，能够最大化话题类簇中各新闻报道之间的平均相似度。该算法的输入为按照时间排序的文档集合，输出为层次式的话题类簇结构。该算法的优点是考虑了文档的时间顺序，提高了话题类簇的质量，而且通过调整参数可以改善监测结果缺点是只适用于固定文档集合的新话题监测,即回溯话题监测,应用范围受到了一定的限制。",
+    "context3": "单遍聚类算法(Single-pass clustering)则是针对在线话题监测而提出的，该算法又称增量聚类算法 $[ 4 , 8 - 1 1 ]$ 。其基本流程如下:首先计算当前新闻报道 $\\mathbf { X }$ 与以前所有新闻话题之间的相似度，得到最大的相似度值然后，将其与聚类阈值和创新阈值进行比较,判断 $\\mathbf { X }$ 是否为首篇报道。对于相似度值的计算,YangY等[4]采用了时间窗口与衰退函数对其进行调整，其基本思想是距离当前报道 $\\mathbf { X }$ 越近的文档，其相似度值权重越大。对于阈值的设定，考虑到新闻媒体的特性,时间上距离某个话题越远的报道，该报道就越难加入该话题，其阈值会动态地增大，Al-lanJ等[9,11]提出了一种动态的阈值计算公式。实验发现,在文本聚类的基础上合理地利用报道的时间信息，新话题监测的效果有所提升。",
+    "context4": "由于基于聚类的新话题监测方法是从报道（或事件)的层次上监测一篇报道是否为新的,而同一篇报道中可能含有多个子话题,所以其准确度难以保证。基于问答系统的新话题监测方法为句子层，能够避免上述问题。"
+  },
+  "2.2基于问答系统的新话题监测方法": {
+    "context1": "cP随着网络舆情、科技前沿监测、战略情报等对新话题监测方法的应用需求加大，研究人员发现输出为文档列表的基于聚类的新话题监测方法并不适用于论文、网络文档等语料,因为上述语料往往在同一篇文档中含有多个子话题。由此,Li，X.和Croft,W.B.提出了基于问答系统的新话题监测方法[5-11],该方法是从句子的层次上监测含有新颖信息的话题,从而处理同一篇文档中含有多个子话题的语料。基于问答系统的新话题监测主要包括问题表述与预处理、相关句子检索和新颖句子检测三个步骤。"
+  },
+  "2.2.1问题表述与预处理": {
+    "context1": "问题表述与预处理是指通过某种规则自动地将一个主题转换成一个或多个问题[5-6],同时判断问题所属的类型。由于当前的问答系统在答案为命名实体的问题处理上较为成熟,所以Li，X.等[5-15]首先对命名实体与新颖句子之间的相关性进行了统计分析，以便验证当前的问答系统是否能够较好地用于新话题的监测。他们首先对已标记了的TREC2002 novelty track 的 53个话题,TREC 2003 noveltytrack的50个话题,以及UMass的48个话题进行统计分析，发现命名实体与新颖句子的相关性较高，因此,当前基于问答系统的新话题监测方法将问题限定为答案为命名实体的问题。",
+    "context2": "Li,X.等[5]将 TREC 2002 -2003 novelty track中的主题表述为如下三类：特定类型的问题、POLD(Person，Organization，Location，Date类型)问题及一般类型的问题。特定类型的问题指答案为特定类型命名实体的问题，这类问题的特点是主题句子中含有Who、When、Where 等提示词,采用 word - pat-tern matching算法可以判断上述主题分别为人物(或机构)、日期、地址等特定命名实体类型的问题；POLD 问题是指答案为 Person、Organization、Loca-tion、Date这四种类型的命名实体的问题，通常POLD问题适用于表述事件型的主题；一般类型的问题是指答案可能为所有类型的命名实体的问题，通常一般类型的问题用于表述除了上述两种类型之外的其它主题。"
+  },
+  "2.2.2相关句子检索": {
+    "context1": "相关句子检索指通过比较问题与候选句子得到与问题相关的句子,这些句子中可能包含潜在的答案,即新话题[5-7]。句子的相关度主要是利用模式匹配技术、关键词匹配技术、基于向量空间模型的TFIDF方法等来计算,其中,TFIDF法是目前主流的一种方法相关包子的检索步骤主要如下道，先,将问题和候选句子去除停用词以及词干化淇次,给定问题q,计算句子s的相关度最后,通过统计发现句子中含有的命名实体的种类数与该句子为新颖的概率正相关，为了提高包含了更多种类的命名实体的句子的排名,采用调整参数对初始的相关度分值进行了调整。",
+    "context2": "Li,X.、J.Allan等[5-]通过实验测试发现,无论是特定类型的问题、POLD问题还是一般类型的问题,该方法均比 Initial Retrieval Ranking、New WordDetection及 MMR更为精确。Initial Retrieval Rank-ing是将所有的相关句子都认为是新颖句子，NewWordDetection是指将所有包含以前没有出现过的新词的句子作为新颖句子，MMR则是自动文摘系统中常用的方法。但是在本监测系统内部进行比较也发现与特定类型的问题相比，一般类型的问题（尤其是观点型的主题表述而成的问题)准确度不高。",
+    "context3": "为此,Li，X.等[利用 TREC 2003-2004 novel-ty track中对主题的分类,分别对事件型的主题和观点型的主题进行统计分析，然后采用如下的调整方法对于事件型的主题， $\\mathrm { S } _ { 1 } ~ = \\mathrm { S } _ { 0 } ~ *$ （ $\\mathrm { L } \\bar { \\mathrm { L } } * \\left[ 1 + \\alpha \\right.$ $\\left( \\mathrm { F _ { p e r s o n } } + \\mathrm { F _ { l o c a t i o n } } + \\mathrm { F _ { d a t e } } \\right) \\dot { } .$ ，其中，L为句子s的长度，为所有句子的平均长度， $\\mathrm { F _ { p e r s o n } { \\bullet } F _ { l o c a t i o n } { \\bullet } F _ { d a t e } }$ 均为二值变量,分别表示句子s中是否含有人物、地点、日期类型的命名实体对于观点型的主题， $\\mathbf { S } _ { 2 } = \\mathbf { S } _ { 1 } * \\left[ 1 \\mathbf { \\Gamma } + \\mathbf { \\Gamma } \\right.$ $\\beta F _ { o p i n i o n } ]$ ，其中， $F _ { o p i n i o n }$ 为二值变量，表示句子s是否为观点类的句子,观点类句子是指含有双引号、said、say、agree等反映观点的词或短语的那些句子。 $\\alpha$ 和$\\beta$ 均为调整参数最后,Li,X.等[s][6][15]进一步研究了相关句子(及新颖句子)与新的命名实体之间的关系，发现部分相关句子中没有包含新的命名实体。为此,他们加入了新词的个数对原公式进行调整，使得不包含任何命名实体或者没有包含新命名实体的相关句子也能够被检索出来。"
+  },
+  "2.2.3新颖句子检测": {
+    "context1": "检索出所有的相关句子之后，便进入新颖句子的检测环节。新颖句子的检测是指抽取相关句子中的命名实体,将其与以前的所有命名实体进行比较，如果有新的命名实体，则将该相关句子标记为$\\mathrm { N e w } ^ { [ 5 - 6 ] }$ 。其主要步骤如下首先,抽取相关句子中的人物、机构、地址、日期等命名实体。对于特定类型的问题,只抽取相应类型的命名实体,对于一般类型的问题，则抽取所有的命名实体。目前常用的命名实体抽取方法为句法分析法，具体规则如下对于人物和机构类型的问题，候选的答案在名词短语中；对于地址和日期类型的问题,候选的答案在介词短语中,且修饰主动词[16]其次,将上个步骤中抽取的命名实体与历史答案库中的所有命名实体进行比较,如果有新的命名实体，则将对应的相关句子标记为新颖的。"
+  },
+  "3问题与展望": {
+    "context1": "新话题监测自1998年首次提出以来，不仅在理论方面有诸多的研究,也开发了一系列的应用系统，如北大方正智思的互联网舆情采集分析系统、中讯数网公司的互联网舆情分析系统、Google资讯、TDTLightHouse[17]等。但也存在一些亟待解决的问题,如结合命名实体等自然语言处理技术改进后的基于聚类的新话题监测虽然得以区分同一主题框架下的不同话题,但却难以监测同一篇文档中的不同子话题基于问答系统的新话题监测虽能较好地区分同一篇文档中的不同子话题,且直接返回包含新话题的新颖句子(答案)，但它受限于问答系统的准确度。此外,上述两种新话题监测方法都没有考虑文档或命名实体的语义信息。将文档转换成向量空间模型仅仅是利用空间相似性来逼近语义相似性，如使用不同词汇来表达相同含义的两个句子，后面的句子中可能含有以前没有出现的词汇,但是不能认为后面的句子含有新的话题或信息[5-6]。",
+    "context2": "新话题监测未来的研究方向将主要集中于如下几个方面进一步加强机器学习与自然语言处理技术的有效融合[14];结合 TextTiling[8]、（加权)互信息[18]等子话题边界识别方法提高系统的性能等。"
+  },
+  "参考文献": {
+    "context1": "1李保利,俞士汶.话题识别与跟踪研究.计算机工程与应 用,2003(17）7-10   \n2 洪宇等.话题检测与跟踪的评测及研究综述.中文信息 学报,2007(6）:71 -84   \n3 James Allan，Jaime Carbonell，George Doddington，etc. Topic Detection and Tracking Pilot Study:Final Report.In Proceedings of the DARPA Broadcast News Transcription and UnderstandingWorkshop，San Francisco，CA，1998, Morgan Kaufmann Publishers，Inc   \n4 Yiming Yang，Tom Pierce，Jaime Carbonell．A study on retrospective and on-line event detection.In Proc.of SIGIR Conference on Research and Development in Information Retrieval,1998   \n5 Li，X.，Croft，W.B．An Answer Updating Approach to Novelty Detection．CIIR Technical Report，IR-359，Department of Computer Science，University of Massachusets Amherst，2004 In the Proceedings of ACM Fifteenth Conference on Information and Knowledge Management（CIKMO6），November 6-11,2006 :1-10   \n7J.Allan，A．Bolivar,C.Wade.Retrieval and Novelty Detection at the Sentence Level.Proc.SIGIR-O3,2003   \n8洪宇等.基于子话题分治匹配的新事件检测.计算机学 报,2008(4） 687 -694   \n9Allan J,Papka R,Lavrenko V.Online new event detection and tracking. Proceedings of ACM SIGIR,1998 :1-9   \n10T.Brants,F. Chen，A.Farahat.A system for new event detection．In Proc.of the SIGIR conference on Research and development in information retrieval，2O03:330 - 337   \n11Papka R,Alln J.On-line New Event Detection Using Single Pass Clustering. TITLE2:Technical Report UMCS-1998 -021,1998:1 -9   \n12Yiming Yang，Jian Zhang,Jaime Carbonell,etc. Topic - conditioned novelty detection.In Proc.of the SIGKDD international conference on Knowledge discovery and data mining，2002   \n13Giridhar K，Allan J. Text Classification and Named Entities for New Event Detection.In Proceedings of the 27th Annual International ACM SIGIR Conference，New York, NY，USA．ACM Press,2004   \n14Zhang Kuo,Li Juan Zi，Wu Gang.New Event Detection Based on Indexing - tree and Named Entity.In Proceedings of SIGIR -2007，?msterdam，Netherlands,2007: 215 -221   \n15Li,X.，Croft，W.B. Novelty Detection Based on Sentence Level Patterns.In Proceedings of ACM Fourteenth Conference on Information and Knowledge Management (CIKM），Bremen，Germany，31st October- 5th November,2005   \n16Harabagiu，S.，Moldovan，D.Answering complex，list and context questions with LCC's Question - Answering Server.Proceedings of TREC 2001   \n17David Frey,Rahul Gupta,Vikas Khandelwal,etc.Monitoring the News :a TDT demonstration system. University of Massachusetts，2000   \n18Bingjun Sun，Prasenjit Mitra,Hongyuan Zha，etc.Topic Segmentation with Shared Topic Detection and Alignment of Multiple Documents．Proceedingsof ACM SIGIR, 2007 :199 -206"
+  }
+}

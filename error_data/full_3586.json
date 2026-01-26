@@ -1,0 +1,84 @@
+{
+  "original_filename": "full_3586.md",
+  "nothing": {
+    "context1": "·理论探索·"
+  },
+  "国外标签本体研究进展": {
+    "context1": "吴芬",
+    "context2": "(湖南商学院图书馆，湖南 长沙 410205)",
+    "context3": "[摘要]为解决folksonomies的问题，提出给标签、标注行为增加语义的标签本体，并利用语义网本体建模标注行为和folksonomies。标签本体的发展从关注标注活动发展到关注folksonomy（协同标注活动），并从标签含义的角度，创建MOAT跨越标注行为与语义检索的鸿沟。标签本体正走向统一、共享的新阶段。",
+    "context4": "[关键词]标签本体；folksonomy；语义网",
+    "context5": "[中图分类号]G254〔文献标识码]A〔文章编号〕1008－0821（2009）11－0016—05"
+  },
+  "Research Progress of Tag Ontology Abroad": {
+    "context1": "Wu Fen",
+    "context2": "(Library，Hunan University of Commerce，Wuhan 43OO79， China)",
+    "context3": "[Abstract）Inorder to solve the problems offolksonomies，researchers proposes tag ontologyadding semantics to tag and taging，andmodels taggingandfolksonomieswithontologyThedevelopmentoftagontologywasfromfocusingontagingactivity tofolksonomy（collaborativetagging），andcreated MOATbridging the gapbetweenfreetagging andsemanticretrieval·Tag on tology is towardsunifom andsharing",
+    "context4": "[Key words］ tag ontology；tagging；folksonomy；semantic web",
+    "context5": "随着 $\\mathrm { w e b 2 . 0 }$ 的发展，标签（tag）以其自由、方便广泛流行，标签数据迅速增长，但其检索效率则迅速下降。这是由于标签的自由、简单易用导致以下检索问题[1]：（1)本地差异：标签没有语义，无法分辨同义词和一词多义；并且对于名词单复数、动词时态和替换拼法等不同词汇形式以及人为的拼写错误无能为力；（2）分布差异：不同的folksonomies系统有各自运作的具体方式，无法从不同应用程序或服务中找出标签数据的含义和关系。而这些局限是由于在folksonomies系统中缺乏统一的结构和语义表示，不同folksonomies 系统没有共享、交流、复用标注数据的统一方式。",
+    "context6": "为在folksonomies系统中增加更多的结构和语义，国外研究者已进行了相当的研究。但这些研究主要集中于标签使用范式的统计分析基于标签数据的社会网络分析和聚类等[1]，即主要是研究标签。Golder 和 Huberman 收集 delicious中的数据并分析标签系统的结构和使用范式，指出标签比例的稳定性[2]；Adam Mahtes 提出标签的负幂分布规律：少量的标签被大量的人使用，大量的标签只有少数人使用[3]。",
+    "context7": "Cattuto、Loreto 和Pietronero 表示，标签之间共现关系的非平凡性可以描述成语义学，通过标签之间的共现分析可以揭示协同标记中的语义关系，如标签之间的同义词、等级关系等[4]。Begelman 提出对标签共现的次数进行处理寻找截止点，重新组织的新标签空间表示成无向图，形成相关标签群，并用聚类算法精炼它们； $\\mathbb { W } \\mathbf { u }$ 等提出一个概率模型,以基于标签、资源和用户的共现产生语义相关的标签群;还有一些folksonomies系统提供“相关标签”、“流行标签”，也显示了相关标签群[5]。这些依赖标签共现的策略，能够找出潜在相关标签群，但由于没有揭示标签间的实际关系，表示的语义也就相当有限。",
+    "context8": "随着语义网技术本体的发展，研究者考虑利用本体解决folksonomy 系统的局限，提出标签本体（tag ontology）。本体是共享概念模型的明确形式化规范说明，系统地表示概念之间的内在的语义联系，能为folksonomies 系统提供统一的结构（共享的概念模型）和语义表示（明确的形式化规范说明)。标签本体是关于标注活动（tagging）的明确和形式化的规范说明，有完善知识表示、促进知识共享、机器可处理的作用[1]。这样研究重心就开始从标签转到标注活动。"
+  },
+  "1标签本体(tag ontology)": {
+    "context1": "在folksonomy系统中，标注活动就是用户给资源添加标签的过程，即Tagging：（U,T,R)，是folksonomy 系统的经典三元模型。其中U是参与标注活动的用户集，T表示用户分配的标签，R表示被用户标注的资源，它们是标签本体的核心概念。目前，国外一些研究者根据folksonomy 系统的三元模型进行深入研究，提出多个标签本体。以下分类介绍当前国外标签本体的研究情况。"
+  },
+  "1.1基于标注活动的标签本体": {
+    "context1": "标签本体的发展早期，试图对标注活动进行明确和形式化的规范说明，关注于在语义层面表示标注活动：New-man 的关于标签和标注行为的本体[7]，描述用户、资源和标签间的关系，是完整的标注活动模型，为其他标签本体广泛复用；Gruber 的概念模型[]和Knerr 的标注本体[8]还考虑不同系统的协同标注活动。"
+  },
+  "1.1.1 Gruber 的概念模型": {
+    "context1": "Gruber于2005 年就提出标注活动模型，是概念化标注活动的早期尝试。其目的是在多个应用程序或服务间实现协同标注，并基于标注活动进行协同过滤。Gruber 的概念模型为：Tagging:(object,tag,tagger,source,polarity）",
+    "context2": "其中object、tag、tagger 分别表示资源、标签、用户,同前面的三元模型一致，source表示应用程序或服务的来源，即delicious、Flickr 等folksonomy 系统，支持跨系统的协同标注活动；polarity 表示基于标注活动的协同过滤，用“ $^ +$ ”和“一”表示，如果缺省就表明选择“十”。在概念模型中，Gruber还提出标签的识别，即一个标签可以有多个字符串（label）表示，如不同的语言或拼写方法表示，但每个标签只有一个字符串是它的规范名，用来识别标签的不同，并在不同系统中交流共享。",
+    "context3": "Gruber的概念模型虽然只是概念地界定，并不是实际的本体，但是它清楚地揭示了标注活动的一般概念，并首次考虑协同标注活动，方便标签在不同系统间的交流共享。"
+  },
+  "1.1.2Newman 的标签本体": {
+    "context1": "根据前面的三元模型，Newman 等创建了关于标签和标注行为的本体，以描述用户、资源和标签间的关系，如图1。此本体中的核心概念是用户（Tagger）、标注行为（Tagging）和标签(Tag)，其基本设计为：用户是FOAF（Friendof AFriend）中的Agent概念；标注行为是具体化用户、标签、资源和时间之间的关系；标签(指核心概念中的 Tag)是具体标签（tags）的集合。",
+    "context2": "此本体不仅对标注行为的关系建模，还利用URIs对标签建模：每个标签被分配一个URI，这样由URIs 识别的标签能被连到一起，可从语义层面表示标签间的联系和相似[10]。同时此本体还引入相关属性（tags:related）来表示标签间的关系，但并没有定义标签间关系的本质。",
+    "context3": "![](images/ab2a192990a9207793ae2c424b0bf5ecfe49c584e40233fd916473038b7b02f9.jpg)  \n图1Newman的标签模型",
+    "context4": "此本体重复利用已有的语义web 词汇：利用SKOS 属性为标签（tags）和标签类（Tag）之间的关系建立模型，而且标签类本身就来自SKOS中的概念（skos:concept）；利用DC 来表示标注活动的时间，即dc:date；利用FOAF确定标注活动的用户（tagger），即foaf:Agents。",
+    "context5": "与Gruber的模型相比，此本体没有标明系统的信息(即 source)，但它考虑标注活动的时间，描述完整的标注活动，并利用OWL已在网络上实现并普遍应用，被其它标签本体广泛利用。"
+  },
+  "1.1.3Knerr 的标注本体": {
+    "context1": "为实现跨系统的语义互操作，Knerr 在 20O7 年提出新的系统构架：利用语义网技术FOAF来表示用户的概况(user profile)，并将用户的标注数据存储在独立于folksonomy系统的地方。在设想的系统架构下，标注模型为：Tagging：(time,user,domain,visibility,tag,resource,type)",
+    "context2": "在此本体中，考虑到标注行为的隐私性，Knerr设置可见度（Visibility）概念来明确标注行为的可见性：公共标注是每个人都可见，私人标注只有标注者本人可见，被保护标注则是只对一部分人（如朋友）可见。同时他还设置类型（Type）概念来表明被标注资源的类型（如图片、视频、网站等)，利用DC 的DCMIType表达。",
+    "context3": "此本体的服务范围概念（ServiceDomain）与Gruber 模型中的 source类似，都表示应用程序或服务的信息，支持跨系统的协同标注；且认同Gruber的一个标签可以有多个字符串（labels）思想，默认的字符串（prefTagLabel）与 $\\mathrm { G r u ^ { - } }$ ber 的标签规范名对应。而且Knerr 的标注本体复用Newman利用 SKOS表示标签类的方法；利用FOAF表示标注者；利用DC 的DCMIType表示被标注资源的类型等。"
+  },
+  "1.2基于folksonomy 的标签本体": {
+    "context1": "前面基于标注活动的标签模型都把标注行为 (tagging)看成一个活动：用户给资源分配标签的活动，提供描述标注活动过程的方法。虽然Gruber 的概念模型和Knerr 的标注本体还考虑不同系统的协同标注活动，但它们并没有真正支持协同标注活动。而folksonomy是由参与协同标注活动的用户共同创建，标签本体作为标注活动（tagging）的明确和形式化的规范说明，除描述标注活动外还应该考虑标注活动所涉及的协同关系。这样研究者的关注焦点开始从标签、标注行为转移到 folksonomy：Echarte 的 folksonomies 本体[9]是第一个基于 folksonomy 的标签本体，更多表示 folk-sonomy 的特征；SCOT[10]主要目的是表示协同标注活动，但它也适合表示folksonomy 的特色。"
+  },
+  "1.2.1Echarte 的 folksonomies 本体": {
+    "context1": "Echarte在 2OO7年提出利用本体建模folksonomies的方法，即创建一个可以表示任何folksonomy 的普遍本体结构，其目的是自动存储用户标注资源的信息到本体，并解决folksonomies 的两个典型问题：标签变异（如 blog、blogs、blogging）问题；表示用户标注目的而非内容的标签（如toread）问题。",
+    "context2": "Echarte 认为为实现利用ontologies 建模folksonomies 的建模方法，有必要利用知识表示语言如OWL，以更严格的方式来明确阐述folksonomies 的特征，其 folksonomies 本体为：Folksonomy:（Source,Resource, User,Tag,Annotation,Annotation-Tag,Polarity)",
+    "context3": "其中 Source、Resource、User、Tag、Polarity 与 Gruber 的模型基本一致。其中标签类有两个子类：个人标签TagPer-sonal 和普通标签TagCommon，个人标签是指关于个人任务的计划或自我参考的标签，余下的则是普通标签，通过这个分类来解决用户标注目的的标签问题。同时标签类还利用标签的替换名（hasAltLabel）和隐藏名（hasHiddenLabel)属性表示标签规范名（hasPrefLabel）的变异，包括名词单复数、动词时态、同义词、错误拼写等。",
+    "context4": "相比Gruber 的模型，此folksonomies 本体还增加了2个概念：标注（Annotation）和标注标签（AnnotationTag）。其中标注概念表示用户给资源分配标签的行为，类似于 $\\mathrm { G r u ^ { - } }$ ber 的 tagging。但是Gruber 的标注是基于资源和标签的关系，而这里的标注则更侧重表示用户的习惯行为。标注标签概念表示每个标注与所分配的标签的关系。"
+  },
+  "1.2.2SCOT (Social Semantic Cloud of Tags)": {
+    "context1": "SCOT 的目的是描述标注数据的结构和语义，并提供社会互操作，实现在不同系统的用户中共享、复用数据和表",
+    "context2": "示社会关系。",
+    "context3": "SCOT有3个核心概念：标签云TagCloud、标签Tag、共现Cooccurrence。其中标签云TagCloud 是确定一个标签云本身及其与其他概念和属性相关的关系；标签是所有个人标注的标签的集合，是Newman 本体中标签的子类。标签 Tag通过拼写变异（spelling-variant）、同义字（synonym）等属性从语言学角度来解决标签之间关系含义的不明确；还有描述标签出现频率(frequency）的属性从统计数值角度来反映每个tag 的流行度。共现Cooccurrence 确定共同出现的标签以及标签之间的共现频率。因为标签共现是由于它们语义相关，考虑标签共现以及共现频率能更好地反映标签的语义，还能更好表示folksonomy 的协同特色。",
+    "context4": "SCOT 没有提供描述标注活动的概念，而是复用New-man 的标注行为（tagging）概念，并通过标注行为（taggin-gActivity）属性描述标签云TagCloud 与标注行为Tagging 的关系。其模型图如图2。",
+    "context5": "由于SCOT复用Newman本体中相关概念和属性，因此SCOT也会复用与Newman本体相关的语义web词汇，如SKOS、DC、FOAF等；同时SCOT还利用 SIOC（提供描述语义网在线社区的信息的主要概念和属性）的Usergroup 表示用户集合等。SCOT提供跨不同用户、应用软件或资源无缝标签共享的标注行为的社会结构，得到广泛应用。"
+  },
+  "1.3标签语义本体": {
+    "context1": "基于标注活动的标签本体和基于folksonomy 的标签本体并没有系统地实现内容的语义标注，MOAT（Meaning of ATag)[11]通过提供标签的语义来实现内容的语义标注。MOAT目的是提供以机器可读方式界定标签含义的语义网模型。为达此目的，MOAT扩展了Newman 模型的相关概念，并定义了标签的全面含义（global meanings）和本地含义（localmeanings)，全面含义就是指在完整的folksonomy 空间一个标签所有含义的清单，本地含义是指在某一个标注行为中标签所特定的含义。通过给每个标注行为添加标签的本地含义，MOAT扩展标注行为的三元模型为四元模型：Tagging：(User,Resource,Tag,Meaning)。在 folksonomy 空间，标签全面含义是所有本地含义的集合，考虑到定义标签本地含义的用户，标签全面含义为：Meanings $( \\mathrm { T a g } ) { } = \\mathrm {  { \\left\\{ \\vphantom { \\mathrm { T a g }  } } \\left\\right.( \\mathrm { M e a n i n g } \\right. \\kern - delimiterspace } $ $\\{ \\mathbf { U _ { S } } - \\mathbf { \\mu }$ $\\mathrm { e r } ^ { \\big / } \\big ) ^  \\big \\}$ 。MOAT 模型如图3。",
+    "context2": "MOAT通过含义（hasMeaning）关系和含义（Meaning）类，将标签与它所有的含义相连。每个含义通过meaningURI与所给含义的URI相连；同时与至少一个用户相连，标明定义标签这个含义的用户。为表示在特定标签行为中标签的含义，MOAT 依据 Newman 模型中的相关标注（RestrictedTagging）类，利用标签含义（tagMeaning）属性将相关标注行为中的标签连到符合特定语境含义的URI。",
+    "context3": "MOAT旨在提供跨越自由标注和语义检索之间鸿沟的简单方法，而用户仍可自由标注，并结合URI提供解决标注的语义模糊（一词多义、同义词）的方法。",
+    "context4": "![](images/c21e88bf0a5f2cdf8228582586c212885482cbf5a411e2b67248a84d686eee2c.jpg)  \n图2SCOT 中简明 folksonomy 模型",
+    "context5": "![](images/902b63f91695cf306c722d6acd28874b4c4408c212cdda48a82f84d78197ab80.jpg)  \n图3MOAT模型"
+  },
+  "1.4其他相关本体": {
+    "context1": "NAO（NEPOMUK Annotation Ontology）[12]来自NEPOMUK项目，是为标注社会语义桌面的资源而提出。NAO分为一般标注词表和图表标注词表，认为图表元数据也是标注的一种形式。虽然NAO不是完全为标注实践服务的，但它证明在社会系统中标注表示的日益重要性，还专门强调如何利用 NAO来实现语义标注。",
+    "context2": "Kim 等提出整合多个标签本体以产生一个完整、通用的标签本体。现有的本体各有其设计目的和侧重方面，对于支持协同标注所有方面的标注过程和查询，单个标签本体是不能满足的。因此他们比较现有标签本体概念模型间的映射可能性，提出整合现有本体以在folksonomies 系统中创建一个统一的结构和语义表示。而从标签本体的发展可知，标签本体经常借鉴和复用已有的技术和方法，以实现最大限度的共享，这既符合事物发展的规律，又给整合已有标签本体提供了非常有利的基础。在整合过程中，他们分析如何整合SCOT、MOAT和SIOC，为整合的每一阶段界定用户案例，并在实践提出的模型[13]。"
+  },
+  "2结论": {
+    "context1": "为解决folksonomies 的问题，提出给标签、标注行为增加语义，并利用语义网技术建模标注行为和folksonomies 的方法。自2005 年Gruber 提出标签本体以来，许多研究者都投身其中，标签本体的发展也从关注标注活动发展到关注folksonomy（协同标注活动)，从考虑标注活动要素发展到考虑标注目的、标签共现频率、标签词形变异等协同标注方面；还从标签含义的角度，创建MOAT跨越标注行为与语义检索的鸿沟。而且Kim等提出整合多个标签本体，更是标志标签本体的发展进入统一、共享的新阶段，一个完整、通用的标签本体将出现。而这给发挥folksonomies最大效能、支持语义检索作出重大贡献，也给进一步推动语义网的发展作出贡献。"
+  },
+  "参考文献": {
+    "context1": "[1］唐畅．浅析转型期图书馆的传统和现代服务的关系[J]．科技情报开发与经济，2006，（3).  \n[2]曹希平．对数字图书馆和地学数字图书馆建设的认识[J]．国土资源信息化，2002，（6)：12—14.  \n[3]刘锦山·知识管理—数字图书馆的发展趋势[J]·中国教育网络，2005，(6)：39-41.  \n[4]徐玲．网络时代图书馆管理模式探讨[J]．信息技术，2003,(5)：126—128."
+  },
+  "（上接第15页）": {
+    "context1": "图书馆坐落在什么地方，开馆时间和设备怎么样，也不管图书馆的管理方法怎样，一个图书馆成败的关键还是在于图书馆工作者”。要发展图书馆的信息源及信息中心地位，就必须有一批高素质的图书馆信息专业人才，这种专业人才，不仅要有信息收集、加工、传播方面的能力，熟练掌握现代信息技术，具有丰富的科研意识和较高的外文水平，还要有经济、管理公关等方面的知识。这就要求一方面调整现行图书信息学高等教育的课程设置，另一方面，加强在职人员的继续教育和知识更新。目前，急需提高图书馆员素质的一个重要方面是加强图书馆员的敏锐的市场竞争意识和经营管理能力；具体来说，图书馆员应加强四方面的意识观念。第一，应意识到，目前图书馆提供的信息服务与社会需求之间存在较大的差距，图书馆信息服务潜力巨大。第二，应意识到，图书馆信息工作必须全方位面向市场，图书馆虽拥有丰富的信息资源，在信息市场竞争中具有一定优势，但图书馆信息工作必须瞄准信息市场，把收集来的信息加工成信息产品，推向市场，参与竞争。第",
+    "context2": "html，2009—03—07.  \n[4]王翠英．标签的聚类分析研究[J]．现代图书情报技术，2008，(5):67—71.  \n[5]Lucia Specia，Enrico Motta·Integrating folksonomy with semantic web[EB].http: //www·eswc2007.org/pdf/eswcO7-specia· pdf ，2009$- 0 3 - 0 7$   \n[6]Gruber，Thomas·Ontology of folksonomy：A mash up of apples andoranges[EB]·htp://tomgruber·org/writing/ontology-of-folkson-omy·htm，2009—03—07.  \n[7] Newman，Richard·Tag ontology design [EB]·http：//www holy-goat ·co·uk/projects/tags，2009－03-07.  \n[8]Knerr，Torben·Tagging ontology—Towards a common ontology forfolksonomies [EB]·http:// tagont· googlecode·com/files/TagOntPa-per·pdf，2009—03—15.  \n[9]Echarte，Francisco·et al．Ontology of foksonomy：A new modelingmethod[EB]·http：// www·gsd·unavarra. $\\mathrm { e s / g s d / f i l e s / c o n d e p / E ^ { - } }$ cAsCoVisaakm07f·pdf，2009—03—15.  \n[10] SCOT ontology specification [EB]. $\\mathrm { h t t p } \\colon / / \\mathrm { s c o t } ^ { - } \\mathrm { p r o j e c t } \\cdot \\mathrm { o r g } / \\mathrm { s c o t } / $ index·html，2009—03—20.  \n[11] MOATontology[EB]. $\\mathrm { h t t p } { : / / } \\mathrm { m o a t } ^ { - } \\mathrm { p r o j e c t } \\cdot \\mathrm { o r g / o n t o l o g }$ ，2009$- 0 3 - 2 0$   \n[12]NEPOMUK Annotation Ontology Specification [EB]·http://www.semanticdesktop:org/ontologies/2007/08/15/nao，2009—03—20.  \n[13]Kim，Hai—Lae·et al．Review and alignment of tag ontologies forsemantically—linked data in collaborative tagging spaces [EB]·http ://scotproject : org/pubs/kim-ReviewAlignmentTag·pdf ，2009－03-20.",
+    "context3": "三，应意识到，作为信息专业人才，要有较高的创新意识和冒险精神，才能适应市场对信息的快节奏、高质量要求。第四，应意识到，必须提高自身的经营管理和公关能力。善于针对特定问题或需要，开发出有价值的信息产品，以优质高效的信息服务将产品推向市场。善于借助各种公关活动，树立图书馆良好的形象，扩大图书馆的社会影响力，促使有效信息产品及时转化为现实生产力。因此馆员应有意识加强心理学、组织行为学、管理学、公关学等软科学方面的知识学习，锻炼提高语言表达和雄辩才能。"
+  }
+}

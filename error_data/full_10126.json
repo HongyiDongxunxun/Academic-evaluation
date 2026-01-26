@@ -1,0 +1,121 @@
+{
+  "original_filename": "full_10126.md",
+  "·专论·": "",
+  "面向开放科学的科学数据治理：概念、框架与展望": {
+    "context1": "司莉,刘先瑞",
+    "context2": "(武汉大学信息管理学院,湖北 武汉430072)",
+    "context3": "摘要：【目的/意义】开放科学环境下,明晰科学数据治理概念框架有助于指导和完善治理实践,提升治理水平，优化数据要素配置,深入挖掘数据价值,服务于数据密集型科研发展。【方法/过程】本文采用系统性文献综述法与内容分析法,全面获取科学数据治理与开放科学交叉领域文献,构建文献分析框架并进行编码,分析编码结果,据此辨析科学数据治理及相关概念,构建治理概念框架,并提出研究建议【结果/结论]研究发现科学数据治理与管理概念在界定内涵、实践层次等方面不同,在数据服务属性、目标原则、发展环境上相同。从顶层设计、实施规划与实践应用三维度构建科学数据治理概念框架，阐释各维度具体内容及与开放科学间的相互影响，并提出强化指导性、提升适用性与实现包容性三方面研究展望。创新/局限利用系统性文献综述与内容分析法全面系统梳理研究进展,区分与辨析易混淆的科学数据治理与管理概念，并从多维度阐释科学数据治理概念、应用范围与研究重点。",
+    "context4": "关键词：科学数据治理;开放科学;科学数据管理;开放共享;开放数据中图分类号：G250.2 DOI:10.13833/j.issn.1007-7634.2023.09.001"
+  },
+  "0引言": {
+    "context1": "开放科学是解决复杂科学问题的重要支撑和科技发展的主流趋势,其发展需要科学数据治理的支撑[]。随着数据密集型(data-intensive)科研范式深入发展,科学数据采集、整理和分析成为科研基本活动[2],科学数据治理的重要性进一步凸显。国内外各方重视发挥科学数据治理在促进开放科学发展中的重要作用。联合国教科文组织发布《开放科学建议书》（Recommendation on Open Science）,强调实现科学数据公开、透明和重用以推进开放科学实践。国际科技数据委员会(CODATA）、世界数据系统(WDS)等4个国际组织共同筹划Data Together项目,倡导全球科学数据协同治理,推进开放科学平台合作，服务于数据密集型科研发展[3]。我国政府也颁布《科学数据管理办法》《促进大数据发展行动纲要》《数据安全法》等政策，旨在发挥数据要素作用,完善科学数据治理，推动开放科学发展，使科技创新成果惠及更多国家和人民[4]。",
+    "context2": "基于开放科学环境，学界主要从概念分析与实践调研两方面开展科学数据治理研究。一方面,分析科学数据治理相关概念定义与特征,指出其与开放科学的关联或分析科学数据治理与管理的差异。如认为开放科学改变科研模式,分析其对科学数据管理提出的挑战和要求[5];指出开放数据与开放科学均属于开放运动；提出开放数据是开放科学的物质基础,开放科学是开放数据的最终目标],对比分析科学数据管理与治理在内涵、功能、目标、原则等方面的异同。另一方面,将开放科学作为背景,探寻治理实践相关政策、主体和平台。政策维度,通过调研权威组织的战略文件、法律制度、条例指南等归纳科学数据管理与开放进展,提出促进开放科学发展的政策建议[8。主体维度,以政府、高校、图书馆、资助机构等为对象,探讨人才培养[和服务供给[],倡导合作与开放共享,推动开放科研网络建设。平台维度,阐述数据平台或存储库\"的治理技术、运行机制和实现功能,总结实现开放共享的经验与对策。",
+    "context3": "当前研究主要存在三个问题：一是将科学数据治理与管理混用,难以把握科学数据治理的内涵与外延特征，也不利于治理政策制定与实施;二是对科学数据治理与开放科学的关系剖析不足，难以发掘开放科学发展对科学数据治理的影响和要求，根据科研发展需求及时完善治理理论与实践；三是仅从特定维度探讨科学数据治理内涵与定义，适用的情境有限,难以全面指导治理实践。",
+    "context4": "因此,本研究全面获取和分析科学数据治理与开放科学交叉领域文献，旨在辨析科学数据治理及其相关概念，明确其与科学数据管理间异同,梳理开放科学对其的影响与要求,明确治理内涵与定义,在此基础上,构建科学数据治理概念框架,提出研究展望。"
+  },
+  "1研究设计与实施": {
+    "context1": "本研究主要采用系统性文献综述法及内容分析法。系统性文献综述法围绕特定主题提出研究问题，全面检索和获取所有相关成果,进行系统评估、整合分析以解决研究问题。包含确定研究范围、制定筛选标准、规划检索、全面收集与筛选文献、分析并展示结果五大步骤[2]。"
+  },
+  "1.1确定研究范围与筛选标准": "",
+  "(1)研究范围": {
+    "context1": "本研究聚焦科学数据治理、科学数据管理与开放科学三个概念领域。 $\\textcircled{1}$ 科学数据治理与IT治理、数据资产及隐私保障等相关[13],是数据治理在图书馆服务、科研机构管理、数据库建设等领域的应用、拓展与细化，涉及数据获取、开放、共享等内容。由于涵盖科学数据治理整体的研究有限,因此将数据开放、共享等相关研究均纳入分析。 $\\textcircled{2}$ 科学数据管理包括科学数据采集、汇交、保存、共享与利用、保密与安全[14]等内容,与科学数据治理具有相似性,故将相关研究纳入，以补充和辨析治理概念。 $\\textcircled{3}$ 开放科学具有知识、运动、理念等多重性质[15],包括开放科学基础设施、开放科学知识、科学传播与交流、开放社会参与和跨知识系统对话等内容[6]。开放获取属于其中重要研究点,故纳入开放科学与开放获取相关文献。"
+  },
+  "(2)筛选标准": {
+    "context1": "参照系统性文献综述及元分析方法(PRISMA)制定的标准[],对样本文献进行选择。具体包括： $\\textcircled{1}$ 研究主题属于界定的研究范围内。 $\\textcircled{2}$ 内容包含对开放科学、科学数据治理的明确定义。 $\\textcircled{3}$ 属于研究型论文,具有明确的研究问题、方法、过程和结论,并非技术应用报告、数据库系统介绍等。 $\\textcircled{4}$ 摘要形式为结构化摘要,阐明研究目的、过程和结论。"
+  },
+  "1.2规划检索、文献收集与筛选": {
+    "context1": "规划检索阶段，通过试检索确定中文与外文检索词（如图1),检索字段为：标题、摘要、关键词与主题。在文献收集与筛选阶段，选取3个中文平台和7个外文平台进行检索。随后进行去重、相关性判断与文献质量评估，最终获取122篇文献，含中文56篇，外文66篇。",
+    "context2": "![](images/ee446657dfa82a1c09b9406967d82eded6c4b0545b6d1bf9b8ce0e4bb7b9ac84.jpg)  \n图1文献收集与筛选过程  \nFigure 1 Literature collection and selection process"
+  },
+  "1.3 文献分析过程": {
+    "context1": "本研究采用内容分析法进行文献分析，先拟定分析框架(如表1),包括域、属、区别与关系四个维度。 $\\textcircled{1}$ “域\"指概念所面向的领域。 $\\textcircled{2}$ “属\"(genus)与\"区别\"(differentia)源于逻辑学中定义事物的方法。“属\"是关键谓语词的指向物，即概念被界定为何物,具体体现为概念的界定词。 $\\textcircled{3}$ “区别\"指与其他事物相较的独有特征[18],具体体现为概念的特征词。$\\textcircled{4}$ “关系\"指开放科学与科学数据治理间的相互关系。然后阅读原文进行编码(见表1示例),最后归纳和统计编码记录,得出应用领域、概念界定词与特征词及概念关系,对比辨析科学数据治理的概念定义与特征。随机抽取2位编码员的24条编码记录（占总文献的 $20 \\%$ ),计算得出四个维度的Cohen'sKappa指数均在0.8以上(0.75表示一致性较好），表明编码结果可信。",
+    "context2": "表1文献分析框架及示例  \nTable 1 Framework and examples of literature analysis",
+    "context3": "<table><tr><td>维度</td><td>编码项</td><td>编码内容</td><td>编码示例</td><td>文献[19]中的表述</td></tr><tr><td>域</td><td>应用领域</td><td>面向的学科领域或应 图书馆服务 用情境</td><td></td><td>分析了科学数据治理与高校图书馆之间的关系。</td></tr><tr><td rowspan=\"3\">属</td><td>科学数据治理界定</td><td>将概念界定为方法、理</td><td>能力</td><td>科学数据高效治理已成为图书馆的重要能力</td></tr><tr><td>科学数据管理界定</td><td>念、机制、环境或其他</td><td>服务</td><td>基于图书馆的科学数据仓储的管理服务</td></tr><tr><td>开放科学界定</td><td></td><td>运动</td><td>开放科学是综合的一种知识数据可获取运动</td></tr><tr><td rowspan=\"3\">区别</td><td>科学数据治理特征</td><td>与外延</td><td>举措以丰富概念内涵 具开发、数据开放共享、存 发和关联、存储与管理、分析、咨询和导航服务 储、管理、分析、咨询和导航</td><td>强调概念哪些特质或 开放资源建设、数据中心建 建设数据中心与开放资源实现科学数据资源的语义 分析哪些优势、障碍、设、资源语义化组织、软件工化组织;开发数据软件工具实现开放科学数据的开</td></tr><tr><td>科学数据管理特征</td><td></td><td></td><td>协助研究者、制定计划、数据 高校图书馆与科研用户建立科研互助关系,制定数 开放获取、存档、共享、分析 据计划,实现科学数据的开放获取、存档、共享、分析和再 和再利用等、数据组织与 利用等。构建元数据库，高效实现数据的组织与</td></tr><tr><td>开放科学特征</td><td></td><td>归档 取、开放数据、开放资源、开禾 放同行评审、开放教育资源</td><td>归档 开放共享、网络化、开放获 开放科学借助数字网络、基础设施、开源工具,实现 科研工具的透明化和网络化内容包括:开放获 取、开放科学数据、开放资源、开放同行评审、开放教育</td></tr><tr><td rowspan=\"2\"></td><td>治理间关系</td><td>治理的影响</td><td>理论指导</td><td>资源 开放科学为科研数据治理提理论指导</td></tr><tr><td></td><td>科学数据治理对开放 科学的影响</td><td>推动发展</td><td>科研数据治理的成功一步落实开放科学内涵,实现信息、 数据共享</td></tr></table>"
+  },
+  "2编码结果与科学数据治理概念分析": "",
+  "2.1各项维度编码结果分析": "",
+  "2.1.1“域\"项维度：概念应用分析": {
+    "context1": "当前研究中的概念定义与应用领域主要包括科学数据政策制定(占比 $2 5 \\%$ )、领域科学数据治理（占比 $20 \\%$ ）、图书馆服务与建设（占比 $18 \\%$ )、机构科学数据治理实践（占比$1 7 \\%$ )、数据库建设实践(占比 $12 \\%$ )，另外，有 $8 \\%$ 属于概念理论类研究。在科学数据政策制定方面，研究通过国内外战略政策、指南报告等内容[20]分析治理内涵,针对我国提出战略政策建议。在领域科学数据治理方面,研究介绍和剖析特定学科的数据治理实践[2,如心理学、医学、考古学等,得出治理内容和经验教训。在图书馆服务与建设方面，研究聚焦图书馆功能与职责，指出其数据治理实践的内容[22],指导其开展资源建设、人才培训、服务优化等工作。在机构科学数据治理实践方面，研究聚焦特定机构的数据收集、存储、分析、公开等实践[23],总结治理经验和教训。在数据库建设实践方面,研究介绍特定数据库中数据治理流程和功能[24],得出数据治理内容与经验。"
+  },
+  "2.1.2“属\"项维度：概念定义辨析": {
+    "context1": "分别计算概念界定词的总词频与词频占比(如过程的词频为18,科学数据治理的总词频为62,其词频占比为 $2 9 \\%$ ），选出占比最高的前五个词(见表2)。",
+    "context2": "表2概念界定词   \nTable 2 Concept definition terms",
+    "context3": "<table><tr><td colspan=\"2\">科学数据治理(总词频 科学数据管理(总词</td><td rowspan=\"2\">频59次)</td><td rowspan=\"2\"></td><td rowspan=\"2\">开放科学(总词频 209次)</td></tr><tr><td>62次）</td></tr><tr><td>界定词</td><td>词频(占比）</td><td>界定词 词频(占比）界定词 词频(占比)</td><td></td><td></td></tr><tr><td>过程</td><td>18(29%)</td><td>服务 20(34%)</td><td>运动</td><td>84(57%)</td></tr><tr><td>模型</td><td>17(27%)</td><td>流程</td><td>17(29%) 范式</td><td>53(36%)</td></tr><tr><td>服务</td><td>15(24%)</td><td>框架</td><td>10(17%) 环境</td><td>29(20%)</td></tr><tr><td>行为</td><td>9(15%)</td><td>项目</td><td>7(12%)</td><td>理念 26(18%)</td></tr><tr><td>能力</td><td>3(5%)</td><td>技能</td><td>5(8%)</td><td>趋势 14(9%)</td></tr></table>",
+    "context4": "其中： $\\textcircled{1}$ 科学数据治理多被界定为\"过程\"\"模型”。如在标准或指南中，其被定义为计划、实施与监测的治理过程，或集目标、主体、对象、路径等要素于一体的治理模型[25]。 $\\textcircled{2}$ 科学数据管理主要被视为\"服务\"和\"流程”。如将其定义为基于目标制定的管理框架，覆盖数据全生命周期的管理工作流程[26]。或认为科学数据管理属于高校、图书馆或资助机构进行的服务[27]。 $\\textcircled{3}$ 开放科学界定词主要为\"运动\"或\"范式”。如被认为是推动研究成果、科学数据、教育资源等开放共享的运动[28]。或指出开放科学包含开放获取、开放数据、开放教育等,代表全新研究范式[29],指导科研活动。"
+  },
+  "2.1.3“区别\"项维度：概念特征辨析": {
+    "context1": "为进一步辨析与明确概念内涵和关系，以同样方式统计表1框架中的\"区别”，得到主要概念特征词(见图2)。",
+    "context2": "![](images/2c1a93c8dbaf733a4e4a8ab530055db59388be705955dd5f5761d9dbaf229af1.jpg)  \n图2概念特征图  \nFigure 2 Diagram of conceptual features",
+    "context3": "科学数据治理与管理的概念特征词可分为两类： $\\textcircled{1}$ 指导原则类。如\"开放共享\"“FAIR原则\"等指导与完善数据治理与管理工作,倡导推动数据开放共享,优化数据服务。 $\\textcircled{2}$ 实践举措类。“管理与服务\"\"战略政策\"等体现治理与管理的工作与政策；\"权利”“管控与问责\"等体现数据权利协调、风险管控及权责分配。“存储”“处理\"等体现科学数据管理包含的数据收集、存储、处理等工作流程。",
+    "context4": "开放科学数据概念特征词可分为两类： $\\textcircled{1}$ 目标原则类。“开放共享”“透明”“复现\"等强调实现科学资源开放共享和可获取,使研究过程透明化,保障成果质量,复现研究结论。$\\textcircled{2}$ 实践举措类。“协作”“公众参与”“免费获取\"等描述开放科学实践。推动各方在科研各阶段合作,激励公众参与科研,保障科研成果免费获取。"
+  },
+  "2.1.4“关系\"项维度：概念关联分析": {
+    "context1": "开放科学与科学数据治理间关系可总结为：两者互为基础和相互影响。 $\\textcircled{1}$ 开放科学为科学数据治理提供思想文化基础、政策环境基础和资源工具基础,对科学数据治理具有理念指导、价值引领和效益评估的作用。而科学数据治理则为实现开放科学提供实践基础,通过对数据资源和数据资产的确权、保障和管理,促进数据资源开放和共享，从开放数据层推动着开放科学运动的发展和深人[30]。",
+    "context2": "两者相互影响相互促进。推动着彼此深入发展和优化，科学数据治理推动着开放科学的数据开放、研究进步和权益保障,开放科学运动也促进着科学数据治理的透明化和公正性，助力科学数据分级分类治理,提升科学数据治理水平。同时两者间也存在矛盾。科学数据治理中强调的科学数据资产归属阻碍其实现公共属性和开放共享，阻碍开放数据实践;同样,开放科学倡导的开放共享、透明、可复现、公众参与的理念也可能威胁着科学数据隐私与保密安全。"
+  },
+  "2.2科学数据治理概念分析": "",
+  "2.2.1概念定义分析": {
+    "context1": "不同于科学数据管理所属的微观管理工作流程、框架、项目等,科学数据治理是对数据管理的高层规划和控制，被定义为顶层的标准、规则、政策和实施监督[3],作为宏观的数据治理过程、模型等完善科学数据理论体系。",
+    "context2": "不同于科学数据管理涉及的数据存储与操作、集成与互操作、元数据、数据建模与设计等具体工作或项目，科学数据治理对执行数据管理工作具有指导、决策和监督作用，包括制定标准、规则、政策和监督，开展数据管理与利用的最佳实践[32]。",
+    "context3": "与科学数据管理相同，两者均是数据服务的重要支撑，关注数据质量、数据访问、数据使用及管理控制[33],支撑图书馆、科研院所、资助机构等主体管理工作与提供服务。科学数据治理包含数据服务中的数据权益、数据管理、数据政策等重要内容,涵盖数据备份、采集、遴选、典藏、共享等各环节。"
+  },
+  "2.2.2 概念特征分析": {
+    "context1": "科学数据治理与管理具有不同的实践层次。科学数据治理注重颁布政策制度,建立管控机构与问责机制[34],从政策层协调和优化数据服务。科学数据管理则侧重执行数据采集、存储、处理等工作,从操作层落实和开展数据服务。",
+    "context2": "科学数据治理与管理具有相同的目标原则,均致力实现科学数据开放共享。开放科学环境下，两者在实践过程中以数据生命周期理论和FAIR原则为指导,实现科学数据的可查找、可访问、可互操作和可复用的目标。",
+    "context3": "科学数据治理与管理面临相同的发展环境。开放科学环境下，数字化科研、公民科学、science2.0以及开放创新等发展趋势加强,科学数据治理与管理中需制定战略计划，优化数据结构与质量，贯彻FAIR原则，实现数据开放与可访问,保障数据隐私与安全，提升治理与管理水平。"
+  },
+  "3科学数据治理概念框架构建": {
+    "context1": "基于前期概念界定与特征的分析，结合现有研究,本文从顶层设计、实施规划及实践应用三维度构建科学数据治理框架(见图3)。在治理框架中,概念顶层设计维度具有宏观指导性,治理实施规划维度起着中间推动作用，治理实践应用维度则落实治理规划。开放科学作为治理环境与此三维相互影响： $\\textcircled{1}$ 开放科学原则与实践促进治理顶层设计优化，完善治理理念、原则与价值。 $\\textcircled{2}$ 治理实践规划与应用支撑开放科学实践,应用开放科学原则。"
+  },
+  "3.1顶层设计维度：确立目标原则与要素": {
+    "context1": "顶层设计融合治理目标、原则与要素，指导治理实施规划与实践应用。科学数据治理隶属数据治理,可参考数据治理模型完善科学数据治理顶层设计。国际上有IBM、IDG、DAMA、Garner等数据治理模型，国内有CAlib数据治理框架与数据治理协同模型。",
+    "context2": "结合模型[35-36]与标准[37]来看,科学数据治理以科学数据管理与利用为目标，包括可及性、可用性、安全性等原则,涉及治理标准、主体、过程、活动与环境要素。其中： $\\textcircled{1}$ 治理目标中的科学数据管理指基于治理责任落实科学数据标准、质量与安全，形成治理体系或管理机制;科学数据利用在于实现科学数据流通与服务，洞察治理环境，挖掘科学数据价值，提升治理能力与服务水平。 $\\textcircled{2}$ 治理原则包括可及性、可用性、安全性、透明化、标准化等。 $\\textcircled{3}$ 治理标准包含科学数据战略规划、制度政策与实施方案等。 $\\textcircled{4}$ 治理主体是科学数据资源的利益相关者，如政府部门、资助机构、科研院所等。 $\\textcircled{5}$ 治理技术用以保障和控制工作流,同步和融合数据、保证质量、智能化管理等。 $\\textcircled{6}$ 治理活动包含科学数据政策颁布、组织构建、基础建设、工作流程、评估监测等。 $\\textcircled{7}$ 治理环境指科研面临的内外部政治局势、经济市场、理念文化、技术趋势、需求",
+    "context3": "![](images/3260535e936f1b787ba7b85299d1a73df6b40f32cf7c1db27e26fe5a7ec636fe.jpg)  \n图3科学数据治理概念框架  \nFigure 3 Conceptual framework for scientific data governance",
+    "context4": "现状等变化。",
+    "context5": "开放科学目标原则中所强调的开放共享、FAIR原则等要求提升治理顶层设计维度的开放性、共享性、透明性、公平性和参与性。需着力优化和完善治理目标、原则及要素，推动科学数据资源的开放共享和再利用的标准化和持续化。体现为： $\\textcircled{1}$ 在治理目标与原则中融入开放科学所倡导的透明、诚信、公正等理念。 $\\textcircled{2}$ 制订治理标准与关注主体。探索数据互操作、传输、引用等方面标准,便于数据开放共享与重用；面向科研去中心化发展趋势，关注社会组织、服务机构、个人等主体的诉求。 $\\textcircled{3}$ 提升治理技术与活动水平。面向研究的透明化和复现化趋势，提升数据同步、融合、质量分析、监测管理等技术，推进数据挖掘利用和数据流动增值活动。$\\textcircled{4}$ 实时分析治理环境。针对开放科学政策指南,科研合作态势等，不断调整相应的治理战略规划和实践行动，适应科研生态发展。"
+  },
+  "3.2实施规划维度：立足治理主体与客体": {
+    "context1": "从多视角规划和厘定治理工作内容能指导和规范实践，是当前研究焦点。现有研究既基于高校、图书馆、数据中心、企业等主体阐释数据治理概念，也围绕数据客体,运用数据生命周期与价值链理论定义数据治理。",
+    "context2": "立足治理主体，科学数据治理是利益相关机构或组织进行的治理计划、实施与监测活动,体现为科学数据服务或管理能力。立足治理客体,科学数据治理可定义为覆盖科学数据生命周期,连通科学数据价值链,集权益保障与价值开发于一体的全过程。其中数据生命周期理论指导科学数据获取、存储、整合、分析、应用、呈现、归档和销毁等全流程工作，充分保障数据权益。数据价值链理论[38]指导科学数据采集、获取、存储、组织、整合、挖掘、分析及决策，实现知识创新和数据价值开发。",
+    "context3": "开放科学环境下倡导多主体协同，要求科学数据相关机构或组织的治理活动开放性和协同融合更强,提升治理能力与治理服务可获得性。开放科学环境强调数据开放共享与重用，这对数据采集授权、分类组织标准、整合互联、协同分析等方面治理行动提出更高要求,也推动着围绕科学数据治理流程的整体效能、协同度和互操作性的提升。"
+  },
+  "3.3实践应用维度：面向场景与领域需求": {
+    "context1": "基于应用场景与学科领域分析治理概念更具可操作性。研究以数据库为应用场景分析科学数据治理流程，优化机构库、科研系统等[39的设计与管理。或聚焦心理学、临床医学、生物学等学科领域[40]的数据政策、标准与工作。",
+    "context2": "在应用场景中，科学数据治理可定义为面向系统功能，基于目标群体需求与服务目的开展的数据工作,包括数据采集、存储、处理、开放、重用、监测、评估等。在学科领域中，科学数据治理可定义为基于项目全周期,在科研项目构想、计划、实施、发表全过程开展的数据工作集合，包括数据计划、收集、保存、分析、出版、共享和重用等。",
+    "context3": "开放科学强调透明性、复现性和全纳性,在应用场景与学科领域中致力实现科学数据开放共享和多元参与。在应用场景中推广开放数据理念,优化系统功能,实现科学数据的开放获取、访问重用,挖掘数据价值，助力知识开放创新。在学科领域中，要求各项研究尽可能公开数据操作细节和原始数据代码,实现科学研究的交流共享和复现，加快学科知识创新和进化。"
+  },
+  "4开放科学环境下的科学数据治理研究展望": {
+    "context1": "综合科学数据治理的属性、特征及其概念框架，归纳研究现状,可得出当前研究不足及未来着力点。整体上,后续应针对开放科学环境特征与需求,以治理概念框架的各维度为基点丰富和拓宽研究内容与口径。"
+  },
+  "4.1补充与丰富目标原则与要素，强化治理顶层设计的指导性": {
+    "context1": "对标开放科学原则，应在治理目标原则中融入开放共享、FAIR原则、CARE原则、透明、复现等多领域内容,优化治理主体、技术、活动、环境等要素,实现其普适性和标准化。当前研究在治理目标原则中多关注单一原则或理论，如以数据生命周期理论[4为指导构建治理服务内容，主要聚焦数据元数据描述、发布、存储等服务,相对缺乏对数据开放共享及重用的考量。这致使科学数据治理难以全面匹配开放科学所包含的多价值原则与目标，如FAIR原则、诚信、透明、公正等,其作用力被限制。同时，当前研究多构建内部治理框架,聚焦图书馆、资助机构或科研院所等单主体要素，活动及环境等要素覆盖面也有限，难以在开放科学场域中有效指导实践,提升治理效能。",
+    "context2": "后续研究应提升治理顶层设计的普适性和覆盖面。在目标原则上融入多领域内容,如将人本主义导向的CARE治理原则与现有的FAIR原则、透明复现原则、开放共享目标等融合，与开放科学价值相匹配。还应在治理框架中完善主体、技术、活动和环境要素，构建覆盖多主体的跨领域治理框架,应用多学科技术,开展多类型活动,改善科研环境，解决其中的开放共享、流动增值、风险规避与权利保障等问题,形成面向开放科学的且具有普适性的指导理论。"
+  },
+  "4.2探索主体协作与数据利用，提升治理实施规划的适用性": {
+    "context1": "开放科学实践需促进治理主体协作,提升治理开放度、协同度、包容度和效能。但当前研究构建治理规划时多聚焦单一主体的治理行动,相对忽视不同主体间的治理互动与协作，尤其对协同机制、权益规则等的探索尚待深入。如聚焦图书馆的数据治理与服务，较为忽视与政府、高校等主体的合作。关注数据客体的治理规划研究则是探究机构库或单来源的科学数据治理行为，以案例形式分析数据治理工作流程或支撑技术，主要面向特定功能的数据库或单一学科数据。如对Tripal生物数据知识数据库[42]的发展进行剖析，得出数据治理经验。但在开放科学运动中，跨学科合作和多源数据开放共享趋势增强[43],此类规划对治理实践行动的适用度和参考性有限，不利于科学数据的利用与重用。",
+    "context2": "未来研究应探寻多主体治理的协同化发展模式或路径，协调主体权益与责任,制定合作章程、活动规划、技术指南等,推动治理行动中的数据采集授权、分类组织、整合互联与协同分析。同时，应探索跨平台和跨学科的科学数据治理实施规划,建立互操作标准、流通协议及使用政策，,在治理中支撑多格式、多粒度和多类型数据的利用与重用,通过科学合理的规划设计优化科学数据治理能力与数据服务水平，助力开放科学实践和开放环境建设。"
+  },
+  "4.3关注多类型群体诉求，实现治理实践应用的包容化": {
+    "context1": "为推动开放科学发展,在应用场景与学科领域中,需鼓励引导多元群体参与，实现数据共治共享,保障数据权利,挖掘数据的多重价值，助力科研交流、成果复现与知识创新发展。但在当前科学数据治理实践研究中，更关注图书馆员、科研人员等的参与积极性与能力，如在推进图书馆科学数据治理进程中强调更多的是开展培训提升馆员素养[44],未考虑到读者层面对服务的获取和理解;或强调科研人员数据素养教育[45],忽视了实验被试者的数据权利意识。这不利于参与主体平等表达和维护权利，阻碍协作范围扩大、管理与服务包容性提升及科研的民主化、公正化发展，难以匹配日渐开放的科研生态发展需求。",
+    "context2": "后续研究应探寻多利益相关者表达数据诉求、使用数据与维护权益的渠道拓宽和能力提升,增强各方话语权与能动性,尤其关注非专业群体的现实需求与能力水平,制定科学数据素养教育方案，提升各类型主体能力，在应用场景和学科领域中鼓励多群体参与，开展人本主义导向的科学数据治理行动，推进数据治理工作向民主化、公正化、包容化发展，不断完善开放科学实践与原则。"
+  },
+  "5结语": {
+    "context1": "开放科学是科研环境的重要特征，科学数据治理充分顺应数字化科研的趋势,基于两者关系厘清治理内容、完善治理框架尤为重要。但从框架理论到治理实践间仍存在鸿沟，治理概念框架的构建源自于典例和综合经验,并非适用于任何情境，开展科学数据治理仍需及时加强对治理环境、治理需求的评估,不断调整和优化治理标准、原则与其他要素，从而提升治理水平。本文梳理当前研究现状，从顶层设计、实施规划和实践应用三维度构建科学数据治理概念框架,阐释其与开放科学间的相互影响，指出未来研究动向，有助于明确科学数据治理概念，完善现有治理理论，为后续研究提供参考。但也存在一定不足之处,本研究主要系统性文献综述法，后续研究可纳入更多实证支撑和需求调研，从多视角分析开放科学环境与科学数据治理内涵，实现理论与实践的相互映射和优化。",
+    "context2": "参考文献   \n1 European Research Council.Open Science[EB/OL]. [2022-01-04].https://erc.europa.eu/managing-yourproject/open-science.   \n2 HEY T,TANSLEY S,TOLLE K. The fourth paradigm data-intensive scientific discovery[M]. Washington: Microsoft Corporation,2009:13.   \n3 CODATA. Data together:fostering cooperation among open science platforms[EB/OL].[2022-01-04].https:// codata.org/data-together-fostering-cooperation-amongopen-science-platforms/.   \n4 人民网.构建开放创新生态——论学习贯彻习近平总书记 在两院院士大会中国科协十大上重要讲话[EB/OL]. [2022-02-20]. http://opinion. people. com. cn/n1/ 2021/0603/c1003-32120988.html.   \n5 顾立平.科研模式变革中的数据管理服务:实现开放获取、 开放数据、开放科学的途径[J].中国图书馆学报,2018,44 (6):43-58.   \n6 吴建中.推进开放数据 助力开放科学[J].图书馆杂志, 2018,37(2):4-10.   \n7盛小平,杨智勇.开放科学、开放共享、开放数据三者关系 解析[J].图书情报工作,2019,63(17):15-22.   \n8 FLEMING J1,WILSON S E,HART S A,et al. Open accessibility in education research: enhancing the credibility,equity,impact,and efficiency of research [J]. Educational Psychologist,2021,56(2):110-121.   \n9 COOK K,CAKIRLAR C,GODDARD T,et al. Teaching open science:published data and digital literacy in archaeology classrooms[J]. Advances in Archaeological Practice,2018,6(2):144-156.   \n10 陆丽娜,尹丽红,于啸,等.基于区块链的农业科学数据管 理场景模型构建研究[J]).情报科学,2022,40(9):20-25,37.   \n11 SULLIVAN I,DEHAVEN A,MELLOR D. Open and reproducible research on open science framework [J].Current Protocols Essential Laboratory Techniques,2019,32(18): 1- 24.   \n12 VICENTE-SAEZ R,MARTINEZ-FUENTES C.Open science now:a systematic literature review for an integrated definition[Jl.Journal of business research,2018,88:428-436.   \n13National Institute of Standards and Technology.NIST. SP. 15001r1 big data interoperability:framework:volume 1,definitions[S].NIST,2018.   \n14 中国科学技术部.国务院办公厅关于印发科学数据管理 办法的通知[EB/OL].[2022-05-31].htp://most.gov.cn/ xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2018/201804/ t20180404_139023.html.   \n15VICENTE-SAEZ R,MARTINEZ-FUENTES C. Open",
+    "context3": "science now:a systematic literature review for an integrated definition[J]. Journal of business research,2018,88:428-436.   \n16United Nations Educational,Scientific and Cultural Organization.UNESCO recommendation on open science[R]. France,2021:6-19.   \n17MOHER D,LIBERATI A,TETZLAFF J,et al. Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement[J].PLoS medicine,2009,6(7):123-130.   \n18SMITH,R.\"Aristotle's logic\",the Stanford encyclopedia of philosophy (Fall 2020 Edition)[EB/OL].[2021-11-25].https: //plato.stanford.edu/archives/fall2O2O/entries/aristotle-logic/.   \n19 张劭君.开放科学视域下高校图书馆科学数据服务研究 [J].河北科技图苑,2019,32(1):59-64.   \n20 张娟.欧盟开放科学战略生态体系建设及其特征分析. 世界科技研究与发展,2021,43(1):64-76.   \n21ROCKHOLD F,BROMLEY C,WAGNER E K,et al. Open science:the open clinical trials data journeyJ].Clinical Trials,2019,16:539-546.   \n22 包冬梅,范颖捷,李鸣.高校图书馆数据治理及其框架Ⅲ. 图书情报工作,2015,59(18):134-141.   \n23 陆丽娜,于啸.面向科学数据监管的高校新型智库建设策 略研究——以黑龙江省高校新型智库建设为例].情报 科学,2020,38(3):119-123.   \n24 NISHIKAWA,K.How are research data governed at Japanese repositories? a knowledge commons perspective[J]. Aslib Journal of Information Management,2020,72(5):837- 852.   \n25 KOLTAY T. Data governance,data literacy and the management of data quality[J]. IFLA journal,2016,42(4):303-312.   \n26 DEMCHENKO E Y,STOY L. Research data management and data stewardship competences in university curriculum [C]//IEEE.IEEE Global Engineering Education Conference.Newyork:IEEE Computer Society,2021:1717-1726.   \n27杨宁,张志强.科学大数据时代数字图书馆的新定位与新 挑战——第十六届数字图书馆前沿问题高级研讨班综述 [J].图书与情报,2020(1):127-135.   \n28APPEL A L,ALBAGLI S.Open access in question: new agendas and challenges [J]. Informacao e Sociedade,2019,29 (4):187-208.   \n29 肖小溪,甘泉,蒋芳,等.“融合科学\"新范式及其对开放数据 的要求].中国科学院院刊,2020,35(1):3-10.   \n30 CHEN S L. How empowering is citizen science? access,credits, and governance for the crowd[J].East Asian Science,Technology and Society,2019,13(2):215-234.   \n31 DAMA International. Data management body of knowledge (2nd ed)[M].Basking Ridge:Technics Publications,2017:35.   \n32Enterprise Data Management Council. Data management capability assessment model (DCAM) [EB/OL].[2022-11-09]. https://dgpo.org/wp-content/uploads/2016/06/EDMC_D CAM_-_WORKING_DRAFT_VERSION_0.7. pdf.   \n33 COHN B L. Data governance:a quality imperative in the era of big data,open data and beyond[J].I/S:a journal of law and policy for the information society,2015,10(3):811-826.   \n34 李秋实,陈传夫.推进中国开放科学发展的政策环境建设 [J].图书情报知识,2020(3):11-21.   \n35The Data Governance Institute. Goals and Principles for Data Governance[EB/OL].[2022-04-21].https://datagovernance. com/the-data-governance-basics/goals-and-principles-fordata-governance/.   \n36 The Data Governance Institute.Data governance framework [EB/OL]. [2022-04-21]. https://datagovernance. com/thedgi-data-governance-framework/.   \n37中国国家标准化管理委员会.信息技术服务治理第5部 分：数据治理规范：GB/T34960.5-2018[S].北京:中国标准 出版社,2018:3-8.   \n38 李晓华,王怡帆.数据价值链与价值创造机制研究[).经济 纵横,2020(11):54-62,2.   \n39HAENDEL AENDEL M A,CHUTE C G,BENNETT T D,et al. The national COVID cohort collaborative (N3C): rationale,design,infrastructure,and deployment[J].Journal of the American Medical Informatics Association,2O21,28: 427-443.   \n40STATON M,CANNON E,SANDERSON L-A,et al. Tripal, a community update after 1Oyears of supporting open source, standards-based genetic,genomic and breeding databases[J]. Briefings in Bioinformatics,2021,22(6):1-17.   \n41 孙仙阁,弓箭.开放科学视域下高校图书馆科研数据治理 研究[J].图书馆学刊,2017,39(9):25-28.   \n42 STATON M,CANNON E,SANDERSONL A,et al. Tripal, a community update after 10 years of supporting open source, standards-based genetic,genomic and breeding databases[J]. Briefings in bioinformatics,2021,22(6):1-17.   \n43 陈传夫,李秋实.数据开放获取使科学惠及更广—中国 开放科学与科学数据开放获取的进展与前瞻).信息资 源管理学报,2020,10(1):4-13.   \n44 张亚妹.图书馆推进开放科学的策略与实践—《欧洲研 究型图书馆协会2018-2019年度报告》解读[.图书与情 报,2019(4):109-114.   \n45 KOLTAY T. Data governance,data literacy and the management of data qualityJ].IFLA journal,2016,42(4):303-312.",
+    "context4": "(责任编辑：赵红颖)"
+  },
+  "The Coordination Mechanism of Medical Data Sharing Based on Stochastic Evolutionary Game": {
+    "context1": "SU Qiang, JI Li",
+    "context2": "(School of Economics and Management, Tongji University,Shanghai 2Ooo92,China)",
+    "context3": "Abstract:【Purpose/significance】Toimprovetheopengoveranceofmedicaldata,acoordinating framework foredicaldatasharing iscreated inresponsetothecurrentisuesofalackoffundamentalprinciples,alackofdesire,anddiicultyinsfeguardgprivacy andecurityhazards.【Method/process】Thisstudytakestheunpredictabilityoftheexteralenvironmentitoaccount,costructsa stochasticevolutionarygamemodelbasedonthetrategychoiceandthedistributionofrights,sponsibilitiesandbenefitsofedical datasharinginvolvinghospitals,technologysupportenterprisesandthegovernment,andnalyestherategevolutionofgaesub jects throughdatasimulation.Result/conclusion】Thestudy'sfdingsindicatethat:echnicalsupportenterprisesarekeyplaersin promoting medicaldatasag,ndeirdisionegardngatrategyisusceptibletitialpobabilis,teproportiofostuc tioncoststobeboe,theproporionofprivacyndsecurityssues toeboe,theproportionofbenefitshringandstochasticpertur bations;teinceaseofaditioalcostectcausedbyteospitalgoverentcooperationinonstructiowillinceasetetusiasmofothpartestoarticipateicoperatio;Hospialshoceofstrategywilldiferdpendgoethrechicalsupprtte prisesparticipate in medicaldatasharingconstructionofcostbearing;thebenefitsgapandtheproportionof privacyandsecurityissuesbearingwillalsoifuenehspitalsstrategychoice.Inovation/limitation】Teinnovationoftisaperlsinteobation of evolutionarygameandstochastic process,whichprovidesanewsolutionfortheresearchof sharingandcoordinationmechanism among medicalinstitutios,technologysupportenterprisesandgoverentinanuncertainenvironment,butothermedicaldataubjectsandmorecomprehensiveinfuencingfactorsarenotconsidered,asellastheandlingofultipledataisnotyetfound,wich can be further explored subsequently.",
+    "context4": "Keywords: medicaldata sharing;evolutionary game;stochastic processes;cost sharingandbenefit alocation;simulationanalysis",
+    "context5": "（上接第7页）"
+  },
+  "Scientific Data Governance Towards Open Science: Concept, Framework and Outlook": {
+    "context1": "SI Li,LIU Xianrui",
+    "context2": "(School of Information Management,Wuhan University,Wuhan 430o72,China)",
+    "context3": "Abstract:[Purpose/significance】Intheoenscience environent,clarifyingtheconceptualframeworkofsientificdata goverance canhelpguideandimprovegovernancepractices,enhancethelevelof goverance,optimizethealocationofdataelements,deepen thevalueofdata,andservethdevelopmentofdata-intensivescientificresearch.【Method/processThispaperusesasystematicliteraturreviewapproachandcontentnalyss tocomprehensivelyaccesstheliteratureatteintersectioofscientificatagoverance andopenscience,constructaframeworkforiteratureanalysisandcoding,analyzetheesults,dentifysientificdatagoveanceand relatedconceptsacordinglyonstructaconceptualframework forgoverane,andmakeresearchrecommendations.【ResultcoclusionThisresearchfidsthatteconceptsofsientificdata goveranceandmanagementarediferent intersofdefinitionandpracticelevels,butteeintesofatasiceatrbutes,ectivesndprncplesndeviromealreds.Thsdyouctsa conceptualframeworkforscientificdatagovernancefromthreedimensions:top-leveldesign,implementationplaningandpractical application,explainsthespecificcontentofeachdimensionandtheinteraction withopenscience,and proposes threeresearch perspectives:strengtheninggudance,enhancingapplicabilityandachevinginclusivenes.【Inovatio/limitation】Asystematiciterature reviewandcontentanalysisareusedtocomprehensivelyandsystematicallyeviewtheresearchprogress,distinguishandidentifythe confusingconceptsofsientificdata governanceandmanagement,andexplaintheconcept,application scopeandresearch focusof scientific data governance from multiple dimensions.",
+    "context4": "Keywords: scientific data governance; open science; scientific data management;open and share;open data"
+  }
+}

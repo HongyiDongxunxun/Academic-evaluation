@@ -1,0 +1,146 @@
+{
+  "original_filename": "full_4480.md",
+  "基于客观数据的专利价值评估指标进展与评述 \\*": "",
+  "1吕璐成1.2赵亚娟1.2": {
+    "context1": "「中国科学院文献情报中心 北京 100190  \n²中国科学院大学经济与管理学院信息资源管理系北京100190",
+    "context2": "摘要：「目的/意义]梳理专利价值评估指标的研究和实践进展，评述专利价值评估指标的研究改进思路，展望专利价值评估指标研究的未来方向。「方法/过程]对专利情报研究和服务工作中常用的专利价值评估指标进行系统整理，重点提取改进思路较为典型的Patentics 创造势能、专利 Significance 指标、PatentSight专利资产指数、Patentics专利质量、文献颠覆性指数5个指标进行进展梳理，并对这些指标的改进思路进行评述和展望。[结果/结论]基于客观数据的专利价值评估指标是当前专利价值评估的研究趋势，典型的指标改进思路包括基于专利申请前后语义相关度、基于大数据修正经典评估指标、基于专利权利要求保护范围评估、基于专利引文行为评估4种，接下来的价值评估指标研究可重点关注4方面，分别是：进一步研究基于专利文本内容挖掘的专利价值评估指标，研究形成分领域、分时间、分类型的专利价值评估基线，进一步探究融合经典价值评估指标和新的价值评估指标，以及形成贯穿专利生命周期的专利价值评估指标体系。",
+    "context3": "关键词：专利价值评估高价值专利识别评估指标研究专利数据挖掘专利情报研究",
+    "context4": "分类号：G250",
+    "context5": "DOI: 10.13266/j.issn.0252-3116.2023.18.012"
+  },
+  "1引言": {
+    "context1": "我国2021年3月发布的《中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要》中，首次将“每万人口高价值发明专利拥有量”纳入经济社会发展主要指标，明确提出了“十四五”时期每万人口高价值发明专利拥有量达到12件的预期目标，并在“完善科技创新体制机制”章节中指出要“更好保护和激励高价值专利，培育专利密集型产业”。2021年4月，国家知识产权局对于高价值发明专利进行了界定，指出高价值发明专利主要是指符合国家重点产业发展方向、专利质量较高、价值较高的有效发明专利，主要包括5种：一是战略性新兴产业的发明专利；二是在海外有同族专利权的发明专利；三是维持年限超过10年的发明专利;四是实现较高质押融资金额的发明专利；五是获得国家科学技术奖或中国专利奖的发明专利[]。这些证据表明了我国在“十四五”阶段对于高价值专利的重视程度。虽然高价值专利的重要程度已经深入人心，但对专利进行客观、准确的价值评估却一直是学术界",
+    "context2": "和产业界的难点问题。",
+    "context3": "专利价值评估的目标是从大规模专利数据中筛选出高价值专利，为高价值专利的培育和运营提供指引和支撑[2]，这项工作在实际的专利情报服务工作中具有明确的应用场景和强烈需求，备受专利情报研究人员和数据库商的关注和重视[3]。在实际需求的牵引下，从20世纪60年代以来，专利价值评估的研究和实践成果就不断涌现。从时间轴来看，1967年，W.D.Nordhaus研究了专利寿命指标（patent life）和专利价值的关系[4]；1990 年，R.Gilbert 等与P.Klemper-er 等使用独立权利要求的长度和数量来表示专利宽度（patentbreadth）指标，并研究其与专利价值的关系[5-6；1994年，美国CHI公司联合美国国家科学基金会构建了CHI专利评价指标，并在此基础上形成专利记分牌（patent scorecard）[7]；2003年，美国加州大学伯克利分校与乔治梅森大学发表论文\"Valuablepatents”[8]，随后美国Dialog公司基于该论文构建了Innography专利数据库的专利强度（patent strength）指标；2010年，中国国家知识产权局与中国技术交易所联合开发“技术一法律一经济”三维评估指标体系[，为后续多个专利价值评估指标的提出奠定了理论框架。近年来，Patentics、PatentSight 等一系列新兴专利数据库也纷纷创新，提出了具有特色的专利价值评估指标，同时还形成专利[10]进行保护。",
+    "context4": "从上述研究进展和发展趋势来看，专利价值评估研究与实践更多侧重基于“客观数据”的分析挖掘结果进行指标构建和应用，即基于专利分类号、申请人、发明人、法律状态、引证、转移转化等客观专利元数据和权利要求、说明书等客观专利文本数据构建评估指标，进而用于专利价值评估工作。这类评估工作的优势在于：结果客观可解释、可追溯，不受限于专家领域背景知识和主观意识，本文将这类工作统一概括为“基于客观数据的专利价值评估”",
+    "context5": "现有研究已经对基于客观数据的专利价值评估指标进行过一系列综述，例如M.Grimaldi等对法律、技术、市场、金融、战略5类合计37个专利价值评估指标进行了分类整理[1]，N.G.Kalip 等对价值评估的定性和定量方法分别进行了文献综述[12]，国内学者刘妍[13]、刘勤等[14]、王子焉等[15]也对专利价值评估的概念内涵、发展历程、影响因素、方法类型、指标体系进行了梳理总结。总体来看，学术界和产业界对专利价值体现在技术价值、法律价值、经济价值、市场价值、战略价值5个方面已经初步形成共识，但是对于各个维度的可用指标，学者仍在持续探索。",
+    "context6": "近年来，涌现出了一系列从技术新颖性、创造性、颠覆性、专利权利要求保护范围角度度量专利价值的新指标。例如：从技术新颖性、创造性角度度量技术价值的Patentics 创造势能指标、专利 significance 指标，从技术颠覆性角度度量技术价值的文献颠覆性指数，从专利权利要求保护范围角度反映专利撰写质量进而反映专利法律价值的Patentics 专利质量指标等。这些指标设计的逻辑是源于专利价值的相对性，技术新颖性、创造性高的专利对于创新实体进行新技术布局、风险投资机构寻找新技术的创新实体具有更高决策支撑价值，技术颠覆性高的专利对于技术决策层的创新资源配置和前瞻治理、创新实体的技术创新指引具有更高决策支撑价值，专利权利要求保护范围大的专利对于技术转移机构、知识产权运营中心发现具有转化价值的专利和技术具有参考价值。这些新指标从特定角度实现了专利价值的客观反映，在实际的知识产权情报服务工作中发挥了重要作用。但是，现有研究工作对这些指标的特点仍旧缺乏讨论，缺乏对于这些新指标的细致梳理和评述，导致在实际知识产权情报服务工作中应用这些指标时缺乏依据。",
+    "context7": "综上，本文对当前知识产权情报服务实际工作中应用的典型的基于客观数据的专利价值评估指标的研究与实践进展进行梳理总结和评述，为相关指标的实际应用提供参考依据，也为相关指标的研究工作提供借鉴和启发。"
+  },
+  "2 典型专利价值评估指标研究进展": {
+    "context1": "本文所评述的典型专利价值评估指标的遴选依据是：该指标在本文作者所在单位开展知识产权情报服务实际工作中有所应用。具体地，这些指标包括当前比较典型的专利分析工具中的专利价值评估指标，还包括学术界新出现的可以用于专利价值评估的典型指标，指标核心思想及相关文献如表1所示：",
+    "context2": "表1典型专利分析工具及学术研究中涉及的价值评估指标  \nTable 1 Typical patent analysis tools and value evaluation indicators involved in academic research",
+    "context3": "<table><tr><td>指标名称</td><td>计算思想</td><td>具体做法</td><td>相关论文</td><td>相关专利</td><td>是否在本 文讨论</td></tr><tr><td>Innography 专利强度</td><td></td><td>指标体系+权重权重通过机器学习模型拟合确定</td><td>文献[8]</td><td>/</td><td>香</td></tr><tr><td>OCEAN TOMO 公司 IPQ Scores</td><td></td><td>指标体系+权重权重通过机器学习模型拟合确定</td><td>/</td><td>US13092764[20], US11236965[2i]</td><td>香</td></tr><tr><td>合享INCOPAT专利价 值度</td><td>指标体系+权重</td><td>权重通过非线性数据模型拟合专利数据样本的分布情 况计算得到[2</td><td>/</td><td>CN201810296511.0[22]</td><td>香</td></tr><tr><td>智慧芽专利价值</td><td></td><td>指标体系+权重权重通过机器学习模型拟合确定[23]</td><td>/</td><td>/</td><td>香</td></tr><tr><td>大为 DPI专利价值指数指标体系+权重</td><td></td><td>具体权重赋予方式未限定</td><td>/</td><td>CN201910397464.3[24]</td><td>香</td></tr><tr><td>Himmpat专利评分指标指标体系+权重</td><td></td><td>重权重通过层次分析法确定[25]</td><td>/</td><td>/</td><td>香</td></tr><tr><td>Patentics 创造势能</td><td>基于语义</td><td>引入时间因素，改进TFIDF计算公式，识别重要专利</td><td>/</td><td>CN201511004803.5[10]</td><td>是</td></tr><tr><td>Patentics 专利质量</td><td>基于权利要求文 本挖掘</td><td>通过专利权利要求数量、技术特征数、方法权利要求 数量以及独立权利要求数量判断。</td><td>/</td><td>/</td><td>是</td></tr><tr><td>PatentSight 专利资产指 数</td><td>基于引证和同族</td><td>通过时间、领域归一化后的引证指标和专利布局国家</td><td>文献[26]</td><td>US16504132[27]</td><td>是</td></tr><tr><td>专利 significance 指标</td><td>基于语义</td><td>地区指标判断专利价值。 改进 TFIDF，识别重要专利</td><td>文献[28]</td><td>/</td><td>是</td></tr><tr><td>文献颠覆性指数</td><td>基于引证</td><td>基于专利施引和被引情况，识别重要文献</td><td>文献 [29-31]</td><td>/</td><td>是</td></tr></table>",
+    "context4": "注：表中的“”表示没有查询到相关论文或专利",
+    "context5": "需要说明的是，近年来基于机器学习、深度学习的专利价值评估研究愈发受到关注，例如P.Chung等[]采用融合 CNN（convolutional neural networks ）和 BiLSTM（bi-directional long short-term memory）的深度学习方法，基于专利摘要和权利要求向量特征、计量指标特征训练专利价值评估模型；H.Lin等[17]采用属性网络嵌人（attribute network embed-ding,ANE）和基于注意力的卷积神经网络（atten-tion-based convolutional neural network,ACNN）深度学习方法训练专利价值评估模型；G.C.Yang等[18]采用关系代数方法利用多种直接引用、间接引用、耦合等引证特征构建综合专利引证网络开展专利价值评估研究；赵蕴华等[19]采用决策树、支持向量机和神经网络方法进行专利价值评估。但是，由于这些方法的应用较为依赖训练数据，可解释性和实际应用受限。本文着重关注可在实际专利情报服务工作中应用的专利价值评估指标，因此基于机器学习、深度学习的专利价值评估研究没有在本文中进行讨论。",
+    "context6": "基于前期工作中对于Innography 的专利强度、合享INCOPAT专利价值度、智慧芽专利价值、大为DPI专利价值指数、Patentics 创造势能、PatentSight专利资产指数等专利分析工具中集成的专利评估指标的比较[32]，再结合 2020 年Patentics 推出的专利质量指标、2022年Himmpat数据库推出的专利评分指标，对比发现：Innography 的专利强度、合享INCO-PAT专利价值度、智慧芽专利价值、大为DPI专利价值指数、Himmpat专利评分指标的指标设计思路较为一致，基本是基于专利的技术、法律、市场、战略等价值维度，通过构建专利引证、同族、转移转化、无效诉讼等指标作为价值评估的特征，采用专家赋权、熵权法、层次分析法或者机器学习的方法确定权重，然后通过加权计算的方式来计算专利价值。相比较而言，Patentics 创造势能、专利 significance 指标、PatentSight专利资产指数、Patentics专利质量、文献颠覆性指数5个指标的设计思想与其他指标略有不同，具有一定特色，值得从设计思想和具体实现方式角度进行研究，因此本文对其设计思想和计算方法进行深人梳理和讨论。"
+  },
+  "2.1基于专利申请前后语义相关度评估": {
+    "context1": "基于专利申请前后语义相关度变化来评估专利价值的代表性指标包括Patentics 创造势能指标和专利 significance 指标。"
+  },
+  "2.1.1 Patentics 创造势能": {
+    "context1": "Patentics专利数据库最突出的特点是语义检索，通过这一功能，Patentics 数据库能够建立所有专利之间的语义相关关系。基于“一项具有创造性的专利应与在先技术明显不同，与在后技术申请密切相关”的思想[33]，Patentics 设计了专利创造势能指标，也称创新势能，通过对比一件专利申请后与申请前的相关专利申请差异（如专利申请量差异、专利相关度差异等）来反映一个专利的价值。",
+    "context2": "创造势能指标的基本思想如图1所示，对于待评估的一篇专利P，首先获取与之相关的专利构建一个专利数据集，然后根据P的申请日或公开日将数据集划分为在前（prior）专利和在后（post）专利两部分，其次计算其与在前申请的H篇专利和在后申请的H篇专利的语义相关性，通过设定相关性阈值（relevance threshold）筛选高于阈值的相关专利，计算在前与在后专利的语义相关性差值，即可反映目标专利P的创造性和价值。在此基础上，Patentics 设计了3个具体指标来计算创造势能[10]。",
+    "context3": "![](images/b186c8ae51bcf2d19559c31d6454c70c377e22c323af0ece1b30daf2e7c09642.jpg)  \n图1创造势能指标基本思想[10]  \nFigure 1 Basic idea of creating potential energy indicator",
+    "context4": "第一个指标通过限定专利数据集中目标专利前后的专利数量H，通过前后专利的平均相关度来反映目标专利的创造性。计算公式为：",
+    "context5": "$\\begin{array} { r } { \\mathrm { V } 1 = \\mathrm { a v g } \\left( \\sum _ { \\mathrm { i = 1 } } ^ { \\mathrm { H } } \\mathrm { r e l e v a n c e } ( \\mathrm { P } , \\mathrm { P o s t } _ { \\mathrm { i } } ) \\right) - } \\end{array}$ ${ \\mathrm { a v g } } { \\Big ( } \\sum _ { \\mathrm { i = 1 } } ^ { \\mathrm { H } } { \\mathrm { r e l e v a n c e } } ( \\mathrm { P } , \\mathrm { P r i o r } _ { \\mathrm { i } } ) { \\Big ) }$",
+    "context6": "公式（1）中，P是指待评估的目标专利，Posti是指在待评估专利P之后申请的第i件专利，Priori是指在待评估专利P之前申请的第i件专利。",
+    "context7": "第二个指标通过限定专利数据集中专利的相关度阈值，通过对比目标专利申请前后满足特定阈值的专利的平均相关度来反映目标专利的创造性。计算公式为：",
+    "context8": "$$\n\\begin{array}{c} \\begin{array} { c } { { \\mathrm { V 2 } = \\mathrm { a v g } \\displaystyle { \\overbrace { \\sum _ { i = 1 } ^ { \\mathrm { n _ { p o s t 2 \\ r e u s a r e \\ t h r e s h o l d } } } \\mathrm { r e l e v a n c e } ( P , \\mathrm { P o s t } _ { i } ) } ^ { \\mathrm { n _ { p o s t 2 \\ r e u s a r e } ( \\mathrm { b } , \\mathrm { P o s t } _ { i } ) } } } \\end{array} } } \\\\  { \\mathrm { a v g } \\displaystyle { \\overbrace { \\sum _ { i = 1 } ^ { \\mathrm { n _ { p r i o r z e r o i v a r e \\ t h r e s h o l d } } } \\mathrm { r e l e v a n c e } ( P , \\mathrm { P r i o r } _ { i } ) } ^ { \\mathrm { n _ { p r i o r z e } ( \\mathrm { b } , \\mathrm { P o s t } _ { i } ) } } } } \\end{array}\n$$",
+    "context9": "公式（2）中， $n _ { \\mathrm { p o s t 2 r e l e v a n c e \\ t h r e s h o l d } }$ 是指目标专利申请日之后满足特定阈值的相关专利数量，npriorzreance treshold是指目标专利申请日之前满足特定阈值的相关专利数量。",
+    "context10": "第三个指标通过计算专利数据集中目标专利申请日前后的相关专利申请时间与目标专利申请时间的差值来反映目标专利的创造性。计算公式为：",
+    "context11": "$$\n\\begin{array} { r } { \\mathrm { V } 3 = \\mathrm { a v g } \\left( \\displaystyle \\sum _ { i = 1 } ^ { n _ { p o s t } } ( \\mathrm { Y e a r } _ { \\mathrm { p o s t } _ { i } } - \\mathrm { Y e a r } _ { \\mathrm { p } } ) \\right) - } \\\\ { \\mathrm { a v g } \\left( \\displaystyle \\sum _ { i = 1 } ^ { n _ { p r o r } } ( \\mathrm { Y e a r } _ { \\mathrm { p } } - \\mathrm { Y e a r } _ { \\mathrm { p r i o r } _ { i } } ) \\right) } \\end{array}\n$$",
+    "context12": "公式（3）",
+    "context13": "公式（3）中，Yearp是目标专利P的申请时间，$\\mathrm { n _ { p o s t } }$ 是指目标专利申请日之后的相关专利数量， $\\mathrm { n _ { p r i o r } }$ 是指目标专利申请日之前的相关专利数量，Yearpost;是目标专利申请日之后的第i件专利的申请时间，$\\mathrm { Y e a r } _ { \\mathrm { p r i o r } _ { \\mathrm { i } } }$ 是目标专利申请日之前的第i件专利的申请时间。"
+  },
+  "2.1.2专利 significance 指标": {
+    "context1": "已有诸多研究证明了专利的被引指标与专利价值的强相关性[34-35]，但是被引证指标会存在随着时间持续变动和数据缺失的问题。对此，B.T.Kelly等[28]在 2018年提出了一种利用文本分析来计算专利 significance指标的方法，专利 significance 越高的专利被认为专利价值越高，该研究通过验证发现该方法被用于识别技术突破、分析专利市场价值的有效性。该方法的思想跟Patentics创造势能的思想较为一致，即Significant专利相对于其之前的专利相关度低，相对于其之后的专利相关度高，可通过分析目标专利文献与其之前和之后的专利文献的相关度来发现重要专利（见图2）。该研究的创新之处在于引入了时间因素来改进专利向量表示方法，这样做的原因在于：传统文本相关度方法多采用TFIDF方法进行专利向量表示，其中某个词的IDF是基于全局文本来计算，这就导致了如果一个专利具有较高的创新性，在其里面包含的创新性词汇在之后也会有大量专利使用，这会导致该技术词汇的IDF 值很低，最终影响文档相关度计算结果。因此，这一指标的特点在于引入时间因素改进了专利相关度计算方法，并设计了算法来实现专利significance指标的计算。该指标的整体计算步骤为：利用专利中技术词的词频和引入时间因素后的逆文档频率，计算得到各个专利的向量，然后通过计算Cosine 相似度来计算任意两个专利的相关度。",
+    "context2": "![](images/d3431811e3e616307c5c220c6953ec97c7ebae66859fd22da6e06c3276a9277a.jpg)  \n图2专利significance指标设计思想 Figure 2 Design idea of patent significance indicator",
+    "context3": "具体的，对于一篇专利i，其包含的词w的 TF-BIDF 值计算公式如下：",
+    "context4": "$$\n\\mathrm { T F B I D F } _ { w , i , t } { = } \\mathrm { T F } _ { w , i } { \\mathrm { ^ { * } B I D F } _ { w , t } }\n$$",
+    "context5": "$\\mathrm { B I D F } _ { w , t }$ （backward-IDF）是考虑了专利申请时间的逆  \n文档频率，计算公式如下：  \n$\\mathrm { B I D F _ { w , t } } = \\log \\left( { \\frac { \\ d S } { \\ d 1 + \\ d t } } \\right)$ 在t时间之前的专利总数在t时间之前的包含词w的专利数公式（5）",
+    "context6": "公式（4）中， $\\mathrm { T F } _ { w , i }$ 是词W在专利i中出现的频次,",
+    "context7": "公式（5）中，t是专利i的申请时间，也就是通过在专利i之前申请的专利中包含词w的情况来反映词特征w对于专利i的重要性。",
+    "context8": "获得专利i中所有特征词 $[ w _ { 1 } , w _ { 2 } , w _ { 3 } , . . . , w _ { n } ]$ 的TF-$\\mathrm { B I D F } _ { w , i , t }$ 后即可得到专利i的 $\\mathrm { T F B I D F _ { \\mathrm { i , t } } }$ 向量表示，然后通过如下标准化公式计算得到专利i的标准化文本向量表示，见公式（6）：",
+    "context9": "$$\n\\mathrm { V _ { i , t } = \\frac { T F B I D F _ { i , t } } { \\Vert \\mathrm { T F B I D F _ { i , t } } \\Vert } }\n$$",
+    "context10": "对于专利i来说，分别计算其之前（例如前5年）申请或授权的专利与专利i的相关度，记为后向相似度（backward similarity），计算公式为：",
+    "context11": "$$\n\\mathrm { B S _ { j } ^ { \\tau } } = \\sum _ { \\mathrm { i } \\in \\mathrm { B ( j , \\tau ) } } \\mathsf { P } _ { \\mathrm { ( j , i ) } }\n$$",
+    "context12": "公式（7）中， $\\mathrm { B } _ { ( \\mathrm { j } , \\tau ) }$ 表示在专利j提交之前的 $\\tau$ 年提交的一组在先专利。",
+    "context13": "然后计算其之后（例如后5年）申请或授权的专利与专利i的相关度，记为前向相似度（forwardsimilarity），计算公式为：",
+    "context14": "$$\n\\mathrm { F S _ { j } ^ { \\mathrm { \\tau } } { = } } \\sum _ { \\mathrm { i } \\in \\mathrm { B ( j , \\tau ) } } \\mathsf { P } _ { \\mathrm { ( j , i ) } }\n$$",
+    "context15": "公式（8）中， $\\mathrm { F _ { ( j , \\tau ) } }$ 表示在专利 $\\mathrm { j }$ 提交之后的 $\\tau$ 年提交的一组后续专利。",
+    "context16": "基于以上结果，通过公式（9）计算得到专利j的 significant值，可以用来反映专利的价值。",
+    "context17": "$\\mathsf { q } _ { \\mathrm { j } } ^ { \\tau } { = } ( \\mathrm { F S } _ { \\mathrm { j } } ^ { \\tau } ) / ( \\mathsf { B S } _ { \\mathrm { j } } ^ { \\tau } )$ 公式（9）"
+  },
+  "2.2基于大数据修正经典评估指标，代表性指标：": "",
+  "PatentSight专利资产指数": {
+    "context1": "专利引证频次、同族大小等这些专利分析指标是现有专利价值评估中应用的重要特征指标[36，但是不同申请时间、不同技术领域以及在不同国家和地区申请的专利在以上指标的表现上存在差异。例如，具有相同被引频次但在不同时间申请的专利反映的专利价值理应有所不同；具有相同被引频次但属于不同技术领域的专利反映的专利价值理应有所不同。对于以上问题，专利价值分析指标应该有针对性地考虑指标无量纲化[32]，但现有的多数专利价值评估指标在采用这些特征指标时并未对该问题提出针对性的解决方案。相比较而言，PatentSight基于H.Ernst等论文[2设计的专利资产指数指标（patentassetindex，PAI）对于这一问题给出了相对比较清楚的处理方法。",
+    "context2": "PAI指数是针对一个专利组合进行的评估[37],其核心是对专利组合中的每个专利的竞争力指标（competitiveimpact，CI）进行计算，然后求和得到PAI指数。",
+    "context3": "而每个专利的CI指标的计算思路如图3所示。具体的，对于一件专利，利用两个指标反映其价值，分别是市场覆盖程度（marketcoverage，MC）和技术影响力 (technology relevance，TR)。",
+    "context4": "![](images/1a96505dc519668d93907bc0a62234585ef4493e0d38e130807bf19816e143ef.jpg)  \n图3PatentSight专利竞争力指标的设计思想 Figure 3 Design idea of PatentSight patent competitiveness index",
+    "context5": "其中，MC指标通过专利的同族专利布局的国家和地区的GNI（国民总收人）来反映，同时对于处于申请和授权阶段的专利，赋予不同的权重，授权阶段的权重是1，申请阶段的权重是 $0 . 7 ^ { [ 2 6 ] }$ 。",
+    "context6": "TR 指标通过修正专利的被引证情况评估专利的技术影响，具体包括修正专利引证指标的申请时间差异因素、修正技术领域差异因素、修正不同国家地区的专利局引用偏好差异因素。",
+    "context7": "CI指标通过MC指标计算结果乘以TR指标计算结果得到，采用乘积的原因在于防止TR值过大导致MC值被稀释。上述过程的公式化表达如公式（10）所示：",
+    "context8": "$$\n\\textstyle \\mathrm { P A I } = \\sum _ { i = 1 } ^ { n } \\mathrm { C I } _ { \\mathrm { i } } = \\sum _ { i = 1 } ^ { n } \\mathrm { M C _ { i } } ^ { * } \\mathrm { T R } _ { \\mathrm { i } }\n$$",
+    "context9": "公式（10）中， $\\mathrm { C I _ { i } }$ 是专利组合中第i件专利的竞争力指标结果， $\\mathrm { M C _ { i } }$ 是专利组合中第i件专利的市场覆盖程度计算结果， $\\mathrm { T R _ { i } }$ 是专利组合中第i件专利的技术影响力计算结果。",
+    "context10": "从核心思想来看，PatentSight还是从专利的被引证情况和布局国家地区两个角度来判断专利的价值，但是，其对于这两项指标的计算进行了较为深入的无量纲化修正，使得计算结果更具逻辑性和信服力，这一点值得在未来的专利价值评估指标研究中借鉴。"
+  },
+  "2.3基于专利权利要求保护范围评估，代表性指标：Patentics专利质量": {
+    "context1": "权利要求是专利中声明权利的文本，是对发明内容的高度概括，对其进行分析挖掘对于判断专利价值具有积极影响。2020 年，Patentics专利数据库推出了专利质量这一指标，基于权利要求的内容来判断专利质量，视角比较典型，也被纳入本文的讨论范围。高质量专利通常具有更大的保护范围，这意味着其通常具有更多的权利要求数量、更少的主权利要求技术要素数量。基于这一思想，Patentics专利质量指标综合考虑专利权利要求数量（以下简称“专利度”指标）、主权利要求技术特征数量（以下简称“特征度”指标）、方法权利要求数量（以下简称“方法度”指标）、独立权利要求数量（以下简称“独权度”指标）来反映专利质量。其中，专利度越大，专利权项越多，通常说明专利保护范围越大，专利无效过程中专利权利要求的修改余地越大，专利质量越好；特征度越小，通常说明主权项的技术要素越少，保护范围越大，专利质量越好;方法度越大，方法权利要求数量越多，专利质量越好；独权度越大，独立权利要求（主要指方法、装置）",
+    "context2": "数量越多，专利质量越好[38]。",
+    "context3": "笔者通过与Patentics数据库产品研发人员的访谈了解到Patentics专利质量的计算方式如下：专利质量 $=$ （专利度 $+ \\alpha ^ { * }$ （ $\\beta ^ { * }$ 方法度 $+ \\gamma ^ { * }$ 独权度））/",
+    "context4": "特征度公式（11）",
+    "context5": "公式（11）中，参数 $\\mathfrak { a }$ 、 $\\beta$ 和 $\\gamma$ 通过线性回归的方式基于公知高技术公司的专利同族数、同族国家数、被引用数等数据拟合得到。"
+  },
+  "2.4基于专利引文行为评估，代表性指标：文献颠覆性指数": {
+    "context1": "R.J.Funk等[30]在2016年定义了CD指标来测度一个专利对于技术发展的影响属于延续还是颠覆，L.Wu等对该指标进行了改进[29]，用于判断团队工作的颠覆性。这一指标的核心思想是根据目标文献的前向引文（即引证目标文献的文献）对于目标文献的参考文献（即目标文献引证的文献）的引用情况来评价目标文献的颠覆性。具体见公式（12）：",
+    "context2": "$$\n\\mathrm { D } = p _ { i } - p _ { j } = { \\frac { n _ { i } - n _ { j } } { n _ { i } + n _ { j } + n _ { k } } }\n$$",
+    "context3": "公式（12）中， $n _ { i }$ 是只引证目标文献而不引证任何目标文献参考文献的目标文献前向引文数量， $n _ { j }$ 是同时引证目标文献和目标文献参考文献的目标文献前向引文数量， $n _ { k }$ 是引证目标文献参考文献而不引证目标文献的文献数量。",
+    "context4": "在极端情况下（见图4），当仅引证目标文献的目标文献前向引文数量等于同时引证目标文献和目标文献参考文献的目标文献前向引文数量时， $n _ { i } { = } n _ { j }$ ，$\\scriptstyle \\mathrm { D = 0 }$ ；当目标文献前向引文皆引证目标文献的同时还会引证目标文献参考文献时， $n _ { i } { = } 0$ ， $n _ { k } { = } 0$ ， $\\scriptstyle \\mathrm { D } = - 1$ ，即该文献具有高技术延续性；当目标文献前向引文皆只引证目标文献而不引证目标文献参考文献时， $n _ { j } = 0$ ，$n _ { k } { = } 0$ ， $\\mathrm { D } { = } 1$ ，即该文献具有高技术颠覆性。",
+    "context5": "![](images/7e1735adb63cbe5fb0284ebbc35670d0def89087081f3b88a4146f4bbb2947bb.jpg)  \n图4文献颠覆性指数计算思想[29]  \nFigure 4 Calculation thought of literature disruption index",
+    "context6": "需要指出的是，这一指标在被提出时仅被用于判断专利在技术发展过程中所处的地位，并未说明用于专利价值评估，而在后续的研究中被J.Chen等学者[39]通过验证发现其与专利价值呈现正相关。"
+  },
+  "3 进展评述": "",
+  "3.1基于客观数据的专利价值指标体现的价值侧重点不同，面对实际需求应按需选择": {
+    "context1": "当前的专利价值评估指标在专利语义挖掘、指标无量纲化修正、权利要求保护范围评估、细粒度指标设计等方面进行了深入的研究和实践。整体来看，这些指标仍然在特定维度中计算，体现的价值侧重点不同，如表2所示，例如Patentics创造势能、专利significance指标关注专利申请前后的相关专利变化，主要体现了专利的技术价值维度；PatentSight专利资产指数主要对专利同族和引证指标进行了深入改进，主要体现了专利的技术价值、法律价值和市场价值;Patentics专利质量关注专利权利要求保护范围，主要体现了专利的法律价值；文献颠覆性指数从文献引文行为角度设计，主要体现了专利的技术价值。",
+    "context2": "表2专利价值评估指标的核心思想和体现的价值维度  \nTable 2 The core idea and reflected value dimensions of patent value evaluation indicators",
+    "context3": "<table><tr><td>序号</td><td>指标名称</td><td>核心思想</td><td>专利价值维度</td></tr><tr><td>1</td><td>Patentics 创造势能</td><td>一项具有创造性的专利应与在先技术明显不同，与在后技术申请密切相关</td><td>技术价值</td></tr><tr><td>2</td><td>专利 significance 指标</td><td>significant专利相对于其之前的专利相关度低，相对于其之后的专利相关度高</td><td>技术价值</td></tr><tr><td>3</td><td>Patentics 专利质量</td><td>高质量专利通常具有更多的权利要求数量、方法权利要求数量、独立权利要求数法律价值 量，更少的主权利要求技术要素数量</td><td></td></tr><tr><td>4</td><td>PatentSight专利资产指数</td><td>对不同时间段、技术领域、国家地区的专利从引证和同族指标进行价值评估时， 应进行指标修正</td><td>技术价值、法律价值、 市场价值</td></tr><tr><td>5</td><td>文献颠覆性指数</td><td>disruption 专利的前向引文更倾向于引证 disruption 专利本身而不引证 disruption 专利的参考文献</td><td>技术价值</td></tr></table>",
+    "context4": "总体来说，这些专利价值评估新指标的设计和研究工作目前仍处于一种“百家争鸣”的状态，还没有一套指标能把所有指标的优势集成到一起，形成一套综合的、体系化的专利价值评估指标。在此情况下，面对实际的专利价值评估需求，需要专利情报分析人员根据评估对象和目标，按需选择并组合指标，结合评估问题的场景发挥各个指标的优势，才能得到更为科学、有效的分析结论。"
+  },
+  "3.2以文本语义技术和大数据技术为代表的数智技术是推动专利价值评估指标改进的驱动力": {
+    "context1": "数智技术的快速发展给图情工作提供了诸多方法手段[40]，这一点在专利价值评估工作中的体现也非常明显。Patentics 创造势能指标和专利 sig-nificance指标基于文本语义分析技术，通过计算目标专利申请前后的相关专利数量或相关专利语义相关性来判断专利价值；Patentics专利质量指标基于文本术语抽取技术，提取专利权利要求中的技术特征来反映专利权利要求的保护范围，进而反映专利价值；PatentSight专利资产指数利用全球各个技术领域的专利引证大数据的计算，消减不同专利的引证时间差异、地域差异、专利局引证偏好差异来反映专利价值。可以看出，这些新指标的定义和研究得益于文本语义技术和大数据技术等数智技术的赋能，较之原有指标具有更强的可解释性和说服力。"
+  },
+  "3.3时间因素在专利价值评估指标的研究设计中愈发受到重视": {
+    "context1": "基于指标体系的经典专利价值评估工作往往直接对目标专利的各种计量指标进行统计[41]，并通过对比各个专利的计量指标表现反映专利价值，但其中存在由于时间因素导致的计量指标之间不可比较的问题[42]。在专利价值评估指标中，如何考虑时间因素或者消减时间因素也愈发受到关注。",
+    "context2": "在考虑时间因素方面，Patentics创造势能指标和专利 significance指标均是在时间尺度上通过前后相关专利的规模判断专利价值；同时，专利significance指标在逆文档频率（IDF）的基础上引入了时间因素，形成了带时间因素的逆文档频率（BIDF）指标，仅考虑技术术语在目标专利出现之前的热度，避免在大数据中重要技术术语被淹没的问题，以此来反映目标专利的重要性和价值；文献颠覆性指数在时间尺度上区分目标专利、目标专利的前向引文、目标专利的参考文献，通过考虑目标专利的前向引文对其本身和其参考文献的引用情况反映专利的颠覆性，这也是反映专利价值的一个角度。在考虑消减时间因素方面，PatentSight专利资产指数，利用专利引证大数据消减不同时间段申请专利的引证指标差异来反映专利价值。可以看出，时间因素在当下的专利价值评估指标设计和研究中愈发受到重视，这一点需要在未来的研究和应用中充分考虑。"
+  },
+  "3.4专利价值评估指标已经开始从简单的计数统计 向细粒度的指标内在表现统计转变": {
+    "context1": "专利的权利要求数量和引证指标均是专利价值评估的经典指标[43]，但是对其直接进行计数统计是现有专利价值评估工作的惯用做法。在新指标中，Patentics专利质量指标对于权利要求指标进行了细分，通过考虑专利权利要求数量、主权利要求技术特征数量、独立权利要求数量、方法权利要求数量4个分项指标来细粒度刻画专利的权利保护范围，进而细粒度对比专利价值；文献颠覆性指数方面，其通过分析目标专利的前向引文的具体引证文献的差异，来判断目标专利在技术发展过程中的颠覆性；此外，PatentSight专利资产指数指标也对于专利类型进行细分统计，区分授权专利和审中专利分别赋予不同权重进行统计，以此来细粒度区分专利价值。基于这个思想，现有的诸多专利价值评估指标（如专利类型、布局地区、撰写质量、专利运营状态等指标）都在细分领域或者不同时间阶段有细粒度的改进空间。这些指标的细粒度改进将对专利价值评估指标体系的科学性和系统性具有重要助力作用。"
+  },
+  "4未来与展望": {
+    "context1": "在当前我国对于高价值专利重视程度大幅提升的时代背景下，研究定量化、可解释的专利价值评估模型，实现客观、可回溯的专利价值评估和高价值专利筛选，对于我国的知识产权创造、运用、保护、管理、服务具有重要意义。近年来基于客观数据的专利价值评估指标取得了重要进展，基于当前的基础，结合我国“十四五”的发展目标，提出以下4点研究展望。"
+  },
+  "4.1深入研究基于专利文本内容挖掘的专利价值评估指标": {
+    "context1": "自然语言处理技术的快速发展为专利文本的内容挖掘提供了技术手段，催生了Patentics 创造势能、专利 significance 指标、Patentics 专利质量这样的基于专利文本挖掘来反映专利价值的新指标。但是，这些指标用到的专利文本仍旧以专利标题、摘要和权利要求为主，对于专利说明书的技术领域、背景技术、发明内容、具体实施方式等文本的挖掘利用尚且不足，这一现象的主要原因在于这些文本中存在大量的噪声内容，会干扰专利文本挖掘的结果。随着自然语言处理和深度学习技术的进一步发展，未来在基于专利文本内容挖掘的专利价值评估指标设计方面还有",
+    "context2": "很大的研究空间。"
+  },
+  "4.2研究形成分领域、分时间、分类型的专利价值评估基线": {
+    "context1": "在专利价值评估时进行评估指标的无量纲化已经逐渐成为共识，在这一方面，典型的案例是Paten-tSight的专利资产指数，其从引证时间、技术领域、不同国家地区的专利局引用偏好、不同国家地区的GNI等角度对于专利的引证和同族指标进行了无量纲化，从而得到了可比性更强的价值评估指标。但是,规范化这些指标背后的基线目前尚未在学术界和产业界形成共识，即目前针对不同技术领域、不同时间段（年份）、不同专利类型的专利的经典专利价值评估指标仍旧没有形成共识性的基线参考结果。随着国家对于高价值专利重视程度的不断提高，这个评估基线数据需要通过研究进行明确，为相关专利价值评估工作提供基本的参考依据。"
+  },
+  "4.3探究融合经典价值评估指标和新的价值评估指标，构建体系化的专利价值评估指标体系": {
+    "context1": "近年来，专利价值评估指标的研究与实践已经通过专利语义挖掘评估、指标无量纲化修正、权利要求保护范围评估、细粒度指标设计等方面形成了诸多新思路，基于这些思路形成的新指标如何与经典的专利价值评估指标（如专利类型、法律状态、审查状态等）[44]进行融合，构建体系化的专利价值评估指标体系，并在典型的高价值专利数据集上进行验证有待进一步研究。"
+  },
+  "4.4贯穿专利生命周期的专利价值评估指标体系有待研究": {
+    "context1": "在实际专利情报服务中，用户在专利的“提案一申请—维持—转化一纠纷”全生命周期中都对专利价值评估有强烈需求。但是，现有研究缺乏对于专利价值评估指标在专利全生命周期应用场景的具体探讨，同时也尚未形成针对专利全生命周期的系统化指标体系。因此，在下一步的专利价值评估指标研究中，应该结合专利提案、申请、维持、转化、纠纷各个生命周期阶段的具体特点来梳理可用指标，明确不同场景下的指标适用性，尝试形成贯穿专利生命周期的专利价值评估指标体系。"
+  },
+  "参考文献：": {
+    "context1": "[1]中国政府网.未来五年，如何更好保护和激励高价值专利? [EB/OL].[2023-05-02].http://www.gov.cn/xinwen/2021-03/29/ content_5596621.htm.(Chinese government website.How can we better protect and incentivize high-value patents in the",
+    "context2": "next five years?[EB/OL]. [2023-05-02]. http://www.gov.cn/ xinwen/2021-03/29/content_5596621.htm.)   \n[2] 马天旗.高价值专利筛选[M].北京：知识产权出版社,2018. (MA T Q. High value patent screning[M]. Beijing: Intellectual Property Publishing House,2018.)   \n[3] 吕璐成,罗文馨,许景龙,等.专利情报方法、工具、应用 研究进展及新技术应用趋势[M]//情报学进展,2020,13:235- 278. (LU L C,LUO W X, XU JL, et al. Research progress in patent intelligence methods, tools,applications,and new technology application trends[M]//Advances in information science,2020,13: 235-278.)   \n[4]NORDHAUS WD.The optimal life of a patent[EB/OL]. [2023- 05-02]. htps://elischolar.library.yale.edu/cgi/viewcontent. cgi?article=&cotetos-dss-seri   \n[5] GILBERT R,SHAPIRO C. Optimal patent length and breadth[J]. The RAND journal of economics,1990,21(1): 106-112.   \n[6] KLEMPERER P. How broad should the scope of patent protection be?[J]. The RAND journal of economics,1990,21(1): 113-130.   \n[7] 马慧民，王鸣涛，叶春明．日美知识产权综合评价指标体系 介绍[J].商场现代化,2007(31):301-302.(MAHM,WANGM T, YE C M. Introduction to the comprehensive evaluation index system of Japanese and American intellectual property rights[J]. Market modernization,2007(31): 301-302.)   \n[8] ALLISON JR,LEMLEY M A, MOORE K A,et al. Valuable patents[J]. Georgetown law journal,2004,92(3): 435-479.   \n[9]中国技术交易所.专利价值分析与评估体系规范研究[M]. 北京：知识产权出版社,2015.(China Technology Exchange. Research on the standardization of patent value analysis and evaluation system[M]. Beijing: Intellectual Property Publishing House,2015)   \n[10]索意互动（北京）信息技术有限公司.文献价值获取方法与 装置[P].中国专利:CN201511004803.5,2015-12-29.(Suoyi Interactive (Beijing) Information Technology Co.,Ltd.Literature value acquisition method and device[P]. Chinese patent: CN201511004803.5,2015-12-29.)   \n[11] GRIMALDI M, CRICELLI L. Indexes of patent value: a systematic literature review and classification[J]. Knowledge management research & practice,2020,18(2): 214-233.   \n[12]KALIP N G, ERZURUMLU Y , GUN N A. Qualitative and quantitative patent valuation methods: a system-atic literature review[J]. World patent information,2022,69: 102111.   \n[13]刘妍.专利价值评估研究综述与趋势展望[J].图书情报工作, 2022, 66(15): 127-139. (LIU Y. Review and trend prospect of the research on patent value evaluation[J]. Library and information service,2022,66(15): 127-139.)   \n[14] 刘勤,杨壬淦，刘友华·高价值专利评估方法、存在问题及 对策[J].科技管理研究,2022,42(4):147-152.(LIUQ,YANG R G, LIUYH.Hig-valuepatent evaluation method,eisting problems and countermeasures[J]. Science and technology management research, 2022,42(4): 147-152.)   \n[15]王子焉,刘文涛,倪渊,等.专利价值评估研究综述[J].科 技管理研究,2019,39(16):181-190.(WANG ZY,LIUWT, NI Y, et al. Areview of patent value evaluation[J]. Science and technology management research,2019,39(16): 181-190.)   \n[16]CHUNG P, SOHN S Y. Early detection of valuable patents using a deep learning model: case of semicon-ductor industry[J]. Technological forecasting and social change,2020,158: 120146.   \n[17] LIN H, WANG H, DU D,et al. Patent quality valuation with deep learning models[C]//DASFAA 2018: database systems for advanced applications. Cham: Springer,2018: 474-490.   \n[18] YANG G C, LI G, LI C Y,et al. Using the comprehensive patent citation network (CPC) to evaluate patent value[J]. Scientometrics,2015,105(3): 1319-1346.   \n[19] 赵蕴华,张静,李岩,等.基于机器学习的专利价值评估方法 研究[J].情报科学,2013,31(12): 15-18.(ZHAOYH,ZHANG J, LI Y, et al. Study on evaluation for patent value based on machine learning[J]. Information science,2013,31(12): 15-18.)   \n[20] PATENTRATINGS LLC. Method and system for rating patents and other intangible assets[P].美国专利:US13092764,2011- 04-22.   \n[21]PATENTRATINGS LLC.Method and system for probabilistically quantifying and visualizing relevance be-tween two or more citationally or contextually related data objects[P].美国专利： US11236965,2005-09-27.   \n[22]北京合享智慧科技有限公司.专利价值度评价方法和计算机 可读存储介质[P].中国专利：CN201810296511.0,2018-03- 30.(Beijing Hexiang Smart Technology Co., Ltd. Patent value evaluation method and computer readable storage media[P]. Chinese patent: CN201810296511.0,2018-03-30.)   \n[23] 谢智敏,范晓波,郭倩玲.专利价值评估工具的有效性比较 研究[J].现代情报,2018,38(4):124-129.(XIE Z M,FAN XB, GUO Q L. An comparative study on the effectiveness of patent value evaluation tools[J]. Journal of modern information, 2018, 38(4): 124-129.)   \n[24]北京科慧远咨询有限公司,保定市大为计算机软件开发有限 公司.一种专利运营系统中的专利评估方法和专利评估装 置[P]．中国专利:CN201910397464.3,2019-05-14.(Beijing Kehuiyuan Consulting Co., Ltd., Baoding Dawei Computer Software Development Co., Ltd. A patent evaluation method and patent valuation device in a patent operation system[P]. Chinese patent: CN201910397464.3,2019-05-14.)",
+    "context3": "[25]HimmPat.每个细节都告诉你：专利价值评估不再神秘！[EB/ OL].[2023-05-02]. https://mp.weixin.qq.com/s/FqRX4Q9n_ qHUSli91BMFjg.(HimmPat.Every detail tells you: patent value evaluation is no longer mysterious![EB/OL].[2023-05-02]. https://mp.weixin.qq.com/s/FqRX4Q9n_qHUS1i91BMFjg.)",
+    "context4": "[26]ERNST H, OMLAND N.The patent asset index-a new approach to benchmark patent portfolios[J].World patent information, 2011,33(1): 34-41.",
+    "context5": "[27] PATENTSIGHT GMBH.Computer implemented method for quantifying the relevance of documents[P].美国专利： US16504132,2010-10-07.",
+    "context6": "[28]KELLY B T, PAPANIKOLAOU D, SERU A, et al. Measuring technological innovation over the long run[J].American economic review: insights,2021(3): 303-320.",
+    "context7": "[29] WU L,WANG D,EVANS JA.Large teams develop and small teams disrupt science and technology[J].Nature,2019, 566(7744): 378-382.",
+    "context8": "[30]FUNK RJ,OWEN-SMITH J.A dynamic network measure of technological change[J]. Operations research,2018,58(3): 271- 274.",
+    "context9": "[31]LEYDESDORFF L, TEKLES A, BORNMANN L. A proposal to revise and simplify the disruption indicator[J].Profesionales de la Informacion,2021,30(1): e300121.",
+    "context10": "[32]许景龙，吕璐成，赵亚娟.面向专利分析流程的专利情报 分析工具功能比较研究[J].情报理论与实践,2020,43(8): 178-185,151. (XU JL,LU L C, ZHAO Y J. Comparative study on the functions of patent information analysis tools for patent analysis process[J]. Information studies: theory & application, 2020,43(8): 178-185,151.)",
+    "context11": "[33]PATENTICS.Patentics 价值谱，专利价值评估工具[EB/OL]. [2023-05-02]. https://itpcb.com/a/308081. (PATENTICS.Patents value spectrum,patent value evaluation tool[EB/OL]. [2023-05- 02]. https://itpcb.com/a/308081.)",
+    "context12": "[34]KOGANL,PAPANIKOLAOUD, SERU A, et al. Technological innovation, resource allocation,and growth[J]. Quarterly journal of economics,2017,132(2): 665-712.",
+    "context13": "[35]HALL BH,JAFFE AB,TRAJTENBERG M.Market value and patent citations[J]. The RAND journal of economics,2005, 36(1): 16-38.",
+    "context14": "[36]万小丽，朱雪忠.专利价值的评估指标体系及模糊综合评价 [J].科研管理,2008(2):185-191.(WANXL,ZHUXZ.The indicator system and fuzzy comprehensive evaluation of patent",
+    "context15": "vaiue[j]. Science researcn management, ∠uvo(∠): lo)-191.)   \n[37] 钟华，单连慧,李海存.专利资产指数：一种新的专利组合 分析方法[J].中华医学图书情报杂志,2014,23(12):10-12. (ZHONG H, SHANL H,LIH C.Patent asset index: a novel approach to benchmark patent portfolios[J]. Chinese journal of medical library and information science,2014,23(12):10-12.)   \n[38]索意互动（北京）信息技术有限公司.Patentics大数据分 析变量定义表[EB/OL].[2023-05-16]. htps://patentics.com/ bigDataAnalysis.html. (Suoyi Interactive (Beijing) Information Technology Co., Ltd.Patentics big data analysis variable definition table[EB/OL].[2023-05-16]. htps://patentics.com/ bigDataAnalysis.html.)   \n[39] CHEN J, SHAO D,FAN S.Destabilization and consolidation: conceptualizing,measuring,and validating the dual characteristics of technology[J].Research policy,2021,50(1): 104115.   \n[40]吕璐成,韩涛.AI在图情：人工智能赋能图情服务—2019 年图书馆前沿技术论坛(IT4L)会议综述[J].农业图书情 报学 报,2020,32(5):13-18.(LULC,HAN T.Artificial intelligence empowers library and information servicereview of forums about information technology for library 2019[J]. Journal of library and informationg science in agriculture,2020,32(5): 13-18.)   \n[41]肖国华，牛茜茜.专利价值分析指标体系改进研究[J].科 技进步与对策,2015,32(5): 117-121.(XIA0 G H,NIU Q Q. The study on improvement of \"indicator system of patent value analysis\"[J]. Science & technology progress and policy, 2015, 32(5): 117-121.)   \n[42]WANG D, SONG C,BARABASI A L. Quantifying long-term scientific impact[J]. Science,2013,342(6154): 127-132.   \n[43]万小丽.专利质量指标研究[D].武汉：华中科技大学,2009. (WAN XL. Study on indicators of patent quality[D].Wuhan: Huazhong University of Science and Technology,2009.)   \n[44]谷丽，郝涛，任立强，等.专利质量评价指标相关研究综述 [J].科研管理,2017,38(S1):27-33.(GUL,HAO T,REN L Q,et al. A review of studies on patent quality evaluation index[J]. Science research management, 2017,38(S1): 27- 33.）"
+  },
+  "作者贡献说明：": {
+    "context1": "吕璐成：调研综述及论文撰写；  \n赵亚娟：论文选题及论文修改。"
+  }
+}

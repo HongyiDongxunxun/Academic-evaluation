@@ -1,0 +1,86 @@
+{
+  "original_filename": "full_4659.md",
+  "·研究生园地·": "",
+  "基于知识图谱的美国近十年信息系统研究现状分析": {
+    "context1": "苏玥竹",
+    "context2": "(华南师范大学经济与管理学院，广东广州510006)",
+    "context3": "(摘要）运用知识图谱软件Citespace 对2003-2012年美国信息系统领域的研究文献进行知识图谱分析，展示了美国有关信息系统的学术研究的经典文献、研究结构和力量分布、研究热点等情况，在此基础上通过定性分析对相关文献、部分研究机构和研究热点等做了简要的介绍。研究发现美国信息系统领域近十年的研究处于成熟期、科研合作密切且研究力量分布较为集中、研究热点呈现出在基础性的研究热点上不断演化出新的研究热点的特征。",
+    "context4": "（关键词）知识图谱；美国；信息系统；研究现状；研究机构；研究热点DOI:10.3969/j.issn.1008-0821.2014.08.031",
+    "context5": "（中图分类号）G250.252（文献标识码）A（文章编号）1008-0821（2014）08-0154-06"
+  },
+  "Research Status - quo Analysis of IS in the Last ten Years of U. S. based on Mapping Knowledge": {
+    "context1": "Su Yuezhu",
+    "context2": "(School of Economy and Management， South China Normal University，Guangzhou 510006，China)",
+    "context3": "(Abstract）Via a mapping knowledge software Citespace，this paper did quantitative analysis of the research documents in U.S.during thelast decade between 2O03and 2012.Itrevealed theclasical papers，research institutionsand teams，hottopicsabouttheISresearch inU.S.．This studyfound thattheresearchesonIS inthelastdecadehadcometoaplatform，thecollaborationandresearchteamsarecomon，thehottopicsofresearcheswerecloselyinterelatedbasedonthefundamentalfields.",
+    "context4": "(Key words）mapping knowledge；United States；information system；research status -quo；research institution;",
+    "context5": "科学知识图谱是一种研究科学知识发展进程与结构关系等规律的方法和工具。它以引文分析、共现分析、词频分析等文献计量方法为基础，以科学知识为计量研究对象，综合运用计算机科学技术、可视化技术、数据挖掘等学科理论和方法，以图谱的形式形象地展现科学领域的发展历程、研究现状及热点前沿等问题，从而有助于揭示科学知识之间的联系与知识的发展规律[。知识图谱可以可视化地展示学术研究的很多特征，比如共词、共引、聚类等特性。目前可以使用多种软件工具对相应的数据进行处理后得到知识图谱。其中CiteSpace被我国的学术研究者广泛使用，其使用频率要频率要远远高于其他诸如“VOSviewer”、“Ucinet’、“Bibexcel”等软件。因此本文将采用Citep-Space软件对研究对象进行知识图谱分析。",
+    "context6": "其本身也在不断地发展。从功能角度定义，信息系统一般是指一个进行信息输入、处理加工、输入以辅助相关决策和管理的相互关联的系统。从构成角度定义，信息系统是以信息技术为主导、以人为中心，由相应的硬件设备、通讯和网络设备、软件等构成的人机集成系统4-。信息系统实际应用的不同以及自身的发展使得其研究的侧重点也在不断发生变化。美国作为发达国家的代表，其信息系统的研究情况具有代表性和前瞻性。因此通过对文献进行知识图谱分析以发掘美国信息系统研究领域的研究特点、现状。"
+  },
+  "1数据来源、研究思路": {
+    "context1": "信息系统对人们的生活、生产领域产生了巨大的影响，"
+  },
+  "1.1数据来源": {
+    "context1": "本文使用的数据来源于美国科学信息研究所Webof",
+    "context2": "Science索引数据库，所选的检索数据库是SCI-EXPAND-ED、CPCI-S和 CPCI-SSH。以“information system\\*”为标题词兼主题词、时间跨度为从2003年1月到2012年12月进行检索，再对结果进行以下精炼：文献类型是“PRO-CEEDINGSPAPER”或“ARTICLE”、国家/地区为“USA”、语种为“ENGLISH”，最后获得1334条文献纪录。将全记录与引用的参考文献导出另存为纯文本格式、以download开端的文件文件名的文件以备后用。"
+  },
+  "1.2研究思路": {
+    "context1": "本研究属于描述性研究，主要在知识图谱定量分析的基础上对分析结果进行定性分析。描述时，采取文献计量学的方法和描述性统计分析方法。首先，将数据导入到陈超美博士开发的CiteSpace-软件中，依次设置主题词来源为文献标题、摘要、关键词和标识符，将“time Slicing”的起始时间设定为2003年、结束时间设定为2012年、PerSlice设置为1，Pruning使用Pathfinder算法。接下来依次将节点类型依次设置为CitedReference（共引文献）、Insti-tution（共引作者的机构）、Keyword（共现关键词）从而得到以下图谱：文献共引图谱、共引作者的机构网络图谱、关键词共引图谱，并对图谱内容进行逐个分析。"
+  },
+  "2结果分析": "",
+  "2.1文献的年代分布情况": {
+    "context1": "对10年内的相关研究文献的年代分布进行统计，得到论文年代分布图。",
+    "context2": "![](images/92d81f6a8f9dc73dda1ebc663f1cedfc97ecbc6c0c9be72748e859c19eb06bed.jpg)  \n图1论文年代分布图",
+    "context3": "从上面文献的年代分布图可以看出，与信息系统的相关文献在年代分布上比较均匀，但总体上略有下降的趋势。这主要是信息系统尤其是借助计算机等技术的信息系统虽然出现的时间不是很长，但发展迅速，最近十年的研究是一段相对稳定的成熟期。"
+  },
+  "2.2共引文献知识图谱分析": {
+    "context1": "共引是指两篇或两篇以上的文献同时被别的文献引用。一般认为共引文献在主题上具有一定的相似性，而共引次数可以衡量不同文献在内容方面的相关度。共引分为文献共引、词的共引、作者共引、期刊共引等，其中文献共引是基础，因为文献包含了关键词、作者、期刊等众多信息。",
+    "context2": "将CiteSpace软件的节点类型设置为“Cited Refer-ence”，每个时间切片中对象选取标准是TOP50，运行、调整后得到如下的共引文献知识图谱。",
+    "context3": "![](images/d56c456ce5ff9cec9ab66284a63159b17365bfca203a3e844b384cf65ee84af9.jpg)  \n图2共引文献知识图谱",
+    "context4": "图2中，节点最外面的紫红色圆环代表该节点的中心度，表示该节点对周围其他节点在连接、关联上的重要程度。中心度高的网络节点对该网络的作用重大，这意味着这些节点所代表的文献对其他文献影响较大。从图中可以看出中心度较大的节点，其共引的频率也较大。这些文献是近十年美国信息系统的学术研究的影响大。研究这些文献可以很好地了解信息系统的部分早期影响较大的理论，这对当前以及今后的相关研究有着借鉴和指导作用。以下"
+  },
+  "列出引用次数在前十位的文献信息。": {
+    "context1": "表1美国近十年共引文献次数前十位文献",
+    "context2": "<table><tr><td>序号</td><td>被引用 次数</td><td>文 献</td></tr><tr><td>1</td><td>40</td><td>Davis FD.Perceived usefulness，perceived ease of use，and user acceptance of information technology</td></tr><tr><td>2</td><td>38</td><td>DeLone W H，McLean E R.Information systems success: the_quest for the dependent variable OrlikowskiWJ，IaconoCS.Researchcommentary:Desperatelysekingthe“IT”inITresearchacalltotheorizingtheIarti</td></tr><tr><td>3</td><td>31</td><td>fact</td></tr><tr><td>4</td><td>27</td><td>Viswanath Venkatesh，MichaelG.Moris，GordonB.Davis，FredD.Davis．Useracceptanceof informationtechnology：towarda unified view</td></tr><tr><td>5</td><td>25</td><td>BenbasatI，ZmudRW.TheidentitycrisiswithintheISdiscipline:Definingandcommunicating thediscipline&#x27;scoreproperties</td></tr><tr><td>6</td><td>23</td><td>DavisFD，Bagozzi RP，WarshawPR．User acceptance of computer technologyacomparisonof two theoretical models</td></tr><tr><td>7</td><td>23</td><td>FornellC，Larcker DF.Evaluating structural equation models with unobservable variablesand measurement error</td></tr><tr><td>8</td><td>22</td><td>Hevner A R，March S T，Park J，etal．Design science in information systems research</td></tr><tr><td>9</td><td>20</td><td>NunnallyJC.Psychometric</td></tr><tr><td>10</td><td>19</td><td>Delone W H. The DeLone and McLean model of information systems success:a ten-year update</td></tr></table>",
+    "context3": "限于篇幅，本文依次对被引用次数在前五位的文献进行简要的介绍。",
+    "context4": "在《感觉有用性、感觉易用性以及用户对信息技术的接受》中，FredD.Davis等人针对之前缺少有效对用户关于计算机接受度衡量方法研究的情况，提出了从用户的感觉有用性、感觉易用性这两个影响用户接受度的基本因素，建立相应的指标体系，并通过实证研究证明这两个变量的有效性。此外感觉有用性、感觉易用性与对IT当前的使用以及未来的使用有显著的关联，而且感觉有用性比感觉易用性对使用行为的影响更大。回归分析显示感觉易用性是感觉有用性的前提，最后作者阐述了该研究对用户接受度研究的影响。",
+    "context5": "针对之前对影响信息系统成功的变量研究多但定义难的情况，在《信息系统成功：对因变量的探索》中，De-LoneWH等人从系统质量、信息质量、用户满意度、个人影响、组织影响6个维度做了理论和实证研究，最后建立了一个由信息系统成功实施所需的各个要素构成描述性模型并讨论了其对未来信息系统研究的影响。",
+    "context6": "在《研究评论：在信息技术研究中极度渴望地找寻“信息技术”- 一一个对信息技术的产品进行理论化的呼吁》中，OrlikowskiWJ等人基于过去10年信息系统研究的大量论文，作者认为这些研究并没有触及信息系统的核心一—信息技术产品，因为这些研究倾向于在理论上讨论情景的重要性、信息产品分布处理能力或者阐述信息系统带来的影响和变化。信息产品在建立、实施之后，其容易被人们忽视或者认为是不会出现问题的。在讨论这些发现的基础上，作者建议信息系统领域的研究者应该重视技术、对信息技术的产品进行理论化并将这些理论融入到今后的研究中[。",
+    "context7": "ViswanathVenkatesh等人在《用户对信息技术的接受度：通向一个统一的视角》中分析了8种关于信息技术的接受度的重要模型（理性行为理论、技术接受度模型、激励模型、计划行为模型、技术接受度和计划行为的综合模型、个人电脑效用最大化模型、创新扩散模型、社会认知模型)，对这些模型以及演变进行了对比，最后建立和验证了一种统一的信息技术接受度模型[。",
+    "context8": "BenbasatI等人在《信息系统共同的危机：定义和交流学科的核心特征》中讨论了建立一种统一范式对信息系统领域研究的重要性的原因，然后通过建立一套核心特征来说明这样的统一性，最后通过讨论那些没有涉及信息系统核心特征的研究得出以下结论：通过重新确定信息系统领域的学术研究的建议，作者定义了信息系统学科的核心[ 。",
+    "context9": "这5篇文献从理论、创新、实证等一个或多个角度对信息系统进行研究。它们研究的基本上都是信息系统的一些基础性、方向性、本质性的核心问题。这些为其后的信息系统发展和研究奠定了理论基础或方向。在本文研究数据中，这些文献的高引用次数以及谷歌学术搜索显示的高引用次数正说明它们在信息系统领域研究文献中的重要性和基础地位。"
+  },
+  "2.3合作研究机构分析": {
+    "context1": "将CiteSpace软件的节点类型设置为“Institution”，在操作中发现：无论如何设置每个时间切片中对象选取标准，合作研究者所在的研究机构之间的中心度都很低，因此从本实验的数据无法得到单纯的研究机构在合作的重要性方面信息。由于合作文献的共同作者只是信息系统领域合作的最终结果中较小的一部分，因此为了能更多显示联系，本文将时间切片中对象选取标准设置为TOP80，运行、调整后得到文献的共引作者所在机构知识图谱。",
+    "context2": "![](images/c2912c3770a1a4c87438c1acf545eaf1aa2fe75a3766a1e2f4c0c0a6e0d0d996.jpg)  \n图3共引作者机构分布图",
+    "context3": "从图3对应的数据列表得到的前五个高合作次数的研究机构依次是：北卡罗来纳大学（27次）、马里兰大学(25次)、宾夕法尼亚州立大学（25次)、华盛顿大学（24）次、威斯康星大学（20次)。有以上信息，不难看出北卡罗来纳大学和马里兰大学在信息系统方面的研究与其他研究机构合作多且紧密。",
+    "context4": "北卡罗来纳大学的信息系统研究的主体是信息与图书馆科学学院。该学院成立于1931年，受到卡耐基公司基金的支持，并获得美国图书馆永久的条件认可。信息与图书馆科学学院拥有308名在读研究生、47名博士生，开设42门本科主修课程和29门辅修课。同时这里有40名专职从事与信息相关的教学、科研的学者。这些是北卡罗来纳大学在信息系统领域研究实力的保证。",
+    "context5": "马里兰大学在信息系统方面的主要来自于史密斯商学院。该学院下设了数字创新、科技与战略研究中、健康信息与决策系统研究中心以及决策、运营和信息科技专业（该专业拥有37名教授和研究员）。相关的学者的研究论文发表的数量多且质量高。该学院能对针对外界社会的需要迅速做出相关的科研、人才培养的调整，比如针对2012年大数据的兴起，学院在2013年设立市场营销数据分析的硕士点。",
+    "context6": "宾夕法尼亚州立大学中信息系统的研究人员集中在斯米尔商学院的供应链和信息系统专业。该专业拥有47名教授，建立了供应链研究中心、电子商务研究中心、商务市场研究所、经济管理与拍卖实验室、宾夕法尼亚物流研究所、制造企业集成中心。这些研究机构设立和优秀的科研人才是信息系统研究的基础。",
+    "context7": "华盛顿大学拥有福斯特商学院的信息系统专业以及信息学院的与信息相关的专业。其中商学院的信息系统专业拥有5位教授，具备信息系统博士点。而信息学院的拥有众多科研人员以及一套完备地培养信息领域人才的体系，设立有信息保障和网络安全中心、21世纪年轻人扫盲社区、数据实验室、设计使用建造小组、信息与社会中心、国家安全教育与科研研究所、移动和接入设计实验室、科技与社会变化小组、价值体验设计研究实验室。",
+    "context8": "威斯康星大学商学院的会计和信息系统专业研究人员以及图书馆与信息研究学院的学者是研究信息系统的核心力量。前者的研究偏向于商业和运营，后者对信息本身的研究。",
+    "context9": "从知识图谱的中各节点的连线可以看出大部分研究机构之间在信息系统领域的学术交流还是比较活跃，少数一些研究机构对信息系统的研究比较独立。由此可以看出，信息系统的研究有必要加强各研究机构之间的合作。这些结果的分析有助于信息领域的其他学者了解今年美国信息系统分析的研究力量分布，从而更好的关注这些机构及其研究成功乃至直接与这些机构中的学者进行交流。"
+  },
+  "2.4研究热点及其演化分析": {
+    "context1": "词频分析是情报学、文献计量学领域的一种典型的定量分析方法。它通过统计关键词、主题词、篇名词等核心词汇在某一类学术文献中所出现的频次来判别该学术领域的研究热点等[。其中关键词反映了文献的主题和核心内容，其出现频率的高低可以体现相关领域的研究热点分布;其变动可以确定相关领域的发展趋势和方向。",
+    "context2": "将 CiteSpace软件的节点类型设置为“Keyword”，时间切片中对象选取标准设置为“TOP50”，显示布局设置“time zone”为运行、调整后得到近十年美国信息系统领域的热点以及热点变动知识图谱。",
+    "context3": "![](images/14e85b056a7cc0f571a0a4e44b9476365a5fc462bb0c36f5defea359b53fb756.jpg)  \n图4关键词知识图谱"
+  },
+  "2.4.1研究热点解读": {
+    "context1": "以下是共引频次超过20次的关键词分布。",
+    "context2": "表2关键词频率分布表",
+    "context3": "<table><tr><td>关键词</td><td>引用次数</td></tr><tr><td>technology</td><td>135</td></tr><tr><td>model</td><td>108</td></tr><tr><td>management</td><td>86</td></tr><tr><td>performance</td><td>63</td></tr><tr><td>information systems</td><td>56</td></tr><tr><td>design</td><td>52</td></tr><tr><td>impact</td><td>45</td></tr><tr><td>organizations</td><td>38</td></tr><tr><td>implementation</td><td>38</td></tr><tr><td>united - states</td><td>35</td></tr><tr><td>design</td><td>52</td></tr><tr><td>impact</td><td>45</td></tr><tr><td>implementation</td><td>38</td></tr><tr><td>organizations</td><td>37</td></tr><tr><td>united - states</td><td>35</td></tr><tr><td>care</td><td>34</td></tr><tr><td>geographic information systems</td><td>33</td></tr><tr><td>business</td><td>30</td></tr><tr><td>risk</td><td>29</td></tr><tr><td>success</td><td>29</td></tr><tr><td>health</td><td>28</td></tr><tr><td>quality</td><td>28</td></tr><tr><td>perspective</td><td>28</td></tr><tr><td>models</td><td>26</td></tr><tr><td>knowledge</td><td>22</td></tr><tr><td>children</td><td>21</td></tr><tr><td>epidemiology</td><td>20</td></tr><tr><td>framework</td><td>20</td></tr><tr><td>remote sensing</td><td>20</td></tr></table>",
+    "context4": "依次对前4个关键词做简要的介绍（信息系统是检索词，在此不做分析）。",
+    "context5": "（1）科技。它包含了信息系统中信息的搜集、存储、加工处理、转化、使用、传输等所涉及到的所有技术，常见的有：感测技术、通信技术、智能技术和控制技术[4。其中感测技术涵盖了常见的遥感、自动化感应记录等信息搜集辅助技术。通信技术主要指因特网、电话网等传递信息的技术和途径。智能技术包括计算机软硬件、数据库管理软件、人工智能等涉及信息处理的关键技术和工具。控制技术主要是指人类干预其他信息技术时所用的技术。科技是人类实现信息系统的途径，在很大程度上决定了信息系统的效率和功能。因此信息系统领域的研究学者需要重视对所涉及到的科技的研究，只有在此基础上才能研发、实施更好的信息系统。",
+    "context6": "(2）模型/模式。这个关键词涉及信息系统内外部的运行机理、架构。信息系统是一个由多个要素构成的复杂集合。信息系统的结构模式决定了其功能和效率。在信息系统中，信息的获取、存储传输、应用需要特定的逻辑架构支撑，如客户/服务器、浏览器/服务器模式。而对信息的智能化的高效处理流程离不开详细的逻辑业务模型指导。信息系统的模型/模式的不同决定了其功能和用途方面的差异。因此信息系统的一个重要研究点就要设计、优化系统的模型。在研究、对比了《管理信息系统季刊》和《信息系统研究》两种期刊在过去3年中与信息系统相关的研究文献后，文献[5]指出之前对信息系统中模式结构的曲解，并提出了避免类似错误的建议。",
+    "context7": "（3）管理。这个关键词包括信息系统对信息对象的管理以及借助于信息系统对其他对象（如企业、政府等组织）的管理。信息系统自身处理信息的效率以及使用其管理其他对象过程会影响个人和组织的最终管理效果。恰当地使用信息系统不仅可以提高管理效率，还可以避免日常管理中的不足[。同时信息系统作用的发挥需要对重视其建设和平时的管理，否则，信息系统会导致相应的管理问题而不是辅助人们的管理活动。",
+    "context8": "（4）绩效。应用信息系统是为了通过加强对信息的管理来提高活动的效率。信息系统的效益水平是衡量该系统成功与否的一个重要标准。信息系统对实施主体绩效的影响机制比较复杂。大量企业信息系统实施的失败经历促使学者更加研究信息系统与组织绩效的相关关系，从而对信息系统做出相应的调整来实现更高的绩效[。如何使信息系统更有效的实现既定目标是信息系统存在的价值。"
+  },
+  "2.4.2研究热点演化解读": {
+    "context1": "从关键词的被引频率、中心度以及时区分布可以看出，那些引用次数高、中心度高的关键词（如引用次数在前五位的关键词）既是信息系统领域研究的热点（出现频率高)，也是研究重点（中心度高）和基础一其他关键词与这些关键词密切关联或是在这些关键词基础上的延伸。其中科技、管理、模型/模式、绩效、管理、设计、实施这些研究热点构成了信息系统研究的基础。在此基础上，随着时间的推移，信息系统的研究依次出现了以下几个研究热点：2004年的影响（impact）和框架（framework）、2005年的儿童（children）、2007年的美国（Unite States)和模式（patterns）、2008年的癌症（cancer）、2009年的电子健康记录（electronic health records）和分类（classifica-tion）、2010年的用户接受性（useracceptance）等。这些新研究热点是在已有的研究热点和基础上发展、演化出来的，与那些中心度高的研究重点关联性很强。这些新的研究热点以及不同时区的研究热点之间的关联反映出信息系统研究热点的发展趋势。这样的趋势符合一般学术研究的特征，即相关领域的研究有几个重要的理论范式构成，随着研究的不断发展，在这些研究基础上以及它们的交叉点产生出新的研究热点从而是该领域的研究进入有共同基础、但呈现多样化发展的成熟阶段。"
+  },
+  "3结语": {
+    "context1": "本文通过对WOS索引数据库中相关文献的检索记录进行知识图谱来分析得到近十年来美国信息系统研究领域的具有重要影响力的经典文献信息，深入研究这些文献可以了解美国信息系统研究的基础理论等。知识图谱中的合作研究机构图还可以展现美国相关机构的研究水平。研究热点以及演化过程图谱还可以提现研究热点的关联从而有助于了解研究趋势和挖掘新的研究点。这些对了解美国最近十年的信息系统相关的研究情况起一定的导引和介绍作用。同时，了解这些研究现状可以为我国信息系统的相关研究、实施和发展提供很好的借鉴作用。",
+    "context2": "参考文献  \n[1］陈悦，刘则渊，陈劲，等．科学知识图谱的发展历程［J].科学学研究，2008，26（3)：449-460.  \n[2]赵丙军，王旻霞，司虎克．基于CiteSpace 的国内知识图谱研究［J]．图书情报工作网刊，2012， $( \\ 8 ) : \\ 6$   \n[3］司有和．信息管理学通论［M]．北京：机械工业出版社,2009:116.  \n[4］詹姆斯A．奥本莱恩．信息系统概论［M]．王丽娟，译．北京：机械工业出版社，2006：5.  \n[5］陈晓红．信息系统教程［M]．北京：清华大学出版社，2003:16.  \n[6]Chen，C.CiteSpaceII:Detectingand visualizing emergingtrends and transient patterns in scientific literature ［J]．Journal oftheAmerican Society for Information Scienceand Technology,2006，57(3):359-377.  \n[7]Chen，C.Searching for inteletual turning points:ProgressiveKnowledge Domain Visualization [J]．Proc.Nat.Acad.Sci.,2004，101（Suppl.）:5303-5310.  \n[8]Davis FD. Perceived usefulness， perceived ease of use，and useracceptance of information technology[J]．MIS quarterly，1989:319 -340.  \n[9]DeLone W H，McLean E R. Information systems success:thequest for the dependent variable [J]． Information systems re-search，1992，3（1):60-95.  \n[10]Orlikowski WJ,Iacono C S．Research commentary:Desperatelyseeking the“it”in it research—acallto theorizing the it artifact[J]．Information systems research，2001，12（2):121-134.  \n[11]Venkatesh V，Morris MG，Davis GB，et al．User acceptanceof information technology:Toward a unified view [J]．MIS quar-terly，2003:425-478.  \n[12]Benbasat I,Zmud R W.The identity crisis within the IS disci-pline:Defining and communicating the discipline's core properties[J]．MIS quarterly，2003:183-194.  \n[13］张勤．词频分析法在学科发展动态研究中的应用综述[J].图书情报知识，2011，（2)：95-98.  \n[14］中国科学技术协会．信息技术［M]．上海：上海科学技术出版社，1994:62.  \n[15]Petter S，Straub D，Rai A． Specifying formative constructs in in-formation systems research [J]．Mis Quarterly，2007，31（4）:623 -656.  \n[16]Ash JS，Berg M，Coiera E.Some unintended consequences ofinformation technology in health care: the nature of patient care in-formation system- related errors [J]．Journal of the AmericanMedical Informatics Association，2004，11（2):104-112.  \n[17]Reeve BB,Hays RD,Bjorner JB，et al．Psychometric evalu-ation and calibration of health -related quality of life item banks:plans for the Patient - Reported Outcomes Measurement InformationSystem（PROMIS)[J]．Medical care，2007，45（5）：22-31.",
+    "context3": "(本文责任编辑：郭沫含)"
+  }
+}

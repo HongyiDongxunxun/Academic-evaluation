@@ -1,0 +1,15 @@
+{
+  "original_filename": "full_9962.md",
+  "Predicting Diabetic Complications with Unbalanced Data": {
+    "context1": "Qiu YunfeiGuo Lei (School of Software, Liaoning Technical University, Huludao 125105, China)",
+    "context2": "Abstract: [Objective] This paper addresses the clasification issues facing unbalanced sample data, aiming to finda beter solution and improve the prediction results of diabetic complications.[Methods]Atthe data level, we used the improved SMOTE oversampling algorithm (F_SMOTE)to change the class distribution of unbalanced data. At the algorithm level, we adopted the balance accuracy,ROC and AUC under PR curve as evaluation criteria.Finally，we compared the performance of four single clasifier learning models and four ensemble learning models.[Results] Compared with the traditional over sampling algorithm,our F_SMOTE algorithm improved the prediction accuracy, ROC and PR by $1 . 4 9 \\%$ ， $3 . 4 3 \\%$ and $8 . 0 5 \\%$ ,respectively. Compared with the single classifier learning model, our method improved the accuracy, ROC and PR by $9 . 7 3 \\%$ ， $1 4 . 0 7 \\%$ and $4 6 . 7 9 \\%$ ， respectively. The combined F_SMOTE algorithm and Random Forest model reached $9 7 . 6 4 \\%$ in accuracy, $9 8 . 9 1 \\%$ in ROC and $9 6 . 6 4 \\%$ in PR for unbalanced data. [Limitations] The coverage and efficiency of our model training needs to be further improved.[Conclusions]This method creates a predictive analysis framework for researchers, which could also help doctors in disease diagnosis and prevention.",
+    "context3": "Keywords: Unbalanced Data F_SMOTE Algorithm Ensemble Learning Diabetic Complications"
+  },
+  "通过人工智能识别宝莱坞和好莱坞电影中的社会偏见趋势": {
+    "context1": "近期,卡内基·梅隆大学计算机科学家设计了一种计算机自动分析方法,能够成功追踪宝莱坞和好莱坞电影数十年来的社会偏见，例如：20世纪50年代和60年代在宝莱坞电影中描绘的婴儿多为男孩，而在今天的电影中,男孩和女孩的新生儿基本各占一半;在50年代和60年代，嫁妆在社会上是可以接受的,而今天这种情况并不多;多年来,宝莱坞对女性的审美一直不变，始终是拥有白皙皮肤的漂亮女人。",
+    "context2": "卡内基·梅隆大学语言技术研究所(Language Technologies Institute)的研究人员对过去70年的电影进行了收集,每十年100部宝莱坞电影，以及同一时期好莱坞收入最高的100部电影,然后,使用统计语言模型分析了这1400部电影字幕中的性别和社会偏见。研究人员使用所谓的完形填空测试评估了电影中的美容习惯,使用了一种称为\"男性代词比率\"(MPR)的指标来评估男性角色的普遍性,还观察了多年来与嫁妆相关的词语,研究人员说：“虽然我们知道这些偏见的存在,但是现在我们有数字可以量化它们。随着这些偏见的减少，我们还可以看到过去70年的进展。”",
+    "context3": "研究人员认为这是一种使人们能够更加精确地研究文化问题的方法。我们研究的是大规模、跨时间的电影统计和自动分析。为更好地理解这些电影中隐含的文化主题提供了一个更好的探索。”,此外,相同的自然语言处理工具也可以用于快速分析成百上千的书籍、杂志文章、广播脚本或社交媒体帖子。",
+    "context4": "编译自:https://www.sciencedaily.com/releases/2021/02/210225113229.htm)",
+    "context5": "(本刊讯)"
+  }
+}

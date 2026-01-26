@@ -1,0 +1,151 @@
+{
+  "original_filename": "full_10180.md",
+  "领域事件图谱构建方法综述 \\*": {
+    "context1": "王毅沈喆姚毅凡成颖21（南京大学信息管理学院南京210023）2(山东师范大学文学院 济南250014)",
+    "context2": "摘要：【目的】分析并评述领域事件知识图谱构建的相关研究,为后续研究提供理论基础和实践指导。【文献范围】利用Web of Science核心数据库和Google Scholar以\"Event Graph”、“Event extraction\"和\"Eventrelation\"等主题词进行检索,经过手工筛选获得代表性文献61篇。【方法】采用文献调研方法系统梳理领域事件图谱在定义、构建流程、识别方法等方面的工作。总结了基于规则、基于特征学习以及基于神经网络三种事件抽取的方法,对事件抽取与事件关系抽取中的特征选择、模型架构以及实验结果等进行分析和对比。",
+    "context3": "【结果】借鉴通用图谱构建的方法,提出包括事件触发词识别、事件要素识别、事件关系识别以及事件存储等在内的领域事件图谱构建流程模型。从描述结构、领域限制、事件形式、推理能力和时序关系等角度阐明构建标准应具备的元素。在构建实践中,事件本体的借鉴和复用是必要选项,事件抽取采用神经网络方法是目前最优的选择。【局限】由于标准数据集的缺失,事件关系抽取对比中未能采用统一的数据集进行量化比较。【结论】提出从知识提升、迁移学习以及认知模型等三个视角开展该主题后继研究的建议。",
+    "context4": "关键词：领域事件图谱知识图谱事件抽取信息提取",
+    "context5": "分类号：G350  \nDOI:10.11925/infotech.2096-3467.2020.0383",
+    "context6": "引用本文：王毅，沈喆，姚毅凡等.领域事件图谱构建方法综述[J].数据分析与知识发现,2020,4(10)：1-13.(Wang Yi, Shen Zhe, Yao Yifan,et al. Domain-Specific Event Graph Construction Methods:A Review[J]. DataAnalysis and Knowledge Discovery, 2020, 4(10): 1-13.)"
+  },
+  "1引言": {
+    "context1": "知识图谱(Knowledge Graph,KG)以结构化的形式描述了客观世界中的概念、实体及其关系。近年来,KG已经成为人工智能领域的研究热点，相关技术和应用都取得了长足的进步。根据知识表示的广度、深度和粒度,知识图谱可以分为通用知识图谱（General-purpose Knowledge Graph,GKG)和领域知识图谱（Domain-Specific Knowledge Graph,DKG）。由于GKG知识规模庞大、复杂度高等特点，难以满足应用的需要。目前，GKG的构建方法尚在进一步完善之中，典型实例有Wikidata[1]、DBpedia[]以及KnowledgeVault[3]等。相较于GKG,DKG的复杂度要低得多，并已取得了丰富的成果,实用的DKG也更常见，比如,微软的学术知识图谱[4]以及Leetaru等[5]的地缘政治事件图谱等。",
+    "context2": "KG源于语义网[6],其中的实体指存在于现实世界的对象。鉴于语义网体系庞大、成本高以及过于理想化等特点，KG利用工程化思想弱化了语义网的严格限制,比如降低本体的严格定义，面向领域以及更关注知识抽取。这些做法也带来了知识图谱规范性与复用性差以及知识孤岛等问题。目前，以实体为中心的KG聚焦于静态概念，忽略了知识的动态性和过程性,例如DBpedia等可以描绘\"特朗普”属于\"人\"以及\"人\"有\"姓名”“年龄\"属性等知识,而难以表达\"美国将向意大利提供经济援助\"等类似的事件型知识。为此，以事件作为核心概念的领域事件知识图谱(Domian-Specific Event Knowledge Graph,DEKG)研究正在兴起。不同于实体,事件能够直接刻画实体及其行为，具有更丰富的语义，比如,事件间的时态、因果以及顺承等关系能够更好地刻画实例层知识。",
+    "context3": "KG作为理论研究和知识工程折中的产物，其理论研究正在深入，应用中也存在诸多值得改进之处，其中构建方法是学界普遍关注的主题。Ji等已经对GKG的构建方法进行了较为系统的整理[8-10]。本文着眼于DEKG,梳理适合于广度限定、概念层级深、知识表示粒度合理的KG构建方法，以系统梳理当前DEKG构建的前沿工作和有待改进的问题,进而提出DEKG实用化的构建思路。据此,本文将系统归纳与提炼DEKG在定义、构建流程、识别方法等方面的工作，试图探寻出高质量DEKG的构建路径。"
+  },
+  "2定义": "",
+  "2.1知识图谱": {
+    "context1": "多项研究从KG的概念和结构对其加以描述，比如,KG以图结构描述现实世界的实体和实体关系；实体类和实体关系的范围通过本体模式(Schema)确定;知识图谱允许实体之间存在潜在关系[1]。也有研究从存储结构的角度进行定义,认为KG 是一个RDF图，由主词（Subject）、谓词（Predicate）以及受词（Object）构成，以（Subject,Predicate，Object）三元 组存储，其中Subject$\\in { \\cal U } \\cup { \\cal B }$ ,Predicate $\\in U , \\mathrm { O b j e c t } \\in U \\cup B \\cup L ( U$ 为实体统一资源标识URI的集合， $B$ 为空白实体节点的集合,L为字符值的集合）。",
+    "context2": "Ehrlinger等[12]发现部分文献常将“知识库（Knowledge Base）”和“知识图谱（KnowledgeGraph）”混用，比如将KG误认为是经过清洗的知识库。鉴于二者的实质性差异,有必要从概念上厘清二者以避免构建方法的错误选择。知识库是一个结合形式语义的数据集,包含规则、事实、公理、定义以及陈述等多类型知识[13],该定义已成为学界共识。据此,知识库与知识图谱可以从两个方面进行区分：",
+    "context3": "(1)包含知识范围不同。知识库包括多种不同形式的知识,例如本体、关联、规则库以及案例等知识;而KG则主要侧重关联性知识。",
+    "context4": "(2)推理能力不同。知识库自身不具备推理能力,和推理引擎组成知识系统后方可应用;而KG具备推理能力,即KG更近似于知识系统。"
+  },
+  "2.2事件知识图谱": {
+    "context1": "事件是一种特殊类型的知识[14],可以看作是由文本中观测到的经验事实和事实关系构成的复杂组合。事件提供了语义理解的语境或框架,对知识的表达层次更加深人。事件知识图谱(EventKG,EKG)是以事件为中心构建的一种复杂 $\\mathrm { K G } ^ { [ 1 5 ] }$ 。GKG中的知识多以一阶(First-order)实体存在，存在的形式多为 $<$ 实体，关系，实体 $>$ 和 $<$ 实体，属性，值 $>$ 等。事件则是二阶(Second-order)实体,其参数常为一阶实体，比如一个恐怖袭击类型的事件中,通常包括\"地点”“时间”“人物\"等一阶实体及其之间的关系,事件本身也可以拥有属性。",
+    "context2": "EKG的构建涉及到领域、类型与结构等。比如,在领域方面,GDELT[5]和ICEWS[16]从新闻语料中获取事件知识,构建基于新闻语料的时序事件库，重点定义事件的类型和要素。在类型方面，Sadeghian等[17]认为每一条知识需要加入时间戳用于指示事件发生的时间，据此在两个时序知识库的基础上定义知识结构 $T P K = ( s , r , o , t | s , o \\in E , r \\in R$ ，$t \\in T$ );事理图谱也属于该方向的工作,是一个描述事件之间顺承和因果关系的事理演化逻辑有向图[18]。在结构方面,Rospocher等[19]认为EKG中所有的信息都和事件相关，可以通过EKG获取时间维度的相关信息,同时将<Event,Relation,Entity>定义为EKG典型的RDF三元组。"
+  },
+  "2.3DEKG": {
+    "context1": "DEKG试图从事件视角更丰富地描述领域中现实世界,高质量的DEKG应该具备以下5个特征：",
+    "context2": "(1)描述结构：以图结构描述现实世界的事件和事件关系；",
+    "context3": "(2)领域限制：根据特定领域的Schema构建，限定候选事件类和事件关系；",
+    "context4": "(3)事件形式：以事件知识为核心，主要以<事件，属性，值 $>$ 和 $<$ 事件，关系，事件 $\\cdot >$ 的形式存储，同时需要与GKG兼容；",
+    "context5": "(4)推理能力：具备事件的推理能力，包括事件间的顺承、因果、条件和上下位等关系的推理;",
+    "context6": "（5)时序关系：时序关系是DEKG的核心，利用时序可以更完整地刻画现实世界中事件的知识演变和更新。"
+  },
+  "2.4相关概念": {
+    "context1": "事件抽取是KG构建的核心环节,本文定义主要概念如下：",
+    "context2": "实体提及(Entity Mention)：实体是现实世界的一个或多个对象,而实体提及是对某个对象的引用，例如人物和姚明的关系。",
+    "context3": "事件触发词(EventTrigger)：事件触发词是能够明确表示事件发生的词或短语,通常是动词和名词，例如结婚、袭击等。",
+    "context4": "事件要素(EventArgument):用于填充事件中特定角色的实体，主要包括事件的参与者（例如收购方)和属性(例如时间和地点)等。"
+  },
+  "3构建方法": "",
+  "3.1构建流程": {
+    "context1": "考虑到本体是KG的上层设计，KG更新是本体迭代的必然结果。据此,KG多沿袭本体的构建准则，比如,领域建模不存在唯一正确的方法;方法间具有可替代性;最优方案依赖于应用;本体中的概念应尽可能反映领域的对象和关系;本体的构建是一个迭代的过程[20]等。基于此，结合KG构建的实际，Ehrlinger等[12]从理论和实践中总结出7条功能性要求和两条指导准则,较为完整地描述了事件本体构建和选择的标准,对领域事件本体的构建具有借鉴价值，可以帮助研究者解决KG构建中遇到的一些设计难题，比如,KG的作用是什么、本体的层级和粒度应该掌握的规模等;由于应用的不同,部分准则可能会显得武断，具体准则的选择依赖于构建实践。",
+    "context2": "学界一直在努力探寻一条最优的KG构建路径,不过,构建方法间的核心步骤仍具普遍性。据此，可以从主流的KG构建研究中归纳出共性的路径。比如,YAGO[21]从WordNet和WikiPedia中抽取知识,主要路径涉及知识抽取、知识存储、知识丰富等。DBpedia的构建环节可划分为输入、解析、提取和输出。ECKGs[19]的构建流程包括信息抽取和事件指代消解两部分。三项代表性工作的路径中，具体步骤虽有不同,不过都包括知识和事件抽取、关系识别以及借助于RDF三元组的存储。由此,本文归纳、提炼的KG构建流程如图1所示。",
+    "context3": "![](images/107cfabf9ea1a7524f2ce76f834c55caa00db32207b6e1a67a8e37a6c4736486.jpg)  \n图1领域事件图谱构建流程  \nFig.1Domain-Specific Graph Construction Process"
+  },
+  "3.2领域事件本体": {
+    "context1": "研究者使用本体在领域中共享信息。EKG中的实例数据通过时间和地点等属性锚定事件,并将事件链接起来,从而描述出事件的发展和故事线（StoryLine）。领域事件本体定义了EKG的“世界观”,规约了KG描述的领域、事件、属性以及事件间的关系等。本体、知识、事件间的关系如图2所示。",
+    "context2": "本体复用是KG以及DEKG构建中的常用方法,比如,van Hage 等[22]提出的 Simple Event Model(SEM)提供了事件建模的基本框架，涉及通用的事件表示,包括主题、地理、时间等事件要素，同时也具有良好的泛化能力，常作为事件建模的基础。一些研究提出根据特定的本体关系在实例层进行复用的思想,例如Fokkens 等[23]提出的Grounded AnnotationFramework(GFW)明确划分了文本提及和实例的界限,提供了诸如\"gaf:denotedBy\"等关系链接文本提及和实例，从而可以更好地利用外部资源以完善事",
+    "context3": "![](images/11a162bf7fb263873f519c22dd513505bd7c97c7d7d1806bce6dd25152672986.jpg)  \n图2事件图谱层次关系  \nFig.2Event Graph Relations",
+    "context4": "件信息。",
+    "context5": "为了获取事件更完整的表示，事件本体也会随着研究的深入与应用的需要不断完善，主要包括补充事件关系与事件要素以及对复杂事件过程的形式化描述。比如：",
+    "context6": "(1)针对事件关系的结构,Bejan等[24]发布了一个表示事件结构的数据集(ECB),提出子事件、因果、目的、支持、优先和相关6种事件关系。",
+    "context7": "(2)针对事件要素，Cybulska等[25]认为应包含4个成分：事件动作、时间、地点和参与者，并在ECB的基础上为相同类型的事件增加实例，拓展了ECB的事件表示能力。一些研究还聚焦于事件和特定实体的关系补充，例如，Baker等[26]基于框架语义(Frame Semantics)提出的FrameNet提供事件和参与者之间的关系描述，对参与者角色完成建模。",
+    "context8": "(3)针对复杂事件过程的形式化描述,鉴于部分复杂事件过程超出了已有本体表达能力，现有研究多根据场景进行形式化描述,例如,Segers等[27]针对事件发生前后的情形以及影响事件的实体角色进行形式化描述,研究中基于购物场景,提供出售、购买和捐赠的物权转移信息，以及购买者和销售者的角色信息，增强了事件过程的表达能力。",
+    "context9": "随着DEKG的不断进步，已有丰富的本体资源且部分资源之间可以互为补充。据此，构建KG首先要充分考虑已有事件本体资源的整合使用，然后再依据特定领域的知识进行拓展和补充,这样一方面可以保证KG的先进性,另一方面也省去了大量的重复工作，可以有效地提高KG的构建效率。"
+  },
+  "3.3事件抽取": {
+    "context1": "事件抽取是DEKG构建的核心步骤，指从文本中抽取出事件和事件相关的要素[28]。在ACE$2 0 0 5 ^ { [ 2 9 ] }$ 中将该任务定义为：识别文本中特定类型的事件,并进行相关信息的抽取。其中相关的信息主要包括事件的类型和子类型、事件元素角色等。ACE将事件抽取分解为事件触发词识别和事件元素抽取两个核心子任务，并定义了8个大的事件类型以及33个事件子类型。ACE将每种事件都对应到唯一的事件模板,每个事件有4个属性：模态、倾向性、普遍性和时态;同时定义了7种类型(人、组织、位置、地缘政治实体、设施、车辆、武器)的实体作为事件要素，每个要素还包括若干子类型。从句子“Five Iraqis were shot by Americans in Bagdad on the$1 2 ^ { \\mathrm { t h } }$ of October 2003”中识别类型为\"Killing\"的事件的实例如图3所示，是典型的从句子层次预测句子所涉事件的实例,识别出（VICTIM：Five Iraqis)等5个事件要素,完善了事件的语义信息。",
+    "context2": "![](images/4c3ee216a704d50a655a203b7b4d167a6ed1253dbdfea34ce0060497026bbeb2.jpg)  \n图3事件抽取例子  \nFig.3Example of Event Extraction",
+    "context3": "根据事件抽取中采用的主要方法，可将其分为：基于规则、基于特征学习以及基于神经网络三种方法。"
+  },
+  "(1)基于规则": {
+    "context1": "该方法通过预定义的语言模式从语料库中挖掘信息。语言模式是专家知识的表示,是语言学、词汇学以及文本内容先验知识的表达，主要有早期的词汇-句法(Lexico-Syntactic)模式[30],和新近的基于词汇-语义(Lexico-Semantic)模式[31]。早期研究中，文本经过自然语言处理后以词汇和句法的形式存在，以词汇-句法模式为主，例如,Yakushiji等[32将依存规则识别到的内容作为生物领域事件的要素，Nishihara等[33]通过三个关键词（Place，Object,Action)从博客中抽取出个人经历的事件。新近研究更多地采用不同形式的语义特征，比如Hung等[34]采用基于语义角色标注的挖掘方法，即使用预先设定的词汇模式从搜索引擎中检索出相关的文本，在提高事件召回率的同时，再进行语义角色标注以提高准确性;除了从文本提炼语言模式外,模式也可以建立于现存的自然语言资源，比如,Stevenson等[35]通过计算WordNet的词汇相似度拓展了初始化的事件模式。",
+    "context2": "算法层面，自举式方法（BootstrappingApproaches)是目前最常用的方法，可用于辅助规则的收敛和进化,比如,将该方法用于事件角色填充，优点是仅需少量的标注数据作为训练种子，即可达到监督学习的效果[36]；种子也可以是事件标记指南中提到的触发词,比如,Bronstein等[37]采用一个事件无关的相似度分类器用于生成新的触发词以实现迭代过程,增强了新事件标签的识别能力；此外,该方法也可用于新模式的过滤以优化模式[38]。",
+    "context3": "（2）基于特征学习",
+    "context4": "该方法依赖大量人工标注的数据和特征进行模型训练,在句子或文档级完成事件抽取,是目前受到学界重点关注的方法。特征选择是经典机器学习至关重要的环节,事件抽取任务和其他自然语言处理任务具有许多通用的特征,例如词频、词性等。根据特征的范围可以将特征分为局部特征(LocalFeatures)和全局特征(GlobalFeatures）。",
+    "context5": "局部特征包括词汇、句法和语义等。Grishman等[39提出的ACE事件抽取框架主要采用词汇特征中的谓词结构和句法特征中的语法结构。Li[40]利用小写转换、词形还原、词性标注以及依存解析等工具提取出词汇和句法特征。局部特征还可以在任务层面进行划分，比如根据子任务划分为触发词、事件要素、实体提及以及关系等,也可以根据任务的属性进一步对其作用范围进行限定，以提高辨识度。",
+    "context6": "全局特征利用上下文产生的信息完成事件的预测或消歧,研究从句子、文档以及外部语料等不同的语境进行特征选择。在句子层,Patwardhan等[41]为解决事件角色和事件词经常处于不同语境导致的抽取困难,利用分类器提前判断一个句子是否包含事件提及，提出跨句上下文的全局特征抽取模型;",
+    "context7": "Hong等[42]提出跨实体的事件抽取方法,将实体一致性作为关键特征，有效提升了句子级别的事件抽取效果。在文档层,Liao等[43]利用跨文档特征进行事件抽取,在ACE触发词识别和事件要素识别任务上将准确率分别提高了 $9 \\%$ 和 $8 \\%$ 。还有研究采用外部语料进行学习，比如,Ji等[44]从相关文档中获取全局信息,提出一种跨文档的事件推理方法,在未增加标注数据的基础上,分别在ACE触发词识别和事件要素识别任务中将准确率提高了 $7 . 6 \\%$ 和 $6 \\%$ 。"
+  },
+  "（3）基于神经网络": {
+    "context1": "该方法采用词嵌人（WordEmbedding)对文本进行表示,不需要人工指定特征,极大地提升了事件抽取任务的效果。嵌入式表示用软匹配的方式替代特征工程的硬匹配，利用网络中的线性和非线性函数对特征进行自动提取。依据模型结构可以将该方法分为基于卷积神经网络（ConvolutionalNeuralNetworks,CNNs)和基于循环神经网络(RecurrentNeuralNetworks,RNNs)两种算法。",
+    "context2": "CNNs在图像领域得到了广泛应用，主要特点是实现了特征的自动抽取，尤其长于局部特征的抽取。实验结果表明,CNNs模型的效果优于基于特征的模型,并且在领域适配的前提下，可以不借助外部资源达到更优的识别效果[45]。为更好地进行局部特征的抽取，Chen等[46通过引入动态多层池化机制，提高了CNN模型词汇级和句子级特征的表示能力，进而显著提升事件识别的效果;Niklaus 等[47]提出基于句法依存树的图卷积神经网络模型,解决长距离非连续信息的依赖问题。由于未能充分关注段落和篇章等关联性全局特征,CNN在跨句事件识别上的效果不尽人意。对此，出现了一些改进的工作,例如，Nguyen等[45]将非连续的n-grams作为重要特征进行学习,提出一种非连续的CNNs算法;从事件建模的角度，Peng等[48基于限制事件范围和语义关系设计的元范式，提出一个加入外部知识的图卷积网络模型。",
+    "context3": "RNNs在语音、手写以及实体等识别类自然语言处理任务上的表现优异。该模型也被应用到事件抽取研究中，其特点是可以充分利用序列信息等全局特征进行预测,能够有效对跨句、跨文档的事件进行识别与提取，比如,Jagannatha等[49]利用双向循环网络从医疗记录中抽取事件实例。针对事件中句子之间的序列关系,Duan等[50]提出基于文档级别的循环神经网络模型,用于抽取跨句的事件;Zhao等[5通过一个分层的循环神经网络模型,逐步学习文档级的嵌入式表示，进而实现文档级的事件预测。",
+    "context4": "神经网络模型具备较强的组合性，通过迁移学习的思想可以将不同模型进行合理组合以相互学习,改善了特征学习中的误差传播、隐含特征缺失等问题。基于多任务学习的模型可同时预测事件触发词和事件要素,实现了任务之间参数共享,利用两个任务的相关性相互提升,最终从整体上提升事件抽取效果[52]。"
+  },
+  "(4)小结": {
+    "context1": "基于规则是自然语言处理研究与应用的常用方法,也是一个优缺点分明的方法。在事件抽取任务中，优点主要体现于简单、可解释性好、在小规模数据集上表现的性能优异等。缺陷主要包括：",
+    "context2": "$\\textcircled{1}$ 规则之间的关系不透明：规则可采取简单直接的方式定义,也具备应有的自释性,不过当规则数量增长到一定数量级后，其间的逻辑关系变得不清晰,单条规则对整体抽取策略的作用难以观察。",
+    "context3": "$\\textcircled{2}$ 规则搜索策略低效：当规则数量很大时，一次抽取要验证大量的规则，导致抽取的速度很慢，难以满足实时性要求高的系统。",
+    "context4": "$\\textcircled{3}$ 学习能力差：规则通常不具备自学习能力，难以从历史的数据中学习新规则。",
+    "context5": "$\\textcircled{4}$ 维护成本高：规则需要专家不断地修改和维护以及验证其对系统的影响,是一项需要耗费大量人力物力的工作。",
+    "context6": "相较于分词、依存分析以及命名实体识别等序列标注型任务，基于特征学习的事件抽取在F值上的表现要低得多，主要原因如下：",
+    "context7": "$\\textcircled{1}$ 特征提取导致的误差传播，现有的诸如斯坦福CoreNLP等工具均存在准确率低和泛化能力弱等不足,误差会沿着任务链传播,最终使得事件抽取的准确率和召回率不够理想。",
+    "context8": "$\\textcircled{2}$ 事件抽取与命名实体识别等任务相比,更加复杂且人工指定特征的难度也更大。",
+    "context9": "$\\textcircled{3}$ 缺乏训练语料，由于事件的定义和标注非常复杂，适应领域的事件语料多有待建设。",
+    "context10": "$\\textcircled{4}$ 隐含特征的缺失，人类能够发现的特征是有限的，许多有效的特征尚未被发掘,或者即使发现，也难以表示。这些短时间难以解决的困难，使得学界将视角投向了基于神经网络的抽取研究与应用。",
+    "context11": "相较前两种方法，基于神经网络模型显著提升了识别效果,且通过大量监督数据的学习,模型还具有较强的泛化能力,缺点是对标注的质量要求更高。目前,神经网络方法改进的主要方向包括：",
+    "context12": "$\\textcircled{1}$ 利用弱监督方法解决数据标注问题；",
+    "context13": "$\\textcircled{2}$ 进一步提升文本的语义表示能力，例如利用Bert[53]等大规模的预训练语言模型作为基础进行事件表示。",
+    "context14": "标注数据的高昂代价限制了后两种方法的广泛应用。目前，KG的构建，基于规则的方法依然无法完全替代。规则是人类先验知识的形式化表达，简洁直观地表达了特定场景下的模式,具体而言，规则能够在两个方面帮助KG的构建，一是在KG的初始化阶段，利用规则能够快速地构建种子，例如，大多数KG都在构建初期对特定领域的网页设定解析规则以抽取数据。另一是用于校验，自动化的方法通常会产生大量误差,规则是检测和修正误差有效的方法。规则和监督的结合一直以来都是机器学习研究的前沿主题，随着弱监督学习等算法的不断进步，可以预见基于规则的方法仍将在事件抽取中占有重要的位置。"
+  },
+  "3.4事件关系抽取": {
+    "context1": "（1）抽取算法",
+    "context2": "关系抽取(RelationExtraction)是指对从文本中提取到的实体对(EntityPair)进行关系检测和分类，比如，在文本\"天安门是北京的著名景点\"可识别出<天安门，北京 $>$ 是\"位于\"关系。关系是本体中预定义的标签集，即给定 $S = w _ { 1 } , w _ { 2 } , \\cdots , e _ { 1 } , \\cdots w _ { j } , \\cdots ,$ $e _ { 2 } , \\cdots , w _ { n }$ ,其中 $w _ { i }$ 表示词汇, $e _ { i }$ 表示实体，则二元关系抽取可定义映射函数 $f ( . )$ ,如公式(1)所示。",
+    "context3": "$\\begin{array}{c} f _ { R } \\left( T ( S ) \\right) = \\left\\{ { - 1 } \\atop { - 1 }  \\end{array} \\right.$ 如果 $e _ { 1 }$ 和 $e _ { 2 }$ 存在关系 $R$ 如果 $e _ { 1 }$ 和 $| e _ { 2 }$ 不存在关系 $R$",
+    "context4": "其中, $T ( S )$ 为句子 $S$ 的特征函数， $R$ 为指定的关系类型。",
+    "context5": "事件关系抽取依赖领域和任务，常见的事件关系有因果、时序、相关等，针对事件不同的关系需要构建不同的处理模型，可分为基于特征学习和基于神经网络两类。基于特征学习的方法通过词汇、语义以及核函数等特征学习，比如,Yoshikawa等[54]针对医疗文本中的指代关系提出一个基于支持向量机和马尔可夫逻辑网络的管道模型;Zelenko等[55]优化了核函数，用于文本表示的浅层解析，利用核函数从无结构的文本中抽取关系。",
+    "context6": "目前,神经网络方法被广泛应用于关系抽取中。有研究比较了几种神经网络结构的时序关系抽取结果，发现神经网络模型在不同的关系结构上表现也不尽相同[56],比如,分词作为输入的效果优于人工指定特征的模型、CNN模型优于LSTM模型。为解决关系数据稀缺和管道模型的错误传播，学者们提出了多种联合模型学习方法，比如,Zhou等[57提出多关系抽取和实体抽取的混合神经网络模型,利用主从任务联合学习的方式增强了关系识别的效果；Ning等[58]认为时序和因果存在关联,提出一个联合推理框架对时序关系和因果关系进行联合学习。远距离监督方法解决了关系的长距离依赖问题，Moschitti等[59]提出的长距离依赖的事件-时间关系抽取模型，抽取了事件链接的时间戳。部分研究还将监督的范围放宽至外部语料,比如,Li等[18]从大规模的语料中抽取出事件链,构造出叙事事件演化图（Narrative EventEvolutionary Graph）,抽取指定的事件关系。通过良好的事件关系定义可以解决多元事件关系的抽取与推理问题,例如,将事件关系分为是否可分类两类，其中分类类型表示事件的上下位关系；非分类事件关系则可进一步分为合成、因果、遵循以及伴随等[60]。",
+    "context7": "(2)小结",
+    "context8": "关系抽取面临的困难包括：",
+    "context9": "$\\textcircled{1}$ 关系抽取依赖于领域,不同领域定义的关系通常很难复用;",
+    "context10": "$\\textcircled{2}$ 关系抽取的数据集相比其他任务更稀缺;",
+    "context11": "$\\textcircled{3}$ 关系间的语义界限不清晰,即标注过程中对特定关系的分类容易产生分歧；",
+    "context12": "$\\textcircled{4}$ 多元关系识别困难，常见的关系抽取通常建立在二元分类之上，通过分类器判别是否存在某类关系，而真实的关系通常是多元的，因此抽取所需的参数数量和机器学习复杂程度明显提高。",
+    "context13": "对此,事件关系抽取可以有两个改进方向：",
+    "context14": "$\\textcircled{1}$ 加强弱监督学习方法的应用：人工标注少量的事件作为先验知识,利用模式进行学习,通过不断迭代从非结构化数据抽取事件实例，然后从新抽取的实例中学习新模式,发现新的潜在关系三元组，以扩充标注数据。",
+    "context15": "$\\textcircled{2}$ 加强迁移学习的应用：对知识库与非结构化文本对齐,增强模型跨领域的泛化能力。"
+  },
+  "4讨论": "",
+  "4.1事件抽取效果对比": {
+    "context1": "为对比各种抽取算法的效果，选择ACE2005数据集作为标准数据集，对在该数据上开展实验的模型进行对比分析，结果如表1所示。基于规则抽取的是局部特征,仅指向可用规则描述的事件标签，因此不具备对比的条件，主流算法模型的对比主要集中于基于特征和基于神经网络方法。",
+    "context2": "表1事件抽取代表模型在ACE数据集的效果对比  \nTable 1 Performance of Event Extraction Model in ACE Dataset",
+    "context3": "<table><tr><td rowspan=\"2\">方法分类</td><td rowspan=\"2\">方法</td><td rowspan=\"2\">学习方式</td><td colspan=\"3\">事件触发词识别</td><td colspan=\"3\">事件要素识别</td></tr><tr><td>p</td><td>R</td><td>F1</td><td>p</td><td>R</td><td>F1</td></tr><tr><td>基于特征的方法</td><td>Li&#x27;s baseline[61]</td><td>联合学习</td><td>74.5%</td><td>59.1%</td><td>65.9%</td><td>74.1%</td><td>37.4%</td><td>49.7%</td></tr><tr><td>基于特征的方法</td><td>Liao&#x27;s cross-event[43]</td><td>管道模型</td><td>68.7%</td><td>68.9%</td><td>68.8%</td><td>50.9%</td><td>49.7%</td><td>50.3%</td></tr><tr><td>基于特征的方法</td><td>Hong&#x27;s cross-entity[42]</td><td>管道模型</td><td>72.9%</td><td>64.3%</td><td>68.3%</td><td>53.4%</td><td>52.9%</td><td>53.1%</td></tr><tr><td>基于神经网络的方法</td><td>CNN[46]</td><td>管道模型</td><td>72.5%</td><td>43.1%</td><td>66.3%</td><td>51.6%</td><td>36.6%</td><td>48.9%</td></tr><tr><td>基于神经网络的方法</td><td>DMCNN[46]</td><td>管道模型</td><td>74.6%</td><td>50.9%</td><td>69.1%</td><td>54.6%</td><td>48.7%</td><td>53.5%</td></tr><tr><td>基于神经网络的方法</td><td>JRNN[52]</td><td>联合模型</td><td>66.0%</td><td>73.0%</td><td>69.3%</td><td>61.4%</td><td>64.2%</td><td>62.8%</td></tr></table>",
+    "context4": "对特征学习方法，Li等[的研究代表了集成特征模型,采用丰富的局部和全局特征,常作为事件抽取任务的基准模型。部分研究在集成特征的基础上增加领域或任务相关的特定特征,例如Liao等[43]关注了跨文档的特征,Hong等[42]关注了局部的实体连续性特征。从实验结果来看，基准模型的F1值是$6 5 . 9 \\% ^ { [ 6 1 ] }$ ,而增加特定特征的F1值分别为 $6 8 . 8 \\% ^ { [ 4 3 ] }$ 和$6 8 . 3 \\% ^ { [ 4 2 ] }$ 。实验结果说明特征选择对抽取算法的重要性，建议后继研究在构建抽取算法前，根据领域、任务、数据分布情况等进行特征选择以有效提升模型效果。",
+    "context5": "基于神经网络的模型分别选择了具有代表性的CNN架构和RNN架构。从实验结果看，加入动态多池化优化的DMCNN的效果优于CNN;基于联合学习架构的JRNN模型也优于CNN,在事件要素识别中，相比DMCNN,F1值的提高多达 $9 . 3 \\%$ 。事件要素识别通常作为序列识别任务，RNN序列建模的效果优于CNN,因此RNN架构更适合该子任务。从学习方式看，联合学习由于子任务的相关性和参数共享,避免了管道模型的错误传播等而使其更具优势，实验结果表明联合模型显著提升了事件要素识别任务的效果。总而言之,基于神经网络的方法效果优于基于特征的方法，反映了神经网络模型在抽取隐藏特征方面的能力。"
+  },
+  "4.2事件关系抽取的效果对比": {
+    "context1": "事件关系抽取构建在事件抽取的基础上，因此事件抽取的性能在实验环节会影响关系抽取的效果。本文选择几种典型的关系抽取模型为代表对比事件关系抽取的效果，如表2所示。",
+    "context2": "事件关系抽取的评测均建立在特定的关系之上，例如Person-Affiliation、Time-Event 等。在不同关系上,模型的表现存在差距,比如,相较于Time-Event关系,Person-Affiliation关系的抽取效果在F1值上领先 $1 6 . 5 0 \\%$ 。原因可能有两点，一是关系的复杂程度不一致,相比Person-Affiliation关系,Time-Event关系更易改变，动态性也更强；二是Person-Affiliation关系的数据集更容易构建和获取。在相同的关系标签上，不同的模型也呈现出各自的特点，例如,在Person-Affiliation关系抽取中, $\\mathrm { S V M } ^ { \\left[ 5 5 \\right] }$ 算法的F1值比Voted Perceptron[55]要高出 $1 . 1 9 \\%$ ;而在Time-Event关系中,CNN的抽取效果比LSTM在F1值上高 $2 . 4 0 \\%$ 。"
+  },
+  "表2事件关系抽取效果对比": {
+    "context1": "Table 2Event Relation Extraction Performance",
+    "context2": "<table><tr><td>方法</td><td>算法</td><td>关系类型</td><td>R</td><td>p</td><td>f1</td></tr><tr><td>KERNEL-method[55]</td><td>Voted Perceptron</td><td>Person-Affiliation</td><td>81.62%</td><td>90.05%</td><td>85.61%</td></tr><tr><td>KERNEL-method[55]</td><td>SVM</td><td>Person-Affiliation</td><td>82.73%</td><td>91.32%</td><td>86.80%</td></tr><tr><td>Joint Extraction[57]</td><td>Hybrid Neural Network</td><td>Live_In/Work_For</td><td>78.30%</td><td>83.20%</td><td>80.60%</td></tr><tr><td>Event Co-occurrence Network[ 60]</td><td>Co-occurrence Network</td><td>Casual/Follow Accompany/Taxonomic</td><td>85.20%</td><td>89.60%</td><td>87.30%</td></tr><tr><td>Event-Argument Relation Extraction[54]</td><td>SVM</td><td>Event-Argument</td><td>1</td><td>1</td><td>69.70%</td></tr><tr><td>Long-Distance[59]</td><td>Linear+PTK</td><td>Time-Event</td><td>64.00%</td><td>60.90%</td><td>62.30%</td></tr><tr><td>Temporal Relation Extraction[56]</td><td>CNN</td><td>Time-Event</td><td>68.10%</td><td>72.70%</td><td>70.30%</td></tr><tr><td>Temporal Relation Extraction[56]</td><td>LSTM</td><td>Time-Event</td><td>66.00%</td><td>69.80%</td><td>67.90%</td></tr><tr><td>Joint Reasoning[58]</td><td>Joint Learning</td><td>Temporal/Causal</td><td>74.40%</td><td>69.30%</td><td>71.80%</td></tr></table>",
+    "context3": "传统机器学习算法在关系抽取上的表现不亚于神经网络,利用SVM的Event-Argument关系抽取方法在F1值上也达到较高的 $6 9 . 7 0 \\% ^ { [ 5 4 ] }$ 。不同于神经网络对特征进行的隐式学习,传统机器学习需要良好的特征选择作为基础，由于事件关系抽取的标注数据比较稀缺,部分深度学习模型难以收敛，因此在效果上未能像其他大部分自然语言处理任务那样处于绝对的领先地位。联合学习模型（JointExtraction、JointReasoning)在事件关系抽取任务上的表现优异，两项研究的F1值分别达到 $8 0 . 6 0 \\% ^ { [ 5 7 ] }$ 和$7 1 . 8 0 \\% ^ { [ 5 8 ] }$ 。关系抽取研究依赖于大量的前期工作,该模型由于有效地进行了特征共享,避免了管道模型的错误传播。",
+    "context4": "目前，事件关系抽取任务仍然处于早期的探索阶段，前沿模型的F1值仍然没有达到令人满意的效果,存在部分有待改进的问题如下：",
+    "context5": "(1)研究中涉及的事件关系种类较少，模型多针对少量关系进行评估，无法满足复杂事件知识推理的需要。",
+    "context6": "(2)对于多元(n-ary)关系的研究不足,例如涉及多个事件的关系。",
+    "context7": "(3)现有研究多建立在英文数据集上,在其他语种数据集上的有效性还有待考察。",
+    "context8": "(4)评价方法欠缺,关系抽取结合了大量的半监督和无监督算法，难以准确地计算召回率和准确率，更有效的评价方法有待研究。"
+  },
+  "5结语": {
+    "context1": "DEKG作为一种特殊的知识图谱已经激发了研究者的兴趣，不仅包含实体的静态知识，更关注事件视角的动态知识。DEKG着眼于事件知识的建模，更符合人类对知识中时序、因果、相关等关系的认知，具有广泛的应用前景。构建方法是DEKG的基础,本文系统梳理、分析了DEKG构建的主流方法，可得到如下结论：",
+    "context2": "(1)DEKG尚未形成公认的构建标准，因此在构建前要根据应用约束构建的范围，同时要考虑到不同领域中事件的定义和关系的差异。本文从描述结构、领域限制、事件形式、推理能力和时序关系等角度阐明了DEKG的构建标准应具备的元素。",
+    "context3": "(2)事件本体的借鉴和复用是DEKG构建的必要选项。",
+    "context4": "(3)事件抽取方法分为基于规则、基于特征学习、基于神经网络等,实验结果显示神经网络方法的效果最优。目前,事件抽取的F1值仍然徘徊在 $70 \\%$ 左右，还有很大的提升空间。",
+    "context5": "(4)DEKG事件关系抽取研究主要涉及时序、因果以及顺承等,研究依赖于标注的领域数据集,泛化能力有待提升。",
+    "context6": "尽管已有诸多研究致力于提升事件图谱构建的效果，但现有的构建方法和途径仍然不能完全满足图谱要求的精度，相关文献侧重于提升特定数据集下的抽取算法性能,忽略了事件图谱的领域泛化、实时性、动态性等要求,主要的研究不足有：",
+    "context7": "(1)缺少构建性的设计研究,侧重于特定的实证研究。基于有限样本所获得的实验结论具有一定的局限性。",
+    "context8": "(2)缺少更加科学的评测指标,侧重于检索类的评价指标,无法解决样本不均衡等带来的问题。",
+    "context9": "(3)依赖监督学习方法自上而下的构建,无法识别新的事件及其关系。",
+    "context10": "结合DEKG构建方法的现状，后继研究可从以下方向展开：",
+    "context11": "(1)构建方法中引人知识提升(Knowledge-Boosted)。目前,深度学习是自动构建的主流算法，不过存在学习参数多、网络配置复杂、解释性差以及严重依赖标注数据等问题。基于知识提升的方法通过专家指定的事件模式能够实现事件的精准匹配，尤其在小样本场景，具体的方法包括弱监督学习和小样本(Few-Shot)学习等。",
+    "context12": "(2)基于迁移学习的领域推广。迁移学习可以将一个领域的知识迁移到另一个领域,在DEKG的构建中既可以利用GKG,也可以从其他DEKG完成迁移，具体的方法有联合学习等。",
+    "context13": "(3)基于认知模型(CognitiveModels)的学习，深度学习的可解释性差反映了其认知能力的缺陷，深层原因是深度学习仍然是基于大样本数据的拟合，而非真正意义上的认知理解。事件是理解层面的概念，蕴含了丰富的要素、语义和状态等信息。认知模型能够更好地模拟人类对现实世界中事件的认知过程,从而实现对事件的表示、记忆、学习和推理。不过，基于认识模型的学习在人工智能领域还处于初探阶段，有待深入研究。"
+  },
+  "参考文献：": {
+    "context1": "[1]Erxleben F,Günther M,Krotzsch M,et al. Introducing Wikidata to the Linked Data Web[C]//Proceedings of the 13th International Semantic Web Conference.Springer,Cham,2014: 50-65.   \n[2] Lehmann J,Isele R,Jakob M,et al.DBpedia-A Large-Scale, Multilingual Knowledge Base Extracted from Wikipedia[J]. Semantic Web,2015,6(2): 167-195.   \n[3] Dong X,Gabrilovich E,Heitz G,et al. Knowledge Vault: A WebScaleApproachtoProbabilisticKnowledgeFusion[C]/ Proceedings of the 20th ACM SIGKDDInternational Conference on Knowledge Discovery and Data Mining.2014: 601-610.   \n[4] Herrmannova D,Knoth P. An Analysis of the Microsoft Academic Graph[J].D-Lib Magazine,2016,22(9/10).DOI: 10.1045/september2016-herrmannova.   \n[5] Leetaru K,Schrodt P A.GDELT:Global Data on Events, Location,and Tone,1979-2012[C]// Proceedings of the 2013 Annual Meeting of the International Studies Association. Citeseer,2013,2(4): 1-49.   \n[6] Berners-Lee T,Hendler J，Lasila O.The Semantic Web[J]. Scientific American,2001,284(5): 34-43.   \n[7] Ji S,Pan S,Cambria E,et al.A Survey on Knowledge Graphs: Representation,Acquisition and Applications[OL]. arXiv Preprint, arXiv:2002.00388.   \n[8] Bonatti PA,Decker S,Polleres A, et al. Knowledge Graphs: New Directions for Knowledge Representation on the Semantic Web (Dagstuhl Seminar 18371)[J].Dagstuhl Reports，2019,8(9): 29-111.   \n[9] Yan J, Wang C, Cheng W, et al. A Retrospective of Knowledge Graphs[J]. Frontiers of Computer Science,2018,12(1): 55-74.   \n[10]Wu T, Qi G,Li C,et al.A Survey of Techniques for Constructing Chinese Knowledge Graphs and Their Applications[J]. Sustainability, 2018,10(9): 3245.   \n[11]Paulheim H. Knowledge Graph Refinement: A Survey of Approaches and Evaluation Methods[J]. Semantic Web,2017,8 (3): 489-508.   \n[12]Ehrlinger L, WoB W. Towards a Definition of Knowledge Graphs [C]/Joint Proceedings of the Posters and Demos Track of 12th International Conference on Semantic Systems and the 1st International Workshop on Semantic Change & Evolving Semantics. 2016.   \n[13] Akerkar R，Saja P. Knowledge-based Systems[M]. Jones& Bartlett Publishers,2010.   \n[14]Deng J,Qiao F,Li H,et al. An Overview of Event Extraction from Twitter[C]/Proceedings of the 2015 International Conference onCyber-Enabled Distributed Computing and Knowledge Discovery. IEEE,2015: 251-256.   \n[15] Kejriwal M.Domain-Specific Knowledge Graph Construction [M]. Springer International Publishing,2019.   \n[16]Lautenschlager J,Shellman S,Ward M.ICEWS Events and Aggregations[OL]. Advanced Technology Laboratories.http:// data.nber.org/ens/feldstein/NBER_Sources $/ \\mathrm { E N S \\% }$ 20Conference% 20Sources/2016/Predicting% 20Conflict% $2 0 \\mathrm { { V i a \\% } }$ 20Machine% 20Learning/ICEWS%20(Lockheed%20Martin)/Dictionaries/ ICEWS%20Events%20and%20Aggregations.pdf.   \n[17] Sadeghian A，Rodriguez M,Wang D Z，et al.Temporal Reasoning over Event Knowledge Graphs[C]//Proceedings of the 2018 Workshop on Knowledge Base Construction， Reasoning and Mining. 2018.   \n[18]Li Z, Ding X,Liu T. Constructing Narrative Event Evolutionary Graph for Script Event Prediction[OL].arXiv Preprint,arXiv: 1805.05081.   \n[19]Rospocher M,van Erp M, Vossen P, et al.Building Event-Centric Knowledge Graphs from News[J]. Journal of Web Semantics, 2016,37/38: 132-151."
+  }
+}

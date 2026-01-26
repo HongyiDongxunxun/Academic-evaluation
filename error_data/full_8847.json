@@ -1,0 +1,92 @@
+{
+  "original_filename": "full_8847.md",
+  "网络信息资源保存发展现状及趋势分析": "",
+  "向菁吴振新": {
+    "context1": "摘要20世纪90年代末，,网络信息资源保存(WA)开始引起关注，与WA 相关的研究和实践随之展开。从国际方面看，WA在参与主体、研究方式及项目状况、保存内容、技术标准、系统工具、法律政策、经济效益、合作机制等方面都有了不同程度的发展和完善，而我国WA发展还相当薄弱。WA的未来发展趋势为：主题和内容丰富化、系统建设标准化和开源化、工作流程规范化、合作广泛化、利用形式多元化。表1。参考文献 38。",
+    "context2": "关键词网络信息资源保存发展现状趋势分析分类号G250.73",
+    "context3": "ABSTRACTThis paper analyzes thedevelopmentof domestic and international Web Archiving，summarizes important issues and weaknesses of curent researches，pointsout some aspects offuture developments，and providesa general view of Web archiving.1 tab.38 refs.",
+    "context4": "KEY WORDSWeb Archiving.Development analysis.Trend prediction.",
+    "context5": "CLASS NUMBER G250.73",
+    "context6": "随着信息技术的发展，网络逐渐成为重要的信息媒体、成为科学文化交流的重要平台，越来越多的信息资源以数字化的形式存在，网络信息资源（以下简称 Web资源)成为人类文化遗产组成中非常重要的一部分，且呈指数级增长。由于Web资源具有更新频率快、易逝等特点，这使得Web资源寿命短暂，如果不及时加以保存，大量具有重要价值的学术、文化、科学信息就会丢失。20世纪90年代末，网络信息资源保存（Web Archive,以下简称WA)开始引起一些组织、机构的关注，随后图书馆、档案馆、商业公司及相关的机构、组织、专家纷纷开始开展与WA 相关的研究和实践。"
+  },
+  "1WA国际发展现状分析": {
+    "context1": "1996 年 Internet Archive[1]（简称 IA)的成立标志着WA研究与实践的开始，自此，WA领域出现了一批研究项目和应用系统，逐渐形成了比较可靠的保存体系。综观WA十余年的发展历程可以看出：WA在参与主体、研究方式及项目状况、保存内容、技术标准、系统工具、法律政策、经济效益、合作机制等方面都得到了不同程度的发展和完善。"
+  },
+  "1.1越来越多的国家和机构参与到WA活动中来": {
+    "context1": "从项目数量来看，越来越多的国家和机构参与到WA活动中来，项目数量呈稳定增长趋势。国际互联网保存联盟[2]（以下简称IIPC)的机构成员已由2003年成立初的12个发展到目前的38个，主要分布在欧洲、北美洲和亚洲。2008 年,IIPC 对其成员进行问卷调查显示[3]：该组织的成员 $50 \\%$ 是国家图书馆， $10 \\%$ 是高校图书馆, $8 \\%$ 是其他类型图书馆, $3 \\%$ 是国家档案馆， $3 \\%$ 是内容提供商， $26 \\%$ 是研究机构、政府组织等。由此可见，图书馆特别是国家图书馆已经成为WA活动参与的主力，并担任了重要的角色。",
+    "context2": "除图书馆、档案馆、研究机构、内容提供商作为参与WA活动的主要力量外，商业机构也以技术支持者的身份积极参与WA的研究与实践。Alexa[4]为IA开发WA访问工具Wayback;挪威的搜索引擎公司FAST[5]为NWA（NordicWebArchive,简称NWA）项目开发了适于WA的搜索引擎; $\\mathrm { I B M } ^ { [ 6 ] }$ 为荷兰国家图书馆（KB)的WA研究提供技术支持和系统服务。"
+  },
+  "1.2WA研究仍以实验和项目形式为主": {
+    "context1": "在WA发展初期，项目以小规模Web资源采集的探索性实验为主；而在经历一定理论、技术和经验的积累之后，有些项目开始尝试进行可实际运行的应用部署；目前从全球的WA发展来看，很多项目开始建立国家、区域战略合作保存体系。IIPC对38家成员馆2008年的WA研究状态分析显示[3]：以项目形式开展研究的有6家（ $1 5 \\%$ ）、以实验形式开展研究的有7家（ $1 8 \\%$ ）、可运作但仍处于实验阶段的有11家（ $2 9 \\%$ ）、完全投入应用的有5家( $1 5 \\%$ ）商业应用的有4家( $10 \\%$ ）其他形式的有5家( $13 \\%$ ）。",
+    "context2": "WA研究经历了十几年的发展，研究的内容和深度逐步拓展，WA系统和工具不断得到应用和完善。运作较为成功的WA项目多采取将项目成果投入实际应用和商业化运作的服务模式。如Hanzo Archives[7]公司提供企业级存档服务，WebCite[8]调动多方用户参与保存Web参考文献,IA于2005年推出商业化应用服务-Archive-it[9]。总体而言，目前WA研究仍以实验和项目研究的形式为主，真正投入实际运作和商业化应用的服务还较少。"
+  },
+  "1.3WA采集方式、策略逐渐多样化，采集内容范围不断扩大": {
+    "context1": "Web 资源采集方式已从单一的Web资源一次采集发展到Web 资源二次采集（Lazy Preser-vation）、数据库采集（深层网采集)和事务型采集等多种方式。采集策略也逐渐从基于主题、事件的选择性采集为主演变为混合策略、复杂域、大规模采集。采集内容从政治、社会文化、健康到艺术、人文，基本涉及人类的各个知识领域。",
+    "context2": "IIPC2008年对成员馆实施采集策略现状的调查显示[3]：基于主题、事件的选择性采集占$52 \\%$ ，整个国家域采集占 $21 \\%$ ，大规模采集占$11 \\%$ ，地区域名采集占 $9 \\%$ ,其他形式的占 $7 \\%$ 。澳大利亚、丹麦、加拿大采取国家域选择性采集方式；法国采取联合采集方式；瑞典采取全面自动采集方式;荷兰采取与出版者合作采集方式。澳大利亚国家图书馆已与IA合作进行过两次大规模域的采集活动，作为PANDORA[10]选择性存档计划的补充。法国国家图书馆（BnF)[]对经过选择的网站进行持续的自动采集，对于不能自动采集的深层网站进行人工采集，对于某些极易消失的网站进行基于事件的专题采集。基于主题事件域的采集主要针对具有社会、文化、政治意义的重大主题或事件进行专题采集。Minerva项目[12]与IA合作，对美国2001年总统大选、911事件、2002年冬季奥运会、107届国会会议等事件实施专题采集。中国国家图书馆WICP项目[13]已经完成对非典（SARS）、中国载人航天工程、2008北京奥运会的专题存档。"
+  },
+  "1.4逐渐完善WA系统技术、标准框架": {
+    "context1": "WA领域广泛接受并遵循OAIS模型。IIPC提出了基于OAIS的WA系统通用概念框架，该框架覆盖了WA工作链中的所有过程，包括摄取（Ingest）、存储（Storage）、访问（Access）和索引与检索（Index&Search）四大部分，并开发了涵盖WA核心功能的完整工具集。IIPC技术委员会下设的四个子委员会负责对WA的摄取、保存、访问、索引与检索进行深入的研究和实践工作。",
+    "context2": "标准规范方面，WA同样关注数据层次相关标准规范和系统层次相关标准规范的研究，对Web 资源采集、存储、访问、索引与检索阶段所涉及的标准规范不断予以研究完善。涉及的标准规范主要包括：获取阶段的存档资源标识（ArchivalResourceKey，简称ARK）统一资源命名（Uniform Resource Names，简称URN）等数据唯一标识，多任务并发管理协议（HIP）、蜘蛛协议（Robert protocol）；存储阶段的存档文件格式（Archive file format,简称ARC）、Web存档文件格式（WebArchive file format，简称WARC）；保存元数据实施策略（Preservation Metadata：Im-plementation Strategies，简称PREMIS）、元数据编码与传输标准（Metadata Encoding and Transmis-sion Standard,简称METS）、元数据对象描述框架（Metadata Object Description Schema，简 称MODS)等元数据标准;索引与检索阶段的CDX、BDB（BerkleyDatabase)索引结构，以及开放档案信息系统（Open Archival Information System，简称OAIS）、内容聚合（Really Simple Syndication,简称RSS）、网络服务（Web Service）、网络服务检索协议（Search/Retrieve for the Web，简称SRW）URL 服务检索协议（Search/Retrieve URLService,简称 SRU)和元数据开放搜寻及获取协议（Open Archives Initiative Protocol for MetadataHarvesting,简称OAI-PMH)等涉及Web 层次互操作的标准规范。",
+    "context3": "同时，WA领域非常注重协作共享。在系统应用层面，WA在系统开发的初始阶段就十分关注系统的互操作，通过建立一个开放的模块化系统框架和进行功能模块化开发，实现系统的开放性、协作性、互操作性。IIPC 提出了WA系统体系框架并开发了一系列的开源软件；Netarchive-Suite[14]工具包中的存储模块（Archive Module)支持分布式资源存储和不同软硬件平台的应用；FAST公司为NWA开发的可扩展、分布式的检索工具很好地解决了大规模分布式资源的共享问题。在数据层面，IPC对格式规范、长期保存的元数据框架、永久标识符也进行了系统研究，它在扩展ARC格式基础上建立的WARC（WebARChive)[15]格式能更好地支持Web资源的采集、访问,可被 Heritrix[16]、LibWARC[17] $\\mathrm { W g e t } ^ { [ 1 8 ] }$ 、HTTrack[19]等多个资源采集器识别，使得采用不同采集器的系统和机构更容易进行资源共享。"
+  },
+  "1.5WA系统和工具得到发展与应用": {
+    "context1": "伴随WA的不断发展，专门用于Web资源采集、索引、访问的系统和工具得到很好的发展，并不断得到改进和完善。目前WA领域大多数工具都是开源的，可以免费下载使用（见表1）。",
+    "context2": "表1常用的WA系统和工具( $^ { * }$ 表示为开源工具，按工具使用广泛性排序）",
+    "context3": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>工具/系统</td><td rowspan=1 colspan=1>开发者</td><td rowspan=1 colspan=1>工具/系统功能特色</td><td rowspan=1 colspan=1>项目来源/资助方</td></tr><tr><td rowspan=3 colspan=1>采集系统</td><td rowspan=1 colspan=1>PANDAS</td><td rowspan=1 colspan=1>澳大利亚图书馆</td><td rowspan=1 colspan=1>网络出版物采集的数字化存档系统</td><td rowspan=1 colspan=1>PANDORA</td></tr><tr><td rowspan=1 colspan=1>WAS</td><td rowspan=1 colspan=1>加利福尼亚数字图书馆</td><td rowspan=1 colspan=1>基于Web的网络保存服务工具</td><td rowspan=1 colspan=1>Web At Risk</td></tr><tr><td rowspan=1 colspan=1>Tumba</td><td rowspan=1 colspan=1>里斯本大学 XLDB小组</td><td rowspan=1 colspan=1>提供葡萄牙WA搜索引擎服务</td><td rowspan=1 colspan=1>无</td></tr><tr><td rowspan=9 colspan=1>采集工具</td><td rowspan=1 colspan=1>Heritrix*</td><td rowspan=1 colspan=1>IA、北欧图书馆</td><td rowspan=1 colspan=1>可扩展的采集工具</td><td rowspan=1 colspan=1>IIPC 资助</td></tr><tr><td rowspan=1 colspan=1>HTTrack *</td><td rowspan=1 colspan=1>法国图书馆</td><td rowspan=1 colspan=1>站点复制和离线浏览器工具</td><td rowspan=1 colspan=1>BnF Web Archive</td></tr><tr><td rowspan=1 colspan=1>WCT*</td><td rowspan=1 colspan=1>Sytec Resources 公司</td><td rowspan=1 colspan=1>选择性网络采集的过程管理工具</td><td rowspan=1 colspan=1>IIPC资助</td></tr><tr><td rowspan=1 colspan=1>NetarchiveSuite*</td><td rowspan=1 colspan=1>丹麦皇家图书馆</td><td rowspan=1 colspan=1>综合性的网络存档软件包</td><td rowspan=1 colspan=1>Netarchive. dk</td></tr><tr><td rowspan=1 colspan=1>Nutch*</td><td rowspan=1 colspan=1>Apache</td><td rowspan=1 colspan=1>开源的网络搜索引擎</td><td rowspan=1 colspan=1>Apache子项目</td></tr><tr><td rowspan=1 colspan=1>Smart Crawler*</td><td rowspan=1 colspan=1>英国图书馆、美国国会图书馆、法国图书馆、IA</td><td rowspan=1 colspan=1>智能爬虫</td><td rowspan=1 colspan=1>IIPC 资助</td></tr><tr><td rowspan=1 colspan=1>DeepArc*</td><td rowspan=1 colspan=1>法国图书馆</td><td rowspan=1 colspan=1>基于数据库驱动的深层网页迁移工具</td><td rowspan=1 colspan=1>BnF Web Archive（IIPC 资助）</td></tr><tr><td rowspan=1 colspan=1>Wget*</td><td rowspan=1 colspan=1>GNU</td><td rowspan=1 colspan=1>命令行工具、没有交互式界面</td><td rowspan=1 colspan=1>GNU子项目</td></tr><tr><td rowspan=1 colspan=1>NEDLIB crawler</td><td rowspan=1 colspan=1>芬兰科学计算中心</td><td rowspan=1 colspan=1>缺少用户界面，仅在北欧小范围使用</td><td rowspan=1 colspan=1>NEDLIB</td></tr></table>",
+    "context4": "续表",
+    "context5": "<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>工具/系统</td><td rowspan=1 colspan=1>开发者</td><td rowspan=1 colspan=1>工具/系统功能特色</td><td rowspan=1 colspan=1>项目来源/资助方</td></tr><tr><td rowspan=3 colspan=1>索引工具</td><td rowspan=1 colspan=1>NutchWAX*</td><td rowspan=1 colspan=1>Internet Archive 使用</td><td rowspan=1 colspan=1>全文本索引工具</td><td rowspan=1 colspan=1>IIPC 资助</td></tr><tr><td rowspan=1 colspan=1>XTF*</td><td rowspan=1 colspan=1>加利福尼亚数字图书馆</td><td rowspan=1 colspan=1>索引与查询工具</td><td rowspan=1 colspan=1>IIPC 资助</td></tr><tr><td rowspan=1 colspan=1>BAT</td><td rowspan=1 colspan=1>法国图书馆</td><td rowspan=1 colspan=1>ARC、DAT、CDX 管理文件的 API</td><td rowspan=1 colspan=1>IIPC 资助</td></tr><tr><td rowspan=4 colspan=1>访问工具</td><td rowspan=1 colspan=1>Xinq*</td><td rowspan=1 colspan=1>澳大利亚图书馆</td><td rowspan=1 colspan=1>XML保存的查询工具</td><td rowspan=1 colspan=1>IIPC 资助</td></tr><tr><td rowspan=1 colspan=1>Wayback*</td><td rowspan=1 colspan=1>Alexa 公司</td><td rowspan=1 colspan=1>访问工具</td><td rowspan=1 colspan=1>Internet Archive</td></tr><tr><td rowspan=1 colspan=1>WERA*</td><td rowspan=1 colspan=1>IA、挪威国家图书馆</td><td rowspan=1 colspan=1>访问工具</td><td rowspan=1 colspan=1>Nordic WebArchive</td></tr><tr><td rowspan=1 colspan=1>天网</td><td rowspan=1 colspan=1>北京大学网络实验室</td><td rowspan=1 colspan=1>Web 搜索引擎</td><td rowspan=1 colspan=1>Web Infomall</td></tr></table>",
+    "context6": "PANDAS[20]是澳大利亚PANDORA项目开发的基于采集的数字化存档系统，为国内参与合作的各个州立图书馆构建了合作者分布式使用的功能;WAS（Web Archiving Service）[21]是美国WebAtRisk项目构建的基于Web的分布式仓储构建、存储和管理工具,对资源提供者、服务提供者和用户从服务层次上进行具体的规划。",
+    "context7": "IIPC 资助开发的系列软件Heritrix、Nutch-WAX[22]、WERA[23]得到了广泛的应用和推广。IA与Alexa公司合作开发的WA访问工具Way-back[24]已成为WA领域使用率最高的访问工具。NWA与IIPC合作开发的Web采集过程管理工具WCT[25]已成为应用率较高的保存工具。NetarchiveSuite[26]由丹麦皇家图书馆和丹麦州立大学图书馆联合研发，作为Netarchive.dk[27]项目采集工具，自2004年以来已经采集了超过70TB的Web 资源。",
+    "context8": "IIPC对成员机构WA项目所使用的采集器、保存工具和访问工具的现状进行相关调查显示[3]：使用率高的保存工具包括WCT（ $13 \\%$ ）、PANDAS( $7 \\%$ ）、NetarchiveSuite( $7 \\%$ ）、$\\mathrm { W A S } ( 7 \\% )$ )；访问工具以Wayback为主（ $47 \\%$ ），其次是WEAR( $7 \\%$ ）。",
+    "context9": "WA领域的工具、系统有趋同的发展趋势。几家具有较强技术实力的机构开始合作开发和完善现有的软件和工具。目前，IIPC与合作机构正在研发新一代智能爬虫（SmartCrawl-er)[28],以提高爬虫自动采集的效率。"
+  },
+  "1.6WA法律政策制定不断完善": {
+    "context1": "目前已经有100多个国家制定了图书等出版物呈缴法律法规，也已经有一些国家将数字资源(主要是数字出版物)纳入呈缴范围之中。澳大利亚、英国、挪威、瑞典、荷兰、阿根廷等国制定了数字资源的呈缴规定或签署了相关协议，从法律上保证数字资源长期保存的可靠性；加拿大、法国、奥地利、瑞典等国将数字出版物纳入呈缴之列，但都没有明确将Web信息资源纳入到呈缴法。目前，仅有挪威、丹麦制定了Web资源呈缴法，并对呈缴的责任者、内容、方式、格式作出相应规定。为防止出版商因停业、倒闭等可能出现的因素导致Web资源无法保存，大多数国家希望在Web信息产生30日之内实现呈缴。IIPC 2008年年会的数据显示[3]：在IIPC的38个成员国家中，已经制定或者通过有关数字资源呈缴法律的有13个( $36 \\%$ )，即将通过的有6个( $1 7 \\%$ )，没有制定相关法律的有19个 $47 \\%$ ）。",
+    "context2": "目前部分尚未制定Web资源呈缴法律的国家也在采取与出版者和版权局协商、发布版权声明、立法试验等方式积极完善WA的法律。发布版权声明是目前WA项目使用较多的解决法律问题的方法之一，主要有采集前征求出版者许可（opt-in）、允许出版者提出剔除请求（opt-out)和混合型的解决方案。PANDORA项目采取\"opt-in”方案，规定所有采集对象在采集前都要征得所有者的许可;IA只采集可公开获取、不受“Robots.txt”文件保护的网站，同时提出法律声明，允许出版者提出剔除请求。"
+  },
+  "1.7WA所需投入较大，成本分析及风险管理研究日益受到重视": {
+    "context1": "由于WA对存储设备、技术要求高，花费时间长，人力成本高，人员专业性要求高，因此WA项目需要大量的资金投入，且呈逐年上升的趋势。荷兰国家图书馆2005年的资金投入接近于2004年的3倍，2006-2009年继续增加预算。由英国 JISC（Joint Information Systems Commit-tee）资助、伦敦大学学院（University College Lon-don，简称UCL)和英国国家图书馆联合承担的LIFE项目[29]对英国网络资源保存联盟（UKWeb Archiving Consortium，简称UKWAC)的长期保存总体费用估算从2004年项目之初的493，169英镑，增至5年后的915，219英镑，20年后预计达到1,617,541英镑。",
+    "context2": "WA项目的资金主要来源于国家图书馆、政府部门及基金组织的资助。目前澳大利亚、荷兰已经将WA纳入国家图书馆的业务开支，意味着WA已成为图书馆的正常业务，获得稳定的资金支持。从目前WA项目经费使用上看，经费主要用于基础设施建设（主要是技术方面）、人员费用及日常业务支出，其中基础设施建设的投入所占比例较高。IIPC 2007年工具开发投入了17,625美元，占总投入的 $3 7 \\%$ ;2008年，投资增长到178，364美元，占总预算的78%[29] 。",
+    "context3": "为了持续进行WA研究，对费用成本及风险管理的研究也日益受到关注。目前主要有LIFE项目以及NASA用于研究太空、地球数据保存的费用估计工具 $\\mathrm { C E T } ^ { [ 3 0 ] }$ 等，但尚未建立专门针对WA的成本费用模型。另外，著名的数字资源长期保存专家尼尔·比格利（Neil Beag-rie）、朱莉娅·克鲁兹（JuliaChruszcz）、布莱恩·拉沃伊(BrianLavoie)等人对英国4所大学的考古典藏中心开展数据长期保存研究的花费情况进行了调研，为制定一个详细的费用框架打下",
+    "context4": "了基础[31] 。"
+  },
+  "1.8WA合作范围扩大，合作机制加强": {
+    "context1": "WA项目需要政策、经济、法律、技术、管理等多方面的支持来协调一系列社会利益和利用足够的社会资源，单靠某一个组织的力量很难完成如此庞大的工程。目前国际上WA项目大多数是由多个机构合作完成，并在合作过程中呈现出多种合作形态，合作已成为WA活动发展的趋势。",
+    "context2": "从WA合作范围来看，从国家内部、组织间的合作发展到地区合作，再到国际合作。瑞典国家图书馆Kulturarw3项目[32]、WebAt Risk 项目[33]是国家内部合作；欧洲的NEDLIB项目[34]、北欧的NWA项目[35]是地区间的合作；IA、IIPC是WA组织机构国际合作的典型;PAN-DORA同时采取多种合作形式。从WA合作机制来看，主要分为高度集中机制、责任平等机制、高度分散机制和独立工作机制。PANDORA项目是高度集中合作机制的典型代表；IIPC是责任平等合作机制；IA是高度分散的合作机制；Kulturarw3项目是独立工作机制。从合作层面上来看，有基于存储、技术、战略、工具的合作模式。SDSC的Chronopolis[36]框架是基于网格实现大规模存储；PANDORA项目与各个州立图书馆采取基于采集的协作方式;NWA项目通过工具的合作研发，建立起欧洲网络信息资源保存的合作机制。",
+    "context3": "权责明确的责任体系、明确的合作目标、实现技术共享以及保持良好的沟通是影响WA 合作的关键因素。构建WA的合作框架时需要根据项目的实际情况选择合适的合作机制；组织机构也要根据该项目的合作机制是否适合自身情况来选择要参与的合作项目。"
+  },
+  "2国内WA发展现状分析": {
+    "context1": "我国WA的研究始于20世纪末。随着数字资源使用的日益普及，长期使用的问题日益突出。由此，WA的必要性和重要性日益受到重视，并开展了一系列相关的理论研究和具体",
+    "context2": "实践。",
+    "context3": "我国对WA比较系统的理论研究主要集中在中国科学院国家科学图书馆和少数其他单位。国家科学图书馆一直以来关注数字资源长期保存的宏观支撑机制和问题框架的研究，目前正在进行的国家社会科学基金项目“网络信息资源保存的理论与方法研究”，对WA的理论、技术予以探索研究。国家图书馆和高校的一些研究人员对元数据方案、服务模式、WA 面临的问题进行了探讨。",
+    "context4": "在积极开展国际跟踪和理论研究的同时，一些文献情报机构从2002年起开展了WA的研究试验。国家图书馆“网络信息采集与保存”试验项目（WICP)采集保存了自2003年以来.cn域名下的网站和所有中文（编码）网站，积累Web 数据达150G;对政府网站、电子报刊、国学的Web 资源进行镜像存档;选择了2008北京奥运、中国载人航天工程等专题进行专题存档，并对专题存档的数据进行质量控制、数据挖掘。国家图书馆已经成为IIPC的成员，并积极推动和促进Web资源呈缴法的起草，以解决WA长远发展过程中的法律障碍。中国Web信息博物馆（Web Infomal1）[37]是在国家“973”和“985”项目支持下，由北京大学“计算机网络与分布式系统实验室”主持开发的中国网页历史信息存贮与展示系统，采集和保存了自2002年以来30 亿页的中文Web资源。该项目在WA应用方面进行了探索，提供历史网页检索、真实呈现等服务，通过数据挖掘追踪重大历史事件发展进程的全貌，有力地支撑了社会科学的研究。但由于我国还没有制定Web信息合法呈缴的相关法律,这些项目均采用版权声明方式暂时解决WA的法律问题。",
+    "context5": "与此同时，我国研究人员还积极参与国际交流，国家科技图书文献中心（NSTL)与国家科学图书馆于2004年、2007年两次承办“数字资源长期保存国际会议”（iPRESS)，为国内保存领域的研究人员参与国际长期保存合作，促进长期保存的可持续高水平发展提供了良好的机会。"
+  },
+  "3WA发展趋势分析": "",
+  "3.1WA研究重点及薄弱环节": {
+    "context1": "目前，WA项目和系统从各个角度及不同层面研究WA所涉及的技术、政策、法律问题，获得了很多的经验和教训，取得了良好的进展。但笔者也注意到，当前的 WA 研究中还存在一些薄弱环节。",
+    "context2": "采集方面，采集的策略、流程、工具一直是WA研究的重点。目前许多WA项目已具备较为完整的采集流程、采集策略，Heritrix、HT-Track、WebCurator 等采集工具在各个项目中得以广泛应用，但在深层网采集、增量采集、流媒体采集、采集工具效率等方面的研究还有待更深入的探索。",
+    "context3": "存储和长期保存方面，WARC的出现标志着WA存储格式趋于统一和规范，部分WA项目通过采用XML、HTML 格式规范来实现Web资源的长期保存，但Web 资源长期保存的其他方面还没有更进一步的探索实践。另外，海量数据的有效存储及易扩展的存储体系结构都是WA领域极具吸引力的课题。",
+    "context4": "在开展一系列WA的采集、长期保存实践后，提高Web资源的检索效率、更好地实现用户呈现，特别是实现大规模数据索引、访问、检索、质量控制、数据挖掘、智能检索等问题的研究也显得尤为重要。在刚刚结束的2008年IWAW（International Web Archiving Workshop）会议上,访问已成为议题的焦点。同时，利用数据挖掘、语义技术对学术研究动态进行追踪等WA长远发展问题也逐渐获得更多关注。",
+    "context5": "技术方面，WA的技术框架、标准规范得到了很好的发展和共享，开发了大量(开源)工具和系统，并对一些技术难点、关键点的性能和效率不断进行完善，旨在改善工具的强健性、灵活性和可维护性，其投入也逐年增加。目前 IIPC正在开发的智能爬行器旨在加强对深层网络采集的效率；WCT规范了采集流程管理和采集质量审核机制，旨在提高采集效果。",
+    "context6": "由于目前大部分国家还没有建立Web资源呈缴法，在一定程度上影响WA采集的效率和成本，使得WA在采集、提供访问上受到一定阻碍。此外，目前还没有专门针对Web的成本和风险管理的模型，如何估算和控制WA各个环节的成本、资金投入以保证WA长期可持续发展，还需要深入的研究和实践。"
+  },
+  "3.2未来WA发展趋势分析": {
+    "context1": "(1)主题和内容丰富化",
+    "context2": "WA保存的内容和主题日益丰富，采集的形式从传统的静态网页的采集向多媒体动态内容的采集方向转变。目前已有机构开始Web2.0网站采集的研究实践。WA的内容管理，特别是保存资源评价、质量控制方面日益受到重视。",
+    "context3": "(2)系统建设标准化和开源化",
+    "context4": "WA项目在标准规范方面不断改进，IIPC致力于WARC标准的推广及ARC向WARC转换工作，完善转化框架和工具开发。WA项目中所使用的采集、索引、访问工具基本都是开源的，而且在提高开源软件的效率、性能、规范化方面还在不断努力和探索。"
+  },
+  "(3)工作流程规范化": {
+    "context1": "随着WA十余年的发展，项目在工作流程规范化、提高工作效率方面的尝试和探索越来越多，对WA的采集、法律问题、编目、保存、访问等环节制定了详细、规范的流程。"
+  },
+  "(4)合作广泛化": {
+    "context1": "WA领域的合作范围不断扩大，合作内容不断深化。利用分布式的系统和资源构建网格和协作网络，共享WA系统和资源，促进资源共享，实行职责与费用分摊。"
+  },
+  "(5)利用形式多元化": {
+    "context1": "除了网站恢复、保存Web文献参考链接信息等WA利用形式外，WA领域还运用多种技术集成的手段来追踪Web发展演变，用于科学研究的支持决策。美国弗吉尼亚多米尼恩大学计算机学院、康奈尔大学、日本东京大学、北京大学Web InfoMall、欧盟资助的LiWA（Living WebArchives)项目[38]运用数据挖掘、知识抽取、本体语义等技术进行了WA领域未来多元化利用形式的前沿探索与研究。"
+  },
+  "参考文献：": {
+    "context1": "[1」 Internet Archive[EB/OL」．[2008-11-09」. http://www.archive.org/index.php.   \n[2] IIPC[EB/0L]．[2008-11-12].ttp://www.netpreserve.org/about/index.php.   \n[3] Abbie Grotke．IIPC Membership Report[R]. Canberra ： IIIPC General Assembly Meeting，2008.   \n[4] Alexa[EB/OL].[2008-11-12].htp://www.alexa.com/.   \n[5] FAST[EB/OL]．[2008-11-12].htp://www. fastsearch.com/.   \n[6] IBM［EB/OL]．［2008-11-12].http://www. ibm.com/.   \n[7] Hanzo Archives[EB/OL]．［2008-11-12].http://www.hanzoarchives.com/.   \n[8] WebCite[EB/0L]．[2008-11-12].http://www. webcitation.org/.   \n[9] Archive-it [EB/OL]．[2008-11-12]．http:// www. archive-it. org/.   \n[10] PANDORA[EB/0L]．[2008-11-12]. http:// pandora.nla.gov.au/.   \n[11] Bibliotheque nationale de France［EB/OL]. [2008-11-12].http://www.bnf.fr/.   \n[12] Minerva[EB/OL]．[2008-11-12].htp://www. loc. gov/minerva/.   \n[13] WICP[EB/0L]．[2008-11-12].htp://webarchive. nlc. gov. cn.   \n[14] NetarchiveSuite[EB/OL]．[2008-11-12]．http://netarchive.dk/suite.   \n[15] WARC［EB/OL]．［2008-11-12].http://www. digitalpreservation．gov/formats/fdd/fdd000235. shtml.   \n[16] Heritrix[EB/OL]．[2008-12-24].http://crawler.archive.org/.   \n[17] LibWARC[EB/OL].[2008-12-24].http:// code. google.com/p/warc-tools/issues/list.   \n[18] Wget[EB/OL]．[2008-12-24].http://en.wikipedia.org/wiki/Wget.   \n[19] HTTrack[EB/0L]．[2008-12-24]．http:// www.httrack.com/.   \n[20] PANDAS[J/OL]．［2008-12-24].http://www. nla.gov.au/nla/stafpaper/20o03/mphillips1.html.   \n[21] Web Archiving Service［EB/OL]．［2008-12- 24]．http://www．cdlib.org/inside/projects/ preservation/webatrisk/web_archiving.html # information   \n[22] NutchWAX[EB/OL]．[2008-12-24].http://archive-access.sourceforge.net/projects/nutch/.   \n[23] WERA［EB/OL]．［2008-12-24]．http://archive-access.sourceforge.net/projects/wera/.   \n[24] Wayback［EB/OL]．[2008-11-12]．http:// www.archive.org/web/web.php.   \n[25] WCT[EB/OL]．[2008-11-12].http://webcurator.sourceforge.net/.   \n[26] NetarchiveSuite［EB/OL]．[2008-11-12].http://netarchive.dk/suite.   \n[27] Netarchive.dk［EB/OL]．［2008-11-12]．http://netarchive.dk/index-en.php.   \n[28] smart crawler[EB/OL]．[2008-11-12]．http:// crawler.archive.org/.   \n[29] LIFE Project final report［EB/OL]．［2008-11- 12].http://eprints.ucl.ac.uk/1854/1/LifeProjMaster. pdf.   \n[30] Cost Estimation Toolkit.［EB/OL]．［2008-11- 12].http://opensource. gsfc.nasa.gov/.   \n[31] Keep research data safe:A cost model and guidance for UK university［J/OL]．［2008-11-12]. http://www. jisc.ac.uk/media/documents/publications/keepingresearchdatasafeO4O8.pdf.   \n[32] Kulturarw3 Project[J/OL][2008-11-12].http:// www.ifla.org/IV/ifla66/papers/154-157e.htm.   \n[33] Web At Risk Project[EB/OL]．[2008-11-12]. http://web3.unt.edu/webatrisk/.   \n[34] NEDLIB［EB/OL]．［2008-11-12]．http:// nedlib.kb.nl/.   \n[35] NWA［EB/OL]．［2008-11-12].http://nwa. nb. no/.   \n[36] SDSC Chronopolis[EB/OL]．［2008-11-12].http://chronopolis.sdsc.edu/premis.html.   \n[37] Web Infomall[EB/OL]．[2008-11-12].http:// www.infomall.cn/.   \n[38]LiWA[EB/OL]．［2008-11-12].http://www.liwa-project.eu/. 向菁中国科学院国家科学图书馆2007级硕 士研究生。通讯地址：北京市北四环西路33号。 邮编100190。   \n吴振新中国科学院国家科学图书馆副研究馆 员。通讯地址同上。   \n（收稿日期：2008-12-08；修回日期：2008-12-25)"
+  }
+}

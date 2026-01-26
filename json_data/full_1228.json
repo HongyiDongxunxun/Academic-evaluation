@@ -1,0 +1,62 @@
+{
+  "original_filename": "full_1228.md",
+  "中外元数据研究的现状与发展": {
+    "context1": "郑惠红",
+    "context2": "(杭州商学院图书馆，浙江 杭州 310012)",
+    "context3": "[摘要]在简单分析元数据研究起源与发展的基础上，介绍主要元数据格式，在总结元数据研究进展的同时分析其主要问题，指出中文元数据研究与发展的主要方向。",
+    "context4": "[关键词]元数据；中文元数据；在线资源合作编目",
+    "context5": "[中图分类号]G254.36〔文献标识码]A〔文章编号]1002－1167（2004）03－0083－03"
+  },
+  "1元数据研究的起源与发展": {
+    "context1": "产生和发展离不开长期以来人们对图书的编目加工、制作卡片、提供检索等原始服务方式，同样也离不开计算机技术、网络技术和通信技术的发展。元数据的产生和发展的深厚基础是网络信息资源的迅速增长，而催生元数据的则是早期关于数据加工的一些可以称之为元数据格式的数据处理方法，如MARC格式在处理电子资源、多媒体信息资源和网络资源上的捉襟见肘。虽说自1994年开始，网络上已有多种搜索引擎，它们当中不少搜索引擎利用一种基于网络的信息资源发现工具一—类似于Robot、Spider 和Worm 的自动巡视软件，同时通过自动索引软件建立起数据库，通过检索软件和布尔逻辑检索等运算规则为广大用户提供网络信息检索服务，但同样不能满足用户对信息检索的需求，特别是用户对特定信息的准确检索。主要原因是像Google、Yahoo、Lycos 这些搜索引擎的工作流程乃是通过自动搜索程序来抓取网页信息，然后以自动拆字（词）做索引的方式建立数据库，其致命的弱点是不能有效地过滤资源，从而造成检索结果数量大而有用信息少的弊病。元数据的产生为网络信息资源的组织提供了重要手段。元数据（Metadata）一词本身就是随着因特网的发展而产生的，它最早见于1988年美国航空与宇宙航行局编辑出版的《目录交换格式》中。元数据与传统图书馆编目标准的不同之处在于它除了具有描述功能外，还具有控制、管理信息资源的能力，元数据是适用于描述任何网络数据和资源，促进网络信息资源组织和获取的数据。"
+  },
+  "2国外主要元数据格式": {
+    "context1": "迄今为止，世界上已开发出并付诸使用的元数据有多种，从目前国外元数据研究来看，主要有MARC、以检索为目标的元数据体系、以详细描述资源为目标的元数据格式。2例如：美国联邦地理数据委员会的地理元数据项目（FGDC）、编码文档描述（EAD)、频道定义格式（CDF）、全球信息定位服务（GILS）、博物馆信息计算机交换标准框架（CIMI）、互联网内容选择平台（PICS）和DC元数据等。",
+    "context2": "（1）DC 元数据。已成为美国国家标准的DC元数据是一个由OCLC（联机图书馆中心）和NCSA（美国超级计算机应用中国知网5年ni联发起v.请来息图书馆、计算机、网络方面的学者和专家共同研讨的产物，目的是希望建立一套适合于网络电子资源的描述方法，以使得资源发现和信息检索变得更加迅速和有效，由于DC元数据具有结构简单、深意互通和可扩展性等特点，因此，在众多的元数据种类中，成为最受瞩目的一种资源组织工具。目前DC已经拥有15个基本元素，并可以使用TYPE和SCHEME 限定词以及LINK参照对元素进行扩展。",
+    "context3": "（2）以MARC记录格式为基础，通过856字段描述网络化电子资源的特性、连接方式和提取操作要求。MARC 是图书馆描述、存储、交换、处理以及检索信息的基础，经过不断发展已被图书馆用来描述和存取电子信息资源，例如扩展MARC格式的“电子位置及提取方式字段”（即856字段，可重复）可利用MARC记录描述网络化电子资源（包括网页、电子期刊、telnet 系统、FTP 站点等）的特征、连接方式和提取要求。最近，国内外有关机构还开展了MARC与SCML、MARC与DC 等元数据格式互操作的试验。",
+    "context4": "（3）CDF。由微软公司在1997年3月提出，作为一个开放的专门说明，CDF允许网页出版商实现从任何自动传输的Web 服务器到相容的接受程序之间提供快速更新的信息集合或频道。CDF使用XML，并对XML和WebCollections进行了扩展，面向的用户是创建网页的个人或机构。它使用一个简单句法创建频道，因而除了Web 服务器和CDF适应的浏览器之外，不需要任何技术支持。",
+    "context5": "（4）CDWA（艺术作品描述目录）由AITF开发，主要为提供和使用艺术信息的团体（如博物馆和档案馆）描述艺术作品（包括其图像）提供结构化工具。",
+    "context6": "（5）CIMI：完整的框架包含交换协议、交换格式、低层网络和通信以及内容数据标准。现阶段CIMI的主要计划是CHIO (文化遗产联机信息)，主要目标是提供对各类博物馆信息的记录方式。",
+    "context7": "（6）EAD是SGML的一个专用数据类型。美国国会图书馆网络开发/MARC标准办公室是它的维护机构，美国档案管理员协会是该标准的所有者。EAD主要用于描述档案和手稿资源并利用网络检索和获取档案手稿类信息资源。",
+    "context8": "（7）FGDC/CSDGM（数字化地理元数据内容规范)，联邦地理数据委员会在1992 年建立了一个地理数据文件的术语和定义集合，并在1994年通过数字化地理元数据的内容标准，名为CSDGM，但通常仍叫做FGDC。FGDC包括300多个元素，有7个主要段和3个辅助段，内含300多个数据项，涉及标识信息、数据质量、地理数据组织方式、地理参考信息、资料类型等。于1995年成为美国国家标准，广泛用于美国国家空间数据体系。",
+    "context9": "(8）MCF（元内容框架)，由网景公司于1997年6月提交给W3C，是过去多项元数据工作（如XML、CDF、PICS、WebCollections）发展的结果，产生了一个“数据模型和相应的交换格式”，足够强大以适应任何应用，如描述Web 站点、贯穿Email、PIM功能、分布式注解和创作、交换相关于商业的信息。",
+    "context10": "此外还有RDF（资源描述框架)、SGML一DTD（标准通用标记语言）、GILS（政府信息查找服务核心元数据标准）、TEIHeader等元数据格式和体系。"
+  },
+  "3中外元数据研究的进展": {
+    "context1": "目前国外推出不少元数据格式，如OCLC都柏林核心元数据创始行动小组（DCMI）研制的DC元数据、美国联邦地理图像数据委员会的《数字化地理空间元数据内容标准》等都已经较为成熟并得到广泛认可。中国国家图书馆也在《中文元数据标准》研究方面取得了重要进展。DC元数据是目前国内外影响最大的有关元数据研究与编目的标准，其开放和世界合作的观点已深入人心，由此而衍生的一系列元数据研究项目在全世界引起了轰动。",
+    "context2": "对DC元数据的最初研究可以追溯到1994年10月在芝加哥召开的WWW会议。此后自1995 年起，平均每年召开一至两次DC 正式研讨会，至今已举办过11次，各次会议均有不同的研究重点，由浅入深、由泛到专地对DC 理论及应用问题进行探讨，这些会议对DC的发展起到了至关重要的作用。各次研讨会所达成的共识代表了系列研究成果（详见下表：DC 历次会议及其主要议题)。",
+    "context3": "表DC历次会议及其主要议题[3[4",
+    "context4": "<table><tr><td rowspan=1 colspan=1>研讨会</td><td rowspan=1 colspan=1>主办时间</td><td rowspan=1 colspan=1>主办国家</td><td rowspan=1 colspan=1>主办地点</td><td rowspan=1 colspan=1>主办单位</td><td rowspan=1 colspan=1>主要议题</td></tr><tr><td rowspan=1 colspan=1>DC-1</td><td rowspan=1 colspan=1>95年3月1-3日</td><td rowspan=1 colspan=1>美国</td><td rowspan=1 colspan=1>都柏林</td><td rowspan=1 colspan=1>OCLC/NCSA</td><td rowspan=1 colspan=1>元数据元素集框架</td></tr><tr><td rowspan=1 colspan=1>DC-2</td><td rowspan=1 colspan=1>96年4月1-3日</td><td rowspan=1 colspan=1>英国</td><td rowspan=1 colspan=1>华瑞克大学</td><td rowspan=1 colspan=1>OCLC/UKOLN</td><td rowspan=1 colspan=1>元数据描述网络资源的障碍</td></tr><tr><td rowspan=1 colspan=1>DC-3</td><td rowspan=1 colspan=1>1996年9月24—25日</td><td rowspan=1 colspan=1>美国</td><td rowspan=1 colspan=1>都柏林</td><td rowspan=1 colspan=1>OCLC/CNI</td><td rowspan=1 colspan=1>图像和图像数据库的描述</td></tr><tr><td rowspan=1 colspan=1>DC-4</td><td rowspan=1 colspan=1>97年3月3-5日</td><td rowspan=1 colspan=1>澳大利亚</td><td rowspan=1 colspan=1>坎培拉</td><td rowspan=1 colspan=1>OCLC/DSTC，NLA</td><td rowspan=1 colspan=1>元数据的简约与灵活性</td></tr><tr><td rowspan=1 colspan=1>DC-5</td><td rowspan=1 colspan=1>97年10月6-8日</td><td rowspan=1 colspan=1>芬兰</td><td rowspan=1 colspan=1>赫尔辛基</td><td rowspan=1 colspan=1>OCLC/NLF</td><td rowspan=1 colspan=1>讨论DC 中的三个元素</td></tr><tr><td rowspan=1 colspan=1>DC-6</td><td rowspan=1 colspan=1>98年11月2-4日</td><td rowspan=1 colspan=1>美国</td><td rowspan=1 colspan=1>华盛顿特区</td><td rowspan=1 colspan=1>OCLC/TLC</td><td rowspan=1 colspan=1>DC 共享、开发和互操作</td></tr><tr><td rowspan=1 colspan=1>DC-7</td><td rowspan=1 colspan=1>99年10月25-27日</td><td rowspan=1 colspan=1>德国</td><td rowspan=1 colspan=1>法兰克福</td><td rowspan=1 colspan=1>OCLC</td><td rowspan=1 colspan=1>提高DC在不同元数据系统的互操作性</td></tr><tr><td rowspan=1 colspan=1>DC-8</td><td rowspan=1 colspan=1>00年10月4-6日</td><td rowspan=1 colspan=1>加拿大</td><td rowspan=1 colspan=1>渥太华</td><td rowspan=1 colspan=1>加拿大国家图书馆</td><td rowspan=1 colspan=1>DC修饰词</td></tr><tr><td rowspan=1 colspan=1>DC-9</td><td rowspan=1 colspan=1>01年10月22-24日</td><td rowspan=1 colspan=1>日本</td><td rowspan=1 colspan=1>东京</td><td rowspan=1 colspan=1>日本国立信息研究所</td><td rowspan=1 colspan=1>DC 和元数据应用</td></tr><tr><td rowspan=1 colspan=1>DC-10</td><td rowspan=1 colspan=1>02年10月14-17日</td><td rowspan=1 colspan=1>意大利</td><td rowspan=1 colspan=1>佛罗伦萨</td><td rowspan=1 colspan=1>DCMI</td><td rowspan=1 colspan=1>e社区元数据共性与差异</td></tr><tr><td rowspan=1 colspan=1>DC-11</td><td rowspan=1 colspan=1>03年9月29-10月2日</td><td rowspan=1 colspan=1>美国</td><td rowspan=1 colspan=1>华盛顿特区</td><td rowspan=1 colspan=1>华盛顿大学信息学院</td><td rowspan=1 colspan=1>社区元数据研究与应用</td></tr><tr><td rowspan=1 colspan=1>DC-12</td><td rowspan=1 colspan=1>04年10月11-14日</td><td rowspan=1 colspan=1>中国</td><td rowspan=1 colspan=1>上海</td><td rowspan=1 colspan=1>上海图书馆</td><td rowspan=1 colspan=1>未定</td></tr></table>",
+    "context5": "DCMI在不到10年的时间里不仅以年会的方式召开元数据研讨会，还在世界各地相继开展一系列的元数据与知识管理方面的培训班。此外，对于元数据研究，目前世界各地形成了一个以DCMI为核心的DCMI社区，作为一个开放式的论坛，DCMI以网站为枢纽，多年来在九大学科如艺术与人文学科、书目、商业、教育、环境、数学、医学、科学与技术等领域先后推出了数十项世界性的DC项目，这些项目覆盖亚洲、澳州、欧洲和北美洲。如亚洲的韩国、中国的台湾省分别主持论文联合编目系统（AUCS）和资源组织与检索规范（ROSS）等项目。我国对于元数据的研究，最早文献可见于1996年，现有相关文献近300 篇。《DC元数据》为国内介绍DC元数据的第一本专著。2000 年和2001年0CLC先后在上海和广州为我国图书情报工作人员进行了元数据与知识管理方面的培训，主要介绍在线资源联合编目系统CORC 的编目方法与过程、知识管理与元数据的关系等。",
+    "context6": "目前国内已有不少单位和个人开展元数据研究，或介绍国外的各种元数据格式和元数据生成工具，或探讨DC元数据等与MARC 的映射关系，对DC与XML的结构等进行比较，并已取得了初步研究成果。对于USMARC、UNIMARC以国网格式的研究人也是中齐元数据研究的一种尝试。但引进和消化仍是国内元数据研究的主流，《DC元数据》专著于2000年10月在上海出版，是国内开展元数据研究的重要参考。",
+    "context7": "国家图书馆在充分调研MARC、美国国会图书馆元数据集、澳大利亚国家图书馆元数据集的基础上，初步拟定了包含近80个数据项的中文核心元数据集。“中文Metadata标准研究”是北京大学数字图书馆研究所、北京大学图书馆数字图书馆工程的重点研究项目，本项目以各类“中文文献”（具有鲜明的中文特征的金石拓片和敦煌古卷、善本等）为资源实体对象，研究中文文献元数据标准，制订中文文献元数据标准框架和示范数据库。清华大学已制定了包含16个数据项的中文元数据结构框架体系。2001年8月7日至8日，“中文元数据标准”课题组在国家图书馆召开了《中文元数据方案（讨论稿)》国际征询意见会，探讨真正适用于中文及中文文献材料特点的元数据标准。",
+    "context8": "2000年和2001年OCLC先后在中国主办了“知识管理与元数据高级研讨班”，对DC元数据和CORC编目系统进行了全面的介绍。国家图书馆也曾先后两次主办中文核心元数据和数字图书馆研讨班。2001年5月在上海图书馆召开的“中文元数据应用国际研讨会是国内首次有关中文元数据研究的专题研讨会，比较集中地反映了国内元数据应用与研究的现状，通过与国外专家的交流，使与会代表对世界各国图书馆界的元数据应用情况，以及数字图书馆建设的情况有了更多的了解。5]"
+  },
+  "4元数据研究中的主要问题": "",
+  "4.1中文元数据标准化问题": {
+    "context1": "目前中文元数据方案中相关数据项的数量相差较大，国家图书馆建立的“中文核心元数据规范”使用近80个数据项；清华大学元数据项16 个，以DC 元数据集为主要依据。北京大学的元数据集标准则是基于古籍和拓片的一种数据格式。由于缺乏联合、协作、共享的策略，中文元数据标准化和规范化目前难以实现。"
+  },
+  "4.2元数据编目平台的构建问题": {
+    "context1": "网络资源的指数化增长，要求图书馆员能迅速对网络新增资源进行发现、收集、组织和提供利用，因此需要能够及时处理这些资源的编目组织工作。DC元数据各数据项及子项均可以HTML语言形式嵌套于网页中，可直接进行网络资源编目，而且由于DC元数据可与MARC、HTML、RDF格式相互切换，从而使得使用不同编目语言的图书馆能够实现网上资源合作编目，最大限度地实现资源共享。国内要研建CORC平台，一方面可汉化OCLC的CORC系统，另一方面须自行开发。"
+  },
+  "4.3元数据推广应用问题": {
+    "context1": "元数据的主要作用是描述电子信息、提供电子信息定位和查找功能，用得较多的领域是搜索引擎。从目前的检索实践来看，国内的中文搜索引擎对元数据标签都不支持，国外一些知名通用搜索引擎则较好地支持网页使用的元数据标签。6",
+    "context2": "无疑，元数据研究的深化和发展必将为网络信息资源的有序组织、适度控制和高效检索提供更为便利的条件，为数字图书馆建设提供更为广阔的前景。今后应该加强中文元数据标准的研究、促进中文元数据应用的技术推广与合作、加快中文元数据编码的标准化进程与实际应用，提高中文元数据与其他元数据的互操作性，增强信息过滤和信息组织能力。"
+  },
+  "[参考文献]": {
+    "context1": "[1]区颖薇·网络环境下资源管理模式——元数据〔J]·图书馆学研究，2002，（1).  \n[2]张晓林．网络环境下信息资源组织与控制的新问题和新方向[J]．图书馆杂志，1998(增刊).  \n[3]吴建中·DC元数据〔M]·上海：上海科学技术文献出版社，2000.  \n[4]Dublin CoreMetadata Initiative（DCMI）．http：//www·dublincore·org  \n[5]夏旭，等．引进、消化、吸收、创新一中文元数据应用国际研讨会论文综述〔J]·大学图书馆学报，2001，19（5).  \n[6]许四洋．元数据标签应用现状调查及中文网络资源组织的系统模型的探索〔J]·图书情报工作，2001，（12).  \n[7」张晓林．开放元数据机制：理念与原则〔J·中国图书馆学报，2003，29（3).  \n[8]徐久龄，肖慧珍．元数据的研究〔J]．情报理论与实践，2003，26(2).  \n[9]桑良至．元数据的新发展〔J]·情报科学，2003，21（3)."
+  },
+  "Status and Development for the Research of Chinese and Foreign Metadata": {
+    "context1": "ZHENG Hui-hong",
+    "context2": "(Library of Hangzhou University of Commerce，Hangzhou 31OOl2，China)",
+    "context3": "Abstract：Basedonbriefanalysisoftheoriginanddevelopmentformetadataresearch，thisarticledescribedsomemainmetadatafor mats：Summarizeditsresearch progressand problemsand pointedoutthetrendsforChinese metadataresearchanddevelopment. Key words:metadata；chinese metadata；cooperation cataloging of on line resource",
+    "context4": "[作者简介」郑惠红，女，馆员，杭州商学院图书馆采编部副主任，已发表论文数篇。[收稿日期]2004—01－09",
+    "context5": "（上接第103页）"
+  },
+  "Application of Web Service in Sharing Information Resources of Digital Library": {
+    "context1": "YUAN Gan quan",
+    "context2": "(Library of Dongguan Universityof Technology，Dongguan 5231O6，China)",
+    "context3": "Abstract：Theaimofdigitallibraryisrealizingsearchonlineandsharinginformationresources·Thispaperintroducesthecharacter istics of web service，and then discuses howto share information resources indigitalibrary bythe meanof web service. Key words:web services，resources sharing，digital library",
+    "context4": "[作者简介]袁淦泉（ $1 9 7 4 -$ )，男，东莞理工学院图书馆助理工程师。[收稿日期]2004—02—25中国知网https://www.cnki.net"
+  }
+}

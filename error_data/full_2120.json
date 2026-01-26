@@ -1,0 +1,80 @@
+{
+  "original_filename": "full_2120.md",
+  "$\\bullet$ 董尹，赵小康²": {
+    "context1": "（1．南京大学信息管理学院，江苏南京210093；2.南京森林警察学院侦查系，江苏南京210046)"
+  },
+  "公开源情报研究综述\\*": {
+    "context1": "摘要：文章评述了3个公开源情报常用定义和其他解释。对公开源情报涉及的5个方面分别进行了综述，包括素材获取渠道、生产者与用户、技术和工具、公开源情报的价值和贡献、公开源情报的争议。总结了文献中的不足和下一步的研究方向。",
+    "context2": "关键词：公开源情报；信息源研究；文献综述",
+    "context3": "Abstract:Thisarticle reviewsthe3commonly-used definitionsand other explanationsabout Open Source Inteligence (OSINT)．It summarizes the5aspects of OSINTseparately，whicharesource materialacquisitionchannel，producersandusers, technologiesandtols，valuendcontributionofOSIT，andcontroversiesaboutOSI.Finally，theaticlesummarizesthedeficiencies in literatures and the directions for future study.",
+    "context4": "Keywords: open source intelligence; information source study； literature summary",
+    "context5": "早在1947年，时任美国战略情报局（Officeof Strate-gic Services，OSS）柏林分站站长的A.Dulles就曾对当时的情报工作给出开创性的建议“最终情报产品 $80 \\%$ 的内容应通过公开信息源的开发和利用（Open Source Exploita-tion，OSE）来形成”。传统上，情报被认为是一种在封闭的搜集和分析体系下探求秘密的活动，如人力情报、信号情报、图像情报等常作为重要的情报来源，虽然在整个情报流程中也会辅以公开渠道获得的信息，但是它们的价值只是次要的、验证性的。相对于那些非机密信息，机密信息更具有价值、更为可信，所以系统化地采集非机密信息并不是情报工作的重点。"
+  },
+  "1公开源情报的定义": {
+    "context1": "目前，对于公开源情报的理解不尽相同，还存在着多方的解释，本文主要列举出3个权威机构给出的各有侧重的定义。",
+    "context2": "1）OSS 研究院（Open Source Solutions Academy）。“公开源情报是指为特定用户解决某一问题而从报纸、书籍、学术和技术刊物、政府公报、广播、电视和互联网等公开的多语种（Multilingual Sources）与多媒介（Multime-dia Sources）渠道，以合法且合乎道德伦理的手段获取的信息，并对这些信息加工处理后得到的情报。它伴随着整个隐秘的国家情报流程，包括：需求分析、搜集管理、来源验证、多源融合以及报告陈述等环节”。",
+    "context3": "从上述定义可以窥见在情报流程中隐秘源和公开源是相结合的，公开源情报有助于全源情报产品的生产，特别强调运用符合法律约束和道德伦理的信息获取方式。因此，相对于人力情报或信号情报，公开源情报的信息搜集不需要隐秘的手段，但是必须建立在版权授予和商业诉求的基础之上。并且在OSS的定义中还体现出公开源情报的“多语种”性质，这是公开源情报过程中所具有的主要特征之一；同时注重多种格式的电子资源的获取。",
+    "context4": "2）美国国会（United Stated Congress）。于2006 年在其通过的《国防授权法案》（National Defense Authoriza-tion，Act）中明确提出公开源情报概念“公开源情报是指，为了响应特定的情报需求，通过搜集和利用可公开获得的信息从而进行情报生产，并及时地发布给适当的受众”。此定义侧重于展现公开源情报的本质，是一种由公众公开的信息，但是在情报流程各阶段的作用下，这些信息能被转化成情报用于应对目标用户所提出的特定需要。公开源情报的主要特征如利用公众资源、信息处理和最终情报产品发布的必要性也在这个定义中得以阐明。",
+    "context5": "3）北约组织。在《公开源情报手册》中的定义为:“公开源情报是为了回答而进行的谨慎细致的信息发现（Discovery）、鉴别（Discrimination）、浓缩（Distillation）、分发（Dissemination）。也就是说，将广泛多样的公开来源信息运用到情报论证分析过程中，从而产生情报”。相较于美国国会的定义，北约组织将公开源情报的地位提升到情报科目的水准，并将其看作“地基”（Foundation)置于其他情报科目之下，见图1。然而，两种定义也存在着相似之处，即面向特定的情报用户以及整个工作流程的循环往复。",
+    "context6": "![](images/47a18687a5305944f89bb147fa3835d6231d13adaeb8134cb2055c6519ae02d8.jpg)  \n图1作为“地基”的公开源情报",
+    "context7": "上述是在美国乃至国际情报界经常引用的3种定义，另外美国国防部（Departmentof Defense，DoD）和中央情报局（Central Intelligence Agency，CIA）也曾给出过关于公开源情报的解释“广大公众都可以获得的具有潜在情报价值的信息”；“公开情报是指从外国媒体（广播）、出版物和商业数据库中搜集公开信息，并对这些信息进行处理后所获取的情报”。但是，美国国防部的定义过宽，将公开源情报等同于信息，模糊了二者之间的区别。而中央情报局的定义又过窄，排除了公开源情报的许多重要来源。2005年，美国行政管理与预算局（Officeof Man-agementandBudget，OMB）也认识到公开源情报的重要性，不仅将其界定为一种信息产品（来源于任何渠道的有益于军事与决策支持的信息），还解释为一种“信息搜集、处理的过程”，但它们忽视了分析的关键性。"
+  },
+  "2公开源情报素材获取渠道": {
+    "context1": "公开源情报强调的是以用户需求为导向，其获取渠道不拘一格。不过，情报“可从公开领域获取”并不等同“存在于公开领域”，仍需要情报分析人员无论是对数据源还是对信息源都要进行审核与评估，北约组织给出了一个较为通用的标准，包括：准确性（Accuracy）、可信性和权威性（Credibility&Authority）、实效性（Currency）、客观性（Objectivity）、关联性（Relevancy）。",
+    "context2": "2008年12月5日，《美国陆军战场手册2-22.9—公开源情报》（FMI 2-22.9 Open Source Intelligence）得以到期解密，手册中对众多获取渠道进行了分类，大体上分为五大类：学术机构（Academia）、政府及政府间和非政府组织（Governmental，Intergovernmental and Nongovern-mentalOrganizations）、商业和公共信息服务机构（Com-mercial and Public Information Services）、图书馆和研究中心（Libraries and Research Centers）、个人和团体（Indi-viduals and Groups)；同时也对一手公开源媒介（PrimaryOpen Source Media）进行了3个层级的详细罗列，共有4个体系、12个部分、55个具体来源。Steele、芦仁杰[和赵小康[等人也对来源作出了概述。"
+  },
+  "3公开源情报的生产者与用户": {
+    "context1": "公开源情报并不是什么新鲜事物，具有公开源情报性质的活动早在拿破仑战争期间就曾出现，公开源情报的“新”只是相对其他情报科目它逐渐呈现出的独立性和完备性[。独立的公开源情报部内正式出现在20世纪90年代中期，1994年美国中央情报局内部成立了情报界公开信息源项目办公室（Community Open Source Program Of-fice，COSPO），1995年成立了国际性的合作机构——国际公开信息源工作组（International Open Source WorkingGroup， IOSWG)。 $\\mathbf { \\hat { y } } \\cdot \\mathbf { \\ l } 1 \\mathbf { \\hat { \\mu } } ^ { \\mathbf { \\eta } }$ 事件之后，面对国会的问责，美国情报界在对情报失察探究的基础上，积极推行公开源情报活动，由此公开源情报也作为一个单独的情报科目成为全源情报的重要来源。"
+  },
+  "3.1主要生产者": {
+    "context1": "1）政府关联机构。如美国公开信息源中心（OpenSourceCenter，OSC)、英国广播公司监测处（BBCMonito-ring)；除了英、美两国，苏联和其他发达国家像澳大利亚、德国、日本、法国、以色列等也有着各自的机构开展公开源情报活动或类似的活动[1,141]。因地缘政治的存在，利益关系紧密的两国之间往往会进行情报合作，公开源情报也不例外，如美国陆军的亚洲研究特遣队（AsianStudies Detachment，ASD）[。比照西方公开源情报的管理机构，我国也存在着类似的机构。例如作为国家集中统一的新闻媒体一新华通讯社，不仅是我国最大的新闻发布机构，包括各省分社、解放军分社以及海外的107个分支机构，也是最大的公开信息采集和管理机构。",
+    "context2": "2）私营机构。在商业领域，为了系统地获得竞争优势，由此衍生出竞争情报（Competitive Intelligence，CI)这一极具公开源情报性质的情报活动。因此，这也造就了一批以搜集公开源数据、公开源信息见长，拥有专业分析团队的公开源情报私营机构的快速崛起。私营机构相对于政府机构，在公开信息源的开发和利用上有着自己的优"
+  },
+  "势，它们的存在与政府机构形成有机的互补。": "",
+  "3.2用户": {
+    "context1": "1）政府公共部门。公开源情报作为产品，可以为政府公共部内的工作带来诸多好处[19-20： $\\textcircled{1}$ 弥补相对封闭网络中工作造成的信息鸿沟。 $\\textcircled{2}$ 避免群体思维（Group-Thinking）造成的认知偏见。 $\\textcircled{3}$ 帮助决策者了解公众利益，制定合适的对外政策和国防策略。 $\\textcircled{4}$ 帮助政府官员把握全球趋势、社会发展状况、民众心声或国内外焦点问题。",
+    "context2": "2）军事、安全部门。Steele和Lowenthal认为公开源情报产品无论是在危机出现时还是在军事行动过程中，对于安全防御部门是非常重要的情报资源，许多公开的信息渠道，如战地记者、外国媒体、专家、地图和卫星图像都极具价值。决策者可以快速获得关于危机发生的原因和历史沿革的信息、相关参数或多方的意图，同时军事指挥官也能获得对手能力和后勤保障的评估2。Best和Cum-ming在给美国国会的报告中也指出介于隐秘情报的获取受地理和预算上的限制，必须在国家范围内的情报和法律实施机构广泛实施公开源情报活动，接受公开源情报产品，帮助国家完善预警体系、进行危机管理和反恐怖主义活动。",
+    "context3": "3）国际组织。面对全球范围内的危机和恐怖主义，更多的需要国际性组织（International Organizations,IGOs）来应对，公开源情报产品的使用也能帮助他们获得行动优势。北约组织最先系统地认识到公开源情报的作用，他们将公开源情报产品比作联合军事行动中的“楔石”（Keystone），是成员国之间以及成员国与非成员国之间交流的桥梁；也能为人道主义援助和灾难救助提供必要的信息，如基础设施、人口分布、当地资源等多方面细节。公开源情报在联合国的诸多活动中也扮演重要角色，特别是在与非政府组织（Non-Governmental Organiza-tions，NGOs）合作过程中，以及在检查制裁执行情况、发现暴行和打击毒品走私等方面都有不同程度的帮助。国际原子能组织则使用公开源情报产品监视有核国家是否合理运用核能以及是否违反国际不扩散核武器条约 。",
+    "context4": "4）商业组织。商业领域的公开源情报产品的使用最为广泛，从贸易机构到金融机构，甚至是律师事务所均可利用公开源情报产品来帮助自己满足客户需求。由于公开源情报产品的内容具有预测性，所以其使用者可以利用这一特性规避自身风险、调整投资和战略决策；通过及时的威胁评估降低客户风险；为跟踪竞争对手的活动和预测客户需求提供参考。"
+  },
+  "4公开源情报的技术和工具": {
+    "context1": "信息的搜集和分析没有计算机辅助是难以完成的。北约组织在《公开源情报手册》中给出了公开源情报应具有的软件体系，共有A，B，C三部分：A部分包含情报产品发布和管理功能；B部分包含具有数据可视化工具的协同工作功能和具有建模、仿真与结构化辩证分析等思考工具的分析处理功能；C部分包含数据自动预处理功能和对硬拷贝（ $\\operatorname { H a r d } \\ \\operatorname { C o p y } )$ 、多语种或多媒体信息进行标准化数字转换的功能。虽然该体系显得较为理想化，但是它却为公开源情报的发展设定了目标，也使得分析人员认识到不同软件组合的价值。",
+    "context2": "国内专门针对公开源情报进行的技术研究并不多。主要集中在搜索引擎的框架、模型、分类等方面25-28。在分析技术方面，最有意义的研发是实现信息之间的联系。美国国土安全部（Departmentof Homeland Security，DHS)研发了ADVISE这一超级电脑数据分析处理系统。美国公开源信息中心的情报分析和研究人员则可以通过“王子系统”（Prince System）直接翻译、编辑、分发信息和情报。此外，美国还建立了许多其他应用系统。比如，为信息分析机构建立威胁弱点信息系统（Threat Vulnera-bilityInformationSystem，TVIS)，为边境与运输部内建立地区威胁分析系统（Regional Threat Analysis System），为美国国家生物防御与对抗中心建立生物防御知识中心（BiodefenseKnowledgeCenter），类似的数据分析系统已在美国超级市场和信用卡公司中得到广泛应用。美国Connecticut大学电气与计算机工程系还于2004年研制了自适应安全分析与监视系统（Adaptive Safety AnalysisandMonitoring System，ASAM），它采用分布式结构实现信息搜索、共享和理解等功能，通过综合分析开源信息来帮助情报分析人员识别出恐怖分子的活动迹象，预测恐怖分子下一步可能采取的行动，并提出相应的应对措施。南非的R.Temmingh和A.MacPherson开发出一款用于公开源信息采集和分析的软件——Maltego，不仅能对由人组成的社会网络进行分析，还可以理解多种抽象概念并找出它们之间的联系。在反恐怖主义领域，Hale在基本的关系型数据库理论基础上，构建出关于恐怖主义分子和活动的关系型数据库，并结合一系列数据挖掘技术和公开源信息的搜集，开展了对于反恐怖主义的公开源情报应用研究。Wil也指出公开源情报愈发重要，特别是结合社会网络软件和地理信息系统的公开源情报分析，在挖掘恐怖分子人际网络和预测恐怖袭击意图时有着显著的帮助。",
+    "context3": "由于公开信息源的信息量极为庞大和复杂，大量公开"
+  },
+  "5公开源情报的价值和贡献": {
+    "context1": "Dulles是第一个在正式公开场合对公开源情报的价值·第36卷2013年第1期·进行量化评价的情报官员，虽然他的言论显得简短而又匆忙，但却开后了去除情报“斗篷加匕首”般神秘化的大幕。随着情报界的发展，这一“80法则”得到越来越多同行和情报用户的认同。虽然量化的描述给人较为直观的感受，但是有些疑点仍未被阐明：这些用于反映公开源情报价值的百分比数值体现在情报的哪些方面，是否不同方面有着不同的百分比，又是如何得到或计算出这些数值的？而且它们更多地只体现了公开源情报在情报流程中输入端的价值，缺乏与输出端的联系和效力的表达。在Markowitz和Mercado看来，所有这些数值型的描述都只是对Dulles最初估计的重复，是经验的口口相传。",
+    "context2": "从情报作为流程和产品来看，公开源情报相对于其他隐秘源情报搜集科目主要的好处在于：快速、灵活性、多样化培训、低成本。特别是在国际性组织，如北约组织、联合国等，他们在执行维和任务时，公开源情报是一种可交流、可共享的情报，从而帮助国家之间建立信任关系、促进合作；也避免了单个国家提供情报时设置的种种限制造成的情报价值损失57-3。公开源情报在面对复杂环境时，可以通过对战略、行动、战术和技术4个层面分别的水平观察和垂直观察（HorizontalLook andVerticalLook）识别和降低风险，并且涵盖了临时应急式和彻底深入式的分析。Mercado在自己专业经验基础上认为公开源情报首先最大的优势体现在公开源信息的搜集和可激活情报（Actionable Intelligence）转化的速度（Speed）上;其次是比隐秘源信息带来大得多的信息量（Quantity），通过分析人员的汇编和分析，其效力可比隐秘源有过之而无不及，也为形势的总体评估带来帮助；在量的基础上，可以进一步获得质（Quality）的贡献，向用户提供更多的情报来源说明（Clarity）[4，从而进行互动，获取信任和提升服务能力[；最后是公开源情报的易用性（Ease ofUse）和低成本（Cost）使得它适用于国家各层面，以及促进不同性质组织之间的合作b。不过Mercado的描述比较简单而且缺乏有力的论证。Sands在Sims和Gerber编著的《正在转变的美国情报》（TransformingUSIntelli-gence）中给出了相对于隐秘源情报的5个公开源情报贡献要素（Contributing Factors）：评估框架的参考（As-sessment Frame of Reference)、机密资料的保护（Protectionof ClosedMaterial）、可信度（Credibility）、快速获取（Ready Access）、改进的评估体系（Enhanced AssessmentMethodology）。",
+    "context3": "Steele在《情报研究手册》（Handbook of IntelligenceStudies）中撰文对公开源情报进行总结，他认为在信息行动（Information Operations，IO）过程中要整合公开源情报，在了解敌对国、盟国和中立国真实情况基础上，影响与向他国传达本国的优势信息，并形成在“全信息、全语种、全时段”环境下获取信息的能力，达到提高信息对抗能力的目的；帮助国家提升在面对传统和非传统安全时的决策能力和摆脱对秘密情报的依赖；扩大情报用户群；为情报组织和联合作战带来信息优势（Information Superiori-ty)；也是国家改革的催化剂[。",
+    "context4": "Pallaris则认为公开源情报相对于隐秘的情报活动可以节省开支，帮助国家削减预算，特别是中小型国家，能为它们的情报机构带来实实在在的附加值。",
+    "context5": "我国学者赵小康也对公开源情报的贡献进行了阐述，将其称为“基础性价值”，主要表现在：提供了广阔的资料来源；为情报产品贡献了主要内容；包含了更为丰富的工具和技术；主体基础也更为广泛。并给出了若干实践佐证。",
+    "context6": "上述公开源情报的贡献主要是相对于隐秘源情报来说，然而，公开源情报对于隐秘源情报本身也有着帮助。譬如，通过多种公开信息来源渠道获得威胁或突发事件的弱信号，可为隐秘源情报活动做好准备和资源配置；可以让隐秘活动专注于非公开信息的获取，做到各尽其责、物尽其用，之后借助结果对公开源情报进行验证，提升最终用户接受度；公开源情报还可用于隐秘信息源的定位和背景的设定，因为情报问题的研究就像拼图一样，情报人员所能收集到的原始分析材料通常也都是零散的信息碎片，如果没有通过公开信息源首先获得外围信息，是很难开始或完成拼图；公开源情报的存在还能够遮掩隐秘信息源和保护其获取方法。"
+  },
+  "6公开源情报的争议": {
+    "context1": "由于公开源情报与隐秘源情报对立面的存在，由此带来的争议问题一直伴随着公开源情报的发展。Bean在对大量文献阅读的基础上，总结出5方面争议： $\\textcircled{1}$ 公开源情报的使用是美国情报界出于政治的目的，他们为了个人或机构的利益，刻意地塑造了公开源情报的来源、资金、组织结构、定位和领导力。 $\\textcircled{2}$ 公开源情报究竟是“独立的情报科目”还是其他情报科目的“基石”仍存在争论。 $\\textcircled{3}$ 公开源信息是搜得（BeCollected）、取得（Be Ac-quired）还是获得（Be Obtained）。 $\\textcircled{4}$ 公共部门和私营机构对于公开信息源开发和利用的定位不同。 $\\textcircled{5}$ 公共部门和私营机构对公开信息源验证方式的分歧。",
+    "context2": "除了争议，公开源情报本身固有的缺陷也不可回避，Holden-Rhodes 4、George 、Hulnick 、Studeman、Burke[、Pallaris 、赵小康[1,4等人分别指出过公开源情报存在的部分问题，如语言障碍、虚假信息、欺诈信息、情报共享带来的信息泄漏、信息过载等。"
+  },
+  "7结束语": {
+    "context1": "纵观已有研究，偏重于公开信息源的开发以及具体的应用。在诸多文献中公开信息源的开发和利用显得理所当然和极具价值。总体上关于公开源情报的理论研究还是少数，大部分还是从业者们对实践的总结和思考，多从政治、文化和组织结构角度讨论，而且现有研究中存在着论据贫乏和方法论知识的缺失等问题。国内学术界对于公开源情报更多的还是处于引入和呼呼层面，实质性的研究寥寥可数。虽然，在公开源情报理论的发展过程中Steele的研究有着重要的贡献，但整体上无论是情报界还是学术界对公开源情报的理论研究还不够深入。所以，笔者希望在文献梳理的基础上开展较进一步的研究，带来与“Intelli-gence”相对应的公开源情报领域知识。□"
+  },
+  "参考文献": {
+    "context1": "[]梁敏．科技企业孵化器综合评价指标体系及模型设计．科学学与科学技术管理，2004（2）.林强，姜颜福．中国科技企业孵化器的发展及新趋势"
+  },
+  "(下转第118页)": {
+    "context1": "$$\nL ^ { - } = ( \\mathrm { ~ 0 . 0 4 2 9 ~ 0 . 0 0 1 3 ~ 0 . 0 5 0 9 ~ 0 . 0 2 9 1 ~ 0 . 0 2 2 0 ~ 0 . 0 5 0 9 } )\n$$",
+    "context2": "根据公式（11）计算TOPSIS 评价值：",
+    "context3": "$$\nY = ( \\ 0 . 7 4 7 3 \\quad 0 . 0 2 4 9 \\quad 0 . 9 6 0 3 \\quad 0 . 5 8 2 0 \\quad 0 . 4 3 1 3 \\quad 0 . 9 5 6 8 )\n$$",
+    "context4": "于是得到这6家企业孵化器的排序为：",
+    "context5": "$$\n\\mathrm { S } _ { 3 } > \\mathrm { S } _ { 6 } > \\mathrm { S } _ { 1 } > \\mathrm { S } _ { 4 } > \\mathrm { S } _ { 5 } > \\mathrm { S } _ { 2 }\n$$"
+  },
+  "5结束语": {
+    "context1": "随着经济和社会的发展，我国逐渐成为全球高新技术产业的中心，使得选择企业创业孵化器的决策问题越来越重要。本文首先对评价指标进行运输、分类，用信息熵测度计算权重，计算规范化加权评价值矩阵和与上、下界的距离，得到TOPSIS评价值，对评价指标进行排序和择优，根据概率理论、信息熵理论建立多属性决策模型，为选择企业创业孵化器提供依据。此方法有效地解决了确定权重的传统方法中的主观性，定性与定量有效结合起来，主观评价和客观评价互相补充，将更多的评价信息融入到评价结果中，符合企业决策需求。□"
+  },
+  "(上接第123页）": {
+    "context1": "B8]CARMENT D，RUDNER M，HEIDE R L Peacekeeping intel-ligence: extending partnerships and boundaries for peacekeepingM//CARMENTD，RUDNER M，ed.Peacekeeping Intel-ligence New Players，Extended Boundaries.New York:Rout-ledge，2006:1-13.  \nB9]http://www.oss.net/dynamaster/file_archive/060322/17c1874f675af107a11872c1a76dbf37/SOF% 20OSINT% 20Handbook% 20（Draft)．pdf.  \n[40]https://www.cia.gov/library/center-for-the-study-of-intelligen-ce/csi-publications/csi-studies/studies/Vol49no2/reexamining_the_distinction_3.htm.  \n[41] SIMSJE，GERBER B，et al. Transforming US intelligence[M]．Washington，D.C.：Georgetown University Press,2005:63-78.  \n[42] STEELE R D.Open source intelligence [M]// JOHNSON LK，ed.Handbook of Intelligence Studies，New York:Rout-edge，2007:129-147.  \n[43] PALLARIS C. Open source intelligence: a strategic enabler ofnational security [l．Center for Security Studies（CSS)Ana-lyses in Security Policy，2008，32(3)：1-3.[．科学学研究，2002（4）.  \nB] 金加林，李玲，刘喜华．高新技术产业孵化器模式的比较选择研究[．科学管理研究，2004，22（3)：76-79.李英华，李兴斯．信息熵度量风险的探究[．运筹与管理，2007，16(5)：111-15.  \n5] 周丽萍，宋早雪．基于信息熵的工程建设项目风险控制研究．价值工程，2008（6)：98-100.  \n王华，王云刚．基于信息熵的工程项目风险决策[．沈阳工业大学学报：社会科学版，2011，4（2)：154-158.  \n周辅疆，朱小冬，顾宏余．信息熵与TOPSIS准备保障力量部署方案优化[．火力与指挥控制，2011，36（9）.陈文峰，孟德友．基于熵权TOPSIS 法的高校学生成绩综合评价与排名[]．许昌学院学报，2011，30（5）：146-49.王宗军．多目标权系数赋值方法及其选择策略[．系统工程与电子技术，1993，15（6)：35-41.  \n[i0] 樊志平，张全．一种不确定多属性决策模型的改进[．系统工程理论与实践，1999，19（12)：42-47.  \n11 达庆利，徐泽水．不确定多属性决策的单目标最优化模型．系统工程学报，2002，17（1)：50-55.",
+    "context2": "作者简介：宁方伟，男，1973年生，博士生。收稿日期：2012-07-09",
+    "context3": "[4]赵小康，周爱民．公开源情报的基础性价值及可靠性评价 研究[．情报杂志，2011，30（11)：16-20.   \n[45] BOWEN W. Open-source intel: a valuable national security resource[．Jane's Intelligence Review，1999，11:50-54.   \n[46] BEAN H. The DNI's open source center:an organizational communication perspective[]． International Journal of Intelligence and CounterIntelligence，2007，20 (2)：240-257.   \n[7] HOLDEN-RHODES JF. Sharing the secrets: open source intelligence and the war on drugs[M]．Westport Connecticut: Praeger Publishers，1997.   \n[48] GEORGE P.The role of open source intelligence within the intelligence process [C//EUFIS. European Open Source Intelligence Workshop，1998.   \n[49] HULNICK A.The downside of open source intelligence[]. International Journal of Intelligence and Counterintelligence, 2002，15(4):565-579.",
+    "context4": "作者简介：董尹，男，1981年生，博士生。研究方向：竞争情报，公开源情报，情报分析。赵小康，男，1982年生，博士。研究方向：竞争情报，用户服务研究。",
+    "context5": "收稿日期：2012-08-06"
+  }
+}

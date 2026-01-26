@@ -24,6 +24,8 @@ for file_name in os.listdir(source_dir):
             # 解析内容，提取标题和对应内容
             lines = content.strip().split('\n')
             json_data = {}
+            # 添加原文件名字段
+            json_data["original_filename"] = file_name
             current_title = "nothing"
             current_content = []
             

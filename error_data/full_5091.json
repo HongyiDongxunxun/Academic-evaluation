@@ -1,0 +1,60 @@
+{
+  "original_filename": "full_5091.md",
+  "小世界网络的研究现状与展望The Present Research Situation and Forecast of the Small World Network": "",
+  "黄　萍　张许杰刘刚": {
+    "context1": "(华东理工大学商学院管理科学与工程系上海200037)",
+    "context2": "摘要近年来，真实网络中小世界效应和无标度特性的发现激起了学术界对复杂网络的研究热潮，基于小世界网络的知识管理研究也得到了一定发展。在对小世界网络的研究背景、基础概念以及各个领域的研究进行简单综述的基础上,提出了其今后可能的发展趋势。",
+    "context3": "关键词复杂网络小世界网络流言传播无标度网络",
+    "context4": "现实世界中许许多多的复杂网络都是具有小世界或无尺度特征的复杂网络：从生物体中的大脑结构到各种新陈代谢网络，从Internet到WWW，从大型电力网络到全球交通网络，从科研合作网络到各种政治、经济、社会关系网络等等，数不胜数。各种网络的研究目前在世界上受到了高度的重视，形成了日益高涨的热潮，已成为一个极其重要而且富有挑战性的前沿科研方向。"
+  },
+  "1小世界网络研究背景及其基本概念": {
+    "context1": "1.1复杂网络拓扑结构人们把网络不依赖于节点的具体位置和边的具体形态就能表现出来的性质叫做网络的拓扑性质,相应的结构叫做网络的拓扑结构[2]。网络拓扑结构经过以下3个发展阶段：在最初的100多年里，科学家们认为真实系统各因素之间的关系可以用一些规则的结构表示。到了19 世纪50 年代末,数学家们想出了一种新的构造网络的方法，即两个节点之间连边与否不再是根据一个概率决定的[1],这样生成的网络叫做随机网络(Random)，在接下来的40 年里它一直被认为是描述真实系统最好的网络。直到最近几年,科学家们发现大量的真实网络既不是规则网络，也不是随机网络，而是具有与前两者皆不同的统计特征的网络。这样的一些网络被科学家们叫做复杂网络，对于复杂网络的研究标志着第三阶段的到来[42]。",
+    "context2": "复杂网络拓扑结构的不确定性是复杂网络研究的基本问题。20 世纪中叶，Erdos 和Renyi突破传统图论，用随机图描绘了复杂网络拓扑。近年来研究发现,很多实际的复杂网络既不完全规则也不完全随机，而是介于完全规则和完全随机这两个极端之间，既具有类似规则网络的较大集聚系数，又具有类似于随机网络的较小平均路径长度，这就是小世界网络。人际关系网络中的\"六度分离\"就是小世界网络的经典例子。",
+    "context3": "大多数早期文献中都有关于六度分离的描述，1967 年，哈佛大学社会心理学家斯坦利·米尔格拉姆(Stanley Mil-gram)作了这样的一个实验，他要求300 多人发信把他的一封信寄到某市一个“目标”人。于是形成了发信人的链条，链上的每个成员都力图把这封信寄给他们的朋友、家庭成员、商业同事或偶然认识的人，以便尽快到达目标人。实验结果是，一共60个链条最终到达目标人，链条中平均步骤大约为6。人们把这个结果说成\"六度分离\"并广为传播[3～11]。",
+    "context4": "应该注意到三种概念在当代对复杂网络的思考中占有重要地位。a·小世界的概念。它以简单的措辞描述了大多数网络尽管规模很大但是任意两个节点间却有一条相当短的路径的事实。b.集群即集聚度(Clustering coefficint)的概念。集聚程度的意义是网络集团化的程度;这是一种网络的内聚倾向。c.幂律(Powerlaw)的度分部概念。度指的是网络中顶(节)点(相当于一个个体)与顶点关系(用网络中的边表达)的数量；度的相关性指顶点之间关系的联系紧密性;介数是一个重要的全局几何量[6]。",
+    "context5": "1.2小世界网络及其相关概念Watts 和 Strogatz 于1998年提出小世界网络(Small World Network,简称 SWN)模型,比较合理地反映了既不完全规则也不完全随机的网络的统计特性。节点的度分布是网络拓扑的重要特征。小世界网络和随机网络的节点具有大概相同的链接数，即度分布服从均匀的或者指数分布。然而，很多实际网络的节点度分布服从幂律形式，并且通常这种网络不同于服从均匀分布或者指数分布的网络，存在一些度很大的节点，但是大部分节点的度都很小。因为幂律分布没有任何特定的尺度，所以这种网络称为无尺度网络[9\\~12]。",
+    "context6": "规则(Regular)网络(如图1中左图)是遵循一定规则建立起来的网络，网络之间任意两点的联系都遵循既定的规则。但是研究发现，现实的小世界并不是规则网络，人类之间的人际关系，并不能用既定的规则去描述。与完全规则的图相反的另一极端就是完全随机(Random)的网络(如图1中右图)，也就是这个网络中两个节点之间的连接是完全随机的，没有一定的规则可言。当然这种完全随机的描述方式也不符合我们实际网络的特性。“六度分离\"实验中的信件传递过程是有目的的，每个人都是往自己认识的最接近目标人物发送信件。因此\"六度分离”不能用随机网络来解释。",
+    "context7": "![](images/770c94323d4feda6bee40057a8a94433d1a1a97a8f29b2e75859d3ea313e76cf.jpg)  \n图1规则网络小世界网络和随机网络",
+    "context8": "为了使人们更好地了解小世界网络模型，Watts 定义了小世界网络的三个特性。第一个特性是连接各个节点之间最短的路径长度，这是整个网络中所有节点对路径长度的平均值。第二个特点是集聚程度，它代表了两个节点之间通过各自的相邻节点连接在一起的可能性，当然它们之间可能直接连接，即网络的集聚度。Watts在文中表明由于以上的两个参数，高度结构化的网络有长路径和大的聚合度，而随机网络则有段路径长度和很小的集聚度。一个小世界网络展示了与随机网络相近的路径长度，但却拥有高聚合度。第三个特性就是对数路径，所以对任何规模的网络都会随着网络图形变得越来越巨大而网络却保持相对短的路径长度[20]。"
+  },
+  "2小世界网络的研究现状": {
+    "context1": "作为一种交叉性学科，小世界理论发展很快，已经在许多领域得到应用，如SARS传播、互联网控制、生物学蛋白质网络动力学研究等。具有小世界效应的动态系统模型能加快信号传播的速度，提高计算能力和计算同步性。谣言、传染病在小世界网络中传播比在规则网络中容易。",
+    "context2": "2.1Internet 小世界网络的研究 学者在对Internet 的小世界网的研究中，提到Internet具有小世界效应。网络平均距离L是随网络大小N对数增长的，它明显具有小世界效应。从结构上看，Internet 的实际结构介乎于规则网络和随机网络，表明其具有小世界效应。Internet具有集团化、聚类的特征[3]。有文献提到P2P 系统是Internet 节点合作组，在 $\\mathrm { I n ^ { - } }$ ternet上构成了它们自己特别目的的网络。所有与网络连接的节点共享资源(CPU、存储、信息等)并且与其它节点合作。有效地寻找和定位这些高端Internet资源，是P2P系统的关键[16]",
+    "context3": "有一些学者关注相同分割度对不同网络传播行为的影响，并以小世界网络为例讨论了不同分割度对相同网络传播行为的影响，根据Internet 的特殊性,定义了Internet 分割度，确立了Internet分割度与hops之间的数学关系，并根据CAI-DA 提供的全球范围Internet 30个主要节点Monitor5年采集的数据，对 hops 进行统计分析，计算出Internet 分割度为14.44,得出Internet 小世界效应的规律。此文献建立了 $\\mathrm { I n ^ { - } }$ ternet分割度时间敏感性模型(ISTSDM)和针对Internet 分割度的时间序列随机过程模型（MTSSPISD)，并以此讨论了 $\\mathrm { I n ^ { - } }$ ternet分割度的时间演化规律;最后利用两个模型对2008 年北京奥运期间Internet分割度和IP层数据平均传播时间进行了预测[8]。",
+    "context4": "2.2流言传播的小世界网络特性研究2003年的 SARS疫情中的一定社会区域中流言传播的时空演化特性引起了一些学者的关注，他们利用中国广东地区SARS 疫区相关调查历史数据解释，说明了现实社会中，流言传播也具有小世界网络、无尺度网络的典型特性。",
+    "context5": "以往的研究中，较多的是针对流言传播过程的相关统计数据分析提出预测和控制流言传播策略，文献[12]则从流言传播网络的拓扑结构角度对此问题进行了研究。最终作者得出结论：人际网络的拓扑结构决定了流言必定能够在此类复杂网络中得到迅速传播;在加速流言传播的过程中，活跃个体造成的\"长程联系\"是造成流言迅速蔓延的最关键所在，孤立节点代表着两类社会个体(信息极端闭塞个体和受教育程度高、判断力强的个体)，他们的社会地位不同，在流言的控制与预测中不能同等对待。基于这一现状，消除影响社会安定的流言应该采取有针对性的合理策略。研究最终表明：采用小世界网络模型研究流言传播的动力学行为，进而对其进行预测、实施控制，是有潜在应用价值的[5,12]。"
+  },
+  "2.3小世界网络在其他领域的应用": {
+    "context1": "2.3.1生物学领域的应用。许多知名的生物网络表现出了小世界网络节点间的关连性。一般的小世界网络模型，也利用了网络的无向和无标度特性来展示网络中各节点之间的联系。这种网络模型不能模拟一些神经网络的重要性质，例如，染色体结合的方向和标度。学者们分析了不同方向的网络，并显示了即使它们从规则网络发展到随即网络它们依然具有小世界网络的拓扑结构，并得出结论，即当网络从规则向随即网络转换时展示了一个清晰的小世界区域;有标度的基本网络需要更多的节点为环形点阵展示一个清晰的小世界区域[32～34]。",
+    "context2": "有学者研究了基于神经网络的有小世界结构的联想记忆模型。这一网络检索某一存储的模型的有效性展示了混乱的有限价值的阶段转换。更加常规化的网络很难恢复这个模型，而对混合的不对称的状态更有效。在网络混乱的评估中对欺骗性的诱因作了统计特性描述[33]",
+    "context3": "2.3.2重复囚徒困境博弈的 SWN 模型。经济活动中行为主体之间存在着各种复杂关系，这些关系使经济过程成为一个复杂的过程。如果用网络来描述经济系统中的这些复杂关系，节点就是各个行为主体，边或键就是行为主体之间的相互联系。",
+    "context4": "将复杂网络理论和基于博弈论的经济网络理论相结合，探讨小世界网络的结构演化问题是目前研究的一个方向。学者从个体选择的角度，以网络中个体价值优化作为网络结构演化的动力机制，用顶点度分布、平均最短路径长度、集群系数作为网络结构演化判据，研究小世界网络的结构演化问题[8]。",
+    "context5": "还有学者建立了重复囚徒困境博弈SWN模型，模型有 $N$ $= 1 0 0$ 个节点，每个节点 $I$ 代表一个剧中人，其平均紧邻节点数 $K = 4$ , $p$ 为断键重连概率。文中给出了 $_ { p } = 0 , 0 . 1 , 0 . 7$ 时，网络节点的平均合作数随即博弈回合数变化的曲线，随着 $p$ 的持续增大，随即连接增多并逐渐占据主导地位，网络集团开始崩溃。在 $_ { p } \\geqslant 0 . 7$ 时，无须连接时合作数基本上不因断链重连概率的增大而变化，表现属典型的随即网络特征。最终得出结论，与规则网络和随机网络相比，小世界网络具有最快的合作收敛和信息反映能力。行为主体之间的远程联系以及基本不变的长期交易关系，使行为主体间存在频繁而密切的信息传达和问题探索。这正好表现了现实社会经济活动中，行为主体在短期利益和长期利益之间进行着不断权衡的这一司空见惯的现象[11]。",
+    "context6": "若根据研究对象的内涵，通过对网络节点之间的键赋以一定的权重来量化行为主体之间的关联强度，小世界网络的快速波能力和领域的排他类聚特征对研究传播和流行问题以及联盟、观点、知识的形成等有重要价值[29,37]。",
+    "context7": "2.3.3NPD 团队交流网络。一些学者在对新产品开发(NPD)团队交流网络的特征参数进行深入分析的基础上，研究了NPD团队交流网络的交流频率和交流集中度等对团队创新的影响。NPD(新产品开发)团队是一个组织创新活动的核心。作为一个临时性的组织，NPD需要通过有效的交流，收集和整合团队中不同成员的观点，在团队成员的知识集合之上完成转化信息的过程，以形成新知识和新观点。其中，交流是 NPD 团队一切创新活动的基础。为有效地研究NPD 团队的创新行为，作者将NPD交流关系抽象成网络“节点\"是团队成员，“连接\"是他们之间的交流，并用交流频率和交流集中度这两个特征参数，对NPD团队交流网络进行了深入分析[10]。",
+    "context8": "作者用\"小世界”的特征路径长度和集团化系数来表征NPD 团队交流网络的交流频率和交流集中度的思想，为进一步定量研究如何通过对特征路径长度和集团化系数的调整，来改善 NPD交流网络中的交流频率和交流集中度，从而为提高 NPD团队创新能力提供一种全新的思路。"
+  },
+  "3小世界网络未来发展趋势": {
+    "context1": "研究表明以下两个方面在今后网络发展中是十分重要的，会成为重点的：a·关于社会网络的特点的研究。社会网络不同于其他网络，这已经为越来越多的人所认识到。但是，为什么社会网络不同于其他网络，其特殊性究竟何在，还需要具体化。b·关于网络的鲁棒性和脆弱性问题。这个问题的重要性和现实意义是不言而喻的。然而，连究竟什么是鲁棒性现在还没有一致看法。至于如何设计具有鲁棒性的系统，如何加强互联网的鲁棒性,更是刚刚开始[14]。",
+    "context2": "在本人查阅的所有41篇中英文文献中(13 篇中文，28 篇英文),其中关于复杂网络、小世界网络的基础性研究有10 篇左右(其中5篇中文,其他基础性英文文献未归入),其余都是复杂网络、小世界网络在其他领域中的相关应用，在这些应用的文献中，有5篇是关于Internet 网络的，有5篇是关于小世界网络在生物学领域的应用和发展，有3篇关于小世界网络在博弈论方面的应用，关于经济、社会问题的有4篇，关于知识共享、数据查询的5篇。",
+    "context3": "目前小世界网络在生物和Internet 领域上的研究比较多,发展得较成熟,而与知识管理、经济和社会问题结合的研究比较少。笔者认为今后小世界网络可以结合上述方向进行探讨。"
+  },
+  "参考文献": {
+    "context1": "1SKITTER,Homepage.http://www·caida·org/tools/measurement/skitter/in-dex · xml  \n2Octopus Homepage·http://www ·cs·cornell ·edu/cnrg/topogy\"aware/topology/  \n3 Lin Huachun,Lai Shouchuan,chen Pingwen· Automatic Topology Discovery ofIP Networks·IEICE Trans·inf.&Syst.,2OO0-01  \n4王志刚，王汝传，王绍棣，张登银·网络拓扑发现算法的研究·通信学报，2004;(8)  \n5张宏莉,方滨兴,何慧,张宇,毕慧·大规模网络拓扑测量中的关键技术·通信学报,2004;(7)  \n6杨家海,任宪坤，王沛瑜·网络管理原理与实现，北京：清华大学出版社,2000  \n7Larry L Peterson,Bruce S.Davie:Computer Networks:A Systems Approach,Third Edition(ISBN1-55860—832—X).Copyright(c) 2O03 by Elsevier Sci-ence(USA)",
+    "context2": "(责编：勃阳)",
+    "context3": "34Futai Zou, Yin Li,Liang Zhang,Fanyuan Ma·CCAN: Cache-Based CAN Using the Small World Model.WAIM,2004   \n35 Matthew B Hastings，Balazs Kozma· Critical Phenomena in a Small World. Notes Phys,650   \n36 Kris De Meyer,J Mark Bishop,Slawomir J Nasuto·Small一World Effects in Lattice Stochastic Diffusion Search·ICANN,2002   \n37 V Latoral,M Marchiori- Economic Small $-$ World Behavior in Weighted Net works·Eur·Phys·J.B,2000;(32)   \n38 Dave Cavalcanti, Dharma Agrawal,Judith Kelner,Djamel Sadok $\\because$ Exploiting the Small—World Effect to Increase Connectivity in Wireless Ad Hoc Networks   \n39 Naoki Masuda，Kazuyuki Aihara·Global and Local Synchrony of Coupled Neu\" rons in Small—World Networks·Biol·Cybern,2004   \n40 Yutaka Matsuo,Yukio Ohsawa,Mitsuru Ishizuka· Key World;Extracting Key words froma Document asa Small World·DS,2001   \n41 Moni Naor,Udi Wieder·Know Thy Neighbor's Neighbor：Better Routing for Skip—Graphs and Small World·IPTPS,2004   \n42 http://www ·blogen·com/user3O/chaoscat/index·html   \n43 White JG,Southgate E,Thompson JN,Brenner S.The Structure of the Ner vous System of the Nematode Caenorhabditis Elegans·Philosphical Transac tions of the Royal Society of London·Series B 3l4(1986)   \n44Achacoso T B,Yamamoto W S.AY's Neuroanatomy of C.Elegans for Compu\" tation·CRC Press，Boca Raton Florida(1992) (责编：阳)"
+  },
+  "3常用的拓扑信息采集方法的比较": {
+    "context1": "无论是主动测量还是被动测量，拓扑信息采集方法都与具体的网络规模有关、算法有关、所采用的协议有关,他们的性能优劣涉及到算法的收敛速度、网络开销、拓扑的完整性，算法实现的难易程度，对常用的拓扑信息采集方法的分析比较见表1。",
+    "context2": "表1网络拓扑发现算法比较表",
+    "context3": "<table><tr><td>方案</td><td>采集方式收敛速度算法难易网络开销拓扑精度适用范围</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>SNMP</td><td>主动</td><td>慢</td><td>简单</td><td>中</td><td>中</td><td>大</td></tr><tr><td>ARP</td><td>被动</td><td>快</td><td>简单</td><td>低</td><td>高</td><td>中</td></tr><tr><td>ICMP</td><td>主动</td><td>中</td><td>简单</td><td>高</td><td>高</td><td>中</td></tr><tr><td>RIP</td><td>被动</td><td>快</td><td>难</td><td>中</td><td>高</td><td>小</td></tr><tr><td>DNS</td><td>主动</td><td>中</td><td>难</td><td>高</td><td>中</td><td>小</td></tr><tr><td>OSPF</td><td>被动</td><td>慢</td><td>难</td><td>高</td><td>低</td><td>小</td></tr></table>",
+    "context4": "由上面的分析可以得到以下结论：每一种方法都有一定的优势,但也或多或少存在一些不足。每种方法有其适用的范围，所以要想对于各种网络的各种设备进行搜索，应该根据实际需要有选择地结合它们。大型网络如Internet 网络拓扑发现"
+  },
+  "(上接第68页)": {
+    "context1": "23Reid Andersen，Fan Chung,Lincoln Lu·Analyzing the Small World Phenomenon Using a Hybrid Model with Local Network Flow $\\cdot$ WAW,2004   \n24Matthew O Jackson,BrianW Rogers·the Economics of Small Worlds· JEEA, 2005;(3):   \n25JY Zhul,W Liu,H Zhu·Small $\\_$ World Network Effect in Competing Glauber -and Kawasaki—Type Dynamics·   \n26 Katharina Anna Lehmann，Michael Kaufmann·Random Graphs，Small 一 Worlds and Scale-Free Networks·P2P Systems and Applications, 2005   \n27 Andrea Roli ·On the Impact of Small一World on Local Search·AI \\*IA,2005   \n28 E Ahmed,H A Abdusalama·On Social percolation and Small World Network · Eur·Phys·J.B,2000;(16)   \n29 E Ahmedl,A S Elgazzar·On Coordination and Continuous Hawk-Dove Games on Small-World Networks· Eur·Phys·J.B,2OOO;(18)   \n30 Yannis Petrakis,Evaggelia Pitoura·On Constructing Small Worlds in Unstruc tured Peer to—Peer Systems:EDBT,2004   \n31 Adriana Iamnitchi，Matei Ripeanu，Ian Foster· Locating Data in （Small一 World?）Peer-to—Peer Scientific Collaborations·IPTPS,2002   \n32 Carlos Aguirrel,Ram'on Huertal,Fernando Corbacho,Pedro Pascual·Analysis of Biologically Inspired Small $\\_$ World Networks·ICANN,2002   \n33LG Moreli,G Abramson,M N Kuperman·Associative Memory on a Small一 World Neural Network·Eur·Phys·J.B,2OOO;(38)",
+    "context2": "可以利用OSPF、RIP、BGP等路由协议获得路由信息，得到相应的IP地址,再用PING,TRACEROUTE工具探测目的主机的可达性和路由器的连接信息。一个管理域内的网络拓扑发现可利用SNMP协议发现主干网络拓扑结构，再利用ARP、ICMP 协议发现各子网内部的拓扑结构。"
+  },
+  "4结语": {
+    "context1": "虽然网络的拓扑测量技术已有一定的成熟性，但由于各种技术都有着或多或少的局限性，也由于网络连接的复杂性和网络协议的多样性，网络拓扑发现是网络管理中的一个难点。本文介绍了网络拓扑测量系统的结构，在重点阐述了主要拓扑信息采集方法及其优缺点，并进行分析比较的基础上，给出结论，对网络管理开发软件人员和网络管理人员具有较好的参考价值。"
+  }
+}

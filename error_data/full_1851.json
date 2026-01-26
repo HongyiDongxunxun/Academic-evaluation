@@ -1,0 +1,66 @@
+{
+  "original_filename": "full_1851.md",
+  "nothing": {
+    "context1": "●宋艳，陈冬华 (哈尔滨工程大学，黑龙江哈尔滨150001)"
+  },
+  "信息系统安全风险评估综述 ￥": {
+    "context1": "摘要：随着信息技术和网络技术的飞速发展，国民经济、社会生活的各个方面对信息系统的依赖程度越来越高，安全问题也日益凸显。信息系统安全风险评估作为衡量系统安全性的重要手段，为信息系统的建设和管理决策提供了重要依据。本文对信息系统安全进行了定义，并与信息安全加以区别。描述了风险评估的模型，按照定量分析和定性分析方法介绍了典型的评估方法并做了具体的比较。最后探讨了当前我国信息系统安全风险评估中存在的问题及发展方向。",
+    "context2": "关键词：信息系统；信息安全；风险评估",
+    "context3": "AbstractW ith the Iapid develbpment of infomation technology and network technologythe dependence of nationaleconomyandsociallifeoninfomationsystemgets higherandhigherand itssecurityproblem becomes increasinglydistictAsan importantmeans todetem ine the securityof infomation system，infomation system secur ityrisk assessmenthasprovided an importantbasis fortheconstructionof infomationsystemandforthe decision making ofmanagementThis papergivesadefinitionof infomationsystemsecurityand tels itsdiferencefromnfor mation security:The modelof risk assessment is describedThe clasical assessment methods are compared in accordance with the qualitative and quantitative analysis methodsFinallythe paperdiscusses the problems in infor mation system security risk assessm ent in Ch ina and its fu ture developm ent",
+    "context4": "K eyw ordsinfomation system;infomation security;risk assessm ent"
+  },
+  "1信息系统安全": {
+    "context1": "信息系统安全是一门涉及计算机科学、网络技术、通信技术、密码技术、信息安全技术、应用数学、数论、信息论等多种学科的综合性学科。它主要是指网络系统的硬件、软件及其系统中的数据受到保护，不受偶然的或恶意的原因而遭到破坏、更改、泄露，系统连续可靠正常地运行，网络服务不中断[1]。",
+    "context2": "信息系统安全，也常称为信息安全（Infomation Secu-rity）或网络安全（Cyber Security)。名词不同，反映了认识的出发点不同。例如信息安全强调内容的安全，包括了知识产权与数据两个方面的安全。网络安全强调保护信息网络基础设施，而不是强调人们或企业在处理他们个人的信息中如何发挥作用。布什政府公布的《保护网络空间国家安全战略》报告中就适用了“Cyber Security”。信息系统安全不仅强调了内容上的概念，而且强调了设施的安全，具有比较广泛的含义。不过，目前人们在许多场合下也将它们混用，并且还没有一个权威、公认的解释和标准的定义。一个基本的理由就是信息系统安全的概念是随着信息系统的发展，随着信息系统在社会生活中地位的变化，随着人们对信息系统安全的重视和理解不多深化的。了解人们对于信息系统安全概念的认识过程，对于每个学习或从事信息系统安全的人是很有必要的。",
+    "context3": "一般来说，信息系统安全概念分为3个层次：通信保密（Commun ication Security）、信息防护（Infomation Pro\"tection）和信息保障（Infomation AssuianceIA）[2]。"
+  },
+  "2风险评估模型": "",
+  "2.1风险评估要素关系模型": {
+    "context1": "信息系统安全风险评估（RiskAssessment）是依据国家有关的政策法规及信息技术标准，对信息系统及由其处理、传输和存储的信息的保密性、完整性和可用性等安全属性进行科学、公正的综合评估的活动过程[3]。",
+    "context2": "风险评估是个复杂的过程，其中包含很多因素。最主要的因素包括系统的业务战略及安全需求，系统的资产及其拥有的价值、资产的脆弱性、资产面临的威胁，威胁利用脆弱性而引发的安全事件并由此而给系统带来的风险，为降低风险而采取的安全措施以及在安全措施下仍然存在的残余风险等。这些要素之间的关系如图 $1 ^ { [ 4 ] }$ 所示。图1中方框部分的内容为风险评估的基本要素，椭圆部分的内容是与这些要素相关的属性，也是风险评估要素的一部分。风险评估工作是围绕着基本要素展开的，在对这些要素的评估过程中需要充分考虑业务战略、资产价值、安全事件、残余风险等与这些基本要素相关的各类因素。",
+    "context3": "![](images/18cb4a051c8b3516133ac61af25094dbbc98c3305aa920efeda68bb8464ea67c.jpg)  \n图1风险评估要素关系模型",
+    "context4": "这些要素之间存在以下关系：业务战略依赖于资产去完成，资产拥有价值，单位的业务战略越重要，对资产的依赖度越高，资产的价值就越大，资产的价值越大则风险越大；风险是由威胁发起的，威胁越大则风险越大，并可能演变安全事件；威胁都要利用脆弱性，脆弱性越大则风险越大。脆弱性使资产暴露，是未被满足的安全需求，威胁利用脆弱性来危害资产，从而形成风险。",
+    "context5": "资产的重要性和对风险的意识会导致安全需求，安全需求通过安全措施来得以满足，且是有成本的；安全措施可以抗击威胁，降低风险，减弱安全事件的影响；风险不可能也没必要降为零，在实施了安全措施后还会有残留下来的风险。一部分残余风险来自于安全措施不当或无效，在以后需要继续控制这部分风险；另一部分残余风险则是在综合考虑了安全的成本与资产价值后，有意去控制的风险，这部分风险是可以被接受的。残余风险应受到密切监视，因为它可能会在将来诱发新的安全事件。"
+  },
+  "2.2风险评估过程模型": {
+    "context1": "信息系统风险评估（Infomation System Security Evaliation）是一个动态的复杂过程，它贯穿于信息资产和信息系统的整个生命周期，即在评估标准的指导下，综合利用相关评估技术、评估方法，针对信息系统展开评估工作的完整历程。对信息系统进行风险评估，首先是风险评估的准备阶段，进行组织准备、技术准备、人员准备和资金的准备。第二步对风险评估要素的识别与赋值：对威胁进行分析，并对威胁发生的可能性赋值；识别信息资产的脆弱性，并对弱点的严重程度赋值；结合信息资产的重要性和在此资产上发生安全事件的可能性计算信息资产的风险值。第三步记录风险评估的结果。风险评估的一般流程如图 $2 ^ { [ 4 ] }$ 所示。",
+    "context2": "![](images/c66620b84cdc088e3d8a1e01005aaf72a947fb75b274fe27cdc637fa224f6cc9.jpg)  \n图2风险评估过程模型",
+    "context3": "根据图2可以对风险评估的过程有一个清晰的理解，但在风险评估的具体实施过程中存在着以下难点。",
+    "context4": "1）评估前评估范围和资产的确定。风险评估范围和评估资产的确定是否恰当是风险评估质量的决定因素之一，而由于信息系统的复杂和多样性，对评估范围和评估资产的确定还没有统一的标准。",
+    "context5": "2）风险评价过程中对风险发生可能性及其影响的评价。风险评价过程中不可避免地需要分析者进行主观判断，怎样减少评估结果的主观性增加其客观因素是风险评价过程的难点，另外风险发生造成的影响也很难用一种标准度量，例如声誉损失就很难准确地用金钱来度量。",
+    "context6": "3）风险评估过程中评估方和被评估信息系统所在组织之间的交互常常存在问题。被评估信息系统所在组织的高层管理人员可能因为利益、隐私等原因在评估过程中不愿意提供一些评估所需资料或者对评估过程实行限制，这样将导致风险评估所搜集的信息可能不完整和不准确，导致风险评估的质量不高。"
+  },
+  "3风险评估方法": "",
+  "3.1定量分析方法": {
+    "context1": "定量评估方法是指运用数量指标来对风险进行评估，即对构成风险的要素和潜在损失的水平赋予数值或货币金额，当度量风险的要素(资产价值、威胁频率、弱点利用程度、安全措施的效率和成本等）都被赋值，风险评估的整个过程和结果就都可以被量化了[5]。典型的定量分析方法有因子分析法、聚类分析法、时序模型、回归模型、等风险图法、决策树法等。定量评估方法的优点是用直观的数据来表述评估的结果，可以对安全风险进行准确的分级，但这有个前提，那就是可供参考的数据指标是准确的，然而在信息环境日益复杂多变的今天，定量分析所依据的数据的可靠性是很难保证的。此外，常常为了量化，使本来比较复杂的事物简单化、模糊化了，有的风险因素被量化以后还可能被误解。"
+  },
+  "3.2定性分析方法": {
+    "context1": "定性的评估方法是依据评估者的知识、经验、历史教训、政策走向及特殊情况等非量化资料对系统风险状况做出判断的过程。定性分析的操作方法可以多种多样，包括小组讨论（如德尔斐法）、检查列表（Checklist)、问卷（Questionnaire）、人员访谈（Interview）、调查（Sruvey）等[5]。在此基础上，通过一个理论推断演绎的分析框架做出调查结论。典型的定性分析方法有因素分析法、逻辑分析法、历史比较法、德尔斐法。",
+    "context2": "定性分析方法是目前采用最为广泛的一种方法，优点是避免了定量方法的缺点，可以挖掘出一些蕴藏很深的思想，使评估的结论更全面、更深刻。但是它的主观性很强，往往需要凭借分析者的经验和直觉，或者业界的标准和惯例，为风险管理诸要素（资产价值，威胁的可能性，弱点被利用的难易程度，现有控制措施的效力等）的大小或高低程度定性分级，例如“高”、“中”、“低”三级。",
+    "context3": "与定量分析相比，定性分析的准确性稍好但精确性不够，定量分析则相反。定性分析法没有定量分析那样繁多的计算负担，但要求分析者具备一定的经验和能力。定量分析依赖大量的统计数据，而定性分析没有这方面的要求。定性分析较为主观，定量分析基于客观。此外定量分析的结果很直观，容易理解，而定性分析的结果则很难有统一的解释。"
+  },
+  "3.3综合评估方法": {
+    "context1": "系统风险评估是一个复杂的过程，需要考虑的因素很多，有些评估要素可以用量化的形式来表达，而对有些要素的量化很困难甚至是不可能的，所以在复杂的信息系统风险评估过程中，应该将这两种方法融合起来。定量分析是定性分析的基础和前提，定性分析建立在定量分析的基础上才能揭示客观事物的内在规律。主要的综合分析方法有层次分析法、概率风险评估和模糊综合评价法等。表1给出了定量分析方法、定性分析方法和综合分析方法的比较，便于组织可以根据具体的情况来选择适当的分析方法。",
+    "context2": "<table><tr><td rowspan=1 colspan=5>表1评估方法综合比较</td></tr><tr><td rowspan=1 colspan=1>分类</td><td rowspan=1 colspan=1>分类方法名称</td><td rowspan=1 colspan=1>优点</td><td rowspan=1 colspan=1>缺点</td><td rowspan=1 colspan=1>使用范围</td></tr><tr><td rowspan=5 colspan=1>1R</td><td rowspan=1 colspan=1>因子分析法</td><td rowspan=1 colspan=1>降维作用明显,所得的结果客观性强，含义明确</td><td rowspan=1 colspan=1>受限于数据采集</td><td rowspan=1 colspan=1>数据样本量相对较大，用少数几个假想变量来表示基本的数据结构</td></tr><tr><td rowspan=1 colspan=1>聚类分析法</td><td rowspan=1 colspan=1>能将样本数据按照其在性质上的亲疏程度在没有先验知识的情况下自动进行分类</td><td rowspan=1 colspan=1>不易确定分类结果的有效性</td><td rowspan=1 colspan=1>多因素、多指标的分类问题</td></tr><tr><td rowspan=1 colspan=1>时序模型</td><td rowspan=1 colspan=1>可以推测未来数值的变化</td><td rowspan=1 colspan=1>对过去的统计数据准确性要求高</td><td rowspan=1 colspan=1>有随时间变化而又相互关联的数字序列</td></tr><tr><td rowspan=1 colspan=1>等风险图法</td><td rowspan=1 colspan=1>评价结果准确，简明</td><td rowspan=1 colspan=1>风险系数计算复杂</td><td rowspan=1 colspan=1>工程项目风险评价</td></tr><tr><td rowspan=1 colspan=1>决策树法</td><td rowspan=1 colspan=1>对每一种不同的结果都预计出可能性，而最终决策以先前的决策为依据</td><td rowspan=1 colspan=1>分析过程中有些参数没有包括在树中就显得很不全面；若分级太多，则不方便画</td><td rowspan=1 colspan=1>分阶段的多级决策</td></tr><tr><td rowspan=3 colspan=1>1R</td><td rowspan=1 colspan=1>因素分析法</td><td rowspan=1 colspan=1>评估出各个因素对指标的影响程度</td><td rowspan=1 colspan=1>程序复杂，假设条件的存在有一定的主观性</td><td rowspan=1 colspan=1>多种因素构成的综合性指标的分析</td></tr><tr><td rowspan=1 colspan=1>逻辑分析法</td><td rowspan=1 colspan=1>具有典型性和抽象概括性</td><td rowspan=1 colspan=1>依赖个人的概念、判断和推理等思维形式</td><td rowspan=1 colspan=1>制定不定期的策划方案</td></tr><tr><td rowspan=1 colspan=1>德尔斐法</td><td rowspan=1 colspan=1>充分发挥专家的作用，集思广益</td><td rowspan=1 colspan=1>过程比较复杂，花费时间较长</td><td rowspan=1 colspan=1>各种评价指标体系的建立和具体指标的确定过程</td></tr><tr><td rowspan=3 colspan=1></td><td rowspan=1 colspan=1>层次分析法</td><td rowspan=1 colspan=1>将分析问题抽象简化、简便适用</td><td rowspan=1 colspan=1>受专家经验、知识限制，主观性强</td><td rowspan=1 colspan=1>无统一度量尺度的系统分析和权值确定</td></tr><tr><td rowspan=1 colspan=1>概率风险评估法</td><td rowspan=1 colspan=1>能给出导致风险的事故序列和发生的概率</td><td rowspan=1 colspan=1>要求数据收集的准确性和全面性</td><td rowspan=1 colspan=1>大而复杂的系统，风险源多</td></tr><tr><td rowspan=1 colspan=1>模糊综合评价法</td><td rowspan=1 colspan=1>可量化不确定的因素</td><td rowspan=1 colspan=1>评价结果趋于均化，指标体系难建立</td><td rowspan=1 colspan=1>不确定因素多的系统，方案择优</td></tr></table>",
+    "context3": "[22]CLAYPOOL M，GOKHALE A,MIRANDA T et al Combi ning con tentbased and collaborative filters in an online new s\" paper [C]//ACM SIG IR Woik shop on Recammender System s - mplem en tation and Evaluation ACM Press 1999.   \n[23]LAWRENCE S Context in Web search [J]· IEEE Data Eng 2000,23(3).   \n[24]PROLLIP L T PITKOW JEDistributions of surfers’paths th rough The World W ide Web:empirical charac terizations [J].WorldW ideWeb 1999 （2).   \n[25]Text infomation management group [EB/OL].[2OO8-09-01]. http://sifakacsuiuoedu/ir/ucair/download hml   \n[26] SHEN Xuehua TAN Bin，ZHAI Chengxiangmplicit user modeling for personalized search [C]//Prceedings of the $1 4 \\Uparrow$ ACM intemational conference on Infomationand knowledge managem ent 2005.   \n[27] RHODESB JJust-in-time infomation retrieval[D].Cambridge MA：M IT Media Laboratory 2000.   \n[28] SUN JT ZENG HJ LIU H,et al Cubesvd:a novel ap proach to personalized W eb search[C]//Proceedings of the $1 4 \\Uparrow$ in temational conference on World W ide Web New York; NY，USA,ACM Press 2005.   \n[29]CHR ITA P A，OLMED ILLA D，NEJDL W．A personalized Iank ing platfom forWeb search [C] $/ / 3 { \\bf { r d } }$ In te mational Con\" ference Adaptive Hypeim edia and Adaptive W eb Based SystemsEindhoven The Netherlands Springer 2004.",
+    "context4": "[30]HAVELWALA TH. Topic-sensitive pagerank [C]//Pro\"",
+    "context5": "（上接第116页）"
+  },
+  "4结论与展望": {
+    "context1": "信息系统安全风险评估对确保信息安全具有重要意义。信息系统安全风险评估要涉及大量信息，是一个复杂的过程。有几点需要深入理解： $\\textcircled{1}$ 安全评估不是漏洞扫描。信息系统安全评估包含丰富的内容，漏洞扫描是脆弱性分析的一部分，是整个评估的重要数据来源而非全部。$\\textcircled{2}$ 安全评估不是单个的具体产品。安全评估是一个有着严格流程的体系。它是动态、发展的，而非停滞、静态的。$\\textcircled{3}$ 安全评估的结果应该可以比较。安全评估的结果必须能够相互比较才可以具有较好的参考意义，才能够保证安全评估相关研究的规范发展。 $\\textcircled{4}$ 安全评估中主观因素的影响过大，会导致评估工作的随意性太大，从而不能保证评估工作的质量。",
+    "context2": "因此，对于信息系统风险评估可以在以下方面做深入研究： $\\textcircled{1}$ 组织关键信息资产的确定和安全估价，这是安全投资决策的基础。 $\\textcircled{2}$ 把信息系统风险评估视为系统工程来深入研究。 $\\textcircled{3}$ 基于模型的风险评估以及风险处理方法的进一步完善，引入和创建更加适应于信息安全领域的风险评[31]JEHG，WIDOM J Scaling personalized Web search [C]//Proceed ings ofWWW 'O3,Pages 2003.",
+    "context3": "[32]QIU F,CHO J Automatic identification of user n terest for per sonalized search [C]//Proceed ings of The $1 5 \\mathrm { \\# }$ In temational Conference onWorldWideWeb New York:NY，USA，ACM Press 2006.",
+    "context4": "[33]AKTAS M S NACAR M A， MENCZER F: Personalizing pag erank based on domain profiles [C]//Proceedings of The Sixteen WEBKDDWoikshop Web Min ing andWeb Usage Analysis (W EBKDD'04)，Seatle W ash ington 2004.",
+    "context5": "[34]Clisty the clustering search engine [EB/OL].[2008-09- 01].http://clusty com /",
+    "context6": "[35]KarOO visualmeta search engine [EB/OL].[2OO8-09-01]. http://www.kartoocom /",
+    "context7": "[36]CUTTNG DR，KARGER DR，PEDERSEN JO，etal Scat ter/gather a clusterbased appmach to brow sing large docum ent collections [C]//Proceed ings of The $1 5 \\mathrm { \\# }$ Annual In tema\" tionalACM SIG IR Conference on Research and Developm ent in Infomation RetrievalNewYork:NY，USA，ACM Press 1992.",
+    "context8": "[37］曾春，邢春晓，周立柱．个性化服务技术综述[J]．软件学报，2002（10).",
+    "context9": "作者简介：李树青，男，1976年生，讲师，博士生。收稿日期：2008－12-17",
+    "context10": "估模型等[6]。 $\\textcircled{4}$ 安全评估应客观化和自动化，自动化的评估将有利于降低评估成本，减少评估周期，尽快反映系统状态以利于决策，因此开发自动化的辅助评估工具十分必要。□"
+  },
+  "参考文献": {
+    "context1": "[1］田永．信息系统的安全评估方法［J]·宿州学院学报，2007 (8).  \n[2]张基温·信息系统安全教程[M]．北京：清华大学出版社，2007．7.  \n[3]罗森林．信息系统安全与对抗技术[M]·北京：北京理工大学出版社，2005．8.  \n[4］陆宝华，王楠·信息系统安全原理与应用[M]．北京：清华大学出版社，2007．11.  \n[5]陈波，于泠，肖军模·计算机系统安全原理与技术[M]北京：机械工业出版社，2006．1  \n[6］陈光匡，兴华．信息系统安全风险评估研究［J]．网络安全技术与应用，2004（7).",
+    "context2": "作者简介：宋艳，女，1974年生，博士，教授。陈冬华，女，硕士生。",
+    "context3": "收稿日期：2008－12-15"
+  }
+}

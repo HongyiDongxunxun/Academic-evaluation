@@ -1,0 +1,115 @@
+{
+  "original_filename": "full_5263.md",
+  "开放政府数据评估体系述评:特点分析": {
+    "context1": "■ 韦忻伶²安小米²李雪梅’明欣余维健",
+    "context2": "1中国人民大学信息资源管理学院北京100872²中国人民大学智慧城市研究中心北京100872",
+    "context3": "摘要：回的/意义]随着开放政府数据运动的快速发展，开放政府数据评估体系也在研究和实践中不断出现，对这些评估体系的特点进行分析，有利于采取更科学合理的方法对开放政府数据进行准确评估，推动开放政府数据的可持续发展。方法/过程对研究与实践中现有的开放政府数据评估体系进行系统梳理，归纳出现有评估体系的评估动因、评估内容和评估方法及相应特点和适用性。结果/结论]研究发现现有评估体系在城市层面、特定行业和开放数据成熟度评估方面存在局限，提出应根据不同评估动因、因地制宜地选择评估内容和评估方法的建议，并构建了开放政府数据评估动因、评估内容和评估方法的循环迭代检验机制。",
+    "context4": "关键词：开放数据开放政府数据评估体系评估指标",
+    "context5": "分类号：G250  \nDOI: 10.13266/j. issn. 0252 - 3116. 2017. 18. 016"
+  },
+  "1引言": {
+    "context1": "开放政府数据，是指任何人可以自由和免费地访问、获取、使用和分享的政府数据。开放这些由政府在管理社会公共事务过程中采集、利用和存储的数据，既有助于政府提升透明度、治理能力和效率，又能通过数据推动创业、释放经济价值，成为促进经济发展和社会创新的驱动力。",
+    "context2": "开放政府数据运动从2009年开始在世界各地快速蔓延。全球范围内，美国、英国、加拿大等多国大力发展开放政府数据,并已具有领先水平。在中国,北京、上海、武汉、青岛、贵阳等多地也已率先启动开放政府数据工作,2015年发布的《促进大数据发展行动纲要》和2016年发布的《国家信息化发展战略纲要》中都明确要求，“建成国家政府数据统一开放平台”和“构建国家数据开放体系” 。",
+    "context3": "开放政府数据评估是开放政府数据活动的重要组成部分，尤其是我国目前正处于起步发展阶段，需要逐步形成一套科学适用的评估体系，来以评促建，总结现有成果的优势和局限,为开放政府数据活动的可持续发展提供指引。开放政府数据评估体系是由开展开放政府数据评估活动的要素构成的有机整体，本文评估体系的构成要素包括评估动因、评估对象、评估内容、评估主体和评估方法等。",
+    "context4": "本文对研究与实践中现有的开放政府数据评估体系进行系统梳理,分析不同评估体系的评估内容、常用方法等，并讨论现有评估体系存在的局限;接着对上述评估体系按照评估动因、评估内容和评估方法三个方面进行归纳分析，总结出现有开放政府数据评估体系的特点及适用性,提出开展开放政府数据评活动的建议,并构建开放政府数据评估动因、评估内容和评估方法的循环迭代检验机制。"
+  },
+  "开放政府数据评估体系研究与实践述评": {
+    "context1": "目前,随着开放政府数据研究的热度不断上升，学术界已有不少对于开放政府数据评估的代表性研究;同时，在实践层面也出现了不少的权威项目，例如由万维网基金会开展的“开放数据晴雨表\"等。本文从研究和实践两方面对开放政府数据评估体系进行述评。"
+  },
+  "2.1研究综述": {
+    "context1": "采用“开放数据/开放政府数据” $^ +$ “评估/评价”",
+    "context2": "检索CNKI数据库，检索出文献64篇，与开放政府数据评估直接相关的文献有13篇;采用“opendata/opengovernment data” $^ +$ “assessment/evaluation/benchmark/”检索EBSCO、ProQuest和Web of Science 数据库,检索结果较多，收集得到相关性较高和被引用次数超过5次的文献27篇。同时利用其中的综述类文献,追溯其参考文献以补充搜集结果，并进一步筛选其中评估视角、指标或方法具有代表性特色的文献，共计得到33篇文献作为文献综述的分析基础。研究视角包括技术、公共管理、传播学、信息资源管理等多种视角，涵盖针对数据质量、开放政府数据项目、开放政府数据网站等多种评估对象的评估体系。目前学界关于开放政府数据的评估研究主要有两种形式，一是尝试构建一套开放政府数据的评估体系，二是分析实践中已有的评估项目，下文分别从这两种形式的评估研究展开综述。",
+    "context3": "2.1.1评估体系构建研究不少学者从理论出发,针对不同的评估对象如开放数据项目、开放数据门户网站或者更为具体的开放数据质量、开放数据政策等，构建了各有侧重点的评估体系。以下主要以评估对象进行分类，再根据研究中评估的视角或评估的重点进行细分，得到如表1所示的文献分布情况。",
+    "context4": "表1开放政府数据评估体系文献分布情况",
+    "context5": "<table><tr><td>主要评估对象</td><td>评估视角/重点</td><td>主要代表研究</td></tr><tr><td>数据</td><td>数据质量</td><td>T.Berners-Lee;J.Hochtl和P.Reichstädter;E.Kalampokis,E.Tambouris 和K.Tarabanis； M.Kasehesky和L.Selmi ;A.Vetr</td></tr><tr><td rowspan=\"4\">开放数据内户网站</td><td>用户视角</td><td>H.Yu和DG.Robinsol@；MD.Saulles[l;C.Alexopoulos [;王今、马海群[]</td></tr><tr><td>数据开放性</td><td>S.Bogdanovi等[;D S.Sayago 等[d;徐慧娜、郑磊[]</td></tr><tr><td>网站服务质量</td><td>马海群、唐守利[；邹纯龙、马海群d；马海群、王今[]</td></tr><tr><td>政府问责能力</td><td>R P. Lourenco </td></tr><tr><td rowspan=\"2\">开放政府数据项目</td><td>项目影响及收益</td><td>H.Yu和D G.Robinson[id;C.Yiu;郑磊、高丰4</td></tr><tr><td>公众参与度</td><td>G.Lee </td></tr><tr><td rowspan=\"2\">政府</td><td>政府机构表现</td><td>M. Solar等d；R.Sandoval和JR.Gil</td></tr><tr><td>开放政府数据政策</td><td>Z.Anneke等；赵润娣g</td></tr><tr><td>其他</td><td>开放政府数据基础设施</td><td>Y.Charalabidis等</td></tr></table>",
+    "context6": "（1)以数据为评估对象。主要评估开放数据的标准、数量、质量、种类等,此为开放数据的核心,直接关系开放数据的有效性。代表性观点是互联网之父T.Berners-Lee提出的关联开放数据的五星模型（FiveStar Scheme for Linked Open Data）。该评估模型主要强调数据集的永久性、互操作性、链接等指标的重要性。大部分学者针对数据的评估体系都参照了此模型,以数据集的互操作性作为衡量数据质量的主要指标。",
+    "context7": "面向数据质量的评估。J.Hochtl和P.Reichstadter基于语义Web,利用T.Berners-Lee提出的关联开放数据五星模型为开放政府数据构建了一个架构模型。E．Kalampokis、E．Tambouris 和K．Taraba-nis根据电子政务阶段模型提出了数据开放的四阶段模型，分别是：政府数据聚合;政府数据集成;政府数据和非政府官方数据的集成;政府数据、非政府的官方数据和社会数据集成。M．Kasehesky和L．Selmi提出了可应用于发布关联开放政府数据的“5R”框架：显示数据、完善数据、再利用数据、发布数据和运行数据。A．Vetro等从可回溯性、时效性、延迟性、完整性、一致性、可理解性、准确性七方面来评估开放政府数据的"
+  },
+  "质量。": {
+    "context1": "面向用户的评估。H.Yu和D G.Robinson构建了一个衡量用户获取数据难易程度评估体系，利用从可适应性和迟钝性之间的范围来评估数据发布的质量。M D.Saullesb基于H. $\\mathrm { Y } _ { \\mathrm { u } }$ 和D G．Robinson 的评价框架,补充了一些易于操作的判断标准。C．Alexo-poulos等人从数据使用者和数据提供者两个角度构建了价值模型，主要从数据效率、有效性和未来表现三方面进行价值评估。王今和马海群[根据瑞典顾客满意度晴雨表模型(SCSB)进行改良而建立了开放政府数据的用户满意度评价模型。",
+    "context2": "国内外大量关于开放数据评估的研究集中于对开放数据的核心一数据质量的研究,研究视角涵盖技术视角、用户满意度视角、关联数据视角等，并结合社会传播学、计算机学等展开研究。评估指标方面，以数据互操作性、机器可读性、可追溯性、规范性和易用性等为主要衡量指标。",
+    "context3": "(2)以开放数据门户网站为评估对象。开放数据门户网站即包括政府官方性质、公益性质、商业性质等在内的开放数据门户网站，此为数据发布方与数据利用方最重要的信息交换平台，同时也是开放数据最直接的载体。较为有代表性的是国际开放政府工作组提出的开放政府数据八项原则[,即完整性、原始性、及时性、可获得性、可机读性、非歧视性、非私有性和免于授权,此为评价开放政府数据应满足的重要原则。评估内容包括开放政府数据基础、开放政府数据集的质量和开放政府数据效果等多方面。",
+    "context4": "面向数据开放性的评估。S．Bogdanovi等[基于开放政府工作组提出的开放政府数据八项原则构建了评估模型,并利用Web工具实现对开放数据门户的自动评估。D.S．Sayago等[从数据操作能力和用户参与能力两方面对开放政府数据程度进行评估。徐慧娜和郑磊[以纽约市和上海市平台为例,引用技术接受模型，比较了开放数据网站的有用性和易用性和用户数据利用效果。曹雨佳[认为应以生态视角来评估我国地方政府开放数据门户的整体发展，主要从开放数据的数量、格式和使用授权着手,将开放政府门户网站的生存状态评为活跃、健康、濒危、死亡。",
+    "context5": "面向网站服务质量的评估。马海群和唐守利[9提出了网站可达性、数据易用性、网页可用性、服务舒适性、用户满意和用户信任的六维度政府开放数据网站服务质量的测量模型。邹纯龙和马海群利用BP神经网络算法模拟专家评分，建立了网站服务质量评价体系。马海群和王今利用DEA(数据包络法），建立了包括输入指标和输出指标的开放政府数据网站效率的评价体系。",
+    "context6": "面向政府问责能力的评估。R P.Lourenco对政府的问责能力进行评估，从实体覆盖度、信息种类覆盖度、信息查找策略三方面来评估数据门户是否真的有助于提高政府的透明度。",
+    "context7": "在以开放数据门户网站为主要评估对象的评估体系研究中，侧重点也各异，有的评估模型着重网站服务质量的评估,有的注重数据开放性的评估，还有的以网站为观察途径,评估政府在开放数据中的表现。评估方法趋于多样化,在专家评审打分之外,出现了利用Web工具、神经网络算法等实现网站自动评估的方法。但可以发现，目前开放数据门户网站的研究，多为适用于政府官方门户网站的评估，缺少适用于商业和公益等其他性质或医疗交通等特定行业的评估模型;在国内的研究中,学者主要从网站服务质量进行评估，未能深入体现开放数据的核心，数据质量测评部分较为薄弱。",
+    "context8": "(3)以开放政府数据项目为评估对象。开放政府数据项目包括政府实施项目的政策和领导力环境、开放的数据集质量和开放数据影响力等，涵盖开政府放数据事前准备、事中质量把控、事后影响力评估反馈等过程。",
+    "context9": "面向项目影响及收益的评估。C．Yiu在H．Yu和 D.G．Robinson提出的评估框架的基础上提出了从领导力与文化、可获得性与技术、社区满意度三个维度来评估开放政府数据的记分卡方法。郑磊和高丰根据中国实践情况,建立了基于“基础”“数据”“平台\"三大层面共13个维度构成的评估体系,并研究了中国多地的开放情况。",
+    "context10": "面向公众参与度的评估。G．Lee等构建了基于社交媒体的、用于评估开放政府数据项目的公众参与度的成熟度模型,包含五个级别：初始级别、数据透明级别、公众参与级别、开放协作级别、广泛参与级别。",
+    "context11": "以开放政府数据项目为主要评估对象的研究中，区别于以数据和门户网站为主要评估对象的是，强调针对开放政府数据环境和影响力的评估，即包括开放数据政策和立法环境、政治意愿、产业环境等(这些构成支持开放政府数据项目运作的基础环境)和包括开放数据产生的经济价值和社会价值等的开放数据影响力的评估。目前国内外学者对开放政府数据项目的评估主要面向开放政府数据成熟度较高的项目，适用于开放政府数据尚处于初级阶段的评估体系研究亟待推进。",
+    "context12": "（4)以政府为评估对象。评估政府机构在开放数据推进中的表现,包括政府开放数据工作组织机制、高层领导力、开放数据法律法规、战略、管理能力等方面表现。",
+    "context13": "面向政府机构表现的评估。M．Solar等提出了面向政府机构能力的成熟度模型，包括三个维度：规划及法律、技术、公民及企业。R．Sandoval 和JR．Gil也提出了主要包括法律义务、开放数据、协同合作、共同开放和制度安排五方面的评估模型，重点对开放政府数据中的政府表现和潜力进行评估。",
+    "context14": "面向开放政府数据政策的评估。Z．Anneke等构建了用于比较开放政府数据政策、执行情况和实际影响的框架，框架包括政策环境和背景、政策内容（作为输入）、绩效指标(作为输出)和公共价值(作为实际影响)四大方面。赵润娣认为开放政府数据政策的本质就是解决政府数据资源蕴含的利益的分配，并据此构建了包括机构目标、政策设置与人员协调、数据管理、政策实施计划、政策评估策略的开放政府数据政策",
+    "context15": "的内容框架。",
+    "context16": "学界认为政府是区域内最大的数据资源生产者和拥有者，也是垄断者。如何通过政府行为处理好政府数据资源的占有和分配,亦即社会利益分配的问题，是开放数据中需要关注的重点方面。学界在以政府机构表现为评估对象的评估研究中，综合运用公共管理、公共政策等理论方法,评估指标涉及对政府组织机制、法律法规政策等内容。但总体来说，以政府为主体的评估体系仍然较少，对开放政府数据不同目标导向下的政府机构表现没有区分,研究待进一步细化。",
+    "context17": "（5）以开放政府数据基础设施为评估对象。Y.Charalabidis等开发了应用于Web2.0时代的开放政府数据基础设施评估模型,主要从11个方面评估基础设施的价值,分别为数据供给能力、数据搜索和下载能力、用户反馈能力、易用性、数据处理能力、数据上传能力、数据提供方反馈能力等。"
+  },
+  "2.1.2对已有评估项目的研究有的研究着重于比较分析实践中已有的评估项目的共性与差异，为未来的评估提供借鉴。": {
+    "context1": "I.Susha等b采用元分析(meta-analysis)方法对5个开放政府数据的评估项目进行比较研究,指出由于不同评估项目的目标和方法论不同，其也存在不同的适用情况。万维网基金会和纽约大学治理实验室在对10个评估项目的指标进行分析后,提出了包括开放数据环境、数据、使用和影响4个方面的开放数据通用评估框架。A．Hjalmarsson等通过评估项目来分析开放政府数据活动中的利益相关者价值。杨孟辉和刘华剖析了开放数据晴雨表项目的评估指标和方法。夏义堃对7个权威的开放政府数据评估项目进行了比较分析,比较的维度主要包括评估主体、评估侧重点、评估对象和评估方法。郑跃平和刘美岑从起始时间及评估频率、评估对象、评估工具、数据获取及分值计算等多个维度对5个评估体系进行了比较。郑磊和关文雯发现目前开放政府数据评估项目的指标体系主要包含“基础”“平台”“数据”“使用”和“效果\"5个维度。",
+    "context2": "总体而言，现有的该类研究大多为针对国际性评估项目而展开的宏观比较分析，其所纳入的评估项目中缺少对某一国家内不同地区展开的评估，也并未对各个评估项目的具体指标体系、指标和评估方法进行详细深入的比较分析，因此难以对国内的开放数据评估产生更具体和有针对性的指导作用。"
+  },
+  "2.2实践综述": {
+    "context1": "目前更有影响力的开放数据评估体系出现在实践领域,国外已有多个组织(如开放知识基金会、经合组织)制定了开放数据评估体系，对全球的开放政府数据水平进行了测量,国内也有由郑磊领导的、复旦大学数字与移动治理实验室发起的开放政府数据探显镜、中国开放数林指数评估项目。",
+    "context2": "根据已有评估项目研究中提及的开放政府数据评估体系，并结合网络搜索，本部分对实践领域的开放政府数据评估项目作归纳整理，根据由国际或国内权威组织制定，或评估动因、对象和方法中具有代表性特色的原则，筛选出7个开放数据评估项目作为案例，并借鉴已有评估项目的研究框架[31,5-3d,对每个项目从评估动因、评估对象与内容、评估主体和评估方法四个方面进行整理,如表2所示：",
+    "context3": "表2开放数据评估项目实践情况",
+    "context4": "<table><tr><td>评估体系</td><td>评估动因</td><td>评估对象与内容</td><td>评估主体</td><td>评估方法</td></tr><tr><td>开放数据晴雨 表</td><td>为世界各国测量开 放政府数据的整体 水平和真实影响</td><td>包括准备度、执行力和影响力三个维度。准备度是指一个国家是否具备实现 开放数据潜力的政策、社会和经济基础;执行力是指政府实现其开放政府数 据计划的程度;影响力是指开放数据带来的实际效益的影响程度</td><td>同行专家评审</td><td>专家评分、排名</td></tr><tr><td>全球开放数据 指数bg</td><td>众包方式，从公众角 度反映开放数据成 效</td><td>评估每个地区15个关键数据集的质量，评估内容包括数据采集方、数据可用 性、是否免费可用、数据易获取性和实效性等11个方面</td><td>社区众包方式 并结合同行专 家评审</td><td>志愿者评估，专 家审阅</td></tr><tr><td>项目开放数据 仪表盘4q</td><td>对联邦各机构的开 放数据工作进行 KPI考核</td><td>评估指标由两部分构成,一部分是由工作人员进行审查的指标,一部分是由 程序脚本自动分析的指标</td><td>工作人员和程 序脚本</td><td>人员审查和脚 本检测</td></tr><tr><td>联合国电子政 务调查[41]</td><td>联合国对其成员国 进行的电子政务发 展水平评估</td><td>根据不同领域进行分类,调查教育、卫生、金融、社会安全、劳动力与环境领域 的数据开放情况,并重点关注了网站中关于弱势群体的信息</td><td>志愿者和专家</td><td>志愿者评估后 专家审阅</td></tr><tr><td>开放数据证 书</td><td>数据发布者进行自 查来得出数据发布 处于何种的水平</td><td>评估结果通过开放数据证书的不同等级来体现。证书的等级包括“铜“银” “金&quot;和&quot;铂金”</td><td>数据发布者自 查</td><td>数据发布者通 过自查问卷检 测等级</td></tr></table>"
+  },
+  "韦忻伶，安小米，李雪梅，等.开放政府数据评估体系述评:特点分析⑴].图书情报工作,2017,61(18):119 －127": {
+    "context1": "（续表2）",
+    "context2": "<table><tr><td>评估体系</td><td>评估动因</td><td>评估对象与内容</td><td>评估主体</td><td>评估方法</td></tr><tr><td>开放政府数据 探显镜[43</td><td>全面系统地评估中 国现有的几个开放 政府数据实践项目</td><td>评估重点为政府,建立了基于“基础”“数据“平台&quot;层面一共13个维度的评 估体系</td><td>人工定性分析， 脚本抓取定量 指标</td><td>文献分析，数据 抓取,人工观察</td></tr><tr><td>中国开放数林 指数4</td><td>追踪中国地方政府 数据开放工作的推 进与深入</td><td>评估对象为地方政府数据开放平台,重点为数据质量,建立了包括数据集总 量、数据开放度、数据覆盖面和数据持续性4个一级指标</td><td>人工采集和脚 本自动抓取</td><td>脚本自动抓取 和人工观察方 法</td></tr></table>",
+    "context3": "开放数据晴雨表、全球开放数据指数、联合国电子政务调查、开放政府数据探险镜和中国开放数林指数为全球性或区域性的开放政府数据评估体系，评估动因为测量该区域的开放数据综合水平，因而评估内容大多覆盖开放政府数据环境、数据质量和开放政府数据影响力三个方面。而项目开放数据仪表盘的主要评估动因为KPI考核，因而评估内容中多为可反映客观绩效的、易于度量的指标,并可以通过脚本自动度量的方法评估。这些不同的开放政府数据评估项目有着不同的评估动因,因而也有着不同的评估对象与内容、评估方法。下文将对这些评估体系展现出的不同评估动因、评估内容和评估方法进行归纳，分析其特点和适用性。"
+  },
+  "2.3研究和实践局限": {
+    "context1": "上述研究发现,现有的研究领域和实践领域评估体系主要重点为数据质量的评估，多为国家层面的宏观评估，专用于城市、特定行业或适用于开放政府数据各阶段成熟度的评估体系缺失，未来的开放政府数据评估体系构建研究可进一步弥补现有研究中薄弱之处,提高开放政府数据评估体系的适用性和成效性：",
+    "context2": "专用于城市层面的开放政府数据评估缺失。当前，国外的几个主要开放政府数据评估及调查多考察国家(包括地区)层面,城市层面开放政府数据的评估研究较为不足。然而，从普通用户角度看，城市层面的数据与公众日常生活的联系更加紧密。城市层面交通、医疗、教育、公共安全等多方面数据的开放和利用将有效提高公众生活的便捷程度。因此,开放数据的评估需要给予城市层面足够重视，并以此来促进城市层面开放数据的发展。",
+    "context3": "专用于特定行业的开放政府数据评估缺失。不同行业领域的数据质量评判标准不同，如交通数据强调数据的动态性等,而现有的开放政府数据评估中基本没有针对医疗卫生、经济、交通等相关行业领域的评估,亟待进一步展开行业领域的专项研究,以提升特定行业开放数据评估的针对性和成效性。",
+    "context4": "适用于开放政府数据各阶段成熟度的评估缺失。",
+    "context5": "尽管开放政府数据已在全球兴起,但各国的开放政府数据处于不同的发展阶段，利用成熟度模型进行评估的研究仍然匮乏。例如多数发展中国家仍处于开放政府数据初级阶段,而现有的评估体系中有大量包括数据开放收益及影响的评估内容,对于开放运动尚处于起步的发展中国家来说并不适用，应首先加强针对开放政府数据基础、准备度的评估研究，再逐步向针对开放数据门户、开放数据价值等反映开放数产出效果的评估推进。"
+  },
+  "开放政府数据评估体系构成要素及其关系分析": {
+    "context1": "由前文对开放政府数据评估体系的研究与实践综述,抽取出上述评估体系中的评估动因、评估内容和评估方法要素进行归类[1,35-3d,分析不同类型的评估动因、评估内容和评估方法的侧重点和适用条件，旨在为未来评估活动的评估体系构建或选择提供参考。"
+  },
+  "3.1评估动因": {
+    "context1": "对开放政府数据评估研究和实践中体现出来的不同评估动因进行归纳，得到该动因下的评估重点及相应目标（见表3）。",
+    "context2": "表3揭示出开展开放政府数据评估活动时主要存在的五类评估动因,不同的评估动因具有不同的评估侧重点,因而评估内容和评估方法也会不同。例如，评估动因为衡量某地区、某网站等开放政府数据综合水平时,评估的重点在于利用一套评估体系得出该地区或网站的水平,并通过地区、网站之间的比较来反映优势和局限;而动因为以用户角度评估开放数据效果时，评估重点在于构建用户视角的评估指标,如数据获取难易程度、数据可理解性等,并通过如众包、社交参与等方式充分调动用户参与评估。"
+  },
+  "3.2评估内容构成要素及关系": {
+    "context1": "通过对现有研究或实践中的开放政府数据评估内容进行归纳，可以得出开放政府数据评估内容构成要素（见表4）,包含三个主要组成部分：开放政府数据环境、数据质量、开放政府数据影响力。开放政府数据环境即支持开放政府数据运作的基础环境，为开放政府数据的“事前准备”,主要指政策立法和企业支持等;数据质量指开放的数据集的质量，为开放政府数据的“事中把控”;开放政府数据影响力指开放政府数据带来的社会、经济、环境等方面的效益,为开放政府数据的“事后反馈”（见图1）。这三部分实际上也反映了对开放政府数据活动主要过程的评估，即从事前准备（开放政府数据环境),到事中包括(数据质量)，再到事后反馈(开放政府数据影响力）。",
+    "context2": "表3开放政府数据评估动因及相应重点及目标",
+    "context3": "<table><tr><td>评估动因</td><td>对应的评估重点及目标</td><td>研究或实践来源</td></tr><tr><td>象的开放数据综合水平</td><td>衡量地区或网站等评估对评出该评估对象的水平,并与同类评估 对象形成比较,反映优势与局限</td><td>S.Bogdanovi等[]；D S.Sayago等[d；曹雨佳[；郑磊、高丰；开放数据晴雨 表[；联合国电子政务调查[4]；开放政府数据探险镜[43]</td></tr><tr><td>从用户角度评估开放数据 效果</td><td>构建用户视角的评估指标，并充分调动 大众广泛参与评估</td><td>H.Yu和DG.Robinson[d；MD.Saulles[1]；C.Alexopoulos等[2；王今、马海 群[；徐慧娜、郑磊[]；马海群、唐守利[;G.Lee等[；全球开放数据指数g</td></tr><tr><td>评估政府在开放数据推进</td><td>评估政府开放数据的工作机制、法律法</td><td>R P.Lourenco ；M.Solar d;R.Sandoval和JR.Gilb;赵润娣g</td></tr><tr><td>中的表现 KPI绩效考核</td><td>规等的有效性 用精准、可度量的指标反映实际绩效与</td><td>项目开放数据仪表盘[40</td></tr><tr><td></td><td>预设绩效之间的关系</td><td></td></tr><tr><td>给数据发布者提供指引</td><td>问题诊断,引导改进方向</td><td>开放数据证书[43]</td></tr></table>",
+    "context4": "表4开放政府数据评估内容构成要素",
+    "context5": "<table><tr><td>评估内容</td><td>评估内容构成</td><td>具体内容</td><td>研究或实践来源</td></tr><tr><td>开放政府数据 环境</td><td>政策立法</td><td>是否拥有信息自由、隐私保护等方面 相关立法</td><td>H.Yu和DG.Robinson[@;RP.Lourenco ;郑磊和高丰4;R.Sandoval 和JR.Gil；Z.Anneke等；开放数据晴雨表等</td></tr><tr><td rowspan=\"7\">数据质量</td><td>政治领导力</td><td>是否发布了相关支持政策和行动方 案</td><td>RP.Lourenco；C.Yiu;郑磊和高丰;Z.Anneke等;开放数据晴 雨表8等</td></tr><tr><td>执行机构</td><td>是否有专门机构来监督、执行数据开 放工作</td><td>郑磊和高丰[；R.Sandoval和JR.Gil;Z.Anneke等2；开放数据晴雨 表等</td></tr><tr><td>企业支持</td><td>企业通过利用开放的政府数据可带 来的经济利益如何</td><td>郑磊和高丰b4;G.Lee等;R.Sandoval和JR.Gil];Z.Anneke等； 开放数据晴雨表等</td></tr><tr><td>通信基础设施</td><td>通信基础设施是否可满足开放政府 数据要求</td><td>M.Solar等2d;Y.Charalabidis等d；开放数据晴雨表等</td></tr><tr><td>数据开放性</td><td>机器是否可读、是否有较强的可访问 性、是否有明确的开放协议许可</td><td>T.Berners-Lee目;J.Hochtl和P.Reichstadter  ;E.Kalampokis,E.Tambouris 和K.Tarabanis；M.Kasehesky和L.Selmi；曹雨佳[;郑磊和高丰4等</td></tr><tr><td>数据覆盖面</td><td>是否涵盖医疗、财政、教育、交通等各 主题</td><td>E.Kalampokis，E.Tambouris 和K.Tarabanis；曹雨佳[；RP.Louren- co[2；郑磊和高丰；全球开放数据指数[3；项目开放数据仪表盘4；联合 国电子政务调查[41]；开放政府数据探险镜等[43]</td></tr><tr><td>可用性</td><td>数据可利用程度如何</td><td>A.Vetro;H.Yu和DG.Robinson[id；王今和马海群[；徐慧娜和郑 磊[；曹雨佳[；郑磊和高丰;Y.Charalabidis等3d；万维网基金会和纽</td></tr><tr><td></td><td>完整性 数据集是否完整</td><td></td><td>约大学治理实验室[；全球开放数据指数等 A.Vetro；郑磊和高丰24；万维网基金会和纽约大学治理实验室；全球</td></tr><tr><td></td><td>可信度</td><td>数据是否权威可信</td><td>开放数据指数[39；联合国电子政务调查[41等 A.Vetro;Y.Charalabidis等等</td></tr><tr><td></td><td>可理解性</td><td>是否对数据添加必要的说明使其易</td><td>H.Yu和D G.Robinson[id；王今和马海群[；Y.Charalabidis等等</td></tr><tr><td></td><td>时效性</td><td>于理解 数据发布的速度与频率是否及时</td><td>A．Vetro;H.Yu和DG.Robinson[i@；万维网基金会和纽约大学治理实验</td></tr><tr><td rowspan=\"5\">开放政府数据 影响力</td><td>免费使用</td><td></td><td>室；全球开放数据指数等 A.Vetro；郑磊和高丰4；全球开放数据指数；联合国电子政务调</td></tr><tr><td>社会效益</td><td>数据是否免于收费 带来了怎样的社会效益</td><td>查[；开放数据证书等 H.Yu和DG.Robinson[d;G.Lee等;R.Sandoval 和JR.Gil;开放数</td></tr><tr><td>环境效益</td><td>对环境可持续性产生了怎样的影响</td><td>据晴雨表8等 H.Yu和DG.Robinson[i；开放数据晴雨表等</td></tr><tr><td>经济效益</td><td>对经济产生的积极程度影响如何</td><td>H.Yu和DG.Robinson[id；开放数据晴雨表8等</td></tr><tr><td>政府问责能力</td><td>对增加政府透明度和问责能力的影 响如何</td><td>H. Yu和D G.Robinson[d；R P.Lourencob；R.Sandoval 和JR.Gil ]; Z.Anneke等；开放数据晴雨表等</td></tr></table>",
+    "context6": "![](images/89b9d8ce7425ce24e532bf102c65bce6e3b23c734e2d75b82f42bf6ffe5a78fe.jpg)  \n韦忻伶，安小米，李雪梅，等.开放政府数据评估体系述评:特点分析 ⑴.图书情报工作,2017,61(18):119 －127.  \n图1开放政府数据主要过程及相应评估内容"
+  },
+  "3.3常用评估方法及特点": {
+    "context1": "对研究与实践中的开放政府数据评估方法做归纳,主要有专家评审、众包评议、桌面研究、脚本自动度量和发布者自查五种方法,对五种评估方法的特点及适用条件归纳如表5所示：",
+    "context2": "表5评估常用方法、特点及适用条件",
+    "context3": "<table><tr><td>评估方法</td><td>特点</td><td>适用条件</td><td>研究或实践来源</td></tr><tr><td>专家评审</td><td>权威性、开放性强、主观判断 为主</td><td>专业性较高的问题;较高的评 估对象层面(如国家层级)</td><td>郑磊和高丰4;M.Solar等；开放数据晴雨表3；全球开放数据指 数g</td></tr><tr><td>众包评议</td><td>成本低、效率高、权威性较低</td><td>用户角度反映;评估难度低、 工作量大的评估体系</td><td>G.Lee等；全球开放数据指数g</td></tr><tr><td>桌面研究</td><td>高度依赖所获取的资料、深度 较低</td><td>通过资料即可较完整反映评 估对象情况</td><td>R P.Lourenco;郑磊和高丰4；M. Solard；R.Sandoval 和JR. Gil]；Z.Anneke等；赵润娣g；Y.Charalabidis等；开放政府 数据探险镜[43</td></tr><tr><td>脚本自动度量</td><td>准确性高、标准统一、更新周 期短、成本低、效率高</td><td>以技术指标为主、不涉及主观 问题;局限于网站等易于抓取 数据的评估对象</td><td>S.Bogdanovi等[；邹纯龙和马海群[2d；马海群和王今[；项目开放 数据仪表盘4</td></tr><tr><td>发布者自查</td><td>自我的纵向比较、无横向比较小型、初级的开放数据项目</td><td></td><td>开放数据证书[42]</td></tr></table>",
+    "context4": "由表5可以发现,每一种评估方法因其不同的评估主体、评估效率、评估数据来源而使其具有不同的评估成本、周期和准确程度,因而也具有不同的适用情况，在实际实施过程中，需要根据评估动因和客观环境选择最适宜的评估方法。"
+  },
+  "4结论及建议": {
+    "context1": "本文在系统梳理研究与实践中现有的开放政府数据评估体系的基础上，发现现有评估活动在城市层面、特定行业和开放数据成熟度评估方面存在局限;现有评估体系存在以下几类评估动因、评估内容和评估方法：五类评估动因(衡量开放数据综合水平、从用户角度评估开放效果、评估政府表现、KPI绩效考核、为数据发布者提供指引）、三类评估内容(开放政府数据环境、数据质量和开放政府数据影响力)和五类评估方法(专家评审、众包评议、桌面研究、脚本自动度量、发布者自查）。",
+    "context2": "就评估体系构成要素及关系而言，评估动因影响所采用的评估内容和评估方法,每一类评估内容、评估方法都有其自身的特点和适用性,最终需要以评估动因为中心，来选择最为适宜的评估内容和评估方法，评估动因、内容和方法三者紧密相连构成评估体系核心要素 。",
+    "context3": "当评估动因为衡量某地区开放数据综合水平时，例如开放数据晴雨表等评估体系，需要全面考察该地区的开放数据活动，因而评估内容大多覆盖开放政府数据环境、数据质量和开放政府数据影响力三个方面，同时由于评估结果权威性的需要，较多通过专家评审的方法开展评估，并结合桌面研究的方法搜集数据。当评估动因为从用户角度评估开放效果时，评估重点在于构建用户视角的评估指标,如数据是否易用、开放效果如何，同时需要通过众包、社交参与的方法充分调动用户参与评估。当评估动因为评估政府表现时，侧重于评估是否有开放数据政策立法和领导力等机制问题和开放收益影响问题，评估内容主要为开放政府数据环境和开放政府数据影响力，并多通过桌面研究的方法搜集数据进行评估。当评估动因为KPI绩效考核时，为能准确反映客观绩效,通常采用数据集数量统计等易于测量的客观指标，并可以通过脚本自动度量的方法评估。当评估动因为数据发布者提供指引时，评估重在引导而非比较,无计算排名、平均水平这样的评估活动,通常采用发布者填写自查问卷的评估方法，供发布者发现目前存在的问题并得到下一步工作指引。",
+    "context4": "综合这五类评估动因和所采用的相适应的评估内容和评估方法，绘制三者关系图（见图2，箭头表示决定关系）,构建出基于评估动因、评估内容、评估方法评估体系核心要素的循环迭代检验机制。",
+    "context5": "![](images/06a16fadb52f0cce38a7771242f88c72a34653b96bdce7c4ebc359078f7d57fd.jpg)  \n图2评估动因、评估内容、评估方法循环迭代检验机制",
+    "context6": "作为未来评估活动及评估体系持续改进的建议如下:(1)在评估活动中,运用评估动因、评估内容、评估方法循环迭代检验机制验证评估体系有效性;(2）在循环迭代检验机制中,评估动因直接影响评估内容和评估方法的确定;(3)在进行开放政府数据评估活动时,应在评估动因统筹下,选择适宜的评估内容和评估方法，促进三者之间互联互动,优化现有评估体系，支持开放政府数据评估体系持续改进。"
+  },
+  "参考文献：": {
+    "context1": "[1]What is open data?Open data handbook [EB/OL]．[2O17 -04- 13]htp://opendatahandbook.org/guide /zh_CN/what-is-opendata/.   \n[2]陈涛,李明阳．数据开放平台建设策略研究——以武汉市政府 数据开放平台建设为例[．电子政务,2015(7)：46-52.   \n[3]国务院关于印发促进大数据发展行动纲要的通知 [EB/OI]. [017-04-21]．http://www.gov.cn/zhengce/content/2015- 09 /05/content_10137.htm.   \n[4]中共中央办公厅关于印发国家信息化发展战略纲要的通知 [EB/O1]． [017-05-02] .htp: //www.gov.cn/gongbao/content/2016/content_5100032.htm.   \n[5]BERNERS-LEE T. Linked data: design issues [EB/OI]．[017- 08-21] .htp://www.w3.org/DesignIssues/LinkedData. html.   \n[6] HOCHTL J，REICHSTADTER P.Linked open data-a means for public sector information management [C] //International conference on electronic government and the information systems perspective.Berlin: Springer Berlin Heidelberg，2011:330-343.   \n[7]KALAMPOKIS E，TAMBOURIS E，TARABANIS K.Open government data:a stage model [Cl //International conference on electronic government.Berlin: Springer Berlin Heidelberg，2011: 235-246.   \n[8]KASCHESKY M,SELMI L.Fusepool R5 linked data framework: concepts，methodologies，and tools for linked data [C] //Proceedings of the 14th annual international conference on digital government research．New York:ACM,2013:156-165.   \n[9]VETRO A,CANOVA L,TORCHIANO M,et al. Open data quality measurement framework:definition and application to open government data [J]．Government information quarterly，2016,33 (2): 325-337   \n[io] YU H，ROBINSON D G.The new ambiguity of‘open government'[．2012,59(1):178-208   \n[1] SAULLES M D.Open data and open government in the UK:how closely are they related[]//Proceeings of the 13th European conference on e-government. Como: Academic conferences and publishing international,2013:160 -165.   \n[2]ALEXOPOULOS C，LOUKIS E，CHARALABIDIS Y，et al．A methodology for evaluating PSI E-infrastructures based on multiple value models [C] //Proceedings of 16th panhellenic conference on informatics.Washington:IEEE,2012:37-43.   \n[3]王今，马海群．政府开放数据质量的用户满意度评价研究[]． 现代情报,2016(9):4-9.   \n[4]Open Government Working Group.8 principles of open government data EB/O1]．[017 -04-10] .htps: //public.resource.org/8 _principles. html.   \n[15]BOGDANOVIC-DINIC S，VELJKOVIC N，STOIMENOV L.HoW open are public government data? An assessment of seven open data portals [M] //Measuring e-govermment efficiency.New York: Springer,2014:25-44.   \n[6] SAYOGO D S,PARDO T A，COOK M.A framework for benchmarking open government data efforts [Cl //2014 47th Hawaii international conference onsystem sciences.Washington: IEEE，, 2014:1896 -1905.   \n[7] 徐慧娜,郑磊．面向用户利用的开放政府数据平台：纽约与上 海比较研究[．电子政务,2015(7):37-45.   \n[8]曹雨佳．政府开放数据生存状态:来自我国19个地方政府的 调查报告 [．图书情报工作,2016,60(14):94－101.   \n[9]马海群,唐守利：基于结构方程的政府开放数据网站服务质量 评价研究[．现代情报,2016(9)：10－15,33.   \n[0]邹纯龙,马海群．基于神经网络的政府开放数据网站评价研 究——以美国20个政府开放数据网站为例[．现代情报， 2016(9) : 16 -21.   \n[1] 马海群,王今.基于DEA的政府开放数据网站效率评价. 数字图书馆论坛,2016(6):2-7.   \n[2]LOURENCO R P.Open government portals asessment: a transparency for accountability perspective Cl//International conference on electronicgovernment．Berlin: Springer Berlin Heidelberg, 2013:62 -74.   \n3]YIU C.Aright todata: fulflling the promise ofopen publicdata in the UK [EB/O1].2017-05-02].htps: //policyexchange.org.   \nuk/wp-content/uploads/2016/09/a-right-to-data-mar-l2.pdf."
+  },
+  "[24]郑磊,高丰.中国开放政府数据平台研究:框架、现状与建议．电子政务,2015(7):8 -16.": "",
+  "[29]赵润娣．国外开放政府数据政策:一个先导性研究[．情报理论与实践,2016(1):44-48.": {
+    "context1": "B3]HJALMARSSON A，JOHANSSON N，RUDMARK D. Mind thegap: exploring stakeholders’value with open data assessment[C]//2015 48th Hawaii international conference on system sci-ences.Washington:IEEE,2015:1314-1323.  \n[4]杨孟辉,刘华．开放政府数据评价方法研究[．情报资料工作,2015(6):40-45.  \nB5]夏义堃．国际组织开放政府数据评估方法的比较与分析[.图书情报工作,2015,59(19)：75-83.  \n[6] 郑跃平,刘美岑．开放数据评估的现状及存在问题—基于国外开放数据评估的对比和分析[．电子政务,2016(8)：84-93.  \nβ7]郑磊,关文雯．开放政府数据评估框架、指标与方法研究[．图书情报工作,2016,60(18)：页码.  \nB8]Open Data Barometer EB/Ol]．[O17-O5-O1] .htp://opendataba-rometer.org/doc/3rdEdition /ODB-3rdEdition-GlobalReport.pdf.  \nB9]Global Open Data Index [EB/OL]．[017-04-20] .ttp: //in-dex.okfn.org/methodology/.  \n[40] Project Open Data Dashboard [EB/OL]．[2017 -O4-18]．ht-tps://labs.data.gov/dashboard/offices/2016-02-29.  \n[1] United Nations e-government survey 2016 EB/O1]．[O17-05-02].http://workspace.unpan.org/sites/Internet/Documents /UN-PAN96407. pdf.  \n[42] Open Data Institute [EB/OL]．[2017-O4-12].htps://certifi-cates.theodi.org/en/about.  \n[43] 2015中国开放政府数据“探显镜”[EB/OL]．[2017-04-03l．http://www.haokoo.com/money/9277119.html  \n[44] 2017中国地方政府数据开放平台报告 [EB/OL]．[2017－06-01] .http://www.useit.com.cn/thread-15470--1.html."
+  },
+  "作者贡献说明：": {
+    "context1": "韦忻伶:搜集文献资料,数据整理、分析,确立研究发现;  \n安小米:制定研究框架与方法。  \n李雪梅、明欣、余维健:搜集文献资料。"
+  },
+  "A Review of Research and Practice on Open Government Data Assessment: Features and Paterns": {
+    "context1": "Wei Xinling1,2 An Xiaomi²21 Li Xuemei1Ming Xin'Yu Weijianl chool of Information Resource Management，Renmin University of China，Beijing 1008",
+    "context2": "² Smart City Research Center，Renmin University of China，Beijing 100872",
+    "context3": "Abstract: [Purpose/significance] With the rapid development of open government data in the world,open government data assessments emerge in research and practice.Analyzing features of these assssments helps to take a more appropriate way to ases future open government data projects，which sustains the development of open government data.",
+    "context4": "Method/processl With a review of research and practice on the typical current assessment research and programs of open goernment data，this paper focused on different features of all kinds of asssment systems，which were characterizedby diferent motivations,metricsand methods.Result/conclusion]The studyshows that thereare limitations inthe assessments which can be aplicable to urban fields，specific industry fields and open data maturity asessment.Meanwhile,the studyreveals that theassessment metricsand methodsshouldbeselectedaccording todiferentassessmentmotivations.It is suggested to establish an iteration inspection mechanism.",
+    "context5": "Keywords: open data open government dataassessment system assessment metrics"
+  }
+}

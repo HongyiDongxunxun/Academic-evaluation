@@ -1,0 +1,80 @@
+{
+  "original_filename": "full_4139.md",
+  "nothing": {
+    "context1": "·信息工作·"
+  },
+  "图书馆自动化系统发展热点与趋势研究": {
+    "context1": "李书宁(北京师范大学图书馆北京100875)王涛（国家图书馆出版社北京100034）",
+    "context2": "摘要：文章从自动化系统的系统架构、管理内容、重点支持业务在数字信息时代的变化、自动化系统支持元数据格式的多元化、移动图书馆自动化系统的发展、开源自动化系统市场持续拓展以及商业自动化系统由封闭走向开放7个方面讨论国内外图书馆自动化近年的发展热点和发展趋势。",
+    "context3": "关键词：图书馆自动化系统发展趋势移动图书馆开放平台资源发现数字资源管理",
+    "context4": "中图分类号：G250.7 文献标识码：A 文章编号:1003-6938(2011)06-0066-05"
+  },
+  "Study on Development Hotspots and Trends of Library Automation System": {
+    "context1": "Li Shuning (Library of Beijing Normal University,Beijing,100875)",
+    "context2": "Wang Tao (National Library of China Publishing House,Beijing，100034)",
+    "context3": "Abstract:Thispaperdiscuses thedevelopment hotspotsand trendsofLibraryAutomation System(LAShomeandabroad inrecent yearsfrom7aspects:somechangesofLAS’systemarchitecture，managementcontent，important supprted serviceindigital informationera，meta-data-supporteddiversification，developmentof mobileLAS,market expansionofopensourceLASsoftware and commercial LAS'openness trends.",
+    "context4": "KeyWords :libraryautomationsystem；development trends；mobile library；open platformresourcediscover；digitalresource management",
+    "context5": "CLC number:G250.7",
+    "context6": "Document code：A",
+    "context7": "Article ID:1003-6938 (2011) 06-0066-05",
+    "context8": "图书馆自动化系统是为了提高图书馆工作的效率，应用现代化设备，通过软件来处理图书馆的各项业务工作，来满足图书馆管理以及用户对图书情报信息需要的系统。传统的图书馆自动化系统和图书馆集成管理系统一词等同，专指用于馆藏纸制书籍及其管理活动的自动化。但是随着信息技术的高速发展，尤其是Web2.0技术、移动互联技术、数字化技术、云计算技术、物联网技术以及Web3.0语义网等技术的发展和应用，图书馆自动化系统的内涵和外延都发生了很大的改变，所提供的功能借助于这些新技术的应用，也发生了非常多的变化。悉数这些变化，可以大体了解和把握图书馆自动化系统的发展趋势，对于图书馆选择采购利用图书馆自动化系统以及利用其提供更加丰富多元的服务都有较强的指导意义。"
+  },
+  "1系统架构由C/S向混合架构、多层架构和云架构转变": {
+    "context1": "图书馆自动化系统最经典的系统架构是C/S体系架构,借助于Intranet技术,以局域网为中心,将整个自动化系统分为客户端和服务器端两个部分，服务器端负责数据管理，客户端完成与用户的交互任务。图书馆员使用的采访、编目、典藏、流通、资源统计、系统管理功能、甚至早期相当一段时间内，书目信息的共享和查询都是基于客户端的形式实现，服务器更多地承担一种数据库服务器的功能。C/S需要为每个用户安装客户端应用程序并在客户端或者服务器端进行较为复杂的配置方可完成。B/S体系结构是随着互联网技术的发展而产生的，本质上还是一种客户端-服务器架构，只是客户端统一变成了用户的浏览器。B/S体系结构借助于浏览器支持的脚本语言和编程语言，利用通用浏览器实现了原来需要复杂的专用软件才能实现的功能，系统的核心部分功能集中到了服务器端。B/S架构适合于广域网和因特网环境，在任何地方不需要安装任何专门的软件即可实现服务。",
+    "context2": "由于图书馆自动化系统目前面向馆员服务的应用环境主要还是在局域网内，因此C/S仍旧是目前绝大多数自动化系统采用的架构模式，只有少数的自动化系统采用纯B/S架构，如国内广州图创公司的Interlib系统，但已发生很大的变化：(1)C/S和B/S混合架构成为基本架构模式，即面向馆员的局域网内部应用采用C/S架构，而面向外部读者的应用，如OPAC查询则采用B/S架构。随着自动化系统在越来越多的联盟图书馆用户应用，针对馆员的服务应用转变为B/S架构的也会越来越多；(2)多层（含三层)架构的发展。出于系统安全性、灵活性和效率优化等方面的考虑，传统的两层架构正在逐渐被多层架构所取代。多层架构在客户端和服务器端增加了中间件，核心数据库驻留在服务器上，应用程序由中间件负责执行，客户端只处理与用户界面相关的操作。中间件只是一个统称，有的只包含了客户端的业务功能模块组成三层架构，有的还包括服务器端的应用功能就组成了四层架构，有的则更多。调查分析发现，国内应用最多的国外引进的四大图书馆自动化系统，除Horizon仍采用二层的C/S架构外,Unicorn、Millennium 和Aleph5OO 都采用客户端/中间件/服务器端三层或多层C/S系统架构；国内的自动化系统ILASIII、北邮 MELINET、金盘系统、博菲特6.O等系统也都采用了三层或者多层的C/S系统架构；开源自动化系统Koha为了保证系统的稳定性，采用了“客户端、中间件、服务器端\"的三层架构和双数据库结构。[2]",
+    "context3": "最近几年正在蓬勃发展的云计算技术也对图书馆自动化系统的系统架构产生了非常大的影响，国外的主要大型图书馆自动化系统商纷纷开始将自己的系统纳入到云架构之中。其中，最典型的代表就是OCLC的WorldCatManagementSystem，这个从2009年就开始构建的系统，2011年7月经过与美国32家图书馆合作已经研制完成，目前已与挪威图书馆联盟BIBSYS签署使用协议，挪威的100多家图书馆将利用OCLC新平台提供服务。[3]以色列的EXLibris公司在2011年1月对外宣布开始研发基于云的Alma下一代图书馆自动化系统，通过与美国普渡大学图书馆、波士顿学院图书馆等机构共同开发，系统将于2012年初开发完成对外发布；[4美国SirsiDynix自动化系统公司也正在进行云架构的系统研发，并在美国威彻斯特郡图书馆系统38家图书馆成功实施SirsiDynixSaaS服务； $^ { [ 5 ] } 2 0 1 1$ 年7月，3M图书馆系统与德国txtr公司合作，系统使用 $\\mathrm { t x t r }$ 领先的电子阅读技术平台，使得3M成为首个为图书馆市场提供基于云的电子书服务的公司。[6]"
+  },
+  "2管理内容由纸制馆藏为主向数字资源为主的复合馆藏转变": {
+    "context1": "图书馆自动化系统自MARC机读目录格式研制成功和采用之后，相当长的一段时间内，主要用于馆藏纸制文献管理，核心工作是纸制图书期刊的采购、签收、编目、典藏和流通以及将目录信息提供给读者查询。随着20世纪90年代后国内外的“数字图书馆建设热潮\"的到来，大量纸制资源被数字化扫描加工后变成数字资源通过网络向用户提供服务，用户可以以更加便捷的方式直接获得数字资源的文摘乃至原文，而不再仅仅是原来的目录信息服务。大量的商业数据库商开始集中数字化期刊、报纸、图书等纸制资源，并将其做成数据库向图书馆提供服务，图书馆也开始在本机构数字化及收集整理包括各类型的学位论文、机构知识库资源、网络免费资源在内的原生数字资源的同时开始购进商业数据库。尤其是进入21世纪的近几年来，越来越多的图书馆采购经费中对数字资源的投入已经超过了纸制资源，图书馆馆藏结构也由原来的印刷型资源为主转变为数字资源为主的复合馆藏，图书馆自动化已将数字资源管理纳入到自动化管理的环节,并逐渐成为自动化管理的核心。",
+    "context2": "各种类型的用于数字资源管理的自动化系统被开发出来，如用于电子资源采购的Dynix/Horizon ERM、Endeavor 的 Meridian、Ex Libis 的 Verde、Innovative的ERM、EBSCO 的 EBSCO EIS 以及开源软件CORAL和ERMes等。再如Exlibris先后推出的用于数据库管理和统一检索的Metalib平台、数字资源发现与获取系统Primo、数字资产管理系统DigiTool以及数字资产保存系统Rosetta。还如用于数字资源建设和管理的平台TRS、TPI、Eprints、Digital Commons、开源软件 DSpace、Fedora、LibraryFind等。这些系统多数都未能与管理纸制文献为主的传统自动化系统整合或者有效整合。2011年4月，美国的《图书馆杂志》刊发了其1月份组织图书馆集成管理系统高层管理人员和图书馆界专家的《图书馆自动化系统未来发展》圆桌讨论会的纪要，[7]会上ExLibris的CarlGrant称数字内容的保存、许可处理和融入原有自动化流程将是该公司未来的考虑重点。美国自动化系统专家MarshallBreeding认为系统、高效的管理这些复合资源将是目前和将来一段时间内图书馆自动化系统重点思考的问题。[8]对于数字资源利用的深度跟踪、分析将是图书馆自动化系统发展的重点内容之一。"
+  },
+  "3支持的重点由内部业务为主向资源发现为主的模式转变": {
+    "context1": "传统图书馆自动化系统更多的是支持图书馆的内部业务工作，核心内容是借助于资源元数据以及用户信息的创建、维护和管理来支撑传统图书馆的“采编典流\"的业务流程，实现图书借还的“终极目标”,OPAC虽然承担了资源发现的功能，但更多是判定是否有该馆藏和馆藏是否符合要求的目录层面初级判断辅助，资源发现效果非常有限。随着数字资源的增多和 $\\mathrm { W e b } 2 . 0$ 技术与理念的深入，图书馆的资源发现只停留在目录层面已经远远不够。图书馆自动化系统的主要目标正在从“支持内部业务为主\"向\"支持外部用户的关键查询服务\"模式转变，资源发现应用将成为自动化系统发展的重中之重。[9]",
+    "context2": "图书馆自动化系统资源发现功能将主要借助于OPAC实现：（1）越来越多的书目信息之外的资源被集成融汇到OPAC中。不但本馆数字馆藏(含学位论文、特色库资源等)会被逐渐纳入OPAC中，馆藏之外学校或者互联网课件资源（含PPT和音视频资源）互联网和其他机构的热点资源等也会被用于丰富OPAC内容，图书馆OPAC最终将成为图书馆的信息门户。目前已有一些图书馆进行了相关的实践，比如荷兰的阿姆斯特丹公共图书馆的OPAC内户除各类目录外，还集成融汇了荷兰最流行的音乐网站的资源以及7个国家级报纸、6个国家级期刊、荷兰国家历史档案和荷兰语词典等；[10](2)越来越多的Web2.0要素在OPAC中体现出来。用户对资源标注、评论、评级以及所做的Tag标签等将成为OPAC的常见功能，类Google简单查询界面、拼写检查和检索建议、依据出版社、作者、出版年、主题等要素实现的分面检索、过滤、排序正在被越来越多的OPAC系统采用，依据用户所做的标签进行统计产生的标签云其导航和检索功能也在OPAC系统中频频出现。一些基于其他Web2.0技术实现的OPAC系统，如借助于博客软件WordPress制作WPopac（现名为Scriblio）、借助于Wiki建立的OCLCWiKiD实验OPAC用户参与建设系统等，也丰富了OPAC建设实践；(3）检索技术的发展将在OPAC中的以体现。Nova Spivack概括了Web发展4阶段的检索特点：Web1.0时代（关键词检索） $\\mathrm { \\ W e b } 2 . 0$ 时代（社会标签检索） $\\mathrm { \\Psi } , \\mathrm { W e b } 3 . 0$ 时代（自然语言检索和语义检索）， $\\mathrm { \\ W e b 4 . 0 }$ 时代（推理检索），[1]目前OPAC中已经实现了关键词检索和社会标签检索，未来将向自然语言和语义检索及推理检索发展。鉴于数字原文获取需求的增强趋势，OpenURL将会被更多地应用。[12]"
+  },
+  "4元数据格式逐渐多元化MARC作用逐渐弱化": {
+    "context1": "MARC机器可读目录20世纪60年代产生于美国的国会图书馆，至今应该有40年了。作为一种资源描述和揭示格式，MARC为图书馆界所熟知和采用，也是图书馆自动化系统目前采用的最基本的资源描述格式。但是，应该说MARC格式的主要作用还是描述印刷版资源且主要用于图书馆内部资源流通以及图书馆之间的数据共享，对于图书馆的用户来讲发挥的作用有限。随着图书馆自动化系统从支持内部业务向支持用户查询服务转移，MARC所表现出来的弊端就暴露出来，MARC格式过于复杂，描述过于繁琐，因此从Roy Tennant20O2年开始撰文《MARC should die》到Karen C《Kill MARC》,再到国内刘炜的《愿MARC“永垂不朽\"》和编目精灵的《MARC，MARC,为何不死》,MARC格式质疑之声不绝于耳。[13]",
+    "context2": "随着图书馆数字资源的增加，包括音视频、图片、照片等在内多种资源类型依靠MARC已经无法很好的描述，于是产生了大量的用于描述各类型资源的元数据格式，但图书馆自动化系统对其的支持囿于各方面的限制而未能深入，只有少数自动化系统在数据导出的时候支持其他元数据格式，比如，开源软件NewGenLib系统支持的元数据格式包括MARCXML、DC、MODS3.O和AGRISAP等,[14]国内Interlib 系统支持OpenURL、OAI、DC 等格式的数据导入导出。2010 年发布的正式版RDA(ResourceDescriptionand Access）[15]将取代《英美编目规则》（第二版)成为21世纪新的编目标准。RDA提供了各类数字资源编目的详细指南，更加注重资源发现作用的实现，强调帮助用户查找、标识、选择和获得他们需要的信息，支持书目记录的聚类和显示作品及其创建者之间的关系。RDA并不严格的要求采用哪种编目格式对资源进行描述，这为自动化系统资源描述元数据的多元化打开了方便之內。 $^ { [ 1 6 ] } 2 0 1 1$ 年5月份，美国信息技术标准委员会NISO专门召开\"RDA与集成图书馆系统的未来\"的会议[17]研究图书馆集成管理系统下一步如何推广和具体应用RDA。RDA的基本工具[18]也已经被开发出来,2011年正在美国进行比较广泛的测试。随着RDA的推广和应用，未来图书馆自动化系统所支持的元数据格式会越来越丰富，MARC作用将会逐渐弱化。"
+  },
+  "5图书馆自动化系统面向移动互联时代的变迁": {
+    "context1": "2011年7月推出的《中国互联网络发展状况统计报告》显示[19]：“我国手机网民规模达3.18亿，占到总体网民总数的66.5。\"Gartner2010年的研究报告则显示[20]：“2013年，世界范围内手机等移动设备将超过PC机，成为最通用的网络访问工具。\"移动设备使用的盛行得益于移动互联网的飞速发展，用户对于网络服务的利用将不再受限于体积相对笨重的PC设备、位置相对固定的网络设备，利用随身携带的手持设备可随时随地地享受网络服务。互联网正在走向移动互联时代，图书馆自动化系统商也迅速响应，并积极采取响应的行动，推出相关系统应用平台，推出的时间集中在2010和2011年。",
+    "context2": "图书馆自动化系统面向移动互联时代的变迁主要体现在这些自动化系统根据移动互联网和移动设备的需求对原有系统进行改造和拓展，提供手机短信服务和资源检索的门户网站等服务。图书馆自动化系统推出的这些平台，有的主要支持图书馆员的移动互联需求，如Sirsi推出的PocketCirc，可运行于所有Windowsmobile操作系统的移动设备，允许图书馆员在任何无线网络覆盖的区域都可帮助读者完成图书借阅。[21]但更多的平台针对读者需求推出，主要完成的功能是移动设备对馆藏、用户个人信息(含借阅历史、欠款罚款)的查询和图书预约续借。如Innovative Interfaces/Millennium 推出的 AirPAC、Polaris 推出Mobile PAC、Sirsi 推出 BookMyne、Librarything 推出Li-brary Anywhere、Axiell推出 DDElibra MoBiblo 和DDElibraMobil专业版、Exlibris新版Primo系统提供手机支持等。特别需要注意的是，有些系统除了上述基本功能外，还提供了其他功能。如BookMyne可借助于手机拍照功能扫描书店等地图书的条码查询提供服务的图书馆是否收藏该图书、提供纽约时报畅销书榜单所列图书在图书馆收藏情况查询、支持社交网络朋友点评和推荐图书和手机支付欠款和罚款等。国内主要自动化系统商也推出了相关应用系统，汇文推出的手机图书馆的包括短信和OPAC查询功能、图创公司的interlib 和北创公司的 Melinets2011年也推出了短信系统和移动图书馆系统。图书馆自动化系统将来的发展将借助于RFID、二维码及GPS 等技术为用户提供更加精确的资源定位服务，将整合后的数字资源通过图书馆移动互联网站对外发布和提供服务，并充分利用移动设备一般“一人一机\"的特点，为用户提供更加细致和个性化的用户情景敏感(设备敏感、时间敏感、位置敏感等)服务。"
+  },
+  "6开源自动化系统借助于商业公司支持走向可持续性发展之路": {
+    "context1": "在整个软件行业，开源软件已不再是局限于中小型组织应用，在大型机构的应用也快速发展起来。据Accenture公司2010年8月对美国、英国和爱尔兰300家大型机构的调查, $^ { [ 2 2 ] } 5 0 \\%$ 的受访者承认在其业务中已经使用了开源软件，还有 $2 8 \\%$ 的受访者称正在进行使用开源软件前的实验和密切关注开源软件的使用， $3 8 \\%$ 受访者表示未来一年将在核心业务中使用开源软件且 $8 8 \\%$ 的机构在2010年比2009年增加了开源软件方面的预算。图书馆自动化领域也不例外，虽然国内图书馆还未见应用报道，但是近年国外有越来越多的图书馆选择开源自动化系统，其中不乏原来使用商业自动化系统的图书馆。",
+    "context2": "开源目动化系统最王要的优势在于其近乎为零的初始成本，源码可见和良好的可拓展性易于定制本地实际需要的模块和服务，最主要的劣势就是前期安装、本地化和后期维护所需要的技术力量比较强，虽然开源自动化系统有比较高效运转的技术开发社区提供支持，但仍有相当多的图书馆无相关技术力量部署开源自动化系统，因此就造成了一种“有开源系统采用需求的中小型图书馆无技术力量，而有技术力量的大型图书馆看不上开源系统\"的怪现象。[23]近几年来，一些商业公司开始提供开源自动化系统数据迁移、本地化、个性化修改、安装和使用培训以及后期维护的付费工作，这样既解决中小型图书馆采用开源软件技术力量方面的顾虑，又可以为这些图书馆节省购买商业自动化系统软件许可的费用。开源自动化系统软件找到了可持续发展的道路，这些支持公司的加入大大增加了开源软件的接受度。著名开源自动化系统Koha的支持商业公司在全球就包括ByWater、BibLibre、Catalyst IT等30余家,[24]Evergreen自动化系统则由Equinox、PTFSEurope等商业公司提供付费支持，NewGenLib自动化系统由Verus公司提供付费支持，EIFL-OSS对发展中国家的开放源代码软件也提供支持。而且，近几年的快速发展也使得主要开源自动化系统已经具有现代图书馆自动化系统所必须的全部功能，有的系统在功能丰富程度上比商业自动化系统还要强，因此开源软件全球市场在2011年得到了持续拓展，根据MarshallBreeding所做的调查，[25]Koha系统目前在全球有超过1000家图书馆应用，2011年的最大成就就是进入法国图书馆自动化市场，法国有超过100家高校图书馆和公共图书馆采用Koha开源自动化系统;Evergreen自动化系统目前主要应用于各类图书馆联盟和大型图书馆系统,2011年应用也开始突破北美地区，进入欧洲，英国的Stirling和Dunbartonshire两个地区的图书馆组成的联盟通过政府招标的形式选择了Evergreen系统。原来使用其他商业自动化系统的很多图书馆和图书馆联盟也正在考虑将原有商业软件替换为Evergreen，比如Massachusetts图书馆网络联盟的采用Horizon的35家图书馆，使用Millennium的155家图书馆等将停止使用原来的商业自动化系统而使用Evergreen开放源代码系统。"
+  },
+  "7商业系统开始提供开放接口和打造开放平台": {
+    "context1": "开源自动化系统已经成为商业自动化系统最大的竞争对手。对于采用商业自动化系统的大型图书馆而言，随着数字资源服务的深入发展，自动化系统与图书馆其他数字资源服务系统之间交互需求、书目数据复用的需求越来越多，图书馆利用图书馆自动化系统提供更加适合本地和个性化服务的需求将更加强烈，而且这些图书馆一般也有技术实力进行开发，商业自动化系统面临着要么自己为这些图书馆提供个性化开发服务，要么允许这些图书馆自己进行开发，否则就有可能面临被开源自动化系统所取代的危险。实际上，商业自动化系统提供商根本就没有足够的精力完成各个图书馆不同的个性化开发需求，商业自动化系统允许图书馆围绕自己需求进行的二次开发对公司而言，也是利大于弊,这些公司可以借助于图书馆用户更好地完善自己的产品。基于需求和迫于市场压力，很多商业自动化系统已经提供了专用的API接口以满足图书馆对自动化系统开放的需求，商业自动化系统正在打破原来的封闭状态，提供各类的OpenAPI,部分公司已经开始打造开放平台。",
+    "context2": "以色列自动化系统提供商ExLibris就是这个方面的典型代表，借助于公司的开放平台策略，为旗下自动化系统ALEPH、Metalib数字资源管理平台、SFX链接服务等都提供了OpenAPI,从最初的X-server HTTP/XML API到第二代的SOAPWebService API再到目前的第三代RESTAPI提供了三大类API。[26国内外很多图书馆利用其提供OpenAPI进行了本地个性化的开发和应用。国家图书馆利用其ALEPH系统的X-server实现了读者身份认证、WAP书目信息查询、架位信息上传、金融功能等6大类16种应用。北京师范大学图书馆的手机图书馆服务等也是基于该X-ServerAPI。英国剑桥大学图书馆电子期刊订购跟踪、期刊定位等OpenAPI的研发利用的是其SFX链接服务的相关API。除 $\\mathrm { E x }$ Libris外，目前国内使用最多的其他三种国外自动化系统Horizon、Unicorn、Millennium近几年也开始推出外界可以调用的API接口，多数都支持XML和SOAP协议的与接口进行交互，允许用户进行二次开发和个性化定制。[27国内自动化系统GDLIS、Interlib也已经提供了API接口。商业自动化系统对图书馆用户提供开放API已经成为大势所趋。"
+  },
+  "参考文献：": {
+    "context1": "[1]王鹏.走进云计算[M].北京：人民邮电出版社,2009：121-135.",
+    "context2": "[2]冯丹.网络存储关键技术的研究及进展[].移动通信，2009,33 (11) 35-38.  \n[3]陈康,郑维民.云计算系统实例与研究现状[].软件学报,2009,20 (5) :1337-1348.  \n[4] Amazon. Amazon Elastic ComPute Cloud (AmazonEC2) .2011 [EB/OL].[2011-07-20].htp //aws.amazon.eom/eeZ/.  \n[5]陈康，郑纬民,云计算系统实例与研究现状[]，软件学报,2009,5() 57-58.  \n[]屈志毅,苏文洲,赵玲.一种基于信息分散算法的分布式数据存储方案[].计算机应用,2006,26(5）：1102-1105.  \n[王庆波等.虚拟化与云计算[M].北京：电子工业出版社,2009 :181-184.  \n[]严庄.高校数字图书馆存储整合研究[.图书馆学研究,2010,(② 34-36.  \n[]孙健,贾晓菁.Google云计算平台的技术架构及对其成本的影响研究[].电信科学,2010,(1）38-44.  \n[10]吴吉义等.云数据管理研究综述[.电信科学,2010,26(⑤) 34-41.  \n[11]何国伟.IBM虚拟化是\"云计算\"关键能力[.计算机应用,2009,32(11) 35-36.  \n[12]周舒，张岚岚.云计算改善数字图书馆用户体验初探[].图书馆学研究,2009,(428-30.",
+    "context3": "作者简介：马晓亭(1974-）,女,硕士,兰州商学院信息工程学院副教授陈臣(1974-），男,硕士,兰州商学院网络中心工程师。"
+  },
+  "[1]李广建.数字时代的图书馆网络信息系统[M].北京北京图书馆出版社,2006.": {
+    "context1": "[2] Mohibuzzaman Zico.Developing an intergrated library system (ILS using open source software Koha [EB/OL] . [2011 -06 -10] .http /dspace.bracu.ac.bd/bitstream/handle/10361/755/Mohibuzzaman_Zico_04101013_Thesis.pdf? sequence=1.",
+    "context2": "[3] 32 libraries lead the way to Web-scale innovation—OCLC Web-scale Management Services on target for July",
+    "context3": "1 general release [EB/OL].[2011-08-06] .htp /www.0cl",
+    "context4": "c.org/us/en/news/releases/2011 /201128.htm.   \n[4] Ex Libris Announces the Cloud -Based Alma Library Management Service [EB/OL].[2011-11-19].ttp /www. exlibrisgroup.com/?catid=% 7B916AFF5B-CA4A-48FDAD54-9AD2ADADEB88%7D&itemid=%7BDA7A08B4- 774F-433A-86A5-642E3F5406FE%7D.   \n[5][EB/OL].[2011-11-18]htp /www.sirsidynix.com/services/saas.   \n[6 3M Powers Cloud Library eBook lending service with proven technology platform [EB/OL].[2011-11-18].ttp : //www.librarytechnology.org/ltg-displaytext.pl?RC=15894.   \n[] The Future of the ILS $\\ --$ LJ sat down with ten top executives in the ILS field and three librarians to talk about what lies ahead for integrated library systems and the ILS industry [EB/OL]. [2011-11-18].http //www.libraryjournal.com/lj/ljinprintcurrentissue/889595-403/thefutureofth eils.html.csp.   \n[][][12] MarshallBreeding. The Future of Integrated Library Systems [EB/OL].[2011-11-18]. htp //www.orbiscascade.org/council/c0601/breeding.ppt.   \n[10]Medialab Solutions.AmsterdamRedefinesthe library. [EB/OL].[2011-10-16].htp //www.Librarytechnology. org/ltg-displaytext.pl?RC=12460.   \n[1] Nova Spivack. Making Sense of the Semantic Web [EB/ OL]．[2011 -11 -16] .http V/novaspivack.typepad.com/ nova_spivacks_weblog/files/nova_spivack_semantic_web _talk.ppt.   \n[13]李书宁.后MARC时代下图书馆信息服务设想EB/OI]. [2011-11-16] .htp/ld.blog.edu.cn/userl/2261/arch ives/2007/1606266.shtml.   \n[14] New Generation in Library Automation and Networking [EB/OL].[2011-9-10]. http //www.slideshare.net/newgenlib/open -source -library -autoamtion -software -newgenlib.   \n[15][EB/OL].01-11-10]ttp/www.rda-jsc.org/rdhtml.   \n[16]顾犇译.RDA—资源描述和检索 21世纪的编目标准 [EB/OL].[2011-11-12].ttp /w.rda -jsc.org/docs/ rdabrochure-chi.pdf.   \n[17] [EB/OL].[2011-11-10].http //www.niso.org/news/event s/2011/nisowebinars/rda/.   \n[18] [EB/OL].[2011-11-10].htp /www.rdatoolkit.org/.   \n[19]中国互联网信息中心.中国互联 （下转第75页",
+    "context5": "与云系统基础设施资源接收、处理能力，通过最优化均衡策略确保云图书馆网络带宽与基础设施资源数据处理、存储能力均衡。",
+    "context6": "影响云图书馆网络使用用户满意度的几个主要因素为云用户连接数、云系统响应时间、数据传输量、传输稳定性。决定基础设施资源使用效率的因素为云计算能力、云系统读取数据的速度、网络传输带宽。云系统应针对不同图书馆云应用、SLA(云计算服务级别协议)或者数字用户云服务需求，将提升网络带宽与基础设施资源使用效率均衡相结合，提升云网络传输带宽与基础设施资源租赁的成本综合效用。[11]"
+  },
+  "4结语": {
+    "context1": "云计算技术在数字图书馆建设、运营、管理、维护中的应用，实现了云数字图书馆对信息系统资源与效率的自主可控管理。通过云基础设施资源的智能化管理与按照云用户需求智能化分配云系统资源，在降低能耗的基础上大幅提高了数字图书馆云IT资源利用率。随着未来云计算技术的产业化、规模化发展，云计算成本必将大幅降低。只有坚持以数字图书馆云用户满意度为目标，以高效投资收效率为指导，不断加强基础设施资源的虚拟化管理与云系统整合，才能建设用户满意的高效、经济、安全、低碳的云数字图书馆。[12]"
+  },
+  "(上接第70页": {
+    "context1": "网络发展状况统计报告[EB/OL].[2011-07-15].http //www.cnnic.cn/dtygg /dtgg/201107/W020110719521725234632.pdf.",
+    "context2": "[20] Daryl P.Gartner top predictions for 2010 :coping with the new balance of power [EB/OL].[2011-06-15].http / www.gartner.com/it/content/1260200/1260215/jan uary_14_top_predictions_2010dplummer.pdf.",
+    "context3": "[21] Nidhi K. Libraries on Move:Library Mobile Applications[EB/OL].[2011-06-28].http V/www.inflibnet.ac. in/caliber2009/CaliberPDF/33.pdf.",
+    "context4": "[22] Investment in Open Source Software Set to Rise，Accenture Survey Finds [EB/OL]．[2011-06-28]．http / newsroom.accenture.com/article_display.cfm?article_id $=$ 5045.",
+    "context5": "[23]曹晓宁.国外开放源代码的图书馆自动化系统及其特点[A].2006年\"数字图书馆与开放源码软件（OSS”"
+  },
+  "学术研讨会[C].2006.": {
+    "context1": "[24][EB/OL].[2011-10-16] .http /koha -community.org/ support/paid-support/.",
+    "context2": "[25] Marshall Breeding. Open Source ILS Continues to Expand[EB/OL].[2011-07-28].http V/www.alatechsource. org/blog/2011/04/open -source -ils -continues -to -expand.html.",
+    "context3": "[26] Sadeh T. Open products，open interfaces，and Ex Libris open-platform strategy [Il .Library Review,2010 ): 677-689.",
+    "context4": "[27] Marshall Breeding. Automation Marketplace 2011 :The New Frontier [EB/OL].[2011-10-20].http /www.libraryjournal.com/lj/home/889533-264/automation_marketplace_2011_the_new.html.csp."
+  }
+}

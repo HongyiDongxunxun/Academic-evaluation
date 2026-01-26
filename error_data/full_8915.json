@@ -1,0 +1,113 @@
+{
+  "original_filename": "full_8915.md",
+  "$\\bullet$ 孙丽，邹俊强，牟冬梅,²": {
+    "context1": "(1．吉林大学公共卫生学院，吉林 长春 130021；2．吉林大学第一医院，吉林 长春 130021)"
+  },
+  "网络查询重构策略预测研究综述\\*": {
+    "context1": "摘要：旧的/意义根据用户网络查询重构行为预测查询重构策略，可以为用户提供查询帮助，提高用户网络查询交互体验。防法/过程以预测模型构建过程为基础对最新研究成果进行梳理，包括查询重构策略划分、查询重构行为特征选取、查询重构情境影响因素，以及预测模型构建方法，揭示研究进展与存在问题，最后提出研究展望。结果/结论]对查询重构策略预测研究还有较大探索空间，展望可为后续相关研究提供一定参考。",
+    "context2": "关键词：查询重构策略；查询重构行为；影响因素；预测模型；综述"
+  },
+  "Review of Web Query Reformulation Strategy Prediction": {
+    "context1": "AbstractPurpose/significance]Inorder to improve theuser’sexperienceof webquery，itisveryimportant to predictthe strategyofqueryreformulationbasedonthequery behaviors.Method/processBasedontheconstructionprocessof prediction model，thelatestresearchresultsaresortedut，incudingclasificationofqueryreforulationstrategy，selectionofbehaviorcharacteristicsofqueryreformulation，influencingfactorsofqueryreformulation，andconstructionmethodsofpredictionmodelTere search progressand existing problemsarerevealed.Finally，theresearch prospectsareputforwardResult/conclusionThereis stillmuchroomforfurtherresearchonqueryreformulationstrategyprediction，prospectscanprovidesomereferenceforthefollowup related research.",
+    "context2": "Keywords:query reformulation strategy；query reformulation behavior；influence factor;prediction model；review",
+    "context3": "在网络时代，互联网信息因其海量、多样及查询便捷等特点，逐渐成为人们获取信息的主要来源。然而由于网络资源分布和描述的错综复杂，通过单次查询直接找到所需信息资源的难度很大，通常需要根据查询结果的反馈不断调整检索式，才能使得到的结果更加符合预期，即查询重构。Rieh等对Excite查询日志数据进行研究，结果显示有 $52 \\%$ 的用户对其查询进行重构[。",
+    "context4": "查询重构，即在网络查询的过程中，用户在发出初始查询之后，根据查询结果的反馈对之前的查询式进行修改，以期得到更满意的查询结果的过程。查询重构实质上是一个网络用户与信息系统之间互动和迭代的交互过程。目前，对于查询重构的研究主要集中在以下5个方面：查询重构的类型，即查询重构时所采取的方式策略；查询重构的模式，即查询重构的类型的排布序列；查询重构的效用分析，即分析查询重构对于检索效率的提升；查询重构的影响因素研究，即查询重构中影响重构发生和特点的因素特征；基于查询重构的应用和技术，主要是查询扩展查询推荐和识别意图等。其中，在查询重构策略研究中，查询重构策略预测模型构建是一个很重要的研究方向，基于该模型，对不同查询重构策略下，重构行为的规律性进行挖掘，可以为查询推荐服务提供依据，此研究可以促进基于用户行为的网络查询系统设计，提升网络查询系统的交互效率，为实现网络个性化服务提供新的思路。"
+  },
+  "1查询重构策略预测相关研究内容": {
+    "context1": "查询重构策略预测是根据网络查询重构行为变量，构建重构策略预测模型，属于分类预测。其基本过程包括：$\\textcircled{1}$ 查询重构策略划分，以明确预测模型的输出项。 $\\textcircled{2}$ 查询重构行为特征变量的度量与选取，以充实预测模型输入特征备选项。 $\\textcircled{3}$ 查询重构行为特征变量影响因素分析，目前的查询重构策略预测研究较少涉及情境因素的影响分析，而本研究将其纳入研究过程，意在筛选出独立于情境因素的输入特征项，以使模型具有更好的普适性和准确性。$\\textcircled{4}$ 查询重构策略预测模型构建方法，以优化模型，提高预测准确性。",
+    "context2": "从查询重构策略预测研究过程出发，下面将对相关最新研究成果进行梳理，揭示研究进展与存在问题。当前，不同学者根据不同研究目的，对这几个方面进行了相关探索，为本研究的展开奠定了一定的基础。"
+  },
+  "1.1查询重构策略划分多种类": {
+    "context1": "查询重构策略是指用户在重构查询式的过程中所采取的重构类型，是查询重构策略预测研究的基础，不同学者对查询重构策略的划分方式不同。Rieh等[最初分析 Ex-cite搜索引擎上的查询会话，通过查询式的变化将查询重构特征归为3个方面：内容、格式和资源，3个方面的占比分别为 $8 0 . 3 \\%$ 、 $1 4 . 4 \\%$ 和 $2 , 8 \\%$ ，其中内容重构是指用户更改查询所包括的实体；格式重构包括用户在不改变查询含义的情况下通过使用运算符，重新排列多个术语的顺序，重新拼写查询术语等来进行重构的情况；资源重构指在资源的类型方面对于查询进行了更改。",
+    "context2": "1）基于查询的内容特征变化划分查询重构策略。Boldi等把两次查询之间的关系分为以下5类，即所谓的QRT：一般化、具体化、平行化、任务变更、纠错。$\\mathrm { H u }$ 等分析用户实验数据，根据查询内容和主题的更换定义了以下几种重构类型：具体化、一般化、平行移动、同义词、形式改变和纠错。Bilal等通过对于24位不同年级儿童的查询行为进行用户实验，将儿童的查询重构策略分为5类并发现儿童常用的重构策略和不同年龄孩子的查询行为区别。",
+    "context3": "2）基于查询的格式特征变化划分查询重构策略。Te-evan等[以雅虎用户检索日志为基础，研究用户重复查询行为，定义了几种查询重构策略，如删除词、词合并、多元化查询、抽取词干。Huang等[在研究查询重构的点击特征的作用时，将查询重构的类型细化成了13种之多，有缩写、单词的移动、重新排序、单词替换、增加空格和标点等。",
+    "context4": "3）基于查询的资源特征变化划分查询重构策略。资源重构的占比相对较少，所以学者在研究中基本将这一类型划为其他或者直接剔除。Rieh等将其分为两个方面，分别是资源类型和域名后缀的修改。资源类型指在文章、图片、音乐等资源的类型上进行更换，域名后缀即更改查询资源网页的域名后缀。",
+    "context5": "目前查询重构策略的划分种类较多，可以根据自己的研究需要选取类型划分方式。对于查询重构的类型预测研究而言，首先，查询重构策略划分的种类会直接影响到预测的精准度，因此查询重构策略划分的标准不应过多或者过少，应该按照4～5种的类型来划分，便于实验和寻找规律；其次，查询重构策略的划分应具有一定的意义，不同重构类型下的行为应具有一定的规律性，以使预测之后系统能够依此进行相应的辅助。"
+  },
+  "1.2查询重构行为特征度量待拓展": {
+    "context1": "查询重构策略预测模型构建中，查询重构行为特征变量作为模型的输入，对其选取及度量展开深入剖析显得尤为重要。国外 Huang、Hassan、 $\\mathrm { B o l d i } ^ { \\mathrm { [ i 3 ] } }$ 、Umemo-to[4，国内曹高辉等[研究中都涉及对查询重构行为特征的度量，根据前人研究可以发现，查询重构行为度量可以从以下5个方面展开：",
+    "context2": "1）查询特征。在当前查询过程中涉及的关于查询式本身或者查询页面、结果页面的特征（如页面布局和查询推荐数量等)。孙丽等[利用了查询重构时的词特征数据分析了用户的主题熟悉度情况对于用户行为的影响。如查询中单词、词组的数量、符号的使用、命中的查询结果，推荐查询的数量等。",
+    "context3": "2）鼠标特征。用户使用鼠标的点击次数、点击位置甚至鼠标停留的区域位置等都能反映用户对于结果的满意度，最终影响到查询的重构。Chen等[构建了一个实验搜索引擎，收集用户的满意度反馈、鼠标点击和移动数据，发现基于鼠标特征的改进策略有助于改善用户查询满意度。鼠标特征包含的特征有点击查询结果的数量、点击推荐查询的数量、查询和结果页面的切换点击次数、鼠标停留区域占比、滚轮使用情况，以及是否有点击发生等。",
+    "context4": "3）浏览特征。浏览特征指用户查询任务过程中浏览时间和观看页面数量等特征数据，表示用户参与查询活动的程度，常被用来预测查询网页的相关性和满意度，如Xie等[利用查询时用户在查询结果页面的停留时间数据，开发查询意图分类器，以期帮助进行图像查询的用户。此外，该类特征也可以用来预测当前查询任务的难度等，如果当前任务非常困难，用户需要查看很多查询结果，可能需要花费很长时间才找到相关信息，因此用户有可能会放弃当前任务，并在下一次查询中将查询主题更改为完全不同的主题[4。此类特征有一些常见的指标，如浏览查询结果页面数量、查询时间、每个查询结果页面时间、每个页面停留时间、浏览过程总时间等。",
+    "context5": "4）注视特征。不同的用户对相同网页可能会产生不同的兴趣，其眼晴的注视区域也会存在差异，这也是非常重要的特征之一，通常是基于眼动仪来完成这一类特征数据的收集。Eickhoff等[使用眼动追踪研究用户查询时对于专业术语的关注。常用的特征数据有目光停留在查询结果、广告、推荐查询、浏览器各个区域的平均比例和热点图等。",
+    "context6": "5）历史特征。用户完成一个任务时，可能会发生连续多个查询重构行为，除了当前查询重构的相关行为特征之外，用户之前的查询行为对重构查询具有影响，因此可以将目标查询前一次发生的查询重构策略作为特征变量来使用，如Boldi[研究发现，具体化重构类型经常出现在一般化重构类型的前后，可以帮助预测其下一个查询重构"
+  },
+  "策略。": {
+    "context1": "综上，目前在查询重构研究中，查询重构行为特征的选取各有不同，但是大部分都包括于上述5大类之中，只是不同研究会有不同的侧重点，目前对结果列表点击后，页面的浏览行为及其与查询式的关联分析等缺乏深入挖掘，如页面跳转规律、行为序列划分、页面类型与行为序列的映射等。"
+  },
+  "1.3查询重构情境影响多因素": {
+    "context1": "用户查询重构行为受多种因素影响，由于查询重构是用户面对一定任务时，与查询系统之间交互产生，既有用户本身的特性对于查询重构的影响，比如用户的认知方式、用户的主题熟悉度，用户的查询技能、用户的已有知识等，又有任务和查询系统的影响，基本分为用户因素、任务因素和其他因素三类。如果在查询重构策略预测中加入影响因素的分析，预测准确性可能会有所提高。",
+    "context2": "1）用户因素。用户因素包括用户的人口学特征，如年龄、教育背景等，也包括用户的认知特征、领域知识、主题熟悉度和检索系统熟悉度等。在教育背景方面，Lu等2在考虑查询重构查询会话数据嵌套结构的同时，采用了多层级建模方法分析查询重构的影响因素，显示出教育背景等对于查询重构有显著影响。在年龄影响因素方面，Rutter等研究了关于儿童如何重构查询式， $\\mathbb { W } \\mathbf { u }$ 等研究了老年人的健康查询决策包括查询重构，Karan-am等[调查了与年龄和任务难度相关的查询重构内容的变化，发现年轻人更倾向于使用具体化的查询重构策略且重构时间长。在主题和检索系统熟悉度方面，Ghosh基于主题熟悉度研究对于查询重构策略的影响，他们使用基于监督的分类系统将参与者分为低、中、高三种主题的熟悉度，发现了主题熟悉度不同的人群采取的策略会不一致，低熟悉度的参与者习惯于改变单词，而高熟悉度的参与者多采用添加新词的策略。Joo等研究了领域知识和检索系统熟悉度对于查询重构的影响，发现在一定程度上影响了查询重构的效率。孙丽等[基于主题熟悉度对于查询重构的影响做了研究，发现高熟悉度和低熟悉度的用户偏向于采用不同的重构策略，高熟悉度和低熟悉度用户之间的重构时长、行为习惯也多有不同。在认知风格方面，Kinley等基于50名参与者收集的数据进行定性和定量分析，通过测试来评估他们的认知风格，探讨了用户认知风格与网络查询之间的关系，发现用户的认知风格影响了他们的查询重构行为。",
+    "context3": "2）任务因素。任务因素包括任务类型、任务难度等。李月琳等以用户的任务为出发点，构建基于任务的个性化信息检索用户模型。孙丽等基于任务类型对查询重构进行分析，将疾病信息查询领域的任务分为事实型、信息扩展型和决策型，分别探究了不同的任务类型对于查询重构行为的影响，研究显示任务类型的变化会影响到查询重构的使用频率、应用情景和各类型重构的有效性。宋筱璇等2探究任务难度对用户检索式重构转移模式的影响，研究发现随着搜索任务难度增加，用户的检索式序列长度显著增加，用户重构模式的转移也更具多样性和复杂性。曹高辉等[使用用户实验进行探索，发现部分查询重构行为和浏览行为受到了任务类型的影响。",
+    "context4": "3）其他因素。其他因素指除查询者和查询任务以外的其他环境等因素的影响，目前包括查询系统的影响等，查询的时间空间状态等。Xie等全面总结了影响用户查询策略的各个方面：查询任务、用户知识、查询过程和系统，其中研究结果表明查询系统类型会对用户的查询重构行为产生影响。",
+    "context5": "目前学者从各个角度探讨了查询重构行为的影响因素，但在查询重构策略预测研究中，却较少涉及，而各种因素对查询重构行为的影响会导致重构类型预测模型准确度的下降，因此，后续的重构类型预测研究中需要考虑影响因素作用，减少实验结果产生的偏差。"
+  },
+  "1.4查询重构策略少预测": {
+    "context1": "目前，对查询重构策略预测研究较少，Boldi等[基于大规模查询日志，通过初始查询和重构查询行为特征数据，包括查询式文本变化的对比，查询式之间相隔的时间等，利用决策树算法构建分类器，对重构类型进行预测和分类，预测分类精度达到 $92 \\%$ ，说明自动预测分类模型的有效性。但由于其方法采用了重构前后的两个查询行为变量作为分类器的输入，因此很难进行实时在线的重构类型预测。Umemoto等[4采用原始查询行为变量作为重构类型分类器的输入，使用了除历史特征以外的其他特征项，通过支持向量机方法构建分类器，得到了 $41 \\%$ 左右的准确率，其研究具有重要的借鉴意义，但其未考虑情境因素的影响，且没有考虑单个任务中存在连续查询重构时对于重构类型的影响，即没有采用历史特征，因此可能会由于同任务中前一个查询重构策略的存在而使研究产生一定的偏差。Jansen等致力于开发Web查询期间的查询重构预测模型，基于当前查询重构策略预测下一查询重构策略，即使用的是历史特征进行的预测，研究收集Dog-pile搜索引擎的数据，采用n-gram建模方法预测用户从一个查询重构转换到另一个查询重构之上的概率，开发了一阶、二阶、三阶、四阶模型并评估了各个模型的准确性，结果显示查询重构占比所有查询的 $45 \\%$ ，一阶模型和二阶模型预测准确性为 $28 \\%$ 和 $40 \\%$ 。该研究中查询日志的会话中有 $7 1 . 6 4 \\%$ 为单一查询式， $1 5 . 8 5 \\%$ 包含两个查询式， $1 2 . 5 1 \\%$ 包含三个查询式及以上，研究考虑到连续查询重构的影响，将历史特征加入进来，但由于连续查询重构存在的比例较少，可进行研究分析的数据就会相应变少。",
+    "context2": "目前查询重构策略的预测研究相对较少，学者使用不同的数据源和行为特征数据进行了查询重构策略的预测研究，但是目前基于查询日志数据和用户实验数据的查询重构策略预测研究都存在一定的不足，且研究都有各自的局限性，未来需要对于查询重构的预测进行更完整细致的研究。"
+  },
+  "2查询重构策略预测相关研究方法": "",
+  "2.1数据获取方法": {
+    "context1": "查询重构的研究数据通常分为两类，服务器端的数据和用户端的数据。",
+    "context2": "服务器端的数据，即服务器端存储的所有用户进行信息检索时的查询日志。一般的查询日志大概包括用户ID、查询式、点击的URL、URL在结果内的排名、页面浏览的时间等。服务器端的查询日志主要特点就是数据量大，由于其数据量的巨大，可以用其进行用户查询重构行为中的一般性特征及规律的研究，主要是针对查询重构的类型和模式方面。但是服务器端的查询日志涉及搜索引擎客户的隐私，所以获取服务器端的查询日志较为困难。目前可获取查询日志的渠道有限，有部分搜索引擎公司（微软、雅虎、谷歌、搜狗）的实验室提供的公开查询日志，Alta-Vista、Excite及AOL的搜索引擎提供的查询数据b。基于服务器端数据的研究，Boldi等[利用了雅虎内部的查询日志数据，自建了一个分类器，基于查询重构的特征，分析了查询重构的模型、模式和应用。张晓娟、陆伟[和吴家丽基于AOL查询日志各自构造了用户意图识别的查询重构模型，通过查询日志中用户的查询重构行为来分析识别用户的查询意图。",
+    "context3": "用户端的数据，主要是基于用户实验和调查得到的数据，用户端数据通常包括两部分，一部分是通过调查所收集到的受试者的个人信息，有一些基础信息和一些领域知识、认知方式等方面的其他信息。另一部分是受试者进行查询操作，从而在查询过程中所得到的查询日志及其他附加的信息，例如有关鼠标的信息和眼动信息[433。由于是进行用户调查实验，所以相比于服务器端的数据，用户端的数据规模就会小很多，对于类型和模式的分布和演化规律的说明较为有限。但是由于用户端数据的收集是进行自主设计实验，自由度相对较高的情况下所需要的数据可以按需进行采集，也可以结合用户的个人信息进行个性化对比，所以用户端的数据能研究的方面会更细致，主要是针对影响因素和效用等方面的研究。基于用户端数据的研究，Jiang等通过对于用户进行调查实验，研究了在查询会话中用户对于特定单词变化选择的影响因素，探讨了包括会话级别、查询级别和单词级别三类影响因素对于用户删除单词、添加单词和重复使用单词的作用。Sanchiz等对20个老年人和19个年轻人进行两个领域12个不同性质的查询问题实验，研究年龄、先前领域知识和认知能力对信息查询过程中的影响，探讨查询导航的作用并给出改善建议。Karanam等进行了一项用户行为实验，让24名年轻成人和21名老年人解决6项低精度和6项高精度信息查询任务，实验使用任务精度作为度量来操纵任务难度，探讨年龄与任务难度对于查询重构的影响。",
+    "context4": "目前查询重构策略预测的研究中，主要是基于服务器端的数据进行预测分析，由于服务器端的数据量大，且是用户日常实际进行查询的日志，可以更好更真实地进行预测分析以完成用户的个性化查询推荐，但目前查询日志中可用的特征项较少会对研究有所限制。目前也有部分学者开始使用用户端数据通过用户实验进行查询重构的预测分析，虽然用户实验数据量较小，但是结合实验目的选取的更多特征项也会对于查询重构的预测研究有所补足。所以，在查询重构策略的预测研究中，针对实验研究的目的需要选取恰当的数据源。"
+  },
+  "2.2预测模型构建方法": {
+    "context1": "目前研究中，查询重构策略的预测模型的构建方法有所不同，Umemoto等[在研究中采用了支持向量机（SVM）构建预测模型，通过查询重构用户行为特征预测其后发生的查询重构策略。Boldi等[基于决策树的方法构建了预测模型，通过预测分类并和人工标注对比检测模型准确度。Jansen等使用了n-gram算法构建了预测模型，使用会话中发生的查询重构来预测其接下来发生的重构。Guo等[构建了动态贝叶斯网络，通过对于用户行为的预测分析，更好地完成对于查询重构的查询推荐。Jiang等[4的研究中基于神经网络构建了预测模型，是一个递归神经网络，模型能够明确捕获查询会话中每个查询的前一个重构，并学习用户重构行为，进而预测到重构类型从而推荐下一个预测的查询。",
+    "context2": "在进行查询重构策略预测时，预测模型的构建方法可选择较多，在构建时明确各个模型的优势并进行合理的构建对预测的结果会有增益。"
+  },
+  "3结语与展望": {
+    "context1": "综上，目前学者们从不同角度出发，对查询重构策略划分、查询重构行为特征度量、查询重构影响因素展开研究，取得一定进展，可以为本研究展开奠定一定基础，但仍需要拓展，且在查询重构策略预测研究中如何应用还缺乏深入的剖析，查询重构策略预测模型构建有较大探索空间。",
+    "context2": "通过对相关研究的调查、分析与总结，根据查询重构策略预测研究过程，笔者提出查询重构策略预测研究的概念框架，以期为后续研究提供一个清晰的起始点，如图1所示。",
+    "context3": "![](images/fbf15abe528023542aa929f9d07ac257f1e74ff9a95d6f86dbf126fcd5967ce0.jpg)  \n图1查询重构策略预测研究框架",
+    "context4": "根据该研究框架，后续相关研究可以从以下几个方面展开。"
+  },
+  "3.1整合查询重构策略划分": {
+    "context1": "确定查询重构策略，在进行查询重构策略预测时可以借用之前研究者的划分标准，但是在实际的用户实验时，会存在某些类型用户使用过多或过少的情况。之后的研究可以根据用户实验例数对于查询重构策略进行适当的合并或拆分，也可以根据问题所涉及的查询领域、用户群体的情况进行个性化的查询重构策略的划分。"
+  },
+  "3.2深入挖掘查询重构特征": {
+    "context1": "抽取查询重构特征变量，原始查询与重构查询行为变量均可以作为模型输入项，但是为了能够实现实时预测，原始查询行为变量更为合适。未来的研究要不仅仅局限于目前的特征项，随着实验的深入和科技的发展，更多的行为特征有待挖掘，例如可以考虑到结果页面浏览时间与自身平均结果页面浏览时间的对比参照，以消除个人习惯的影响，或查询式与点击网页相关度、行为序列划分、页面跳转规律等。多方位、多角度、全面地衡量查询重构行为，可以补充预测指标的备选项，进而筛选具有预测能力的行为变量。"
+  },
+  "3.3引入查询重构情境影响因素": {
+    "context1": "抽取情境因素，剖析其对查询重构行为变量的影响，进而筛选出独立于情境因素的输入特征项，以使模型具有更好的普适性和准确性。目前采用服务器端数据进行查询重构策略预测的研究中，很难加入影响因素的分析，且查询日志里的数据特征项相对过少，以及存在涉及用户隐私等问题，可以考虑结合用户实验，进行相关影响因素的分析，进而筛选出独立于情境因素的查询重构策略预测模型输入特征项，以提高模型的普适性和准确性。"
+  },
+  "3.4拓展预测模型构建思路": {
+    "context1": "查询重构是一个复杂的作用机制，当前的预测将其假定为基于一阶马尔科夫模型来进行，即接下来查询意图仅仅由当前查询状态来确定。但是实际上，在查询过程中会伴随着查询随时产生新的问题，这是前文提及的预测模型所不能解决的，之后的预测模型需要能更全面地考虑到用户的历史查询特征等其他的因素来更准确地完成预测。此外，查询重构策略预测是多分类预测，相对于二分类问题具有更大的挑战性，需要优选更适合的预测方法，以提高准确性。"
+  },
+  "3.5个性化应用预测模型": {
+    "context1": "对查询重构策略预测模型后续应用予以扩展，如分析不同查询重构策略下，重构查询式特征与用户满意度的相关性，进而获取高效用查询式特征。只要系统监测到用户即将进行的查询重构策略，就以该策略下高效用查询式特征为依据进行推荐，研究结果有助于查询推荐准确性的提高。"
+  },
+  "参考文献": {
+    "context1": "[1]RIEH S Y，XIE H.Pattrns and sequences of multiple query reformulations in Web searching:A preliminary study[// Proceedings of 64th ASIST Annual Meeting.Medford:Information Today Inc.，2001:246-255.   \n[2] GUO Jiafeng，XU Gu，LI Hang，et al.A unified and discriminative model for query refinement[C]//Proceedings of the 31th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval.New York:ACM, 2008:379-386.   \n[3] JANSEN B，BOOTH D，SPINK A.Patterns of query reformulation during Web searching[．Journal of the American Society for Information Science and Technology，2Oo9，60（7)： 1358-1371.   \n[4] LIU Chang，JACEKG，LIU Jingjing，et al.Analysis and evaluation of query reformulations in different task types[C]// Proceedings of the 73th ASIST Annual Meeting.Silver Spring: ASIST，2010:1-9.   \n[5] YUE Z，HAN SG，HEDQ，JIANG JP.Influences on Query Reformulation in Collaborative Web Search[]．Computer, 2014，47 (3):46-53.   \n[6]吴家丽．基于用户意图识别的查询重构研究[]．哈尔"
+  },
+  "滨：哈尔滨工程大学，2016.": {
+    "context1": "[7]BOLDI P，BONCHI F，CASTILLO C，VIGNA S.From“dango”to“Japanesecakes\"： Query reformulation models and pat",
+    "context2": "terns[//Proceedings of the 2009 IEEE/WIC/ACM International Joint Conference on Web Intelligence and Intelligent Agent Technology. Piscataway:IEEE Computer Society，2009: 183-190.   \n[8] HU R，LU K，JOO S.Effects of topic familiarity and search skills on query reformulation behavior[C]//Proceedings of the 76th ASIST Annual Meeting. Silver Spring:ASIST，2013: 1-9.   \n[9]BILAL D,GWIZDKA J. Children’s query types and reformulations in Google search[]．Information Processing & Management, 2018,54(6):1022-1041.   \n[0] TEEVAN J，ADAR E，JONES R，et al.Information re-retrieval:Repeat queries in Yahoo’s logs[//Proceedings of the 30th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval.New York: ACM，2007:151-158.   \n[1] HUANG J，EFTHIMIADIS E. Analyzing and evaluating query reformulation strategies in Websearch logs[//Proceedings of the18th ACM Conference on Information and Knowledge Management. New York:ACM，2009:77-86.   \n[2] HASSAN A. Identifying Web search query reformulation using concept based matching [C//Proceedings of the 2013 Conferenceon Empirical Methods in NaturalLanguage Procesing， Stroudsburg:ACL，2013:1000-1010.   \n[3] BOLDI P，BONCHI F，CASTILLO C，et al. Query reformulation mining:Models，patterns，and applications[]．Information Retrieval，2011，14（3)：257-289.   \n[4] UMEMOTO K，YAMAMOTO T，et al.Predicting query reformulation type from user behavior[C]//Proceedings of the 28th Annual ACM Symposium on Applied Computing. New York:ACM，2013:894-901   \n[5] 曹高辉，梁梦丽，王佳．任务驱动下社会化问答平台用户 信息搜寻行为研究[．情报科学，2018，36（1)： 80-86.   \n[6]孙丽，刘强．用户主题熟悉度对网络查询重构行为的影响 -基于用户实验研究[．情报理论与实践，2018，41 (3)： 101-105,116.   \n[17]CHEN Y，LIU YQ，et al. User satisfaction prediction with mouse movement information in heterogeneous search environment[．IEEE Transactions on Knowledge and Data Engineering，2017，29(11)：2470-2483.   \n[8] XIE X H,LIU Y Q，at el. Why People Search for Images using Web Search Engines[C]//Proceedings of the 11th ACM International Conference on Web Search and Data Mining.New York:ACM，2018:655-663.   \n[19]EICKHOFF C，DUNGS S，et al. An eye-tracking study of query reformulation[]//SIGIR 2015:Proceedings of the 38th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval（ SIGIR)．New York: ACM，2015:13-22.   \n[0] LU K，JOO S，LEE T，HU R.Factors that influence query reformulations and search performance in health information retrieval:a multilevel modeling approach[]．Journal of the Association for Information Science and Technology，2017，68 (8): 1886-1898.   \n[1] RUTTER S，FORD N，CLOUGH P. How do children reformulate their search queries[．Information Research-an International Electronic Journal，2015，20（1)：16.   \n[2] WU D,IY Z.Online health information seeking behaviors among Chinese elderly．Library & Information Science Research，2016,38(3):272-279.   \n[3] KARANAM S，VAN OOSTENDORP H. Age-related differences in the content of search queries when reformulating[c]// 34th Annual CHI Conference on Human Factors in Computing Systems （CHI4GOOD)．New-York:ACM，2016: 5720-5730.   \n[4] GHOSH D.Efectsof topic familiarityonqueryreformulation strategies[//Proceedings of the 2016 ACM Conference on Human Information Interaction and Retrieval，New York: ACM，2016: 261-264.   \n[5] JOO S，LE J. Assessing effectiveness of query reformulations: analysis of user-generated information retrieval diaries[c] $/ /$ Proceedings of the 74th ASIST Annual Meting.Silver Spring: ASIST，2011: 1-2.   \n[6] KINLEY K，TJONDRONEGORO D，PARTRIDGE H，et al. Modeling users’Web search behavior and their cognitive styles [．Journal of the Association for Information Science and Technology，2014，65（6):1107-1123.   \n[7] 李月琳，张佳．基于任务的个性化信息检索用户模型 [．情报理论与实践，2015，38（5)：60-65.   \n[8] 孙丽，曹锦丹．不同任务类型下查询重构行为分析[. 情报学报，2016，35（9)：980-988.   \n[9] 宋筱璇，刘畅．任务难度对用户检索式重构转移模式的影 响研究．情报理论与实践，2018，41（2)：22-27，13.   \nB0] XIE I，JOO SY.Factors afecting the selectionof search tactics: Tasks，knowledge，process，and systems[]．Information Processing and Management，2012，48（2):254-270.   \nB1] 付博，赵世奇，刘挺．Web 查询日志研究综述[．电子 学报，2013，41（9)：1800-1808.   \n[B2] 张晓娟，陆伟．利用查询重构识别查询意图[．现代图 书情报技术，2013（1)：8-14."
+  },
+  "昌：南昌大学，2017.": {
+    "context1": "GAO J，LI H，YIN S，et al. Intelligent acquisition algorithm of dynamic traffic data based on Internet of Things[．Cluster Computing，2018."
+  },
+  "[1]张晓娟，唐长乐，王文强．大数据背景下美国政府信息管理法规与政策的拓展[．情报资料工作，2016（4）.": {
+    "context1": "2]MONTORI F，BEDOGNI L，BONONI L.Acollaborative internet of things architecture for smart cities and environmental monitoring[J]．IEEE Internet of Things Journal，2018，5 (2): 592-605."
+  },
+  "[3]沙勇忠，李文娟．公共危机信息管理EPMFS分析框架．图书与情报，2012（6)：81-90.": {
+    "context1": "B4]YANG L，YANG S H，PLOTNICK L.How the intermet of things technology enhancesemergency response operations [． Technological Forecasting and Social Change，2013，80 (9):1854-1867."
+  },
+  "[5]孙庆峰，孟宪强．基于物联网的应急疏散信息平台构建研究．情报科学，2011，29（4)：567-570.": {
+    "context1": "OCANSEY SK，AMETEPE W，LIX W，et al.Dynamic searchable encryption with privacy protection for cloud computing[]．International Journal of Communication Systems, 2017:e3403."
+  },
+  "β7]黄越，李涛．大数据时代的灾难信息管理[．南京邮电大学学报：自然科学版，2015，35（6)：68-76.": {
+    "context1": "B8] 唐明伟，苏新宁，张艳琼．面向大数据的突发事件物联网情报采集[．情报科学，2018，36（3)：46-50，69.  \nB9] WUY，DENG S，HUANG H.Optimal management of dynamicinformation in Delay Tolerant Networks[]．The Journal ofSupercomputing，2013，66（1)：320-338.  \n[40] 常思．信息的时间性．社会科学，1984（4)：12-15.  \n[1] KUNWARP，KACHHWAHA T S.Spatial distribution of areaaffected by forest fire in Uttaranchal using remote sensing andGIS techniques[]．Journal of the Indian Society of RemoteSensing，2003，31(3):145-148.  \n[42] KAWAMOTO Y，YAMADA N，NISHIYAMA H，etal.Afeedback control based crowd dynamics management in IoT sys-tem[．IEEE Internet of Things Journal，2017:1.  \n[3]石肇媛．云消费时代大数据与商业智能的应用[]．中国商论，2019（2).  \n[4] 赖茂生．新环境、新范式、新方法、新能力一新时代情报学发展的思考[．情报理论与实践，2017，40（12)：1-5.作者简介：马晓悦（通讯作者)，女，1987年生，博士，研究员，博士生导师。研究方向：信息行为分析与交互设计。薛鹏珍，女，1995年生，硕士生。研究方向：动态信息资源管理与共享。  \n作者贡献声明：马晓悦，整体思路搭建、论文撰写。薛鹏珍，资料收集、论文撰写。  \n录用日期：2019－08-05"
+  },
+  "(上接第176页)": {
+    "context1": "B3]JOACHIMS T，GRANKA L，PAN B，HEMBROOKE H, RADLINSKI F，GAY G.Evaluating the accuracy of implicit feedback from clicks and query reformulations in web search []．ACM Transactions on Information Systems（TOIS）, 2007，25 (2):1-27.",
+    "context2": "B4]EICKHOFF C，et al. An eye-tracking study of query reformulation[C]//Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval.New York:ACM，2015:13-22."
+  },
+  "[5]王宇，张云秋．探索式搜索行为的眼动研究．图书情报工作，2014，58（11)：29-35.": {
+    "context1": "B6]JIANG JP，NI C Q. What affects word changes in query reformulation during a task-based search session?[C]//Proceedings of the 2O16 ACM Conference on Human Information Interaction and Retrieval.New York:ACM，2016:111-120.",
+    "context2": "B7]SANCHIZ M，CHIN J，et al. Searching for information on the web: impact of cognitive aging，prior domain knowledge and complexity of the search problems[l．Information Processing & Management，2017，53(1)：281-294.",
+    "context3": "B8]KARANAM S，VAN OOSTENDORP H. Age-related effects ol",
+    "context4": "task difficulty on the semantic relevance of query reformulations[]//16th IFIP TC 13 International Conference on Human-Computer Interaction（INTERACT）．Cham:Univ Utrecht,Utrecht，Netherlands，2017:77-96.  \nB9] GUO JF，ZHU XF，et al.Modeling users’search sessons forhigh utility query recommendation[]．Information RetrievalJournal，2017，20(1)：4-24.  \n[40] JIANG JY，WANG W.RIN:Reformulation inference networkfor context-aware query suggestion[C]//Proceedings of the27th ACM International Conference on Information and Knowl-edge Management (CIKM)．New York:Univ Calif Los Angel-es，2018:197-206.作者简介：孙丽，女，1978 年生，博士，副教授，硕士生导师。研究方向：信息资源组织与利用以及信息行为研究。邹俊强，男，1996年生，硕士生。牟冬梅（通讯作者)，女，1970年生，博士，教授，博士生导师。研究方向：医学数据整合与知识服务。  \n作者贡献声明：孙丽，对研究总体框架进行设计及撰写，对论文修改给予重要指导和建议。邹俊强，文献调研及论文初稿撰写。牟冬梅，对论文修改给予指导。  \n录用日期：2019－08-22"
+  }
+}

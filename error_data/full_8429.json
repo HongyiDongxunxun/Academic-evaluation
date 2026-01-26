@@ -1,0 +1,75 @@
+{
+  "original_filename": "full_8429.md",
+  "社会标注进展研究": {
+    "context1": "张凌超1，蓝讽²",
+    "context2": "(1.吉林工商学院 图书馆,吉林 长春130062;2.长春师范学院，吉林 长春130024)",
+    "context3": "摘要：首先通过分析近年来社会标注的相关文献，从社会标注与传统文献标引的差异、社会标注的显示方式以及标注结果评价的角度介绍了当前社会标注的研究进展;其次通过调研使用社会标签的网站，总结了三种类型并分析了其功能特点；最后，为社会标注的未来研究工作提出了几点建议。关键词：社会标注；标签云图；主题标引",
+    "context4": "中图分类号：G250 文献标识码：A 文章编号：1007-7634(2009)11-1753-05"
+  },
+  "Study on the Progress of Social Tagging": {
+    "context1": "ZHANG Ling-chao $1$ , LAN Feng² (1.Library of Jilin Business and Technology College,Changchun 130062,China; 2.Changchun Nomal University ， Changchun 130024,China)",
+    "context2": "Abstract :firstly,on the basis of analyzing social tagging-related literature,introduces the progress of the research on social tagging from the angle of the differences between social tagging and document indexing,the visualization of social tags,the efectivenessof social tagging.secondly,through investigating thewebsites supporting social tagging，classifies for three types and analyzes their function and characteristics.lastly ,gives some suggestions on the future study of social tagging",
+    "context3": "Keyword:social tagging；tag clouds;subject tag ;subject tag",
+    "context4": "传统的文献标引工作是指根据文献的特征，赋予某种检索标识的过程。可以用做文献检索的特征有许多种，其中，从文献内容特征的角度进行的标引是文献标引的重要形式，包括分类标引和主题标引两种[1]。随着文献信息环境由纸质向网络的转变，标引的内涵和外延又有了很大的变化，社会标注就可以看作是基于开放的Web的新型标引方式。",
+    "context5": "社会标注作为 $\\mathrm { \\ W e b } 2 . 0$ 环境下信息阻滞的方式之一，社会性软件网站用于管理Web资源的过程中起着举足轻重的作用，研究相关内容的文献以指数增长，并且近两年也开展了相关主题的会议。如2006年，以“信息现实：构建我们的数字未来为主题的美国信息科学技术学会年会的SIGCRClassi-fication分会场就是以社会标注为主题[2]，发表了",
+    "context6": "10余篇相关会议论文。那次分会的目的就是让与会人员分享他们关于社会标注的观点看法，并能够对基于社会标注的系统所带来的好处达成权威、持续的理解。2007年在加拿大举行的国际万维网会议则将“用于社会信息组织的标注和元数据“做为分会议主题之一，且围绕该主题发表了7篇相关会议论文[3]。这些都说明社会标注目前已经得到图书情报、计算机科学等领域越来越广泛的关注。"
+  },
+  "1 社会标注与主题标引的异同": {
+    "context1": "社会标注从表面上看是近年来新兴的概念，但是从本质上来讲，所标注的标签就是元数据。只不过因为信息环境的不同二者之间的主体和客体存在一些差异。与传统的由信息人员进行的标引工作相比，社会标注则是由非专业人员来进行的，而前者所标引所使用的是受控词汇，社会标注则是由非受控词汇来标引的。文献[4】用框架分析法比较了社会标注和主题标引的异同。从标引特点的角度分析社会标注和文献标引的不同点如表1所示：",
+    "context2": "表1社会标注与主题标引的差异",
+    "context3": "<table><tr><td>特点</td><td>社会标注</td><td>主题标引</td></tr><tr><td>1控制程度(机构/个人)</td><td>无规则</td><td>本地规则和主题词表</td></tr><tr><td>2控制程度(机构/个人)</td><td>无控制或个 人的行为</td><td>机构控制</td></tr><tr><td>3控制中的自由度(词语是否</td><td>无要求</td><td>对词语选择有要求</td></tr><tr><td>都选自词汇表） 4组配类型</td><td>后组式</td><td>先组式</td></tr><tr><td>5词语的一致性</td><td>在适用范围内</td><td>在适用范围内不一致</td></tr><tr><td>6描述的专指性</td><td>不一致 非专指</td><td>非常专指</td></tr><tr><td>7等级</td><td></td><td></td></tr><tr><td></td><td>无显示</td><td>因先组程度不同而不同</td></tr><tr><td>8目的</td><td>管理和共享保证精确度</td><td></td></tr></table>",
+    "context4": "标注并没有要求用户依赖受控词汇表，而是让他们自己来决定用什么样的词来描述事物。没有一个核算程序,任何词语都成。这是一个非常自底向上的过程，标签的规模随着用户词汇表的规模的改变而改变。而文献标引与社会标注的最重要的区别也就体现在是否为受控词汇上。目前有多篇文章比较了社会标注与受控词汇之间的优劣。如：",
+    "context5": "(1)社会标签是直接反映用户想法的词汇，与用户的真正需求和语言更加匹配[5-6]。",
+    "context6": "(2)人工标引过程的本质问题就是标引人员之间的标引不一致性，因为不同的标引人员可能会用不同的标引词汇描述同一文献[7]。如果对标引结果进行聚合，就会减少这方面出现的问题。在文献[8】中，如果多于100个人标引同一资源，每一个标签出现的频率比例基本是固定的，这就意味着唯一的标签权重可能被分配到了每个资源中。",
+    "context7": "(3)社会标签可让用户“偶然地\"发现信息[9-10]。"
+  },
+  "2社会标注的表现形式- -标签云图": {
+    "context1": "在用户给自己中意的资源添加了标签以后，用户曾经添加过的所有标签都会显示到某一页面上。目前较为常见的就是标签云图。标签云图，也叫词语云图或使用权重表，是一种从视觉角度对用户生成的标签的描述，或者仅仅是一个网站通常使用的词语内容[11]。",
+    "context2": "标签通常都是单词，大多按字母顺序排列，标签的重要性通过字体或颜色表现出来。一般的标签云图通常有30到150个标签。标签表现权重的方式有些类似于我们以前在数据统计中经常用到的直方图或饼状图。但与传统的直方图不同的是，标签云图具有一定的互动作用，也就是说我们点击云图中的任何一个标签，都会返回一组使用这一标签的各种资源的链接。最早用标签云图的网站是共享照片的网站flickr,而现在任何允许社会标注的网站几乎都支持标签云图如图1所示。",
+    "context3": "![](images/b1399ccffa8452311f167b27802f4bb0c2a5319685fad3d783be19e5cd4567e1.jpg)  \n图1：标签云图生成过程"
+  },
+  "2.1标签云图的表现方法研究": {
+    "context1": "目前关于标签云图表现方法的研究，主要包括：词语的选择、权重的表达方式等等。文献[12]中提出通过将相似的标签放在一起，并剔除一些标签而改善标签云图的视觉效果。文献[13]提出用户应该动态性的移走不是特别有意义的标签，他们也能够增加一些索引这样标记就可以能够在较大的云图中找到那些标签了。文献[14]提出圆形云图，以反对通常的长方形云图设置，因为在圆形云图中具有较高权重的标签看上去更接近中心。",
+    "context2": "不管怎样，云图仅仅是标签表达的一种方式。例如,dubinko等[15]提出一个模型来用时间线表示标签的方法。而文献[16】提出了cloudalicious,一种研究标签云图随着时间变化的工具。文献[17】将标签云图集成在地图中用于显示具有地理信息的标签，比如,从某个地方获取的图片。"
+  },
+  "2.2标签云图的表现形式研究": {
+    "context1": "标签云图需要通过页面来表现出来，目前改善页面外观的问题是通过一些专门的算法实现的，并且也引起了相关研究人员的注意：文献[18]认为完全有可能让 $\\mathrm { h t m l }$ 表格更具有魅力。此外，还有一些正在进行的工作如利用css来改善 $\\mathrm { h t m l }$ 页面中的一些文本的设置等[19]。",
+    "context2": "标签云图是很简单却被广为使用的一种视觉界面模型，但是因为一些局限性，限制了它的效用，做为视觉信息检索界面。这是因为：选择标签组以展示的方式是基于使用频率的。这不可避免地出现了这样一种情况：但凡显示出来的标签都具有较高的语义密度。在判别值方面，最常用的词最不适合做判别词[20]。而在文献[21]中,如果是为数不多的不同话题，则它们所有相关的标签都倾向于主导整个云图。文献[22]提出了对标签选择研究的必要性，这样可以改善标签云图的效果。",
+    "context3": "按字母顺序排列显示出来的标签既不能促进视觉浏览也不能推断标签间的语义关系。我们争论说基于相似性的显示可以改善标签云图的浏览。尽管民众分类法通常被定义为没有定义标签语义关系的前提下的关键词平面空间，不同的研究证明[23-25]标签间相似性的相关和等级关系是可以从分析中推断出来的[26]。而文献[27】中则提出了一种将标签按相似性分组，在群集技术和同现分析的基础上通过减少标签组的语义密度(即标签的重叠)对标签进行设置的方法。"
+  },
+  "3社会标注在网站中的应用": {
+    "context1": "社会标注作为 $\\mathrm { \\ W e b } 2 . 0$ 环境下信息组织的方式之一，在以应用社会性软件为主的网站管理Web资源的过程中起着举足轻重的作用。社会标注从作用上来讲就是分享标签所指的url链接中的信息资源。这些信息资源可以包括文献记录、博文、电子商务网站的商品、博文、网络书签等等。而本文将从使用社会标注的网站类型的角度探讨社会标注的应用。通过访问各种类型的使用社会标注的网站，笔者将这些网站以粗线条的形式划分为图书馆网站、电子商务网站与社交性网站。"
+  },
+  "3.1图书馆网站": {
+    "context1": "随着 $\\mathrm { \\mathbb { W } e b 2 . 0 }$ 的兴起,Library2.0的概念也在图书馆界愈演愈烈。而Library2.0中一项重要的技术应用就是社会标注。目前国外已有多所大学的图书馆网站应用了社会标注系统。如2006年美国宾州大学 upenn library 的 penntags,ann arbor district library的馆藏目录，以及密歇根图书馆在2008年才刚投入使用的 MTagger。",
+    "context2": "以MTager[28]为例,MTager是一款资源发现工具，它旨在是帮助图书馆用户查找他们以前所部知道的文献和馆藏。当你给一个文献(一个网页)做标签时，你就是在帮助其它未来的图书馆用户能够找到那个资源。",
+    "context3": "MTagger是2008年2月才开始正式投入使用的。像很多其他的社会性标签工具一样,?Tagger允许用户使用他们自己理解的语言给网页做标签和标记。其他的MTag联er甸户可以看到标签和他们所描述的对象。和其他工具不同的是,MTagger提供馆藏标记一我廬能让用户在目录芨围内或数字图像范围内检?类似的标签过的文献。标签本身也可以让人私偶然地发现其他馆藏中的文笮了，馆藏更通常指图书馆的主要资源。目前可以被添加标注的资源包括： $\\textcircled{1}$ 任何图书馆网页； $\\textcircled{2}$ 图书馆目录Mirlyn的记录； $\\textcircled{3}$ 图书馆的数字图馆藏； $\\textcircled{4}$ 其它利用MTagger浏览器书签的网页[29]。研究人员也将标注密歇根大学机构知识库deep blue中的文献和Google数字项目MBooks中的图书列入未来发展计划。",
+    "context4": "密歇根大学图书馆是希望使用这样的一种标注功能,正如它的口号所说\"Find It.MTag It.Share It.\"让校内师生通过这样一种社交途径来分享与协同互动，进而能够对各自的研究提供一些帮助。",
+    "context5": "此外，有学者也总结出标签为图书馆可能做出的贡献[30] $\\textcircled{1}$ 用标签做主题指南； $\\textcircled{2}$ 标签虚拟参考云图； $\\textcircled{3}$ 标签做图书推荐； $\\textcircled{4}$ 图书馆FAQ。"
+  },
+  "3.2电子商务网站": {
+    "context1": "国内的电子商务网站很多也开始使用了氊签功能。如amazon.com及 taobao.com。商业网站中的每一个商品都是以网页的形式展示给用户。在amazon.com中，每一个商品介绍下端都允许用户在那里为该商品“贴签”。Amazon中的标签可以用于： $\\textcircled{1}$ 查找其他具有相同特性的商品； $\\textcircled{2}$ 对自己感兴趣的商品进行组织； $\\textcircled{3}$ 让用户记住考虑购买的商品； $\\textcircled{4}$ 检索标签； $\\textcircled{5}$ 用户标注的商品可以为商品推荐提供基础。但中国的商业网站如 taobao.com 的功能与amazon 相比还有很大的差距，标注功能还有待完善。"
+  },
+  "3.3社交网站": {
+    "context1": "在本文中，笔者暂且把以社会性软件为基础的提供资源共享平台的网站都称为社交网站，如deli-cious,flicker,中文的豆瓣等等。这些网站以用户组织自己的资源为主，但用社会标签做纽带，还具有很大的分享性。如在delicious中，用户可以为自己感兴趣的网页添加标签，这个标签同时也可以为其他人所看到。网站提供标签搜索功能，点击这个标签就可以获得所有被用户过的具有这样一个标签的资源。这样可以进而看到具有同样兴趣的人的收藏。",
+    "context2": "从而通过标签就可无形中形成新的以兴趣为基础的网络社区。",
+    "context3": "其实，无论在哪种类型的网站中，社会标注都给用户带来了一种全新的体验。它让对某一资源感兴趣的用户通过标注而联系起来。但各种类型的网站侧重点又有所不同。图书馆网站通过让本馆用户对某一资源进行标注，从而在一馆范围内的读者群中达到知识共享和交流的目的；电子商务网站的目的是通过给用户类似于实体购物店中的感觉而更好地了解商品进而达到成交的目的；社交性网站则是纯粹的以标签为媒介达到用户之间兴趣共享与交流网站。标签的质量越高，检索效果越好，越能达到标签的预期目的。但目前的研究工作虽然已经围绕标签的表达形式、表现方法、实际应用等等方面展开，但是还有一些值得深入研究的工作需要进行。"
+  },
+  "4未来的研究工作": "",
+  "4.1提高用户的标注素养": {
+    "context1": "在Guy和Tonkin的用于评价用户标注素养的研究中发现，用户素养是会影响标签的可用性的。因为缺少了受控词汇的控制，同样的内容不同的用户会添加不同的标签，而表达同一意思的标签又可能是使用不同的词语来表达。他们的研究主要是对来自flickr和delicious的标签样本的分析，研究发现在两个网站中各有 $40 \\%$ 和 $28 \\%$ 的标签是错误的。如拼写错误、非词典收录的词、多词或多种语言混用。最后鼓励用户多观察常用的标注惯例。文献[31]中提到了标注blog的原则： $\\textcircled{1}$ 标签应当是有意义的表达； $\\textcircled{2}$ 标签应该是文献真正相关的内容； $\\textcircled{3}$ 每一个概念只用一个标签。这个原则也同样适用于其他类型资源的社会标注。如果在用户添加标签之前提供一个标注原则的对话框对用户进行提示，对提高标注质量是很有好处的。"
+  },
+  "4.2从社会标注的用户认知角度展开研究": {
+    "context1": "从认知角度对社会标注展开研究，应主要包括一下几个问题： $\\textcircled{1}$ 经常“贴签”的用户的标注是怎样一种认知过程； $\\textcircled{2}$ 用户为什么选择他们使用的标签，是什么促使他们修改这些标签，修改标签的频率又是怎样的； $\\textcircled{3}$ 用户是怎样使用已有标签的； $\\textcircled{4}$ 怎样在标签的使用中培养出一致性； $\\textcircled{5}$ 网络上的某一兴趣社区能够对使用哪些标签以及怎样使用是如何产生影响的。"
+  },
+  "4.3计算机领域与图书情报领域协同合作": {
+    "context1": "要想发挥社会标注的最大作用，就不得不考虑与受控词汇系统的整合，这里面还包含一些细节性的工作,例如，同词异义、异词同义、缩写与全称等词语的区分工作都需要由图书情报工作人员来完成，而在系统中如何实现以上功能则需要计算机领域的共同努力。这一点，我们从相关文献的分析中也可以看出，研究社会标注的领域主要就在图书情报界和计算机界，如何在二者之间搭建一个桥梁，也是未来研究社会标注人员值得思考的问题。"
+  },
+  "4.4社会标注与语义注释相结合": {
+    "context1": "目前，大多数管理科研成果的机构知识库或专业数据库等多使用受控词汇。其中多采用自动标引的形式。但不管怎样，人工标引都是保证高准确率的一种方法。那么为了分担标引负担以及提高准确率，可以考虑将社会标注同语义注释相结合的方法。目前英国的E.D.项目已经开始了这方面的探索[32]。这种社会语义注释方法是用于任何已经有受控词汇表、使用OWL/RDF的专业数据库。随着社会标注与语义注释的融合，社会标注将为科学数据库的有效性做出更大的贡献。"
+  },
+  "参考文献": "",
+  "1马张华,侯汉清.文献分类法主题法导论.[M]北京：北京图书馆出版社,2002:202.": {
+    "context1": "2[EB/OL]. http://www.asis.org/Conferences/AM 06/sigcr.html, 2008-03-01.   \n3[EB/OL].http://www2007.org/workshop-W9.php,2008-3-1.   \n4Joseph T.Tennis.Social Tagging and the Next Step for Indexing.[EB/OL].http://dlist.sir.arizona.edu/2091/01/sigcr06tennis.pdf,2008-06-30.   \n5Mathes,A. (2004).Folksonomies- Cooperative Classification and Communication Through Shared Metadata.Unpublished paper.[EB/OL]. http://www.adammathes.com/academic/computer-mediatedcommunication/folksonomies.html, 2Oo8-3-1.   \n6 Quintarelli,E. (2Oo5).Folksonomies: power to the people. ISKO Italy-UniMIB meeting: Milan. June 24,2005.[EB/OL]. http://www-dimat.unipv.it/biblio/isko/doc/folksonomies.htm. 2008-3-1.   \n7Olson,H.A.and Wolfram,D. (2006). Indexing Consistency and its Implications for Information Architecture:A Pilot Study.ASSIS&T Information Architecture Summit, Vancouver,British Columbia,Canada,March 23-27,2006.[EB/OL] http://www.iasummit.org/2006/files/175_Presentation_Desc. pdf,2008-03-01.   \n8Golder, S.and Huberman,B.A.. (2Oo6).Usage Patterns of Collaborative Tagging Systems[J]. Journal of Information Science,32(2): 198-208.   \n9Mathes,A.(2004).Folksonomies - Cooperative Classification and Communication Through Shared Metadata.Unpublished paper.[EB/OL]http://www.adammathes.com/academic/computer-mediatedcom munication/folksonomies.html,20o8 -03 - 01.   \n10 Quintareli,E.(2005).Folksonomies: power to the people. ISKO Italy-UniMIB meeting: Milan. June 24,2005.[EB/OL] http://www-dimat.unipv.it/biblio/isko/doc/folksonomies.htm, 2008-03-01.   \n11[EB/OL].htp://n.wikipedia.org/wiki/Tag_cloud,2008-0-01.   \n12Peter Merholz. Metadata for the Masses.[EB/OL] http://ww w.adaptivepath.com/ideas/essays/archives/0o0361.php,2008- 03-01.   \n13D.R.Millen,J.Feinberg，and B.Kerr.Dogear:Social bookmarking in the enterprise [A].Proceedings of the SIGCHI Conference on Human Factors in Computing Systems[C]. Canada:Montréal, Quebec,2006.   \n14 K.Bielenberg. Groups in social software: Utilizing tagging to integrate individual contexts for social.[EB/OL] http://bielenberg.info/thesis.pdf,2008-03-01.   \n15M.Dubinko,R. Kumar, J. Magnani, J. Novak,P. Raghavan, and A. Tomkins.Visualizing tags overtime [A]. In 15th International World Wide Web Conference[C].USA:ACM Press New York,2006.   \n16T.Russell.cloudalicious: folksonomy over time [A]. Proceedings of the 6th ACM/IEEE-CS Joint Conference on Digital Libraries[C],USA: Chapel Hill,2006.   \n17A.Jaffe,M. Naaman,T. Tassa,and M. Davis.Generating summaries and visualization for large collections of geo-referenced photographs [EB/OL]. htp://www.openu.ac.il/home/ tamirtassa/Conferences/acm_photos.pdf ,2008-03-01.   \n18 N.Hurst, K. Marriott,and D.Albrecht. Solving the simple continuous table layout problem [EB/OL]. http://www.csse. monash.edu.au/\\~marriott/HurMarAlb06.pdf ,2008-03-01.   \n19 E.J. Etemad (Editor). CSS3 text effects module.http://www. w3.org/TR/css3-text/ ,2008-03-01.   \n20 Salton,G.； Wong,A. and Yang, C.S.(1975).A Vector Space Model for Automatic Indexing.[J]Communications of the ACM.1975,18 (11):613-620.   \n21Begelman, G.; Keller,P.and Smadja,F. (2006).Automated Tag Clustering: Improving search and exploration in the tag space.WWW2006, May 22- 26,2006,Edinburgh, UK.[EB/ OL]. http://www.rawsugar.com/www2006/20.pdf, 2008-03- 01.   \n22 Xu, Z.et al. (2006). Towards the Semantic Web: Collaborative Tag Suggestions.WWW2006,May 22- 26,2006, Edinburgh,UK.[EB/OL]http://www.rawsugar.com/www2006/13. pdf ,2008-03-01.   \n23Mika,P. (2005). Ontologies are us: A unified model of social networks and semantics.Proceedings of the 4th International Semantic Web Conference(ISWC 2005),LNCS 3729,Springer-Verlag,2005. [EB/OL]http://www.cs.vu.nl/\\~ pmika/research/papers/ISWC-folksonomy.pdf ,2008-03-01.   \n24 Brooks, C.H.and Montanez,N. (2006).Improved Annotation of the Blogosphere via Autotagging and Hierarchical Clustering.WWW 2006,May 23- 26,2006,Edinburgh,UK. [EB/OL].http://www2006.org/programme/item.php?id =583,20 08-03-01   \n25Shaw,B. (2005b).Semidefinite Embedding Applied to Visualizing Folksonomies.Project Proposal. December, 2005. [EB/OL] http://www.metablake.com/advml/adv -ml -project. pdf,2008-03-01.   \n26Salton, G.； McGill, M.J. Modern information retrieval. [M] New York:McGraw Hill.1983:61-62.   \n27 Yusef Hassan-Montero.Improving Tag-Clouds as Visual Information Retrieval Interfaces[EB/OL] .http://www.nosolousabilidad.com/hassan/improving_tagclouds.pdf, 20o8-03-01.   \n28[EB/OL].http://www.lib.umich.edu/mtagger/， 2008-3-1.   \n29Frequently Asked Questions [EB/OL]. http://www.lib.umich. edu/mtagger/tags/faq , 2008-06-20 .   \n30 胡晓菁．随心所欲的信息组织标签&民俗分类法.[EB/ OLJhttp://www.libnet.sh.cn/upload/htmleditor/File00805160 43212.pdf,2008-3-1.   \n31 Chiara,Tag Spamming Is Not a Best Practice. [EB/OL]http:// www.adaptivepath.com/blog/2008/07/21/tag -spamming -is - not-a-best-practice/,2008-07-30.   \n32Benjamin M Good,Bridging the gap between social tagging and semantic annotation: E.D.the Entity Describer.[EB/OL] http://precedings.nature.com/documents/945/version/l/html,"
+  }
+}

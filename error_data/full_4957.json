@@ -1,0 +1,60 @@
+{
+  "original_filename": "full_4957.md",
+  "学术论文复制检测的研究进展及新方法": "",
+  "王秀红": {
+    "context1": "江苏大学科技信息研究所镇江 212013",
+    "context2": "[摘要]综述国内外学术论文复制检测的研究现状，针对存在的问题提出以后研究的新思路：构建某一学科领域学术论文语料库;以信息论为工具，针对某学科领域建立基于学术论文语料库的统计语言模型;结合学术论文抄袭剽窃的特点,通过赋予描述资源对象语义信息的不同元数据项以不同的权函数，设计相似度算法;使用 Lemur工具箱，在标准的TREC文档集上对模型和算法进行检验;与Tumitin侦探剽窃系统进行实验对比，评价该模型和算法的有效率和效果。",
+    "context3": "[关键词]学术论文复制检测抄袭剽窃检测统计语言模型文本相似度算法[分类号] $\\mathrm { T P 3 9 1 . 1 }$",
+    "context4": "Rev iew and New Ideas on Dup lica tion Detection of Articles",
+    "context5": "W ang X iuhong",
+    "context6": "Institute of Science and Technobgy Infomation Jiangsu University Zhenjiang 212013 [Abstract]Afterreviewingandanalyzing theproblmsofretrevalmodelsandtextsimilarityagorimsofduplicatin detectionthe anthorproposessmenewideasonplgiarismdetectionofarticlestomprovetherecalland precision Theideas incudethe folwings buildingarticletrainngcopusionespecialtybasedoninfmationtheorybuilingstatisticallanguage modelcmputigarticles siilartybydiferentmetadataidiferenthoredfunctiosusigLmurtooxtstrcallandpresionofhemodelads ilaritylgoritm;cmparigiumitinpgirietectosysttevaateeefectivenesandeficencyofedetectiopu tation",
+    "context7": "[K eywords]articlesduplication detectionplagiarim detectionstatistical languagemodeltext similarity algoritm",
+    "context8": "自从方舟子的“新语丝\"使原本长期存在于学术界的学术不端暴露出来之后，学术论文抄袭剽窃引起社会的广泛关注。抄袭剽窃的表现形式多种多样：有些只是在语言文字的表达形式上做手脚，换成同义词或颠倒语句的表达顺序，在文章框架、主要观点和主要论据上却没有大的变化;有些直接大段地“引用\"别人的内容;有些综合运用多种手段，将多篇别人的文章拼凑而成自己的;有些“学术高手\"直接拿国外的论文翻译成中文发表，等等。抄袭和剽窃“手段\"的越来越“高明”,给抄袭剽窃检测带来很大困难。抄袭检测又叫复制检测、剽窃检测或副本检测,根据检测对象性质不同可分为图像、声音和文本复制检测。学术论文抄袭检测是文本复制检测的一种，归根到底是判断两篇学术论文的相似程度。“召回率\"和“精准率\"是判断检测算法好坏的两个重要指标。为了进一步提高学术论文复制检测判断的准确率，针对学术论文的文档相似度算法的改进和创新研究变得尤为重要。"
+  },
+  "1 国内外研究现状及存在的问题": "",
+  "11国外研究现状": {
+    "context1": "国外具有代表性的文档相似度算法主要有以下几种： $\\textcircled{1}$ Manber提出一个 sif工具,其“近似指纹\"是用基于字符串匹配的方法来度量文件之间的相似性[1]; $\\textcircled{2}$ B rin等在‘数字图书馆\"工程中首次提出文本复制检测机制COPS（copypmtection system)系统与相应算法[2],奠定了论文抄袭检测系统的基础; $\\textcircled{3}$ Garcia Molin提出 SCAM（Stanfordcopyanalysis method)原型,改进了COPS系统，用于发现知识产权冲突。他使用基于词频统计的方法来度量文本相似性，后来把检测范围从单个注册数据库扩展到分布式数据库上以及在Web上探测文本复制的方法[3-5], $\\textcircled{4}$ 贝尔实验室的Heintze开发了KOALA系统用于剽窃检测,采用与sif基本相同的算法[6]; $\\textcircled{5}$ Si和Leong等人建立的CHEC系统首次把文档结构信息引入到文本相似性度量中[7]; $\\textcircled{6}$ Stein提出一种方法,这种方法能产生一种“指纹”,在某种程度上能有效防止修改[8-9], $\\textcircled{7}$ MeyerzuE issen等提出通过根据写作风格上的变化来分析单篇文档，从而决定是否有潜在抄袭[10]; $\\textcircled{8}$ 美国学校首先引入Tumitin侦探剽窃数据库，用于防止论文抄袭,此外还有其他类似软件系统用于进行文档相似度分析。当然不同的检测系统其相似度算法的精度也不尽相同。"
+  },
+  "1.2国内研究现状": {
+    "context1": "国内关于论文抄袭剽窃检测方面已有一些研究：$\\textcircled{1}$ 张斯喆通过对中文文本进行自动分词,然后计算它们的相似度，从而判别文本是否抄袭,其对应装置包括：样本输入装置、样本数据库、自动分句分词装置、分词数据库、预处理装置、特征词数据库、相似判别装置、判别结果输出装置和控制处理装置等[11]。 $\\textcircled{2}$ 鲍军鹏通过文本的结构信息和语义信息提取文本特征，是通过运用文本剽窃判定模块中设定的探针法，估计待检测文本特征和特征库中的文本特征的最大共同语义，并给出文本雷同度量，从而判别文本是否抄袭[12]。 $\\textcircled{3}$ 沈阳是通过先找到存储空间内的格式遗留，再将这些遗留格式附近文档的关键词或 和句子或 和段落与文献库中的文献内容进行比较，从而减少被检测文档的数据量，加快了反剽窃或转载文档检测速度[13]。 $\\textcircled{4}$ 张履平通过对已植入水印的文章进行特征擷取，根据所取得的词汇输入搜寻引擎以搜寻相关可疑文章;根据与原文比对结果取得的句子进行水印解析;将所取得的水印信息与原来的水印比对，从而判断是否为剽窃[14]。 $\\textcircled{5}$ 金博等则对基于篇章结构相似度的复制检测算法有一些研究[15]。"
+  },
+  "1.3 存在的问题": {
+    "context1": "事实上，由于剽窃形式的多样性和隐蔽性、语法和句法的复杂性等，目前主要采用的“数字指纹\"和词频统计两大类抄袭识别技术已经不能满足实际的剽窃检测需求，会造成很多漏检和误检，其“召回率\"和“精准率\"都有待提高。归根到底是因为其检索模型有待突破，算法亟待改进或需创造全新的算法来针对学术论文抄袭剽窃检测的实际。如何把握并充分利用学术论文的结构和语言特征，提供具有针对性的检索模型和相似度算法及其实现系统，对能否在异构的分布式学术论文资源系统中，对抄袭剽窃检测进行更精确的判断至关重要。"
+  },
+  "2 学术论文复制检测研究的新思路": {
+    "context1": "针对以上问题，笔者提出以下学术论文复制检测研究的新思路： $\\textcircled{1}$ 建立有针对性的学术论文语料库; $\\textcircled{2}$ 通过对语料库的深层加工、统计和学习，建立统计语言模型； $\\textcircled{3}$ 充分利用学术论文著录项目自身的特点，通过将文档结构化，赋予元数据项加权系数，运用卷积计算学术论文的相似度; $\\textcircled{4}$ 利用支持网络语言的JAVA编程实现相似度算法; $\\textcircled{5}$ 通过将待检测论文与数据库中已有文献对比，计算其相似度，当相似度超过某一阈值时，则判断该论文有抄袭的可能，如图1所示：",
+    "context2": "![](images/3d4b922f79b284766a4088d4f7d596bead710c8f1bbd49f89642a3fad3cfb5c2.jpg)  \n图1学术论文复制检测流程"
+  },
+  "3　具体方法及步骤": "",
+  "3.1建立某一学科专业的学术论文语料库": {
+    "context1": "新一代的兆亿级的大规模语料库可以作为语言模型的训练和测试手段，用以评价一个语言模型的质量。本文建立的语料库中存放的是在学术论文语言的实际使用中真实出现过的学术论文语言材料;是以电子计算机为载体，承载学术资源语言知识的基础资源;通过对真实语料进行分析和处理等加工，使之成为本文的学术论文抄袭检测模型和算法的训练与测试手段。",
+    "context2": "利用丰富的学术资源数据库,如 Dialg SCI EIINSPE、IEEE、Sc ienceD irect EBSCO、PQDD、SPRNGERLINK、KLUWER、Sc ience online Medline CNKI中文科技期刊全文数据库、万方数据科技信息子系统、万方数据商业信息子系统、七国两组织的专利数据库、国内外专利数据库等异构的分布资源,通过信息检索，从某一学科专业着手，构建某一学科专业领域的学术论文语料库。"
+  },
+  "3.2 以信息论为工具,创建统计语言模型用于学术论文检索": {
+    "context1": "数学是解决信息检索和自然语言处理的最好工具。其实早在几十年前，数学家兼信息论专家香农(Claude Shannon)就提出了用数学方法处理自然语言的想法。语音和语言处理大师贾里尼克（ $\\mathrm { F r e d ~ J e ^ { - } }$ linek）首先成功利用数学方法解决了自然语言处理问题。统计语言模型 (即基于统计的语言模型)通常是概率模型,计算机借助于统计语言模型的概率参数，可以估计出自然语言中每个句子出现的可能性，而不是简单地判断该句子是否符合文法。统计语言模型以概率颁布的形式描述了任意语句(字符串）s属于某种语言集合的可能性,需要对任意的语句 s都给出一个概率值,例如：P(他 认真 学习) $= 0 . \\ 0 2 _ { \\circ }$ 本文充分利用学术论文不同于报纸新闻论文或其他类型文档的语言特点，以建立的学术论文语料为训练和测试基础，提出新的基于学术论文的统计语言模型作为针对学术论文抄袭剽窃检测算法的检索语言模型。具体做法为：以信息论为工具,把握学术论文的语言特点，通过对以上所建立的学科专业语料库进行深层加工、统计和学习，获取大规模真实学术论文语料中的语言知识，建立基于学术论文语料库的统计语言模型;通过实验,与其他文本信息检索模型进行比较，论证其有效性。"
+  },
+  "3.3利用学术论文中描述资源对象语义信息的元数据结构，计算文档相似度": {
+    "context1": "充分利用正式出版的学术论文的结构特点，根据学术论文中标引出的K个描述资源对象语义信息的元数据 $( \\mathrm { D i } \\ \\mathrm { i } ^ { = 1 , 2 \\cdot \\cdot \\cdot \\mathrm { k } ) }$ ，将学术论文结构化;然后利用已有的基于学术论文语料库的统计语言模型,将待比较的论文的各相同元数据 Di $( \\mathrm { i } { = } 1 , 2 { \\cdots } \\mathrm { k } )$ 部分进行比对得相似度Si再根据元数据对论文的重要程度给定第i个元数据项相似度权函数Wi则整篇学术论文总体的相似度为 $\\mathrm { \\cal S d { = } } \\mathrm { \\mathop { X } ~ W ~ i ^ { * } ~ \\mathrm { \\mathop { S } i } ~ }$",
+    "context2": "具体算法举例如下：",
+    "context3": "将待检测的学术论文的元数据如题名Til关键词Kyl摘要 Abl正文 Tel参考文献Rel等元数据字段抽取出来，与语料库中已有论文的相应元数据字段内容题名 T2关键词Ky2摘要 Ab2、正文 $\\mathrm { T x 2 } ,$ 参考文献Re2进行相似度计算。计算时，在篇名字段前给以0.25,0.4,0.15,0.1和0.1的加权系数。建立的统计语言模型计算待测论文和语料库中已出版的论文j同一元数据字段的内容相似程度，记为：Sim_Tij Sim_KyjSm_AbjSm_TejSm_Rej卷积后得整篇论文与语料库中某篇论文j的相似程度值计算公式为：Smilarity paper $\\mathrm { j ^ { = 0 . 2 5 \\times S i n _ { - } T i j ^ { + 0 . ~ 4 \\times S i n _ { - } K y j ^ { + 0 . ~ 1 5 } } } }$ $\\times _ { \\mathbf { S i n \\_ A b j } + 0 . \\ 1 \\times \\mathbf { S i n \\_ T x j } + 0 . \\ 1 \\times \\mathbf { S i n \\_ R e j } }$ 再计算与待检测论文最相似的那个最大相似度MaxSmilarity $=$ Max $\\{$ Smilarity paper j};如果Max_ Smilarity大于设定的阀值1(如 $40 \\%$ ),则判断为疑似抄袭，这样的论文需要审稿专家仔细认真审理,如果MaxSm ilarity大于设定的阀值 2(比设定的阀值1大，如 $80 \\%$ ),这样的论文极有可能存在抄袭,需要审稿专家特别注意。在计算相似度值后，计算机系统记录下相似度高于设定阀值的抄袭和被抄袭的学术论文来源、相似度值、及其各元数据项信息(包括作者信息）。以上各元数据项相似度计算过程中，加权系数可以根据需要做适当调整为其他数值，但系数总和为1。"
+  },
+  "3.4推广使用": {
+    "context1": "通过对某一学科专业的研究，进一步拓展到其他学科领域，从而最终实现在异构的分布式学术论文资源系统中，对各个学科领域的学术论文抄袭剽窃进行跨平台检测。"
+  },
+  "4 研究展望及难点、解决办法": {
+    "context1": "今后的研究主要是将以上思想和方法步骤通过实验进行论证。通过JAVA编程实现算法，同时能实现对于空间地址分布和数据异构的学术资源进行跨平台的复制检测。使用支持语言模型的Lemur工具箱,在标准的 TREC文档集上做测试试验，并对算法的召回率和精准率作出量化;选择与Tumitin侦探剽窃系统进行实验对比，评价该基于学术论文语料库的统计语言模型及算法。",
+    "context2": "研究的难点主要在于： $\\textcircled{1}$ 对学术论文语料库进行深层加工、统计和学习，获取大规模学术论文语言知识； $\\textcircled{2}$ 计算学术论文相似度时,不同元数据项其权函数的确定; $\\textcircled{3}$ 思想剽窃、风格剽窃等深度剽窃特征的提取； $\\textcircled{4}$ 自然语言中的多词一义易造成漏检 (漏判)等。为了解决以上问题，可以联合数据库商，构建某一学科专业领域的语料库，并从大量科技查新工作等实际检索实践中，统计出不同元数据项对相似度算法的贡献率来进一步确定不同元数据项权函数。语境框架是一个三维的语义描述，它把文本内容抽象成领域 (静态范畴）情景(动态描述）背景(褒贬、参照等)3个框架，应在语境框架的基础上，设计实现对思想剽窃、风格剽窃等深度剽窃特征的提取算法。通过构建学科专业学"
+  },
+  "信息技术": {
+    "context1": "术论文关键词词典和利用同义词词林，可以克服多词一义时的漏检，提高招回率。"
+  },
+  "参考文献地：": {
+    "context1": "[1]ManberU.Finding sim ilar files ina large file system//Rose G.Pro ceedings of the USENIX W inter Conference 1994,1-10.   \n[2]Brin S Davis JGarcia-MolinaH.Copy detection mechan ism s for digital documents//Carey M，Schneider D, Systems R B.Proceedings of the ACM SIGMOD Annual Con ference New York:ACM, 1995；398—409.   \n[3]ShivakumarN, Garcia—Molina H. SCAM：A copy detection mechanim for digital docum ents//Proceedings of the 2nd Intemational Con ference on Theory and Practice ofD igitalL ibrariesAustin; Tex\" as 1995.1—13.   \n[4]Sh ivakumarN, Garc ia-Molina H. Build ing a scalable and accu rate copy detection mechanim·//Fox E A,Tech V,March ion iniB a Proceedings of the first ACM in temational conference on D igital libraries New York: ACM，1996:160—168.   \n[5]ShivakumarN, Garcia-Molina H.Finding nearreplicas of documents on the web//A tzeniP,Mendelzon A,Mecca G.Proceedings of the W ork shop on Web Databases Held in Conjunction w ith EDBT' 98.LNCS Berlin: Springer 1999, 204-212.   \n[6]PrecheltL MalpohlG，Philippsen M.Finding plagiarism am ong a set of pogramsw ith JplagJoumal of Universal Com pu ter Science 2002,8(11)：06-038. tection system//BryantB Carroll JHightower Jet al Pmceedings of the ACM Symposium for Applied Computing 1997.70—77.   \n[8]Stein B.Fuzzy Fingeiprints for textbased infomation retrieval// Tochteimann K，Maurer H.Proceedings IKNOW O5,GrazJ UCS 2005,572-579.   \n[9] Stein B, MeyerzuE issen S Near sim ilarity search and plagiarim a\" nalysis/Weihs C GaulW.Poceeding of 29 th Annual Conference of the GfK1 Berlin: Springer 2OO6,430-437.   \n[lO]MeyerzuE issen SStein BKulig M.Plagiarism detection without reference collctions Advances in Data Analysis//Decher R,Lenz H JProceed ings of the $3 0 ^ { \\mathrm { t h } }$ Annual Con ference of the Gesellschaft furK lassifikation e V..Freie University Berlin； Springer 2006, 359—366.   \n[11]北京邮电大学·中文文本自动分词和判别文本抄袭的装置和 方法：中国， $0 3 1 5 7 1 8 3 . 2 . 2 0 0 4 - 0 9 - 5 .$   \n[12]西安交通大学.一种利用计算机程序检测电子文本剽窃的方 法：中国， $0 3 1 3 4 5 6 2 . { \\mathrm { ~ X } } { \\mathrm { ~ . ~ } } 2 0 0 4 - 0 4 - 2 8 .$   \n[l3]武汉大学·能加快反剽窃或转载文档检测速度的方法：中国， 200610166577.5. 2007—07—11   \n[14]财团法人资讯工业策进会·特征取、数据解密方法以及抄袭 文章搜寻的系统与方法：中国，200310110386.3.2005－07一 06.   \n[15]金博，史彦军，滕弘飞·基于篇章结构相似度的复制检测算 法：大连理工大学学报，2007,47(1):125－130.",
+    "context2": "[7] SiA，Leong H V，Lau RWH. CHECK：A document plagiarism de"
+  },
+  "[作者简介]王秀红，女，1975年生，馆员,部主任，博士研究生，发表论文10余篇，参编教材 4部。": "",
+  "（上接第33页）": {
+    "context1": "[35] Directory of open access joumals [2008-10—O6]. http://www. doaj org/   \n[36] Open directoiy of open access repositories $[ 2 0 0 8 - 1 0 - 0 6 ]$ ht tp://www· opendoar org/   \n[37] EU open access handbook $[ 2 0 0 8 - 1 0 - 0 6 ]$ http://eoeuropa eu/research/science-society/document_library/pdf_O6 /open-ac cess handbook_ en pdf   \n[38]Letter frm 46 lawprofessors to the house judiciaiy comm itee [2008—1O-O6].htps//mx2.arl org/Lists/SPARC OAFonm / Message /4592. hml   \n[39] Borda G. Govemment data rights under the FAR. $[ 2 0 0 8 - 1 0 -$ O6]. www. cendi gov/presen tations/copyright borda ppt   \n[40] N H Grants Policy Statem ent $[ 2 0 0 8 - 1 0 - 0 6 ]$ http://grants nih gov/grants/policy/nihgps 2003/   \n[41] Creative comm ons $[ 2 0 0 8 - 1 0 - 0 6 ]$ http://creativecomm ons $\\mathrm { \\Gamma _ { 0 } n g / l i c e n s e s / b y n c ^ { - } s a / 2 . ~ 5 / d e e d ~ \\ e n \\Gamma _ { - } G B . }$   \n[42]Reed C A.Just say no to exploitative publishers of science jour nals $[ 2 0 0 8 - 1 0 - 0 6 ]$ ：http://www:ceio math ca/News/arti $\\mathrm { c l e s } / 2 4 \\mathrm { b } ^ { 0 1 6 0 1 } \\mathrm { h m } .$   \n[43] UCSC senate Comm ittee on the Lib raiy $[ 2 0 0 8 - 1 0 - 0 6 ]$ ht tp://senate ucso edu/col/res l405.pdf   \n[44] The citation advan tage of open access articles Joumal of the Amer ican Society for Infomation Science and Technology 2OO8,59 (12):1963-1972.   \n[45] B iMed central institutional mem bers $[ 2 0 0 8 - 1 0 - 0 6 ]$ http:// www.bim edcentral com/inst/   \n[46] Max Planck Society pledges financial support for New Jou mal of Physics $[ 2 0 0 8 - 1 0 - 0 6 ]$ .http://www·mpg de/english/illustra tionsD ocum en tation/documentation /pressR eleases /2Oo6 /pressR e\" lease20060327/index hml",
+    "context2": "[作者简介]张晓林，男，1956年生,研究员,博士,发表论文 100余篇，编著著作4部;刘兰，女，1983年生，博士研究生,发表论文4篇,参编著作1部;李麟,女，1981年生，馆员,博士研究生，发表论文9篇;王丹丹，女，1980年生，讲师,博士研究生，发表论文6篇;王秀华,女，1977年生，研究生，发表论文4篇;刘细文，男，1965年生，研究员，发表论文多篇;初景利，男，1962年生，教授，博士，发表论文多篇，编著著作多部。"
+  }
+}

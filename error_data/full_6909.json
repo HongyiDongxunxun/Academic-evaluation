@@ -1,0 +1,92 @@
+{
+  "original_filename": "full_6909.md",
+  "数字图书馆异构数据库的现状及解决方法": {
+    "context1": "吴小英",
+    "context2": "江南大学设计学院无锡214064",
+    "context3": "[摘要]由于数字图书馆数据库的发展过程中存在异构数据的现象,给读者查询带来极大的不便，因而需要对异构数据进行整合与集成，使其具有集成性、完整性、一致性和访问安全性等，以便于读者查询访问,实现图书馆信息资源的真正共享。目前，利用 $\\mathrm { V C } + +$ 的ODBC技术，已经能够很好地解决数据库管理系统本身异构的多源异构数据库的共享问题。",
+    "context4": "［关键词]数字图书馆异构数据库ODBC集成共享",
+    "context5": "〔分类号]TP311.13"
+  },
+  "Situation and Improvement of Heterogeneous Database in Digital Libraries": {
+    "context1": "Wu Xiaoying",
+    "context2": "School of Design，Southern Yangtze University，Wuxi 214064 〔Abstract]ThispaperreviewsthesituationofheterogeneousdatabaseinthedevelopmenalprocessofdigitalbrariesHeterogeeous databaseindigitalibrariesbroughtmanyproblemsforusersduringquerying.lisveryimportantforhelerogeneousdatabasetohave the characteristics such as integrality，consistency，security and feasibility etc.With the help of ODBC of $\\mathrm { V C } + +$ ,DBMS in the heterogeneous database may be solved and the information sharing of digital libraries will be realized.",
+    "context3": "Keywords] digital libraryheterogeneous database ODBC integrationshare",
+    "context4": "数字图书馆的建设目的之一是要真正实现资源共享.保证用户便捷地获取信息。各图书馆保存有大量的数字化资源，诸如全文期刊库、书目数据库、学位论文库、会议记录库等，然而，它们的存储和读取方式不尽相同一有些以数据库形式存放，有一些以文件形式保存;有些则存放在计算机硬盘上，还有一些存放在光盘(塔)中，需要在INTERNET浏览器中以各自专有的客户端检索界面进行数据读取和检索。这就需要图书馆用户适应千变万化的检索界面和要求，来获取相应的数据资源，这对广大的图书馆用户，尤其是对不太熟悉计算机环境的人来说，是一个不小的困难。因此，针对这些不同平台、不同存储与读取方式的数字资源，建立统一的检索查询界面，方便广大用户对数字资源的有效查询和充分利用，就成了现代图书馆建设中重要且必要的事情。"
+  },
+  "1数字图书馆异构数据问题概述": "",
+  "1.1异构性": {
+    "context1": "异构性是数字图书馆异构数据集成必然面临的首要问题，主要体现在以下几个方面：",
+    "context2": "1.1.1计算机体系结构的异构各个数据库可分别运行在大型机、小型机、工作站、PC 或嵌入式系统中。",
+    "context3": "1.1.2基础操作系统的异构各个数据库系统的基础操作系统可以是Unix、Windows NT、Linux 等。",
+    "context4": "1.1.3数据库管理系统DBMS本身的异构DBMS可以是同为关系型数据库系统的Oracle、SQL Server等，也可以是由不同数据模型的数据库，如关系、模式、层次、网络、面向对象、函数型数据库等共同组成的一个异构数据库系统。"
+  },
+  "1.2性能": {
+    "context1": "网络时代对传统数据集成方法提出了挑战，提出了更高的标准。由于信息源的模式和数据是不断变化的，集成系统需要适应这些改变。系统还需要满足不同水平、不同特点爱好的用户的需求。目前，数字图书馆数据库访问技术主要有CGI、API、JDBC等，具有很大的局限性。"
+  },
+  "1.3语义冲突": {
+    "context1": "数字图书馆信息资源之间存在着语义上的区别。这些语义上的不同可能引起各种矛盾，包括从简单的名字语义冲突（不同的名字代表相同的概念），到复杂的结构语义冲突（不同的模型表达同样的信息)等一系列问题。语义冲突会带来数据集成结果的冗余，干扰数据处理、发布和交换：因此如何尽量减少语义冲突也是数据集成的一个研究热点。"
+  },
+  "1.4权限问题": {
+    "context1": "由于不同的数据库资源可能归属不同的单位，因此如何在用户访问异构数据源数据时保障原有数据库的权限不被侵犯，实现对原有数据源访问权限的隔离和控制，就成为连接异构数据资源时必须解决的问题。",
+    "context2": "值得指出的是，数字图书馆异构数据库存在的这些问题是相互联系、相互制约的，不应该简单地孤立对待："
+  },
+  "2数字图书馆异构数据整合和集成的要求": {
+    "context1": "鉴于上述原因，数字图书馆要进行各类异构数据源的数据整合和集成，使用户能够获得集成、统一、安全、快捷的信息查询服务，使各图书馆的资源能得到最大程度的共享：整合、集成后的数据必须保证一定的集成性、完整性、一致性和访问安全性、"
+  },
+  "2.1集成性": {
+    "context1": "数字图书馆原先孤立的各种数字资源经过整合、集成后，应该实现透明的、分布式访问。各个数据库系统可能运行在Windows、Linux 或Unix环境下，客户能以同一接口访问分布在各个区域的异构数据库。集成后客户端的应用软件应简单明了。集成系统应具有良好的可扩展性、可复用性和可移植性等。"
+  },
+  "2.2完整性": {
+    "context1": "包括数据完整性和约束完整性两方面，数据完整性是指完整提取数据本身。约束是指数据与数据之间的关联关系，是唯一表征数据间逻辑的特征，保证约束的完整性是良好的数据发布和交换的前提，可以方便数据处理过程，提高效率。"
+  },
+  "2.3一致性": {
+    "context1": "不同数字图书馆的信息资源之间存在着语义上的区别-这些语义上的不同会引起各种不完整甚至错误信息的产生，语义冲突会带来数据集成结果的冗余，干扰数据处理、发布和交换。整合、集成后的数据库应该根据一定的数据转换模式和规则进行统一数据结构和字段语义编码转换。"
+  },
+  "2.4访问安全性": {
+    "context1": "由于数字图书馆的数据库资源可能归属不同的单位，各数据库系统有着各自的用户权限管理模式，访问和安全管理很不方便、不能集中、统一管理，所以要保证用户在访问异构数据源数据时原有数据库的权限不被侵犯，实现对原有数据源访问权限的隔离和控制、就需要设计基于整合、集成后的综合信息仓库的统一的用户安全管理模式。例如,基于LDAP的系统用户解决方案就能较好地解决此问题。"
+  },
+  "2.5异构数据库互联要解决的问题": {
+    "context1": "数据库的多重性，导致数据库管理系统的管理软件、系统硬件以及支持异构数据库的费用给企业带来了巨大的负担，为了高效率地运行，需要在异构数据库和数据库管理软件之间进行资源共享。",
+    "context2": "异构数据库互联后，可以对网络上各个不同的局部DBMS进行统一管理，实现不同数据库之间的数据信息资源合并和共享，尽管各个数据库在物理上存储于网络的各个不同结点或场地上，但逻辑上把它们视为一个逻辑库进行处理。这样，通过异构数据库DBMS的互联，就可以达到异构数据库间的数据共享.",
+    "context3": "对于数据库异构集成的研究，主要侧重于异构分布式数据库集成研究，这种集成技术是将参与数据库的有关信息在逻辑上继承为一个属于异构分布式数据库的全局概念模式，以达到信息共享的目的。"
+  },
+  "3异构数据整合与集成模式的实现": "",
+  "3.1数据转换": {
+    "context1": "对于异构数据库系统，要实现数据共享应当满足两点：一是数据转换；二是数据的透明访问。在数据库转换过程中，原来旧的数据库系统不能废弃，而要转换到新系统中继续发挥作用。其主要的转换方式有以下3种：",
+    "context2": ". 利用数据库厂商的专业工具。目前很多数据库厂商都提供专门的数据转换工具。专用数据转换工具具有考虑充分、构造完备的特点，但造价高、使用面较窄。",
+    "context3": ". 利用前台开发工具。通过对不同数据库采用不同接□（ODBC或专用接口)的形式同时支持多种数据库，实现前台开发工具和后台数据库间的连接。",
+    "context4": ". 利用动态SQL语句，不同数据库间数据转换的实现方法各有利：动态SQL语句方法灵活多变，适用面广，但其实现复杂，需编制可视界面，对于较普遍的关系型数据库，在数据量较小的情况下，可以利用动态 SQL语句进行数据转换。",
+    "context5": "因此，充分利用前台开发工具（ODBC或专用接口）对有关数据进行处理是一种较好的选择。"
+  },
+  "3.2数据集成": {
+    "context1": "数据集成是对各种异构数据提供统一表示、存储和管理的方法，它可以屏蔽各种异构数据的差异，并通过集成系统进行统一的操作、异构数据集成涉及到多种计算机技术，如分布式对象技术、XML、面向对象技术等：常见的有分布对象技术和XML。实现异构数据库的集成，首先要对加入的数据库资源实现完全透明的访问，既要保证全局数据的共享，又要保证各数据库管理系统的自治，确保基于异种系统平台实现对异构数据库的查询和联合使用，提供一个独立于特定的数据库管理系统的统一编程界面、"
+  },
+  "3.3利用ODBC技术实现多源异构数据库的集成": {
+    "context1": "ODBC是Microsoft公司提供的标准的应用程序接口。利用它可以实现一个应用程序对不同数据源的访问。ODBC屏蔽了底层数据库系统的不同，数据开发者可以直接利用SQL语句实现对不同数据库中数据的操纵，具体实现方法如下：",
+    "context2": "在Visual $\\mathrm { ~ C ~ } + \\mathrm { ~ } +$ 程序中使用建立的数据源之前，必须建立一个到数据源的连接。在 $\\mathrm { V C } + { } + { }$ 中到数据源的连接封装于Cdatabase类中。在同一个程序中，可以使用多个数据源或者以多个连接对应同一个数据源。"
+  },
+  "3.3.1连接配置好的数据源的方法之一：": {
+    "context1": "CDatabase m_database;  \nIf(！m_database.IsOpen(）)  \nIf(！m_database.IsOpen(_T(\"Test\"））)Assert(“不能打开该数据源\"）；  \nm_database.Close(）;",
+    "context2": "3.3.2动态连接数据库由于与数据库的连接是通过Cda-tabase类对象来实现的，因此，通过赋予CrecordSet类对象参数m_pDatabase以连接不同数据库的Cdatabase对象指针，就可以动态地连接数据库，示例代码如下：",
+    "context3": "void CDB::ChangeConnect()Cdatabase $\\mathrm { \\mathrm { ^ { * } ~ p d b } } = \\mathrm { m \\mathrm { \\_ p S e t } } - \\mathrm { \\nabla } > \\mathrm { m \\mathrm { \\_ p D a t a b a s e } } .$ ：Pdb->close(）;Switch(m_id)caseO：if(pdb->Open(_T(“Super_ES\")))AfxMessageBox(“数据源 Super_ES打开失败”，“请检查相应的ODBC连接”,MB_OKIMB_ICONWARN-  \nING)；EXIT(O);$\\mathrm { \\bf { \\dot { m } } } \\mathrm { \\bf { \\dot { \\Pi } } } ^ { \\mathrm { i d } } = 1$ ；break ;case 1:if（！pdb->Open(_T(\"Motor\")））AfxMessageBox（“数据源Motor打开失败”，“请检查相应  \n的ODBC 连接”,MB_OKIMB_ICONWANING）；Exit(0）；$\\mathbf { m } \\lrcorner \\mathrm { i d } = 0$ ；break;一一",
+    "context4": "3.3.3动态连接表表的动态连接可以在调用Crecord-Set：：Open（)函数时指定SQL语句来实现。同一个记录集对象只能访问具有相同结构的表，否则查询结果将无法与变量相对应。解决的办法是在不同的情况下使用不同的SQL语句，示例代码如下：",
+    "context5": "void CDB::ChangeTable()",
+    "context6": "if(m_pSet- >IsOpen()）m_pSet->Close(）; switch(m_id) {case 0: $\\mathrm { m \\_ p s e t - > 0 p e n }$ （AFX_DB_USE_DEFAULT_TYPE,\"SE  \nLECT $^ { * }$ FROMSLOTO\"）;//连接表SLOTO $\\mathbf { m } \\lrcorner \\mathrm { i d } = 1$ ； break ; case 1 $\\mathrm { : \\ m _ { - } p S e t { \\mathrm { ~ - ~ } } > 0 p e n }$ （AFX_DB_USE_DEFAULT_   \nTYPE,\"SELECT $^ { * }$ FROM SLOT1\"）;//连接表 SLOT1 $\\mathbf { m } \\lrcorner \\mathrm { i d } = 0$ ； break ; $\\}$",
+    "context7": "3.3.4对数据库的其他操作添加记录可以使用Addnew（)函数，要求数据库必须是以允许增加方式打开。",
+    "context8": "m_recordset1.Addnew（）;  \nm_recordsetl.Update（）;  \nm_recordset1.Requery（）;",
+    "context9": "同样，利用SQL语句可以方便地实现查询和修改等。总之，利用 $\\mathrm { V C } + +$ 中ODBC类库，方便了程序员完成大多数的数据库操作。"
+  },
+  "3.3.5采用机制的示意图（见图1）": {
+    "context1": "![](images/dcb7795818513d09d9c7caaa538d3ef67d6faa3690df1fbe455f59fa7e9d73f5.jpg)  \n图1 $\\mathrm { V C } + +$ 通过ODBC与几种常用数据库的连接"
+  },
+  "4结语": {
+    "context1": "总之，现代计算机技术和网络技术已经能够将异构数据库进行集成,便于读者查询。用 $\\mathrm { V C } + { } + { }$ 的ODBC技术，可以很好地解决DBMS本身异构的多源异构数据库的共享问题，而对于跨平台等异构数据库的共享在实施中还未涉及，可见实现数字图书馆信息资源的真正共享及用户的透明访问仍然是个复杂的系统工程。"
+  },
+  "参考文献：": {
+    "context1": "1Arnoldy B.Paying for answers online.http://www.csmonitor.com/ 2002/0722 /p14s01-wmcn.html   \n2West J.lnformation for sale：y experience with Google Answers. http://www.infotoday.com/searcher/octO2/west.htm   \n3Fee-based service.[2004-12-30].http://www-lib:uwyo.edu/ services/uwii   \n4West J.The librarian is in，and online！ Computers in Libraries, 2003,23(9):14-17   \n5West J.Google Answers is not the answer. American Libraries, 2003,34(6):54 -56   \n6 West J.Information for sale：my experience with Google Answers. Searcher.2002,10(9）:14 -17   \n7Quint B. Some advice for Google Answers.Information Today,2002, 19(6):8 -10   \n8Atbanese A． Showdown：Google vs. the Cornellibrarians.Library Joumal,2003,128(17）:2   \n9Calishain T. New Google Answers service raises a few questions of its own.Information Today,2002,19(6）:50 -51",
+    "context2": "［作者简介］杨永生，男，1963年生，副研究馆员，馆长，发表论文30余篇。初景利，男，1962年生，教授，博士，部主任，硕士研究生，发表论文80余，"
+  },
+  "（上接第94页）": {
+    "context1": "35-36  \n5刘成山、赵捧未.窦永香．数字图书馆的集成策略．情报杂志，2004(1）:87 -89  \n6靳强勇，李冠宇，张俊．异构数据集成技术的发展和现状．计算机工程与应用，2002（11）：112-114"
+  }
+}

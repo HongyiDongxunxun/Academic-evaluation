@@ -1,0 +1,99 @@
+{
+  "original_filename": "full_4498.md",
+  "·研究综述与前沿进展·": "",
+  "基于情境感知的资源推荐研究综述与实践进展": {
+    "context1": "杨金庆程秀峰周玮斑",
+    "context2": "(1．武汉大学信息管理学院，湖北 武汉430072；2.华中师范大学信息管理学院，湖北 武汉430079)",
+    "context3": "摘要：旧的/意义情境感知推荐是推荐系统发展过程中的重要阶段，其核心思想是将情境信息融入资源推荐的过程中，以此提高资源推荐系统的准确性。作为资源推荐的重要技术，情境感知推荐吸引了各领域的广泛关注，逐渐成为资源推荐研究的重要组成部分。方法/过程本文以筛选于WOS、CNKI等数据库的文献集为研究对象，通过归纳总结的方法，首先系统梳理、总结了情境感知推荐的主要方法一情境前过滤推荐方法、情境后过滤推荐方法以及情境建模方法，然后从情境数据采集和情境感知应用两个方面总结分析情境感知推荐实践进展，最后总结情境及情境感知技术对资源推荐研究的理论价值与实践的现实意义。结果/结论]未来研究将综合3种主流情境感知资源推荐方法，以混合形式融合情境要素，构建多维、复杂的情境推荐模型，进一步提升精细化、个性化信息资源服务体验。",
+    "context4": "关键词：情境感知；资源推荐；情境感知推荐",
+    "context5": "DOI: 10.3969/j.issn.1008-0821.2020.02.017   \n（中图分类号）G250.73（文献标识码）A（文章编号）1008-0821（2020）02-0153-07"
+  },
+  "Research Review and Progress on Practice of the Resource Recommendation Research Based on Context-awareness": {
+    "context1": "Yang Jinqing'Cheng Xiufeng²Zhou Weiting³ (1. School of Information Management，Wuhan University，Wuhan 430072，China; School of Information Management，Central China Normal University，Wuhan 430079，China)",
+    "context2": "AbstractPurpose/Significance] Context-aware recommendation is an important stage in thedevelopmentof the recommendationsystem.It’scoreisto integratecontextinformationintotheprocessofresourcerecommendation，inorderto improve the accuracyof theresource recommendation system.As an important technicforresourcerecommendation，contextawarerecommendationhasatracted extensiveatentioninvarous fieldsandhas gradually becomean indispensablepartof re source recommendation research．Method/Process]This paper took the literaturecolections selected from WOS，CNKIand otherdatabases astheresearchobject.Firstly，itcombedandsummarizedthe main methods ofcontext-awarerecommendation systematicall-pre-spatial filtering recommendation method，post-context filteringrecommendationmethodandcontextmodeling.Then this papersummarizedand analyzed theprogressof thecontext-awarerecommendation in practice from two aspects:context datacollectionand context awarenessappication.Finally，itsummarizedthe theoretical valueand practical significance ofcontext-awarenessand context-awareness research onresource recommendation research.ResultConclusionl Futureresearch would integratethree mainstream methods of thecontext-awareresourcerecommendation，integratecontextual elements ina mixedformand builda multidimensionalandcomplexcontext-awarerecommendation model，finally furtherenhance the information resource service experience in a refined and personalized way.",
+    "context3": "Key words: context-awareness； resource recommendation； context-aware recommendation",
+    "context4": "移动智能和物联网时代的开后，促使网络信息资源迅速增长，同时承载用户行为信息的传感器数据规模也在不断攀升。信息资源过载（InformationOverload）现象愈发严峻，用户急需有效工具来快速、准确地获取所需信息资源。推荐系统通过分析和预测用户需求帮助用户实现信息过滤，因此逐渐成为解决信息过载问题的重要手段之一。自1994年明尼苏达大学研发基于用户的协同过滤资源推荐算法以来，推荐系统的研究已经历几十年的发展。Adomavicius G等基于资源元数据与用户行为数据构建资源推荐的效用函数： $\\mathrm { { u } } { \\big ( } \\mathrm { { c } } , \\mathrm { { s } } { \\big ) } =$ score（ContentBaseProfile(c)）,Content（s)），式中可以看出通常的资源推荐系统仅包含“用户一资源”二维关系。面对越来越精细化的用户需求，只依赖二维“用户一资源”关系难以进一步提升资源推荐系统的准确性。",
+    "context5": "用户偏好会随着场景的转换而波动，处于不同情境下的同一用户，对相同资源的需求程度不同。情境感知技术能够实时获取当前情境信息，进而刻画用户所处状态和行为规律，精准地描述用户需求。因此，融合情境因素的资源推荐系统逐渐成为资源推荐研究中重要的研究方向，形成三维“用户一情境一资源”关系的研究范式。目前，融入情境信息的方式可分为3类：1）情境前过滤:基于特定情境进行数据的选择和过滤，在确定推荐资源过程中，偏好预测方法可以采用任何传统的推荐模型，也称“前置情境过滤”或“情境预过滤”。2）情境后过滤：先是忽略情境信息，利用传统的推荐方法产生推荐结果，然后筛选符合用户情境的推荐结果，也称为“后置情境过滤”。3)情境建模：该方法直接融合情境信息构建偏好预测模型。",
+    "context6": "针对以上分析，本文以WOS、CNKI等数据库为文献来源，以“情境感知’、“Context Aware”和“推荐系统’、“Recommender System”为检索词，试图从情境感知理论、融入情境信息方法和情境感知推荐系统实践进展3个方面挖掘与总结现有研究理论、研究方法、研究实践，并分析总结情境感知推荐现有研究范式，以期对未来的研究提供初步思路与参考。"
+  },
+  "1情境感知相关理论研究": "",
+  "1.1情境定义": {
+    "context1": "研究者们从不同的角度给出了多种情境定义。PascoeJ认为情境是某一特定实体物理和概念状态的集合。DeyAK认为情境是用来描述实体状况的任何形式的信息，其中实体可以是人、地点以及与用户和应用程序之间交互相关的对象。Li X等将情境定义为能够描述环境（静态或动态）变化并有助于理解当前状况和预测潜在变化的任何形式的信息。",
+    "context2": "从客观实体角度，情境是地理位置以及人和物所处状态描述。从系统应用角度，情境是指地点、用户实体、时间、温度等信息集合。从信息属性角度，情境是指能够被用来描述实体状态的所有信息，实体包括人物、地点或者物体。从以往定义中可以看出，情境的定义主要根据研究角度的不同对情境信息种类进行枚举，使得情境概念缺乏标准化和普适性。笔者认为，任何能够描述环境及所含实体的状态变化的信息都称为情境信息。情境信息的多维性与可描述性能够理解当前环境状态，预测潜在变化，有助于精准表达用户需求。"
+  },
+  "1.2情境分类": {
+    "context1": "情境信息存在不同类别，同种类情境数据具有连续性。清晰、准确的情境分类有助于对情境信息的识别与利用，同时也是情境建模不可或缺的重要内容。对情境进行分类有助于机器理解、感知用户所处状态，检测何人（Who）、何时（When）、何地（Where）干了何事（What），并通过这些情境信息解读为何（Why）发生状态的转变，这就是早期情境的分类，简称为“5W”√。Zimmermann A等将情境分为地点、环境、实体和时间。AbowdGD等认为“环境”一词和情境存在同义，不易于用户理解，边界性较差，拟采用“行动”来传达用户意图[ 。",
+    "context2": "为加强不同情境的区分度，提高不同情境的个性化，研究者们将情境分为地点、实体、时间和行为，四者是描述特定实体状态的重要情境类型。地点、实体、时间和行为4种情境类型不仅映射“5W”情境分类，而且可以作为一个标准应用于其他情境信息。从情境定义可知，情境信息具有多样性、复杂性及可描述性。地点、实体、时间和行为4种类型仅仅从事件的客观构成方面进行归类，而面对不同的情境和不同的任务，应依据任务目标，结合具体需求，在4类情境信息的基础上构建多层次的情境分类体系。笔者根据情境数据的来源是否为传感器，将其分为物理情境和虚拟情境，也称物理情境和语义情境。物理情境是从传感器中获取的情境数据。一般而言，一种传感器可以感知一种特定的现象并检测其相关变化。虚拟情境不是直接通过传感器等硬件设备感知的情境数据，而是以软件为媒介获取的用户行为痕迹数据（例如评分、访问次数等），以及通过制定的推理规则从物理情境（低层情境）中推理的高层情境。结合以上分析，情境分类体系框架总结如图1所示。",
+    "context3": "![](images/cf7f5fb9311c37601d8ad152fcd3d15e37ea9ab71bd50c2d159d8733b5b15d8c.jpg)  \n图1情境分类体系框架"
+  },
+  "1.3情境感知": {
+    "context1": "自1992年WantR通过改进胸牌采集员工在公司中的地理位置开始，情境感知的相关研究逐渐引起学者们的关注[。情境感知是以情境概念为基础发展而来的，情境是情境感知重要的数据源。Schilit B等于1994年最早提出了情境感知（Con-text Awareness）的概念[，并认为情境感知主要依靠传感器收集用户所处环境的时间、地点、活动等相关信息，以便于设备理解用户的行为动机和目的等。SalberD等将情境感知定义为能够实时感知情境信息，提供灵活计算服务的功能[4。Ryan N认为情境感知是检测来自传感器的情境数据，并允许用户根据自身兴趣和活动的需求计算物理和逻辑情境[。Brown P J将情境感知定义为能够根据传感器探测的当前情境，自动地提供有效信息和采取相应行动的感知技术。AbowdGD等将情境感知定义为能够依据用户任务需求，利用情境信息给用户提供相关信息和服务的感知技术[。Dey A K在此基础上，认为情境感知（Context Awareness)通过传感器（Sensors）及其相关技术使计算设备能够感知到当前的情境并调整自身状态[。",
+    "context2": "情境感知本质上是一种获取、处理、分析情境数据以及情境信息的技术方法，又称为情境感知技术。情境感知技术不仅包含情境计算，还包括情境信息。其中，情境被视为可被感知并用于描述实体所处状态的数据源，或被抽象为用来表征与人际互动行为相关的实体以及实体本身状况的信息资源。情境不仅刻画了现实环境的客观现象，也对特定实体所处情况进行表征。因此，情境感知技术可以使得设备具有感知所处开放式环境中相关信息的能力，并且能分类、处理自身和交互产生的情境信息。情境感知的特点在于能够根据传感器等设备获取的用户状态、地点等情境信息，实时地反映用户需求及其偏好变化。"
+  },
+  "2情境感知资源推荐方法": {
+    "context1": "用户行为与决策受情境因素影响，BettmanJR等和MallatN等先后论证了情境信息融入推荐模型的重要性及可行性，为推荐模型融入情境信息提供理论支撑。庄贵军等在购物场景下利用Lo-gistic回归模型分析发现一些情境因素对用户购买意愿有明显影响。Baltrunas L证实相同条件下，相比非情境推荐，情境感知推荐能够提供更为有效和满意的推荐结果。由此，不难发现融入情境信息的推荐模型是推荐系统发展的必然阶段。",
+    "context2": "综合以上分析，本文将从“用户一情境一资源”三元关系视角剖析当前融入情境因素的资源推荐研究范式。AdomaviciusG等认为融入情境信息的推荐方法可以分为三大类：1）情境前过滤：基于特定情境筛选需求相关的数据，即提前清洗、过滤输入推荐模型的数据，并不涉及推荐模型本身的改造，评分方法仍可采用任何传统的推荐模型。2）情境后过滤：先是忽略情境信息，利用传统的推荐方法产生推荐结果，然后选取符合用户情境的推荐结果。3）情境建模：该方法结合情境信息特点，融入重要性情境信息构建情境推荐模型。情境前过滤和情境后过滤都是从用户所处情境状况的相似性匹配角度出发，合理过滤输入数据和输出结果。"
+  },
+  "2.1情境前过滤": {
+    "context1": "情境前过滤方法是将情境信息视为行为数据的属性，以情境信息驱动数据的方式过滤与当前情境无关的数据。该种融入方式只是将情境信息作为数据预处理的条件变量，并未涉及资源推荐模型。陈氢等依据当前情境过滤历史情境数据，提升传统协同过滤推荐过程中用户相似度计算的准确度，在此过程中情境前过滤为在同一情境下计算用户相似度提供了条件。刘红等通过分析高校图书馆用户的信息检索、浏览记录等历史数据，结合历史情境和当前情境进行情境信息整合，得出用户所处的综合情境，构建高校数字图书馆个性化信息推荐模型。田雪筠从用户偏好的连续性角度出发，通过计算用户当前情境与历史情境的相似度筛选用户历史偏好行为数据，综合预测用户偏好程度。翟丽丽等结合移动电子商务情境数据特点，利用改进的K-means算法聚类情境信息，筛选相似情境的用户行为数据，提升用户相似度计算的准确度，提升用户满意度2。刘海鸥等利用蚁群层次聚类方法对情境相似的用户进行聚类，发现目标用户的若干最近邻类簇，在此基础上构建面向图书馆大数据知识服务的多情境兴趣推荐模型2。房小可等通过计算情境相似性构建情境网络得出情境关联关系，发掘相似兴趣的用户 。",
+    "context2": "综上，情境前过滤方法多结合当前情境解决协同过滤推荐过程中的发掘相似用户的问题，通过当前情境与历史情境数据的匹配，过滤掉无关数据，提高用户相似度计算的准确率。情境前过滤可分为两种：",
+    "context3": "1）直接前过滤：直接过滤的情境前过滤方法是指直接过滤与当前情境无关或相关度过低的数据，剩余数据则是符合用户所处的当前情境。例如，如用户希望在周末看书，则工作日的用户行为数据将被直接过滤，仅以周末的用户行为数据作为推荐数据集。",
+    "context4": "2）间接前过滤：间接过滤方法是指计算当前情境与用户历史情境的情境相似度，然后通过聚类等过滤方法去除离群无关用户，进而提升推荐的准确度。情境前过滤推荐流程总结如图2。",
+    "context5": "![](images/3c975fc27334430e70d0c572c6cd44bb41b6d1bf00c86e407999bf0f05bf5756.jpg)  \n图2情境前过滤推荐基本流程"
+  },
+  "2.2情境后过滤": {
+    "context1": "情境后过滤方法是先忽略情境信息，然后利用去情境化的数据构建用户一资源评分矩阵，采用传统二维推荐方法预测评分，最后通过情境信息优化推荐结果。",
+    "context2": "殷聪等提出基于TF-IDF的情境后过滤推荐算法，结合情境关联概率和情境普遍重要性构建情境偏好预测模型，然后调整传统推荐初始预测评分。曾子明等在构建基于情境感知的移动阅读个性化信息推荐模型的过程中，结合协同过滤思想在特定情境属性下，计算读者间的相似度，以特定情境属性过滤相似度较低的度者，获取Top-N读者。谭学清等运用信息增益理论获取各情境信息权重，在当前重要情境下对目标资源预测评分，为处于特定情境下的用户提供个性化推荐。",
+    "context3": "结合以往研究，情境后过滤先忽略情境信息，按照传统推荐模型计算用户对资源的偏好程度，然后通过分析当前情境数据，构建当前情境下用户偏好模型，调整初始偏好程度预测，也可依据情境属性的可选择性对推荐结果进行筛选。因此，情境后过滤方法可分为两种：",
+    "context4": "1）直接后过滤：直接后过滤的方法是结合当前情境属性值从候选推荐资源集合中直接过滤掉与当前情境无关或关联度过低的资源，剩余资源则为情境后过滤推荐结果，即生成TOP-N推荐结果。",
+    "context5": "2）偏好预测调整：相较于直接后过滤方法，偏好预测调整较为复杂，是将用户在当前情境下对资源的偏好程度与传统推荐模型计算的初始预测偏好加权调整，生成TOP-N推荐结果。具体流程如图3所示。",
+    "context6": "![](images/c14fb9f3d06412e7d5f139a63102dc9b6a3d85222a9703a615df2ee57c1b9384.jpg)  \n图3情境后过滤推荐基本流程"
+  },
+  "2.3情境建模": {
+    "context1": "情境前过滤和后过滤方法虽都能提升资源推荐的性能，但是两者仍有差别。PannielloU等实验比较了情境前过滤和后过滤推荐资源的准确度，实验结果显示，情境后过滤优于前过滤推荐方法。此外，情境前/后过滤推荐方法仅仅利用部分情境信息表示用户需求及偏好，易造成信息损耗。因此，此种以用户当前情境与历史情境相似度来表示用户需求或偏好的方法难以准确地刻画用户偏好或需求。",
+    "context2": "情境建模是实现情境感知应用的核心内容，单一情境信息难以描述用户所处状态以及用户任务需求，只有融合多种情境信息才能准确揭示用户行为特征及任务需求。HenricksenK等将情境建模定义为能够区分不同情境信息，并能依据任务需求加以利用所获情境信息。情境建模是在情境数据特征的基础之上，首先对情境进行分类，以便情境表达，然后根据分类结果并结合情境数据项确定情境分类的情境属性，最后通过情境属性间的关系，构建情境模型。",
+    "context3": "情境模型是将用户的情境信息融入于用户偏好或需求挖掘模型，以其自身具有的多维度、精细化特点来帮助模型准确地刻画用户偏好。Anand S S等提出了一种推荐过程融入情境的方法，并且通过人类记忆模型来对用户偏好进行建模。洪亮等通过基于散列算法的共同兴趣挖掘方法，融入情境信息挖掘用户群体间的共同兴趣，推荐模型联合、关联、协同共同兴趣，以实现高质量信息推荐。李浩君等构建活动理论视角下移动设备情境感知信息推荐服务系统框架，提出了基于情境本体建模与规则推理的信息推荐方法，将自定义规则与情境语义信息进行匹配计算，实现个性化信息推荐。刘海鸥等融入情境信息扩展“用户一资源”评分矩阵形成“用户一项目一情境”评分矩阵，实现融合情境兴趣的图书馆个性化推荐。综合以上研究，情境建模的具体流程总结如图4所示：",
+    "context4": "![](images/6ebe830229a8c20d127b030e78a182cab4d0c0924f5eed1f4d63ed9ce457b70e.jpg)  \n图4情境建模推荐基本框架"
+  },
+  "3情境感知推荐实践进展": "",
+  "3.1情境数据采集方面": {
+    "context1": "情境感知推荐将情境信息作为资源推荐的重要要素，其首要任务是获取情境数据。由于情境信息具有动态性，移动环境下的智能设备便成为理想的情境数据采集媒介。移动环境下情境数据采集主要经历两个重要阶段：1）本地情境存储，缺乏交互阶段；2）远程实时上传、可视化交互阶段。",
+    "context2": "CORTEX记录、推理、融合情境数据，采用“事件一条件一行为”规则推理出高层情境信息。ContextPhone[4]将用户本身视为情境元素之一，提升情境数据的可理解性和可控性。Momento和MyExperience 解决随机同步上传数据和远程控制功能，实现情境数据的实时获取。EmotionSense 44能够感知个人情感、描述行为活动以及朋友间近距离互动，支持在线、离线以及多学科可扩展情境数据的交流。AWARE具有采集、抽象处理各种传感器数据生成高层情境信息功能，实现情境数据可视化、远程实时上传情境数据。"
+  },
+  "3.2情境感知推荐应用方面": {
+    "context1": "结合以上情境感知推荐方法的总结分析，本部分将相应地从图书馆、电子商务、商业旅游3个主要应用方面分析情境感知推荐实践进展。"
+  },
+  "1）图书馆资源推荐领域": {
+    "context1": "图书馆作为知识的宝库，知识可信度较高，是用户知识获得的主要途径之一。针对用户需求进行知识推荐时，将情境感知技术引入到图书馆知识推荐系统是非常必要的，有助于为用户提供既符合当前情境又满足用户需求的知识资源，从而增强知识推荐的准确性。情境感知技术应用于感知学习者的学习环境以及知识需求，以便在恰当的时间和地点协助用户学习知识，提高学习效率。李静云利用情境感知技术设计、构建了移动图书馆知识推荐系统框架。周玲元等提出通过情境感知技术构建“智慧图书馆”服务平台，实现图书馆实体与线上完美融合的个性化服务[4]。"
+  },
+  "2）电子商务推荐领域": {
+    "context1": "精准营销的首要条件就是理解用户的需求和购买愿望，情境感知技术可以获取用户行为信息、感知用户需求并刻画用户购买愿望。郭顺利等结合移动O20用户特点，考虑情境感知因素，从用户情境、社会情境、技术情境、商家情境、环境情境5个维度构建O20用户需求模型，探索五大情境对O20用户信息需求的影响[4。翟丽丽等结合了移动电子商务情境特点，将聚类方法与协同过滤方法进行结合，优化聚类过程中初始点选择问题并进行商品资源推荐[49 。"
+  },
+  "3）商业旅游推荐领域": {
+    "context1": "在商业旅游领域，情境感知技术通过感知旅游情境信息和用户情境来提升用户的旅游体验。旅游情境是一种将物质性和精神性相融合的特殊情境信息。旅游情境不仅将抽象精神具象化、通俗化、故事化，而且可以突出旅游情境主题，凸显地方特色。屈册采用定性与定量分析，结合结构方程研究方法，分析旅游景点的历史情境、休闲情境和新奇情境，发现3种情境从不同方面对用户旅游体验产生影响，从侧面体现情境感知对提升用户旅游体验具有重要作用，但是并未探讨如何将情境感知技术应用于旅游行业。"
+  },
+  "4总结": {
+    "context1": "本文从情境感知推荐理论与实践两方面展开，基于情境感知的资源推荐研究综述和实践进展分析，使得理论方法与实践应用相互印证。从本文的综述和实践总结中可以发现，基于情境感知的资源推荐研究不仅在理论层面不断突破，而且广泛应用于各领域资源推荐的实践中，进而提升各领域资源推荐服务体验。",
+    "context2": "首先，从情境感知研究出发，本文对情境定义、情境分类、情境感知等概念进行述评，探讨情境感知理论研究的重要进展，全面阐述了情境感知理论的基本概念，有助于加强研究人员对情境感知推荐研究思路的理解。",
+    "context3": "然后，根据情境信息作用于资源推荐的方式，本文将情境感知推荐方法分为情境前过滤、情境后过滤和情境建模3种，并依据此分类对情境感知推荐方法进行分类综述。情境前过滤是将情境信息视为行为数据的属性，以情境信息驱动数据的方式过滤与当前情境无关的数据。情境前过滤本质是以当前情境属性值过滤历史情境数据作为推荐模型的输入数据。情境后过滤是忽略情境属性的作用，以“用户一资源”二维数据构建评分矩阵预测评分，最后通过情境信息调整推荐结果排序，其本质是通过匹配当前情境与推荐结果内含潜在历史情境信息以过滤情境不相关结果。情境建模是将情境信息作为用户行为内在的特征属性信息融入推荐模型的构建过程，从而准确表达用户偏好或需求。",
+    "context4": "最后，本文结合以往情境数据采集应用的理论设计，总结发现：情境数据采集工具的研发主要经历了两个重要阶段：1）本地情境存储，缺乏交互阶段；2）远程实时上传、可视化交互阶段。从实践印证理论的角度出发，本文从图书馆、电子商务、商业旅游3个方面分析了情境感知推荐实践进展。未来，情境感知推荐实践将结合行业特点，实时感知行业数据，记录用户行为数据，为智能资源推荐提供技术支撑，进一步提升精细化、个性化信息资源服务体验。"
+  },
+  "参考文献": {
+    "context1": "[]Resnick P，Iacovou N，Suchak M，et al.GroupLens:An Oper",
+    "context2": "Architecture forCollaborative Filtering of Netnews[C]//ACMConference on Computer Supported Cooperative Work，1994:175-186.  \n[Adomavicius G，Tuzhilin A.Toward the Next Generation of Rec-ommender Systems:A Survey of the State-of-the-art and PossibleExtensions．IEEE Transactions on Knowledge and Data Engi-neering，2005，17（6)：734-749.  \nBPascoe J.Ading Generic Contextual Capabilities to Wearable Com-puters[C]// The 2nd Intermational Symposium on WearableComputers, 1998:92-99.  \nDey A K.Understanding and Using Context[．Personal and U-biquitous Computing，2001，5（1)：4-7.  \nLi X，Eckert M，Martinez JF，et al.Context Aware MidlewareArchitectures:Survey and Challenges[]．Sensors，2015，15(8): 20570-20607.  \nSchilit WN.System Architecture for Context-aware Mobile Compu-tingD]．New York:Columbia University，1995:363-373.  \nBrown P J，Bovey JD，Chen X.Context-aware Aplications:from the Laboratory to the Marketplace[]．IEEE Personal Com-munications，1997，4(5)：58-64.  \n图Abowd G D，Dey A K，Brown P J，et al. Towards a Better Un-derstanding of Context and Context-Awareness[．1999，1707(1）304-307.  \nSchilit B，Adams N，Want R. Context-Aware Computing Appli-cations[C]//The Workshop on Mobile Computing Systems &Applications，1994:85-90.  \n[10Zimmermann A，Lorenz A，Opperman R. An Operational Defi-nition of ContextM．Modeling and Using Context.Springer Ber-lin Heidelberg，2007: 558-571.  \n[1]Abowd G D，Dey A K，Brown PJ，et al. Towards a Beter Un-derstanding of Context and Context-Awareness[M]．Handheldand Ubiquitous Computing，1999.  \n[12]Want R.The Active Badge Location System []．Acm Transac-tions on Information Systems，1992，10（1)：91-102.  \n[13]Schilit B，Adams N，Want R.Context-Aware Computing Appli-cations[C]//The Workshop on Mobile Computing Systems &Applications，1994:85-90.  \n[4]Salber D，Dey A K，Abowd G D.Ubiquitous Computing:Defi-ning an HCI Research Agenda for an Emerging Interaction ParadigmR．Georgia: Institute of Technology，1998.  \n[5]Ryan N. Mobile Computing in aFieldwork Environment:Metada-taElements[R]．Canterbury，Kent，UK:Universityof Kent，1997.  \n[16]Brown PJ.Triggering Information By Context[]．PersonalTechnologies，1998，2(1):18-27.  \n[17]Abowd G D,Dey A K，Brown PJ，et al. Towards a Better Un-derstanding of Context and Context-Awareness[M]．Handheldand Ubiquitous Computing. Springer Berlin Heidelberg，1999.  \n[18]Dey A K.Understanding and Using Context[]．Personal andUbiquitous Computing，2001，5(1)：4-7.  \n[9]李静云.基于用户情境感知的移动图书馆知识推荐系统设计[．图书馆理论与实践，2013，（6)：19-21.  \n[20] Bettman JR，Luce MF，Payne JW. Constructive ConsumerChoice Processes[l．Journal of Consumer Research，1998，25(3): 187-217.  \n[1] Mallat N，Rossi M，Tuunainen V K，et al. The Impact of UseContext on Mobile Services Acceptance: The Case of Mobile Ticke-ting[．Information and Management，2009，46（3)：190-195.  \n[2]庄贵军，周南，李福安．情境因素对于顾客购买决策的影响（一个初步的研究）[．数理统计与管理，2004，23（4)：7-13.  \n[23]Baltrunas L. Context Relevance Assessment and Exploitation inMobile Recommender Systems.Personal & Ubiquitous Compu-ting，2012，16（5):507-526.  \n[24]Adomavicius G，Tuzhilin A． Toward the Next Generation of Rec-ommender Systems:A Survey of the State-of-the-art and PossibleExtensions[.IEEE Transactions on Knowledge and Data Engi-neering，2005，17（6)：734-749.  \n[5]陈氢，冯进杰.多维情境融合的移动情境感知服务系统构建研究．情报理论与实践，2018，41（8)：119-123，164.  \n[26刘红.基于情境感知的高校数字图书馆个性化信息推荐服务研究．图书馆学刊，2016，38（8)：105-108.  \n[7]田雪筠.基于情境感知的移动电子资源推荐技术研究[].情报理论与实践，2015，38（5)：86-89.  \n[8]翟丽丽，邢海龙，张树臣．基于情境聚类优化的移动电子商务协同过滤推荐研究[．情报理论与实践，2016，39（8)：106-110.  \n[9]刘海鸥，孙晶晶，苏妍姬，等．面向图书馆大数据知识服务的多情境兴趣推荐方法[．现代情报，2018，38（6)：64-69，158.  \nB0]房小可，严承希．融合情境关系的社会化媒体用户兴趣推荐．图书情报工作，2017，61（21)：99-105.  \n[]殷聪，张李义．基于TF-IDF的情境后过滤推荐算法研究-以餐饮业O20为例[．数据分析与知识发现，2018，2(11): 28-36.  \n[2]曾子明，陈贝贝．移动环境下基于情境感知的个性化阅读推荐研究．情报理论与实践，2015，38（12)：31-36.  \n[3]谭学清，何珊.用户情境下基于信息增益和项目的协同过滤推荐技术研究[．情报杂志，2014，（7)：165-170.  \nB4Panniello U，Tuzhilin A，Gorgoglione M，etal.ExperimentalComparison of Pre-vs. post-filtering Approaches in Context-awareRecommender Systems [//Proceedings of the ACM Conferenceon Recommender Systems，2009: 265-268.  \n[2]赵兰荣，朱学芳．基于元搜索的农业信息可视化平台实现研究．农业图书情报学刊，2011，23（12)：5-8，11.  \nβ3]李睿，聂晨光，龙文磊，等．信息可视化技术在搜索引擎结果知识体系化输出应用方案设计[．中国管理信息化，2015，18(13)：211-213.  \n[4周宁，徐洁，肖楠.文献检索结果的可视化研究[．情报探索，2007，(6)：3-6.  \n[5]周宁，张弛，张会平．信息可视化与知识检索系统设计[．情报科学，2006，24（4)：571-574.  \n[6许德山，张智雄，邢美凤．面向本体知识库的可视化检索研究．情报理论与实践，2010，33（8)：114-117.  \n[7]焦斌星．用于搜索的网页可视化摘要技术研究[]．合肥:中国科学技术大学，2012.  \nβ8]关岳．大规模微博数据的品牌检索与可视化]．大连：大连理工大学，2015.  \nβ9]黄天云，孙世新，庞朝阳．基于Gauss 滤波的多媒体图像的可视化检索[．系统工程与电子技术，2001，23（1)：77-81，89."
+  },
+  "(上接第159页)": {
+    "context1": "β5]Henricksen K，Indulska J. Developing Context-aware Pervasive Computing Applications:Models and Approach[]．Pervasive & Mobile Computing，2006，2（1)：37-64.",
+    "context2": "β6Anand S S，Mobasher B.Contextual Recommendation [C]// The Workshop on from Web To Social Web:Discovering & Deploying User & Content Profiles.Springer-Verlag，2006:142-160.",
+    "context3": "[7]洪亮，冉从敬，吴志强．移动环境下基于共同兴趣的情境感知信息推荐研究[．情报理论与实践，2014，37（11)：124-128.",
+    "context4": "[8李浩君，张芳．活动理论视角下移动设备情境感知信息推荐服务研究—基于情境本体建模与规则推理[．情报杂志，2018，37(3):187-192.",
+    "context5": "β9刘海鸥，姚苏梅，黄文娜，等．基于用户画像的图书馆大数据知识服务情境化推荐[．图书馆学研究，2018，4（24)：57-63，32.",
+    "context6": "[40]Barron P，Biegel G，Cahill V，et al.Preliminary DefinitionofCORTEX Programming Model[J]．Psychobiology，2003，28(2):229-237.",
+    "context7": "[41]Raento M，Oulasvirta A，Petit R，et al.ContextPhone:A Prototyping Platform for Context-Aware Mobile Applications[．IEEE Pervasive Computing，2005，4(2):51-59.",
+    "context8": "[42]Carter S，Mankoff J，Heer J.Momento:Support for Situated",
+    "context9": "[40]周宁，刘玮．可视化语音信息检索模型研究[．现代图书情报技术，2006，(2)：46-49.  \n[41]李丰，周维彬．国外音乐信息检索可视化研究综述[]．情报探索，2010，（12)：103-106.  \n[2]韩丽华．信息检索可视化效率若干问题研究[]．哈尔滨:黑龙江大学，2008.  \n[43]朱光楠．基于聚类的搜索可视化呈现系统的设计与实现[]．北京：北京邮电大学，2012.  \n[44]孙双琛．基于热点标签学的可视化时尚商品搜索引擎的设计与实现[．广州：中山大学，2012.  \n[45]沈同平，董尹，俞磊．基于知识图谱的我国图像检索研究进展可视化分析[．通化师范学院学报，2019，40（1)：134-141.  \n[46]陈颖.基于摘要信息的中文信息检索可视化系统研究与实现]．哈尔滨：黑龙江大学，2007.  \n[47]刘晓慧．基于可视化检索的广告信息增强系统的设计与实现]．广州：中山大学，2013.",
+    "context10": "(责任编辑：郭沫含)",
+    "context11": "Ubicompexperimentation[l．Proc Chi，2007:125-134.  \n[43]Froehlich，Jon，Chen，et al.MyExperience:A System for inSitu Tracing and Capturing of User Feedback on Mobile Phones.Mobisys，2007:57-70.  \n[44]Rachuri K，Musolesi M，Mascolo C，et al．EmotionSense:AMobile Phones Based Adaptive Platform for Experimental Social Psy-chology Research[//UBICOMP 2010:Ubiquitous Computing,InternationalConference，UBICOMP2O10，Copenhagen，Den-mark，September 26-29，2010，Proceedings，2010:281-290.  \n[45]Ferreira D，Kostakos V，Dey A K. AWARE:Mobile Context In-strumentation Framework[.Frontiers in Ict，2015，2(6)：6.  \n[6李静云.基于用户情境感知的移动图书馆知识推荐系统设计[．图书馆理论与实践，2013，（6)：19-21.  \n[47]周玲元，闫思琪，朱翔宇．“智慧图书馆”情境感知服务模式及评价研究[．图书馆学研究，2017，（21)：25-32.  \n[48]郭顺利，张向先．基于情境感知的移动O20用户信息需求影响因素研究[．情报科学，2016，34（8)：122-127.  \n[49]翟丽丽，邢海龙，张树臣．基于情境聚类优化的移动电子商务协同过滤推荐研究[．情报理论与实践，2016，（8)：106-110.  \n[50]屈册．旅游情境感知及其对旅游体验质量的影响研究[]．大连：东北财经大学，2013.",
+    "context12": "(责任编辑：陈媛)"
+  }
+}

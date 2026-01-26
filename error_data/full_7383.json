@@ -1,0 +1,159 @@
+{
+  "original_filename": "full_7383.md",
+  "智慧医疗情境下双边隐私行为的 交互机理及演化趋势研究": {
+    "context1": "朱光1²沈雨萌潘高枝（1．南京信息工程大学管理工程学院，江苏南京210044;2．南京信息工程大学中国制造业发展研究院，江苏南京210044)",
+    "context2": "摘要：［目的/意义]对智慧医疗情境下不同主体的隐私行为进行分析，建立有效的隐私保护机制，促进智慧医疗的健康发展。[研究设计/方法]针对现有隐私行为研究存在的不足：行为交互关系的单一性、未考虑行为主体的有限理性、忽视监管行为的动态性、如何实现“卡尔多”改进等问题，运用演化博弈理论，设计由智慧医疗服务商和监管部门组成的博弈主体，讨论其在智慧医疗情境下的隐私投入和隐私监管行为。根据不同行为策略的收益、成本和损失，分析双边隐私行为的交互机理，求解演化稳定策略，并探究不同因素对演化稳定策略的影响。［结论/发现」行为双方的隐私行为与投入成本、市场收益、监管成本、声誉损失、监管效率、罚金及补贴等因素密切相关，其中监管效率、罚金和补贴是影响隐私行为交互机理及演化趋势的主要因素。在静态参数条件下，双边隐私行为交互呈线性关系。在动态参数条件下，隐私监管行为的影响减弱，隐私投入行为的收敛和演化依赖于投入成本的降低以及市场收益的增加。［创新/价值」通过应用本文模型和方法，可以动态调整隐私监管机制，减少行政干预，促进智慧医疗行业的良性发展。",
+    "context3": "关键词：智慧医疗；隐私行为；隐私监管；隐私投入；行为交互；演化趋势 DOI: 10.3969/j.issn.1008-0821.2021.05.002",
+    "context4": "（中图分类号）G203（文献标识码）A（文章编号）1008-0821（2021）05-0010-15"
+  },
+  "Research on Interaction Mechanism and Evolutionary Trend of Bilateral Privacy Behavior in Intelligent Health Context": {
+    "context1": "Zhu Guang1,2Shen Yumeng1Pan Gaozhi1   \n(1. School of Management Science and Engineering，Nanjing University of Information Science and Technology，Nanjing 210044， China;   \n2.China Institute of Manufacturing Development，Nanjing University of Information Science and Technology，Nanjing 210044，China)",
+    "context2": "Abstract:[Purpose/Significance]We investigate the privacy behaviorof diferent entities，establishan efectiveprivacy protection mechanism，and promote the development of intellgent health．[Design/Methodology]Considering the curentresearch limitationsof privacybehavior，such as theuniformityofbehavior interaction，withoutconsidering the bounded rationality，ignoring thedynamicof regulation behaviorand howtoaccomplishKaldor improvement，anovelanalysis methodbasedon evolutionary gameis proposed hereas follows.First，thegame players consisted of inteligent health providersandregulation departmentsaredesigned，to investigate theirbhaviorinthe processof intellgent healthapplication.Then，byanalyzingthe profits，costsandlossof diferentgame behaviors，the interactionmechanismand evolutionarilystable strategies（ESS)areemployed.Basedonthis，theimpactsonevolutionary trendof different factorsaredisCussed.［Finds/Conclusion]Theresults show that the bilateral privacybehavior is corelated with investment costs，marketing profits，regulationcosts，reputationloss，regulation eficiency，finesandsubsidies，in whichregulation eficiency, finesandsubsidiesarethemajorfactorsafectingtheinteraction mechanismandevolutionarytrend.Undertheconditionof static parameters，the interactionof bilateral privacybehaviors is linear.Undertheconditionof dynamicparameters，the influenceofregulationbehavioris weakened，and theconvergenceofinvestment behaviorismainlydependentonthereductionof costsandthe increaseof market profits．［Originality/Value]Byapplying the proposed method inthispaper，the privacyregulation mechanismcanbedynamicalyadjusted，toreduce theadministrativeinterventionand promotethedevelopment of intelligent health.",
+    "context3": "Key words:intellgent health；privacy behavior；privacy regulation；privacy investment；behavior interaction；evolutionary trend",
+    "context4": "随着大数据、云计算和5G通讯技术的发展及物联网终端设备的普及，智慧服务（Intelligent Serv-ice）已深入应用至电子商务、社交媒体、公共治理和智慧医疗等多个领域，给用户带来了高质量的服务体验[]。然而，泛在式的智慧服务通过多种方式采集客户端数据，并上传至云端进行分析，增大了数据管理和隐私控制的难度，个人信息中的家庭住址、浏览记录、行动轨迹等数据如果泄露，会给用户带来严重的隐私侵害和人身安全问题[2]。因此，如何建立一个完善的隐私保护机制成为智慧服务进一步发展所面临的挑战。",
+    "context5": "近年来，各国政府、机构和相关学者从法律法规、技术模型、行为策略等多个角度对隐私问题展开了深入研究，出台了HITECH（HealthInformationTechnology for Economic and Clinical Health Act）、GDPR（General Data Protection Regulation)、《电信和互联网用户个人信息保护规定》等法案[3-5]，在数据匿名和访问控制等隐私保护技术层面也产生了诸多研究成果[6。此外，考虑到隐私保护需要不同主体在技术、人员、设备、制度等方面进行持续投入，研究学者从经济学角度分析隐私安全投入的收益、成本和损失，研究不同主体的最优隐私行为和交互机理[。然而，受市场收益、财务预算、投入成本、“搭便车”效应等多种因素的影响和制约，不同主体的隐私投入行为需要政府采取合理的监管措施进行引导和规范[8-9]。因此，监管行为和投入行为之间具有博弈交互特性。同时，由于智慧服务情境的动态性、接收信息的不对称性及主体认知的差异性，隐私投入和隐私监管行为也具有动态性和演化性特征[10] 。",
+    "context6": "目前，国内外学者从动态演化角度对智慧医疗情境下隐私行为交互机理的研究较少，也缺乏对监管行为的动态调整分析。基于此，本文旨在剖析智慧医疗服务商和监管部门间的博弈关系，引入演化博弈理论探寻隐私投人和隐私监管行为的动态博弈过程，分析隐私行为的交互机理及演化趋势，求解行为主体的演化稳定策略(Evolutionarily Stable Strat-egy，ESS)。在此基础上，对智慧医疗情境下隐私信息的合理利用和有效保护提出对策建议。"
+  },
+  "1国内外研究现状": "",
+  "1.1隐私技术研究": {
+    "context1": "从研究文献来看，国内外隐私研究主要从隐私技术和隐私行为两个维度展开。隐私技术是指为保护敏感和机密数据所设计的算法和模型，主要聚焦在身份匿名和访问控制领域[11]，匿名是指在获取敏感数据时，将获取信息与用户身份脱钩，以达到隐私保护的目的，主要方法包括k-anonymity、1-diversity 和 $\\mathbf { m }$ -invariance[12]等。LiX等[13]基于K匿名和Paillier 密码系统的同态特性，设计了无需用户提供真实位置的K近邻兴趣点查询方法，达到了更好的隐私保护效果；FangW等[14提出了一种基于权重属性熵的分类匿名方法，通过信息熵的概念来计算数据集中不同准标识符属性对敏感属性的分类重要程度，在更好地保护隐私数据的前提下确保了数据分类效用；赵婧等[15]提出了一种基于相似轨迹替代查询的位置隐私保护方案，满足匿名性、不可伪造性及抵抗连续查询服务追踪攻击等安全特性。",
+    "context2": "基于访问控制的隐私保护方法是指对访问实体、轨迹和权限等要素加以控制，以达到隐私保护的目的[16]。LiQ等[17]提出了一种基于风险的访问控制模型，通过分析访问者的历史数据，运用信息熵和 EM算法量化隐私风险，从而监测和控制过度访问和非法访问请求；LaiJ等[18]将区块链技术和访问控制模型相结合，设计了一种基于智能合约的物联网访问控制系统，并为该系统建立了基于超级账本的访问控制策略模型；王媛等[19] 提出了一种面向隐私保护的多参与者理性风险自适应访问控制模型，该模型基于香农自信息理论设计隐私风险量化算法，从而分析访问请求的隐私风险。",
+    "context3": "整体来看，隐私技术研究偏向于“被动式”防护[20]，缺乏对隐私行为与隐私偏好的分析，易导致隐私感知偏差，产生数据“可用性”和“私密性”的隐私悖论。"
+  },
+  "1.2隐私行为研究": {
+    "context1": "为弥补隐私技术研究的不足，国内外学者从隐私感知和隐私行为的视角切入，胡昌平等[2]认为信息因素（信息质量、信息敏感度)、主观感知因素（感知信任、感知风险）和平台因素（声誉、隐私政策）是影响用户隐私关注的3类主要因素;李纲等[22]以计划行为理论为框架，分析了社交网络情境下个人信息披露的主要影响因素；李贺等[23]综合运用隐私计算和计划行为理论，通过实证分析对隐私悖论现象及其成因进行了阐述；LeeDJ等[24]构建了圆形城市模型，分析消费者隐私信息的披露对市场竞争的影响；Martin KD等[25]基于人际流言理论，探讨电子商务中消费者隐私信息披露的应用价值，分析隐私信息披露对企业的服务策略和产品定价策略的影响；Cavusoglu H等[26]基于隐私计算视角，运用隐私关注理论、沟通隐私理论和行为计划理论，建立了用户隐私披露意愿的影响因素模型。",
+    "context2": "针对数据“可用性”和“私密性”的“隐私悖论”现象，研究学者认为隐私披露行为与隐私忧虑（损失）以及服务收益密切相关，而隐私投入行为与成本和收益密切相关。因此，众多学者尝试从经济学角度，运用博弈论研究各类隐私行为的交互机理与决策问题。GordonLA等[27]运用博弈论研究隐私安全的投入决策问题，指出影响隐私安全投入的3个重要因素分别是信息系统脆弱性、数据泄露风险和第三方激励措施；在此基础上，Ca-vusoglu H等[28]引入贝叶斯博弈理论，分析投入收益、成本和系统脆弱性等因素对信息系统及隐私安全投资策略的影响；Du S等[29]提出了攻击回报（Return On Attack，ROA）和投入回报（Return onInvestment，ROI）两个概念，认为回报收益的高低对信息系统攻击者和防御者的信息安全策略有着重要影响；HauskenK等[30定义IT公司与外部黑客为博弈主体，指出投入收益和监管机制直接决定了投入意愿。",
+    "context3": "随着市场相互依赖性的提高，研究学者发现信息共享和战略合作可以提高隐私安全的防护水平[31]。Chen L等[32]假设隐私攻防双方完全理性，运用斯塔克伯格博弈模型分析隐私最优行为和最佳资源需求；LiuD等[33]探寻信息共享和隐私行为之间的关系。研究结果表明，企业的隐私投入行为与信息价值密切相关；FielderA等[34基于生命周期理论，将信息安全的行为决策过程划分为多个阶段，运用贝叶斯博弈模型分析信息安全的投入行为；Nagurney A等[35]针对财务预算有限和市场收益未知的情境，引入贝叶斯博弈研究最优的网络供应链的安全投人策略；Hota A等[36基于图论和攻防博弈理论，研究不同节点隐私安全的最优投入策略，以减少系统的脆弱点和降低黑客攻击概率;Ezhei M等[37]针对网络攻击的动态性和长期性，考虑网络攻击的负外部性和网络防御的正外部性，运用差分博弈理论研究不同网络节点的最优投入策略； $\\mathbb { W } \\mathbf { u } \\ \\mathrm { ~ Y ~ }$ 等[38]以商业情境服务为应用背景，设计由用户、公司、黑客组成的博弈主体，从隐私决策的收益、投入和损失角度出发，构建多主体、多策略的隐私博弈模型。"
+  },
+  "1.3研究述评": {
+    "context1": "整体来看，国内外隐私研究取得了诸多成果，但仍存在以下问题：",
+    "context2": "1）基于贝叶斯博弈、差分博弈以及斯塔克伯格博弈的行为交互分析均以博弈主体的理性假设为前提，然而，智慧医疗情境的复杂性、动态性和信息不对称性决定了博弈主体需要在不断的模仿过程中调整行为，在演化过程中实现最优决策。演化博弈理论对于博弈主体的有限理性假设以及种群自然选择的演化机制，能更为合理地描述上述情形[39]。",
+    "context3": "2）目前运用演化博弈理论分析隐私行为交互机理和演化趋势的研究大多将博弈主体的行为关系定义为攻防和敌对[40-41]，少有研究从隐私监管和隐私投入行为的视角切入。关于监管行为与博弈机制的研究以理论分析和政策建议为主，主要集中在供应链决策、金融监管和环境整治等领域，且大多将监管策略定义为静态变量[42-45]",
+    "context4": "3）与其他领域不同，智慧医疗是具有社会福利性质的技术方案，用以解决国内公共医疗系统不完善，医疗成本高、渠道少、覆盖面低等问题。因此，智慧医疗情境下的“隐私投入一隐私监管”博弈需要注重整体效率上的“卡尔多改进”，而不是局部的“帕累托最优”[46-47]。与此同时，智慧医疗情境下的隐私投入行为具有长期性和演化性，监管行为应随之具有自适应性和动态性。",
+    "context5": "基于上述分析，本文通过构建演化博弈模型，研究隐私投入和隐私监管行为的交互机理与演化趋势，并运用实际案例进行数值仿真，以探寻最优的隐私保护模式。"
+  },
+  "2智慧医疗情境下的隐私行为博弈": "",
+  "2.1理论基础与问题描述": {
+    "context1": "由于投入成本、市场收益、外部环境、隐私意识等方面的差异性和复杂性，智慧医疗情境下不同主体的隐私行为在空间维度上具有交互性，在时间维度上具有演化性。主体在单次行为和决策中难以选择最优策略，需要不断试错和模仿，才能达到具有较高收益的稳定状态。演化博弈理论认为，行为主体都是有限理性的，其行为决策是建立在对对方长期观察和模仿的结果之上的[48]。演化博弈的基本思想是：假设存在一个数量较大的群体 $M$ ，选择某一策略A，同时存在一个数量较小的群体 $N$ ，选择策略 $B$ 。当群体 $M$ 和群体 $N$ 的策略相互影响,形成一个混合群体时，若群体 $N$ 获得的收益大于$M$ 的原有收益，则小群体 $N$ 会影响到大群体 $M$ 的策略选择；反之，群体 $N$ 会选择与群体 $M$ 相同的策略。如果一个群体的行为策略能够不被另一个群体影响，则认为该群体达到了演化稳定状态，该群体策略即为演化稳定策略[49]，其基本过程如图1所示。",
+    "context2": "![](images/efe66e678deaeaf35780cb41953e81b43e45c1f575c2c0cab8b96977ae0ad299.jpg)  \n图1主体行为交互与演化过程",
+    "context3": "智慧医疗情境下不同类型的主体在隐私保护过程中，为实现自身利益最大化，不断观察其他主体行为，调整自身策略，打破局部平衡，进行演化交互，最终达到相对稳定的状态。可以看出，演化博弈过程更适合描述智慧医疗情境下隐私行为的交互机理和演化趋势。"
+  },
+  "2.2博弈主体及策略分析": {
+    "context1": "智慧医疗情境是一个结构庞大且复杂的动态环境，涉及监管部门、医疗机构、智慧医疗服务商、患者等不同类型的主体，多主体间的行为交互涵盖多种博弈类型且涉及变量较多，实际操作难度较大。因此，本文从寻求最优隐私保护模式的角度出发，以智慧医疗服务商（以下简称“服务商\"）和监管部门为博弈主体，分析双方在隐私保护过程中不断调整隐私投入和隐性监管策略的演化博弈过程。",
+    "context2": "在整个演化博弈过程中，行为主体在多种因素的共同推动下进行博弈。其中，服务商需要考虑技术研发、软件升级、设备购置、人员培训等多方面的成本，若投入成本低于预期收益，则服务商倾向于选择“积极投入”；若投入成本高于预期收益，则服务商倾向于选择“消极投入”。因此，服务商需要在（积极投入，消极投入）两种行为中进行选择，其策略选择与政府监管、市场收益、投入成本等因素密切相关。监管部门可以采取多种奖惩措施监管服务商以提升隐私保护水平，从而提升政府公信力。若监管成本低于预期收益，则监管部门倾向于“高效监管”；若监管成本高于预期收益，则监管部门倾向于“低效监管”。因此，监管部门需要在（高效监管，低效监管）两种行为中进行选择，其策略选择与声誉收益、声誉损失、监管效率、监管成本等因素密切相关[50]。为实现自身利益最大化的目标，服务商和监管部门需要不断调整“积极投入，消极投入”“高效监管，低效监管”的策略，从而形成演化博弈。"
+  },
+  "2.3模型假设与参数设定": {
+    "context1": "为保证本文构建模型的现实性和有效性，笔者对丁香医生、好大夫、春雨医生等智慧医疗APP进行深入分析，了解其隐私保护机制。与此同时，走访江苏省中医院、南京鼓楼医院、南京市卫生局等多家医疗机构和监管部门，对隐私监管的现状和需求进行深入了解。在上述调研的基础上，为了便于模型构建与求解，做出以下假设:",
+    "context2": "1）隐私意识假设。患者具有较强的隐私安全意识，愿意为高层级的隐私保护选择付费服务。",
+    "context3": "2“经济人”假设。行为主体的行为目的是为了实现自身利益最大化，服务商追求利润最大化，监管部门追求社会声誉和公信力最大化。",
+    "context4": "3）有限理性假设。根据上文分析，服务商和监管部门无法“即刻”做出“收益最大化”的最优决策，需要在不断适应和模仿过程中调整行为，隐私行为具有交互性和演化性。",
+    "context5": "4）主体同质性假设。根据智慧医疗市场和隐私监管现状的调研结果，目前我国智慧医疗仍处于起步阶段，不同监管部门和智慧医疗服务商的隐私策略并没有明显的差异性。因此，本文假定博弈主体具有同质性，即地域、规模、业务等因素对主体隐私行为无显著影响，可以用（积极投入，消极投入）、（高效监管，低效监管）的策略组合统一描述。",
+    "context6": "5）信息非完备性假设。受法律法规、技术方法、投入成本等多方面因素的限制，监管部门无法及时、全面了解服务商的隐私投入情况。因此，本文结合私募股权投资与监管中的博弈分析[51-52]，假设当服务商选择“消极投入”，监管部门选择“高效监管”策略时，服务商有一定的概率逃脱惩罚。",
+    "context7": "在上述假设的基础上，考虑服务商与监管部门选择博弈策略时所考虑的主要因素，对模型参数进行定义，各参数符号及其含义如表1所示。",
+    "context8": "表1模型参数",
+    "context9": "<table><tr><td>符号 参数说明</td></tr><tr><td>Bs 服务商选择“消极投入”策略时的市场收益，Bs&gt;0 Cs</td></tr><tr><td>服务商选择“积极投入”策略时的投入成本，Cs&gt;0 入 服务商选择“积极投入”策略时的收益增率，0&lt;入&lt;1</td></tr><tr><td>服务商选择“积极投入”策略，监管部门选择“高 S</td></tr><tr><td>效监管”策略时，服务商获得的补贴，S&gt;0</td></tr><tr><td>服务商选择“消极投入”策略，监管部门选择“高 F 效监管”策略时，服务商缴纳的罚金，F&gt;0</td></tr><tr><td>服务商选择“积极投入”时，监管部门的声誉收 R 益，R&gt;0</td></tr><tr><td>服务商选择“消极投入”时，监管部门的声誉收 R 益，R&gt;O，R&lt;R</td></tr><tr><td>服务商选择“消极投入”，监管部门选择“高效监 α 管”时，服务商逃脱惩罚的概率，0&lt;α&lt;1</td></tr><tr><td>监管部门选择“高效监管”策略时的投入成本， Cg</td></tr><tr><td>Cg&gt;0</td></tr><tr><td>L 监管部门选择“低效监管”时遭受的声誉损失，L&gt;0</td></tr><tr><td>x 服务商选择“积极投入”策略的概率，0&lt;x&lt;1</td></tr><tr><td>y 监管部门选择“高效监管”策略的概率，0&lt;y&lt;1</td></tr></table>",
+    "context10": "根据上述相关假设和参数定义，当服务商选择“积极投入”行为，监管部门选择“高效监管”行为时，博弈主体的收益分别为：",
+    "context11": "1）服务商的收益为隐私投入带来的预期收益$( \\ 1 + \\lambda ) \\ B _ { s }$ 减去投入成本 $C _ { s }$ ，加上监管部门的财政补贴 $S$ ，最终收益为：",
+    "context12": "$$\nE _ { \\scriptscriptstyle P } = \\left( \\ 1 + \\lambda \\right) B _ { \\scriptscriptstyle S } - C _ { \\scriptscriptstyle S } + S\n$$",
+    "context13": "2）监管部门的收益为政府声誉收益 $R _ { 1 }$ 减去监管成本 $C _ { g }$ ，再减去投入的财政补贴 $S$ ，最终收益为：",
+    "context14": "$$\nE _ { g } = R _ { 1 } - C _ { g } - S\n$$",
+    "context15": "同理可求出其他博弈行为组合下服务商与监管部门的收益，收益矩阵如表2所示。"
+  },
+  "2.4模型求解": {
+    "context1": "假设服务商选择“积极投入”行为的期望收 益为 $\\overline { { E _ { s 1 } } }$ ，选择“消极投入”行为的期望收益为 $\\overline { { E _ { s 2 } } }$ ，平均期望收益为 $\\overline { { E _ { s } } }$ ，则:",
+    "context2": "表2收益矩阵",
+    "context3": "<table><tr><td rowspan=\"2\">服务商</td><td colspan=\"2\">监管部门</td></tr><tr><td>高效监管（y)</td><td>低效监管（1-y)</td></tr><tr><td>积极投入 (x)</td><td>(1+λ)Bs-Cs+S, R-Cg-S</td><td>(1+λ)Bs-Cs，R-L</td></tr><tr><td>消极投入</td><td>Bs-(1-α)F+αS,</td><td></td></tr><tr><td>(1-x)</td><td>R-C+(1-α) F-αS</td><td>Bs，R-L</td></tr></table>",
+    "context4": "$\\begin{array} { r } { E _ { s 1 } = y \\ \\left[ \\left( \\ 1 + \\lambda \\right) \\ B _ { s } - C _ { s } + S \\ \\right] + \\left( \\ 1 - y \\right) \\ \\left[ \\left( \\ 1 + \\lambda \\right) \\ B _ { s } - \\left( - \\lambda \\right) \\ B _ { s } + S \\ \\right] + \\left( \\ 1 - \\lambda \\right) \\ B _ { s } - \\left( \\left( 1 + \\lambda \\right) \\ B _ { s } + S \\ \\right) } \\end{array}$ $C _ { s }$ ] (3)",
+    "context5": "$$\n\\overline { { E _ { s 2 } } } = y \\left[ B _ { s } - \\left( \\ 1 - \\alpha \\right) F + \\alpha S \\right] + \\left( \\ 1 - y \\right) B _ { s }\n$$",
+    "context6": "$$\n\\overline { { E _ { s } } } = x \\ \\overline { { E _ { s 1 } } } + \\left( \\ 1 - x \\right) \\ \\overline { { E _ { s 2 } } }\n$$",
+    "context7": "服务商博弈行为的复制动态方程为：",
+    "context8": "$$\nG ( \\ x ) = { \\frac { d x } { d t } } = x ( \\ { \\overline { { E _ { s 1 } } } } - { \\overline { { E _ { s } } } } ) = x ( \\ 1 - x ) [ \\lambda B _ { s } - C _ { s } + y ( \\ 1 -\n$$",
+    "context9": "$$\n\\alpha ) \\ ( \\ S { + } F ) \\ ]\n$$",
+    "context10": "假设监管部门选择“高效监管”行为的期望收益为 $E _ { G 1 }$ ，选择“低效监管”行为的期望收益为$E _ { G 2 }$ ，平均期望收益为 $E _ { G }$ ，则:",
+    "context11": "$\\overline { { E _ { \\scriptscriptstyle G 1 } } } = x ( ~ R _ { 1 } - C _ { g } - S ) ~ + ( ~ 1 - x ) ~ \\left[ R _ { 2 } - C _ { g } + ( ~ 1 - \\alpha ) ~ F - \\alpha \\right] ,$ $\\alpha { S }$ ] (7)",
+    "context12": "$$\n\\overline { { E _ { G 2 } } } = x ( R _ { 1 } - L ) + \\left( \\ 1 - x \\right) ( R _ { 2 } - L )\n$$",
+    "context13": "$$\n\\overline { { E _ { G } } } = y E _ { G 1 } + \\left( \\ 1 - y \\right) \\overline { { E _ { G 2 } } }\n$$",
+    "context14": "监管部门博弈行为的复制动态方程为：",
+    "context15": "$$\nG ( \\ \\ d y ) = \\frac { d \\ d y } { d t } = \\ d y \\ d y = \\frac { 1 } { E _ { H 1 } } - E _ { H } \\ d y = \\ d y \\ d d = \\ d y \\ d d = \\ d y \\ d d = \\ d y \\ d d = \\ d z \\ d d = 1 - \\ d y \\ d d = - \\sum _ { g } - \\alpha \\ d y \\ d d = 1 - \\frac { d \\ d y } { d t } = 0 \n$$",
+    "context16": "$$\n\\alpha ) ~ F { - } x ( ~ 1 { - } \\alpha ) ~ ( ~ S { + } F ) ~ ]\n$$",
+    "context17": "令 $\\cdot ( \\ G ( \\ x ) \\ , G ( \\ y ) \\ ) = \\left( { \\frac { d x } { d t } } , { \\frac { d y } { d t } } \\right) = ( \\ 0 , 0 )$ ，可得到5个均衡点为 $( \\ 0 , 0 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 0 , 1 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 1 , 0 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 1 , 1 )$ 、$\\left( \\frac { L - C _ { g } - \\alpha S + \\left( \\ 1 - \\alpha \\right) F } { \\left( \\ 1 - \\alpha \\right) \\left( \\ S + F \\right) } , \\frac { C _ { s } - \\lambda B _ { s } } { \\left( \\ 1 - \\alpha \\right) \\left( \\ S + F \\right) } \\right)$ ，定义均衡点$\\biggl ( \\frac { L - C _ { g } - \\alpha S + ( ~ 1 - \\alpha ) ~ F } { ~ ( ~ 1 - \\alpha ) ~ ( ~ S + F ) } , \\frac { C _ { s } - \\lambda B _ { s } } { ( ~ 1 - \\alpha ) ~ ( ~ S + F ) } \\biggr ) \\Biggr \\mathcal { H } ( ~ A , B ) ~ \\circ$"
+  },
+  "2.5均衡点的稳定性分析": {
+    "context1": "演化均衡点的稳定性可以利用雅克比矩阵的局部稳定分析得出[53]，定义雅克比矩阵为:",
+    "context2": "$$\nJ = \\left[ \\begin{array} { c c } { \\displaystyle \\frac { \\partial G ( \\mathbf { \\Phi } x ) } { \\partial x } } & { \\displaystyle \\frac { \\partial G ( \\mathbf { \\Phi } x ) } { \\partial y } } \\\\ { \\displaystyle \\frac { \\partial G ( \\mathbf { \\Phi } y ) } { \\partial x } } & { \\displaystyle \\frac { \\partial G ( \\mathbf { \\Phi } y ) } { \\partial y } } \\end{array} \\right] = \\left[ \\begin{array} { c c } { \\displaystyle a _ { 1 1 } } & { \\displaystyle a _ { 1 2 } } \\\\ { \\displaystyle a _ { 2 1 } } & { \\displaystyle a _ { 2 2 } } \\end{array} \\right]\n$$",
+    "context3": "若矩阵元素满足以下两个条件，则复制动态方程的均衡点为演化稳定策略。",
+    "context4": "$$\n\\begin{array} { l } { { \\bigoplus t r J = a _ { 1 1 } + a _ { 2 2 } < 0 } } \\\\ { { \\bigoplus d e t J = \\left| \\begin{array} { l l } { { a _ { 1 1 } } } & { { a _ { 1 2 } } } \\\\ { { a _ { 2 1 } } } & { { a _ { 2 2 } } } \\end{array} \\right| = a _ { 1 1 } a _ { 2 2 } - a _ { 1 2 } a _ { 2 2 } > 0 } } \\end{array}\n$$",
+    "context5": "根据上述条件，可以得到5个局部均衡点（0,0)、（0,1)、（1,0)、（1,1）、 $( A , B )$ 的具体取值,如表3所示。",
+    "context6": "表3均衡点取值",
+    "context7": "<table><tr><td>均衡点</td><td>a</td><td>a12</td><td>a21</td><td>a22</td></tr><tr><td>(0,0)</td><td>λBs-Cs</td><td>0</td><td>0</td><td>L-Cg-αS+(1-α) F</td></tr><tr><td>(0,1)</td><td>λBs-Cs+(1-α)(S+F)</td><td>0</td><td>0</td><td>-(L-Cg-aS+(1-α) F)</td></tr><tr><td>(1,0)</td><td>-(λBs-Cs)</td><td>0</td><td>0</td><td>L-S-Cg</td></tr><tr><td>(1,1)</td><td>-(λBs-Cs+(1-α)(S+F))</td><td>0</td><td>0</td><td>-(L-S-Cg)</td></tr><tr><td>(A,B)</td><td>0</td><td>α12(A,B)</td><td>Q21(A,B)</td><td>0</td></tr></table>",
+    "context8": "显然，在均衡点 $( A , B )$ 处有， $a _ { 1 1 } + a _ { 2 2 } = 0$ 不满足条件 $\\textcircled{1}$ ，因此均衡点 $( A , B )$ 不是演化稳定策略。因此，只需分析其余4个均衡点的稳定性。",
+    "context9": "1）若 $C _ { s } { > } \\lambda B _ { s }$ 且 $C _ { g } { > } L { - } \\alpha S { + } ( \\ 1 { - } \\alpha ) \\ F$ ，即服务商的隐私投入成本大于投入收益，监管部门的监管成本大于声誉损失、可能获得的缴纳罚金、可能给予的奖励补贴之和，此时，博弈双方的演化稳定点为(0,0)，服务商倾向于选择“消极投入”行为，监管部门倾向于选择“低效监管”行为。该行为组合出现的主要原因在于： $\\textcircled{1}$ 从服务商角度，隐私投入收益无法覆盖过高的投入成本，导致服务商的隐私投入意愿较低； $\\textcircled{2}$ 从监管部门角度，隐私泄露给监管部门造成的声誉损失较低，同时服务商又有一定的概率逃脱惩罚，导致监管部门无法收取罚金甚至付出额外的补贴，因此监管部门不愿投入过高成本选择“高效监管”。",
+    "context10": "2）若 $C _ { s } { > } { \\lambda } B _ { s } { + } ( \\ 1 { - } \\alpha ) \\ ( \\ S { + } F )$ 且 $C _ { g } { < } L { - } \\alpha S { + } ( \\ 1 -$ α) $F$ ，即服务商的隐私投入成本大于投入收益、罚金和补贴之和，监管部门的监管成本小于声誉损失、可能获得的缴纳罚金、可能给予的奖励补贴之和，此时，博弈双方的演化稳定点为（0,1），服务商倾向于选择“消极投入”行为，监管部门倾向于选择“高效监管”行为。该行为组合出现的主要原因在于： $\\textcircled{1}$ 从服务商角度，隐私投入收益加上政府财政补贴和罚款都无法覆盖投入成本，导致服务商的隐私投入意愿较低； $\\textcircled{2}$ 从监管部门角度，监管成本降低（或者声誉损失和监管效率提高），因此监管部门愿意选择“高效监管”。",
+    "context11": "3）若 $C _ { s } { < } { \\lambda } B _ { s }$ 且 $L { < } S { + } C _ { g }$ ，即服务商的隐私投入成本小于投入收益，监管部门的声誉损失小于财政补贴和监管成本之和，此时，博弈双方的演化稳定点为(1,0)，服务商倾向于选择“积极投入”行为，监管部门倾向于选择“低效监管”行为。在此参数条件下，服务商隐私投入收益高于投入成本，愿意选择“积极投入”。与此同时，隐私泄露造成的声誉损失小于监管成本和财政补贴之和，监管部门不愿投入过高成本选择“高效监管”。",
+    "context12": "4）若 $C _ { s } { < } \\lambda B _ { s } { + } ( \\ 1 { - } \\alpha ) \\ ( \\ S { + } F )$ 且 $L { > } S { + } C _ { g }$ ，即服务商的隐私投入成本小于投入收益、罚金和补贴之和，监管部门的声誉损失大于财政补贴和监管成本之和，此时，博弈双方的演化稳定点为（1,1），服务商倾向于选择“积极投入”行为，监管部门倾向于选择“高效监管”行为。该行为组合出现的主要原因在于： $\\textcircled{1}$ 从服务商角度，隐私投入成本较低（或者投入收益、政府奖惩金额和效率较高），因此服务商愿意选择“积极投入”； $\\textcircled{2}$ 从监管部门角度，监管成本降低（或者声誉损失和监管效率提高），因此监管部门愿意选择“高效监管”。",
+    "context13": "从以上均衡点分析可以看出，当监管部门的奖惩参数、声誉损失、监管效率、监管成本发生变化时，监管行为会对服务商的隐私投入行为产生显著影响，博弈双方的隐私行为具有明显的交互特性。"
+  },
+  "3动态模型扩展": {
+    "context1": "在上文构建的模型中，隐私监管行为中的补贴$S$ 和罚金 $F$ 均为静态参数。为探求博弈模型的卡尔多改进，结合智慧医疗情境下主体行为的动态性和演化性，本文研究不同类型的动态奖惩参数对隐私行为的影响。"
+  },
+  "3.1动态补贴和静态罚金": {
+    "context1": "定义动态补贴参数 $S ( \\mathit { \\Pi } _ { x } ) = S ( \\mathit { \\Pi } 1 - x )$ ，即当服务商选择“积极投入”行为的概率增大时，监管部门可以降低其补贴金额以节约成本，服务商选择“消极投入”策略所缴纳的罚金 $F$ 仍为静态参数。此时，博弈双方的收益矩阵如表4所示。",
+    "context2": "表4动态补贴参数下的收益矩阵",
+    "context3": "<table><tr><td rowspan=\"2\">服务商</td><td colspan=\"2\">监管部门</td></tr><tr><td>高效监管（y)</td><td>低效监管（1-y)</td></tr><tr><td>积极投入 (x）</td><td>(1+λ)Bs-Cs+S(1-x), R-Cg-S(1-x)</td><td>(1+λ)Bs-Cs，R-L</td></tr><tr><td></td><td>消极投入 Bs-(1-α)F+αS(1-x)， (1-𝑥)R-Cg+(1-α)F-αS(1-x)</td><td>Bs，R-L</td></tr></table>",
+    "context4": "博弈策略的复制动态方程为:",
+    "context5": "$$\nG ( \\ x ) = { \\frac { d x } { d t } } = x ( \\ { \\overline { { E _ { s 1 } } } } - { \\overline { { E _ { s } } } } ) = x ( \\ 1 - x ) [ \\lambda B _ { s } - C _ { s } + y ( \\ 1 -\n$$",
+    "context6": "$$\nG ( \\ \\ d y ) = \\frac { d \\ d y } { d t } = \\ d y \\ d y = \\frac { 1 } { E _ { H 1 } } - E _ { H } \\ d y = \\ d y \\ d d = \\ d y \\ d d = \\ d y \\ d d = \\ d y \\ d d = \\ d z \\ d d = 1 - \\ d y \\ d d = - \\sum _ { g } - \\alpha \\ d y \\ d d = 1 - \\frac { d \\ d y } { d t } = 0 \n$$",
+    "context7": "$$\n\\alpha ) ~ F { - } x ( ~ 1 { - } \\alpha ) ~ ( ~ S ( ~ 1 { - } x ) ~ { + } F ) ~ ]\n$$",
+    "context8": "均衡点 $( \\ 0 , 0 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 0 , 1 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 1 , 0 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 1 , 1 )$ 、（ $A _ { 1 }$ ，$B _ { 1 } )$ 的具体取值，如表5所示。",
+    "context9": "类似，在均衡点 $( A _ { 1 } , B _ { 1 } )$ 处有 $a _ { 1 1 } + a _ { 2 2 } = 0$ ，因此均衡点 $( A _ { 1 } , B _ { 1 } )$ 不是演化稳定策略。均衡点（0,0)和(0,1)的演化稳定策略分析与静态补贴参数相同。因此，只需分析均衡点 $( \\ 1 \\ , 0 )$ 和（1,1）的稳定性。",
+    "context10": "1）均衡点 $( \\ 1 , 0 ) : \\ \\textcircled { 1 }$ 从服务商角度，若 $C _ { s } <$ $\\lambda B _ { s }$ ，即隐私投入成本小于投入收益，服务商倾向于选择“积极投入”行为； $\\textcircled{2}$ 从监管部门角度，若 $L { < } C _ { g } { + } \\alpha S$ ，即选择“低效监管”时的声誉损失小于选择“高效监管”时监管成本与可能给予的补贴之和，此时监管部门倾向于选择“低效监管”",
+    "context11": "表5动态补贴参数下的均衡点取值",
+    "context12": "<table><tr><td>均衡点</td><td>a11</td><td>a12</td><td>a21</td><td>a22</td></tr><tr><td>(0,0)</td><td>λBs-Cs</td><td>0</td><td>0</td><td>L-Cg-αS+(1-α) F</td></tr><tr><td>(0,1)</td><td>λBs-Cs+(1-α)(S+F)</td><td>0</td><td>0</td><td>-(L-Cg-aS+(1-α) F)</td></tr><tr><td>(1,0)</td><td>-(λBs-Cs)</td><td>0</td><td>0</td><td>L-C-αS</td></tr><tr><td>(1,1)</td><td>-(λBs-Cs+(1-α)F)</td><td>0</td><td>0</td><td>-(L-Cg-aS)</td></tr><tr><td>(A,B)</td><td>0</td><td>a12(A,B)</td><td>Q21(A,B)</td><td>0</td></tr></table>",
+    "context13": "行为。相对于静态参数下的演化稳定条件（ $L { < } C _ { g } { + }$ $S )$ ），动态补贴机制下监管部门有更大的概率选择“高效监管”行为。",
+    "context14": "2）均衡点 $( \\ 1 , 1 ) : \\ \\textcircled { 1 }$ 从服务商角度，若 $C _ { s } <$ $\\lambda B _ { s } \\mathrm { + } ( ~ 1 \\mathrm { - } \\alpha ) ~ F$ ，即隐私投入成本小于投入收益与可能缴纳的罚金之和，服务商倾向于选择“积极投入”行为。相对于静态补贴参数下的演化稳定条件（ $C _ { s } < \\lambda B _ { s } + \\left( \\ 1 - \\alpha \\right) \\left( \\ S + F \\right)$ ），对服务商控制成本和市场收益提出了更高的要求； $\\textcircled{2}$ 从监管部门角度，若 $L { > } C _ { g } { + } \\alpha S$ ，即选择“低效监管”时的声誉损失大于选择“高效监管”时监管成本与可能给予的补贴之和，此时监管部门倾向于选择“高效监管”行为。相对于静态参数下的演化稳定条件$\\ b { L } { > } \\ b { C } _ { g } { + } \\ b { S } )$ ，监管成本要求降低，监管部门有更大的概率选择“高效监管”行为。"
+  },
+  "3.2动态罚金和静态补贴": {
+    "context1": "定义动态罚金参数 $F ( \\ x ) = F ( \\ 1 - x )$ ，即当服务商选择“消极投入”行为的概率增大时，监管部门可以提高处罚金额促使服务商选择“积极投入”",
+    "context2": "行为，监管部门提供的隐私投入补贴 $S$ 为静态参数。此时，博弈双方的收益矩阵如表6所示。",
+    "context3": "表6动态罚金参数下的收益矩阵",
+    "context4": "<table><tr><td rowspan=\"2\">服务商</td><td colspan=\"2\">监管部门</td></tr><tr><td>高效监管（y)</td><td>低效监管(1-y)</td></tr><tr><td>积极投入 (x）</td><td>(1+λ)Bs-Cs+S, R-C-S</td><td>(1-λ)Bs-Cs，R-L</td></tr><tr><td>消极投入 (1-x）1</td><td>Bs-(1-α) F(1-x) +αS, R-Cg+(1-α)F(1-x) -αS</td><td>Bs，R-L</td></tr></table>",
+    "context5": "博弈策略的复制动态方程为：",
+    "context6": "$$\nG ( \\ x ) = { \\frac { d x } { d t } } = x ( \\ { \\overline { { E _ { s 1 } } } } - { \\overline { { E _ { s } } } } ) = x ( \\ 1 - x ) [ \\lambda B _ { s } - C _ { s } + y ( \\ 1 -\n$$",
+    "context7": "$$\nG ( \\ y ) = { \\frac { d y } { d t } } = y ( \\ { \\overline { { E _ { H 1 } } } } - { \\overline { { E _ { H } } } } = y ( \\ 1 - y ) [ L - C _ { g } - \\alpha S + ( \\ 1 -\n$$",
+    "context8": "$$\n\\alpha ) ~ F ( ~ 1 - x ) ~ - x ( ~ 1 - \\alpha ) ~ ( ~ S + F ( ~ 1 - x ) ~ ) ~ ]\n$$",
+    "context9": "均衡点 $( \\ 0 , 0 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 0 , 1 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 1 , 0 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 1 , 1 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } }$ （ $A _ { 2 }$ ，$B _ { 2 } ^ { \\phantom { \\dagger } } ,$ 的具体取值，如表7所示。",
+    "context10": "表7动态罚金机制下的均衡点取值",
+    "context11": "<table><tr><td>均衡点</td><td>a11</td><td>a12</td><td>a21</td><td>a22</td></tr><tr><td>(0,0)</td><td>λBs-Cs</td><td>0</td><td>0</td><td>L-Cg-αS+(1-α) F</td></tr><tr><td>(0,1)</td><td>λBs-Cs+(1-α)(S+F)</td><td>0</td><td>0</td><td>-(L-Cg-aS+(1-α) F)</td></tr><tr><td>(1,0)</td><td>-(λBs-Cs)</td><td>0</td><td>0</td><td>L-S-Cg</td></tr><tr><td>(1,1)</td><td>-(λBs-Cs+(1-α) S)</td><td>0</td><td>0</td><td>-(L-S-Cg)</td></tr><tr><td>(A，B)</td><td>0</td><td>a12（A,B)</td><td>Q21（A,B2）</td><td>0</td></tr></table>",
+    "context12": "类似，在均衡点 $\\left( { \\cal A } _ { 2 } , { \\cal B } _ { 2 } \\right)$ 处有 $a _ { 1 1 } + a _ { 2 2 } = 0$ ，因此均衡点 $\\left( { { A _ { 2 } } , { B _ { 2 } } } \\right)$ 不是演化稳定策略。均衡点(0,0）、(0,1)和(1,0)的演化稳定策略分析与静态罚金参数相同。因此，只需分析均衡点(1,1)的稳定性。",
+    "context13": "从服务商角度，若 $C _ { s } { < } \\lambda B _ { s } { + } \\mathrm { ~ ( ~ } 1 { - } \\alpha )$ $S$ ，即隐私投入成本小于投入收益与可能获得的财政补贴之和，服务商倾向于选择“积极投入”行为。相对于静态罚金参数下的演化稳定条件（ $C _ { s } { < } \\lambda B _ { s } { + } ( \\ 1 -$ α) $( \\ S { + } F )$ ），同样对服务商控制成本和市场收益提出了更高的要求。从监管部门角度，若 $L > S + C _ { g }$ ，即选择“低效监管”时的声誉损失大于选择“高效监管”时监管成本与可能给予的补贴之和，此时监管部门倾向于选择“高效监管”行为。"
+  },
+  "3.3动态罚金和动态补贴": {
+    "context1": "定义动态罚金参数 $F ( \\ x ) = F ( \\ 1 - x )$ ，动态补贴参数 $S ( \\mathit { \\Pi } _ { x } ) = S ( \\mathit { \\Pi } 1 - x )$ ，则博弈双方的收益矩阵如表8所示。",
+    "context2": "博弈策略的复制动态方程为:",
+    "context3": "$$\nG ( \\ x ) = { \\frac { d x } { d t } } = x ( \\ { \\overline { { E _ { s 1 } } } } - { \\overline { { E _ { s } } } } ) = x ( \\ 1 - x ) [ \\lambda B _ { s } - C _ { s } + y ( \\ 1 -\n$$",
+    "context4": "$\\begin{array}{c} \\alpha ) \\left( \\begin{array} { l } { 1 - x } \\end{array} \\right) \\left( \\begin{array} { l } { S + F } \\end{array} \\right)  \\end{array}$",
+    "context5": "表8动态奖惩机制下的收益矩阵",
+    "context6": "<table><tr><td rowspan=\"2\">服务商</td><td colspan=\"2\">监管部门</td></tr><tr><td>高效监管（y)</td><td>低效监管(1-y)</td></tr><tr><td rowspan=\"2\">积极投入 (x)</td><td>(1+λ)Bs-Cs+S(1-x),</td><td>(1+λ)Bs-Cs,</td></tr><tr><td>R-Cg-S(1-x)</td><td>R-L</td></tr><tr><td></td><td>消极投入 Bs-(1-α)F(1-x)+αS(1-x)， (1-x)R-Cg+(1-α)F(1-x)-aS(1-x)</td><td>Bs，R-L</td></tr></table>",
+    "context7": "$$\nG ( \\ y ) = { \\frac { d y } { d t } } = y ( \\ { \\overline { { E _ { H 1 } } } } - { \\overline { { E _ { H } } } } ) = y ( \\ 1 - y ) [ L - C _ { g } - \\alpha S ( \\ 1 -\n$$",
+    "context8": "$$\nx ) \\ + ( \\ 1 - \\alpha ) \\ F ( \\ 1 - x ) \\ - x ( \\ 1 - x ) \\ ( \\ 1 - \\alpha ) \\ ( \\ S + F ) ]\n$$",
+    "context9": "均衡点 $( \\ 0 , 0 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 0 , 1 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 1 , 0 ) _ { \\mathrm { ~ \\scriptsize ~ \\cdot ~ } } ( \\ 1 , 1 )$ 、（ $A _ { 3 }$ ，$B _ { 3 } ^ { \\phantom { \\dagger } } ,$ 的具体取值，如表9所示。",
+    "context10": "表9动态奖惩机制下的均衡点取值",
+    "context11": "<table><tr><td>均衡点</td><td>a11</td><td>a12</td><td>a21</td><td>a22</td></tr><tr><td>(0,0)</td><td>λBs-Cs</td><td>0</td><td>0</td><td>L-Cg-aS+(1-α) F</td></tr><tr><td>(0,1)</td><td>λBs-Cs+(1-α) (S+F)</td><td>0</td><td>0</td><td>-(L-Cg-αS+(1-α) F)</td></tr><tr><td>(1,0)</td><td>-(λBs-Cs)</td><td>0</td><td>0</td><td>L-Cg</td></tr><tr><td>(1,1)</td><td>-(λBs-Cs)</td><td>0</td><td>0</td><td>-(L-Cg)</td></tr><tr><td>(A,B)</td><td>0</td><td>α12（A3,B)</td><td>a21（A,B)</td><td>0</td></tr></table>",
+    "context12": "类似，在均衡点 $\\left( \\mathbf { \\nabla } A _ { 3 } , \\mathbf { \\vec { B } } _ { 3 } \\right)$ 处有 $a _ { 1 1 } + a _ { 2 2 } = 0$ ，因此均衡点 $\\left( \\mathbf { \\nabla } A _ { 3 } , \\mathbf { \\vec { B } } _ { 3 } \\right)$ 不是演化稳定策略。均衡点（0,0)和(0,1)的演化稳定策略分析与静态监管条件下相同。因此，只需分析均衡点(1,0)和(1,1)的稳定性。",
+    "context13": "1）均衡点(1,0)： $\\textcircled{1}$ 从服务商角度，若 $C _ { s } <$ $\\lambda B _ { s }$ ，即隐私投入成本小于投入收益时，服务商倾向于选择“积极投入”行为。此时，服务商的演化稳定策略与财政补贴和缴纳罚金无关，说明服务商和用户的隐私安全意识较好，用户愿意为更高层级的隐私保护付出更多成本，服务商愿意进行隐私投入以获取更高收益。在此参数条件下，监管行为不会对服务商的隐私投入行为产生影响，行为双方不具有交互特性； $\\textcircled{2}$ 从监管部门角度，若 $C _ { g } { > } L$ ，即选择“高效监管”的成本大于选择“低效监管”的声誉损失，监管部门倾向于选择“低效监管”行为。此时，服务商的隐私行为对监管部门也不会产生影响。",
+    "context14": "2）均衡点(1,1)：若 $C _ { g } { < } L$ ，即选择“高效监管”的成本小于选择“低效监管”的声誉损失，监管部门倾向于选择“高效监管”行为。"
+  },
+  "4仿真分析": {
+    "context1": "为了更直观展示隐私投入和隐私监管行为的交互机理与演化趋势，验证构建模型的正确性，本文对实际调研获得的数据进行整理和归一化，并运用Matlab 进行数值仿真，分析博弈双方隐私行为的演化稳定策略。"
+  },
+  "4.1静态监管行为下的数值仿真": {
+    "context1": "设定服务商选择“积极投入”策略和监管部门选择“高效监管”策略的初始比例区间为 $[ 1 0 \\%$ ，$90 \\%$ ]，其余模型参数取值如表10所示。根据不同均衡点的稳定性分析，演化稳定策略存在以下几种情形:",
+    "context2": "1）演化稳定策略1：在智慧医疗应用初期,服务商的隐私投入成本 $C _ { s }$ 和监管部门的隐私监管成本 $C _ { g }$ 较高，用户为高层级隐私保护支付的费用（市场收益）不能覆盖其投入成本，监管部门因隐私泄露而遭受的声誉损失也较小。因此，演化均衡点为(0,0)，演化稳定策略为（消极投入，低效监管)，数值仿真结果如图2（a)所示。",
+    "context3": "表10模型参数取值与演化稳定策略",
+    "context4": "<table><tr><td></td><td>BsCsλSFL</td><td></td><td>Cg</td><td>α ESS</td></tr><tr><td></td><td></td><td></td><td></td><td>600 200 0.3100 100 100 240 0.3（消极投入,低效监管)</td></tr><tr><td></td><td></td><td></td><td></td><td>600 400 0.3 100 100 100 100 0.3(消极投入,高效监管)</td></tr><tr><td>600 120</td><td></td><td></td><td></td><td>）0.3100100 100 1800.3(积极投入,低效监管)</td></tr><tr><td></td><td></td><td></td><td></td><td>600 120 0.3 100 100 300 100 0.3(积极投入,高效监管)</td></tr></table>",
+    "context5": "2）演化稳定策略2：随着智慧医疗应用的逐渐深入，隐私监管成本降低，监管部门愿意选择“高效监管”以避免声誉损失。此时，由于市场环境、技术设备、人员配置等多方面原因，服务商隐私投入成本仍然过高（大于投入收益、罚金和补贴之和)，同时，由于市场信息和监管数据的非完备性，服务商选择“消极投入”仍有可能逃脱惩罚。因此，演化均衡点为(0,1），演化稳定策略为（消极投入，高效监管)，数值仿真结果如图2(b)所示。",
+    "context6": "3）演化稳定策略3：随着市场环境和隐私保护技术的成熟，服务商的隐私投入成本降低，服务商倾向于选择“积极投入”以获得更高的市场收益和政府补贴。此时，若监管部门对服务商补贴过高，或者声誉损失小于成本和补贴之和，则监管部门倾向于选择“低效监管”。因此，演化均衡点为（1,0），演化稳定策略为（积极投入，低效监管），数值仿真结果如图2（c)所示。",
+    "context7": "4）演化稳定策略4:随着不同主体隐私安全意识进一步提高，隐私泄露和低效监管造成的声誉损失远大于监管成本和财政补贴，此时监管部门倾向于选择“高效监管”。服务商的隐私投入成本进一步降低，小于市场收益、补贴和罚金之和。因此，演化均衡点为(1,1），演化稳定策略为（积极投入，高效监管)，数值仿真结果如图2(d)所示。",
+    "context8": "![](images/e2cb290d34cd4c0a2d08af9d5ec69875d8ed8aed9bbdb7b38944eb27124b56d9.jpg)  \n图2静态监管行为下的数值仿真结果"
+  }
+}

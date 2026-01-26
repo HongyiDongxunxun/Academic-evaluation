@@ -1,0 +1,110 @@
+{
+  "original_filename": "full_391.md",
+  "h-bar指数述评与案例研究": {
+    "context1": "毕德强,黄世晴,董颖,吴志民(哈尔滨师范大学,黑龙江 哈尔滨150025)",
+    "context2": "摘要：【目的/意义】由于h指数没有考虑论文合作者的数量,为了提升h指数,会导致名义署名和团队合作规模越来越大的可能。【方法/过程】Hirsch提出:h-bar指数旨在鼓励给独立创作的研究人员加分,同时支持一定的团队合作。该指数与以往根据作者署名区分贡献的h指数改进研究视角不同,h-bar重点考虑以下三种情况的论文纳入h-bar核： $\\textcircled{1}$ 独立署名成果； $\\textcircled{2}$ 论文被引次数大于h-bar但对其他合著者的h核没有贡献的论文； $\\textcircled{3}$ 与其合作论文的其他作者h指数小于其h指数【结果/结论】本文通过对物理学领域具有合作关系的8位研究人员的h指数和h-bar指数的计算和比较，h-bar虽然能提升h指数的公正性和客观性，但是在推广和计算难易度方面仍存在障碍。",
+    "context3": "关键词：h指数;h-bar指数;被引次数 中图分类号：G250 DOI:10.13833/j.issn.1007-7634.2018.05.016"
+  },
+  "Research on H-bar-index and Case Study": {
+    "context1": "BI De-qiang,HUANG Shi-qing,DONG Ying,WU Zhi-min (Harbin Normal University,Harbin 150025,China)",
+    "context2": "Abstract:【Purpose/significance]The numberof the authors in apaper is not considered by h-index,which may lead to the nominal authorshipand more masive scientificcollaboration.【Method/processThe h-bar index advanced by Hirsch aims to advocate single authorshipandalsoappropriate cooperation.Eightresearchers inphysics field with cooperation are computed intermsof hand h-bar.【Result/conclusion】H-baris more objectiveand justicethan h index,butis harder to promote and compute.",
+    "context3": "Keywords:h-index;h-bar;time cited"
+  },
+  "1引言": {
+    "context1": "h指数自提出以来，作为个人科研成就评价手段被广泛接受,优于总引文数量和高影响因子论文数量等文献计量指标。虽然陆续有很多学者就h指数的缺点进行修正研究,但至今没有提出一个明确优于h指数的单一的、数字的文献计量指标。h指数最突出的缺点就是没有考虑到科研人员论文成果中合作者的数量2]。针对以上问题,2006年,Batis-ta等提出根据h核内论文的作者数量的均值平分h指数;毕竟每个作者对于论文的投入和贡献都是不均衡的，这样做有欠公平,也会妨碍合作。Chai、Egghe 等学者在2008年以及Schreiber等人在2009年的修正研究也都是基于类似的想法[3-4]。也有很多国内学者提出如何修正h指数的成果,例如 $\\mathrm { { h } } _ { \\mathrm { { m } } }$ 等考虑排名次序和贡献的指数，但在推广和普及上都存在一定的困难[5-8]。相对于当前、静态h指数的计算,如何获取研究人员历年、动态变化的h指数和趋势也正在成为科技评价和分析预测的研究热点[-]。",
+    "context2": "独立作者对论文的投入或者贡献虽然很大，但他们的h指数与合作发表论文较多的作者相比没有优势。不排除有一部分研究人员的论文数量和h指数都较高,但非第一作者或通信作者的论文数量站了较大的比例,这种情况在规模较大的项目团队中表现会比较突出。目前的科技评价工作往往采用论文数量和被引次数作为指标，采用绝对的定量指标衡量科技工作虽然能保证高度的客观性，但也暴露了一定的缺陷和漏洞,使得这些指数的获得和累积具有一定的可操作性,如一些项目团队的研究人员在论文发表环节往往会把那些贡献较少甚至没有贡献的其它项目团队成员进行署名，甚至有团队只要发表论文就把所有研究人员署名在作者项。这种情况目前还没有被纳入科研诚信标准,属于灰色地带。",
+    "context3": "基于以上考虑,hirsch认为有必要提出一个文献计量指标，能够给独立署名或较少合作发表论文的作者加分，不鼓励名义上的署名，同时又不能妨碍真正的合作,即h-bar指数[12-13]。该指数突出强调独立署名及在合作研究中作为技术支柱的贡献,弱化依靠合作撰写论文获取h指数的情况。"
+  },
+  "2 h-bar指数的定义和计算过程": "",
+  "2.1 h-bar指数的定义": {
+    "context1": "Hirsch将h指数定义为：一位科学家的第h篇论文的引用次数大于等于h次,那么该科学家拥有了h指数,被引次数大于等于h的论文均处于h核内集合。",
+    "context2": "基于h指数概念,h-bar指数定义如下：一位科学家的第h篇论文的引用次数大于等于h次且大于等于其合作者的h指数,即为h-bar指数值。h-bar值通常小于等于h指数值。只有在一位科学家仅独立署名撰写论文成果的情况下，h-bar值才会与h值相等。同时，h-bar值与h值相等并不表示该科学家仅仅独立署名发布论文。与h指数一旦确定就恒定不变相比,随着科学家自身及其合作者h指数的提升幅度变化,h-bar指数值会发生变化。"
+  },
+  "2.2 h-bar指数计算实例": {
+    "context1": "相比较h指数简单、易于计算,h-bar指数的获取较为复杂,本节通过实例展示如何计算h-bar值。表1展示本实例研究人员的成果及其被引次数,按照被引频次降序排列研究人员A所发表的论文P1、P2、P28,即一位h指数为20的作者,其前28篇论文的被引次数以及合作者的h指数数据如表1所示。",
+    "context2": "结合表1论文被引次数及每篇论文最高h值的合作者数据，且假设如下条件：",
+    "context3": "$\\textcircled{1}$ 研究人员A的h指数值为20;$\\textcircled{2}$ P20被引频次为21,研究人员A为单独作者；$\\textcircled{3}$ P19被引频次为25，由研究人员A和另外一个合作者  \n撰写,该合作者的h指数为5;$\\textcircled{4}$ P18、17、16被引频次分别为28、30、35，由研究人员A  \n分别与研究人员B、C、D合作完成，且B、C、D的h指数分别  \n为45、55、40;$\\textcircled{5}$ P15的被引频次为43，由研究人员A和D合作完成。$\\textcircled{6}$ 研究人员A的论文P1-P14或者是单独作者或者是与",
+    "context4": "h值小于A的作者合作完成。",
+    "context5": "表1h-bar指数计算样例数据",
+    "context6": "<table><tr><td>论文 序号</td><td>合作者 (h指数)</td><td>被引次数</td><td>论文 序号</td><td>合作者 (h指数)</td><td>被引次数</td></tr><tr><td>P1</td><td>单独作者</td><td>598</td><td>P15</td><td>h=40</td><td>43</td></tr><tr><td>P2</td><td>h=15</td><td>370</td><td>P16</td><td>h=45</td><td>35</td></tr><tr><td>P3</td><td>h=15</td><td>325</td><td>P17</td><td>h=55</td><td>30</td></tr><tr><td>P4</td><td>h=19</td><td>220</td><td>P18</td><td>h=40</td><td>28</td></tr><tr><td>P5</td><td>单独作者</td><td>197</td><td>P19</td><td>h=5</td><td>25</td></tr><tr><td>P6</td><td>h=19</td><td>150</td><td>P20</td><td>单独作者</td><td>21</td></tr><tr><td>P7</td><td>h=17</td><td>113</td><td>P21</td><td>单独作者</td><td>19</td></tr><tr><td>P8</td><td>h=17</td><td>95</td><td>P22</td><td>h=45</td><td>19</td></tr><tr><td>P9</td><td>h=18</td><td>87</td><td>P23</td><td>h=35</td><td>17</td></tr><tr><td>P10</td><td>单独作者</td><td>86</td><td>P24</td><td>h=20\\40</td><td>15</td></tr><tr><td>P11</td><td>h=12</td><td>60</td><td>P25</td><td>单独作者</td><td>10</td></tr><tr><td>P12</td><td>h=13</td><td>58</td><td>P26</td><td>单独作者</td><td>10</td></tr><tr><td>P13</td><td>h=15</td><td>57</td><td>P27</td><td>h=15\\40</td><td>6</td></tr><tr><td>P14</td><td>单独作者</td><td>57</td><td>P28</td><td>h=10</td><td>3</td></tr></table>",
+    "context7": "h-bar基于h指数。",
+    "context8": "根据 $_ { \\mathrm { h - b a r } }$ 的定义，即一位科学家的第h篇论文的引用次数大于等于h次且大于等于其合作者的h指数,即为h-bar指数值以及以上假设：",
+    "context9": "$\\textcircled{1}$ 论文P20和P19可计入到h-bar值，因为P20为单独作者,P19合作者的h指数小于研究人员A,A的成果对其合作者的h指数没有贡献。",
+    "context10": "$\\textcircled{2}$ 论文18、17、16要从h核去除，因为这些论文合著者B、C、D的h指数高于这些论文的被引次数(也高于A的h指数)。",
+    "context11": "$\\textcircled{3}$ P15被保留，因为它的被引频次为43,高于合著者D的h指数40(即使D的h指数高于A),该篇论文同样贡献于合著者D的h核。",
+    "context12": "$\\textcircled{4}$ P1-P14被保留，因为所有合作者的h指数均小于A,这些论文完全贡献于A的h指数。",
+    "context13": "这样，最初研究人员A的h指数为20,把P16、17、18去掉后,就是h-bar的第一轮取值为 $2 0 - 3 = 1 7$ 。接下来需把A被引频次在17及以上次数的位于P20之后的论文考虑到h-bar的计算范围内,继而假设：",
+    "context14": "$\\textcircled{1}$ 如果A的论文P21被引频次为19,而且是独立作者;",
+    "context15": "$\\textcircled{2}$ 论文P22被引频次为19且与B合作;",
+    "context16": "$\\textcircled{3}$ 论文P23被引频次为17。",
+    "context17": "这样，论文P21被计算在h-bar数值内，使得 $\\operatorname { h - b a r }$ 取值为18;P22不计入，因为该文被引频次小于B的h指数，且A的h指数也小于B的h指数。此时，因为论文P23的被引频次17已经小于 $_ { \\mathrm { h - b a r } = 1 8 }$ ,所以也不计人。对于科研人员A,其h指数 $\\scriptstyle \\mathtt { \\tilde { \\Lambda } } = 2 0 , \\mathrm { h - b a r = 1 8 }$ 。",
+    "context18": "总之，在第一轮中,h核内的一些论文被去掉,产生第一轮的h-bar值,如果第一轮h-bar值 $\\mathrm { \\mathop { < h } }$ ,第二轮甚至更多轮增加h核外的论文，直到A所有的h-bar论文的被引频次大于等于h-bar而且贡献于每篇论文的所有合著者的h核。A的所有其它论文要么被引频次小于h-bar值，或者频次大于h-bar值但对其他合著者的h核没有贡献。本文所指的贡献就是该论文在其作者的h-bar或h核内。"
+  },
+  "3 h-bar指数的优缺点": "",
+  "3.1 h-bar指数的优点": {
+    "context1": "(1)相对客观的评价研究人员影响力。",
+    "context2": "h-bar指数在一定程度上考虑了h核内论文对研究人员指数的贡献。某些研究人员的论文成果中，会有超过一半的成果为非第一作者或通信作者署名，在计算h指数时，这些论文对于该研究人员的贡献是 $100 \\%$ 。h-bar指数则根据h核论文的被引频次以及合著者的h指数计算该论文对于所有作者h-bar指数的贡献。",
+    "context3": "(2)预测研究人员未来的成就。",
+    "context4": "假定有两个初级研究人员A和B,如果A所在的课题小组负责人是一个高级、成果突出的杰出科学家,那么A由于与B的合作就会使得B获得较多的被引频次，但这却不能提升h-bar指数;如果B所在的课题小组负责人是一个年轻的学者，其被引频次会对两人的h-bar指数都有贡献。如果A和B的h指数相当的话,那么B会有较高的h-bar指数,那么B未来的科研潜力和成就会更乐观， $_ { \\mathrm { h - b a r } }$ 指数能准确反映研究人员个人的科研能力。",
+    "context5": "(3)鼓励独立创作。",
+    "context6": "$\\mathrm { h } \\cdot$ -bar指数鼓励独立署名和与那些h指数低于自己的研究人员合作。所以独立署名对于提升h-bar指数更有效，这在一定程度上能鼓励研究人员独立研究和发表成果。但与h指数联合评价,则在独立研究基础上能促进更有效的合作。",
+    "context7": "(4)预防挂名现象。",
+    "context8": "h-bar不鼓励名义上的署名现象。与h指数只会上升不会下降不同,h-bar指数随着时间可能会下降。这样会在一定程度上避免有些人为了获得较高的指数而随意在团队内其他成员的成果上署名。",
+    "context9": "利用文献数据库计算h-bar指数时，需要获得每篇论文被引次数以及每篇论文合作者的h指数数据，包括h核外的论文也要计算在内,这要求在检索时提取每篇论文的作者项后进行二次检索获取合作者的h指数，会花费一定的时间。一个有效的文献计量指标应具备以下一个要素：(a)在统计学意义上有意义，并能用于评价;(b)不能对科学进步的有消极作用(c)对于引用记录的微小变化不能太敏感;(d)最重要的是能通过文献数据库获得数据并能方便计算;(e)计算复杂度适中。在这一点上略有欠缺。但毕竟通过文献数据库还是可以计算的。",
+    "context10": "(2)不适用于某些研究人员。",
+    "context11": "h-bar指数与h指数一样，对于某些研究人员同样不适用,比如成果平平的研究人员以及少而精的人员。所以从这一点上来看,h-bar与h指数相比改进的空间不大。",
+    "context12": "(3)获得认可和推广障碍较大。",
+    "context13": "由于计算复杂，即使公正性和客观性有所提升,相比h指数运算的简单性、操作的便捷性相比，计算一个研究人员的h-bar指数所投入的时间可能从原来的几分钟增加到几小时，对于某些学科动辄几十上百的研究团队规模来说，合作者集合更加庞大，计算一个人的h-bar甚至需要几天的时间。所以无论是研究人员、科研管理人员还是经费决策领导都无法投入精力和时间去计算。传统h指数数据直接来源于WebofScience平台，不需要特别的计算。该平台仅提供当前检索结果的h指数数据。",
+    "context14": "（4)h-bar指数在计算过程中没有考虑合作者的署名顺序。",
+    "context15": "除了单独作者情况外，多于2个及2个以上合作者的情况，即使所有合作者的h指数都高于本人，那如果作为通讯作者或者署名在前1、2、3较重要位置的论文,原本对h核有贡献的论文就可能会被排除掉。"
+  },
+  "4 h相关指数和h-bar指数案例分析": "",
+  "3.2 h-bar指数的缺点": {
+    "context1": "h-bar指数相比较h指数具有一定的优势，它考虑了作者的贡献,同时在一定程度上能避免虚假或不必要的署名现象等。但是h-bar也有缺点。",
+    "context2": "(1)计算相比较h指数来说略为复杂。"
+  },
+  "4.1案例数据描述": {
+    "context1": "本文研究对象选取了细胞生物学领域8位h指数在25-70之间的研究人员，根据ESI平台选定细胞生物学领域,根据篇均被引次数从高到低排列,选择了BISHOP,JM、GOETZL,EJ、JAN,YN、MOSTOV,KE、VALE,RD、VERK-",
+    "context2": "表2 案例对象基本信息",
+    "context3": "<table><tr><td>作者</td><td>当前h指数</td><td>总论文数量</td><td>首篇论文出版年</td><td>来源机构</td></tr><tr><td>BISHOP,JM</td><td>63</td><td>105</td><td>1977年</td><td>UnivCalif San Francisco</td></tr><tr><td>GOETZEL,EJ</td><td>27</td><td>130</td><td>1983年</td><td>UnivCalif San Francisco</td></tr><tr><td>JAN,YN</td><td>70</td><td>107</td><td>1982年</td><td>UnivCalif San Francisco</td></tr><tr><td>MOSTOV,KE</td><td>41</td><td>101</td><td>1989年</td><td>UnivCalif San Francisco</td></tr><tr><td>VALE,RD</td><td>60</td><td>151</td><td>1985年</td><td>UnivCalif San Francisco</td></tr><tr><td>VERKMAN,AS</td><td>46</td><td>142</td><td>1986年</td><td>UnivCalif San Francisco</td></tr><tr><td>WALTER,P</td><td>60</td><td>109</td><td>1984年</td><td>UnivCalif San Francisco</td></tr><tr><td>WERB.Z</td><td>76</td><td>215</td><td>1981年</td><td>UnivCalif San Francisco</td></tr></table>",
+    "context4": "表3研究人员文献数据和h指数对比",
+    "context5": "<table><tr><td>作者</td><td>第一作者论文数</td><td>平均排名</td><td>平均作者数</td><td>h指数</td><td>第一作者h指数</td><td>均分h指数</td></tr><tr><td>Werb-z</td><td>19</td><td>4</td><td>5</td><td>76</td><td>7</td><td>43</td></tr><tr><td>Bishop,jm</td><td>11</td><td>3</td><td>3</td><td>64</td><td>5</td><td>39</td></tr><tr><td>Goetzl,ej</td><td>26</td><td>3</td><td>4</td><td>28</td><td>6</td><td>13</td></tr><tr><td>Jan,yn</td><td>7</td><td>4</td><td>4</td><td>71</td><td>4</td><td>35</td></tr><tr><td>Mostov,ke</td><td>2</td><td>4</td><td>5</td><td>41</td><td>2</td><td>20</td></tr><tr><td>Vale,rd</td><td>31</td><td>3</td><td>4</td><td>60</td><td>15</td><td>33</td></tr><tr><td>Verkman-as</td><td>11</td><td>4</td><td>4</td><td>46</td><td>5</td><td>23</td></tr><tr><td>Walter,p</td><td>11</td><td>3</td><td>3</td><td>60</td><td>3</td><td>36</td></tr></table>",
+    "context6": "MAN,AS、WALTER,P、WERB,Z作为研究对象,作者基本信息见表2。"
+  },
+  "4.2数据检索": {
+    "context1": "本文的数据库选用Webof Science数据库进行数据查询和选取。登录web of science数据库,点击web of science核心文集,机构扩展并检索机构UnivCalif San Francisco,年份设置选取1981年至2014年。选取检索类别为细胞生物学（CellBiology）,排序方式为按被引用次数降序排列。选取研究人员，进入分析检索结果。目前,h指数的获取和计算主要基于Webof Science平台的创建引文报告功能，也可按照被引频次排序检索结果后通过顺序浏览的方式间接获得，不需要复杂的计算手段和过程，所以大多数利用该指数对科研人员绩效进行评价都是对当前科研产出的评价。后可以看出该研究人员的发表论文数，首篇论文发表年，总的h指数和逐年的论文被引用次数。"
+  },
+  "4.3h指数统计分析结果": {
+    "context1": "按照h指数的排序，可以将这些科研人员的贡献排名为JAN、BISHOP、Vale、Verkman、Mostov、Walter、Werb、Goetzl,8位研究人员h指数最低为28,最高为71,差异较大，他们所发表的论文数量分布为102-200。其中论文数量最多Water的h指数为60,论文数量最少的Mostov的h指数为41(见表3)。"
+  },
+  "4.4 h-bar指数分析": {
+    "context1": "本案例所涉及到的8位研究人员h-bar指数的计算过程以Goetzl为例，由于篇幅所限,其他7位研究人员h-bar指数计算过程在此省略。本案例中,需识别的数据包括：h指数核内论文及论文被引此数;h核内每篇论文的合作者数量及每篇论文所有合作者的h指数并率选出h指数最大的合作者，具体数据如表4所示。另外，所有合作者的成果也限制在细胞生物学学科分类。",
+    "context2": "根据前面h-bar指数的计算过程,P20被保留，因为它的被引频次为46,高于合著者的h指数34,即使该合作者的h指数高于Goetzl,也就是说该篇论文同样贡献于合著者的h核。由于Goetzl的h核没有发生变化，所以虽然P29是独立作者,但也不能计人h核。由此可以计算Goetzl的h-bar指数依然为28,没有发生变化，说明其当前h指数主要由其个",
+    "context3": "人贡献获得。",
+    "context4": "表4 goetzl的论文引用及合作者h指数数据",
+    "context5": "<table><tr><td>号</td><td>数量</td><td>论文序 合作者 合作者最 被引次 论文 大h指数</td><td>数</td><td>序号</td><td>合作者 数量</td><td>合作者最 被引次 大h指数</td><td>数</td></tr><tr><td>P1</td><td>1</td><td>h=9</td><td>457</td><td>P16</td><td>3</td><td>h=5</td><td>53</td></tr><tr><td>P2</td><td>1</td><td>h=6</td><td>335</td><td>P17</td><td>0</td><td>独立作者</td><td>52</td></tr><tr><td>P3</td><td>2</td><td>h=13</td><td>226</td><td>P18</td><td>4</td><td>h=6</td><td>51</td></tr><tr><td>P4</td><td>5</td><td>h=11</td><td>216</td><td>P19</td><td>4</td><td>h=14</td><td>50</td></tr><tr><td>P5</td><td>2</td><td>h=12</td><td>189</td><td>P20</td><td>9</td><td>h=34</td><td>46</td></tr><tr><td>P6</td><td>2</td><td>h=19</td><td>171</td><td>P21</td><td>2</td><td>h=16</td><td>46</td></tr><tr><td>P7</td><td>1</td><td>h=6</td><td>148</td><td>P22</td><td>5</td><td>h=25</td><td>45</td></tr><tr><td>P8</td><td>8</td><td>h=7</td><td>130</td><td>P23</td><td>4</td><td>h=3</td><td>37</td></tr><tr><td>P9</td><td>1</td><td>h=6</td><td>122</td><td>P24</td><td>9</td><td>h=26</td><td>36</td></tr><tr><td>P10</td><td>4</td><td>h=14</td><td>111</td><td>P25</td><td>4</td><td>h=19</td><td>35</td></tr><tr><td>P11</td><td>1</td><td>h=7</td><td>101</td><td>P26</td><td>2</td><td>h=6</td><td>34</td></tr><tr><td>P12</td><td>5</td><td>h=9</td><td>82</td><td>P27</td><td>3</td><td>h=9</td><td>31</td></tr><tr><td>P13</td><td>2</td><td>h=6</td><td>76</td><td>P28</td><td>6</td><td>h=12</td><td>29</td></tr><tr><td>P14</td><td>8</td><td>h=22</td><td>67</td><td>P29</td><td>0</td><td>独立作者</td><td>27</td></tr><tr><td>P15</td><td>4</td><td>h=19</td><td>65</td><td>P30</td><td>3</td><td>28</td><td>24</td></tr></table>"
+  },
+  "4.5h指数与h-bar指数的比较": {
+    "context1": "根据以上方法，依次计算其他7位研究人员的h-bar指数为：JAN为71、BISHOP为64、Vale为60、Verkman为44、Mostov为40、Walter为60、Werb为76,这些研究人员的h指数依次为BISHOP,JM位63、GOETZEL,EJ为27、JAN,YN为70、MOSTOV,KE为41、VALE,RD为60、VERKMAN,AS为46、WALTER,P为6O、WERB.Z为76。",
+    "context2": "其中Werb、Vale、Walter等3人的h指数与h-bar指数相等,JAN等3人h-bar指数与h指数相比略有提升,Mostov等2人h-bar指数与h指数相比则略有下降。"
+  },
+  "5结语": {
+    "context1": "自2005年h指数被提出以来，从考虑作者贡献角度来改进h指数一直是文献计量学者努力的一个方面,但截至到目前仍没有公认可接受的改进指标来替代h指数的影响力。h指数的发明人提出的h-bar指数不仅强调对论文成果的贡献,同时还能在一定程度上遏制虚假署名，成为较为理想的改进方向。h-bar指数可以在以下几个方面起到较为显著的效果。",
+    "context2": "(1)遏制虚假署名与合作。",
+    "context3": "本论文所选案例h指数表现优异，所以h-bar指数与h指数相比几乎没有差异。通过对更多案例,尤其国内案例进行研究发现,有学者通过合作研究借助合著者的影响力获得h指数积累和增长的案例并不在少数，还存在个别学者的h指数较高，h-bar指数却较低甚至为0的现象，这些人员既没有独立署名作品，其合作者的h指数又普遍高于他本人。所以h-bar在一定程度上对于\"蹭\"指数的现象进行遏制。h-bar指数最突出的优点就是能在一定程度上遏制论文\"挂名”现象，同时能鼓励研究人员独立研究或者与同类型人才合作共同研究的现象[14]。",
+    "context4": "(2)凸显学术带头人的作用。",
+    "context5": "根据h-bar指数的定义，只有与合作者h指数低于自身的研究人员合作才会提升自身的h-bar指数值，这样在提升研究人员h指数的同时,其h-bar指数也是上升的。对于通过与高影响力和高h指数的科学家合作提升自身h指数的情况,对于h-bar指数都不会有任何提升或影响。所以h-bar指数鼓励独立研究或以学术带头人身份带领团队发表成果。",
+    "context6": "(3)有利于人才引进评估和预测。",
+    "context7": "各高校、科研机构在考虑人才引进时往往会利用发文数量、被引次数、h指数等作为考核指标[5],如果遇到通过与他人合作累积较高h指数的情况，则不利于人才引进的初衷。这时就需要通过h-bar指数进行辨别，排除合作等因素获取的影响力，是对于学者科研能力的真实体现,是对于科技评价方法和指标体系的有力补充。",
+    "context8": "但正如h-bar指数提出者所说,h-bar计算过程较为复杂，一位影响力较高的学者的h-bar指数计算可能需要一天甚至几天的时间,代价较高。如果Webof Science等文献数据库平台能够支持除了h指数之外的其他指数，则对于普及和推广这些相关h指数有较大的帮助。"
+  },
+  "参考文献": {
+    "context1": "1 Hirsch JE.An index to quantify an individual's scientific research output[J].Proceedings of the National Academy of Sciences of the United Stateds of America,2005,102(46):16569-16572.",
+    "context2": "2 Schreiber,M.A case study of the modified Hirsch hmaccounting for multiple coauthors[Jl.Journal of theAmerican Society for Information Science and Tech-nology，2009,60(6):1274-1282.  \n3 Batista,P.D.et al. Is it possible to compare researcherswith different scientific interests?[J].Scientometrics,2006,68(1):179-189.  \n4 Egghe,L. Mathematical theory of the $\\mathrm { h - }$ and $\\mathrm { g - }$ indexin case of fractional counting of authorship[J]. Jour-nal of the American Society for Information Scienceand Technology,2008,(59):1608-1616.  \n5 苏敏,等.文摘数据库个人H指数应用的探索研究[J].情报理论与实践,2015,(2):84-87.  \n6 杨槐.基于文献计量的国际h指数研究综述[J].情报科学,2011,(9):1430-1434.  \n7宋振世,周健.类h指数研究综述及其实证对比分析[J].情报科学,2012,(11):1652-1657.  \n8 龚舒野.基于h指数和 $\\mathrm { h m }$ 指数的《情报科学》核心作者分析[J].情报科学,2013,(1):82-85.  \n9吕娜.科研人员h指数动态变化趋势分析[J].情报理论与实践,2015,(5):112-115.  \n10Rousseau,R.,& Ye,F.A proposal for a dynamic h-type in-dex[J].Journal of the American Society for Information Sci-ence and Technology,2008,(59):1853 - 1855.  \n11 HirschJ. E. Does the h index have predictive power?[J].PNAS,2007,(104): 19193 - 19198.  \n12J.E.Hirsch.An index to quantify an individual's scientificresearch output that takes into account the effect of multi-ple coauthor ship[J].Scientomerics,2010,85(3):741-754.  \n13 刘烜贞.考虑合著者的h指数的修正－国际研究回顾.中国科技期刊研究,2012,23(6):987-991.  \n14 吕娜.合著成果中“伪合作”关系的表现及成因分析D].情报杂志,2014,(10):101-103.  \n15 孔红蕊.基于h指数的机构和个人绩效研究].中国科技信息,2017,(2):18-19.",
+    "context3": "(责任编辑：孙晓明)"
+  },
+  "（上接第93页）": {
+    "context1": "4 刘或菲.基于人工智能技术的数字图书馆个性化信息服务系统研究[J].图书馆学刊,2015,(6):110-113.  \n5 庞英智.基于多Ageng技术的智能搜索引擎在数字图书馆中应用[J].情报科学,2010,(6):1388-1391.  \n6熊建.基于Ageng图书馆管理信息系统功能扩展[J].图书馆学刊,2013,(5):118-120.  \n7韩丽.Agent技术在数字图书馆个性化信息服务中的应用[J].现代情报,2008,(4):104-105.  \n8 赵鹏.基于云计算的数字图书馆个性化信息服务的设计[J].山西师范大学学报(自然科学版),2012,(6):104-  \n105.  \n9黄力军,彭凤.人工智能技术在图书馆计算机网络安全中的作用[J].现代情报,2008,(12):76-77.  \n10 李默,梁永全.高校图书馆学术资源推荐策略及系统架构研究[].图书馆学研究,2015,(7):57-62.",
+    "context2": "(责任编辑：孙晓明)"
+  }
+}

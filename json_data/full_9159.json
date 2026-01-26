@@ -1,0 +1,89 @@
+{
+  "original_filename": "full_9159.md",
+  "美国高校图书馆RSS应用现状调查及其后示": {
+    "context1": "申彦舒",
+    "context2": "（湖南人文科技学院图书馆，湖南娄底417000）",
+    "context3": "[摘要]文章通过对美国高校图书馆的RSS应用情况进行调查，对RSS应用的现状和特点进行了分析，同时阐述了对国内高校图书馆提升RSS服务的启示。",
+    "context4": "〔关键词]高校图书馆；RSS；调查；后示",
+    "context5": "[中图分类号]G259〔文献标识码]A〔文章编号〕1002-1167（2012）02-0061-04"
+  },
+  "1前言": {
+    "context1": "RSS（Really Simple Syndication，简易聚合）作为新兴的互联网信息传递、聚合、交流管理的技术，以其强大的信息聚合和推送功能，在“升级”图书馆传统服务、建设“图书馆2.0”工作中具有重要作用（，是目前实现数字图书馆个性化服务的有效途径之一，近年来在国内外高校图书馆得到了广泛应用。本文希望通过分析美国高校图书馆RSS技术应用的现状及特点，为提升国内高校图书馆RSS服务提供一些借鉴和后示。"
+  },
+  "2调查对象及调查方法": {
+    "context1": "本次调查选取的调查对象是美国高校图书馆。美国高校图书馆的选定是根据“2011年美国综合性大学排行榜”，调查前100名大学的图书馆。",
+    "context2": "调查方法采用文献调查和网站调查相结合的方法。文献调查以中国期刊全文数据库、维普期刊全文数据库、EBSCOhost数据库中相关论文为调研对象，对文中提及或介绍美国高校图书馆RSS 服务的实例进行查阅和归纳。网站调查是对前100名美国高校的图书馆网站进行逐个访问，调查核实该校图书馆是否提供RSS服务以及服务内容、服务特点等情况。"
+  },
+  "3美国高校图书馆RSS应用现状及特点": "",
+  "3.1普及程度高": {
+    "context1": "调查结果发现，在选取的100所美国高校图书",
+    "context2": "馆中，82所图书馆开展了RSS服务，占 $82 \\%$ ，这说明RSS在美国高校图书馆得到了普及。"
+  },
+  "3.2服务内容丰富": {
+    "context1": "美国高校图书馆提供的RSS服务丰富多样，主要包括以下几类：",
+    "context2": "（1）新闻消息类。提供这类服务的图书馆数量最多，在82所提供RSS服务的高校图书馆中，几乎所有图书馆都提供了此类服务。这些新闻消息主要包括图书馆举办的各种活动通知、最新讲座、新到的各种电子资源预告、最新通告、培训通知和展览活动等。如耶鲁大学图书馆利用RSS发布重大活动开馆时间的调整、讲座等消息，对图书馆新闻进行了较为丰富的分类，包括Events、Exhibi-tions、Netcasts、News $\\&$ Announcements、On-line Exhibitions、Projects、Resources $\\&$ Services等7个类，并提供OPML分类订阅和打包订阅2]。",
+    "context3": "（2）新书通报类。这类RSS服务的目的是向用户推送入藏文献的最新动态信息，使用户能够及时获得图书馆新到图书的信息。新书通报的定制可分为两种：无用户差别的一般性定制；支持个性化的定制。如麻省理工大学图书馆对新到图书的基本信息（包括图书的作者、索书号、馆藏地点等）进行推送，并且提供新书的分类订阅，将新书分成Art、Architecture $^ +$ Urban Studies、Historical $^ +$ Archival Collections、Management、Science、Hu-manities、Engineering、Social Sciences 等8个大类，并且在每一个大类下，都进行了更细化的分类，如 Science 又细分为 Astronomy、Chemistry等，使读者能够更有针对性地进行分门别类的订阅，提供 feedmyinbox和Rss2email实现RSS集中订阅到邮箱[3。并且部分图书馆的新书通报还提供了基于题名、责任者、ISBN、出版社等多重限定的定制。",
+    "context4": "（3）期刊、数据库等订阅服务类。这类服务不仅取决于图书馆，更取决于数据库开发商。目前很多数据库都提供了RSS订阅功能，图书馆只要提供一个链接，链接到数据库的订阅界面，方便读者进行期刊、数据库的订阅。按照其服务方式，可分为基于检索词的订阅和基于期刊目次的订阅。EI、Proquest、PubMed等数据库提供的是基于检索词的订阅，IEEE、Nature、Science等提供的是基于期刊目次的订阅。如加州理工学院图书馆提供了如PubMed、IEEEXplore等数据库的订阅4，威斯康星大学麦斯顿分校图书馆、阿拉巴马州大学图书馆等也有基于RSS的期刊目次服务〔5）。",
+    "context5": "（4）论坛、多媒体资源等订阅服务类。杜克大学图书馆提供了RSS论坛订阅，当论坛有新的消息评论内容时，将第一时间推送给用户（6]",
+    "context6": "（5）课题研究跟踪、专题信息服务类。美国多数高校图书馆提供了课题研究跟踪、专题信息RSS推送服务，通过按照用户关心的课题或学科内容进行整理，形成如艺术类专题、健康类专题、某一学科的研究专题、地方特色专题等热点信息的定制频道，用户可以根据个人的需要订阅相关的资源。如麻省理工大学图书馆提供的课题研究跟踪服务，主要是通过名叫Smile的校内课题博客平台实现对所有的订阅用户进行该校研究课题的推送。",
+    "context7": "（6）参考咨询服务类。RSS服务中还为读者提供一个与图书馆交流的平台，进行实时咨询，可及时解答读者有关数据库利用、图书馆资料以及其它方面的问题。如圣路易斯华盛顿大学图书馆、芝加哥大学图书馆等开设了“AskaLibrarian”服务，实时解答读者问题，并以RSS形式推送给用户。",
+    "context8": "（7）网络资源导航服务类。这类服务主要是对新闻、网络学术资源等进行整合和推送，在一定程度上可以减少读者查找网络信息资源的盲目性。如乔治亚州大学图书馆提供的网络信息资源导航服务内容极为丰富，有非营利研究、教育新闻、公正健康、中东新闻、科技新闻等网络资源的定制。"
+  },
+  "3.3应用技术成熟": {
+    "context1": "首先，美国高校图书馆在技术层面上基本上可确保RSS的成功订阅，很少出现订阅不成功的情况。其次，美国高校图书馆在应用RSS技术时，能够广泛地很好地实现与其它web2.（技术的融合。在提供RSS服务的美国高校图书馆中，较多图书馆实现了RSS与博客、播客技术相融合，提供博客、播客订阅服务。如埃默里大学图书馆、华盛顿大学图书馆等提供了博客订阅服务，当博客上有新的内容时，将及时推送给用户，以实现资源的共享。耶鲁大学图书馆、普林斯顿大学图书馆等除了提供博客订阅服务，还提供了播客订阅服务。还有不少高校实现了RSS与维基、及时通讯工具等web2.O技术的融合，使得图书馆提供的RSS服务丰富多样。此外，利用互联网上一些免费的新技术，如 PBwiki、Flickr、Google Map 等，实现软件之间的混搭。"
+  },
+  "3.4“以用户为中心”的服务理念": {
+    "context1": "“以用户为中心”的图书馆服务理念在美国高校图书馆的RSS 服务中得到了很好的实现，处处为用户的需求设想。很多高校在提供RSS服务的同时，不仅把RSS的概念、操作步骤、阅览器下载等信息进行了详细介绍，还进一步将RSS技术与其它相类似的技术进行比较，以说明图书馆采用该技术的优势，同时还会提供许多与RSS相关的资料，便于对RSS感兴趣的读者进行更深层的了解。如麻省理工大学图书馆在提供上述使用说明的同时，还进行了RSSFeed与Email alerts的比较，在服务项目设置上能够紧紧围绕着学生、教师的学习科研的需求，使图书馆的服务与学习、教学、科研融为一体，每项服务都附有FAQ或者咨询馆员的联系方式。"
+  },
+  "3.5系统研发多样化": {
+    "context1": "RSS 服务系统的研发有以下几种方式：一是图书馆自行开发。提供RSS服务通常需要图书馆几个部门的协作，由相关人员组成任务编组，分工协作，彼此沟通协调，开发出具有本馆特质的RSS系统。二是采用具有RSS功能的图书馆自动化管理系统。如美国图书馆信息系统集成公司Innova-tive的“新千年系统”，该系统厂商主动规划并提供相关的RSS服务，耶鲁大学图书馆采用的就是这种系统，可以实现新书通报、到期通知、预约到馆通知、书目检索等RSS功能。三是图书馆合作开发。使用相同系统的图书馆组成联盟，各馆开发的RSS系统，提供友馆分享使用。四是RSS技术外包。对于缺少人力自行开发RSS系统的图书馆，技术外包也是一种可行的途径，将RSS系统委托给专门公司进行开发和维护。"
+  },
+  "4对国内高校图书馆提升RSS服务的后示": "",
+  "4.1丰富 RSS 服务内容": {
+    "context1": "目前，国内图书馆提供的RSS服务多限于新闻消息、新到资源的一般推送、新书通报等服务，缺乏对RSS服务内容的深入挖掘[，没有充分地认识和开发利用RSS进行科研课题跟踪和教学参考服务，利用RSS 提供论坛、播客、博客、多媒体资源等订阅服务的图书馆也很少。因此，国内高校图书馆可以借鉴美国高校图书馆的成功经验，加强RSS的深层次应用，使RSS服务不断完善、更加合理。",
+    "context2": "（1）开展课题跟踪推送服务。从当前RSS技术层面上来看，课题跟踪推送服务并不难实现，完全可以成为国内高校图书馆RSS服务中的新内容。这样将有利于用户进行科研和学习，促进科学研究。",
+    "context3": "（2）开展音乐、影视等多媒体视听资源的推送服务。如麻省理工大学图书馆利用RSS向用户推送music服务，这样一方面可以丰富学生的生活，培养学生对艺术的兴趣，另一方面使图书馆这方面的资源得到充分利用。我国高校图书馆也可以借鉴这种服务，培养读者对我国艺术文化的兴趣。",
+    "context4": "（3）开展学科专题RSS订阅服务。不论从资源建设还是功能设置上，图书馆都要非常重视与教学的联合，美国很多图书馆已经通过RSS把所有的馆藏收集起来进行推送。国内各高校图书馆也可以根据每个学校的专业特色和专业设置情况制定相应的学科专题信息频道，以方便学校各学科各专业的教学。"
+  },
+  "4.2加快RSS技术及相关技术的发展与完善": {
+    "context1": "（1）国内高校图书馆应加强RSS技术及相关技术的发展，确保RSS的成功订阅，及时推送服务内容，让读者保持信任与依赖。",
+    "context2": "（2）充分重视RSS技术与其它技术之间的融合，丰富订阅内容，增加订阅渠道。Web2.0技术在国内高校图书馆中得到了一定程度的应用，部分图书馆提供了几项web2.（技术应用，但并没有将这些服务进行有效的融合。RSS可以很好地与博客、书签、维基、播客等技术进行融合，以提供更为丰富的服务内容；同时，RSS 还可以与QQ、MSN等即时通讯软件进行结合，以提高RSS订阅的灵活性。",
+    "context3": "（3）技术力量比较强的图书馆，还可以利用混搭技术Mashup进行资源、应用和服务的有效整合，为高校图书馆的RSS服务开辟更加广阔的发展空间。"
+  },
+  "4.3加强RSS服务的宣传力度": {
+    "context1": "图书馆在提供RSS服务时一定要做好宣传与推广工作，特别要注重RSS及相关 Web2.O技术的使用范围、使用方法以及图书馆利用该技术、服务带来的优势等方面的介绍，否则，其使用范围、使用效果将会大受影响。图书馆可以通过各种途径进行宣传，如定期讲座、新生入学教育、文献检索课、板报、图书馆新闻公告、宣传手册等形式对读者进行宣传教育，以吸引更多的读者关注它，引导读者熟悉RSS服务，并乐于接受RSS 服务，真正做到以“用户为中心”，立足于为用户提供服务。此外，可以对馆员进行重点培训，使他们成为新技术、新服务应用的直接宣传推广者。"
+  },
+  "4.4加强专业人队伍建设": {
+    "context1": "Web2.0是图书馆员与用户共同参与、互动的服务模式，图书馆员的服务能力和职业素质直接影响到服务的质量，国内图书馆RSS服务的薄弱在一定程度上显示了相关人才的缺乏，因此，加强图书馆员队伍的建设是开展web2.。服务至关重要的一步。图书馆员必须加强对Web2.（技术的学习和掌握，努力接受Web2.O理念和使用Web2.0技术，提高新技术环境下的业务素质，提升服务技能。可以邀请知名学者开展相关讲座或派送馆员外出参观学习，与国内外高校、IT界建立紧密的合作关系，促使图书馆员树立顺应时代发展需要的服务理念，把现有图书馆员培养成既懂图书馆学、信息学专业知识，又精通计算机技术的复合型人才。"
+  },
+  "4.5突破单向推送，注重效果跟踪": {
+    "context1": "图书馆提供的各类服务是因用户的需求而产生，并因用户需求的不断变化而逐步发展变化的。因此，要广开言路，对RSS服务进行效果的反馈调查，为服务功能修正、技术调整提供依据。一是通过RSS技术本身具有的统计功能，分析各种统计数据，掌握应用现状，并在此基础上，对日志进行数据挖掘，随时改进服务。二是通过问卷调查、开通论坛、设置留言栏等方式收集反馈信息，定期进行分析，以优化服务。三是在技术上实现突破RSS 的单向推送。现在的RSS技术只是从RSS服务提供者向订阅者的单向推送，可以在RSSFeed里添加一些接口，让订阅者能够向RSS服务提供"
+  },
+  "者提供反馈，突破单向推送，这样将会给RSS服务带来新的契机。": "",
+  "[参考文献]": "",
+  "〔1]娄秀明，丁鹏宇．上海地区图书馆RSS应用调研及分析〔J]．图书馆杂志，2009（2)：53-57.": {
+    "context1": "[2]Yale University Library News[EB/OL].[2011-05- 03].http://www.library.yale.edu/librarynews/.   \n[3]New books in the Libraries[EB/OL]．[2011-05-03]. http://libraries.mit.edu/help/rss/barton/.2oll-05-03.   \n[4]http：//library. caltech.edu/.2011-04-29."
+  },
+  "[5]张茵，朱黎．RSS在图书馆信息服务中的应用研究[J]．医学信息，2009（2)：197-200.": {
+    "context1": "[6] follow our blogs and feeds [EB/OL]．[2011-04-28]. http：//library.duke.edu/.",
+    "context2": "〔7]董伟，贾东琴．RSS在图书馆应用实例分析〔J]．图书情报工作，2009（5)：82-85."
+  },
+  "Investigation on the Application of RSS Technology in American Academic Library and Its Enlightenment": {
+    "context1": "SHEN Yan-shu",
+    "context2": "(Library of Human Institute of Humanities，Science and Technology，Loudi 417ooo,China)",
+    "context3": "Abstract:Thisarticleanalyzes thestatusandfeaturesofRSSapplications inAmericanacademic libraries through investigation ind presents that it brings the enlightenment for domestic academic libraries to enhance its RSS service.",
+    "context4": "Keywords：academic library；RSS；investigation；enlightenment",
+    "context5": "[作者简介]申彦舒（ $1 9 7 9 - )$ ，女，硕士，湖南人文科技学院图书馆馆员。",
+    "context6": "[收稿日期]2011-06-14",
+    "context7": "（上接第151页）"
+  },
+  "Discussion about Improving the Experiencing Strategies of Users in the Education for the Library Users": {
+    "context1": "YUAN Qing-rong",
+    "context2": "（Huangshi Institute of Technology Library，Huangshi 435oo3，China ）",
+    "context3": "Abstract：Theeducationeffectmaybeenhanceddue toimproving theexperienceof users.It shouldbe givenprominencetothat thereaders participate inand strengthen theexperiencein theuser education.Thelevelofusershouldbe disparted andbecome multisorts experience.Thelibrary mustbe basedonthe demandof readers，holding theexperiencing opportunityof readers. The usingexperienceof userscanbe promotedbytheseavailable strategies andthesatisfyingdegreeof users touniversitylibraries may be strengthened.",
+    "context4": "Keywords: university libraries； user education; experience of users； strategy"
+  },
+  "〔作者简介〕袁庆荣（1974一），女，黄石理工学院图书馆馆员。": {
+    "context1": "[收稿日期]2011-06-14"
+  }
+}

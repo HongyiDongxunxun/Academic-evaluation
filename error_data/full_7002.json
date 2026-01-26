@@ -1,0 +1,68 @@
+{
+  "original_filename": "full_7002.md",
+  "数据仓库元数据互操作性技术研究进展": {
+    "context1": "潘定，沈钧毅",
+    "context2": "（西安交通大学 计算机科学与技术系，陕西 西安710049)",
+    "context3": "摘要：在数据仓库环境中，元数据互操作性是一个关键问题。本文对数据仓库中的元数据互操作性技术的研究、应用进行综述。讨论了元数据管理需求、体系结构模式，分析了元数据管理标准，详细讨论了存储库结构、交换方式、变更管理以及模型管理等元数据交换的关键实现技术，并指出进一步研究问题。",
+    "context4": "关键词：元数据互操作性；元数据管理；数据仓库；存储库中图分类号： $\\mathrm { T P 3 1 1 }$ 文献标识码：A 文章编号：1007-7634（2005）10-1595-05"
+  },
+  "Research on the Advances in Metadata Interoperability Technology for Data Warehousing": {
+    "context1": "PAN Ding， SHEN Jun-yi",
+    "context2": "(Department of Computer Science and Technology，Xi'an Jiaotong University， Xi'an 71O049，China)",
+    "context3": "Abstract ：Metadata interoperability is a key problem in data warehouse environment:This paper gives a comprehensive survey on research and application of metadata interoperability technology for data warehousing·It discusses requirements and schema of metadata management，analyzes existing standards for metadata management，and investigates key techniques of repository scheme， exchange methods，change management，and model management：Finally，focuses on the future research topics·",
+    "context4": "Key words :metadata interoperability ；metadata management ；data warehouse；repository"
+  },
+  "1引 言": {
+    "context1": "元数据是人们日常活动的重要部分。元数据技术及其应用在许多领域受到密切关注，如数据库、图书馆、远程教育、地球科学等。在数据仓库环境中，元数据是用于支持数据仓库开发和管理的任何信息，通常保存于存储库（repository）中，并提供给用户或软件工具使用。元数据管理是最重要也是最不明确的重要成员。在此环境中，元数据互操作性，即各种软件工具间（存储库）交换或存取元数据的能力，是元数据管理的关键问题之一。",
+    "context2": "数据仓库环境需要多种软件工具的集成，因而对互操作要求十分迫切。但由于异构成员各自独特的元数据模型和存储方式，互操作一直是困难的问题[1]。业界早已试图建立元数据交换标准，如由EIA（Electronic IndustriesAlliance）制定的 CDIF（CASE data interchange format）采用面向对象的实体关系模型技术来定义工具的元模型（metamodel），定义工具间交换元数据时传递的结构和内容，但这些标准并未被普遍采用。欧洲DWQ（Data Ware-houseQuality）项目试图通过系统地充实数据仓库的语义基础来改进数据仓库的设计和操作质量[1]。莱比锡大学的 MMDWE（Metadata Management in DataWarehouseEnvironments）项目开发了一个基于UML的元数据模型作为数据仓库中元数据存储库的基础[2]。苏黎世大学的 SMART （Supporting metadata fordata warehousing systems）项目专注于数据仓库环境中设计和开发元数据系统的研究[3]。斯坦福大学的Whips项目中也涉及到元数据互操作的问题。国内在这方面的研究还处于起步阶段，主要是介绍、引进国外元数据管理的概念、技术和方法，未见成功的实用系统报道。"
+  },
+  "2数据仓库的元数据管理": {
+    "context1": "通常将元数据分为技术元数据和业务元数据。技术元数据是关于系统技术细节的元数据，用于开发、管理和运行；业务元数据提供面向业务的数据内容描述，使业务人员能够理解数据含义。",
+    "context2": "存储库的概念模式称为元模型或信息模型。元模型是存储库技术的核心，必须提供既适合各类元数据保存，又适合用户、软件工具存取的模式。元数据有两种使用方式[3]： $\\textcircled{1}$ 作为数据仓库系统的标准文档； $\\textcircled{2}$ 作为软件工具的控制信息。软件工具既是元数据的产生者，也是消费者。",
+    "context3": "元数据管理应支持数据仓库的处理流程，支持开发和使用，并与各成员紧密集成。有三种形式的元数据管理体系结构[4]： $\\textcircled{1}$ 集中方法，即设置中央存储库集中保存元数据，优点是不存在元数据复制问题，缺点是软件工具不能拥有自己的元数据； $\\textcircled{2}$ 分散方法，即不设中央存储库，软件工具拥有本地存储库并相互交换元数据，优点是拥有各自元数据，可优化工具性能，缺点是冗余和为交换元数据需要大量连接开销； $\\textcircled{3}$ 分布方法，即软件工具拥有各自存储库，同时设置中央存储库复制保存共享元数据，综合集中和分散方法的优点。分布方法理论上是最优的，但在多厂商环境中可能遇到软件工具不支持中央存储库的问题。",
+    "context4": "对元数据的管理和使用方式存在着对立的观点，即元数据既需要共享，也需要自治。作为数据仓库系统管理的基础，要求元数据的全局一致性和可串性知收须将元数据集中w实现元数据的共享和重复利用；同时，为了各自决策的需要，用户又必须有自治的元数据，无法共享[5]。因此，元数据管理体系结构必须合理地平衡这两种需求，从而导致更多地采用分布方法[1]。分布式体系结构已成为元数据管理主流架构，关键在于如何构造中央存储库和交换机制，以达到集成、可扩展、健壮、可定制、开放的体系结构特性要求[4]。",
+    "context5": "分布式体系结构的基本管理模式是： $\\textcircled{1}$ 被动模式，即将各本地存储库中的元数据批量复制到中央存储库中统一管理； $\\textcircled{2}$ 主动模式，有两种方式实现，其一是设置单一存取引擎并与各本地存储库接□，其二是设置全局模式及其到各本地存储库的映射；另外，结合被动和主动模式可形成混合模式。文献[6］讨论了将数据仓库各种工具通过一个中央元模型进行元数据交换的必要性，提出了一种基于CWM（Common Warehouse Model)，以公共共享元模型为中心、采用XML 规范作为交换格式的元数据管理软件架构。"
+  },
+  "3元数据管理标准": {
+    "context1": "大多数软件工具都带有自己的元数据存储库(或数据字典)，但存储格式互不兼容，难以共享。近几年，随着 MDC（Meta Data Coalition）的OIM（OpenInformationModel）和OMG 组织的CWM规范的逐渐完善，以及MDC于2000 年9月并入OMG,从而为软件厂商提供了统一的实现标准。",
+    "context2": "OMG于2003年3月发布了CWM规范1.1版本[]。CWM的主要目的是在分布异构环境下，使仓库工具、平台和元数据存储库之间易于进行仓库和商业智能元数据的交换。CWM以ML的元模型为基础，针对数据仓库领域的应用，使用特定的元类、元关系扩展了数据血统衍生的建模方法。CWM提供满足共享元数据交换需求的、完整的语法和语义规范，既包括元数据交换，也涉及元数据存储。它是在以下三个标准基础上形成的：",
+    "context3": "（1）UML：作为形式化的离散系统建模工具,用于描述一般数据仓库架构的元模型。",
+    "context4": "（2）MOF（Meta ObjectFacility）：定义核心元模型化构造，是描述元模型的抽象语法，可以定义存储库的结构、对外接口和交换格式的映射规则。",
+    "context5": "（3）XMI（XML Metadata Interchange）：定义如何用XML表示基于MOF 的元数据，并通过XML文档进行交换的机制。",
+    "context6": "为了减少复杂性和易于理解，CWM元模型由",
+    "context7": "4个层次子模型表示各种元数据。XMI可以通过DTD 或XMLSchemas 方式，基于规则生成XML词汇，因而使用XMI交换机制可以按文本格式进行元模型、元数据片段或特定应用扩充元数据的交换。2004年3月公布的CWM元数据交换模式(CWMMIP）规范，具体规定元数据交换上下文。",
+    "context8": "总之，CWM为元数据管理提供的规范是：共享元数据的元模型；元数据交换格式、机制；存取元数据的标准接口。这些规范是建立在UML等标准或规范之上的，具有广泛的接受性，构成互操作的基础设施。"
+  },
+  "4元数据交换关键技术": "",
+  "4.1存储库结构": {
+    "context1": "作为共享元数据主要设施的中央存储库是一种基于关系或面向对象数据库的结构化存储和检索系统，其元模型是元数据管理的基础，一直是研究关注的焦点[5]。目前CWM是元模型的唯一标准，获得广泛的支持，但CWM缺少对安全、时态进化等机制的说明[3]。在多维分析方面，由于几种多维模型表示方法的差异性，为了方便地获得多维软件工具的互操作性，可以通过使用CWM模型建立同义异形多维属性的对应映射来实现[8]。"
+  },
+  "4.2元数据交换": {
+    "context1": "元数据交换对应于两个元模型的映射过程。借鉴一般数据交换方式，在两个工具或存储库间有三种元模型映射方式[4]。",
+    "context2": "（1）文件交换。一方工具按另一方可读取格式将元数据写入一个交换文件，然后另一方工具读取其中的元数据。这是异步元数据交换方式，虽然简单，但传递的元数据仅是当时的，且对交换格式有严格要求。如前所述，CDIF 描述CASE工具的交换格式，还有原 MDC 发布的 MDIS（Metadata Inter-change Specification）规定了几种数据库模式（关系、对象、记录和多维）的表示。目前，基于XML的XMI已成为CWM元数据交换标准，获得广泛支持。",
+    "context3": "（2）存储库API。有些存储库厂商公布其 API文档和开发环境，提供软件工具存取、操纵存储库的昂佳痴戒，这是同步元数据交换方式，高效及时，但由于非标准化的API将导致增加二次开发和维护工作量。关系和面向对象API，如ODBC 和OLE/DB也用于存取元数据;CWM中规定的CORBAIDL 也可用于存取和修改存储库。文献[9]详细讨论了分布应用环境中存储库的API功能及其实现。",
+    "context4": "(3）元数据封套（wrapper）。一个封套程序完成从专用API到公共API的转换映射。在联邦数据体系中，封套程序被用于屏蔽异构数据源的各种API。封套方式非常适合于将异构、分布的元数据集成到中央存储库中。这是综合同步和异步的交换方式，即文件交换、存储库API方式都可以被封装在封套程序中进行元数据交换。从需求和现实性来看，基于CWM的同步或准同步交换方式有较大的优势。"
+  },
+  "4.3变更管理": {
+    "context1": "对分布环境中的复制元数据必须采取有效的变更管理策略才能保证元数据及其互操作质量。变更管理涉及元数据更新同步、版本管理，在异构环境下这是一类较难处理的问题[10] 。",
+    "context2": "在数据仓库环境中，对元数据的更新同步将经历检查/发现变更、传播更新、集成变更模式的过程。对这种典型的分布式复制控制问题已提出了许多解决办法[]。这些方法主要分为急切(eager)和懒惰（lazy）策略，前者保证在事务递交前完成复制更新，后者则在事务递交后进行复制更新。急切策略虽能保证一致性，但对系统资源和环境有较高的要求，不适合用于异构、有自治要求的元数据管理环境。懒惰策略通过发布/订阅（publish/sub-scribe）机制实现[10]。发布者是共享元数据的更新者，订阅者是共享元数据的接受者，一个软件工具可兼具二者角色。",
+    "context3": "懒惰主复制（lazy master replication）方法是一种常用的懒惰策略[11]，规定仅有一个主备份（pri-mary copy）在事务完成前更新，其他次备份（ $\\operatorname { s e c } ^ { - }$ ondarycopy）随后按传播时机更新。这种方法非常适合于分布的元数据管理，因为一种元数据通常源于一个软件工具 (发布者)，而被其他多个软件工具共享（订阅者)。其传播时机可分为两种：ASAP（as soonaspossible）和延迟，前者通常是及时更新方式，后者多采用定期更新方式，与快照复制类似。",
+    "context4": "按软件工具的主动性，可将传播更新方法分为：通知(推方式）和探查(拉方式)。采用通知方法时，发布工具预先记录有被订阅工具共享的元数据项目集合，更新发生后，发布工具按ASAP 或延迟方式通知或推变动内容给有记录的订阅工具。在这里要求发布、订阅工具应有相应的沟通机制。采用探查方法时，订阅工具应不断或定时查看相应共享元数据项目是否被更新，并自己完成相应的更新。探查方法仅要求很少的复制控制机制。",
+    "context5": "在分布式元数据管理体系结构中，中央存储库既是共享元数据的存储容器又是中央复制控制设施。这是一种集中一辐射式（hub and spoke）的发布/订阅机制[]，中央存储库兼具发布和订阅两者角色。这种元数据的更新传播过程分为两步： $\\textcircled{1}$ 由发布工具到中央存储库； $\\textcircled{2}$ 由中央存储库到订阅工具。整个过程形成表1的四种组合[4]。",
+    "context6": "在组合1中，发布/订阅工具各自负责复制控制，中央存储库不发挥控制作用；而在组合4中，中央存储库完全支配传播控制过程，对发布/订阅工具没有控制要求。因此，组合1要求各工具都支持复制控制可能难以实现，而组合4仅要求在中央存储库支持复制控制则更易实现。",
+    "context7": "存储库获得传播更新的消息后，应集成变更的新模式。最简单的方法是直接更新旧元数据，但在数据仓库中要求保留历史记录，即支持元数据版本管理。一个版本是对象的一个语义快照，版本管理可以跟踪元数据的变更过程[5]，同时也为用户理解数据历史提供支持。版本管理策略主要是元数据版本化粒度和时机问题。粒度涉及所保存元数据的详细程度，而对时机而言，为避免版本过多可能更倾向于定期形成一个元数据版本。",
+    "context8": "表1发布/订阅方式的可能组合",
+    "context9": "<table><tr><td>传播组合</td><td>①由发布工具到中央存 储库</td><td>②由中央存储库到订阅 工具</td></tr><tr><td>1.推/拉</td><td>发布工具推</td><td>订阅工具拉</td></tr><tr><td>2.推/推</td><td>发布工具推</td><td>中央存储库推</td></tr><tr><td>3.拉/拉</td><td>中央存储库拉</td><td>订阅工具拉</td></tr><tr><td>4.拉/推</td><td>中央存储库拉</td><td>中央存储库推</td></tr></table>"
+  },
+  "4.4模型管理": {
+    "context1": "模型管理是一种元数据管理的新方法，它提供高抽象层次的程序设计接口，也规定了更高抽象的互操作性。其主要抽象概念是模型（如数据库模式、接口定义等）和模型间的映射（mapping）。模型管理通过 Match、Merge、Diff、Compose 等算子[12]对模型和映射进行操作，实现每次按模型处理(m国知网a-time）s方式w对象集合",
+    "context2": "元数据管理在支持数据仓库处理流程中涉及到大量模式匹配、集成和进化操作。模型管理试图将这些目前必须由手工完成的操作实现部分自动化。映射匹配是模式集成的前提，Cupid 算法[13]综合以前算法的长处实现了语义匹配和偏置匹配等改进。具体实现方面，Rondo是第一个完整的程序设计环境原型[4]。作为当前研究热点，模型管理的研究和开发仍处于初始阶段，未来的研究将集中在合并、组合等算子的语义和实现，从标准数据模型转换到一般模型的特性，以及将模型管理应用于解决其他问题等[12.14]"
+  },
+  "5结 语": {
+    "context1": "元数据互操作性作为元数据管理中的主要问题，近几年倍受关注，目前公认解决途径是基于CWM实现的，但迄今仅有少数产品能够支持CWM规范。在分布环境中，可以采用发布/订阅机制实现元数据同步，而基于CWM的同步元数据交换方式是最有吸引力的方法。模型管理试图实现高层次的互操作性。元数据互操作技术未来值得研究或未解决的领域是：以多种形式支持业务元数据互操作；数据挖掘、Web Services 计算模式中的元数据交换；用模型管理实现更高抽象层次的互操作性。"
+  },
+  "参考文献": {
+    "context1": "1Jarke M,Lenzerini M,Vassiliou Y,et al $\\cdot$ Fundamentals of data warehouse(2nd Edition)[M].New York:Springer,2OO3.123-   \n129.   \n2St?hr T,Muler R,Rahm E.An integrative and unifom model for metadata management in data warehousing environments ·Pro ceedings of the International Workshop on DMDW[C].1999.   \n12.   \n3 Vaduva A,Dittrich KR.Metadata management for data warehou sing:between vision and reality $\\cdot$ Proceedings of International . Symp·on Database Engineering $\\&$ Applications [C]. 2001.129 -135.   \n4Do H H, Rahm E. On metadata interoperability in data ware houses[R]. Technical Report $0 1 - 2 0 0 0$ ,Leipzig: University of Leipzig,2000.   \n5 Bernstein P A.The Microsoft Repository $\\cdot$ Proceedings of the 23rd International Conference on VLDB[C]. San Francisco:Morgan Kaufmann,1997.3—12.   \n6 Auth G,Maur E.A software architecture for XML-based meta data interchange in data warehouse systems $. ~ \\cdot$ Proceedings of In ternational Workshop on XML Data Management[C]. Berlin: Springer—Verlag,2OO2.1—14.   \n7OMG.The CWM Specification V1.1[EB/OL]. http://www. omg $\\because$ org/technology/documents/formal/cwm·htm, $2 0 0 3 - 0 3 -$   \n02.   \n8 Medina E,Trujillo J. Representing conceptual multidimensional properties using CWM· Proceedings of 3rd Intl $\\cdot ^ { * }$ Conf $\\cdot$ WAIM, LNCS2419[C]: Heidelberg:Springer—Verlag,2O02.259-270.   \n9 Martin P,Powley W, Zion P.A metadata repository API· Pro ceedings of the 5th International Workshop on Knowledge Representation Meets Databases[C].1998.13.   \n10Keidl M, Kreutz A, Kemper A,et al· A publish $\\&$ subscribe architecture for distributed metadata management $\\cdot$ Proc· of 18th Intl·Conf ·on Data Engineering[C].Washington:IEEE Computer Society,2002.309—311.   \n11Kemme B,Alonso G.Don't be lazy,be consistent:Postgres R,a new way to implement database replication·Proceedings of the $2 6 \\mathrm { { t h } }$ International Conf $\\cdot$ on VLDB[C].San Francisco : Mor gan Kaufmann,200O.134—143.   \n12 Bernstein P A·Applying model management to classcal meta dataproblems $\\therefore$ Proceedings of lst Biennial Conf $\\cdot$ on Innovative Data Systems Research[C].2OO3.2O9—220.   \n13 Madhavan J,Bernstein P A,Rahm E.Generic schema matching using Cupid·Proceedings of the $2 7 _ { \\mathrm { t h } }$ International Conf·on VLDB[C].San Francisco:Morgan Kaufmann,2OOl.49—58.   \n14Melnik S,Rahm E,Bernstein P A·Rondo:a programming platform for generic model management $\\cdot$ Proceedings of the 2003 ACMSIGMOD[C].New York:ACMPress,2OO3.193—204.",
+    "context2": "(责任编辑：滕代娣)"
+  }
+}

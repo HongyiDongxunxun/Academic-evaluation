@@ -1,0 +1,151 @@
+{
+  "original_filename": "full_4938.md",
+  "学术文献抄袭检测研究进展": "",
+  "■王晓笛 王效岳 白如江": {
+    "context1": "腩要 指出近年来,学术抄袭事件时有发生,科研诚信引起全社会的广泛关注。随着信息技术的发展，对于学术抄袭的的检验问题已不再停留在传统的“防止复制\"阶段。总结整理目前国内外主要抄袭检验的研究内容和研究方法，重点对基于统计的方法和基于数字指纹的方法进行总结，归纳目前抄袭检验技术应用的主要数学算法和各自特点。通过对国内外研究成果的梳理，指出抄袭检验技术存在的不足及未来发展趋势和应用领域。",
+    "context2": "送键词 学术抄袭抄袭检验信息检索",
+    "context3": "份类号G350"
+  },
+  "1引言": {
+    "context1": "近年来,学术抄袭事件频出,国家相关部门也开始高度重视学术抄袭问题。2007年1月16日，中国科协发布《科技工作者科学道德规范(试行）》,提到“旗帜鲜明地抵制败坏学术风气的行为。摒弃心浮气躁、急功近利的学风,坚决反对投机取巧、弄虚作假和抄袭剽窃等丑恶行为”。2011年9月，中国科协、教育部联合下发《关于开展科学道德和学风建设宣讲教育活动的通知》。为杜绝学术抄袭行为,营造一个良好的学术环境,学术文献抄袭检测成为研究热点。当前的抄袭检测技术主要从两个方面解决此问题：一是“防止复制（copy prevention）”;二是“复制检测(copy detection）”。“防止复制”不考虑检测问题,包括信息物理隔离法、文件授权保护法、文件封装法等。随着网络的发展,这些方法目前已逐渐失去了优势，本文主要讨论“复制检测法”。",
+    "context2": "复制检测是针对数字文档的检测,主要分为自然语言文本(如小说、论文)和形式语言文本(如数据文件、计算机程序代码） 。",
+    "context3": "鉴于形式化语言文本具有严格的语法结构，易于处理,以至于早期的抄袭检测主要针对形式化语言文本。最早开始研究形式化语言文本抄袭并取得实质进展的是K.J.Ottenstein,他于1976年针对学生计算机程序作业抄袭的问题提出了基于4组统计量的属性计数法的识别方法。N.Bulut的统计结果证实了该方法的可行性。然而，这些属性都无法体现局部特征，因此对于部分抄袭该方法无法检测,这也是属性计数法的局限性。",
+    "context4": "与之相对，自然语言的抄袭形式多样，往往伴随着语序的调整、同义词的替换、标点符号的更改等。直到1991年，才出现了自然语言文本抄袭识别软件WordCheck,该软件由Richard采用关键词匹配算法开发，开后了自然语言文本抄袭识别的序幕,本文讨论的学术抄袭检测即属于自然语言抄袭检测。"
+  },
+  "2抄袭检测": "",
+  "2.1学术文献抄袭定义": {
+    "context1": "按照N.Heintze和吴育娇等的观点,常见的抄袭现象包括： $\\textcircled{1}$ 完全抄袭文献; $\\textcircled{2}$ 经过细微修改的文献； $\\textcircled{3}$ 经过重新组织结构的文献; $\\textcircled{4}$ 经过校订的新版本文献; $\\textcircled{5}$ 某文献的扩展版本文献; $\\textcircled{6}$ 包含其他文献中部分内容的文献,部分内容被修改。除此之外,若两篇文献的主题和内容类似，则这两篇文献的关系属于内容相关 。",
+    "context2": "在当今学术界，上述现象： $\\textcircled{1}$ 即雷同文献几乎不会出现，而第 $\\textcircled{4}$ 、 $\\textcircled{5}$ 种情况由于其根本出自于同一作者之手,因此也不是本文关注的重点。而第 $\\textcircled{2}$ 、 $\\textcircled{3}$ 种情况尽管很容易被识别,但是也有少数抄袭者“顶风作案”,邵文利于2003年发表论文,披露了一起硕"
+  },
+  "2.2抄袭检测系统": {
+    "context1": "一个抄袭检测系统应能识别人为刻意的抄袭，此外还需对如下因素情况作出合适的判断[：",
+    "context2": "2.2.1 忽略空格在匹配自然语言文档时,空格、大小写以及标点符号的不同不应该影响匹配结果。",
+    "context3": "2.2.2噪声抑制对于非常短的字符串匹配要进行适当的识别，例如两篇文档中都出现the并不代表抄袭,抄袭应该是足够长的一段材料，而俗语等常见的语句不应该被认为是抄袭。",
+    "context4": "2.2.3位置独立对于只是粗略地调整过顺序的抄袭应该能够识别,另外诸如加入一段内容或者删除一段内容都不应该影响剩余部分匹配结果。",
+    "context5": "第一个完整的抄袭检测系统是由斯坦福大学 S.Brin 等开发的COPS(copy prevention system）。该系统是首个提出文档注册机制的系统，之后的系统基本都沿用了这个结构[10,15-1]。该系统的工作流程如图1所示：",
+    "context6": "由图1可知,抄袭检测可以被看作是一个以文档为查询的信息检索任务，因此抄袭检测所使用的各类方法与信息检索技术息息相关。"
+  },
+  "3基于特征空间的方法": {
+    "context1": "基于特征空间的方法是信息检索领域最常见的方法之一,通常需要对一篇文献进行分块(chunking），使用词袋模型(bagofwords)为文献构造特征空间，然后运用线性代数的计算方法进行相似度计算。不同于信息检索系统，抄袭检测系统除了使用自然语言的单词或者常见的k-gram作为词项外,还会使用句子或者定长的字符串作为词项。本章所列举的技术,若无特殊说明，对各类分块方法皆适用。",
+    "context2": "![](images/bf5d554b01c9b873f3719ad85b46f6bb4430a62f0fa3cab30b83a264ac160f0b.jpg)  \n图1抄袭检测系统工作流程"
+  },
+  "3.1向量空间模型": {
+    "context1": "向量空间模型（vector space model,VSM）由C.Salton[于1971年首先提出,他将文献看作以词项权重为分量的特征向量。对于任何一个给定的查询（query)文本,为其生成特征向量,然后与数据库中的文档特征向量做相似度运算,通过预设的阀值实现抄袭检测。",
+    "context2": "常见的特征向量以词频作为分量,通常使用tf\\*idf( term frequency \\*inverse document frequency）词频权重表示法。",
+    "context3": "3.1.1点积(inner product）点积相似度计算是一个常见的向量空间模型计算方法，该计算方法形式如下:",
+    "context4": "$$\ns i m \\{ D _ { 1 } , D _ { 2 } \\} \\ = \\sum _ { i = 1 } ^ { N } \\alpha _ { i } ^ { 2 } * \\ F _ { i } \\{ \\ D _ { 1 } \\} * \\ F _ { i } \\{ \\ D _ { 2 } \\}\n$$",
+    "context5": "公式（1)",
+    "context6": "上述公式计算 $D _ { 1 }$ 和 $D _ { 2 }$ 两个文档的点积相似度，其中 $\\alpha _ { i }$ 表示第 $\\mathrm { i }$ 个词项的权重， $F _ { \\mathrm { : } } { \\left( \\ D _ { \\mathrm { : } } \\right) }$ 表示 $D _ { 1 }$ 文档的第i个词项分量。这种计算方法对于篇幅接近的文档识别能力强,但是对于文档篇幅差别明显的文档则会由于其中一个文档的分量数值过小而失去影响力。",
+    "context7": "3.1.2余弦相似度(cosine similarity）[@ 余弦相似度实质上计算两个向量的夹角，余弦值越大，则夹角越小,即向量越相似,因此可以使用这种方法进行计算，计算方法如下：",
+    "context8": "$$\ns i m \\big ( \\thinspace D _ { 1 } \\thinspace , D _ { 2 } \\big ) \\ =\n$$",
+    "context9": "$$\n\\frac { \\sum _ { i = 1 } ^ { N } \\alpha _ { i } ^ { 2 } \\ast \\textit { F } _ { i } \\{ D _ { 1 } \\ast \\textit { F } _ { i } ( D _ { 2 } ) } { \\sqrt { \\sum _ { i = 1 } ^ { N } \\alpha _ { i } ^ { 2 } \\ast \\textit { F } _ { i } ( D _ { 1 } \\ast \\sum _ { i = 1 } ^ { N } \\alpha _ { i } ^ { 2 } \\ast \\textit { F } _ { i } ( D _ { 2 } ) } }\n$$",
+    "context10": "公式（2)",
+    "context11": "可以看出,公式(2)在公式(1)的基础之上加入了归一化分母,由于分母对分子的分量进行了归一化处理,因此所得的分量不再受文档长度的影响，可以有效实现相似性的检测。国内学者赵俊杰等[即基于此方法利用KNN算法提出了一种基于分类的抄袭检测方法。除了使用词袋模型,学者郭武斌等基于余弦相似度使用了马尔科夫模型进行相似度计算，提高了准确率。",
+    "context12": "3.3.3同一度量(identity measures）blT.C.Hoad等认为无论是点积还是余弦相似度，都适用于adhoc检索，而若要应用到全长度文档则需要对计算方法进行改进。他认为相似的文档中同一个单词出现的频率应该接近,并由此提出了同一度量法。作为点积计算的一个改进版本,同一度量引入了同一个词在两个文档 $D _ { \\imath }$ 和 $D _ { 2 }$ 中出现的频率之差 $\\mid F _ { { D _ { 1 } } , t } - F _ { { D _ { 2 } } , t } \\mid$ ,通过将其置于分母达到加大词项权重的目的。该方法表面上提出了一种创新的计算方法,但是与相对频率模型的思想是相通的。由于相对频率模型的出现要早于同一度量,因此在这里不再赘述。"
+  },
+  "3.2相对频率模型": {
+    "context1": "V.Shivakumar等在开发 SCAM系统时提出了相对频率模型(relative frequency model,RFM）。相对频率模型是基于向量空间模型的一种改进模型。",
+    "context2": "对于任意给定的两个文档 $D _ { 1 }$ 和 $D _ { 2 }$ ，定义相近集合closeness set $_ c ( D _ { 1 } , D _ { 2 } )$ ,这个集合包含了两个文档中出现频率相近的词项。若词项 $W _ { i } \\in c \\big ( \\textit { D } _ { 1 } , \\textit { D } _ { 2 } \\big )$ ，则需满足下列条件：",
+    "context3": "$$\n\\in - \\big \\vert \\frac { F _ { i } \\big ( D _ { 1 } \\big ) } { F _ { i } \\big ( D _ { 2 } \\big ) } + \\frac { F _ { i } \\big ( D _ { 2 } \\big ) } { F _ { i } \\big ( D _ { 1 } \\big ) } \\big \\vert > 0\n$$",
+    "context4": "公式（3)",
+    "context5": "其中 $\\in$ 为预设参数,取值范围为 $\\in \\mathbf { \\Theta } = \\left( \\ 2 ^ { + } \\ , \\infty \\right)$ ，取值越大则宽容度越高， $F _ { _ i } { ( \\cal D _ { 1 } ) }$ 表示文档 $D _ { 1 }$ 中第 $\\mathrm { i }$ 个词项的频次。然后定义文档 $D _ { 1 }$ 为 $D _ { 2 }$ 的子集的计算方法如下:",
+    "context6": "$$\n\\mathrm { s u b s e t } \\{ D _ { _ 1 } , D _ { _ 2 } \\} = { \\frac { \\sum _ { w _ { i } \\in c [ D _ { 1 } , D _ { 2 } ] } \\alpha _ { i } ^ { 2 } * \\ F _ { i } \\{ \\ D _ { 1 } \\} * \\ F _ { i } \\{ D _ { 2 } \\} } { \\sum _ { i = 1 } ^ { N } \\alpha _ { i } ^ { 2 } F _ { i } ^ { 2 } \\{ \\ D _ { 1 } \\} } }\n$$",
+    "context7": "公式（4)",
+    "context8": "该公式实质上是余弦相似度计算的改进版本。但是在对分子进行归一化处理时仅依据 $D _ { \\ i }$ 文档的长度，并且仅计算在类似集合中出现的单词,可以有效地识别一篇文档是另外一篇文档的子集的情况。然后通过如下简单的计算得出文档 $D _ { 1 }$ 和 $K _ { 2 }$ 的相似度：",
+    "context9": "$s i m ( \\ D _ { _ 1 } , D _ { _ 2 } ) \\ = m a x \\{ \\ s u b s e t ( \\ D _ { _ 1 } , D _ { _ 2 } ) \\ , s u b s e t ( \\ D _ { _ 2 } , $ $D _ { \\scriptscriptstyle 1 } )$ } 公式（5)",
+    "context10": "当 $s i m \\big ( \\textit { D } _ { 1 } , \\textit { D } _ { 2 } > 1$ ,则取 $s i m \\big ( \\mathrm { \\Delta } D _ { _ 1 } , D _ { _ 2 } \\big ) \\ = 1$ ,由于大于1表明了一种包含关系，而这大于1本身就代表高度相关，而为了便于系统计算,则统一取1以符合相似度从0到 $100 \\%$ 的范围。",
+    "context11": "上述的向量空间模型和相对频率模型,实质上是对于给定的待检文档进行朴素K最近邻搜索，对于一个含有 $\\mathbf { n }$ 个文档的文档集，每篇待检文档都需要扫描全部的文档内容,而在真实的系统中，注册服务器里往往存有千万级别的数据,因此对全部文档进行计算是不可行的[,国内学者孙伟等也仅针对小数据对该算法进行了改进验证。"
+  },
+  "3.3潜在语义分析模型": {
+    "context1": "S.Deerwester等提出的潜在语义分析(latentsemantic analysis,LSA)模型是一种强大的词项-文档矩阵降维模型。它通过对矩阵进行奇异值分解,可以将矩阵分解成两个正交矩阵与奇异值矩阵的乘积，然后通过放弃奇异值数量级较小的部分形成一个对原矩阵的最佳估计,这个矩阵的秩远低于原矩阵的秩，从而达到降维的目的。",
+    "context2": "Z.Ceska基于潜在语义分析提出了 SVDPlag方法。他首先将预处理后的950 篇文档形成一个 $\\mathrm { ~ n ~ } ^ { * } \\mathrm { ~ m ~ }$ 矩阵A,其中行代表文档,列代表词项权重,词项的权重使用一种改进的TF-IDF权重。然后对其进行奇异值分解，得 $\\boldsymbol { A } = \\boldsymbol { U } \\times \\boldsymbol { \\Sigma } \\times \\boldsymbol { V } ^ { T }$ 。其中 $V ^ { T }$ 是一个正交矩阵，为了使数据接近原始矩阵，还必须将奇异值重新带入，即 $\\boldsymbol { B } = \\sum \\times \\boldsymbol { V } ^ { T }$ 。然后得到相似度矩阵：",
+    "context3": "$$\n\\mathit { s i m s } _ { \\mathit { t D } } = \\left| \\begin{array} { l }  \\left\\| \\begin{array} { l } { B } \\end{array} \\right\\| ^ { \\textit { T } } \\times \\mathrm { ~ \\left\\| ~ \\right\\} B \\end{array} | \\begin{array} { l } { \\left\\| \\begin{array} { l } { B } \\end{array} \\right\\| } \\end{array} \\right|\n$$",
+    "context4": "公式(6)",
+    "context5": "这个相似度矩阵的任何一个元素( $D _ { 1 } , D _ { 2 } \\vert$ 即为 $D _ { \\imath }$ 和 $D _ { 2 }$ 的文档相似度。",
+    "context6": "实验证明，该模型在对950 篇文档的实验中 $F _ { 1 }$ 度量值高于其他的基于向量空间模型的方法,相似度识别能力很强。然而该方法的弊端在于,对于数量级较大的文档集处理几乎无能为力。奇异值分解作为20世纪90年代矩阵领域兴起的研究重点，一直未在信息检索领域大有作为的一个重要原因在于奇异值分解对于计算机的要求相当高,并且一直未能出现一种可以分布式计算的方法造成该模型只能停留在理论上。前谷歌科学家吴军在《数学之美》一书中透露谷歌已经实现了奇异值分解基于Map-Reduce的分布式计算，然而这项技术并未公开。而从Z.Ceska在对文档集预处理时使用文档频率大量去除词项也可以看出数量级对于计算的影响之大。随着海量数据处理的发展，希望在不久的将来潜在语义分析能真正应用于海量文档的处理。"
+  },
+  "3.4KD-TreeK最近邻模型": {
+    "context1": "除了对词袋模型进行统计,R.A.Finkel还提出了一种基于文档文体学特征的计算模型。他提出可以"
+  },
+  "4基于数字指纹的方法": {
+    "context1": "一个文档的数字指纹是指文档的关键内容的整形数字(integer)表示的一个集合，每一个整形数字称为一个特征(minutia)。一般地,先从文本中选取子字符串,然后将该子字符串通过一个hash 函数映射到一个整形表示，这个整形数字表示叫做指纹。然后将这些生成的指纹存入索引以供对比查询。",
+    "context2": "当一个查询文档(query）需要与索引中的文档指纹做对比时,先按照同样的方式为此查询文档生成指纹,然后将该指纹中的每一个特征分别与索引库中的指纹进行比对。特征找到匹配的量占特征数量的比值即为相似文档的相似度估计。",
+    "context3": "在设计数字指纹的过程中，一般需要考虑以下4个方面： $\\textcircled{1}$ 指纹生成算法，即映射子字符串到整形的hash 函数。 $\\textcircled{2}$ 指纹颗粒度，即从文档中提取的子字符串的大小。 $\\textcircled{3}$ 指纹分辨率，即每个文档指纹所含的特征的数量。 $\\textcircled{4}$ 子字符串选取策略，即从文档中选取子字符串的策略。"
+  },
+  "4.1指纹生成算法": {
+    "context1": "将字符串转化为整形数字表示(特征值)的函数对于数字指纹有很大的影响。为了保证指纹生成的速度和精确度，一个指纹生成函数需要满足以下几个要求：首先,生成的指纹必须是可再生成的,对于同样的一个子字符串,所生成的特征值必须完全相同；其次,特征值的分布要尽可能地接近均匀分布。对于任何数字指纹生成函数,不同子字符串生成相同特征值的情况(散列碰撞Hash Collision）理论上无法避免，而均匀分布的特征值可以将散列碰撞的发生概率降至最低;最后函数的速度也非常重要，当创建初始索引或是查询文档集时，需要生成大量的特征值。",
+    "context2": "M.Rabin于1981年提出了一种可行的字符串指纹生成算法用于字符串匹配和文件验证,算法如下:",
+    "context3": "选取一个较小的素数 $\\operatorname { k } ( \\operatorname { k } ( \\ 1 7 , 1 9 \\cdots 3 1 , 6 1 ) \\ )$ ，然后从有限域 $G F ( 2 ^ { k } )$ 中 中2-2个不可约多项式中随机选取一个不可约多项式 $p \\big ( \\ t \\big ) \\ \\in Z _ { 2 }$ [],该多项式的次数显然为 $\\mathrm { k }$ ,该多项式可以表示为 $p { \\left( \\begin{array} { l } { t } \\end{array} \\right) } \\ = t ^ { k } + b _ { 1 } t ^ { k - 1 } + \\cdots + b _ { k } ,$ 对于长度为 $\\mathbf { n }$ 的字符串，使用 $x _ { 1 } \\bullet x _ { 2 } \\cdots x _ { n }$ 表示每个字符的整形表示(ASCII）,则这个字符串可以表示为多项式$\\varrho { \\big ( } t { \\big ) } \\ = x _ { 1 } t ^ { n - 1 } + x _ { 2 } t ^ { n - 2 } + \\dotsb + x _ { n }$ 。令 $g _ { i } ( \\ t ) \\ = x _ { 1 } t ^ { i - 1 } + \\cdots +$ $x _ { i } , \\ l _ { 1 } \\leqslant i \\leqslant n$ ，则有 ${ { g } _ { i + 1 } } = { { g } _ { i } } ^ { * } \\mathrm { ~ } t + { { x } _ { i + 1 } } , 1 \\leqslant i \\leqslant n - 1$ 。然后定义余部 ${ \\bar { g } } ( \\mathbf { \\theta } _ { t } )$ 为多项式 $\\mathrm { g ( \\Omega t ) }$ 模 $\\mathrm { p }$ 的余部 ${ \\mathrm { R e s } } ( \\ { \\mathrm { g } } , { \\mathrm { p } } )$ ,这个余部可以表示为 $c _ { 1 } k ^ { k ^ { - 1 } } + \\cdots + c _ { k }$ 。则有：",
+    "context4": "$$\n\\stackrel { - } { \\pmb { g } } _ { i + 1 } = \\stackrel { - } { \\pmb { g } } ^ { * } t + x _ { i + 1 }\n$$",
+    "context5": "公式（7)",
+    "context6": "通过上式可以看出，只有第一次计算需要对字符串的每一个文本单元(text symbol)进行计算,从第二个连续的字符串开始,则只需要进行一次乘法运算和一次加法运算，然后再进行模 $\\mathrm { \\mathrm { p } ( \\ t ) }$ 的运算即可，这样每个字符串的计算都是实时的(in real time）。",
+    "context7": "M.Rabin指出该算法对于两篇长度分别为 $\\mathrm { m }$ 和 $\\mathbf { n }$ 的文档,若 $k > l o g _ { 2 } n m \\in \\mathsf { \\Omega } ^ { - 1 }$ ,可以将散列碰撞所产生的错误发生率控制在一个给定的参数 $\\in$ 下，即:",
+    "context8": "$P ( \\mathbf { \\Phi } _ { p } ( \\mathbf { \\Lambda } _ { t } )$ lalgorithm produces error) ≤",
+    "context9": "$$\n\\left( { \\frac { n m } { k } } \\right) / \\left( { \\frac { n m \\in } { k } } ^ { - 1 } \\right) = \\in\n$$",
+    "context10": "公式（8)",
+    "context11": "上述算法的一个缺点是随机选取一个不可约多项式需要大量的运算，一个较好的解决办法是将所有低次的不可约多项式做成表，然后随机地从表中抽取即可。",
+    "context12": "随后R.M.Karp 和Rabinb简化了这套算法,而第一个将该数字指纹算法应用于大型文档集的是U.Manber,他独立发现了M.Rabin的算法并将其用于相似文档的检测。其做法如下：令 $t _ { 1 } \\bullet t _ { 2 } \\cdots t _ { n }$ 表示字符串中的连续字节,则前50个字字符串的指纹为:",
+    "context13": "$F _ { 1 } = { \\left( \\ t _ { _ { 1 } } \\ \\bullet p ^ { 4 9 } + t _ { 2 } \\ \\bullet p ^ { 4 8 } + \\cdots + t _ { 5 0 } \\right) m o d }$ M 公式（9)",
+    "context14": "而根据Horner规则，上式可以表示为",
+    "context15": "$$\nF _ { _ 1 } = \\left( p \\cdot \\left( \\mid \\cdots \\mid p \\cdot \\left( p _ { _ 1 } + t _ { _ 2 } \\right) \\cdots \\right) \\mid + t _ { 5 0 } \\right) m o d M\n$$",
+    "context16": "而当需要计算 $F _ { 2 }$ 时,只需要添加最后一项的系数并删除第一项即可：",
+    "context17": "$$\nF _ { 2 } = \\left( \\boldsymbol { p } \\cdot \\boldsymbol { F } _ { 1 } + t _ { 5 1 } - { p _ { 1 } } ^ { 4 9 } \\right) m o d M\n$$",
+    "context18": "公式(11)",
+    "context19": "由于每次运算都需要计算( $T _ { \\scriptscriptstyle i } \\cdot { _ p } ^ { 4 9 } )$ mod $M$ ，因此可以提前将256个值的结果进行计算并制作成表，以大大提高计算效率。"
+  },
+  "4.2指纹颗粒度": {
+    "context1": "指纹颗粒度，即从文档中提取的子字符串的大小。此变量对于指纹的精确度有着很大影响。精细的指纹颗粒度可以减少伪匹配的数量，而粗糙的指纹颗粒度会对细小的修改过于敏感。例如我们使用100个字作为颗粒度时，则对于100个字的任意改动都会影响指纹的产生，而事实上当100个字中仅有少量改动时我们依然希望能够将其识别为一种抄袭。反之，当使用1或2个字作为颗粒度时，我们会发现大量的匹配,而这其中的大多数往往只是常见的词，对于抄袭无明显的指示作用。U.Manber在开发sif系统时使用了50个字节的颗粒度。S.Brin没有使用固定的颗粒度,而是以一个句子为单位。N.Shivakumar的实验验证了使用句子作为颗粒度可以取得最好的效果，而N.Heintze则使用30-45个字符作为颗粒度。T.C.Hoad等的实验结果表明，上述的颗粒度都能保证较低的最高伪匹配（highest falsematch）,但是在差别(separation)指标这一项，上述颗粒度的效果都不太理想,最终T.C.Hoad提出了以3或5个单词作为颗粒度。"
+  },
+  "4.3指纹分辨率": {
+    "context1": "指纹分辨率，即每个文档指纹所含的特征的数量。理论上，指纹分辨率越大，对于抄袭识别的可提供的信息就越多，而结果也越准确。但受限于文档集的大小以及硬件机能，指纹分辨率往往不能设置过大，否则会给系统造成很大的压力。常见的分辨率包括定量分辨率和定比例分辨率：定量分辨率是指每个文档都含有特定量的指纹，而这个量不受文档长度的影响，定量分辨率可提高系统的可扩展性，缺点是对于大型文档不能很好地表示其特征;定比例分辨率是指按照文档长度的不同选择保存相应数量的指纹，虽然这有助于提高特征表示的完整性，但是对于一篇数十万词的文档,按照1：100 的比例也需要保存几千个指纹,对存储和比对计算都提出了更高的要求。A.Chowdhury等[在I-Match系统中使用了一种创新的指纹分辨率,即一篇文档只生成一个指纹。I-Match首先依据逆文档频率(inverse document frequency)将文档中最常用的词和最不常用的词全部剔除，然后将剩余的词按照unicode编码顺序排列，然后使用SHA1算法生成一个指纹。此技术的优势在于可以快速地识别两篇几乎类似的抄袭,但是对于包含关系则几乎起不到作用。此技术可被应用于抄袭检测的预处理,协助划定抄袭文档的范围,减少比对次数。A.Chowdhury 的实验表明利用I-Match的指纹技术可比其他指纹技术节省4/5的时间。"
+  },
+  "4.4　子字符串选取策略": {
+    "context1": "4.4.1选取全部数字指纹该策略最为简单,并且匹配效果也最好,能够保证识别出所有的抄袭。该策略在存储空间上对每篇文档要求至少 $l - \\alpha + 1 ^ { * }$ Ihashcode|个字节,而每两篇长度分别为 $\\mathbf { m }$ 和 $\\mathbf { n }$ 的文档进行对比的时间复杂度是 $O ( \\mathbf { \\delta } _ { m n } )$ ,从存储空间占用和计算时间上看，该方法并不能很好地应用到生产环境，但是对于系统性能的评估，该方法还是较好的选择。",
+    "context2": "4.4.2每隔i个取一个数字指纹该策略明显比选取全部数字指纹策略要占用更少的存储空间，并且由于指纹数量的减少，两个文档进行对比时所耗费的时间也更少。但是该策略在一个文档出现如下情况时缺乏鲁棒性,包括打乱文档的内部顺序、在文档中插入内容或删除文档中的一段内容。事实上，只要在文档中插入一个字符就会造成所有的k-gram 发生一个字节的位移，导致所生成的数字指纹与插入前所生成的数字指纹完全不同。",
+    "context3": "4.4.3锚文本(anchor)定位数字指纹该策略由U.Manber提出，使用特定的文本对原文进行划分并生成指纹。该策略的优势在于不受文档重排序、插入或者删除的影响，但是该策略会严重依赖锚文本的选择，应尽量选取那些常见但又不至于过于常见的锚文本。优秀的锚文本选择策略会使所选取的字符串分布较为平均,而失败的锚文本选择策略则会直接导致系统的失效。由于该策略对于锚文本的选择依赖性很强，因此对于某一个文档库合适的锚文本对另外一个文档库则不见得合适,例如法律领域的文档库中的锚文本一般无法应用于情报学领域的文档库中。在确定了字符串选取策略后,可应用R.A.Finkeld提出的选取策略，具体策略参见哈希断点数字指纹。",
+    "context4": "4.4.4哈希断点数字指纹该策略由U.Manber提出,将锚文本变为特定的数字。该策略的不足之处在于,当一个常见的字符串模p为0时,则会造成选取的字符串非常短，若所选择的p恰巧不能使任何字符串模p为0,则会造成将全文作为一个字符串进行指纹生"
+  },
+  "5未来发展方向": "",
+  "5.1基于语义词典的中文抄袭识别": {
+    "context1": "目前的抄袭检测主要针对文本的改写、组合、调整顺序等的识别，而基于语义词典的中文识别发展缓慢，将是今后的发展重点。普林斯顿大学于1995年推出了第一个英语词关系词典WordNet,为研究者做语义级别的研究提供了基本工具。E.Agirre于同一年利用WordNet提出了一种语义消歧方法,选择所有开放性词类,并取5个单词的窗口大小（window size）,以周围4个单词作为上下文，对中间第3个词进行消歧处理,为基于语义的识别提供了消歧的基础。随后J.J.Jiang 于1997年提出了一种基于WordNet单词距离和单词节点信息量的混合相似度计算法，使语义消歧能力得到了提高。国内学者王瑞琴、田久乐等也基于同义词词典做了相关的消歧研究。而目前尚未出现成熟的中文词关系词典,东北大学的张俐等[4于2003年提出了一种中文WordNet制作方法，该方法通过翻译实现了一种从英文版到中文版的映射，但准确性不高，不足以应付实际生产环境。笔者认为，在今后一段时间，随着各类中文关系词典的建设，基于类似词典的抄袭识别研究将是研究重点。"
+  },
+  "5.2基于数字指纹的大规模中文抄袭检测": {
+    "context1": "由于数字指纹的匹配主要依靠排序算法，而由排序算法(quicksort）的时间复杂度 $O ( n L g _ { n } )$ 可知指纹数量的多少对计算效率的影响很大。N.Shivakumar 对150GB的文档使用数字指纹方法进行复制检验，针对上述问题,提出了一种基于概率统计的高效识别方法。该方法需要分别对全文和子字符串生成指纹，首先通过扫描全文指纹剔除完全相同的文档，然后对剩余文档的子字符串指纹使用CoarseCount算法进行扫描识别。对于识别出的粗糙结果,通过二次扫描剔除伪匹配。对于不同的指纹选取策略，该方法能提高 $22 \\%$ 1$33 \\%$ 的效率,这得利于排序阶段排序量的减少。而随着Hadoop 等 Map-Reduce 平台的出现,在 Partitioning阶段自动完成了上述所需的排序，大大提高了运算效率 。",
+    "context2": "然而，上述基于数字指纹的大规模抄袭检测，仅仅停留在完全抄袭的检测上,对于修改后的抄袭,传统的数字指纹几乎无法识别。而Charikar提出的RoundingAlgorithm为细微修改后的数字指纹抄袭检测奠定了理论基础。Google公司的G.S.Manku等基于RoundingAlgorithm提出了一种大规模识别英文雷同网页的数字指纹，该方法已经被成功应用于Google搜索引擎。而在中文方面，目前缺乏类似的研究，笔者认为，基于数字指纹的大规模中文抄袭检测也将是今后的研究重点。"
+  },
+  "5.3内在抄袭检测": {
+    "context1": "上述传统的抄袭检测技术均是基于文档注册机制的抄袭检测，即所谓的外部抄袭检测（extrinsicplagiarismdetection），与之相对应的是近几年的研究热点集中在内在抄袭检测（intrinsicplagiarismdetection）。内在抄袭检测与作者验证（authorshipverification)等使用类似的技术，均是对文档的作品风格特征进行统计分析，例如判定各个段落的词汇丰富度、文体复杂度等,E.Stamatatos和B.Stein等对当前内在抄袭检测的研究现状做了全面细致的分析总结。而随着抄袭的越来越隐蔽，抄袭者对于思想的抄袭等越来越多，内在抄袭检测将发挥其作用。笔者认为，内在抄袭检测也将是未来的研究重点。"
+  },
+  "6结语": {
+    "context1": "本文总结了当前学术抄袭检测的现状,对于基于向量空间的算法和基于指纹识别的算法进行了细致的分析。通过分析可以看出,向量空间模型、相对频率模型、潜在语义分析模型、KD-Tree模型等信息检索领域常见的算法模型都已被应用到了抄袭检测中。而与之相比,各种基于数字指纹的算法的引入也大大提高了计算效率。通过分析可以看出,抄袭检测自出现以来已经吸引了越来越多的科研者关注，得到了长足的发展。",
+    "context2": "总的来说，在当前的学术环境下，学术抄袭检测依然是必不可少的，这就要求抄袭检测必须不断提高检测的能力。当前的抄袭检测基本是基于文本字面的，并未达到语义级别的抄袭检测。而现如今,在学术界却存在着大量的思想抄袭而未被发现的情况,这主要是由于学者没有充足的时间去长期追踪自己的观点，而出版商也没有非常好的方法去识别这类抄袭。因此,对于语义级别的抄袭检测将是今后研究的重点。除此之外,文章的结构化特征提取与利用、内在抄袭检测研究也将为抄袭检测提供更加丰富的参考。"
+  },
+  "参考文献：": {
+    "context1": "[1] Popek G J,Kline C S.Encryption and secure computer networks ．ACM Computing Surveys，1979, $1 1 { \\left( 4 \\right) } : 3 3 1 - 3 5 6$   \n[2]Griswold G N.A method for protecting copyright on networks [C]//Joint Harvard MIT Workshop on Technology Strategies for Proecting Intellectual Property in the Networked Multimedia Environment.Massachusett:MIT Press，1993.   \n[3] Brin S,Davis J，Garc I，et al.Copy detection mechanisms for digital documents [C] //Association for Computing Machinery 's Special Interest Group on Management of Data‘95．New York: ACM，1995.   \n[4]史彦军,滕弘飞,金博．抄袭论文识别研究与进展[]．大连理"
+  },
+  "": {
+    "context1": "工大学学报，2005，45(1)：50 -57.   \n[5]Otenstein K J.Analgorithmicapproach to the detection and prevention of plagiarism []．SIGCSE Bull，1976，8（4)：30 -41.   \n[6]Bulut N.Invariant propertiesof algorithmsD].West Lafayette: Purdue University,1973.   \n[7] Clough P. Plagiarism in natural and programming languages: An overview of current tools and technologies EB/O1]．[O13-03- 19].http: //www. ukessays.co. uk/essays/computer - sciences/ plagiarism- in - natural - and- programming -languages. php.   \n[8]Heintze N. Scalable document fingerprinting [C] //Proceedings of the Second USENIX Workshop on Electronic Commerce.Oakland: California November,1996:18 -21.   \n[9]吴育娇,汤成文．如何识别和处理涉嫌作弊的医学论文[. 中华医学图书情报杂志，2012，21(5)：75-76.   \n[10]Shivakumar N，Garcia-Molina H.SCAM:A copydetection mechanism fordigital documents[C]//2ndInternational Conference in Theory and Practice of Digital Libraries,1995.   \n[] 秦珂,尤太生．抄袭、剽窃的判断与法律责任[]．图书与情 报， $2 0 0 8 ( 5 ) : 6 8 - 7 1$   \n[2]邵文利.警惕青年学子中的学术腐败苗头——评一篇语言学 论文的抄袭拼凑现象．学术界, $2 0 0 3 ( 4 ) : 1 0 5 - 1 1 1 .$   \n[3]Alzahrani SM，Salim N，Abraham A.Understanding plagiarism linguistic patterns，textual features，and detection methods []. IEEE Transactions on Systems，Man，and Cybernetics，Part C: Applications and Reviews $\\mathbf { \\varepsilon } _ { \\mathbf { \\beta } _ { 2 0 1 2 } }$ ,42(2) : 133 -149.   \n[14] Collberg C S,Kobourov SG,Louie J,et al. SPLAT:A system for self -plagiarism detection [C]//Proceedings of the IADIS International Conferenceon WWW/Internet.Algarve，Portugal: International Association for Development of the Information Society - IADIS,2003.   \n[5]Schleimer S，Wilkerson D S，Aiken A.Winnowing: Local algorithms for document fingerprinting [c]//Associationfor Computing Machinery’s Special Interest Group on Management of Data.New York:ACM,2003.   \n[6 Chowdhury A,Frieder O,Grossman D,et al.Colection statistics for fastduplicate document detection [].ACM Transactions on Information Systems,2002,20(2):171-191.   \n[17] SiA,Leong HV,Lau RW H.Check:A document plagiarism detection system [C] //Symposium on Applied Computing（ SAC 97).New York:ACM,1997.   \n[8]Salton G. Cluster search strategies and the optimization of retrieval effectiveness [M]．The SMART Retrieval System，Englewood Cliffs，New Jersey: Prentice Hall,1971: 223-242.   \n[9] 赵俊杰,胡学钢．基于文本分类的文档相似度计算[]．微型 电脑应用，2008，24(12)：46-47，40.   \n[0]郭武斌,周宽久,苏振魁．基于词序方法的文本相似度计算模 型[．情报学报,2008,27(6)：857-862.   \n[1] Hoad TC,Zobel J.Methodsforidentifyingversionedand"
+  },
+  "王晓笛 王效岳 白如江": {
+    "context1": "plagiarized documents []．Journal of the American Society for Information Science and Technology，2003,54(3):203-215."
+  },
+  "[22] 孙伟,邢长征．关于中文文档复制检测算法的改进[]．计算机工程与科学，2010(8)：101－103.": {
+    "context1": "[23]Deerwester S,Dumais S T,Furnas G W,et al. Indexing by latent semantic analysis[J]．Journal of the American Society for Information Science,1990,41(6):391-407.   \n4] Ceska Z.Plagiarismdetectionbasedonsingularvalue decomposition M]．Berlin，Heidelberg:Springer-Verlag,2008."
+  },
+  "25]吴军．数学之美M.北京:人民邮电出版社，2012.": {
+    "context1": "[6]Finkel R A，Zaslavsky A，Monostori K A N，etal.Signature extraction for overlap detection in documents[J]．Australian Computer Science Communications,2002,24(1):59 -64."
+  },
+  "[27]金博,史彦军,滕弘飞．基于篇章结构相似度的复制检测算法．大连理工大学学报，2007(1)：125-130.": {
+    "context1": "[8]Manber U.Finding similar files in a large file system [C] //Winter USENIX Technical Conference.SanFrancisco:USENIX Association,1994.   \n[9]Rabin M. Fingerprinting by random polynomials [M]．Harvard University Computer Science Group，1981.   \nBolKarp R M，Michael R.Efcient randomized pattern -matching algorithms []．IBM Journal of Research and Development，1987 (31):249 -260.   \nβ1]Shivakumar N，Garcia -Molina H. Finding near -Replicas of documents on the Web [c] //Workshop on the Weband Databases.Berlin,Heidelberg:Springer,1999.   \nβ2] Shivakumar N,Garcia-Molina H. Building a scalable and accurate copy detection mechanism M．New York:ACM,1996."
+  },
+  "B3]刘韵毅．基于匹配统计算法的文本复制检测研究[D].合肥:中国科学技术大学，2007.": {
+    "context1": "B4Broder A Z.On the resemblance and containment of documents [C] //Compression and Complexity of Sequences 97．Salerno: IEEE,1997.",
+    "context2": "[5] 邹杜,艾飞,龙卫江,等．基于聚类的抄袭检测算法在学习平台 中的应用[//中国教育和科研计算机网CERNET第十七届 学术年会.长沙：中国教育和科研计算机网2010.   \nβ6]Miller G A．WordNet:A lexical database for English [J]. Communications of the ACM,1995,38(11):39-41.   \nB7]Eneko A，Euskal H U，German R．A proposal for word sense disambiguation using conceptual distance[C]//International Conference on Recent Advances in Natural Language Processing. Tzigov Chark，Bulgaria,1995.   \nB8]Jiang JJ，Conrath D W.Semantic similarity based on corpus statistics and lexical taxonomy [C]//International Conference Research on Computational Linguistics.Taiwan: Academia Sinica, 1997.   \nB9] 王瑞琴,孔繁胜,潘俊．基于WordNet的无导词义消歧方法 [．浙江大学学报(工学版)，2010(4)：732－737.   \n[0] 田久乐,赵蔚．基于同义词词林的词语相似度计算方法[]. 吉林大学学报(信息科学版）， $2 0 1 0 ( 6 ) : 6 0 2 \\ : - 6 0 8$   \n[41] 张俐,李晶皎,胡明涵,等．中文WordNet的研究及实现．东 北大学学报，2003(4)：327-329.   \n[42]White T. Hadoop:The definitive guide,2nd Edition [M]．US: Yahoo Press,2010.   \n[43]Charikar M S.Similarity estimation techniques from rounding algorithms [C] //ACM Symposium on Theory of Computing( STOC '02).New York: ACM,2002.   \n[44] Manku G S,Jain A,Das Sarma A.Detecting near-duplicates for Web crawling [C]//World Wide Web Consortium(WWW 07). New York:ACM,2007.   \n[45]Stamatatos E.A survey of modern authorship atribution methods [.Journal of the American Society for Information Science and Technology，2009,60(3):538-556.   \n46]Stein B,Lipka N，Pretenhofer P.Intrinsic plagiarism analysis .Language Resources and Evaluation,2011,45(1):63 -82."
+  },
+  "An Overview of Academic Literature Plagiarism Detection": {
+    "context1": "Wang XiaodiWang XiaoyueBai Rujiang",
+    "context2": "Institute of Scientific & Technical Information，Shandong University of Technology, Zibo 255049",
+    "context3": "[Abstract] These years academic plagiarism happened sometimes which raised concern in the society.With the developmentof information technology，the detectionofacademic plagiarism hassurpassdthetimeofCopyProtection. This papersummarized theresearch contentand research methods on the detection of plagiarism both at home and abroad, concluded themain algorithms of statistic-based methodand figureprinting-based methodand their features respectively. Byanalyzing theresearch achievements this paper pointedout the shortage of theplagiarism detection technology，the development tendency and the application fields.",
+    "context4": "[Keywordsl academic plagiarismplagiarism detectioninformation retrieval"
+  }
+}

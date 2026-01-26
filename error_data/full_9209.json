@@ -1,0 +1,72 @@
+{
+  "original_filename": "full_9209.md",
+  "聚类搜索引擎发展现状研究": {
+    "context1": "苍宏宇1,2谭宗颖²",
+    "context2": "中国科学院研究生院北京100190²中国科学院国家科学图书馆北京100190",
+    "context3": "[摘要]分析研究搜索引擎发展轨迹及国内外聚类搜索引擎的发展现状,通过对国内外现有聚类搜索引擎的基本功能进行分析，并从聚类方式、聚类结果展示形式和聚类效果三个角度进行测评，提出“以用户为中心”的聚类2.0搜索是未来聚类搜索引擎乃至搜索引擎的发展趋势。",
+    "context4": "〔关键词]聚类搜索引擎可视化搜索社会化聚类搜索聚类2.0搜索发展趋势【分类号］G354.2"
+  },
+  "Research on the Development Situation of Clustering Search Engine": {
+    "context1": "Cang Hongyu1.2Tan Zongying2",
+    "context2": "'Graduate University of CAS,Beijing 100190²National Science Library of CAS,Beijing 100190",
+    "context3": "[Abstract]Researchon thedevelopment-track of searchengineandthe development situationof domesticandoverseaclustering searchengines.Theclustering2.Osearchllbethedevelopment tendsofclusteringsearchengineaswellastesearchenginebyanalyzing the function of domestic and oversea clustering search engines.",
+    "context4": "[Keywords]clustering search enginevisual searchsocial clustering search clustering 2.O searchdevelopment trends"
+  },
+  "1前言": {
+    "context1": "网络信息的迅猛增长，信息用户行为的不断变化，致使网络检索需求在原有的全面性和准确性的基础上，朝着新颖化、个性化的趋势发展，从而给搜索引擎的发展带来了机遇与挑战。聚类搜索引擎的突出特点是有利于提高检索精度，根据某一属性，对搜索引擎返回的结果进行聚类，从而使用户迅速定位所需信息。在当前网络环境下，现有的聚类搜索引擎能否满足日益变化的检索需求，其今后的发展态势如何呢？本文将对上述问题进行探讨。"
+  },
+  "2聚类搜索引擎发展现状分析": {
+    "context1": "析及区域智能识别技术，增强了搜索引擎的查询能力，产生了元搜索引擎（如Dogpile、mamma等）、聚类搜索引擎（如Clusty、 $\\mathbf { K a r t 0 0 }$ 及比比猫等）、自然语言处理搜索引擎(如Lexxe)以及语义网搜索引擎(如Swoogle)等。在满足用户个性化检索需求方面，产生了如移动搜索引擎（如AskMobile、儒豹等）、桌面搜索引擎（如GoogleDesktop、百度硬盘搜索等）、可视化搜索引擎（如SearchMe、RedZee）、垂直搜索引擎（如 ZabaSearch、沱沱网)以及多内容搜索引擎(博客、视频、音频、地图等)。",
+    "context2": "搜索引擎的发展可从其紧密关联的两个对象—互联网资源(搜索引擎的搜索对象)和用户(搜索引擎的使用者)来分析。搜索引擎前两个发展阶段主要聚焦在资源，从第三代开始逐渐注重用户的搜索体验，搜索引擎发展的最终目的是“所得即所需”（What YouGet is What You Want）。"
+  },
+  "2.1搜索引擎发展轨迹": {
+    "context1": "随着搜索技术的不断发展，新型异质的搜索产品层出不穷。作者将搜索引擎近十多年的发展大致分为三个阶段，即从目录式搜索(第一代搜索引擎），发展到基于Robot的搜索（第二代搜索引擎），进而到智能化、个性化搜索(第三代搜索引擎）。智能化搜索采用中文自动分类、自动聚类等人工智能技术，使用内容分"
+  },
+  "2.2国内外聚类搜索引擎发展现状": {
+    "context1": "作为第三代搜索引擎的代表一一聚类搜索引擎正在蓬勃发展：2000年出现的Vivisimo可称为国内外最早的聚类搜索产品之一,2004 年Clusty 在其基础上得到了进一步发展;2003 年问世的 Mooter被人们广泛看好;近期出现的 $\\mathbf { K a r t 0 0 }$ （Ujiko 及KVisu）、Quintura、KoolTorch和WebBrain等多款可视化聚类搜索引擎带给用户全新的视觉感受；可视化音乐电影聚类搜索引擎Liveplasma的出现使聚类搜索向垂直化趋势迈进。相对于国外来说国内聚类搜索引擎的发展则滞后得多,其中最具竞争力和发展潜力是2005 年创立的比比猫(Bbmao),它集聚类、去重、收藏等多重功能于一身，是社会化的聚类元搜索引擎;5iseek及SeekXun目前处于聚类的起始阶段，只提供搜索结果聚类这一功能。"
+  },
+  "3国内外聚类搜索引擎功能分析": {
+    "context1": "本文从聚类搜索引擎的基本功能和聚类功能两个角度分析国内外已有成熟聚类搜索引擎产品。"
+  },
+  "3.1聚类搜索引擎的选取及基本功能分析": {
+    "context1": "笔者以 ReadWriteWeb.com 发起的“The Top 100Alternative Search Engines\"评选结果为标准,并借助调研和实验，选取了较具代表性的聚类搜索引擎作为分析对象，如表1所示：",
+    "context2": "表1聚类搜索引擎基本功能分析",
+    "context3": "<table><tr><td rowspan=1 colspan=1>网站名称</td><td rowspan=1 colspan=1>搜索对象</td><td rowspan=1 colspan=1>信息源</td><td rowspan=1 colspan=1>特色服务</td></tr><tr><td rowspan=1 colspan=1>Clusty！1</td><td rowspan=1 colspan=1>网页、新闻、图像、维基、博客、工作、购物及政府</td><td rowspan=1 colspan=1>Ask、Open Direc-tory、   Yahoo！News、Blogdigger、DiceCNN等共19个网站</td><td rowspan=1 colspan=1>Clusty实验室：ClustyWii（专为Wii设计）、Clusty Cloud（标签云）、ShakespeareSearched 及 Clusty Ben</td></tr><tr><td rowspan=1 colspan=1>iBoogiel2]</td><td rowspan=1 colspan=1>网页、目录、图像、新闻、政府、工作、图书馆、医学、专利及科学</td><td rowspan=1 colspan=1>Yahoo！、MSNTEOMA、Wise-Nut、Netscape、FAST、AltaVista等共7个网站</td><td rowspan=1 colspan=1>Add Custom Tab（生成个性搜索对象）；AddSearch Source（博客、游戏等16类检索源的个性化选择及添加）</td></tr><tr><td rowspan=1 colspan=1>Mnemomapl3}</td><td rowspan=1 colspan=1>网页、图像、新闻及视频</td><td rowspan=1 colspan=1>Yahoo！、 Digg、Del. icio. us、You-Tube</td><td rowspan=1 colspan=1>动态跟踪及更新检索式；将Social Network（社会网络）如掘客、Tag等融人其服务</td></tr><tr><td rowspan=1 colspan=1>WebBrain|4]</td><td rowspan=1 colspan=1>网页</td><td rowspan=1 colspan=1>未知</td><td rowspan=1 colspan=1>Open Directory Project（用户可自行添加网站到目录）</td></tr><tr><td rowspan=1 colspan=1>Carro1215]</td><td rowspan=1 colspan=1>网页、新闻、维基、开放目录项目数据、工作及PubMed数据库</td><td rowspan=1 colspan=1>Google、Yahoo！、MSN、PubMed、OpenSearch、Lu-ceneindex及SOLR</td><td rowspan=1 colspan=1>可进行聚类算法的选择，包括FuzzyAnls、HAOG-STC、Lingo、Rough k-means、STC及Lingo3G</td></tr><tr><td rowspan=1 colspan=1>Quintura[6]</td><td rowspan=1 colspan=1>网页、图像、视频及商品</td><td rowspan=1 colspan=1>Yahoo！</td><td rowspan=1 colspan=1>以可视化形式（标签云)更新检索式；专为孩子提供已过滤成人信息的Quintura Kids</td></tr><tr><td rowspan=1 colspan=1>比比猫[7]</td><td rowspan=1 colspan=1>网页、视频、文档、h收藏、生活及地图</td><td rowspan=1 colspan=1>百度、Google、Ya-hoo！、中搜、搜狗、有道、Live及百度博客</td><td rowspan=1 colspan=1>具有去重功能并可通过&quot;相似结果&quot;查看已去重内容;同时在页面右侧提供相关图片、新闻、购物和下载等结果；网页收藏功能</td></tr></table>",
+    "context4": "通过以上分析可以看出，目前聚类搜索引擎得到了快速发展并取得了一定的成果： $\\textcircled{1}$ 聚类搜索引擎几乎均为元搜索引擎，检索对象已不单单为网页，更触及到图像、视频、博客、地图、维基及工作等； $\\textcircled{2}$ 将社会性网络(SNS)的相关概念和技术充分融合其中,如 Tag、收藏及掘客等； $\\textcircled{3}$ 在提供个性化服务方面各具特色，其中iBoogie及国内的比比猫提供的服务形式使人眼前一亮,如iBoogie的用户可根据自己的偏好，在博客、游戏、军事及旅游等大类下选择已提供的信息源,形成个性化的搜索对象，比比猫在页面右侧将相关图片、新闻、购物及下载等与网页检索结果一并呈现给用户。"
+  },
+  "3.2聚类搜索引擎的聚类功能测评": {
+    "context1": "聚类功能的测评主要从聚类方式、聚类结果展示形式及聚类效果三个角度来分析。",
+    "context2": "3.2.1聚类方式尽管所选取网站的聚类形式不尽相同,但大体上可归纳为三种：目录结构、层次聚类结构和树状及网状结构。目录结构即将聚类类目简单地罗列；层次聚类采用“自下而上\"的方式将聚类结果再进行聚类，直到满足“类内最大相似,类间最大差异”的聚类目的;树状和网状结构是将聚类结果进行一系列的控制和优化处理，将类目间的关系揭示出来。表2归纳了各聚类搜索引擎的聚类方式：",
+    "context3": "表2聚类搜索引擎的聚类方式",
+    "context4": "<table><tr><td rowspan=1 colspan=1>网站名称</td><td rowspan=1 colspan=1>聚类方式</td><td rowspan=1 colspan=1>聚类说明</td></tr><tr><td rowspan=1 colspan=1>Clusty</td><td rowspan=1 colspan=1>层次聚类</td><td rowspan=1 colspan=1>共3层结构，按聚类降序列出前十位;并按来源及站点聚类,如按com、nel、org等;可点击&quot;remix&quot;按钮在已有检索结果上重新聚类</td></tr><tr><td rowspan=1 colspan=1>iBoogie</td><td rowspan=1 colspan=1>层次聚类</td><td rowspan=1 colspan=1>共3层结构，列出前20个聚类结果[2]。</td></tr><tr><td rowspan=1 colspan=1>Mnemomap</td><td rowspan=1 colspan=1>树状结构</td><td rowspan=1 colspan=1>通过Atomic-Tree技术并按照 Tags（标签）、Transla-tions(翻译）、Neighbours(邻居)和 Synonyms(同义词）来控制聚类[3]。</td></tr><tr><td rowspan=1 colspan=1>WebBrain</td><td rowspan=1 colspan=1>网状结构</td><td rowspan=1 colspan=1>按照Parent（父类）、Sibling（兄弟类）、Jump（相关类）和Child(子类)来控制聚类;并通过相互关系构建网状结构[4]。</td></tr><tr><td rowspan=1 colspan=1>Carrol12</td><td rowspan=1 colspan=1>层次聚类</td><td rowspan=1 colspan=1>按聚类降序列出前10位；并按来源及站点聚类，如按com、net、org等[5]。</td></tr><tr><td rowspan=1 colspan=1>Quintura</td><td rowspan=1 colspan=1>网状结构</td><td rowspan=1 colspan=1>通过Quintura Cloud(标签云)形式将在语义上相关的词(词组)聚类，构成网状连接[6]。</td></tr><tr><td rowspan=1 colspan=1>比比猫</td><td rowspan=1 colspan=1>目录结构*</td><td rowspan=1 colspan=1>将聚类以列表形式展现[7]。</td></tr></table>",
+    "context5": "3.2.2聚类结果的展现形式传统聚类搜索引擎主要通过类目列表的形式来展示搜索结果，即将类目按照一定的组织形式(如类目大小)通过列表呈现给用户，如Clusty、iBoogie、Carrot2以及比比猫；可视化技术在聚类结果展示方面发挥了巨大的作用，消除了传统列表形式不够\"易用\"的缺陷，使用户能够更方便地理解和使用聚类结果,如Mnemomap、Webbrain及Quintu-ra。笔者认为Quintura在聚类结果可视化方面较具特色且效果较好，其采用QuinturaCloud可视化地图技术展现聚类结果（见图1)，类目名称的大小及颜色的深浅代表该类目下搜索结果的多少，字体愈大、颜色愈深表示其结果越多，反之则越少。",
+    "context6": "在这里介绍一下KVisu'聚类搜索引擎及其Car-tographic Surfaces可视化技术。它使用聚类地图更形象地展示聚类结果，一块区域代表一个类目，区域面积的大小代表类目下结果的多少,面积愈大表明结果愈多，反之愈少。在地图上类目的远近代表类目间关系的紧密程度，愈近则表示类目间关系越密切，进而形成聚类组（ClusteringGroup），如图2所示：",
+    "context7": "![](images/d8a2de18ec995c615cdd6dd4806734e2938c12ba87ead34a1c8d2b8949c070d3.jpg)  \n图1Quintura聚类结果的展现",
+    "context8": "![](images/7fd62182e093ef2539fcf8ca4147369fd8ca9e21543106a6fcc272fa328481f6.jpg)  \n图2KVisu聚类结果及聚类组的展现",
+    "context9": "3.2.3聚类的效果聚类搜索引擎的聚类效果至关重要，笔者选取两个方向作为评价的内容，即类目的逻辑关系和类目名称的有效性，并选取Java作为关键词展开实验,Java 有三种含义，即：爪哇岛（印尼）、爪哇产的咖啡及面向对象的程序开发语言。类目的逻辑关系指的是类目之间以及类目与其下位类之间是否存在一定的逻辑关系；类目名称的有效性是指类名是否能概括聚类的主题,并与其他聚类相区别,对用户而言是可识别并且有意义的。",
+    "context10": "类目划分应依据聚类的内容而不仅依据字面的差异。通过实验可看出，目前聚类搜索引擎仍旧依据网页所包含的相应关键词作为类目名称，尚未依据网页内容来聚类，导致无法体现类目间的逻辑关系，如老牌聚类搜索引擎Clusty，通过搜索Java 得到包括Down-loads、Tutorials、Language 及 Sun Microsystems 等39个类目,类目之间并无关联;类目的名称虽是高频词（组），但对于用户来说并无实际意义，如类Additions、ListofJava及links等，用户无法了解该聚类的明确主题，反而增加了用户的负担，类似的情况也出现在Carrot、iBoogie及比比猫等搜索引擎上。部分聚类搜索引擎在此问题上做了一些改进，如WebBrain按照父类、子类、兄弟类及相关类来组织类目；Mnemomap按照标签、翻译、邻居和同义词组织聚类;iseek依照主题、人、地点、组织、时间、缩写、发布时间以及来源控制聚类。虽然它们还是依据关键词来聚类，但通过对聚类的控制使类目间有了一定的关联。"
+  },
+  "4聚类搜索引擎的局限与展望": "",
+  "4.1目前聚类搜索引擎存在的问题": {
+    "context1": "聚类搜索引擎虽取得了阶段性的巨大进步，但在聚类方式、结果展现形式以及聚类效果等方面存在不足，如聚类所需时间长、聚类效果不佳、聚类结果展示形式单一等。可以说，目前聚类搜索引擎所关注的是互联网资源，即如何更全面、更准确地处理互联网信息，而针对用户设计的产品功能目前只是试探性的，并未产生实质性的革新与突破。"
+  },
+  "4.2未来聚类搜索引擎的发展趋势—聚类2.0搜索": {
+    "context1": "Web2.0的出现使网络步入“全民织网\"的时代，用户已从被动信息接受者转变为主动提供者。聚类搜索引擎的发展同样应在关注互联网资源的基础上，将用户放在与其同等重要的地位。Vivisimo公司创始人兼 CEO—Raul Valdes-Perez2008 年1月提出了 Clus-tering2.0的概念，即通过“Remix Clustering\"在原有搜索结果上再一次聚类来满足用户的个性化需求。由此可看出，聚类2.0搜索是通过用户的参与将更智能化的聚类结果以更形象的展现形式来满足用户的个性化搜索需求。聚类2.0搜索将在继承传统聚类搜索引擎已有成果基础上朝以下4个方向发展。",
+    "context2": "4.2.1聚类结果—智能化这里的智能搜索有别于基于人工智能的智能搜索引擎，是指聚类的智能化。利用语义分析、智能化的文本挖掘技术及去重技术，通过词形、词性以及词义的处理去除重复网页,进行真正的基于内容的聚类,并使类目之间建立一定的逻辑关系而不是简单的罗列,类目名称能够反映此类目下所含资源的主题。通过聚类,达到减轻用户负担，用户快速定位所需搜索结果的目的。虽然目前尚未有智能化聚类搜索产品问世，但这是未来聚类搜索最重要的发展趋势。",
+    "context3": "4.2.2结果呈现—可视化时至今日，已有部分聚类搜索引擎在聚类结果可视化方面进行了有益的尝试,如 Mnemomap、Webbrain、KartOO、Quintura、Liveplas-ma及KVisu等等。可以说后三种可视化聚类搜索引擎在某种程度上代表了未来的发展方向。利用聚类地图等形式使类目面积的大小、类目间距离的远近以及类目的颜色等具有一定的意义，如类目的大小代表该类目下搜索结果的多少，类目间的距离代表类目间关系的远近，类目的不同颜色代表该类目下搜索结果受关注程度的差异。通过这种更为形象的可视化方式，使用户能够方便地掌握聚类结果的整体情况。",
+    "context4": "4.2.3用户参与—社会化社会化搜索是聚类搜索引擎乃至搜索引擎按照自身逻辑发展的必然结果，社会化聚类搜索并不是“社区 $^ +$ 聚类搜索”的简单交叉。提供社会性书签功能、网页收藏功能并将具有相似检索兴趣的用户组成社群网络，分享交流彼此的搜索结果及经验，这只是社区化搜索在网页聚类搜索功能上的横向补充与扩展。社会化聚类搜索则试图以用户参与的方式优化搜索结果的聚类，让用户根据自身浏览体验对搜索结果的聚类进行评价，在杜绝作弊的情况下，可以让用户判断搜索结果所属类目的精度，使聚类效果得到不断优化。",
+    "context5": "4.2.4服务提供一个性化个性化搜索是发展社会化搜索的另一思路\"。满足用户个性化的检索需求，提供个性化的检索体验是每个搜索引擎所追求的最大目标。用户可以选择和添加聚类信息源、设置搜索对象（如包含图片、视频及博客等）、设置聚类数量等，使搜索成为一种普遍性的服务，根据用户需求分化出许多异质的搜索产品。不仅如此，用户逐渐可以拥有自己的聚类搜索产品，随心所欲地设计各种聚类属性。每个人的聚类搜索引擎都不相同,反映出各自的兴趣和习惯，最终每个人都可以经营自己的垂直聚类搜索引擎，提高检索精度，增强用户体验。"
+  },
+  "5结语": {
+    "context1": "通过对已有聚类搜索引擎功能的分析，可以看出聚类搜索得到了快速蓬勃的发展，无论是在聚类方式、结果展现形式等方面都取得了巨大的进步。在当今的网络环境下，聚类搜索引擎的局限及不足也是显而易见的。随着Web2.0思想不断渗透到聚类搜索引擎当中，聚类2.0搜索必将是未来的发展趋势。聚类结果的智能化、结果呈现的可视化、用户参与的社会化以及服务提供的个性化将是未来聚类搜索发展的方向。"
+  },
+  "参考文献：": {
+    "context1": "[1]Clusty the clustering search engine.[2008 -O6-17].http:// clusty. com.   \n[2]iBoogie metaSearch document clustering engine and personalized search engines directory.[2008-06-17]. http://www.iboogie. com.   \n[3]Mnemomap.[2008-06-17].http://www.mnemo.org.   \n[4]WebBrain.com.［2008-06-17].http://www.webbrain.com/ html/default_win.html.   \n[5]Carrot clustering engine.[2008-O6-17]. http://demo.carrot2. org/demo-stable/main.   \n[6]Quintura.[2008-06-18]. http://www.quintura.com.   \n[7]Bbmao 搜索.［2008-06-18].htp://www.bbmao.com.   \n[8]KVisu.［2008-06-24].http://beta.kvisu.com/index_en. khtm？ lg = en.   \n[9] lntroducing clustering 2.0.[2008 -06-25]. htp://searchdoneright.com/2008/01/introducing.   \n[10]黎江，谭宗颖.社会化搜索发展研究.图书情报工作.2007 (12) :48 -51.",
+    "context2": "［作者简介]苍宏宇，男，1983年生，硕士研究生，发表论文1篇。谭宗颖，女，1957年生，研究员，硕士生导师，发表论文50余篇"
+  },
+  "（上接第116页）": {
+    "context1": "[5]Goodman P，Darr E.Computer-aided systems and communities： Mechanisms for organizational learning in distributed environments. MIS Quarterly,1999,22(4) :417 -440.   \n[6]Thorn B,Connolly T.Discretionary data bases：a theory and some experimental findings.Communication Research,1987,14(5):512-528.   \n[7]Osterloh M,Frey B.Motivation，knowledge transfer and organiza",
+    "context2": "[作者简介]员巧云，女，1976年生，副教授，发表论文20篇。程刚，男，1966年生，教授,发表论文110篇。",
+    "context3": "tional forms.Organizational Science,2000,I1(5):538 -550.   \n[8]Eisenberger R,Huntington R,Hutchison S,et al.Perceived organizational support. Journal of Applied Psychology，1986,71(3）:500 -507.   \n[9]George JM,Brief A P.Feeling good-doing good：A conceptual analysis of the mood at work-organizational spontaneity relationship. Psychological Bulletin，1992,112：310-329."
+  }
+}

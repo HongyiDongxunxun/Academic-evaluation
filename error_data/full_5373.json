@@ -1,0 +1,95 @@
+{
+  "original_filename": "full_5373.md",
+  "微博信息可信度分析研究综述": {
+    "context1": "蒋盛益陈东沂庞观松吴美玲王连喜",
+    "context2": "Proceedings of the Third International Symposium on Computer ScienceandComputationalTechnology.JiaozuoAcademy Publisher,2010:338 -341.",
+    "context3": "[26]Hu Xia，Sun Nan，Zhang Cao，et al．Exploiting internal and external semantics for the clustering of short texts using world knowledge [c] //Proceedings of the 18th ACM Conference on Information and Knowledge Management.New York:ACM,2009: 919-928.",
+    "context4": "[7] 彭泽映,俞晓明,许洪.大规模短文本的不完全聚类[.中文信息学报， $2 0 1 1 , 2 5 ( 1 ) : 5 4 - 5 9$",
+    "context5": "[8]金春霞,周海岩.动态向量的中文短文本聚类[.计算机工程与应用,2011,47(33):156-158.",
+    "context6": "[29] Weng Jianshu,Lim E,Jiang Jing,et al. Twitterank:Finding topic - sensitive influential Twittrers [C] //Proceedings of the Third",
+    "context7": "ACM International Conference on Web Search and Data Mining. New York:ACM,2010:261-270.   \nB0] Cha M,Haddadi H,Benevenuto F.Measuring user influence in Twitter:The million follower fallacy [C] //Proceedings of the 4th International Conference on Weblogs and Social Media.Washington DC AAAI,2010:10 -17.   \nB1]Phuvipadawat S，Murata T.Detecting a multi- level content similarity from microblogs based on community structuresand named entities[]．Journal of Emerging Technologies in Web Intelligence,2011,3(1)：11-19.   \nb2] Zhang Yang,Wu Yao,Yang Qing. Community discovery in Twitter based on user interests[]．Journal of Computational Information Systems,2012,8(3):991-1000."
+  },
+  "蒋盛益陈东沂庞观松 吴美玲王连喜": {
+    "context1": "摘要 简述微博信息可信度研究的背景和意义，并对微博信息可信度分析等相关概念进行界定；对微博信息可信度的研究成果进行梳理，指出这些研究的不足，并认为微博信息可信度分析的关键问题是微博信息特征的提取和可信度分析方法的设计;结合微博信息的特点及已有研究成果，指出微博信息可信度分析的核心技术包括自然语言处理、社会网络分析、机器学习与数据挖掘等;最后总结全文，对微博信息可信度分析的未来发展方向进行展望，为进一步研究提供参考。",
+    "context2": "[送键词 微博 信息可信度自然语言处理 社会网络分析",
+    "context3": "份类号G206TP391"
+  },
+  "【引言": {
+    "context1": "微博,即微博客(Microblog)的简称,是一个基于用户关系的信息分享、传播及获取平台。作为新兴的社交媒体,微博凭借信息传播的共享性、实时性、互动性以及传播方式的多样性，深刻地影响了人们的生活方式,极大地提升了网络媒体的服务效能。然而，微博用户量的急剧增长和微博信息的快速传播，引发了许多不容忽视的问题。微博信息的可信度问题正是其中亟待解决的难题。如何选择可信度高、有价值的信息，判断并识别虚假信息等,已成为政府、企业及个人密切关注的问题。",
+    "context2": "信息可信度研究是一个涉及面非常广的课题，本文主要从互联网信息可信度的视角探讨微博信息的可信度。微博信息是互联网信息的一部分，然而微博具有丰富的短文本、复杂的社会网络结构等特性,所以微博信息可信度分析扩展了互联网信息可信度研究的内涵。互联网信息可信度研究涉及的学科领域广泛，从信息检索、自然语言处理、机器学习等自然科学到传播学、心理学、社会学等人文科学,均出现了针对信息可信度研究的成果。本文主要从自然科学研究领域出发，梳理微博信息可信度研究的相关成果。",
+    "context3": "目前,微博信息可信度研究已取得了一定的成果，但仍缺乏对微博信息可信度分析理论、方法的整理和归纳。对微博信息可信度研究的已有成果进行总结与展望能帮助相关研究人员快速了解该领域的发展现状和明确进一步研究的方向。本文首先从微博信息可信度的背景和意义出发，对微博信息可信度分析的概念和内容进行界定;接着梳理现有的微博信息可信度的相关研究,指出目前研究存在的局限性,并进一步指出微博信息可信度分析的关键问题;然后归纳微博信息可信度分析的核心技术;最后进行总结和展望。"
+  },
+  "2微博信息可信度概述": {
+    "context1": "随着Web2.0/3.0时代的到来,用户在互联网上扮演的角色越来越重要。许多流行的社交媒体，如Twitter、新浪微博等，更是以用户为核心来组织内容。互联网信息发布门槛降低,导致用户生成内容（usergenerated content,UGC）急剧增加、网络信息质量不断下降,虚假信息、网络谣言和垃圾广告等泛滥成灾。如何评估互联网信息的可信度，成为人们面临的严峻挑战,同时也激发了学者们对这个领域的研究兴趣。随着微博的兴起，以微博为代表的社交媒体信息的可信度研究已经成为了学者们研究的重要范畴。"
+  },
+  "2.1互联网信息可信度": {
+    "context1": "互联网信息可信度研究由来已久，其中以斯坦福大学可信技术实验室（ Stanford Persuasive TechnologyLab)B.J.Fogg主持的互联网可信度研究(The WebCredibilityResearch）项目为代表。信息可信度研究最早出现在19世纪50年代的心理学领域和通信领域。不同的研究者对可信度的定义不尽相同,通常将它定义为可信任性（believability）、真实性（trust）、可靠性（reliability）准确性(accuracy）、公正性(fairness)或客观性(objectivity)等。B.J.Fogg等回顾并整理了已有的信息可信度研究的文献，对信息可信度的相关概念进行了解释，并提出了理解信息可信度的概念框架。刘挺针对互联网信息可信度问题,定义了信息可信度的概念和研究内容，并提出了信息可信度评估的原理。在互联网信息可信度相关理论的基础上，研究者们针对不同的对象，深入探讨具体领域的信息可信度研究,包括新闻等普通网站的可信度，以博客、论坛为代表的UGC网站的可信度-和Web 垃圾检测-1等。",
+    "context2": "随着微博的流行，微博信息的可信度问题引起了人们的重视。微博融合了社会网络特征、短文本特性和新型的信息传播模式，成为信息传播的新途径。它赋予了网民更自主、更便捷的发布和传播信息的权力，也在一定程度上助长了不可信信息的滋生和扩散。结合微博的特点,采用特定的技术方法来分析微博信息的可信度，成为互联网信息可信度研究的新热点。"
+  },
+  "2.2　微博信息可信度": {
+    "context1": "微博因其信息的即时分享性、互动性和多样性而得以迅速发展。然而由于以下原因，微博信息的可信度正在下降。首先,微博消息受字(字符)数限制,文本短小且呈碎片化,难以全面客观地传达信息。其次，微博是草根媒体,用户匿名性、草根性和信息发布的随意性，极易导致虚假信息的泛滥。再次，微博信息在传播过程中，缺乏强有力的把关人，无法对信息的真实性进行把关。最后，借助微博用户关系网络，不可信信息通过多级节点在不同群体中扩散，信息的汇聚转发增大了不可信信息的“可信度”。",
+    "context2": "研究微博信息可信度有助于微博用户判断信息的真实性，营造诚信健康的互联网环境，使微博在信息过滤、舆情监控和信息传播引导过程中发挥积极的作用;同时也有助于推动微博社会化推荐、微博搜索引擎等方面的应用研究。鉴于此，微博信息可信度研究在近年来吸引了学者们的眼光，并出现了一些研究成果。",
+    "context3": "现有微博信息可信度研究主要包括微博垃圾信息检测[1-12、谣言检测[3-14和话题新闻的可信度分析[5-11,但它们并没有对相关的概念和内容等方面进行限定。本文： $\\textcircled{1}$ 将微博信息理解为涉及微博消息、微博用户和微博社会网络等三个方面的信息。微博消息不仅包括文本内容，还可以有图片、视频、音乐等多媒体信息。其中文本内容是体现微博信息可信度的直接载体，因此下文有关论述将以微博文本内容展开；作为微博信息发布者，微博用户是重要的信息源，其发布和传播信息的行为直接影响信息的可信度;微博社会网络是微博信息汇聚转发的平台，用户通过评论、转发等互动行为探讨热门话题，发表自己的观点。 $\\textcircled{2}$ 结合文献β]、对信息可信度的定义，“可信”和“不可信”表示主观上对信息信任的程度，而不仅仅是狭义理解的客观上的“真\"或“假’。“可信”和“不可信\"在一定程度上反映了信息的客观真实性，也反映了人们对信息的价值、意义等方面的主观认知。因此,本文参考了刘挺对不可信信息的定义,认为不可信的微博信息包括4类:不实信息,即故意制造的虚假信息(如微博谣言)；错误信息，即内容错误的信息；垃圾信息，即重复无用的信息(如微博垃圾广告)；过时信息，即失去时效性的信息。反之，可信的微博信息主要指人们主观或客观感知的、真实的、时效性和相关性较强、有一定价值的信息。在 $\\textcircled{1}$ 和 $\\textcircled{2}$ 的基础上，本文将微博信息可信度分析解释为在传统的互联网信息可信度理论和方法的基础上，结合微博这种社交媒体的特点，借助特定的技术和方法来分析评估微博信息“可信”的程度，其目标在于剔除虚假的、错误的、无价值的微博信息，从而使人们有效地获取和管理微博信息。"
+  },
+  "3 微博信息可信度分析相关研究": "",
+  "3.1国内外微博信息可信度研究": {
+    "context1": "由于微博出现的时间较短,学者们基本上从2008年才开始对微博进行研究，目前微博信息可信度的研究成果并不多。V.Qazvinian等[通过分析Twitter信息的浅层文本内容特征(词汇、词根等）、行为特征（用户发布或转发的微博是积极还是消极的概率）和微博元素特征(标签、URL）,构建多个贝叶斯分类器和集成分类器,以识别微博谣言。A.H.Wang[采用贝叶斯分类方法，分析文本内容的统计特征(最近20条微博内容重复的微博数量、外部链接数量、 $@$ 符号数量、话题标签数量)和用户关系网络图的特征(粉丝数、关注数、用户声誉度)来识别Twitter上的垃圾信息。H.S."
+  },
+  "3.2微博信息可信度分析的关键问题": {
+    "context1": "在现有研究的基础上,本文将微博信息可信度分析的关键问题归纳为微博信息特征的提取和分析方法的设计。微博信息特征从本质上反映信息可信度，如何选择合适的特征是微博信息可信度分析的关键；结合微博信息特征，设计有效的分析方法则是另一个关键问题。",
+    "context2": "3.2.1微博信息特征的提取针对现有研究在微博信息特征提取方面缺乏综合考虑和深入挖掘，本文将微博信息特征归纳为三个方面。",
+    "context3": "·微博用户特征。针对微博用户,C.Castillo等选取每个用户平均发布的微博数量、平均的粉丝数量、平均关注的好友数量、平均的注册时间作为微博用户特征;A.Gupta等和H.S.Al-Khalif等@选取了用户粉丝数、用户是否为认证用户、用户注册时间、用户关注的好友数以及个人信息是否包含头像、地理位置、URL等作为微博的用户特征。然而,这些特征只从静态的角度反映用户的真实性，并没有考虑微博用户的权威性,因此难以全面衡量微博用户的可信度。",
+    "context4": "通常，如果微博用户具有较高的真实性和权威性，那么该用户及其发布的信息具有较高的可信度。真实性体现在微博用户的个人信息，而权威性则体现在微博用户的类型和级别及其在微博社会网络的影响力。为此，进行微博用户特征提取时，除了考虑微博用户的个人信息(包括姓名、联系方式、职业信息、教育信息和标签信息等)以验证其真实性，还要衡量用户在其对应的社会网络中的权威性，综合评估用户的可信度。一般而言，组织机构的权威性要高于个人用户，认证用户的权威性要高于非认证用户。从微博社会网络角度来看,影响力越大的用户,权威性越高。而现有的微博用户影响力评估主要通过分析用户粉丝数量、用户博文数量、博文被转发或评论次数、用户被提到次数等特征,来评估用户的影响力。可以考虑用户参与微博的活跃度、影响他人的程度、基本的用户属性和用户在微博社会网络中的链接信息等方面的特征，来综合评估微博用户的权威性。",
+    "context5": "·微博文本内容特征。微博文本内容能够体现信息的可信度。A.H.Wang[、C.Castillo和H.S.Al-Khalif[考虑将浅层的文本统计特征作为微博文本内容的特征,比如微博文本的长度、所含的标签数等；V.Qazvinian等[则选取文本内容的词汇和词根作为分析的特征。然而，浅层的文本特征难以反映出微博文本内容的可信度。因此，必须挖掘微博文本内容的元素(标签、外部链接和表情符号等)及词句、语义等深层信息来分析文本内容的可信度。",
+    "context6": "除了考虑微博文本内容外，上下文信息也不可忽视。上下文信息包括评论数、转发数、评论信息、信息发布的时间和地点、来自哪个客户端或应用程序等。一方面,评论数、转发数表明该话题的讨论热度；另外评论文本可以作为微博文本的补充，弥补微博短文本特征稀疏的不足。另一方面，信息发布的时间可以衡量微博信息的时效性;信息发布的地点和使用的客户端则从空间位置上说明信息的源头。这些情境信息有助于辅助评估信息的可信度。",
+    "context7": "·微博信息传播特征。微博信息在传播过程中的特征是评估微博信息可信度的关键因素。C.Castillo等[简单选取Tweet被转发的深度作为微博信息的传播特征;M.Mendoza等分析了用户转发微博的拓扑网络特征以发现谣言传播的不同模式。然而，这些特征并不能全面反映用户的互动行为对信息传播的影响：一方面，真实信息可能因传播过程中用户的恶意评论转发而失真;另一方面，不可信信息也可能因用户的评论转发等助推行为而更广泛地扩散。这些用户中既有真实用户，也存在僵尸用户(指那些人为控制的、自动转发特定信息的虚假账号）。因此，考虑微博信息的传播特征时，有必要对传播过程中评论、转发信息的用户进行可信度评估。",
+    "context8": "在提取微博信息的传播特征时，除了考虑信息被转发的次数等指标外,还要考虑传播过程中用户的可信度、识别僵尸用户和恶意评论转发者(指转发虚假信息或添加恶意评论使信息失真的用户）。首先，考虑传播过程中转发信息的用户的真实性和权威性。需要指出的是，经权威性高的用户传播的不可信信息的影响范围更广，所以要综合考虑传播过程中存在的多个转发用户的权威性。其次，要识别僵尸用户和恶意评论转发者。目前研究尚缺乏有效识别僵尸用户和恶意评论转发者的方法。僵尸用户的识别，可以根据僵尸用户的特征,通过分类学习或异常检测等方法加以区分;也可以结合信息传播的网络，发现僵尸用户传播信息的异常行为。对于恶意评论转发者，需要考虑原始的微博信息，再综合该用户的权威性、转发附加的评论信息及该用户日常发布的信息等方面的因素，来判断该用户是否恶意评论转发者。",
+    "context9": "3.2.2微博信息可信度的分析方法微博现有的微博信息可信度分析方法主要有分类学习方法和排序方法。分类学习方法将微博信息是否可信看成分类问题,利用微博信息的特征，采取特定的分类算法训练分类器,以预测微博信息是否可信[1,13,1]。排序方法则是在PageRank等算法的基础上，综合考虑不同的微博信息特征及其权重计算可信度得分进行排序[2-23] 。",
+    "context10": "针对现有方法存在的人工成本高、算法效率和扩展性不佳等方面的不足，可以从以下几方面考虑设计微博信息可信度的分析方法。",
+    "context11": "·改进有监督的学习方法。对于有监督的学习方法,需要自动或半自动的数据标注方法。一方面，可以借助集体智慧或众包等形式，激发用户主动对信息进行评论、打分、纠错等形式的标注;另一方面,可以借助少量的标注数据,利用半监督学习方法对大量数据进行自动标注。同时，在设计分类或排序方法时要考虑算法处理大规模数据的能力和效率。考虑到微博文本数据和社会网络数据的特点，需要高效的数据存储方式,并设计可扩展的算法以处理大规模的微博数据。",
+    "context12": "·采用无监督的学习方法。考虑无监督的学习方法,以避免人工标注的成本和提高算法效率。目前较少采用无监督的方法，但观察到微博上不可信信息呈现的异常特征，可以运用聚类或者异常检测等无监督的方法，来区分可信和不可信的微博信息。另外,基于微博上信息分布不平衡的现象，需要借助不平衡数据学习的思想，来解决数据不平衡的问题。",
+    "context13": "·建立事实数据库。通过事实数据库存放具体事实、知识数据以及记录不可信微博信息的历史数据。利用事实数据库可以查询已知事实，或判断未知事实。通过事件查询、事实检验和推理验证等手段,来辅助评估微博信息可信度。",
+    "context14": "·人机协同,辅助判断。加强人机交互,实现微博信息可信度分析的协同计算。通过计算机分析微博信息，自动识别可疑的微博信息，并提交给专家进行评估，或者激发网民对可疑信息进行判断。通过集成专家评估或网民判断，来验证微博信息的可信度。"
+  },
+  "4微博信息可信度分析的核心技术": {
+    "context1": "综合现有的微博信息可信度研究，针对微博丰富的短文本内容和复杂的社会网络等特性,微博信息可信度分析需要自然语言处理、社会网络分析、机器学习与数据挖掘几大技术的支撑。自然语言处理技术在理解微博文本内容方面发挥着至关重要的作用，社会网络分析方法则从微博社会网络的角度分析用户、用户关系和用户影响力等，而机器学习与数据挖掘在数据处理、建模分析、模型评估等方面提供理论和实践的指导。"
+  },
+  "4.1自然语言处理": {
+    "context1": "自然语言处理是互联网文本挖掘的主要技术。微博文本内容是微博信息的主要载体，是评估微博信息可信度的重要方面。因此，必须运用自然语言处理技术来深入挖掘微博信息，为信息可信度的评估提供依据。但由于微博文本字数少，特征稀疏且维度逐渐扩大，传统的自然语言处理技术并不能很好地处理微博短文本，这加大了分析微博文本内容可信度的难度。",
+    "context2": "短文本挖掘的相关成果主要集中在短文本预处理2、短文本的特征扩充与选择25-2d、短文本学习算法的优化7-28等方面。这些研究成果有助于挖掘微博文本内容的深层信息，为微博信息可信度评估提供判断的依据。通过短文本预处理、特征扩充与选择，能较好地解决短文本特征稀疏性问题，为进一步的短文本分类、聚类作铺垫;短文本学习算法的优化,能有效处理面向海量微博数据的短文本挖掘。现有的微博信息可信度分析方法并没有深入到短文本分类、聚类等方面,只是选取简单的文本统计特征进行分析。如何利用自然语言处理技术，结合微博短文本的特性，深入挖掘微博信息可信度，是微博信息可信度分析的关键。"
+  },
+  "4.2社会网络分析": {
+    "context1": "社会网络分析是分析复杂网络的关键技术。微博上存在复杂的用户关系网络,信息在微博网络中的传播特征是影响信息的可信度的重要因素。社会网络分析方法有助于在微博社会网络中评估用户的权威性、刻画信息的传播网络、描述用户所在社区的特征，从社会网络的角度评估信息的可信度。",
+    "context2": "微博具有复杂的社会网络结构，使之成为社会网络分析的研究热点，相关研究包括微博用户的权威性评估29-30和微博社区检测[1-3等方面。微博用户的权威性评估有助于衡量该用户及其发布的信息的可信度，也有助于分析传播过程中评论转发的微博用户，识别僵尸用户和恶意评论转发用户;微博社区检测能从相似的社区特征角度辅助评估在该社区内的信息的可信度，对应的信息传播网络能凸显出传播过程中的关键节点，也可以呈现虚假信息异常的传播行为。利用社会网络分析方法来挖掘微博社会网络中用户传播信息的行为对微博信息可信度的影响，能进一步辅助微博信息可信度的分析。"
+  },
+  "4.3机器学习和数据挖掘": {
+    "context1": "微博信息可信度分析涉及到微博文本内容和微博社会网络。微博文本数据是十分庞大的,同时微博社会网络也是由无数节点连接而成的关系网络，这必然涉及到海量的微博数据。在海量微博数据的基础上建立有效的微博信息可信度分析模型，需要机器学习和数据挖掘在理论和实践上提供指导。机器学习在集成学习、可扩展学习（对大数据集、高维数据的学习）、强化学习、概率模型等方面的理论和方法上的日益成熟，以及数据挖掘在面向海量数据的应用领域里的成功应用，为微博信息可信度分析提供了重要的指导。结合机器学习的理论方法和数据挖掘的应用实践，并迁移到对海量的微博数据的处理上来，辅助自然语言处理、社会网络分析等技术，才能更加有效地分析微博信息可信度。"
+  },
+  "5总结与展望": {
+    "context1": "目前，微博信息可信度研究已经引起了国内外学者的关注。本文从互联网信息可信度研究的角度出发,简述了微博信息可信度的背景、意义和相关概念，梳理了现有的研究成果,指出了目前研究存在的不足，分析并归纳了微博信息可信度分析的关键问题和核心技术。",
+    "context2": "微博信息可信度分析的关键在于如何提取合适的微博信息特征以及设计有效的分析方法。考虑微博信息特征提取时，需要综合考虑微博文本内容、用户和信息传播过程等方面的因素，提取并构造最能代表这些方面的特征;考虑微博信息可信度分析方法的设计时，需要针对具体的微博数据设计可扩展的方法。微博信息可信度分析是一个复杂的过程，必须利用自然语言处理和社会网络分析方法来分别处理微博文本内容和微博社会网络等问题，通过机器学习和数据挖掘等理论和实践来指导面向海量微博数据的分析过程。",
+    "context3": "随着自然语言处理和社会网络分析技术的不断发展,微博信息可信度分析将得到更好的支持和实现，并逐步展现其广阔的应用前景,如微博信息过滤、搜索引擎、社会化推荐、舆情监控和信息传播引导等方面。例如,在舆情监控和信息传播引导中,结合微博信息可信度分析，识别虚假信息,发现可信度高的话题,加以引导传播，有助于微博舆情预警;在微博搜索方面，结合文本内容、用户信息和社会网络结构来分析搜索结果的可信度,呈现可信的、相关的查询结果;在社会化推荐方面，借助微博信息可信度分析为用户推荐可信的内容。",
+    "context4": "尽管互联网信息可信度和微博信息挖掘技术的相关理论、方法和应用有了一定的发展,为微博信息可信度分析提供了重要的支持，但微博信息可信度研究还是处于起步阶段,并且面对不断变化、发展的微博，微博信息可信度研究仍存在很多值得探索的地方。如何从微博信息的内容、用户和内容的相关性、微博社会网络等方面,应用自然语言处理、社会网络分析、机器学习和数据挖掘等方法，建立行之有效的信息可信度分析模型，并将其投入到实际的应用领域中,是微博信息可信度分析未来发展的重要方向。"
+  },
+  "参考文献：": {
+    "context1": "[1]Stanford Web credibility research [EB/OL]． [2O12-11 -01]. http://credibility.stanford.edu/research.html.   \n[2] Tseng S,Fogg B J. Credibility and computing technology]. Communications of the ACM,1999,42(5):39 -44.   \n[3]Self C S.Credibility[J]．An Integrated Approach to Communication Theory and Research，1996,1(1)：421-441.   \n[4]Fogg B J,Tseng H.The elements of computer credibility [C]// Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. New York:ACM,1999:80 -87.   \n[5]刘挺.互联网信息可信度问题[EB/OL]．[2012－12-01]. http://caai.cn/contents /49/102.html.   \n[6] Fogg BJ,Soohoo C,Danielson D R,et al.How do users evaluate the credibility of Web sites?:A study with over 25OO participants [//Proceedings of the 2003 Conference on Designing for User Experiences.New York:ACM,2003:1-15.   \n[7]Van House N.Weblogs: Credibility and collaboration in an online world[EB/OL]．[2012－11－11]．htp://people.ischool. berkeley.edu/\\~vanhouse/Van%20House%20trust% 20workshop. pdf.   \n[8]Rubin VL,Liddy E D.Assessing credibility of weblogs [C] // Proceedings of the AAAI Symposium on Computational Approaches to Analysing Weblogs.Palo Alto: ACM,2006:187-190.   \n[9] Gyongyi Z,Garcia- Molina H,Pedersen J. Combating Web spam with trustrank [C] //Proceedings of the Thirtieth Interational Conference on Very Large Data Bases.Toronto:VLDB Endowment, 2004:576-587.   \n[i0]Erdelyi M, Garzó A,Benczur A A.Web spam classification: A few features worth more $\\mathbb { H }$ //Proceedings of the 2011 Joint WICOW / AIR Web Workshop on Web Quality.New York:ACM,2011: 27 -34.   \n[1] Wang A H.Don't follow me:Spam detection in Twitter[C] // Proceedings of the International Conference on Security and Cryptography.Athens: SciTePress, 2010:142-151.   \n[12] Magno G,Rodrigues T. Detecting spammers on Twitter EB/O1] . [2012-12-12].ttp://ceas.cc/2010/papers/Paper% 2021. pdf.   \n[13] Qazvinian V，Rosengren E，Radev D R,et al.Rumor has it: Identifying misinformation inmicroblogs[C]/Procedingsof the 2011 Conference onEmpirical MethodsinNatural Language Processing. Edinburgh:ACL,2011:1589-1599.   \n[4] Seo E，Mohapatra P,Abdelzaher T.Identifying rumors and their sources in social networks [EB/O1]．[2012-10-05] .http: // spirit.cs.ucdavis.edu/pubs/conf/prasant -spiel2.pdf.   \n[5]CastilloC，Mendoza M，PobleteB.Informationcredibilityon Twiter [C//Proceedings of the 2Oth International Conference on World Wide Web.New York:ACM,2011:675- 684.   \n[6Al-Khalifa H S,Al-EidanR M.An experimental system for measuring thecredibility of newscontent in Twitter[J]. International Journal of Web Information Systems，2011，7(2)： 130 -151.   \n[17] Suzuki Y.A credibilityassessment for messge streamson microblogs[//Proceedings of the2010 Interational Conference onP2P，Parallel，Grid，Cloudand Internet Computing. Washington,DC:IEEE,2010:527- 530.   \n[8] Mendoza M,Poblete B，Castillo C.Twitter under crisis:Can we trust what weRT?[C]//Procedingsof the First Workshopon Social Media Analytics.New York:ACM,201O:71-79.   \n[9] Canini KR,Suh B,Pirolli P.Finding credible information sources in social networks based on content and social structure [C] // Proceedings of the third IEEE International Conference on Social Computing. Boston: IEEE,2011:1 -8.   \n[0]卡先华,陈亮,郑倩冰.基于文本内容和社会结构的可信度． 重庆理工大学学报(自然科学版)，2013,27(1):57-61.   \n[1] 王晟,王子琪,张铭.个性化微博推荐算法[.计算机科学与探 索,2012,10(1):1-9.   \n2]GuptaA，KumaraguruP.Credibilityrankingof Twetsduringhigh impact eventsEB/O1]．2012-11-11] .htp://precog.iitd. edu.in/Publications_files/a2-gupta.pdf.   \n[23]Gupta M，Zhao Pengxiang，Han Jiawei．Evaluating event credibility on Twitter [C]//Proceedings of the Twelfth SIAM International Conference on Data Mining.Anaheim: Omni Press， 2012:153 -164.   \nb4] Xue Zhenzhen，Yin Dawei，Davison BD.Normalizing microtext [c] //Proceedingsof theAAAI -11 Workshopon Analyzing Microtext. San Francisco,AAAI,2011:74 -79.   \n[5]Yan Tao，Wang Xiwei.Feature extension for short text [] //"
+  },
+  "Research Review of Information Credibility Analysis on Microblog": {
+    "context1": "Jiang Shengyi1ChenDongyi1Pang Guansong²Wu Meiling²Wang Lianxi3",
+    "context2": "1School of Informatics，Guangdong University of Foreign Studies，Guangzhou 510006 'School of Management， Guangdong University of Foreign Studies，Guangzhou 510006",
+    "context3": "3Library，Guangzhou University of Foreign Studies ， Guangzhou 510420",
+    "context4": "[Abstract] This paper introduces the background and significance of information credibility research on microblog， and givsrelevantdefinitionsonit.Then itsummarizes therelated achievementsandconcludes the existing drawbacks.It furtherproposes that the keyproblems toevaluate information credibilityonmicroblog includethe featureextraction in microblog and design of credibility analysis methods.Based on microblog’s featureandcurrent research achievements， this paperconcludes thatthe key technologiesof information credibilityanalysisonmicroblog involve natural language processing，social network analyzing，machine learning and data mining.With a summarization，it finally looks to the future development，to make references for further research.",
+    "context5": "[Keywords] microbloginformation credibilitynatural language processingsocial network analysis"
+  },
+  "（上接第92页）": {
+    "context1": "β1]秦鸿.英国的阅读推广活动考察[.图书与情报,2012(5)：46$- 5 0 , 5 5$",
+    "context2": "B2] 阅读推广委员会 [EB/OL]．[2013-06-04].http://www.lib-read.org/reader. jsp? $\\mathbf { i d } = 9 9$",
+    "context3": "B3] 图书馆服务宣言[.中国图书馆学报,2008(6)：5.  \nB4]Remy M. ReadingGroupGuides.com [].Reference Reviews,2002,16(6):24 -25.  \nB5]毛毛虫上书房 [EB/OL]．[2013-03－20]．http://blog.sina.com.cn/u/1353451301."
+  },
+  "Experience and Reference on Book Discussion Club in Europe’ s and America’ s Libraries": {
+    "context1": "Qin Hong",
+    "context2": "University of Electronic Science and Technology of China,Chengdu 611731",
+    "context3": "[Abstract] Book discussion club is one of important forms of reading promotion.This article introduces the concept and typeof book discusion club，outlines the domesticand foreign development status．Europe’sand America’s practical experiencearemainly discussed，including national strategydevelopment，establishment of profesional promotionagency，partnership mechanism ledby libraries，progresivequality framework，rich organizationguidelines provision，online reading community construction，and stafftraining.It makes suggestions on carrying out reading group activities for Chinese libraries and provides reference for their reading promotion practices.",
+    "context4": "[Keywords] book discussion clubreading promotion library"
+  }
+}

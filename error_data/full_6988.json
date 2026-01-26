@@ -1,0 +1,121 @@
+{
+  "original_filename": "full_6988.md",
+  "·会议综述·": "",
+  "数字资源长期保存：研究进展回顾与展望": {
+    "context1": "-iPRES2019国际会议综述",
+    "context2": "高凡’吴振新²付鸿鹄²陈子俊²  \n（1.西南交通大学公共管理与政法学院，成都,610031；2.中国科学院文献情报中心，北京,100190；3.中国科学院大学图书情报与档案管理系，北京，100049)",
+    "context3": "[摘要］数字资源是人类知识和文化的自然和重要组成部分，数字信息资源长期保存逐步成为各国国家信息安全的重要内容。iPRES国际会议作为长期保存领域最大最重要的会议，对全球数字资源长期保存理论和实践发展起到了积极的推动作用。本文从多元化数字类型、关键技术问题进展和可持续发展研究三个维度全面介绍了iPRES2019会议的内容，并分析了数字保存发展总体的变化和发展趋势。",
+    "context4": "[关键词]iPRES会议综述数字资源长期保存复杂数字对象关键技术可持续发展发展趋势",
+    "context5": "[中图分类号］G250.73[文献标识码]A[文章编号］2095-2171(2020)02-0118-10   \nDOI:10.13365/j.jirm.2020.02.118",
+    "context6": "Digital Preservation:Eye on the Horizon -Summary of iPRES 2019",
+    "context7": "Gao Fan'Wu Zhenxin2,3Fu Honghu²Chen Zijun² (1.School of Public Affairs & Law,Southwest Jiaotong University,Chengdu 610031；2.National Science Library,Chinese Academy Sciences，Beijing 100190；3.Department of Library Information and Archives Management，National Science Library，Chinese Academy of Sciences，Beijing 1001903)",
+    "context8": "[Abstract]Being an important content of human knowledge and culture,preservation of digital information resources has gradually become an important part of national information security in various countries.iPRES, as the largest and most important international conference for digital preservation，has played a positive role in promoting the global development of theoryand practice of digital preservation.This article comprehensively analysises the content of the iPRES2019 from the three dimensions of diversified types of digital object，progress of key technical issues，and sustainability of digital preservation，and finally summaries the changes and development trends of digital preservation.",
+    "context9": "[Keywords]iPRES；Conference summary；Digital resources；Digital preservation；Complex digital objects；Key technologies； Sustainability；Trends"
+  },
+  "1前言": {
+    "context1": "随着全球数字化和开放科学的迅速发展，数字文献资源、数字音视频、数字图像、科学数据、社交媒体、计算机辅助设计产品、数字艺术产品、复合数字对象、数字人文资料、开放教育资源、虚拟现实或增强显示内容等迅速成为知识创作、传播和利用的常规形态，成为人类知识和文化的重要组成部分。然而，相比传统非数字载体的信息，数字信息面临更高的风险。数字信息资源的长期保存已经成为各国相关机构战略资源管理的重要举措，并逐步成为各国国家信息安全的重要内容。",
+    "context2": "数字资源长期保存国际会议（InternationalConference on Digital Preservation,iPRES)[1],历经16年的发展，已经成为国际数字资源长期保存领域展示成果、宣传理念、学术推介、合作共享的专业平台，对全球数字资源长期保存理论和实践发展起到了积极的推动作用，也为我国学者一直关注和追踪[2]。",
+    "context3": "2019年的iPRES国际会议[3]于9月16日至20日在荷兰阿姆斯特丹举行，会议聚集了400余位科学家、研究人员、保存从业人员、图书馆员、学生、保存服务提供商以及其他专家，从战略到实施、从国际合作到本地规划，参会者广泛分享了数字保存领域最新的发展与创新。本文将对iPRES2019 国际会议进行全面分析，以期让各位同行全面了解会议的盛况和全球发展前沿。"
+  },
+  "2日益丰富和复杂的数字对象类型": "",
+  "2.1更多工具支持研究数据保存": {
+    "context1": "英国JISC开放研究中心(JORH)集成了许多仓储库、基础设施和保存平台，为研究人员提供了一站式服务。该服务提供开源和专有系统，允许在需要时公开共享数据和元数据,其定制存储库 Open Research Repository是JORH的一部分，基于广泛的数据模型和丰富的消息传递层，为用户提供了一个简单易学的界面、无缝的端到端体验，实现直接从仓储到长期保存[4]。",
+    "context2": "加拿大Artefactual Systems公司利用学者门户（Scholars Portal)的赞助,为 Archivemati-ca开源保存系统开发了新的接收功能，用于保存处理来自Dataverse（一款非常流行的研究数据管理工具)的数据。这一新功能使得Archivematica能够更广泛地用于研究数据保存[5]。该研究还分析了满足其他用例、服务模型和研究数据的保存方法。"
+  },
+  "2.2日益复杂的网络信息存档": {
+    "context1": "母庸置疑，网络信息已经成为重要的信息资源，存档图书馆和档案馆常常通过网络采集和存档学术资源,大规模和高质量的Web 存档不是一件易事。除了网络学术信息频繁更新，网络自身的动态性质和Web页面内容日益复杂的特性，都需要复杂的采集和归档方法，也使存档框架需要不断更新。",
+    "context2": "洛斯阿拉莫斯国家实验室进行了一项比较研究，发现学术网络对Web爬虫程序和人的典型行为做出不同反应，该研究结果将帮助指导存档人员使用适当的工具[6]。ReproZip-Web是面向新闻应用程序保存的轻量级开源原型系统，它利用ReproZip（一种计算可重复性工具）和Webrecorder（一种用于记录Web资源的工具)来自动透明地捕获和重放动态网站[7]。MementoTracer是一款新颖的跟踪器框架，主要用于跟踪、捕获和归档学术信息，可以构建可扩展的和高质量的WEB归档[8]。",
+    "context3": "荷兰国家图书馆利用Tapeimgr软件，从90年代中后期的磁带格式中恢复数字数据，这些磁带包含荷兰国家图书馆(KB)计划中的许多“丢失”网站的源数据，这也是其正在进行的Web考古项目的内容[9]。"
+  },
+  "2.3基于语义技术的电子邮件保存": {
+    "context1": "电子邮件信息由于其数据格式复杂多样、内容数量庞大，特别是涉及一些敏感信息，很难获得和处理，给长期保存带来很大挑战。",
+    "context2": "RATOM是一款用于邮件审阅、评估和分类的开源保存软件。它利用机器学习方法将记录与非记录分开，并使用自然语言处理方法来识别记录中的实体。北卡罗莱纳大学教堂山分校的研究人员介绍了RATOM的原理、与其他可用软件的关系以及如何将电子邮件处理纳入更大的数字管理工作流中，并展示了如何识别原始数字馆藏中的电子邮件，查看敏感或受限材料的电子邮件来源，并执行评估和分类任务以识别和注释记录[10]。",
+    "context3": "伊利诺伊大学以电子邮件处理为例，介绍了使用机器学习的预测编码工具处理大型存档数据集的相关知识。大数据集格式多样和数量庞大，很难获得和处理，特别是敏感内容必须在公开材料之前进行识别。这些挑战阻碍了对这类数据进行研究目的的访问，并妨碍档案人员获取大型数据集。预测编码可以通过使用和监督机器学习增强评估决策，识别并优先审查和编校敏感内容。伊利诺伊大学应用商业工具有效地处理大数据集，加强初步的存档审查[11]。"
+  },
+  "2.4新兴媒体及复杂数字对象保存": {
+    "context1": "对于新兴媒体而言，制定合理的保存策略是一个挑战。荷兰声音与视觉研究中心（TheNetherlands Institute for Sound and Vision)介绍了针对音视频资料的长期保存规划、开展的工作及相关问题，他们的保护计划能帮助管理人员将这些问题放在正确的环境中，并在了解现有新兴媒体保存策略基础上做出明智的决定[12]。纽约公共图书馆介绍了该馆负责的音频对象保存研究[13]。他们认为用数字比特流表示模拟音频是最佳做法。如果保存目标是来自原始媒体的信息，那么原始媒体的复杂性应作为内容信息的重要属性同时保存。他们分析了数字化项目如何编码和封装输出，对复杂音频对象，从管理流(音频信号的单一线性序列）、域(要同步回放的一组流）、面(按顺序播放的一组区域)三个层次进行分析并制定相应的策略。对于复杂音频对象的保存并不存在单一的最优战略，但可以制定出相对更优的战略。Aviary是一个视听内容访问平台，实现了音频创建自动转录，支持高精度的精细搜索，并通过细化权限提供对视听内容的专业访问。目前正在开发与诸如Preservica和Archivematica之类的保存系统的通用集成。Aviary在会议现场进行了演示，重点展示了对数字保存系统的集成[14]。",
+    "context2": "高校图书馆越来越多地采用VR技术进行各种研究和教学，包括增强对3D模型集合的访问，提供新的研究工具以及为学生提供新的沉浸式学习环境。随着研究人员越来越多地使用这些技术，对存档和保存服务的需求将会越来越大，已经有一些项目尝试为三维数据开发数字存储库和元数据指南，还有一些专注于文化遗产数据形式的3D内容。在大学图书馆中支持虚拟现实和3D需要确定高校图书馆和其他3D/VR项目机构如何规划3D和VR资源的再利用和长期可持续性，明确当前实践中的挑战和策略[15]。",
+    "context3": "Micr'Olonys电影软件数字归档解决方案基于多层虚拟机和缩微胶卷（预期寿命为500年）。他们将数字文件存储为2D条码，可以使用任何通用计算机和扫描仪通过实施引导程序中描述的过程来恢复其内容，未来他们的目标是成为功能强大的保存工具，用于复杂的格式和软件，以及存档大量数据[16]。日本国立文学研究所提出了一个图像处理方案，可显著提升石碑铭文的可读性，该方法对于将来自动识别照片中的文字字符也很重要[17]。",
+    "context4": "大英图书馆在其\"新兴格式\"项目中研究了一些新型内容的保存,其中包括作为Mobile Apps发布的电子书。尽管内容格式不同，但Android和Apple应用程序面临最大的挑战在于获取和呈现,同时由于近年来该内容领域的增长有限，他们对是否应该大规模投资提出质疑[18]。",
+    "context5": "ClaudiaRoeck(阿姆斯特丹大学）和RafaelGieschke(弗莱堡大学)研究了基于 Internet的艺术品的可能保存策略，并评估了捕获作品真实性以供将来迭代的最佳策略。从长期保留作品最重要属性的角度来比较和评估不同性质艺术品的保存措施会发现，与基于软件的艺术品相比，基于互联网的艺术品将保存措施的重点从软件的稳定性转移到减少服务器维护、保护服务器和艺术品免受互联网威胁以及减少外部依赖性[19]。"
+  },
+  "3长期保存关键技术问题得到持续发展": "",
+  "3.1元数据管理继续维持较高关注度": {
+    "context1": "元数据保存策略是丹麦皇家图书馆创建新的数字保存策略的重要内容之一。保存战略必须考虑长期目标，使用尽可能少的系统，采用尽可能统一的方法来处理元数据的保存。由于支持保存系统的市场在不断变化，这就需要考虑一项使图书馆尽可能独立于支持其数字保存活动的系统的战略。新策略要求采用适合数字保存的格式（包括数据格式和元数据格式)，以尽可能少的元数据格式保存数字馆藏。该馆拟保存的元数据类型包括描述元数据、管理元数据（包括技术元数据、保存元数据、数字溯源、权限元数据)和结构元数据[20]。",
+    "context2": "Matterhorn RDF是元数据存档模型，它基于链接数据，目的是改善存档记录的上下文环境。它涵盖了三个标准ISAD（G），ISAAR(CPF)和ISDF,以及OAIS信息模型的\"保护描述信息\"和“表示信息”区域。为了实现Mat-terhorn RDF，开发者使用了现有本体的类和属性[21]。"
+  },
+  "3.2保存格式依旧是研究热点": {
+    "context1": "数据格式是长期保存相关社区关注的核心问题。美国国会图书馆为了支持对其规模可观的馆藏数字内容的长期保存和管理，自2004年以来长期开展文件格式风险评估。他们清点了其主要数字内容系统中的数据，审查有关永久数字馆藏中内容文件扩展名的信息，确保所采用的文件格式支持长期管理[22]。另外，他们在国家数字报纸计划(NDNP)项目中评估了PDF，并建议用PDF/A代替TIFF进行报纸数字化保存，同时强调必须采用足够强大的验证工具确保存储文件符合 PDF的要求[23]。"
+  },
+  "3.3长期保存规范与标准不断演进": {
+    "context1": "长期保存特别重视标准和规范的使用和推广，长期保存相关规范与标准持续演进和发展，不但有新规范提出，同时原有规范也在不断更新。",
+    "context2": "本次会议一如既往地继续开展PREMIS（保存元数据：实现策略标准）和METS两个标准的专题培训，全面介绍标准内容，展示两者如何结合使用。",
+    "context3": "长期保存的重要标准OAIS发布了版本3更新草案[24]。该版本的主要变更包括：表示信息允许随时间推移而变化；保存描述信息PDI的所有组件现在都指向内容数据对象，而不是内容信息；引入“保存目标”的概念，并将其定义为可以使用信息对象实现的具体可实现目标；对OAIS功能模型、信息模型、保存透视图以及对存档互操作性有所更新。这一版本的更新使OAIS更加清晰，有利于集成到",
+    "context4": "ISO 16363中提高存储库的可审核性，也引入了自OAIS版本2发布以来其他人提出的一些有用的概念。更新将不要求目前符合OAIS 的存档系统作出重大更改，而是允许这些存档系统更清楚地提供有关其一致性的证据。此外这些变化使OAIS适合于未来几年的目标。Simon Lambert（UKRI-STFC)研究了 OAIS 参考模型的某些方面及其在电子基础设施可持续性计划中的适用性[25]。",
+    "context5": "信息包规范与存储标准也有了相应的变化和更新。E-ARK4ALL项目发布了其信息包通用规范（CSIP)的 Alpha 版本；Oxford Com-mon File Layout(OCFL)计划发布了eARK 独立于软件的AIpha 版本保存文件组织规范。它们在很大程度上是互补的方法，eARK信息包通用规范旨在定义OAIS标准的信息包的逻辑结构和内容；OCFL描述了如何以易于保存的方式将任何逻辑数字对象布局映射到物理文件系统，以及如何识别管理此类对象所需的基本操作[26]。同时OCFL支持独立于应用程序的透明文件持久性，可用于在发生灾难时重建存储库。开源保存平台Fedora将在下一个主要版本Fedora6.0中采用OCFL[27]",
+    "context6": "数字保护存储标准（下称“标准”旨在帮助制定对保存存储解决方案的要求或评估，从2016年首次开发至今经过多次修改。最新版本的标准包含61个标准，分为八类：内容完整性、成本考虑、灵活性、信息安全性、弹性、可伸缩性和性能、支持和透明性。最近其开发了该标准的使用指南，包括保存存储的关键主题：风险管理、独立性、建立位(Bit)安全性的要素以及成本方面的考虑。该使用指南将作为项目的后续步骤之一公开发布[28]。"
+  },
+  "3.4仿真成为交互式数字资源的首选保存方案": {
+    "context1": "随着数字对象的日益复杂化，人们越来越强调以仿真的方式来保障长期保存的数字资源的可用性。通过仿真服务，原生数字对象能够在原始环境中按照原来的方式被使用，人们可以得到全保真体验。但是这种方法在实施中遇到极大的挑战，难度大、耗时、耗费资源。耶鲁大学图书馆的报告人介绍了“通用虚拟交互器\"这种新方法和一套工具，简化了数字对象在“原始环境\"中进行交互的过程，并大大减少了时间和资源成本[29]。德国国家图书馆的报告描述了德国的仿真框架研究项目的发展以及图书馆访问环境中的实际集成，使收集的多媒体对象可在仿真环境中现场使用，该框架基于“仿真即服务”,并针对自动处理大型集合进行了优化；报告还讨论了与仿真框架有关的法律方面问题[30]"
+  },
+  "3.5保存系统、工具及服务日益成熟": {
+    "context1": "“超级烘焙”（Bake-Off)环节展示完整的数字保存解决方案，各个系统提供面向终端用户的解决方案，现场利用给定的各种类型的数据，实现数据的摄入和存档。iPRES2019共设3场“超级烘焙”，涉及9个比较成熟的保存系统：LIBSAFE、Archivematica、Strongroom、Rosetta、Arkivum、DiVault、Preservica、Docuteam cosmos、Long-Term Archive。",
+    "context2": "在会议展示（Demonstrations）环节则提供了数字保存实践中的各种工具和应用的集中展示，包括大英图书馆的集成式保护工具套件、Jisc开放研究中心（JORH)的一站式服务、北卡罗莱纳大学教堂山分校的邮件审阅、评估和分类 RATOM工具集、Aviary 视听内容访问平台、数字馆藏保存的评分模型在线评分工具等，给参会者提供了直接的体验。",
+    "context3": "黑客马拉松概念源自美国，90年代后期出现，目前逐渐成为插件开发的主要形式。iPRES2019在会议正式开始前一个月公开了本次黑客马拉松主题，共组织了两支黑客马拉松队伍。第一支队伍的主题是将数字取证与用户访问相关联，主要的目的是解决目前实践中长期保存和访问服务之间的分隔问题，以一对一连接方式，有效解决用户访问传统数字资料的障碍。第二支队伍的主题是了解虚拟现实艺术品的可变性，主要目的是在软件保存的研究基础上，帮助那些对虚拟现实(VR)艺术品进行长期管理的人，应对VR技术快速发展带给保存者的巨大挑战。"
+  },
+  "4可持续发展成为长期保存的核心主题": {
+    "context1": "数字资源长期保存的目标，对技术、系统、人员、资金等提出了长期可持续的要求，使得可持续发展一直都是长期保存致力探索的研究重点。"
+  },
+  "4.1重视保存规划与策略的制定": {
+    "context1": "合理的保存策略和保存规划是长期保存可持续发展的基本保障。机构制定整体保存规划、为某种资源选择一种保存策略等是长期保存工作开展的重要前提。圣母大学Hesburgh图书馆致力于构建学术研究图书馆的数字保存功能，以保证可持续获取数字馆藏，探索规划和构建可持续数字保存计划的框架[31]。",
+    "context2": "保存策略制定需要综合评估成本和风险。在iPRES2019的专题研讨会上，几位专家探讨了成本模型，分析其作为保障长期保存的可获得性成本控制的战略决策工具的可行性。相关机构已经就长期保护和获取有价值的数字资源的必要性达成了一致。然而，对于长期保存费用并没有明确认识，因此并没有充分考虑到长期成本。此外，许多机构认为长期成本非常高，部分原因是数字化或原生数字化的材料数量呈指数级增长。研讨会以包括阿姆斯特丹的电影博物馆在内的两个实际用例，讨论了成本模型的实际应用及其作为支持数字化基础设施设计和管理的战略决策工具的潜力[32]。",
+    "context3": "大英图书馆针对高度多样化和不断增长的数字馆藏，开发了一个集成保护工具集，用于建立自动化和可扩展的保存计划功能，增强图书馆的保存规划能力。该工具集可以通过基于模块化API的架构与任意存储库软件集成，侧重于自动化和解决图书馆的异构馆藏问题[33]。",
+    "context4": "保存撤销策略也是保存规划和策略制定中应该考虑的重要内容。数字保存是一项需要长期努力的连续活动，但数据对象并不总是具有保存价值。合理撤销策略有利于规避更大的风险,增强成功响应的能力[34]。"
+  },
+  "4.2多维度合作是可持续发展的重要策略": {
+    "context1": "不同的数字对象具有不同的保存要求，而数字对象的多样性和复杂性要求更多的专业知识，同时数字保存需要在不断变化的环境中成为动态活动，因此长期保存所涉及的策略、政策、实践、投入往往超出了单个保存机构的能力。本次合作主题涉及2个子会场以及4个专家论坛，深入探讨了保存机构、社区、企业、国家之间的保存协作问题。",
+    "context2": "芬兰CSC科学技术中心与档案馆、图书馆和博物馆建立了广泛而成功的合作模式，以保护数字文化遗产。结合档案馆、图书馆和博物馆建立数字保存所需的功能，与数据管理者密切合作，创建一组具有通用规范的统一和集中式保存服务[35]。墨尔本大学探索数字保存和企业架构如何共同实现大学2015—2025年数字保存战略的目标，确定了数字保存与企业体系结构之间的连接点和相似点，探索如何通过大学基于学术服务的数字保存相关团队与基于基础设施服务的企业体系结构部门之间的有效合作，来实现整个大学基础设施实施的核心基础[36]。阿姆斯特丹市档案馆采用分布式和协作的方式进行数字保存服务[37]，支持从保存到使用的基本数字对象管理。目前他们也在利用两个案例探索合作解决大型媒体文件和议会信息的保存与访问，但现有的标准结构无法满足这两个案例的应用需求，所以他们正在探索与其他机构或企业合作保存的解决方案。",
+    "context3": "维也纳大学的研究人员基于ROMOR项目中的经验，提出了一套完整的解决方案，包括部署开放访问存储库、构建研究数据管理服务、提高数据管理技能、支持明确用户需求以及提供必要的支持系统和服务。该项目帮助建立了四所巴勒斯坦大学的政策、系统和组织工作流程[38]。"
+  },
+  "4.3知识共享与人培养为可持续发展提供有力支持": {
+    "context1": "由于长期保存研究实践的复杂性和持续性，对长期保存的从业人员带来了很大的挑战，相应的能力与持续更新的知识要求，使得培训与继续教育一直都是iPRES会议的议题。",
+    "context2": "法国档案馆跨部门服务部与Vitam计划团队和文化部(国家档案馆)合作，进行了一项有关“数字信息的长期可持续性\"的研究，分析了“数字保护\"领域的边界，基于BPMN构建了数字保存过程模型，并对实施这些过程所需的技能和概况进行了分析，设计数字保存功能并评估理想的人员配置[39]。英国国家地球科学数据中心(NGDC)开发和提供的研究数据管理培训(RDM)课程，帮助学生获得良好的数据管理实践，并提高在NGDC中生成和存储的研究数据的质量[40]。Ffmprovisr作为提供在线技术教育支持的网站，使用开放的在线文档作为共享教育资源[41]。",
+    "context3": "数字保存非常强调建立社区以分享经验和开发解决方案。数字保存联盟对数字保存中人才发展的趋势开展研究，并提出了作为社区应采取的步骤建议[42]。利用Wikidata知识库创建和联合与数字保存相关的开放数据，满足数字保存社区的需求[43]。随着商业数字保存产品的出现，一些供应商也开始为其客户创建了共享社区，如Preservica为数字保存产品建立用户组，帮助用户更有效地从技术中获益，并在用户和供应商之间创建有效的对话[44]。"
+  },
+  "4.4可信赖评价成为可持续发展的重要保障手段": {
+    "context1": "作为长期保存可持续发展的重要保障手段，可信赖评价一直是长期保存研究的重点内容。",
+    "context2": "欧盟可信数字印章(CoreTrustSeal,CTS)致力研究数据管理和数字保存社区都接受的可信赖数字存储库认证过程。研究人员深入研究了背景信息/上下文的要求，从公开可用的评估报告中提取信息，并将这些信息与可用的支持信息交叉比对，从过程、机构和社区视图三个角度对CTS进行了反思，提炼出具体的建议[45]。",
+    "context3": "随着开放数据运动的发展，很多国际机构参与了FAlR(Findability,Accessibility，Interoper-ability，and Reusability,科学数据管理指导原则)相关的工作和活动。DNAS作为CTS标准的执行者，参与了大量有关FAIR的工作，并将FAIR原则、许可数据印章和CTS的要求进行了比较，对它们的重叠和互补性进行仔细检查，探讨了FAIR原则对软件可持续性的适用性，为FAIR数据可信保存管理提供了指南[46-47]。",
+    "context4": "“数字馆藏保存评分模型”则是依据CTS为规模较小且技术水平较低的文化遗产机构组织提供的一款在线自我评估工具[48],帮助他们自我评估：了解自身的数字馆藏保存状况，提供有关问题的建议，同时也能揭示该机构与CTS之间的差距[49]。"
+  },
+  "5长期保存变化及发展趋势总体分析": "",
+  "5.1呈现了更为丰富的主题内容": {
+    "context1": "本届会议主题“Eye on the Horizon”,意为站在地平线上回顾与展望，希望能够通过会议描述保存领域的发展前沿以及多领域的交叉。相比iPRES2018（4个主题23个维度)[50]，本次会议从长期保存合作、可持续发展、保存能力建设、技术基础设施及应用、新视野及研究前沿共五个主题37个维度进行了探讨，涉及理论、技术、工具和软件、标准、保存案例分析等各个方面。"
+  },
+  "5.2增强了保存实践和具体实施": {
+    "context1": "iRPES2019特别重视长期保存的具体实践及具体问题的解决，关注实际保存中涉及的各种系统、软件、工具、技术及方法。本次大会不仅设立多个论文会议（Paper Session）来讨论和交流相关保存经验，更是专设有“超级烘焙\"（Back-off)和\"展示\"(Demonstration)环节进行全面的保存系统和工具展示及实际操作，给参会者更加直接的一手体验。会议还特设黑客马拉松环节，探索当前长期保存工作面临的具体的前沿问题和可行的解决方案。",
+    "context2": "可以看出本届iPRES会议在坚持\"理论与实践\"并重的iPRES要求基础上,加强了保存实践和具体实施，也更为关注实际保存中涉及的各种系统、软件、工具及技术。这与长期保存发展现状有关，经过多年发展，数字资源长期保存领域形成了相对成熟的理论和规范体系，更多的需求和关注点已经转向保存数字资源的实践工作。"
+  },
+  "5.3更广泛的参与度": {
+    "context1": "从会议主办方的统计看（如图1），参会代表来自35个国家和地区，除了主办国荷兰外，美国、英国参会人员较多，第二梯队的有瑞士、德国、加拿大、比利时、法国、中国，与之前作者的分析高度一致2。中国由于要承办iPRES2020，今年参会人数明显增多。",
+    "context2": "![](images/5d069d319a6f7a353cd7a10ac36fb0763e40f856ea7e5c0a95e7c5dd815d2a32.jpg)  \n图1iPRES 2019 参会人员国家(地区)分布[51]",
+    "context3": "按五大洲计算，欧美参会人数占到 $90 \\%$ ，也从侧面反应欧美对数字资源长期保存的重视和广泛的参与度。非洲开始有代表参会，但没有相应的贡献度体现，应该跟主办方的资助有关。另外，超过 $60 \\%$ 以上的参会者是第一次参加iPRES会议，说明越来越多的人员开始涉足数字资源长期保存领域的实践活动，或者说长期保存在更广泛的领域引起更多人的关注。"
+  },
+  "5.4日益交叉的研究领域": {
+    "context1": "如图2所示，除了图书馆、高校、档案馆、博物馆这几大主力机构类型，企业参会人数很出人意料，这在一定程度上反映了社会对于长期保存需求已经形成一定的市场影响力，越来越多的机构开始涉足长期保存服务市场。长期保存社团参会人数虽然不是很多，但也能反映出社团发展比较稳定。政府机构的人员参会人数较少，是一个比较意外的情况，目前除了经费问题，还不能得知其他原因。比较明显看出一些新的资源类型所属机构参会人数还是较少,如artarchive,这与新型资源类型长期保存的起步状态非常吻合。"
+  },
+  "5.5创新的会议形式": {
+    "context1": "从会议结构设置上，会议组织了3场主旨报告、15 场论文报告、10 场 Panel 报告，6场Workshop交流、5场Tutorial交流。与往届iPRES会议相比，除了会议论文主题报告、展示、专家论坛、研讨与培训等常规形式外，iPRES2019会议增加了几种新的形式，如\"lighttalks”,提供每位报告人5分钟报告，以支持更多新想法新观点的分享；“超级烘焙”（Back-off)主要提供更多的机会充分展示商业系统和产品以及开源的工具；首次引入“黑客马拉松”形式。",
+    "context2": "![](images/9c825ab196143e6dcf6320a200fbf2b2ecf66709264c94083074fd2539aa6953.jpg)  \n图2iPRES 2019 参会人员领域分布[51]",
+    "context3": "另外 iPRES2019 保留了 iPRES 2018上首次出现的数字保存游戏，就是通过任何形式的纸牌、棋盘、视频或其他游戏形式,来深入浅出地解释、说明或探索数字保存的任何内容，让更多的人从有趣的方法中受益，以学习有关数字保存和管理的知识。"
+  },
+  "6结语": {
+    "context1": "通过本次会议可以看出，数字资源的长期保存经过多年的理论探讨和实践演练已经达到相对成熟和稳定的时期，并随着大数据时代的来临而进入新的高速发展阶段，我们要在现有的高度回望历史，展望未来的新视野。",
+    "context2": "长期保存是一项复杂、艰巨的长期活动。随着社会与技术的发展，长期保存面临的技术环境、社会环境、文化环境不断地发生变化，持续变化的环境给长期保存工作带来了更多的复杂性和困难，使得长期保存领域面临着越来越多的挑战。但同时，技术的进步和发展也给长期保存带来了更多的新思路和新方法。",
+    "context3": "iPRES系列会议准确地反映了保存领域的研究与实践现状及社会保存需求的发展变化，同时又为广大的从业人员提供了高水平的国际交流和共享平台，有效地促进了全球数字资源长期保存的发展。下一届iPRES会议将于2020年9月21—24日在北京举行[52]，对于国内同行，这既是一个更多参与国际交流的好机会，也是一个最好的展示研究成果的舞台，期待大家的精彩表现。"
+  },
+  "参考文献": {
+    "context1": "[1] iPRES[EB/OL].[2019-10-25].htps://ipres-conference.org/.   \n[2] 吴振新，寇晶晶，单嵩岩，等.基于iPRES的数字资源长期保存研究与实践发展分析，图书馆理论与实践,2019(5)： 31-38.   \n[3] iPRES 2019[EB/OL].[2019-10-25].https://ipres2019.org/.   \n[4] Stokes P.JISC Open Research Hub -Integrate，deposit，discover and preserve[EB/OL].[2019-07-05].https:// ipres2019.org/static/pdf/iPres2019_paper_90.pdf.   \n[5]Goodchild M,HurleyG.Integrating Dataverse and Archivematica for research data preservation[EB/OL].[2019-10- 25].https://ipres2019.org/static/pdf/iPres2019_paper_147.pdf.   \n[6]Klein M，Balakireva L，Shankar H.Who is asking ?Humans and machines experience a diferent scholarly web[EB/ OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_130.pdf.   \n[7]Boss K，Steeves V，Rampin R，et al.Saving Data Jourmalism: Using ReproZip-Web to capture dynamic websites for future reuse[EB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_129.pdf.   \n[8]Klein M，Vande Sompel H.Introducing the Memento Tracer Framework for scalable high-qualityweb archiving[EB/ OL].[2019-10-25].htps://ipres2019.org/static/pdf/iPres2019_paper_131.pdf.   \n[9]van der Knijf J. Recovering 90s data rapes-Experiences from the KB web archaeology project[EB/OL].[2019-10- 25].https://ipres2019.org/static/pdf/iPres2019_paper_9.pdf.   \n[10]Le CA，Woods K.Demonstration ofthe Ratom tolset:Review，appraisal,andtriage ofmailEB/OL].[2019-10- 25].https://ipres2019 .org/static/pdf/iPres2019_paper_92.pdf.   \n[11]WestB，KaczmarekJ.Machine learning forbigtext：Atutorialonusing predictivecoding tools toprocesslargearchival datasets[EB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_86.pdf.   \n[12]Steman M.Preservation planning，beacons fora TDR[EB/OL].2019-10-25].htps:/ipres2019.org/static/pdf/ iPres2019_paper_106.pdf.   \n[13]Krabbenhoeft N.What is the standard format for digitized sudio?Approaches for storing complex audio objects[EB/ OL].[2019-10-25].htps://ipres2019.org/static/pdf/iPres2019_paper_149.pdf.   \n[14]Vizner P,Lyons B.From preservation to accessinone step aviary:An access platform for audiovisual content[EB/ OL].[2019-10-25]. htps://ipres2019.org/static/pdf/iPres2019_paper_56.pdf.   \n[15]Lischer-Katz Z，Cook M，HallN,etal.Supporting virtual realityand3D inacademic libraries:Defining preservation and curation chalenges[EB/OL].[2019-10-25].htps://ipres2019.org/static/pdf/iPres2019_paper_99.pdf.   \n[16]JguinV.Passive digital preservation now& later[EB/OL].[2019-10-25]．https://ipres2019.org/static/pdf/ iPres2019_paper_139.pdf.   \n[17] Uesugi H, Uesugi M,TaniT.Development and improvement of Image processing scheme for archiving inscription[EB/ OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_84.pdf.   \n[18]Pennock M，May P，Day M.Considerations on the acquisition and preservation of eBook mobile apps[EB/OL]. [2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_140.pdf.   \n[19]Roeck C，Gieschke R，Rechert K，etal.Preservation strategies for an internet-based artwork yesterday，today and tomorrow[EB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_125.pdf.   \n[20]Zierau E.Preservation of metadata-Acase studyof a strategy to ensure technology agnostic metadatapreservation [EB/OL].[2019-10-25]. htps://ipres2019.org/static/pdf/iPres2019_paper_30.pdf.   \n[21]WildiT，Dubois A.The Matterhorn RDF data model:Formalizing archival metadata with SHACLEB/OL].[2019-10- 25].https://ipres2019.org/static/pdf/iPres2019_paper_11.pdf.   \n[22]CooperM,DesRochersA，Johnston，etal.Extensive extensions：Exploringfileextensions inLibraryof Congress Collections[EB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_39.pdf.   \n[23] Oates A，Schlaack W.The case fora standard that'sold news:Recommendation of PDF/A for digitized newspaper preservation[EB/OL].[2019-10-25].htps://ipres2019.org/static/pdf/iPres2019_paper_151.pdf.   \n[24]Giaretta D,GarrettJ,ConradM,etal.OAlS version3draft updatesEB/OL].[2019-10-25]hps://ipres2019.org/ static/pdf/iPres2019_paper_51.pdf.   \n[25]LambertS.Aperspective from digital preservationonsustainabilityof EinfrastructuresEB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_73.pdf.   \n[26]Jefferies N，Bredenberg K，Dappert A.Aligning theeARK4AllArchival Information Package and Oxford Common File Layout Specifications[EB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_45.pdf.   \n[27]WilcoxD.Fedoraand the Oxford Common FileLayout：Enhancing support for digitalpreservation[EB/OL].[2019-10- 25].https://ipres2019.org/static/pdf/iPres2019_paper_101.pdf.   \n[28] Zierau E，Schaefer S,McGovern NY,et al.Anoverview of the digital preservation storage criteria and usage guide [EB/OL].[2019-10-25]. htps://ipres2019.org/static/pdf/iPres2019_paper_26.pdf.   \n[29]Cochrane E，RechertK，Gates E.Towards auniversal virtual interactor towards a Universal Virtual Interactor(UVi) for digital objects[EB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_128.pdf.   \n[30]SteinkeT.Giving access tomultimediaobjects inlibraries-ImplementingasolutioEB/OL].[2019-10-25].https://",
+    "context2": "Ipreszuiy.org/static/par/iPreszuiy_paper_b/.pat. [31]Hockx-YuH，Brower D.Building sustainable digital preservation-Atypologyof digital collctionsEB/OL].2019-10- 25].htps://ipres2019.org/static/pdf/iPres2019_paper_Z8.pdf. [32]Uffen H，Swagemakers W，van VelzenE.Acost modelforanalysingand controling thecostof long-term digital accessibilityasastrategic decision-making toolEB/OL].2019-10-25].https://ipres2019.org/static/pdf/iPres2019_ paper_44.pdf. [33]MayP，Pennock M，RussoDAThe integrated preservationsuite：Scaledandautomated preservation planning for highlydi verse digital collections[EB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_107.pdf. [34]Adair A,Esteva M,ChangB.Early exit strategies indigital preservationEB/OL].[2019-10-25]. htps://ipres2019. org/static/pdf/iPres2019_paper_111.pdf. [35]KylanderJ，Helin H，Koivunen K，etal.Together forever，or how we createda commonand colaborative digital preservation service[EB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_117.pdf. [36]WeatherburnJ，WintonL，TurnerS.DigitalpreservationandenterprisearchitecturecolaborationattheUniversityof Melbourne:Ametingof Mindsets[EB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_113.pdf. [37]van Meegen SA.One repository solution doesn'tfit all-Towards a distributed andcollborative approach todigital preservation servicesat the Amsterdam City ArchivesEB/OL].[2019-10-25].htps://ipres2019.org/static/pdf/ iPres2019_paper_25.pdf. [38]Rauber A. Setting up open accessrepositories:Chalenges and lessons from Palestine[EB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_88.pdf. [39]Humbert M，Rousel S，VaseurE.Building the futureof digital preservation in french archival services processes, functions and stafingforan effctive digital preservationEB/OL].2019-10-25].htps://ipres2019.org/static/pdf/ iPres2019_paper_29.pdf. [40]PinnickJ.Buildingresilienceatthe National GeoscienceData Center：Enhancingdigitaldatacontiuitythroughresearchdata management training[EB/OL].[2019-10-25].htps://ipres2019.org/static/pdf/iPres2019_paper_12.pdf. [41]Weaver A.Sustainability through Community:Ffmprovisrand the case for colaborative knowledge transfer[EB/OL]. [2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_97.pdf. [42]McMeekin S.People get ready：Building sustainability into digital preservation workforce development[EB/OL]. [2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_120 .pdf. [43]Thornton K，Seals-NuttK.Geting data outof WikidataEB/OL].[2019-10-25]. htps:/pres2019.org/static/pdf/ iPres2019_paper_135.pdf. [44]TilburyJ，Verdegem R，Cochrane E.Building auser group fora digital preservationproduct[EB/OL].[2019-10-25]. https://ipres2019.org/static/pdf/iPres2019_paper_64.pdf. [45]Lindlar M，Rudnik P.Eyeonthe CoreTrustSeal-Recommendations forcriterion Ro fromdigital preservationandresearch data management perspectives[EB/OL].[2019-10-25]. https://ipres2019.org/static/pdf/iPres2019_paper_ 143.pdf. [46］Grootveld M.FAIR Data Work $@$ DANS：Implementing metrics，reviews，and more[EB/OL].[2019-10-25].https:// ipres2019.org/static/pdf/iPres2019_paper_115.pdf. [47]Recker J，Mokrane M.CoreTrustSeal-certified repositories：Enablingfindable，accessible，interoperable，andreusable(FAIR)[EB/OL].[2019-10-25].https://ipres2019.org/static/pdf/iPres2019_paper_Z4.pdf. [48] Score model[EB/OL].[2019-10-25].www.scoremodel.org. [49]Lemmens B，Gillsse R.Score modelfor the preservationof digital collectionsacase foranother digital preservation self-evaluation tool[EB/OL].[2019-10-25].htps://ipres2019.org/static/pdf/iPres2019_paper_61.pdf. [50]iPRES 2018 [EB/OL].[2019-12-11]. https://ipres2018.org/cal-for-contributions. [51]The iPRES Proceedings[EB/OL].[2019-12-05]. htps://ipres2019.org/program/proceedings/. [52]iPRES 2020[EB/OL].[2019-12-05].https://ipres2020.cn/."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "original_filename": "full_4212.md",
+  "在线商品虚假评论关键问题研究综述": {
+    "context1": "朱娟²",
+    "context2": "(1．武汉大学信息管理学院，湖北 武汉430072；2．九江学院信息学院，江西 九江332005)",
+    "context3": "(摘要）回的/意义]对在线虚假评论的现有研究进行梳理，分析研究现状，明确未来研究发展方向。[仿法/过程以CNKI和Web of Science文献为研究对象，从文献分析的视角，采用定性与定量分析相结合的方法，从虚假评论的识别方法、特征提取以及防治策略的角度，对国内外虚假评论研究的现状进行了分析，总结和概括了本领域研究的热点和存在的问题。结果/结论研究表明，在虚假评论的识别方法上，需加强对半监督和无监督学习的研究；在特征提取上，可考虑本体技术的应用;在防治策略上，要考虑多学科多领域的合作。",
+    "context4": "（关键词）在线商品；虚假评论；文献分析；机器学习；识别方法；防治策略；特征提取；综述 DOI: 10.3969/j.issn.1008-0821.2017.05.028",
+    "context5": "（中图分类号）F724.1（文献标识码）A（文章编号）1008-0821（2017）05-0166-06"
+  },
+  "A Review of Key Issues in the Opinion Spams of Online Products": {
+    "context1": "Zhu Juan1,2",
+    "context2": "1. School of Information Management，Wuhan University，Wuhan 430072，China;",
+    "context3": "2. School of Information， Jiujiang University， Jiujiang 332O05，China)",
+    "context4": "(Abstract]Purpose/significance] The paper carded existing study about online product opinion spam，summarized research status，and put forward future research direction.Method/processFrom the perspectiveof document analysis， using acombinationofqualitativeand quantitative methods to analyze the present status of research onopinion spams，summarized the key issues and problems in thefield.Result/conclusion]This paper presented theexisting problems and futuredirectionoffieldfromthreeaspects:recognitionmethod，feature extractionand prevention strategy，which provided reference to the academic research more deeply.",
+    "context5": "(Key words）online products； opinion spam； literature analysis；machine learning;recognition method；preven-tion strategy； feature extraction",
+    "context6": "2014年，中国互联网络信息中心（CNNIC）发布的相关网购决策的报告指出，用户评价在现阶段的网络购物决策中占据主导地位， $3 7 . 5 \\%$ 的网购用户在决策时主要考虑因素为用户评价。已购消费者对商品的评论信息在很大程度上影响了潜在消费者的购买决策，已有研究表明，$80 \\%$ 的用户在查询到大量负面评论之后会放弃之前中意的商品，而 $87 \\%$ 用户的购买决策是基于大量的正面评论。在线评论信息在某种程度上会直接影响产品销量，基于自身利益的考虑，商家会通过各种手段来抵毁或吹捧某些商品或服务。研究表明，很多在线评论网站，如Amazon.",
+    "context7": "com、Yelp.com等，存在着大量的虚假评论，在Yelp.com, $16 \\%$ 的酒店评论信息被认为是虚假评论，国内的淘宝更是如此，刷客横行。虚假评论的出现，浅层次而言，容易误导消费者做出错误的决策；深层次而言，破坏电子商务市场规则，不利于公平、有序的市场建立。因此，对虚假评论的研究和识别迫在眉睫，并具有重要意义。",
+    "context8": "本文以虚假评论为主题，对虚假评论的研究进行了检索，在分析相关文献的基础上，通过定性与定量分析相结合的方法，总结概括了国内虚假评论研究的主要对象、关键要素及关键技术和方法，并对相关研究进行了评析，以期对我国虚假评论的研究现状有一个整体把握，为我国学术界对虚假评论的进一步研究提供借鉴和参考。"
+  },
+  "1文献统计数据": {
+    "context1": "本文的研究数据主要来源于CNKI和Web of Science,检索时间设定为2016年6月21日，以“虚假评论’、“垃圾评论’、“Review Spam”、“Fake Review’、“OpinionSpam”、“FakeOpinion”为主题进行高级检索，共得到中文文献104篇，剔除掉4个噪声数据《让人又爱又恨的验证码》、《业者揭秘“伪书”出版链条》、《现代伪书现象研究》、《亦爱亦恨验证码》，有效文献国内100篇，国外最相关文献50篇。从表1可以看出，虚假评论的研究始于2007年，2010年之后呈现出研究的活跃期，期刊数量呈逐年递增的趋势。究其原因，可以从社会和学术两个领域来分析，在社会领域，电子商务经历了1997-2002年的初创期、2003-2007年的快速发展期，由于支付宝的推出和国家相关文件的出台，电子商务进入了创新发展期，电子商务的蓬勃发展为在线评论的研究提供了土壤；在学术领域，2007年，Jindal首次提出了在线商品垃圾评论检测（Review Spam Detection）也为国内学术界提供了新的视角。",
+    "context2": "表12007-2016年虚假评论发文数量统计",
+    "context3": "<table><tr><td>年代</td><td>cnki</td><td>wos</td><td>小计</td><td>年代</td><td>cnki</td><td>wos</td><td>小计</td></tr><tr><td>2007</td><td>0</td><td>1</td><td>1</td><td>2012</td><td>10</td><td>6</td><td>16</td></tr><tr><td>2008</td><td>2</td><td>4</td><td>6</td><td>2013</td><td>11</td><td>4</td><td>15</td></tr><tr><td>2009</td><td>2</td><td>1</td><td>3</td><td>2014</td><td>25</td><td>10</td><td>35</td></tr><tr><td>2010</td><td>1</td><td>1</td><td>2</td><td>2015</td><td>27</td><td>15</td><td>42</td></tr><tr><td>2011</td><td>8</td><td>2</td><td>10</td><td>2016</td><td>11</td><td>2</td><td>13</td></tr></table>",
+    "context4": "在所收集的数据中，虚假评论的研究文献多集中于情报、计算机和经济管理领域，见表2，表中列举了国内发文量至少两篇的期刊。其中，情报学领域发文最多，包括《现代图书情报技术》、《中文信息学报》、《现代情报》、《图书情报工作》共计发文13篇，主要集中在讨论如何将情报学理论与计算机技术结合来研究虚假评论。其次是计算机领域，包括《电脑爱好者》、《计算机工程与应用》、《计算机应用与软件》、《计算机工程》、《计算机应用》、《计算机科学》共计发文12篇，主要讨论虚假评论识别算法及其改进。经济管理领域主要包括《现代经济信息》和《科技创业月刊》共计发文4篇，更关注虚假评论对商务活动的影响性。国外文献分布相对分散，其中，《EXPERTSYSTEMS WITH APPLICATIONS》3篇，《Application Re-searchofComputers》2篇，其它期刊均为1篇，但是所涉及的领域基本与国内分布一致，计算机、情报和经济管理，但是在心理学领域也有涉及，其中在《JOURNALOF AP-",
+    "context5": "PLIED PSYCHOLOGY》发文1篇。",
+    "context6": "表22007-2016年知网虚假评论发文来源统计",
+    "context7": "<table><tr><td>期刊</td><td>篇数</td><td>期 刊</td><td>篇数</td></tr><tr><td>现代图书情报技术</td><td>5</td><td>科技创业月刊</td><td>2</td></tr><tr><td>中文信息学报</td><td>3</td><td>图书情报工作</td><td>2</td></tr><tr><td>现代情报</td><td>3</td><td>计算机应用与软件</td><td>2</td></tr><tr><td>现代经济新息</td><td>2</td><td>计算机工程</td><td>2</td></tr><tr><td>电脑爱好者</td><td>2</td><td>计算机应用</td><td>2</td></tr><tr><td>计算机工程与应用</td><td>2</td><td>计算机科学</td><td>2</td></tr></table>",
+    "context8": "对文献作者单位进行分析，发现对虚假评论的研究国内主要集中在武汉大学、华中师范大学等科研院所，如表3所示。武汉大学计算机学院姬东鸿教授团队在虚假评论识别算法方面进行了深入研究，取得了不错的成果[8-1]。武汉大学信息管理学院张李义团队在刷客识别方面也给出了创新意见[，华中师范大学娄策群团队也在虚假评论的形成路径和影响因素方面的研究做出了重要贡献[13-13。国外则主要集中在伊利诺伊大学的LiuBing及其团队，共发文3篇[7,16-11，新加坡南洋理工大学的 Banerjee 发文 2篇[18-19，除此以外，来自墨西哥等国家的学者也对虚假评论进行了相关研究，如表4所示。",
+    "context9": "表32007-2016年知网虚假评论发文作者单位统计",
+    "context10": "<table><tr><td>作者单位</td><td>篇</td><td>数</td></tr><tr><td>武汉大学计算机学院</td><td>4</td><td></td></tr><tr><td>华中师范大学信息管理学院</td><td>3</td><td></td></tr><tr><td>大连理工大学信息检索研究室</td><td>2</td><td></td></tr><tr><td>武汉大学信息管理学院</td><td>2</td><td></td></tr><tr><td>中山大学资讯管理学院</td><td>2</td><td></td></tr><tr><td>长沙学院计算机中心</td><td>2</td><td></td></tr></table>",
+    "context11": "表42007-2016年w0s虚假评论作者发文统计",
+    "context12": "<table><tr><td>作者</td><td>篇数</td><td></td></tr><tr><td>Liu Bing</td><td>3</td><td></td></tr><tr><td>Hernandez Fusilier Donato</td><td>2</td><td></td></tr><tr><td>Banerjee Snehasish</td><td>2</td><td></td></tr><tr><td>Guzman Cabrera Rafael</td><td>2</td><td></td></tr><tr><td>Heydari Atefeh</td><td>2</td><td></td></tr><tr><td>Rosso Paolo</td><td>2</td><td></td></tr><tr><td>Salim Naomie</td><td>2</td><td></td></tr><tr><td>Montes-y-Gomez Manuel</td><td>2</td><td></td></tr><tr><td>Chua Alton Y. K.</td><td>2</td><td></td></tr></table>"
+  },
+  "2虚假评论概念解析": {
+    "context1": "利用文献分析工具SATI3.2提取100 篇中文文献的关键字，构建共现矩阵，并用Netdraw画出其关系图，如图1所示。",
+    "context2": "![](images/5ce74fd96c5c4f0c635c692e149ae4fedd681ebcd96bb278ff2906d72ca41083.jpg)  \n图1关键词共现关系图",
+    "context3": "从国内文献来看，对虚假评论的研究，在概念上对“虚假评论”和“垃圾评论”的区分是模糊的，但是从研究的实质上，基本上一致，即通过互联网发布的不真实的具有欺骗性的评论2。从数量上而言，“虚假评论”作为关键字出现的次数为23次，“垃圾评论”作为关键字出现的次数为29次“虚假评论”略逊一筹，但是就影响性而言，本领域两大重要学术圈，武汉大学学术圈和华中师范大学学术圈在本领域的探讨中，均使用的是“虚假评论”的概念[21-2]。",
+    "context4": "根据学术研究的一般惯例，虚假评论研究的兴起起源于国外Liu Bing 学术团队，并给出了概念Review Spam[，将其分为3类虚假评论（UntruthfulOpinions）、无关评论（Reviews on Brands Only）以及非评论信息（Non-reviews）。国内学者就评论的影响性和价值的角度，普遍将虚假评论（UntruthfulOpinions）作为了主要研究对象，但是部分学者从概念上仍然沿用了Jindal的Review Spam，即垃圾评论。",
+    "context5": "从表达的准确性而言，本文认同武汉大学和华中师范大学学术圈的观点，取“虚假评论”作为本文描述的概念界定。"
+  },
+  "3研究关键问题解析": {
+    "context1": "结合关键字共现矩阵及其所在相关论文，可以发现国外内对虚假评论的研究主要集中在以下3个领域：虚假评论形成动机及其对消费者购买意愿影响；虚假评论识别;以及虚假评论防治。"
+  },
+  "3.1虚假评论的形成动机及其对消费者购买意愿影响": {
+    "context1": "由于在线评论对于消费者购买决策起到了至关重要的作用，促使商家或个人基于利益的考虑发布不实评论，从中谋取利益。Kugler、Mukherjee认为虚假评论形成的主要原因是因为评论发布者试图影响潜在购买者的决策[24-2]。郑春东等认为虚假评论的动机主要在于宣传造势、以优抵差和恶意低毁3类2。讨论虚假评论的形成机制，可追溯到发布虚假评论的人，陈燕方认为虚假评论的发布者可以分为职业虚假评论者、一般虚假评论发布者和正常评论者，并将虚假评论的发布路径归结为5条： $\\textcircled{1}$ 正常评论者一一正常评论。消费者在当下作出了客观真实的评价，但是时移世易，随着时间的推移，商品发生了好的或坏的变化，导致先前评价不适宜当下的产品，从而误导了后来的消费者。 $\\textcircled{2}$ 正常评论者一—过高/过低评论。由正常评论者的性格属性决定，过度宽容者习惯给好评，过度完美者习惯给差评。 $\\textcircled{3}$ 商家—一般虚假评论者—过高评论。一方面商家通过好评返现等手段诱惑消费者给出过高评价；另一方面商家对给差评者通过骚扰、退款等手段强迫其删除或修改差评。 $\\textcircled{4}$ 商家——一般虚假评论者一—过低评论。分两类，一类是商家和消费者之间在购买过程中出现冲突，导致消费者有意给过低差评报复商家；另一类是商家故意差评竞争对手，通过恶意竞争谋取利益。 $\\textcircled{5}$ 商家—中介职业虚假评论者一一过高/过低评价。商家为短期内快速形成较高的信誉度吸引消费者或者打击竞争对手，利用第三方平台，在没有实际成交的情况下，职业虚假评论者进行虚假的好评或差评。",
+    "context2": "究其原因，形成这些虚假评论的动因，孟美任将其归纳为推销、干扰和低毁，具体而言就是：首先，电子商务中信息不对称导致消费者过度依赖商家信誉度，而现有电子商务交易平台信誉监管制度的不完善，导致商家为了利益在提升自己信誉度和打击竞争对手信誉度上大做文章。其次，根据口碑传播理论，负面口碑比正面口碑对消费者购买意向影响更大，使得商家通过各种手段消除负面口碑对自身的影响或者制造负面口碑打击竞争对手。最后，消费者本身的特征或者情境的改变也会造成虚假评论的产生。",
+    "context3": "虚假评论的存在，也会影响消费者购买意愿。刘璇认为如果虚假评论大量存在，当消费者对此有所感知的时候，消费者会后动消费者防御模型，影响其购买意愿和决策2。因此，如何识别虚假评论，尽量避免其对电子商务秩序的破坏就显得尤为重要。"
+  },
+  "3.2虚假评论的识别": {
+    "context1": "关于虚假评论的识别，目前的研究主要从两个角度来展开：基于评论文本的角度和基于评论者的角度。基于评论文本的识别主要通过在线评论的文本、语义特征等属性来识别虚假评论；而后者主要是针对那些专业的虚假评论者会模仿真实评论来编写虚假评论，故认为从评论文本来识别存在缺陷，提出了根据评论者不同于真实评论者的行为模式和评论特征，通过识别虚假评论者从而间接识别虚假评论。"
+  },
+  "3.2.1基于评论文本的识别": {
+    "context1": "基于评论文本的虚假评论识别模型是目前识别虚假评论的主流方法[3，该模型的基本原理是将虚假评论的识别问题转化为对评论的二分类问题，即根据评论特征将评论分为真实评论和虚假评论两类，其算法流程如图2所示。",
+    "context2": "![](images/1e21b3e59905547792b5382a6ad34b39bdbb1032ee402c1977a25847a0806b7c.jpg)  \n图2基于评论的虚假评论识别模型",
+    "context3": "评论特征主要包括两部分：文本特征（文本长度、评论回复数、问答句数目、品牌提及度等[31-34），和语义特征（产品特征词百分比、正面情感程度、负面情感程度）。所用的方法主要是在特征提取的基础上，将虚假评论识别问题转化为对评论文本的分类问题。常用的有监督的分类学习算法有 $\\mathbf { k }$ -近邻算法、支持向量机算法、朴素贝叶斯等，如表5所示。陈昀通过动态K值和对距离公式加权来改进kNN分类器，从而提高虚假评论识别的准确率和识别速。对基于内容的虚假评论识别，宋海霞分别利用支持向量机（SVM)、最大熵（ME)、以及贝叶斯（Bayes）分别进行实验，并且认为支持向量机对虚假评论的识别效果最好。支持向量机作分类在虚假评论识别中获得了很好的应用。",
+    "context4": "表5基于评论文本的特征识别及算法",
+    "context5": "<table><tr><td>文献</td><td>识别算法</td><td>评论特征</td></tr><tr><td>B1]</td><td>随机森林</td><td>文本长度，评论回复数，</td></tr><tr><td>[B2]</td><td>支持向量机</td><td>问答句数目，品牌提及度</td></tr><tr><td>[B3]B4] [B5]</td><td>朴素贝叶斯</td><td></td></tr><tr><td></td><td>模糊k均值聚类</td><td>产品特征词百分比，正面</td></tr><tr><td>B6</td><td>k-最近邻算法</td><td>情感程度，负面情感程度</td></tr></table>",
+    "context6": "将评论文本作为研究对象，通过对文本特征进行提取，分析虚假评论文本的特点，利用有监督的机器学习算法对评论进行真实评论和虚假评论的分类，虽然对于虚假评论的识别取得了一定成效。但是仍然存在着缺陷： $\\textcircled{1}$ 虚假评论者可能会模仿真实评论特征发布虚假评论，这种具备真实评论特征的虚假评论通过基于评论特征的识别方法无法识别； $\\textcircled{2}$ 训练集的人工标注费时费力，还容易出现误例。"
+  },
+  "3.2.2基于评论者的识别": {
+    "context1": "基于评论者的识别从某种程度上弥补了上述缺陷，避免了可以模仿真实评论的虚假评论的干扰。其原理是通过识别虚假评论者不同于普通用户的评论行为方式和特征，利用分类和排序技术，识别虚假评论者，从而进一步识别出虚假评论。这一方法的前提条件，是假设虚假评论者往往是惯犯，或水军，其自身具有特殊性。于是从评论者角度，获取其特征构建虚假评论者识别指标。邵珠峰认为虚假评论者和一般评论者之间存在情感极性上的差异，因此，将评论信息的情感特征加入识别模型，并结合用户与商品之间的关系，构建了一个识别虚假评论者的多边图模型[。",
+    "context2": "聂卉等提出了识别虚假评论人的6个特征因子，包括贡献量、层级、情绪、活跃度、文字素养、评论差异等[4]。其中贡献量指评论人贡献和评论人发文总量，层级指评论人单日最大发文量、评论人级别以及评论文本内容最大相似度，情绪指评论人正面评论占比和负面评论占比，活跃度指网龄和发文间隔，文字素养指评论文本平均长度，评论差异指评论偏差。并通过回归分析表明评论人的贡献度、活跃度以及文字素养对于识别其是否为虚假评论者具有显著影响。",
+    "context3": "上述方法虽然从评论者角度来识别虚假，克服了水军模仿真实评论发布虚假评论，而基于评论特征的识别方法不能识别的不足，但是其识别的方法仍然是分类，与基于评论的识别类似。",
+    "context4": "WangG、徐小婷等人提出了一种全新的识别方法，基于评论图的网络产品虚假评论人的检测方法[42-43，这种方法通过评论、评论人和店铺之间的相互影响关系建立一个互相制约的评论图结构，其中衡量作弊程度的特征指标包括：评论的可信度、评论人的忠实度和店铺的可靠度。王琢在此基础上做了改进，将店铺换成了产品节点，并对节点附加了新的特征数据，评论节点包括评分等级、与所评产品的其它评论间的差异度、其它评论人对该评论的投票数以及该评论有帮助的投票数，产品节点包括产品评论打分值，评论人节点具有该评论人进行多次评论的产品数以及在这些多次评论的产品中该评论人的评论数量等[。",
+    "context5": "基于评论图的基本原理如图3所示。图中各节点之间具有互相制约的复杂关系：某个评论人的可信度取决于其所写评论的忠实度；某个产品的可靠度取决于所有对其评论的可信评论人的分数；而某条评论的忠实度取决于该评论所评商品的可靠度。经过多次迭代后，各节点的信誉度将收敛到稳定值，系统达到最终平衡，最终得分较低的评论人为虚假评论撰写者。",
+    "context6": "![](images/c3c0665af703378a9308b8cf8cdbe579417ab45463e075bd78f3256a904096a6.jpg)  \n图3评论图的基本原理"
+  },
+  "3.3虚假评论的防治": {
+    "context1": "虚假评论的防治，不仅是技术的事，还是制度和体制的事。陈燕方从虚假评论的治理目标、治理对象以及治理途径的角度进行了研究，认为虚假评论的防治必须以完善地信用体系制度、健全的法律制度作为外在辅助，以高效的检测模型作为内在动力，具体而言从以下3个方面来进行： $\\textcircled{1}$ 对造成虚假评论的主要责任人加强监管，包括商家、虚假评论中介、消费者以及电子商务交易平台。 $\\textcircled{2}$ 减弱虚假评论形成路径的促进因素，比如完善标准化的评价体系，建立第三方信用评价机制等。 $\\textcircled{3}$ 激励消费者做出真实有用的评论。"
+  },
+  "4存在问题及未来研究方向": {
+    "context1": "从上述的分析可以看出，当前对于虚假评论的研究主要集中在计算机、情报以及经济管理领域，其研究的重点主要集中在利用计算机技术实现对虚假评论的识别，利用情报组织分析理论研究虚假评论特征提高识别率，以及对虚假评论动机及其影响因素进行分析。各领域的研究都取得了一定的进展，但是仍然存在着一些问题，尚需进一步研究。",
+    "context2": "1）在识别方法上，以KNN、SVM等有监督的机器学习算法为主。这些算法在虚假评论识别的查全率和查准率上取得了一定成果，但是由于有监督的学习算法，测试集主要通过人工标注实现，一是代价大；二是容易出现误例。因此，半监督或无监督的学习算法有待进一步研究。",
+    "context3": "2）在虚假评论的特征提取上，主要采用自然语言处理技术获取评论文本、评论人等属性作为虚假评论特征，将情报组织中的元数据、本体论等方法应用于虚假评论特征提取及分析还做得不够，未来可考虑结合情报领域理论和技术更准确获取虚假评论特征。",
+    "context4": "3）在虚假评论影响因素和防治策略上，目前的研究者还集中在经济管理领域，而缺乏相关法学领域的介入，我国电商领域相关法规制度的不健全，网络用户信用制度的缺失，也是造成虚假评论猖獗的重要因素，未来需要更多领域专家投入本领域的研究工作，共同构建良好的电子商务环境和秩序。"
+  },
+  "参考文献": {
+    "context1": "[]中国互联网信息中心．2013年中国网络购物市场研究报告[R]．2014，(4)：18-19.",
+    "context2": "[]Cone Research. Game Changer: Cone Survey Finds 4-out -of-5Consumers Reverse Purchase Decisions Based on Negative OnlineReviews[EB]．Available at: http:// www.conecomm.com/cont-entmgr/showdetails.php/id/4008.2011.  \nB] Penalver-Martinez I,Garcia-Sanchez F，Valencia-Garcia R，etal.Feature-based opinion mining through ontologies[]．ExpertSystems with Applications，2014，41(13)：5995-6008.JOHN BOONE.A Hotel in New York Allegedly Threatened GuestsWith a S 5OO Fine If TheyWrote Bad Reviews on YelpEB/O1].http:// www.eonline.com/news/566o56/a-hotel-in-new-york-al-legedly-threatened-guests-with-a-5OO-fine-if-the-wrote-bad-reviews-on-yelp?utm_source $=$ eonline&utm_medium $=$ rssfeeds&utm_campaign $=$ imdb_topstories，2014-08-05.  \n[Luca M，Zervas G.Fake it till you make it:Reputation，competi-tion，and Yelp review fraud[．Management Science，2016.  \n中国电子商务研究中心.盘点：我国电子商务发展历程、现状分析[EB/Ol]．http://b2b.toocle.com/detail--6170951.ht-ml.  \n[Jindal N，Liu B.Review spam detection [C]// Proceedings ofthe 16th international conference on World Wide Web．ACM,2007:1189-1190.  \n任亚峰，姬东鸿，张红斌，等．基于PU学习算法的虚假评论识别研究[]．计算机研究与发展，2015，52（3)：639-648.  \n任亚峰，尹兰，姬东鸿．基于语言结构和情感极性的虚假评论识别[．计算机科学与探索，2014，8（3)：313-320.  \n[0]任亚峰，姬东鸿，尹兰．基于半监督学习算法的虚假评论识别研究[．四川大学学报：工程科学版，2014（3)：62-69.  \n[1]任亚峰，姬东鸿.基于情感特征和用户关系的虚假评论者的识别．计算机应用与软件，2016，33（5)：158-161.  \n[2]张李义，张皎．一种基于主成分分析和随机森林的刷客识别方法．现代图书情报技术，2015，（10)：65-71.  \n[13]李京蔚，娄策群．在线商品虚假评论形成与影响综述].科技创业月刊，2015，（14)：38-39.  \n[4]李京蔚．在线商品垃圾评论发布动机影响因素研究[]．企业技术开发：中旬刊，2016，35（2)：72-72.  \n[5]杨敏．在线商品虚假评论对交易双方的影响研究．现代经济信息，2016，（1)：159.  \n[16]Mukherjee A，Kumar A，Liu B，et al. Spoting opinion spam-mers using behavioral footprints[C]/Proceedings of the 19thACM SIGKDD international conference on Knowledge discovery anddata mining.ACM，2013:632-640.  \n[17]Mukherjee A，Liu B，Glance N. Spoting fake reviewer groups inconsumer reviews[c]//Proceedings of the 21st internationalconference on World Wide Web．ACM，2012:191-200.  \n[8]Chua A YK，Banerjee S. Understanding review helpfulness as afunction of reviewer reputation，review rating，and review depth[.Journal of the Association for Information Science and Tech-nology，2015，66(2)：354-362.  \n[9Banerjee S，Chua AY.A linguistic framework to distinguish be-tween genuine and deceptive online reviews[//Proceedings ofthe International Conference on ICWS，2014.  \n[20]聂卉，王佳佳.产品评论垃圾识别研究综述]．现代图书情报技术，2014，（2)：12.  \n[21] 任亚峰，尹兰，姬东鸿.基于语言结构和情感极性的虚假评论识别[．计算机科学与探索，2014，8（3)：313-320.  \n[22]陈燕方，李志宇．基于评论产品属性情感倾向评估的虚假评论识别研究[．现代图书情报技术，2014，（9)：81-90.  \n[23]Jindal N，Liu B. Opinion spam and analysis[//Proceedingsof the 2Oo8 International Conference on Web Search and Data Min-ing.ACM，2008:219-230.  \n[24]Kugler L.Keeping online reviews honest ．Communications ofthe ACM，2014，57(11):20-23.  \n[5]Mukherjee A，Venkataraman V. Opinion Spam Detection:AnUnsupervised Approach using Generative Models[R]．UH-CS-TR-2014，2014.  \n[6郑春东，孙为政，王寒．虚假网络评论对消费者在线搜索与购买决策的影响[．大连海事大学学报：社会科学版，2014，13 (6):41-47.  \n[7]陈燕方，娄策群．在线商品虚假评论形成路径研究[．现代情报，2015，（1)：49-53.  \n[8]孟美任，丁晟春．虚假商品评论信息发布者行为动机分析．情报科学，2013，31（10)：100-104..  \n[9]刘璇：虚假评论对消费者购买意愿的影响研究[]．南京：南京大学，2015.  \n[0]赵衍．网络虚假评论研究述评[．上海管理科学，2014,(4):85-88.  \n[1] 何珑．基于随机森林的产品垃圾评论识别[]．中文信息学报，2015，29（3)：150-154.  \n[2] 汪建成，严馨，余正涛，等．基于主题-对立情感依赖模型的虚假评论检测方法[．山西大学学报：自然科学版，2015， (1):5.  \nB3]Xi Y. Chinese review spam classfication using machine learningmethod [C//Control Engineering and Communication Technolo-gy（ICCECT)，2012 International Conference on． IEEE，2012:669-672.  \n[34]Fusilier D H，Montes $\\mathbf { y }$ -G6mez M，Rosso P，et al.Detection ofopinion spam with character n-grams[//International Confer-ence on Intelligent Text Processing and Computational Linguistics.Springer International Publishing，2015:285-294.  \n[5]任亚峰，尹兰，姬东鸿．基于语言结构和情感极性的虚假评论识别[．计算机科学与探索，2014，8（3)：313-320.  \n[6]陈购．基于数据挖掘技术的产品垃圾评论识别研究[]．保定：河北大学，2014.  \n[7]宋海霞．融合内容及行为的虚假评论检测方法研究[]．昆明：昆明理工大学，2014.  \n[8]邓莎莎，等，基于欺骗语言线索的虚假评论识别[．系统管理学报，2014，（2)：263-270.  \n[9]刘璇．虚假评论对消费者购买意愿的影响研究[D]．南京：南京大学，2015.  \n[0]邵珠峰，姬东鸿．基于情感特征和用户关系的虚假评论者的识别．计算机应用与软件，2016，（5)：158-161，172.  \n[1]聂卉，吴毅骏．基于特征表现的虚假评论人预测研究[].图书情报工作，2015，（10)：102-109.  \n[42]Wang G，Xie S，Liu B，et al. Review graph based online storereview spammer detection[c]//Data mining（icdm），2011ieee 1lth international conference on．IEEE，2011:1242-1247.  \n[43]徐小婷，魏晶晶，廖祥文，等．基于评论者关系的垃圾评论者识别研究[．集美大学学报：自然科学版，2016，21(2): 146-152.  \n[44]王琢，李准，徐野，等．基于评论图的虚假产品评论人的检测．计算机科学，2014，41（10)：295-299.  \n[45]陈燕方，谭立辉．在线商品虚假评论信息治理策略研究[.现代情报，2015，35（2)：150-153.",
+    "context3": "(本文责任编辑：郭沫含)"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "original_filename": "full_1353.md",
+  "$\\bullet$ 高强，游宏梁（中国国防科技信息中心，北京100142)": "",
+  "事件抽取技术研究综述": {
+    "context1": "摘要：作为信息抽取的重要组成部分，事件抽取的研究具有广阔的应用前景和巨大的现实意义。文章阐述事件及事件抽取的基本概念，简单介绍事件抽取的发展历史，并从元事件抽取和主题事件抽取两个方面出发，详细介绍主要的研究方法与研究现状，总结事件抽取发展所面临的挑战，并在此基础上展望事件抽取的研究趋势。",
+    "context2": "关键词：事件抽取；信息抽取；信息技术；综述",
+    "context3": "Abstract:Asanimportant partof informationextraction，theresearch onevent extraction hasabroadapplication prospect andagreatrealisticsignificance.Tispaperfirstlyinterpretsthebasicconceptsofeventandevent extractio，andbrieflyintroduces thedevelopmentofeventextraction.Then itdescribes themajorresearchmethodsandcurrntresearch status indetailfromtheperspective ofmeta-event extractionand topic event extraction.Finall，thepapersummarizes thechallenges inthedevelopmentf e vent extraction，and on this basis predicts the research trend of event extraction.",
+    "context4": "Keywords:event extraction；information extraction；information technology；review",
+    "context5": "随着情报研究工作的发展，定量分析在现代情报研究工作中的作用越来越突出，而大量信息以电子文档的形式存在和使用也为定量分析提供了大量的基础信息。面对这些海量的形式各异的信息，情报研究人员迫切需要一些自动化工具从中快速准确地找到感兴趣的信息，将由人工阅读提取的过程转化成计算机的自动提取，能极大地提高工作效率。在这种需求背景下，信息抽取技术开始在情报研究领域受到重视，而事件抽取作为信息抽取中最具挑战性的任务之一，受到学者越来越多的关注。"
+  },
+  "1事件抽取的概念及研究意义": "",
+  "1.1事件的概念": {
+    "context1": "事件在不同领域中有着不同的含义，对于事件目前还没有统一的定义。在IE（Information Extraction）中，事件是指在某个特定的时间片段和地域范围内发生的，由一个或多个角色参与，由一个或多个动作组成的一件事情，一般是句子级的。在TDT（Topic Detection Tracking）中，事件是指关于某一主题的一组相关描述，这个主题可以是由分类或聚类形成的。"
+  },
+  "1.2事件抽取的概念": {
+    "context1": "事件抽取技术是从非结构化的信息中抽取出用户感兴趣的事件，并以结构化的形式呈现给用户。根据事件的相关定义，事件抽取任务可分为元事件（MetaEvent）抽取及主题事件（Topic Event）抽取。当前的事件抽取研究主要面向元事件，而主题事件抽取的研究成果较少。元事件表示一个动作的发生或状态的变化。往往由动词驱动，也可以由能表示动作的名词等其他词性的词来触发，它包括参与该动作行为的主要成分（如时间、地点、人物等)。主题事件包括一类核心事件或活动以及所有与之直接相关的事件和活动，可以由多个元事件片段组成。",
+    "context2": "事件抽取涉及自然语言处理、机器学习、模式匹配等多个学科，对于相关学科理论的完善和发展起到积极的推进作用。同时，在情报研究工作中事件抽取技术能帮助情报人员从海量信息中快速提取相关事件，提高了情报研究工作的时效性，并为开展定量情报分析提供技术支撑。事件抽取在情报研究领域具有广阔的应用前景。"
+  },
+  "2事件抽取的发展历史": {
+    "context1": "20世纪80年代末，事件抽取的研究蓬勃开展，在事件抽取的发展历史中，MUC（Message Understanding Con-ference），ACE（Automatic Content Extraction） 评测会议密切推动着事件抽取技术的进步。",
+    "context2": "MUC会议每两年举办一次，从1987—1998年共举行了7届。当前，由MUC定义的概念、模型和技术规范对整个信息抽取领域起着主导作用，其主要的评测项目是从新闻报道中提取特定的信息，填入某种数据库中，事件抽取（Scenario Template，ST）始终是这一会议的评测项目之一。MUC会议的很多研究都是探索性的，对信息抽取领域起到了巨大的推动作用，并为事件抽取的研究打下了坚实的基础。每一届MUC都针对一个特定领域和场景，并且提供预先定义好的模板（Template）进行填充，填充之后的模板形成了对文本核心事件的整体描述。",
+    "context3": "ACE会议作为MUC会议的延伸，是事件抽取领域最具影响力的评测会议，该会议从2000年到2007年共举办了7届。目前大多数研究都是围绕ACE的评测任务开展，它把事件抽取的研究推向一个新的高度。会议研究的主要内容是自动抽取新闻语料中出现的实体、关系、事件等内容。ACE定义的事件属于元事件的范畴，包括事件类别和事件元素的识别。与MUC相比，ACE评测不针对某个具体的领域或场景，也不提供预先定义好的模板，而是强调对文本基本意义或基本概念的刻画，因此所定义的任务显得更为细致和深入。用户指定要检测的事件的类别，系统给出检测文本中这些事件的出现，但最后的输出并未形成对核心事件的整体描述，并且ACE同MUC一样都是篇章级（Document Level）的事件抽取，不涉及跨文档抽取。"
+  },
+  "3元事件抽取": {
+    "context1": "国外学者对于元事件抽取的研究已经比较深入、成熟，而国内的事件抽取研究起步较晚，大多数研究都是围绕着ACE会议展开，但也取得了一定的成果。综合国内外研究，元事件抽取的主要研究方法有模式匹配和机器学习两大类。模式匹配在特定领域内能取得较高的性能，但移植性较差。相对于模式匹配，机器学习与领域无关，无需太多领域专家的指导，系统移植性较好。随着相关语料库的建设和互联网上各种文本资源的不断丰富，语料的获取不再是束缚机器学习的瓶颈。目前，机器学习已成为元事件抽取的主流研究方法。"
+  },
+  "3.1基于模式匹配的元事件抽取": {
+    "context1": "模式匹配方法是在一些模式的指导下进行事件的识别和抽取。模式主要用于指明构成目标信息的上下文约束环境，集中体现了领域知识和语言知识的融合。抽取时只要通过各种模式匹配算法找出符合模式约束条件的信息即可。由此可见，其核心是抽取模式的构建。典型的基于模式匹配的事件抽取系统有 ExDisco，GenPAM等。",
+    "context2": "起初，模式主要是通过手工方法来建立的，但这种方式费时费力，要求用户具有较高的技能水平。文献利用手工确定的句型模板构造抽取规则，用于从处理后的文本中抽取事件信息填充句型模板。由于人工构造规则工作量极大，为了快捷方便地获取模式，提高系统的可移植性，采用机器学习来自动获取模式成为新的研究趋势。中国科学院的姜吉发在其博士论文中对模式的自动获取做了深入的研究，提出了一种基于领域无关概念知识库的事件抽取模式学习方法GenPAM，在模式的学习过程中，用户只需定义IE任务，无需提供种子模式及对语料分类和标注，系统就能自动从未经分类和标准的语料中学习出IE 模式，大大降低了用户的劳动量和技能要求。",
+    "context3": "总的来说，基于模式匹配的方法在特定领域内可以取得比较好的效果，但是系统的可移植性差，从一个领域移植到另一个领域时，需要重新构建模式。而模式的构建费时费力，需要领域专家的指导。虽然机器学习方法的引入可以从一定程度上加速模式的获取，但是不同模式之间造成的冲突也是一个棘手的问题。并且，现有研究的语义程度大多停留在句法层级上，需要进一步提高其语义程度。"
+  },
+  "3.2基于机器学习的元事件抽取": {
+    "context1": "采用机器学习的方法识别事件，就是借鉴文本分类的思想，将事件类别及事件元素的识别转化成为分类问题，其核心在于分类器的构造和特征的选择。但事件分类与文本分类又有所区别，主要表现在以下方面：分类的文本短，大部分都是一个完整的句子；因为是事件表述语句，所以语句中包含的信息量大。",
+    "context2": "对元事件的识别主要包括事件类别的识别与分类以及事件元素识别两大核心任务。Chieu等首次在事件抽取中引入最大熵模型用于事件元素的识别，实现了对讲座通告和人事管理事件的抽取。H.Llorens等通过CRF模型进行语义角色标注，并应用于TimeML的事件抽取，提升了系统的性能。为了提高识别效果，有时将多种机器学习算法混合使用或将机器学习与模型匹配相结合[0-]。D.Ahn结合MegaM和TiMBL两种机器学习方法分别实现了事件类别识别和事件元素识别两大任务[，在ACE语料的实验结果表明，该方法优于采用单一算法。",
+    "context3": "上述研究大多是基于触发词来进行事件的探测，例如Ahn的研究将每一个词作为训练实例，然后采用MegaM二元分类器判断当前词是否为触发词。这种方式简单直观，但触发词只占所有词的一小部分，这样就在训练中引入大量反例，导致正反例不平衡，并且对每个词判断会导致计算量的额外增加。为了解决上述问题，赵妍妍采用了一种基于触发词扩展和二元分类相结合的方法来识别事件类别[。在训练中将触发词收录在词典中并通过同义词林进行扩展，较好地解决了训练实例正反例不平衡以及数据稀疏问题，在ACE的中文语料上取得较好的效果。而许红磊与Naughton则采用基于事件实例的方式进行事件的探测[3-4，这种方法将句子而非词语作为识别实例，克服了传统的基于触发词方法不可避免的正反例失衡和数据稀疏问题。许红磊采用二元分类器过滤非事件句，得到候选事件句，然后采用多元分类器对候选事件句进行分类。Naughton则将事件的探测转化为句子聚类问题，通过聚类得到事件句。",
+    "context4": "综上可知，基于机器学习的方法虽然不依赖于语料的内容与格式，但需要大规模的标准语料，否则会出现较为严重的数据稀疏问题。但现阶段的语料规模难以满足应用需求，且人工标注语料耗时耗力，为了缓解获取已标注语料的困难，有关学者探究了半监督及无监督的学习研究。另外，特征选取也是决定机器学习结果好坏的重要因素。因此，怎样避免数据稀疏现象以及如何选择合适的特征，成为基于机器学习方法研究的重要课题。当前绝大多数研究都是基于短语或句子层级的信息，利用篇章级或跨篇章的信息来提高抽取性能将成为一个新的热点[5-］]。"
+  },
+  "4主题事件抽取": {
+    "context1": "一个主题事件由多个动作或状态组成，其描述信息通常分散在一个或多个文档中，而元事件抽取的方法局限在句子层级，显然无法满足对主题事件的抽取。主题事件抽取的关键是如何确定描述同一个主题事件的文档集合，以及如何通过篇章内或跨篇章的理解技术将这些集合中分散的主题事件片段进行归并。在研究中通常采用事件框架或本体来表示主题事件的基本组成以及各成分间的联系[18-24]"
+  },
+  "4.1基于事件框架的主题事件抽取": {
+    "context1": "基于事件框架的主题事件抽取方法通过定义结构化、层次化的事件框架来指导主题事件的抽取，利用框架来概括事件信息，表达主题事件的不同侧面。框架是一种常用的知识表示方法，可用于描述相关概念的轮廓框架。M.Minsky在“A Framework for Representing Knowledge”一文中提出了框架的概念，引起了学者的关注。当人们面临一个新的情景时，会从头脑中已存在的大量典型情景中搜索一个情景来认识新事物，这些典型的情景就是知识框架。例如针对一个会议事件，人们在头脑里自然会想到，会议发生的时间、地点、主办机构、参会者、政府的反映以及会议带来的影响等不同的侧面。事件的侧面在语义上可以进行分离，所以这里的框架结构其实是一种分类体系，用于分隔一个事件涉及的不同侧面。用来描述事件不同侧面的词语为事件的“侧面词”，事件框架是由“侧面词”构成的一个分类体系。生成完整的事件框架体系是框架方法的关键，如何提高框架构建的全面性以及自动化程度是学者们研究的重点。",
+    "context2": "文献[面向访问事件，对主题事件的抽取技术进行了深入研究，提出了基于元事件的主题事件框架模型。该模型将主题事件看成是元事件的集合，将主题事件以层次化的形式表示，通过分析元事件在主题中所表达的信息和作用，将其进行分类划分。在实现过程中采用基于语义角色的方法抽取元事件，进行篇章内的元事件串联，并提出一种基于摘要和改进向量的主题事件聚类方法，实现跨篇章的事件归并。",
+    "context3": "吴平博、陈群秀等将事件框架应用于主题新闻事件文档的检索中,，在事件框架的生成中，首先对相关事件文档进行聚类，然后从类向量中抽取框架的侧面词，并利用少量人工排除明显的干扰词，这种方式极大地减少了框架定义中的人工参与，提高了系统的移植性。之后，吴平博等继续对事件框架进行深入地研究[2]，并作出了进一步的改进，应用于文档智能检索、信息抽取等领域，取得了较好的效果。在研究中，他们利用句型模板来构造侧面事件的抽取规则，直接从经过基本实体识别和规范化处理的文本中抽取事件信息，从而跳过了深层句法分析，降低了系统的实现难度。"
+  },
+  "4.2基于本体的主题事件抽取": {
+    "context1": "本体是知识工程和人工智能研究领域的一个重要课题，其目标是捕获相关的领域知识，提供对该领域知识的共同理解，确定该领域内共同认可的词汇，并从不同层次的形式化模式上给出这些词汇（术语）之间的相互关系。本体的这些特点很好地符合了主题事件抽取的要求。基于本体的主题事件抽取，一般根据本体所描述的概念、关系、层次结构、实例等来抽取待抽取文本中所包含的侧面事件及相关实体信息，主要分为3个步骤：领域本体的构建，这是后续工作的基础；基于领域本体的文本内容的自动语义标注；基于语义标注的事件抽取。",
+    "context2": "Cheng等介绍了一种基于本体的模糊事件抽取代理系统。在本体的构建中提出了一种4层本体构建模型，分别为Domain 层、Category层、Event层、Extended Con-cept层。其中Domain代表本体所处的领域名称，并由若干个由领域专家定义的Category组成；每个Category包含一组事件的集合；Event层定义了每个Category包含事件类型；ExtendedConcept层包含事件概念与对象概念，定义了每类事件对应的角色与概念及相应的子事件。将该模型构建的本体应用于新闻事件的抽取，并应用于自动文摘，实验证明该系统能较好地实现中文气象新闻事件的抽取。文献[23]详细介绍一个基于本体的金融事件跟踪体系，并取得了较好的统计结果，印证了通过本体进行金融事件跟踪的可行性及该方法的优势。",
+    "context3": "综合国内外研究可见主题事件抽取的研究并不成熟，篇章内及跨篇章语义理解技术的缺失，致使信息的有效归并与融合成为瓶颈。如何对事件信息的高效融合，将是主题事件抽取下一步的工作重点。"
+  },
+  "5事件抽取面临的挑战及研究趋势": "",
+  "5.1事件抽取面临的挑战": {
+    "context1": "大量关于事件抽取的研究，使得事件抽取在理论和应用方面都取得了长足的进步。但是从ACE等评测会议的评测结果来看，目前事件抽取的精度远未到达实际应用的要求，大多在 $70 \\%$ 左右，研究发展依然面临诸多挑战。",
+    "context2": "1）底层技术研究不够成熟，导致错误级联。事件抽取对底层的子任务结果有很大的依赖性，但由于实体识别、深层句法分析等底层技术还不成熟，给事件抽取带来了级联错误。并且，目前缺乏对子任务输出结果的评估及矫正技术。",
+    "context3": "2）事件抽取系统的领域可扩展性和可移植性不够理想。目前的研究大多是基于MUC或ACE展开，只针对某个特定领域或几个类型的事件进行研究。系统的应用受到领域的限制，不能随着领域的变化进行简单快速的移植或扩展。",
+    "context4": "3）语料有待进一步完善。机器学习方法的引入提高了事件抽取系统的可移植性，但由于缺乏大规模的成熟语料库和标准语料，目前该类系统的效果不够理想，由此可见语料的完善是一个亟待解决的问题。"
+  },
+  "5.2事件抽取的研究趋势": {
+    "context1": "尽管面临诸多挑战，但事件抽取的研究必将受到学者越来越多的关注，并在未来的研究中呈现出以下趋势。",
+    "context2": "1）进一步提高事件抽取的精度和召回率，改进抽取的方法，加强底层技术攻关，开展对中间结果的可信度评估研究。要使事件抽取技术取得突破，必须改进其所依赖的底层技术。",
+    "context3": "2）跨文档、跨语言的事件抽取研究将更为广泛。目前，事件抽取的水平还局限在对独立文本的处理上，跨文档的研究尚处于探索阶段，随着跨文档语义理解及信息归并技术和多语言文本处理技术的发展，跨文档、跨语言的事件抽取必然成为新的研究热点。",
+    "context4": "3）面向开放领域的事件抽取将广受重视。事件抽取系统的领域可扩展性和可移植性仍将是研究的重点。未来的事件抽取研究将以应用为需求，面向开放领域而不再局限于某个具体领域，为此需要探究各种方式提高系统的移植性。"
+  },
+  "6结束语": {
+    "context1": "综上所述，国内外学者以对事件抽取技术进行了较多的研究，取得了一些理论和应用上的成果，但事件抽取技术仍未到达实际应用的水平。目前，制约事件抽取技术广泛应用的两个最主要的因素是系统性能和可移植性。今后的研究将紧紧围绕如何克服和解决这两个问题展开，不断提高事件抽取系统的性能，增强其可移植性。",
+    "context2": "在情报研究工作中，事件抽取技术的应用解决了如何快速准确地从海量信息集合中提取出用户感兴趣的事件的问题，将由人工阅读提取的过程转化成计算机的自动提取，能极大地提高工作效率，为信息服务向知识服务转型提供支撑技术。在情报研究领域事件抽取技术的应用研究较少，缺乏相应的应用系统，基于事件抽取技术构建相关情报研究支持系统具有广阔的应用前景和巨大的现实意义。□",
+    "context3": "参考文献  \n[] Automatic Content Extraction（ACE)[EB/OL]．[2010-07-21]．http://www.itl.nist.gov/iad/mig/-tests/ace/2005.  \n] 吴刚：基于主题的中文事件抽取技术研究及应用[D].苏州：苏州大学，2009.  \nB] Message Understanding Conference （MUC [EB/OL]．2010-07-21]．http://en. wikipedia.org/wiki/Mes- sage_ Under-standing_ Conference.郑家恒，王兴义，李飞．信息抽取模式自动生成方法的研究[．中文信息学报，2004，18（1)：48-54.YANGARBER R. Scenario customization for information extrac-tionD]．New York:New York University，2001.  \n] 姜吉发．自由文本的信息抽取模式获取的研究[]．北京：中国科学院，2004.  \n吴平博，陈群秀，马亮．基于事件框架的事件相关文档的智能检索研究[]．中文信息学报，2003，17（6)：25-30.CHIEU HL，NG H T.A maximum entropy approach to infor-mation extraction from semi-structured and free text[c]//Proceedings of the 18th National Conference on Artificial Intelli-gence.USA:American Association for Artificial Intelligence,2002:786-791.  \nLLORENS H，SAQUETE E，et al. TimeML events recognitionand classification learning CRF models with semantic roles[c]//Proceedingsof the 23rd International Conference onComputational，2010.  \n[0] AHN D.The stages of event extraction[C]//Proceedings ofthe Workshop on Annotations and Reasoning about Time and E-vent.[s.1.]:Association for Computational Linguistics,2006:1-8.  \n[1] 丁效，宋凡，等．音乐领域典型事件抽取方法研究．中文信息学报，2011（2）.  \n[2] 赵妍妍．中文事件抽取的相关技术研究[D]．哈尔滨:哈尔滨工业大学，2007.  \n[3] 徐红磊，等．自动识别事件类别的中文事件抽取技术研究[．心智与计算，2010，4（1)：34-44.  \n[4] NAUGHTON M，KUSHMERICK N，CARTHY J. Event ex-traction from heterogeneous news sources[c]// Proceedingsof AAAI Workshop on Event Extraction and Synthesis.Boston,US:American Association for Artificial Intelligence，2006:743.",
+    "context4": "得公开的信息资源进行控制外，其他信息业务可以推向民营机构，实现公共服务市场化，提高信息市场的运转效率。"
+  },
+  "3.5紧跟国际信息政策的发展步伐": {
+    "context1": "不断进步的信息技术使得整个世界之间的联系更加紧密，整体都显现出一体化的特点，但是澳大利亚的信息政策会有一些与国际政策、法律不融合的地方，从而不能真正参与到国际信息政策制定当中，如直到2005年，澳大利亚基本上都没能参与到制定国家（英国、美国、新西兰）、区域（欧盟）和国际（联合国教科文组织）这3个层次性的政策和原则，这些政策和原则是关于公众获取公共部内信息方面的。尽管我国由过去科技情报、信息技术和知识产权3个领域的信息政策拓宽到信息安全、个人隐私等领域，但是在与国际兼容和接轨上做的不到位。要想确保我国信息政策进展不至于落后，一个重要的渠道就是参与相关的国际论坛并密切注视国外的进展，及时获知国际政府信息政策的趋势，并邀请国际政府信息管理机构、知名专家进行经验交流，缩小国家间的“数字鸿沟”。这样的话，我国就能将国际信息政策的趋势与我国国情相结合，把握新机遇的同时也注重传统，从而制定创新型政府信息政策。□"
+  },
+  "参考文献": {
+    "context1": "[]MISSINGHAM R. Access to Australian govermment information: a decade of change 1997—2007[EB/OL]．[2012-0801]. http://www.sciencedirect.com/science/article/pii/SO740624 X07000780."
+  },
+  "]B·盖伊·彼得斯．政府未来的治理模式[M]．吴爱明,": {
+    "context1": "夏宏图，译．北京：中国人民大学出版社，2001：59.   \nDepartment of the Prime Minister and Cabinet. Information policy and e-governance in the Australian government[EB/OL]. [2012-08-03]．htp://www.dpmc. gov.au/publications/information_policy/docs/information_policy_e-governance.pdf. Department of Broadband，Communications and the Digital Economy.Digital economy future directions [EB/OL]．[2012-08- 03].http://www.dbcde.gov.au/digital economy/what is the digital economy/australias digital economy future directions.   \n5] Advisory Group on Reform of Australian Government Administration.Ahead of the game:blueprint for the reform of Australian government administration[EB/OL]．[2012-08-03]．http://www.dpmc.gov.au/publications /aga $-$ reform/aga $-$ reform _blueprint/index.cfmJHJblueprint   \nPERRI.Towards holistic governance:: the new reform agenda. M．New York:Palgrave，2002:53，29.   \nOffice of the Australian Information Commissioner.Towards an Australian government information policy EB/Ol]．[o12-08- 03]．http://www.oaic. gov.au/publications/papers/issues_ paperl_towards_australian_government_information_policy.pdf. 戴维·奥斯本，特德·盖布勒．改革政府—企业精神如 何改革着公营部门M．周敦仁，译．上海：上海译文出 版社，2006：10，130.   \nFITZGERALD A. Open access and public sector information: policy developments in Australia and key jurisdictions[M]. New South Wales: Sydney University Press，2010:4.",
+    "context2": "作者简介：陈美，男，1987年生，博士生，发表论文2篇。研究方向：电子政务。",
+    "context3": "收稿日期：2012-10-10"
+  },
+  "(上接第117页)": {
+    "context1": "[15] PISKORSKI J，TANEV H，et al. Cluster-centric approach to news event extraction [C]//Proceedings of the 2Oo8 Conference on New Trends in Multimedia and Network Information Systems，2008.   \n[6] GUPTA P，JI Heng.Predicting unknown time arguments based on cross-event propagation [C]//Proceedings of the ACL-IJCNLP 2009 Conference Short Papers，USA，2009.   \n[7] LIAO S，GRISHMAN R. Using document level cross-event inference to improve event extraction[C]//Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics，USA:Association for Computational Linguistics, 2010:789-797.   \n[8] 吴平博．基于事件框架的主题相关文档智能检索的初步研 究．北京：清华大学，2004.   \n[9] 梁晗，陈群秀，吴平博．基于事件框架的信息抽取系统 [．中文信息学报，2006，20（2)：40-46.   \n[0]吴平博，陈群秀，马亮．基于时空分析的线索性事件的抽"
+  },
+  "取与集成系统研究[．中文信息学报，2006，20（1)：21-28.": {
+    "context1": "[1]EE C S，CHEN Y J，JIAN Z W.Ontology-based fuzzy event extraction agent for Chinese e-news summarization [．Expert Systems with Applications，2003，25.",
+    "context2": "[22]JAKUBP，TANEV H，PINAR O，et al.Extracting violent events from on-line news for ontology population[C]//Proceedings of the 1Oth International Conference on Business Information Systems（BIS2007），2007:287-300."
+  },
+  "[3]韩立炜．基于本体的金融事件跟踪[]．哈尔滨：哈尔滨工业大学，2009.": {
+    "context1": "[4]WANG Wei. Chinese news event 5W1H semantic elements extraction for event ontology population//Proceedings of the 21st International Conference Companion on World Wide Web, 2012:197-202.",
+    "context2": "作者简介：高强，男，1987年生，硕士生。游宏梁，男，研究员。",
+    "context3": "收稿日期：2012-10-22"
+  }
+}

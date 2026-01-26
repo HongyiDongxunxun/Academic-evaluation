@@ -1,0 +1,88 @@
+{
+  "original_filename": "full_7455.md",
+  "nothing": {
+    "context1": "·专题·"
+  },
+  "本体模块化研究综述\\*": {
+    "context1": "付苓1.2刘1",
+    "context2": "（1.中国科学院国家科学图书馆北京100190）",
+    "context3": "（2.中国科学院大学北京100049)",
+    "context4": "摘要：近几年，本体模块化研究已成为本体研究领域中的热点之一。文章从本体模块化含义、目的、分类及其各分类对应的方法等方面对本体模块化研究进行综述。最后，分析存在的问题，指出今后本领域的研究方向。",
+    "context5": "关键词：本体本体模块化本体模块化分类",
+    "context6": "中图分类号：G252 文献标识码：A",
+    "context7": "文章编号:1003-6938(2013)01-0017-06"
+  },
+  "Review of Ontology Modularization": {
+    "context1": "Abstract Recently，ontologymodularization isone of themost important aspects ofontology research.This paperreviews thestudies on Ontologies Modularization from its definition，purpose，clasification and approach.In the lastpart，this paper analyzes the problems and points out the direction of future research in this field.   \nKeywords ontology ;ontology modularization ;ontology modularization classification",
+    "context2": "模块化是IT中非常常用的概念，广泛用于软件开发中。软件工程中的模块化利于重用、构建、维护、设计和理解程序。本体模块化(Ontology Modularizaiton）试图把软件工程中的模块化思想与方法应用于本体工程中（构建、组织与管理等），模块化不仅可以降低理解本体的复杂性，而且利于本体维护和本体推理。但本体模块化思想不如软件模块化成熟，研究者没有形成统一认识，本文详述总结本体模块化研究进展及存在问题。"
+  },
+  "1本体模块化的含义及分类": {
+    "context1": "Spaccapietra[1指出模块化有三种不同方式：(1)将大本体分解为更小的模块。始于整个本体，目标是模块或模块集。 (2)假设语义网充满本体模块，集成这些模块形成一本体。模块就像构建块(buildingblock）。始于有用的模块集合，目标是新本体。这一模块化方式需从模块构建新本体的机制说明，如包含操作符、映射规则和重定义方法。(3)在设计阶段模块化。假设，本体设计者或构建者知道目标模块，当确定本体术语时需确定这些术语属于哪个模块。此方式中，模块化是设计的副产品，没有分解也没有构成。",
+    "context2": "Suarez-Figueroa等[2]认为本体网络开发中需要考虑的模块化方法包括以下三个方面：（1）模块化本体设计，即构建独立、自包含组件的本体；(2)模块化现有本体，涉及本体模块抽取、本体分解为模块、隐藏本体中模块；(3)重用本体模块。关注于模块化现有本体的活动和方法论指导，创建模块作为大规模本体的子组件。",
+    "context3": "d'Aquin[3指出本体模块化对应于包括模块化本体设计和模块化现有本体各种不同的任务。本体模块化的两个主要活动：在设计阶段确定模块或者模块化现有的非模块化本体。前者称为模块化先验，后者称为模块化后验。",
+    "context4": "林松涛[4]认为本体模块化特指按照适当的原则将一个待建模的复杂领域自顶向下逐层的分解为若干个相对独立但又相关联的所谓“子领域”，对每个子领域进行独立的建模，形成所谓的“本体模块”;将若干个本体模块按某种方法组装起来，即形成该领域的模块化本体。",
+    "context5": "综上所述，本体模块化根据本体开发中涉及的对象不同包括模块化本体设计、模块化现有本体和模块化本体组合三种类型，称之为广义的本体模块化(见图1)。",
+    "context6": "1.1模块化本体设计",
+    "context7": "模块化本体设计是指以模块化方法设计本体，构建独立、自包含组件的本体。本体设计者或构建者需要知道目标模块，并且需确定所需术语属于哪个模块。将本体开发为自包含模块的集合，有利于大规模的分布式应用，改善基于推理、维护等任务。",
+    "context8": "![](images/4e46517c746dd842b3e12204dc52f88f75bd2889726d3008d0b03609f93875a0.jpg)  \n图1本体模块化分类"
+  },
+  "1.2模块化现有本体": {
+    "context1": "模块化现有本体是指狭义的本体模块化，就是将大本体分解为本体的子集，也是Neon项目所关注的本体模块化范畴。d'Aquin和 Suarez-Figueroa指出本体模块化是出于支持重用和维护的目的，确定本体中的一个或多个模块的活动[5-7]。d'Aquin[8]提出了本体模块化流程。",
+    "context2": "1.3模块化本体组合",
+    "context3": "模块化本体组合主要是指已存在的模块（作为独立本体)通过映射相互连接，并组成一个虚拟的大本体，也被称为分布式本体。 $\\varepsilon$ -Connections[9]、分布式描述逻辑(Distributed Description Logics,DDL)[1o]、基于包的描述逻辑(Package-Based Description Logics,P-DL)[11]为目前三种主要的本体互相连接技术，为协作系统的用户提供丰富的知识[12]。"
+  },
+  "2本体模块化的目的": "",
+  "2.1模块化本体设计": {
+    "context1": "本体模块化的思想来源于软件工程，软件模块化是指将软件设计成自包含部分的组合，易于软件的构建、维护和重用。因此，本体模块化涉及的最明显的场景是构造本体而不是整个模型，模块化本体的特点是：可重用性、可扩展性和可维护性。此外，将本体开发为自包含模块的集合，有利于构建更多的分布式应用，改善基于推理等任务的本体的可扩展性。当然，在这种情况下，不同的本体模块可能来自于不同的资源，但它们必须相关才能共同使用。"
+  },
+  "2.2重用本体部分": {
+    "context1": "虽然理想的本体应以模块化的方式构建，但现有大部分本体还没有以模块化思想被设计，阻碍了在构建他们的场景外的整合和重用。另外，给定应用中的模块可能在其他应用中太大，并且模块构建时不可能满足任何场景的需求。因此，需要重用和整合给定本体的一部分，需要确定本体中的相关部分和在满足它们语义定义的情况下重用他们，不需要引入也不需要提交整个本体。本体模块化技术是从大规模复杂的本体中抽取模块，这些模块应是相关的，而且足以满足当前任务。",
+    "context2": "2.3改善性能",
+    "context3": "分布式推理或只使用大本体的相关模块。将知识部分分离为重要的各个部分，模块化只关注在给定时间与给定应用相关的部分。所以，模块化的一个显著用例是通过基于本体的工具(如推理机和编辑器)来减少知识量，从而改善性能。"
+  },
+  "2.4促进本体检查和维护": {
+    "context1": "将本体划分为松散耦合、自包含组分，能松散管理。对于本体设计者或领域专家来说，相比大规模复杂的本体，关注特定主题和领域的小模型更易于理解。在同一理念下，只有关注重要的自包含模块时，才可促进本体维护和验证。"
+  },
+  "2.5定制本体": {
+    "context1": "基于应用的本体需要定制和个性化，以满足需求，这也影响了所有权的各方面。Dzbor指出，在确定本体子集（不管什么原因，不同于本体其他部分)的基础上，考虑获取权限[13]。由于数据内容的敏感性需要保留一定机密，这就导致了根据个人或组织的需要调查获取权限。即使是不同人访问同一信息，他们也会遇到它的不同版本、不同层次的细节、敏感性和相似性。因此，复制这种情况和创建大量的描述有组织的信息系统的本体模型的各部分是非常有意义的。不在请求阶段拒绝访问，而是移除大规模系统或本体或知识库中的特定模块的好处是内容限制[13]。"
+  },
+  "3本体模块化的方法": {
+    "context1": "目前，提出了很多本体模块化方法及其形式化表示。本体模块化每种类型都有相应的方法与之对应。近年来一些学者围绕这些方面展开了研究，其中以模块化现有本体方法最受关注。"
+  },
+  "3.1模块化本体设计方法": {
+    "context1": "Haase等[14-15]提出了一种本体元模型设计模式，网络本体元模型模块包括OWL本体语言元模型（核心模块）、规则元模型(F-Logic和SWRL元模型）、映射元模型和模块化本体元模型(见图2)。元模型，主要是基于定义的网络本体模型语义的特定逻辑的形式化。",
+    "context2": "Haase等在网络本体元模型的基础上，提出模块化本体的元模型（见图3）。模块化本体的元模型是OWLDL本体和映射元模型的一致性扩展元模型。设计考虑涉及已有模块化本体形式化（OWL引入、分布式描述逻辑、DDL模块化术语的整合和变化、E-connection 和P-DL)和模块定义语言需求(模块是一个本体、封装和隐藏、局部引入和模块关联)等。",
+    "context3": "![](images/4c9d79c2578db1b72e3bf7c7fe11703cf60d859b9770f81353739fc07126c496.jpg)  \n图2网络本体元模型模块[14]",
+    "context4": "![](images/6314b9ce5c4733e93827f5bbd0fdc5d5aba4610e5caca7e68a6e152582441cbd.jpg)  \n图3本体模块元模型扩展[15]",
+    "context5": "d'Aquin等[3从确定本体模块和合并本体模块两个部分介绍模块化本体设计。 $\\mathrm { N e O n }$ 中提供了模块说明插件用于确定本体模块。以渔业本体为例， $\\mathrm { N e O n }$ 工具箱中的Entity Properties 窗口中 Imports Namespaces 把 gearss 本体作为模块输入到vessels中，确定模块间引入关系，ModuleInterface详细说明相互关系。模块组成插件提供各种简单的运算符（合：Union;交:intersection；差:differ-ence)合并本体模块。",
+    "context6": "为了提高领域本体的可复用性，加拿大的M.Dumontier等人[16]提出了一种三层本体设计模式（见图4）。",
+    "context7": "![](images/e7421f1987da81b10d080064a3c4e093175c5980efaaa198b28df7ddf4adce42.jpg)  \n图4本体的三层设计模式[16]",
+    "context8": "冯兰萍等[17]提出了一个多用户协作、细粒度的模块化本体构建流程(见图5)，并以水资源本体验证了此方法的有效性及存在的问题。",
+    "context9": "3.2模块化现有本体方法",
+    "context10": "![](images/430533ef04786481ae555a92bb22b59779b1b703255ac092c89f161b33e9dc24.jpg)  \n图5模块化本体构建流程[17]",
+    "context11": "以模块化方法设计本体通常被看作是良好的实践。然而，一些情况下本体工程师需要重用或开发未以模块化方式设计的本体，或者是识别模块的标准不适合目前应用的特定需求[2-3],这时就需要模块化现有本体。Suurez-Figueroa等2认为模块化活动是从现有的本体创建模块。",
+    "context12": "d'Aquin根据模块化目的的不同，将模块化现有本体方法分为本体划分（OntologyPartitioning）和本体模块抽取（Ontology Module Extraction）[5]。本体划分是指一个本体自动分解成若干相关联的模块，这些模块覆盖了整个本体。本体模块抽取是指建立来自本体某个部分的模块，模块与本体的子领域相关。d'Aquin等指出采用不同的方法，模块中包含的内容也会不同，因此，没有统一定义本体模块中应包含的内容。",
+    "context13": "从模块化方法采用的原理不同，模块化方法又可以分为基于图和基于逻辑的两种方法。笔者从模块化目的和方法原理两个维度对模块化方法进行了总结（见表1、表2)。",
+    "context14": "表1本体划分方法总结",
+    "context15": "<table><tr><td rowspan=1 colspan=1>方法类型</td><td rowspan=1 colspan=1>方法名</td><td rowspan=1 colspan=1>提出者</td><td rowspan=1 colspan=1>实现工具</td></tr><tr><td rowspan=4 colspan=1>基于图的方法</td><td rowspan=1 colspan=1>基于类层次结构</td><td rowspan=1 colspan=1>2004年,Stuckenschmidt等,2009年扩展[18-21]</td><td rowspan=1 colspan=1>PATO</td></tr><tr><td rowspan=1 colspan=1>基于依赖关系</td><td rowspan=1 colspan=1>2008年,NeOn项目[8]</td><td rowspan=1 colspan=1>NTK中Partition-ing插件</td></tr><tr><td rowspan=1 colspan=1>基于图结构确认概念分组</td><td rowspan=1 colspan=1>2011年,Coskun 等[22]</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>基于结构的方法</td><td rowspan=1 colspan=1>2010年，李冠宇[23]</td><td rowspan=1 colspan=1>设计了本体模块化系统，但没有实现分解功能</td></tr><tr><td rowspan=1 colspan=1>基于逻辑的方法</td><td rowspan=1 colspan=1>-Con-nections</td><td rowspan=1 colspan=1>2005年,Grau等[24]</td><td rowspan=1 colspan=1>SWOOP</td></tr></table>",
+    "context16": "3.3模块化本体组合方法",
+    "context17": "许多独立创建的小本体组合成一个大模型。这种情况下，不容易维护和分析整个系统，实际上整合不同本体，与单个模型相比更复杂。这个方法是重用其他人创建的本体，整合与本体相关的数据。这种情况非常接近语义网的最初设想，使用本体描述他们的信息，通过本体层次上的连接重用信息，从而创建一个相关连本体的系统，可以以统一的方式解释信息[12]。",
+    "context18": "表2本体模块抽取方法总结",
+    "context19": "<table><tr><td rowspan=1 colspan=1>方法类型</td><td rowspan=1 colspan=1>方法名</td><td rowspan=1 colspan=1>提出者</td><td rowspan=1 colspan=1>实现工具</td></tr><tr><td rowspan=5 colspan=1>基于图的方法</td><td rowspan=1 colspan=1>遍历视图</td><td rowspan=1 colspan=1>2009年,Noy和Musen[25]</td><td rowspan=1 colspan=1>PROMPT（Protégé插件）</td></tr><tr><td rowspan=1 colspan=1>GALEN分割服务</td><td rowspan=1 colspan=1>2009年,Seidenberg[26]</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>基于图/层次遍历方法</td><td rowspan=1 colspan=1>2007年,Doran 等[27]</td><td rowspan=1 colspan=1>ModTool</td></tr><tr><td rowspan=1 colspan=1>基于SPARQL查询</td><td rowspan=1 colspan=1>2008年,Doran等[28]</td><td rowspan=1 colspan=1>SOMET框架</td></tr><tr><td rowspan=1 colspan=1>交互式抽取插件</td><td rowspan=1 colspan=1>2008年,NeOn项目[8]</td><td rowspan=1 colspan=1>NeOn Toolkit (NTK)Module Extraction插件</td></tr><tr><td rowspan=1 colspan=1>基于逻辑的方法</td><td rowspan=1 colspan=1>一致性扩展和局部模块</td><td rowspan=1 colspan=1>2007 年 Grau 等提出，2009年扩展[29-32]</td><td rowspan=1 colspan=1>OWLAPI</td></tr></table>",
+    "context20": "Bao[33]对三种模块化本体的形式化描述语言进行了总结：",
+    "context21": "（1)DDL。DDL[35]是表示本体集合及其语义关系的知识表示形式化。它提供了一种机制，推理本体，定义了连接不同本体中概念的规则。此机制通过桥规则引入和重用本体间概念和推理多个互联本体。实际上,DDL扩展了解释 $I { = } ( \\triangle ^ { I } , ^ { I } )$ ,以适合模型的分布式特性，推理本体中的概念包含。 $I$ 是非空指数集合， $\\{ O _ { i } \\} _ { i \\in I }$ 是本体集合。概念和公理用本体指数表示。例如 $i { : } C$ 表示本体 $O _ { i }$ 中的概念,j:$\\mathrm { C } \\subseteq \\mathbf { D }$ 表示本体 $O _ { j }$ 中概念C是D的子概念， $\\therefore C$ 和 $j { : } C$ 是不同的概念。不同本体概念间的语义关系通过公理表示，称为桥规则（bridgerules）,如下所示：",
+    "context22": "$i { \\mathrm { : } } C \\subseteq _ { \\mathbf { \\mu } _ { \\sf P } } j { \\mathrm { : } } D ( { \\mathrm { i n t o - r u l e } } )$ 语义是 $r _ { i j } ( C ^ { J i } ) \\supseteq D ^ { I j }$ i:C_j:D(onto-rule）语义是 $r _ { i j } ( C ^ { J i } ) \\subseteq D ^ { I j }$",
+    "context23": "DDL的限制是依赖于应用语境。例如经典描述逻辑中的子关系是传递的，而DDL领域关系不传递。桥规则不能传递重用模块。另外,DDL不允许模块间inter-module角色通信。",
+    "context24": "(2) $\\varepsilon$ -Connections。 $\\varepsilon$ -Connections方法[9允许模块间多个Connections。 $\\varepsilon$ -Connections是相连本体的集合，类似于OWL每个 $\\varepsilon$ -Connected本体包含类、属性和实例的信息，另外，还有附加的属性类型link属性。link属性逻辑上解释为二元关系，第一个元素是原本体，第二个是目标本体。实际上，link属性关联组合中属于不同本体的个体。",
+    "context25": "模块 M1包含概念1:Fish 和模块 M2 包含概念 2:Region,可以通过定义一个链接属性liveIn连接1:Fish和2：Region。",
+    "context26": "ε-Connections 需要ε-Connected 本体彼此不相交，Wang等[34阐述了一些应用中有强限制。例如，一个概念不能描述为外部模块中的另一个概念的子类，排除模块间包含这种可能性。这些限制不支持传递性。另外，不允许一个术语即做 $\\operatorname { l i n k }$ 名字，又做角色名字，同一名字有不同的解释。",
+    "context27": "(3)P-DL。P-DL[1][36]克服了DDL和 $\\varepsilon$ -Connections的模块不相交强限制，OWL引入全部本体的模型，阻碍本体的局部重用。P-DL中，组成本体的模块集合称为包(Packages），每个概念、属性或个体与主包（HomePackage)相关。P-DL介绍了引入关系一个包可以使用其他包(称为外部包)中定义的术语。即,包使用术语,主包，在PDL中，术语C被引入到,引入关系表示为。这种关系是局部的，只有共同的术语在局部模块的重叠部分中被解释。"
+  },
+  "4结语": {
+    "context1": "本体是语义Web发展的重要基础之一，而本体模块化在本体构建与复用等本体工程中发挥了重要作用。本文全面阐述了本体模块化的研究，包括本体模块化含义及分类、本体模块化目的和方法。本体模块化根据本体开发中涉及的对象包括模块化本体设计、模块化现有本体和模块化本体组合三种类型。模块化本体设计方面的研究成果主要是提出了不同的模块化本体设计模式，从应用角度来讲，还缺乏成熟的构建模块化本体的编辑工具。模块化现有本体受众多研究者关注，主要从图和逻辑角度研究本体划分和本体模块抽取方法，根据应用需求采用不同的技术方法，现有工具不能充分满足应用需求。模块化本体组合方法现引起了研究者的日益关注，但其研究大多还集中于理论研究方面，很多地方还存在欠缺，尤其其复杂性不易实现。"
+  },
+  "参考文献：": {
+    "context1": "[1]Spaccapietra S.Report on Modularization of Ontologies. Knowledge Web Consortium,D2.1.3.1[R/OL].[2012-05 -01].http://knowledgeweb.semanticweb.org/semanticpo rtal/deliverables/D2.1.3.1.pdf.   \n[2]Suárez-Figueroa M C，Blomqvist E，d'Aquin M,et al. D5.4.2 Revision and Extension of the NeOn Methodology for Building.NeOn Deliverable 5.4.2[R/OL].[2011-10- 01].http ://www.neon-project.org/web-content/images/Pu blications/neon_2009_d542.pdf.   \n[3]d'Aquin M,Haase P,Duc CL,etal. D1.1.4 NeOn Formalism for Modularization:Implementation and Evaluation.Neon Deliverable 1.1.4[R/OL].[2011-10-01].ttp //www.neon-project.org/web-content/images/Publications/ neon_2008_d114.pdf.   \n[4]林松涛.模块化本体建设研究[D].北京：北京邮电大 学,2006.   \n[5]d'Aquin M. Modularizing Ontologies[EB/OL].[2011-10- 01].http ://www.neon-project.org/web-content/media/boo k-chapters/Chapter-15.pdf.   \n[6]Suárez-Figueroa M Cand Gomez-Perez A. First Attempt Towards a Standard Glossary of Ontology Engineering Terminology [C/OL].[2012-03-30].http://oa.upm.es/ 5210/1/tke08-suafig-gomper-vFinal.pdf.   \n[7]Suárez-Figueroa MC. NeOn Methodology for Building Ontology Networks :Specification,Scheduling and Reuse [D]. Universidad Politécnica de Madrid. 2010.   \n[8]d'Aquin M.Modularizing Ontologies[A].Suárez-Figueroa MC,Asuncion G6mez-Pérez,Motta E,etal. Ontology Engineering in a Networked World[M].Berlin Springer,2012: 213-233.   \n[9]Cuenca Grau B,Parsia B,and Sirin E. Ontology Integration Using ε-Connections[A].Stuckenschmidt H,Parent C,and Spaccapietra S. Modular Ontologies: Concepts，Theories and Techniques for Knowledge Modularization[M].Berlin:Springer,2009:293-320.   \n[10]Serafini L and Tamilin A. Composing Modular Ontologies with Distributed Description Logics [A].Stuckenschmidt H,Parent C,and Spaccapietra S.Modular Ontologies:Concepts,Theoriesand Techniquesfor Knowledge Modularization[M].Berlin：Springer,2009： 321-347.   \n[11]Bao J,Voutsadakis G，Slutzki G etal.Package -based description logics[A].Stuckenschmidt H,Parent C,and Spaccapietra S. Modular Ontologies:Concepts，Theories and Techniques for Knowledge Modularization[M]. Berlin.:Springer， 2009: 349-371.   \n[12]Stuckenschmidt H,Parent C，and Spaccapietra S. Modular Ontologies :Concepts，Theories and Techniques for Knowledge Modularization[M].Berlin:Springer-Verlag, 2009.   \n[13]Dzbor M,Kubias A,Gridinoc L,etal.D4.4.1 The role of access rights in ontology customization.NeOn Deliverable 4.4.1[R/0L].[2011-10-01].http://www.ne on-project.org/deliverables/WP4/NeOn_2007_D4.4.1.pdf.   \n[14]Haase P,Rudolph S,Wang Y,etal. Networked Ontology Model. NeOn Deliverable 1.1.1[R/OL].[2011-10- 01].http://www.neon-project.org/deliverables/WP1/NeO n_2006_D1.1.1.pdf.   \n[15]Hase P, Brockmans S,Palma R,et al. D1. 1.2 Updated Version of the Networked Ontology Model. NeOn Project Deliverable 1.1.2[R/OL].[2011-10-01].ttp: //www.neon-project.org/deliverables/WP1/NeOn_2007_ D1.1.2.pdf.   \n[16]Dumontier M,Villanueva-Rosales N.Three-Layer OWL Ontology Design[C/OL].[2011-10-08].http://sunsite. informatik.rwth-aachen.de/Publications/CEUR-WS/Vol -315/paper3.pdf.   \n[17]冯兰萍等.一种模块化本体构建方法研究[J].现代 图书情报技术,2010,(6)：53-59.   \n[18]Stuckenschmidt H and Klein M. Structure-based Partitioning of Large Concept Hierarchies [A].Mcllraith SA, Plexousakis D，and van Harmelen F,editors.Proceedings of the 3rd International Semantic Web Conference (ISWC 2004)[C].Berlin:Springer,2004:289-303.   \n[19]Schlicht A and Stuckenschmidt H. Criteria-based Partitioning of Large Ontologies.4th international conference on Knowledge capture （KCAP)[C/OL]. [2011- 05-01].http:/ki.informatik.uni-mannheim.de/fileadmin/publication/SchlichtO7Partitioning.pdf.   \n[20]Schlicht A and Stuckenschmidt H.A Flexible Partitioning Tool for Large Ontologies[C/OL].[2011-09- 08].http://ki.informatik.uni-mannheim.de/fileadmin/pu blication/Schlicht08PartitioningOntologies.pdf.   \n[21]Stuckenschmidt H and Schlicht A. Structure -based Partitioning of Large Ontologies[A].Stuckenschmidt H, Parent C，and Spaccapietra S. Modular Ontologies : Concepts，Theoriesand Techniques for Knowledge Modularization[M].Berlin:Springer,2009:187-210.   \n[22]Coskun G,Rothe M,Teymourian K,etal.Applying Community Detection Algorithms on Ontologies for Indentifying Concept Groups[C/OL].[2011-09-08].htp://esslli.fmf.uni-lj.si/pluginfile.php/861/mod_resource/cont ent/2/womo2011.pdf.   \n[23]李冠宇.基于智能体和本体的语义数据集成研究[D]. 大连：大连理工大学,2010.   \n[24]Grau B C,Parsia B,Sirin E,etal.Automatic Parti tioning of OWL Ontologies Using $\\varepsilon$ -Connections [A]. HorrocksI，SattlerU，Wolter F.Proceedings of the 2005 InternationalWorkshoponDescriptionLogics (DL2005)[C].Edinburgh，Scotland，UK，2005.   \n[25]Noy N and Musen M. Traversing ontologies to extract views[A].Stuckenschmidt H,Parent C，and Spaccapietra S.Modular Ontologies：Concepts，Theories and Techniques for Knowledge Modularization [M].Berlin: Springer，2009：245-260.   \n[26]Seidenberg J. Web Ontology Segmentation: Extraction, Transformation,Evaluation[A].Stuckenschmidt H,Parent C,and Spaccapietra S.Modular Ontologies :Concepts, Theories and Techniques for Knowledge Modularization [M].Berlin:Springer，2009：211-243   \n[27]Doran P,Tamma V，and Iannone L. Ontology Module Extraction for Ontology Reuse：an Ontology Engineering Perspective[C/OL].[2011-10-01].http://www.csc. liv.ac.uk/\\~pdoran/publications/p61-doran.pdf .   \n[28]Doran P,Palmisano I，and Tamma V. Somet: Algorithm and Tool for Sparql Based Ontology Module Extraction[C/OL].[2011-10-01].http:/ftp.informatik.rwt h-aachen.de/Publications/CEUR-WS/Vol-348/.   \n[29]Grau B C,Horrocks I,Kazakov Y,etal.A logical framework for modularity of ontologies[A].2Oth International Joint Conference on Artificial Intelligence[C].2007: 298-303.   \n[30]Grau B C,Horrocks I,Kazakov Y,etal.Just the Right Amount：Extracting Modules from Ontologies[A].Proceedings of 16th International Conference on World Wide Web[C].ACM,2007: 717-726.   \n[31]Grau B C，Horrocks I,Kazakov Y，et al.Modular Reuse of Ontologies：Theory and Practice[J].Journal of Artificial Intelligence Research,2008,31:273-318.   \n[32]Cuenca Grau B，Horrocks I,Kazakov Y，et al.Extracting modules from ontologies:A logic -based approach[A].Stuckenschmidt H,Parent C,and SpaccapietraS.Modular Ontologies:Concepts,Theoriesand Techniques for Knowledge Modularization[M].Berlin : Springer, 2009:159-186.   \n[33]Wang Y,Bao J,Haase P,etal. Evaluating Formalisms for Modular Ontologies in Distributed Information Systems[EB/OL].[2011-10-01].http://www.cs.rpi.edu/\\~ba ojie/pub/2007-02-07_wbhq07.pdf.   \n[34]Borgida A and Serafini L. Distributed Description Logics:Assimilating Information from Peer Sources[C/OL]. [2011-10-01].http://www.springerlink.com/content/axk qulelt0c1hram/.   \n[35]Bao J,Slutzki G,and Honavar V.A Semantic Importing Approach to Knowledge Reuse from Multiple Ontologies[C/OL].[2011-10-01].http://www.cs.rpi.edu/\\~ baojie/pub/2007-01-23_aaai_final.pdf.",
+    "context2": "作者简介：付苓(1985-）,女,中国科学院国家科学图书馆博士研究生刘峰(1979-），女，中国科学院国家科学图书馆副研究馆员。"
+  }
+}

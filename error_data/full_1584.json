@@ -1,0 +1,105 @@
+{
+  "original_filename": "full_1584.md",
+  "以多语本体库为核心的跨语言信息检索映射技术研究进展EuroWordNet案例分析": "",
+  "■司莉史雅莉²": {
+    "context1": "武汉大学信息资源研究中心 武汉430072²武汉大学信息管理学院武汉430072",
+    "context2": "摘要：回的/意义]通过对国内外多语本体领域映射技术相关研究成果的总结和 EuroWordNet案例分析,为国内跨语言信息检索系统映射机制的建立提供借鉴和参考。方法/过程]选取目前发展较为成熟的多语本体库EuroWordNet作为案例，分别从数据库设计、本体构建、概念存储和多语文化差异的映射处理4个方面对其中间语言索引机制(Inter-Lingual-Index,ILI)进行分析。 结果/结论]嵌入式的数据库结构设计、概念抽取及同义词集对应关系的界定、概念存储的细粒度化和复杂等价关系的建立是建立跨语言信息检索映射机制的关键。",
+    "context3": "关键词：EuroWordNet ILI 映射技术 多语本体库 跨语言分类号：G250DOI: 10. 13266/j. issn. 0252 - 3116. 2016. 02. 017"
+  },
+  "1引言": {
+    "context1": "基于本体的方法是实现跨语言检索的方法之一，其关键技术是多语本体库的映射。本体映射的目的在于建立不同本体相似元素之间的语义对应关系，最终实现Web应用和服务器系统之间的语义互操作。当前，国外发展较成熟的跨语言信息检索系统如Eu-roWordNet、Cindor等的多语本体库,其映射机制已取得较好的应用成效。而国内在跨语言信息检索系统的映射技术研究方面尚处于起步阶段,针对案例的深入分析更加少见,笔者以EuroWordNet多语本体库的中间语言索引机制为例展开讨论,通过实例分析为国内相关领域的研究和实践提供参考。"
+  },
+  "国内外多语本体领域映射技术研究现状": "",
+  "2.1 国外现状": {
+    "context1": "国外对跨语言信息检索映射机制的研究主要集中在跨语言信息检索系统映射技术或工具的开发、映射框架的构建等方面。",
+    "context2": "T.Cassia等提出了多语言描述逻辑(descriptionlogics,DL)本体的映射框架。该映射框架使用词汇数据库或字典将DL源本体语言翻译为目标本体语言，生成DL翻译本体,即映射过程的结果。研究将目标本体和翻译本体作为映射输入资源,重点探讨了DL翻译本体的生成过程。R.Hishiyama提出了基于从句和基于字符映射的集成化模型,用于支持佛教经文文稿的分析和利用,其基于从句的跨语言映射词典作为语言网格上的局部语言资源，可用于理解多语言手稿之间的关系。",
+    "context3": "B.Mancilla对多语言映射工具Omega 进行分析，在展示其设计和开发过程的基础上，认为开发工作的重点应集中于用户界面的优化、存储机制的完善与交互性能的提高等方面。M.Dragoni认为多语本体映射是一项旨在将语义资源进行有序化以促进信息再利用的工作任务，最终实现相应本体中知识和数据表示的互操作,提出将映射系统集成到知识管理平台上，使其作为平台系统的一个功能组件统一运行和得到维护。M.C.Cervenka等对多语言背景患者的语言映射问题进行了实证研究，提出了Electrocorticography(ECoG)图谱多语映射技术,用于电生理学监测和病理分析。与此同时,M.Maris等也展开了相关方面的",
+    "context4": "研究。",
+    "context5": "此外,N.Ellouze等认为关系数据库和领域本体的构建有赖于基于规则的映射技术，并对主题地图的构建方法和技术中所包括的映射规则、基于规则的映射方法等进行介绍。"
+  },
+  "2.2国内现状": {
+    "context1": "国内相关研究主要集中于对国外成功实践的对比分析、英汉双语映射问题的研究以及影响跨语言映射实现的干扰因素等方面。",
+    "context2": "吴丹等通过对EuroWordNet和Cindor多语本体库的对比分析，探讨了本体应用于跨语言信息检索的映射方法，认为采用中间语言作为概念表示并通过词典进行翻译对照，再与不同语种的词汇建立链接关系是实现多语本体映射的有效途径。王效岳等以Word-Net和SUMO本体为研究对象,分析了二者之间的映射动机,提出了自然语言词汇、WordNet同义集和SUMO本体概念之间的映射模型。夏菽兰等以基于状态映射的中英跨语种自适应方法为研究对象，将状态映射应用于跨语种自适应中,对数据映射和变换映射两种映射信息的方式进行了比较分析。",
+    "context3": "常春等设计了基于映射数据和叙词表数据，开发跨语言检索系统的方案，通过模型设计，演示跨语言检索过程并对对该系统可能存在的问题进行了讨论[。陈淑君研究了知识组织系统中多语词汇的语义映射问题,对知识组织系统(KOS)在不同的语言(英语和中文)间的运行情况,词汇等价关系的类型以及不同的概念结构之间的相似程度等问题进行了探讨[ 。",
+    "context4": "邓盼盼等从资源整合、跨语言检索的角度讨论了映射干扰的影响因素，包括分类深度、多义项、语义关系矛盾、映射方向等，提出了基于等同关系、词表内组代关系和暗含组配情况、多重属分关系以及分类思想的几种解决方案。牛亚萌研究了跨语言信息检索中的语言翻译和信息检索方法，设计了采用提问式翻译和语义映射的跨语言信息检索模型，尝试解决跨语言信息检索中的翻译歧义性问题[4。",
+    "context5": "由国内外相关研究成果可知,在跨语言信息检索映射机制研究方面，国外已步入系统研发、框架构建阶段,很多研究成果也相继应用于实践。国内在该方面的研究尚处于起步阶段,多数研究集中于对国外相关实践的对比分析、英汉双语映射等问题的研究。部分研究对多语词汇的语义映射、跨语言信息检索映射机制影响因素等问题进行了探讨。但在跨语言信息检索映射机制的研究中，对数据库的设计、本体构建、概念存储以及其他相关问题的关注还不够。从已有研究中发现EuroWordNet作为目前最成功的跨语言语义网络系统之一，其所采用的中间语言索引映射机制可为国内跨语言信息检索映射问题提供解决思路。"
+  },
+  "3 EuroWordNet多语本体库的中间语言索引映射机制分析": {
+    "context1": "EuroWordNet由欧洲委员会远程信息处理与应用研究项目人类语言技术部提供赞助与支持，该项目于1999年6月完成(项目参考号:LE-24003&LE-48328）。目前,EuroWordNet的协作框架已经得到了全球语义网协会（Global WordNet Association）的认可",
+    "context2": "EuroWordNet是基于WordNet且面向欧洲语言的语义网络系统。随着词汇规模的扩大，WordNet自1989年至今已有不同版本,EuroWordNet的中间语言索引本体库以1995年3月开发的WordNet1.5为基础。以每种语言开发的WordNet通过存储在 ILI本体库中的语际链接而相互关联。EuroWordNet的特征主要有： $\\textcircled{1}$ 包含除英文以外的其他语言的语义词典; $\\textcircled{2}$ 每一个WordNet都反映了其内部语言系统关系; $\\textcircled{3}$ 包含了从每种WordNet到英文词义的多语言关系; $\\textcircled{4}$ 每个WordNet都与一个语言独立的顶级本体及领域标签相关联 。"
+  },
+  "3.1基于ILI的 EuroWordNet 数据库设计": {
+    "context1": "EuroWordNet数据库设计过程中主要涉及Prince-tonWordNet结构、WordNet特定语言结构、语言内部关系和多语言间的关系4方面因素。这些关系构成了一个中间语言索引,ILI是EuroWordNet多语本体库相互映射的关键。EuroWordNet多语本体库的特色在于其多语言化的数据库设计和ILI的联动嵌入，具体而言：$\\textcircled{1}$ 在数据库格式方面，采用的是Novell索引和压缩格式。 $\\textcircled{2}$ 在功能开发方面,对Novell概念网工具进行了适应性改造，开发了Polaris系统。其功能主要在于：输入或输出 $\\mathrm { W o r d N e t ( \\ s ) }$ 可选词汇、在WordNets中编辑和添加概念、变量和关系、访问ILI和本体,通过ILI实现WordNets与本体之间的转换、基于关系的提取、输入和输出观点集群、比较同义词(簇)并将同义词(簇)从一个WordNet映射到另一个WordNet、输入新记录或改编过的ILI记录并将ILI参照更新到新的ILI记录中。 $\\textcircled{3}$ 在结果展示方面,EuroWordNet采用Periscope进行数据库图形界面展示[ 。",
+    "context2": "目前多语本体库主要采用两种映射机制: $\\textcircled{1}$ 基于"
+  },
+  "国書情根工作": {
+    "context1": "源语言和目标语言本体之间的映射机制; $\\textcircled{2}$ 中间语言索引映射机制。EuroWordNet所采用的是ILI中间语言索引方式,通过ILI实现不同WordNet之间的映射（EuroWordNet数据库的体系结构见图1）。具体而言，首先，每种特定语言会建立各自的词汇条目表且在词汇内部建立语言相关链接，实现特定语种内部的同义词或近义词的语义关联，形成特定语种关联词库，从而为从特定语言到ILI记录之间的映射关联提供映射条件。其次,建立从具体语言到ILI的关联链接,即不同语种的WordNet可从相应的词汇条目表中抽取词汇，实现与ILI本体库中的同义词或近义词汇进行匹配，这是实现多语映射的关键。此外,ILI与领域本体和顶层本体之间采用语言独立链接，该链接可通过词汇之间的复杂等价关系实现相关词汇的上位词链接，解决同属下位类词汇的词义匹配问题。图1以中间语言索引记录“drive”为例,展示了EuroWordNet数据库的多语映射原理,即从英语、西班牙语、意大利语和荷兰语词汇条目表中抽取表示“drive”的同义词或近义词记录与ILI本体库中的相应记录“drive”进行匹配,以中间记录为媒介，实现多语种词汇间的互操作。与此同时，系统经过上位类匹配会将ILI记录“drive”分别与领域本体和顶层本体中的“Road”和“Location”相关联,从而形成“drive”一词的映射关联网。",
+    "context2": "![](images/dfa6f02150ec1f6b86ddd307cd76849b173efa377871ef58bc1dbfbfc21ee860.jpg)  \n图1EuroWordNet数据库结构",
+    "context3": "注：1、a:语言独立链接;b:从特定语言到ILI的映射关联;c:语言相关链接",
+    "context4": "2、图片译自:WordNet -EuroWordNet -Global WordNet:http://wenku.baidu.com/link？url $=$ yieW- OhJGR00kWbz5-njfJ3n5vVivoQvxVUxSXYbBZ1Yab_MCIx57wA8AYZLIfYSyI1qBO13iVbYkn33uWfIgQLMjBd4vyd1qE1dCq3 xTLO"
+  },
+  "3.2基于ILI的本体构建": {
+    "context1": "首先选取每种语言中能够代表某领域的最重要的基本概念(basic concept）,对这些概念进行人工比较与融合,得到通用基本概念集(common set of base con-cepts);其次,找到通用基本概念集在WordNet中名词同义词群和动词同义词群的相应含义,组成一个由87个概念构成的上位本体（top-ontology）,再将不同语种的同义词群通过中间语言索引链接到上位本体。",
+    "context2": "EuroWordNet其上位本体包括顶层本体和领域本体两个部分。顶层概念本体独立于语言概念层，是EuroWordNet词汇表在不同语义领域的典型词汇。顶层概念本体中的词汇概念之间会体现出明确的对立关系（如“有生命的\"和“无生命的”）,这种对立关系在映射过程中以二阶实体的形式进行划分和呈现。领域本体(或标签)是在脚注或主题限定的基础上涉及相关概念。顶层本体和领域本体(或标签)均可通过以下两个步骤实现不同WordNets间的语义转移: $\\textcircled{1}$ 从 ILI记录到特定语义的等价关系; $\\textcircled { 2 } \\mathrm { E u r o W o r d N e t }$ 语言内部关系,即特定语言内部词汇间的相关关系。顶层本体通过ILI和EuroWordNet语言内部关系在荷兰语和意大利语之间的语义转移[，见图2。"
+  },
+  "3.3　基于ILI的概念存储": {
+    "context1": "从本质上看,中间语言索引ILI是一个非结构化的概念存储机制,其唯一目的就是为跨语言的概念词汇集提供有效映射。其概念存储主要面向欧洲语言：$\\textcircled{1}$ 语言覆盖:EuroWordNet-l（LE2-4003）,有英语、荷兰语、西班牙语、意大利语;EuroWordNet-2（LE4-8328），增加了德语、法语、捷克语、爱沙尼亚语。 $\\textcircled{2}$ 词汇量规模:EuroWordNet-l,30 000 种概念、50 000 种词义;Eu-roWordNet-2,扩充了15000 种概念、25000 种词义。 $\\textcircled{3}$ 词汇类型：某种语言中最常见的词汇,所有需要与具体概念联系起来的概念。",
+    "context2": "![](images/a7b6d2d989cb498b062b48b2777f912a060325f041cfeee30042d2abcded7d7b.jpg)  \n图2顶层本体在荷兰语和意大利语同义词集间的语义转移",
+    "context3": "基于ILI的概念存储对于词汇的要求主要有：",
+    "context4": "（1)有效的颗粒度级别。ILI概念存储不是对单个词汇的机械式保存和抽取,而是对每个词汇的词性与词义都进行了界定,使得不同语种的WordNets之间的词义匹配度更加精准。表1以“break”一词为例，展示了ILI在概念存储过程中对其所存储词汇的词性和词义进行的细粒度分解，“break”一词的3种词性及含义分别与具体语种(荷兰语、西班牙语、意大利语)词汇网中的相应词汇进行对照，从而实现不同语种词汇间的细粒度映射，提高跨语言信息检索的效率。",
+    "context5": "表1ILI概念存储词汇细粒度分析示例",
+    "context6": "<table><tr><td>ILI记录</td><td>WordNet</td><td>特定语言</td></tr><tr><td>{breal“He broke the glas&quot;(“打破“弄坏&quot;)</td><td>breken</td><td>荷兰语</td></tr><tr><td>{break；cause to break}(“破裂“间断&quot;)</td><td>breken</td><td>荷兰语</td></tr><tr><td>{break；damage} inflict damage upor“伤害&quot;)</td><td>romper</td><td>西班牙语</td></tr><tr><td></td><td>rompere</td><td>意大利语</td></tr></table>",
+    "context7": "(2)建立跨语言的概念超级集合(superset of con-cepts）,即如果在现有的ILI概念存储中找不到合适的对应词汇，就会用复杂等价关系将该词的含义链接到另一条ILI记录上,由此将产生一条潜在的 ILI新记录。例如,荷兰语中的“klunen”,其概念含义是“towalk on skates”,但在现有的ILI概念存储中找不到与之匹配的对应词汇,此时,系统将会对“klunen”的含义进行分析，通过复杂等价关系将该词汇含义链接到其上位词“walk”。在此过程中，“klunen”与“walk”之间的潜在关联就形成了一条新的ILI映射记录。如此系统便可以对所有潜在的ILI新记录进行收集并通过特定语言的网络站点对其进行重复验证。更新ILI记录的提议将被分发至所有站点并且必须得到证实，此时所有站点将要重新考虑与新记录具有潜在关联的所有词汇含义之间的等价关系。这个过程使得ILI概念存储由原来的基本概念集合扩展成为了跨语言的概念超级集合。"
+  },
+  "3.4基于ILI的多语文化差异映射处理": {
+    "context1": "ILI解决的是不同语种之间的词义映射问题,其通过建立语义概念间的复杂等价关系,对多语种之间的同义词(或近义词)、上位词和下位词的关联进行映射,在很大程度上解决了EuroWordNet的多语文化差异映射问题。",
+    "context2": "具体而言： $\\textcircled{1}$ 同义词(近义词)关系(eq-near-syno-nym）,同义词关系的建立主要体现为两个方面：其一是多重目标，表示某种含义的词汇将会与WordNetl.5中与之相近的至少4种含义进行匹配,例如荷兰词汇“schoonmaken（toclean）”将会与所有表示该含义的词汇建立一个eq-near-synonym关联。其二是多重资源含义,表示建立了eq-near-synonym关联的同义词集可以链接到ILI中的相同目标记录，或者链接到其同义或近义关系的词汇。 $\\textcircled{2}$ 上位词关系（has-eq-hypero-nym），上位词关系在多语文化差异映射处理方面的作用主要表现为：英语中的某些常用概念在特定语言中并无单一形式的同义词或近义词汇与之相对应,例如:荷兰语中的“hoofd”仅指人类的“头”，“kop”仅指动物的“头”，但在英语里都用“head”来表示，二者并无差别,再者，西班牙语中的“cajera”与英语中“cashier”的用法也有差别，具体见表3。此时,ILI将会通过前文所述的概念超级集合将该词的含义与其上位词建立关联,实现多语映射。 $\\textcircled{3}$ 下位词关系（has-eq-hyponym）,在实际使用过程中，一方面，WordNet1.5提供的条目记录相对较少;另一方面,由于各国文化不同,各语种的词汇含义存在语境方面的差异。在这种情况下，某些特定语言中的概念表达并不能通过单一形式的英语词汇完成的。例如：意大利语中的“dito”和西班牙语中的“dedo\"都是用来表示手指和脚趾的统称，而英文作为中间语言则是通过“finger”和“toe”分别来表示“手指\"和“脚趾\"的含义,在ILI多语言翻译映射过程中,这些问题都可以通过EuroWordNet多语本体中的概念组配,如“dito”一词的跨语言映射问题可通过其下位词“finger”和“toe”的匹配得到解决。在此过程中,ILI可用于获取最有效的组词含义，具体如表2所示：",
+    "context3": "表2ILI上位词、下位词映射关系",
+    "context4": "<table><tr><td>ILI记录</td><td>词间关系</td><td>WordNet</td><td>特定语言</td></tr><tr><td>{cashier]</td><td>eq-hyperonym</td><td>cassiere</td><td>荷兰语</td></tr><tr><td rowspan=\"3\">{female cashier}</td><td>eq-hyperonym</td><td>cajera</td><td>西班牙语</td></tr><tr><td>eq-hyponym</td><td>cassiere</td><td>荷兰语</td></tr><tr><td>eq-hyponym</td><td>cajera</td><td>西班牙语</td></tr></table>"
+  },
+  "4结论及启示": "",
+  "4.1数据库设计方面": {
+    "context1": "由EuroWordNet数据库结构设计可知,首先,语言内部关系和语际间的关系是多语本体数据库设计的核心要素，尤其是多语种之间的复杂等价关系应被纳入到系统设计的重点工作当中。其次，通过采用嵌入式的多语映射机制，未来可以不用重构映射系统结构而实现多语本体数据库的扩展。在功能开发过程中，可借助Novell、D2R等现有成熟工具或根据系统功能需求对其进行适应性改造,实现概念链接、变量编辑以及关系提取等方面功能的拓展和完善，节省系统开发成本。最后,用户界面的可视化效果是衡量多语本体数据库设计成功与否的重要指标，多语本体库系统的界面设计应朝着智能、简洁、个性化互操作的方向发展。因此,国内多语本体映射机制在数据库设计方面可考虑以EuroWordNet嵌入式数据库结构为“蓝本”,结合国内需求现状进行系统开发。"
+  },
+  "4.2本体构建方面": {
+    "context1": "近年来,国内对本体构建问题的关注度有所上升，但依然未对跨语言信息检索系统中本体构建问题展开系统研究。EuroWordNet通用基本概念集合的使用和不断推广充分说明概念选取在词间关系处理及概念融合方面的重要性。由此可知，未来国内多语本体映射机制过程中应充分考虑以下两方面因素： $\\textcircled{1}$ 基本概念的选取，这是构建多语本体的基础工作,应选取每种语言中最能代表某领域的基本概念，再对这些概念进行充分比较和融合，建立通用基本概念集； $\\textcircled{2}$ 基本概念与不同语种中相应名词和动词同义词集对应关系的界定。对于采用中间语言索引映射机制的数据库系统而言，通用基本概念集与不同WordNets中名词同义词群和动词同义词群的含义匹配是实现多语映射的关键。"
+  },
+  "4.3概念存储方面": {
+    "context1": "中间语言索引可被视为一个概念仓储,用于不同WordNets之间概念关系的建立。EuroWordNet以WordNet为母体,实现了跨语言方面的突破,其概念存储机制相对较完备，可在语言覆盖范围、词汇规模、词汇类型等方面为国内多语映射机制建设提供参考和借鉴。EuroWordNet基于ILI的概念存储机制,其优势在于对概念的细粒度揭示和跨语言概念超级集合的应用。多语言的语义映射过程是对不同语种的WordNets中概念含义的深度挖掘和匹配过程,细粒度的概念存储对于多语言映射机制效用的发挥至关重要。未来国内多语本体检索系统映射机制的建设应将其纳入重点工作范畴。国内多语本体在概念存储机制建设过程中可充分利用现有语言资源，以目前应用较为成熟的Hownet为依托,根据用户跨语言信息检索的实际需求进一步对接国际资源,扩充概念仓储。"
+  },
+  "4.4词汇关系处理方面": {
+    "context1": "如前所述，ILI通过复杂等价关系的建立实现了多语种之间的关联映射，为多语言映射过程中不同语种之间客观存在的语境、文化差异问题提供了一种切实可行的解决方案。单纯通过字面层面的概念组配无法完整诠释特定语言文化下某些词汇的概念内涵。从目前国内的实际应用情况来看，虽然国内跨语言信息检索系统映射机制构建和词汇关系处理问题将主要涉及中文与英文两种语种。但随着用户需求的多元化，将会涉及除中英文之外的其他语言的词汇关系处理问题。因此,笔者在研究和实践过程中也应考虑借鉴ILI的成功实践经验,尝试通过同义词(或近义词)、上位词、下位词等多语种词间关系的建立实现精确映射，达到预期映射效果。",
+    "context2": "总之，本研究立足于国内跨语言信息检索系统映射机制建设的现实需求，对国外成功实践案例Eu-roWordNet多语本体库的ILI映射机制进行了全面而深入的分析。经研究发现,EuroWordNet基于WordNet,同时与语言内部系统(language-internal-system,LIS）相连接,在系统设计过程中通过嵌入ILI使得一种语言中的词汇与其他语言中对应的同义或近义词汇实现关联,嵌入式的ILI在数据库设计、本体构建、概念存储以及词汇间的匹配关系处理等方面均实现了不同程度的突破。目前，国内学界有关跨语言信息检索系统映射技术的研究尚处于起步阶段且研究成果多集中于对英汉双语映射问题的探讨，业界对多语本体库映射技术的研发和推广大多停留在宣传设计层面，系统应用实践发展尚不成熟。因此，未来国内多语本体库映射机制的建设一方面有赖于政府、学界和业界的支持，另一方面也可将EuroWordNet等国外成功实践案例作为参考依据，节约建设成本。"
+  },
+  "司莉，史雅莉.以多语本体库为核心的跨语言信息检索映射技术研究进展 -EuroWordNet案例分析凹].图书情报工作,2016,60(2) :106 -111.": "",
+  "参考文献:": {
+    "context1": "[1]A framework for multilingual ontology mapping [EB/O1]．[015- 10 -25] .htp://www.research gate.net/publication/220746110_ A_Framework_for_Multilingual_Ontology_Mapping.",
+    "context2": "[2]HISHIYAMA R. Effects of character-based and clause-based multilingual min studies of historical buddhist scriptures [C/OL]．The 5th International Conference of digital archives and digital humanities(DADH2014），academia sinica [2016-01-05].https:// www.researchgate.net/publication/273521994_Effects_of_Character-based_and_Clause-based_Multilingual_Mapping_in_Studies_of_ Historical_Buddhist_Scriptures.",
+    "context3": "[3]MANCILLA B. Omega for multilingual mapping [EB/OL]．[015 -10 -26].http://www.cse.unsw.edu.au/\\~ mancilla/pubs/ eurotex2004.pdf.",
+    "context4": "[4]DRAGONI M.Multilingual ontology mapping in practice: a support system for domain experts [/Ol]．[O15-11-03] .http://link. springer.com/chapter/10.1007/978-3-319-25010-6_10.",
+    "context5": "[5]CERVENKA M C,BOATMAN-REICHDF,WARD J,et al. Language mapping in multilingual patients: electrocorticography and cortical stimulation during naming [/OL]．[2015-11-01]:http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3044479/.",
+    "context6": "[6]MARIS M.Intra -operative language mapping in a native greek speaking，multilingual patient [].Archives of clinical neuropsychology,2012,27(6) :580.",
+    "context7": "[7]ELLOUZE N,LAMMARIN,METAIS E.CITOM:An incremental construction of multilingual topic maps $\\mathbb { I }$ .Data & knowledge engineering,2012,74(3):46-62.",
+    "context8": "[8]吴丹,王惠临.本体在跨语言信息检索中的应用机制研究[.图书情报工作,2006,50(9):10-13.",
+    "context9": "[9]王效岳,胡泽文,白如江.WordNet与 SUMO本体之间的映射机制研究[.现代图书情报技术,2011(1):22-30.",
+    "context10": "[i0]夏菽兰,赵力．基于状态映射的跨语种自适应研究[].微电子学与计算机,2015,32(4):134-137.",
+    "context11": "[1]常春,卢文林．基于叙词表映射的农业跨语言检索系统设计 [EB/OL]．[2016-01 -10].http://www.paper.edu.cn/releasepaper/content/200803-469.",
+    "context12": "[2] CHENG SUJUN. Mapping multilingual lexical semantics for knowledge organization systems [].The electronic library，2012,30 (2):278 -294.",
+    "context13": "[3]邓盼盼,常春,曾建勋.中英文词表概念映射关系及处理方案研究[.情报杂志,2013,32(10):127-130,192."
+  },
+  "[4]牛亚萌．跨语言信息检索技术的研究与实现[D].西安:西安电子科技大学,2011.": {
+    "context1": "[5] EuroWordNet [EB/OL]．2015-10-12] .htp://www.illc.uva. nl/EuroWordNet/.",
+    "context2": "[16] Global WordNet Association EB/O1]．O15-10-12].htp: //www. cltl.nl/projects/centres-associations/global-WordNet-association/.",
+    "context3": "[17]WordNet 简介 EB/O1]．[015-11-26]．htp://www.docin.com/p-644265117. html.",
+    "context4": "[8]WordNet-Euro WordNet-Global WordNet [EB/OL]．[2015-10 - 12].http://wenku.baidu.com/link?url $=$ yieW-OhJGR00kWbz5 -njfJ3n5vVivoQvxVUxSXYbBZ1Yab_MCIx57wA8AYZLIfYSyI1qB O13iVbYkn33uWfIgQLMjBd4vyd1qE1dCq3xTLO.",
+    "context5": "[9]EuroWordNet: a multilingual database for information retrieval [EB/ O1]．[2015-10-28] .htp://wenku.baidu.com/link？url $=$ J4CR3FhjCIDV0KlOYTKPuqVHtu4srdaAcn9breVm9O4ZGCN9 zv3 kk8SGDu0eeIT7G-tIxhM6oEyZaYMJ5ESupq-Ks_4f9qC1YRXaW9 FMf03."
+  },
+  "作者贡献说明：": {
+    "context1": "司莉：确定文献总体思路及框架设计，修改完善论文;  \n史雅莉:搜集和分析资料，撰写论文。",
+    "context2": "Research Review on Cross-language Information Retrieval Mapping Technology with the Multilingual Ontology Database as Core Factor: A Case Study on EuroWordNet",
+    "context3": "Si LiShi Yali²",
+    "context4": "1Research Center of Information Resource，Wuhan University，Wuhan 430072   \n² School of Information Management，Wuhan University，Wuhan 430072",
+    "context5": "Abstract:Purpose/significance] Through the summary of related research results of domestic and foreign on ontologymapping technology in multilingual domainand case studyof EuroWordNet,this paper willprovide some reference for theestablishment of mapping mechanism of crosslanguage information retrieval system in China.Method/process The casestudyis mainlyaround the following four aspects:the database design,theontologyconstruction,theconcepts storage mechanism and the mapping processof multilingual cultural diferences.[Result/conclusion] Theresult finds that embedded database structure design，concept extraction and the definition of the corrsponding relationship among synonymsets，establishmentoffine-grained concept storageandestablishment ofcomplex equivalencerelationarethe key factors of mapping mechanism in cross-language information retrieval.",
+    "context6": "Keywords: EuroWordNetILI mapping techniquemultilingual ontologycross language"
+  }
+}

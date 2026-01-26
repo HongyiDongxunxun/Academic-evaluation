@@ -1,0 +1,135 @@
+{
+  "original_filename": "full_8554.md",
+  "科技文献语篇元素自动标注模型研究综述": {
+    "context1": "|于改红²张智雄,2,3 马娜1",
+    "context2": "中国科学院大学北京100049²中国科学院文献情报中心 北京100190  \n中国科学院武汉文献情报中心武汉430071",
+    "context3": "摘要：回的/意义]为更好地提升科技文献的语义丰富化效果，对国内外科技文献语篇元素标注模型、技术和方法进行调研总结，为文本挖掘、科技论文知识抽取、语义分析系统研究者提供借鉴。仿法/过程利用学术网站搜索和相关数据库搜索引擎，对涉及科技论文标注、语篇元素、知识抽取、句子识别和自动文章分类等参考文献以及研究报告进行深入阅读和调研，对语篇元素自动标注模型以及相关工作进展进行研究总结。结果/结论科技文献语篇元素标注具有非常重要的实际应用价值，构建标注模型需充分考虑构建思想、标注领域和标注粒度以及标注技术手段等方面。",
+    "context4": "关键词：科技文献语篇元素标注模型自动标注",
+    "context5": "分类号：G251  \nDOI: 10. 13266/j. issn. 0252 -3116. 2018.15. 015"
+  },
+  "引言": {
+    "context1": "过去几年中,科技文献的激增促进了文本挖掘工具的兴起，使得快捷地从文本中抽取有用的知识工具成为可能。如何帮助用户快速找到其想要的文献、如何找到文献中特定类别信息(比如所有实验数据）、如何获取特定类别的知识单元显得更有意义和前瞻性，如何快速并且全面地获取用户想要的研究信息越来越成为亟需解决的问题，并且是非常有意义的工作。",
+    "context2": "本研究将语篇元素定义为能够明确表示对科技文献中蕴含的知识价值进行功能描述的片段，其可以是一个从句、一个完整句子、一个段落,甚至一个片段,本文对语篇元素的标注信息定义为对其蕴含的语义类别信息进行标注,如研究思路、理论工具和方法、科学试验、实验结果、研究结论等。如何将论文中上述有价值的语义知识揭示出来，让其能够被方便地发现和使用，已经成为当前数字图书馆研究的一个重要课题。近年来,来自数字图书馆、知识抽取、知识组织和揭示等领域的专家学者从不同角度开展研究，但大多局限于对科技论文中的零散知识点及其关系进行标注和揭示，如实体抽取和关系抽取等，从整体上有效揭示科技论文中隐藏的丰富语义知识内容较为欠缺，要做好这项工作的基础就是要对科技文献语篇元素建立有效的标注模型，对上述语篇元素的知识进行组织揭示。自动标注模型是进行语篇元素自动标注工作的数据处理基准和数据组织规范框架，所有的标注工作都是建立在模型之上。因此,本文调研了国际知名研究学者和重要实验室在科技文献语篇元素结构自动标注的工作和研究进展，并着重对科技文献标注模型进行分析总结，作为重要的任务研究实施。",
+    "context3": "本文基于学术网站搜索和数据库搜索引擎对“dis-course annotation scheme，automatic annotation,semanticannotation，sentenceclassification,语篇结构,句子分类，自动分类，语义标注\"等关键术语进行检索以及关联阅读，然后详细分析研究了近15年的50多篇研究文献，分别来自英国、美国、中国等国家和欧盟，最后整理出专门针对语篇元素自动标注模型的几个有影响力的研究团队作为本文重点综述分析的对象。下文将首先对典型的语篇元素标注模型进行详细描述，包括对瑞士H.Ribaupierre 等-d、英国华威大学 M.Liakata等-19、牛津大学 S.Teufel 等20-21、普拉大学F.",
+    "context4": "Ronzano等[26-31相关研究人员及其团队的研究模型进行总结介绍，主要包括对概念层、元数据层、文章结构层、话语修辞层、关系层次的详细说明;其次深入分析比较各个模型的不同，总结出面向科技文献语义标注的多层次语义标注模型需要考虑的角度和方面，如构建思想、任务驱动、标注粒度、研究领域等,以帮助科研人员更好地建立和选择模型;最后对本文工作进行总结，并对接下来的工作进行展望。"
+  },
+  "典型的科技文献语篇元素标注模型描述": "",
+  "2.1 SciAnnoDoc 模型": {
+    "context1": "SciAnnoDoc模型是由来自牛津大学的H.Ribaupi-erre等研究提出。该研究的任务是提高信息检索的精准率和提升科技文献搜索引擎的使用效果-,该研究假设当科学家在检索信息的时候,他们通常都有一个精确的检索目标,用户不是去检索“关于主题T”的文献,而是试图去回答特定的问题,比如找到一个概念的定义，寻找特定问题的结果,检查一个思路是否被证实,或者比较两篇文章的科学结论。回答这些精确或复杂的科学论文的查询需要对文章的全部内容进行精确建模标注，尤其是对每一篇文章的语篇类型进行标注。",
+    "context2": "该团队经过反复多次对科学家进行问卷调查和专家论证判断,提出了以用户为中心的SciAnnoDoc科技文献标注模型-,对语篇元素进行建模。该模型将科技全文分为4个层次进行标注，包括概念层、元数据层、修辞话语层、引用关系层。如图1所示：",
+    "context3": "![](images/1cc03c6ecb28082819e68b4f2fe4bd7cd6ee59ce58003f6d9fd9d720b96e1c96.jpg)  \n图1 SciAnnoDoc 模型",
+    "context4": "（1）概念层(Domain Concept)：对文章本体或者描述科技术语词表或者文章中的概念进行标注。",
+    "context5": "（2)元数据层(Metadata)：描述元数据文本信息，比如作者、出版年、发表期刊或会议信息等。",
+    "context6": "(3)修辞话语层(Discourse Element)：这是每个模型的重点组成部分，描述元素发挥的作用和包含的知识内容属性，分解为5个方面:发现（Findings）、假设（Hypothesis）、方法（Methodology）、相关工作（Relatedwork）以及定义（Definition）。",
+    "context7": "(4）引用关系层(relation)：描述文章之间的引用和关联关系。"
+  },
+  "2.2 CoreSC 模型": {
+    "context1": "CoreSC模型的发展成型主要经历了两个关键阶段的研究：第一阶段的科技文献核心信息CISP元数据模型(core information about scientific papers）和第二阶段的核心科技概念模型CoreSC（core scientific con-cepts) 。",
+    "context2": "第一阶段CISP元数据模型来源于 $\\operatorname { E X P O } ^ { \\sharp }$ 中描述通用科技概念的子类,其主要包含了描述一项科学调查研究至关重要的概念，对概念类别经过专家调研和实际论文标注分析，精炼为以下12个类别最终作为CISP的模型分类:研究目标(goalof investigation）、研究对象（object of investigation）、研究方法(method of in-vestigation）、实验（experiment）、观察（observation）、假设（hypothesis）结果(results）、结论(conclusion）、动机（motivation）背景(background）、问题(problem）、例子（example），其中8个核心类为研究目标、研究动机、研究对象、研究方法、实验、结果、观察和结论-。",
+    "context3": "第二阶段,核心科技概念CoreSC模型，是在CISP基础上丰富完善的，于2010年被正式提出，旨在自动识别发现文章中一项科研调查的组成部分，是句子级的文本标注模型,具体模型描述如表1所示[1-,主要包含了3个层次的标注，表1展示了第一个层次的11个类别的含义和第二个层次的类别属性（New、Old、Advantage、Disadvantage） 。",
+    "context4": "(1)修辞类别层：第一个层次包含了11个修辞类别，包括假设（Hypothesis）、动机（Motivation）、背景（Background）、目标(Goal）、对象(Object）、方法(Meth-od）、实验（Experiment）、模型（Model）、观察（Observa-tion）结果(Result）结论(Conclusion）。",
+    "context5": "(2)概念类别属性层：第二个层次是对概念属性的标注,如New或Old标注了一项方法是新方法还是旧方法,Advantage或Disadvantage标注了一项方法的优势和劣势。",
+    "context6": "（3）概念识别ID层:第三个层次是ConceptID标识相同概念的相关联实例集合，如所有属于相同方法的句子关联在一起使用相同的ConceptID。",
+    "context7": "表1核心科技概念(CoreSC)标注模型  \nAZ模型的发展同样经历了两个关键的阶段，最初",
+    "context8": "<table><tr><td>类别</td><td>功能描述</td></tr><tr><td>Hypothesis</td><td>A statement not yet confirmed rather than a factual statement</td></tr><tr><td>Motivation</td><td>The reasons behind an investigation</td></tr><tr><td>Background</td><td>Generally accepted background knowledge and previous work</td></tr><tr><td>Goal</td><td>A target state of the investigation where intended discoveries are made</td></tr><tr><td>Object-New</td><td>An entity which is a product or main theme of the investigation</td></tr><tr><td>Object-New-Advantage</td><td>Advantage of an object</td></tr><tr><td>Object-New-Disadvantage</td><td>Disadvantage of an object</td></tr><tr><td>Method-New</td><td>Means by which authors seek to achieve a goal of the investigation</td></tr><tr><td>Method-New-Advantage</td><td>Advantage of a Method</td></tr><tr><td>Method-New-Disadvantage</td><td>Disadvantage of a Method</td></tr><tr><td>Method-Old</td><td>A method mentioned pertaining to previous work</td></tr><tr><td>Method-Old-Advantage</td><td>Advantage of a Method</td></tr><tr><td>Method-Old-Disadvantage</td><td>Disadvantage of a Method</td></tr><tr><td>Experiment</td><td>An experimental method</td></tr><tr><td>Model</td><td>A statement about a theoretical model or framework</td></tr><tr><td>Observation</td><td>the data/phenomena recorded in an investigation</td></tr><tr><td>Result</td><td>factual statements about the outputs of an investigation</td></tr><tr><td>Conclusion</td><td>statements inferred from observations &amp; results relating to research hypothesis</td></tr></table>"
+  },
+  "2.3Argumentative Zoning AZ模型": {
+    "context1": "S.Teufel的论证分区AZ模型22]是受到知识声明概念的后发“写文献的行为与声明一条新知识的所有权相关，是经过作者领域的同行评审之后加入科技知识库和出版的行为”，其中心思想是假设科技文献包含了对其他贡献者的积极和消极的陈述，因此模型更关注于知识声明(Knowledgeclaim）的组织揭示。",
+    "context2": "1999年S.Teufel等把文献分成7个分区，具体模型描述见图 $2 ^ { [ 2 0 }$ ,OTHER、OWN 和 BACKGROUND 分别关联于这些片段的知识所有权归属,BASIS声明了使用其他工作作为当前工作研究基础或出发点或获得的支持,CONTRAST包含了对不同研究工作之间的比较（比如指出其他工作的不足），AIM指出了文章的主要知识声明,TEXTUAL给出了文本的物理位置信息。",
+    "context3": "![](images/d685ae64cc2bc7ede1102cd2474c0500d811ef7b923818b5008a4f8b9f52bc87.jpg)  \nFigure 1:Overview of the annotation scheme   \n图2论证分区AZ模型",
+    "context4": "AZ模型一直不断被学术界丰富完善并使用，直到2009年发展到AZ-I模型,扩展到了15个类别,对比于原始AZ模型,AZ-I扩展模型的变化在于：",
+    "context5": "（1)类别AIM保持一致;",
+    "context6": "（2）类别BACKGROUND 被重新命名为CO_GRO或者成为通用背景；",
+    "context7": "（3）类别OTHER被细分为其他人的工作（OTH-ER)和作者自己之前的工作(PREV_OWN)；",
+    "context8": "（4）类别BASIS被细分为使用（USE）和支持( SUPPORT) ;",
+    "context9": "（5)类别CONTRAST被细分为中立对比（CODI）、矛盾对立（ANTISUPP）、结合研究不足评论（GAP_WEAK) ;",
+    "context10": "（6）类别OWN被细分为方法描述（OWN_MTHD） 结果(OWN_RES）、结论(OWN_CONC)以及作者指出可修复的错误信息(OWN_FAIL)；",
+    "context11": "（7）停止使用类别TEXTUAL,因为对比其他类别该类别信息量更少。",
+    "context12": "该模型引入了两个新的类别——新知识声明的优势（NOV_ADV）和未来工作限制声明(FUT）。具体类别含义如表2所示22-23：",
+    "context13": "表2论证分区AZ-I标注模型",
+    "context14": "<table><tr><td>类别</td><td>功能描述</td></tr><tr><td>AIM</td><td>Statement of specific research goal,or hypothesis of current paper</td></tr><tr><td>NOV_ADV</td><td>Novelty or advantage of own approach</td></tr><tr><td>CO_GRO</td><td>No knowledge claim is raised (or knowledge claim not significant for the paper)</td></tr><tr><td>OTHR</td><td>Knowledge claim（ significant for paper) held by somebody else.Neutral description</td></tr><tr><td>PREV_OWN</td><td>Knowledge claim(significant)held by authors in a previous paper.Neutral description.</td></tr><tr><td>OWN_MTHD</td><td>New Knowledge claim，own work: Methods</td></tr><tr><td>OWN_FAIL</td><td>A solution/method/experiment in the paper that did not work</td></tr><tr><td>OWN_RES</td><td>Measurable/objective outcome of own Work</td></tr><tr><td>OWN_CONC</td><td>Findings，conclusions （non-measurable） of own work</td></tr><tr><td>CODI</td><td>Comparison，contrast，difference to other solution(neutral)</td></tr><tr><td>GAP_WEAK</td><td>Lack of solution in field，problem with other solutions</td></tr><tr><td>ANTISUPP</td><td>Clash with somebody else&#x27;s results or theory；superiority of own work</td></tr><tr><td>SUPPORT</td><td>Other work supports current work or is supported by current work</td></tr><tr><td>USE</td><td>Other work is used in own work</td></tr><tr><td>FUT</td><td>Statements/suggestions about future work (own or general)</td></tr></table>"
+  },
+  "2.4Multi-Layer Scientific Discourse 标注模型": {
+    "context1": "该模型是2015年由法培拉大学自然语言处理团队的B.Fisas、F.Ronzano等结合计算机图形学领域实际情况,创新性地提出的简化版标注模型7-2。计算机图形学是一个相对年轻的学科,在语义标注上不同于生物科学有很成熟的词表标注,同时计算机图形学大多有技术背景,比如物理学、机械、流体动力学、数学等,因此模型更侧重于算法、方程式、代数和数学推理等。该模型也遵循了前人的研究，认为句子是表示语篇元素的最佳粒度,因此模型也是基于句子级别的标注。",
+    "context2": "为了加强对科技全文语篇元素以及整体科技文献的理解，研究人员综合考虑到语篇类别修辞、引用的价值、与文章中心思想接近程度、交叉特征标注等，共同形成了Multi-Layer Scientific Discourse多层次科技文献标注模型。如图3所示,每一个句子都包含了4个层次的信息，从左向右依次是类别修饰层、引用目的"
+  },
+  "层、交叉特征层、中心相关度层。": {
+    "context1": "（1）语篇类别层次。主要包含了来源于对CoreSC模型和AZ模型的类别进行简化映射后最终确定的5个类别,分别是 Challenge、Background、Approach、Outcome,Future Work,具体类别定义和简化说明见图 $4 ^ { [ 2 8 ] }$ 。",
+    "context2": "（2)引用目的层次。这部分主要是对文献中的引用进行细化标注,主要采用了A．Abu-Jbara等的标注模型提议,具体引用目的类别见表 $3 ^ { [ 2 8 ] }$ ,包括评论、对比、使用、基础工作或通用研究等方面,每一个类别拥有不同的子属性,如Weakness和 Strength包含了评价极性，Evaluation目的在于收集那些关于一篇引文正面和负面评论的句子; Similarity和Difference是对比的对立原因;Use(引用)进行方法、数据或者工具引用标注区分等;Basis类标注了作者引用自己的工作(OwnWork)还是其他人的工作等。Neutral类别包含了对研究者工作的描述、更多信息引用或者领域通用的实践等。",
+    "context3": "![](images/81fd46f79e8fa4e541b48f0c67dda7431881a2466fec11275c0939f69bd439ea.jpg)  \n图3Multi-Layer Scientific Discourse 标注模型",
+    "context4": "CHALLENGE: The current situation faced by the researcher: it willnormally include a Problem Statement,the Motivation,a Hypothesis and/or a Goal.",
+    "context5": "BACKGROUND:This section presents allthe information which is helpful forunderstanding the situation or problemthat is thesubject of the publication.It willinclude sentences that state widely accepted knowledge in the domain (Common Ground) as well as previous related work (Related Work).",
+    "context6": "APPROACH: In this section the author explains HOW he intends to carry out the investigation.He may refer to atheoretical model or framework (Model),give some or manydetails of the experimental setup(Experiment), point to some data/phenomena observed during the experimentation(Observations)or comment on his decisions for choosing this methodology (Method).",
+    "context7": "OUTCOME: Here the author offers the study findings:measurable data without discussion (Results).an interpretation oranalysis of theresults in support of the conclusion (Discussion),how theresearch willcontribute to the curent knowledge in the field(Contribution)and an overallconclusion that should rejector support the research hypothesis (Conclusion).Anycommentson the limitations of the authors work willalso be included in the OUTCOME section.",
+    "context8": "FUTURE WORK: In most articles,theauthor willsuggest orrecommend further research to improve or extend his own work."
+  },
+  "图4Multi-Layer Scientific Discourse 标注模型类别定义说明": {
+    "context1": "Figure 2: Description of the 5 categories of our Simplified Discourse Annotation Scheme   \n表3引用目的类别",
+    "context2": "<table><tr><td>目的</td><td>子目的</td><td>目的</td><td>子目的</td></tr><tr><td>CRITISM</td><td>Weakness</td><td>SUBSTANTIATION</td><td></td></tr><tr><td rowspan=\"5\">COMPARISON</td><td>Strength</td><td>BASIS</td><td>Previous Own Work</td></tr><tr><td>Evaluation</td><td></td><td>Others work</td></tr><tr><td>Other</td><td></td><td>Future work</td></tr><tr><td>Similarity</td><td>NEUTRAL</td><td>Description</td></tr><tr><td>Difference</td><td></td><td>Ref. for more information</td></tr><tr><td rowspan=\"4\">USE</td><td>Method</td><td></td><td>Common Practices</td></tr><tr><td>Data</td><td></td><td>Other</td></tr><tr><td>Tool</td><td></td><td></td></tr><tr><td>Other</td><td></td><td></td></tr></table>",
+    "context3": "（3）交叉特征层。科技文献语篇特征Advantage和Disadvantage可以用来描述作者自己的方法和引用文献的特征,由于优劣势通常在一句话内出现，因此交叉特征层包含了双精度类别Advantage-disadvantage和Disadvantage-advantage、创新(Novelties）和领域通用实践的特征标注。最后的Limitations(局限性)特征仅指作者自己的工作,这在比较不同的调查研究上很重要。综上5个交叉特征类别为 ADVANTAGE、DISADVAN-TAGE、COMMON、NOVELTY、LIMITATION。",
+    "context4": "（4)中心相关重要度层次。按照每一个句子对中心思想贡献度设置了5个层级的分值，如完全不相关、不应该出现在文摘中、应该出现在文摘中、相关、非常相关,依次从1分到5分。"
+  },
+  "2.5研究设计指纹描述模型": {
+    "context1": "中国科学院文献情报中心钱力、张晓林等2014年提出利用研究设计指纹对科技文献进行结构化描述,提升科技文献的计算机可识别性、可执行性，帮助科研人员快速了解科技文献的研究方法、算法、工具及结论等,并为未来的科学出版(即语义化出版)提供相应的出版规范参照。具体的研究设计指纹描述模型见表4。研究设计指纹框架体系结构以研究设计指纹来表示科技文献研究成果，总体结构分为两个层次，第一个层次分为研究主题、研究方法、研究算法、研究结果、研究结论与未来研究六大部分;第二个层次详细描述科技文献,主要分为研究假说、研究场景、研究目的、研究背景、研究方法、研究数据、研究算法、研究结果、研究结论、未来研究以及研究设备共11种设计指纹，两个层次之间相互关联,层次内部相互关联,可很好地支持科技资源之间的关联计算与发行。该研究模型针对全文的4个粒度进行标注,即标题、摘要层,正文论证分区层，句子层，主题词层。",
+    "context2": "表4研究设计指纹描述模型",
+    "context3": "<table><tr><td>层次</td><td>子类型</td></tr><tr><td>研究设计层次</td><td>研究主题、研究方法、研究算法、研究结果、研究结 论、未来研究</td></tr><tr><td>详细描述科技文献</td><td>研究假说、研究场景、研究目的、研究背景、研究方</td></tr><tr><td></td><td>法、研究数据、研究算法、研究结果、研究结论、未来 研究、研究设备</td></tr></table>"
+  },
+  "3 国外各个语篇元素标注模型和工作进展对比分析": {
+    "context1": "由于上述模型研究中国外的模型都进行了系统建设和应用实现，因此本部分着重对国外的研究进展进行分析比较。首先从不同角度比较了4种模型构建的相同点和不同点，从而为对研究人员实际构建模型提供建议和参考，主要从模型的构建思想和任务、模型的类别以及构建方法、标注的领域和语料数据集合、标注工具和分类算法以及最终的实验效果分析几个角度去比较。最后也对模型研究中的问题进行了总结，以便为接下来的研究工作提供参考。"
+  },
+  "3.1模型构建思想和解决任务的对比分析": {
+    "context1": "模型构建思想作为研究者建立模型的初衷和支撑整个模型的理论研究基础非常关键，也决定了整个模型的区分粒度和划分角度。相同点就是每一个研究者都是为了从文献中更好地提炼挖掘语篇元素价值片段，不同点是研究者面临着不同的任务驱动，如SciAnnoDoc模型主要的目的是为了应用在检索系统中,提升检索效率，方便用户快速找到想要的知识片段;CoreSC模型是为了更好地以本体研究的视角，全方面地解释一项调查研究工作；AZ模型是基于知识声明观点，更加强调作者的贡献和引用他人的工作;Multilayer模型则是顺应技术的发展，更好地解决新领域的文献语义分析问题，因此研究者要考虑解决实际的研究任务需要建立不同的研究模型，具体如表5所示。通过分析可发现，如果研究人员研究重心在于对一个学科领域的研究内容进行组织揭示，可采用CoreSC基于本体的揭示模型;如果研究人员侧重于去研究发现知识产权的相互影响和学者贡献影响，可采用AZ模型，方便区分他人与作者本人的贡献;研究人员如果面临实际对文献中心思想提炼、文献知识定向检索的应用场景，可采用SciAnnoDoc和Multilayer模型，以便帮助用户快速找到想要的知识片段。",
+    "context2": "表5模型构建思想和任务比较",
+    "context3": "<table><tr><td>模型名称</td><td>构建思想</td><td>解决任务</td></tr><tr><td>SciAnnoDoc</td><td>以用户为中心,回答用户精确或复杂的科学论文的查询问题,需要对文章的全部内容进行精确建模</td><td>提高精确检索效率</td></tr><tr><td>CoreSC</td><td>基于本体理论,认为科学论文是一项包含核心科学概念的科学调查研究内容的表示</td><td>揭示科技文献的丰富语义</td></tr><tr><td>AZ、AZHI</td><td>基于知识声明观点,假设科技文献包含了作者、贡献者的知识产权和贡献说明</td><td>自动生成科技文摘，进行引文分析</td></tr><tr><td>Multilayer</td><td>综合CoreSC和AZ模型</td><td>自动分析科技文献语篇结构</td></tr></table>"
+  },
+  "3.2语篇元素类别和建立方法对比分析": {
+    "context1": "模型的建立方法大都经过不断的论证完善，如SciAnnoDoc先是通过调查问卷，然后再邀请专家确认最后类别;CoreSC模型主要是基于对科学实体本体演化,选择核心概念类别,进而完成CoreSC类别确定;Multilayer类别的确认在上述模型1.4中详细论述，也是精简了上述两个模型的16类类别和概念。模型标注粒度大部分是基于句子粒度的标注,如CoreSC、AZ、Multilayer模型,而SciAnnoDoc为了检索内容的丰富性选择了片段标注。具体见表6。",
+    "context2": "本文进一步对模型的类别进行了详细对比，见图5。各个模型不仅在类别上具有相似的或者相同的名字,如BACKGROUND、AIM（GOAL）、METHOD（AP-PROACH)，在具体标注的范围上也存在交叉覆盖映射。",
+    "context3": "3.2.1 CoreSC 模型与AZ模型对比 M.Liakata 和 S.Teufel对CoreSC和AZ模型进行对比标注[,指出这两种模型在科技文献表示观点上形成互补，CoreSC模型中的BACKGROUND包含了一般中立的背景知识同时也包含了现有知识声明,对应在AZ_II模型中分别为OTHER、PREV_OWN和CO_GRO 类别。AIM类在AZ模型中是研究目标的声明，但在CoreSC模型中可分解到以下3个类别中:GOAL（研究调查的目标状态）、HYPOTHESIS(尚未验证的声明)、OBJECT（研究调查中相关联的特定实体或对研究调研实体规则属性的创新性或优劣势的声明)。OWN_MTHD和 METH-OD都是指用到的方法，然而CoreSC进一步区分为实验方法（EXPERIMENT）、当前研究中使用的方法（Method-New）以及文章中提到的其他工作中使用的方法（Method-Old）。OWN_RES与 CoreSC 类别中 OB-SERVATION相关，表示一项研究调查中的数据或现象记录。对比之下，CoreSC类RESULT属于从OBSER-VATION起源的事实论断。AZ-I中NOV_ADV的类表示在文章中使用方法的新颖性和优势，对应到CoreSC中，可以对METHOD和OBJECT进行新颖性和优点的标注。其他的类别就是完全不同的类别，在CoreSC模型中HYPOTHESIS、MOTIVATION、OBJECT 和MODEL是完全根据研究调查本体组织,而在AZ-I模型中CO-DI、GAP_WEAK、SUPPORT、ANTISUPP、USE和FUT则是按照与其他工作的关联组织,OWN_FAIL阐述文献作者的不足之处。",
+    "context4": "表6模型语篇元素类别和构建方法对比表",
+    "context5": "<table><tr><td>模型名称</td><td>类别数</td><td>粒度</td><td>语篇元素组成</td><td>建立方法</td></tr><tr><td>SciAnnotDoc</td><td>5</td><td>片段</td><td>FINDINGS、HYPOTHESIS、METHODOLOGY、RELATED WORK、DEFINITION</td><td>用户调研、实证研究</td></tr><tr><td>CoreSC</td><td>11</td><td>句子</td><td>HYPOTHESIS、MOTIVATION、BACKGROUND、GOAL、OBJECT、METHOD、EXPERI-</td><td>本体演化、专家论证</td></tr><tr><td></td><td></td><td></td><td>MENT、MODEL、OBSERVATION、RESULT、CONCLUSION</td><td></td></tr><tr><td>AZ</td><td>7</td><td>句子</td><td>OTHER、OWN、BACKGROUND、BASIS、CONTRAST、AIM、TEXTUAL</td><td>知识声明导向，修辞结构理论建立</td></tr><tr><td>AZHI</td><td>15</td><td>句子</td><td>AIM、NOV_ADV、CO_GRO、OTHR、REV_OWN、OWN_MTHD、OWN_FAIL、OWN_RES、 OWN_CONC、CODI、GAP_WEAKANTISUPP、SUPPORT、USE、FUT</td><td>基于AZ和实际工作扩展</td></tr><tr><td>Multilayer</td><td></td><td></td><td>CHALLENGE、BACKGROUND、APPROACH、OUTCOME、FUTUREWORK</td><td>简化CoreSC和AZ类别</td></tr></table>",
+    "context6": "![](images/5155fea40f400856a026a3a6f2d96ef03330fe1feab3e92bca54f468db6f5777.jpg)  \n图5各个模型类别映射及对比",
+    "context7": "3.2.2 $\\mathrm { C o r e S C } + \\mathrm { A Z }$ 模型与Multilayer模型对比从Multilayer模型定义中可以很好地发现,该模型中的",
+    "context8": "CHALLENGE类别表示当前研究者面临的研究状况，可以映射到CoreSC的HYPOTHESIS、MOTIVATION和GOAL以及AZ模型中当前没有解决的问题GAP_WEAK和OWN_FAIL。BACKGROUND揭示了对理解当前研究主体有用的发表信息，映射到CoreSC模型中BACKGROUND和AZ模型中的CO_GRO通用背景知识和使用的方法数据USE类别中。APPROACH映射到CoreSC 模型中可能包括了之前的MODEL、EXPERI-MENT、OBSERVATION、METHOD。OUTCOME 揭示了研究发现,包括可测量的数据结果(RESULT)或者结论（CONCLUSION）。FUTUREWORK 则对应AZ模型中的FUT类别。",
+    "context9": "3.2.3Multilayer模型与 SciAnnoDoc 模型对比由于SciAnnoDoc模型完全是基于用户的角度去构建的，完全采用实证研究方法，因此模型更加接近人检索使用的角度。例如DEFINITION就是用户在希望了解一个领域知识的时候最基础的需求类别。其他的类别则基本与Mutilayer 模型一一对应。",
+    "context10": "通过对比分析发现，自动标注模型的语义类别限定在6个就基本可满足各种工作需求,如研究目标、研究背景、研究方法、研究发现、研究结论以及包含科技文献中对关键术语的研究定义(概念解释），其他的各个类别可通过映射或转化到这些类别中去，这样可避免类别太多的冗杂和太少的宽泛问题，也可完全覆盖语义价值信息。"
+  },
+  "3.3总体研究进展和成果对比分析": {
+    "context1": "从各个模型研究领域和应用项目角度进行分析，体现了该项工作的具体研究价值和实用价值，也为接下来的研究者提供了丰富的语料和项目参考。具体如表7所示：",
+    "context2": "表7总体研究项目和成果比较",
+    "context3": "<table><tr><td>模型名称</td><td>年份</td><td>应用(资助)项目</td><td>应用领域</td><td>项目成果</td></tr><tr><td>SciAnnoDoc</td><td>2011-今</td><td>瑞士自然科学基金</td><td>人文性别研究</td><td>A:1 400 篇标注全文 B:FSAD应用系统</td></tr><tr><td>CISP/CoreSC</td><td>2007-2009</td><td>英国ART项目</td><td>生物化学</td><td>A:225篇标注全文 B:SAPIENT文章标注工具</td></tr><tr><td></td><td>2010-2017</td><td>欧盟 SAPIENT Automation项目</td><td></td><td>A:265篇标注全文 B:SAPIENTA自动化标注工具</td></tr><tr><td rowspan=\"3\">AZ/AZ-II</td><td></td><td></td><td></td><td>C:应用与自动文摘系统D:应用与CRA项目</td></tr><tr><td>2004 -2007</td><td>剑桥大学研究性项目</td><td>计算语言学</td><td>A:80篇标注全文</td></tr><tr><td>2010-今</td><td>CRA项目</td><td>生物化学领域</td><td>A:1000 篇标注摘要B:CRAB在线阅读和标注系统</td></tr><tr><td>Multilayer</td><td>2016年</td><td>Dr.Inventor项目</td><td>计算机图形学</td><td>A:40 篇标注全文 B:DRI Framework 标注系统和框架</td></tr></table>",
+    "context4": "SciAnnoDoc研究团队致力于提升检索的效率，在瑞士自然科学基金项目的支持下b-@,项目选择人文性别领域开发了一套面向用户的文献检索查询系统（FSAD系统）,该系统基于提出的SciAnnoDoc模型对文献进行了标注,同时提供了相应的标注工具和人工标注语料,经过严格科学的用户使用评估证明,对比使用FSAD系统和基于传统关键字检索系统，使用前者用户解决问题的正确率和效率大大提升。",
+    "context5": "CoreSC模型的前身是CISP模型,研究始于2007年由英国高等教育联合信息服务委员会(JISC)资助的基于本体的文章表示工具项目（Anontology-based arti-cle preparation tool,简称ART）,项目研究产出了一套基于CISP模型的手动标注工具SAPIENT,可方便快捷地基于决策树的方法实现人工标注，大大提升人工标注的效率和准度，也为构建可靠的训练语料奠定了坚实基础，项目实现了对225篇生物化学领域语料的人工标注-。为了实现机器自动化标注,2010年欧盟资助项目SAPIENT Automation继续上述研究,提出了Co-reSC模型并基于该模型开发了自动标注工具SAPIEN-TA（注意比上边多了一个A,表示自动化Automation），语料也得到进一步丰富完善，完成265篇黄金标注数据集[1-1]。SAPIENTA具体应用于两个系统,一是自动文摘系统,实验证明CoreSC模型生成的文摘比Mi-crosoft自动生成文摘效果更好，甚至在某些情况下要优于人工撰写的文摘;二是应用于生命科学研究领域CRA项目（癌症风险评估项目）[4-1d对该领域文章进行更好的标注，以方便研究人员对该领域论文深入研"
+  },
+  "究分析。": {
+    "context1": "AZ模型前期主要为剑桥大学的研究性项目，第一阶段由提出者联合相关人员对80篇计算语言学领域文章进行标注20,2，并实现了机器自动标注。第二阶段应用到CRA项目，由剑桥大学教授A．Korhonen、瑞典卡洛琳斯卡医学院U．Stenius教授带领团队协助研究人员和风险评估人员的工作,有助于未来有效管理健康风险,项目使用AZ-II模型对相关文献进行自动标注，产出100O篇摘要标注语料和CRAB2.0标注工具，供癌症评估人员在线阅读和检索已经标注好的科研文献[5,38-39] 。",
+    "context2": "Multilayer模型由欧盟委员会第七次框架项目资助，最终目的是利用科学技术的手段促进科技创新，侧重利用对科技文献的标注和知识挖掘发现可能的技术创新点。该项目最大的贡献在于完整地梳理和提出了同时集成很多开源工具的一套科技文献的标注框架和在线工具DRIFramework,方便相关研究人员参考使用,同时进一步应用在 SKM Scientific Knowledge Miner项目进行科研知识挖掘工作[29-30 。"
+  },
+  "3.4模型标注技术和分类效果的对比分析": {
+    "context1": "经过上述分析，系统应用效果的好坏关键还依赖于语义类别标注的效果,本文比较了基于各个模型自动标注的实现效果,分别对正确率P、召回率R和F1值进行分析以及在自动标注过程中选用的分类方法和最好、最差、平均值的效果比较。由于每个研究者的领域不同,因此实验数据集合也不同，本文提供每个研究者整体的实验效果，并不进行相同数据集的实验分析比较(基于相同数据集的实验比较可作为进一步研究实施任务).虽然基于不同的数据集，但本文从结果数据上进行整体分析，因此不影响本文即将进行的研究综述和结论分析。",
+    "context2": "具体而言,SciAnnoDoc 主要是依赖于人工撰写不同类别的语法规则，包括20个Finding规则、34个Definitions 规则、11个Hypothesis 规则和19个Method-ologies规则,利用1400篇人工标注进行训练，对555个句子实现了自动分类，分类效果见表8。",
+    "context3": "CoreSC模型的研究人员分别利用不同的特征基于265篇语料进行了10-交叉验证和实验,利用支持向量机SVM、随机向量场CRF和线性核分类器进行自动分类实验,在此仅列举效果比较好的结果,利用所有特征值的基于SVM的分类器在各个类别的分类效果[如表9所示：",
+    "context4": "表8SciAnnoDoc分类结果",
+    "context5": "<table><tr><td>类别</td><td>句子个数</td><td>P</td><td>R</td><td>F1</td></tr><tr><td>Findings</td><td>168</td><td>0.82</td><td>0.39</td><td>0.53</td></tr><tr><td>Hypothesis</td><td>104</td><td>0.62</td><td>0.29</td><td>0.39</td></tr><tr><td>Definition</td><td>111</td><td>0.80</td><td>0.32</td><td>0.46</td></tr><tr><td>Methodologies</td><td>172</td><td>0.83</td><td>0.46</td><td>0.59</td></tr><tr><td>平均值</td><td>139</td><td>0.77</td><td>0.37</td><td>0.49</td></tr></table>",
+    "context6": "表9CoreSC模型分类结果",
+    "context7": "<table><tr><td>类别</td><td>BAC</td><td>CON</td><td>EXP</td><td>GOA</td><td>MET</td><td>MOT</td><td>OBS</td><td>RES</td><td>MOD</td><td>OBJ</td><td>HYP</td><td>平均值</td></tr><tr><td>P</td><td>0.56</td><td>0.50</td><td>0.72</td><td>0.37</td><td>0.33</td><td>0.25</td><td>0.53</td><td>0.46</td><td>0.54</td><td>0.43</td><td>0.32</td><td>0.46</td></tr><tr><td>R</td><td>0.68</td><td>0.41</td><td>0.78</td><td>0.20</td><td>0.25</td><td>0.06</td><td>0.47</td><td>0.57</td><td>0.52</td><td>0.29</td><td>0.13</td><td>0.40</td></tr><tr><td>F1</td><td>0.62</td><td>0.45</td><td>0.75</td><td>0.26</td><td>0.29</td><td>0.10</td><td>0.50</td><td>0.51</td><td>0.53</td><td>0.34</td><td>0.19</td><td>0.41</td></tr></table>",
+    "context8": "由于AZ-I模型相对比较复杂,并且有一些类别是AZ-I所独有的,因此效果的好坏不具备与其他模型的可比性,因此本文选择了相对简单的AZ模型进行自动标注分类比较。实验基于AZ人工标注的80 篇计算语言学文章,进行交叉实验验证，采用朴素贝叶斯分类器进行分类,取得的效果如表10所示：",
+    "context9": "表10AZ模型分类结果",
+    "context10": "<table><tr><td>类别</td><td>AIM</td><td>CONTR.</td><td>TEXTUAL</td><td>OWN</td><td>BACKG.</td><td>BASIS</td><td>OTHER</td><td>平均值</td></tr><tr><td>P</td><td>0.44</td><td>0.34</td><td>0.57</td><td>0.84</td><td>0.40</td><td>0.37</td><td>0.52</td><td>0.50</td></tr><tr><td>R</td><td>0.65</td><td>0.20</td><td>0.66</td><td>0.88</td><td>0.50</td><td>0.40</td><td>0.39</td><td>0.53</td></tr><tr><td>F1</td><td>0.52</td><td>0.26</td><td>0.61</td><td>0.86</td><td>0.45</td><td>0.38</td><td>0.44</td><td>0.50</td></tr></table>",
+    "context11": "Multilayer模型在计算机图形学领域取得的分类效果见图6,基于人工标注的40篇语料,分别选择了逻辑回归和SVM分类器进行测试,对相应的F1值进行了记录比较,结果逻辑回归取得的效果更好(缺少了正确率和召回率统计信息）。",
+    "context12": "综上,对各个模型整体对比情况如表11所示：",
+    "context13": "![](images/27d380f48ab9c85ea2eba0e16578c54c6901f959d882337dc41b79503b0a739c.jpg)  \n图6Multilayer模型分类结果",
+    "context14": "表11模型标注工具和分类算法比较",
+    "context15": "<table><tr><td>模型名称</td><td>自动分类算法</td><td>最好效果(类别-P-R-F1)</td><td>最差效果(类别-P-R-F1)</td><td>平均效果(P-R-F1)</td></tr><tr><td>SciAnnoDoc</td><td>基于规则匹配算法</td><td>Methodology-83%-46%-59%</td><td>Hypothesis-62% -29%-39%</td><td>77%-37%49%</td></tr><tr><td>CoreSC</td><td>支持向量机SVM、随机向量场CRF</td><td>Expriment-72%-78%-75%</td><td>MOT-25%-6%-10%</td><td>46%-40%41%</td></tr><tr><td>AZ/ AZ-II</td><td>综合NB、SVM、CRF</td><td>OWN-81%91%-85%</td><td>CONTR.34%-20%-26%</td><td>50%-53%-50%</td></tr><tr><td>Multilayer</td><td>逻辑回归LR和 SVM</td><td>Approach-F值—87.6%</td><td>CHALLENGE-F值-47%</td><td>—F值-80%</td></tr></table>"
+  },
+  "3.5语篇元素自动标注模型存在问题分析": {
+    "context1": "（1）自动标注的语义类别种类以及蕴含意义定义问题难度较大，类别太少或太泛不能够满足用户的需要（如SciAnnoDoc和Multilayer）,但类别过多,不同的类别之间又会出现交叉覆盖，造成冗余和分类困难（如CoreSC和AZ-I模型）,因此需要结合实际用户需要和研究需要进行反复的实证调查研究。由于每个人的知识背景和知识理解不同，调查研究充满了主观性和人为干扰因素,应制定尽可能适用于更多人群的类别，克服由于人的因素带来的不一致性存在难度。",
+    "context2": "（2)人工标注数据工作量大,耗时长,工作繁琐。每一个研究都需要人工进行初步的语料标注，并且对标注的精确度有较高要求,这一人工标注数据集的质量作为训练数据会直接影响到自动分类的效果。因此大多需要选用相应领域的专家进行语料人工标注，只有AZ模型为了降低人工标注数据的困难和准确性，建立了一个基于决策树的人工标注指导手册，方便人工标注，即使非本领域的专家也可以方便地按照决策树的指示完成标注，实现了非领域依赖，但大多数都还是领域依赖模型。",
+    "context3": "(3)最终自动分类的效果仍不是很理想，分类技术和方法仍有很大的提升空间。通过模型标注技术和分类效果分析发现无论是基于哪一个领域的语料数据和分类方法，当前研究自动标注模型的效果都不是特别理想,存在进一步的提升空间。SciAnnoDoc模型与其他模型分类方法不同，主要是基于规则的方法，正确率相对较高，平均可达 $7 5 \\%$ ,但召回率很低,平均只有$3 5 \\%$ 。为了提高召回率,需要写更多的规则，但是规则越多，噪音标注数据的风险越高。CoreSC模型按照科学研究调查组织分类，对于描述核心概念比较完善，但是类别太多，有些类别之间容易混淆甚至本身就很模糊,会给人工标注数据带来困难,毕竟让专家对句子进行11个类别标注是个很难的工作，因此产生的训练数据本身的可靠性会是个问题，所得到的分类效果对比其他模型指标较低,F值最高 $7 5 \\%$ ,最低 $10 \\%$ ,平均只有 $41 \\%$ 。AZ模型引入基于决策树的标注方法在一定程度上提高了训练数据的精准度，如在OWN类别分类上准确率和召回率分别可达 $81 \\%$ 和 $91 \\%$ ,但AZ模型相对AZ-I模型本身比较落后，分类的角度也比较宽泛，在使用该模型过程中一般需要对模型进一步优化。Multilayer模型研究领域和研究工作较新,基于前人的研究成果无论在模型上还是在分类方法上都明显优于其他模型,但在分类过程中选用了一些计算机图形领域特有的特征作为训练,所以对于其他领域的可扩展性有待进一步验证，并且类别较少，又有可能不足以满足研究人员的需要。"
+  },
+  "4结论与展望": {
+    "context1": "对科技文献进行语篇元素研究和标注工作在当前知识产权发展创新、知识出版业务创新、知识服务引领创新的时代背景下，有着重要的理论研究和实际应用价值,广泛应用于搜索引擎、自动文摘、科技创新点发现、自动问答系统、语义出版、写作教学、网络语义知识组织、引文推荐[、日本法律条文标注等知识服务环节。除此之外也广泛应用于医学、生命科学的科学研究工作中,如癌症风险评估、生命科学基因新功能对照/基因发现[45-4d、循证医学等,实现多学科跨领域的研究合作。",
+    "context2": "本文详细研究比较了几个模型的研究工作，各团队针对不同的研究任务和侧重点，选择不同的领域进行了人工标注，产生了一系列标注数据集和方法集合，这些模型既互补又各有不同，这都为进行这方面领域研究提供了很有价值的参考。对科技文献语篇元素进行标注时，标注模型的确定是这项工作的基础部分，也是研究的核心和重要组成部分，首先需确定标注的任务和目标领域，不同的研究任务和领域由于研究内容本身和研究者思路本身的不同，文章的结构和内容也会千差万别，对模型的选择和类别区分也会明显不同。其次，选择标注的内容粒度，如基于片段、基于概念分区、基于句子、基于事件的标注。不同的粒度之间也不是孤立的,全文是由一个个片段组成,而一个个片段又是由句子组成，句子中又包含不同的事件。最后，确定模型和分类类别，一定要结合实际的应用情况灵活选择和制定。通常情况下，一个句子通常能较好地表达作者的意图，同时利用计算机技术手段可有效实现句子切分，也可有效避免基于片段的句子语义类别冲突的情况，因此可选择基于句子层级的标注进行研究。对于语义类别的个数，通过分析发现5-7个类别通常可包含所有的语义描述，本文结论为6个语义类别可覆盖大多数语篇元素语义类型，即研究目标、研究背景、研究方法、研究发现、研究结论以及研究定义。",
+    "context3": "科技语篇元素最终的自动化分类效果，直接决定"
+  }
+}

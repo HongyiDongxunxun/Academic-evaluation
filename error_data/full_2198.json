@@ -1,0 +1,73 @@
+{
+  "original_filename": "full_2198.md",
+  "关联数据研究进展概述": "",
+  "肖强郑立新": {
+    "context1": "1扬州大学社会发展学院扬州225002²怀化学院图书馆怀化418008",
+    "context2": "（摘要）首先介绍国内外作者对关联数据概念及其基本原则的研究现状，分析关联数据的发布方式和发布工具以及应用研究情况，然后对关联数据与语义网二者的关系进行剖析，最后给出关联数据研究在用户接口问题、法律许可问题、评价问题、隐私问题方面面临的一些挑战，认为关联数据将会使互联网发生深刻的变革。"
+  },
+  "（关键词）数据关联数据数据网络语义网": {
+    "context1": "（分类号）G353"
+  },
+  "Overview of the Research Progress of Linked Data": {
+    "context1": "Xiao Qiang1Zheng Lixin²",
+    "context2": "1Schol of Social Development，Yangzhou University，Yangzhou 225o02²Libraryof Huaihua University，Huaihua 418008 (Abstract）Thepaperfirstlyinduces theconceptandbasic principlesoflinkeddataathomeandabroad.Thenitanalyzesthewayand thetolsfpublishinglinkeddataandisappication.Attesametimeitanalyzestherelationshipbetweelinkeddataandsemantic web.Finallit givesthechallngesforresearcessuchasuserinterfces,lcensing，evaluationandprivacyndthinkstatliedda ta will make profound changes on the Internet.",
+    "context3": "(Keywords）datalinked dataweb of datasemantic web",
+    "context4": "2007年5月W3C(World Wide Web Consortium)关联开放数据项目正式起动,其目标是号召人们将现有的数据公布成关联数据，并将不同数据互联起来。关联数据提出的目的是构建一个计算机能理解的具有结构化和富含语义的数据网络，而不仅仅是人能读懂的文档网络，以便于在此基础之上构建更智能的应用。目前,关联数据逐渐得到学术界、工业界、政府部门的广泛关注。"
+  },
+  "1关联数据概念、基本原则": {
+    "context1": "接各类资源，强调建立已有信息的语义标注和实现数据之间的关联,具有框架简洁、标准化、自助化、去中心化、低成本的特点,为构建人机理解的数据网络，提供了根本性的保障,为实现语义网远景奠定了坚实的基础。BoutinG也持同样的观点，认为关联数据是提供了关联结构化数据的新媒介，可以更好地让机器读取这些数据。还有一些学者则认为关联数据是一类实践活动。维基百科的定义：关联数据是一种推荐的最佳实践，用来在语义网中使用URI和RDF发布、分享、连接各类数据、信息和知识。Christian Bizer也认为关联数据是利用网络关联不同类型数据的实践。"
+  },
+  "1.1关联数据的概念": {
+    "context1": "关联数据的概念为WWW(WorldWideWeb)的发明者,被誉为互联网之父的 Tim Berners-Lee于2006 年在《关联数据笔记》中首次提出，在该文中他分析了Web的发展与演变,提出了发展数据网络的思想，而数据网络的核心和关键则是关联数据。2009年在TED大会上,他提出关联数据就是一箱箱数据，当通过开放标准关联在一起时，从中可以萌发出很多新事物和新应用。有学者侧重对语义的认识,如白海燕认为关联数据是用来在语义网中使用URI和RDF发布、分享、连"
+  },
+  "1.2关联数据的基本原则": {
+    "context1": "Berners-Lee提出的关联数据遵循四个方面的基本原则,获得了业界的广泛认同: $\\textcircled{1}$ 使用URI作为任何事物的标识名称; $\\textcircled{2}$ 使用HTTPURI让任何人都可以访问这些标识名称; $\\textcircled{3}$ 当有人访问某个标识名称时,提供有用的信息(采用RDF、SPARQL标准)； $\\textcircled{4}$ 尽可能提供相关的URI链接,以使人们可以发现更多的信息。IBMCSDL $\\mathbb { W } \\mathrm { e b } 2 . 0$ 开发人员张静、马春娥经过分析也提出了构建和实现关联数据的三原则: $\\textcircled{1}$ 资源。发布一个领域的数据之前，要确定发布的资源是什么。只要你认为是有意义的,有被引用必要的,都可以称之为资源。 $\\textcircled{2}$ 资源标识。任何一个资源都是用HTTPURI来标识。之所有要用HTTPURI来标识,是希望数据能够通过HTTP协议访问,真正实现基于Web的访问与互联。 $\\textcircled{3}$ 资源描述。资源可以有多种描述,如 HTML、XML、RDF以及JPEG。文档Web 的文档主要通过HTML 格式来表示，数据Web 的数据主要通过RDF格式来表示。RDF将一个资源描述成一组三元组(主语、谓语、宾语）。"
+  },
+  "2关联数据的总体进展研究概述": "",
+  "2.1关联数据的发布研究": {
+    "context1": "2.1.1关联数据的发布方式研究关于如何发布关联数据目前还没有指南性的文档，但已有许多不错的参考资料,例如《如何在网络上发布关联数据》教程和白皮书《部署关联数据》,该白皮书采用了Open-LinksVirtuoso软件作为例子。除此之外,还有一些使用URI的推荐方法,比如W3C的工作草案《语义万维网的“酷\"URIs》（Cool URls for the Semantic Web）。关联数据发布的关键之处在于积极地使数据单元之间的联系具有一定的语义（属性或关系,即三元组中连接主客体的“谓词\"）,它利用URI进行对象标识,并通过HTTP协议进行揭示和访问。我国学者刘炜介绍了关联数据URI的发布细节： $\\textcircled{1}$ URI中避免使用空白节点,避免具体化，尽可能不使用RDF的集和包; $\\textcircled{2}$ 采用内容协商（Negotiation）、URI参引、CoolURI（也就是采用hash和303转向方式指向资源)； $\\textcircled{3}$ 鼓励RDF中链接，可以用URI别名； $\\textcircled{4}$ 鼓励本体/模式重用，遵循术语定义的最佳实践； $\\textcircled{5}$ 在RDF描述中“必须包含\"对该资源描述的内容; $\\textcircled{6}$ 封装非RDF的数据库或API，使封闭世界的数据开放出来。",
+    "context2": "2.1.2关联数据的发布工具研究实际上大量已存在的数据并不满足关联数据的原则，于是关联数据的推动者开发了一系列实用工具，来协助完成传统数据向关联数据转化。一般来说，有以下几种关联数据的发布工具:",
+    "context3": "·实现关系型数据库RDF转化的工具。 $\\textcircled{1}$ D2R。D2R 是其中一个非常流行的工具,它的作用是将关系型数据库的数据转换为虚拟的RDF数据进行访问。D2R 主要包括 D2R Server，D2RQ Engine 以及D2RQ Mapping 语言。D2RQ Engine并没有将关系型数据库发布成真实的RDF数据,而是使用D2RQMapping文件将其映射成虚拟的RDF格式。一般来讲,数据库的数据规模都比较大，且内容经常发生变化,转换为虚拟的RDF数据空间复杂度会更低，更新内容更加容易，因此D2R的应用更加广泛。 $\\textcircled{2}$ Tripli-fy。Triplify是一种小型的Web 应用插件,能将关系型数据库发布成真实的 RDF数据。基于重新映射 HT-TP URI请求,Triplify可以分析查询所返回的数据,能将HTMLDOM数据以RDF格式序列化输出,从而揭示出关系数据库中所保存数据的语义结构。Triplify有利于中小型的Web应用参与到语义网中来,因为不需要为建立和维护大规模的语义定义而付出大量的努力,支持开发人员拓展关联数据在Web环境下的应用。",
+    "context4": "·直接生成RDF数据的工具。 $\\textcircled{1}$ Virtuoso Univer-sal Server,该工具可以经关联数据界面或一个SPARQL端点将数据转化为RDF数据,且可直接存储在 Virtuoso; $\\textcircled{2}$ SparqPlug,它能从网络上的传统 HT-ML文本(不包括PDF数据)直接抽取关联数据,能将HTMLDOM数据以RDF格式序列化输出,并允许用户自定义 SPARQL查询。",
+    "context5": "·其他发布 RDF 数据的工具。 $\\textcircled{1}$ Pubby [13]Pubby 能拓展支持 SPARQL访问的RDF存储功能，它将URI请求转换成潜在RDF数据查询语言 SPARQ，还能提供简单HTML浏览调用数据库。既提供对关联数据的查询访问，还能为两种不同类型数据库间访问提供 303转向方式指向资源。 $\\textcircled{2}$ Talis platform 04Talis是一款通过HTTP访问,并提供RDF或关联数据存储的软件服务平台。访问权限允许的话，每个Talis平台存储的内容都可以通过一个 SPARQL端点和一系列符合关联数据原则的REST API访问。"
+  },
+  "2.2关联数据的应用研究": {
+    "context1": "自2006年以来，关联数据得到了广泛的认同和快速的发展，至2009年7月RDF三元组已超过47亿个，涉及到网络通用本体、大型传媒、商业企业、政府部门、图书馆、学术出版、搜索引擎等众多领域。随着大量的关联数据在网络上发布，越来越多的组织和个人开始加强对关联数据的研究和应用。MichaelHausenblas将关联数据的应用分成四大类： $\\textcircled{1}$ 内容再利用,如市场研究工具 BBC’s Music Beta; $\\textcircled{2}$ 语义标签，如Faviki、Revyu; $\\textcircled{3}$ 综合提问应答系统,如DBpedia mobile、Se-mantic CrunchBase Twitter Bot; $\\textcircled{4}$ 事件数据管理系统，如OpenLink's Calendar等[。国内已有学者开始研究关联数据的应用，如李亚婷、曹洁对Web环境下关联数据的应用进行了分析，认为关联数据的应用主要有两方面：语义标签和Web资源集成。黄永文则对关联"
+  },
+  "图书馆学理论研究": {
+    "context1": "数据在图书馆中的应用进行了详细的阐述,如提出利用关联数据扩展资源发现服务、在学术研究和学术交流中发挥作用以及实现图书馆与教学系统之间的集成等。关联数据的应用研究主要集中在多媒体（如BBC)、文献出版物(如DBCP、SWC）、生命科学（如Uniport、Pubmed)、地理科学(如Geohames）等领域,其中地理和生命科学应用领域相对广泛。应用案例分析：如英国广播公司BBC拥有每天 $1 \\ 0 0 0 - 1 \\ 5 0 0$ 档各类节目，这些节目基本上都是利用独立的内容管理系统，要揭示所有节目及相关内容的内在联系，是一件巨大的难题,解决的成本过于高昂。BBC采用 Mu-sicBrainz做为受控词表、基于图的属性相似度比较等多种形式,实现了与DBpedia映射性链接,把不在同一存储库中的同一主题内容联系起来，从而扩大了开放的衔接,增添了来自其他LOD云图中数据。同时允许用户发现、关联并利用BBC关联数据,通过HTTP URI机制直接获取,BBC网站和数据的可用性大大增强，用户体验得到巨大提升。"
+  },
+  "2.3关联数据与语义网的研究": {
+    "context1": "目前Web上存在着丰富的知识和信息,但由于其内容组结构松散，数据源之间存在异构性，人们缺乏有效方法利用它们，可见当前建立在标准化语言上的Web并不具备良好的语义表示能力,给基于Web的知识级信息集成和交换带来了困难。为了扩展万维网的能力,万维网联盟的Tim Berners-Lee在1998年提出了“语义网”概念，它的核心是：通过给万维网上的文档(如HTML)添加能够被计算机所理解的语义，从而使整个互联网成为一个通用的信息交换媒介[ 。",
+    "context2": "语义网的前景已有许多学者从不同角度进行了预测或解释，尽管存在这种多样性解释，建立机器可读数据的目标是不变的。据 Berners-Lee描述:把数据以一种机器可自然理解的格式发布在网上(如利用科学家开发的一系列元数据描述语言(如RDF/RDFS)和本体描述语言(OWL等)）,或者把数据转化为这种格式,就初步实现了所谓的语义网络—一种能为机器直接或间接读取数据的网络。当大量存在本体和元数据时，让人联想到“互联网就是一个大数据库”,这些数据资源本身就成为了人类知识的巨大资源。这种以数据资源为基本组成单位的Web,其资源(数据)都标注有元数据描述,从而能够进行语义查询及数据整合，提供了互联网上实现语义互操作的技术平台，使计算机能够为人类完成繁琐的知识发现、获取和处理任务。所谓知识发现，就是从数据集中识别出有效的、新颖的、潜在有用的及最终可理解模式的过程。知识发现的目的是向使用者屏蔽原始数据的繁琐细节,从原始数据中提炼出有意义的、简洁的知识,直接向使用者报告。",
+    "context3": "关联数据提供了关联结构化数据的新媒介，可以让机器更好地读取这些数据。但是，关联数据本身不会给信息增加任何语义含义,而是更好地携带语义数据,供用户访问。所以，关联数据虽然本身并不具备语义特征,但它可以在数据层面建立关联,为真正的语义网铺平道路。两者的关系如图1所示：",
+    "context4": "![](images/76d6bdccde751d988ca569716c764acf45e406468d677da08fca7aa5c0b4c593.jpg)  \n图1关联数据与语义网络的关系",
+    "context5": "语义万维网最好被理解为一种愿景或者目标，希望机器代理可以使用经过富语义标注的数据来创建链接,找到信息或者自动地在背后替人做事。严格地讲，在语境信息的Web访问和语义万维网的长期愿景尚无着落的前提下，关联数据提供了一种可行的最佳方案。当越来越多的个体和组织发布关联数据,构造数据网络时，分布式、异构数据源的数据集成和可重复使用的门槛将逐渐降低。假以时日，以关联数据为基础，一些复杂的提议如智能化利用等语义万维网愿景有可能实现 。"
+  },
+  "2.4关联数据挑战性问题研究": {
+    "context1": "2.4.1关联数据的用户接口问题研究对用户而言，关联数据的最大优势在于提供一个整合广泛的、分散的、不同类型的数据资源接口,而现实中许多Web 应用通过Web API提供自己的数据,如eBay，Amazon，Ya-hoo，Google。关联数据与Web2.0API的区别见表1。",
+    "context2": "虽然，从表1可以看出关联数据的浏览或检索很好地显示了关联数据的应用发展趋势，但是有时候，用户得到的整合数据并不是自己想要的结果，这给关联数据的应用接口带来不少挑战——它必须以人为中心,才能有长久的生命力。如超文本浏览器可以保证以文件为中心的信息实体的前进与后退，那么关联数据浏览器也应该在浏览时保证实体的前进与后退，那就需要提供一个有效的机制来添加和移除相应的数据资源,而对于海量的网页数据,用户接口的实现是一个"
+  },
+  "极具挑战的问题 。": {
+    "context1": "表1Web2.0 API和关联数据的比较[4",
+    "context2": "<table><tr><td rowspan=1 colspan=1>准则</td><td rowspan=1 colspan=1>Web 2.0 APIS</td><td rowspan=1 colspan=1>关联数据</td></tr><tr><td rowspan=1 colspan=1>总数</td><td rowspan=1 colspan=1>超过1300</td><td rowspan=1 colspan=1>超过100(数据集合)</td></tr><tr><td rowspan=1 colspan=1>访问机制</td><td rowspan=1 colspan=1>许多/变化</td><td rowspan=1 colspan=1>HTTP、URI、RDF</td></tr><tr><td rowspan=1 colspan=1>不同API数据链结</td><td rowspan=1 colspan=1>很少</td><td rowspan=1 colspan=1>任何资源</td></tr><tr><td rowspan=1 colspan=1>搜索方式</td><td rowspan=1 colspan=1>人工</td><td rowspan=1 colspan=1>人工、FYN、VOID</td></tr><tr><td rowspan=1 colspan=1>可利用资源混搭</td><td rowspan=1 colspan=1>固定的</td><td rowspan=1 colspan=1>活动的，扩展性的</td></tr><tr><td rowspan=1 colspan=1>数据交换格式</td><td rowspan=1 colspan=1>XML,JSON</td><td rowspan=1 colspan=1>RDF系列化</td></tr><tr><td rowspan=1 colspan=1>用户接口风格</td><td rowspan=1 colspan=1>从 RESTful到 SOAP</td><td rowspan=1 colspan=1>RESTful(只读)</td></tr></table>",
+    "context3": "2.4.2关联数据的法律许可问题研究在数据网络中，为鼓励更好的数据提供者参与并且保证消费者能够规划地使用数据，一些发布与利用关联数据的框架协议是必不可少的。目前，有三种与关联数据开放有关的协议,即开放数据共用、关联协议和“创作公用”CreativeCommons（CC）。开放数据共用是一种开放数据的知识产权声明,用以规范、约束、明确数据拥有者、发布者、使用者在获取、传播、利用、再生产数据时的权利和义务。关联协议是Talis公司发布的一种协议，目的是直接支持公共领域关联数据的发布和再利用，数据提供者和用户都可以无偿使用Talis的数据服务。CC是一种公共领域协议,可以使作者或者版权拥有者将他们的作品贡献到公共领域。研究者如何根据这些协议取得法律许可，在现有用户界面上整合再利用数据，需要进行更深一步研究。",
+    "context4": "2.4.3关联数据的评价问题研究应用关联数据需要考虑的问题是，如何确保数据是用户最需要的或是最合适的，因此需要合理的对关联数据进行评价，从而使用户能快速地从大量数据中获取完整、可靠、有效的信息。但是,当前的语义网关联数据检索方法(如标准的 W3C本体查询语言 SPARQL)并不提供评价方法，而将常用的信息检索中的评价方法，如PageRank 算法、HITS、VSM等,直接应用到语义网中并不合适，因为万维网网页之间的链接具有相同的含义（即超链接)，而在语义网中关联数据具有异构的语义，并且传统的搜索技术通常是查找包含查询关键字的网页，却忽略数据间细粒度的语义关联关系。Bizer和Cyga-niak 提出了以不同的内容、上下文关系和评级为基础的后发性评价方法,但是该方法还需进一步优化，以适应数据网络的快速发展。一些相对成熟的技术如WIQA和网页推理也有助于对关联数据的查询结果进行测评。"
+  },
+  "2.4.4关联数据利用中的隐私问题研究关联数据": {
+    "context1": "的最终目的是把互联网当成一个全球数据库加以利用,这个愿景的实现将给许多领域带来好处，同时也会带来一定的负面影响。一个可能的问题就是整合不同来源的数据可能侵犯了他人的隐私，在关联数据领域保护隐私需要技术手段和法律方面的综合考量。Weitzner在这方面展开了研究,在最近的TransparentAccountable Data Mining Initiative（TAMI)项目有关“信息责任\"中就有所论述。"
+  },
+  "3 结语": {
+    "context1": "关联数据是值得关注的新概念，早期研究主要集中在关联数据的发布和浏览方面,以解决将不同格式的数据发布成关联数据的问题。随着网络上关联数据的不断增多，关于关联数据的应用研究将成为其重点研究内容。总的说来，关联数据的研究与实践在国内外已取得了一定的成就,其相关的理论、软件和技术日渐成熟。笔者相信,随着研究的深入、技术的发展、研究主体的扩展，关联数据就像传统Web所带来的巨大变革一样，关联数据也给Web数据的获取与应用带来新的机遇，它将使互联网发生深刻的变革。"
+  },
+  "参考文献:": {
+    "context1": "[1]王卉,吕秋培.嵌入一线,融入过程.科学时报 $, 2 0 0 9 - 0 6 - 1 8 ( \\ 1 )$   \n[2]李春旺.学科化服务模式研究.图书情报工作 $\\bullet 2 0 0 6 , 5 0 0$ 10) :14-18.  \n[3]徐志玮，陈定权.中美高校图书馆网络化学科信息导航服务比较研究.图书馆论坛,2009,29(5):77-79.  \n[4]冯东.中美一流大学图书馆学科馆员比较研究,2008,28(2)：113 -116.  \n[5]徐佩芳.中美高校图书馆学科馆员制度研究,2007,12(12):214-218.  \n[6]范翠玲,何宗玉,张仕君.国内外高校图书馆学科馆员制度比较研究.图书馆工作与研究,2009,159(5):82-85.  \n[7]叶春峰,张西亚,张惠君，等.国内外网络资源学科导航与信息门户研究分析.情报杂志，2004,23(12):58-61.  \n[8]武书连的博客．[2010-07-23] htp://blog.sina.com.cn/s/blog_4b2cb00e0100k54l.html.  \n[9] National Universities Rankings．[2010-11 -06] .http://colle-ges.usnews.rankingsandreviews.com/best-colleges/national - u-niversities-rankings/.  \n[0]张秋,韩丽风.清华大学图书馆学科博客探索实践及理性思考.图书情报工作,2009,53(15):88-91.  \n[1]孟广均.国外图书馆学情报学最新理论与实践研究.北京:科学出版社,2009:202 -203  \n[2]黄传慧.Web2.0环境下图书馆学术信息服务研究.武汉：湖北人民出版社,2010:118.  \n[3]金旭东.21世纪美国大学图书馆动作的理论与实践.北京：北京图书馆出版社，2007:76-78.  \n[4] Horne A K，Adams S M,Cook M,et al.Do the outcomes justifythe buzz.ACRL Fourteenth National Conference,2O09:172-175.",
+    "context2": "〔作者简介）熊欣欣,女,1972年生，馆员，发表论文6篇，出版译著1部。"
+  },
+  "4 结语": {
+    "context1": "数字信息环境为高校图书馆带来的变化不仅是海量知识内容本身，更为关键的是构建了基于数字内容的新型服务模式—数字化学科服务。美国高校图书馆在此领域起步早、发展快,积累了丰富的经验与技术。国内高校虽然存在诸多不足,但通过中美数字化学科服务的比较研究，可以发现我国高校图书馆在信息服务领域的薄弱环节，从而根据实际出发，发挥起步晚、起点高的后发优势，尽快应用先进技术再造学科信息服务，提升我国高校图书馆数字化学科服务水平。"
+  },
+  "(上接第75页)": {
+    "context1": "[io]Bizer C，Cyganiak R.D2R server publishing relational databases on the semantic Web.[010 -09-26]．http://www4．wiwiss.fu - berlin.de/bizer/d2r-server/resources/d2r - server- slides - www2006.pdf.   \n[ 1] Auer.Triplify:Light-Weight linked data publication from relational databases.010-09-26].htp://www.informatik.uni-eipzig. de/\\~auer/publication/triplify.pdf.   \n[2] Coetzee P,Heath T,Motta E.SparqPlug: Generating linked data from legacy Html,Sparql and the DOM．[010 -O9-26] .http:// events.linkeddata.org/ldow2008 /papers/05 -coetzee-heath -sparqplug. pdf.   \n[13] Cyganiak B.Pubby-a linked data frontend for Sparql endpoints. [010 -09-26]．http://www4.wiwiss.fu-berlin.de/pubby/.   \n[14] Talis platform． [2010-09-26]．http://www.talis.com/platform/.   \n[5]Hausenblas M.Linked data applications．[2010 -O9 - 26] .http://linkeddata.deri.ie/resources.   \n[6]李亚婷,曹洁.Web环境下关联数据的应用.情报理论与实践， 2010(11):122 -125.   \n[17]黄永文.关联数据在图书馆中的应用研究综述.现代图书情报 技术,2010(5):1-7.   \n[8]田稷.语义Web与网络信息和知识的表达.情报杂志,2003 (6):43 -44.   \n[19]Berners-Lee T. What the semantic Web can represent.[010 -10 -10l .http://www.w3.org/DesignIssues/RDFnot. html.   \n[0] Berners-Lee. Weaving the Web: The past,present and future of the World Wide Web by its inventor.London:Texere Publishing, 2000:191.   \n[1]黄田青.关联数据语义万维网的新坐标．[2010-09－26] .http://www.dl-china.org/.   \n[22] Christian B,Heath T,Berners-Lee T.Linked data-the story so far. International Journal on Semantic Web & Information Systems, 2009 $, 5 { \\bigl ( } 3 { \\bigr ) } : 1 - 2 2$   \n[3]Silk-a link discovery framework for the Web of data.[o10 -10- 10．http://www4.wiwiss.fu-berlin.de/bizer/silk/.   \n4Christian B,Cyganiak R. Quality-driven information filtering using the WIQA policy framework.Journal of Web Semantics,2009,7 (1):1-10.   \n[5]Weitzner D.Beyond secrecy: New privacy protection strategies for open information spaces．IEEE Internet Computing，2O07，11 (5):94-106."
+  }
+}

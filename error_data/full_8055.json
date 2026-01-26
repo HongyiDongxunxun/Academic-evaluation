@@ -1,0 +1,75 @@
+{
+  "original_filename": "full_8055.md",
+  "用户协作检索研究述评": {
+    "context1": "徐树维1,2.3，范炜1,2",
+    "context2": "（1.中国科学院国家科学图书馆北京100190;2.中国科学院研究生院，北京100190；",
+    "context3": "3.河南大学计算中心,河南开封475001）",
+    "context4": "摘要：在对用户协作信息检索研究和协作信息系统分析总结的基础上,指出了其中存在的一些问题,确定了协作信息研究中要重点关注的内容，旨在为用户协作信息检索的研究提供一些借鉴。关键词：用户协作检索；隐性协作检索；显性协作检索",
+    "context5": "中图分类号：G354 文献标识码：A 文章编号:1007-7634(2010)07-1108-05"
+  },
+  "The Review of User Collaborative Retrieval Research": {
+    "context1": "XU Shu-wei1,2,3, FAN Wei $^ { 1 , 2 }$",
+    "context2": "(1.National Science Library， Chinese Academy of Sciences, Beijing lOol90, China ; 2.Graduate University of Chinese Academy of Sciences, Beijing lOoo49, China ; 3.Computing Center of Henan University,Kaifeng 4750ol, China)",
+    "context3": "Abstracts:This paper,based on the collaborative information retrieval research and the systematic practice analysis of the collaborative retrieval，points out some key issues in the collaborative information research,aims to provide some references for the research of user collaborative information retrieval.",
+    "context4": "Keywords:user collaborative retrieval； implicit collaborative retrieval;explicit collaborative retrieval",
+    "context5": "网络信息检索通常被认为是一种典型的个人信息查寻行为，并在信息及用户的信息需求可以被准确描述的前提下，对不同用户输入的相同查询采用相同的检索规则，实现了检索结果的惟一性。但许多领域中的研究已经证明协作是人们信息检索实践的一个内在方面，信息需求的复杂性驱动了人们的协作信息检索行为，而信息技术的发展和Internet的连通性为不同用户检索信息时的协作提供了潜在的可能性。"
+  },
+  "1用户协作信息检索": "",
+  "华盛顿大学协作信息检索项目组将用户协作信": {
+    "context1": "息行为定义为“一类或一组人开始确认和解决一个共享信息需求的一系列活动\"]。用户协作信息检索研究根据其协作方式可分为隐性协作和显性协作两类。"
+  },
+  "1.1隐性协作信息检索": {
+    "context1": "协作信息检索是指通过不同用户与搜索引擎的交互，来改进用户的检索效果，使后来的具有相似兴趣或查询的用户能从协作信息检索系统中自动保存的检索知识中受益[2]。它是一种流行的基于社会化的信息检索方法，通过保存的以前用户与系统的交互来更有效的响应后来的用户查询，提高用户协作检索效率和改进用户的信息检索过程。",
+    "context2": "与传统的信息检索系统相比，隐性协作信息检索系统可以重用系统中存储的以前用户的相似或相同的检索策略或检索经验。如图1所示，在一个具有特定信息需求的搜索场景中，用户输入一个查询，系统不仅仅是做一个简单的关键词匹配，它还需要提供特定的协作机制，以匹配那些可以帮助当前用户的相似搜索者。",
+    "context3": "![](images/f8bd42d1787d4a09870d26913cdb1f968d69f3299a356f7981d470f94f9d770a.jpg)  \n图1隐性协作信息检索/社会信息检索系统",
+    "context4": "在隐性协作信息检索中[3],用户可能不知道提供检索策略或检索结果的人是谁或他们检索的目的和想法是什么，但通常可以感知到以前用户获得的基于数据的结果。隐性的协作信息检索以查询为中心，通过重用以前用户的查询及检索结果来提高用户协作检索的效率。人是一切协作活动之源，而隐性协作检索忽略了人的主动参与是协作检索系统成功的关键这样一个事实。"
+  },
+  "1.2显性协作信息检索": {
+    "context1": "显性协作信息检索是指在特定的工作环境或开放的网络社区中，显性地涉及和其他人直接或间接交互的与解决特定问题相关的信息查寻行为，处理的是用户如何在一起搜索信息的问题[4]。它强调为满足群组成员共同的信息需求，实时地协调用户之间的检索行为所涉及的一系列技术。",
+    "context2": "![](images/25b8683fb5260ababe873cfa07f52ca6da29d5adb41da3fecf1f315f05ef3aad.jpg)  \n图2显性协作信息检索系统",
+    "context3": "用户显性协作信息检索系统通过用户之间实时交互，为检索那些末被发现的相关信息提供支持。如图2所示，在用户显性协作信息检索系统中，用户之间首先通过实时交互进行检索词的选择和检索任务的分配，然后由用户并行检索，每个用户集中在信息需求的不同部分。系统用特定的算法将检索结果分配给不同的协作者，由他们各自独立地做相关性判断，最后把判断为相关的结果反馈给系统，由系统生成一个与查询需求高度相关的结果集合，统一提供给所有参与协作检索的用户。",
+    "context4": "用户同步协作信息检索是一个动态的知识发现过程，在这个过程中协作团体中不同的用户能够共享彼此的知识，最终形成一致的知识，因此它可以看作是一种用户间同步和协调的知识发现及传播的过程。作为交互的一种特殊形式，用户参与整个知识发现的过程，个体用户通过在检索过程中与其他用户的交互，将他人的知识和经验内化成自己的知识和经验，并为检索过程带来各自的经验和技能。现在很少有研究为小群体用户协作检索提供更主动的协作经验。也很少有商业产品在用户的搜索过程中提供显性的协作支持。",
+    "context5": "相对于使用查询相似性和用户相似性的协作推荐和协作过滤系统，用户显性协作信息检索重在解决多个用户如何在一个共同目标下通过实时交互，作为一个群体主动地参与检索信息，用户成为了协作信息检索系统的核心。"
+  },
+  "2协作信息检索相关现状": {
+    "context1": "国内协作信息检索与查寻的研究方面，褚峻，严贝妮等人对信息查寻和情报检索中的协作行为进行了研究，介绍了国外协作系统的发展状况和一些具体的研究项目，对其发展趋势进行了分析[5-7]。",
+    "context2": "国外协作信息检索的研究方面，Hansen等人通过专利领域中信息工作者的协作信息检索实践，发现专利工作者之间的感知对协作信息检索活动的成功起着重要作用[4]。在对科研工作者的协作信息检索实践调查中,Spence发现科研人员在信息查寻活动中，利用从email到视频会议等各种通信软件支持他们的协作信息查询[8]。Krishnappa在对他设计的一个协作信息查寻原型MUSE的评价中，总结了协作信息查寻的一些特征，特别是交谈功能，在增强协作查寻和检索过程中所起的重要作用[9]。BABBLE是一个被设计用来在用户间提供协作感知的交流系统[10],它和其他相似的系统通过感知和协调功能[11],使人们对协作信息检索有了更深刻的理解。ColumFoley等人设计的实时协作信息检索系统为了使多用户的任务协作成为可能，增加了对两个或多个用户同时在一起为满足共享信息需求进行搜索的支持,并对检索任务分配和共享知识做了相应研究[12]。",
+    "context3": "当前绝大多数用户协作检索研究主要集中在异步协作，通过利用过去用户与搜索引擎交互生成的查询和检索结果来改进当前用户的检索效果。在用户协作信息检索中，用户之间的实时交互、协调、感知、以及用户间检索任务的分配和检索知识和经验的共享和重用，是用户协作信息检索研究中要解决的关键技术。"
+  },
+  "3协作信息检索系统实践": {
+    "context1": "过去协作信息检索领域的系统实践多集中在被动形式的协作，近两三年才出现了一些用户显性协作信息检索系统。"
+  },
+  "3.1隐性协作信息检索系统": {
+    "context1": "隐性协作信息检索系统实践主要使用用户兴趣、用户相似性、查询相似性、查询日志和点击数据生成的相应替代查询与推荐，如VisSearch、I-SPY、Amazon shopping recommendation， google personal-ized search 等。",
+    "context2": "共享Web搜索结果的协作搜索系统VisSearch应用数据挖掘算法和规则来发现Web搜索查询中有意义的模式，发现的模式用于向其他具有相同或相似查询需求的用户提供推荐，使用户能通过扩展以前的查询来更容易地构建新的查询[13]。I-SPY则试图以社区搜索者的信息检索行为来发现搜索者的搜索模式，从而构建一个与社区用户搜索历史选择相关的模型[14]。此外,一些协作系统 Amazon Shop-ping Recommendation,Google's Personalized Search等也是隐含、异步协作和分布式搜索的例子,Ama-zon 存储每个人的在线行为，而Google's Personal-ized Search则试图从潜在的因素推断出群体成员之间的关系。",
+    "context3": "迄今为止，隐性协作检索系统占了协作信息检索系统的大多数，这类系统支持隐性、被动形式的协作，集中在提高单个用户的检索效率和改进单个用户的信息检索过程。常见的如基于查询相似性和用户相似性的协作推荐和协作过滤系统。在这些系统中用户之间没有主动、显性的协作，而是通过使用大量用户与系统交互产生的数据来影响当前的系统行为，改进用户的搜索过程。"
+  },
+  "3.2显性用户协作信息检索系统": {
+    "context1": "近几年Web技术(如社会化网络和Web2.0)和计算机硬件（可触摸屏及桌面可交互设备）等的发展，使计算机支持的多用户协作任务成为可能，研究人员也开发了一些显性协作信息检索的原型系统，这些系统通过用户间的实时交互来提高用户的检索效率,如 :TeamSearch、S3、CoSearch SearchTogether、iBingo、Cerchiamo等。通过这些原型系统，人们对用户显性协作信息检索与查寻过程中的一些特殊的需求有了新的理解。",
+    "context2": "TeamSearch允许最多四个同地的群组成员坐在一个可触摸屏的桌面周围，用一个可视化的查询语言搜索一个图像数据库[15]。而 S3(Storable,Share-able Search)被设计用来支持异步、显性的搜索，通过记录人们的搜索活动，发现与每个查询最相关的搜索结果与注释，并提供给团体里的其他人[16]。CoSearch可以通过蓝牙把手机与计算机进行连接，用户可以从手机向PC发送检索关键字，检索关键字被显示在浏览器工具条上的一个队列中，这样就可以在共享PC上选择要搜索的关键字[17]。Search-Togethe则是一款旨在帮助彼此认识的小群体成员用户之间为一个共享的目标而主动地协作搜索的工具，用户邀请好友参与协作搜索活动,在选择一个协作项目后，用户可以查看每名协作者的查询历史，点击一次查询就会在浏览器的主视窗显示搜索结果，这样用户就无需进行重复搜索[18]。",
+    "context3": "Alan F.Smeaton等人开发的iBingo系统，可以使两个或多个用户使用如iPod这样的移动设备来进行协作信息查寻，并在用户之间进行斡旋和在协作者之间进行检索任务的实时分配，从而使得用户检索到的文档是满足各自需要的[19]。由2007FXPALTRECVid团队开发的Cerchiamo系统，允许团队搜索者同步协作探索搜索文档集合，通过算法斡旋团队成员的搜索行为，记录搜索结果和建议查询术语，使团队成员能更有效和更高效地执行搜索任务[20]。",
+    "context4": "从以上这些显性协作检索系统实践可以看出，在协作检索过程中，每一个参与者都为检索过程带来各自的检索知识和经验，通过用户显性协作检索环境，就可以建立一个分散在所有协作者之间的巨大的和多样化的知识库，使每一个用户都能为知识库贡献自己的知识。",
+    "context5": "显性协作检索系统的目的是为了提高用户在一起搜索时的效率，满足群组用户共同的信息需求。因此，这些系统代表了在信息查寻过程中通过使用协作工具在用户之间进行直接交互，并能够相互感知到对方检索行为和检索策略的显性、主动形式的协作检索。用户显性协作信息检索系统为交互式搜索打开了一个新的方向：同步、显性和算法斡旋的协作。"
+  },
+  "3.3社会搜索引擎": {
+    "context1": "社会搜索或社会搜索引擎是一种基于用户的方法，通过用户间交互或用户贡献来确定搜索结果。社会搜索的目的是依靠用户的力量来做些算法不能完成的工作，从而改善用户的搜索过程。",
+    "context2": "PageRank算法可以说是社会化搜索的一种基本形式，它是基于链接到相关站点的网站管理员的判断结果的综合，从本质上讲是所有网站管理员对最爱站点的投票。而Wikia是一种基于维基的全新搜索引擎，它将机器爬虫和用户参与结合起来，维基百科的成功已经证明了用户的参与能够创造高质量的内容。",
+    "context3": "社会化搜索引擎通过引进“人的判断\"表明，每一个已经被浏览，并被一个或多个用户认可的网页，是值得与其他人共享的。此外,社会化搜索引擎还可以不断地得到用户的反馈，而这远远超越了计算机分析网页的能力。2008年涌现出一些依据社会网络中用户的社会网络图来对搜索结果进行排序的搜索引擎，如Mahalo、Stumpedia、Qitera、Scour、Wink、Rowdii、Eurekster、Baynote Delver、OneRiot和 SideStripe等。",
+    "context4": "从以上这些系统实践可以看出，用户显性协作信息检索是新出现的协作检索形式，包含两个或多个用户的群组为了满足一个共同的信息需求，以显性的方式主动的进行协作，显示了信息检索从以个体为中心到以群组为中心的变化趋势。"
+  },
+  "4用户协作检索研究议题": {
+    "context1": "信息检索是人们对获取信息过程的一种宽泛解释，它包括几个信息处理步骤，如问题的识别、信息需求的分析、查询的构建、检索交互、检索结果的评价、最终结果的展现和应用检索结果解决一个信息问题等。因此，信息检索可以被看作是一个动态的知识发现过程，而这种知识发现过程是与用户特定的信息需求和实际应用环境密切相关的，但现在的标准搜索工具或搜索引擎却没有在这种动态的知识发现过程中考虑用户的主动参与，不能够通过充分地体现用户的意图和有效地利用不同用户的检索经验、知识和兴趣等来提高信息检索效率。",
+    "context2": "在任何协作环境中协作群体成员之间都会存在着各种形式的知识共享，每一个成员都将为协作任务带来各自的经验、专长和主题知识。因此，协作不仅仅是汇集每个参与者贡献的总和，而是在一起创建一个问题的解决方案。",
+    "context3": "因此，为了能够进行成功的协作信息查寻，需要创建一个协作信息检索环境： $\\textcircled{1}$ 协作检索群体中的每个成员都可以为协作检索带来不同的经验和知识； $\\textcircled{2}$ 每一个协作信息检索的用户都有机会在不被他人人影响的情况下，主动地参与到整个动态的检索过程或检索过程的某些阶段，并做出各自的贡献；$\\textcircled{3}$ 用户能够在不与其他群体成员协商的情况下，独自地对各种信息做进行评价； $\\textcircled{4}$ 在协作检索系统中，必须提供一些协作机制来协调用户的协作检索活动，为用户的交互和主动参与提供支持，并集成用户对协作检索过程中各种信息的评价，把用户对信息的评价转变为群体信息决策，从而提高协作检索的效率。",
+    "context4": "通过对国内外研究的分析和总结，我们发现在支持用户协作信息检索实践和需求方面的技术还有以下三个问题值得深入研究：",
+    "context5": "（1)用户协作信息检索中信息需求的复杂性，使单个用户一般很难精确地用有限的关键词描述自己的信息需求，通常需要经过多次查询才能检索到满足用户需求的信息。当前，在用户显性的进行协作信息检索任务协调与分配和对返回的检索结果判断集成方面的研究还比较少，缺乏形式化的建模方法。如何解决用户协作信息检索中检索任务在协作者之间的分配，以及如何把协作者判断为相关的结果以形式化的方式进行表示，从而使检索过程更有效，是用户协作检索要解决的关键问题。",
+    "context6": "(2)协作信息检索对用户个人检索经验和检索策略的重用方面的研究比较多，对如何在检索过程中重用和保存具有特定信息需求的用户群组和协作信息检索系统间的交互信息（例如：用户群组查询的表示、群组查询的重构等)的研究比较少。而如何使具有相似信息需求的群组可以通过群组间的交互信息来学习其他群组的检索经验，从而能在更短的时间内获得更相关的检索结果，实现群组之间知识共享是协作信息检索要关注的内容之一。",
+    "context7": "(3)协作感知是一个在用户协作信息检索中很少讨论的问题，而感知到其他用户的存在和行为是用户协作检索能够有效实施的前提。在动态的协作检索过程中提供对检索任务的感知、用户及其检索行为的感知、检索过程的感知、检索活动的感知、检索结果的感知可以增强用户的搜索经验，减少用户的重复劳动，实现检索过程及检索结果的共享。如何通过技术手段为协作系统提供协作感知信息，使协作者能够更和谐地在一起工作，对促进协作效率以及驱动潜在的协作都会起到很好的作用。"
+  },
+  "5结语": {
+    "context1": "用户协作检索强调用户之间的交互、信息需求的复杂性以及信息技术在用户协作检索中所起的作用，通过重用用户过去的检索经验策略和用户的积极参与来提高检索效率，显示出协作信息检索正从以系统为中心到以用户为中心的转变。当前，用户协作信息检索在很多问题上还没有达成共识，需要我们对其做进一步的研究。"
+  },
+  "参考文献": {
+    "context1": "1 Poltrock S,Grudin J,Dumais S,et al. Information seeking and sharing in design teams [C]. In: Proceedings of the 2003 international ACM SIGGROUP conference on Supporting group work,Sanibel Island,Florida,USA November 09-12, 2003.New York:ACM,2003.   \n2Hust A, Klink S, Junker M. Towards collaborative information retrieval: three approaches [EB/OL].http://www.hust.a-ztechnology.de/pub/TowardsCIR.pdf,2009-04-08.   \n3Agarwal N K,Poo D C C.Collaborating to search effectively in different searcher modes through cues and specialty search[EB/OL].http://www.igi -global.com/downloads/excerpts/reference/IGR4262_YMJPIKDH5T.pdf,2009-10-08.   \n4Hansen P,Jrvelin K.Collaborative information retrieval in an information-intensive domain [J]. Information Processing & Management,2005,4(41):1101,1119.   \n5褚峻，张咏，巢乃鹏.信息查寻活动中的合作行为与合 作式信息查寻[J].大学图书馆学报,2003,(4):35-39.   \n6巢乃鹏，张咏，等.国外信息查寻行为研究进展[C].北京： 国防工业出版社,2001:99-121.   \n7严贝妮.国外合作式信息查寻研究进展[J].情报资料工作, 2008,(2):40-43.   \n8Spence PR,Reddy M R.A survey of collaborative information seeking of academic researchers [C]. In: Proceedings of the 2005 international ACM SIGGROUP conference on Supporting group work. Sanibel Island, Florida, USA,2005:85- 88.   \n9Krishnappa R. Multi-user search engine (muse): supporting collaborative information seeking and retrieval[D]. Rola:University of Missouri, 2005:30-35.   \n10Erickson T, Kellogg W A. Social translucence: an approach to designing systems that support social processes [J]. ACM Transactions on Computer- Human Interaction,2O00,7(1): 59 -83.   \n11 Ackerman M S.The intellectual challenge of CSCW: the gap between social requirements and technical feasibility[J]. Human - Computer Interaction, 2000,15(2):179-203.   \n12Foley C,Smeaton A F.Evaluation of coordination techniques in synchronous collaborative information retrieval [EB/OL].htp://workshops.fxpal.com/jcdl2008/submissions/tm pE2.pdf,,2009-04-08.   \n13Lee Y J.VisSearch:A collaborative web searching environment[J]. Computers & Education, 2005,44(4):423-439.   \n14 Smyth B,Freyne J, Coyle M,et al.I-SPY - Anonymous, Community-Based Personalization by Collaborative MetaSearch [EB/OL]. http://www.csi.ucd.ie/UserFiles/publications/ 1125325052930.pdf,,2009-04-08.   \n15Morris M R, Paepcke A, Winograd T. TeamSearch: comparing techniques for co-present collaborative search of digital media[EB/OL].htp://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.90.7467&rep=rep1&type=pdf,2010-06-09.   \n16Morris M R,Horvitz E.S3:storable,shareable search [EB/ OLJ.http://research.microsoft.com/en-us/um/people/merrie/pa pers/s3_interact.pdf,2009-05-26.   \n17Amershi S,Morris M R. CoSearch: a system for co-located collaborative web search [C]. In: Proceeding of the twentysixth annual SIGCHI conference on Human factors in computing systems.Florence,Italy，April O5-10,New York: ACM, 2008.   \n18Morris M R,Horvitz E.SearchTogether:an interface for collaborative web search[C]. In: Proceedings of the 20th annual ACM symposium on User interface software and technology.Newport,Rhode Island, USA,New York:ACM,2007: 3-12.   \n19Morris M R,Horvitz E.SearchTogether:an interface for collaborative web search[C]. In: Proceedings of the 2Oth annual ACM symposium on User interface software and technology.Newport,Rhode Island,USA,October O7-10, New York: ACM, 2007.   \n20Golovchinsky G,Adcock J,Pickens J,et al. Cerchiamo: a collaborative exploratory search tool [EB/OL]. http://www.fxpal.com/publications/FXPAL-PR-08-470.pdf,2009-04-08."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "original_filename": "full_6934.md",
+  "数字图书馆跨媒体检索研究综述": {
+    "context1": "张兴旺1²黄晓斌²",
+    "context2": "(1桂林理工大学图书馆广西541004；²中山大学资讯管理学院广州510006)",
+    "context3": "摘要文章以论文及科研项目为研究对象，对数字图书馆跨媒体检索研究进展及应用情况进行梳理和分析，发现跨媒体检索研究已成为数字图书馆领域的研究热点，研究内容涉及基本概念及系统框架、数据表示问题、语义关联问题、跨媒体检索内容整合技术、应用研究五个方面。",
+    "context4": "关键词数字图书馆跨媒体检索语义关联信息服务",
+    "context5": "Review of D-Library Cross-media Retrieval Studies Zhang Xingwang1.2 Huang Xiaobin1 （Library of Guilin Universityof Technology，Guangxi，541004; School of Information Management,Sun Yat—Sen University， Guangzhou，510006)",
+    "context6": "AbstractThe paper analyzes papersand research projects for the study of digital library research progress and aplicationof CMR，discovercrossmediaretrieval hasbecomeahottopic inthefieldof digitallibraries，covering basic concepts and research framework data indicate a problem，the problem of semantic asociation，CMR content integration technology，applied research·",
+    "context7": "Keywordsdigital library，cross media retrieval，semantic association，information service",
+    "context8": "近年来，随着互联网和数字图书馆中多媒体资源内容迅猛增长、多媒体类型及结构日趋复杂化，如何有效获取不同类型及结构多媒体数据之间的潜在关联、灵活跨越异构多媒体数据的检索方式逐渐成为数字图书馆领域的热点话题，跨媒体检索（Cross一MediaRetrieval,CMR)概念由此而生。CMR作为新一代革命性信息检索及知识服务模式，其自组织性、底层内容异构特征、高层语义关联等特性，给数字图书馆的信息服务带来巨大挑战与机遇。",
+    "context9": "目前，国内外关于CMR的研究内容主要集中在基础理论、技术应用及实践领域的研究。数字图书馆作为CMR的主要应用领域之一，该领域对CMR研究应用现状及研究进展如何？它所关注的研究主题又有哪些？有效梳理和分析这些问题，有利于深入挖掘CMR的相关研究与应用，推动新型数字图书馆理论研究与应用实践的发展。本文将对国内外信息服务领域",
+    "context10": "CMR研究进展及应用情况进行系统地梳理和分析，以期为我国CMR的基础理论研究及其在数字图书馆领域的研究与实践提供借鉴。"
+  },
+  "1文献统计": {
+    "context1": "为了客观反映国内外CMR应用现状及研究进展，本文以研究论文与科研项目为研究对象，进行相应研究成果的统计、比较与分析。"
+  },
+  "1.1研究论文统计": {
+    "context1": "(1)国内研究论文统计。国内研究论文均来自于“中国期刊全文数据库”(CNKI)，通过篇名组合检索的方式来确定数据源，以“跨媒体”并含“检索”为检索词进行跨库检索，运用“模糊”匹配，不限定CNKI数据库范围，共检索到24条文献（检索日期截止到2013年10 月5日)，其中，博士论文2篇，硕士论文4篇,期刊论文18篇。",
+    "context2": "(2)国外研究论文统计。国外论文主要来自于 SCI与 SSCI、Springer及IEEE,通过title组合检索的方式来确定数据源，以\"cross\"and\"media\"and\"retrieval”为检索词，分别检索得出23篇、22篇及16篇(检索日期截止到 2013年10月5日)。剔除与主题联系不密切、一稿多发或重复检索出来的研究论文，共得到48篇文献。",
+    "context3": "国内外文章按年代统计，结果如图1所示。",
+    "context4": "![](images/2a7fe913d90fd1d650f4b0b2bdb1c2d1d4202a347fcf7d37b785d4f9658eab97.jpg)  \n图1国内外CMR研究论文年度分布图",
+    "context5": "国内外信息科学领域对CMR的研究分别始于2005 年和 2004年。其中国外第一篇关于CMR论文是Lux与 Granitzer等合著的 Cross Media Retrieval in Knoul-edgeDiscovery,该文首次详细阐述了CMR的概念。国内首次提出CMR的论文是复旦大学薛向阳的《基于内容的多媒体和跨媒体信息检索技术》，该文简要分析了多媒体信息检索、跨媒体信息检索的关系与区别，提出了CMIR的基本概念[,并对CMU 大学承担的 Informedia、Cambridge 大学承担的VMR(Video Mail Re-trieval）及 MDR（Multimedia Document Retrieval）、IBM的QBIC和CueViedo、Compaq 的 SpeechBot 等进行了介绍。需指出，尽管该文提出了CMIR概念，但描述并不详细，且对多媒体信息检索与跨媒体信息检索的区别未做具体区分，所描述的CMIR应用案例并不完全是真正意义上的CMR系统。",
+    "context6": "随着CMR概念于20O4年被明确提出后，相关研究逐渐兴起，从图1可知，表面上来看，国内外对于CMR研究的关注度与产出有着较大的出入。但经笔者仔细考证，发现在国外发表的48 篇文献中，其中有将近30篇是国内作者所著，由此可见，尽管国外较早提出这一概念及技术，但国内CMR研究成果已远远超过国外。经笔者仔细考证，在统计的有署名的关于CMR的48篇外文、24篇中文的研究文献中共有145位作者(包含第一作者和其他作者)，其中发表论文总数超过3篇以上的重要作者共7人，占作者总数的$9 . 7 2 \\%$ ，发表论文最多的是浙江大学的庄越挺，共发表了6篇中文、8篇英文文献，且仅有的2篇关于CMR研究的博士论文也有1篇为其指导的博士生撰写。其他重要作者如张鸿、吴飞、杨易等也均来自于浙江大学,在CMR研究领域的发文量也接近1O篇。因此，从论文总量、质量及影响力等要素来判断，可在一定程度上认为在CMR研究领域浙江大学的研究水平在国内外处于前列，而庄越挺、潘云鹤、张鸿等是国内CMR研究领域的代表人物，庄越挺教授及潘云鹤研究团队是国内外关于CMR 研究的代表性团队之一。",
+    "context7": "总体来看，国内外信息科学、数字图书馆领域关于对CMR的研究呈增长趋势，并具有类似特征：均经历了CMR研究的孕育期和萌芽期，且正在向发展期挺进，但距离成熟期尚有较大一段距离。这也说明了CMR研究正在受到信息科学、数字图书馆领域的高度重视并成为研究热点。"
+  },
+  "1.2国家级科研项目统计": {
+    "context1": "经笔者考证，发现近十年来国家社会科学基金、教育部人文社科基金对CMR的研究项目极少，以“跨媒体”、“跨媒体检索”或“跨媒体分析”等关键词为主题词的立项项目几乎没有，而",
+    "context2": "以“多媒体”、“多媒体检索”等研究主题的立项项目也不多，故本小节主要以国家自然科学基金、国家“973”及“863”计划项目为数据源，对我国以CMR为主题进行相关研究的国家级科研项目历年立项情况进行搜集、整理、统计与分析。",
+    "context3": "(1)国家自然科学基金立项统计。以国家自然科学基金委官方查询网站为数据源，以“跨媒体”为关键词对项目名称进行检索，同时检索项目摘要及主题词，对立项情况进行统计与分析，共检索到48条数据。统计结果如图2所示。",
+    "context4": "据调查发现，最早获得国家自然科学基金立项的关于跨媒体相关研究的课题始于 2002 年，是由北京理工大学廖宁放教授主持的“色貌模型的人工神经网络实现方法研究”。严格意义上来讲，该课题所阐述的“跨媒体”与CMR有着较大区别。 $2 0 0 2 { \\sim } 2 0 0 4$ 年,关于跨媒体的研究项目几乎没有； $2 0 0 5 { \\sim } 2 0 0 9$ 年，相关项目较少；从2011年开始，批准立项的项目数量由2010年的4项迅速增至10项，并在随后两年分别获得立项9项和13项。最早将\"跨媒体检索\"作为主要研究内容并获立项的是潘云鹤与薛向阳，二人就同一个课题名称“跨媒体海量信息的综合检索与智能技术的研究”同时获得资助。关于CMR研究获立项最多的单位主要有中科院自动化研究所和浙江大学，分别获得7项、5项资助，分别占总立项数的 $1 4 . 5 8 \\%$ 、 $1 0 . 4 2 \\%$ 。研究的主题词出现频率最高的有跨媒体、跨媒体分析、数据挖掘、语义理解及跨媒体检索等。",
+    "context5": "根据以上分析，发现国内CMR研究经历了萌芽期、发展期、成熟期三个阶段。其中，萌芽期始于 2002年，在 $2 0 0 2 { \\sim } 2 0 0 4$ 年期间，始终未能形成较为有效的研究体系及稳定的研究团队，但引起了国内部分学者的关注； $2 0 0 5 { \\sim } 2 0 1 0$ 年是国内CMR研究的发展期，始于潘云鹤、薛向阳所率领的研究团队，这一阶段呈现出稳定、有序的发展状态；2011年至今是国内CMR研究的成熟期，无论是获得资助的CMR研究项目的数量、资助金额，还是研究深度都实现了跨越性增长。",
+    "context6": "![](images/83de12d62e4eda80018b3872b7a30e41c5a6c1098999314b1ed0d77ee4bb570d.jpg)  \n图2(a）立项年度分布情况",
+    "context7": "![](images/c10c49eafec5dacd19dda8d7cab0dfa2cdd7845fc854466b4fc1abcb22cce8d6.jpg)  \n图2(b）立项项目主题词 $\\mathrm { T o p ^ { 1 0 } }$",
+    "context8": "(2)国家“973\"及“863\"计划立项项目统计。自2005年国内开始CMR研究以来，国家“973”、“863”计划很快做出了回应，迅速在2006年备选项目征集指南中确立了明确的研究方向，重点资助了施水才的“跨媒体搜索关键技术研究及服务产品开发”、王飞跃的“基于知识的跨媒体搜索关键技术研究及垂直搜索服务产品开发”及庄越挺的“跨媒体海量信息融合与智能内容搜索引擎产品开发”等项目，正式拉开了我国CMR研究的大幕。随后几年，我国CMR研究也基本围绕这几个大的研究方向、研究内容展开。从2006年国家“973”“863\"计划所资助的关于CMR主题研究的项目来看，在申请、立项及开题答辩过程中其所描述的概念均以“跨媒体搜索”为主，但从随后这几个课题组所发布的研究论文及研究报告来看，在课题具体实施、应用及实践推广等方面，概念描述均偏重于“跨媒体检索”，且大部分以“跨媒体检索”为主，较少出现“跨媒体搜索”这一描述。但从课题研究的本质及应用推广的过程来看，二者并无大的区别，且所需要表达的内容与意思大体一致。",
+    "context9": "通过以上对CMR主题研究的文献和科研项目的整理、统计与分析，可以发现，跨媒体已经引起了我国信息科学领域的高度关注，并得到了国家级科研项目的大力支持。然而遗憾的是，图书情报学领域并未对此引起足够的重视，很少将CMR与数字图书馆的理论与应用结合起来，也很少出现具有一定代表性的研究成果，而以CMR为主题的数字图书馆科研项目获得国家级科研项目资助的也不多。"
+  },
+  "2主题研究": {
+    "context1": "CMR研究属于跨学科研究领域，它涉及数字图书馆、语义计算、数据挖掘及知识科学等领域的研究，所处理的媒体类型可分为文本、听觉、视觉及复合对象等，涉及的媒体内容包括文本、图像、音频、视频、3D模型等。根据以上统计与分析，可以按照数字图书馆CMR的业务流程走向，将已有CMR研究内容归纳为五大部分：基本概念及系统框架、数据表示问题、语义关联问题、CMR内容整合技术、应用研究。"
+  },
+  "2.1CMR基础概念及系统框架研究": {
+    "context1": "数字图书馆跨媒体数据的底层内容异构、高层语义关联等特征对CMR基础理论研究提出了更高要求。首先,检索对象研究方面，要考虑到用户能够使用自然语言、单个多媒体实例或异构多媒体实例组合作为CMR的检索对象；其次，理论创新方面，要求能够弥补现有各类多媒体对象单模态检索所得结果彼此断裂的现状；然后，理论拓展方面，要求能提供更深层次的知识服务。",
+    "context2": "目前，关于CMR的表述方式还未统一，其他常用的表述方式还有跨媒体信息检索（Cross一Media Information Retrieval，CMIR)、跨媒体搜索或搜索引擎（Cross一Media SearchEngine，CMSE)、跨媒体图像检索（Cross—Media Image Retrieval,CMIRII）、跨媒体元搜索(Cross一Media Meta Search,CMMS)等。大部分学者还是采用了“跨媒体检索”这一说法，尽管国内外学者基本认可跨媒体检索这一术语，但对其定义还没有一个科学统一的界定。明均仁等认为,CMR是指综合利用各种媒体的特征和表现形式，对相同或相关信息采用不同的媒体表达形式进行处理，从而实现数字信息资源的高效存储、精确检索和实时共享。Zhou Y.P.等认为，CMR是在跨媒体环境下，用户提交一种媒体对象作为查询示例，检索得出相同类型的相似对象，以及不同类型的不同媒体对象的新型检索方式4。相比较而言，张鸿给出的定义最为精确和简洁，亦是笔者最为推崇的阐述方式，CMR是指“可以实现不同类型之间灵活跨越的多媒体检索方式”[5]。",
+    "context3": "关于CMR系统框架的研究，根据研究视角及应用领域的不同，学者们有着不同的原则及方法。从理论探讨角度，蔡平等设计了一种包括跨媒体搜索引擎、跨媒体综合处理、数据存储和用户接口等模块的CMIR 系统架构[；HanP.C·等设计了一种包括互联网信息搜集、跨媒体索引及跨媒体检索等在内的三层CMR 系统框架。从系统实现角度，胡涛等针对如何在相似多媒体之间进行有效关联，提出一种新的CMR方法，设计了一种基于Ontology 的CMR 系统框架[8]。Zhang H·等针对多学科数字图书馆CMR应用的需求，提出一种基于网格技术的数字图书馆普适化CMR系统框架。从应用推广方面，訾玲玲等就如何实现突发时间应急管理领域跨媒体数据的精准搜索，提出了突发事件跨媒体信息检索系统（ECIR)，并详细阐述系统架构、关键技术和具体实现[0]。XuD.等针对图像、多边形模型及点云三种异构跨媒体资源进行研究，提出一种针对这三种异构跨媒体资源的CMR方法,并设计了相应的系统框架[]。",
+    "context4": "目前国际上还没有统一的、较为成熟的CMR系统框架和技术，尽管一些学者先后针对CMR 基本概念及系统框架进行了一系列研究，但在具体应用领域，特别是数字图书馆领域，必须结合其自身CMR技术实施及应用实践的业务需求，形成具备图书馆学学科特色及数字图书馆业务特征的CMR理论及应用的研究体系。"
+  },
+  "2.2跨媒体资源数据表示问题研究": {
+    "context1": "数字图书馆CMR交互环境中，跨媒体资源以底层内容异构特征、高层语义关联、多模态为显著特点,CMR以其多模态融合、关联推理与深度挖掘等理论及技术组合，为有效地消除跨媒体内容及语义鸿沟，提供了可靠的解决方法与技术环境支撑。而跨媒体资源数据表示问题则是解决以上所有问题的关键及首要目标。",
+    "context2": "显而易见，对于CMR而言，如何在不同类型多媒体资源之间建立一种科学、合理的数据表示机制，并建立一种统一的、能反映不同多媒体对象之间的潜在相关性的跨媒体数据表示模型是首先需要解决的问题。有研究者认为将多模态、多媒体数据采用统一的数据表示方式是实现CMR的首要条件，并提出采用跨媒体关联图的方式来统一表述跨媒体资源[2]。另有研究者积极探讨Web跨媒体资源的数据表示问题。例如，CilibrasiR·L.等对互联网环境中的图像、视频数据的跨媒体表示方法进行研究，提出通过视觉文法(Grammar)、单词（Words）等方式，来对Web环境中图像及视频数据的底层内容特征进行描述[3]。Naphade",
+    "context3": "M·R·、SnoekC．G．M.等则考虑到异构跨媒体资源之间存在着交叉关联，认为在跨媒体资源数据表示过程中对跨媒体资源彼此之间的关联关系进行有效识别、分析是非常有必要的[14-15]。此外,针对部分跨媒体资源之间的数据表示与建模机制与模型也得到深入探讨及研究。如，张鸿以图像与音频为例，解决了这两种跨媒体资源之间存在的内容异构性问题，提出图像和音频跨媒体资源的内容统一表示方式和模型[5]。Julien A·P.等以文本与图像为例，对文本与图像等跨媒体资源表示问题进行了分析[6]。",
+    "context4": "作为信息检索领域新一代的嵌入式协作知识交互与知识服务模式的移动视觉搜索（MobileVisualSearch，MVS),近年来也日益受到关注，并在MVS理论与应用研究过程中，逐渐引入CMR理论与相关技术，并且已将跨媒体资源数据表示问题作为其基础性理论问题之一。实践中，Google的Goggles、Amazon 的Snaptell、加州大学伯克利分校和戴维斯分校创办的IQEngines(oMoby）、百度的MVS系统等都是跨媒体资源数据表示机制与建模成功应用的典范。"
+  },
+  "2.3跨媒体语义关联问题研究": {
+    "context1": "事实上，从研究内容的大的方向来看，跨媒体资源数据表示问题的研究，包含了跨媒体资源语义特征提取与描述、语义关联推理与描述及语义相关性与一致性建模等问题。但由于已有研究的侧重点及立足点不同，在进行描述时，仍将它们单独分析、描述。为了更准确地进行CMR过程，就需要根据异构多媒体对象的底层内容特征，深入挖掘、学习异构多媒体资源之间的语义关联，找到异构多媒体资源底层内容特征与高层语义之间的映射关系。",
+    "context2": "目前，有关跨媒体语义关联问题的研究主要集中在语义特征提取与描述、语义内容挖掘、语义关联推理及建模、多模态信息融合等方面。关于跨媒体语义特征提取与描述的研究，DeclerckT.等为了给图像、视频等异构多媒体资源提供语义标注和语义索引，针对特定事件类型的音视频(如运动、音轨等)语义特征，提出一种基于本体的语义特征提取方法。关于跨媒体语义内容挖掘的研究，ZhangH·等认为跨媒体潜在语义挖掘与语义相关性评估是CMR最具挑战性问题之一，并提出一种基于稀疏典型（Sparse Canonical）相关性分析与关联反馈的跨媒体语义挖掘方法[8]。ZhuangY.T.等针对跨媒体资源异构多模态特征，提出一种直推式学习（transductive learning）的异构多媒体语义关联挖掘的方法[9。关于跨媒体语义关联推理及语义关联建模的研究，胡涛等针对如何在异构跨媒体之间进行有效关联，描述跨媒体的相似性等问题，提出一种基于Ontology 的跨媒体检索方法。关于跨媒体多模态信息融合的研究，AxenoloulosA·等提出了一种基于多模态信息融合和关联反馈技术的多媒",
+    "context3": "体检索的优化方法 [20] 。",
+    "context4": "以上研究揭示，关于跨媒体语义关联的一系列问题的研究，是CMR理论与应用研究的最主要挑战之一。对跨媒体语义关联问题的研究，从技术角度讨论图像、音频与视频的语义关联问题的研究较多，文本、3D(或称多维)模型等的语义关联问题研究较少。究其原因，本文认为主要有三个方面的原因：首先，关于文本与前三者之间的相关性一直都非常密切，在早期单一模态下的多媒体检索模式，也大多与文本密切相关，使得文本与前三者之间的跨媒体语义关联问题的解决难度较小，因此，在CMR 前期研究过程中，攻克难点、重点问题就成为这一阶段研究的重心。其次，3D模型的相关技术一直都在不断进化，且其结构、类型及内容等较之文本、图像、音频、视频等通用性多媒体资源，更为复杂。最后，就应用面而言，文本、图像、音频、视频较之于3D模型更为普及，作为CMR检索对象的服务需求更加迫切。"
+  },
+  "2.4CMR 内容整合技术研究": {
+    "context1": "数字图书馆CMR的主要目的是获取服务用户所需要的不同类型的信息资源，主要手段就是内容整合技术。随着移动互联网、大数据及云计算等信息技术的飞速发展，包括文本、图像、音视频、Blog、RSS 及微博等异构多媒体资源，以及数字图书馆中信息资源的用户评价、浏览、下载及引用等交互信息，就成为信息检索领域亟须吸收进来的检索源，因此，如何将其融入到CMR体系中，使CMR体系能够从不同角度和侧面满足用户跨媒体信息服务需求，就成为CMR系统需要考虑的主要问题之一。前面三小节主要描述的是如何从大规模跨媒体资源中找出用户所需要的多媒体资源，但通过CMR得出的是跨媒体资源集合，且杂乱无序、随机存储，此时，就需要CMR内容整合技术来对CMR 结果进行建索引、排序、生成摘要及主题建模等，并通过相关反馈方法及评估手段，提高CMR质量。有效学习、理解用户跨媒体服务需求是CMR内容整合的前提条件，用户以文本、图像、音视频及3D模型等跨媒体实例来表示其个性化跨媒体服务需求，CMR体系就必须要在充分学习、理解用户跨媒体服务意图。从已有研究来看，跨媒体资源的问答式检索意图的学习、理解方法是一种比较有效的手段。",
+    "context2": "CMR内容整合技术的研究需要通过典型相关性学习、迁移学习(Transfer Learning)及跨域学习(Cross一DomainLearning)等基础理论与方法，深入挖掘跨媒体资源之间所存在的高层语义关联特征，建立跨媒体资源之间的关联，从而建立高效、便捷的跨媒体索引机制。庄毅等针对海量跨媒体检索提出了一种集成的统一索引结构——Cindex[21]，在处理 Web 多媒体文档方面，有着不错的效果。CMR 得到杂乱无序、随机存储的跨媒体资源集合之后，就需要通过跨媒体排序方法来对其进行排序。目前，较为典型的有 $\\mathbb { W } \\mathrm { u } \\mathrm { ~ F ~ }$ ，等提出的基于双向结构学习和运行模型分解的跨媒体排序方法[22]Yanq Y.等提出的基于半监督的跨媒体排序方法[23]",
+    "context3": "跨媒体内容整合的目的是为了应用，通过文本、图像、音视频、Blog、RSS及微博等异构多媒体资源，以及数字图书馆中信息资源的用户评价、浏览、下载及引用等交互信息的有效整合，才能按照数字图书馆中信息资源的摘要、主题及演化进程、研究进展及学术发展趋势等不同粒度对重点、热点、难点话题及重大学术交流、协作及知识服务进行有效的组织、表示及维护。"
+  },
+  "2.5CMR特定领域的应用研究": {
+    "context1": "随着CMR基础理论与应用技术研究的深入，针对海量跨媒体智能处理、检索技术系统的实践研究也逐渐发展起来，出现了许多CMR原型系统及应用示范平台。基于此，国内外研究者针对不同应用领域探讨了各类型CMR系统的规划、设计与实现。",
+    "context2": "面对移动Web环境下多媒体资源的独特呈现方式，范欣研究了针对移动设备的跨媒体网络信息检索及自适应信息现实方案[24，还出现了麻省理工学院“基于图片的问答系统”、新加坡国立大学的“多媒体问答系统”、欧洲的I一Search项目等经典CMR原型系统。而针对移动Web 环境下用户需求的\"移动交互、情境感知及自适应”等特点，也出现了移动搜索、移动搜索系统及移动CMR等概念、模式及系统。",
+    "context3": "在应用方面，最受关注的是Web环境下数字图书馆中跨媒体资源的综合检索与智能处理原型系统。张鸿设计了一种跨媒体海量信息的综合检索与智能技术系统，并以大型数字图书馆项目CADAL(ChinaAmericaDigital Academic Library）为应用测试平台，将CMR 相关技术在CADAL平台上进行了实现[5，并对CADAL原型系统中的个性化CMR功能、框架结构及主要算法等进行了介绍。在突发事件信息管理、食品安全管理、医学信息管理等特定领域，相应CMR原型系统的研究得到了足够的关注，相关研究也呈现出对应特定领域的领域特征。如訾玲玲等提出的突发事件跨媒体信息检索系统（ECIR）[10、 $\\mathrm { H a n P }$ .C．等设计的食品安全CMR原型系统。而在物业管理、旅游管理等领域，也有研究者进行了研究，如张凯从物业管理安全角度，设计并开发了小区安全登记及报警系统[25],而基于语义的CMR子系统是重要模块。杜军平等提出开展面向智慧旅游的跨媒体大数据智能分析与处理的研究 [26] 。",
+    "context4": "这些特定领域CMR的应用研究，无疑具有重要的参考和借鉴价值。尤其是中美百万册数字图书馆(CADAL)项目的实施与推广，更是开创了国内数字图书馆领域CMR理论与应用研究的先河。但颇为遗憾的是，相应的CMR研究成果及实践经验并未被国内图书馆界所熟知。"
+  },
+  "3结语": {
+    "context1": "CMR已成为数字图书馆领域关注的一个前沿话题。通过对CMR研究成果的系统梳理发现,CMR研究关注较多的是跨媒体数据表示问题、语义挖掘与关联推理、检索技术与内容整合等，同时，研究、规划、设计与实现特定领域的CMR系统、信息管理系统也是研究者们非常关注的问题。研究者们所研究的CMR 应用领域也非常广泛，涵盖了高校、企业、政府等机构，教育、医学、房地产及电子商务等行业，数字图书馆、突发事件管理、食品安全管理及旅游管理等学科领域。此外，一直以来，国内外已有关于CMR研究主要集中在自然科学领域，但近年来，CMR研究也引起了人文社会科学领域的重视，对应的研究成果也越来越多。从图书馆学情报学和数字图书馆的视角来看，作为新一代革命性信息检索及知识服务模式，CMR必然会取代现有信息检索工具及模式，成为大数据时代数字图书馆知识服务的最锋利的“刀刃”。"
+  },
+  "参考文献": {
+    "context1": "[1]Lux M， Granitzer M, Kienreich W,et al. Cross media retrieval in knowledge discoveryJ]·Lecture Notes in Aritificial Intelligence, 2004(3336):343—352.   \n［2］薛向阳·基于内容的多媒体和跨媒体信息检索技术[].世 界科学,2005(12):21—22.   \n［3］明均仁,何超·基于语义关联挖掘的数字图书馆跨媒体 检索方法研究[j].图书情报工作,2013,57(7):101—105.   \n[4] Zhou YP，Hu J， Du JP.Cross media topic analysis and information retrieval[C].Proceeding of $\\operatorname { \\mathrm { { 9 t h } } }$ International Confer ence on Fuzzy System and Knowledge Discovery· Sichuan，2012: 1211—1215.   \n[5］张鸿·基于相关性挖掘的跨媒体检索研究[D].浙江:浙 江大学,2007.   \n［6］蔡平,王志强,傅向华·基于语义的跨媒体信息检索技术 研究[J].微电子学与计算机,2010,27(3):102—105.   \n[7]Han PC，Du JP， LeeJ M. The research on cross media information retrieval system based on food safety emergencies[c]. Proceeding of the 1Oth World Congress Inteligent Control and Automation:Beijing,20l2:706—710.   \n［8］胡涛,武港山,任桐炜,等.基于Ontology 的跨媒体检索技 术[j]·计算机工程,2009,35(8):266—268.   \n[9] Zhang H, Zhuang YT,WuF.A grid-based framework for pervasive crossmedia retrievalC].Proceeding of 1 st Inter national Symposium on Pervasive Computing and Applications · Urumqi,2006:183—188.   \n[10] 訾玲玲,杜军平·基于突发事件的跨媒体信息检索系统的 研究[J].计算机仿真,2012,29(6):16—19,84.   \n[11l] XuD，HuP，LiHHomogeneous deseriptionfor heterogeneous crossmedia resources [C]. Proceeding of Chinese Conference on Pattern Recognition·Beijing，2OO8:1—6.   \n[12]张鸿,吴飞,庄越挺·跨媒体相关性推理与检索研究[]. 计算机研究与发展,2008,45(5):869—876.   \n[13]Cilibrasi RL Vitanyi PMB.The Google similarity distane]. IEEE Transactions on Knowledge and Data Engineering,2007,19 (3):370-383.   \n[14]Naphade MR，Kristjansson T,Frey B，etal.Probabilistic multimedia objects （multijects）:Anovel approach to video indexing andretrieval inmultimediasystemsC].Proceeding of 1998Inteaifereoeres 1998: 536—540.   \n[15]Snoek CG, Woring M.Multimedia eventbased video indexing usingtime intervals［J].IEEE Transactionon Multime dia，2005,7(4):638-647.   \n[16]JuienAP，Stephane C，GabrieaCLeveragingimageetand cross media similarities for diversity focused multimedia retrieval[J].The Information Retrieval Series ImageCLEF,201O (32):315-342.   \n[17]Declerck T，BuitelarP，Nemrava J，et al.Towardscross media feature extraction[C].Proceedings of Multimedia Inform ation Extraction （AAAI Fall Symposium $^ \\prime \\ast$ Arlington，Virginia, USA,2008:41—46.   \n[18]Zhang H,Liu X M.Crossmedia semantis mining basedon sparse canonical correlation analysis and relevance feedback[j]. Advances in Multimedia Information Processing PCM 2012, Lecture Notes in Computer Science,2O12(7674) : 759—768。   \n[19]Zhuang YT,YangY，WuF.Mngsemanticoelao heterogeneous multimedia data for crossmedia retrieval[J]. IEEE Transactions on Multimedia，2008,10(2): 221—229.   \n[20]AxenopouosA，ManolopououS，DarasPOtigutim edia retrieval using multimodal fusion and relevance feedback techniques[c]. Proceedings of $1 8 \\mathrm { { t h } }$ International Conference , MMM2012. Klagenfurt，Austria，2O12: 716—727.   \n[21]庄毅,庄越挺,吴飞·一种支持海量跨媒体检索的集成 索引结构[J]·软件学报,2008,19(10):2667—2680.   \n[22]Wu F,Lu XY，Zhang Yet al. Crossmedia semantic repr sentationviabidirectionallearning torankCc].Procedinsof the 2O13 ACM International Conference on Multimedia $\\dots$ Dallas， Texas，USA，2013.   \n[23]Yang Y，NieFP， Xu D,et al.Amultimedia etrievalframework based on semi supervised ranking and relevance feedback[j]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2012,34(4):723-742.   \n[24]范欣·针对移动设备的跨媒体网络信息检索及自适应 信息显示研究[D].安徽:中国科学技术大学,2007.   \n[25]张凯·基于跨媒体检索的网络报警的研究与实现[D].吉 林:吉林大学,2012.   \n[26]杜军平，面向智慧旅游的跨媒体大数据智能分析与处理 [EB/OL].[2013-10-21].ttp://ww.medsci. $\\mathbf { c n } / \\mathbf { s c i } / \\mathbf { n s }$ $\\mathrm { f c } \\mathrm { \\bf { s h o w } } \\cdot \\mathrm { a s p q } ^ { = } 0 3 \\mathrm { { \\bf { c } } } 2 2 8 0 4 5 6 \\mathrm { { \\bf { c } } } 0 .$",
+    "context2": "[作者简介]张兴旺，男，1982年生，桂林理工大学图书馆馆员，中山大学资讯管理学院博士生。",
+    "context3": "黄晓斌，男，1963年生，中山大学资讯管理学院教授，博士生导师。收稿日期：2014—02—12"
+  }
+}

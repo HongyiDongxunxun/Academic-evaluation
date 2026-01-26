@@ -1,0 +1,82 @@
+{
+  "original_filename": "full_503.md",
+  "·综 述·": "",
+  "Web文本情感分析研究综述": {
+    "context1": "李光敏许新山熊旭辉（湖北师范学院计算机科学技术学院，湖北黄石435000）",
+    "context2": "[摘要]随着Web2（的迅速发展，互联网成为人们表达观点、抒发情感的重要工具，如何有效地从Web文本中提取、归纳出用户的情感观点是研究者所面临的重要问题。本文首先提出对日益增多的Web文本进行情感分析的必要性。然后从文本主客观性分类、情感极性分类和主题及观点持有者抽取等方面介绍文本情感分析在国内外的研究进展；最后总结出今后需深入研究的问题。",
+    "context3": "〔关键词]情感分析；主客观分类；情感极性；情感信息抽取",
+    "context4": "DOI:10.3969/j.issn.1008－0821.2014.05.037",
+    "context5": "[中图分类号〕TP18〔文献标识码]A〔文章编号〕1008－0821（2014）05－0173－04"
+  },
+  "An Overview of Research on Web Text Sentiment Analysis": {
+    "context1": "Li Guangmin Xu Xinshan Xiong Xuhui (College of Computer Science and Technology，Hubei Normal University，Huangshi 435Ooo，China)",
+    "context2": "[Abstract]With the rapid developmentof Web2Otechnology，Internet has becomean important toolfor people to express their opinion and emotion.Itis a challenge for researchers how to extract and summarize user opinions expresed in web text.Firstly，this paper presented the necesityof sentiment analysison the growing Web text.Then it introduced theresearch progressbothat homeandabroadof text sentiment analysis from the prospectof emotional informationclassificationand informationextraction.Finally，it summarized the sentiment analysis aplication status，existing problems and deficiencies of it.",
+    "context3": "[Key words] sentiment analysis；subjective classification；sentiment polarity； information extraction",
+    "context4": "随着互联网的飞速发展，Web文本成为交流情感、发表观点的主要载体和热点话题的信息源。用户通过社会化媒体（论坛、博客、微博）分享对所购商品的使用感受、新上映电影的评论、当前热点新闻的个人看法等，这些言论往往包含有喜、怒、哀、乐、肯定、否定、中立等个人丰富的情感和观点。",
+    "context5": "正是这些包含丰富情感的Web评论文本的涌现，一方面帮助生产厂商通过网络口碑（ElectronicWord一of一mouth）了解产品优势和不足，以改进产品设计和服务，调整广告投放策略，获得市场竞争优势；另一方面帮助消费者了解产品性能，缩短购买决策时间。如果仅靠手工对这些日益增长的海量信息进行归纳、分类，显然是不现实的。因此结合信息检索、自然语言处理、机器学习等领域知识对非结"
+  },
+  "构化的文本进行提取和分类的情感分析技术（Sentiment A-nalysis）便应运而生。": "",
+  "1文本情感分类": {
+    "context1": "广义上讲，文本信息主要用来描述客观性事实和表达主观性观点[1]，当前的文本信息处理大多通过关键词抽取文本描述中特定事件发生的时间、地点、人物、属性等客观信息。文本情感分类则先对文本进行主客观分类，然后对主观性文本中的情感信息划分极性。极性划分是指对主观性文本进行情感极性的识别，并分别标注为正面（Positive）的肯定、负面（Negative）的否定和中性（Neutral），即完成情感信息分类的第二大任务。"
+  },
+  "1.1主客观分类国内外研究现状": {
+    "context1": "Wiebe2等人较早将形容词、副词等和标点及句子位置作为特征，设计了朴素贝叶斯（Naive Bayes）分类器，采用10折交叉验证的测试方法，并通过实验证明平均分类准确率达到 $81 . 5 \\%$ 。Wiebe[3]又在此基础上加入词性和基于词典的语义词两类特征项，使得分类效果提升明显。Ortega[4]通过无监督粗粒度的词义消岐方式来区分每个词的客观、主观、强主观性用法，从而完成句子级的主客观分类。",
+    "context2": "由于中文表达的复杂性和特殊性，国内在该方面的研究成果不多。 $\\mathrm { Y a o } ^ { [ 5 ] }$ 较早通过预选特征项（情感形容词、第一或第二人称代词、标点符号、感叹词、动词、数字和日期），使用Weka中多种分类算法进行性能测试，最后采用6种稳定特征项和用于支持向量分类的连续最小优化算法 (SMO)能达到最高F度量为 $9 3 . 8 \\%$ 的分类效果。 $\\mathrm { W a n g ^ { [ 6 ] } }$ 通过对比实验分析了上下文信息对主客观分类的影响。",
+    "context3": "从国内外研究现状来看，通过分类器和特征项选取是完成文本主客观分类的主要方法，那么今后采用更深层、更具针对性的特征项更能提高分类效果。"
+  },
+  "1.2主观性文本中的情感极性分类研究": {
+    "context1": "主观性文本中的情感极性分类目前主要有两种研究思路：基于情感知识的情感词典建立[和基于机器学习的特征选取。"
+  },
+  "1.21基于情感知识": {
+    "context1": "Tong[8]通过人工抽取与影评相关的词汇（great acting、unevenediting）进行情感极性（positive或negative）标记后建立专门的情感词典。 $\\mathrm { H u } ^ { [ 7 ] }$ 通过使用已标注极性的形容词，结合WordNet中词间的同义、近义关系来判断新词的情感极性的方法来判断主观性文本的情感极性，该方法解决了Tong建立的情感词典只针对特定领域（影评）的问题。2008年Bitext[9团队不使用统计学知识而通过计算语言学（ComputationalLinguistics）实现了6种语言的短语级文本的情感极性分类，并公布了他们的API。",
+    "context2": "中文文本情感极性研究方面，李钝[10]等人从语言学角度出发，分析词典中对词语义定义的特点，采用“情感倾向定义”权重优先的计算方法获得短语中各词的语义倾向度，然后分析短语中各词组合方式的特点，提出中心词概念对各词的倾向性进行计算来识别短语的极性和强度。Meng[1]通过定义关键词类别、建立关键词词库和关键词模板库，设计模板匹配算法和文本褒贬倾向值算法来实现中文文本的情感极性分类。",
+    "context3": "通过情感知识进行文本极性分类主要存在如下问题：（1）该类方法从词汇角度出发，如果文本中含有否定词、双重否定词、转折词、比较词会对句子级和篇章级的情感极性分类造成影响；（2）字典中所选情感词大多是情感特征比较明显的词语（形容词或副词)，但其他词语也含有褒贬情感，如“做人不能太CNN”，“‘延迟退休’让‘以厉养老’，草泥马你何时给老百姓分过房了？”中的“CNN”和“草泥马”暗示负面情感。这类网络新词也增加了情感词典建立的难度。"
+  },
+  "1.2.2基于机器学习算法": {
+    "context1": "基于机器学习算法方式主要使用训练集对统计模型进行训练，最后用训练好的分类器预测新输入文本中的情感极性。",
+    "context2": "Pang[12]使用支持向量机（SVM)、最大熵（ME）和朴素贝叶斯（NB）3种分类器对篇章级的电影评论文本进行分类对比，发现机器学习方法比基于人工标注特征的方法更有效，并且SVM在3种分类器中平均表现最好。Thelwall[13]结合研究用户书写习惯（含感叹号、重复标点符号、单词中字母重复等）实现SentiStrength算法对MySpace评论进行极性分类，实验结果表明正向预测准确率达到 $60 \\%$ ，负向准确率达到 $72 \\%$ 。",
+    "context3": "国内方面， $\\mathrm { L i u ^ { [ 1 4 ] } }$ 提出了基于层叠式CRFs模型的句子褒贬度分析方法能在有效识别句子褒贬度的同时，提高了句子褒贬强度判别的准确度。徐军[15]等人利用朴素贝叶斯和最大熵方法进行新闻及评论语料的情感分类，其准确率最高能达到 $90 \\%$ ，同时选择具有语义倾向的词汇作为特征项、对否定词正确处理和采用二值作为特征项权重能提高分类的准确率。",
+    "context4": "从前人的研究不难看出，使用机器学习算法对于主观性文件进行情感极性分类的关键在于领域语料库的完善程度、特征选取及权重计算方法和分类算法的选择。"
+  },
+  "2情感信息抽取": {
+    "context1": "$\\mathrm { K i m ^ { [ 1 6 ] } }$ 认为情感信息抽取主要从主观性文本中确定主题、观点持有者、陈述和情感以及它们之间的关系，抽取出有价值的情感信息。这一阶段的主要任务有：（1）识别评价对象或主题，如手机产品评论中的产品属性（“外观”，“通话质量\"）或新闻事件中某个话题（“延迟退休\")；（2）识别观点持有者（包括个人、机构)，如“中方对中国驻叙使馆落入炮弹感到震惊，予以强烈谴责”中观点持有者为“中方”。（3）陈述选择，主要针对文本的主客观分类；（4）情感分析，决定主观陈述中的情感极性。其中（3）（4）已在1.1和1.2节中进行综述。"
+  },
+  "21主题抽取": {
+    "context1": "目前主题抽取任务的研究主要归结为如下方法：",
+    "context2": "（1）通过词性标注器查找常见的名词和名词短语，$\\mathrm { H u } ^ { [ 1 7 ] }$ 根据主题与指标词的共现特征来识别常现和非常现的主题，随后Popescu[18]基于如下假设：共现的次数越多的两个词，则它们之间的联系也越大，提出点互信息（Point一wise Mutual Information，PMI）方法提高了 $\\mathrm { H u }$ 算法的精度。",
+    "context3": "（2）分析观点和评价对象之间的关系，Blair一Golden-$\\operatorname { s o h n } ^ { [ 1 9 ] }$ 认为因为同样的情感词可以用来描述或修改不同的评价对象，如果句子中只含情感词而没有常见的评价对象，那就把抽取出距离情感词最近的名词或名词短语做评价对象。如“这家客厅布置得美轮美奂。”“美轮美奂”表示褒义的情感词，距离最近的名词“客厅”就是抽取的评价对象。Stoyanov[2o]通过主题消解（Topic Coreference Resolution）完成抽取。",
+    "context4": "（3）使用监督学习算法，其中最突出的方法是基于序列学习（SequentialLearning)，这类方法需要手工将语料库中的数据标注为主题词和非主题词后进行训练， $\\mathrm { L i ^ { [ 2 1 ] } }$ 合并两种条件随机场变体（Skip—CRF和Tree—CRF）进行主题和观点抽取。其他的方法如 $\\mathrm { Y u } ^ { [ 2 2 ] }$ 通过只标记主题词而不考虑非主题词的单值分类支持向量机（One—class SVM）完成主题抽取。Kovelamudi[23]提出监督式独立的域模型，利用Wikipedia和Web语料来从用户评论中识别产品属性，实验表明F1值达到O.73。"
+  },
+  "2.2观点持有者抽取": {
+    "context1": "$\\mathrm { K i m } ^ { [ 1 6 ] }$ 认为新闻中的观点持有者占有重要的位置，因为它们经常明确表示持有该观点的人或组织，可以借助于命名实体识别技术来获取观点持有者。Choi24]通过条件随机场模型结合选取的各类特征完成这一任务。近年来其他学者对此任务也有所研究，如Elarnaoty[25]基于条件随机场和半监督模式识别技术实现阿拉伯语新闻中的观点持有者识别，Jo-hansson[26]使用含有一系列特征项的支持向量机（SupportVectorMachine）完成观点持有者抽取任务。",
+    "context2": "考虑到观点的表达总是离不开观点持有者这一关系，可以同步完成观点持有者和观点抽取的任务。Bethard27]完成主观句中情感短语抽取后，分析观点和动词的句法关系，最后同步识别出观点持有者。"
+  },
+  "3结束语": {
+    "context1": "本文在研究相关文本情感分析领域文献的基础上，从技术实现角度综述了国内外文本情感分析的发展历程。情感分析这一新兴的研究方向除了取得较为成熟的研究成果外，尚有如下的问题需要深入研究：",
+    "context2": "（1）微博类社交方式导致文本书写的随意性、口语化，如：简写、拼写错误、标点符号错用等情况，这仍是大多情感分析系统面临的挑战。",
+    "context3": "（2）反讽的表达方式，如果不熟悉观点持有者的语言风格，就无法识别出正确的情感极性。如：“你真是太有才了！”需要结合观点持有者所表达的上下文语境来识别该句是褒义还是贬义。",
+    "context4": "（3）产品评论中针对短语级的情感分析，如何对评价对象进行归类问题。如：“电池使用时间”和“电量使用情况”均表示手机产品的同一特性。"
+  },
+  "参考文献": {
+    "context1": "[1]Ansoff H Igor.Managing Strategic Surprise by Response to Weak Sig-nals[J].California ManagementReview，1975，18(2)：21-33.  \n[2]赵小康．弱信号：识别、探测与应对［J]．情报杂志，2010，29(1)：159-163.  \n[3]方微，邵波．基于弱信号分析的企业风险识别［J]．图书情报工作，2009，(14)：80-83.  \n[4]张姝．论片段情报分析法在情报分析中的应用一—以台湾军购案为例[J]．科技情报开发与经济，2008，18（33)：69－71.  \n[5]http://baike.baidu.com/view/1o86645.htm [EB].  \n[6]李桂丽，李健，蒋建军．基于CMM反求工程中的汽车轮毂设计[J]．机械设计与制造，2012，（10)：15—17.  \n[7]王艳．灰色地带中竞争情报的搜集与反竞争情报措施［J]．河南图书馆学刊，2010，30（6)：11-12.  \n[8]许文全，何文学，陈国金．反求工程技术及其应用［J]．铸造，2005，(8)：749-753.  \n[9］王川，刘向阳．基于新产品开发成功因素的情报信息需求分析[J]．情报科学，2008，26（9)：1367—1370.  \n[10］王瑶．论企业技术竞争情报的开展——以产品技术为例［J].图书情报工作，2006，50（12)：66－70.  \n[11］孙丽芝．产业集群与技术集群的互动及协调度分析［J]．工业技术经济，2009，28（1)：122—124.  \n[12]王川，刘向阳．基于新产品开发成功因素的情报信息需求分析[J]．情报科学，2008，26（9)：1367—1370.",
+    "context2": "（本文责任编辑：马卓)"
+  },
+  "[10］李钝，曹付元，曹元大，等．基于短语模式的文本情感分类研究［J]．计算机科学，2008，35（4)：132－134.": {
+    "context1": "[11]MengF-b，Cai $\\mathrm { { L - h } }$ ，Chen B，Wu P.Research on the recognition of text valence [J].Journal of Chinese Computer Systems，2008，28（2007)： $1 - 4$   \n[12]Pang B，Lee L，Vaithyanathan S.Thumbs up? sentiment classification using machine learning techniques [C].Proceedings of theACL $- 0 2$ conference on Empirical methods in natural language processing- Volume 1o，Association for Computational Linguistics，2002：79-86.   \n[13]Thelwall M，Buckley K，Paltoglou G，Cai D，Kappas A. Sentiment strength detection in short informal text [J].Journal of the American Society for Information Science and Technology，2010，61(12)：2544-2558.   \n[14]Liu K，Zhao J. Sentence Sentiment Analysis Based on Cascaded CRFs Model [J]．Journal of Chinese information processing，2008，（1)：123-128."
+  },
+  "[15]徐军，丁宇新，王晓龙．使用机器学习方法进行新闻的情感自动分类[J]．中文信息学报，2007，21（6)：95－100.": {
+    "context1": "[16] $\\mathrm { K i m \\thinspace S ^ { - } M }$ ，Hovy E.Determining the sentiment of opinions [C]．Proceedings of the 2Oth international conference on Computational Linguistics，Association for Computational Linguis",
+    "context2": "tics，2004：1367.   \n[17]Hu M，Liu B. Mining opinion features in customer reviews [C].AAAI，2004：755-760.   \n[18]Popescu $\\mathrm { A } - \\mathrm { M }$ ，Etzioni O. Extracting product features and opinions from reviews [M]． Natural language processing and text mining.Springer，20o7：9-28.   \n[19]Blair-Goldensohn S，Hannan K，McDonald R，Neylon T, Reis G A，Reynar J.Buildinga sentiment summarizer for local service reviews [C].WWW Workshop on NLP in the Information Explosion Era，2008.   \n[20] Stoyanov V，Cardie C. Topic identification for fine-grained opinion analysis [C]．Proceedings of the 22nd International Conference on Computational Linguistics-Volume 1，Association for ComputationalLinguistics，20o8：817-824.   \n[21]Li F，Huang M，Zhu X.Sentiment Analysis with Global Topics and Local Dependency [C]．AAAI，2010.   \n[22]YuJ，Zha $Z - \\mathrm { J }$ ，Wang M，Chua T-S.Aspect Ranking：Identifying Important Product Aspects from Online Consumer Reviews[C]．ACL，Citeseer，2011：1496-1505.   \n[23]Kovelamudi S，Ramalingam S，Sood A，Varma V.Domain"
+  },
+  "（上接第78页）": "",
+  "号信息如下：": {
+    "context1": "（1）竞争对手A的调查问卷中有涉及对市场上没有的  \n产品询问消费者的态度；（2）竞争对手A公司的工程师与高校的教授联合发表  \n关于某一技术的论文；（3）竞争对手A的总经理多次在公开场合发表对本行  \n业趋势的看法；（4）竞争对手B的产品小幅度降价；（5）竞争对手C正在招聘销售人员；（6）本企业的产品市场份额有所下降。",
+    "context2": "分析人员将这些弱信号碎片与数据库的存储的信息进行比对，发现：竞争对手B、C的行动与新品研发关系不大，但是竞争对手A的做法与数据库存储的信息很相似。通过进一步的研究，分析人员得到的结论如下：A公司有比较大的可能性正在进行产品研发，而且很可能目前只处在基础性研究阶段，但是能否进入应用性研究还需要继续观察，所以情报收集人员应该重点关注A公司在专利申请、研发人员招聘方面的举动。"
+  },
+  "4结语": {
+    "context1": "传统的弱信号分析方法采用正向思维的分析方式，使得对于弱信号的分析很难开展，大大降低了弱信号辅助决策的作用。为此，笔者尝试采用反求工程的思路，对一个事件进行“反求”，了解事件在孕育、最初生成时释放的弱信号，然后利用这些已知弱信号对收集的信息进行筛选，从而进行事件的预测。本文通过分析产品开发过程中可能",
+    "context2": "Independent Model for Product Attribute Extraction from User Reviews using Wikipedia [C]．IJCNLP，2011： $1 4 0 8 - 1 4 1 2$   \n[24]Choi Y，Cardie C，Riloff E，Patwardhan S.Identifying sources of opinions with conditional random fields and extraction patterns [C]. Proceedings of the conference on Human Language Technology and Empirical Methods in Natural Language Processing，Association for Computational Linguistics，2005：355-362.   \n[25]Elarnaoty M，AbdelRahman S，Fahmy A.A Machine Learning Approach For Opinion Holder Extraction In Arabic Language [J]．arXiv preprint arXiv：12061011，2012.   \n[26]Johansson R，Moschitti A.Reranking models in fine 一 grained opinion analysis [C]．Proceedings of the 23rd International Conference on Computational Linguistics，Association for Computational Linguistics，201o：519－527.   \n[27]Bethard S，Yu H，Thornton A，Hatzivassiloglou V，Jurafsky D.Automatic extraction of opinion propositions and their holders [C]． 2004 AAAI Spring Symposium on Exploring Attitude and Affect in Text，2004：2224.",
+    "context3": "（本文责任编辑：孙国雷）"
+  },
+  "释放出弱信号的说明了反求工程思想在弱信号分析中的应用，笔者接下来将会研究在多个假设事件包含某些相同因素时如何预测弱信号的发展趋势。": ""
+}

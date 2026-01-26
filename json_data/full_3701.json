@@ -1,0 +1,104 @@
+{
+  "original_filename": "full_3701.md",
+  "国外跨语言自动问答系统研究综述": {
+    "context1": "孔令玉",
+    "context2": "(华南师范大学经济与管理学院，广东广州 510006)",
+    "context3": "[摘要]介绍了跨语言自动问答系统及其实现模式和实现原理，并对其涉及的答案类型预测、翻译、信息检索、答案提取等相关方法与技术进行分析。对比阐述CLEF、NTCIR会议对此类系统的评价内容及方法。最后，介绍系统的运用。",
+    "context4": "[关键词]自动问答系统；跨语言自动问答系统；自然语言处理；信息检索；跨语言信息检索",
+    "context5": "[中图分类号] $\\mathrm { T P 3 9 1 }$ 〔文献标识码]A〔文章编号〕1008－0821（2008）10－0053—04"
+  },
+  "Overview of Cross-Language Question Answering System": {
+    "context1": "Kong Lingyu (Schoolof Economicsand Management，SouthChina Nomal University，Guangzhou51O6，China)",
+    "context2": "[Abstract]Based on the introduction of crosslanguage question answering system，this paper made an analytical researchonthe techniqueand methodof questionanalysis，translation，informationretrieval，answers extrac tion，introduced the mode of CLQA，and analysed the working principle of the module．The paper compared the con tent and methods of evaluation of CLQA on CLEF and NTCIR，lastly introduced the use of CLQA.",
+    "context3": "[Key words]question answering system ；a cross language question answering system ；natural language processing；infomation retrieval；cross -language information retrieval"
+  },
+  "1 CLQA介绍": {
+    "context1": "跨语言自动问答系统（Cross一Language Question Answering system，简称CLQA）是跨语言信息检索技术在自动问答系统中运用的产物，比起单语种的自动问答系统，CLQA被认为需要涉及更为复杂的自然语言、跨语言、信息检索等处理技术。CLQA要求系统接收用户以源语种的自然语言方式表述的问题作为输入，系统自动在多语种的庞大语料库（如万维网或一个本地的多语种文档集）中找到关于这个问题的最佳答案，并将此答案用源语种、自然语言的表达方式返回给用户。可以说，CLQA就是新一代搜索引擎。",
+    "context2": "CLQA是一个新兴而复杂的研究领域，国际上许多大型科研院所和著名公司都积极参与到CLQA的研究中，其中比较著名的如 IBM、MICROSOFT 等。在每年一度的CLEF、NTCIR 会议上，CLQA都是最受关注的主题之一，越来越多的大学和科研机构参与其中。",
+    "context3": "目前，国外对CLQA研究的重点放在侦测使用者意图、掌握问句核心、跨语言信息检索技术在CLQA中的应用、更为准确的由机器阅读文件擷取答案上。系统强调资料库的介面功能，系统所接资料库规模较小，大多为自由全文库，如由报纸、文章构成的数据库，系统具有相当的结构性。国外的研究者已开发出许多CLQA，如肯考迪娅大学研发的英法 CINDI-QA[1]，哈恩大学的 BRUJA[2]，但这些系统尚处于试验、测试阶段，目前还没有成熟的CLQA投入到大规模的实际运用中。"
+  },
+  "2 CLQA实现": {
+    "context1": "总结目前国外试验者对CLQA 的研究，笔者从CLQA 实现模式、实现原理及实现技术和方法三面放对CLQA做了如下总结。"
+  },
+  "2.1 CLQA 实现模式": {
+    "context1": "即CLQA所选用的实现跨语种问答检索的模式。目前CLQA主要采用的模式有以下两种："
+  },
+  "2.1.1将问题转化（翻译）为目标语种": {
+    "context1": "此方法是目前CLQA普遍采用的一种方法。其基本思想是：把用源语言表述的问题或查询表达式翻译为用目标语言表达词句，然或使用为目标语种设计的问答系统来获取答案。如在最近几次CLEF的CLQA 活动中，一些系统使用off一the－shelf 翻译软件（如 Babelfish，Systran，Reverso,FreeTrans）来进行翻译工作，再使用原有的为目标语言设计的问答系统进行处理。",
+    "context2": "2.1.2将答案转化（翻译）为目标语种"
+  },
+  "October 2008No．10": {
+    "context1": "上个世纪90年代中期，国外学者提出开放领域问答系统的概念，CLQA作为自动问答系统的一个分支，其在开放领域的研究起步很较晚。一个较好的例子就是CLQA在维基百科中的运用，CLEF 就开展了WiQa 测评项目[15]。此测评项目由Maarten de Rijke所发起，目的是为了把IR 和 NLP技术运用于对维基百科所包含的信息的搜索过程中，以便有效的帮助维基百科的作者以及读者传播和获取信息。WiQa使用户在使用维基百科时能通过统一检索界面用源语种提出某一问题，系统自动在包括源语种在内的多语种维基百科库中检索与此主题相关的信息，并返回用源语种表达的与查询问题相关且不重复的答案。"
+  },
+  "2.2 CLQA 实现原理": {
+    "context1": "CLQA除了需要处理在单语言问答系统要处理的问题（对问题的排序、自然语言表达多样性、问题语境的复杂分析等处理）外，还要处理跨语言的挑战。CLQA大多由以下4个模块组成："
+  },
+  "2.2.1问题分析模块": {
+    "context1": "系统一般使用自然语言解析器对用户提出的问题进行解析，以确定问题的类型、问题的焦点、预期答案的类型。为了能够把用户提出的问题转化为合理的符合逻辑的查询表达式，一个合适的POS 附加物将被采用来从用户的问题中提取名词短语、动词短语、动词、形容词短语以及形容词。同时，这个模块将从用户的问题中预测合适的答案（或问题）类型，以便下一阶段的匹配。"
+  },
+  "2.2.2翻译模块": {
+    "context1": "此模块集成现有的翻译工具以完成问题分析模块处理所得的关键词集的翻译工作。"
+  },
+  "2.2.3检索模块": {
+    "context1": "检索模块将翻译后的问题（答案）在每一个目标语言文档库中查询，找出最适合答案的 $\\mathbf { n }$ 篇文章 (段落)，并根据权值对查找出的文章（段落）进行排序，提交给答案提取模块。"
+  },
+  "2.2.4答案提取模块": {
+    "context1": "检索模块返回的是一堆相关的网页、文章或段落。答案提取模块负责从由检索模块返回的相关文档中查明特定答案提交给用户。答案提取模块能否准确地把正确答案抽取出来，将直接影响整个系统的准确性。"
+  },
+  "2.3 CLQA 实现的相关方法和技术": {
+    "context1": "总结目前国外对CLQA的研究，笔者将国外实验者在实现CLQA各模块功能上主要采用的技术总结如下。"
+  },
+  "2.3.1 CLQA 中的答案类型预测": {
+    "context1": "现阶段，CLQA主要采用的答案类型预测技术有两大类：基于启发式规则和基于机器学习的答案类型预测技术。前者是目前的系统最常采用的一种技术，如Plamondon等人使用了大约60 个预定义规则来确定答案类型[4]。基于机器学习的方法，是指从一个学习样本集合中学习预定义模型，如Radev 等人便确定了13 种特征并且使用Ripper 算法来从答案类型预测的学习样本集中学习决策树。"
+  },
+  "2.3.2CLQA中的翻译": {
+    "context1": "CLQA是自动问答系统的一个拓展，因此，国外实验者对CLQA研究的重点放在如何解决系统所遇到的诸多翻译问题上。",
+    "context2": "提问式翻译是CLQA最常用的翻译方法。目前许多系统都使用在线翻译工具进行翻译，但在线翻译所得译文准确度不高，这将直接影响系统检索精度以及效率。因此，一些研究者选用了此用机器翻译、机读词典翻译和基于关键词翻等技术的翻译工具以提高翻译准确度。系统在翻译工具的选用上，主要采用以下两种策略。",
+    "context3": "第一种策略：系统运用一些工具，如分离询问算子(disjunctivequeryoperator），把MTs等多个翻译工具集成起来，共同处理CLQA中的翻译问题[5]。",
+    "context4": "第二种策略：系统直接使用多种翻译工具按照其各自的功能原理共同进行翻译。如Teruko Mitamura 等人设计的中英CLQA在处理英语向中文的翻译中[6]，便选用了1个机器翻译工具、3个机读词典翻译工具、1个基于关键词的翻译工具共同进行翻译工作。",
+    "context5": "通过翻译，系统将返回众多翻译候选项，并没筛选出一个最为贴切的翻译结果，而最终筛选出的翻译结果的准确性将严重影响CLQA的有效性。为解决这一问题，S.Larosa等人提出使用统计字数法（ $\\mathbf { W o r d - C o u n t }$ ）和两轮翻译法（DoubleTranslation）来筛选候选词，以提高翻译准确度[7]。",
+    "context6": "统计字数法：即系统运用余弦等公式统计翻译所得候选词的相似度以及这些候选词中相似字词的数量，选出相似度最高的候选答案作为的最终选定的翻译结果。",
+    "context7": "两轮翻译法：即使用多种翻译工具分别把用语种A表达的需翻译的问题（答案）a转化为用语种B表达的b，再用翻译工具把b转化成用语种A表达的c，系统自动对比c与a的相似度以对翻译结果进行评分，并选择得分最高的a、c组合所对应的译项b作为最终翻译结果。",
+    "context8": "对于翻译过程中出现的语义错误，一些研究建议通过预处理或后期处理来解决。在Echihabi等人研发的西班牙-英语CLQA中[8]，开发者通过检查开发集合，总结出一些简单的写作规则表达式以使系统能自动校正语义错误。但这些人工规则与翻译系统有高度相关性，因此会出现为某一特定翻译系统开发的预校正或后期校正规则不适用于其它的翻译系统乃至同一翻译系统的不同版本的情况。"
+  },
+  "2.3.3CLQA 中的信息检索": {
+    "context1": "在CLQA中，主要运用的信息检索方法有文档检索、段落检索、段落权重与排序等。由于答案可能集中于文档的某一个或几个句子中，因此，以文档为单位建立索引，粒度较大，一些系统采用对文档段建立索引以解决这一问题。文档段长度对检索精度有一定影响，目前普遍采用的文档段划分方法有两种。第一种方法：固定每一段的长度，对于超过的就直接截断。第二种方法：以自然段为基础，对于过短的文档段进行合并，对于过长的文档段，按句子进行分割，保证文档段中句子的完整性。一些系统还依据关键词在候选文档中出现的个数、专有名词在候选文档中的个数、候选文档中关键词的分布情况等因素对返回的候选文档进行重新排序。",
+    "context2": "在检索系统的选用上，大多数CLQA使用著名的IR系统对文档库进行检索。"
+  },
+  "2.3.4CLQA 中的答案提取": {
+    "context1": "系统首先从检索模块所返回的文档中根据答案类型等因素抽取出有可能包含答案的句子（词语）作为候选句(词语)。在这一过程中，一些系统选用单个信息提取器进行信息提取工作，有一些系统则集成多个信息提取器以达到并行提取答案的目的。如Teruko Mitamura等人设计的中英CLQA中的信息提取器[9]，它通过一个抽象接口集成了多个不同种类的信息提取器，这些提取器被使用来产生不",
+    "context2": "同的结果以进行答案比较。",
+    "context3": "在答案比较中，最常采用的方法是根据这些词距关键词的远近等特征对候选词评分，系统选取评分最高的词作为答案返回给用户。规则描述、模板匹配等方法也经常被用在答案选取的过程中。"
+  },
+  "3CLQA的测评": {
+    "context1": "CLQA测评对比较系统的检索性能有至关重要的作用，除了系统构建者在标准化的实验室环境中进行系统测评外，相关的测评会议对于CLQA的发展起了很大的推动作用。定期召开的较有影响力的CLQA国际测评会议有CLEF和NTCIR。笔者从8个方面对两大会议在CLQA的测评上进行了比较，见表1。",
+    "context2": "表1CLEF与NTCIR在CLQA 领域的测评比较",
+    "context3": "<table><tr><td colspan=\"2\">对比项</td><td>会</td><td>议</td></tr><tr><td colspan=\"2\"></td><td>CLEF</td><td>NTCIR</td></tr><tr><td colspan=\"2\">首次设置CLQA测评项目的时间</td><td>2003年的CLEF—4 每一次会议测试的语种都不同，且语种范围在</td><td>2005年的NTCIR－5 侧重于亚洲各语系间(主要包括中、日、韩文)</td></tr><tr><td colspan=\"2\">测试语种</td><td>不断扩大，但主要集中在欧洲语种的测试上 事实类、列举类、定义类，一般不出现why问 题</td><td>以及英语间的测试 集中于事实类问题，如名称实体与事实数据，</td></tr><tr><td rowspan=\"3\">测评问题 的制定</td><td>测试问题类型</td><td></td><td>在即将举办的 NTCIR一7上，将纳入事件、传 记、解说以及关系类型的问题</td></tr><tr><td>问题特点 测试问题数量</td><td>开放领域的、基于事实的和答案短小的 200 个，其中15个在测试文档集中没有答案</td><td>大会根据不同的测试项目提供150一200 个问题，</td></tr><tr><td>问题集的确定</td><td>CLEF大会为CLQA测试项目所制定的问题集</td><td>个别问题在测试文档集中没有答案 NTCIR大会为CLQA所制定的问题集，或NTCIR</td></tr><tr><td colspan=\"2\">测试文档的选定</td><td colspan=\"2\">的CLIR测评项目的测试问题集</td></tr><tr><td colspan=\"2\">答案的选取</td><td colspan=\"2\">每年都有所变化，但是都是在大会选定或构建的语料库中进行</td></tr><tr><td colspan=\"2\">答案评判种类</td><td>在测试文档中选取答案的文档部分足够的长，且原文与答案相关度高</td><td></td></tr><tr><td colspan=\"2\">测评标准</td><td>错误、正确、不被支持、不确切的答案</td><td>错误、正确、不被支持的答案</td></tr><tr><td colspan=\"2\">测评方式 大会评估人员根据答案评判种类从用户的角度对系统进行评价分析</td><td colspan=\"2\">三类测试问题的评分加权和 答案的精确率</td></tr></table>",
+    "context4": "(以上资料来自参考文献[11]、[l2]、[13])",
+    "context5": "在即将举办的 NTCIR一7上，将采用XML作为输入输出格式，把跨语言信息检索系统集成到CLQA中去，并把它作为CLQA的一个组件来评价。大会将评价端到端的系统，以及对问题类型分析、文档检索和答案提取进行基于模块的评价。",
+    "context6": "目前，两大会议对CLQA的测评工作都是由人工进行，CLEF 从 2O06 年开设了 Answer Validation Exercise[14]，希望在系统自动对CLQA返回答案的正确性做出评价上进行尝试，以提高CLQA的置信度。"
+  },
+  "4 CLQA的运用": {
+    "context1": "根据CLQA所检索的数据源开放程度，笔者把目前国外研究者所开发出来的CLQA分为两类："
+  },
+  "4.1受限领域的CLQA": {
+    "context1": "目前，CLQA的研究主要集中在受限领域。这一领域又有两个分支。第一个分支，基于知识库的问答系统，又称专家系统。这类系统的数据源包含一个或多个知识库，系统利用其中的知识来回答用户提出的问题。第二个分支，利用某个特定领域的文档作为信息源，通过字符串匹配、自然语言等处理技术来代替原有的知识库建立过程，从而能够回答该领域的问题。CLQA的数据源可以包括文本、语音、图像等。"
+  },
+  "4.2开放领域的CLQA": {
+    "context1": "此领域的CLQA采用从Internet 或海量文档集合中获得的信息作为数据源，通过相关处理技术，以回答用户所提出的问题。在Internet 所承载的信息量呈指数形式增长的今天，这种运用尤为重要。"
+  },
+  "5结语": {
+    "context1": "CLQA是集合了人工智能、实体抽取、自动文摘、信息抽取、跨语言信息检索等信息处理技术的新一代智能信息检索的发展方向。研究者正在研究怎么样使CLQA更加符合人的需要，更具有自动学习的能力，更符合人思维的习惯。虽然目前对CLQA的研究还刚起步，大部分系统还在测试阶段，但笔者相信，在未来的几年，CLQA将会得到很大的发展。"
+  },
+  "参考文献": {
+    "context1": "[l]王胜生．高校图书馆社会化若干问题讨论[J]．图书馆，2007，(5)：81-83.  \n[2]李力文．谈高校图书馆的社会服务[J]．图书馆工作与研究，2007，（6)：96-98.  \n[3]楼健群．数字信息服务：高校图书馆社会服务的可普遍开展模式[J]．图书馆建设，2007，（3)：73一75.  \n[4]闫真．大学图书馆服务社会的系统思考［J]·晋图学刊，2007，(6)：53-56."
+  },
+  "（上接第52页）": {
+    "context1": "据库，通过联网实现网上信息资源共享，满足社会读者的各种信息需求，促进图书馆与社会之间的协作与交流，更好地为我国的社会经济建设服务。"
+  },
+  "2.3.2建立高校图书馆联合协作网": {
+    "context1": "目前大部分高校图书馆都已开通了局域网、校园网，具有了联网检索条件，但是高校图书馆的自动化、网络化管理程度还较低，资源共享还处于初级阶段。应借助现代信息技术，网络技术对高校图书馆自建的数字资源进行整合，形成图书馆联合协作网，实现资源共享。比如，广西高校图书馆的馆藏书目信息，在实体资源分散的情况下实现了虚拟的资源整合，并将其集成在广西民族大学图书馆的主页上，通过统一的检索界面（检索平台）可对各图书",
+    "context2": "language Question Answering System [EB/OL].CLEF一 2003．http://clef iei: pi.cnr.it， $2 0 0 7 - 1 1 - 0 2$   \n[5][9] Isozaki H，K Sudoh，H Tsukada．NTT's Japanese English Cross—Language Question Answering System [EB/ OL]．NTCIR－2O05．http://research· nii: ac·jp ，2007- 11-02.   \n[6] Teruko Mitamura．Keyword Translation Accuracy and Cross Lingual Question Answering in Chinese and Japanese [EB/ OL]:http://cs·stanford·edu，2007-11-02.   \n[7]S arosal． Cross—language Question Answering: The Key Role of Translation [EB/OL].htp:// www·dsic·upv·es , 2007—11—2.   \n[8] Echihabi A U．Cross $^ -$ Language Question Answering at the USC Information Sciences Institute [EB/OL].CLEF－2003. http:// lef·iei:pi·cnr·it，2007－11—02.   \n[10] Pablo-Sanchez·MIRACLE's 2OO5 Approach to Cross—Lingual Question Answering [EB/OL]·CLEF－2OO5．http:// clef -iei·pi·cnr·it，2007—11—02.   \n[11] Bernardo Magnini，Alessandro Valin，etal· Overview of the CLEF 2OO4 Multilingual Question Answering Track [EB/OL]. CLEF—2004．http://clef·iei:pi ·cnr·it ， $2 0 0 7 - 1 1 - 0 2$   \n[12] Danilo Giampiccolol．overview of the CLEF—2OO7 multilingual question answering track [EB/OL]． CLEF － 2007. http:// clef ·iei·pi·cnr· it， $2 0 0 7 - 1 1 - 0 2$   \n[13] Yutaka Sasaki·overview of the NTCIR $- 6$ : Cross $^ -$ Lingual Question Answering（CLQA）Task [EB/OL]．NTCIR $- 6$ · http :// research· nii· ac·jp/ntcir ， $2 0 0 7 - 1 1 - 0 2$   \n[14] Anselmo Pefas，@varo Rodrigo，etal.Overview of the Answer Validation Exercise 2OO6 [EB/OL]． CLEF － 2006. http:// clef-iei- pi·cnr· it ， $2 0 0 7 - 1 1 - 0 2$   \n[15]Valentin Jijkoun，Maarten de Rijke.Overview of WiQA 2006．CLEF－2006[EB/OL]· ${ \\mathrm { h t t p } } : / / { \\mathrm { c l e f } } \\cdot { \\mathrm { i e i } } \\cdot { \\mathrm { p i } } \\cdot { \\mathrm { c n r } } \\cdot { \\mathrm { i t } }$ ， 2007—11—02.",
+    "context3": "馆的馆藏书目进行检索，实现了广西高校图书馆馆藏联合书目资源共享，为读者提供了丰富的书目信息检索服务。"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "original_filename": "full_501.md",
+  "Web 数据库技术综述": {
+    "context1": "Abstract:Web-Database is the base of many network applications such as Web information re\" trieval system $,$ Web information publishing and Electronic Commerce $\\cdot$ This article focuses on sever\" al popular Web-Database technologies such as CGI,ISAPI,IDC，ASP and Java Applet， analyzing and comparing their structure，characteristics，advantages and disadvantages·Finally，it discusses the main structure of the Web-Database technology·",
+    "context2": "Keywords : network； database development; summary/Web technology",
+    "context3": "因特网新技术日新月异，层出不穷。1989 年，Web在因特网上异军突起，很快便占据了因特网技术的主流地位。可以说，Web技术已成为最有前途，最有魅力的新一代信息传播技术。",
+    "context4": "Web 技术与数据库技术的结合 $- - \\mathrm { \\Delta \\mathbb { W } e b }$ 数据库技术，正在深刻地改变着网络应用的面貌。无论是网络图书馆、网络情报检索系统、网络信息出版、电子商务，还是基于B/S方式的信息管理系统，都离不开Web 数据库技术。并且，随着网络应用的深度、广度的不断拓展，Web数据库技术将日益显示出其重要意义。"
+  },
+  "1 Web 数据库技术概述": "",
+  "1.1 Web 数据库基础技术": {
+    "context1": "Web 是一种信息资源网络，它通过超文本链接技术提供了在各种资源间导航的能力。Web 的实现依赖于3种技术：",
+    "context2": "·一种统一的Web 资源命名方案(例如：URLs）。·存取Web网上已命名资源的协议（例如：HTTP)。·超文本技术，在Web 资源间便利地导航（例如：HTML)。",
+    "context3": "URLs（统一资源定位器)是定位和访问因特网上对象的标准。它可以指定服务器、Web页、电子邮件地址、文件、新闻组、文章或其他项目。",
+    "context4": "HTTP（超文本传输协议）是Web 服务器用来和  \nWeb浏览器交谈的语言。它的主要函数是GET和  \nPUT。HTTP具有无状态和异步的特点，所以处理大  \n量用户请求信息时比面向会话协议快得多。当前的  \nHTTP 版本是1.1，下一代版本－-HTTP-NG 正在中国知网https://www.cnki.net"
+  },
+  "·情报理论与实践·": {
+    "context1": "（ISA）。ISA通过ECB与Web服务器交流来处理客户命令，每个客户命令对应一个ISA 成员函数，客户命令由ISA 的处理映射宏来处理。每个DLL 只能有一个 CHttpServer 对象,CHttpServer 为每个独立的客户请求（Request）创建各自的CHttpServerContext 对象。",
+    "context2": "CHttpServerContext被 CHttpServer 创建来处理单个客户的单个请求。每个CHttpServerContext 拥有独立的线程。",
+    "context3": "CHtmlStream 被CHttpServer 创建来管理对应于客户的缓冲区。它可以用开始、结束、内容等HTML标签来格式化输出数据流。",
+    "context4": "ISAPI中并没有专门针对数据库操作的函数，要利用ISAPI实现Web数据库应用，还需要使用ODBC或其它的数据库接口，在ISA的响应函数中通过ODBC来完成对数据库的查询，并将查询结果转化成HTML格式，通过IIS返回给客户端浏览器。",
+    "context5": "API的优点在于其高效率。但相应地也存在缺点：",
+    "context6": "·各种API之间不兼容。API是作为某种Web 服务器的附属产品，由各公司提供的不同的Web服务器所支持的API不尽相同。",
+    "context7": "·开发困难。要使用特定的开发语言和工具，对用户要求较高。",
+    "context8": "·有健壮性问题。API扩展程序作为Web 服务器内核程序的扩展，如果自身不够健壮，有可能导致整个Web 服务器崩溃。"
+  },
+  "1.2Web数据库系统基本结构": {
+    "context1": "典型的Web 数据库系统有一个Web 浏览器作为用户界面，一个数据库服务器用作信息存储和一个连接两者的Web服务器（图1)。用户使用Web浏览器访问Web页，通过Web页上显示的表格与数据库进行交互操作。典型的交互操作包括读取页、单击链接、列表框选择以及查询和输入数据域。从数据库获取的信息能以文本、图像、表或多媒体对象的形式在Web页上显示。",
+    "context2": "![](images/1088b8e0282352ade9183234d019c33380dabd1aff24fcc6d7777df729b6dc98.jpg)  \n图1W $\\mathrm { e b }$ 数据库系统结构"
+  },
+  "1.3扩展的Web数据库系统结构": {
+    "context1": "当前的Web数据库技术主要是通过在服务器端或浏览器端的扩展来实现Web和数据库的无缝连接，其系统结构见图2。",
+    "context2": "![](images/4ba79c5d75e2cf6a66d564914a22a62d1aa186295ad126b4715436d72f6724ef.jpg)  \n图2扩展的Web数据库系统结构"
+  },
+  "2几种流行的Web 数据库技术": {
+    "context1": "当前的Web数据库技术并无统一的规范。Mi-crosoft、Sun、Netscape等公司各支持不同的技术，它们之间的竞争也延伸到了这一领域。但是这种局面不会持续很久，总会有胜者来统一市场。以下介绍当前流行的几种技术。"
+  },
+  "2.1 CGI": {
+    "context1": "CGI(公共网关接口)是第一个使开发者能够编写增强Web 服务器功能的程序的协议。它为Web 服务器定义了一种与外部应用程序共享信息的方法。当Web 服务器接收到来自某一客户机（Web浏览器）的请求，要求其启动一个网关程序（通常称为CGI脚本或CGI程序)时，它根据客户机请求的方式(POST或GET）决定是否把有关该请求的信息综合到一个环境变量集合中，然后，CGI脚本（程序）将检查这些环境变量，试图找到为响应请求所必须的信息（GET 方法)，或者从标准输入直接得到信息（POST 方法)。CGI还为自己的脚本程序定义了一些标准的方法，以确定如何为服务器提供必须的信息。CGI脚本(程序)负责处理为从服务器请求一个动态响应所必须的所有任务。CGI的用途在于使用户能够编写用于与浏览器相交互的程序。利用CGI协议可以编写处理如下工作程序：",
+    "context2": "·动态地创建新的 Web 页面。·完成HTML表单（FORM）的输入。·在Web与其它因特网服务之间架设沟通的渠道等。",
+    "context3": "CGI技术的实现机制，首先需要一个含有对服务器端CGI程序的引用的HTML页面，这个页面负责与用户的交互，一般要提示用户输入信息，并提供给用户提交所输入信息的手段。页面对CGI程序的引用部分(CGI程序的URL)还要说明CGI程序与Web 服务器交换信息的方式：GET或POST。用户提交信息后，服务器对接收到的URL进行分析，并启动URL对应的CGI程序。CGI程序用定义好的方法（GET或POST）从服务器得到用户发来的信息，进行解码并调用应用程序处理后，向服务器进程送回HTML格式的数据流，再由Web 服务器把HTML格式返回客户端，于是用户就得到了CGI执行后产生的结果。见图3。",
+    "context4": "![](images/448a2cdf9b1f94a60097b298c5e7636cdb60f7774dde9381138cdacafaa333ac.jpg)  \n图3CGI程序实现机制",
+    "context5": "CGI方案的优点在于：",
+    "context6": "·开发简单。CGI程序可用任何编程语言实现，HTML文档的编写也比较容易，用户可以无须高深的编程知识。",
+    "context7": "·投入低。CGI作为传统Web交互能力的支撑技术，被几乎所有的Web 服务器软件所支持，用户无须购买其它支持软件。",
+    "context8": "CGI方案的缺点在于，它以进程的方式装载入内存，装载与卸载操作系统开销较大;并且一次只能响应一个用户请求，当并发的请求很多时，会占用很多服务器资源，因此性能不佳。",
+    "context9": "许多第三方的软件商都提出了对CGI技术的改进方案，如Allaire 的Cold Fusion，Aspect 的dbWeb等。其主要思路是将服务器扩展程序分为两个部分：\"瘦\"CGI程序和“胖\"伙伴进程。这个伙伴进程通常只在操作系统启动时被装载一次并且在没有用户有意中断的情况下始终在后台运行。对于浏览器的每个CGI请求，Web 服务器调用\"瘦\"CGI程序来接收环境变量和用户数据；然后CGI程序仅把数据发给伙伴进程而不做任何其他工作；伙伴进程接收数据后完成几乎所有主要工作，包括建立与数据库服务器的连接，发送对数据的操作命令和获得执行结果等。这样，CGI程序可以很“瘦\"，装卸得很快，改善了运行性能。"
+  },
+  "2.2ISAPI 和 NSAPI": {
+    "context1": "ISAPI 和 NSAPI 是分别由 Microsoft 和 Netscape开发的API（应用程序接口)。这两种接口允许第三方软件开发者以标准方式编写和Web服务器交互的应用程序。其技术核心也是利用操作系统所支持的共享和动态装入。基于API的Web应用程序的结构见图4。",
+    "context2": "![](images/7650690c1bad625272b72fcd8058669c45f4ec68b9a9df9ea03bc30853d66bf6.jpg)  \n图4API方式Web数据库系统结构",
+    "context3": "这种扩展程序的本质是一组编译后的对象代码例程，被Web服务器调用，看起来像是 $\\mathrm { { W e b } }$ 服务器内核程序的一部分。因此它与Web 服务器结合更紧密、占用资源也很少，对多用户共享的有力支持使其运行效率大大优于CGI。由于ISAPI和NSAPI类似，本文仅对 ISAPI做介绍。",
+    "context4": "ISAPI使用一个和Web 服务器共享的 ECB（ $\\mathrm { E x ^ { - } }$ tension Control Block）来获得表单信息和输出HTML数据。编写Web 服务器扩展程序主要与ISAPI的3个程序类打交道:CHttpServer、CHttp-ServerContext 和CHtmlStream。",
+    "context5": "CHttpServer用来生成和管理一个服务器扩展动态连接库，同时也是一个因特网服务器应用程序"
+  },
+  "2.3IDC": {
+    "context1": "面向技术水平不高的普通用户，Mircrosoft公司推出了专门用于Web数据库的产品（因特网数据库连接器)。这一产品正是使用了ISAPI实现的。",
+    "context2": "IDC 不要求用户进行任何编程工作，而只需使用普通的文本编辑器编辑两类文件：IDC 脚本文件（·idc）和HTML扩展文件（·htx)。IDC 使用这两类文件来控制访问数据库的方法及如何构造HTML数据。",
+    "context3": "IDC 的执行过程主要分6个步骤：",
+    "context4": "1）IIS 接收由浏览器发送的指向服务器中的．idc文件的URL。",
+    "context5": "2)IIS 载入实现 IDC 功能的ISA：以DLL 形式运行的Httpodbc $\\cdot$ dll,并将URL 的信息发送到DLL中,由 Httpodbc·dll 载入URL 所指的·idc 文件。",
+    "context6": "3)Httpodbc·dll 打开并读取·idc 文件的内容，获得数据库连接的信息和执行结果模板文件（·htx）的文件名。",
+    "context7": "4）按照·idc 文件中的信息与ODBC 数据源建立连接，并发送包含在·idc 文件中的 SQL 语句。",
+    "context8": "5）从与ODBC 数据源的连接中获得 SQL语句的执行结果，并将结果放入．htx 文件中。6）Httpodbc·dll将包含执行结果的·htx 文件的内容发送到发出请求的客户端浏览器。",
+    "context9": "由于 Httpodbc·dll 在用户第一次申请 IDC 服务时就被装载并驻留内存，使得IDC 的运行速度比CGI要快。用户只需掌握HTML 和SQL 的基本语法即可。其缺点在于只能进行较简单的 SQL 操作;只支持IIS。"
+  },
+  "2.4ASP": {
+    "context1": "ASP（ACTIVESERVERPAGES）是Microsoft公司 $\\mathrm { I I S 3 . 0 }$ 的一个组件。它实际上是服务器端的脚本环境。当脚本运行在服务器端时，Web 服务器完成涉及回送浏览器HTML页的所有工作，并返回相应的HTML文本。ASP直接在HTML文件中嵌入服务器端脚本，使动态交互页面的开发成为一个整体，开发与维护工作变得简单、快捷。同HTML文件一样，ASP文件也是文本文件，包括文本、HTML 标记和ASP 脚本词句(用 $< \\%$ 和 $\\% >$ 界定符标记)。它以 $\\cdot$ asp 为扩展名，区别于一般的HTML 文件。ASP 提供VBSCRIPT和 JSCRIPT 两种脚本引擎，缺省为VBSCRIPT。",
+    "context2": "ASP对数据库的访问主要是通过内置对象DAC（DATABASEACCESSCOMPONENT）使用数据库访问软件ADO（ACTIVEDATAOBJECT)来实现的。ADO 是一种操作Microsoft 所支持的数据库的方法，在ASP 中它可以看作是一个数据库服务组件（ServerComponent）。与在ODBC 规程下开发的RDO 和DAO不同的是ADO 是在OLEDB 规程下开发的，所以它具有面向对象的特性。ADO包括7个对象：",
+    "context3": "·Command定义对数据源进行操作的命令。$\\cdot$ Connection建立一个数据源的连接。·Error提供数据访问错误的细节。$\\cdot$ Field表示一般数据类型的字段。·Parameter 表示Command 对象的参数。·Property表示由数据源定义ADO 对象的动态特性。$\\cdot$ Recordset数据库命令结果集对象。",
+    "context4": "灵活运用上述对象的属性、方法可以达到许多复杂的数据库访问效果。在IIS4.O版中，微软对ASP的数据访问提供了更强大的支持。主要体现在新增的远程数据服务（RDS)。RDS 在ADO 的基础上通过绑定的数据显示和操作控件，提供给客户端更强的数据表现力和远程数据操纵功能，是一种很有前途的Web 数据库技术。"
+  },
+  "2.5Java Applet": {
+    "context1": "JavaApplet可以说是Java的小弟。它主要应用于Web上，从Web 服务器下载到用户的浏览器上运行。利用JavaApplet 动态下载在浏览器上运行的机制，再采用JDBC（SUN 公司提出的一个通用的 SQL数据库访问和存储结构，与Microsoft公司的ODBC 相似）可对 SQL数据库进行访问。见图5。",
+    "context2": "![](images/17ffa1b8332b261a06be9c9633a5f4ed971850e177bab916bfeedfcab82e1431.jpg)  \n图5Java Applet与JDBC 访问数据库",
+    "context3": "Applet的·class文件存在于Web 服务器上，当用户下载该页面时，该Applet文件以字节码的形式也随之下载。Web 浏览器收到Applet文件后，就调用本地机上的JDBC 来访问数据库服务器，Applet与数据库服务器之间的交互过程与Web 服务器无关。由于JD-BC 与数据库服务器之间的连接使用的是面向会话的协议，所以，在响应较多用户的请求时，性能比不上无状态的 HTTP 协议。另外，由于Applet 的功能限制，在这种方案中要求数据库服务器与Web 服务器在物理上是一台计算机。"
+  },
+  "3结束语": {
+    "context1": "通过以上论述可以看出，当前的Web 数据库技术不外乎是在服务器端或客户端扩展功能，以实现对数据库的访问。在服务器端的扩展主要是CGI和API。由于老的CGI技术的性能问题，使用它的人已经很少了；而API尽管性能优异，但因技术要求高，开发周期长，仅在一些性能要求很高的大型项目中得到应用；改进的CGI技术既有较好的性能，又简单易用，但它要求用户支付额外的费用购买第三方的扩展程序。至于客户端扩展技术则比较复杂，没有一个公认的分类方法。主要是SUN、Netscape、Microsoft三大公司之间的标准之争。无论是ASP、Java Applet 还是Netscape 的Plugin，其性能均无太大的差异，它们之间的取舍主要应考虑支持平台、兼容性和竞争前景等因素。",
+    "context2": "Web数据库技术的发展依赖于相关技术的发展。Web 技术本身也在不断的发展中，未来会不会将数据库访问功能直接集成到Web中，应该是一个值得注意的问题。□"
+  },
+  "●胡荣安(西安电子科技大学陕西710071)": "",
+  "1997年度日本信息服务业调查": {
+    "context1": "Abstract:Based on the statistical data promulgated by Japanese Ministry of International Trade and Industry on Dec.16,1998,this paper introduces the general situation of Japanese information service industry， including the distribution of companies and employees，the technical re\" quirement of the companies for the employees， total annual volume of business and major customers $\\cdot$",
+    "context2": "Keywords:survey； information service industry； Japan",
+    "context3": "我国情报系统正在奋力实现观念、体制、机构大转换的时候，日本的信息服务业在充分享受了80 年代末期、90 年代初期大增长的喜悦之后，正尝受泡沫经济的苦果，在不景气中苦斗。不过它毕竟是个新兴产业，1997 年在日本经济负增长的环境里，仍保持了增长，可谓苦中有甜。",
+    "context4": "现将日本信息服务业按产业范围、1997年度营业额、从业人员的分类、信息服务类型等归纳整理，仅供参考。"
+  },
+  "1信息服务业的基本概况": "",
+  "1.1信息服务业归类于特殊服务业": {
+    "context1": "与我国不同，日本将信息服务业归类于特殊服务业，而特殊服务业则属于第三产业。日本的特殊服务业包括：器材物资租赁业、信息服务业、广告业、信用卡业、工程服务业、展览业、健身俱乐部、疗养避暑、捐赠、设计装潢业、中介业、电影行业、高尔夫球场、环境计量证明、网球场、保龄球、机械设计、丧葬业、自行车租赁业、公园、游览业、复印行业、文化中心、剧场、研究开发支援检查分析行业、结婚仪式场所、外语会话学校等27类。根据日本对其社会发展所采取的基本国策一一面向国际化、信息化、高龄化，日本非常重视发展特殊服务业。"
+  },
+  "1.2信息服务业范畴": {
+    "context1": "日本信息服务业主要包括：计算机软件开发(包括与此相关的有偿调查、分析、方案设计、咨询服务等);受托有偿计算机计算;受托有偿数据录入；各种数据的收集、整理、加工和有偿提供服务（包括联机检索和脱机检索服务)；用户信息系统管理(含计算机房管理)等；市场调查、咨询服务等；计算机(含网络)软硬件、系统的销售、租赁业务；其他信息服务等8大类。",
+    "context2": "为便于统计，又将上述8大类信息服务项目归纳为4大信息服务行业。它们是：软件开发业、信息处理服务业、信息提供服务业和其他信息服务业。本文按照"
+  },
+  "参考文献": {
+    "context1": "1RodleyJ·Web 与Intranet 数据库开发·北京：机械工业出版社，1997.  \n2孙琨，等·Web 数据库应用技术与主要产品·计算机与通信，1999，（3)  \n3MohseniP．Web数据库开发人员指南·北京：机械工业出版社，1997.  \n4LangC，Chow J·Web 网和Intranet 上的信息出版技术.北京：电子工业出版社，1997.  \n5肖骞·ASP 访问数据库的三种方式．电子&电脑，1999，（1)6尹锋庆·Web上的数据库技术．电脑编程技巧与维护，1999,(4)，"
+  },
+  "中国知网": {
+    "context1": "https://www.cnki.net"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "original_filename": "full_2197.md",
+  "关联数据研究与应用进展": {
+    "context1": "潘有能,张悦",
+    "context2": "（浙江大学公共管理学院，浙江杭州310028）",
+    "context3": "摘要：关联数据可以视为语义网的一种实现方式,它通过发布和链接网上的结构化数据使得来自不同领域的数据相互关联，从而促进了万维网的发展。首先介绍了关联数据的概念、发布原则及发布步骤,在此基础上构建了关联数据的层次模型,从基础层、工具层和应用层三个层次对关联数据进行系统深入的研究，最后介绍并分析了关联数据在图书馆和企业中的成功应用，以及关联数据的前景和面临的挑战。",
+    "context4": "关键词：关联数据；语义网；万维网;URI；RDF中图分类号：G350 文献标识码：A 文章编号:1007-7634(2011)01-0124-07"
+  },
+  "Research and Application Progress on Linked Data": {
+    "context1": "PAN You-neng,ZHANG Yue",
+    "context2": "(College of Public Administration, Zhejiang University， Hangzhou 310028, China)",
+    "context3": "Abstract:Linked Data could be seen as a realization of the Semantic Web.It connects data from diverse domains through publishing and linking structured data of web,thus promotes development of the World Wide Web.The authors introduce the concept, publishing principles and publishing steps of linked data,and then build the hierarchical model includes the basic layer,the tools layer and the application layer.At last,the authors introduce and analyze the successful applications of linked data in libraries and enterprises,discuss the prospect and challenges of linked data.",
+    "context4": "Keywords:linked data; semantic web; WWW; URI; RDF",
+    "context5": "“万维网之父\"TimBerners-Lee提出的关联数据(LinkedData)目前已成为信息管理、信息系统、计算机科学、图书馆学等诸多领域的研究热点[1]。关联数据作为一种发布数据的途径，可以视为语义网的一种实现方式。它使得来自于不同领域的数据相互关联，从而促进了万维网的发展。关联数据从技术上来说并不复杂，然而却正在使万维网发生深刻的变革。目前链接开放数据（Linking Open Data,LOD)项目已经成功地将超过130亿条传统网页上的数据(包括维基百科、地理数据集、政府数据集等)自动半自动地转换成了关联数据，构建了庞大的数据网络。关联数据不仅使许多新应用付诸实践[21,也为一些特定领域的应用提供了新的契机[3]。"
+  },
+  "1关联数据概述": {
+    "context1": "关联数据采用RDF(资源描述框架)数据模型，利用URI(统一资源标识符)命名数据实体，在网络上发布和部署实例数据和类数据，从而可以通过HTTP(超文本传输协议)揭示并获取这些数据，同时强调数据的相互关联、相互联系以及有益于人和计算机所能理解的语境信息[4]。",
+    "context2": "![](images/b554269f786a828cb0b30ff079ec3d490984d599e3564538c50d61339983f24b.jpg)  \n图1关联数据的数据集以及数据集之间的链接[5]",
+    "context3": "关联数据可以在不同来源的数据之间创建链接。这些数据源可能是两个处于不同地理位置的机构所维护的数据库，也可能是一个机构内的无法在数据层面上进行互操作的不同系统。从严格意义上讲，关联数据是指发布于网络上的数据，该数据具有机器可读性和明确的含义，并链接至其它外部数据集，同样也可被来自外部数据集的数据所链接。图1显示了链接开放数据项目的数据集以及数据集与数据集之间的链接（截止至2009年7月），其中包括著名的 DBpedia,Freebase 和 Thomson Reuters 的Open Calais项目等。",
+    "context4": "关联数据网络和当前的超文本网络有所不同，超文本网络的基础单元是由超链接所连接起来的HTML（超文本标记语言)文件，而关联数据并非是简单地连接这些文件，而是使用RDF形成链接世界上任何事物的网络，也即数据网络，数据网络可被描述为由网上数据描述世界上所有实体的网络。关联数据网络的出现不但对当前的超文本网络进行了扩展，同时也对当前网络上纷繁混乱的信息资源进行甄别、选择和定位。",
+    "context5": "TimBerners-Lee认为所有已发布的关联数据都是一个统一的全球数据空间的组成部分，进而概括出在网上发布关联数据的四条原则[6]。",
+    "context6": "（1)使用URI作为任何事物的标识；(2)使用HTTPURI使任何人都可以访问这些标识；（3)当有人访问某个标识时,使用（RDF,SPAR-QL)标准提供有用的信息；(4)尽可能提供相关的URI,以使人们可以发现更多的事物。",
+    "context7": "可以看出，这四条原则尽管简洁，却提供了在遵从统一的网络结构和标准的前提下发布和链接数据的基本方法。这也符合TimBerners-Lee的\"最少设计”原则,即把简单的东西简化，让复杂的东西变得可能；开发简单的应用，着眼于未来的复杂性。正是由于这一原则，万维网取得了意想不到的成功，相信也将继续引领关联数据的发展。",
+    "context8": "数据的发布是关联数据极为重要的环节，数据提供者根据上述四条原则发布数据，从而将他们的数据加入到全球数据空间并使得数据能够被各种应用程序发现和使用。在网上发布关联数据包括以下三个基本步骤[7]：",
+    "context9": "（1)将URI分配给被数据集描述的实体，并提供逆向引用至RDF的URI;(2)将RDF链接至其他网上数据源，从而使用户能够随RDF链接遍历数据网络；(3)提供所发布数据的元数据，从而使用户能够评价所发布数据的质量并选择合适的访问途径。"
+  },
+  "2关联数据的层次模型": {
+    "context1": "作为语义网的一种实现方式，关联数据并不是一种全新的技术，它以成熟的URI、HTTP和RDF技术为基础，开发出多种关联数据的发布、链接和存储工具。关联数据浏览器和关联数据搜索引擎使得用户可以在数据网络中进行浏览和检索。据此，可构建关联数据的层次模型如图2所示。",
+    "context2": "![](images/3e9b03b24548ef52e163c48b3c4a19ebe3f9c378fdea2018ab113b4d37fd9bcb.jpg)  \n图2关联数据的层次模型",
+    "context3": "(1)基础层。关联数据依赖于两项网络基础技术：URI（统一资源标识符)和HTTP（超文本传输协议）。和人们所熟知的作为文件和其它网上可定位实体的地址的URL(统一资源定位符)不同,URI提供了一个更加普遍的标识存在于世界上的任何实体的方法。URI可以是一个网页路径,也可以是某位专家或员工的联络方式，或是某个文件的物理存放位置。总之，资源无论以何种形式存放，其存储位置都是惟一确定的,因此可以用URI进行惟一标识。",
+    "context4": "由使用\"http:/\"开头的URI所定义的实体可以简单地通过在HTTP协议上逆向引用URI进行检索。在这种方式下，HTTP协议提供了一种简单而通用的检索机制，不但可以定位网络上的数字资源，如一只狗的照片，还可以检索那些自身无法通过该方式在网络上进行传输的实体的描述比如那只狗[7]。",
+    "context5": "如果说HTML(超文本标记语言)提供了在网上架构和链接文件的一种方式,RDF则提供了一种普遍的、基于图形的数据模型，如图3所示。通过这种模型可以架构和链接描述世界上事物的数据。",
+    "context6": "![](images/d2464066e8fa47e2627da709cd646e7646e9af10ee9595eeeebbe49b96eb8a99.jpg)  \n图3RDF的基本数据模型",
+    "context7": "在RDF中，所有的资源都能够用一个URI来指定，属性是用来描述资源的特征或关系，每一个属性都有其特定的含义，用来定义对应的属性值、资源类型，以及和其他属性之间的关系[8]。RDF把以上体系统称为一个声明语句，其中资源是主体，属性是谓词,属性值则是客体。RDF模型以“主体、谓词、客体”三元组对数据进行编码。主体和客体都是URI,它们从字面上各自分别定义了一个资源，谓词定义了主体和客体之间的联系，它也由一个URI表示。链接不同数据的RDF语句和将万维网连为一体的超文本链接有相似之处，语句的主体是一个数据集命名空间的URI引用，语句的客体是另一个数据集命名空间的URI引用。",
+    "context8": "RDFS(RDF词汇定义语言)和OWL（网络本体语言）奠定了可用于描述世界上的实体及其关系的词表的基础。词表是类别和属性的集合，其自身使用RDFS和OWL中的术语并通过RDF表达。任何人都可以发布数据网络词表,这些词表可以通过RDF语句链接，从而定义相关词表之间的映射。",
+    "context9": "通过使用URI定义资源,将HTTP协议作为检索机制以及使用RDF数据模型描述资源，关联数据便在网络整体结构之上奠定了坚实的基础。",
+    "context10": "(2)工具层。目前已有多种关联数据发布工具被开发出来，这些工具使得数据发布者无需关注技术细节，而只需关注数据本身。此外，这些工具往往是基于关联数据领域的成功应用开发的，其可用性和先进性均可得到保证。所有的工具均支持URI到RDF描述的逆向引用，其中一些工具还为数据集提供 SPARQL访问并支持RDF集的发布。这些工具包括 D2R Server、Virtuoso Universal Server、TailPlatform、Vapour、Pubby、Triplify、SparqPlug、OAI2LOD Server、SIOC Exporters 等，其中 D2R Server用于将关系型数据库转换为关联数据，Virtuoso U-niversalServer提供RDF模式的关联数据的存储与检索服务，这些数据可以直接存储到Virtuoso服务器中，也可以存储到关系型数据库中，然后映射为关联数据[7]。",
+    "context11": "（3)应用层。随着大量关联数据发布到网络上，基于关联数据的应用方面的研究亦层出不穷，目前大体上可分为三类：关联数据浏览器、关联数据搜索引擎以及特定领域的应用。",
+    "context12": "关联数据浏览器使得用户能够跟随由RDF语句表达的链接在不同的数据源之间浏览，一个用户可以从一个数据源开始逐渐遍历网络。Disco浏览器即使用了这一方法，可以被视为关联数据的一项直接应用[9]。DBpedia Mobile是一款运行于iPhone及其它手机设备上的关联数据浏览器，可定位和显示DBpedia(维基百科语义版)中的地名等信息。",
+    "context13": "关联数据搜索引擎通过跟踪RDF链接从而可以在网络上抓取关联数据，并提供在大量数据中进行检索的功能[10]。大体上来看，关联数据搜索引擎可分为两类，即面向用户的搜索引擎和面向应用的索引。",
+    "context14": "图书馆、企业和政府部门纷纷开展关联数据在特定领域的应用研究，例如美国国会图书馆已将其主题词表转换为关联数据，Google将关联数据应用于视频内容的标记和搜索结果的摘要中,BBC利用关联数据在其音乐和节目之间建立链接，雷诺通过关联数据为企业的数据存储和服务提供有效解决方案，减少异构系统集成和数据源整合的费用。关联数据在特定领域的具体应用案例将在下节中详细介绍。"
+  },
+  "3关联数据的应用": {
+    "context1": "目前关联数据最典型的应用就是链接开放数据项目(Linking Open Data,LOD)。该项目于2007年1月后动,得到了W3C语义网教育和外联组织的支持。其目标是通过定义已存在并可公开使用的数据集，根据关联数据原则将其转换为RDF并上网发布,进而改善数据网络(WebofData）。该项目的早期参与者主要为大学实验室和小公司的研发人员，随着项目的逐步壮大，一些大型机构如BBC、ThomsonReuters和美国国会图书馆等都积极参与其中。该项目的进展迅速在很大程度上源于其开放性，参与者只要根据关联数据原则发布数据集并将其与已有数据集相连即可[6]。",
+    "context2": "LOD关联数据网络的规模增长十分迅速。2009年7月，关联数据网络大概包含了67亿条RDF语句，这些语句被约1.42亿个RDF链接相连。2009年9月,LinkedGeoData 网站发布了OpenStreetMap数据集的关联数据版本，增加了约 $2 0 \\uparrow \\overline { { z } }$ 条RDF语句。2010年5月,美国政府网关data.gov将其约400个数据集转换为关联数据，总计约64亿RDF语句[5]。政府信息资源的加入显著扩大了数据网络的规模，使其能发挥越来越大的影响力。"
+  },
+  "3.1关联数据在图书馆中的应用": {
+    "context1": "作为信息收集、组织与处理的专门机构，图书馆的MARC数据、规范记录、主题标目等都可以开放成为任意互联的关联数据。图书馆界对关联数据的研究与应用非常重视，2010年5月28日，W3C宣布成立图书馆关联数据孵化小组（LibraryLinked",
+    "context2": "DataIncubatorGroup），以帮助图书馆建立关联数据，增强图书馆数字资源的互操作性。截止到目前为止，关联数据在图书馆中的典型应用有瑞典国家图书馆和美国国会图书馆等。"
+  },
+  "3.1.1瑞典国家图书馆": {
+    "context1": "瑞典国家图书馆早在2008年便将瑞典联合目录（LIBRIS)发布为关联数据。LIBRIS共包含约600万条书目记录，2000万条馆藏记录及20万条规范记录，为超过170家大学图书馆、公共图书馆、博物馆和档案馆提供编目服务。LIBRIS是世界上第一个被整体发布为关联数据的联合目录或国家图书馆目录，虽然EdSummers率先把美国国会图书馆标题表(LCSH)发布为关联数据(lcsh.info）,但仅仅是针对词表，不包含书目数据。瑞典国家图书馆的研究人员在项目实施过程中采用了“数据优先\"的战略，更多的关注效率和可用性，而不是试图去寻找数据的“完美表述”。他们认为与其花费过多的时间去思考图书馆的书目记录应该如何完美地融入关联数据网络中，还不如先行动起来，从实践中吸取经验和教训,逐步适应新的环境。这种\"数据优先\"的战略可以在尽量短的时间内积累足够多的数据，从而促使研究人员在此基础上开发各种应用，有利于关联数据网络的发展[11]。",
+    "context2": "在发布关联数据的过程中，LIBRIS使用的词汇表并没有仅限于图书馆学领域，而是一个包含了DC、SKOS、FOAF和 Bibliontology 的一个混合体。LIBRIS使用原有数据库中的标识（MARC001字段)作为书目记录和规范记录的URIs。此外，为加强和外部数据的关联,LIBRIS创建了到lcsh.info和Wikipedia /DBPedia的链接。"
+  },
+  "3.1.2美国国会图书馆": {
+    "context1": "美国国会图书馆自1902年就开始向美国和世界发布书目数据，提供书目元数据的共享和重用。图书馆的编目工作一般可分为描述性编目和主题性编目，其中描述性编目主要是维护目录中术语的描述，主题性编目负责受控词表的维护。美国国会图书馆的主题标目是以机器可处理的MARC形式存在的，近来已转为MARCXML编码形式[12]。",
+    "context2": "美国国会图书馆利用一套RDF词表--SKOS（简单知识组织系统），将传统的主题标目转换成Web可用的形式，其基本方法为：每条MARC规范记录都在0O1字段著录有LCCN（国会图书馆控制码）,因为LCCN具有永久性和唯一性的特点，这使其成为标识SKOS概念的最好候选,SKOS采用",
+    "context3": "URI来标识概念实例。LCSH/MARC（MARC格式的美国国会图书馆主题词表）中的语义关系也很容易转换到SKOS中，因为LCSH/MARC采用标目建立参考链接，而SKOS使用概念资源的URI相互联系，通过转换程序为被转换的特定标题寻找URI,便可建立链接关系，用户在浏览SKOS中的相关概念时只需点击链接即可。并且这种机制还允许客户端直接向LCSH概念的URI请求相同内容不同格式的机读数据。如果采用了RDFa,浏览器还能够从供人阅读的XHTML页面中自动探测并获取机器可读的语义内容。",
+    "context4": "SKOS的数据可以从多个层面上与外界资源进行链接,例如:(1)地理标目:GeoNames(http://geon-ames.org)和 CIA World Fact Book(http://www4.wi-wiss.fu-ber2lin.de/factbook/);(2)LCSH概念链接：RDF BookMashup(http://www4.wiwiss.fu-berlin.de/bizer/bookmashup/);(3）维基百科语义版:dbpedia(http://dbpedia.org）。此外,美国国会图书馆的其他词表，如：国会图书馆分类法、人名规范文档、LCCN永久链接服务等，都可以转化为以RDF表示的关联数据。"
+  },
+  "3.2关联数据在企业中的应用": {
+    "context1": "关联数据的概念刚提出时，很多人担心其或许会因为缺少大公司的应用而更多的只是停留在理论层面,令人意想不到的是,Google、BBC、雷诺等全球性企业纷纷开展了关联数据方面的应用。"
+  },
+  "3.2.1 Google": {
+    "context1": "随着互联网的迅速发展，多媒体信息资源在网络内容中所占的比重越来越大，如何对多媒体进行内容检索成为网络信息检索的重点和难点。作为世界领先的搜索引擎公司,Google必须面对这一巨大挑战。2009年9月，Go0gle正式开始支持使用Facebook Share 和 Yahoo!SearchMonkey 的RD-Fa进行标记的视频内容[13]。这意味着网站管理员可以在HTML中嵌入视频的描述信息，而Google则会将这些信息显示在搜索结果页上。这可以说是Google在关联数据上的一次突破。2009年11月，Google支持并开放了两种用于标记结构化数据的标准--微格式和RDFa，并在其搜索结果摘要中对评论和人物使用这种格式的数据[14]。在搜索结果中提供更多详情有助于用户了解其网页的价值，从中看出结果网页与其搜索请求的相关程度，从而更有可能通过点击查看完整页面。这种结构化数据也可供用户网站中的自定义搜索引擎使用，使其能够显著加强用户对自定义搜索引擎行为的控制力度。虽然该技术目前只是应用在搜索结果的摘要中，并且只支持英文搜索，但从中可以看出Google已进行了成功的关联数据应用的探索，提高了搜索质量。这也是未来搜索引擎的一个发展方向，即用户需求的不只是简单的文本信息，而是更加直观和形象的富媒体(RichMedia)信息。当关联数据日益成熟后，搜索引擎将可以读取丰富的富媒体内容并将其链接及相关信息反馈给用户[15]。",
+    "context2": "3.2.2 BBC",
+    "context3": "BBC(英国广播公司)是一家在全球拥有高知名度的媒体公司，运营着大量电台和电视频道,这些电台电视分别使用不同的内容管理系统(CMS）。目前，BBC公司已开始使用关联数据技术进行数据集成，其方法为：使用DBpedia和MusicBrainz作为控制词表,将位于不同地点的相同主题相互链接，并且利用开放数据链接云(Linking Open Data cloud)中的其它数据对内容进行扩充[16]。",
+    "context4": "BBC 的音乐可被逆向引用至HTML、RDF、JSON 等以获取节目、艺术家、种类和产地的URI。这些URI大部分来自于已有资源，如维基百科和MusicBrainz等。BBC最近推出的新的音乐网站可链接至维基百科，从而获取关于艺术家的个人信息。同样，当BBC需要为音乐网站添加音乐元数据时则添加MusicBrainz。基于这些链接,BBC为其所有的音乐和节目建立了关联数据[17]。",
+    "context5": "关联数据的应用是BBC音乐在线乃至整个公司数据结构的一次巨大改进。关联数据不仅仅是BBC系统之间基于目标的数据资源的集成，同时也意味着将这些资源公开。为了便于用户使用BBC数据,BBC将所有的音乐网页做成了XML、YAML、JSON和RDF版[18],用户不但可以通过网页间的链接从音乐链至节目，还可以通过节目页面上的专辑曲目反向链接至音乐。"
+  },
+  "3.2.3雷诺": {
+    "context1": "雷诺是世界十大汽车公司之一，在企业信息系统的实施与应用方面卓有成效。数据存储和服务是雷诺公司信息系统架构的两大难题，关联数据的应用可为其提供有效的解决方案，从而减少公司异构系统集成和数据源整合的费用，实现“语义网的商业模式”。在技术层面上,雷诺提供了一个易于后动和链接的REST服务结构，将数据仓储作为关联数据发布，采用RDF数据模型简化了异构系统之间的交",
+    "context2": "流和整合。",
+    "context3": "在具体实施中，雷诺选择其售后维修文件部门创建的数据库开始尝试和探索。该数据库中包含文件作者在描述维修方法时可能用到的术语词典，其主要功能就是赋予所有文件对事物统一的命名方案。这些术语被译成不同语言，然后按照一个类似SKOS的层级进行分类。最后，该数据库也包含一个到不同部门的数据集的链接，每个部门负责将一列所谓“通用部分”与各个术语相连。在关联数据的应用过程当中，雷诺首先为数据库中的每个术语构建了URI，即该术语的类别名称和该术语在数据库中已有ID的结合。其次，在引用非信息资源的URI时，雷诺采用了逆向引用的方法，即当代理获得了一个非信息资源的URI，程序组件必须回应以一个303HTTP状态代码，并且重定向至最符合该请求的接收HTTPheader的偏好的信息资源的URI。最后，雷诺使用客户端的java脚本从RDF数据产生页面，通过内容和模型的清晰分离及GUI部件的重复利用减少了服务器的下载量，并且无需发送新请求到服务器即可改变客户端的显示方式[2]。",
+    "context4": "企业的异构系统集成和数据源整合代价十分高昂，使用关联数据技术可以大量减少其费用，企业在数据模型的交流、整合以及查询信息方面也将更为方便。雷诺的案例几乎完全可以重复利用并且极易拓展，不失为关联数据在企业中的一个成功应用。"
+  },
+  "4关联数据的前景与挑战": {
+    "context1": "虽然 Tim Berners-Lee早在 2006 年便提出了关联数据的概念，但由于实际应用项目的缺乏，最初一直停留在理论探讨阶段。随着链接开放数据项目的发展，越来越多的人意识到关联数据诱人的前景，雷诺、百思买等世界50O 强企业以及BBC、纽约时报等媒体巨头的加入起到了很好的示范作用，以美国国会图书馆为代表的图书馆界也纷纷行动起来。关联数据规模的增长与应用的增多正使其成为语义网强有力的支撑。",
+    "context2": "关联数据有着良好的前景，但也正面临着众多难题和挑战。只有这些挑战被克服，关联数据才能在充分发挥万维网功能并向语义网进军的道路上迈出革命性的一步。当前所面临的挑战主要有以下几个方面[7]。",
+    "context3": "（1)用户界面。目前已有的关联数据浏览器和搜索引擎的功能还十分有限。为了使用户能够更好地应用关联数据，浏览器和搜索引擎应对当前的用户交互模式进行改进，例如提供和万维网浏览器类似的前进和后退按钮，使用户能在数据网络中自由的翱翔，以及浏览器应允许用户增加或删除当前视图中的资源等。",
+    "context4": "(2)数据整合。关联数据一般来源于分布、异构的多个数据源，因此在用户浏览或作进一步处理前，应进行数据整合，但目前绝大部分的关联数据应用在此方面尚有欠缺。数据整合可分为词汇映射和数据集成，其中词汇映射是将多个词表或本体中的词汇通过一定的规则对应起来，如等同于、属于等；而数据集成则是将现实世界中某对象在数据网络中的不同含义集成为一个清晰的、稳定的表述。",
+    "context5": "(3)链接维护。关联数据网络中的数据并不是一成不变的，新的数据会不断加入，过时的数据需要修改或删除，数据之间的链接也应随之变化。虽然当前的网络结构允许死链接的存在，但过多的死链接将使客户端发出大量的无效HTTP请求，从而影响数据网络的效率。可供考虑的解决方案有：定时对数据链接进行扫描检查；建立一个注册中心，当有数据发生变化时，由注册中心通知和其有链接关系的其他数据源。",
+    "context6": "(4)隐私保护。近年来，随着众多“人肉搜索\"事件的出现，网络中的隐私保护成为人们关注的话题。关联数据的目标是将不同来源的数据整合到一起，这就为侵犯隐私提供了机会。如何在更快更好地获取信息的同时保护好个人隐私成为实际应用中的一个难题。关联数据环境中的隐私保护需要技术和法律手段相结合，同时也需要用户增强保护自身隐私的意识，在适当的场合提供适当的个人数据。"
+  },
+  "5结语": {
+    "context1": "关联数据作为语义网的一种实现方式，将领导一场深刻的网络革命。它通过发布和链接网上的结构化数据使得来自不同领域的数据相互关联，从而促进了万维网的发展。通过使用URI定义资源，将HTTP协议作为检索机制以及使用RDF数据模型描述资源，关联数据具有坚实的技术基础、完整的系统结构和简便的发布方式。关联数据的应用以无限的全球数据空间为运行环境，这使得它们能够将更加完整的内容作为新的数据源发布到网上。随着关联数据规模的不断扩展，其在企业、图书馆和政府部门当中的应用也日益广泛。"
+  },
+  "参考文献": {
+    "context1": "1 Alexandre Passant,Philippe Laublet, John G.Breslin, Stefan Decker.A URI is worth a thousand tags: from tagging to linked data with MOAT [J]. International Journal on Semantic Web and Information Systems, 2009, 5(3): 71-94.   \n2 Aman Shakya, Hideaki Takeda,Vilas Wuwongse. Community-driven linked data authoring and production of consolidated linked data [J].International Journal on Semantic Web and Information Systems,2009,5(3): 23- 48.   \n3Franois -Paul Servant. Linking enterprise data[EB/OL]. http://events.linkeddata.org/ldow2008/papers/21 -servant-linking-enterprise-data.pdf,2010-03-06.   \n4Structured Dynamics LLC.Linked Data FAQ[EB/OL]. http://structureddynamics.com/linked_data.html,2010- 03-06.   \n5W3C.Linking Open Data [EB/OL]. http://esw.w3.org/ SweoIG/TaskForces/CommunityProjects/LinkingOpenData,2010-03-06.   \n6 Tim Berners-Lee.Linked data [EB/OL]. http://www.w3. org/DesignIssues/LinkedData.html,2010-03-06.   \n7Christian Bizer, Tom Heath,Tim Berners-Lee.Linked data-the story so far[J]. International Journal on Semantic Web and Information Systems,2009,5(3): 1-22.   \n8 潘有能,丁楠.基于本体的组织知识地图构建研究[J].情",
+    "context2": "报科学,2008,26(12): 1856-1860.",
+    "context3": "9Chris Bizer, Tobias Gau?.Disco - Hyperdata Browser [EB/OL]. http://www4.wiwiss.fu-berlin.de/bizer/ng4j/dis",
+    "context4": "co,2010-03-06.   \n10 Gong Cheng, Yuzhong Qu. Searching linked objects with Falcons: approach, implementation and evaluation [J].Internation Journal on Semantic Web and Information Systems,2009,5(3): 49-70.   \n11Anders Sderbck,Martin Malmsten.LIBRIS - Linked Library Data[J].Nodalities,2008,(5):19-20.   \n12 Ed Summers,Antoine Isaac,Clay Redding,Dan Krech. LCSH,SKOS和关联数据[J].姚小乐，刘炜,译.现代图 书情报技术,2009,(3):8-14.   \n13谷奥.Google 添加Facebook Share和RDFa标签支持 [EB/OL]. http://www.google.org.cn/posts/supporting-face book-share-and-rdfa-for-videos.html,2010-03-06.   \n14 Google.标记结构化数据[EB/OL].http://www.google.com/ support/webmasters/bin/answer.py?answer=99170,2010 -03-06.   \n15 Google.Flash and other rich media files [EB/OL].http: //www.google.com/support/webmasters/bin/answer.py?hl= cn&answer=72746,2010-03-06.   \n16 Kingsley Idehen. BBC linked data meshup in 3 steps [EB/OL]. http://www.openlinksw.com/dataspace/kidehen @openlinksw.com/weblog/kidehen@openlinksw.coms% 20BL0G%20%5B127%5D/1560,2010-04-12.   \n17 Guy Strelitz. Music beta and linked data[EB/OL].http: //www.bbc.co.uk/blogs/radiolabs/2008/07/music_beta_an d_linked_data.shtml,2010-04-12.   \n18Martin Belam.A history of linked data at the BBC[EB/ OLl.http:/logs.journalism.co.uk/editors/2010/02/24/ahistory-of-linked-data-at-the-bbc,2010-04-12.",
+    "context5": "(责任编辑：徐波）"
+  },
+  "（上接第97页）": {
+    "context1": "Westport:Libraries Unlimited,2004:1-22.  \n15Andrews J,Law D.Digital Libraries:Policy,PlanningandPractice[M].Aldershot:AshgatePublishingLimited,2004:113-126.  \n16Fuhr N.Evaluation of digital libraries［J].InternationalJournal of Digital Libraries,2007,8(1):21-38.  \n17严奇.中国电站装备企业信息化战略研究[D].南京：东南大学博士学位论文,2007.  \n18迟国泰，隋聪,齐菲.基于超效率DEA的科学技术评价模型及其实证[J].科研管理,2010,(2):94-104.  \n19张浩，徐宣国.基于DEA的造船企业经营效率分析评价[J].系统管理学报,2010,(1):49-55.  \n20罗登跃.基于DEA的大中型工业企业自主创新绩效评价[J].科技管理研究,2009,(12):337-340.  \n21王家庭，张容.基于三阶段DEA模型的中国31省市文化产业效率研究[J].中国软科学,2009,(9):75-82.  \n22何静.只有输出(入)的数据包络分析及其应用[J].系统工程学报,1995,10(2):33-37.  \n23李光金，黄韬，岳琳.仅有产出的多目标DEA及其应用[J].四川大学学报(工程科学版）,2001,33(1):113-115.  \n24Richard O.Duda等著,李宏东等译[M].北京：机械工业出版，2003:33-35.  \n25吴建华．数字图书馆评价方法[M].北京：科学出版社，2009:218.  \n26余建英,何旭宏.数理统计分析与SPSS应用[M].北京：人民邮电出版社,2005：355.  \n27李怀祖.管理研究方法论[M].西安：西安交通大学出版社，2005:255.",
+    "context2": "（实习编辑：杨洋)"
+  }
+}

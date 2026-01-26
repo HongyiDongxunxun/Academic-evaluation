@@ -1,0 +1,121 @@
+{
+  "original_filename": "full_442.md",
+  "MPEG-21多媒体框架标准最新进展 \\*": {
+    "context1": "孔敬",
+    "context2": "中国科学院文献情报中心北京100080",
+    "context3": "中国科学院研究生院北京100039",
+    "context4": "保向东",
+    "context5": "北京电影学院图书馆北京100088",
+    "context6": "[摘要]介绍MPEG-21多媒体框架标准制定的最新进展情况，对该标准已开发完毕和正在开发中的18个部分进行简单说明;归纳总结 MPEG-21标准的总体框架结构,描述该标准18个部分间的相互关系；简要分析MPEG-2IDIDL作为一种基于XML的复合数字对象打包标准规范在数字图书馆中的应用现状，并对MPEG-21标准在数字图书馆中的应用前景作一展望。",
+    "context7": "[关键词］MPEG-21多媒体框架标准数字图书馆",
+    "context8": "〔分类号]G250.76 TN919.81"
+  },
+  "New Progresses on MPEG - 21 Multimedia Framework Standard": {
+    "context1": "Kong Jing",
+    "context2": "Library of Chinese Academy of Sciences，Beijing 100080",
+    "context3": "Graduate School of Chinese Academy of Sciences，Beijing 100039",
+    "context4": "Bao Xiangdong",
+    "context5": "Libraryof Beijing Film Academy，Beijing 100088",
+    "context6": "〔Abstract）Thispaper introducestherecentdevelopmentofMPEG-21MultimediaFrameworkStandard.Thenitbrieflydescribesthe 18partsofthe MPEG-21Standard.Inadition,thearchitectureof theMPEG-21Standardandtherelationshipofthese18partsare alsodescribed inthispaper.Fialy，theapplicationstatusofMPEG-21DIDLusedasanXML-packagingspeeifcationinthedigitallibraryispresentedandanalyzed,andtheapplicationprospectoftheMPEG-21Standardindigial librariesisdescribed.",
+    "context7": "[Keywords]MPEG-21multimedia frameworkstandarddigital library"
+  },
+  "1引言": {
+    "context1": "MPEG-21多媒体框架是正在制订中的关于多媒体信息发布和使用的国际标准，其制订工作始于2000年6月。MPEG-21标准旨在创建一个开放的多媒体传输和消费的框架，通过将不同的协议、标准和技术结合在一起，使用户在现有的大范围的各种网络和设备上透明地、广泛地使用多媒体资源。MPEG-21标准的内容主要是围绕着多媒体内容的传送与消费链中所产生的各种需求技术而制订。该标准的制订将对多媒体内容传送与消费链中的各个参与者（如多媒体内容的生产者、分发者、服务者和消费者等)产生重大影响，将改变他们的生产制作技术、运营方式和消费方式等。MPEG-21从开始制订以来，就引起了电视广播业、工业电视业、家用信息产品业、通信业等多个行业的极大关注。它也将是数字图书馆进行多媒体信息的组织、管理、收藏和服务所需要考虑的重要标准。虽然MPEG－21从提出以来就已在电视技术、计算机技术等领域引起了许多研讨，但图书馆学界对其鲜有介绍。另一方面，MPEG-21是一个正在制订中的标准，目前已由最初提出时的9个部分，发展到现在的18个部分，而国内现在关于MPEG-21标准的讨论多是基于一两年前开发的内容。因此，笔者拟在此介绍MPEG-21多媒体框架标准开发的最新进展，简述该标准当前已开发完毕和正在研发中的各部分标准的内容，并对该标准在数字"
+  },
+  "第49卷第9期2005年9月": {
+    "context1": "![](images/edea8adadcb85ce6ac94b9f468acaf9af4da19ada04551d0937af0971f48a10d.jpg)  \n图1MPEG-21标准各子部分甲请和开发完成时间",
+    "context2": "注：21000-X—--MPEG-21的各个子部分,X为1到18Req.for Subdiv.一—申请作为MPEG-21标准子部分的报告",
+    "context3": "图书馆中的应用前景作一展望。"
+  },
+  "2MPEG-21标准的基本概念及最新进展": {
+    "context1": "在MPEG-21多媒体框架中有两个基本概念：一是进行分发和事务处理的基本单元\"数字项\"的定义；二是与“数字项\"进行交互的“用户\"的概念。“数字项”即结构化数字对象，是一个结合了其标准化的表示、标识和元数据的结构化数字对象。“用户\"是在MPEG-21环境中与“数字项\"进行交互或使用\"数字项\"的所有主体，如数字项的生产者、权利拥有者、分发者和消费者等。在两个基本概念的基础上，MPEG-21将其目标描述为：定义一种技术，来支持用户以有效、透明和可互操作的方式进行数字项的交换、访问、消费和交易等多种作用于数据项的操作。",
+    "context2": "从1999年12月MPEG-21标准被提出以来，经过5年的研究，用来实现MPEG-21标准目标的各种技术被陆续提出并反映到MPEG-21标准的各个组成部分中,到2005年1月为止，已有18个组成部分被开发或正在开发之中，图1展示了这18个部分的申请与开发完成时间。图中横杠为时间线，时间线下方为各部分标准的申请时间，时间线上方为各部分国标标准最终草案(FDIS)或技术报告草案(DTR)形成的时间。由图1可知，目前已形成FDIS或DTR的MPEG-21子部分有：第一部分“全景、技术与策略\"第一版和第二版、第二部分“数字项声明”、第三部分“数字项标识”、第五部分\"权利描述语言”、第六部分“权利数据字典”、第七部分“数字项适配”、第九部分“文件格式”、第十一部分\"长期关联技术评估方法\"和第十二部分“MPEG-21资源传递试验台”,共9个部分标准,其中第一、第十一和第十二部分是技术报告草案(DTR)。其他9个部分目前仍在开发之中。各部分标准相对独立，这样的组织结构使各类用户可根据实际需要灵活采用其中的部分，而在MPEG-21多媒体框架中作为一个整体使用时，各个部分间可进行优化，提升系统性能。",
+    "context3": "从2005年1月ISO/IECMPEG第71届会议决议的报告中，可知MPEG－21标准的各个组成部分的当前开发状况，如表1所示。需要说明的是，在表中未列出前述已形成FDIS或DTR的MPEG-21各部分，但对于这些部分正在开发中的第二版、修正案或勘误表则在表中进行了介绍。此外，MPEG-21标准的第十三部分“可伸缩性视频编码（ScalableVideoCoding,SVC)\"将改入到MPEG-4标准的第十部分修正案中进行，因此也未在表中列出。",
+    "context4": "表1MPEG-21标准各子部分当前开发状态与预期完成时间  \n注：",
+    "context5": "<table><tr><td rowspan=1 colspan=1>部分编号</td><td rowspan=1 colspan=1>开发版本</td><td rowspan=1 colspan=1>内容描述</td><td rowspan=1 colspan=1>当前状态2005年1月</td><td rowspan=1 colspan=1>预期提交FDIS/FDAM/DTR时间</td></tr><tr><td rowspan=1 colspan=1>21000-2</td><td rowspan=1 colspan=1>2nd Ed.</td><td rowspan=1 colspan=1>Digital Item Declaration</td><td rowspan=1 colspan=1>FCD</td><td rowspan=1 colspan=1>2005/04</td></tr><tr><td rowspan=1 colspan=1>21000-3</td><td rowspan=1 colspan=1>Amd.1</td><td rowspan=1 colspan=1>Related Identifier Terms</td><td rowspan=1 colspan=1>PDAM</td><td rowspan=1 colspan=1>2006/01</td></tr><tr><td rowspan=1 colspan=1>21000-4</td><td rowspan=1 colspan=1>1st Ed.</td><td rowspan=1 colspan=1>IPMP Components</td><td rowspan=1 colspan=1>CD</td><td rowspan=1 colspan=1>2005/07</td></tr><tr><td rowspan=1 colspan=1>21000-6</td><td rowspan=1 colspan=1>Cor.1</td><td rowspan=1 colspan=1>RDD Cor.</td><td rowspan=1 colspan=1>COR</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>21000-7</td><td rowspan=1 colspan=1>Amd.1</td><td rowspan=1 colspan=1>DIA Conversions and Per-missions</td><td rowspan=1 colspan=1>FPDAM</td><td rowspan=1 colspan=1>2005/07</td></tr><tr><td rowspan=1 colspan=1>21000-8</td><td rowspan=1 colspan=1>1st Ed.</td><td rowspan=1 colspan=1>Reference Software</td><td rowspan=1 colspan=1>FCD</td><td rowspan=1 colspan=1>2005/04</td></tr><tr><td rowspan=1 colspan=1>21000-10</td><td rowspan=1 colspan=1>1st Ed.</td><td rowspan=1 colspan=1>Digital Item Processing</td><td rowspan=1 colspan=1>FCD</td><td rowspan=1 colspan=1>2005/04</td></tr><tr><td rowspan=1 colspan=1>21000-14</td><td rowspan=1 colspan=1>1st Ed.</td><td rowspan=1 colspan=1>Conformance Testing</td><td rowspan=1 colspan=1>WD</td><td rowspan=1 colspan=1>2006/01</td></tr><tr><td rowspan=1 colspan=1>21000 -15</td><td rowspan=1 colspan=1>1st Ed.</td><td rowspan=1 colspan=1>Event Reporting</td><td rowspan=1 colspan=1>CD</td><td rowspan=1 colspan=1>2005/07</td></tr><tr><td rowspan=1 colspan=1>21000 -16</td><td rowspan=1 colspan=1>1st Ed.</td><td rowspan=1 colspan=1>Binary Format</td><td rowspan=1 colspan=1>FCD</td><td rowspan=1 colspan=1>2005/04</td></tr><tr><td rowspan=1 colspan=1>21000-17</td><td rowspan=1 colspan=1>1st Ed.</td><td rowspan=1 colspan=1>Fragment Identification forMPEGMedia Types</td><td rowspan=1 colspan=1>CD</td><td rowspan=1 colspan=1>2006/01</td></tr><tr><td rowspan=1 colspan=1>21000-18</td><td rowspan=1 colspan=1>Ist Ed.</td><td rowspan=1 colspan=1>MPEG-21 Schemas</td><td rowspan=1 colspan=1>Req.forSubdiv.</td><td rowspan=1 colspan=1></td></tr></table>",
+    "context6": "Amd.一修正版 Cor.一勘误表 WD-工作草案CD一委员会草案 FCD—委员会最终草案 PDAM一修正提案FPDAM一最终修正提案FDAM一最终修正案 COR一勘误表Req.for Subdiv.—MPEG-21子部分请求报告"
+  },
+  "3MPEG-21各部分标准内容简介": {
+    "context1": "以下分别简要介绍已正式批准申请为MPEG21标准的"
+  },
+  "18个子部分。": "",
+  "3.1第一部分:全景、技术和策略(Vision，Technol-ogies and Strategy）": {
+    "context1": "是一个技术报告,描述了多媒体框架及其结构组成与相应的功能需求规范说明。多媒体框架包括三个部分： $\\textcircled{1}$ 全景（vision）。全景勾画出多媒体框架的目标是在跨越大范围网络和设备的环境下，满足所有用户透明和广泛地使用多媒体资源的需求。 $\\textcircled{2}$ 方法（method）。方法完成各种标准和组件的集成，推动各种技术的协调,这些技术包括内容的创建、管理、操作、传送、分发和消费。 $\\textcircled{3}$ 策略(strategy）。策略通过与其他团体合作,在良好的功能需求基础上开发完成多媒体框架的各个规范说明和标准。MPEG-21第一部分已于2004年发布了第二版，取代了2001年发布的第一版。"
+  },
+  "3.2第二部分：数字项声明（Digital Item Declara-tion,DID)": {
+    "context1": "描述了一系列用于定义数字项、形成一个有用模型的抽象术语和概念。在这个模型中，数字项(DI)是一个资产（as-set)的数字表示，同时，也是各种诸如管理、描述、交换和收集等操作的对象。这个模型是在MPEG-21其他组成部分中构建更高一级模型的关键基础，如在第三部分“数字项的标识与描述(DII)”、第四部分\"知识产权管理与保护（IPMP)”和第十部分“数字项处理(DIP)\"等中构建更高一级的模型。它相当于一个连接其他高层次功能的“挂钩\"（hook），如图2所示。这个模型没有定义自己的语言，而是采用XML标记语言，提供了一套公用的抽象概念和术语，用于定义DID的模式或完成已存在的DID 模式间的映射等。DID共包含三个标准化的部件： $\\textcircled{1}$ 模型（model)。模型描述了一套用于定义数字项、形成有用模型的抽象术语和概念。 $\\textcircled{2}$ 表示（repre-sentation）。即每个DID元素的语法与语义的标准化描述，以XML表示。 $\\textcircled{3}$ 模式（schema）。模式是标准化的XMLSche-ma,包含以XML表示的DID的全部文法。DID第一版共定义了container、item、component、descriptor、resource 等 14 个基本元素，来表示模型的抽象概念。这些元素的关系示例见图2。其中每一个descriptor 就相当于一个连接其他MPEG－21模型(如DII、IPMP/REL、DIA、DIP)的 hook,将这些部分连接进入 $\\mathbf { D I D }$ 。这些部分的模型说明表示将在后面相应各部分介绍。"
+  },
+  "3.3第三部分：数字项标识(Digital Item Identifica-tion,DII)": {
+    "context1": "包含三个部分的内容： $\\textcircled{1}$ 唯一标识的可能性。即是否能唯一地标识数字项、数字项中的各个组成部分以及其他实体与关系，例如与数字项相关的抽象等。DII提供了一个模式，这个模式被用来将标识包含进入数字项声明(DID)中，见图2。 $\\textcircled{2}$ 如何用XML命名空间唯一标识各个描述模式(descrip-tionschemas）。这一部分完成了数字项及其各个部分元数据的关联，对数字项及其各部分进行了较好的描述说明。 $\\textcircled{3}$ 标识数字项类型的方法。DII规范并没有自己新的标识系统，而是集成现有的标识系统和描述模式。它允许现存的和新建的标识系统通过一个权威注册机制集成到MPEG-21中。例如，DII并不试图替代声像出版号的ISRC,而是允许ISRC在MPEG-21中使用。简而言之，第三部分DII用于解决以下问题：如何唯一标识数字项及其各个子部分;如何唯一标识与数字项及其各子部分相关的实体与关系，例如与数字项相关的抽象等;如何唯一标识描述模式;如何用标识符将数字项的相关信息，如数字项的描述性元数据连接到该数据项；如何标识数字项类型。",
+    "context2": "3.4第四部分：知识产权管理与保护（Intellectual PropertyManagement and Protection,IPMP)",
+    "context3": "定义知识产权管理与保护的互操作性，在数字项的整个生命周期中控制其传送和使用。它包括从远程位置检索IPMP工具的标准化方法和在IPMP工具间以及在这些工具与终端间交换消息的标准化方法。它也注重IPMP工具的认证,提供方法集成按照MPEG-21第六部分（Rights Data Dictionary,RDD)和第五部分（Rights Expres-sionLanguage,REL）表示的权限。",
+    "context4": "![](images/db740b2b7a8d89838bb9ef427299a8c358c18ed441653d45dd1c6d7ab5848ff2.jpg)  \n图2数字项抽象模型:DID、DII、IPMP/REL、DIA 和DIP关系示例",
+    "context5": "它由两部分组成： $\\textcircled{1}$ 知识产权管理与保护数字项声明语言（IPMPDigital ItemDeclarationLanguage）,用于提供DID模型的保护表示，见图2。 $\\textcircled{2}$ 知识产权管理与保护信息模式（IPMPInformationschemas）,定义了与内容保护相关的表示信息的结构，包括工具、机制和授权等。"
+  },
+  "3.5第五部分：权利表示语言（Rights ExpressionLanguage,REL)": {
+    "context1": "是一种机器可读的语言，它能使用RDD所定义的术语来声明权利和许可。其意图是提供一个灵活的可互操作机制，以保证个人数据按照其相应的个人权利被处理，同时满足用户表达他们权利与利益的需求。",
+    "context2": "REL定义了四个概念化抽象元素： $\\textcircled{1}$ 主要参与者（prin-cipal），用于标识授权或消费权利活动的参与者.例如人或设备等； $\\textcircled{2}$ 权利(right），表示许可执行的动作，例如播放、打印等； $\\textcircled{3}$ 资源(resource）,表示被授权使用的对象，例如一份多媒体内容、一个数字项、一项Web 服务、一个名字或一个email地址； $\\textcircled{4}$ 条件（condition），说明使用数字项的限制，表示一些术语、条件和义务，用于约束许可的执行。这四个元素表示了用于传送权利的抽象概念，但在实际的权利表示中，出现的是由这四个概念化抽象元素所衍生出的具体元素，而不是这四个抽象元素。每一个简单授权（primitivegrant）由这四个抽象元素各衍生一个具体元素构成。--个完全的权利表示称为许可(license），由一到多个授权（grant）和一个发布者(issuer)元素组成，见图3。一个发布者元素可有两个组成部分： $\\textcircled{1}$ principal或signature用于标识谁发布了这一许可；$\\textcircled{2}$ 与许可发布有关的细节，例如发布的时间、作废机制等。这样的权利（right）模型通过descriptor被连接包括进 DID中，见图2。",
+    "context3": "![](images/2b3b882784e386ca0b629e3494303bec2b78a26f51ca67026d6e5fc8950c0a03.jpg)  \n图3许可(license)和授权(grant）的结构（引自参考文献1）",
+    "context4": "REL用于支持和保证不同系统与服务间端对端的互操作性、一致性和可靠性。为此，它必须提供：在声明权利、条件和义务时的丰富与扩展性；在标识和建立这些权利、条件和义务与数字内容的关联时的便易性和一致性；在支持多种使用和商业模式时的灵活性。因此,REL也允许其他系统通过定义它们自己的具体元素来扩展REL语言，通过在许可(license)结构上指定附加规则和指定它们自己具体元素的类型来配置REL语言。扩展（extension）和配置文件（pro-file)被用来优化REL在特定应用中的应用能力，同时保证与其他工具和系统间的互操作性。语言的扩展处理允许个人根据其所属特定领域的需要而定义语言的元素，包括新的短语（verb)和模式元素（schematicelements）。同时,MPEG-21的RDD被开发出来以保证在互操作过程中新verb的语义被正确清晰地理解。语言的配置处理允许个人只选择语言的部分应用到他们的特定应用中。这就解决了在REL中不同的应用需要不同层次的复杂性和灵活性的问题。"
+  },
+  "3.6第六部分：权利数据字典(Rights Data Dictiona-ry,RDD)": {
+    "context1": "包含了一套清晰、一致、结构化、集成和唯一标识的术语，用于支持 $\\mathbf { M P E G } - 2 1 ~ \\mathbf { R E L } ,$ 。该部分指定了字典的结构及创建字典的方法。由此，通过这种方法定义的更多术语也能被解释。",
+    "context2": "RDD是一个说明性的字典,它为每一个由RDD名字或头文字所表示的术语定义了单一的意义。它能识别其他头文字的指示和其他授权机构所作的定义，并通过映射将它们合并。但同一个名字在不同的授权机构可能有不同的意义。此外，RDD规范说明提供审计功能，能跟踪对术语及其属性的增加、修改和删除。RDD识别的法律性定义只包括被映射到RDD中由其他授权机构所定义的术语。因此,由RDD 直接授权的术语既不定义也不规定知识产权或其他法律实体。",
+    "context3": "RDD 同时提供REL中所使用术语的定义。它支持自动或半自动地将一个名字空间的元数据，以最小的模糊性和最大的语义完整性映射、转换到另一个名字空间。"
+  },
+  "3.7第七部分：数字项适配（Digital Item Adapta-tion,DIA)": {
+    "context1": "提出了数字项适配引擎的概念。数字项适配引擎包括资源适配引擎和描述适配引擎，它们共同将原始数字项改变为当前环境设备能使用的已适配数字项,使用户能在大范围网络和终端上对分布式复杂多媒体内容进行互操作和透明地访问,同时对用户屏蔽了各种网络和终端的安装、管理和实现问题。这部分标准主要指定了适配引擎中涉及提供的工具。需要说明的是数字项适配引擎本身并不是标准化的数字项适配工具(DIAtool)。其标准化的内容是提供根据资源适配、描述适配或服务质量管理等进行数字项适配的描述和格式独立机制，见图4。目前已规范的DIA工具主要有8类： $\\textcircled{1}$ 使用环境描述工具（the Usage Environment DescriptionTools）; $\\textcircled{2}$ 比特流语法描述链接（Bitstream Syntax Description",
+    "context2": "Link）; $\\textcircled{3}$ 比特流语法描述工具（Bitstream Syntax Descriptiontools) ; $\\textcircled{4}$ 终端与网络服务质量(Terminal and Network Qualityof Service）; $\\textcircled{5}$ 通用约束描述工具（Universal Constraints De-scription Tools）; $\\textcircled{6}$ 元数据适配性（MetadataAdaptability）； $\\textcircled{7}$ 会话移动性（Session Mobility）； $\\textcircled { 8 } \\mathbf { D 1 A }$ 配置工具（DIA Config-uration Tools）。"
+  },
+  "3.8第八部分：参考软件（Reference Software,Ref-Sw)": {
+    "context1": "是MPEG-21已开发规范说明的各部分的软件实现。这些软件用于验证、解释说明这些已开发的各个部分规范说明,并针对各种应用做一致性测试,检查其互操作性。除上述类型参考软件外，还有一类实用软件（utility software），用来演示如何在各种应用场景中使用参考软件。"
+  },
+  "3.9第九部分：文件格式(File Format,FF)": {
+    "context1": "规定了MEPG-21的文件格式。一个MEPG-21数字项是一个复杂的多媒体信息对象，它既包括静态和动态媒体（如图片和影片），又包括数字项的信息、元数据和配置信息等。它既包括文本数据（如XML)，又包括二进制数据（如MEPG-4对象或静态图片）。因此,MEPG-21文件格式将继承MEPG-4的一些概念，以便能够制作多用途（multi-purpose)文件。例如,一个MP4 和 MP21 双用途(dual-pur-pose)文件,将只能在MP4 播放器上播放 MP4 数据，而在MP21播放器上播放MP21数据。此部分定义的一个“资源地图”，允许在同一个文件或文件中包含多个参考资源，以便实行这些资源的系统级管理（如把这些资源合并到一个文件，或进行文件压缩等)。同时，DID和资源也能被保护。"
+  },
+  "3.10第十部分：数字项处理（Digital Item Process-ing,DIP)": {
+    "context1": "其标准化允许在数字项的处理级别上进行互操作，将数字项的动态属性说明加入到数字项的静态声明中，见图2。也就是说，以XML定义的数字项是一个静态的声明，但是",
+    "context2": "![](images/33b76730a7eb915e9e87529977c656190d609fa170e8a905f47d8744b4b68201.jpg)  \n图4数字项适配示意(引自参考文献5）",
+    "context3": "DIP中的数字项方法（DigitalItemMethods）允许用户将功能加人到数字项声明(DID)中，给用户提示了与数字项进行交互的方法。数字项处理结构的主要思想是：在收到一个DID时,能够给用户提供一个适用于该数字项的DI方法列表。用户选择一个方法,然后由DIP引擎执行。"
+  },
+  "3.11第十一部分：长期关联技术评估方法(Evalua-tion Methods for Persistent Association Technologies,PAT)": {
+    "context1": "是一个技术报告，用于指导对长期关联技术的评估。长期关联技术就是使用内容本身将信息链接到标识和描述内容的技术，是用来管理内容的辨认与描述的所有技术。它包括在不同的内容文件和传输格式的上下文间加载标识鉴别符,如文件头和嵌入到内容中的水印等符号。它也包括将标识符关联到内容的能力，以保护内容不受未经授权的移除和修改。",
+    "context2": "本部分标准并不包含任何标准化的行为，它的目的是允许用一个公共的方法来指导对这些技术的评估，而不是要这些技术本身标准化。它包括以下两方面的结果：一是适当的技术测试将预测其在现实条件下的性能;二是比较用同样的方法实施其他测试所获得的结果。目前这一技术报告着重于两类技术的评估，即应用到声频的水印和指纹技术。未来将增加对包括静态图片在内的其他多种媒体形式的水印和指纹技术的评估。"
+  },
+  "3.12第十二部分：MPEG-21资源传递试验台（Test Bed for MPEG-21 Resource Delivery,TestBed）": {
+    "context1": "主要由一个流播放器、一个媒体服务器和一个IP网络仿真器组成。这部分标准描述了试验平台各个组件的API,便于构建面向开发过程的组件。它提供了一个基于软件的测试平台，用于可伸缩性媒体传递的传递和在流环境下该可伸缩性媒体传递的测试与评估。简单地说，此平台提供了一个灵活和良好的评估测试环境，用于评测在IP网络上传递MPEG内",
+    "context2": "容的可伸缩性媒体流技术。",
+    "context3": "3.13第十三部分：可伸缩性视频编码(ScalableVideo Cod-ing,SVC)",
+    "context4": "定义了一个新的高压缩性能的可伸缩性视频编码技术。改进的可伸缩性编码技术的潜在应用实例有：互联网上的视频、无线局域网上的视频和移动系统的视频，可用作生活广播、特定视频对象解码和对话型视频服务，如可视电话、电视会议以及多频道内容生产和分发，监视和存储应用和内容层次化保护等。"
+  },
+  "3.14第十四至十八部分": {
+    "context1": "3.14.1第十四部分：一致性测试（Conformance Testing,Conf.）是对MPEG-21各个部分进行一致性测试的规范说明。",
+    "context2": "3.14.2第十五部分:事件报告（EventReporting,ER）包括三个部分的说明： $\\textcircled{1}$ 如何表达事件报告请求（Event Report Requests,ER-R),其包含的信息有：哪些事件需要报告；什么信息需要报告;报告给谁等； $\\textcircled{2}$ 如何表达事件报告，当事件报告请求的条件满足时，此报告由一个MPEG-21用户响应该事件报告请求而生成； $\\textcircled{3}$ 如何使用数字项打包事件报告和事件报告请求。",
+    "context3": "3.14.3第十六部分：二进制格式（BinaryFormat,BF）用于规范说明MPEG-21中其他基于XML标准化描述部分的二进制格式，使MPEG-21描述能够有效地交换和存储。",
+    "context4": "3.14.4第十七部分:MPEG媒体类型片断标只（FragmentI-dentification forMPEGMedia Types,Frag.） 指定说明了一套标准化语法，用于描述URI片断标识符。该标识符用于寻找定位其媒体文件类型为MPEG声频或视频资源的某一个片断部分。",
+    "context5": "3.14.5第十八部分:MPEG-21模式文件（MPEG－21SchemaFiles）是MPEG-21的最新成员部分,2005年1月提出申请。"
+  },
+  "3.15小结": {
+    "context1": "综上所述，MPEG-21标准的范围可描述为跨越大范围网络和设备来透明而广泛地使用多媒体内容的关键技术的集成。它可以用于支持如下功能：内容创建、内容生产、内容分发、内容消费与使用、内容包装、知识产权管理与保护、内容标识与描述、财务管理、用户隐私、终端与网络资源的抽象、内容表示和事件报告。在MPEG-21标准中，内容是由数字项概念来表示的，围绕数字项的声明、标识、描述、知识产权管理保护、适配环境、处理方法等等，已提出了18个部分的标准，整个MPEG-21标准的组织结构如图5所示。图中与第二部分相连，包含在第十五部分中的各部分标准，即第二、第三、第四、第五、第六、第七、第十、第十五、第十七部分，都是基于XML表示，由在第二部分中所定义的MPEG-21DIDL连接进人DID数字项声明中，打包形成复合数字对象——数字项(DI)。"
+  },
+  "4MPEG-21在数字图书馆中的应用展望": {
+    "context1": "当今信息时代，计算机技术迅猛发展，因特网大规模普及，海量多媒体数字信息逐渐深入到现代社会人们的工作生活中。人们对多媒体数字信息的制作与消费日益广泛，并且向着数字化、网络化、全球化方向发展。每一个人都是潜在的与多媒体内容进行交互的网络元素，构成了成千上万的多媒体内容提供者、增值者、包装者、服务提供者、消费者和销售者。MPEG-21多媒体框架标准就是为了方便实现上述活动而开发的。而数字图书馆作为多媒体数字信息的服务提供者之一，也需要对正在开发中的MPEG-21标准进行了解与研究。实际上，已有数字图书馆开始尝试将MPEG-21标准应用到其系统开发中。如LANL（LosAlamosNationalLaboratory)数字图书馆就采用MPEG-21DID表示其复合数字对象，并结合MPEG-21DIP和OpenURL动态分发复合数字对象。目前，相对于其他XML打包复合数字对象的方法，如METS、SCORM等,MPEG-21DIDL在数字图书馆中的应用还较少。这主要是由于MPEG-21标准不能在网上免费获得，以致其在数字图书馆领域所引起的关注和应用研究不多。但可以预见，MPEG-21标准对数字图书馆的复合数字对象打包、分发、传递以及多媒体数据库系统开发与服务模式将产生重大影响。未来，随着MPEG-21标准在多媒体产品和设备生产、制造、服务等行业的推广应用，该标准势必将在数字图书馆中得到广泛应用。",
+    "context2": "![](images/ece65266f8466b78dbc0d9c3656375f18bf22adf657180c58f3ec977d7410846.jpg)  \n图5MPEG-21标准框架组织结构"
+  },
+  "参考文献：": {
+    "context1": "1U.S.Department of Commerce．Statistical Abstract of the UnitedStates:2002  \n2 OCLC.OCLC Annual Report:2003/2004  \n3Library Research Service.[2004-12-19]． htp://www.lls.org  \n4 黄长著，霍国庆、我国信息资源共享的战略分析．中国图书馆学报,2000(3):3-11  \n5沈国琴，汤竞南．德国图书馆间的合作．图书馆杂志，1998,17(2):56-58  \n6黄长著等主编．面向21世纪的中国图书情报网络化研究报告.北京：北京图书馆出版社,2002"
+  },
+  "3.2图书馆所在区域的区位发展": {
+    "context1": "图书馆所在区域的区位发展条件也是中心图书馆形成的重要因素。虽然文献信息资源分布是决定中心图书馆形成的决定性因素，但是文献资源的分布也受到区域社会经济文化发展状况的制约。不言而喻，地区经济发展水平是影响文献资源分布的重要因素。上文引用的统计资料表明，我国文献资源的分布呈现出向发达地区倾斜的态势。总体而言，经济发达地区的文献占有量远远大于经济欠发达地区，形成明显地向东部沿海发达地区倾斜的地理分布特征，这就证明了经济发展水平对文献资源的分布及对区域性中心图书馆的形成具有重要影响。另外，一个地区的文化发展水平，特别是历史文化发展积淀也对文献信息资源的分布产生重要影响。例如，陕西省的经济发展水平不如沿海地区，但是该地区具有十分浓厚的文化积淀，其文化发展水平,无论是文化艺术，还是教育、出版等方面都居于全国前列，这就使得陕西成为文献信息资源的重要集散地区。地理区位因素中对文献信息资源的分布产生重要影响的方面，还包括该地区的政治资源和历史资源。显然，区域性的政治中心有利于信息资源的积累，我国的大型图书馆主要集中在省会城市就是一个很好的佐证。历史资源也是文献积累的条件，例如，南京之所以能成为全国重要的文献信息资源集散中心，就和该城市独特的历史发展过程有着很大的关系。"
+  },
+  "3.3技术条件的制约": {
+    "context1": "中心图书馆的一项重要功能就是作为网络中心与其他图书馆建立密切的联系。与其他图书馆有效沟通是中心图书馆赖以发挥作用的基础，特别是现代图书馆网络已经完全依赖计算机网络，如果缺乏坚实的网络基础设施，很多图书馆的业务功能便无法实现。例如,2000年底，上海市文献资源共建共享协作网开通了基于Z39.50协议的广播式查询系［作者简介］杨岭雪，女,1965年生，副研究馆员，发表论文20余篇。",
+    "context2": "统，成员馆有60多家,形成了以上海图书馆为中心，连接各区县公共图书馆和高校图书馆的文献资源共享系统。该系统采用了图书馆信息检索专门协议，其功能比基于通用协议的文献资源网络和基于Z39.50协议的文献资源共享网络更加强大。由此可见，地区网络基础设施的好坏将直接影响到中心图书馆的业务开展。"
+  },
+  "4结论": {
+    "context1": "图书馆资源的聚集分布是图书馆发展的重要特征，正是这种聚集分布才使得一个地区的图书馆系统呈现出中心图书馆引导整个图书馆系统发展的格局，中心图书馆在这个系统中既是信息资源中心、网络中心，也是业务中心和人才聚集中心。中心图书馆的形成一方面是区域性信息资源分布、社会人文发展的结果，同时也不能忽视宏观政策导向的引导。合理、有效地规划中心图书馆建设是建立图书馆区域性合作体系的关键。在规划设计中心图书馆的过程中，应该遵循图书馆资源的聚集分布规律，以文献信息资源的分布状况为依据，以提高图书馆文献信息资源的获得能力为手段，切实稳妥地培育中心图书馆。"
+  },
+  "（上接第69页）": {
+    "context1": "3MPEG-21 Work Plan and Time Line.[2005-01-17]．http://www.chiariglione.org/mpeg/workplan.htm  \n4 ISO/IEC JTC 1/SC 29/WG 11．Resolutions of the 71st Meeting.[2005-02-12]．htp://www.itscj.ipsj.o1.jp/sc29/open/29view/29n64611.doc  \n5BertiniM.Teaching slide of MPEG-21.[2005-Ol-20].http://viplab.dsi.unifi.it/\\~bertini/download/MPEG21_O41104.pdf  \n6 Bekaert J,Balakireva L,Hochstenbach P et al．L sing MPEG-21DIP and NISO OpenURL for the dynamic dissemination of complexdigital objects in the Los Alamos national laboratory digital library.[2005-02-12].http://www.dlib.org/dlib/february04/bekaert/02bekaert. html  \n7Bekaert J,Hochstenbach P,Van de Sompel H.Using MPEG-21DIDL to represent complex digital objects in the Los Alamos nationallaboratory digital library．[2005-02-12]．http://www.dlib.org/dlib/november03/bekaert/l1bekaert.html  \n8 杨士强.多媒体内容的描述、管理和检索及其技术标准—一从MPEG-7到MPEG-21.现代电视技术，2004（5）：124-130  \n9汤泽滢,卢汉清．MPEG 的新发展——多媒体框架标准MPEG-21．中国图象图形学报，2003(9）：984-992"
+  }
+}

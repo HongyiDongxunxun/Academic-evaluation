@@ -1,0 +1,97 @@
+{
+  "original_filename": "full_7440.md",
+  "未来两年鸭绿江牌啤酒市场需求的趋势预测": "",
+  "张有绪": {
+    "context1": "(辽东学院工商管理学院，丹东118001)",
+    "context2": "[摘要]本文对在丹东市场上占有一定优势的鸭绿江牌啤酒的需求进行研究，利用了四种方法进行预测，得到未来两年内鸭啤需求预测值，从而预见其发展变化的趋势，为鸭啤正确把握市场的现状及其运行，进而指导生产，适应消费，提高企业的经济效益，做出科学正确的决策，提供有利的依据。",
+    "context3": "[关键词]需求预测；灰色预测；季节指数",
+    "context4": "[Abstract]Four forecasting approaches are utilized to studythe demand of Yalu Beer to generate the beer's de mand forecastsfor next two years·Furthermore，it is explainedthat howour resultscan be used tounderstand the status quo and operation of the market，to steer beer's production，to improvebusiness’economic benefits，and to make right decisions·",
+    "context5": "[Key words]demand analysis；gray forecast；seasonal index [中图分类号〕F274〔文献标识码]A〔文章编号〕1008－0821（2004）03－0211-02",
+    "context6": "丹东鸭绿江啤酒有限责任公司，是我国啤酒行业在辽宁省的定点生产厂，是丹东52户大中型企业之一。丹东鸭绿江啤酒有限责任公司是由国家法人参股 （ $16 \\%$ ）的股份制啤酒生产企业，公司占地面积58000平方米，固定资产2.3亿元，啤酒年生产能力10万吨，员工700人，企业品牌为鸭绿江牌系列产品，主要品种有：超爽型啤酒、干啤酒、特制啤酒、普通啤酒、桶装鲜啤酒等。公司产品主要销往丹东地区，部分销往朝鲜民主主义共和国及辽宁省其它城市、地区。公司下属两个子公司：丹东市九龙养殖有限责任公司、丹东元隆酒业有限责任公司。",
+    "context7": "近4年来，丹东鸭绿江啤酒有限责任公司共上缴各种税金1亿4378万元，人均上缴税金连续几年名列市级企业第一名，成为丹东市经济发展支柱企业。",
+    "context8": "本文通过对鸭啤的市场预测，不但可以了解市场的过去和现在，而且能预见其发展变化的趋势，从而正确把握市场的现状及其运行，进而指导生产，适应消费，提高企业的经济效益，做出科学正确的决策，促进鸭啤业的发展。",
+    "context9": "对于未来两年内鸭啤的需求量，我们分别采用以下几种方法进行预测，根据误差状况最终确定预测值。"
+  },
+  "1直线模型预测": {
+    "context1": "根据表1历年啤酒的需求量，我们进行预测。",
+    "context2": "表1 鸭啤历年的需求量  \n单位：吨",
+    "context3": "<table><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>1997</td><td rowspan=1 colspan=1>1998</td><td rowspan=1 colspan=1>1999</td><td rowspan=1 colspan=1>2000</td><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>2002</td></tr><tr><td rowspan=1 colspan=1>需求量D</td><td rowspan=1 colspan=1>47 461</td><td rowspan=1 colspan=1>57 779</td><td rowspan=1 colspan=1>53 636</td><td rowspan=1 colspan=1>60098</td><td rowspan=1 colspan=1>61500</td><td rowspan=1 colspan=1>70 065</td></tr></table>",
+    "context4": "资料来源：鸭绿江啤酒有限责任公司销售公司",
+    "context5": "根据表1中的数据，我们绘制图1。",
+    "context6": "从图1可以看出，用直线来拟合需求量曲线比较合适。为此，以时间t为解释变量，以需求量 $\\mathrm { D } _ { \\mathrm { t } }$ 为被解释变量，",
+    "context7": "![](images/59dbf5b7d6ec8ca6c9ba30124b527dac77bcb4ee23b475d62537ff2dda216a18.jpg)  \n图1鸭啤需求量的时间趋势散点图",
+    "context8": "建立直线模型为： $\\mathrm { D } _ { \\mathrm { t } } { = } _ { \\mathrm { a } } { + } \\mathrm { b t }$",
+    "context9": "由最小平方法求参数可得： $\\mathrm { a } { = } 3 5 0 5 3 9 / 6 { = } 5 8 4 2 3 . 1 7$",
+    "context10": "$$\n\\mathrm { b { = } \\Sigma _ { t D _ { t } } / \\Sigma _ { t } ^ { ' } { = } 1 3 0 6 4 5 / 7 0 { = } 1 8 6 6 . 3 6 }\n$$",
+    "context11": "预测模型为： $\\mathrm { D _ { t } } = 5 8 4 2 3 . 1 7 + 1 8 6 6 . 3 6 $",
+    "context12": "从而得到1997 年至 2002 年啤酒需求量的理论预测值分别为 $4 9 \\ 0 9 1$ 吨、52 824吨、56 557吨、60 290吨、64 022吨、67 755吨。1997年至 2002 年年序号分别为一5、－3、－1、1、3、5。",
+    "context13": "令 $_ \\mathrm { t } = 7$ 时，则 2003年需求量预测值为71488吨；令 $_ \\mathrm { t } =$ 9 时，则 2004 年需求量预测值为75 220吨。"
+  },
+  "2灰色预测": {
+    "context1": "根据表1历年鸭啤的需求量进行灰色预测。为此建立${ \\mathrm { G M } } ( 1 , 1 )$ 模型：",
+    "context2": "$$\n\\mathrm { x ( t ) } ^ { \\prime } + \\mathrm { a x ( t ) } = \\mathrm { u }\n$$",
+    "context3": "累加时间数列预测模型： $\\mathbf { \\Delta x } _ { ( \\mathbf { k } + 1 ) } ^ { ( 1 ) } = ( \\mathbf { x } _ { ( 1 ) } ^ { ( 0 ) } - \\mathbf { u } / \\mathbf { a } ) \\mathbf { e } ^ { - \\mathbf { a } \\mathbf { k } } + \\mathbf { u } / \\mathbf { a }$ 其中： $\\mathrm { k } ^ { - 0 }$ ，1，2，……。",
+    "context4": "由表1可得原始时间数列： $\\mathrm { x ^ { ( 0 ) } } = ( 4 7 4 6 1 , 5 7 7 7 9 , 5 3 6 3 6$ ，60098,61500,70065)，累加时间数列： $\\mathrm { x ^ { ( 1 ) } } = ( 4 7 4 6 1 , 1 0 5 2 4 0$ ，158876,218974,280474,350539)",
+    "context5": "$$\n\\boldsymbol { \\hat { \\mathrm { a } } } = \\Bigg [ \\begin{array} { l } { \\boldsymbol { \\mathrm { a } } } \\\\ { \\Bigg ] = \\left( \\boldsymbol { \\mathrm { B } } ^ { \\mathrm { T } } \\boldsymbol { \\mathrm { B } } \\right) ^ { - 1 } \\boldsymbol { \\mathrm { B } } ^ { \\mathrm { T } } \\boldsymbol { \\mathrm { X } } _ { \\mathrm { n } } } \\end{array}\n$$",
+    "context6": "March.2004 No.3",
+    "context7": "—76350.5 1 57779  \n-132058 1 53636  \n其中：B= -188925 1 ，X= 60098  \n-249724 1 61500  \n—315506.51 L70065",
+    "context8": "计算可得 $\\hat { \\mathbf { a } } = \\left[ \\begin{array} { l l l } { - 0 . 0 5 5 } \\\\ { 4 9 9 8 8 . 8 } \\end{array} \\right]$ ，即 $\\mathbf { a } = - 0 . 0 5 5 , \\ \\mathbf { u } = 4 9 9 8 8 . 8$ $\\mathrm { \\ u / a } { = } { - } 9 0 8 8 8 7 . 3$",
+    "context9": "于是得预测方程为： $\\mathbf { \\Delta x } _ { ( \\mathbf { k } ^ { + } 1 ) } ^ { ( 1 ) } = ( \\mathbf { \\Delta x } _ { ( 1 ) } ^ { ( 0 ) } - \\mathbf { u } / \\mathbf { a } ) \\mathbf { e } ^ { - \\mathbf { a } \\mathbf { k } } + \\mathbf { u } / \\mathbf { a } =$ $9 5 6 3 4 8 . 3 \\mathbf { e } ^ { 0 . 0 5 5 \\mathbf { k } } - 9 0 8 8 8 7 . 3$",
+    "context10": "这样便可得到1997年至2002年的理论预测值分别为47 461吨、53 556吨、56555吨、59722吨、63066吨、66 598吨。2003年至2004年的预测值分别为70 327吨、74 266吨。",
+    "context11": "对模型进行检验，预测误差均值： $\\mathrm { E } { = } 7 1 6 . 3 6$ (E(1)不计)；原始数据均值： $\\mathrm { X } ^ { ( 0 ) } = 5 8 ~ 4 2 3 . 1 7$ ；原始数据标准差：${ \\bf S } _ { 1 } = 6 ~ 9 6 7 . 8$ ；预测误差标准差： $\\mathrm { S } _ { 2 } = 2 ~ 5 4 6 . 7 3$ ，于是有后验检验指标为： $\\mathrm { C } = \\mathrm { S } _ { 2 } / \\mathrm { S } _ { 1 } = 0 . 3 7 <$ 二级标准0.5，通过检验。",
+    "context12": "$\\mathrm  { Z P } = \\mathbf { P } [ \\xi | \\delta E ( \\mathbf { k } ) - \\mathbf { E } \\mathbf { \\xi } | < 0 . 6 7 4 5 \\mathbf { S } _ { 1 } ] = \\mathbf { P } [ \\xi | \\delta E ( \\mathbf { k } ) - \\mathbf { E } \\mathbf { \\xi } | <$ 4699.92]",
+    "context13": "经计算 $| \\mathrm { ~ E ~ } ( \\mathrm { ~ k ~ } ) - \\mathrm { ~ E ~ } | = \\{ - 7 1 6 , 3 5 0 7 , - 3 6 3 5 , - 3 4 0 , -$ 2282,2751}均小于4 699.92，故 $\\mathrm { P } { = } 1 >$ 一级标准0.95，通过检验。"
+  },
+  "3趋势型季节变动预测": {
+    "context1": "由于鸭啤需求量受季节变化的影响，所以我们采用趋势型季节变动预测法，有关数据见表2的前9行。",
+    "context2": "为此建立预测模型为： $\\mathrm { D } { = } \\mathrm { T } \\cdot \\mathrm { S }$ 式中：D为需求量预期值；T为长期趋势值；S 为季节因子。",
+    "context3": "3.1用长期趋势消除法求季节指数如下：",
+    "context4": "表2季节指数计算表",
+    "context5": "<table><tr><td rowspan=1 colspan=1>委度年份</td><td rowspan=1 colspan=1>(1)</td><td rowspan=1 colspan=1>一季度</td><td rowspan=1 colspan=1>二季度</td><td rowspan=1 colspan=1>三季度</td><td rowspan=1 colspan=1>四季度</td><td rowspan=1 colspan=1>全年合计</td><td rowspan=1 colspan=1>全年季平均</td></tr><tr><td rowspan=1 colspan=1>1997</td><td rowspan=1 colspan=1>（2）</td><td rowspan=1 colspan=1>11 865</td><td rowspan=1 colspan=1>12 814</td><td rowspan=1 colspan=1>14 238</td><td rowspan=1 colspan=1>8 544</td><td rowspan=1 colspan=1>47 461</td><td rowspan=1 colspan=1>11 865.25</td></tr><tr><td rowspan=1 colspan=1>1998</td><td rowspan=1 colspan=1>(3）</td><td rowspan=1 colspan=1>13 289</td><td rowspan=1 colspan=1>15 600</td><td rowspan=1 colspan=1>18 489</td><td rowspan=1 colspan=1>10 401</td><td rowspan=1 colspan=1>57 779</td><td rowspan=1 colspan=1>14 444.75</td></tr><tr><td rowspan=1 colspan=1>1999</td><td rowspan=1 colspan=1>(4)</td><td rowspan=1 colspan=1>10 727</td><td rowspan=1 colspan=1>16 091</td><td rowspan=1 colspan=1>17 424</td><td rowspan=1 colspan=1>9394</td><td rowspan=1 colspan=1>53 636</td><td rowspan=1 colspan=1>13 409</td></tr><tr><td rowspan=1 colspan=1>2000</td><td rowspan=1 colspan=1>（5)</td><td rowspan=1 colspan=1>7 211</td><td rowspan=1 colspan=1>24 039</td><td rowspan=1 colspan=1>15024</td><td rowspan=1 colspan=1>13 824</td><td rowspan=1 colspan=1>60 098</td><td rowspan=1 colspan=1>15 024.5</td></tr><tr><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>（6）</td><td rowspan=1 colspan=1>7380</td><td rowspan=1 colspan=1>25 030</td><td rowspan=1 colspan=1>15 605</td><td rowspan=1 colspan=1>13 485</td><td rowspan=1 colspan=1>61 500</td><td rowspan=1 colspan=1>15 375</td></tr><tr><td rowspan=1 colspan=1>2002</td><td rowspan=1 colspan=1>（7）</td><td rowspan=1 colspan=1>7 254</td><td rowspan=1 colspan=1>27 726</td><td rowspan=1 colspan=1>21 420</td><td rowspan=1 colspan=1>13 665</td><td rowspan=1 colspan=1>70 065</td><td rowspan=1 colspan=1>17 516.25</td></tr><tr><td rowspan=1 colspan=1>六年合计</td><td rowspan=1 colspan=1>（8）</td><td rowspan=1 colspan=1>57 726</td><td rowspan=1 colspan=1>121 300</td><td rowspan=1 colspan=1>102 200</td><td rowspan=1 colspan=1>69313</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>同季平均数</td><td rowspan=1 colspan=1>（9)</td><td rowspan=1 colspan=1>9 621</td><td rowspan=1 colspan=1>20 216.7</td><td rowspan=1 colspan=1>17 033.3</td><td rowspan=1 colspan=1>11 552.2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>季趋势值</td><td rowspan=1 colspan=1>（10）</td><td rowspan=1 colspan=1>14 697</td><td rowspan=1 colspan=1>14 879.4</td><td rowspan=1 colspan=1>15 061.8</td><td rowspan=1 colspan=1>15 244.2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>季节指数%</td><td rowspan=1 colspan=1>(11)=(9)/(10)</td><td rowspan=1 colspan=1>65.46</td><td rowspan=1 colspan=1>135.87</td><td rowspan=1 colspan=1>113.09</td><td rowspan=1 colspan=1>75.78</td><td rowspan=1 colspan=1>390.2</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>调整季节指数%</td><td rowspan=1 colspan=1>(12)</td><td rowspan=1 colspan=1>67.11</td><td rowspan=1 colspan=1>139.28</td><td rowspan=1 colspan=1>115.93</td><td rowspan=1 colspan=1>77.68</td><td rowspan=1 colspan=1>400</td><td rowspan=1 colspan=1></td></tr></table>",
+    "context6": "3.1.1计算历年同季的总数和平均数，列表2第（8)、",
+    "context7": "(9）栏，这样通过平均消除原始数据的不规则因子。",
+    "context8": "3.1.2计算历年的需求总量和季平均数，分别列入表2最后两列。",
+    "context9": "3.1.3计算年趋势值方程。根据历年季平均数的数字，采用最小平方法建立直线方程，并求直线方程参数a、b，得年趋势直线方程为：",
+    "context10": "$$\n\\mathrm { T _ { 4 } } = \\mathrm { a } + \\mathrm { b t } = 1 4 6 0 5 . 7 9 + 7 2 9 . 6 1 _ { \\mathrm { t } }\n$$",
+    "context11": "3.1.4计算季趋势值。首先将以年为单位的趋势直线方程改为以季为单位的趋势直线方程。在以年为单位的趋势直线方程中，t的系数729.61表示每年的增长量，如果改为以季为单位，则每季的增量为 $7 2 9 . 6 1 / 4 { = } 1 8 2 . 4$ ，所以以季为单位的趋势直线方程为： $\\mathrm { T _ { \\mathfrak { F } } } = 1 4 6 0 5 . 7 9 + 1 8 2 . 4 \\mathrm { t }$",
+    "context12": "上式中，t是以季为间隔单位的，原点 $( \\mathfrak { t } ^ { = 0 }$ ）在1999年第4季和2000年第1季之间，现将原点移至2000年第1季度，则截距a应加上0.5个季增量（ $1 8 2 . 4 \\times 0 . 5 = 9 1 . 2$ ）则调整后的季趋势直线方程为： $\\mathrm { T _ { \\mathfrak { F } } } = 1 4 6 9 6 . 9 9 + 1 8 2 . 4 $",
+    "context13": "分别将 $\\mathfrak { t } ^ { = 0 }$ ，1，2，3代入方程即得季的趋势值（实际上就是 2000年各季的趋势值)，将其填入表2第（10）栏。3.1.5计算季节指数，列入表2第（11）栏。第（11）栏季节指数之和应是 $400 \\%$ ，而本例为 $3 9 0 . 2 \\%$ ，故需要加以调整，将第（11）栏各季季节指数乘以调整系数（ $4 0 0 /$ $3 9 0 . 2 { = } 1 . 0 2 5$ )，将调整后的季节指数列入第（12）栏。"
+  },
+  "3.2用长期趋势消除法中的趋势方程和季节变动指标进行预测": {
+    "context1": "利用预测模型： $\\mathrm { D } { = } \\mathrm { T } \\cdot \\mathrm { S }$ ，我们得到1997年至 2002 年的理论季预测值，从而得到年预测值分别为51135吨、54 053吨、56972吨、59 890吨、62808吨、65727吨。进一步计算得 2003年至 2004年需求量的预测值分别为68 645吨、71 564吨。"
+  },
+  "4几何平均预测": {
+    "context1": "根据表1中的数据，我们采用几何平均法进行预测，建立预测模型为：",
+    "context2": "$$\n\\mathrm { X } _ { \\mathrm { G } } = \\left( \\mathrm { x } _ { 1 } \\mathrm { x } _ { 2 } \\cdots \\cdots \\mathrm { x } _ { \\mathrm { n } } \\right) ^ { 1 / \\mathrm { n } } = \\mathrm { x } _ { \\mathrm { n } } \\mathrm { R } _ { \\mathrm { G } }\n$$",
+    "context3": "建设。许多跨国物流企业都拥有“一流三网”，即定单信息流，全球供应链资源网络，全球用户资源网络，计算机信息网络。借助信息技术，企业能够整合业务流程，能够融入客户的生产经营过程。这种模式要求物流服务商更多地关注总体分销解决方案，而不仅仅是提供运输服务。在加入WTO的新形势下，物流市场从国内扩展到国际，能否有四通八达的网络愈发重要。此外还要根据自己企业的实际，设立完善的业务流程，将管理供应、制定经营计划、设计产品和服务及生产需求合理分工。常用于支撑第三方物流的信息技术有：实现信息快速交换的 EDI技术、实现资金快速支付的EFT技术、实现信息快速输入的条形码技术和实现网上交易的电子商务技术等。总之，第三方物流企业要对客户实行准确、及时的个性化服务，就需要不断改进管理水平，而要满足这些需要，高度的信息化是必不可少的。"
+  },
+  "3.3注重物流人才的培养": {
+    "context1": "要重视物流人才培养，实施人才战略。企业的竞争归根到底是人才的竞争。我们与物流发达国家的差距，不仅仅是装备、技术、资金上的差距，更重要的是观念和知识上的差距。只有物流从业人员素质不断提高，不断学习与应用先进技术、方法，才能构建适合我国国情的第三方物流业。从学校的角度看，应该进行学科建设的调整，在中专和高校都要开设物流专业，致力于培养从操作到管理的多层次人才体系；尤其要增加一些培养物流高级人才的硕士点、博士点，使更多的物流硕士、物流博士进入大型物流企业的高级管理层，带进先进的物流管理理念，使传统的物流企业向现代物流企业迅速转变。从物流企业的角度，要解决目前专业物流人才缺乏的问题，较好的办法是加强物流企业与科研院所的合作，使理论研究和实际应用相结合，重视所有员工的物流知识和业务培训，提高员工的业务和管理素质；从社会的角度，加快引进物流认证培训体"
+  },
+  "（上接第212页）": {
+    "context1": "式中： $\\mathrm { X } _ { \\mathrm { G } }$ 为预测值的几何平均数， $\\mathrm { R _ { G } }$ 为预测期的平均发展速度， $\\mathbf { X } _ { \\mathrm { n } }$ 为第 $\\mathbf { n }$ 年的啤酒需求量。列表3计算环比发展速度如下：",
+    "context2": "表3环比发展速度计算表",
+    "context3": "<table><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>1997</td><td rowspan=1 colspan=1>1998</td><td rowspan=1 colspan=1>1999</td><td rowspan=1 colspan=1>2000</td><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>2002</td></tr><tr><td rowspan=1 colspan=1>需求量</td><td rowspan=1 colspan=1>47 461</td><td rowspan=1 colspan=1>57 779</td><td rowspan=1 colspan=1>53 636</td><td rowspan=1 colspan=1>60098</td><td rowspan=1 colspan=1>61 500</td><td rowspan=1 colspan=1>70 065</td></tr><tr><td rowspan=1 colspan=1>环比发展速度Rn</td><td rowspan=1 colspan=1>一</td><td rowspan=1 colspan=1>1.217</td><td rowspan=1 colspan=1>0.928</td><td rowspan=1 colspan=1>1.120</td><td rowspan=1 colspan=1>1.023</td><td rowspan=1 colspan=1>1.139</td></tr></table>",
+    "context4": "根据 $\\mathbf { R } _ { \\mathrm { G } } = \\left( \\mathbf { R } _ { 2 } \\mathbf { R } _ { 3 } \\cdots \\mathbf { R } _ { n } \\right) ^ { 1 / \\mathbf { n } ^ { - 1 } }$ 得平均发展速度为：",
+    "context5": "由 ${ \\bf X } _ { \\mathrm { G } } = _ { { \\bf X } _ { \\mathrm { n } } } { \\bf R } _ { \\mathrm { G } }$ ，也就是以本期的历史数据为基数乘以平均发展速度作为预测值，就可预测1998年至2002 年理论预测值分别为51305吨、62459吨、57981吨、64966吨、66 482吨，及2003年至 2004年预测值分别为75740吨、81 875吨。",
+    "context6": "我们利用以上四种不同的预测方法得到四组预测结果，如表4所示。",
+    "context7": "系的步伐，如2002年引进的英国皇家物流与运输的职业资格认证培训系统，已在部分城市试点，如果能迅速地在我国大面积推广，将对加快我国物流人才的培养和第三方物流的发展，具有重要的意义。"
+  },
+  "参考文献": {
+    "context1": "[1］高和鸿，郝建彤．五大缺口呼唤物流人才[J]．中外物流快讯，2003，（1).",
+    "context2": "[2]中国物流向“零库存”进军[J]·中外物流快讯，2003， (1).",
+    "context3": "[2]美智管理顾问公司．中国物流与采购联合会：《中国第三方物流市场调查报告（上)》[J]．中外物流快讯，2002，(12).",
+    "context4": "[4]徐天亮，马永光．我国第三方物流的现状及发展思路[EB]．中国物流网，2002一05—27.",
+    "context5": "[5]赵扬，李清．传统企业怎样向第三方物流企业转变[EB]．中国物流网，2002—05—10.",
+    "context6": "[6]辛允，田园．“第三方物流”是“自家人”[EB]．中国物流网，2002－04—24.",
+    "context7": "[7]季建华．以供应链思想磨炼第三方物流[EB]．中国物流网，2002—04—05.",
+    "context8": "[8]现代物流：流通形式的一场革命[EB]．航运商务网.",
+    "context9": "[9]郝聚民．第三方物流［M]．四川人民出版社，2002.  \n9，(1).",
+    "context10": "[10]中国第三方物流市场大盘点［N]．中国信息报，2002$- 0 9 - 1 6$",
+    "context11": "[ll]王恩涛．物流企业如何塑造核心能力．物流技术[EB]．中国仓储物流网.",
+    "context12": "[12]王世伟．第三方物流缘何发展缓慢[J]．信息与电脑，2002，（7).",
+    "context13": "<table><tr><td rowspan=1 colspan=6>表4                预测结果                单位：吨</td></tr><tr><td rowspan=1 colspan=1>方案年份</td><td rowspan=1 colspan=1>方案1</td><td rowspan=1 colspan=1>方案2</td><td rowspan=1 colspan=1>方案3</td><td rowspan=1 colspan=1>方案4</td><td rowspan=1 colspan=1>平均值</td></tr><tr><td rowspan=1 colspan=1>2003</td><td rowspan=1 colspan=1>71 488</td><td rowspan=1 colspan=1>70 327</td><td rowspan=1 colspan=1>68 645</td><td rowspan=1 colspan=1>75 740</td><td rowspan=1 colspan=1>71 550</td></tr><tr><td rowspan=1 colspan=1>2004</td><td rowspan=1 colspan=1>75 220</td><td rowspan=1 colspan=1>74 266</td><td rowspan=1 colspan=1>71 567</td><td rowspan=1 colspan=1>81875</td><td rowspan=1 colspan=1>75 732</td></tr></table>",
+    "context14": "从这四种方案的预测数据中，可计算出2003年至 2004年鸭啤需求量平均值分别在7.1万、7.5万吨左右。预测的结果将为鸭啤公司的决策提供有利的依据。它可作为企业的产品发展的方针；可作为应不应该引进新的生产技术的依据；可作为生产计划及采购计划的依据；可作为资金计划、增资扩厂计划及人事计划的参考；作为定价政策的研究；可拟定存量水准等。",
+    "context15": "面对日益全球一体化的市场和更加激烈的竞争，市场环境对鸭啤的生存条件提出了更高的要求，只有适应环境才能生存，只有生存，才能发展，要发展就要主动出击参与竞争，所以企业必须调整思路，找准重点，步步为营，稳扎稳打，以有限的力量，去占领无限的市场，去创造无穷的利润。"
+  }
+}

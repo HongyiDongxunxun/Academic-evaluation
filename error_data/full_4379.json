@@ -1,0 +1,140 @@
+{
+  "original_filename": "full_4379.md",
+  "nothing": {
+    "context1": "·业务研究·"
+  },
+  "基于主题分析的用户养生健康信息需求演化趋势研究": {
+    "context1": "周国韬1,龚栩1,邓胜利²",
+    "context2": "(1.武汉大学信息管理学院,湖北 武汉 430061；2.武汉大学 信息资源研究中心,湖北 武汉430061)",
+    "context3": "摘要：【目的/意义】研究旨在揭示社会化问答平台用户的养生健康信息需求分布特征,并深入探究需求产生的动机及演化趋势。【方法/过程】本文以社会化问答平台\"知乎\"中13万条养生问答数据作为研究对象,通过LDA模型提取需求话题,在离散时间序列基础上结合马斯洛需求层次理论对话题的关注度与关注热点进行演化分析。【结果/结论】用户养生信息需求涵盖20个话题;相比传统健康信息需求对疾病的聚焦,养生健康信息需求在内容上更多样,需求层次更高。需求的关注度演化上，安全需求与尊重需求成为热点，新冠疫情加强了用户对养生健康信息需求的关注。话题间的内在联系上,用户对尊重需求话题的关注度以“商品化\"的形式转移至安全需求话题【创新/局限】本文首次聚焦养生健康信息需求，通过话题与演化分析细粒度地挖掘用户养生健康信息需求的变化趋势。此外,本文数据源来自同一平台,后续研究可分析多平台用户的养生健康信息需求并对动机进行深化。",
+    "context4": "关键词：养生;健康信息需求；文本数据挖掘;LDA;演化分析 中图分类号：G252.0 DOI:10.13833/j.issn.1007-7634.2022.04.015"
+  },
+  "1引言": {
+    "context1": "在\"健康中国2030\"战略的引领下，我国居民健康观念由\"治已病\"逐渐转向\"治未病”。健康以预防为主,预防以信息为本，随着居民养生健康意识的增强，其对养生健康信息的需求日益增加。2020年微信平台中养生健康类文章阅读量超过10万的数量，相比2019年增长 $2 9 9 \\% ^ { [ 1 ] }$ 。居民养生意识与养生信息需求促进了养生服务市场的快速增长，然而利益驱动下社交媒体中开始出现大量养生虚假信息。据谣言治理报告2显示,养生谣言通过炮制偏方、主观经验劝导等手段制造恐惧,引起用户的\"健康焦虑”,用户养生健康信息需求与供给之间的矛盾日益凸显。因此有必要厘清用户的真实养生健康信息需求，助力相关平台提供精准的信息服务。",
+    "context2": "健康信息需求是用户一系列健康信息行为的起点和动机[3],是健康信息学中的重要研究内容。现有关于健康信息需求的研究主要针对高血压[4]、糖尿病[5]、抑郁症[等特定疾病,研究主题大多是对健康信息需求内容的比较分析。随着居民生活水平的提高与健康观念的转变，用户的健康信息需求不再局限于对特定疾病的关注,其对疾病预防和保健知识等方面的健康信息需求迅速增长。然而已有对养生健康信息行为的研究主要从信息传播、信息采纳等方面入手，忽略了用户养生健康信息需求的表达。研究用户养生健康信息需求的特征和变化趋势，揭示大健康背景下用户对于养生健康信息的真实诉求，可以帮助平台提供更精准有效的健康信息服务，进而有效缓解用户信息搜寻过程中产生的\"健康焦虑”心理。",
+    "context3": "因此,本文选取国内主流社会化问答平台\"知乎\"作为数据来源,结合机器学习等技术进行话题提取和演化分析，以动态的视角,可视化地揭示用户养生健康信息需求的分布与演变情况。研究首次聚焦用户在中文社会化问答平台中的养生健康信息需求，探求用户对养生话题关注演化的动机，从实证角度丰富健康信息学中信息需求研究的理论与内容。帮助问答平台掌握不同阶段用户的养生信息需求,整治养生乱象,为用户提供更加精准的健康信息服务。"
+  },
+  "2 文献综述": "",
+  "2.1养生健康信息行为研究": {
+    "context1": "健康信息行为由用户信息行为发展而来，指用户为了满足健康信息需求,在社交媒体中展开的信息需求表达,信息获取、存取,信息传播,信息采纳与利用等行为[。养生指通过各种方法增强体质、预防疾病，从而达到延年益寿的一种医事活动。随着生活水平的提高，养生逐渐成为全民关注的"
+  },
+  "表1用户养生健康信息行为相关研究": {
+    "context1": "Table 1 Studies related to users'health information behavior   \n表2在线问答社区的健康信息需求相关研究",
+    "context2": "<table><tr><td>作者</td><td>年份</td><td>研究方法</td><td>研究方向</td><td>研究结论</td></tr><tr><td>李东晓等[8]</td><td>2016</td><td>比较分析法</td><td>信息传播</td><td>养生健康类信息的兴起与人们日益增加的健康焦虑密切相关。</td></tr><tr><td>陈施蓉[9]</td><td>2018</td><td>社会网络分析</td><td>信息传播</td><td>认证博主在健康养生信息传播中占据主要地位,非健康养生类博主在信息 传播中起主要推动作用。</td></tr><tr><td>张睿等[10]</td><td>2020</td><td>访谈法</td><td>信息传播</td><td>深度访谈再次证实健康焦虑是养生现象流行的重要原因。</td></tr><tr><td>Nigam A等[</td><td>2019</td><td>分解机建模</td><td>信息搜索行为</td><td>人口特征、社会经济因素等对用户的养生健康信息搜索偏好有显著影响。</td></tr><tr><td>Jaafar NI等[12]</td><td>2017</td><td>问卷调查</td><td>信息搜索行为</td><td>保健品消费者的生活习惯等会影响用户的信息搜索行为。</td></tr><tr><td>彭丽等[13]</td><td>2016</td><td>结构方程模型</td><td>信息采纳</td><td>用户对于养生健康信息的采纳程度与对信息获取的便利程度密切相关。</td></tr><tr><td>Zhang Y等[14]</td><td>2012</td><td>访谈法</td><td>信息获取与利用</td><td>基于大学生对在社交平台获取养生健康信息的情况,提出了一个社交平台 中养生健康信息用户接受模型。</td></tr><tr><td>翟兴等[1s]</td><td>2020</td><td>知识图谱</td><td>信息存储与利用</td><td>结合知识图谱、NLP等技术构建健康养生领域知识服务系统架构,使用户能 够智能地进行健康养生信息查找。</td></tr></table>",
+    "context3": "Table 2 Studies related to health information needs of online Q&A communities   \n表3社交媒体主题演化分析相关研究",
+    "context4": "<table><tr><td>作者</td><td>年份</td><td>研究平台及样本</td><td>研究方法</td><td>研究结论</td></tr><tr><td>Zhao W等[16]</td><td>2020</td><td>知乎,10.861个抑郁症问题</td><td>主题分析</td><td>用户健康信息需求集中于抑郁症症状和社交活动，较少关 注预防和医疗保险。</td></tr><tr><td>曹树金等[4]</td><td>2019</td><td>寻医问药网,20.883条糖尿病相 关问答</td><td>社会网络分析</td><td>用户的健康信息需求随时间的推移趋于集中，治疗和症状 一直属于用户的核心信息需求。</td></tr><tr><td>Oh S等[17]</td><td>2016</td><td>雅虎问答,81,434个癌症问题</td><td>主题分析</td><td>用户在社会化问答网站表达的癌症信息需求是多维度的。</td></tr><tr><td>邓胜利等[5]</td><td>2016</td><td>百度知道,6.888条高血压问答</td><td>社会网络分析</td><td>用户主要的健康信息需求是疾病的日常管理、病因以及治 疗,此外也会表达自己的情感需求。</td></tr><tr><td>李重阳等[18]</td><td></td><td>2016百度知道,1,500条癌症问答</td><td>主题分析</td><td>用户的癌症信息需求主要集中在若干个主题,并且对各主 题的关注度随时间呈现出一定的变化趋势。</td></tr><tr><td>金碧等[19]</td><td></td><td>2014雅虎问答，5,898条糖尿病问答</td><td>多维尺度分析</td><td>消费者最为关注的是日常疾病管理、疾病确诊和治疗，而 对疾病预防缺乏应有的关注。</td></tr></table>",
+    "context5": "Table 3 Studies related to the evolutionary analysis of social media themes",
+    "context6": "<table><tr><td>作者</td><td>年份</td><td>研究方法</td><td>研究结论</td></tr><tr><td>Blei DM等[21]</td><td>2006</td><td>DTM</td><td>将文本按照时间划分,逐次处理每个时间窗口的语料数据,完成主题随时间的演化分析。</td></tr><tr><td>Alsumait L 等[22]</td><td>2008</td><td>Online-LDA</td><td>根据新数据流来更新当前模型,而不需要访问以前的数据。该方法支持实时检测新出现的 主题。</td></tr><tr><td>吴小兰等[23]</td><td>2015</td><td>DTM-LPA</td><td>提出了一种结合动态话题模型与社区发现技术的话题演化方法,以新浪微博上H7N9 禽流 感事件为例证实方法的有效性。</td></tr><tr><td>余本功等[24]</td><td>2017</td><td>OLDA</td><td>提出改进OLDA模型,解决了新旧主题混合问题,降低冗余词的概率。通过对天涯社区的话 题演化对比分析，发现改进的OLDA模型能更有效地对话题进行检测与演化分析。</td></tr><tr><td>安璐等[25]</td><td>2018</td><td>LDA+用户分类</td><td>比较分析了 2015年中东呼吸综合征(MERS)病毒爆发时新浪微博和微信平台上各利益相关 者在不同阶段的话题关注点，并揭示其话题演化模式的异同点。</td></tr><tr><td>XieR等[26]</td><td>2020</td><td>LDA+情感分析</td><td>利用LDA和情感分析方法分析了微博中公众对COVID-19的反应。研究发现人们在疫情中 给表现出对前线战士的支持以及对经济生活回复的关心。</td></tr></table>",
+    "context7": "热点话题,养生健康信息行为随之产生。本研究中养生健康信息行为指用户为满足自身对调理身心、增强体质及预防疾病的需求,在社交媒体中展开的一系列信息行为。近年来，学界对养生健康信息的研究逐渐增多，大部分学者从养生健康信息获取传播、信息采纳等方面对养生话题下居民的健康信息行为进行研究(表1)。",
+    "context8": "过往关于养生健康信息行为的研究主要集中在信息搜索、信息传播、信息获取与利用等高层次的健康信息行为，多采用定性分析的方法探究养生信息传播现状、健康信息搜索行为偏好以及养生信息采纳影响因素等。然而对于底层的养生健康信息需求尚未有学者关注。"
+  },
+  "2.2在线问答社区的健康信息需求": {
+    "context1": "在线问答社区已成为用户搜索健康信息的重要平台。过往研究对在线问答社区健康信息需求的研究主要聚焦于某一类特定疾病,分析用户的信息需求类型与具体需求内容。表2列举了部分相关研究。",
+    "context2": "目前国内外学者对健康信息需求内容的研究，主要通过内容分析的方法研究用户的健康信息需求类型,探究不同平台、不同疾病的用户需求特征。过往健康信息需求的内容研究大多针对特定疾病展开，暂无相关研究聚焦以养生话题为代表的新兴健康信息需求。"
+  },
+  "2.3社交媒体主题演化分析": {
+    "context1": "主题演化分析关注话题随时间推移所表现出来的动态性、话题性和差异性。有关社交媒体主题演化分析的研究较多基于参数主题模型,主要由LDA变化而来[20]。LDA是静态的主题提取模型,要进行动态的主题演化分析需要引入时间因素，相关研究见表3。",
+    "context2": "从过往研究可看出，主题演化分析多以LDA模型为基础,在此基础上引入时间等变量进行优化，研究重点多集中于提升主题模型的性能。此外,针对社交媒体的文本分析大多停留在话题提取分析阶段。综上，本文在利用改进的LDA模型提取主题，引入时间维度，探究不同阶段话题的演变。此外，探索话题内部关注热点的演化，深入分析其与话题演化内在的关联。"
+  },
+  "3研究设计": "",
+  "3.1数据获取与预处理": {
+    "context1": "传统的健康医疗社区主要提供疾病治疗与专业护理相关信息,而养生则更加关注生活中的主动预防与养护。因此便捷、高效且具有社交话题属性的社会化问答平台，更受用户青睐，是居民日常获取养生健康信息的重要渠道。截至2020年11月，知乎社区中“养生\"话题的关注者人数超过32万,讨论量达到 30 万[27]。因此,本文以知乎中的\"养生\"话题作为用户养生健康信息需求的研究对象,设计了基于Py-thon 的多线程爬虫工具，获取\"养生\"话题下所有的问答信息。采集的数据包括回答、所属问题、问题描述、回答时间四类属性。对数据进行清洗与去重后，最终获得2011年1月－2020年9月，知乎“养生\"话题下的23026个问题，问题下共130349 条回答记录。",
+    "context2": "![](images/281f9625b62e1a38d38fc298d94c26fb3a185f4ebffa7f0f1978fc514e1c85f9.jpg)  \n图1研究技术框架  \nFigure 1 Technical framework of the study"
+  },
+  "3.2养生健康信息的话题提取": {
+    "context1": "LDA是一种主题发现模型，可用来识别大规模文档集或语料库中潜在主题信息[28]。其核心思想将文档表示为一系列潜在主题的随机混合，,其中每个主题都代表了对应文档集中全部词的概率分布，与潜在主题相关的词的概率分布较高。",
+    "context2": "社会化问答平台中回答信息多以短文本为主，相关研究常用时间[]、发布者[29]等属性作为聚合策略,对短文本进行聚合，以优化LDA话题发现效果。文本聚合虽然扩充了文本长度,但一定程度影响了文本语意。在\"知乎\"平台中的问答数据是\"话题-问题-回答\"三层结构，本文以问题作为聚合依据,将同一问题下的所有回答聚合成一个文本，在扩充文本长度的同时降低因文本语意变化对话题发现的影响。",
+    "context3": "文本聚合后，共生成23026条文档数据。结合哈工大停用词表,添加\"养生\"\"知乎\"\"谢邀\"\"回答\"等词作为停用词，使用中文自然语言处理工具结巴 (jieba)对文档进行分词与去除停用词处理，对预处理后的数据集使用LDA模型进行话题提取。",
+    "context4": "LDA模型在划分主题时需设定主题数k，主题数的选取最终决定模型的划分效果。困惑度 (Perplexity)是一种基于信息熵的测量方法,是判断最优主题数k的重要指标[30]。对于一篇文档d,模型对文档d属于哪个主题的不确定程度被称为困惑度。当其他条件固定时，主题数k越大，困惑度越小。然而，传统LDA模型通过困惑度评估主题抽取效果，缺乏语义上的可解释性，且容易过拟合[31]。Stevens等[2]提出主题的一致性评分(Coherence Score)来优化LDA模型,当主题数为 $\\mathrm { k }$ 时,通过测量k个主题中得分高的关键词间的语义相似程度来评估主题划分效果。主题一致性评分越高时，单个主题内部的语义相似程度越高，主题划分效果越好，且得分高的模型划分的主题更接近人类语义的划分效果（参见图1)。",
+    "context5": "研究调用Gensim包中的困惑度与一致性评分函数，通过 Perplexity-topic number 曲 线 与 Coherence Score-topicnumber曲线共同确定最佳的主题数k。当主题数达到20个时,困惑度减小程度放缓,且此时一致性评分最高，因此主题数 $\\mathrm { k } = 2 0$ 时LDA模型对话题的提取效果最好。LDA模型完成话题提取后，对每条文档d进行遍历，计算其属于各话题的概率，并将概率最高的话题分配给d，获得所有文档d所属的话题。"
+  },
+  "3.3热点演化挖掘": {
+    "context1": "研究通过分析各话题内用户关注热点的变迁情况，挖掘用户养生健康信息需求演化的潜在动机。第一步，分析各话题的关注度与情感评分标准差,找出存在显著变化的话题，分别该类话题的关注度与情绪评分进行相关性分析，得出话题在演化趋势上存在潜在相关性。第二步,利用TF-IDF算法分析对所有话题各时间切片内的回答文本，提取话题在每"
+  },
+  "表4话题内容与命名表": {
+    "context1": "Table 4 Topic content and naming table",
+    "context2": "<table><tr><td>话题命名</td><td>话题top10关键词</td><td>原始数据示例</td></tr><tr><td>topic1消化系统</td><td>益生菌;胃；断食;肠胃；消化</td><td>肠胃吸收差,怎样调理肠胃？</td></tr><tr><td>topic2两性养生</td><td>女性;子宫；男性;痛经；肾亏</td><td>生理期有什么特别要注意的事情么?</td></tr><tr><td>topic3传统养生</td><td>辟谷;打坐;穴位;经络;丹田</td><td>辟谷一周是否能起到养生效果？</td></tr><tr><td>topic4祛除湿气</td><td>薏米;湿气;祛湿;红豆;通风</td><td>请问大家,祛湿的薏米需要熟的吗？</td></tr><tr><td>topic5药材膳食</td><td>枸杞；阿胶;海参;燕窝；滋补</td><td>铁皮石斛的功效有哪些？</td></tr><tr><td>topic6日常饮食</td><td>牛奶;燕麦;麦片;早餐;水果</td><td>燕麦片可以作为主食么？</td></tr><tr><td>topic7气血调理</td><td>气血；气虚;体质;脾胃;阳气</td><td>请问怎么气虚体质应当怎么调理？</td></tr><tr><td>topic8疾病防护</td><td>患者;治疗;疾病;高血压;糖尿病</td><td>什么是胆囊炎？什么习惯会得胆囊炎？</td></tr><tr><td>topic9饮品养生</td><td>蜂蜜；花茶;绿茶;泡水;发酵</td><td>玫瑰花茶的功效与作用？</td></tr><tr><td>topic10睡眠作息</td><td>时间;睡眠;晚上;睡觉;熬夜</td><td>哪一瞬间让你意识到，再也不能熬夜了？</td></tr><tr><td>topic11营养知识</td><td>维生素;食物;营养;蛋白质；作用</td><td>大量服用各种维生素会有副作用吗？</td></tr><tr><td>topic12护肤美容</td><td>皮肤；螨虫；脸;清洁；肌肤</td><td>怎么把自己皮肤养得好好的？</td></tr><tr><td>topic13保健产品</td><td>按摩椅;精油;产品；品牌;制氧机</td><td>中国按摩椅十大品牌有什么？</td></tr><tr><td>topic14按摩理疗</td><td>按摩；肌肉；艾灸；肩膀；针灸</td><td>脚底按摩时，为什么会有颗粒或者硬块？</td></tr><tr><td>topic15养发护发</td><td>头发;生长;脱发;毛囊;头皮；</td><td>如何正确地养护头发？</td></tr><tr><td>topic16 洗澡泡脚</td><td>泡脚；脚；洗澡;冬天;热水；</td><td>今年冬天想洗冷水澡。有什么坏处！?</td></tr><tr><td>topic17运动与减肥</td><td>运动；吃；减肥；脂肪；健身</td><td>如何有效的减重？</td></tr><tr><td>topic18科普与辟谣</td><td>相信；科普;骗子；功效;骗局</td><td>体育养生学呼吸气功是假的吗?</td></tr><tr><td>topic19 社会支持</td><td>节目；洗脑;父母;劝说;年轻人</td><td>家人被养生节目洗脑，是种怎样的体验？</td></tr><tr><td>topic20养生理念</td><td>长寿;习惯;状态;精力；保养</td><td>九零后的养生观念从何兴起?</td></tr></table>",
+    "context3": "个时间切片内排名前20的高频关键词。第三步，统计每个话题的所有关键词,根据时间切片与切片下的排名,可构造主题的热点关键词矩阵，分析所有热点词的排名标准差，得出标准差最大的前4个热点词，即为该话题在演化过程中，受用户关注度产生偏移更大的热点。最后，通过echarts对各话题分别进行可视化，得出话题热点用户关注度与情感倾向演变趋势图。"
+  },
+  "4数据分析与讨论": "",
+  "4.1养生健康信息需求的整体分析": "",
+  "4.1.1 需求强度分析": {
+    "context1": "为分析用户养生健康信息需求的强度变化,研究以月为单位统计回答数据的分布情况，如图2所示。整体上，用户对养生健康信息需求的强度越来越高。2011年至2013年回复数目占比均不及 $1 \\%$ ,2014年开始快速增长。2015年至2020年内用户对\"养生\"话题的关注度保持相对稳定增长，每年回复数目均在15000条以上，且分别在2015年、2018出现关注波峰，2020年初，我国新冠疫情的爆发引起用户对养生健康信息新一轮更强的关注。"
+  },
+  "4.1.2话题内容分析": {
+    "context1": "LDA模型提取出20个话题并输出每个话题的top10高频关键词,根据原始问答数据与高频关键词对各话题进行命名，话题内容与命名如表4所示。",
+    "context2": "用户养生健康信息需求的20个话题在内容上涵盖包括疾病防护、身体调理、饮食产品、养生理念等多个方面的信息。相比传统健康信息需求对特定疾病的聚焦，养生健康信",
+    "context3": "![](images/4db59910d91d141e1cbd47109ecd707e4c954f7b15db38c88835afb7e713bd3f.jpg)  \n图2知乎\"养生\"话题回答数量分布趋势  \nigure 2 Trend of the number of answers on the topic of\"Wellness\" in Zhih",
+    "context4": "息需求在内容话题上更丰富，随着健康中国行动的落实与居民生活水平的提高，居民对健康信息的需求呈现明显的多元化趋势。"
+  },
+  "4.1.3话题需求层次分析": {
+    "context1": "马斯洛需求层次理论[33]是重要的行为科学基础理论，被广泛运用于信息系统设计、信息需求分析[34等领域。在健康信息需求的内容研究中,该理论可用于解释和归纳用户健康信息需求[35]。因此，本文结合马斯洛需求层次理论与养生健康信息需求的实际内容，对养生健康信息需求的话题进行解释与归纳，以便后续分析中深入探究平台用户的养生信息需求的内容分布与演化情况。",
+    "context2": "人类的需求在马斯洛需求理论中被划分为生理需求、安全需求、情感需求、尊重需求、自我实现需求五个层次。各层次与养生健康信息话题的对照关系如下。",
+    "context3": "第一层生理需求,包括呼吸、水、睡眠、分泌、性等基本需求，是个人维持生存所必需的条件。对应至养生健康信息话题中,包含与身体生理相关的话题：消化系统、两性养生、祛除湿器、气血调理、疾病防护、睡眠作息。",
+    "context4": "第二层安全需求,是人们对安全、保护、稳定与健康保障的需求。在养生中药材膳食、日常饮食、饮品养生、营养知识、保健产品、按摩理疗、洗澡泡脚、养生理念8个话题,均为用户通过一定活动对提升自身安全与健康保障的话题，因此归纳至安全需求层次。"
+  },
+  "表5 话题马斯洛需求层次划分表": {
+    "context1": "Table 5 Topic Maslow's hierarchy of needs",
+    "context2": "<table><tr><td>需求层次/占比</td><td>话题</td><td>占比</td></tr><tr><td rowspan=\"6\">自我实现/6.4% 精神需求/33.0%</td><td>topic3传统养生</td><td>4.2%</td></tr><tr><td>topic18科普与辟谣</td><td>2.2%</td></tr><tr><td>topic12护肤美容</td><td>7.3%</td></tr><tr><td>尊重/20.0% topic15养发护发</td><td>2.1%</td></tr><tr><td>topic17运动与减肥</td><td>10.6%</td></tr><tr><td>topic19社会支持</td><td>6.6%</td></tr><tr><td rowspan=\"6\">安全/44.3%</td><td>topic5药材膳食</td><td>3.7%</td></tr><tr><td>topic6日常饮食</td><td>22.6%</td></tr><tr><td>topic9 饮品养生</td><td>3.3%</td></tr><tr><td>topic11营养知识</td><td>0.8%</td></tr><tr><td>topic13保健产品</td><td>4.3%</td></tr><tr><td>topic14按摩理疗</td><td>1.7%</td></tr><tr><td rowspan=\"8\">物质需求/67.0% 生理/22.7%</td><td>topic16 洗澡泡脚</td><td>1.8%</td></tr><tr><td>topic20养生理念</td><td></td></tr><tr><td>topic1消化系统</td><td>6.2%</td></tr><tr><td>topic2两性养生</td><td>2.2%</td></tr><tr><td>topic4祛除湿气</td><td>4.0%</td></tr><tr><td></td><td>1.5%</td></tr><tr><td>topic7气血调理</td><td>3.9%</td></tr><tr><td>topic8疾病防护</td><td>5.0%</td></tr><tr><td></td><td>topic10睡眠作息</td><td>6.1%</td></tr></table>",
+    "context3": "第三层情感需求，是与他人建立情感上的联系，期望归属于某类群体的需求。社会支持话题主要内容为用户对自身、亲友与养生间关系的咨询与探讨，因此归纳至情感需求",
+    "context4": "层次。",
+    "context5": "第四层尊重需求，是自尊与希望受到他人尊重的需求。护肤美容、养发护发、运动与减肥3个话题主要内容为用户对自身外在形象关注与提升的期望，属于自尊与希望受尊重的表现，归属于尊重需求层次。",
+    "context6": "第五层自我实现需求，是最大限度发挥自己的潜能，不断完善自己的需求，如道德、创造力、公正度等。传统养生主要为用户对传统养生方法在精神理念层面的追求、科普与辟谣话题为用户对知识的分享和道德感的体现,因此将两话题归纳为自我实现需求。",
+    "context7": "各话题回答数量占比与需求层次的分布情况，如表5所示。",
+    "context8": "生理需求共6个话题,关注度占比 $2 2 . 7 \\%$ ,关注度分布均匀。安全需求共8个话题,关注度占比 $4 4 . 3 \\%$ ,其中“日常饮食\"话题占比高达 $2 2 . 6 \\%$ 。情感需求仅一个话题，占比 $6 . 6 \\%$ 。尊重需求共3个话题,关注度占比 $20 \\%$ ,其中“护肤美容\"与“运动与减肥\"两话题关注度高。自我实现需求共2个话题，关注度占比 $6 . 4 \\%$ 。",
+    "context9": "用户对养生健康信息话题的关注多集中于物质需求层面。其中生理需求层次的话题聚焦于身体与疾病,内容与传统健康信息需求对疾病症状、治疗、诊断、健康生活方式等内容的关注相似。安全需求层次的话题聚焦于保健饮食与产品服务，传递出用户期望通过外部物质的关注实现自身健康保养的强烈期望。而精神需求层次，用户关注度聚焦于尊重需求，“运动与减肥\"\"护肤美容\"两话题的高关注度进一步体现出用户对健康的需求已远不满足于疾病的防治，养生健康信息需求的层次与话题内容维度更丰富多样。"
+  },
+  "4.2养生健康信息需求的演化趋势": "",
+  "4.2.1 关注度的演化趋势分析": {
+    "context1": "研究对各话题关注度进行演化分析。2011年－2014年“知乎”处于初创期,此阶段的数据占比仅 $4 . 3 \\ \\%$ ,参考价值较小。因此，选取2015年－2020年的数据，以年为单位划分时间切片，通过热力图展示用户对各话题关注度的变化情况。",
+    "context2": "关注度演变情况如图3所示，横轴对应话题及所处的话题与需求层次，纵轴为时间，方格中的数字代表话题关注度占比,方格颜色深度与关注度成正比。由于单一时间切片内的绝对关注度无法体现不同时间内需求强度的变化，因此，研究以2015年为参照系，计算话题在各年份的相对关注度。",
+    "context3": "生理需求层次话题的整体关注度略有上升，其中\"疾病防护\"话题在2015年～2019年关注度持续下降，“睡眠作息”话题关注度持续上升，2020年\"两性养生\"\"疾病防护\"两话题关注度出现与前期趋势不符合的显著上升。安全需求层次话题整体关注度有明显的上升趋势,其中\"药材膳食\"\"日常饮食\"\"饮品养生\"\"保健产品\"四个以产品为主的话题关注度显著上升，“日常饮食\"话题关注度增长最迅速。情感需求层次，“社会支持\"话题在2015年～2019年关注度相对稳定，",
+    "context4": "2020年出现上升趋势。尊重需求层次话题的关注度出现较大分歧，其中\"减肥与运动\"话题2015年是关注度最高的话题,但其关注度持续下降，而\"护肤美容\"话题关注度持续上升。自我实现需求层次两话题的关注度均保持较低水平稳定状态。",
+    "context5": "用户养生健康信息需求激增的同时，其关注度也更聚焦于需求层次较低的话题。尊重需求层次整体关注度无明显变化，但用户对外在形象的关注从\"运动与减肥\"迁移至\"护肤美容”。“运动与减肥\"作为近年来受大众关注度持续增长的热点话题,在本研究中发现其在知乎养生话题中关注度呈现相反的趋势，可能是由于市场上更多专业聚焦于此类话题信息供给的平台，用户关注度被分流所导致。",
+    "context6": "此外，值得注意的是,2020年生理需求与情感需求的部分话题关注度偏离前5年的演化趋势,如\"两性养生\"\"疾病防护\"\"社会支持\"3个话题的关注度出现显著增长。2020年年初新冠疫情的爆发导致居民对健康信息的需求急剧增加,推测新冠疫情带来的外部风险威胁不仅加强了用户对疫情信息的关注，同时对用户的养生健康信息需求也产生了一定影响。"
+  },
+  "4.2.2话题关注的热点演化分析": {
+    "context1": "对话题间的关注度进行皮尔逊相关性分析，找出关注度演化间存在显著相关性的话题,作为后续进一步分析内在关联的话题，结果如表6所示。",
+    "context2": "关注度上发生显著变化的话题共8个，其中生理需求层次2个，安全需求层次4个，尊重需求层次2个。相关性分析显示，生理需求层次，“疾病防护\"与其他话题相对独立，“睡眠作息\"与安全需求层次话题具备较强相关性;安全需求层次，除\"日常饮食\"外，“药材膳食\"\"饮品养生\"\"保健产品\"3个话题的关注度在内部趋同;尊重需求层次，“运动与减肥”与安全层次的话题呈显著负相关，“护肤美容\"则与安全层次话题呈显著正相关。",
+    "context3": "为进一步分析话题呈现相关性的内在原因,对关注度存在显著相关的话题进行热词挖掘，各话题在2015年至2020年间的热点演化趋势如图4、图5所示，图中横轴为时间切片对应年份,纵轴为关键词词频在当年的排名名次。",
+    "context4": "安全需求层次4个话题的热点词中均出现了“养颜\"\"皮肤\"\"美白\"\"美容\"等本属于\"护肤美容\"话题的高频关键词，“日常饮食\"与\"保健产品\"中出现了“减肥\"\"体重\"\"吸脂\"等与\"运动与减肥\"相关的高平关键词,且此类词的排名均呈上升状态。尊重需求层次，“护肤美容\"话题的热点词中，“产品\"\"饮食\"两词的排名逐渐上升,而在\"运动与减肥\"话题中，“健身房”与\"健身\"两词关注度显著下降，“热量\"与\"食物\"两词关注度显著上升。",
+    "context5": "随着生活水平的提高，用户在健康上更愿意投入时间、精力与财力。用户对养生健康信息需求整体关注增长，其尊重需求逐渐转移向安全需求，具体表现为在尊重需求层次，减肥、变美、护肤等需求,被以“商品化\"[37的形式寄托于安全需求层次。用户期望通过关注安全层次更易于实现的饮食与产品信息并进行消费，来满足其尊重需求。"
+  },
+  "5结论与建议": {
+    "context1": "用户在养生健康信息的关注内容上呈现多样性，物质需求更受关注。研究发现用户的养生健康信息需求共涵盖了20个话题，基于马斯洛需求层次理论可划分为5个层次，其中安全需求层次与尊重需求层次的话题占比最多。相比传统健康信息需求对疾病的聚焦，养生健康信息需求在内容上更多样。随着\"健康中国\"行动的推进与物质生活条件的提升，疾病防治已无法满足居民对健康的追求，“日常饮食\"\"饮品养生\"\"运动与减肥\"\"护肤美容\"等话题的高关注度,体现出用户对养生健康信息的关注内容更丰富，需求层次更高。",
+    "context2": "用户养生健康信息需求的关注演化上，安全需求与尊重需求成为热点，新冠疫情加强了用户对养生健康信息需求的关注。用户对养生健康信息的关注度逐年增强,其中安全需求与尊重需求两层次的话题在关注度上变化最显著。尊重需求中\"护肤美容\"话题关注度持续增长，“运动与减肥\"关注周国韬,龚栩,邓胜利.基于主题分析的用户养生健康信息需求演化趋势研究[J].情报科学,2022,40(4):118-126,137.",
+    "context3": "![](images/999a70ebaee32af83957fa9087b04e432a0cfeccde3586defa462cf11ee9bc3b.jpg)  \n图3养生健康信息需求关注度演化热力图  \nFigure 3 Heat map of the evolution of the attention to wellness and health information need:"
+  },
+  "表6 话题关注度皮尔逊相关性分析": {
+    "context1": "Table 6 Pearson correlation analysis of topic attention",
+    "context2": "<table><tr><td></td><td>疾病防护</td><td>睡眠作息</td><td>药材膳食</td><td>日常饮食</td><td>饮品养生</td><td>保健产品</td><td>运动与减肥</td><td>护肤美容</td></tr><tr><td>疾病防护</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>睡眠作息</td><td>0.414</td><td>1</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>药材膳食</td><td>0.415</td><td>0.998</td><td>1</td><td>1</td><td></td><td></td><td></td><td></td></tr><tr><td>日常饮食</td><td>-0.440</td><td>0.214</td><td>0.171</td><td>1</td><td>1</td><td>1</td><td></td><td></td></tr><tr><td>饮品养生</td><td>0.130</td><td>0.938</td><td>0.946</td><td>0.297</td><td>1</td><td>1</td><td></td><td></td></tr><tr><td>保健产品</td><td>-0.103</td><td>0.851</td><td>0.840</td><td>0.580</td><td>0.922</td><td>1</td><td></td><td></td></tr><tr><td>运动与减肥</td><td>0.310</td><td>-0.702</td><td>-0.694</td><td>-0.801</td><td>-0.810</td><td>-0.940</td><td>1</td><td></td></tr><tr><td>护肤美容</td><td>-0.121</td><td>0.804</td><td>0.806</td><td>0.537</td><td>0.940</td><td>0.931</td><td>-0.811</td><td>1</td></tr></table>",
+    "context3": "![](images/4bc20d38c4cc9a2f3994d1ad18e76ed1291e8acb536149211ab1e5464fc0dde6.jpg)  \n图4 安全需求话题热点演化趋势  \nFigure 4 Trend of hot topic evolution of security needs",
+    "context4": "度持续下降;安全需求层次\"日常饮食\"\"饮品养生\"\"药材膳食\"\"保健产品\"四个以饮食与产品为主的话题关注度持续增长。此外，新冠疫情的爆发导致用户身体健康受到严重威胁，加上出行的限制,恐慌情绪的发酵导致了更大程度的健康焦虑，增强了用户整体养生健康意识。",
+    "context5": "养生健康信息话题的热点演化存在内部关联性，呈现商品化趋势。用户对尊重需求层次话题的关注与安全需求层次话题高度关联，“护肤美容\"与\"运动与减肥\"两话题的热点演化词出现\"产品\"\"食物”,而安全需求话题的热点演化词出现\"养颜\"\"皮肤\"\"减肥\"等。用户对养生健康信息关注度增加的同时,其尊重需求以\"商品化\"的形式转移至安全需求。其通过对低层次需求的关注与消费行为实现高层次需求的自我满足,需要警惕过度\"商品化\"对居民的养生观念与养生健康信息需求潜移默化的影响。",
+    "context6": "径,引导用户对养生健康信息的多元化关注。",
+    "context7": "供给侧，激励信息供给者持续输出高质量养生健康信息。平台需要从供给侧对养生健康信息进行治理。在养生健康信息的供给上应去粗取精，加强对养生健康信息的审核，坚决防止投机分子因养生需求的扩大而扰乱正常养生健康信息的供给秩序，同时加大对优质养生健康信息供给用户的激励力度，引导养生健康信息的供给质量逐步提高。",
+    "context8": "平台侧,构建治理制度,防范养生过度商品化。如果不对养生健康信息需求过度\"商品化\"现象加以限制，任其肆意发展,未来将是\"无人健康、人人有病\"的局面[38]。因此平台应针对养生健康信息中出现的过度\"商品化\"现象进行规范与限制，通过相关制度的颁布与实施,构建积极的养生健康信息供给环境。",
+    "context9": "基于研究的发现,为更全面提高面向用户的养生健康信息服务的质量，现对社会化问答平台提出如下建议：",
+    "context10": "用户侧,引导用户对养生健康信息的多元化关注。在整体趋势上，用户的养生健康信息需求过度集中于部分话题。社会化问答平台应提高用户信息素养,通过优化话题推荐、热搜等信息组织方式，疏通养生健康信息触达至用户的路"
+  },
+  "6结语": {
+    "context1": "本文以国内主流社会化问答平台\"知乎\"为例,揭示了平台用户的养生健康信息需求在关注度、关注话题与关注热点上的演化趋势。研究以平台横跨10年的大量数据样本作为研究对象，基于数据分析与文本挖掘技术，揭示了用户的真实养生健康信息需求与需求发生演变的路径，为更全面理解用户养生健康信息需求特征与演化规律提供了理论支持。社会化问答平台能参考本文对用户养生健康信息需求的分析，增强对用户关注话题的运营，以提高平台精准健康信息服务的水平;相关部门能参考本文建议，对居民养生健康信息需求进行引导、针对性治理虚假健康信息，助力实现\"健康中国行动”;关注养生的个人用户能从本文的研究结果中自我审视，提升养生健康信息素养。",
+    "context2": "![](images/b0ee18c665ec85388a3c7e15d34e5b34a3003b705408d4b3ad41ef22c0fcbb90.jpg)  \n图5生理需求与尊重需求话题热点演化趋势   \nFigure 5 Trend of hot topics on physiological needs and respect needs",
+    "context3": "研究尚存在部分不足之处。首先,本文选取\"知乎\"平台作为数据源,样本相对单一，后续研究可对不同平台用户养生健康信息需求的内容进行更加细粒度的分析。此外,研究发现部分话题在演化上的内在关联与新冠疫情对用户养生健康信息需求的影响，由于数据量与文章篇幅的限制，未能深入探讨，后续研究可参考本文发现,基于用户需求动机构建量化分析框架，深入探究用户养生健康信息需求发生变化的原因。"
+  },
+  "参考文献": {
+    "context1": "1后疫情时代国民健康真相[EB/OL].[2020-05-14].https://36kr.c0m/p/706987598453248.  \n2 击碎网络谣言 集聚指尖正能量[EB/OL].[2020-01-30].http://www.cac.gov.cn/2020-01 /30/c_1581977503442380.htm.  \n3Wilson,T.Models in Information Behaviour ResearchJl.Journal ofDocumentation,1999,55(3):249-270.  \n4 邓胜利,刘瑾.基于文本挖掘的问答社区健康信息行为研究——以\"百度知道”为例[J].信息资源管理学报,2016,6(3):25-33.  \n5曹树金,闫欣阳.社会化问答网站用户健康信息需求的演变研究—以糖尿病为例[J].现代情报,2019,39(6):  \n3-15.  \n6 赵安琪,赵海平,路培鑫.基于社会化问答社区的抑郁症健康信息需求研究[J].中华医学图书情报杂志,2018,27(9):38-45.  \n7陆泉,刘婷,邓胜利.基于社会资本理论的社交问答用户健康信息行为研究[J].图书情报工作,2019,63(17):118-127.  \n8 李东晓.微屏时代谁在传播健康?—对微信平台健康养生信息兴起的传播学分析[J].现代传播(中国传媒大学学报),2016,38(4):21-26.  \n9陈施蓉.健康养生类微博的网络分析[D].重庆:重庆大学,2018.  \n10 张睿,杨力超.健康焦虑的建构与反思—消费主义嵌入下青年人的日常养生实践[].中国青年研究,2020(10):87-93.  \n11 Nigam A,Johnson RA,Wang D,et al.Characterizing OnlineHealth and Wellness Information Consumption:a StudyJ].Information Fusion,2019(46):33-43.  \n12Jaafar NI,Ainin S,Yeong MW.Why Bother About Health?aStudy on the Factors That Influence Health InformationSeeking Behaviour Among Malaysian Healthcare Consum-ers[J].International Journal of Medical Informatics,2017(104):38-44.  \n13 彭丽,杜志银,黄成.基于结构方程的微信公众平台健康养生类信息采纳意愿研究].现代预防医学,2018,45(7):1255-1259,1273.  \n14 Zhang Y.College Students'Uses and Perceptions of SocialNetworking Sites for Health and Wellness Information[J].Information Research-an International Electronic Journal,2012,17(3):523.  \n15 翟兴,王涛,韩芳芳.基于知识图谱的健康养生智能知识服务系统架构设计[].信息资源管理学报,2020,10(3):36-48.  \n16 Zhao W,Lu P,Yu S,et al.Consumer health informationneeds in China - a case study of depression based on a So-cial Q&A community[].BMC Medical Informatics and De-cision Making,10.1186/s12911-020-1124-1,2020.  \n17Oh S,Zhang Y,Park MS.Cancer Information Seeking in So-cial Question and Answer Services:Identifying Health-relat-ed Topics in Cancer Questions on Yahoo!Answers[J].Infor-mation Research-an International Electronic Journal,2016,21(3).  \n18李重阳,翟姗姗,郑路.网络健康社区信息需求特征测度——基于时间和主题视角的实证分析[].数字图书馆论坛,2016(9):34-42.  \n19 金碧漪,许鑫.社会化问答社区中糖尿病健康信息的需求分析[J].中华医学图书情报杂志,2014,23(12):37-42.  \n20 刘倩,李晨亮.基于社交媒体的话题演变研究综述[.数据分析与知识发现,2020,4(8):1-14.  \n21 Blei DM,Lafferty JD.Dynamic Topic Models[C]//Proceed-ings of the 23rd International Conference on MachineLearning:Association for Computing Machinery,2006.  \n22Alsumait L,Barbara D,Domeniconi C.On-line Lda: Adap-tive Topic Models for Mining Text Streams with Applica-tions to Topic Detection and Tracking[C].Eighth IEEE In-ternational Conference on Data Mining,2Oo8:3-12.  \n23 吴小兰,章成志.基于DTM-LPA的突发事件话题演化方法研究——以H7N9微博为例[].图书与情报,2015,163(3):9-16.  \n24 余本功,张卫春,王龙飞.基于改进的OLDA模型话题检测及演化分析[J].情报杂志,2017,36(2):102-107.  \n25 安璐,杜廷尧,李纲,等.突发公共卫生事件利益相关者在社交媒体中的关注点及演化模式[].情报学报,2018,37(4):394-405.  \n26 Xie R,Chu SKW,Chiu DKW,et al.Exploring Public Re-sponse to Covid-19 on Weibo with Lda Topic Modelingand Sentiment Analysis[J].Data and Information Manage-ment,2020,5(1):86-99.  \n27 知乎“养生\"话题[EB/OL].[2020-11-15].https://www.zhi-hu.com/topic/19555542/hot.  \n28 Blei D $\\mathrm { { M , N g } }$ A Y,Jordan M I.Latent dirichlet allocation[J].The Journal of Machine Learning,Research,2Oo3(3): 993-1022.  \n29 战学刚,王晓.基于LDA的问答网站话题抽取算法[.计算机应用与软件,2016,33(4):95-98.  \n30 Arunr,Suresh V,Madhavan C E V,et al.Onfinding the natu-ral number of topics with latent dirichletal location: Someobservations[C]. Pacific-Asia Conference on KnowledgeDiscovery and Data Mining.Berlin:Springer,2010:391-402.  \n31 Chang J,Boyd-Graber JL,Gerrish S,et al.Reading TeaLeaves:How Humans Interpret Topic Models[C]// Interna-tional Conference on Neural Information Processing Sys-tems.Curran Associates Inc,2009.  \n32 Stevens K ,Kegelmeyer P ,Andrzejewski D ,et al.ExploringTopic Coherence over many models and many topics[C]//Conference on Empirical Methods in Natural LanguageProcessing,2012.  \n33 Maslow,A.H.A Theory of Human Motivation[J].Psycholog-ical Review,1943(50):370-396.  \n34 左美云,刘就就,刘方.老年人信息需求模型的构建与应用[J].管理评论,2009,21(10):70-77.  \n35 徐孝婷,赵宇翔,朱庆华.在线健康社区老年用户健康信息需求实证研究J].图书情报工作,2019,63(10):87-96.  \n36 赵栋祥.国内在线健康社区研究现状综述[].图书情报工作,2018,62(9):134-142.  \n37 Clarke,Adele E,Shim,Janet.Medicalization and biomedical-ization revisited: Technoscience and transformations ofhealth,illness and American medicine[M].Handbook of theSociology of Health,Illness,and Healing,New York:Springer,2009.  \n38 Peter Conrad,Thomas Mackie,Ateev Mehrotra.Estimatingthe costs of medicalization[J].Social Science & Medicine,10.1016/j.socscimed.2010.02.019,2010."
+  },
+  "The Topic Evolution of Information Privacy from the Perspective of Temporal Correlation and Structural Representation": {
+    "context1": "ZHU Guang12,PAN Gao-zhi’ ,LI Feng-jing1",
+    "context2": "(1.SchoolofManagementScienceandEngineeing,NanjingUniversityofInformationScienceandTechnologyNanjing210044",
+    "context3": "vjy vviv) Abstract:[Purpose/significance】This paperaimstoidentifythehot topicsof nformation privacyresearchandsummarize heevolutiontrajectoriesofresearchtopics.Methd/procesConsideringtheresearchlimitationsoftopicidentifcatioandevolutiotispaperproposedacomprehensiveresearchmethodoftopic evolutionfromthperspectiveof tempralcorelationadstructuralepresentationFirst,teDA(LatentDichletlocatio)odelisplidtdentifytesearchtopicsofientificpublcatiosinultiple temporal intervals.henthetopiccondensedsugroupsaredepictedbasedontheco-wordanalysistoetbetersemanticpeforance. Furthermoreteevolutionarypathsofdierenttopicsunderadjacentintervalsareexploredfromthedimensionoftemporalcoelation. Moreover,severalientometricindcatorsuchasovetyentralityndinfluencearefidtoivestigateteangesfget topicsandhottopics ininformationprivacyfieldfromtheperspectiveofstructuralrepresentation.【Result/conclusion】Theepirical resultsshowthat theproposedmethodcanidentifytheresearch topicsefectively,andanalzethetopicevolutiontrendsfromboth macroandmicrodimensions.Tisstudycanexpandthetheoreticperspectiveof opicevolutionresearchanddetectheemergenceand hotspotsf informationprivacyresearchmoreeficiently.Iovation/lmitation】AnintegratedresearchframeworkofLDtopicodel andco-wordanalysisisproposedtoidentifytheresearchtopicmorepreciselyandthetopicevolutionpathisanalyzedfromtheperspectiveofothtempraloeationandstructuralrepresentatio.Infuturesudyultipledatasourcsandultigroupterswillbe introduced to improve the research method.",
+    "context4": "Keywords:information privacy; temporal corrlation; structural representation;topic evolution; LDA;co-word analysis"
+  },
+  "The Needs and Evolution Trend of Users'Health Wellness and Information": {
+    "context1": "ZHOU Guo-tao',GONG Xu' ,DENG Sheng-li² (1.School of Information Management,Wuhan University,Wuhan 430o61,China;",
+    "context2": "2.Center for Studies of Information Resources,Wuhan University,Wuhan 43oo61,China)",
+    "context3": "Abstract:[Purpose/significanceThestudyimstorevealthedistributioncharacteristicsofthehealthandwelless informationneeds ofusersonsocialplatformsandexplorethe motivationsandevolutiontrendofneeds.【Method/processTakingthepostsinZhiu,atypicalsocial Q&Asitein Chinaasresearchbjects,thispaperusedDAandBiSTMmodelfortopicextractionandsentimentnalsis. Then,dividingthetimeseries,theevolutionoftopicattentionwasanalyedbyMaslow'sherarchyofneedstheoryTheresultsfound thatin termsofdemandcontent,users'healthandwellessinformationneedscovered2Otopics.Resul/conlusionCompared with thetraditionalhealthinformationneedsthatfocusondiseasstehealthinformationneedsweremorediverseincontentandhadhig erneedslevels.Ontheevolutioof teconceofdemand,safetydemandandrespectdemandbecomehotspotsandthenewcrownepidemicstrengthensusers'concenaout thedemandofhealthandwellnessinformation.Intermsof theintrinsicconnectionbetween topics,users'atentontothetopicofrespectnedsisransferredtothetopicofsecuritynedsintheforof\"ommoditizatio\".o vation/limitationTispaperfocusesonthehealthandwellnessiformationneedsforthefirsttieandexploresthechangingtredsof users'healthandwellessinformationneeds inafinegrainedwaythroughtopicandevolutionanalysis.Inadition,thedtasourceof this papercomesfromthesameplatform,andsubsequentresearchcananalyzethehalthandwelles informationneedsofmulti-platform users and deepen the motivation.",
+    "context4": "Keywords:wellness; health information needs; text mining; LDA; evolution analysis"
+  }
+}

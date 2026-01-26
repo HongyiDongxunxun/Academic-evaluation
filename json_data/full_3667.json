@@ -1,0 +1,63 @@
+{
+  "original_filename": "full_3667.md",
+  "nothing": {
+    "context1": "●李瑞芬，张晓青²",
+    "context2": "1.鲁东大学汉语言文学院，山东　烟台264025；2.鲁东大学　图书馆，山东　烟台　264025)"
+  },
+  "国外网上文献传递服务系统的发展现状及特点\"": {
+    "context1": "摘要：全面系统地介绍和分析了国外主要网上文献传递服务系统的发展现状和主要特点，认为其共同特点是：响应时间较短，服务效率较高；注重系统集成，确保使用方便；直接面向最终用户，努力减少中间环节；发展加密技术，加强版权保护。",
+    "context2": "关键词：图书馆；文献传递服务；信息系统",
+    "context3": "AbstractThis article givesanall-rundand systematic introductionand analysis of thedevelopment status and main characteristics ofthe famous Intemetbased document delivery servicesystemin foreign countriesTheir common characteristics are short response tinehigh service efficiencyataching inportance to system integiation so as to guarantee easyoperationdirectlyoriented to finalusers to reduce the middle linksand develbping enciyption technolog ies to strengthen copyright pm tection",
+    "context4": "K eyw ordslibrary;docum ent delivery serviceinfoimation system",
+    "context5": "文献传递服务是随着现代信息技术在图书馆中的应用，在传统馆际互借服务的基础上，更加广泛地利用各种来源和类型的外部文献资源，直接或间接为用户提供原始文献的服务，许多图书情报机构和商业文献机构均开展了文献传递服务。随着网络技术的发展，基于网络的文献传递服务系统已经成为文献传递服务的主流，它们或为独立运作的文献传递管理系统，或为遵循国际馆际互借协议ISO10160/10161的可实现与联合书刊目录数据库和馆藏OPAC系统集成配套使用的文献传递管理系统。本文主要研究国外网上文献传递服务系统的发展现状与特点。"
+  },
+  "1国外网上文献传递服务系统发展现状": {
+    "context1": "近年来，网上文献传递服务系统在国外有了很大发展，其中杰出代表主要有：大英图书馆文献供应中心文献传递服务系统[1]、美国联机计算机图书馆中心（OCLC)的 ILLiad系统[2]、德国教育科研部组织建立的Subito系统[3]和加拿大科学技术资料中心（CISTI）的 Intellidoc系统[4]等。"
+  },
+  "1.1大英图书馆文献供应中心文献传递服务系统": {
+    "context1": "成立于1970年的大英图书馆文献提供中心（BLDSC）是全英面向世界的大型文献配送中心，它以补充配送科技文献为主，每年收到的文献传递请求约 400万件，其中",
+    "context2": "3/4来自英国国内，1/4来自英国以外的国家。BLDSC主要依托自身的馆藏，利用其网上文献传递服务系统，直接面向用户提供文献传递服务，目前，它不仅以其举世无双的海量馆藏（尤其是期刊）成为英国馆际互借和文献传递的最后出借者，而且其网上文献传递服务实现了与其馆藏统一检索系统的集成，并且提供文献的满意度已达$8 3 . 9 \\%$ 。BLDSC网上文献传递服务系统文献传递的方式有两种：Ariel和 $\\mathrm { S E D _ { \\circ } }$",
+    "context3": "Ariel是由美国Infotrieve公司研制的面向因特网用户的文献传递软件，是图书馆及其他机构用于传送文件的一种工具。Ariel主要功能包括：使用Ftp或Mme电子邮件标准传递文献；扫描和发送灰度及彩色图像；打印不同分辨率的图像；对不同大小的资料进行扫描或打印；与大多数的打印机和扫描仪兼容；可以导入 TIFF、PDF、GIF和BMP格式的文档；馆员接收到文献之后利用Ariel软件将文档以 PDF或TIFF方式直接传递给读者。其工作流程是[5]：当Arie软件通过扫描、电子邮件或从其他Ariel工作站接收到文献之后， $\\textcircled{1}$ 将文档投递到HTTP服务器或FTP服务器上； $\\textcircled{2}$ 然后发送电子邮件通知或发送全部文档给读者； $\\textcircled{3}$ 接收来自邮件系统的 Delivery Status Notification(DSN)，根据DSN判断电子邮件是否成功发送； $\\textcircled{4}$ 读者接收电子邮件通知或文档； $\\textcircled{5}$ 读者回复电子邮件； $\\textcircled{6}$ 读者在HTTP服务器或FTP服务器上查看或下载文档。",
+    "context4": "SED（Secure Electron ic Delivery）是 BLDSC新推出的网上文献传递方式，SED在 BLDSC的文献传递服务中正起着愈来愈重要的作用[6]。因为 SED允许 BLDSC具有更快的处理速度和更大的处理能力。SED传递的文件是一种加密的 PDF文件，用户阅读 SED传递的文件时必须使用AdobeReader6.O.1以上版本，因为AdobeReader6.0.1以上版本具有数字版权管理（DigitalR ights Management,DRM）功能。在BLDSC的网上文献传递服务系统中，SED传送的文件并不直接发送到用户的邮箱中，而是将被传递文件的超链接发送到用户指定的邮箱。用户在收到 SED的通知邮件后，点击邮件中超链接可用AdobeReader6.0.1以上版本打开相关文献进行阅读和打印。SED传送的文件可在服务器上保留14天，逾期将自动删除。SED服务标准分三种情况：2小时内回复、24小时内回复、标准回复。对于所有的国际用户，使用 SED获得文献均要支付相关文献的版权费，即 SED很好地解决了版权问题。在BLDSC的网上文献传递服务系统中，如果用户想通过SED进行文献传递并且是其注册用户，有相应的用户代码和账号，用户可通过ARTWeb提出文件传递申请，如果用户不是大英图书馆的注册用户，并且不打算成为其长期的注册用户，可通过 Articles Direct Online fom提出 SED文献传递申请。"
+  },
+  "1.2美国联机计算机图书馆中心的 ILLiad系统": {
+    "context1": "OCLC成立于1967年，原为美国俄亥俄学院图书馆中心（Ohio CollegeLibraryCenter)，后中心服务扩大，1981年更名为联机图书馆中心（OnlineComputer Library Cen-ter)，总部设在美国俄亥俄州的都柏林。OCLC是由多家图书馆共同组成并共同支撑的馆际联合共同体，目前已联合了112个国家和地区的5700多个各类型图书馆，建立了包含世界上400余种语言文字的、超过8113万条记录的联合目录数据库 (WorldCat)。",
+    "context2": "OCLC自1979年开始启用馆际互借系统，1993年初推出了文献传递服务。OCLC是通过其 ILLiad资源共享管理软件（ILL iad Resource Sharing management Software）来进行馆际互借和网上文献传递的。ILLiad系统基于C/S模式，它通过一个基于视窗的界面允许图书馆工作人员进行馆际互借和文献传递，并且允许用户通过一个基于Web的简单的用户界面提交和跟踪自己的馆际互借或文献传递请求。ILLiad在一个包含WorldCat和WorldCatResourceSharing入口的可定制的界面中固定了各种馆际互借功能，即ILLiad提供了一个与WorldCat和WorldCatResource Sharing无缝的集成界面，在馆际互借方面实现了与联合目录数据库（WorldCat）配套使用，并且ILLiad可以接收来自FirstSearch和许多支持OpenURL的参考咨询服务的馆际互借和文献传递要求，将用户的请求自动提交给图书馆负责馆际互借和文献传递的职员，或直接发送给馆际互借和文献传递提供者，因为 ILLiad与 FirstSearch和 ILLD irectRe-quest进行了集成。而OCLC主要依赖FirstSearch数据库系统向用户提供数据库检索服务和原文传递服务，FirstSearch包括近80个专业数据库，涉及13个主题范畴[7]。ILLiad的文献提供者是由分散在112个国家和地区的 5700多个图书馆共同保障的，它支持各种传递方式，并能协助图书馆负责馆际互借和文献传递的职员直接将用户所要求的文献传递至用户的桌面。ILLiad网上文献传递的方式主要有：Ariel Email和 Odyssey Odyssey（文献的冒险旅行）是ILLiad的一种新的集成文献传递方式，它允许工作人员与其他 ILLiad用户和Odyssey用户进行文献传递[8]。OCLC没有规定统一的馆际互借与文献传递收费标准，所以各图书馆传递文献的收费也不统一。"
+  },
+  "1.3Sub ito系统": {
+    "context1": "Subito是德国、奥地利、瑞士研究图书馆文献传递服务的商标，是德国教育科研部为了加快文献资料提供速度而建立起来的国际性的图书馆文献传递服务系统，现有德国、奥地利、瑞士等国的37个图书馆参加，总部设在德国首都柏林。Subito依赖于 37个成员馆的几百万种期刊及图书，形成了一个为科学、经济、社会等所有领域提供信息的重要基地，它直接面向用户提供文献传递服务，服务对象主要为德国、奥地利、瑞士和列支敦士登等国家的非商业性用户，用户在享受文献传递服务前必须先注册成为系统合法用户。Subito提供两种文献传递服务方式：Sub ito A rticle Delivery和 Sub ito Book Delivery。",
+    "context2": "Subito-ArticleDelivery通过Subito的联合目录（SerialCatalogue）可为用户提供成员馆馆藏期刊、连续出版物、丛书及图书中的章节的网上文献传递服务。Subito的联合目录包含大约100万种印刷型的各个领域各种语言的期刊和350万种来自成员馆的参考书目。Subito网上文献传递服务只对注册的合法用户提供，其文献传递的文件格式有两种：PDF文档和MTIFF文档，文献传递的方式有三种：$\\textcircled{1}$ Email 论文以附件发送至用户电子邮箱； $\\textcircled{2}$ FTP Active 论文存放在用户指定的服务器上；FTPPassive论文存放在提供者的服务器上并通过Email通知用户下载。Subito网上文献传递服务一般在72小时内完成，快递服务在 24小时内完成。SubitoBookDelivery提供成员馆的图书外借服务。用户通过 Subito的联合目录可以在线检索和预定，并直接由提供馆将文献寄至用户工作地点，但用户须在四周内寄回。Subito的文献传递服务受到了国家的部分资助，比其他的文献传递服务便宜。"
+  },
+  "1.4加拿大科学技术资料中心的 In telidoc系统": {
+    "context1": "加拿大科学技术资料中心（Canada Institute for Scien-tific and Techn ical InfomaitonCISTI)，隶属于加拿大国家科学图书馆，其文献传递服务中心建于1924年。CISTI提供科技、医学、工程与农业领域的期刊论文、技术报告文献传递，服务对象为其注册用户，服务资源包括3个来源： $\\textcircled{1}$ CISTI的馆藏，包括5万多种期刊、60多万种图书、会议录、研究报告等； $\\textcircled{2}$ 加拿大农业图书馆的主要馆藏，包括3万种期刊、6万种图书、会议录和科技研究报告； $\\textcircled{3}$ 伙伴图书馆提供的文献传递服务。CISTI文献传递服务系统Intellidoc是一种集成的智能的文献传递系统，它与包括上述服务资源的CISTI目录检索集成在一起，直接面向用户提供文献传递服务，其主要功能有：可接受不同的订购方式、确认用户、知道文献所在位置、把文件转换成用户想要的格式、把文献传递给用户、跟踪文献传递服务处理进程、对文献传递服务进行统计分析等。CISTI首先是把要传递的文献扫描成TIFFB文件格式，然后由Intellidoc转换成用户想要的文件格式，根据用户的要求通过Ariel Secure Desk top Delivery（SDD)，进行网上文献传递。Intellidoc系统文献传递服务的响应时间一般为 72小时、24小时和2小时。",
+    "context2": "SecureDesk topDelivery是Intellidoc独有的一种加密电子文献传递方式[9]，传递的文献其格式为加密的 PDF文件。用户获得 SDD服务，首先必须注册成为CISTI用户并选择使用SDD进行文献传递，然后下载 SDD插件并安装。SDD并不把文献直接传递到用户手中，而是把准备好传递的文献以加密的 PDF文件格式储存在CISTI的Web服务器上，同时将其书目信息和 PDF文档下载超链接通过电子邮件发送至用户的邮箱中，以便用户在接到电子邮件通知后利用它们进行阅读和打印。SDD $90 \\%$ 在 24小时内完成， $50 \\%$ 以上在一个工作日内完成。"
+  },
+  "2国外网上文献传递服务系统的特点": {
+    "context1": "从上述4个国外著名网上文献传递服务系统的介绍不难看出，当前国外网上文献传递服务系统依托的服务资源有： $\\textcircled{1}$ 本馆资源，如BLDSC网上文献传递服务系统； $\\textcircled{2}$ 成员馆资源，如OCLC的ILLiad和德国教育科研部的Subito $\\textcircled{3}$ 本馆加伙伴馆资源，如CISTI的Intellidoc等不同情况。文献传递服务有： $\\textcircled{1}$ 集中式，如BLSDC网上文献传递服务系统、CISTI的Intellidoc和德国教育科研部的Sub ito $\\textcircled{2}$ 分布式，如OCLC的 ILLiad等不同模式。但它们呈现出了一些共同的特点。"
+  },
+  "2.1响应时间较短，服务效率较高": {
+    "context1": "响应时间是指当系统接到用户文献传递请求到发出所请求文献的处理时间。前面的介绍表明，不同系统应对不同的网上文献传递服务要求，有不同的响应时间，但一般可以在 $1 \\sim 3$ 个工作日内做出响应。使用加密电子文献传递方式者，则一般可以在24小时内得到响应，例如，BLDSC的 SED主要在24小时内完成，Intellidoc的 SDD$90 \\%$ 在 24小时内完成。更有甚者，在紧急情况下，一些系统的响应时间甚至可以达到2小时，例如，BLDSC的SED，In tellidoc的 $\\mathrm { S D D } _ { \\circ }$ 所有这些都说明，目前国外网上文献传递服务系统的响应时间较短，文献传递服务的效率比较高，这也是目前文献传递服务在国外得到迅速发展的主要原因之一。"
+  },
+  "2.2注重系统集成，提高文献请求的保障率": {
+    "context1": "在上述4个系统中，第二个共同特点就是，所有系统均将文献传递服务与其相应的文献检索系统实现了集成。例如，BLDSC的网上文献传递服务系统与大英图书馆的搜索引擎和期刊集成检索系统（BritishLibraryDirect）实现了集成，OCLC的ILLiad与OCLC的联合目录数据库(WorldCat）及数据库系统（FirstSearch）实现了集成，Subito与其联合目录（SerialCatalogue）实现了集成，而C ISTI的Intellidoc则与CISTI目录检索系统实现了集成，这使得用户能在利用其相应的检索系统进行检索查询后，直接利用检索结果进行文献请求，不仅确保了用户使用方便，而且提高了文献请求的保障率。"
+  },
+  "2.3直接面向最终用户，努力减少中间环节": {
+    "context1": "在上述 4个系统中除OCLC的 ILLiad不是在整个文献传递服务过程直接面向最终用户外，其余3个系统均是直接面向最终用户提供文献传递服务的，没有任何中间环节，这大大提高了系统的文献传递效率。实际上，OCLC的 ILLiad也在做减少中间环节的努力。如在其新的集成的文献传递方式——Odyssey中，工作人员可以将其他图书馆看作“可信赖的发件者”，允许引入的Odyssey文件不经工作人员干涉直接送到用户的Web账号[8]。"
+  },
+  "2.4发展加密技术，加强版权保护": {
+    "context1": "在文献传递服务中，特别是在以电子方式进行文献传递过程中，电子媒介的易扩散性一直是网上文献传递服务中版权保护关注的关键。从前面的介绍可以看出，目前网上文献传递方式多种多样，主要有Ariel和加密电子文献传递(如 SED和 SDD)。Ariel作为因特网上文件传送的一种通用工具，它允许文献提供机构利用Ariel系统和配套硬件设施，对文献、图片、资料进行扫描后利用网络将它们传递到用户的电子邮箱或者其他运行Ariel软件的工作站，供用户查阅下载。Ariel因为其专业性，能够实现扫描传递一体化，在网上文献传递服务领域得到了广泛应用，但它从技术上并没有完全解决被传递文献版权保护问题。而加密电子文献传递作为一种集扫描、文件格式转换、传递于一体，并对传递的PDF文件进行加密处理的",
+    "context2": "[7] Schneider S C.Infomation overload:causes and consequences [J].Human Systems Management 1987,7(2)：143-154   \n[8] Meglio C E KleinerBH·Managing infomation overload[J]. IndustrialManagement and Data System，199O,1(1)： 23- 26   \n[9] W heelw rightG.Infomation overload [J]·Commun ications Intemational 1995, 22 (1)： 55-58   \n[10] Wuiman R SInfomation anxiety [M].New York:Ban tam Doubleday Dell Publish ing Group Ino ，1989   \n[11] Waddington PDying for infomation；a report on the effects of infomation overload in the UK and worldw ide[EB/OL].ht tp:www:cniorg/regconfs/l997/ukoln-content/repor～13. hml   \n[12] HeylighenFComplexity and infomation overload in society: why increasing efficiency leads to decreasing contol[EB/ OL].http://pespmclvabaobe/papers/info-overload pdf   \n[13] Foley J Managing infomation infoglut new tools can help tame an ocean of data[J]．Infomation Week1995,3O(10)： 30-33   \n[14] Bawden D，Holtham C.Courtney N.Perspectives on infoima\" tion overload [J]．Aslib Proceedings1999（Sep)，51：8   \n[15] Gou lding A·Infomation Poverty or Overload [J]·Joumal of Librarianship and Infomation Science2OOl（Sep），33 (3):11   \n[16] Rudd JRudd M J Coping with infomation load;user strategies an implications for librarians [J].College& Research Li braries1986(July)：317-320   \n[17] U.C.Berkerly School of Infomation Management& System s Infomation systems[EB/OL].http://ieexploreieee org/xplore/loginjspurl =/iel4 /5350 /14595 /00665458."
+  },
+  "（上接第717页）": {
+    "context1": "文献传递方式，它相对不同文献传递服务系统来说具有私密性，是专有的，是与其特定的文献传递系统相匹配的，它传递的文件只能由系统合法用户查阅与打印，不存在非授权的扩散，从技术上解决了被传递文献版权保护问题。因而我们认为发展加密技术，加强版权保护应该是未来网上文献传递服务发展的主流方向，特别是从目前加密电子文献传递的文件格式趋于统一，都是加密的 PDF文件事实来看，加密电子文献传递实际上正给文献传递的标准化探索一条实用易用的新路，完全可以认为它是一种最具发展前途的网上文献传递方式，尽管目前并不是所有系统都已经采用，但它在BLSDC和CISTI的文献传递系统的成功应用，应该展示出了它美好的明天。",
+    "context2": "总之，目前国外先进的网上文献传递服务系统在自动化、集成化和知识产权保护技术和如何直接面向最终用户方面已经取得了许多成功的经验，及时总结并积极借鉴，将促进我国网上文献传递服务系统的不断优化和改进，并促进我国文献资源的有效共享。□"
+  },
+  "参考文献": {
+    "context1": "[1]The British LibraryDocument supply [EB/OL].[2O07-03- 16].http://www.bl uk/services/document/dsohml",
+    "context2": "pdfamumber=665458   \n[18]Edmunds A，Moris A·The poblem of infomation overload in business organ izationsa review of the literature [J].In tema\" tional Joumal of Infomation Management 2OOO (2O)：17-28   \n[19]Borchers A，Herlocker J Konstan J et al Ganging up on infomation overload [J]. Camputer1998,3l(4)：106-108   \n[20] Chen H,Houston A LIntemet brow sing and search inguser evaluations of category map and concept space techn iques [J]. Joumal of the American Society for Infomation Science 1998, 49 (7):582-603   \n[21] Balasub ram an ian V，Bash ian A．Docum ent managem ent and web technologiesalice marries the mad hatter [J]·Cammunication of the ACM，1998,31 (7)：107-114   \n[22]Rao K N,Babu K H.Role of librarian in intemet and World W ideWeb environment [J].Infomation Science2OOl,4 (1):31-33   \n[23] K im SThe roles of know ledge professionals for know ledge management[EB/OL].htp://www:iflaorg/NV/ifla65/ papers/042-115e hm，1999   \n[24] Daft R L Lengel R H.Organ izational infomation require mentsmedia richness and structural design [J].Managem ent Science 1996,42(5):554-571   \n[25]Hopk ins R L Countering infomation overload;the ole of the librarian [J]. Reference Librarian1995（49 /5O)：322- 327",
+    "context3": "作者简介：蔺丰奇，男，1965年生，博士生，教授。刘益，女，1961年生，教授，博士，博士生导师。",
+    "context4": "收稿日期：2007－04-04",
+    "context5": "[2]OCLCILLiad [EB/OL].[2007-03-16].htp://www. ocloorg/illiad/   \n[3]Subito Document delivery[EB/OL].[2O07-03-16]．ht tp://www:subito-docde/indexphp $\\mathrm { l a n g } = \\mathrm { e n g } _ { \\mathrm { c m } \\bf { o } \\bf { d } } =$ page& p id $=$ Dokum entlieferung&PHPSESS ID $=$ $8 5 \\mathrm { d c } 2 2 7 9$ $\\mathrm { c e e 2 d 9 6 7 7 6 9 9 3 b 7 9 c a ^ { 6 } d a c ^ { 0 } }$   \n[4]CISTI About document delivery [EB/OL].[2OO7-03-16]. http://cisti-icist nrc-cnrogoca/docdel/docdelehml   \n[5］陈武，孙维莲，朱京．Ariel读者文献传递功能应用研究 [J]·图书情报工作，2006（6)：103-105   \n[6]The British LibrarySecure electronic delivery [EB/OL]. [2007-03-16].http://porticobl uk/services/document/ sedhow.hm Hregister   \n[7］吕青·介绍国外权威文献传递服务机构［J]·图书馆建设. 2006 (6):55-57   \n[8]OCLC.Advanced documentdeliveryfeatures [EB/OL ]. [2007-03-16].http://www:ocloorg/illiad/about/fea\" tures/delivery/   \n[9]CISTI Document delivery:secure desk top delivery [EB /OL]. [2007-03-16].htp://cisti-icistnrc-cnrogoca/docdel/ sdd_ehml",
+    "context6": "作者简介：李瑞芬，女，1962年生，副研究馆员。张晓青，男，1964年生，研究馆员。收稿日期：2007－05—08"
+  }
+}

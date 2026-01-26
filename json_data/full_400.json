@@ -1,0 +1,61 @@
+{
+  "original_filename": "full_400.md",
+  "INEX 2OO5Dagstuhl XML 信息检索国际会议述评陆伟 陆娜": {
+    "context1": "(武汉大学信息资源研究中心,武汉,430072） (海南师范大学计算机系,海口,571158)",
+    "context2": "[摘要]INEX是致力于XML信息检索与评价研究的国际性论坛，每年都有来自全球各地的专家学者参加其组织的研究活动和学术会议。本文介绍了INEX2005年年终会议的概况、会议关注的焦点及未来的发展等。",
+    "context3": "[关键词]INEX 2OO5 XML 检索国际会议 [中图分类号]G354[文献标识码]A[文章编号]1003-2797（2007)01-0079-04",
+    "context4": "[Abstract]Being an international organization devoting to XML retrieval,INEX attracts dozens of experts participating in its research activity and workshops from all over the world.This paper introduces INEX 2OO5 Dagstuhl workshop in detail.",
+    "context5": "[Key words] INEX 2OO5 XML retrieval International workshop"
+  },
+  "1概述": {
+    "context1": "INEX是Initiativefor the Evaluation of XMLRetrieval 的简称。它是在DELOS Networkof $\\operatorname { E x } ^ { - }$ cellenceonDigitalLibraries 和IEEE的支持下，由德国 Duisberg University 的 Norbert Fuhr 教授和英国Queen Mary,University of London 的 MouniaLalmas教授负责发起的专门致力于XML信息检索与评价的国际性学术论坛。自2002年起经过四年的发展,INEX已经成为最著名的XML检索与评价组织[1] 。",
+    "context2": "与TREC类似,INEX也为参加者提供了相应的XML数据集、实验平台、实验评价方法和标准等,参加者需根据INEX的要求在不同阶段完成不同的实验和任务，并在最后阶段提交检索实验结果。INEX将根据一定的XML检索评价方法,对各参加者提交的检索结果进行评价，并将评价结果发布给所有参加者,以供进一步研究之用。此外,INEX 每年还定期召开两次相关的学术会议，一个是在每年夏天召开的关于XML 检索理论方法的会议，该会议将就现有的理论方法进行评价，同时与会者会提出一些新的思想或方法供大家一起探讨;另一个是年终在德国小城Dagstuhl召开的关于各种方法的实验与评价的会议，每个参加者将介绍自己本年度采用的检索实验方法与实验结果评价。此外，会议还将探讨XML 检索评价的相关方法和下一年度INEX的重点研究方向和任务等。",
+    "context3": "2005 年,INEX取得了较大的发展,参加的机构进一步增加，全球共有50多个研究机构报名参加;研究的领域也得到了进一步的拓展，其研究内容从2004年的5个增加到7个,它们分别是:XML Ad-hoc 检索，交互式XML 检索(InteractiveRetriev-al),多媒体XML 信息检索(Multimedia Retrieval),XML相关反馈研究（RelevanceFeedback），异构XML 检索（Heterogeneous Retrieval）,XML 文档挖掘（Document Mining）和基于自然语言处理的XML 检索（Natural Language Processing）等。其中，多媒体检索和文档挖掘是2005 年新增加的研究项目，而另外5个在去年的基础上得到了进一步的完善和发展：如Ad-hoc 检索增加了研究的内容；交互式检索扩展了研究的任务数;异构检索增加了新的数据集;相关反馈研究增加了结构提示、结构反馈的研究;自然语言处理则允许研究者不必开发自己的搜索系统也可参加INEX[2（在下文中将对这些研究内容予以详细介绍)。此外,2005 年采用了新的相关性评估过程和检索评价计量方法。",
+    "context4": "2005 年的年终会议于11月27日至30日在德国 Schloss Dagstuhl 召开,共有包括美国卡内基美隆大学、加州伯克利大学、IBMHaifa(以色列)实验室等27个机构的研究人员参加了该次会议。这次会议的目的是给INEX 2005参加者提供一个研究成果交流的平台，并就研究中所遇到的问题和相关经验进行探讨，同时设计并制订2006 年的相关计划。作为INEX 2005 参加者，本文第一作者参加了该会议并做了大会发言。由于INEX目前基本上已经成为当前XML检索研究最重要的平台，因而笔者希望通过对本次会议的介绍，使读者能够了解国际XML检索的研究现状和进展。"
+  },
+  "2本次会议的议题": {
+    "context1": "本次会议共接收了46 篇会议论文，范围涉及到前面提到的全部7个研究领域。其中，Ad-hoc 检索的文章最多，共21篇，其中有2篇涉及到其它领域，而异构检索和自然语言处理的文章最少，各为2篇，详见表1,其中括弧内的数字为涉及到其他研究领域的文章篇数。下面我们将对各个研究领域的情况做详细的介绍。",
+    "context2": "表1INEX2005会议论文分布",
+    "context3": "<table><tr><td>研究内容</td><td>文章篇数</td></tr><tr><td>XML Ad-hoc 检索</td><td>21(2)</td></tr><tr><td>交互式XML 检索(Interactive XML Retrieval)</td><td>6(1)</td></tr><tr><td>多媒体XML 检索(Multimedia XML Retrieval)</td><td>5(1)</td></tr><tr><td>X ML相关反馈研究(XML RelevanceFeedback)</td><td>3(2)</td></tr><tr><td>异构XML 检索(Heterogeneous XML Retrieval)</td><td>2(1)</td></tr><tr><td>X ML 文档挖掘(XML Document Mining)</td><td>6</td></tr><tr><td>XML自然语言处理(Natural Language Processing based XML Retrieval)</td><td>2</td></tr><tr><td>XML 评价方法(XML Evaluation Metrics)</td><td>4</td></tr><tr><td>其他(附录)</td><td>16</td></tr></table>"
+  },
+  "2.1 XML Ad-hoc 检索": {
+    "context1": "XMLAd-hoc 检索是INEX最重要的年度任务之一。在信息检索领域,Ad-hoc 检索是对图书馆利用的一种模拟，如利用新的检索主题对静态文档集进行检索等。对于XML 检索来说,其原理也是一样的，其不同之处在于： $\\textcircled{1}$ 文档集是以XML 格式存储的； $\\textcircled{2}$ 需要同时支持内容与文档结构的检索; $\\textcircled{3}$ 返回的结果集是XML元素而不仅仅是文档。关于Ad-hoc 检索，本年度共定义了三个子任务[3]：CO(Content Only）子任务, $\\mathrm { C O } + \\mathrm { S }$ (Content $_ { \\mathrm { 0 n l y } } \\ +$ Structure）子任务以及CAS（Content and Struc-ture)子任务。其中,CO子任务是面向内容的XML检索，其不考虑XML 结构信息。根据返回信息的类型和方式，该任务分为CO·Focused（检索结果不含重复元素信息）、CO.Thorough（检索结果允许重复元素信息)以及CO·FetchBrow se(先检索文档然后对文档内元素信息按相关度进行排序显示，该类型是文档检索和元素检索的结合）。 $\\mathrm { C O ^ { + } S }$ 子任务的目标是研究结构提示的有效性和有用性，其主要途径是比较有结构提示的检索与CO检索的检索效果与性能。XML的一个重要特征是其文档结构中所蕴涵的语意信息，因而结合其文档结构实现相关信息检索也是XML 检索的一个重要方面之一，CAS 子任务就是为了实现这一目标而提出的。考虑结构限制有两个方面，其一是检索条件的结构限制，如对于INEX数据集，希望查找文章标题中包含“DigitalLibrary\"的信息;其二是对结果显示的结构限制，如只要求显示相关的摘要信息等。相应地，对结构的要求也可以分为严格匹配(S)和模糊检索（V)两种，因而,CAS的检索策略可以分为VVCAS（检索条件和结果显示都是模糊限制）、VSCAS（检索条件模糊限制，结果显示严格匹配)、SVCAS（检索条件严格匹配，结果显示模糊限制)以及SSCAS(检索条件和结果显示都是严格匹配)四种。",
+    "context2": "从提交的 Ad-hoc 论文来看，在检索模型上，基本上都是在原有概率模型(共有7篇)、向量空间模型(共有5篇)和语言模型(共有4篇)的基础上发展而来的，只有一篇文章提出了用机器学习的方法来实现XML 检索。由于XML 检索和自由文本检索的差异性，关于文档与元素的关系、元素的父子关系及权重分配、索引元素和结果元素的选择、重复元素的过滤、元素长度的处理及相关检索策略等在论文中都有深入的探讨。然而，关于元素、文档和数据集的关系，元素父子的继承关系及权重分配等方面仍需要进一步的深入研究。与会者尤其对CO·Fetch-Brow se 的检索策略及结果显示等提出了进一步的改进意见。",
+    "context3": "此外，也有数篇论文对XML系统的索引、系统实现及用户检索交互等进行了介绍和探讨。"
+  },
+  "2.2交互式XML检索": {
+    "context1": "INEX交互式检索的任务主要是为了解决XML检索的一些基础性问题,如研究用户与文档结构单元交互的行为，以及研究和提出基于用户环境的XML信息检索有效策略与方法等。本年度交互式检索的主要任务是研究用户对重复元素信息、命中信息显示方式的反应。此外，关于用户需要什么样的XML检索系统功能、元素检索的潜在应用以及新数据集的引入也是本年度要探讨的问题。为实现这一目的，交互式检索共设计了3个任务：即在基准系统上的实验，自行设计的检索系统上的实验，以及新的数据集Lonely Planet Collection上的实验等。2005年共有11个小组参加了交互式检索实验。关于试验结果的分析需要在明年年中的XML检索方法会议上进行讨论[4]。",
+    "context2": "本次INEX会议上交互式XML检索的相关文章有两篇是关于交互式系统设计的，也有关于用户界面开发及用户行为的探讨的。研究发现，用户对重复元素较为不能忍受，系统的检索速度以及元素数量显示的多少对用户的检索行为及情绪有一定的影响。用户较为倾向于上文提到的FetchBrow se 检索方式。"
+  },
+  "2.3多媒体XML信息检索": {
+    "context1": "INEX2005多媒体检索的目标是为研究者提供一个结构化多媒体信息检索的评价平台。由于许多数据集不仅仅包含文本信息，还包括图片、语音和视频信息等,将这些信息与文档结构信息纳入检索的考虑范畴将是一个十分有意义的工作。本年度是多媒体检索纳入INEX 的第一年,其检索任务是根据用户需求检索结构化的多媒体片断，并在统一考虑不同类型信息的相关性的基础上以一定方式合并来对其进行排序显示。与其他多媒体检索研究不同的是,INEX多媒体检索任务主要关注于如何利用文档的结构化信息以及如何综合考虑各种类型媒体信息片断的相关性。INEX 2005多媒体检索只考虑了文本和图像两种信息类型，其目的是如何综合考虑文本和图像信息的相关性，向用户提供更相关的图像和文本片断。",
+    "context2": "从提交的5篇论文来看，其检索方式基本上是先利用类似上文中 Ad-hoc 的检索方法获取文本的权重，同时利用图像内容检索模型获取图像的权重，然后采用线性事实归并法(LinearEvidenceCombi-nation)等合并文本和图像的权重，并进而对媒体文档片断进行排序，获取最终的检索结果集合。也有文章只应用图像内容检索提交了检索结果，然而该结果与上面的方法相比，在检索结果的准确性方面相距甚远。本年度多媒体信息检索采用的实验数据集是LonelyPlanet XML文档集。此外,INEX还提供了多媒体XML信息检索相关性评估系统平台，用以对提交的检索结果进行评价。"
+  },
+  "2.4 XML相关反馈研究": {
+    "context1": "在检索过程中，用户往往对要检索的数据集的内容和结构缺乏了解，因而需要在检索的过程中不断调整自己的检索语句和检索策略，在这种情况下,专家们提出了相关反馈(RelevanceFeedback)的概念。在全文检索系统中相关反馈检索的目的是通过用户与系统的检索交互，自动或人工筛选出更合适的检索词，这些词然后被加入到查询语句中或被赋予一定的权重用以进一步的检索。对于XML 文档，用户不仅仅会考虑检索词，而且还需要对文档的结构和特性进行判断，从而用以推断什么样的内容和结构元素信息可以用来重新构造XML检索语句，以便更有效地检索相关数据。",
+    "context2": "INEX规定了两种相关反馈的任务[5]：CO(Content Only）类型和 CAS（Content and Struc-ture)类型。前者只关注文档的内容信息，也就是说只对检索词进行重新构造;而后者需要既考虑检索词信息又需要考虑文档结构。从提交的论文来看，目前主要有两种方式来实现XML检索的相关反馈研究：其一是利用检索结果所获取的结构信息对检索语句进行重新构造并对结果进行重新排序;其二，是通过给检索词和结构赋予一定的权重并在此基础上构造和重构查询语句，进而实现真正意义上的CAS 检索。"
+  },
+  "2.5异构XML检索": {
+    "context1": "异构检索的含义有多种,如不同的文档结构、不同的存储介质和系统环境等。本文中所指的XML异构检索是指XML文档在结构上的差异性，其它类型的XML异构检索与全文异构检索并无太大差异，因而暂时未被列入INEX的考虑范围。INEX异构XML检索分为两种类型]： $_ \\mathrm { H e t . } \\mathrm { C O }$ 和 ${ \\mathrm { H e t } } \\cdot { \\mathrm { C A S } }$ 。Het·CO的目标是只根据内容从不同的数据集中检索相关的文档元素，而不考虑文档的结构信息。Het·CAS 则需要既考虑文档的内容信息又需要考虑文档的结构信息(或隐含的结构信息),如要查询关于某主题的论文信息，则查询结果需要将论文排在所有其它元素或文档类型(报告、网页等)之前。",
+    "context2": "由于2006 年INEX的日程提前,因而本年度即将开始(2005 年12月初)的异构XML 检索任务被取消，所有的工作将被纳入到2006 年的检索任务。关于异构XML 检索实现的核心问题是异构文档集中元素的分类问题，如同样是作者信息，在不同的文档集中可能分别以 ${ < } _ { \\mathrm { A u } } { > }$ 和 $<$ Author>的形式表示。目前，主要的方法是人工对这些元素进行分类，当然提交的1篇论文探讨了基于向量空间模型的自动分类方法，然而这种方法的效果还有待检验。"
+  },
+  "2.6 XML 文档挖掘": {
+    "context1": "XML文档挖掘的主要目标是应用机器学习的有关理论和方法实现XML文档的分类和聚类。其旨在通过对结构化文档挖掘的关键问题的定义，确定机器学习技术在该领域的研究主题和任务，并建立相应的文档实验集、检索主题集以及相关结果集，对技术的应用进行评价和比较分析。",
+    "context2": "XML文档挖掘主要定义了两个任务[7],其一是专门针对结构标签的异构文档结构信息分类和聚类;其二是结合内容和结构的文档分类和聚类。会议共收到了6篇文档挖掘的文章，其中5篇是应用Sequential Pattern Mining、Self-Organizing Maps等的面向结构的文档挖掘，另外一篇文章中提出了Belief networks-based stochastic model用以实现基于内容和结构的文档挖掘。由于缺乏评价和检验工具,这些方法的效果还有待于检验。会议提出了关于建立文档挖掘评价系统的问题。"
+  },
+  "2.7基于自然语言处理的XML检索": {
+    "context1": "在XML文档中，信息多以自然语言的形式存储，然而，大部分XML检索工具在实现上并不提供自然语言检索的功能。因而如何应用自然语言处理的相关理论方法来实现XML检索就成为INEX要探讨的问题之一。与当前的词/短语匹配、语言语义(LanguageSemantics）以及传统的索引方法相比，自然语言处理在分析XML的语法上具有更大的优势。本任务的目标是设计并开发一个能够分析、理解用户的自然语言查询需求，并提供相应查询结果的自然语言处理XML 检索系统。这其中最关键的问题就是如何理解用户通过自然语言形式表达的关于XML检索的内容和结构约束。",
+    "context2": "本次会议提交的关于自然语言处理的文章中，作者对Ad-hoc 检索主题中的描述信息(Descriptiveand Narrative)通过自然语言处理进行了分析，并应用分析结果重构了检索主题。实验结果显示，重构后的检索在一定程度上提高了检索性能（对于CO提高了 $2 \\%$ ，而对于CAS 则提高了 $3 5 \\%$ )[8]。"
+  },
+  "2.8 XML评价方法": {
+    "context1": "传统的检索评价方法是以查全率(Recall)和查准率(Precision)为基础的。对于全文检索，学者们在此基础上提出了相应的评价方法如F-measure,R-precision $,$ average Precision 以及 Mean AveragePrecision 等等。对于XML检索来说，由于其评价的是元素而非文档的相关性，因而需要有新的评价方法。INEX从两个角度考察元素的相关性，即穷尽性(Exhaustivity）和专指性(Specificity）[9]。穷尽性是指元素覆盖检索主题范围的程度，分为完全穷尽、部分穷尽、相关但元素太小以及完全无关四个层次。专指性是指元素与主题相关的程度(即元素描述该主题的内容比例)，其范围从0到1,0为不相关,1为全部相关。INEX 在这两个指标的基础上提出了 2005 年的官方检索模型nXCG 和ep。",
+    "context2": "此外，也有学者提出了改进的评价模型如EPRUM和HiRex 等。然而，总体看来,XML的检索评价方法还存在很多争议，不管是2005年的官方模型、还是提出的改进模型，都有需要进一步完善的地方，如官方模型中关于\"too small\"太小元素的处理问题、元素穷尽性的级别划分问题、专指性的计算方法问题等都需要进一步完善。与会学者就这些问题进行了深入的探讨，并提出了许多建设性的意见，这些意见有些被采纳，将体现在2006 年的INEX评价模型中去。"
+  },
+  "3结束语": {
+    "context1": "Dagstuhl为与会者提供了舒适而轻松的会议环境。然而INEX持续三天的会议却安排得异常紧张，与会者的参予热情也非常之高，除了白天紧张的学术报告外,每天晚上的小组讨论都到10点30 分以后才结束。与会者就上述提到的议题进行了深入而广泛的探讨，对 2006 年INEX的日程安排、任务调整、评估方式、评价方法等也提出了许多改进意见，这些将充分体现在2006 年的INEX 活动中去。"
+  },
+  "参考文献": {
+    "context1": "1 INEX web site http://inex $\\cdot$ is $\\cdot$ informatik $\\cdot$ uni-duisburg · $\\mathbf { d e } ^ { \\prime }$ (visited $1 0 ^ { \\mathrm { t h } }$ December 2005)   \n2 Preface of INEX O5 Proceedings·Proceedings of INEX 2005，LNCS.   \n3 Mounia Lalmas·INEX 2OO5 Retrieval Task and Result Submission Specification·Proceedings of INEX 2005, LNCS.   \n4 Birger Larsen，Saadia Malik，Anastasios Tombros．The Interactive Track at INEX2OO5．Proceedings of INEX 2005，LNCS.   \n5 Relevance Feedback Task·Proceedings of INEX 2005, LNCS.   \n6 Ray R.Larson $\\cdot ^ { \\star }$ INEX 2OO5 Heterogeneous Track Tasks and Result Submission Specification·Proceedings of INEX 2005，LNCS.   \n7 Mining XML documents: Bridging the gap between Machine Learning and Information Retrieval.Proceedings of INEX 2005,LNCS.   \n8 Xavier Tannier·From natural language to NEXI，an interface for INEX 2OO5 queries:Proceedings of INEX 2005，LNCS.   \n9 Gabriella Kazai，Mounia Lalmas $\\cdot$ INEX 2O05 Evaluation Metrics·Proceedings of INEX 2OO5，LNCS.",
+    "context2": "（收稿日期：2006-02-22)"
+  }
+}

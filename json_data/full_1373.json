@@ -1,0 +1,75 @@
+{
+  "original_filename": "full_1373.md",
+  "nothing": {
+    "context1": "·信息资源开发与利用·"
+  },
+  "云计算在国内外数字图书馆中的应用及进展": {
+    "context1": "韩普沈思路高飞（南京大学信息管理学院，江苏南京210093)",
+    "context2": "[摘要]云计算是当前信息技术的研究热点，其应用正逐渐普及，云计算的快速发展引起了图书馆界的关注。本文介绍了国内外云计算的应用现状，讨论了国内外图书馆利用云计算的情况，分析了云计算在图书馆应用中的阻碍并对其应用进行了展望。",
+    "context3": "[关键词]云计算；数字图书馆；网格计算   \nDOI:10.3969/j.issn.1008-0821.2012.05.017   \n[中图分类号]G250.7〔文献标识码]B〔文章编号〕1008－0821（2012）05－0067－04"
+  },
+  "The Application and Progress of Cloud Computing in Digital Library at Home and Abroad": {
+    "context1": "Han PuShen SiLu Gaofei (School of Infomation Management，Nanjing University，Nanjing 21OO93，China)",
+    "context2": "〔Abstract）Cloud computing，aresearch hotspot andits applicationare becoming more common·Therapid development of cloudcomputing hasatracted theconcernofthelibrarianship．Thepaper introduced theappicationofcloudcomputingathome andabroad，discusedthestatusofusingcloudcomputing inlibraryathomeandabroad，analyzedthebarriersofaplicationof cloud computing in library and prospects on the application·",
+    "context3": "〔Key words）cloud computing；digital library；grid computing"
+  },
+  "1云计算概况": {
+    "context1": "2006年8月9日Google CEO 埃里克·施密特在 SearchEngine StrategiesConference的大会上首次提出了“云计算”(Cloud Computing）概念[1]，但有关云计算的应用却是早已有之。关于云计算还没有一个统一的定义，正如惠普欧洲地区软件销售副总裁在回应Oracle CEO Larry Ellison 对云计算的认识时所说，许多人都跳入云潮流，关于云有多个定义，但我没有听到两个人说同样的事情[2]。目前很难对“云计算”有一个统一得到认可的定义。综合各方的定义，云计算可以被认为是对大规模计算资源进行统一管理、调度最终来提供按需服务。云计算最终的目的是将用户以桌面为核心使用各项应用转移到以浏览器为核心进行各种活动。",
+    "context2": "云计算按照服务类型大致可以分为3类：将基础设施作为服务的IaaS、将平台作为服务的PaaS和将软件作为服务的 SaaS。但随着云计算的深化发展，不同云计算解决方案之间相互渗透融合，同一种产品往往横跨两种以上类型。从计算机技术的发展阶段来说，云计算是分布式处理(Distributed Computing）、并行处理（Parallel Computing）和网格计算（GridComputing）的发展，或者说是这些计算机科学概念的商业实现。按照美国国家标准与技术研究院(NIST）的定义，可将云分为：公共云、私有云、社区云和混合云，公有云又分为公众云和行业云。人们对云计算有不同定义和分类，但有一个是不能否认的，目前各大企业都有很好的条件和环境开展云计算研究和应用，国内外著名IT 公司纷纷试水云计算。",
+    "context3": "Amazon是全球最大的在线零售商，也为独立开发人员提供云计算服务平台，虽然最早提出“云计算”这个概念的是Google，但Amazon 是最早提供远程云计算服务平台的公司，这源于Amazon 需要解决销售峰值时购买的大量IT设备在其它时间空闲的问题。Amazon设备在销售高峰时需要大量设备，平时却处于空闲状态，如果运用自身在网站优化上的技术和经验优势，Amazon 就可以将这些设备、技术和经验作为一种打包产品去为其他企业提供服务，那么闲置的IT设备就会创造价值。这也是Amazon推出云计算服务的初衷。2006年3月，Amazon 推出了首个商用云计算服务 S3（Simple Storage Service），提供海量数据存储服务，并由此拉开了一系列商用云计算服务的序幕。2006年4月推出 Amazon Simple Queue Service，提供可扩展消息队列 Host服务。2OO6 年8月推出 EC2（Amazon Elastic Compute Cloud）的，提供可定制的伸缩扩展虚拟主机服务。2007年12月推出 Amazon SimpleDB，提供数据结构化，索引和实时查询。2008 年10月23日宣布于2006年8月开始测试的 EC2云计算服务迈入正式版，Amazon 在 EC2上提供服务质量协议(Service Level Agreement）并新增支持微软Windows 平台。2010 年11月15 日，Amazon Web 服务宣布推出一个新的实例一—Amazon 集群超强图形计算实例（Amazon Cluster GPUInstances)，这个实例提供了云中的GPU处理能力[3]。UBS预测，Amazon AWS 部门（Amazon Web 服务）2OlO 年的净利润是5亿美元，2011年的净利润将达到7.5亿美元，到2014年将达到 25 亿美元[4]。多项的AWS 系列产品奠定了Amazon作为云计算市场领军地位，Amazon云计算的成绩单证明，云计算不再只是一团“热空气”。",
+    "context4": "Google在云计算方面一直走在前列，也是最大云计算的使用者。Google搜索引擎本身就是云计算的一个典型应用。Gmail、Docs 等产品也属于云计算的一种服务。Google云计算的三大核心技术GFS、MapReduce 和BigTable 也已经公开于众。2007年10月Google和IBM联合宣布推广“云计算”计划[5]，通过这项计划，高校的研究者能够更方便地利用Google和IBM的云计算资源，搭建出各种创新性的应用。2008 年4月，谷歌推出了Google App Engine（谷歌应用软件引擎)，这是一种让研发人员编译以Python 和Java 为基础的应用程序并免费获取最高可达500MB存储空间并使用谷歌基础架构来托管的服务[6]。目前，整个Google Apps 的用户数量超过1000万。2008年9月3日，Google推出了Chrome 浏览器，这样Google便可以通过Chrome 浏览器来部署云计算，将用户引向 SaaS 模式，也被认为是Google 在实施其“云计算”计划的一个重要步骤。",
+    "context5": "微软紧跟云计算步伐，2008年，4月22日，微软宣布推出数据存储及网络软件系统“LiveMesh”，欲迈出公司从PC 领域转型到云计算最为野心勃勃的一步。微软将 LiveMesh 视为基于网上数据中心的软件平台，可以提供多种服务，包括计算机远程控制、电子设备及数据存储等。2008年串国知网在洛稀码行的专.业开发木会PDC 2008上，微软首席软件架构师RayOzzie宣布了微软的云计算战略以及云计算平台一—Windows Azure。Azure 是微软云计算所有服务的基础平台，从Live 服务，到数据服务，到提供SharePoint和MicrosoftDynamicsCRM的空间服务。应用程序即可以运行在云中，也可以运行在本地系统。此外，微软为可口可乐、西门子、成都云计算中心等客户开发了私有云的解决方案[7]，也标志着微软云服务已经迈入企业应用的大门。",
+    "context6": "此外，惠普、IBM、Yahoo!、Oracle和Salesfore 等国外著名IT公司都推出了云计算有关的服务和产品。除了国外的IT巨头在云计算方面的努力贡献，国内的IT公司也在这方面取得了很大进展。",
+    "context7": "在我国，云计算也已经从理论阶段步入实际应用阶段。2008年2月1日，IBM宣布将在中国无锡太湖新城科教产业园建立第一个云计算中心，2008年5月10日，无锡云计算中心正式投入运营；2008年6月24日，IBM在北京IBM中国创新中心成立了第二家中国的云计算中心一一IBM大中华区云计算中心；2009年9月25日，IBM与东营市政府合作以建立黄河三角洲云计算中心。2008 年11月28 日，广东电子工业研究院和东莞签约，将在东莞松山湖投资2亿元建立云计算平台。2008年12月30日，阿里巴巴集团与南京市政府签订合作协议，计划于 2009 年初在南京建立国内首个“电子商务云计算中心”，并提出了“BusinessCloud（商业云)”。2009年1月，国内规模最大的电信互联网基础设施服务提供商之一一一—世纪互联发布了“云计算”服务品牌CloudEx，并开始向国内用户提供“云计算”基础设施服务，迈出了中国互联网走向云计算时代的坚实的一步，CloudEx 云计算产品包括：CloudEx 弹性计算服务、CloudEx弹性存储服务以及CloudEx云备份服务。CloudEx弹性计算服务类似于亚马逊的EC2，为客户提供按需租用的计算能力。2009 年5月，中国移动正式对外公布其正在研发和试验的平台“BigCloud一一大云”，该平台在一些重要的开源软件基础上研发，以支持移动互联网业务海量数据存储和调度。2009 年12月中国云计算技术与产业联盟在京成立，中国云计算技术与产业联盟的成立，对中国云计算产业化有一定推动作用。2010年8月17日，上海正式发布《上海推进云计算产业发展行动方案（2010一2012年)》三年行动方案，即“云海计划”，主攻方向就是提供云计算的基础设施服务。该计划的目的很明确，将打造上海成为亚太地区的云计算中心。",
+    "context8": "虽然各方云计算的定义和应用有差异，但都有以下共同的特点：",
+    "context9": "可靠性高：当用户把资料存储在云端，再也不用担心资料的丢失或损坏。",
+    "context10": "按需服务：用户再不用担心购买使用频率非常低价格非常高的软件的License了，在需要的时候可以直接使用云端的软件，只需根据使用时间来支付相应费用。",
+    "context11": "安全性好：为了防止病毒，用户不得不在本地安装杀毒软件等工具来保护电脑，特别是对新手，这不是一项简单的工作，采用了云计算后，用户只需在浏览器中输入地址就可以了。",
+    "context12": "经济：使用SaaS之后，用户不用担心硬盘存储空间不够，大规模云计算条件下，用户只需支付廉价的云服务，使用IaaS 后，用户不必担心在偶尔有大需求时购买和配置大量基础设施的困扰，只需在需要的时候租用更多的空间和服务。",
+    "context13": "个性化：云计算根据每个人的兴趣，可以为用户提供量身定做的个性化服务。"
+  },
+  "2国外云计算与数字图书馆": {
+    "context1": "国外图书馆已经悄然走在云计算技术前列10 年了，SaaS（Software asaService）在图书馆的使用可以追到 2000年 Serials Solutions 公司的成立，很多转移到电子期刊的工作已经开始聚焦在SaaS平台上，并且LibGuides公司表示图书馆都愿意投资 SaaS解决方案[8]。",
+    "context2": "2006 年8月Amazon推出的弹性计算云EC2 服务，它为不同的组织机构提供IT基础服务，包括存储服务和计算资源服务。EC2可为Linux、Windows等几种不同的操作系统用户提供云服务。目前租用亚马逊云计算服务来处理自己业务的用户超过37万，哥伦比亚区公共图书馆正使用亚马逊的弹性计算云服务托管它们的网站，并且还在使用亚马逊的简单存储服务（S3）备份图书馆集成系统[9]。",
+    "context3": "2008 年4月，Google 发布的 AppEngine 服务允许本地使用Google基础设施构建Web应用。同年10月27日，微软发布了云计算服务“Windows Azure”。Windows Azure 将为客户提供继客户端和服务器之后的第3个平台，提供一个除有计算、存储外还具有托管和管理功能的可扩展环境。用户不必本地安装，可以直接运行使用云端的应用程序。科罗拉多州甘尼森的东部州立大学正利用AppEngine 建设 ELi-brary 供师生使用[9]。此外，Google Docs、Google Maps、Face-book、Flickr以及IBM、英特尔、雅虎、Sun 等公司的云计算服务都对数字图书馆云计算起到了积极的推动作用。",
+    "context4": "2009 年5月，英国的图书馆自动化系统供应商Talis 公司的 Richard Wallis、Google 的Frances Haugen 和图书馆自动化领域专家Marshall Breeding 提出了“云计算图书馆”（Cloud Computing Libraries）的新概念[10]，标志着云计算图书馆这一研究进一步明确。",
+    "context5": "2009 年7月14日，美国国会图书馆国家数字信息基础设施与保存项目（NDIIPP）与DuraSpace 公司宣布，他们将联手发起一个为期一年的试验计划，检验利用云技术进行数国知存取的情/该试点计划围能着一项新的以云技术为基础的服务一—DuraCloud开展，该服务由DuraSpace 组织发起和主持管理。在NDIIPP项目成员中参与此计划的有纽约公共图书馆和生物多样性历史文献图书馆。这一研究在检验云计算在数字图书馆中是否可行上起到了重要作用。",
+    "context6": "业界最有影响的莫过于OCLC将“基于云”的服务引入了图书馆界。OCLC 是非赢利、全球最大的图书馆合作组织，2008 年OCLC 的 Janifer Gatenby 撰文指出：“对图书馆而言，重要的是拥有与控制他们的数据资源，自由地共享、提供访问、曝光数据，而拥有或运行操作与管理这些数据的软件则不那么重要。[12]”这可以看作是OCLC规划云计算应用的征兆。2009 年4月23日，OCLC在都柏林正式宣布将向它的会员图书馆提供“基于云的”、Web规模的协作式的图书馆管理服务[13]。这是图书馆界的第一个云计算服务，作为领域应用的专业云计算服务。OCLC的“Web级协作型图书馆管理服务”即WorldCatLocal的强化版已于 2009年7月上线。OCLC对超过1000多个会员图书馆进行云计算新产品的服务，其目标是取代当前图书馆的集成管理系统。由于OCLC在图书馆界的广泛影响，此举预示着云计算在图书馆领域广泛应用的开始。OCLC开启了图书馆应用云计算的大门。"
+  },
+  "3国内云计算与数字图书馆": {
+    "context1": "国内云数字图书馆基本还是停留在理论阶段，2009 年9月25日，中国图书馆学会学术委员会在上海举办了第一届“云计算与图书馆”研讨会[14]，会议的一个结论是“云计算对数字图书馆来说是一个不可回避的问题”。此举也表明国内图书馆界已经开始重视云计算，在云图书馆研究和应用上迈出了重要的一步。在应用上有实质进展的是中国高等教育文献保障系统（China Academic Library InformationSystem，简称CALIS）的数字图书馆云服务平台（NebulaPlatform），从2OO8 年起，CALIS 陆续推出了支持 SaaS（Soft-ware as a Service）的新一代馆际互借与文献传递系统共享版（即 SaaS版）、支持分布式“云”服务的CALIS 数字图书馆云平台（CALIS Easy Cloud Platfom）以及其他一系列云应用系统[15]。截至到目前，CALIS云服务平台的框架已经基本构建完成，CALIS采用云计算在全国构建分布式的数字图书馆云服务平台，这是一个信号，意味着高校数字图书馆云时代的开启。"
+  },
+  "4云计算在数字图书馆中阻碍和展望": {
+    "context1": "数字图书馆在经历了互联网时代、WEB时代、网格时代、WEB2.0时代后，正在悄然走进云计算时代。像其它新技术在应用初期一样，云计算在数字图书馆中的应用也存在着一些问题限制着云计算的普及应用。其原因是多方面的，除了政策方面的原因，主要还是在于使用云计算的条件还不成熟。"
+  },
+  "4.1 云计算安全问题是最大障碍": {
+    "context1": "安全性包括两个方面：一个是数据的安全性，谁在控制整个云端，对于机密信息和敏感信息，虽然可以签订保密协议，但用户是不可能存放在第三方公司平台上的；另一个是云计算本身的安全性和可靠性。Google、Aamzon 这些大牌的厂商 2OO8 年的 Amazon S3，AppEngine 和Gmail 的服务曾出现 $1 . 5 { \\sim } 8$ 小时的中断服务[2]，Amazon Web Service 的Simple Storage Service（S3）在7月出现了服务故障，故障持续了8个小时之久，依赖S3进行文件存储的在线公司因此蒙受了损失。这也是不免会令一些用户颇为担忧的状况。目前也没有专门针对云计算的连续性保障的政策，高校图书馆、银行等大客户转移到云计算是不现实的。尤其是对连续性保障运行要求高的客户是心存疑虑的。"
+  },
+  "4.2标准": {
+    "context1": "目前IBM、Google、Aamzon、Microsoft 以及国内的一些公司都开始提供云计算服务，但总体说来，云计算缺乏统一标准，在变更云服务提供商的时候可能还需要重新编写应用，维护云计算正常运行的技术标准还不统一，使用户在具体方案的选择上难免困惑，这极大地限制了云计算的普及与推广。尤其是在数字图书馆领域，由于图书资源的复杂性和特殊性，更需要一个标准。2009 年1月，云计算标准的正式联盟OpenCloudConsortium（OCC）成立，OCC希望面向基于云的技术提供对开源软件配置的支持，开发不同类型支持云计算的软件之间可以进行互操作的标准和界面，以促进云计算的应用[16]。但目前图书馆界还没有类似的标准组织。"
+  },
+  "4.3数据传输带宽问题": {
+    "context1": "云计算的一个重要的服务是云存储，用户需要短时间内对大文件存取服务，当前的一个直接问题就是网络带宽。在当前网络条件下，带宽还存在一定的条件限制。从经济上说，巨大的数据传输也给用户增加不少经济支出。随着网络技术的发展，相信这个问题会很快得到解决。",
+    "context2": "云计算的发展十分迅速，各领域都在开始试水，图书馆领域总是处于信息技术发展的风口浪尖，图书馆人一直在寻求数据、信息、知识的最佳处理和组织方案，也一直走在信息技术应用最前列。云计算可以在图书数字保存、检索、软件服务能方面发挥着重要作用，但就当前环境来说，还并没有在数字图书馆大规模的运用起来。虽然在数字图书馆应用上还有一些问题需要解决，但总体上看云计算在图书馆上的应用可谓是前景广阔。云计算绝不仅仅是一个计算的问题，它需要和众多的相关研究相结合，相信在不远的将来，云计算会在数字图书馆中扮演着必不可少的角未来图书馆领域发挥更大作用et"
+  },
+  "参考文献": {
+    "context1": "[1] Google Press Center．Conversation with Eric Schmidt hosted by Danny Sullivan [EB/OL]．http： $/ /$ www· google. $\\mathrm { c o m / p r e s s / p o d i u m / }$ $\\mathrm { s e s 2 0 0 6 . h m l }$ ，2012—01—09.",
+    "context2": "[2]ARMBRUST Michael，FOX Armando，GRIFFITH Rean，etal. Above the Clouds：A Berkeley View of Cloud Computing [OL].http: //www·eecs:berkeley·edu/Pubs/TechRpts/2009/EECS-2009-28. pdf，2012—01—10.",
+    "context3": "[3] Amazon Web Services·Announcing Cluster GPU Instances for Amazon EC2 [EB/OL].http://aws·amazon·com/about-aws/whats -new/ 2010/11/15/announcing clustergpu instances—foramazon ec2/，2012—01—09.",
+    "context4": "[4]Andrew R Hickey·Amazon Cloud Revenue Could Exceed $\\$ 500$ Million In 2OlO：Report [EB/OL].http://www·crn·com/news/applications丨os/2265O0204/amazon－cloud－revenue－could-exceed一 500一million－in—2010—report·htm，2012—01—09.",
+    "context5": "[5]Google Press Center·Conversation with Eric Schmidt hosted by Danny Sullivan [EB/OL].http://www·google·com/intl/en/press/pressrel/ 20071008_ibm-univ·html，20ll—02—09.",
+    "context6": "[6] Google App Engine．Run your web apps on Google's infrastructure [EB/OL]. http://code·google·com/appengine/，2012-01-09.",
+    "context7": "[7] Microsoft．Case Studies of Cloud Computing [EB/OL]. http://www. microsoft·com/china/cloud/casestudy·aspx，2Ol2—O1—09.",
+    "context8": "[8]Erik Mitchell·Using Cloud Services for Library IT Infrastructure [EB/ OL]·http:// journal·code4lib·org/articles/25l0，20ll—10—12.",
+    "context9": "[9]张文华，冯凯，胡光林，等．云计算及其在图书馆中的应用现状和面临的障碍[J]．图书馆学理论研究，2010，54（7)：42-45."
+  },
+  "[10]廖建军，焦允·基于构架/构件的分布式数字图书馆系统开发": {
+    "context1": "Content [EB/OL].htp://www·loc:gov/today/pr/2009/09-140. html， $2 0 1 2 - 0 1 - 1 0$",
+    "context2": "[l2]Gatenby J.The Net worked Library Service Layer：Sharing Data for More Effective Management and Co－operation [EB/OL]·http：// wwW $^ { * } ,$ ariadne·ac·uk/Issue56/gatenby/，20l2—10—12.",
+    "context3": "[13] OCLC News releases·OCLC announces strategy to move library management services to Web scale [EB/OL].http:// www·oclc·org/ news/releases/200927.htm，2012—10—13.",
+    "context4": "[l4]上海市图书馆学会．2009图书馆前沿技术论坛：云计算与图书馆[EB/OL].http://www.libnet·sh·cn/tsgxh/list/list·aspx?id$= 6 0 1 1$ ，2012—01—10.",
+    "context5": "[15]王文清，陈凌·CALIS数字图书馆云服务平台模型[J]·大学图书馆学报，2009，27(4)：13—18.",
+    "context6": "[16]Jon Brodkin．Consortium tackles cloud computing standards[EB/ OL]:http://ww $\\cdot$ networkworld·com/news/2009/010709—cloud一 computing–standards·html，20l2—01—09.",
+    "context7": "（本文责任编辑：孙国雷)"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "original_filename": "full_8414.md",
+  "社会化网络评论观点挖掘的研究热点与应用进展": {
+    "context1": "陈晓美1,王付国1,吴宏伟²,孙中秋1",
+    "context2": "(1.吉林大学 管理学院,吉林 长春130022;2.中共秦皇岛市委党校,河北 秦皇岛 066100)",
+    "context3": "摘要：概括了社会化网络评论的内涵、分类特点及其研究意义,分析了有关观点挖掘技术当前的研究热点,总结了观点挖掘技术在社会化网络评论领域的应用进展情况。据此,进一步探讨了社会化网络评论挖掘技术的发展趋势。",
+    "context4": "关键词：社会化网络;观点挖掘;评论分析",
+    "context5": "中图分类号：G250.2 文献标识码：A 文章编号:1007-7634(2013)11-119-06"
+  },
+  "Social Network Comments Based on Opinion Mining and Application": {
+    "context1": "CHEN Xiao-mei',WANG Fu-guo',WU Hong-wei²,SUN Zhong-qiul",
+    "context2": "(1.School of Management, Jilin University， Changchun 130022,China; 2.Municipal Party's School of Qinhuangdao,Qinhuangdao O66100,China)",
+    "context3": "Abstract:This paper summarized the connotation of social network reviews, classification, characteristics and significance of the research,analyses the situation of the research on opinion mining technology at present,summed up the opinion mining technology in social application progress of network comment field.Therefore,it further explored the development trend of the social network reviews mining technology.",
+    "context4": "Key words: social networking; opinion mining; comments analysis 正是在这一背景下应运而生[。"
+  },
+  "1引言": {
+    "context1": "互联网已经进入了以 $\\mathrm { \\ W e b } 2 . 0$ 为主导的时代,以交互性为特点的社会化网络逐渐成为网上的黄金地段，这里网民数量特别大，活跃程度特别的高。这类站点的一个共同的特点就是以用户为价值核心,它们通过各种方法积累了大量忠实的用户。这些用户在网上留下越来越多的评论信息，这成为互联网上极大的一笔财富,具有较高的利用价值。于此同时,大量的复杂的的网络评论也给分析处理应用带来更大的挑战。因此,如何自动地从海量的非结构化评论中挖掘出高层次的语义信息并加以表示就成为了人们的迫切需求，文本观点挖掘的研究",
+    "context2": "在计算语言学以及相关领域，研究人员以前普遍关注的是客观性信息的分析和提取,对主观性信息分析与提取的研究尚处于起步阶段,存在很多问题需要进行全面的探索。这项研究涉及到计算语言学、人工智能、机器学习、信息检索、数据挖掘等多方面研究基础,因此观点挖掘具有重要的学术研究价值[2]。另一方面,对用户发布的评论进行挖掘和分析,识别出其情感倾向及演化规律,可以更好地理解用户的行为,分析热点舆情,也可以为政府,企业和其他机构在决策时提供重要的依据[3]。",
+    "context3": "国外观点挖掘相关研究最早是由康奈尔大学的Pang提出来的的,虽然之前也有一些相关工作，但是比较公认的是Pang[4]等人采用基于监督学习的方法对电影评论进行情感倾向性分类和Turmery[s]等人采用的基于无监督学习对文本观点倾向性分类的研究。目前，国外研究集中在根据现实生活中具体需求而研究不同领域的评论观点挖掘系统。例如,LiuB等人研发的OpinionObserver通过可视化顾客产品评论对评价对象综合质量进行比较；Wilson等人研发的OpinionFinder可以自动识别主观性句子并抽取其中的情感信息;Devitt等人通过对金融相关的评论文本进行挖掘，预测未来金融走势； $\\mathrm { L i n } ^ { [ 8 ] }$ 等人构造了一个系统,用以对“巴以战争”的评论进行分析； $\\mathrm { K i m } ^ { [ 9 ] }$ 则研究了通过分析大量美国大选时的网络新闻评论来预测美国大选结果。",
+    "context4": "由于国内相关研究起步较晚且中文与外文特点上存在差别,近年来,文本观点挖掘才成为信息检索和自然语言处理领域的研究热点。国内相关的研究机构,例如哈工大的Ye[]针对中文评论比较了SVM和语义倾向方法,并采用语义倾向方法研究了电影评论的分类;复旦大学的Qi[注意到句子中观点的复杂关系很难用基于特征的模型来表示，给出了一种新颖的情感图的句子情感表示方式；中科院的 $\\mathbb { W } \\mathbf { u }$ 通过将文档的语义倾向集成进图排序算法中，给出了一种针对跨领域情感分类问题的情感分类方法；大连理工的Yang和 $\\mathrm { L i n } ^ { [ 1 2 ] }$ 识别产品评论中的条件句子，分析条件句的倾向性来判断对产品属性的态度是积极还是消极。国内也有一些观点挖掘方面的原型系统开发出来，例如中德语言技术联合实验室关于汽车评论的意见挖掘系统SURVEY-ER[3]谭松波[4]的Sentifier情感分析系统等。",
+    "context5": "本文重点对国内外与社会化网络评论观点挖掘相关的技术和应用进行提炼和梳理，以发现当前该领域的主流技术和新应用,进而探讨该课题下一步重点发展的方向。"
+  },
+  "2社会化网络评论": "",
+  "2.1社会化网络评论的内涵": {
+    "context1": "社会化网络(SocialNetworking)是指人与人之间的关系构成的网络,这种基于社会网络关系思想构建的网站在国内被称为社交网站(SocialNetworkSite)[15]。",
+    "context2": "从字面意思来看，评，指评价，表态，即人主观的态度和看法;论，指讨论,解释,即理由的阐释。概括地讲,评论包括人对某种事物持有的观点，以及对所持有观点的阐释。社会化网络评论就是指，在社会化网络环境下网民发表的,观点性的文本的总和。"
+  },
+  "2.2社会化网络评论的分类及特征": {
+    "context1": "按照评论对象划分，最主要的几类评论包括，新闻评论,图书评论,影视评论,产品和服务评论。",
+    "context2": "(1)新闻评论。",
+    "context3": "新闻评论，是社会各界对新近发生的新闻事件所发表的言论的总称。传统的新闻评论是一种相对专业的写作形式，以传播意见性信息为主要目的和手段[16]。随着社会化网络媒体在互联网上的流行，来自网民的对热门新闻事件的评论越来越多，这些评论会在时间维度上表现出动态的发展趋势。",
+    "context4": "(2)图书评论。",
+    "context5": "图书评论，即评论或介绍书籍的文章，是以“书”为对象,实事求是的、有识见的分析书籍的形式和内容,探求创作的思想性、学术性、知识性和艺术性,从而在作者、读者和出版商之间构建信息交流的渠道[6]。",
+    "context6": "(3)影视评论。",
+    "context7": "影视评论就是电影或电视剧等视频节目的观看者，在观看完节目以后的所感所想以文字语言、语录等形式表现出来,发表的一种评论、看法、见解。对于专业影视评论人员来说,电影评论也可以写成复杂详细的电影分析[6]。另外,网络视频还包括一些视频片段、短片等,因此,网络影视资源是一类非常复杂的信息源。相应地,对于复杂信息源的评论信息也表现出复杂性,非机构化,导致评论对象的识别相对困难。",
+    "context8": "(4)产品和服务评论。",
+    "context9": "产品和服务评论是指消费者在购买商品或服务后对消费过程及消费内容作出的评判性的文字，消费后评论同样属于整个消费过程的一部分。这类评论主要出现在购物网站或点评网站,评论者多根据真实体验作出简短的评论,这类往往评论具有较大商用价值。由于评论针对的是特定的产品和服务，所以评论内容表现出较高的规范性,较容易处理。",
+    "context10": "根据以上分析,社会化网络评论整体上表现出海量性、价值性、非结构化的特点。但是,不同类型的评论又各有其领域特点：新闻评论形式上较为规范，观点倾向明显;图书评论虽然形式松散，专业性不强，情感倾向不明显，评论对象相对容易判断。",
+    "context11": "影视评论与图书评论类似，往往由感而发，随意性更强。产品和服务评论具有内容简短，评论对象和情感倾向明显的特点。所以，在对不同来源的评论信息进行观点挖掘的时候会有所不同。"
+  },
+  "3评论观点挖掘技术研究热点分析": {
+    "context1": "有关评论观点挖掘技术的分析大多以技术本身为研究视角或以观点挖掘对象的信息粒度为划分依据,得出不同技术之间的比较结果。本文希望以评论观点挖掘的四个核心任务为切入点，以社会化网络评论为处理目标，讨论不同的挖掘技术的情况。"
+  },
+  "3.1评价对象挖掘": {
+    "context1": "评价对象挖掘可能是确定的一个对象,也可能是该对象不同方面的特征。",
+    "context2": "对网络评论的产品特征挖掘指的是：通过机器自动地从大量来自网络客户的对产品作出的评论中获取相对更受关注的那些重要的产品特征。关于特征词的提取，目前主流思路是将出现频次较高的名词(或名词短语)作为待选特征词,但该方法不能有效地提取出频率相对较低但具有相当代表性的那些特征词。 $\\mathrm { H u }$ 和Liu企图在产品评论中寻找产品特征的方法。首先,将评论分解成一个个的句子,对句子里的词的词性进行标注，并将所有被标注的句子连同其POS标注统一保存到评论数据库内。同时,创建一个相关事务档,该事务档中的每一行就是从原来句子中提取出来的相应的名词或名词词组。之后,对该事务档,使用挖掘工具的关联规则找出出现频率较高的的产品特征作为评论对象[17]。",
+    "context3": "特征词与评论对象的关系不单纯只有这一类，比如，“这台手机的颜色非常漂亮，但是屏幕颜色有点暗\"此句中,第一个\"颜色”与\"屏幕\"是同一个特征层面,第二个颜色则应该属于下一级特征层面。相关问题会在另一篇文章中做详细的讨论。"
+  },
+  "3.2观点极性识别": {
+    "context1": "观点极性识别的目的是识别给定的文本片段中的词汇、短语或文档中所体现的表述者的情感倾向,一般为正面、中性或负面。Hatzivassiloglou 和McKeown[18]是最先进行词汇倾向性识别的研究者，他们主要是针对形容词表达情感的倾向性进行判别,通过形容词的词缀和连词训练进而形成词汇间的反义词或同义词连接图,然后使用既有的聚类算法把词汇分划分为贬义词和褒义词两类,进一步使用既有的分类算法将词汇进行分级，并计算出了褒贬度。",
+    "context2": "目前用于实现情感倾向性分析的技术主要包括机器学习法和语义法两种。机器学习有较多种方法，主要方法比如:分类、聚类、核方法、神经网络法等。在观点倾向性识别方面，运用的相对较多的是分类算法。分类方法主要是SVM支持向量机的方法，除了SVM外，朴素贝叶斯和最大墒模型也是较常用的分类方法。研究表明，在观点倾向性识别方面，朴素贝叶斯算法的效果是最差的，SVM算法的效果是最好的[19]。语义的方法主要是通过一个现有的知识库，然后通过计算候选词和知识库里面的基准词的语义距离，进而得到候选词的情感倾向。在英文方面,Kamps,Marx,Mokken 和Rijke于2002年提出了基于WordNet的同义结构图计算候选词和知识库基准词的语义距离,进而判断候选词的情感倾向性[20];在中文方面，朱嫣岚、闵锦、周雅倩于2006年提出了基于HowNet的词汇语义计算方法[2];句子级和篇章级的观点极性分析的研究方法主要是统计方法。Soo-Min Kim和Eduard Hovy 等人于2004年提出了情感倾向累乘模型、情感强度调和平均模型以及情感强度几何平均模型判断句子情感倾向性的方法[22]。Hong $\\mathrm { Y } _ { \\mathrm { U } }$ 和 VasileiosHatzivassiloglou于2003年提出了通过朴素贝叶斯模型来预测句子情感极性。McDonald于2007年将句子情感极性分析转化成为情感极性序列化标注，该方法考虑到篇章中上下文对当前句子的影响,但是编码解码过程比较复杂[23]。随着文本观点分析研究的深入，国内外的研究发现： $\\textcircled{1}$ 领域知识对文本倾向性分析有重要的影响； $\\textcircled{2}$ 上下文语境(Context）对倾向性判别至关重要。接下来的研究工作要特别考虑这两个因素的影响。"
+  },
+  "3.3观点表达": {
+    "context1": "对于处理大粒度的评论信息源最核心的任务是观点句识别和观点描述；观点描述要针对发现的每一观点，找出最有代表性的若干关键字和典型评论来描述这一观点。在这部分,给出如下三个假设[24]：",
+    "context2": "假设1：有代表性的词往往在重要的句子中;",
+    "context3": "假设2：有代表性的词往往和其他有代表性的",
+    "context4": "词共同出现;",
+    "context5": "假设3：句子和词能够根据它们的链接结构计算排名。",
+    "context6": "当前对于观点表达的方法多基于以上假设，因此，观点句识别的思路就是通过识别出来的代表性的词来识别观点句，代表性的词包括评价对象和情感词等。观点描述则是根据句子重要度的排名选取代表性的句子描述整体观点，或者通过将有代表性的词填人事先设计好的句子模板来描述整体观点。"
+  },
+  "3.4评价对象与观点表达关系判断": {
+    "context1": "评价对象与观点表达关系的判断涉及计算机自然语言处理技术，语言学理论知识。评价对象与观点表达关系主要通过上下文,句子结构,词语搭配来判断。研究领域多采用基于规则的词语搭配的方法，结合上下文来推断评价对象和观点表达的关系。词语搭配主要是通过不同词性的搭配组合，来判断词间关系,这应该是其中最复杂、最不容易实现的一个任务。",
+    "context2": "目前，评论情感分析，观点挖掘,评论描述等技术已经取得一定的成果。尽管这些技术尚存在非常大的提升空间,但在相关行业这些技术已经被迫不及待地付诸应用。下文将对社会化网络评论挖掘技术总体的应用进展情况进行讨论。"
+  },
+  "4社会化网络评论挖掘的应用进展": {
+    "context1": "社会化网络评论的应用主要是对网络评论进行整体性倾向预测。所谓整体倾向性预测,是针对海量数据而言的，其主要任务是：对从不同信息源抽取出的、针对某个话题的情感倾向性信息进行集成和分析,进而挖掘出态度的特点和走势。",
+    "context2": "Durant提出利用Weblog来帮助对blog 情感倾向的分类。UIC的Liu和 $\\mathrm { H u }$ 等人讨论了从评论中挖掘产品特性的方法，从而得到用户对于产品或者产品某个特性的整体倾向性。例如,他们根据用户评论来比较两个款式的数码相机,并用如下图所示的可视化方法来显示分析结果,每列代表相机的一个属性,水平线表示中立态度,纵柱则反映了用户的褒贬度的主要取值范围[25]。",
+    "context3": "![](images/50db953ad1a2108ee0068e54f25137b3004cbe7078a82d160ecf570b219deb3b.jpg)  \n图1两款数码相机评论挖掘可视化结果",
+    "context4": "![](images/8191096541c0dad7bca7c6d5dde521e7bcb20fe3f1b962aa97ba12061c738afa.jpg)  \n图2某产品评论随时间的变动曲线",
+    "context5": "日本富士通公司则开发出了从中文博客和论坛中提取对企业及其产品的评价信息的技术,根据从web上抓取的大量用户评论得到产品的整体信誉度，以图表的形式展现不同时间里企业和品牌的正面或负面等评价信息。例如，图2显示了某产品在3个月内用户评价的情况,其中折线Negative、Posi-tive分别表示某一天持肯定、否定态度的评论数，而折线CIA则表示评论总数[32]。",
+    "context6": "表1国外网络评论观点挖掘应用分析",
+    "context7": "<table><tr><td>来源</td><td>应用领域</td><td>评论观点挖掘方法</td><td>应用介绍</td></tr><tr><td>Das等[26]</td><td>股票</td><td>分类器组合</td><td>用于反映股票总指数与前一天在线股评所反映的投资情绪的关系,但对于单个公司,这 种关系不成立.</td></tr><tr><td>Antwei-le等[27]</td><td>股票</td><td>NaCveBayes</td><td>讨论了在线股评数量、股评反映的/投资情绪与股票交易量、波动率等指标的关系,一些 变量之间的显著相关性表明在线股评对股市的影响力.</td></tr><tr><td>Mishne等[28]</td><td>电影</td><td>Winnow</td><td>电影首映之前的网络好评数量与票房的成功具有较强的相关性,但这种相关性不足以 预测票房.</td></tr><tr><td>Liu等[29]</td><td>电影</td><td>潜在语义 分析(LSA)</td><td>首先建立票房收入的自回归模型,加入在线评论褒贬性变量以后可以提高模型对第二 期票房收入的预测作用.</td></tr><tr><td>Ghose等[30]</td><td>音频/视频播放 设备、数码相机</td><td>LingPipe</td><td>在线评论的褒贬性与音频/视频播放设备的销售排名显著正相关,但对数码相机的销售 没有显著影响.</td></tr><tr><td>Pavlou等[31]</td><td>ipod、DVD、CD 等10种商品</td><td>手工标注</td><td>借助在线文字评论可以比评分更有效地发现可靠的商家.评论的褒贬性可以显著影响 消费者对商家的感知信任和所支付的价格溢价.</td></tr><tr><td>Sysomos</td><td>社交媒体</td><td></td><td>用于对媒体的监测和分析的非常强大的工具。允许用户研究社交网站、博客、新闻媒体 报道中的任何话题</td></tr><tr><td>Twitter Evri</td><td>社交媒体 商业</td><td></td><td>检测线上对话,帮助学者、媒体和营销者把握某些重要人物的实时动向 开发者能够利用这个API发掘市场情报,做市场调研、产品评测等应用</td></tr></table>",
+    "context8": "注：－表示数据不可获得",
+    "context9": "表2我国舆情监督系统分析",
+    "context10": "<table><tr><td>开发机构 系统名称</td><td>采用技术</td><td>应用</td></tr><tr><td>北京飞科达软件有限 Rank舆情监测系统 公司</td><td colspan=\"2\">云处计算技术、海量抓取、海量为政府机构、各类型企业提供网络舆情监测、互联网信 分析、海量存储、自然语言处理息采集、竞争对手分析、品牌管理、网络口碑管理、产品 技术 及售后品质管理等服务</td></tr><tr><td>究中心 警系统 意分析 北京西盈信息技术有</td><td colspan=\"2\">长沙美音网络传播研网鹰(Warmn)网络舆情监控预网络搜索、文本挖掘以及中文语为政府相关职能部门提供最便捷、最及时、最全面的网 络舆情监控的优势服务和技术支持 信息挖掘技术、智能搜索技术， 政府、企业、高校、行业监管部门和公关咨询公司的网</td></tr><tr><td>限公司 风雷(eThunder)</td><td colspan=\"2\">自然语言处理技术,内容管理技 络舆情监测 术等核心技术</td></tr><tr><td>中科点击(北京)科技军犬网络舆情监控系统</td><td colspan=\"2\">中文分词、自动分类、自动摘要、 应用到网络舆情监控、垂直搜索引擎、门户网站、电子 政务、电子商务、企业竞争情报系统知识管理与知识共</td></tr><tr><td>有限公司 北京拓尔思(TRS)信 息技术股份有限公TRS网络舆情监测系统</td><td colspan=\"2\">关键词提取等 享等项目中 敏感信息监控和预警热点发现和热点追踪</td></tr></table>",
+    "context11": "注：－表示数据不可获得",
+    "context12": "对网络评论的挖掘结果进行可视化展示是从技术研究到实际应用的过渡,下面对国内外网络评论挖掘应用进展进行总结。表1是对国外一些文章中介绍的，还有国外网络上比较流行的一些评论挖掘工具的主要方法和功能的对比。",
+    "context13": "国外的观点挖掘技术的应用范围广泛，涉及商品、服务、金融、电影、网络舆情等方面,这与技术成熟度有一定的关系。国外研究开始的比较早,技术相对成熟,所以目前有更多方面的应用。对于国内而言，该应用主要还是集中在网络舆情的监测和预警方面，如表2所示。"
+  },
+  "5结语": {
+    "context1": "社会化网络评论挖掘技术的核心问题在于评论对象识别和情感倾向判断，虽然在现有的算法和实现上尚不能做到完全精确，但是应用到某些具体问题的处理上已经是完全可能的。和国外的研究相比，中文的情感倾向性分析技术的发展情况相对有一定滞后，目前的主要应用集中在网络舆情检测预警系统方面。",
+    "context2": "根据以上分析，关于社会化网络评论观点挖掘下一步的发展趋势,主要表现在以下几个方面。",
+    "context3": "(1)在技术层面，文本观点挖I.掘应该对情感倾向性判断进行更细致的研究，特别是句子级的倾向性分析和海量信息的整体倾向预测,将是未来的主要研究趋势。可以从以下几个方面考虑： $\\textcircled{1}$ 更好的特征抽取技术和工具,无疑是情感分析中不变的追求； $\\textcircled{2}$ 实现动态监测,对情感的演化进行建模,以实现对特定话题的分析和监控； $\\textcircled{3}$ 与其他文本挖掘任务相结合,比如和观点摘要相结合,可以对用户观点形成比\"赞同或反对\"更有价值的总结报告。",
+    "context4": "(2)在语料库建立和结果测评方面，确定情感倾向性语料库的标注规范，充分涵盖情感倾向性论述的相关要素，即建立大规模的普适性的语料库;按照严格的程序进行人工标注和一致性检验,建立其相对规模的细粒度的标注语料库，并在这个之基础上对情感词的倾向性分析方法进行公正客观的评测,必将为中文情感倾向的进一步研究做出重大贡献[33]",
+    "context5": "(3)随着网络评论观点挖掘技术处理流程的优化和技术组合，评论观点挖掘技术将会越来越多地进行实际应用。在现有基础之上如果要获得突破性的进展,需要在理论和技术层面上有更广阔的思路。倘若网络评论观点挖掘进一步与数据挖掘技术、云计算技术、语义网等相关技术相结合进行研究将会获得相当广阔的发展前景。"
+  },
+  "参考文献": {
+    "context1": "1 周城.面向中文Web评论的情感分析技术研究[D].长 沙：国防科学技术大学,2011.   \n2 周胜臣,瞿文婷,石英子,施询之,孙韵辰.中文微博情感分析 研究综述[J].计算机应用与软件,2013,(3):161-164,181.   \n3 叶强,张紫琼,罗振雄.面向互联网评论情感分析的中文 主观性自动判别方法研究[J].信息系统学报,2007,(1): 79-91.   \n4 Pang B,Lee L.A sentimental education:Sentiment analysis using subjectivity summarization based on minimum cuts[C]//Proceedings of the 42nd annual meeting on Association for Computational Linguistics. Association for Computational Linguistics,2004: 271.   \n5Breiman L. Bagging predictors[J]. Machine learning, 1996,24(2): 123-140.   \n6 Liu B,Hu M, Cheng J. Opinion observer: analyzing and comparing opinions on the web[C]//Proceedings of the 14th international conference on World Wide Web.ACM,2005: 342-351.   \n7 WilsonT, Hoffmann P,Somasundaran S,et al. OpinionFinder: A system for subjectivity analysis[C]//Proceedings of HLT/EMNLP on Interactive Demonstrations. Association for Computational Linguistics, 2005: 34-35.   \n8 Lin W H,Wilson T, Wiebe J,et al. Which side are you on?: identifying perspectives at the document and sentence levels[C]//Proceedings of the Tenth Conference on Computational Natural Language Learning. Association for Computational Linguistics,2006: 109-116.   \n9 Kim S B, Han K S,Rim HC,et al. Some effective techniques for naive bayes text classification[J]. Knowledge and Data Engineering, IEEE Transactions on, 2006,18(11): 1457-1466.   \n10 王辉,王晖昱,左万利.观点挖掘综述[J].计算机应用研究, 2009,(1):25-29.   \n11 张天明,徐宝祥,江俞蓉,武慧娟.我国图书情报学科内领 域本体的论文统计分析[J].情报科学,2013,(8):90-93+97.   \n12 Vapnik V N.Principles of risk minimization for learning theory[J].Advances in neural information processing systems, 1992, (4): 831-838.   \n13 宋晓雷.基于Web的汽车产品评论观点挖掘方法研究[D]. 太原：山西大学,2010.   \n14 Mei Q, Ling X,Wondra M,et al. Topic sentiment mixture: modeling facets and opinions in weblogs[C]/Proceedings of the 16th international conference on World Wide Web. ACM,2007: 171-180.   \n15 曾润喜.网络舆情管控工作机制研究[J].图书情报工作, 2009,(18):79-82.   \n16Engle R F,Ng V K. Measuring and testing the impact of news on volatility[J]. The Journal of Finance,1993,48(5): 1749-1778.   \n17 路斌,万小军,杨建武,陈晓鸥.基于同义词词林的词汇褒 贬计算[C].In: Proceedings of the 7th International Conference on Chinese Computing,Wu Han,2007:17-23.   \n18Keven.Keven s Blog[EB/OL]. http://my.donews.com/keven/, m1 10 11   \n19 周立柱,贺手凯,土建男.情感分析研究综述[JJ.计算机应用, 2008,(11):2725-2728.   \n20 张紫琼,叶强,李一军.互联网商品评论情感分析研究综 述[J].管理科学学报,2010,(6):84-96.   \n21 朱嫣岚,闵锦,周雅倩,黄萱菁,吴立德.基于HowNet 的词 汇语义倾向计算[J].中文信息学报,2006,20(1):14-20.   \n22 Zhuang L, Jing F, Zhu X Y. Movie review mining and summarization[C]//Proceedings of the 15th ACM international conference on Information and knowledge management. ACM,2006:43-50.   \n23 李方涛.基于产品评论的情感分析研究[D].北京：清华大 学,2011.   \n24 赵妍妍,秦兵,刘挺.文本情感分析综述[J.软件学报, 2010,21(8):1834-1848.   \n25 Hu M,Liu B. Mining and summarizing customer reviews[C]// Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining.ACM, 2004: 168-177.   \n26 赵军,许洪波,黄萱菁,等.第一届中文倾向性分析评测技 术报告[C].第一届中文倾向性分析评测会议,2008:1-20.   \n27 Das S R, Chen M Y.Yahoo! for Amazon: Sentiment extraction from small talk on the web[J]. Management Science, 2007,53(9): 1375-1388.   \n28AntweilerW,Frank MZ.Is all that talk just noise? The information content of internet stock message boards[J]. Journal of Finance,2004,59(3): 1259-1294.   \n29 陈博.WEB文本情感分类中关键问题的研究[D].北京: 北京邮电大学,2008.   \n30 Liu Y, Huang J, An A,et a.l ARSA: A sentiment-aware model for predicting sales performance using blogs[C]//Proceedings of the $3 0 ^ { \\mathrm { u } }$ Annual International ACMSIGIR Conference on Research and Development in Information Retrieval( SIGIR),New York,NY,USA: ACM,2007: 607-614.   \n31 Ghose A, Ipeirotis P G. Designing novel review ranking systems:Predicting usefulness and impact of reviews[C]//Proceedings of the9thInternationalConferenceonElectronicCommerce(ICEC),New York,NY,USA: ACM,2007: 303-310.   \n32 Pavlou P A,Dimoka A. The nature and role of fedback text comments in on line marketplaces:Implications for trust building,price premiums,and seller differentiation[J]. Information Systems Research,2006,17(4): 392- 414.   \n33 黄萱菁,赵军.中文文本情感倾向性分析[J].中国计算机 学会通讯,2008,4(2):39-46.",
+    "context2": "(责任编辑：徐波)"
+  }
+}

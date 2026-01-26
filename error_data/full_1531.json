@@ -1,0 +1,97 @@
+{
+  "original_filename": "full_1531.md",
+  "从档案学核心期刊看国内档案学研究现状及发展趋势": {
+    "context1": "牛力1.2.3杜丽华²韩小汀 4",
+    "context2": "(1中国人民大学数据工程与知识工程教育部重点实验室北京100872;2中国人民大学信息资源管理学院北京100872;3中国人民大学人文北京研究中心北京100872;4北京航空航天大学经济管理学院北京100191摘要以CNKI数据库《档案学研究》《档案学通讯》2008-2017年发表的2753篇学术论文为样本，基于词频分析法、共词聚类法和突现词探测法，借助Citespace可视化工具绘制国内档案学研究主题知识图谱。从研究热点与主要领域分布展现档案学的发展现状，从热点演进与研究前沿的分析预测发展趋势。研究发现：近十年，档案学研究热点集中在8个主要领域，社交媒体、数字档案资源、大数据以及知识库成为近几年新的研究方向。进一步加深对档案资源知识层面的利用和服务，更加重视从不同视角揭示和挖掘档案的价值，在数字环境的影响下档案学的研究视角将进一步拓宽和创新。此研究结果有利于本学科领域科研人员更好地把握学科的发展脉络，为学科建设和科学研究提供参考。",
+    "context3": "关键词档案学共词分析知识图谱研究现状发展趋势DOl: 10.16065/j.cnki.issn1002-1620.2018.03.001"
+  },
+  "Current Situation and Developing Trend of Domestic Archival Science Based on the Core Journals": {
+    "context1": "NIULi $^ { 1 , 2 , 3 }$ ，DU Lihua²，HAN Xiaoting4 (1KeyLaboratoryof MinistryofEducationforDataEngineeringand Knowledge Enginering,Renmin UniversityofChina,   \nBeijing 100872;2Schoolof InformationResource Management,RenminUniversityofChina,Beijing100872；3Research   \nCenter for HumanisticBeijing,Renmin UniversityofChina,Beijing100872；4Schoolof EconomicsandManagement,Beihang University, Beijing 100191）",
+    "context2": "Abstract: The writers colect 2753 academic papers from Archives Science Study and Archives Science Bulletin published in CNKI database during 2Oo8-2O17, based on word frequency,co-word cluster analysis and burst detection and using Citespace to draw the knowledge map of domestic Archives research. The research hot spots and the distribution of main research fields display the development status of domestic archival science and thus predict the development trend from the evolution of research hot spot and the research front.The research shows that, in recent ten years,researches have been focused on eight fields.And social media,big data, knowledge bases,digital archives resources has become the new research direction for the past three years. In the future, more emphasis willbe placed on the use of resources and services in archive resources. More attention willbe paid to reveal and excavate the value of archives. Under the influence of the digital environment,the research perspective of archives willbe further broadened and innovated.The results of this research are useful for researchers to better grasp the development context ofthis discipline,and provide references for scientific research and construction of the discipline.",
+    "context3": "Key words: archival science; co-word analysis; knowledge mapping; research status; developing trend"
+  },
+  "1数据、方法与工具": "",
+  "1.1数据来源": {
+    "context1": "核心期刊被看作本学科研究的重要期刊，载文质量较高，具有一定的权威性和前瞻性。本文选择被CSSCI收录的《档案学通讯》《档案学研究》为数据来源。在CNKI数据库中,选择“来源期刊” $=$ “档案学研究 $\\cdot +$ 档案学通讯”，时间范围限定为2008-2017年，检索到3101篇论文，剔除会议、通知、征稿启事类文章，获得2753条有效数据。将下载的题录数据采用Citespace的格式转换器进行预处理。由于关键词是作者选择的最能代表文章主题的词汇，因此选择关键词进行分析。"
+  },
+  "1.2研究方法与过程": "",
+  "1.2.1研究方法": {
+    "context1": "(1)词频分析法。",
+    "context2": "一个学科的研究热点是指该学科受到广泛关注的研究主题，而学术论文是学科研究的直接体现。从论文的关键词可以看出文献的研究内容、研究方法等,关键词出现越频繁，表明该学科对其关注度越高。1本文选择词频分析法对文献的关键词出现频率进行统计分析，通过高频词来确定档案学的研究热点。",
+    "context3": "(2)共词聚类法。",
+    "context4": "一个研究领域通常由若干关键词或主题词构成，这些关键词之间关系密切，存在共现关系。本文采用共词聚类法，通过关键词的共现，将关系密切的主题词聚集成类，通过对类团的科学分析[2],展现档案学领域的研究结构，分析主要研究领域的分布。",
+    "context5": "(3)突现词探测法。",
+    "context6": "研究前沿是某一时段突然出现或正在发酵的新的理论趋势和研究方向，通过前沿可以及时准确地把握学科的最新动态，还可预测学科发展方向和未来需进一步研究的热点问题。3通过关键词的变化频率可以反映研究前沿。本文选择Citespace提供的突现词检测算法，从短时间内出现或使用频率突然提高、增长速度突然加快的关键词中发现档案学领域的研究前沿。"
+  },
+  "1.2.2研究过程": {
+    "context1": "首先对2753篇文献关键词出现的频率进行统计,按照高低频词划分界限，确定高频词来反映档案学的研究热点；再利用Citespace绘制关键词共现图谱，通过关键词共现聚类解读档案学的主要领域分布；再将2008-2017年分为3个时间段，选择每个时段高频且高中心性词进行对比分析，发现学科的热点演进；最后利用Citespace提供的突现词探测算法，得到不同时段的研究前沿。",
+    "context2": "![](images/01939b2823c9ff9cabe33bb02bc0c46c78e4eca218cf4dc57b2cd8ec2ad00c14.jpg)  \n图1研究过程"
+  },
+  "1.3研究工具": {
+    "context1": "Citespace是用于计量和分析科学文献数据的可视化软件。它能够发现一个领域发展过程中的关键节点，并提供多种视图模式帮助发现和解释网络的信息。[4本研究通过使用Citespace可视化工具，选择关键词为分析的节点，以知识图谱的方式直观地展现10年内档案学的主要研究领域、热点演进以及研究前沿。"
+  },
+  "2研究热点与主要领域分布": "",
+  "2.1研究热点": {
+    "context1": "关键词是作者选用的自然语言词汇，属于非受控词汇。5在分析前，笔者采用调查问卷的方式广泛征集档案学领域专家意见，对关键词进行适当处理。例如，将档案利用、开发利用、档案服务合并为档案开发利用,电子档案与电子文件合并为电子文件等，剔除无明确含义的关键词如对策、问题等。另外，“档案”一词作为学科的名称,大量文章将其放在关键词首位，但其专指度低，对热点问题梳理的意义不大，因此也将其删除。对清洗后的数据，根据Donohue提出的高频词低频词界分公式并结合孙青兰的高频词低频词近似算法,得到频数大于25的高频词21个，如表1所示。",
+    "context2": "表1中的高频词即10年中档案学研究的热点问题，排在前3位的分别是电子文件、档案管理和档案学。"
+  },
+  "2.2主要领域分布": {
+    "context1": "科学领域的发展与其研究的问题密不可分。在一门学科中多数学者共同关注的问题构成该学科领域的热点，而关系密切的热点形成该学科的主要领域。笔者通过关键词的聚类来发现档案学的主要研究领域。",
+    "context2": "表1 高频词列表",
+    "context3": "<table><tr><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td><td rowspan=1 colspan=1>排名</td><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>频次</td><td rowspan=1 colspan=1>排名</td></tr><tr><td rowspan=1 colspan=1>电子文件</td><td rowspan=1 colspan=1>213</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>档案网站</td><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>档案管理</td><td rowspan=1 colspan=1>161</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>社会记忆</td><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>档案学</td><td rowspan=1 colspan=1>142</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>档案文化</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>14</td></tr><tr><td rowspan=1 colspan=1>档案开发利用</td><td rowspan=1 colspan=1>132</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>档案保护</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>15</td></tr><tr><td rowspan=1 colspan=1>档案馆</td><td rowspan=1 colspan=1>126</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>档案编研</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>16</td></tr><tr><td rowspan=1 colspan=1>数字档案馆</td><td rowspan=1 colspan=1>85</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>历史档案</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>17</td></tr><tr><td rowspan=1 colspan=1>档案信息</td><td rowspan=1 colspan=1>58</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>档案价值</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>18</td></tr><tr><td rowspan=1 colspan=1>信息公开</td><td rowspan=1 colspan=1>55</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>档案资源</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>19</td></tr><tr><td rowspan=1 colspan=1>档案信息化</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>档案事业</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>档案信息资源</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>档案鉴定</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>21</td></tr><tr><td rowspan=1 colspan=1>企业档案</td><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=3></td></tr></table>",
+    "context4": "将转换后的数据导入Citespace（版本：4.0.R5.SE)中，选择关键词为分析的节点，设置分析年份2008-2017年，时间切片为1年，每个时间切片选择$\\mathrm { T o p } 5 0 \\%$ ，Dice算法计算连线强度,绘制关键词共现图谱。聚类后，利用Citespace的LLR（对数自然率）获得聚类命名。其中Silhouette值用来衡量网络同质性的指标，越接近1，反映网络的同质性越高，聚类结果越具有可信度。图中11个聚类，Silhouette值均大于0.7,表明聚类的结果是合理的（见图2）。",
+    "context5": "查阅文献并结合聚类中关键词信息，将图2的11个聚类整理后划分为以下8个主要领域：电子文件与数字档案馆、档案学学科建设、档案管理、档案与社会记忆、档案事业史、档案法、“三个体系”、互联网 $^ +$"
+  },
+  "2.2.1电子文件与数字档案馆": {
+    "context1": "该领域包括电子文件的真实可靠性、管理流程、元数据建设、风险管理，以及数字档案馆建设、技术实现、开放服务和风险评估等。“电子文件”在知识图谱中的节点最大，是10年间研究的热点。而数字档案馆与电子文件几乎是同一时段受到国内档案领域的关注和重视。冯惠玲教授是我国电子文件研究的奠基性人物，重点研究电子文件宏观层面的管理问题，补充了微观上本质和技术方面的研究。张宁（2008年)揭示了目前我国电子文件管理实践中存在的制度规范缺乏、管理系统不完善、电子文件质量难以保障等问题，提出应尽快建立电子文件管理体制，改进和提升管理水平。7刘越男等（2015年）梳理了数字档案馆的发展脉络，指出数字档案馆是运用信息技术对数字档案及其他相关数字资源进行收集、存储、长期保存和提供利用的档案信息集成管理体系[8]。",
+    "context2": "![](images/1d86c5efb4db2df16fcf58e54bab3ef42a2c04af76553b6c9ee8255b2dd1edbf.jpg)  \n图2"
+  },
+  "2.2.2档案学学科建设": {
+    "context1": "该领域包括“档案学专业”、“高等教育”、“档案学教育”、“学科尊严”等关键词。颜海(2008年)基于图情档一级学科的背景,分析当前档案学与其他学科的交叉发展，提出档案学专业教育的改进。9胡鸿杰(2009年)提出通过“加强对中国档案学学术历史的研究”、“把握中国档案学理论研究的基调”和“建设中国档案学的学术规范”，以期重塑“学术尊严”。[10徐拥军等（2011年)对我国档案学高等教育的发展现状进行调研并提出扩大招生、加强师资建设、优化和创新课程体系等建议。[1]"
+  },
+  "2.2.3档案管理": {
+    "context1": "该领域涉及的关键词较广泛，如文档分类、文件归档、企业档案、人事档案等。徐拥军(2011年)将传统的档案收集、档案整理、鉴定、服务与知识积累、档案知识组织、知识评价、知识服务进行比较,对企业“基于知识服务的档案管理模式”进行论述并提出建议。[12陈永生(2015年)通过对电子档案双套制、双轨制的现状、根源与趋势进行分析,提出应加快推动我国电子档案管理单轨化。[13]"
+  },
+  "2.2.4档案与社会记忆": {
+    "context1": "自特里·库克提出档案的记忆观后，中国学者纷纷对档案的记忆属性、档案与社会记忆的关系以及记忆工程的构建开展研究。冯惠玲(2012年)提出档案是建构集体记忆重要且不可替代的要素，构建“中国记忆”大型数字资源库，为中华民族集体记忆的建构和传承提供文献支撑[14]。徐拥军(2012年)提出了构建“中国记忆”数字资源库的构想，并对数字资源库工程的内涵和使命、价值理念、建设原则、基本内容和资源架构等进行阐述[15]。加小双等",
+    "context2": "(2014年)对国内“城市记忆”的理论研究与“城市记忆工程”的实践情况进行了梳理，建议档案部门进一步深化“城市记忆”的理论研究与实践探索，并提出“城市记忆工程”将会在实践经验的丰富中与理论研究的成熟中得到更好的发展[16]。牛力等（2016年）针对城市记忆中数字资源的元数据标准进行深入研究，并从城市记忆资源的获取、输入、处理以及成果的输出等方面，对城市记忆的全过程建设进行了梳理[7]。"
+  },
+  "2.2.5档案事业史": {
+    "context1": "该领域包含的关键词有“中国档案事业史”、“知识库”、“著录”等。赵彦昌（2009年)针对《中国档案史》教材的诸多不足，对中国档案史研究成果进行了系统梳理和科学总结,认为档案工作者应把握时机，重写一部全新体例与内容的《中国档案史》教材[18]。张斌等(2015年)对中国档案事业史知识库的总体构想进行阐述，在遵循全面性、研究性以及开放共享性原则下,确定构建该知识库的数字资源组织和系统技术实现方案[19]。"
+  },
+  "2.2.6档案法": {
+    "context1": "该研究领域包括档案法的自身特点、性质、立法原则和立法技术研究，以及对档案法的修订研究。蒋卫荣（2010年）对《档案法》的修订进行解读，提出应借鉴国外档案立法的成功经验，选择适合我国国情的立法模式[20]。徐拥军（2016年)针对《档案法》修订草案（送审稿)在档案的形成及其责任、细化档案违法行为及处罚，立法语言、法条合理性、法律体系协调性等方面提出意见，并建议坚持慎重修法的原则、贯彻以人为本的立法理念、使用规范严谨的法律语言、构建协调一致的法规体系[21]。陈忠海(2017年)从档案的定义、与其他法规间的联系以及立法的理念方面对《档案法》修订草案提出若干意见[22]。"
+  },
+  "2.2.7“三个体系”": {
+    "context1": "王国振(2010年)对三个体系建设的科学内涵、发展现状、主攻方向、目标任务以及相互间的关系和地位进行了阐述[23]。牛力等(2013年)针对档案信息资源共享与服务中存在的问题，从档案资源管理框架与内容整合两个层面对档案信息资源整合进行了探讨，提供三个不同层次的档案服务,并提出了一种档案信息资源整合与服务模式[24]。周耀林(2017年)对我国档案管理研究内容变化规律与发展趋势进行总结，阐述了我国档案管理研究框架重构的原因，以及如何基于“三个体系”的档案管理研究框架[25]。"
+  },
+  "2.2.8互联网 $^ +$": {
+    "context1": "该领域包括“大数据”、“微媒体”以及“政府网站”等关键词。王协舟等（2016年)提出“互联网 $^ +$ ”时代使档案工作在开发模式、管理环节和服务方式等方面受到严峻挑战，建议以档案部门为主体构建“双众”循环开发圈，以大档案观为指导引导公众参与档案数据管理，以数据开放为核心提供档案创意定制服务，增强档案部门的服务能力和创新能力[26]。赵彦昌（2017年)提出运用“互联网 $^ +$ ”新技术，通过拓宽档案收集工作的渠道、扩大档案宣传工作、促进档案信息的整合与共享、改善档案信息提供利用的方式等方面的革新与完善，推动了“互联网 $+ ^ { \\prime \\prime }$ 环境下档案信息资源建设工作的发展[27]。"
+  },
+  "3研究热点演进": {
+    "context1": "高频关键词可以用来确定某学科或研究领域的热点，而陈超美教授[28认为中心性超过0.1的节点具有较强的影响力，起承上启下的作用，是研究热点间转化的重要转折点。将2008-2017年分为3个时间段，选择每个时段词频大于10，中心度大于0.1的关键词对比分析，可以发现档案学的热点演进（见表2）。",
+    "context2": "表2各时段高频高中心性关键词 (词频大于10,中心度大于0.1)",
+    "context3": "<table><tr><td rowspan=1 colspan=1>时间范围</td><td rowspan=1 colspan=1>关键词 (词频)</td></tr><tr><td rowspan=1 colspan=1>2008—2010</td><td rowspan=1 colspan=1>电子文件（67）、档案字（40）、数字档案馆（27）、企业档案（12）、档案信息化（27）、档案网站（11）、信息公开（31）、知识管理（11）、档案管理（42）、档案事业（12）、历史档案（11）、档案法（11)</td></tr><tr><td rowspan=1 colspan=1>2011—2013</td><td rowspan=1 colspan=1>电子文件（72）、档案学（47）、档案馆（43）、企业档案（17）、档案信息（27）、档案信息资源（16）、档案开发利用（42）</td></tr><tr><td rowspan=1 colspan=1>2014—2017</td><td rowspan=1 colspan=1>电子文件（74）、档案学（55）、数字档案馆（31）、档案资源（12）、档案信息资源（12）、档案编研（18）、社交媒体（11）、非物质文化遗产（13）、社会记忆（19）</td></tr></table>",
+    "context4": "通过对表2关键词的梳理，我们发现电子文件、档案学一直是档案学研究的热点，且这些关键词的频率呈上升趋势。档案信息和档案信息资源及其开发利用等研究不断发展和完善，涉及的关键词有档案信息资源、档案信息化、档案开发利用、档案资源等。2008-2010年，研究视角还扩展到政府信息，涉及的关键词有档案网站、信息公开等。近几年，档案学的研究视角进一步拓宽,受数字环境与互联网环境的影响，档案学科与信息技术结合方面的研究突出，涉及的关键词有社交媒体；档案与社会记忆、文化等方面的研究热度不断上升，涉及的关键词有非物质文化遗产、社会记忆等。"
+  },
+  "4研究前沿": {
+    "context1": "研究前沿是某一时段新兴起的研究问题,往往会是下一个热点的预示。在Citespace中点击突现词检测（burst detection），获得前11个高突现强度的关键词（见表3）。"
+  },
+  "4.1突现词演进分析": {
+    "context1": "2008-2009年，档案开发利用和服务工作是档案学的研究热点，并从单纯的档案信息资源扩展到将政府信息作为开放的对象，这一阶段“档案信息化”、“信息公开”成为研究前沿。2009-2010年，延续了政府信息开放的研究路径，“政府信息”成为该时段的研究前沿。",
+    "context2": "2010-2011年，“安全体系”是该时段的研究前沿。对我国档案安全体系建设的系统研究起源于2010年5月12日召开的全国档案安全体系建设工作会议。在档案安全体系构建方面，主要围绕档案安全体系建设的意义、任务、内容和目标等方面。取得的成就不仅仅围绕着档案实体安全，还延伸到档案信息、档案法规等方面，具有鲜明的时代特色。",
+    "context3": "2012-2014年，“云计算”是该时段的研究前沿。“云计算”在国内的研究最早起源于2009年，2012年开始相关文献出现了大幅增长，主要集中在云计算与数字档案馆建设优化、云环境下电子文件管理、云计算在档案存储、资源共享和服务中的应用以及云环境下的安全等问题上。",
+    "context4": "2014-2015年，“智慧档案馆”是该时段的研究前沿。在“智慧城市”概念之后，2013年出现了智慧档案馆概念。2014 年3月11日，国家档案局技术部和浙江省档案局在杭州联合召开了全国首次“智慧档案建设研讨会”。两年间在CNKI中发表46篇文献，对该领域的研究深度逐步增强，研究集中于基本概念、背景分析、信息技术研究以及建设基础体系研究。",
+    "context5": "2014-2017年，“社交媒体”和“数字档案资源”成为新的研究方向。社交媒体在理论方面，更多地借鉴美国国家档案局社交媒体的战略规划和实施经验；在实践方面，催生了一系列档案领域的社交媒体公号来传播档案信息。其中，政务微博、政务媒体的快速发展，形成了互联网领域的“国家声音”，积极地发挥其信息发布和政策解读等作用。"
+  },
+  "4.2学术前沿方向分析": {
+    "context1": "2015-2017年，“大数据”和“知识库”成为最新的研究方向。目前国内关于档案知识库方面的研究主要集中在档案知识库的理论构建、档案知识资源处理的技术与方法以及档案知识库建设上。牛力等（2015年）针对我国政府在执政决策过程中面临的问题，论述了档案部门的核心优势，提出构建面向政府决策的档案知识库，论述了知识库构建的总体设想及架构方案，为深入挖掘档案的知识价值、提高档案利用与服务能力奠定基础。[29]魏扣等（2016年)根据政府决策对档案知识库展开需求分析，归纳了档案知识库中的档案知识分类和档案知识特性，将档案知识库的功能需求进行划分，构建了档案知识库的功能实现模型，分析了档案知识库作为一种软件产品所需要达到的性能要求。[30张斌等(2016年)提出基于本体的档案知识表示和组织是档案知识库知识处理的最佳选择，构建了基于档案知识库的档案知识服务模型，提出了档案知识服务的种类和功能，认为档案知识检索是档案知识库提供档案知识服务的主要手段,设计了档案知识检索系统并将基于本体的知识网络确立为其检索结果的呈现形式。[31同时，随着档案部门对建设档案知识库的重视，国内出现了档案知识库建设的案例，比较有代表性的有青岛市档案馆历史知识库和中央档案馆知识库管理系统。档案知识库建设标志着档案资源开发由信息服务层面步人知识层面的新阶段，根据用户的需求提供个性化、深层次的档案知识服务。",
+    "context2": "表3突现强度最高的11个关键词",
+    "context3": "<table><tr><td rowspan=1 colspan=1>关键词</td><td rowspan=1 colspan=1>突发强度</td><td rowspan=1 colspan=1>开始年份</td><td rowspan=1 colspan=1>结束年份</td><td rowspan=1 colspan=2>2008-2017</td></tr><tr><td rowspan=1 colspan=1>信息公开</td><td rowspan=1 colspan=1>6.6219</td><td rowspan=1 colspan=1>2008</td><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1>档案信息化</td><td rowspan=1 colspan=1>5.2446</td><td rowspan=1 colspan=1>2008</td><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>政府信息</td><td rowspan=1 colspan=1>2.6837</td><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=1>2010</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1>安全体系</td><td rowspan=1 colspan=1>2.6837</td><td rowspan=1 colspan=1>2010</td><td rowspan=1 colspan=1>2011</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1>云计算</td><td rowspan=1 colspan=1>2.4402</td><td rowspan=1 colspan=1>2012</td><td rowspan=1 colspan=1>2014</td><td rowspan=1 colspan=2>（</td></tr><tr><td rowspan=1 colspan=1>档案事业</td><td rowspan=1 colspan=1>2.768</td><td rowspan=1 colspan=1>2013</td><td rowspan=1 colspan=1>2014</td><td rowspan=1 colspan=1>（</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>智慧档案馆</td><td rowspan=1 colspan=1>2.5497</td><td rowspan=1 colspan=1>2014</td><td rowspan=1 colspan=1>2015</td><td rowspan=1 colspan=2>（</td></tr><tr><td rowspan=1 colspan=1>社交媒体</td><td rowspan=1 colspan=1>3.5627</td><td rowspan=1 colspan=1>2014</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1>数字档案资源</td><td rowspan=1 colspan=1>2.913</td><td rowspan=1 colspan=1>2014</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1>知识库</td><td rowspan=1 colspan=1>2.4732</td><td rowspan=1 colspan=1>2015</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=2>（</td></tr><tr><td rowspan=1 colspan=1>大数据</td><td rowspan=1 colspan=1>4.4224</td><td rowspan=1 colspan=1>2015</td><td rowspan=1 colspan=1>2017</td><td rowspan=1 colspan=2>（</td></tr></table>",
+    "context4": "-81 (C)1994-2023 China Academic Journal Electronic Publishing House. Al rights reserved.htp://www.cnki.net",
+    "context5": "本文系中国人民大学科学研究基金 (中央高校基本科研业务费专项资金资助)项目成果“面向数字人文的‘记忆工程'理论、方法与实践研究”(项目编号:18XNI011 的研究成果之一。"
+  },
+  "参考文献": {
+    "context1": "[1］马费成,张勤.国内外知识管理研究热点—基于词频的统计分析[J].情报学报,2006,25（2):163-171.  \n[2]钟伟金,李佳.共词分析法研究(二)——类团分析［J].情报杂志,2008,27(6):141-143.  \n[3][4][28] 陈超美,陈悦,侯剑华,等.CiteSpace ⅡI:科学文献中新趋势与新动态的识别与可视化［J].情报学报,2009,28(3):401-421.  \n[5]张勤.词频分析法在学科发展动态研究中的应用综述[J].图书情报知识,2011(2):95-98.  \n[6］孙青兰.高频、低频词的界分及词频估计方法［J].情报科学,1992(2):28-32.  \n[7] 张宁.我国电子文件管理现状调查与思考［J].档案学通讯,2008 (6):15-19.  \n[8] 刘越男,杨建梁.从机构、系统到体系:数字档案馆概念的发展［J].档案学通讯,2015(4):50-55.  \n[9］颜海.档案学专业发展历程、机遇与基点—基于“图书馆、情报与档案管理”国家一级重点学科背景［J].档案学通讯,2008(5):61-64.  \n[10] 胡鸿杰.论中国档案学的学术尊严（续）［J].档案学通讯,2009(5):8-11.  \n[11]徐拥军,张斌.中国档案高等教育发展现状调研与对策分析［J].档案学研究,2011(5):80-88.  \n[12]徐拥军,周艳华,李刚.基于知识服务的档案管理模式的理论探索[J].档案学通讯,2011(2):24-28.  \n[13]陈永生,杨茜茜,侯衡,等.电子政务系统中的档案管理:问题与思考［J].档案学研究,2015(2):28-37.  \n[14]冯惠玲.档案记忆观、资源观与“中国记忆”数字资源建设[J].档案学通讯,2012(3):4-8.  \n[15]徐拥军.建设“中国记忆”数字资源库的构想［J].档案学通讯,2012(3):9-13.  \n[16]加小双,徐拥军.中国“城市记忆”理论与实践述评［J].档案学研究,2014(1):22-32.  \n[17]牛力,王烨楠.基于档案的城市记忆资源建设研究述评[J].档案学通讯,2016(1):38-47.  \n[18]赵彦昌.关于《中国档案史》教材建设的若干思考［J].档案学通讯,2009(6):83-86.  \n[19]张斌,梁瑞娟,薛四新.中国档案事业史知识库的总体构建——中国档案事业史知识库建设研究之一［J].档案学通讯,2015(1):18-23.  \n[20]蒋卫荣.《档案法》第二轮修改的重点问题［J].档案学研究,2010（2).  \n[21]徐拥军,李晶伟,蔡美波.对《档案法》修订草案的几点意见［J].档案学通讯,2016(6):7-10.  \n[22]陈忠海.对《档案法》修订草案中几个问题的认识-兼与徐拥军、李晶伟、蔡美波先生商榷［J].档案学通讯,2017(2):9-14.  \n[23]王国振.对“三个体系”内涵及相互关系的几点认识[J].档案学研究,2010(5):11-14.  \n[24]牛力,韩小汀.云计算环境下的档案信息资源整合与服务模式研究［J].档案学研究,2013（5):26-29.  \n[25]周耀林,赵跃,姬荣伟.“三个体系”视角下档案管理研究框架的重构［J].档案学研究,2017(4):4-10.  \n[26]王协舟,王露露,“互联网 $+ ^ { \\mathrm { i } }$ ”时代档案工作改革的几点思考［J].档案学通讯,2016(5):94-100.  \n[27]赵彦昌,毛丽敏.“互联网 $+ ^ { \\prime \\prime }$ 环境下档案信息资源建设若干问题研究［J].档案学研究,2017(4):31-35.  \n[29]牛力,王为久,黄蕊,等.面向政府决策的档案知识库构建研究［J].档案学通讯,2015(4):56-60.  \n[30]魏扣,郝琦,张斌.面向政府决策的档案知识库构建需求分析［J].档案学研究,2016(5):32-35.  \n[31] 张斌,郝琦,魏扣.基于档案知识库的档案知识服务研究［J].档案学通讯,2016(3):51-58."
+  }
+}

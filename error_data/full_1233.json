@@ -1,0 +1,107 @@
+{
+  "original_filename": "full_1233.md",
+  "中外图情领域大数据近十年(2007-2016)研究现状与发展趋势分析": {
+    "context1": "陈军营，白如江，王效岳，刘自强(山东理工大学科技信息研究所，山东 淄博 255049)",
+    "context2": "摘要：【目的/意义】为揭示中外图书情报领域对大数据研究的现状和发展趋势,挖掘研究热点主题及其演化过程【方法/过程文章统计分析了近十年图情领域大数据研究的论文发文数量、核心机构和核心作者等指标,采用文本数据挖掘的方法识别出不同领域时期的研究热点主题,并分析了随时间的推移研究主题的演变情况。此外，论文还对比分析了中外图情领域研究主题的相关性和差异性，展现出中外图情领域对大数据研究的联系和区别。【结果/结论】随着时间的发展，中外大数据研究主题趋于相似。大数据研究主题的趋势向着研究主题多元化，结构层次鲜明化的方向发展，在未来几年将会有更多新颖的研究主题产生。",
+    "context3": "关键词：大数据；热点主题；趋势分析；数据挖掘；对比分析中图分类号：G353.1 DOI:10.13833/j.issn.1007-7634.2018.07.018"
+  },
+  "Research Status and Development Trend Analysis of Big Data in the Field of Chinese and ForeignLibrary and Information Science in Recent 10 Years (2o07-2016)": {
+    "context1": "CHEN Jun-ying, BAI Ru-jiang, WANG Xiao-yue, LIU Zi-qiang (Instituteof Scientific and Technical Information,Shandong UniversityofTechnology,Zibo 255049,China)",
+    "context2": "Abstract:【Purpose/significance]Inorder to reveal the research statusanddevelopment trendof bigdata research in the fieldof Chineseandforeign libraryand informationscienceaswellas tominetheresearchtopicsanditsdevelopmentrend. 【Method/Process】This paper analyzes the number of papers,thecore institutions and the core writers about big data research inthefieldof Chineseand foreignareas inrecentten years.Identifytheresearch hottopics indiferentfields with the methodof text mining andanalyze the evolutionofresearchtopics overtime.Inaddition,the paper alsocompare and analyze thecorrelationand diferenceoftheresearch topics inthefieldofChineseand foreignlibraryand information science in purpose to showtheconnectionand difference between the Chineseand foreign areas.【Result/Conclusion】With the developmentofthetime,Chineseandforeignbigdataresearch topicstend tobesimilar.Bigdataresearchtopics tendtobediversified and its layer of structure become distinct,there will be more original topics in the next few years.",
+    "context3": "Keywords: big data;hot topics;trend analysis;data mining;comparison and analysis"
+  },
+  "1引言": {
+    "context1": "近年来，全球步人“大数据\"时代，国内外针对大数据的理论研究与实践探索呈现欣欣向荣的景象,对学界、政府、社会各行业产生了巨大影响。2005年,Hadoop项目诞生，从技术层面上搭建了一个使对结构化和复杂数据快速、可靠分析变为现实的平台，后来逐步成为大数据研究主流平台。",
+    "context2": "2008年《Nature》出版\"BigData\"专刊,探讨了大数据对互联网、网络经济学、生物医学等多个领域的影响[2]。",
+    "context3": "自此\"大数据\"成为各行各业的高频词汇,2011年《Sci-ence》出版\"Dealing with data\"专刊,探讨了大数据洪流(Datadeluge)给各行各业带来的机遇与挑战[3]。2012年1月，达沃斯世界经济论坛将大数据作为主题之一，探讨了如何更好地利用数据产生社会效益[4。2012年3月，美国奥巴马政府投资2亿启动\"大数据研究和发展计划”，认为大数据是未来的“新石油\"5]。大数据逐渐被应用于市场、金融、食品以及安全等众多领域,Google、IBM、微软和阿里巴巴、百度等国内外IT行业巨头都宣布或实施了大数据相关研发计划,积极抢占大数据技术市场。由此看来，大数据逐渐走入经济界、政治界并且已经对我们的社会生活有了重要的影响。图书情报领域对大数据研究也不甘示弱,中国情报中心网与北京中清研信息技术研究院于2016年11月6日至10日在北京联合举办\"2016年全国大数据时代情报分析研讨会”，重点在于数据时代情报分析的理论方法与应用实践，着力提高数据时代情报人员的信息搜索、信息分析与挖掘、情报研究以及战略决策支撑能力[]。",
+    "context4": "表1大数据相关部分研究工作",
+    "context5": "<table><tr><td>研究主题</td><td>研究内容</td><td>主要作者</td></tr><tr><td>大数据时代 情报分析</td><td>情报分析在大数据的环境下面临着机遇与挑战，研究专家通过不同角度(如：大数据环境、大数据分析 和情报分析的相似性和差异性)的分析论述对情报分析的发展提出了参考和建议。并对情报分析的发 展趋势以及具体分析步骤进行了探讨和总结。</td><td>李广建,化柏林迟 玉琢,张家年</td></tr><tr><td>大数据时代 科学数据管理</td><td>专家分别以数据互操作、数据整合、元数据开放与共享、数据共享模式为科学数据的研究侧重点,通过 冷伏海，白如江， 调研和分析,明确的呈现了当前各个研究侧重点的理论方法以及实践的现状并阐明了科学数据在大数 据环境下面临的新机遇,新挑战。</td><td>文王效岳，杨京 满芮,左建安</td></tr><tr><td>大数据可视化</td><td>在大数据背景下,专家们通过运用不同的可视化工具对有关数据源进行可视化呈现,使某一领域的研 究热点、研究现状、以及某领域热点主题的发展趋势等更加鲜活生动,解决了领域发展现状的实际问 题。而且,通过相关专家的钻研和发掘使得可视化方法得以改善,弥补了单纯表格和文字论述的不足。</td><td>赵蓉英,刘自强苏 』楠，马晓亭 何晓萍,王炳立</td></tr><tr><td>大数据挖掘</td><td>大数据时代的到来数据量以极快的速度增长,传统数据挖掘的平台和工具收到冲击,新的工具相继诞 生。研究人员通过对Hadoop、MapReduce、Mahout等一系列的大数据挖掘工具进行调研分析发现,这些 工具不仅提高了政府高校企业的信息处理效率,而且为传统项目如科技查新提供了一个新解决思路。仲华,吴晓英李艳 其与云计算等前沿技术的结合，促进了数据挖掘技术的发展和革新。</td><td>李善青,李祝启邓</td></tr></table>",
+    "context6": "随着情报学对大数据研究热度越来越高，运用文献计量学和数据挖掘的方法对国内外图书情报领域大数据研究主题内容的相关性和差异性进行调研分析，指出中外研究的各自侧重点以及不足之处对国内大数据的发展显得尤其重要。"
+  },
+  "2相关研究": {
+    "context1": "随着大数据时代的到来，情报学领域核心期刊中与大数据有关的科技论文越来越多，大数据这个词汇被专家们谈及的也越来越频繁。经过文献梳理发现，目前，针对大数据的研究主要从情报分析、数据整合、可视化、数据挖掘等方面进行展开,大数据相关的部分研究工作如表1所示[8-26]。",
+    "context2": "综上所述,近几年图情领域科研工作者通过对大数据的各方面的研究推动了大数据在国内的发展，弥补了相关研究的空缺。为提高研究热点识别的准确性，本文选择国内外图情领域核心期刊为调研对象，利用数据挖掘的方法对研究热点主题进行识别分析，然后以可视化的方法对热点主题在时间维度上进行演化趋势呈现,最后进行国内外热点趋势对比分析，以期为国内图情领域大数据的发展提供参考。"
+  },
+  "3研究思路": "",
+  "3.1数据源": {
+    "context1": "论文以中国知网CNKI数据库为中文文献来源，Webof",
+    "context2": "Science核心集作为英文文献来源，以2017年7月15日为时间节点。在CNKI中,以主题为检索项,以\"大数据or big da-ta\"为检索式进行高级检索,时间跨度为2007—2016年,手动点击选择期刊类目为2017年CSSCI图书情报领域的18种核刊,并进行检索，检索结果：692项。",
+    "context3": "在Web of Science核心集中以主题为检索项,以\"big da-ta\"为检索式进行检索，时间跨度设定为2007年至2016年，选择文献类型为Article,Proceeding Paper,Review,语种为English,研究领域精选为INFORMATION SCIENCE LI-BRARYSCIENCE。然后将出版刊物精选为SSCI目录里所包含的刊物,检索结果;269项。"
+  },
+  "3.2研究思路": {
+    "context1": "本文研究思路如图1所示,分为以下三个步骤。",
+    "context2": "![](images/2e9930ca26c33acc048850b770f58fb7584f5b94f945bec7622f840e348023f7.jpg)  \n图1中外图情领域大数据近十年研究现状及演化趋势分析研究思路",
+    "context3": "第一步：数据获取与预处理。利用构建好的检索式，登陆CNKI和Webof Science数据库检索获取研究所需题录信息数据。然后将获取的数据进行文本格式转换、去除停用词、分词等处理,并进行时间切片为后续研究提供支持。",
+    "context4": "第二步：量化统计分析。利用Excel表格工具将数据中含机构、发文量、作者等信息进行有效的统计整理,分析近十年发文量的变化情况,并对机构和作者进行论文产出排名。",
+    "context5": "第三步：主题识别及演化趋势分析。数据预处理完毕后的文本数据中富含大量信息，通过knime大数据分析平台对其进行挖掘，识别出文本数据中蕴藏的研究主题。然后将相邻时期的主题进行相似度计算判断出主题之间联系的亲密程度，并以动态图谱的形式进行呈现，展示出不同时期各个主题之间的演化关系。"
+  },
+  "4发文趋势和核心机构、作者统计分析": "",
+  "4.1 发文趋势分析": {
+    "context1": "通过数据整理,得出国内外图书情报领域核心期刊中有关大数据研究的发文量统计数据如图2所示。",
+    "context2": "![](images/2a7200615fd01ace924334d7bfdf71db063cf735b3a8b094cd76db0e5446b070.jpg)  \n图2国内外 $2 0 0 7 { - } 2 0 1 6$ 年发文量变化趋势图",
+    "context3": "由图2看出，图书情报领域核心期刊以大数据为主题的论文发文量整体处于上升趋势,图书情报领域对大数据的研究热情和关注度持续增长。",
+    "context4": "国内2007－2011年的年发文量一直都处于\"零\"的状态,在这个时间区域内大数据还没有引起图书情报领域专家的注意，国内图书情报18种核心期刊中还没有关于大数据这一主题的研究文献。2012是图情领域大数据研究的转折点，发文量为11篇；从2012年开始，每一年的发文量都成倍数增长，2014年的发文量是2012年的13倍，发文量呈爆发式增长;2016年的发文量是2014年的1.8倍，增长率趋于稳定。国外2007－2011年的发文量处于平稳阶段且小于10篇,2012年发文量为13篇，且发文量自2012年起维持一定的增势。2014年发文量是2012年的3倍,2016年发文量是2014年的2倍。",
+    "context5": "综上，国内外近十年图情领域核心期刊大数据研究的发文量比较之下容易发现，国外对大数据的研究较国内早。2012年是大数据发文量的一个重要转折点，此后，以大数据为主题的研究成为图情领域的热点。国内外大数据的年发文量都呈增长趋势，且国内势头较国外显著，研究热情高于国外。"
+  },
+  "4.2 机构及作者统计": {
+    "context1": "文章将数据源中第一机构或第一作者作为统计对象，分别对国内外机构或作者的发文量进行统计排名，并且将发文量排名前十位的机构视为核心机构,排名前五位的作者视为核心作者。",
+    "context2": "国内外图情领域以大数据为主题刊文的核心机构发文量统计情况，如表2所示。",
+    "context3": "表2 国内外论文数量排名前十位机构",
+    "context4": "<table><tr><td>机构名称 （国内）</td><td>论文数目 （国内）</td><td>机构名称 （国外）</td><td>论文数目 （国外）</td></tr><tr><td>武汉大学</td><td>77</td><td>UnivMalaya</td><td>7</td></tr><tr><td>南京大学</td><td>41</td><td>IndianaUniv</td><td>5</td></tr><tr><td>兰州商学院</td><td>24</td><td>UCL</td><td>4</td></tr><tr><td>吉林大学</td><td>22</td><td>UnivIllinois</td><td>4</td></tr><tr><td>北京大学</td><td>20</td><td>UnivNCarolina</td><td>4</td></tr><tr><td>桂林理工大学</td><td>19</td><td>DelftUnivTechnol</td><td>3</td></tr><tr><td>中国人民大学</td><td>14</td><td>ETH</td><td>3</td></tr><tr><td>郑州大学</td><td>11</td><td>GeorgeMasonUniv</td><td>3</td></tr><tr><td>南京信息工程大学</td><td>10</td><td>UnivArizona</td><td>3</td></tr><tr><td>中山大学</td><td>10</td><td>UnivGavle</td><td>3</td></tr></table>",
+    "context5": "机构综合排名显示，国内图情领域核心期刊的发文量机构排名前五位的分别是武汉大学、南京大学、兰州商学院、吉林大学、北京大学,机构论文数量在20篇以上。桂林理工大学、中国人民大学、郑州大学、南京信息工程大学、中山大学发文量在10篇以上。国外机构图情领域关于大数据在核心期刊的发文量都在10篇以下，由表可知，国内核心机构的发文数量远远超过国外，再次印证国内图情领域对大数据的研究热情高于国外。",
+    "context6": "国内外图情领域以大数据为主题刊文的核心作者发文量统计情况,如表3所示。",
+    "context7": "表3国内外论文数量排名前五位作者",
+    "context8": "<table><tr><td>作者</td><td>论文数目</td><td>作者姓名</td><td>论文数目</td></tr><tr><td>张兴旺</td><td>15</td><td>Jiang,B</td><td>3</td></tr><tr><td>李纲</td><td>10</td><td>Xia,JZ</td><td>2</td></tr><tr><td>马晓婷</td><td>10</td><td>Shin,DH</td><td>2</td></tr><tr><td>李阳</td><td>9</td><td>Nicholas,D</td><td>2</td></tr><tr><td>李晨辉</td><td>9</td><td>Newman,R</td><td>2</td></tr></table>",
+    "context9": "整体看来，国内核心作者的发文数量明显高于国外，国内图情领域核心期刊中发文量最多的作者是张兴旺,15篇;国外发文量最多的作者是Jiang,B,3篇。国内核心作者发文量最少是李晨辉,9篇，比国外发文最多的核心作者Jiang,B多6篇。"
+  },
+  "5基于数据挖掘的研究主题识别及发展趋势分析": {
+    "context1": "论文将十年的数据分为四个时间序列组，命名和各时期论文数目，如表4所示：",
+    "context2": "表4 国内外各时期论文数目",
+    "context3": "<table><tr><td>时期</td><td>论文数目(国内/国外)</td></tr><tr><td>I(2007-2009)</td><td>0/15</td></tr><tr><td>I(2010-2012)</td><td>11/28</td></tr><tr><td>Ⅲ(2013-2014)</td><td>210/72</td></tr><tr><td>IV(2015-2016)</td><td>471/170</td></tr></table>",
+    "context4": "为了避免数据的平滑性，增强中外研究现状的对比性。将论文数据划分为四个子时期：2007-2009年，2010-2012年,2013-2014年，2015-2016年。其中，国内第一时期发文数量为0,国外发文量为15篇，第三时期国内发文量为210篇，超过了国外的72篇；第四时期国内发文量持续增长到471篇，国外为170篇，说明国内对大数据的研究热度是后来居上的。"
+  },
+  "5.1研究主题识别": {
+    "context1": "本文通过数据分析软件平台KNIME进行主题识别探测，具体程序运行流程如图3所示。",
+    "context2": "![](images/16e00280b9c24906ede39cb301d785069c77a9387c54c42e181969e7ed1479d8.jpg)  \n图3Knime主题识别流程图",
+    "context3": "经数据分析软件KNIME的分析探测，从国内692篇图书情报领域的CSSCI核心期刊论文数据中识别出230个关键词和23个主题，从国外269篇图书情报领域的SSCI核心期刊论文数据中识别出260个关键词和26个主题。其中，关键词后面的数值代表关键词在所在主题下的权重。",
+    "context4": "国外图情领域识别出的研究主题及部分关键词(关键词权重)，见表5。",
+    "context5": "由表5所示，国内的图情领域大数据相关研究主题主要涉及Ⅱ、ⅢI、IV四个时期。",
+    "context6": "Ⅱ(2010-2012)包含4个主题：竞争情报、图书馆服务、大数据时代、文献计量。关键词大数据时代、文献、大数据和研究等占权重大。",
+    "context7": "Ⅲ(2013-2014)包含7个主题：图书馆研究、图书馆服务、数字图书馆、大数据时代、数据挖掘、热点主题识别、科学数据管理。关键词大数据时代、大数据、应用等占权重大。",
+    "context8": "IV(2015-2016)包含12个主题：图书馆信息服务、数字图书馆、知识服务、用户服务、大数据挖掘、大数据时代、大数据分析技术、数据整合、情报分析、技术预测、云计算、数据可视化。关键词大数据、云计算、平台、数据量等占权重大。",
+    "context9": "国外图情领域识别出的研究主题及部分关键词(关键词权重),见表6。",
+    "context10": "I（2007-2009)包含5个主题：Publication of e-journals（电子出版物）、Library information retrieve（图书馆信息检索）、Citation analysis(引文分析）、Data analysis(数据分析）、Full-text available（全文获取）。关键词data、publication、analysis、university等占权重大。",
+    "context11": "ⅡI(2010-2012)包含6个主题:Science publication（科学出版）、Data analysis(数据分析）、Information system（信息系统）、Citation analysis(引文分析）、Open source(开源）、Onlineservice（在线服务）。关键词Purpose、service、openness soft-ware占权重大。",
+    "context12": "Ⅲ (2013-2014)包含6个主题:Online resource(网上资源）、bigdata(大数据）、Data analysis(数据分析）、citation re-search(引文研究）Open access journal(期刊开放获取）Se-matic analysis（语义分析）。关键词 Citation、network、data、high占权重大。",
+    "context13": "表5国内主题词及部分关键词列表",
+    "context14": "<table><tr><td>时期</td><td>主题</td><td>关键词</td></tr><tr><td>I(2007-2009)</td><td>无</td><td></td></tr><tr><td rowspan=\"3\">II (2010-2012)</td><td>Ⅱ-1:竞争情报</td><td>研究(100)图书馆(85)情报(75)企业(65)竞争(60)</td></tr><tr><td>Ⅱ-2:图书馆服务</td><td>大数据(302)图书馆(285)服务(231)|知识(202)信息(183)</td></tr><tr><td>Ⅱ-3:大数据时代</td><td>大数据时代(831)I应用(601)数据(552)发展(512)大数据(495)</td></tr><tr><td rowspan=\"9\">Ⅲ(2013-2014)</td><td>Ⅱ-4:文献计量</td><td>文献(541)|计量学(483)数据(444)ICitespace(420)分析(411)</td></tr><tr><td>Ⅲ-1:图书馆研究</td><td>研究(100)图书馆(85)知识(75)时代(65)信息(60)</td></tr><tr><td>Ⅲ-2:图书馆服务</td><td>大数据(302)图书馆(285)服务(231)知识(202)信息(183)</td></tr><tr><td>Ⅲ-3:数字图书馆</td><td>数字(260)资源(225)数据(218)图书馆(205)分析(201)</td></tr><tr><td>Ⅲ-4:大数据时代</td><td>大数据时代(831)应用(601)|大数据(552)发展(512)数据(495)</td></tr><tr><td>Ⅲ-5:数据挖掘</td><td>技术(322)研究(311))数据(302)聚类(287)挖掘(225)</td></tr><tr><td>Ⅲ-6:热点主题识别</td><td>热点(250)文献计量(210)主题(185)学科(150)研究(122)</td></tr><tr><td>Ⅲ-7:科学数据管理</td><td>科学(89)研究(75)数据(56)情报(42)管理(40)</td></tr><tr><td>V-1:图书馆信息服务</td><td>资源(30)服务(25)研究(21)信息(20)图书馆(15)</td></tr><tr><td rowspan=\"14\">IV(2015-2016)</td><td>V-2:数字图书馆</td><td>互联网(55)数字资源(52)共享(48)图书馆(44)</td></tr><tr><td>V-3:知识服务</td><td>图书馆(105)知识(89)理论(85)服务(75)应用(75)</td></tr><tr><td>V-4:用户服务</td><td>用户(104)服务(88)技术(78)信息(72)资源(60)</td></tr><tr><td>V-5:大数据挖掘</td><td>互联网(500)分析(453)Had0op(354)I(322)数据(312)</td></tr><tr><td>V-6:大数据时代</td><td>大数据(756)时代(656)平台(588)工具(523)研究范式(502)</td></tr><tr><td>V-7:大数据分析技术</td><td>大数据(658)数据(521)分析(511)技术(502)新学科(485)</td></tr><tr><td>V-8:数据整合</td><td>创新(244)数据(210)大环境(185)整合(178)构建(50)</td></tr><tr><td>V-9:情报分析</td><td>情报(455)分析(420)大数据(382)信息(335|互联网(240)</td></tr><tr><td>V-10:技术预测</td><td></td></tr><tr><td>V-11:云计算</td><td>预测(462)信息(453)经济(420)图书馆(395)技术(366)</td></tr><tr><td></td><td>云计算(750)数据量(724)大环境(700)互联网(682)构建(650)</td></tr><tr><td>V-12:数据可视化</td><td>平台(721)大数据(699)可视化(685)(654)科学计算(622)</td></tr></table>",
+    "context15": "表6国外主题词及部分关键词列表",
+    "context16": "<table><tr><td>时期</td><td>主题</td><td>关键词</td></tr><tr><td rowspan=\"4\">I(2007-2009)</td><td>I-1:Publication of e-journals</td><td>Publication(53)IUniversity(45)lrights(42)le-journal(36)</td></tr><tr><td>I-2:Library information retrieval</td><td>library(23)lmethodl(22)lretrieval(15)linformation(8)</td></tr><tr><td>I-3:Citation analysis</td><td>Cited(16)lanalysis(15)lmodels(15)access(8)</td></tr><tr><td>I-4:Data analysis</td><td>data(56)lanalysis(47)linformation(41)llibrary(38)</td></tr><tr><td rowspan=\"9\">ⅡI(2010-2012)</td><td>I-5:Full-text available</td><td>available(25)lfull-text(23)lusers(21)lresearchers(16)</td></tr><tr><td>I-1:Science publication</td><td>science(45)lpublication(42)lbased(37)ldata(31)</td></tr><tr><td>Ⅱ-2:Data analysis</td><td>information(80)ldata(76)lresearch(69)lanalysis(61)</td></tr><tr><td>I-3:Information system</td><td>information(102)lbehavior(75)lproduction(72)lsystem(68)</td></tr><tr><td>I-4:Citation analysis</td><td>Citation(65)ldatabase(61)larticle(55)lanalysis(42)</td></tr><tr><td>Ⅱ-5:Open source</td><td>Purpose(180)lservice(156)lopenness(144)lsoftware(132)</td></tr><tr><td>I-6:Online service</td><td>online(68)lsurvey(65)lcommunities(45)lservice(37)</td></tr><tr><td>Ⅲ-1:Online resource</td><td>online(52)resource(47)lavailable(45)lshare(38)lpositions(38)</td></tr><tr><td>Ⅲ-2:big data</td><td>data(62)ltechnology(57)lanalysis(54)lresearch(47)</td></tr><tr><td rowspan=\"6\">Ⅲ(2013-2014)</td><td>Ⅲ-3:Big Dataanalysis</td><td>data(150)web(128)lHadoop(111)lanalysis(105)</td></tr><tr><td>Ⅲ-4:Citation research</td><td>Citation(254)lnetwork(223)ldata(201)lhigh(187)</td></tr><tr><td>Ⅲ-5:Open access journal</td><td>open(154)ldatabase(132)lmanagement(122)laccess(117)</td></tr><tr><td>Ⅲ-6:Sematic analysis</td><td>Sematic(169)lcontent(153)lanalysis(147)larticles(129)</td></tr><tr><td>IV-1:Research topic analysis</td><td>probabilistic(42)topic model(35)llatent(31)lresearch(27)</td></tr><tr><td>IV-2:Data science</td><td>data(13)lscience(8)lbusiness(8)lprediction(6)</td></tr><tr><td rowspan=\"7\">IV(2015-2016)</td><td>IV-3:Big Data mining</td><td>Big data(35)lmining(31)lnumber(27)lorganization(24)</td></tr><tr><td>IV-4:Digital library</td><td>digital(44)lmedia(31)|Practices(24)library(20)</td></tr><tr><td>IV-5:Data Management Tools</td><td>Curation(69)ldata(58)lbig data(51)ltool(48)</td></tr><tr><td>IV-6:Visualization technique</td><td>Visualization(45)l technique(34)ltool(31)lmap(25)</td></tr><tr><td>IV-7:Scientometric analysis</td><td>data(132)lanalysis(114)lresearch(102)Scientometric(83)</td></tr><tr><td>IV-8:Retrieving information</td><td>information(56)ldigital media(52)lsource(36)lquality(29)</td></tr><tr><td>IV-9:Social network research</td><td>network(80)lsocial(77)lmedia(68)linformation(56)</td></tr></table>",
+    "context17": "IV（2015-2016)包含9个主题:Research topic analysis（研究主题分析）、Data science（数据科学）、Big Data mining（大数据挖掘）、Digital library（数字图书馆）、Data Manage-ment Tools（数据管理工具）、Visualization technique（可视化技术）、Scientometric analysis（科学计量分析）、Retrieving in-formation（信息检索）、Social network research（社会网络研究)。关键词data、analysis、research、Scientometric占权重大。",
+    "context18": "对比国内外相同时期的主题以及关键词，Ⅱ(2010-2012)国内研究主要围绕大数据时代文献数据的处理、图书馆服务以及企业竞争情报方面进行展开,国外的研究则更侧重于资源开放获取、科学出版、引文分析等技术层面。ⅢI(2012-2013)2012年，随着大数据时代的到来，国内外针对大数据的各项研究迅速增长。该时期国内图书情报领域的研究主要围绕图书馆展开,同时由于受大数据时代高数据量对原有数据分析和保留方式和方法的冲击，数据挖掘、科学数据管理等新颖研究主题得以孕育产生。经总结，此时期，国外研究更侧重信息资源获取和技术分析，开源数据和自然语言处理技术等主题得到长足发展。V(2015-2016)国内的研究依旧是围绕图书馆进行，在信息服务方面更加的精确细化。在技术研究方面，则处于向国外借鉴学习的阶段。国外的研究角度继续聚焦在信息技术方面，一种新学科\"数据科学\"产生，同时数据挖掘和可视化技术得到迅速发展。",
+    "context19": "总体看来，相同之处是都有对信息，或者数据处理方面进行研究。不同之处是在实践方面，国内的主题偏向图书馆,将互联网、数字资源,信息技术(如：云计算)与图书馆进行结合;国外则注重开源信息的获取,数据信息的管理和出版、以及信息技术(如：自然语言处理技术)的更新升级研究。"
+  },
+  "5.2演化趋势分析": {
+    "context1": "本文通过数据分析软件平台KNIME进行主题相似度计算（将图4中node6节点中的相似度计算方法设置成Co-sine),通过主题相似度的数值来确定不同时期主体之间的相似程度,确定主题之间的关系。采用数据可视化软件Info-Captor将不同时期主题之间联系呈现出来，形成主题演化趋势图谱。",
+    "context2": "KNIME平台计算相似度的程序运行流程如图4所示。",
+    "context3": "![](images/86e0c3531e1ace621c2056afeec0b7e8fe80eb2bc0b0ad8960f4c3a7c02a9321.jpg)  \n图4LDA主题识别流程图",
+    "context4": "桑基图(Sankey diagram)即桑基能量分流图,也叫桑基能量平衡图。它是一种特定类型的流程图,图中延伸的分支的宽度对应数据流量的大小,1898 年，Matthew HenryPhineas Riall Sankey[27]绘制了“蒸汽机的能源效率图”,此后便以其名字命名为\"桑基图”。",
+    "context5": "![](images/052de1f0d9fac0de86b12e827ca43a11653a9a2ede2a97a43c4c8b54b8c9b76c.jpg)  \n图5桑基图",
+    "context6": "本文借鉴桑基图的思想,将所得到的主题进行可视化演化展示。利用在线平台InfoCaptor,制作国内外主题演化图谱。如图5所示，每一个独立的方块代表一个主题。图中，从左到右是主题演化的流向，从t时期流向 $_ { \\mathrm { t + 1 } }$ 时期,再由 $^ { \\mathrm { t + } }$ 1时期流向 $_ { \\mathrm { t } + 2 }$ 时期,代表了整个主题演化的过程。我们将桑基图中的分支流量代表相邻子时期的演化关系，流量条的宽度作为演化强度，流量条宽代表演化强度高，相反，窄则代表演化关系弱。其中，红色图块的大小代表某主题对应的文本数量占总文本数量的多少，图块越大，该主题所占的文本数量越多。",
+    "context7": "中外图情领域大数据研究可视化图谱分别如下图6和图7所示。",
+    "context8": "![](images/f235d5178a57e811f22ee8aae413e17c491aa89da8a422581d553b0da49363b9.jpg)  \n图6国内图情领域相关大数据主题演化图谱",
+    "context9": "![](images/67427a9a76290b3eef1c63b5af59021431c03c375e8f99e7e8fe3bb1f5c04356.jpg)  \n图7国外图情领域相关大数据主题演化图谱",
+    "context10": "通过图6、7可以看出，国内外大数据研究在相同时期有不同的主题,各自的研究重点也不相同。纵观国内外整个大数据研究主题的演变路程发现：",
+    "context11": "I(2007-2009年)：在国内，第一时期的发文量为零，大数据研究还没引起图书情报领域核心期刊专家的兴趣。在国外,图情领域大数据研究与国内相比较早,第一时期有五个主题,主要以论文数据为研究对象,进行引文分析、文本数据分析、信息检索、论文全文获取以及电子期刊出版。",
+    "context12": "Ⅱ(2010-2012年)：在这一时期，大数据的研究开始引起国内图情专家的重视，“大数据时代\"这一词汇被提及的频率越来越高,但是关于大数据研究的主题特征仍然不明显，国内的研究主题还是以传统文献计量学、图书馆、竞争情报为主。国外不同于国内，在论文数据方面，基于引文分析等数据分析的研究得以继承和发展。新主题开源和科学出版从原有的全文获取和电子期刊出版中演变而来，围绕图书馆的研究在这一时期从信息检索演变到信息系统的研究，将信息系统应用于图书馆，使得图书馆更加开放多源，信息获取更加简便，提升了图书馆的服务质量。",
+    "context13": "Ⅲ(2013-2014年)：大数据时代的到来，国内从政府部门到学术教育界都掀起了一场大数据的热潮。图书情报领域也不例外,这一时期有关大数据研究的论文数量呈现井喷趋势，大数据的研究主题特征明显、多元化。专家们结合国内图书馆学和情报学的特点，借鉴国外的研究成果,对第二时期的研究主题进行升华,数字图书馆、科学数据管理从图书馆服务主题中演变出来,实现了图书馆研究的多元化。运用文献计量的方法实现了对某一领域文献中热点主题的识别,拓宽了文献计量方法的应用范围。同时,新生主题数据挖掘和图书馆研究得到研究人员的注意。国外这一时期关于大数据主题的研究发展相对国内较平稳，且主题结构特征明显。传统的数据分析技术研究更加细化,演变为粒度更小的语义分析和带有时代色彩的大数据分析。引文分析的方法也不仅仅是构造引用与被引用的关系图,而是深入到引文文本中,进行句子级别的分析。大数据时代数据管理政策的不断完善和实施，大数据管理工具的应用,使得数据以及电子期刊的储存管理和获取变得更加简便。",
+    "context14": "V(2015-2016年)：随着国内政府有关大数据政策的颁布和引导实施以及计算机技术（自然语言处理技术和云计算)的快速发展,大数据研究主题演变的更加带有时代特色，主题结构更加细致,研究重点更加突出，主题数目增多。数字图书馆的需求促进了数据可视化的研究，目前大多数的图书馆资源数据库(如CNKI、维普等)都有对文献数据进行可视化展示的功能区。热点主题识别向着技术预测、大数据分析和可视化的研究角度演变。第二时期的竞争情报和第三时期的数据挖掘融合形成新主题：情报分析。由于数据量的增大,以往的数据挖掘工具面临挑战,新时期的海量数据促使了研究主题大数据挖掘的诞生。此时期国外的研究主题跟国内相接近，有相同的研究主题：数字图书馆、可视化技术、大数据挖掘。引文分析中社会网络研究得到发展，语义分析促进了科学计量分析和研究主题分析的研究。",
+    "context15": "通过对国内外图情领域研究主题演变对比分析，国外在大数据研究方面是领头羊，注重对文献和数据的研究，研究主题在不同时期带有不同的特征，各种主题相辅相生，新技术的引入使得研究主题更新随着时间循序渐进,发展平稳。国内最先着重对图书馆的研究，接着通过借鉴国外的技术和研究成果,使得国内图情领域大数据研究迅速追赶上国外的步伐,并形成了自己的研究特色。"
+  },
+  "6结语": {
+    "context1": "本文通过对中外图情领域近十年大数据的研究发现，国外的研究相比国内发展趋势更加稳定有效，整体的研究主题结构更加鲜明,通过对比发现其研究的主题内容更加前沿。国内大数据研究的发展势头很猛，善于借鉴国外的研究成果，紧跟大数据的发展潮流，在最后一时期从研究主题数目和结构层次上都形成了自己的特色。通过调研发现,大数据研究的趋势向着研究主题多元化、结构层次鲜明化的方向发展,鉴于科研学者对大数据持续高涨的研究热情,相信随着科学研究的不断进展在未来几年将会有更多新颖的研究主题产生。"
+  },
+  "参考文献": {
+    "context1": "1Hadoop [EB/OL]. https://en.wikipedia.org/wiki/Apache_Hadoop,2017-07-15.  \n2 Frankel F,Reid R.Big data: distilling meaning fromdata[J].Nature,2008,455(7209):30.  \n3Science S.Challenges and Opportunities[J].Science,2011,331(5):364.  \n4 刘蕾,鄢章华,白世贞.大数据-多维度给管理决策带来的改变[J].科技管理研究,2016,(14):224-227.  \n5 孙强,张雪峰.大数据决策学论纲:大数据时代的决策变革[J].华东电力大学学报,2014,(8):33-37.  \n6 赵亮,饶元,戴涛.基于大数据的技术创新与决策方法研究[J].科技创新与应用研究,2015,(32):9-11.  \n7 2016年全国大数据时代情报分析研讨会[EB/OL].https://www.huodongjia.com/event-373845748.html,2017-07-15.  \n8张家年,王文韬.融入工程化思维:大数据环境下情报分析机制的构建[J].情报理论与实践,2016,(6):1-6.  \n9 迟玉琢.大数据背景下的情报分析[J].情报杂志,2015,(1):18-22.  \n10 化柏林.从棱镜计划看大数据时代下的情报分析[.图书与情报,2014,(5):2-6.  \n11 李广建,化柏林.大数据分析与情报分析关系辨析[.中国图书馆学报,2014,(5):14-22.  \n12 满芮,王健.大数据时代科学数据元数据的开放与共享[].现代情报,2016,(3):38-41.  \n13 杨京,王效岳,白如江.大数据背景下科学数据互操作实践进展研究[].图书与情报,2015,(3):97-102.  \n14 白如江,冷伏海.“大数据\"时代科学数据整合研究[].情报理论与实践,2014,(1):94-99.  \n15 左建安,陈雅.基于大数据环境的科学数据共享模式研究[].情报杂志,2013,(12):151-154.  \n16 赵蓉英,魏明坤.基于可视化图谱的国内外大数据研究].情报科学,2016,(12):3-10,16.  \n17 刘自强,王效岳,白如江.多维度视角下学科主题演化可视化分析方法研究——以我国图书情报领域大数据研究为例[].中国图书馆学报,2016,(6):67-84.  \n18 苏楠.基于CSSCI的我国大数据研究可视化分析.情报科学,2016,(3):112-116.  \n19 马晓亭.图书馆大数据可视化分析系统的设计与实现.图书馆学研究,2015,(10):37-41,36.  \n20 何晓萍,黄龙.大数据领域演进路径、研究热点与前沿的可视化分析].现代情报,2015,(4):46-51.  \n21 王炳立.基于科学计量学的国际大数据研究可视化分析].情报杂志,2015,(2):131-136.  \n22 李艳,吕鹏,李珑.基于大数据挖掘与决策分析体系的高校图书馆个性化服务研究[].图书情报知识,2016,(2):60-68.  \n23 吴晓英,明均仁.基于数据挖掘的大数据管理模型研究.情报科学,2015,(11):131-134.  \n24 邓仲华,刘伟伟,陆颖隽.基于云计算的大数据挖掘内涵及解决方案研究[].情报理论与实践,2015,(7):103-108.  \n25 李祝启,陆和建,申林.政府网络舆情日志大数据挖掘实证研究[J].情报科学,2014,(11):58-61,132.  \n26 李善青,赵辉,宋立荣.基于大数据挖掘的科技项目查重模型研究[].图书馆论坛,2014,(2):78-83.  \n27桑基图[EB/OL].http://baike.baidu.com/link,2017-07-15.（责任编辑：张连峰）"
+  }
+}

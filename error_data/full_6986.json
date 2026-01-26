@@ -1,0 +1,132 @@
+{
+  "original_filename": "full_6986.md",
+  "数字资源长期保存可信赖认证研究发展综述": "",
+  "吴振新": {
+    "context1": "摘要本文对近20年来数字资源长期保存可信赖认证研究的发展进行回顾。通过对可信赖性含义的分析，以及对主要标准、方法和项目发展情况的梳理，提供了一个相对清晰的研究发展脉络图。详细介绍DSA评测指南、ISO16363、Nestor指标目录三个典型认证标准，详细描述可信赖性的组成和认证的基本要素：组织、数字对象管理、基础设施。介绍ISO16363和RLC的认证服务以及相关辅助工具，并给出对相关研究的评述以及对认证实践的思考，指出我国即将开展的国家保存体系建设应从规划之初即参照相关标准开展规划、决策和实践，使整个体系构建于一个较高的基点之上。图2。表3。参考文献23。",
+    "context2": "关键词数字资源长期保存可信赖性认证标准认证指标",
+    "context3": "分类号G352G359"
+  },
+  "Review of Trusted Certification Research on Digital Preservation": {
+    "context1": "WU Zhenxin"
+  },
+  "ABSTRACT": {
+    "context1": "This paper reviews the development of research on certification of trustworthy digital preservation in the past 20 years，discusses the meaning of trustworthiness，analyzes the composition of trustworthiness，and dentifies the primary elements of certification，provides references for the upcoming Chinese national digital preservation system.",
+    "context2": "The author summarizes the development of the main criteria，methods and projects in chronological order, and analyzes the direct or indirect influence with each other.Furthermore，the author analyzes and compares the criterion items of three typical certification standards in detail，namely DSA evaluation guide, ISO 16363,the Nestor Catalogue of Criteria，and finally puts forward a framework of the primary certification elements.",
+    "context3": "The research shows that OAIS has also become an important reference standard for trustworthiness certification as the basic standard of long-term preservation activities.And OAIS provides a widely applicable glossary of terms and the unified definitions of functions，process and information model.OAIS has been proved to provide a good foundation for certification of trustworthiness in system level.",
+    "context4": "Establishment of professional standards，including ISO 16363 and DIN 31644,provides a relatively comprehensive certification indicator framework for preservation activities.They focus on assessing the overall project，but there is a limitation that they only audit the current state of projects.Athree layers trustworthiness certification frame of EU,inheriting the existing research results （including DSA,ISO 16363 and DIN",
+    "context5": "31644）,is not only more reasonable and feasible for preservation practices，but also more conducive to gradual consummation of the preservation system. And some existing theories and standards which are adopted in other areas will provide additional verifications about trustworthiness from multiple perspectives.",
+    "context6": "The basic frameworks of the current three certification standards are coherent，and are composed by three parts which are organization，object management and infrastructure.Theorganization and infrastructure are the environments of executing the digital object management functions.The organization includes strategic policy， staff，funding，law，responsibility mechanism，and is the management environment to ensure preservation system works well.The infrastructure includes completeness，safety and risk management of technical facilities，and is the physical environment to ensure preservation system works well.And digital object management directly corresponds to the specific process and functions of preservation system Based on OAIS function modules，thecertification indicatorsofeach module are clasified into three groups:the first group is the indicators for specification and documentation；the second group is the indicators for process and technical methods；the third group is the indicators for records or logs（providing proof of reliability，credibility of process）.",
+    "context7": "This paper provides a roadmap of development on certification research （1994-2014），summarizes a primary elements framework of certification，and puts forward a series of questions needed to be considered and discussd further in practices.Allof these would provide references to the practice of certification of trustworthiness.Based on literature analysis only,this research lacks comparing and verifying the availability of existing standards in practices.2 figs.3 tabs.23 refs."
+  },
+  "KEY WORDS": {
+    "context1": "Digital resource.Long term preservation.Trustworthiness.Certification system.Certification indicators.",
+    "context2": "数字资源长期保存活动是为了保存人类的科学文化遗产，为公众提供持续服务，并为未来提供历史证据。在对数字资源进行长期保存的过程中，不可避免地要面对环境、技术、人员等方面的改变，要让未来的用户信赖所获得的信息，保存活动必须具备可信赖性。长期保存的高可信度也是对投资方大量投入的一种保证。此外,随着保存需求的不断增长,商业化的保存服务逐步渗入，如何获得保存资源方的信任，如何信任保存服务方，保存系统的可信度成为判断的核心因素。"
+  },
+  "来证明保存机构确实有能力胜任数字资源长期保存的任务。": {
+    "context1": "经过20年的发展，可信赖认证的研究随着保存实践的发展而不断深入，笔者在多年跟踪研究的基础上，对主要标准、方法和项目进行了全面梳理和评述，通过一个发展脉络图，梳理认证研究的整体发展情况，介绍各项认证标准和方法,并提出对认证实践的思考，为我国即将开展的国家保存体系建设提供一些参考。"
+  },
+  "1可信赖性分析": {
+    "context1": "早在1996年，美国研究图书馆协会（Re-search Library Group,RLG)发表的《数字信息保存》报告中就已经提到：保存数字资源会比保存纸本相似物需要更多的责任、更好的技术和资源,仅仅由保存机构自己宣称可以保存数字资源是不可靠的，需要一种公开和公共的机制，",
+    "context2": "数字信息的特性决定了其存在的短暂性，长期保存难度较大，传统资源的保存方法难以应用于数字资源，并且随着数字信息的指数级增长,没有任何一个机构能够独自承担保存责任,需要众多机构、组织和个人共同参与。新的环境下，如何使被保存的数字资源具备可信赖性？本文从图书馆、博物馆和档案馆等肩负保存传统资源职责的机构的有关特征来分析“可信赖性”的深层含义。"
+  },
+  "1.1保存机构要获得目标群体的信任": {
+    "context1": "保存机构要获得目标群体的信任至少需满足四个方面的条件。",
+    "context2": "·法定职责。相关法律法规包含了此保存机构开展长期保存的责任、管理措施，以及相应的经费和人员投入机制。  \n·历史角色延续。如图书馆、博物馆等对传统资源进行长期保存的机构，容易获得目标群体对其进行数字资源保存的信任。  \n·市场约束。按照市场规则,通过签订具有法律和经济约束力的保存契约来获得目标群体的信任。  \n·技术保障。采取必要措施(如冗余存储、异地存储、存储转移等),防备人为或其他不可抗力造成的数字资源变化或损毁。"
+  },
+  "1.2保存服务第三方提供者要获得信任": {
+    "context1": "保存机构作为受托方帮助别的机构或者公民保存数字资源，或者保存机构委托第三方帮助自己保存数字资源，按照市场规则均需签订具有法律和经济约束力的保存契约，同时，还需要一个可操作的认证程序来评判受托方的可信赖性，并作为可公开核查的信任基础。"
+  },
+  "1.3数字内容能够被用户信任": {
+    "context1": "用户信任长期保存系统提供的数字内容，实际上涉及两个相互关联的问题：被保存的数字内容本身是否变化，以及保存系统的可靠程度。很多情况下往往允许数字内容发生一定的变化,例如保存所需的“封装”。但另一方面,也需要确保数字内容的“不变性\"（fixity）,并提供一定机制进行认证和鉴别。由于用户往往不具备鉴别数字内容是否变化的能力，所以信任数字内容的问题通常直接演变为信任保存系统的问题。"
+  },
+  "2可信赖性认证研究发展概况": {
+    "context1": "经过20年的发展，目前已有多个研究成果可以用于保存系统的可信赖性分析和认证,本文梳理主要标准和方法，提供了一个相对清晰的研究发展脉络图（见图1）。图中按照时间顺序呈现研究的发展情况，又分别用实线、虚线反映相互之间的直接继承或间接影响关系。",
+    "context2": "![](images/9ab880a4d6236487b24333a3f57b444ae6374783a6533fc8a27fb53a7d72acfb.jpg)  \n图1可信赖认证研究发展脉络示意图"
+  },
+  "2.1基本参照标准OAIS的发展": {
+    "context1": "开放存档信息系统(Open Archival InformationSystem,OAIS)标准作为长期保存活动的基础标准,也是可信认证发展中的重要参考标准。开放存档信息系统的研究和可信认证的研究是相互借鉴，相互促进的。",
+    "context2": "在1996年，美国空间数据系统咨询委员会(Consultative Committe for Space Data Systems ,CCSDS)后动了开放存档信息系统OAIS的研究。1999年,该委员会下的存档摄入、识别及认证标准工作组提出,可信数字仓储(Trusted DigitalRepositories,TDR)的认证可从人员、项目、工作流程及数据四方面入手，并制定了一系列认证指标,这为之后的OAIS参考模型及认证框架奠定了基础。2002年，CCSDC发布了OAIS参考模型推荐标准，2003年成为国际标准ISO 14721,并迅速发展成为保存领域广泛遵循的基本标准，为后续的可信赖研究提供了基础。"
+  },
+  "2.2专业认证标准ISO 16363的发展": {
+    "context1": "RLG于1994年启动关于长期保存的调研，1996年发布长期保存里程碑性质的报告《数字信息保存》，随后于2000年与OCLC共同后动TDR的研究,2002年发布“可信数字仓储的属性和责任\"研究报告。报告中给出了TDR的定义,明确了 TDR 责任,详细描述了 TDR属性。2003年，RLG与美国国家档案管理局(NationalArchives and Records Administration,NARA)共同后动认证指标的研究，于2005年发布认证指标草案,2007年正式发布《可信赖仓储的审计及认证:指标与列表》Trustworthy Repositories Audit&Certification:Criteria and Checklist,TRAC）,并于2006一2007两年间对多个项目进行实验性审计。2012年,TRAC成为国际标准ISO16363。",
+    "context2": "2014年发布的ISO16919《审计与认证机构的要求》（Requirements for Bodies ProvidingAudit and Certification）则对执行认证的机构和人员提出了具体要求，并规范了认证的过程。"
+  },
+  "2.3德国国家认证标准的发展": {
+    "context1": "2003年,德国网络信息计划(Deutsche Initi-ative fur Netzwerkinformation,DINI）针对德国机构仓储的开放存取制定了《DINI文档与出版物服务认证》，旨在为各大学机构仓储间的标准化及基于互操作的信息服务与交流提供建议，并在全国范围开展认证活动。",
+    "context2": "2006年，德国数字资源长期保存专业网（Network of Expertise in Long-Term Storage of Dig-italResources,Nestor)制定的“可信赖数字仓储的指标目录”则是一套基于德国国情的认证体系，其基本框架与TRAC 保持一致,比DINI认证更为全面。2011年，Nestor制定的体系成为德国国家标准DIN31644。Nestor还曾与美国研究图书馆中心（Center for Research Libraries,CRL）、RLG、欧洲数字保存项目（Digital Preserva-tion Europe,DPE)英国数字长期保管中心（Dig-ital Curation Center,DCC)合作,于2007年发布了10项原则[作为可信数字保存仓储库的核心(最小)要求。"
+  },
+  "2.4欧盟相关研究的发展": "",
+  "(1)数字认可印章": {
+    "context1": "荷兰数据存档和网络服务项目（Data Ar-chiving and Networked Services,DANs)[ 认为,可信性是科学研究数据存储和共享的基础，为了配合开放科研的发展,DANS开展了数字认可印章授予服务（Data Seal of Approval,DSA）[，为符合要求的各科研数据存储库提供认可印章，以确保未来研究数据能够以高品质和可靠的方式提供。",
+    "context2": "DSA提供了16个指导方针供存储库进行自评估,由申请人通过在线工具完成评估,并将报告提交给指定专家进行同行审阅，最后根据审阅结果决定是否授予认可印章。"
+  },
+  "(2）欧盟认证框架": {
+    "context1": "欧盟所支持的“数字仓储认证与审计框架”(European Framework for Audit and Certification ofDigital Repositories）[项目,综合了现有的研究"
+  },
+  "成果,形成一个逐步递进的三层认证框架:": {
+    "context1": "·基本认证:依据DSA 进行自评估;·扩展认证:依据ISO 16363或DIN31644提供公开的自评估报告,进行有组织的外部审计;·正式认证:依据ISO 16363或DIN 31644进行全面认证。"
+  },
+  "2.5其他评估方法的发展": {
+    "context1": "英国数字长期保管中心以TRAC与Nestor指标为基础，开发了“基于风险管理的数字仓储审计方法\"（Digital Repository Audit Method BasedOn Risk Assessment,DRAMBORA)[4。",
+    "context2": "另外还有一些项目从系统成熟度的角度提出对保存系统的评估，从另一个侧面为保存系统的可信性提供证明。如，澳大利亚国家及州图书馆(National and State Libraries Australasia,NSLA)提出了一个包括初始、可重复、定义、管理、优化5层保存能力成熟度模型[,Preservica项目提出了包括安全存储、存储管理、存储验证、信息组织、信息处理、信息保存的6级数字存档成熟度模型(Digital Preservation Maturity Mod-el）[,数字长期保存能力成熟度模型项目(Digital Preservation Capability Maturity Model,DPCMM)提出了一个可持续数字保存的能力成熟度模型框架（Sustainable Digital PreservationCapabilities Maturity Model Framework）[,美国国家数字监管联盟（National Digital StewardshipAlliance，NDSA）制定了一套分层次的实践指南。"
+  },
+  "3主要认证指标和规范内容介绍与分析": "",
+  "3.1DSA评测指南": {
+    "context1": "DSA前3项指标是对数据生产商的要求，最后3项是对数据使用者的要求，中间10个是针对仓储库的，具体指标如表1所示。指标评分参考如下:0:不适用;1:还未考虑;2:有理论性的概念;3:处于实施阶段;4:完全遵守并实施。",
+    "context2": "表1 DSA评测指南",
+    "context3": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>指标项</td><td rowspan=1 colspan=1>最低得分要求</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>数据生产者把数据保存在存储库并提供足够的信息用于评估数据的质量以及是否遵守相关的法律规范</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>数据生产者使用存储库所建议的数据格式</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>数据生产者按照存储库要求同时提供数据和元数据</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>存储库对数字存档与揭示有明确的目标</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>存储库应进行严格评估以确保遵循法律规范及相应的合同</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>存储库采用过程记录和程序来管理数据存储</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>存储库有长期保存规划</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>在整个数据生命周期内，根据明确的工作流进行相应的存档</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>存储库承担确保对数字对象进行访问和获取的责任</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>存储库确保用户能长久地发现、使用并引用数据</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>存储库确保数字对象和元数据的完整性</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>存储库确保数字对象和元数据的真实性</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>技术基础设施明确支持国际存档标准(如OAIS)中描述的任务和功能</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>数据使用者遵守存储库制定的规范</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>数据使用者认可并遵循相关部门制定的行为准则，以确保知识和信息的交流与正确使用</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>数据使用者遵守存储库关于数据使用的行为许可</td><td rowspan=1 colspan=1>4</td></tr></table>"
+  },
+  "3.2ISO 16363 的基本认证指标": {
+    "context1": "ISO 16363为四级指标体系,共一百多项指标,针对每一项指标都提供了指标内容、支持文"
+  },
+  "本、样例、讨论四部分内容,以供对指标进行深入理解并指导实践，具体如表2所示。": {
+    "context1": "表2ISO16363前三级指标清单",
+    "context2": "<table><tr><td rowspan=1 colspan=1>第一级指标</td><td rowspan=1 colspan=1>第二级指标</td><td rowspan=1 colspan=1>第三级指标</td></tr><tr><td rowspan=18 colspan=1>组织的基础设施</td><td rowspan=3 colspan=1>管理和组织的基本要求</td><td rowspan=1 colspan=1>提供任务声明</td></tr><tr><td rowspan=1 colspan=1>提供保存战略规划</td></tr><tr><td rowspan=1 colspan=1>提供收藏政策或其他文件</td></tr><tr><td rowspan=3 colspan=1>组织结构和人员</td><td rowspan=1 colspan=1>明确职责</td></tr><tr><td rowspan=1 colspan=1>选用足够数量的合适(技能和经验)工作人员</td></tr><tr><td rowspan=1 colspan=1>提供有效的人专业发展计划</td></tr><tr><td rowspan=6 colspan=1>过程的可说明性及保存政策框架</td><td rowspan=1 colspan=1>明确定义其目标社团和相关的知识基础，并在适当的范围内提供</td></tr><tr><td rowspan=1 colspan=1>提供保存政策，以确保其保存战略规划的实施</td></tr><tr><td rowspan=1 colspan=1>有对其运营方式、实施过程、软件和硬件变化的历史记载</td></tr><tr><td rowspan=1 colspan=1>对影响数字内容保存的所有仓储库运营管理的活动，都保持一定的透明度和可说明性</td></tr><tr><td rowspan=1 colspan=1>定义、收集、跟踪并适当地提供对信息完整性的测量</td></tr><tr><td rowspan=1 colspan=1>定期进行自我评估和外部认证</td></tr><tr><td rowspan=3 colspan=1>财务的可持续性</td><td rowspan=1 colspan=1>提供短期和长期的业务规划流程，确保仓储库可持续发展</td></tr><tr><td rowspan=1 colspan=1>提供透明的、符合相关会计准则及惯例的财务实践和程序，并按照各国法律规定由第三方对其进行审核</td></tr><tr><td rowspan=1 colspan=1>承诺持续地对财政的风险、效益、投资和支出(包括资产、许可证和负债)进行分析和报告</td></tr><tr><td rowspan=3 colspan=1>合同、许可及责任</td><td rowspan=1 colspan=1>能对其所管理、保存和/或提供访问的数字材料提供适当的合同或存缴协议</td></tr><tr><td rowspan=1 colspan=1>所签订的合同或存缴协议中应说明并获得所有必要的保存权的转让且记录在案</td></tr><tr><td rowspan=1 colspan=1>按存缴协议、合同或许可的要求,对知识产权和仓储库内容的使用限制进行跟踪和管理</td></tr><tr><td rowspan=8 colspan=1>数字对象管理</td><td rowspan=8 colspan=1>摄入：获取内容</td><td rowspan=1 colspan=1>明确将要保存的内容信息和信息特性</td></tr><tr><td rowspan=1 colspan=1>清楚地说明与保存内容信息相关联的信息</td></tr><tr><td rowspan=1 colspan=1>具有适当的规范以识别和解析提交信息包（Submission In-formation Package,SIP)</td></tr><tr><td rowspan=1 colspan=1>提供一套机制来正确验证所有内容生产方的身份信息</td></tr><tr><td rowspan=1 colspan=1>提供一套摄入规范来检验每一个SIP的完整性和正确性</td></tr><tr><td rowspan=1 colspan=1>获得保存数字对象所需的足够的控制(权限)</td></tr><tr><td rowspan=1 colspan=1>能在摄入过程中的约定结点给生产者/寄存者提供适当的存档反馈</td></tr><tr><td rowspan=1 colspan=1>对获取内容相关的操作和管理流程提供同期记录</td></tr></table>",
+    "context3": "续表",
+    "context4": "<table><tr><td rowspan=1 colspan=1>第一级指标</td><td rowspan=1 colspan=1>第二级指标</td><td rowspan=1 colspan=1>第三级指标</td></tr><tr><td rowspan=14 colspan=1>数字对象管理</td><td rowspan=3 colspan=1>摄入生产的存档信息包(Archival InformationPackage, AIP)</td><td rowspan=1 colspan=1>对于保存的每一个AIP或某一类AIP,都必须拥有满足AIP解析和长期保存需求的相关定义</td></tr><tr><td rowspan=1 colspan=1>应描述如何使用SIP构建AIP</td></tr><tr><td rowspan=1 colspan=1>应记录所有SIPs的最终存缴情况</td></tr><tr><td rowspan=4 colspan=1>保存规划</td><td rowspan=1 colspan=1>对已存记录应具备相应的保存策略文档</td></tr><tr><td rowspan=1 colspan=1>应具备适当的保存环境监测机制</td></tr><tr><td rowspan=1 colspan=1>应具有根据监测结果改变保存计划的机制</td></tr><tr><td rowspan=1 colspan=1>应提供证据证明其保存活动的有效性</td></tr><tr><td rowspan=2 colspan=1>AIP 保存</td><td rowspan=1 colspan=1>应详细描述AIPs在底层的位级(Bits)存储情况</td></tr><tr><td rowspan=1 colspan=1>应具备关于AIPs存储和保存相关操作和管理流程的同期记录</td></tr><tr><td rowspan=3 colspan=1>信息管理</td><td rowspan=1 colspan=1>为使指定的用户群发现和识别感兴趣的资料，仓储须注明最低限度的信息需求</td></tr><tr><td rowspan=1 colspan=1>应捕获或创建最小的描述性信息，并确保其与AIP的关联</td></tr><tr><td rowspan=1 colspan=1>应维护每个AIP与其描述信息的双向关联</td></tr><tr><td rowspan=2 colspan=1>访问管理</td><td rowspan=1 colspan=1>应遵循访问政策</td></tr><tr><td rowspan=1 colspan=1>应遵循一定政策和过程来分发数字对象，并可追溯到该数字对象的原始对象，且能够证明其真实性</td></tr><tr><td rowspan=6 colspan=1>基础设施和安全风险管理</td><td rowspan=2 colspan=1>技术基础设施风险管理</td><td rowspan=1 colspan=1>应识别和管理与系统基础设施相关的影响保存运营和目标的风险</td></tr><tr><td rowspan=1 colspan=1>应记录所有数字对象备份的数量和位置</td></tr><tr><td rowspan=4 colspan=1>安全风险管理</td><td rowspan=1 colspan=1>应对与数据、系统、人员和物理设备有关的安全风险因素保持系统性分析</td></tr><tr><td rowspan=1 colspan=1>应具备实施措施以充分处理每个已定义的安全风险</td></tr><tr><td rowspan=1 colspan=1>应阐明系统内实施改变的角色、职责和授权范围</td></tr><tr><td rowspan=1 colspan=1>应具有合适的书面防灾备份和恢复计划，至少包括一个所有保存信息的异地备份和非现场副本的恢复计划</td></tr></table>"
+  },
+  "3.3Nestor的“可信赖数字仓储的指标目录”": {
+    "context1": "Nestor与ISO16363的认证指标框架基本相同,但面向应用进行了凝练和归纳，更为简洁和明确,更便于理解和执行。该框架是一个三级指标体系（见表3），针对每一个指标提供了指标内容、解释说明、实例及参考文献共三部分内容。",
+    "context2": "指标评价等级包括：计划/制定、实施、评价、发布。"
+  },
+  "3.4认证的基本要素分析": {
+    "context1": "由上文可知,目前 ISO 16363与Nestor 两个标准的一级指标是基本相同的，包括组织、数字对象管理、基础设施三个方面,其中组织、基础设施是数字对象管理赖以执行的环境。而DSA的10个针对保存系统的指标中,4—7对应着组织,8—12对应数字对象管理,13对应基础设施。",
+    "context2": "为了进一步明确认证的基本要素，笔者对上述认证指标进行了分类、对比，归纳为基本要素框架，如图2所示。",
+    "context3": "表3Nestor“可信赖数字仓储的指标目录”",
+    "context4": "<table><tr><td rowspan=1 colspan=1>第一级指标</td><td rowspan=1 colspan=1>第二级指标</td><td rowspan=1 colspan=1>第三级指标</td></tr><tr><td rowspan=16 colspan=1>组织框架</td><td rowspan=3 colspan=1>明确定义系统目标</td><td rowspan=1 colspan=1>仓储制定了数字对象选择标准</td></tr><tr><td rowspan=1 colspan=1>仓储对数字对象所呈现的信息承担永久保存责任</td></tr><tr><td rowspan=1 colspan=1>仓储已经界定了目标用户</td></tr><tr><td rowspan=2 colspan=1>允许指定用户适度使用数字对象</td><td rowspan=1 colspan=1>对指定用户提供访问</td></tr><tr><td rowspan=1 colspan=1>对指定用户保障数字对象的可解释性</td></tr><tr><td rowspan=3 colspan=1>遵守法律与合同规定</td><td rowspan=1 colspan=1>生产商与仓储之间存在法律合同</td></tr><tr><td rowspan=1 colspan=1>仓储依据法律条款实施长期保存</td></tr><tr><td rowspan=1 colspan=1>仓储依据法律条款考虑其用途</td></tr><tr><td rowspan=5 colspan=1>组织形式能够充分满足仓储需要</td><td rowspan=1 colspan=1>充足的资金保证</td></tr><tr><td rowspan=1 colspan=1>工作人员具有必备的职业资格</td></tr><tr><td rowspan=1 colspan=1>合理的组织形式</td></tr><tr><td rowspan=1 colspan=1>制定长期战略规划</td></tr><tr><td rowspan=1 colspan=1>制定突发事件计划(继任计划)</td></tr><tr><td rowspan=3 colspan=1>进行高效的质量管理</td><td rowspan=1 colspan=1>明确定义所有的过程与职责</td></tr><tr><td rowspan=1 colspan=1>通过文档记录该仓储所有的要素与过程</td></tr><tr><td rowspan=1 colspan=1>仓储能够应对重大变化</td></tr><tr><td rowspan=16 colspan=1>对象管理</td><td rowspan=3 colspan=1>能够保证所有处理过程中数字对象的完整性</td><td rowspan=1 colspan=1>摄入</td></tr><tr><td rowspan=1 colspan=1>存档存储</td></tr><tr><td rowspan=1 colspan=1>访问</td></tr><tr><td rowspan=3 colspan=1>能够保证所有处理过程中数字对象的真实性</td><td rowspan=1 colspan=1>摄入</td></tr><tr><td rowspan=1 colspan=1>存档存储</td></tr><tr><td rowspan=1 colspan=1>访问</td></tr><tr><td rowspan=1 colspan=1>有长期保存技术措施的战略规划</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=3 colspan=1>遵循规定的准则对生产商的数字对象进行转换</td><td rowspan=1 colspan=1>详细说明 SIPs</td></tr><tr><td rowspan=1 colspan=1>能够识别用于长期保存的数字对象的相关特征</td></tr><tr><td rowspan=1 colspan=1>为执行保存措施,仓储能够对数字对象进行技术上的控制</td></tr><tr><td rowspan=4 colspan=1>依据明确定义的规范执行数字对象的存档存储</td><td rowspan=1 colspan=1>定义其AIPs</td></tr><tr><td rowspan=1 colspan=1>确保 SIPs到AIPs的转换</td></tr><tr><td rowspan=1 colspan=1>保障AIPs的存储与可读性</td></tr><tr><td rowspan=1 colspan=1>执行AIPs的长期保存策略</td></tr><tr><td rowspan=2 colspan=1>依据明确定义的规范使用数字对象</td><td rowspan=1 colspan=1>定义其分发信息包(Delivery Information Package,DIP)</td></tr><tr><td rowspan=1 colspan=1>确保AIPs到DIPs的转换</td></tr></table>",
+    "context5": "续表",
+    "context6": "<table><tr><td rowspan=1 colspan=1>第一级指标</td><td rowspan=1 colspan=1>第二级指标</td><td rowspan=1 colspan=1>第三级指标</td></tr><tr><td rowspan=7 colspan=1>对象管理</td><td rowspan=7 colspan=1>数据管理应满足仓储必要功能的实现</td><td rowspan=1 colspan=1>唯一永久地识别其对象及对象间的相关关系</td></tr><tr><td rowspan=1 colspan=1>有足够的元数据用于数字对象内容、形式的描述及标识</td></tr><tr><td rowspan=1 colspan=1>有足够的对数字对象进行结构化描述的元数据</td></tr><tr><td rowspan=1 colspan=1>有完整的对数字对象变更进行记录的元数据</td></tr><tr><td rowspan=1 colspan=1>有完整的对数字对象进行技术描述的元数据</td></tr><tr><td rowspan=1 colspan=1>有完整的数字对象使用权限与条款的元数据</td></tr><tr><td rowspan=1 colspan=1>确保元数据与对象的对应关系</td></tr><tr><td rowspan=3 colspan=1>基础设施与安全性</td><td rowspan=2 colspan=1>完备的IT基础设施</td><td rowspan=1 colspan=1>IT基础设施能够满足对象管理的要求</td></tr><tr><td rowspan=1 colspan=1>IT基础设施能够满足对象管理安全性的要求</td></tr><tr><td rowspan=1 colspan=1>基础设施能够保障仓储及其数字对象的安全</td><td rowspan=1 colspan=1></td></tr></table>",
+    "context7": "![](images/03f910c77a540df74c6dd75ad2a2aa041b75f576ea8806bd8d06837a99d42b71.jpg)  \n图2长期保存可信赖性认证的基本要素框架"
+  },
+  "(1）保存系统运营的软环境(组织管理)": {
+    "context1": "主要是针对组织、管理方面的认证,包括保障保存系统能够正常运转的相关战略政策、人员、经费、法律、责任机制等，是保存系统正常运营的软环境。",
+    "context2": "主要元素包括：",
+    "context3": "·明确的系统目标,说明为谁保存(目标用户）,保存什么(数据遴选标准)，要做什么(承担的保存责任)，怎么做(战略规划)。",
+    "context4": "·明确保存系统在存储、运营、使用中要遵守的法律与合同规定,特别关注对指定用户的适度使用，这点再次强调了保存的最终目标，即对存档资源的使用。",
+    "context5": "·具备合理的组织结构，涉及资金保证、足够的专业人员、合理的组织形式、短期及长期规划实施方案、突发事件保障（方案)。",
+    "context6": "·高效的管理措施，包括明确定义所有的过程与职责，以及通过文档记录仓储所有的要素与过程，从而能够应对重大变化。",
+    "context7": "更新机制。",
+    "context8": "(3)保存系统运营的硬环境(基础设施)",
+    "context9": "保存系统赖以运行的基础设施，主要包括技术设施的完备性和安全性，同时也包括对于技术基础设施的风险管理要求。"
+  },
+  "4可信赖认证服务及相关工具": "",
+  "(2)基于保存系统的数字对象管理": {
+    "context1": "数字对象管理直接对应着保存系统的具体处理过程和功能。本文依据OAIS 的功能模块，对除了数据管理外的四个模块的认证指标进行了归类，第一类指标要求用规范文档说明要处理的对象内容，第二类指标是通过明确的技术方法证明过程及处理(做法)的可信性，第三类指标是通过记录或日志等提供过程及处理的可靠性、可信性证明。",
+    "context2": "可信赖认证主要包括两种认证方式：自我评估和第三方认证(包括主管机构或资助机构的审查)。第三方认证主要包括同行认证和专业机构认证。",
+    "context3": "目前，提供认证服务的机构包括ISO16363认证委员会、美国研究图书馆中心、Nestor、DINI、DSA、欧盟“数字仓储认证与审计框架”项目。"
+  },
+  "各模块的主要要素包括：": {
+    "context1": "·摄入及 SIPs。有文档明确定义SIPs的组成、相关特征以及关联关系，要获得技术上的足够控制以识别、解析、检验SIP的完整性、正确性,能够提供详细记录，可追溯全部过程和数据。",
+    "context2": "·存档存储及AIPs。有文档明确定义AIPs并确保SIPs到AIPs的转换,明确AIPs的存储与管理状况,执行长期保存策略以保障AIPs的长期存储与可读性，能够提供详细记录，可追溯全部过程和数据。"
+  },
+  "4.1ISO16363认证服务及流程": {
+    "context1": "ISO16363作为广为接受的认证标准，RLG专门成立了认证委员会(TrustworthyDigital Re-positories Accreditation Board,PTAB）[为审计提供支持，同时还提供自我认证的工具和服务，包括自评估模板和审核准备手册。",
+    "context2": "PTAB曾经对6家机构进行测试认证,包括欧洲的UKDA、CINES、DANS,美国的NSSDC、SE-DAC、KansasStateArchives。其 中，SEDAC(NASA国际地球信息科学网络)给出了实施认证的完整流程图20",
+    "context3": "·分发使用及DIPs。有文档明确定义DIPs并确保AIPs到DIPs 的转换,有明确的访问政策和规范,保障分发的真实性、正确性和可追溯。",
+    "context4": "·保存规划。有长期保存技术策略以及更新机制，有保存监测机制，有审计检查机制。",
+    "context5": "·数据管理。有文档明确定义应具备的元数据内容，有足够的元数据满足保存系统必要功能的实现，提供相应的管理及"
+  },
+  "4.2CRL的认证服务": {
+    "context1": "CRL针对建立长期保存系统审计与认证的行为和过程开展研究，着重对审查程序进行精炼、测试，制定认证计划，建立认证机构的业务模型。CRL先后利用TRAC对美国长期保存第三方服务Portico、斯坦福大学CLOCKSS保存网络、Chronopolis、HathiTrust、安大略大学图书馆协会学术仓储库5个长期保存服务的可信度加以测试,并公开了部分审核结果。"
+  }
+}

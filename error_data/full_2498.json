@@ -1,0 +1,49 @@
+{
+  "original_filename": "full_2498.md",
+  "受控词表网络应用现状分析": {
+    "context1": "邱君瑞",
+    "context2": "(第二军医大学图书馆，上海200433)",
+    "context3": "摘要本文分析了网上受控词表的研究和应用现状，并指出了词表在网络环境下知识组织中所处的地位和发展方向。",
+    "context4": "关键词 受控词表 Internet 搜索引擎 情报检索"
+  },
+  "The Thesaurus on Internet and Its Application Analysis": {
+    "context1": "Qiu Junrui",
+    "context2": "(The Second Military Medical University Library，Shanghai200433)",
+    "context3": "AbstractThe author illstrates applications of thesauri on the internet， especialy its online browsing, information retrieval and search engine improvements.The impact and trends of thesauri in information organization under network environment are also discussed.",
+    "context4": "KeywordsThesaurus Internet Search engines Information retrieval",
+    "context5": "80年代，我国出现了主题检索语言研究热，编制了100多种不同专业、不同类型、不同规模的受控词表。当前随着计算机在情报检索系统的广泛应用和网络时代的到来，受控词表的网络应用研究成了新课题，关系到主题检索语言未来的发展。然而因为客观条件的限制，国内在这方面的研究少、起步晚，需要借鉴国外的研究经验。",
+    "context6": "Internet上有许多受控词表及其应用的国外研究网站，通过对它们进行分类研究，可以了解受控词表的应用研究现状，探讨其未来的发展趋势。本文把网上的受控词表大致分为：联机显示的词表、检索数据库的词表以及与搜索引擎结合使用的词表三大类。后两种应用的受控词表，大都也同时提供联机显示，但因篇幅所限未把它们重复列人第一种类型。"
+  },
+  "1联机显示的受控词表": {
+    "context1": "受控词表的数字化是网络应用的前题条件，Internet上有许多电子版的受控词表网站，可以检索和浏览受控词表，如：",
+    "context2": "The Astronomy Thesaurus (http: // msowww. anu.edu.au/library/thesaurus/); AGROVOC thesaurus (http:// www. fao.org/agrovoc/);",
+    "context3": "The Art & Architecture Thesaurus (http:// shiva. pub.getty. edu/aat browser/);",
+    "context4": "Thesaurus of Parasitology",
+    "context5": "(http: // www.personal. kent.eud/ $\\sim$ slis/ zeng/template/thesauri/miller/tp.htm）;",
+    "context6": "ASIS Thesaurus of Information Science",
+    "context7": "(http://www.asis.org/ublications/Thesaur-us/isframe.htm）。",
+    "context8": "联机显示的电于版受控词表一般包括字顺和等级二种结构。大多数是单语种的词表，有少量的多语种词表，如AstronomyThesaurus（英、法、德、意、西）和AGROVOCThesaurus（英、法、西、葡）。但Astronomy Thesaurus 只是词表的不同译本，每个语种的词表单独成一体系，在检索界面可以选择不同语种进入，但未建立互相对应。而AGROVOCThesaurus是英、法、西、葡多语种对照主题词表(见图1)。可以从任一语种进入检索和浏览，不仅提供不同语种的对照主题词，而且可以在不同语种的主题词间自由切换。如欲查有关农作物的英文主题词，先选择英文语种，然后在输人框中输入“wintercrops”，显示图1的界面。有二个联动窗口，中间是“wintercrops”的词间关系显示，右边是不同语言的主题词，如果点击词间关系中显示的任一主题词，右边的窗口同时列出这个主题词的不同语种的译文。也可以点击右窗口的任一语种的主题词，这时中间的窗口相应变成了此语种主题词",
+    "context9": "的词间关系显示。",
+    "context10": "![](images/343afe9951a2f1b7fb8d7d30ffb538b7e57a60ca47a71b09eea9fba20e337587.jpg)  \n图1AGROVOC主题词表示例"
+  },
+  "2检索数据库使用的受控词表": {
+    "context1": "随着情报检索由手工检索发展到计算机检索和Internet的普及带来的终端用户的大量增加，受控主题词表的弊端日益暴露出来，自然语言（如关键词）的优势正在渐渐地显现。但就目前使用情况来看，自然语言并没有取代受控词表在数据库使用中的地位。许多数据库（包括一些著名数据库）已有了自然语言索引和检索，但都没有放弃受控词表的使用。如：美国教育资源信息数据库：《ERIC主题词表》(http://searcheric.org/);英国国家数字档案库：《UNESCO 主题词表》(http://ndad.ulcc.ac.uk/search/thesaurus.htm);Pubmed 数据库:《医学标题表》(http://www.ncbi.nlm.nih.gov/entrez/meshbrowser.cgi)；STI数据库：《NASA 主题词表》(http:// www.sti. nasa. gov/thesfrml. htm）;UMI数据库：《ProQuest受控主题词表》（http：//www.umi.com/hp/Support/Vocab/)。",
+    "context2": "由于数据库用户的检索目的、检索技能、对专业的了解程度和需求的明晰程度各异，很难断定在这些同时使用受控主题词表和自然语言的数据库中，谁主谁次。但一些专业数据库在基于WEB检索的系统中，受控词表在数据库系统检索中起着很大的作用。如PubMed数据库用基于MeSH的树状结构表进行浏览检索，只要在输人框中输人任一MeSH词(规范词或入口词)，自由转换链接到与之相对应的主题词的所有等级树中，可以方便地进行缩检和扩检；也可以切换到相关词页面重新选词。最后把选定的主题词自动加到检索策略中进行数据库检索。除了专业用户外，这种检索方法也符合一般终端用户的检索行为和认知能力。"
+  },
+  "3与搜索引擎结合使用的受控词表": {
+    "context1": "如何组织网络资源，把受控词表引人网络信息搜索引擎，是近年图书情报研究人员的研究课题之一。但就研究现状来看，大多处于实验研究阶段，少有实际应用研究。现在检索网络资源用的搜索引擎不计其数，用Yahoo 搜索，键人“Searchengine”词串，可检索出有关站点1181个。目前的引擎绝大多数是用自然语言检索，引人受控主题词表的很少。而且在一些嵌人受控词表的引擎中，主题词途径检索只是对自由词检索的补充。从与搜索引擎结合使用的受控词表情况看，综合性词表少、专业词表多。查找方法一般利用主题词等级结构浏览检索，有从一级类目开始逐级浏览选词检索的，也有通过窗口输入主题词或自由词（经转换）指向相应主题词的等级结构再进行选词检索的。",
+    "context2": "笔者认为，与搜索引擎结合使用的受控词表当前有两个主要的发展趋向。一是原有受控词表适当改造后用于网上信息的组织和检索，如：",
+    "context3": "HASSET （Humanities And Social ScienceElectronic）主题词表：Social science informationgateway(http://sosig.ac.uk);",
+    "context4": "LCSH:Scout Report Signpost （http：// www.signpost. org/signpost/index.html#Icsh）;",
+    "context5": "MeSH（医学标题表）：Tri一InstitutionalLibrary Catalog (http:// lib3.rockefeller.edu/search/j)、HON Select (http:// www:hon.ch/HONselect/Search. html)。",
+    "context6": "另一发展趋向是同专业多词表的综合。美国国家医学图书馆经过10多年的努力所开发的UMLS（一体化医学语言系统）及其超级叙词表(Metathesaurus）就是一个典型的例子，它的最新版本（1999版)综合了50多个现有受控词表和专业词汇表，形成了一个包括62万多医学及其相关基本概念的超级叙词表。Internet上应用这一超级叙词表的网站有：CliniWeb International(http://www.ohsu.edu/cliniweb/)，提供网上临床医学信息指引；Medical World search(http://www.mwsear-ch.com/)，是Internet上医学网站全文搜索引擎；MedWeaver (http: // www.med.virginia.edu/\\~wmd4n/medweaver.html)，提供医学鉴别诊断、医学文献及其相关医学网站指引。"
+  },
+  "4结束语": {
+    "context1": "随着计算机科学技术及社会信息网络化的发展，情报检索中受控语言为主自然语言为辅的阶段已经结束，作为受控语言的主题词表是否将会成为历史？答案是否定的，上述受控词表在网上使用的实例就是最好的证明。尽管目前词表在组织网络资源方面的作用未能充分体现出来，但在一些专业数据库中的作用却是显而易见的。",
+    "context2": "当然，在网络环境下，受控词表的功能将发生很大的变化，未来的受控词表将更多地用于检索，较少用于标引。为了分别满足检索和标引的需求，需要编制二种不同的受控词表，一是用作知识组织的工具，另一种用作自然语言检索的辅助工具。为了适应终端用户的检索习惯，受控词表需要完善可用于浏览检索的词表等级体系结构。"
+  },
+  "参考文献": {
+    "context1": "1丘峰，等·我国图书馆学情报学期刊引文调查与分析.中国图书馆学报，1992（1)： $3 3 \\sim 3 4 $   \n2赵美娣·《情报学报 $\\mathfrak { P l s p o n e r a s o 1 s p a 4 }$ 年作者及引文的统计析与评价．情报学报，1995（5）： $3 7 4 { \\sim } 3 7 8$   \n3 王惠翔．《情报理论与实践》引文分析，情报理论与实践，1999（3)： $1 8 0 \\sim 1 8 2$   \n4 邬锦雯，谢妩杨·中国文献计量学的研究情 $\\pmb { \\mathcal { R } }$ ·图书情报工作，1998（8)： $1 7 { \\sim } 2 2$   \n5郭晓苗·《美国情报学会会刊 $\\gg 1 9 9 4 \\sim 1 9 9 8$ 年载文和作者的统计分析与评价．情报学报，2000（6）： $6 5 4 \\sim 6 5 8$",
+    "context2": "(责任编辑：赵立军）"
+  }
+}

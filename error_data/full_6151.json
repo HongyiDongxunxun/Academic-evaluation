@@ -1,0 +1,98 @@
+{
+  "original_filename": "full_6151.md",
+  "nothing": {
+    "context1": "·信息计量学研究与应用·"
+  },
+  "我国教育学国际论文研究主题的热点、演化及其趋势分析(2007 －2013)": {
+    "context1": "王中晶袁勤俭（南京大学信息管理学院，江苏南京210093)",
+    "context2": "(摘要）以Web of Science中SCI、SSCI和 A&HCI数据库收录的2007-2013 年我国教育学领域的4362篇文献为研究对象，借助 Bibexcel、SPSS 和Ucinet工具采用共词分析、聚类分析和战略坐标图对这一时期我国教育学走向国际的研究热点、主题演化和研究趋势进行可视化展示。研究发现，2007-2013年我国教育学国际发文研究热点主要集中在交互式学习、智能辅导、移动学习、高等教育、特殊教育、教师教育和电子学习7个方面；从2008年开始，我国教育学国际研究领域有了很大的拓展，研究主题更为丰富；进入2010年后，在深化传统研究主题的同时，新的研究主题也不断出现；交互式学习是核心研究主题，移动学习、特殊教育、教师教育和电子学习是边缘研究主题，智能辅导和高等教育是潜在研究主题。",
+    "context3": "（关键词）教育学；共词分析；聚类分析；社会网络分析；战略坐标图",
+    "context4": "DOI: 10.3969/j. issn.1008 -0821.2015.07.020 （中图分类号）G526.6（文献标识码）A（文章编号）1008－0821（2015）07-0105-07"
+  },
+  "The Research Focus，Evolution and Trends of International Education Papers in China (2007 -2013)": {
+    "context1": "Wang ZhongjingYuan Qinjian (School of Information Management，Nanjing University，Nanjing 210093，China)",
+    "context2": "(Abstract）Based on a total of 4362 pedagogy papers included in SCI，SSCIand A&HCI databases from 2007 to 2013，using clustering，social networkand strategy diagram，this paper analyzed theresearch focus，evolutionand trends.Theresults showed that theresearch of international educationpapers in China focusesonsevenaspects，including interactive learning，intellgent tutoring teaching，m-learning，higher education，special education，teacher education and e-learning.Since 2Oo8 the education research has great development and research topics are more abundant.After 2010thetraditionalresearch topicsare deepenedand newresearch themes are also emerging.Interactivelearning isacore hotspot，m-learning，special education，teachereducationande-learningintheresearchof edgelocationwhile inteligent tutoring teaching and high education are potential research themes.",
+    "context3": "(Key words）education;co-word analysis；cluster analysis；social network analysis；strategy diagram",
+    "context4": "随着全球化的推进，各国学者越来越重视国际间的学术交流与合作以及在国际舞台上展示自己的研究成果，借此提升其本人的学术研究水平，增进国际学者对其本人及其所在学科的了解，进而提高其本人及其所在学科的国际影响力。国际学术论文是不同学者进行国际间正式交流最主要的途径，对某一地区学科国际论文进行主题分析可以帮助研究人员把握该地区学科走向世界的历史进程与发展现状，然而在文献调研过程中没有发现有学者对教育学国际论文主题进行分析。本文拟以集成了SCI、SSCI和",
+    "context5": "A&HCI三大国际著名引文数据库的Web of Science（WoS)中收录的2007－2013年我国教育学论文为主要研究对象，采用共词分析、聚类分析、社会网络分析和战略坐标图等可视化方式直观的展示我国教育学走向国际的研究热点、主题演化及研究趋势，以期为国内学者的后续研究提供参考。"
+  },
+  "1研究方法及数据收集与处理": "",
+  "1.1研究方法": {
+    "context1": "共词分析属于内容分析的一种，主要是通过对能够表达某一学科领域研究主题或研究方向的专业术语（如关键词）共同出现在一篇文献中的现象的分析，判断学科领域中主题间的关系，从而展现该学科的研究结构[。共词分析常常伴随着聚类分析、社会网络分析和战略坐标图分析;聚类分析是在共词分析的基础上根据关键词之间的相似程度将一组词语划分为不同类团；社会网络分析是对行动者的社会关系结构及其属性加以分析的一套规范和方法；战略坐标分析是在聚类分析的前提下计算出每一类团的密度和向心度，然后将所有类团分为4个象限，借此描述某一类团内部联系情况以及不同类团之间相互影响情况。"
+  },
+  "1.2数据来源及处理": {
+    "context1": "为获取2007－2013年以来我国大陆、台湾、香港和澳内教育学的国际发文情况，本文以WoS包含的SCI、SSCI和A&HCI子库为数据源，于2014年6月21日共检索到相关文献4362篇（由于数据库收录文献存在一定时间差，因",
+    "context2": "而2013年的统计数据并不完全）。对这一文献集抽取关键词，在进行同义词合并等规范化处理后，累计获取频次为14 002的7448个关键词。根据2/8法则，占词频总数 $20 \\%$ 以上的关键词为高频词，因此本文选取频次15以上的关键词作为高频词。在剔除一些无研究意义的关键词如“China”以及一些概念宽泛的关键词如“Teaching”后，最终得到75个关键词（见表1）用于Bibexcel工具构建共词矩阵。共词矩阵中关键词共现次数与关键词频次相关，并不能很好的反应关键词之间的亲疏关系，在此使用Ochiia系数法消除频次差距的影响，得到关键词相关矩阵。具体公式是：  \n关键词A和B共同出现的频次  \nOchiia 系数 $=$   \n√关键词A出现的频次\\*关键词B出现的频次",
+    "context3": "相关矩阵中包含太多“0”，为避免其影响分析结果，使用1减去全部数据，得到关键词相异矩阵（由于篇幅有限，此处省略各个矩阵结果）。",
+    "context4": "表12007-2013年我国教育学国际发文高频关键词表（频次 $\\mathtt { \\ p 1 5 }$",
+    "context5": "<table><tr><td>高频关键词</td><td>频次</td><td>高频关键词</td><td>频次</td><td>频次高频关键词</td><td>频次</td></tr><tr><td>Interactive learning environment</td><td>114</td><td>EFL</td><td>30</td><td>Engineering education</td><td>20</td></tr><tr><td>Teaching/learning strategy</td><td>110</td><td>Science education</td><td>29</td><td>Knowledge building</td><td>20</td></tr><tr><td>Higher education</td><td>107</td><td>Gender</td><td>28</td><td>Problem solving</td><td>19</td></tr><tr><td>Cooperative learning</td><td>98</td><td>Ubiquitous learning</td><td>28</td><td>Problem-based learning</td><td>19</td></tr><tr><td>Intellectual disability</td><td>85</td><td>Developmental disability</td><td>28</td><td>Culture</td><td>18</td></tr><tr><td>Improving classroom education</td><td>71</td><td>Multimedia/hypermedia system</td><td>28</td><td>Reflection</td><td>18</td></tr><tr><td>E -learning</td><td>63</td><td>Evaluation method</td><td>27</td><td>Self - efficacy</td><td>18</td></tr><tr><td>Teacher education</td><td>59</td><td>Professional development</td><td>27</td><td>Science learning</td><td>18</td></tr><tr><td>Computer-mediated communication</td><td>58</td><td>Disability</td><td>26</td><td>Reading comprehension</td><td>18</td></tr><tr><td>Pedagogical issues</td><td>58</td><td>Architecture for educational technology system</td><td>26</td><td>Critical thinking</td><td>17</td></tr><tr><td>Application in subject areas</td><td>50</td><td>Student</td><td>26</td><td>Leadership</td><td>17</td></tr><tr><td>Evaluation</td><td>49</td><td>Cerebral palsy</td><td>25</td><td>Teacher identity</td><td>17</td></tr><tr><td>M -learming</td><td>49</td><td>Virtual reality</td><td>25</td><td>L2 writing</td><td>16</td></tr><tr><td>Autism</td><td>49</td><td>Simulation</td><td>25</td><td>Learning environment</td><td>16</td></tr><tr><td>Distance education</td><td>45</td><td>Undergraduate</td><td>24</td><td>Internet</td><td>16</td></tr><tr><td>Online learning</td><td>44</td><td>Course</td><td>23</td><td>Lifelong learning</td><td>16</td></tr><tr><td>Elementary education</td><td>42</td><td>ADHD</td><td>23</td><td>Multiple disability</td><td>16</td></tr><tr><td>Media in education</td><td>39</td><td>Adult learning</td><td>23</td><td>Peer valuation</td><td>16</td></tr><tr><td>Motivation</td><td>36</td><td>Intelligent tutoring system</td><td>22</td><td>Dyslexia</td><td>15</td></tr><tr><td>Learning community</td><td>35</td><td>Attitude</td><td>22</td><td>Identity</td><td>15</td></tr><tr><td>Child</td><td>35</td><td>Blog</td><td>22</td><td>Educational policy</td><td>15</td></tr><tr><td>Evaluation of cal system</td><td>34</td><td>Creativity</td><td>21</td><td>Nature of science</td><td>15</td></tr><tr><td>Human computer interface</td><td>34</td><td>Learning strategy</td><td>20</td><td>CAL</td><td>15</td></tr><tr><td>Pre service teacher</td><td>31</td><td>Globalization</td><td>20</td><td>Academic performance</td><td>15</td></tr><tr><td>Secondary education</td><td>30</td><td>Game -based learning</td><td>20</td><td></td><td></td></tr></table>"
+  },
+  "22007－2013年我教育学国际论文研究热点": {
+    "context1": "对我国教育学国际发文中的高频关键词进行聚类，结",
+    "context2": "果得到7个类团，分别是：交互式学习、智能辅导教学、移动学习、教师教育、特殊教育、高等教育和电子学习（详见图1）。",
+    "context3": "![](images/13f47c06c6e2e1bc41b2bd0e22e5c61d7d7cf5e8253296a34b58b592194b37d4.jpg)  \n图12007-2013年我国教育学国际发文高频关键词聚类结果"
+  },
+  "2.1交互式学习研究": {
+    "context1": "交互式学习研究主要包括交互式学习环境、教学策略、协同学习、远程教育、教学媒介、多媒体系统、学习团体、成人教育、中等教育、教育问题、学科领域的应用等共19个关键词。这一类团重点涉及虚拟学习社区环境下初等教育、中等教育以及终身学习的具体交互式学习策略及其评价。有学者发现混合学习环境下教育网站中交互式学习活动的设计对于学生学习方法的应用、沟通能力的发展以及学习内容的理解有着明显的促进作用。通过与传统教学课堂进行对比，也有学者指出社会建构主义视角下的交互式教学可以有效增强学生的学习能力，提升课堂质量。"
+  },
+  "2.2智能辅导教学研究": {
+    "context1": "智能辅导教学研究包括的关键词有虚拟现实、模拟、智能辅导系统和工程教育。随着信息技术以及通讯技术的发展，虚拟环境下智能辅导系统的构建及其应用逐渐得到了研究人员的关注。LinHCK在研究过程中通过面部表情识别将情感表达应用到智能辅导系统中，不仅提高了系统交互的灵活性，而且深化人机互动的水平。ShyrWJ针对工程教育提出了一种图形化人机界面技术，实验结果表明这一技术在帮助学生理解概念和掌握基本技能方面有着很大的作用。ChanJCP基于动作捕捉和虚拟现实技术设计了一个舞蹈训练系统，该系统通过结果的反馈可以有效地激励和引导学生。"
+  },
+  "2.3移动学习研究": {
+    "context1": "移动学习研究涉及移动学习和泛在学习2个关键词。无线网络技术的出现使得教学手段在更大程度上突破了空间的限制，移动学习这一新的数字化学习方法开始进入到人们的视野，其主要研究内容是无线移动技术的应用以及泛在学习环境的集成。移动学习凭借其较强的交互性和便利性，可以使得以往传统学习环境下被动的学习者从行为、智力和情感上真正参与到学习任务中去[。借助移动设备实现的基于上下文感知的泛在学习环境在提高学生学习动机和学习效率的同时也减轻了教师教学负担从而能更好地控制课堂秩序[]。"
+  },
+  "2.4高等教育研究": {
+    "context1": "高等教育研究类团中的关键词包括高等教育、在线学习、动力、自我效能、全球化、学习策略和学生。其研究内容涉及高等教育信息化、高等教育国际化、高等教育人才的培养、高等教育公平性以及高等教学质量及其评价等。高等教育国际化的使命不仅仅是建立一个经济和政治强国，它代表了对人类和谐与世界和平的追求，高等教育机构在国际化进程中不应盲目跟随英美模式的意识形态，更要结合本国文化发展出自己独特的教育模式[。我国高等教育的扩招促进了不同省份在空间上的交互，缩小了各地区间教育水平的差距，走出了一条和谐的发展道路[。"
+  },
+  "2.5特殊教育研究": {
+    "context1": "特殊教育研究包含的关键词共有16个，主要包括智力障碍、孤独症、大脑性麻痹、注意力缺陷多动障碍、发育性残疾、多重障碍、难语症、儿童、性别等。这一类团主要研究内容包括残疾儿童的病理与康复、弱智患者的心理与生理健康、特殊教育技术与设备的开发等。研究发现，随着年龄的增长，孤独症患者并没有变得更加孤立和不积极，他们反而会更愿意加入到体育活动以及社会交往中，与此同时，社会交往越频繁，体育活动水平也越高[4。也有学者设计了一套动态指示追踪辅助系统，该系统能有效地提高多重障碍患者的计算机使用效率[。"
+  },
+  "2.6教师教育研究": {
+    "context1": "教师教育研究这一类团中的关键词有教师教育、职前教师、教师身份认同、职业发展、态度、博客、第二外语写作和反思。这一类团的研究内容主要有教师教学观念、教师职业发展、教师教育手段与技术等。有学者指出，教学理论与教学实践之间一直存在着明显的差距，导致这种不一致性的根本原因有3个方面：前期的培训经历、教学环境以及学生的需求，三者共同影响了教师对于实际教学策略的选择[。教学技术手段的成功使用依赖于教师对于技术的态度，研究表明，计算机自我效能感和感知易用性是影响教师接受和使用电子学习的主要因素，因此，提高教师的计算机能力是促进电子学习等新型教学手段普及的有力措施[] 。"
+  },
+  "2.7电子学习研究": {
+    "context1": "电子学习研究主要包括电子学习、互联网、科学教育、科学学习、问题导向式学习、知识构建、批判式思维、游戏化学习、学习策略等共19个关键词。电子学习的出现颠覆了传统的文本教学方法，其主要关注网络教学平台下电子学习的设计、应用及其效果。研究发现，学习者计算机焦虑、教师对电子学习的态度、电子学习课程的灵活性、电子学习的课程质量、感知有用性、感知易用性和多样性是影响学习者电子学习满意度的关键因素[。随着各种信息的爆炸式增长，如何针对学习者需要提供个性化服务成了电子学习领域研究的主要问题之一。"
+  },
+  "32007－2013年我国教育学国际论文主题演化": {
+    "context1": "选取各年频次大于5的关键词构建“年份——主题”知识图谱（详见图2）。其中，方块表示年份，小圆表示关键词，线条的粗细代表节点之间联系的紧密程度。",
+    "context2": "2007－2013年，我国教育学国际研究的热点领域主要有：学习策略研究（主要包括电子学习、在线学习、交互式学习、移动学习)；特殊教育研究（如智力障碍、孤独",
+    "context3": "症、",
+    "context4": "![](images/c18d89870dc091a045a485c8c12b9ca497cd27fe5b35a545d14e251dd2351c56.jpg)  \n图22007-2013年我国教育学国际发文研究主题演化",
+    "context5": "多动症)；改革推进下的高等教育研究；教学技术（人机交互、虚拟现实）研究；教师教育与职业发展研究。除了这些年持续关注的热点主题之外，我国教育学国际研究内容在不同阶段也呈现出了较为明显的差异。",
+    "context6": "第一阶段（2007年），我国教育学国际研究文献量较少，研究主题比较单一，仅仅局限在电子学习和在线学习两个领域，侧重于计算机环境下学习系统的设计以及在教学实践中的应用。",
+    "context7": "第二阶段（2008－2009年），我国教育学国际研究领域有了很大的拓展，研究主题更为丰富，主要涉及教学策略、特定人群教育和高等教育三大领域。（1）从教学策略方面来看，主要研究远程教育、协同学习、交互式学习和移动学习，实际上是对2007年热点主题的延伸，更加注重网络技术在教学中的应用；（2）特定人群教育主要包括教师教育和特殊教育两个方面，对这两个边缘性主题的关注深化了我国教育学国际研究内容；（3）随着教育体制改革的推进，高等教育也成为我国教育学国际化重点研究领域之一。",
+    "context8": "第三阶段（2010－2013年），我国教育学国际研究在深化传统领域的同时，新的研究主题也不断出现。这一发展主要是从学习策略和特殊教育两方面展开：从学习策略来看，出现了以项目或者游戏为导向的较为新颖的学习方法；从特殊教育来看，研究内容扩展到了孤独症、大脑性麻痹、注意力缺陷多动障碍等患者的教育问题。其他新兴的研究领域还包括工程教育、医学教育、智能辅导教学等。",
+    "context9": "综上所述，我国教育学国际研究主题是随着国内外环境的变化而不断发展的，主要表现在由单一领域的研究逐步向多领域研究转变。其中学习策略和特殊教育从2008 年开始持续受到关注，这是由于互联网/移动互联网技术的发展促进了教学策略的不断完善，同时，随着我国社会文明的不断进步，特殊人群的教育问题也得到了学界越来越多的关注。此外，从研究主题中还可以看出，我国教育学科一直保持着对社会政策热点的高度关注并且非常注重实践性研究。"
+  },
+  "42007-2013年我国教育学国际论文研究趋势": {
+    "context1": "在聚类分析的基础上，分别计算出各类团的密度和向心度，然后利用战略坐标图绘制出我国教育学国际发文研究热点分布情况。如图3所示，7个研究类团主要分布在第一、第三和第四象限，第二象限没有任何类团出现，可能是这一时期我国教育学国际研究内容比较零散，很多方面都未能形成一定的研究体系，导致不存在研究成熟的独",
+    "context2": "立领域。",
+    "context3": "![](images/53f71e27444c4cb2f5fba45aaad18703db45eb5ecacf4afef2e2e4a8e5a7803c.jpg)  \n图32007-2013年我国教育学国际发文研究热点战略坐标图"
+  },
+  "4.1我国教育学国际发文研究的核心主题（第一象限)": {
+    "context1": "交互式学习落在第一象限，是我国教育学国际发文研究的核心领域。这一类团非常靠近坐标轴，在所有类团中密度最高，但向心度较小，说明交互式学习这一主题内部关系非常紧密，自身研究已经相当成熟，但外部关系还比较薄弱，未来仍需进一步加强与其他类团的联系。当前自媒体技术的发展为交互式学习带来了新的契机，其在交换社会支持方面的优势使其作为教学媒介有着很大的应用价值，因此，交互式学习策略、学习者满意度以及学习动机等问题仍旧可能会是未来关注的主要方向之一。"
+  },
+  "4.2我国教育学国际发文研究的边缘主题（第三象限)": {
+    "context1": "落在第三象限中的是移动学习、教师教育、特殊教育和电子学习，它们不仅内部关系松散，而且与其他研究主题缺乏交叉性。随着移动计算机技术的发展以及碎片式学习的普及，移动学习和电子学习作为新的教学手段出现，在未来有着很大的应用空间，如LeeTY等人通过实验发现电子学习项目在儿科药物安全管理过程中是一种非常有效的学习方法2。特殊教育和教师教育均针对特定对象，研究范围有限，在发展过程中一方要加强内部对象之间的交流；另一方面要引进其他类团的思想与方法。当前全纳课堂的发展对教师提出了新的要求，以往单一的教师培养模式已经不能满足多样化学生群体的需求，如何培养全能型教师是未来研究值得关注的领域。有学者认为新的热点一般出现在第三象限，因此，移动学习、特殊教育、教师教育以及电子学习在未来有可能演变为我国教育学国际发文研究新的核心热点领域。"
+  },
+  "4.3我国教育学国际发文研究的潜在主题（第四象限)": {
+    "context1": "智能辅导教学和高等教育处在第四象限，二者各自内部关键词共现性较低，但与其他主题关键词共现性较高，在整个领域非常活跃。智能辅导教学作为辅助性教学手段，与其他主题有着很强的交叉性，如在虚拟学习环境中通过三维动画场景可以帮助孤独症儿童理解和使用同情心。有学者指出，社交网络的发展可以有效弥补高等教育中面对面教学的不足，但其中学习者的困难以及教师对于社交网站作为教学工具的担心仍旧是未来的研究问题之一。当前我国高等教育已有了长足的发展，包括教学观念的转变、教育体制的改革等，但其中人才培养、教育公平性以及教学质量等问题在未来仍值得引起学者们的注意。"
+  },
+  "5结论": {
+    "context1": "本文采用聚类分析、社会网络分析和战略坐标图对",
+    "context2": "SCI、SSCI和A&CHI数据库中收录的2007－2013年我国教育学领域相关文献的研究热点、主题演化及研究趋势进行分析，揭示了我国教育学走向世界的历史进程与发展现状："
+  },
+  "5.1研究热点": {
+    "context1": "目前我国教育学国际化研究主题主要集中在交互式学习、智能辅导教学、移动学习、教师教育、特殊教育、高等教育和电子学习7个方面。"
+  },
+  "5.2主题演化": {
+    "context1": "2007年我国教育学国际化研究内容以电子学习和在线学习为主；进入2008年后，研究主题开始呈现出热点多、范围广的特点；2010－2013年间，不仅传统研究领域得到了深化，新的研究主题也不断出现。"
+  },
+  "5.3研究趋势": {
+    "context1": "我国教育学国际发文研究核心领域是交互式学习；未来有可能发展为新的核心主题的有移动学习、特殊教育、教师教育和电子学习；具有进一步发展空间和潜力的领域是智能辅导教学和高等教育。"
+  },
+  "参考文献": {
+    "context1": "[11]Shih JL，Chu HC，Hwang G J.An investigation of atitudes of students and teachers about participating in a context - aware ubiquitous learning activity ［J]．British Journal of Educational Technology，2011，42（3)：373-394.   \n[12]Ng SW.Rethinking the mission of internationalization of higher education in the Asia-Pacific region [J]．Compare-a Journal of Comparative and International Education，2012，42（3）：439 - 459.   \n[13]Gu J.Harmonious expansion of China’s higher education:a new growth patten [J]．Higher Education，2012，63（4）：513- 528.   \n[14]Pan CY.Age，social engagement，and physical activity in children with autism spectrum disorders[J]．Research in Autism Spectrum Disorders，2009，3 $( 1 ) : 2 2 - 3 1$   \n[15]Shih C H，Shih C T.Asisting people with multiple disabilities improve their computer pointing eficiency with thumb poke through a standard trackball ［J]．Research in Developmental Disabilities, 2010，31(6):1615-1622.   \n[16]Cheng M MH， Cheng A YN，Tang SYF. Closing the gap between the theory and practice of teaching:implications for teacher education programmes in Hong Kong [J]．Journal of Education for Teaching，2010，36 $( \\ 1 ) : \\ 9 1 - 1 0 4$   \n[17]Yuen A HK，Ma W W K.Exploring teacher acceptance of elearning technology ［J]．Asia -Pacific Journal of Teacher Education，2008，36（3):229-243.   \n[18]Sun PC，Tsai RJ，Finger G，et al.What drives a successful e - Learning?An empirical investigation of the critical factors influencing learner satisfaction[J]．Computers & Education，2008, 50(4): 1183-1202.   \n[19]Wang H C，Huang TH.Personalized e-learning environment for bioinformatics [J]．Interactive Learning Environments，2013, 21 (1): 18-38.   \n[20]Deng L，Yuen A H K. Towards a framework for educational affordances of blogs［J]．Computers& Education，2011，56 (2): 441-451.   \n[21]Lee TY，LinFY.The effectivenessof an e-learning program on pediatric medication safety for undergraduate students:A pretest - post - test intervention study[J]．Nurse Education Today, 2013，33(4):378 -383.   \n[22]Forlin C，Loreman T，Sharma U，et al．Demographic diferences in changing pre - service teachers'atitudes，sentiments and concerns about inclusive education ［J]．International Journal of Inclusive Education，2009，13（2)：195-209.   \n[23］张晗，王晓瑜，崔雷．共词分析法与文献被引次数结合研究 专题领域的发展态势[J]．情报理论与实践，2007，30（3)： 378 -380.   \n[24]Cheng Y，Chiang HC，Ye J，et al.Enhancing empathy instruction using a collaborative virtual learning environment for children with autistic spectrum conditions [J]． Computers & Education，2010，55（4):1449-1458.   \n[25]Hung HT，Yuen S CY.Educational use of social networking technology in higher education[J]．Teaching in Higher Education，2010，15（6):703-714.   \n[1］马费成，望俊成，张于涛．国内生命周期理论研究知识图谱 绘制[J]．情报科学，2010，（3)：334-340.   \n[2］钟伟金，李佳，杨兴菊．共词分析法研究（三）—共词聚 类分析法的原理与特点[J]．情报杂志，2008，（7)：118- 120.   \n[3］赵蓉英，王静．社会网络分析（SNA）研究热点与前沿的可 视化分析[J]．图书情报知识，2011，（1)：88-94.   \n[4]Law J，Bauin S，Courtial JP，et al．Policy and the mapping of scientific change:A co-word analysis of research into environmental acidification［J]．Scientometrics，1988，14（3）：251 -264.   \n[5]Kember D，McNaught C，Chong FC Y，et al.Understanding the ways in which design features of educational websites impact upon student learning outcomes in blended learning environments [J]. Computers& Education，2010，55（3)：1183-1192.   \n[6]Lu T N，Cowie B，Jones A．Senior high school student biology learning in interactive teaching [J]．Research in Science Education，2010，40（2):267-289.   \n[7]Lin HC K，Wang C H,Chao C J，et al.Employing textual and facial emotion recognition to design an afective tutoring system [J]．Turkish Online Journal of Educational Technology，2012, 11(4):418-426.   \n[8]Shyr W J.Graphical human interface technology for use in mechatronics in engineering education［J].Computer Applications in Engineering Education，2013，21（2)：322-327.   \n[9] Chan JC P,Leung H,et al．A Virtual Reality Dance Training System Using Motion Capture Technology ［J]．Ieee Transactions on Learning Technologies，2011，4（2)：187－195.   \n[10]Wang M，ShenR，Novak D，et al．The impact of mobile learning on students'learning behaviours and performance:Report from a large blended classroom [J]．British Journal of Educational Technology，2009，40（4)：673-695.",
+    "context2": "(本文责任编辑：孙国雷)"
+  }
+}

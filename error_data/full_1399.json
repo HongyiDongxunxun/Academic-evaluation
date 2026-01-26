@@ -1,0 +1,110 @@
+{
+  "original_filename": "full_1399.md",
+  "·专栏：信息管理实证研究重要理论的研究应用及其展望（三）·": "",
+  "交互记忆系统及其在信息系统研究中的应用与展望": {
+    "context1": "朱哲慧袁勤俭\\*",
+    "context2": "（南京大学信息管理学院，江苏南京210023)",
+    "context3": "（摘要）旧的/意义本文对交互记忆系统理论在管理信息系统领域的相关重要研究文献进行梳理与总结，为研究者提供思路和方向。方法/过程本文将研究问题归纳为交互记忆系统对团队绩效和知识整合的影响。交互记忆系统对团队绩效的影响可以分为对软件开发团队绩效、虚拟团队工作绩效、团队创新绩效、社交媒体中团队绩效的影响。交互记忆系统对知识整合的影响可以分为对知识共享、知识搜索、知识协作、知识网络、知识转化和知识管理的影响。结果/结论]针对目前的研究的局限性，未来的研究可以在理论模型、任务类型、时间维度、研究对象、数据获取、研究方法、研究内容等方面取得进展。",
+    "context4": "（关键词）交互记忆系统；团队绩效；知识整合",
+    "context5": "DOI: 10.3969/j.issn.1008-0821.2018.11.025 （中图分类号）G201（文献标识码）A（文章编号）1008-0821（2018）11-0154-07"
+  },
+  "Transactive Memory System and its Application and Prospect in the Field of Information System": {
+    "context1": "Zhu ZhehuiYuan Qinjian\\* ( School of Information Management，Nanjing University，Nanjing 210023，China)",
+    "context2": "(Abstract]Purpose/Significance]This paper sorted out and summarized related importantliteratures of transactive memory systemin the fieldsofthe management information system，providing ideas and directions forresearchers.Method/ProcessThis paper generalized research questions into the influences of transactive memory system on team performanceand knowledge integration.transactive memory system influences team performancein severalaspects，including the team performance of software development team，virtual team and using social media，and team creative performance; whiletheinfluenceson knowledge integrationcanberefined intothe influenceson knowledgesharing，knowledge searching，knowledgecoordination，knowledge network and knowledge transfer．Result/Conclusion]Facingthelimitationsof current researches，future research could makeprogress in theoryand model，task types，timedimension，research objects，data acquisition，research methods and research contents.",
+    "context3": "(Key words） transactive memory system； team performance; knowledge integration",
+    "context4": "交互记忆系统（Transactive Memory System，以下简称“TMS”）是用来研究团队内部认知过程及其影响因素和结果变量的重要理论。交互记忆系统的核心思想是必须要了解、协调团队成员的领域知识，才能更好地实现团队协作。",
+    "context5": "目前已经有不少学者将TMS融入到学术研究之中。在研究内容上，目前最多的是用TMS来研究团队绩效，其次还有知识共享、知识管理、虚拟团队、团队认知等；在研究领域上，大部分集中在企业管理方面，其他的还有心理学、新闻与传媒、管理信息系统等。在这些研究的基础之上，学术界已经开始出现一些TMS的综述性研究。部分学者从要素模型的角度对TMS的研究文献中TMS的前因变量、组成部分、调节变量以及结果变量进行了归纳[；还有学者从团队绩效、知识共享等研究问题入手，如王力铭对TMS与团队学习和团队创新等行为变量之间的关系进行了总结，并构建一个以团队TMS为核心的团队绩效模型。总体而言，这些总结性研究仍然比较匮乏，而且存在距离时间远、研究面狭窄、缺乏全局性视角等缺憾。",
+    "context6": "随着知识协作、全球互联的趋势不断加强，虚拟知识社区、知识众包、全球软件开发团队等发展迅猛，团队知识协作将越来越成为管理信息系统领域学者关注的重点，TMS在团队知识协作研究中的作用将受到更加深入的发掘。因此本文在前人的基础上对TMS在管理信息系统领域的研究成果进行总结，为相关领域的学者未来的研究指明未来潜在的研究方向。"
+  },
+  "1TMS理论演进及评述": {
+    "context1": "TMS最早是在1985年由Wegner等针对亲密关系间的认知交互提出的。TMS 理论自提出以来，在组织管理、社会心理学、传播学、信息系统等领域得到了应用。从最初对亲密关系组合、实验团队小组、产品开发团队、销售团队、管理团队等的研究，到现在的研究热点如虚拟工作团队、全球软件开发团队、维基协作团队、跨学科科研团队，TMS都在其中扮演着不容小的角色。",
+    "context2": "在1987年Wegner的初始定义中，TMS被概念化为一个将个人记忆与团队内的交流过程融合起来的团队信息加工系统。之后的学者在定义TMS时更加强调其信息加工过程，Hollingshead就将TMS定义为认知劳动对来自不同领域的信息的编码、存储、检索、交流的分工合作。",
+    "context3": "TMS是基于个人的认知过程发展而来。个人的记忆系统对信息的处理可以分为编码、存储、检索3个阶段，这与TMS的信息加工过程相同。除了依靠个人的内部记忆来获取信息，人们往往还借助备忘录、家庭成员等外部记忆（ExternalMemory）资源。要获取外部记忆，必须要知道哪些人（物）拥有哪些领域的记忆，这被称为元记忆（Metamemory）。元记忆对于TMS中了解团队成员的专长起着重要的作用。",
+    "context4": "类比于计算机网络，Wegner认为TMS的运作由3个过程构成，分别是目录更新、信息分配和检索协调。目录更新（DirectoryUpdating）是指团队成员了解其他成员所擅长的领域。团队成员领域分配的方式包括默认项、协商项、专家项和获取项。信息分配（Information Allocation)是指团队成员将信息传递给领域专家。而检索协调（RetrievalCoordination）是指团队成员从领域专家获取信息。",
+    "context5": "Liang等在实验的基础上提出TMS的3个要素：记忆区分、任务协调和任务信任。记忆区分（Memory Difer-entiation）是指团队成员在合作过程中的专业化分工，任务协调（TaskCoordination）是指团队成员有效合作的能力水平，任务信任（Task Credibility）是指团队成员对其他成员专业知识的信任程度。Lewis将这3个要素进一步归纳为专业化（Specialization）、协调性（Coordination）和信任度（Credibility），并基于此开发出了得到广泛应用的TMS 测量量表[1d 。",
+    "context6": "自20世纪80年代以来，在对团队认知思维的研究中出现了一系列理论成果，比如说团队心智模型（TeamMental Model）、共享任务认知（ Shared-task Understand-ing）、交互理解（Cross-understanding）等。虽然都是研究团队认知的理论模型，与其他理论相比TMS具有一定的特殊性。从理论起源来看，其他理论主要起源于心理学、行为学等，而TMS则用计算机信息处理的思维对团队认知加工过程进行了全新的诠释。从切入点大小来看，相较于这些理论，TMS理论显得窄而深，其他的理论融入了组织目标、组织策略、成员偏好等组织理论的内容，TMS只关注于团队内的认知分工与合作。从团队差异性来看，其他理论更加注重团队内部的一致性，而TMS更强调不同团队成员的分布式知识以及相关专长的异质性[]。"
+  },
+  "2TMS在信息系统研究中的应用进展": "",
+  "2.1TMS对团队绩效的影响": "",
+  "2.1.1TMS对软件开发团队绩效的影响": {
+    "context1": "软件开发团队比起其他任务团队往往面临更高的任务复杂度、成员分散性和知识密集性，因此TMS的记忆区分、任务协调和任务信任等要素更加适用于对于软件开发团队绩效的研究。",
+    "context2": "一方面团队熟悉度、任务熟悉度、人际互动等因素通过TMS的中介作用，对软件开发团队的绩效产生影响。TMS可以优化团队互动过程，使团队协调顺畅，提高决策质量，从而取得高绩效。Espinosa等研究了在异地分布式软件开发团队中熟悉度和复杂度对团队绩效的影响。作者通过对1170个“修改请求”软件项目进行研究，发现任务熟悉度和团队熟悉度对团队绩效产生直接影响，但是受到任务复杂性和团队协作复杂性的调节作用。起着任务熟悉度和团队熟悉度的概念都来源于TMS理论[12]。Butler等则研究了软件开发团队中团队意识的影响因素以及团队意识对团队绩效的影响。通过用现场法对51个数据库开发团队进行研究，研究发现交流频率和团队特征影响团队意识，而团队意识直接影响团队绩效。团队意识分为专家位置认知和共享任务理解，其中专家位置认知就是来自于TMS理论。",
+    "context3": "另一方面，除了中介作用，TMS还对软件开发团队绩效产生间接影响。研究发现，TMS通过提高问题解决能力、团队行为整合等影响软件开发团队绩效。Lin等研究了信息系统开发团队中哪些知识资源有助于提高问题解决能力。通过向台湾地区的信息管理协会的359位成员发送问卷调查，研究发现知识互补性、知识位置和知识配置对团队问题解决能力有正向影响，问题解决能力又对项目绩效产生直接影响。其中，知识位置的概念就来自于TMS理论[4而Lin等研究了信息系统开发团队中行为整合的影响因素及其对团队绩效的影响。通过对360个项目经理的问卷调查，研究发现TMS中的专家专业化和专家可信度的两个因素及其交互作用对行为整合产生正向影响，而行为整合对团队绩效产生直接影响。其中行为整合由联合决策、集体决策和专家整合3个构念组成[。"
+  },
+  "2.1.2TMS 对虚拟团队工作绩效的影响": {
+    "context1": "虚拟团队为企业工作带来了巨大的便利，增加了人才多样性，降低了研发成本，减少了差旅强度；但是在另一方面，虚拟团队的地理分散性、组织分散性、虚拟性的特点带来了团队沟通不畅、低水平的信任、团队意识和凝聚力差等问题[d。TMS在解决虚拟团队的这些不足上发挥了重要的作用，从而提高了虚拟团队的工作绩效。",
+    "context2": "Marlow等提出了团队虚拟性对团队交流的影响的研究框架。作者认为虚拟性负向调节了团队交流中交流频次、交流及时性、交流内容与团队绩效之间的关系；而团队信任、团队认知中介了团队交流和团队绩效之间的关系，其中团队认知可以分为TMS和共享心智模型两种主要类型。根据研究，拥有更优的TMS的团队在分享任务信息、目标、角色、职责、团队互动技术上有着更好的团队绩效[]",
+    "context3": "Engelmann等则研究了信任对于虚拟团队工作绩效的影响。通过实验法，作者将不同学生分为拥有团队知识和信息意识的组群和没有拥有的组群，他们在分散的空间里参与由计算机支持的协作。结果表明，团队知识和信息意识提高了虚拟团队成员之间的信任，抵消了相互怀疑，提高了虚拟团队的工作绩效。这是因为团队知识和信息意识推动了虚拟团队内TMS的发展，推动了知识分享和提高了认知处理的效率[。"
+  },
+  "2.1.3TMS对团队创新绩效的影响": {
+    "context1": "企业创新往往包括提供新产品和服务，采用新流程、新管理方法以及创造新技能等内容。而TMS有助于提高团队知识利用率、团队知识整合、团队问题解决能力等，从而提高团队创新绩效。",
+    "context2": "$\\mathrm { Y } _ { \\mathrm { u } }$ 等从认知的视角研究了企业内员工建言行为对团队创造力的影响。通过对中国的614名电子商务企业的员工进行问卷调查，研究发现，员工建言行为通过TMS、团队学习行为和知识分享对团队创造力产生影响。TMS能够提高团队吸收效率、知识利用效率以及知识多样性，从而影响团队创造力[20 。",
+    "context3": "Dai等发现新产品开发联盟和TMS对创业企业创新活动有正向影响。通过对中国长三角地区148创新企业管理人员进行问卷调查，研究发现TMS提高了团队知识管理能力和团队知识整合，从而有助于创业企业同时开展产品探索和产品开发两种创新活动[2。"
+  },
+  "2.1.4TMS在社交媒体中对团队绩效的影响": {
+    "context1": "随着企业内部通讯工具的发展，社交媒体越来越成为加强组织内部团队交流、知识共享的重要工具。人们可以通过社交媒体观察彼此交换的信息内容、信息方向，也就是所谓的元知识，这是TMS的重要内容。通过增加对团队成员的元知识，人们可以提高创新能力、减少组织内的重复工作，从而提高团队绩效。",
+    "context2": "Davison等研究了社交媒体和关系对人际间知识交换和工作绩效的影响。通过对两家公关公司的案例研究，作者发现在中国注重关系的企业文化中，社交媒体的交互性、即时性和亲密性加强了企业内部的社会关系，推动了人际间知识交换，从而提高了工作绩效，这是一个双向互动的过程。在社交媒体的技术支持和TMS 的辅助下，可以增长自己的专业知识，形成关于他人知识的元知识，培养与他人的认知信任，并获得跨任务知识协调的技能，最终提高工作绩效。",
+    "context3": "Cao等则研究了社交媒体的使用与TMS对团队创新绩效的影响。通过对中国的89个组织的团队成员进行问卷调查，研究发现，社交媒体的使用与TMS正相关，因为社交媒体有助于团队交流、成员互动和知识管理；社交媒体的使用和TMS通过团队吸收能力和知识创造能力对团队创新绩效产生影响[24。"
+  },
+  "2.2TMS 对知识整合的影响": "",
+  "2.2.1 TMS 对知识共享的影响": {
+    "context1": "在TMS中，团队成员通过相互交流来增进各自的记忆，从而共享成员个人拥有的和团队其他成员拥有的两类知识。团队成员往往依赖于团队中的其他成员从不同的知识领域获取知识，处理和沟通信息。这样可以确保团队成员之间更多的知识共享，并且能够承担更多的团队任务。",
+    "context2": "TMS通过信息技术支持对知识共享产生积极的推动作用。Choi等研究了信息技术支持和TMS对知识共享、知识应用和团队绩效的影响。通过对韩国两家大公司的139个团队进行现场研究，作者发现TMS和信息技术支持对于知识共享有直接影响，但是知识共享对于团队绩效并没有直接影响，团队绩效更受到知识应用的作用。其中TMS为知识共享提供了基础的元知识[2d",
+    "context3": "TMS在知识共享中起着重要的连接作用。Lin等用扎根理论的方法研究了虚拟教学社区中知识共享与创造的类型，以及其前因变量和结果变量。知识共享和创造可以分为知识贡献、知识催化、知识整合、任务执行、知识寻求五种类型，TMS在虚拟社区中起着知识扣的作用，有助于实现不同群体、个人之间的知识共享。",
+    "context4": "知识共享也受到一些因素的阻碍。Mansingh等用案例研究的方法探索了加勒比地区医疗行业知识管理系统的知识分享过程中阻碍知识流动的因素。研究发现，如果分享的知识属于个人记忆，那么只能依靠记录来保存这些知识;如果分享的知识属于交互记忆，虽然有助于知识的流动但是可能无法得到快速检索。"
+  },
+  "2.2.2TMS 对知识搜索的影响": {
+    "context1": "TMS中目录更新、任务协调和检索协调的过程就是在团队内部进行知识、信息检索的过程，因此TMS有助于团队成员提高检索意识，缩短知识搜索链，从而提高知识搜索的效率。",
+    "context2": "知识搜索受到TMS等一系列因素的影响。Yuan等从多层社会网络的角度探索了专家检索的影响因素。通过用多层线性模型对一个全球销售团队的通讯数据进行分析，结果发现可接近性、任期、检索意识、可获得性以及媒介多样性对对专家检索产生作用。TMS理论着重于检索意识，但是忽视了可获得性的影响2。",
+    "context3": "Singh等则探索了组织内部分员工处于信息搜索劣势的原因。通过现场实验法对一家大型跨国服务公司的员工进行研究，结果发现女性、同性恋者、低级员工等群体很容易处于搜索圈的外围。TMS在信息搜索链中起到识别领域专家的作用，正是因为这些群体在TMS中处于劣势，他们往往需要更长的搜索路径才能获取到目标信息。这要求组织改善信息网络状况，信息弱势群体也要跨越社会边界加强异质性信息搜索行为[。"
+  },
+  "2.2.3TMS 对知识协作的影响": {
+    "context1": "随着信息技术的发展，开源软件项目、科学合作、跨国产品开发不断增加，这要求具有不同知识背景的大量参与者进行异步协作，TMS在知识协作中发挥了重要的作用。",
+    "context2": "TMS 帮助参与者了解信息所在的位置。Engelmann等研究了协作者的知识和信息的概念地图如何影响计算机支持的协作问题的解决。在概念地图中TMS指明了信息所在位置，改变了人们的行为、交流和协作模式。作者通过实验法进行控制，发现使用概念地图的团队能够更快地获得信息，并且知识协作更为有效[。",
+    "context3": "TMS帮助参与者理解任务的背景和内涵。Garud等研究了数字技术虚拟项目中知识协作的过程和机制。作者采用技术民族志的方法对维基工具记录的维基百科贡献者互动的数据进行研究，发现在这一知识协作的机制中，不同与一般项目是按照时间顺序推进项目过程，虚拟合作项目是由紧急结构和不断变更的所有权构成。TMS使得在虚拟项目中新的知识贡献者能够快速理解前人遗留任务的背景、文本和内涵，推动知识协作的发展。",
+    "context4": "TMS 帮助参与者获取知识存储、检索、交流的方向。Ali-Hassan等研究了在移动协作的环境下知识资本的作用。研究发现，社会流动性通过社会资本进行中介，对移动协作产生影响，同时受到媒介丰富度的调节作用。其中社会资本可以分为结构维度、关系维度和认知维度，TMS属于认知维度，为移动协作提供知识存储、检索、交流的方向。"
+  },
+  "2.2.4TMS 对知识网络的影响": {
+    "context1": "组织内的知识学习越来越呈现出网络化的发展结构，但是在组织学习中人们往往关注建议寻求、信息搜索、知识转化、探索开发、团队合作等，忽视了客观的知识网络的结构对组织学习的影响，忽略了TMS和知识网络之间的相互影响。",
+    "context2": "Skerlavaj等用社会网络分析的方法研究组织内知识网络的模式和结构。作者通过问卷进行调查并从公司人力资源数据库获得相关数据，研究发现，在知识学习网络中参与者的同质性（性别、任期和等级等）和接近度（地理距离和部门距离等）都对网络结构产生重要影响；知识网络间的关系是互惠互利的；知识传递性和稀疏群体间的高局部聚集都有利于组织内的知识学习。其中，TMS表明在知识网络中，个人影响力与其所拥有的知识水平、专业技能正向相关。",
+    "context3": "Akgun等则对新产品开发项目中TMS与知识网络之间的相互作用进行了研究。通过对69个新产品开发项目的参与人员的问卷调查和访谈，发现团队稳定性、团队成员熟悉程度和人际信任对TMS有正向影响；而TMS对团队学习、产品上市速度和新产品成功也有正向影响，当任务更加复杂时TMS在知识网络所起的作用越大。"
+  },
+  "2.2.5TMS对知识转化的影响": {
+    "context1": "知识转化是指一个组织在学习特定知识后，在其他环境中重新应用、实践这些知识的过程。知识转化受到知识语境、团队互动、基础设施等应用条件的影响，TMS在知识语境、团队互动上对知识转化起着重要作用。",
+    "context2": "Oshri等探讨了TMS在哪些方面促进全球分布团队的知识转化。通过对TATA公司的两个咨询服务项目进行案例研究，对访谈、观察、档案资料等数据进行分析，作者发现TMS在编码、存储和检索3个方面推动了全球分布团队的知识转化。就编码而言，TMS创建了共享的信息分类系统，可以用标签标识出领域专家的位置和技能；就存储而言，它创建了知识存储系统，可以对资料记录和专家知识进行更新；就检索而言，可以有效寻找到领域专家和相关知识，从而实现知识转化。",
+    "context3": "TMS在推动潜在知识向实用知识转化上起了重要作用。Griffith等研究了个体、组织和信息技术在虚拟团队背景下的互动。作者通过回顾相关文献提出了理论模型，认为个人知识、社会知识和组织知识构成了虚拟团队的潜在团队知识；而实现潜在的团队知识向实用知识的知识转化，TMS起着重要的调节作用。通过技术支持和组织系统，在培训中增强虚拟团队内部的交互记忆水平，就可以促进知识转化和工作效率的提高。"
+  },
+  "2.2.6TMS对知识管理的影响": {
+    "context1": "知识管理是“协调组织获取、创建、存储、共享、扩散、发展知识等广泛活动的系统性和综合性流程，并通过个人和团队开发知识以获得最大化的组织目标”，是对一系列知识活动的整合。基于TMS，研究者提出了知识管理的一些解决方案。",
+    "context2": "Yang等基于TMS理论提出了点对点知识管理创新模式。这一知识管理模式可以分为功能层面、自我知识层面和知识交换层面，在功能层面可分为政策管理、知识资料管理、通讯媒体管理和咨询管理；元数据、角色知识、领域知识等共同构成自我知识层面；自我知识通过交换记忆系统等向知识交换层面转化，形成点对点的记忆目录。",
+    "context3": "Alavi等则基于虚拟团队中知识整合所面临的问题，提出了知识管理系统作为解决方案。虚拟团队环境下知识整合面临4个方面的挑战：对交互记忆的限制、缺少相互理解、在共享和保存知识上的失败以及组织联系的死板。针对交互记忆上的不足，作者认为可以在知识管理系统内创建可检索的编码知识库，将员工的技能和经验数据化[。"
+  },
+  "3结论与展望": "",
+  "3.1结论": {
+    "context1": "本文对TMS在管理信息系统的应用研究进行了回顾，主要分为TMS对团队绩效和知识整合的影响两个方面。",
+    "context2": "TMS对团队绩效的影响可以分为TMS对软件开发团队绩效、虚拟团队工作绩效、团队创新绩效、社交媒体中团队绩效的影响四个层面。在软件开发团队中，一方面团队熟悉度、任务熟悉度、人际互动等因素通过TMS的中介作用对软件开发团队绩效的绩效产生影响；另一方面TMS通过提高问题解决能力、团队行为整合等间接影响软件开发团队绩效。在虚拟团队中，TMS在团队认知、团队互动技术、信任上辅助解决了虚拟团队存在的团队凝聚力差、交流不足、信任感低等问题。在团队创新绩效中，TMS通过提高知识利用率、知识多样性、知识管理能力等，提高团队创新绩效发挥团队创造力。通过社交媒体等工具，可以增强团队成员的元知识，提高组织创新能力、减少重复工作，从而提高团队绩效。",
+    "context3": "TMS 对知识整合的影响可以分为TMS对知识共享、知识搜索、知识协作、知识网络、知识转化和知识管理的影响六个分类。在知识共享中，TMS通过信息技术支持推动知识共享，在知识共享的群体个人之间起着知识扣的连接作用，部分知识类型可能会阻碍知识共享。在知识搜索中，TMS有助于提高检索意识，提高知识搜索的效率，但是女性、同性恋者、低级员工等弱势群体很容易在团体知识搜索链中处于劣势。在知识协作中，TMS通过定位信息资源、提供任务背景、获取知识交流方向，推动团队内部的知识协作。在知识网络中，在TMS中拥有的知识水平、专业技能越高，越有可能在知识网络中具有较强的影响力；团队任务越复杂，TMS对知识网络的作用越大。在知识转化上，TMS从编码、存储和检索3个维度出发，推动潜在知识向使用实用知识、实践转化。在知识管理上，基于TMS 提出了点对点知识管理创新模式、知识管理系统等知识管理的方法。"
+  },
+  "3.2展望": {
+    "context1": "目前的研究虽然对于不同的团队类型、知识处理过程中TMS的影响进行了探索，但是因为TMS移植到管理信息系统领域的时间还不长，研究成果尚不丰硕，并且存在一定的局限性，针对这些问题我们对TMS未来的研究提出展望。",
+    "context2": "1）从理论本身看，TMS主要关注不同团队成员的分布式知识以及相关专长的异质性，忽视了团队凝聚力、团队文化等同质性的因素。在未来的研究中，可以将TMS与团队心智模型、共享任务认知等进行融合，取长补短，构建出一个全面的团队认知模型。",
+    "context3": "2）从任务类型和时间维度来看，目前对于TMS对团队绩效的影响的研究往往关注的是单一任务、同一时间节点的团队绩效，忽视了现实中的团队往往是多重任务并行、并且不同任务往往具有一定的时间长度的特点。在未来的研究中，可以研究TMS随着时间动态变化在多重任务、不同的任务顺序中对团队绩效的作用。这一过程可能比较复杂，需要借助社会网络方法、计算机建模技术等。",
+    "context4": "3）从研究对象看，目前TMS在管理信息系统领域的研究对象主要是企业组织、工作团队等，比较狭窄。未来的研究可以将TMS的研究对象拓展到游戏社区小组、在线学习小组、医疗服务团队等，在这些团队小组中不同成员之间也需要进行知识合作。",
+    "context5": "4）从数据获取上看，目前大部分研究都采用了访谈法、问卷调查来获取相关数据，较少有研究者采用观察法、实验法来获取数据。未来可以采用观察法，加强对团体内部的深入了解，用实验法控制不同变量使结论更具有科学性。",
+    "context6": "5）从研究方法上看，目前的大部分研究都采用调查研究、现场研究的方法进行研究，少部分采用了社会网络、案例研究的研究方法，未来可以更多地采用民族志、扎根理论等方法，结合对组织团队的主客观认知，对TMS的各个元素的相互作用理解更加深入具化。",
+    "context7": "6）从研究内容上看，目前的研究往往忽视了团队成员文化背景的影响，未来的研究可以关注跨文化的团队协作，不同的文化背景是否对TMS产生影响；目前的研究大多从正面来研究如何用TMS来提高促进团队绩效和知识整合，但很少有研究从负面研究阻碍团队绩效和知识整合的因素以及团队内较低的交互记忆水平会对其造成怎样的影响，未来的研究可以从这里入手。",
+    "context8": "随着信息技术的发展，在未来的管理信息系统领域研究中，对于虚拟团队、全球分布开发团队、知识协作团队的研究将不断增加，TMS将在这些研究中发挥更加重要的作用。"
+  },
+  "参考文献": {
+    "context1": "[]章诚，张爱梅，周丽娟．画龙点睛：学术论文关键词的科学选取[．编辑之友，2015，（9)：73-76.  \n[2] 王兰敬.2004-2009年我国图书馆、情报与档案管理学科的研究热点与重点领域——基于CSSCI来源文献关键词的分析．图书情报工作，2011，55（16)：68-71，139.  \n[魏瑞斌.学术期刊发文主题演变的实证研究——以《情报学报》为例．情报杂志，2013，32（6)：64-69，39.  \n闵超，孙建军．基于关键词交集的学科交叉研究热点分析-以图书情报学和新闻传播学为例[．情报杂志，2014,33 (5):76-82.  \n刘萍，黄纯万．基于SimRank 的作者相似度计算．情报理论与实践，2015，38（6)：109-114.刘萍，陈烨．词汇相似度研究进展综述[．现代图书情报技术，2012，(Z1):82-89.  \n吴夙慧，成颖，郑彦宁，等．文本聚类中文本表示和相似度计算研究综述[．情报科学，2012，30（4)：622-627.Salton G，Buckley C.Term-weighting Approaches in AutomaticText Retrieval[．Information Processing & Management，1988,24 (5): 513-523.  \n武永亮，赵书良，李长镜，等．基于TF-IDF和余弦相似度的文本分类方法[]．中文信息学报，2017，31（5)：138-145.  \n[0]蒋永新，孙爱莉．基于TF-IDF方法的图情学核心期刊学科特征分析[．情报资料工作，2009，（1)：89-92.  \n[1]赵忠伟，黄永，程齐凯，等．我国图书情报领域近十年科研论文研究方法的演化分析一—以《情报学报》和《中国图书馆学报》为例．信息资源管理学报，2017，7（3)：106-113.  \n[12]邱武，赵世华，丘峰．《中国图书馆学报》与《情报学报》的比较研究（下）[．图书馆杂志，1996，（5)：15-17.  \n[13]邱武，赵世华，丘峰．《中国图书馆学报》与《情报学报》的比较研究（上）[．图书馆杂志，1996，（4)：9-12，21.  \n[4]程智强，江洪涛．科技论文关键词标引应琢磨的几个问题[．编辑学报，2014，26（1)：40-42.  \n[5]王丹丹．科技论文关键词使用中存在的问题及解决方法.出版发行研究，2013，（4)：102-104.",
+    "context2": "(责任编辑：郭沫含)"
+  },
+  "[1]张钢，吕洁．团队心智模型和交互记忆系统：两种团队知识表征方式[．自然辩证法通讯，2012，（1)：81-88.": {
+    "context1": "[12]Espinosa JA，Slaughter SA，Kraut RE，etal.Familiarity, Complexity，and Team Performance in Geographically Distributed Software Development[J]．Organization Science，2O07，18 (4):613-630.   \n[13]He J，Butler B，King W. Team Cognition: Development and Evolution in Software Project teams[.Journal of Management Information Systems，2007，24(2)：261-292.   \n[14]Lin TC，Chen C M，Hsu SC，et al.The Impact of Team Knowledge on Problem Solving Competence in Information Systems Development Team[l．International Journal of Project Management，2015，33(8)：1692-1703.   \n[15]Lin TC，Hsu SC，Cheng K T，et al.Understanding the Role of Behavioural Integration in ISD Teams:An Extension of Transactive Memory Systems Concept[J]．Information Systems Journal, 2012，22 (3):211-234.   \n[6]王凌剑，廖述梅，陈敏华，等．虚拟团队中交互记忆系统理 论研究现状述评[．心理科学进展，2013，21（8)：1512- 1520.   \n[17]Marlow SL，Lacerenza C N，Salas E.Communication in Virtual Teams:A Conceptual Framework and Research Agenda[.Human Resource Management Review，2017，27（4).   \n[18]Engelmann T,Kolodziej R，Hesse F W. Preventing Undesirable Effects of Mutual Trust and the Development of Skepticism in Virtual Groups by Applying the Knowledge and Information Awareness Approach []．International Journal of Computer-Supported Collaborative Learning，2014，9(2)：211-235.   \n[9]黄海艳.交互记忆系统与研发团队的创新绩效：以心理安全 为调节变量[．管理评论，2014，26（12)：91-99.   \n[dYu SZ， Zhang L，Deng JZ. Mechanisms of E-business Security and Enterprise Employee Voice Behavior Impacts on Team Creativity:A Cognitive Perspective[．International Journal of Security and Its Applications，2016，10(9)：149-164.   \n[21]Dai Y，Du K，Byun G.Ambidexterity in New Ventures:The Impact of New Product Development Allancesand Transactive Memory Systems[]．Journal of Business Research，2O17，75: 77-85.   \n[2]Leonardi P M. Ambient Awareness and Knowledge Acquisition: Using Social Media to Learn“Who Knows What”and“Who Knows Whom.”[．Mis Quarterly，2015，39（4)：747-762.   \n[3]Davison R M，Ou C XJ，Martinsons M G. Interpersonal Knowledge Exchange in China: The Impact of Guanxi and Social Media [．Information & Management，2017.   \n[4]Cao X，Ali A.Enhancing Team Creative Performance Through Social Media and Transactive Memory System[]．International Journal of Information Management，2018，39:69-79.   \n[25]林筠，闫小芸.共享领导与团队知识共享的关系研究—基 于交互记忆系统的视角[]．科技管理研究，2011，31 (10): 133-137.   \n[6Choi S Y，Lee H，Yoo Y. The Impact of Information Technology and Transactive Memory Systems on Knowledge Sharing，Application，and Team Performance:AField Study[．Mis Quarterly, 2010，34(4):855-870.   \n[7]Lin FR，Lin SC，Huang TP.Knowledge Sharing and Creation in a Teachers'Professional Virtual Community[M].Elsevier Science Ltd，2008.   \n[28]Mansingh G，Osei-Bryson K M，Han R. Issues in Knowledge Access，Retrieval and Sharing-Case Studies in a Caribbean Health Sector[．Expert Systems with Applications，2009，36（2): 2853-2863.   \n[9]Yuan Y C，CarboniI，Ehrlich K. The Impact of Awareness and Accessibility on Expertise Retrieval:A Multilevel Network Perspective[l．Journal of the Association for Information Science $\\&$ Technology，2014，61（4)：700-714.   \nβ0Singh J,Hansen MT，Podolny JM. The World Is Not Small for Everyone: Inequity in Searching for Knowledge in Organizations. [．Management Science，2010，56(9)：1415-1438.   \nβ1]Engelmann T,Hesse FW.How Digital Concept Maps About the Collaborators' Knowledge and Information Influence Computer-supported Collaborative Problem Solving[]．International Journal of Computer-Supported Collaborative Learning，2010，5（3)：299 -319.   \nB2]Garud R，Kumaraswamy A，Tuertscher P.A Model of and for Virtual Projects[]．Advances in Strategic Management，2011, 28:357-387.   \nB3]Ali-Hassan H，Nevo D,Nevo S. Mobile Collaboration:Exploring the Role of Social CapitalM．ACM，2010.   \nb4]Skerlavaj M，Dimovski V，Desouza K C.Patterns and Structures of Intra-organizational Learning Networks Within a Knowledge-intensive Organization[J]．Journal of Information Technology, 2010，25(2):189-204.   \nB5]Byrne J，Keskin H，Lynn G S，et al. Knowledge Networks in New Product Development Projects:A Transactive Memory Perspective[．Information& Management，2005，42（8)：1105 -1120.   \nB6Oshri I,Fenema P V，Kotlarsky J.Knowledge Transfer in Globally Distributed Teams:The Role of Transactive Memory[．Information Systems Journal，2008，18(6)：593-616.   \nB7]Grifith TL，Sawyer JE，Neale M A.Virtualness and Knowledge in Teams:Managing the Love Triangle of Organizations，Individuals，and Information Technology[J]．MISQuarterly, 2003，27 (2):265-287.   \nβ8]Yang HL，Ho H C. Emergent Standard of Knowledge Management:Hybrid Peer-to-Peer Knowledge Management[l.Computer Standards& Interfaces，2007，29（4)：413-422.   \nβ9]Alavi M，Tiwana A.Knowledge Integration in Virtual Teams: The Potential Role of KMS[]．Journal of the American Society for Information Science & Technology，2002，53（12)：1029- 1037.",
+    "context2": "(责任编辑：郭沫含)"
+  },
+  "(上接第108页)": {
+    "context1": "《中国图书馆学报》和《情报学报》的相似度在不断下降。这一方面可能是由于国内图书馆学和情报学两个领域研究主题的差异在不断增加，导致两种期刊的差异性不断增加，两个领域研究的边界更加清晰；另一方面，从发文量看，《中国图书馆学报》近年来的发文量有一个快速下降，基本保持在50\\~60篇左右，而《情报学报》的发文量基本保持在130\\~140篇左右。这两种期刊发文量上的差异，也是形成两种期刊相似性减小的重要因素。",
+    "context2": "本研究是基于关键词的期刊相似性测度，其测度结果的准确性依赖于论文关键词的质量。从文献[，14-15]的分析看，目前国内期刊论文的关键词是由作者给定的，每个作者对论文关键词的理解程度不同，所给出的关键词存在漏选或泛选、用词不规范、选词数量随意等问题。这些问题都可能会影响到最终的论文关键词质量。今后，可以综合考虑论文标题、摘要或全文的信息基于词语信息研究期刊的相似性。另外，除了从论文关键词的角度外，还可以结合论文作者信息、关键词共词网络、论文耦合、共引或共被引等视角来研究期刊的相似性。"
+  }
+}

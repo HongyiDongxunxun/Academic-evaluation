@@ -1,0 +1,145 @@
+{
+  "original_filename": "full_4277.md",
+  "基于ARIMA模型的信息构建研究主题趋势预测研究": {
+    "context1": "Thematic Trend Prediction of Information Architecture Based on the ARIMA Model岳丽欣周晓英陈旖旎（中国人民大学信息资源管理学院，北京，100872）",
+    "context2": "[摘要][目的/意义]识别某学科领域期刊论文中蕴含的主要研究主题并预测其发展趋势，有助于掌握学科领域的研究热点和研究动态，对于深入分析领域发展趋势具有一定的意义。[研究设计/方法]首先利用LDA模型进行主题识别，并通过自定义函数获取各个主题的年度概率分布，从而得到主题变化时间序列数据；而后建立ARIMA模型对信息构建领域的主要主题时间序列进行预测分析。[结论/发现]目前国内信息构建领域信息构建评价指标、信息组织、网络信息和知识构建等研究主题呈现良好的发展势头。[创新/价值]将ARIMA模型应用于信息构建领域，一方面对近20年国内信息构建领域研究主题加以识别并对主要主题的演变趋势进行预测，为信息构建与主题预测有关研究提供参考借鉴，另一方面也验证了本文提出的主题预测方法的可行性和有效性。",
+    "context3": "[关键词]差分整合移动平均回归模型（ARIMA模型）信息构建研究主题识别趋势预测可视化 [中图分类号]G252.8[文献标识码]A [文章编号]1003-2797(2019)05-0054-10 DOI:10.13366/j.dik.2019.05.054 [Abstract][Purpose/Significance]dentifying the main research topicsof journal articles in aspecific subject and predicting theirdevelopment trendscouldbe helpfulforunderstandingtheresearch hot-spotsandtrendsinthisarea.Itisalsosignificant foraprofoundanalysison thedevelopmenttrendinthisfield.[Design/MethodologyFirstly，theLDAmodel wasusedfortopic recognition，andtheannual probabilitydistributionofeach topic wasobtained throughauser-definedfunction.Besides，time series data oftopic evolution was gained.Then，the ARIMA model was established to predictandanalyze the time series of maintopicsinthefieldof informationarchitecture.[Findings/Conclusion]Curently，there isagooddevelopmentmomentum in thetopicsincludingevaluationindicatorsof informationarchitecture，informationorganization，networkinformationandknowl edgeconstructioninChina.Originality/Value]Ontheone hand，thispaperidentifies theresearch topicsinthefieldof informationarchitecturedomesticaly inthepast 20years，andpredicts the evolutionary trendof themaintopics.On theother hand，this studyverifiesthefeasibityandeffectivenessof thetopicpredictionmethod proposedinthispaper，andprovides reference for the research on information architecture and topic prediction.",
+    "context4": "[Keywords]ARIMA model； Information architecture；Identification of research topics；Trend prediction； Visualization"
+  },
+  "1引言": {
+    "context1": "期刊论文特别是各学科领域的核心期刊的主要研究内容往往能代表学科研究的重点与前沿，通过识别期刊论文中蕴含的主要研究主题、分析预测其发展趋势，有助于揭示学科研究的重点和变化。如何有效运用文献计量、自然语言处理等方法对各个学科领域的期刊研究主题进行分析，一直是图情领域研究重点：即如何通过对学科主题及其演变过程的分析，帮助科学家更快地掌握学科的热点、前沿问题提高科研效率，并帮助管理人员和科研决策者合理配置科技资源、辅助科研决策和促进相关领域开展科技创新[1]。",
+    "context2": "目前研究中多基于Citespace、Gephi等软件工具绘制引文网络、共词网络图谱进行趋势分析，难以处理海量数据、深入文本内容，随着数据量快速增长以及用户细粒度情报分析需求的变化，逐渐难以满足科技情报分析需求[2]。主题识别、社区探测等分析方法虽然可以在一定程度上改进上述不足，但是研究中主题发展趋势分析主要以人工判读为主，主观性较强，如何构建主题时间序列模型从而科学有效地分析预测学科主题(社区)的变化趋势有待进一步深入研究。"
+  },
+  "2相关研究及基本理论": "",
+  "2.1相关研究": "",
+  "2.1.1主题识别": {
+    "context1": "在计算机领域，主题识别是指利用自然语言处理(LDA等主题模型)等技术对文本数据中蕴含研究主题进行表征的一种方法，在计算机、情报学等学科领域中应用广泛，其中，LDA模型并被认为是分析大规模非结构化文档集的最有效工具之一。2003年，Blei等首次提出LDA模型[3]，但是不能解释主题时序变化;2006年,Blei等提出了动态主题模型[4]（DynamicTopicModel)，可以处理具有时间标签的文档数据集实现动态主题识别与追踪。之后，众多学者对LDA模型进行学习改进，相继提出AD-LDA[5]、PLDA[]、HL-DA[7]、ATM[8]和Topic-Link LDA[9]等等。",
+    "context2": "在情报学领域，主题识别是指学者利用各种主题模型处理科技文献进行主题探测，挖掘分析Web ofScience、CNKI等数据库收录的时序文献集合中蕴含的主题，以分析学科发展现状。比如，2014年，范云满等基于LDA模型识别论文数据中的主题,利用新兴主题判别指标对各个时期的主题进行分析识别出值得关注的新兴主题[10]；2015年， $\\mathsf { Y a n } ^ { [ 1 1 ] }$ 利用LDA模型对图书情报领域文献数据集进行挖掘，分析了图情领域主要研究主题，并论证了在分析主题特征时需要关注主题的影响力;2018年，范少萍等[12]在LDA主题识别结果基础上，根据医学领域文献特色，提出新颖性、创新性、学科交叉性和高关注度特征指标，识别医学领域前沿主题。",
+    "context3": "总体来说，学科主题识别研究中，主要以人工划分时间窗口分别进行主题识别为主，主题时序变化研究不够充分，在一定程度上限制了学科情报预测分析的作用。"
+  },
+  "2.1.2学科主题趋势分析": {
+    "context1": "学科主题趋势是指某学科领域主要研究内容在在时间维度上动态变化趋势，通过分析学科主题发展趋势，能够帮助合理配置科技资源、辅助科研决策和促进相关领域开展科技创新。",
+    "context2": "目前，针对主题时序变化研究不够充分这一不足，有关研究者进行了卓有成效的探索工作，其中具有代表性的研究成果主要有：2003年Kontostathis 提出 ETD（Emerging Trend Detection）方法[13]；2016 年，刘自强等[14]利用关键词时序变化分析预测竞争情报领域的发展趋势；2018年，陈伟等[15]利用双重随机过程的隐马尔可夫模型（HMM)对未来技术趋势进行定量预测。",
+    "context3": "综上所述，目前研究中主题时序变化研究不够充分，少量主题时序变化研究中尚未构建科学严谨的数理模型来进行时序预测，主要通过人工判读的方式来简单分析学科主题时序变化的趋势。对关键词、主题等的时序变化分析研究中，使用数理模型进行预测分析并不是对研究问题刻意拔高与复杂化，因为仅通过人工判读时序数据的趋势，存在主观性较强、趋势分析结果的准确性有待商榷等不足，会在一定程度上限制了学科情报预测分析的科学性和准确性。",
+    "context4": "针对目前研究中的不足，本研究借鉴统计学相关理论与方法，综合文本挖掘、数理统计等方法，探索主题时序变化一般趋势，提出基于ARIMA模型的学科主题趋势预测方法，以期完善、改进学科主题识别及趋势预测分析方法，为有关研究提供一定的参考借鉴。"
+  },
+  "2.2理论基础与分析模型": "",
+  "2.2.1理论基础与研究假设": {
+    "context1": "本研究在总结分析时间序列分析基本理论和生命周期理论的基础上,归纳学科主题发展时间序列数据的短期可预测性，然后以之为基础，提出研究假设与基本思路。"
+  },
+  "(1)理论基础分析": {
+    "context1": "时间序列分析基本理论：时间序列分析基本理论指出,如果某时间序列(或随机过程)的任一变量 $\\pmb { \\mathsf { X } }$ 与其前期变量xt-1、xt-2、xt-3 之间存在着某种关联，则可以根据该时间序列的以往观测值来预测其在未来某一时刻(一般是短期预测)的取值。",
+    "context2": "生命周期理论：生命周期理论概括、揭示事物发展的整体过程，认为事物的发展遵循产生、发展、成熟到消亡一般规律。",
+    "context3": "由于学科领域的发展一般经历萌芽期、成长期、成熟期、稳定期和衰退期等生命周期，学科主题作为学科领域主要研究内容的概括总结也同样按照这一模式进行发展，有关研究者将学科主题发展过程作了进一步细化，划分为产生、消亡、分裂、合并、扩张和收缩等六个阶段。所以，在一定时期内某学科领域的研究主题不会凭空产生或消失，主题发展趋势是有迹可循的，通过学科主题的时序变化数据来进行短时期的学科主题发展趋势预测分析是可行的。",
+    "context4": "此外,相较于关键词频次的时序变化，学科主题时序变化更加稳定，单一关键词的时序变化可能波动过大(某些年频次可能为0)，而且学科主题变量 $\\pmb { \\mathsf { X } }$ 与其前期变量xt-1、xt-2、xt-3之间关联更加紧密，学科主题时序变化更加具有可预测性适用于时间序列预测模型。"
+  },
+  "(2）研究假设": {
+    "context1": "在上述分析的基础上，提出研究假设：学科主题的时序变化具有延续性并且与受到前期阶段的影响[16],所以能够根据学科主题变化的时序数据构建时间序列模型来预测未来一定时期内的学科主题发展趋势。"
+  },
+  "2.2.2 ARIMA模型": {
+    "context1": "ARIMA模型,即差分整合移动平均自回归模型（Autoregressive Integrated Moving Average model，ARl-MA）,是经典时间序列分析方法之一。时间序列分析方法是指根据实际观测得到的时间序列数据，通过曲线拟合和参数估计来建立数学模型然后利用该模型对未来进行预测的理论和方法，目前广泛应用于经济金融、生态保护、水文预报和航天航空等领域[17-19]。",
+    "context2": "目前常用的时间序列模型有四种：自回归模型AR(p)、移动平均模型MA(q)、自回归移动平均模型",
+    "context3": "ARMA(p,q)和差分整合移动平均自回归模型ARIMA$( \\mathsf { p } , \\mathsf { d } , \\mathsf { q } )$ 。其中， $\\mathsf { A R } ( \\mathsf { p } )$ 模型和MA(q)模型可分别理解为ARMA(p,q)模型的[20]两个特例 $\\mathsf { A R M A } ( \\mathsf { p } , 0 )$ 和AR-${ \\mathsf { M A } } ( 0 , { \\mathsf { q } } )$ 。总体来说，时间序列数据可以分为平稳时间序列和非平稳时间序列。",
+    "context4": "ARIMA模型一般表达式[21]为(1)和(2)：",
+    "context5": "$$\nA ( f ) ( 1 - h ) ^ { d } X _ { 1 } = B ( f ) \\varepsilon _ { i }\n$$",
+    "context6": "$$\nA ( z ) = 1 - \\sum _ { j = 1 } ^ { P } a _ { j } z ^ { j } \\neq 0 ( \\mid z \\mid \\leq 1 ) , B ( z ) =\n$$",
+    "context7": "$$\n\\sum _ { j = 1 } ^ { q } b _ { j } z ^ { j } \\ne 0 ( \\mid z \\mid \\le 1 )\n$$",
+    "context8": "其中， $\\mathsf { X } _ { \\mathsf { t } }$ 为时间序列值,f为时间t的向后推移算子（简称推移算子，又称滞后算子）， $\\mathsf { h } = \\Phi ^ { \\mathsf { f } } , \\Phi$ 为系数，εt为误差或冲击值， ${ \\sf z }$ 也表示滞后算子， $\\mathsf { A } ( z )$ 是对A(f)的展开； $\\mathsf { a } _ { \\mathrm { j } }$ 为自回归系数， $\\mathsf { b } _ { \\mathrm { j } }$ 为移动平均系数， $\\mathsf { p }$ 为自回归项数，d为使之成为平稳序列所做的差分次数（阶数），q为滑动平均项数，j表示正整数 $( 1 , 2 , 3 \\cdots )$ 模型简记为 ARIMA(p,d,q)。"
+  },
+  "3基于 ARIMA模型的主题趋势预测方法澥": {
+    "context1": "基于ARIMA模型的主题趋势预测方法流程为：",
+    "context2": "第一步，数据收集与预处理。根据需要预测分析的学科领域确定数据来源，然后制定具体的检索策略并以之为基础进行期刊论文数据的收集与预处理；",
+    "context3": "第二步，学科主题识别与时间序列数据构建。利用LDA模型进行主题识别并构建主题趋势时间序列数据；",
+    "context4": "第三步，ARIMA模型拟合。对主题趋势时间序列数据进行建模为ARIMA模型；",
+    "context5": "第四步，学科主题趋势预测分析。根据所建立的ARIMA模型,以未来5年为预测目标,分别对各个学科主题趋势的未来值(5年)进行预测分析。"
+  },
+  "3.1学科主题识别与时间序列构建": {
+    "context1": "本研究中，利用Python 的Gensim 工具包的 LDA功能模块进行学科主题识别与时间序列构建。首先，由于需要构建学科主题趋势时间序列，所以除了识别LDA主题所需的文本数据外，应该包含各个文本对应的时间标签，形成时间 $^ +$ 文本内容的数据格式。然后,使用 Python 代码编辑工具调用 gensim、pandas、matplotlib 等工具包进行数据读取、预处理、LDA主题识别和主题时间序列构建等处理步骤，为后续研究奠定数据基础。"
+  },
+  "3.2ARIMA模型构建流程": {
+    "context1": "在上一步的主题趋势时间序列数据基础上,进行ARIMA(p,d,q)模型构建。",
+    "context2": "（1)模型识别和定阶",
+    "context3": "ARIMA(p,d,q)模型的识别与定阶，是为了确定p,d,q三个参数，差分的阶数d主要通过观察时间序列图是否平稳来确定，p和q阶数的确定相对复杂，需要通过绘制自相关函数（autocorrelation function，ACF)和偏自相关函数（partial autocorrelation function，PACF)图来判定，p,q阶数的确定基于如下的规则（见表1)。",
+    "context4": "表1p,q参数确定",
+    "context5": "<table><tr><td rowspan=1 colspan=1>模型</td><td rowspan=1 colspan=1>AR(p)</td><td rowspan=1 colspan=1>MA(q)</td><td rowspan=1 colspan=1>ARMA (p，q)</td></tr><tr><td rowspan=1 colspan=1>自相关函数(ACF)</td><td rowspan=1 colspan=1>拖尾</td><td rowspan=1 colspan=1>q阶后截尾</td><td rowspan=1 colspan=1>q阶后拖尾</td></tr><tr><td rowspan=1 colspan=1>偏自相关函数(PACF)</td><td rowspan=1 colspan=1>p阶后截尾</td><td rowspan=1 colspan=1>拖尾</td><td rowspan=1 colspan=1>p阶后拖尾</td></tr></table>"
+  },
+  "(2)参数估计": {
+    "context1": "本研究中，p,d,q参数确定主要根据贝叶斯信息准则（Bayesian Information Criterion，BIC）。一个好的模型应该是拟合精度和未知参数个数的综合最优化配置,BIC准则就是基于上述准则提出的，计算方法见公式 $3 ^ { [ 2 2 ] }$ 。",
+    "context2": "$$\nB I C = \\mathrm { k l n } ( \\mathrm { n } ) - 2 \\mathrm { l n } ( L )\n$$",
+    "context3": "其中， $\\mathsf { k }$ 为模型参数个数， $\\mathsf { n }$ 为样本数量，L为似然函数。通过似然函数最大化和模型中的未知参数个数最小化来确定p和q参数,即通过BIC准则进行确定，计算值越小说明模型效果越好。"
+  },
+  "(3)模型检验": {
+    "context1": "ARIMA(p,d,q)模型的检验主要通过残差检验分析，具体可以细分分为a.ARIMA(p,d,q)模型的残差图是否平稳分布;b.ARIMA(p,d,q)的残差分布直方图是否为正态分布;c.ARIMA(p,d,q)模型的 Normal $\\mathsf { Q } { \\mathsf { \\Lambda } } { \\mathsf { Q } } ^ { }$ (quantile-quantile, $\\mathtt { Q - Q } )$ 图是否为正态分布；d.Ljung-Box检验结果是否具有独立性。如果建立的ARIMA(p,d,q)模型通过上述四步检验，即可以用于学科主题趋势的预测分析。"
+  },
+  "3.3主题趋势预测分析": {
+    "context1": "综合主题趋势时间序列数据(历史数据)和与之相对应的通过检验的ARIMA(p,d,q)模型，可以用来预测主题趋势的未来值。",
+    "context2": "研究中将对主题趋势预测值与主题趋势时间序列的实际值进行比较，这将有助于判断预测的准确性，可以通过统计建模和计量经济学工具包 Statsmodels 中的get_prediction(）、conf_int（）函数获得学科主题趋势预测值和相关的置信区间。",
+    "context3": "具体地，第一步对近8年的原始数据进行拟合（2010—2018），以判断模型的准确性；第二步对主题时间序列未来5年(2019—2023)的趋势进行预测。然后在主题趋势预测结果的基础上，结合LDA主题识别结果进行解读分析，识别学科领域主题的未来发展趋势。"
+  },
+  "4信息构建领域研究主题时间序列分析": "",
+  "4.1数据源及其预处理": {
+    "context1": "为了验证本研究提出学科主题趋势预测方法，选择信息构建领域进行实证研究，本研究主要以信息构建研究论文作为数据来源。具体选择CNKI数据库收录的信息构建领域相关文献作为本研究的数据，检索策略为：将检索词确定为“信息构建\"然后进行题名、关键词、摘要检索，时间跨度为2000年1月1日—2018年12月31日共19年检索结果为2,426条结果，论文数量各个年度的分布情况（见图1）。",
+    "context2": "结合图1可知，总体来看，近20年信息构建领域相关研究的论文数量总体呈增长趋势，一定程度上可以说明信息构建领域正处于发展阶段，预测信息构建领域的学科主题趋势对于促进国内相关研究发展具有一定的意义。",
+    "context3": "![](images/cdbe8537b7693ac76131e64b3674b825fd78ad6d14e18c8a71da1680931af7f6.jpg)  \n图1论文数量年度分布"
+  },
+  "4.2主题识别与时间序列构建结果": {
+    "context1": "按照方法流程所述的步骤,利用Python的 Gensim 工具包进行LDA主题识别。LDA主题识别结果的准确性和主题个数息息相关，本研究选择Gensim自带的一致",
+    "context2": "性模型CoherenceModel（)函数计算主题最优个数。",
+    "context3": "通过实验发现当主题个数30时一致性分数变化发生明显转折，并且在30之后趋于稳定，即当主题个数30个之后随着主题个数的增多一致性分数只增加了0.05，所以，本研究最终确定主题个数为30。",
+    "context4": "然后，在LDA主题识别结果的基础上，基于自定义函数实现主题趋势时间序列数据构建，然后为了更加直观、有效观察学科主题时间序列数据，利用mat-plotlib工具包绘制前面识别出的30个信息构建领域主题时间序列的折线图（见图2）。",
+    "context5": "其中,30个LDA主题识别的具体结果保存至表格中（见表2）。",
+    "context6": "![](images/672f2c124405a14065aab71e7361d3f3d987a90553b599aa3219f335e6999d33.jpg)  \n图2信息构建领域主题时间序列(2000一2018 年)"
+  },
+  "5信息构建研究主题ARIMA模型构建结果与预测分析": "",
+  "5.1ARIMA模型构建与检验": {
+    "context1": "为了预测分析有发展潜力的信息构建领域研究主题，基于主题时间序列数据绘制散点图并进行简单线性回归拟合，主题时间序列斜率(Slope)排名前6位的主题是Topic18、Topic14、Topic22、Topic9、Topic21和Topic30（见图3）。本研究选取斜率（Slope）排名前6位的主题作为ARIMA(p,d,q)模型构建目标。",
+    "context2": "![](images/12d9219fb51870424a7d8888c93f339310c330fa84a9f003ddedef0dbfe32b93.jpg)",
+    "context3": "表2信息构建领域研究主题识别结果",
+    "context4": "<table><tr><td rowspan=1 colspan=1>主题</td><td rowspan=1 colspan=1>主题词</td><td rowspan=1 colspan=1>主题</td><td rowspan=1 colspan=1>主题词</td></tr><tr><td rowspan=1 colspan=1>Topic1</td><td rowspan=1 colspan=1>信息构建|信息管理|相关性|核心种质|web</td><td rowspan=1 colspan=1>Topic16</td><td rowspan=1 colspan=1>信息资源|知识管理|信息技术|信息生态|电子政务</td></tr><tr><td rowspan=1 colspan=1>Topic2</td><td rowspan=1 colspan=1>数字化|指标体系|分辨率|信息网络|信息交互</td><td rowspan=1 colspan=1>Topic17</td><td rowspan=1 colspan=1>功能模块|故障诊断|信息系统|特征基因|三维模型</td></tr><tr><td rowspan=1 colspan=1>Topic3</td><td rowspan=1 colspan=1>信息建筑师|分布式|数据库|传感器|用户信息</td><td rowspan=1 colspan=1>Topic18</td><td rowspan=1 colspan=1>评价指标体系|数据库|影响因素|用户体验|统计学</td></tr><tr><td rowspan=1 colspan=1>Topic4</td><td rowspan=1 colspan=1>用户体验|信息导航|web|领域本体|网络信息资源组织</td><td rowspan=1 colspan=1>Topic19</td><td rowspan=1 colspan=1>数字图书馆|信息组织|中医药|氨基酸|特征信息</td></tr><tr><td rowspan=1 colspan=1>Topic5</td><td rowspan=1 colspan=1>可行性|学科信息门户|企业信息门户|信息构建理论</td><td rowspan=1 colspan=1>Topic20</td><td rowspan=1 colspan=1>网络信息资源|立体视频|信息公开|信息构建|网络信息</td></tr><tr><td rowspan=1 colspan=1>Topic6</td><td rowspan=1 colspan=1>多样性|关键技术|决策者|复杂性|遗传算法|隐形冠军</td><td rowspan=1 colspan=1>Topic21</td><td rowspan=1 colspan=1>网站建设|网站评价|IA研究|知识库|研究成果</td></tr><tr><td rowspan=1 colspan=1>Topic7</td><td rowspan=1 colspan=1>互联网|贝叶斯网络|数据挖掘|网站ia|消费者</td><td rowspan=1 colspan=1>Topic22</td><td rowspan=1 colspan=1>网络信息|数据库系统|网络结构|预测模型|数据库</td></tr><tr><td rowspan=1 colspan=1>Topic8</td><td rowspan=1 colspan=1>xml生态城市|评价方法|模式识别|分子标记</td><td rowspan=1 colspan=1>opic23</td><td rowspan=1 colspan=1>情报学|目标跟踪|网络模型|搜索引擎|空间信息</td></tr><tr><td rowspan=1 colspan=1>Topic9</td><td rowspan=1 colspan=1>知识构建|结构信息|计算机|数据集|标准化</td><td rowspan=1 colspan=1>Topic24</td><td rowspan=1 colspan=1>网络信息组织|检索系统|图书馆网站|门户网站|网站信息</td></tr><tr><td rowspan=1 colspan=1>Topic10</td><td rowspan=1 colspan=1>政府内户网站|路由协议|hoc|搜索系统|路由信息</td><td rowspan=1 colspan=1>Topic25</td><td rowspan=1 colspan=1>蛋白质|非线性|相互作用|上市公司|组成部分</td></tr><tr><td rowspan=1 colspan=1>Topic11</td><td rowspan=1 colspan=1>用户信息需求|图书馆员|电子政务|ia理论|信息资源</td><td rowspan=1 colspan=1>Topic26</td><td rowspan=1 colspan=1>图书馆|开发利用|高校图书馆|信息构建理论|信息理解</td></tr><tr><td rowspan=1 colspan=1>Topic12</td><td rowspan=1 colspan=1>可靠性|信息环境|信息构建理论|信息传递|internet</td><td rowspan=1 colspan=1>Topic27</td><td rowspan=1 colspan=1>信息化|标识系统|个性化服务|优化问题|信息门户</td></tr><tr><td rowspan=1 colspan=1>Topic13</td><td rowspan=1 colspan=1>机器人|信息构建|网络环境|分类器|网络化</td><td rowspan=1 colspan=1>Topic28</td><td rowspan=1 colspan=1>知识构建|认知控制|识别方法|特征提取|数字图书馆</td></tr><tr><td rowspan=1 colspan=1>Topic14</td><td rowspan=1 colspan=1>信息组织|信息检索|信息查寻行为|矩阵分解|社交网络</td><td rowspan=1 colspan=1>Topic29</td><td rowspan=1 colspan=1>WWw|实证研究|导航系统|知识构建|有效性</td></tr><tr><td rowspan=1 colspan=1>Topic15</td><td rowspan=1 colspan=1>网站信息构建|支持向量机|信息可视化|可视化</td><td rowspan=1 colspan=1>Topic30</td><td rowspan=1 colspan=1>用户体验|可用性|组织系统|信息抽取|动力学</td></tr></table>",
+    "context5": "![](images/d6b0e9df419cfc859f15c3020f274c9b41d538f8a25ca162400cce8431cf9d98.jpg)  \n图3信息构建领域主题时间序列(2000—2018)",
+    "context6": "注：图中实际数据范围为2000一2018年，回归趋势线范围为2000—2020年",
+    "context7": "由于ARIMA(p,d,q)模型构建过程子步骤较多，产生过程数据较多，无法一一展示，所以，本研究以线性回归斜率最高的Topic18 的 ARIMA(p,d,q)模型构建过程为例进行具体分析,其它5个主题的ARIMA(p,d,q)模型只展示结果。",
+    "context8": "首先进行Topic18的ARIMA(p,d,q)模型定阶，分别进行1阶和2阶差分（difference，本研究中简写为diff)，并与原始时间序列作比较，如图4所示，图中，diff1和diff_2分别表示差分1阶和2阶的结果。",
+    "context9": "由图4可知，差分1阶和2阶时时间序列已经平稳(围绕 $\\mathsf { y } = 0$ 均值波动)并且差异不大，所以确定Topic18模型参数中的d的阶数为1。然后，通过绘制自相关函数(autocorrelation function，ACF)和偏自相关函数（partial autocorrelation function，PACF）图来判定p,q 阶数(见图5)。其中,ACF和 PACF 图皆为2阶拖尾,可估计p,q阶数为2。",
+    "context10": "![](images/38d0a78d34fa69843bebad41bdf8564c7b54d1f86edcfc2e1ee3995dca8151c4.jpg)  \n图4模型差分定阶",
+    "context11": "![](images/1c004d89bba55c9d03cb875388fe0403bbd2a2212da52db6a42386fbb6650e84.jpg)  \n图5模型p,q定阶",
+    "context12": "然后，为了准确判定p,q参数值,本研究主要根据贝叶斯信息准则（Bayesian Information Criterion，BIC），具体使用网格搜索方法评估Topic18所有可能的ARI-${ \\mathsf { M A } } ( { \\mathsf { p } } , { \\mathsf { d } } , { \\mathsf { q } } )$ 的 BIC,其中BIC 值最小的p,q参数即为最优参数，得到最优参数为ARIMA（1，0，0）－BIC：一131.10191707,所以确定Topic18 的 ARIMA(p,d,q)模型最优参数为ARIMA（1，0，0），然后以之为基础进行时间序列模型构建。然后，按照前文所述方法进行模型检验（见图6）。",
+    "context13": "由图6可知,ARIMA（1，0，0）模型的残差图平稳分布(围绕均值变化);残差分布直方图为正态分布；",
+    "context14": "Normal $\\textsc { Q } \\textsc { Q }$ （quantile-quantile， $\\textsc { Q } \\textsc { Q }$ ）图为正态分布；Ljung-Box检验结果具有独立性。所以,建立的ARIMA（1，0，0）模型通过上述四步检验,即可以用于Top-ic18主题趋势的预测分析。"
+  },
+  "5.2信息构建研究主题趋势预测分析": {
+    "context1": "利用构建的ARIMA（1，0，0）模型对Topic18进行预测分析，绘制Topic18时间序列预测图（见图7），左边子图为所构建的模型对Topic18原始数据的拟合（2010—2018），由图可知模型拟合效果不错，右边子图为所构建的模型对Topic18未来5年（2019—2023）趋势预测。",
+    "context2": "![](images/af7649325be11f7a5ff7b5f511e027830eb671febd68e8dc0b75670ec60c913e.jpg)  \n图6模型检验结果",
+    "context3": "![](images/18e461e3b8c03c4e26da0c4174ed07203c8f898bc9cc378e2403caa62b63c9ce.jpg)  \n图7Topic18主题趋势预测",
+    "context4": "结合图7和图8,对Topic18、Topic14、Topic22、Topic9、Topic21和Topic30六个主题进行具体解读，进行学科主题趋势预测分析。",
+    "context5": "Topic18（信息构建评价指标）：信息构建评价指标构建研究主要集中于基于信息构建网站评价，包括图书馆、档案馆以及政府网站等。信息构建作为网站的一种设计理念，将信息构建作为对网站进行评价的依据则在网站发展当中具有十分重要的意义，其主要研究内容为从信息构建视角设计评价维度，再结合其他分析方法设计具体的评价指标，建立比较系统和健全的评价指标体系或者模型对目标网站进行评估[23,24]。根据图7该主题未来几年内不会发生较大变化，研究热度基本处于持平状态。",
+    "context6": "Topic14（信息构建与信息组织）：信息构建是组织管理信息资源的基础，信息组织是情报学的重要研究内容，同时也是信息构建的相关内容之一；信息构建是建立在信息组织的理论基础之上的，以实现信息“清晰化\"和“可理解”为目标，两者都属于情报学的分支学科[25.26]。目前该主题的研究内容主要集中在探讨信息组织与信息构建的关系，从概念、定义、实质、研究内容、研究目的等方面分析二者的异同，并以信息构建为基础讨论如何实现更有效的信息组织，根据图8该主题热度在未来几年内会有较大波动，整体上还是波动上升的发展趋势。",
+    "context7": "Topic22（信息构建与网络信息）：网络信息是信息构建研究中重要的处理对象，运用信息构建规范网络信息资源，强调信息质量，保证网络资源的可用性、可靠性和纯净性，把合适的信息传递给用户，选用最合适表现内容的方法和最适当的表现工具，使信息内容能够简明，真实地展示资源特色和资源价值，引导用户深入获取网络知识,以上是信息构建理论处理网络信息的最终目的[27.28]。在此过程中,可以看出信息构建与网络信息二者的关系：网络信息广泛存在，信息构建将无序杂乱的网络信息进行规范化处理与组织实现用户获取。在信息构建与网络信息的研究主题下，如何将信息构建理论应用于网络信息规范化、标准化、清晰化等有效组织以及方便用户获取是研究的重点内容，根据图8未来几年内该主题的研究热度呈现先上升后下降而后基本持平的发展状态。",
+    "context8": "![](images/9118f955e74fed0d448f074e03dc2669484598b657d438a0e5d043d319d860b4.jpg)  \n图8其它5个主题趋势预测",
+    "context9": "Topic9(知识构建)知识构建是更高认知层次的活动，是为促进人们从信息中获得知识以及从知识中获得智慧，是在信息构建基础之上，基于知识的可理解特性为知识管理的应用提供切实可行的结构框架，它是知识管理的基础和前提，是信息管理的更高层次。知识构建对知识管理体系中的知识获取、知识表示、知识存储和知识共享优化的思路[29]。目前知识构建研究主要集中于与知识管理、信息组织关系探讨以及知识构建模式的初步探索。根据图8,该领域的研究热度在未来几年内逐渐上升的发展趋势。",
+    "context10": "Topic21（信息构建与网站建设）：信息构建与网站建设具有密不可分的关系，目前该领域的研究主要包括三个方面[30-32]：第一，电子商务网站的建设。基于信息构建的电子商务网站建设就是对电子商务网站的信息组织系统、导航系统、标识系统、检索系统的进行规划设计的过程，因此研究重点也主要为基于信息构建理论实现对上述系统的构建并进行改进。第二，电子政务或政府网站的建设，与电子商务网站类似，基于信息构建视角实现政府网站的组织系统、标识系统、导航系统和搜索系统构建以及设计控制词汇表。第三，图书馆档案馆的网站建设，基于信息构建的相关理论实现图书馆档案馆网站的改进与优化。上述3个方面的网站建设研究在本质上都是类似的，只是面向的服务对象不同，因此需要根据服务对象的特点制定不同的构建策略，从根本上反应信息构建应用的广泛性。根据图8,该主题的研究热度是以较快速度增长的。",
+    "context11": "Topic30（基于用户体验的信息构建)：在网站设计过程中，用户体验是信息构建的主要内容，实施信息构建的目的是获得良好的用户体验[33]。目前基于用户体验的信息构建研究主要体现在分析用户体验与信息构建的关系，提出基于用户体验的网站信息构建流程等。根据图8，该主题的研究热度是呈现下降趋势的，主要可能原因是主题的发展演化逐渐融合到其他研究主题下。"
+  },
+  "6讨论与总结": {
+    "context1": "本文在调研分析目前情报学主要学科主题趋势分析方法基础上，提出基于ARIMA模型的学科主题趋势预测方法，可以用来分析某领域的主要研究主题的发展趋势。通过选取CNKI数据库收录的期刊论文作为数据源，利用本文提出的学科主题趋势预测方法，对信息构建领域的主题变化趋势进行了研究，研究结果一是显示了本文提出的方法是可行、有效的；二是显示了信息构建领域几个重要主题的变化趋势。与现有人工定性判读学科主题发展趋势的方法相比，本文中提出的基于ARIMA模型的学科主题趋势预测方法，更加科学、严谨，能够构建主题趋势的时间序列模型并进行趋势预测，在此基础上结合人工定性判读，提高了学科情报分析的科学性和准确性。",
+    "context2": "本研究也存在一定的局限，比如，仅仅从主题强度维度构建时间序列模型，虽然能够较为科学的预测学科主题趋势，但对于具体内容的趋势分析有待进一步深化。总体来说，可以从提高学科主题趋势分析的语义含量入手，即通过语义分析增强LDA主题识别结果的语义表达能力。所以接下来的工作是进行学科主题的语义分析和内容演化分析，从而进一步提高学科主题趋势预测的可读性和准确性。"
+  },
+  "作者贡献说明": {
+    "context1": "岳丽欣：相关文献调研与资料收集，论文撰写与修改；  \n周晓英：论文框架和思路设计，指导论文撰写并修改论文；"
+  },
+  "陈旖旎：协助数据采集与分析。": "",
+  "支撑数据": {
+    "context1": "支撑数据由作者自存储,Email:yuelixin1992 $@$ 163.com。",
+    "context2": "1岳丽欣.Data.xls.用户搜索、下载的期刊题录数据.",
+    "context3": "2岳丽欣.Topic.xls.LDA主题识别结果.",
+    "context4": "3岳丽欣.Topic Time Series.xls.主题时间序列数据."
+  },
+  "参考文献": {
+    "context1": "1刘小平，冷伏海，李泽霞.国际科技前沿分析的方法和途径[J]. 图书情报工作，2012,56(12)：60-65.   \n2 刘自强，王效岳，白如江.多维度视角下学科主题演化可视化分 析方法研究[J].中国图书馆学报，2016，42(6)：67-84.   \n3 Blei D M，Ng A Y,Jordan MI.Latent Dirichlet Allocation[J]. Journal of Machine Learning Research,2003(3）：993-1022.   \n4 BleiD M，Lafferty J.Dynamic Topic Models[C]//Proceedings of the 23rd International Conference on Machine Learning.NewYork： ACM,2006:113-120.   \n5 Newman D，Asuncion A U,Smyth P，et al. Distributed Inference for Latent Dirichlet Allocation[C]//Neural Information Processing Systems.NewYork:ACM,2007：1081-1088.   \n6 WangY，Bai HJ，StantonM，etal.PLDA：Parallel LatentDirichlet Allocation for Large-scale Applications[C]//Proceedings of the 5th International Conference on Algorithmic Aspects in Information and Management.San Francisco:AAlM,2009:301-314.   \n7 LiuP，LeiL，WeiH，etal.HLDA Based Text Clustering[C]// International Conference on Cloud Computing and IntelligentSystems.Washington:IEEE Computer Society,2013:1465-1469.   \n8 Rosen-Zvi M，Griffiths T，Steyvers M，et al．The Author-topic Model for Authors and Documents[C]//Proceedings of the 20th Conference on Uncertainty in Artificial Intelligence.Barcelona: AUAI Press，2004：487-494.   \n9 Liu Y.Topic-Link LDA：Joint Models of Topic and Author Community [C]//ICML'09 Proceedings of 26th Annual International Conference on Machine Learning.New York:ACM，2009:665-672."
+  },
+  "10范云满，马建霞.基于LDA与新兴主题特征分析的新兴主题探测研究[J].情报学报，2014,33(7)：698-711.": {
+    "context1": "11Yan E.Research Dynamics,Impact,and Dissemination:A Topiclevel Analysis[J].Journal of the Association for Information Science and Technology，2015，66(11):2357-2372.",
+    "context2": "12范少萍，安新颖，晏归来，等.医学领域前沿主题识别方法研究[J].情报学报，2018,37(7)：686-694.",
+    "context3": "（下转第72页）"
+  }
+}

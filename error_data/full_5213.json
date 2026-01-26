@@ -1,0 +1,113 @@
+{
+  "original_filename": "full_5213.md",
+  "●李纲，郑重 (武汉大学信息资源研究中心，湖北武汉430072)": "",
+  "应用于信息检索的统计语言模型研究进展 ￥": {
+    "context1": "摘要：统计语言模型作为一种自然语言处理的工具，已经被证明有能力处理大规模真实文本。而统计语言模型和 R相结合后所形成的 SIM-IR模型的提出，是信息检索模型研究上的重大进展。本文介绍了统计语言模型在信息检索领域的基本模型及相关问题，重点分析了Lemur工具箱和标题语言模型的原理及模型，最后从整体上介绍了该领域的国际动态和研究进展情况。",
+    "context2": "关键词：信息检索；统计语言模型；查询条件概率模型；主题语言模型",
+    "context3": "AbstractAs a naturallanguage prcessng tool statistical language modeling is proved to be able to process large-scalereal text Theadvance of SLM-IR model which is thecombination of Statistical Language Modeling (SLM）and Infomation Retrieval（IR），represents a greatprogressin the research on IR modeling This paper introduces the basic modelofSLMinIR fieldand sme related problemswithemphasis on analyzingthe principles and modeling ofLemurand Title Language Model Finallythe paper introduces the development trend and research progress of this field in the world",
+    "context4": "K eyw ordsinfomation retrieval statistical language modelingquery-likelihood modeltitle language model",
+    "context5": "统计语言模型（Statistical Language ModelingSLM）是关于某种语言所有语句或者其他语言单位的分布概率。也可以将统计语言模型看作是生成某种语言文本的统计模型。统计语言模型起源于20世纪初期，最早由Markov应用到俄国文献的字母序列建模中，但直到 20世纪中期Shannon尝试运用字母序列和单词序列模型解释译码的含义和信息理论后，这一领域的研究工作才开始正式得到发展。此后许多年，统计语言模型统计被发展成一种自然语言处理工具，主要运用在语音识别、机器翻译以及拼写改正等研究中。",
+    "context6": "近年来，应用于信息检索的统计语言模型成为情报科学的研究热点。"
+  },
+  "1 SLM-R模型简介": "",
+  "1.1 R基本模型": {
+    "context1": "在过去的40年里，信息检索领域出现了许多检索模型，最经典的包括布尔模型（Boolean Model)、概率模型（Probabilistic Model）和向量空间模型（Vector Space Mod-el)。经典的信息检索模型使用一组具有代表性的关键词(索引术语）来描述数据库中的每一篇文档。术语是文档中的一些简单的单词，通过它们可以与数据库中的文档相联系，所以我们使用术语来索引文档内容。一般来说，索引术语大部分是名词，因为名词的语义很容易识别，而形容词、副词和连接词经常以补语的形式出现，因此很少被用作索引术语。然而在某些系统中也可能将文档中每个不同的单词作为索引术语，如某些Web上的全文检索系统[1]。",
+    "context2": "布尔模型是基于集合论和布尔代数的一种简单检索模型。向量模型认识到布尔模型中的二元权重的局限性，从而提出了一个适合部分匹配的框架。概率模型的基本理论是：给定一个用户的查询串q和集合中的文档dj 概率模型来估计用户查询序列与文档相关的概率。概率模型假设这种概率只决定于查询序列和文档。换句话说，该模型假定存在一个所有文档的集合，即相对于查询序列的结果文档子集，这种理想的集合用R表示，集合中的文档是被预料与查询序列相关。"
+  },
+  "1.2 查询条件概率模型": {
+    "context1": "将统计语言模型和信息检索相结合是Ponte和Croft在1998年首次提出的，这个最早的语言模型检索方法被称为查询条件概率模型（Query-likelihood Model)[2]。该模型假设用户头脑中有一个能满足他的信息需求的理想文档，用户从这个理想文档中抽取词汇作为查询条件，用户所选择的查询条件词汇能够将这个理想文档同文档集合中其他文档区分开来，这样查询条件可以看作是由理想文档生成的能够表征该理想文档的文本序列。这个假设使信息检索系统的任务转化为判断文档集合中哪一文档与理想文档最接近的问题。用公式表示即为：",
+    "context2": "arg max $\\mathrm { P }$ (D $\\mid { \\bf \\Delta } ( 0 ) =$ a rg m ax $\\mathrm { P } ( \\mathrm { Q } \\mid \\mathrm { ~ \\mathrm { ~ D } ) P ( \\mathrm { D } ) }$ (1)",
+    "context3": "D",
+    "context4": "D",
+    "context5": "其中，Q代表查询条件，D代表文档集合中某个文档。先验概率 $\\mathrm { P }$ （D）对于文档集合中每篇文档来说都是相同的。所以关键是估计每篇文档的语言模型P（Q丨D)。换句话说，首先需要估计每篇文档的词汇概率分布，然后计算从这个分布抽样得到查询条件的概率，并按照查询条件的生成概率来对文档进行排序。",
+    "context6": "Ponte和Cmft在他们的工作中采取了“多变量贝努力”方法来近似估计 P(Q」D)。他们将查询条件表示为二值属性构成的向量，词汇表中每个不同词汇代表了向量中的一维用来表示词汇是否在查询条件中出现。在这个方法后面隐藏着以下几个假设： $\\textcircled{1}$ 二值假设：所有属性是二值的。如果一个词汇出现在查询条件中，代表该词汇的属性值被设置成1，否则设置为O。 $\\textcircled{2}$ 词汇独立假设：文档中词汇之间的关系是正交关系，也就是说是相互独立的，不考虑词汇之间的相互影响。",
+    "context7": "基于以上假设，查询条件生成概率P（Q」D）可以转化为两个概率的乘积：一个是生成查询条件词汇的概率，另一个是没有生成查询条件词汇的概率。其中P（W|D）利用包含词汇W的所有文档的平均概率和风险因子来计算。对于没有出现的词汇，使用文档集合的全局概率来计算。",
+    "context8": "在这个模型中，一些统计信息比如词频信息（TemFrequency）和文档频率（DocumentFrequency）等信息成为语言模型检索方法中的有机组成部分。这一点与传统检索模型不同，在传统检索模型中，这些信息都是作为启发规则性质的计算因子引入的。另外，文档长度归一因素化成为不必单独计算的因子，因为它已经隐含在语言模型中的概率参数中了。",
+    "context9": "实验数据表明，尽管Ponte等人提出的语言模型还只是很简单的模型，但是在检索效果方面已经可以和目前性能最好的概率检索模型相当或者更好，这在很大程度上促进了基于统计语言模型的信息检索系统的发展。"
+  },
+  "1.3各种模型的比较": {
+    "context1": "布尔模型由于其简洁性一直受到商业搜索引擎的青睐，但功能也是最弱的。而向量空间模型和概率模型却由于其形式化备受学者们的推崇，如果从学术研究状况和及商业运用模式上看，向量空间模型则更受欢迎。但是这些传统检索模型由于过于依赖人工的经验参数，存在较大的主观因素。而统计语言模型统计有统计理论基础，而且在语音识别和机器翻译领域已经有了很多成果，很有学术研",
+    "context2": "究及商业应用方面的前景。",
+    "context3": "与传统检索模型相比，语言模型检索方法有下列优点： $\\textcircled{1}$ 能够利用统计语言模型来估计与检索有关的参数。$\\textcircled{2}$ 可以通过对语言模型更准确的参数估计或者使用更加合理的语言模型来获得更好的检索性能。 $\\textcircled{3}$ 统计语言模型方法对于文档中的子主题结构和文档间的冗余度建立统计模型也是有帮助的。4种模型区别见表1。",
+    "context4": "表14种模型的区别",
+    "context5": "<table><tr><td rowspan=1 colspan=1>经典模型</td><td rowspan=1 colspan=1>布尔模型</td><td rowspan=1 colspan=1>向量空间模型</td><td rowspan=1 colspan=1>概率模型</td><td rowspan=1 colspan=1>语言模型方法</td></tr><tr><td rowspan=1 colspan=1>提出时间</td><td rowspan=1 colspan=1>20世纪50年代</td><td rowspan=1 colspan=1>20世纪60年代</td><td rowspan=1 colspan=1>20世纪80年代</td><td rowspan=1 colspan=1>20世纪90年代末</td></tr><tr><td rowspan=1 colspan=1>理论基础</td><td rowspan=1 colspan=1>集合论</td><td rowspan=1 colspan=1>代数理论</td><td rowspan=1 colspan=1>概率论</td><td rowspan=1 colspan=1>概率论随机过程</td></tr><tr><td rowspan=1 colspan=1>相关文档判断</td><td rowspan=1 colspan=1>二元无序</td><td rowspan=1 colspan=1>非二元有序</td><td rowspan=1 colspan=1>非二元有序</td><td rowspan=1 colspan=1>非二元有序</td></tr><tr><td rowspan=1 colspan=1>系统实现难度</td><td rowspan=1 colspan=1>简单</td><td rowspan=1 colspan=1>简单</td><td rowspan=1 colspan=1>较难</td><td rowspan=1 colspan=1>简单</td></tr><tr><td rowspan=1 colspan=1>部分匹配支持</td><td rowspan=1 colspan=1>不支持</td><td rowspan=1 colspan=1>支持</td><td rowspan=1 colspan=1>支持</td><td rowspan=1 colspan=1>支持</td></tr><tr><td rowspan=1 colspan=1>商业运用情况</td><td rowspan=1 colspan=1>采用</td><td rowspan=1 colspan=1>常采用</td><td rowspan=1 colspan=1>采用</td><td rowspan=1 colspan=1>未采用</td></tr></table>"
+  },
+  "2 SLM- R基本领域": {
+    "context1": "信息检索一般可以看成由4个基本问题构成：用户需求表达，文档内容表达，用户需求和文档匹配方式。不同的模型有着不同的解决办法和侧重点，如布尔模型侧重于结构化查询，向量空间模型侧重于权重计算，概率模型侧重于利用相关性文档估计权重。而基于语言模型的信息检索系统则在解决上述3个问题的同时，也将如结构化查询、语义查询扩展、相关性反馈等与信息检索相关的技术统一在一个理论框架下，这是其他检索模型无法比拟的。"
+  },
+  "2.1 基本模型": {
+    "context1": "1) $\\mathrm { N } \\mathrm { \\Pi } _ { \\mathrm { g r a m } }$ 模型。到目前为止，最流行的统计语言模型是 $\\mathrm { N } \\mathrm { \\Pi } _ { \\mathrm { g r a m } }$ 模型， $\\mathrm { N } { = } 1 ,$ ：2，3…假设一个句子 S代表了某个长度为k的特定单词序列， $\\mathrm { \\sf S } = \\mathrm { \\sf ~ \\{ ~  ~  ~ }  _ { \\mathrm { \\bf W } 1 }$ ， $\\mathbf { W } _ { 2 }$ ，…， $\\mathbf { w _ { k } } ^  \\mathrm { ~ \\biggr ~ \\} }$ ，可以表示句子 $\\mathbb { W }$ 的出现概率为：",
+    "context2": "$$\n\\mathrm { ~ \\mathrm { ~ p ~ } ~ ( ~ s ~ ) ~ } = \\prod _ { i = 1 } ^ { k } \\mathrm { ~ p ~ } \\left( \\mathrm { w } _ { \\mathrm { i } } \\mid _ { \\mathrm { ~ } \\mathrm { w } _ { \\mathrm { i } } - 1 } , \\mathrm { ~ } _ { \\mathrm { w } _ { \\mathrm { i } } - 2 } , \\mathrm { ~ } _ { \\mathrm { w } _ { \\mathrm { i } } - 3 } , \\mathrm { ~ } \\cdots , \\mathrm { ~ } _ { \\mathrm { w } _ { \\mathrm { i } } - \\mathrm { n } ^ { + } 1 } \\right)\n$$",
+    "context3": "令 ${ \\mathrm { k } } = 1 ,$ 2，3，就分别对应Unigram，Bigram 和Trigram模型。从概率理论的角度来说，分别对应0阶，1阶和2阶的离散马尔科夫链。以“我今天上午去医院看病”这句话为例，它的 Trigram模型是：",
+    "context4": "p(我今天上午去医院看牙齿） $= _ { \\mathrm { p } }$ (齿「看牙） $\\times _ { \\mathrm { { p } } }$ (牙丨院看） $\\times _ { \\mathrm { { p } } }$ (看丨医院） $\\times _ { \\mathrm { { p } } }$ （院丨去医） $\\times _ { \\mathrm { { p } } }$ （医「午去） $\\times _ { \\mathrm { p } }$ (去丨上午） $\\times _ { \\mathrm { p } }$ (午｜天上） $\\times _ { \\mathrm { { p } } }$ (上|今天） $\\times _ { \\mathrm { p } }$ (天｜我今） $\\times _ { \\mathrm { p } }$ (今｜我） $\\times _ { \\mathrm { p } }$ (我）",
+    "context5": "如果求出上面式子里面的每一个Trigram的概率，那么这个句子的概率就可以求出来了。依此类推可以求得任意 $\\mathrm { N } \\mathrm { \\bf \\bar { g } r a m }$ 模型的参数。但是这样的估计存在一个严重的缺陷，因为训练语料再大，也无法涵盖所有的语言现象，即总有一些在自然语言中存在的 $\\mathrm { \\bf N } \\mathrm { \\bf \\bar { \\Lambda } g m }$ ，没有在训练语料中出现，即所谓的数据稀疏问题。要解决数据稀疏问题，就要给未出现在训练语料中的 $\\mathrm { N } \\mathrm { \\bar { \\ g m m } }$ 赋予一定的概率，这就是后文将要谈到的参数平滑问题。",
+    "context6": "2）隐马尔科夫模型。Miller等人在1999年的 SIGIR国际会议上一篇论文中提出隐马尔可夫模型（HiddenMarkovModel，HMM）引入信息检索领域[3]。该方法在本质上是一种统计语言模型方法，而且根据该方法推导出的查询条件和文档相似度计算公式与Ponte经典语言模型方法基本一致。实验结果表明了这是一种有效的方法。",
+    "context7": "离散隐马尔可夫模型一般来说由以下 4个参数集合构成：状态集合，状态集合中各个状态间的转移概率集合，状态输出的可见符合集合与每个状态产生可见符号的概率集合。系统从初始状态集合中的状态开始，根据状态转移概率随机地从一个状态向另一个状态转移，直到转移到某个最终状态为止。在这个随机状态转移过程中，由于每个状态都可以按照一定的概率分布发出某些可见符号，所以在状态转移过程中伴随着一系列可见符号的产生。之所以称之为隐马尔可夫模型，是因为对于外界观察者来说，系统的状态转移过程是不可见的，能够观察到的仅仅是由状态转移过程中发生的可见符号系列。",
+    "context8": "HMM方法将信息检索过程看作是上述的离散隐马尔可夫模型。假设文档集合 S包含 N个不同文档，HMM方法根据每一篇文档d和文档集合 S构造包含两个状态的离散隐马尔可夫模型，这样得到N个不同的隐马尔可夫模型的集合，任一个隐马尔可夫模型由以下4组参数集合构成：文档d本身和文档集合 S构成状态集合：状态间的转移概率集合 $\\begin{array}{c} \\mathrm { { T } ^ { \\ b } = \\ b { \\mathscr { n } } \\left\\{ \\begin{array} { r l } \\end{array} \\right. } \\end{array}$ ，a2，…， $\\mathbf { a } _ { 3 } \\nmid$ ；状态输出可见符号集合由文档集合中出现的所有词汇构成；而每个状态产生可见符号的概率集合通过以下最大似然估计（MaxmumLikelihood Estimation）得到：",
+    "context9": "$$\n\\mathrm { ~ p ~ ( ~ t e m ~ ^ { \\mathrm { ~ \\vert ~ } } ~ D _ { K } ~ ) ~ } = \\frac { \\mathrm { ~ t f _ { \\mathrm { e m } } ~ } } { \\vert \\mathrm { ~ \\partial ~ D _ { k } ~ } \\vert }\n$$",
+    "context10": "$$\n\\mathrm { ~ p ~ ( ~ t e m ~ | ~ G _ { E } ~ ) ~ } = \\frac { \\sum _ { \\mathrm { ~ k ~ } } { \\mathrm { t f } _ { \\mathrm { { e m } } } } } { \\sum _ { \\mathrm { ~ k ~ } } | \\mathrm { ~  ~ D _ { k } ~ } | }\n$$",
+    "context11": "其中 $\\mathrm { t f } _ { \\mathrm { e m } }$ 代表词汇 tem 在文档 $\\mathrm { D } _ { \\mathrm { k } }$ 出现的次数，$| \\mathbf { \\epsilon } _ { \\mathrm { ~ D ~ } _ { \\mathrm { k } } } |$ 代表文档 $\\mathrm { D } _ { \\mathrm { k } }$ 的长度，也就是文档包含的单词个数。HMM方法将已知的查询条件看作是由上述的N个不同隐马尔可夫模型产生的观察到的可见符号序列。这样文档和查询条件的相关计算就转化为马尔可夫模型生成可见序列的概率问题，该方法认为这个生成概率越大也就说明该文档与查询条件越相关。判断两者相关度的公式如下：",
+    "context12": "$$\n\\mathrm { \\textbf { p } ( Q | \\textbf { D } _ { k } ) \\ = \\underset { \\mathcal { F } \\mathrm { \\textbf { ( } a _ { 0 } ~ p _ { \\mathrm { ~ ( } q | \\textbf { G E ) } } } } { \\mathrm { I I } } \\ + _ { a _ { 1 } p _ { \\mathrm { ~ ( } q | \\textbf { D } _ { k } ) } } ) }\n$$",
+    "context13": "3）风险最小化框架。Lafferty和 Zhai基于贝叶斯决策理论提出了一个风险最小化框架（RiskMinm ization）检索模型[4]。在这个框架中，查询条件和文档利用统计语言模型来建立模型，用户需求偏好（UserPreference）通过风险函数来进行建模。这样一来，信息检索被转换为风险最小化问题，文档和查询条件的相似性度量采取了如下的文档语言模型和查询条件语言模型之间的KulbackLeiblei距离：",
+    "context14": "$$\n\\mathrm { K L ~ ( Q P D ) ~ \\ { \\stackrel { } { \\operatorname { \\Longrightarrow } } \\ } _ { v \\in \\mathrm { v } } p ~ ( w | ~ Q ) ~ \\ \\log ^ { \\mathrm { ~ p ~ ( \\mathrm { ~ w ~ | ~ } ~ 0 ~ ) ~ } } }\n$$",
+    "context15": "与其他相关研究比较，风险最小化框架的一个重要优点在于，这个理论不仅能够利用统计语言模型对查询条件建模，而且同样可以用于对查询条件建模。这样就使相关检索参数的自动获得成为可能，同时还通过统计参数估计方法来改善检索性能，这个框架和概率检索模型有一定的相似性，还能够将现有的语言模型检索方法融入到该框架。",
+    "context16": "Lafferty和 Zhai在 2OOl年使用马尔科夫链方法来估计扩展查询条件语言模型，以克服Berger和Lafferty提出的统计翻译方法的缺陷。在进一步的相关工作中，Lafferty和Zhai建议使用两阶段语言模型来探讨查询条件和文档集合对于检索参数设置的不同影响。关于两阶段参考模型会在后文具体介绍。",
+    "context17": "4）相关模型。与其他试图建立查询条件生成概率方法的思路不同，Lavrenko和Croft明确地对“相关性”进行建模并提出了一种无需训练数据来估计相关模型（RelevantModel）的新的方法。从概念角度讲，相关模型是对用户信息需求的一种描述，或者说是对用户信息需求相关的主题领域的描述。相关模型假设：给定一个文档集合与用户查询条件Q，存在一个未知的相关模型R，相关模型R为相关文档中出现的词汇赋予一个概率值 P(w|R)。这样相关文档被看作是从概率分布P（w|R）中随机抽样得到的样本。同样的，查询条件也被看作是根据这个分布随机抽样得到的样本。",
+    "context18": "对于相关模型来说，如何估计分布P（w|R）是最根本的问题。P（w」R）代表了从相关文档中随机抽取一个词汇正好是词汇w的概率值。只要我们能分辨出相关文档，这个概率值很容易得到。但是在一个典型的检索任务中，这些相关文档是不可知的。Lavrenko和Cmft提出了一种合理的方法来近似估计 $\\mathrm { P }$ (w|R)，他们使用以下联合概率来对这个值进行估计：",
+    "context19": "$$\n{ \\textrm { p } } ( { \\textrm { w } } | { \\textrm { \\textit { R } } } ) \\approx _ { \\textrm { p } ( { \\textrm { w } } | { \\textrm { \\textit { Q } } } ) } \\ { \\frac { { \\textrm { p } } ( { \\textrm { w } } , { \\textrm { \\textit { q } } } , \\ \\cdots , { \\textrm { \\textit { q } } } ) } { { \\textrm { p } } ( { \\textrm { q } } , \\ \\cdots , { \\textrm { \\textit { q } } } ) } } =\n$$",
+    "context20": "$$\n\\frac { \\mathrm { ~ p ~ ( } \\mathrm { w , ~ \\mathrm { q } _ { \\mathrm { l } } , ~ \\cdots , ~ \\mathrm { q } _ { \\mathrm { n } } ~ ) ~ } } { \\sum _ { \\mathrm { e } _ { \\mathrm { v o c a b u l a r y } } } ^ { \\mathrm { ~ } } \\mathrm { p } \\mathrm { ~ ( ~ \\mathrm { v } ~ \\mathrm { q } _ { \\mathrm { l } } , ~ \\cdots , ~ \\mathrm { q } _ { \\mathrm { n } } ~ ) ~ } }\n$$",
+    "context21": "Lavrenko提出两种估计上述联合概率分布的方法，这两种方法都假设存在一个概率分布集合U，相关词汇就是从U中某个分布随机抽样得到的，不同点在于各自独立假设。方法一是假设所有查询条件词汇和相关文档中的词汇是从同一个分布随机抽样获得，这样一旦从集合U中选定某个分布 M后，这些词汇是相互无关独立的。方法二假设查询条件词汇 ${ \\bf q } _ { \\mathrm { i } }$ ，…， ${ \\bf q } _ { \\mathrm { n } }$ 是相互独立的，但是和词汇 $\\mathbf { W }$ 是相关的。",
+    "context22": "条件概率分布P（qiw）可以通过对于一元语言模型的全集U进行如下计算得到：",
+    "context23": "$$\n\\mathrm { ~ P ~ } \\left( \\mathbf { q } _ { \\mathrm { i } } | \\ \\mathrm { ~ \\bf ~ w ~ } \\right) \\ \\mathrm { = } \\mathrm { \\sum ~ P ~ } \\left( \\mathbf { q } _ { \\mathrm { i } } | \\ \\mathrm { ~ \\bf ~ M _ { i } ~ } \\right) \\ \\mathrm { ~ P ~ } \\left( \\mathbf { M } _ { \\mathrm { i } } | \\ \\mathrm { ~ \\bf ~ w ~ } \\right)\n$$",
+    "context24": "在这里又作了如下假设：一旦选定一个分布 $\\mathbf { M }$ ，查询条件词汇 ${ \\bf q } _ { \\mathrm { i } }$ 就和词汇 $\\mathbf { W }$ 是相互独立的。相关模型是一种将查询扩展技术融合进入语言模型框架的比较自然的方法。"
+  },
+  "2.2数据稀疏性问题": {
+    "context1": "1）最大似然估计[5]。假设一个单词 w在语料库中出现的概率P（w）符合二项分布规律，则当语料库容量 N足够大时，我们可以期望单词 $\\mathbf { W }$ 将出现 $\\mathrm { ~ N ~ } \\cdot \\mathrm { ~ P ~ }$ （w）次，从而得到P（w）的估计值为：",
+    "context2": "$$\n\\mathrm { ~ P ~ } \\left( \\mathrm { ~ w ~ } \\right) \\ = \\frac { \\mathrm { ~ f ~ \\left( ~ w ~ \\right) ~ } } { \\mathrm { ~ N ~ } }\n$$",
+    "context3": "其中 f（w）为单词 $\\mathbf { W }$ 在语料库中出现的频度。这就是 MLE估计方法。",
+    "context4": "MLE方法在许多情况下都能得到比较合理的估计。但是当数据不能很好地适应模型时，这种估计方法也可能出问题。",
+    "context5": "研究表明，实词（ContentWord）在语料库中的分布不能很好地符合二项分布规律，因为实词倾向于“突发性”地出现；由于某些文章风格因素的作用，功能词（FunctionWord）可能也会偏离二项分。另外，由于统计数据的稀疏性，必然会出现一些语料库中不出现的情况，对此，MLE方法将给出零概率的估计值，这给后续的计算处理带来了许多问题。所有这些不足，都需要寻找更精细的参数估计方法加以解决。",
+    "context6": "2）平滑技术。通常由于建立统计语言模型时所使用的训练语料都是有一定规模的，不可能是无限的，这就导致了一个问题：在现实世界中出现的语言现象没有在训练语料中出现。于是根据训练语料建立的语言模型就不能刻画和描述这种语言现象。当然，通过扩大训练语料的规模可以在一定程度上缓解这个问题，但是训练语料的规模不能无限地扩大，而且统计发现，即便是训练语料扩展到很大规模，但是还是不能捕捉到许多在现实中出现的小概率的语言现象。因此扩大训练语料的规模不能完美地解决数据稀疏的问题。",
+    "context7": "平滑技术的主要思想就是调整由极大似然估计得到的概率分布，从而得到一个更准确更合理的概率分布。平滑技术通常会使较低的概率值（比如0）升高，同时，使较高的概率值降低，从而使得整个概率分布更加的平滑和均衡，这也正是平滑技术名字的由来。平滑技术的提出和使用不仅仅是为了解决刚才我们看到的零概率问题，同时，它有一个更重要的功能就是将从训练语料估计出的语言模型在总体上调整得更加准确和合理。当我们所建立的 Ngram的语言模型的阶数越高，同时，我们使用的训练语料规模越小时，平滑技术所显示出来的重要性就会越大。可以把绝大多数的平滑方法归于两类，即退化法和线性插值法。"
+  },
+  "3研究成果分析": {
+    "context1": "Ponte和Coft在1998年首次提出将统计语言模型和信息检索相结合，提出查询概率模型后，不少学者在此基础上纷纷提出了改进的方法或者模型。"
+  },
+  "3.1 Lemur工具箱": {
+    "context1": "Lemur工具箱[6]，是由卡内基梅隆大学信息检索及语言模型工作组于 2002年1月发布的，目前最新版本为2.1.1。它支持对大规模文本数据库的索引，以及对文档、提问或文档子集构建简单的语言模型。除此之外，它还实现了两种传统的检索模型，即采用 TFIDF加权策略的向量空间模型和OKAPI概率模型。Lemur工具箱的主要组成部分如图1所示。",
+    "context2": "![](images/d6c078329b5281166d9d6f29042b1b8e1781a981f118a5d4398050de578090e1.jpg)  \n图1Lemur工具箱的主要组成部分",
+    "context3": "Lemur工具箱主要为adhoc检索任务服务，例如：比较文档模型的平滑策略；在标准的 TREC文档集上用提问扩展（Query Expansion）的方法估计提问模型，等等。另外，它还提供了标准的对外接口（API）供研究人员调用，目的在于促进新的检索方法的研究。Lemur工具箱的大多数应用程序的使用步骤都遵循以下两步：",
+    "context4": "1）创建一个参数文件，定义该应用所需的输入变量的值。比如：",
+    "context5": "$$\n\\mathrm { \\dot { \\ n d e x } = \\nabla / \\ u s r ^ { 0 } / m \\ y d a t a / i n d e x \\quad \\ b s c }\n$$",
+    "context6": "表示为输入变量“index”指明了一个要创建基本索引的目录文件的路径（后缀．bsc表示基本索引（BasicIndex)，如果为·ifp 则表示位置索引（Position Index））。",
+    "context7": "2）运行应用程序，以上述参数文件名作为唯一的参数或第一个参数。Lemur工具箱提供了每一种应用的详细文档，使用起来相当方便。"
+  },
+  "3.2标题语言模型": {
+    "context1": "标题语言模型（TitleLanguage Model）是由CMU的Rong Jin等人在 $\\mathrm { S i g i r ^ { 2 0 0 2 } }$ 上提出来的一种传统 SLM-IR模型的改进模型[]。主要思想是把条件概率P（Q丨D）定义为：使用提问Q作为文档 D的标题的概率。他们利用通过机器学习方法得到的标题和文档之间的统计翻译模型来计算概率 P (Q|D)。为了避免数据稀疏问题，他们提出了两种新的平滑方法。标题语言模型主要思想是建立文档的标题语言模型，然后计算由该模型生成提问的可能性。因此关键问题在是如何在对文档集合观察的基础上建立标题语言模型。",
+    "context2": "建立标题语言模型的一种简单方法是直接使用文档标题，但是考虑到选择标题的机动性太大，以及文档作者通常只会使用单一标题等因素，试图直接利用文档标题来建立成功的标题语言模型几乎是不可能的任务。RongJin等人所提出的方法是利用统计翻译模型，在对该文档认真观察的基础上建立标题语言模型，或者说是根据统计翻译模型将文档普通语言模型转化为标题语言模型的过程。",
+    "context3": "首先，要建立一个统计翻译模型。Rong等人所使用的是统计翻译模型源自于IBM统计翻译模型。IBM公司提出了5种复杂程度递增的数学模型[8]，简称为 IBM$\\mathrm { \\mathbf { M } o d e l l } \\sim 5 _ { \\circ }$ 词语翻译概率P( $\\mathrm { ~ \\bf ~ \\underline { ~ } { ~ t ~ } ~ } | _ { \\mathrm { ~ d _ { w } ~ } } )$ 是统计标题翻译模型建立的关键因素， $\\mathrm { P }$ （ $_ { \\mathrm { ~ t ~ } } \\mid _ { \\mathrm { ~ d _ { w } ~ } } )$ 是当把词语 $\\mathrm { \\Sigma _ { w } }$ 作为标题，在文档中生成词语 $\\mathrm { d } _ { \\mathrm { w } }$ 的概率。一旦确定了一批词语翻译概率，就能很容易计算出基于文档的标题语言模型。我们可以利用文档一标题模式来研究词语翻译概率序列的相关问题。通过把文档看作是“冗长”语言样本，而把标题看作是“简洁”语言样本，每一个文档一标题模式都能变成一对翻译模式，即一对分别用“冗长”和“简洁”语言表示的文本。",
+    "context4": "其次，需要计算文档提问相似性。统计翻译模型可以用来寻找文档标题语言模型，并利用已建立的标题语言模型计算提问和文档的相关值。我们将条件概率P（Q「D）定义为：使用提问Q作为文档D的标题的概率，或者认为是运用统计语言翻译模型将文档D翻译成提问Q",
+    "context5": "见公式（10)。",
+    "context6": "$$\n\\begin{array} { r l } & { \\mathrm { ~ \\mathbb { P } ~ \\Gamma ( { \\bf ~ Q } \\mid D , { \\bf ~ M } ) ~ \\Gamma = \\prod _ { q \\in { \\bf ~ Q } } ~ } } \\\\ & { \\{ \\frac { \\varepsilon } { | \\mathrm {  ~ \\scriptstyle { \\cal ~ d } ~ } | \\mathrm {  ~ \\not ~ ( ~ { \\bf ~ P } ~ ( { \\bf ~ q } w \\mid \\oint , ~ { \\bf ~ M } ) ~ \\Gamma + \\sum _ { q \\in \\mathrm { ~ \\bf ~ C } } ~ } } { \\mathrm {  ~ \\scriptstyle { \\sf ~ M } ~ } | \\mathrm {  ~ \\Gamma ~ } | \\mathrm {  ~ \\scriptstyle { \\sf ~ d } w ~ } \\mathrm {  ~ \\bf { ~ M } ) ~ \\Gamma ~ c ~ } ( \\mathrm { \\bf ~ d w ~ } \\mathrm {  ~ \\bf { ~ D } } ) } \\} \\approx } \\\\ & { \\mathrm { ~ \\mathbb { \\Lambda } ~ } _ { \\mathtt { e n } } ^ { \\mathrm { H T } } \\{ \\frac { \\mathrm { ~ \\partial ~ } ( { \\bf ~ m } \\mid \\oint , ~ { \\bf ~ M } ) } { | \\mathrm {  ~ \\scriptstyle { \\sf ~ D } ~ } | \\mathrm {  ~ \\not ~ ( ~ { \\bf ~ 1 } 0 ) ~ } } + \\sum _ { \\mathtt { e n } } \\mathrm {  ~ \\cal { ~ P } ~ \\Gamma ~ } ( { \\bf \\ q w } \\mid \\mathrm {  ~ d w ~ } \\mathrm {  ~ \\cal { ~ M } ) ~ \\mathrm {  ~ \\cal ~ P ~ } ~ } ( \\mathrm { \\bf ~ d w ~ } \\mathrm {  ~ \\bf { ~ D } } ) \\} ( 1 0 ) } \\end{array}\n$$",
+    "context7": "根据RongJin等人在 4种不同的 TREC英文文档集上做的相关测试，采用新的平滑方法的标题语言模型的性能要明显高于传统的 SLM-IR模型和 $\\mathrm { { V S M _ { \\circ } } }$"
+  },
+  "3.3两阶段语言模型": {
+    "context1": "检索参数的最优设置通常既依赖于文档集又依赖于提问，经常通过实验来发现。Zhai和Lafferty提出的“两阶段的语言模型\"[9]明确地捕获了提问和文档集对最优的检索参数设置的影响。作为一个特例，他们提出一个“两阶段的平滑方法”，用它来完全自动估计平滑参数。在第一阶段，用DirichletPrior和文档集语言模型作为参考模型来平滑文档语言模型；在第二阶段，被平滑的文档语言模型进一步用提问背景语言模型来插值。他们提出一个“LeaveOneOut”的方法来估计第一阶段的Dirichlet参数，使用文档混合模型来估计第二阶段的插值参数。他们使用了5种不同的数据库和4种类型的提问进行了评价试验，结果表明：两阶段的平滑方法和提出的参数估计方法的性能接近或高于使用单一的平滑方法所获得的最好结果，而单一的平滑方法要在测试集上穷尽所有的参数才能找到最好的结果。",
+    "context2": "两阶段语言模型的原理可以概述为以下4个方面： $\\textcircled{1}$ 基于贝叶斯决策理论。 $\\textcircled{2}$ 提问和文档都使用统计语言模型进行建模。 $\\textcircled{3}$ 用户参数选择通过损失函数（Loss Function）建模。 $\\textcircled{4}$ 检索就变成一个风险最小化（RiskMinmization）问题。"
+  },
+  "3.4其他模型": {
+    "context1": "1）依赖结构模型（Dependency Structure LanguageModel)[10]。该模型是在 2003年的SIGR会议上为了解决Bigram，Trigram语言模型的缺点而提出的。依赖结构模型是基于Chow扩展理论和依赖分析器产生的依赖分析树。这样，长距离的依赖关系就可以用依赖结构模型来处理。用该模型就可以识别出句中词语和词语之间的长距离依赖关系。而Bigram和Trigram就不能做到这一点。因此该模型要优于传统的 SLM-IR模型和 Bigram语言模型。",
+    "context2": "2）相关反馈模型(Relevance Feedback)。将相关反馈机制应用于语言模型是Ponte在 2000年提出的，他认为基于相关文档的语言模型比单独文档模型的集合要简单的多。在 2005年的 SIGR会议上，伊利诺伊大学的 XuehuaShen等介绍了应用于AdHoc网络信息检索的相关反馈模型以及运用于上下文检索的隐式用户反馈模型（ImplicitFeedback)；马里兰大学的R·W·White等介绍了隐式用户相关反馈模型使用的影响因素。"
+  },
+  "4 SLM-IR进展": {
+    "context1": "从 2001一2004年的SIGR会议[1]的情况来看，出现了很多关于 SLM $- \\mathbb { R }$ 模型的论文，可见国外对该模型的重视程度。 $\\mathrm { ~ H ~ i e m s t r a }$ $\\mathrm { H i e m s t r a }$ 和 $\\mathrm { K n a }$ ij最先提出了基于全局和局部混合概率分布的排序方法。MillerLeek和 Schw-artz提出了使用隐马尔柯夫模型进行排序的方法。Saham i提出一个基于“全局和局部分布的几何均数”进行文档模型的平滑处理的方法进行文档聚类。Berger和 Lafferty以及Hiem stra和DeJong发明了包含统计翻译（StatisticalTranslation)。",
+    "context2": "Song和Cmft使用了包含二元文法（Bigrams）的模型并引入了“Good Turing”重估计的方法对文档模型进行平滑处理。RongJin提出了“标题语言模型”，把提问Q作为文档D的标题来考虑语言模型。Zhai和Lafferty使用了“两阶段语言模型”，并提出了一种“两阶段平滑算法”，通过这种方法，可以自动设置检索参数。",
+    "context3": "ChangkiLee提出了“依赖结构模型”。该模型是为了克服Bigram，Trigram语言模型的缺点而提出的。依赖结构模型是基于Chow扩展理论和依赖分析器产生的依赖分析树。这样，长距离的依赖关系就可以用依赖结构模型来处理。",
+    "context4": "在 2005年的 SIGR会议上，伊利诺伊大学的 XuehuaShen等介绍了应用于AdHoc网络信息检索的相关反馈模型以及运用于上下文检索的隐式用户反馈模型（mplicitFeedback)。",
+    "context5": "马里兰大学的R·W·White等介绍了隐式用户相关反馈模型使用的影响因素。",
+    "context6": "SLM-IR模型最大特点在于它可以用不同的方法来估计文档模型和“文档一提问”的翻译模型。最近的工作已经比较了不同的平滑策略。很多使用Lemur工具箱的实验已经在各种文档集和测试条件下开展起来，包括2001年的WebTrack的工作。在理解语言模型方法的形式基础上也取得了进展，比如，C.Zhai和J·Lafferty开发了基于贝叶斯决策论的通用框架，使得基本的语言模型方法以及Robertson和 SparckJones的标准的概率模型都成为特例。进而表明了语言模型方法如何可以看作一个潜在的相关模型，这就允许该方法同标准的概率模型一样的方式被解释。",
+    "context7": "比参数平滑更有前途的方法是语义平滑，它类似于传统的术语加权（TeimWeighting）方法。使用马尔科夫链的语义平滑技术[12]和概率潜在语义标引技术(PLSI)[13]都是非常有前途的语义平滑技术。□",
+    "context8": "参考文献   \n[1]Brown PF, Cocke J Della Pietra SA，etal A statistical ap\" pmach to mach ine translation [J].Camputational Linguistics 1990,16 (2): 79-85   \n[2]Ponte J CroftW BA language modeling approach to infoma\" tionretrieval [C]//Pro 2lst Int Conf Research and De\" velopment in Infomation Retrieval（SIG R’98)，1998．275- 281   \n[3]MillerD H，Leek TSchwartz R:A hidden Markov model in fomation retrieval system [C]//Prmceedings of the 1999 ACM SIG R Conference on Research and Development in Infr mation Retrieval 1999．2l4- 221   \n[4]Lafferty JZhai C.R isk minim ization and language modeling in infomation retrieval[C]. $2 4 \\ : \\mathrm { t h }$ ACM SIG IR Conference on Research and Development in Infomatio Retrieval ( $\\mathrm { \\bf S E } \\mathbb { R } ^ { \\mathrm { \\prime 0 1 } }$ ）， 2001   \n[5] BahlLJelinek F,MercerR·A maximum likelihood approach to continuous speech recognition [J].IEEE Transactions on Pattem Analysis and Machine Intellgence19835（2): 179-190   \n[6]http://www-2.cs cmu edu/\\~lmur   \n[7]Jin Rong Haupmann A G,ZhaiChengXiang Tile language model for infomation retrieval[C]//Proo $2 5 \\mathrm { { t h } }$ SIG R 2002:42-48   \n[8] B rown PF,DellaP ietra SA，DellaP ietra VJet al The mathmatics of statistical machine translation;parameter estim ation [J].ComputationalLinguistics1993,1（2)   \n[9] ZhaiChengxiang Laerty JTwo-stage language models for infomation retrieval[C]. SIG R，2O02,49-56   \n[10] Lee Changki Lee G G.Dependency structure language model for infomation retrieval[C].SIGR，2003   \n[11]http://www:am:org/sigir/   \n[12] Lafferty JZhaiC.R isk m inin ization and language modeling in infomationretrieval[C]//24th ACM SIG R Conference on Research and Development in Infomation Retrieval（SIG IR 01)，2001   \n[13]Hofnann TUnsupervised leaming byprobabilisticlatent se mantic analysis[J].Machine Leaming2Ool,42（1)： 177-196   \n乍者简介：李纲，1966年生，教授，博士生导师。 郑重，1982年生，博士生。",
+    "context9": "收稿日期：2007—10－22"
+  }
+}

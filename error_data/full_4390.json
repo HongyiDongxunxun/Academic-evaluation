@@ -1,0 +1,80 @@
+{
+  "original_filename": "full_4390.md",
+  "nothing": {
+    "context1": "·信息工作·"
+  },
+  "基于人工神经网络的数据挖掘技术在临床中应用进展": {
+    "context1": "袁金秋 刘雅莉杨克虎 (兰州大学循证医学中心 甘肃兰州 730000)",
+    "context2": "摘要：从1989年第十一届国际人工智能联合会议召开至今，数据挖掘技术蓬勃发展。基于人工神经网络(ArtificialNeuralNetwork ANN的数据挖掘技术在临床领域取得的成果尤其引人瞩目，ANN被广泛应用于临床诊断、预后等多个方面。为更好的认识ANN在国内外的发展现状,文章就与临床领域联系较密切的ANN模型、ANN数据挖掘工具、近期临床研究状况等方面加以综述。",
+    "context3": "关键字：人工神经网络临床数据挖掘",
+    "context4": "中图分类号：G202 文献标识码：A 文章编号:1003-6938 (2010 03-0095-004"
+  },
+  "The Development of Data Mining Based on Artificial Neural Network in Clinical Medicin": {
+    "context1": "Yuan JinqiuLiu Yali Yang Kehu (TheEvidence-Based Medicine Centerof Lanzhou University,Lanzhou,Gansu,73000) AbstractDatamining technologyhasgeatlydevelopedsincethethinternationalartificialintellgencejontconferencewhichwas heldin1989.TheachievementofthedateminingtechnologybasedonArtficialNeuralNetworks(NN)isespeciallconspicuous in theclinicaldomain;ANNiswdelyusedintheciicaldagnosis,theprognosisandmanyotheraspects.Forabeteruderstandingof ANNof thedevelopment statusathomeandabroad,thispaperreviews theANNmodel,theANNdata mining tool,recent development of clinical research and other relative aspects which are closely related to clinical fields.",
+    "context2": "Key words artificial neural network；clinical; data mining",
+    "context3": "CLC number :G202 Document code :A",
+    "context4": "ANN是基于人脑神经网络的研究，采用数理方法对人脑神经网络进行抽象，建立的一种简化模型，最早在1943年由W·Mcculloch和W·Pitts提出了。此后,冯·诺依曼,Widrow,Hopfield等人在ANN的发展中作出了重要贡献,并有感知器、Hopfield网络等十几种模型相继诞生。时至今日人工神经网络(ANN)的研究涉及医学、生理学、哲学、信息学、计算机科学等众多学科领域,其在临床领域也取得了较大进展。本文将从与临床领域联系较密切的ANN模型、ANN数据挖掘工具、近期临床研究状况等方面加以综述。"
+  },
+  "1ANN模型及原理": {
+    "context1": "现阶段在临床领域应用最多的是BP神经网络和感知机模型。这两种模型也代表了ANN的一般原理。"
+  },
+  "1.1BP神经网络": {
+    "context1": "BP神经网络通常由输入层,隐层和输出层构成。BP算法学习过程包括信号的正向传播与误差的反向传播两个过程。正向传播时,输入样本从输入层传入,经各隐层处理后,传向输出层。若输出与期望值不符，则转入误差的反",
+    "context2": "Article ID :1003-6938 (2010 03-0095-004向传播阶段。反传阶段中通过连续不断的在相对与误差函数斜率下降的方向上计算网络权值和偏差，并依次改变权值来逐渐逼近目标。在学习过程中，这两个过程周而复始地进行，直至网络输出的误差减少到可接受的程度或完成预定的学习次数。随着ANN研究的不断深入，新的BP算法从有条件地改变参数的值、针对激励函数及误差函数等方面对传统BP算法进行了改进，并不同程度的弥补了传统BP易形成局部极小、学习效率低下及训练中存在遗忘趋势等缺陷。[这极大扩展了BP神经网络的应用范围。"
+  },
+  "1.2感知器": {
+    "context1": "感知器的基本思想是将一些类似生物神经元的处理单元构成一个计算网络，该网络能够自动地学习如何对模式进行识别和分类。通常它由感知层S,连接层A和反应层R构成。S由输入元素组成。S层与A层的连接权固定为1。中间层的元素位于A层，输出层的元素位于R层。A层与R层的连接权是通过学习来确定，通常在初始时取[-1,1]内的随机值,并在学习阶段根据梯度下降法不断调整，使权值的变化量等于正负输入矢量，最终使之在一定的输入时有期望的输出。实践证明,感知器可以很好的划分线性可分的输入矢量。然而感知器网络必须在输入矢量是线性可分时才有效。在临床领域中主要应用于一些医分类问题。[2]"
+  },
+  "2ANN数据挖掘工具": {
+    "context1": "ANN数据挖掘工具作为联系临床与ANN计算机科学的桥梁，发挥着重要作用。现阶段数据挖掘工具层出不穷，且大多可以完成关联、ANN等不同类型的数据挖掘任务。目前临床中应用较广的ANN工具有 Spss Clementine、Insightfull Miner、Enterprise mine等。"
+  },
+  "2.1Spss Clementine": {
+    "context1": "SpssClementine是现阶段SPSS公司的核心挖掘产品，是业界领先的快速可视化数据挖掘建模环境。此工具结合了多种图形用户接口分析技术，包含神经网络、关联规则等多种算法，其性能优良：(1)软件平台使用图像象征的方法进行操作，可视化程序高，使其数据挖掘直观而具有交互性；(②功能强大,易用性良好，用户可以不需编程就可以完成建模、数据汇总、变换等工作，从而集中精力处理具体业务问题；(3完善的项目管理功能，支持CRISP-DM标准流程，依据该流程可对数据挖掘项目进行有效管理;(4 强大的数据存取能力。[目前,Clementine在临床疾病诊断、信号识别、预后等领域已有相当数量的成功应用范例。"
+  },
+  "2.2Insightful Miner": {
+    "context1": "InsightfulMiner是IBM公司的数据分析和挖掘工具。InsightfulMiner包含了目前最广泛的数据挖掘技术和算法，有如下几个重要特点：(1)采用独特的\"管线式\"架构，可扩展分析组件，高效率处理海量数据;(②可操作性强，支持完整的数据挖掘流程，使得操作人员可不必关注算法的实现；(3可实现探索性数据分析，通过Trellis快速图示多维数据，实现单变量描述性统计；(4可实现模型的自动评估。总体来说,InsightfulMiner是目前市场上最大容量及功能强大的工具，在顾客反馈报告中它的整体效能是最好的。目前InsightfulMiner在临床疾病分类诊断,信号分析等方面都有不同程度的应用。"
+  },
+  "2.3其他": {
+    "context1": "除上述工具以外,Enterprise miner、Microsoft SQLserver 2005、Darwin、KnowledgeMine等工具的ANN在临床诊断、图像识别、预后、决策分析等方面也有一定程度的应用。"
+  },
+  "3ANN的临床应用": "",
+  "3.1疾病诊断分析": {
+    "context1": "ANN精于数据整合，能有效避免人在诊断中由于经验性倾向而导致的诊断失误。在很多应用实例中,ANN诊断的准确率都高于专家诊断的准确率。",
+    "context2": "(1)临床症状体征诊断分析。症状与体征是医师作出诊断的第一手资料，意义重大。然而由于临床症状体征资料存在复杂性、多样性、不完整性及缺乏数学性质等特点，基于多种复杂临床症状体征数据的ANN数据挖掘应用还为数不多。在国外AbeHiroyuk等应用ANN作间质性肺病的诊断，研究中选取年龄、肺功能等十项临床参数作为训练输入,经测试所得模型正确性达0.81。进一步将影像学参数加入训练输入项,模型的准确性提高到 $0 . 8 7$ 。[4]Eggers等将ANN应用于早期急性心肌梗塞的诊断和对胸痛病人梗塞面积的预测，选取肌钙蛋白、肌酸激酶同工酶MB等作为诊断指标,应用ANN交叉验证技术建立模型，训练所得系统各项阳性预测值，阴性预测值多大于$90 \\%$ 。[5]国内孙文恒等建立了一个基于癌胚抗原、甲胎蛋白等6钟血清肿瘤标志物的ANN诊断模型，该模型可以同时区别消化道疾病、胰腺炎与胰腺癌，可为临床胰腺癌的诊断提供有价值的参考资料。[6]此外，我国学者在ANN中医症候诊断方面也作了大量富有成效的工作。",
+    "context3": "(3临床图像诊断分析。ANN应用于临床图像诊断分析可以提高诊断的正确性，提高影像资料的利用度，降低资历医师培训花费。近十年来，随着数字化影像技术的飞速发展，ANN所处理的影像学资料越来越趋向与多维化，复杂化，所处理的影像资料扩张到心脏扫描、脑灌注扫描、磁共振成像及正电子发射断层扫描图像等。Acton等将ANN应用于帕金森病的诊断，该学者将81例病人的Tc- $9 9 \\mathrm { m }$ 纹状体神经多巴胺断层扫描图像输入ANN模型，所有图像资料同时用作训练和测试，系统总正确率达$9 4 . 4 \\%$ 。[7]Gutte等将ANN技术应用于肺癌病人的PET/CT图像的自动识别，研究过程中采用肺脏分割算法分析87例肺癌病人PET/CT图像，并抽取其中8项指标作为ANN模型的输入，系统准确率达 $9 2 \\%$ ,极大提高了肺癌病人PET/CT图像分析的水平。[8]",
+    "context4": "类似于ANN在影像分析上的应用,ANN在病理标本分析方面也有着显著的诊断优势。目前ANN已成功用于肺小细胞癌皮肺穿刺标本、乳腺细针穿刺细胞学标本、外周病理血管组织、宫颈巴氏物涂片、血细胞识别等方面的计算机辅助诊断。",
+    "context5": "(3医学信号诊断分析。现阶段ANN已用于脑电图、肌电图、心电图、多谱勒超声和二氧化碳分析等各种医学信号分析。ANN可以把专家知识融入数学框架，来提取特征、分类和识别模式。由于ANN不需要考虑对数据噪声的统计假设，也不需要将专家知识经验条文化，因而ANN的数据处理方式更合理，在模式识别方面有显著优势。Srinivasan等将ANN应用于癫痫病人的EEG分析，利用癫痫病人癫痫发作时EEG近似熵锐减这特性，通过训练样本建立起了ANN分析系统，试验测试该系统总精确率达 $100 \\%$ 。[9]Kara等应用多层前馈ANN分析视网膜电图，通过LM反传算法训练样本，最后得到的一个可以区分正常与非正常视网膜电图的诊断系统，该系统诊断的正确率 $9 4 . 2 \\%$ 。[10]"
+  },
+  "3.2ANN应用于临床决策分析": {
+    "context1": "ANN能够综合患者的各项具体情况给出一个特定的预测值，因而对于个体来说意义更大，这是传统的统计分析方法所望尘莫及的。Lisboa.等对1996年到2006年间发表的关于ANN在肿瘤方面应用论文资料进行系统评价，肯定了ANN在肿瘤决策支持应用方面的积极意义，同时作者也呼吁扩大的严谨研究方法的应用。[]此外,Larder等将ANN应用于HIV治疗药物选择的决策支持分析，研究所得ANN模型有较大实用价值,可以用于HIV耐药的分析及HIV感染者治疗过程中药物选择的决策支持。[12]"
+  },
+  "3.3预后预测分析": {
+    "context1": "在临床预后的分析中传统的依据统计数字作方法通常显得捉襟见肘。相比之下，ANN应用其个案分析的优势，充分整合各种相关因素，显著提高了精确度。ANN预后分析是近几年来最为活跃的研究领域之一。FumiakiSato等将ANN应用与食道癌的生存率预测，该学者收集418名病人199项临床及病理资料，经训练所得ANN模型对病人的一年存活率及五年存活率预测精确度较高( $\\mathrm { \\ A U R { = } 0 . 8 8 4 , P { < } 0 . 0 0 0 1 }$ )明显优于依据TNM分期标准的预后方法。[13]Heckerling等将ANN与遗传算法结合应用与泌尿道感染病人的预后，将212名泌尿道感染妇女的尿频、排尿困难等九项指标作为预测变量进行训练，到了较满意的ANN预后系统。作者认为ANN与遗传算法结合能够简化且较精确的预测泌尿道感染，且能够新发现不同症状、体征之间的联系。[14Ivanov将ANN应用于大脑缺血性障碍的疾病进程预测分析，通过对224例病人的超声图谱资料的训练，得到了较好的结果，其预测准确性优于传统预后预测方法。[此外ANN还广泛应用于HIV发展过程预测、创伤修复、乳腺癌手术、腹主动脉瘤修复手术、肝移植和心外科手术等相关的预后预测分析。"
+  },
+  "4ANN国内外发展动态与趋势": {
+    "context1": "地参差不齐,有学者对2000\\~2001年收录入ISI有关ANN在生物学和医学领域应用的论文作统计分析，发现最多产的五个国家分别为美国，英国，德国，意大利，加拿大(论文数 $\\cdot 3 0 2 , 8 9 , 7 6 , 3 8 , 3 5 )$ 。中国以29篇论文收录居第九位,但其影响因子普遍较低,平均只有1.8。[16]从2004年起,欧盟十国整合，使其ANN研究力量极大提升，从而形成了北美、欧盟、亚洲国家三足鼎立的局势。其中北美在放射学，核医学，医学图像处理的ANN研究有相当优势，欧盟则在病理学,微生物学等方面研究较多，亚洲国家的研究水平相对较低,研究的内容也较零散。",
+    "context2": "相比之下，中国在ANN的临床研究方面存在一定差距，主要表现在创新性缺乏、研究重复率高、研究方法欠严谨等方面。然而，国内研究取得的成果还是值得肯定的，最近几年中被发表的相关论文直线上升，研究范围也不断扩大。这些都表明ANN正逐渐为越来越多的中国学者所关注。值得一提的是，我国学者做了大量将ANN与传统中医结合的工作，主要包括中医症候诊断，中药疗效预测,病情诊断预测、脉象识别等。[17]这些研究都积极促进了祖国中医的发展。",
+    "context3": "近些年来电子病历的被推广使用，补充医学也越来越受重视,[18这为ANN数据挖掘带来了新的契机。以往研究中，许多ANN系统缺乏严格对照，其研究结果真实性存在争议。因此，除进一步扩大ANN的临床应用范围外，利用更严谨的研究方法重复验证已取得的成果，可能在将来的研究中占有很大的分量。此外，综合ANN应用于多病种的诊断、预后等工作，可能将是以后的研究重点。最后,将ANN与计算机专家系统结合也表现出了相当大的发展潜力。"
+  },
+  "5结语": {
+    "context1": "作为一个新兴的工具，ANN在临床领域取得了可喜的成绩。然而目前ANN尚且只能被定位为临床辅助工具。要使ANN为临床工作,还需要进一步扩大其临床应用范围、进行多病种融合、以及应用更严谨的临床研究方法加以证实。"
+  },
+  "参考文献：": {
+    "context1": "[]陆琼瑜,童学锋.BP算法改进的研究[]．计算机工程与设计,2007,28(3): 648-650.  \n[2]崔雷.医学数据挖掘[M.北京高等教育出版社,2005.  \n[3]谢邦昌.数据挖掘Clementine应用实务[M].北京机械工业出版社,2008 41-46.",
+    "context2": "[4] Abe Hiroyuki,Ashizawa Kazuto,Li Feng.Artificial neural networks(ANNs) for differential diagnosis of interstitial",
+    "context3": "l ung disease: results of a simulation test with act ual clinical cases [I] .Acad Radiol, 2004,11(1): 29-37. [5]Eggers Kai M,Ellenius Johan，Dellborg Mikael. Artificial neural network algorithms for early diagnosis of acute myocardial infarction and prediction of infarct size in chest pain patients [] .International Journal of Cardiology,2007,114(3) : 366-374."
+  },
+  "[孙文恒等.人工神经网络技术在胰腺癌诊断中的应用[].兰州大学学报，2008,44 223-226.": {
+    "context1": "[7] Acton Paul D,Newberg Andrew. Artificial neural network classifier for the diagnosis of Parkinson's disease using [Tc $- 9 9 \\mathrm { m } ]$ TRODAT-1 and SPECT [].Physics in Medicine and Biology,2006, 51(12): 3057-3066.   \n[8] Gutte Henrik,Jakobsson David, Olofsson Fredrik,Automated interpretation of PET/CT images in patients with lung cancer [] .Nucl Med Commun,2007, 28 (② : 79-84.   \n[9] SrinivasanVairavan，Eswaran Chikkannan, Sriraam Natarajan.Approximate entropy-based epileptic EEG detection using artificial neural network's [].IEEE Transactions On Information Technology In Biomedicine, 2007,1(3): 288-295.   \n[10] Kara Sadik,Guven Aysegul,Oner Ayse Ozturk. Utilization of artificial neural networks in the diagnosis of optic nerve diseases [].Computers in Biology and Medicine, 2006,36(4): 428-437.   \n[11] Lisboa Paulo J, Taktak Azzam F G . The use of artificial neural networks in decision support in cancer: A systematic review [Il.Neural Networks,2006,19(4): 408 -415."
+  },
+  "(上接第71页学之维[].情报杂志,2004,(1):28-29.[] [10]裴成发.图书馆法属性研究[].图书馆建设,1996,(1):29-30.": {
+    "context1": "[13][17][23][25][26][30][32]朱景文.法理学[M].北京：",
+    "context2": "中国人民大学出版社,2007:366-369,373-376.[14][21]李龙,范进学.论中国特色社会主义法律体系的",
+    "context3": "[12] Larder Brendan，Wang Dechao,Revell.AndyApplication of Artificial Neural Networks for Decision Support in Medicine [I] .Methods in Molecular Biology,2008:12 3-136.   \n[13] Fumiaki Sato, Yutaka Shimada,Florin M. Selaru .Prediction of survival in patients with esophageal carcinoma using artificial neural networks [] .CANCER,2005, 103 (8): 1596-1605.   \n[14] Heckerling Paul S,Canaris Gay J,Flach Stephen D. Predictors of urinary tract infection based on artificial neural networks and genetic algorithms [].International Journal of Medical Informatics ,2007,76(4): 289-296.   \n[15] Ivanov Yu S，Semin G F.Diagnosis and prognosis of cerebral ischemic disturbances course using a method of artificial neuronal networks [].Zhurnal Nevrologii i Psikhiatrii Imeni S. S. Korsakova,2004,(12): 29-33.   \n[16] Robert Claude，Arreto Charles -Daniel,Azerad Jean. Bibliometric overview of the utilization of artificial neural networks in medicine and biology [.Scientometrics, 2004,59 (1): 117-130. 科学建构[]．法制与社会发展,2003,(5):45,48.   \n[15]姜全吉.逻辑学(修订版)[M].北京高等教育出版社， 2003:21-22.   \n[16]于冠魁.法律属性的多维考察[].山东社会科学,2006, (4 :132.   \n[18]史际春.经济法：法律部门划分的主客观统一[]．中 外法学,1998,(3):94-96.   \n[19]韩明德,石茂生.法理学[M].郑州:郑州大学出版社, 2004:237-239.   \n[20]陈绍辉.卫生法地位研究[]．法律与医学杂志,2005, (2):115.   \n[17]施明辉,周昌乐.人工神经网络在中医诊断中的应用 现状与趋势[].中国中医药信息杂志,2007,14(1):2-5.   \n[18] Igor Kononenko. Machine learning for medical diagnosis: history,state of the art and perspective [l.Artificial Intelligence in Medicine,2001,23 (i) 89-109."
+  },
+  "作者简介：袁金秋,男,兰州大学临床医学专业本科生刘雅莉,女，兰州大学循证医学中心讲师杨克虎，男，兰州大学循证医学中心教授。": {
+    "context1": "[22][24][29]孙国华,冯玉军.中国特色社会主义法律体系",
+    "context2": "研究——概念、理论、结构[M.北京冲国民主法制出版社,2009 3-4,157-164.  \n[27]孙春增.法理学基础[M].北京:北京大学出版社,2007:161-166.  \n[28]孙笑侠.法理学[M].北京：清华大学出版社,2008:65-68.  \n[31]王全兴.经济法基础理论专题研究[M].北京:中国检察出版社,2002:102-103.  \n[33][34][35]中国特色社会主义法律体系的构成、内容和特征.第十一届全国人民代表大会第二次会议代表履职知识 [EB/OL].[2009-12-20].http://www.npc.gov.cn/huiyi/dbdh/11_2/2009-03/01/content_1475570.htm.",
+    "context3": "作者简介：魏斌(1983-）,女,中国人民大学信息资源管理学院博士研究生祝洁(1981-），女,郑州航空工业管理学院信息科学系讲师。"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "original_filename": "full_7456.md",
+  "nothing": {
+    "context1": "·专题·"
+  },
+  "本体模式研究综述\\*": "",
+  "李晓辉": {
+    "context1": "（中国科学院国家科学图书馆北京100190）（哈尔滨师范大学图书馆黑龙江哈尔滨150025）",
+    "context2": "摘要：文章对本体模式研究的相关内容进行综述,包括本体模式的分类、特征、表达、创建、应用方法、工具及评价,对研究现状进行分析，提出研究存在问题及继续研究方向。",
+    "context3": "关键词：本体本体模式本体设计模式本体设计",
+    "context4": "中图分类号：G254.29 文献标识码：A",
+    "context5": "文章编号:1003-6938(2013)01-0023-07"
+  },
+  "Review of Ontology Patterns Research": {
+    "context1": "Abstract Itis presented that review onthe contents of ontology paterns which includesontology patterns clasification, characteristics，presentation，construction，application，toolsand evaluation.Furthermore，weanalyzeand summarize the ongoing and future work.",
+    "context2": "Keywords ontology ;ontology patterns ;ontology design paterns ;ontology design",
+    "context3": "本体是语义网的重要内容。历经十多年的发展，已在本体构建、本体匹配、本体学习、本体整合、本体演化、本体评价等方面取得了丰富的研究成果。目前Web上发布有大量本体,通过Sw00gle可检索到10,000 多本体[1],本体复用的问题随本体数量的增加而被研究者所关注。近年来，轻型本体的应用呈上升趋势，一些简单的本体，像FOAF、SKOS显示了潜在的便携性和持续性，被广泛的复用，这样的本体没有沉重的公理化，仅仅对一个数据集提供一个形式化的语义描述，可以更加容易的构建和复用本体。本体模式(Ontology Pattern)是可以复用的解决方案，减少了不经过经验丰富专家来构建本体的模糊和武断性。基于以上原因，以复用经验和解决方案为目的的模式思想进入了本体设计的研究视野。",
+    "context4": "模式最初出现在软件领域，是编码的最佳实践，是人们面对同样的软件设计问题的经验总结，有了模式，就可以利用其他人实践经验的精华。同时，在以模式驱动为代表的软件开发方法中，模式自身也是一种重要的产物，定义良好的模式被覆用的几率大大提高。模式在知识工程中出现是上世纪90年代中期，并被软件工程的发展所驱动[2]。随语义网和本体工程的涌现，模式作为可复用的设计问题的解决方案被应用于本体工程[3-4]。2004至2005年间,W3C成立了本体工程和模式任务组(Ontology Engi-neeringandPatterns TaskForce,OEP),并提出了本体设计模式(Ontology design patterns,ODPs)及其复用,主要是关于逻辑模式，表达领域独立的建模问题的解决方案，用OWL语言描写[5]。2008 年,相似的倡议被NeOn(NetworkedOntologies)项目提出，建立了ODPs社区，并不断地扩大数量和范围，覆盖各种类型的ODPs，它是时下最大的语义Web本体模式社区[6。曼彻斯特大学也维护着一个ODPs目录—ODPs公共目录（ODPsPUBLICCATALOG）,主要收集生物知识领域的ODPs[7]。本体模式的会议（Work-shop on Ontology Patterns，WOP）已于 2009 和2010 年召开了两次，WOP系列拓展了以前关于本体模式的研究范围，包括了所有与本体相关的模式设计和用于语义Web的知识工程[8-9]。从2009年的本体模式的国际研讨会开始，相关研究渐多，基于模式的本体设计成为本体建设过程中一个重要的理念和方法。本文对本体模式研究的相关内容进行了全面的综述，包括本体模式的概念、分类、特征、表达、创建、应用方法、工具及评价，以期对本体模式的研究现状有个全面了解。"
+  },
+  "1本体模式的研究概况": "",
+  "1.1本体模式的主要研究内容": {
+    "context1": "本文系统地回顾了三大语义国际会议ISWC(Inter-national Semantic Web Conference）,ASWC(Asian SemanticWeb Conference）,ESWC（European Semantic Web Confer-ence)出版物。总结了本体模式的研究方向(见表1）。",
+    "context2": "表1本体模式的研究方向",
+    "context3": "<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>研究方向</td><td rowspan=1 colspan=1>详细说明</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>提出新模式</td><td rowspan=1 colspan=1>提出一个新的本体模式</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>模式使用方法</td><td rowspan=1 colspan=1>提出一个新的通用的方法，使用模式达到目标</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>模式创建方法</td><td rowspan=1 colspan=1>分离或创建模式，包括从其它知识资源重组</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>模式使用案例</td><td rowspan=1 colspan=1>描述模式使用的案例</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>评价</td><td rowspan=1 colspan=1>评价模式、模式使用和创建方法</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>模式分类</td><td rowspan=1 colspan=1>讨论不同类型模式,为其分类</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>模式特点</td><td rowspan=1 colspan=1>模式的具体特点，包括可重用的参考实现、相关文献和元数据</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>模式鉴定</td><td rowspan=1 colspan=1>在本体中发现模式实例</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>模式语言</td><td rowspan=1 colspan=1>模式表达和展示的形式化和语言</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>反(抗)模式</td><td rowspan=1 colspan=1>反模式或不好的模式实践研究</td></tr></table>",
+    "context4": "相关研究共涉及到10个大的方向。各个方向被关注的程度不同，研究成果多少也不同。关于如何创建或分离模式，这一领域缺少足够的研究，有些模式还未涉及到，如本体应用模式、本体构建模式等。概括的讲，从时间上来看，模式作为工具被表达和使用， $\\star 2 0 0 9$ 年的本体模式的国际研讨会开始，相关研究渐多，关于模式的鉴定（PatternIdentification）、模式的创建方法研究是从那时开始的，关于模式的评价研究从2008年到2009年之间开始。可检索到的发表相关研究成果的研究机构 $90 \\%$ 在欧洲，许多成果由多家机构合作完成[10]。得出这样的结论是基于目前所看到的论文，在一个很短的时间周期之内，所以，还不能非常肯定是一种研究趋势。"
+  },
+  "1.2相关国际会议": {
+    "context1": "相关会议：在2005年国际语义网会议上，讨论过语义Web本体模式。那时研究社团规模还很小，焦点在于讨论可复用的OWL和RDF本体，至力于研究通用的开放问题[1]。在知识工程与管理（Knowledge EngineeringandKnowledge Management,EKAW)-20O8会议上提出了本体工程模式[12]。",
+    "context2": "主题会议：本体模式的会议（Workshop on OntologyPatterns,WOP)至今已经召开了两次，WOP系列拓展了以前关于本体模式的研究范围，包括了所有与本体相关的模式设计和用于语义Web的知识工程。第一次基于模式的本体设计的国际会议于2009年10月在华盛顿与ISWC合作举办[8]。这次会议有两个目标：一是提供一个平台来促进和讨论优秀的实践活动、模式、基于模式的本体设计等；另一目标是发展共享语言来讨论和描述相关的问题及解决方案，以便模式能在研究团体内共享。WOP2010于2010年10在上海举行，讨论和收集目前关于本体模式的解决方案[9。具体主题涉及到：本体设计模式和基于模式的本体设计；特定知识领域的本体设计模式，渔业农业，商业模式等;抗-模式(Anti-patterns)及其与本体模式的关系；本体模式如何表达某些情境下数据的关系；合作本体设计和合作模式；本体匹配和整合的通信模式；处理和服务的过程模式；概念模式、大众分类、词典，叙词的重组模式；本体模式和微形式化；本体设计模式和关联数据；共同使用不同词表的模式；关联数据和相关应用的优秀实践模式，语义社会网络、语义维基(Se-manticWikis）、语义博客方面相关的优秀实践模式等。第三次关于本体模式的会议于2012年11月在波士顿召开。这次会议涉及到的主题更加广泛，分别是各类型模式研究、模式与其它语义技术使用、各领域的最佳实践、支持基于模式的知识工程的工具、模式的评价等六大块[13]。"
+  },
+  "2本体模式的概念及分类": {
+    "context1": "本体模式是一套本体元素、结构或构建原则，用来解决具体的工程问题，可再次使用，以准确复制或改编的形式出现在某些本体集中，或者出现在将来的本体中[12]。本体模式分类是构建有用模式的最初阶段，没有对本体模式进行连贯和统一的分类，就没有统一的词汇用语来讨论模式，不方便研究者和本体工程师之间的交流和进一步的工作。根据目前资料,共有两种分类方式，一种是瑞典林雪平大学(Linkoping)Blomqvist的分类,一种是NeOn的分类。",
+    "context2": "E.Blomqvist研究的本体模式按抽取和建立、结构和内容、抽象度和粒度等三个成对的因素来描述。并提出了四种本体模式：本体句法模式（Ontology Syntactic Pat-terns）本体应用模式（Ontology application Patterns）、本体构建模式（Ontology Architecture Pattern）和本体设计模式（Ontology Design Patterns）[14-15]。",
+    "context3": "ODPs是一个建模解决方案，解决了一个可重复的本体设计问题[16]。ODPs 的概念最初由Gangemi提出,NeOn项目进行了更为详细的论述，并精炼了ODPs的类型，建立了ODPs目录,可在线获得[17-18]。",
+    "context4": "![](images/af47380bb3bb32ea933125ede5df1ec7d5f0dd59c5f286f781f9a9cd00f989ce.jpg)  \n图1NeOn的本体设计模式类型",
+    "context5": "在 $\\mathrm { N e O n }$ 研究的分类中。ODPs按其在本体构建过程中的功能不同,可分为内容ODPs（Content-ODPs）、结构ODPs(Structure-ODPs）、词汇-句法 ODPs(Lexico-SyntacticODPs）、推理 ODPs(Reasoning-ODPs）、表达 ODPs(Presen-tation-ODPs）、通信 ODPs（Correspondence-ODPs)等六大类型,以及它们的子模式[19](见图1)。",
+    "context6": "E.Blomqvist分类覆盖了本体发展的全过程,ODPs只是其中的一种。NeOn分类更关注于实际本体的构建，把所有的模式都叫做“本体设计模式”（概念之间的相互关系见图2)。",
+    "context7": "![](images/6068a588203f4adbeaa513b141e5ca2a97463b732242957da65f5727334e6975.jpg)  \n图2概念之间的相互关系"
+  },
+  "3本体模式的一般特征": {
+    "context1": "关于本体模式的特征研究，目前可见的资料仅见于内容ODPs方面。内容ODPs的研究较完整清晰，其它类型模式的特征部分与其相似，如可计算、小型，自主等，不同之处有待后续研究。以下详细说明内容ODPs的特征[20]。",
+    "context2": "满足需求组件（Requirements Covering Components）：内容ODPs要满足本体构建中的某些需求，即满足所谓的胜任问题（Competency Questions）。",
+    "context3": "可计算组件（Computational Components）：计算机可读可理解，内容ODPs是语言独立的，并且应该用较高的描述语言，一般需要用OWL描述才能作为构建语义Web的积木。",
+    "context4": "小型、自主组件（Small,Autonomous Components）：小是指一个内容ODPs通常只有2\\~10个类，及它们之间的关系，小方便图形的可视化，自主指一个改变不会影响到另一个，每个内容ODPs都有独立的意思，方便了本体设计者，方便组合内容ODPs,方便他们控制整个本体的复杂性。",
+    "context5": "层次化组件（Hierarchical Components）:内容ODPs是有层次的，可通过具体化或一般化一些元素（类，属性），来构建内容ODPs的上下层级。",
+    "context6": "可推理组件(Inference Enabling Component）：一个内容ODPs允许一些形式的推理。",
+    "context7": "认知相关组件（Cognitively Relevant Components）：一个内容ODPs要包含中心概念，在给定的领域和任务内，更趋向理性的专家思维，便于认知。内容ODPs的可视化必须直观，结构紧凑，抓住领域的核心观念。",
+    "context8": "语言相关组件（Linguistically Relevant Components）：内容ODPs与语言模式有很好的匹配，如最丰富的仓储FrameNetFrame[21],可以用来验证内容ODPs关于词汇的覆盖面，为它们编入词汇,被重组为内容ODPs。",
+    "context9": "最佳实践组件（Best Practice Components）：内容ODPs用来描述最佳实践，现在的内容ODPs质量需要依靠创建者的个人经验和建议的品味，或模式重组的知识来源。"
+  },
+  "4本体模式的表达": {
+    "context1": "本体模式的表达，目前主要是应用模版表达方式。模版用来描述模式，包括：例子、情境、模式致力解决的问题，包含的要求和约束等。目前对于模版应包含哪些内容仍没有共识。相关研究不多， $\\mathrm { N e O n } ^ { [ 6 ] }$ 的表达模版内容为：",
+    "context2": "名字（Name）:ODPs的名字;目标(Intent）:ODPs的目标，模式致力于的一般使用意向；可选题名（Also Knownas):ODPs的可选题名；来源本体（Extractedfrom／Reengineeredfrom）：提供模式来源或复用的参考本体或概念框架;需求(Requirements）:与ODPs至力于解决的问题,用自然语言描述的能力问题（Competency Questions）；图表（Diagram）:用UML 图表表示ODPs;举例(Example）:为读者提供一个可能的实际情景；元素(Elements）:ODPs包含的元素，如类和属性，及他们的角色；结果（Consequences）：使用ODPs的优势和协议；真实案例(Knownuses）：提供一个真实的使用ODPs的本体实例；相关模式(Related patterns)：其他相关模式（如果有）,包括是不是描述的模式的具体化（Specialization）、一般化（Generalization）组合（Composition）,这里也可以描述其他的配合使用模式,及与其他模式的差异；积木(BuildingBlock）：包含用OWL实现的ODPs的URI,可复用组分的获取和下载。"
+  },
+  "5本体模式的创建": {
+    "context1": "本体模式出现不久，因此ODPs还没有达到足够的规模。其中，内容本体设计模式、通信模式、命名模式、转换模式的构建有相关研究。目前有三种构建方法：(1)由专家利用其经验直接总结构建；(2)由其它非本体的知识资源重组而来；(3)从本体中抽取。第一种方式适用于所有类型的模式，后两种方法已见于内容本体设计模式的构建。",
+    "context2": "目前关于内容本体设计模式研究较多。可被第二种方法应用的数据有：建模语言（ModelingLanguages）；概念模型（Conceptualmodels）,如数据库纲要,UML图,XSD纲要；词汇资源(Lexical resources）,如WordNet,FrameNet;概念框架(Concept Schemes）,如叙词,分类表，术语表；开放标签系统(Open tag systems）,如Wikipedia,MySpace;关联数据(Linked Open Data)等。在Eva Blomqvist研究中用到了分析模式（Analysispattern）、目标结构（Goalstructure）、项层本体（Top-level ontology）数据模型（Datamodel）、认知模型分类（Cognitive pattern taxonomy）。从这些现存的模型资源中重组内容ODPs[14]。",
+    "context3": "对于第三种方法，目前主要是人工的方法，NeOn利用本体编辑器，人工判断需要类和属性，从源本体中移植内容ODPs所需元素，根据其致力于解决的问题，构成相"
+  },
+  "关模式。": "",
+  "6本体模式的应用方法及工具": {
+    "context1": "ODPs的复用是指使用可获得的ODPs来解决发展新本体过程中各种不同建模问题的行为[22]。本体设计模式的应用研究目前仅涉及到几种模式，有内容本体设计模式、转换模式、命名模式。包括应用方法指南和具体应用实践。"
+  },
+  "6.1本体模式社区的建设": {
+    "context1": "随着基于模式的本体设计的发展，ODPs的数量在不断增长，为了复用交流，ODPs被有目的收集和存储并发布,建立了ODPs社区(ontologydesignpattern.org）[6]。社区的目标是收集ODPs,并提供合作，使有丰富经验的人共同致力于最佳实践的表达，社区支持ODPs的注册和提交，通过共同建设丰富ODPs。概括的说，社区的作用是提供了一个空间存储资源，同时提供平台进行交流与共享。社区致力于收集应用于语义Web实践发展的ODPs,希望提交的ODPs来源于实践并有成功的本体发展经验。社区支持ODPs生命周期的全过程，从模式的提出到评价、再到认证。社区于2009年开放，收藏注册的可复用的模式类型有内容ODPs、重组ODPs、对齐ODPs、逻辑ODPs、构建ODPs、词汇-句法 $\\mathrm { O D P s }$ 。但目前来看，ODPs社区模式目录的规模仍然很小，共收录6大类130个模式，尚不能覆盖所有的类型和领域。社区成立了专门的质量委员会，对提交的ODPs进行鉴定和发布。但模式的内容建设是一项长远的工作，该社区和严格的软件模式社区相比尚有差距，在线本体模式库的建设还需要社区成员的共同努力。"
+  },
+  "6.2本体设计模式应用的方法": {
+    "context1": "ODPs应用的XD(eXtreme Design)方法是一个合作的、互动的基于模式的本体设计方法。该方法的原理是：XD 提出了两个空间，一个是“通用使用案例”(GenericUseCases）,是对优秀实践的总结和编码，以便在更广范围内通用,组成了本体的解决方案空间(Solution Space）,这是本体设计问题的主要知识源，另一个是本体的问题空间(ProblemSpace）,是对实际问题的描述，叫做“本地使用案例”而XD方法就是两个空间的匹配过程。如果二者相匹配，相关的ODPs即被选中，作为最终的解决方案的一部分，根据具体的指南和工具支持，最后被选中的模式可整合成最终解决方案（见图3）。",
+    "context2": "NeOn制定了详细的ODPs使用方法指南，使ODPs的使用更容易和实用。ODPs使用的过程是本体任务需求与模式相匹配的过程。这些需求来源于本体需求的描述文档，首先是确认本体建设需求集，再提供一套可复用的$\\mathrm { O D P s }$ 。在需求与模式匹配的过程中，不断的细化需求，通过选择合适的模式复用来首先解决小的需求，这些小需求与某些模式相匹配，最后再整合成一个完整的解决方案。共分为8步： $\\textcircled{1}$ 确认需求； $\\textcircled{2}$ 确认可获得模式； $\\textcircled{3}$ 细分问题，选择部分问题； $\\textcircled{4}$ 匹配选择的细分问题与模式； $\\textcircled{5}$ 选择模式；从仓储中发现与建模问题匹配的ODPs; $\\textcircled{6}$ 应用或复用选择的模式并组合； $\\textcircled{7}$ 评估和修订部分问题，确认问题是否全面； $\\textcircled{8}$ 采用适合的ODPs，把ODPs与通信模型整合(概念化、形式化、执行）。最终结果是ODPs被整合到一个新本体中[24]。",
+    "context3": "![](images/05b678d50a3722b8e4d1f2b36da039ffad87ce15d46dfe8781253b6a02e6b2a8.jpg)  \n图3eXtreme Design 方法示意图[23]",
+    "context4": "在内容本体设计模式选择方面。目前还是根据关键词来进行匹配。为领域建模问题找到适合的内容ODPs（选择包括搜索、评价、可通过应用本体选择和评价程序来完成这个任务），在实例匹配过程中，有精确或冗余匹配、上位匹配、下位匹配等三种情形。"
+  },
+  "6.3基于模式的本体设计工具": {
+    "context1": "目前， $\\mathrm { N e O n }$ 第一代工具已完成，成为其工具包的插件支持内容ODPs仓储浏览、选择、最佳实践应用、具体化。XD对各种类型的ODPs都适用，目前仅实现了内容ODPs的应用。未来的工作是要包含所有的模式类型，给出不同的详细指南。",
+    "context2": "XD 提供了一组工具组件(见图4),支持基于模式的本体设计行为。包括ODPs注册浏览和ODPs详细说明、XD 选择器、XD分析器、XD向导（Wizards）、ODPs出版对话（ODPs Publish dialog）、XD 注释对话（XD Annotationdialog)[25]",
+    "context3": "ODps注册和ODPs详细信息视图：通过这个组件用户可以获取一套可复用的OWL模式，可直接浏览，并在建模过程中直接利用，而不需要在本地存储这些模式。当注册树中的模式被选中，其所有的OWL注释也在ODPs详细信息视图中可见。",
+    "context4": "XD 选择：提供两种模式查询方式，一种是通过简单的关键词,另一种是完整的CQ,结果返回一个可复用在当前本体工作的ODPs列表，点击结果，可以在ODPs详细信息视图中显示本体注释的内容。",
+    "context5": "![](images/3c6841b9241005ec560388c121c4d88f53f5687408ddd7c5654ad2bd43bcbdac.jpg)  \n图4NeOn工具XD 插件界面",
+    "context6": "XD 详细化向导：这是XD提供的一个引导用户具体化内容ODPs的组件，可以从导航视图、ODPs注册视图或XD选择结果视图获得，任务完成后，会出现一个可选的打开本体注释的对话框，为创建的新的本体模块增加注释。",
+    "context7": "XD 注释对话：如果注释属性没有由OWL/RDF提供，则用其他语言注释本体。对于内容ODPs,支持CPA注释框架[26]",
+    "context8": "XD分析器：目的是为用户提供根据XD方法，在本体设计中遵循了哪些最佳实践的建议和反馈，例如，缺少标签和评论，单独的实体，未使用的移植本体等。"
+  },
+  "7本体设计模式效率和效益评价": {
+    "context1": "目前只对内容本体设计模式和少数逻辑模式进行了评价，其它类型的模式的评价尚未展开。研究通过实验对下述问题进行了初步评价：(1)模式的可用性;(2)模式能够解决的问题；(3)已有模式的表述是否清晰，容易理解，模式表达对模式选择的影响；(4)模式在本体设计中的效果，对本体构建速度和难易程度的影响[27]；(5)本体构建中，模式的哪些属性对构建的本体质量有影响，使用模式是否使本体质量“更好”;(6)模式如何使用，对模式选择和使用有哪些要求[28]。",
+    "context2": "研究通过人工参与的实验来对模式进行评价。实验中既有主观观点，也有客观测量。对使用或未使用ODPs的情况进行比较。首先是对学生讲解本体和OWL基本知识，练习建模，然后在规定时间内完成建构本体的任务和问卷。实验结论，模式是有用的，并有实际的好处，但需要正确的培训，并给出足够的时间理解；使用模式使本体质量提高；模式与本体构建的速度，依赖于构建者对模式的熟悉程度；缺少从目录中选择与匹配模式的工具，目前仅有XD和OntoCase工具支持;内容ODPs作为构建本体的积木，而不是灵感。"
+  },
+  "8结语": {
+    "context1": "本体模式的研究成为近年来本体研究的一个新内容，许多方面的研究还处在较宏观、抽象的层面，人们对本体模式的认识较浅，尚有许多工作要深入继续，主要有如下几方面：",
+    "context2": "(1)模式的分类存在同名异义或同义异名问题。没有被普遍接受的术语来定义不同类型的模式，新模式被不断补充，如OPD第三次会议主题中提出了流程模式(Processes and services - process patterns）,后续研究可能还会有新模式被提出。",
+    "context3": "(2)不同类型的模式研究不均衡。在贯穿本体整个生命周期的四种本体模式当中，有三种模式研究相对较少，没有明确的说明，只有一个框架存在，只有本体设计模式研究相对较多；子模式研究的深度不同。内容本体构建模式被研究最多，而其它模式，如重组模式，构建模式，表达模式，研究相对较弱，有些模式还处于提出概念阶段，没有实际的模式实例，没有相关的应用，如本体应用模式、本体构建模式。后续需要对这些模式的功能、表达做进一步研究。",
+    "context4": "(3)模式数量少，而且很通用。目前的模式数量少，领域覆盖范围也有限，为了能与研究问题匹配，以正确的方式被复用，需要更详细的领域模式，需要进一步丰富模式仓储。如何从现存本体之中发现或抽取模式？协助用户应用ODPs。如何为模式发展更复杂的公理？使最终的模式更精确有用。",
+    "context5": "(4)工具和方法指南的缺乏。当使用模式时，对模式的选择，只有XD工具和方法指南支持，而且仅支持内容ODPs的选择。如何提供发现、匹配、选择、调整、扩展、组合模式？模式选择和复用如何实现半自动化？",
+    "context6": "（5)目前的评价研究还停留在模式的有效性判断上。主要评价内容模式、转换模式、命名模式。其它模式的有效性评价还未展开。以前 $\\mathrm { N e O n }$ 的研究结论较概括，需要更量化的分析。在 $\\mathrm { N e O n }$ 两部分实验的基础上的相关深入研究。不同工具对内容ODPs支持效果;不同的方法对内容ODPs使用和有效性的效果；模式的表达对内容ODPs的用途和有效性的效果；任务表达、内容和本体规模大小对内容ODPs的用途和有效性的效果；其它类型模式的用途和有效性等。"
+  },
+  "参考文献：": {
+    "context1": "[1]Swoogle[EB/OL].[2012-10-26].htp:/swoogle.umbc.edu/.   \n[2]Clark P，Thompson J，Porter B W.Knowledge patterns [C].International Conference on Principles of Knowledge Representation and Reasoning(KR2OoO).San Francisco, 2000:90-94.   \n[3]Gangemi A. Ontology design patterns for semantic web content[C].International Semantic Web Conference（IS WC2005)，Sardinia，2005:262-276.   \n[4]Svatek V. Design patterns for semantic web ontologies : Motivation and discussion [C].Conference on Business Information Systems（BIS-04)，2004.   \n[5]Ontology engineering and patterns task force(OEP）[EB/ OL].[2012-10-26].http://www.w3.org/2001/sw/Best Pra ctices/OEP/.   \n[6]Ontology Design Patterns.0rg[EB/OL]. [2012-10-26]. http ://ontologydesignpatterns.org/wiki/Community :ListPa tterns.   \n[7]ontology design pattrns(ODPs)public catalog[EB/OL]. [2012-10-26].http://www.gong.manchester.ac.uk/odp/ht ml/index.html.   \n[8]WOP 2009 - Workshop on Ontology patterns [EB/OL]. [2012-10-26].http://sunsite.informatik.rwth-aachen.de/ Publications/CEUR-WS/Vol-516/.   \n[9]Welcome to the 2nd Workshop on Ontology PatternsWOP2010 [EB/OL].[2012-10-26].http://ontologydesignpatterns.0rg/wiki/WOP:2010#Topics.   \n[10]Hammar K.the state of Ontology Pattern Research[C]. the Workshop on Ontology Patterns(WOP)at the International Semantic Web Conference (ISWC)2010,Shan ghai,2010.   \n[11]Ontology Patterns for the Semantic Web[EB/OL].[2012 -10-26].http:/researchweb.watson.ibm.com/people/w/w elty/OPSW-05/.   \n[12]EKAW 2008-16th International Conference on Knowledge Engineering and Knowledge Management Knowledge Patterns[EB/OL].[2012-10-26].http://ekaw2008. inrialpes.fr/.   \n[13]Welcome to the 3rd Workshop on Ontology Patterns - WOP2012[EB/OL].[2012-10-26]. http://ontologydesignpatterns.org/wiki/WOP:2012.   \n[14]Blomqvist E. Semi -automatic Ontology Construction basedon Pattrns[D].Linkoping:Linkoping University, 2009.   \n[15]Blomqvist E.Ontology Patterns- Typology and Experiences from Design Pattern Development [EB/OL]. [2012-10-26].http://www.ep.liu.se/ecp/048/010/ecp10 48010.pdf   \n[16]Gangemi，A.: Ontology design patterns for semantic web content[A].Gil,Y.,Mota,E.,Benjamins,R.，Musen, M.(eds.） The Semantic Web - ISWC 2005，4th International Semantic Web Conference[C].2005:262-276.   \n[17]Suarez -Figueroa,M.C.et al.NeOn deliverable D5.1.1- Neon modelling components [R/OL].[2012-06-20]. http://www.neon-project.org/deliverables/WP5/NeOn_2   \n[18]Presutti V. et al. NeOn deliverable D2.5.1-A library of ontology design patterns :reusable solutions for collaborative design of networked ontologies [R/OL].[2012- 06-20]. htp://www.neon-project.org/deliverables/WP2/ NeOn_2008_D2.5.1.pdf.   \n[19]Sabou M .et al.NeOn deliverable D2.2.3- Methods and Tools for the Evaluation and Selection of Knowledge Components [R/OL].[2012-06-20].http://www.neonproject.org/web-content/images/Publications/neon_2009 _d223.pdf.   \n[20]A.Gangemi ,V.Presutti.Ontology Design Patterns.Hand book on Ontologies.International Handbooks Information System[M].Berlin:Springer,2009:221-243.   \n[21]Frame Net [EB/OL].[2012-10-26]. https://framenet. icsi.berkeley.edu/fndrupal/about..   \n[22]Suárez-Figueroa，M.C.，G6mez -Pérez，A. First Attempt towards a Standard Glossary of Ontology Engineering Terminology[C].8th Proceedings of TKE,2008: 18-21.   \n[23]Daga E.et al. NeOn deliverable -D2.5.2 Pattern based ontology design:methodology and software support [R/ OL].[2012 -06 -20].htp://www.neon -project.org/nw/ images/5/5c/Ne0n_2010_D252.pdf.   \n[24]Suárez-Figueroa M.C.et al. NeOn deliverable -D5.4.2. Revision and Extension of the NeOn Methodology for Buildi ng Contextualized Ontology Networks [R/OL]. [2012-06-20].http://www.neon-project.org/web -content/images/Publications/neon_20o9_d542.pdf.   \n[25]XDtools[EB/OL].[2012-10-26].http://neon-tolkit.org /wiki/XDTools.   \n[26]cpannotationschema.owl[EB/OL].[2012-10-26].http:// ontologydesignpatterns.org/schemas/.   \n[27]R. Garcia-Castro et al. NeOn deliverable-D5.6.1:Experimentation with the NeOn methodologies and methods.R/OL].[2012 -06 -20].htp://www.neon -project. org/nw/Deliverables.   \n[28]Dzbor M.et al. NeOn deliverable-D5.6.2: Experimentation and Evaluation of the NeOn Methodology[R/OL]. [2011-06 -20].http://www.neon -project.org/nw/Deliverables."
+  }
+}

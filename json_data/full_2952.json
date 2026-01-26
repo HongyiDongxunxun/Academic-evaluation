@@ -1,0 +1,168 @@
+{
+  "original_filename": "full_2952.md",
+  "国内外学科结构与演化可视化的研究综述": {
+    "context1": "Literature Review of Discipline Structure and Evolution Visualization Home and Abroad",
+    "context2": "陈必坤 詹长静 王日芬（南京理工大学经济管理学院，南京,210094）",
+    "context3": "[摘要]学科结构及演化研究一直是学者关注的课题。科学知识图谱、学科知识网络和学科知识地图等从不同视角揭示了学科的结构与演化规律，取得了丰硕成果，同时也带来了概念难辨和内容重复等问题。针对以上问题，本文采用传统文献调研和文献综述的方法梳理了国内外学科知识地图、学科知识网络和科学知识图谱等方面的研究，并分析了其异同及存在的问题。结果表明学科知识地图是一种知识的指南，指明\"人或者知识在哪儿”,强调知识组织；科学知识图谱和学科知识网络不仅指明\"人或者知识在哪儿”,还揭示\"人或者知识的过去以及将来是什么样”,强调知识挖掘和知识发现；可视化则能够将以上三者统一起来，它们都是从不同的建模视角以\"可视化\"的形式(图谱、地图和网络)揭示学科的结构与演化规律，最终目的都是为了辅助决策和知识服务。",
+    "context4": "［关键词］学科结构学科演化可视化科学知识图谱学科知识网络学科知识地图 [中图分类号]G301 [文献标识码]A[文章编号]1003-2797(2016)06-0069-11 DOI:10.13366/j.dik.2016.06.069 [Abstract]Research of discipline structure and evolution always drew the scholars’interests.From diferent views，mapping knowledge dmains，discipline knowledge network，discipline knowledgemap，et.al．revealedthedisciplinestructure andevolution.Although lots of achievements have gained，there werealso some critical isuesontheirambiguous concepts andduplicatecontents.Intermsofthecritical isuesabove，this paperapplied traditionalliterature studymethodtoreview theliteratureof mapping knowledge domains，discipline knowledge network，discipline knowledgemap，etal.homeandabroadand summarized their similarities，diferences，problemsand trends.It concluded that discipline knowledge map was theguide to knowledge，emphasizingonknowledge organization，mapping knowledge domainsanddiscipline knowledge network notonlyfocusedonknowledgeorganization，butalso knowledgediscovery.Astovisualization，itconformedthecon cepts of discipline knowledge map，mapping knowledge domains and discipline knowledge network，which were visualized in the form of map，network and so on.",
+    "context5": "[Key words]Discipline structureDiscipline evolutionVisualizationMapping knowledge domainsDiscipline knowledge networkDiscipline knowledge map"
+  },
+  "1引言": {
+    "context1": "近十年来，大数据、社交媒体和可视化技术的涌现推动了科学计量学的快速发展，新的理论、方法和技术(比如复杂网络、数据科学和可视化技术等)融合到科学文献分析中，面向科学文献的可视分析学(Vis-ualAnalytics)技术成为文献和知识服务的新趋势，其突出特点是将可视化、人的因素和数据分析相结合。在此背景下，选取海量异构的研究数据，运用可视化技术进行科学文献分析越来越引起研究人员的兴趣和重视，比如科学知识图谱、学科知识地图、科学知识网络(或学科知识网络、领域知识网络，为论述方便，以下统称为学科知识网络)等。然而，当前的研究比较零散、各执一词，且偏重应用研究、忽略理论探索、忽略人的因素，迫切需要采用新的思维和视角对已有的研究进行提炼和整合，构建较为系统的理论、方法和应用体系以揭示科学的结构与演化规律，为科学计量学以及图书情报学的发展提供参考。",
+    "context2": "科学是人类对客观世界认识的结晶，学科是对科学的细分(学科对应 Discipline、Research Specialty 或Field等术语)。科学学研究的目的是厘清以下问题：何时（When）、何地（Where）、何事（What）、和谁一起(With Whom)、等等,即科学学在时间(Temporal）、空间(Spatial)、主题(Topical)和网络分析(Network Anal-ysis)方面的问题。时间问题通常需要动态模型(Dy-namic Models)去解决，空间和主题问题通常需要结构模型(Structural Models)去解决，网络分析问题需要通过同质网络和异质网络的仿真和网络动力学模型等去解决。从科学计量学和科学学建模角度来看，科学由一群保持学术交流的研究人员及其所生产的一系列彼此相关的知识组成，是社会活动（SocialActivi-ty),也是知识网络（Knowledge Network)[1]。基于以上思路，本文对国内外相关研究按照科学知识图谱、学科知识地图、学科知识网络和可视化(包括可视化分析、数据可视化、信息可视化、知识可视化和可视分析学)四方面进行了梳理，并针对学科结构与演化可视化的研究进行了系统综述。"
+  },
+  "2科学知识图谱": {
+    "context1": "伴随着技术和工具的发展，科学知识图谱的研究成果快速增长。一是理论研究，包括研究范式和绘制流程。二是数据、方法与工具研究，包括数据来源、绘制方法和绘制工具。三是应用研究，包括：分析某一学科领域的整体演化情况，探测某一学科领域的研究基础、热点和前沿，识别某一学科领域的核心作者群及其之间的共现关系等。具体如下："
+  },
+  "2.1理论研究": {
+    "context1": "（1）科学知识图谱研究范式。陈超美认为某一研究领域(Speciality)的发展演化基于两个概念—“研究前沿\"（Research Front）和“知识基础\"（IntellectualBase)间的时变对偶(Time-variant Duality)[2]。他吸收了库恩《科学革命的结构》中的核心概念范式(Para-digm)，在科学知识图谱中开创了“竞争范式\"（Come-peting Paradigms)的研究，去发现科学发展的轨迹[3]，还参照社会网络分析中的转折点(TuringPoint)理论进行了“科学创新\"方面的研究，去发现学科领域中重要的知识网络节点[4]。在以上研究的后发下，他开发了Citespace软件并编写了教材，使得越来越多的研究人员去分析特定研究领域的知识基础、研究热点和研究前沿[5]。",
+    "context2": "近年来，使用科学知识图谱软件对某一学科领域进行分析的研究成果快速增长，而理论研究却处于缓慢发展阶段。其中比较有代表性的理论研究如下：赵丹群比较全面地总结了国内外科学知识图谱的研究范式，即传统研究范式(主要以文献调研和文献综述为主）、科学社会学(Sociology of Science)理论研究范式（由RobertMerton创立）、复杂网络分析范式(基于复杂网络理论)以及文献计量研究范式(基于引文分析法等)，等等，并认为针对目前的科学知识图谱研究而言，文献计量学研究范式应是其中最为重要的一种，还详细论述了该研究范式的理论基础、基本研究框架和主要研究策略[6]；后来，陈悦等从CiteSpace的设计理念、理论基础、使用流程和新近技术四个方面详细论述了CiteSpace知识图谱的方法论功能[7]。",
+    "context3": "(2)科学知识图谱绘制流程。White和McCain于1997年将文献可视化的步骤归纳为五个方面[8]。后来McCain总结了作者共被引分析的传统步骤：选择作者、检索共被引频次、构造共被引矩阵、转化为皮尔逊相关系数矩阵、多元分析和揭示结果及效度分析[9]。Borner等人将科学知识图谱的绘制过程分为六步：数据抽取、选定知识单元、设定分析方法、计算单元之间相似度、布局知识单元、展示并分析结果[10]。近几年来，其他研究者对科学知识图谱的绘制流程进行了扩展研究。比如：Cobo等人认为主要有八个步骤：数据检索(Data Retrieval）、数据预处理(Prepro-cessing)、网络抽取(Network Extraction）、标准化（Nor-malization）、绘图（Mapping）、分析（Analysis）、可视化(Visualization）和图谱解读（Interpretation）[11-12]；肖明等参考Cobo等人的研究成果，将其归纳为七步：数据检索、数据预处理、关系矩阵构建、规范化处理、可视化数据、图谱参数调整和最终成型、结果解读[13]；杨思洛等也将其分为八步：样本数据获取、样本数据清洗、选择知识单元、构建单元关系、数据标准化、样本数据简化、知识可视化、图谱结果解读[14]。综合以上观点，虽然不同研究者给出了不同的流程，但是其环节的内涵相同，均涵盖数据获取、数据预处理、知识单元选定、单元间关系构建、关系数据标准化、可视化和图谱结果解读等环节。"
+  },
+  "2.2数据、方法与工具研究": {
+    "context1": "(1)科学知识图谱数据来源。从目前的研究来看，数据来源主要包括：题录数据、全文数据、用户使用数据和Altmetrics(国内译为替代计量学或补充计量学)数据。其中：题录数据主要来源于大型商业文献数据库(常用的有Web of Science、Scopus、Science Di-rect、Derwent、CNKI和CSSCI等）、开放的网络数据库（常见的有 Google Scholar、arXiv、CiteSeerX和 Medline等）、专利和基金数据(常用的有United States Patentand Trademark Office(USTPO)、European Patent andTrademark Office 和 National Science Foundation 等）。全文数据的可获取性得益于近些年数字化技术的发展，文献全文信息主要以XML和 HTML格式存储。比如,知名的开放获取(Open Access)期刊《PloS one》，在提供PDF全文下载的同时也提供XML格式的全文下载；世界著名的学术数据库Springer、Elsevier和Wiley也都开始提供全部或部分XML和HTML格式的全文下载，尤其是Elsevier自2012年以来开放了Con-",
+    "context2": "SynTM数据平台(https://consyn.elsevier.com/）,提供XML全文数据的检索和打包下载，不过目前仍处于邀请试用阶段。",
+    "context3": "用户使用数据主要来源于学术出版商（比如CNKI、Web of Science、Springer、PloS、PNAS 和 Sci-ence)，它们提供学术数据库的用户使用数据(浏览数据和下载数据)，比如CNKI的用户下载数据、Web ofScience的用户下载数据[15]以及Springer的用户实时下载数据(SpringerRealtime系统已于2015年7月关闭）。替代计量数据是随着替代计量学(Altmetrics）的诞生而逐渐为人们所知晓并且承认的数据对象[16]。Altmetrics是通过收集科学文献在网络社交新媒体（如Facebook、Twitter等）、学术型或通用型网站平台（如Wikipedia、ResearchGate等)和学术型社交媒体工具（如Mendeley、CiteULike等)上的传播热议的数据，来反映科学文献的社会影响力的一种计量方法[17]。目前主要的替代计量数据网站是Altmetrics（http://altmetric.com/），主流学术出版商Springer和Wiley已与该网站合作，提供每一篇期刊论文的Altmetrics数据。",
+    "context4": "题录数据主要通过分析标题、合作者或合作机构、关键词和参考文献来揭示特定领域的研究主题、合作情况以及引用情况。全文数据主要用于全文本引文分析，不仅考察施引文献的参考文献列表，还对参考文献在施引文献中的引用情况(引用次数、引用位置和引用语境等)进行分析，通过比较引用情况的不同去了解其在施引文献中的作用和重要性。用户使用数据和AItmetrics数据的时效性较强，可以用来测度期刊论文的实时使用情况和社会影响力，是对题录数据和全文数据的有效补充。",
+    "context5": "(2)科学知识图谱绘制方法。科学知识图谱是一个跨学科的研究主题，其研究方法源于不同学科，目前来看主要包括科学计量学、统计学、社会网络分析学以及可视化理论等方面，具体包括词频分析法、共现分析、引文分析、多元统计分析、社会网络分析和可视化分析方法等。梁晓婷等对构建科学知识图谱常用的共现分析、引文分析、多元统计分析、社会网络分析和可视化分析方法的基本原理、使用工具、优劣势和适用性进行了较为系统的讨论[18]。",
+    "context6": "(3)科学知识图谱绘制工具。目前来看，科学知识图谱的绘制工具可分为两大类：通用软件和专门软件。前者指诸如SPSS、SAS、Ucinet和Pajek 等被多学科多研究领域研究者使用的大众软件；后者指以绘制科学知识图谱为目的的专业软件。比如，加菲尔德主导研发的引文网络分析工具—Histcite[19]。之后，Cobo等人比较分析了10种专门软件：Bibexcel，CiteSpace，CoPalRed,IN-SPIRE，Leydesdorff系列软件,Network Workbench Tool,Science of Science Tool,VanagePoint,VOSviewer和 SciMAT[20]。后来,莱顿大学的Van Eck 和Waltman 又开发了 CitNetExplorer[21],斯图加特大学的研究者开发了CiteRivers[22]。此外，中国的研究人员也开发出了相关软件：比如，SATI[23]，NEViewer[24],CATAR[25],ArnetMiner[26]和 LiterMiner[27]等。除了以上现成的软件，也有研究者通过自己编程构建矩阵、聚类结果并借助可视化软件包Prefuse进行某一领域的主题知识图谱展示[28]和合作网络展示[29]，以及利用开源可视化工具Jung开发作者引文耦合可视化系统[30]。",
+    "context7": "不同的知识图谱绘制软件都具有各自的特点。比如：在构建矩阵方面，CoPalRed和NEViewer只能构建共词矩阵，而VOSviewer不能构建任何类型的矩阵;在可视化方面，VOSviewer擅长于知识的聚类和可视化，而 Loet Leydesdorff's software不具备可视化的功能。因此，把握不同软件的特点，根据研究目的对其进行合理的组配使用能够达到较为理想的研究效果[31]。"
+  },
+  "2.3应用研究": {
+    "context1": "目前，科学知识图谱的应用研究较多，陈超美[32]、李杰和陈超美[33]、Borner[34-35]做了比较系统的应用研究。其他的应用研究比较零散，总体上可以归纳为以下几个方面： $\\textcircled{1}$ 分析某一学科或领域的整体演化情况，比如情报学[36]、图书馆学[37]和信息计量学[38]；$\\textcircled{2}$ 探测某一学科或领域的研究基础、热点和前沿，比如图书情报学[39]和引文分析学[40]； $\\textcircled{3}$ 识别某一学科或领域的核心作者群及其之间的合著、共被引及耦合关系，比如科学合作研究[41]、学术交流框架[42]、作者同被引分析[43]和作者耦合分析[44]; $\\textcircled{4}$ 识别某一学科或领域的核心期刊群及其之间的共被引及耦合关系，比如期刊聚类[45]和期刊共被 $\\pmb { \\vec { 5 } } \\vert ^ { [ 4 6 ] }$ ； $\\textcircled{5}$ 识别某一学科或领域的核心国家、机构及其之间的合作情况，比如国家和地区的学术竞争力[47]和机构合作网络[48]；$\\textcircled{6}$ 分析某一学科或领域某一种或几种期刊的情况，比如A&HCI期刊分布图[49]和《情报科学》杂志[50]。",
+    "context2": "此外，值得提出的是，以上科学知识图谱的应用研究套路比较固定，尤其是国内的研究，多是采用某些工具对特定学科或领域进行可视化并人工解读。目前，已有研究者提出了新的研究方向，比如科学知识图谱的叠加研究去发现不同学科的交叉研究领域[51-52]、通过科学知识图谱去进行全文本引文分析[53-54]以及Altmetrics研究[5-57]等等。"
+  },
+  "3学科知识地图": {
+    "context1": "知识地图这一概念源于知识管理领域并广泛应用于各个行业，涵盖企业、政府、图书馆、教育和科研领域等。学科知识地图是将知识地图的理论和方法应用于科学计量学领域。目前来看，学科知识地图的理论研究很少，以应用研究为主：一是专家知识地图和虚拟科研团队知识地图的构建;二是某一学科领域知识地图的构建。"
+  },
+  "3.1专家与虚拟科研团队知识地图的构建": {
+    "context1": "专家与虚拟科研团队知识地图的构建主要包括以下两种途径。一是通过合著、引文、语义等关系，应用社会网络分析和本体技术等构建知识地图。比如：刘勘和周丽红梳理了专家知识地图的构建方法，并分别对专家研究领域知识地图和专家社会网络知识地图进行了分析和举例说明[58]；吴才唤以某院校研究所全体14位教师的引文为研究对象，构建了相应的隐性知识地图[59]；贺焕振基于合著与引用网络构建了专家知识地图[60]；刘彤和时艳琴基于合作关系构建了跨学科科研团队的知识地图[61];胡元蛟和王昊引入本体机制构建了CSSCI学术资源中的专家知识地图[62]；夏立新、王忠义和张进引入XTM模型(一种语义技术)构建了图书馆专家知识地图[63]。",
+    "context2": "二是通过Web挖掘、模型与算法改进等来构建知识地图。比如，陈强、廖开际和奚建清通过Web 挖掘建立专家知识地图[64];Haruechaiyasak 等以 SCl数据库为例采用概率关键词标注模型（Probabilistic Key-word Annotation Model)构建了专家知识地图[65]；苗蕊等改进了成长单元结构算法，利用层级成长单元结构算法对虚拟实践社区内的知识对象进行聚类，并基于标签自组织映射算法自动确定出每一类所代表的主题，构造出层级知识地图[66];巩军和刘鲁利用维基百科构建了专家个人的知识地图，以此为基础还提出了基于知识节点密度和基于最大公共子图的推荐算法进行专家推荐[67]；Jasinevicius等提出了模糊专家地图的概念并开发了相应软件对其构建过程进行动态仿真[68]。"
+  },
+  "3.2某一学科领域知识地图的构建": {
+    "context1": "某一研究领域的知识地图构建，通常以该领域的文献数据为研究对象，分析其代表人物、研究主题、研究热点以及研究前沿等。比如，纳米科学[69-70]、情报研究[71]、图书馆学[72]、医学[73]、数字图书馆[74]、竞争情报[75]和信息检索[76]等学科领域。后来，又有研究者结合本体技术实现知识地图的构建。比如，李大鹏[77]、高劲松等[78]提出了基于本体的学科知识地图的构建方法，郝佳等基于潜在语义分析构建了数控领域的知识地图[79]。后来，曹高辉等提出泛在信息环境下的学科知识地图构建，即在资源组织上强调对多模态学科知识的集成与融合，在功能形式上表现为多维度关联的知识空间[80]。"
+  },
+  "4学科知识网络": {
+    "context1": "知识网络已被多个学科领域广泛应用，比如教育教学、企业管理、图书情报以及科学学等。其中，学科知识网络指以特定学科领域内的知识单元作为节点，以知识单元之间的关联作为边而构成的网络。目前，学科知识网络方面的研究主要包括：一是理论研究；二是学科知识网络构建研究；三是学科知识网络的结构特征与结构演化、演化模型与动力研究。"
+  },
+  "4.1理论研究": {
+    "context1": "顾东蕾提出了学科知识网络的定义及其属性，认为学科知识网络是由学科知识元素组成的知识节点和知识关联(知识链接)构成的网络状知识体系，它具有知识网络的一切属性，还具备知识场分布性、相对真伪性和有序性等特有属性[81]。后来，她又提出学科知识网络的理论基础为知识场理论、知识生命周期理论、知识链接理论和知识地图理论，认为知识场理论演化形成学科知识场域，知识生命周期理论演化形成学科知识发展网络，知识链接理论演化形成学科内主题知识链接网络，知识地图理论演化形成学科知识图谱[82]。"
+  },
+  "4.2学科知识网络构建研究": {
+    "context1": "学科知识网络的构建主要是通过合著、引文、共词等关系，通过复杂网络分析法构建了学科知识网络。比如，陈雪飞、肖仙桃和史新艳根据知识单元和知识关系的不同将知识网络划分为知识结构网络和知识主体关系网络两类，并在该体系基础上以时间、网络类型、层次为维度确立知识网络构建方法模型，最后以科学计量学为例构建了领域知识网络[83]；叶春霞、余翔和李卫以企业间专利合作数据为例，用社会网络分析方法分析了多学科知识网络的网络结构特点、实际动态变化过程以及网络中学科的分布特点[84];Liu,Shan 和Yu以文献引文数据为例构建了中国跨学科知识网络，探究了不同学科之间的知识交流的结构及其演化过程[85]；马费成和刘旻璇选定关键词共词网络作为研究对象，探测了中国经济学学科的整体知识结构情况、学科知识的演化以及热点问题[86]；胡昌平和陈果以\"数字图书馆\"领域为例，对其关键词组成的概念知识网络进行分层，并引入节点层级差异和三元闭包类型去更深入地分析知识网络中节点的微观关联结构[87]。最近，寇继虹提出将学科领域知识点维度和学科领域研究维度融合在一起形成学科领域知识网络，并引入TheBrain知识组织工具对竞争情报学科领域知识网络进行可视化构建和动态视觉展示[88]。"
+  },
+  "4.3学科知识网络的结构与演化研究": {
+    "context1": "(1)学科知识网络的结构特征与结构演化。学科知识网络的结构特征与结构演化的研究内容主要包括两个方面：一是学科知识网络结构特征的测度，二是学科知识网络结构的演化。比如，林德明和陈璐璐选取网络的平均聚类系数、平均最短路径和平均度三个特征指标，建立科学知识网络的自相似模型，并对合作网络、共词网络与共被引网络的自相似性进行定性与定量的分析，验证了科学文献的网络拓扑结构的局部与整体具有的自相似性[89]；吕鹏辉和赵一鸣等人认为学科知识网络包括引文网络、共被引网络、共词网络和合作网络等，分别对引文网络[90]、共被引网络(期刊共被引网络和作者共被引网络)[91]、共词网络[92]和合作网络(作者合作网络、机构合作网络和国家合作网络)[93]的结构、特征与演化进行了较为系统的分析;Chen、Borner和Fang以《Scientometrics》期刊为例，从微观、中观和宏观三种视角对作者合作网络、机构合作网络和国家合作网络的结构及其演化情况进行分析[94];Cobo等提出了一种基于共词网络的学科结构演化框架，并以模糊集理论(Fuzzy Sets Theo-ry)为例进行实证[95]；程齐凯和王晓光也提出了一种基于共词网络社区的学科主题演化分析框架：首先对原始的科学文献进行处理，得到一系列时序共词网络，然后通过社区发现算法找到每个时段上的网络社区，并为每个社区赋予主题标识，接着利用相关性算法，探测前后时段中网络社区间的相关性，以此确定社区演化关系[96]。最近，张斌和马费成主张将链路预测法引入到科学知识网络的结构及其演化的研究上，用链路预测量化和评价演化模型，识别和分析异常链路，以发现知识热点和创新趋势[97]。",
+    "context2": "(2)学科知识网络的演化模型与动力研究。网络科学先驱Barabasi和Watts的研究表明复杂网络具有小世界[98]和无标度特性[99]。后来Barabási和New-man 探索了复杂网络的演化动力[100]与演化过程[101]。目前，学科知识网络的演化模型与动力研究主要是基于以上成果。比如，王晓光以共词网络为例对科学知识网络的形成与演化做了前期的基础研究，首次从词汇维度定性解释了科学知识网络的形成与演化机理[102]，并利用中国管理科学领域五种核心期刊的关键词数据为例研究了共词网络的复杂结构[103]；王旻霞和赵丙军认为科学知识网络包含知识主体网络、知识载体网络和知识本体网络三种，它们多具有小世界网络和无标度网络的结构特征及相似的演化机制，但驱动网络演化的动力异同并存[104]；刘臣、单伟和于晶发现学科知识网络的演化有三种特征，即网络节点数目较为稳定，重要节点之间优先建立连接，重要节点之间边权值优先增加[105];Lee、Su和 Chan 以基于本体的学科知识网络为例，通过向量空间模型计算不同网络节点的相似度，进而确定节点之间建立联系的可能性，为学科知识网络的演化提供前瞻性的依据[106]。",
+    "context3": "后来，刘向和马费成从数学建模与仿真的视角进一步探讨了知识演化过程中的时间因素影响，基于演化网络的方法与理论，构造了科学知识网络演化模型，分析了马太效应与时间效应之间的关系[107]，还针对科学知识网络的演化规律及动力问题，建立了科学知识网络的演化模型，模型构建了基于局域世界的增长网络，通过引入跨领域交叉连接、度择优连接和时间优先连接三种连接机制以反映科学知识的集聚和交叉、继承和发展的关系[108]。"
+  },
+  "5可视化": {
+    "context1": "可视化(Visualization)于1987年在美国国家科学基金会举办的可视化会议上被研究者提出。可视化先后经历了科学计算可视化、数据可视化、信息可视化、知识可视化和可视分析学等不同发展阶段。由于数据、信息和知识在本质上不同，数据可视化、信息可视化和知识可视化也相应存在着本质区别。"
+  },
+  "5.1数据可视化的应用": {
+    "context1": "数据可视化在学科知识可视化分析中应用主要包括发文量和引文量的年代分布、国家分布、机构分布、作者分布和期刊分布等，关键词的词频分布，作者和机构的合著情况，等等。总体来讲，数据可视化在学科知识可视化中的应用比较简单，主要通过饼图、面积图、折线图以及柱状图等具体形式对学科知识进行视觉呈现，帮助研究者直观地去了解某一学科领域的基本统计状况。"
+  },
+  "5.2信息可视化的应用": {
+    "context1": "与数据可视化相比，信息可视化在学科知识可视化分析中应用相对要深入，它能够指引研究者从中发现新的信息，其中最重要的应用是引文分析可视化。因为近些年来引文数据呈爆炸式增长，信息可视化具备的诸多优势无疑能促进引文分析应用这项技术。20 世纪60 年代,加菲尔德等人在《The Use of CitationData in Writing the History of Science》一文中绘制了DNA研究领域的历史发展图谱，开拓了引文分析可视化的道路。后来越来越多的研究者致力于引文分析可视化的研究，比如 Price、Small、White、McCain以及后来的陈超美和Borner等。目前，最常用的引文分析是引文耦合和引文同被引，它们是文献引证关系中比较复杂的两种形式，不是文献间单一的相互引证关系，而是两篇或两篇以上文献同时引证同一篇文献，或两篇文献同时被别的文献共同引证，这种特性使得它们构成了文献聚类、学科聚类分析的理论基础。后来引文耦合和引文同被引又拓展至作者耦合、作者同被引、期刊耦合和期刊同被引等多种相似关系的研究。随着计算机技术、网络技术以及可视化技术的发展，引文分析又吸收了统计分析、矩阵分析等数学方法以及海量数据的获取、处理和可视化技术，以知识图谱的方式展示引文分析的结果，使得这一经典方法被科学计量学、科学学、教育学以及其他学科的人所认识和接受。",
+    "context2": "信息可视化在学科知识可视化分析中另一个重要应用是共词分析可视化。共词现象研究可追溯到20世纪40年代的计算语言学领域，当时的代表研究者是 Hornby 和 De Saussure。到20 世纪70 年代中后期由学者McKinnon 明确提出并使用共词分析法[109]。20世纪80年代Callon等将共词分析法引入到科学计量学领域[110-11],很显然，共词分析与引文同被引的思路是相同的。在科学计量学领域，共词分析主要用于识别某一研究领域的研究主题和研究热点等。传统的共词分析通常使用多维尺度分析、因子分析和聚类分析三种方法相结合方式去分析研究领域，主要是通过 SPSS软件实现。后来随着计算机技术、网络技术和可视化技术的发展，共词分析又引入了社会网络分析的理论和方法、Pathfinder 算法、VxOrd mapping 技术以及VOSmapping技术(通过软件VOSviewer实现）等理论和方法，使得其研究更加深入。"
+  },
+  "5.3知识可视化和可视分析学的应用": {
+    "context1": "关于知识可视化，美国德雷塞尔大学的林夏[112]总结了知识结构可视化的三种策略：现有知识结构的可视化(将分类表、词汇表、文件索引中的知识结构用可视的方法显示出来，比如 DDC-based Visual Inter-face)、探索发现型的知识结构可视化(将抽取和重构之后的知识结构用可视的方法显示出来，比如Ontolo-gy-basedVisual Search Interface)、用可视模式引导的知识结构可视化(比如Google $^ +$ Ripples)，并认为大数据时代的知识结构具有以下特征：以数据为基础（用简单的数据模型汇集大量的数据）、以分析为手段（海量数据实时分析与关联分析）、以交互型可视化为表现形式、以应用为检验标准。",
+    "context2": "此外，作为一个新的研究领域，可视分析学，于2005年进入人们的视野，它被定义为一门以可视化交互界面为基础的分析推理科学[113]。可视分析学可看成将可视化、人的因素和数据分析集成在内的一种新思路，辅助用户从大尺度、复杂、矛盾甚至不完整的数据中快速挖掘有用的信息，以便做出有效决策。在科学计量学领域，陈超美将可视分析学用于科学发现和知识扩散，通过文献共被引对不同结构的数据源，比如 arXiv、ADS 和 NSF 基金等数据源对 SDSS(SloanDigital Sky Survey)领域进行研究[114]。后来，他提到可视分析学强调基于事实证据的分析推理和决策，这一点正是科学前沿图谱(Mapping Scientific Frontiers）所必须的[115]。因此，科学计量学领域应逐步引入可视分析学的理论和方法，来促进学科的进一步发展。"
+  },
+  "6讨论": {
+    "context1": "由上可知，科学知识图谱、学科知识地图、学科知识网络和可视化分别从不同视角对学科的结构与演化进行探索。学科知识地图是一种知识的指南，指明\"人或者知识在哪儿”，强调知识组织；科学知识图谱和学科知识网络具有更深层次的涵义，不仅指明\"人或者知识在哪儿”，还揭示“人或者知识的过去以及将来是什么样”，强调知识挖掘和知识发现。可视化则能够将以上三者统一起来，它们都是从不同的建模视角以“可视化\"的形式(图谱、地图和网络)揭示学科的结构与演化，最终目的都是为了辅助决策和知识服务。",
+    "context2": "虽然目前的研究取得了一定成果，但是也存在明显不足，主要表现在： $\\textcircled{1}$ 概念难辨、使用不规范，不少研究者辨不清科学知识图谱、学科知识地图和学科知识网络之间的异同； $\\textcircled{2}$ 研究数据局限，仍以题录数据为主，对全文本文献数据、用户使用数据与AItmetrics数据关注较少； $\\textcircled{3}$ 研究方法局限， $\\pmb { \\mathcal { P } }$ 以科学计量学方法和复杂网络分析方法为主，过多关注合著、共词和引文网络的结构特征及结构演化，在演化模型和动力方面的研究很少； $\\textcircled{4}$ 软件工具多样、操作不规范，鲜有软件工具方面的系统总结； $\\textcircled{5}$ 应用研究较多、层次较低、研究内容交叉重复且结果解读牵强，缺乏系统的理论研究做指导。因此，需要引入数据科学、网络科学、可视分析学和知识融合等新兴思维和理论，以学科结构和学科演化为主线，采用可视化分析的视角对科学知识图谱、学科知识地图和学科知识网络等的内容进行提炼和整合，解决当前概念难辨、数据源单一、所用方法局限、工具使用不规范和应用研究内容重复等问题。"
+  },
+  "参考文献": {
+    "context1": "3ChenC.Mapping scientific frontiers：the quest for knowledge visualization[M].Springer，2013",
+    "context2": "4ChenC.Turning points：the nature of creativity[M]. Springer，2011",
+    "context3": "陈悦，陈超美，胡志刚，等.引文空间分析原理与应用:CiteSpace实用指南[M].北京：科学出版社，2014",
+    "context4": "6赵丹群．试论科学知识图谱的文献计量学研究范式[J]．图书情报工作，2012，56(6)：107-110",
+    "context5": "”陈悦，陈超美，刘则渊，等．CiteSpace 知识图谱的方法论功能[J]．科学学研究，2015，33(2)：242-253",
+    "context6": "9MCainKW.Mappingauthorsinintelectualspace：AtechnicaloverviewJ]Jouralof theAmericanSocietyfornformationScience， 1990,41(6):433-443",
+    "context7": "10BörnerK，ChenC，BoyackKW.Visualizingknowledgedomains[J].Annual ReviewofInformationScienceandTechnology，2003，37 (1):179-255",
+    "context8": "11 CoboMJ,pezHereraG,reraViedaEtal.Siencemappingsoftwaretols:Reviealysisdooprativesudon tools[J]．Journal of the American Society for Information Science and Technology，2011，62(7)：1382-1402",
+    "context9": "12，20CoboMJ,pezHerreraAG，HerraViedaE，etal.SiA:AnewsciencemappinganalysissoftwaretoolJ]JoulfteAmerican Society for Information Science and Technology，2012，63(8)：1609-1630",
+    "context10": "肖明，邱小花，黄界，等．知识图谱工具比较研究[J]．图书馆杂志，2013，32(3):61-69"
+  },
+  "14 杨思洛，韩瑞珍．国外知识图谱绘制的方法与工具分析[J]．图书情报知识，2012，6(6)：101-109": {
+    "context1": "15Thomon Reuters.Usage Count[EB/OL].[2016-08-02].htp://mages.webofknowledge.com/WOKRS519B3/help/WOK/hp_usage_ score. html"
+  },
+  "16 王贤文，方志超，胡志刚，科学论文的科学计量分析：数据，方法与用途的整合框架[J]．图书情报工作，2015，59(16)：74-82": {
+    "context1": "17 Priem J,Groth P，Taraborelli D．The altmetrics collection[J]．PloS ONE，2012，7(11)",
+    "context2": "18 梁晓婷，奉国和．当代知识图谱的构建方法研究[J]．图书馆杂志，2013，32(5)：10-16",
+    "context3": "9GarfieldE.Historiographicmappingofknowledgedomains iterature[J]．Journalof InformationScience，2004，30(2)：119-145",
+    "context4": "21 CWTS.CitNetExplorer[EB/OL].[2016-08-02].http://www.citnetexplorer.nl/Home",
+    "context5": "2 HeimerlF，HanQ，KochS.CiteRivers：visualanalyticsofcitationpaters[J].VisualizationandComputerGraphics，IEEETransactionson，2016,22(1)：190-199",
+    "context6": "23刘后元，叶鹰.文献题录信息挖掘技术方法及其软件SATI的实现——以中外图书情报学为例[J].信息资源管理学报,2012，2(1):50-58"
+  },
+  "24王晓光，程齐凯．基于NEViewer的学科主题演化可视化分析[J]．情报学报，2013，32(9)：900-911": {
+    "context1": "25TsenYH,TsayMYJouralclusteringoflibraryandinformationscienceforsubielddelineationusingthebbliometricaalysisoolit CATAR[J].Scientometrics，2013，95(2):503-528",
+    "context2": "26TangJ,ZangJ,Yaoetal.Aetiner：exractioandminingofcademcsocialnetworksC//Proeeingsofte14thCGD international conference on Knowledge discovery and data mining.ACM，2008：990-998",
+    "context3": "27WuB，ZhangB，TianHQ，etal.LiterMiner：aacademicliteratureminingsystemC]/InformationSienceandManagementEngiring(ISME)，2010 International Conference of.IEEE，2010，2：220-223"
+  },
+  "28肖明，栗文超，夏秋菊．基于Prefuse和层次聚类的信息检索主题知识图谱研究[J].现代图书情报技术，2012(4)：35-40": "",
+  "29唐蓓，夏秋菊．基于 Prefuse和社会网络算法的信息检索学科合作网络研究[J].图书与情报，2012(5)：79-84": {
+    "context1": "30 李国俊，肖明，邱小花，等．作者引文耦合分析可视化研究[J]．图书情报工作，2012，56(12)：81-84",
+    "context2": "31陈必坤，赵蓉英．学科知识可视化分析的理论研究[J]．情报理论与实践，2015，38(11)：23-2",
+    "context3": "33李杰，陈超美.CiteSpace:科技文本挖掘及可视化[M].北京：首都经济贸易大学出版社，2016",
+    "context4": "34 Borner K．Atlas of science：Visualizing what we know[M]．The MIT Press，2010  \n35Börner K．Atlas of knowledge：Anyone can map[M]．The MIT Press，2015",
+    "context5": "i6 马海群，吕红．基于中文社会科学引文索引的中国情报学知识图谱分析[J]．情报学报，2012，31(5)：470-478",
+    "context6": "蓉英，王菊．图书馆学知识图谱分析[J]．中国图书馆学报，2011，37(192)：40-49",
+    "context7": "38 赵蓉英，许丽敏．从文献计量学到网络计量学嬉变的可视化分析[J]．情报科学，2011，29(7)：975-983",
+    "context8": "39邱均平，吕红.近五年国际图书情报学研究热点、前沿及其知识基础——基于17种外文期刊知识图谱的可视化分析[J].图书情报知识，2013(3)：4-15",
+    "context9": "40 梁永霞．引文分析学知识图谱[M].大连：大连理工大学，2012",
+    "context10": "41张冬玲．科学合作及其产出计量［M].大连：大连理工大学，2012",
+    "context11": "l2NiC,SugimotoCR，CroinB．Visualizingandcomparingfourfacetsofscholarlycommunication：producers，artifacts，onepts，and gatekeepers[J]．Scientometrics，2013，94(3)：1161-1173"
+  },
+  "43 马瑞敏，倪超群．基于作者同被引分析的我国图书情报学知识结构及其演变研究[J].中国图书馆学报，2011，37(6)：17-26": "",
+  "瑞敏，倪超群．作者耦合分析：一种新学科知识结构发现方法的探索性研究[J]．中国图书馆学报，2012，38(2)：4": {
+    "context1": "45TsenYH，TsayMYJouralusteringoflibraryandinformationscienceforsubfielddelineationusingthebibliometricanalysisoolkit CATAR[J].Scientometrics，2013，95(2):503-528",
+    "context2": "46Hu CP,HuJ,GaoYetal.AjualoitationaalysisoflibraryndiforationseceinCia.Sientometrics,(3): 657-670",
+    "context3": "47BormannL，LeydesdorffL，WalchSolimenaC,etal.Mappngexcellencein thegeographyofsence：AnapproachbasdonScopusdata[J]．Journal of Informetrics，2011,5(4)：537-546",
+    "context4": "48Minguill，lwallapingteetorkstructureofsienepars:nexploratorysdyofosectoraliteractiosreflctdonthe web[C]//Aslib Proceedings.Emerald Group Publishing Limited，2012,64(4)：332-357",
+    "context5": "49Leydesdorf，HammarfeltB，SalahA.TestructureoftheArts&HumanitiesCitationIdex:Amappingonthebasisofaggregatedcita tionsamong1,157jouralsJ]JouraloftheAmerican Societyfor IformationSienceandTechnology，2011,62(12)：2414-2426"
+  },
+  "50 赵健，孙畅.科学知识图谱对《情报科学》杂志的全景扫描[J]．情报科学，2013，31(7)：78-82": {
+    "context1": "51Leydesdorf，KushnirD，RafolsI.InteractiveoverlaymapsforUSpatent（USPT）databasedonInternationalPatentClassiation(IPC)[J].Scientometrics，2014，98(3)：1583-1599",
+    "context2": "52ChenC,LeydesdorffLPatersofoectiosndmovementsindualapverlays：Anewmethodofpublicatioportfolialysis. Journal of the Association for Information Science and Technology，2014，65(2)：334-351",
+    "context3": "53LiuS，ChenC.TdifereesbetwenlatettopicsinabstractsandcitatiocontextsofigpapersJoualofteAmericaSociety for Information Science and Technology，2013，64(3):627-639",
+    "context4": "54HuZ，ChenC,LiuZWherearecitatioslocatedinthebdyofsientficartices?AstudyofthedisributiosofcitationlocatisJ]. Journal of Informetrics，2013，7(4):887-896",
+    "context5": "55BornmannL，HaunschildR.WhichpeopleusewhichsientificpapersAnevaluationofdatafromFandMendeleyJ].JoualfInfor metrics,2015,9(3):477-487",
+    "context6": "56CostasR，aediZ，WoutersPDo“almetrics”coelatewithcitatios?Extensivecomparisonofaltmetricndicatorsithtatiosfrom amultidisciplinaryperspectiveJJouraloftheAsociationforInformationScienceandTechnology，2015，66(10）：2003-2019",
+    "context7": "57MaflahiN,Telwa.Whenarereadershipountsasusefulasciatiocounts?ScopusersusMendeleyforLSjouralsJoulfthe Association for Information Science and Technology，2016，67(1)：191-199"
+  },
+  "58 刘勘，周丽红．面向专家的知识地图研究[J]．情报资料工作，2012(2)：18-22": "",
+  "59 吴才唤．隐性知识地图：虚拟科研团队的知识管理策略研究[J].图书情报知识，2011(6)：107-112": {
+    "context1": "贺焕振．基于合著与引用网络的专家知识地图构建研究[D]．杭州：浙江大学,2015",
+    "context2": "51刘彤，时艳琴.基于社会网络分析的专家知识地图应用研究[J]．情报理论与实践，2010，33(3)：68-71",
+    "context3": "2胡元蛟，王昊．面向CSSCI的学者知识地图构建与分析[J]．现代图书情报技术，2011(3)：38-43",
+    "context4": "夏立新，王忠义，张进．图书馆专家知识地图的×TM构建方法研究[J].中国图书馆学报,2009，35(2)：47-5",
+    "context5": "64 陈强，廖开际，奚建清．专家知识地图的关键技术与设计[J]．计算机工程与科学,2008，30(2):96-98,114",
+    "context6": "65HaruechaiyasakC，ThaiprayoonS,KongthonAExpertisemappingbasedonabibligraphickeywordannotationmodelC//TeRoleof DigitalLibrariesinaTimeofGobalChange：thInterationalConferenceonAsia-PacificDigitalLibrariesBerlin：Springer156 257"
+  },
+  "66苗蕊，刘鲁，李明，基于层级成长单元结构算法的虚拟实践社区知识地图的构建[J]．系统工程理论与实践，2011，31（3)：530-536": {
+    "context1": "67巩军，刘鲁．基于个人知识地图的专家推荐[J]．管理学报，2011，8(9)：1365-1371",
+    "context2": "68JasineviciusR，rusinsneR，PetrausasVetal.Damicfuzexpertmaps：ideaandmplementatioJnforatiochlogie, 2011: 17-22",
+    "context3": "69DangY，ZhangY.,HuP.JH.,etal.Knowedge mappingforrapidlyevovingdomains:AdesignsienceappoachJ]DecisionSup port Systems，2011，50(2):415-427",
+    "context4": "70MohammadiE..Knowledge mappingofthelraniannanoscienceandtechnology：atext miningapproachJ]Scientometrics，2012，92 (3):593-608",
+    "context5": "71王日芬，邵鹏，王新昊，等.情报研究中知识地图的应用探索[J].图书情报工作,2006，50(12):83-87",
+    "context6": "72潘有能，丁楠．图书馆学学科知识地图的构建[J]．大学图书馆学报，2007，25(4)：10-13",
+    "context7": "73 MaFC,LyuPH,YaoQ，etal.Publicationtrendsandknowledgemapsofglobal translationalmedicineresearchJ].Scientometrics, 2014，98(1):221-246",
+    "context8": "74NguyenS.HChowuryG.Interpretingtheknowledgemapofdigitalibraryresearch（9-20）[JouraloftheAmericanocie ty for Information Science and Technology，2013，64(6)：1235-1258",
+    "context9": "75唐超：GIS：文献信息可视化的新理念和工具—以竞争情报领域知识地图构建为例[J].情报理论与实践，2007，30(5)：593-596  \n76 YangB，SunY.Anexplorationoflink-based knowledgemapinacademicweb space[J].Scientometrics，2012,96(1)：239-253",
+    "context10": "李大鹏．基于本体的学科知识地图构建研究[D]．武汉：华中师范大学，2011",
+    "context11": "78 高劲松，梁艳琪，王学东，等．学科知识地图的本体构建方法研究[J]．情报科学，2013，31(7)：72-77",
+    "context12": "79 郝佳，阎艳，王国新，等．基于潜在语义分析的领域知识地图构建技术[J]．北京理工大学学报,2014，34(7):691-694,722",
+    "context13": "王学东，夏谦，等．泛在信息环境下的学科知识地图构建研究[J]．情报科学，2014，32(5)：7-11",
+    "context14": "81顾东蕾．论学科知识网络的理论基础[J].图书情报工作，2008，52(9):32-35,73",
+    "context15": "B2顾东蕾．论学科知识网络[J]．情报杂志，2008，27(9)：50-55",
+    "context16": "83 陈雪飞，肖仙桃，史新艳．基于文献的领域知识网络构建研究[J]．图书情报知识,2011(3):96-102",
+    "context17": "84叶春霞，余翔，李卫．企业间专利合作的多学科知识网络研究[J]．情报杂志,2013，32(4):113-120",
+    "context18": "85LiuC,ShanW,YuJShapingtheinterdisciplnaryknowledgenetworkofChina：anetworkanalysisbasedoncitationdatafrom1981tc 2010[J].Scientometrics，2011，89(1):89-106",
+    "context19": "86马费成，刘旻璇：知识网络的结构、演化及热点探测——CSSCI(1998-2011)经济学文献计量分析[J].情报科学,2014，32(7)：3-8",
+    "context20": "7胡昌平，陈果．层次视角下概念知识网络的三元关系形态研究[J]．图书情报工作，2014，58(4)：11-16",
+    "context21": "88寇继虹：学科领域知识网络的可视化构建研究——以竞争情报为例[J]．信息资源管理学报，2015，5(3)：71-77"
+  }
+}

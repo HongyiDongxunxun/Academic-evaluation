@@ -1,0 +1,125 @@
+{
+  "original_filename": "full_8424.md",
+  "·综述·": "",
+  "社会感知驱动下的用户画像时空数据研究进展": {
+    "context1": "赵又霖1²,程丽洁1,庞烁¹，徐竟楠1，陆颖隽（1.河海大学 商学院,江苏 南京 211100；2.南京大学 信息管理学院,江苏 南京 210023;",
+    "context2": "3.武汉大学 信息管理学院，湖北 武汉430072)",
+    "context3": "摘要：【目的/意义]社会感知是借助海量时空数据研究人类时空间行为特征,进而揭示社会经济现象的时空分布、联系及过程的理论与方法。用户画像旨在通过挖掘用户属性特征和行为模式,以揭示群体、领域乃至社会现象的内在规律。用户画像是实现社会感知的重要手段。【方法/过程】紧密围绕社会感知数据涉及的情感认知、行为习惯和社交网络关系三个维度梳理与之映射的用户画像内容维度,更深层次地，对其三个维度中与用户画像息息相关的应用情境进行分类描述,以期总结其应用价值。【结果/结论]研究发现：当前用户画像的数据源拓展到多源异构时空数据;研究内容集中在情感及场所语义、空间交互以及社交网络挖掘等方面;时空语义推理等研究是该领域的拓展;应用情境可以在跨地域空间信息服务、城市人地交互关系挖掘、政府高效治理、领域事件时空关联趋势预测等主题领域加以展开【创新/局限】社会感知数据的利用可以在多任务场景下实现态势感知和知识推理。通过融合多源异构时空数据和集成多种用户画像维度，能够实现多场景的精准知识服务。",
+    "context4": "关键词：社会感知时空数据;用户画像;情感认知;行为习惯;社交网络关系中图分类号：G254 DOI:10.13833/j.issn.1007-7634.2022.09.025"
+  },
+  "1引言": {
+    "context1": "随着传感器、移动通信技术以及基于位置服务的社交媒体的快速发展，产生了海量具有个体行为标记和语义信息的时空数据,如社交媒体数据、公共交通数据以及移动通信数据等。丰富的时空数据，从不同粒度、层面和视角记录人的活动信息，反映出其对应的现实事物的概念和语义以及这些含义之间的关系，是数据在某个领域上的解释和逻辑表示。2015年，地理信息学科提出了\"社会感知(Social sensing)\"概念及框架。“社会感知\"是指借助于各类海量时空数据研究人类时空间行为特征，进而揭示社会经济现象的时空分布、联系及过程的理论与方法。“社会感知\"概念的提出正是概括了时空数据的这种能力。社会感知数据的三个内涵维度包括：$\\textcircled{1}$ 对地理环境的情感和认知,如基于社交媒体数据获取人们对于一个场所的感受; $\\textcircled{2}$ 在地理空间中的活动和移动，如基于出行工具、签到等数据获取海量移动轨迹; $\\textcircled{3}$ 个体之间的社交关系,如基于推特、微博、微信等社交网络信息获取用户之间对某一事件的感知信息。",
+    "context2": "用户画像是建立在一系列真实数据之上的目标用户模型,旨在通过挖掘用户属性特征和行为模式，以揭示群体、领域乃至社会现象的内在规律。可见，社会感知和用户画像两者皆是从用户情感和行为等角度捕获数据和构建模型,进而理解用户情感、行为语义及其背后的社会经济现象。另一方面,社会感知数据进一步丰富了用户画像的数据源、标签体系和应用场景;而用户画像作为一种勾勒用户行为语义和热点事件语义的工具,有利于进一步描绘社交媒体用户群的事件和舆情特征。可以看出，用户画像是实现社会感知的重要手段。基于大数据挖掘人的时空间行为模式，系统梳理用户画像以及社会感知数据驱动下的时空用户行为在近年来的研究进展,有利于进一步促进信息资源管理学科对用户情感、行为和社交等属性的多维细粒度理解,为实现空间行为数据与地理环境信息融合提供新的研究思路。信息资源管理学科对跨学科的时空数据进行探析,通过语义知识服务来解决多源异构数据操作的瓶颈问题。",
+    "context3": "基于此，本文对社会感知数据驱动下用户画像内容维度和应用情境进行梳理。笔者以“用户画像\"\"UserProfile\"和“UserPersona\"检索词分别在CNKI、Web of Science、Elsevier和Springer,Google scholar数据库中进行检索。检索时不限时间范围,在关键词、标题、主题等条件下进行组合检索，最终得到国内外与用户画像紧密相关的研究90篇。本文以社会感知数据三个内涵维度作为研究范畴，梳理用户行为的特征画像,尝试将已有研究映射到用户画像时空数据的三个内容维度;其次，基于常态化的用户画像在用户行为特征和相"
+  },
+  "表1 兴趣模型构建的三维度": {
+    "context1": "Table 1 Three dimensions of the interest model",
+    "context2": "<table><tr><td>推荐策略</td><td>关注点</td><td>数据源</td></tr><tr><td>协同过滤算法</td><td>资源和用户之间的相似 性实现用户聚类</td><td>用户历史偏好、历史评分、历史位置[2]</td></tr><tr><td>上下文情境</td><td>时空特征维度</td><td>时间间隔信息、特定时空条件聚类 特性[3-4] 获取用户兴趣和意图主要方式。结合时空动 态信息从时间和位置两个因素实现兴趣推</td></tr><tr><td>用户输入行为</td><td>更细粒度地反映用户的 交互行为和兴趣</td><td>客户端的动作和外接设备的输入采集，客 户端的鼠标、光标数据、浏览过程中的手 荐,解决历史活动数据带来的稀疏性问题[5] 势种类及次数[6]</td></tr></table>",
+    "context3": "关事件特征的揭示，以及时空行为数据揭示社会经济现象的广泛应用两方面考虑，从用户画像内容维度的主题研究方面,进一步提炼其应用情境。本文期望初探\"感知数据\"维度的用户画像时空数据内容维度,为后续深层次的\"社会感知”维度做铺垫;梳理用户画像时空数据的应用情境同时也是对用户行为时空模式的初探，试图作为后续时空关联分析应用研究的基础。"
+  },
+  "2社会感知数据驱动下用户画像内容维度": {
+    "context1": "常态化的用户画像研究一般将用户数据分为静态属性和动态属性两类，其中静态属性是指用户的自然属性(如人口统计属性、用户账号资料等),动态属性是指用户在活动中产生的各种行为数据。纵观现有研究成果,主要包括社交媒体中的情感和观点表达、用户日常习惯行为、用户空间移动活动以及网络空间和物理空间中的社交关系。因此本文按照社会感知的内涵将其进一步划分为用户情感认知、用户行为习惯和用户社交网络三种内容维度。"
+  },
+  "2.1用户情感认知维度": {
+    "context1": "在现有的用户画像研究中，用户的情感认知是挖掘用户潜在属性的重要维度。总体来看，用户情感主要包括基于需求和兴趣的偏好性内容以及包含对事件特征描述的评价性观点。根据当前研究所要解决的问题，基于用户情感认知维度的用户画像主要包括兴趣模型构建和意见信息挖掘两个主要内容。"
+  },
+  "2.1.1 兴趣模型构建": {
+    "context1": "个性化推荐及服务，需要了解用户属性及行为特征以构建兴趣画像。传统的静态兴趣模型研究主要结合人口统计属性、兴趣特点构建用户画像。用户兴趣随时间推移有所变化，以用户兴趣的时间敏感特征构建演化模型能够获取其时空信息内容，从而识别非活跃用户的短期搜索兴趣和活跃用户的长期偏好[]。",
+    "context2": "在兴趣模型构建基础上进行资源服务推荐一般采用协同过滤、上下文信息以及两者混合的推荐策略，如表1所示。"
+  },
+  "2.1.2意见信息挖掘": {
+    "context1": "从用户发布的各类多源异构数据中获取相应的意见信息和事件信息是基于情感认知维度的用户画像研究的另一范畴。目前主流意见信息挖掘方向可归为事件信息挖掘和商品服务意见信息获取两类。事件信息挖掘利用实时获取的社交媒体数据,该类数据中蕴含着显式或隐式的时空信息，用以挖掘突发事件的发展趋势和空间分布规律。对于信息服务类的意见挖掘,研究者采用主题模型、向量空间模型处理用户评论、评分等历史文本数据，或基于用户体验获取产品设计的可行性价值等获取用户评价和倾向,并通过ANN、朴素贝叶斯、支持向量机等分类器展示用户兴趣和偏好[,另有学者基于本体的方法实现用户属性的关联和兴趣特征的刻画[9]。"
+  },
+  "2.2用户行为习惯维度": {
+    "context1": "用户行为分析是用户画像构建的一个重要维度，该维度反映用户的日常行为习惯和群体行为规律,研究者倾向于从时间序列角度挖掘用户行为的聚集性和差异性特征，同时融合用户情感对用户生成内容进行倾向性分析，以实现用户群体细分并挖掘移动规律性。当前，此主题研究主要集中在用户群体分类、用户位置预测和群体移动模式挖掘几个方面。"
+  },
+  "2.2.1用户群体分类": {
+    "context1": "用户群体分类是用户行为画像研究中的基础工作,通过提取特定领域用户行为及心理等特征，构建用户行为模型以进行群体分类，有利于根据用户差异化需求有效制定行业政策和定制信息服务。",
+    "context2": "目前用户群体分类研究主要围绕用户差异性识别以及异常用户检测两方面展开。在用户差异性识别方面,研究者聚焦用户生成内容和系统日志数据等，从隐含语义、发布时间、行为方式等方面进行用户区分[]。通过结合业务场景和事件日志对用户进行聚类分析，揭示用户行为习惯及消费模式，以更细粒度的方式对用户进行分组来构建用户画像[]。在异常用户检测研究中,依据用户的操作日志和时间戳定义语义标记,基于语义标签、模型评分[等方式，将其与用户所属的档案对比来检测异常行为。但由于用户的历史行为日志存在着时间滞后性，目前在实现用户行为的即时监测效果方面欠佳。"
+  },
+  "2.2.2个体用户位置预测": {
+    "context1": "用户位置预测是基于用户运动轨迹挖掘的关键步骤，在位置推荐服务和资源合理分配等方面应用广泛。当前，空间移动模型大多从位置社交网络中获取具有时间间隔的空间上下文信息，用于识别隐藏的个体频繁移动模式。空间位置预测主要从时空轨迹度量和位置检测两方面探讨事件特征，赵又霖,程丽洁,庞烁,等.社会感知驱动下的用户画像时空数据研究进展[J].情报科学,2022,40(9):185-194.",
+    "context2": "表2用户位置预测维度  \nTable 2 Three dimensions of user location prediction",
+    "context3": "<table><tr><td>维度</td><td>数据源</td><td>意图</td></tr><tr><td></td><td>兴趣和意图的移动行为移动频率、速度、访问时间、旅行地点和特定移动场所数据用户历史移动规律性</td><td></td></tr><tr><td>时空标记的位置数据集</td><td>基于移动电话数据、从基站日志中获取呼叫或接收位置、日常出行模式,从时序上对呼叫数据显示的移动轨迹 通话持续时间以及某个位置的通话概率</td><td>与用户的真实位置之间进行差异比较</td></tr><tr><td>相似用户移动模式</td><td>结合个体的重复移动行为及其同行团体的属性混合挖掘解决位置数据的稀疏性</td><td></td></tr></table>",
+    "context4": "建立多维时空数据立方体模型以描述社交媒体用户在多时空尺度上跨越聚合边界的集体动态,使用基于内容的位置标注[3]、地理标签聚类及相关性分析[4以及结合用户注册位置的方法来集中估算事件地理空间属性[15]。其主要表现如表2所示。"
+  },
+  "2.2.3 群体移动模式挖掘": {
+    "context1": "群体移动模式挖掘旨在通过分析海量个体移动轨迹间的关联关系，发现群体的潜在移动规律。研究者多采用空间熵、时空点聚类以及相似性度量等算法，获取用户移动行为的时序性和周期性特点。当前研究通过挖掘时间、空间以及个体尺度的规律性,建立基于事件的多层次模型以描述复杂移动行为。",
+    "context2": "在城市人群移动模式挖掘方面,当前研究集中于从大量移动轨迹时空数据如话单数据[16]、社交媒体地理标签[]以及交通智能卡[18]分析特定人群的生活规律。更有研究从人□迁移和定居的活动轨迹挖掘跨地域文化的社交网络、情感认知以及文化环境间的多维关系[9]。",
+    "context3": "纵观以上研究,研究者倾向于从时间序列角度挖掘用户行为的聚集性和差异性特征，同时融合用户情感对用户生成内容进行倾向性分析,以实现用户群体细分并挖掘移动规律性。值得注意的是，用户移动和活动事件并非简单的集合规律[20],挖掘其在时间和空间上内在影响因素、交互关系尤为重要。如何实现多维度时空数据交互和融合是未来探索研究的重点。"
+  },
+  "2.3用户社交网络关系维度": {
+    "context1": "社交网络关系维度描述的是用户画像在社会关系交往层面的特征,用于研究其交互行为模式。其可以分为基于友谊的社交网络(如社交平台的互粉和互动、合作网络等)和基于位置的社交网络(如地理空间交往关系、移动位置网络等)两种类型。前者在发现多维网络结构的基础上对相似用户群进行共性研究,后者则在分析用户社交关系的基础上挖掘地理事件之间的潜在联系。"
+  },
+  "2.3.1 交互模式挖掘": {
+    "context1": "社交网络作为一种典型的复杂网络,存在着用户群体互动行为、社团聚集行为等多种复杂的网络现象。交互模式挖掘则是针对用户与社交网络的交互特性，挖掘其交互心理、互动行为以及社交网络结构等。当前用户与社交平台间的交互模式着重于用户的活跃特征[2、产出情况[20]、平台粘性[22]等内容，主要从行为和情感两个层面展开。",
+    "context2": "交互过程中的行为特征如发帖时间、原创性或转发行为。研究者所选取的数据和指标常与该社交平台的特性相关,如在构建社会化问答社区的用户画像中，核心关注用户资历、回答质量以及用户发展趋势等指标[23]。挖掘平台用户的内容交互强度能够进一步挖掘用户的产出频率,如将社交用户分为浏览者、参与者和内容生产者[24],从交互中心度、紧密度等维度挖掘平台用户在社交网络中频繁交互模式。交互过程的情感特征则聚焦用户对社交平台的使用心理、使用频率等。现有研究多从信息、个人、环境、技术等维度对社交媒体交互现状进行原因分析。"
+  },
+  "2.3.2社交关系预测": {
+    "context1": "近年来的社交关系监测研究主要是依托位置社交网络展开[25],进而挖掘物理空间中的社会行为规律。当前,基于位置网络的社交关系预测研究主要采用基于模式匹配的方法，结合当下移动和历史移动的数据展开研究[26]。",
+    "context2": "在社交网络关系维度中，相较于用户的交互模式挖掘研究,社交关系监测方面的研究相对较少。其中一个重要原因在于位置社交网络中包含了用户、位置和媒体等多模实体及其产生的异质关系，使得网络结构呈现出复杂特征。当前，对包含社交网络位置关系的信息源头以及关键信息传播节点研究有所欠缺，融合物理空间和网络空间的社交关系发现以及交互强度挖掘等方面仍有较大的研究空间。"
+  },
+  "3社会感知数据驱动下的用户画像应用情境": {
+    "context1": "用户画像通过用户建模和行为监测实现用户行为特征和相关事件特征的揭示。一方面，基于完整的用户模型能够进行群体特征识别,实现用户偏好挖掘基础上的资源推荐、产品和服务优化;另一方面,基于用户行为监测能够在发现异常的情况下实现网络安全维护等应用。随着时空行为数据应用研究的深入，用户行为数据在突发事件预警和城市设施规划中也有着丰富的应用场景,有助于深刻理解社会经济现象。具体包括资源服务推荐、信息安全管理、突发事件预警与监测、智慧城市治理结构规划及服务优化和群体网络关系及网络社区发现五个模块。"
+  },
+  "3.1资源服务推荐": {
+    "context1": "在基于情感认知的用户画像构建基础上，通过抽取用户的显性反馈或挖掘隐式特征,得到用户、资源两者间的匹配关系，以及挖掘用户在不同场景的信息需求期望、信息搜索习惯和信息接受偏好，结合时空动态情境信息从时间和位置两个因素实现兴趣点推荐[34是目前用户情感认知维度的主要出发点，如移动图书馆场景推荐方案、旅游景点推荐和Web用户位移挖掘。",
+    "context2": "用户画像在资源服务推荐应用方面主要集中在社会化媒体以及传统服务场景中，如问答社区管理[27,28]、旅游推荐[3.29]、医疗服务[30]、图书馆[3]等。通过用户画像建模的动态化情境信息服务推荐有利于实现资源推荐优化并提升用户满意度。"
+  },
+  "3.2信息安全管理": {
+    "context1": "信息安全管理是基于用户行为习惯维度画像的重要应用场景之一，通过包括访问行为建模、异常识别等实现企业系统内部的安全审查和社交网络平台的安全管理两个主要方面。",
+    "context2": "日志数据作为挖掘用户与系统间交互内容的主要途径，利用用户操作序列建模和事件序列建模[2]、海量日志审查[32]等方法对用户的自然属性、操作习惯等行为特征和习惯进行提取,利用语义挖掘技术提取数据中更深层次信息，使企业管理者量化地认知用户以及对安全形势进行审查。",
+    "context3": "监测新媒体平台的异常用户行为是其另一主线。对社交网络平台用户公开发布及转发的信息进行审核管理,如利用用户画像对用户行为生成文本进行质量评估[10.23],促进信息有序规范流动，在监控社群行为的同时促进网络生态的完善。"
+  },
+  "3.3突发事件预警与监测": {
+    "context1": "行为轨迹数据包含用户移动的时间序列和空间位置信息,对其进行时空聚类和可视化分析能够发现人群分布和移动规律。目前，通过分析用户对某类舆情时间、地理环境情感的认知等时空信息研究情感扩散趋势和热点事件语义挖掘是用户画像在用户行为习惯维度的另一个重要研究场景。",
+    "context2": "通过从用户行为生成内容中挖掘事件的地理空间特征和情感特征[33.341、时空轨迹度量和位置检测两方面探讨与之关联的情感传播时空特征[4]，结合行为数据的语义关系和时空关联特性,提取挖掘不同地理环境下用户的情感扩散和空间演化趋势[35],探索用户行为与事件的关联关系以及用户情感扩散趋势;用户发布信息所融合的地理标记信息是构建用户画像在突发事件位置检测、事件状况关联分析以及公共交通路线规划事件等语义挖掘的重要体现[15.36]。",
+    "context3": "目前突发事件预警的相关研究主要还集中在对事件类型确定、事件状态描述的层面，综合多维度的用户时空行为信息进行隐含事件知识发现和推理的相关研究有待进一步深入挖掘。"
+  },
+  "3.4智慧城市治理结构规划及服务优化": {
+    "context1": "近年来，以群体行为规律探索为主导的城市间空间流动与社会经济特征息息相关,用户行为习惯维度的用户画像研究为人们进一步定量理解城市地理环境提供了一种新的观测手段,社会感知驱动下的用户画像为改善城市设施布局、实现优化服务等提供了智慧城市管理策略，挖掘居民出行规律为更好地实现城市设施规划以及资源合理配置提供了可靠依据。该部分研究在城市人口空间分布[]、城市功能分区识别[38等方面已经积累了一定的研究成果，涉及的数据集大多为城市轨迹数据以及移动传感器数据等。",
+    "context2": "用户画像在智慧城市管理中主要应用于探讨群体活动识别以及时空流动模式两方面。智慧城市服务优化需要在识别群体活动的基础上进行相应的监测和响应措施。当前研究基于大量时空要素的用户活动识别并依据GPS信息、兴趣点以及用户资料来构建活动识别模型[,以更好地接入智慧城市系统。当前基于智慧城市管理的研究多从城市公共交通入手，从多层次尺度和聚集规律两方面探讨城市用户的出行模式[38.39],将聚类分析与日常行为的相似性度量结合以了解城市交通的使用动态。时空数据的利用为城市设施规划提供了有效的客观途径。将金融交易数据、用户交通工具数据相结合挖掘城市居民对银行网点等城市设施的偏好选择[40]。"
+  },
+  "3.5群体网络关系及网络社区发现": {
+    "context1": "随着社交网络中用户的社交相似度、交互程度以及潜在属性挖掘等研究的进一步开展，用户画像应用研究也逐渐深入到群体间的网络结构挖掘。",
+    "context2": "在微观层面上,相关研究[21,41-42]着重关注社交媒体中群体交互特征，如属性分类、互动情况、信息传播规律、用户影响力、关注度、社交关系强度以及社交网络中的内容发现。用户画像通过构建用户群体模型,挖掘社交关系特征并进行行为相似度分析，能够在识别相似用户群的基础上发现特定的网络社区并推断用户社交属性[43],从同时出现、同时离开和共同持续时间三类细粒度事件来预测移动设备用户之间的友谊网络。在中观层面上,在复杂网络理论中,用户节点的其他社会关系，如科研合作、朋友交往等也被关注[44.45]以发现网络中的隐藏社区。在宏观层面上,社交群体用户行为呈现扩散关系和深层次社交网络链[46]。",
+    "context3": "但受限于网络结构的动态变化以及特定的研究领域，目前大部分学者所研究的社交网络数据集主要为用户生成内容。基于通话记录等含有位置特性的用户社交数据还未深入应用,以及在综合考虑网络结构和用户个性化特征的社区发现研究还需进一步探索。"
+  },
+  "4建议与展望": {
+    "context1": "本文对社会感知时空数据维度下用户画像的内容和应用场景进行了较为详细的梳理。总体看来,作为一个跨学科的交叉性研究,用户画像在公共卫生[47]、电信[48]、移动图书馆[3]、电力系统[49]等领域均有相应的成果。但从用户时空行为研究的现状来看，基于时空数据挖掘的用户画像研究总量较少,还处于前沿阶段，亟需进一步发展和完善。本文将从数据源、研究内容、研究方法以及应用场景几个方面对社会感知数据驱动下的用户画像进行展望。"
+  },
+  "4.1促进多源异构数据的融合": {
+    "context1": "用户画像从早期的用户基本属性和偏好挖掘研究，近年来已经逐渐发展到用户行为建模以及行为语义理解的层面。相应地,数据源也从传统的系统数据库、行为日志以及用户评论等反馈系统，拓展到与用户时空行为紧密联系的社会感知数据上，这就不可避免地需要考虑多维层面的用户行为挖掘数据融合方法。多源异构数据融合主要包括两方面的信息融合：一是用户属性维度的融合。以往研究者一般基于特定的研究主题关注单一的用户维度，如用户情感数据主要集中偏好分析上，而对于用户情感认知、移动和活动以及社交关系三维度融合的用户画像研究与时空分析相结合的方面不够深入。时空数据背景下的用户画像研究需要思考如何运用更加丰富的用户时空属性特征,构建更为立体的用户模型。二是多源时空数据的融合。针对用户时空行为在单一平台的数据稀疏问题,未来需要综合多模态用户时空行为数据进行相互补充和验证。在未来研究工作中可以引入一些辅助数据来进行支撑，如官方监测数据和网络资源,以保证用户数据的连贯性和完整性，从而构建更加完善的用户画像模型。"
+  },
+  "4.2加强用户时空行为的动因剖析": {
+    "context1": "从已有成果的具体研究主题来看，当前研究还停留在用户时空属性的特征描述上，以及时空用户数据在观测社会事件的有效性验证方面,未来仍需要结合地理空间环境因素从本质上对用户行为语义关联加以探索，更好地发挥时空数据“社会感知\"的能力。考虑到融入空间因素的多源异构数据知识融合，用户时空行为的动因剖析应该从地理空间视角挖掘用户行为与事件要素之间的语义关联和内在影响因素。例如,场所语义情感分析需要在用户建模的基础上挖掘舆情热点话题的空间扩散特征与地域关联性;个体移动模型的个体属性及异质个体中的相似性的关联研究;融合移动位置的社交关系挖掘应结合地理空间环境因素深入探究交互程度。通过对用户空间行为和地理环境信息进行语义信息深度整合和动因分析，才能真正为用户画像的知识组织方法与应用以及实现信息资源共享提供基础保障。"
+  },
+  "4.3加强时空数据知识组织方法的运用": {
+    "context1": "一直以来，时空挖掘技术的发展对实现用户时空行为的挖掘有重要的推动作用。在与用户时空行为相关的社会感知数据中,由于需要对各种半结构化和非结构化的时空数据进行知识组织，神经网络方法、时空聚类、关联分析等方法应用其中。时空数据知识组织解决多源异构数据操作的瓶颈问题。随着时空语义数据的积累,对知识表示和语义识别的要求逐渐提升，包括多粒度时空对象的复杂关联、时空语义推理技术以及关系网络的可视化分析等等。在此背景下，社会感知数据需要对各种跨媒体和多模态数据进行高效处理，通过复杂计算来获取大规模时空数据的隐含知识,在实际应用中也需要做到与用户交互来增强语义理解,将网络的用户行为与社会实体间建立映射关系以实现协同语义识别。在数据处理方面，目前时空语义数据所采用的用户数据大多为静态历史位置数据，如利用社交用户的频繁共现位置数据等来挖掘潜在关系。相对于静态发现社交相似度以及静态判定网络结构，在未来可以更多运用实时动态分析和处理用户的社交位置数据，从时间变化的角度分析用户行为对用户社交结构的影响。在实现与用户进行实时交互沟通的同时，促进现实时空场景的高效传递和动态挖掘。在此基础上，将用户的时空行为研究从描述的层面朝着融合用户信息、时空场景和事件信息探索的方向转变。时空数据知识组织体系的构建,对信息资源管理学科跨学科研究、乃至用户行为研究领域都是一种亟待发展的研究视角。"
+  },
+  "4.4深入时空应用场景的拓展": {
+    "context1": "基于时空挖掘的群体特征分析和位置发现在人口流动、城市规划、突发事件监测等领域都有着重要的应用价值，这为研究人员观测社会经济现象带来了新的契机。结合社会感知的时空数据内涵，本文认为用户时空行为在以下几个主题领域可以进一步探索。",
+    "context2": "(1)跨地域空间信息服务。用户时空分析的研究不仅局限于小范围的城市之间,大范围的跨地域研究可以对实践者的轨迹和情感认知进行挖掘。目前基于用户地理位置的服务推荐主要侧重于个体用户的位置偏好分析，在未来可以关注人群的迁移空间格局的变动，例如在跨境旅游、国际人口流动中对热点聚集和扩散区域，以针对大规模的用户群移动特征进行位置预测和挖掘，提供符合情境信息的服务策略。",
+    "context3": "(2)城市人、地交互关系挖掘。城市人口流动和城市地理环境之间有着密切的联系，空间交互的相关研究通过人群网络建模有助于我们更好地透视居住环境。通过空间异质性描述和时空关联分析挖掘人与城市之间的互动关系，如对城市中的交通最热路段、位置选址、城市物流管理等方面进行深入研究，构建较为完整的智慧城市体系。",
+    "context4": "(3)政府高效治理。目前基于时空位置用户相似度分析,大多用于社交媒体领域用户推荐以及相似用户发现,在政府治理场景中可以实现应用。如对基于相似性挖掘的企业信息等进行实体关联，包括信用信息、交易信息等长期演化的属性和行为，以此来捕获事件的演变规律。基于多种数据源中的时空记录、时间模型和相似度算法来刻画同一经济实体信息的全局演进特性，为政府大数据共享和治理提供思路。",
+    "context5": "(4)其他领域的事件时空关联趋势预测。将时空用户数据应用于金融、医疗等领域,结合心理学、信息行为学等相关学科理论对相关的发展趋势进行预测。例如,此前金融领域的用户画像研究更注重用户的情感挖掘,未来研究者可以利用用户时空行为数据结合用户金融产品的地域性特征，对宏观经济变化趋势以及群体分类需求关联进行预测;利用时空数据可以有效分析灾害和流行病时空分布规律性,通过不同时空尺度上的时空规律分析来挖掘事件发生的时间和空间位置之间存在的关联关系,对高危发病区域或灾害地区集中采取救援措施，有效实现资源分配和救援。"
+  },
+  "5结语": {
+    "context1": "用户画像研究从最初的目标用户模型构建、群体行为分析，到时空数据背景下多模态用户行为数据的语义知识获取，逐渐引发我们思考该如何更加有效地利用用户数据以及如何构建语义空间关联关系的信息资源管理体系。总体看来，目前已有研究涉足社会感知数据内涵的三个维度，而与用户动态的行为属性相映射的用户画像技术也发挥重要作用。时空数据融合、空间信息分析和空间信息挖掘等时空分析技术作为一种在用户行为研究领域的跨学科研究范式与方法，主要集中在数据融合框架、模型与平台构建，用户行为和场所识别、事件时空要素及关联性分析、城市活动模式的时空发展动态,基于结构化的时空挖掘算法、空间统计方法、空间关联规则挖掘及交互式可视化技术等方面。可以看出，与时空数据分析技术与应用息息相关的研究点主要集中在挖掘用户属性、观测地理环境特征、监控事件发展趋势等方面,但在更深层面的用户空间行为关联挖掘、语义推理机制以及动态演化感知等层面还需进一步深入探索。",
+    "context2": "社会感知数据概念的提出，意味着基于对群体用户行为特征的深度利用能够有效描绘社会经济特征,并在多任务场景下实现态势感知和知识推理。未来信息资源管理学科应在充分理解社会感知数据概念的基础上，实现更为高效的时空数据处理和优化算法，从全新的理论角度审视用户行为研究。通过融合多源异构时空数据和集成多种用户维度,多视角分析用户和事件特征、事件关联关系及演化规律，从而在更多应用场景上实现精准知识服务。"
+  },
+  "参考文献": {
+    "context1": "1 汪强兵,章成志.基于手势行为的社交网络用户兴趣画像 构建及应用[J].图书与情报,2019(2):114-119.   \n2 Zhao W X,Zhao W X,Zhou N,et al.A time-aware trajectory embedding model for next-location recommendation[J].Knowledge and Information Systems, 2018,56(3):559-579.   \n3 Amoretti M,Belli L,Zanichelli F.UTravel: Smart Mobility with a Novel User Profiling and Recommendation Approach[J].Pervasive and Mobile ComputingSpecial Issue IEEE International Conference on Pervasive Computing and Communications (PerCom) 2016,2017,38:474-489.   \n4 Batet M,Moreno A,Sánchez D,et al.Turist $@$ : Agentbased personalised recommendation of tourist activities[J].Expert Systems with Applications,2012,39(8): 7319-7329.   \n5 Yang P,Wang H,Fang H,et al.Opinions matter: a general approach to user profile modeling for contextual suggestion[J].Information Retrieval Journal,2015,18 (6):586-610.   \n6 Martin-Albo D,Leiva L A,HuangJ,et al.Strokes of insight: User intent detection and kinematic compression of mouse cursor trails[J].Information Processing &Management,2016,52(6):989-1003.   \n7 Yang B,Liu Y,Liang Y,et al.Exploiting user experience from online customer reviews for product design [J].International Journal of Information Management, 2019,46:173-186.   \n8 You Q,Bhatia S,Luo J.A picture tells a thousand words —About you! User interest profiling from user generated visual content[J]. Signal ProcessingBig Data Meets Multimedia Analytics,2016,124:45-53.   \n9 单晓红,张晓月,刘晓燕.基于在线评论的用户画像研究 一以携程酒店为例[J].情报理论与实践,2018,41(4): 99-104.   \n10 金燕,孙佳佳.基于用户画像的UGC质量预判模型.情 报理论与实践,2019,42(10):77-83.   \n11 Xie C,Cai H,Yang Y,et al.User Profiling in Elderly Healthcare Services in China: Scalper Detection[J].IEEE Journal of Biomedical and Health Informatics,2018,22(6):1796-1806.   \n12Dahmane M,Foucher S.Combating Insider Threats by User Profiling from Activity Logging Data,2018[C].IEEE,2018.   \n13 Cao G,Wang S,Hwang M,et al.A scalable framework for spatiotemporal analysis of location-based social media data J].Computers,Environment and Urban Systems,2015,51: 70-82.   \n14Ruocco M,Ramampiaro H.Geo-temporal distribution of tag terms for event-related image retrievallJ]. Information Processing & Management,2015,51(1):92-110.   \n15Ao J,Zhang P,Cao Y.Estimating the Locations of Emergency Events from Twitter Streams[J].Procedia Computer Science2nd International Conference on Information Technology and Quantitative Management,ITQM 2014,2014,31: 731-739.   \n16 Dao M,Nguyen-Gia T,Mai V.Daily Human Activities Recognition Using Heterogeneous Sensors from Smartphones[J].Procedia Computer ScienceThe 8th International Conference on Advances in Information Technology,2017,111:323-328.   \n17 Lansley G,Longley P A.The geography of Twiter topics in London[J]. Computers, Environment and Urban Systems, 2016,58:85-96.   \n18Tonnelier E,Baskiotis N,Guigue V,et al.Anomaly detection in smart card logs and distant evaluation with Twitter: a robust framework[J].Neurocomputing,2018,298:109-121.   \n19Allard D,Caidi N. Imagining Winnipeg: The translocal meaning making of Filipino migrants to Canada[J].Journal of the Asociation for Information Science and Technology, 2018,69(10):1193-1204.   \n20 陈烨,陈天雨,董庆兴.多视角数据驱动的社会化问答平台 用户画像构建模型研究[).图书情报知识,2019(5):64-72.   \n21Gorrab A,Kboubi F,Jafal A,et alTwitter User Profling Model Based on Temporal Analysis of Hashtags and Social Interactions[]. Natural Language Processng and Information Systems,2017,1:124-130.   \n22 张艳丰,彭丽徽,刘金承,等.新媒体环境下移动社交媒体 倦怠用户画像实证研究—基于SSO理论的因果关系视 角[J].情报学报,2019,38(10):1092-1101.   \n23 王凌霄,沈卓,李艳.社会化问答社区用户画像构建[].情 报理论与实践,2018,41(1):129-134.   \n24 Ruas P H B,Machado A D,Silva M C,et al.Identification and characterisation of Facebook user profiles considering interaction aspects[J].Behaviour & Information Technology, 2019,38(8):858-872.   \n25Celik M,Dokuz A S.Discovering socially similar users in social media datasets based on their socially important locations[J].Information Processing & Management,2018,54(6): 1154-1168.   \n26 邱云飞,张伟竹.基于网络结构和文本内容的群体画像构 建方法研究[].图书情报工作,2019,63(22):1-10.   \n27 de Campos L M,Fernández-Luna JM,Huete JF,et al.Automatic construction of multi-faceted user profiles using text clustering and its application to expert recommendation and filtering problems[J].Knowledge-Based Systems,2019(190): 1-18.   \n28 Le L T,Shah C.Retrieving people: Identifying potential answerers in Community Question-Answering[J].Journal of the Association for Information Science and Technology, 2018,69(10):1246-1258.   \n29 刘海鸥,孙晶晶,苏妍姬,等.基于用户画像的旅游情境化 推荐服务研究[J]).情报理论与实践,2018,41(10):87-92.   \n30 韩梅花,赵景秀.基于“用户画像\"的阅读疗法模式研究 一以抑郁症为例[).大学图书馆学报,2017,35(6):105- 110.   \n31 毕达天,王福,许鹏程.基于VSM的移动图书馆用户画像 及场景推荐[].数据分析与知识发现,2018,2(9):100-108.   \n32 李栋科.一种面向海量网络审计日志的敏感用户挖掘分 析架构[].网络空间安全,2018,9(4):84-88.   \n33Wang Y,Wang T,Ye X,et al.Using Social Media for Emergency Response and Urban Sustainability: A Case Study of the 2012 Beijing Rainstorm[J].Sustainability,2015,8(1):25- 41.   \n34 Zhang Y,Szabo C,Sheng Q Z. Improving object and event monitoring on Twitter through lexical analysis and user profiling[C]//International Conference on Web Information Systems Engineering. Springer, Cham, 2016:19-34.   \n35 张岩,李英冰,郑翔.基于微博数据的台风\"山竹\"舆情演化 时空分析[].山东大学学报(工学版),2020:1-9.   \n36Thi B N H,Mothe J.Location extraction from tweets[J].Information Processing & Management,2018,54(2):129-144.   \n37 钟炜菁,王德,谢栋灿,等.上海市人口分布与空间活动的 动态特征研究——基于手机信令数据的探索.地理研 究,2017,6(36):972-984.   \n38 R O,O M.Urban chronopolis: Ensemble of rhythmized dislocated places[J].Geoforum,2017(85):46-57.   \n39Manley E,Zhong C,Batty M.Spatiotemporal variation in travel regularity through transit user profilingU].Transportation,2018,45(3):703-732.   \n40 Lim K,Secci S,Tabourier L,et al.Characterizing and predicting mobile application usage[J].Computer CommunicationsMobile Traffic Analytics,2016,95:82-94.   \n41 刘海鸥,刘旭,姚苏梅,等.基于舆情画像的在线社交用户 信息传播特征统计分析[].现代情报,2019,39(9):64-73.   \n42 Zengin Alp Z,Ginduz Oguducu ^Identifying topical influencers on twitter based on user behavior and network topology[].Knowledge-Based Systems,2018,141:211-221.   \n43Wang P,Sun F,Wang D,et al.Predicting attributes and friends of mobile users from AP-Trajectories[J].Information Sciences,2018,463-464:110-128.   \n44石太彬.基于用户通话记录的社区发现算法与社区画像 研究[D].杭州:浙江大学,2017.   \n45Yoshida T.Toward finding hidden communities based on user profile[J].Journal of Intelligent Information Systems, 2013,40(2SI):189-209.   \n46 张君.用户行为驱动的社交网络演化分析[D].北京:清华 大学,2015.   \n47 Zhang Z,Bors G.\"Less is more\" :Mining useful features from Twitter user profiles for Twitter user classification in the public health domain[J]. Online Information Review, 2019,44(1):213-237.   \n48 Bianchi F M,Rizi A,Sadeghian A,et al.Identifying user habits through data mining on call data records[J].Engineering Applications of Artificial Intelligence,2016,54:49-61.   \n49 Ren X,Hui G,Luo Y,et al.Power Users Behavior Analysis and Application Based on Large Data,Cham,2O17[C]// Springer International Publishing,2017.",
+    "context2": "（责任编辑：张连峰）"
+  },
+  "A Review on Spatiotemporal Data of User Profile Driven by Social Sensing": {
+    "context1": "ZHAO You-lin1'², CHENG Li-jiel, PANG Shuo', XU Jing-nan', LU Ying-jun (1.BusinesschoolofHohaiUnversityNanjing21oChina;2.InformationSchoolofNajing University,Nanjing02, China；3 Information SchoolofWuhan University,Wuhan 430072,China)",
+    "context2": "Abstract:【Purpose/significance】Socialsensingis thetheoryandmethodofstudying thecharacteristicsofhumanspatiotemporalbehavior withtheelpofmasivespatiotemporaldataandrevealingtespatiotemporaldistrbution,oetionndproces ofsocialnd economicphenomena.Userprofileaimtoreveal social phenomena bymininguseratributecharacteristicsandbehaviorpaterns, which isanimportantmeans toacievesocialsensing.【Method/process】Aroundthethr dimensionsofmotionalcognitionehavioralabitsandsocialnetworkrelationships,sortouthecontentdimensionsofuserprofile.Result/conclusion】Thestudyfoundthat multi-sourceheterogeneousspatiotemporaldatacanbeused;theresearchcontentfocusesonmotionndplacesemantics,spatialinteraction,andsocialnetworkmiing;satiotemporalsemanticreasonngisanewresearcharea; theplicationscenarioscanbeexpanded ncoegioalspatialiforatioservces,ningofurbanuman-landinteactio,efcientgoverentgoveaend predictinofsatial-emporalcorelatontrendsofdomainevents.ovatioimitatio】Byintegratigultisouceheterogeous spatiotemporal data,accurate knowledge services in multiple scenarios can be realized.",
+    "context3": "Keywords:socialsensing spatiotemporaldata;userprofile;emotionalcognition;ehavioralhabits;social networkrelatioships"
+  },
+  "Identification and Classification of Digital Humanities Literature in the Field of Library and Information Science": {
+    "context1": "LU Guo-xuan,YANG Guan-can,SONG Xin (School of Information Resource Management,Renmin University of China,Beijing 10o872,China)",
+    "context2": "Abstract:【Purpose/significanceAsacross-borderdiscipline,Digital Humanitiesisdevelopingrapidlywhilefacingtheproblemsof unclearconceptdeionndlackofspeialjouals,hichinceasetedifltyofitraturecolectio.Itisecssytild suitableidentificaionndlasifiationodelforigitalumanitsliteratureliraryndhelpigitalHumanitisrch. 【Method/procss】AnalyethesentialofDigitalHumanitis,summarizeitsharacteristicsndconstructmachinelearingodelon thebasisof manualreadingannotationtoidentifyandclassifyDigital Humanities literatureautomaticaly【Result/onclusionRaise aclasificationmodelofDigital HumanitiesliteraturebasedonmachinelearninghichachievesgoodidentificationeffectforDigital HumanitiesliteratureinthefieldofLibraryandInformationciene.【novation/limitationApplymachineleaingagorithtoDigitalHumanitiesdocumentclasification,whichcanbettrdealwiththeproblemsofcomplexvocabularyndsmallamountofdata;FurtheresearchcanusemorecomplexmodelssuchasdeeplearingandrealizethemultidisciplinaryclasificationofDigital Humanities documents in different fields.",
+    "context3": "Keywords: Digital Humanities; subject classification;topic identification; machine learning; KeyGraph"
+  }
+}

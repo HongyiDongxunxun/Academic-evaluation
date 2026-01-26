@@ -1,0 +1,90 @@
+{
+  "original_filename": "full_10424.md",
+  "高校图书馆馆藏利用现状及对策数据评估": {
+    "context1": "以华东师范大学图书馆为例汪志莉，李欣，于亚秀",
+    "context2": "摘要高校图书馆面临着文献信息资源不断激增，但纸本馆藏利用率逐年走低的困境。为提高馆藏利用率，各馆采用了不同措施，但各种措施的效果评估缺乏全面的分析对比。文章以华东师范大学图书馆为例，调研馆藏利用现状，从群体借阅量和借阅倾向等维度讨论馆藏利用率下降，对该馆近年采取的个性化图书精准推荐、馆藏布局调整、修改借阅规则、阅读推广等各类方法进行数据评估，旨在为各馆提高馆藏利用率提供参考。",
+    "context3": "关键词馆藏利用率个性化图书精准推荐馆藏布局调整 修改借阅规则阅读推广引用本文格式汪志莉，李欣，于亚秀.高校图书馆馆藏利用现状及对策数据评估——以华东师范大学图书馆为例.图书馆论坛，2017 (3)：116-122."
+  },
+  "Evaluation on the Current Utilization of Academic Library Collection and Its Strategy": {
+    "context1": "-A Case Study of ECNU Library WANG Zhi-li, LI Xin，YU Ya-xiu",
+    "context2": "AbstractIt is the fact that utilization rate of library paper collection is decreasing year byyear，while the total library collection increases steadily.Academic libraries strive to improve their colectionutilization rate with various measures；however，there is no comprehensive analysis and comparison of those measures’effects. Takingthe library of East China Normal University (ECNU）for example，this paper makes an in-depth study on the presentutilizationof itscollection，analyzes the decline of its utilization rate from therespectsof group borrowing and borrowing tendency，summarizes the measures taken by ECNU library in recent years，such as making book recommendation more personalized and precise，adjusting its colection layout，modifying the library’s loan rules，carying out reading promotion，and evaluating those measures of all kinds，thus providing insights for other academic library to enhance the utilization rate of collection.",
+    "context3": "Keywordslibrary collection use rate；personalized book precise recommendation；collection layout adjustment; modification of loan rules；reading promotion"
+  },
+  "0引言": {
+    "context1": "网络化时代，高校图书馆面临文献信息资源不断激增，但纸本馆藏(以下“馆藏”均指纸本馆藏)利用率却逐年走低的困境。为了提高馆藏利用率，各馆采用了不同措施，但在各类措施的效果评估方面尚未见较为全面的分析对比。与此同时，如何适应社会网络环境，利用信息技术提高馆藏利用率，是亟待解决的问题。本文以华东师范大学图书馆(以下简称“我馆”)为例，调研馆藏利用率现状，阐述近年采取的一系列对策，通过数据客观呈现馆藏利用情况及读者借阅倾向变化，用借阅统计数据来评估各类对策实施的成效，旨在为同行提供借鉴。"
+  },
+  "1文献调研": {
+    "context1": "从CNKI文献调研看，如何提高馆藏利用率的发文在2011年达到顶峰，以后有所减弱，主要是对算法和模型进行研究。近年以研究用户行为居多，但很少对各类措施的效果进行评估。在用户行为研究方面，李东等2结合图书馆统计学理论和方法，提出将定量描述与定性描述相结合，运用单因素和多元统计学分析方法分析图书馆资源利用的影响因素，提出改进馆藏资源利用率的建议；刘丹3利用Apache Mahout，通过规范化借阅历史数据，采用布尔型基于用户的协同过滤推荐算法，使用对数最大似然相似度计算用户相似性，生成个性化图书推荐，并嵌入OPAC读者借阅账户页面，从而达到促发读者借阅行为的目的；张丽萍等4通过对影响用户借阅行为的因素分析，得出影响用户借阅行为的主要因素是作者、出版社、出版日期等，针对主要因素进行实证分析，提出提高馆藏资源利用率的方法。",
+    "context2": "在改进预约、荐购方面，郑勤提出改进预约书管理办法，如杜绝预约书放错地方的现象、减短热门图书的预约期限、统一管理预约图书，提高了热门书的使用效率；解金兰、张洪艳以图书荐购为雏形，设计文献发现荐购系统，为改善馆藏结构、提高馆藏利用率提供解决方案；王洁、黄晓琴对荐购模型进行思考，根据麦高文的选书理论，参考国内外选书要素研究，利用层次分析法，评价高校图书馆中文图书价值，并在边际效益递减规律指导下，得到图书推荐列表与相应复本数，辅助高校图书馆制定中文图书采购决策，提高馆藏利用率。",
+    "context3": "在加强阅读推广方面，范并思@指出高校图书馆不但需要保障师生专业信息的获取，也要保障师生的阅读权利，提升他们的阅读兴趣，吸引他们走进图书馆、利用图书馆；黄健对17所高校图书馆的阅读推广活动进行简评，对如何提高大学生的阅读兴趣、阅读能力、阅读素养，如何丰富阅读推广活动的形式与内容，如何加强阅读推广活动的宣传效果做了分析；雷菊霞等[1以北京师范大学的实践为例，分析高校图书馆阅读推广工作的现状与问题，提出新环境下阅读推广转型与创新、可持续发展的策略：转变理念、创新内容与形式、设置机构及构建合作共享机制。",
+    "context4": "在空间布局调整方面，李美红1介绍广州大学图书馆对新书流通集中管理模式进行的探索：新的模式在没有开辟专门库室、没有配备专人管理的情况下，借助计算机自动化技术的支持，巧妙利用图书馆空间，合理安排现有工作人员，调整工作流程，顺利开展新书区的入藏、借阅、转库等系列管理工作，取得良好效益。王晓岩、国爱民、严红、谢丽芳、郑勤等[12-16也介绍了新书阅览室的管理方法和工作成效。此外，刘磊等[17]从注意力经济和现代传播学的基本原理出发，借鉴注意力产业经验，提出提高馆藏利用率的方法；南爱峰1提出一种挖掘、评价、推介馆藏的新举措—“馆读互动馆藏星级评等”构想，论述了具体实现模式及需注意的问题。",
+    "context5": "比较而言，本研究注重各类方法实施的数据评估，紧跟图书馆近年发展轨迹，将大数据环境下的研究方法与传统方法相结合，各取其长，旨在为提高馆藏利用率提供参考。"
+  },
+  "2馆藏现状深度分析- 以华东师范大学图书馆为例": "",
+  "2.1馆藏基本情况": {
+    "context1": "图1是华东师范大学图书馆(以下简称“我馆”)2001-2015年每年新增馆藏种数及册数的情况。从图1可知，新增馆藏种数呈曲线上升趋势，新增馆藏册数2008年达到顶峰，之后有所下降，主因是2008年后电子资源购买量显著增加，虽然如此，纸质馆藏每年仍保持10万册左右的新增量。截至2016年4月，馆藏总种数超过130万，总册数超过360万。",
+    "context2": "![](images/b406650ca5305d27739adc8b2ddf18e79ac886500c441b5ad96882e57307fbe2.jpg)  \n图12001-2015年新增馆藏种数及册数情况"
+  },
+  "2.2借阅活动调查分析": {
+    "context1": "借阅活动包括借出、归还、续借、预约。表1是我馆2007-2015年借阅活动统计情况，其中每列中的 $100 \\%$ 为该类活动总量最高年份，其他年份以此为参考对象。借阅和归还活动在",
+    "context2": "表12007-2015年借阅活动统计",
+    "context3": "<table><tr><td rowspan=1 colspan=1>年份</td><td rowspan=1 colspan=1>借出(%)</td><td rowspan=1 colspan=1>归还(%)</td><td rowspan=1 colspan=1>续借(%)</td><td rowspan=1 colspan=1>预约（%)</td><td rowspan=1 colspan=1>借阅活动总量(%)</td></tr><tr><td rowspan=1 colspan=1>2007</td><td rowspan=1 colspan=1>-8.48</td><td rowspan=1 colspan=1>-8.65</td><td rowspan=1 colspan=1>-69.12</td><td rowspan=1 colspan=1>-47.86</td><td rowspan=1 colspan=1>-20.47</td></tr><tr><td rowspan=1 colspan=1>2008</td><td rowspan=1 colspan=1>-0.75</td><td rowspan=1 colspan=1>-0.21</td><td rowspan=1 colspan=1>-62.18</td><td rowspan=1 colspan=1>-35.06</td><td rowspan=1 colspan=1>-12.10</td></tr><tr><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>-57.98</td><td rowspan=1 colspan=1>-43.01</td><td rowspan=1 colspan=1>-10.85</td></tr><tr><td rowspan=1 colspan=1>2010</td><td rowspan=1 colspan=1>-2.12</td><td rowspan=1 colspan=1>-3.72</td><td rowspan=1 colspan=1>-12.75</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>2011</td><td rowspan=1 colspan=1>-10.76</td><td rowspan=1 colspan=1>-8.82</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>-1.14</td><td rowspan=1 colspan=1>-1.94</td></tr><tr><td rowspan=1 colspan=1>2012</td><td rowspan=1 colspan=1>-26.47</td><td rowspan=1 colspan=1>-24.78</td><td rowspan=1 colspan=1>-14.33</td><td rowspan=1 colspan=1>-19.79</td><td rowspan=1 colspan=1>-18.35</td></tr><tr><td rowspan=1 colspan=1>2013</td><td rowspan=1 colspan=1>-40.75</td><td rowspan=1 colspan=1>-39.65</td><td rowspan=1 colspan=1>-27.33</td><td rowspan=1 colspan=1>-27.41</td><td rowspan=1 colspan=1>-33.13</td></tr><tr><td rowspan=1 colspan=1>2014</td><td rowspan=1 colspan=1>-45.06</td><td rowspan=1 colspan=1>-46.07</td><td rowspan=1 colspan=1>-39.60</td><td rowspan=1 colspan=1>-42.41</td><td rowspan=1 colspan=1>-40.87</td></tr><tr><td rowspan=1 colspan=1>2015</td><td rowspan=1 colspan=1>-35.82</td><td rowspan=1 colspan=1>-34.81</td><td rowspan=1 colspan=1>-25.49</td><td rowspan=1 colspan=1>-26.67</td><td rowspan=1 colspan=1>-28.88</td></tr></table>",
+    "context4": "![](images/85005b57e28eb20af2af7aa74162d1d7b15caf03e4a93af4da06fd6a966bccad.jpg)  \n图2不同年级学生大学四年借书百分比",
+    "context5": "2009 年达到顶峰，续借在2011年达到顶峰，预约在2010年达到顶峰，借阅总量在2010年达到顶峰，之后各类借阅活动呈逐年下降趋势，2013和2014年下降比较明显。究其原因，一是借阅量下降的趋势不可逆转；二是2013年我馆大修，除去大修的客观因素，2015年各类借阅指标仍低于2012年，进一步说明借阅量下降的大趋势，该趋势与馆藏的增长情况形成强烈的反差。对此，我馆2009年开始采取多种对策，多次调整馆藏布局、修改借阅规则、开展阅读推广，并利用数据挖掘技术提供个性化精准推荐，以提高馆藏利用率。"
+  },
+  "2.3本科生群体借阅情况": {
+    "context1": "针对图书馆各类借阅量下滑，本研究深入分析学生群体，找突破点。以华东师范大学本科生群体为研究对象，横向比较分析2009-2015 年的借阅百分比趋势发现：不同届学生在大学中的相同时期借书比例呈下降趋势(见图2)；而纵向比较则发现：同一届学生的借阅比例，大一最高，逐年降低，即阅读兴趣在大一时达到顶峰。如何保持读者阅读热情、调动学生阅读兴趣成为读者工作的重点。2013年开始，我馆开展各类主题的阅读推广活动，每月一期，并通过实体书展和网上展厅两种方式推广。"
+  },
+  "2.4读者借阅倾向调查分析": {
+    "context1": "以我校本科生为例，分别抓取理科(计算机科学与软件工程学院)、文科(人文学院)、优势学科(教育科学学院)近六年借阅历史，制作了三大学院的借阅倾向分析图(见图3)。由图3可以看出，虽然理科、文科第一借阅的分类保持不变，但是每年的借阅百分比存在波动，借阅第二、第三分类的排名波动更加明显。具体到每位读者，借阅倾向变化更是千差万别，因此需要提供精确、有针对性、智能化的主动推送服务，以适应读者不断变化的需求。2015年，我馆推出个性化图书精准推荐服务，通过在OPAC读者借阅账户页面嵌入推荐模块，达到引导、促发读者借阅行为的目的。",
+    "context2": "![](images/b4ee293538f7c8eb7078159c8aaf2c869a16fa828af05c762f1e83d8c0c10a09.jpg)  \n图3三大学院2010-2015年借阅倾向分析"
+  },
+  "3各类对策数据评估": "",
+  "3.1个性化图书精准推荐": "",
+  "3.1.1对策实施": {
+    "context1": "利用推荐系统来提升销量一直被商业领域广泛应用。鉴于纸本图书借阅量下滑，我馆尝试了修订借阅规则、增加可借阅量、延长借阅期限以及推出季度图书排行、现场主题书展等手段。为进一步促进纸本借阅，探索提高电子资源利用率的有效手段，我馆采用大数据的思维，构建推荐系统进行图书精准推荐的个性化服务。由于我馆借阅历史数据存在数据稀疏性问题，比较各类推荐算法，最终选择无偏好值的协同过滤推荐策略[19]。"
+  },
+  "3.1.2实现效果": {
+    "context1": "推荐效果统计数据显示，查看推荐图书的最高量为120本，借阅推荐图书的最高量为七本。在登录读者中(具体见图4)，约 $1 7 \\%$ 读者查看了推荐，其中产生借阅行为的占 $7 \\%$ ，仅占登录总人数的 $1 . 2 \\%$ ，比例偏低；推荐成功率为 $5 \\%$ ，推荐成功图书占同时段借阅总量的 $3 \\%$ 。",
+    "context2": "按照推荐效果对读者类型进行统计，见表2。在查看率(查看/登录)相同或相近的情况下，博士生的推荐成功率(借阅/查看)最高 $( 9 \\% )$ ，其次为研究生 $( 7 \\% )$ ，本科生、教职工最低 $( 3 \\% )$ ；但从册数及人数占比来看，本科生最高，分别是$4 3 \\%$ 和 $45 \\%$ 。因此，需要考虑适当调整算法，提高本科生的推荐成功率，从而提高整体的推荐成功率。",
+    "context3": "![](images/4a85715fee859219a2c578e389bb8929aab73609c8f63ddd1d5be070317c67d9.jpg)  \n图4推荐效果统计",
+    "context4": "表2推荐效果按读者类型分类统计",
+    "context5": "<table><tr><td rowspan=1 colspan=1>推荐效果读者类型</td><td rowspan=1 colspan=1>查看册数</td><td rowspan=1 colspan=1>册数占比(%)</td><td rowspan=1 colspan=1>借阅册数</td><td rowspan=1 colspan=1>借阅/查看(%)</td><td rowspan=1 colspan=1>查看人数</td><td rowspan=1 colspan=1>人数占比(%)</td><td rowspan=1 colspan=1>登录人数</td><td rowspan=1 colspan=1>查看/登录(%)</td></tr><tr><td rowspan=1 colspan=1>本科</td><td rowspan=1 colspan=1>4513</td><td rowspan=1 colspan=1>43</td><td rowspan=1 colspan=1>121</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>1809</td><td rowspan=1 colspan=1>45</td><td rowspan=1 colspan=1>10560</td><td rowspan=1 colspan=1>17</td></tr><tr><td rowspan=1 colspan=1>硕士</td><td rowspan=1 colspan=1>3924</td><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>268</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>1431</td><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>8553</td><td rowspan=1 colspan=1>17</td></tr><tr><td rowspan=1 colspan=1>博士</td><td rowspan=1 colspan=1>951</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>90</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>324</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>1699</td><td rowspan=1 colspan=1>19</td></tr><tr><td rowspan=1 colspan=1>教职工</td><td rowspan=1 colspan=1>725</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>271</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>1480</td><td rowspan=1 colspan=1>18</td></tr><tr><td rowspan=1 colspan=1>其他</td><td rowspan=1 colspan=1>483</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>196</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>1464</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>合计</td><td rowspan=1 colspan=1>10596</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>530</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>4031</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>23756</td><td rowspan=1 colspan=1>17</td></tr></table>"
+  },
+  "3.2馆藏布局调整": "",
+  "3.2.1对策实施": {
+    "context1": "为进一步实施大开间统一借阅的馆藏布局思想，尽量缩短读者在借阅中找书的时间，2015年2-3月我馆重新调整馆藏布局，将所有开架图书统一按分类排架，并将借阅期限改为一个月(博士、教师为两个月)。"
+  },
+  "3.2.2实施效果": {
+    "context1": "调整以后，该区域一个月的借阅总量达26，376册数，是2015年同期的1.19倍，实施效果较好。图5按照《中图法》22大类对借阅数量进行对比，由图5可知，除E军事、N自然、P天文、R医学以外，其他大类的借阅量均有小幅上升，而上述四类借阅量本身较少，对外借总数影响不大；绝对值增加最多的分别是F经济、B哲学、-文学。"
+  },
+  "3.3修改借阅规则": "",
+  "3.3.1对策实施": {
+    "context1": "为提高图书使用率，我馆分别于2009 年、2012年、2015年，共三次大规模调整借阅规则，每次都对读者的借阅、续借、预约等权限进行了大幅度的调整。例如，教职工等的单次借阅册数从2009 年以前的十本扩大到50本；续借和预约也有较大改动，2009 年图书可续借最大次数调整为五次，2015年在2012年的基础上增加可预约五本的新规则。借阅册数调整的具体实施规则如表3所示。",
+    "context2": "![](images/17cc2391ed3123949f49e7872f84a7bc00f6d0a869d71a654c91034e95460df0.jpg)  \n图5馆藏布局调整区2015-2016年3.22-4.22时段借阅册数比较",
+    "context3": "表32009-2015年单次最大借阅册数调整情况",
+    "context4": "<table><tr><td rowspan=1 colspan=1>年份读者类型       册数</td><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=1>2012</td><td rowspan=1 colspan=1>2015</td></tr><tr><td rowspan=1 colspan=1>教职工、特聘教师、访问学者、博士、硕士</td><td rowspan=1 colspan=1>10→20</td><td rowspan=1 colspan=1>20→25</td><td rowspan=1 colspan=1>25→50</td></tr><tr><td rowspan=1 colspan=1>本科生四年级</td><td rowspan=1 colspan=1>5→10</td><td rowspan=1 colspan=1>10→20</td><td rowspan=1 colspan=1>20→30</td></tr><tr><td rowspan=1 colspan=1>本科一至三年级</td><td rowspan=1 colspan=1>5→10</td><td rowspan=1 colspan=1>10→15</td><td rowspan=1 colspan=1>15-20</td></tr></table>"
+  },
+  "3.3.2实施效果": {
+    "context1": "实施具体效果见图6。由图6可知，2009年修改借阅规则后，2010年借出和续借的总数大幅提升，总量在2009 年基础上增加了 $2 2 \\%$ 2012年借阅规则修改，从数据反映来看，对借阅并未带来较大影响，甚至还有回落，这和我馆在2013年开始为期一年的中北校区图书馆大修有直接的关系，中北校区图书馆基本处于闭馆状态；2015年初，再次修改借阅规则，比较2014年和2015年的数据，2015年借出 $^ +$ 续借的总量是2014年的1.2倍。续借次数在2009年调整以后，2010年续借次数明显增加，在2009年的基础上增加一倍，2011年达到峰值，之后有回落迹象，但续借量最低的2014年仍旧高于2009年的续借总数，说明增加续借次数可以明显增加续借的总量。",
+    "context2": "![](images/04b1a21adccc5bfb46933fdfc7e4960639280d56ac2168969bd658707c417d38.jpg)  \n图62007-2015年馆藏外借及续借情况统计"
+  },
+  "3.4阅读推广活动": "",
+  "3.4.1对策实施": {
+    "context1": "近年图书馆阅读推广风生水起，借助“4·23世界读书日”，每年4月的“阅读月”活动大多办成了有影响的常规品牌活动，如清华大学读书文化月[20、浙江大学的“CASHL图书畅读活动”[21、上海交通大学图书馆的“百廿书香：共襄学在交大的阅读时光”[22]。我馆每年都开展读者服务周或读者服务月活动，近年更加大对纸本资源的推广力度。2014年开始推出书展活动，2014年共推出13期，2015年共推出19 期23,希望通过书展分主题、分层次推荐图书馆的各类图书，以开拓读者视野，提高馆藏利用率，但是书展的效果到底如何，尚缺验证和核实。为了比较书展前后一年的借阅情况，本研究抓取2014年1月1日-2014年12月31日参与书展的所有馆藏记录号码，根据每本馆藏的书展时间，分时间段统计借阅册数并进行比较。主要分为7个时间段，分别是书展前一年、书展推出后一个月、书展推出后二个月、书展推出后三个月、书展推出后六个月、书展推出后一年以及书展前后各一年的总和，利用统计数据，对比分析书展的效果。"
+  },
+  "3.4.2实现效果": {
+    "context1": "2014年书展图书共1775种，其中书展前一年未借出种数为916，占 $5 2 \\%$ ；书展后一年未借出种数为470，占 $2 6 \\%$ ，该比例在书展后一年大大降低，而书展前一年以及书展后一年，均未曾借出的有358种，占 $20 \\%$ ，远低于2015年统计的我馆馆藏状态为可借但从未借出的百分比$( 4 2 . 6 \\% ) ^ { [ 2 4 ] }$ ；书展后一年的借出种数为书展前一年的1.52倍；书展后一年借出册数为书展前一年的1.85倍。从表4可知，书展后一个月的借出种数百分比为 $50 \\%$ ，超过书展前一年，借出册数也达到书展前一年的一半；书展后三个月的借出种数是书展前一年的1.33倍，借出册数与书展前一年持平，体现了书展对借阅量提升的即时性和有效性。",
+    "context2": "表42014年书展前后参展图书借阅效果统计",
+    "context3": "<table><tr><td rowspan=1 colspan=1>时间(书展前&amp;后)</td><td rowspan=1 colspan=1>前1年</td><td rowspan=1 colspan=1>后1个月</td><td rowspan=1 colspan=1>后2个月</td><td rowspan=1 colspan=1>后3个月</td><td rowspan=1 colspan=1>后6个月</td><td rowspan=1 colspan=1>后1年</td><td rowspan=1 colspan=1>前1年+后1年</td></tr><tr><td rowspan=1 colspan=1>未借出种数</td><td rowspan=1 colspan=1>916</td><td rowspan=1 colspan=1>888</td><td rowspan=1 colspan=1>676</td><td rowspan=1 colspan=1>642</td><td rowspan=1 colspan=1>573</td><td rowspan=1 colspan=1>470</td><td rowspan=1 colspan=1>358</td></tr><tr><td rowspan=1 colspan=1>借出种数</td><td rowspan=1 colspan=1>859</td><td rowspan=1 colspan=1>887</td><td rowspan=1 colspan=1>1099</td><td rowspan=1 colspan=1>1133</td><td rowspan=1 colspan=1>1202</td><td rowspan=1 colspan=1>1305</td><td rowspan=1 colspan=1>1417</td></tr><tr><td rowspan=1 colspan=1>借出百分比(%)</td><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>62</td><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>68</td><td rowspan=1 colspan=1>74</td><td rowspan=1 colspan=1>80</td></tr><tr><td rowspan=1 colspan=1>借出册数</td><td rowspan=1 colspan=1>3202</td><td rowspan=1 colspan=1>1615</td><td rowspan=1 colspan=1>2961</td><td rowspan=1 colspan=1>3266</td><td rowspan=1 colspan=1>4021</td><td rowspan=1 colspan=1>5918</td><td rowspan=1 colspan=1>9120</td></tr></table>"
+  },
+  "4结语": {
+    "context1": "从客观数据看，馆藏布局调整、修改借阅规则、开展阅读推广等方法见效较快。比如，续借规则改变实施后的一年，续借量是原来的一倍，说明增加续借次数符合读者的现实需求。再如，书展后一年借阅量是前一年借阅量的1.85倍，体现了阅读推广的即时性和有效性。个性化图书精准推荐成功率较前三种来说相对较低，这是因为：一是数据本身受到邱均平等研究印证的数据稀疏性条件下推荐效率的客观情况的影响[25；二是宣传力度不足，因此应借助新媒体工具，如微信、微博、百度直达号、易企秀，使更多的读者及时了解图书馆推出的新服务；三是和读者个体喜好有关，需要及时进行用户体验调查，对推荐的位置、形式及算法进行改进。但从服务角度看，推荐系统为读者提供一种新的资源发现途径，而读者对推荐也产生了兴趣，并产生借阅行为及互动，表明推荐系统受到了读者的肯定。",
+    "context2": "提高馆藏资源利用率任重而道远，需要我们不断摸索、实践、总结、改善，需要我们做一个有心人，观察、记录读者阅读习惯、行为、喜好，为各类活动策划提出更好的意见和建议，需要我们不断学习更多数据挖掘、大数据等技术，跟上时代的潮流，利用各种新颖的工具助力图书馆的各项服务与时俱进。"
+  },
+  "参考文献": {
+    "context1": "[1]冯向春.对高校图书馆纸质文献借阅现状的思考].图书馆研究，2015(②：49-53.  \n[2]李东，董颖，谢丽斌，等.基于用户行为的馆藏纸质资源借阅影响因素分析.情报科学，2014（7)：103-107.  \n[3][19]刘丹.利用ApacheMahout部署个性化图书推荐服务].现代图书情报技术，2015(10)：102-108.  \n[4]张丽萍，杨琳，王雨荷.基于用户借阅行为的馆藏资源使用挖掘研究.图书馆理论与实践，2014（9)：9-12.  \n[5]郑勤.有效管理预约书提高馆藏利用率—以中国人民大学图书馆为例.图书馆建设，2009(②)：68-69.  \n[6]解金兰，张洪艳.文献发现荐购系统的框架设计与功能研究.图书馆学研究，2014(6：45-49.  \n7] 王洁，黄晓琴.基于层次分析与边际效益计算的高校图书馆中文图书荐购模型.情报理论与实践，2016(4): 108-113.  \n[8]范并思.阅读推广：高校图书馆服务“新常态”.上海高校图书情报工作研究，2013 $( 2 ) : 1 { - } 4 .$   \n[9]黄健.高校阅读推广活动的影响因素及其评价Ⅲ.大学图书馆学报，2012 $\\left( 2 \\right)$ :93-96.  \n[10] 雷菊霞，乔婧，袁玉敏.新环境下图书馆阅读推广工作探析——北京师范大学阅读推广实践与思考Ⅲ.大学图书馆学报，2014(5)：86-91.  \n[11]李美红.高校图书馆新书流通集中管理模式的探索与实践——以广州大学图书馆为例.图书馆杂志，2014 (5):46-49.  \n[12] 王晓岩.我馆的新书阅览室Ⅲ.图书馆理论与实践,2004 (②):102-103.  \n[13] 国爱民.高校图书馆的新书阅览室.图书馆建设,2005 (3):83-85.  \n[14]严红.高校图书馆新书借阅室管理方式初探.贵图学刊，2007 (2)：57-58.  \n[15]谢丽芳.组建新书阅览室的意义.华中师范大学学报(人文社会科学版)，2013(1)：191-193.  \n[16] 郑勤，刘敬芹.高校图书馆新书管理模式的调查分析.图书馆论坛，2010 (2)：103-105.  \n[17] 刘磊，穆丽娜，张小冰.高校图书馆应如何吸引E时代大学生的注意力.图书馆杂志，2006（12)：33-35.  \n[18]南爱峰．“馆读互动馆藏星级评等”构想及其实现模式探讨.图书馆学研究，2011(2)：52-54.  \n[20]清华大学图书馆.2016年清华大学读书文化月[EB/OL].[2016-O4-13]. http://lib.tsinghua.edu.cn/dra/news/annoucement/6324.  \n[21] 浙江大学图书馆.浙江大学CASHL图书畅读活动[EB/OL]. [2016-04-22]. http: //libweb.zju.edu.cn/ lib-web/redir.php? catalog_id=103388&object_id $\\equiv$ 391510.  \n[22]上海交通大学图书馆.上海交通大学图书馆“百廿书香：共襄学在交大的阅读时光”[EB/OL].[2016-04-25]. http://www.lib.sjtu.edu.cn/index.php?m $\\underline { { \\underline { { \\mathbf { \\Pi } } } } } =$ content&c=index&a $=$ show&catid $\\equiv$ 211&id $\\equiv$ 1309.  \n[23] 华东师范大学图书馆.华东师范大学各年书展详细目录[EB/OL]. [2016-10-10]. http：//www.lib.ecnu.edu.cn/act/exhibition/exhibition_all php.  \n[24] 华东师范大学图书馆.华东师范大学图书馆馆藏利用调查与分析[EB/OL].[2016-04-08]. htp://www.lib.ecnu.edu.cn/about/lib_annual/.  \n[25]邱均平，张聪.高校图书馆馆藏资源协同推荐系统研究[].图书情报工作，2013，57 (22)：132-137.  \n作者简介汪志莉，硕士，华东师范大学图书馆馆员；李欣，",
+    "context2": "研究馆员，华东师范大学图书馆副馆长；于亚秀，硕士，馆员，华东师范大学图书馆系统部主任。收稿日期 2016-11-01",
+    "context3": "(责任编辑：邝玥)"
+  }
+}

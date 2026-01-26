@@ -1,0 +1,73 @@
+{
+  "original_filename": "full_2843.md",
+  "国内外ILS的现状、功能及趋势\\*基于“211工程”高校ILS的调查李伟超": {
+    "context1": "【摘要】随着信息技术的发展和用户需求的不断扩展，国内外图书馆自动化系统面临升级和转型的问题。为了了解目前图书馆自动化系统的使用现状，运用在线咨询、邮件咨询、电话咨询、文献调研等方法，对“211工程”高校图书馆自动化系统的使用情况进行调研，并以使用较多的汇文、GDLIS、ALEPH、MELINETS等4个国内外图书馆自动化系统为研究对象，从数据库、体系结构、支持标准和功能模块4个方面分析目前图书馆自动化系统的使用状况，进一步探讨未来图书馆自动化系统发展的趋势。"
+  },
+  "【关键词】高校图书馆图书馆自动化集成系统功能分析调研趋势": {
+    "context1": "Abstract:With thedevelopment of informationtechnologyandthegrowingdemandof theusers，the libraryautomation systemsat home and abroadare facing theproblem of upgradingandtransformation.In order to understand the current situationof libraryautomationsystems，thispaper usesonline consulting，email，telephone consultation，literature research and other methods to makeasurvey of theautomationsystems used in Project 21l university libraries，and analyzes the using standards of 4 domestic and foreign library automation systems from the database，system structure, support standards and functional modules，aiming at finding the future development of library automation systems.",
+    "context2": "Key words:university librarylibrary automationintegrated system functional analysissurveytrends",
+    "context3": "图书馆自动化系统（Integrated Library System，简称ILS）起源于20世纪50年代末的美国，我国图书馆自动化系统的研究始于20世纪70年代末80年代初，并在20世纪90年代中后期得到蓬勃发展。到目前为止，图书馆自动化系统的研究和发展取得了显著成果，但是随着图书馆网络化和数字化进程的推进，图书馆自动化系统在管理和服务方面也面临着新的挑战。国内外图书馆自动化系统开发商也在不断研发和升级新的系统，以满足日益变化的用户需求。及时对目前图书馆自动化系统使用现状调研摸底，可以了解目前图书馆的服务需求并把握图书馆自动化系统的发展方向。因此笔者选取自动化建设水平较高的118所“211工程”高校图书馆进行了调研。本次调研时间为2015年3月26日至2015年4月2日，调研主要采取查找期刊资料、在线咨询和邮件咨询、百度百科、访问“211工程”高校图书馆门户网站等方式，基于调研数据的准确性和严谨性考虑，笔者对调研数据进行比较筛选并验证，确保获得真实可靠的数据。"
+  },
+  "1“211工程”高校图书馆自动化系统的使用现状": {
+    "context1": "为了比较清楚地展现图书馆自动化系统在“211工程”高校图书馆的使用现状，笔者将调研结果进行了汇总（见表1），以供图书馆界同仁和图书馆自动化系统开发商参考。表1显示，国内的图书馆自动化系统中，汇文和GDLIS在“211工程”高校图书馆占有率最高，二者所占比例之和达到了 $56 . 7 7 \\%$ 。同时，国外的一些图书馆自动化系统也深受经济基础较好的“211工程”高校图书馆的欢迎。如以色列ExLibris公司开发的ALEPH系统目前被$1 3 . 5 6 \\%$ 的“211工程”高校图书馆采用。",
+    "context2": "表1“211工程”高校图书馆自动化系统使用现状汇总",
+    "context3": "<table><tr><td rowspan=1 colspan=1>国别</td><td rowspan=1 colspan=1>图书馆自动化系统名称</td><td rowspan=1 colspan=1>用户数</td><td rowspan=1 colspan=1>所占百分比</td><td rowspan=1 colspan=1>图书馆所在高校名称</td></tr><tr><td rowspan=7 colspan=1>国内系统</td><td rowspan=1 colspan=1>汇文</td><td rowspan=1 colspan=1>54</td><td rowspan=1 colspan=1>45.76%</td><td rowspan=1 colspan=1>东南大学、北京航空航天大学、中国政法大学、中国科学技术大学、北京理工大学、北京科技大学、江南大学、中国农业大学、山东大学、北京林业大学、新疆大学、中央民族大学、西北农林科技大学、上海财经大学、北京中医药大学、延边大学、东北林业大学、华中师范大学、苏州大学、中国石油大学（北京)、中央财经大学、南京航空航天大学、哈尔滨工程大学、华北电力大学、中国药科大学、长安大学、南京理工大学、合肥工业大学、南昌大学、北京体育大学、南京师范大学、厦门大学、中国地质大学（北京）、上海外国语大学、东华大学、同济大学、南开大学、华北电力大学（保定)、内蒙古大学、太原理工大学、东北大学秦皇岛分校、中国石油大学（华东）、宁夏大学、哈尔滨工业大学、东北农业大学、南京大学、中国矿业大学、河海大学、南京农业大学、中国海洋大学、华南师范大学、西北工业大学、大连理工大学、石河子大学</td></tr><tr><td rowspan=1 colspan=1>GDLIS</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>11. 02%</td><td rowspan=1 colspan=1>中国矿业大学（北京)、第四军医大学、中央音乐学院、对外经济贸易大学、青海大学、天津医科大学、西南大学、湖南师范大学、四川农业大学、西南财经大学、贵州大学、第二军医大学、西藏大学</td></tr><tr><td rowspan=1 colspan=1>MELINETS</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>9.32%</td><td rowspan=1 colspan=1>中国传媒大学、国防科技大学、辽宁大学、北京化工大学、河北工业大学、大连海事大学、河北工业大学（廊坊)、福州大学、广西大学、中国地质大学(武汉)、北京邮电大学</td></tr><tr><td rowspan=1 colspan=1>INTERLIB</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>4.24%</td><td rowspan=1 colspan=1>天津大学、武汉理工大学、湖南大学、云南大学、海南大学</td></tr><tr><td rowspan=1 colspan=1>ILAS</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>3.39%</td><td rowspan=1 colspan=1>华中农业大学、中南财经政法大学、中南大学、西北大学</td></tr><tr><td rowspan=1 colspan=1>妙思</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1. 69%</td><td rowspan=1 colspan=1>华东理工大学、安徽大学</td></tr><tr><td rowspan=1 colspan=1>其他</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2.55%</td><td rowspan=1 colspan=1>重庆大学（自主研发ADLib)、西南交通大学（自主研发 BSLC)、华南理工大学（与国内公司开发unionlib)</td></tr><tr><td rowspan=3 colspan=1>我开</td><td rowspan=1 colspan=1>ALEPH</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>13.56%</td><td rowspan=1 colspan=1>北京师范大学、北京交通大学、西安电子科技大学、复旦大学、郑州大学、北京外国语大学、东北师范大学、上海交通大学、中山大学、东北大学、武汉大学、上海大学、浙江大学、四川大学、陕西师范大学、北京工业大学</td></tr><tr><td rowspan=1 colspan=1>INNOPAC( Millennium)</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>5.08%</td><td rowspan=1 colspan=1>清华大学、华中科技大学、华东师范大学、电子科技大学、暨南大学、西安交通大学</td></tr><tr><td rowspan=1 colspan=1>UNICORN</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>3.39%</td><td rowspan=1 colspan=1>北京大学、吉林大学、兰州大学、中国人民大学</td></tr></table>"
+  },
+  "2“211工程”高校图书馆自动化系统技术与功能分析": {
+    "context1": "总体上看，在 $^ { 6 6 } 2 1 1$ 工程”高校图书馆自动化系统中，汇文、ALEPH、GDLIS、MELINETS 用户较多。因此，笔者选取这4个国内外图书馆自动化系统，通过访问系统开发公司门户网站、参考期刊文献等途径，从数据库、体系结构、支持标准、功能模块等4个角度比较图书馆自动化系统目前的功能特性（见表2）。"
+  },
+  "2.1数据库": {
+    "context1": "资源数据库是图书馆自动化与网络化资源共享的根本保证，建立通用型、具有标准化的资源数据库是图书馆自动化建设工作有序进行的出发点和实现图书馆各项工作自动化的前提。拥有资源数据库，进而可以通过计算机和网络对数据库和资源进行有效管理，达到提高工作效率的同时实现资源共享。图书馆自动化系统的各项功能与数据库密切相关，数据库建设是决定图书馆自动化系统效率、服务功能、扩展能力的关键。由表2可以发现，这4个图书馆自动化系统支持Oracle、Sybase、MS SQL Server等大型关系数据库，并且这4个图书馆自动化系统都支持商用的Oracle数据库。这主要是因为作为商业数据库的Oracle综合性能最优，是举世公认最具标准的关系数据库，其具有的效能高、性能优、稳定性、安全性及可移植性的特点深受图书馆自动化系统开发商的喜爱。同时，图书馆自动化系统的换代有时甚至需要从数据库底层开始重新设计，因此在图书馆自动化系统升级换代过程中，Oracle数据库的二次开发特性降低了用户升级的难度。",
+    "context2": "表2高校图书馆自动化系统的技术和功能分析",
+    "context3": "<table><tr><td rowspan=1 colspan=1>项目</td><td rowspan=1 colspan=1>汇文</td><td rowspan=1 colspan=1>ALEPH</td><td rowspan=1 colspan=1>GDLIS</td><td rowspan=1 colspan=1>MELINETS </td></tr><tr><td rowspan=1 colspan=1>数据库</td><td rowspan=1 colspan=1>Oracle</td><td rowspan=1 colspan=1>Oracle</td><td rowspan=1 colspan=1>Oracle、Sybase、MS SQLServer</td><td rowspan=1 colspan=1>Oracle、Sybase</td></tr><tr><td rowspan=1 colspan=1>体系结构</td><td rowspan=1 colspan=1>C/S、B/S</td><td rowspan=1 colspan=1>三层或多层C/S</td><td rowspan=1 colspan=1>C/S、B/S</td><td rowspan=1 colspan=1>三层或多层C/S</td></tr><tr><td rowspan=1 colspan=1>支持标准</td><td rowspan=1 colspan=1>支持Z39.XX 系列标准、ANSI/NISO、 ISO10160 /10161</td><td rowspan=1 colspan=1>支持 OpenURL、ISO ILL、NCIP、Z39.50 及 XML、OAI、ODBC 等</td><td rowspan=1 colspan=1>支持 ANSI/NISO、Z39.50、ISO10160 /10161</td><td rowspan=1 colspan=1>支持 ANSI/NISO、Z39.50、ISO10160 /10161</td></tr><tr><td rowspan=1 colspan=1>功能模块</td><td rowspan=1 colspan=1>主要模块：采访、编目、连续出版物、典藏、流通、系统管理、统计、OPAC附加模块：联机编目、馆际互借、信息查询</td><td rowspan=1 colspan=1>主要模块：Web OPAC、馆际互借、编目、采访/连续出版物、流通附加模块：ALEPH数字资源模块（ADAM）、媒体预定、馆际互借（ILL）、ALEPH报表中心（ARC)</td><td rowspan=1 colspan=1>主要模块:采访、编目、典藏、流通、期刊新增模块:阅览室管理、参考咨询（情报检索)、行政管理</td><td rowspan=1 colspan=1>主要模块：采访、流通、编目、期刊、典藏、公共检索新增功能:移动图书馆、自助借还系统、馆长决策系统、移动办公系统、学术论文提交系统</td></tr></table>"
+  },
+  "2.2体系结构": {
+    "context1": "如果没有灵活的体系结构、可配置的菜单和工作流，本地开发的适应国内图书馆特定需求的功能组件就很难实现数据库的互操作，很难融入到整个系统中。图书馆自动化系统所采用的体系结构将影响到系统的可维护性、部署的灵活性、开发与升级成本。由表2可以看出，用户较多的4个图书馆自动化系统均采用C/S（Client/Server）和B/S（Browse/Server）多层（含三层）体系结构，由此可知，这种复杂、多层体系结构的图书馆自动化系统满足了大部分用户的需求，也是图书馆自动化系统体系结构的主流选择。汇文多层架构在客户端（C）和服务器端（S）之间搭建了中间件，核心数据库驻留在服务器上，应用程序由中间件负责执行，客户端只处理与用户界面相关的操作。公司正是通过采用C/S、B/S体系结构，基于中间件原理创建了分布式应用系统，得到了全国广大用户的一致肯定，在“211工程”高校中居于领先地位。而在国外图书馆自动化系统中，ALEPH采用固有的C/S结构，确保满足用户今天和未来的需求，逐渐被越来越多的有一定经济实力的“211工程”高校图书馆所使用。"
+  },
+  "2.3支持标准": {
+    "context1": "系统采用共享资源的各种先进新兴技术和标准是任何集成系统必须支持和遵循的，系统所支持的标准通常是除资金因素外决定该系统是否被采用的一个决定性因素，国际上与图书馆自动化系统有关的行业标准和协议大致有39个。由表2可知，我国“211工程”高校中用户最多的3个国内图书馆自动化系统均支持ANSI/NISO、检索技术协议（Z39.50）、馆际互借协议（ISO10160/10161)。通过这些协议，实现了网上文献资源互借和网上信息检索功能，基本实现了跨系统、跨数据库资源的共享管理平台建设，为系统间的互操作以及图书馆构筑信息门户中心，实现区域资源共享提供了基础和保障。而国外的图书馆自动化系统如ALEPH 则依据OpenURL、NCIP（NISOCirculation Interchange Protocol）、OAI（Open Archives Initiative）等支持标准，促进了系统的开放性，加强了用户与系统的互操作性，并实现了资源共享。"
+  },
+  "2.4系统功能": {
+    "context1": "系统功能、系统可靠性及实用性是评价图书馆自动化系统优劣的一个方面。通过调研笔者发现，“211高校”图书馆自动化系统都能很好地完成图书馆的各项业务功能，如采访、编目、典藏、流通、连续出版物管理等，并提供区域资源合作共享功能，如实现联合编目、馆际互借、联机公共检索等，但是不同自动化系统又有各自的特色。",
+    "context2": "以在“211工程”高校中应用最广泛的汇文系统为例，其系统功能特色有：（1）开放式的接口设计，允许用户自行设计并更换程序界面主题，界面更友好，操作更简单，功能更完善；（2）全面提升的多语种Unicode支持解决了用户面对各种语种藏书的烦恼；（3）结合不同类型、规模图书馆的需求，全新打造功能最强大、完善的连续出版物模块；（4）结合Web2.0的最新技术，推出国内领先、全新用户体验的OPAC；（5）为高校提供数据挖掘、统计分析工具。",
+    "context3": "国外的图书馆自动化系统中，ALEPH以其灵活性、易用性、个性化、开放性、可靠性和多语种的特点在我国\"211工程”高校图书馆中赢得一批忠实的用户，并有部分高校从其他系统转换为ALEPH系统。其系统特性有：（1）以Web OPAC为系统网关，用户在任何时间、任何地方都只需借助一个Web 浏览器，就可以访问图书馆信息系统；（2）用户可根据自己的个性化需要自定义检索式，而不用仅仅局限于标准索引；（3）支持馆际互借(Interlibrary Loan，ILL)；（4）借助数字资源模块（ADAM），可以在ALEPH环境中管理数字资源和相关元数据。GDLIS（Gold Disk Library Integrated System，即金盘图书馆集成管理系统）的功能特性有:（1）菜单采用树型结构，简捷、直观，子系统（模块）统一集中在一个系统界面，可以快速地选择、切换到不同子系统功能，为图书馆相关工作提供了方便；（2）允许自定义检索项，满足了用户的个性化需求。",
+    "context4": "MELINETS（Moderm Electronic Library Information& Nets System，即现代电子化图书馆信息网络系统)，是发展创新的新一代图书馆自动化系统。其功能特性主要有：（1）独特的多分馆、虚拟馆接入模式，实现书目信息的共享；（2）系统管理模块可以让管理员一次完成所有设置；（3）采访系统提供与书商系统的电子订单接口，直接吸纳电子订单的上下载；系统提供的脱机采购方式能实现脱机采购查重，保证脱机采购的高效性；使移动办公系列产品实现外出采购的无纸化办公；（4）公共检索系统可以实现单条件检索、组配检索、规范检索、中图法分类检索、新书检索等；（5）移动办公系统可以让馆员实时完成多种操作，不受地域限制。"
+  },
+  "3图书馆自动化系统的发展趋势": {
+    "context1": "3.1提供开放链接，实现系统间的互操作",
+    "context2": "在大数据时代，信息呈现爆炸式增长的趋势，可供用户选择的信息源也逐渐增多。如Google Book Search 和Google Scholar的操作简单，且可以满足用户在任何时间、任何地点都可以获取大量有价值信息的需求，因此在用户中口碑较好，深受欢迎。而豆瓣网作为国内最有名的Web2.0网站，可以满足用户交流互动，也深得用户的青睐。因此，图书馆自动化系统必须通过提供开放链接来整合各种信息资源，提高交互能力，以满足用户的个性化需求。现有的其他大多数行业应用系统也普遍具有互操作性，可以通过各种界面或接口，实现系统之间的无缝链接。而图书馆自动化系统作为图书馆行业最重要的软件，互操作性却不强，缺乏与其他管理系统的互联互通。例如，与银行卡、短信平台等电子商业技术连接的时候遇到障碍，无法与商用数据库系统整合互连，信息孤岛现象严重。针对这一现象，图书馆自动化系统开发商也进行了有益的尝试：MELINETSⅡ通过提供采访系统与书商系统的接口，可以实现直接吸纳电子订单；国外图书馆自动化系统提供商ExLibris也通过公司的开放平台，为ALEPH、数字资源管理平台（Metalib）、链接服务器（SFX）等提供了OpenAPI，实现了图书馆的资源共享以及各图书馆自动化系统间的互操作。"
+  },
+  "3.2嵌入新技术，构筑完善的信息门户": {
+    "context1": "预测图书馆自动化系统的发展趋势，就要考虑读者阅读方式和知识媒介的变化。据2015年7月CNNIC（中国互联网络信息中心）发布的第36次《中国互联网络发展状况统计报告》显示“截至2015年6月，中国网民规模达6.86亿，互联网普及率为 $4 8 . 8 \\%$ ，其中，手机网民规模达5.94亿，网民中使用手机上网人群占比由2014年的 $8 5 . 8 \\%$ 提升至 $8 8 . 9 \\%$ 。”移动设备的使用得益于互联网的发展，同时互联网的发展也正在向移动互联时代发展。在这样的背景下，图书馆自动化系统开发商逐渐运用网络技术提供手机短信服务和资源检索门户网站等移动应用服务，如汇文公司推出手机移动图书馆包括短信和OPAC查询功能，北京创讯推出移动图书馆为读者提供新书通报、证件挂失、检索图书等服务，ExLibris公司推出Primo手机访问等。但是也应该意识到这些应用所提供的信息服务还只是传统图书馆信息服务的网络化，是最基本的功能，图书馆的门户建设者与用户之间的交流互动途径还不够完善。因此，把更新颖、更实用的网络服务工具和软件嵌入图书馆自动化系统，提供基于移动互联的用户交互方式，从而完善网络化功能，深化动态信息服务，构建完善的信息门户，以满足用户参与互动的兴趣和愿望，已成为图书馆自动化系统的发展趋势。图书馆自动化系统开发商可以考虑通过嵌入维基、博客、微信公众号、RSS等 $\\mathbb { W } \\mathrm { e b } \\ 2 . \\ 0$ 技术加强与读者互动；采用RFID、二维码及GPS等技术为用户提供更加精确的资源定位服务；借助数据挖掘技术分析用户的兴趣点，开展动态推送服务等。"
+  },
+  "3.3借助开放平台，允许用户进行二次开发": {
+    "context1": "借助开放平台（OpenPlatform）是指图书馆自动化系统开发商公开允许用户访问其平台的核心资源，从而使用户可以根据自己的需要，在不更改该软件系统源代码的情况下进行二次开发，不断修改或增加该系统软件的功能，以适应图书馆实际工作的需要。随着互联网时代的到来，图书馆的馆藏结构也在悄然发生着变化，数字资源管理已成为图书馆自动化管理工作的重心。但是不可忽略的是数字资源具有虚拟性、复杂性、异构性等特点，以及数字资源的保存也面临着数量增长速度快、生命周期短、格式变化快等挑战，使其管理、揭示和使用更为复杂，基于网络的图书馆自动化系统面临着数字资源急剧增加的严峻考验。现有的图书馆自动化系统一般只能对纸质信息资源提供检索服务，无法对图书馆信息资源中悄然兴起的数字资源，如音频、图像、视频等多媒体内容和网络信息资源提供全文检索。因此，许多图书馆亟需对图书馆自动化系统进行优化整合以提供更加适合本地化和个性化的服务，而图书馆自动化系统开发商没有足够的精力满足所有用户的个性化需求。借助开放平台，允许用户围绕自己的需求进行二次开发，不仅可以满足用户的需求，还可以借助于图书馆用户完善自己的产品，对于图书馆自动化系统开发商来说是不错的战略选择。目前国外的部分公司已经开始打造开放平台，如以色列图书馆自动化系统开发商借助公司的开放平台策略，为旗下的图书馆自动化系统Aleph、Metalib数字资源管理平台、SFX链接服务等都提供了OpenAPI，允许用户自由地添加或调整图书馆需要的功能，实现了服务创新和需求创新。图书馆自动化系统开发商具有得天独厚的数据基础和技术积累，只有在战略上借助开放平台，才能在激烈的市场竞争中不被淘汰。"
+  },
+  "3.4利用云计算，完成系统向云计算环境的迁徙": {
+    "context1": "云计算作为一种以因特网为依托的超级计算模式，对互联网的运作和服务模式产生了深刻的影响。云计算环境下，作为信息服务机构的现代图书馆必然受到强烈的冲击。面对这样的冲击，图书馆开始考虑对现有图书馆自动化系统进行升级或转型，图书馆自动化系统开发商也经过审时度势提出了包括图书馆自动化系统在内的各种云服务，如2009 年OCLC推出的 Web级管理服务（Web-scale Management Service，WMS）、ExLibris 公司的 Alma计划和Inovative Interface 公司的 Sierra 服务平台研发计划、SirsiDynix 公司的 SirsiDynix Cloud等，它们对云计算做出的有益尝试，代表着图书馆自动化系统向云计算环境迁徙的趋势。云计算环境下的图书馆自动化系统，可以将图书馆所提供的各种复合资源，如数据资源、机构库资源、书目资源、导航资源等统一集中在云端，将资源以开放架构的方式放在网上，以实现与其他系统的无缝链接，从而使用户能随时随地发现和利用多种资源，方便用户使用，极大地满足了不同用户多样化的信息需求。同时增强了系统间的互操作性，使网上办公方便快捷并且极大地降低了系统迁徙的成本，解决了传统图书馆自动化系统迁徙或升级耗时长、费用昂贵的问题，使得系统迁徙变得轻松自如。这种逐渐将业务平台构建在云计算上的开放式架构服务模式，通过在云端存储和运行各种资源，提高了图书馆的服务能力，实现了图书馆服务的开放、共享、互联。因此，利用云计算，完成系统向云计算环境的迁徙是下一代图书馆自动化系统的发展趋势。"
+  },
+  "4结束语": {
+    "context1": "随着网络技术、通信技术和计算机技术的迅猛发展以及全球网络化浪潮的兴起，图书馆的自动化、网络化建设取得了重要进展。国外图书馆自动化系统以其主流的设计、强大的功能等特性，得到了经费充足的“211工程”高校图书馆的青睐。而国内图书馆自动化系统在市场竞争中不断相互学习，不断促进共同发展，也取得了一定的研究成果和进展，一些技术成熟、声誉好、影响大的图书馆自动化系统在“211工程”高校图书馆中占有相当大的比例，在实现“211工程”高校图书馆自动化管理、提高工作效率以及资源共享方面有着不可取代的作用。但是，新技术的应用促进了用户需求的不断变化，使得现有的图书馆自动化系统面临巨大的挑战。因此，图书馆要密切关注图书馆自动化系统的发展动态和趋势，重新审视现有的系统，选择适合本馆的图书馆自动化系统进行升级或换型。图书馆自动化系统开发商也要及时把握未来图书馆自动化系统的发展趋势，不断开拓创新，升级和开"
+  },
+  "发新的产品，进一步提高图书馆的信息服务工作的质量与效率。": "",
+  "注释": {
+    "context1": "江苏汇文软件有限公司.Libsys图书馆管理系统[EB/O1]．2015-04-11].htp://ww.libsys.com.cn/libsys.php.",
+    "context2": "[艾利贝斯有限公司北京代表处．图书馆自动化集成系统—Aleph [EB/O1]．[015-04-11].htp://ww.exlibis.com.cn/new.products /aleph/index. asp.",
+    "context3": "北京金盘鹏图软件技术有限公司．金盘图书馆集成管理系统 EB/Ol]．2015-04-11].http://ww.goldlib.com.cn/show.asp?id $= 8 5$ 北京创讯未来技术有限公司．现代电子化图书馆信息网络系统（MELINETSII）介绍 EB/OI]．[015-04-11].http：//www.bcrj.com.cn/MELINETS% 20II. htm.",
+    "context4": "胡振宁等．普通高校图书馆集成系统问卷调查及后示．大学图书馆学报，2013（3)：64-68，79",
+    "context5": "李书宁，王涛．图书馆自动化系统发展热点与趋势研究[．图书与情报，2011（6)：66－70，75.",
+    "context6": "[江苏汇文软件有限公司.Libsys 图书馆管理系统—系统特性 EB/O1]．[015-04-11] .tp://ww.libsys.com.cn/libsys_features. php.",
+    "context7": "]中国互联网信息中心．第36次中国互联网络发展状况统计报告 EB/O1]．2015-09-10].tp:/ww.cnic.cn/gywm/xwzx/rdxw/2015 /201507/t20150723_52626.htm.",
+    "context8": "[0]范并思．云计算与图书馆：为云计算研究辩护[．图书情报工作，2009（11)：8.",
+    "context9": "[11]ExLibris:Alma EB/Ol]．[O15-06-23] .http://www.exlibrisgroup.com/category/AlmaOverview.   \n[2] Innovative InterfaceInc:SIERRA EB/OI]．O15-O6-23] .http://sierra. ii.com/#/home.   \n[13] SirsiDynix.Cloud:Overview EB/Ol]．O15-06-23] .http://www.sirsidynix.com/services/saas."
+  },
+  "李伟超郑州航空工业管理学院。": "",
+  "(上接第35页)": {
+    "context1": "E. Ulrich Kriegel，et al.Practical Aspects of the Useof a Knowledge FusionTolkit in Safety Applications.",
+    "context2": "MarcoFontani，etal，heWatchfulForensicAalyst:Multi-ClueInforaioFusionwithackgroudKnowledge.WS213，ovber8 -21，2013，Guangzhou，China 2013 IEEE.",
+    "context3": "MichaelJRoetalAessentofataadKowedgeusioratesforrogosticsdealthanageentProcedinsofte IEEE，2001:2979-2988.",
+    "context4": "Yue Kun，et，al.Qualiative Probabilistic Network-BasedFusionof Time-series Uncertain Knowledge.Soft Comput，014（3):",
+    "context5": "[dLiuJiong，etalAnOntolgasedrchiteturefoerviceOrientatedesignKowedgeFsininGoupCoporatoCloudMaufacturing .Proceedingsofthe2O12IEEE16th International ConferenceonComputerSupported CoperativeWork inDesign，012：811-816.",
+    "context6": "[1]緱锦．知识融合中若干关键技术研究[]．杭州：浙江大学，2005.  \n[2]徐赐军．基于本体的知识融合框架[．计算机辅助设计与图形学学报，2010（7)：1230－1236.  \n[13]周芳，刘玉战，韩立岩．基于模糊集理论的知识融合方法研究[．北京理工大学学报，2013（6)：67－73.  \n[14] 沈旺等．数字参考咨询知识融合框架研究．图书情报工作，2013（19)：139－143.唐晓波武汉大学信息系统研究中心教授，博士生导师。  \n朱娟武汉大学信息管理学院博士研究生。  \n杨丰华九江学院教务处，讲师。"
+  }
+}

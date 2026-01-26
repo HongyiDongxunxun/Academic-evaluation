@@ -1,0 +1,71 @@
+{
+  "original_filename": "full_5824.md",
+  "我国图书出版趋势的一个数学模型": {
+    "context1": "王崇德（南开大学分校）",
+    "context2": "摘要：本文以我国每年出版社数量和工农业总产值为自变量， $\\therefore \\angle$ 图书出版量为因变量，通过 $z$ 元线性回归分析建立了一个我国图书出版趋势的数学模型： $\\mathfrak { s } = 0 . 0 0 5 1 X _ { \\mathfrak { r } } +$ $0 . 6 4 4 1 X _ { 2 } - 1 . 7 1 1 3$ ，复相关系数的计算表明结果是极显著的，偏相关系数表明出版社数量较之工农业总产值对图书出版量的影响更大。据预测到1990年，我国图书出版量可达到63,820种。",
+    "context3": "图书不汉是物质、精神文明成果的重要标志，也是情报交流的重要载体。就是在数据通讯、电子计算机高速发展的信息化社会，图书作为一种情报载体的情报传播量，仍然有增无减。在全世界范围内，1985年较1965年仍然增长3.24倍。当年 Wesleyan 大学图书馆员—Rider．F研究美国大学的藏书,得出16年翻一番的基本趋势，在今天更为强烈了2]。",
+    "context4": "我国1984年书刊的出版又有喜人的增长，图书种数近 $^ 4$ 万种，年增长率为 $1 0 . 5 \\%$ 。出版图书总册数63亿册，每人平均6册。期刊已逾4千种,年增长率 $8 . 1 \\%$ ，印刷总数达20亿份。出版社已超过250家，图书出版量目前已超过日本，仅次于苏联、西德、英国、美国，居世界第5位。",
+    "context5": "托马斯·卡莱尔说“书籍——当代真正的大学。\"现在任何一个国家和地区都非常重视图书的出版，以资表征一个国家或地区的知识水平和进步。图书的出版规模和多种社会、自然不无关系，与图书出版相关的影响因素可以说是不胜枚举的。当然，反映这种错综复杂关系也是殊为困难的。本文所建立的数学模型是很简单并且带有习题的色彩，其目的是希冀引出更为完备的数学模型，以期更好地刻画我国图书出版的形势。",
+    "context6": "在影响我国图书出版数量的众多因素中，我们认为出版社 $( X _ { 1 } )$ 和工农业总产值 $( X _ { 2 } )$ 是异常关键的。通过多元线性回归分析，我们拟建立起多元(二元)线性回归方程式：",
+    "context7": "$$\n\\hat { y } = a + b _ { 1 } X _ { 1 } + b _ { 2 } X _ { 2 }\n$$",
+    "context8": "为了进一步考查配合的密切程度，我们又计算了复相关系数 $R _ { \\mathrm { ~ y ~ } } \\cdot 1 2 _ { \\mathrm { ~ c ~ } }$ 为了判断哪些自变量对因变量的影响较大，我们还计算了偏相关系数[。需要说明的是，本文将数学推导和运算部分压缩到最低限度。虽然列举了运算数据，那是为了使个别读者便于验算核查而提供的。不熟悉回归分析的读者，只看结论也是能解其意的。"
+  },
+  "一、计算数据": {
+    "context1": "我们根据历年来出版年鉴和经济统计年鉴，获得了如表一所示的计算数据。带 $\\pmb { * }$ 的数值是我们根据几种资料自行相加的，可能不一定准确。",
+    "context2": "表一、计算数据表",
+    "context3": "<table><tr><td>序号</td><td>年度</td><td>图书出版数 （Y）</td><td>出版社数 （x）</td><td>工农业总产值：亿 （x）</td></tr><tr><td>1</td><td>1977</td><td>12,886</td><td>89</td><td>3,578</td></tr><tr><td>2</td><td>1978</td><td>14,987</td><td>121*</td><td>4,067</td></tr><tr><td>3</td><td>1979</td><td>17,212</td><td>156*</td><td>4,43</td></tr><tr><td>4</td><td>1980</td><td>21,621</td><td>174</td><td>4,897</td></tr><tr><td>5</td><td>1981</td><td>25,601</td><td>203</td><td>5,120</td></tr><tr><td>6</td><td>1982</td><td>31,784</td><td>233</td><td>5,506</td></tr><tr><td>7</td><td>1983</td><td>35,700</td><td>256</td><td>6.088</td></tr></table>",
+    "context4": "从表一的数据可以明显地看出：我国从1977年至1983年的7年间，图书出版种数是逐年递增的，而相应年度的出版社数量和工农业总产值亦有类似的趋势。这说明前者与后两者之间有正相关的关系。"
+  },
+  "二、二元回归方程式的建立": {
+    "context1": "我们研究出版社的数量、工农业总产值对图书出版数量的影响，就是要以出版社的数量、工农业总产值为自变量，以图书出版量为因变量，找出其间相关关系。亦即确定（1）式中的$a , b _ { 1 } , b _ { 2 }$ 的数值。为此，要求解以下三个规范方程式：",
+    "context2": "$$\n\\left\\{ \\begin{array} { l l } { \\sum Y = n a + b _ { 1 } \\sum X _ { 1 } + b _ { 2 } \\sum b _ { 2 } } \\\\ { \\sum X _ { 1 } Y = a \\sum X _ { 1 } + b _ { 1 } \\sum X _ { 1 } ^ { 2 } + b _ { 2 } \\sum X _ { 1 } X _ { 2 } \\cdot \\cdot \\cdot } \\\\ { \\sum X _ { 2 } Y = a \\sum X _ { 2 } + b _ { 1 } \\sum X _ { 1 } X _ { 2 } + b _ { 2 } \\sum X _ { 2 } ^ { 2 } } \\end{array} \\right.\n$$",
+    "context3": "为了求解(2)式，相应的数据如表二所示：",
+    "context4": "表二、所需计算数据表",
+    "context5": "<table><tr><td>Y （万种）</td><td>Y</td><td>X</td><td>X</td><td>X （千亿）</td><td>X</td><td>XY</td><td>XY</td><td>XN，</td></tr><tr><td>1.29</td><td>1.66</td><td>89</td><td>7,21</td><td>3.57</td><td>12.74</td><td>114.81</td><td>4.60</td><td>317.73</td></tr><tr><td>1.50</td><td>2.25</td><td>121</td><td>14,64</td><td>4.07</td><td>16.56</td><td>181.50</td><td>6.10</td><td>492.47</td></tr><tr><td>1.72</td><td>2.45</td><td>156</td><td>24.33</td><td>4.48</td><td>20.07</td><td>268.32</td><td>7.70</td><td>698.89</td></tr><tr><td>2.16</td><td>4.66</td><td>174</td><td>30,2~6</td><td>4.90</td><td>24.01</td><td>375.84</td><td>10.58</td><td>852.60</td></tr><tr><td>2.56</td><td>6.55</td><td>203</td><td>11,209</td><td>5.12</td><td>26.21</td><td>519.68</td><td>13.10</td><td>1039.36</td></tr><tr><td>3.18</td><td>10.11</td><td>233</td><td>54,289</td><td>5.51</td><td>30.36</td><td>740.94</td><td>17.52</td><td>1283.83</td></tr><tr><td>3.57</td><td>12.74</td><td>256</td><td>65,53u</td><td>6.09</td><td>37.08</td><td>913.92</td><td>21.74</td><td>1559.04</td></tr><tr><td>∑15.98</td><td>40.0</td><td>1232</td><td>238,208</td><td>33.74</td><td>167.03</td><td>3115.05</td><td>81.34</td><td>6243.91</td></tr></table>",
+    "context6": "将表二中有关数据代人(2)式，则有：",
+    "context7": "$\\{ 1 5 . 9 8 = 7 a + 1 2 3 2 b _ { \\scriptscriptstyle 1 } + 3 3 . 7 4 b _ { \\scriptscriptstyle 3 }$ $\\{ 3 1 1 5 . 0 5 = 1 \\colon 3 \\colon 4 + 2 3 8 2 0 8 \\ * b _ { \\scriptscriptstyle 1 } + 6 2 4 3 . 9 1 b _ { \\scriptscriptstyle 2 }$ $\\lvert 8 1 . 3 4 = 3 3 . 7 4 u + 6 2 4 3 . 9 1 b _ { \\mathrm { t } } + 1 6 7 . 0 3 b _ { \\mathrm { z } }$",
+    "context8": "解以上方程式得：",
+    "context9": "$$\n\\begin{array} { c } { { \\begin{array} { r c l } { { a = - 1 . 7 1 1 3 } } \\\\ { { } } \\\\ { { b _ { 1 } = 0 . 0 0 5 1 } } \\\\ { { } } \\\\ { { b _ { 2 } = 0 . 6 4 4 1 } } \\end{array} } } \\end{array}\n$$",
+    "context10": "亦即，(1)式可以写成：",
+    "context11": "$$\n\\pmb { \\vartheta } = 0 . 0 0 5 1 X _ { 1 } + 0 . 6 4 4 1 X _ { 2 } - 1 . 7 1 1 3 \\cdot \\cdot \\cdot\n$$",
+    "context12": "（3）式就是反映出版社和工农业总产值对图书出版量影响的三者相关关系的方程式。"
+  },
+  "三、复相关系数": {
+    "context1": "但是，这种配合是否良好呢？为了考查配合的密切程度，还要了解这个方程与实际值拟合的\"优度\"如何。因此，尚应进行复相关系数$\\mathbf { \\delta } _ { R _ { y } } \\cdot \\mathbf { \\delta } _ { 1 2 }$ 的计算。",
+    "context2": "表三中，Y仍然是以“万种”为单位， $\\pmb { \\hat { Y } }$ 系",
+    "context3": "表三、复相关系数若干计算表",
+    "context4": "<table><tr><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>y</td><td rowspan=1 colspan=1>Y</td><td rowspan=1 colspan=1>Y-r</td><td rowspan=1 colspan=1>(Y-Y)</td></tr><tr><td rowspan=1 colspan=1>1.29</td><td rowspan=1 colspan=1>1.66</td><td rowspan=1 colspan=1>1.03</td><td rowspan=1 colspan=1>0.26</td><td rowspan=1 colspan=1>0.0676</td></tr><tr><td rowspan=3 colspan=1>1.501.722.16</td><td rowspan=1 colspan=1>2.25</td><td rowspan=1 colspan=1>1.51</td><td rowspan=1 colspan=1>-0.01</td><td rowspan=1 colspan=1>0.0001</td></tr><tr><td rowspan=1 colspan=1>2.95</td><td rowspan=1 colspan=1>1.95</td><td rowspan=1 colspan=1>10.23</td><td rowspan=1 colspan=1>0.0529</td></tr><tr><td rowspan=1 colspan=1>4.66</td><td rowspan=1 colspan=1>2.31</td><td rowspan=1 colspan=1>10.15</td><td rowspan=1 colspan=1>0.0225</td></tr><tr><td rowspan=2 colspan=1>2.563.18</td><td rowspan=1 colspan=1>6.55</td><td rowspan=1 colspan=1>2.60</td><td rowspan=1 colspan=1>10.</td><td rowspan=1 colspan=1>0.0016</td></tr><tr><td rowspan=1 colspan=1>10.11</td><td rowspan=1 colspan=1>3.01</td><td rowspan=1 colspan=1>0.17</td><td rowspan=1 colspan=1>0.0289</td></tr><tr><td rowspan=1 colspan=1>3.57</td><td rowspan=1 colspan=1>12.74</td><td rowspan=1 colspan=1>3.50</td><td rowspan=1 colspan=1>0.07</td><td rowspan=1 colspan=1>0.0049</td></tr><tr><td rowspan=1 colspan=1>∑15.98</td><td rowspan=1 colspan=1>40.92</td><td rowspan=1 colspan=1>15.91</td><td rowspan=1 colspan=1>0.07</td><td rowspan=1 colspan=1>0.1765</td></tr></table>",
+    "context5": "按(3)式计算的。",
+    "context6": "$$\n\\begin{array} { r } { r _ { Y \\bullet 1 2 } = \\sqrt { 1 - \\frac { \\sum ( y - \\hat { y } ) ^ { 2 } } { \\sum Y ^ { 2 } - \\frac { ( \\sum Y ) ^ { 2 } } { n } } } } \\\\ { = \\sqrt { 1 - \\frac { 0 . 1 7 6 5 } { 4 0 . 9 2 } - \\frac { - \\dots } { 3 6 . 4 8 } } } \\\\ { = 0 . 9 7 9 8 } \\end{array}\n$$",
+    "context7": "为检验复相关系数的显著性，可以查对 $\\pmb { \\tau }$ 值表。本文的情况自变量为2，多元回归中误差自由度为 $n = 7 - 2 \\mathrm { ~ - ~ } 1 = 4$ 。从查表可知$\\pmb { \\rho } = \\pmb { 0 } . \\pmb { 0 } \\mathbf { l }$ 时， $r = 0 . 9 4 9$ 。而本文 $r _ { Y \\bullet 1 2 } = =$",
+    "context8": "0.979.8, $r _ { Y \\thinspace s t 2 } = 0 . 9 7 9 > 0 . 9 4 9$ ，说明有极显著的相关意义。"
+  },
+  "四、偏相关系数": {
+    "context1": "计算偏相关系数，意在判断哪些变量影响较大,亦即区分出版社数量,工农业总产值对图书出版量的影响程度。为此，又计算了简单相关系数:",
+    "context2": "图书出版量与出版社数量的简单相关系数:",
+    "context3": "$$\n\\begin{array} { r l } & { r _ { Y X _ { 1 } } = } \\\\ & { \\frac { n \\sum Y X _ { 1 } - ( \\sum Y ) ( \\sum X _ { 1 } ) } { \\sqrt { n \\sum Y ^ { 2 } - ( \\sum Y ) ^ { 2 } } \\cdot \\sqrt { n \\sum X _ { 1 } ^ { 2 } - \\sum ( X _ { 1 } ) ^ { 2 } } } } \\\\ & { \\ = 0 . 9 8 2 2 } \\end{array}\n$$",
+    "context4": "图书出版量与工农业总产值的简单相关系数：",
+    "context5": "$$\n\\begin{array} { r l } & { r _ { Y X _ { 2 } } = } \\\\ & { \\quad \\sqrt { \\frac { n \\sum Y X _ { 2 } - ( \\sum Y ) ( \\sum X _ { 2 } ) } { n \\sum Y ^ { 2 } - ( \\sum Y ) ^ { 2 } \\cdot \\sqrt { \\frac { n \\sum X _ { 2 } } { n \\sum X _ { 2 } ^ { 2 } - ( \\sum X _ { 2 } ) ^ { 2 } } } } } } \\\\ & { \\quad = 0 . 9 7 6 6 } \\end{array}\n$$",
+    "context6": "出版社数量与工农业总产值的简单相关系数为：",
+    "context7": "$$\n{ \\begin{array} { r l } & { r _ { X _ { 1 } X _ { 2 } } = } \\\\ & { ~ { \\sqrt { { \\frac { n \\sum X _ { 1 } X _ { 2 } - ( \\sum X _ { 1 } ) \\left( \\sum X _ { 2 } \\right) } { \\sqrt { n \\sum X _ { 1 } ^ { 2 } - ( \\sum X _ { 1 } ) ^ { 2 } } } } } } \\cdot { \\sqrt { n \\sum X _ { 2 } ^ { 2 } - ( \\sum X _ { 2 } ) ^ { 2 } } } } \\\\ & { ~ = 0 . 9 9 6 3 } \\end{array} }\n$$",
+    "context8": "设图书出版数量为 $\\pmb { X _ { 3 } }$ ，出版社数量为 $X _ { 1 }$ ，工农业总产值为 $\\pmb { X } _ { 2 0 }$",
+    "context9": "假定出版社数量固定，则图书出版数量与工农业产值的偏相关系数为:",
+    "context10": "$$\nr _ { 2 3 , 1 } = \\frac { r _ { 2 3 } - r _ { 2 1 } \\cdot r _ { 3 1 } } { \\sqrt { 1 - r _ { 2 1 } ^ { 2 } \\cdot \\sqrt { 1 - r _ { 2 1 } ^ { 2 } } } } = - 0 . 1 2 3 1\n$$",
+    "context11": "假定工农业总产值固定，图书出版量与出版社数量的偏相关系数为：",
+    "context12": "$$\nr _ { 1 3 , 2 } = \\frac { r _ { 1 3 } - r _ { 1 2 } \\cdot r _ { 2 3 } } { \\sqrt { 1 - r _ { 1 2 } ^ { 2 } } \\cdot \\sqrt { 1 - r _ { 2 3 } ^ { 2 } } } = 0 . 7 1 1 3\n$$",
+    "context13": "，假定图书出版量固定时，出版社数量与工农业总产值的偏相关系数为：",
+    "context14": "$$\nr _ { 1 2 , 3 } = { \\frac { r _ { 1 2 } - r _ { 1 3 } \\cdot r _ { 1 3 } } { \\sqrt { 1 - r _ { 1 3 } ^ { 2 } } \\cdot \\sqrt { 1 - r _ { 2 3 } ^ { 2 } } } } = 0 . 9 1 9 3\n$$",
+    "context15": "从统计学可知，偏相关系数的数值和简单相关系数的数值往往是有差别的。在计算简单相关系数时，只考虑某一个自变量和因变量之间的关系。例如，图书出版量与出版社数量之间的简单相关系数，就没有考虑工农业总产值对图书出版量的影响。而偏相关系数要考虑其他自变量对因变量的影响，只是把它们当作常量。通过偏相关系数的计算与比较可以发现，出版社数量较之工农业总产值，对图书出版量影响更大。"
+  },
+  "五、预 测": {
+    "context1": "应用多元回归方程式进行预测时，不仅要求拟合优度要高，而且也希望回归方程的剩余标准差 $s$ 要小一些。经计算本文 $s = 0 . 1 7 0 5$ ，$\\frac { S } { \\bar { \\dot { \\Upsilon } } } = 7 . 4 \\%$ ，可见剩余标准差是很小的（低于$1 5 \\%$ 时，即有良好的预测效果)。",
+    "context2": "例如,预测1990年的我国图书出版量有多少种？",
+    "context3": "届时工农业总产值可望达到9,794亿元，出版社可达到350家。根据(3)式可有：",
+    "context4": "$$\n\\pmb { \\diamond } = 9 . 7 9 4 \\times 0 . 6 4 4 1 + 3 5 0 \\times 0 . 0 0 5 1\n$$",
+    "context5": "如出版社增加到370家，则图书出版量将达到64,840种。",
+    "context6": "可见，在1990年我国每年图书出版数量将突破6万种，将跃居世界第三、四位。"
+  },
+  "参考文献": {
+    "context1": "[]河野德吉《情報冈書館管理概》雄山阁出版株式会社东京1984年  \n[2] 引自经济审议情报研究委员会编日本の情報化社会タ毛下社1969年第15页  \n[3] 引自“China Daily”1985.2.8  \n[4」郑德如回归分析与相关分析上海人民出版社1984年"
+  }
+}

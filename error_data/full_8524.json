@@ -1,0 +1,183 @@
+{
+  "original_filename": "full_8524.md",
+  "科学计量研究中全计数法与分数计数法研究综述": {
+    "context1": "■陈莉玥²杨立英丁洁兰²",
+    "context2": "中国科学院文献情报中心北京100190²中国科学院大学北京100049",
+    "context3": "摘要：目的/意义]对科学计量研究中计数方法的相关概念进行界定，构建计数方法分类体系，梳理比较计数方法的特征和差异，分析现存问题并提出未来改进的方向和选择计数方法的建议。[方法/过程]首先概括计数方法的组成要素和使用流程，从信誉值分配的角度提出计数方法分类的两个要素，将计数方法分为全计数法与分数计数法两大类，并对各方法进行概述;以全计数与分数计数法的等权算法———-fullcounts与fractionalcounts为例，从论文指标、引文指标、网络指标3个视角，比较计数方法的差异。结果/结论]文章对于全计数与分数计数方法的优劣势、计数单元与计数对象的一致性、信誉值分配规则合理性、网络影响力测度4个方面的问题进行了思考，指出在未来上述4个方面进一步研究的方向。",
+    "context4": "关键词：计数方法 全计数法 分数计数法分类号：G250DOI: 10. 13266/j. issn. 0252 - 3116. 2018.23. 016"
+  },
+  "1引言": {
+    "context1": "科研论文是科研工作成果最主要的载体形式，在推动和弘扬科学研究中发挥着重要作用。科研论文既是作者的智慧财产，又代表了作者的知识权益。在科学计量研究中,计数方法（counting methods）指依据一定规则来分配科研论文权益归属的计算方法。计数方法可用于计算作者、机构和国家的发文数量、被引频次。此外,以论文和被引频次指标为基础,还可计算其他科学计量指标。在大数据环境下科学计量界已经认识到不同的计数方法在解决相关问题时具备不同的特点和优势。",
+    "context2": "在科研评价实践活动中，量化数据往往不可或缺，对于科研评价结论的得出具有支撑作用。在科研成果权益分配,例如计算科研成果数量时，计数方法是起点和依据，直接影响科研评价中对科研人员贡献的测度。因此，计数方法的算法及其适用性研究具有重要的应用价值。",
+    "context3": "迄今为止，计数方法已经衍生出10余种计算方法。其中绝大多数计数方法的算法与作者数量有关，计算结果受科研合作程度的影响较大。大科学时代下合作已经成为实验和理论研究的主要形式,单项科学研究的平均参与人数快速增长,科研论著的篇均作者数量不断增加，合作加强趋势已经成为普遍规律。因此，科研合作的增长对于计数方法结论的影响愈发加剧。",
+    "context4": "现有的研究中，缺乏对计数方法从理论和实践层面上的综合分析。为了从本质上界定不同类型计数方法在设计思路、实践应用、适用性方面的区别,本文以计数方法的两个基础类别——全计数法与分数计数法为出发点，界定计数方法相关概念,构建计数方法分类体系，并比较了常见计数方法的特点及差异，希望能够为计数方法的选择提供参考。"
+  },
+  "2计数方法概述": {
+    "context1": "界定各种计数方法的内涵是辨析其原理差异的前提。本节定义了计数方法的组成要素等基本概念，以此为基础梳理了计数方法体系,并将各种计数方法纳入该体系中进行介绍。"
+  },
+  "2.1计数方法的概念基础": {
+    "context1": "根据计数方法的计算流程，本文定义计数单元、信誉值、信誉值分配函数和计数对象等与计数方法相关的概念。",
+    "context2": "2.1.1计数单元计数单元是计数方法计算的基本单位。本研究定义计数单元为论文的完成者（或提供支撑者)。在本文中，论文完成者不仅局限于论文作者，而是包括更广泛意义上的、不同层次的参与或支撑者，例如作者所在机构、机构隶属的国家等。因此，对于一篇论文而言，计数单元可以是作者、机构、国家等。其中作者是最小的计数单元。",
+    "context3": "2.1.2信誉值论文的作者、作者所在机构、机构隶属的国家等计数单元是学术成果的完成者(或提供支撑者），他们在完成、支持学术研究工作的同时也分享学术成果带来的声望。信誉值是上述计数单元共同分享、分配论文的各项权益而获得的学术信誉。",
+    "context4": "在科学计量研究中，信誉值指计数单元完成的论文数量、引文数量以及在此基础上计算出来的其他计量指标，例如作者的发文数量、收到的引文数量。",
+    "context5": "2.1.3信誉值分配函数信誉值分配函数是计数单元获得信誉值的依据。对一篇论文而言，当计数单元涉及多个完成实体(作者、机构、国家)时,需要确定各计数单元如何分享或分配论文的各项权益(信誉值）。",
+    "context6": "在目前的计数方法中，信誉值分配函数的设计考虑以下两个要素：",
+    "context7": "要素一：信誉值分配时赋予各计数单元（作者、机构、国家)的权重。由于学术论文在完成过程中,不同的参与者例如计数单元为作者时,就有通讯作者、第一作者、其他作者，他们的贡献可能有所不同,因此信誉值分配函数会根据贡献程度为各计数单元分配权重。",
+    "context8": "要素二：定义一篇论文信誉值为1或者定义各计数单元的信誉值为1。计数单元为作者时，以一篇论文有N位作者为例,在信誉值分配等权重的情况下，当定义一篇论文的信誉值为1时,各作者信誉值为1/N;当定义各作者的信誉值为1时，一篇论文的信誉值为N。",
+    "context9": "由于信誉分配函数决定了信誉值的分配，因此它是计数方法的核心。",
+    "context10": "2.1.4计数对象计数对象指科研评价中的评价对象,包括作者、机构、国家、学科、地域、期刊等,最常见的计数对象是作者、机构和国家。",
+    "context11": "在科研评价实践活动中，由于计数对象是评价目标,因此,计数对象的信誉值是计数方法的最终目标，而计数单元的信誉值则是计数对象信誉值的基础。计数对象与计数单元信誉值之间的关系是：计数对象的信誉值为属于该计数对象的计数单元信誉值累加。例如，当计数对象为国家时，其信誉值可以是国家、机构和作者等不同层次计数单元信誉值的总和。",
+    "context12": "关于区分计数对象和计数单元的问题,本文第四节将以示例形式给出详细的解释。"
+  },
+  "2.1.5计数单元等概念的关系根据上述概念，结合图示进一步阐述计数单元、信誉值、信誉值分配函数和计数对象四个概念间的关系,如图1所示：": {
+    "context1": "![](images/4774433e6bbec6d275c8c4b8efb685e863e8db5b47780d509a8be4bd82d50ace.jpg)  \n图1计数单元等概念的关系",
+    "context2": "如图1所示,在确定计数单元后，首先基于信誉值分配函数计算各计数单元的信誉值;然后根据计数单元与计数对象的隶属关系例如作者从属于某机构、机构隶属于某国家等，通过累加计数对象的附属计数单元的信誉值，最终求得计数对象的信誉值。"
+  },
+  "2.2计数方法的分类": {
+    "context1": "在科学计量领域,研究者从不同的角度提出了多种计数方法。对这些计数方法进行梳理,列出其分类体系，以利于从共性和个性的角度揭示不同计数方法的联系和区别。",
+    "context2": "现有研究中，部分学者对计数方法的分类提出了不同思路。M.Gaufriau等根据各类计量问题中计数对象与计数单元的对应关系，将计数方法分为“com-plete”“complete-normalized’“whole”“whole-normalized”和“straight\"5类,其中“whole\"即为 full counts方法，带有“normalized”即为 fractional counts方法，“straight”代表第一作者计数和通讯作者计数法。L.Waltman等将计数方法按不同计数单元细分,具体分为“full counts”“country-level fractional counts\"（国家层面、“organization-level fractional counts”（机构层面、“address-Hevel fractional counts”（地址层面、“au-thor-level fractionalcounts\"（作者层面、“第一作者计数\"和“通讯作者计数”7类方法。",
+    "context3": "笔者通过分析，发现现有分类体系多以计数单元和计数对象为分类视角。在计数方法的相关概念中，信誉值分配函数是计算信誉值的依据，而信誉值是计数方法的终极目标。因此本研究从信誉值分配的视角，依据信誉值分配时考虑的两个要素，定义了计数方法的分类体系。",
+    "context4": "首先,基于一篇论文信誉值为1还是各计数单元信誉值为1,将计数方法分为分数计数法与全计数法两大类别。两种计数方法理念的差别在于前者是分割,后者是汇总。分数计数法的思路是一篇论文的信誉值1被各计数单元分割，全计数法的思路是各计数单元信誉值(均为1)汇总构成了论文的信誉值。",
+    "context5": "在要素一的分类基础上，考虑信誉值分配时各计数单元(各位作者、机构、国家)的权重。在科学计量实践中，作者计数单元的权重的确定与作者排序相关，权重的赋予可以是等权也可以是不等权-1。要素二在全计数法和分数计数法的基础上,进一步将两类方法细分为四种类型。",
+    "context6": "计数单元权重相等意味着一篇论文的各位作者对论文的贡献程度相等，各计数单元的信誉值相等。在全计数法和分数计数法中，目前等权重的计数方法分别是 full counts 和 fractional counts。",
+    "context7": "计数单元权重不相等意味着一篇论文的各位作者对论文的贡献程度不同，作者的署名顺序决定信誉值分配的权重。在全计数法中,第一作者和通讯作者计数法的使用最为广泛。分数计数法中,不等权的计数法有7种类型。计数方法的分类体系如图2所示：",
+    "context8": "![](images/0ee3447a906c457b3de45d07b49809f8c5c1160bbc323be633c22e8ba0b53cd9.jpg)  \n图2计数方法的分类体系"
+  },
+  "2.3常用的计数方法": {
+    "context1": "根据计数方法的相关概念以及笔者构建的计数方法分类体系,本节以论文指标计算为例,介绍常用的计数方法。考虑到部分计数方法的英文原称已广为接受，为避免引起混淆，保留英文说法。",
+    "context2": "(1)Full counts(也称作 normal counts、total countsstandard counts、whole counts 等):full counts 是全计数法等权重的唯一算法,也是目前使用最广泛的计数方法,其方法名称最早由D．Lindsey提出。该方法赋予一篇论文中各计数单元信誉值得分均为1。",
+    "context3": "(2)第一作者计数法和通讯作者计数法(First au-thor/Corresponding author counts）：这两种方法是是全计数法的不等权算法,由J．R．Cole等提出。第一作者计数法将论文第一作者信誉值赋为1,其他作者为0;通讯作者计数方法则将通讯作者信誉值赋为1，其他作者记为0。这两种计数方法分别强调了通讯作者、第一作者对论文的突出贡献。",
+    "context4": "(3）Fractional counts(也称作 adjust counts) : Frac-tional counts 由D.Lindsey,D.D.S.Price提出。该方法是分数计数法等权重的唯一算法，其信誉分配函数(credit allocation,记为CA)如下:",
+    "context5": "$$\n\\boldsymbol { C } \\boldsymbol { A } _ { u _ { j } } = \\frac { 1 } { n }\n$$",
+    "context6": "其中 $\\bullet u$ 指计数单元(作者、机构、或国家）,这里假设 $u$ 为作者，则 $u _ { j }$ 指作者j， $C A _ { u _ { j } }$ 为作者 $j$ 的信誉值得分， $_ { n }$ 指论文的作者数 $\\bullet \\ j$ 指作者序号 $\\backprime = \\left( \\ 1 \\ , 2 \\ , \\cdots n \\right)$",
+    "context7": "（4)比例计数法（proportional counts）。该方法是分数计数法权重不相等的算法之一，由G．V.Hooydonk提出。比例计数法的信誉值分配函数基于作者署名顺序，根据作者排序依次递减作为分配信誉值的依据，用 $\\mathrm { n + 1 \\mathrm { ~ - ~ } j }$ 表示排在第j位的作者对该论文的贡献程度，所有作者对该论文的总贡献记为 $\\mathrm { n } ( \\mathrm { ~ n ~ } +$ 1）/2,其信誉值分配函数如下:",
+    "context8": "$$\nC A _ { u _ { j } } = \\frac { 2 \\big ( n + 1 - j \\big ) } { n \\big ( n + 1 \\big ) }\n$$",
+    "context9": "其中， $_ { \\textrm { \\textmu } }$ 指计数单元(作者）,则 $u _ { j }$ 指作者 $j , C A _ { u _ { j } }$ 为作者 $j$ 的信誉值得分， $n$ 指论文的作者数 $, j$ 指作者序号 $\\backprime = \\left( \\ 1 \\ , 2 \\ , \\cdots n \\right)$ 。",
+    "context10": "（5)几何计数法（pure geometric counts）。该方法是分数计数法权重不相等的算法之一,由L．Egghe,R．Rousseau等提出。几何计数法的信誉值分配函数根据作者署名顺序依次递减来分配其信誉值，结合几何算法用 $2 \\mathrm { n } - \\mathrm { j }$ 表示排在第 $\\mathrm { j }$ 位的作者对该论文的贡献程度,所有作者对该论文的总贡献记为2n-1,其信誉值分配函数如下：",
+    "context11": "$$\nC A _ { _ { u _ { j } } } = { \\frac { 2 ^ { n - j } } { 2 ^ { n } - 1 } }\n$$",
+    "context12": "其中， $_ { \\textrm { \\textmu } }$ 指计数单元(作者）,则 $u _ { j }$ 指作者 $j , C A _ { u _ { j } }$ 为作者 $j$ 的信誉值得分， $n$ 指论文的作者数 $, j$ 指作者序号 $\\backprime = \\left( \\ 1 \\ , 2 \\ , \\cdots n \\right)$ 。",
+    "context13": "（6）调和计数法（harmonic counts）。该方法是分数计数法权重不相等的算法之一,由N．T.Hagen[d提出。调和计数法的信誉值分配函数依据作者署名信息依次递减分配信誉值，用1/i表示排在第j位的作者对该论文的贡献程度，各作者的信誉值得分如下：",
+    "context14": "$$\nC A _ { u _ { j } } = { \\frac { \\frac { 1 } { j } } { 1 + { \\frac { 1 } { 2 } } + \\cdots + { \\frac { 1 } { n } } } }\n$$",
+    "context15": "其中， $_ u$ 指计数单元(作者），则 $u _ { j }$ 指作者 $j , C A _ { u _ { j } }$ 为作者 $j$ 的信誉值得分， $n$ 指论文的作者数 $\\bullet ^ { j }$ 指作者序号 $\\backprime = \\left( \\ 1 \\ , 2 \\ , \\cdots n \\right)$ 。",
+    "context16": "（7）修正的信誉分配得分法(correct credit distribu-tion scores）。该方法是分数计数法权重不相等的算法之一,由I．Lukovits等[提出。该方法的信誉值分配函数加入了作者筛选参数，假设作者对论文的贡献大于一定比例才获得信誉值,具体函数如下：",
+    "context17": "$$\nC A _ { u _ { j } } = \\frac { n + 1 } { 2 n \\cdot F }\n$$",
+    "context18": "$$\nC A _ { u _ { j } } = \\frac { k + T } { 2 k \\cdot F \\cdot T }\n$$",
+    "context19": "其中 $\\boldsymbol { \\mathbf { \\ell } } _ { u }$ 指计数单元(作者）,则 $u _ { 1 }$ 指作者 $1 , C A _ { u _ { 1 } }$ 为作者1的信誉值得分， $u _ { k }$ 指作者 $k , k = { \\bigl ( } 2 , 3 , \\cdots n { \\bigr ) }$ ，$C A _ { u _ { k } }$ 为作者 $k$ 的信誉值得分， $n$ 指论文的作者数， $F$ 的计算公式如下：",
+    "context20": "$$\nF = \\frac { 1 } { 2 } \\big ( \\frac { 1 } { n } + \\frac { n - 1 } { T } + \\sum _ { k = 1 } ^ { n } \\frac { 1 } { k } \\big )\n$$",
+    "context21": "$$\nT = { \\frac { 1 0 0 } { n T } }\n$$",
+    "context22": "其中 $n T =$ 作者贡献阈值( $\\%$ ,如对一篇文章最低的贡献超过 $5 \\%$ 或 $10 \\%$ 才计入在内）。",
+    "context23": "（8）指数加权方法（Exponential weighting）。该方法是分数计数法权重不相等的算法之一,由P．Vin-$\\mathrm { k l e r } ^ { \\mathtt { U } \\mathtt { 2 } }$ 提出。指数加权方法的提出是因为有研究表明5位及以上作者的论文中,排位最后的作者平均贡献更多。根据这一原则,赋予最后一位作者相对较多的信誉值，信誉值分配函数如下：",
+    "context24": "$$\nC A _ { { \\bf \\Phi } _ { u _ { j } } } = \\frac { Z _ { j } } { \\sum _ { j = 1 } ^ { n } Z _ { j } }\n$$",
+    "context25": "其中 $u$ 指计数单元(作者）,则 $u _ { j }$ 指作者 $j , C A _ { u _ { j } }$ 为作者 $j$ 的信誉值得分， $n$ 指论文的作者数 $\\bullet ^ { j }$ 指作者序号 $\\backprime = \\big ( 1 , 2 , \\cdots n \\big )$ ， $Z _ { j }$ 表示该论文中各作者的指数权重， $Z _ { j }$ 的计算公式如下：",
+    "context26": "$$\nZ _ { j } = b ^ { j - 1 }\n$$",
+    "context27": "式（10)",
+    "context28": "其中 $b = 0 , 8$ 。",
+    "context29": "（9）修正权值与精确权值方法(ModifiedWeight/RefinedWeightmethods）。这两种方法是分数计数法权重不相等的算法,由F．J.Trueba等提出。修正权值和精确权值方法的信誉值分配函数给最后一位作者分配了更多的得分，由于排位最后的作者通常是研究团队的负责人。修正权值法的信誉值分配函数如下:",
+    "context30": "$$\nC A _ { u _ { j } } = \\frac { 2 \\big ( 2 n - j + 2 \\big ) } { 3 n \\big ( n + 1 \\big ) }\n$$",
+    "context31": "其中 $u$ 指计数单元（作者），则 $u _ { j }$ 指作者 $j , C A _ { u _ { j } }$ 为作者 $j$ 的信誉值得分， $n$ 指论文的作者数 $, j$ 指作者序号 $\\backprime = \\left( \\ 1 \\ , 2 \\ , \\cdots n \\right)$ 。",
+    "context32": "精确权值方法的信誉值分配函数如下：",
+    "context33": "$$\nC A _ { \\scriptscriptstyle { u _ { j } } } = \\frac { 2 \\big ( 2 n - j + 2 \\big ) } { 3 n \\big ( n + 1 \\big ) } \\big ( \\mathrm { \\small ~ 1 ~ } { - } f \\big ) \\mathrm { \\small ~ + ~ } { c _ { j } } ^ { \\mathrm { \\scriptsize ~ * ~ } } f\n$$",
+    "context34": "其中 $u$ 指计数单元(作者），则 $u _ { j }$ 指作者 ${ \\mathrm { j } } , C A _ { u _ { j } }$ 为作者j的信誉值得分， $n$ 指论文的作者数 $, j$ 指作者序号 ${ \\mathfrak { s } } j = { \\left( \\ 1 , 2 , \\cdots n \\right) } \\ , f$ 表示最优先分配信誉值作者的份额,首选第一、第二作者和最后一位作者 $\\ : \\left( \\ : 0 < f < 1 \\right) , c _ { j }$ 表示优先作者的数量 $\\sum _ { \\mathrm { j } } ^ { \\mathrm { n } } \\mathrm { \\ : c _ { \\mathrm { j } } = 1 }$ 。"
+  },
+  "2.4计数方法示例": {
+    "context1": "上一小节介绍了各种计数方法的设计思路和算法。本小节将通过示例形式展示计数方法的原理,同时进一步解释计数对象与计数单元之间的关联。",
+    "context2": "本小节以一篇由6位作者合作完成的论文为例:6位作者分别来自4个不同的机构,3个不同的国家。6位作者中,A1为第一作者。本示例旨在计算该论文中各国家的信誉值，因此计数对象为国家。这篇论文的作者、机构和国家之间关系如表1所示：",
+    "context3": "表1作者、机构和国家的关系",
+    "context4": "<table><tr><td>作者</td><td>机构</td><td>国家</td></tr><tr><td>A1、A2</td><td>I1</td><td>C1</td></tr><tr><td>A3</td><td>12</td><td>C1</td></tr><tr><td>A4、A5</td><td>13</td><td>C2</td></tr><tr><td>A6</td><td>I4</td><td>C3</td></tr></table>",
+    "context5": "本节分别选取在计数方法分类体系中4种类型的一种作为代表,即fullcounts、第一作者计数法、fraction-al counts、比例计数法进行比较。表2展示了当计数单元为国家时，基于4种计数方法计算出来的国家信誉值。",
+    "context6": "需要指出得是,在科学计量研究中，信誉值可以是计数单元(或计数对象)发表的论文数量、收到的被引频次以及在此基础上计算出来的其他计量指标。表2中的信誉值可以理解为国家1、国家2、国家3在不同的计数方法下发表的论文数量。",
+    "context7": "表2基于4种计数方法求解各国家的信誉值",
+    "context8": "<table><tr><td></td><td>国家1</td><td>国家2</td><td>国家3</td></tr><tr><td>Full counts</td><td>1</td><td>1</td><td>1</td></tr><tr><td>第一作者计数法</td><td>1</td><td>0</td><td>0</td></tr><tr><td>Fractional counts</td><td>0.33</td><td>0.33</td><td>0.33</td></tr><tr><td>比例计数法</td><td>0.71</td><td>0.24</td><td>0.05</td></tr></table>",
+    "context9": "注：表2中的各方法以国家为计数单元",
+    "context10": "2.1中，笔者定义了与计数方法相关的概念,其中计数单元、计数对象是信誉值计算的基础和最终目标。为了进一步厘清两者之间的关联，表3列出了计数单元分别为国家、机构、作者的情况下，计数对象获得信誉值的差异,展示了基于 full counts和 fractional counts时，使用不同计数单元计算的各国家信誉值。当计数单元为国家时,fullcounts下3个国家的信誉值都是1，fractionalcounts下3个国家各分得 $1 / 3 = 0 . 3 3$ 的信誉值。当计数单元为机构时,fullcounts下4个机构的信誉值都是1,根据表1中机构与国家的隶属关系，国家1的信誉值为 $1 ^ { * } ~ 2 = 2$ ，国家2和国家3的信誉值都是1。fractional counts $\\textsf { F 4 }$ 个机构各分得 $1 / 4 = 0 . 2 5$ 的信誉值,根据机构与国家的隶属关系,国家1分得 $1 / 2 =$ 0.5的信誉值，国家2和国家3各分得 $1 / 4 = 0 . 2 5$ 的信誉值。当计数单元为作者时,fullcounts下6位作者的信誉值都是1，根据表1中作者与国家的隶属关系，国家1的信誉值为 $1 ^ { * } \\ 3 = 3$ ，国家2的信誉值为 $1 ^ { * } ~ 2 = 2$ ，国家3的信誉值为1。fractionalcounts下6位作者各分得 $1 / 6 = 0 . 1 7$ 的信誉值，根据作者与国家的隶属关系，国家1分得 $3 ^ { * } 1 / 6 = 0 . 5$ 的信誉值，国家2分得2$* 1 / 6 = 0 . 3 3$ 的信誉值，国家3分得 $1 / 6 = 0 . 1 7$ 的信誉值。从表3中国家信誉值得分的差异可以看出,当计数单元的粒度从粗至细，从国家、机构、作者依次变化时，信誉值分配越精确，各国家的信誉值差异越显著。",
+    "context11": "表3计数单元分别为国家、机构、作者时各国家的信誉值",
+    "context12": "<table><tr><td></td><td colspan=\"2\">国家1</td><td colspan=\"2\">国家2</td><td colspan=\"2\">国家3</td></tr><tr><td></td><td>full</td><td>fractional</td><td>full</td><td>fractional</td><td>full</td><td>fractional</td></tr><tr><td>计数单元－国家</td><td>1</td><td>0.33</td><td>1</td><td>0.33</td><td>1</td><td>0.33</td></tr><tr><td>计数单元－机构</td><td>2</td><td>0.5</td><td>1</td><td>0.25</td><td>1</td><td>0.25</td></tr><tr><td>计数单元-作者</td><td>3</td><td>0.5</td><td>2</td><td>0.33</td><td>1</td><td>0.17</td></tr></table>"
+  },
+  "3 全计数与分数计数法的对比研究": {
+    "context1": "全计数和分数计数法是计数方法的两大分类体系。辨析两类计数方法的本质特征，有助于从根本上认识和理解计数方法的适用性。笔者以全计数与分数计数法中的等权算法——full counts与 fractional counts为例来对比两类方法的差异。选择等权算法的目的是为了弱化次要因素的影响，抓住计算方法的核心特征。",
+    "context2": "目前有关 full counts 与 fractional counts 差异性比较的研究视角有很多，前文中笔者曾提到在科学计量研究中，计数方法可用于计算指定对象的论文数量、引文数量以及在此基础上计算出来的其他计量指标,此外,笔者发现计数方法对计量网络的分析也有影响。因此本章从论文指标计算、引文指标计算、计量网络分析三个视角对比 full counts与 fractional counts 的差异。"
+  },
+  "3.1计数方法在论文指标计算中的比较研究": {
+    "context1": "在科学计量研究中,论文数量及以论文量为基础的指标是最为常用的指标。目前的研究主要依据大规模实证分析和客观事实，比较full counts与fractionalcounts的差异，具体包括两种计数方法计算论文指标时的适用性和数值相关性两个方面的研究。",
+    "context2": "3.1.1计数方法的适用性研究计数方法的适用性指不同计数方法适用于不同的计数对象，并影响信誉值计算结论，以此作为考虑计数方法适用性的依据。L.Leydesdorff 4、T.Braun和B.R.Martins d等人从计算国家论文的世界份额指标出发讨论了这个问题。L.Leydesdorff 提出,由于 fractional counts 给单作者论文的作者分配的信誉值比合著论文的作者多，导致同等情况下国际合作论文增多反而使该国家论文产出下降的现象，因此fractionalcounts在计算该指标时存在缺陷;T．Braun等人认为fullcounts会造成整体论文数量的膨胀，不适于计算该指标，相反fractionalcounts的计数结果更为准确;而还有部分学者从基于不同计数方法的国家论文数量排名入手，比较计数方法的适用性。M.Gauffriau[7-1使用 full counts和frac-tionalcounts计算国家论文数量并据此进行国家排名，发现使用fullcounts时某些排名靠前的国家科研实力弱但与其他国家合作丰富，而例如日本等科研实力强大但合作相对较少的国家则排名靠后，因此认为fullcounts的计数结果有失准确;H．F．Moed统计了本国国内论文数量和本国科研人员人均发文数量，对照基于fullcounts统计的国家论文数量排名,证明了fullcounts计数结果存在偏差，同时他表示这一偏差在国家层面尚可证明，但在机构和个人层面则难以度量，因此建议使用 full counts和 fractional counts 等多种计数方法统计论文产出数据。",
+    "context3": "3.1.2计数结果的相关性研究计数结果的相关性指比较不同计数方法如 full counts 和 fractional counts的信誉值计算结果，并通过研究信誉值得分相关性分析不同计数方法的差异。B．Pritychenko以物理学中的核物理和实验核物理领域为主,构建基于fullcounts与fractionalcounts的作者平均发文量走势图，以及某位多产作者的逐年发文量的走势图，发现两种方法的计数结果呈负相关关系，且只有基于fractionalcounts的作者平均发文量曲线与A．Plume等描述的近50年作者科研产出趋势相一致。T.Chudlarsky等主要以捷克的高校、学院以及非大学类研究机构为研究对象,探究fullcounts与fractional counts计数结果的一致性，通过计算方法间计数结果相对份额的距离,发现当使用fractionalcounts评价捷克的论文数和评价捷克所有科研机构总体论文数的结果十分相近，而fullcounts则对同一国家的不同层级对象的评价结果差异较大。"
+  },
+  "3.2计数方法在引文指标计算中的比较研究": {
+    "context1": "科学计量中的引文指标是在论文的基础上依据其引文数据构建的一系列影响力测度指标，涉及计数方法选择的引文指标计算研究可以从单一学科测度和跨学科测度两个视角来看。",
+    "context2": "3.2.1在测度单一学科引文指标中的应用F．Na-$\\operatorname { r i n } ^ { \\mathtt { [ L 3 ] } }$ 和W.Glanzel等在探究科学合作增长趋势时就谈到，在进行研究对象间的比较和排名时，引文计数结果相比于论文计数结果更容易引起误差和争议，原因是多作者论文多数情况比单作者论文被引频次高，国际合作论文一般也比本国论文被引频次高。E．J.Rinia、M.H.Huang 和C.S.Lin等围绕物理学展开关于 full counts、fractional counts 以及第一作者计数法等的研究。其中M.H.Huang 等人以大学为计数对象,C.S.Lin等人以国家为计数对象,都统计了引文数量和篇均引文等科研影响力测度指标，研究结果表明在物理学领域国家和机构级别的影响力评价中，fractionalcounts和第一作者计数法的计数结果都比full counts 更科学准确。",
+    "context3": "另外M.Schreiber和L.Egghe等使用论文fractional counts 和引文 fractional counts 两种方法计算$\\mathrm { h }$ 指数和 $\\mathbf { g }$ 指数,通过比较full counts与2种 fractionalcounts情况下 $\\mathbf { h }$ 指数与 $\\mathbf { g }$ 指数的结果，发现差异不显著,因此认为该类指标不受计数方法的影响,但也建议进行不同领域间实际计算的比较。",
+    "context4": "3.2.2在测度跨学科引文指标中的应用近年来众多学者发现不同计数方法在进行跨学科的影响力测度中存在显著差异。D．W．Aksnes等使用full counts与fractional counts计算国家科学指标NSI(国家篇均引文/世界篇均引文）,发现基于 fractional counts的指标结果普遍低于fullcounts,且各国在 full counts与 frac-tionalcounts下该指标的差值与本国国际合作论文占比成强相关关系,从而推断出在fullcounts下国际合作论文比例较高的国家具有更强的科研竞争力。F.Moya-anegon 等 b基于 full counts、fractional counts 以及通讯作者计数法，计算各国家全部论文和被引量$\\mathrm { T o p } 1 0 \\%$ 论文的学科归一化指标（mean normalizedcitationscore,简称MNCS),认为 full counts与通讯作者计数法计算的学科归一化指标差异程度，能够体现某国家通过国际合作获得的学术收益，例如差异程度低于 $2 5 \\%$ 的国家属于科研发达国家，而高于 $40 \\%$ 的国家属于科研发展中国家。",
+    "context5": "2012年CWTS在发布莱顿大学排名报告的同时首次提出 fullcounts在计算学科归一化指标MNCS时，无法保证指标的基线为1的问题。随后L．Walt-man等人围绕MNCS 指标、 $\\mathrm { P P t o p } 1 0 \\%$ 等学科归一化引文指标,探究 fullcounts与 fractional counts对指标的适用性,提出fullcounts计算归一化指标时会产生红利值FCB(full counting bonus）,并建议在学科归一化问题中使用fractional counts,尤其当研究对象为国家或科研机构时。A．Perianes-rodriguez等结合A.M．Abbas等b关于同领域不同科研单元引文分布比较以及J．Foster等的经济贫困的加法可分性原理,提出例如MNCS等影响力指标的加法可分性，即研究集合总的影响力指标值等于各计数对象影响力指标的加权求和，并证明fullcounts不适于计算该类指标。同时他们提出了倍数计数法（multiplicativecounts），该方法的信誉值分配函数给各计数单元分配信誉值为1，但是它与fullcounts的区别在于求解归一化指标MNCS时，各论文总数等于研究对象通过该计数法计算的论文数之和。经证明，倍数计数法满足加法可分性，且能够保证归一化指标MNCS的基线为1。"
+  },
+  "3.3计数方法与计量网络分析": {
+    "context1": "科学计量网络是大量计量分析工作的基础。信誉值计算是计量网络构建的基础,因此计数方法的选择是计量网络分析的前提。",
+    "context2": "具体而言，计量网络中节点的边权重,即节点的关联强度取决于信誉值计算。以作者合作网络为例，假设一篇论文由4位作者合作完成，网络节点为4位作者,采用 full counts与 fractional counts 计算作者之间的边权重，即合作强度如图3所示：",
+    "context3": "![](images/fc44bf403a9b6c362d743fa8b5281b1c7eec60fccbb41e2546a6b15efd4517ea.jpg)  \n图3采用 full counts 与 fractional counts计算的作者合作网络",
+    "context4": "可以看到,full counts 的合作网络中,作者间的边权重都是1,该网络中所有作者间边权重的总和是6,而fractionalcounts网络中所有作者间边权重的总和是1。显然,使用fractional counts统计作者连边权重的时候,不同论文中的合作情况都是等权重的;而在 fullcounts统计下,不同合作情况中连边的总权重受合作人数影响，合作人数越多，该情况下的总权重越大。",
+    "context5": "关于计数方法与计量网络,目前主要围绕计数方法对网络布局算法的优化以及fractionalcounts的变形方法两大方向进行。",
+    "context6": "3.3.1网络布局算法的优化研究近年来,许多学者提出研究对象间的加权共现频次会影响计量网络的布局、节点的聚类等。N.J.V.Eck,L．Waltman在VOSviewer社会网络可视化软件中,将计数方法引入VOS 网络布局技术,布局算法公式如下:",
+    "context7": "$$\nL { \\big ( } x _ { 1 } , \\cdots , x _ { n } { \\big ) } \\ = { \\frac { 1 } { \\alpha } } \\Sigma _ { i  j } a _ { i j } \\ { \\big \\| } \\ x _ { i } - x _ { j } \\ { \\big \\| } \\ ^ { \\alpha } - { \\frac { 1 } { \\beta } } \\Sigma _ { i  j } \\ { \\big \\| } \\ x _ { i } - x _ { j } \\ { \\big \\| } \\ ^ { \\beta }\n$$",
+    "context8": "式（13)",
+    "context9": "其中， $\\cdot \\boldsymbol { a } _ { i j }$ 表示网络中节点 $i$ 与节点 $j$ 间的相关性（relatedness）,该参数主要依据关联强度（AssociationStrength)指标计算而来。关联强度的计算公式如下：",
+    "context10": "$$\nA S _ { i j } = \\frac { c _ { i j } } { c _ { i } c _ { j } }\n$$",
+    "context11": "其中， ${ \\mathbf { \\nabla } } A S _ { i j }$ 表示节点 $i$ 与 $j$ 之间的关联强度， $c _ { i j }$ 表示节点i与 $\\mathrm { j }$ 之间的共现频次， $\\mathbf { \\nabla } _ { \\mathbf { \\rho } } \\mathcal { C } _ { i }$ 表示节点 $i$ 与其它节点的总共现频次， $c _ { j }$ 表示节点 $j$ 与其它节点的总共现频次。",
+    "context12": "显然不同的计数方法会导致节点间的关联强度发生变化从而改变网络的最终布局。Rodriguez等基于 full counts 与 fractional counts,使用VOSviewer工具对2015年LeidenRanking中的750所大学构建合作网络,发现使用fractional counts 构建的网络比full counts更容易辨识出簇群（clusters）,并且基于full counts构建的网络更容易受合著者数相对较大的论文的影响。",
+    "context13": "3.3.2Fractional counts及其衍生方法研究在科学计量网络关联强度计算中，除了图4中使用的fraction-al counts,A．P. Rodriguez，W.P. Han  以及 L.Leydesdorff等根据不同的方法论提出了几种 frac-tionalcounts的衍生方法。这里仍然以构建作者合作网络为例,归纳 fractional counts以及它的几个衍生方法。",
+    "context14": "假设有M篇论文,共包括N位作者,由此构造N$^ { \\ast } \\mathrm { ~ \\bf ~ M ~ }$ 阶作者－论文共现矩阵记为 $\\mathrm { A }$ 。则某篇论文的作者数 $\\mathrm { n _ { k } }$ ：",
+    "context15": "$$\nn _ { k } = \\sum _ { i = 1 } ^ { N } a _ { i k }\n$$",
+    "context16": "其中， $a _ { i k }$ 是作者－论文共现矩阵 $A$ 中的元素,取值范围是0或 $^ { 1 , k }$ 表示第 $k$ 篇论文。则一般情况下也就是full counts下求解作者合作矩阵 $U$ 为：",
+    "context17": "$$\nU = A A ^ { T }\n$$",
+    "context18": "作者合作矩阵 $U$ 中的元素 $u _ { i j }$ 为：",
+    "context19": "$$\nu _ { i j } = \\sum _ { k = 1 } ^ { M } a _ { i k } a _ { j k }\n$$",
+    "context20": "其中 $\\mathbf { \\nabla } _ { \\mathbf { \\rho } } \\cdot \\boldsymbol { a } _ { i k } \\setminus \\boldsymbol { a } _ { j k }$ 是作者－论文共现矩阵 $A$ 中的元素，取值范围是0或 $1 , k$ 表示第 $k$ 篇论文。",
+    "context21": "而在fractionalcounts及其衍生方法的情况下作者合作矩阵 $U$ 中的元素 $\\textit { u } _ { i j } ^ { \\prime }$ 有以下几种求解形式：",
+    "context22": "(1)基于单篇论文中产生的作者共现关系数量求解：",
+    "context23": "$$\nu { ' } _ { i j } = \\sum _ { k = 1 } ^ { M } { \\frac { a _ { i k } a _ { j k } ^ { * } 2 } { n _ { k } \\big ( n _ { k } - 1 \\big ) } }\n$$",
+    "context24": "其中， ${ \\bf \\nabla } _ { n _ { k } }$ 表示第 $k$ 篇论文的作者数， $a _ { i k } \\setminus a _ { j k }$ 是作者-论文共现矩阵 $A$ 中的元素,取值范围是0或1。",
+    "context25": "该方法在构建作者合作矩阵 $U$ 时,各元素被赋予了 $\\cdot 2 / n _ { k } ( n _ { k } - 1 )$ 的权重，该权重实际记为 $1 / C _ { n _ { i } } ^ { 2 }$ ， $C _ { n _ { k } } ^ { 2 }$ 表示论文 $k$ 中所有作者间产生的共现关系数量。",
+    "context26": "(2)基于单篇论文中任意某作者与其他作者产生的共现关系数量求解：",
+    "context27": "$$\n \\boldsymbol { u ^ { \\prime } } _ { i j } = \\sum _ { k = 1 } ^ { M } \\frac { \\boldsymbol { a } _ { i k } \\boldsymbol { a } _ { j k } } { \\boldsymbol { n } _ { k } - 1 }\n$$",
+    "context28": "其中 ${ \\bf \\nabla } _ { \\bf \\mu } n _ { \\left. \\frac { 1 } { 2 } \\right| }$ 表示第 $k$ 篇论文的作者数， ${ \\mathbf { \\nabla } } a _ { i k } \\setminus a _ { j k }$ 是作者-论文共现矩阵 $A$ 中的元素,取值范围是0或1。",
+    "context29": "该方法在构建作者合作矩阵U时，各元素被赋予$\\ 7 1 / \\big ( n _ { k } - 1 \\big )$ 的权重,其中 $n _ { k } - 1$ 就表示论文 $k$ 中任意一位作者与论文中其他几位作者产生的共现关系数量。"
+  },
+  "(3)基于作者－论文共现矩阵按作者数量分数化 求解:": {
+    "context1": "$$\nu { ' } _ { i j } = \\sum _ { k = 1 } ^ { M } \\frac { a _ { i k } a _ { j k } } { n _ { k } ^ { 2 } }\n$$",
+    "context2": "其中 ${ \\mathsf { s } } n _ { k }$ 表示第 $k$ 篇论文的作者数， $a _ { i k } \\setminus a _ { j k }$ 是作者-论文共现矩阵 $A$ 中的元素,取值范围是0或1。",
+    "context3": "该方法意味着在最开始构建作者－论文共现矩阵A时就基于单篇论文的作者数量为作者与论文的共现关系赋予 $1 / n _ { k }$ 的权重。",
+    "context4": "(4)基于单篇论文作者数量求解:",
+    "context5": "$$\n\\boldsymbol { u ^ { \\prime } } _ { i j } = \\sum _ { k = 1 } ^ { M } \\frac { \\boldsymbol { a } _ { i k } \\boldsymbol { a } _ { j k } } { \\boldsymbol { n } _ { k } }\n$$",
+    "context6": "其中 ${ \\bf \\nabla } _ { \\bf { \\mu } } n _ { \\frac { 1 } { k } }$ 表示第 $k$ 篇论文的作者数， $a _ { i k } \\setminus a _ { j k }$ 是作者-论文共现矩阵 $A$ 中的元素。"
+  },
+  "4思考与讨论": {
+    "context1": "本文首先引入或提出了计数单元、信誉值、信誉值分配函数和计数对象等与计数方法相关的概念，有助于从本质上认清各类计数方法的差异。其次设计构建了计数方法的分类体系，帮助研究人员从整体的视角考察不同类型计数方法的共性与个性。在梳理计数方法应用研究中，本文甄别计数单元和计数对象的不同，思考了不同层次的计数单元对计算结果影响，旨在激发科学计量界对该问题的关注。此外,本文还介绍了计数方法在引文计算、网络指标计算时的规则和应用效果等，旨在为研究人员进行定量评价活动提供参考和依据。",
+    "context2": "在本文的研究过程中,笔者发现以下若干问题值得关注或在未来的计数方法分析中可以进一步开展研究:"
+  },
+  "4.1全计数与分数计数的优劣问题": {
+    "context1": "计数方法的研究始于20世纪80年代,近年来随着科学计量数据分析环境的变化，成为科学计量领域广受关注的研究问题。关于各类计数方法的优劣也时常引发争议。其实,不同的计数方法其特点和适用性各不相同,适用的科研评价场景也不同。各类计数方法都有其使用的前提和假设,方法本身没有绝对的优劣之分，只是针对不同的分析场景其适用程度不同。此外,大多数研究中选择fullcounts,在一定程度上受限于数据环境客观条件。在使用计数方法时，应注意分析目标和前提,选择合适的计数方法，避免条件误判和方法误选。"
+  },
+  "4.2计数单元与计数对象的一致性问题": {
+    "context1": "本研究定义了计数单元和计数对象，并用案例揭示了两者的区别和联系，比较了不同的计数单元对于相同计数对象信誉值计算的影响。这是以前的研究中没有提及和注意的空白之处。",
+    "context2": "通过分析本文案例计算结果，笔者观察到当计数单元的粒度从粗至细,即从国家、机构、作者依次变化时,计数对象的信誉值差异越显著。理论上讲,计数单元的粒度越细，越能全面反映计数对象的实际贡献，信誉值分配越精确。这方面的实证研究也有待于未来大样本量实例的验证。"
+  },
+  "4.3信誉值分配规则合理性的问题": {
+    "context1": "本章首先讨论了全计数和分数法优劣的问题，聚焦于两类方法的适用性。如果对两类方法的优势的比较追溯本源，就是信誉值分配规则的合理性之争。",
+    "context2": "作为计数方法的核心，信誉值分配函数的设计思路主要考虑了两个要素：贡献分割还是贡献汇总，计数单元的贡献等权还是不等权。这两个要素的定义从不同的思路出发,均存在合理性。例如对作者权重的测度,在某些学科(例如高能物理领域、数学领域)，作者排序完全依据作者姓名的字序，无法甄别作者的贡献差异。此外,通讯作者对于研究工作的贡献自然不言而喻，但如何量化贡献的份额？如果没有合理的量化依据，等权可能是无奈中最好的选择。"
+  },
+  "4.4影响网络测度指标结果的问题": {
+    "context1": "在计数方法与科学计量网络研究中,部分学者发现fractional counts比 full counts更容易识别合作网络的簇群，在耦合网络中判定核心节点的准确度也更高。但目前 fractional counts与 full counts 在该问题上的差异暂时无法量化比较,该问题类似于社会网络可视化工具中的布局算法识别簇群的能力比较,需要进一步探寻定量方法测度计数方法对网络分析的影响。",
+    "context2": "致谢感谢中国科学院文献情报中心科学计量中心成员岳婷、陈福佑、翟琰琦、童嗣超、史双青，以及博士生导师刘细文对本文的构思和修改提出宝贵建议，同时对本文进行评审并提出宝贵意见的各位专家表示衷心的感谢！"
+  },
+  "参考文献:": {
+    "context1": "[1]WUCHTY S,JONES B F,UZZI B.The increasing dominance of teams in production of knowledge [J]．Science，2007，316 (5827):1036-1039.   \n[2] AAD G，ABBOTT B，ABDALLAH J,et al. Combined measurement of the Higgs Boson Mass in pp Collisions at sqrt $\\boxed { \\begin{array} { r l } \\end{array} } = 7$ and 8   \n■ TeV with the ATLASand CMS Experiments []．Physical review letters,2015,114(19):1362-1367.   \n[3] GAUFFRIAU M,LarsenPO,MayeI,et al.Publication,cooperation and productivity measures in scientific research $\\mathbb { I }$ .Scientometrics,2007,73(2):175-214.   \n[4]LINDSEY D.Production and citation measures in the sociology of science: the problem of multiple authorship [l．Social studies of science,1980,10(2):145-162.   \n[5]PRICE D D S.Multiple authorship []．Science，1981，212 (4498):986-986.   \n[6] COLE JR,COLE S,BEAVER D D. Social stratification in sciencell．American journal of sociology，1977,42（83):923 - 924.   \n[7]WALTMAN L,ECK N JV.Field-normalized citation impact ndicators and the choice of an appropriatecounting method.Journal of informetrics,2015,9(4) :872 -894.   \n[8]HOOYDONK G V.Fractional counting of multiauthored publications:consequences for the impact of authors $\\mathbb { I }$ . Journal of the American Society for Information Science，1997，48（10): 944- 945.   \n[9]EGGHE L，ROUSSEAU R，HOOYDONK G V. Methods for accrediting publications to authors or countries:consequences for evaluation studies $\\mathbb { I }$ ．Journal of the American Society for Information Science, $2 0 0 0 , 5 1 \\AA 2 ) : 1 4 5 - 1 5 7 .$   \n[0]HAGEN N T. Harmonic allocation of authorship credit: source-level correction of bibliometric bias assures accurate publication and citation analysis $\\mathbb { I }$ .Plos one,2007,3(12):4021-4021.   \n[1]LUKOVITS I，VINKLER P.Correct credit distribution:a model for sharing credit among coauthors $\\mathbb { I }$ ．Social indicators research, 1995,36(1) :91 -98.   \n[12] VINKLER P.Research contribution，authorshipand teamcooperativeness [．Scientometrics,1993,26(1) :213-230.   \n[13] TRUEBA FJ,GUERRERO H.A robust formula to credit authors for their publications []．Scientometrics，2004，60(2)：181- 204.   \n[14]LEYDESDORFF L. Problems with the‘measurement’of national scientific performance []．Science and public policy，1988，15 (3):149 -152.   \n[15]BRAUN T,GLANZEL W，SCHUBERT A. Assessing assessments of British science.Some facts and figures to accept or decline $\\mathbb { I }$ Scientometrics,1989,15(3) :165-170.   \n[6]MARTIN B R.The bibliometric assessment of UK scientfic performance a reply to Braun,Glänzel and Schubert $\\mathbb { I }$ .Scientometrics,1991,20(2) :333 -357.   \n[17] GAUFFRIAU M,LARSEN PO.Diferent outcomesof different counting methods for publications and citations $\\mathbb { C }$ //The international society for scientometrics and informatrics.Proceedings of ISSI 2005:International conference of the international society for scientometrics and informetrics.Sweden: ISSI,2005:242 -246.   \n[18] GAUFFRIAU M,LARSEN PO,MayeI, et al. Comparisons of re sults of publication counting using different methods $[ [ ]$ .Scientometrics,2008,77(1) :147 -176.   \n[19]MOED HF.Citation analysis in research evaluation $\\mathbb { I }$ . Information science & knowledge management,2005,57(1) :61-63.   \n[0]PRITYCHENKO B.Fractional authorship in nuclear physics [. Scientometrics,2016,106(1) :1-8.   \n[1] PLUME A,WEIJEN D.Publish or perish?The rise of thefractional author[M/OL]．[2016－10-16].https://www.researchtrends.com/issue-38-september-2014/publish-or-perish-therise-of-the-fractional-author.htm.   \n[2] CHUDLARSKY T,DVORAK J,SOUCEK M. A comparison of research output counting methods using anational CRIS -efects at the institutional level []．Procedia computer science，2014，33 (1) :147 -152.   \n[3] NARIN F,STEVENS K,WHITLOW E S. Scientific co-operation in Europe and the citation of multinationally authored papers [. Scientometrics，1991,21(3) :320-323.   \n[4l GLANZEL W. National characteristics in international scientific co -authorship relations $\\mathbb { I }$ .Scientometrics,2001,51(1):69 -115.   \n[5] RINIA E J,LANGE C D,MOED HF. Measuring national output in physics:delimitation problems []．Scientometrics，1993，28 (1) :89 -110.   \n[6] HUANG M H,LIN C S,CHEN D Z. Counting methods，country rank changes，and counting inflation in the assessment of national research productivity and impact $\\mathbb { I }$ ．Journal of the Association for Information Science and Technology，2011，62（12): 2427 - 2436.   \n[7]LIN C S,HUANG M H, CHEN D Z. The influences of counting methods on university rankings based on paper count and citation count $\\mathbb { I }$ ．Journal of informetrics,2013,7(7):611-621.   \n8]SCHREIBER M.The influence of self-citation correctionson Egghe's $\\mathbf { g }$ index $\\mathbb { I }$ ．Scientometrics,2007,76(1) :187 -200.   \n[9] EGGHE L.Mathematical theory of the h-and $\\mathbf { g }$ -index in case of fractional counting of authorship $\\mathbb { I }$ .Journal of the American Society for Information Science & Technology,2008,59(10):1608- 1616.   \nB0] AKSNES D W, SCHNEIDER J W,GUNNARSSON M. Ranking national research systems by citation indicators.A comparative analysis using whole and fractionalized counting methods $[ [ ]$ .Journal of informetrics,2012,6(1):36-43.   \nB1] MOYA-ANEGON F,GUERRERO-BOTE V P,Bornmann L，et al.The research guarantors of scientific papers and the output counting: a promising new approach [．Scientometrics，2013, 97(2): 421-434.   \nβ2]WALTMANL,ECK N JV,LEEUWEN TNV,et al. Towards a new crown indicator: some theoretical considerations []．Journal of informetrics,2011,5(1):37 -47.   \nB3] WALTMAN L,CALERO-MEDINA C,KOSTEN J,et al. The Leiden ranking 2011/2012:data collection，indicators，and interpretation $\\mathbb { I }$ ．Journal of the American Society for Information Science & Technology，2012,63(12):2419-2432.   \nB4]WALTMAN L,SCHREIBER M.On the calculation of percentilebased bibliometric indicators [l．Journal of the American Society forInformation Science & Technology，2014,64(2):372-379.   \nB5]PERIANES-RODRIGUEZ A，RUIZ-CASTILLO J. Multiplicative versus，fractional counting methods for co-authored publications. The case of the 5OO universities in the Leiden Ranking $\\mathbb { I }$ . Journal of informetrics,2015,9(4) :974-989.   \nB6l ABBAS A M.Weighted indices for evaluating the quality of research with multiple authorship [I]．Scientometrics，2010，88 (1):107-131.   \nβ7]FOSTER J，THORBECKE E.A class of decomposable poverty measures [．Econometrica，1984,52(3):761-66.   \nB8]ECK NJV,WALTMANL,DEKKER R,et al. A comparison of two techniques for bibliometric mapping:multidimensional scaling and VOS []．Journal of the Association for Information Science and Technology，2010,61(12):2405-2416.   \nB9]ECK N JV，WALTMAN L. Software survey:VOSviewer，a computer program for bibliometric mapping [l．Scientometrics,2010, 84(2) :523 -538.   \n[40]PERIANES-RODRIGUEZ A，WALTMAN L，ECK N JV.Constructing bibliometric networks:a comparison between full and fractional counting []．Journal of informetrics，2O16，10(4): 1178-1195.   \n[1]HAN W P,YOON J,LEYDESDORFF L. The normalization of co -authorship networks in the bibliometric evaluation: the government stimulation programs of China and Korea [J]．Scientometrics， 2016，109(2):1017 -1036.   \n[42] LEYDESDORFF L,HAN W P.Fulland fractional counting in bibliometric networks [．Journal of informetrics,2016,11(1) :117 -120."
+  },
+  "作者贡献说明：": {
+    "context1": "陈莉玥:提出论文研究框架,进行文献调研和理论研究,撰写论文；  \n杨立英:提出研究问题,修改研究框架及论文;  \n丁洁兰：修改研究框架及论文。"
+  },
+  "Review on Full Counting Method and Fractional Counting Method in Scientometric Research": {
+    "context1": "Chen Liyue1,2Yang Liying1Ding Jielan1,2",
+    "context2": "1 National Science Library,Chinese Academy of Sciences，Beijing 100190",
+    "context3": "² University of Chinese Academy of Sciences，Beijing 100049",
+    "context4": "Abstract:Purpose/significance] This paper systematically defines the related concepts of counting methods and establishes thecounting methods clasification.Then,itconcludes thecharacteristicsanddiferencesofcounting methods， analyzes the existing problems and proposes some sugestions for the future improvement and selection of counting methods.Method/proces Firstly，the paper generalized the elements and the process of counting methods，proposed two clasified factors ofcounting methods from the perspectiveof credit allcation,includingfullcountsandfractional counts， andthen，we summarized thetwo methods.Secondly，thepaper took fullcountsand factionalcounts asanexample to compare the differences between two types of methods from threeperspectives included publication indicators，citation indicatorsand network indicators．Result/conclusion]Finally，we developabrief description of existing problems，which includetheadvantagesanddisadvantages offullcountsand fractional counts，theconsistencybetween the basicunitand count object，therationalityof credit alocation and measurementof network impact.Besides，we pointoutthe further research space of the above problems.",
+    "context5": "Keywords: counting methodsfull counting method fractional counting method"
+  }
+}

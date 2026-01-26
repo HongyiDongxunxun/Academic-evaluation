@@ -1,0 +1,78 @@
+{
+  "original_filename": "full_2196.md",
+  "nothing": {
+    "context1": "$\\bullet$ 刘振（徐州工程学院管理学院，江苏徐州221008；中国科学院文献情报中心信息系统部，北京100190；中国科学院大学，北京100049)"
+  },
+  "关联数据的访问控制技术进展研究\\*": {
+    "context1": "摘要：访问控制是关联数据环境下保护敏感数据的重要技术，文章概述了访问控制策略和常用的策略语言，重点阐述分布式云平台授权、标注RDF、令牌和本体4种访问控制的改进方法。另外还介绍了在传统的访问控制模型的基础上的基于语义访问控制模型、基于关系的访问控制模型等改进模型，分析了Lockr，MyPrivacyManager，RAW等典型的应用系统的组成和功能特点，最后讨论了衡量访问控制的一些标准。",
+    "context2": "关键词：关联数据；访问控制；策略；研究进展",
+    "context3": "Abstract:Accesscontrol isanimportanttechnologytoprotectsensitivedata intheenvironmentof linkeddata.Thispaper summarizes theacesscontrol policyandcommonpolicylanguage，andfocuseson4acess controlmethods toimprove theanotation，whicharedistributed cloud platform，annotatedRDF，tokenandontology.Furthermore，thepaper introducessuchimproved modelsassemantic-basedaccesscontrolmodelandrelationship-basedacescontrol，whicharebasedonthetraditionalaesscon trolmodel.Thepaperalsoanalyzesthecompositionandfunctionof typicalaplicationsystem，suchasLockr，MyPrivacyManager and RAW.Finally，the paper discusses some standards to measure the access control.",
+    "context4": "Keywords: linked data; access control; strategy； research progress",
+    "context5": "关联数据使不同的数据资源之间建立链接，把这些资源联成一个单一的全局数据空间，它提供了一个开放的环境，所有的数据可以自由访问，使人们可以访问分布在网络上不同位置的其他用户的数据，也尽可能减少了数据的冗余。作为关联数据的基石，RDF由于其表现力、语义互操作性和重用等各个方面的优越特性，是适合数据交换和集成的互操作数据表示格式。在这样的开放数据环境下，安全管理是大规模网络的首要问题，数据的保护引起了广泛关注，关联数据基础设施目前还缺乏细粒度的设置隐私保护的机制，RDF没有任何防止信息泄露的机制，不能提供任何安全措施保护共享的数据。尽管Web AccessControl（WAC）词汇允许用户创建访问控制表定义访问这些数据的用户的访问权限（读写、更新等），可以限制RDF文档给特定的用户访问，但只能用来定义访问整个RDF文档的控制属性，而不是RDF文档内部保护的具体数据，缺乏细粒度的控制，不能设置复杂的限制来访问数据，没有细粒度的授权给特定的RDF数据，例如限制在一些命名图上。这些都限制了人们在LOD云上发布敏感的数据，例如不敢发布FOAF文件中用户的个人信息。",
+    "context6": "敏感的数字资源如何进行开放，向哪些人开放以及开放的程度，这都是访问控制在关联数据环境下面临的巨大挑战。访问控制是一种机制，允许资源的所有者定义、管理和实施应用在每一个资源上的访问条件，涉及到认证、授权和审计等内容。近年来很多学者开始关注这一问题，并且开展了一定的相关研究。"
+  },
+  "1访问控制策略和策略语言": "",
+  "1.1策略和策略语言": {
+    "context1": "策略即访问规则，指定谁允许在哪个对象进行什么操作，依赖于请求者的属性和对象，以及操作参数和环境因素例如时间等，在关联数据环境下用来保护安全和隐私。一个应用保护服务和敏感数据的合适策略决定一个新的服务的成败。这些允许和禁止操作被规范化为一条访问控制表，表示为 $< \\mathrm { S }$ ，R， $\\mathrm { A R } >$ ，其中S代表主体，R代表资源，一个资源表示被保护的信息（例如数据库记录、应用对象或URIs）AR表示访问资源。如图1所示，主体是用户表示访问资源的个人。组是具有共同属性的用户或角色集合。角色是用来给个人用户或组分配权限。",
+    "context2": "用户发布数据时候，可以为他们建立的每一个数据集定义一个访问策略。访问策略还要进行周期性的测评和验证，确保安全策略得以正确的表达和实施。关联数据目前还欠缺支持细化的访问策略的访问控制机制。基于语义关系的策略推理具有很大的挑战，例如对一个资源概念“论文”定义一个允许规则，应该传递到概念“论文”包含的资源概念，例如“期刊论文”和会议论文。考虑到主体、客体和行为的语义关系影响，策略的传递是一个复杂的问题。",
+    "context3": "![](images/e8b333348cbfc4641705efa3faa5a4d31e0505ce893e74447cd40d8317b38f0c.jpg)  \n图1访问控制语句的组成",
+    "context4": "策略语言是专门用来表达用户的隐私需求，目前常用的策略语言有KAos、Ponder、Rei、Protune、$\\mathrm { P s S F } ^ { \\mathbb { 8 } }$ 等，这些语言都是基于逻辑形式化，因此具有定义良好的语义，允许用他们自身的格式，使用语义网络语言定义策略。KAoS策略支持行为者、操作和其他策略的关系，拥有良好的图形界面工具，提供了灵活的策略更新及对策略的可确定性进行判断的能力，但这些策略没有考虑这些实体之间的语义关系，缺乏对访问控制模型进行整体支持的能力。Rei是基于本体的策略语言，允许基于语义关系的策略传递和推理，支持灵活的和丰富表现的策略，可扩展性良好，实现了更灵活的授权描述与管理方式。但在处理策略冲突检测与消解方式上显得较为单一，同时缺乏图形操作界面的支持，从而大大影响了使用的范围。KAoS和Rei都具有冲突协调的能力。Protune是基于规则的语言，具有解释的能力。PsSF（Prolog-style SWRL For-mat），在语义网数据的通用规则语言SWRL的基础上增加了定制的谓词进行数据分类，每个规则包括一个标签，一个规则前件描述规则满足的条件以及后件。前件和后件都包含逻辑与条件连接的谓词集合，支持用于数据分类的3个谓词。"
+  },
+  "1.2冲突检测": {
+    "context1": "关联数据环境会产生大量的用户和资源，需要创建大量的权限，这些众多的访问控制策略可能会涉及到同一个主体、客体和权限，从而产生冲突，造成不一致现象。例如，对同一个资源的某一个操作，同时出现允许和禁止授权里。冲突主要分为形式冲突和语义冲突两种。冲突检测可以对策略声明进行静态的语法分析来发现冲突，也可以在系统运行期间对系统所有可能出现的状态进行动态分析冲突。一般冲突解决策略可以采用“具体策略优先，拒绝策略优先”的原则。当维护和修改一个复杂的策略，很难识别和预见策略的改变带来的影响和副作用。Neri等采用一个推理器，能够自动化进行冲突识别，对于规则和本体进行检测，检查出授权存在的不一致的问题。"
+  },
+  "2访问控制的改进途径": "",
+  "2.1分布式云平台授权": {
+    "context1": "在以前Web系统中，敏感信息的控制分布，需要集中式系统，控制对这些信息的访问，这些系统支持安全数据存储，数据访问策略和用户认证。传统的授权系统依赖于一个集中式的授权中心，所有用户在一个中心网站存储，用户在这个网站配置个人设置，如自己的电话号码只对某个群体用户可见。但是系统操作员通常可以访问所有的信息。如果一个恶意用户突破访问控制，存储的其他用户的信息也会暴露，每个用户的隐私面临威胁。而且在分散的、多中心的关联数据环境下，请求者和服务提供者通常相互不认识，基于身份的访问控制机制不能继续发挥作用。分布式Web应用程序复杂的访问控制策略，在发布关联数据内容的时候，指定哪些用户可以访问。分布式授权主要有两种方法 $\\mathrm { { O p e n I D } ^ { [ i ] } }$ 和 $\\mathrm { F O A F + S S L ^ { \\mathrm { \\scriptsize ~ [ i i ] } } }$ ，OpenID简单的提供了一个分布式ID，并不一定有数据关联上面，$\\mathrm { F O A F + S S L }$ 有着一个显著的优势就是直接关联到用户的FOAF上。",
+    "context2": "$\\mathrm { F O A F + S S L }$ 的基本工作过程是，用户的公开密钥存储在一个证书和一个Web 服务器上的远程RDF文件，这个证书在创建时候包含了远程RDF文件的URI地址，在证书的主体别名字段。一个用户发送一个 $\\mathrm { F O A F + S S L }$ 证书给一个服务器，服务器识别远程URI，从这个URI下载公开密钥，跟用户证书的公开密钥进行比较，如果匹配，用户被授权成证书里描述的关联（公开密钥，远程URI)对的实体。根据自签名的证书，提供了基于信任的用户网络，并没有依赖于一个集中式授权中心，适合语义网环境，很多系统都使用了该技术方法。"
+  },
+  "2.2基于标注RDF的方法": {
+    "context1": "RDF虽然无缝集成各种数据源，但由于欠缺安全的属性，在分享的同时，不能有效地管理敏感的RDF数据，导致了隐私侵犯。即使使用RDB2RDF抽取数据和访问控制信息，RDF没有一个机制在RDF上实施已经存在的访问控制策略。为了实现安全的分享，可以对RDF数据模型进行扩展，提供上下文信息。标注RDF提供了一个向后兼容的模型[，给每一个RDF三元组附加一个特定领域的元数据信息，访问权限以标注附加到单个的RDF三元组上。采用一个自上而下的方法，基于语义关系的策略实施和RDF数据结构对访问控制进行建模，这样就可以在RDF上抽取、建模和实现已经存在的访问控制机制。该方法主要局限在原子级RDF文件，目前还没能扩展访问控制到数据模型层次。"
+  },
+  "2.3基于令牌的访问控制": {
+    "context1": "该方法充分考虑到了业务需要和安全级别，不是直接赋予用户或者行为者访问权限，而是产生了特定访问级别的令牌（Access Token），使访问控制不仅仅局限在用户的级别，还应用在主体、客体和谓词的级别，更加细化。在基于令牌的访问控制系统里，拥有令牌的行为者能够查看这个令牌允许的数据。给一个行为者授权一个或多个访问令牌，组成令牌访问表（Access TokenList），里面可以包含每一个访问令牌被授权的时间戳。系统管理员每次添加一个访问令牌，AT和时间戳首先暂存在一个临时变量，在提交更新时候，系统必须检查这个新的令牌访问表的潜在的冲突。访问令牌元组采用 $<$ 访问令牌，元素，元素类型，元素名称 $>$ 的形式，其中元素表示主体，客体或者谓词，元素类型可以描述为URI，数据类型，模型，空节点等，如果用正整数来表示访问令牌，如张某是一个客体，$< 1$ ，客体，URI，张某 $>$ ，任何行为者拥有了令牌1，就可以浏览所有文件中张某的信息。该方法的优点之一就是如果多个用户的需求和安全要求相同，可以重用。A.Khaled等提出了在云平台上基于令牌访问的方法[，建立谓词数据、谓词和客体、谓词和主体、主体、客体、客体模型等6种访问级别，分别设置访问控制策略，实施策略按照3个层次完成，分别是查询重写、嵌入实施和后处理实施。针对两个冲突的访问令牌分配给同一个行为者的情况，他还设计一个基于时间戳的冲突检测和解决算法。该方法适用于海量RDF数据存储在云计算机上的场合，具有超大数据集的伸缩性。"
+  },
+  "2.4基于本体的访问控制": {
+    "context1": "基于本体的方法，是通过基于实体之间语义关系的推理过程，自动化地对授权或者拒绝一个访问请求的进行决策。预先定义的访问权限存储在授权库里，以授权规则的形式，对进来的访问，基于请求授权和授权库里的显性授权规则之间的语义关系进行推理，从显性的授权规则可以推理出隐性的授权规则。",
+    "context2": "Sacco 等[4提出了隐私偏好本体 PPO（Privacy Prefer-ence Ontology），建立在WAC基础上，一个轻量级的，在RDF文件上细化的访问控制策略。一个请求者必须满足一些属性，才能访问。也使用 SPARQL ASK定义访问查询。PPO提供PrivacyPreference类定义隐私偏好，该核心类的属性包括 appliesToResource、appliesToStatement、ap-pliesToNamedGraph等限制（语句，资源或者图)、被授权"
+  },
+  "哪些访问权限以及创建隐私偏好的条件。例如，限制电话号码只能被A公司的人访问，表示如下：": {
+    "context1": "<http :// www. example.org/ppl >   \na ppo:PrivacyPreference ；   \nppo: hasCondition [ ppo: hasProperty foaf :phone ]；   \nppo: hasAccess acl: Read;   \nppo: hasAccessSpace [ ppo: hasAccessQuery \"ASK{ ？ $\\mathbf { X }$ foaf : workplaceHomepage <A公司链接>}\" ]",
+    "context2": "PPO的缺点是没有考虑隐私选项设置的时间检验和对一个命名图的访问次数，完全依赖WAC词汇，没有区别考虑各种不同的写操作。不能允许定义标签集限制策略的使用对有标签的命名图的访问，也不能定义连接和转折集。",
+    "context3": "Social Semantic SPARQL Security for Access Control vo-cabulary（S4AC）是个轻量级本体，见图2，它重用了SIOC，SCOT，NiceTag，WAC，TIME的概念，在现有本体的基础上，如FOAF、都柏林核心、RELATIONSHIPS，主要的类是AccessCondition，是Condition的一个子类，允许或限制对数据的访问。S4AC的核心是访问条件，也就是为了对一个命名图授权访问而定义需要满足条件的SPARQL1.1.ASK语句。它在命名图上定义各种细粒度的访问策略，这些策略涉及需要访问数据的用户的社交方面。如跟数据提供者的社交关系，群体成员，具有特定的标签，上下文信息，进行访问的时间间隔，访问命名图的最大次数。访问控制策略的语义基于SPARQL1.1ASK查询，依赖于SPARQL语义，允许用户提交任意查询，同时在返回的结果上执行细粒度化的访问规则。另外，信息提供者能够基于标签定义访问条件，限制条件一些具有一定的标签的命名图。访问条件是与时间检验相关的。这个方法的核心特点是只依赖于语义网语言，即SPARQL1.1的查询、更新语言和约束条件。因此，访问控制模型具有平台独立性，能够被使用其他语言的任何系统所使用。访问控制策略的基础是SPARQL1.1 ASK查询，在查询关联数据时候执行。访问控制管理器（ACM）一旦接受用户的请求，访问控制策略选择器（ACPS）则根据被请求的操作选择采用什么的策略，主要处理两种操作： $\\textcircled{1}$ 检测S4AC本体，识别出应用的访问条件。 $\\textcircled{2}$ 检测是否有上下",
+    "context4": "用N3规则表示约束。只提供了 SoD-Satisfiability服务，支持基于属性的访问控制。",
+    "context5": "![](images/2556896965e6e296dc485251be652e451c78c15cce7b832e2866e100451d0617.jpg)  \n图2S4AC本体",
+    "context6": "Javanmardi等[的基于语义访问控制模型 SBAC（Seman-tic-Based Access Con-",
+    "context7": "文信息，如果上下文限制则不满足。该方法的一个缺陷是无法进行授权。"
+  },
+  "3整体框架和实现": "",
+  "3.1访问控制模型": {
+    "context1": "访问控制模型是定义限制访问数据的授权的蓝图，在策略和实际系统之间建立了沟通桥梁，为如何限制访问系统资源和数据提供了指导。传统意义上的主要的控制访问模型有自主性访问控制DAC（Discretionary Access Control）、强制性访问控制MAC（Mandatory Access Control）和基于角色访问控制RBAC（Role Based Access Control）。这些传统模型只能处理授权决策一个主体对一个目标资源的访问，主体和客体必须静态和显性地确定好。这些方法没有考虑到基础数据的丰富语义，基于孤立的实体的决策，忽略了实体之间的语义关联，会导致意外的数据访问、不完整的授权以及底层语义模型的不一致状态等问题。这些只利用孤立的明确的实体的方法，已经不能适合关联数据的环境，对于动态语义网络来讲，新数据不断被不同的授权进行添加。一些学者基于社交标签和概念信",
+    "context2": "息，对这些上述模型进行改进，提出了针对关联数据的访问控制的细粒度模型，提供给用户一定的手段来定义限制访问特定的RDF数据的策略。",
+    "context3": "Finin等使用OWL规范和改进基于角色访问控制模型，提出了两个方法： $\\textcircled{1}$ 使用OWL表示角色。$\\textcircled{2}$ 表示角色为值。利用owl:disjointWith属性加强 SoD限制。在第二种方法时候，利",
+    "context4": "trol）使用本体对访问控制进行建模，在一个本体的不同层次和访问控制的不同领域上考虑语义关系进行推理，在对一个访问请求进行决策。它基于OWL，确定了3个层次：概念层、实例层和属性层，语义授权流程可以发生任何一个层，或者层间。SBAC包括3个基本组件：本体库、授权库和操作。本体库里包括主体本体、客体本体和行为本体，分别对应了3个域：主体SO、客体OO 和行为AO。授权库存放着一系列的授权规则，以 $( { \\mathrm { ~ s ~ } } , { \\mathrm { ~ o ~ } } , { \\mathrm { ~ \\pm ~ a } } )$ 的形式，其中s是SO里的实体， $\\mathbf { o }$ 是OO里的实体，a代表AO里的操作。",
+    "context5": "Fong提出了基于关系的访问控制模型 ReBAC（Re-lationship-BasedAccess Control），模型的核心思想是使用社交网络作为授权决策的基础，抓住了关系依赖上下文的本质，根据资源所有者和资源访问者在社交网络中的关系，在上下文环境下对访问进行授权。"
+  },
+  "3.2应用系统": {
+    "context1": "目前，关联数据的访问控制问题的研究和实践已经取得了一定的成果，其中典型的应用系统有Lockr[9、MyP-rivacyManagerd、RAW等，这些系统已经从理论研究",
+    "context2": "![](images/b1e87d2652b50b73b5b8bfa4bd29751316869134eac6225b70ca54fd5ddb65a7.jpg)  \n图3MyPrivacyManager架构",
+    "context3": "![](images/11feaa44153250b5aaadcb49477b09ddb17f478e7770e2db06f398ef6fce2dbe.jpg)  \n图4RAW程序的架构",
+    "context4": "没有明确授权，访问将被拒绝。如果被授权以后，下一步还有评估一致性。系统实施一致性策略，为修改底层的语义网络的删除或修改操作。如果一致性检查通过，请求的操作才能允许，否则拒绝。最后一步是验证检查，这"
+  },
+  "发展到实际的应用阶段。": {
+    "context1": "MyPrivacyManager是社交语义网上的一个Web应用程序，限制对社交网上的结构化数据的访问，如使用FOAF定义的个人信息，也很容易推广应用到WebofData上的其他结构化数据，见图 $3 ^ { [ 2 0 ] }$ 。当请求信息时候，从FOAF文件中过滤掉个人信息。供用户管理自己的隐私设置，授权或者拒绝对用户信息的访问。主要包括： $\\textcircled{1}$ WebID认证组件：使用 $\\mathrm { F O A F + S S L }$ 处理用户登录。 $\\textcircled{2}$ 结构化数据检索器和解析器：用来检索、解析、查询从WebIDURIs来的结构化数据，如FOAF文件。 $\\textcircled{3}$ 隐私偏好创建器：定义隐私设置。 $\\textcircled{4}$ 隐私偏好实施器：查询RDF数据存储，实现隐私设置。 $\\textcircled{5}$ 用户界面：给用户提供环境创建隐私偏好浏览其他用户的被过滤的FOAF文件。 $\\textcircled{6}$ RDF数据存储：用来存储隐私偏好。",
+    "context2": "RAW是一个基于分布式语义网络的应用程序，用户可以限制他们所控制的资源的可见性，RAW可以访问语义对象、文件或远程执行的应用程序，访问策略是根据资源的语义关系进行确定，所有用户的访问请求都要转发给访问控制模块，来决定给用户显示语义网的哪一部分内容。主要有两部分：访问控制框架和用户接口界面，见图4。",
+    "context3": "访问控制框架的主要组件有： $\\textcircled{1}$ 策略：该系统主要支持两种策略。主体级策略：跟用户或组相关，定义用户相关的限制，如只读用户，授权限制等。客体级策略：与资源相关。显性策略通过用户接口界面建立，并直接附加到一个实体上（资源、用户、组等）。 $\\textcircled{2}$ 策略检索引擎：收集相关明确的客体级和主体级的策略。 $\\textcircled{3}$ 策略评估引擎:评估每一个策略。 $\\textcircled{4}$ 访问控制模块：首先收集和评估跟用户相关的主体级的策略，主体级策略具有最高权限，首先被评估。如果使用这些主体策略，系统没有作出明确的允许或拒绝决策，再去检索和评估相关的客体级策略。在策略评估过程中，系统检索和应用用户/组成员身份，如果是一个后台过程，根据一系列规则评估存储状态，并且产生规则触发引起的错误和警告报告。",
+    "context4": "用户界面包括“RAW权限检查”和“RAW策略编辑器。“RAW权限检查”能够说明用户自己有什么权限，这个组成员有哪些？用户属于哪个组？基于请求者的权限过滤查询的结果，请求者没有授权看到的对象/用户/组不会出现。"
+  },
+  "4访问控制机制的衡量标准": {
+    "context1": "在关联数据的复杂性和动态性环境下，作为一个良好的访问控制机制应该具有以下各个方面的考虑：访问控制决策的细粒度化，以便在语义网上建立起清晰的边界，具有实现独立于应用程序的一致性和安全规则的能力，一个良好的访问控制机制中的访问规则必须能够控制图的节点（实体）和边（语义关系），需要能够管理实体和访问权限的语义关系，必须完全获取到权限和被保护对象的语义之间的交互；当一个实体的插入或删除时，不能跟底层的语义网络的逻辑一致性发生冲突；要能够支持访问控制规则在语义链的安全自动传递以及新建资源的策略自动分配，自动化能够减少显性访问控制规则的数量，有助于得到一致性授权，还有效地解决语义网的复杂性，因为在语义网上策略可以沿着连接资源或主体的链接传递；访问策略的评估要求以自动推理功能来解释和检测策略，这也很大程度上影响到了访问控制的可信赖性判断。另外授权速度、可维护性等也是需要考虑的指标因素。"
+  },
+  "5结束语": {
+    "context1": "关联数据提供了知识财富的聚集，但也带来了安全的隐患，如何为关联数据定义访问控制模型，定义基于上下文的细化访问策略，并有效地实施，是需要重点研究的内容之一。要创建一个安全的环境，共享和协同产生分布式关联数据，还有很多方面值得做进一步的深入研究，例如"
+  },
+  "访问控制策略优化，规范统一的框架的制定，策略的兼容性和互操作性，自动推理功能等都是需要关注的重点内容。□": {
+    "context1": "参考文献   \n[1]HOLLENBACH J，PRESBREY J，BERNERS-LEE T.Using rdf metadata to enable access control on the social semantic Web [C]//Proceedings of the Workshop on Collaborative Construction，Management andLinking of Structured Knowledge （CK2009）.2009:514.   \n[2] BIZER C，CARROLL JJ. Modellng context using named graphs[C】//W3CSemanticWebInterestGroup Meeting，2004.   \n[3] KIRRANE S，LOPES N，MILEO A，et al. Protect your RDF Datd[M]//Semantic Technology.[S.1.]：Springer Berlin Heidelberg，2013:81-96.   \n[4] USZOK A，BRADSHAW J， JEFFERS R，et al. KAoS policy and domain services: toward a description-logic approach to policy representation，deconfliction，and enforcement [// Policies for distributed systems and networks，2003.Proceedings．POLICY2003.IEEE4thInternationalWorkshop on.IEEE，2003:93-96.   \n[5] DAMIANOU N，DULAY N，LUPU E，et al. The ponder policy specification language[M]//Policies for Distributed Systemsand Networks.[S.1.]:Springer Berlin Heidelberg， 2001:18-38.   \n[6] KAGAL L，FININ T， JOSHI A. A policy language for a pervasive computing environment[c]//Policies for Distributed SystemsandNetworks，2003.Proceedings.POLICY 2003. IEEE 4th International Workshop on. IEEE,2003:63-74.   \n[7] BONATTIPA，DE COI JL，OLMEDILLAD，et al.Rulebased policy representations and reasoning [M]//Semantic Technique fortheWeb..1]:SpringerBerlinHeidelberg， 2009:201-232.   \n[8] MUHLEISEN H，KOST M，FREYTAG JC. SWRL-based access policies for lnked data[//SPOT 2010 2nd Workshop on Trust and Privacy on the Social and Semantic Web，Heraklion，Greece.2010.   \n[9] NERI M A，GUARNIERI M，MAGRI E，et al. Conflict detection in security policies using semantic web technology[// Satellite Telecommunications（ESTEL），2012 IEEE First AESS European Conference on. IEEE，2012:1-6.   \n[0] RECORDON D，REED D.OpenID 2.0:a platform for usercentric identity management[C//Proceedings of the Second ACM Workshop on Digital identity Management. ACM，2006: 1146.   \n[] STORY H，HARBULOT B，JACOBI I，et al.Foaf $^ +$ ssl: restful authentication for the social web[C//Procedings of the First Workshop on Trust and Privacy on the Social and Semantic Web（SPOT2009）.2009.   \n[2] UDREA O，RECUPERODR，SUBRAHMANIANV S.Annotated rdf[]．ACM Transactions on Computational Logic（TOCL），2010，11（2)：10.   \n[13] KHALED A，HUSAIN M，KHAN L，et al.A token-based access control system for RDF data in the clouds[C]//Cloud Computing Technology and Science（CloudCom），2010 IEEE Second International Conference on. IEEE，2010:104-111.   \n[4] SACCO O，PASSANT A.A Privacy Preference Ontology （PPO）for Linked Data[C]//LDOW，2011.   \n[15] VILLATA S，DELAFORGE N，GANDON F，et al. An ccesS control model for linked data[．On the Move to Meaningful Internet Systems:OTM 2011 Workshops.Springer Berlin Heidelberg，2011: 454-463.   \n[6] FININ T,JOSHI A，KAGAL L，et al. R OWL BAC:representing role based accesscontrol in OWL[C//Procedings of the 13th ACM Symposium on Access Control Models and Technologies.ACM，2008:73-82.   \n[7] JAVANMARDI S，AMINI M，JALILI R.An acCess control model for protecting semantic web resources[]．Web Policy Workshop. 2006.   \n[8] FONG P W L. Relationship-based acesscontrol:protection model and policy language[c]//Proceedings of the First ACM Conference on Data and Application Security and Privacy.ACM，2011:191-202.   \n[19] TOOTOONCHIAN A， SAROIU S，GANJALI Y，et al. Lockr: better privacy for social networks[//Proceedings of the 5th International Conference on Emerging Networking Experiments and Technologies.ACM，2009:169-180.   \n[0] SACCO O，PASSANT A，DECKER S.An access control framework for the web of data[．Trust，Security and Privacy in Computing and Communications （ TrustCom)，2011 IEEE 10th International Conference on. IEEE，2011:456-463.   \n[1] RYUTOV T，KICHKAYLO T，NECHES R. Access control policies forsemantic networks[C]．Policies for Distributed Systems and Networks，2009.POLICY 2009.IEEE International Symposium on. IEEE，2009:150-157.   \n作者简介：刘振，男，1979 年生，博士生，讲师。研究 方向：知能信自处理和信自系统.",
+    "context2": "收稿日期：2014-06-20"
+  }
+}

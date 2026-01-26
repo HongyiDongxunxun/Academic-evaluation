@@ -1,0 +1,125 @@
+{
+  "original_filename": "full_9149.md",
+  "美国研究型图书馆研究数据服务的实践进展及趋势": "",
+  "■ 张颖": "",
+  "中国人民大学信息资源管理学院北京100872 天津外国语大学图书馆天津300204": {
+    "context1": "摘要：目的/意义]随着数字时代向数据时代演进，科学研究进入“第四范式”,无论是研究个体还是科学共同体都在渴求能够获得更深入、更便捷的数据服务。研究型图书馆在科学用户的敦促下，主动推进知识服务升级，帮助用户扩展资源发现，揭示文献中蕴含的知识，构筑知识间的关联。在机器学习大行其道的未来，基于内容的研究数据服务是突破知识获取瓶颈的必然抉择。方法/过程系统回顾美国研究型图书馆研究数据服务实践，深入剖析相关服务的核心价值，阐明研究数据兴起赋予知识服务的新内容，并进一步揭示研究数据服务的发展趋势和走向。结果/结论]基于内容的研究数据服务是图书馆面向大数据时代的必然选择，数据周转效率是未来机构科研产出多寡的决定因素，研究数据服务将愈加趋于碎片化、关联化和移动化。",
+    "context2": "关键词：研究型图书馆研究数据服务大数据知识发现 数据管理",
+    "context3": "分类号：G252  \nDOI: 10. 13266/j. issn. 0252 - 3116. 2017. 09. 004",
+    "context4": "当前世界是由人、机、物构成的三元世界,信息技术的进步为致力于知识密集型生产的科学领域带来了跨越式发展的新契机。全球范围内，数字时代向数据时代演进,科学研究进入第四范式，学术交流由线下垄断向线上共享变迁，数据和知识的重要性愈加凸显。呈指数化增长的数据和数据集，已经大大超出常规软件工具在有限时间内的分析处理能力,这些具有海量规模且价值密度分布不均的数据因此被统称为大数据。借助人工智能对大数据的挖掘分析,许多科研领域都探索到了解决问题的新思路、新方法，数据分析成为高效的科学研究工具,并进一步促进了基于大体量数据数值的研究数据服务之兴起。",
+    "context5": "作为面向科研用户的研究型图书馆，其对人员素养和信息技术的要求显著高于其他服务型图书馆，“用户第一”的最高准则使它格外关注科研用户的体验并及时发现他们的新需求。它从战略上重视一切能为科学研究带来突破和变革的力量，在实践中长期引导着技术进步与服务创新的潮流。一直以来研究型图书馆的工作对象和服务内容都以文献为基本单元，然而传统的文献服务模式在注重实验和计算的早期科学时代下也许还行得通，但在注重知识产业化的后学院科学时代,文献获取、利用及共享效率的低下已为大多数科研工作者所诟病：花费大量的时间从长篇累牍中获取少量适用数据已成为一项费时费力的低效劳动。这类想法的蔓延使得研究型图书馆开始逐渐沦为非主流的“知识市场”。因此,无论从图书馆还是用户角度来说，文献服务向数据服务的转变都迫在眉睫。",
+    "context6": "研究数据服务(research data services,RDS)是在数据密集生产的背景下,对散在于文献中的数据进行人工或智能发现、关联、聚合、重用等一系列管理,使用户能够直接用来解决问题的服务，它能提升已有知识、数据的使用效率，促进新知识的产生和传播。本文在概述美国研究型图书馆RDS实践进展的基础上，就其服务模式、体系框架、组织结构和发展趋势进行了梳理归纳，探讨研究型图书馆如何利用该服务实现对科研数据的组织管理,并建议我国研究型图书馆以及科技工作者将RDS提升到战略高度，重视对科研数据潜在价值的深入挖掘,破除知识在获取、表达和运用方面的桎梏，促进我国科技事业健康向上发展。"
+  },
+  "1RDS的相关研究": {
+    "context1": "目前国内外就该领域的研究均呈现出“重实践轻理论\"的态势：表现为研究型图书馆和相关研究机构的服务实践进行得如火如荼，但是在理论知识的论述表达和归纳积累方面却稍显欠缺,以下就国内外总体研究现状进行概括性总结。"
+  },
+  "1.1国外研究现状": {
+    "context1": "RDS是图书馆面向科研人员提供的关于学术研究衍生数据的综合性内容服务，包括数据管理计划、元数据创建与转换标准、数据集的识别引用及网络导航等；它是基于多学科协作的跨机构纵深服务,其发展规划与系统建设不应受某类特定学科影响；不同学科的科研数据不仅在种类、格式、价值等本质属性方面存在显著差异,同时在数据开发和共享理念等复杂性运用方面更是千差万别，原生学科作为核心要素由内及外地形塑了RDS；M．Dreyer 认为RDS 可以简单概括为三要素:参与者（who）、目的（what for）、活动（what）国 。",
+    "context2": "研究数据服务面临的主要挑战包括：数据获取瓶颈、用户培训缺位、与现有服务的互斥等；目前研究数据的增长速度与管理效率两者之间存在严重失衡；研究数据的异质性是研究数据服务面临的主要难题，建立普遍适用的元数据描述标准被认为是可靠的解决途径，A.Kraft认为元数据描述标准应至少包括9个规定字段,即识别标识符、责任者、题名、出版者、出版年、学科来源、资源描述、权利和权利人，以及多个可选字段；J．Makani认为基于知识驱动的RDS 框架,区别于以往基于系统驱动的数据服务，是由图形用户界面(graphical user interface）、核心应用层、知识共享层和数据管理层构成的四层结构模型；研究数据发布是实现共享重用的关键，需要从数据集格式、分类、许可、出版成本、认证、可用性,发现及获取这8个方面来弥合异质数据的差异,实现统一发布[。"
+  },
+  "1.2国内研究现状": {
+    "context1": "学科知识服务是国内RDS相关研究的重要组成部分，作为RDS的延伸性研究,邓仲华、李立睿对嵌入式科研知识推送服务的内涵、嵌入方式及重要环节进行详细阐述[,并构建科研用户兴趣模型以捕捉他们的个性化知识需求[；周晓燕、尹亚丽调研国外高校图书馆服务人才岗位招聘数据后，深度解析RDS从业人员的知识结构、服务技能和岗位职责；王静等开展了基于四螺旋，即高校知识——科研机构知识图书馆知识——科研团队知识模型的RDS风险管理研究[；邵锐、付先华总结国内现有学科门户的发展现状,并针对武汉理工大学工程与通信学科知识云服务平台开展实证研究，概括学科知识服务的工作流程及服务绩效,提出基于知识关系的知识云管理[；北京大学2015年上线“北京大学开放研究数据平台”,提供对19个数据空间和110个数据集的开放式访问;"
+  },
+  "“复旦大学社会科学数据平台”“中国科学院数据云'也都是国内较为成熟的研究数据智能发布平台。": "",
+  "2 美国研究型图书馆RDS开展概况": {
+    "context1": "当前美国研究型图书馆都在探索旨在促进知识生产和关联的新型服务模式。无论是世界图联、美国图书馆协会、研究型图书馆协会等联盟组织，还是美国国会图书馆、美国国家医学图书馆、美国洛斯阿拉莫斯国家实验室等专业机构都在数据化浪潮面前认识到数据服务的重要性。比较典型的案例包括：国际图联成立“大数据兴趣群组”以应对图书馆视阈的大数据应用与获益；美国图书馆协会推出面向图书馆专业研究的“图书馆员及研究人员知识空间(librarian and re-searcher knowledge space，LARKS）”。这些机构借助用户行为分析、战略决策分析等预测工具觉察到：面向用户构建科研数据环境，提供深层次的基于内容单元的数据服务是图书馆下次技术变革的主要方向。",
+    "context2": "学科知识宽泛的研究范围和超大的信息载量决定研究数据不能被任何一家机构独立地收集和管理，因此RDS必须是基于合作共建模式的系统化工程。各大图书馆协作组织均在推动大数据利用的背景下，针对学术交流和数据共享做了大量工作：",
+    "context3": "OCLC持续关注学术交流、云图书馆、元数据发布重用和e-research等领域，并对知识聚合、科研数据管理等领域进行了探索性研究。近年相继开展了虚拟研究环境(virtual research environment,VRE）,研究流程支持性研究(support forresearch workflows)及数据科学(data science)等RDS 相关研究。",
+    "context4": "研究型图书馆协会是北美领导性研究图书馆联盟组织,成员涵盖了该地区124家图书馆。近年来，该协会主持了开放学术、e-research、研究馆藏以及开放学术交流等领域的研究，目的是帮助科研用户公正平等地获取科研数据,概括用户未来的知识需求趋势，进一步提升研究型图书馆在知识传播和创新活动中的参与度和主动性。它联合北美大学联盟、美国公立大学协会创建的共享型科研生态系统 SHARE,是面向高等教育研究产出的知识识别、发现和跟踪系统。该系统旨在全面渗透科学研究的各个流程,加速研究孵化，使研究成果更具可识别性、普适性及重用性。",
+    "context5": "美国大学与研究图书馆协会(ACRL)长期致力于推进学术交流与变革。近年来的研究主要包括信息素养框架教育、研究数据、学术交流和开放教育等领域。2012年ACRL对美国和加拿大高校图书馆的RDS开展情况及未来规划做了全面调查：全美大约四分之一到三分之一的图书馆有在未来两年开展基于学术内容的RDS 服务规划;2016年ACRL聚焦于RDS、数据管理计划(data management plans,DMP)、RDS 馆员的职业发展、数字学术、内容服务等研究领域[，这也基本反映出ACRL认同数据类服务将成为未来高校图书馆服务的大势。",
+    "context6": "TenopirC等人在“学术图书馆与RDS服务\"研究中发现尽管行业联盟和“领跑者”已经对RDS的兴起有了初步共识,但具体到实践操作层面，出于谨慎和观望，仅有少部分美国研究型图书馆开展了RDS服务，并且它们中的绝大多数目前仅提供数据索引、研究指南等导向性服务，只有那些规模更大、具备博士学位授予资格的研究型图书馆才更倾向于提供集咨询、诊断、策划功能为一体的综合性RDS服务。该研究还发现，那些获得美国国家科学基金会(National Science Foun-dation,NSF)资助的机构在RDS服务开展方面更具主动性 。"
+  },
+  "3 美国研究型图书馆RDS实践": {
+    "context1": "随着对研究过程的渐进性认识，人们越来越倾向于将研究作为一个生态系统来看待。RDS 的出现,有利于弥合研究工作者知识水平的不对等，连纵知识孤岛,促进跨学科研究的浸润性生长。2013年，美国白宫下设的科技政策办公室(white house office of scienceand technologypolicy，OSTP)发布“促进联邦资助研究成果获取\"政策，要求凡是政府直接资助的研究成果，无论是科研数据还是最终出版物，都必须能被公众和科学社区用户获取。笔者经逐一浏览美国几十家主要研究型图书馆主页后发现：以哈佛大学图书馆、耶鲁大学图书馆为代表的进取型图书馆已研发出适用平台装载、管理科研数据,并将RDS纳入常规服务体系；而美国国家农业图书馆这样的国家级图书馆也已经组建专内部——Knowledge ServiceDivision来应对用户日益增长的数据需求,从而加速知识成果的孵化产出；资源相对有限的轻量级图书馆则倾向于在行业组织的牵头下采用统一的封装平台来提供基础性RDS服务。"
+  },
+  "3.1研究指南": {
+    "context1": "美国研究型图书馆普遍提供研究指南(research/subjectguides)服务，并在各学科门户下配备具有相关知识背景的科学馆员（science librarian）。研究指南通常在某类主题下汇集相关领域的知识、数据，以芝加哥大学的研究指南服务为例，它设有学科、课程、数据类型和音序4个浏览路径，在每条款目下汇聚：",
+    "context2": "(1)Web数据集,包括在线研究文档、实验记录、观察数据以及研究辅助工具等。",
+    "context3": "(2)数值与事实数据库,医学、化学、物理学等自然科学研究尤其注重经验数据和事实数据的搜集归纳，研究指南服务为这些学科整理汇总了数量可观的权威数据源:MICROMEDEX数据库为医学工作者提供基于实证的综述文献,应急处理方案，以及关于药物、疾病、检测、辅助医学的完整数据信息;SciFinder Schol-ar数据库为化学、生物、医学等研究领域提供超过1.29亿条物质记录和超过8280万条反应记录。",
+    "context4": "(3)书目索引和期刊电子书。",
+    "context5": "(4)APP应用,既包括综合性应用,如引文管理工具BrowZine，也包括专业性应用,如化学社群软件ChemSpider,医学在线工具AccessMedicine、AgileMD等。",
+    "context6": "研究指南服务能够在学科或某类主题下实现科研数据的聚类，为今后人工智能、机器学习在研究领域的开发应用奠定实践基础。多数科学馆员选择Email、面谈或者社交软件等方式提供咨询服务，但这些方式总体来看仍属于传统的封闭性问答模式。比较理想的解决方案是利用互联网搭建科学社区，对用户提出的问题分类整理后，邀请相关专家和其他用户解答问题。这种咨询模式能够使问题在更开放的时空范围内得到快速解决，使提问者获得更精准权威的回答。",
+    "context7": "目前 Spring Share公司的LibGuides是较为通用的研究指南内容发布平台。图1演示了它的层级架构以反映这项服务的具体内容和服务效益。LibGuides既允许成员馆独立编纂学科数据,也允许多个成员馆合作编写学科指南后在平台上统一发布,用户可以随时对这些Guides进行注释评价。LibGuides对知识和数据的读取能够深入到文献的内容层,文本、图表、音视频和网页链接皆可作为独立数据单元被用户直接检索获取,此外,搜索引擎优化能够帮助这些内容数据更好地适应不同引擎的检索原则，使它们能够被更多的用户优先获取,数据搜集工作因此变得更加简单高效。"
+  },
+  "3.2学术参考文献管理": {
+    "context1": "学术参考文献能够帮助科研用户见微知著地了解研究领域的主要发展脉络，因此,学术参考文献管理对用户充分了解研究态势，合理规划研究路线，阐明引证关联关系具有重大意义。",
+    "context2": "目前应用较多的学术参考文献管理工具有：Zote-ro、RefWorks、EndNote、Citation Linker 和 Mendeley。以注： $\\textcircled{1}$ 系统内容层； $\\textcircled{2}$ 用户评价层； $\\textcircled{3}$ 统计测量层",
+    "context3": "![](images/d7c81cde961c5ef03f52cdd74b8377f7a39ff908b595fcf7188672aea4a247af.jpg)  \n图1学科指南服务的主要架构",
+    "context4": "Zotero 4.O为例，它内嵌于Firefox浏览器,在浏览的同时自动感知并抓取在线文献生成参考书目，并搜索全文添加至个人图书馆;保存网络快照并自动提取内容；提供标签和超链接方便进一步管理参考文献;允许分享个人文档、笔记和书目数据;建立群组(groups)实现成员的远程协作;发现引证资源并生成参考书目；感知用户偏好发现同质性用户及可能感兴趣的资源。Zote-ro 的主要功能如图2所示：",
+    "context5": "![](images/3c5af9a65b5bb7753a117041ed69c5687b5780b08696be7bbc6e353926d169f7.jpg)  \n图2Zotero 的主要功能"
+  },
+  "3.3学术交流和机构知识库": {
+    "context1": "开放存取被视作网络环境下科研学术交流的早期变革，其核心理念在2001年被“布达佩斯开放存取宣言”首次详细阐述：允许任何人通过公众网络免费检索、链接、阅读、下载、打印、复制和传播知识,使学术交流不再闭锁在传统的学术期刊生态系统,借助开放社会网络实现便捷的传播。OCLC“推进研究使命”（ad-vancing the research mission,2013)项目发现:社交媒体已成为新一代学术交流工具,科研活动愈加呈现出发散性、网络化的趋势,机构知识库作为网络环境下学术交流变革的早期雏形实现了可持续发展。",
+    "context2": "公共机构和大学图书馆是这项变革的主要参与者：康奈尔大学图书馆arXiv是周访问量达到百万次以上的超级科研数据库，提供735000篇全文文献(截止2016年10月份，下同),内容覆盖物理、数学、计算机科学、统计学、生物学和经济学等领域;明尼苏达大学图书馆AgEconSearch是农业及应用经济学全文数据库,提供期刊论文、学术专著、会议论文、学位论文及工作报告等各类文献105199篇；美国国家医学图书馆PubMedCentral是目前生物医学和生命科学领域最大的机构知识库，收录有2370 000 篇全文文献，并且这些内容仍以每年 $10 \\%$ 的速度递增;DASH机构库是哈佛大学创建的开放性科学社区，它定期向创建者发送汇总文档利用情况的统计报告,并支持Google、Twit-ter等Web应用对文档的检索、引用和评价。",
+    "context3": "机构知识库从兴起至今历经十数载，从最初的零散分布到如今的遍地开花，诸多研究型图书馆在该领域积累了丰富的建构经验，典藏内容由工作报告、政策条例、学术出版物等文献资源发展到统计图表、网页源码、实验日志等数据单元。表1反映了美国部分研究型图书馆机构知识库的建设情况。从其发展规模和成熟度来看，机构知识库仍是当前研究型图书馆最主要的RDS 服务。",
+    "context4": "表1美国部分研究型图书馆机构知识库建设情况",
+    "context5": "<table><tr><td>机构</td><td>开放存取库</td><td>链接</td></tr><tr><td>哈佛大学图书馆</td><td>DASH</td><td>https://dash. harvard.edu/</td></tr><tr><td>波士顿大学图书馆</td><td>Open BU</td><td>http://open.bu.edu/</td></tr><tr><td>布朗大学图书馆</td><td>Brown Digital Repository</td><td>https://repository.library.brown.edu/studio/</td></tr><tr><td>加利福尼亚大学图书馆</td><td>eScholarship</td><td>http://escholarship. org/</td></tr><tr><td>辛辛那提大学图书馆</td><td>① Scholar@ UC</td><td>https://scholar.uc.edu/</td></tr><tr><td></td><td>②DRC</td><td>https://drc.libraries.uc.edu/</td></tr><tr><td>芝加哥大学图书馆</td><td>Knowledge@ UChicago</td><td>https://knowledge.uchicago.edu/</td></tr><tr><td>康奈尔大学图书馆</td><td>eCommons @ Cornell</td><td>https://ecommons.cornell.edu/</td></tr><tr><td>特拉华大学图书馆</td><td>UDSpace</td><td>http://udspace.udel.edu/</td></tr><tr><td>杜克大学图书馆</td><td>① DUKESPACE</td><td>http://dukespace.lib.duke.edu/dspace/</td></tr><tr><td></td><td>② SCHOLARS@ DUKE</td><td>https://scholars.duke.edu/</td></tr><tr><td>埃默里大学图书馆</td><td>OpenEmory</td><td>https://open.library.emory.edu/</td></tr><tr><td>乔治-华盛顿大学图书馆</td><td>GW ScholarSpace</td><td>https://scholarspace.library.gwu.edu/</td></tr><tr><td>乔治城大学图书馆</td><td>DigitalGeorgetown</td><td>https://repository. library. georgetown. edu/</td></tr><tr><td rowspan=\"2\">夏威夷大学图书馆</td><td>① ScholarSpace</td><td>http://scholarspace.manoa. hawaii.edu/</td></tr><tr><td>②eVols</td><td>http://evols.library. manoa. hawaii.edu/</td></tr><tr><td>霍华德大学图书馆</td><td>Digital Howard</td><td>http://dh. howard.edu/</td></tr><tr><td>爱荷华州立大学图书馆</td><td>DR @ Iowa State University</td><td>http://lib.dr. iastate.edu/</td></tr><tr><td>爱荷华大学图书馆</td><td>Iowa Research Online</td><td>http://ir.uiowa.edu/</td></tr><tr><td>肯塔基大学图书馆</td><td>UKnowledge</td><td>http://uknowledge.uky.edu/</td></tr><tr><td>马里兰大学图书馆</td><td>DRUM</td><td>http://drum.lib.umd.edu/</td></tr><tr><td>麻省理工学院</td><td>DSpace@ MIT</td><td>http://dspace.mit.edu/</td></tr><tr><td>明尼苏达大学</td><td>University Digital Conservancy</td><td>http://conservancy.umn.edu/</td></tr><tr><td>美国国家农业图书馆</td><td>PubAg</td><td>https://pubag.nal.usda.gov/pubag/home. xhtml</td></tr><tr><td>美国国家医学图书馆</td><td>PubMed</td><td>https://www.ncbi.nlm.nih.gov/pubmed/</td></tr><tr><td>新墨西哥大学</td><td>NM EPSCoR</td><td>https://www.nmepscor.org/</td></tr><tr><td>俄克拉荷马大学</td><td>SHAREOK</td><td>http://guides.ou.edu/shareok</td></tr><tr><td>耶鲁大学</td><td>EliScholar</td><td>http://elischolar.library.yale.edu/</td></tr></table>"
+  },
+  "3.4数据管理和分析系统": {
+    "context1": "2013年5月OSTP颁布的开放数据政策，意在将搁置浪费的政务数据向社会各界开放以推动企业及科研创新。NSF自2011年1月起在《项目资助与管理指南》中要求申请人额外提交数据管理计划以使其资助的研究成果能够得到最大程度的传播分享。美国国立卫生研究院(NIH)在《数据共享和实施指南》中明确提出年度预算在50万美元以上的项目必须公开共享数据成果。数据管理分析成为数据时代、科技工作者、信息从业者乃至普通民众需要掌握的新技能。",
+    "context2": "完整的科研数据使用流程包括收集、分析、传播和潜在的重用，理想的数据管理计划至少应包括：",
+    "context3": "(1)列出数据管理的主要阶段和步骤;  \n(2)保证研究所遵循的伦理标准；",
+    "context4": "(3)确保遵照资助者和期刊的要求;",
+    "context5": "(4)阐明如何保障实现长期的数据管理;",
+    "context6": "(5)延长数据的有效期以支撑研究的整个过程。",
+    "context7": "DMP作为近年来科研领域的新生事物，已成为科研用户在立项前期的主要任务，用户仅凭一己之力很难完成合乎规范的DMP,因此美国研究型图书馆适时推出了相关服务。",
+    "context8": "哈佛大学图书馆的Dataverse是基于科研数据的开源应用，拥有超过62000个数据集，数据集包含描述性的元数据、关键词和数据文件(数据记录和数据编码）,遵循 DDI(Data Documentation Initiative)元数据标准,可以存储包括PDF、CSV表格、JPEG、TXT在内的各类型文件,图3描述了该平台的总体框架。目前其核心用户包括科研人员、出版商和合作机构等：科研人员利用这个体量巨大的“容器”,可使上传数据更具发现性、重用性和互操作性;出版商借助它实现了期刊元数据的深度共享;合作机构引进类Dataverse框架搭建个性化数据管理平台,如弗吉尼亚大学的“LibraData”、北京大学的开放研究数据平台等。",
+    "context9": "![](images/9c5ebbc1aefc8271cf0b09618a840c2631ff1cea3bcc113cf873802ccabc94ad.jpg)  \n图3美国哈佛大学Dataverse平台主体架构",
+    "context10": "密歇根大学政治与社会研究校际联盟(inter-univer-sity consortium for political and social research,ICPSR),是全球最大的社会科学机读数据仓储，收录了超过50 万份的数据集。与Harvard Dataverse 注重框架设计不同，ICPSR更注重内容充填,即数据集的录入、加工与重用。它以专题典藏为管理单元,内嵌责任者、数据集、工具包、研究方法、元数据格式和统计模型等内容。其推出的在线分析工具 SDA、Simple Crosstab/Frequency 和QuickTables能够感知用户情境,自动从数据库中抽取数据，并从语义、数量、属性和变量等方面进行比较，快速生成简明清晰的图表和汇总统计。",
+    "context11": "普林斯顿大学图书馆开发的数据管理服务（dataand statistical service，DSS）,侧重事实调查数据的收集分析，具备数据存储和数据分析两大功能，在为研究人员提供研究案例、用户测评和实验数值等事实数据的基础上,进一步通过数据挖掘得出预测性或总结性信息。它的在线分析工具 Stata、SPSS以及R语言，能够汇总计算及绘制图表，强大的数组和矩阵运算能力使得复杂运算环境中数据的转换和聚类更为简便。",
+    "context12": "虽然部分机构将数据管理归入学术交流的范畴，纳入机构知识库进行一站式管理,但是更多机构,如麻省理工学院、哈佛大学已将数据管理平台从机构知识库中剥离出来进行专门的研发管理。从目前趋势看，知识单元无疑将被重新定义，数据成为知识获取的基本单位，机构知识库与数据管理系统分别作为文献时代和数据时代的产物，不可避免地呈现出渐趋融合的态势,笔者认为后者将逐渐取代前者成为今后RDS服务的主要内容。"
+  },
+  "3.5知识发现系统": {
+    "context1": "当前各大知名数据商,如 EBSCO、Elsevier、Spring-ger都在致力于研发知识自主发现系统。精准地从现有知识中发现有用数据和隐藏知识是实现科研数据链条高效周转的主要途径。知识发现服务能够发现： $\\textcircled{1}$ 概括性的描述知识，如概念、模型等； $\\textcircled{2}$ 有一定属性关系的相关知识； $\\textcircled{3}$ 知识间同质性或差异性特征； $\\textcircled{4}$ 基于历史、趋势的预测性知识; $\\textcircled{5}$ 极端个别的特例性知识等。",
+    "context2": "ArchiveGrid d是OCLC Research基于文本挖掘的文献智能发现系统，它旨在帮助用户在世界范围内查找珍贵文档(主要是档案、私人文件、手稿、家族史料等原始数据），促进MARC记录和EAD(编码档案著录的XML文档)最大范围的共享重用,彰显文本挖掘、数据可视化等前沿技术对优化知识发现及描述的革命性意义。该系统收录了来源于WorldCat及网页收割的超过200万份档案记录，其中 $90 \\%$ 以上为Marc记录,其余为EAD,EAD不同于Marc,它能摆脱封闭性平台，实现与互联网的兼容互链,可作为图书馆、档案馆、博物馆著录文献档案的通用性元数据，是ArchiveGrid未来重点开发的内容。此外,ArchiveGrid为读者构筑“关键馆藏(keycollection）”,允许用户对馆藏添加评论描述，未来还将增添基于地图导航的地理定位检索、基于事件框架的智能内容检索来提升系统的知识发现能力。目前许多大型图书馆都在探索构建这类旨在整合分布式馆藏的知识发现系统，德克萨斯大学图书馆的Ar-chival Resource Online、哈佛大学图书馆的 Online Ar-chival Search Information System 都属于这类系统。",
+    "context3": "康奈尔大学的VIVO研究发现系统是基于语义网的协作式研究数据发现系统。它提供研究者、研究机构、研究地点、实验设备、研究主题等多个检索路径，以片段形式呈现摘要、概念、章节、事件等知识节点，使用户可由研究者的研究路线图发现更多的学术关联人和关联机构,从而由点及面地实现知识发现及深度挖掘。",
+    "context4": "数据挖掘通过对连续、离散的数据进行估算分类，得出相应的模型来判断未来的发展趋势，并做出准确描述和可视化输出。它是知识发现的关键步骤，也是机器学习领域的重要研究内容。部分数据挖掘工具已能实现对命名实体的抽取,但尚难仅凭实体来构成完整的知识发现网络，对实体间关系的识别和抽取将是知识发现服务下一步的研究重点。"
+  },
+  "3.6关联数据服务": {
+    "context1": "OCLC正在探索将现有的联合书目数据转换为多语言情境下的关联数据，使用规范文档来统一图书馆原生数据，即将所有指向某一特定实体的规范数据都通过关联生成规范文档，使图书馆数据不再囿于机构内部，能够被更多开放或封闭的数据生态系统发现引用。以关联书目数据为例，它对图书馆书目数据的挖掘基于FRBR实体－关系书目模型,将传统的MARC书目数据转换为XML格式来实现相关知识的扩展聚类,并发现其中隐藏的关联关系，关联数据被认为是未来图书馆知识管理的主要方向。目前OCLC已将谷歌、雅虎、Bing联合推出的结构化数据标记通用模式——Schema.org引入WorldCat 联合目录,以吸引智能网络爬行器注意，方便其理解和抓取这部分资源。",
+    "context2": "Scholars $@$ Cornell是康奈尔大学图书馆开发的关联数据及学术可视化服务，用以发现高水平学术创新，跟踪动态学术协作，展示专家智库的研究专长。它是VIVO 知识发现系统的扩展延伸,借助VIVO-ISF本体来实现学术数据的建模与关联，运用可视化开发工具D3将用户由学术全景图(bigpicture）导航至研究个体，以“概念图网络”来描绘这些个体的研究兴趣点。Scholars $@$ Cornell是充分运用语义网智能化的RDS应用，对探索关联数据在RDS服务中的纵深应用具有积极意义。"
+  },
+  "3.7研究巾户( research gateway)": {
+    "context1": "研究门户也被称作研究空间(work space）,是为促进研究的可持续发展而面向科研过程的全方位管理服务。",
+    "context2": "为提升个人、团队的科研竞争力，亚利桑那大学图书馆较早地开展了综合性研究门户服务，主要提供： $\\textcircled{1}$ 外部资助机会。每周三以“立项公告”的形式公布课题资助情况； $\\textcircled{2}$ 针对项目投标的战略化建议； $\\textcircled{3}$ 组织研讨会及培训。针对NSF项目分两阶段提供为期7个月的培训。第一阶段主要是项目概览和既往获批情况;第二阶段是宣讲会、发展建议、前期概念审查和终审。此外,定期召开美国人文学科捐赠基金会、美国卫生研究所资助项目的研讨会； $\\textcircled{4}$ 成为同行评审专家的机会；$\\textcircled{5}$ 推荐专家合伙人。利用Elsevier的Scopus数据库查询出机构内部从事相似研究的专家用户，通过SciVal系统查询亚利桑那大学、亚利桑那州立大学以及北亚利桑那大学三所大学内部的相关专家，向他们寻求专业指导意见，或是组建跨学科背景的研究团队； $\\textcircled{6}$ 人力资源管理方案。包括成员的贡献力描述，项目人力成本的合理性,是否符合资助机构的相关人力政策,以及是否控制在项目合同和财务成本允许的范围等； $\\textcircled{7}$ 财务管理。包括财政情况报告、项目收入、项目赤字和现金管理等； $\\textcircled{8}$ 指导撰写项目计划书; $\\textcircled{9}$ 文档和数据管理； $\\textcircled{10}$ 项目管理系统。利用UAccessResearch项目投标平台,实现网上投标和实时编辑管理。亚利桑那大学研究门户服务全面介入研究的各个流程，真正实现了对科研项目的一站式精细管理。",
+    "context3": "亚利桑那州立大学研究门户是基于研究共性提供的通用型研究管理服务，而美国国家农业图书馆面向特定学科领域提供的定制数据空间则更强调研究工作的个性化。以i5k Workspace $@$ NAL为例,它是关于“孤立节肢动物基因组”的研究数据空间，为用户提供节肢动物的生物习性观察数据、基因组信息、基因拼接技术指标(Contig N5O、GC含量)等专业数据,对评价节肢动物基因测序的完整性具有积极意义。"
+  },
+  "4 美国研究型图书馆科研数据服务的发展趋势": "",
+  "4.1更趋于移动化服务": {
+    "context1": "在移动互联时代,移动互联网对社会的改变无所不在，打通移动互联入口已成为各产业的破局之举。基于社交的泛在化阅读、基于内容的碎片化阅读取代了传统的自主阅读模式。移动化服务符合服务终端由PC向移动设备变迁的趋势，符合科研用户注重创新技术应用的行为习惯,研究型图书馆需要扭转既往固态化的服务模式,响应移动性、解构性、开放性的阅读新需求，提供方便快捷的移动服务以维持用户黏性。"
+  },
+  "4.2更注重知识碎化与关联": {
+    "context1": "随着数据时代智慧型服务和分众服务的不断升温，基于知识内容的碎片化挖掘与关联成为RDS服务的主要内容，使其呈现出关联化、精细化、碎片化的发展特点。基于语义挖掘的关联数据，将现有的零散知识点连接成串，反映知识的来源和走向，方便用户进一步创建、扩展知识内容。未来图书馆面向的用户很大可能会是机器,机器将获取到的内容经过自动过滤再传递给用户，因此只有将数据、知识翻译成机器可以学习理解的内容,才能实现最大程度的知识共享。从这个角度说,知识的碎片化阅读和语义化关联趋势在数据时代将逐步得到加强。"
+  },
+  "4.3突出平台和工具的集成": {
+    "context1": "图书馆通常拥有多个知识服务平台,如机构知识库平台、课程仓储平台、数据管理平台、知识发现系统以及数据管理系统等,这些平台通常拥有单独的URL，五花八门的界面功能和定位接近的目标群体,使得图书馆为用户提供特色化服务的同时，也使一部分用户陷入选择性迷茫，并造成一定程度的资源浪费。研究型图书馆在注重服务创新的同时，应当加速新型源码开发,统一元数据标准,实现多任务、多流程和多用户建模,兼容主流的研究插件工具,使用户得享一站式RDS 服务。"
+  },
+  "5结语": {
+    "context1": "图书馆承载着数百年来人类文明的记忆传承，并以文献为单元构建了一幅相对完整的人类“知识地图”。当人们试图将互联网建成知识网络的同时，图书馆也在努力通过改进服务内容和传统理念主动融入其中，将文献服务向数据服务推进是图书馆在数据时代得以存身的根本。本研究以美国研究型图书馆为样本,跟踪展现了其RDS 服务的现状,探究其总体特征和发展趋势，为国内RDS服务研究及实践的推广背书。目前国内RDS服务理论尚未形成统一认识,服务内容基本仍停留在粗放的文献供给层面，图书馆服务与互联网应用的渗透性互操作亟待加强。未来每位用户都是数据的开发者和知识的创造者，冀望图书馆摒弃传统的知识控制论，科学有效地组织起分散的知识内容,加速数据时代知识链条周转，成为科技增长的关键助力。"
+  },
+  "参考文献：": {
+    "context1": "[1]齐曼.真科学：它是什么,它指什么[M]．曾国屏,匡辉,张成 岗，译．上海：上海科技教育出版社，2008.   \n[2]TENOPIR C,BORCH B,ALLARD S.Academic libraries and research data services [EB/OL]． [017-01-05] .http://www. ala.org/acrl/sites/ala.org.acrl/files/content/publications/whitepapers/Tenopir_Birch_Allard.pdf   \n[3]CURDT C，HOFFMEISTER D.Research data management services for a multidisciplinary，collaborative research project $\\mathbb { I }$ .Program，2015，49(4):494-512.   \n[4] TAM W，FRY J,PROBETS S. The disciplinary shaping of research data management practices [EB/OL]．[2O17-O1-05]. https://www.ideals.illinois.edu/bitstream/handle/2142/47276/ 338_ready.pdf? sequence =2&isAllowed =y.   \n[5] DREYER M,VOLLMER A．An integral approach to support research data management at the Humboldt -Universität zu Berlin [EB/OL]． [2017-01- 05]．hp://www.eunis.org/eunis2016/wp-content/uploads/sites/8/2016/02/EUNIS2016_paper _66. pdf.   \n[6] MATTERN E,WEI J,HE D,et al. Using participatory design and visual narrative inquiry to investigate researchers’data challenges and recommendations for library research data services[]．Program，2015,49(4):408-423.   \n[7]WHITMIRE A，BOOCK M,SUTTON S.Variability in academic research data management practices [．Program，2O15，49(4): 382 -407.   \n[8]KRAFT A,RAZUM M,POTTHOFF J,et al. The RADAR Project a service for research data archival and publication [EB/O1]. [017 -01-05] ．http://www. mdpi.com/2220- 9964/5 /3/ 28 /htm.   \n[9] MAKANI J. Knowledge management，research data management, and university scholarship [．Vine,2015,45(3):344 -359.   \n[0] CANDELA L，ASSANTE M,TANI A,et al.Are scientifc data repositories coping with research data publishing [l．Data science journal,2016,15(6):1-24.   \n[]邓仲华,李立睿．面向科研的嵌入式知识推送服务研究(上) ．图书馆杂志, $2 0 1 5 ( 7 ) : 1 9 - 2 3$   \n[2]邓仲华，李立睿．面向科研的嵌入式知识推送服务研究(下) [．图书馆杂志, $2 0 1 5 \\left( 8 \\right) : 1 5 - 2 0$   \n[3]周晓燕，尹亚丽．国外高校图书馆科研数据服务人员知识结构 分析——以IASSIST网站中2015年的招聘信息为例[．图书 情报工作,2016,60(2):76-82.   \n[4] 王静,都平平,郭太敏,等.基于四螺旋模型的高校图书馆科研 数据知识服务风险管理研究[．图书馆，2015(3)：79-85.   \n[5]邵锐，付先华．面向科研的学科知识服务探索与实践—基于 武汉理工大学图书馆学科知识平台实证研究[．情报理论与 实践,2016(2):89-92.   \n[16]International Federation of Library Associations and Institutions. Big Data Special Interest Group [EB/O1]．[017-O2-01]．http://www.ifla.org/about-big-data.   \n[7]ALA.Librarian and researcher knowledge space EB/O1]．[017 -02-01]．http://www.ala.org/research/larks.   \n[18]Association of Research Libraries．About SHARE[EB/OL]. [017-04 -25].htp://www.share-research.org/about/aboutshare/.   \n[9]ACRL.2016 top trends in academic ibrariesEB/OI]．2016- 10-18]．htp://crln.acrl.org/content/77/6 /274. full.   \n[0]Office of Scienceand Technology Policy.Promoting open data, open govermment，and open science EB/Ol]．[2016 -10 -20]. https://www.whitehouse.gov/administration/eop/ostp/initiatives# Openness.   \n[1] American Chemical Society.SciFinder Scholar [EB/OL]．[017 -04 -10].htp://www.cas.org/products/scifinder/content.   \n[2] Universityof Minnesota．AgEcon Search [EB/Ol]．b017-04- 10l．http://ageconsearch.umn. edu/.   \n[3] National Science Foundation.Dissemination and sharing of research results [EB/O1]．[2016-10-22]．http://www.nsf.gov/bfa/ dias /policy/dmp. jsp.   \n4National Institutesof Health.Policyforsharing of data obtained in NIH supported or conducted genome-wide association studies EB/ O1]．b016 -10 -22] http://grants. nih. gov/grants/guide/notice-files/NOT-OD-07-088.html.   \n[5]Princeton University Library.Data and statistical service[EB/ OI]．[2016-10 -28] .hp://dssprinceton.edu/cgi-bin/da"
+  },
+  "张颖.美国研究型图书馆研究数据服务的实践进展及趋势[J].图书情报工作,2017,61（9):33－41.": {
+    "context1": "taresources /guides. cgi. http://vivo.cornell.edu/. 6] OCLC.ArchiveGrid [EB/OL][2016-10 -28] .ttp://www. [8]National Agricultural Library.i5k Workspace EB/Ol]．[016- oclc.org/research/activities/archivegrid. html. 10-30]．https://i5k.nal.usda. gov/. [7] Cornell University Library．VIVO [EB/OL]．[O16-10 -29]."
+  },
+  "The Trend and Practice of Data Service in American Research Libraries": {
+    "context1": "Zhang Ying",
+    "context2": "School of information Resource Management，Renmin University of China，Beijing 100872",
+    "context3": "Library of Tianjin Foreign Studies University，Tianjin 300204",
+    "context4": "Abstract:Purpose/significance] Computers play an irrplaceable role in the ternary world formed by humans，machinesandobjects.Andtheyare silent forces for socialchange.With thedigital age evolving to thedataage，scientific research has entered into the fourth paradigm.Both thescientificcommunityandthe individuals havea strong thirst for more in-epth，more convenient knowledge services.Under the urgeof academic users，theresearch libraries are actively promoting the user experience of knowledge service，which willhelpusers to expand knowledge discovery，andreveal the knowledgecontainedinthe literature.Knowledge servicecanbuildthelinkamong the knowledgeand formulate the knowledgemaps.Content-based knowledge serviceistheinevitablechoice to break throughthebotleneckof knowledge acquisition inthe context of machine learning prevalence.Method/process This paper systematically reviewed the practiceof knowledgeservices in Americanresearch libraries，and further analyzed thecorecontent of the services.Newcontentsof knowledgeservicesgivenbytheriseofresearchdata werealsoclarifiedbythisresearch.Attheendof this paper,the authordemonstrated thedevelopment trendsof the knowledge services.Result/conclusion] The content-based knowledge service istheinevitablechoiceof thelibrary for thedataage.Dataturnover effciencyis the future determinantof theamount of scientific research output.Knowledge services willbecome increasingly fragmented，associated and mobile.",
+    "context5": "Keywords: research librariesknowledge servicesresearch dataknowledge discoverydata management"
+  },
+  "《知识管理论坛》征稿启事": {
+    "context1": "《知识管理论坛》(ISSN2095-5472,CN11-6036/C)获批国家新闻出版广电总局网络出版物正式资质,2016年全新改版。本刊关注知识的生产、创造、组织、整合、挖掘、分享、分析、利用、创新等方面的研究成果。任何有关政府、企业、大学、图书馆以及其他各类实体组织和虚拟组织的知识管理问题,包括理论、方法、工具、技术、应用、政策、方案、最佳实践等，都在本刊的报道范畴之内。本刊实行按篇出版,稿件一经录用即进入快速出版流程，并实现立即完全的开放获取。",
+    "context2": "2017年各期内容侧重于：互联网 $^ +$ 知识管理、大数据与知识组织、实践社区与知识运营、内容管理与知识共享、知识创造与开放创新、数据挖掘与知识发现。现面向国内外学界业界征稿：",
+    "context3": "1.稿件的主题应与知识相关,探讨有关知识管理、知识服务、知识创新等相关问题。文章可侧重于理论,也可侧重于应用、技术、方法、模型、最佳实践等。",
+    "context4": "2.文章须言之有物,理论联系实际,研究目的明确,研究方法得当,有自己的学术见解,对理论或实践具有参考、借鉴或指导作用。",
+    "context5": "3.所有来稿均须经过论文的相似度检测，提交同行专家评议，并经过编辑部的初审、复审和终审。",
+    "context6": "4.文章篇幅不限,但一般以 $4 ~ 0 0 0 - 2 0 ~ 0 0 0$ 字为宜。",
+    "context7": "5.来稿将在1个月内告知录用与否。",
+    "context8": "6.稿件主要通过网络发表,如我刊的网站(www.kmf.ac.cn)和我刊授权的数据库。同时,实行开放获取、按篇出版和按需印刷。",
+    "context9": "请登录www.lis.ac.cn投稿,注明“知识管理论坛投稿”。",
+    "context10": "联系电话:010-82626611-6638 联系人：刘远颖"
+  }
+}

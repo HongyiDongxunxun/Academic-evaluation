@@ -1,0 +1,130 @@
+{
+  "original_filename": "full_7139.md",
+  "文献科学计量陈氏预测指标及其应用述评": {
+    "context1": "于志涛，牟晓青",
+    "context2": "（山东理工大学外国语学院，山东 淄博 255049)",
+    "context3": "[摘要]对陈超美（2012年）提出的文献学术影响力预测指标进行验证性研究，发现其只适用于跨界研究文献，依赖于文献引文的真实性和规范性，并且具有可以被精确注水的重大缺陷。在实际应用中，应注意到陈氏预测指标的局限性，加强引文审查，完善数据库建设，与定性分析相结合。",
+    "context4": "[关键词]文献学术影响评价；SVM指标；缺陷；对策[中图分类号]G250[文献标识码〕A〔文章编号〕1002-1167（2013）04-0032-10",
+    "context5": "[引用本文格式]于志涛，牟晓青．文献科学计量陈氏预测指标及其应用述评〔J]．图书馆论坛，2013(4):32-41.",
+    "context6": "对科学文献学术影响力计量的研究，一直是图书情报学领域的重要课题。自引文索引思想提出以来，文献被引频次就成为文献学术影响力测量的主要指标之一。但该指标的测量具有延迟性，无法在文献发表时即进行测定。研究证实，文献发表期刊、作者及所在机构的特征数据等可作为文献学术影响力预测指标，但其脱离文献本身的外在因素特性，决定了它们的先天不足，无法为预测提供直接必然性的支持。",
+    "context7": "陈超美（2012年）从科学知识图谱分析角度提出了一种全新的预测性文献计量方法，称为结构变异模型（StructuralVariation Model，SVM)，包括模块性变化率（Modularity Change Rate，MCR）、簇间联动指数（ClusterLinkage，CL）和中心性散度（Cen-tralityDivergence，CD）三个测量指标[。该方法对现有科学领域知识结构建立基准网络结构图谱，测量新文献引入的新跨界联系，以此预测新文献的被引频次，即潜在学术影响力。"
+  },
+  "1陈氏研究简介": "",
+  "1.1预测指标定义与计算": {
+    "context1": "陈超美（2012年）对SVM预测指标进行了定义，提出了计算方法。SVM方法需要以某文献发表的前一年为截止年，建立文献集合的共引或共生网络，作为基准网络。测量指标均系基于基准网络进行"
+  },
+  "计算。": "",
+  "1.1.1模块性变化率(MCR)": {
+    "context1": "模块性指数（Modularity）是对网络图谱中节点聚类之间的互链性程度的测量。MCR则测量某篇文献引入后，网络图谱相对于基准网络所发生的聚类间互链性程度的相对变化。",
+    "context2": "MCR的计算采用纽曼算法（Newman’s algo-rithm），引入克罗内克函数（Kronecker’sdelta），公式如下：",
+    "context3": "$$\nM C R ( a ) = \\frac { Q ( G _ { b a s e l i n e } , C ) - Q ( G _ { b a s e l i n e } \\oplus G _ { a } , C ) } { Q ( G _ { b a s e l i n e } , C ) } \\cdot 1 0 0 ,\n$$",
+    "context4": "$$\n\\mathcal { Q } ( G , C ) = \\frac { 1 } { 2 m } \\sum _ { i , j = 0 } ^ { n } \\delta ( c _ { i } , c _ { j } ) \\cdot ( A _ { i j } - \\frac { \\deg ( n _ { i } ) \\cdot \\deg ( n _ { j } ) } { 2 m } )\n$$",
+    "context5": "公式说明：以分区标准C将网络G分为 $\\mathrm { k }$ 个聚类， $\\mathrm { m }$ 为网络G的所有连接数， $\\mathrm { n }$ 为网络G的节点数，deg $\\mathrm { { ( n _ { i } } }$ ）为节点 $\\mathrm { n } _ { \\mathrm { i } }$ 度值。MCR（a）为文献a引入后发生的模块性变化率， $\\mathrm { G } _ { \\mathrm { b a s e l i n e } }$ 为基准网络， $\\mathrm { G } _ { \\mathrm { b a s e l i n e } }$ $\\textcircled{+} \\mathrm { G } _ { \\mathrm { a } }$ 为文献a的信息引入之后得到更新的基准网络。"
+  },
+  "1.1.2簇间联动指数（CL)": {
+    "context1": "CL是从文献a引入之后，网络图谱中聚类间新增连接数量的角度，来测量发生的总体结构变化。公式如下：",
+    "context2": "$$\nC L ( a ) = \\Delta L i n k a g e ( a ) = L i n k a g e ( G _ { b a s e l i n e } \\oplus G _ { a } , C ) - L i n k a g e ( G _ { b a s e l i n e } , C )\n$$",
+    "context3": "$$\nL i n k a g e ( G , C ) = \\frac { \\sum _ { i \\neq j } ^ { n } \\lambda _ { i j } e _ { i j } } { K } , \\lambda _ { i j } = \\{ _ { 1 , n _ { i } \\notin c _ { j } } ^ { 0 , n _ { i } \\in c _ { j } }\n$$",
+    "context4": "公式说明： $\\mathrm { e _ { i j } }$ 为网络图谱中聚类间的连接数，Linkage 为 $\\mathrm { e _ { i j } }$ 的权数总和。为保证CL对聚类间新增连接变化的敏感性，实际应用中其计算引入连接权数，以文献在统计数据集中的参考文献分布数与其参考文献总数的比率为参考指标，进行加权处理，称为ClusterLinkageWeightedByCR_NR，仍简称CL。"
+  },
+  "1.1.3中心性分布散度（CD)": {
+    "context1": "中心性分布散度，是从网络图谱中所有节点的中介中心性分布散度的角度，测量文献a引入后引发的结构变异。计算公式如下：",
+    "context2": "$$\nC D ( G _ { b a s e l i n e } , a ) = \\sum _ { i = 0 } ^ { n } p _ { i } \\cdot \\log ( \\frac { p _ { i } } { q _ { i } } ) , ~ p _ { i } = C _ { _ B } ( \\nu _ { i } , G _ { b a s e l i n e } ) \\ ,\n$$",
+    "context3": "$$\nq _ { i } = C _ { \\scriptscriptstyle B } ( \\nu _ { i } , G _ { u p d a t e d } )\n$$",
+    "context4": "公式说明： $\\mathrm { C _ { B } }$ （ $\\mathbf { \\bar { \\rho } } _ { \\mathrm { { V } _ { i } } }$ ）为网络图谱中节点vi的中介中心度（Betweenness Centrality）。"
+  },
+  "1.2SVM的核心原理与理论基础": {
+    "context1": "SVM计量方法的核心是对跨界活动（Boundary-SpanningActivities）的测量。关于跨界机制，Rosen-kopf，L.，Nerkar，A.（2001 年）和 Upham，S P.,Rosenkopf，L.，&Ungar，L.H.（2010 年）均做过相应的研究。前者对光盘技术专利研究中的跨界活动进行研究，发现：没有跨越机构边界的专利研究对后续技术演进的影响始终较低；跨越机构边界而非技术边界的专利研究，对光盘领域内的后续技术演进有最高的影响力；而同时跨越机构和技术边界的专利研究，对光盘领域之外的后续技术演进具有最高影响力[2]。后者研究发现，具有强内聚力的学术流派知识结构，对知识新发展既有促进作用又有抑制作用；新知识点在知识结构中的核心一边缘位置会对其自身的学术影响力产生影响；新知识点位于知识结构之内的半边缘地带时，具有更高的学术影响力3]。",
+    "context2": "可以看出，跨界活动产生的机制在于，半边缘地带的新知识点既具有所属学术流派的稳固知识基础，也因其散射状边缘分布特点，极具活跃性，会连接更多的学术流派知识结构网络，易引起研究关注。故包含此类新知识点的文献极易引发高被引，从而产生较"
+  },
+  "高的学术影响力。": {
+    "context1": "SVM的理论基础是D.R.Swanson 的隐性公开知识发现法（Undiscovered Public Knowledge，UPK）[4]。Swanson（1986年，1988年，1990年）对生物医学领域的三个实例进行研究发现，科学文献中存在互补性、非交互式结构，该结构可引发新的科学假设，即ABC 模型（ABC Model）[5][6][7]。 Swanson 与 NeilSmalheiser以此为依据在神经病学领域进行深入合作研究（1994，1996，1998），成果卓著，亦开发了辅助统计软件Arrowsmith(8][9][10] [11]。",
+    "context2": "陈氏SVM方法是对ABC模型方法的进一步发展，但有实质性差异。ABC模型方法依赖于先验性的科学假设，为闭合式验证过程，旨在寻找文献集合间的潜在联系。而SVM方法则为开放式检出过程，借助于CiteSpace进行网络图谱分析，探查特定领域内每一文献所建立的全新联系，致力于在特定文献集合内，以文献引入的新联系为依据评价其潜在学术影响力。"
+  },
+  "1.3陈氏预测指标的优势": {
+    "context1": "陈氏预测指标立足于某一特定领域的全部文献，可以发现新文献引发的所有新连接，绘制新文献的跨界活动全景图，对新文献的潜在学术影响力和新颖度均有较为直观的表征。",
+    "context2": "相对于传统的文献学术影响力分析指标，陈氏指标具有不容置疑的时效性，文献发表之时，即可确定其潜在的学术影响力；可用于论文投稿甄选和科研项目评审，极具前瞻性。"
+  },
+  "2陈氏预测指标的数理分析": "",
+  "2.1样本数据总体分析": {
+    "context1": "以样本数据 Social Networks（1996-2002）[12）为文献源，应用CiteSpace3.O进行分析，选择时间切片为1年，以Top100为阈值，共处理1870条文献记录，有效被引文献78596篇，有效率为 $9 9 . \\ 9 9 3 6 \\%$ 。得到节点390个，连接2044条。对文献进行结构变异分析，共获得1414条数据记录，使用SPSS15.0进行统计，结果见表1。",
+    "context2": "表1 Social Networks（1996-2002）数据集 SVM指标统计",
+    "context3": "<table><tr><td></td><td>N</td><td>Range</td><td>Minimum</td><td>Maximum</td><td>Mean</td><td>Std.Deviation</td><td>Pearson Correlation</td></tr><tr><td>ModularityChangea</td><td>1414</td><td>21. 4717</td><td>-4.9354</td><td>16.5363</td><td>.064198</td><td>.6420398</td><td>rab=.874**</td></tr><tr><td>ClusterLinkageb WeightedByCR_NR</td><td>1414</td><td>1. 7154</td><td>.0000</td><td>1. 7154</td><td>.007633</td><td>.0630914</td><td>rac=.460** Ibc=.594**</td></tr><tr><td>CentralityDivergencee</td><td>1414</td><td>.2138</td><td>.0000</td><td>.2138</td><td>.003516</td><td>.0141098</td><td>Sig.（2-tailed）=.000</td></tr></table>",
+    "context4": "由表1可知，三个SVM指标中，MCR 的全距、数据跨度和组内离散程度均最大；CD的全距与组内离散程度最小，整组数据最为聚集。三个指标相互之间均有非常显著的相关关系。根据相关系数值解释（张厚粲，徐建平，2003年）(13]，CD与MCR、CL之间为中等正相关，MCR与CL之间为非常强正相关。这是由其测量本质决定的，MCR与CL测量的均为聚类间的连接关系，前者考察聚类间的互链性程度，后者侧重聚类间的新增连接数量；CD则从全局出发测量节点中介中心性的分布情况。总体来看，三个指标的测量效度具有同质性。"
+  },
+  "2.2SVM指标预测力的有效性检验": {
+    "context1": "本研究以globalCites（Web of Science 被引频次，截止到2002年）为文献学术影响力表征指标，检验SVM指标的预测作用。globalCites为区间变量，且不服从正态分布，故在 SPSSl5.O中采用 Spearman相关分析，结果见表2。",
+    "context2": "表2Social Networks（1996-2002）数据集 SVM指标  \n与 globalCites 相关分析（Spearman’s rho)",
+    "context3": "<table><tr><td colspan=\"2\">(N=1414)</td><td>globalCites</td></tr><tr><td>ModularityChange</td><td>Correlation Coefficient Sig.(2-tailed)</td><td>.078** .003</td></tr><tr><td>ClusterLinkage</td><td>Correlation Coefficient</td><td>.119**</td></tr><tr><td>WeightedByCR_NR</td><td>Sig.(2-tailed)</td><td>.000</td></tr><tr><td rowspan=\"2\">CentralityDivergence</td><td>Correlation Coefficient</td><td>.149**</td></tr><tr><td>Sig. (2-tailed)</td><td>.000</td></tr></table>",
+    "context4": "由表2可知，SVM三指标与globalCites均呈显著的正相关，但相关系数均极低。结合图1、图2、图3可知，SVM三指标与globalCites之间均非线性相关关系。在MATLAB中对数据曲线进行平滑处理，发现曲线高度波动，三指标与globalCites之间的曲线关系非常复杂。为保证研究推论的稳健性，本研究使用非参数检验方法对三指标的预测作用进行检验。",
+    "context5": "同时在MATLABR2012a中，以globalCites 为因变量，分别以 MCR、CL、CD为自变量，绘制散点",
+    "context6": "![](images/934d4f25e4a04099d232c3850703256c07a9796a3bbac86bb5df1d51fb002f64.jpg)  \n图，标示特定数据点，见图1、图2、图3。  \n图1globalCites vs ModularityChange 散点图",
+    "context7": "![](images/75ca14446d767ebca6ef0fa4b2b871d2e2b1253f34550953541c4e9d60cb0f25.jpg)  \n图2globalCites vs ClusterLinkageWeightedByCR_NR 散点图",
+    "context8": "![](images/0f11146de09a19dd223ddd92e2ab809819d903b0e0212e67beaa9c933704516b.jpg)  \n图3globalCites vs CentralitDivergence 散点图",
+    "context9": "将 MCR数据分为大于0、等于〇和小于（三组，建立分组变量，以globalCites为检验变量，进行独立样本分析，结果见表3和表4。当文献的MCR值不为0时，其被引频次非常显著的高于MCR值为时。",
+    "context10": "即，文献被引入共引网络时，引起 MCR变动的，其被引频次非常显著的高于MCR未发生变动的文献。",
+    "context11": "将CL和CD数据各分为大于O、等于O两组，建立分组变量，以globalCites为检验变量，进行独立样本分析，结果见表5。当文献的CL值大于。时，其被引频次非常显著的高于CL值为时；当文献的CD值大于0时，其被引频次非常显著的高于CD值为（时。即文献被引入共引网络时，引起CL变动的，其被引频次非常显著的高于CL未发生变动的文献；引起CD变动的，其被引频次非常显著的高于CD未发生变动的文献。",
+    "context12": "表3globalCites vs ModularityChange 分组检验统计列表",
+    "context13": "<table><tr><td rowspan=\"5\">Ranks</td><td>分组</td><td>N</td><td>Mean Rank</td></tr><tr><td>MCR&gt;0</td><td>304</td><td>810.26</td></tr><tr><td>MCR&lt;0</td><td>134</td><td>772.07</td></tr><tr><td>MCR=0</td><td>976</td><td>666.63</td></tr><tr><td>Total</td><td>1414</td><td></td></tr><tr><td rowspan=\"4\">Kruskal Wallis Test</td><td>Chi-Square</td><td></td><td>32.796</td></tr><tr><td>df</td><td></td><td>2</td></tr><tr><td>Asymp. Sig</td><td></td><td>.000</td></tr><tr><td>Monte Carlo Sig</td><td>·</td><td>.000a</td></tr></table>",
+    "context14": "aBased on 10ooO sampled tables with starting seed 926214481.",
+    "context15": "表4globalCites vs ModularityChange分组两两检验统计列表",
+    "context16": "<table><tr><td>G1：Mean Rank=222. 67，Sum of Ranks=67692. 50</td><td colspan=\"2\">G2：MCR&lt;0</td><td colspan=\"2\">G3：MCR=0</td></tr><tr><td rowspan=\"9\"></td><td colspan=\"2\">G2：Mean Rank=212. 30，Sum of Ranks=28448.50</td><td colspan=\"2\">G3：Mean Rank=609.48，Sum of Ranks=594854.00</td></tr><tr><td></td><td></td><td>Mann-Whitney U</td><td>118078.000</td></tr><tr><td>Mann-Whitney U Wilcoxon W</td><td>19403.500 28448.500</td><td>Wilcoxon W</td><td>594854.000</td></tr><tr><td>Z</td><td></td><td>Z</td><td></td></tr><tr><td></td><td>-. 793</td><td></td><td>-5.415</td></tr><tr><td>Asymp. Sig.(2-tailed) Monte Carlo Sig.(2-tailed)</td><td>.428</td><td>Asymp. Sig.(2-tailed)</td><td>.000 .000b</td></tr><tr><td>Monte Carlo Sig.(1-tailed)</td><td>.427a .217a</td><td>Monte Carlo Sig. (2-tailed) Monte Carlo Sig.(1-tailed)</td><td>.000b</td></tr><tr><td></td><td></td><td>G2：Mean Rank=627.27，Sum of Ranks=84054.50</td><td></td></tr><tr><td rowspan=\"7\">注： 624387341.</td><td></td><td colspan=\"2\">G3：Mean Rank=545. 65，Sum of Ranks=532550.50</td></tr><tr><td>Based on loooo sampled tables with starting seed a</td><td>Mann-Whitney U</td><td>55774.500</td></tr><tr><td></td><td>Wilcoxon W</td><td>532550.500</td></tr><tr><td>Based on loooo sampled tables with starting seed 334431365.</td><td>Z</td><td>-2.785</td></tr><tr><td>Based on loooo sampled tables with starting seed</td><td>Asymp.Sig.(2-tailed)</td><td>.005</td></tr><tr><td>1502173562.</td><td>Monte Carlo Sig. (2-tailed)</td><td>.006c</td></tr><tr><td></td><td>Monte Carlo Sig.(l-tailed)</td><td>.003c</td></tr></table>",
+    "context17": "表5globalCites Vs ClusterLinkageWeightedByCR_NR、globalCites vs CentralitDivergence 分组检验统计列表",
+    "context18": "<table><tr><td rowspan=\"5\">Ranks</td><td>分组</td><td>N</td><td>Mean Rank</td><td>Sum of Ranks</td><td>分组</td><td>N</td><td>Mean Rank</td><td>Sum of Ranks</td></tr><tr><td>CL&gt;0</td><td>144</td><td>851.80</td><td>122659.50</td><td>CD&gt;0</td><td>428</td><td>796.17</td><td>340760.50</td></tr><tr><td>CL=0</td><td>1270</td><td>691. 14</td><td>877745.50</td><td>CD=0</td><td>986</td><td>669.01</td><td>659644. 50</td></tr><tr><td>Total</td><td>1414</td><td></td><td></td><td>Total</td><td>1414</td><td></td><td></td></tr><tr><td colspan=\"2\">Mann-Whitney U</td><td colspan=\"2\">70660.500</td><td colspan=\"2\">Mann-Whitney U</td><td colspan=\"2\">173053. 500</td></tr><tr><td rowspan=\"5\">Kruskal Wallis Test</td><td colspan=\"2\">Wilcoxon W</td><td colspan=\"2\">877745. 500</td><td colspan=\"2\">Wilcoxon W</td><td colspan=\"2\">659644. 500</td></tr><tr><td colspan=\"2\">Z</td><td colspan=\"2\">-4.503</td><td colspan=\"2\">Z</td><td colspan=\"2\">-5. 414</td></tr><tr><td colspan=\"2\">Asymp.Sig.(2-tailed)</td><td colspan=\"2\">.000</td><td colspan=\"2\">Asymp.Sig.(2-tailed)</td><td colspan=\"2\">.000</td></tr><tr><td colspan=\"2\">Monte Carlo Sig. (2-tailed)</td><td colspan=\"2\">.000a</td><td colspan=\"2\">Monte Carlo Sig. (2-tailed)</td><td colspan=\"2\">.000b</td></tr><tr><td colspan=\"2\">Monte Carlo Sig.(l-tailed)</td><td colspan=\"2\">.000a</td><td colspan=\"2\">Monte Carlo Sig. (1-tailed)</td><td colspan=\"2\">.000b</td></tr></table>",
+    "context19": "a Based on1000 sampled tables with starting seed743671174.bBasedon1000 sampled tables with starting seed 957002199.",
+    "context20": "从非参数检验来看，三个SVM指标均可作为文献被引频次的有效预测指标。借助于CiteSpace工具可获取文献的SVM指标，实现可视化分析。本研究以文献 From social integration to health :",
+    "context21": "Durkheim in the new millennium （文献1）和 Socialsupport and social network profiles among women inmethadone（文献2）为例进行结构变异分析，见图4和图5。",
+    "context22": "![](images/56143e33bce2d5894e053239d90eeffe9f078f283e72e417f7f22a33649a6db6.jpg)  \n图4文献1引入后网络结构变化图谱 (虚线为新增连接）",
+    "context23": "文献1：Berkman L.F.，Glass T.，Brissette I.，Seeman T.E. Soc. Sci.Med.，200o，51（6)：843-857. $\\mathrm { M C R } = 1 6 , \\ 5 3 6 3$ ， $\\mathrm { C L } =$ 1. 7154， $\\mathrm { C D = 0 . \\ 1 9 8 1 }$ ，新增连接 $= 1 2 8$ ，Web of Science 被引频次 $= 6 5$ （截止到2002年），Google Scholar被引频次 $= 1 0 5 7$ （截止日期2012-04-17)",
+    "context24": "![](images/631b692cb575583a9e69b2339db26b2fbf49d8f3f07129a6b2a3dc59560c9abf.jpg)  \n图5文献2引入后网络结构变化图谱 (虚线为新增连接）",
+    "context25": "文献1是对社会学与人类学家爱米尔·涂尔干（EmileDurkheim）社会整合与自杀研究，以及精神病学家约翰·鲍尔比（JohnBowlby）依恋理论的发展，提出了从宏观社会到个体心理生理过程的动态联系级联因果概念模型（ACascadingCausal Process），阐述了社会整合对个体健康的影响。该研究涉及社会整合、社会网络、社会支持、社会流行病学、健康医学，横跨社会学、人类学和精神病学三个领域。在统计源文献集合中，文献1的 MCR 和CL均为最高，CD 为第三位；截止到2002年，在Webof Science中的被引频次为65；截止到2012-04-17，在GoogleScholar中的被引频次达到1057，是2002年的16.26倍。文献2对151名使用美沙酮（Methadone）的女性的社会网络和社会支持情况进行研究。被试共报告795名社会网络成员，平均网络规模为5.9个个体；其社会网络具有长期性、种族单一性和高密度特性。该研究涉及社会学、犯罪学和医学领域。在统计源文献集合中，文献2的CD为最高，MCR和CL均为第二位；截止到2002年，在WebofScience中的被引频次为6；截止到2012-04-17，在Google Scholar中的被引频次达到42，是2002年的7倍。"
+  },
+  "3陈氏预测指标的缺陷分析": {
+    "context1": "根据数理分析，本研究发现：SVM指标可作为文献被引频次的有效预测指标，且具可视化和时效性；与现有其他预测指标相比，SVM指标更具客观性，可直接呈现为数值；但其缺陷也十分明显。",
+    "context2": "首先，SVM指标的计算，需要从文献收录数据库采集大量数据，保证数据的涵盖性，方可实现计算的指标接近真实。依赖手工采集数据亦可实现，但需耗费大量时间和精力，难以实现大范围的数据涵盖。因此，数据库建设的完善性十分重要，其收录期刊文献数据的全面程度与数据编辑的规范程度，均会对SVM指标计算构成影响。",
+    "context3": "其次，从计算本质来看，SVM指标依赖于引文分析，故参考文献使用的真实性是一个重要影响因素，其虚假引用必然会削弱SVM分析的科学性。",
+    "context4": "最后，从非参数检验来看，SVM指标更适用于跨界研究文献。根据表3、表5，结合图1、图2和图3可知，SVM指标为O的比例相当大， ${ \\mathrm { M C R } } = 0$ 的文献比例占到 $6 9 . \\ 0 2 \\%$ ， $\\mathrm { C L } = 0$ 的 $8 9 . 8 2 \\%$ ， $\\mathrm { C D } = 0$ 的$6 9 . 7 3 \\%$ ，这些文献中也具有高被引现象。从图4和图5来看，文献的参考文献引用跨越聚类时更易引发SVM指标变动。若新文献是对聚类内部研究的深化，其参考文献引用更易局限在聚类内部，不易引起SVM指标变化，则其对被引频次的预测作用就难以体现。"
+  },
+  "4精确注水问题研究": {
+    "context1": "既然SVM指标依赖于引文分析，则可能导致参考文献使用的注水问题。即陈氏指标的计算方法具有可以被精确注水的重大缺陷。对此，本文作了进一步研究。",
+    "context2": "本研究使用CiteSpace，以Top3O为阈值，对 So-cialNetworks（1996-2002）数据集合进行分析，得到节点104个，连接242个，结果见图6，关键节点共13个，统计见表6。",
+    "context3": "表6SocialNetworks（1996-2002）关键节点统计列表",
+    "context4": "<table><tr><td>序号</td><td>Freq</td><td>Centrality</td><td>Author</td><td>Year</td><td>Source</td><td>Vol</td><td>Page</td></tr><tr><td>1</td><td>78</td><td>0.62</td><td>COHEN S</td><td>1985</td><td>PSYCHOL BULL</td><td>V98</td><td>P310</td></tr><tr><td>2</td><td>36</td><td>0.56</td><td>WELLMAN B</td><td>1990</td><td>AMJ SOCIOL</td><td>V96</td><td>P558</td></tr><tr><td>3</td><td>152</td><td>0.49</td><td>GRANOVETTER MS</td><td>1973</td><td>AM J SOCIOL</td><td>V78</td><td>P1360</td></tr><tr><td>4</td><td>47</td><td>0.36</td><td>SCOTTJ</td><td>1991</td><td>SOCIAL NETWORK ANAL</td><td>V</td><td>P</td></tr><tr><td>5</td><td>130</td><td>0.33</td><td>WASSERMAN S</td><td>1994</td><td>SOCIAL NETWORK ANAL</td><td>V</td><td>P</td></tr><tr><td>6</td><td>36</td><td>0.29</td><td>MARSDEN PV</td><td>1990</td><td>ANNU REV SOCIOL</td><td>V16</td><td>P435</td></tr><tr><td>7</td><td>42</td><td>0.17</td><td>KLOVDAHL AS</td><td>1985</td><td>SOC SCI MED</td><td>V21</td><td>P1203</td></tr><tr><td>8</td><td>71</td><td>0.16</td><td>FREEMAN LC</td><td>1979</td><td>SOCNETWORKS</td><td>V1</td><td>P215</td></tr><tr><td>9</td><td>44</td><td>0.16</td><td>BURTRS</td><td>1992</td><td>STRUCTURAL HOLES SOC</td><td>V</td><td>P</td></tr><tr><td>10</td><td>96</td><td>0.15</td><td>BERKMANLF</td><td>1979</td><td>AMJEPIDEMIOL</td><td>V109</td><td>P186</td></tr><tr><td>11</td><td>35</td><td>0.15</td><td>MARSDEN PV</td><td>1987</td><td>AM SOCIOL REV</td><td>V52</td><td>P122</td></tr><tr><td>12</td><td>27</td><td>0.12</td><td>KNOKE D</td><td>1982</td><td>NETWORK ANAL</td><td>V</td><td>P</td></tr><tr><td>13</td><td>19</td><td>0.12</td><td>PODOLNY JM</td><td>1997</td><td>AM SOCIOL REV</td><td>V62</td><td>P673</td></tr></table>",
+    "context5": "本研究选定文献 Making invisible workvisible:Using social network analysis to support strategic col-laboration（CROSS R， 2002，CALIF MANAFE",
+    "context6": "REV，V44，P25，简称CROSSR文献）进行注水研究。对CROSSR文献进行SVM分析，结果见图7。",
+    "context7": "![](images/aa63813ccd1c0cdcbe9beb193c3814908e7384b78d23586de8c44b24961fe7ad.jpg)  \n图6SocialNetworks（1996-2002）被引网络图谱",
+    "context8": "![](images/677283fe96b1b85b046a6d34795958184e2bde8189b42e281a28f06622730390.jpg)  \n图7CROSSR文献 SVM分析可视化",
+    "context9": "在图7中，CROSSR文献的新增连接发生在聚类1中。结合图6、表6可知，关键节点 $1 { \\mathrm { - C O H E N } }$ S文献和关键节点1O－BERKMANLF文献位于聚类2，均具有较高的中介中心性和被引频次。根据",
+    "context10": "SVM计算原理，聚类间跨界引用更易引发SVM指标变化。所以，本研究将使用COHENS文献和BERKMANLF文献进行注水，结果见图8、图9和表7。",
+    "context11": "![](images/66978b6a3e8e631d60dbdde09bb4076120c0b686b884fd66732aadec8f2cb933.jpg)  \n图8使用COHENS文献注水后的SVM分析可视化",
+    "context12": "![](images/b335b01e437fce024c6857c924bf939854a43ef23f6bbc8b89466f412b51124d.jpg)  \n图9使用COHENS和BERKMAN LF两个文献注水后的SVM分析可视化",
+    "context13": "表7CROSSR文献注水研究统计",
+    "context14": "<table><tr><td>说明</td><td>Modularity Changen Rate</td><td>ClusterLinkage WeightedByCR_NR</td><td>Centrality Divergence</td><td>novel_links</td><td>novel_rate</td></tr><tr><td>CROSSR文献原始数据</td><td>0.4008</td><td>0</td><td>0.0145</td><td>1</td><td>0.33333334</td></tr><tr><td>添加COHEN S文献后</td><td>5.72</td><td>0.05</td><td>0.0411</td><td>4</td><td>0. 6666667</td></tr><tr><td>再添加BERKMAN LF文献后</td><td>11. 1261</td><td>0.1458</td><td>0.0902</td><td>8</td><td>0.8</td></tr></table>",
+    "context15": "由图8、图9和表7可知，CROSSR文献被注水后，SVM指标有了很大改善。CROSSR文献原始数据中，新增连接仅为1，新颖率仅为0.33。用CO-HENS文献注水后，新增连接改为4，新颖率为0.67，MCR增加13.27倍，CL增加为0.05，CD增加1.83倍。用COHEN S和 BERKMANLF 两个文献进行注水后，新增连接改为8，新颖率为0.8；和原始数据相比较，MCR增加26.76倍，CL增加为0.1458，CD增加5.22倍。可见，注水行为可显著提高SVM指标，极大地破坏了SVM分析的科学性和客观性。",
+    "context16": "可以预见，随着SVM指标在文献学术影响力预测分析中的推广应用，会有精确注水行为发生。注水引用中，引用者并非真正引证文献，来源文献与被引文献之间为虚假关系，这必将扰乱文献引用规律。引文分析也就无法作为测定著者、文献、学科学术影响力的依据。大量注水行为的发生，最终将导致引文数据无法真实反映科学知识演进的关系和路径，引文数据库也就失去存在的意义。"
+  },
+  "5结论与建议": {
+    "context1": "本研究对SVM指标的预测作用、自身缺陷、精确注水问题与危害进行了研究分析，结论如下：（1）SVM指标只适用于跨界研究文献，可有效预测其被引频次；（2）SVM指标的应用依赖于数据库文献收录的完善性和引文使用的真实性与规范性，具有一定的局限性；（3）SVM指标的应用具有可以被精确注水的重大缺陷。",
+    "context2": "据此，本研究提出如下对策和建议：",
+    "context3": "（1）SVM分析应只用于跨界研究文献的学术影响力预测评价。目前的 SVM分析以科学知识跨界活动机制为基础，主要关注聚类间的连接变动，无法反映聚类内部的连接变动。因此，跨界研究文献易于检出。但亦造成大量文献的SVM指标为O，失去预测意义。这是由SVM分析所依据的原理造成的必然缺陷。所以，在对文献学术影响力进行预测评价时，尚不能仅仅依赖于SVM分析。即，SVM指标的应用具有局限性，应只用于跨界研究文献的学术影响力预测评价。",
+    "context4": "（2）加强引文真实性审查。SVM分析的主要依据为引文分析，所以引文的真实性就十分关键。注水研究表明，SVM分析之前应该首先审查引文的真实性，可使用内容分析技术，对引文与来源文献的关联程度进行分析，确保杜绝注水引文。",
+    "context5": "（3）文献收录数据库建设。SVM分析的数据采集依赖于文献收录数据库，数据库所提供文献的覆盖率和引文准确性需要进一步完善。",
+    "context6": "数据库的覆盖率，主要考察数据库收录的文献是否能够真实反映科学知识的主要全貌。收录文献过少，自然不能反映全貌；但收录过多，包含太多低学术价值文献，也无法反应真实的全貌。科研界应不断完善期刊与文献评价指标，使其能够更真实地反映期刊文献的学术价值。数据库在收录期刊文献时可依据评价指标进行选取收录，剔除低级重复研究。",
+    "context7": "引文的准确性，除了引文的真实性之外，还包括引文格式的规范性，可避免因格式不统一，造成部分数据不能分析或引文重复识别。目前的论文写作规范仍需进一步统一和推广，数据库在录入时亦可使用审查软件作进一步的修正。各数据库之间亦应统一规范，消除进行跨数据库综合分析时的天然壁垒。",
+    "context8": "（4）定量分析应结合定性分析。在文献、研究项目和人才的学术影响力评价中，不应过分依赖定量数据，应结合定性分析，不能完全抛弃以经验知识为基础的学术评价方法。在评价中，应以定量数据为基"
+  },
+  "础，根据定性分析排除异常情况作出较为客观全面的结论。": {
+    "context1": "对期刊文献等的学术影响力评价，要实现其客观、真实和科学，是一个系统工程，需要著者、期刊出版机构、数据库建设机构、评价研究结构等的通力合作，绝不是任何一方，也不是任何一种技术手段或评价方法独自就能够解决的。"
+  },
+  "[参考文献]": {
+    "context1": "[1] Chen，C. Predictive effects of structural variation on citation counts [J]．J.Am.Soc.Inf．Sci.，2012，63： 431-449.doi：10．1002/asi．21694.   \n[2]Rosenkopf，L.and Nerkar，A.Beyond local search: boundary-spanning，exploration，and impact in the optical disk industry [J]．Strat.Mgmt.J.，2001，22： 287-306.doi：10．1002/smj．160   \n[3]Upham，S.P.，Rosenkopf,L.，& Ungar，L.H.Positioning knowledge：schools of thought and new knowledge creation[J]．Scientometrics，2010，83，555-581.   \n[4]Swanson，D. R.On the Fragmentation of Knowledge, the Connection Explosion，and Assembling Other People’s Ideas[EB/OL].[2012-04-15]．http://www. asis. org/Bulletin/Mar-O1/swanson. html.   \n[5]Swanson，D.R.Fish Oil，Raynaud’s syndrome，and undiscovered public knowledge [J]．Perspectives in Biology and Medicine，1986，30，7-18.   \n[6] Swanson，D. R. Migraine and magnesium：Eleven neglected connections[J]． Perspectives in Biology and Medicine，1988，31，526-557.   \n[7]Swanson，D. R. Somatomedin C and arginine：Implicit connections between mutually-isolated literatures [J]. Perspectives in Biology and Medicine，199o，33，157- 186.   \n[8]Smalheiser，N. R.& Swanson，D. R.Assessing a gap in the biomedical literature：Magnesium deficiency and neurologic disease[J]． Neuroscience Research Communications，1994，15，1-9.   \n[9]Smalheiser，N.R.&Swanson，D.R.Indomethacin and Alzheimer’s disease[J]．Neurology，1996，46, 583.   \n[10]Smalheiser，N.R.& Swanson，D.R. Linking estrogen to Alzheimer’s disease：An informatics approach [JJ．Neurology，1996，47，809-810.   \n[11]Smalheiser，N.R.& Swanson，D.R.Calcium-inde pendent phospholipase A2 and schizophrenia [J]．Archives of General Psychiatry，1998，55，752-753.   \n[12]Chaomei Chen. CiteSpace：Visualizing Patterns and Trends in Scientific Literature [EB/OL].[2012-03-30].http：// cluster ischool drexel edu/ $\\sim$ cchen/citespace/download. html."
+  },
+  "〔13]张厚粲，徐建平．现代心理与教育统计学〔M．北京：北京师范大学出版社，2003：166.": "",
+  "Chen's Indicators for Scientometrics and Their Application": {
+    "context1": "YU Zhi-tao，MU Xiao qing",
+    "context2": "(School of Foreign Languages，Shandong University of Technology，Zibo 255049，China)",
+    "context3": "Abstract：Validation studies in Chen's indicators，putforward in 2O12 to predictacademic impactforliterature，show they onlyaply tothe transboundaryresearchon literatureandquite dependontheauthenticityand normalizationofcitations，whose precisionarechalenged.In practicaluse，atentions should bepaid tothe limitationsof those indicators，citation examination be strengthened，database construction be improved and qualitative analysis be adopted to help the prediction.",
+    "context4": "Keywords：academic impact evaluation；SVM indicator；defect；countermeasure",
+    "context5": "[作者简介]于志涛（1978一），男，硕士，山东理工大学外国语学院讲师；牟晓青（ $1 9 7 6 - )$ ，女，硕士，山东理工大学外国语学院讲师。"
+  }
+}

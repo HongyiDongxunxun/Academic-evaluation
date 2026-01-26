@@ -1,0 +1,130 @@
+{
+  "original_filename": "full_4801.md",
+  "多设备环境下网络信息搜索行为研究综述": "",
+  "吴丹梁少博": {
+    "context1": "摘要本研究在对国内外相关文献调查的基础上，采用扎根理论的研究方法，对文献中的原始内容进行编码分析，探讨多设备环境下网络用户信息搜索行为的研究进展。研究发现：用户搜索活动跨越不同类型的设备成为一种趋势;用户的网络信息搜索行为受搜索内容、时间、地点、设备种类等因素交叉影响;用户搜索数据的共享能够支持用户的搜索活动在不同设备间转移。针对现有研究的一些问题，未来研究应重点关注以下内容：深化理论研究，构建相关的搜索行为模型;选择更多的设备类型;收集更多类型的用户数据;在数据描述基础上,探讨深层原因，分析用户行为的个性化差异;开发多设备环境下支持跨设备搜索的系统、应用等。图3。表15。参考文献72。",
+    "context2": "关键词网络信息搜索行为跨设备搜索多设备环境",
+    "context3": "分类号G254",
+    "context4": "A Review on Information Search Behavior Under a Multidevice Environment",
+    "context5": "WU Dan & LIANG Shaobo"
+  },
+  "ABSTRACT": {
+    "context1": "With the rapid development of the mobile internet,users can employ smarter devices to find information, and it is increasingly popular to search across multiple devices.This paper examines users‘ search behaviors in multi-devices environment.We utilized literature survey method and retrieved relevant articles using“multi-device search\"\"cross-device search\"\"cross-platform search\"\"multi screens search” “cross-screen search” and“cross sessions search” as search terms to search in ACM Digital Library, Taylor& Francis,Springer,Emerald,WOS,EBSCO,Google scholar,CNKI,Baidu and Google.We identified a total of 72 highly relevant articles.The classical grounded theory method was used to encode the original contents of the references via ATLAS.ti.These original contents of 72 references include experimental data analysis results,user interview or questionnaire survey results,user behavior research conclusions,etc.",
+    "context2": "The results of our study show that users'search behavior in the multi-device environment has the following characteristics:1）The users‘information needs are more diverse and rich,and their search processes are more complex since they may need more search sessons to complete the task.2）Users' information search behaviors are influenced by the search content,search time and search location.3) Interruptions to users'search may come from external environment,function of the device and other factors, which increase the chance of multi-device search.Especialy,when users can not satisfy their complex information needs in long search sessons or through several simple queries,their search processes often involve multiple devices.4) Device transition may be influenced by the device,search task,search process, and environmental factors.One important future task is to deepen theoretical research and constructing the relevant search behavior models.3 figs.15 tabs.72 refs."
+  },
+  "KEY WORDS": {
+    "context1": "Network information.Search behavior.Cross-device search.Multi-device environment.",
+    "context2": "互联网时代，信息搜索行为是用户网络行为研究的一个重要方面。中国互联网络信息中心发布的《中国互联网络发展状况统计报告》(2015年1月)显示,截至2014年12月，我国搜索引擎用户规模达5.22亿，手机搜索用户达4.29亿，使用率达 $7 7 . 1 \\%$ 。2015年百度发布的数据显示，移动搜索成为仅次于社交通讯应用的第二大应用类目，过去三年里，人均移动搜索次数增长达 $47 \\%$ 。互联网用户的移动搜索行为日益普遍,网络信息搜索活动开始从桌面端向移动终端转移。",
+    "context3": "同时，移动互联网迅速发展，智能终端设备成本降低，用户持有智能终端设备的种类也更加丰富。Pearson于2014年发布的一项调查显示，大学生中拥有笔记本电脑、智能手机、平板电脑的比例分别为 $8 9 \\% . 8 4 \\% . 4 5 \\% ^ { \\mathrm { ~ \\tiny ~ [ 3 ~ ] ~ } }$ 。用户拥有智能终端设备数量和种类增多，使得用户的搜索行为不再局限于一种设备，而是会在不同的设备间进行转移，呈现出的跨越不同设备的趋势越来越明显。",
+    "context4": "研究者们逐渐关注到，多设备环境下，用户的搜索行为和单一设备上的搜索行为相比发生了变化，并对该环境下用户的搜索行为展开了研究。本文在文献调研的基础上,对文献内容进行深入分析，探讨用户在不同设备上的搜"
+  },
+  "索行为特征，以及搜索活动在不同设备间的转移。": "",
+  "1研究概况及编码方法": "",
+  "1.1文献调研情况": {
+    "context1": "本文的相关文献主要来源有ACMDigitalLibrary、Taylor&Francis、Springer、Emerald、WOS、EBSCO、Google scholar、中国知网,以及百度、谷歌等搜索引擎。与多设备搜索相关的术语主要有“multi-device search”“cross-device search”“cross-platform search”“multi screens search”“cross-screen search”“跨设备搜索’“多设备搜索’‘跨平台搜索’‘跨屏搜索’“多屏搜索’“跨会话搜索\"等，本文以这些术语为关键词进行文献检索(检索时间为2015年4月10日）。经过剔除后,筛选出与本文研究主题高度相关的文献共计72篇，大多为国外的研究成果，国内该领域研究较少。相关文献研究主要集中在计算机科学、信息科学领域。",
+    "context2": "在研究者中，谷歌实验室和哥伦比亚大学的Kamvar等人、都柏林大学的Church等人对移动搜索行为展开了深入的研究；加州大学的Sohn等人关注用户网络数据在不同设备间的分享;来自微软的White、Huang等人对跨设备搜索"
+  },
+  "进行了探索。微软、谷歌、雅虎等由于自身强大的科研实力和海量数据，在这一领域的研究处于领先地位。": {
+    "context1": "下，用户在不同设备上的搜索行为，也兼顾探讨用户搜索行为的转移，以期实现综述的全面性。"
+  },
+  "1.2相关概念辨析": {
+    "context1": "“多设备搜索\"（multi-device search）是对用户在不同设备上的搜索行为,从查询词、搜索的时间和地点等方面进行研究。有一些研究者或研究机构采用“多屏搜索\"(multi-screens search)来表述,如今的用户每天会花费大量的时间在各种屏幕前，如平板电脑屏幕、手机屏幕、电视屏幕等,用户会在不同的屏幕上发生搜索行为。两者更侧重对用户在不同设备上搜索行为的比较,并不强调同一搜索行为是否跨越不同设备",
+    "context2": "“跨设备搜索”（cross-devicesearch或searching spandevices）是从用户在同一搜索任务中使用不同设备的角度进行研究。多设备环境下，用户的搜索行为会跨越不同类型的设备，并可能在不同设备间发生转移；一些复杂的搜索任务往往需要多个搜索会话，跨越多种类型的设备@。“跨屏搜索\"(cross-screen search)和“跨设备搜索”的概念没有实质性差别，两者强调的都是同一搜索行为在不同种类设备或屏幕间发生转移或切换，如今用户的多屏幕切换行为已经十分普遍。",
+    "context3": "“跨平台搜索\"（cross-platform search）中的“平台”一般有两个维度的解释,指不同终端的设备,或者不同类型的操作系统。例如，用户在手机、平板电脑、笔记本电脑和电视上的网络信息搜索行为，或者在搭载了安卓系统、WindowsPhone系统等设备上的网络信息搜索行为。因此。“跨平台搜索”和“跨设备搜索”“跨屏搜索”的概念相差不大，只是突出了不同操作系统的差异。",
+    "context4": "综上，“多设备搜索’“多屏搜索\"的概念范围要更广，“跨设备搜索’“跨屏搜索”“跨平台搜索\"的概念范围相对较小，强调搜索行为的转移。因此，本文综合研究了当前多设备环境"
+  },
+  "1.3本文编码方法": {
+    "context1": "研究者采用多种研究方法对用户的网络信息搜索行为进行研究。在本文参考文献中，有28篇采用搜索引擎日志挖掘方法，有26篇采用用户实验日志的研究方法，有21篇采用用户调查问卷的方法，有12篇采用访谈方法，其中一些研究综合采用了多种研究方法。",
+    "context2": "这些用户行为研究都涉及实验数据的分析结果、用户访谈或问卷调查结果、研究性结论等,因此,本文采用经典扎根理论的研究方法，对参考文献中实验数据的分析结果、用户访谈或问卷调查结果、研究性结论等原始内容，使用ATLAS.ti软件进行编码分析。",
+    "context3": "在文献调查中发现，上述一些原始内容中不同形式的表述，表达的是相同含义。笔者将这些相同含义的表述进行归纳整理，如在一些结论性阐述中，有的采用“网民的搜索内容种类多样”的表述,有的则采用“There is significantvariation inthequeriesenteredinwirelesssearch”等表述，均表达的是网络用户搜索内容的主题类型广泛的意思，故将这两种表述分别计为一条规范化的“陈述”,并统一编码为“多设备环境下用户搜索的主题类型总体上分布广泛”,该编码视作一级编码。笔者从上述相关文献中共抽取了228条“陈述”，分别对这些“陈述\"进行一级编码。在一级编码的基础上，根据编码内容归纳为5个二级编码。"
+  },
+  "1.4编码结果": {
+    "context1": "通过上述方法，笔者将抽取的228条“陈述\"分类、归纳、分析,并逐级编码,从定量的角度探讨在多设备环境下对用户网络信息搜索行为的主要研究主题分布，具体的“陈述”分类见表1。",
+    "context2": "表1编码分类及其频次统计",
+    "context3": "<table><tr><td rowspan=1 colspan=1>二级编码</td><td rowspan=1 colspan=1>一级编码</td><td rowspan=1 colspan=1>编码频次</td><td rowspan=1 colspan=1>编码频率(%)</td></tr><tr><td rowspan=1 colspan=1>多设备环境下查询词的特征</td><td rowspan=1 colspan=1>多设备环境下用户使用不同设备查询输入的词数、字母数总体相差不大</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>9.65</td></tr><tr><td rowspan=3 colspan=1>多设备环境下搜索内容的主题分布</td><td rowspan=1 colspan=1>多设备环境下用户搜索的主题类型总体上分布广泛</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>14.04</td></tr><tr><td rowspan=1 colspan=1>用户在不同设备上搜索内容的主题类型存在差异</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>7.89</td></tr><tr><td rowspan=1 colspan=1>用户搜索某些类型的网络信息时会引发一些后续行为</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>10.09</td></tr><tr><td rowspan=3 colspan=1>多设备环境下搜索活动的时间分布</td><td rowspan=1 colspan=1>用户在不同设备上搜索活动发生的时间整体上呈现出碎片化和集中性的特点</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>7.46</td></tr><tr><td rowspan=1 colspan=1>些搜索活动呈现出即时性的特点</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>3.07</td></tr><tr><td rowspan=1 colspan=1>多设备环境下用户在不同时间搜索的网络信息类型存在差异</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>7.46</td></tr><tr><td rowspan=4 colspan=1>多设备环境下搜索活动的地点分布</td><td rowspan=1 colspan=1>用户使用不同设备时搜索活动发生的地点总体上分布广泛</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>6.58</td></tr><tr><td rowspan=1 colspan=1>用户使用不同设备搜索时的地点分布存在差异</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>5.70</td></tr><tr><td rowspan=1 colspan=1>基于用户地理位置的本地信息搜索逐渐普遍</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>7.46</td></tr><tr><td rowspan=1 colspan=1>用户在不同地点搜索的网络信息的类型存在差昇</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>2.63</td></tr><tr><td rowspan=2 colspan=1>基于设备转移的跨设备搜索行为</td><td rowspan=1 colspan=1>多设备环境下用户的搜索行为会在不同类型的设备间发生转移</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>11.84</td></tr><tr><td rowspan=1 colspan=1>如何帮助用户在不同设备间实现跨设备搜索</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>6.14</td></tr></table>"
+  },
+  "2多设备环境下查询词的特征": "",
+  "用户输入的查询词，是反映用户搜索内容主": {
+    "context1": "题分类的最基础数据。研究者对用户查询词的数据进行分析，探讨多设备环境下用户搜索内容的主题分布特征。笔者按照前文的编码方法将与用户查询词相关的“陈述\"进行整理(见表2)。",
+    "context2": "表2编码及“陈述\"举例(1)",
+    "context3": "<table><tr><td>二级编码</td><td>一级编码</td><td>“陈述&quot;举例</td><td>频次</td></tr><tr><td>多设备 环境下 查询词 的特征</td><td>多设备环境下 用户使用不同 设备查询输入 的词数、字母数 总体相差不大</td><td>There is little difference in the length of queries issued from iPhones and Com- puters,both of which have QWERTY keyboards [1d. Query length is very similar between computer and iPhone search,but is signifi- cantly shorter for mobile phone search [i. 总体来看，我国移动用户输入的查询串长度并没有因输入终端不同而减少 输入内容[] We observe that mobile users in general issue longer queries than tablet and desktop users[]. As already stated,mobile searchers tends to use queries that are marginally shor- ter than their Web counterparts [].</td><td>22</td></tr></table>",
+    "context4": "从原始内容的编码情况来看，用户在不同设备上搜索网络信息时，使用查询词的长度是动态变化的，PC端和移动端的查询词长度总体区别不大。",
+    "context5": "Kamvar等对用户输入的查询词进行持续研究,通过不同设备的对比，发现用户在不同设备上使用的查询词长度总体差别不大，具体到某一个搜索会话中,PC机上的搜索查询词最多b-1d。王继民等也发现,用户在移动端和 PC端搜索时输入的汉字查询词的数量相差不大[。Baeza-Yates等发现日本手机用户在移动端设备上的查询词长度长于桌面端[。而Yi等发现查询词的长度是动态变化的[，用户在不同设备上输入的查询词长度没有明显的区别[。",
+    "context6": "随着搜索推荐功能的使用逐渐普遍，用户在搜索框内不再需要输入完整的查询词，而由于不同设备功能方面的差异，可能会影响不同设备上查询词的比较结果。王继民等发现移动用户使用下拉框的搜索提示等查询推荐功能的比例并不高[,Song等发现用户在平板电脑上和PC机上使用搜索推荐的概率较高[,这些因素可能会影响用户输入查询词的长度。",
+    "context7": "同时,用户还可以通过语音识别、条形码扫描、图片搜索等多种方式查找网络信息。搜索查询方式更加丰富，因此搜索行为也更加复杂。例如，用户在使用语音搜索时，经常通过词汇或者语音等方式修正之前的查询[。但是现有搜索行为的研究中，尚未对用户的语音识别搜索、图片搜索等数据进行充分记录、分析。"
+  },
+  "3多设备环境下搜索内容的主题分布": {
+    "context1": "研究者对用户输入的查询词进行分析，总结出多设备环境下用户搜索内容在主题分布方面的一些特征。"
+  },
+  "3.1总体分布广泛": {
+    "context1": "采用前文的编码方法,笔者将与用户在多设备环境下搜索内容相关的“陈述\"进行整理和频次统计，结果如表3所示。",
+    "context2": "表3编码及“陈述\"举例(2)",
+    "context3": "<table><tr><td>二级编码</td><td>一级编码</td><td>“陈述&quot;举例</td><td>频次</td></tr><tr><td>多设备 环境下 搜索内 容的主 题分布</td><td>多设备环境下 用户搜索的主 题类型总体上 分布广泛</td><td>There is significant variation in the queries entered in wireless search We find that the most popular mobile topics are local services and travel &amp; com- muting [1 In this study,we categorized the participants&#x27;information needs into eight catego- rieslig In particular,we find that 15.76% of unique queries belong to adult category with 18.74% of all searches being queries of adult category [2. Mobileusers search forawide variety of information l 高校在校学生的移动搜索内容具有多样化的特点。</td><td>32</td></tr></table>",
+    "context4": "从表3的编码结果可以看出，研究者对用户搜索网络信息的主题类型进行了最深入的研究,相关编码的“陈述”占比最高。总体来看，多设备环境下用户搜索内容的主题分布十分广泛。",
+    "context5": "Yi等对雅虎移动搜索的用户研究发现，个人娱乐类信息的搜索占比最高[。研究者将用户搜索的内容按照不同的标准进行分类。Komaki等将用户搜索内容分为“琐事搜索’“个人信息”“交通信息”“新闻/天气”等8个类别。 $\\mathrm { S o h n }$ 等将其分为“个人琐事”“购物\"等16个种类。Hinze等将搜索内容分为“问题型\"和“指导型\"两大类[24。艾媒咨询发现中国用户使用不同设备搜索最多的内容为：新闻、小说、本地服务、软件应用、图片等。",
+    "context6": "为体现上述调查结论，此处采用前文所述的编码方法,将文献中与搜索内容主题分布有关的原始内容抽取出来，并对表达相同含义的表述进行统一编码，如将“股票’“金融”等表达财经类信息的表述统一编码为“财经”,以此来反映研究者对用户搜索内容的分类情况，并将频次统计结果显示在表4中。可以看出，现有研究中，用户搜索内容的主题类型主要有26类，涵盖种类丰富，包含用户生活、工作的方方面面。",
+    "context7": "表4多设备环境下搜索内容的主题分类频次统计",
+    "context8": "<table><tr><td rowspan=1 colspan=1>类别编号</td><td rowspan=1 colspan=1>搜索内容分类</td><td rowspan=1 colspan=1>频次</td><td rowspan=1 colspan=1>百分比(%)</td><td rowspan=1 colspan=1>类别编号</td><td rowspan=1 colspan=1>搜索内容分类</td><td rowspan=1 colspan=1>频次</td><td rowspan=1 colspan=1>百分比(%)</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>购物</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>13. 18</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>艺术</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2.33</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>本地信息</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>9.30</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>汽车</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2.33</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>新闻</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>8.53</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>社交</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2.33</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>地图/导航</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>7.75</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>个人琐事</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2. 33</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>食品</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>6.20</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>教育</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2.33</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>财经</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>5.43</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>电影</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2.33</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>天气</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>5.43</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>健康</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1. 55</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>娱乐</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>4. 65</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>成人</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1.55</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>旅游</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>3.88</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>招聘</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1.55</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>体育</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>3.88</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>法律</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1.55</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>科技</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>3.10</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>美容</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0.78</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>常识</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>3.10</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>游戏</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0.78</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>酒店</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>3.10</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>公共服务</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0.78</td></tr></table>"
+  },
+  "3.2基于不同设备的搜索内容的差异": {
+    "context1": "在多设备环境下，由于设备功能、用户使用习惯的不同,用户在不同设备上搜索内容的分布存在一些差异：用户使用设备的功能种类越多，搜索内容的分布也就越广泛。",
+    "context2": "笔者将与本节相关的“陈述\"抽取出来，并进行频次统计，相关结果如表5所示。",
+    "context3": "表5编码及“陈述\"举例(3)",
+    "context4": "<table><tr><td>二级编码</td><td>一级编码</td><td>“陈述&quot;举例</td><td>频次</td></tr><tr><td>多设备 环境下 搜索内 容的主 题分布</td><td>用户在不同设 备上搜索内容 的主题类型存 在差异 .</td><td>The category distribution for queries issued from mobile phones is significantly different from that of iPhones andcomputers[d In general,mobile users are much more likely(23.5%）to issue adult-content queries than tablet and desktop users,which aligns with the fact found previous- y This means that the different form factor between tablet and mobile devices has a similar effect on how people use them for location and web search [2d.</td><td>18</td></tr></table>",
+    "context5": "在移动搜索发展早期，由于移动设备的功能有限,移动应用较少，用户在移动端搜索内容不如桌面端多样。随着智能移动设备的迅速发展，功能越来越丰富，用户使用智能手机搜索主题的多样性,要强于普通手机[。而用户使用平板电脑和PC机搜索内容的主题分类相似，手机和PC机的区别较大[。艾媒咨询发现用户使用平板电脑和PC机时，对视频、音乐的搜索量要高于手机,这和设备屏幕的尺寸、接入网络的方式等因素有关。",
+    "context6": "由于移动互联网迅速发展,智能终端设备成本降低,功能日趋丰富，与PC机的功能差异逐渐缩小，用户的搜索行为从桌面端向移动端转移。现有对移动搜索行为的研究较多，并且将其与PC搜索行为进行对比。"
+  },
+  "3.3搜索内容引发后续行为": {
+    "context1": "在多设备环境下,研究者发现,用户在搜索一些特定类型的信息时，会引发一些后续行为，这些后续行为反映了用户对于搜索结果的满意度和处理情况。由于移动端设备便携、连接网络方式多样等特点,引发的后续行为较多。笔者将与用户搜索活动引发后续行为相关的“陈述\"进行整理,如表6所示。",
+    "context2": "表6编码及“陈述\"举例(4)",
+    "context3": "<table><tr><td>二级编码</td><td>一级编码</td><td>“陈述&quot;举例</td><td>频次</td></tr><tr><td>多设备 环境下 搜索内 容的主 题分布</td><td>用户搜索某些 类型的网络信 息时会引发一 些后续行为</td><td>Some categories trigger more follow-up actions [l 购物决策和周边消费是用户使用移动搜索生活化的需求，也能直接产生经 济效益。 Mobile search drives valuable outcomes for busineses ]. Mobile phones have the highest conversion rate,with four out of five local sear- ches ending in a purchase l8. 50% of consumers who conducted a local search on their smartphone visited a store within a day,and 34% who searched on computer/tablet did the same [g</td><td>23</td></tr></table>",
+    "context4": "用户使用移动端设备时， $5 5 \\%$ 的移动搜索会产生打电话、购物等后续行为，且发生在一小时内;多设备环境下，用户可以随时随地使用智能手机进行移动搜索，使用智能手机时产生的后续行为最多，其次是同时使用智能手机和PC机时1。Neustar发现在对本地类信息进行搜索时， $80 \\%$ 的搜索活动都会产生购物消费[2。同时，Google和Ipsos研究发现， $50 \\%$ 的智能手机用户会在一天内访问他们所搜索的商铺,而PC机和平板电脑用户的这一比例只有 $34 \\%$ 。用户的搜索行为还会引发一些其他活动，比如搜索与用户需求相关的其他信息，访问某地址,使用其他设备继续搜索等。",
+    "context5": "采用前文所述的编码方法，对现有研究中与后续行为类型相关的表述统一编码并分类统计，图1反映了用户使用不同设备进行搜索时产生的后续行为的类型和频次。",
+    "context6": "![](images/f9b32e518bbb1e1bcefb5f98c71a1c8cb2e0d645c4ab0857549c9316f6477bbb.jpg)  \n图1后续行为的类型和频次统计",
+    "context7": "通过图1可以看出，用户的后续行为主要有两类：一类是用户的实体或线下行为，如购物消费，访问店铺、景点，拨打电话等;另一类仍然是网络或线上活动，如访问某网站、持续搜索、信息分享等。"
+  },
+  "4多设备环境下搜索活动的时间分布": {
+    "context1": "研究者选取一天当中的不同时刻、一周当中的不同时间,对用户使用不同设备进行搜索",
+    "context2": "的时间特征进行分析。经过文献调查，笔者总结出用户搜索时间分布的三个特征。"
+  },
+  "4.1碎片化与集中性": {
+    "context1": "不论是桌面端设备还是移动端设备，用户搜索活动发生的时间整体上呈碎片化分布的趋势;同时也存在一定的集中性,如搜索峰值现象。与用户搜索活动发生的时间分布总体特点相关的“陈述\"共有17条(见表7）。",
+    "context2": "表7编码及“陈述\"举例(5)",
+    "context3": "<table><tr><td>二级编码</td><td>一级编码</td><td>“陈述&quot;举例</td><td>频次</td></tr><tr><td>多设备 环境下 搜索活 动的时 间分布</td><td>用户在不同设 备上搜索活动 发生的时间整 体上呈现出碎 片化和集中性 的特点</td><td>Half of mobile searches take place during working hours l The smaller size of mobile devices may explain this difference:during weekends people are on the go and tend to use mobile devices more than tablets d. The majority of mobile searches occur in the afternoon and evening [21 休息时间成为大学生进行移动搜索的主要时段[。 Thus,mobile use typically peaks late into the night and on Saturdays,whereas fixed use peaks in the early evening and on Wednesdays 4. 每天21时、22时或23时是全天的最高峰[</td><td>17</td></tr></table>",
+    "context4": "笔者将具体内容再次进行调查，发现表示碎片化特点的“陈述\"有9条，表示集中性的“陈述\"有8条。",
+    "context5": "移动用户的搜索活动分散于一天中的不同时刻，但往往会在某一时间点达到高峰2。Google和Nielsen发现，在晚上8点以后的搜索查询量最多[2。Song等发现,平板电脑在晚上的使用率高于白天,因此用户使用平板电脑的搜索查询多分布在17点以后[。用户习惯使用某种设备的时间不同，也会影响搜索时间的分布,如用户使用PC机和手机的搜索时间分布是不同的。",
+    "context6": "综上可以发现，用户在多设备环境下，搜索时间的碎片化和集中性的特征与用户对不同设备的使用习惯、用户的生活作息时间等因素有关。"
+  },
+  "4.2即时性": {
+    "context1": "在实际生活中,用户往往会产生一些即时性的信息需求，比如用户在运动受伤后搜索如何紧急处理，这些需求需要在短时间内迅速完成搜索，不能耽延。表8反映了与用户搜索时间即时性特征相关的“陈述”。",
+    "context2": "表8中显示，一些搜索活动呈现出即时性的特点,在原始内容中有“immediately”“quickly”“as soon as possible\"等表示即时性特点的相关表述。",
+    "context3": "Amin等人对用户搜索引擎日志的分析发现,超过一半的搜索查询都是用户短时间内的即时性需求引发的[。CNNIC发现中国网民对新闻热点会进行较多的即时性搜索。Mishra等人认为很多搜索行为是由突发性信息需求引起的，并针对用户可能出现的紧急信息需求提出了预测。由于移动端设备的便携性,网络连接受地理空间影响小,即时性的搜索行为更多发生在移动端设备上。",
+    "context4": "表8编码及“陈述\"举例(6)",
+    "context5": "<table><tr><td>二级编码</td><td>一级编码</td><td>“陈述&quot;举例</td><td>频次</td></tr><tr><td>多设备 环境下 搜索活 动的时 间分布</td><td>一些搜索活动 呈现出即时性 的特点</td><td>Specifically,89% of respondents planned to visit the place on the same day as the search,including 44% who planned to visit as soon as possible and 29% as part of their current trip bi These results suggest that mobile local searchers are interested in getting to their newfound destination quickly bl. Instead,mobile search appears to be used at random intervals to satisfy informa- tion needs that arise at that particular moment in time and such needs are heavily influenced by factors like the users activity,who they are with,the conversations they are having,etc bg.</td><td>7</td></tr></table>"
+  },
+  "4.3搜索时间和搜索内容相互影响": {
+    "context1": "用户在不同设备上的搜索时间和其搜索的信息类型相互影响。表示用户在不同时间搜索内容差异的“陈述\"共17条，占比达 $7 . 4 6 \\%$ （见表9)。",
+    "context2": "表9编码及“陈述\"举例(7)",
+    "context3": "<table><tr><td>二级编码</td><td>一级编码</td><td>“陈述&quot;举例</td><td>频次</td></tr><tr><td>多设备 环境下 搜索活 动的时 间分布</td><td>多设备环境下 用户在不同时 间搜索的网络 信息类型存在 差异</td><td>Lastly,thetimeofdaywasoftenlikelytotriggerthequeryb During business hours （9AM-5PM） on weekdays,people may be engaged in sedentaryandsafeactivities inoficeenvironments We also found a number of diary entries expressing information needs with tem- poral dependencies [4d. The time of day strongly influencing the topics people search for[4l</td><td>17</td></tr></table>",
+    "context4": "用户搜索不同类型信息的时间分布是不同的,一些特殊的日期,如节假日[2,会影响用户的搜索行为，一天当中不同时刻的需求也会引发用户的搜索行为，如用户在早餐或晚餐的时间搜索餐饮类内容[3。Beitzel等发现用户对娱乐信息的搜索查询主要分布在18点以后，而对个人理财类的搜索查询主要分布在上午9点前后]。Halvey等发现用户搜索的信息会随着时间发生变化。",
+    "context5": "游戏主要集中在夜晚。Song等人也发现,用户使用不同设备时，对于相同类型信息的搜索时间分布是有差异的[]"
+  },
+  "5多设备环境下搜索活动的地点分布": {
+    "context1": "经过文献调查，笔者发现多设备环境下用户搜索地点分布的四个特征。",
+    "context2": "受用户使用不同设备的习惯、用户的生活作息时间、工作时间等因素的影响,对同一主题类型网络信息的搜索，也会呈现出不同的时间分布规律。研究者发现,用户使用平板电脑对游戏进行搜索主要集中在白天，使用PC机搜索"
+  },
+  "5.1总体分布广泛": {
+    "context1": "研究发现,用户网络信息行为的发生地点分布十分广泛,表10的编码结果中,与用户使用不同设备搜索的地点分布相关的“陈述”共15条。",
+    "context2": "表10编码及“陈述\"举例(8)",
+    "context3": "<table><tr><td>二级编码</td><td>一级编码</td><td>“陈述”举例</td><td>频次</td></tr><tr><td>多设备 环境下 用户搜 索活动</td><td>用户使用不同 设备时搜索活 动发生的地点 总体上分布广</td><td>We found that the majority of the entries (&gt; 67%） where generated when the user was mobile[18. User&#x27;s search behaviors were affected not only by the information needs but also the place where the search was conducted [ig 8/10 of mobile searches occur at home or at work l.</td><td>15</td></tr></table>",
+    "context4": "Hinze等人发现,用户在家中、工作场所、朋友家、交通工具内等地理环境下的搜索量最高。Teevan等认为,在多设备环境下,用户使用移动设备的频率越来越高，用户进行搜索行为的地点，可能是处于动态变化中，主要分布于家中、走路时、交通工具中等b。Amin等人的研究结论和 Hinze等相似。",
+    "context5": "采用前文所述的编码方法，将与多设备环境下用户搜索地点分布有关的“陈述\"抽取出来统一编码，把反映搜索行为的发生地点做频次统计。图2反映用户搜索地点分布类型的频次统计结果。",
+    "context6": "![](images/bc3146bff71873c877398c3128a1d57c176de1a5d65e539fd802eac93cab05e3.jpg)  \n图2搜索活动发生地点的类型和频次统计",
+    "context7": "从图2可以看出，搜索活动发生的地点主要有固定场所和移动场所两种类型。在家里、餐厅、学习场所等固定场所中，用户会使用多种不同设备进行搜索;在行走时、交通中等移动场所，用户会较多使用移动设备搜索。"
+  },
+  "5.2设备种类影响搜索地点分布": {
+    "context1": "采用前文所述的编码方法，笔者将与用户使用不同设备搜索的地点分布差异相关的“陈述\"进行整理并做频次统计（见表11）。",
+    "context2": "表11编码及“陈述\"举例(9)",
+    "context3": "<table><tr><td>二级编码</td><td>一级编码</td><td>“陈述&quot;举例</td><td>频次</td></tr><tr><td>多设备 环境下</td><td rowspan=\"3\">用户使用不同 设备搜索时的</td><td>We observe that mobile users indeed issued queries at many more different loca- tions than tablet users:43% of queries issued at home versus 79%,which nearly</td><td rowspan=\"3\">13</td></tr><tr><td>用户搜 索活动</td><td>doubled[] 53%of smartphone consumers search forlocal information at home g</td></tr><tr><td>地点分布存在 的地点 差昇 16% of computer/tablet consumers search for local information on the go 分布</td><td>[2g</td></tr></table>"
+  }
+}

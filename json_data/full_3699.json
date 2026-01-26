@@ -1,0 +1,99 @@
+{
+  "original_filename": "full_3699.md",
+  "国外跨语言信息检索中的翻译歧义性问题研究综述": {
+    "context1": "张素芳",
+    "context2": "【摘要】翻译歧义是影响跨语言信息检索效果的主要因素之一。本文论述了跨语言信息检索中翻译歧义性问题产生的原因，并且总结了目前消除这种歧义的方法和技术。",
+    "context3": "【关键词】跨语言信息检索翻译歧义性消歧",
+    "context4": "Abstract Trans btin am biguity is one of the m an causes of perfom ance deteriratin n Cross-Language Infom atin Retriéval(CLR ). This paper discusses the cause of transbtin ambiguity n CLR, and sum m aries the m ethods and technques of trans htin disam bguatbn at present K ey words cross-bnguage nfom atbn retrieval trans hton am biguitydisam biguation",
+    "context5": "网上信息以其信息来源广泛、信息数量庞大、媒体与格式多样、检索浏览方式快速、易传播共享等特点，越来越受到人们的重视和使用。然而随着查询需求的提高，单一语种检索的局限性越来越明显，用户已经不能满足于仅仅在同一语种中进行检索，而是希望能够查询到更多的其它语种中的相关信息，特别是自身语种的信息较少的用户这种需求就更为迫切。然而，语言障碍是一个无法回避的问题，于是跨语言信息检索应运而生。",
+    "context6": "跨语言信息检索是指用户用某种语言从另外一种或多种语言表达的文献信息集中检索出所需文献信息的方式或技术。研究目的是希望在信息时代，克服语言壁垒，提供跨语言的文献信息检索服务。显然，不同语言之间的翻译是跨语言信息检索的重中之重，而随着翻译不可避免地产生的歧义性问题，是影响跨语言信息检索效果的主要因素之一。因此，消除这种歧义，提高检索结果的相关度，是跨语言信息检索各种翻译方法和技术要解决的一个关键问题，它也是跨语言信息检索研究的热点之一和最具挑战性的问题之一。本文试图对此作一专门论述。"
+  },
+  "1 基本概念": {
+    "context1": "1.1 提问语种 (源语种）和信息语种(目标语种)",
+    "context2": "提问语种，又称为源语种，是用户查询提问式所属语种，一般为查询用户母语或熟悉的第二语种；信档或语音）所使用的语种，信息系统中所有存在的语种都有可能成为信息语种。跨语言信息检索的目的就是能够通过使用提问语种的提问式在信息系统中检索出符合要求的多种信息语种的相关信息。因此，如何在提问语种和信息语种之间建立起沟通桥梁是目前CLR技术研究最核心和最关键的问题。"
+  },
+  "1.2语料库": {
+    "context1": "语料库是将同一信息或同一主题的信息用两种或多种语言进行描述，并由人工或计算机建立不同语种间信息联系的集合，来源于对单词用法的统计。跨语言信息检索中所用的语料库有三种类型：平行语料库、比较语料库和未对齐的语料库，它们通常都是双语的。",
+    "context2": "(1)平行语料库。平行语料库是由若干包含一篇文献及其对应的一种或几种语种的译文的集合所构成的，库内含有很多翻译知识。",
+    "context3": "(2)比较语料库。比较语料库通常是由多种语言写成的具有相似主题的文献所构成，其中的文献按照所论述的主题进行对齐。它只能在文献一级实现对齐，但获得它要容易得多，因为它不需要包含文献译文。",
+    "context4": "(3)未对齐的语料库。它不需要将语料库中的文献以任何方式对齐，而是利用伪相关反馈技术来改进提问式翻译质量，使之与集合中的文献更相似。"
+  },
+  "2翻译歧义性问题的产生": "",
+  "2.1 跨语言信息检索的翻译方法": {
+    "context1": "息检索不同，跨语言信息检索有一个提问式与文献要转换成同一表达形式（语种）的翻译过程，这一翻译过程的实现一般来说有两种基本方法：提问式翻译方法（query transhtin）和文献翻译方法（documenttrans htin)。",
+    "context2": "文献翻译方法是指先将文献信息集的多种信息语种转换成提问语种，然后按照单语种文献信息进行检索。这种方法通常使用机器翻译系统来实现翻译和提取索引词。一般而言，机器翻译系统会执行深层次的语言学分析和利用文献丰富的上下文语境信息，翻译容错度较高，歧义分析所能用的线索较多，因此能消除翻译的歧义性。但是，文献翻译要求所有被检索的文献信息改变语种符号，而目前大多数机器翻译系统尚处于试验阶段，翻译质量难以令人满意，无法达到实用水平；而且作为检索对象的文献信息集的量非常大，特别是网络信息资源，更新率也非常高，全部翻译的话代价高昂，在实践上是有困难的，因此目前跨语言信息检索研究仍以提问式翻译方法为主。",
+    "context3": "提问式翻译方法是指将用户的提问式翻译成检索对象所使用的信息语种，然后对不同语种的文献信息集查询。提问式翻译又进一步区分成基于词典 (即机读词典）和基于语料库两种模式。与文献翻译相比，提问式翻译工作量较小，可以很容易地和传统单语种信息检索技术紧密结合，但是由于提问式较短，缺少上下文信息，因此它的歧义性问题较为突出。事实上，目前对翻译歧义性问题的研究也主要是针对提问式翻译方法而言的。[1]"
+  },
+  "2.2歧义产生的原因": {
+    "context1": "歧义性问题的产生并不是因为源语种的提问式中的词本身含义模糊、具有歧义，而是从另一种语言(目标语种）的角度来看它具有歧义，[5]即提问词在目标语种中对应的潜在的含义可能有多种。以中英信息检索为例，中文检索词“银行”本身没有歧义，但其对应的英文翻译“bank\"则有9种意义（Longm an1978)。如果采用基本的提问式翻译方法，“银行”很直接地被翻译成“bank\"送入英文信息检索系统后，由于“bank\"的多义性，会有不相关的文献被检索出来。反之，当用“bank”作为英中信息检索系统的检索词时，也必须首先消除其歧义。当涉及多语种提问词匹配情况时产生的歧义就更多。歧义性问题在不同语言之间的翻译过程中是不可避免的，它是导致跨语言信息检索性能下降的主要因素之一。",
+    "context2": "举一例说明：假设有一个英文提问式“coun try $+$ music\"，图1显示了它所有可能的中文译文的组合。",
+    "context3": "\"music”的译文集T有两个词“音乐”和“乐谱\"由此可以得到4个可能的组合形式。提问式翻译的目标就是要从所有可能的形式中找出最恰当的。",
+    "context4": "英文提问词：coun try mus ic\"country\"的译文集 $\\mathrm { T _ { 1 } }$ ：{国家，乡村}\"music”的译文集 $\\mathrm { T _ { 2 } }$ ：{音乐，乐谱}译文组合 $\\mathrm { C _ { j } } \\in \\mathrm { X } ^ { 2 \\mathrm { i = n } } \\mathrm { T _ { j } }$ j=l2 34$\\mathrm { C _ { 1 } } =$ 国家，音乐}$\\mathrm { C _ { 2 } } =$ 国家，乐谱}$\\mathrm { C _ { 3 } } =$ {乡村，音乐}$\\mathrm { C _ { 4 } } =$ {乡村，乐谱}",
+    "context5": "源语种的提问式中具有多重（目标语种）意义(或者说多种译文）的提问词越多，可能的译文组合的数量也就越大。如此情况下，在这种巨大的搜索空间中找出恰当的译文，将导致沉重的时间负担和大大提高空间的复杂度。而如果把双语资源 (词典和语料库)中列出的所有译文形式都简单地直接用作提问式检索词的话，那么那些与源提问式不相关的多余的译文形式常常会严重影响检索效果。因此，消除提问式翻译后产生的歧义是非常必要的。"
+  },
+  "3消除翻译歧义的方法和技术": {
+    "context1": "如果能从一组译文中自动或半自动地只挑选出那些与源提问式意义相关的译文，那将是十分理想的。有种简单的方法，就是只选择词典中列出的第一个译文；或者，调查每种译文在语料库中出现的频次，只使用频次最高的译文。然而，这些简单的方法对消除歧义是远远不够的，尤其是对那些基本意义就有多种的词。目前，在跨语言信息检索领域，已经有几种较为有效的方法正处于研究之中：(1)词性标注（part一ofspeech）技术；(2)基于平行语料库的方法；(3)目标语料库中的词的共现（co丨occurrence statis tics）技术；(4)提问式扩展（query expanson）技术。",
+    "context2": "另外，在从双语词典中可获得多重译文的情况下，使用“提问式构造方法”（querystructurng）也可以改进检索性能，这种方法也已在研究之中。[3]"
+  },
+  "3.1 词性标注技术": {
+    "context1": "词性标注是自然语言处理中重要而成熟的技术。事实上，仅利用词语的词性信息，已可以实现部分词义消歧。词性指的是词的句法功能类别。自然语言中，一个词往往具有多个词性，词性标注的目的就是通过词语的上下文将句子中兼类词的词性唯一地确定下来。使用词性标注技术消除翻译歧义的基本思想是：仅选择与源提问式的词具有相同词性标注的译文形式。",
+    "context2": "目前，英文词性标注的正确率已能达到 $9 7 \\%$ 以上。",
+    "context3": "(1997)[4]、Davis和Ogden（1997)[5]在英语一西班牙语的跨语言信息检索任务中，将词性标注应用到英文提问式中来解决翻译歧义问题，即只有在英一西双语词典中列出的相应的西班牙译文的词性标注和英文提问词的词性标注一致的情况下，该译文才能作为检索词。Ballesteros和Croft（l998)[也测试了一种相似的方法，该方法要求两种语言都拥有词性标注软件。A lln[进行了在Web环境下利用词性标注减少翻译歧义的研究。"
+  },
+  "3.2 基于平行语料库的消歧方法": {
+    "context1": "前文在介绍平行语料库的概念时提到过平行语料库中含有很多翻译知识，这些知识能够以下列方式利用： (1)可从对齐的语料库中自动衍生出双语种或多语种词典，特别是专业性的平行语料库对于推断短语的翻译或者至少对于识别短语极为有用； (2)系统输人新文献之前，将平行语料库中的文献存储在双语种或多语种向量空间中，并对它们进行潜语义标引，从而可以获得一个双语种或多语种语义空间。通过将系统新输人的文献映射到该空间，可以使得系统实现跨语言潜语义标引。跨语言潜语义标引所需的语料库只需在文献一级对齐；(3)将平行语料库与基于知识的CLR方法结合使用，可以有效地控制基于知识的方法所面临的一词多译问题。",
+    "context2": "具体来说，可根据平行语料库搜索的结果，从机读词典列出的一组译文中为每个源提问词选择一个译文，从而确定最佳译文或译文集合。程序如下：(1)从机读词典中为源语种提问式中的每个词挑选一组译文；(2)分别用每种译文搜索平行语料库的目标语种部分，保存得到的每组目标语种文献；(3)用源提问式搜索平行语料库的源语种部分； (4)选择与用源提问式搜索得到的源语种文献最接近的那组目标语种文献的那个译文形式。",
+    "context3": "对每个源提问词都重复这套程序，这样最终将得到一组最佳的译文。这种方法去掉了一些不合适的译文，一定程度上达到了消歧的目的[48]。Boughanem，、Chrisment和Nassr（2OO2）也曾用相似的方式使用平行语料库消除通过词典搜索得到的译文的歧义[9 10]"
+  },
+  "3.3基于词的共现技术的消歧方法": {
+    "context1": "词的共现技术，就是若两个有一定关联的词共同出现在某一篇文献或者文献的某一个部分，就可以非常容易确定其含义的技术。Balesteos和Cosft(1998)[曾指出“提问式中各个词的合适的译文形式应该共现在目标语种文献中，而不合适的译文则应该往往不会萃现在目标语种文献中。假如源语种是英文的提问式中含有两个词 $^ { \\prime \\prime } \\mathrm { M }$ ercury\"和\"panet\"，虽然“Mercury\"(或 $\\ ' \\mathrm { { m e r c u p } ^ { \\prime \\prime } }$ ）具有多重意思，如水银、墨丘利神(众神的信使）、水星等，但因为提问式中“plnet\"（行星）的存在， $^ { \\prime \\prime } \\mathrm { M }$ erury\"明显与神话和化学不相关。因此，预期“Mercury\"的合适的译文往往会和“panet”的合适的译文共现在目标文献集中是合理的。",
+    "context2": "该方法的具体办法是统计提问词的各个词义与提问式中其他词在语料库中的共现频率，并进行比较，共现频率高的词义可代替该提问词以便翻译成目标提问式。该方法的优点是只需要利用单语种的语料库进行共现频率的比较。但必须有多个词汇构成源提问式，否则无法进行共现频率的比较，当然通过下面的提问式扩展技术比较容易做到这一点。",
+    "context3": "然而，只通过在目标语料库中使用共现统计可能会产生一些意想不到的错误的译文组合，因为在源提问式语境中，两个不相关的提问词的译文也可能一起出现在目标语料库中，结果，不合适的译文组可能被选上。这种情况将严重影响检索效果。对此，Yam abana等人（1998)[11]为减少错误的译文组合，在源语种的文本集中进行共现统计。首先，根据源语种语料库中的共现统计确定提问式中两个最相关的词；然后，根据目标语料库中的共现统计，从这两个词的所有译文对中选出最佳的译文。注意这两个语料库不一定必须是平行或者比较语料库。最后，我们还应该关注其他可利用共现统计的资源。如Maeda等人(2000）[12]和Qu等人（2003)[13]试图利用网络搜索引擎来获得共现频率。他们在网络入口 (如 AltaVis ta)输入一组可能的译文，使用返回的网页的数量作为选择译文的权值。"
+  },
+  "3.4提问式扩展消歧": {
+    "context1": "用户输人的提问式一般非常简短，这增加了翻译的难度，进而影响检索的品质，适度的提问式扩展是解决该问题的一个方向，即根据用户的语义自动给提问式增加更多的限制信息，从而增强其翻译的可靠性。从本质上说，提问式扩展也是解决提问式中词的歧义的方法。扩展的词汇应该是基于原提问词的同义词典以及相关词词典。提问式扩展可分别在提问式翻译前或翻译后进行，也可在提问式翻译前和翻译后都进行。翻译前扩展可以通过增加语词来强调提问式中的概念，翻译后扩展可以通过增加语义信息来减少查询中不相关词的影响。",
+    "context2": "微软亚洲研究院在研究中英文信息检索时，就提出了一种两步假相关性反馈的提问式扩展方法：首先，使用翻译后的提问式检索出一系列文献信息，并对其进行相关性排序 (共现技术)；然后，从结果文献信息排序前 n篇文档中选取m个最高频率的词，来扩展最初的查询提问式。"
+  },
+  "3.5提问式构造方法": {
+    "context1": "在基于词典翻译方法中，对提问式的翻译往往选择词典中多种意义的第一种作为提问式的译文；然而选择第一种译文存在一定的不合理性，选择全部的译文(然后进行筛选）又大大降低了检索的查准率。针对这一问题，Pikoh（1998)[14]提出了提问式构造法，认为主要有三种构造提问式的方法：基于同源词的构造法（Syn一based）、基于复合词的构造法（Compound一based）、n元 匹配 法（一GramMatchng)。提问式构造方法的实质是利用同源词、复合词或n元匹配分析提问式中各个词的权重：只有一种或两种意义的词的权重最高，而有多种意义的词用同源词符、复合词符或n元匹配符连接以降低其权重。Pikoh分别通过对三种方法实验，验证了使用提问式构造法会提高跨语言信息检索的检索性能。",
+    "context2": "准确地说，提问式构造方法不应划为消歧技术，但它在提高包含多重意义译文的提问式的检索方面，和消歧技术具有相同的效果。"
+  },
+  "3.6双向翻译方法": {
+    "context1": "Boughanem等人（2002)[10]研发了一种“双向翻译”（bi—directibnal transhtin）方法，使用一个后备译文表来排列备选译文。假设我们要把英文提问词翻译成中文。在“双向翻译“中，首先，在英一中双语词典中找到该英文提问词的一组中文译文；然后，反过来，使用中一英双语词典把这组中文译文中的每种译文又译成英文，得到一组英文译文。基本上，如果该组英文译文中包含有原始提问词，那么对应的中文译文将作为首选译文。"
+  },
+  "3.7习语翻译技术": {
+    "context1": "正如 Ballesteros和Croft（1997)[15]所说“像习语这种多词概念翻译的错误将导致检索效果降低\"，习语翻译无疑对跨语言信息检索具有重要意义。解决这一问题的基本技术是建立包含习语或复合词作标题字(词）的双语词典或词表。然而，我们不可避免地会遇到所用词汇资源覆盖率不足的问题。当在源提问式中遇到难以翻译好的习语时，我们不得不进行逐词翻译，这样必然会导致歧义性问题的产生。假如源提问式中有一个由两个词组成的习语，其中一个词在机读词典中有两种译文，另一个词有三种译文，如此我们就必须从可能的六种译文组合中排除该习语错误的译文形式。对此，Bales te ros和Cmft提出了一种基于前文所能够获得较好的检索效果。理论上而言，习语或复合词可以分成合成和非合成的，根据Pikoa等人(2001)[1的说法，\"可以从其组成词的意思导出其意思的复合词称为合成复合词\"，“不能根据其组成词的意思导出其意思的复合词称为非合成复合词\"。显然，基于词的共现统计的消歧方法在非合成复合词的翻译方面存在局限性。因此，把基于词典和基于共现统计结合起来的方法，可以弥补各自的缺陷，将是一种十分有效、有潜力的解决习语翻译歧义性问题的方法。"
+  },
+  "4结束语": {
+    "context1": "跨语言信息检索的翻译歧义性问题涉及语言学、情报学、计算机科学等多门学科知识，其解决目前也已具备了多种方法和技术，国外在这方面已经做了较为深入的研究。这些方法和技术虽然都显出了一定成效，但尚不能令人满意，因此将其中两种或多种方法结合起来，达到更好的消歧和检索效果，是今后跨语言信息检索领域研究者的一项重要任务。"
+  },
+  "注释": {
+    "context1": "[1] Isu Kang, Oh-Woog Kw on Jong-Hyeok Lee Geunbae Lee Cross - hnguage text retrieval by query trans htin usng tem reweightightematinal Joumal of Pattem Recogn itin and Artifical Inte llgence 20oQ 14 (5): $6 1 7 \\sim$ 629   \n[2] W．J Hutchns, H. L Som ers: An htroductin toMach ne Trans htbn Academ ic Press Ic，1992   \n[3] Kazuaki Kishila Technial issues of cross - hnguage nfom atin re trieval a review.nfom atin Process ng and Managem ent 2005:41, $4 3 3 { \\sim } 4 5 5$   \n[4]M.Davis:New experin ents n cross - hnguage text retrieval at NMSU ’sCom putngResearch Lab Proceedngs of TREC - 5. Gaithersburg MD: Natinal Ins titute of Standards and Techno bgy1997.Avaihble: http://trec nist gov/pubs /trec5/t5_ proceedings hm 1   \n[5] M. W. Davis, W. C. Ogden: QULT: inplm entng a hrge -scalcross-hnguagetext retrieval system.. Proceed ings of the $2 0 \\mathrm { { t h } }$ ACM SGR con fe rence on re search and deve bpm ent n nfo m atin re trieval, 1997. $9 2 { \\sim } 9 8 $   \n[6] L Balesteros, W. B. Croft Resovng ambiguity for cross -hnguage retrieval Proceedngs of the 2lst ACM SGR confe rence on research and devebpm ent n nfom atin re trieval， 1998. $6 4 \\sim 7 1$   \n[7]J Alan, H. Raghavan: Us ig part of-speech pattems to reducequeryam bguity.nfomatbn Process ngand Managem ent 200l, 37 (6)： $7 6 9 \\sim 7 8 7$   \n[8] M. W. Davis: On the effective use of hrge parallelcorpora n cross - hnguage text re trieval G. Gre fens te tte (Ed ), Cross-hnguage nfom atin re trieval Bos tonMA:",
+    "context2": "要对其他主题、非重点学科做附加分类。对于丛书、多卷书，在按整套学科内容进行集中归类的同时，还要对其中每种书、分卷书做分析分类。",
+    "context3": "7.1 有关论述重点主题、重点学科与其他主题、非重点学科的文献2001# $\\$ 9$ a易学与天文学$6 9 0 \\# \\# \\$ \\Phi \\mathrm { a B 2 2 1 . } \\quad 5 \\$ \\Phi \\mathrm { v 4 }$ $6 9 0 { \\# } { \\# } \\$ \\Phi \\mathrm { a P 1} \\$ \\Phi \\mathrm { v 4 }$",
+    "context4": "7.2有关论述交叉学科的文献",
+    "context5": "2001# $\\$ 9$ a国际海上集装箱运输$6 9 0 \\# \\# \\$ \\Phi \\mathrm { a U } 6 9 5 .2\\$ \\Phi \\mathrm { v } 4$ $6 9 0 { \\# } { \\# } \\$ 80$",
+    "context6": "7.3丛书集中分类与分析分类2001# $\\$ 9$ a地球家园 $\\$ 1$ 达气的故事690## $\\$ 9$ aN49 \\$v4$6 9 0 \\# \\# \\$ \\Phi \\mathrm { a X 5 1 - 4 9 }\\$ \\Phi \\mathrm { v 4 }$",
+    "context7": "7.4多卷书集中分类与分析分类"
+  },
+  "（上接第75页）": {
+    "context1": "Klw er，1998. $1 2 \\sim 2 2$",
+    "context2": "[9]Boughanem，N. Nassr Mercure at CLEF-1 C. Peters(Ed )， Cross - hnguage nfomatbn re trieval evalatinINCS(2069). Berln: Sprnger-Verhg 2001. $2 0 2 { \\sim } 2 0 9$",
+    "context3": "[10] M. Boughanem·,C. Chrsm ent N. Nassr hvestgatin on disambiguatin n CLR: algned corpus and bi - directbnal trans htbn-based strateg ies C Pe ters et al (Eds)，Evalatin of cross-hnguage nfom atbn re trieval sys tem s LNCS (2406). Berln: Sprnger-Verhg 2002. 158\\~168",
+    "context4": "[ll] K Yam abana KMuraki S. Doi S. Kamei A hnguage convers in front- end for cross- hnguage nfomatin retrieval G.Grefens tete（Ed ）， Cross - hnguage nfom atbn re trieval Bos ton MA: Klw er 1998. $9 3 \\sim 1 0 4$ [l2] A: Maeda F Sadat M. Yoshkawa S.Uemura Query te m disambguatin forW eb cross-hnguage nfom atin re trieval us ng a search engneProceedngs of the 5th nte matinal workshopnfom atin re trieval w ith As ian lnguages 2000. $2 5 { \\sim } 3 2$",
+    "context5": "$2 0 0 \\# \\# \\$ \\$ \\$ \\$ \\Phi$ a材料科学与技术丛书 $\\$ 1$ 第13卷 $\\$ 9$ 复合材料$\\begin{array} { l } { { 6 9 0 { \\# } { \\# } \\Phi \\mathrm { a T B 3 - 5 1 } \\$ 8 4 } } \\\\ { { 6 9 0 { \\# } { \\# } \\Phi \\mathrm { a T B 3 3 } \\$ 8 4 } } \\end{array}$"
+  },
+  "参考文献": {
+    "context1": "1《中国机读目录格式使用手册》编委会编．中国机读目录格式使用手册．北京：华艺出版社，1995",
+    "context2": "2《中国图书馆图书分类法》编委会编．中国分类主题词表．北京：华艺出版社，1994",
+    "context3": "3《中国图书馆分类法》编辑委员会编．《中国图书馆分类法》(第四版）．北京：北京图书馆出版社，1999",
+    "context4": "4 甘琳．中文图书数据处理规程．北京：北京图书馆出版社，2000",
+    "context5": "5李育嫦．关于增加机读目录检索点的探讨．情报杂志，2002(11)",
+    "context6": "李博昭吉林省图书馆。",
+    "context7": "[13]Y. Qu G. Grefenstette,D. A. EvansResoving trans htbn ambiguity usng m onolngual corporaC. Peters,et al (Eds: )， Advances n cross - hnguage nfom atin retrieval INCS (2785). Berln:SprigerVerhg 2003. $2 2 3 { \\sim } 2 4 1$",
+    "context8": "[14] A.Pirkok: The effects of query structure and dictbnary se tups n dictbnary-based cross -hnguage nfom atbn re trieval Proceedings of the 2lst ACM SGR conference on research and devebpm ent n nfom atbn re trieval 1998. $5 5 { \\sim } 6 3$",
+    "context9": "[15] L Bales teros, W.B. Croft Phrasal transhtion and query expans in techniques for cross - hnguage nfom atin re trieval Proceedings of the 20 th ACM SGR conference on re search and deve bpm ent n nfo m atbn re trieval l997: 84 ${ \\sim } 9 1$",
+    "context10": "[16]A. Pirkoh T Hedlind H Keskustab,KJarveln. Dictinary-based cross- hnguage nfom atbn re trieval prblm s methodsand research findngshfom atin Retrieval 2001.4 $2 0 9 \\sim 2 3 0$",
+    "context11": "张素芳华南师范大学经管学院。"
+  }
+}

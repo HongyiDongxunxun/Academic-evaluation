@@ -1,0 +1,92 @@
+{
+  "original_filename": "full_3270.md",
+  "国内阅读研究进展的可视化分析": "",
+  "兼论专业化馆藏资源建设": {
+    "context1": "于志涛，牟晓青",
+    "context2": "（山东理工大学外国语学院，山东 淄博255049）",
+    "context3": "[摘要]采用CiteSpace软件，以CSSCI为文献源，对国内阅读研究的经典文献、研究热点和重要学者进行分析。指出借助于科学知识图谱技术，可优化专业馆藏资源建设，提高图书馆的科研服务有效性。",
+    "context4": "〔关键词]国内阅读领域；研究进展；馆藏建设 [中图分类号]G253〔文献标识码]A〔文章编号〕1002—1167（2011）05—0013—03",
+    "context5": "阅读对于个体与人类发展的意义不言而喻，阅读研究一直是众多学者关注的焦点。本研究以文献引文网络分析软件为工具，从科学知识图谱分析的角度，对国内阅读研究的经典文献、研究热点和重要学者进行分析，以为后续研究提供参考；亦同时以国内阅读研究为例，探讨如何建设馆藏专业资源库。",
+    "context6": "图书馆馆藏资源建设，不仅要以纸质与数字资源数据库对信息查询提供被动式响应，也要主动进行学科领域专业研究资源建设，以更好地为科研人员服务。借助于科学知识图谱分析技术，可有效追踪研究前沿，建设学科领域专业研究资源库，为科研人员提供专业性和前沿性的文献资源，充分发挥图书馆的科研服务职能和作用。"
+  },
+  "1数据来源与研究方法": {
+    "context1": "本研究以中文社会科学引文索引（CSSCI）（1998一2008）为数据源，以“LY98，LY99，LY00，LY01，LY02，LY03，LY04，LY05，LY06，LY07，LY08,： $\\circledast$ ALL $=$ 阅读”为表达式进行检索，获得文献2174篇；剔除文学阅读评析类文献后，获得有效文献1692篇，有效被引文献记录12034条。",
+    "context2": "本研究采用的数据统计软件为美国德雷塞尔大学陈超美研发的 CiteSpace 2.2.R11[1-2]。CiteSpace II可对学科领域进行历时性动态化分析[3，其数据输入采用ISI格式。CSSCI采集数据均经大连理工大学刘盛博编制的数据格式转换软件CSSCIREC进行处理。"
+  },
+  "2知识基础文献分析与馆藏经典文献建设": {
+    "context1": "应用CiteSpace软件对被引文献进行分析，选择时间切片为1年，以Top35为阀值，采用最小生成树（Minimum",
+    "context2": "SpanningTree）算法，得到节点343个，连接918条，对节点标示进行精简与优化，仅标示中介中心度与被引频次较高的节点，结果见图1。",
+    "context3": "由图1可以清晰地看出，国内阅读研究领域共被引文献网络有3个明显的分区，主要集中在心理学和图书馆、情报与文献学（简称图情档学）。这表明，国内阅读领域的权威研究主要出自于这两个学科领域。",
+    "context4": "心理学文献区1，以英文文献为主，从年代看，其被引证使用的历史较长，已经趋于老化；但也出现少量中文文献，年代较新，最近仍被引证使用。心理学文献分区2，则以中文文献为主，年代数据表明其最近的引证使用比较活跃。图情档学文献区，年代跨度最小，其被引文献最早出现于2004年，表明其共被引最近才出现活跃状态，是值得关注的新研究动向。从共被引文献网络总体来看，中文文献渐具数量优势，这说明国内阅读研究正逐渐趋于独立和成熟。",
+    "context5": "图谱中，中介中心度（C） $\\geqslant 0 . \\ 1 0$ 的节点为关键节点（彩色显示时，外部年环为紫色），表明其对其他节点的共现有显著影响力，代表着新研究方向的出现。由图1可知，国内阅读领域的关键知识基础文献为：（1）《汉语阅读困难儿童认知特征研究》（ $C { = } 0 . \\ 1 6 )$ ，是《关于我国学生汉语阅读困难的研究》的后续研究。后者采用低成就定义和不一致定义一截点法进行检测，明确证实汉语学习者中同样存在阅读困难[4。前者则揭示了汉语阅读困难者的认知特征，以及一般阅读落后与特殊阅读落后的区分指标(5，是国内较早涉足汉语阅读困难这一领域的研究成果。（2）Towarda model of text comprehension and production ( $\\mathrm { C } = 0 . \\ 1 2 )$ ，是明尼苏达大学认知科学中心评选的20世纪认知科学百部优秀文论之一。该文研究认为，文本阅读过程存在表层、基础和情景三种表征6。该成果得到广泛认可，众多学者以此为基础进行了大量深入研究[。（3）《阅读心理学》（C$= 0 . \\ 1 1 )$ ，主要从英文阅读研究出发，系统论述了阅读心理学的研究对象和阅读过程的模式，从词汇、句子和篇章的层次进行了分析，探讨了认知监控、动机和社会因素的影响作用，是国内较早系统论述阅读心理学的著作，被认为是国内阅读心理研究的经典著作 $\\zeta 8 - 9 ]$ 。至2004年，已出版第三版。（4）《不同年级学生自然阅读过程信息加工活动特点研究》（ $\\mathrm { { C } = 0 . \\ 1 1 \\mathrm { { \\Omega } } }$ ，是对Kintsch与VanDijk研究的应用探索，是较早对自然阅读过程中信息加工特点研究的重要文论[10]。（5）Semantic processing and the development ofword recognition skills：evidence from children with readingcomprehension difficulties ( $C = 0 . \\ 1 1 $ ），对阅读理解困难儿童进行研究，较早证实此类儿童在词汇识别过程中缺乏语义编码知识的支持，亦证实语义技能在词汇识别能力发展过程中的重要作用[11]。",
+    "context6": "![](images/595b0118b686529145fb9ddd1be59efb2f2a27d5a81198175722648cdd267faa.jpg)  \n图1国内阅读研究领域共被引文献网络图谱",
+    "context7": "注：知识图谱中仅显示文献的第一作/译者",
+    "context8": "通过分析可知，这些关键知识基础文献，均具有开创性，为大量后续研究提供了新的研究方向和研究基础，可以称之为国内阅读领域研究的经典文献。经典文献资源的建设，亦可按照科学知识图谱分析，对重要节点文献逐一挖掘，可为专业研究奠定坚实基础，提高科研文献梳理的效率。"
+  },
+  "3研究热点、重要学者分析与馆藏资源建设的动态追踪": {
+    "context1": "馆藏资源建设除静态资源建设外，还应对专业研究领域内资源进行动态追踪，以确保研究资源建设的前沿性。动态追踪内容可包括研究热点探索与重要学者关注。"
+  },
+  "3.1研究热点探索": {
+    "context1": "专业馆藏资源建设，应及时探索研究热点的演变，进行热点研究方向的追踪，以为科研工作提供前瞻性方向，也提供方向性研究资源查询。",
+    "context2": "应用CiteSpace软件对被引文献进行分析，选择时间切片为1年，以Top30为阀值，采用最小生成树算法，得到节点153个，连接406条，结果见图2。",
+    "context3": "频次代表主题研究的广泛性。中介中心度则从节点与其它节点的共现角度考虑，代表主题研究的主导性。根据图2，从中介中心度和频次两方面综合来看，国内阅读研究主要集中在英语教学、阅读理解、图书馆阅读、阅读心理、阅读能力、阅读教学、大学生阅读等7个方面。",
+    "context4": "![](images/281b7d462cc715f32ddf7d4479e15e006d19e56ccb6388f7b02e583f56270909.jpg)  \n图2国内阅读研究领域关键词共现网络图谱",
+    "context5": "图谱中，节点的鉴别与显示均基于整体图论特证，因此，图2中的其它节点，其中介中心度和频次虽相对较低，但亦具重要研究意义。英语阅读、阅读教学方法、阅读障碍、阅读疗法、眼动、中小学生阅读、网络阅读、大众阅读、全民阅读和公共图书馆阅读等研究方向，值得关注。",
+    "context6": "国内阅读研究专业馆藏资源建设可定期分析研究热点，提示指导性方向，并就热点进行深度挖掘，实现研究资源的精深化建设。"
+  },
+  "3.2重要学者关注": {
+    "context1": "应用CiteSpace软件对被引文献进行分析，选择时间切片为1年，以Top30为阀值，采用最小生成树算法，得到节点194个，连接548条，结果见图3。根据图3，从中介中心度和频次两方面结合来看，对国内阅读研究有重要影响力的学者有：孟祥芝、舒华、Kintsch、莫雷、Carrell、Rayner、Anderson、王余光、O'Brien和Graesser等10位。",
+    "context2": "孟祥芝为北京大学心理学系学者，舒华为北京师范大学认知神经科学与学习研究所学者，均关注儿童阅读发展与阅读障碍方面的研究(12-13]。Kintsch现为美国卡罗拉多大学博尔德分校心理学与神经系统科学系的荣誉退休教授，关注以潜在语义分析（Latent Semantic Analysis）为基础的心理语义学研究(14]。莫雷为华南师范大学学者，关注文本阅读心理研究(15]。Carrell现为美国南伊利诺斯大学荣誉退休教授，关注第二语言阅读研究，对文本理解中背景知识的作用，以及文本与读者的交互模式，有许多研究成果[16-17]。Rayner现为美国马萨诸塞大学荣誉退休杰出教授，加利福尼亚大学圣地亚哥分校阿特金森学者、心理学教授，德国波茨坦大学洪堡学者、客座教授，研究兴趣包括熟练阅读，应用眼动资料研究感知与认知过程，语义歧义解决，语篇加工等(18-19）。Anderson现为美国伊利诺斯大学教育心理学系荣誉退休教授，关注对字母与非字母语言阅读的比较研究[20]。王余光为北京大学信息管理系学者，关注阅读文化与现代出版业研究(21]。O'Brien为美国新罕布什尔大学心理学系教授，关注认知加工、文本理解与记忆研究[22]。Graesser现为美国孟菲斯大学心理学系教授，研究兴趣包括认知科学、语篇加工、文本理解等〔23]。",
+    "context3": "![](images/0b06ed680cb0efa224c9b9a14394f54ebe6dd3fb5617312dc6b64d8dff3f3b27.jpg)  \n图3国内阅读研究领域被引作者共现网络图谱",
+    "context4": "上述学者在阅读领域，均有开拓性的研究成果，影响力巨大，是阅读研究的重要学者。专业馆藏资源建设可及时追踪重要学者的最新研究成果，亦可邀请他们讲学，进行学术交流，可及时把握阅读领域的研究前沿。"
+  },
+  "4结语": {
+    "context1": "本研究运用科学知识图谱技术，以CSSCI为文献源，对国内阅读领域研究的经典文献、研究热点和重要学者进行了分析。实践中，亦可对学科研究领域的文献学科类型、权威期刊分布等进行挖掘。",
+    "context2": "采用科学知识图谱技术，进行馆藏资源专业化建设，可有效优化馆藏资源，降低采购的盲目性，减少成本，同时亦可为科研人员提供专家化咨询，提高服务的有效性。"
+  },
+  "[参考文献]": {
+    "context1": "[1]Chen，C.（2oo6).CiteSpace II：Detecting and visualizing emerging trends and transient patterns in scientific literature 〔J]. Journal of the American Society for Information Science and Technology，57（3)，359-377.   \n[2] Chen，C.（2oo4)． Searching for intellectual turning points: Progressive Knowledge Domain Visualization [J]．Proceedings of the National Academy of Sciences of the United States of America，101（S1)，5303-5310.",
+    "context2": "[3]陈超美.CiteSpaceII：科学文献中新趋势与新动态的识别与可视化〔J]．情报学报，2009，28（3)：401－421.",
+    "context3": "〔4]张承芬，张景焕，殷荣生，等．关于我国学生汉语阅读困难的研究〔J]．心理科学，1996，16（4)：222－226.",
+    "context4": "〔5]张承芬，张景焕，常淑敏，等．汉语阅读困难儿童认知特征研究[J]．心理学报，1998，30（1)：50－56.",
+    "context5": "[6]Kintsch，W& Van Dijk T，A. Toward a model of text compre-hension and production[J]．Psychol.Rev.，1978，85（5）：$3 6 3 - 9 4$",
+    "context6": "〔7]迟毓凯，莫雷．课文表征研究新进展：从命题表征到情境模型[J]．心理学动态，2001，9（1)：25-30.",
+    "context7": "〔8]张必隐．阅读心理学〔M]．北京：北京师范大学，1992.",
+    "context8": "〔9]刘儒德．分合衰兴、渐入佳境：教育心理学这一百年——北京师范大学百年来对教育心理学的贡献〔J．高等师范教育研究，2002，14（4)：38-43."
+  },
+  "〔10]莫雷．不同年级学生自然阅读过程信息加工活动特点研究[J]．心理学报，1998，30（1)：43－49.": {
+    "context1": "[11]Nation，K.，Snowling M. J. Semantic processing and the development of word recognition skills：evidence from children with reading comprehension difficulties [J]．Journal of Memory and Language，1998（39)：85－101.",
+    "context2": "〔12]孟祥芝简介〔EB/OL]． $[ 2 0 1 1 - 0 5 - 1 1 ]$ .http://www. psy.pku.edu.cn/faculty.php？fid $= 1 8 \\&$ res.",
+    "context3": "[13]舒华简介〔EB/OL]. $[ 2 0 1 1 - 0 5 - 1 1 ]$ .http：//psychbrain. bnu.edu.cn/teachcms/shuhua.htm.",
+    "context4": "[14]Walter Kintsch. $[ 2 0 1 1 - 0 5 - 1 1 ]$ .http：//ics colorada edu/ about/homepages/wkintsch.html.",
+    "context5": "[15]莫雷简介〔EB/OL]. $[ 2 0 1 1 - 0 5 - 1 1 ]$ .http://202.116. 32.249/rsc/rsc/files/hzds/xl_ml.doc.",
+    "context6": "[16]Reviewed work：Extensive Reading Activities for Teaching Language[EB/OL]. $[ 2 0 1 1 - 0 5 - 1 2 ]$ .http：//nflrc.hawaii. edu/rfl/april2oo5/reviews/carrell. html.",
+    "context7": "[17]Carrell,P.L.Readability in ESL〔J]．Reading ina ForeignLanguage，1987，4（1)： $2 1 - 4 0$",
+    "context8": "[18]Keith Rayner[EB/OL]. $[ 2 0 1 1 - 0 5 - 2 2 ]$ .http://raynerlab.ucsd.edu/Keith_Rayner.html.",
+    "context9": "[19]Keith Rayner’s Webpage[EB/OL]. $[ 2 0 1 1 - 0 5 - 2 2 ]$ .http：//www-unix oit umass edu/ $\\sim$ rayner/.",
+    "context10": "[20]Faculty Research Profiles：Richard? Anderson [EB/OL]. [2011—05-22].http：//education.illinois.edu/frp/a/csrrca.",
+    "context11": "[21]王余光〔EB/OL]. $[ 2 0 1 1 - 0 5 - 2 2 ]$ .http://www. im pku. edu.cn/showteacher.asp $? { \\mathrm { i d } } = 2 8 $",
+    "context12": "[22]Edward J. O’Brien[EB/OL]. $[ 2 0 1 1 - 0 5 - 2 2 ]$ .http:// pubpages.unh.edu/ $\\sim$ eob/vita.pdf.",
+    "context13": "[23]Arthur C.Graesser[EB/OL]. $[ 2 0 1 1 - 0 5 - 2 2 ]$ .http:// www.memphis edu/psychology/people/faculty/graesser. php.",
+    "context14": "〔24]谢俊贵，周后瑞．我国信息弱势群体的人口特征分析——基于湖南信息分化调查及相关资料〔J]．怀化学院学报，2007(4):9-13.  \n〔25]李桂华．当代公共图书馆用户：需求、行为与结构〔M．成都：四川大学出版社，2010：216—247.  \n〔26]张慧．省级公共图书馆对“信息弱势群体”的信息咨询服务[J]．图书馆建设，2004（3)：15－16.  \n〔27]刁松龄．城市化进程中外来农民工群体信息需求分析〔J．图书情报知识，2007（4）： $4 4 - 4 6$   \n〔28]刁松龄．城市化进程中外来农民工信息服务研究——以珠三角为例〔J]．图书情报工作，2009（4)：136－139.  \n〔29]李顺东，等．昆明地区公共图书馆针对农民工的信息服务研究〔J]．情报杂志，2009，28（S2)：218-219.  \n〔30]李美红．图书馆残疾人用户信息服务探讨〔J]．图书馆工作与研究，2005（4)：43-45.  \n〔31]樊戈，李桂华．残疾用户信息需求调查与服务对策思考〔J].图书馆，2009（1)：60－62.  \n〔32]彭蓉.图书馆为下岗人员提供信息服务浅探〔J].科技情报开发与经济，2007（2)：64一65.  \n〔33]沙平．试论公共图书馆的就业信息服务〔J]．当代图书馆，2004(4)：33-34.  \n〔34]吴玲芳，戴丽．IT时代日本公共图书馆为视障读者的信息服务〔J].图书馆，2003（1)：87-88.  \n〔35]袁琳．读者服务的组织与管理〔M．武汉：武汉大学出版社，1998.  \n[36] 鲁黎明.图书馆服务——理论与实践〔M．北京：北京图书馆出版社，2005：15—16.  \n〔37]吴慰慈，董炎．图书馆学概论〔M]．北京：北京图书馆出版社，2002：191—192.  \n〔38]张树华，等．数字时代的图书馆信息服务〔M]．北京：北京图书馆出版社，2005：7.  \n[39]E.A.Chatman.Alienation theory：application of a conceop-tual framework to a study of information among janitors[J].ReferenceQuarterly，1990(Spring)：355."
+  },
+  "A Literature Review of Information Services for the Disadvantaged Groups in Chinese Public Libraries（2001－2010）": {
+    "context1": "XIAO Yong-ying，HE Lan-man",
+    "context2": "(School of Information Management，Sun Yat-Sen University，Guangzhou 5looo6，China)",
+    "context3": "Abstract：Reviewstheliteratureofinformationservicesforthedisadvantaged groupsinChinesepubliclibariesfrom2OoltooThesubjectsncludetoricalseahmeasesffoatioftioodgstaefoatioedtad groups；formationndsandbeaviorofvariousdisadvantaged grous；andnformationservicesforthedisadvantagedgroupsinforeigncoun tries.Indicatessuchproblemsathevagueconceptof‘informationserviceelativelyfewpaperspublishedinthereaandackofepirical evidence of the feasibility of measures.",
+    "context4": "Keywords：public libraries；disadvantaged groups；information services"
+  },
+  "[作者简介]肖永英（ $1 9 6 3 - )$ ，女，中山大学资讯管理学院副教授，硕士研究生导师。": {
+    "context1": "[收稿日期]2011—02—09",
+    "context2": "（上接第15页）"
+  },
+  "Development of Reading Research in China": {
+    "context1": "On Specialized Collctions of Resources in the Library",
+    "context2": "YU Zhi-tao，MU Xiao qing",
+    "context3": "(School of Foreign Languages，Shandong University of Technology，Zibo 255049，China)",
+    "context4": "Abstract：BasedonthedatainCSSCI,thisstudyanalyzestrendsandpatersintefieldofReadinginChina（1992o8）withmapngtech niquesforproessveoaiisualiioAstolsfousilapgts sive knowledge domain visualization can beused to optimizethe resources and to improve the service effectively.",
+    "context5": "Keywords：reading research in China；development；collctions of resources",
+    "context6": "[作者简介]于志涛（ $1 9 7 8 - )$ ，男，山东理工大学外国语学院讲师；牟晓青（1976一），女，山东理工大学外国语学院讲师。",
+    "context7": "[收稿日期]2011—05—26"
+  }
+}

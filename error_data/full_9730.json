@@ -1,0 +1,106 @@
+{
+  "original_filename": "full_9730.md",
+  "近10年来国外多语言信息组织与检索研究进展与后示": "",
+  "司莉庄晓喆贾欢": {
+    "context1": "摘要近年来国外在多语言信息组织与检索研究领域取得了显著进展。本文以WoS、ACM、Emerald、Elsevi-er、ProQuest、Springer等数据库收录的文献为基础，对近10年来该领域的研究进行述评。国外研究重点关注以下问题：多语言本体构建与协调，基于关联数据的多语言语义网建设，跨语种语言资源和知识组织系统互操作，多语言文本分类与聚类，多语言环境下的用户信息行为，多语言信息检索模型，多语言信息检索方法与技术，多语言信息检索系统开发及评估，特定领域的多语言信息检索，交互式多语言信息检索。对我国的后示主要体现在：加强实证研究方法的应用，开发面向实用的多语言信息检索系统，注重基于语义的信息组织与检索研究，拓展特定学科领域应用研究。图1。参考文献68。",
+    "context2": "关键词多语言信息组织跨语言信息组织多语言信息检索跨语言信息检索分类号G250"
+  },
+  "A Review of Multilingual Information Organization and Retrieval Research Abroad in the Last Ten Years": {
+    "context1": "SI Li,ZHUANG Xiaozhe & JIA Huan"
+  },
+  "ABSTRACT": {
+    "context1": "Themultilinguality of online information has become the major obstacle to the sharing ofonline information resources across nations.To overcome this obstacle，there isan urgent need for developing methods and technologies of multilingual information organization and retrieval.Recent years witnessed significant progress in the research on both cross lingual and multilingual information organization and retrieval,which dates back to the 196Os but remains relatively inactive for almost 3O years.The purpose of this study is to conduct a systematic review on the status quo of multilingual information organization and retrieval research at abroad based on literature collected from foreign academic databases.",
+    "context2": "We performed a thorough search in the follwing ten databases:ACM Digital Library，EBSCO Academic Search Premier,Elsevier ScienceDirect,Emerald,IEEE/IETElectronic Library,ProQuest Digital Dissertations & Theses，Sage Premier,Springer Link,Wiley InterScience,and Web of Science.“Multilingual information retrieval”，“crosslingual information retrieval”,“cross language information retrieval”，“bilingual information retrieval”,“translingual information retrieval”,“multilingual information access”，“MLIR”,“CLIR”,“multilingual ontology”,“multilingual interoperability” were selected assearch terms in title and keyword search.The literature publishedtime is limited to the yearsafter 2OO4.References in the literature wereutilized forretro一 spectivesearch.Theretrieval dead lineis March1st,2Ol5.Thenumber of related full-text literature is 1028 in total,and articles written by Chinese scholars in English are excluded.",
+    "context3": "The literature review consists of three parts:the progress of multilingual information organization research at abroad;the progress of multilingual information retrieval research at abroad;the summarization and enlightenments of multilingual information organization and retrieval research at abroad.Through literature review,it is shown that multilingual information organization research mainly focused on the construction and thealignment of multilingual ontologies,the utilization of linked data in building multilingual semantic network；the interoperation among multilingual language resources and multilingual knowledge organization systems，and multilingual text categorization and clustering.As for multilingual information retrieval research，hotspots include user information behavior under the multilingual environment，multilingual information retrieval models,multilingual information retrieval methods and techniques，multilingual information retrieval tools and their evaluation,multilingual information retrieval in specific domains，and interactive multilingual information retrieval.We find that the research covers various research topics，highlights abundant empirical studies，evolves towards semantic-based information organization and retrieval,and orients to specific domains.Inspired by foreign counterparts，Chinese scholars in this field should strengthen the employment of empirical research methods，make more effrts to develop application-oriented multilingual information retrieval systems，pay more attention to the study of semantic -based multilingual information organization and retrieval，and broaden the study of domain -specific multilingual information retrieval.",
+    "context4": "However，due to the insuffcient background knowledge in linguisticsand computer science，a minority of the articles could notbe full understood.Besides，non-full -text literature is not in the scope of our literature review，which may lead to an incomplete reflection of the research status.",
+    "context5": "Our study attempts to explore and summarize the progress of multilingual information organization and retrieval research outside China since 2Oo5．We identified the research hotspots in the domain of multilingual information organization and retrieval,introduced both theoretical and practical progress，and gave suggestions for the further study of multilingual information organizationand retrieval in China.1 fig.68 refs."
+  },
+  "KEY WORDS": {
+    "context1": "Multilingual information organization.Cross -language information organization.Multilingual information retrieval.Cross-language information retrieval."
+  },
+  "0引言": {
+    "context1": "以自身熟悉的语言构造查询请求，一站式获取其他语种的信息无疑是信息用户所乐见的。为实现这一愿景，学界就多语言信息组织与检索开展长期探索。1969年，Salton利用基于英、德双语概念列表构建的 SMART检索系统进行了首次多语言文本检索实验，开多语言信息检索研究之先河。20世纪90年代起，信息检索迈入网络信息检索阶段。随着互联网的日益普及，网络用户的地域分布趋于广泛。截至2014年6月，亚、非各国的网络用户已占全球网络用户总数的 $5 5 . 5 \\%$ ，是欧洲、北美地区网络用户数的近两倍。与此同时，网络信息的语种分布亦呈现多元化趋势。2003年，$72 \\%$ 的网站用英语表述站内信息，但2014年，这一比例已降至 $5 5 \\%$ 。网络信息的多语种化与用户所掌握语言的差异性、有限性之间的矛盾进一步凸显。这不仅降低了信息检索的检全率、检准率，使置身信息海洋的人们更加难以捕获满足需求的信息，而且极大地制约了国家和地区间的信息交流与共享，阻碍数字鸿沟的弥合，也不利于小语种信息资源的挖掘与利用。",
+    "context2": "因此，多语言信息组织与检索愈加受到不同领域研究者的关注。近20年来，相关研究项目层出不穷，如欧盟资助的欧洲多语言信息检索项目（European Multilingual Information Re-trieval，EMIR）和i2010数字图书馆项目（Dig-italLibraries Initiative，DLI)、美国资助的跨语言信息检测、抽取和总结项目（Translingual In-formation Detection，Extraction and Summariza-tion，TIDES）等。美国的文本检索会议（TextRetrieval Conference，TREC）和信息检索特殊兴趣小组会议（Special Interest Group on Informa-tionRetrieval，SIGIR)、欧盟的跨语言评价论坛(Cross Language Evaluation Forum，CLEF）、日本的信息检索系统测试集会议（National Centerfor Science Information Systems Test Collections forInformationRetrieval，NTCIR)、印度的信息检索评估论坛（Forum for Information Retrieval Evalu-ation，FIRE）等国际会议也均聚焦于该领域研究。本文对2005年以来国外有关多语言信息组织与检索的研究进行总结、梳理，以期为国内研究者在该领域的探究与实践提供借鉴。",
+    "context3": "对于跨语言检索与多语言检索的概念，Pe-ters等指出，跨语言信息检索旨在以某一语种构建的查询条件从多语种信息集合中检出另一语种的信息，多语言信息检索则旨在以任意语种的查询条件从多语种信息集合中发现并获取任何语种的信息，前者是后者的组成部分，后者是前者的积累效应。在文献调研中，笔者发现部分研究者并未严格区分这两种概念，甚至将两者视为同一概念，故本文也将跨语言检索纳入研究范畴。",
+    "context4": "本文以WebofScience数据库为主要信息源，以ACM、EBSCO、Emerald、Elsevier、IEEE/IET、ProQuest、Sage、Springer、Wiley等全文数据库为其他信息源，选取“multilingual information re-trieval’“crosslingual information retrieval”“crosslanguage information retrieval’“bilingual informationretrieval’“translingual information retrieval’“mul-tilingual information access” “MLIR”“CLIR”“multilingual ontology”“multilingual interoperability”等为关键词，在题名和关键词字段中进行检索，并将文献的发表时间限定为2005年以后。对检索结果进行去重并剔除无关结果后，共得到全文文献1028篇。检索截止时间为2015年3月1日。按其发表年份进行统计，结果如图1所示。",
+    "context5": "![](images/358e627663947f042c76bb55ad58e76877d94196ad609a6a5d61472b7f92e15f.jpg)  \n图1国外多语言信息组织与检索领域研究论文年度分布",
+    "context6": "由图1可见，2005年至2011年间，国外多语言信息组织与检索领域的研究论文数总体呈现显著上升趋势，至2011年达到高峰。2012年以后发文量有所下降。2010年前，相关研究主要集中于多语言本体的构建、多语言文本分类、多语言信息检索模型、多语言信息检索的方法与技术等方面。2010年后，研究主题进一步拓展，关联数据应用、多语言文本聚类、多语言信息检索技术与系统评估、多语言信息检索在特定领域的应用、交互式多语言信息检索也成为研究热点。"
+  },
+  "1多语言信息组织研究进展": {
+    "context1": "多语言信息组织的研究与实践可追溯到多语种叙词表的编制。随着语义网、关联数据、互操作等技术工具被广泛应用于信息组织中，多语言信息的组织也正向语义化、集成化方向发展。"
+  },
+  "1.1多语言本体的构建与协调": {
+    "context1": "多语言本体以概念为基本构成单位，通过概念的属性、概念间的关系及相关约束表达概念的语义，有效缓解了语义的曲解问题。Drag一oni等探讨了有机农业领域多语言本体的演化，认为本体演化是由实体弃用（entitydepreca-tion）、本体映射、本体扩充、实体特殊化、实体泛化和实体翻译等情境组成的工作流程，强调领域专家、知识工程专家、语言专家的密切协作。另外，他们还开发了多语言领域本体演化的支持工具MoKi。Salim等指出多语言本体的价值在于可实现对多语言文本的语义标注，提出多语言本体的两种构建方法（基于对网页内容及概念间关系的抽取，基于对传统知识组织系统的复用)，并将该本体应用于网络文本的标注，进而实现多语言门户网站的检索功能。",
+    "context2": "本体协调（ontology alignment）核心是本体映射，可支持不同语言本体间的互操作，以达成对多语种信息的语义描述。Trojahn等提出了一个面向多语言描述型逻辑本体的映射框架。该框架由翻译代理模块（用于将源语言本体译为目标语言本体）、协调代理模块（用于交换不同代理产生的映射结果)、论证模块（用于计算合适的映射集）组成，可实现单一词型概念和复合词型概念的跨语言映射。他还通过从源本体（葡萄牙语）到目标本体（英语）的映射验证该框架的可行性。 $\\mathrm { F u }$ 等将机器翻译技术应用于英汉领域本体的映射，并根据实验结果分析基于机器翻译技术的多语言本体映射的优势与不足，认为引入语义相似度计算方法可有效提升映射的准确度。"
+  },
+  "1.2基于关联数据的多语言语义网建设": {
+    "context1": "关联数据可用于标识、发布和连接各类数据、信息、知识。将其应用于多语言信息组织中，可建立不同语种概念间的关系，并指引用户访问资源，是建立多语言语义网的又一重要手段。Perez等认为RDF数据集的多语言性要求关联数据向多语言化方向发展，并就数据源的特征分析、URI和IRI的设置、RDF数据建模、RDF数据集生成中的语言识别与编码、RDF数据集的互联与发布等问题展开阐述[。Gayo等指出多语言关联开放数据的设计需要着重考虑实体命名、参引（dereferencing）、资源标识、资源描述、资源链接（尤其是语言不同但内容相同的资源）、关联数据重用等问题，并分别提出了相应解决方案。Caracciolo等探讨多语言叙词表的关联数据化问题，他们将农业科学多语言叙词表AGROVOC改造为以SKOS-XL模型表示的概念框架，利用SKOS映射机制进行 AGROVOC 到LCSH、Eurovoc、RAMEAU、DDC以及DBpedia等同样以关联开放数据形式发布的外部资源的映射，以可参引的URI标识词表中的概念，通过URI链接建立这些概念与其他叙词表、分类法和知识库中概念间的关联[。Ehrmann等尝试整合不同语种的语义知识库，建成“语言学领域的关联开放数据云”（linguistic linked open data cloud）。该库使用词典模型lemon表述概念的含义，以SKOS的概念类表示同义词集合，再以关联数据形式发布于网络，集成了维基百科、Ome-gawiki、WordNet、Open Multilingual WordNet 等资源，可提供对涉及50余种语言、930多万个概念的详细说明，并揭示其间的词义关系[。"
+  },
+  "1.3跨语种语言资源与知识组织系统的互操作": {
+    "context1": "互操作指两个及以上系统间相互使用已被交换的信息的能力[4。跨语言知识组织系统的互操作则是实现不同语种信息跨库检索的基础，也有助于充实概念间的语义关系。在跨语种语言资源的互操作方面，Witt等提出实现跨语种语言资源互操作的两种途径：基于转换与基于中间语言的途径。前者以映射为手段，实现两种语言间的互译；后者通常选用相对泛化、抽象的描述语言或本体连接两者，更强调对语言结构的分析[。Soria等利用中间语言索引（interlingualindex）实现分布式语义词库ItalWordNet（意大利语）与SinicaBOW（英语、汉语）的互操作，可实现扩充现有语义资源、验证语义关联、创建新的语义资源等目标[。",
+    "context2": "在跨语言知识组织系统的互操作方面，Nicholson和McCulloch回顾了英国高层叙词表项目HILT的第二阶段工作，探讨不同语种知识组织系统的互操作，以实现一站式检索服务。该项目以DDC为映射转换中心，将多部分类法、叙词表、标题词表与DDC类号建立映射关系。可将用户输入的关键词反馈为可能与其需求相关的DDC概念，再使用与概念相关联的DDC类号执行查询。作者还设计了基于SRW协议的互操作系统架构[。Ma等通过补充对象属性、数据类型属性的方式扩展了SKOS模型，使用该模型完成地质年代多语言叙词表的本体化描述，并将改造后的叙词表应用于在线地质图集成服务系统中，使用户可通过一种语言检索涉及7种语言的多语种地质图资源[。"
+  },
+  "1.4多语言文本分类与聚类": {
+    "context1": "多语言文本分类旨在将不同语言的文本/文档自动归入事先建立的分类体系中。Gliozzo与Strapparava提出了一种通过从可比语料库中获取多语言域模型（multilingual domain model,即由多语种词汇组成的词串的集合）来实现多语言文本分类的方法，该方法无需人工干预，也无需引入双语/多语词典等外部跨语种语言资源[1。Amine与Mimoun利用在线语义词库WordNet的2.1版进行英语和西班牙语文献的文本分类，首先利用机器翻译将西班牙语文献译为英语，同时将WordNet改造为本体，再为WordNet中的概念构建同义词集合，并建立集合间的上下位关系，形成概念范畴体系，然后生成待分类文献的概念矢量并赋予权重，最后计算概念矢量与类目轮廓间的相似度。",
+    "context2": "多语言文本聚类的目标是完成不同语言文本/文档的归类，但分类体系并非人工事先建立，而是自动形成。Kiran等以维基百科作为外部多语言知识库开展多语言文献聚类，使用由关键词向量、类别向量、外链向量、信息框向量构成的向量空间模型描述不同语种文献的特征，并计算向量空间的相似度，最终实现多语言文本聚类。Cobo 和Rocha设计了一种针对经济领域多语言文献的聚类算法，且测试了其对于英语和西班牙语研究论文聚类的有效性。该算法借鉴蚂蚁算法的思想，使用四个向量表示文献特征，通过计算特征向量角间距的凸线性组合，得到文献的相似度，再辅以专有名词识别和词汇抽取技术完成多语言文本聚类。"
+  },
+  "2多语言信息检索研究进展": {
+    "context1": "多语言信息检索研究虽然已历经40余年，但早期进展较为缓慢。网络环境下，语言隔阂取代空间距离成为信息交流与获取的首要障碍。受此驱动，该领域研究呈现不断上升的态势，相关成果较为丰硕。"
+  },
+  "2.1多语言环境下的用户信息行为": {
+    "context1": "了解不同用户群体的检索行为特点是开发多语言信息检索的前提。Ruiz与Chin采用现场观察、访谈、网上调查等方法，探讨用户搜索以非母语语种标注的图像资源的行为，发现基于大众标注的图像检索系统由于缺乏对不同语种标签的规范机制，用户查找时困难较大。Ghorab 等通过分析欧洲图书馆（The EuropeanLibrary，EL）检索系统的日志记录，探究拥有不同语言和文化背景用户的检索行为特征，得出的结论是，用户的检索行为因其语言和文化背景的区别而呈现较明显差异，提出应针对各国/地区用户设计、开展个性化的多语言信息检索服务。Hong通过问卷调查、访谈、检索实验等方式深入探究双语用户的网络信息搜索行为，她发现该类用户倾向于根据自身需求选择一种语言进行检索，但大多希望搜索引擎提供双语检索界面。Petrelli与Clough分析了具有双语表达能力的高校师生跨语言图像检索时提交的查询请求，发现用户倾向于使用在线免费机器翻译工具，查询请求不合乎语法结构是制约机器翻译准确度的重要因素。"
+  },
+  "2.2多语言信息检索模型": {
+    "context1": "多语言信息检索模型是多语言信息检索系统的形式化表示。Lilleng和Tomassen构建了基于特征向量的多语言信息检索模型。针对用户输入检索词，通过预先建成的目标语言本体和对目标文档的语词统计分析构建特征向量空间，以丰富用户查询的语义信息。基于该模型的检索系统能较好地解决用户查询的消歧问题，从而改善用户查询的翻译质量。Ko等提出基于独立预测模型和联合预测模型的两种跨语言问答系统输出结果的排序模型，并通过基于英一汉和英一日跨语言问答系统的实验进行验证，两种方法均可明显优化由语词组成的答案的排序结果。",
+    "context2": "研究者还提出了一些专门面向多语言信息检索的模型。Ghorab等设计了一套自适应多语言信息检索模型，该模型由流程控制器、查询适应与翻译模块、多语言信息检索模块、结果列表适应与翻译模块四部分组成，并应用作者提出的用户兴趣建模算法以及检索结果合并、重排与翻译算法。实验表明，基于该模型的多语言信息检索系统具有较好的个性化检索功能2。Jan等提出了面向跨语言信息检索的统一音译检索模型（unified transliteration retrievalmodel)，将音译相似度测量与相关度评分融为一体，同时提出了一种基于隐马尔科夫模型和统计机器翻译框架的新型音译相似度测量方法。Potthast等构建了基于维基百科的多语言信息检索模型CL-ESA。该模型充分利用维基百科中丰富的跨语言语义表达方式，并引入显式语义分析（explicit semantic analysis）法，根据用户查询和目标文献中的语词在维基中出现的位置获取其语义信息，为其逐一添加概念向量，通过计算概念向量间的余弦相似度得到用户查询与文献主题的相似度，从而实现多语言信息检索结果的合理排序["
+  },
+  "2.3多语言信息检索方法与技术": {
+    "context1": "国外研究者围绕跨语言和多语言信息检索的方法与技术开展大量研究，主要包括机器翻译、双语/多语语料库和词典、多语言词汇与信息抽取、命名实体识别、词义消歧、查询扩展等。"
+  },
+  "2.3.1机器翻译": {
+    "context1": "机器翻译是较早运用于跨语言和多语言信息检索的技术之一，可分为基于规则的机器翻译与统计机器翻译两类。Abu Shquier等设计了一种基于规则的新型机器翻译方法，并应用于英语一阿拉伯语机器翻译系统中，此方法可更好地处理性数一致（agreement）和词汇重排列问题，且可扩展性较强。Riesa提出了针对统计机器翻译的基于句法的词对齐模型，该模型将词对齐系统与基于句法的机器翻译解码器相整合，依托分层翻译算法，使机器翻译系统能持续地自动获得并熟悉翻译规则，他通过阿拉伯语一英语，汉语一英语信息互译实验，证实了该模型的可行性和可扩展性。此外，Tufis探讨了针对翻译资源不足的小语种信息的机器翻译策略，指出利用可比语料库的信息抽取技术可获取大量平行语句对，从而有效解决这一问题。Kumaran论述了复合机器音译系统的设计方法，该系统将单个音译模块串行式或并行式地连接起来，翻译效率显著提高，且无需构建平行名称语料库即可使用。"
+  },
+  "2.3.2双语/多语语料库和词典": {
+    "context1": "双语/多语平行语料库和可比（对比）语料库因有利于改善翻译质量而被广泛应用于跨语言、多语言信息检索中。Talvensaari等建设了一个瑞典语/英语新闻信息语料库，并以该对齐可比语料库为基础开发基于用户查询翻译的跨语言检索系统。他们认为，语料库实质上是跨语言的相似性叙词表，可支持用户查询扩展。研究者还尝试将以维基百科为代表的开放式多语言网络百科当作可免费获取的语料库素材。Otero和Lopez选取考古学领域同时包含英语、西班牙语、葡萄牙语版本的维基百科词条，通过转换源文本为XML结构、篇章对齐、关键词抽取等步骤，把半结构化、分类体系的维基百科成功改造为三个特定领域的可比语料库",
+    "context2": "利用机读双语/多语词典，将用户查询请求翻译为目标语种后再执行检索是实现跨语言与多语言信息检索的又一策略。Levow等指出，双语词典乃至双语词汇列表虽结构简单，但在跨语言信息检索中（尤其是在词汇抽取、用户查询翻译方面）却发挥着不可替代的作用。他们分别将权重映射（weightmapping）算法、证据映射（evidencemapping）算法、翻译后语词再分隔（post-translation resegmentation）方法、翻译后查询扩展（post-translation expansion）方法运用于基于双语词典的查询翻译中。他们所进行的四项跨语言检索实验（英一德、英一法、英一汉、英一阿拉伯）表明，采用上述跨语言信息检索策略可进一步优化检索效果。"
+  },
+  "2.3.3多语言词汇与信息抽取": {
+    "context1": "多语言词汇与信息抽取有助于使多语言信息检索系统更准确理解目标语言文献的内容。Valderrabanos等介绍了欧盟委员会资助的跨语言文本信息检索项目LIQUID实施中采用的自动化术语抽取方法：首先开发词汇的术语抽取工具，该词汇能用于准确描述特定文献的内容主题，接着将抽取的术语与先行构建的领域本体中的概念建立语义连接关系。Lefever等讨论如何从平行语料库中抽取双语词汇，他们设计了基于次句（sub－sentential，通常指短语）对齐系统的词汇抽取功能模块，并通过基于统计方法的过滤器对抽取的词汇进行精选。Hecking等采取浅层句法分析（shallowparsing）和深层、浅层句法分析相结合的方法进行多语言军事领域文献的文本分析与信息抽取，发现后者的效果优于前者，他们还据此开发了文献内容分析原型系统ZENON，并为之增添基于语义等价表征的逻辑推理机，以进一步优化信息抽取的水平。"
+  },
+  "2.3.4命名实体识别": {
+    "context1": "命名实体识别（named entity recognition）又称专名识别，是指识别文本中具有特定意义的实体。多语言环境下，命名实体识别的作用在于捕获不同语言中意义相对应的命名实体。Klementiev和Roth提出了一种从双语可比语料库中自动发现命名实体的算法，基于该算法的命名实体识别省去了冗长的机器学习阶段，较为快捷，且适用于发现小语种文本中的命名实体。Richman 和 Schone 则构建了基于维基百科的多语言命名实体识别系统，他们将维基百科词条的文本视为已经过人工标引处理的多语语料库，以此作为多语言命名实体识别的机器学习训练集，通过维基百科自有的分类结构确定命名实体的类型，进而依托英文版词条与其他语种词条的语义连接查找英文命名实体在其他语言中对应的命名实体[44。"
+  },
+  "2.3.5词义消歧": {
+    "context1": "词义消歧是理解自然语言的必经步骤，可更好地理解用户的查询请求，同时提高检索精度。Pinto等提出了一种基于朴素贝叶斯模型的跨语言词义消歧方法，他们使用双语统计词典计算源词汇可被翻译为目标词汇的概率，并在词义消歧过程中自动实现词汇的替换[。Guy-ot等设计了三种词义消歧算法，其中两种为基于WordNet的消歧算法，另一种算法则始终以判别出的第一种含义为词汇的正确含义。作者将其应用于英语一西班牙语跨语言信息检索系统中，发现词义消歧算法仅在某些情况（如用户查询语句较短）下能提高用户检准率，而基于WordNet的算法效果较佳"
+  },
+  "2.3.6查询扩展": {
+    "context1": "查询扩展即在用户输入初始的查询请求后，自动根据查询的语义增加新的查询语句，有利于更加完整、规范地反映用户的真实信息需求，使之获取更多相关信息。Jnedie将查询扩展分为基于用户反馈的交互式查询扩展和自动查询扩展，并指出多语种叙词表和以Word-Net为代表的语义词库均是多语言环境下用户查询扩展的重要工具。作者还介绍了词汇共现分析、基于上下文的词汇共现分析、局部上下文分析、用户日志挖掘等查询扩展技术。Gavel和Andersson利用MeSH叙词表实现了涵盖挪威、瑞典、芬兰三国的医学期刊书目数据库SveMed $^ +$ 的用户查询自动化扩展功能，同时借鉴PubMed数据库的自动术语映射技术进行用户输入的自然语词与叙词的映射，以完成查询的翻译与规范化处理[4。"
+  },
+  "2.4多语言信息检索系统开发及评估": "",
+  "2.4.1多语言信息检索系统开发": {
+    "context1": "多语言信息检索系统是相关方法与技术的应用载体，是不同地区的用户查找、获取不同语种信息的必经渠道。Stankovic等从多语言资源的整合、多语言元数据的创建、软件系统的选择与改造、多语言检索界面的设计等方面，介绍了可实现用户查询的语义扩展和语词形态扩展的多语言期刊论文全文检索系统Biblisa的开发流程与要点。Brodeala等构建了提供多语言检索功能的语义检索系统 SemanQuery，该系统以英语、西班牙语版本的WordNet为语义资源，建立两种语言中概念间的等级关系和等同关系，从而能根据用户的查询请求推断其关注领域，将跨语言的相关检索词和检索结果推荐给用户 。",
+    "context2": "跨语言问答系统（cross-language questionansweringsystem）是跨语言信息检索技术在自动问答系统中的应用。Dolores等通过实例调查，比较语料库、自动翻译工具、维基、领域本体、多语词典作为多语言问答系统语言资源的优势与不足，认为多语言领域本体和维基是多语言问答系统语言资源的较好选择。Ferrández等将维基百科和多语言语义词库Eu-rowordnet嵌入跨语言问答系统BRILIW中，实验显示这一基于多语言本体的跨语言问答系统的检准率显著高于基于机器翻译的跨语言问答系统。Cimiano等设计了基于关联数据的跨语言问答系统模型，该模型选择以关联数据形式发布的多语言知识库本体DBpedia为内容资源，将用户查询转换为三元组形式并实例化，生成本体三元组，并构建相应的 SPAQUL查询语句，获取答案，同时辅以WordNet、MaltPars-er等工具进行语义知识的抽取和用户查询的处理。"
+  },
+  "2.4.2多语言信息检索系统评估": {
+    "context1": "多语言信息检索系统的评估对于验证系统的绩效，比较相关方法和技术优劣，改进现有系统，开发新型系统等方面均有重大意义。Su-jatha总结了普通信息检索系统的各种评估方法，其中包括基于上下文相似度（context re-semblance）的方法，基于概率相关反馈（prob-abilistic relevance feedback）的方法，基于归一化折损累积增益的方法（normalized discountedcumulativegain）等，认为上述方法及评估指标大多适用于多语言信息检索系统的评估。Chandra等提出了一套多语言信息检索系统绩效的评估指标体系，主要指标包括平均检准率、单个主题平均检准率、平均倒数排名（av-erage mean reciprocal rank)、平均折损累积增益(average discounted cumulative gain）等，并对其设计的基于多语词典的多语言检索系统开展评估。Petrelli分析在跨语言信息检索系统的各开发阶段开展用户评估的意义，指出需要注重用户评估在交互式跨语言信息检索系统建设中的应用。Shiri等组织来自加拿大阿尔伯塔大学的15名师生对基于叙词表的跨语言检索系统Searchling的界面进行评价，设计了三项检索任务，并使用录音和录像软件记录用户的检索行为，用户普遍认为系统能有效帮助其构建规范化的查询请求，同时建议在用户帮助中增加对叙词表的有关说明["
+  },
+  "2.5特定领域的多语言信息检索": {
+    "context1": "由于生物医学、地球科学、法学等学科领域开放性较强，信息交流较为频繁，研究人员对多语种信息的需求较旺盛，相关研究成果较丰富。Hanbury等开发了生物医学领域的多语言信息检索系统KHRESMOI，该系统可查询图书、期刊、数据、图像、网站等多种类型的信息，且可通过移动设备访问。跨语言评价论坛（CLEF）自2005年起连续多年举办Geo-CLEF跨语言地理信息检索大会，聚焦地球科学领域的跨语言信息检索研究。Larson和Gey设计了基于逻辑回归和盲相关反馈（blind rele-vance feedback）算法以及基于隐含地名的地理信息标引方法，并将上述方法应用于英一德跨语言地理信息检索系统，实现了对用户查询地名关键词的自动扩展。Peruginelli和Francesconi则本着通过强化语义标引以实现有效的词义消歧的思路，设计多语种法律信息的检索系统模型，该模型运用基于文本分类的自动化词义消歧策略，可实现多语种法律文献的元数据检索、关键词检索和分类浏览等功能",
+    "context2": "此外，多语言信息检索的对象也逐渐由文本信息扩展至多媒体信息。其中针对图像的多语言信息检索尤其受到关注。Menard先后以三种方式（同时使用英语、法语受控词汇和非受控词汇；只使用双语受控词汇；只使用双语非受控词汇）标引一个图片库中的每张图片，并随机抽取其中30张，将60名用户平均分为三组，要求其逐一浏览图片后在图片库中找出这些图片（图片的标引分别采取上述方式之一），研究认为构建基于受控词表的协作式大众标注机制是多语言图像信息检索的最佳策略。Tungkasthan等介绍了Yahoo图像搜索引擎所使用的基于多线程控制的多语言检索框架，该框架由多语言翻译模块和多语言爬虫模块构成，前者用于处理、翻译用户查询请求，后者用来执行图像检索任务，合并检索结果并反馈给用户。"
+  },
+  "2.6交互式多语言信息检索": {
+    "context1": "交互式多语言信息检索关注用户在检索过程中产生的反馈信息，是一种通过建立用户与检索系统间的有机联系完成检索任务的新型多语言信息检索模式。Oard等利用其开发的交互式跨语言信息检索系统MIRACLE，开展关于用户辅助查询翻译及用户辅助文档选择的研究，主要分析用户在系统的帮助下进行查询翻译和文档选择时表现出的行为特征。Ahmed 和Nurnberger对Mulinex、Keizai、UCLIR等交互式跨语言检索系统进行评介，认为上述系统在用户查询的词义自动消歧、查询翻译与扩展以及检索结果的可视化呈现等方面存在不足，改善交互式跨语言信息检索系统应充分运用命名实体识别、信息检索可视化、转换生成翻译(transitive translation）等技术b。Zazo等将免费的在线机器翻译工具Google Linguistic Tools与 Systran Online分别嵌入英—西班牙和法—西班牙交互式跨语言问答系统中，用于完成用户查询请求与查询结果（答案）的翻译，查询结果的翻译效果与机器翻译工具的上下文语境分析能力有关。Ruecker等讨论了交互式多语言检索系统中可视化用户界面的建设问题，他们总结了可视化用户界面在交互式多语言信息检索中的作用，包括协助用户选择检索词，保留用户已使用的检索策略，提供多样化的检索结果显示方式等，并以基于英一法双语叙词表的跨语言检索系统Searchling为例，介绍其用户界面的设计流程。"
+  },
+  "3总结及后示": "",
+  "3.1总结": {
+    "context1": "由上可见，近10年来国外在多语言信息组织与检索方面的研究呈现以下特点。",
+    "context2": "(1）研究主题广泛。研究涵盖多语言信息组织的技术手段、跨语言知识组织系统的互操作、多语言文本分类和聚类、用户的多语言信息检索行为、多语言信息检索模型、多语言信息检索方法与技术、多语言信息检索系统及其评估、特定领域的多语言信息检索等10多个领域。研究不但围绕全球主要语种的信息检索展开，而且逐步涉足不同小语种网络信息间的检索；不但针对文本信息的检索，还探讨图像等多媒体信息的检索；既运用已有的信息检索模型和技术，也积极开发新的多语言信息检索模型与技术；既面向单种方法与技术的应用，也注重分析多种技术、工具相结合的可行性，如综合运用领域本体、双语统计词典等工具改善词义消歧效果。",
+    "context3": "(2）注重实证研究方法。国外研究者始终关注多语言环境下的用户信息行为，并围绕该主题开展大量实验研究，了解用户在查找和获取多语言信息过程中所表现的行为特征。此外，在多语言信息检索方法和技术、多语言信息检索系统的评估、交互式多语言信息检索等方面，国外研究者多根据研究目的精心设计用户参与的多语言信息检索任务，开展实验，用以评估和比较不同多语言信息组织与检索方法、技术及系统的效度，并依据实验结果确定后续研究方向和系统优化策略。如跨语言评价论坛（CLEF）自2001年起先后设立交互式跨语言检索（iCLEF）、跨语言检索日志分析(LogCLEF）等主题，鼓励使用检索日志分析、用户实验、现场观察、用户访谈等多种实证方法，开展用户参与的查询翻译与检索界面优化研究。",
+    "context4": "(3）关注面向特定学科领域的应用研究。多语言领域本体已成为不同领域的多语种信息组织与检索中不可或缺的工具。以实现医学、地球科学、法学等某一学科领域信息的跨语言获取为目标的跨语言与多语言信息检索系统不断问世。跨语言评价论坛近年来亦相继增设CLEF-IP、CLEFeHealth、LifeCLEF、PAN等议题，分别探索知识产权领域、电子健康学领域、生命科学领域、学术不端检测与作者识别领域的跨语言信息检索方法与工具的评估问题。以上研究显示，国外多语言信息组织与检索研究呈现深化与细化的发展趋势，也从另一角度体现了国外研究者对实证研究的重视。",
+    "context5": "(4）语义化发展趋势明显。从海量多语言信息中获取真正契合用户需求的知识，无疑有赖于信息组织的语义化。旨在充分揭示概念间关联的多语言本体、关联数据等语义化信息组织工具已得到逐渐运用。潜式和显式语义分析、语义词库、维基百科等方法和工具已被广泛应用于多语言信息检索模型和检索系统的设计中，在文本分析、命名实体识别、词义消歧、用户查询扩展等方面取得系列成果。这使多语言信息检索向精准化、智能化（如查询扩展、联想式检索）方向迈进，以适应用户更为专深化、动态化的信息需求。"
+  },
+  "3.2后示": {
+    "context1": "多语言信息组织与检索的实现能消除信息查找过程中的语言屏障，更广泛地满足机构和个人的信息需求，促进国家、民族间的信息交流与共享，同时也是深度挖掘小语种信息资源的前提。国外研究对我国的启示主要体现在四个方面。",
+    "context2": "（1）加强实证研究方法的应用国内该领域研究者应更加注重实证研究，"
+  }
+}

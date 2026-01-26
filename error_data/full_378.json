@@ -1,0 +1,99 @@
+{
+  "original_filename": "full_378.md",
+  "·工作研究·": "",
+  "ERMS开发实践与研究进展": {
+    "context1": "彭绪庶蒋颖",
+    "context2": "（中国社会科学院图书馆北京100732）",
+    "context3": "文摘随着图书馆的电子资源数量激增，图书馆和读者都需要基于电子资源生命周期的全过程管理系统，即电子资源管理系统(ERMS)。本文介绍了ERMS的产生背景、开发实践、产品和研究现状，并进行了简要的评论。",
+    "context4": "关键词 电子资源管理系统 ERMS 电子资源"
+  },
+  "ERMS Progress in the Development Practice and Research Peng Xushu， Jiang Ying": {
+    "context1": "（The Library of Chinese Academy of Social Sciences，Beijing 100732）",
+    "context2": "Abstract: With the surge in the volume of electronic resources，both library and its readers need a life-cycle-based electronic resources management system(ERMS).This paper introduces the background and the progress of development practice and research of ERMS，and gives a brief comment.",
+    "context3": "Key words: Electronic Resources Management ， ERMS， Electronic Resources"
+  },
+  "1ERMS的产生背景": {
+    "context1": "电子资源管理系统（Electronic Resource Manage-ment System，简称ERMS)是近年来数字图书馆领域的一个重要研究课题。MIT大学图书馆的Ellen Du-ranceau将ERMS定义为\"对于引进电子资源馆藏的许可协议、相关管理信息、内部处理过程进行管理的工具[1]”,而Anderson 等认为ERMS是“根据电子资源的商业和许可条款，对有效选择、评估、采访、维护和提供便利访问电子资源所需要的信息和工作流程提供管理支持的系统[2]”。",
+    "context2": "ERMS的产生是图书馆现实变化的需要。GayleBaker和LouAnnBlocker将这些变化概括为环境变化，包括用户、出版商、预算、人员与工作流程等四个方面3]。综合Tamar Sadeh和Mark Ellingsen等人的研究[4，我们可以将其概括为用户、资源和图书馆三个方面。",
+    "context3": "从用户的角度看，受网络环境变化和Google等搜索引擎的影响，用户的信息使用行为模式正在发生变化，他们置身于图书馆之外，需要资料时总是希望首先能直接通过网上获取。例如，Outsell公司2002年的调查[5表明有近一半本科生经常使用电子资源，而清华大学图书馆 2005年的调查表明.认为电子资源非常重要 $( 8 0 . 4 0 \\%$ )和重要（18.$40 \\%$ )的读者总和超过 $98 \\%$ ，利用过电子资源的研究生比例和教师比例分别高达 $9 5 . 7 \\%$ 和 $9 6 . 2 \\%$ 。由于图书馆的电子资源越来越多，其中部分数据库的内容存在交叉重复，而多数数据库的检索系统互相独立，这样就增加了用户的学习和使用成本，用户逐渐不胜其烦。",
+    "context4": "从资源的角度看，电子资源远比传统印刷资源复杂得多。电子资源主要由出版商和集成商提供，前者直接出版电子资源，甚至他们本来就是印刷资源的出版商，如Elsvier;后者则是将其它资源以许可形式引进后再组合打包出售，如Proquest。当然也有一些资源提供方既出版资源，同时也集成其它的资源。此外，还有许多销售代理和平台提供商等中介机构。Tamar Sadeh以牛津大学出版社（OUP)出版的电子期刊为例，列举了电子资源的复杂性7-8：OUP出版190余种电子期刊，个别期刊可能有不同的访问许可条款。图书馆可直接向OUP购买，或通过东北研究图书馆联盟（NorthEastResearch Libraries,NERL）集团采购,全面集成OUP期刊的Highwire出版社也是重要途径。虽然是相同期刊，但OUP、NERL和HighWire都有不同的访问界面。此外,Gale和Pro-quest等也有相应产品包括OUP电子期刊,当然也基于各自的平台访问。显然，不同提供方的产品之间存在一定程度的重叠，甚至同一种电子期刊的禁看期(embargo)也可能会不同。电子资源的利用方式既有本地存取，也可以通过远程访问获取。",
+    "context5": "从图书馆的角度看，电子资源已经成为图书馆馆藏的一个重要部分。据统计，美国研究图书馆学会(ARL)成员馆在 $2 0 0 2 - 2 0 0 3$ 年度数字资源购置费平均占资源购置经费的 $25 \\%$ ,2003-2004年度上升到 $31 \\%$ ，其中14个图书馆电子资源经费超过$50 \\%$ ，最高的达到 $74 \\%$ 。 $2 0 0 3 - 2 0 0 4$ 年度各馆平均电子资源购置费是1992-1993年度的15倍。而且从目前来看图书馆电子资源预算份额仍保持持续增长趋势。与此同时，大多数图书馆对电子资源的管理还处于手工或半自动化管理状态。从资源的试用、引进、合同的签订与管理、信息发布、资源揭示、宣传推广到系统维护，大多都由馆员手工管理或利用一些系统来完成部分功能。",
+    "context6": "毫无疑问，现有以管理印刷文献为目的的集成图书馆系统(Integrated Library System,ILS)无法有效地实现电子资源生命周期的全过程管理。电子资源市场上的数据库品种和数量越来越多，数据库内容、界面、地址、商业模式甚至销售商都会发生变化，如何更好管理和提高这些资源的利用率成为图书馆急需处理的一项紧迫课题。因此，ERMS实际上是在信息网络技术发展、资源市场和馆藏资源结构发生变更的大背景下，为满足图书馆和用户双重需求而出现的新事物。"
+  },
+  "2ERMS开发实践和产品现状": {
+    "context1": "除图书馆外，还有很多机构参与了.ERMS开发工作,Gayle Baker 和 LouAnn Blocker将这些参与者分为ILS开发商、出版物获取管理服务商（publica-tionsaccess management services,PAMS）、订购代理机构（subscriptionagents）和非盈利组织等四种类型[]。也有的研究将现有 ERMS分为四种类型\"：集成系统—可与ILS集成使用的ERMS；商业ERMS—可独立使用的商业软件、软件套件或解决方案；本地开发的ERMS/工具以及开放源代码ERMS(Open Source ERMs）。为便于介绍,我们将ERMS开发者大体分为图书馆、资源提供商和ILS开发商,综合部分文献2-]简单介绍他们的开发工作和相关产品。"
+  },
+  "2.1图书馆的ERMS开发实践": {
+    "context1": "图书馆开发ERMS主要是基于自身的需要。字顺目录和分类主题目录是图书馆开始电子资源管理的早期实践。随着资源数量的增多和电子资源管理工作的规范化，对后台管理的需求日益强烈，图书馆在电子资源管理方面进行了不同程度的开发。例如,仅web hub 网站[15]上就列出了23个图书馆开发的电子资源管理系统或项目，也有许多图书馆参与了ILS的ERMS开发活动。北美的麻省理工学院、约翰·霍普金斯大学和耶鲁大学等各自开发的ERMS均有一定影响。欧洲英国布里斯托尔大学[开发的ERMS有一定代表性。",
+    "context2": "VERA(Virtual Electronic Resource Access）由麻省理工学院开发完成，VERA是图书馆较早自己开发用于电子资源管理典型代表。VERA的主要功能包括：自动生成Web页面，可以管理数据库和电子期刊,对Web用户提供主题和字顺列表，并根据地理位置描述资源可获得性，可以管理URLs，提供访问的许可信息、资源状态和用户支持信息等。约翰·霍普金斯大学开发的电子资源管理系统HERMES于2003年12月开始提供服务，包括认证、选择、采访、编目、图书馆计算、报告生成和日程提示等模块，能动态生成Web显示的电子资源信息。该系统的最大特点是强调工作流程和电子资源生命周期的一致。耶鲁大学开发的社会科学图书馆和信息服务能提供字顺和主题浏览、检索，管理许可信息，功能相对比较简单。",
+    "context3": "从现有文献来看，国内部分图书馆也在逐渐投人ERMS的开发工作。例如，北京邮电大学设计研发了一套基于DC和XML的数字资源建设基础系统平台，支持对文本、图像、音频和视频等多媒体信息的数字化采集、加工、著录、存储、组织和发布等功能[]。北京师范大学图书馆以TRS Server为数据库基础，开发了一套数字资源管理系统，主要用于资源揭示、动态发布和资源整合利用8。前者主要侧重于自建资源的建设管理，后者则侧重通过标引、编目等揭示手段引导读者了解资源。这与国外侧重于基于电子资源生命周期的管理思路还是有一定差别。总的来看，图书馆开发的系统最主要的特点是基于图书馆业务内容，侧重于用户对资源的使用和图书馆内部管理，各馆的管理系统具有不同特色。",
+    "context4": "目前，图书馆开发的唯一商业化产品是科罗拉多研究图书馆联盟（Colorado Alliance of Research Li-braries）的“Gold Rush19}”。Gold Rush 项目 2000 年秋开始启动，2003年开始投人商业应用，最新的第4版于2005年8月发布。该联盟曾主持开发过一款集成图书馆系统CARLILS,在联盟成员馆有很好的应用。当ICT技术逐渐改变图书馆资源馆藏结构时,联盟又以集团形式为成员协商、采购和管理电子资源。GoldRush项目主要是开发供成员馆使用的ERMS,它是一个独立的基于Web应用的软件包，主要用于管理电子期刊库，主要功能包括期刊公共检索界面和订购管理，前者用于检索、浏览和期刊题名字顺目录实时揭示，后者用于管理许可、协议、价格和更新监控等。系统可以与ILS的连续出版物和采访模块相互交换数据，并支持 Open URL解析。此外,该系统还包括一个馆藏分析器(Collection Analy-zer),主要通过比较题录列表来对数据库进行比较，可以用于分析不同数据库内容的重叠情况，供引进数据库时参考。基于联盟的性质,Gold Rush非常适合从集团的角度管理电子资源，但系统也可以应用于单一图书馆。既可以以软件包形式整体出售，也可以只出售资源评估/报告生成工具。"
+  },
+  "2.2资源提供商的ERMS开发情况": {
+    "context1": "为满足图书馆的需要,近年国外一些电子资源提供商开始陆续提供电子资源管理服务。下面介绍几个较有影响的ERMS。",
+    "context2": "Proquest的ERMS是通过兼并 Serial Solutions获得，产品于2005年10月发布，目前有30多个图书馆用户。Serial Solutions是一个管理电子期刊的套装软件,ERMS可独立安装使用，也可以与其他软件如Article Linker、Central Search和电子期刊门户等一起配套使用。该产品能处理订购元数据、许可条款、资源管理工作流、事件报告和联系信息等，与知识库和OpenURL处理器共享数据，可以对数据库重叠情况进行深度分析。系统具备多种数据格式的输人和输出能力，可以定制数据字段、设定不同层次用户管理，可以生成使用统计与检索统计，提供字顺目录和主题分类目录。该系统独立安装，但计划将来与ILS的连续出版物/采访模块兼容,增加IP地址管理功能，并且可以集成来自销售商的统计数据。",
+    "context3": "EBSCO 的 ERAM(E - Resource Access& Manage-ment)严格说来并不是一个独立电子资源管理系统，虽然它包括很多ERMS的功能,如电子期刊自动注册和认证、跟踪客户IP变化并提醒出版商变化、提供字顺目录服务和OpenURL链接处理器、代理支持等等，但EBSCO将自己定位在ILS的合作者而不是竞争者,ERAM只是EBSCO服务的副产品，主要是为图书馆其它ERM工具提供数据。因此，印刷馆藏和其它格式媒体也能被集成，并可以重新组合成专集。",
+    "context4": "HERMIS(Harrassowitz Electronic Resource Man-agement and Information Solutions）是 Harrassowitz 推出的电子资源管理解决方案，2004年12月开始提供服务。最新产品3.0版本实际上是一个支持图书馆电子资源工作流程管理的套装软件，组件包括资源识别、订购/支付、激活和访问管理等，支持字顺列表、链接处理和在线存储、可管理许可、试用、使用统计，以及订购信息和电子期刊的档案信息如IP地址变化和订购号等。HERMIS的设计目的是管理图书馆电子期刊工作流程的全过程，但也可以用于电子书管理。HERMIS可以看作是传统订购管理系统的增强版，与图书馆ILS或操作系统完全独立。可以针对不同图书馆用户提供标准服务和高级服务，价格也与提供的服务有关。",
+    "context5": "TeRM(TDNet Electronic Resources Manager）是TDNet开发的电子资源管理软件,2004年底发布。TDNet既提供软件，也提供数据，图书馆可通过TeRM管理，也可以将数据用于其它ERMS。TeRM也主要是针对电子期刊，开发过程基本上遵照DLF的ERMI标准规范，可处理订购和许可信息，可以XML或Excel格式输出数据，并兼容第三方开发的在线门户、元检索工具和链接处理器,计划将来与ILS的采访模块兼容。系统可基于Web提供远程服务，或安装在本地局域网的主机上。",
+    "context6": "除此之外，资源出版商如Blackwell Swets和Elsevier等也都推出了各自的电子资源管理软件或解决方案，但影响都相对较小。"
+  },
+  "2.3ILS的电子资源管理系统": {
+    "context1": "作为图书馆自动化集成系统的开发商，也密切关注着电子资源的发展。目前国际上几个主流厂商几乎都有相应的产品，但功能和处理方式略有差异。下面简要介绍目前主要的几款产品。",
+    "context2": "Innovative 的 ERM 产品 Innovative Interface于2004 年推出，俄亥俄州立大学、加州大学圣迭戈分校图书馆等参与开发，目前是第3版，可独立或与InnovativeMillennium系统整合使用，约有150个图书馆用户。Innovative Interface通过在线编目或图书馆主页向公众提供信息，具备多种数据输入和输出能力。它最大的特点是与在线资源门户或OPAC、元数据检索工具、链接处理器以及字顺目录服务有很好的兼容，用户很容易增加新字段或数据元素。但系统主要服务于电子期刊管理，包括许可管理和电子期刊处理流程。系统还支持URIs和多层次用户管理，系统管理和维护较为方便，如提供配置提醒告示。此外，该产品可以对不同电子资源库的重叠情况进行分析，或根据使用情况计算使用成本。",
+    "context3": "Meridian是Endeavor公司2005年6月推出的一款产品,与哥伦比亚大学、匹兹堡大学、普林斯顿大学和伦敦经济学院等图书馆合作开发，可独立使用，也可以与Endeavor公司或其它公司ILS产品配套使用，目前已有近30个图书馆用户。Meridian的开发完全以用户为中心，用户区分不同的访问层次，实行基于任务的访问控制（role-based access con-trol)。摘要显示关键信息，但提供链接显示详细信息。Endeavor能够接收多种数据源的数据，能输出xml格式数据，能根据需要生成各种电子资源使用报告，供电子资源使用评估参考之用。但由于En-deavor只是从2003年开始对ERMS进行调研，现有1.0版的Meridian尚不是一个很完整的产品。En-deavor计划在Meridian未来的新版本中，将提供联邦检索环境和链接处理器，提供字顺和主题列表支持。更重要的是，Meridian将支持从资源发现到引进和使用等基于电子资源生命周期的全过程管理。",
+    "context4": "ExLibris公司的ERMS产品Verde也是于2005年6月首次推出，第2版2006年3月推出，与哈佛大学和麻省理工大学等图书馆合作开发,耶鲁大学图书馆等参与Beta版测试。Verde可单独购买使用，也可以与公司其他产品整合使用，目前有大约20个图书馆用户。Verde采用SFX技术，有自己的知识库，现有版本可支持数据库试用、更新、退订等工作流程，能够分析和存储各电子资源的使用数据，有一个提示工具。新版本将对用户区分不同访问层次，采用基于任务的访问控制，并将支持复杂的集团采购。Verde的最终目标是集成电子资源选择、评价、获取、维护及提供信息利用的全套流程以及资源购买和认证协议过程。",
+    "context5": "除此之外，VTLS公司也于2005年12月推出ERMS产品Verify，与本公司或其它公司ILS产品的连续出版物和采访模块兼容，可独立安装或整合使用。Horizon 和Sirsi也计划在2006年夏秋推出各自的电子资源管理系统。Horizon是数字图书馆联盟（DigitalLibraryFederation,DLF）的电子资源管理首倡计划（ERMI)成员之一,其ERMS产品Dynix严格遵循ERMI推出的标准规范。与前述产品不同，这两款产品并不是单独的ERMS产品，只能作为各自ILS 产品的一个模块来进行出售和运行。"
+  },
+  "3ERMS的研究进展": {
+    "context1": "在ERMS的开发过程中，相关研究取得了较大进展。例如，宾州州立大学图书馆开发的ERLIC（E-lectronic Resources Licensing and Information Center）强调适当限制需求，但功能应可持续扩展(20。ER-LIC和ERLIC2基于微软Access开发，可以跟踪订购和预期更新信息，逐步实现对订购来源、访问、认证和许可信息的集中控制。加州大学洛杉机分校在开发电子资源数据库系统（ERDb)时提出的几个基本原则，也被认为是ERMS开发所应遵循的2原则，即：适应增长（accommodategrowth），设计灵活性，提供统一数据库但面向不同机构的需求（be of-fered“one database,but manyviews”）,能阶段性安装。许多研究都结合开发实践提到电子资源的生命周期问题，即电子资源从其创建或收到开始，经过处理、分发，维护和使用，直到最后停止使用2。虽然图书馆基于电子资源生命周期的电子资源管理工作流程究竟具体包括哪些环节尚存在不同看法和表述，但图书馆界和产业界已基本达成这样的共识，即ERMS应基于电子资源生命周期，体现图书馆的电子资源管理工作流程。",
+    "context2": "受DLF委托,华盛顿大学的TimJewell调查了各图书馆开发ERMS的实践。调查总结报告归纳了ERMS的7个方面的功能：列表和描述、相关许可、财务和购买、过程和状态、系统和技术、联系和支持、使用。此外，一些非正式的讨论还涉及功能描述标准化的价值、元素名称和支持这些功能的定义等。除此之外，ERMS开发中的一些技术性细节如字顺目录列表、链接处理器和OpenURL解析器等也都有一些研究。",
+    "context3": "这些零散的研究大多是围绕具体ERMS项目开发而展开的。在TimJewell和康奈尔大学的AdamChandler等人的努力推动下，2001年6月召开的美国图书馆协会年会决定成立一个非正式指导小组（SteeringGroup）研究电子资源管理问题。2002年，由 NISO(National Information Standards Organization）和DLF负责组织的电子资源管理标准工作组（NI-SO/DLF Workshop on Standards for Electronic Re-sourceManagement）成立，并开展了一些研究活动2。随后DLF正式批准“电子资源管理首倡计划（Electronic Resources Management Initiative,ER-MI)项目[26，并获得巨大影响。",
+    "context4": "ERMI项目的组织包括三个小组：指导小组、图书馆员组（LibrarianReactorPanel）和企业组（Vendor",
+    "context5": "ReactorPanel）。指导小组由7人组成，成员包括Jewell、Chandler和来自加州大学洛杉机分校、约翰·霍普金森大学、哈佛大学、耶鲁大学的专家。图书馆员组包括一些有经验、对电子资源管理有兴趣的馆员,共16人,企业组则吸纳了ILS开发商和电子资源出版商，如ExLibris、Horizon,Sirsi、OCLC、Swets Blackwell、Proquest 和 EBSCO 等,共12人。指导小组起主导作用,定期集会，准备各种文档。后两个小组主要起顾问作用,与指导小组沟通，反馈意见，提出建议。",
+    "context6": "ERMI的目标是为业界研究提供一组规范，促进基于标准和最佳实践的ERMS开发，具体包括：",
+    "context7": "·对有效管理大规模授权的电子资源集合进行功能和结构描述·建立合适的数据元素和通用定义（commondefinitions)·为本地测试撰写并出版试验型XMLSche-mas/DTD·如果可能，确定和推广最佳实践$\\bullet$ 如果可能，确定和推广支持数据交换的合适标准",
+    "context8": "ERMI项目的最终成果包括以下内容：",
+    "context9": "·问题定义/路线图：路线图的目的是提供电子资源管理问题全貌，并列举一些图书馆已经采取的一些有创意的解决办法。",
+    "context10": "·工作流程图：反映了电子资源整个生命周期的细致的全景图。分为四张图：产品考虑和试用阶段；许可谈判、技术评估和商务谈判;安装阶段；维护和检查。",
+    "context11": "·功能规范：全面详述ERMS应具备的功能。需求文档中提出了47种功能需求，涉及一般（4项）、资源发现(7项）、目录管理(2项）、访问管理(5项)和职员需求(29项)等五个方面。",
+    "context12": "·实体关系图：帮助设计者定义和对数据元素或其他实体及其关系分组。此前的 NISO/DLF工作组曾提出三张实体关系图：描述、许可和访问。",
+    "context13": "·实体和数据元素的标准化列表：定义了约300个数据元素，根据IS011179命名，尽量选取其它元数据已有的元素。",
+    "context14": "·XML Schema：通过提供数据交换手段，扩展实体和数据元素列表的价值，可以促进图书馆和销售商籍此在不同系统间共享许可信息。",
+    "context15": "·总报告：以整体形式集成上述内容。",
+    "context16": "ERMI受到了图书馆员和业界的广泛欢迎，获得了良好的效果。Andrew Pace在2004 年美国图书馆协会年会上说：\"在一个几乎是空前的运动中，几乎每个大型自动化开发商都使用了图书馆员创立的规范。“调查表明，几乎涉及到这个领域的所有集成图书馆系统开发商、期刊出版商在开发电子资源管理系统中都参考了ERMI的研究成果[。",
+    "context17": "ERMI总报告认为，ERMI项目还存在一些明显的问题，如：集团采购、使用统计数据、资源连续性、数据标准等方面还不够完善，需要进一步研究。因此，目前正在积极申请ERMI的二期项目。二期的主要目的是解决数据标准、许可表达相关问题以及使用数据统计等相关问题，如集团采购功能完善；以ERMI数据字典和许可数据元素作为基础，与NISO等其他机构一同建立可实践的、标准化的方法描述交流电子资源许可相关的元数据；开发课程资料并创造培训机会来支持许可信息的描述与共享；进一步开发和细化在ERM环境下开发商/出版商所提供的使用统计的需求与数据标准；许可信息交换和机构注册（Institution Registry）等。在二期工作中，DLF将与重要的国际组织如ISO、ARL等进行密切合作，同时增强与期刊出版商的讨论。可以说，这些问题也是今后深化ERMS相关研究的方向和重点。"
+  },
+  "4ERMS展望与评点": "",
+  "4.1对ERMS发展现状的总体把握": {
+    "context1": "总的来看，ERMS仍然是一个新事物，还没有完全成型。最典型的例证是，企业对商机最为敏感，但商品化的ERMS大多是近一、两年才推出。Horizon 和Sirsi虽然都是ILS市场的主要力量，但他们的ERMS产品至今还未面世。从现有ERMS的功能来看，不同的ERMS有相似的功能，但也有许多ERMS的功能涉及的范围和侧重点有较大差别。有些ERMS产品仅仅是部分实现基于电子资源生命周期的管理流程。正如Ellen所言[28]，随着电子资源在图书馆资源结构中的份额上升，管理需求更为迫切，将会有越来越多更加成熟的ERMS产品出现在市场上。"
+  },
+  "4.2关于ERMS的进一步研究和发展": {
+    "context1": "第一，ERMI项目的一系列研究成果已为ERMS提供了许多重要的参考标准。除早期部分图书馆的实践外，国外ERMS产品尤其是商业化ERMS开发都采用了很多ERMI提出的标准。因此,ERMI项目为ERMS的发展起到了很好的规范作用，ERMS开发也少走了很多弯路，避免了浪费。ERMS进一步的研究和开发仍应遵循标准化和规范化的基本路线，有关各方应当加强沟通，共同发展。",
+    "context2": "第二,图书馆采用ERMS的最终目的是对基于电子资源生命周期的工作流程进行管理，为读者提供更高效的服务。但学术界和业界对电子资源生命周期和工作流程还存在不同看法，虽然ERMI定义了颇为全面、详细的ERMS 功能需求,但这仅是供开发本地ERMS或与企业协商时参考之用。由于基于电子资源生命周期的工作流程规范化本身也是ERMS向标准化发展的重要内容，因此，有必要加强对电子资源生命周期和工作流程的规范化研究。",
+    "context3": "第三，现有ERMS基本上都比较适合于管理电子期刊,只有少数ILS的ERMS也可用于管理电子书,以致多数图书馆的电子书管理主要还是依赖于ILS。如何将电子图书甚至其它类型的电子资源纳入ERMS,形成统一的管理平台和框架,也是ERMS进一步研究和发展需要考虑的。另--方面，由于资源和网络等多种原因都有可能导致读者访问资源出现故障，在资源管理和维护过程中如何建立及时的资源访问故障预警机制，是目前ERMS研究和开发的一个盲点，应当引起重视。",
+    "context4": "第四，各国各地区的ERMS有其共性，但也应照顾各自的特殊情况，最典型的例子是法律、语言和主题分类问题。在美国，管理许可信息是ERMS的主要功能之一。但中国的知识产权法律制度与美国不尽相同，反映到ERMS上可能就会有不同的表现要求。各国语言不同，很有可能象汉字一样，没有类似于英语那样简单的字顺。主题和分类法也各不相同。这些都会影响到ERMS中资源访问的界面设计。"
+  },
+  "4.3关于ERMS的地位和未来": {
+    "context1": "自电子计算机诞生后，图书馆的发展始终是由信息通讯技术(ICT)和需求驱动，甚至需求在一定程度上也是ICT发展的结果。ERMS的出现则是因为ICT的发展促使图书馆的资源结构发生变更。近两年，部分图书馆已开始削减印刷出版物的预算，用于电子资源订购，可以预计ERMS将会成为图书馆业务系统发展的重点。虽然每个图书馆各有不同的需求，会采用不同专业化软件，但基于将印刷资源与电子资源整合管理和提供服务的需要，融ERMS和ILS为一体的管理系统最终将成为图书馆新一代核心业务系统。"
+  },
+  "4.4现阶段图书馆的应对与ERMS市场趋势": {
+    "context1": "从现有ERMS开发实践来看，由于图书馆较早了解自身的需求，在没有商品化的ERMS状态下，图书馆的开发实践要先于ILS开发商和资源提供商等。或许是因为图书馆的角色和任务不在于系统开发，而是通过资源和应用提供服务，有较大影响或形成商品的ERMS并不多。现在市场上已有一些商品化的ERMS,今后自己开发ERMS的图书馆将不会太多。从经济的角度考虑,我们也不主张图书馆现在自己开发ERMS。如果感觉没有合适的ERMS产品，从满足读者需求的角度出发，可以先引进或开发一些较简单的应用,如字顺目录、分类目录和跨库检索等。通过开展读者服务积累经验，加强研究。",
+    "context2": "现在市场上商品化ERMS有多种，功能也有差异。分析ERMS市场发展趋势有助于为图书馆的选择提供参考意见。规范化和标准化是开发和选择ERMS的首要考虑，根据DLF的报告，现有公司都在尽力遵守DLF的ERMI指南，但所有资源提供商都在同时销售软件和数据，他们产品的应用情况并没有ILS提供商的产品好。在未来相当长一段时间，图书馆将是印刷资源与电子资源共存模式，ILS提供商的产品能更好提供将印刷和电子馆藏信息整合给用户使用的手段。由于需求的因素，ILS提供商开发的ERMS将会有一个较快的发展，甚至很有可能后来居上。由于ERMS不应是孤立的，应与其它应用系统共享数据和实现互操作，既可独立使用，也可集成多种ILS的ERMS产品将会更受图书馆欢迎。GregRaschke和Suzanne Weiner也说明了这种既能分离，但同时紧密集成的ERMS产品有诸多好处29。"
+  },
+  "参考文献": {
+    "context1": "1Ellen·Finnie Duranceau. Electronic Resource Management Systems，Part II:Offerings from Serial Vendors and Serial Data Vendors．Against the Grain，2Oo5(June），htps:// dspace.mit.edu/handle/1721.1/18190 （Accessed March 31,2006)   \n2 Anderson,1.,Farb,s.,Chandler,A.,Jewell,T.,Parker,K.，Riggio，A． and Robertson，N. D. M. Report of the DLF Electronic Reeource Management Initiative: Appendix A: Functional Requirements for Electronic Resource Management,Digital Library Federation.http://www.library.cornell. edu/cts/elicensestudy/dlfdeleverablea/DLF - ERMI- AppendixA. pdf( Acceseed March 31,2006)   \n3 Baker，G. and Blocker,L. Electronic Resource Management Systems(ERMS).http://www. lib.utk.edu/\\~elecserv/ts- erms. ppt( Acceeeed April. 10,2006)   \n4 Sadeh,T. and Ellingsen, M. Electronic resource management systems: the need and the realization. New Library Word（2005,Vol.106，N0.5/6)   \n5 Healy,L. Highlights of Outsell/DLF Study of the Academic Information Environment. http://www. ukoln. ac. uk/events/jisc - cni - 2002/presentations/leigh - watson. ppt",
+    "context2": "(Accessed May.12,2006)   \n6清华大学图书馆.2005年电子资源建设与利用读者调 查总结. $\\mathsf { h u p } : / / \\mathsf { m a i l }$ .lib．tsinghua．edu．cn：9902/ homepage/announce_view.jsp? id $= ~ 3 4 5$ (Accessed March,30,2006)   \n7同4   \n8 徐一新,司心里，应峻.电子资源管理系统的需求与实 现.数字图书馆论坛,2005(12)：7-10   \n9 Association of Research Libraries. ARL Statistics 2003- 04，p21.http://www.arl.org/slats/pubpdf/arlstat04.pdf （Accessed March,30,2006）   \n10 同3   \n1 Holly，Y．and Breivold,S.Handbook of Research on Library Electronic Resource Management. http://www.calstatela.edu/library/handbook/(Accessed April 15,2006）   \n12Jewell,T. D. E- resource Managemenl Systems:Past, Present，and Future．www.sirsidynixinstitute. com/Resources/Attachments/Slides/jewell_20051207.pdf（Accessed April 15,2006)   \n13 同1   \n14 Ellen Finnie Duranceau.Electronic Resource Management Systems From ILS Vendors.Against the Grain，2004 （ Sept.），https://dspace.mit.edu/handle/1721．1/ 18191（Accessed March 31,2006）   \n15 A Web Hub for Developing Administrative Metadata for Electronic Resource Management. http://www.library.cornell.edu/cts/elicensestudy/(Accesed March,31,2006）   \n16Bris Library.http://www.bris.ac.uk/is(Accessed April 15,2006)   \n17吴旭，许运红，马自卫.数字资源管理系统的研究、设计 与实现.现代图书情报技术,2005(11)：19-23   \n18 孙博阳等.图书馆数字资源管理系统设计与实现－以 北京师范大学图书馆为例.现代图书情报技术,2005 (4) :77 -80   \n19Gold Rush. http://grweb.coalliance.org/( Accesed April 15, 2006)   \n20Pennsylvania State University Libraries．ERLIC Shareware：Electronic Resources and Licensing Information   \nHttttttHEtEEEtEectEEetEtEeEEEtEtEtEEEt Center.htp://www.libraries.psu.edu/tas/fiscal_data/ electronicresources.htm（Accessed April 20,2006）   \n21 Stanley，Nancy Markle，Angelina F.Holden，and Betty L. Nirnberger. Taming the Octopus:Getting a Grip on Electronic Resources.Serials Librarian.20oo(3-4）：363 - 368.   \n22 Farb，E.Riggio,A.UCLA Electronic Resource Database Project Overview. January l8,2002.htp://www.library.cornell.edu/cts/elicensestudy/ucla/ALAMidwinter2002. ppt.（Accessed April 17.2006)   \n23 Digital Library Federation. Electronic Resource Management:Report of the DLF ERM Initiative.2004.http:// www.diglib.org/pubs/dlfermi0408/(Accessed April 17, 2006）   \n24 Jewell,T.D． Selection and Presenlation of Commercially Available Electronic Resourres:lssues and Practices，DLF and CLIR.htp://www.clir.org/pubs/reports/pub99. pdf(Accessed May 23,2006）   \n25 NISO/DLF Workshop. NISO/DLF Workshop on Standarls for Electronic Resourre Managemtn.May 10,2002．http://www.library.comell.edu/cts/elicensestudy/nisodlf/ home. htm（Accessed May 23,2006）   \n26 Digital Library Federation Electronic Resource Management Initiative.http://www.diglib.org/standards/dlf - erm02.htm(Accessed March 31,2006）   \n27 DLF.DLF E\\~resource Management lnitiative，Phase 2, http://www.diglib.org/standarda/dlf-ermO5.htm（Accessed March 31,2006）   \n28 同14   \n29 Raschke,G.et al. Carity in the Mist.Library Jourmal netconnect.http://www.libraryjournal．com/article/ CA428134(Arcessed May 23，2006）",
+    "context3": "彭绪庶馆员，中国社会科学院图书馆网络系统部副主任。",
+    "context4": "蒋颢副研究馆员，中国社会科学院图书馆副馆长。",
+    "context5": "（收稿日期:2006-06-23编发：王宗义）"
+  },
+  "": "",
+  "（上接第29页）": {
+    "context1": "5Dushay N.Visualizing bibliographic metadata-A Virtual（Book） Spine Viewer.http://www.dlib.org/dlib/octoberO4/dushay/l0dushay.html（访问时间：2006-03-05）  \n6 http://www.serialssolutions. com/press/pressl2 - 28 -05a.asp（访间时间：2006-03-05）  \n7董素因，丁琳.《中图法》电子版在OPAC分类导航系统",
+    "context2": "中的应用研究.图书馆学研究,2004(6)：69-71",
+    "context3": "司莉女1965年出生，武汉大学信息管理学院图书馆学系副系主任，副教授，博士。",
+    "context4": "陈红艳興钢武汉大学信息管理学院2005级在读研究生。",
+    "context5": "徐丽晓供职于南阳师范学院，现为武汉大学信息管理学院2005级在读研究生。",
+    "context6": "（收稿日期:2006-06-08编发：许桂菊）"
+  }
+}

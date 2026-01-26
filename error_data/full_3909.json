@@ -1,0 +1,97 @@
+{
+  "original_filename": "full_3909.md",
+  "图书采购的智能系统研究及未来评述": {
+    "context1": "张炎烈"
+  },
+  "图书采购业务性质分析": {
+    "context1": "随着世界科学技术的飞跃发展，作为搜集、加工、传递人类知识信息中心的图书情报部门，在未来社会中的地位和作用将越来越为人们瞩目，图书情报部门的业务技术，由于新理论（信息论、控制论、系统论）新技术（电子和计算机技术）的开发利用，将取得划时代的进步。西方一些发达国家由于电子计算机的应用，使图书情报部门由原来的个体功能向社会网络化系统化发展。遗憾的是，其中的带有智能性质的业务部分，至今无所进展，这无疑是急待开发和研究的课题。例如图书采访部分的新书筛选业务就是这样。据了解，这部分业务至今还停留在“专家审选”阶段，或者叫“人脑手工审选”阶段。他们沿用的是和我们一样的由来已久的凭经验定性判决方法。例如美国的一些大、中型图书馆，一般都聘请5一10位熟悉各个学科专业的专家（博士），组成一个独立于采购部之外的智囊团选书部(BibliographerDept.)。这些专家的日常任务就是在新书目录中圈选图书。采购部则执行后序作业：查重、发订、付款、统计…等业务（利用电算机）。",
+    "context2": "很明显，上述的结构自然地形成了智能性和非智能性两部份。对于我国来说，非智能性部分的电子化，正在引进，将在不远的将来实现。而对于智能性的部份，照搬国外模式将毫无意义。一方面是在短期内“搬”不来那么多专家，二是专家选书太原始，太落后！"
+  },
+  "选书业务必须智能化": {
+    "context1": "1．藏书系统化的要求",
+    "context2": "根据肖自力〔1」的意见，藏书结构的客观依据是：",
+    "context3": "$^ { 6 6 } \\textcircled{1}$ 、图书情报部门的性质与任务；",
+    "context4": "$\\textcircled{2}$ 、读者对象和需求种类；",
+    "context5": "$\\textcircled{3}$ 、知识载体的出版发行情况；",
+    "context6": "$\\textcircled{4}$ 、本地区资源分布的状况；",
+    "context7": "$\\textcircled{5}$ 、原来藏书的特点往往需要保持；",
+    "context8": "$\\textcircled{6}$ 、经费和设备状况。”",
+    "context9": "这就是说，它要求我们的选书员要“懂行”，懂自己所选图书的专业内容和质量，还要了解读者的知识水平、学习研究的专业情况，了解出版发行情况，了解本单位的特色，了解本单位在地区系统中的地位等等。",
+    "context10": "上述种种，从智能的观点论，要求藏书必须具有精确性、准确性、系统性和完整性。而这些正是一个系统工程的要求。一个人、一群人，靠他们的头脑手工式地做,矛盾和艰巨性使他们难以胜任；这种现象将随着科学技术的发展越来越显著！我想这就是我们图书采购部门对自己的藏书建设和结构经常处于混沌状态的原因。这决不是说以往我们对于藏书情况缺乏研究，而是因为人脑判决事物的精度低(只有二、三个数量级)、稳定性差以及沿用的是原始的定性分析方法所致。这些缺陷，让电脑作起来便会消除。所以我们说，对于目前所实行的靠人脑定性判决、手工选书的方法必须给以改造，从发展的观点，采取电脑系统判决则是历史发展的必然。",
+    "context11": "2．定量决策是藏书建设智能化的根本方法。",
+    "context12": "（一）、人类科学技术的发展，就是不断地由不精确的定性研究方法向精确的定量化发展的过程。这是大家都熟悉的基本事实。在一般情况下，科学的发展越来越复杂，需要计算的也越来越大，直到手工计算之成为不可能！这种现象，在电算机应用之前屡觉不鲜。我们图书馆界以往有过许多定量研究，之所以很少付诸实际应用，不胜繁琐是箕重要原因之一。有鉴于此，电算机是我们实现定量研究的必要和必须的手段。",
+    "context13": "除此之外，还有其它方面的原因。"
+  },
+  "（二）、经典数学的局限性和Fuzzy数学": {
+    "context1": "“-门科学从定性的描述进化到定量的分析和计算，是这门科学达到成熟阶段的重要标志。”2}数学堪称谓“科学皇冠上的一棵明珠。”可是，经典数学，以二值逻辑为其数理基础的经典数学，在碰到人文社会科学的课题时，常常失去光彩！这是因为在人文社会科学领域（当然包括图书情报学）的许多问题常常是不明析的，模糊的。对于它们，不能用绝对的“是”与“非”去判决。诸如像大小、快慢、高低、宽窄、好坏以及美丑等含义（外延）模糊的概念，又如人们的心理因素、复杂的社会现象是这样，对某一图书馆的藏书范围，也不能用“一刀切”的办法来划分。对于这类事物，我们只能用相对的程度概念来分析和描述。从五十年代，人们发现了以多值逻辑为数理基础的Fuzzy数学工具。Fuzzy数学是美国控制论专家 $\\mathtt { L } \\cdot \\mathtt { A } \\cdot \\mathtt { Z } \\mathtt { a } \\mathtt { d } \\mathtt { e } \\mathtt { h }$ 创立的。他的划时代的论文是《模糊集与系》。[3」关于Fuzzy数学方面的理论请有兴趣的同志参阅〔4］、〔5]、〔6」、〔7」等的内容,此不赘述。近年来,Fuzzy数学在世界以及我国的许多成功应用的实例，充分说明Fuzzy数学的确立是解决人文社会科学方面的有力工具。这鼓午着我们着力将Fuzzy数学引入图书馆学科中来。见〔8」、〔9」，[10]。",
+    "context2": "如前所说，图书馆学很少应用数学工具的另一个原因是有碍于复杂繁琐的计算。我想，图书馆业务中的数据量与其它学科，例如气象科学比较起来是小巫见大巫，关键是用不用先进的计算方法一一计算机。因此，我认为图书馆界不应忧虑数量化研究，反而应当大量倡导这种研究。路原本是没有的，走的人多了，便也成了路。",
+    "context3": "3．系统理论是系统藏书建设研究的重要方法",
+    "context4": "整体性、综合性、最优化是系统论的三个基本特点。一个大、中型图书馆是一个知识服务系统。为了很好地为数以千、万计的不同需求的读者服务，需要考虑的信息是十分复杂的。对这样的服务系统，精度低、速度慢、稳定性差、存贮量有限的人脑是难以应付的。我们应该用系统论的观点来考察藏书系统的诸因素，编制电算机程序，研制藏书建设智能乡端机，使藏书更合乎读者的需要。这是时代向我们提出的要求。",
+    "context5": "4．信息论、控制论是安排和和控制无序状态使之成为有序系统的先进理论；，从五十年代起，人们逐渐认知了信息理论。语言是人们进行思维和交换信息的重要形式。“人们通过对事物表面信息的收集，形成对客观事物的感性认识，根据感性认识，对事物的大量信息进行处理，形成概念（语言）；将概念进行综合、归纳、分析、对事物的本质和规律形成理性认识的系统化和优化，即是知识；知识又形成系统信息。”{111早期，人类利用信息都是通过自已的大脑活动，人脑在识别信息、分析、归纳、推理、联想等方面有天赋的优越性，但是它和电算机比较起来，电算机有快速、稳定、重复性强、存贮量大、不易疲劳等人脑所不及的特点。而系统藏书建设正需要这方面的优点。另外，藏书建设是一个动态有序系统，传统的藏书建设原则和标准则是以文字简述的规范。以这样一个静止的、笼统的文字规范来作业，很难适应动态需求。而应用系统化、信息化、控制化的理论和方法，恰好满足这些要求。"
+  },
+  "关于选书Fuzzy智能系统的研究": {
+    "context1": "从1982年起，我们着手从事选书Fuzzy智能系统的研究，分别以《图书馆藏书建设的Fuzzy决策》「81、《藏书等级的数理分析及其应用》[91、《图书馆藏书建设实践分析与图书采购系统工程》「\"」为题撰文探讨。〔8」文基本上是从 $\\mathtt { F u z z y }$ 数学应用角度写的，很少涉及图书馆学及电算机系统程序方面的问题；〔9」文是对在应用〔12]文中肖拟“藏书五级标准”的概念混淆问题进行讨论；[10]文是想对当时的整体设想以较通俗的文字总括地介绍给图书馆界的同行们。我们认为，要设计一个智能终端机，取代那些“万物之灵”的智囊专家，任务艰巨！我们还知道，要想完成这一设想，亦非自己力所能及，它需要得到支持和帮助。因此，我们借此先将目前的探索公之于众，以求得各方面的帮助和批评指正。，"
+  },
+  "1．智能终端机（以下简称终端）粗框图": {
+    "context1": "（一）、关于终端的概略提要请见〔8」文。",
+    "context2": "（二）、终端机粗框图",
+    "context3": "![](images/8bebfb7b613f85a781e54c9c9238cc045541afd0b71ae542a920384670dc1ff2.jpg)",
+    "context4": "2.终端的初步程序",
+    "context5": "在〔8]、〔10]文中，我们已钩划出了整个程序的进行步骤，并且假设在藏书特征Fuzzy集A及图书隶属Fuzzy集B已经给出的条件下拟就的。现将上机程序开列于下：",
+    "context6": "Iv, rrINI ，1ADIo/，“Inn rUzI vEUIɔIvN Ur rURUnAɔEILIBRARY\"  \n20PRINT ${ } ^ { \\# } \\Im \\mathbf { x }$ /PRINT $^ { \\ast } 1$ ，“BOOK NAME”TAB(60)，“BUY”,:TAB(68)，“FUZZY VALUE”  \n30 PRINT $^ { * } 1$ ，“\"..”，TAB(60)，“.”，TAB(68)，.”  \n40 DIM A(154,5),B8(60)  \n50 FOR ${ \\tt I } = { \\tt 1 } $ TO154/ FOR ${ \\mathfrak { J } } = 1$ TO 5/ READ A( I J)/ NEXT J/NEXT I  \n60 PRINT“INPUT BOOK NAME”/INPUT BX  \n70 IF LEN(B.8)=O THEN 180  \n${ \\pmb 8 0 } ^ { \\prime }$ $\\mathbf { s } = 0$   \n90 PRINT“TYPE $\\tt N a ^ { \\pmb { \\mathscr { s } } } /$ INPUT N  \n100IF ${ \\bf N } = { \\boldsymbol 0 }$ THEN 130  \n110 FOR ${ \\pmb { \\jmath } } = { \\pmb { \\imath } }$ TO 5/ PRINT “CIASS”、J/INPUT B /S=S+A(N,J)$\\yen 8/$ NEXT J  \n:120 GOTP90  \n130 IF $\\mathsf { S } { \\geq } = 0 . 7$ THEN 160  \n140 PRINT $^ \\ast \\intercal 1$ ，BS，TAB(60)，“NO”YAB(70)，S  \n150 G OTO 60  \n160 PRINT $^ { \\# } 1$ ，B&，TAB(60)，“YES”，TAB(70)，S  \n170 GOTO 60  \n180 PRINT “WHAT DAY IS THEDAY\"/ INPUT D.8/ PRINT \\*1/PRINT $^ { \\ast } \\mathbf { 1 }$ ，TAB(55)，D8  \n190 END  \n200 DATA·9，·9，·8，·4，·1，·9，·9，·8，·4，·1  \n210 DATA $\\cdot$ 81,·8，·6，·2，·0，1，1，1，1，1,  \n220 DATA...：（略，集A数据详见〔8」文之附表）： ：[说明]上程序已在北极型Ⅲ机上通过。",
+    "context7": "3．关于终端机研究的新进展以及待解决的问题",
+    "context8": "（一）、83年以来，我们致力于A的定量获取方法的研究(详文待发表),提要如下，（1）、用调查统计方法算出全体读者现有知识集合 $\\gamma$ 。文中数学符号均系希腊文，例如γ是（嘎玛）的大写，A并由此得出读者需求知识集合",
+    "context9": "$\\dot { \\textbf { I } } _ { c } = \\textbf { 1 } - \\dot { \\textbf { I } }$ （r的补集）",
+    "context10": "（2）、调查统计出开设课程（学校）集合△。即读者学习集合。",
+    "context11": "（3）、调查统计出科研项目集合E。",
+    "context12": "（4）、求出以上三集合的“并”，即读者需求Fuzzy集合A’。",
+    "context13": "$$\n\\underset { \\sim } { \\mathrm { \\bf A } ^ { \\prime } } = \\Gamma _ { \\epsilon } \\mathrm { \\bf U } \\underset { \\sim } { \\triangle } \\mathrm { \\bf U } \\underset { \\sim } { \\mathrm { \\bf E } }\n$$",
+    "context14": "μ→ [0.1]",
+    "context15": "上式中的A，是某一图书情报部门的藏书建设原则和标准的Fuzzy集表示。调查统计涉及每个读者的图书需求信息，一经确定便相对稳定，它是藏书建设量化规范辞典，其局部变化（动态）需要人干预控制；这时的修正量很少。而且是不经常的。"
+  },
+  "（二）、图书隶属Fuzzy集的自动提取": {
+    "context1": "对于出版发行的与某图书情报部门可能相关的征订新书，需要按其书名，内容简介进行标引,并以Fuzzy语言变量等方法构成B。这是关系到本设想成败的关键研究之一。假若这件工作不能自动化，将影响整个设想。",
+    "context2": "据我们目前的探论，B的自动赋给将包括以下课题： (另有专文，待发表)",
+    "context3": "（1）、图书内容学科的Fuzzy划分；  \n（2）、图书内容学术等级的Fuzzy划分；  \n（3）．语言概念Fuzzy变量的分析和赋值；  \n（4），文别的处理和识别等等。",
+    "context4": "关于汉语及其它文种的处理和识别，国内已经取得一定的成果，例如〔13]、[14]等的介绍。",
+    "context5": "按我们原来的设想，假若国家成立图书分类编目中心，将对我们的工作以很大便利。目前，我们已积极从事Fuzzy语言的探索，并殷切希望国内的汉语Fuzzy变量研究的专家给予帮助。",
+    "context6": "（三）、除了以上的工作，复本处理也是我们研讨的重要课题。目前认为，讨论复本问题至少应涉及以下诸因素： (另有专文、待发表)",
+    "context7": "（1）、藏书特征Fuzzy集A；",
+    "context8": "（2）、文别W",
+    "context9": "$$\n\\mathbb { W } = \\left. \\omega _ { 1 } / \\mathrm { C h } + \\omega _ { 2 } / \\mathrm { E g } + \\omega _ { 3 } / \\mathrm { R u } + \\omega _ { 4 } / \\mathrm { J a } + \\omega _ { 5 } / \\mathrm { F r } + \\omega _ { 6 } / \\mathrm { G r } ^ { * , \\dots , \\dots , \\dots , \\dots , \\dots } \\right.\n$$",
+    "context10": "按L.A.Zadeh的规定、上式 $\\delta \\varphi \\varphi \\varphi$ 是“联”不是算术和， $\\operatorname { c h }$ 、Eg、Ru 分别代表中、俄等文种。",
+    "context11": "（3）年控制进书率K",
+    "context12": "$$\n\\boldsymbol { \\mathbb { W } } \\boldsymbol { \\mathbf { k } } = \\boldsymbol { \\mathbb { K } } \\{ \\sum \\mathrm { ~ } \\omega \\mathrm { ~ i ~ } / \\mathrm { ~ i ~ } \\}\n$$",
+    "context13": "（4）、图书本身特征修正量 $\\mathrm { H }$",
+    "context14": "${ \\bf H } = { \\bf n } / { \\bf 5 } 0 0$ 、、500分别指图书页码。",
+    "context15": "（5）、图书专业化程度修正量i",
+    "context16": "$$\n\\mathbf { I } = \\{ \\begin{array} { l l } { 1 = 1 } & { ( \\ 种 \\cdot \\lfloor k \\rfloor \\mp \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } ) } \\\\ { 1 = 0 \\ldots 5 } &  ( \\sharp \\sharp \\mp \\mathfrak { H } \\mathfrak { L } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak { H } \\mathfrak \\mathfrak { H } \\mathfrak { H } \\mathfrak \\mathfrak { H } \\mathfrak { H } \\mathfrak \\mathfrak { H } \\mathfrak { H } \\mathfrak \\mathfrak { H } \\mathfrak \\mathfrak { H } \\mathfrak \\mathfrak { H } \\mathfrak \\mathfrak { H } \\mathfrak \\mathfrak { H } \\mathfrak \\mathfrak  H \\mathfrak \\mathfrak { H } \\mathfrak \\mathfrak \\mathfrak { H } \\mathfrak \\mathfrak \\mathfrak  H \\mathfrak \\mathfrak { H } \\mathfrak \\mathfrak \\mathfrak \\mathfrak { H } \\mathfrak \\mathfrak \\mathfrak \\mathfrak  H \\mathfrak \\mathfrak \\mathfrak \\mathfrak { H } \\mathfrak \\mathfrak \\mathfrak \\mathfrak \\mathfrak  H \\mathfrak \\mathfrak \\mathfrak \\mathfrak \\mathfrak \\mathfrak  \\end{array}\n$$",
+    "context17": "（6）、图书出版发行量函数P",
+    "context18": "$$\n\\mathbf { P } = \\rho / 1 0 ^ { 5 }\n$$",
+    "context19": "（7）、图书馆流通阅览政策修正量 $\\phi$",
+    "context20": "$$\n\\scriptstyle \\phi = \\phi / 1 2\n$$",
+    "context21": "$\\phi$ 是限定图书借阅时间，以月为单位，12是一年的月数。",
+    "context22": "文中的电算机程序是西安交通大学计算机技术研究室来智勇同志制的，在此致谢。"
+  },
+  "参考文献": {
+    "context1": "〔1］肖自力：《再论藏书结构》《图书情报工作》，83年第6期",
+    "context2": "〔2］自然辩证法讲义，人民教育出版社，79年8月版， $\\textbf { P 3 6 4 }$",
+    "context3": "[3] L.A.Zadeh: 《Fuzzy Sets》 Inform Control V.8",
+    "context4": "[4］汪培庄：《模糊数学简介〔I］、〔Ⅱ」》《数学的实践与认识》，80年第2.3期",
+    "context5": "（5）楼世博、金晓龙：《模糊集合和模糊关系》《国外自动化杂志》，79年第4期",
+    "context6": "（6）贺仲雄；《模糊数学及其应用》天津科技出版社，83年版",
+    "context7": "（7）冯德益、楼世博：《模糊数学方法与应用》地震出版社，83年版",
+    "context8": "（8）张炎烈：《图书馆藏书建设的Fuzzy决策》《模糊数学》，83年第4期",
+    "context9": "（9）张炎烈：《藏书等级结构的数理分析及其应用》《图书情报工作》,83年第4期",
+    "context10": "(10）张炎烈：《图书馆藏书建设实践分析与图书采购系统工程》《图书与情报》，83年第4期",
+    "context11": "（11）郭平欣：《信息的特征》《光明日报》，84年2月17日3版",
+    "context12": "（12）肖自力：《试论藏书结构》图书情报工作，81年第1期",
+    "context13": "(13）《上海交大研制出十一种微型计算机》《光明日报》，84年4月10日3版",
+    "context14": "（14）《上海交大研制成汉字微型计算机系统》《光明日报》，83年4月5日1版",
+    "context15": "（上接第40页）",
+    "context16": "价值的纯数学游戏。这是笔者看完“喻文”后所得的启示，同时它也应该是图书馆学定量研究中所必须注意的问题。",
+    "context17": "参考文献",
+    "context18": "$\\textcircled{1} \\textcircled{2}$ 贺仲雄《模糊数学及其应用》天津科技出版社1983.P55",
+    "context19": "$\\textcircled{3}$ 转引自《哲学研究》1980年第一期评论员文章《积极开展科学方法论研究》"
+  }
+}

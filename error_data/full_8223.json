@@ -1,0 +1,96 @@
+{
+  "original_filename": "full_8223.md",
+  "nothing": {
+    "context1": "$\\bullet$ 高继平²，丁堃，潘云涛，袁军鹏'",
+    "context2": "(1．中国科学技术信息研究所，北京 100038；2.大连理工大学 WISE LAB，辽宁 大连116024)"
+  },
+  "知识关联研究述评": {
+    "context1": "摘要：文章从知识元间内在的联系对知识关联进行了分类介绍，并从知识关联的方向出发将知识关联划分为无向知识关联、有向知识关联和双向知识关联。之后，对当前主要的知识关联计量指标进行了介绍，并探讨了知识关联在图书情报学、计算机和科技管理等领域的应用。最后结合10项国家级基金对知识关联研究的资助，认为知识关联的研究不仅要挖掘潜在的隐藏的知识关联，更要突破常规认识，发现普遍认识中不同的知识关联，这样才能使人类的知识进一步增殖。",
+    "context2": "关键词：知识元；知识关联；知识网络；知识计量；计量指标；述评",
+    "context3": "Abstract:Basedontheclassifiedintroductionofknowledge interaction from the inherentrelationshipof knowledgeunit，this paperdividesknowledge interactionintoundirectedknowledgeinteraction，directedknowledgeinteractionandbilateralknowledge interaction.Then，thepaperintroducesthemaincalculationindexofknowledgeinteraction，disusses theapplicationofknowledge interactioninthefieldsoflibraryandinformationscience，computerscienceadS&Tmanagement.Finally，withthesupportingof 10 nationalfundsforthestudyofknowledgeinteraction，thepaperbelievesthatknowledgeinteractioncanotonlyminethepotentialknowledgeinteraction，butalsocanbreakthoughthetraditionaloncepttodscoverthedirentkowledgeinteraction，sothat can make further multiplication of human knowledge.",
+    "context4": "Keywords:knowledgeunit；knowledge interaction； knowledge network；knowledge measuring;calculation index；review",
+    "context5": "知识关联（Knowledge Interaction）亦即知识与知识之间的联系。若将知识系统比作一个人，知识元就是构成人的细胞、组织、器官等，而知识关联则是人体的血管、神经、呼吸道、消化管、气管等各类联通人体的通道，二者互相依存、息息相关，是知识系统必不可少的组成。"
+  },
+  "1知识关联的分类": {
+    "context1": "根据知识载体的差异，知识关联包括期刊关联、文献关联、机构关联、作者关联等。文庭孝等从知识关联的结构形式角度，将知识关联划分为线性结构和非线性结构、链式结构、等级结构、网络结构等。曾建勋等认为知识关联具体包括知识元关联、引证关联、相似文献关联、机构关联、基金关联、参考关联、基于本体的知识关联和基于知识元与引文关联的一站式知识关联模式等。赵蓉英认为知识关联的类型主要有纸质文献的链接、电子数据库之间的链接；数据库之间的链接则主要有：从书目检索结果到文章全页、从目录服务到全文、从引文到被引文章的文摘或全文、从文章到后来的引文（前向链接)、从一个数据库到其他数据库（属于不同的信息服务机构）。",
+    "context2": "上述的知识关联划分，忽视了关联本身，亦即知识本身内在的联系到底是什么。针对本文主要研究的是知识元与知识元之间的联系，笔者认为知识元与知识元之间的关联包括隶属关联、交叉关联、共现关联、引用关联、共被引关联、耦合关联等多种。",
+    "context3": "1）隶属关联。较大的知识领域，涵盖了较小的子知识领域，甚至更小级别的文本、知识元等，如“H”电学知识领域，就涵盖着“HO1”基本电器元件子知识领域、“HO4J”多路复用通信子知识领域“H04J1/0O”频分多路复用通信系统子知识领域“CN1620771”在光通信网络中为给定连接确定频谱路由的方法专利文本、光通信网络知识元等。",
+    "context4": "2）交叉关联。较大的知识领域、文本之间，可能存在着内容上的交叉重叠，如“HO4J”多路复用通信子知识领域“H04L”数字信息的传输子知识领域“HO4Q”选择子知识领域之间就存在着内容上的交叉，其中“CN1050480”文本，就属于“H04J”子知识领域、“H04L”子知识领域和“H04Q”子知识领域的交叉内容。",
+    "context5": "3）共现关联。若较小的两个或多个子知识领域，共同属于上级知识领域，则这些子知识领域之间，就存在共现关联，如“光通信网络”知识元“频谱路由”知识元就同属于文本“CN1620771”，故而“光通信网络”知识元和“频谱路由”知识元之间就存在着共现关联。尽管这种共现关联无法精确表示任意两个知识元在某一篇具体的专利文本中的共现中体现出何种语义关系，但是这并不妨碍知识元间共现关系对揭示科学知识领域结构的能力。",
+    "context6": "4）引用关联。以科学期刊、科学论文、学术著作、技术专利、网络网页、知识主体（如论文作者、专利发明人）等作为知识元时，它们之间也存在引用与被引用的联系。利用各种数学及统计学的方法和比较、归纳、抽取、概括等逻辑方法，对上面这些知识元之间的引用和被引用现象进行分析，已经成为科学计量学中的一种重要计量方法一一引文分析法，其中网络计量学中的链接分析也源于此类。",
+    "context7": "5）共被引关联。以科学期刊、科学论文、学术著作、技术专利、网络网页、知识主体（如论文作者、专利发明人）等作为知识元时，它们两者共同出现在第三个知识元的参考文献或网络链接目录中时，上面的两个知识元就存在共被引关联。尽管共被引联系本质上是一种共现关系，即两个知识元共同出现在第三个知识元的某一部分，但是这种共被引联系深刻地影响了科学计量学的发展，已经衍生为一种重要的计量方法一一共被引分析法。",
+    "context8": "6）耦合关联。以科学期刊、科学论文、学术著作、技术专利、网络网页、知识主体（如论文作者、专利发明人）等作为知识元时，它们同时引用了相同属性的第三个知识元时，就认为上面的知识元之间存在耦合联系。邱均平等认为“耦合关联”不局限于同时引证的两篇论文本身之间的关系，它还可以揭示一类普遍存在的关系，即两个（或两个以上）不同知识元与同一对象之间的关系。在计量学中，科学论文等知识元之间的耦合现象，使得一些表面看来没有联系的主体对象客观地被耦合起来，从而可以揭示科技体系的内在联系和结构关系。"
+  },
+  "2知识关联的方向": {
+    "context1": "无向知识关联、有向知识关联和双向知识关联的划分主要是由知识元之间的关联关系决定的，在知识网络中通过连线的方向或者箭头表示。",
+    "context2": "$\\mathrm { T } _ { 3 }$ 和 $\\mathrm { { T _ { 4 } } }$ 表示的是知识元两者间发生关联的时间，连线上面的数字，体现了两个知识元之间的关联强度。在文献计量学中，共现联系、共被引联系、耦合联系等知识关联，一般就采用图1的形式进行表示和分析。",
+    "context3": "![](images/4f1dd268793d3d0ebd7f39db6baea6726fd8b2af515e1b5e730812782a51866e.jpg)  \n图1无向知识关联图",
+    "context4": "Gao Jiping等就采用无向知识关联研究了专利一论文混合共被引网络，并以网络的属性“被引量’“中介中心度”和“引用半周期”量化了无向知识关联中的“知识影响力’‘知识控制力”和“知识活力”，探讨了技术进步下科学和技术在知识流动中的相互融合8；滕立、刘则渊等通过文献共被引方法，以宇称不守恒的发现为案例，构建了文献之间的无向知识关联，发现了宇称不守恒发现的知识来源属于粒子物理领域，但分属不同的研究主题[；林德明和刘则渊采用共词分析方法构建了特征词之间的无向知识关联，分析了复杂网络研究领域的演进过程，发现在学科演进的过程中，往往伴随着涌现性、非线性、自组织等复杂性现象的发生[]。"
+  },
+  "2.2单向知识关联": {
+    "context1": "图 $2 ^ { [ 1 2 ] }$ 中包含6个知识元，分别是 $\\mathrm { D } _ { 1 }$ 、 $\\mathrm { D } _ { 2 }$ 、 $\\mathrm { D } _ { 3 }$ 、 $\\mathrm { D } _ { 4 }$ 、$\\mathrm { D } _ { 5 }$ 和 $\\mathrm { D } _ { 6 }$ ，它们之间的联系是有方向的。在文献计量学中，隶属联系、引用联系等常采用图2进行表示和分析。",
+    "context2": "![](images/eb6f5ebc0db4e40dabe15c221374d82f87850be6b8b9d7969d3d045ec0128326.jpg)  \n图2单向知识关联图"
+  },
+  "2.1无向知识关联": {
+    "context1": "图 $1 ^ { \\mathbb { B } }$ 中包含5个知识元，分别是 $\\mathrm { D } _ { 1 }$ 、 $\\mathrm { D } _ { 2 }$ 、 $\\mathrm { D } _ { 3 }$ 、 $\\mathrm { D } _ { 4 }$ 和 $\\mathrm { D } _ { 5 }$ ，它们之间的联系是没有方向，而下面的 $\\mathrm { T } _ { 1 }$ 、 $\\mathrm { T } _ { 2 }$ 、",
+    "context2": "以隶属联系为例，图2中的方向表示着隶属于，亦即知识元 $\\mathrm { D } _ { 1 }$ 隶属于知识元 $\\mathrm { D } _ { 2 }$ 和 $\\mathrm { D } _ { 3 }$ ，知识元 $\\mathrm { D } _ { 2 }$ 隶属于知识元 $\\mathrm { D } _ { 3 }$ 、 $\\mathrm { D } _ { 4 }$ 、 $\\mathrm { D } _ { 5 }$ 和 $\\mathrm { D } _ { 6 }$ ， $\\mathrm { D } _ { 3 }$ 、 $\\mathrm { D } _ { 4 }$ 、 $\\mathrm { D } _ { 5 }$ 隶属于知识元 $\\mathrm { D } _ { 6 }$ 。",
+    "context3": "以引用联系为例，图2中的方向则表示着被引用，亦即知识元 $\\mathrm { D } _ { 1 }$ 被知识元 $\\mathrm { D } _ { 2 }$ 和 $\\mathrm { D } _ { 3 }$ 引用，知识元 $\\mathrm { D } _ { 2 }$ 被知识元$\\mathrm { D } _ { 3 }$ 、 $\\mathrm { D } _ { 4 }$ 、 $\\mathrm { D } _ { 5 }$ 和 $\\mathrm { D } _ { 6 }$ 引用， $\\mathrm { D } _ { 3 }$ 、 $\\mathrm { D } _ { 4 }$ 、 $\\mathrm { D } _ { 5 }$ 被知识元 $\\mathrm { D } _ { 6 }$ 引用。",
+    "context4": "在单向知识关联的基础上，梁永霞、刘则渊等[采用文献引用分析法研究了知识元之间的知识流动，包括知识的产生与传播、知识的共享、知识的增殖等。其中， $\\mathrm { D } _ { 1 }$ 的出现代表着新知识的诞生，而从 $\\mathrm { D } _ { 1 }$ 到 $\\mathrm { D } _ { 2 }$ 、从 $\\mathrm { D } _ { 1 }$ 到 $\\mathrm { D } _ { 3 }$ 、从 $\\mathrm { D } _ { 2 }$ 到 $\\mathrm { D } _ { 3 }$ 等，都展现了知识的传播，最后 $\\mathrm { D } _ { 6 }$ 引用了文献 $\\mathrm { D } _ { 2 }$ 、 $\\mathrm { D } _ { 3 }$ 、 $\\mathrm { D } _ { 4 }$ 和 $\\mathrm { D } _ { 5 }$ ，体现了知识继承和发展。杨中楷等对激光专利的引用情况进行单向知识关联基础上的分析，描述了专利引用活动中的知识扩散轨迹以及不同专利技术的交叉与融合[14",
+    "context5": "梁永霞等从知识论关于知识的发展模式来看，认为文献引用的过程都是在前人知识的基础上知识进化的过程，是知识的选择、遗传和变异的过程，也是知识的生产、传播和应用的过程，认为引文分析的过程就是对知识流动过程和知识活动系统的分析[15-1 。"
+  },
+  "2.3双向知识关联": {
+    "context1": "双向知识关联，主要指的是知识网络中两个知识元之间的联系，不是单向的，即知识元A可以链向知识元B，同时知识元B也可以链向知识元A，这类双向知识关联在网络计量学中最为常见。",
+    "context2": "![](images/08646535b97c6d39f403e565e2af1f9dcb8244821e9e7bd28b2567c8e00ea181.jpg)  \n图3双向知识关联图",
+    "context3": "在图3中，箭头的方向表示链接的方向，如网站A链向网站B，也链向网站C。其中，网站C和网站D、网站E和网站F就属于互相链接，也就是说网站C链向网站D，而网站D也同时链向了网站C；同理网站E链向了网站F，而网站F也链向了网站E。",
+    "context4": "西班牙高等科学研究委员会（Consejo Superior de In-vestigaciones Cientificas，CSIC）下的网络计量实验室（Cy-bermetricsLab）设计了一套网络计量评价指标体系用于评价科研机构的网络影响力，包括外部链接量（External In-links）、网页量（Size）、文献量（Rich Files，这里的文献指的是pdf、ps、doc、ppt 等类型的文献)、学者量（该数据结合了 Google Scholar和爱思唯尔中 Scimago SIR中的数据）等指标，对全球不同的研究机构进行了比较排名，其中哈佛大学、麻省理工学院、斯坦福大学、康奈尔大学和密歇根大学位列世界前5位，而我国排名最靠前的高校是北京大学、清华大学、浙江大学和上海交通大学，分列在世界上位列第37位、第49位、第60位和第68位[1。美国加州大学伯克利分校的Larson认为Web 网页链接可以清晰地展示网站内容之间的关联，这种类似于实体的网络链接，配合共被引分析一组高度被链接（Highly Sited）的网站，可以深入分析网络上的知识结构[。",
+    "context5": "双向知识关联的网络分析、知识可视化等研究相对较少，主要原因在于网络中存在多个闭环，而当前主流的网络分析算法、分析模型、知识可视化软件等都不能实现，更难以进行深入的挖掘。"
+  },
+  "3知识关联的计量指标": {
+    "context1": "知识关联的计量指标，一般可以分为两类，一类是借助知识关联连接的知识元进行计算，另一类则是将知识关联作为知识网络的一部分，通过计算连线在网络中的重要性进行分析。"
+  },
+  "3.1依赖知识元的计量指标": {
+    "context1": "知识元之间的关联有强有弱，一般被称为关联强度，通常在网络中通过连线的长短或者粗细来表示。这里主要介绍无向知识关联的计量指标，包括共现次数值、余弦相似度、Jaccard 算法、Dice 算法、Association Strength 算法等。",
+    "context2": "$$\nK I _ { i j } = N \\vert \\ K U _ { i } , \\pmb { K U _ { j } } \\vert \\ = C _ { i j }\n$$",
+    "context3": "$$\n{ \\mathrm { c o s } } \\theta { \\left( \\ K U _ { i } , K U _ { j } \\right) } \\ = \\frac { C _ { i j } } { \\sqrt { C _ { i } } \\times \\sqrt { C _ { j } } }\n$$",
+    "context4": "$$\n\\operatorname { J a c } \\theta ( \\ K U _ { i } , \\ K U _ { j } ) \\ = \\frac { C _ { i j } } { C _ { i } + C _ { j } - C _ { i j } }\n$$",
+    "context5": "$$\n\\mathrm { D i c e } \\theta ( K U _ { i } , K U _ { j } ) = \\frac { 2 C _ { i j } } { C _ { i } + C _ { j } }\n$$",
+    "context6": "$$\n\\operatorname { A S } ( \\ K U _ { i } , \\ K U _ { j } ) \\ = \\frac { C _ { i j } } { C _ { i } \\times C _ { j } }\n$$",
+    "context7": "其中， $( K U _ { i } , \\ K U _ { j } )$ 表示知识元 $K U _ { i }$ 和 $K U _ { j }$ 之间的知识关联 $K I _ { i j }$ ； $N ( \\ K U _ { i } , \\ K U _ { j } )$ 表示知识元 $K U _ { i }$ 和 $K U _ { j }$ 共同出现的次数，其值为 $C _ { i j }$ ； $C _ { i }$ 表示知识元 $K U _ { i }$ 在研究对象的知识系统中出现的次数； $C _ { j }$ 表示知识元 $K U _ { j }$ 出现的次数。",
+    "context8": "栾春娟以Jaccard算法计算了知识关联的强度，并应用于德温特专利数据库中太阳能技术领域的共性技术测度分析中，发现知识关联的计算方法Jaccard法在测度共性技术结果方面更趋向于合理与精确2。王贤文等以 Asso-ciation Strength算法计算了知识关联的强度应用于专利共被引强度的计算中，并选择《财富》杂志2009年评选出的世界500强企业为例，利用德温特专利数据库中2000—2009年的专利数据，对这500家企业技术竞争态势进行了专利地图分析2 。"
+  },
+  "3.2依赖知识网络的计量指标": {
+    "context1": "知识关联中介中心度（Betweenness），测量的是知识关联在多大程度上位于网络中其他知识元节点间联系的“中介”。在知识网络中，若一条知识关联处于许多知识元的连接线上，可以认为这条知识关联可以控制网络中知识的流通，其具体数学公式表示如下：",
+    "context2": "$$\nB { \\left( \\begin{array} { l } { K I _ { k } } \\end{array} \\right) } = \\sum _ { i , j , ( i \\neq j ) } { \\frac { \\lambda _ { k } { \\left( \\begin{array} { l } { i , j } \\end{array} \\right) } } { \\lambda { \\left( \\begin{array} { l } { i , j } \\end{array} \\right) } } }\n$$",
+    "context3": "其中， $B ( \\boldsymbol { K I } _ { k } )$ 表示的是知识关联的中介中心度；分母 $\\lambda ( \\ : i , j )$ 表示的是任意两个知识元 $K U _ { i }$ 和 $K U _ { j }$ 在网络中的最短连线条数；分子 $\\lambda _ { k } \\left( \\ : i , \\ : j \\right)$ 表示的是知识元 $K U _ { i }$ 和$K U _ { j }$ 之间的最短连线经过知识关联 $K I _ { k }$ 的条数； $\\sum _ { i , j \\in j }$ 表示的是知识关联在网络中任意两点的最短连线上的概率之和。 $B ( K I _ { k } )$ ）的计算，类似于节点计量指标中介中心度，不过后者的中介中心度测量的是单独一个知识元在网络中的控制信息能力；而前者知识关联的中介中心度衡量的是知识关联在整个网络中居于怎样的控制优势、对知识流动的控制能力。",
+    "context4": "高继平在其博士论文中采用该指标定位了技术领域中的关键技术知识，并以中国国家知识产权局数据库SIPOD中的“H04L数字信息的传输”领域为例，进行了实证分析，发现了信息系统、频偏系统、信号网络、自动重传系统、数据系统、被叫系统、数据信号等方面的研究是该技术领域的关键技术知识。"
+  },
+  "4知识关联的研究现状分析": {
+    "context1": "当前国内的知识关联研究主要集中在3个领域，分别是图书情报学领域、计算机领域和科技管理领域。",
+    "context2": "在图书情报学领域，研究人员关注于知识关联的概念界定、结构分析、测度指标、应用分析等，其代表性学者是湘潭大学的文庭孝、四川大学李睿等。文庭孝等从世界普遍联系、小世界现象、科学发展的统一性和继承性、学科综合与交叉、知识引用理论和相关性原理等视角出发，探讨了知识关联的理论基础；文庭孝认为知识关联具有相互性、普遍性、传递性、隐含性、结构性、累积性等特征，是我们认识和利用知识关联的基础24；李睿从专利对论文的引用视角出发，探讨了有向知识关联下的知识流动，揭示了基础研究学科与技术发明领域之间存在知识关联，预见二者间可能的相互推动或后示作用 。",
+    "context3": "在计算机领域，研究人员关心的是知识关联的抽取、挖掘、应用等，其代表性学者是原西安电子科技大学教授、现万方软件公司的温有奎教授。温有奎等认为知识关联（原文是知识元连接）是知识产业实现知识资源集成服务的起点，对建立知识网格平台，消除信息孤岛有指导意义，它的实现将为用户提供一种让自己挖掘知识、组合知识、利用知识和创新知识的工具。温有奎提出了以资源描述框架模式（RDFS）建立由性质P为中心的知识元本体模型，利用共被引知识关联发现了知识元间隐含的关联关系，并通过隐含关联发现了新知识；浙江大学石夫乾等为有效获取概念设计中的感性信息，提出了一种基于粗糙集的感性知识关联规则挖掘方法。",
+    "context4": "在科技管理领域，研究的核心是知识关联的概念、形成、结构、测度、演化及应用，其代表性学者是大连理工大学的刘则渊、党延忠等。刘则渊等以共被引知识关联研究了宇称不守恒的发现，探讨了宇称不守恒发现过程的知识结构与知识流动链路，并分析了其知识来源、各知识间的关系与知识更新过程[。刘则渊等采用引用知识关联的方式，研究了库恩《科学革命的结构》这本书的知识溢出，发现其影响已经扩散到包括心理学、教育学、经济学、政府与法学等广泛的社会科学领域2。胡志刚等从主题共现知识关联的视角对30年中国科学学主题文献进行可视化分析，展现了中国科学学研究前沿与主要领域，存在从内层、中层到外层三大知识群的圈层结构，呈现出以科学的量化分析为主导的科学计量学和以科学的哲学分析为主导的科学技术学两大知识板块，以及相应的科学学两条互补的发展路径。",
+    "context5": "针对知识关联的研究已经成为当前国内的一个研究热点，国家自然科学基金委员会和全国哲学社会科学规划办公室资助了大量相关项目，其中自然科学基金和社会科学基金各一半，都是5项。此外，2009年资助的项目最多，为2项，而四川大学获得的资助最多，是2项。知识关联相关的国家级项目见表1。"
+  },
+  "5结束语": {
+    "context1": "知识关联本质上体现的是知识元之间的“关系”，而这种关系可以是显性的，也可以是隐性的。显性知识关联是我们普遍熟知的一些知识关系，如不同作者之间的合作关系、文献之间的引用关系、研究人员和机构之间的隶属关系等，而后者隐性知识关联的发现、挖掘等是当前国内外的研究前沿。一旦实现隐性知识关联的发现，我们人类的知识总量就会得到大大的增殖，典型的案例就是美国斯旺森教授采用非相关文献知识发现法，发现了知识元“偏头痛”与知识元“镁”之间的隐性知识关联，从而为人类治愈偏头痛成为可能。",
+    "context2": "表1知识关联相关的国家级项目",
+    "context3": "<table><tr><td rowspan=1 colspan=1>时间</td><td rowspan=1 colspan=1>编号</td><td rowspan=1 colspan=1>项目类型</td><td rowspan=1 colspan=1>名称</td><td rowspan=1 colspan=1>主持人</td><td rowspan=1 colspan=1>单位</td></tr><tr><td rowspan=1 colspan=1>2001</td><td rowspan=1 colspan=1>50175099</td><td rowspan=1 colspan=1>自然科学基金</td><td rowspan=1 colspan=1>整合涂层的仿生设计、知识关联与应用研究</td><td rowspan=1 colspan=1>汪久根</td><td rowspan=1 colspan=1>浙江大学</td></tr><tr><td rowspan=1 colspan=1>2002</td><td rowspan=1 colspan=1>02BTQ011</td><td rowspan=1 colspan=1>社会科学基金</td><td rowspan=1 colspan=1>知识标引与检索中的知识链研究</td><td rowspan=1 colspan=1>温有奎</td><td rowspan=1 colspan=1>西安电子科技大学</td></tr><tr><td rowspan=1 colspan=1>2006</td><td rowspan=1 colspan=1>60673042</td><td rowspan=1 colspan=1>自然科学基金</td><td rowspan=1 colspan=1>汉语文本中观点信息的提取与倾向性分析技术研究</td><td rowspan=1 colspan=1>赵军</td><td rowspan=1 colspan=1>中国科学院自动化研究所</td></tr><tr><td rowspan=1 colspan=1>2007</td><td rowspan=1 colspan=1>70771069</td><td rowspan=1 colspan=1>自然科学基金</td><td rowspan=1 colspan=1>基于知识链的知识网络的形成与演化研究</td><td rowspan=1 colspan=1>顾新</td><td rowspan=1 colspan=1>四川大学</td></tr><tr><td rowspan=1 colspan=1>2008</td><td rowspan=1 colspan=1>08BTQ022</td><td rowspan=1 colspan=1>社会科学基金</td><td rowspan=1 colspan=1>基于引文的知识链接服务研究</td><td rowspan=1 colspan=1>曾建勋</td><td rowspan=1 colspan=1>中国科学技术信息研究所</td></tr><tr><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=1>70973044</td><td rowspan=1 colspan=1>自然科学基金</td><td rowspan=1 colspan=1>基于概念格的数字图书馆知识构建研究</td><td rowspan=1 colspan=1>毕强</td><td rowspan=1 colspan=1>吉林大学</td></tr><tr><td rowspan=1 colspan=1>2009</td><td rowspan=1 colspan=1>60973121</td><td rowspan=1 colspan=1>自然科学基金</td><td rowspan=1 colspan=1>网络知识互联结构自主发育模型研究</td><td rowspan=1 colspan=1>朱国进</td><td rowspan=1 colspan=1>东华大学</td></tr><tr><td rowspan=1 colspan=1>2011</td><td rowspan=1 colspan=1>11CTQ016</td><td rowspan=1 colspan=1>社会科学基金</td><td rowspan=1 colspan=1>关联数据中潜在知识关联的发现方法研究</td><td rowspan=1 colspan=1>洪娜</td><td rowspan=1 colspan=1>四川大学</td></tr><tr><td rowspan=1 colspan=1>2012</td><td rowspan=1 colspan=1>12CTQ010</td><td rowspan=1 colspan=1>社会科学基金</td><td rowspan=1 colspan=1>基于知识链的图书馆学科服务平台研究</td><td rowspan=1 colspan=1>蔚海燕</td><td rowspan=1 colspan=1>华东师范大学</td></tr><tr><td rowspan=1 colspan=1>2014</td><td rowspan=1 colspan=1>14CTQ042</td><td rowspan=1 colspan=1>社会科学基金</td><td rowspan=1 colspan=1>基于数字网络的知识关联服务研究</td><td rowspan=1 colspan=1>赵雪芹</td><td rowspan=1 colspan=1>上海师范大学</td></tr></table>",
+    "context4": "此外，我们也需要突破认识，普遍认同的显性知识关联也可以发现变化。当前国内外关键词之间的联系、主题词之间的关联等普遍采用共现关联的方法进行研究b1-3，然而借鉴关联规则挖掘算法，可以发现关键词之间的联系、主题词之间的关联也可以是一种隶属关联。关联规则分析涉及两个重要的指标置信度和支持度，前者在共词网络中反映的是知识元A和知识元B同时出现占知识元A总文献数量的比例，反过来可以体现知识元B对知识元A的隶属程度。这样生成的知识元与知识元的关联，就不是一般的无向知识关联，而是一种有向知识关联。同样期刊的编委会成员之间也许没有合作发表论文或专利，但是他们共同出现在1本期刊的编委会中，就表征着他们的学术思想有相似的地方，他们之间存在着知识关联。",
+    "context5": "所以，在知识计量学、知识网络等方面的分析中，不仅要挖掘潜在的隐藏的知识关联，更要突破常规认识，发现一般现象中的不同知识关联，这样我们的知识才会更加增殖也更加增值。□"
+  },
+  "参考文献": {
+    "context1": "[1] 文庭孝，刘晓英，刘灿姣，等．知识关联的结构分析．图书馆，2011（2)：1-7.  \n[2] 曾建勋，赵捷，吴雯娜，等．基于引文的知识链接服务体系研究[．情报理论与实践，2009，32（5)：1-4.  \n[3] 赵蓉英．论知识网络的结构[．图书情报工作，2007，51 (9):6-10.  \n[4] 王晓光．科学知识网络的形成与演化（I)：共词网络方法的提出[．情报学报，2009，28（4)：599-605.  \n[5] LEYDESDORFF L.Why words and co-words cannot map the",
+    "context2": "development of the sciences[．Journal of the American Society for Information Science，1997，48(5)：418-427."
+  },
+  "[6]滕立，沈君，高继平．共词知识网络中的认知结构：理论，方法与实证[]．情报学报，2013，32（9)：976-989.": "",
+  "[7]邱均平，刘国徽．国内耦合分析方法研究现状与展望[．图书情报工作,58（7)：131-136.": {
+    "context1": "[8]GAO Jiping，DING Kun，TENG Li，et al.Hybrid documentsco-citation analysis: making sense of the interaction betweenscience and technology in technology diffusion[]． Sciento-metrics，2012，93 (2):459-471.  \n[9] 高继平，丁堃，滕立，等．专利一论文混合共被引网络下的知识流动探析[J]．科学学研究，2011（8）：1184-1189.  \n[0] 滕立，刘则渊，王贤文，等．科学发现的知识结构——以宇称不守恒发现为例[]．科学学研究，2012（6)：820-828.  \n[1] 林德明，刘则渊．复杂网络研究领域演进中的复杂性．数学的实践与认识，2011，41（17)：174-182.  \n[2] 刘则渊．知识图谱的若干问题思考[R]．大连：大连理工大学WISE 实验室，2010.  \n[3] 梁永霞，刘则渊，杨中楷．引文分析学的知识流动理论探析[．科学学研究，2010，28（5)：668-674.  \n[4] 杨中楷，刘则渊，刘倩楠．专利制度下的竞争与共存四个激光专利案例[]．科学学研究，2011（12）：1849-1854.  \n[5] 梁永霞．引文分析学的知识计量研究[]．大连：大连理工大学，2009.  \n[6] 梁永霞，杨中楷，刘则渊．引文分析学的学科地位[．情报理论与实践，2010，33（5)：18-20.  \n[17]Cybermetricslab.Rankingwebofuniversities[EB/OL].[2014-11-24]．http://www.webometrics.info/en/Methodol-ogy.  \n[8] LARSON R R.Bibliometrics of the World Wide Web:an ex-ploratory analysis of the intellectual structure of cyberspace[//Proceedings of the 1996 American Society for Informa-tion Science Annual Meeting.New York，U.S.A.1996.  \n[19] VAN ECK N J，WALTMAN L.Software survey:VOSviewer,a computer program for bibliometric mapping[l．Scientomet-rics，2010，84(2):523-538.  \n[20] 栾春娟．战略性新兴产业共性技术测度指标实证研究[．中国科技论坛，2012(6)：73-77.  \n[1] 王贤文，丁堃，张曦．基于全域专利共被引的世界500 强企业技术竞争的专利地图分析[．情报学报，2011，30(7):756-764.  \n[22] 高继平．专利知识计量指标体系及其应用研究[D]．大连：大连理工大学，2013.  \n[23] 文庭孝，刘晓英，刘进军．知识关联的理论基础研究[．图书馆，2010（4)：9-11.  \n[4] 文庭孝，龚蛟腾，张蕊，等．知识关联：内涵、特征与类型[．图书馆，2011（4)：32-35.  \n[25] 李睿．专利引文分析法与共词分析法在揭示科学一技术知识关联方面的差异对比[．图书情报工作，2010（6)：91-93.  \n[26] 温有奎，徐国华．知识元链接理论[]．情报学报，2004，22(6):665-670.  \n[27] 温有奎，成鹏．基于知识单元间隐含关联的知识发现．情报学报，2007，26(5)：653-658.  \n[8] 石夫乾，孙守迁，徐江．基于粗糙集的感性知识关联规则挖掘研究[．计算机集成制造系统，2008，14（2）.  \n[9] 胡志刚，王贤文，刘则渊．库恩《科学革命的结构》被引50年[．自然辩证法通讯，2014（4)：81-88.  \nB0] 刘则渊，胡志刚，王贤文.30年中国科学学历程的知识图谱展现——为《科学学与科学技术管理》杂志创刊30周年而作[．科学学与科学技术管理，2010（5)：17-23.  \nB1] DEHDARIRAD T，VILLARROYA A，BARRIOS M.Researchtrends in gender differences in higher education and science:aco-word analysis [．Scientometrics,2014，101(1)：273-290.  \nB2] 高继平，丁堃．专利研究文献的可视化分析．情报杂志，2009 (7)：12-16.  \nB3] 赵艳枝．情报学界对“知识管理”的研究现状分析——基于关键词的关联规则挖掘[．图书情报工作，2008，52(7):102-05.  \nB4] 张立伟，姜春林，刘盛博，等．学术期刊核心编委群体识别和测度——以管理学CSSCI期刊为例．中国科技期刊研究，2014，25（10)：1224-231.  \n作者简介：高继平，男，1983年生，博士，助理研究员。",
+    "context2": "研究方向：科学计量，文献计量，专利计量等。",
+    "context3": "收稿日期:2015-02-04"
+  },
+  "（上接第123页)": {
+    "context1": "[2]SORENSON O. Complexity，networks and knowledge flow．Research Policy，2006，35 (5)：994-1017.  \n[3] FRIEDKIN NE.Horizons of observability and limits of informalcontrol in organization[]．Social Forces，1983，62（1)：54-77.  \n[4] TEECE D. Technology transfer by multinational firms:the re-source cost of transferring technological know-how[l．The E-conomic Journal，1977，87:242-261.  \n[5] ZHUGE H.A knowledge flow model for peer-to-peer teamknowledge sharing and management[．Expert Systems withApplications，2002 (23):23-30.  \n[6] BOIST M H. Is your firm a creative destroyer competitive learn-ing and knowledge flows in the technological strategies of firm[．Research Policy，1995，24:489-506.  \n[7]顾新，李久平，王维成．知识链管理与知识优势的形成．情报杂志，2008（3)：50-53.  \n[8] 涂振洲，顾新．基于知识流动的产学研协同创新过程研究．科学学研究，2013，31（9)：1381-1390.  \n[9] OECD.OECD中国创新政策研究报告[M]．薛澜，柳卸林，穆荣平，译．北京：科学出版社，2011.  \n[0] GUPTA A K，GOVINDARAJAN V. Knowledge flows withinmultinational corporations[．Strategic Management Journal,2000，21:473-496.  \n[1] POLANYI M. Personal knowledge: towards a post-critical phi-losophyM]．Chicago:University of Chicago Press，1962:5-8.  \n[2]王兆祥，蔡晨．基于知识生命周期的企业知识流模型．中国管理科学，2007，15（2)：126-133.  \n[13] 方志．基于知识网络的企业知识管理动态模型研究[．情报理论与实践，2010，33（9)：61-65.  \n[4] NOOTEBOOM B.Simmel’s treatise on the triad[．Institu-tional Economics，2006(2)：365-383.  \n[5] 伯特．结构洞：竞争的结构M．任敏，等，译．上海:上海人民出版社，2008：5-20.  \n[6] KRACKHARDT D. Assessing the political landscape: struc-ture，cognition，and power in organizations[.Admin.Sci.Quart，1990，35:342-369.  \n[7] MAKSIMT，ALEXANDERK.社会网络分析[M]．北京:机械工业出版社，2013：33-36.",
+    "context2": "作者简介：张江甫，男，1982年生，博士生，讲师。顾新，男，1968年生，博士后，教授。",
+    "context3": "收稿日期:2015-01-23"
+  }
+}

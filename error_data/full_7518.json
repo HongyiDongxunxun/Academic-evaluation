@@ -1,0 +1,83 @@
+{
+  "original_filename": "full_7518.md",
+  "根据文献统计预测激光科学在我国的发展趋势": {
+    "context1": "王心维",
+    "context2": "（广西科学技术情报研究所）"
+  },
+  "摘 要": {
+    "context1": "本文利用我国激光文献的统计，求出了文献随时间增长的回归方程。作者确定了预测值的精确度，分析了回归方程的使用范围，预测今后几年我国激光事业仍将高速发展。",
+    "context2": "美国Maiman于1960年发明了第一台红宝石激光器。1961年中国科学院长春光机所制造了我国第一台激光器。近几年来，我国激光事业发展迅速。",
+    "context3": "文献能从一个方面反映学科的发展。本文的目的是通过对我国激光文献量随时间的变化规律的研究，预测激光科学在我国的发展趋势。"
+  },
+  "一、激光文献量随时间变化的回归方程": {
+    "context1": "首先我们必须对我国激光文献进行统计。由于我国尚无激光文摘杂志，这里采用《全国报刊索引》科技版进行统计。这个索引只报道国内期刊文献的题录，并无文摘，而有一些激光方面的文献不能从题目或分类上反映出来，所以统计的文献数可能略低于实际发表数，但基本上可以反映我国激光文献状况。",
+    "context2": "1976年至1981年各年度我国激光文献数列于表1。公元年号以年度编号a表示，年度激光文献数 ${ \\pmb y } _ { \\pmb a }$ 给出二组数值，一为包括翻译文献的年度文献数；另一组为不包括翻译文献的年度文献数。由于前一组包含有大量翻译文献，不能具实反映我国激光科研和学科的发展，后一组则不然。因此，后面我们只研究后一组数据。由图1的散点图可见，这些点大体绕直线分布。为求最佳直线，可用最小二乘法求回归方程[1。一元线性回归方程为",
+    "context3": "表1各年度激光文献数",
+    "context4": "<table><tr><td rowspan=1 colspan=2>公   元   年   号</td><td rowspan=1 colspan=1>1976</td><td rowspan=1 colspan=1>1977</td><td rowspan=1 colspan=1>1978</td><td rowspan=1 colspan=1>1979</td><td rowspan=1 colspan=1>1980</td><td rowspan=1 colspan=1>1981</td></tr><tr><td rowspan=1 colspan=2>年度编号（a）1</td><td rowspan=1 colspan=1>1  ·</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>：3</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=2 colspan=1>ya</td><td rowspan=1 colspan=1>年度激光文献数（不包括翻译）</td><td rowspan=1 colspan=1>47</td><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>156</td><td rowspan=1 colspan=1>345</td><td rowspan=1 colspan=1>416</td><td rowspan=1 colspan=1>602</td></tr><tr><td rowspan=1 colspan=1>年度激光文献数（包括翻译）</td><td rowspan=1 colspan=1>144</td><td rowspan=1 colspan=1>118</td><td rowspan=1 colspan=1>330</td><td rowspan=1 colspan=1>504</td><td rowspan=1 colspan=1>549</td><td rowspan=1 colspan=1>687</td></tr></table>",
+    "context5": "![](images/8b081d33767fe3613371a2cdac63039cf0eb7dfb90be916391f2f49f6a3378e5.jpg)  \n图1我国激光文献随时间变化图",
+    "context6": "其中 $\\pmb { x }$ 为时间变数， $\\mathtt { \\Delta } b _ { 0 } , \\mathtt { \\Delta } b$ 为回归系数。",
+    "context7": "在求回归方程时得",
+    "context8": "$$\n\\left\\{ \\begin{array} { l l } { { - 2 } \\displaystyle \\sum _ { a = 1 } ^ { N } ( y _ { a } - b _ { 0 } - b x _ { a } ) = 0 ; } \\\\ { { - 2 } \\displaystyle \\sum _ { a < 1 } ^ { N } ( y _ { a } - b _ { 0 } - b x _ { a } ) x _ { a } = 0 , } \\end{array} \\right.\n$$",
+    "context9": "$$\nb _ { 0 } = { \\overline { { y } } } - \\ b { \\overline { { x } } } ,\n$$",
+    "context10": "$$\nb = { \\begin{array} { r l } { } & { { \\frac { \\displaystyle \\sum _ { a = 1 } ^ { N } x _ { a } y _ { a } - { \\cfrac { 1 } { N } } \\left( \\displaystyle \\sum _ { a = 1 } ^ { N } x _ { a } \\right) \\cdot \\left( \\displaystyle \\sum _ { a = 1 } ^ { N } y _ { a } \\right) } { \\displaystyle \\sum _ { a = 1 } ^ { N } x _ { a } ^ { - } - { \\cfrac { 1 } { N } } \\left( \\displaystyle \\sum _ { a = 1 } ^ { N } x _ { a } \\right) ^ { 2 } } } = { \\frac { \\displaystyle \\sum _ { a = 1 } ^ { N } \\left( x _ { a } - { \\overline { { x } } } \\right) \\cdot ( y _ { a } - { \\overline { { y } } } ) } { \\displaystyle \\sum _ { a = 1 } ^ { N } ( x _ { a } - { \\overline { { x } } } ) ^ { 2 } } } } \\\\ { } & { { \\frac { \\displaystyle \\sum _ { a = 1 } ^ { N } x _ { a } ^ { - } - { \\cfrac { 1 } { N } } \\left( \\displaystyle \\sum _ { a = 1 } ^ { N } x _ { a } \\right) ^ { 2 } } { \\displaystyle \\sum _ { a = 1 } ^ { N } ( x _ { a } - { \\overline { { x } } } ) ^ { 2 } } } } \\end{array} }\n$$",
+    "context11": "其中 $\\pmb { N }$ 为统计的年度编号最大数，本文 ${ N = 6 }$ ， $\\pmb { x _ { a } }$ 即a; $\\overline { { \\pmb { x } } } = \\frac { 1 } { N } \\sum _ { \\pmb { \\alpha } = 1 } ^ { N } \\pmb { x _ { \\alpha } }$ $\\overrightharpoon { \\pmb { y } } = \\frac { 1 } { N } \\sum _ { \\pmb { \\alpha } = 1 } ^ { N } \\pmb { y } _ { \\pmb { \\alpha } }$ ，分别  \n为 $\\pmb { x _ { \\alpha } }$ 及 ${ \\pmb y } _ { \\pmb { \\alpha } }$ 的平均值。为方便起见， $\\sum _ { a = 1 } ^ { N }$ 用 $\\Sigma$ 表示， $\\texttt { \\textbf { x } } , \\texttt { \\textbf { y } } _ { \\texttt { a } }$ 即分別为 $\\pmb { x } , \\pmb { y } _ { s }$ 。在计算时，令x的偏  \n离平方和 $l _ { x x } = \\Sigma$ $( x - \\overline { x } ) ^ { 2 }$ ，y的偏离平方和 $l _ { \\pmb { \\nu } \\pmb { y } } = \\Sigma ( \\pmb { y } - \\overline { { \\pmb { y } } } ) ^ { 2 }$ 及 $\\pmb { x }$ 、 $\\pmb { y }$ 的偏离乘积之和 $\\begin{array} { r } { \\iota _ { x y } = } \\end{array}$   \n$= \\Sigma ( x - \\overline { x } )$ ： $( y - \\overline { { y } } )$ ，则有",
+    "context12": "$$\n\\left\\{ \\begin{array} { l } { \\displaystyle l _ { x x } = \\Sigma x ^ { 2 } - \\frac 1 { N } ( \\Sigma x ) ^ { 2 } } \\\\ { ~ } \\\\ { \\displaystyle l _ { y y } = \\Sigma y ^ { 2 } - \\frac 1 { N } ( \\Sigma y ) ^ { 2 } } \\\\ { ~ } \\\\ { \\displaystyle l _ { x y } = \\Sigma x y - \\frac 1 { N } ( \\Sigma x ) ~ \\cdot ~ ( \\Sigma y ) , } \\end{array} \\right.\n$$",
+    "context13": "从（3）、（4）或（5）式求得不包括翻译文献的 ${ \\pmb { b } } _ { \\pmb { 0 } }$ 、 $^ { b }$ 分别为－134.0及115.5，则A$\\Ddot { \\pmb { y } } = - 1 3 4 . 0 + 1 1 5 . 5 { \\pmb x } _ { \\circ }$ （"
+  },
+  "二、激光文献预测": {
+    "context1": "x、 $\\pmb { y }$ 以 $\\pmb { x }$ 为自变量， $\\pmb { y }$ 为因变量。二变量必须具有明显的线性关系才适宜配回归方程，其线性相关用相关系数 $r ^ { ( 2 ) }$ 表示，",
+    "context2": "$$\nr = \\underbrace { l _ { x y } } _ { \\sqrt { l _ { x x } \\cdot l _ { y y } } } = \\frac { \\sum ( \\mathbf { x } - \\overline { { x } } ) \\cdot ( \\mathbf { y } - \\overline { { y } } ) } { \\sqrt { \\sum _ { \\mathbf { \\mu } \\in \\overline { { x } } \\cdot \\overline { { x } } } ) ^ { 2 } \\cdot \\sum ( \\mathbf { y } - \\overline { { y } } ) ^ { 2 } } } \\ ,\n$$",
+    "context3": "在后面我们知道 $0 \\leqslant | \\pmb { r } | \\leqslant 1$ 。当 $\\pmb { r } = \\pmb { 0 }$ 时， ${ l } _ { x y } = 0$ ，因",
+    "context4": "$$\nb = \\ { \\frac { l _ { x y } } { l _ { x x } } } ,\n$$",
+    "context5": "所以 ${ \\pmb b = 0 }$ ， $\\hat { \\pmb y } = \\pmb { b } _ { 0 }$ 与 $\\pmb { x }$ 无关，即无线性关系。 $| \\pmb { r } | = 1$ ，所有统计值均落于回归直线上， $\\pmb { x }$ 与 $\\pmb { y }$ 完全线性相关。r=1或-1分别为完全的正、负相关。0<|r<1为x与y有线性相关关系。$| \\pmb { r } |$ 愈接近1，则相关性愈强，我们算得 $r = 0 . 9 7 5$ ，说明 $\\pmb { x }$ 与y相关性密切。",
+    "context6": "为预测 $\\dot { \\pmb y }$ 值并估计其精确度，可将",
+    "context7": "$$\n\\begin{array} { r l } & { l _ { \\pmb { \\nu } \\pmb { \\nu } } = \\pmb { \\Sigma } ( \\pmb { y } - \\overline { { \\pmb y } } ) ^ { 2 } = \\pmb { \\Sigma } ( \\pmb { y } - \\hat { \\pmb y } ) + ( \\hat { \\pmb y } - \\overline { { \\pmb y } } ) ) ^ { 2 } } \\\\ & { \\quad \\quad = \\pmb { \\Sigma } ( \\pmb { y } - \\hat { \\pmb y } ) ^ { 2 } + \\pmb { \\Sigma } ( \\hat { \\pmb y } - \\overline { { \\pmb y } } ) ^ { 2 } + 2 \\pmb { \\Sigma } ( \\pmb { y } - \\hat { \\pmb y } ) \\bullet ( \\hat { \\pmb y } - \\overline { { \\pmb y } } ) , } \\end{array}\n$$",
+    "context8": "利用（2）式可证明上式右面的最后一项为0，故",
+    "context9": "$$\nE ( \\pmb { y } - \\overline { { \\pmb { y } } } ) ^ { 2 } = \\Sigma ( \\pmb { y } - \\hat { \\pmb { y } } ) ^ { 2 } + \\Sigma ( \\hat { \\pmb { y } } - \\overline { { \\pmb { y } } } ) ^ { 2 } \\circ\n$$",
+    "context10": "上式右面第二项可看作由于x与y的线性关系而引起的y变差，称回归平方和，记作U。右面第一项是除了x对y的线性影响之外的一切因素（包括x对y的非线性影响及统计误差等）对y变差的作用，称剩余平方和，记作 $\\pmb { Q }$ 。",
+    "context11": "$$\nU = \\sum \\ ( \\ \\stackrel { \\wedge } { \\ y } - \\stackrel { \\textstyle - } { y } ) ^ { 2 } = b l _ { x y }\n$$",
+    "context12": "$$\n\\pmb { Q } = \\Sigma ( \\pmb { y } - \\hat { \\pmb { y } } ) ^ { 2 } = l \\pmb { \\nu } \\pmb { \\nu } - b l _ { x y } ,\n$$",
+    "context13": "从回归平方和与剩余平方和的意义可知回归效果的好坏取决于U及Q，U/lvv愈大，回归效果愈好。根据（5）及（7）式得",
+    "context14": "$$\n{ \\frac { U } { l _ { y y } } } = { \\frac { b l _ { x y } } { l _ { y y } } } = { \\frac { l _ { x y } ^ { 2 } } { l _ { x x } \\cdot l _ { y y } } } = r ^ { 2 }\n$$",
+    "context15": "因而有",
+    "context16": "$$\n\\begin{array} { l } { { U = r ^ { 2 } l _ { y y } , } } \\\\ { { Q = ( 1 - r ^ { 2 } ) l _ { y y } , } } \\end{array}\n$$",
+    "context17": "由于（9）式中回归平方和为 ${ \\pmb { \\imath } } _ { \\pmb { \\nu } \\pmb { \\nu } }$ 的一部分，而剩余平方和不可能为负值，因此 $U { \\leqslant } l _ { y \\ y }$ ，故$r ^ { 2 } { \\leqslant } 1$ ，即如前述。 $\\boldsymbol { r }$ 愈大， ${ \\pmb U }$ 愈大，回归效果愈好。",
+    "context18": "引入剩余均方 $\\ S ^ { 2 }$ ，",
+    "context19": "$$\nS ^ { 2 } = \\frac { Q } { N - 2 }\n$$",
+    "context20": "（15）式 $\\pmb { \\zeta } \\geq \\pmb { \\big ) }$ 可看作除 $\\pmb { x }$ 对 $\\pmb { y }$ 线性影响后，衡量 $\\pmb { y }$ 随机波动大小的估计量，S称剩余标准差。假$\\hat { \\pmb { y } } _ { 0 }$ A设 $\\pmb { y }$ 服从正态分布，即固定 $\\pmb { x } = \\pmb { x } _ { 0 }$ 时， $\\pmb { y }$ 取值以 为中心而对称分布，愈靠近 $ { \\textbf { y } } _ { 0 }$ 出现的概率愈大，距 $\\ddot { \\pmb { y } _ { 0 } }$ 较远的地方出现的概率就小， $\\pmb { y }$ 与S的关系为 $\\pmb { y }$ 落在 ${ \\pmb y } _ { 0 }$ A 土2S的区间内约占 $9 5 \\%$ 。S愈小，回归方程预报y值愈精确，因此剩余标准差可作为预报精确度的标志。我们算得 $\\pmb { S } =$ 55.10。作二条直线：",
+    "context21": "$$\n\\left\\{ \\begin{array} { l l } { y ^ { \\prime } = - 1 3 4 . 0 - 2 S + 1 1 5 . 5 x } \\\\ { y ^ { \\prime } } \\\\ { z ^ { \\prime } } \\end{array} \\right.\n$$",
+    "context22": "(16)式的二条直线也绘于图1中，可以预料全部可能出现的 $\\pmb { y }$ 值，大约有 $9 5 \\%$ 的点落在二条直线所夹的范围内。从图1也可看出，六个统计值均在二条直线内。",
+    "context23": "下面考虑一下回归方程的稳定性问题。回归方程的稳定性是指除 $\\pmb { x }$ 外其统计条件基本不变时，由不同的几批统计数据得到的回归方程系数 ${ \\pmb b } _ { 0 }$ 、 $^ { b }$ 的波动情况，波动愈小，回归方程愈稳定。参考文献〔2]给出了固定 $\\pmb { x }$ ，回归值 $y = b _ { 0 } + b x$ 及 $\\pmb { y }$ 的波动关系，其标准差公式分别为：",
+    "context24": "$$\nS \\underset { y } { \\wedge } = S \\ \\sqrt { \\frac { 1 } { N } + \\frac { ( x - \\overset { . } { x } ) ^ { 2 } } { l _ { x x } } }\n$$",
+    "context25": "及",
+    "context26": "$$\nS _ { \\pmb { \\nu } } = S \\sqrt { 1 + \\frac { 1 } { N } + \\frac { ( { \\pmb x } - \\bar { \\pmb x } ) ^ { 2 } } { l _ { x x } } } ,\n$$",
+    "context27": "因而应以 $\\mathcal { \\pmb { S } } _ { \\pmb { \\nu } }$ 代替前面的S作为预测值y的预测精确度的标志。",
+    "context28": "从（17）及（18）式我们得到二组曲线：",
+    "context29": "$$\n\\left\\{ \\begin{array} { l } { { \\hat { \\pmb { y } } ^ { ~ \\prime } = - 1 3 4 . 0 - 2 S _ { y } ^ { \\wedge } + 1 1 5 . 5 x } } \\\\ { { \\hat { \\pmb { y } } ^ { \\prime } } , , } \\\\ { { \\pmb { y } } ^ { ~ \\prime } } \\end{array} \\right.\n$$",
+    "context30": "$$\n\\left\\{ \\begin{array} { l l } { y ^ { \\prime } = - 1 3 4 . 0 - 2 S _ { \\nu } + 1 1 5 . 5 x } \\\\ { \\qquad } \\\\ { y ^ { \\prime } ^ { \\prime } = - 1 3 4 . 0 + 2 S _ { \\nu } + 1 1 5 . 5 x } \\end{array} \\right.\n$$",
+    "context31": "算得（19）及（20）式两组曲线列于图2中。（20）式的一组二条曲线，给出所有的预测值y有 $9 5 \\%$ 落在这二条曲线所夹的范围内。",
+    "context32": "由（18）式可知，因 $l _ { x x } ( = \\Sigma ( { \\pmb x } - { \\pmb x } ) ^ { 2 } ) \\geq 0 ,$ ，当 ${ \\pmb x } = { \\pmb x }$ 时，对所有的 $\\pmb { x }$ 而言 $\\scriptstyle { \\mathbf { S } } _ { \\pmb { \\nu } }$ 最小，即 $\\pmb { y } ^ { \\prime }$ 和${ \\pmb y } ^ { \\prime } \\mathinner { \\pmb \\eta }$ 二曲线在 $\\pmb { x } = \\pmb { x }$ 时，最接近于回归直线 $\\ddot { y }$ ，这说明回归方程预测 $\\pmb { y }$ ，其精确度与 $\\pmb { x }$ 有关，而靠近 $\\pmb { x }$ 的地方，精确度高；远离x的地方，精确度差，从图2也可看出， $\\pmb { x }$ 距 $\\pmb { x }$ 越远， ${ \\pmb y } ^ { \\prime }$ 和y''构成的喇叭口愈来愈开阔， $\\pmb { x } < \\pmb { x }$ 或 $\\tt { r } > \\tt { 2 }$ 时都具有喇叭口形状。",
+    "context33": "当 $\\pmb { N }$ 愈大， $\\scriptstyle { s _ { y } }$ 愈小，即说明统计次数愈多，精确度也愈高。当 $N  1 \\times 0$ 和 $\\pmb { \\mathscr { X } } = \\pmb { \\mathscr { X } }$ 时，（18）",
+    "context34": "式的S→S，（20）式的一组二曲线过渡到（16）式的一组二条直线。",
+    "context35": "一般地说，回归方程适应范围限于原来观测或统计数据的变动范围，即0≤x≤6。研究发展趋势则必须外推，但外推时必须小心。从图2可知，外推的年份不能太多；y或y'、小于0时不能外推；正常年份可以外推；异常年份偶然随机因素或x、y之间内在异常因素起决定作用时，则不能外推，如科技方针政策的突变、国家安危变化剧烈及与研究问题有关的新学科和重大发现、发明的出现。",
+    "context36": "![](images/7f0f8425428f4a27543c7cbc5e99779f38ebd8f80f0476a668175dcb5fc36047.jpg)  \n图2回归值与预测值y的波动",
+    "context37": "由（6）式回归方程预报 $\\pmb { y }$ 即为 $\\hat { \\pmb y }$ ，其1982年、1983年、1984年及1985年数值和相对于1981年不包括翻译文献的统计值 ${ \\pmb y } _ { \\pmb { a } }$ 的百分比均列于表2中，1983年比1981年增长 $3 1 . 2 \\%$ ，1985年比1981年增长 $6 9 . 6 \\%$ 。由于1981年统计值为1976年统计值的12.8倍，而1983年和1985",
+    "context38": "表2y的预测值(即)",
+    "context39": "<table><tr><td>公元年号</td><td>年度编号a</td><td>→</td><td>ya</td></tr><tr><td>1982</td><td>7</td><td>675</td><td>112.1%</td></tr><tr><td>1983</td><td>8</td><td>790</td><td>.131.2%</td></tr><tr><td>1984</td><td>9</td><td>906</td><td>150.5%</td></tr><tr><td>1985</td><td>10</td><td>1021</td><td>169.6%</td></tr></table>",
+    "context40": "\\*为y对1981年不包括翻译文献的统计值 $\\pmb { y }$ 的百分比"
+  },
+  "THE FUNCTION OF INFORMATION IN ENTERPRISE MANAGEMENT AND ADMINISTRATION": {
+    "context1": "Qin Guang-han",
+    "context2": "(Commitee of Economics, Liangyungang City, Jiangsu Province)"
+  },
+  "Abstract": {
+    "context1": "In this article, use is made of statistics of Chinese laser documents to find out the regression equations of document increase with time. The author makes a determination of the precision of calculated values,analyses the scope of use of these equations, and predicts the laser undertaking will still enjoy high-speed development in China during the next few years."
+  },
+  "参考文献": {
+    "context1": "［1」上海师范大学，《回归分析及其试验设计》，上海，上海教育出版社，1978，2—5。  \n〔2」中国科学院数学研究所，《回归分析方法》，北京，科学出版社，1974。"
+  },
+  "PREDICTION OF TRENDS IN CHINA'S LASER SCIENCE BASED ON DOCUMENT STATISTICS": {
+    "context1": "Wang Xin-wei",
+    "context2": "(The Institute of Scientific and Technical Information of Guangxi)"
+  }
+}

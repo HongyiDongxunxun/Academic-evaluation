@@ -1,0 +1,105 @@
+{
+  "original_filename": "full_7607.md",
+  "检索语言在医学信息管理与检索中的应用综述": {
+    "context1": "Summary on Application of Retrieval Language in Medical Information Management and Retrieval",
+    "context2": "陈永莉洪漪2",
+    "context3": "(1.湖北省科技信息研究院，武汉，430071；2.MedeAnalytics Inc．美国)",
+    "context4": "[摘要］本文对检索语言在医学信息管理与检索中的应用进行了综述，其中着重介绍了国内外通用的规范化检索语言的应用情况，包括医学主题词表、国际疾病分类法、系统医学术语一临床术语、观测标识符逻辑命名与编码系统、放射医学辞典、一体化医学术语系统、中文一体化医学语言系统、医学主题词表以及中医药一体化语言系统，其中特别介绍了检索语言在以电子病历为核心的临床医疗信息系统中的应用。检索语言在医学信息检索中位于数据处理的核心地位，是医学数据库和信息系统的语言保障。",
+    "context5": "［关键词]检索语言信息检索医学信息规范化医学术语电子病历[中图分类号]G254.24;G354[文献标识码]A [文章编号]1003-2797(2015)03-0072-08DOI:10.13366/j.dik.2015.03.072",
+    "context6": "[Abstract]This study summarizedtheapplicationof retrieval language in medical information managementandretrieval, which focusedonapplicationof standardized medical terminologies suchas Medical Subject Headings(MeSH)，International Classification of Diseases (ICD)，Systematized Nomenclature of Medicine-Clinical Terms（SNOMED CT），Logical Observationldentifiers Namesand Codes（LOINC)，RadLex，Unified Medical Language System（UMLS),Chinese Unified Medical Language System (CUMLS)，Chinese Medical Subject Headings (CMeSH),and Traditional Chinese Medical Language System(TCMLS).As thecoreofdata processing inmedical information retrieval，theretrieval language isthe language support of medical databases and medical information systems.",
+    "context7": "[Keywords]Retrieval languageInformation retrievalMedical informationStandardized medical terminologiesElectronic medical record"
+  },
+  "1引言": {
+    "context1": "近些年来，信息技术和网络技术的飞速发展大大推动了医学信息管理的数字化和标准化，以临床医疗信息为核心的电子病历的应用日渐普及，在标准化信息基础上建立的集成医疗信息系统通过一系列搜索引擎与受控词表和分类表相连接，使得分布在电子病历系统、临床检验系统、医嘱处理系统、重症监护系统、医学影像管理系统以及临床决策支持系统中的信息能够顺利地传递和共享。",
+    "context2": "医学信息标准化包括信息管理标准化与信息检索标准化，前者是对医学信息收集、存贮、处理、传递等信息管理过程实施标准化，包括医学信息系统集成架构规范、医学数据交换格式规范，如HL7（HealthLevel Seven International）和 DICOM（Digital Imagingand Communications in Medicine）。后者则侧重医学知识组织和信息检索的规范化，包括医学数据文档结构标准(如CDA等）、医学元数据标准、电子病历标准、电子健康档案标准以及医学信息检索语言规范等[1]。",
+    "context3": "检索语言能排除自然语言中的多词一义、一词多义和词义含糊现象，对内容相同及相关的情报加以系统化或组织化，揭示其相关性，其应用直接影响着信息检索的效率[2]。具体到医学信息检索和医学信息管理中，标准化的检索语言对医学术语进行规范化的语义描述，如关于某种疾病的分类代码或者关于患者症状的术语描述[3]，是CDA 结构化文档和HL7信息交换中采用的术语和代码集的重要组成部分。检索语言的自然语言化和自然语言的规范化极大地满足了人们对医学信息的检索需求，实现了病人所有诊疗数据的\"无缝\"共享，使不同系统中的信息能够顺利传递和共享，方便数据的进一步挖掘与决策分析。本文着重介绍医学信息检索语言在国内外医学信息管理和检索中的应用情况。"
+  },
+  "2国际通用的医学信息检索语言及其应用": {
+    "context1": "图1列举了一些国际通用的医学信息检索语言，本文着重介绍目前在医学信息系统中应用最为广泛的几个医学术语系统。",
+    "context2": "![](images/e3398840f38b7b72d178bcbcb1a7965883586c659ffd8a8c54adcba47cd9ec93.jpg)  \n图1国际通用的医学信息检索语言"
+  },
+  "2.1医学主题词表(MeSH)": {
+    "context1": "《医学主题词表》（Medical Subject Headings,简称MeSH)，由美国国立医学图书馆(NLM)编制，1960年出第一版，是目前国际上最具代表性、使用范围最广泛的受控检索语言。MeSH汇集了约25000多个医学主题词，按照词义范畴和学科属性进行分类，并按照字顺和树状结构分别进行排列。越上层的概念包括范畴越广，越下层的概念专指度越高。其等级结构能够精确揭示主题词的属分关系，了解主题词的族性类别；同时，基于概念的主题词、概念、术语结构相互关联，可揭示MeSH主题词之间的历史演变和语义关系，实现同义扩展检索。",
+    "context2": "MeSH在医学文献检索中的重要作用主要表现：",
+    "context3": "其一，对各种同义词、多义词和同形异义词进行了规范化处理，使得一个概念只能用一个词汇来表达，将自然语言转换成规范化检索语言；其二，保证文献标引者与检索者用词的一致性，提高检索效率。目前，用MeSH标引的医学文献数据库主要有：AIDSLINEAIDS、AODSTRIALS、AVLINE、BIOETHICS、CANCER-LIT、HEALTH、MEDLINE、TOXLINE 等[4]。"
+  },
+  "树状结构表和字顺表是MeSH的主要组成部分。": {
+    "context1": "(1)树状结构表：树状结构表将主题词按学科性质、词义范围、上下类属、派生关系等分别划分为16个大类，再划分为若干级子类。每一级类目用一组号码标明，级与级之间用“.”号隔开，并用逐级缩格的排列方法来表达它们之间的逻辑隶属关系。同级类目下的主题词按字顺编排，可满足族性检索需求。大多数情况下，一个主题词一般归入一个类别，但有些主题词具有多重属性，可能同时属于两个或多个类目范畴，这样就有与类目相对应的多个树状结构编码，便于查寻该主题词在所有类目中的位置。例如：肝肿瘤(Liver Neoplasms)有三个树状结构编码，分别属于肿瘤类下的消化系统肿瘤(C04.588.274.623）、消化系统疾病类下的消化系统肿瘤（C06.301.623)和消化系统疾病类下的肝疾病（C06.552.697）[5]。",
+    "context2": "(2)字顺表：它由主题词、款目词和副主题词混合按英文字顺排列组成。每个主题词下列有该主题词设立年代、树状结构编码、历史注释及各种参照系统。款目词主要收录同义词或近义词，用\"see\"参照指向正式主题词;副主题词前一般加\"/\"号和主题词相区别，用于与主题词进行组配，旨在提高概念的专指度。在MeSH数据库检索中，用户输入一个主题词后，系统会自动显示与该主题词相应的副主题词，如分析（Analysis）、诊断（Diagnosis）、药物治疗（Drug Thera-py）、药物效果(Drug Effects)等。",
+    "context3": "字顺表和树状结构表通过树状结构号相联系。字顺表的所有词汇按字顺排列，检索者只需要在字顺表中找到合适的主题词及树状结构号，再依据树状结构号查找树状结构表，便可依据上、下位概念进行扩检和缩检。两者相互联系、互为指引[]。"
+  },
+  "2.2国际疾病分类法(ICD)": {
+    "context1": "ICD是世界卫生组织(WHO)制定的国际通用的疾病分类法，世界通用的最新版本是第10次修订本ICD-10，被翻译成包括阿拉伯文、中文、英文、法文、俄文、西班牙文在内的43种文字。目前美国医疗机构广泛使用的仍然是第9次修订本的临床版ICD-9-CM，根据美国卫生及公共服务部(HHS)与美国医疗保险和医疗救助服务中心(CMS)的要求，自2015年10月始所有健康保险法案 HIPAA(Health Insurance Portabilityand AccountabilityAct)实行范围之内的美国医疗卫生机构须全部转用ICD-10的诊断分类编码和住院病人手术操作分类编码[7]。ICD原本主要用于死亡率和发病率统计，近年来越来越多地应用于临床护理和研究中对疾病的定义和分门别类以及医疗保险付费管理，目前世界上有117个国家采用ICD统计死亡率，大约有 $70 \\%$ 的医疗卫生开支通过ICD进行偿付和分配[8]。",
+    "context2": "ICD采用规范化的分类编码对临床医疗信息进行存储检索和分析，除了用于病案分类编码以及医疗保险付费管理外，还可以用来建立患者信息库、电子病历、医院信息管理系统、病案统计信息管理系统、医生工作站，进行医学信息统计分析，从而实现不同国家地区医疗机构医学信息的共享。美国卫生及公共服务部(HHS)与美国医疗保险和医疗救助服务中心(CMS)要求采用ICD疾病分类标准实行电子病历激励计划Meaningful Use(\"有意义的使用\")第2阶段，进行电子病历认证，从而实现医疗信息交流。我国于2001年开始正式推广使用国际疾病分类标准，要求所有医院在病案中统一使用ICD-10编码，并上报统计信息。作为全国试点之一，北京市医疗保险预付费系统的疾病统计和医疗质量控制自2007年开始使用ICD-10 临床版编码[9]。"
+  },
+  "2.3系统医学术语－临床术语(SNOMED CT)": {
+    "context1": "SNOMEDCT是当前国际上广为使用的规范化临床医学术语集，最初由美国病理学会研制开发，2007年始转由国际医疗卫生术语标准发展组织(IHTSDO)负责维护和推广。IHTSDO实行会员制，目前正式会员有美国、加拿大、英国、澳大利亚、印度、中国香港等20几个国家和地区，会员国的医疗卫生机构只要获取许可证，就可以免费使用SNOMEDCT。美国国家医学图书馆是IHTSDO在美国的官方代理机构，负责在美国推广使用 SNOMEDCT。中国大陆尚不是 IHTS-DO 的会员，因此不能直接使用SNOMEDCT的最新版本，目前在国内见到的中文SNOMED电子版是1997年发行的SNOMED国际版的中文译本的电子化产品，分为11个模块，包含145856个词条以及与ICD-9-CM的映射。每个词条的内容包括：编码、中文名、英文名、类别符、层次、与该词条相关的外部编码、ICD-9-CM码、药品编码、药厂编码、酶编码及SNOMED相关词条的交叉参照列表。除此之外，中国中医科学院借鉴SNOMEDCT的构建模式，编制了《中医临床标准术语集》[10]",
+    "context2": "最新的 SNOMEDCT国际版于2015年1月发行，包含30多万条医学概念，其核心部分由概念表、描述表和关系表组成。概念表中的每个临床医学概念通过一个唯一的标识符以及唯一个说明概念特性的完全定义的名称来表示，所有的概念都由一个层级结构组织起来。描述表用来显示同一个医学概念与其相对应多个专业术语间的关系，一个特定的概念有首选的描述语，其他术语作为同义词存于描述表中。关系表用来显示概念间的语义关联[11]。图2显示了SNOMED CT的核心内容[12]。",
+    "context3": "除了核心表以外，SNOMEDCT还包含子集、交叉映射表、历史机制与其它派生表等。与ICD一样，SNOMED CT也是美国 HHS 和 CMS 要求在 MeaningfulUse 第2阶段采用的一系列规范化医疗术语集之一，可以用来组织和检索临床信息，支持智能决策，进行统计分析和数据挖掘。SNOMED CT与其他检索语言如 ICD、LONIC的交叉映射使它可以地被用来有效地引用其它术语与分类，每个交叉映射表将SNOMED 概念与被称为目标编码体系中的其它编码进行匹配，有利于规范化术语的一体化。"
+  },
+  "2.4观测指标标识符逻辑命名与编码系统(LOINC)": {
+    "context1": "LOINC是世界通用的医学实验室检验项目和临床观测指标术语标准，目前有163个国家采用LOINC，我国也已采用LOINC作为实验室数据编码标准。LOINC 的医学实验部分包含化学、血液学、微生物学等范畴的术语，临床观测部分则涵盖了心电图、生命体征等观测指标，旨在促进医学实验与临床观测指标",
+    "context2": "![](images/440c6ca78f4b5bfec9eaa969c0c1e06f43b79bc22b5148be5b488de693feb05f.jpg)  \n图2SNOMED CT核心内容图示",
+    "context3": "信息的交换与共享。",
+    "context4": "LOINC数据库的主要内容为LOINC代码和LOINC全称。所有LOINC代码分别与数据库中所定义的实验室检验项目及临床观测指标呈一一对应关系,LOINC全称由包括组件（Component）、属性种类（Kind of Property）、时间特征（Timing）、体系（Sys-tem)、等级类型(Type of scale)、方法(Method)在内的六个数据字段组成[13]。",
+    "context5": "LOINC 的最新版本是2014年12月22日发布的LOINC 2.50,包含74600条术语。与LOINC数据库同时发行的还有 Regenstrief LOINC Mapping Assistant（RELMA6.8）应用软件，用于LOINC术语查询以及生成从非规范化的实验室内部代码指向LOINC标准代码的交叉映射[14]。",
+    "context6": "LOINC与 ICD 和 SNOMED CT 同为美国 HHS 和CMS要求在MeaningfulUse第2阶段采用的一系列规范化医疗术语集之一。目前美国大多数医学实验室和诊疗系统采用LOINC对医学检验项目或观测指标进行规范标识，将多个数据来源的内部编码系统与LOINC的标准化编码系统加以一一对照，通过HL7和DICOM等信息传输标准以电子化形式将检验和观测结果数据从实验信息系统发送至临床医疗护理系统，便于实验和检测信息的交流[15]。图3显示了中文LOINC 术语查询界面[16]。"
+  },
+  "2.5放射医学辞典(RadLex)": {
+    "context1": "为了方便处理和查询医学影像和放射医学信息，北美放射医学学会(RSNA)在 SNOMED CT、LOINC 和UMLS的基础上编制了标准化的放射学术语集Rad-Lex，收录了46000多条医学影像术语，包含解剖学实体、临床发现、图像的获取与展示、影像形态、放射报告组成、属性等几类术语，可以对医疗影像术语和概念间的关系进行可视化展示，旨在统一医学影像和放射医学术语的应用，促进医学影像信息的共享。具体而言，RadLex主要通过下面几个方面来满足医学影像和放射医学信息需求：提供标准的能够描述医学影像和放射学全部信息的术语，帮助放射医师在计算机上生成更好的放射学诊断报告，方便研究人员挖掘医学影像数据库，有利于医学影像和放射学信息资源的检索和开发利用。RadLex的最新版本可以在NationalCenter for Biomedical Ontology（NCBO）BioPortal 网站上免费获取（http://bioportal.bioontology.org/ontolo-gies/RADLEX)[17]。",
+    "context2": "在美国国家生物医学影像和工程研究院(NIBIB)的资助下，RSNA发起了推广结构化放射医学报告的倡议，为此创建了基于 Radlex、SNOMED CT以及LOINC 等规范化医学术语集的放射学报告模板电子图书馆(htp://www.radreport.org)[18]。该电子图书馆目前收入了268个放射医学报告模板，除了221个英文模板外，还有少数其它语种的模板，其中包括13个中文模板。此电子图书馆向公众开放，放射医师和研究人员可以从其网站上免费下载模板。所有标准化模板都有普通文本和XML两种格式，并用RadLex进行标引，如果找不到相应的RadLex代码，就用SNOMED CT和 LOINC 作补充标引[19]。目前 RadLex"
+  },
+  "尚无中文版本，如果我国能够填补这一空白，将大大促进中国放射医学信息的标准化。": {
+    "context1": "<table><tr><td rowspan=1 colspan=5>基于关键词搜索LOINC术语LOINC版权与许可协议</td></tr><tr><td rowspan=1 colspan=1>搜索关键词选项</td><td rowspan=1 colspan=3>搜索条件</td><td rowspan=1 colspan=1>搜索精度</td></tr><tr><td rowspan=1 colspan=1>成分（受检成分：Component）</td><td rowspan=1 colspan=2>血清</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>模糊搜索</td></tr><tr><td rowspan=2 colspan=1>属性类型（受检属性：Property）</td><td rowspan=1 colspan=3>4</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>模糊搜索</td></tr><tr><td rowspan=2 colspan=1>时间特征（时间点=随机：TimeAspect）</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>模糊搜索</td></tr><tr><td rowspan=2 colspan=1>体系类型（标本类型、样本类型：System）</td><td rowspan=1 colspan=3>1</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>模糊搜索</td></tr><tr><td rowspan=2 colspan=1>标尺类型（测量精度：ScaleType）</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>模糊搜索</td></tr><tr><td rowspan=1 colspan=1>方法类型（观测或试验方法：MethodType)</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>模糊搜索</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>搜索&gt;&gt;&gt;</td><td rowspan=1 colspan=2>重置所有</td><td rowspan=1 colspan=1>帮助</td></tr><tr><td rowspan=2 colspan=1>细类（LOINC CLASS）</td><td rowspan=1 colspan=3>全部LOINC细类                                        T</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>模糊搜索</td></tr><tr><td rowspan=4 colspan=1>LOINC大类（LOINC CLASS TYPE）</td><td rowspan=1 colspan=3>1=实验室类型（Laboratory）</td><td rowspan=4 colspan=1></td></tr><tr><td rowspan=1 colspan=3>2=临床类型（C1inical）</td></tr><tr><td rowspan=1 colspan=3>3=信息附件类型（Claims Attachments）</td></tr><tr><td rowspan=1 colspan=3>4=调查问卷类型（Surveys）</td></tr><tr><td rowspan=1 colspan=1>搜索结果每页显示</td><td rowspan=1 colspan=3>10条记录</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>搜索结果排序字段</td><td rowspan=1 colspan=3>成分（受检成分：Component）             1</td><td rowspan=1 colspan=1>升序</td></tr></table>"
+  },
+  "2.6一体化医学术语系统(UMLS)": {
+    "context1": "UMLS融合了100多部医学分类表和词表，是美国国立医学图书馆(NLM)研究和开发的集成医学信息检索语言系统。2014年的最新版本囊括了来源于150 个术语集的约300万个概念[20]，通过语义种类来描述不同的概念，用语义关联来连接不同的概念类型,其它医学知识组织系统（比如,MeSH、SNOMED等)可以向这个语义网络进行交叉映射[21]。UMLS包括以下三部分[22]：",
+    "context2": "·元词表（Metathesaurus）：集合了来源于 ICD、LOINC、MeSH、RxNorm 和 SNOMED CT等分类表和术语集的所有编码和术语。",
+    "context3": "·语义网络(Semantic Network）：通过语义类型"
+  },
+  "及其关系进行语义控制。": {
+    "context1": "·专家词典（SPECIALIST Lexicon and LexicalTools)：主要用作自然语言处理。",
+    "context2": "其中元词表是生物医学概念、术语、词汇及其涵义、等级范畴的广泛集成，而语义网络则是为建立概念术语间错综复杂的关系而设计的，是为元词表中的所有概念提供语义类型及相互关系结构的工具。UMLS的语义网络不仅运用了常规的语义控制手段，如语义等级、属分、相关关系控制，而且在语义规范和语义关系分析、延伸等多方面有许多创新。",
+    "context3": "美国国立医学图书馆利用UMLS开发了不少医疗信息检索系统，其中PubMed利用超级叙词表实现了自由词转换与短语检索功能。UMLS目前支持的医学信息检索工具还有医学世界查询（MWSearch）与国际临床医学信息网(Cliniweb)。MWSearch 能利用超级叙词表追加同义词及下位词，Cliniweb采用规范化术语组织临床信息，可以在网络环境下用英文、法文、德文、俄文、葡萄牙文、西班牙文等6种语言进行检索[23]。"
+  },
+  "3国内医学信息检索语言应用成果介绍": {
+    "context1": "目前，国内医学信息检索语言、技术标准、规范和国外先进理论和应用方面相比还存在较大差距，关键在于要尽快建立和统一中国医学语言系统与标准规范。目前国内关于医学信息检索语言的应用成果主要有中国医学科学院医学信息研究所建设的中文一体化医学语言系统(CUMLS)、中文生物医学文献计算机辅助标引系统、中文医学主题词表(CMeSH)、临床医学知识库（CMKB）、中国生物医学文献服务系统（SinoMed)[24-27]和中国中医研究院中医药信息研究所建设的中医药一体化语言系统(TCMLS)[28]。"
+  },
+  "3.1中文一体化医学语言系统(CUMLS)": {
+    "context1": "CUMLS可进行医学文献内容的分类号和主题词的自动获取，以实现医学文献的计算机自动标引。对克服医学信息检索语言表达差异性和相关信息分散性给标引者和使用者带来的障碍，提高文献标引质量和检索效率等方面具有重要意义。该系统由医学词表系统、语义网络系统、医学用语与标引检索语言对应转换系统3个部分组成。",
+    "context2": "(1)医学词表系统：该系统来源于10余种生物医学词表、词典及分类表，收词量大、覆盖范围广，更新维护及时。",
+    "context3": "(2)语义网络系统：对医学词表系统的160多万词条进行概念、表达方式和语义规范，并建立反映相应关系的标准代码。",
+    "context4": "(3)医学用语与MeSH对应转换系统：将中国医学用语与MeSH的对应关系进行标示，建立医学用语一医学主题词对应数据库、关键词一副主题词对应库、关键词一特征词对应库、禁用词库、分类号对应库等多个数据库。"
+  },
+  "3.2中文生物医学文献计算机辅助标引系统": {
+    "context1": "1994年，在CUMLS建立的基础上，该系统是我国第一个投入实际应用的计算机辅助标引系统，包括分词、主题词标注、主题词加权、人工干预、主题词合法性检查、自动分类标引等环节，是一套基于计算机辅助标引技术的中国生物医学文献主题标引系统，大大提高了医学文献主题标引和分类标引的自动化处理效率和质量。"
+  },
+  "3.3中文医学主题词表(CMeSH)": {
+    "context1": "CMeSH是《医学主题词表》(MeSH)中译版，用于中文医学文献的标引、编目和检索。《中文科技资料目录》、《中国医学文摘》的主题索引，《中图法医学专业分类表》、《军用医学主题词表》和《中医药学主题词表》等都是在CMeSH的基础上编制的，其中《中医药学主题词表》保持了与CMeSH相同的词表体系等。2012版的 CMeSH 涵盖了《MeSH 2012中译版》、《中国中医药学主题词表》及《主题词 $\\longleftrightarrow$ 医学专业分类映射表》,是国内医学领域权威的主题分类一体化词表。"
+  },
+  "3.4临床医学知识库(CMKB）": {
+    "context1": "CMKB是一个在线知识服务系统，可帮助临床科研人员和临床医生快速、便捷地获取疾病诊断、治疗、用药等方面的临床医学知识，也可作为临床教学及临床诊疗的辅助参考工具。",
+    "context2": "CMKB设立了疾病库、药物库、检查库三个知识库，收录各类专科疾病知识2000多条、药物知识1500多条(涵盖了《国家药典》中西药目录和《国家基本药物目录》）、疾病检查知识500多条，知识条数呈动态增加；后续还会新增其他相关知识库，如症状库等。"
+  },
+  "3.5中国生物医学文献服务系统(SinoMed)": {
+    "context1": "SinoMed是在整合了中国生物医学文献数据库(CBM)、西文生物医学文献数据库(WBM)、协和医大博硕学位论文数据库等多种资源的基础上创建的。其中CBM是中国医学科学院医学信息研究所推出的大型生物医学文献专业数据库，收录了自1978年以来1600余种中国生物医学期刊约300万篇文献，采用规范化的CMeSH和《中医药学主题词表》进行主题标引，能全面、快速地反映国内外生物医学领域研究的新进展，功能强大。"
+  },
+  "3.6中医药一体化语言系统(TCMLS)": {
+    "context1": "TCMLS是由中国中医研究院主持，全国13个文献分中心参与于2002年研制而成。该系统以中医药学科为主导，其基础词库涵盖了中医药学科及与中医药学科相关联的生物、植物、化工等专业词汇，建立了中医药学语言系统的15大类体系结构和中医药学语义网络体系，其设计思路、结构与功能与UMLS相似，形成一个网状的信息表达结构。",
+    "context2": "除了上面提到的研究成果，国内对于引进、消化、吸收国际医学语言系统并将之本地化也做了一些探讨研究。李毅、庞景安在UMLS的基础上，建立了基于三层概念语义网络结构的中文医学信息语义标引体系和语义检索模型[29]；成福春等人通过对SNOMEDCT体系架构进行深入研究，对解决中医术语与SNOMEDCT的整合问题提出了独到见解[30]；张林、杨星等人提出了中文本地临床观测指标与LOINC标准术语对照的原则与方法，为实现我国医疗实验室及临床观测指标命名与编码的标准化进行了有益探索[31]。"
+  },
+  "4检索语言在临床医疗信息系统中的应用": {
+    "context1": "检索语言在医疗信息管理中的应用主要包括以下方面：电子病历、计算机化医嘱管理、重症监护、临床决策支持、电子处方、临床试验、疾病监测、医学影像检索、癌症登记、临床指南、医院数字化管理等，其中在以电子病历为核心的临床医疗信息系统中的应用最为普及。在电子病历的开发中，检索语言可以用来规范相关术语的设置及应用。因为在诊疗和护理中不少项目是预先定义好的，所以可以用规范化术语进行定义，以减少术语使用的随意性，避免因术语使用习惯的不同而造成的歧义。使用统一的规范化术语不仅使医疗信息管理过程更加高效，也使得电子病历系统的使用和维护变得更加规范和便利。有了标准化术语的支持，就能进行统计分析与数据挖掘，使得医护人员和数据管理人员可以更快捷地了解电子病历的使用情况、变异情况，使得智能决策成为可能。",
+    "context2": "规范化检索语言的应用影响到临床信息系统的方方面面，管理型用户可以利用检索语言创建和维护术语间的交叉映射，应用检索语言的层级结构和描述逻辑生成更精确和易于管理的决策支持规则，提高电子病历记录的完整性、准确性和一致性；分析型用户可以利用检索语言更便捷地编撰信息丰富准确的分析报告，促进临床信息文档的快速传递;终端用户可以利用检索语言迅速查找到专指的临床术语，通过规范术语的使用，改善临床医护人员和患者的交流[32]。",
+    "context3": "图4取自 SNOMEDCT技术安装手册，揭示了SNOMEDCT在电子病历和术语服务中的应用[33]。",
+    "context4": "![](images/a5b1b6da8e6458b035b5bc07355bdfc18ae30dd9e8b6a74c91aa4703d62cb078.jpg)  \n图4SNOMEDCT在电子病历与术语服务中的应用",
+    "context5": "综上所述，检索语言在医学文献检索和医学信息管理中位于数据处理的核心地位，是医学数据库和信息系统的语言保障，对医学信息管理的规范化起着举足轻重的作用。规范化医学术语的应用除了提高医疗信息记录的完整性、准确性和一致性以外，还可以通过其语义关系网络构建符合临床诊疗固有规律的概念分类框架体系，对医学知识体系进行较为合理的纵向切分，实现依据概念分类体系进行的概念逐级收录和显示，为基于标准化术语的知识组织和知识库的建立奠定基础，从而为用户提供系统的术语服务。"
+  },
+  "参考文献": {
+    "context1": "1金水高，刘丽华．加强公共卫生信息标准化建设，促进公共卫生信息广泛交换和共享[J]．中华预防医学杂志,2007,41(5)：339-341  \n2张琪玉.张琪玉情报语言学文集[M].北京：北京图书馆出版社，1999  \n3医疗信息系统不同层次技术标准及规范[EB/OL].［2014-11-13].http://blog.csdn.net/lc7404/article/details/9322573  \n4杨华后，李初民.正确理解和使用MeSH进行文献检索[J]．医院图书馆杂志，1995，4(4)：14-16  \n5医学主题词表[EB/OL].[2014-11-13].http://www.nlm.nih.gov/mesh/meshhome.html  \n6医学主题词表(MSH)评述[J]．情报检索,2001(8):64-66  \n7 CMS．http://www.cms.gov/Medicare/Coding/ICD10/index.html?redirect $=$ /icd10  \n8WHO.http://www.who.int/classifications/icd/factsheet/en/  \n9邹义壮，肖春玲，韩素欣．ICD-10在我国医疗和信息系统中的应用情况[J]．中国心理卫生杂志，2009(7)：507-508  \n10黄新霆．SNOMED Clinical Terms 的新进展[EB/OL]．[2014-11-13]. http://www.niha.org.cn/Information/show.php?itemid $= 4 6$   \n11李斌.SNOMED CT与OpenEHR 的整合探究[J]．医学信息学杂志，2012，V33(1):46-49  \n12 IHTSO．SNOMED CT Starter Guide[EB/OL].[2014-11-13].ht-tp://www.snomed.org/starterguide.pdf  \n13张林，赵英杰，陈兴.观测指标标识符逻辑命名与编码系统(LOINC)数据库介绍[J].河北省科学院学报，2004,21(4)：66-71  \n14 Regenstrief Institute，Inc．and the Logical Observation IdentifiersNames and Codes（LOINC）Committee．LOINC°Users’Guide- December 2014．https://loinc.org/downloads/files/LOINC-Manual . pdf  \n15 McDonald，Clement J.，et al.“LOINC,a universal standard foridentifying laboratory observations：a 5-year update.”Clinicalchemistry 49.4(2003):624-633  \n16 LOINC中文接口系统探索项目．http://www.cnehr.org.cn/",
+    "context2": "documents/gwyi/CLISOL/Search_Keywords.asp",
+    "context3": "17 HongY，Marcia LZ，Zhang J,Dimitroff A，Kahn CE Jr.Application of Standardized Biomedical Terminologies in Radiology Reporting Templates[J]．Information Services & Use，33（3- 4)：309-323，2013",
+    "context4": "18Kahn CE Jr.，Langlotz CP，Burnside ES，Carrino JA，ChanninDS,Hovsepian DM， Rubin DL. Toward best practices in radiolo-gy reporting.Radiology.2009；252(3):852-6  \n19 Hong Y，Zhang J,Heilbrun ME，Kahn CE Jr.Analysis of RadLexCoverage and Term Co-occurrence in Radiology Reporting Tem-plates[J]．Journal of Digital Imaging，25(1)：56-62，2012  \n20 U.S.National Library of Medicine[EB/OL]．[2014-11-13].http://www.nlm. nih.gov/research/umls/knowledge_sources/metathesau-rus/release/notes. html  \n21贺德方，乔晓东，朱礼军．国内外词系统发展趋势研究[J]．数字图书馆论坛，2008(6)：44-48  \n22U.S．National Library of Medicine[EB/OL]．[2014-11-13].ht-tp://www.nlm.nih. gov/research/umls/quickstart.html $\\sharp$ The_Three_UMLS_Tools  \n23 刘雁书，胡德华，张江华，等．一体化医学语言系统在搜索引擎中的应用研究[J].情报学报,2001,20(6):655-662  \n24胡铁军，李丹亚，诸文雁，等.统一的中国医学语言系统研究进展[J].中华医学图书馆杂志，2001,10(2)：1-3 19  \n25李军莲，李丹亚，钱庆，等.医学领域知识组织系统的发展及应用现状[J].医学信息学杂志，2008(11)：5-10  \n26 医学知识组织[EB/OL].http://www.imicams.ac.cn/webpag-es/research/6.htm  \n27李丹亚，胡铁军，李军莲，等.中文一体化语言系统的构建与应用[J].情报杂志，2011,30(2):147-151  \n28曾召，王小平.UMLS与中医药一体化语言系统的建立[J].中华医学图书情报杂志，2006，15(3)：1-3  \n29李毅，庞景安．基于多层次概念语义网络结构的中文医学信息语义标引体系和语义检索模型研究[J]．情报学报，2003,22(4):403-411  \n30成福春，刘华，房敏.基于SNOMED术语编码两节点之间多路径算法的实现及其对中医术语编码的意义[J．中国中医药图书情报杂志，2014，38(1)：9-13  \n31张林，杨星，洪军，等.本地核医学实验室检验项目与LOINC术语的对照[J].医学信息，2006，19(1)：11-14  \n32 Giannangelo，Kathy，and Susan H.Fenton.“SNOMED CT sur-vey：an assessment of implementation in EMR/EHR applica-tions.”Perspectives in health information management/AHIMA,American Health Information Management Association 5(2008)  \n33International Health Terminology Standards Development Organi-sation．SNOMED CT@ Technical Implementation Guide January2015 International Release (US English),2015",
+    "context5": "(收稿日期：2015-03-12)"
+  }
+}

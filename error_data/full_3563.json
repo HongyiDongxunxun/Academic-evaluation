@@ -1,0 +1,60 @@
+{
+  "original_filename": "full_3563.md",
+  "国外数据质量管理研究综述\\*Reviews of Foreign Studies on Data Quality Management": {
+    "context1": "宋敏²覃正",
+    "context2": "(1．西安交通大学管理学院西安710049；2．陕西省国家税务局西安710068)",
+    "context3": "摘要对国外近十年数据质量管理研究进行总结和评析，包括数据质量定义、质量维度识别、数据产品制造过程、质量测量和评估、数据质量管理体系等。在此基础上提出数据质量管理进一步的研究方向。",
+    "context4": "关键词数据产品数据质量质量管理质量管理体系数据产品制造过程",
+    "context5": "数据(data)是为反映客观世界而记录下来的可以鉴别的数字或符号，如数字、文字、图形、图像、声音等。随着信息技术应用的不断普及，信息系统中数据质量问题受到越来越多的关注，特别是统计、管理和计算机等领域。数据质量问题的研究，在统计领域始于1960 年代末期，管理领域始于1980 年代初，计算机领域始于1990年代初[1]。本文对国外近十年管理领域的数据质量研究进行总结和评述，并提出进一步的研究方向。"
+  },
+  "1数据质量的定义和维度": {
+    "context1": "从20 世纪50年代开始，人们从不同的角度定义质量[2～3]。基本上可以分为五种：基于消费者的，基于制造的，基于产品的，基于价值的，先验的。比较流行的定义有：质量是一组固有特性满足要求的程度[4]；质量是使用的适合性[5]；质量意指对要求的符合性[6]。",
+    "context2": "在许多文献中,数据质量DQ(Data Quality)与信息质量IQ(In\"formationQuality)两个术语通用，定义多种多样。文献[7]将数据质量定义为\"使用的适合性”，此定义的基础是当时全面质量管理中广泛接受的质量概念，因此关于数据质量的这个定义也被广泛接受。文献[8]将数据质量定义为\"一个信息系统表达的数据视图与客观世界同一数据的距离”。有些文献将DQ 直接定义为一组属性（特征),如正确性、适时性、完全性、一致性和相关性等。",
+    "context3": "采用文献[7]的定义，数据质量判断依赖于使用数据的个体，不同环境下不同人员的\"使用的适合性”不同，数据质量是相对的，不能独立于使用数据的消费者来评价数据质量[9]。因此，识别数据质量维度成为有价值的研究工作。数据质量维度是一组表达数据质量构成或者数据质量单一方面的数据质量属性[7]。",
+    "context4": "文献[7]采取二阶段调查方法识别出4类共15个数据质量维度。固有质量包括：正确性(没有错误)，客观性，可信性，声誉。可访问性质量包括：可访问性，访问安全。语境质量包括：相关性，增值性，及时性，全面性，数据量。表达质量包括：可解释性，易理解性,简明性，一致性。",
+    "context5": "文献[10]识别出6个Web数据数据特征共32个子特征。功能性特征包括：适宜性，正确性，互用性，灵活性，安全，可追溯性。可靠性特征包括：成熟度，可恢复性，可用性，可降解性，容错。效率特征包括：时间行为，资源行为。合用性特征包括：可理解性，可学习性，可操作性,乐趣,清晰性,帮助性,直率性，习俗化，用户友好。维护特征包括：可分析性，可改变性，稳定性，可测试性，可管理性，可复用性。可移植性特征包括：适应性，一致性，可替代性，可安装性。",
+    "context6": "文献[11]提出6个Web数据质量标准，包括：权威,正确性,客观性，流通，定位，导向。",
+    "context7": "文献[12]在文献[7]的基础上，采用调查方法得到Web 数据质量维度。固有质量指正确性和内容错误，包括：准确性，可用性，相关超级链接。语境质量指提供作者信息。表达质量包括：组织，视觉效果，版面特点，一致性，活泼有吸引力，内容混乱。可访问性质量指提供导航工具。",
+    "context8": "文献[13]以符号学为基础，建立4个符号学层次共11个质量维度。句法层次的维度是良好定义或者正规的句法。语义层次的维度包括：易理解，明确，有意味，恰当。语用层次的维度包括：适时，简明，易于访问，声誉好。社会层次的维度包括：获知，明白差异。每个维度都有具体的改进策略。",
+    "context9": "文献[14]给出3类共22个评估标准。主观类包括：可信性，简明表达，可解释性,相关性，声誉,可理解性,增值。客观类包括：完全性，客户支持，文档，客观性，价格，可靠性，安全，适时性，可验证性。过程类包括：精确性，数据量，可用性，表达一致性，等待时间，响应时间。对每个标准有特定的评估方法。",
+    "context10": "文献[15]识别出5类28个数据质量维度。人类工程学质量类维度包括：易于导航,舒适性，可学习性，视觉信号,音频信号。可访问性质量类维度包括：技术访问，系统可用性，技术安全，数据可访问性，数据共享，数据可转换性。处理质量类维度包括：可控性，容错，适应性，系统反馈，效率，响应。语境质量类维度包括：增值，相关性，适时性，完全性，适当的数据。表达质量类维度包括：可解释性，一致性，简明性，结构，可读性，对照。",
+    "context11": "文献[16]给出6个Web数据检索的质量度量，包括：流通，可用性，信噪比，权威，流行，内聚性。",
+    "context12": "文献[17]给出2种4类共16个Web数据质量维度，包括：理解,正确,清晰,适用,简明，一致,恰当,流通，方便,适时,可追溯,交互，可访问，安全，可维护，快捷。",
+    "context13": "文献[18]对包括上述9个数据质量维度方案在内的12个方案进行了分析和评述，12个方案中有3个是引用另外两个的成果。文献[19]对包括文献[18]的12个方案在内的13个方案进行分析和评述。",
+    "context14": "美国国家统计科学研究所(NISS)关于数据质量的研究表明[20].a·数据是产品。b.作为产品,数据有质量,这个质量来自产生数据的过程。c·数据质量原则上可以测量和改进。d·数据质量的重要性正在增加，但不平衡。e.在大学里，实质上不存在数据质量作为一个重要研究领域的认识。f.数据质量与环境有关。g·数据质量是多维度的。h·数据质量是多尺度的。i.人的因素是核心。",
+    "context15": "从上述数据质量维度方案可以看出，现有方案较多地涉及Web数据质量。尽管有些维度的重要性得到广泛认同，由于数据质量依赖使用数据的个体，无论是研究人员还是数据质量的从业人员都未对数据质量维度集形成共识。同一词汇在不同的维度方案中的语义不完全相同，这点在文献[18]和[19]对维度频次的统计差异可以看出。由于管理学强调环境和个体差异，作者认为没有必要(似乎也不可能)建立一套广泛接受的完整的数据质量维度。因此，在特定的背景中识别数据质量维度是有价值的。识别出来的数据质量维度得到认同的程度，依赖于识别的方法和过程。"
+  },
+  "2数据产品制造过程": {
+    "context1": "文献[21]和[22]利用信息系统环境和制造环境的相似性，建立起数据产品与物质产品的联系。原始数据对应原材料，数据加工对应材料加工,数据产品对应物质产品。这样,全面质量管理(TQM)的原则、方法、指南和技术就可以用于数据质量管理。在数据产品制造环境中有四种角色：数据提供者，数据生产者，数据消费者，数据管理者。",
+    "context2": "过程是一组将输入转化为输出的相互关联或相互作用的活动。过程方法和过程的系统方法是质量管理的基本原则[3]。确定数据质量相关的过程是质量管理的重要任务之一。由于数据是由信息系统加工的，计算机科学技术领域现有的信息系统建模方法可以用于数据质量相关过程的识别，如数据流图(DFD)、实体一关系(E一R)图和面向对象模型等。但是这些方法缺乏系统地描述数据制造过程的能力，同时缺乏用来清楚地表达制造细节的构件。因此，人们试图设计更加适合数据质量测量和改进的数据制造系统建模方法。",
+    "context3": "文献[23]给出的数据制造系统模型,通过建立表达数据单元和系统构件关联关系的数据制造系统分析矩阵，系统地追踪数据产品相关属性，这些属性的测量值可以用于数据制造系统的改进。",
+    "context4": "文献[24]给出一种称为IP一MAP(Information Product Map)的数据制造系统建模方法。 $1 \\mathrm { P } ^ { - } \\mathrm { M A P }$ 包括8种组装块：源(原始输入数据)块,消费者(输出)块，数据质量块，加工块，数据存储块，决策块，业务边界块，信息系统边界块。采用自顶向下的设计方法得到的 $1 \\mathrm { P } ^ { - } \\mathrm { M A P }$ 可以使数据管理者看见数据产品制造中的最重要环节，识别影响数据质量的关键环节，确认数据制造系统的瓶颈。IP一MAP 不仅能帮助识别过程拥有者，还能帮助实现质量的源头控制，在数据制造过程的不同阶段用适当的质量维度进行产品质量测量。",
+    "context5": "计算机科学技术领域的信息系统建模方法，主要目的是系统分析。文献[23]和[24]的模型主要针对投入运行后信息系统中数据质量管理问题。事实上，数据质量不仅依赖信息系统的运行维护，还依赖信息系统的分析、设计和实现。因此，开发适用于信息系统从分析设计到运行维护全过程的、适合数据质量管理的信息系统模型，不仅可以从整体上考虑信息系统开发的数据质量和运行的数据质量，还可以降低解决系统开发和运行过程中数据质量问题的总体成本。"
+  },
+  "3数据质量的测量和评估": {
+    "context1": "3.1数据质量要求数据质量要求是为使用户获得特定质量数据而需要附加在数据上或者在数据文档中列明的指标[25],它是检验质量的标准。文献[25]在几个基本概念的基础上，系统地论述了建立数据质量要求的方法和步骤。数据质量参数(简称质量参数)是用户评价数据质量定性的或者主观的维度，如来源可信、适时等。数据质量指标(简称质量指标)是提供数据客观信息的数据维度，如来源、创建时间、收集方式等。",
+    "context2": "建立数据质量要求的过程如图1所示，共4个步骤;a·建立应用视图。输入是应用需求，输出是应用视图。b·确定质量参数。输入是应用视图、应用质量要求和侯选质量属性,输出是参数视图（附加在应用视图上的质量参数)。c:确定质量指标。输入是参数视图,输出是质量视图(包含质量指标的应用视图)。d.质量视图集成和应用视图求精。输入是质量视图，输出是集成的质量计划。",
+    "context3": "![](images/3eab682c785c03a81113683628f6aa7acf5a9c1725e3e3356509498e2aaec4a0.jpg)  \n图1数据质量建模过程",
+    "context4": "3.2数据质量测量和评估文献[26]和[27]的数据质量评估方法称为AIMQ,它由3个部分组成。一是 $2 \\times 2$ 的PSP/IQ模型（见表1)。行决定于将数据看成产品还是服务，列决定于评估是依据正规的质量规范还是消费者期望，这样将文献[7]的15个质量维度中除增值性以外的维度，加上易操作性维度分成4类。二是IQA工具，是一套测量数据质量的调查问卷。三是质量差距分析技术。",
+    "context5": "表1 PSA/IQ模型",
+    "context6": "<table><tr><td></td><td>规格符合性</td><td>满足或者超过消费者期望</td></tr><tr><td>产品</td><td>完好的信息(没有错误，简 </td><td>有用的信息(数据量，可解释性，</td></tr><tr><td>质量 服务</td><td>明性，全面性，一致性)</td><td>易理解性，相关性，客观性) 可用的信息(可信性，可访问性，</td></tr><tr><td>质量</td><td>可靠的信息（及时性，安全 性)</td><td>易操作，声誉)</td></tr></table>",
+    "context7": "文献[28]提出一种在组织内部测量数据质量的方法。首先建立数据质量标准列表，标准分为直接评估标准和间接评估标准。直接评估标准的评估采用传统的软件测量方法，即问卷调查方式。而间接评估标准的分数由直接评估标准计算得到。",
+    "context8": "文献[29]采用面向评估的方法对Web数据质量标准进行分类。根据影响数据质量的用户、数据源和查询过程这三个主要因素，对应地将文献[14]中的22个质量维度分为主观标准、客观标准和过程标准。每个维度都有相应的评估方法。",
+    "context9": "文献[30]给出3种数据质量客观评价的算法(简单比率，最大一最小运算，加权平均),并描述了将客观评价和主观评价结合，在实际应用中改进数据质量的步骤。",
+    "context10": "文献[31]给出一个完整的数据质量评估体系。评估过程按照由选择模块、质量评估模块和简表(profile)模块构成的数据质量评估架构进行，将评估过程得到的数据质量值和用户类要求进行比较来判断质量是否符合要求。",
+    "context11": "文献[17]给出由4个步骤12个方面组成的Web 数据质量测量方法,16个质量维度都有各自的Web 指标和测量工具。",
+    "context12": "由于数据质量与背景和用户密切相关，现有的数据质量测量和评估都采取主观和客观相结合的方法。"
+  },
+  "4数据质量管理体系": {
+    "context1": "当利用信息系统环境和制造环境的相似性建立起数据产品与物质产品的联系后，全面质量管理(TQM)的原则、方法、指南和技术就可以用于数据质量管理。国际标准化组织的ISO9000系列标准(2000 年版包括ISO 9000、ISO 9001和ISO 9004)是世界范围内广泛接受的质量管理标准体系，数据质量管理体系研究也基本继承ISO 9000 系列标准的框架,如文献[21]、[22]和[32]的研究。",
+    "context2": "文献[33]引入评估组织数据质量管理能力的数据质量管理成熟度模型，该模型与软件能力成熟度模型相似,分为4个等级：一级为初始数据管理级；二级为已定义数据管理级；三级为已管理数据管理级;四级为优化数据管理级。"
+  },
+  "5结束语": {
+    "context1": "经过20多年的历程，数据质量管理研究取得了比较系统的研究成果。特别是麻省理工学院的全面数据质量管理(TDQM)研究自成一体，从1990 年开始发表了数十篇论文，出版专著5部。",
+    "context2": "无论是将数据质量定义为数据\"使用的适合性”，还是根据ISO9000 的版本升级引起质量定义的变化，而定义为\"一组固有特性满足要求的程度”，由于环境和个体的差异，在特定的背景中识别数据质量维度是有价值的研究工作。",
+    "context3": "为从整体上考虑信息系统开发的数据质量和运行的数据质量，降低解决系统开发和运行过程中数据质量问题的总体成本，开发适用于信息系统从分析设计到运行维护全过程的、适合数据质量管理的信息系统模型也值得进一步研究。"
+  },
+  "参考文献": {
+    "context1": "1Scannapieco M,T Catarci· Data Quality under the Computer Science Perspec tive·Archivi& Computer,2002;(2)   \n2Center for Innovation in Engineering Education at Vanderbilt University What is Quality:Definitions and Contrasts· http://mot vuse·vanderbilt $\\mathrm { e d u } / \\mathrm { m t } 3 2 2 /$ Whatis·htm,2006—10—10   \n3 Qualitydigest·Quality:How Do You Define it· http://www·qualitydigest·com/ html/qualitydef ·html,2006-10—10   \n4 GB/T19000－2000(ISO 9000.2000)质量管理体系—基础和术语   \n5 Juran JM,A B Godfrey·Juran’s Quality Handbook(5th edition).New York; McGraw-Hill,1999   \n6 Crosby PB.Quality is Free;The Art of Making Quality Certain·New York; McGraw-Hill,1988   \n7 Wang R Y,D M Strong·Beyond Accuracy:What Data Quality Means to Data Consumers·Journal of Management Information Systems,l996 ;(4)   \n8Orr K· Data Quality and System Theory·Communications of the ACM,1998; (2)   \n9 Strong D,Y Lee,R Y Wang·Data Quality in Context·Communications of the ACM,1997; (5)   \n1UZeist RHJ,PRHHendriksSpeifying Software Qualitywiththe Extended ISO Model·Software Quality Journal,1996;(4)   \n11AlexanderJE,MA Tate.Web Wisdom:Howto Evaluateand CreateInfoma tion on the Web· Mahwah·NJ;Erlbaum,1999   \n12Katerattanakul P,K Siau· Measuring Information Quality of Web Sites; Devel opment of an Instrument·In;Proceedingsof the 2Oth International Conference on Information Systems·Charlote,North Carolina,USA,1999   \n13Shanks GCobit: UnderstaningDta QualitySocialdCuluaAspt In:Proceedings of the 1Oth Australasian Conference on Information Systems, 1999   \n14Naumann F,C Rolker·Assessment Methods for Information Quality Criteria· In;Proceedings of 5th International Conferenceon Information Quality,2000   \n15Dedeke A·AConceptualFrameworkforDeveloping QualityMeasureforIfor mation Systems·In:Proceedings of the 5th International Conference on Infor mation Quality,2000   \n16Zhu X,SGauch·Incorporating Quality Metrics in Centralized/Distributed In\" formation Retrieval on the World Wide Web·In:Proceedings of the 23rd Annual International ACM SIGIR Conference on Research and Development in Information Retrieval,Athens,Greece,2000   \n17Eppler M,P Muenzenmayer.Measuring Information Quality in the Web Context:A Survey of State of-the art Instruments and an Application Methodology·In:Proceedings of the 7th International Conference on Information Quality,2002   \n18Knight S,J Burr $1 \\cdot$ Developing aFrameworkforAessigInformation Quality on the World Wide Web·Informing Science Journal,205;(8)   \n19ParkerMB,VMolesheRDela Harpe,etal.AnEvaluationofInforation Quality Frameworks for the World Wide Web·In:Proceedings of 8th Annual Conference on WWW Applications·Bloemfontein,Free State Province,South Africa,2006   \n2OAlan FK,AP Sanil,JSacks,et al· Workshop Report:Afiliates Workshop on Data Quality·North Carolina;NISS,March,2001   \n21Wang RY,VStoreyCFirth·AFramework for AnalysisofData QualityResearch·IEEE Transactions on Knowledge and Data Enginering,1995;(4)   \n22Wang RY·A Produet PerspectiveonTotal Data Quality Management·Com munications of the ACM,1998;(2)   \n23Ballu DP,RYWang,HPazeret al.Modeling Information Manufacturing Systems to Determine Information Product Quality.Management Science, 1998;(4)   \n24Shankar G,RY Wang,M Ziad·IP-MAP:Representing the Manufacture of an InformationProduct· In:Proceedings of the2OOO InternationalConferenceon Information Quality. 2000   \n25Wang RY,HKon,S Madnick·Data Quality Requirements Analysis and Modeling·In;Proceedings of the Ninth International Conference of Data Engineer ing.1993   \n26Wang RY,DMStrong,B KKahnetal.AnInforationQualityAsesmnt Methodology·In: Proceedings of the International Conference on Information Quality·Cambridge,MA,1999   \n27Yang L,D M Strong,B K Kahn,et al·AIMQ:a Methodology for Information Quality Assessment·Information&Management,02;(2)   \n28BobrowskiM,M Marre,DYankelevich·A Homogeneous Framework to Mea sure Data Quality.In:Proceedings of the International Conference on Information Quality·Cambridge,MA,1999   \n29NaumannF,CRolker·Asessment MethodsforInformation Qualityriteria In;Proceedings of 5th International Conference on Information Quality.2000   \n30PipinoL,YLee,RYWang·Data QualityAssessmen $_ { \\mathrm { ~ , ~ } }$ Communications of the ACM,2002;(5)   \n31CappiellCrQulie Perspective·In;Proceedings of IQIs 'O4 in Conjunction with the $2 3 \\mathrm { { r d } }$ ACM SIGMOD International Conference on Management of Data·Paris,2004   \n32Wang R,Tlln, Waris,etalAnInfoation Produt ApproacfrTotal Information Awarenes: In;Proceedings of IEEE Aerospace Conference.2003   \n3Ryu K S,JSPark,JHPark·AData QualityManagement MaturityModel. ETRI Journal,2006;(2) (责编：愚加勃)"
+  }
+}

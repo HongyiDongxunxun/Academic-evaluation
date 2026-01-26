@@ -1,0 +1,85 @@
+{
+  "original_filename": "full_8812.md",
+  "网络产品评论细粒度意见挖掘研究综述": {
+    "context1": "颜端武江蕊杨雄飞鞠宁（南京理工大学经济管理学院信息管理系，江苏南京210094)",
+    "context2": "（摘要）旧的/意义]针对网络产品评论细粒度意见挖掘的研究进展进行分析和总结，在明确其主要任务的基础上，探讨涉及的关键技术、研究成果以及未来发展趋势，为该领域研究未来的发展提供建议。[方法/过程本文主要采用文献综述的方法，对国内外相关研究进展进行分析和归纳，由粗粒度意见挖掘引申到细粒度意见挖掘，在明确细粒度意见挖掘主要任务的基础上，重点针对其关键技术和研究进展进行总结。结果/结论本文明确了网络产品评论细粒度意见挖掘的主要任务，包括主客观句分类、评价要素抽取和情感极性计算，总结了各个任务涉及的关键技术。",
+    "context3": "（关键词）细粒度意见挖掘；主客观分类；评价要素抽取；情感计算；综述",
+    "context4": "DOI: 10.3969/j.issn.1008-0821.2018.07.023",
+    "context5": "（中图分类号）TP18；F713.36（文献标识码）A（文章编号）1008-0821（2018）07-0165-06"
+  },
+  "A Review of Fine-grained Opinion Mining for Online Product Reviews": {
+    "context1": "Yan Duanwu Jiang RuiYang Xiongfei Ju Ning (Department of Information Management，School of Economics and Management, Nanjing University of Science and Technology，Nanjing 210094，China)",
+    "context2": "(Abstract]Purpose/Significance]This paper analyzed and summarized the research progressof fine-grained opinion mining foronline product reviews.Based on clarifying the main tasks，this paper discused the key technologies，research statusand development trendsoffine-grainedopinion mining，soas to providesuggestions forfuture research inthis field.Method/Process]This paper mainlyadopted the methodof literature review.Itanalyzed and discussed therelevant research work at home and abroad，extending from coarse-grainedopinion mining to fine-grainedopinion mining.On the basis of defining the main task offine-grainedopinion mining，this paper focusedonitskeytechnologiesand currnt studies．Result/ConclusionlThis paper defined the main tasks offine-grained opinion mining foronline product reviews，includingsubjectiveandobjective sentence clasification，evaluation elements extraction andemotional polaritycalculation, and summarized the key technologies involved in each task.",
+    "context3": "(Key words）fine-grained opinion mining; subjective and objective classification； evaluation elements extraction; emotional calculation； review",
+    "context4": "府部门实时把握舆论态势，必要时可及时采取有效措施，避免口碑危机发生。",
+    "context5": "互联网的快速发展推动着人类交流方式的变革，人们越来越热衷于在网络媒介上发表、交流和传播关乎社会、政治、经济、文化等不同层面事件的看法，网络已成为人们发表口碑信息的主阵地。同时，这些口碑信息中往往蕴含着丰富的个人情感，对其进行监测分析有助于企业或政",
+    "context6": "意见挖掘技术的发展可为网络口碑的监测分析提供有效技术支撑，近年来得到了较多关注。所谓意见挖掘（O-pinionMining）又可称为情感分析，是对人们针对诸如产品服务、组织、个体、事件、主题等实体的观点、情绪、态度等做出有效地挖掘和分析，然后进一步对挖掘出来的信息进行归纳和推理的一类技术。意见挖掘主要采用自然语言处理、文本分析和情感计算等相关技术对互联网中海量的产品评论、微博、博客和论坛帖子等文本进行意见抽取或情感分类，总的说来，意见挖掘属于文本挖掘的一个细分研究领域[ 。",
+    "context7": "目前，基于处理文本粒度的不同，意见挖掘可分为篇章级、句子级、短语级等研究层次，而按照分析粒度的不同，可将意见挖掘分为粗粒度意见挖掘和细粒度意见挖掘。粗粒度意见挖掘一般从整体上来判断文本的情感极性，而细粒度意见挖掘则深入到产品特征层面，能够提取到评价信息中涉及的评价对象、评价词以及对应的评价倾向等意见要素。一般情况下，篇章级和句子级的意见挖掘属于粗粒度的意见挖掘，但在大数据时代背景下，这种整体情感倾向性的分析已经满足不了人们的需求，尤其对于企业和消费者来说，他们开始追求更加细致和精准的分析挖掘。企业希望从评论中获取自身产品服务在具体特征或属性上的口碑信息，帮助进行针对性的改善或提高，从而为消费者提供更加满意的产品和服务，进一步巩固自身在行业中的竞争地位，也能避免口碑危机的发生。消费者则希望从评论中获取符合自身个性化要求的相关产品或服务信息，进而做出购买决策。细粒度的意见挖掘相比而言更加能够满足企业和消费者的现实需求，有效帮助他们减轻信息过载和认知成本等问题，因此在近年来得到了学者们的广泛关注。本文的研究流程如图1所示：",
+    "context8": "![](images/1901b8b7f8aa9af27f86021a3833ae7e53b1a6d7e6ad87462eff49764d5878ac.jpg)  \n图1研究流程图"
+  },
+  "1文献来源及分布": {
+    "context1": "为了从整体上了解产品评论细粒度意见挖掘研究的发展情况，本文以“细粒度意见挖掘’、“细粒度情感分析”以及“产品评论挖掘’、“产品评论分析”为关键词在中国知网上进行相关中文文献的检索，分别检索到相关文献75篇和 558 篇；相应的以“Fine-grained Opinion Mining”、“Fine-grained Sentiment Analysis”以及“Product ReviewsMining”、“Product Reviews Analysis”为关键词在Web ofScience上进行相关外文文献的检索，分别检索到相关文献213 篇和804篇。根据中外相关文献的年代分布对比（见图1）可以看出，产品评论挖掘、细粒度意见挖掘在近年来逐步成为研究热点，国内外的相关文献数量都有着较快增长，其中国外相关研究的开展起步较早，研究成果也较国内更为丰富。总的来说，该领域研究有着较好的发展前景，尤其在大数据时代愈加受到国内外学者的关注。",
+    "context2": "![](images/161190c2d47ded32ffd2eb1a915d5741668765b146dce3c01ddfe1c56c691d6d.jpg)  \n图2中外相关文献年代分布"
+  },
+  "2相关研究进展": "",
+  "2.1意见挖掘": {
+    "context1": "意见挖掘往往又被称为情感分析，而在实际过程中意见挖掘是在评价要素抽取的基础上再进一步进行情感分析，因此从严格意义上来讲，情感分析应属于意见挖掘的组成内容。总的来说，意见挖掘主要是运用自然语言处理、信息抽取、数据挖掘等技术方法对目标文本信息进行主客观分析以及进一步对主观性文本进行情感分析，从而帮助抽取出文本信息中有价值的意见信息或知识。从文本粒度出发，意见挖掘任务可划分为篇章级、句子级以及短语级，而根据挖掘范围和程度的不同，总体上可以分为粗粒度意见挖掘和细粒度意见挖掘。从挖掘任务来看，产品评论细粒度意见挖掘主要涉及主客观分类、主题识别、意见评价者识别、情感倾向性分析等方面。",
+    "context2": "意见挖掘简言之就是从评论信息中抽取出有价值的意见信息，本质上属于信息抽取的范畴，目前国内外学者关于意见挖掘已经开展了一系列研究。国外学者中，Pak等通过建立情感分类模型，从整体上分析Twitter用户的评论语料的情感倾向，从而获得用户针对产品或服务的意见态度和情感倾向。Taboada等提出了一种基于词典的方法从文本中提取情感，利用SO-CAL模型进行情感极性分类。 $\\mathrm { H u }$ 等运用关联规则技术抽取出评论信息中高频出现的名词和名词性短语并进一步进行冗余过滤，进而识别出语料中受到广泛关注的评论对象及其属性。Somprasertsri等结合句法特征和语义信息，根据句子成分间的依存关系设计了5种抽取模板帮助提取出产品评论中的评价特征和观点词对。国内学者中，潘艳茜等基于SVM模型提出一种结合微博和汽车评论语料的分类方法，以解决微博中用户观点句和非观点句不平衡的问题。祝振媛基于特征词向量空间和关键词提取，构建形成一套基于信息分类的英文网络书评内容挖掘方法体系。根据对已有研究成果的总结可以发现，意见挖掘的研究呈现出从传统的粗粒度意见挖掘向细粒度意见挖掘发展转变的趋势。",
+    "context3": "在大数据背景下，意见挖掘技术的发展顺应了时代对海量数据价值挖掘的需求，因此吸引了大量的研究者对其展开研究。同时，意见挖掘研究也开始逐步面向电商平台建设、网络舆情监测、网络口碑分析、竞争情报分析以及新产品市场预测等相关领域，旨在帮助企业了解消费者的喜爱偏好、改善企业经营模式以及提高自身产品和服务水平，同时也为消费者做出购买决策提供有效的参考。"
+  },
+  "2.2粗粒度意见挖掘": {
+    "context1": "粗粒度意见挖掘主要是对文本进行整体的情感倾向性分类，即首先判断出文本是否具有倾向性，再对具有倾向性的文本进行极性分类，一般分为正面和负面，或者是褒义、中性和贬义等。国内外学者分别从不同角度开展了一些具体的研究。国外研究中， $\\mathrm { Y } _ { \\mathrm { u } }$ 等提出了一个贝叶斯分类器用于新闻评论的正负面观点分类，实验证明其分类性能非常高，精确度和召回率高达 $9 7 \\%$ [id。Jiang等运用五折交叉验证的方法对推文进行主客观分类，然后扩展情感词典对主观推文进行情感分类，取得了较好的实验结果[。国内研究中，丁晟春等借助SVM模型，使用句式特征、句内特征和隐性特征对中文微博文本进行主客观识别和情感倾向性分析，并通过实验证明了所提方法的可行性和有效性[。李本阳等将篇章级的情感倾向性分析划分成两层，在分析过程中引入句子级的情感倾向性分析，利用交叉验证进一步构建了单层标注级联模型[。",
+    "context2": "在粗粒度意见挖掘相关研究中可以发现，很多研究者尝试将文本分类器应用到文本的情感分类上，但实际分类效果存在一定的差异，同时分类器的分类性能除了与分类特征的选择有关，与领域文本特征也有很大关系。"
+  },
+  "2.3细粒度意见挖掘": {
+    "context1": "粗粒度的意见挖掘只能从整体上判断文本的情感倾向性，而不能深入挖掘用户对于具体评论对象及其相关属性的情感态度。以产品为例，产品往往存在不同的特征属性，消费者对其整体的情感倾向不能代表消费者对其局部特征属性方面也持有相同的情感倾向，同时消费者在对产品进行评价或进行同类型产品对比时，往往会从具体的产品特征及属性的角度发表观点意见。不管是消费者还是企业都希望在了解产品的整体情感倾向的同时，对于自身所关注的产品特征的情感倾向也能有所掌握。基于这样的现实需求，细粒度意见挖掘成为意见挖掘领域的新热点，并且主要应用于企业产品或服务评论的分析挖掘。",
+    "context2": "细粒度意见挖掘在粗粒度意见挖掘的基础上进一步深入，具体到产品的特征层面，运用信息抽取技术抽取出评论文本中的评论主体、评价特征、评价词以及文本情感倾向等意见要素，为现实应用提供有价值的细节信息。目前，面向产品评论的细粒度意见挖掘主要涉及产品特征抽取、评价词识别、评价特征与评价词搭配抽取、情感计算等方面研究内容。随着细粒度意见挖掘研究的兴起，国内外学者从不同的角度出发开展了各自的研究工作，取得了一定的研究成果，下文将从主要任务和关键技术两个方面对相关研究成果分别进行总结。"
+  },
+  "3细粒度意见挖掘的主要任务和关键技术": "",
+  "3.1细粒度意见挖掘的主要任务": {
+    "context1": "Medhat等认为基于产品评论的细粒度意见挖掘具体包括4个步骤，分别是情感识别、产品属性选择、情感分类和情感极性识别，从而总结出细粒度意见挖掘的主要任务是特征识别和情感分类[4。徐冰等指出细粒度意见挖掘的主要任务是分析提取情感倾向以及与之相关联的各要素，包括评价对象、倾向极性和强度等[。万琪等指出评价对象识别，抽取情感的表达、观点持有者等是细粒度意见挖掘的主要任务[d。",
+    "context2": "通常情况下，细粒度意见挖掘实际分为3个步骤进行：$\\textcircled{1}$ 评论文本的主客观分类； $\\textcircled{2}$ 评论对象的特征或属性及对应情感词的识别； $\\textcircled{3}$ 评论对象特征或属性的情感极性分类，即依据事先定义的情感词的极性值进行情感倾向分类，例如分类为正向极性或负向极性。因此，细粒度意见挖掘的主要任务可以具体总结为： $\\textcircled{1}$ 文本的主客观分类； $\\textcircled{2}$ 评价对象、评价词及两者间搭配等评价要素的抽取； $\\textcircled{3}$ 面向评价对象的情感极性计算这3个方面。其中，评价要素的抽取是细粒度意见挖掘的关键任务。"
+  },
+  "3.2细粒度意见挖掘的关键技术": "",
+  "3.2.1主客观分类": {
+    "context1": "网络文本可分为主观性文本和客观性文本，其中客观性文本只是针对评论对象的客观性描述，往往不带有感情色彩，而主观性文本是对评论对象的意见观点的集合，带有个人的主观情感[。换句话说，主观性文本是真正意义上的评论句，也是意见挖掘的主要对象，因此，在对文本进行意见挖掘时，首先需要对评论文本进行主客观分类，即识别出其中的主观性文本，从而帮助缩小范围，减少干扰。",
+    "context2": "主客观分类的主要目的是帮助提高评价要素抽取的效率和准确性，为此，国内外学者尝试不同的方法实现评论文本的主客观分类。Toprak等人基于词语特征、词性特征以及词典信息特征（主要是情感词典)，利用SVM分类器实现基于监督学习模型的文本主观性分类，实验发现词典信息特征能够显著帮助提高分类任务的召回率[。Lambov等人在构建跨领域的分类模型时，提出和评估了一种融合高层次特征（如情感词的极性强度）和低层次特征（如TF-IDF信息）的协同训练方法，其实验结果的精度水平达到了 $8 6 , 4 \\%$ ，表明了该方法能够显著提高主观分类的准确率[2。对于中文文本的主客观分类问题，郭云龙等人根据构建的词语字典与词性字典，分析支持向量机、朴素贝叶斯、K最近邻等分类模型，并利用证据理论结合多分类器对中文微博的观点句进行识别[2。张博等人基于 SVM分类器对中文句子主客观分类的特征选择进行了研究，提出了情感词、指示性动词、指示性副词、语气词及语气标点符号等语义层面的特征，还对N-POS、N-Gram等语法层面的特征加以探讨，通过选择不同的特征维数，找到了使性能达到最优的特征组合形式，最终达到了令人满意的分类结果。",
+    "context3": "总的来说，主客观文本的分类目前主要是以情感词为主，结合文本类型和文本特征表示方法加以实现，如何从更深层次的角度选取评论文本特征以帮助提高分类的准确性是众多学者正在寻求突破的地方。"
+  },
+  "3.2.2评价要素抽取": "",
+  "1）评价特征的识别": {
+    "context1": "评价特征的识别往往也被称为评价对象的抽取。国外学者中， $\\mathrm { H u }$ 等根据评价特征往往以高频词或短语的形式出现的规律，采用基于关联规则的挖掘方法识别出评论句中的评价特征。Goldensohn等运用基于统计和规则的方法帮助识别餐馆、酒店等服务评论语料中的评价特征。Qiu等采用双向传播的方法进行观点词扩充和评价特征的识别2。一些研究者还将主题计算模型引入到意见挖掘研究中。Titov等利用LDA模型获取到产品特征，在此基础上对相似的特征进行主题聚合。Zhai等提出了带约束的LDA 模型来实现商品特征抽取及分组[2。彭云等根据产品评论词语间的语义关系，提出语义关系约束的主题模型",
+    "context2": "SRC-LDA，以发现细粒度特征词、情感词及之间的语义关联性2。游贵荣等使用词性路径匹配模板检测评论中的评价句，并加入自定义评价词词典进行评价特征识别工作。王荣洋等则基于CRFs模型提出了一种面向产品评论的评价特征识别方法2。",
+    "context3": "已有研究中进行评价特征识别的方法主要有基于频率、基于模板规则、基于图论、基于条件随机场、基于深度学习等诸多方法。其中，基于频率的方法较为常见，但只能抽取频繁出现的评价特征，对于非频繁出现的评价对象还需要采取其他技术手段；基于规则模板的方法无需大量标注语料且算法时间复杂度低，但受限于句法分析器的性能而表现差强人意；基于图论的方法假设评价特征为名词或名词性短语和评价词为形容词，利用评价特征和评价词的共现强化来实现两者的联合抽取，但在句子中无形容词性的评价词的情况下存在一定的问题；基于条件随机场的方法可以较为精确地抽取出评价特征，但是该方法需要大量的训练集，对语料标注的质量要求也比较高；基于深度学习的方法近年来深受欢迎，其避免了大量特征方面的工程工作，能在一定程度上从语义角度分析评价对象，但是在实际研究中面临模型训练时间复杂度高和领域迁移困难等问题。"
+  },
+  "2）评价词的识别": {
+    "context1": "评价词即评论中带有观点色彩的词，部分研究者也将其称为情感词。目前大部分研究都采用基于词典的方法和基于语料库的方法进行评价词的识别。基于词典的方法常通过计算候选词与情感种子集中的情感词的关联度来进行评价词识别，如国外Kim等通过构建种子词语，使用WordNet计算新词的情感倾向性3，国内朱嫣岚等利用HowNet对中文词汇语义的倾向性进行计算。Turmey等基于评论语料库，通过点互信息方法计算出候选词与种子词在语料库中的PMI值，进而分析出候选词的倾向性。王振宇等则将情感词典和语料库两种方法相结合，用以计算出新词的倾向性",
+    "context2": "总体来看，目前评价词识别技术的效果取决于情感词典和语料库的词汇收录规模和情感标注质量，因此存在很大的局限性，尤其是在进行领域迁移时面临很大的问题。部分研究者开始尝试从句子本身出发，通过分析句子成分间的依赖关系和词性特征识别出评价词，如王娟等从评价词的词性出发，找出其在句子中可能的句法位置，利用评价词与其他句子成分间的依存关系制定了一系列抽取规则，帮助识别出评价词4"
+  },
+  "3）评价对象与评价词的搭配抽取": {
+    "context1": "过往的评价对象与评价词搭配的抽取常采用基于窗口的方法，以评价对象或者评价词为中心，在特定范围查找识别出相应的评价词或评价对象，进而实现两者搭配的抽取。目前，部分研究者尝试通过其他方法来实现对评价搭配的抽取工作。国外研究中，Lakkaraju等利用机器学习并结合依存句法分析，使用HMM模型实现评价搭配的抽取。Feng等基于人工标注评价对象和评价词，然后根据句法分析制定句法规则并根据规则抽取评价搭配。Som-prasertsri等在句法及语义分析基础上提出基于依存关系模板的评价搭配抽取方法。国内研究中，郭冲等则利用情感本体树和先验知识模板匹配算法帮助识别出评论句中的评价搭配。方明等采用基于最大熵模型的方法实现对酒店评论文本中的评价搭配抽取[。",
+    "context2": "传统的评价搭配抽取方法对于一些句式表达较为复杂或特殊的句子难以保证抽取的准确率，借助依存句法分析，根据句子成分间的语义依赖关系进行评价搭配的抽取能够进一步提高抽取结果的准确率，因此在近年来得到了较多研究者的关注。"
+  },
+  "3.2.3情感极性计算": {
+    "context1": "早期的评论情感计算主要实现情感倾向的定性判断，即识别出评论句的感情色彩是正面还是负面，或者是褒义、贬义还是中性，一般常采用分类器实现文本的倾向分类。后来部分研究者又进一步尝试在定性判断的基础上实现定量计算，即计算出情感倾向的强度值，如用[1,1]区间内的值来表示强度值大小。目前，国内外学者在不同方面上都取得了一定的研究成果。国外研究中，Wang等基于无监督的学习方法，利用EM算法和朴素贝叶斯分类器优化进行文本倾向分类，实验结果表明分类正确率较高。Socher等提出基于递归自动编码的半监督情感句分析模型，构建短语树并提取短语节点特征预测句子情感极性[。国内研究中，万常选等认为影响句子情感倾向值的词性包括形容词、动词、副词和名词，其通过分析句子成分间的不同依存关系对句子情感值的影响，设计了6种情感计算的规则，结合实验证明了规则的有效性[4。王中卿等则设计开发了一种用于抽取中文观点句和识别情感极性的系统一Suda_SAM_OMS系统，取得不错的效果4]。",
+    "context2": "总的说来，情感计算的研究由最初的定性判断逐步向定量计算发展，不再局限于情感倾向的二分类，即正面和负面，开始尝试更细粒度的极性值计算。一方面，研究者们在构建情感词典时尝试赋予情感词一个量化的情感值，对于影响情感值的副词、否定词等赋予相应的影响因子;另一方面，根据句子成分的依存关系等特征设计具体计算规则，得到具体的情感强度数值。"
+  },
+  "4总结和展望": {
+    "context1": "本文围绕网络产品评论细粒度意见挖掘这一主题对国内外研究成果进行了研究综述。首先，对意见挖掘的基础理论进行介绍，包括基本概念、主要内容及分类，并按照粒度层次，对粗粒度意见挖掘和细粒度意见挖掘的研究现状分别进行论述；在此基础上，着重针对细粒度意见挖掘的主要任务和关键技术方法进行研究梳理。通过对已有研究成果的总结可以发现，细粒度意见挖掘作为网络产品评论挖掘的重要发展方向，已经受到来自情报学、计算机科学、管理学等不同背景学者越来越多的研究关注。",
+    "context2": "目前，国内外学者在网络产品评论细粒度意见挖掘方面已经取得相当不错的研究成果。但是，由于自然语言的复杂性、文字表述的多样性和灵活性，如何提升细粒度意见挖掘的性能是目前该领域研究面临的重要问题。从研究发展趋势来看，如何将多来源的、异构同性的产品评论进行汇聚和对比，结合细粒度意见挖掘开展比较意见挖掘研究，以帮助企业和消费者更好的进行市场和购物决策，是目前值得进一步研究的课题；在技术应用方面，目前的研究大多以方法模型和实验研究为主，加快实施和大力推进网络产品评论细粒度意见挖掘在口碑监测、市场分析、客户服务等方面的实际应用，无疑具有重要现实意义。"
+  },
+  "参考文献": {
+    "context1": "[]EDM Hussein.A Survey on Sentiment Analysis Challenges[EB/O1].Journal of King Saud University-Engineering Sciences，ht-tp://dx.doi.org/10.1016/j.jksues，2017-10-15.  \n[2] 李纲，程洋洋，寇广增.句子情感分析及其关键问题．图书情报工作，2010，54（11)：104-107.  \nB] 郭冲，王振宇．面向细粒度意见挖掘的情感本体树及自动构建．中文信息学报，2013，27（5)：75-83.  \nPak A，Paroubek P.Twiter as a Corpus for Sentiment Analysisand Opinion Mining [// Proceedings of the International Con-ference on Language Resources and Evaluation.Valleta，2010:1320-1326.  \nβ]Taboada M，Brooke J，Tofiloski M，et al.Lexicon-based Meth-ods for Sentiment Analysis[．Computational Linguistics，2011,37 (2): 267-307.  \n[]Hu M Q，Liu B. Mining and Summarizing Customer Reviews[//Proceedings of ACM SIGKDD International Conference onKnowledge Discovery and Data Mining.Seatle，2004:168-177.  \nSomprasertsri G，Lalitrojwong P. Mining Feature-Opinion in On-line Customer Reviews for Opinion Summarization[．Journal ofUniversal Computer Science，2010，16(6)：938-955.  \n8 潘艳茜，姚天防．微博汽车领域中用户观点句识别方法的研究[．中文信息学报，2014，28（5)：148-154.  \n祝振媛.基于信息分类的网络书评内容挖掘与整合研究[．图书情报工作，2016，60（1)：114-124.  \n[10]Yu H，Hatzivassiloglou V.Towards Answering Opinion Ques-tions:Separating Facts from Opinions and Identifying the Polarityof Opinion Sentences[C]// Proceedings of the Conference onEmpirical Methods in Natural Language Processing.Sapporo,2003:129-136.  \n[]Jiang L，Yu M，Zhao M，et al. Target-dependent Twitter Senti-ment Classification[// Proceedings of the 49th Annual Meet-ing of the Association for Computational Linguistics:Human Lan-guage Technologies.USA，2011:151-160.  \n[12]丁晟春，吴靓婵媛，李红梅．基于 SVM的中文微博观点倾向性识别[．情报学报，2016，35（12)：1235-1243.  \n[13]李本阳，关毅，董喜双，等．基于单层标注级联模型的篇章情感倾向分析[．中文信息学报，2012，26（4)：3-8.  \n[14]Medhat W，Hassan A，Korashy H. Sentiment Analysis Algo-rithms and Applications:A Survey．Ain Shams EngineeringJournal，2014，5（4)：1093-1113.  \n[15]徐冰，赵铁军，王山雨，等．基于浅层句法特征的评价对象抽取研究[．自动化学报，2011，37（10)：1241-1247.  \n[6]万琪，于中华，陈黎，等．利用新词探测提高中文微博的情感表达抽取[．中国科学技术大学学报，2017，47（1)：63-69.  \n[17]Schouten K，Frasincar F. Survey on Aspect-Level Sentiment A-nalysis[l.IEEE Transactions on Knowledge and Data Engineer-ing，2016,28(3):813-830.  \n[8]姚天昉，程希文，徐飞玉，等．文本意见挖掘综述[]．中文信息学报，2008，22（3)：71-80.  \n[19]Toprak C，Gurevych I. Document Level Subjectivity ClassificationExperiments in DEFT'O9 Challenge[c]// Procedings of theDeft 2009 Text Mining Challenge，2009:89-97.  \n[20]Lambov D，Dias G，Graca JV.Multi-view Learning for TextSubjectivity Classfication[C]// Proceedingsof19th EuropeanConference on Artificial Intelligence Workshop on ComputationalApproaches to Subjectivity and Sentiment Analysis，2010.  \n[1]郭云龙，潘玉斌，张泽宇，等．基于证据理论的多分类器中文微博观点句识别[．计算机工程，2014，40（4)：159-163.  \n[2]张博，毛昱．对中文主客观分类特征选择的研究[] $/ /$ 北京：中国人工智能学会第十三届学术年会，2013：601-608.  \n[3]Goldensohn S B，Hannan K，Mcdonald R，et al.Building aSentiment Summarizer for Local Service Reviews[// Proceed-ings of NLP Chalenges in the Information Explosion Era.Beijing,2008:200-207.  \n[4Qiu G，Liu B，Bu JJ，et al.Opinion Word Expansion and Tar-get Extraction Through Double Propagation[J]．ComputationalLinguistics，2011，37（1)：9-27.  \n[25]Titov，Ivan，McDonald，et al.Modeling Online Reviews withMulti-grain Topic Models[// Proceedings of WWW O8.NewYork，2008:111-120.  \n[6]Zhai Z W，Liu B，XuH,Jia PF.Constrained LDA for Group-ing Product Features in Opinion Mining [// Proceedings of thePacific-Asia Conference on Knowledge Discovery and Data Mining.Shenzhen，2011:448-459.  \n[27]彭云，万常选，江腾蛟，等．基于语义约束LDA的商品特征和情感词提取[．软件学报，2017，28（3)：676-693.  \n[8游贵荣，吴为，钱运涛．电子商务中垃圾评论检测的特征提取方法[．现代图书情报技术，2014，（10)：93-100.  \n[29]王荣洋，鞠久朋，李寿山，等．基于CRFs的评价对象抽取特征研究．中文信息学报，2012，26（2)：56-61.  \n[30] $\\mathrm { K i m } \\mathrm { ~ S ~ } \\mathrm { ~ M ~ }$ ，Hovy E.Automatic Detection of Opinion BearingWordsand Sentences[c]// Proceedings of the InternationalJoint Conference on Natural Language Proessing.New York,2005:61-66."
+  },
+  "β1]朱嫣岚，闵锦，周雅倩，等．基于HowNet的词汇语义倾向计算[．中文信息学报，2006，20（1)：14-20.": {
+    "context1": "B2]Turney P D，Litman ML. Unsupervised Learning of Semantic Orientation from a Hundred-Billion-Word Corpus[R]．National Research Council of Canada，2002:359-364.",
+    "context2": "b5]Lakkaraju H，Bhattcharyya C，Bhattacharya I，et al.Exploiting Coherence for the Simultaneous Discovery of Latent Facets and Associated Sentiments[C // Proceedings of 2011 SIAM International Conference on Data Mining.Mesa，2011:498-509.",
+    "context3": "b6Feng S，Zhang M，Zhang Y X，et al. Recommended or Not Recommended? Review Classification Through Opinion Extraction [//Proceedings of the 12th International Asia-Pacific Web Conference．USA，2010:350-352."
+  },
+  "[7]方明，刘培玉．基于最大熵模型的评价搭配识别[．计算机应用研究，2011，28（10)：3714-3716.": {
+    "context1": "B8lWang D,Liu Y.A Cross-Corpus Study of Unsupervised Subjectivity Identification Based on Calibrated EM[Cl//Proceedings of the 2nd Workshop on Computational Approaches to Subjectivity and Sentiment Analysis，2011:151-160.",
+    "context2": "β9]Socher R，Pennington J,Huang E，et al. Semi-Supervised Recursive Autoencodersfor Predicting Sentiment Distributions [C]//Proceedings of the Conference on Empirical Methods in Natural Language Processing.UK，2011:151-161.",
+    "context3": "[1]王中卿，王荣洋，庞磊．Suda_SAM_OMS情感倾向性分析技术报告[/／第三届中文倾向性分析评测论文集，2011:25-32.",
+    "context4": "(责任编辑：孙国雷)"
+  }
+}

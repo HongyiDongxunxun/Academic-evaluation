@@ -1,0 +1,92 @@
+{
+  "original_filename": "full_7477.md",
+  "nothing": {
+    "context1": "$\\bullet$ 柴俊红，陈辰²",
+    "context2": "(1．东北大学图书馆，辽宁沈阳110819；2．河北金融学院图书馆，河北保定071051)"
+  },
+  "机构唯一标识符构建研究现状、问题及对策分析": {
+    "context1": "摘要：旧的/意义]为机构制定唯一标识符是网络环境下进行机构名称规范控制有效方法。仿法/过程文章通过调研机构名称规范控制的背景和唯一标识符系统研究现状，分析了典型机构唯一标识符系统的特点、优势与劣势。结果/结论]总结了机构唯一标识符构建过程存在的突出问题，包括机构唯一标识符的分配规则、元数据、互操作、推广使用及可持续发展等问题，并提出解决这些问题的对策建议。"
+  },
+  "关键词：机构名称规范；唯一标识符；研究现状；对策": "",
+  "Research Status ，Problems and Countermeasures of Institutional Unique Identifier Construction": {
+    "context1": "AbstractPurpose/significancelGiving everyorganizationaunique identifierisanefectivewaytocontrolthenameauthorityundernetworkenvironment.Method/processThispaperintroducesthebackgroundofthe investigatedinstitutions’nameregulationcontrolandresearchsatusoftheiruniqueidentifer，aalyzestecharacteristics，advantagesaddisadvantagesoftetypical institutios’unique identifer system.Result/conclusion]Then thepapersummarizes the majorproblems in theinstitutionaluniqueidentiferconstructionprocess，includingthealocationrule，organzationmetadata，nteroperablity，promotionandsage， as well as isses such as sustainable development，and puts forward some suggestions to solve these problems.",
+    "context2": "Keywords: institutional name authority； unique identifier； research status; countermeasure",
+    "context3": "机构作为学术交流的重要实体，越来越重视自身的排名和声誉，针对作者机构开展学术评价的知识活动越来越普遍，统计机构的学术产出是衡量指标之一，所以应该强调机构检索点的查准率和查全率[。但是由于机构存在合并和分支变革、名称变化、层次结构、位置变化等复杂情况，使得机构的描述和管理存在困难，不可避免的影响以机构为检索点的效果，进而影响以机构为中心的各种知识服务和评价活动的开展，对机构进行规范控制研究是解决问题的重要途径。",
+    "context4": "名和声誉。例如，学术管理人员希望能有效汇集本机构所有工作人员的全部学术产出，用以进行科研绩效评估；基金资助者要准确全面的跟踪某个机构的研究产出，用以评估基金资助的影响力。但是，随着学术产出的爆炸性增长以及合作性产出越来越普遍，跟踪这些关系更加困难。",
+    "context5": "机构本身存在的复杂情况以及利益相关者对机构成果汇聚的突出需求，需要对机构进行规范控制，其中，为机构赋予唯一标识符是网络环境下进行机构名称规范控制的一种有效方法和新兴趋势。"
+  },
+  "1机构名称规范控制背景": {
+    "context1": "作者机构需要进行规范控制主要原因如下：",
+    "context2": "1）机构自身存在的复杂情况使得机构名称识别面临挑战：机构的合并和分裂；机构收购与被收购；机构存在多个下属机构，如部门或者学院；机构的层次结构随时面临调整；机构可能在多个地方或者国家拥有分支机构；组织的名称也面临变化等等情况，使得机构描述和识别异常困难。",
+    "context3": "2）利益相关者需求问题：对于学术管理员、基金资助者、出版商、知识库管理员、关联数据开发人员、权利机构及个体研究人员等利益相关者来讲，识别作者创建者的机构从属关系是非常重要的，它往往影响相关机构的排"
+  },
+  "2机构唯一标识符研究及发展现状": "",
+  "2.1机构唯一标识符的含义": {
+    "context1": "学术交流领域已经建立并采用了一系列开放标识符基  \n础设施系统，其中较为常见的是数字资源标识符（如  \nDOI，URN，APK）和人员标识符（如ORCID，Reseacher  \nID)，并已经成为该行业的基础设施。对于机构来讲，  \n唯一标识符的使用滞后于数字资源和人员。学者认为资源  \n标识符和人员标识符构成学术交流基础设施的两个关键支  \n柱，然而要实现学术交流的潜在效率，还需要第三个支柱-机构唯一标识符。OCLC在进行研究人员标识符方  \n法研究时指出，区分研究人员的一个关键特征即是他们明  \n确机构隶属关系，可见构建机构唯一标识符对于满足特定",
+    "context2": "需求和用例，与人员唯一标识符同样重要。",
+    "context3": "如何界定“机构”，大多数现有标识符都认为法律实体是构成机构的基本单位，但是显然，这个定义是不完善的，因为受大学或者其他机构资助的研究中心，附属于大学的图书馆等部门，这些非法律实体也进行学术交流活动，同样需要进行识别。而 $\\mathrm { I } ^ { 2 }$ 机构研究小组认为只要是为支持数字信息工作流而参与任何业务的机构，都可以获取机构标识符。该定义从数字信息工作流涉及的机构出发，而不是以是否是法律实体为准，能较全面的涵盖需要标识的机构单元。",
+    "context4": "ODIN项目定义一个良好的唯一标识符，除了具备唯一、持久、可解析、可描述、可发现、可互操作和治理之外，THOR项目还建议，机构标识符必须以HTTPURI形式表示，它支持内容协商，并提供学术交流中使用的不同类型标识符的最小公共元数据元素的访问。机构唯一标识符是指与组织关联的唯一、持久性和公共统一资源标识符（URI），通过特定的协议在全球范围内通过网络进行可解析——提供了一种方法来准确地查找和确定一个组织，并定义其子单位之间的关系。从机构标识符的定义上看，它是一种不同于图书馆机构规范文档的全新规范控制方式，它提供了一种在网络环境下更容易、更准确的机构名称规范控制方法，使得人员与机构间的隶属关系更加明确，不仅可以帮助避免因名称更改、合并和翻译等其他语言而引起的混淆，还可以将其名称、昵称、传统或正式名称的缩写形式与机构联系起来。",
+    "context5": "随着机构唯一标识符在学术交流系统中的使用，比如在出版物或者其他创造性作品中嵌入机构唯一标识符，系统便可以可准确、全面跟踪和整合机构及其部门的学术成果，进而评估机构学术影响力，避免因机构名称匹配不精确而出现的混淆。"
+  },
+  "2.2机构唯一标识符研究现状": {
+    "context1": "在整个研究生态系统中，需要机构ID来改进研究活动信息的自由高效流动，尽管机构标识符的研究和应用落后于人员唯一标识符，但是本文经过调研，已经有越来越多的研究机构及小组联合开展机构唯一标识符的研究，致力于机构标识符解决方案的研究与探索，并得出一些重要的结论，详见表 $1 ^ { \\ \\mathfrak { b } \\ – \\ 3 }$",
+    "context2": "表1机构唯一标识符研究一览表",
+    "context3": "<table><tr><td rowspan=1 colspan=1>项目名称</td><td rowspan=1 colspan=1>研究成员</td><td rowspan=1 colspan=1>研究目的</td><td rowspan=1 colspan=1>时间范围</td><td rowspan=1 colspan=1>机构范围</td><td rowspan=1 colspan=1>研究结论及成果</td></tr><tr><td rowspan=1 colspan=1>Representing Organi-zations in ISNI TaskGroup</td><td rowspan=1 colspan=1>OCLC</td><td rowspan=1 colspan=1>研究机构如何在 ISNI中表示，对ISNI团队提供建议</td><td rowspan=1 colspan=1>2015—2016</td><td rowspan=1 colspan=1>学术机构及与学术机构有联系机构</td><td rowspan=1 colspan=1>扩展现有的数据模型并定义额外的数据值将提高数据库中机构的表示效果</td></tr><tr><td rowspan=1 colspan=1>CASRAI-UK Organi-sational IdentifiersWorking Group</td><td rowspan=1 colspan=1>JISC</td><td rowspan=1 colspan=1>研究英国高等教育部内应该实施哪些机构 ID</td><td rowspan=1 colspan=1>2013—2015</td><td rowspan=1 colspan=1>研究社区中涉及的机构</td><td rowspan=1 colspan=1>对可用的标识符服务进行了评估，认为ISNI将成为一个强大、可持续且受到国际支持的桥梁标识符</td></tr><tr><td rowspan=1 colspan=1>I²(Institutional I-dentifier)</td><td rowspan=1 colspan=1>NISO</td><td rowspan=1 colspan=1>制定机构标识符的标准，可以在图书馆和出版环境中使用相同的机构标识符，支持高效的信息工作流</td><td rowspan=1 colspan=1>2008—2014</td><td rowspan=1 colspan=1>信息供应链中涉及的机构，如图书馆、出版商等</td><td rowspan=1 colspan=1>将ISNI作为可扩展的机构标识符标准，将ISNI元数据与I对比合并，ISNI可以实现标准化机构识别需求</td></tr><tr><td rowspan=1 colspan=1>Organizationidentifier project</td><td rowspan=1 colspan=1>Crossref,Datacite和ORCID</td><td rowspan=1 colspan=1>调研机构标识符当前情况，收集相关标识符用例，将社区聚集在一起提出机构标识符解决方案</td><td rowspan=1 colspan=1>2016—</td><td rowspan=1 colspan=1>学术传播中的机构</td><td rowspan=1 colspan=1>“最小可行性产品”报告发布，从机构标识符的技术要求、管理要求、可持续发展要求进行内容阐述</td></tr><tr><td rowspan=1 colspan=1>Organization ID Work-ing Group (OrgID)</td><td rowspan=1 colspan=1>ORCID</td><td rowspan=1 colspan=1>完善一个开放、独立、非盈利的组织标识注册中心的结构、原则和技术规范，以促进消除研究人员从属关系的歧义</td><td rowspan=1 colspan=1>2017.1—2017.12</td><td rowspan=1 colspan=1>ORCID中的人员具有从属关系的机构，包括就业、教育与资助等机构</td><td rowspan=1 colspan=1>该工作组是上一个联合项目的持续。工作组在治理、注册产品定义、业务模型和资金等领域完成调研工作</td></tr></table>",
+    "context4": "这些研究工作组关注领域不同，寻求本领域的机构标识符的实施方案，但同时又关注国际视野下的机构标识符解决方案，注重标识符的开放性和互操作性研究。其中ISNI颇受研究小组关注，将自己定位为跨领域的桥梁标识符，具有国际化、非盈利、中立性等特点。下文对机构标识符进行简要介绍。"
+  },
+  "2.3典型机构唯一标识符介绍": {
+    "context1": "当前尚未出现一种全球公认的、国际通用的、标准的机构唯一标识符，也没有哪种标识符能满足所有利益相关者的功能需求，但是现有部分机构唯一标识符已满足特定领域的需求。有学者经过统计，在学术研究和信息交流领域中至少有23种不同的机构标识[4。本文不详尽地介绍当前出现的所有标识符，只介绍具有典型意义的标识符解决方案，重点介绍这些标识符特点、优势与劣势，为机构唯一标识符解决方案的选择与推动提供思考和借鉴。",
+    "context2": "1）国际性标准。ISNI（International Standard Name I-dentifier，ISO 27729）：国际标准名称标识符，于2010年7月获批，涵盖所有创造性活动领域具有公共身份的人员和机构，覆盖领域较广。它将自身定位为跨领域的“桥梁标识符”，提供不同专有标识符之间的互操作。它通过Wiki数据、VIAF和ORCID等进行传播，是目前使用最为广泛的机构标识符，截至当前，ISNI数据库拥有超过71万的机构标识符。它遵循开放的ISNI国际机构信息许可，类似于cc-by许可对数据进行使用。ISNI在机构标识上的不足表现为没有重点，因为既关注人也关注机构；非成员不能以机器可读的方式访问所有公共数据。",
+    "context3": "ISIL（International Standard Identifier for Libraries:ISO15511）[d：图书馆及相关组织国际标准标识符，它主要对标准信息机构（图书馆、档案馆、博物馆、文献和信息中心以及相关政府机构、教育机构、商业机构等）进行标识。该标识符是由前缀(ISO 3166- alpha-2 国家代码)和组织机构代码组成，如Russian StateLibrary表示：RU-10017011。除了特定国家的机构，国际级别的标识符也可以建立，如隶属于OCLC机构可标识为：oclc-\\*。因此，ISIL是统一了世界各地现有的机构系统，而不是从零开始建立一个完整的机构标识系统。ISIL的范围特定于图书馆和类似信息机构，因此在范围上太过有限。",
+    "context4": "2）特定应用领域的机构标识符。MARCCodeList fororganizations[：MARC机构代码列表，应用于图书馆书目环境下的机构唯一识别符，是记录人员处理MARC的重要参考工具，比如识别分配记录控制号的机构、负责创建和修改记录的机构、以及持有该项目复本的机构。随着合作编目项目的出现，机构能够共享机器可读的书目信息，这更加强调了单一的组织机构代码系统的重要性，馆际互借项目也在广泛的使用该列表。虽然该项目最初主要针对美国机构，但是越来越多的国外机构要求参与，最近更新过的代码表数量超过37000个，其中6000个为非美国的代码。ISIL可以兼容MARC代码列表。虽然其他机构可以出于其他目的使用这些代码，但是主要用途仍然是在书目应用上。",
+    "context5": "Ringgold identifiers ：主要专注于为学术供应链中的机构提供标识符解决方案，它是ISNI的注册机构，许多记录都被映射到ISNIs，被相关机构认为是提供机构标识符增值服务的最强有力的候选人。ORCID利用Ringgold标识符关联研究者的附属机构。它的数据在开放许可下是不可用的，除了提交给ISNI的元数据，其他数据是私有的、不透明的。它是一个私有组织，以为出版商服务为导向，并收取费用来运营。",
+    "context6": "Open Funder Registry（开放基金机构注册表）：由Elsevier开发的基金资助机构注册表，该列表列出资助者和它的唯一标识符，用于识别参与资助活动的机构。它在CC-O许可下发布了注册表，由Crossref工作组进行管理，更新和维护是由Elsevier团队执行。该注册表只限于资助机构，不会为其他组织提供，覆盖范围较小；非成员不同直接更新或纠正自己的记录；该服务目前依赖于Elsevier和Crossref的商誉来支付其运营成本。",
+    "context7": "Publisher Solutions International（国际出版商的解决方案，PSI）：该方案是机构标识符和相关元数据的数据库，涵盖订阅研究成果的机构，用于帮助出版商对抗订阅欺诈、收集商业情报和验证IP地址，标识符是其IP注册表的基础。PSI数据是专有的，目前还不能通过API获得;它是一个小型的商业组织，并且没有透明的、利益相关者驱动的治理结构。",
+    "context8": "Global Research Identifier Database（全球研究标识符数据库，GRID）：最初为数字科学（Digital Science）的内部项目而设计，为典型的数据集成和学术归因问题提供解决方案，涵盖科学生命周期中所涉及的全球范围的机构。ORCID使用GRID和Ringgold标识符来消除从属关系中的机构歧义。它的标识符是机器和人类可读，使用schema.org/RDFa标记语言进行表示，并链接到FunderID，ISNI，OrgRef，Wikidata等标识符。机构不能对数据进行直接修改，GRID由一个完全私有的组织管理，并且没有透明的、涉众驱动的治理结构。",
+    "context9": "当前机构唯一标识符领域既有国际领域的相关标准，也有特定领域（图书馆、出版商、资助机构等）的具体应用，但尚不存在可解析的、持久的和唯一的国际性的、通用解决方案。现有唯一标识符在透明性、非盈利性管理以及机构管理自己记录的能力上或多或少还存在差距。"
+  },
+  "3机构唯一标识符构建面临的问题及对策建议": "",
+  "3.1分配规则": {
+    "context1": "在进行机构唯一标识符分配时有如下问题需要考虑：",
+    "context2": "1）机构的层次关系问题。因学术交流需要，具有多层隶属关系的机构、部门、团体或者研究所面临标识符的分配。首先，机构标识符系统允许多层隶属关系，例如大学和隶属于大学的学院、系部，可同时分配有相应的标识符；其次，需要对隶属于同一机构的，具有上下级、平行关系的部门标识符进行连接，并确定适合的关系类型，以支持数字信息工作流。维护和管理这些层次结构是一项艰巨任务，需要持续不断的精力和时间。",
+    "context3": "2）机构结构调整问题。当机构面临收购、兼并和重组等机构变迁时伴随着机构名称、职能和任务等的变化，需要重新考虑标识符分配问题。追踪不断变化的机构结构关系非常困难，尤其是历史回溯的时间越长，复杂性越增加，但是“识别一次”便可“使用多次”的机构唯一标识符，可以实现规模经济，显著提高信息工作流效率。",
+    "context4": "首先，聚合不同历史时期机构名称形式对于区分机构实体是有效的，日期范围对于阐明机构历史关系至关重要。其次，在是否分配新标识符问题上，需要对比机构收购、合并前后其任务和目的是否改变。如果没有改变原有机构的业务范围和目的，在合并之后可保持相同的标识符；如果发生改变，通常被分配新的标识符。OCLC曾经被命名为俄亥俄大学图书馆中心，然后是在线计算机图书馆中心，但现在已经被简称为OCLC，尽管名称发生了变化，但是机构标识符不变。再有，机构面临重组，原有的工作人员保持不变，而其隶属关系在发生改变，比如原来隶属于学院的研究中心可能现在由于学院的取消，而直接隶属于学校级别，这时由于学院标识符的取消，需要考虑研究中心和学校机构标识符的连接问题。",
+    "context5": "3）临时机构团体的唯一标识符分配问题。来自多个机构的成员组成的临时研究中心或研究团体，进行研究活动和学术交流，是否与正式机构一样，进行唯一标识符的分配存在争议。临时机构在任务完成时即将面临解散，而且研究人员隶属的正式机构有其相应标识符，可不进行分配，但是本文认为临时机构作为独立团体积极进行学术交流活动，需要单独标识符对其学术成果等进行识别与认定，用以进行全面的评估，所以有必要分配标识符。近期，ISNI项目工作组将研究项目和研究小组作为一种机构类型进行了添加。"
+  },
+  "3.2元数据": {
+    "context1": "任何机构ID的主要挑战是消除歧义和重复数据删除，这就需要借助明确和清晰的元数据进行区分[4。",
+    "context2": "从元数据层次上看，THOR项目建议，每个机构唯一标识符应该制定自身核心元数据，而不是试图包括所有的信息。通过制定本机构核心元数据，同时又与其他唯一标识符的连接来获取到特定领域的详细元数据。所以，在元数据层次上，注册机构应被强制提交标识符系统要求的基本核心元数据以保证基本学术交流需要，同时，也应根据自身特色尽可能多的描述机构的相关信息，以满足特定领域的需求。",
+    "context3": "从元数据内容上看，孙海霞等认为机构规范包括形式规范、一般性描述属性规范和关系属性规范，基本构成机构元数据的主要内容。",
+    "context4": "首先，形式规范，也称首选名称，本文认为由于机构标识符可以对机构的所有名称形式进行汇集，最初为了提供检索点而设定的首选名称形式不再显得那么必须和重要，但可选择首选形式作为品牌显示。不同的语言环境有不同的首选名称形式，可使用语言标识符进行限定说明。",
+    "context5": "其次，机构一般描述属性可包括机构类型、物理位置（国家 $^ +$ 城市 $^ +$ 邮寄地址）、网页信息和联系信息等，构成区分机构的基本有效属性。再有，机构关系元数据属性，描述复杂的机构层次结构和发展变化关系。ISNI中的机构关系类型包括人与机构、机构与机构、机构与部门等，ISNI与NISO $\\mathrm { I } ^ { 2 }$ 开发的关系元数据常见的有IsMemberOf，is-UnitOf，isSupersededBy，isAffiliatedWith，isRelatedTo等，可根据需要增加的新的关系类型。本文认为，元数据元素的结构应该保持灵活性和可伸缩性，并支持随时增加新的属性及关系类型来满足未来发展需要。",
+    "context6": "元数据形式上看，元数据元素的关联数据化是未来发展方向。语义网环境下，标识符是关联数据的关键组件。W3C机构本体支持跨多个领域的机构信息的链接、vi-vo-isf集成的语义框架本体提供了一组类型（类）和关系（属性）来对机构进行表达。不同机构本体的类和属性存在差异，所以本体开发和对齐是机构唯一标识符日后进一步研究的领域。本文认为，为增强机构标识符的在语义网环境下的自由使用和语义关联，应增强元数据元素定义，将数据元素包括发布为机器可读的本体，每个元素和标识符都能通过持久的URIs进行访问和链接，以满足当前环境下语义交流、分析与共享的需要。"
+  },
+  "3.3推广使用": {
+    "context1": "机构唯一标识符构成学术交流领域的基础设施，它的普遍使用可以促进数字信息工作流的效率并节约成本。OCLC研究认为当前限制标识符推广使用的因素主要包括：缺乏被广泛接受的权威标准，这是国际范围内的问题；机构的合并、拆分、重组和变更名称等情况，增加解决机构标识符问题的复杂性；科研管理系统等对于机构标识符的采用并不是很迫切[。而KE研究认为，唯一标识符的推广使用因素分为外部因素和内部因素，外部国家政策是促进机构ID采用的强大驱动力，也是具有最广泛的影响，比如开放获取强制要求机构层面的学术成果发布，需要嵌入机构唯一标识符；机构内部需求也是支持机构ID采用的驱动因素，支持机构内部战略规划、研究活动分析、合作研究项目的分析等都需要借助机构唯一标识符实现3",
+    "context2": "本文认为，不论是国家相关部门，还是学术交流社区中的相关利益者都应积极推广机构唯一标识符的使用。",
+    "context3": "首先，国际层面致力于机构唯一标识符标准的制定和推广至关重要，但是还有基本事项需要在国家层面上解决。建立与国际权威数据库（如ISNI）的国家注册服务机构，制定有关国家注册的规则、程序和政策来提供服务支撑。基础设施元素（如ISNI）与服务元素（国家注册表）分离，更好的提供注册服务，实现国内机构的唯一标识，并逐步与国际范围内的计划和行动融合，是国家层面推动机构标识符的现实路径。",
+    "context4": "其次，机构学术成果能否被全面、准确的整合，这还取决于出版商是否在学术成果出版时使用唯一标识符，因此鼓励和促进出版商使用机构ID，使得学术管理者和其他利益相关者实际接触机构唯一标识符的效果和用处，是扩大机构唯一标识符使用宣传的有效途径。",
+    "context5": "再有，基金管理者可要求机构标识符嵌入基金申请流程，图书馆宣传和介绍机构唯一标识符的效用等，各方一并努力推动机构标识符的使用，从而共同促进学术交流社区关键基础设施建设。"
+  },
+  "3.4互操作": {
+    "context1": "不同类型的机构唯一标识符，在满足特定社区的需求上发挥了较好的效果，然而与作者唯一标识符类似，由于各种机构ID间缺少互操作性，在整个学术交流社区中没有发挥作用，阻碍了学术交流的效果。机构唯一标识符最初的重点是为了正确唯一识别从属关系，而实现机构唯一标识符与其他机构标识符的连接也是未来方向。本文认为机构标识符应从以下三个层次实施互操作研究：",
+    "context2": "1）机构与附属机构唯一标识符的连接。上级机构与下级机构，机构与部门，机构与研究中心等，实现不同等级机构标识符的连接，便于学术管理部门从机构整体和部内等多个角度统计汇集学术成果，追踪学术交流轨迹，满足学术评估和交流需要。",
+    "context3": "2）同一机构不同标识符的连接。当前各类社区根据特定的需求制定了相应的机构标识符，通过上述调研可知，不同标识符各具特色，并相应社区发挥了应有的作用。在还未出现全球一致认可的机构标识符的现实之下，将不同标识符进行关联是现实之迫及未来之需，这样便于数据交流和共享，使得数据源可追溯和可验证、可共享，也能保证数据的质量。",
+    "context4": "3）机构标识符其他实体标识符的连接。基于唯一标识符实现科研人名、机构、期刊、基金、会议等多种实体对象的关联。欧盟委员会长期关注科研信息管理领域的互操作性和数据交换，如ODIN、THOR等项目进行贡献者、研究成果（包括数据）和机构之间的关联研究，通过标识符链接和服务集成来增强平台间的互操作性，从而有助于科研信息的交流、重用和集成，促进学术知识创新。",
+    "context5": "以上三个层次属于科研实体唯一标识符互操作研究的范畴，该问题不仅面临技术上的挑战，还涉及标识符社区的管理运行机制等问题，研究范围广，研究难度较大，需要日后进行深入细致的研究。"
+  },
+  "3.5可持续管理": {
+    "context1": "除了上述关键性问题，唯一标识符的有效管理与运营也是保证系统可持续发展的关键，既包括对系统本身构成属性的管理，比如标识符构成规则、足够大的构成空间、以及核心数据集及其数据许可等问题，也包括对系统服务属性的管理，比如API检索接口、其他标识符系统的关联、机构数据管理和维护等问题。CASRAI机构标识符研究小组认为信任、透明度和治理问题是机构标识符成功的关键[4。",
+    "context2": "首先，应由专门的机构制定相关的技术和行政计划来确保机构标识符的可持续发展与运作，对唯一标识符及其元数据实施管理和维护，并针对数据法律隐私等问题进行界定和管理，包括开放软件代码、开放数据，通过公共开放的API在相关许可下供使用。",
+    "context3": "其次，合适的商业运营模式可确保机构的可持续发展，同时得到成员机构的支持并进行共同决策管理，而且标识符的管理和发布过程必须透明，组织及运作过程应该接受公众监督。ISNI的业务模型即是基于所有成员、注册中心和分配系统的协作构成。",
+    "context4": "再有，可信任性也是可续持发展的重要属性，这取决于标识符的可读性，数据正确性以及快速灵敏的纠错与反馈机制，便于机构及时纠正不正确的数据。ISNI非常注重数据的质量，OCLC负责维护中央系统，BnF为会员提供质量保证服务和支持，它是基于成员网络提供的数据匹配和连接，并有多种形式的纠错反应机制支撑ISNI数据的可信任性。"
+  },
+  "4结论与展望": {
+    "context1": "在当前网络环境下，为机构赋予唯一标识符是未来机构名称规范控制的发展方向，虽然机构唯一标识符构建还面临多种问题，比如分配、元数据、推广使用、互操作以及可持续管理等问题，也未形成一致的、全球通用的机构唯一标识解决方案，但鉴于机构标识符在学术交流领域的重要作用，相关研究正在积极推动。",
+    "context2": "未来机构唯一标识符解决方案不应创建一个新的机构唯一标识符标准，而是随时关注这个领域已出现已存在的新兴标准。在当前来看，ISNI似乎是支持国际机构标识符基础设施的最佳候选，相关部门和机构可积极关注ISNI作为桥梁标识符的作用，需要唯一标识符注册的机构可依赖于ISNI提供的最小数据集，利用已有的Ringgold和数字科学等标识符，或者根据需要建立专门的注册中心，来提供注册解决方案和增值服务。□"
+  },
+  "参考文献": {
+    "context1": "[1] 曾建勋，王立学．面向知识评价的规范文档建设方法．图书情报工作，2012，56（10)：101-06.[2]JING W，SMITH-YOSHIMURA K，JANIFER G. The complex-",
+    "context2": "ity of scholar affiliation in ISNI and VIVO[EB/OL]．[2018- 06-29] .https://www.oclc.org/content/dam/research/events/ 2015/oclcresearchscolarfliatisn-viv15.ptx.   \n[3] DAPPERT A，et al. Connecting the persistent identifier ecosystem:building the technical and human infrastructure for open research[J]．Data Science Journal，2017，16（28）: 1-6.   \n[4] BILDER G，BROWN J，DEMERANVILLE T.Organisation identifiers: current provider survey[EB/Ol]．[O18-06-14]. http://doi.org/10.5438 /4716.   \n[5] SMITH-YOSHIMURA K，ALTMAN M，CONLON M，et al. Registering researchers in authority filesR．Dublin，Ohio: OCLC Research，2014:1-29.   \n[6] NISO RP-17-2013，Institutional identification:identifying organizations in the information supply chainEB/O].https: // www.niso.org/publications/niso-p-l7-2013-institutional-identification-identifying-organizations-information.   \n[7] FENNER M，etal.Orcidanddatacite interoperability network: D4.1 conceptual model of interoperability]．International Journal of Knowledge& Learning，2015，9（4)：305.   \n[8] SMITH-YOSHIMURA K，JANIFER G，GRACE A，et al. Addressing the challenges with organizational identifiers and ISNI [R]．Dublin OH:OCLC Research，2016:1-41.   \n[9] OCLC.Representing organizations in ISNI [EB/OL]．[2018- 06-14] .https://www.oclc.org/research/themes/research-collections/isni-organizations.html.   \n[0] Jisc.CASRAI-UK Organisationalidentifiersworkinggroup EB/OI]．[2018-06-4].https: //jisccasraipilot. jiscinvolve. org/wp/2015/03/06/organisational-dentifiersworkinggroupoutputs-and-update /.   \n[1] NISO.Institutional identifiers[EB/OL]．[2018-06-14].https://www.niso.org/standards-committes/institutional-identifiers.   \n[2] The organization identifier project:a way forward[EB/OL]. [2018-06-4].https://www.crosref.org/blog/theoganization-identifier-project-a-way-forward/.   \n[3] ORCID.Organization identifierworking group[EB/OL]. [018-06-4] .htps://orcid.org/content/organization-identifier-working -group.   \n[4] HAMMOND M，CURTIS G.Landscape study for Jisc/CASRAIUK organisational ID[R]．Guildford:Curtis $^ +$ cartwright, 2013:1-14.   \n[15] International standard name identifier: ISO 27729[EB/OI]. [018-06-16] .http: //www. isni.org/.   \n[6] ISO 15511:2011.Information and documentation—intermational standard identifier for librariesand related organizations （ISII)EB/O1]．2018-06-6] .htps: //www.iso.org/standard/57332. html.   \n[7] MARC code list for organizations[EB/OL]．[2018-06-16]. https://www.loc.gov/marc/organizations/.   \n[8] RinggoldEB/O1]．[2018-06-6]．htp://www.ringgold. com/.   \n[9] Crossref. The open funder registry[EB/OL]．[2O18-06-16]. https: //support. crossref.org/hc/en-us/articles/214360886- The-Open-Funder-Registry.   \n[20] Publisher solutions international EB/Ol]．[2018-06-6] .http://www.publishersolutionsint.com/.   \n[1] Global research identifier database[EB/OL]．[2018-06-16]. http: //grid.ac/.   \n[2] BILDER G，BROWN J，DEMERANVILLE T.Organisation identifiers:current provider surveyEB/OI]．[018-06-16]. http: //doi.org/10.5438 /4716.   \n[3] NICKYF，RICHARD M，SEB S.Review of selected organisational IDs and development of use cases for the Jisc CASRAI-UK organisational identifiers working group[R]．UK:JISC and CASRAI,2014:1-21.   \n[4] HAAK L. Organization identifier project:a way forward[EB/ O1]．[2018-06-30] .htps://orcid.org/blog/2016/10/31/organization-identifier-project-way-forward.   \n[5] DEMERANVILLE T，BROWN J，HAAK L，et al.Organisation identifiers:minimum viable product requirements[EB/ O1]．[2018-06-30].htps: //s3-eu-west-l．amazonaws.com/ pfigshare-u-files /5478761/ OrganisationIdDiscussionDocument. pdf.   \n[6] 孙海霞，李军莲．学术论文作者机构规范文档构建[， 医学信息研究，2015（11)：42-47.   \n[7] Theorganization ontology[EB/OL]．[018-06-30].https:// www.w3.org/TR/vocab-org/.   \n28] VIVO-SF ontology[EB/OL]．[2018-06-30].htps://wiki. duraspace. org/display /VTDA/VIVO-SF $^ +$ Ontology .   \n[9] JODY D.I2 and ISNI: Improving the information supply chain with standard institutional identifiers[]．Information Standards Quarterly，2011，23(3):26-29.   \nB0] BRYANT R，ANNETTE D，CONSTANCE M. Convenience and compliance: case studies on persistent identifiers in european research information[R]．Dublin，OH:OCLC Research，2017:1-56.   \nB1] FERGUSON N.Research identifiers:national approaches to ORCID and ISNI implementation[R]．Bristol，UK:Knowledge Exchange，2015:1-24.   \nB2] FENNER M，PAGLIONE L，DEMERANVILLE T，et al. Technical considerations foranorganization identifierregistry [EB/OI]．[018-06-30] .http://doi.org/10.5438/7885. 作者简介：柴俊红，硕士，馆员。陈辰（ORCID：0000- 0002-0485-7525），硕士，馆员。   \n作者贡献声明：柴俊红，提出研究思路，修改论文。 陈辰，资料调研，撰写论文初稿。   \n录用日期：2018-09-03"
+  }
+}
