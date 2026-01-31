@@ -57,12 +57,12 @@ page_mixed_pattern = r'^（上接.*页）$'
 # Publication_Mixed模式（·xxx·形式）
 publication_mixed_pattern = r'^·.*·$'
 
-# Year_Mixed模式（3个及以上数字黏在一起，且前面没有空格）
-year_mixed_pattern = r'(?<!\s)\d{3,}'
+# Year_Mixed模式（3个及以上数字黏在一起，且前面没有空格，且不是年份格式）
+year_mixed_pattern = r'(?<!\s)\d{3,}(?!\s*年)'
 
 # 创建结果文件夹
 def create_output_dirs(base_dir):
-    types = ['Num_Mistake', 'Page_Mixed', 'Initially_Unstructured', 'Title_Mixed', 'Plausibly_Structured']
+    types = ['Num_Error', 'Page_Mixed', 'Initially_Unstructured', 'Title_Mixed', 'Plausibly_Structured']
     for type_name in types:
         type_dir = os.path.join(base_dir, type_name)
         os.makedirs(type_dir, exist_ok=True)
@@ -184,7 +184,7 @@ def check_file_type(file_path):
     
     # 条件(2)：检查是否有跳过现象
     if check_skip_phenomenon(valid_subtitles):
-        return 'Num_Mistake'
+        return 'Num_Error'
     
     # 条件(7)：默认情况
     return 'Plausibly_Structured'
@@ -192,14 +192,18 @@ def check_file_type(file_path):
 import csv
 
 # 主函数
-def main():
+def main(input, iter=0):
     # 输入文件夹
-    input_folders = ['json_data', 'error_data']
+    input_folders = [input]
     # 输出CSV文件
-    output_csv = 'strucheck_1.csv'
+    output_csv = f'error_report/strucheck_iter{iter}.csv'
+    
+    # 创建error_report目录
+    error_report_dir = 'error_report'
+    os.makedirs(error_report_dir, exist_ok=True)
     
     # 定义CSV表头，将Plausibly_Structured放在最后
-    headers = ['filename', 'Num_Mistake', 'Page_Mixed', 'Initially_Unstructured', 'Title_Mixed', 'Publication_Mixed', 'Year_Mixed', 'Mutiple_References', 'Plausibly_Structured']
+    headers = ['filename', 'Num_Error', 'Page_Mixed', 'Initially_Unstructured', 'Title_Mixed', 'Publication_Mixed', 'Year_Mixed', 'Mutiple_References', 'Dubiously_Fake_References', 'Plausibly_Structured']
     
     # 收集所有文件信息
     all_files_info = []
@@ -220,13 +224,14 @@ def main():
             # 检查所有可能的问题
             file_info = {
                 'filename': filename,
-                'Num_Mistake': 0,
+                'Num_Error': 0,
                 'Page_Mixed': 0,
                 'Initially_Unstructured': 0,
                 'Title_Mixed': 0,
                 'Publication_Mixed': 0,
                 'Year_Mixed': 0,
                 'Mutiple_References': 0,
+                'Dubiously_Fake_References': 0,
                 'Plausibly_Structured': 0
             }
             
@@ -278,13 +283,31 @@ def main():
             
             # 检查Mutiple_References
             reference_count = 0
+            found_reference = False
+            found_subtitle_after_reference = False
             for key in all_keys:
+                # 检查是否是参考文献
+                is_reference = False
                 for pattern in reference_patterns:
                     if re.search(pattern, key):
+                        is_reference = True
                         reference_count += 1
+                        found_reference = True
                         break
+                
+                # 检查参考文献后是否有数字小标题
+                if found_reference:
+                    # 检查是否是数字开头的小标题
+                    if re.match(r'^\d+\s*[\.、。]?\s*', key):
+                        found_subtitle_after_reference = True
+                        break
+            
             if reference_count >= 2:
                 file_info['Mutiple_References'] = 1
+            
+            # 检查Dubiously_Fake_References（参考文献后有数字小标题）
+            if found_subtitle_after_reference:
+                file_info['Dubiously_Fake_References'] = 1
             
             # 过滤出小标题
             valid_subtitles = []
@@ -306,12 +329,12 @@ def main():
             if check_title_mixed(valid_subtitles):
                 file_info['Title_Mixed'] = 1
             
-            # 检查Num_Mistake
+            # 检查Num_Error（只有跳过和顺序反了才算）
             if check_skip_phenomenon(valid_subtitles):
-                file_info['Num_Mistake'] = 1
+                file_info['Num_Error'] = 1
             
             # 如果没有其他问题，标记为Plausibly_Structured
-            if not any([file_info['Num_Mistake'], file_info['Page_Mixed'], file_info['Initially_Unstructured'], file_info['Title_Mixed'], file_info['Publication_Mixed'], file_info['Year_Mixed'], file_info['Mutiple_References']]):
+            if not any([file_info['Num_Error'], file_info['Page_Mixed'], file_info['Initially_Unstructured'], file_info['Title_Mixed'], file_info['Publication_Mixed'], file_info['Year_Mixed'], file_info['Mutiple_References'], file_info['Dubiously_Fake_References']]):
                 file_info['Plausibly_Structured'] = 1
             
             all_files_info.append(file_info)
@@ -337,13 +360,14 @@ def main():
     # 统计各类问题的数量
     total_files = len(all_files_info)
     counts = {
-        'Num_Mistake': 0,
+        'Num_Error': 0,
         'Page_Mixed': 0,
         'Initially_Unstructured': 0,
         'Title_Mixed': 0,
         'Publication_Mixed': 0,
         'Year_Mixed': 0,
         'Mutiple_References': 0,
+        'Dubiously_Fake_References': 0,
         'Plausibly_Structured': 0
     }
     
@@ -353,14 +377,27 @@ def main():
                 counts[category] += 1
     
     # 计算比例并打印
-    print("\n===== 各类问题比例 =====")
+    report_lines = []
+    report_lines.append("===== 各类问题比例 =====")
     for category, count in counts.items():
         if total_files > 0:
             percentage = (count / total_files) * 100
-            print(f"{category}: {count} ({percentage:.2f}%)")
+            line = f"{category}: {count} ({percentage:.2f}%)"
+            report_lines.append(line)
         else:
-            print(f"{category}: 0 (0.00%)")
-    print(f"总计: {total_files} 文件")
+            line = f"{category}: 0 (0.00%)"
+            report_lines.append(line)
+    report_lines.append(f"总计: {total_files} 文件")
+    
+    # 打印到控制台
+    for line in report_lines:
+        print(line)
+    
+    # 写入到文件
+    report_file = os.path.join('error_report', f'errors_iter{iter}.txt')
+    with open(report_file, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(report_lines))
+    print(f"\n报告已保存到: {report_file}")
     
     # 写入CSV文件
     with open(output_csv, 'w', newline='', encoding='utf-8') as csvfile:
@@ -373,5 +410,8 @@ def main():
     print("文件按文件名升序排序")
 
 if __name__ == "__main__":
-    main()
+    iteration = 1
+    for i in range(0, iteration + 1):
+        main(f'all_json_iter{iteration}', iteration)
+        i += 1
 
