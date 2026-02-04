@@ -210,7 +210,7 @@ def process_single_file(file_path):
         for main_key, main_value in data.items():
             # Key 清洗
             clean_main_key = main_key
-            key_match = re.match(r'^(\d+)([\u4e00-\u9fa5])', main_key)
+            key_match = re.match(r'^((?:\d+\.)*\d+)([\u4e00-\u9fa5])', main_key)
             if key_match:
                 clean_main_key = f"{key_match.group(1)} {main_key[key_match.end(1):]}"
             

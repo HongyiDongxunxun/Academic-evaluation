@@ -410,8 +410,8 @@ def main(input, iter=0):
     print("文件按文件名升序排序")
 
 if __name__ == "__main__":
-    iteration = 1
-    for i in range(0, iteration + 1):
-        main(f'all_json_iter{iteration}', iteration)
-        i += 1
+    iteration = 0
+    main(f'all_json_iter{iteration}', iteration)
+    iteration += 1
+    main(f'all_json_iter{iteration}', iteration)
 
