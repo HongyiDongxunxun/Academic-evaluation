@@ -1,48 +1,24 @@
-'''
-json文件中所有可能出现的小标题种类（序号与文字间可能存在空格）
-    0引言
-    1 小标题
-    1. 小标题
-    1、小标题
-    1。小标题
-    一、小标题
-    ●小标题
-    一
-    1)
-    
-注意所有的小标题可能出现子标题
-    1.1 子标题
-    1.1.1 子子标题
-    1.1.1.1 子子子标题
-
-'''
-
-'''
-    json文件中所有可能出现的参考文献小标题种类（冒号可能没有）
-    参考文献：
-    注：
-    注释：
-    注释与参考文献：
-    [参考文献]
-
-'''
-
 import os
 import json
 import re
+import csv
 import shutil
 
-# 定义小标题正则表达式模式
-subtitle_patterns = [
-    r'^0[^\d]',  # 0引言
-    r'^\d+\s*[\.、。]?\s*',  # 数字开头的小标题（如1、1.、1、、1。）
-    r'^[一二三四五六七八九十]+\s*[、．]?\s*',  # 中文数字开头的小标题（如一、）
-    r'^●\s*',  # ●开头的小标题
-    r'^[一二三四五六七八九十]+$',  # 单独的中文数字（如一）
-    r'^\d+\)\s*'  # 数字加括号（如1)）
+# ================== 正则配置 ==================
+
+# 1. 小标题/序号模式 (Heading Patterns)
+# 限制数字序号为 1-3 位以排除年份；排除后面紧跟“世纪/年代/年”的数字；支持次级标题 (1) 和 1)
+heading_patterns = [
+    r'^0[^\d]',
+    r'^\d{1,3}\s+[\d一二三四五六七八九十]+.*',
+    r'^\d{1,3}(?!\d)\s*[\.、。]?\s*', 
+    r'^[一二三四五六七八九十]{1,3}\s*[、．]?\s*',
+    r'^●\s*',
+    r'^\d{1,3}[\)）]\s*',
+    r'^[\(\（]\d{1,3}[\)\）]\s*'
 ]
 
-# 参考文献小标题模式
+# 2. 参考文献模式
 reference_patterns = [
     r'^参考文献[：:]?',
     r'^注[：:]?',
@@ -51,367 +27,262 @@ reference_patterns = [
     r'^\[参考文献\]'
 ]
 
-# 上接xx页模式
+# 3. 忽略模式：元数据 (Metadata)
+# 包含 [摘要]、[关键词] 等，支持全角半角及随机空格
+meta_ignore_pattern = r'^\s*[\[［]\s*(关键词|摘要|Abstract|Keywords|中图分类号|文献标识码|文章编号|DOI|引用格式|分类号)\s*[\]］].*'
+# 纯英文元数据模式 (排除掉短序号格式)
+english_meta_pattern = r'^[a-zA-Z0-9\s\.\-\/\\,;:()（）"\'一]+$'
+
+# 4. 其他错误模式
+publication_mixed_pattern = r'^·.*·$'
+# Year_Mixed: 仅在开头检查。排除保护词、排除6位邮编、排除正常年份；识别5位以上粘连年份
+year_mixed_pattern = r'^(?:(?!(?:911|985|211|315)(?!\d))\d{3}(?!\d)|\d{5,})'
+
 page_mixed_pattern = r'^（上接.*页）$'
 
-# Publication_Mixed模式（·xxx·形式）
-publication_mixed_pattern = r'^·.*·$'
+# ================== 辅助函数 ==================
 
-# Year_Mixed模式（3个及以上数字黏在一起，且前面没有空格，且不是年份格式）
-year_mixed_pattern = r'(?<!\s)\d{3,}(?!\s*年)'
+# --- 在 error_type_judge.py 中修改以下部分 ---
 
-# 创建结果文件夹
-def create_output_dirs(base_dir):
-    types = ['Num_Error', 'Page_Mixed', 'Initially_Unstructured', 'Title_Mixed', 'Plausibly_Structured']
-    for type_name in types:
-        type_dir = os.path.join(base_dir, type_name)
-        os.makedirs(type_dir, exist_ok=True)
+def is_heading(text):
+    if not text or len(text) > 60: return False
+    # 排除年份與世紀干擾
+    if re.match(r'^(?:19|20|21)\d{0,2}\s*(?:世紀|世纪|年代|年)', text):
+        return False
+    return any(re.search(pat, text) for pat in heading_patterns)
 
-# 检查是否是小标题
+def is_reference(text):
+    """判断是否为参考文献标题"""
+    return any(re.search(pat, text) for pat in reference_patterns)
+
 def is_subtitle(text):
-    for pattern in subtitle_patterns:
-        if re.search(pattern, text):
-            return True
-    # 检查参考文献小标题
-    for pattern in reference_patterns:
-        if re.search(pattern, text):
+    """判断是否为序号标题或参考文献"""
+    return is_heading(text) or is_reference(text)
+
+def is_meta_key(text):
+    """识别需要忽略的干扰键 (如摘要、英文标题等)"""
+    if not text: return False
+    if re.match(meta_ignore_pattern, text): return True
+    # 纯英文元数据 (需包含字母且符合字符集，且不是短序号格式)
+    if re.search(r'[a-zA-Z]', text) and re.match(english_meta_pattern, text):
+        if not is_heading(text): return True
+    return False
+
+def check_title_mixed(keys_to_check):
+    """Title_Mixed: 在小标题键之间，存在非标题且非忽略元数据的杂质键"""
+    sub_indices = [i for i, k in enumerate(keys_to_check) if is_subtitle(k)]
+    if len(sub_indices) < 2: return False
+    for i in range(len(sub_indices) - 1):
+        if sub_indices[i+1] - sub_indices[i] > 1:
             return True
     return False
 
-# 提取小标题的数字部分
 def extract_number_part(text):
-    # 提取数字序列（如1.1.1）
-    num_pattern = r'^(\d+(?:\.\d+)*)'
-    match = re.match(num_pattern, text)
-    if match:
-        return match.group(1)
-    # 提取中文数字
-    chinese_num_pattern = r'^([一二三四五六七八九十]+)'
-    match = re.match(chinese_num_pattern, text)
-    if match:
-        return match.group(1)
+    m = re.match(r'^(\d+(?:\.\d+)*)', text)
+    if m: return m.group(1)
     return None
 
-# 检查是否存在跳过现象
-def check_skip_phenomenon(subtitles):
-    if len(subtitles) < 2:
-        return False
+# ================== 辅助函数 (修改版) ==================
+
+# 定义中文数字映射
+CN_NUM = {'一': 1, '二': 2, '三': 3, '四': 4, '五': 5, '六': 6, '七': 7, '八': 8, '九': 9, '十': 10}
+
+def cn_to_int(text):
+    """将简单中文序号转换为数字"""
+    val = 0
+    if text.startswith('十'): 
+        val = 10 + (CN_NUM.get(text[1], 0) if len(text) > 1 else 0)
+    elif text.endswith('十'):
+        val = CN_NUM.get(text[0], 1) * 10
+    elif '十' in text:
+        parts = text.split('十')
+        val = CN_NUM.get(parts[0], 1) * 10 + CN_NUM.get(parts[1], 0)
+    else:
+        val = CN_NUM.get(text, 0)
+    return val
+
+def get_level_and_value(text):
+    """
+    解析标题的层级和数值。
+    Level 1: 一./一、 (中文+标点)
+    Level 2: （一）   (括号+中文)
+    Level 3: 1. / 1 / 1、 (数字+标点 或 数字+空格)
+    Level 4: 1.1      (数字.数字)
+    Level 5: (1)      (括号+数字)
+    """
+    text = text.strip()
     
-    for i in range(len(subtitles) - 1):
-        current = subtitles[i]
-        next_sub = subtitles[i + 1]
+    # 1. Level 4: 1.1 (包含点的阿拉伯数字，需优先匹配)
+    # 逻辑：必须包含至少一个点，且点两侧都有数字
+    m_l4 = re.match(r'^(\d+(?:\.\d+)+)', text)
+    if m_l4:
+        nums = list(map(int, m_l4.group(1).split('.')))
+        return 4, nums
+
+    # 2. Level 1: 一、 / 一. 
+    m_l1 = re.match(r'^([一二三四五六七八九十]+)[、．\.]', text)
+    if m_l1:
+        return 1, cn_to_int(m_l1.group(1))
+
+    # 3. Level 2: （一） / (一)
+    m_l2 = re.match(r'^[（\(]([一二三四五六七八九十]+)[）\)]', text)
+    if m_l2:
+        return 2, cn_to_int(m_l2.group(1))
+
+    # 4. Level 3: 1. / 1、 / 1 (空格)
+    # 这里增加了对空格的兼容 (如 "2 xxx")，以及纯数字加标点
+    m_l3 = re.match(r'^(\d+)(?:[、．\.]|\s|$)', text)
+    if m_l3:
+        return 3, int(m_l3.group(1))
+
+    # 5. Level 5: (1) / （1）
+    m_l5 = re.match(r'^[（\(](\d+)[）\)]', text)
+    if m_l5:
+        return 5, int(m_l5.group(1))
+
+    return 0, None
+
+def check_num_error(headings):
+    """Num_Error: 检查序号逻辑，忽略跨级返回的情况"""
+    if len(headings) < 2: return False
+    
+    parsed_headings = [get_level_and_value(h) for h in headings]
+    
+    for i in range(len(parsed_headings) - 1):
+        curr_lv, curr_val = parsed_headings[i]
+        next_lv, next_val = parsed_headings[i+1]
         
-        current_num = extract_number_part(current)
-        next_num = extract_number_part(next_sub)
-        
-        if current_num and next_num:
-            # 检查是否都是数字序列
-            if re.match(r'^\d+(?:\.\d+)*$', current_num) and re.match(r'^\d+(?:\.\d+)*$', next_num):
-                # 转换为数字列表
-                current_parts = list(map(int, current_num.split('.')))
-                next_parts = list(map(int, next_num.split('.')))
-                
-                # 检查层级
-                if len(current_parts) == len(next_parts):
-                    # 同级标题，检查是否连续
-                    if next_parts[-1] != current_parts[-1] + 1:
+        # 无法解析则跳过
+        if curr_lv == 0 or next_lv == 0: continue
+
+        # --- 情况 A: 同级 (1.1 -> 1.2) ---
+        if curr_lv == next_lv:
+            if curr_lv == 4: # 列表比较 [1, 1] -> [1, 2]
+                if len(curr_val) == len(next_val):
+                    # 前缀必须相同，仅末位递增
+                    if curr_val[:-1] != next_val[:-1] or next_val[-1] != curr_val[-1] + 1:
+                        if next_val[-1] - curr_val[-1] > 5: continue # 忽略大跳跃
                         return True
-                elif len(next_parts) == len(current_parts) + 1:
-                    # 下一级标题，应该从1开始
-                    if next_parts[-1] != 1:
-                        return True
-                # 不同层级但不是下一级，不视为跳过
-    return False
+            else: # 整数比较
+                if next_val - curr_val > 5: continue # 忽略大跳跃(如年份)
+                if next_val != curr_val + 1:
+                    return True
 
-# 检查是否是Title_Mixed
-def check_title_mixed(subtitles):
-    if len(subtitles) < 2:
-        return False
-    
-    # 检查是否有不同格式的标题混合
-    has_chinese_num = False
-    has_arabic_num = False
-    
-    for subtitle in subtitles:
-        if re.match(r'^[一二三四五六七八九十]+', subtitle):
-            has_chinese_num = True
-        if re.match(r'^\d+', subtitle):
-            has_arabic_num = True
-        
-        if has_chinese_num and has_arabic_num:
-            return True
-    
-    return False
+        # --- 情况 B: 进级/子标题 (1. -> 1.1, 一、 -> （一）) ---
+        elif next_lv == curr_lv + 1:
+            # 下一级必须从 1 开始 (或 1.1)
+            is_start = False
+            if next_lv == 4: 
+                # Level 4 比较特殊，[X, 1] 算开始
+                if next_val[-1] == 1: is_start = True
+            else:
+                if next_val == 1: is_start = True
+            
+            if not is_start:
+                return True
 
-# 检查文件类型
-def check_file_type(file_path):
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-    except Exception as e:
-        return 'Initially_Unstructured'
-    
-    # 获取所有顶层键（包括第一层键）
-    all_keys = []
-    for key, value in data.items():
-        all_keys.append(key)
-        if isinstance(value, dict):
-            all_keys.extend(value.keys())
-    
-    # 条件(4)：检查是否有（上接xx页）
-    for key in all_keys:
-        if re.match(page_mixed_pattern, key):
-            return 'Page_Mixed'
-    
-    # 过滤出小标题（从第一个符合格式的开始）
-    valid_subtitles = []
-    found_first = False
-    for key in all_keys:
-        if is_subtitle(key):
-            found_first = True
-            valid_subtitles.append(key)
-        elif found_first:
-            # 找到第一个小标题后，忽略不符合格式的键
-            continue
-    
-    # 条件(5)：完全没有小标题
-    if not valid_subtitles:
-        return 'Initially_Unstructured'
-    
-    # 条件(6)：检查是否是Title_Mixed
-    if check_title_mixed(valid_subtitles):
-        return 'Title_Mixed'
-    
-    # 条件(2)：检查是否有跳过现象
-    if check_skip_phenomenon(valid_subtitles):
-        return 'Num_Error'
-    
-    # 条件(7)：默认情况
-    return 'Plausibly_Structured'
-
-import csv
-
-# 主函数
-def main(input, iter=0):
-    # 输入文件夹
-    input_folders = [input]
-    # 输出CSV文件
-    output_csv = f'error_report/strucheck_iter{iter}.csv'
-    
-    # 创建error_report目录
-    error_report_dir = 'error_report'
-    os.makedirs(error_report_dir, exist_ok=True)
-    
-    # 定义CSV表头，将Plausibly_Structured放在最后
-    headers = ['filename', 'Num_Error', 'Page_Mixed', 'Initially_Unstructured', 'Title_Mixed', 'Publication_Mixed', 'Year_Mixed', 'Mutiple_References', 'Dubiously_Fake_References', 'Plausibly_Structured']
-    
-    # 收集所有文件信息
-    all_files_info = []
-    
-    # 处理每个输入文件夹
-    for input_folder in input_folders:
-        if not os.path.exists(input_folder):
-            print(f"文件夹 {input_folder} 不存在，跳过")
-            continue
-        
-        # 处理文件夹中的每个文件
-        for filename in os.listdir(input_folder):
-            if not filename.endswith('.json'):
-                continue
-            
-            file_path = os.path.join(input_folder, filename)
-            
-            # 检查所有可能的问题
-            file_info = {
-                'filename': filename,
-                'Num_Error': 0,
-                'Page_Mixed': 0,
-                'Initially_Unstructured': 0,
-                'Title_Mixed': 0,
-                'Publication_Mixed': 0,
-                'Year_Mixed': 0,
-                'Mutiple_References': 0,
-                'Dubiously_Fake_References': 0,
-                'Plausibly_Structured': 0
-            }
-            
-            try:
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-            except Exception as e:
-                file_info['Initially_Unstructured'] = 1
-                all_files_info.append(file_info)
-                continue
-            
-            # 获取所有顶层键和第二层键
-            all_keys = []
-            for key, value in data.items():
-                all_keys.append(key)
-                if isinstance(value, dict):
-                    all_keys.extend(value.keys())
-            
-            # 忽略最早读到的键
-            if len(all_keys) >= 2:
-                # 检查第二个键是否是·xxx·形式
-                if re.match(publication_mixed_pattern, all_keys[1]):
-                    # 忽略前三个键
-                    if len(all_keys) > 3:
-                        all_keys = all_keys[3:]
-                else:
-                    # 忽略前两个键
-                    all_keys = all_keys[2:]
-            
-            # 检查Page_Mixed
-            page_mixed_found = False
-            for key in all_keys:
-                if re.match(page_mixed_pattern, key):
-                    file_info['Page_Mixed'] = 1
-                    page_mixed_found = True
-                    break
-            
-            # 检查Publication_Mixed
-            for key in all_keys:
-                if re.match(publication_mixed_pattern, key):
-                    file_info['Publication_Mixed'] = 1
-                    break
-            
-            # 检查Year_Mixed
-            for key in all_keys:
-                if re.search(year_mixed_pattern, key):
-                    file_info['Year_Mixed'] = 1
-                    break
-            
-            # 检查Mutiple_References
-            reference_count = 0
-            found_reference = False
-            found_subtitle_after_reference = False
-            for key in all_keys:
-                # 检查是否是参考文献
-                is_reference = False
-                for pattern in reference_patterns:
-                    if re.search(pattern, key):
-                        is_reference = True
-                        reference_count += 1
-                        found_reference = True
-                        break
-                
-                # 检查参考文献后是否有数字小标题
-                if found_reference:
-                    # 检查是否是数字开头的小标题
-                    if re.match(r'^\d+\s*[\.、。]?\s*', key):
-                        found_subtitle_after_reference = True
-                        break
-            
-            if reference_count >= 2:
-                file_info['Mutiple_References'] = 1
-            
-            # 检查Dubiously_Fake_References（参考文献后有数字小标题）
-            if found_subtitle_after_reference:
-                file_info['Dubiously_Fake_References'] = 1
-            
-            # 过滤出小标题
-            valid_subtitles = []
-            found_first = False
-            for key in all_keys:
-                if is_subtitle(key):
-                    found_first = True
-                    valid_subtitles.append(key)
-                elif found_first:
-                    continue
-            
-            # 检查Initially_Unstructured
-            if not valid_subtitles:
-                file_info['Initially_Unstructured'] = 1
-                all_files_info.append(file_info)
-                continue
-            
-            # 检查Title_Mixed
-            if check_title_mixed(valid_subtitles):
-                file_info['Title_Mixed'] = 1
-            
-            # 检查Num_Error（只有跳过和顺序反了才算）
-            if check_skip_phenomenon(valid_subtitles):
-                file_info['Num_Error'] = 1
-            
-            # 如果没有其他问题，标记为Plausibly_Structured
-            if not any([file_info['Num_Error'], file_info['Page_Mixed'], file_info['Initially_Unstructured'], file_info['Title_Mixed'], file_info['Publication_Mixed'], file_info['Year_Mixed'], file_info['Mutiple_References'], file_info['Dubiously_Fake_References']]):
-                file_info['Plausibly_Structured'] = 1
-            
-            all_files_info.append(file_info)
-            print(f"处理文件: {filename}")
-    
-    # 提取文件名中的数字部分用于排序
-    def extract_number(filename):
-        import re
-        match = re.search(r'full_(\d+)\.json', filename)
-        if match:
-            return int(match.group(1))
-        match = re.search(r'full_(\d+)', filename)
-        if match:
-            return int(match.group(1))
-        match = re.search(r'(\d+)', filename)
-        if match:
-            return int(match.group(1))
-        return 0
-    
-    # 按文件名数字部分升序排序
-    all_files_info.sort(key=lambda x: extract_number(x['filename']))
-    
-    # 统计各类问题的数量
-    total_files = len(all_files_info)
-    counts = {
-        'Num_Error': 0,
-        'Page_Mixed': 0,
-        'Initially_Unstructured': 0,
-        'Title_Mixed': 0,
-        'Publication_Mixed': 0,
-        'Year_Mixed': 0,
-        'Mutiple_References': 0,
-        'Dubiously_Fake_References': 0,
-        'Plausibly_Structured': 0
-    }
-    
-    for file_info in all_files_info:
-        for category in counts.keys():
-            if file_info[category] == 1:
-                counts[category] += 1
-    
-    # 计算比例并打印
-    report_lines = []
-    report_lines.append("===== 各类问题比例 =====")
-    for category, count in counts.items():
-        if total_files > 0:
-            percentage = (count / total_files) * 100
-            line = f"{category}: {count} ({percentage:.2f}%)"
-            report_lines.append(line)
+        # --- 情况 C: 退级/返回父级 (1.3 -> 2) 或 混合跳跃 ---
+        # 你的需求： "1.3 xxx" -> "2 xxx" 这种不算错。
+        # 这里的逻辑是：只要不是同级连续或严格的子级展开，其他层级跳转(如 L4 -> L3)一律视为“开启新章节”或“无关”，不报错。
         else:
-            line = f"{category}: 0 (0.00%)"
-            report_lines.append(line)
-    report_lines.append(f"总计: {total_files} 文件")
+            continue
+
+    return False
+
+# ================== 主程序 ==================
+
+def main(input_folder, iter_num=0):
+    report_dir = 'error_report'
+    os.makedirs(report_dir, exist_ok=True)
+    output_csv = os.path.join(report_dir, f'strucheck_iter{iter_num}.csv')
+    report_txt = os.path.join(report_dir, f'error_iter{iter_num}.txt')
     
-    # 打印到控制台
-    for line in report_lines:
-        print(line)
+    headers = ['filename', 'Num_Error', 'Page_Mixed', 'Initially_Unstructured', 
+               'Title_Mixed', 'Publication_Mixed', 'Year_Mixed', 
+               'Mutiple_References', 'Dubiously_Fake_References', 'Plausibly_Structured']
+    all_results = []
+
+    if not os.path.exists(input_folder): return
+
+    files = sorted([f for f in os.listdir(input_folder) if f.endswith('.json')],
+                   key=lambda x: int(re.search(r'\d+', x).group()) if re.search(r'\d+', x) else 0)
+
+    for filename in files:
+        file_info = {k: 0 for k in headers}; file_info['filename'] = filename
+        try:
+            with open(os.path.join(input_folder, filename), 'r', encoding='utf-8') as f:
+                data = json.load(f)
+        except:
+            file_info['Initially_Unstructured'] = 1; all_results.append(file_info); continue
+        
+        all_keys = list(data.keys())
+        
+        # --- 步骤 1: 确定检查起点 ---
+        # 跳过前两个键 (文件名和标题)，继续跳过摘要、英文名、及顶层出版信息
+        idx = 2
+        while idx < len(all_keys):
+            key = all_keys[idx]
+            if is_meta_key(key) or re.match(publication_mixed_pattern, key):
+                idx += 1
+            elif not is_heading(key) and len(key) > 20: 
+                idx += 1
+            else:
+                break
+        
+        # 截取范围并彻底过滤干扰元数据
+        keys_to_check = [k for k in all_keys[idx:] if not is_meta_key(k)]
+        valid_headings = [k for k in keys_to_check if is_heading(k)]
+        valid_subs = [k for k in keys_to_check if is_subtitle(k)]
+
+        if not valid_subs:
+            file_info['Initially_Unstructured'] = 1; all_results.append(file_info); continue
+
+        # --- 步骤 2: Publication_Mixed 专项检查 (仅在第一个序号到参考文献之间) ---
+        first_h, first_ref = -1, len(keys_to_check)
+        for i, k in enumerate(keys_to_check):
+            if first_h == -1 and is_heading(k): first_h = i
+            if is_reference(k): first_ref = i; break
+        if first_h != -1 and first_h < first_ref:
+            for k in keys_to_check[first_h : first_ref]:
+                if re.match(publication_mixed_pattern, k):
+                    file_info['Publication_Mixed'] = 1; break
+
+        # --- 步骤 3: 其他错误判定 ---
+        if check_title_mixed(keys_to_check): file_info['Title_Mixed'] = 1
+        if check_num_error(valid_headings): file_info['Num_Error'] = 1
+        
+        for k in keys_to_check:
+            if re.match(page_mixed_pattern, k): file_info['Page_Mixed'] = 1
+            if re.search(year_mixed_pattern, k): file_info['Year_Mixed'] = 1
+        
+        ref_count, found_ref, fake_ref = 0, False, False
+        for k in keys_to_check:
+            if is_reference(k): ref_count += 1; found_ref = True
+            elif found_ref and re.match(r'^\d+\s*[\.、。]?\s*', k): fake_ref = True
+        
+        if ref_count >= 2: file_info['Mutiple_References'] = 1
+        if fake_ref: file_info['Dubiously_Fake_References'] = 1
+            
+        if not any(file_info[f] for f in headers[1:-1]): file_info['Plausibly_Structured'] = 1
+        all_results.append(file_info)
+
+    # --- 步骤 4: 输出报告 ---
+    total = len(all_results)
+    stats_lines = ["===== 各类问题比例 ====="]
+    for h in headers[1:]:
+        cnt = sum(r[h] for r in all_results)
+        pct = (cnt / total * 100) if total > 0 else 0
+        stats_lines.append(f"{h}: {cnt} ({pct:.2f}%)")
+    stats_lines.append(f"总计: {total} 文件")
     
-    # 写入到文件
-    report_file = os.path.join('error_report', f'errors_iter{iter}.txt')
-    with open(report_file, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(report_lines))
-    print(f"\n报告已保存到: {report_file}")
+    with open(report_txt, 'w', encoding='utf-8') as f: f.write("\n".join(stats_lines))
+    with open(output_csv, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=headers)
+        writer.writeheader(); writer.writerows(all_results)
     
-    # 写入CSV文件
-    with open(output_csv, 'w', newline='', encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=headers)
-        writer.writeheader()
-        for file_info in all_files_info:
-            writer.writerow(file_info)
-    
-    print(f"\nCSV文件已生成: {output_csv}")
-    print("文件按文件名升序排序")
+    print(f"\n[Iteration {iter_num}] 已生成报告至 {report_dir}")
+    print("\n".join(stats_lines))
 
 if __name__ == "__main__":
-    iteration = 0
-    main(f'all_json_iter{iteration}', iteration)
-    iteration += 1
-    main(f'all_json_iter{iteration}', iteration)
-
+    main('all_json_iter0', 0)
+    main('all_json_iter1', 1)
