@@ -36,35 +36,45 @@ class HierarchyValidator:
             return False
         return True
 
-# ================== 2. 提取器與正則配置 (重點修改部分) ==================
+# ================== 2. 提取器與正則配置 (整合修復版) ==================
 
+# 更新後的正則列表：支持5位數，支持緊貼型標題
 ID_PATTERNS = [
     re.compile(r'^0(?=[^\d])'),              
-    re.compile(r'^\d{1,3}(?:\.\d+){1,3}[\s\.、．]*'), 
-    re.compile(r'^\d{1,3}\s*[\.、．]\s*'),        
+    # 支持 1-5 位數的多級序號，如 1.2.3 或 12345.1
+    re.compile(r'^\d{1,5}(?:\.\d+){1,5}[\s\.、．]*'), 
+    # 支持 1-5 位數的單級序號，如 1. 或 123、 或 12345．
+    re.compile(r'^\d{1,5}\s*[\.、．]\s*'),        
+    # 中文數字
     re.compile(r'^[一二三四五六七八九十]+\s*[、．]\s*'), 
     re.compile(r'^●\s*'),                    
-    re.compile(r'^\d{1,3}\)\s*')                 
+    # 支持 1-5 位數的括號序號
+    re.compile(r'^\d{1,5}\)\s*'),
+    # 【新增】支持數字與文字緊貼的情況 (Lookahead)，如 "2統一管理"
+    re.compile(r'^\d{1,5}(?=[^\d\s\.、．])') 
 ]
 
-# 擴充了強特徵詞，包含常見的定義起始詞和轉折詞
+# 強特徵詞 (保持不變)
 STRONG_STARTERS = {
-    "所謂", "顧名思義", "意指", "是指", "即", "也就是說", "換言之",
-    "眾所周知", "顯而易見", "不可否認", "誠然", "反之", "事實上",
-    "實際上", "毫無疑問", "一般認為", "值得注意", "比如", "例如",
-    "因此", "然而", "但是", "長期以來", "自古以來", "早在", "近年來",
-    "大量的", "大量", "研究表明", "表明", "綜上所述", "根據", "對於",
-    "通常", "主要", "它是", "指", "包括", "其特徵", "是"
+    "所谓", "顾名思义", "意指", "是指", "即", "也就是说", "换言之",
+    "众所周知", "显而易见", "不可否认", "诚然", "反之", "事实上",
+    "实际上", "毫无疑问", "一般认为", "值得注意", "比如", "例如",
+    "因此", "然而", "但是", "长期以来", "自古以来", "早在", "近年来",
+    "大量的", "大量", "研究表明", "表明", "综上所述", "根据", "对于",
+    "通常", "主要", "它是", "指", "包括", "其特征", "是"
 }
 
 def extract_title_body(text, current_parent_id=None):
     """
     提取標題，並進行層級校驗。
-    改進點：遇到句號強制截斷、遇到人名強制截斷、遇到定義詞強制截斷。
+    整合修復：
+    1. 支持緊貼型序號 (2統一...)
+    2. 排除世紀/年代/年份誤判 (1989年...)，防止層級中斷
     """
     id_match = None
     longest_match_len = 0
     
+    # 1. 嘗試匹配所有 ID 模式，取最長匹配
     for pattern in ID_PATTERNS:
         match = pattern.match(text)
         if match:
@@ -76,30 +86,40 @@ def extract_title_body(text, current_parent_id=None):
         return False, None, text
 
     section_id = id_match.group(0).strip()
-    
-    # === 校驗 1: 層級邏輯 ===
+    clean_text = text[id_match.end():] # 標題候選內容 (去除 ID 後)
+
+    # === 【關鍵修復 A】年份誤判防禦 (防止 1989年... 打斷層級) ===
+    # 如果提取出的 ID 恰好是 4 位數字，且後續緊跟 "年" 字
+    # 例如：text="1989年9月..." -> id="1989", clean="年9月..."
+    # 這通常是年份描述，而非標題
+    if re.fullmatch(r'\d{4}', section_id) and clean_text.strip().startswith('年'):
+        return False, None, text
+
+    # === 【關鍵修復 B】世紀/年代誤判防禦 ===
+    # 排除 "20 世紀"、"80 年代" 等
+    if re.match(r'^\s*(世纪|世紀|年代)', clean_text):
+        return False, None, text
+
+    # === 校驗 1: 層級邏輯 (防禦性核心) ===
+    # 只有通過了上面的年份過濾，才會進入這裡
+    # 這樣 "1989" 就不會作為父級 ID 傳入，保證了 "一、" -> "二、" 的連續性
     if not HierarchyValidator.is_valid_continuation(current_parent_id, section_id):
         return False, None, text
 
-    clean_text = text[id_match.end():]
-
-    # === 校驗 2: 年份粘連防禦 ===
+    # === 校驗 2: 年份粘連防禦 (舊邏輯保留) ===
+    # 防止 "1. 1998年..." 這種情況
     if re.match(r'^\s*[12]\d{3}年', clean_text):
         return False, None, text
 
-    # === 核心改進：確定搜索邊界 (Hard Limit) ===
+    # === 核心：確定搜索邊界 (Hard Limit) ===
     # 規則：標題絕對不會跨越句號、問號或感嘆號
-    # 找到第一個結束性標點
     sentence_end_match = re.search(r'[。？！\?!]', clean_text)
     
-    # 如果找到了句號，這就是絕對邊界
     if sentence_end_match:
-        # 標題候選區間只到標點符號為止（包含標點）
         limit_index = sentence_end_match.end()
         search_window = clean_text[:limit_index]
         has_punctuation = True
     else:
-        # 如果沒句號，限制在 50 字以內，避免標題太長
         limit_index = min(len(clean_text), 50)
         search_window = clean_text[:limit_index]
         has_punctuation = False
@@ -114,12 +134,12 @@ def extract_title_body(text, current_parent_id=None):
         word = w.word
         flag = w.flag
         
-        # 1. 遇到人名 (nr)，立即截斷！(防禦 "邱曉威等")
+        # 1. 遇到人名 (nr)，立即截斷！
         if flag.startswith('nr'): 
             split_index = current_len
             break
             
-        # 2. 遇到強特徵詞/代詞/書名號
+        # 2. 遇到強特徵詞 (Strong Starters)
         if word in STRONG_STARTERS:
             split_index = current_len
             break
@@ -129,8 +149,7 @@ def extract_title_body(text, current_parent_id=None):
             split_index = current_len
             break
 
-        # 4. 遇到書名號《，通常標題不包含書名號後的長描述，視情況截斷
-        # 但有些標題就是《xxx》簡介，所以這裡放寬，只有當前面已有內容時才考慮
+        # 4. 遇到書名號《，視情況截斷
         if word == '《' and current_len > 15: 
             split_index = current_len
             break
@@ -139,34 +158,30 @@ def extract_title_body(text, current_parent_id=None):
 
     # === 結果判定 ===
     
-    # 情況 A: 循環中找到了分割點 (例如遇到"所謂"或人名)
+    # 情況 A: 循環中找到了分割點
     if split_index != -1:
         title_content = clean_text[:split_index].strip()
         body_content = clean_text[split_index:].strip()
     
     # 情況 B: 沒找到分割點，但原本就有句號
     elif has_punctuation:
-        # 整個候選區間就是標題 (包含句號)
-        # 例如: "三、 應用研究成果具有較大的實用價值。"
         title_content = clean_text[:limit_index].strip()
         body_content = clean_text[limit_index:].strip()
         
-    # 情況 C: 沒句號，也沒特徵詞，採用長度或逗號兜底
+    # 情況 C: 沒句號，也沒特徵詞
     else:
         # 嘗試找逗號或分號
         punc_match = re.search(r'[，；：,:]', search_window)
         if punc_match:
             split_index = punc_match.start()
         else:
-            # 強制截斷長度，避免把一段話當標題
-            split_index = min(len(clean_text), 25) # 標題通常不超過25字
+            split_index = min(len(clean_text), 25) # 兜底長度
             
         title_content = clean_text[:split_index].strip()
         body_content = clean_text[split_index:].strip()
 
-    # 最後清洗：如果標題是空的（只有 ID），視為無效或純 ID
+    # 最後清洗
     if not title_content and not body_content:
-        # 只有 ID 沒有內容，可能正文在後面
         return True, section_id, ""
         
     full_title = f"{section_id} {title_content}"
@@ -177,7 +192,7 @@ def extract_title_body(text, current_parent_id=None):
 def fix_key_text(key):
     PROTECTED = {"911", "985", "211", "315"}
     if re.fullmatch(r'\d{6}', key): return key
-    match_century = re.match(r'^(\d+(?:\.\d+)*?)\s*(2[01]世紀|2[01]世纪.*)', key)
+    match_century = re.match(r'^(\d+(?:\.\d+)*?)\s*(2[01]世紀|2[01]世纪|1[89]世紀|1[89]世纪.*)', key)
     if match_century:
         p1, p2 = match_century.groups()
         if p1 not in PROTECTED: return f"{p1} {p2}"
@@ -193,6 +208,8 @@ def fix_key_text(key):
 
 # ================== 4. 單文件處理流程 (修改後：移除截斷) ==================
 
+# ================== 4. 單文件處理流程 (修復父級ID誤判) ==================
+
 def process_single_file(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -203,9 +220,20 @@ def process_single_file(file_path):
         for main_key, main_value in data.items():
             clean_main_key = fix_key_text(main_key)
             current_section_id = None
-            id_match_top = re.match(r'^(\d+(?:\.\d+)*|[一二三四五]+)', clean_main_key)
+            
+            # === 【核心修復】父級 ID 提取邏輯優化 ===
+            # 尝试从 Key 中提取 ID
+            id_match_top = re.match(r'^(\d+(?:\.\d+)*|[一二三四五六七八九十]+)', clean_main_key)
             if id_match_top:
-                current_section_id = id_match_top.group(1)
+                candidate_id = id_match_top.group(1)
+                remaining_text = clean_main_key[id_match_top.end():].strip()
+                
+                # 防禦規則：如果提取出的 ID 是 4 位數字且後面緊跟“年”，則判定這不是章節號 (如 "1989年...")
+                # 此時 current_section_id 保持為 None，這樣內部的 "二、" 就不會因為父級是 1989 而被攔截
+                if re.fullmatch(r'\d{4}', candidate_id) and remaining_text.startswith('年'):
+                    current_section_id = None
+                else:
+                    current_section_id = candidate_id
 
             current_section_key = clean_main_key
             if current_section_key not in new_data:
@@ -214,7 +242,7 @@ def process_single_file(file_path):
             section_counters = {current_section_key: 1}
             
             if isinstance(main_value, dict):
-                # 這裡保持原始順序或按需排序，這裡維持原邏輯
+                # 保持原始順序或按需排序
                 sorted_keys = sorted(main_value.keys(), 
                                    key=lambda x: int(re.search(r'\d+', x).group()) if re.search(r'\d+', x) else 0)
                 
@@ -222,11 +250,14 @@ def process_single_file(file_path):
                     text = main_value[ctx_key]
                     if not isinstance(text, str): continue
                     
+                    # 這裡調用的 extract_title_body 必須是之前更新過的版本 (包含年份防禦)
                     is_new, new_title, new_body = extract_title_body(text, current_section_id)
                     
                     if is_new:
                         current_section_key = new_title
-                        new_id_match = re.match(r'^(\d+(?:\.\d+)*|[一二三四五]+)', new_title)
+                        
+                        # 更新當前 ID，以便後續內容能通過校驗 (例如提取出 "二、" 後，下一個 "三、" 的 parent 就是 2)
+                        new_id_match = re.match(r'^(\d+(?:\.\d+)*|[一二三四五六七八九十]+)', new_title)
                         if new_id_match:
                             current_section_id = new_id_match.group(1)
 
@@ -244,9 +275,6 @@ def process_single_file(file_path):
                         section_counters[current_section_key] += 1
             else:
                 new_data[clean_main_key] = main_value
-        
-        # [修改]：移除了 truncate_after_references 調用，防止誤刪
-        # final_data = truncate_after_references(new_data) 
         
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(new_data, f, ensure_ascii=False, indent=4)

@@ -8,29 +8,60 @@ from concurrent.futures import ProcessPoolExecutor
 # --- 在 YM_mend_iter1.py 中更新 fix_key_text 函數 ---
 
 def fix_key_text(key):
-    PROTECTED = {"911", "985", "211", "315"}
+    """
+    修復鍵名中的粘連問題，包含年份、世紀、年代以及特定關鍵詞（985/211等）。
+    """
+    PROTECTED_KEYWORDS = {"911", "985", "211", "315"}
+    
+    # 0. 基礎過濾：如果是純6位數字（如股票代碼），直接返回
     if re.fullmatch(r'\d{6}', key): return key
+    # 如果完全等於保護詞，直接返回
+    if key in PROTECTED_KEYWORDS: return key
 
-    # 使用 (*?) 非貪婪匹配，確保 2.221世纪 能正確拆分為 2.2 和 21世纪
-    # 模式 1: 序號 + 世紀
-    match_century = re.match(r'^(\d+(?:\.\d+)*?)\s*(2[01]世纪.*)', key)
+    # ================== 新增規則 ==================
+
+    # 規則 A: [新增] 處理 "ID + 985/211..." 的粘連 (例如 "4985高校" -> "4 985高校")
+    # 邏輯：單個數字 + 保護詞 + 任意內容
+    # 注意：需防止 "1985年" 被誤拆為 "1 985年"，所以排除後面緊跟 "年" 或 "-" 的情況
+    match_protected = re.match(r'^(\d)(985|211|315|911)(.*)', key)
+    if match_protected:
+        id_val, keyword, rest = match_protected.groups()
+        # 防禦誤判：如果拆分後看起來像年份（如 1+985+年 = 1985年），則不拆分
+        is_year_misjudgment = (id_val == '1' and keyword in ['985', '911'] and re.match(r'^[\s\.]*[年\-\－]', rest))
+        if not is_year_misjudgment:
+            return f"{id_val} {keyword}{rest}"
+
+    # 規則 B: [新增] 處理 "ID + 年份區間" 的粘連 (例如 "31978－2007年")
+    # 邏輯：數字 + (1或2開頭的4位年份) + (區間連接符)
+    # 這裡的連接符涵蓋了全形/半形破折號、波浪號等
+    match_year_range = re.match(r'^(\d+)([12]\d{3}[－\-—~～].*)', key)
+    if match_year_range:
+        id_val, rest = match_year_range.groups()
+        return f"{id_val} {rest}"
+
+    # ================== 原有規則優化 ==================
+
+    # 規則 C: 處理 "ID + 世紀" (例如 "2.221世紀" -> "2.2 21世紀")
+    match_century = re.match(r'^(\d+(?:\.\d+)*?)\s*(2[01]世紀|2[01]世纪.*)', key)
     if match_century:
         p1, p2 = match_century.groups()
-        if p1 not in PROTECTED:
+        if p1 not in PROTECTED_KEYWORDS:
             return f"{p1} {p2}"
 
-    # 模式 2: 序號 + 年份
+    # 規則 D: 處理 "ID + 年份 + 年" (例如 "1.11998年" -> "1.1 1998年")
+    # 使用非貪婪匹配 *? 確保盡可能少地匹配 ID
     match_year = re.match(r'^(\d+(?:\.\d+)*?)\s*([12]\d{3}年.*)', key)
     if match_year:
         p1, p2 = match_year.groups()
-        if p1 not in PROTECTED:
+        if p1 not in PROTECTED_KEYWORDS:
             return f"{p1} {p2}"
 
-    # 維持原有的年代修復邏輯...
-    match_3 = re.match(r'^(\d)(\d{2})(年代.*)', key)
-    if match_3:
-        p1, p2, p3 = match_3.groups()
-        if (p1 + p2) not in PROTECTED:
+    # 規則 E: 處理 "ID + 年代" (例如 "390年代" -> "3 90年代")
+    match_era = re.match(r'^(\d)(\d{2})(年代.*)', key)
+    if match_era:
+        p1, p2, p3 = match_era.groups()
+        # 避免把 911年代 拆成 9 11年代（雖然少見）
+        if (p1 + p2) not in PROTECTED_KEYWORDS:
             return f"{p1} {p2}{p3}"
 
     return key
