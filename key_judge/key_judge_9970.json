@@ -1,0 +1,12 @@
+{
+    "·综 述·": "True",
+    "都柏林核心元数据研究的新进展": "True",
+    "New Research Progress on Dublin Core Metadata": "True",
+    "1引言": "True",
+    "2DC研究的系列成果及最新进展": "True",
+    "3小 结": "True",
+    "参考文献": "References",
+    "1 The Dublin Core Metadata Initiative $\\cdot$ http": "References",
+    "(上接第567页)": "False",
+    "WHERE $\\mathrm { S T C D 5 } { = } \\ @ _ { \\mathrm { v a r S T C D 5 ~ A N D ~ D T } } { = } \\ @ _ { \\mathrm { v a r D T } }$ IF $@ _ { \\mathrm { r o w } } = 0$ INSERT INTO QB _SPRPR values（ $\\textcircled { \\sc { \\tt O } } _ { \\mathrm { v a r S T C D } ^ { 5 } }$ ，  \n@varDT,@varPRPR,@varPRWTHR,O)ELSEUPDATE QB - SPRPR set $\\mathrm { P R P R } \\ = \\ \\textcircled { \\otimes } _ { \\mathrm { v a r P R P R } }$ ，  \n$\\mathrm { W T H R } = \\ @ _ { \\mathrm { v } }$ arPRWTHRFROMQB_SPRPRWHERE $\\mathrm { S T C D ^ { 5 } \\ } = \\ \\textcircled { \\sc } _ { \\mathrm { v a r S T C D ^ { 5 } } }$ and $\\begin{array} { r l } { \\mathrm { D T } } & { { } = } \\end{array}$   \n${ \\ @ _ { \\mathrm { v a r D T } } }$   \nEND  \nIF @varDT _ $\\mathrm { R N } < >$ NULL AND $\\textcircled { 2 } _ { \\mathrm { v a r D Y } _ { \\mathrm { ~ - ~ } } \\mathrm { R N } } < >$   \nNULL  \nBEGINSELECT $\\circledcirc _ { \\mathrm { r o w } } = _ { \\mathrm { C O U N T ( \\Sigma ^ { \\star } ) } }$ FROM QB_SPRPRWHERE $\\mathrm { S T C D 5 } { =...": "False"
+}
